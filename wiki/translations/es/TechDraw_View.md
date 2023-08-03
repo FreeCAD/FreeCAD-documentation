@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw View
    Name/es: TechDraw Vista
-   MenuLocation: TechDraw -> Insertar Vista
+   MenuLocation: TechDraw , Insertar Vista
    Workbenches: TechDraw_Workbench/es
    SeeAlso: TechDraw_ProjectionGroup/es, TechDraw_SectionView/es
 ---

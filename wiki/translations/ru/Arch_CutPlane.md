@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CutPlane
    Name/ru: Arch CutPlane
-   MenuLocation: Архитектура -> Срезать по плоскости образца
+   MenuLocation: Архитектура , Срезать по плоскости образца
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch Remove/ru
 ---

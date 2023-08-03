@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CubicBezCurve
    Name/es: Borrador CubicBezCurva
-   MenuLocation: Dibujo -> Herramientas Bézier -> Cubic Curva Bézier
+   MenuLocation: Dibujo , Herramientas Bézier , Cubic Curva Bézier
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.19
    SeeAlso: Draft_BezCurve/es, Draft_BSpline/es

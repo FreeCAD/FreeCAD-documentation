@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/ro: Constrângere fixă
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Constrângeri desenator -> Constrângere fixă
+   MenuLocation: Sketch , Constrângeri desenator , Constrângere fixă
    SeeAlso: Sketcher ConstrainBlock/ro
 ---
 

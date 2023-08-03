@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Survey
    Name/ru: Arch Survey
-   MenuLocation: Архитектура -> Опрос/анкетирование
+   MenuLocation: Архитектура , Опрос/анкетирование
    Workbenches: Arch_Workbench/ru
    SeeAlso: Macro FCInfo/ru
 ---

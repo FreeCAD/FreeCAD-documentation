@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FlipNormals
-   MenuLocation: Meshes -> Flip normals
+   MenuLocation: Meshes , Flip normals
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_HarmonizeNormals
 ---

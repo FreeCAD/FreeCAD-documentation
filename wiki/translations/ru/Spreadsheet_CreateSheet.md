@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet CreateSheet
    Name/ru: Создать электронную таблицу
-   MenuLocation: Spreadsheet -> Создать электронную таблицу
+   MenuLocation: Spreadsheet , Создать электронную таблицу
    Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---

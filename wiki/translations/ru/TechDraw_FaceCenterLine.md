@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить осевую линию к граням
    Name: TechDraw_FaceCenterLine
-   MenuLocation: TechDraw -> Добавить Линии -> Add Centerline to Face
+   MenuLocation: TechDraw , Добавить Линии , Add Centerline to Face
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/ru, TechDraw_2LineCenterLine/ru, TechDraw_2PointCenterLine/ru, TechDraw_CosmeticEraser/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_HarmonizeNormals
    Name/it: Armonizza le normali
-   MenuLocation: Mesh -> Armonizza le normali
+   MenuLocation: Mesh , Armonizza le normali
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_FlipNormals/it
 ---

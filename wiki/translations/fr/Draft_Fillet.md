@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Fillet
    Name/fr: Draft Congé
-   MenuLocation: Draft -> Congé
+   MenuLocation: Draft , Congé
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **F** **I**
    Version: 0.19

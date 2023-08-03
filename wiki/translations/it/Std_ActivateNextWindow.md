@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ActivateNextWindow
    Name/it: Prossima
-   MenuLocation: Finestre -> Prossima
+   MenuLocation: Finestre , Prossima
    Workbenches: Tutti
    Shortcut: **Ctrl**+**Tab**
    SeeAlso: Std_ActivatePrevWindow/it, Std_Windows/it

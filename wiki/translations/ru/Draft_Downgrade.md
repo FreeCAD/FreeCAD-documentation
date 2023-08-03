@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/ru: Draft Downgrade
    MenuLocation: Черчение -> Перестроить

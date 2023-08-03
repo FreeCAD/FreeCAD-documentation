@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LandmarkDimension
    Name/fr: TechDraw Dimension de repère
-   MenuLocation: TechDraw -> Dimensions -> Insérer une cote à partir des points du repère - EXPÉRIMENTAL
+   MenuLocation: TechDraw , Dimensions , Insérer une cote à partir des points du repère - EXPÉRIMENTAL
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_HorizontalDimension/fr, TechDraw_VerticalDimension/fr

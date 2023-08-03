@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Labels
    Name/fr: Plot Etiquettes
-   MenuLocation: Plot -> Définir les étiquettes
+   MenuLocation: Plot , Définir les étiquettes
    Workbenches: Plot_Workbench/fr
 ---
 

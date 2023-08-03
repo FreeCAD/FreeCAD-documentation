@@ -1,9 +1,9 @@
 # Draft Snap Dimensions/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/ru: Draft Snap Dimensions
-   MenuLocation: Черчение-> Draft Snap/ru -> Размеры
+   MenuLocation: Черчение, Draft Snap/ru , Размеры
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: ---

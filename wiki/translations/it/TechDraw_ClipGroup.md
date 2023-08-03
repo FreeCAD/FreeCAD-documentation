@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_ClipGroup
    Name/it: Gruppo di clip
-   MenuLocation: TechDraw -> Gruppo di clip
+   MenuLocation: TechDraw , Gruppo di clip
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_ClipGroupAdd/it, TechDraw_ClipGroupRemove/it
 ---

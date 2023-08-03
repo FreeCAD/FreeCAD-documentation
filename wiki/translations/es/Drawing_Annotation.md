@@ -1,6 +1,6 @@
 # Drawing Annotation/es
 ---
-- GuiCommand:   Name: Drawing Annotation   Name/es: Drawing Annotation   Workbenches: Drawing Workbench/es   Drawing, Complete|MenuLocation: Drawing -> Annotation   Shortcut: none---
+ GuiCommand:   Name: Drawing Annotation   Name/es: Drawing Annotation   Workbenches: Drawing Workbench/es   Drawing, Complete|MenuLocation: Drawing , Annotation   Shortcut: none---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialMechanicalNonlinear
    Name/ru: FEM Нелинейный механический материал
-   MenuLocation:  Model -> Materials -> Нелинейный механический материал
+   MenuLocation:  Model , Materials , Нелинейный механический материал
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_tutorial/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Reference
    Name/ru: Ссылка
-   MenuLocation: Arch -> Ссылка
+   MenuLocation: Arch , Ссылка
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch_BuildingPart/ru
 ---

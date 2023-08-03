@@ -1,6 +1,6 @@
 # Arch Window/it
 ---
-- GuiCommand:   Name: Arch Window   Name/it: Finestra   Workbenches: Arch_Workbench/it   Architettura, Arch Add/it---
+ GuiCommand:   Name: Arch Window   Name/it: Finestra   Workbenches: Arch_Workbench/it   Architettura, Arch Add/it---
 
 
 

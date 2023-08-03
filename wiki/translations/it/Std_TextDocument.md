@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_TextDocument
    Name/it: Aggiungi un documento di testo
-   MenuLocation: Strumenti -> Aggiungi un documento di testo
+   MenuLocation: Strumenti , Aggiungi un documento di testo
    Workbenches: Tutti
    Version: 0.19
    SeeAlso: Draft ShapeString/it, Draft Text/it

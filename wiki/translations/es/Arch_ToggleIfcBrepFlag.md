@@ -1,6 +1,6 @@
 # Arch ToggleIfcBrepFlag/es
 ---
-- GuiCommand:   Name: Arch ToggleIfcBrepFlag   Workbenches: Arch_Workbench/es   Arch|MenuLocation: Arch -> Utilities -> Toggle Ifc Brep flag   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Arch ToggleIfcBrepFlag   Workbenches: Arch_Workbench/es   Arch|MenuLocation: Arch , Utilities , Toggle Ifc Brep flag   Shortcut:    SeeAlso: ---
 
 
 </div>

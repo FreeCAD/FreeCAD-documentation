@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint SnellsLaw
    Name/es: Restricción de refracción 
-   MenuLocation: Sketch -> Restricciones de croquis -> Restricción de refracción 
+   MenuLocation: Sketch , Restricciones de croquis , Restricción de refracción 
    Workbenches: Sketcher Workbench/es
 ---
 

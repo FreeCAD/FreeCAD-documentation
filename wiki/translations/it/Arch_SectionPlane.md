@@ -1,10 +1,10 @@
 # Arch SectionPlane/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SectionPlane
    Name/it: Piano di sezione
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Piano di sezione
+   MenuLocation: Arch , Piano di sezione
    Shortcut: **S** **P**
    SeeAlso: Draft Shape2DView/it, TechDraw_ArchView/it---
 

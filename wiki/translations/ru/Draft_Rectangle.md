@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/ru: Draft Rectangle
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface_GeomFillSurface
    Name/it: Surface GeomFillSurface
-   MenuLocation: Surface -> Fill boundary curves
+   MenuLocation: Surface , Fill boundary curves
    Workbenches: Surface_Workbench/it
    Version: 0.17
 ---

@@ -1,6 +1,6 @@
 # Part Thickness/it
 ---
-- GuiCommand:   Name: Part_Thickness   Name/it: Spessore   MenuLocation: Parte -> Spessore...   ---
+ GuiCommand:   Name: Part_Thickness   Name/it: Spessore   MenuLocation: Parte , Spessore...   ---
 
 
 </div>

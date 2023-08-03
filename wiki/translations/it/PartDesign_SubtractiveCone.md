@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCone/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveCone   Name/it: Cono sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveCone   Name/it: Cono sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDecreaseDecimal
    Name/pl: Rysunek Techniczny: Rozszerzenie Zmniejsz ilość cyfr po przecinku
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Zmniejsz ilość cyfr po przecinku
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Wymiary , Zmniejsz ilość cyfr po przecinku
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

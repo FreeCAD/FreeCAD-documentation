@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Landscape A3
    Name/it: Nuovo disegno A3
    Workbenches: Drawing Workbench/it, Completo
-   MenuLocation: Disegno -> Nuovo disegno -> A3 Orizzontale
+   MenuLocation: Disegno , Nuovo disegno , A3 Orizzontale
    Shortcut: Nessuno
 ---
 

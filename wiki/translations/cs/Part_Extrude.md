@@ -1,6 +1,6 @@
 # Part Extrude/cs
 ---
-- GuiCommand:   Name: Part Extrude   Name/cs: Díl Vysunutí   MenuLocation: Díl -> Vysunutí   Workbenches: Part_Workbench/cs   Modul Díl, Kompletace|SeeAlso: ---
+ GuiCommand:   Name: Part Extrude   Name/cs: Díl Vysunutí   MenuLocation: Díl -> Vysunutí   Workbenches: Part_Workbench/cs   Modul Díl, Kompletace|SeeAlso: ---
 
 
 </div>

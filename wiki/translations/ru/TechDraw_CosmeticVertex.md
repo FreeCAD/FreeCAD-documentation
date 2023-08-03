@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить вспомогательную вершину
    Name: TechDraw_CosmeticVertex
-   MenuLocation: TechDraw -> Добавить Вершины -> Добавить вспомогательную вершину 
+   MenuLocation: TechDraw , Добавить Вершины , Добавить вспомогательную вершину 
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_Midpoints/ru, TechDraw_Quadrants/ru

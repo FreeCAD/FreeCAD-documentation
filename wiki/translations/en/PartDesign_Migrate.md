@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Migrate
-   MenuLocation: Part Design -> Migrate
+   MenuLocation: Part Design , Migrate
    Workbenches: PartDesign_Workbench
    Version: 0.17
 ---

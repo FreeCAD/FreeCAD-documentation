@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/it: Distanza Verticale   Workbenches: Sketcher Workbench/‭it
-   MenuLocation: Sketch -> Vincoli -> Distanza verticale
+   MenuLocation: Sketch , Vincoli , Distanza verticale
    Shortcut: Shift+V
    SeeAlso: Sketcher_ConstrainDistanceX/it, Sketcher_ConstrainDistance/it
 ---

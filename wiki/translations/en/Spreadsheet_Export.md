@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet Export
-   MenuLocation: Spreadsheet -> Export spreadsheet
+   MenuLocation: Spreadsheet , Export spreadsheet
    Workbenches: Spreadsheet_Workbench
    Version: 0.17
    SeeAlso: Spreadsheet_Import

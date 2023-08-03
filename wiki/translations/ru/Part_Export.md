@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Экспорт в CAD
    Name: Part_Export‎
-   MenuLocation: Part -> Экспорт в CAD ...
+   MenuLocation: Part , Экспорт в CAD ...
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Import/ru, Std_Export/ru, Import_Export/ru
 ---

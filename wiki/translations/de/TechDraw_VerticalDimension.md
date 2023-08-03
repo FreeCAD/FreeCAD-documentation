@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Vertical
    Name/de: TechDraw MaßVertikal
-   MenuLocation: TechDraw -> Bemaßungen -> Vertikales Maß einfügen
+   MenuLocation: TechDraw , Bemaßungen , Vertikales Maß einfügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: **Shift** + **V**
    SeeAlso: TechDraw_LengthDimension/de, TechDraw_HorizontalDimension/de

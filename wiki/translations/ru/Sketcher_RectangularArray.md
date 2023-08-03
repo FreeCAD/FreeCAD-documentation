@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Прямоугольный массив
    Name: Sketcher_RectangularArray
-   MenuLocation: Sketch -> Инструменты для эскиза -> Прямоугольный массив
+   MenuLocation: Sketch , Инструменты для эскиза , Прямоугольный массив
    Workbenches: Sketcher_Workbench/ru
    Version: 0.16
 ---

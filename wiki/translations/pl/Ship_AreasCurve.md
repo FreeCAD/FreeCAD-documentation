@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship AreasCurve
-   MenuLocation: Ship design -> Areas curve
+   MenuLocation: Ship design , Areas curve
    
    Shortcut: 
    SeeAlso: 

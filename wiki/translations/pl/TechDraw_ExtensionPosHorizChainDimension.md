@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionPosHorizChainDimension
    Name/pl: Rysunek Techniczny: Ułóż poziomą serię wymiarów
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Atrybuty / Modyfikatory -> Ułóż poziomą serię wymiarów
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Atrybuty / Modyfikatory , Ułóż poziomą serię wymiarów
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

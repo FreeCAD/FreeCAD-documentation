@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign WizardShaft
    Name/ru: PartDesign WizardShaft
-   MenuLocation: Part Design -> Shaft design wizard...
+   MenuLocation: Part Design , Shaft design wizard...
    Workbenches: PartDesign Workbench/ru, Complete
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeSolid
    Name/de: Part UmwandelnFestkörper
-   MenuLocation: Formteil -> Umwandeln in Festkörper
+   MenuLocation: Formteil , Umwandeln in Festkörper
    Workbenches: Part_Workbench/de
 ---
 

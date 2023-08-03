@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintBodyHeatSource
    Name/ru: FEM ConstraintBodyHeatSource
    Icon: Fem-constraint-heatflux.svg
-   MenuLocation:  Model -> Thermal constraints -> Constraint body heat source
+   MenuLocation:  Model , Thermal constraints , Constraint body heat source
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

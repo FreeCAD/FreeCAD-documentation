@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw AngleDimension
    Name/fr: TechDraw Cote angulaire
-   MenuLocation: TechDraw -> Dimensions -> Insérer une cote angulaire
+   MenuLocation: TechDraw , Dimensions , Insérer une cote angulaire
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_3PtAngleDimension/fr
 ---

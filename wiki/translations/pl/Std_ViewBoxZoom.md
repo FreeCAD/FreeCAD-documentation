@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Std ViewBoxZoom
    Name/pl: Std: Powiększ obszar
-   MenuLocation: Widok -> Powiększenie -> Powiększ obszar
+   MenuLocation: Widok , Powiększenie , Powiększ obszar
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **B**
    SeeAlso: Std_ViewZoomIn/pl,  Std_ViewZoomOut/pl

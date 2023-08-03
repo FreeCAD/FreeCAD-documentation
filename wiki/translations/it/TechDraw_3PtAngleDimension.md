@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Angle3Pt
    Name/it: Angolo da 3 punti
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw -> Angolo da 3 punti
+   MenuLocation: TechDraw , Angolo da 3 punti
    Shortcut: 
    SeeAlso: TechDraw_AngleDimension/it
 ---

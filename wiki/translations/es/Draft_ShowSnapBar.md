@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShowSnapBar
    Name/es: Draft ShowSnapBar
-   MenuLocation: Draft -> Utilities -> Show Snap Bar
+   MenuLocation: Draft , Utilities , Show Snap Bar
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 

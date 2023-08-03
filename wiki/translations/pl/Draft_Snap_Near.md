@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Near
    Name/pl: Rysunek Roboczy: Przyciągnij do najbliższego
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl

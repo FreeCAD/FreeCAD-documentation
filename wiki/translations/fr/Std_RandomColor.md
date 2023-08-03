@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RandomColor
    Name/fr: Std Couleur aléatoire
-   MenuLocation: Affichage -> Couleur aléatoire
+   MenuLocation: Affichage , Couleur aléatoire
    Workbenches: Tous
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SimpleCopy‎
    Name/pl: Część: Utwórz prostą kopię
-   MenuLocation: Część -> Utwórz kopię -> Utwórz prostą kopię
+   MenuLocation: Część , Utwórz kopię , Utwórz prostą kopię
    Workbenches: Part_Workbench/pl
    SeeAlso: Std_Copy/pl, Std_DuplicateSelection/pl, Part_TransformedCopy, Part_ElementCopy/pl, Part_RefineShape/pl
 ---

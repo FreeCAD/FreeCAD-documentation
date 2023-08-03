@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Angular
-   MenuLocation: Measure -> Measure Angular‏‎
+   MenuLocation: Measure , Measure Angular‏‎
    Workbenches: Part_Workbench
    SeeAlso: Draft_Dimension
 ---

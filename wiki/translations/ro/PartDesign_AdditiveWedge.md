@@ -1,6 +1,6 @@
 # PartDesign AdditiveWedge/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveWedge   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveWedge   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

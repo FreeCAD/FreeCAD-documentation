@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialReinforced
    Name/pl: MES Materiał wzmocniony
-   MenuLocation:  Model -> Materials -> Reinforced material 
+   MenuLocation:  Model , Materials , Reinforced material 
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
 ---

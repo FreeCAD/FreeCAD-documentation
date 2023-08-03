@@ -1,6 +1,6 @@
 # Sketcher MapSketch/it
 ---
-- GuiCommand:   Name: Sketcher MapSketch   Name/it: Mappa Schizzo   Workbenches: Sketcher Workbench/it   Sketcher, PartDesign Workbench/it---
+ GuiCommand:   Name: Sketcher MapSketch   Name/it: Mappa Schizzo   Workbenches: Sketcher Workbench/it   Sketcher, PartDesign Workbench/it---
 
 
 </div>

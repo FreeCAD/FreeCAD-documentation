@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: PartDesign InternalExternalGear.svg
    Name: PartDesign InvoluteGear
-   MenuLocation: Part Design -> Involute gear...
+   MenuLocation: Part Design , Involute gear...
    Workbenches: PartDesign Workbench
 ---
 

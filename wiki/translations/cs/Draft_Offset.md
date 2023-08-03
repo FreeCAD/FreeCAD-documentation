@@ -1,6 +1,6 @@
 # Draft Offset/cs
 ---
-- GuiCommand:   Name: Draft Offset   Name/cs: Kreslení Odsadit   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Offset   Name/cs: Kreslení Odsadit   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

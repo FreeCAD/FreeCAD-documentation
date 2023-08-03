@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/de: Draft Textform
-   MenuLocation: Entwurf -> Form von Text
+   MenuLocation: Entwurf , Form von Text
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: 
    Version: 0.14

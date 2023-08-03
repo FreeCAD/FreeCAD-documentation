@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateCircle
    Name/fr: Sketcher Cercles
    Workbenches: Sketcher_Workbench/fr

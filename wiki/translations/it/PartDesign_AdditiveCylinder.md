@@ -1,6 +1,6 @@
 # PartDesign AdditiveCylinder/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveCylinder   Name/it: Cilindro additivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveCylinder   Name/it: Cilindro additivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

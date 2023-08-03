@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Empty: 1
-   MenuLocation: Std View Menu -> Workbench
+   MenuLocation: Std View Menu , Workbench
    Workbenches: All
    Shortcut: 
    SeeAlso: 

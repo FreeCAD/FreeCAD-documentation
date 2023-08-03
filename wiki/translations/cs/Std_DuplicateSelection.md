@@ -1,6 +1,6 @@
 # Std DuplicateSelection/cs
 ---
-- GuiCommand:   Name: Std_DuplicateSelection   Name/cs: Std Duplikovat výběr   MenuLocation: Úpravy -> Kopírovat   Shortcut:     Workbenches: All   SeeAlso: Std_Copy/cs, Std_Paste/cs---
+ GuiCommand:   Name: Std_DuplicateSelection   Name/cs: Std Duplikovat výběr   MenuLocation: Úpravy , Kopírovat   Shortcut:     Workbenches: All   SeeAlso: Std_Copy/cs, Std_Paste/cs---
 
 
 </div>

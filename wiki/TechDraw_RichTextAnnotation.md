@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw RichTextAnnotation
-   MenuLocation: TechDraw -> Annotations -> Insert Rich Text Annotations
+   MenuLocation: TechDraw , Annotations , Insert Rich Text Annotations
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_Annotation

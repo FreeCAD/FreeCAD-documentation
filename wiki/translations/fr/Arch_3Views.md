@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch 3Views
    Name/fr: Arch 3 Vues depuis un maillage
-   MenuLocation:  Arch -> Utilitaires -> 3 vues depuis un maillage
+   MenuLocation:  Arch , Utilitaires , 3 vues depuis un maillage
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_SplitMesh/fr, Arch_MeshToShape/fr
 ---

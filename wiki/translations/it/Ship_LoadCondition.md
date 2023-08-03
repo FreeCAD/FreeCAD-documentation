@@ -1,6 +1,6 @@
 # Ship LoadCondition/it
 ---
-- GuiCommand:   Name: Ship Loading   Name/it: Carico   MenuLocation: Weights -> Crea una nuova condizione di carico   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Ship Loading   Name/it: Carico   MenuLocation: Weights , Crea una nuova condizione di carico   |Shortcut:    SeeAlso: ---
 
 
 </div>

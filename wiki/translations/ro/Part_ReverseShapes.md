@@ -1,6 +1,6 @@
 # Part ReverseShapes/ro
 ---
-- GuiCommand:   Name: Part ReverseShapes‏‎   MenuLocation: Part -> Reverse Shapes   Workbenches: Part Workbench   Part|SeeAlso: ---
+ GuiCommand:   Name: Part ReverseShapes‏‎   MenuLocation: Part , Reverse Shapes   Workbenches: Part Workbench   Part|SeeAlso: ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # FEM ConstraintContact/ru
 ---
-- GuiCommand:   Name: FEM ConstraintContact   Name/ru: FEM ConstraintContact   MenuLocation: FEM -> Constraint contact   ---
+ GuiCommand:   Name: FEM ConstraintContact   Name/ru: FEM ConstraintContact   MenuLocation: FEM , Constraint contact   ---
 
 
 </div>

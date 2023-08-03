@@ -1,6 +1,6 @@
 # PartDesign SubtractiveCylinder/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveCylinder   Name/it: Cilindro sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveCylinder   Name/it: Cilindro sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

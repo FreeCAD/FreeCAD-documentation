@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ApplyStyle
    Name/de: AktuellenStilAnwenden
-   MenuLocation: Draft -> Utilities -> Aktuellen Stil anwenden
+   MenuLocation: Draft , Utilities , Aktuellen Stil anwenden
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft_SetStyle/de
 ---

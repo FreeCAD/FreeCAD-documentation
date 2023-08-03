@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAttachmentOffset
    Name/fr: Assembly3 Contrainte décalage d'accrochage
    Icon: Assembly_ConstraintAttachmentOffset.svg

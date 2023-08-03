@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_Export
    Name/it: Esporta il foglio di calcolo
-   MenuLocation: Spreadsheet -> Esporta il foglio di calcolo
+   MenuLocation: Spreadsheet , Esporta il foglio di calcolo
    Workbenches: Spreadsheet_Workbench/it
    Version: 0.17
    SeeAlso: Spreadsheet_Import/it

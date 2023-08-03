@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddToGroup
    Name/de: Draft ZurGruppeHinzufügen
-   MenuLocation: Dienstprogramme -> Zur Gruppe hinzufügen...
+   MenuLocation: Dienstprogramme , Zur Gruppe hinzufügen...
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Std_Group/de, Draft_AddNamedGroup/de, Draft_AddConstruction/de, Draft_AutoGroup/de
 ---

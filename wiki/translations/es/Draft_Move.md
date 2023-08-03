@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Move
    Name/es: Draft Move
    MenuLocation: Croquis -> Mover

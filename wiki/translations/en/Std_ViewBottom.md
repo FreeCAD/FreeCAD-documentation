@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewBottom
-   MenuLocation: View -> Standard views -> Bottom
+   MenuLocation: View , Standard views , Bottom
    Workbenches: All
    Shortcut: **5**
    SeeAlso: Std_ViewRear, Std_ViewLeft

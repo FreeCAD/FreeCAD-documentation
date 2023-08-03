@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionRemovePrefixChar
-   MenuLocation: TechDraw -> Extensions: Dimensions -> Remove Prefix
+   MenuLocation: TechDraw , Extensions: Dimensions , Remove Prefix
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

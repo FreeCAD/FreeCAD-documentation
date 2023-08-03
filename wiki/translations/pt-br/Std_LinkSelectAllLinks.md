@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkSelectAllLinks
    MenuLocation: 
    Workbenches: All

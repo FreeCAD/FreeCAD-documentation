@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SwitchVirtualSpace
-   MenuLocation: Sketch -> Sketcher virtual space -> Switch virtual space
+   MenuLocation: Sketch , Sketcher virtual space , Switch virtual space
    Workbenches: Sketcher_Workbench
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Layer
    Name/de: Draft Layer
-   MenuLocation: Dienstprogramme -> Ebene
+   MenuLocation: Dienstprogramme , Ebene
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_AutoGroup/de, Draft_LayerManager/de

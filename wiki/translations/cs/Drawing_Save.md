@@ -1,6 +1,6 @@
 # Drawing Save/cs
 ---
-- GuiCommand:   Name: Drawing Save   Name/cs: Drawing Save   Workbenches: Drawing Workbench/cs   Výkres, Sestavení---
+ GuiCommand:   Name: Drawing Save   Name/cs: Drawing Save   Workbenches: Drawing Workbench/cs   Výkres, Sestavení---
 
 
 </div>

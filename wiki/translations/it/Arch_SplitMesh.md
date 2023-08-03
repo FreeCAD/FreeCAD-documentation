@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SplitMesh
    Name/it: Dividi mesh
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Utilità -> Dividi Mesh
+   MenuLocation: Arch , Utilità , Dividi Mesh
    SeeAlso: Arch SelectNonSolidMeshes/it, Arch MeshToShape/it
 ---
 

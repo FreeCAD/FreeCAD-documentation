@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Polygon
    Name/es: Draft Polygon
-   MenuLocation: Croquis -> Polígono
+   MenuLocation: Croquis , Polígono
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **P** **G**
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DependencyGraph
    Name/de: Std Abhängigkeitsgraph
-   MenuLocation: Werkzeuge -> Abhängigkeitsgraph...
+   MenuLocation: Werkzeuge , Abhängigkeitsgraph...
    Workbenches: Alle
 ---
 

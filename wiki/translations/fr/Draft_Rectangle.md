@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/fr: Draft Rectangle
-   MenuLocation: Draft -> Rectangle
+   MenuLocation: Draft , Rectangle
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **R** **E**
    Version: 0.7

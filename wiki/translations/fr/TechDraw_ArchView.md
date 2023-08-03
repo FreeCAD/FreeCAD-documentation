@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ArchView
    Name/fr: TechDraw Vue d'un objet Arch
-   MenuLocation: TechDraw -> Insérer un objet de l'atelier Arch
+   MenuLocation: TechDraw , Insérer un objet de l'atelier Arch
    Workbenches: TechDraw_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Arch_SectionPlane/fr
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CycloidRack
    Name/de: FCGear Zykloidenzahnstange
-   MenuLocation: Gear -> Cycloid Rack
+   MenuLocation: Gear , Cycloid Rack
    Workbenches: FCGear_Workbench/de
    Shortcut: None
    Version: 1.0

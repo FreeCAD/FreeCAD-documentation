@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkImportAll
    Name/pl: Std: Importuj wszystkie łącza
    MenuLocation: brak

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Area
    Name/ru: Ship Area
    Icon: Ship_AreaCurve.svg
-   MenuLocation: Ship design -> Строевая
+   MenuLocation: Ship design , Строевая
    Workbenches: Ship Workbench/ru
    Shortcut: 
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Fillet
    Name/de: Draft Verrundung
-   MenuLocation: Entwurf -> Verrundung
+   MenuLocation: Entwurf , Verrundung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **F** **I**
    Version: 0.19

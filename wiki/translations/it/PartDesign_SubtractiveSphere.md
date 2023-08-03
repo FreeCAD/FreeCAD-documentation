@@ -1,6 +1,6 @@
 # PartDesign SubtractiveSphere/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveSphere   Name/it: Sfera sottrattiva   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveSphere   Name/it: Sfera sottrattiva   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

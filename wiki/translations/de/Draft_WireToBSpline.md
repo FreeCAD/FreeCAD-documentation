@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft WireToBSpline
    Name/de: Draft DrahtZuBSpline
-   MenuLocation: Änderung -> Kantenzug zu BSpline
+   MenuLocation: Änderung , Kantenzug zu BSpline
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft_Wire/de, Draft_BSpline/de
 ---

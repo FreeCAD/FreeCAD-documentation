@@ -1,9 +1,9 @@
 ---
-- GuiCommand:Addon
+ GuiCommand:Addon
    Name: BIM Project
    Workbenches: BIM Workbench
    Addon: BIM
-   MenuLocation: Manage -> Manage project...
+   MenuLocation: Manage , Manage project...
 ---
 
 # BIM Project

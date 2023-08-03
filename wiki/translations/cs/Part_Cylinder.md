@@ -1,6 +1,6 @@
 # Part Cylinder/cs
 ---
-- GuiCommand:   Name: Part Cylinder   Name/cs: Díl Válec   MenuLocation: Díl -> Válec   , Kompletace---
+ GuiCommand:   Name: Part Cylinder   Name/cs: Díl Válec   MenuLocation: Díl -> Válec   , Kompletace---
 
 
 </div>

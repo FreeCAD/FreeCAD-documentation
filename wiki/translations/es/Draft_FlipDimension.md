@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft FlipDimension
    Name/es: Draft FlipDimension
-   MenuLocation: Draft -> Utilities -> Flip Dimension
+   MenuLocation: Draft , Utilities , Flip Dimension
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    SeeAlso: Draft Dimension/es
 ---

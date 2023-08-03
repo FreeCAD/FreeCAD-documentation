@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterDataAlongLine
-   MenuLocation: Results -> Line clip filter
+   MenuLocation: Results , Line clip filter
    Workbenches: FEM_Workbench
    SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
 ---

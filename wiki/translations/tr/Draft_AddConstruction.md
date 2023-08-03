@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: İnşa Ekle
-   MenuLocation: Taslak -> Araçlar -> İnşa grubuna ekle
+   MenuLocation: Taslak , Araçlar , İnşa grubuna ekle
    Workbenches: Draft Workbench, Arch Workbench
    SeeAlso: Draft_ToggleConstructionMode/tr, Draft AddToGroup/tr
    Version: 0.17

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CutPlane
    Name/it: Taglia con piano
-   Workbenches: Arch_Workbench/it   Arch|MenuLocation: Arch -> Taglia con piano
+   Workbenches: Arch_Workbench/it   Arch|MenuLocation: Arch , Taglia con piano
    SeeAlso: Arch CutLine/it, Arch Remove/it
 ---
 

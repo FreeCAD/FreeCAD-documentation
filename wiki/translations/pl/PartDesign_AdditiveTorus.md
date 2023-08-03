@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveTorus
    Name/pl: Projekt Części: Addytywny torus
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywny torus
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Addytywny torus
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveTorus/pl

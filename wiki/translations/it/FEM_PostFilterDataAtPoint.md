@@ -1,6 +1,6 @@
 # FEM PostFilterDataAtPoint/it
 ---
-- GuiCommand:   Name: FEM_PostCreateDataAtPointFilter   Name/it: FEM PostCreateDataAtPointFilter   Icon: Fem-post-filter-data-at-point.png   MenuLocation:  Risultati -> Data at point filter    ---
+ GuiCommand:   Name: FEM_PostCreateDataAtPointFilter   Name/it: FEM PostCreateDataAtPointFilter   Icon: Fem-post-filter-data-at-point.png   MenuLocation:  Risultati , Data at point filter    ---
 
 
 </div>

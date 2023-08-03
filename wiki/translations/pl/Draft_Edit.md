@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Edit
    Name/pl: Rysunek Roboczy: Edytuj
-   MenuLocation: Modyfikacja -> Edytuj
+   MenuLocation: Modyfikacja , Edytuj
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/pl

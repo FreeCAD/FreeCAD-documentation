@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Sketcher Select solver DoFs
    Icon: Sketcher SelectElementsWithDoFs.svg
-   MenuLocation: Sketch -> Instrumente pentru schiţe -> Select solver DoFs
+   MenuLocation: Sketch , Instrumente pentru schiţe , Select solver DoFs
    Workbenches: Sketcher Workbench/ro
    Version: 0.18
 ---

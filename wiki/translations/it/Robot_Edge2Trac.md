@@ -1,6 +1,6 @@
 # Robot Edge2Trac/it
 ---
-- GuiCommand:   Name: Robot Edge2Trac   Name/it: Crea una traiettoria da un bordo   Workbenches: Robot_Workbench/it   Robot|MenuLocation: Robot -> Crea una traiettoria da un bordo...---
+ GuiCommand:   Name: Robot Edge2Trac   Name/it: Crea una traiettoria da un bordo   Workbenches: Robot_Workbench/it   Robot|MenuLocation: Robot , Crea una traiettoria da un bordo...---
 
 
 </div>

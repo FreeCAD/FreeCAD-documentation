@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Trimex
    Name/it: Taglia/Estendi
-   MenuLocation: Modifiche -> Taglia/Estendi
+   MenuLocation: Modifiche , Taglia/Estendi
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **T** **R**
-   SeeAlso: Parte -> Part Extrude/it
+   SeeAlso: Parte , Part Extrude/it
 ---
 
 # Draft Trimex/it

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Clear All
    Name/ru: Std MeasureClearAll
-   MenuLocation: Measure -> Очистить всё 
+   MenuLocation: Measure , Очистить всё 
    Workbenches: Part_Workbench/ru
 ---
 

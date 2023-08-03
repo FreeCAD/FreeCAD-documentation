@@ -1,7 +1,7 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name: 通过圆心创建圆弧
-   MenuLocation: Sketch -> 草图几何体 -> 通过圆心创建圆弧
+   MenuLocation: Sketch , 草图几何体 , 通过圆心创建圆弧
    Workbenches: Sketcher_Workbench/zh-cn
    Shortcut: **G** **A**
    SeeAlso: Sketcher_CompCreateCircle/zh-cn

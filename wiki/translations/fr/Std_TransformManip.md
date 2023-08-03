@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TransformManip
    Name/fr: Std Transformation manipulation
-   MenuLocation: Clic droit sur un objet de la vue en arborescence -> Transformer
-Édition -> Transformer
+   MenuLocation: Clic droit sur un objet de la vue en arborescence , Transformer
+Édition , Transformer
    Workbenches: Tous
    SeeAlso: Std_Base/fr
 ---

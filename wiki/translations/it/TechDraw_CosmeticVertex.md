@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw CosmeticVertex
    Name/it: Vertice cosmetico
-   MenuLocation: TechDraw -> Aggiuge Vertici -> Vertice cosmetico
+   MenuLocation: TechDraw , Aggiuge Vertici , Vertice cosmetico
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_Midpoints/it, TechDraw_Quadrants/it
    Version: 0.19

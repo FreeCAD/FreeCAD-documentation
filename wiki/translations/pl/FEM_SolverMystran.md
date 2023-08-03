@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverMystran
-   MenuLocation: Solve -> Solver Mystran
+   MenuLocation: Solve , Solver Mystran
    Workbenches: FEM_Workbench
    Shortcut: **S** **M**
    Version: 0.20

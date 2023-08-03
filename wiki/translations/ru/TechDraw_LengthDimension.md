@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Указать длину
    Name: TechDraw_LengthDimension
-   MenuLocation: TechDraw -> Размеры -> Указать длину
+   MenuLocation: TechDraw , Размеры , Указать длину
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_HorizontalDimension/ru, TechDraw_VerticalDimension/ru
 ---

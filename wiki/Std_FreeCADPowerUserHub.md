@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADPowerUserHub
-   MenuLocation: Help -> Python scripting documentation
+   MenuLocation: Help , Python scripting documentation
    Workbenches: All
    SeeAlso: Std_FreeCADWebsite, Std_FreeCADUserHub, Std_FreeCADForum, Std_FreeCADFAQ
 ---

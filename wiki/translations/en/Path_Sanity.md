@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Sanity
-   MenuLocation: Path -> Check the path job for common errors
+   MenuLocation: Path , Check the path job for common errors
    Workbenches: Path_Workbench
    Shortcut: **P** **S**
    Version: 0.19

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/pl: Rysunek Roboczy: Przełącz widoczność siatki
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl

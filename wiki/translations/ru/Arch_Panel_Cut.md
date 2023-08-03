@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Панельный контур
    Name: Arch_Panel_Cut
-   MenuLocation: Arch -> Инструменты панелирования -> Панельный контур
+   MenuLocation: Arch , Инструменты панелирования , Панельный контур
    Workbenches: Arch_Workbench/ru, Path_Workbench/ru
    Shortcut: **P** **C**
    Version: 0.17

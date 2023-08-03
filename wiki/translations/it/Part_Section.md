@@ -1,6 +1,6 @@
 # Part Section/it
 ---
-- GuiCommand:   Name: Part_Section   Name/it: Seziona   MenuLocation: Parte -> Seziona   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part_Section   Name/it: Seziona   MenuLocation: Parte , Seziona   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

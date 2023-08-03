@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialEditor
    Name/ro: Material editor
-   MenuLocation: Model -> Material -> Material editor
+   MenuLocation: Model , Material , Material editor
    Workbenches: FEM_Workbench, Arch_Workbench
    Shortcut: 
    SeeAlso: FEM_tutorial

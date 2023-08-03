@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePrism
-   MenuLocation: Part Design -> Create an additive primitive -> Additive Prism
+   MenuLocation: Part Design , Create an additive primitive , Additive Prism
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive, PartDesign_SubtractivePrism

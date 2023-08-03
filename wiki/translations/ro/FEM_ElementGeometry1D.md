@@ -1,6 +1,6 @@
 # FEM ElementGeometry1D/ro
 ---
-- GuiCommand:   Name: FEM ElementGeometry1D   MenuLocation: Model -> Beam cross section   ---
+ GuiCommand:   Name: FEM ElementGeometry1D   MenuLocation: Model , Beam cross section   ---
 
 
 </div>

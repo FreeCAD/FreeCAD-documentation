@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxSelection
    Name/pl: Std: Zaznacz obszar
-   MenuLocation: Edycja -> Zaznacz obszar
+   MenuLocation: Edycja , Zaznacz obszar
    Workbenches: wszystkie
    Shortcut: **Shift** + **B**
    SeeAlso: Std_BoxElementSelection/pl, Std_SelectAll/pl

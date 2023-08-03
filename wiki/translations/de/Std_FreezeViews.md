@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreezeViews
    Name/de: Std AnsichtenEinfrieren
-   MenuLocation: Ansicht -> Ansicht einfrieren -> Ansicht einfrieren
+   MenuLocation: Ansicht , Ansicht einfrieren , Ansicht einfrieren
    Workbenches: Alle
    SeeAlso: Std_StoreWorkingView/de, Std_RecallWorkingView/de, Std_ViewIvIssueCamPos/de
 ---

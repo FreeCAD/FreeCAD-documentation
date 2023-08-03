@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CheckGeometry‏‎
-   MenuLocation: Part -> Check geometry
+   MenuLocation: Part , Check geometry
    Workbenches: Part_Workbench
 ---
 

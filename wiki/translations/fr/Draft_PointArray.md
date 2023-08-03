@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointArray
    Name/fr: Draft Réseau de points
-   MenuLocation: Modification -> Outils pour les réseaux ->  Réseau de points
+   MenuLocation: Modification , Outils pour les réseaux ,  Réseau de points
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.18
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointLinkArray/fr

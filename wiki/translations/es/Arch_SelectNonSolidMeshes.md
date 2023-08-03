@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SelectNonSolidMeshes
    Name/es: Arch SelectNonSolidMeshes
-   MenuLocation: Arch -> Utilities -> Select non solid
+   MenuLocation: Arch , Utilities , Select non solid
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch MeshToShape/es
 ---

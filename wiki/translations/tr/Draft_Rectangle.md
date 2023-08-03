@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/tr: Dikdörtgen
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
-   MenuLocation: Taslak -> Dikdörtgen
+   MenuLocation: Taslak , Dikdörtgen
    Shortcut: **R** **E**
    Version/tr: 0.17
    SeeAlso: Draft Ellipse/tr,Part Box/tr

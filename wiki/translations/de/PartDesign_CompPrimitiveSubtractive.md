@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CompPrimitiveSubtractive
    Name/de: PartDesign AuswahlGrundkörperAbziehen
    Workbenches: PartDesign Workbench/de
-   MenuLocation: Part Design -> Grundkörper abziehen
+   MenuLocation: Part Design , Grundkörper abziehen
    SeeAlso: PartDesign CompPrimitiveAdditive/de
    Version: 0.17
 ---

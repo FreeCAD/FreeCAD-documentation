@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CrossSections
    Name/de: Part Querschnitte
-   MenuLocation: Formteil -> Schnitte...
+   MenuLocation: Formteil , Schnitte...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Section/de
 ---

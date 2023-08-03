@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw HoleShaftFit
    Name/pl: Rysunek Techniczny: Dodaj pasowanie otworu / wału
-   MenuLocation: Rysunek Techniczny -> Dodaj pasowanie otworu / wału
+   MenuLocation: Rysunek Techniczny , Dodaj pasowanie otworu / wału
    Workbenches: TechDraw_Workbench/pl
    Version: 0.21
    SeeAlso: TechDraw_Geometric_dimensioning_and_tolerancing/pl

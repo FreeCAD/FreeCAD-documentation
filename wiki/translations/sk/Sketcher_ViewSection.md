@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSection
    Name/sk: Náčrtník ZobraziťRez
-   MenuLocation: Náčrt -> Zobraziť rez
+   MenuLocation: Náčrt , Zobraziť rez
    Workbenches: Sketcher_Workbench/sk, PartDesign_Workbench/sk 
    Version: 0.18
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Facebinder
-   MenuLocation: Drafting -> Facebinder
+   MenuLocation: Drafting , Facebinder
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **F** **F**
    Version: 0.14

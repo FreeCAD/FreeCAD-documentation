@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoRedGreen
    Name/pl: Std: Widok stereo czerwony / cyjan
-   MenuLocation: Widok -> Widok trójwymiarowy -> Stereo czerwony / cyjan
+   MenuLocation: Widok , Widok trójwymiarowy , Stereo czerwony / cyjan
    Workbenches: wszystkie
    SeeAlso: Std_ViewIvStereoQuadBuff/pl, Std_ViewIvStereoInterleavedRows/pl, Std_ViewIvStereoInterleavedColumns/pl, Std_ViewIvStereoOff/pl
 ---

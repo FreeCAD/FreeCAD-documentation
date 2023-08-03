@@ -1,6 +1,6 @@
 # Std ViewIvIssueCamPos/it
 ---
-- GuiCommand:   Name: Std ViewIvIssueCamPos   Name/it: Pubblica la posizione della camera   MenuLocation: Visualizza -> Stereo -> Pubblica la posizione della camera   Workbenches: Tutti   Shortcut:    SeeAlso: Std_FreezeViews/it---
+ GuiCommand:   Name: Std ViewIvIssueCamPos   Name/it: Pubblica la posizione della camera   MenuLocation: Visualizza , Stereo , Pubblica la posizione della camera   Workbenches: Tutti   Shortcut:    SeeAlso: Std_FreezeViews/it---
 
 
 

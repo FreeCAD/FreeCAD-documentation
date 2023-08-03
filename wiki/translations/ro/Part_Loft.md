@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Loft
    Name/ro: Part Loft
-   MenuLocation: Part -> Loft...
+   MenuLocation: Part , Loft...
 |
    Workbenches: Part_Workbench/ro
    SeeAlso: Part Sweep/ro

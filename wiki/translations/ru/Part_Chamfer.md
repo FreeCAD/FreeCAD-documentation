@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Chamfer
    Name/ru: Фаска
-   MenuLocation: Деталь -> Фаска
+   MenuLocation: Деталь , Фаска
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Fillet/ru
 ---

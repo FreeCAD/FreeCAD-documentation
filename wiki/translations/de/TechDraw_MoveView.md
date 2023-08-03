@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw MoveView
    Name/de: TechDraw AnsichtVerschieben
-   MenuLocation: TechDraw -> TechDraw Ansichten -> Ansicht verschieben
+   MenuLocation: TechDraw , TechDraw Ansichten , Ansicht verschieben
    Workbenches: TechDraw_Workbench/de
    Version: 0.20
    SeeAlso: TechDraw_ShareView/de

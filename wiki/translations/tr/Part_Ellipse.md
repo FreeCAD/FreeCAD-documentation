@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipse
    Name/tr: Parça Elips
-   MenuLocation: Parça -> Part_CreatePrimitives -> Elips
+   MenuLocation: Parça , Part_CreatePrimitives , Elips
    Workbenches: Part_Workbench/tr,  OpenSCAD_Workbench/tr
    SeeAlso: ..
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/it: Dimensioni
-   MenuLocation: Draft -> Draft Snap/it -> Dimensioni
+   MenuLocation: Draft , Draft Snap/it , Dimensioni
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it

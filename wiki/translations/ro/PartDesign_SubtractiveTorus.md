@@ -1,6 +1,6 @@
 # PartDesign SubtractiveTorus/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveTorus   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveTorus   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHInputFile
    Name/fr: EM Fichier entrée FH
-   MenuLocation: EM -> FHInputFile
+   MenuLocation: EM , FHInputFile
    Workbenches: EM_Workbench/fr
    Shortcut: **E** **I**
    Version: 0.17

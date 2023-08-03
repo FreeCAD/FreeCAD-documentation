@@ -1,6 +1,6 @@
 # FEM EquationElasticity/it
 ---
-- GuiCommand:   Name: FEM_EquationElasticity   Name/it: FEM EquationElasticity   Icon: Fem-equation-elasticity.svg   MenuLocation:  Solve -> Equazione di elasticità   ---
+ GuiCommand:   Name: FEM_EquationElasticity   Name/it: FEM EquationElasticity   Icon: Fem-equation-elasticity.svg   MenuLocation:  Solve , Equazione di elasticità   ---
 
 
 </div>

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Profile
-   MenuLocation: Path -> Profile
+   MenuLocation: Path , Profile
    Workbenches: Path_Workbench
    Version: 0.19
 ---

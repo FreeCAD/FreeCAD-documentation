@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Near
    Name/de: Draft EinrastenInDerNähe
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

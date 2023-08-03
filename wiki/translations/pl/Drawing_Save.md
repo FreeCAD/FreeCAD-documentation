@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Save
    Name/pl: Drawing - zaspisz SVG
-   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Rysunek -> Eksportuj stronę...
+   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Rysunek , Eksportuj stronę...
    Shortcut: brak
    SeeAlso: Drawing Open SVG
 ---

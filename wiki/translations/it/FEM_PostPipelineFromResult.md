@@ -1,6 +1,6 @@
 # FEM PostPipelineFromResult/it
 ---
-- GuiCommand:   Name: FEM PostPipelineFromResult   Name/it: Post Pipeline da risultato   MenuLocation:  Risultati -> Post Pipeline da risultato   ---
+ GuiCommand:   Name: FEM PostPipelineFromResult   Name/it: Post Pipeline da risultato   MenuLocation:  Risultati , Post Pipeline da risultato   ---
 
 
 </div>

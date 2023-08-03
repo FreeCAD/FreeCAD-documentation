@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/es: Draft Dimension
-   MenuLocation: Croquis -> Cotas
+   MenuLocation: Croquis , Cotas
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **D** **I**
    SeeAlso: Draft FlipDimension/es

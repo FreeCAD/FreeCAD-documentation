@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Compound‏‎
    Name/pl: Część: Utwórz kształt złożony
-   MenuLocation: Część -> Złożenie -> Utwórz kształt złożony
+   MenuLocation: Część , Złożenie , Utwórz kształt złożony
    Workbenches: Part_Workbench/pl
    Version: 0.14
    SeeAlso: Part_Fuse/pl, Part_CompoundFilter/pl, Part_ExplodeCompound/pl

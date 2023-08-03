@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/it
+ GuiCommand:Addon/it
    Name: BIM_Project
    Name/it: Progetto BIM
    Workbenches: BIM Workbench/it
    Addon: BIM
-   MenuLocation: Gestione -> Gestione progetto...
+   MenuLocation: Gestione , Gestione progetto...
 ---
 
 # BIM Project/it

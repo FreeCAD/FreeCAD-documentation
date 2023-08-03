@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Group
    Name/pl: Std: Grupa
-   MenuLocation: Tree_view/pl -> Kliknij prawym przyciskiem myszki nazwę dokumentu -> Utwórz grupę ...
+   MenuLocation: Tree_view/pl , Kliknij prawym przyciskiem myszki nazwę dokumentu , Utwórz grupę ...
    Workbenches: wszystkie
    Shortcut: 
    Version: 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Redo
-   MenuLocation: Edit -> Redo
+   MenuLocation: Edit , Redo
    Workbenches: All
    Shortcut: **Ctrl**+**Y**
    SeeAlso: Std_Undo

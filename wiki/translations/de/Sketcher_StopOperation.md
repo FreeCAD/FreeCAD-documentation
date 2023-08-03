@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher StopOperation
    Name/de: Sketcher VorgangBeenden
-   MenuLocation: Skizze -> Vorgang beenden
+   MenuLocation: Skizze , Vorgang beenden
    Workbenches: Sketcher_Workbench/de
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
-   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive Ellipsoid
+   MenuLocation: Part Design , Create a subtractive primitive , Subtractive Ellipsoid
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign_AdditiveEllipsoid

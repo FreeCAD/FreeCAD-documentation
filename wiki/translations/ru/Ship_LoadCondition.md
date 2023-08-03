@@ -1,9 +1,9 @@
 # Ship LoadCondition/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Loading
    Name/ru: Ship Loading
-   MenuLocation: Weights -> Create a new loading condition
+   MenuLocation: Weights , Create a new loading condition
    Workbenches: Ship Workbench/ru
    Shortcut:    SeeAlso: ---
 

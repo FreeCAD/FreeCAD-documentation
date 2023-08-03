@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Add
    Name/ru: Arch Add
-   MenuLocation: Архитектура -> Добавить компонент
+   MenuLocation: Архитектура , Добавить компонент
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch Remove/ru
 ---

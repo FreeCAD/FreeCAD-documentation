@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar
    Name/ro: Arch Rebar
    Workbenches: Arch_Workbench/ro
-   MenuLocation: Arch -> Rebar
+   MenuLocation: Arch , Rebar
    Shortcut: R B
    SeeAlso: Arch Structure/ro
 ---
@@ -17,11 +17,11 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar
    Name/ro: Arch Rebar
    Workbenches: Arch_Workbench/ro
-   MenuLocation: Arch -> Rebar
+   MenuLocation: Arch , Rebar
    Shortcut: R B
    SeeAlso: Arch Structure/ro
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/fr: Draft Proxy de plan de travail
-   MenuLocation: Utilitaires -> Créer un proxy de plan de travail
+   MenuLocation: Utilitaires , Créer un proxy de plan de travail
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Draft_SelectPlane/fr
 ---

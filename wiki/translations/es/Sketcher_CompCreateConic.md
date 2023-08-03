@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Conics
    Name/es: Croquizador Cónicos
    Icon: Sketcher_CompCreateConic.png

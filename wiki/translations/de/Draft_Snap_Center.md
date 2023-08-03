@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Center
    Name/de: Draft EinrastenAufZentrum
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

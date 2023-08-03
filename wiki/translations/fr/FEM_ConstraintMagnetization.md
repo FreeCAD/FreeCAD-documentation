@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintMagnetization
    Name/fr: FEM Contrainte de magnétisation
-   MenuLocation: Modèle -> Contraintes électromagnétiques -> Contrainte de magnétisation
+   MenuLocation: Modèle , Contraintes électromagnétiques , Contrainte de magnétisation
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr

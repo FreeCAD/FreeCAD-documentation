@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleContinueMode
    Name/fr: Draft Basculer en mode continu
-   MenuLocation: Utilitaires -> Basculer le mode continuer
+   MenuLocation: Utilitaires , Basculer le mode continuer
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
 ---
 

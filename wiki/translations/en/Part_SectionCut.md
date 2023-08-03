@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SectionCut
-   MenuLocation: View -> Persistent section cut
+   MenuLocation: View , Persistent section cut
    Workbenches: All
    Version: 0.20
    SeeAlso: Std_ToggleClipPlane

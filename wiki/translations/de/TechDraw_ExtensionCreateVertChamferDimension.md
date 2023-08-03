@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertChamferDimension
    Name/de: TechDraw ErgänzungVertikalesFasenmaß
-   MenuLocation: TechDraw -> Ergänzungen: Maße ->Vertikales Maß an Fase erstellen
+   MenuLocation: TechDraw , Ergänzungen: Maße ,Vertikales Maß an Fase erstellen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

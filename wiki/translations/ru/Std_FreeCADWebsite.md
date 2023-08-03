@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Сайт FreeCAD
    Name: Std_FreeCADWebsite
-   MenuLocation: Помощь -> Сайт FreeCAD
+   MenuLocation: Помощь , Сайт FreeCAD
    Workbenches: Все
    SeeAlso: Std_FreeCADUserHub/ru, Std_FreeCADPowerUserHub/ru, Std_FreeCADForum/ru, Std_FreeCADFAQ/ru
 ---

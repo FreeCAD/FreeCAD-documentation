@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Offset
    Name/it: Offset
-   MenuLocation: Modifiche -> Offset
+   MenuLocation: Modifiche , Offset
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/it

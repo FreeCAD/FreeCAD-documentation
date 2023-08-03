@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Workbenches: Draft Workbench, Arch Workbench
-   MenuLocation: Draft -> Draft Snap -> Special
+   MenuLocation: Draft , Draft Snap , Special
    Shortcut: 
    SeeAlso: 
 ---

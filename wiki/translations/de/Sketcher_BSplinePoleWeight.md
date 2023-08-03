@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplinePoleWeight
    Name/de: Sketcher BSplinePolGewicht
-   MenuLocation: Sketch -> B-Spline-Werkzeuge -> Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden
+   MenuLocation: Sketch , B-Spline-Werkzeuge , Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden
    Workbenches: Sketcher_Workbench/de
    Version: 0.19
    SeeAlso: Sketcher_CompCreateBSpline/de

@@ -1,6 +1,6 @@
 # Part Prism/cs
 ---
-- GuiCommand:   Name: Part Prism   Name/cs: Part Prism   MenuLocation: Part -> Part_CreatePrimitives/cs   Create Primitives -> Prism, OpenSCAD_Workbench/cs---
+ GuiCommand:   Name: Part Prism   Name/cs: Part Prism   MenuLocation: Part , Part_CreatePrimitives/cs   Create Primitives , Prism, OpenSCAD_Workbench/cs---
 
 
 </div>

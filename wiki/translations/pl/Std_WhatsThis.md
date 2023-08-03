@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std WhatsThis
    Name/pl: Std: Co to jest
-   MenuLocation: Pomoc -> Co to jest?
+   MenuLocation: Pomoc , Co to jest?
    Workbenches: wszystkie
    Shortcut: **Shift** + **F1**
    SeeAlso: Std_OnlineHelp/pl

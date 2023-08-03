@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path SimpleCopy
    Name/fr: Path Copie simple
-   MenuLocation: Path -> Modification du parcours -> Copie simple
+   MenuLocation: Path , Modification du parcours , Copie simple
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_Copy/fr
 ---

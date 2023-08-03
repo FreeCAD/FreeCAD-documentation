@@ -1,6 +1,6 @@
 # Arch Building/cs
 ---
-- GuiCommand:   Name: Arch Building   Name/cs: Arch Budova   Workbenches: Arch_Workbench/cs   Architektura, Arch Site/cs---
+ GuiCommand:   Name: Arch Building   Name/cs: Arch Budova   Workbenches: Arch_Workbench/cs   Architektura, Arch Site/cs---
 
 
 </div>

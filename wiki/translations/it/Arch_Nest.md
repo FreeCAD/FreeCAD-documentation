@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Nest
    Name/it: Nido
-   MenuLocation: Arch -> Strumenti pannello -> Nido
+   MenuLocation: Arch , Strumenti pannello , Nido
    Workbenches: Arch_Workbench/it
    SeeAlso: Arch Panel/it, Arch Panel Sheet/it
 ---

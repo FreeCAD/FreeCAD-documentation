@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface ExtendFace
-   MenuLocation: Surface -> Extend face
+   MenuLocation: Surface , Extend face
    Workbenches: Surface_Workbench
    Version: 0.17
 ---

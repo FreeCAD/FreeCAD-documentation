@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveHelix
-   MenuLocation: Part Design -> Create a subtractive feature -> Subtractive helix
+   MenuLocation: Part Design , Create a subtractive feature , Subtractive helix
    Workbenches: PartDesign_Workbench
    Version: 0.19
    SeeAlso: PartDesign_AdditiveHelix

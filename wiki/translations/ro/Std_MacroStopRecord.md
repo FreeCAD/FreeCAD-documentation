@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStopRecord
-   MenuLocation: Macros/ro -> Macro Stop
+   MenuLocation: Macros/ro , Macro Stop
    Workbenches: All
    SeeAlso: ...
 ---

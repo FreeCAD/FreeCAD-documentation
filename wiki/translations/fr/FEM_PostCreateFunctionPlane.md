@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionPlane
    Name/fr: FEM Filtre fonction plan
-   MenuLocation: Résultats -> Fonctions de filtrage -> Plan
+   MenuLocation: Résultats , Fonctions de filtrage , Plan
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

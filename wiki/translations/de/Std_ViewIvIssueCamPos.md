@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvIssueCamPos
    Name/de: Std AnsichtKamerapositionAusgeben
-   MenuLocation: Ansicht -> Stereo -> Kameraposition ausgeben
+   MenuLocation: Ansicht , Stereo , Kameraposition ausgeben
    Workbenches: Alle
    SeeAlso: Std_FreezeViews/de
 ---

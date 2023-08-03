@@ -1,6 +1,6 @@
 # FEM MaterialSolid/ro
 ---
-- GuiCommand:   Name: FEM MaterialSolid    MenuLocation: Model -> FEM material for solid   ---
+ GuiCommand:   Name: FEM MaterialSolid    MenuLocation: Model , FEM material for solid   ---
 
 
 </div>

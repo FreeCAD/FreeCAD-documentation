@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintCurrentDensity
    Name/fr: FEM Contrainte de densité de courant
-   MenuLocation: Modèle -> Contraintes électromagnétiques -> Contrainte de densité de courant
+   MenuLocation: Modèle , Contraintes électromagnétiques , Contrainte de densité de courant
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr

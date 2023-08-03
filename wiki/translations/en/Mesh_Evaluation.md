@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Evaluation
-   MenuLocation: Meshes -> Analyze -> Evaluate and repair mesh...
+   MenuLocation: Meshes , Analyze , Evaluate and repair mesh...
    Workbenches: Mesh_Workbench
 ---
 

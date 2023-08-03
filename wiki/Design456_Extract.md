@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Design456 Extract
-   MenuLocation: Design456_Tools -> 3DTools -> Extract
+   MenuLocation: Design456_Tools , 3DTools , Extract
    Workbenches: Design456 Workbench
    Shortcut: None
    SeeAlso: 

@@ -1,6 +1,6 @@
 # Part Torus/it
 ---
-- GuiCommand:   Name: Part Torus   Name/it: Toro   MenuLocation: Parte -> Primitive -> Toro   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part Torus   Name/it: Toro   MenuLocation: Parte , Primitive , Toro   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

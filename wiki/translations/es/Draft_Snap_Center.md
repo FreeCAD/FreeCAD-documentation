@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Center
    Workbenches: Draft Workbench, Arch Workbench
-   MenuLocation: Draft -> Draft Snap -> Center
+   MenuLocation: Draft , Draft Snap , Center
    Shortcut: 
    SeeAlso: 
 ---

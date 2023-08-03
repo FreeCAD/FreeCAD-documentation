@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sweep
    Name/fr: Part Balayage
-   MenuLocation: Part -> Balayage...
+   MenuLocation: Part , Balayage...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Loft/fr
 ---

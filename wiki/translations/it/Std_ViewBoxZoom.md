@@ -1,6 +1,6 @@
 # Std ViewBoxZoom/it
 ---
-- GuiCommand:   Name: Std ViewBoxZoom   Name/it: Zoom finestra   MenuLocation: Std View Menu/it   Visualizza -> Zoom -> Finestra di ingrandimento , Std ViewZoomOut/it---
+ GuiCommand:   Name: Std ViewBoxZoom   Name/it: Zoom finestra   MenuLocation: Std View Menu/it   Visualizza , Zoom , Finestra di ingrandimento , Std ViewZoomOut/it---
 
 ## Descrizione
 

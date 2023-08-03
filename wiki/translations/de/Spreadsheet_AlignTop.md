@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignTop
    Name/de: Kalkulationstabelle ObenAusrichten
-   MenuLocation: Kalkulationstabelle -> Ausrichtung -> Oben Ausrichten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Oben Ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

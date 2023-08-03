@@ -1,6 +1,6 @@
 # Arch Window/cs
 ---
-- GuiCommand:   Name: Arch Window   Name/cs: Arch Okno   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch Window   Name/cs: Arch Okno   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

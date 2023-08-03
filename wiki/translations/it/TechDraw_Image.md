@@ -1,6 +1,6 @@
 # TechDraw Image/it
 ---
-- GuiCommand:   Name: TechDraw Image   Name/it: Immagine bitmap   Workbenches: TechDraw_Workbench/it   TechDraw---
+ GuiCommand:   Name: TechDraw Image   Name/it: Immagine bitmap   Workbenches: TechDraw_Workbench/it   TechDraw---
 
 
 </div>

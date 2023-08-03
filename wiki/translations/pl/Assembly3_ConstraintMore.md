@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintMore
    Name/pl: Złożenie 3 Więcej wiązań
    Icon: Assembly_ConstraintMore.svg

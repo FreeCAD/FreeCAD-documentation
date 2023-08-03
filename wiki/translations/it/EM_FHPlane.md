@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHPlane
    Name/it: EM FHPlane
-   MenuLocation: EM -> FHPlane
+   MenuLocation: EM , FHPlane
    Workbenches: EM Workbench/it 
    Shortcut: **E** **P**
    SeeAlso: EM_FHNode/it, EM_FHPlaneHole/it, EM_FHPlaneAddRemoveNodeHole/it

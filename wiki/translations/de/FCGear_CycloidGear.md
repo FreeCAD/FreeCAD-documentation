@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CycloidGear
    Name/de: FCGear Zykloidenzahnrad
-   MenuLocation: Gear -> Cycloid Gear
+   MenuLocation: Gear , Cycloid Gear
    Workbenches: FCGear_Workbench/de
    Shortcut: None
    Version: v0.16

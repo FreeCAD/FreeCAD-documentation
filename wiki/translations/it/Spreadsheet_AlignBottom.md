@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_AlignBottom
    Name/it: Allinea in basso
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Allineamento -> In basso
+   MenuLocation: Spreadsheet , Allineamento , In basso
    Version: 0.17
 ---
 

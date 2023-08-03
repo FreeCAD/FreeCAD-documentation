@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket Transition
-   MenuLocation: Rocket -> Transition
+   MenuLocation: Rocket , Transition
    Workbenches: Rocket_Workbench
    Version: 0.19
 ---

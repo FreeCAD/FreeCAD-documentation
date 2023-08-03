@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Apply
    Name/fr: Draft Appliquer le style
-   MenuLocation: Utilitaires -> Appliquer le style en cours
+   MenuLocation: Utilitaires , Appliquer le style en cours
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Draft_SetStyle/fr
 ---

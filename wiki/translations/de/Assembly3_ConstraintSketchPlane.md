@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSketchPlane
    Name/de: Assembly3 Skizzierebene
    Icon: Assembly_ConstraintSketchPlane.svg

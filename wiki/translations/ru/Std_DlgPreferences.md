@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgPreferences
    Name/ru: Настройки...
-   MenuLocation: Правка -> Настройки...
+   MenuLocation: Правка , Настройки...
    Workbenches: Все
    SeeAlso: Preferences_Editor/ru
 ---

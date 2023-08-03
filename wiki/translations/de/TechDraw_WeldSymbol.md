@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw WeldSymbol
    Name/de: TechDraw Schweißsymbol
-   MenuLocation: TechDraw -> Symbols -> Hinzufügen von Schweißinformationen zur Hinweislinie
+   MenuLocation: TechDraw , Symbols , Hinzufügen von Schweißinformationen zur Hinweislinie
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_LeaderLine/de

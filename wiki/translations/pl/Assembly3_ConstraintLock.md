@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLock
    Icon: Assembly_ConstraintLock.svg
    Workbenches: Assembly3_Workbench

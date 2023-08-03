@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectGroup
    Name/ru: Draft SelectGroup
-   MenuLocation: Черчение -> Утилиты -> Выбрать группу
+   MenuLocation: Черчение , Утилиты , Выбрать группу
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: Draft_AddToGroup/ru, Std_Group/ru

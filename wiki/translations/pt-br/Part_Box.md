@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Box
-   MenuLocation: Part -> Primitives -> Cube
+   MenuLocation: Part , Primitives , Cube
    Workbenches: Part_Workbench
    SeeAlso: Part_Primitives
 ---

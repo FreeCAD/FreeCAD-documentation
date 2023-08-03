@@ -1,6 +1,6 @@
 # FEM EquationHeat/ro
 ---
-- GuiCommand:   Name: FEM EquationHeat   MenuLocation:  Solve -> Equation heat   ---
+ GuiCommand:   Name: FEM EquationHeat   MenuLocation:  Solve , Equation heat   ---
 
 
 </div>

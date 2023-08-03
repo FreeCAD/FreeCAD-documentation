@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeDrag
    Name/de: Std BaumZiehen
-   MenuLocation: Ansicht -> Baumansicht-Aktionen -> Ziehen initiieren
+   MenuLocation: Ansicht , Baumansicht-Aktionen , Ziehen initiieren
    Workbenches: Alle
    Shortcut: **T** **D**
    Version: 0.19

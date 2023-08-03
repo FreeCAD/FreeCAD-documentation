@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Midpoints
    Name/de: TechDraw Mittenpunkte
-   MenuLocation: TechDraw -> Knoten hinzufügen -> Kantenmittelpunkte hinzufügen
+   MenuLocation: TechDraw , Knoten hinzufügen , Kantenmittelpunkte hinzufügen
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/de, TechDraw_Quadrants/de

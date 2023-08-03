@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Symmetry
    Name/fr: Sketcher Symétrie
-   MenuLocation: Esquisse -> Outils d'esquisse -> Symétrie
+   MenuLocation: Esquisse , Outils d'esquisse , Symétrie
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **S**
    Version: 0.16

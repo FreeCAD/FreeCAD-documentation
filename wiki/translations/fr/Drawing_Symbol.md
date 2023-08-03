@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Symbol
    Name/fr: Drawing Symbole
    Workbenches: Drawing_Workbench/fr
-   MenuLocation: Drawing -> Symbole
+   MenuLocation: Drawing , Symbole
    Shortcut: 
 ---
 

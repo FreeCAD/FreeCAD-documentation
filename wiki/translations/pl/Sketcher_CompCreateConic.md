@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateConic
    Name/pl: Szkicownik: Komponent Utwórz krzywą stożkową
    Workbenches: Sketcher_Workbench/pl

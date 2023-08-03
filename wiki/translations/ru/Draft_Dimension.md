@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/ru: Draft Dimension
-   MenuLocation: Черчение -> Размер
+   MenuLocation: Черчение , Размер
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **D** **I**
    SeeAlso: Draft FlipDimension/ru

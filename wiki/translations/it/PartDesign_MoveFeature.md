@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveFeature
    Name/it: Sposta in altro corpo
    Empty: 1
-   MenuLocation: Menu contestuale -> Sposta in altro corpo   Workbenches: PartDesign Workbench/it
+   MenuLocation: Menu contestuale , Sposta in altro corpo   Workbenches: PartDesign Workbench/it
    Version: 0.17
    SeeAlso: PartDesign MoveTip/it, PartDesign MoveFeatureInTree/it
 ---

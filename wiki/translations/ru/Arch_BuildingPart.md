@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Строительная деталь
    Name: Arch_BuildingPart
-   MenuLocation: Arch -> Строительная деталь
+   MenuLocation: Arch , Строительная деталь
    Workbenches: Arch_Workbench/ru
    Version: 0.18
    SeeAlso: Arch_Building/ru, Arch_Site/ru

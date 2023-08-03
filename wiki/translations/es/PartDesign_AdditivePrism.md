@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePrism
    Name/es: DiseñoPiezas PrismaAditivo
-   MenuLocation: DiseñoPiezas -> Crear una primitiva aditiva -> Prisma Aditivo
+   MenuLocation: DiseñoPiezas , Crear una primitiva aditiva , Prisma Aditivo
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/es, PartDesign_SubtractivePrism/es

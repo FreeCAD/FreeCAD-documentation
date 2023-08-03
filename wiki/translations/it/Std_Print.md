@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Print
    Name/it: Stampa
-   MenuLocation: File -> Stampa...
+   MenuLocation: File , Stampa...
    Workbenches: Tutti
    Shortcut: **Ctrl**+**P**
    SeeAlso: Std_PrintPreview/it, Std_PrintPdf/it, Std_Export/it, Std_ViewScreenShot/it

@@ -1,6 +1,6 @@
 # Mesh FlipNormals/ro
 ---
-- GuiCommand:   Name: Mesh FlipNormals‏‎   MenuLocation: Meshes -> Flip Normals   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Mesh FlipNormals‏‎   MenuLocation: Meshes , Flip Normals   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

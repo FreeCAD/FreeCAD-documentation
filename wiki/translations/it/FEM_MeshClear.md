@@ -1,6 +1,6 @@
 # FEM MeshClear/it
 ---
-- GuiCommand:   Name: FEM_MeshClear   Name/it: FEM MeshClear   Icon: Fem-femmesh-clear-mesh.svg   MenuLocation:  Menu contestuale dell'oggetto mesh -> FEM mesh clear   ---
+ GuiCommand:   Name: FEM_MeshClear   Name/it: FEM MeshClear   Icon: Fem-femmesh-clear-mesh.svg   MenuLocation:  Menu contestuale dell'oggetto mesh , FEM mesh clear   ---
 
 
 </div>

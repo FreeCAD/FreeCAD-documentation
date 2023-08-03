@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateFillet
    Name/pl: Szkicownik: Utwórz zaokrąglenie
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz zaokrąglenie
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz zaokrąglenie
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **F** **F**
    SeeAlso: Sketcher_CreatePointFillet/pl

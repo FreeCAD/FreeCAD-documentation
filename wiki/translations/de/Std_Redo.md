@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Redo
    Name/de: Std Wiederherstellen
-   MenuLocation: Bearbeiten -> Wiederherstellen‎
+   MenuLocation: Bearbeiten , Wiederherstellen‎
    Workbenches: Alle
    Shortcut: **Strg**+**Y**
    SeeAlso: Std_Undo/de

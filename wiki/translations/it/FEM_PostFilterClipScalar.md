@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterClipScalar
    Name/it: FEM PostFilterClipScalar
-   MenuLocation:  Risultati -> scalar clip filter
+   MenuLocation:  Risultati , scalar clip filter
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

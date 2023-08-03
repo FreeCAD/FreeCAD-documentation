@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewHome
-   MenuLocation: View -> Standard views -> Home
+   MenuLocation: View , Standard views , Home
    Workbenches: All
    Shortcut: **Home**
    Version: 0.19

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Fence
    Name/fr: Arch Clôture
-   MenuLocation: Arch -> Clôture
+   MenuLocation: Arch , Clôture
    Workbenches: Arch_Workbench/fr
    Version: 0.19
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionHoleCircle
-   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Bolt Circle Centerlines
+   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Bolt Circle Centerlines
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

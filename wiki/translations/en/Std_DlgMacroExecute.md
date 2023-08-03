@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgMacroExecute
-   MenuLocation: Macro -> Macros...
+   MenuLocation: Macro , Macros...
    Workbenches: All
    SeeAlso: Std_DlgMacroExecuteDirect
 ---

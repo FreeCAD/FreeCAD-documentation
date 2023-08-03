@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar UShape
    Name/fr: Arch Rebar Armature en U
-   MenuLocation: Arch -> Outils pour les armatures -> Armature en forme de U<br>3D/BIM -> Reinforcement tools -> Armature en forme de U
+   MenuLocation: Arch , Outils pour les armatures , Armature en forme de U<br>3D/BIM , Reinforcement tools , Armature en forme de U
    Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar/fr, Arch_Rebar_LShape/fr

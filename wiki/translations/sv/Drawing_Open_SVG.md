@@ -1,6 +1,6 @@
 # Drawing Open SVG/sv
 ---
-- GuiCommand:   Name: Drawing Open SVG   Name/sv: Drawing Open SVG   Workbenches: Drawing Workbench/sv   Drawing, Complete---
+ GuiCommand:   Name: Drawing Open SVG   Name/sv: Drawing Open SVG   Workbenches: Drawing Workbench/sv   Drawing, Complete---
 
 
 </div>

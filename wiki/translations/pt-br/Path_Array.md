@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Array
-   MenuLocation: Path -> Path Modification -> Array
+   MenuLocation: Path , Path Modification , Array
    Workbenches: Path_Workbench
 ---
 

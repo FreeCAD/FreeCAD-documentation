@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Angle
    Name/fr: Draft Aimantation Angles
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

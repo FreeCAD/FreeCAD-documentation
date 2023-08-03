@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch 3Views
    Name/ru: Arch: 3Views/3 D Просмотры
-   MenuLocation: Архитектура -> Утилиты -> 3 Views from mesh
+   MenuLocation: Архитектура , Утилиты , 3 Views from mesh
    Workbenches: Arch_Workbench/ru
    Shortcut: 
    SeeAlso: Arch SplitMesh/ru, Arch MeshToShape/ru

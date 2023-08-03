@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateArc
    Name/pl: Szkicownik: Komponent Utwórz łuk
    MenuLocation: ''''

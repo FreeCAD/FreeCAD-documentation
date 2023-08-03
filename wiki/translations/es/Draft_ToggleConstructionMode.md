@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleConstructionMode
    Name/es: Draft ToggleConstructionMode
-   MenuLocation: Boceto -> Utilidades -> Alternar modo de construcción
+   MenuLocation: Boceto , Utilidades , Alternar modo de construcción
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **C** **M**
 ---

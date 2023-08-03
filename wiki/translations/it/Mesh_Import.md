@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Import
    Name/it: Importa mesh
-   MenuLocation: Mesh -> Importa mesh...
+   MenuLocation: Mesh , Importa mesh...
    Workbenches: Mesh_Workbench/it
    SeeAlso: Std_Import/it, Std_Open/it, Import_Export/it
 ---

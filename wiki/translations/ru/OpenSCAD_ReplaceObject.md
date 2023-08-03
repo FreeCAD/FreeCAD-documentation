@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD ReplaceObject‏‎ 
    Name/ru: OpenSCAD ReplaceObject‏‎ 
-   MenuLocation: OpenSCAD -> Заменить объект
+   MenuLocation: OpenSCAD , Заменить объект
    Workbenches: OpenSCAD_Workbench/ru
    Shortcut: нет
    SeeAlso: ---

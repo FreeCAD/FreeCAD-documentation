@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Scaled
    MenuLocation: None 
    Workbenches: PartDesign Workbench

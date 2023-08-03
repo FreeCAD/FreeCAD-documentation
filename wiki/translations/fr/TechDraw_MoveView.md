@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw MoveView
    Name/fr: TechDraw Déplacer une vue
-   MenuLocation: TechDraw -> Vues de Techdraw -> Déplacer une vue
+   MenuLocation: TechDraw , Vues de Techdraw , Déplacer une vue
    Workbenches: TechDraw_Workbench/fr
    Version: 0.20
    SeeAlso: TechDraw_ShareView/fr

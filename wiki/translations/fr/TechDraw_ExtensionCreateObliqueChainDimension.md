@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateObliqueChainDimension
    Name/fr: TechDraw Cotes obliques
-   MenuLocation: TechDraw -> Extensions : cotes -> Cotes obliques
+   MenuLocation: TechDraw , Extensions : cotes , Cotes obliques
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

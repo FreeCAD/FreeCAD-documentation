@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std HideSelection
    Name/pl: Std: Ukryj zaznaczone
-   MenuLocation: Widok -> Widoczność -> Ukryj zaznaczone
+   MenuLocation: Widok , Widoczność , Ukryj zaznaczone
    Workbenches: wszystkie
    SeeAlso: Std_ToggleVisibility/pl, Std_ShowSelection/pl, Std_ToggleObjects/pl, Std_ShowObjects/pl, Std_HideObjects/pl
 ---

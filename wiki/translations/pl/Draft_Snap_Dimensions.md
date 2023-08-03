@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/pl: Rysunek Roboczy: Przyciągnij do wymiaru
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl

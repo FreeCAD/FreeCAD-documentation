@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cone
    Name/pl: Część: Stożek
-   MenuLocation: Część -> Bryła pierwotna -> Stożek
+   MenuLocation: Część , Bryła pierwotna , Stożek
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_CreatePrimitives/pl
 ---

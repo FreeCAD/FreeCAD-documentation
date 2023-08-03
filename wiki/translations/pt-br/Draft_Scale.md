@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Draft Scale
    Name/pt-br: Draft Scale
-   MenuLocation: Draft -> Scale
+   MenuLocation: Draft , Scale
    Workbenches: Draft_Workbench/pt-br, Arch_Workbench/pt-br
    Shortcut: **S** **C**
    SeeAlso: Draft Clone/pt-br

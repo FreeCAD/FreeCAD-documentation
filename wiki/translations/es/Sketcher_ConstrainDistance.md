@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/es: Restricción de distancia
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Sketch -> Restricciones de croquis -> Restricción de distancia
+   MenuLocation: Sketch , Restricciones de croquis , Restricción de distancia
    Shortcut: May + D
    SeeAlso: Sketcher ConstrainDistanceX/es, Sketcher ConstrainDistanceY/es
 ---

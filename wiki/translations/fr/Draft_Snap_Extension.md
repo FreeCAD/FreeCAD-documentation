@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Extension
    Name/fr: Draft Aimantation Extension
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

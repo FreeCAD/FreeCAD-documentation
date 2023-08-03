@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MeasureAngle
    Icon: Assembly_MeasureAngle.svg
    Workbenches: Assembly3_Workbench

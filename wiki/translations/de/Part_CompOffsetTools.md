@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompOffsetTools
    Name/de: Part AuswahlVersatzwerkzeuge
    MenuLocation: 

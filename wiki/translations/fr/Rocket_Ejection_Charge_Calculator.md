@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket Ejection Charge Calculator
    Name/fr: Rocket Calcul charge d'éjection
    Icon: Rocket_Calculator.svg
-   MenuLocation: Rocket -> Calculators -> Ejection Charge Calculator
+   MenuLocation: Rocket , Calculators , Ejection Charge Calculator
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

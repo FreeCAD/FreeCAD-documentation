@@ -1,6 +1,6 @@
 # Plot Positions/ro
 ---
-- GuiCommand:   Name: Plot Positions   MenuLocation: Plot -> Positions   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Positions   MenuLocation: Plot , Positions   |Shortcut:    SeeAlso: ---
 
 
 </div>

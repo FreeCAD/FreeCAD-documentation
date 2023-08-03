@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Clone
    Name/tr: Klon oluştur
    Workbenches: PartDesign Workbench/tr
-   MenuLocation: Parça tasarım -> Klon oluştur
+   MenuLocation: Parça tasarım , Klon oluştur
    Version: 0.17
    SeeAlso: Draft Clone
 ---

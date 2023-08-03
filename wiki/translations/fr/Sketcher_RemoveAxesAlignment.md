@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RemoveAxesAlignment
    Name/fr: Sketcher Supprimer l'alignement des axes
-   MenuLocation: Esquisse -> Outils d'esquisse -> Supprimer l'alignement des axes
+   MenuLocation: Esquisse , Outils d'esquisse , Supprimer l'alignement des axes
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **R**
    Version: 0.20

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADUserHub
-   MenuLocation: Std Help Menu -> Users documentation
+   MenuLocation: Std Help Menu , Users documentation
    Workbenches: All
    SeeAlso: Std OnlineHelp
 ---

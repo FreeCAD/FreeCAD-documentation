@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw  Dimension Length
    Name/es: TechDraw  Dimensión Longitud
-   MenuLocation: TechDraw -> Dimensión Longitud
+   MenuLocation: TechDraw , Dimensión Longitud
    Workbenches: TechDraw_Workbench/es
    SeeAlso: TechDraw_HorizontalDimension/es, TechDraw_HorizontalDimension/es
 ---

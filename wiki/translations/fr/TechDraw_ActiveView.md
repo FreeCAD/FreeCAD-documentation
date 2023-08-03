@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ActiveView
    Name/fr: TechDraw Vue active
-   MenuLocation: TechDraw ->  Vues des autres ateliers -> Insérer la vue active 
+   MenuLocation: TechDraw ,  Vues des autres ateliers , Insérer la vue active 
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_Image/fr

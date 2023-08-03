@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecentFiles
    Name/de: Std LetzteDateien
    Empty: 1
-   MenuLocation: Datei -> Letzte Dateien
+   MenuLocation: Datei , Letzte Dateien
    Workbenches: Alle
    SeeAlso: Std_Open/de, Std_Import/de
 ---

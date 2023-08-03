@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Hatch
    Name/de: Draft Schraffur
-   MenuLocation: Entwurf -> Schraffur
+   MenuLocation: Entwurf , Schraffur
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **H** **A**
    Version: 0.20

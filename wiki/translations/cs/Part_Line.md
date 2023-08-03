@@ -1,6 +1,6 @@
 # Part Line/cs
 ---
-- GuiCommand:   Name: Part Line   Name/cs: Díl Přímka   MenuLocation: Part -> Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů -> Přímka, OpenSCAD_Workbench/cs|SeeAlso: ..---
+ GuiCommand:   Name: Part Line   Name/cs: Díl Přímka   MenuLocation: Part , Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů , Přímka, OpenSCAD_Workbench/cs|SeeAlso: ..---
 
 
 </div>

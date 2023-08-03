@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SectionPlane
    Name/de: Arch SchnittEbene
-   MenuLocation: Arch -> Schnittebene
+   MenuLocation: Arch , Schnittebene
    Workbenches: Arch_Workbench/de
    Shortcut: **S** **P**
    SeeAlso: Draft_Shape2DView/de, TechDraw_ArchView/de

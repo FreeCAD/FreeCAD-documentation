@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkMake
    Name/ru: "Создать ссылку"
    MenuLocation: Нет

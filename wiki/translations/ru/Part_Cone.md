@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cone
    Name/ru: Конус
-   MenuLocation: Деталь -> Примитивы -> Конус
+   MenuLocation: Деталь , Примитивы , Конус
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

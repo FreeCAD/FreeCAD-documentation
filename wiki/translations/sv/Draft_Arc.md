@@ -1,6 +1,6 @@
 # Draft Arc/sv
 ---
-- GuiCommand:   Name: Draft Arc   Name/sv: Draft Arc   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Arc   Name/sv: Draft Arc   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_Clone
    Name/it: Clona
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Strumenti -> Clona
+   MenuLocation: Sketch , Strumenti , Clona
    Version: 0.16
    SeeAlso: Sketcher Copy/it, Sketcher Move/it
 ---

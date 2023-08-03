@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part XOR
-   MenuLocation: Part -> Split -> Boolean XOR
+   MenuLocation: Part , Split , Boolean XOR
    Workbenches: Part_Workbench
    Version: 0.17
    SeeAlso: Part_BooleanFragments, Part_Slice, Part_CompJoinFeatures, Part_Boolean

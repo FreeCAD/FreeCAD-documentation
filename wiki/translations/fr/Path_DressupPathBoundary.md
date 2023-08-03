@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupPathBoundary
    Name/fr: Path Limitation d'une zone
-   MenuLocation: Path -> Finition du parcours -> Limitation de la zone
+   MenuLocation: Path , Finition du parcours , Limitation de la zone
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupTag/fr, Path_DressupRampEntry/fr
 ---

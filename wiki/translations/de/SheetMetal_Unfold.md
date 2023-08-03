@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal Unfold
    Name/de: SheetMetal Abwickeln
-   MenuLocation: SheetMetal -> Unfold
+   MenuLocation: SheetMetal , Unfold
    Workbenches: SheetMetal_Workbench/de
    Shortcut: **U**
    SeeAlso: SheetMetal_UnattendedUnfold/de

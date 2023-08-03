@@ -1,9 +1,9 @@
 # Mesh Difference/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Difference
    Name/it: Differenza
-   MenuLocation: Mesh -> Operazione booleana -> Differenza
+   MenuLocation: Mesh , Operazione booleana , Differenza
    Workbenches: Mesh Workbench/it---
 
 ## Descrizione

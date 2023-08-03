@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points Structure
    Name/fr: Points Nuage structuré
-   MenuLocation: Points -> Nuage structuré de points
+   MenuLocation: Points , Nuage structuré de points
    Workbenches: Points_Workbench/fr
 ---
 

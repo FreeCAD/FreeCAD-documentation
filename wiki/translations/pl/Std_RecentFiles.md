@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecentFiles
    Name/pl: Std: Ostatnio używane pliki
    Empty: 1
-   MenuLocation: Plik -> Ostatnio używane pliki
+   MenuLocation: Plik , Ostatnio używane pliki
    Workbenches: wszystkie
    SeeAlso: Std_Open/pl, Std_Import/pl
 ---

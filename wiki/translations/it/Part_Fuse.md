@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Union
    Name/it: Unione
    Icon: Part Fuse.svg
-   MenuLocation: Parte -> Operazione booleana -> Unione
+   MenuLocation: Parte , Operazione booleana , Unione
    Workbenches: Part_Workbench/it
    SeeAlso: Part Cut/it, Part Common/it, Part Boolean
 ---

@@ -1,6 +1,6 @@
 # Plot Save/ro
 ---
-- GuiCommand:   Name: Plot Save   Workbenches: Plot_Workbench   Plot|MenuLocation: Plot -> Save plot---
+ GuiCommand:   Name: Plot Save   Workbenches: Plot_Workbench   Plot|MenuLocation: Plot , Save plot---
 
 
 </div>

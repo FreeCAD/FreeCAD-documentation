@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать аддитивный примитив
    Name: PartDesign_CompPrimitiveAdditive
-   MenuLocation: Part Design -> Создать аддитивный примитив
+   MenuLocation: Part Design , Создать аддитивный примитив
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/ru

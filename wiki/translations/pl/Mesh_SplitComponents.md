@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SplitComponents
    Name/pl: Siatka: Rozbij na komponenty
-   MenuLocation: Siatki -> Rozbij na komponenty
+   MenuLocation: Siatki , Rozbij na komponenty
    Workbenches: Mesh_Workbench/pl
    Version: 0.19
    SeeAlso: Mesh_Merge/pl

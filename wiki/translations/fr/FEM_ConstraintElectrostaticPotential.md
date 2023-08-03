@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintElectrostaticPotential
    Name/fr: FEM Contrainte de potentiel électrostatique
-   MenuLocation: Modèle -> Contraintes électrostatiques -> Contrainte de potentiel électrostatique
+   MenuLocation: Modèle , Contraintes électrostatiques , Contrainte de potentiel électrostatique
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_Example_Capacitance_Two_Balls/fr, FEM_tutorial/fr
 ---

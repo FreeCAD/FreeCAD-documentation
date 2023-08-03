@@ -1,6 +1,6 @@
 # Std New/it
 ---
-- GuiCommand:   Name: Std_New   Name/it: Nuovo   MenuLocation: File -> Nuovo   Workbenches: Tutti   Shortcut: **Ctrl**+**N**   SeeAlso: Std_Open/it, Std_Import/it---
+ GuiCommand:   Name: Std_New   Name/it: Nuovo   MenuLocation: File , Nuovo   Workbenches: Tutti   Shortcut: **Ctrl**+**N**   SeeAlso: Std_Open/it, Std_Import/it---
 
 ## Descrizione
 

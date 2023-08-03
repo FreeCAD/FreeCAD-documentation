@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Slice
    Name/ru: Part Slice
-   MenuLocation: Деталь -> Split -> Slice
+   MenuLocation: Деталь , Split , Slice
    Workbenches: Part_Workbench/ru
    Version: 0.17
    SeeAlso: Part_BooleanFragments/ru, Part_XOR/ru, Part_CompJoinFeatures/ru, Part_Boolean/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Layer
    Name/fr: Draft Calque
-   MenuLocation: Utilitaires -> Calque
+   MenuLocation: Utilitaires , Calque
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_AutoGroup/fr, Draft_LayerManager/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points Structure
    Name/pl: Punkty: Uporządkowana chmura punktów
-   MenuLocation: Punkty -> Uporządkowana chmura punktów
+   MenuLocation: Punkty , Uporządkowana chmura punktów
    Workbenches: Points_Workbench/pl
 ---
 

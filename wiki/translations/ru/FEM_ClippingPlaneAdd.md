@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ClippingPlaneAdd
    Name/ru: FEM ClippingPlaneAdd
-   MenuLocation:  Utilities -> Clipping Plane on Face
+   MenuLocation:  Utilities , Clipping Plane on Face
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_tutorial/ru
 ---

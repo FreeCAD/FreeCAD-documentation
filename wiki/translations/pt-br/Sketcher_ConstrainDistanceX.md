@@ -1,9 +1,9 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Sketcher ConstrainDistanceX
    Name/pt-br: Sketcher ConstrainDistanceX
    Workbenches: Sketcher Workbench/pt-br
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain horizontal distance
+   MenuLocation: Sketch , Sketcher constraints , Constrain horizontal distance
    Shortcut: Shift + H
    SeeAlso: Sketcher_ConstrainDistance/pt-br, Sketcher_ConstrainDistanceY/pt-br
 ---

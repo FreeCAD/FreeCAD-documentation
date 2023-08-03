@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch RemoveShape
    Name/ru: Arch RemoveShape
-   MenuLocation: Архитектура -> Утилиты -> Удалить форму из Архитектуры
+   MenuLocation: Архитектура , Утилиты , Удалить форму из Архитектуры
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch MeshToShape/ru
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Delete All Geometry
    Name/it: Cancella tutta la geometria
    Icon: Sketcher Element SelectionTypeInvalid.svg
-   MenuLocation: Sketch -> Strumenti -> Cancella tutta la geometria
+   MenuLocation: Sketch , Strumenti , Cancella tutta la geometria
    Workbenches: Sketcher Workbench/it
    SeeAlso: Sketcher DeleteAllConstraints/it
    Version: 0.18

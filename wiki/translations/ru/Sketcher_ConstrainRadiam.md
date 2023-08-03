@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничить радиус/диаметр автоматически
    Name: Sketcher_ConstrainRadiam
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничить радиус/диаметр автоматически
+   MenuLocation: Sketch , Ограничения эскиза , Ограничить радиус/диаметр автоматически
    Workbenches: Sketcher_Workbench/ru
    SeeAlso: Sketcher_ConstrainDistance/ru, Sketcher_ConstrainDistanceX/ru, Sketcher_ConstrainDistanceY/ru
    Version: 0.20

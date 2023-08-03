@@ -1,6 +1,6 @@
 # Path Engrave/ro
 ---
-- GuiCommand:   Name: Path Engrave   Workbenches: Path Workbench   Path|MenuLocation: Path -> Engrave   Shortcut|SeeAlso: ---
+ GuiCommand:   Name: Path Engrave   Workbenches: Path Workbench   Path|MenuLocation: Path , Engrave   Shortcut|SeeAlso: ---
 
 
 </div>

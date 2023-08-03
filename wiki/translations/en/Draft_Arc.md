@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
-   MenuLocation: Drafting -> Arc tools -> Arc
+   MenuLocation: Drafting , Arc tools , Arc
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **A** **R**
    Version: 0.7

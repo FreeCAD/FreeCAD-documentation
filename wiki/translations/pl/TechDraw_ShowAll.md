@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ShowAll
    Name/pl: Rysunek Techniczny: Pokaż / ukryj niewidoczne krawędzie
-   MenuLocation: Rysunek Techniczny -> Pokaż / ukryj niewidoczne krawędzie
+   MenuLocation: Rysunek Techniczny , Pokaż / ukryj niewidoczne krawędzie
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_DecorateLine/pl

@@ -1,6 +1,6 @@
 # FEM ConstraintInitialFlowVelocity/it
 ---
-- GuiCommand:   Name: FEM_ConstraintInitialFlowVelocity   Name/it: Vincolo velocità iniziale del flusso   Icon: Fem-constraint-initial-flow-velocity.svg   MenuLocation:  Modello -> Vincoli per fluidi -> Vincolo velocità iniziale del flusso   ---
+ GuiCommand:   Name: FEM_ConstraintInitialFlowVelocity   Name/it: Vincolo velocità iniziale del flusso   Icon: Fem-constraint-initial-flow-velocity.svg   MenuLocation:  Modello , Vincoli per fluidi , Vincolo velocità iniziale del flusso   ---
 
 
 </div>

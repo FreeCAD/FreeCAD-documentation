@@ -1,6 +1,6 @@
 # Arch Rebar/sv
 ---
-- GuiCommand:   Name: Arch Rebar   Name/sv: Arch Rebar   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch Rebar   Name/sv: Arch Rebar   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CircularArray
    Name/ru: Draft CircularArray
-   MenuLocation: Draft -> Circular array
+   MenuLocation: Draft , Circular array
    Workbenches: Draft_Workbench/ru
    Version: 0.19
    SeeAlso: Draft_Array/ru, Draft_PolarArray/ru, Draft_PathArray/ru, Draft_PointArray/ru, Draft_Clone/ru

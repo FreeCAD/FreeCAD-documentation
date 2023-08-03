@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointInPlane
    Name/de: Assembly3 PunktAufEbene
    Icon: Assembly_ConstraintPointInPlane.svg

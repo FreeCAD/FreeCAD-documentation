@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverControl
    Name/fr: FEM Réglage du solveur
-   MenuLocation: Résolution -> Contrôle des tâches du solveur
+   MenuLocation: Résolution , Contrôle des tâches du solveur
    Workbenches: FEM_Workbench/fr
    Shortcut: **S** **T**
    SeeAlso: FEM_SolverRun/fr

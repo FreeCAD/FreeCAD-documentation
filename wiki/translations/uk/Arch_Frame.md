@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Frame
    Name/uk: Arch Frame
-   MenuLocation: Arch -> Frame
+   MenuLocation: Arch , Frame
    Workbenches: Arch_Workbench/uk
    Shortcut: **F** **R**
    SeeAlso: Arch Wall/uk, Arch Structure/uk

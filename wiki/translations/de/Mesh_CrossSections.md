@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh CrossSections
-   MenuLocation: Meshes -> Cutting -> Cross-sections..
+   MenuLocation: Meshes , Cutting , Cross-sections..
    Workbenches: Mesh_Workbench
    Version: 0.19
    SeeAlso: Mesh_SectionByPlane

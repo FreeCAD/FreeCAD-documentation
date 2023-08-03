@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Sketcher Move
    Icon: Sketcher_Move.svg
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Sketcher tools -> Move
+   MenuLocation: Sketch , Sketcher tools , Move
    Shortcut: Ctrl + M
    Version: 0.18
    SeeAlso: Sketcher Clone/ro, Sketcher Copy/ro

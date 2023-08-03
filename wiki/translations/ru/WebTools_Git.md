@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: WebTools Git‏‎
    Name/ru: Arch Git‏‎
-   MenuLocation: Архитектура -> Утилиты -> Commit with Git
+   MenuLocation: Архитектура , Утилиты , Commit with Git
    Workbenches: Arch_Workbench/ru
    Shortcut: 
 ‏‎   SeeAlso: 

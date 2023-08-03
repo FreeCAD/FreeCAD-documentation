@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/pl: Szkicownik: Utwórz szkic
-   MenuLocation: Szkic -> Utwórz szkic
+   MenuLocation: Szkic , Utwórz szkic
    Workbenches: Sketcher_Workbench/pl
    SeeAlso: PartDesign_NewSketch/pl, Sketcher_ReorientSketch/pl
 ---

@@ -1,6 +1,6 @@
 # Arch Axis/cs
 ---
-- GuiCommand:   Name: Arch Axis   Name/cs: Osy   Workbenches: Arch_Workbench/cs   Architektura|MenuLocation: Arch -> Osy   Shortcut: A X---
+ GuiCommand:   Name: Arch Axis   Name/cs: Osy   Workbenches: Arch_Workbench/cs   Architektura|MenuLocation: Arch , Osy   Shortcut: A X---
 
 
 </div>

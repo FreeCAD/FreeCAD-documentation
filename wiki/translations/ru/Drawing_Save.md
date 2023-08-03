@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Save
    Name/ru: Drawing Save
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж-> Экспортировать страницу...
+   MenuLocation: Чертёж, Экспортировать страницу...
    Shortcut: 
    SeeAlso: Drawing Open SVG/ru
 ---

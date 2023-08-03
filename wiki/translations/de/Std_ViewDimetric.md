@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewDimetric
-   MenuLocation: Ansicht -> Standardansichten -> Axonometrisch -> Dimetrisch
+   MenuLocation: Ansicht , Standardansichten , Axonometrisch , Dimetrisch
    Workbenches: Alle
    SeeAlso: Std_ViewIsometric/de, Std_ViewTrimetric/de
 ---

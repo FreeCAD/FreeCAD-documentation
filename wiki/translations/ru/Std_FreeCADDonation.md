@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Поддержать
    Name: Std_FreeCADDonation
-   MenuLocation: Справка -> Поддержать
+   MenuLocation: Справка , Поддержать
    Workbenches: Все
    Version: 0.19
 ---

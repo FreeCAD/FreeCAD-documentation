@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Улучшить форму
    Name: Part_RefineShape
-   MenuLocation: Деталь -> Создать копию -> Refine Shape
+   MenuLocation: Деталь , Создать копию , Refine Shape
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_SimpleCopy/ru, Part_TransformedCopy/ru, Part_ElementCopy/ru, OpenSCAD_RefineShapeFeature/ru
 ---

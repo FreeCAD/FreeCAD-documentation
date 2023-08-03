@@ -1,6 +1,6 @@
 # TechDraw Image/ro
 ---
-- GuiCommand:   Name: TechDraw  Image   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw -> Image   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: TechDraw  Image   Workbenches: TechDraw_Workbench   TechDraw|MenuLocation: TechDraw , Image   Shortcut:    SeeAlso: ---
 
 
 </div>

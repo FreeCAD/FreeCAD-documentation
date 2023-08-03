@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewTop
    Name/pl: Std: Widok od góry
-   MenuLocation: Widok -> Widoki standardowe -> Od góry
+   MenuLocation: Widok , Widoki standardowe , Od góry
    Workbenches: wszystkie
    Shortcut: **2**
    SeeAlso: Std_ViewFront/pl, Std_ViewRight/pl

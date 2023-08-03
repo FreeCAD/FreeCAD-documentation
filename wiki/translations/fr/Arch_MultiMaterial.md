@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MultiMaterial
    Name/fr: Arch Matériaux multiples
-   MenuLocation: Arch -> Outils pour les matériaux -> Matériaux multiples
+   MenuLocation: Arch , Outils pour les matériaux , Matériaux multiples
    Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: Arch_SetMaterial/fr, Arch_CompSetMaterial/fr

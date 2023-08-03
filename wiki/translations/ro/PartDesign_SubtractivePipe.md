@@ -1,6 +1,6 @@
 # PartDesign SubtractivePipe/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractivePipe   Workbenches: PartDesign Workbench   PartDesign, PartDesign SubtractiveLoft---
+ GuiCommand:   Name: PartDesign SubtractivePipe   Workbenches: PartDesign Workbench   PartDesign, PartDesign SubtractiveLoft---
 
 
 </div>

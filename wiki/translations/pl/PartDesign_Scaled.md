@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Scaled
    Name/pl: Projekt Części: Skaluj
    MenuLocation: Brak ''''

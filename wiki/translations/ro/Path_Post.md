@@ -1,6 +1,6 @@
 # Path Post/ro
 ---
-- GuiCommand:   Name: Path PostProcess   Workbenches: Path Workbench   Path|MenuLocation: Path -> Post Process   Shortcut: P,P   SeeAlso: ---
+ GuiCommand:   Name: Path PostProcess   Workbenches: Path Workbench   Path|MenuLocation: Path , Post Process   Shortcut: P,P   SeeAlso: ---
 
 
 </div>

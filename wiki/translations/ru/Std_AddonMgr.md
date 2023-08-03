@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Менеджер дополнений
-   MenuLocation: Инструменты -> Менеджер дополнений
+   MenuLocation: Инструменты , Менеджер дополнений
    Workbenches: All
    Version: 0.17
    SeeAlso: External_workbenches/ru, Macros/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Windows
    Name/pl: Std: Okna
-   MenuLocation: Okna -> Okna ...
+   MenuLocation: Okna , Okna ...
    Workbenches: wszystkie
    SeeAlso: Std_ActivateNextWindow/pl, Std_ActivatePrevWindow/pl
 ---

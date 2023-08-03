@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_CrossSections
    Name/it: Sezioni
-   MenuLocation: Mesh -> Taglio -> Sezioni...
+   MenuLocation: Mesh , Taglio , Sezioni...
    Workbenches: Mesh_Workbench/it
    Version: 0.19
    SeeAlso: Mesh_SectionByPlane/it

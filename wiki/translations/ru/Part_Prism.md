@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/ru: Призма
-   MenuLocation: Деталь -> Part_CreatePrimitives/ru -> Призма
+   MenuLocation: Деталь , Part_CreatePrimitives/ru , Призма
    Workbenches: Part_Workbench/ru   Part,  OpenSCAD_Workbench/ru|Version: 0.14
    SeeAlso: Part_Primitives/ru, Part_Box/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Текст
    Name: Draft_Text
-   MenuLocation: Annotation -> Текст
+   MenuLocation: Annotation , Текст
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **T** **E**
    Version: 0.7

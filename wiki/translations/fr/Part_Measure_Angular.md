@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Angular
    Name/fr: Part Mesure angulaire
-   MenuLocation: Mesure -> Mesure angulaire‏‎
+   MenuLocation: Mesure , Mesure angulaire‏‎
    Workbenches: Part_Workbench/fr
    SeeAlso: Draft_Dimension/fr
 ---

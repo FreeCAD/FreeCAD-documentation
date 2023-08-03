@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch BuildingPart
    Name/de: Arch Gebäudeteil
-   MenuLocation: Arch -> Gebäudeteil
+   MenuLocation: Arch , Gebäudeteil
    Workbenches: Arch_Workbench/de
    Version: 0.18
    SeeAlso: Arch_Building/de, Arch_Site/de

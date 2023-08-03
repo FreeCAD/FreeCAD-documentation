@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Equipment
    Name/it: Arredo
-   MenuLocation: Arch -> Arredo
+   MenuLocation: Arch , Arredo
    Workbenches: Arch_Workbench/it
    Shortcut: **E** **Q**
    SeeAlso: Arch_3Views/it

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AddonMgr
    Name/pt: Addon manager
    Icon: AddonManager.svg
-   MenuLocation: Tools -> Addon manager
+   MenuLocation: Tools , Addon manager
    Workbenches: N/A
    SeeAlso: Macros/pt, External workbenches/pt
    Version: 0.17

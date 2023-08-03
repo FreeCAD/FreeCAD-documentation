@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADWebsite
    Name/pl: Std: Witryna FreeCAD
-   MenuLocation: Pomoc -> Witryna FreeCAD
+   MenuLocation: Pomoc , Witryna FreeCAD
    Workbenches: wszystkie
    SeeAlso: Std_FreeCADUserHub/pl, Std_FreeCADPowerUserHub/pl, Std_FreeCADForum/pl, Std_FreeCADFAQ/pl
 ---

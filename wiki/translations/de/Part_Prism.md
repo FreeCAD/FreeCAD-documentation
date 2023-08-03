@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/de: Part Prisma
-   MenuLocation: Formteil -> Part_Primitives/de -> Prisma
+   MenuLocation: Formteil , Part_Primitives/de , Prisma
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    Version: 0.14
    SeeAlso: Part_Primitives/de

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewZoomIn
-   MenuLocation: View -> Zoom -> Zoom In
+   MenuLocation: View , Zoom , Zoom In
    Workbenches: All
    Shortcut: **Ctrl**+**+**
    SeeAlso: Std_ViewZoomOut, Std_ViewBoxZoom

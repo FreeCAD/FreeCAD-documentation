@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArcOfParabola
    Name/pl: Szkicownik: Utwórz łuk na podstawie paraboli
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz łuk na podstawie paraboli
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz łuk na podstawie paraboli
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **J**
    Version: 0.17

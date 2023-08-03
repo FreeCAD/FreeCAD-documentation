@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher External
    Name/es: Croquizador Externo
-   MenuLocation: Croquis -> Croquizador Geometrías -> Croquizador Externo
+   MenuLocation: Croquis , Croquizador Geometrías , Croquizador Externo
    Workbenches: Sketcher_Workbench/es
    Shortcut: X
    SeeAlso: Sketcher_ToggleConstruction/es

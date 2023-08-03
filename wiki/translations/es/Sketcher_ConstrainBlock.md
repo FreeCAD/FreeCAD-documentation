@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/es: Croquizador RestringirBloque
-   MenuLocation: Croquis -> Restricciones de croquis -> Restringir Bloque
+   MenuLocation: Croquis , Restricciones de croquis , Restringir Bloque
    Workbenches: Sketcher Workbench/es
    SeeAlso: Sketcher_ConstrainLock/es
    Version: 0.17

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Цепное колесо 
    Name: PartDesign_Sprocket
-   MenuLocation: Part Design -> Цепное колесо 
+   MenuLocation: Part Design , Цепное колесо 
    Workbenches: PartDesign_Workbench/ru
    Version: 0.19
 ---

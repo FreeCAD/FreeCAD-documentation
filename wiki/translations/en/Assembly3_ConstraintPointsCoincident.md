@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsCoincident
    Icon: Assembly_ConstraintPointCoincident.svg
    Workbenches: Assembly3_Workbench

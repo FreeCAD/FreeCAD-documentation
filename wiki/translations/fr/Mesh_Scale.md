@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Scale
    Name/fr: Mesh Echelle
-   MenuLocation: Maillages -> Échelle...
+   MenuLocation: Maillages , Échelle...
    Workbenches: Mesh_Workbench/fr
 ---
 

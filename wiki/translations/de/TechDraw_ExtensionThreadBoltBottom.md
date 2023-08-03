@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionThreadBoltBottom
    Name/de: TechDraw ErgänzungAußengewindeAxial
-   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Thread Bolt Bottom View
+   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Thread Bolt Bottom View
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

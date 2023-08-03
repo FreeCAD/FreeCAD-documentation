@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/pl: Rysunek Roboczy: Kształt z tekstu
-   MenuLocation: Kreślenie -> Kształt z tekstu ...
+   MenuLocation: Kreślenie , Kształt z tekstu ...
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: 
    Version: 0.14

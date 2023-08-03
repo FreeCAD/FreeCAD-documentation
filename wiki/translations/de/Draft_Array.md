@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array
    Name/de: Entwurf Anordnung
-   MenuLocation: Entwurf -> Anordnung
+   MenuLocation: Entwurf , Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft PathArray/de, Draft PointArray/de, Draft Clone/de
 ---

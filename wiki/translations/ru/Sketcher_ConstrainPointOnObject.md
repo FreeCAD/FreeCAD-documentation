@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничить точку на объекте
    Name: Sketcher_ConstrainPointOnObject
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничить точку на объекте
+   MenuLocation: Sketch , Ограничения эскиза , Ограничить точку на объекте
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **O**
    SeeAlso: Sketcher_ConstrainCoincident/ru

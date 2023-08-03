@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface BlendCurve
-   MenuLocation: Surface -> Blend Curve
+   MenuLocation: Surface , Blend Curve
    Workbenches: Surface_Workbench
    Version: 0.21
 ---

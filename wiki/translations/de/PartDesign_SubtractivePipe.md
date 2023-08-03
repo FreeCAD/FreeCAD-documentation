@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractivePipe
    Name/de: PartDesign Subtraktives Rohr
-   MenuLocation: Part Design -> Create a substractive feature -> Subtractive pipe
+   MenuLocation: Part Design , Create a substractive feature , Subtractive pipe
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_AdditivePipe/de, PartDesign_SubtractiveLoft/de

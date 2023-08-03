@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Undo
    Name/ko: 표준 실행 취소
-   MenuLocation: 편집 -> 실행 취소
+   MenuLocation: 편집 , 실행 취소
    Workbenches: 모두
    Shortcut: **Ctrl**+**Z**
    SeeAlso: Std_Redo/ko

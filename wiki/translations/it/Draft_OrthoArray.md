@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft OrthoArray
    Name/it: Serie ortogonale
-   MenuLocation: Modifiche -> Strumenti serie -> Serie ortogonale
+   MenuLocation: Modifiche , Strumenti serie , Serie ortogonale
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
    SeeAlso: Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it

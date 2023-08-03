@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc 3Points
    Name/de: Draft Bogen 3Punkte
-   MenuLocation: Entwurf -> Bogenwerkzeuge -> Bogen aus 3 Punkten
+   MenuLocation: Entwurf , Bogenwerkzeuge , Bogen aus 3 Punkten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **A** **T**
    Version: 0.19

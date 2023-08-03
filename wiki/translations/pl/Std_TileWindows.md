@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TileWindows
    Name/pl: Std: Sąsiadująco
-   MenuLocation: Okna -> Sąsiadująco
+   MenuLocation: Okna , Sąsiadująco
    Workbenches: wszystkie
    SeeAlso: Std_CascadeWindows/pl
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name/zh-cn: 调整草图方向...
    Name: Sketcher_ReorientSketch
-   MenuLocation: Sketch -> Reorient sketch
+   MenuLocation: Sketch , Reorient sketch
    Workbenches: Sketcher_Workbench/zh-cn, PartDesign_Workbench/zh-cn
    SeeAlso: Sketcher_MapSketch/zh-cn, Sketcher_NewSketch/zh-cn
 ---

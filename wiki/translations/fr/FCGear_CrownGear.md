@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CrownGear
    Name/fr: FCGear Engrenage couronne
-   MenuLocation: Gear -> Crown Gear
+   MenuLocation: Gear , Crown Gear
    Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16

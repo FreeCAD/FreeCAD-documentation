@@ -1,6 +1,6 @@
 # Std Redo/ro
 ---
-- GuiCommand:   Name: Std Redo   MenuLocation: Std_Edit_Menu   Edit -> Redo‏‎---
+ GuiCommand:   Name: Std Redo   MenuLocation: Std_Edit_Menu   Edit , Redo‏‎---
 
 
 </div>

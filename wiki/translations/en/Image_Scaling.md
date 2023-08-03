@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image Scaling
    MenuLocation: 
    Workbenches: Image_Workbench

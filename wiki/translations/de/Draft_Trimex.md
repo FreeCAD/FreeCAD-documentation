@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Trimex
    Name/de: Draft Trimex
-   MenuLocation: Änderung -> Trimex
+   MenuLocation: Änderung , Trimex
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **T** **R**
    SeeAlso: Part_Extrude/de

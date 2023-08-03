@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal_Unfold
    Name/it: Dispiega
-   MenuLocation: SheetMetal -> Unfold
+   MenuLocation: SheetMetal , Unfold
    Workbenches: SheetMetal Workbench/it
    Shortcut: None
    Version: 

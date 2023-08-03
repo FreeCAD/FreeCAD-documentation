@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Name/it: Griglia
    Workbenches: Draft_Workbench/it, Arch_Workbench/it

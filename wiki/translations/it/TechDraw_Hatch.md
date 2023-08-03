@@ -1,6 +1,6 @@
 # TechDraw Hatch/it
 ---
-- GuiCommand:   Name: TechDraw Hatch   Name/it: Tratteggio da modello   Workbenches: TechDraw_Workbench/it   TechDraw, TechDraw_Hatching/it---
+ GuiCommand:   Name: TechDraw Hatch   Name/it: Tratteggio da modello   Workbenches: TechDraw_Workbench/it   TechDraw, TechDraw_Hatching/it---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
    Name/pl: Projekt Części: Subtraktywna elipsoida
-   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Subtraktywna elipsoida
+   MenuLocation: Projekt Części , Utwórz cechę przez odjęcie , Subtraktywna elipsoida
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/pl, PartDesign_AdditiveEllipsoid/pl

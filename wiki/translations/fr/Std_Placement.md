@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Placement
    Name/fr: Std Positionnement
-   MenuLocation: Édition -> Positionnement...
+   MenuLocation: Édition , Positionnement...
 ‏‎   Workbenches: Tous
    SeeAlso: Std_Alignment/fr, Placement/fr
 ---

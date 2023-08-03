@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateDataAtPointFilter
    Name/ru: FEM PostCreateDataAtPointFilter
    Icon: Fem-post-filter-data-at-point.png
-   MenuLocation:  Results -> Data at point filter
+   MenuLocation:  Results , Data at point filter
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

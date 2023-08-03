@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIsometric
    Name/ko: 표준 등각투영
-   MenuLocation: 보기 -> 표준 보기 -> Axonometric -> Isometric
+   MenuLocation: 보기 , 표준 보기 , Axonometric , Isometric
    Workbenches: 모두
    Shortcut: **0**
    SeeAlso: Std_ViewDimetric/ko, Std_ViewTrimetric/ko

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Revolution
-   MenuLocation: Part Design -> Create an additive feature -> Revolution
+   MenuLocation: Part Design , Create an additive feature , Revolution
    Workbenches: PartDesign_Workbench
    SeeAlso: PartDesign_Groove
 ---

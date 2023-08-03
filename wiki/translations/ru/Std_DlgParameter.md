@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgParameter
    Name/ru: Std DlgParameter
-   MenuLocation: Инструменты -> Редактор параметров
+   MenuLocation: Инструменты , Редактор параметров
    Workbenches: All
    SeeAlso: Preferences_Editor/ru
 ---

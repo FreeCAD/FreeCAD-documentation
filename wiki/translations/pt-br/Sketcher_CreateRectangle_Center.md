@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle Center
-   MenuLocation: Sketch -> Sketcher geometries -> Create centered rectangle
+   MenuLocation: Sketch , Sketcher geometries , Create centered rectangle
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **V**
    Version: 0.20

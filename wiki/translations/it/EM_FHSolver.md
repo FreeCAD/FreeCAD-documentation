@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHSolver
    Name/it: EM FHSolver
-   MenuLocation: EM -> FHSolver
+   MenuLocation: EM , FHSolver
    Workbenches: EM Workbench/it 
    Shortcut: **E** **X**
    SeeAlso: EM FHInputFile/it, EM FHNode/it, EM FHSegment/it, EM FHPath/it, EM FHPlane/it, EM FHEquiv/it, EM FHPort/it

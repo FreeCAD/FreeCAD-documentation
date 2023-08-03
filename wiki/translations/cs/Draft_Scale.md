@@ -1,6 +1,6 @@
 # Draft Scale/cs
 ---
-- GuiCommand:   Name: Draft Scale   Name/cs: Kreslení Roztáhnout   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Scale   Name/cs: Kreslení Roztáhnout   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

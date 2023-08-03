@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Reorient
    Name/cs: Skicář Změna orientace
    Empty: 1
    Workbenches: Sketcher Workbench/cs, PartDesign Workbench/cs
-   MenuLocation: Návrh dílu -> Změna orientace náčrtu
+   MenuLocation: Návrh dílu , Změna orientace náčrtu
    SeeAlso: Sketcher_MapSketch/cs, Sketcher_NewSketch/cs
 ---
 

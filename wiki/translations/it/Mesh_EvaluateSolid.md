@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_EvaluateSolid
    Name/it: Controlla se è un solido
-   MenuLocation: Mesh -> Analizza -> Controlla se è un solido
+   MenuLocation: Mesh , Analizza , Controlla se è un solido
    Workbenches: Mesh_Workbench/it
    SeeAlso: Arch_SelectNonSolidMeshes
 ---

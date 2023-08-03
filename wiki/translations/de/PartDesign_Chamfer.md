@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Chamfer
    Name/de: PartDesign Fase
-   MenuLocation: Part Design -> Modifikationen -> Fase
+   MenuLocation: Part Design , Modifikationen , Fase
    Workbenches: PartDesign_Workbench/de
    SeeAlso: PartDesign_Fillet/de
 ---

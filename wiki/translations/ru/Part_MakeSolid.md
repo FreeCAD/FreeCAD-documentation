@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Преобразовать в твердое тело
    Name: Part_MakeSolid
-   MenuLocation: Part -> Преобразовать в твердое тело
+   MenuLocation: Part , Преобразовать в твердое тело
    Workbenches: Part_Workbench/ru
 ---
 

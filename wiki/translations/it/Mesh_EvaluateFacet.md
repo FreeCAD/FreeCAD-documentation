@@ -1,6 +1,6 @@
 # Mesh EvaluateFacet/it
 ---
-- GuiCommand:   Name: Mesh_EvaluateFacet   Name/it: Dettagli faccia   MenuLocation: Mesh -> Analizza -> Dettagli faccia   Workbenches: Mesh_Workbench/it   Mesh|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Mesh_EvaluateFacet   Name/it: Dettagli faccia   MenuLocation: Mesh , Analizza , Dettagli faccia   Workbenches: Mesh_Workbench/it   Mesh|Shortcut:    SeeAlso: ---
 
 ## Descrizione
 

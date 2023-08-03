@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Common
    Name/ro: Part Common
-   MenuLocation: Part -> Common
+   MenuLocation: Part , Common
    Workbenches: Part_Workbench/ro
    SeeAlso: Part Union/ro, Part Cut/ro
 ---

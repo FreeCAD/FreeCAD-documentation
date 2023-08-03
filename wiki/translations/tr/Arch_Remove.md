@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/tr: Mimari Kaldır
-   MenuLocation: Arch -> Remove
+   MenuLocation: Arch , Remove
    Workbenches: Arch_Workbench
    SeeAlso: Arch Add
 ---

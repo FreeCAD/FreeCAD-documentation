@@ -1,6 +1,6 @@
 # Robot Export/ro
 ---
-- GuiCommand:   Name: Robot Export   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot -> Export trajectory---
+ GuiCommand:   Name: Robot Export   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot , Export trajectory---
 
 
 </div>

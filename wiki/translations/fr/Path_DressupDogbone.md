@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupDogbone
    Name/fr: Path Dégagement des angles
-   MenuLocation: Path -> Finition du parcours -> Dégagement des angles
+   MenuLocation: Path , Finition du parcours , Dégagement des angles
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupTag/fr, Path_DressupRampEntry/fr, Path_DressupDragKnife/fr
 ---

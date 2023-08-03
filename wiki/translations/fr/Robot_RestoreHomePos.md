@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot RestoreHomePos
    Name/fr: Robot Position de départ
-   MenuLocation: Robot -> Passer à la position de départ
+   MenuLocation: Robot , Passer à la position de départ
    Workbenches: Robot_Workbench/fr
 ---
 

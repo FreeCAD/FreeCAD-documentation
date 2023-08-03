@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineDecreaseDegree
    Name/de: Sketcher BSplineGradVerringern
-   MenuLocation: Sketch -> B-Spline-Werkzeuge -> Grad des B-Splines verringern
+   MenuLocation: Sketch , B-Spline-Werkzeuge , Grad des B-Splines verringern
    Workbenches: Sketcher_Workbench/de
    Version: 0.19
    SeeAlso: Sketcher_BSplineDegree/de, Sketcher_BSplineIncreaseDegree/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign InvoluteGear
    Name/it: DisegnoPezzo IngranaggioEvolvente
-   MenuLocation: DisegnoPezzo -> Ingranaggio Evolvente...
+   MenuLocation: DisegnoPezzo , Ingranaggio Evolvente...
    Workbenches: PartDesign Workbench/it
 ---
 

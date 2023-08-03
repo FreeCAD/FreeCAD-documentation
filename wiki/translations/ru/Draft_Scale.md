@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Масштаб
    Name: Draft_Scale
-   MenuLocation: Modification -> Масштаб
+   MenuLocation: Modification , Масштаб
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/ru, Draft_Clone/ru

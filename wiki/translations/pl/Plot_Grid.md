@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Grid
    Name/pl: Wykres: Pokaż / ukryj siatkę
-   MenuLocation: Wykres -> Pokaż / ukryj siatkę
+   MenuLocation: Wykres , Pokaż / ukryj siatkę
 ‏   Workbenches: Plot_Workbench/pl
 ---
 

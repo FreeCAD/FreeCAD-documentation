@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SelectNonSolidMeshes
    Name/fr: Arch Sélection de maillages non-manifold
-   MenuLocation: Arch -> Utilitaires -> Sélectionnez les maillages non-manifold
+   MenuLocation: Arch , Utilitaires , Sélectionnez les maillages non-manifold
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_SplitMesh/fr, Arch_MeshToShape/fr
 ---

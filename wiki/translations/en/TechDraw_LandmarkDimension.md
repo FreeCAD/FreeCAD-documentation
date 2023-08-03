@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LandmarkDimension
-   MenuLocation: TechDraw -> Dimensions -> Insert Landmark Dimension - EXPERIMENTAL
+   MenuLocation: TechDraw , Dimensions , Insert Landmark Dimension - EXPERIMENTAL
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_HorizontalDimension, TechDraw_VerticalDimension

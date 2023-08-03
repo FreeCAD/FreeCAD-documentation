@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddBase
    Name/pl: Arkusz Blachy: Dodaj element bazowy
-   MenuLocation: SheetMetal -> Dodaj element bazowy
+   MenuLocation: SheetMetal , Dodaj element bazowy
    Workbenches: SheetMetal_Workbench/pl
    Shortcut: **C** **B**
 ---

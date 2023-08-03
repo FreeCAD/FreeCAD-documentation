@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewZoomIn
    Name/it: Ingrandisci
-   MenuLocation: Visualizza -> Zoom‏‎ -> Ingrandisci
+   MenuLocation: Visualizza , Zoom‏‎ , Ingrandisci
    Workbenches: Tutti
    Shortcut: **Ctrl**+**+**
    SeeAlso: Std ViewZoomOut/it, Std ViewBoxZoom/it

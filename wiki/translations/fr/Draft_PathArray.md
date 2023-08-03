@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/fr: Draft Réseau selon une courbe
-   MenuLocation: Modification -> Outils pour les réseaux -> Réseau selon une courbe
+   MenuLocation: Modification , Outils pour les réseaux , Réseau selon une courbe
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.14
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr

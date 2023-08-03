@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MultiTransform
-   MenuLocation: Part Design -> Apply a pattern -> Create MultiTransform
+   MenuLocation: Part Design , Apply a pattern , Create MultiTransform
    Workbenches: PartDesign_Workbench
    SeeAlso: PartDesign_Mirrored, PartDesign_LinearPattern, PartDesign_PolarPattern, PartDesign_Scaled
 ---

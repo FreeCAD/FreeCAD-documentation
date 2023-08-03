@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part EditAttachment
    Name/pl: Część: Dołączenie
-   MenuLocation: Część -> Dołączenie ...
+   MenuLocation: Część , Dołączenie ...
    Workbenches: Part_Workbench/pl, PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: Placement/pl, Basic_Attachment_Tutorial/pl, Part_Part2DObject/pl

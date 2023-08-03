@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDrawCosmArc
-   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Arc
+   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Arc
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

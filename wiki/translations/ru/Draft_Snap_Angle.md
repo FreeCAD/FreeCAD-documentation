@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Angle
    Name/ru: Draft Angle
-   MenuLocation: Черчение -> Draft Snap/ru -> Углы
+   MenuLocation: Черчение , Draft Snap/ru , Углы
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

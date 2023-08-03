@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ValidateSketch
    Name/de: Sketcher SkizzeÜberprüfen
-   MenuLocation: Sketch -> Skizze überprüfen…
+   MenuLocation: Sketch , Skizze überprüfen…
    Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    SeeAlso: Sketcher_ConstrainCoincident/de, Topological_naming_problem/de
 ---

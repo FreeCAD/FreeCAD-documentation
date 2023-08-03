@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Copy
    Name/ko: 표준 복사
-   MenuLocation: 편집 -> 복사
+   MenuLocation: 편집 , 복사
    Workbenches: 모두
    Shortcut: **Ctrl**+**C**
    SeeAlso: Std_Cut/ko, Std_Paste/ko, Std_DuplicateSelection/ko

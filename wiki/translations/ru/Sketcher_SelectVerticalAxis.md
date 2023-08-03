@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выбрать вертикальную ось
    Name: Sketcher_SelectVerticalAxis
-   MenuLocation: Sketch -> Инструменты для эскиза -> Выбрать вертикальную ось
+   MenuLocation: Sketch , Инструменты для эскиза , Выбрать вертикальную ось
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **Shift**+**Ctrl**+**V**
    Version: 0.15

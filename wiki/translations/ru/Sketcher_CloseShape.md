@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Замкнуть фигуру
    Name: Sketcher_CloseShape
-   MenuLocation: Sketch -> Инструменты для эскиза -> Замкнуть фигуру
+   MenuLocation: Sketch , Инструменты для эскиза , Замкнуть фигуру
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **Ctrl** + **Shift** + **S**
    Version: 0.15

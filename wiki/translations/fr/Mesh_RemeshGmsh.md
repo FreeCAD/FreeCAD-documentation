@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh RemeshGmsh
    Name/fr: Mesh Affiner
-   MenuLocation: Maillages -> Affiner...
+   MenuLocation: Maillages , Affiner...
    Workbenches: Mesh_Workbench/fr
    Version: 0.19
    SeeAlso: Mesh_FromPartShape/fr

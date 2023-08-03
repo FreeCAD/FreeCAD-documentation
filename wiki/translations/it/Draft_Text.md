@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Text
    Name/it: Testo
-   MenuLocation: Drafting -> Testo
+   MenuLocation: Drafting , Testo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **T** **E**
    Version: 0.7

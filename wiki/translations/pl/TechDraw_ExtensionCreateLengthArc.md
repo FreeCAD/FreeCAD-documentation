@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateLengthArc
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj wymiar długości łuku
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Dodaj wymiar długości łuku
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Wymiary , Dodaj wymiar długości łuku
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewRight
-   MenuLocation: View -> Standard views -> Right
+   MenuLocation: View , Standard views , Right
    Workbenches: All
    Shortcut: **3**
    SeeAlso: Std_ViewFront, Std_ViewTop

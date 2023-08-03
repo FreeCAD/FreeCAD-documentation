@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Difference
    Name/fr: Mesh Différence
-   MenuLocation: Maillages -> Opération booléenne -> Différence
+   MenuLocation: Maillages , Opération booléenne , Différence
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_Union/fr, Mesh_Intersection/fr
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint EqualLength
    Name/sv: Constraint EqualLength
    Workbenches: Sketcher Workbench/sv, PartDesign Workbench/sv
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain equal
+   MenuLocation: Sketch , Sketcher constraints , Constrain equal
    SeeAlso: Sketcher_ConstrainRadius/sv
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewFront
    Name/de: Std Vorderansicht
-   MenuLocation: Ansicht -> Standardansichten -> Vorderseite
+   MenuLocation: Ansicht , Standardansichten , Vorderseite
    Workbenches: Alle
    Shortcut: **1**
    SeeAlso: Std_ViewTop/de, Std_ViewRight/de

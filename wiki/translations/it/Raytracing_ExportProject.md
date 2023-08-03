@@ -1,6 +1,6 @@
 # Raytracing ExportProject/it
 ---
-- GuiCommand:   Name: Raytracing ExportProject   Name/it: ExportProject   MenuLocation: Raytracing -> ExportProject   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing ExportProject   Name/it: ExportProject   MenuLocation: Raytracing , ExportProject   |Shortcut:    SeeAlso: ---
 
 
 </div>

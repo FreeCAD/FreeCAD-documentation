@@ -1,6 +1,6 @@
 # Part Cut/sv
 ---
-- GuiCommand:   Name: Part_Cut   Name/sv: Part Cut   MenuLocation: Part -> Cut   Workbenches: Part_Workbench/sv   Del, Part Common/sv---
+ GuiCommand:   Name: Part_Cut   Name/sv: Part Cut   MenuLocation: Part , Cut   Workbenches: Part_Workbench/sv   Del, Part Common/sv---
 
 
 </div>

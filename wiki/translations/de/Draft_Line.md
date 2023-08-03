@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/de: Draft Linie
-   MenuLocation: Entwurf -> Linie
+   MenuLocation: Entwurf , Linie
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **L** **I**
    Version: 0.7

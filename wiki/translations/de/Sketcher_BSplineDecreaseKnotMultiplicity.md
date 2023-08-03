@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineDecreaseKnotMultiplicity
    Name/de: Sketcher BSplineKnotenVielfachheitVerringern
-   MenuLocation: Sketch -> B-Spline-Werkzeuge -> Vielfachheit eines Spline-Knotens verringern
+   MenuLocation: Sketch , B-Spline-Werkzeuge , Vielfachheit eines Spline-Knotens verringern
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
    SeeAlso: Sketcher_BSplineKnotMultiplicity/de, Sketcher_BSplineIncreaseKnotMultiplicity/de

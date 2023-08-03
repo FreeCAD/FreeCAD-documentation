@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelectVisibleObjects
    Name/de: Std SichtbareObjekteAuswählen
-   MenuLocation: Ansicht -> Sichtbarkeit -> Sichtbare Objekte auswählen
+   MenuLocation: Ansicht , Sichtbarkeit , Sichtbare Objekte auswählen
    Workbenches: Alle
 ---
 

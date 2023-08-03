@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Equipment
    Name/ru: Оборудование
-   MenuLocation: Arch -> Оборудование
+   MenuLocation: Arch , Оборудование
    Workbenches: Arch_Workbench/ru
    Shortcut: **E** **Q**
    SeeAlso: Arch_3Views/ru

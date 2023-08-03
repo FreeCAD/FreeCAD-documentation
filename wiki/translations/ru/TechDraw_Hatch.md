@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Штриховка
    Name: TechDraw_Hatch
-   MenuLocation: TechDraw -> Штриховать грань, используя файл изображения
+   MenuLocation: TechDraw , Штриховать грань, используя файл изображения
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_GeometricHatch/ru, TechDraw_Hatching/ru
 ---

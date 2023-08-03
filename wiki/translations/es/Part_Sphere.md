@@ -1,6 +1,6 @@
 # Part Sphere/es
 ---
-- GuiCommand:   Name: Part Sphere   Name/es: Part Sphere   MenuLocation: Part -> Sphere   ,Complete---
+ GuiCommand:   Name: Part Sphere   Name/es: Part Sphere   MenuLocation: Part -> Sphere   ,Complete---
 
 
 </div>

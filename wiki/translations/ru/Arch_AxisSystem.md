@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Arch: AxisSystem/Система осей
    Icon: Arch Axis System.svg
-   MenuLocation: Arch -> Axis System
+   MenuLocation: Arch , Axis System
    Workbenches: Arch_Workbench
    SeeAlso: Arch Axis, Arch Grid
 ---

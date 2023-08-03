@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
    Name/es: Arch Check
-   MenuLocation: Arquitectura -> Utilidades -> Comprobar
+   MenuLocation: Arquitectura , Utilidades , Comprobar
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch CloseHoles/es
 ---

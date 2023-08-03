@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Thickness
    Name/de: Part Dicke
-   MenuLocation: Formteil -> Dicke...
+   MenuLocation: Formteil , Dicke...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Offset/de
 ---

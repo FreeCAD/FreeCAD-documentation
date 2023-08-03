@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle Center
    Name/de: Sketcher ZentriertesRechteckErstellen
-   MenuLocation: Sketch -> Skizzengeometrien -> Zentriertes Rechteck erstellen
+   MenuLocation: Sketch , Skizzengeometrien , Zentriertes Rechteck erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **V**
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign ShapeBinder
    Name/pl: Projekt części: Łącznik kształtu
-   MenuLocation: Part Design -> Utwórz nowy łącznik kształtu
+   MenuLocation: Part Design , Utwórz nowy łącznik kształtu
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_SubShapeBinder, PartDesign_Clone

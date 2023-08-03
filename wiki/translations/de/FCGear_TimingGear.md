@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear TimingGear
    Name/de: FCGear Zahnriemenscheibe
-   MenuLocation: Gear -> Timing Gear
+   MenuLocation: Gear , Timing Gear
    Workbenches: FCGear_Workbench/de
    Shortcut: Keine
    Version: v0.16

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineKnotMultiplicity
    Name/de: Sketcher BSplineKnotenVielfachheit
-   MenuLocation: Sketch -> B-Spline-Werkzeuge -> Vielfachheit der B-Spline-Knoten ein- / ausblenden
+   MenuLocation: Sketch , B-Spline-Werkzeuge , Vielfachheit der B-Spline-Knoten ein- / ausblenden
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/de

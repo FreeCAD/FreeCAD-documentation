@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Array
    Name/fr: Path Réseau
-   MenuLocation: Path -> Modification du parcours -> Réseau
+   MenuLocation: Path , Modification du parcours , Réseau
    Workbenches: Path_Workbench/fr
 ---
 

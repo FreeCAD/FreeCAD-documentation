@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves CompressionSpring
-   MenuLocation: Surfaces -> Compression Spring
+   MenuLocation: Surfaces , Compression Spring
    Workbenches: Curves_Workbench
 ---
 

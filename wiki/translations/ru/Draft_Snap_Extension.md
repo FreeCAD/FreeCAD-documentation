@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Extension
    Name/ru: Draft Snap Extension
-   MenuLocation: Черчение -> Draft Snap/ru -> Продолжение
+   MenuLocation: Черчение , Draft Snap/ru , Продолжение
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

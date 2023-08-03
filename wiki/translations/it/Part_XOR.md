@@ -1,6 +1,6 @@
 # Part XOR/it
 ---
-- GuiCommand:   Name: Part_XOR   Name/it: Booleana XOR   MenuLocation: Part -> Dividi -> Booleana XOR   Workbenches: Part_Workbench/it   Part, Part Slice/it, Part_CompJoinFeatures, Part Boolean/it---
+ GuiCommand:   Name: Part_XOR   Name/it: Booleana XOR   MenuLocation: Part , Dividi , Booleana XOR   Workbenches: Part_Workbench/it   Part, Part Slice/it, Part_CompJoinFeatures, Part Boolean/it---
 
 
 </div>

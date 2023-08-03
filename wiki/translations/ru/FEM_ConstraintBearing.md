@@ -1,6 +1,6 @@
 # FEM ConstraintBearing/ru
 ---
-- GuiCommand:   Name: FEM ConstraintBearing   Name/ru: FEM ConstraintBearing   MenuLocation: FEM -> Constraint bearing   ---
+ GuiCommand:   Name: FEM ConstraintBearing   Name/ru: FEM ConstraintBearing   MenuLocation: FEM , Constraint bearing   ---
 
 
 </div>

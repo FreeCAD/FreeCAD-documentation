@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Pocket 3D
-   MenuLocation: Path -> 3D Pocket
+   MenuLocation: Path , 3D Pocket
    Workbenches: Path_Workbench
 ---
 

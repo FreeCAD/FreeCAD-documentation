@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Форум FreeCAD
    Name: Std_FreeCADForum
-   MenuLocation: Справка -> Форум FreeCAD
+   MenuLocation: Справка , Форум FreeCAD
    Workbenches: Все
    SeeAlso: Std_FreeCADWebsite/ru, Std_FreeCADUserHub/ru, Std_FreeCADPowerUserHub/ru, Std_FreeCADFAQ/ru
 ---

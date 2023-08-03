@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPreview
    Name/pl: Std: Podgląd wydruku
-   MenuLocation: Plik -> Podgląd wydruku ...
+   MenuLocation: Plik , Podgląd wydruku ...
    Workbenches: wszystkie
    SeeAlso: Std_Print/pl
 ---

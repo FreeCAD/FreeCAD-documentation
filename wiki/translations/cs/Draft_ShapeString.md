@@ -1,6 +1,6 @@
 # Draft ShapeString/cs
 ---
-- GuiCommand:   Name: Draft_ShapeString   Name/cs: Draft ShapeString   Workbenches: Draft_Workbench/cs   Kreslení, Part Extrude/cs---
+ GuiCommand:   Name: Draft_ShapeString   Name/cs: Draft ShapeString   Workbenches: Draft_Workbench/cs   Kreslení, Part Extrude/cs---
 
 
 </div>

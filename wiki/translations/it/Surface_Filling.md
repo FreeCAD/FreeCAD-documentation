@@ -1,6 +1,6 @@
 # Surface Filling/it
 ---
-- GuiCommand:   Name: Surface Filling   Name/it: Surface Filling   MenuLocation: Surface -> Riempimento...   Workbenches: Surface_Workbench/it   Surface|---
+ GuiCommand:   Name: Surface Filling   Name/it: Surface Filling   MenuLocation: Surface , Riempimento...   Workbenches: Surface_Workbench/it   Surface|---
 
 
 

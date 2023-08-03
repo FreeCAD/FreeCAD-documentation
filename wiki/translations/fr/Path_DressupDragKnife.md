@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupDragKnife
    Name/fr: Path Lame rotative
-   MenuLocation: Path -> Finition du parcours -> Lame rotative
+   MenuLocation: Path , Finition du parcours , Lame rotative
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupTag/fr, Path_DressupRampEntry/fr, Path_DressupDogbone/fr
 ---

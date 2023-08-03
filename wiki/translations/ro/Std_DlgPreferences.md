@@ -1,6 +1,6 @@
 # Std DlgPreferences/ro
 ---
-- GuiCommand:   Name: Std DlgPreferences   MenuLocation: Std Edit Menu   Edit -> Preferences---
+ GuiCommand:   Name: Std DlgPreferences   MenuLocation: Std Edit Menu   Edit , Preferences---
 
 
 </div>

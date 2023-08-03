@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddCornerRelief
    Name/fr: SheetMetal Grugeage rond
-   MenuLocation: SheetMetal -> Add Corner Relief
+   MenuLocation: SheetMetal , Add Corner Relief
    Workbenches: SheetMetal_Workbench/fr
    Shortcut: **C** **R**
 ---

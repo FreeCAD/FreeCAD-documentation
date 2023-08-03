@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
    Name/tr: Yay
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
-   MenuLocation: Taslak -> Yay
+   MenuLocation: Taslak , Yay
    Shortcut: **A** **R**
    Version: 0.17
    SeeAlso: Draft Circle/tr,Draft Ellipse/tr

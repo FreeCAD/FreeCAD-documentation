@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADDonation
-   MenuLocation: Help -> Donate
+   MenuLocation: Help , Donate
    Workbenches: All
    Version: 0.19
 ---

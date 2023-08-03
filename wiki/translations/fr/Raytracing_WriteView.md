@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing WriteView
    Name/fr: Raytracing Exporter le projet
-   MenuLocation: Raytracing -> Utilitaires -> Exporter la vue vers Pov-Ray...
+   MenuLocation: Raytracing , Utilitaires , Exporter la vue vers Pov-Ray...
 ‏‎   Workbenches: Raytracing_Workbench/fr
    Shortcut: 
    SeeAlso: 

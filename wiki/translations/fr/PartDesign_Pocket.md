@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_Pocket
    Name/fr: PartDesign Cavité
-   MenuLocation: Part Design -> Créer une fonction soustractive -> Cavité
+   MenuLocation: Part Design , Créer une fonction soustractive , Cavité
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_Pad/fr
 ---

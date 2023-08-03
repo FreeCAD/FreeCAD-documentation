@@ -1,6 +1,6 @@
 # PartDesign SubtractivePrism/it
 ---
-- GuiCommand:   Name: PartDesign SubtractivePrism   Name/it: Prisma sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractivePrism   Name/it: Prisma sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

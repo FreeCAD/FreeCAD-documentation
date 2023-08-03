@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CircularArray
-   MenuLocation: Modification -> Array tools -> Circular array
+   MenuLocation: Modification , Array tools , Circular array
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
    SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray

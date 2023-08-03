@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Scale
    Name/ru: Mesh Scale
    Workbenches: Mesh Workbench/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistanceX
    Name/it: Distanza orizzontale   Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Vincolo -> Distanza orizzontale
+   MenuLocation: Sketch , Vincolo , Distanza orizzontale
    Shortcut: **Maiusc** + **H**
    SeeAlso: Sketcher_ConstrainDistance/it, Sketcher ConstrainDistanceY/it
 ---

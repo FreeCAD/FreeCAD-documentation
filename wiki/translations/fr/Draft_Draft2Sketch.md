@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Draft2Sketch
    Name/fr: Draft Draft vers Esquisse
-   MenuLocation: Modification -> Draft vers Esquisse
+   MenuLocation: Modification , Draft vers Esquisse
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
 ---
 

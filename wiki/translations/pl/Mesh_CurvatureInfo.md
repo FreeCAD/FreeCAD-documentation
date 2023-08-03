@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_CurvatureInfo
    Name/pl: Mesh: Informacje o krzywiźnie
-   MenuLocation: Meshes -> Analizuj -> Informacja o krzywiźnie
+   MenuLocation: Meshes , Analizuj , Informacja o krzywiźnie
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_VertexCurvature/pl
 ---

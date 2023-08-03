@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Cut
    Name/fr: Std Couper
-   MenuLocation: Édition -> Couper
+   MenuLocation: Édition , Couper
    Shortcut: **Ctrl**+**X**
    Workbenches: Tous
    SeeAlso: Std_Copy/fr, Std_Paste/fr, Std_DuplicateSelection/fr

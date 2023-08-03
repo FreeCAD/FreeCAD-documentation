@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_MakeFace
    Name/ru: Создать грань из ломанных
-   MenuLocation: Деталь -> Создать грань из ломанных
+   MenuLocation: Деталь , Создать грань из ломанных
    Workbenches: Part_Workbench/ru
    Version: 0.19
    SeeAlso: Part_RuledSurface/ru

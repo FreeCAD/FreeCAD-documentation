@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
-   MenuLocation: Modification -> Upgrade
+   MenuLocation: Modification , Upgrade
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade

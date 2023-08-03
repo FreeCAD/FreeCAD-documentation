@@ -1,6 +1,6 @@
 # Path Engrave/it
 ---
-- GuiCommand:   Name: Path Engrave   Name/it: Incisione   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Incisione   Shortcut|SeeAlso: ---
+ GuiCommand:   Name: Path Engrave   Name/it: Incisione   Workbenches: Path Workbench/it   Path|MenuLocation: Path , Incisione   Shortcut|SeeAlso: ---
 
 
 </div>

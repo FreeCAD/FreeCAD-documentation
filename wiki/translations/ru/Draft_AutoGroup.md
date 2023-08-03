@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AutoGroup
    Empty: 1
    Workbenches: Draft_Workbench, Arch_Workbench

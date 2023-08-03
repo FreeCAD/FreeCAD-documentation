@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RuledSurface
    Name/pl: Część: RuledSurface
-   MenuLocation: Część -> Utwórz powierzchnię prostokreślną
+   MenuLocation: Część , Utwórz powierzchnię prostokreślną
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_MakeFace/pl
 ---

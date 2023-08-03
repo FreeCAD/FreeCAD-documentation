@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/de: Sketcher AbstandFestlegen
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Distanz festlegen
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Distanz festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **D**
    SeeAlso: Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de

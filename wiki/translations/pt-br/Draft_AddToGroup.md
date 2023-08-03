@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddToGroup
-   MenuLocation: Utilities -> Move to group...
+   MenuLocation: Utilities , Move to group...
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Std_Group, Draft_AddNamedGroup, Draft_AddConstruction, Draft_AutoGroup
 ---

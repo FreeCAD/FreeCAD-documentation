@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Субтрактивный цилиндр
    Name: PartDesign_SubtractiveCylinder
-   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивный цилиндр
+   MenuLocation: Part Design , Создать субтрактивный примитив , Субтрактивный цилиндр
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign AdditiveCylinder/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistanceX
    Name/de: Sketcher XAbstandFestlegen
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Horizontalen Abstand festlegen
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Horizontalen Abstand festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **L**
    SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceY/de

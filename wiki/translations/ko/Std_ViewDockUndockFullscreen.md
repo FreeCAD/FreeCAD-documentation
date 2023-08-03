@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
 
    Name: Std ViewDockUndockFullscreen
    Empty: 1
-   MenuLocation: View -> Document window -> Docked/Undocked
+   MenuLocation: View , Document window , Docked/Undocked
    Workbenches: All
    Shortcut: **V** **D** / **V** **U**
    SeeAlso: Std_ViewFullscreen, Std_MainFullscreen

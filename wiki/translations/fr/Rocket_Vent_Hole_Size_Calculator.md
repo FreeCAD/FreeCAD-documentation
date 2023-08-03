@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket Vent Hole Size Calculator
    Name/fr: Rocket Calcul taille trou d'évent
    Icon: Rocket_Calculator.svg
-   MenuLocation: Rocket -> Calculators -> Vent Hole Size Calculator
+   MenuLocation: Rocket , Calculators , Vent Hole Size Calculator
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

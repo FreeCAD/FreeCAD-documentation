@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM CompEmConstraints
    Name: FEM Contraintes électromagnétiques
    MenuLocation: 

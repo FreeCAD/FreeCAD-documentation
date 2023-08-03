@@ -1,6 +1,6 @@
 # Part RegularPolygon/ro
 ---
-- GuiCommand:   Name: Part RegularPolygon   MenuLocation: Part -> Part_CreatePrimitives   Create Primitives -> Regular Polygon,  OpenSCAD_Workbench|Version: 0.14   SeeAlso: ---
+ GuiCommand:   Name: Part RegularPolygon   MenuLocation: Part , Part_CreatePrimitives   Create Primitives , Regular Polygon,  OpenSCAD_Workbench|Version: 0.14   SeeAlso: ---
 
 
 </div>

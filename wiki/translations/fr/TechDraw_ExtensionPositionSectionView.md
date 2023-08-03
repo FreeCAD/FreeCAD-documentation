@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionPositionSectionView
    Name/fr: TechDraw
-   MenuLocation: TechDraw -> Extensions : attributs/modifications -> Position de la vue en coupe
+   MenuLocation: TechDraw , Extensions : attributs/modifications , Position de la vue en coupe
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

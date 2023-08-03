@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std CascadeWindows
-   MenuLocation: Windows -> Cascade
+   MenuLocation: Windows , Cascade
    Workbenches: All
    SeeAlso: Std_TileWindows
 ---

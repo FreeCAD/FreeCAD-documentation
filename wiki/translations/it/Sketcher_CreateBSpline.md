@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateBSpline
    Name/it: Sketcher BSpline
    Icon: Sketcher CreateBSpline.svg
-   MenuLocation:  Sketch -> Geometrie -> Crea B-spline
+   MenuLocation:  Sketch , Geometrie , Crea B-spline
    Workbenches:  Sketcher Workbench/it
    Version: 0.17
    SeeAlso: Sketcher_CreatePeriodicBSpline/it

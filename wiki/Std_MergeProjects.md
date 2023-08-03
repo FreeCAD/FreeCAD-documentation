@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MergeProjects
-   MenuLocation: File -> Merge project...
+   MenuLocation: File , Merge project...
    Workbenches: All
 ---
 

@@ -1,6 +1,6 @@
 # Std Print/ro
 ---
-- GuiCommand:   Name: Std Print   Name/ro: Imprimare   MenuLocation: Std_File_Menu/ro   File -> Imprimare...---
+ GuiCommand:   Name: Std Print   Name/ro: Imprimare   MenuLocation: Std_File_Menu/ro   File , Imprimare...---
 
 
 </div>

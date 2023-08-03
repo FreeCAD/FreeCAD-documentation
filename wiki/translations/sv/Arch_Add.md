@@ -1,6 +1,6 @@
 # Arch Add/sv
 ---
-- GuiCommand:   Name: Arch Add   Name/sv: Arch Add   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch Add   Name/sv: Arch Add   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

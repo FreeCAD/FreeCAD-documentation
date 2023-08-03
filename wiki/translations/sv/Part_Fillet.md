@@ -1,6 +1,6 @@
 # Part Fillet/sv
 ---
-- GuiCommand:   Name: Part_Fillet   Workbenches: Part,Complete---
+ GuiCommand:   Name: Part_Fillet   Workbenches: Part,Complete---
 
 Rundar av de valda kanterna på ett objekt. En dialogruta tillåter dig att välja vilka objekt och vilka kanter som ska rundas.
 

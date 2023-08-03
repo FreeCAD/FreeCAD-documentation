@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 TracePartMove
    Icon: Assembly_Trace.svg‎‎
-   MenuLocation: Assembly3 -> Trace part move
+   MenuLocation: Assembly3 , Trace part move
    Workbenches: Assembly3_Workbench
 ---
 

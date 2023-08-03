@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionLineParallel
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj pomocniczą linię równoległą
-   MenuLocation: Rysunek Techniczny -> Rozszerzenie: Linie środka / gwinty -> Dodaj pomocniczą linię równoległą
+   MenuLocation: Rysunek Techniczny , Rozszerzenie: Linie środka / gwinty , Dodaj pomocniczą linię równoległą
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

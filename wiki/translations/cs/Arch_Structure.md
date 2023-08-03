@@ -1,6 +1,6 @@
 # Arch Structure/cs
 ---
-- GuiCommand:   Name: Arch_Structure   Name/cs: Struktury   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch_Structure   Name/cs: Struktury   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

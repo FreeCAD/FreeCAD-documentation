@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeMultiDocument
    Name/pl: Std: Wiele dokumentów w widoku drzewa
-   MenuLocation: Widok -> Akcje widoku drzewa -> Wiele dokumentów
+   MenuLocation: Widok , Akcje widoku drzewa , Wiele dokumentów
    Workbenches: wszystkie
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/pl, Std_TreeCollapseDocument/pl

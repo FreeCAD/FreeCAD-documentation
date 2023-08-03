@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CompAxis
    Name/pl: Architektura: Komponent osie
-   MenuLocation: Architektura -> Narzędzia osi
+   MenuLocation: Architektura , Narzędzia osi
    Workbenches: Arch_Workbench/pl, BIM_Workbench/pl
    Version: 0.17
    SeeAlso: Arch_Axis/pl, Arch_AxisSystem/pl, Arch_Grid/pl

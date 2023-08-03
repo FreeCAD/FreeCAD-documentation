@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw PrintAll
    Name/fr: TechDraw Tout imprimer
-   MenuLocation: TechDraw -> Page -> Imprimer toutes les pages
+   MenuLocation: TechDraw , Page , Imprimer toutes les pages
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.21

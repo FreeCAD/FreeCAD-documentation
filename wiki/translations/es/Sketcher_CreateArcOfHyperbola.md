@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArcOfHyperbola
    Name/es: Croquizador CrearArcoDeHipérbola
-   MenuLocation: Croquis -> Geometrías de Croquizador -> Crear un arco de hipérbola
+   MenuLocation: Croquis , Geometrías de Croquizador , Crear un arco de hipérbola
    Workbenches: Sketcher Workbench/es
    Version: 0.17
    SeeAlso: Sketcher_CreateArcOfEllipse/es, Sketcher_CreateArcOfParabola/es

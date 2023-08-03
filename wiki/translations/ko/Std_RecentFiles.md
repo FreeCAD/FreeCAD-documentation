@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecentFiles
    Name/ko: 표준 최근 파일
    Empty: 1
-   MenuLocation: 파일 -> 최근 파일
+   MenuLocation: 파일 , 최근 파일
    Workbenches: 모두
    SeeAlso: Std_Open/ko, Std_Import/ko
 ---

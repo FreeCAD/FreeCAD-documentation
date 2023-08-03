@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintHeatflux
    Name/ru: FEM ConstraintHeatflux
-   MenuLocation: Model -> Thermal Constraints -> Constraint heatflux
+   MenuLocation: Model , Thermal Constraints , Constraint heatflux
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

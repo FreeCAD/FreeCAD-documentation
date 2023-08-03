@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveLoft
    Name/de: PartDesign Ausformung
-   MenuLocation: Part Design -> Objekte abziehen -> Ausformung
+   MenuLocation: Part Design , Objekte abziehen , Ausformung
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/de, PartDesign_SubtractivePipe/de

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainSymmetric
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain symmetrical
+   MenuLocation: Sketch , Sketcher constraints , Constrain symmetrical
    Workbenches: Sketcher_Workbench
    Shortcut: **S**
    SeeAlso: Sketcher_ConstrainParallel

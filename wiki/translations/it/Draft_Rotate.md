@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/it: Ruota
-   MenuLocation: Modifiche -> Ruota
+   MenuLocation: Modifiche , Ruota
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **R** **O**
    Version: 0.7

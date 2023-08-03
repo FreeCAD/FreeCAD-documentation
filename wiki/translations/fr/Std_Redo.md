@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Redo
    Name/fr: Std Rétablir
-   MenuLocation: Édition -> Rétablir
+   MenuLocation: Édition , Rétablir
    Workbenches: Tous
    Shortcut: **Ctrl**+**Y**
    SeeAlso: Std_Undo/fr

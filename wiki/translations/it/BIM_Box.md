@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/it
+ GuiCommand:Addon/it
    Name: BIM Box
    Name/it: Box BIM
    Workbenches: Image:IFC.svg BIM Workbench/it
    Addon: BIM
-   MenuLocation: Modellazione 3D -> Box
+   MenuLocation: Modellazione 3D , Box
    SeeAlso: Part Box/it
 ---
 

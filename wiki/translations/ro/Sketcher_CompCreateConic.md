@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Conics
    Icon: Sketcher_CompCreateConic.png
    Workbenches: Sketcher Workbench

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ConstraintFixed
    Name/it: Vincolo fissaggio
-   MenuLocation: Modello -> Vincoli meccanici -> Vincolo fissaggio
+   MenuLocation: Modello , Vincoli meccanici , Vincolo fissaggio
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Clone
    Name/tr: Eskiz Klonla
    Workbenches: Sketcher Workbench/tr
-   MenuLocation: Eskiz -> Eskiz araçları -> Klonla
+   MenuLocation: Eskiz , Eskiz araçları , Klonla
    Version: 0.16
    SeeAlso: Sketcher Copy/tr, Sketcher Move/tr
 

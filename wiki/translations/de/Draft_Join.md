@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Join
    Name/de: Entwurf Verbinden
-   MenuLocation: Änderung -> Verbinden
+   MenuLocation: Änderung , Verbinden
    Workbenches: Draft_Workbench/de, Arch_Workbench
    Shortcut: **J** **O**
    Version: 0.18

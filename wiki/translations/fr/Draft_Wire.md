@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Wire
    Name/fr: Draft Polyligne
-   MenuLocation: Draft -> Polyligne
+   MenuLocation: Draft , Polyligne
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **P** **L**
    Version: 0.7

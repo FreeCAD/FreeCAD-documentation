@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Wire
    Name/ru: Draft Wire
-   MenuLocation: Черчение -> DWire
+   MenuLocation: Черчение , DWire
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: W I
    SeeAlso: Draft Line/ru, Draft BSpline/ru

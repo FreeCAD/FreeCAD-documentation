@@ -1,10 +1,10 @@
 # Arch Wall/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Wall
    Name/ru: Стена
    Workbenches: Arch_Workbench/ru
-   MenuLocation: Архитектура -> Стена
+   MenuLocation: Архитектура , Стена
    Shortcut: **W** **A**
    SeeAlso: Arch_Structure/ru---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Extend
    Name/de: Sketcher Verlängern
-   MenuLocation: Sketch -> Skizzengeometrien -> Kante verlängern
+   MenuLocation: Sketch , Skizzengeometrien , Kante verlängern
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **Q**
    Version: 0.17

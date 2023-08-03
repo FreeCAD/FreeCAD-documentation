@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Clone
    Name/de: PartDesign Klon
-   MenuLocation: Part Design -> Klon erzeugen
+   MenuLocation: Part Design , Klon erzeugen
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: Draft_Clone/de

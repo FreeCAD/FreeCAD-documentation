@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_RemoveComponents
    Name/de: Mesh KomponentenEntfernen
-   MenuLocation: Netze -> Komponenten entfernen...
+   MenuLocation: Netze , Komponenten entfernen...
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_RemoveCompByHand/de, Arch_SplitMesh/de
 ---

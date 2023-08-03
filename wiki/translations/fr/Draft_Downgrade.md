@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/fr: Draft Désagréger
-   MenuLocation: Modification -> Désagréger
+   MenuLocation: Modification , Désagréger
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/fr, Part_Cut/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainEqual
    Name/de: Sketcher GleichheitFestlegen 
-   MenuLocation: Sketch -> Skizzen-Beschränkungen ->Gleichheit festlegen
+   MenuLocation: Sketch , Skizzen-Beschränkungen ,Gleichheit festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **E**
    SeeAlso: Sketcher_ConstrainRadius/de

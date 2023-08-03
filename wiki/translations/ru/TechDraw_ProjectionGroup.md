@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить группу проекций
    Name: TechDraw_ProjectionGroup
-   MenuLocation: TechDraw -> Вставить группу проекций
+   MenuLocation: TechDraw , Вставить группу проекций
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_View/ru, TechDraw_SectionView/ru
 ---

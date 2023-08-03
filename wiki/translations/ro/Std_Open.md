@@ -1,6 +1,6 @@
 # Std Open/ro
 ---
-- GuiCommand:   Name: Std Open   Name/ro: Deschidere   MenuLocation: Std_File_Menu/ro   File -> Deschidere,Std Import/ro---
+ GuiCommand:   Name: Std Open   Name/ro: Deschidere   MenuLocation: Std_File_Menu/ro   File , Deschidere,Std Import/ro---
 
 
 </div>

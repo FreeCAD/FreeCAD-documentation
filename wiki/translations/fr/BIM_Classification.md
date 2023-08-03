@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/fr
+ GuiCommand:Addon/fr
    Name: BIM Classification
    Name/fr: BIM Classification
    Workbenches: Image:IFC.svg BIM Workbench/fr
    Addon: BIM
-   MenuLocation: Manage -> Manage classification
+   MenuLocation: Manage , Manage classification
 ---
 
 # BIM Classification/fr

@@ -1,6 +1,6 @@
 # Part Spiral/ro
 ---
-- GuiCommand:   Name: Part Spiral   MenuLocation: Part_Workbench   Part -> Part_CreatePrimitives -> Spiral,  OpenSCAD_Workbench---
+ GuiCommand:   Name: Part Spiral   MenuLocation: Part_Workbench   Part , Part_CreatePrimitives , Spiral,  OpenSCAD_Workbench---
 
 
 </div>

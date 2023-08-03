@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/fr: Draft Aimantation Plan de travail
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

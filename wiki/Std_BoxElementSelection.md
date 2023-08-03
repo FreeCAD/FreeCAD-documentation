@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxElementSelection
-   MenuLocation: Edit -> Box element selection
+   MenuLocation: Edit , Box element selection
    Workbenches: All
    Shortcut: **Shift**+**E**
    SeeAlso: Std_BoxSelection, Std_SelectAll

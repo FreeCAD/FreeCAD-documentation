@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstantVacuumPermittivity
    Name/fr: FEM Constante de permittivité du vide
-   MenuLocation: Modèle -> Remplacer les constantes -> Constante de permittivité du vide
+   MenuLocation: Modèle , Remplacer les constantes , Constante de permittivité du vide
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: 

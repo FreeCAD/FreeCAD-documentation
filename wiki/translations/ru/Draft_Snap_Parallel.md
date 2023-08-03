@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Parallel
    Name/ru: Draft Snap Parallel
-   MenuLocation: Черчение -> Draft Snap/ru -> Параллельно
+   MenuLocation: Черчение , Draft Snap/ru , Параллельно
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

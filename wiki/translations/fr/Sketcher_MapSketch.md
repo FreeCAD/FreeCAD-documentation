@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_MapSketch
    Name/fr: Sketcher Esquisse sur une face
-   MenuLocation: Part Design/Esquisse -> Appliquer une esquisse sur une face...
+   MenuLocation: Part Design/Esquisse , Appliquer une esquisse sur une face...
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_NewSketch/fr
 ---

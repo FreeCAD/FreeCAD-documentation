@@ -1,6 +1,6 @@
 # Part Ellipse/cs
 ---
-- GuiCommand:   Name: Part Ellipse   Name/cs: Díl Elipsa   MenuLocation: Díl -> Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů -> Elipsa,  OpenSCAD_Workbench/cs|SeeAlso: ..---
+ GuiCommand:   Name: Part Ellipse   Name/cs: Díl Elipsa   MenuLocation: Díl , Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů , Elipsa,  OpenSCAD_Workbench/cs|SeeAlso: ..---
 
 
 </div>

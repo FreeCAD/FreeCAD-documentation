@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Structure
    Name/it: Struttura
-   MenuLocation: Arch -> Strumenti di Struttura -> Struttura
+   MenuLocation: Arch , Strumenti di Struttura , Struttura
    Workbenches: Arch_Workbench/it
    Shortcut: **S** **T**
    SeeAlso: Arch_Wall/it, Arch_Rebar/it

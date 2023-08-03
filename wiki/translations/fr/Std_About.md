@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std About
    Name/fr: Std À propos
    Workbenches: Tous
-   MenuLocation: Aide -> À propos de FreeCAD
+   MenuLocation: Aide , À propos de FreeCAD
 ---
 
 # Std About/fr

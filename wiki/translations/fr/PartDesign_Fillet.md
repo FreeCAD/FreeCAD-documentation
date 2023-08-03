@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Fillet
    Name/fr: PartDesign Congé 
-   MenuLocation: Part Design -> Appliquer une fonction d'habillage -> Congé
+   MenuLocation: Part Design , Appliquer une fonction d'habillage , Congé
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_Chamfer/fr
 ---

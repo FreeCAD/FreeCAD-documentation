@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw  ActiveView
-   MenuLocation: TechDraw -> Views From Other Workbenches -> Insert Active View 
+   MenuLocation: TechDraw , Views From Other Workbenches , Insert Active View 
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_Image

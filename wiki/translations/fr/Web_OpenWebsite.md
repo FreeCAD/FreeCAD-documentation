@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web OpenWebsite
    Name/fr: Web Ouvrir le site web
    MenuLocation: 

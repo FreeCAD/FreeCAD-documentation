@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_AddToGroup   Name/it: Aggiungi al gruppo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Utilità -> Aggiungi al gruppo...
+   MenuLocation: Draft , Utilità , Aggiungi al gruppo...
    Shortcut: 
    SeeAlso: Draft_SelectGroup/it, Std_Group/it
 ---

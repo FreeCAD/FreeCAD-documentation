@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PolarArray
    Name/de: Draft PolareAnordnung
-   MenuLocation: Änderung -> Array tools -> Polare Anordnung
+   MenuLocation: Änderung , Array tools , Polare Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_OrthoArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de

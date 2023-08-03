@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewLoadImage
-   MenuLocation: Tools -> Load image...
+   MenuLocation: Tools , Load image...
    Workbenches: All
    Version: 0.21
 ---

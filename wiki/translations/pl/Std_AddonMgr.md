@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AddonMgr
    Name/pl: Std: Menadżer dodatków
-   MenuLocation: Przybory -> Menadżer dodatków
+   MenuLocation: Przybory , Menadżer dodatków
    Workbenches: Wszystkie
    Version: 0.17
    SeeAlso: External_workbenches/pl, Macros/pl

@@ -1,6 +1,6 @@
 # Part Prism/it
 ---
-- GuiCommand:   Name: Part Prism   Name/it: Prisma   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Prism, Part_Box/it---
+ GuiCommand:   Name: Part Prism   Name/it: Prisma   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Prism, Part_Box/it---
 
 
 </div>

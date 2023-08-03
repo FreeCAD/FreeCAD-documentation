@@ -1,6 +1,6 @@
 # Part Ellipse/it
 ---
-- GuiCommand:   Name: Part_Ellipse   Name/it: Ellisse   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Ellisse, OpenSCAD_Workbench/it---
+ GuiCommand:   Name: Part_Ellipse   Name/it: Ellisse   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Ellisse, OpenSCAD_Workbench/it---
 
 
 </div>

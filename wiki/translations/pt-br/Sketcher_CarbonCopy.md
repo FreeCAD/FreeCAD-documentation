@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CarbonCopy
-   MenuLocation: Sketch -> Sketcher geometries -> Create carbon copy
+   MenuLocation: Sketch , Sketcher geometries , Create carbon copy
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **W**
    Version: 0.17

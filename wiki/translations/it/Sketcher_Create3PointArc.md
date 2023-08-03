@@ -1,6 +1,6 @@
 # Sketcher Create3PointArc/it
 ---
-- GuiCommand:   Name: Sketcher Create3PointArc   Name/it: Crea arco da tre punti   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Geometrie -> Arco da tre punti   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Sketcher Create3PointArc   Name/it: Crea arco da tre punti   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Geometrie , Arco da tre punti   Shortcut:    SeeAlso: ---
 
 
 </div>

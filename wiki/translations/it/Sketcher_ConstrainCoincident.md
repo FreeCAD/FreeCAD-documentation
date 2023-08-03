@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ConstrainCoincident
    Name/it: Coincidenza
    Workbenches: Sketcher Workbench/it
    Shortcut: **C**
-   MenuLocation: Sketch -> Vincoli -> Coincidenza
+   MenuLocation: Sketch , Vincoli , Coincidenza
    SeeAlso: Sketcher_ConstrainBlock/it, Sketcher ConstrainPointOnObject/it
 ---
 

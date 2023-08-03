@@ -1,6 +1,6 @@
 # Sketcher ConstrainEqual/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainEqual   Name/it: Uguale   Workbenches: Sketcher Workbench/it   Schizzo---
+ GuiCommand:   Name: Sketcher ConstrainEqual   Name/it: Uguale   Workbenches: Sketcher Workbench/it   Schizzo---
 
 
 </div>

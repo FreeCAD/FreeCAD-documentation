@@ -1,6 +1,6 @@
 # Raytracing ResetCamera/it
 ---
-- GuiCommand:   Name: Raytracing ResetCamera   Name/it: ResetCamera   MenuLocation: Raytracing -> ResetCamera   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing ResetCamera   Name/it: ResetCamera   MenuLocation: Raytracing , ResetCamera   |Shortcut:    SeeAlso: ---
 
 
 </div>

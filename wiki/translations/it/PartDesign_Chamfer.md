@@ -1,9 +1,9 @@
 # PartDesign Chamfer/it
 ---
-- GuiCommand:   Name: PartDesign Chamfer
+ GuiCommand:   Name: PartDesign Chamfer
    Name/it: Smusso
    Workbenches: PartDesign Workbench/it
-   MenuLocation: PartDesign -> Smusso
+   MenuLocation: PartDesign , Smusso
    SeeAlso: PartDesign_Fillet/it,Part Chamfer/it---
 
 

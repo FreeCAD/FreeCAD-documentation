@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Survey
    Name/ro: Arch Survey
-   MenuLocation: Arch -> Survey
+   MenuLocation: Arch , Survey
    Workbenches: Arch_Workbench/ro
    SeeAlso: Macro FCInfo/ro
 ---

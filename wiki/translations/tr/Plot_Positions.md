@@ -1,8 +1,8 @@
 # Plot Positions/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: Konum
-   MenuLocation: Arsa -> Konum
+   MenuLocation: Arsa , Konum
 ‏‎   
    Shortcut: 
    SeeAlso: ---

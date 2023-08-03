@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectrostatic
    Name/fr: FEM Equation électrostatique
-   MenuLocation: Résolution -> Équations électromagnétiques -> Équation électrostastique
+   MenuLocation: Résolution , Équations électromagnétiques , Équation électrostastique
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: FEM_EquationElectricforce/fr, FEM_Example_Capacitance_Two_Balls/fr

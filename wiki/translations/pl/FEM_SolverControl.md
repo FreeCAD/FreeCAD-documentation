@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverControl
    Name/pl: MES: Kontrola Solwera
-   MenuLocation: Solve -> Solver job control
+   MenuLocation: Solve , Solver job control
    Workbenches: FEM_Workbench/pl
    Shortcut: **S** **T**
    SeeAlso: FEM_SolverRun/pl

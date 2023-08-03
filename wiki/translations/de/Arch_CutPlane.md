@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CutPlane
    Name/de: Arch SchneideEbene
-   MenuLocation: Arch -> Ebene Schneiden
+   MenuLocation: Arch , Ebene Schneiden
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_CutLine/de, Arch_Remove/de
 ---

@@ -1,6 +1,6 @@
 # Draft Draft2Sketch/ro
 ---
-- GuiCommand:   Name: Draft Draft2Sketch   Workbenches: Draft_Workbench   Draft, Arch_Workbench|MenuLocation: Drafting -> Draft to Sketch---
+ GuiCommand:   Name: Draft Draft2Sketch   Workbenches: Draft_Workbench   Draft, Arch_Workbench|MenuLocation: Drafting , Draft to Sketch---
 
 
 </div>

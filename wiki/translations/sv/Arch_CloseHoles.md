@@ -1,6 +1,6 @@
 # Arch CloseHoles/sv
 ---
-- GuiCommand:   Name: Arch CloseHoles   Name/sv: Arch CloseHoles   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch CloseHoles   Name/sv: Arch CloseHoles   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

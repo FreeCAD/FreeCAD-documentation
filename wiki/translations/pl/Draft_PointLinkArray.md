@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointLinkArray
    Name/pl: Rysunek Roboczy: Szyk powiązań w punktach
-   MenuLocation: Modyfikacja -> Narzędzia szyku -> Szyk powiązań w punktach
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk powiązań w punktach
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
    SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl

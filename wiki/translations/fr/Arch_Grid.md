@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Grid
    Name/fr: Arch Grille
-   MenuLocation: Arch -> Outils pour les axes -> Grille
+   MenuLocation: Arch , Outils pour les axes , Grille
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_Axis/fr, Arch_AxisSystem/fr
 ---

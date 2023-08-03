@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CompPipe
-   MenuLocation: Arch -> Pipe tools
+   MenuLocation: Arch , Pipe tools
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
    SeeAlso: 

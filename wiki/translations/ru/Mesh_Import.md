@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh ImportMesh‏‎
    Name/ru: Mesh ImportMesh‏‎
-   MenuLocation: Сетки -> Импорт сетки
+   MenuLocation: Сетки , Импорт сетки
    Workbenches: Mesh Workbench/ru
    SeeAlso: Std_Import/ru
 ---

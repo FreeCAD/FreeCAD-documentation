@@ -1,6 +1,6 @@
 # Draft Offset/sv
 ---
-- GuiCommand:   Name: Draft_Offset   Workbenches: Draft_Workbench/sv   Skiss---
+ GuiCommand:   Name: Draft_Offset   Workbenches: Draft_Workbench/sv   Skiss---
 
 
 </div>

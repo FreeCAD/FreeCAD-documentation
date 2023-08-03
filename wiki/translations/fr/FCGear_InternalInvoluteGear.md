@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear InternalInvoluteGear
    Name/fr: FCGear Engrenage à développante interne
-   MenuLocation: Gear -> Internal Involute Gear
+   MenuLocation: Gear , Internal Involute Gear
    Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: 1.0

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/de: Draft PfadAnordnung
-   MenuLocation: Änderung -> Array tools -> Pfad-Anordnung
+   MenuLocation: Änderung , Array tools , Pfad-Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.14
    SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de

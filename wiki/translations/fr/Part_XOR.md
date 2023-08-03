@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part XOR
    Name/fr: Part OU exclusif
-   MenuLocation: Part -> Scinder -> OU exclusif
+   MenuLocation: Part , Scinder , OU exclusif
    Workbenches: Part_Workbench/fr
    Version: 0.17
    SeeAlso: Part_BooleanFragments/fr, Part_Slice/fr, Part_CompJoinFeatures/fr, Part_Boolean/fr

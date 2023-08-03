@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Attachment
    Name/ru: Прикрепить
-   MenuLocation: Деталь -> Attachment...
+   MenuLocation: Деталь , Attachment...
    Workbenches: Part_Workbench/ru, PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: Placement/ru, Basic_Attachment_Tutorial/ru

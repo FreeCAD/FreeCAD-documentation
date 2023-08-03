@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertCoordDimension
    Name/fr: TechDraw Cotes parallèles verticales
-   MenuLocation: TechDraw -> Extensions : cotes -> Cotes parallèles verticales
+   MenuLocation: TechDraw , Extensions : cotes , Cotes parallèles verticales
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

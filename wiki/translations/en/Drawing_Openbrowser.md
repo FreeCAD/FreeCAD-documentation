@@ -1,6 +1,6 @@
 # Drawing Openbrowser/en
 ---
-- GuiCommand:   Name: Drawing Openbrowser   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Drawing -> Open Browser   Shortcut: none---
+ GuiCommand:   Name: Drawing Openbrowser   Workbenches: Drawing Workbench   Drawing, Complete|MenuLocation: Drawing , Open Browser   Shortcut: none---
 
 ## Description
 

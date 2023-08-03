@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DependencyGraph
-   MenuLocation: Std Tools Menu -> Dependency graph...
+   MenuLocation: Std Tools Menu , Dependency graph...
    Workbenches: All
 ---
 

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:Addon
+ GuiCommand:Addon
    Name: BIM Copy
    Workbenches: Image:IFC.svg BIM Workbench
    Addon: BIM

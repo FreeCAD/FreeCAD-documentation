@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Reference
    Name/es: Arquitectura Referencia
-   MenuLocation: Arquitectura -> Referencia
+   MenuLocation: Arquitectura , Referencia
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch_BuildingPart/es
 ---

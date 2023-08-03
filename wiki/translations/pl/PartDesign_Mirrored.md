@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Mirrored
    Name/pl: Projekt Części: Odbicie lustrzane
-   MenuLocation: Projekt Części -> Zastosuj przekształcenie -> Odbicie lustrzane
+   MenuLocation: Projekt Części , Zastosuj przekształcenie , Odbicie lustrzane
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: PartDesign_MultiTransform/pl
 ---

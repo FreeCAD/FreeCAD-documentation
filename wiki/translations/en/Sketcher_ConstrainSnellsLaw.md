@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainSnellsLaw
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain refraction 
+   MenuLocation: Sketch , Sketcher constraints , Constrain refraction 
    Workbenches: Sketcher_Workbench
    Shortcut: **K** **W**
    Version: 0.15

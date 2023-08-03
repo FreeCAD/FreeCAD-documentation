@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw View
-   MenuLocation: TechDraw -> TechDraw Views -> Insert View
+   MenuLocation: TechDraw , TechDraw Views , Insert View
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_ProjectionGroup, TechDraw_SectionView
 ---

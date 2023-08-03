@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSingleDocument
    Name/fr: Std Arborescence Document unique
-   MenuLocation: Affichage -> Vue en arborescence -> Document unique
+   MenuLocation: Affichage , Vue en arborescence , Document unique
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Std_TreeMultiDocument/fr, Std_TreeCollapseDocument/fr

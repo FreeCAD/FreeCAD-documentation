@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничение эквивалентностью
    Name: Sketcher_ConstrainEqual
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение эквивалентностью
+   MenuLocation: Sketch , Ограничения эскиза , Ограничение эквивалентностью
    Workbenches: Sketcher_Workbench/ru
    Shortcut: E
    SeeAlso: Sketcher_ConstrainRadius/ru

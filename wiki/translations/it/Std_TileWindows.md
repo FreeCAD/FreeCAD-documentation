@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TileWindows
    Name/it: Affianca
-   MenuLocation: Finestre -> Affianca
+   MenuLocation: Finestre , Affianca
    Workbenches: Tutti
    SeeAlso: Std_CascadeWindows/it
 ---

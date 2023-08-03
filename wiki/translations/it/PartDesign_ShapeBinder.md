@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_ShapeBinder
    Name/it: Forme legate
    Workbenches: PartDesign Workbench/it
-   MenuLocation: Part Design -> forme legate
+   MenuLocation: Part Design , forme legate
    Version: 0.17
    SeeAlso: PartDesign_SubShapeBinder/it,
  PartDesign Clone/it

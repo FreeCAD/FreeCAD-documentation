@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePipe
    Name/it: Sweep additivo
    Workbenches: PartDesign Workbench/it
-   MenuLocation: PartDesign -> Sweep additivo
+   MenuLocation: PartDesign , Sweep additivo
    Version: 0.17
    SeeAlso: PartDesign AdditiveLoft/it
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Point
    Name/es: Draft Point
-   MenuLocation: Boceto -> Punto
+   MenuLocation: Boceto , Punto
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: P T
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить примечание в выноску
    Name: TechDraw_Balloon
-   MenuLocation: TechDraw -> Заметки -> Вставить примечание в выноску
+   MenuLocation: TechDraw , Заметки , Вставить примечание в выноску
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_Annotation/ru

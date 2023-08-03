@@ -1,9 +1,9 @@
 # Part Export/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Export
    Name/it: Esporta CAD
-   MenuLocation: Part -> Esporta CAD
+   MenuLocation: Part , Esporta CAD
    Workbenches: Part Workbench/it
    SeeAlso: Part_Import/it, Std_Export/it, Import_Export/it---
 

@@ -1,6 +1,6 @@
 # Part Box/ro
 ---
-- GuiCommand:   Name: Part Box   MenuLocation: Part -> Primitives -> Cube   , Complete---
+ GuiCommand:   Name: Part Box   MenuLocation: Part , Primitives , Cube   , Complete---
 
 
 </div>

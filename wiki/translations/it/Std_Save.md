@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Save
    Name/it: Salva
-   MenuLocation: File -> Salva
+   MenuLocation: File , Salva
    Workbenches: Tutti
    Shortcut: **Ctrl**+**S**
    SeeAlso: Std_SaveAs/it, Std_SaveCopy/it, Std_SaveAll/it

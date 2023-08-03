@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePipe
    Name/fr: PartDesign Balayage additif
-   MenuLocation: Part Design -> Créer une fonction additive -> Balayage additif
+   MenuLocation: Part Design , Créer une fonction additive , Balayage additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/fr, PartDesign_SubtractivePipe/fr

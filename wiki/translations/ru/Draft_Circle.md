@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/ru: Draft Circle
-   MenuLocation: Черчение -> Окружность
+   MenuLocation: Черчение , Окружность
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **C** **I**
    SeeAlso: Draft Arc/ru

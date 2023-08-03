@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateHorizChamferDimension
-   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Horizontal Chamfer Dimension
+   MenuLocation: TechDraw , Extensions: Dimensions , Create Horizontal Chamfer Dimension
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/fr: Draft Aimantation Dimensions
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

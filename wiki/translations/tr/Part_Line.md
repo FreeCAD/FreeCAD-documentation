@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Line
    Name/tr: Parça Çizgi
-   MenuLocation: Parça -> Part_CreatePrimitives/tr -> Çizgi
+   MenuLocation: Parça , Part_CreatePrimitives/tr , Çizgi
    Workbenches: Part_Workbench,  OpenSCAD_Workbench
    SeeAlso: Part_Primitives
 ---

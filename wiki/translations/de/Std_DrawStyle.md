@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DrawStyle
    Name/de: Std Darstellungsart
-   MenuLocation: Ansicht -> Darstellungsart -> ...
+   MenuLocation: Ansicht , Darstellungsart , ...
    Workbenches: Alle
    Shortcut: **V** **1** - **V** **7**
    SeeAlso: Std_SelBoundingBox/de

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Part
    Name/tr: Parça Oluştur
    MenuLocation: None

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/fr: Draft Dessin
    Workbenches: Drawing_Workbench/fr, Draft_Workbench/fr, Arch_Workbench/fr

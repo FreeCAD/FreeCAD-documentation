@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal Forming
-   MenuLocation: SheetMetal -> Make Forming in Wall
+   MenuLocation: SheetMetal , Make Forming in Wall
    Workbenches: SheetMetal_Workbench
    Shortcut: **M** **F**
 ---

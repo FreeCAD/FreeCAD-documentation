@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Deburr
-   MenuLocation: Path -> Deburr
+   MenuLocation: Path , Deburr
    Workbenches: Path_Workbench
    Version: 0.18
 ---

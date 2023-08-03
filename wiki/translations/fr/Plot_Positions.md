@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Positions
    Name/fr: Plot Positions
-   MenuLocation: Plot -> Définir les tailles et positions
+   MenuLocation: Plot , Définir les tailles et positions
    Workbenches: Plot_Workbench/fr
 ---
 

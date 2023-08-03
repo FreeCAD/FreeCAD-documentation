@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompCompoundTools
    Name/ru: Part CompCompoundTools
-   MenuLocation: Деталь -> Соединить
+   MenuLocation: Деталь , Соединить
    Workbenches: Part_Workbench/ru
    SeeAlso: 
 ---

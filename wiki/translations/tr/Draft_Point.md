@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Point
    Name/tr: Nokta
-   MenuLocation: Taslak -> Nokta
+   MenuLocation: Taslak , Nokta
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: P T
    SeeAlso: Draft Line/tr, Draft Wire/tr

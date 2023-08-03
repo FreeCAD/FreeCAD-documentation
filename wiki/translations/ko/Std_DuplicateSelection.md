@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DuplicateSelection
    Name/ko: 표준 개체 복제
-   MenuLocation: 편집 -> 개체 복제
+   MenuLocation: 편집 , 개체 복제
    Workbenches: 모두
    SeeAlso: Std_Cut/ko, Std_Copy/ko, Std_Paste/ko
 ---

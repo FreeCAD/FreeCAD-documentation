@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw PageDefault
    Name/fr: TechDraw Page par défaut
-   MenuLocation: TechDraw -> Page -> Insérer une page par défaut
+   MenuLocation: TechDraw , Page , Insérer une page par défaut
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_PageTemplate/fr, TechDraw_Templates/fr
 ---

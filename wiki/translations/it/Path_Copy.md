@@ -1,6 +1,6 @@
 # Path Copy/it
 ---
-- GuiCommand:   Name: Path Copy   Name/it: Copia   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Modifica percorso -> Copia   Shortcut: P,Y   SeeAlso: ---
+ GuiCommand:   Name: Path Copy   Name/it: Copia   Workbenches: Path Workbench/it   Path|MenuLocation: Path , Modifica percorso , Copia   Shortcut: P,Y   SeeAlso: ---
 
 
 </div>

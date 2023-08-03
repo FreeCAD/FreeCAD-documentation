@@ -1,6 +1,6 @@
 # Plot Labels/es
 ---
-- GuiCommand:   Name: Plot Labels   MenuLocation: Plot -> Labels‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Labels   MenuLocation: Plot , Labels‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

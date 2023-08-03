@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear InvoluteGear
-   MenuLocation: Gear -> Involute Gear
+   MenuLocation: Gear , Involute Gear
    Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16

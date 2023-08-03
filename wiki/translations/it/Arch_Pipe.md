@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Pipe
    Name/it: Tubo
-   MenuLocation: Arch -> Tubazioni -> Tubo
+   MenuLocation: Arch , Tubazioni , Tubo
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **I**
    Version/it: 0.17

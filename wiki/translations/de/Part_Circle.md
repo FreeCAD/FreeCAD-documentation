@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Circle
    Name/de: Part Kreis
-   MenuLocation: Formteil -> Part_Primitives/de -> Kreis
+   MenuLocation: Formteil , Part_Primitives/de , Kreis
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

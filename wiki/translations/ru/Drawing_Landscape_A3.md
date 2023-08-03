@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Landscape A3
    Name/ru: Drawing Landscape A3
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж -> Вставить новый чертёж -> A3 Ландшафтная
+   MenuLocation: Чертёж , Вставить новый чертёж , A3 Ландшафтная
    Shortcut: none
 ---
 

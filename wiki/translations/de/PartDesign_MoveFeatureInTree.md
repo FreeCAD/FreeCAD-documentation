@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveFeatureInTree
    Name/de: PartDesign FormelementImBaumVerschieben
-   MenuLocation: Kontextmenü -> Objekt hinter ein anderes Objekt verschieben
+   MenuLocation: Kontextmenü , Objekt hinter ein anderes Objekt verschieben
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_MoveTip/de, PartDesign_MoveFeature/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM Analysis
    Name/ru: FEM Analysis
-   MenuLocation: Model -> Блок анализа
+   MenuLocation: Model , Блок анализа
    Workbenches: FEM_Workbench/ru
    Shortcut: **N** **A**
    SeeAlso: FEM_tutorial/ru

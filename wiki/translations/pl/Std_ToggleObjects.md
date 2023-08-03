@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleObjects
    Name/pl: Std: Przełącz widoczność
-   MenuLocation: Widok -> Widoczność -> Przełącz widoczność wszystkich obiektów
+   MenuLocation: Widok , Widoczność , Przełącz widoczność wszystkich obiektów
    Workbenches: wszystkie
    SeeAlso: Std_ToggleVisibility/pl, Std_ShowSelection/pl, Std_HideSelection, Std_ShowObjects/pl, Std_HideObjects/pl
 ---

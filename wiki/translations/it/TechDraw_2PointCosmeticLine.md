@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_2PointCosmeticLine
    Name/it: Linea tra 2 punti
    Icon: TechDraw-line2points.svg
-   MenuLocation: TechDraw -> Aggiungi linee -> Linea tra 2 punti
+   MenuLocation: TechDraw , Aggiungi linee , Linea tra 2 punti
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_FaceCenterLine/it, TechDraw_2LineCenterLine/it
    Version: 0.19

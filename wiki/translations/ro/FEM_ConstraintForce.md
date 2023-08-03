@@ -1,6 +1,6 @@
 # FEM ConstraintForce/ro
 ---
-- GuiCommand:   Name: FEM ConstraintForce   MenuLocation: Model -> Mechanical Constraints -> Constraint force   ---
+ GuiCommand:   Name: FEM ConstraintForce   MenuLocation: Model , Mechanical Constraints , Constraint force   ---
 
 
 </div>

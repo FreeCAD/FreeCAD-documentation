@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsProjectDistance
    Name/fr: Assembly3 Contrainte distance du point projeté
    Icon: Assembly_ConstraintPointsProjectDistance.svg

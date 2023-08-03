@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MapSketch
    Name/de: Sketcher SkizzeZuordnen
-   MenuLocation: Sketch /Skizze  -> Skizze einer Fläche zuordnen...
+   MenuLocation: Sketch /Skizze  , Skizze einer Fläche zuordnen...
    Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    SeeAlso: Sketcher_NewSketch/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing WriteView 
    Name/ru: Raytracing WriteView 
-   MenuLocation: Трассировка лучей -> Экспорт вида в POV-Ray
+   MenuLocation: Трассировка лучей , Экспорт вида в POV-Ray
    Workbenches: Raytracing_Workbench/ru
    Shortcut: 
    SeeAlso: 

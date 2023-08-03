@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/fr: Part Prisme
-   MenuLocation: Part -> Part_Primitives/fr -> Prisme
+   MenuLocation: Part , Part_Primitives/fr , Prisme
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    Version: 0.14
    SeeAlso: Part_Primitives/fr

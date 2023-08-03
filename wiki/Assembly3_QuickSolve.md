@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 QuickSolve
    Icon: Assembly_QuickSolve.svg
-   MenuLocation: Assembly3 -> Quick solve
+   MenuLocation: Assembly3 , Quick solve
    Workbenches: Assembly3_Workbench
    Shortcut: **A** then **F**
 ---

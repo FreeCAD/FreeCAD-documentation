@@ -1,6 +1,6 @@
 # Drawing View/es
 ---
-- GuiCommand:   Name: Drawing View   Name/es: Drawing View   Workbenches: Drawing Workbench/es   Dibujo, Complete---
+ GuiCommand:   Name: Drawing View   Name/es: Drawing View   Workbenches: Drawing Workbench/es   Dibujo, Complete---
 
 
 </div>

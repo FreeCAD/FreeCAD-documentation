@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing View
    Name/it: Inserisci vista
    Workbenches: Drawing Workbench/it, Completo
-   MenuLocation: Disegno -> Inserisci Vista
+   MenuLocation: Disegno , Inserisci Vista
    Shortcut: Nessuno
    SeeAlso: Drawing Landscape A3/it
 ---

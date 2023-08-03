@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewFitSelection
-   MenuLocation: View -> Standard views -> Fit selection
+   MenuLocation: View , Standard views , Fit selection
    Workbenches: All
    Shortcut: **V** **S**
    SeeAlso: Std_ViewFitAll

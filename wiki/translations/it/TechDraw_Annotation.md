@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Annotation
    Name/it: Annotazione
-   MenuLocation: TechDraw -> Annotazioni -> Annotazione
+   MenuLocation: TechDraw , Annotazioni , Annotazione
    Workbenches: TechDraw_Workbench/it
    SeeAlso: Draft Text/it, Draft ShapeString/it
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinEmbed
    Name/it: Incastro
-   MenuLocation: Part -> Congiungi -> Incastra oggetto
+   MenuLocation: Part , Congiungi , Incastra oggetto
    Workbenches: Part_Workbench/it   Part|Version: 0.16.5069
    SeeAlso: Part_JoinConnect/it, Part_JoinCutout/it, Part Boolean/it, Part Thickness/it
 ---

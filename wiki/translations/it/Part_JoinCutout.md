@@ -1,6 +1,6 @@
 # Part JoinCutout/it
 ---
-- GuiCommand:   Name: Part JoinCutout   Name/it: Asportazione   MenuLocation: Part -> Congiungi -> Asporta oggetto   Workbenches: Part_Workbench/it   Part, Part_JoinEmbed/it, Part Boolean/it, Part Thickness/it---
+ GuiCommand:   Name: Part JoinCutout   Name/it: Asportazione   MenuLocation: Part , Congiungi , Asporta oggetto   Workbenches: Part_Workbench/it   Part, Part_JoinEmbed/it, Part Boolean/it, Part Thickness/it---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/fr: Draft Plan de travail
-   MenuLocation: Utilitaires -> Sélectionner un plan
+   MenuLocation: Utilitaires , Sélectionner un plan
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **W** **P**
    SeeAlso: Draft_WorkingPlaneProxy/fr

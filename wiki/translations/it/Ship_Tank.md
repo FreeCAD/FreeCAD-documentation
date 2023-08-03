@@ -1,6 +1,6 @@
 # Ship Tank/it
 ---
-- GuiCommand:   Name: Ship TankNew   Name/it: Nuovo serbatoio   MenuLocation: Weights -> Crea un nuovo serbatoio   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Ship TankNew   Name/it: Nuovo serbatoio   MenuLocation: Weights , Crea un nuovo serbatoio   |Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Std OrthographicCamera/ro
 ---
-- GuiCommand:   Name: Std OrthographicCamera   MenuLocation: Std View Menu   View -> Orthographic view---
+ GuiCommand:   Name: Std OrthographicCamera   MenuLocation: Std View Menu   View , Orthographic view---
 
 
 </div>

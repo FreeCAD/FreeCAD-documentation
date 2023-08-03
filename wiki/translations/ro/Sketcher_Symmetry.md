@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Symmetry
    Name/ro: Sketcher Simetrie
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Sketcher tools -> Symmetry
+   MenuLocation: Sketch , Sketcher tools , Symmetry
    Version: 0.16
 ---
 

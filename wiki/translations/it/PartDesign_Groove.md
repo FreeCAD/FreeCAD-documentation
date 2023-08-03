@@ -1,6 +1,6 @@
 # PartDesign Groove/it
 ---
-- GuiCommand:   Name: PartDesign_Groove   Name/it: Scanalatura   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign_Groove   Name/it: Scanalatura   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

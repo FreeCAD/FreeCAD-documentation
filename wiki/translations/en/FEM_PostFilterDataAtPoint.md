@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterDataAtPoint
-   MenuLocation: Results -> Data at point clip filter
+   MenuLocation: Results , Data at point clip filter
    Workbenches: FEM_Workbench
    SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
 ---

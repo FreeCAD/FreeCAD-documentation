@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign LinearPattern
    Name/pl: Projekt Części: Szyk liniowy
-   MenuLocation: Projekt Części -> Zastosuj szyk -> Szyk liniowy
+   MenuLocation: Projekt Części , Zastosuj szyk , Szyk liniowy
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: PartDesign_MultiTransform/pl
 ---

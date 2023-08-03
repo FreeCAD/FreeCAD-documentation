@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Drawing Dimensioning
    Name/fr: Arch Rebar Dessins dimensions
    MenuLocation: 

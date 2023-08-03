@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Custom
    Name/fr: Path Personnaliser
-   MenuLocation: Path -> Autres commandes -> Personnaliser
+   MenuLocation: Path , Autres commandes , Personnaliser
    Workbenches: Path_Workbench/fr
 ---
 

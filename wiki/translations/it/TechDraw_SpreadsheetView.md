@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_SpreadsheetView
    Name/it: Vista di foglio di calcolo
-   MenuLocation: TechDraw -> Vista di foglio di calcolo
+   MenuLocation: TechDraw , Vista di foglio di calcolo
    Workbenches: TechDraw_Workbench/it
    SeeAlso: Spreadsheet Workbench/it
 ---

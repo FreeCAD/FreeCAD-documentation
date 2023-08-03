@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Base ExampleCommandModel
    Name/it: Esempio di comando
    Icon: 
-   MenuLocation: Menu -> Sottomenu -> Comando
+   MenuLocation: Menu , Sottomenu , Comando
    Workbenches: Workbench Name/it
    Shortcut: 
    SeeAlso: 

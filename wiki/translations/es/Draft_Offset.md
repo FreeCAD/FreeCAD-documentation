@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Offset
    Name/es: Draft Offset
-   MenuLocation: Croquis -> Equidistancia
+   MenuLocation: Croquis , Equidistancia
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/es

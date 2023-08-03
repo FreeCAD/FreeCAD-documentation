@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear InvoluteRack
    Name/de: FCGear InvoluteRack
-   MenuLocation: Gear -> Involute Rack
+   MenuLocation: Gear , Involute Rack
    Workbenches: FCGear_Workbench/de
    Shortcut: Kein
    Version: v0.16

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Mirror
    Name/it: Specchio
-   MenuLocation: Modifiche -> Specchio
+   MenuLocation: Modifiche , Specchio
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Clone/it
 ---

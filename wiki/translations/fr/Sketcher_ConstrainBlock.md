@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/fr: Sketcher Contrainte de blocage
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte de blocage
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de blocage
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **B**
    Version: 0.17

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничение sectionprint
    Name: FEM_ConstraintSectionPrint
-   MenuLocation:  Model -> Geometrical Constraints -> Constraint section print
+   MenuLocation:  Model , Geometrical Constraints , Constraint section print
    Workbenches: FEM_Workbench/ru
    Version: 0.19
    SeeAlso: 

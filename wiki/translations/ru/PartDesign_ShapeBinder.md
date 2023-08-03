@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать связующую форму
    Name: PartDesign_ShapeBinder
-   MenuLocation: Part Design -> Создать связующую форму
+   MenuLocation: Part Design , Создать связующую форму
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_SubShapeBinder/ru, PartDesign_Clone/ru

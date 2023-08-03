@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreatePointFillet
    Name/fr: Sketcher Congé avec contraintes
-   MenuLocation: Esquisse -> Géometries d'esquisse -> Congé d'esquisse préservant les contraintes
+   MenuLocation: Esquisse , Géometries d'esquisse , Congé d'esquisse préservant les contraintes
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **F** **P**
    Version: 0.19

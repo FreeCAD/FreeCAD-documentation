@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SectionPlane
    Name/sv: Arch SectionPlane
-   MenuLocation: Arch -> Section Plane
+   MenuLocation: Arch , Section Plane
    Workbenches: Arch_Workbench
    Shortcut: **S** **P**
    SeeAlso: Draft Shape2DView, TechDraw_ArchView

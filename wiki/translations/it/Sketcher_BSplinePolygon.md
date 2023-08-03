@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplinePolygon
    Name/it: Poligono di controllo della B-spline
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Sketcher B-spline tools -> Mostra/Nascondi il poligono di controllo della B-spline
+   MenuLocation: Sketch , Sketcher B-spline tools , Mostra/Nascondi il poligono di controllo della B-spline
    Version: 0.17
 SeeAlso=Sketcher CompCreateBSpline/it
 ---

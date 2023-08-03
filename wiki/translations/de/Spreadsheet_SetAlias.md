@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SetAlias
    Name/de: Kalkulationstabelle SetzeAlias
    Workbenches: Spreadsheet_Workbench/de

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterClipScalar
-   MenuLocation: Results -> Scalar clip filter
+   MenuLocation: Results , Scalar clip filter
    Workbenches: FEM_Workbench
    SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
 ---

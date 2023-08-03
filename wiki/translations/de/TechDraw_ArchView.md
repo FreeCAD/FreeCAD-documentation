@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ArchView
    Name/de: TechDraw ArchAnsicht
-   MenuLocation: TechDraw -> Arch Arbeitsbereichsobjekt einfügen
+   MenuLocation: TechDraw , Arch Arbeitsbereichsobjekt einfügen
    Workbenches: TechDraw_Workbench, Arch_Workbench/de
    SeeAlso: Arch_SectionPlane/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AutoGroup
    Name/it: AutoGruppo
-   MenuLocation: Draft -> Utilità -> AutoGruppo
+   MenuLocation: Draft , Utilità , AutoGruppo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.17
    SeeAlso: Draft_Layer/it, Std Group/it

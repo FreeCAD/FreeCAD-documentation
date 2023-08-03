@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelectAll
-   MenuLocation: Edit -> Select All
+   MenuLocation: Edit , Select All
    Workbenches: All
    SeeAlso: Std_BoxSelection, Std_BoxElementSelection
 ---

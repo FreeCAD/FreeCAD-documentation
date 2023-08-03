@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/pl: Rysunek roboczy: Linia
-   MenuLocation: Kreślenie -> Linia
+   MenuLocation: Kreślenie , Linia
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **L** **I**
    Version: 0.7

@@ -1,6 +1,6 @@
 # FEM ElementGeometry2D/ro
 ---
-- GuiCommand:   Name: FEM ElementGeometry2D   MenuLocation: Model ->Shell plate tickness   ---
+ GuiCommand:   Name: FEM ElementGeometry2D   MenuLocation: Model ,Shell plate tickness   ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ConstraintForce
    Name/it: Vincolo forza
-   MenuLocation: Modello -> Vincoli meccanici -> Vincolo forza
+   MenuLocation: Modello , Vincoli meccanici , Vincolo forza
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

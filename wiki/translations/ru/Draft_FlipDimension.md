@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft FlipDimension
    Name/ru: Draft FlipDimension
-   MenuLocation: Черчение -> Утилиты -> Перевернуть размер
+   MenuLocation: Черчение , Утилиты , Перевернуть размер
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    SeeAlso: Draft Dimension/ru
 ---

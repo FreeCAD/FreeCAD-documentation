@@ -1,6 +1,6 @@
 # Std ViewBoxZoom/ro
 ---
-- GuiCommand:   Name: Std ViewBoxZoom   Workbenches: All   MenuLocation: Std View Menu   View -> Zoom |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Std ViewBoxZoom   Workbenches: All   MenuLocation: Std View Menu   View , Zoom |Shortcut:    SeeAlso: ---
 
 
 </div>

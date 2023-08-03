@@ -1,9 +1,9 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Sketcher ConstrainDistanceY
    Name/pt-br: Sketcher ConstrainDistanceY
    Workbenches: Sketcher Workbench/pt-br
-   MenuLocation: Sketch -> Sketcher geometries -> Constrain vertical distance
+   MenuLocation: Sketch , Sketcher geometries , Constrain vertical distance
    Shortcut: Shift+V
    SeeAlso: Sketcher_ConstrainDistanceX/pt-br, Sketcher_ConstrainDistance/pt-br
 ---

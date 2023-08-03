@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Stairs
    Name/it: Scala
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Scala
+   MenuLocation: Arch , Scala
    Shortcut: **S** **R**
    SeeAlso: Arch Structure/it, Arch Equipment/it
    Version: 0.14

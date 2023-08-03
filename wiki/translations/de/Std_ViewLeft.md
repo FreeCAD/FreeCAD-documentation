@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewLeft
    Name/de: Std Ansicht von links
-   MenuLocation: {{StdMenu}} -> Standardansichten -> Links
+   MenuLocation: {{StdMenu}} , Standardansichten , Links
    Workbenches: Alle
    Shortcut: **6**
    SeeAlso: Std_ViewRear/de, Std_ViewBottom/de

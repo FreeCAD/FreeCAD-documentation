@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinConnect
    Name/fr: Part Connecter des objets
-   MenuLocation: Part -> Joindre -> Connecter des objets
+   MenuLocation: Part , Joindre , Connecter des objets
    Workbenches: Part_Workbench/fr
    Version: 0.16
    SeeAlso: Part_JoinEmbed/fr, Part_JoinCutout/fr, Part_Boolean/fr, Part_Thickness/fr

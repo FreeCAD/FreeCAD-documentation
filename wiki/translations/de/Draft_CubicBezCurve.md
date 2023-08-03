@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CubicBezCurve
    Name/de: Entwurf KubischeBézKurve
-   MenuLocation: Entwurf -> Bézier Werkzeuge -> Kubische Bézier Kurve
+   MenuLocation: Entwurf , Bézier Werkzeuge , Kubische Bézier Kurve
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_BezCurve/de, Draft_BSpline/de, 

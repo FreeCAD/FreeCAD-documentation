@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: Zoom-out.svg
    Name: Std ViewZoomOut
-   MenuLocation: Std View Menu -> Zoom‏‎ -> Zoom Out
+   MenuLocation: Std View Menu , Zoom‏‎ , Zoom Out
    Workbenches: All
    Shortcut: Ctrl + -
    SeeAlso: Std ViewZoomIn, Std ViewBoxZoom

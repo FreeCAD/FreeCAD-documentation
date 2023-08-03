@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BezCurve
    Name/fr: Draft Courbe de Bézier
-   MenuLocation: Draft -> Outils de Bézier -> Courbe de Bézier
+   MenuLocation: Draft , Outils de Bézier , Courbe de Bézier
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **B** **Z**
    Version: 0.14

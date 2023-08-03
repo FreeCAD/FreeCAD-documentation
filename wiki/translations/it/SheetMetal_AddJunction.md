@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal_Junction
    Name/it: Giunzione
-   MenuLocation: SheetMetal -> Junction
+   MenuLocation: SheetMetal , Junction
    Workbenches: SheetMetal Workbench/it
    Shortcut: None
    Version: 

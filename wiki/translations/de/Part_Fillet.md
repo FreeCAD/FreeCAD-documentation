@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fillet
    Name/de: Part Verrundung
-   MenuLocation: Formteil -> Verrundung
+   MenuLocation: Formteil , Verrundung
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Chamfer/de
 ---

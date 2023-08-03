@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ProjectInfo
    Name/ko: 표준 프로젝트 정보
-   MenuLocation: 파일 -> 프로젝트 정보...
+   MenuLocation: 파일 , 프로젝트 정보...
    Workbenches: 모두
    SeeAlso: Std_New/ko
 ---

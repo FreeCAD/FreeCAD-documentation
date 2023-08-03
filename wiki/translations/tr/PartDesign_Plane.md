@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Plane
    Name/tr: Referans düzlemi oluştur
    Workbenches: PartDesign Workbench/tr
-   MenuLocation: Parça tasarım -> Referans düzlemi oluştur
+   MenuLocation: Parça tasarım , Referans düzlemi oluştur
    Version: 0.17
    SeeAlso: PartDesign Point, PartDesign Line
 ---

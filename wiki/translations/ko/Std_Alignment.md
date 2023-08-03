@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Alignment
    Name/ko: 표준 정렬
-   MenuLocation: 편집 -> 정렬...
+   MenuLocation: 편집 , 정렬...
    Workbenches: 모두
    SeeAlso: Std_Placement/ko
 ---

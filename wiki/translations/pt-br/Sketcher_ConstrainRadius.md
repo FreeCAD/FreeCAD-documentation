@@ -1,9 +1,9 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Constraint Radius
    Name/pt-br: Constraint Radius
    Workbenches: Sketcher Workbench/pt-br, PartDesign Workbench/pt-br
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain radius
+   MenuLocation: Sketch , Sketcher constraints , Constrain radius
    SeeAlso: Sketcher_ConstrainDistance/pt-br, Sketcher_ConstrainHorizontal/pt-br, Sketcher_ConstrainVertical/pt-br
 ---
 

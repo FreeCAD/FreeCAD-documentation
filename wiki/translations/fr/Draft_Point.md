@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Point
    Name/fr: Draft Point
-   MenuLocation: Draft -> Point
+   MenuLocation: Draft , Point
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.7
 ---

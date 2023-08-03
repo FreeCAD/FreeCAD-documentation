@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Radius
    Name/es: Constraint Radius
    Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador -> Radio
+   MenuLocation: Croquizador , Restricciones del Croquizador , Radio
    SeeAlso: Sketcher_ConstrainDistance/es, Sketcher_ConstrainHorizontal/es, Sketcher_ConstrainVertical/es
 ---
 

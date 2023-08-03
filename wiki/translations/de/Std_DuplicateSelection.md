@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DuplicateSelection
    Name/de: Std AuswahlDuplizieren
-   MenuLocation: Bearbeiten -> Auswahl duplizieren
+   MenuLocation: Bearbeiten , Auswahl duplizieren
    Workbenches: Alle
    SeeAlso: Std_Cut/de, Std_Copy/de, Std_Paste/de
 ---

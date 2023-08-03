@@ -1,6 +1,6 @@
 # FEM SolverZ88/ro
 ---
-- GuiCommand:   Name: FEM SolverZ88   MenuLocation:  Solve -> solver Z88   ---
+ GuiCommand:   Name: FEM SolverZ88   MenuLocation:  Solve , solver Z88   ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 2PointCosmeticLine
    Name/fr: TechDraw Ligne cosmétique par 2 points
-   MenuLocation: TechDraw -> Ajouter des lignes -> Ajouter une ligne cosmétique par 2 points
+   MenuLocation: TechDraw , Ajouter des lignes , Ajouter une ligne cosmétique par 2 points
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/fr, TechDraw_2LineCenterLine/fr

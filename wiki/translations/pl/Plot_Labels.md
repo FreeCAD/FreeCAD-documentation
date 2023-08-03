@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Labels
    Name/pl: Wykres: Ustaw etykiety
-   MenuLocation: Wykres -> Ustaw etykiety
+   MenuLocation: Wykres , Ustaw etykiety
    Workbenches: Plot_Workbench/pl
 ---
 

@@ -1,6 +1,6 @@
 # Part Boolean/es
 ---
-- GuiCommand:   Name: Part Booleans   Name/es: Part Booleans   MenuLocation: Part -> Booleans   Workbenches: Part_Workbench/es   Part, Part Common/es and Part Cut/es---
+ GuiCommand:   Name: Part Booleans   Name/es: Part Booleans   MenuLocation: Part , Booleans   Workbenches: Part_Workbench/es   Part, Part Common/es and Part Cut/es---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Sketcher CreateLine/pt
 ---
-- GuiCommand:   Name: Sketcher CreateLine   Name/pt: Sketcher Line   Workbenches: Sketcher Workbench/pt   Sketcher---
+ GuiCommand:   Name: Sketcher CreateLine   Name/pt: Sketcher Line   Workbenches: Sketcher Workbench/pt   Sketcher---
 
 
 </div>

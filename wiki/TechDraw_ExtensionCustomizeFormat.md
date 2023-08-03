@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCustomizeFormat
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Customize Format Label
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Customize Format Label
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

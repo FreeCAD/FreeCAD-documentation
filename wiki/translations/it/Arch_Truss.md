@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Truss
    Name/it: Travatura
-   MenuLocation: Arch -> Travatura
+   MenuLocation: Arch , Travatura
    Workbenches: Arch_Workbench/it
    Version: 0.19
 ---

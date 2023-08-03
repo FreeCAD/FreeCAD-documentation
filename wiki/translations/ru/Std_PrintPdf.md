@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPdf
    Name/ru: Std PrintPdf
-   MenuLocation: Файл -> Экспортировать Pdf 
+   MenuLocation: Файл , Экспортировать Pdf 
    Workbenches: All
    SeeAlso: Std_Print/ru, Std_Export/ru, Std_ViewScreenShot/ru
 ---

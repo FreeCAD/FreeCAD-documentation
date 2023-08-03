@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Raytracing Objekt 
-   MenuLocation: Raytracing -> Part‏‎|
+   MenuLocation: Raytracing , Part‏‎|
    Workbenches: Raytracing_Workbench/de
    Shortcut: 
    SeeAlso: 

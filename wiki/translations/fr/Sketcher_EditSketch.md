@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Name/fr: Sketcher Modifier l'esquisse
-   MenuLocation: Esquisse -> Modifier l'esquisse
+   MenuLocation: Esquisse , Modifier l'esquisse
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_LeaveSketch/fr
 ---

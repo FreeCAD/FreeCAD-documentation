@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать простую копию‎
    Name: Part_SimpleCopy‎
-   MenuLocation: Part -> Создать копию -> Создать простую копию
+   MenuLocation: Part , Создать копию , Создать простую копию
    Workbenches: Part_Workbench/ru
    SeeAlso: Std_Copy/ru, Std_DuplicateSelection/ru, Part_TransformedCopy/ru, Part_ElementCopy/ru, Part_RefineShape/ru
 ---

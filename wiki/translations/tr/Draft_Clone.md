@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Clone
    Name/tr: Klonla
-   MenuLocation: Taslak -> Klonla
+   MenuLocation: Taslak , Klonla
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **C** **L**
    SeeAlso: Draft Move/tr, Draft Scale/tr

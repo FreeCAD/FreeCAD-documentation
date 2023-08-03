@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreatePeriodicBSpline
    Name/it: Sketcher BSpline periodica
    Icon: Sketcher Create Periodic BSpline.svg
-   MenuLocation:  Schizzo -> Geometrie -> Crea B-spline periodica
+   MenuLocation:  Schizzo , Geometrie , Crea B-spline periodica
    Workbenches:  Sketcher Workbench/it
    Version: 0.17
    SeeAlso: Sketcher_CreateBSpline/it

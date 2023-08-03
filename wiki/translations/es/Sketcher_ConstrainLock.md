@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/es: Sketcher ConstrainLock
    Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador  -> Bloquear
+   MenuLocation: Croquizador , Restricciones del Croquizador  , Bloquear
    SeeAlso: Sketcher_ConstrainBlock/es
 ---
 

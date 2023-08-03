@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
    Name/ru: Arch Check
    Workbenches: Arch_Workbench/ru
-   MenuLocation: Архитектура -> Утилиты -> Проверь
+   MenuLocation: Архитектура , Утилиты , Проверь
    SeeAlso: Arch CloseHoles/ru
 ---
 

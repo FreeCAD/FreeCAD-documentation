@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Sphere
    Name/ru: Сфера
-   MenuLocation: Деталь -> Примитивы -> Сфера
+   MenuLocation: Деталь , Примитивы , Сфера
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

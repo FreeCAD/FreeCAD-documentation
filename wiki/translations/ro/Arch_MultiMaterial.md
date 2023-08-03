@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MultiMaterial   Name/ro: Arch MultiMaterial
    Workbenches: Arch_Workbench/ro
-   MenuLocation: Arch -> Multi-Material
+   MenuLocation: Arch , Multi-Material
 ---
 
 # Arch MultiMaterial/ro

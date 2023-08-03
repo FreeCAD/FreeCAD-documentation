@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_AddToGroup
    Name/es: Draft_AddToGroup
    MenuLocation: Boceto -> Opciones de visualización -> Añadir a grupo

@@ -1,6 +1,6 @@
 # FEM ElementFluid1D/it
 ---
-- GuiCommand:   Name: FEM_ElementFluid1D   Name/it: Elemento Fluido 1D   MenuLocation: Modello -> Sezione del fluido per il flusso 1D   ---
+ GuiCommand:   Name: FEM_ElementFluid1D   Name/it: Elemento Fluido 1D   MenuLocation: Modello , Sezione del fluido per il flusso 1D   ---
 
 
 

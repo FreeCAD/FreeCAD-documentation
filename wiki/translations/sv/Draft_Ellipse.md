@@ -1,6 +1,6 @@
 # Draft Ellipse/sv
 ---
-- GuiCommand:   Name: Draft Ellipse   Name/sv: Draft Ellipse   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Ellipse   Name/sv: Draft Ellipse   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

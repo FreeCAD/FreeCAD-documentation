@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SelectNonSolidMeshes
    Name/it: Seleziona non solidi
    Icon: Arch SelectNonManifold.svg
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Utilità -> Seleziona le mesh non solidi
+   MenuLocation: Arch , Utilità , Seleziona le mesh non solidi
    SeeAlso: Arch SplitMesh/it,Arch MeshToShape/it
 ---
 

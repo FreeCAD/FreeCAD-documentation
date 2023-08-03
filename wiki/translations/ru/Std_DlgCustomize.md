@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgCustomize
    Name/ru: Std DlgCustomize
-   MenuLocation: Инструменты -> Настройка...
+   MenuLocation: Инструменты , Настройка...
    Workbenches: All
    SeeAlso: Interface_Customization/ru
 ---

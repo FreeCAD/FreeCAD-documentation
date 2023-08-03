@@ -1,9 +1,9 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Arch Wall
    Name/pt-br: Arch Wall
    Workbenches: Arch_Workbench/pt-br
-   MenuLocation: Arch -> Wall
+   MenuLocation: Arch , Wall
    Shortcut: **W** **A**
    SeeAlso: Arch Structure/pt-br
 ---

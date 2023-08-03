@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CircularArray
    Name/es: Borrador ArregloCircular
-   MenuLocation: Modificación -> Herramientas de  Arreglo -> Arreglo Circular
+   MenuLocation: Modificación , Herramientas de  Arreglo , Arreglo Circular
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.19
    SeeAlso: Draft_OrthoArray/es, Draft_PolarArray/es, Draft_PathArray/es, Draft_PathLinkArray/es, Draft_PointArray/es, Draft_PointLinkArray/es

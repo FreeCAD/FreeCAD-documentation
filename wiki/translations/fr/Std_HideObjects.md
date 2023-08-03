@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std HideObjects
    Name/fr: Std Masquer tous les objets
-   MenuLocation: Affichage -> Visibilité -> Masquer tous les objets
+   MenuLocation: Affichage , Visibilité , Masquer tous les objets
    Workbenches: Tous
    SeeAlso: Std_ToggleVisibility/fr, Std_ShowSelection/fr, Std_HideSelection/fr, Std_ToggleObjects/fr, Std_ShowObjects/fr
 ---

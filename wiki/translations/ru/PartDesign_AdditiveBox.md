@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивный куб 
    Name: PartDesign_AdditiveBox
-   MenuLocation: Part Design -> Создать аддитивный примитив -> Аддитивный куб 
+   MenuLocation: Part Design , Создать аддитивный примитив , Аддитивный куб 
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/ru, PartDesign_SubtractiveBox/ru

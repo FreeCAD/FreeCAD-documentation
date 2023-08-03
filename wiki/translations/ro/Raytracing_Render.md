@@ -1,6 +1,6 @@
 # Raytracing Render/ro
 ---
-- GuiCommand:   Name: Raytracing Render   MenuLocation: Raytracing -> Render‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing Render   MenuLocation: Raytracing , Render‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

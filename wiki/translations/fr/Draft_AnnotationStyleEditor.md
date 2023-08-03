@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/fr: Draft Éditeur de styles d'annotations
-   MenuLocation: Annotation -> Éditeur de styles d'annotations...
+   MenuLocation: Annotation , Éditeur de styles d'annotations...
    Workbenches: Draft_Workbench/fr
    SeeAlso: Draft_Text/fr, Draft_Label/fr, Draft_Dimension/fr
    Version: 0.19

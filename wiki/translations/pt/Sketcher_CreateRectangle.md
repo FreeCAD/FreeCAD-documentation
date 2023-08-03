@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/pt
 ---
-- GuiCommand:   Name: Sketcher CreateRectangle   Name/pt: Sketcher CreateRectangle   Workbenches: Sketcher Workbench/pt   Sketcher---
+ GuiCommand:   Name: Sketcher CreateRectangle   Name/pt: Sketcher CreateRectangle   Workbenches: Sketcher Workbench/pt   Sketcher---
 
 
 </div>

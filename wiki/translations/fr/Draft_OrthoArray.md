@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft OrthoArray
    Name/fr: Draft Réseau orthogonal
-   MenuLocation: Modification -> Outils pour les réseaux -> Réseau
+   MenuLocation: Modification , Outils pour les réseaux , Réseau
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr

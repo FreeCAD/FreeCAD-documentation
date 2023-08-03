@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/cs: Skicář Nový náčrt
    Workbenches: Sketcher Workbench/cs
-   MenuLocation: Náčrt -> Vytvoř náčrt
+   MenuLocation: Náčrt , Vytvoř náčrt
    SeeAlso: Sketcher_MapSketch/cs, Sketcher_ReorientSketch/cs
 ---
 

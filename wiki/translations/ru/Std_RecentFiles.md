@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecentFiles
    Name/ru: Std RecentFiles
    Empty: 1
-   MenuLocation: Файл -> Недавние файлы
+   MenuLocation: Файл , Недавние файлы
    Workbenches: All
    SeeAlso: Std Open/ru, Std Import/ru
 ---

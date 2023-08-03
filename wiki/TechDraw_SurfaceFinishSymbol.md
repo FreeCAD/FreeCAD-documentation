@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw SurfaceFinishSymbol
-   MenuLocation: TechDraw -> Symbols -> Create a Surface Finish Symbol
+   MenuLocation: TechDraw , Symbols , Create a Surface Finish Symbol
    Workbenches: TechDraw_Workbench
    Version: 0.21
 ---

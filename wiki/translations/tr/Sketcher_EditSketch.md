@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Name/tr: Eskizi Düzenle
    Workbenches: Sketcher Workbench/tr, PartDesign Workbench/tr
-   MenuLocation: Eskiz -> Yeni Eskiz
+   MenuLocation: Eskiz , Yeni Eskiz
 ---
 
 # Sketcher EditSketch/tr

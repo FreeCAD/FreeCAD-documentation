@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Body
-   MenuLocation: Part Design -> Create body
+   MenuLocation: Part Design , Create body
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: Std_Part, Feature_editing

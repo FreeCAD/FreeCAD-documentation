@@ -1,6 +1,6 @@
 # Drawing Orthoviews/ru
 ---
-- GuiCommand:   Name: Drawing Orthoviews   Workbenches: Drawing Workbench   Drawing, Complete---
+ GuiCommand:   Name: Drawing Orthoviews   Workbenches: Drawing Workbench   Drawing, Complete---
 
 The Orthoviews tool inserts a set of orthographic projections of the selected object in the active drawing sheet. Note that it does not create a single view object on the page. Instead, a separate orthographic projection will be created for each of the views selected in the options.
 

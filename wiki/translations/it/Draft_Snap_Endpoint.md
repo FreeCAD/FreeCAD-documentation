@@ -1,9 +1,9 @@
 # Draft Snap Endpoint/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Endpoint
    Name/it: Punto finale
-   MenuLocation: Draft -> Draft Snap/it -> Punto finale
+   MenuLocation: Draft , Draft Snap/it , Punto finale
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it---

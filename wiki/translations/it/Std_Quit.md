@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Quit
    Name/it: Esci
-   MenuLocation: File -> Esci
+   MenuLocation: File , Esci
    Workbenches: Tutti
    Shortcut: **Alt**+**F4**
    SeeAlso: Std_CloseActiveWindow/it

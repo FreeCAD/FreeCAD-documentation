@@ -1,7 +1,7 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name: 校验草图…
-   MenuLocation: Sketch -> Validate sketch…
+   MenuLocation: Sketch , Validate sketch…
    Workbenches: Sketcher_Workbench/zh-cn, PartDesign_Workbench/zh-cn
    SeeAlso: Sketcher_ConstrainCoincident/zh-cn, Topological_naming_problem/zh-cn
 ---

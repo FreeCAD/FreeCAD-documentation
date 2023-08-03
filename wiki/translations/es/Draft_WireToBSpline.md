@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_WireToBSpline
    Name/es: Draft_WireToBSpline
-   MenuLocation: Boceto -> Contorno a BSpline
+   MenuLocation: Boceto , Contorno a BSpline
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 

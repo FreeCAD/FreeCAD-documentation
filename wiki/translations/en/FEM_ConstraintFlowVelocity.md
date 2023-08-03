@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintFlowVelocity
-   MenuLocation: Model -> Fluid Constraints -> Constraint flow velocity
+   MenuLocation: Model , Fluid Constraints , Constraint flow velocity
    Workbenches: FEM_Workbench
    SeeAlso: FEM_ConstraintInitialFlowVelocity
 ---

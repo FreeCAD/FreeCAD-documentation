@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ConstraintDisplacement
    Name/it: Vincolo di dislocamento
-   MenuLocation: Modello -> Vincoli meccanici -> Vincolo dislocamento
+   MenuLocation: Modello , Vincoli meccanici , Vincolo dislocamento
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

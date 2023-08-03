@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionInsertSquare
-   MenuLocation: TechDraw -> Extensions: Dimensions -> Insert '〼' Prefix
+   MenuLocation: TechDraw , Extensions: Dimensions , Insert '〼' Prefix
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

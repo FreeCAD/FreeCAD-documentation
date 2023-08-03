@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Reinforcement Bar Bending Schedule
    Name/pl: Zbrojenie: Schemat gięcia prętów
    MenuLocation: brak

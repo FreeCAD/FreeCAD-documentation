@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear LanternGear
    Name/fr: FCGear Pignon lanterne
-   MenuLocation: Gear -> Lantern Gear
+   MenuLocation: Gear , Lantern Gear
    Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16

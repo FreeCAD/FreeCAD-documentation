@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/tr: Yakalama açık/kapalı
-   MenuLocation: Taslak -> Araçlar-> Yakalama açık/kapalı
+   MenuLocation: Taslak , Araçlar, Yakalama açık/kapalı
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft Snap/tr, Draft ToggleGrid/tr
 ---

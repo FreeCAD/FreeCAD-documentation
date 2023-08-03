@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Fasteners ScrewCalculator
-   MenuLocation: Fasteners -> Screw calculator
+   MenuLocation: Fasteners , Screw calculator
    Workbenches: Fasteners_Workbench
 ---
 

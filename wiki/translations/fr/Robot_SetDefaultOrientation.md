@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot SetDefaultOrientation
    Name/fr: Robot Orientation par défaut
-   MenuLocation: Robot -> Définir l'orientation par défaut
+   MenuLocation: Robot , Définir l'orientation par défaut
    Workbenches: Robot_Workbench/fr
    SeeAlso: ...
 ---

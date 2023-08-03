@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/de
+ GuiCommand:Addon/de
    Name: BIM Views
    Name/de: BIM Ansichten
    Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten -> Ansichten
+   MenuLocation: Verwalten , Ansichten
 ---
 
 # BIM Views/de

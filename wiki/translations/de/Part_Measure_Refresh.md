@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Refresh
    Name/de: Part Messung Aktualisieren
-   MenuLocation: Messen -> Aktualisieren
+   MenuLocation: Messen , Aktualisieren
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Measure_Linear/de, Part_Measure_Angular/de
 ---

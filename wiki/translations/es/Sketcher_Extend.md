@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Extend
    Name/es: Croquizador Extender
-   MenuLocation: Croquis -> Croquizador Geometrías -> Extender borde
+   MenuLocation: Croquis , Croquizador Geometrías , Extender borde
 |
    Version: 0.17
    SeeAlso: Sketcher_Trimming/es

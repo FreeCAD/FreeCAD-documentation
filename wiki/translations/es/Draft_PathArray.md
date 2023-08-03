@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/es: Draft PathArray
-   MenuLocation: Draft -> PathArray
+   MenuLocation: Draft , PathArray
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    SeeAlso: Draft Array/es
 ---

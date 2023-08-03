@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Pocket Shape
    Name/fr: Path Poche
-   MenuLocation: Path -> Poche
+   MenuLocation: Path , Poche
    Workbenches: Path_Workbench/fr
 ---
 

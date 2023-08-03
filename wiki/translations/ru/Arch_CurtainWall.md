@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Светопрозрачный фасад
    Name: Arch_CurtainWall
-   MenuLocation: Arch -> Светопрозрачный фасад
+   MenuLocation: Arch , Светопрозрачный фасад
    Workbenches: Arch_Workbench/ru
    Shortcut: **C** **W**
    Version: 0.19

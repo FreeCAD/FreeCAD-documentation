@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/fr: Draft Verrouillage de l'aimantation
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

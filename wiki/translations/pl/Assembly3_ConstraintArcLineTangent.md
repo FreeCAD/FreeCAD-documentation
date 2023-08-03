@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintArcLineTangent
    Icon: Assembly_ConstraintArcLineTangent.svg
    Workbenches: Assembly3_Workbench

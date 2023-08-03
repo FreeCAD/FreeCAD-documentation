@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterClipRegion
-   MenuLocation: Results -> Region clip filter
+   MenuLocation: Results , Region clip filter
    Workbenches: FEM_Workbench
    SeeAlso: FEM_PostPipelineFromResult, FEM_PostCreateFunctions, FEM_tutorial
 ---

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/de
+ GuiCommand:Addon/de
    Name: BIM Project
    Name/de: BIM Projekt
    Workbenches: BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten -> Projekt verwalten...
+   MenuLocation: Verwalten , Projekt verwalten...
 ---
 
 # BIM Project/de

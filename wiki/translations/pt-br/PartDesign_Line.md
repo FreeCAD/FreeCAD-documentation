@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Line
-   MenuLocation: Part Design -> Create a datum -> Create a datum line
+   MenuLocation: Part Design , Create a datum , Create a datum line
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_Point, PartDesign_Plane

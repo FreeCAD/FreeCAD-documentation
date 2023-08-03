@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MirrorSketch
    Name/it: Rifletti schizzo
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Rifletti schizzo
+   MenuLocation: Sketch , Rifletti schizzo
    Version: 0.16
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Перевернуть крепёж
    Name: FSFlip
-   MenuLocation: Стандартные изделия -> Перевернуть крепёж
+   MenuLocation: Стандартные изделия , Перевернуть крепёж
    Workbenches: Fasteners_Workbench/ru
 ---
 

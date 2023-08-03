@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintContact
-   MenuLocation: Model -> Mechanical Constraints -> Constraint contact
+   MenuLocation: Model , Mechanical Constraints , Constraint contact
    Workbenches: FEM_Workbench
    SeeAlso: FEM_ConstraintFixed
 ---

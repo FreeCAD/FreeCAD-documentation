@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateObliqueCoordDimension
    Name/fr: TechDraw Cotes parallèles obliques
-   MenuLocation: TechDraw -> Extensions : cotes -> Cotes parallèles obliques
+   MenuLocation: TechDraw , Extensions : cotes , Cotes parallèles obliques
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

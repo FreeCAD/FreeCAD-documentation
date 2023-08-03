@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image CreateImagePlane
    Name/ru: Image CreateImagePlane
-   MenuLocation: Toolbars -> Создать двумерное изображение в трёхмерном пространстве
+   MenuLocation: Toolbars , Создать двумерное изображение в трёхмерном пространстве
    Workbenches: Image_Workbench/ru
    SeeAlso: Image_Open/ru, Image_Scaling/ru
 ---

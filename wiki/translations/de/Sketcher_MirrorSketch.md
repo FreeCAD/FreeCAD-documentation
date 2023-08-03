@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MirrorSketch
    Name/de: Sketcher SkizzeSpiegeln
-   MenuLocation: Sketch -> Skizze spiegeln
+   MenuLocation: Sketch , Skizze spiegeln
    Workbenches: Sketcher_Workbench/de
    Version: 0.16
 ---

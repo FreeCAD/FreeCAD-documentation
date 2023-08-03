@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/it: Declassa
-   MenuLocation: Modifiche -> Declassa
+   MenuLocation: Modifiche , Declassa
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/it, Part_Cut/it

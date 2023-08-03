@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_External
    Name/it: Geometria esterna   Workbenches: Sketcher Workbench/it
    Shortcut: X
-   MenuLocation: Sketch -> Geometrie -> Geometria Esterna
+   MenuLocation: Sketch , Geometrie , Geometria Esterna
    SeeAlso: Sketcher_ToggleConstruction/it
 ---
 

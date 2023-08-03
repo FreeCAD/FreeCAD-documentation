@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/cs
 ---
-- GuiCommand:   Name: Sketcher CreatePolyline   Name/cs: Skicář Lomená čára   Workbenches: Sketcher Workbench/cs   Skicář---
+ GuiCommand:   Name: Sketcher CreatePolyline   Name/cs: Skicář Lomená čára   Workbenches: Sketcher Workbench/cs   Skicář---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RestoreInternalAlignmentGeometry
    Name/pl: Szkicownik: Pokaż / ukryj geometrię wewnętrzną
-   MenuLocation: Szkic -> Narzędzia szkicownika -> Pokaż / ukryj geometrię wewnętrzną
+   MenuLocation: Szkic , Narzędzia szkicownika , Pokaż / ukryj geometrię wewnętrzną
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **I**
    SeeAlso: 

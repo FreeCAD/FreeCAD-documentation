@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft OrthoArray
    Name/es: Borrador ArregloOrtogonal
-   MenuLocation: Modificación -> Herramientas de  Arreglo -> Arreglo
+   MenuLocation: Modificación , Herramientas de  Arreglo , Arreglo
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.19
    SeeAlso: Draft_PolarArray/es, Draft_CircularArray/es, Draft_PathArray/es, Draft_PathLinkArray/es, Draft_PointArray/es, Draft_PointLinkArray/es.

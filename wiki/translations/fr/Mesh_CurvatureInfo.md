@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh CurvatureInfo
    Name/fr: Mesh Infos de courbure
-   MenuLocation: Maillages -> Analyser -> Informations sur la courbure
+   MenuLocation: Maillages , Analyser , Informations sur la courbure
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_VertexCurvature/fr
 ---

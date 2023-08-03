@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_RegularPolygon
    Name/ru: Правильный Многоугольник
-   MenuLocation: Деталь -> Part_CreatePrimitives -> Правильный Многоугольник
+   MenuLocation: Деталь , Part_CreatePrimitives , Правильный Многоугольник
    Workbenches: Part_Workbench/ru
    Version: 0.14
    SeeAlso: Part_Primitives/ru

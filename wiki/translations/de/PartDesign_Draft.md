@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Draft
    Name/de: PartDesign Formschräge
-   MenuLocation: Part Design -> Modifikationen -> Formschräge
+   MenuLocation: Part Design , Modifikationen , Formschräge
    Workbenches: PartDesign_Workbench/de
    Shortcut: -
    SeeAlso: Keine

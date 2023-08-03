@@ -1,6 +1,6 @@
 # Path SimpleCopy/ro
 ---
-- GuiCommand:   Name: Path SimpleCopy   Workbenches: Path Workbench   Path|MenuLocation: Path -> Path Modification -> Simple Copy   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Path SimpleCopy   Workbenches: Path Workbench   Path|MenuLocation: Path , Path Modification , Simple Copy   Shortcut:    SeeAlso: ---
 
 
 </div>

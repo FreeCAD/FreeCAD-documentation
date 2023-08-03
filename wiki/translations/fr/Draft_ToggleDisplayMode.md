@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleDisplayMode
    Name/fr: Draft Mode d'affichage
-   MenuLocation: Utilitaires -> Basculer le mode d'affichage de normal/filaire
+   MenuLocation: Utilitaires , Basculer le mode d'affichage de normal/filaire
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **Maj** + **Espace**
    SeeAlso: Std_ToggleVisibility/fr

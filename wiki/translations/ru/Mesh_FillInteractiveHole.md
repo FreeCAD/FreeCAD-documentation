@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FillInteractiveHole‏‎
    Name/ru: Mesh FillInteractiveHole‏‎
-   MenuLocation: Сетки -> Закрыть отверстие
+   MenuLocation: Сетки , Закрыть отверстие
    Workbenches: Mesh Workbench
    Shortcut: 
    SeeAlso: 

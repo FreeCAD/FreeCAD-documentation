@@ -1,6 +1,6 @@
 # PartDesign Groove/es
 ---
-- GuiCommand:   Name: PartDesign_Groove   Name/es: PartDesign Groove   Workbenches: PartDesign Workbench/es   Diseño de Piezas, Complete|MenuLocation: PartDesign -> Groove---
+ GuiCommand:   Name: PartDesign_Groove   Name/es: PartDesign Groove   Workbenches: PartDesign Workbench/es   Diseño de Piezas, Complete|MenuLocation: PartDesign , Groove---
 
 
 </div>

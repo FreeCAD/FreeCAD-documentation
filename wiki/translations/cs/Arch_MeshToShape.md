@@ -1,6 +1,6 @@
 # Arch MeshToShape/cs
 ---
-- GuiCommand:   Name: Arch MeshToShape   Name/cs: Arch MeshToShape   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch MeshToShape   Name/cs: Arch MeshToShape   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

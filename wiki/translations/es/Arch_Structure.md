@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Structure
    Name/es: Arch Estructura
    Workbenches: Arch_Workbench/es
-   MenuLocation: Arquitectura -> Estructura
+   MenuLocation: Arquitectura , Estructura
    Shortcut: **S** **T**
    SeeAlso: Arch_Wall/es, Arch_Rebar/es
 ---

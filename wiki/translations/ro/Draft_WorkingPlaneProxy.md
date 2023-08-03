@@ -1,6 +1,6 @@
 # Draft WorkingPlaneProxy/ro
 ---
-- GuiCommand:   Name: Draft SetWorkingPlaneProxy   Workbenches: Draft Workbench   Draft, Arch Workbench---
+ GuiCommand:   Name: Draft SetWorkingPlaneProxy   Workbenches: Draft Workbench   Draft, Arch Workbench---
 
 
 </div>

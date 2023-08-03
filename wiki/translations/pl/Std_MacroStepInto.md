@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStepInto
    Name/pl: Std: Wejdź do
    Empty: 1
-   MenuLocation: Makrodefinicje -> Wejdź do
+   MenuLocation: Makrodefinicje , Wejdź do
    Workbenches: wszystkie
    Shortcut: **F11**
    SeeAlso: Std_MacroStepOver/pl, Std_ToggleBreakpoint/pl

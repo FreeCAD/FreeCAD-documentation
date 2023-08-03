@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part BooleanFragments
    Name/ru: Part BooleanFragments
-   MenuLocation: Деталь -> Разделить -> Boolean Fragments
+   MenuLocation: Деталь , Разделить , Boolean Fragments
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Slice/ru   Part Slice, Part_XOR/ru, Part_CompJoinFeatures/ru, Part Boolean/ru|Version: 0.17.8053
 ---

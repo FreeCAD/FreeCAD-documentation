@@ -1,6 +1,6 @@
 # Arch SelectNonSolidMeshes/cs
 ---
-- GuiCommand:   Name: Arch SelectNonSolidMeshes   Name/cs: SelectNonSolidMeshes   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch SelectNonSolidMeshes   Name/cs: SelectNonSolidMeshes   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

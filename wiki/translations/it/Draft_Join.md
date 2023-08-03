@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Join
    Name/it: Unisci
-   MenuLocation: Modifiche -> Unisci
+   MenuLocation: Modifiche , Unisci
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **J** **O**
    Version: 0.18

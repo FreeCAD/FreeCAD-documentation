@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ExplodeCompound
-   MenuLocation: Part -> Compound -> Explode compound
+   MenuLocation: Part , Compound , Explode compound
    Workbenches: Part_Workbench
    Version: 0.18
    SeeAlso: Part_Compound, Draft_Downgrade

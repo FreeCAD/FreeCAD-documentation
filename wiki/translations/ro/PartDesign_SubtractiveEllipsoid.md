@@ -1,6 +1,6 @@
 # PartDesign SubtractiveEllipsoid/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveEllipsoid   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveEllipsoid   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

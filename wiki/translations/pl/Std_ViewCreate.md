@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewCreate
    Name/pl: Std: Utwórz widok
-   MenuLocation: Widok -> Utwórz nowy widok
+   MenuLocation: Widok , Utwórz nowy widok
    Workbenches: wszystkie
    SeeAlso: Std_ViewDockUndockFullscreen/pl, Std_ViewFullscreen/pl
 ---

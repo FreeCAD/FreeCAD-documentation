@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw RadiusDimension
    Name/de: TechDraw MaßRadius
-   MenuLocation: TechDraw -> Bemaßungen -> Radienmaß einfügen
+   MenuLocation: TechDraw , Bemaßungen , Radienmaß einfügen
    Workbenches: TechDraw_Workbench/de
    SeeAlso: TechDraw_DiameterDimension/de
 ---

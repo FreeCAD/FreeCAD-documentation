@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint EqualLength
    Name/pt: Constraint EqualLength
    Workbenches: Sketcher Workbench/pt, PartDesign Workbench/pt
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain equal
+   MenuLocation: Sketch , Sketcher constraints , Constrain equal
    SeeAlso: Sketcher_ConstrainRadius/pt
 ---
 

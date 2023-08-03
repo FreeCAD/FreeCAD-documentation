@@ -1,6 +1,6 @@
 # OpenSCAD ReplaceObject/it
 ---
-- GuiCommand:   Name: OpenSCAD ReplaceObject   Name/it: Sostituisci oggetto   MenuLocation: OpenSCAD -> Sostituisci oggetto‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: OpenSCAD ReplaceObject   Name/it: Sostituisci oggetto   MenuLocation: OpenSCAD , Sostituisci oggetto‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

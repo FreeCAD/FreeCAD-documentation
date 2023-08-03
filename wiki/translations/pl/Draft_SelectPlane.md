@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/pl: Rysunek Roboczy: Wybór płaszczyzny
-   MenuLocation: Kreślenie -> Przybory -> Wybierz płaszczyznę
+   MenuLocation: Kreślenie , Przybory , Wybierz płaszczyznę
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **W** **P**
    SeeAlso: Draft_SetWorkingPlaneProxy/pl, Draft_ToggleGrid/pl

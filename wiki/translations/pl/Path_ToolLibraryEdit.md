@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path ToolLibraryEdit
-   MenuLocation: Path -> Tool Manager
+   MenuLocation: Path , Tool Manager
    Workbenches: Path_Workbench
    Shortcut: **P** **T**
    SeeAlso: 

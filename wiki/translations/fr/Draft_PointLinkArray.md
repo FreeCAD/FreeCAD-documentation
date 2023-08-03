@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointLinkArray
    Name/fr: Draft Réseau lié selon des points
-   MenuLocation: Modification -> Outils pour les réseaux -> Réseau lié selon des points
+   MenuLocation: Modification , Outils pour les réseaux , Réseau lié selon des points
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_OrthoArray/fr, Draft_PolarArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PointArray/fr

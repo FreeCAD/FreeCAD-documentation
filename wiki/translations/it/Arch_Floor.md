@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Floor
    Name/it: Piano
-   MenuLocation: Arch -> Piano
+   MenuLocation: Arch , Piano
    Workbenches: Arch_Workbench/it
    Shortcut: **L** **V**
    SeeAlso: Arch̞_Building/it, Arch_BuildingPart/it, Arch_Site/it

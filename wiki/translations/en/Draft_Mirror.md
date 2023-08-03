@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Mirror
-   MenuLocation: Modification -> Mirror
+   MenuLocation: Modification , Mirror
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **M** **I**
    SeeAlso: Draft_Clone

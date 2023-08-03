@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectConflictingConstraints
    Name/pl: Szkicownik: Wybierz wiązania konfliktowe
-   MenuLocation: Szkic -> Narzędzia szkicownika -> Wybierz wiązania konfliktowe
+   MenuLocation: Szkic , Narzędzia szkicownika , Wybierz wiązania konfliktowe
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **P** **C**
    Version: 0.15

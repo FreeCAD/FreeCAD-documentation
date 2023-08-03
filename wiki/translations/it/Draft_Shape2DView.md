@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Shape2DView
    Name/it: Vista forma 2D
-   MenuLocation: Modifiche -> Vista forma 2D
+   MenuLocation: Modifiche , Vista forma 2D
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: TechDraw_ProjectShape/it
 ---

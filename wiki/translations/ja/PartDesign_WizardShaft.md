@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_WizardShaft
    Name/ja: PartDesign_WizardShaft
    Workbenches: PartDesign Workbench/ja, Complete

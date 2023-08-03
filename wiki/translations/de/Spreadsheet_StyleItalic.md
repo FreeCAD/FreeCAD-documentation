@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet StyleItalic
    Name/de: Kalkulationstabelle StilKursiv
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle -> Stile -> Kursiver Text
+   MenuLocation: Kalkulationstabelle , Stile , Kursiver Text
    Version: 0.17
 ---
 

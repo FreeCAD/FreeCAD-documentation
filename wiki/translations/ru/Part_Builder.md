@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Builder
    Name/ru: Построитель форм
    MenuLocation: Деталь -> Построитель форм...

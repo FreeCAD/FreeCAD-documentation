@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface Filling
    Name/fr: Surface Remplissage
-   MenuLocation: Surface -> Filling...
+   MenuLocation: Surface , Filling...
    Workbenches: Surface_Workbench/fr
    Version: 0.17
 ---

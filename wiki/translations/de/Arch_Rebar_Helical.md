@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Rebar_Helical   Name/de: Arch Bewehrungsstab spiralförmig
-   MenuLocation: Arch -> Rebar tools -> Spiralförmige Bewehrung oder 3D/BIM -> Verstärkung -> Spiralförmige Bewehrung 
+   MenuLocation: Arch , Rebar tools , Spiralförmige Bewehrung oder 3D/BIM , Verstärkung , Spiralförmige Bewehrung 
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_Stirrup/de,Arch_Rebar_ColumnReinforcement/de

@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/pt
 ---
-- GuiCommand:   Name: Sketcher CreatePolyline   Name/pt: Sketcher CreatePolyline   Workbenches: Sketcher Workbench/pt   Sketcher---
+ GuiCommand:   Name: Sketcher CreatePolyline   Name/pt: Sketcher CreatePolyline   Workbenches: Sketcher Workbench/pt   Sketcher---
 
 
 </div>

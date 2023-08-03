@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Refresh
    Name/fr: Std Rafraîchir
-   MenuLocation: Edition -> Rafraîchir
+   MenuLocation: Edition , Rafraîchir
    Workbenches: Tous
    Shortcut: **F5**
 ---

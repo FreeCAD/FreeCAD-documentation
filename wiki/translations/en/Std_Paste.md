@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Paste
-   MenuLocation: Edit -> Paste
+   MenuLocation: Edit , Paste
    Workbenches: All
    Shortcut: **Ctrl**+**V**
    SeeAlso: Std_Cut, Std_Copy, Std_DuplicateSelection

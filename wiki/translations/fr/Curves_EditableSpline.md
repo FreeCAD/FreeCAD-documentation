@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves EditableSpline
    Name/fr: Curves Modifier une B-spline
-   MenuLocation: Curves -> Freehand BSpline
+   MenuLocation: Curves , Freehand BSpline
    Workbenches: Curves_Workbench/fr
 ---
 

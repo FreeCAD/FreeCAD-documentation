@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Offset
    Name/de: Draft Versatz
-   MenuLocation: Änderung -> Versatz
+   MenuLocation: Änderung , Versatz
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/de

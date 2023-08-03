@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_DetailView
    Name/it: Dettaglio
-   MenuLocation: TechDraw -> Dettaglio
+   MenuLocation: TechDraw , Dettaglio
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it
 ---

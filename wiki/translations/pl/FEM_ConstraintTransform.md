@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintTransform
    Name/pl: MES: Zdefiniuj odkształcenie
-   MenuLocation: Model -> Wiązania Geometryczne -> Zdefiniuj odkształcenie
+   MenuLocation: Model , Wiązania Geometryczne , Zdefiniuj odkształcenie
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintPlaneRotation/pl
 ---

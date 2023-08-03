@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/ru: Draft ShapeString
-   MenuLocation: Черчение -> Текст в кривую ...
+   MenuLocation: Черчение , Текст в кривую ...
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **S** **S**
    Version: 0.14

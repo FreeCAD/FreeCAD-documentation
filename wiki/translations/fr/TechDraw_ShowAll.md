@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ShowAll
    Name/fr: TechDraw Montrer tout
-   MenuLocation: TechDraw -> Afficher/Masquer les arrêtes cachées
+   MenuLocation: TechDraw , Afficher/Masquer les arrêtes cachées
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_DecorateLine/fr

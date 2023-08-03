@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot TrajectoryDressUp
    Name/fr: Robot Habillage de trajectoire
-   MenuLocation: Robot -> Habillage de trajectoire
+   MenuLocation: Robot , Habillage de trajectoire
    Workbenches: Robot_Workbench/fr
 ---
 

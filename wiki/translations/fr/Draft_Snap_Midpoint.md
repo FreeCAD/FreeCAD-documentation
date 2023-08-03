@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Midpoint
    Name/fr: Draft Aimantation Milieu
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

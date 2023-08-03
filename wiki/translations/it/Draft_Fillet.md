@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Fillet
    Name/it: Raccordo
-   MenuLocation: Drafting -> Raccordo
+   MenuLocation: Drafting , Raccordo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **F** **I**
    Version: 0.19

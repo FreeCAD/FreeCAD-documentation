@@ -1,6 +1,6 @@
 # Std PerspectiveCamera/ro
 ---
-- GuiCommand:   Name: Std PerspectiveCamera   MenuLocation: Std View Menu   View -> Perspective view‏‎---
+ GuiCommand:   Name: Std PerspectiveCamera   MenuLocation: Std View Menu   View , Perspective view‏‎---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Delete
    Name/pl: Std: Usuń
-   MenuLocation: Edycja -> Usuń
+   MenuLocation: Edycja , Usuń
    Workbenches: wszystkie
    Shortcut: **Del**
 ---

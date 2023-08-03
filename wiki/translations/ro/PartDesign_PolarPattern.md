@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign PolarPattern
    Name/ro: PartDesign PolarPattern
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: PartDesign -> PolarPattern
+   MenuLocation: PartDesign , PolarPattern
 ---
 
 # PartDesign PolarPattern/ro

@@ -1,6 +1,6 @@
 # Arch Roof/cs
 ---
-- GuiCommand:   Name: Arch Roof   Name/cs: Arch Střecha   Workbenches: Arch_Workbench/cs   Arch|MenuLocation: Arch -> Střecha   Shortcut: R F---
+ GuiCommand:   Name: Arch Roof   Name/cs: Arch Střecha   Workbenches: Arch_Workbench/cs   Arch|MenuLocation: Arch , Střecha   Shortcut: R F---
 
 
 </div>

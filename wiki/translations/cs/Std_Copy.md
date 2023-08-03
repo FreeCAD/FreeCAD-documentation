@@ -1,6 +1,6 @@
 # Std Copy/cs
 ---
-- GuiCommand:   Name: Std_Copy   Name/cs: Std Kopírovat   MenuLocation: Std_Edit_Menu/cs   Úpravy -> Kopírovat, Std_DuplicateSelection/cs---
+ GuiCommand:   Name: Std_Copy   Name/cs: Std Kopírovat   MenuLocation: Std_Edit_Menu/cs   Úpravy , Kopírovat, Std_DuplicateSelection/cs---
 
 
 </div>

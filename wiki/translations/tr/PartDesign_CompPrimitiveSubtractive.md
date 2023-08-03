@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CompPrimitiveSubtractive
-   MenuLocation: Part Design -> Create a subtractive primitive
+   MenuLocation: Part Design , Create a subtractive primitive
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive

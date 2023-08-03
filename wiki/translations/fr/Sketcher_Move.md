@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Move
    Name/fr: Sketcher Déplacer
-   MenuLocation: Esquisse -> Outils d'esquisse -> Déplacer
+   MenuLocation: Esquisse , Outils d'esquisse , Déplacer
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **M**
    Version: 0.18

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Parabolic Arc
    Name/it: Crea un arco di parabola
    Icon: Sketcher Parabolic Arc.png
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Geometrie -> Arco di parabola
+   MenuLocation: Sketch , Geometrie , Arco di parabola
    Version: 0.17
    SeeAlso: Sketcher CreateArcOfEllipse/it, Sketcher_CreateArcOfHyperbola/it
 ---

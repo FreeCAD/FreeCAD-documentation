@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AddonMgr
    Name/tr: Addon manager
    Icon: AddonManager.svg
-   MenuLocation: Araçlar -> Addon manager
+   MenuLocation: Araçlar , Addon manager
    Workbenches: ''None''
    SeeAlso: Macros/tr, External workbenches/tr
    Version: 0.17

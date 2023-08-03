@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Engrave
-   MenuLocation: Path -> Engrave
+   MenuLocation: Path , Engrave
    Workbenches: Path_Workbench
 ---
 

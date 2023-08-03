@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Slab Reinforcement
-   MenuLocation: Arch -> Rebar tools -> Slab Reinforcement<br>3D/BIM -> Reinforcement tools -> Slab Reinforcement
+   MenuLocation: Arch , Rebar tools , Slab Reinforcement<br>3D/BIM , Reinforcement tools , Slab Reinforcement
    Workbenches: Arch_Workbench
    SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_Helical
 ---

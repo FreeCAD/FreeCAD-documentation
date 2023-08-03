@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Reference
    Name/fr: Arch Référence externe
-   MenuLocation: Arch -> Référence externe
+   MenuLocation: Arch , Référence externe
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_BuildingPart/fr
 ---

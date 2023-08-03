@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveCone
    Name/es: DiseñoPiezas ConoAditivo
-   MenuLocation: DiseñoPiezas -> Crear una primitiva aditiva -> Cono Aditivo
+   MenuLocation: DiseñoPiezas , Crear una primitiva aditiva , Cono Aditivo
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/es, PartDesign_SubtractiveCone/es

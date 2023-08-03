@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Symbol
    Name/pl: Drawing: Symbol
    Workbenches: Drawing_Workbench/pl
-   MenuLocation: Kreślenie -> Symbol
+   MenuLocation: Kreślenie , Symbol
    Shortcut: brak
 ---
 

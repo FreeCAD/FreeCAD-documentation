@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Helix
    Name/de: Part Helix
-   MenuLocation: Formteil -> Part_Primitives/de -> Helix
+   MenuLocation: Formteil , Part_Primitives/de , Helix
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CrownGear
    Name/it: Corona dentata
-   MenuLocation: FCGear -> Create an Crown gear
+   MenuLocation: FCGear , Create an Crown gear
    Workbenches: FCGear Workbench/it
    Shortcut: None
    Version: v0.16

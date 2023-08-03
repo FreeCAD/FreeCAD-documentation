@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SetAlias
    MenuLocation: -
    Workbenches: Spreadsheet_Workbench

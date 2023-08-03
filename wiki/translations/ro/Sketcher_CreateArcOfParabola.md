@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Sketcher arc de parabolă
    Icon: Sketcher Parabolic Arc.png
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Geometria schitei -> Creaţi un arc de parabolă
+   MenuLocation: Sketch , Geometria schitei , Creaţi un arc de parabolă
    Version: 0.17
    SeeAlso: Sketcher CreateArcOfEllipse, Sketcher_CreateArcOfHyperbola
 ---

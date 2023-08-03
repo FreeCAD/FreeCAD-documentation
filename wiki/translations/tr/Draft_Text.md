@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Text
    Name/tr: Metin
-   MenuLocation: Taslak -> Metin
+   MenuLocation: Taslak , Metin
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **T** **E**
    Version/tr: 0.7

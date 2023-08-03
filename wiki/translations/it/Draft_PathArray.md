@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_PathArray
    Name/it: Serie su tracciato
-   MenuLocation: Modifiche -> Strumenti serie -> Serie su tracciato
+   MenuLocation: Modifiche , Strumenti serie , Serie su tracciato
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.14
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it 

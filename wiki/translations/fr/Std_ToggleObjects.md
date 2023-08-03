@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleObjects
    Name/fr: Std Basculer tous les objets
-   MenuLocation: Affichage -> Visibilité -> Basculer tous les objets
+   MenuLocation: Affichage , Visibilité , Basculer tous les objets
    Workbenches: Tous
    SeeAlso: Std_ToggleVisibility/fr, Std_ShowSelection/fr, Std_HideSelection/fr, Std_ShowObjects/fr, Std_HideObjects/fr
 ---

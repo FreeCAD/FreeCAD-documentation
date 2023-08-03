@@ -1,6 +1,6 @@
 # Draft Upgrade/sv
 ---
-- GuiCommand:   Name: Draft_Upgrade   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft_Upgrade   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

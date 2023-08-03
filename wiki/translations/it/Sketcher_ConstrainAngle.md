@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ConstrainAngle
    Name/it: Angolo
    Workbenches: Sketcher Workbench/it
    Shortcut: **A**
-   MenuLocation: Sketch -> Vincoli -> Angolo
+   MenuLocation: Sketch , Vincoli , Angolo
    SeeAlso: Sketcher ConstrainDistance/it, Sketcher ConstrainPerpendicular/it
 ---
 

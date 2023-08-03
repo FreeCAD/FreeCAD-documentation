@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationHeat
-   MenuLocation: Solve -> Heat equation
+   MenuLocation: Solve , Heat equation
    Workbenches: FEM_Workbench
    Version: 0.17
    SeeAlso: FEM_tutorial

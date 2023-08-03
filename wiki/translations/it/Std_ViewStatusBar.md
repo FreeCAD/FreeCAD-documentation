@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_ViewStatusBar
    Name/it: Barra di stato
    Empty: 1
-   MenuLocation: Visualizza -> Barra di stato
+   MenuLocation: Visualizza , Barra di stato
    Workbenches: All
 ---
 

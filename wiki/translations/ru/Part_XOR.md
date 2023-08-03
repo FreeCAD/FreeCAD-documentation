@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part XOR
    Name/ru: Part XOR
-   MenuLocation: Деталь -> Разделить -> Boolean Xor
+   MenuLocation: Деталь , Разделить , Boolean Xor
    Workbenches: Part_Workbench/ru
    Version: 0.17
    SeeAlso: Part_BooleanFragments/ru, Part_Slice/ru, Part_CompJoinFeatures/ru, Part_Boolean/ru

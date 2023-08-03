@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArc
    Name/cs: Skicář Oblouk
    Workbenches: Sketcher Workbench/cs
-   MenuLocation: Náčrt -> Skicář Konstrukce -> Vytvořit oblouk
+   MenuLocation: Náčrt , Skicář Konstrukce , Vytvořit oblouk
    SeeAlso: Sketcher CompCreateCircle/cs
 ---
 

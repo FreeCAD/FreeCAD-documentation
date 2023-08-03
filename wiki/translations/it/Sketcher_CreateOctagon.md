@@ -1,6 +1,6 @@
 # Sketcher CreateOctagon/it
 ---
-- GuiCommand:   Name: Sketcher CreateOctagon   Name/it: Ottagono   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch -> Geometrie -> Ottagono   Shortcut:    SeeAlso:    Version: 0.15---
+ GuiCommand:   Name: Sketcher CreateOctagon   Name/it: Ottagono   Workbenches: Sketcher Workbench/it   Sketcher|MenuLocation: Sketch , Geometrie , Ottagono   Shortcut:    SeeAlso:    Version: 0.15---
 
 
 </div>

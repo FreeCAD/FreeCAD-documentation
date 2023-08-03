@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Symmetric
    Name/pt: Constraint Symmetric
    Workbenches: Sketcher Workbench/pt, PartDesign Workbench/pt
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain symmetrical
+   MenuLocation: Sketch , Sketcher constraints , Constrain symmetrical
    SeeAlso: Sketcher_ConstrainParallel/pt
 ---
 

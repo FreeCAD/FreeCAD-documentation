@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points Import
-   MenuLocation: Points -> Import points...
+   MenuLocation: Points , Import points...
    Workbenches: Points_Workbench
    SeeAlso: Import_Export
 ---

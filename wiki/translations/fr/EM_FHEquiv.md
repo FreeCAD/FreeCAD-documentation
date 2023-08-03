@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHEquiv
    Name/fr: EM Equivalence FH
-   MenuLocation: EM -> FHEquiv
+   MenuLocation: EM , FHEquiv
    Workbenches: EM_Workbench/fr
    Shortcut: **E** **E**
    Version: 0.17

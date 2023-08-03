@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
 
    Name: Std AuswahlDokumentfenster
    Name/de: Std AuswahlDokumentfenster
    Empty: 1
-   MenuLocation: Ansicht -> Dokumentfenster -> Angedockt/Abgedockt/Vollbild
+   MenuLocation: Ansicht , Dokumentfenster , Angedockt/Abgedockt/Vollbild
    Workbenches: Alle
    SeeAlso: Std ViewCreate/de, Std ViewScreenShot/de, Std_FreezeViews/de, Std_Windows_Menu/de
 ---

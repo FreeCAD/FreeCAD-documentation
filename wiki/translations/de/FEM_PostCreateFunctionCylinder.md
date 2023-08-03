@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionCylinder
    Name/de: FEM NachbereitungFunktionZylinder
-   MenuLocation: Ergebnisse -> Filterfunktionen -> Cylinder
+   MenuLocation: Ergebnisse , Filterfunktionen , Cylinder
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_tutorial/de

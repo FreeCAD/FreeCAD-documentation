@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Draft Clone
    Name/pt-br: Draft Clone
-   MenuLocation: Draft -> Clone
+   MenuLocation: Draft , Clone
    Workbenches: Draft_Workbench/pt-br, Arch_Workbench/pt-br
    Shortcut: **C** **L**
    SeeAlso: Draft Scale/pt-br

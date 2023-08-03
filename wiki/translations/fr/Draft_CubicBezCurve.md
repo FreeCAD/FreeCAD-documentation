@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CubicBezCurve
    Name/fr: Draft Courbe de Bézier cubique
-   MenuLocation: Draft -> Outils de Bézier -> Courbe de Bézier cubique
+   MenuLocation: Draft , Outils de Bézier , Courbe de Bézier cubique
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_BezCurve/fr, Draft_BSpline/fr

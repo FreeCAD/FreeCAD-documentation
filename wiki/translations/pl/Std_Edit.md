@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Edit
    Name/pl: Edycja
-   MenuLocation: Edycja -> Przełącz tryb edycji
+   MenuLocation: Edycja , Przełącz tryb edycji
    Workbenches: Wszystkie
    SeeAlso: Std_UserEditMode/pl
 ---

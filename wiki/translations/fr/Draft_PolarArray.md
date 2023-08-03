@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PolarArray
    Name/fr: Draft Réseau polaire
-   MenuLocation: Modification -> Outils pour les réseaux -> Réseau polaire
+   MenuLocation: Modification , Outils pour les réseaux , Réseau polaire
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.19
    SeeAlso: Draft_OrthoArray/fr, Draft_CircularArray/fr, Draft_PathArray/fr, Draft_PathLinkArray/fr, Draft_PointArray/fr, Draft_PointLinkArray/fr

@@ -1,6 +1,6 @@
 # Part Builder/it
 ---
-- GuiCommand:   Name: Part Builder   Name/it: Crea forme   Workbenches: Part_Workbench/it   Parte, Draft_Upgrade/it, Draft_Downgrade/it---
+ GuiCommand:   Name: Part Builder   Name/it: Crea forme   Workbenches: Part_Workbench/it   Parte, Draft_Upgrade/it, Draft_Downgrade/it---
 
 
 </div>

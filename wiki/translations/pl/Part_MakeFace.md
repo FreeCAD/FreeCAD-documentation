@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeFace‏‎
    Name/pl: Część: Utwórz ścianę z polilinii
-   MenuLocation: Część -> Utwórz ścianę z polilinii
+   MenuLocation: Część , Utwórz ścianę z polilinii
    Workbenches: Part_Workbench/pl
    Version: 0.19
    SeeAlso: Part_RuledSurface/pl

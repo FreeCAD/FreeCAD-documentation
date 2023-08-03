@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationFluxsolver
    Name/ru: FEM EquationFluxsolver
    Icon: Fem-equation-fluxsolver.svg
-   MenuLocation:  Solve -> Equation fluxsolver
+   MenuLocation:  Solve , Equation fluxsolver
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

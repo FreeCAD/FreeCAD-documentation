@@ -1,6 +1,6 @@
 # Part Wedge/es
 ---
-- GuiCommand:   Name: Part Wedge   Name/es: Part Wedge   MenuLocation: Part -> Part_CreatePrimitives/es   Part CreatePrimitives -> Cuña---
+ GuiCommand:   Name: Part Wedge   Name/es: Part Wedge   MenuLocation: Part -> Part_CreatePrimitives/es   Part CreatePrimitives -> Cuña---
 
 
 </div>

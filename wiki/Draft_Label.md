@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Label
-   MenuLocation: Annotation -> Label
+   MenuLocation: Annotation , Label
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **D** **L**
    Version: 0.17

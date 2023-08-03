@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DependencyGraph
    Name/fr: Std Graphique de dépendances
-   MenuLocation: Outils -> Graphique de dépendance...
+   MenuLocation: Outils , Graphique de dépendance...
    Workbenches: Tous
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Spiral
-   MenuLocation: Part -> Part_Primitives -> Spiral
+   MenuLocation: Part , Part_Primitives , Spiral
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    Version: 0.14
    SeeAlso: Part_Primitives

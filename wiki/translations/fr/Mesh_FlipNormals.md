@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FlipNormals
    Name/fr: Mesh Inverser les normales‏‎
-   MenuLocation: Maillages -> Inverser les normales‏‎
+   MenuLocation: Maillages , Inverser les normales‏‎
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_HarmonizeNormals/fr
 ---

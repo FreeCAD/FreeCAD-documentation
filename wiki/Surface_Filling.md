@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface Filling
-   MenuLocation: Surface -> Filling
+   MenuLocation: Surface , Filling
    Workbenches: Surface_Workbench
    Version: 0.17
 ---

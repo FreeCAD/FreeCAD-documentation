@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Субтрактивный куб 
    Name: PartDesign_SubtractiveBox
-   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивный куб 
+   MenuLocation: Part Design , Создать субтрактивный примитив , Субтрактивный куб 
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditiveBox/ru

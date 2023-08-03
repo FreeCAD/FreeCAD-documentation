@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SubelementHighlight
    Name/ru: Draft SubelementHighlight
-   MenuLocation: Draft -> Subelement highlight
+   MenuLocation: Draft , Subelement highlight
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **D** **E**
    SeeAlso: Draft Edit/ru

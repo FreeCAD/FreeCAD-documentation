@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RegularPolygon
-   MenuLocation: Part -> Part_Primitives -> Regular polygon
+   MenuLocation: Part , Part_Primitives , Regular polygon
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    Version: 0.14
    SeeAlso: Part_Primitives

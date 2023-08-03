@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/pl: Draft: Wymiar
-   MenuLocation: Adnotacja -> Wymiar
+   MenuLocation: Adnotacja , Wymiar
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **D** **I**
    Version: 0.8

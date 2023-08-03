@@ -1,6 +1,6 @@
 # Ship LoadCondition/ro
 ---
-- GuiCommand:   Name: Ship Loading   MenuLocation: Weights -> Create a new loading condition   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Ship Loading   MenuLocation: Weights , Create a new loading condition   |Shortcut:    SeeAlso: ---
 
 
 </div>

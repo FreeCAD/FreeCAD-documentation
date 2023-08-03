@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ToggleConstruction
    Name/cs:  Skicář Změna konst.módu
    Icon: Sketcher_AlterConstruction.svg
    Workbenches: Sketcher Workbench/cs
-   MenuLocation: Náčrt -> Skicář Konstrukce ->  Změna konst.módu
+   MenuLocation: Náčrt , Skicář Konstrukce ,  Změna konst.módu
 ---
 
 # Sketcher ToggleConstruction/cs

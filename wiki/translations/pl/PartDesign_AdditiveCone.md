@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveCone
    Name/pl: Projekt Części: Addytywny stożek
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywny stożek
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Addytywny stożek
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveCone/pl

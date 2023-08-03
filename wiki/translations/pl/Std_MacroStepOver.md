@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStepOver
    Name/pl: Std: Krok dalej
    Empty: 1
-   MenuLocation: Makrodefinicje -> Krok dalej
+   MenuLocation: Makrodefinicje , Krok dalej
    Workbenches: wszystkie
    Shortcut: **F10**
    SeeAlso: Std_MacroStepInto/pl, Std_ToggleBreakpoint/pl

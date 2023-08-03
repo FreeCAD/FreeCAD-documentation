@@ -1,10 +1,10 @@
 # Draft Snap Angle/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Angle
    Name/tr: Açı
    Workbenches: Draft Workbench, Arch Workbench
-   MenuLocation: Taslak -> Draft Snap/tr -> Açı
+   MenuLocation: Taslak , Draft Snap/tr , Açı
    Shortcut: 
    SeeAlso: ---
 

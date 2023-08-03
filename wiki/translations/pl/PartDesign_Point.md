@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Point
    Name/pl: Projekt Części: Utwórz punkt odniesienia
-   MenuLocation: Projekt Części -> Utwórz układ odniesienia -> Utwórz punkt odniesienia
+   MenuLocation: Projekt Części , Utwórz układ odniesienia , Utwórz punkt odniesienia
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_Line/pl, PartDesign_Plane/pl

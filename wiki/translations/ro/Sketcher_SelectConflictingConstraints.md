@@ -1,6 +1,6 @@
 # Sketcher SelectConflictingConstraints/ro
 ---
-- GuiCommand:   Name: Sketcher SelectConflictingConstraints   Workbenches: Sketcher Workbench   Sketcher|MenuLocation: Sketch -> Sketcher tools -> Select Conflicting Constraints   Shortcut: Shift+Ctrl+E   Version: 0.15---
+ GuiCommand:   Name: Sketcher SelectConflictingConstraints   Workbenches: Sketcher Workbench   Sketcher|MenuLocation: Sketch , Sketcher tools , Select Conflicting Constraints   Shortcut: Shift+Ctrl+E   Version: 0.15---
 
 
 </div>

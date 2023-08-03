@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Door
    Name/it: Arch Porta
-   MenuLocation: Arch -> Finestra
+   MenuLocation: Arch , Finestra
    Workbenches: Arch_Workbench/it
    Shortcut: **W** **I**
    SeeAlso: Arch Wall/it, Arch Window/it

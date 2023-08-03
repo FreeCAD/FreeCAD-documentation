@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Apply
    Name/ro: Draft Apply
-   MenuLocation: Draft -> Utilities -> Apply style
+   MenuLocation: Draft , Utilities , Apply style
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    SeeAlso: Draft_SetStyle
 ---

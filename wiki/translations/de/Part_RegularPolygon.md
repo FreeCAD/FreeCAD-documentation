@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RegularPolygon
    Name/de: Part Regelmäßiges Polygon
-   MenuLocation: Formteil -> Part_CreatePrimitives/de -> Regelmäßiges Polygon
+   MenuLocation: Formteil , Part_CreatePrimitives/de , Regelmäßiges Polygon
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    Version: 0.14
    SeeAlso: Part_Primitives/de

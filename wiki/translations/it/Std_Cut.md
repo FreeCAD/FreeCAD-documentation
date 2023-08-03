@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Cut
    Name/it: Taglia
-   MenuLocation: Modifica -> Taglia
+   MenuLocation: Modifica , Taglia
    Workbenches: Tutti
    SeeAlso: Std Copy/it, Std Paste/it, Std_DuplicateSelection/it
 ---

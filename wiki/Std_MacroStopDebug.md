@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStopDebug
-   MenuLocation: Macro -> Stop debugging
+   MenuLocation: Macro , Stop debugging
    Workbenches: All
    Shortcut: **Shift**+**F6**
    SeeAlso: Std_MacroStartDebug

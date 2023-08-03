@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Primitives
-   MenuLocation: Part -> Create primitives...
+   MenuLocation: Part , Create primitives...
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    SeeAlso: Part_Builder
 ---

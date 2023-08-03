@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/de: Sketcher TangentialFestlegen
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Tangente setzen
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Tangente setzen
    Workbenches: Sketcher_Workbench/de 
    Shortcut: **T**
    SeeAlso: Sketcher_ConstrainPointOnObject/de

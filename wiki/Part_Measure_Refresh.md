@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Refresh
-   MenuLocation: Measure -> Refresh
+   MenuLocation: Measure , Refresh
    Workbenches: Part_Workbench
    SeeAlso: Part_Measure_Linear, Part_Measure_Angular
 ---

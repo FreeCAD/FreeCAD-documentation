@@ -1,6 +1,6 @@
 # PartDesign Hole/ro
 ---
-- GuiCommand:   Name: PartDesign Hole   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign Hole   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

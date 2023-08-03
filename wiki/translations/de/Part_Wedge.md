@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Wedge
    Name/de: Part Keil
-   MenuLocation: Formteil -> Part_Primitives/de -> Keil
+   MenuLocation: Formteil , Part_Primitives/de , Keil
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

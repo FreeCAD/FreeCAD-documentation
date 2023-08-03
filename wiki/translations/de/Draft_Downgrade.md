@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/de: Entwurf Herabstufen
-   MenuLocation: Änderung -> Herabstufen
+   MenuLocation: Änderung , Herabstufen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/de, Part_Cut/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecallWorkingView
    Name/pl: Std: Odtwórz widok
-   MenuLocation: Widok -> Widoki standardowe -> Odtwórz widok
+   MenuLocation: Widok , Widoki standardowe , Odtwórz widok
    Workbenches: wszystkie
    Shortcut: **End**
    Version: 0.21

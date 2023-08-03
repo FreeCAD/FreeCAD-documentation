@@ -1,6 +1,6 @@
 # PartDesign Fillet/cs
 ---
-- GuiCommand:   Name: PartDesign Fillet   Name/cs: PartDesign Fillet   Workbenches: PartDesign Workbench/cs   PartDesign, Complete---
+ GuiCommand:   Name: PartDesign Fillet   Name/cs: PartDesign Fillet   Workbenches: PartDesign Workbench/cs   PartDesign, Complete---
 
 
 </div>

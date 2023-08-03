@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Clone
-   MenuLocation: Modification -> Clone
+   MenuLocation: Modification , Clone
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **C** **L**
    SeeAlso: Draft_Scale

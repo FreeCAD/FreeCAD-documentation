@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewFitAll
    Name/de: Std AnsichtAllesEinpassen
-   MenuLocation: Ansicht -> Standardansichten‏‎ -> Einpassen
+   MenuLocation: Ansicht , Standardansichten‏‎ , Einpassen
    Workbenches: Alle
    Shortcut: **V** **F**
    SeeAlso: Std_ViewFitSelection/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExportPageSVG
    Name/pl: Rysunek Techniczny: Wyeksportuj stronę do formatu SVG
-   MenuLocation: Rysunek Techniczny -> Strona -> Wyeksportuj stronę do formatu SVG
+   MenuLocation: Rysunek Techniczny , Strona , Wyeksportuj stronę do formatu SVG
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_Templates/pl, Draft_SVG/pl
 ---

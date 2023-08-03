@@ -1,6 +1,6 @@
 # Part Thickness/cs
 ---
-- GuiCommand:   Name: Part Thickness   Name/cs: Part Thickness   MenuLocation: Part -> Thickness   , Complet---
+ GuiCommand:   Name: Part Thickness   Name/cs: Part Thickness   MenuLocation: Part , Thickness   , Complet---
 
 
 </div>

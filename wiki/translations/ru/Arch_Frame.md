@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Каркас
    Name: Arch_Frame
-   MenuLocation: Arch -> Каркас
+   MenuLocation: Arch , Каркас
    Workbenches: Arch_Workbench/ru
    Shortcut: **F** **R**
    SeeAlso: Arch_Wall/ru, Arch_Structure/ru

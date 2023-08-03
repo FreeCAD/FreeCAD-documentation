@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Export
-   MenuLocation: Meshes -> Export mesh...
+   MenuLocation: Meshes , Export mesh...
    Workbenches: Mesh_Workbench
    SeeAlso: Std_Export, Import_Export
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Addon manager
    Name/pt-br: Addon manager
    Icon: AddonManager.svg
-   MenuLocation: Tools -> Addon manager
+   MenuLocation: Tools , Addon manager
    Workbenches: ''None''
    SeeAlso: Macros/pt-br, External workbenches/pt-br
    Version: 0.17

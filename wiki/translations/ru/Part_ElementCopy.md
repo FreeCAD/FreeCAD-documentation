@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать копию элемента формы
    Name: Part_ElementCopy
-   MenuLocation: Деталь -> Создать копию -> Создать копию элемента формы
+   MenuLocation: Деталь , Создать копию , Создать копию элемента формы
    Workbenches: Part_Workbench/ru
    Version: 0.19
    SeeAlso: Part_SimpleCopy/ru, Part_TransformedCopy/ru, Part_RefineShape/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Open
    Name/ru: Открыть...
-   MenuLocation: Std_File_Menu/ru -> Открыть...
+   MenuLocation: Std_File_Menu/ru , Открыть...
    Workbenches: All
    Shortcut: **Ctrl**+**O**
    SeeAlso: Std_Import/ru,<br>Std_New/ru

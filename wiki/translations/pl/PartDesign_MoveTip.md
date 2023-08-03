@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveTip
    Name/pl: Projekt Części: Ustaw czubek
-   MenuLocation: Menu kontekstowe -> Ustaw czubek
+   MenuLocation: Menu kontekstowe , Ustaw czubek
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_MoveFeature/pl, PartDesign_MoveFeatureInTree/pl

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/fr: Draft Basculer la grille
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

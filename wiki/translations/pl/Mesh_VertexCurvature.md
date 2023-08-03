@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh VertexCurvature
    Name/pl: Siatka: Krzywizna siatki
-   MenuLocation: Siatki -> Wykres krzywizny
+   MenuLocation: Siatki , Wykres krzywizny
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_CurvatureInfo/pl
 ---

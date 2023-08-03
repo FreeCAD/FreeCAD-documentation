@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SelectNonSolidMeshes
    Name/pl: Architektura: Wybierz siatki niebryłowe
-   MenuLocation: Architektura -> Narzędzia -> Wybierz siatki niebryłowe
+   MenuLocation: Architektura , Narzędzia , Wybierz siatki niebryłowe
    Workbenches: Arch_Workbench/pl
    SeeAlso: Arch_SplitMesh/pl, Arch_MeshToShape/pl
 ---

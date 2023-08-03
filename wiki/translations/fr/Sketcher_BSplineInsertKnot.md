@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineInsertKnot
    Name/fr: Sketcher Insérer un nœud
-   MenuLocation: Esquisse -> Outils d'esquisse des B-splines -> Insérer un nœud
+   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Insérer un nœud
    Workbenches: Sketcher_Workbench/fr
    Version: 0.20
    SeeAlso: Sketcher_BSplineKnotMultiplicity/fr, Sketcher_BSplineIncreaseKnotMultiplicity/fr, Sketcher_BSplineDecreaseKnotMultiplicity/fr

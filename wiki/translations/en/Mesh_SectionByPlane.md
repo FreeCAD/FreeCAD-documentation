@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SectionByPlane
-   MenuLocation: Meshes -> Cutting -> Create section from mesh and plane
+   MenuLocation: Meshes , Cutting , Create section from mesh and plane
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_CrossSections
 ---

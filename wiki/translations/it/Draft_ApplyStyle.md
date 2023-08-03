@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ApplyStyle
    Name/it: Applica lo stile
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Utilità -> Applica stile
+   MenuLocation: Draft , Utilità , Applica stile
    SeeAlso: Draft Tray/it, Draft_SetStyle
 ---
 

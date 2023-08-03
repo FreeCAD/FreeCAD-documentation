@@ -1,6 +1,6 @@
 # Sketcher CreateFillet/ja
 ---
-- GuiCommand:   Name: Sketcher CreateFillet   Workbenches: Sketcher Workbench   Sketcher|Shortcut: F   MenuLocation: Sketch -> Sketcher geometries -> Create fillet   SeeAlso: ---
+ GuiCommand:   Name: Sketcher CreateFillet   Workbenches: Sketcher Workbench   Sketcher|Shortcut: F   MenuLocation: Sketch , Sketcher geometries , Create fillet   SeeAlso: ---
 
 
 </div>

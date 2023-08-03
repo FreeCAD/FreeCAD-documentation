@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD Hull
    Name/ru: OpenSCAD Hull
-   MenuLocation: OpenSCAD -> Hull‏‎
+   MenuLocation: OpenSCAD , Hull‏‎
    Workbenches: OpenSCAD_Workbench/ru
    Shortcut: none
    SeeAlso: ---

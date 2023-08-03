@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивный клин
    Name: PartDesign_AdditiveWedge
-   MenuLocation: Part Design -> Создать аддитивный примитив -> Аддитивный Клин
+   MenuLocation: Part Design , Создать аддитивный примитив , Аддитивный Клин
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/ru, PartDesign_SubtractiveWedge/ru

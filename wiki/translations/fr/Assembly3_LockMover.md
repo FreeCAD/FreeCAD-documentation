@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 LockMover
    Name/fr: Assembly3 Verrouiller le déplacement
    Icon: Assembly_LockMover.svg‎‎
-   MenuLocation: Assembly3 -> Lock mover
+   MenuLocation: Assembly3 , Lock mover
    Workbenches: Assembly3_Workbench/fr
 ---
 

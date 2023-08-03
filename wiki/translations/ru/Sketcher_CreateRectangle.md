@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать прямоугольник
    Name: Sketcher_CreateRectangle
-   MenuLocation: Sketch -> Геометрия эскиза -> Создать прямоугольник
+   MenuLocation: Sketch , Геометрия эскиза , Создать прямоугольник
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **R**
    SeeAlso: Sketcher_CreateOblong/ru, Sketcher_CreatePolyline/ru

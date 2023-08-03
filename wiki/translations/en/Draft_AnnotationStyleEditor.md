@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AnnotationStyleEditor
-   MenuLocation: Annotation -> Annotation styles...
+   MenuLocation: Annotation , Annotation styles...
    Workbenches: Draft_Workbench
    SeeAlso: Draft_Text, Draft_Label, Draft_Dimension
    Version: 0.19

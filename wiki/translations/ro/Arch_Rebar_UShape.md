@@ -1,8 +1,8 @@
 ---
-- GuiCommand:Addon/ro
+ GuiCommand:Addon/ro
    Name: Arch Rebar UShape
    Name/ro: Arch Rebar UShape
-   MenuLocation: Arch -> Rebar tools
+   MenuLocation: Arch , Rebar tools
    Workbenches: Arch_Workbench/ro
    Shortcut: None
    SeeAlso: Arch_Rebar_LShape/ro

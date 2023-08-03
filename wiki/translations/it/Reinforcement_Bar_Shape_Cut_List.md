@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Reinforcement_Bar_Shape_Cut_List
    Name/it: Sagomatura dei ferri
-   MenuLocation: Reinforcement -> Sagomatura dei ferri
+   MenuLocation: Reinforcement , Sagomatura dei ferri
    Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
    SeeAlso: Arch_Rebar_Drawing_Dimensioning/it, Arch Rebar BOM/it
    Version: 0.19

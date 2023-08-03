@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Equipment
    Name/es: Arch Equipment
    Workbenches: Arch_Workbench/es
-   MenuLocation: Arch -> Equipment
+   MenuLocation: Arch , Equipment
    Shortcut: E Q
    SeeAlso: Arch_3Views/es
 ---
@@ -14,11 +14,11 @@
 </div>
 
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Equipment
    Name/es: Arch Equipment
    Workbenches: Arch_Workbench/es
-   MenuLocation: Arch -> Equipment
+   MenuLocation: Arch , Equipment
    Shortcut: E Q
    SeeAlso: Arch_3Views/es
 ---

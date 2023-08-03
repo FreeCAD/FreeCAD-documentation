@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelForward
    MenuLocation: 
    Workbenches: All

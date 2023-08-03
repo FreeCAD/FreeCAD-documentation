@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves JoinCurve
-   MenuLocation: Curves -> Join Curves
+   MenuLocation: Curves , Join Curves
    Workbenches: Curves_Workbench
 ---
 

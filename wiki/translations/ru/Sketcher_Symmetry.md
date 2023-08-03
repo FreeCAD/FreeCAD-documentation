@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Симметрия
    Name: Sketcher_Symmetry
-   MenuLocation: Sketch -> Инструменты для эскиза -> Симметрия
+   MenuLocation: Sketch , Инструменты для эскиза , Симметрия
    Workbenches: Sketcher_Workbench/ru
    Version: 0.16
    SeeAlso: Sketcher_MirrorSketch/ru

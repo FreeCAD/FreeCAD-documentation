@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Цилиндр
-   MenuLocation: Деталь -> Примитивы -> Цилиндр
+   MenuLocation: Деталь , Примитивы , Цилиндр
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

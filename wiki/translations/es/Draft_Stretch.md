@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Stretch
    Name/es: Draft Stretch
-   MenuLocation: Draft -> Stretch
+   MenuLocation: Draft , Stretch
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    SeeAlso: Draft Offset
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Соединить
    Name: Draft_Join
-   MenuLocation: Многоугольник, Полигон -> Соединить
+   MenuLocation: Многоугольник, Полигон , Соединить
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **J** **O**
    Version: 0.18

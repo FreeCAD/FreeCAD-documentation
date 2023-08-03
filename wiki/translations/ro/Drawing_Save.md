@@ -1,6 +1,6 @@
 # Drawing Save/ro
 ---
-- GuiCommand:   Name: Drawing Save   Name/ro: Drawing Save   Workbenches: Drawing Workbench/ro   Drawing, Complete---
+ GuiCommand:   Name: Drawing Save   Name/ro: Drawing Save   Workbenches: Drawing Workbench/ro   Drawing, Complete---
 
 Acest instrument salvează foaia curentă de desen ca un fișier SVG (grafică vectorială scalabilă). Un astfel de fișier poate fi apoi editat într-un program de grafică vectorial scalabil, cum ar fi [Inkscape](http://www.inkscape.org).
 

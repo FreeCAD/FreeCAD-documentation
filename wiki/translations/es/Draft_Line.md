@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/es: Borrador Linea
-   MenuLocation: Borrador -> Línea
+   MenuLocation: Borrador , Línea
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **L** **I**
    Version: 0.7

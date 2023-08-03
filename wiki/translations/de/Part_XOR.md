@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part XOR
    Name/de: Part XOdeR
-   MenuLocation: Formteil -> Teilen -> BooleanXOR
+   MenuLocation: Formteil , Teilen , BooleanXOR
    Workbenches: Part_Workbench/de
    Version: 0.17
    SeeAlso: Part_BooleanFragments/de, Part_Slice/de, Part_CompJoinFeatures/de, Part_Boolean/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MeasureDistance
    Name/it: Misura la distanza
-   MenuLocation: Strumenti -> Misura la distanza
+   MenuLocation: Strumenti , Misura la distanza
    Workbenches: Tutti
    SeeAlso: Part_Measure_Linear/it, Draft_Dimension/it
 ---

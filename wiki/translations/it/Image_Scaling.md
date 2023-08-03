@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image Scaling
    Name/it: Scala immagine
    MenuLocation: 

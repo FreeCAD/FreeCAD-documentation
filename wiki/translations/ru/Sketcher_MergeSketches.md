@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Объединить эскизы
    Name: Sketcher_MergeSketches
-   MenuLocation: Sketch -> Объединить эскизы
+   MenuLocation: Sketch , Объединить эскизы
    Workbenches: Sketcher_Workbench/ru
    Version: 0.15
 ---

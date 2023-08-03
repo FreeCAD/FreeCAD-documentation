@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloseHoles
    Name/de: Arch LöcherSchließen
-   MenuLocation: Arch -> Dienstprogramme -> Löcher schließen
+   MenuLocation: Arch , Dienstprogramme , Löcher schließen
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_Check/de
 ---

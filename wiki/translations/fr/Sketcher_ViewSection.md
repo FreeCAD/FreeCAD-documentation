@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSection
    Name/fr: Sketcher Vue de section
-   MenuLocation: Esquisse -> Vue de la section
+   MenuLocation: Esquisse , Vue de la section
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    Shortcut: **Q** **S**
    Version: 0.18

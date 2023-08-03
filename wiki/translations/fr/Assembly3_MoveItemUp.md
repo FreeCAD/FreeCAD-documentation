@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MoveItemUp
    Name/fr: Assembly3 Déplacer un objet vers le haut
    Icon: Assembly_TreeItemUp.svg‎‎
-   MenuLocation: Assembly3 -> Move item up
+   MenuLocation: Assembly3 , Move item up
    Workbenches: Assembly3_Workbench/fr
 ---
 

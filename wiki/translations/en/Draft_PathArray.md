@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
-   MenuLocation: Modification -> Array tools -> Path array
+   MenuLocation: Modification , Array tools , Path array
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.14
    SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray

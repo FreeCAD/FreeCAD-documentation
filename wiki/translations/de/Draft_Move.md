@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Move
    Name/de: Draft Verschieben
-   MenuLocation: Änderung -> Verschieben
+   MenuLocation: Änderung , Verschieben
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **M****V**
    Version: 0.7

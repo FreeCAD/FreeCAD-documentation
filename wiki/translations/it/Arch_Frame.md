@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Frame
    Name/it: Carpenteria
-   MenuLocation: Arch -> Carpenteria
+   MenuLocation: Arch , Carpenteria
    Workbenches: Arch_Workbench/it
    Shortcut: **F** **R**
    SeeAlso: Arch Wall/it, Arch Structure/it

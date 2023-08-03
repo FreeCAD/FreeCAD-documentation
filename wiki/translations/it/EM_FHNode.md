@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHNode
    Name/it: EM FHNode
-   MenuLocation: EM -> FHNode
+   MenuLocation: EM , FHNode
    Workbenches: EM Workbench/it 
    Shortcut: **E** **N**
    SeeAlso: EM FHSegment/it, EM FHPath/it, EM FHPlane/it, EM FHPlaneAddRemoveNodeHole/it, EM FHEquiv/it, EM FHPort/it

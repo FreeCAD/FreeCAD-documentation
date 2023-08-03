@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign ShapeBinder
    Name/ro: PartDesign Forme Legate
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: Part Design -> Create a shape binder
+   MenuLocation: Part Design , Create a shape binder
    Version: 0.17
    SeeAlso: PartDesign Clone/ro
 ---

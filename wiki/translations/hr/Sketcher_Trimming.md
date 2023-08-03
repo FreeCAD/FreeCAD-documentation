@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Trimming
-   MenuLocation: Sketch -> Sketcher geometries -> Trim edge
+   MenuLocation: Sketch , Sketcher geometries , Trim edge
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **T**
    Version: 0.12

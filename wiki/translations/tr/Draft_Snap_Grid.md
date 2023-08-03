@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Name/tr: Taslak Izgara
-   MenuLocation: Taslak -> Draft_Snap/tr -> Izgara
+   MenuLocation: Taslak , Draft_Snap/tr , Izgara
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft ToggleGrid/tr, Draft Snap/tr
 ---

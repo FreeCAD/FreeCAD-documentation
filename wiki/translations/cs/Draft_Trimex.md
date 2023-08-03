@@ -1,6 +1,6 @@
 # Draft Trimex/cs
 ---
-- GuiCommand:   Name: Draft Trimex   Name/cs: Kreslení Zakrácení/Prodloužení   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Trimex   Name/cs: Kreslení Zakrácení/Prodloužení   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainSymmetric
    Name/pl: Szkicownik: Wiązanie symetrii
-   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie symetrii
+   MenuLocation: Szkic , Wiązania szkicownika , Wiązanie symetrii
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **S**
    SeeAlso: Sketcher_ConstrainParallel/pl

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot Export
    Name/fr: Robot Exportation de trajectoire
-   MenuLocation: Robot -> Exporter la trajectoire
+   MenuLocation: Robot , Exporter la trajectoire
    Workbenches: Robot_Workbench/fr
 ---
 

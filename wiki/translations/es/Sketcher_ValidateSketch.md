@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ValidateSketch
    Name/es: Croquizador ValidarCroquis
-   MenuLocation: Croquizador -> Validar Croquis
+   MenuLocation: Croquizador , Validar Croquis
    Workbenches: Sketcher_Workbench/es, PartDesign_Workbench/es
    SeeAlso: Sketcher_ConstrainCoincident/es, Topological_naming_problem/es
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateDataAlongLineFilter
    Name/ru: FEM PostCreateDataAlongLineFilter
    Icon: Fem-DataAlongLine.svg
-   MenuLocation:  Results -> Data along line filter
+   MenuLocation:  Results , Data along line filter
    
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

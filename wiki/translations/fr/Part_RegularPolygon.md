@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RegularPolygon
    Name/fr: Part Polygone régulier
-   MenuLocation: Part -> Part_Primitives/fr -> Polygone régulier
+   MenuLocation: Part , Part_Primitives/fr , Polygone régulier
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    Version: 0.14
    SeeAlso: Part_Primitives/fr

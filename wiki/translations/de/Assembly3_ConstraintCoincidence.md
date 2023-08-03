@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintCoincidence
    Name/de: Assembly3 DeckungsgleicheEbenen
    Icon: Assembly_ConstraintCoincidence.svg

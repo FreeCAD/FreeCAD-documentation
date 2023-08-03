@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSketch
-   MenuLocation: Sketch -> View sketch
+   MenuLocation: Sketch , View sketch
    Workbenches: Sketcher_Workbench, PartDesign_Workbench
    Shortcut: **Q** **P**
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSyncView
    Name/ru: Std TreeSyncView
-   MenuLocation: Вид -> Дерево документа -> Sync view
+   MenuLocation: Вид , Дерево документа , Sync view
    Workbenches: All
    Shortcut: **T** **1**
 ---

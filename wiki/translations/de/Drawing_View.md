@@ -1,10 +1,10 @@
 # Drawing View/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing View
    Name/de: Drawing View
    Workbenches: Drawing_Workbench/de, Complete
-   MenuLocation: Zeichnung -> Ansicht in Zeichnung einfügen
+   MenuLocation: Zeichnung , Ansicht in Zeichnung einfügen
    Shortcut: Keine
    SeeAlso: Drawing Landscape A3/de---
 

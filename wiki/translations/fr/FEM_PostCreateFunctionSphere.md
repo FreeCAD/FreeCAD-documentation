@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionSphere
    Name/fr: FEM Filtre fonction sphère
-   MenuLocation: Résultats -> Fonctions de filtrage -> Sphère
+   MenuLocation: Résultats , Fonctions de filtrage , Sphère
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

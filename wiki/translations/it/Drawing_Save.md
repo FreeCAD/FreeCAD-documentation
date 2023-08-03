@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Save
    Name/it: Esporta il disegno
    Workbenches: Drawing Workbench/it, Completo
-   MenuLocation: Disegno -> Esporta pagina...
+   MenuLocation: Disegno , Esporta pagina...
    Shortcut: Nessuno
    SeeAlso: Drawing Open SVG/it
 ---

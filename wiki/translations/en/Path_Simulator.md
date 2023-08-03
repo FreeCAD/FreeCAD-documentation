@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Simulator
-   MenuLocation: Path -> CAM Simulator
+   MenuLocation: Path , CAM Simulator
    Workbenches: Path_Workbench
    Shortcut: **P** **M**
    SeeAlso: Path_Inspect

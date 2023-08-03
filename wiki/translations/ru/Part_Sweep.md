@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Sweep
    Name/ru: Развёртка
-   MenuLocation: Деталь -> Развёртка
+   MenuLocation: Деталь , Развёртка
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Loft/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Rebar_UShape
    Name/it: Armatura ad U
-   MenuLocation: Arch -> Strumenti armatura -> Armatura ad U o BIM -> 3D/BIM -> Reinforcement -> Rebar UShape
+   MenuLocation: Arch , Strumenti armatura , Armatura ad U o BIM , 3D/BIM , Reinforcement , Rebar UShape
    Workbenches: Arch Workbench/it, BIM Workbench/it
    SeeAlso: Arch_Rebar_LShape/it, Arch Rebar/it
    Version: 0.17

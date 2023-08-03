@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std CloseAllWindows
    Name/fr: Std Fermer tout
-   MenuLocation: Fichier -> Fermer tout
+   MenuLocation: Fichier , Fermer tout
    Workbenches: Tous
    SeeAlso: Std_CloseActiveWindow/fr
 ---

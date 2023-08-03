@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintMultiParallel
    Name/de: Assembly3 MehrfachParallel
    Icon: Assembly_ConstraintMultiParallel.svg

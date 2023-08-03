@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/it: BSpline
-   MenuLocation: Drafting -> BSpline
+   MenuLocation: Drafting , BSpline
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **B** **S**
    Version: 0.7

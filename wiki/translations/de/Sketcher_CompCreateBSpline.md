@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateBSpline
    Name/de: Sketcher AuswahlBSplineErstellen
    Workbenches: Sketcher_Workbench/de

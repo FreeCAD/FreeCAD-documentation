@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SplitMesh
    Name/ru: Arch SplitMesh
-   MenuLocation: Архитектура -> Утилиты -> Разделить сетку
+   MenuLocation: Архитектура , Утилиты , Разделить сетку
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch SelectNonSolidMeshes/ru
 ---

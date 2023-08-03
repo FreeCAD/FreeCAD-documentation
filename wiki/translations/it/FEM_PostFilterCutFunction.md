@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterCutFunction
    Name/it: FEM PostFilterCutFunction
-   MenuLocation:  Riultati -> Crea cut filter
+   MenuLocation:  Riultati , Crea cut filter
    Workbenches: FEM_Workbench/it
    Shortcut:    SeeAlso: FEM_tutorial/it
 ---

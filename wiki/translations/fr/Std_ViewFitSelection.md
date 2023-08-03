@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewFitSelection
    Name/fr: Std Affiche la sélection
-   MenuLocation: Affichage ->  Vues standards -> Affiche la sélection
+   MenuLocation: Affichage ,  Vues standards , Affiche la sélection
    Workbenches: Tous
    Shortcut: **V** **S**
    SeeAlso: Std_ViewFitAll/fr

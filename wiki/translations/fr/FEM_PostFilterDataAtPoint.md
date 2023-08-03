@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterDataAtPoint
    Name/fr: FEM Données du filtre d'écrêtage du point
-   MenuLocation: Résultats -> Données du filtre d'écrêtage du point
+   MenuLocation: Résultats , Données du filtre d'écrêtage du point
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_PostPipelineFromResult/fr, FEM_tutorial/fr
 ---

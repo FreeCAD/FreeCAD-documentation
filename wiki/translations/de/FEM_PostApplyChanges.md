@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostApplyChanges
    Name/de: FEM PostApplyChanges
-   MenuLocation: Ergebnisse -> Änderungen auf Pipeline anwenden
+   MenuLocation: Ergebnisse , Änderungen auf Pipeline anwenden
    Workbenches: FEM_Workbench/de
    SeeAlso: Std_Refresh/de, FEM_PostCreateFunctions/de
 ---

@@ -1,6 +1,6 @@
 # Draft AutoGroup/ro
 ---
-- GuiCommand:   Name: Draft AutoGroup   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft -> Utilities -> AutoGroup   SeeAlso: ---
+ GuiCommand:   Name: Draft AutoGroup   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft , Utilities , AutoGroup   SeeAlso: ---
 
 
 </div>

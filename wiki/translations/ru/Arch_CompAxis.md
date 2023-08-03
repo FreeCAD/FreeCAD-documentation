@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Arch_CompAxis
    Name: Arch_CompAxis
-   MenuLocation: Arch -> Инстументы осей
+   MenuLocation: Arch , Инстументы осей
    Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
    SeeAlso: Arch_Axis/ru, Arch_AxisSystem/ru, Arch_Grid/ru

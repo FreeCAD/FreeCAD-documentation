@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Space
    Name/cs: Arch Space
-   MenuLocation: Architecture -> Space
+   MenuLocation: Architecture , Space
    Workbenches: Arch_Workbench/cs
    Shortcut: **S** **P**
    SeeAlso: Arch Wall/cs, Arch Structure/cs

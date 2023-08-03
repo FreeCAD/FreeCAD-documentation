@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Shape2DView
    Name/es: Draft Shape2DView
-   MenuLocation: Boceto -> Vista de forma 2D
+   MenuLocation: Boceto , Vista de forma 2D
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 

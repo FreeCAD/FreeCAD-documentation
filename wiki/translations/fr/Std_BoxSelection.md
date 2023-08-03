@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxSelection
    Name/fr: Std Sélection par boîte
-   MenuLocation: Édition -> Sélection par boîte
+   MenuLocation: Édition , Sélection par boîte
    Workbenches: Tous
    Shortcut: **Maj**+**B**
    SeeAlso: Std_BoxElementSelection/fr, Std_SelectAll/fr

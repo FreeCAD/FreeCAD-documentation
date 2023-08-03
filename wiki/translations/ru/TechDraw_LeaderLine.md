@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить Линию-выноску в Вид
    Name: TechDraw_LeaderLine
-   MenuLocation: TechDraw -> Добавить Линии -> Добавить Линию-выноску в Вид
+   MenuLocation: TechDraw , Добавить Линии , Добавить Линию-выноску в Вид
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_RichTextAnnotation/ru, TechDraw_WeldSymbol/ru, TechDraw_LineGroup/ru

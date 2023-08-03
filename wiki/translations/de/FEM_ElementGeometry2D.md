@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ElementGeometry2D
    Name/de: FEM ElementGeometrie2D
-   MenuLocation: Model -> Element-Geometrie -> Shell plate thickness
+   MenuLocation: Model , Element-Geometrie , Shell plate thickness
    Workbenches: FEM_Workbench/de
    Shortcut: **C** **S**
    SeeAlso: FEM_tutorial/de

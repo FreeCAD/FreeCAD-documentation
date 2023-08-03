@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array
    Name/tr: Dizi
-   MenuLocation: Taslak -> Dizi
+   MenuLocation: Taslak , Dizi
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft PathArray/tr,Draft PointArray/tr,Draft Clone/tr
 ---

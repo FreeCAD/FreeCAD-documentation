@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/de: Entwurf Zeichnung
-   MenuLocation: Entwurf -> Zeichnung
+   MenuLocation: Entwurf , Zeichnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: TechDraw Workbench/de, Draft Shape2DView/de
 ---

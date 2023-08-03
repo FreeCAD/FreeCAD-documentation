@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Thickness
    Name/fr: PartDesign Coque
-   MenuLocation: Part Design -> Appliquer une fonction d'habillage -> Coque
+   MenuLocation: Part Design , Appliquer une fonction d'habillage , Coque
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: Part_Thickness/fr

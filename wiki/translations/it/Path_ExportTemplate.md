@@ -1,6 +1,6 @@
 # Path ExportTemplate/it
 ---
-- GuiCommand:   Name: Path ExportTemplate   Name/it: Esporta modello   Workbenches: Path Workbench/it   Path ---
+ GuiCommand:   Name: Path ExportTemplate   Name/it: Esporta modello   Workbenches: Path Workbench/it   Path ---
 
 
 </div>

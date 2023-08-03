@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainRadius
    Name/fr: Sketcher Contrainte rayon
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte de rayon ou de poids
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de rayon ou de poids
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **R**
    SeeAlso: Sketcher_ConstrainDistance/fr, Sketcher_ConstrainDistanceX/fr, Sketcher_ConstrainDistanceY/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/es: Draft ToggleSnap
-   MenuLocation: Draft -> Utilities -> Toggle snap
+   MenuLocation: Draft , Utilities , Toggle snap
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 

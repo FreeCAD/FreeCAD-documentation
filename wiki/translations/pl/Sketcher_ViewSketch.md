@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSketch
    Name/pl: Skzkicownik: Widok szkicu
-   MenuLocation: Sketch -> Widok szkicu
+   MenuLocation: Sketch , Widok szkicu
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    Shortcut: **Q** **P**
 ---

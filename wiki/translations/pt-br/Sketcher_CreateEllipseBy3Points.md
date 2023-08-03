@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateEllipseBy3Points
-   MenuLocation: Sketch -> Sketcher geometries -> Create ellipse by 3 points
+   MenuLocation: Sketch , Sketcher geometries , Create ellipse by 3 points
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **3** **E**
    Version: 0.15

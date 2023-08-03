@@ -1,6 +1,6 @@
 # FEM ClippingPlaneAdd/it
 ---
-- GuiCommand:   Name: FEM ClippingPlaneAdd   Name/it: Piano di taglio sulla faccia   Icon: Fem-clipping-plane-add.svg   MenuLocation:  Utilità -> Piano di taglio sulla faccia   ---
+ GuiCommand:   Name: FEM ClippingPlaneAdd   Name/it: Piano di taglio sulla faccia   Icon: Fem-clipping-plane-add.svg   MenuLocation:  Utilità , Piano di taglio sulla faccia   ---
 
 
 </div>

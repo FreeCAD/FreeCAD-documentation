@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Shapebuilder
    Name/ro: Part Shapebuilder
    MenuLocation: Part -> Shapebuilder...

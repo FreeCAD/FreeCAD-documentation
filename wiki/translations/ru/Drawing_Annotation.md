@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Annotation
    Name/ru: Drawing Annotation
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж -> Аннотация
+   MenuLocation: Чертёж , Аннотация
    Shortcut: 
 ---
 

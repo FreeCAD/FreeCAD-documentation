@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeDrag
    Name/ru: Std TreeDrag
-   MenuLocation: Вид -> Дерево документа -> Initiate dragging
+   MenuLocation: Вид , Дерево документа , Initiate dragging
    Workbenches: All
    Shortcut: **T** **D**
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkSelectLinked
    Name/fr: Std Lien objet lié
    MenuLocation: ''Aucun''

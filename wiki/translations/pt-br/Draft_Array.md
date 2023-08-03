@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray

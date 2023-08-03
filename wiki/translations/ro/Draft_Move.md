@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Move
    Name/ro: Draft Move
-   MenuLocation: Draft -> Move
+   MenuLocation: Draft , Move
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **M** **V**
    Version: 0.7

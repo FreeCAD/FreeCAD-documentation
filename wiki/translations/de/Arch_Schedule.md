@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Schedule
    Name/de: Arch Ablaufplan
-   MenuLocation: Arch -> Ablaufplan
+   MenuLocation: Arch , Ablaufplan
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_Equipment/de
 ---

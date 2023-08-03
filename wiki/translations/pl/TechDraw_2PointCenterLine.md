@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 2PointCenterLine
    Name/pl: Rysunek Techniczny: Dodaj oś pomiędzy dwoma punktami
-   MenuLocation: Rysunek Techniczny -> Dodaj Linię -> Dodaj oś pomiędzy dwoma punktami
+   MenuLocation: Rysunek Techniczny , Dodaj Linię , Dodaj oś pomiędzy dwoma punktami
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/pl,  TechDraw_2LineCenterLine/pl

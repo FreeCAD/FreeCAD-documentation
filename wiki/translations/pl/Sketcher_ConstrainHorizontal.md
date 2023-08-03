@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: Constraint Horizontal.svg
    Name: Sketcher ConstrainHorizontal
    Name/pl: Szkicownik: Zwiąż w poziomie
-   MenuLocation: Szkic -> Wiązania szkicownika -> Zwiąż w poziomie
+   MenuLocation: Szkic , Wiązania szkicownika , Zwiąż w poziomie
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **H**
    SeeAlso: Sketcher_ConstrainVertical/pl

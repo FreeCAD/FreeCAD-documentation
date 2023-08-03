@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Plane
    Name/es: Part Plano
-   MenuLocation: Pieza -> Crear primitivas... ->Plano
+   MenuLocation: Pieza , Crear primitivas... ,Plano
    
    SeeAlso: Part_Primitives/es
 ---

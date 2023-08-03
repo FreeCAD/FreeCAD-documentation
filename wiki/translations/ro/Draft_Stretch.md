@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Stretch
    Name/ro: Draft Stretch
-   MenuLocation: Draft -> Stretch
+   MenuLocation: Draft , Stretch
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **S** **H**
    SeeAlso: Draft Offset/ro

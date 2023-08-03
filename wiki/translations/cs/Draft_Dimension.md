@@ -1,6 +1,6 @@
 # Draft Dimension/cs
 ---
-- GuiCommand:   Name: Draft Dimension   Name/cs: Draft Dimension   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Dimension   Name/cs: Draft Dimension   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

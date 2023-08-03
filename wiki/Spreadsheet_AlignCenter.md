@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignCenter
-   MenuLocation: Spreadsheet -> Alignment -> Align center
+   MenuLocation: Spreadsheet , Alignment , Align center
    Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher External
    Name/pl: Szkicownik: Geometria zewnętrzna
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Geometria zewnętrzna
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Geometria zewnętrzna
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **X**
    SeeAlso: Sketcher_ToggleConstruction/pl

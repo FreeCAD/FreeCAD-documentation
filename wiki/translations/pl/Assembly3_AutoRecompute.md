@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 AutoRecompute
    Icon: Assembly_AutoRecompute.svg‎‎
-   MenuLocation: Assembly3 -> Auto recompute
+   MenuLocation: Assembly3 , Auto recompute
    Workbenches: Assembly3_Workbench
 ---
 

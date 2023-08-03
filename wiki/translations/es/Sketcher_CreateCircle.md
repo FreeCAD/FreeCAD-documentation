@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateCircle
    Name/es: Croquizador CrearCírculo
-   MenuLocation: Croquis -> Geometrías de Croquizador -> Crear círculo
+   MenuLocation: Croquis , Geometrías de Croquizador , Crear círculo
    Workbenches: Sketcher_Workbench/es
    SeeAlso: Sketcher_CompCreateArc/es
 ---

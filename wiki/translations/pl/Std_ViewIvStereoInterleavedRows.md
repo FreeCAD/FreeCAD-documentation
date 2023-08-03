@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoInterleavedRows
    Name/pl: Std: Widok stereo z przeplotem wierszy
-   MenuLocation: Widok -> Widok trójwymiarowy -> Widok z przeplotem wierszy
+   MenuLocation: Widok , Widok trójwymiarowy , Widok z przeplotem wierszy
    Workbenches: wszystkie
    SeeAlso: Std_ViewIvStereoRedGreen/pl,  Std_ViewIvStereoQuadBuff/pl, Std_ViewIvStereoInterleavedColumns/pl, Std_ViewIvStereoOff/pl
 ---

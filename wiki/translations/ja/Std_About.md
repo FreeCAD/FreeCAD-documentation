@@ -1,6 +1,6 @@
 # Std About/ja
 ---
-- GuiCommand:   Name: Std About   Workbenches: All   MenuLocation: Help -> About FreeCAD   SeeAlso: Standard Menu---
+ GuiCommand:   Name: Std About   Workbenches: All   MenuLocation: Help , About FreeCAD   SeeAlso: Standard Menu---
 
 
 </div>

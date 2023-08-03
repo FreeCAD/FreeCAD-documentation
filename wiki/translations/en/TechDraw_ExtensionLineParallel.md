@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionLineParallel
-   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Parallel Line
+   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Parallel Line
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

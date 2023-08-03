@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher DeleteAllConstraints
    Name/it: Sketcher Cancella tutti i vincoli
-   MenuLocation: Sketch -> Sketcher Strumenti -> Cancella tutti i vincoli
+   MenuLocation: Sketch , Sketcher Strumenti , Cancella tutti i vincoli
    Workbenches: Sketcher_Workbench/it
    Version: 0.18
    SeeAlso: Sketcher_DeleteAllGeometry/it

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_SetMaterial
    Name/it: Imposta Materiale
-   MenuLocation: Arch -> Strumenti materiali -> Materiale
+   MenuLocation: Arch , Strumenti materiali , Materiale
    Workbenches: Arch_Workbench/it, BIM Workbench/it
    Shortcut: **M** **T**
    SeeAlso: Arch CompSetMaterial/it, Arch MultiMaterial/it

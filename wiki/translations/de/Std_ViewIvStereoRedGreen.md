@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoRedGreen
    Name/de: Std AnsichtStereoRotGrün
-   MenuLocation: Ansicht -> Stereo -> Stereo rot/cyan
+   MenuLocation: Ansicht , Stereo , Stereo rot/cyan
    Workbenches: Alle
    SeeAlso: Std_ViewIvStereoQuadBuff/de, Std_ViewIvStereoInterleavedRows/de, Std_ViewIvStereoInterleavedColumns/de, Std_ViewIvStereoOff/de
 ---

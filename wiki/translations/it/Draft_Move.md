@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_Move
    Name/it: Sposta
-   MenuLocation: Modifiche -> Sposta
+   MenuLocation: Modifiche , Sposta
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **M** **V**
    Version: 0.7

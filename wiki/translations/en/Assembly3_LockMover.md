@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 LockMover
    Icon: Assembly_LockMover.svg‎‎
-   MenuLocation: Assembly3 -> Lock mover
+   MenuLocation: Assembly3 , Lock mover
    Workbenches: Assembly3_Workbench
 ---
 

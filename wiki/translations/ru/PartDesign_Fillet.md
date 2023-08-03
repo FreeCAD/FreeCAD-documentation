@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Скругление
    Name: PartDesign_Fillet
-   MenuLocation: PartDesign -> Apply a dress-up feature -> Скругление
+   MenuLocation: PartDesign , Apply a dress-up feature , Скругление
    Workbenches: PartDesign_Workbench/ru
    SeeAlso: PartDesign_Chamfer/ru, Part_Fillet/ru
 ---

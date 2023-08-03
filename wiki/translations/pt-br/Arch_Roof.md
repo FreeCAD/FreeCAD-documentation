@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Roof
-   MenuLocation: Arch -> Roof
+   MenuLocation: Arch , Roof
    Workbenches: Arch_Workbench/pt-br
    Shortcut: **R** **F**
    SeeAlso: Arch_Structure/pt-br, Arch_Wall/pt-br

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleClipPlane
    Name/de: Std Schnittebene
-   MenuLocation: Ansicht -> Schnittebene
+   MenuLocation: Ansicht , Schnittebene
    Workbenches: Alle
    SeeAlso: Part_SectionCut/de
 ---

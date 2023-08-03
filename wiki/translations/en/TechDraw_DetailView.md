@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DetailView
-   MenuLocation: TechDraw -> Insert Detail View
+   MenuLocation: TechDraw , Insert Detail View
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/ru: Draft Upgrade
-   MenuLocation: Черчение -> Обновить
+   MenuLocation: Черчение , Обновить
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/ru, Part_Fuse/ru

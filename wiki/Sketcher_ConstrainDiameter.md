@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDiameter
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain diameter
+   MenuLocation: Sketch , Sketcher constraints , Constrain diameter
    Workbenches: Sketcher_Workbench
    Shortcut: **K** **O**
    Version: 0.18

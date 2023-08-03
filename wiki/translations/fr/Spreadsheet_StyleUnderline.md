@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet StyleUnderline
    Name/fr: Spreadsheet Texte souligné
-   MenuLocation: Spreadsheet -> Styles -> Texte souligné
+   MenuLocation: Spreadsheet , Styles , Texte souligné
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---

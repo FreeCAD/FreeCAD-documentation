@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleConstructionMode
-   MenuLocation: Utilities -> Toggle construction mode
+   MenuLocation: Utilities , Toggle construction mode
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **C** **M**
    SeeAlso: Draft_AddConstruction, Draft_AutoGroup

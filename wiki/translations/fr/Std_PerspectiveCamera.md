@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PerspectiveCamera
    Name/fr: Std Vue en perspective
-   MenuLocation: Affichage -> Vue en perspective
+   MenuLocation: Affichage , Vue en perspective
    Workbenches: Tous
    Shortcut: **V** **P**
    SeeAlso: Std_OrthographicCamera/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/it: Sistema di coordinate locale
-   MenuLocation: PartDesign -> Sistema di coordinate locale
+   MenuLocation: PartDesign , Sistema di coordinate locale
    Workbenches: PartDesign Workbench/it
    Version: 0.18
    SeeAlso: PartDesign Point/it, PartDesign Line/it, PartDesign Plane/it

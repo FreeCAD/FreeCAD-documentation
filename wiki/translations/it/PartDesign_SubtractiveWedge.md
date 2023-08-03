@@ -1,6 +1,6 @@
 # PartDesign SubtractiveWedge/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveWedge   Name/it: Cuneo sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveWedge   Name/it: Cuneo sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

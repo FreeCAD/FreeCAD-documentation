@@ -1,6 +1,6 @@
 # Part CompJoinFeatures/it
 ---
-- GuiCommand:   Name: Part CompJoinFeatures   Name/it: Giunzione   MenuLocation: Part -> Congiungi   Workbenches: Part_Workbench/it   Part, Part_JoinEmbed/it, Part_JoinCutout/it, Part Boolean/it, Part Thickness/it---
+ GuiCommand:   Name: Part CompJoinFeatures   Name/it: Giunzione   MenuLocation: Part , Congiungi   Workbenches: Part_Workbench/it   Part, Part_JoinEmbed/it, Part_JoinCutout/it, Part Boolean/it, Part Thickness/it---
 
 
 </div>

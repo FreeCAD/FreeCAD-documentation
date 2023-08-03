@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LandmarkDimension
    Name/de: TechDraw MaßÜberOrientierungspunkte
-   MenuLocation: TechDraw -> Bemaßungen -> Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
+   MenuLocation: TechDraw , Bemaßungen , Maß zwischen Orientierungspunkten einfügen - EXPERIMENTELL
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_HorizontalDimension/de, TechDraw_VerticalDimension/de

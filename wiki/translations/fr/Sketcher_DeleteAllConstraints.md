@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher DeleteAllConstraints
    Name/fr: Sketcher Supprimer toutes les contraintes
-   MenuLocation: Esquisse -> Outils d'esquisse -> Supprimer toutes les contraintes
+   MenuLocation: Esquisse , Outils d'esquisse , Supprimer toutes les contraintes
    Workbenches: Sketcher_Workbench/fr
    Version: 0.18
    SeeAlso: Sketcher_DeleteAllGeometry/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MeshToShape
    Name/fr: Arch Maillage vers une forme
-   MenuLocation: Arch -> Utilitaires -> Maillage vers forme
+   MenuLocation: Arch , Utilitaires , Maillage vers forme
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_SplitMesh/fr, Arch_RemoveShape/fr
 ---

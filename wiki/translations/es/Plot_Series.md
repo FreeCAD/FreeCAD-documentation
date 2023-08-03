@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Series
-   MenuLocation: Plot -> Configure series
+   MenuLocation: Plot , Configure series
 ‏‎   Workbenches: Plot_Workbench
 ---
 

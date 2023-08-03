@@ -1,6 +1,6 @@
 # Draft Line/sv
 ---
-- GuiCommand:   Name: Draft Line   Workbenches: Draft_Workbench/sv   Skiss---
+ GuiCommand:   Name: Draft Line   Workbenches: Draft_Workbench/sv   Skiss---
 
 
 </div>

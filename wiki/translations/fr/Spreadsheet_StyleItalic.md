@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet StyleItalic
    Name/fr: Spreadsheet Texte en italique
-   MenuLocation: Spreadsheet -> Styles -> Texte en italique
+   MenuLocation: Spreadsheet , Styles , Texte en italique
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---

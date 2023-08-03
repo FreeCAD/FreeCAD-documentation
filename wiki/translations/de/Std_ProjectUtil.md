@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ProjectUtil
    Name/de: Std ProjektHilfsprogramm
-   MenuLocation: Werkzeuge -> Projekt-Hilfsprogramm...
+   MenuLocation: Werkzeuge , Projekt-Hilfsprogramm...
    Workbenches: Alle
 ---
 

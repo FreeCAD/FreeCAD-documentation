@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить заметку
    Name: TechDraw_Annotation
-   MenuLocation: TechDraw -> Заметки -> Вставить заметку
+   MenuLocation: TechDraw , Заметки , Вставить заметку
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: Draft_Text/ru, Draft_ShapeString/ru
 ---

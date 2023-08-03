@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Create3PointCircle
    Name/it: Crea cerchio da 3 punti
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Geometrie -> Cerchio da tre punti
+   MenuLocation: Sketch , Geometrie , Cerchio da tre punti
    Shortcut: 
    SeeAlso: 
 ---

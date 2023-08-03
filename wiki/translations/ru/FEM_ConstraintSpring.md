@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintSpring
-   MenuLocation: Model -> Mechanical Constraints -> Constraint spring
+   MenuLocation: Model , Mechanical Constraints , Constraint spring
    Workbenches: FEM_Workbench
    Shortcut: 
    Version: 0.20

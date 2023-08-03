@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Draft2Sketch
    Name/ru: Draft Draft2Sketch
-   MenuLocation: Черчение -> Преобразовать в эскиз
+   MenuLocation: Черчение , Преобразовать в эскиз
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    SeeAlso: Sketcher_Workbench/ru, PartDesign_Workbench/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Comment
    Name/fr: Path Commentaire
-   MenuLocation: Path -> Autres commandes -> Commentaire
+   MenuLocation: Path , Autres commandes , Commentaire
    Workbenches: Path_Workbench/fr
 ---
 

@@ -1,6 +1,6 @@
 # Draft ToggleDisplayMode/ro
 ---
-- GuiCommand:   Name: Draft ToggleDisplayMode   Workbenches: Draft_Workbench   Draft, Arch_Workbench|MenuLocation: Draft -> Utilities -> Toggle display mode   Shortcut: Shift + Space---
+ GuiCommand:   Name: Draft ToggleDisplayMode   Workbenches: Draft_Workbench   Draft, Arch_Workbench|MenuLocation: Draft , Utilities , Toggle display mode   Shortcut: Shift + Space---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsSymmetric
    Name/de: Assembly3 SymmetrischePunkte
    Icon: Assembly_ConstraintPointsSymmetric.svg

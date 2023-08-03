@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD MeshBoolean
    Name/fr: OpenSCAD Maillage à partir d'opération booléenne
-   MenuLocation: OpenSCAD -> Opération booléenne sur le maillage
+   MenuLocation: OpenSCAD , Opération booléenne sur le maillage
    Workbenches: OpenSCAD_Workbench/fr
 ---
 

@@ -1,8 +1,8 @@
 # Plot Series/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: Dizi
-   MenuLocation: Arsa -> Dizi
+   MenuLocation: Arsa , Dizi
 ‏‎   
    Shortcut: 
    SeeAlso: ---

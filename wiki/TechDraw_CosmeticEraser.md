@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw CosmeticEraser
-   MenuLocation: TechDraw -> Remove Cosmetic Object
+   MenuLocation: TechDraw , Remove Cosmetic Object
    Workbenches: TechDraw_Workbench
    Version: 0.19
 ---

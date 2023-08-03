@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConnectLines
    Name/de: Sketcher LinienVerbinden
-   MenuLocation: Skizze -> Skizzen-Werkzeuge -> Kanten verbinden
+   MenuLocation: Skizze , Skizzen-Werkzeuge , Kanten verbinden
    Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **J**
    Version: 0.15

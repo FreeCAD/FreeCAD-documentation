@@ -1,6 +1,6 @@
 # Arch Survey/cs
 ---
-- GuiCommand:   Name: Arch Survey   Name/cs: Architektura Přehled    Workbenches: Arch_Workbench/cs   Architektura---
+ GuiCommand:   Name: Arch Survey   Name/cs: Architektura Přehled    Workbenches: Arch_Workbench/cs   Architektura---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Part Union
    Icon: Part Fuse.svg
-   MenuLocation: Деталь -> Булевы операции -> Объединение
+   MenuLocation: Деталь , Булевы операции , Объединение
    Workbenches: Part_Workbench/ru
    SeeAlso: Part Cut/ru, Part Common/ru, Part Boolean/ru
 ---

@@ -1,6 +1,6 @@
 # Arch Check/cs
 ---
-- GuiCommand:   Name: Arch Check   Name/cs: Arch Check   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch Check   Name/cs: Arch Check   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

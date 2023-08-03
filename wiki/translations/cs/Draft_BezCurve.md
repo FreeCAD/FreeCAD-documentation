@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BezCurve
    Workbenches: Draft_Workbench/cs, Arch_Workbench/cs
    MenuLocation: Draft -> BezCurve

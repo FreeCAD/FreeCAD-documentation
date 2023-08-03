@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить вспомогательную линию между 2-мя точками
    Name: TechDraw_2PointCosmeticLine
-   MenuLocation: TechDraw -> Добавить Линии -> Добавить вспомогательную линию между 2-мя точками
+   MenuLocation: TechDraw , Добавить Линии , Добавить вспомогательную линию между 2-мя точками
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/ru, TechDraw_2LineCenterLine/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw RichTextAnnotation
    Name/it: Blocco di testo
-   MenuLocation: TechDraw -> Annotazioni -> Blocco di testo
+   MenuLocation: TechDraw , Annotazioni , Blocco di testo
    Workbenches: TechDraw_Workbench/it
    Version: 0.19
    SeeAlso: TechDraw Templates/it, Draft SVG/it, TechDraw_LeaderLine/it

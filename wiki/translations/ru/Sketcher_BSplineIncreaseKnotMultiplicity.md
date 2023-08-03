@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Увеличение кратности узлов
    Name: Sketcher_BSplineIncreaseKnotMultiplicity
-   MenuLocation: Sketch -> B-сплйан инструменты эскиза -> Увеличение кратности узлов
+   MenuLocation: Sketch , B-сплйан инструменты эскиза , Увеличение кратности узлов
    Workbenches: Sketcher_Workbench/ru
    Version: 0.17
    SeeAlso: Sketcher_BSplineKnotMultiplicity/ru, Sketcher_BSplineDecreaseKnotMultiplicity/ru

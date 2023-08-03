@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Edit
    Name/ru: Draft Edit
-   MenuLocation: Черчение -> Правка
+   MenuLocation: Черчение , Правка
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 

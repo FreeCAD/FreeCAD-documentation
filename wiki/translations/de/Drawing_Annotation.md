@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Annotation
    Name/de: Drawing Annotation
-   MenuLocation: Drawing -> Anmerkung
+   MenuLocation: Drawing , Anmerkung
    Workbenches: Drawing Workbench/de
 ---
 

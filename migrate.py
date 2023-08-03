@@ -835,7 +835,7 @@ class MediaWiki:
                     guicommandblk = guicommandblk[0]
                     guicommandblk = re.sub("\|(.*?)\=(.*?)",r'   \1: \2',guicommandblk) # fixing GuiCommand contents
                     # stricter formatting of yaml stuff for github pages
-                    guicommandblk = guicommandblk.replace("→","->") # github does not like unicode in here...
+                    guicommandblk = guicommandblk.replace("→",",") # github does not like unicode in here...
                     if guicommandblk.strip().startswith("/"):  # fix malformation of translated GuiCommands
                         guicommandblk = guicommandblk[3:]
                     guicommandblk = re.sub("/:\s*/", ": ", guicommandblk) # add spaces after colon
@@ -843,7 +843,7 @@ class MediaWiki:
                     guicommandblk = re.sub("\|.*?\]", "", guicommandblk)
                     guicommandblk = guicommandblk.replace("[","")
                     guicommandblk = guicommandblk.replace("]","")
-                    result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
+                    result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 
         if debug >= 7.5:

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Site
    Name/es: Arquitectura Ubicación
-   MenuLocation: Arquitectura -> Ubicación
+   MenuLocation: Arquitectura , Ubicación
    Workbenches: Arch_Workbench/es
    Shortcut: **S** **I**
    SeeAlso: Arch_Floor/es, Arch_Building/es

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CompPrimitiveSubtractive
    Name/pl: Projekt Części: Utwórz bryłę pierwotną do odjęcia
-   MenuLocation: Projekt części -> Utwórz bryłę pierwotną do odjęcia
+   MenuLocation: Projekt części , Utwórz bryłę pierwotną do odjęcia
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/pl

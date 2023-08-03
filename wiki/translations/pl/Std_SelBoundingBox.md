@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelBoundingBox
    Name/pl: Std: Ramka otaczająca
-   MenuLocation: Widok -> Ramka otaczająca
+   MenuLocation: Widok , Ramka otaczająca
    Workbenches: wszystkie
    Version: 0.19
    SeeAlso: Std_DrawStyle/pl

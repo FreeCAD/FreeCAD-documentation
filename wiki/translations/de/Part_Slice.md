@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Slice
    Name/de: Part Zerschneiden
-   MenuLocation: Part -> Teilen -> Schneiden zu Verbund
+   MenuLocation: Part , Teilen , Schneiden zu Verbund
    Workbenches: Part_Workbench/de
    Version: 0.17
    SeeAlso: Part_BooleanFragments/de, Part_XOR/de, Part_CompJoinFeatures/de, Part_Boolean/de

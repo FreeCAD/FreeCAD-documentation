@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TextDocument
    Name/de: Std Textdokument
-   MenuLocation: Werkzeuge -> Textdokument hinzufügen
+   MenuLocation: Werkzeuge , Textdokument hinzufügen
    Workbenches: All
    Version: 0.19
    SeeAlso: Draft ShapeString/de, Draft Text/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Показать/скрыть гребень кривизны B-сплайна
    Name: Sketcher_BSplineComb
-   MenuLocation: Sketch -> B-сплйан инструменты эскиза -> Показать/скрыть гребень кривизны B-сплайна
+   MenuLocation: Sketch , B-сплйан инструменты эскиза , Показать/скрыть гребень кривизны B-сплайна
    Workbenches: Sketcher_Workbench/ru
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/ru

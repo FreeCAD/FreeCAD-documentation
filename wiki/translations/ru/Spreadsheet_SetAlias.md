@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Установить псевдоним
    Name: Spreadsheet_SetAlias
    MenuLocation: -

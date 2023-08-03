@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Midpoint
    Name/it: Punto medio
-   MenuLocation: Draft -> Draft_Snap/it -> Punto medio
+   MenuLocation: Draft , Draft_Snap/it , Punto medio
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---

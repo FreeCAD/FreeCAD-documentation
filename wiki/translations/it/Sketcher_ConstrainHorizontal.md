@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/it
 ---
-- GuiCommand:   Name: Constraint Horizontal   Name/it: Vincolo orizzontale   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:   Name: Constraint Horizontal   Name/it: Vincolo orizzontale   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
 
 
 </div>

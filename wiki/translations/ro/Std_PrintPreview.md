@@ -1,6 +1,6 @@
 # Std PrintPreview/ro
 ---
-- GuiCommand:   Name: Std PrintPreview   Name/ro: Previzualizare tipărire   Workbenches: All   MenuLocation: Std File Menu/ro   File -> Previzualizare tipărire ---
+ GuiCommand:   Name: Std PrintPreview   Name/ro: Previzualizare tipărire   Workbenches: All   MenuLocation: Std File Menu/ro   File , Previzualizare tipărire ---
 
 
 </div>

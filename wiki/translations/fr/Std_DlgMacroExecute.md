@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgMacroExecute
    Name/fr: Std Exécuter une macro
-   MenuLocation: Macro -> Macros...
+   MenuLocation: Macro , Macros...
    Workbenches: Tous
    SeeAlso: Std_DlgMacroExecuteDirect/fr
 ---

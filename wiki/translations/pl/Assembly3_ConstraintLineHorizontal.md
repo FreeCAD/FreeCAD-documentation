@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLineHorizontal
    Icon: Assembly_ConstraintLineHorizontal.svg
    Workbenches: Assembly3_Workbench

@@ -1,6 +1,6 @@
 # Std OnlineHelp/ru
 ---
-- GuiCommand:   Name: Std OnlineHelp   Name/ru: Std OnlineHelp   MenuLocation: Std Help/ru   Help -> FreeCAD Website‏‎||Workbenches: All   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Std OnlineHelp   Name/ru: Std OnlineHelp   MenuLocation: Std Help/ru   Help , FreeCAD Website‏‎||Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>

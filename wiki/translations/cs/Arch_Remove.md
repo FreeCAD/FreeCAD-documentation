@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/cs: Architektura Odebrat
-   MenuLocation: Arch -> Remove
+   MenuLocation: Arch , Remove
    Workbenches: Arch_Workbench/cs
    SeeAlso: Arch Add
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Fasteners MatchTypeInner
-   MenuLocation: Fasteners -> Match for tap hole
+   MenuLocation: Fasteners , Match for tap hole
    Workbenches: Fasteners_Workbench
    SeeAlso: Fasteners_MatchTypeOuter
 ---

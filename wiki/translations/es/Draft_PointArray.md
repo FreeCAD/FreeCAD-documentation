@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointArray
    Name/es: Borrador ArregloPunto
-   MenuLocation: Modificación -> Herramientas de  Arreglo -> Arreglo Punto
+   MenuLocation: Modificación , Herramientas de  Arreglo , Arreglo Punto
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.18
    SeeAlso: Draft_OrthoArray/es, Draft_PolarArray/es, 

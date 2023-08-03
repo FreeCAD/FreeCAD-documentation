@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Orthoviews
    Name/fr: Drawing Vues orthogonales
    Workbenches: Drawing Workbench/fr
-   MenuLocation: Drawing -> Insérer des vues orthogonales
+   MenuLocation: Drawing , Insérer des vues orthogonales
    Shortcut: 
    SeeAlso: Drawing_Landscape_A3/fr
 ---

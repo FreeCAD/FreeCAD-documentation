@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path ToolBitLibraryOpen
    Name/fr: Path Gestionnaire des outils coupants
-   MenuLocation: Path -> Gestionnaire des outils coupants
+   MenuLocation: Path , Gestionnaire des outils coupants
    Workbenches: Path_Workbench/fr
    Version: 0.19
    SeeAlso: Path_ToolBitDock/fr, Path_Tools/fr, Path_ToolBit/fr

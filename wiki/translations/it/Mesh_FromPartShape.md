@@ -1,6 +1,6 @@
 # Mesh FromPartShape/it
 ---
-- GuiCommand:   Name: Mesh_FromPartShape   Name/it: Mesh da forma‏‎   MenuLocation: Mesh -> Crea mesh da una forma...   Workbenches: Mesh Workbench/it---
+ GuiCommand:   Name: Mesh_FromPartShape   Name/it: Mesh da forma‏‎   MenuLocation: Mesh , Crea mesh da una forma...   Workbenches: Mesh Workbench/it---
 
 
 

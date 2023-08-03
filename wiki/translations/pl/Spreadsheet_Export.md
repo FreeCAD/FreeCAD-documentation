@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet Export
    Name/pl: Arkusz Kalkulacyjny: Eksportuj
-   MenuLocation: Arkusz Kalkulacyjny -> Eksportuj
+   MenuLocation: Arkusz Kalkulacyjny , Eksportuj
    Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
    SeeAlso: Spreadsheet_Import/pl

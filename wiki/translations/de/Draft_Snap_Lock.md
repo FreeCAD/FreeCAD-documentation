@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/de: Draft EinrastenSperren
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

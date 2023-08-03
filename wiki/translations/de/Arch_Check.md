@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
    Name/de: Arch Überprüfen
    Workbenches: Arch_Workbench/de
-   MenuLocation: Arch -> Dienstprogramme -> Überprüfen
+   MenuLocation: Arch , Dienstprogramme , Überprüfen
    SeeAlso: Arch_CloseHoles/de
 ---
 

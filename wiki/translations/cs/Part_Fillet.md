@@ -1,6 +1,6 @@
 # Part Fillet/cs
 ---
-- GuiCommand:   Name: Part Fillet   Name/cs: Díl Zaoblení   MenuLocation: Díl -> Zaoblení   Workbenches: Part_Workbench/cs   Díl, Kompletace---
+ GuiCommand:   Name: Part Fillet   Name/cs: Díl Zaoblení   MenuLocation: Díl , Zaoblení   Workbenches: Part_Workbench/cs   Díl, Kompletace---
 
 
 </div>

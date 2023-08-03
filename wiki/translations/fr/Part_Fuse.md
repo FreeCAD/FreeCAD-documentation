@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fuse
    Name/fr: Part Union
-   MenuLocation: Part -> Opération booléenne -> Union
+   MenuLocation: Part , Opération booléenne , Union
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Boolean/fr, Part_Cut/fr, Part_Common/fr, 
 ---

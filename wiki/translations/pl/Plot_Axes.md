@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Axes
    Name/pl: Wykres: Konfiguruj osie
-   MenuLocation: Wykres -> Konfiguruj osie
+   MenuLocation: Wykres , Konfiguruj osie
    Workbenches: Plot_Workbench/pl
 ---
 

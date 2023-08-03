@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewTop
    Name/de: Std Draufsicht
-   MenuLocation: Ansicht -> Standardansichten -> Draufsicht
+   MenuLocation: Ansicht , Standardansichten , Draufsicht
    Workbenches: Alle
    Shortcut: **2**
    SeeAlso: Std_ViewFront/de, Std_ViewRight

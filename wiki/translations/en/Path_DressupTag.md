@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupTag
-   MenuLocation: Path -> Path Dressup -> Tag
+   MenuLocation: Path , Path Dressup , Tag
    Workbenches: Path_Workbench
    SeeAlso: Path_DressupRampEntry, Path_DressupDogbone, Path_DressupDragKnife
 ---

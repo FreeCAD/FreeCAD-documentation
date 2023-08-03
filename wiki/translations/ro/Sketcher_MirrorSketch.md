@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MirrorSketch
-   MenuLocation: Sketch -> Mirror sketch
+   MenuLocation: Sketch , Mirror sketch
    Workbenches: Sketcher_Workbench
    Version: 0.16
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Base ExampleCommandModel
    Name/ru: Base ExampleCommandModel
    Icon:  
-   MenuLocation: Меню -> Подменю -> Текст меню для комманды
+   MenuLocation: Меню , Подменю , Текст меню для комманды
    Workbenches: Workbench_Name/ru
    Shortcut: **F** **C**
    SeeAlso:  

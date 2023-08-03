@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RenderingOrder
    Name/pl: Szkicownik: Kolejność renderowania
    Workbenches: Sketcher_Workbench/pl

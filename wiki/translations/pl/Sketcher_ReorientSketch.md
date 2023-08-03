@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ReorientSketch
    Name/pl: Szkicownik: Zmień orientację szkicu
-   MenuLocation: Szkic -> Zmień orientację szkicu ...
+   MenuLocation: Szkic , Zmień orientację szkicu ...
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    SeeAlso: Sketcher_MapSketch/pl, Sketcher_NewSketch/pl
 ---

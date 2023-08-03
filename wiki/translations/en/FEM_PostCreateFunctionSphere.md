@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionSphere
-   MenuLocation: Results -> Filter Functions -> Sphere
+   MenuLocation: Results , Filter Functions , Sphere
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

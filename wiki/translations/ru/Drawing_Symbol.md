@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Symbol
    Name/ru: Drawing Symbol
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж -> Символ
+   MenuLocation: Чертёж , Символ
    Shortcut: 
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch BuildingPart
    Name/it: Parte di edificio
-   MenuLocation: Arch -> Parte di edificio
+   MenuLocation: Arch , Parte di edificio
    Workbenches: Arch_Workbench/it
    Shortcut: 
    Version: 0.18

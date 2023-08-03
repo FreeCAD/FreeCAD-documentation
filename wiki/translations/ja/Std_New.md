@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_New
    Name/ja: Std_New
    MenuLocation: File -> New

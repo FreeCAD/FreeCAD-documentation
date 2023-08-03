@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Schedule
    Name/fr: Arch Nomenclature
-   MenuLocation: Arch -> Nomenclature
+   MenuLocation: Arch , Nomenclature
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_Equipment/fr
 ---

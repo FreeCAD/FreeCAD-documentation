@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/de: Draft EbeneAuswählen
-   MenuLocation: Dienstprogramme -> Ebene wählen
+   MenuLocation: Dienstprogramme , Ebene wählen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **W** **P**
    SeeAlso: Draft_WorkingPlaneProxy/de

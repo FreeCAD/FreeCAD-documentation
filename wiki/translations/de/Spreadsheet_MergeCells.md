@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet MergeCells
    Name/de: Kalkulationstabelle ZellenZusammenführen
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle -> Zellen Zusammenführen
+   MenuLocation: Kalkulationstabelle , Zellen Zusammenführen
    Version: 0.17
 ---
 

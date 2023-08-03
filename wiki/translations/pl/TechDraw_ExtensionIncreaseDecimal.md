@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionIncreaseDecimal
    Name/pl: Rysunek Techniczny: Rozszerzenie Zwiększ ilość cyfr po przecinku
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Zwiększ ilość cyfr po przecinku
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Wymiary , Zwiększ ilość cyfr po przecinku
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

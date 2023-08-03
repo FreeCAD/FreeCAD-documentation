@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Straight
-   MenuLocation: Arch -> Rebar tools -> Straight Rebar<br>3D/BIM -> Reinforcement tools -> Straight Rebar
+   MenuLocation: Arch , Rebar tools , Straight Rebar<br>3D/BIM , Reinforcement tools , Straight Rebar
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
    SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_BOM

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Extrude
-   MenuLocation: Part -> Extrude
+   MenuLocation: Part , Extrude
    Workbenches: Part_Workbench
    SeeAlso: Draft_Trimex, PartDesign_Pad
 ---

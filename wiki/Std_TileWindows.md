@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TileWindows
-   MenuLocation: Windows -> Tile
+   MenuLocation: Windows , Tile
    Workbenches: All
    SeeAlso: Std_CascadeWindows
 ---

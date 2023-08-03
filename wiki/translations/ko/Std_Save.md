@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Save
    Name/ko: 표준 저장
-   MenuLocation: 파일 -> 저장
+   MenuLocation: 파일 , 저장
    Workbenches: 모두
    Shortcut: **Ctrl**+**S**
    SeeAlso: Std_SaveAs/ko, Std_SaveCopy/ko, Std_SaveAll/ko

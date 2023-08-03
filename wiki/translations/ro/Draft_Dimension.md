@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/ro: Cotare
-   MenuLocation: Draft -> Dimension
+   MenuLocation: Draft , Dimension
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **D** **I**
    SeeAlso: Draft FlipDimension/ro

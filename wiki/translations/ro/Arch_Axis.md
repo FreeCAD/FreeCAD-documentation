@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Axis
    Name/ro: Arch Axis
-   MenuLocation: Arch -> Axis
+   MenuLocation: Arch , Axis
    Workbenches: Arch_Workbench/ro
    Shortcut: **A** **X**
    SeeAlso: Arch AxisSystem/ro, Arch Grid

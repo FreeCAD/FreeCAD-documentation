@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Clone
    Name/pl: Szkicownik: Klonuj
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Klonuj
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Klonuj
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **L**
    Version: 0.16

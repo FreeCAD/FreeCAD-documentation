@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DraftView
    Name/de: TechDraw DraftAnsicht
-   MenuLocation: TechDraw -> Views From Other Workbenches -> Objekt des Draft-Arbeitsbereiches einfügen
+   MenuLocation: TechDraw , Views From Other Workbenches , Objekt des Draft-Arbeitsbereiches einfügen
    Workbenches: TechDraw_Workbench/de, Draft_Workbench/de
    SeeAlso: TechDraw_ArchView/de
 ---

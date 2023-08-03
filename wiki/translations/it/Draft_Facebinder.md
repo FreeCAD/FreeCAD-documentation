@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Facebinder
    Name/it: Lega facce
-   MenuLocation: Drafting -> Lega facce
+   MenuLocation: Drafting , Lega facce
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **F** **F**
    Version: 0.14

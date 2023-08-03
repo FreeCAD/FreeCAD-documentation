@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивная спираль
    Name: PartDesign_AdditiveHelix
-   MenuLocation: PartDesign -> Create an additive feature -> Аддитивная спираль
+   MenuLocation: PartDesign , Create an additive feature , Аддитивная спираль
    Workbenches: PartDesign_Workbench/ru
    Version: 0.19
    SeeAlso: PartDesign_SubtractiveHelix/ru

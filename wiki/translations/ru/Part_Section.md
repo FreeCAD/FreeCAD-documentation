@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Section
    Name/ru: Разделить
-   MenuLocation: Part -> Разделить
+   MenuLocation: Part , Разделить
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_CrossSections/ru
 ---

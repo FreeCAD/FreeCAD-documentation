@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset2D
    Name/it: Offset 2D
-   MenuLocation: Parte -> Offset 2D...
+   MenuLocation: Parte , Offset 2D...
    Workbenches: Part_Workbench/it
    Version: 0.17
    SeeAlso: Part_Offset/it, Part_Thickness/it, Draft_Offset/it

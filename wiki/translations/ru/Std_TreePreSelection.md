@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreePreSelection
    Name/ru: Std TreePreSelection
-   MenuLocation: Вид -> Дерево документа -> Pre-selection
+   MenuLocation: Вид , Дерево документа , Pre-selection
    Workbenches: All
    Shortcut: **T** **4**
 ---

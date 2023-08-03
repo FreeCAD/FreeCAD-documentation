@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Site
    Workbenches: Arch_Workbench
-   MenuLocation: Arch -> Site
+   MenuLocation: Arch , Site
    Shortcut: **S** **I**
    SeeAlso: Arch_Floor, Arch_Building
 ---

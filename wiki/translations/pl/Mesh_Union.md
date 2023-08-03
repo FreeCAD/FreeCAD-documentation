@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Union
    Name/pl: Siatka Połączenie
-   MenuLocation: Siatki -> Operacje logiczne -> Połączenie
+   MenuLocation: Siatki , Operacje logiczne , Połączenie
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_Intersection/pl, Mesh_Difference/pl
 ---

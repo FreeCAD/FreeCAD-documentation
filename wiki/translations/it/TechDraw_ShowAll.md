@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ShowAll
    Name/it: Mostra tutto
-   MenuLocation: TechDraw -> Mostra tutto
+   MenuLocation: TechDraw , Mostra tutto
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_DecorateLine/it
    Version: 0.19

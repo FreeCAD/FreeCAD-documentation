@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/de
+ GuiCommand:Addon/de
    Name: BIM IfcQuantities
    Name/de: BIM IfcGrößen
    Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: Verwalten -> IFC GRößen
+   MenuLocation: Verwalten , IFC GRößen
    SeeAlso: BIM IfcElements/de,BIM IfcQuantities/de
 ---
 

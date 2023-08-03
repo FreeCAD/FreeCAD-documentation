@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/de: Draft Maß
-   MenuLocation: Anmerkung -> Abmessung
+   MenuLocation: Anmerkung , Abmessung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **I**
    Version: 0.8

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path-Area
    Name/fr: Path Surface
-   MenuLocation: Path -> Surface
+   MenuLocation: Path , Surface
    Workbenches: Path_Workbench/fr
 ---
 

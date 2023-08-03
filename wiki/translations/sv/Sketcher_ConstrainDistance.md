@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Length
    Name/sv: Constraint Length
    Workbenches: Sketcher Workbench/sv
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain distance
+   MenuLocation: Sketch , Sketcher constraints , Constrain distance
    Shortcut: Shift + D
    SeeAlso: Sketcher ConstrainDistanceX/sv, Sketcher ConstrainDistanceY/sv
 ---

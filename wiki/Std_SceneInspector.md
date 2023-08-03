@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SceneInspector
-   MenuLocation: Tools -> Scene inspector...
+   MenuLocation: Tools , Scene inspector...
    Workbenches: All
 ---
 

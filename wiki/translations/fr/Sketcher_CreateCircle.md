@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateCircle
    Name/fr: Sketcher Cercle
-   MenuLocation: Esquisse -> Géometries d'esquisse  -> Créer un cercle
+   MenuLocation: Esquisse , Géometries d'esquisse  , Créer un cercle
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **C**
    SeeAlso: Sketcher_CompCreateArc/fr

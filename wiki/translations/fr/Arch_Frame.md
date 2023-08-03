@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Frame
    Name/fr: Arch Ossature
-   MenuLocation: Arch -> Ossature
+   MenuLocation: Arch , Ossature
    Workbenches: Arch_Workbench/fr
    Shortcut: **F** **R**
    SeeAlso: Arch_Wall/fr, Arch_Structure/fr

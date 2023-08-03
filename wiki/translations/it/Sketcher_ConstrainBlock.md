@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ConstrainBlock
    Name/it: Fissa
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Vincoli -> Fissa
+   MenuLocation: Sketch , Vincoli , Fissa
    SeeAlso: Sketcher_ConstrainLock/it
    Version: 0.17
 ---

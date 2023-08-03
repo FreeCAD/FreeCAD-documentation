@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Center
    Name/tr: Taslak Merkez
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
-   MenuLocation: Taslak -> Draft Snap/tr -> Merkez
+   MenuLocation: Taslak , Draft Snap/tr , Merkez
    Shortcut: 
    SeeAlso: Draft Snap/tr, Draft_Snap_Lock/tr
 ---

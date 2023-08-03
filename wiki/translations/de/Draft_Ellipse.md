@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Ellipse
    Name/de: Entwurf Ellipse
-   MenuLocation: Entwurf -> Ellipse
+   MenuLocation: Entwurf , Ellipse
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **E** **L**
    Version: 0.7

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAlignment
    Icon: Assembly_ConstraintAlignment.svg
    Workbenches: Assembly3_Workbench

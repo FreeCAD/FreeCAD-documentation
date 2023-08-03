@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Openbrowser
    Name/ru: Drawing Openbrowser
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж -> Открыть в браузере
+   MenuLocation: Чертёж , Открыть в браузере
    Shortcut: 
 ---
 

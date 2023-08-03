@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRegularPolygon
    Name/fr: Sketcher Polygone régulier
-   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un polygone régulier
+   MenuLocation: Esquisse , Géométries d'esquisse , Créer un polygone régulier
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **P** **R**
 ---

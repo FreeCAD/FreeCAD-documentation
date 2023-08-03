@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Преобразовать в полое тело
    Name: PartDesign_Thickness
-   MenuLocation: Part Design -> Apply a dress up feature -> Преобразовать в полое тело
+   MenuLocation: Part Design , Apply a dress up feature , Преобразовать в полое тело
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: Part_Thickness/ru

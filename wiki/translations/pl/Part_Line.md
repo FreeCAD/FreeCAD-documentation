@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Line
    Name/pl: Część: Płaszczyzna
-   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Linia
+   MenuLocation: Część , Utwórz geometrie pierwotne ... , Linia
    Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
    SeeAlso: Part_Primitives/pl
 ---

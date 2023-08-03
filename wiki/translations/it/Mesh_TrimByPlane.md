@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_TrimByPlane
    Name/it: Rifila con un piano
-   MenuLocation: Mesh -> Taglio -> Rifila con un piano
+   MenuLocation: Mesh , Taglio , Rifila con un piano
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_PolyCut/it, Mesh_PolyTrim/it
 ---

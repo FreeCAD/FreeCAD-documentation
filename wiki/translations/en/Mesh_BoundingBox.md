@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh BoundingBox
-   MenuLocation: Meshes -> Analyze -> Boundings info...
+   MenuLocation: Meshes , Analyze , Boundings info...
    Workbenches: Mesh_Workbench
 ---
 

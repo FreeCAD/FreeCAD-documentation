@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_ViewRight
    Name/it: Vista da destra
-   MenuLocation: Visualizza -> Viste standard -> Da destra
+   MenuLocation: Visualizza , Viste standard , Da destra
    Workbenches: Tutti
    Shortcut: **3**
    SeeAlso: Std_ViewFront/it, Std_ViewTop/it

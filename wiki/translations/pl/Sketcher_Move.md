@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Move
    Name/pl: Szkicownik: Przesuń
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Przesuń
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Przesuń
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **M**
    Version: 0.16

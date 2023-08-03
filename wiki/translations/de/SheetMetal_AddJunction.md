@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddJunction
    Name/de: SheetMetal StoßHinzufügen
-   MenuLocation: SheetMetal -> Make Junction
+   MenuLocation: SheetMetal , Make Junction
    Workbenches: SheetMetal_Workbench/de
    Shortcut: **S** **J**
    SeeAlso: SheetMetal_AddRelief/de, SheetMetal_AddBend/de

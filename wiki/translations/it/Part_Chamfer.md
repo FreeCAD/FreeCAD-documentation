@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Chamfer
    Name/it: Smussa
-   MenuLocation: Parte -> Smussa...
+   MenuLocation: Parte , Smussa...
    Workbenches: Part_Workbench/it
    SeeAlso: Part Fillet/it
 ---

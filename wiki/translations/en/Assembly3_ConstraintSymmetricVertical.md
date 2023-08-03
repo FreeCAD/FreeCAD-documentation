@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSymmetricVertical
    Icon: Assembly_ConstraintGeneral.svg
    Workbenches: Assembly3_Workbench

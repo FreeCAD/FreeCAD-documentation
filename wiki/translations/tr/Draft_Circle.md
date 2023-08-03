@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/tr: Çember
-   MenuLocation: Taslak -> Çember
+   MenuLocation: Taslak , Çember
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **C** **I**
    SeeAlso: Draft Arc/tr, Draft Ellipse/tr

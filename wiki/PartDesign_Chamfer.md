@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Chamfer
-   MenuLocation: Part Design -> Apply a dress-up feature -> Chamfer
+   MenuLocation: Part Design , Apply a dress-up feature , Chamfer
    Workbenches: PartDesign_Workbench
    SeeAlso: PartDesign_Fillet
 ---

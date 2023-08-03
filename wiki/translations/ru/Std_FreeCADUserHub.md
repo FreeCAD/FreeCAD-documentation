@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Пользовательская документация
    Name: Std_FreeCADUserHub
-   MenuLocation: Помощь -> Пользовательская документация
+   MenuLocation: Помощь , Пользовательская документация
    Workbenches: Все
    SeeAlso: Std_FreeCADWebsite/ru, Std_FreeCADPowerUserHub/ru, Std_FreeCADForum/ru, Std_FreeCADFAQ/ru
 ---

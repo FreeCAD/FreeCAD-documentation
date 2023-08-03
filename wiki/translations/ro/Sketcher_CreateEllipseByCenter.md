@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Create Ellipse by center
    Icon: Sketcher_CreateEllipse.png
    Workbenches: Sketcher Workbench
-   MenuLocation: Sketch -> Sketcher geometries -> Create ellipse by center
+   MenuLocation: Sketch , Sketcher geometries , Create ellipse by center
    Version: 0.15
    SeeAlso: Sketcher_CreateEllipseBy3Points, Sketcher CreateCircle, Sketcher_CreateArcOfEllipse
 ---

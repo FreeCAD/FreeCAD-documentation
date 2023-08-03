@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std CloseActiveWindow
    Name/ru: Закрыть
-   MenuLocation: Файл -> Закрыть
+   MenuLocation: Файл , Закрыть
    Workbenches: Все
    Shortcut: **Ctrl**+**F4**
    SeeAlso: Std_CloseAllWindows/ru

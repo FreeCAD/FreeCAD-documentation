@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Name/de: Draft EinrastenSpezial
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

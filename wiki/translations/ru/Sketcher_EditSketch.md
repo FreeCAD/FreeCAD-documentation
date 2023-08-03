@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Редактировать эскиз
    Name: Sketcher_EditSketch
-   MenuLocation: Sketch -> Редактировать эскиз
+   MenuLocation: Sketch , Редактировать эскиз
    Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
    SeeAlso: Sketcher_LeaveSketch/ru
 ---

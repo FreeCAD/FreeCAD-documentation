@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintSelfWeight
-   MenuLocation: Model -> Mechanical Constraints -> Constraint self weight
+   MenuLocation: Model , Mechanical Constraints , Constraint self weight
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

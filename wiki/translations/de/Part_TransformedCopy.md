@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part TransformedCopy
    Name/de: Part TransformierteKopie
-   MenuLocation: Part -> Erzeuge eine Kopie -> Erzeuge transformierte Kopie
+   MenuLocation: Part , Erzeuge eine Kopie , Erzeuge transformierte Kopie
    Workbenches: Part Workbench/de
    Version: 0.19
    Siehe auch: Part_SimpleCopy, Part_ElementCopy/de, Part_RefineShape/de

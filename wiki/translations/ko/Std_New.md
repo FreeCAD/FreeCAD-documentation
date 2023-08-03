@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std New
    Name/ko: 표준 새 파일
-   MenuLocation: 파일 -> 새 파일
+   MenuLocation: 파일 , 새 파일
    Workbenches: 모두
    Shortcut: **Ctrl**+**N**
    SeeAlso: Std_Open/ko, Std_Import

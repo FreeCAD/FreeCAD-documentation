@@ -1,6 +1,6 @@
 # PartDesign MoveTip/ro
 ---
-- GuiCommand:   Name: PartDesign MoveTip   MenuLocation: Contextual menu -> Set tip   Workbenches: PartDesign Workbench   PartDesign, PartDesign MoveFeatureInTree---
+ GuiCommand:   Name: PartDesign MoveTip   MenuLocation: Contextual menu , Set tip   Workbenches: PartDesign Workbench   PartDesign, PartDesign MoveFeatureInTree---
 
 
 </div>

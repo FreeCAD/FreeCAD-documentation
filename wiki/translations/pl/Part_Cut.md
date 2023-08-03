@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cut
    Name/pl: Część: Wytnij
-   MenuLocation: Część -> Operacje logiczne -> Wytnij
+   MenuLocation: Część , Operacje logiczne , Wytnij
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Boolean/pl, Part_Fuse/pl, Part_Common/pl
 ---

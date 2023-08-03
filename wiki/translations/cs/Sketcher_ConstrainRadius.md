@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/cs
 ---
-- GuiCommand:   Name: Constraint Radius   Name/cs: Constraint Radius   Workbenches: Sketcher Workbench/cs   Náčrt, PartDesign Workbench/cs, Sketcher ConstrainDistanceX/cs, Sketcher ConstrainDistanceY/cs---
+ GuiCommand:   Name: Constraint Radius   Name/cs: Constraint Radius   Workbenches: Sketcher Workbench/cs   Náčrt, PartDesign Workbench/cs, Sketcher ConstrainDistanceX/cs, Sketcher ConstrainDistanceY/cs---
 
 
 </div>

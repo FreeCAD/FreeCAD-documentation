@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintPlaneRotation
    Name/fr: FEM Contrainte de rotation du plan
-   MenuLocation: Modèle -> Contraintes géométriques -> Contrainte de rotation plane
+   MenuLocation: Modèle , Contraintes géométriques , Contrainte de rotation plane
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintTransform/fr
 ---

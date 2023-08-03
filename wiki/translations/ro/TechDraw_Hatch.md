@@ -1,6 +1,6 @@
 # TechDraw Hatch/ro
 ---
-- GuiCommand:   Name: TechDraw Hatch   Workbenches: TechDraw_Workbench   TechDraw---
+ GuiCommand:   Name: TechDraw Hatch   Workbenches: TechDraw_Workbench   TechDraw---
 
 
 </div>

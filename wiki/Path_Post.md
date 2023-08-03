@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Post
-   MenuLocation: Path -> Post Process
+   MenuLocation: Path , Post Process
    Workbenches: Path_Workbench
    Shortcut: **P** **P**
 ---

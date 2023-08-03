@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std UserEditMode
-   MenuLocation: Edit -> Edit mode -> ...
+   MenuLocation: Edit , Edit mode , ...
    Workbenches: All
    Version: 0.20
    SeeAlso: Std_Edit

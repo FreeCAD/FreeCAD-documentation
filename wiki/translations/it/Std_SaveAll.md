@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_SaveAll
    Name/it: Salva tutto
-   MenuLocation: File -> Salva tutto
+   MenuLocation: File , Salva tutto
    Workbenches: Tutti
    SeeAlso: Std_Save/it
 ---

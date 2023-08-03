@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ClipGroupRemove
-   MenuLocation: TechDraw -> Clipped Views -> Remove View from Clip Group
+   MenuLocation: TechDraw , Clipped Views , Remove View from Clip Group
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_ClipGroup, TechDraw_ClipGroupAdd
 ---

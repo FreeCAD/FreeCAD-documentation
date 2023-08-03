@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPdf
    Name/pl: Std: Eksportuj do PDF
-   MenuLocation: Plik-> Eksportuj do PDF ...
+   MenuLocation: Plik, Eksportuj do PDF ...
    Workbenches: All
    SeeAlso: Std_Print/pl, Std_Export/pl, Std_ViewScreenShot/pl
 ---

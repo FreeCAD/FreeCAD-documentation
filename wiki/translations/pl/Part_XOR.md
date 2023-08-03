@@ -1,9 +1,9 @@
 # Part XOR/pl
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_XOR
    Name/pl: Część: Logiczny XOR
-   MenuLocation: Część -> Rozdziel -> Logiczny XOR
+   MenuLocation: Część , Rozdziel , Logiczny XOR
    Workbenches: Part_Workbench/pl
    Version: 0.17
    SeeAlso: Part_BooleanFragments/pl, Part_Slice/pl, Part_CompJoinFeatures/pl, Part_Boolean/pl---

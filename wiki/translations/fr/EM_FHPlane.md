@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHPlane
    Name/fr: EM Plan FH
-   MenuLocation: EM -> FHPlane
+   MenuLocation: EM , FHPlane
    Workbenches: EM_Workbench/fr
    Shortcut: **E** **P**
    Version: 0.17

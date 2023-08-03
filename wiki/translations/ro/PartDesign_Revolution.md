@@ -1,6 +1,6 @@
 # PartDesign Revolution/ro
 ---
-- GuiCommand:   Name: PartDesign Revolution   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign -> Revolution---
+ GuiCommand:   Name: PartDesign Revolution   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign , Revolution---
 
 
 </div>

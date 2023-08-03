@@ -1,6 +1,6 @@
 # Part Offset/it
 ---
-- GuiCommand:   Name: Part Offset   Name/it: Offset 3D   MenuLocation: Part -> Offset 3D...   , Part_Offset2D/it---
+ GuiCommand:   Name: Part Offset   Name/it: Offset 3D   MenuLocation: Part , Offset 3D...   , Part_Offset2D/it---
 
 
 </div>

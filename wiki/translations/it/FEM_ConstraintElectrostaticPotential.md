@@ -1,6 +1,6 @@
 # FEM ConstraintElectrostaticPotential/it
 ---
-- GuiCommand:   Name: FEM_ConstraintElectrostaticPotential   Name/it: Potenziale elettrostatico di vincolo   Icon: Fem-constraint-electrostatic-potential.svg   MenuLocation:  Modello -> Vincoli elettrostatici -> Potenziale elettrostatico di vincolo   ---
+ GuiCommand:   Name: FEM_ConstraintElectrostaticPotential   Name/it: Potenziale elettrostatico di vincolo   Icon: Fem-constraint-electrostatic-potential.svg   MenuLocation:  Modello , Vincoli elettrostatici , Potenziale elettrostatico di vincolo   ---
 
 
 </div>

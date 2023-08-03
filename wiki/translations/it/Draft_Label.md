@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Label
    Name/it: Etichetta
-   MenuLocation: Annotazione -> Etichetta
+   MenuLocation: Annotazione , Etichetta
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **L**
    Version: 0.17

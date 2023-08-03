@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD RemoveSubtree
    Name/it: OpenSCAD Elimina un ramo
-   MenuLocation: OpenSCAD -> Rimuovi oggetti e loro figli|
+   MenuLocation: OpenSCAD , Rimuovi oggetti e loro figli|
    Workbenches: OpenSCAD_Workbench/it
 ---
 

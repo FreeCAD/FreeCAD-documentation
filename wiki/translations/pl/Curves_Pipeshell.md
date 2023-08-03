@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves Pipeshell
    Name/pl: Krzywe: Powłoka rury
-   MenuLocation: Powierzchnia -> Powłoka rury
+   MenuLocation: Powierzchnia , Powłoka rury
    Workbenches: Curves_Workbench/pl
 ---
 

@@ -1,6 +1,6 @@
 # Sketcher ToggleDrivingConstraint/es
 ---
-- GuiCommand:   Name: Sketcher ToggleConstraint   Workbenches: Sketcher Workbench/es   Sketcher, PartDesign Workbench/es---
+ GuiCommand:   Name: Sketcher ToggleConstraint   Workbenches: Sketcher Workbench/es   Sketcher, PartDesign Workbench/es---
 
 
 </div>

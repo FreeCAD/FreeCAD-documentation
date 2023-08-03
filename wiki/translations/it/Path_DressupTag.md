@@ -1,6 +1,6 @@
 # Path DressupTag/it
 ---
-- GuiCommand:   Name: Path DressupTag   Name/it: DressupTag   Workbenches: Path Workbench/it   Path, Path_DressupDogbone/it , Path_DressupDragKnife/it ---
+ GuiCommand:   Name: Path DressupTag   Name/it: DressupTag   Workbenches: Path Workbench/it   Path, Path_DressupDogbone/it , Path_DressupDragKnife/it ---
 
 
 </div>

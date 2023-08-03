@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ProjectInfo
    Name/ru: Std ProjectInfo
-   MenuLocation: Файл -> Информация о проекте
+   MenuLocation: Файл , Информация о проекте
    Workbenches: All
    SeeAlso: Std_New/ru
 ---

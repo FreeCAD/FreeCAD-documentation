@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Name/fr: Std Atelier
    Empty: 1
-   MenuLocation: Affichage -> Atelier
+   MenuLocation: Affichage , Atelier
    Workbenches: Workbenches/fr
 ---
 

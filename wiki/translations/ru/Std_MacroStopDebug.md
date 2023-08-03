@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MacroStopDebug
    Name/ru: Остановить отладку
-   MenuLocation: Макросы -> Остановить отладку
+   MenuLocation: Макросы , Остановить отладку
    Workbenches: Все
    Shortcut: **Shift**+**F6**
    SeeAlso: Std_MacroStartDebug/ru

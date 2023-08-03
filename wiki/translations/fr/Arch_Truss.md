@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Truss
    Name/fr: Arch Treillis
-   MenuLocation: Arch -> Treillis
+   MenuLocation: Arch , Treillis
    Workbenches: Arch_Workbench/fr
    Version: 0.19
 ---

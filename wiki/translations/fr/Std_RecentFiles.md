@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RecentFiles
    Name/fr: Std Fichiers récents
    Empty: 1
-   MenuLocation: Fichier -> Fichiers récents
+   MenuLocation: Fichier , Fichiers récents
    Workbenches: Tous
    SeeAlso: Std_Open/fr, Std_Import/fr
 ---

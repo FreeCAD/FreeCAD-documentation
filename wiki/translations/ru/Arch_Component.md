@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Component‏‎‏‎
    Name/ru: Arch Component‏‎‏‎
    Icon: Arch_Component.svg
-   MenuLocation: Arch -> Вспомогательные -> Компонент
+   MenuLocation: Arch , Вспомогательные , Компонент
    Workbenches: Arch_Workbench/ru
    Shortcut: **C** **M**
    SeeAlso: 

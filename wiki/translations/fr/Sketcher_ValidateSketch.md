@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ValidateSketch
    Name/fr: Sketcher Valider l'esquisse
-   MenuLocation: Esquisse -> Valider l'esquisse...
+   MenuLocation: Esquisse , Valider l'esquisse...
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_ConstrainCoincident/fr, Topological_naming_problem/fr
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSketch
    Name/tr: Eskiz Eskiz görünümü
    Workbenches: Sketcher Workbench, PartDesign Workbench
-   MenuLocation: Eskiz -> Eskiz görünümü
+   MenuLocation: Eskiz , Eskiz görünümü
 ---
 
 # Sketcher ViewSketch/tr

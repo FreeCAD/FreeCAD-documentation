@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineIncreaseKnotMultiplicity
-   MenuLocation: Sketch -> Sketcher B-spline tools -> Increase knot multiplicity
+   MenuLocation: Sketch , Sketcher B-spline tools , Increase knot multiplicity
    Workbenches: Sketcher_Workbench
    Version: 0.17
    SeeAlso: Sketcher_BSplineKnotMultiplicity, Sketcher_BSplineDecreaseKnotMultiplicity

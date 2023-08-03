@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewZoomOut
    Name/ru: Уменьшить
-   MenuLocation: Вид -> Масштаб‏‎ -> Уменьшить
+   MenuLocation: Вид , Масштаб‏‎ , Уменьшить
    Workbenches: All
    Shortcut: **Ctrl**+**-**
    SeeAlso: Std_ViewZoomIn/ru, Std_ViewBoxZoom/ru

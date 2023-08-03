@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddNamedGroup
    Name/fr: Draft Nommer un groupe
-   MenuLocation: Utilitaires -> Ajouter un nouveau groupe nommé
+   MenuLocation: Utilitaires , Ajouter un nouveau groupe nommé
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: 
    Version: 0.20

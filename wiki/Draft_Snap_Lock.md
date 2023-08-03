@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **Shift**+**S**

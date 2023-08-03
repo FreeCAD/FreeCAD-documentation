@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить страницу по умолчанию
    Name: TechDraw_PageDefault
-   MenuLocation: TechDraw -> Вставить страницу по умолчанию
+   MenuLocation: TechDraw , Вставить страницу по умолчанию
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_PageTemplate/ru, TechDraw_Templates/ru
 ---

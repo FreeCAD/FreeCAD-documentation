@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Усиленный материал 
    Name: FEM_MaterialReinforced
-   MenuLocation:  Model -> Материалы -> Усиленный материал 
+   MenuLocation:  Model , Материалы , Усиленный материал 
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_tutorial/ru
 ---

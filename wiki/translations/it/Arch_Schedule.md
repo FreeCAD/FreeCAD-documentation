@@ -1,6 +1,6 @@
 # Arch Schedule/it
 ---
-- GuiCommand:   Name: Arch Schedule   Name/it: Scheda   Workbenches: Arch_Workbench/it   Arch---
+ GuiCommand:   Name: Arch Schedule   Name/it: Scheda   Workbenches: Arch_Workbench/it   Arch---
 
 ## Descrizione
 

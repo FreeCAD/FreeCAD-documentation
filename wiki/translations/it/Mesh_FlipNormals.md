@@ -1,6 +1,6 @@
 # Mesh FlipNormals/it
 ---
-- GuiCommand:   Name: Mesh_FlipNormals‏‎   Name/it: Inverti le normali‏‎   MenuLocation: Mesh -> Inverti le normali   Workbenches: Mesh Workbench/it   Mesh---
+ GuiCommand:   Name: Mesh_FlipNormals‏‎   Name/it: Inverti le normali‏‎   MenuLocation: Mesh , Inverti le normali   Workbenches: Mesh Workbench/it   Mesh---
 
 ## Descrizione
 

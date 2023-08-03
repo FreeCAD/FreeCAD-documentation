@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part BooleanFragments
    Name/fr: Part Fragments booléens
-   MenuLocation: Part -> Scinder -> Fragments booléens
+   MenuLocation: Part , Scinder , Fragments booléens
    Workbenches: Part_Workbench/fr
    Version: 0.17
    SeeAlso: Part_Slice/fr, Part_XOR/fr, Part_CompJoinFeatures/fr, Part_Boolean/fr

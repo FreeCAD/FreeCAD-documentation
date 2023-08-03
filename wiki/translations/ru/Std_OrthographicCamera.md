@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ортогональная проекция
    Name: Std_OrthographicCamera
-   MenuLocation: Вид -> Ортогональная проекция
+   MenuLocation: Вид , Ортогональная проекция
    Workbenches: Все
    Shortcut: **V** **O**
    SeeAlso: Std_PerspectiveCamera/ru

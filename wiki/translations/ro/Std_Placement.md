@@ -1,6 +1,6 @@
 # Std Placement/ro
 ---
-- GuiCommand:   Name: Std Placement   MenuLocation: Std Edit Menu   Edit -> Placement...‏‎, Placement---
+ GuiCommand:   Name: Std Placement   MenuLocation: Std Edit Menu   Edit , Placement...‏‎, Placement---
 
 
 </div>

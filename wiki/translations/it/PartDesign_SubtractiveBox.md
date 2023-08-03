@@ -1,6 +1,6 @@
 # PartDesign SubtractiveBox/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveBox   Name/it: Cubo sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveBox   Name/it: Cubo sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

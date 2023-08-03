@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgMacroRecord
    Name/ro: Std DlgMacroRecord
-   MenuLocation: Macros/ro -> Macro recording ...
+   MenuLocation: Macros/ro , Macro recording ...
    Workbenches: All
    SeeAlso: Std_DlgMacroExecuteDirect/ro
 ---

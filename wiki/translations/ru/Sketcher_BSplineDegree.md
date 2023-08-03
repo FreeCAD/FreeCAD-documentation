@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Показать/скрыть степень B-сплайна
    Name: Sketcher_BSplineDegree
-   MenuLocation: Sketch -> B-сплйан инструменты эскиза -> Показать/скрыть степень B-сплайна
+   MenuLocation: Sketch , B-сплйан инструменты эскиза , Показать/скрыть степень B-сплайна
    Workbenches: Sketcher Workbench/ru
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/ru

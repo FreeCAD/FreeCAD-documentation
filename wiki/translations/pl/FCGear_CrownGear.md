@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CrownGear
-   MenuLocation: Gear -> Crown Gear
+   MenuLocation: Gear , Crown Gear
    Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16

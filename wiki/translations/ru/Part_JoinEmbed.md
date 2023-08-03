@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Встроить объект
    Name: Part_JoinEmbed
-   MenuLocation: Part -> Соединить -> Встроить объект
+   MenuLocation: Part , Соединить , Встроить объект
    Workbenches: Part_Workbench/ru
    Version: 0.16
    SeeAlso: Part_JoinConnect/ru, Part_JoinCutout/ru, Part_Boolean/ru, Part_Thickness/ru

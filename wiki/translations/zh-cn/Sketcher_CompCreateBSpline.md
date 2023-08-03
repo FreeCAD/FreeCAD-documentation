@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateBSpline
    Workbenches: Sketcher_Workbench
    Version: 0.17

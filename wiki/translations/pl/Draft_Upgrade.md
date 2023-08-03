@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/pl: Draft: Ulepsz kształt
-   MenuLocation: Modyfikacja -> Upgrade
+   MenuLocation: Modyfikacja , Upgrade
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/pl

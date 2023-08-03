@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Nest
-   MenuLocation: Arch -> Panel tools -> Nest
+   MenuLocation: Arch , Panel tools , Nest
    Workbenches: Arch_Workbench
    Version: 0.17
    SeeAlso: Arch_Panel, Arch_Panel_Sheet

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Draft2Sketch
    Name/de: Entwurf EntwurfZuSkizze
-   MenuLocation: Änderung -> Entwurf zu Skizze
+   MenuLocation: Änderung , Entwurf zu Skizze
    Workbenches: Draft_Workbench/de, Arch_Workbench
 ---
 

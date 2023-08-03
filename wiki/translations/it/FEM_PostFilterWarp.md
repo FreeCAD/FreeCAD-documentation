@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterWarp
    Name/it: FEM PostFilterWarp
-   MenuLocation:  Risultati -> Wrap vector filter
+   MenuLocation:  Risultati , Wrap vector filter
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

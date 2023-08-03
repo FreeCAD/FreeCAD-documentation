@@ -1,6 +1,6 @@
 # FEM ConstraintForce/ru
 ---
-- GuiCommand:   Name: FEM ConstraintForce   Name/ru: FEM ConstraintForce   MenuLocation: FEM -> Constraint force   ---
+ GuiCommand:   Name: FEM ConstraintForce   Name/ru: FEM ConstraintForce   MenuLocation: FEM , Constraint force   ---
 
 
 </div>

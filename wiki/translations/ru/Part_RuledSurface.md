@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RuledSurface
    Name/ru: Линейчатая поверхность
-   MenuLocation: Деталь -> Создать линейчатую поверхность
+   MenuLocation: Деталь , Создать линейчатую поверхность
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_MakeFace/ru
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: MeshPart_CreateFlatMesh
    Name/it: Sviluppa una mesh
    Empty: 1
-   MenuLocation: Mesh -> Sviluppa una mesh
+   MenuLocation: Mesh , Sviluppa una mesh
    Workbenches: Mesh_Workbench/it
    SeeAlso: MeshPart_CreateFlatFace/it
 ---

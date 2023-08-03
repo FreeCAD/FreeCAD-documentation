@@ -1,6 +1,6 @@
 # PartDesign AdditivePrism/ro
 ---
-- GuiCommand:   Name: PartDesign AdditivePrism   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign AdditivePrism   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

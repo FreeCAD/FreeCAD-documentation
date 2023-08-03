@@ -1,6 +1,6 @@
 # Plot Axes/ro
 ---
-- GuiCommand:   Name: Plot Axes   MenuLocation: Plot -> Axes‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Axes   MenuLocation: Plot , Axes‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

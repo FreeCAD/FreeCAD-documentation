@@ -1,6 +1,6 @@
 # Path Post/it
 ---
-- GuiCommand:   Name: Path PostProcess   Name/it: Post elaborazione   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Post-elaborazione   Shortcut: P,P   SeeAlso: ---
+ GuiCommand:   Name: Path PostProcess   Name/it: Post elaborazione   Workbenches: Path Workbench/it   Path|MenuLocation: Path , Post-elaborazione   Shortcut: P,P   SeeAlso: ---
 
 
 </div>

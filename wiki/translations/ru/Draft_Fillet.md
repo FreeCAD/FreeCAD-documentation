@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Fillet
    Name/ru: Draft Fillet
-   MenuLocation: Draft -> Fillet
+   MenuLocation: Draft , Fillet
    Workbenches: Draft_Workbench/ru
    Version: 0.19
    SeeAlso: Draft Line/ru, Draft Wire/ru

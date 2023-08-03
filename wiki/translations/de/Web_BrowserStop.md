@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web BrowserStop
    Name/de: Web BrowserStop
    MenuLocation: 

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkUnlink
    Name/fr: Std Délier
    MenuLocation: Aucun

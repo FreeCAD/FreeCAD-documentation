@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh HarmonizeNormals
-   MenuLocation: Meshes -> Harmonize normals
+   MenuLocation: Meshes , Harmonize normals
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_FlipNormals
 ---

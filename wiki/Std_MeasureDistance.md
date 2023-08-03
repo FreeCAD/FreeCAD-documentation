@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MeasureDistance
-   MenuLocation: Tools -> Measure distance
+   MenuLocation: Tools , Measure distance
    Workbenches: All
    SeeAlso: Part_Measure_Linear, Draft_Dimension
 ---

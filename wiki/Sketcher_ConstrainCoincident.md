@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainCoincident
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain coincident
+   MenuLocation: Sketch , Sketcher constraints , Constrain coincident
    Workbenches: Sketcher_Workbench
    Shortcut: **C**
    SeeAlso: Sketcher_ConstrainLock, Sketcher_ConstrainPointOnObject

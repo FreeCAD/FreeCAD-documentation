@@ -1,6 +1,6 @@
 # Draft Dimension/sv
 ---
-- GuiCommand:   Name: Draft Dimension   Workbenches: Draft_Workbench/sv   Skiss---
+ GuiCommand:   Name: Draft Dimension   Workbenches: Draft_Workbench/sv   Skiss---
 
 
 </div>

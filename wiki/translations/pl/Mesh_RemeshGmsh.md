@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh RemeshGmsh
    Name/pl: Siatka: Ulepsz przez Gmsh
-   MenuLocation: Siatki -> Ulepszanie ...
+   MenuLocation: Siatki , Ulepszanie ...
    Workbenches: Mesh_Workbench/pl
    Version: 0.19
    SeeAlso: Mesh_FromPartShape/pl

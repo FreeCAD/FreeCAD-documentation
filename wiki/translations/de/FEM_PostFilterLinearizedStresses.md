@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterLinearizedStresses
-   MenuLocation: Results -> Stress linearization plot
+   MenuLocation: Results , Stress linearization plot
    Workbenches: FEM_Workbench
    SeeAlso: FEM_PostPipelineFromResult, FEM_PostFilterDataAlongLine, FEM_tutorial
 ---

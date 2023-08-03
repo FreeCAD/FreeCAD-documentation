@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Panel   Name/ro: Arch Panel
-   MenuLocation: Arch -> Panel Tools -> Panel
+   MenuLocation: Arch , Panel Tools , Panel
    Workbenches: Arch_Workbench/ro
    Shortcut: **P** **A**
    SeeAlso: Arch Panel Cut/ro, Arch Panel Sheet/ro

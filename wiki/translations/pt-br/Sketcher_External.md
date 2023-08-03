@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-br
+ GuiCommand:-br
    Name: Sketcher External
    Name/pt-br: Sketcher External
-   MenuLocation: Sketch -> Sketcher geometries -> Sketcher External
+   MenuLocation: Sketch , Sketcher geometries , Sketcher External
    Workbenches: Sketcher_Workbench/pt-br
    Shortcut: X
    SeeAlso: Sketcher_ToggleConstruction/pt-br

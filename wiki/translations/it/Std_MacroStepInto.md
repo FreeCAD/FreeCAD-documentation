@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MacroStepInto
    Name/it: Un passo
    Empty: 1
-   MenuLocation: Macro -> Un passo 
+   MenuLocation: Macro , Un passo 
    Workbenches: Tutti
    Shortcut: **F11**
    SeeAlso: Std_MacroStepOver/it, Std_ToggleBreakpoint/it

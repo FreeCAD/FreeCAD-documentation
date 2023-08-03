@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Hole
    Name/pl: Projekt Części: otwór
-   MenuLocation: Projekt części -> Utwórz cechę przez odjęcie -> Otwór
+   MenuLocation: Projekt części , Utwórz cechę przez odjęcie , Otwór
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_Pocket/pl

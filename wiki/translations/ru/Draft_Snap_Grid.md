@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Name/ru: Draft Grid
-   MenuLocation: Draft -> Draft_Snap -> Grid
+   MenuLocation: Draft , Draft_Snap , Grid
    Workbenches: Draft Workbench, Arch Workbench
    SeeAlso: Draft ToggleGrid/ru, Draft Snap/ru
 ---

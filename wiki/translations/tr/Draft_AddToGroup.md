@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddToGroup
    Name/tr: Gruba Ekle
-   MenuLocation: Taslak -> Araçlar -> Gruba Ekle
+   MenuLocation: Taslak , Araçlar , Gruba Ekle
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft_SelectGroup/tr, Std_Group/tr
 ---

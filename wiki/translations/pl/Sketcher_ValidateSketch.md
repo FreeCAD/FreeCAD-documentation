@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ValidateSketch
    Name/pl: Szkicownik: Sprawdź poprawność szkicu
-   MenuLocation: Szkic -> Sprawdź poprawność szkicu ...
+   MenuLocation: Szkic , Sprawdź poprawność szkicu ...
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    SeeAlso: Sketcher_ConstrainCoincident/pl, Topological_naming_problem/pl
 ---

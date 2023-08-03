@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/it: Crea Schizzo
-   MenuLocation: Schizzo -> Crea uno Schizzo
+   MenuLocation: Schizzo , Crea uno Schizzo
    Workbenches: Sketcher_Workbench/it
    SeeAlso: PartDesign_NewSketch/it, Sketcher_MapSketch/it, Sketcher_ReorientSketch/it
 ---

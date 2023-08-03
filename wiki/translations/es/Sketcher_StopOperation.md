@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher StopOperation
    Name/es: Croquizador DetenerOperación
    Workbenches: Sketcher_Workbench/es
-   MenuLocation: Dibujo -> Detener Operación
+   MenuLocation: Dibujo , Detener Operación
 ---
 
 # Sketcher StopOperation/es

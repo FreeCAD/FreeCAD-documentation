@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cone
-   MenuLocation: Part -> Primitives -> Cone
+   MenuLocation: Part , Primitives , Cone
    Workbenches: Part_Workbench
    SeeAlso: Part_Primitives
 ---

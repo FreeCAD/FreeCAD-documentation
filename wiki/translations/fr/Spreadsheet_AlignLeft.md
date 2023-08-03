@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignLeft
    Name/fr: Spreadsheet Alignement à gauche
-   MenuLocation: Spreadsheet -> Alignement -> Alignement à gauche
+   MenuLocation: Spreadsheet , Alignement , Alignement à gauche
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---

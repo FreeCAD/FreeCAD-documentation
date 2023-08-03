@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_SplitCell
    Name/it: Dividi la cella
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Dividi la cella
+   MenuLocation: Spreadsheet , Dividi la cella
    Version: 0.17
 ---
 

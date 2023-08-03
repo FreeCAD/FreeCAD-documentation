@@ -1,6 +1,6 @@
 # PartDesign Chamfer/ro
 ---
-- GuiCommand:   Name: PartDesign Chamfer   Workbenches: PartDesign Workbench   PartDesign, Complete---
+ GuiCommand:   Name: PartDesign Chamfer   Workbenches: PartDesign Workbench   PartDesign, Complete---
 
 
 </div>

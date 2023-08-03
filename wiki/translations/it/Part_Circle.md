@@ -1,6 +1,6 @@
 # Part Circle/it
 ---
-- GuiCommand:   Name: Part_Circle   Name/it: Cerchio   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Cerchio|SeeAlso: ---
+ GuiCommand:   Name: Part_Circle   Name/it: Cerchio   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Cerchio|SeeAlso: ---
 
 
 </div>

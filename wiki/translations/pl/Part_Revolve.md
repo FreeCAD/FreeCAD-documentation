@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Revolve
    Name/pl: Część: Obrót
-   MenuLocation: Część -> Obrót ...
+   MenuLocation: Część , Obrót ...
    Workbenches: Part_Workbench/pl
 ---
 

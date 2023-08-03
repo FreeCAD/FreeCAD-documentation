@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SliceApart
-   MenuLocation: Part -> Split -> Slice apart
+   MenuLocation: Part , Split , Slice apart
    Workbenches: Part_Workbench
    Version: 0.18
    SeeAlso: Part_Slice, Part_ExplodeCompound

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/it
+ GuiCommand:Addon/it
    Name: BIM IfcElements
    Name/it:  Gestione elementi IFC
    Workbenches: Image:IFC.svg BIM Workbench/it
    Addon: BIM
-   MenuLocation: Gestione -> Elementi IFC
+   MenuLocation: Gestione , Elementi IFC
    SeeAlso: BIM IfcProperties/it,BIM IfcQuantities/it
 ---
 

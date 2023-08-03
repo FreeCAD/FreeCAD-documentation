@@ -1,6 +1,6 @@
 # Std ViewScreenShot/pt
 ---
-- GuiCommand:   Name: Std ViewScreenShot   Name/pt: Std ViewScreenShot   MenuLocation: Std Tools Menu/pt   Tools -> Save picture...|Workbenches: All   SeeAlso: ...---
+ GuiCommand:   Name: Std ViewScreenShot   Name/pt: Std ViewScreenShot   MenuLocation: Std Tools Menu/pt   Tools , Save picture...|Workbenches: All   SeeAlso: ...---
 
 
 </div>

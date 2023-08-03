@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveWedge
-   MenuLocation: Part Design -> Create a subtractive primitive -> Subtractive Wedge
+   MenuLocation: Part Design , Create a subtractive primitive , Subtractive Wedge
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive, PartDesign_AdditiveWedge

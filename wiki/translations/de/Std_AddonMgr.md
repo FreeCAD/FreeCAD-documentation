@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AddonMgr
    Name/de: Std AddonManager
-   MenuLocation: Werkzeuge -> Addon-Manager
+   MenuLocation: Werkzeuge , Addon-Manager
    Workbenches: Alle
    Version: 0.17
    SeeAlso: External_workbenches/de, Macros/de

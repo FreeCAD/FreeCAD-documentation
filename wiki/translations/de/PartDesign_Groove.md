@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Groove
    Name/de: PartDesign Nut
-   MenuLocation: Part Design -> Objekte abziehen -> Nut
+   MenuLocation: Part Design , Objekte abziehen , Nut
    Workbenches: PartDesign_Workbench/de
    SeeAlso: PartDesign_Revolution/de
 ---

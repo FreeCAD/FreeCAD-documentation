@@ -1,6 +1,6 @@
 # WebTools Sketchfab/it
 ---
-- GuiCommand:   Name: WebTools Sketchfab   Name/it: WebTools Sketchfab   MenuLocation: WebTools -> Sketchfab   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: WebTools Sketchfab   Name/it: WebTools Sketchfab   MenuLocation: WebTools , Sketchfab   |Shortcut:    SeeAlso: ---
 
 
 </div>

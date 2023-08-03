@@ -1,6 +1,6 @@
 # Part Point/es
 ---
-- GuiCommand:   Name: Part Point   Name/es: Part Point   MenuLocation: Part -> Part_CreatePrimitives/es   Create Primitives -> Point, OpenSCAD_Workbench/es|SeeAlso: ..---
+ GuiCommand:   Name: Part Point   Name/es: Part Point   MenuLocation: Part , Part_CreatePrimitives/es   Create Primitives , Point, OpenSCAD_Workbench/es|SeeAlso: ..---
 
 
 </div>

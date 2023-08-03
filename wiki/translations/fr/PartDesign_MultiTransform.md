@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_MultiTransform
    Name/fr: PartDesign Transformation multiple
-   MenuLocation: Part Design -> Appliquer une transformation -> Transformation multiple
+   MenuLocation: Part Design , Appliquer une transformation , Transformation multiple
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_Mirrored/fr, PartDesign_LinearPattern/fr, PartDesign_PolarPattern/fr, PartDesign_Scaled/fr
 ---

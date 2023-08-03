@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать опорную точку
    Name: PartDesign_Point
-   MenuLocation: Part Design -> Create a datum -> Создать опорную точку
+   MenuLocation: Part Design , Create a datum , Создать опорную точку
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_Line/ru, PartDesign_Plane/ru

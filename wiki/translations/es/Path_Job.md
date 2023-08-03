@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Job
    Name/es: Trayectoria Pedido
    Workbenches: Path Workbench
-   MenuLocation: Trayectoria -> Pedido
+   MenuLocation: Trayectoria , Pedido
    Shortcut: **P** **F**
    SeeAlso: 
 ---

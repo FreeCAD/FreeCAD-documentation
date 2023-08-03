@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_Drawing
    Name/es: Dibujo
-   MenuLocation: Croquis -> Dibujo
+   MenuLocation: Croquis , Dibujo
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
 ---
 

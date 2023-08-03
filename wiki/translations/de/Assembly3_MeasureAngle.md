@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MeasureAngle
    Name/de: Assembly3 WinkelMessen
    Icon: Assembly_MeasureAngle.svg

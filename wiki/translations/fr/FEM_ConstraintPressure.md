@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintPressure
    Name/fr: FEM Contrainte de pression
-   MenuLocation: Modèle -> Contraintes mécaniques -> Contrainte de pression
+   MenuLocation: Modèle , Contraintes mécaniques , Contrainte de pression
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintForce/fr
 ---

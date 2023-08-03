@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Load‏‎
    Name/it: Carica esempio
-   MenuLocation: Ship design -> Carica un esempio di geometria di una nave
+   MenuLocation: Ship design , Carica un esempio di geometria di una nave
    Workbenches: Ship Workbench/it
    Shortcut: 
    SeeAlso: 

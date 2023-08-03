@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Убрать Вид из группы
    Name: TechDraw_ClipGroupRemove
-   MenuLocation: TechDraw -> Удалить Вид из группы
+   MenuLocation: TechDraw , Удалить Вид из группы
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_ClipGroup/ru, TechDraw_ClipGroupAdd/ru
 ---

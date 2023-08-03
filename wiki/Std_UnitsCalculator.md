@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std UnitsCalculator
-   MenuLocation: Tools -> Units calculator...
+   MenuLocation: Tools , Units calculator...
    Workbenches: All
 ---
 

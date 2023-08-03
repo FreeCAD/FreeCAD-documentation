@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/pl: Draft: Krzywa złożona
-   MenuLocation: Kreślenie -> Krzywa złożona
+   MenuLocation: Kreślenie , Krzywa złożona
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **B** **S**
    SeeAlso: Draft_Wire/pl, Draft_CubicBezCurve/pl, Draft_BezCurve/pl

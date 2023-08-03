@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Extend
    Name/ru: Продлить
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **Q**
-   MenuLocation: Эскиз -> Геометрия эскиза -> Продлить
+   MenuLocation: Эскиз , Геометрия эскиза , Продлить
    Version: 0.17
    SeeAlso: Sketcher_Trimming/ru
 ---

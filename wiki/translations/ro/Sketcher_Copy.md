@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Copy
    Name/ro: Sketcher: Copiere
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Sketcher tools -> Copiere
+   MenuLocation: Sketch , Sketcher tools , Copiere
    Version: 0.16
    SeeAlso: Sketcher Clone/ro, Sketcher Move/ro
 ---

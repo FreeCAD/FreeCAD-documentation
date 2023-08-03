@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Alignment
-   MenuLocation: Edit -> Alignment...
+   MenuLocation: Edit , Alignment...
    Workbenches: All
    SeeAlso: Std_Placement
 ---

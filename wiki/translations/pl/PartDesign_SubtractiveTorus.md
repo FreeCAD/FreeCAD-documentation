@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveTorus
    Name/pl: Projekt Części: Subtraktywny torus
-   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie -> Subtraktywny torus
+   MenuLocation: Projekt Części , Utwórz cechę przez odjęcie , Subtraktywny torus
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/pl, PartDesign_AdditiveTorus/pl

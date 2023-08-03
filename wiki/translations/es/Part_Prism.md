@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/es: Part Prisma
-   MenuLocation: Pieza -> Part_Primitives/es -> Prisma
+   MenuLocation: Pieza , Part_Primitives/es , Prisma
    Workbenches: Part_Workbench/es
    Version: 0.14
    SeeAlso: Part_Primitives/es, Part_Box/es

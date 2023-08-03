@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Openbrowser
    Name/pl: Otwórz przeglądarkę WEB
    Workbenches: Drawing Workbench/pl
-   MenuLocation: Rysunek -> Otwiera wybrana stronę w przeglądarce
+   MenuLocation: Rysunek , Otwiera wybrana stronę w przeglądarce
    Shortcut: brak
 ---
 

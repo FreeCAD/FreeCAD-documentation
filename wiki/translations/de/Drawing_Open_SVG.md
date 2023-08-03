@@ -1,10 +1,10 @@
 # Drawing Open SVG/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Open SVG
    Name/de: Zeichnen Open SVG
    Workbenches: Drawing_Workbench/de, Complete
-   MenuLocation: Drawing -> Open SVG...
+   MenuLocation: Drawing , Open SVG...
    Shortcut: none
    SeeAlso: Drawing_Save/de---
 

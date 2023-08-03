@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image Open
    MenuLocation: 
    Workbenches: Image_Workbench

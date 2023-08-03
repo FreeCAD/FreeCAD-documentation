@@ -1,6 +1,6 @@
 # Sketcher ViewSketch/sv
 ---
-- GuiCommand:   Name: Sketcher ViewSketch   Name/sv: Sketcher ViewSketch   Workbenches: Sketcher Workbench/sv   Sketcher, PartDesign Workbench/sv|MenuLocation: Sketch -> View sketch---
+ GuiCommand:   Name: Sketcher ViewSketch   Name/sv: Sketcher ViewSketch   Workbenches: Sketcher Workbench/sv   Sketcher, PartDesign Workbench/sv|MenuLocation: Sketch , View sketch---
 
 
 </div>

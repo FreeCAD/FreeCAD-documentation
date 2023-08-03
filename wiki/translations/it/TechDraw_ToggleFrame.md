@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ToggleFrame
    Name/it: Attiva o disattiva la cornice
-   MenuLocation: TechDraw -> Attiva o disattiva la cornice
+   MenuLocation: TechDraw , Attiva o disattiva la cornice
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it
 ---

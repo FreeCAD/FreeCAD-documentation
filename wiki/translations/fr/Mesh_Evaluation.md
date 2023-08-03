@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Evaluation
    Name/fr: Mesh Évaluation
-   MenuLocation: Maillages -> Analyser -> Évaluer et réparer le maillage...
+   MenuLocation: Maillages , Analyser , Évaluer et réparer le maillage...
    Workbenches: Mesh_Workbench/fr
 ---
 

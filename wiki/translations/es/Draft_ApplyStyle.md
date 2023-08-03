@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ApplyStyle
    Workbenches: Draft_Workbench/es
-   MenuLocation: Croquis->-> Utilidades -> Aplicar estilo
+   MenuLocation: Croquis->, Utilidades , Aplicar estilo
 ---
 
 # Draft ApplyStyle/es

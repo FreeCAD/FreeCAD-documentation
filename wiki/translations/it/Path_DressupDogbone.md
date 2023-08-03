@@ -1,6 +1,6 @@
 # Path DressupDogbone/it
 ---
-- GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Osso di cane   Workbenches: Path Workbench/it   Path, Path_DressupRampEntry/it, Path_DressupDragKnife/it ---
+ GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Osso di cane   Workbenches: Path Workbench/it   Path, Path_DressupRampEntry/it, Path_DressupDragKnife/it ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Slope
    Name/es: Borrador Pendiente
-   MenuLocation: Modificación -> Fijar pendiente<br>Utilidades -> Fijar pendiente
+   MenuLocation: Modificación , Fijar pendiente<br>Utilidades , Fijar pendiente
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.17
 ---

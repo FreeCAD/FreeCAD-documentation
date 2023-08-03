@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TransformManip
    Name/de: Std Bewegen
-   MenuLocation: Rechtsklick auf ein Objekt in der Baumansicht -> Transformieren
-Bearbeiten -> Transformieren
+   MenuLocation: Rechtsklick auf ein Objekt in der Baumansicht , Transformieren
+Bearbeiten , Transformieren
    Workbenches: Alle
    SeeAlso: Std_Base/de
 ---

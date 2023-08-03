@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Ortho
    Name/fr: Draft Aimantation Orthogonal
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

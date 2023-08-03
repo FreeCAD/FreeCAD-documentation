@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialFluid
-   MenuLocation: Model -> Materials -> Material for fluid
+   MenuLocation: Model , Materials , Material for fluid
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

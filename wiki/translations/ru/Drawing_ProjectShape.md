@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing ProjectShape
    Name/ru: Drawing ProjectShape
    Empty: 1
    Workbenches: Drawing Workbench/ru
-   MenuLocation: Чертёж -> Проекция фигуры
+   MenuLocation: Чертёж , Проекция фигуры
 ---
 
 # Drawing ProjectShape/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Import
    Name/ru: Std Import
-   MenuLocation: Файл -> Импортировать
+   MenuLocation: Файл , Импортировать
    Workbenches: All
    Shortcut: **Ctrl**+**I**
    SeeAlso: Std_Open/ru, Import_Export/ru, Import_Export_Preferences/ru

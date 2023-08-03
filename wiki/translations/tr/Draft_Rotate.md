@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/tr: Döndür
-   MenuLocation: Taslak -> Döndür
+   MenuLocation: Taslak , Döndür
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **R** **O**
    SeeAlso: Draft Move/tr, Draft Array/tr

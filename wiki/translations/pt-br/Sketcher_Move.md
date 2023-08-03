@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Move
-   MenuLocation: Sketch -> Sketcher tools -> Move
+   MenuLocation: Sketch , Sketcher tools , Move
    Workbenches: Sketcher_Workbench
    Shortcut: **Z** **M**
    Version: 0.18

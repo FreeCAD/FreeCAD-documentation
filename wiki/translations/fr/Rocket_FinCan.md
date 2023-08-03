@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket FinCan
    Name/fr: Rocket Échappement avec ailerons
-   MenuLocation: Rocket -> Échappement avec ailerons
+   MenuLocation: Rocket , Échappement avec ailerons
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

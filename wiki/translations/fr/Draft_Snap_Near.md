@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Near
    Name/fr: Draft Aimantation Le plus proche
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

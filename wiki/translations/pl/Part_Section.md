@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Section
    Name/pl: Część: Przecięcie
-   MenuLocation: Część -> Operacje logiczne -> Przecięcie
+   MenuLocation: Część , Operacje logiczne , Przecięcie
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_CrossSections/pl
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Merge
    Name/pl: Siatka: Scal
-   MenuLocation: Siatki -> Scal
+   MenuLocation: Siatki , Scal
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_SplitComponents/pl
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std OnlineHelp
    Name/fr: Std Aide
-   MenuLocation: Aide -> Aide
+   MenuLocation: Aide , Aide
    Workbenches: Tous
    Shortcut: **F1**
    SeeAlso: Std_WhatsThis/fr

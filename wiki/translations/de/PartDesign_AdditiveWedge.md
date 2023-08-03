@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveWedge
    Name/de: PartDesign KeilHinzufügen
-   MenuLocation: Part Design -> Grundkörper hinzufügen -> Keil
+   MenuLocation: Part Design , Grundkörper hinzufügen , Keil
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/de, PartDesign_SubtractiveWedge/de

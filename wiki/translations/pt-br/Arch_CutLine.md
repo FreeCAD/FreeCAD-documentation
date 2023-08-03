@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CutLine
-   MenuLocation: Arch -> Cut with line
+   MenuLocation: Arch , Cut with line
    Workbenches: Arch_Workbench
    Version: 0.19
    SeeAlso: Arch_CutPlane

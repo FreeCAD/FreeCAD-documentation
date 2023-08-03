@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Heal
    Name/fr: Draft Réparer
-   MenuLocation: Utilitaires -> Réparer
+   MenuLocation: Utilitaires , Réparer
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Draft_Upgrade/fr, Draft_Downgrade/fr
 ---

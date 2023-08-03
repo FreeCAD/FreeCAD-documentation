@@ -1,6 +1,6 @@
 # Part Primitives/it
 ---
-- GuiCommand:   Name: Part_Primitives   Name/it: Crea primitive   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part_Primitives   Name/it: Crea primitive   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

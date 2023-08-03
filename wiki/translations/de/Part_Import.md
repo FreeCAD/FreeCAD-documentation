@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Import‏‎
    Name/de: Part Import
-   MenuLocation: Part -> Import CAD
+   MenuLocation: Part , Import CAD
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Export/de, Std_Import/de, Import_Export/de
 ---

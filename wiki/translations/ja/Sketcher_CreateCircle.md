@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateCircle
    Name/ja: Sketcher CreateCircle
    Workbenches: Sketcher Workbench/ja
-   MenuLocation: Sketch -> Sketcher geometries -> Create circle
+   MenuLocation: Sketch , Sketcher geometries , Create circle
    SeeAlso: Sketcher Arc/ja
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgCustomize
    Name/de: Std DlgAnpassen
-   MenuLocation: Werkzeuge -> Benutzerdefiniert...
+   MenuLocation: Werkzeuge , Benutzerdefiniert...
    Workbenches: Alle
    SeeAlso: Interface_Customization/de
 ---

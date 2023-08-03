@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshGroup
    Name/ru: FEM MeshGroup
-   MenuLocation:  Mesh -> FEM Mesh group
+   MenuLocation:  Mesh , FEM Mesh group
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LeaderLine
    Name/de: TechDraw Hinweislinie
-   MenuLocation: TechDraw -> Linien hinzufügen -> Hinweislinie zur Ansicht hinzufügen
+   MenuLocation: TechDraw , Linien hinzufügen , Hinweislinie zur Ansicht hinzufügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_RichTextAnnotation/de, TechDraw_WeldSymbol/de, TechDraw_LineGroup/de

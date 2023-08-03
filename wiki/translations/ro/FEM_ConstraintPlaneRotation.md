@@ -1,6 +1,6 @@
 # FEM ConstraintPlaneRotation/ro
 ---
-- GuiCommand:   Name: FEM ConstraintPlaneRotation   Name/ro: FEM ConstraintPlaneRotation   MenuLocation: Model -> Mechanical Constraints -> Constraint plane rotation   ---
+ GuiCommand:   Name: FEM ConstraintPlaneRotation   Name/ro: FEM ConstraintPlaneRotation   MenuLocation: Model , Mechanical Constraints , Constraint plane rotation   ---
 
 
 </div>

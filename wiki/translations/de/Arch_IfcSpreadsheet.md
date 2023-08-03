@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch IfcSpreadsheet
    Name/de: Arch_ErstelleIfcTabellenblatt
    Workbenches: Arch_Workbench/de
-   MenuLocation: Arch -> Dienstprogramme -> Erstelle IFC Tabellenblatt
+   MenuLocation: Arch , Dienstprogramme , Erstelle IFC Tabellenblatt
    Shortcut: **I** **P**
    SeeAlso: Arch_IFC/de, Arch_IfcExplorer/de
 ---

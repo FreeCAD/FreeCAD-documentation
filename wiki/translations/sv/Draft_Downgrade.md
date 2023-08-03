@@ -1,6 +1,6 @@
 # Draft Downgrade/sv
 ---
-- GuiCommand:   Name: Draft Downgrade   Name/sv: Draft Downgrade   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Downgrade   Name/sv: Draft Downgrade   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

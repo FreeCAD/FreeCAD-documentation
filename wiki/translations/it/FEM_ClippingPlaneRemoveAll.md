@@ -1,6 +1,6 @@
 # FEM ClippingPlaneRemoveAll/it
 ---
-- GuiCommand:   Name: FEM ClippingPlaneRemoveAll   Name/it: FEM ClippingPlaneRemoveAll   Icon: Fem-clipping-plane-remove-all.svg   MenuLocation:  Utilità -> Rimuovi tutti i piani di ritaglio   ---
+ GuiCommand:   Name: FEM ClippingPlaneRemoveAll   Name/it: FEM ClippingPlaneRemoveAll   Icon: Fem-clipping-plane-remove-all.svg   MenuLocation:  Utilità , Rimuovi tutti i piani di ritaglio   ---
 
 
 </div>

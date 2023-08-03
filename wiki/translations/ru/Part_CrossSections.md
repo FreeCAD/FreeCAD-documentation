@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CrossSections
    Name/ru: Поперечные сечения
-   MenuLocation: Деталь -> Поперечные сечения
+   MenuLocation: Деталь , Поперечные сечения
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Section/ru
 ---

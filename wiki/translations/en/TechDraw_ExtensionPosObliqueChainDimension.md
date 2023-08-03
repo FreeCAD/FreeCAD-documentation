@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionPosObliqueChainDimension
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Position Oblique Chain Dimensions
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Oblique Chain Dimensions
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

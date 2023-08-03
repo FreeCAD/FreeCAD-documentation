@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sphere
-   MenuLocation: Part -> Primitives -> Sphere
+   MenuLocation: Part , Primitives , Sphere
    Workbenches: Part_Workbench
    SeeAlso: Part_Primitives
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Axis
    Name/es: Ejes de arquitectura
-   MenuLocation: Arquitectura -> Ejes
+   MenuLocation: Arquitectura , Ejes
    Workbenches: Arch_Workbench/es
    Shortcut: **A** **X**
 ---

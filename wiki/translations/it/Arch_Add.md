@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Add
    Name/it: Aggiungi
-   MenuLocation: Arch -> Aggiungi componente
+   MenuLocation: Arch , Aggiungi componente
    Workbenches: Arch_Workbench/it
    SeeAlso: Arch_Remove/it
 ---

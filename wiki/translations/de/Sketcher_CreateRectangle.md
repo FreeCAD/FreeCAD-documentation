@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle
    Name/de: Sketcher RechteckErstellen
-   MenuLocation: Sketch -> Skizzengeometrien -> Rechteck erstellen
+   MenuLocation: Sketch , Skizzengeometrien , Rechteck erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **R**
    SeeAlso: Sketcher_CreateOblong/de, Sketcher_CreatePolyline/de

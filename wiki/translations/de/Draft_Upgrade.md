@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/de: Entwurf Hochstufen
-   MenuLocation: Entwurf -> Hochstufen
+   MenuLocation: Entwurf , Hochstufen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/de

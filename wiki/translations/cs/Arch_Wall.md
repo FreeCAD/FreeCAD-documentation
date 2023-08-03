@@ -1,6 +1,6 @@
 # Arch Wall/cs
 ---
-- GuiCommand:   Name: Arch Wall   Name/cs: Zed'   Workbenches: Arch_Workbench/cs   Architettura---
+ GuiCommand:   Name: Arch Wall   Name/cs: Zed'   Workbenches: Arch_Workbench/cs   Architettura---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves ParametricComb
    Name/fr: Curves Peigne paramétrique
-   MenuLocation: Curves -> Comb plot
+   MenuLocation: Curves , Comb plot
    Workbenches: Curves_Workbench/fr
 ---
 

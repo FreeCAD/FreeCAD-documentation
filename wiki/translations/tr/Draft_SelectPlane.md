@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/tr: Çalışma düzlemini ayarla
-   MenuLocation: Draft -> Utilities -> Select Plane
+   MenuLocation: Draft , Utilities , Select Plane
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 

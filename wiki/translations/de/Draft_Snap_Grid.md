@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Name/de: Draft EinrastenAufRaster
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

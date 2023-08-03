@@ -1,6 +1,6 @@
 # Part Sweep/cs
 ---
-- GuiCommand:   Name: Part Sweep   Name/cs: Part Sweep   MenuLocation: Part -> Sweep...   ---
+ GuiCommand:   Name: Part Sweep   Name/cs: Part Sweep   MenuLocation: Part , Sweep...   ---
 
 
 </div>

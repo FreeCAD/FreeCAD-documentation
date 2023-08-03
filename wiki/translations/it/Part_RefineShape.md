@@ -1,6 +1,6 @@
 # Part RefineShape/it
 ---
-- GuiCommand:   Name: Part_RefineShape   Name/it: Affina forma   MenuLocation: Parte -> Crea una copia -> Affina forma   Workbenches: Part_Workbench/it   Parte, Part_TransformedCopy/it, Part_ElementCopy/it, OpenSCAD_RefineShapeFeature/it---
+ GuiCommand:   Name: Part_RefineShape   Name/it: Affina forma   MenuLocation: Parte , Crea una copia , Affina forma   Workbenches: Part_Workbench/it   Parte, Part_TransformedCopy/it, Part_ElementCopy/it, OpenSCAD_RefineShapeFeature/it---
 
 
 </div>

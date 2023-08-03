@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectHorizontalAxis
    Name/fr: Sketcher Axe horizontal
-   MenuLocation: Esquisse -> Outils d'esquisse -> Selectionner l'axe horizontal
+   MenuLocation: Esquisse , Outils d'esquisse , Selectionner l'axe horizontal
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **H**
    Version: 0.15

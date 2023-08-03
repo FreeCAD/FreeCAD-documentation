@@ -1,6 +1,6 @@
 # Arch Rebar/uk
 ---
-- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
+ GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
 
 
 </div>
@@ -9,7 +9,7 @@
 <div class="mw-translate-fuzzy">
 
 ---
-- GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
+ GuiCommand:   Name: Arch Rebar   Name/uk: Arch Rebar   Workbenches: Arch_Workbench/uk   Arch---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/ru: Draft Snap WorkingPlane
-   MenuLocation: Черчение -> Draft Snap/ru -> К рабочей плоскости
+   MenuLocation: Черчение , Draft Snap/ru , К рабочей плоскости
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Revolution
    Name/de: PartDesign Drehteil
-   MenuLocation: Part Design -> Objekte hinzufügen -> Drehteil
+   MenuLocation: Part Design , Objekte hinzufügen , Drehteil
    Workbenches: PartDesign_Workbench/de
    SeeAlso: PartDesign_Groove/de
 ---

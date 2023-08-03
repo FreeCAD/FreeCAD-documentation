@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Body
    Name/ro: PartDesign Body
    Icon: PartDesign_Body_Create_New.svg
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: Part Design -> Create body
+   MenuLocation: Part Design , Create body
    Version: 0.17
    SeeAlso: Std Part/ro
 ---

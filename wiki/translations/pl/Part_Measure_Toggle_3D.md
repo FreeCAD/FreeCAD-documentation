@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle 3D
    Name/pl: Część: Włącz / wyłącz widok pomiarów 3D
-   MenuLocation: Pomiary -> Włącz / wyłącz widok pomiarów 3D
+   MenuLocation: Pomiary , Włącz / wyłącz widok pomiarów 3D
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Measure_Toggle_All/pl, Part_Measure_Toggle_Delta/pl
 ---

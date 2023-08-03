@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSection
    Name/ro: Sketcher ViewSection
-   MenuLocation: Sketch -> View section
+   MenuLocation: Sketch , View section
    Workbenches: Sketcher Workbench, PartDesign Workbench 
    Version: 0.18
 ---

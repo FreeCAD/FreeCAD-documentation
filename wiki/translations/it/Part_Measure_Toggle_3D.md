@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle 3D
    Name/it: Attiva o Disattiva 3D
-   MenuLocation: Misura -> Attiva/disattiva 3D
+   MenuLocation: Misura , Attiva/disattiva 3D
    Workbenches: Part_Workbench/it
    SeeAlso: Part_Measure_Toggle_All/it, Part Measure Toggle Delta/it
 ---

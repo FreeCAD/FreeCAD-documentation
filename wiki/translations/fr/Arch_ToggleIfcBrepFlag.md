@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch ToggleIfcBrepFlag
    Name/fr: Arch Bascule marqueur Brep IFC
-   MenuLocation: Arch -> Utilitaires -> Activer/désactiver le marqueur Brep IFC
+   MenuLocation: Arch , Utilitaires , Activer/désactiver le marqueur Brep IFC
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_IfcExplorer/fr, Arch_IFC/fr
 ---

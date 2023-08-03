@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Draft2Sketch
    Name/it: Draft in Sketch
-   MenuLocation: Draft -> Draft in Sketch
+   MenuLocation: Draft , Draft in Sketch
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
 ---
 

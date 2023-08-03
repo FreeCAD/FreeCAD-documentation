@@ -1,6 +1,6 @@
 # Plot Axes/it
 ---
-- GuiCommand:   Name: Plot Axes   Name/it: Assi   MenuLocation: Grafico -> Assi‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Axes   Name/it: Assi   MenuLocation: Grafico , Assi‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgCustomize
    Name/fr: Std Personnalisation
-   MenuLocation: Outils -> Personnaliser...
+   MenuLocation: Outils , Personnaliser...
    Workbenches: Tous
    SeeAlso: Interface_Customization/fr
 ---

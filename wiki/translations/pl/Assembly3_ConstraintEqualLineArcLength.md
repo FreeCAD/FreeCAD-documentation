@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintEqualLineArcLength
    Icon: Assembly_ConstraintEqualLineArcLength.svg
    Workbenches: Assembly3_Workbench

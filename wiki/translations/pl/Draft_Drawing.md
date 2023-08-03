@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/pl: Kreślenie: Projekt rysunku
    Workbenches: Drawing_Workbench/pl, Arch_Workbench/pl

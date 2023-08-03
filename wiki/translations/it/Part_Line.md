@@ -1,6 +1,6 @@
 # Part Line/it
 ---
-- GuiCommand:   Name: Part_Line   Name/it: Linea   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Linea, OpenSCAD_Workbench/it---
+ GuiCommand:   Name: Part_Line   Name/it: Linea   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Linea, OpenSCAD_Workbench/it---
 
 
 </div>

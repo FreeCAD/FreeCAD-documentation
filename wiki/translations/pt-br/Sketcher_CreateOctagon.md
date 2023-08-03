@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateOctagon
-   MenuLocation: Sketch -> Sketcher geometries -> Create octagon
+   MenuLocation: Sketch , Sketcher geometries , Create octagon
    Workbenches: Sketcher_Workbench
    Version: 0.15
 ---

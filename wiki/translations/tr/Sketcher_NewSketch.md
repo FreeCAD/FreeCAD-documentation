@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/tr: Eskiz Oluştur
    Workbenches: Sketcher Workbench/tr
-   MenuLocation: Sketch -> Eskiz oluştur
+   MenuLocation: Sketch , Eskiz oluştur
    SeeAlso: Sketcher_MapSketch/tr, Sketcher_ReorientSketch/tr
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std UnitsCalculator
    Name/fr: Std Convertisseur d'unités
-   MenuLocation: Outils -> Calculateurs d'unités
+   MenuLocation: Outils , Calculateurs d'unités
    Workbenches: Tous
 ---
 

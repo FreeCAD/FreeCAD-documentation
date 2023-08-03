@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Body
    Name/es: Cuerpo PartDesign
    Icon: PartDesign_Body_Create_New.svg
    Workbenches: PartDesign Workbench/es
-   MenuLocation: Part Design -> Crear cuerpo
+   MenuLocation: Part Design , Crear cuerpo
    Version: 0.17
    SeeAlso: Std Part/es
 ---

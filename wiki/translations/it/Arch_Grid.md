@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Grid
    Name/it: Griglia
-   MenuLocation: Arch -> Assi -> Griglia
+   MenuLocation: Arch , Assi , Griglia
    Workbenches: Arch_Workbench/it
    SeeAlso: Arch Axis/it, Arch AxisSystem/it
 ---

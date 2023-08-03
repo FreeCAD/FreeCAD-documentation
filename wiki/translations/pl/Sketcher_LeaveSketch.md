@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher LeaveSketch
    Name/pl: Szkicownik: Zamknij szkic
-   MenuLocation: Szkic / Projekt części -> Opuść szkic
+   MenuLocation: Szkic / Projekt części , Opuść szkic
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    SeeAlso: Sketcher_EditSketch/pl
 ---

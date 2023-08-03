@@ -1,6 +1,6 @@
 # Std DlgMacroExecute/ro
 ---
-- GuiCommand:   Name: Std DlgMacroExecute   MenuLocation: Macros   Macros -> Execute macro---
+ GuiCommand:   Name: Std DlgMacroExecute   MenuLocation: Macros   Macros , Execute macro---
 
 
 </div>

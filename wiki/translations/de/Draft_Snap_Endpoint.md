@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Endpoint
    Name/de: Draft EinrastenAufEndpunkt
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

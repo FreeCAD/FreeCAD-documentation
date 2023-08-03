@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Thickness
    Name/pl: Projekt Części: Grubość
-   MenuLocation: Projekt Części -> Zastosuj funkcję ulepszenia -> Grubość
+   MenuLocation: Projekt Części , Zastosuj funkcję ulepszenia , Grubość
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: Part_Thickness/pl

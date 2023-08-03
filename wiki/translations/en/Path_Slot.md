@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Slot
-   MenuLocation: Path -> Slot
+   MenuLocation: Path , Slot
    Workbenches: Path_Workbench
    Version: 0.19
 ---

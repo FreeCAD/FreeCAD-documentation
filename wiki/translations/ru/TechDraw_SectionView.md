@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить Вид сечения
    Name: TechDraw_SectionView
-   MenuLocation: TechDraw -> Вставить Вид сечения
+   MenuLocation: TechDraw , Вставить Вид сечения
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_View/ru, TechDraw_ProjectionGroup/ru
 ---

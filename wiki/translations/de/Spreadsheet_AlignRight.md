@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignRight
    Name/de: Kalkulationstabelle RechtsAusrichten
-   MenuLocation: Kalkulationstabelle -> Ausrichtung -> Rechts Ausrichten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Rechts Ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointArray
    Name/de: Draft PunktAnordnung
-   MenuLocation: Änderung -> Array tools ->  Punkt-Anordnung
+   MenuLocation: Änderung , Array tools ,  Punkt-Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.18
    SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointLinkArray/de

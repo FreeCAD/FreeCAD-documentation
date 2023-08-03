@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Union‏‎
    Name/fr: Mesh Union
-   MenuLocation: Maillages -> Opération booléenne -> Union
+   MenuLocation: Maillages , Opération booléenne , Union
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_Intersection/fr, Mesh_Difference/fr
 ---

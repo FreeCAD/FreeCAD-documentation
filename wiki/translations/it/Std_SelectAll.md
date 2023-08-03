@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_SelectAll
    Name/it: Seleziona tutto
-   MenuLocation: Modifica -> Seleziona tutto
+   MenuLocation: Modifica , Seleziona tutto
    Workbenches: Tutti
    SeeAlso: Std BoxSelection/it, Std BoxElementSelection/it, Part BoxSelection/it
 ---

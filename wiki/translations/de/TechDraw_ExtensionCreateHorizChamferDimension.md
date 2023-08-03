@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateHorizChamferDimension
    Name/de: TechDraw ErgänzungHorizontalesFasenmaß
-   MenuLocation: TechDraw -> Ergänzungen: Maße -> Horizontales Maß an Fase erstellen
+   MenuLocation: TechDraw , Ergänzungen: Maße , Horizontales Maß an Fase erstellen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

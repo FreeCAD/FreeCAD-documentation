@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Drilling
    Name/fr: Path Perçage
-   MenuLocation: Path -> Perçage
+   MenuLocation: Path , Perçage
    Workbenches: Path_Workbench/fr
 ---
 

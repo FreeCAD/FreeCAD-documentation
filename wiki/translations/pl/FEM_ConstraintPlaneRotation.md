@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintPlaneRotation
    Name/pl: MES: Zdefiniuj obrót w płaszczyźnie
-   MenuLocation: Model -> Wiązania geometryczne -> Zdefiniuj obrót w płaszczyźnie
+   MenuLocation: Model , Wiązania geometryczne , Zdefiniuj obrót w płaszczyźnie
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintTransform/pl
 ---

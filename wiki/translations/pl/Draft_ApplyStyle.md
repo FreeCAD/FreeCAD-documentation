@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Apply
    Name/pl: Rysunek Roboczy: Zastosuj bieżący styl
-   MenuLocation: Przybory -> Zastosuj bieżący styl
+   MenuLocation: Przybory , Zastosuj bieżący styl
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    SeeAlso: Draft_SetStyle/pl
 ---

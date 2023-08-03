@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ReorientSketch
    Name/fr: Sketcher Réorienter l'esquisse
-   MenuLocation: Esquisse -> Réorienter l'esquisse...
+   MenuLocation: Esquisse , Réorienter l'esquisse...
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_MapSketch/fr, Sketcher_NewSketch/fr
 ---

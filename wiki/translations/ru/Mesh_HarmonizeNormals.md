@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh HarmonizeNormals‏‎
    Name/ru: Mesh HarmonizeNormals‏‎
-   MenuLocation: Сетки -> Согласовать нормали
+   MenuLocation: Сетки , Согласовать нормали
    Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 

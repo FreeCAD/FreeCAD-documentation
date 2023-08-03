@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Common
    Name/ru: Пересечение
-   MenuLocation: Деталь -> Булевы операции -> Пересечение
+   MenuLocation: Деталь , Булевы операции , Пересечение
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Boolean/ru, Part_Cut/ru, Part_Fuse/ru
 ---

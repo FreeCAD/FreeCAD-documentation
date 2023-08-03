@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Part RechteckAuswahl
-   MenuLocation: Part -> Rechteckauswahl
+   MenuLocation: Part , Rechteckauswahl
    Workbenches: Part_Workbench/de
    Version: 0.18
    SeeAlso: Std_BoxSelection/de, Std_BoxElementSelection/de, Std_SelectAll/de

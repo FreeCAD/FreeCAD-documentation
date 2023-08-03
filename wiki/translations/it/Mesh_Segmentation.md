@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Segmentation
    Name/it: Crea segmenti di mesh
-   MenuLocation: Mesh -> Crea segmenti di mesh...
+   MenuLocation: Mesh , Crea segmenti di mesh...
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_SegmentationBestFit/it
 ---

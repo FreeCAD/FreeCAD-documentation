@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher constrain radius or diameter
    Name/fr: Sketcher Contrainte rayon ou diamètre
    MenuLocation: 

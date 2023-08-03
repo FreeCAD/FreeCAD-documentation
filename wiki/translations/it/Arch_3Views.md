@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch 3Views
    Name/it: 3 Viste da mesh
-   MenuLocation: Arch -> Utilità -> 3 Viste da mesh
+   MenuLocation: Arch , Utilità , 3 Viste da mesh
    Workbenches: Arch_Workbench/it
    SeeAlso: Arch SplitMesh/it, Arch MeshToShape/it
 ---

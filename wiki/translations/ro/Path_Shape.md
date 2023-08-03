@@ -1,6 +1,6 @@
 # Path Shape/ro
 ---
-- GuiCommand:   Name: Path FromShapes   Workbenches: Path Workbench   Path|MenuLocation: Path -> Partial commands -> From Shape   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Path FromShapes   Workbenches: Path Workbench   Path|MenuLocation: Path , Partial commands , From Shape   Shortcut:    SeeAlso: ---
 
 
 </div>

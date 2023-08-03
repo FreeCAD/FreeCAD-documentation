@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
    Name/pl: Rysunek Roboczy: Łuk
-   MenuLocation: Kreślenie -> Narzędzia łuku -> Łuk
+   MenuLocation: Kreślenie , Narzędzia łuku , Łuk
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **A** **R**
    Version: 0.7

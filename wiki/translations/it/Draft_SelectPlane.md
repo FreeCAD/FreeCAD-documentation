@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/it: Seleziona Piano
-   MenuLocation: Utilità -> Seleziona Piano
+   MenuLocation: Utilità , Seleziona Piano
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **W** **P**
    SeeAlso: Draft_WorkingPlaneProxy/it

@@ -1,10 +1,10 @@
 # Arch Axis/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Axis
    Name/it: Assi
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Assi   Shortcut: **A** **X**
+   MenuLocation: Arch , Assi   Shortcut: **A** **X**
    SeeAlso: Arch AxisSystem/it, Arch Grid/it---
 
 

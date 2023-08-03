@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertChainDimension
    Name/pl: Rysunek Techniczny: Rozszerzenie Seria wymiarów pionowo
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Seria wymiarów pionowo
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Wymiary , Seria wymiarów pionowo
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

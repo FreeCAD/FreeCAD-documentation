@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Migrate
    Name/it: Migra
    Empty: 1
    Workbenches: PartDesign Workbench/it
-   MenuLocation: Part Design -> Migra
+   MenuLocation: Part Design , Migra
    Version: 0.17
 ---
 

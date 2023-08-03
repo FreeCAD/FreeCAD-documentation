@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineApproximate
    Name/fr: Sketcher Convertir en B-spline
-   MenuLocation: Esquisse -> Outils d'esquisse des B-splines -> Convertir la géometrie en B-spline
+   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Convertir la géometrie en B-spline
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/fr

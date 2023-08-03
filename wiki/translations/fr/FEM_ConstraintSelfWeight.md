@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintSelfWeight
    Name/fr: FEM Contrainte de poids propre
-   MenuLocation: Modèle -> Contraintes mécaniques -> Contrainte de poids propre
+   MenuLocation: Modèle , Contraintes mécaniques , Contrainte de poids propre
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

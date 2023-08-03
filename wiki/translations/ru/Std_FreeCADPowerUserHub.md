@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Документация по созданию скриптов на Python
    Name: Std_FreeCADPowerUserHub
-   MenuLocation: Помощь -> Документация по созданию скриптов на Python
+   MenuLocation: Помощь , Документация по созданию скриптов на Python
    Workbenches: Все
    SeeAlso: Std_FreeCADWebsite/ru, Std_FreeCADUserHub/ru, Std_FreeCADForum/ru, Std_FreeCADFAQ/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Job
    Name/fr: Path Tâche
-   MenuLocation: Path -> Tâche
+   MenuLocation: Path , Tâche
    Workbenches: Path_Workbench/fr
    Shortcut: **P** **J**
    SeeAlso: Path_Post/fr, Path_Postprocessor_Customization/fr

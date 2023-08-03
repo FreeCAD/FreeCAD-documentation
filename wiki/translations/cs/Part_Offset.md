@@ -1,6 +1,6 @@
 # Part Offset/cs
 ---
-- GuiCommand:   Name: Part Offset   Name/cs: Part Offset   MenuLocation: Part -> Offset   , Complet---
+ GuiCommand:   Name: Part Offset   Name/cs: Part Offset   MenuLocation: Part , Offset   , Complet---
 
 
 </div>

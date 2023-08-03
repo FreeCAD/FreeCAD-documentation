@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/it: Sposta
-   MenuLocation: Sketch -> Strumenti -> Sposta
+   MenuLocation: Sketch , Strumenti , Sposta
    Workbenches: Sketcher_Workbench/it
    Shortcut: **Z** **M**
    Version: 0.18

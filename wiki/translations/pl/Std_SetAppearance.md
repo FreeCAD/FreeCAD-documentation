@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SetAppearance
    Name: Std: Wygląd zewnętrzny
-   MenuLocation: Widok -> Wygląd zewnętrzny ...
+   MenuLocation: Widok , Wygląd zewnętrzny ...
    Workbenches: wszystkie
    Shortcut: **Ctrl**+**D**
    SeeAlso: Part_FaceColors/pl

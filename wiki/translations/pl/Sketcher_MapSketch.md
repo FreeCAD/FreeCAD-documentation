@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_MapSketch
    Name/pl: Szkicownik: Mapuj szkic na powierzchnię
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
-   MenuLocation: Projekt Części / Szkicownik -> Mapuj szkic na powierzchnię ...
+   MenuLocation: Projekt Części / Szkicownik , Mapuj szkic na powierzchnię ...
    SeeAlso: Sketcher_NewSketch/pl
 ---
 

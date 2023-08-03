@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part EditAttachment
-   MenuLocation: Part -> Attachment...
+   MenuLocation: Part , Attachment...
    Workbenches: Part_Workbench, PartDesign_Workbench
    Version: 0.17
    SeeAlso: Placement, Basic_Attachment_Tutorial, Part_Part2DObject

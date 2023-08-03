@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ToggleFrame
-   MenuLocation: TechDraw -> TechDraw Views -> Turn View Frames On/Off
+   MenuLocation: TechDraw , TechDraw Views , Turn View Frames On/Off
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipsoid
    Name/de: Part Ellipsoid
-   MenuLocation: Formteil -> Part_Primitives/de -> Ellipsoid
+   MenuLocation: Formteil , Part_Primitives/de , Ellipsoid
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

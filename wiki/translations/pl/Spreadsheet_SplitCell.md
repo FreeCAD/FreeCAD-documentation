@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SplitCell
    Name/pl: Arkusz Kalkulacyjny: Podziel komórkę
-   MenuLocation: Arkusz kalkulacyjny -> Podziel komórkę
+   MenuLocation: Arkusz kalkulacyjny , Podziel komórkę
    Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---

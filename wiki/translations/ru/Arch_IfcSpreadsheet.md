@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch IfcSpreadsheet
    Name/ru: Arch IfcSpreadsheet
-   MenuLocation: Arch -> Utilities -> Создать IFC таблицу
+   MenuLocation: Arch , Utilities , Создать IFC таблицу
    Workbenches: Arch_Workbench/ru
    Shortcut: **I** **P**
    SeeAlso: Arch_IFC/ru, Arch_IfcExplorer/ru

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign InvoluteGear
    Name/de: PartDesign Evolventenrad
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Part Design -> Evolventenrad...
+   MenuLocation: Part Design , Evolventenrad...
    Workbenches: PartDesign_Workbench/de
    SeeAlso: FCGear_Workbench/de
 ---

@@ -1,6 +1,6 @@
 # Std Edit/ro
 ---
-- GuiCommand:   Name: Std Edit   MenuLocation: Std_Edit_Menu   Edit -> Toggle Editmode|Workbenches: All   SeeAlso: ...---
+ GuiCommand:   Name: Std Edit   MenuLocation: Std_Edit_Menu   Edit , Toggle Editmode|Workbenches: All   SeeAlso: ...---
 
 
 </div>

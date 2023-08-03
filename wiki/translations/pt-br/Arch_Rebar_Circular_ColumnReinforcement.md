@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar ColumnReinforcement
-   MenuLocation: Reinforcement -> Column Reinforcement, Arch -> Rebar tools
+   MenuLocation: Reinforcement , Column Reinforcement, Arch , Rebar tools
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.19
    SeeAlso: Reinforcement_Workbench, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars, Arch_Rebar

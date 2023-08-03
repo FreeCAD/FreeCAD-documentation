@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Profile
    Name/fr: Path Contournage
-   MenuLocation: Path -> Contournage
+   MenuLocation: Path , Contournage
    Workbenches: Path_Workbench/fr
    Version: 0.19
 ---

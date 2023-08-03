@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/ro: Creaza schita
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Creaza schita
+   MenuLocation: Sketch , Creaza schita
    SeeAlso: Sketcher_MapSketch/ro, Sketcher_ReorientSketch/ro
 ---
 

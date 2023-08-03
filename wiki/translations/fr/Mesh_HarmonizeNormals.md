@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh HarmonizeNormals
    Name/fr: Mesh Harmoniser les normales‎
-   MenuLocation: Maillages -> Harmoniser les normales‎
+   MenuLocation: Maillages , Harmoniser les normales‎
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_FlipNormals/fr
 ---

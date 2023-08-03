@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Surface
-   MenuLocation: Path -> 3D Surface
+   MenuLocation: Path , 3D Surface
    Workbenches: Path_Workbench
    Version: 0.19
 ---

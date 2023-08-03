@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle All
    Name/de: Part Messung AlleUmschalten
-   MenuLocation: Messen -> Alle umschalten
+   MenuLocation: Messen , Alle umschalten
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Measure_Toggle_3D/de, Part_Measure_Toggle_Delta/de
 ---

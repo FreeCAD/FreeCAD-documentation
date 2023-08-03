@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintEqualLineArcLength
    Name/fr: Assembly3 Contrainte égalité longueur d'arc
    Icon: Assembly_ConstraintEqualLineArcLength.svg

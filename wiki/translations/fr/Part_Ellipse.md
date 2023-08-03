@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipse
    Name/fr: Part Ellipse
-   MenuLocation: Part -> Part_Primitives/fr -> Ellipse
+   MenuLocation: Part , Part_Primitives/fr , Ellipse
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---

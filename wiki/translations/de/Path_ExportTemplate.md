@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path ExportTemplate
    Name/de: Pfad ExportVorlage
-   MenuLocation: Pfad -> Export Vorlage
+   MenuLocation: Pfad , Export Vorlage
    Workbenches: Path_Workbench/de
    SeeAlso: Path_SetupSheet
 ---

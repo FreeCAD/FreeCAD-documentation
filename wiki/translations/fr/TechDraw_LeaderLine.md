@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LeaderLine
    Name/fr: TechDraw Ligne de référence
-   MenuLocation: TechDraw -> Ajouter des lignes -> Insérer une ligne de référence à la vue
+   MenuLocation: TechDraw , Ajouter des lignes , Insérer une ligne de référence à la vue
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_RichTextAnnotation/fr, TechDraw_WeldSymbol/fr, TechDraw_LineGroup/fr

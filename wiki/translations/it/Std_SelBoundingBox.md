@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_SelBoundingBox
    Name/it: Box contenitore
-   MenuLocation: Visualizza -> Box contenitore
+   MenuLocation: Visualizza , Box contenitore
    Workbenches: Tutti
    Version: 0.19
    SeeAlso: Std_DrawStyle/it

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SetAppearance
    Name/it: Impostare l'aspetto degli oggetti
-   MenuLocation: Visualizza -> Aspetto...
+   MenuLocation: Visualizza , Aspetto...
    Workbenches: Tutti
    Shortcut: **Ctrl**+**D**
    SeeAlso: Part_FaceColors/it

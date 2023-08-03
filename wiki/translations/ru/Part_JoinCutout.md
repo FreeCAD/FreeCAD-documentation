@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinCutout
    Name/ru: Part JoinCutout
-   MenuLocation: Деталь -> Join -> Cutout for Object
+   MenuLocation: Деталь , Join , Cutout for Object
    Workbenches: Part_Workbench/ru
    Version: 0.16.5069
    SeeAlso: Part_JoinConnect/ru, Part_JoinEmbed/ru, Part Boolean/ru, Part Thickness/ru

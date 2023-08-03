@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Floor
    Name/ru: Arch Floor
    Workbenches: Arch_Workbench/ru
-   MenuLocation: Архитектура -> Этаж
+   MenuLocation: Архитектура , Этаж
    Shortcut: **F** **L**
    SeeAlso: Arch Building/ru,  Arch BuildingPart, Arch Site/ru
 ---

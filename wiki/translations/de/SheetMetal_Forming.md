@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal Forming
    Name/de: SheetMetal Prägen 
-   MenuLocation: SheetMetal -> Make Forming in Wall
+   MenuLocation: SheetMetal , Make Forming in Wall
    Workbenches: SheetMetal_Workbench/de
    Shortcut: **M** **F**
 ---

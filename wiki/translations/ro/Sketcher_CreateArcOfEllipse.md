@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/ro: Sketcher arc de elipsă
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Geometria schitei -> Creaţi un arc de elipsă
+   MenuLocation: Sketch , Geometria schitei , Creaţi un arc de elipsă
    Version: 0.15
    SeeAlso: Sketcher CreateEllipseByCenter/ro, Sketcher CompCreateArc/ro
 ---

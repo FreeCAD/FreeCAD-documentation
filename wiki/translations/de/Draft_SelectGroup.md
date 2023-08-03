@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectGroup
    Name/de: Wähle Gruppe
-   MenuLocation: Dienstprogramme -> Wähle Gruppe
+   MenuLocation: Dienstprogramme , Wähle Gruppe
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Std_Group/de, Draft_AddToGroup/de, Draft_AddConstruction/de, Draft_AutoGroup/de
 ---

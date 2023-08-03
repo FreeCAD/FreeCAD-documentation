@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationMagnetodynamic
    Name/fr: FEM Équation magnétodynamique
-   MenuLocation: Résolution -> Équations électromagnétiques -> Équation magnétodynamique
+   MenuLocation: Résolution , Équations électromagnétiques , Équation magnétodynamique
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic2D/fr

@@ -1,12 +1,12 @@
 # Arch Rebar BentShape/ro
 ---
-- GuiCommand:Addon   Name: Arch Rebar BentShape   Workbenches: Arch_Workbench/ro   Arch---
+ GuiCommand:Addon   Name: Arch Rebar BentShape   Workbenches: Arch_Workbench/ro   Arch---
 
 
 </div>
 
 ---
-- GuiCommand:Addon   Name: Arch Rebar BentShape   Workbenches: Arch_Workbench/ro   Arch---
+ GuiCommand:Addon   Name: Arch Rebar BentShape   Workbenches: Arch_Workbench/ro   Arch---
 
 
 

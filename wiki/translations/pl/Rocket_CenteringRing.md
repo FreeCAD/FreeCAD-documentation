@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket CenteringRing
-   MenuLocation: Rocket -> Centering Ring
+   MenuLocation: Rocket , Centering Ring
    Workbenches: Rocket_Workbench
    Version: 0.19
 ---

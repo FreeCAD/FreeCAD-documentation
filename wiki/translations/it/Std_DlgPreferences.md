@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgPreferences
    Name/it: Preferenze
-   MenuLocation: Modifica -> Preferenze...
+   MenuLocation: Modifica , Preferenze...
    Workbenches: Tutti
    SeeAlso: Preferences_Editor/it
 ---

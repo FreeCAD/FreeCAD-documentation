@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ClippingPlaneRemoveAll
    Name/fr: FEM Supprimer les plans de coupe
-   MenuLocation: Utilitaires -> Supprimer tous les plans de coupe
+   MenuLocation: Utilitaires , Supprimer tous les plans de coupe
    
    SeeAlso: FEM_tutorial/fr
 ---

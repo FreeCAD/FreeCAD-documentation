@@ -1,6 +1,6 @@
 # Sketcher MapSketch/es
 ---
-- GuiCommand:   Name: Sketcher MapSketch   Name/es: Sketcher MapSketch   Create a sketch on a face, PartDesign Workbench/es---
+ GuiCommand:   Name: Sketcher MapSketch   Name/es: Sketcher MapSketch   Create a sketch on a face, PartDesign Workbench/es---
 
 
 </div>

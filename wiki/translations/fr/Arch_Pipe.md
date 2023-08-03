@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Pipe
    Name/fr: Arch Conduite
-   MenuLocation: Arch -> Outils pour la tuyauterie -> Conduite
+   MenuLocation: Arch , Outils pour la tuyauterie , Conduite
    Workbenches: Arch_Workbench/fr
    Shortcut: **P** **I**
    Version: 0.17

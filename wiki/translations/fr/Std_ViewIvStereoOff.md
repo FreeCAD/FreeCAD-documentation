@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoOff
    Name/fr: Std Stéréo désactivée
-   MenuLocation: Affichage -> Stéréo -> Désactiver la stéréo
+   MenuLocation: Affichage , Stéréo , Désactiver la stéréo
    Workbenches: Tous
    SeeAlso: Std_ViewIvStereoRedGreen/fr, Std_ViewIvStereoQuadBuff/fr, Std_ViewIvStereoInterleavedRows/fr, Std_ViewIvStereoInterleavedColumns/fr
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves ParametricComb
-   MenuLocation: Curves -> Comb plot
+   MenuLocation: Curves , Comb plot
    Workbenches: Curves_Workbench
 ---
 

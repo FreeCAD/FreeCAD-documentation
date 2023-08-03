@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Print
    Name/pl: Std: Drukuj
-   MenuLocation: Plik -> Drukuj ...
+   MenuLocation: Plik , Drukuj ...
    Workbenches: All
    Shortcut: **Ctrl** + **P**
    SeeAlso: Std_PrintPreview/pl, Std_PrintPdf/pl, Std_Export/pl, Std_ViewScreenShot/pl

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ReportBug
    Name/pl: Std: Zgłoś błąd
-   MenuLocation: Pomoc -> Zgłoś błąd
+   MenuLocation: Pomoc , Zgłoś błąd
    Workbenches: wszytkie
    Version: 0.20
 ---

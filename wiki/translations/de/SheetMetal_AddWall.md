@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddWall
    Name/de: SheetMetal KanteAnsetzen
-   MenuLocation: SheetMetal -> Make Wall
+   MenuLocation: SheetMetal , Make Wall
    Workbenches: SheetMetal Workbench/de
    Shortcut: **W**
 ---

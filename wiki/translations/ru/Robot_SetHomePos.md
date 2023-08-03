@@ -1,10 +1,10 @@
 # Robot SetHomePos/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot SetHomePos
    Name/ru: Robot SetHomePos
    Workbenches: Robot_Workbench/ru
-   MenuLocation: Робот -> Установить исходное положение---
+   MenuLocation: Робот , Установить исходное положение---
 
 
 </div>

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar
-   MenuLocation: Arch -> Rebar tools -> Custom Rebar<br>3D/BIM -> Reinforcement tools -> Custom Rebar
+   MenuLocation: Arch , Rebar tools , Custom Rebar<br>3D/BIM , Reinforcement tools , Custom Rebar
    Workbenches: Arch_Workbench, BIM_Workbench
    Shortcut: **R** **B**
    SeeAlso: Arch_Structure, Reinforcement_Workbench

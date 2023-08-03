@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Simulator
    Name/fr: Path Simulateur FAO
-   MenuLocation: Path -> Simulateur FAO
+   MenuLocation: Path , Simulateur FAO
    Workbenches: Path_Workbench/fr
    Shortcut: **P** **M**
    SeeAlso: Path_Inspect/fr

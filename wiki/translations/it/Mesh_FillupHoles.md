@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_FillupHoles
    Name/it: Riempi i buchi
-   MenuLocation: Mesh -> Riempi i buchi...
+   MenuLocation: Mesh , Riempi i buchi...
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_FillInteractiveHole/it, Mesh_AddFacet/it
 ---

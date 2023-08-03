@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MergeProjects
    Name/it: Unisci progetti
-   MenuLocation: File -> Unisci progetti...
+   MenuLocation: File , Unisci progetti...
    Workbenches: Tutti
 ---
 

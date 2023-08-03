@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SetMaterial
    Name/de: Arch MaterialZuordnen
-   MenuLocation: Arch -> Materialwerkzeuge -> Material
+   MenuLocation: Arch , Materialwerkzeuge , Material
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Shortcut: **M** **T**
    SeeAlso: Arch_CompSetMaterial/de, Arch_MultiMaterial/de

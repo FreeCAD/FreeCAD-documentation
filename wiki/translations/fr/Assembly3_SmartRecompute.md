@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 SmartRecompute
    Name/fr: Assembly3 Recomputation intelligente
    Icon: Assembly_SmartRecompute.svg‎‎
-   MenuLocation: Assembly3 -> Smart recompute
+   MenuLocation: Assembly3 , Smart recompute
    Workbenches: Assembly3_Workbench/fr
 ---
 

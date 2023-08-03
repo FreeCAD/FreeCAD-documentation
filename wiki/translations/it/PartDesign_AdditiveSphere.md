@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveSphere   Name/it: Sfera additiva   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveSphere   Name/it: Sfera additiva   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

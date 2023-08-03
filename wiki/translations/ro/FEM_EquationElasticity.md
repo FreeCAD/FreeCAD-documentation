@@ -1,6 +1,6 @@
 # FEM EquationElasticity/ro
 ---
-- GuiCommand:   Name: FEM EquationElasticity   MenuLocation:  Solve -> Equation elasticity   ---
+ GuiCommand:   Name: FEM EquationElasticity   MenuLocation:  Solve , Equation elasticity   ---
 
 
 </div>

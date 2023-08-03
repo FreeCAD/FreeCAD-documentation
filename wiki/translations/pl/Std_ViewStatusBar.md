@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewStatusBar
    Name/pl: Std: Pasek stanu
    Empty: 1
-   MenuLocation: Widok -> Pasek stanu
+   MenuLocation: Widok , Pasek stanu
    Workbenches: Wszystkie
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintBearing
    Name/de: FEM RandbedingungWälzlager
-   MenuLocation: Modell -> Randbedingungen ohne Solver -> Randbedingung Wälzlager
+   MenuLocation: Modell , Randbedingungen ohne Solver , Randbedingung Wälzlager
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_ConstraintGear/de, FEM_ConstraintPulley/de
 ---

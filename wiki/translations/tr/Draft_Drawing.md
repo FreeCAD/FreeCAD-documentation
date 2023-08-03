@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/tr: Çizim
-   MenuLocation: Drafting -> Drawing
+   MenuLocation: Drafting , Drawing
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 

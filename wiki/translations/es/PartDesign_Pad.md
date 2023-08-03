@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pad
    Name/es: DiseñoPieza Pastilla
-   MenuLocation: DiseñoPieza -> Crear una característica aditiva -> Pastilla
+   MenuLocation: DiseñoPieza , Crear una característica aditiva , Pastilla
    Workbenches: PartDesign_Workbench/es
    SeeAlso: PartDesign_Pocket/es
 ---

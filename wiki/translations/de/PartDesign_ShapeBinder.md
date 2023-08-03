@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign ShapeBinder
    Name/de: PartDesign FormBinder
-   MenuLocation: Part Design -> Formbinder erstellen
+   MenuLocation: Part Design , Formbinder erstellen
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_SubShapeBinder/de,PartDesign Clone/de

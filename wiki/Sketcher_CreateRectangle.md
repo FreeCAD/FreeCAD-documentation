@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle
-   MenuLocation: Sketch -> Sketcher geometries -> Create rectangle
+   MenuLocation: Sketch , Sketcher geometries , Create rectangle
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **R**
    SeeAlso: Sketcher_CreateOblong, Sketcher_CreatePolyline

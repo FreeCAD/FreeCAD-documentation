@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/fr
+ GuiCommand:Addon/fr
    Name: BIM Preflight
    Name/fr: BIM Contrôle en amont
    Workbenches: Image:IFC.svg BIM Workbench/fr
    Addon: BIM
-   MenuLocation: Manage -> Preflight check
+   MenuLocation: Manage , Preflight check
 ---
 
 # BIM Preflight/fr

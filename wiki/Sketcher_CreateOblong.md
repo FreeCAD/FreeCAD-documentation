@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateOblong
-   MenuLocation: Sketch -> Sketcher geometries -> Create rounded rectangle
+   MenuLocation: Sketch , Sketcher geometries , Create rounded rectangle
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **O**
    Version: 0.20

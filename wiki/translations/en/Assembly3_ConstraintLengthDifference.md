@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLengthDifference
    Icon: Assembly_ConstraintLengthDifference.svg
    Workbenches: Assembly3_Workbench

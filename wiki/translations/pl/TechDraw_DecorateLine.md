@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DecorateLine
    Name/pl: Rysunek Techniczny: Zmień wygląd linii
-   MenuLocation: Rysunek Techniczny -> Zmień wygląd linii
+   MenuLocation: Rysunek Techniczny , Zmień wygląd linii
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/pl, TechDraw_CosmeticEraser/pl

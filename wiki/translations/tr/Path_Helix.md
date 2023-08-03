@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Helix
    Name/tr: CNC G-Kodu Helezon
    Workbenches: Path Workbench/tr
-   MenuLocation: CNC G-Kodu -> Helezon
+   MenuLocation: CNC G-Kodu , Helezon
    Shortcut: 
    SeeAlso: 
 ---

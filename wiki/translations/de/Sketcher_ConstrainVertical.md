@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainVertical
    Name/de: Sketcher VertikalFestlegen
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Vertikal einschränken
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Vertikal einschränken
    Workbenches: Sketcher_Workbench/de
    Shortcut: **V**
    SeeAlso: Sketcher_ConstrainHorizontal/de

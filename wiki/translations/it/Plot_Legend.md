@@ -1,6 +1,6 @@
 # Plot Legend/it
 ---
-- GuiCommand:   Name: Plot Legend   Name/it: Legenda   MenuLocation: Plot -> Legenda‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Legend   Name/it: Legenda   MenuLocation: Plot , Legenda‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

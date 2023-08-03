@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear BevelGear
-   MenuLocation: Gear -> Bevel Gear
+   MenuLocation: Gear , Bevel Gear
    Workbenches: FCGear_Workbench
    Version: v0.16
 ---

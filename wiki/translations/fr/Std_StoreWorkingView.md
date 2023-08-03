@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std StoreWorkingView
    Name/fr: Std Stocker la vue de travail
-   MenuLocation: Affichage -> Vues standards -> Stocker la vue de travail
+   MenuLocation: Affichage , Vues standards , Stocker la vue de travail
    Workbenches: Tous
    Shortcut: **Maj**+**Fin**
    Version: 0.21

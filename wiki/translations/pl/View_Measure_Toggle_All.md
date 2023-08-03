@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: View Measure Toggle All
    Name/pl: Przełącz widoczność wymiarów
-   MenuLocation: Widok -> Widoczność -> Przełącz widoczność wymiarów
+   MenuLocation: Widok , Widoczność , Przełącz widoczność wymiarów
    Workbenches: wszystkie
    SeeAlso: View_Measure_Clear_All/pl, Part_Measure_Toggle_All/pl, Part_Measure_Clear_All/pl
 ---

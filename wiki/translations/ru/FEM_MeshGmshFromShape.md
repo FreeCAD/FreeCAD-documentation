@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshGmshFromShape
    Name/ru: FEM MeshGmshFromShape
-   MenuLocation: Mesh -> Сетка МКЭ из фигуры генерируемая построителем Gmsh
+   MenuLocation: Mesh , Сетка МКЭ из фигуры генерируемая построителем Gmsh
    Workbenches: FEM_Workbench/ru
    Shortcut: нет
    SeeAlso: FEM_tutorial/ru

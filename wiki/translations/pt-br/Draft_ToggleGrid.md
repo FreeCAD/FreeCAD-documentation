@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **G** **R**

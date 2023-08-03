@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloneComponent‏‎‏‎
    Name/ro: Arch: CloneComponent
-   MenuLocation: Arch -> Utilities -> Clone Component
+   MenuLocation: Arch , Utilities , Clone Component
    Workbenches: Arch_Workbench/ro
    SeeAlso: Draft Clone, Arch Component
    Icon: Arch_Component_Clone.svg

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear BevelGear
    Name/fr: FCGear Engrenage conique
-   MenuLocation: Gear -> Bevel Gear
+   MenuLocation: Gear , Bevel Gear
    Workbenches: FCGear_Workbench/fr
    Version: v0.16
 ---

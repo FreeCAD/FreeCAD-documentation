@@ -1,6 +1,6 @@
 # FEM MeshRegion/it
 ---
-- GuiCommand:   Name: FEM_MeshRegion   Name/it: FEM MeshRegion   MenuLocation:  Mesh -> FEM Mesh region   ---
+ GuiCommand:   Name: FEM_MeshRegion   Name/it: FEM MeshRegion   MenuLocation:  Mesh , FEM Mesh region   ---
 
 
 </div>

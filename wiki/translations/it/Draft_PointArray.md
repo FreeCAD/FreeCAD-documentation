@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_PointArray
    Name/it: Serie su punti
-   MenuLocation: Modifiche -> Strumenti serie ->  Serie su punti
+   MenuLocation: Modifiche , Strumenti serie ,  Serie su punti
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.18
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointLinkArray/it

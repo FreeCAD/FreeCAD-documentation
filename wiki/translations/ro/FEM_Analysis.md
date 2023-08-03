@@ -1,6 +1,6 @@
 # FEM Analysis/ro
 ---
-- GuiCommand:   Name: FEM Analysis   Name/ro: FEM Analysis   MenuLocation: Model -> Analysis container‏‎   ---
+ GuiCommand:   Name: FEM Analysis   Name/ro: FEM Analysis   MenuLocation: Model , Analysis container‏‎   ---
 
 
 </div>

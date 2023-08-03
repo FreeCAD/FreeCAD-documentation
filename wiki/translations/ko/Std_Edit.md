@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Edit
    Name/ko: 표준 편집 모드 전환
-   MenuLocation: 편집 -> 편집 모드 전환
+   MenuLocation: 편집 , 편집 모드 전환
    Workbenches: 모두
 ---
 

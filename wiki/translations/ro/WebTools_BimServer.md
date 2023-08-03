@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Arch BimServer‏‎‏‎
    Workbenches: Arch_Workbench/ro
-   MenuLocation: Arch -> Utilities -> BIM server
+   MenuLocation: Arch , Utilities , BIM server
    Shortcut: ‏‎
    SeeAlso: 
 ---

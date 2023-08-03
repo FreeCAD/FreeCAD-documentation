@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignRight
    Name/fr: Spreadsheet Alignement à droite
-   MenuLocation: Spreadsheet -> Alignement -> Alignement à droite
+   MenuLocation: Spreadsheet , Alignement , Alignement à droite
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TextDocument
    Name/fr: Std Ajouter un document texte
-   MenuLocation: Outils -> Ajouter un document texte
+   MenuLocation: Outils , Ajouter un document texte
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Draft_ShapeString/fr, Draft_Text

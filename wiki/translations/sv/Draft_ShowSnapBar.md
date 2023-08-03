@@ -1,6 +1,6 @@
 # Draft ShowSnapBar/sv
 ---
-- GuiCommand:   Name: Draft ShowSnapBar   Name/sv: Draft ShowSnapBar   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Show Snap Bar---
+ GuiCommand:   Name: Draft ShowSnapBar   Name/sv: Draft ShowSnapBar   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft , Utilities , Show Snap Bar---
 
 
 </div>

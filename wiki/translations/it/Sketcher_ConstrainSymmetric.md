@@ -1,6 +1,6 @@
 # Sketcher ConstrainSymmetric/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainSymmetric   Name/it: Simmetria   Workbenches: Sketcher Workbench/it   Schizzo---
+ GuiCommand:   Name: Sketcher ConstrainSymmetric   Name/it: Simmetria   Workbenches: Sketcher Workbench/it   Schizzo---
 
 
 </div>

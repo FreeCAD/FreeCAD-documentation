@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLengthRatio
    Icon: Assembly_ConstraintLengthRatio.svg
    Workbenches: Assembly3_Workbench

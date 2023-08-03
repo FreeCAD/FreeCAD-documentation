@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Placement
    Name/it: Posizionamento
-   MenuLocation: Modifica -> Posizionamento...
+   MenuLocation: Modifica , Posizionamento...
    Workbenches: Tutti
    SeeAlso: Std_Alignment/it, Placement/it
 ---

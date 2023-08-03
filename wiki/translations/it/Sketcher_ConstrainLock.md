@@ -1,6 +1,6 @@
 # Sketcher ConstrainLock/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainLock   Name/it: Blocca   Workbenches: Sketcher Workbench/it   Schizzo---
+ GuiCommand:   Name: Sketcher ConstrainLock   Name/it: Blocca   Workbenches: Sketcher Workbench/it   Schizzo---
 
 
 </div>

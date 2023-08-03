@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle
    Name/pl: Szkicownik: Utwórz prostokąt
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz prostokąt
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz prostokąt
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **R**
    SeeAlso: Sketcher_CreateOblong/pl, Sketcher_CreatePolyline/pl

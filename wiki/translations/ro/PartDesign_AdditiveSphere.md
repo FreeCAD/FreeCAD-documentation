@@ -1,6 +1,6 @@
 # PartDesign AdditiveSphere/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveSphere   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveSphere   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

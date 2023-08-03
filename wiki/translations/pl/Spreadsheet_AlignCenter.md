@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignCenter
    Name/pl: Arkusz Kalkulacyjny: Wyśrodkuj w poziomie
-   MenuLocation: Arkusz kalkulacyjny -> Wyrównanie -> Wyśrodkuj w poziomie
+   MenuLocation: Arkusz kalkulacyjny , Wyrównanie , Wyśrodkuj w poziomie
    Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---

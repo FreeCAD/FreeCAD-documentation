@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveSphere
    Name/es: DiseñoPiezas EsferaAditiva
-   MenuLocation: Part Design -> Crear una primitiva aditiva -> Esfera aditiva
+   MenuLocation: Part Design , Crear una primitiva aditiva , Esfera aditiva
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/es

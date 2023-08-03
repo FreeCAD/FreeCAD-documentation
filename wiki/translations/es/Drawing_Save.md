@@ -1,6 +1,6 @@
 # Drawing Save/es
 ---
-- GuiCommand:   Name: Drawing Save   Workbenches: Drawing Workbench/es   Dibujo, Complete---
+ GuiCommand:   Name: Drawing Save   Workbenches: Drawing Workbench/es   Dibujo, Complete---
 
 
 </div>

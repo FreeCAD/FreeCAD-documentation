@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh BuildRegularSolid
    Name/fr: Mesh Solide régulier
-   MenuLocation: Maillages -> Solide régulier...
+   MenuLocation: Maillages , Solide régulier...
    Workbenches: Mesh Workbench/fr
 ---
 

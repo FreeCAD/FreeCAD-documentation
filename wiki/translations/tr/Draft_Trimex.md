@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Trimex
    Name/tr: Kırp/Uzat 
-   MenuLocation: Draft -> Trim/Extend
+   MenuLocation: Draft , Trim/Extend
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **T** **R**
    SeeAlso: Part Extrude/tr

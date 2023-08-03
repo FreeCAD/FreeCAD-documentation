@@ -1,9 +1,9 @@
 # Part Boolean/pl
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Boolean
    Name/pl: Część: Operacja logiczna
-   MenuLocation: Część -> Operacje logiczne -> Operacja logiczna ...
+   MenuLocation: Część , Operacje logiczne , Operacja logiczna ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Fuse/pl, Part_Common/pl, Part_Cut/pl, Part_Section/pl---
 

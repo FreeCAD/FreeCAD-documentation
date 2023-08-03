@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Engrave
    Name/fr: Path Gravure
-   MenuLocation: Path -> Graver
+   MenuLocation: Path , Graver
    Workbenches: Path_Workbench/fr
 ---
 

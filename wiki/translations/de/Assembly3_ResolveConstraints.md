@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ResolveConstraints
    Name/de: Assembly3 BedingungenAnwenden
    Icon: Assembly3_workbench_icon.svg
-   MenuLocation: Assembly3 -> Resolve constraints
+   MenuLocation: Assembly3 , Resolve constraints
    Workbenches: Assembly3_Workbench/de
    Shortcut: **A** dann **S**
 ---

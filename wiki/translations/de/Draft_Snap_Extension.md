@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Extension
    Name/de: Draft EinrastenAufVerlängerung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

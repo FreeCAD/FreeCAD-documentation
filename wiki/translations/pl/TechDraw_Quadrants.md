@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Quadrants
    Name/pl: Rysunek Techniczny: Dodaj wierzchołki kwadrantu
-   MenuLocation: Rysunek Techniczny -> Dodaj wierzchołki -> Dodaj wierzchołki kwadrantu
+   MenuLocation: Rysunek Techniczny , Dodaj wierzchołki , Dodaj wierzchołki kwadrantu
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/pl, TechDraw_Midpoints/pl

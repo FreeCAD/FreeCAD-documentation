@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxSelection
    Name/de: Std Rechteckauswahl
-   MenuLocation: Bearbeiten -> Rechteckauswahl
+   MenuLocation: Bearbeiten , Rechteckauswahl
    Workbenches: Alle
    Shortcut: **Shift** + **B**
    SeeAlso: Std_BoxElementSelection/de, Std_SelectAll/de

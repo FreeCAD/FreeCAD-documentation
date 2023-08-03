@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Hole
    Name/de: PartDesign Bohrung
-   MenuLocation: Part Design -> Objekte abziehen -> Bohrung
+   MenuLocation: Part Design , Objekte abziehen , Bohrung
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_Pocket/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
    Name/ro: Arc de Cerc
-   MenuLocation: Draft -> Arc
+   MenuLocation: Draft , Arc
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: A R
    SeeAlso: Draft Circle/ro

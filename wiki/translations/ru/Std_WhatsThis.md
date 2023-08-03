@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std WhatsThis
    Name/ru: Std WhatsThis
-   MenuLocation: {{StdMenu}} -> Что это?
+   MenuLocation: {{StdMenu}} , Что это?
    Workbenches: All
    Shortcut: **Shift** + **F1**
    SeeAlso: Std OnlineHelp, Std FreeCADUserHub, Std_Help_Menu

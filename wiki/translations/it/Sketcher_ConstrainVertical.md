@@ -1,11 +1,11 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: Constraint Vertical.svg
    Name: Vertical constraint
    Name/it: Vincolo verticale
    Workbenches: Sketcher Workbench/it
    Shortcut: **V**
-   MenuLocation: Sketch -> Vincoli -> Verticale
+   MenuLocation: Sketch , Vincoli , Verticale
    SeeAlso: Sketcher_ConstrainHorizontal/it
 ---
 

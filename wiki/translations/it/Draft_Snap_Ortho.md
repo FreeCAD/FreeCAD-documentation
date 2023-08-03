@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Ortho
    Name/it: Ortogonale
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Draft Snap/it -> Ortogonale
+   MenuLocation: Draft , Draft Snap/it , Ortogonale
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---

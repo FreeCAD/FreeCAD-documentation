@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MapSketch
    Name/tr: Eskizi yüze eşle
    Workbenches: Sketcher Workbench, PartDesign Workbench
-   MenuLocation: Part Design/Sketch -> Map sketch to face...
+   MenuLocation: Part Design/Sketch , Map sketch to face...
    SeeAlso: Sketcher NewSketch
 ---
 

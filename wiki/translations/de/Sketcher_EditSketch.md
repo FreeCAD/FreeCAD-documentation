@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Name/de: Sketcher SkizzeBearbeiten
-   MenuLocation: Sketch -> Skizze bearbeiten
+   MenuLocation: Sketch , Skizze bearbeiten
    Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    SeeAlso: Sketcher_LeaveSketch/de
 ---

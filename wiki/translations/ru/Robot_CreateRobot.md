@@ -1,10 +1,10 @@
 # Robot CreateRobot/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot_CreateRobot
    Name/ru: Добавить робота
    Workbenches: Robot_Workbench/ru
-   MenuLocation: Робот -> Добавить робота---
+   MenuLocation: Робот , Добавить робота---
 
 ## Описание
 

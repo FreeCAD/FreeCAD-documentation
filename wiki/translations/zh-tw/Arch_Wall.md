@@ -1,6 +1,6 @@
 # Arch Wall/zh-tw
 ---
-- GuiCommand:-tw   Name: Arch Wall   Name/zh-tw: Arch Wall   Workbenches: Arch_Workbench/zh-tw   Arch---
+ GuiCommand:-tw   Name: Arch Wall   Name/zh-tw: Arch Wall   Workbenches: Arch_Workbench/zh-tw   Arch---
 
 
 </div>

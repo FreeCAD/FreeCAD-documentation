@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image CreateImagePlane
    Name/de: Image BildebeneErstellen
    MenuLocation: 

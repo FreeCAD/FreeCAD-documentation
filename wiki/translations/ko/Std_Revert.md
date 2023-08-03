@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Revert
    Name/ko: 표준 되돌리기
-   MenuLocation: 파일 -> 되돌리기
+   MenuLocation: 파일 , 되돌리기
    Workbenches: 모두
 ---
 

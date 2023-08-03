@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Positions
    Name/pl: Wykres: Ustaw pozycje i rozmiary
-   MenuLocation: Wykres -> Ustaw pozycje i rozmiary
+   MenuLocation: Wykres , Ustaw pozycje i rozmiary
    Workbenches: Plot_Workbench/pl
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/de: PartDesign Koordinatensystem
-   MenuLocation: Part Design -> Lokales Koordinatensystem erstellen
+   MenuLocation: Part Design , Lokales Koordinatensystem erstellen
    Workbenches: PartDesign Workbench/de
    Version: 0.18
    SeeAlso: PartDesign_Point/de, PartDesign_Line/de, PartDesign_Plane/de

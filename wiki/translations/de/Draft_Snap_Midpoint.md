@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Midpoint
    Name/de: Draft EinrastenAufMittelpunkt
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

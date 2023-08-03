@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ConstraintHeatflux
    Name/it: Scambio termico
-   MenuLocation: Modello -> Vincoli termici -> Vincolo scambio termico
+   MenuLocation: Modello , Vincoli termici , Vincolo scambio termico
    Workbenches: FEM_Workbench/it
    Shortcut: 
    SeeAlso: FEM_tutorial/it

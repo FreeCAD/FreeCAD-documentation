@@ -1,6 +1,6 @@
 # FEM SolverElmer/it
 ---
-- GuiCommand:   Name: FEM SolverElmer   Name/it: Risolutore Elmer   Icon: Fem-elmer.svg   MenuLocation:  Solve -> Risolutore Elmer   , FEM_SolverZ88/it, FEM_tutorial/it---
+ GuiCommand:   Name: FEM SolverElmer   Name/it: Risolutore Elmer   Icon: Fem-elmer.svg   MenuLocation:  Solve , Risolutore Elmer   , FEM_SolverZ88/it, FEM_tutorial/it---
 
 
 </div>

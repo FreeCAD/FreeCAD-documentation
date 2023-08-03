@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectVerticalAxis
    Name/es: Croquizador SeleccionarEjeVertical
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Corquis -> Corquizador Herramientas -> Seleccionar Eje Vertical
+   MenuLocation: Corquis , Corquizador Herramientas , Seleccionar Eje Vertical
    Shortcut: **Shift**+**Ctrl**+**V**
    Version: 0.15
 ---

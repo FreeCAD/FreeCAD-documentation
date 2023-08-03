@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Compound‏‎
    Name/fr: Part Composé
-   MenuLocation: Part -> Composés -> Créer un composé
+   MenuLocation: Part , Composés , Créer un composé
    Workbenches: Part_Workbench/fr
    Version: 0.14
    SeeAlso: Part_Fuse/fr, Part_CompoundFilter/fr, Part_ExplodeCompound/fr

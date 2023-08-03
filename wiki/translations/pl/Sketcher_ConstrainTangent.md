@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainTangent
    Name/pl: Szkicownik: Wiązanie styczności
-   MenuLocation: Sketch -> Wiązania szkicownika -> Wiązanie styczności
+   MenuLocation: Sketch , Wiązania szkicownika , Wiązanie styczności
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **T**
    SeeAlso: Sketcher_ConstrainPointOnObject/pl

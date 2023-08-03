@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DuplicateSelection
-   MenuLocation: Edit -> Duplicate selected object
+   MenuLocation: Edit , Duplicate selected object
    Workbenches: All
    SeeAlso: Std_Cut, Std_Copy, Std_Paste
 ---

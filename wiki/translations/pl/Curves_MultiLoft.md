@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves MultiLoft
-   MenuLocation: Surfaces -> MultiLoft
+   MenuLocation: Surfaces , MultiLoft
    Workbenches: Curves_Workbench
 ---
 

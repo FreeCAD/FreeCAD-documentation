@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxElementSelection
    Name/de: Std RechteckElementAuswahl
-   MenuLocation: Edit -> Box element selection
+   MenuLocation: Edit , Box element selection
    Workbenches: Alle
    Shortcut: **Shift**+**E**
    SeeAlso: Std_BoxSelection/de, Std_SelectAll/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Text
    Name/fr: Draft Texte
-   MenuLocation: Annotation -> Texte
+   MenuLocation: Annotation , Texte
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **T** **E**
    Version: 0.7

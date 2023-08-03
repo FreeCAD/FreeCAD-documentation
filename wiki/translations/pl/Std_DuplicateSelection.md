@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DuplicateSelection
    Name/pl: Std: Powiel zaznaczone
-   MenuLocation: Edycja -> Powiel zaznaczone
+   MenuLocation: Edycja , Powiel zaznaczone
    Workbenches: All
    SeeAlso: Std_Cut/pl, Std_Copy/pl, Std_Paste/pl
 ---

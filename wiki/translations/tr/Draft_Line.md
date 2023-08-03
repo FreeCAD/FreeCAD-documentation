@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/tr: Çizgi
-   MenuLocation: Taslak -> Çizgi
+   MenuLocation: Taslak , Çizgi
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **L** **I**
    Version: 0.7

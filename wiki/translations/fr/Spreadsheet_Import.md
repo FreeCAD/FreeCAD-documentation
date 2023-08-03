@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet Import
    Name/fr: Spreadsheet Importer
-   MenuLocation: Spreadsheet -> Importer une feuille de calcul
+   MenuLocation: Spreadsheet , Importer une feuille de calcul
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
    SeeAlso: Spreadsheet_Export/fr

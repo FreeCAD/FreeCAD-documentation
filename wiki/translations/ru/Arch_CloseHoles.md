@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloseHoles
    Name/ru: Arch CloseHoles
-   MenuLocation: Архитектура -> Утилиты -> Убрать отверстия
+   MenuLocation: Архитектура , Утилиты , Убрать отверстия
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch Check/ru
 ---

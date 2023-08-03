@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Polygon
    Name/tr: Çokgen
-   MenuLocation: Taslak -> Çokgen
+   MenuLocation: Taslak , Çokgen
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **P** **G**
    SeeAlso: Draft Circle/tr

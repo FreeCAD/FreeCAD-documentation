@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Grid
-   MenuLocation: Plot -> Show/hide grid‏‎
+   MenuLocation: Plot , Show/hide grid‏‎
    Workbenches: Plot_Workbench
 ---
 

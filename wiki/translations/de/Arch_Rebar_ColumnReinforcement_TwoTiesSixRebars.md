@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar ColumnReinforcement
    Name/de: Architektur Bewehrung SäulenVerstärkung
-   MenuLocation: Arch -> Rebar tools -> Säulenverstärkung oder 3D/BIM -> Reinforcement tools -> Stützenbewehrung
+   MenuLocation: Arch , Rebar tools , Säulenverstärkung oder 3D/BIM , Reinforcement tools , Stützenbewehrung
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de,Arch_Rebar_ColumnReinforcement/de, Arch_Rebar_BeamReinforcement/de
    Version: 0.19

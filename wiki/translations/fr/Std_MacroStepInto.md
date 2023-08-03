@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DebugInto
    Name/fr: Std Pénétrer dans
-   MenuLocation: Macro  -> Pénétrer dans
+   MenuLocation: Macro  , Pénétrer dans
    Empty: 1
    Workbenches: Tous
    Shortcut: **F11**

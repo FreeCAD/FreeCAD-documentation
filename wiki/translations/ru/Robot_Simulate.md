@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Моделирование траектории
-   MenuLocation: Робот -> Моделирование траектории
+   MenuLocation: Робот , Моделирование траектории
    Workbenches: Robot_Workbench/ru
 ---
 

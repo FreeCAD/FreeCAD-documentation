@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/pl: Rysunek Roboczy: Szyk po ścieżce
-   MenuLocation: Modyfikacja -> Narzędzia szyku -> Szyk po ścieżce
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk po ścieżce
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.14
    SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl

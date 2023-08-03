@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Horizontal
    Name/sv: Constraint Horizontal
    Workbenches: Sketcher Workbench/sv
    Shortcut: H
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain horizontally
+   MenuLocation: Sketch , Sketcher constraints , Constrain horizontally
    SeeAlso: Sketcher_ConstrainVertical/sv
 ---
 

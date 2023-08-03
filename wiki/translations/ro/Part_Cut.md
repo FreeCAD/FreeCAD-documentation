@@ -1,6 +1,6 @@
 # Part Cut/ro
 ---
-- GuiCommand:   Name: Part Cut   MenuLocation: Part -> Cut   Workbenches: Part_Workbench   Part, Part_Common---
+ GuiCommand:   Name: Part Cut   MenuLocation: Part , Cut   Workbenches: Part_Workbench   Part, Part_Common---
 
 
 </div>

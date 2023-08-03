@@ -1,6 +1,6 @@
 # Part Mirror/cs
 ---
-- GuiCommand:   Name: Part Mirror   Name/cs: Díl Zrcadlení   MenuLocation: Díl -> Zrcadlení   Workbenches: Part_Workbench/cs   Díl, Kompletace|SeeAlso: ---
+ GuiCommand:   Name: Part Mirror   Name/cs: Díl Zrcadlení   MenuLocation: Díl -> Zrcadlení   Workbenches: Part_Workbench/cs   Díl, Kompletace|SeeAlso: ---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkMakeRelative
    MenuLocation: None
    Workbenches: All

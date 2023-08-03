@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkMakeRelative
    Name/fr: Std Créer un sous-lien
    MenuLocation: Aucun

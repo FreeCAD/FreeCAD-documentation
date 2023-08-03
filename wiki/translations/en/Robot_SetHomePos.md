@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot SetHomePos
-   MenuLocation: Robot -> Set home position
+   MenuLocation: Robot , Set home position
    Workbenches: Robot_Workbench
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Ellipse
    Name/ro: Elipsă 2D
-   MenuLocation: Draft -> Ellipse
+   MenuLocation: Draft , Ellipse
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **E** **L**
    SeeAlso: Draft Circle/ro

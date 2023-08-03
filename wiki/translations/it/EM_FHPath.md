@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHPath
    Name/it: EM FHPath
-   MenuLocation: EM -> FHPath
+   MenuLocation: EM , FHPath
    Workbenches: EM Workbench/it 
    Shortcut: **E** **T**
    SeeAlso: EM FHNode/it, EM FHSegment/it

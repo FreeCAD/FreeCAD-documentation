@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh TrimByPlane
    Name/fr: Mesh Ajuster par plan
-   MenuLocation: Maillages -> Couper -> Ajuster le maillage avec un plan
+   MenuLocation: Maillages , Couper , Ajuster le maillage avec un plan
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_PolyCut/fr, Mesh_PolyTrim/fr
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Panel Sheet
    Name/fr: Arch Feuille de panneaux
-   MenuLocation: Arch -> Outils pour les panneaux -> Feuille de panneaux
+   MenuLocation: Arch , Outils pour les panneaux , Feuille de panneaux
    Workbenches: Arch_Workbench/fr
    Shortcut: **P** **S**
    SeeAlso: Arch_Panel/fr, Arch_Panel_Cut/fr, Arch_Nest/fr

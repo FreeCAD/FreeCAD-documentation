@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw View
    Name/pl: Rysunek Techniczny: Wstaw widok
-   MenuLocation: Rysunek Techniczny -> Widoki -> Wstaw widok
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw widok
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_ProjectionGroup/pl, TechDraw_SectionView/pl
 ---

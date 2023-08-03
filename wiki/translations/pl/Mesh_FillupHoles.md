@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FillupHoles
    Name/pl: Siatka: Wypełnienie otworów
-   MenuLocation: Siatki -> Wypełnij otwory ...
+   MenuLocation: Siatki , Wypełnij otwory ...
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_FillInteractiveHole/pl, Mesh_AddFacet/pl
 ---

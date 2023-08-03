@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket RailButton
    Name/fr: Rocket Bouton rail
-   MenuLocation: Rocket -> Launch Guides -> Rail Button
+   MenuLocation: Rocket , Launch Guides , Rail Button
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

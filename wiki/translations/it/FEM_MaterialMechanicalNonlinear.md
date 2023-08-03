@@ -1,6 +1,6 @@
 # FEM MaterialMechanicalNonlinear/it
 ---
-- GuiCommand:   Name: FEM_MaterialMechanicalNonlinear   Name/it: FEM Materiale non lineare   MenuLocation:  Modello -> Materiale non lineare   ---
+ GuiCommand:   Name: FEM_MaterialMechanicalNonlinear   Name/it: FEM Materiale non lineare   MenuLocation:  Modello , Materiale non lineare   ---
 
 ## Descrizione
 

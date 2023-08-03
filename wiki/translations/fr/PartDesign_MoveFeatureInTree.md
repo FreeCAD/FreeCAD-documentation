@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveFeatureInTree
    Name/fr: PartDesign Déplacer après un autre objet
-   MenuLocation: Menu contextuel -> Déplacer après un autre objet
+   MenuLocation: Menu contextuel , Déplacer après un autre objet
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_MoveTip/fr, PartDesign_MoveFeature/fr

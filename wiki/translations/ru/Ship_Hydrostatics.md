@@ -1,9 +1,9 @@
 # Ship Hydrostatics/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Hydrostatics
    Name/ru: Ship Hydrostatics
-   MenuLocation: Ship design -> Гидростатика
+   MenuLocation: Ship design , Гидростатика
    Workbenches: Ship Workbench/ru
    Shortcut:    SeeAlso: ---
 

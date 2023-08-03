@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Common
    Name/pl: Część: Część wspólna
-   MenuLocation: Część -> Operacje logiczne -> Część wspólna
+   MenuLocation: Część , Operacje logiczne , Część wspólna
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Boolean/pl, Part_Cut/pl, Part_Fuse/pl
 ---

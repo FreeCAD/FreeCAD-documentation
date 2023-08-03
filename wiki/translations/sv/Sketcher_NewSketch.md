@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/sv: Skapa skiss
    Workbenches: Sketcher Workbench/sv
-   MenuLocation: Sketch -> Skapa skiss
+   MenuLocation: Sketch , Skapa skiss
    SeeAlso: Sketcher_MapSketch/sv, Sketcher_ReorientSketch/sv
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialReinforced
-   MenuLocation:  Model -> Materials -> Reinforced material 
+   MenuLocation:  Model , Materials , Reinforced material 
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

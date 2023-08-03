@@ -1,6 +1,6 @@
 # Path Pocket 3D/it
 ---
-- GuiCommand:   Name: Path 3DPocket   Name/it: Cavità 3D   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Cavità 3D   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Path 3DPocket   Name/it: Cavità 3D   Workbenches: Path Workbench/it   Path|MenuLocation: Path , Cavità 3D   Shortcut:    SeeAlso: ---
 
 
 </div>

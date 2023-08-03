@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSameOrientation
    Name/de: Assembly3 RichtungenAngleichen
    Icon: Assembly_ConstraintSameOrientation.svg

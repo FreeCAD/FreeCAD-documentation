@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Fillet
    Name/fr: Part Congé
-   MenuLocation: Part -> Congé...
+   MenuLocation: Part , Congé...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Chamfer/fr
 ---

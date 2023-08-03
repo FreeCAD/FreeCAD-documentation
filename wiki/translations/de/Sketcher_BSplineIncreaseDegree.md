@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineIncreaseDegree
    Name/de: Sketcher BSplineGradErhöhen
-   MenuLocation: Sketch -> B-Spline-Werkzeuge -> Grad des B-Splines erhöhen
+   MenuLocation: Sketch , B-Spline-Werkzeuge , Grad des B-Splines erhöhen
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
    SeeAlso: Sketcher_BSplineDegree/de, Sketcher_BSplineDecreaseDegree/de

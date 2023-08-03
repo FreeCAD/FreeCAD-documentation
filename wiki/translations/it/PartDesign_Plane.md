@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Plane
    Name/it: Piano di riferimento
    Workbenches: PartDesign Workbench/it
-   MenuLocation: PartDesign -> Piano di riferimento
+   MenuLocation: PartDesign , Piano di riferimento
    Version: 0.17
    SeeAlso: PartDesign Point/it, PartDesign Line/it
 ---

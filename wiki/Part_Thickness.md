@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Thickness
-   MenuLocation: Part -> Thickness...
+   MenuLocation: Part , Thickness...
    Workbenches: Part_Workbench
    SeeAlso: Part_Offset
 ---

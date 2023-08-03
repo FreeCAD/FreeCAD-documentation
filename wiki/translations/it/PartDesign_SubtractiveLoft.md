@@ -1,6 +1,6 @@
 # PartDesign SubtractiveLoft/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveLoft   Name/it: Loft sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign, PartDesign SubtractivePipe/it---
+ GuiCommand:   Name: PartDesign SubtractiveLoft   Name/it: Loft sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign, PartDesign SubtractivePipe/it---
 
 
 </div>

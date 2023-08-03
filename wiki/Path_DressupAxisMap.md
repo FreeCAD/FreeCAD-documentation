@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupAxisMap
-   MenuLocation: Path -> Path Dressup -> Axis Map
+   MenuLocation: Path , Path Dressup , Axis Map
    Workbenches: Path_Workbench
 ---
 

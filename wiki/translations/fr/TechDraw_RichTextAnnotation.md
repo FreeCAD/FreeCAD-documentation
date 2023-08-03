@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw RichTextAnnotation
    Name/fr: TechDraw Annotation texte enrichi
-   MenuLocation: TechDraw -> Annotations -> Insérer une annotation de texte enrichi
+   MenuLocation: TechDraw , Annotations , Insérer une annotation de texte enrichi
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_Templates/fr, Draft_SVG/fr, TechDraw_LeaderLine/fr

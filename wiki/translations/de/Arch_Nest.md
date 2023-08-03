@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Nest
    Name/de: Arch Verschachteln
-   MenuLocation: Arch -> Tafelwerkzeuge -> Verschachteln
+   MenuLocation: Arch , Tafelwerkzeuge , Verschachteln
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_Panel/de, Arch_Panel_Sheet/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloneComponent‏‎‏‎
    Name/ru: Arch: CloneComponent/Клоновый компонент
-   MenuLocation: Архитектура -> Утилиты -> Clone Component
+   MenuLocation: Архитектура , Утилиты , Clone Component
    Workbenches: Arch_Workbench/ru
    Shortcut: **C** **C‏‎**
    SeeAlso: Draft_Clone/ru, Arch_Component/ru

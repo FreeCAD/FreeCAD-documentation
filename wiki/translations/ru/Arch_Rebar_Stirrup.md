@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Кольцевая арматура
    Name: Arch_Rebar_Stirrup
-   MenuLocation: Arch -> Rebar tools -> Stirrup<br>3D/BIM -> Reinforcement tools -> Stirrup
+   MenuLocation: Arch , Rebar tools , Stirrup<br>3D/BIM , Reinforcement tools , Stirrup
    Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_Helical/ru

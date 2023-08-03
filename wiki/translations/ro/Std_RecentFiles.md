@@ -1,6 +1,6 @@
 # Std RecentFiles/ro
 ---
-- GuiCommand:   Name: Std RecentFiles   Name/ro: Fișiere recente   MenuLocation: Std File Menu/ro   File -> Fișiere recente, Std Import/ro---
+ GuiCommand:   Name: Std RecentFiles   Name/ro: Fișiere recente   MenuLocation: Std File Menu/ro   File , Fișiere recente, Std Import/ro---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Std Undo/ro
 ---
-- GuiCommand:   Name: Std Undo   MenuLocation: Std_Edit_Menu   Edit -> Undo---
+ GuiCommand:   Name: Std Undo   MenuLocation: Std_Edit_Menu   Edit , Undo---
 
 
 </div>

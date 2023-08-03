@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshRegion
    Name/fr: FEM Région de maillage FEM
-   MenuLocation: Maillage -> Région de maillage FEM
+   MenuLocation: Maillage , Région de maillage FEM
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

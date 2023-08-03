@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverElmer
    Name/ru: FEM SolverElmer
    Icon: Fem-elmer.svg
-   MenuLocation:  Solve -> solver Elmer
+   MenuLocation:  Solve , solver Elmer
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_SolverCalculiX/ru, FEM_SolverZ88/ru, FEM_tutorial/ru

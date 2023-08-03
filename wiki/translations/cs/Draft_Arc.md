@@ -1,6 +1,6 @@
 # Draft Arc/cs
 ---
-- GuiCommand:   Name: Draft_Arc   Name/cs: Kreslení oblouk   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft_Arc   Name/cs: Kreslení oblouk   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

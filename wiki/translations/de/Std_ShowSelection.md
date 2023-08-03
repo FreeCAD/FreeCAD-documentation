@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ShowSelection
    Name/de: Std AuswahlEinblenden
-   MenuLocation: Ansicht -> Sichtbarkeit -> Auswahl einblenden
+   MenuLocation: Ansicht , Sichtbarkeit , Auswahl einblenden
    Workbenches: Alle
    SeeAlso: Std_ToggleVisibility/de, Std_HideSelection/de, Std_ToggleObjects/de, Std_ShowObjects/de, Std_HideObjects/de
 ---

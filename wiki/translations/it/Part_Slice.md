@@ -1,6 +1,6 @@
 # Part Slice/it
 ---
-- GuiCommand:   Name: Part Slice   Name/it: Affetta in composto   MenuLocation: Part -> Dividi -> Affetta in composto   Workbenches: Part_Workbench/it   Part, Part_XOR/it, Part_CompJoinFeatures/it, Part Boolean/it---
+ GuiCommand:   Name: Part Slice   Name/it: Affetta in composto   MenuLocation: Part , Dividi , Affetta in composto   Workbenches: Part_Workbench/it   Part, Part_XOR/it, Part_CompJoinFeatures/it, Part Boolean/it---
 
 
 </div>

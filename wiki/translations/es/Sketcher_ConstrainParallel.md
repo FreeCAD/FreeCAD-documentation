@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainParallel
    Name/es: Croquizador RestringirParallel
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Croquis -> Restricciones del Croquizador -> Restringir Paralela
+   MenuLocation: Croquis , Restricciones del Croquizador , Restringir Paralela
    Shortcut: **Shift** + **P**
    SeeAlso: Sketcher_ConstrainVertical/es, Sketcher_ConstrainHorizontal/es
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/ro: Dreptunghi
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
-   MenuLocation: Draft -> Rectangle
+   MenuLocation: Draft , Rectangle
    Shortcut: **R** **E**
    Version: 0.7
    SeeAlso: Part Box/ro

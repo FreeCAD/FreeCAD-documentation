@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Scale
-   MenuLocation: Meshes -> Scale...
+   MenuLocation: Meshes , Scale...
    Workbenches: Mesh_Workbench
 ---
 

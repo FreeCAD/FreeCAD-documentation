@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_FaceColors
    Name/it: Imposta i colori
    Empty: 1
-   MenuLocation: Menu contestuale -> Imposta i colori...
+   MenuLocation: Menu contestuale , Imposta i colori...
    Workbenches: Part Workbench/it, PartDesign Workbench/it
    SeeAlso: Std SetAppearance/it
 ---

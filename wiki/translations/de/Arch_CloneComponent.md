@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloneComponent
    Name/de: Arch KomponenteKlonen‏‎‏‎
-   MenuLocation: Arch -> Dienstprogramme -> Komponente klonen
+   MenuLocation: Arch , Dienstprogramme , Komponente klonen
    Workbenches: Arch_Workbench/de
    Shortcut: **C** **C**
 ‏‎   SeeAlso: Draft_Clone/de, Arch_Component/de

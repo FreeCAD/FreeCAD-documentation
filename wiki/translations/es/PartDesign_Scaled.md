@@ -1,6 +1,6 @@
 # PartDesign Scaled/es
 ---
-- GuiCommand:   Name: PartDesign_Scaled   Workbenches: PartDesign Workbench/es   Diseño de Piezas, Complete|MenuLocation: Diseño de Piezas -> MultiTransform---
+ GuiCommand:   Name: PartDesign_Scaled   Workbenches: PartDesign Workbench/es   Diseño de Piezas, Complete|MenuLocation: Diseño de Piezas , MultiTransform---
 
 
 </div>

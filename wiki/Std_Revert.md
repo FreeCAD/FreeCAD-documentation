@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Revert
-   MenuLocation: File -> Revert
+   MenuLocation: File , Revert
    Workbenches: All
 ---
 

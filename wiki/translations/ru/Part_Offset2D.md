@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset2D
    Name/ru: Part Offset2D
-   MenuLocation: Деталь -> 2D смещение
+   MenuLocation: Деталь , 2D смещение
    Workbenches: Part_Workbench/ru
    Version: 0.17
    SeeAlso: Part_Offset/ru, Part_Thickness/ru, Draft_Offset/ru

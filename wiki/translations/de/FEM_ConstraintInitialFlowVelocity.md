@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintInitialFlowVelocity
    Name/de: FEM StartbedingungStrömungsgeschwindigkeit
-   MenuLocation: Model -> Fluid-Randbedingungen -> Constraint initial flow velocity
+   MenuLocation: Model , Fluid-Randbedingungen , Constraint initial flow velocity
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_ConstraintFlowVelocity/de, FEM_ConstraintInitialPressure/de
 ---

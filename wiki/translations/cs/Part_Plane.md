@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Plane
-   MenuLocation: Part -> Part_Primitives -> Plane
+   MenuLocation: Part , Part_Primitives , Plane
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    SeeAlso: Part_Primitives
 ---

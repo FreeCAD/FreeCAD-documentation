@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloseHoles
    Name/es: Tapar agujeros
-   MenuLocation: Arquitectura -> Utilidades -> Tapar agujeros
+   MenuLocation: Arquitectura , Utilidades , Tapar agujeros
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch Check/es
 ---

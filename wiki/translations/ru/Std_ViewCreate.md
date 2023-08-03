@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewCreate
    Name/ru: Создать новый вид
-   MenuLocation: Вид -> Создать новый вид
+   MenuLocation: Вид , Создать новый вид
    Workbenches: Все
    SeeAlso: Std_ViewDockUndockFullscreen/ru, Std_ViewFullscreen/ru
 ---

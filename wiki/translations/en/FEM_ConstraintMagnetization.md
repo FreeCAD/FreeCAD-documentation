@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintMagnetization
-   MenuLocation:  Model -> Electromagnetic Constraints -> Constraint magnetization
+   MenuLocation:  Model , Electromagnetic Constraints , Constraint magnetization
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D

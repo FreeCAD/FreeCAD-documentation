@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeCollapseDocument
    Name/pl: Std: Przeciąganie w widoku drzewa
-   MenuLocation: Widok -> Akcje widoku drzewa -> Rozpocznij przeciąganie
+   MenuLocation: Widok , Akcje widoku drzewa , Rozpocznij przeciąganie
    Workbenches: wszystkie
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/pl, Std_TreeMultiDocument/pl

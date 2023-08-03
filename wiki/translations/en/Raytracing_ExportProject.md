@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing ExportProject
-   MenuLocation: Raytracing -> ExportProject
+   MenuLocation: Raytracing , ExportProject
    Workbenches: Raytracing_Workbench
    Shortcut: 
    SeeAlso: 

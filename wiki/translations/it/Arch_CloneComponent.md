@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloneComponent
 ‏‎‏‎   Name/it: Clona component‏‎‏‎e
    Icon: Arch_Component_Clone.svg
-   MenuLocation: Arch -> Utilità -> Clona componente
+   MenuLocation: Arch , Utilità , Clona componente
    Workbenches: Arch_Workbench/it
    Shortcut: **C** **C‏‎**
    SeeAlso: Draft Clone/it di Draft, Arch Component/it

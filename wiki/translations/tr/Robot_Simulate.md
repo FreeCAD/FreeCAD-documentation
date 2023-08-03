@@ -1,10 +1,10 @@
 # Robot Simulate/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot Simulate
    Name/tr: Simülasyon
    Workbenches: Robot_Workbench/tr
-   MenuLocation: Robot -> Yörünge Simülasyonu---
+   MenuLocation: Robot , Yörünge Simülasyonu---
 
 
 </div>

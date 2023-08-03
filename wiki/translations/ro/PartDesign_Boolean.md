@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Boolean
    Name/ro: PartDesign Operație booleană
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: Part Design -> Operație booleană
+   MenuLocation: Part Design , Operație booleană
    Version: 0.17
 ---
 

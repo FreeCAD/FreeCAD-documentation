@@ -1,6 +1,6 @@
 # Std Copy/ro
 ---
-- GuiCommand:   Name: Std Copy   MenuLocation: Std_Edit_Menu   Edit -> Copy, Std_DuplicateSelection---
+ GuiCommand:   Name: Std Copy   MenuLocation: Std_Edit_Menu   Edit , Copy, Std_DuplicateSelection---
 
 
 </div>

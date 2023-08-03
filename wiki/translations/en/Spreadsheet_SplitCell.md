@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SplitCell
-   MenuLocation: Spreadsheet -> Split cells
+   MenuLocation: Spreadsheet , Split cells
    Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---

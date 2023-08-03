@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Survey
-   MenuLocation: Arch -> Survey
+   MenuLocation: Arch , Survey
    Workbenches: Arch_Workbench
    SeeAlso: Macro_FCInfo, Macro_SimpleProperties
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SplitCell
    Name/ru: Разделить ячейку
-   MenuLocation: Spreadsheet -> Разделить ячейку
+   MenuLocation: Spreadsheet , Разделить ячейку
    Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---

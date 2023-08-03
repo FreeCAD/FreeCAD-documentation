@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw AxoLengthDimension
    Name/de: TechDraw AxonometrischesLängenmaß
-   MenuLocation: TechDraw -> Maßeinträge -> Axonometrisches Längenmaß
+   MenuLocation: TechDraw , Maßeinträge , Axonometrisches Längenmaß
    Workbenches: TechDraw_Workbench/de
    Version: 0.21
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DiameterDimension
-   MenuLocation: TechDraw -> Dimensions -> Insert Diameter Dimension
+   MenuLocation: TechDraw , Dimensions , Insert Diameter Dimension
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_RadiusDimension
 ---

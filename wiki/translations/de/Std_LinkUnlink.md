@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkUnlink
    Name/de: Std VerknüpfungAuflösen
    MenuLocation: None

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Window
    Name/ru: Окно
-   MenuLocation: Архитектура -> Окно
+   MenuLocation: Архитектура , Окно
    Workbenches: Arch_Workbench/ru
    Shortcut: **W** **I**
    SeeAlso: Arch_Wall/ru, Arch_Add/ru

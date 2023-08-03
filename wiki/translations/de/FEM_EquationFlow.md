@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationFlow
    Name/de: FEM GleichungStrömung
-   MenuLocation: Lösen -> Flow equation
+   MenuLocation: Lösen , Flow equation
    Workbenches: FEM_Workbench/de
    Version: 0.17
    SeeAlso: 

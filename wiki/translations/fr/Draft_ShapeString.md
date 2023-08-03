@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/fr: Draft Formes à partir texte
-   MenuLocation: Draft -> Formes à partir de texte
+   MenuLocation: Draft , Formes à partir de texte
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: 
    Version/fr: 0.14

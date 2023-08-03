@@ -1,6 +1,6 @@
 # PartDesign SubtractivePipe/it
 ---
-- GuiCommand:   Name: PartDesign SubtractivePipe   Name/it: Sweep sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign, PartDesign SubtractiveLoft/it---
+ GuiCommand:   Name: PartDesign SubtractivePipe   Name/it: Sweep sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign, PartDesign SubtractiveLoft/it---
 
 
 </div>

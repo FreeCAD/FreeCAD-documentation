@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/pl: Draft: Prostokąt
-   MenuLocation: Drafting -> Prostokąt
+   MenuLocation: Drafting , Prostokąt
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **R** **E**
    Version: 0.7

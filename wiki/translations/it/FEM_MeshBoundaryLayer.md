@@ -1,6 +1,6 @@
 # FEM MeshBoundaryLayer/it
 ---
-- GuiCommand:   Name: FEM_MeshBoundaryLayer   Name/it: FEM MeshBoundaryLayer   Icon: Fem-femmesh-boundary-layer.svg   MenuLocation:  Mesh -> FEM Mesh boundary layer   ---
+ GuiCommand:   Name: FEM_MeshBoundaryLayer   Name/it: FEM MeshBoundaryLayer   Icon: Fem-femmesh-boundary-layer.svg   MenuLocation:  Mesh , FEM Mesh boundary layer   ---
 
 ## Descrizione
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CompPrimitiveAdditive
    Name/es: Part Design Crear una Primitiva aditiva
    Workbenches: PartDesign Workbench/es
-   MenuLocation: Part Design -> Crear una primitiva aditiva
+   MenuLocation: Part Design , Crear una primitiva aditiva
    Version: 0.17
    SeeAlso: PartDesign CompPrimitiveSubtractive/es
 ---

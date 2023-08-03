@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image CreateImagePlane
    Name/it: Piano immagine
    Icon: Image CreateImagePlane.svg
-   MenuLocation: Barre degli strumenti -> Crea un'immagine planare nello spazio 3D
+   MenuLocation: Barre degli strumenti , Crea un'immagine planare nello spazio 3D
    Workbenches: Image Workbench/it
    SeeAlso: Image Open/it, Image Scaling/it
 ---

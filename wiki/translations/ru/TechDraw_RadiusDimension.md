@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Указать радиус
    Name: TechDraw_RadiusDimension
-   MenuLocation: TechDraw -> Размеры -> Указать радиус
+   MenuLocation: TechDraw , Размеры , Указать радиус
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_DiameterDimension/ru
 ---

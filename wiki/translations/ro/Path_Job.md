@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Job
    Name/ro: Path: Job/Prelucrare
    Workbenches: Path Workbench
-   MenuLocation: Path -> Job
+   MenuLocation: Path , Job
    Shortcut: **P** **F**
    SeeAlso: 
 ---

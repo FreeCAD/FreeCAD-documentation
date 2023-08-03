@@ -1,6 +1,6 @@
 # Part SimpleCopy/ro
 ---
-- GuiCommand:   Name: Part CreateSimpleCopy‏‎   Name/ro: Part CreateSimpleCopy‏‎   MenuLocation: Part -> Create simple copy   Workbenches: Part Workbench/ro   Part, Std Copy/ro, Std_DuplicateSelection/ro|Icon: Tree_Part.svg---
+ GuiCommand:   Name: Part CreateSimpleCopy‏‎   Name/ro: Part CreateSimpleCopy‏‎   MenuLocation: Part , Create simple copy   Workbenches: Part Workbench/ro   Part, Std Copy/ro, Std_DuplicateSelection/ro|Icon: Tree_Part.svg---
 
 
 </div>

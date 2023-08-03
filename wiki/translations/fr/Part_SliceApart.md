@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SliceApart
    Name/fr: Part Séparer/exploser
-   MenuLocation: Part -> Scinder -> Séparer et exploser
+   MenuLocation: Part , Scinder , Séparer et exploser
    Workbenches: Part_Workbench/fr
    Version: 0.18
    SeeAlso: Part_Slice/fr, Part_ExplodeCompound/fr

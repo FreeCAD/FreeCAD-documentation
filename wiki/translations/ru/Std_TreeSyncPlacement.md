@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSyncPlacement
    Name/ru: Std TreeSyncPlacement
-   MenuLocation: Вид -> Дерево документа -> Sync placement
+   MenuLocation: Вид , Дерево документа , Sync placement
    Workbenches: All
    Shortcut: **T** **3**
    Version: 0.19

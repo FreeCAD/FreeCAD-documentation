@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sweep
    Name/es: Part Barrido
-   MenuLocation: Pieza -> Barrido...
+   MenuLocation: Pieza , Barrido...
    Workbenches: Part_Workbench/es
    SeeAlso: Part_Loft
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal Junction
    Name/fr: SheetMetal Découpe d'angle
-   MenuLocation: SheetMetal -> Make Junction
+   MenuLocation: SheetMetal , Make Junction
    Workbenches: SheetMetal_Workbench/fr
    Shortcut: **S** **J**
    SeeAlso: SheetMetal_AddRelief/fr, SheetMetal_AddBend/fr

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD ColorCodeShape
    Name/de: OpenSCAD ColorCodeShape
 
-   MenuLocation: OpenSCAD -> ColorCodeShape‏‎
+   MenuLocation: OpenSCAD , ColorCodeShape‏‎
    Workbenches: OpenSCAD_Workbench/de
 ---
 

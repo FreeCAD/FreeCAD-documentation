@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainRadiam
    Name/pl: Szkicownik: Zwiąż automatycznie promień / średnicę
-   MenuLocation: Szkic -> Wiązania szkicownika -> Zwiąż automatycznie promień / średnicę
+   MenuLocation: Szkic , Wiązania szkicownika , Zwiąż automatycznie promień / średnicę
    Workbenches: Sketcher_Workbench/pl,
    Shortcut: **K** **S**
    Version: 0.20

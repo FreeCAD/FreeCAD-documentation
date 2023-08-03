@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLineVertical
    Name/fr: Assembly3 Contrainte ligne verticale
    Icon: Assembly_ConstraintLineVertical.svg

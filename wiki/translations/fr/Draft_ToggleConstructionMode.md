@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleConstructionMode
    Name/fr: Draft Basculer en mode construction
-   MenuLocation: Utilitaires -> Basculer en mode construction
+   MenuLocation: Utilitaires , Basculer en mode construction
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **C** **M**
    SeeAlso: Draft_AddConstruction/fr, Draft_AutoGroup/fr

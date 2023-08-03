@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Intersection
    Name/pl: Siatka Przecięcie
-   MenuLocation: Siatki -> Operacje logiczne -> Przecięcie
+   MenuLocation: Siatki , Operacje logiczne , Przecięcie
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_Union/pl, Mesh_Difference/pl
 ---

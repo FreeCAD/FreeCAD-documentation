@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshClear
    Name/fr: FEM Supprimer maillage FEM
-   MenuLocation: Menu contextuel sur l'objet maillé -> Effacer le maillage FEM
+   MenuLocation: Menu contextuel sur l'objet maillé , Effacer le maillage FEM
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

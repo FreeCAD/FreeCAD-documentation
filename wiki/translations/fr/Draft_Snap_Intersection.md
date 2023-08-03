@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Intersection
    Name/fr: Draft Aimantation Intersection
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

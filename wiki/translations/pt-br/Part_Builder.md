@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Builder
-   MenuLocation: Part -> Shape builder...
+   MenuLocation: Part , Shape builder...
    Workbenches: Part_Workbench
    SeeAlso: Part_Primitives
 ---

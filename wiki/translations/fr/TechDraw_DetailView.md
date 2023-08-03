@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DetailView
    Name/fr: TechDraw Vue détaillée
-   MenuLocation: TechDraw -> Insérer une vue de détail
+   MenuLocation: TechDraw , Insérer une vue de détail
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_View/fr, TechDraw_ProjectionGroup/fr

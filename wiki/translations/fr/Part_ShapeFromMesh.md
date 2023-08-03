@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ShapeFromMesh
    Name/fr: Part Forme à partir du maillage
-   MenuLocation: Part -> Créer la forme à partir d'un maillage...
+   MenuLocation: Part , Créer la forme à partir d'un maillage...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_MakeSolid/fr, Part_RefineShape/fr, Part_PointsFromMesh/fr
 ---

@@ -1,6 +1,6 @@
 # Std Save/ro
 ---
-- GuiCommand:   Name: Std Save   Name/ro: Salvare   MenuLocation: Std_File_Menu/ro   File -> Salvare---
+ GuiCommand:   Name: Std Save   Name/ro: Salvare   MenuLocation: Std_File_Menu/ro   File , Salvare---
 
 
 </div>

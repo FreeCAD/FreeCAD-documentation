@@ -1,9 +1,9 @@
 # Std Export/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Export
    Name/de: Std Export
-   MenuLocation: Datei -> Exportieren...
+   MenuLocation: Datei , Exportieren...
    Workbenches: Alle
    Shortcut: **Strg**+**E**
    SeeAlso: Std_PrintPdf/de, Import_Export/de, Import_Export_Preferences/de---

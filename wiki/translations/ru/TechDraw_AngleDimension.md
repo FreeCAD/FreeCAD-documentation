@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Указать угловой размер
    Name: TechDraw_AngleDimension
-   MenuLocation: TechDraw -> Размеры -> Указать угловой размер
+   MenuLocation: TechDraw , Размеры , Указать угловой размер
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_3PtAngleDimension/ru
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear LanternGear
-   MenuLocation: Gear -> Lantern Gear
+   MenuLocation: Gear , Lantern Gear
    Workbenches: FCGear_Workbench
    Shortcut: None
    Version: v0.16

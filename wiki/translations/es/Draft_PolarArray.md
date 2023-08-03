@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PolarArray
    Name/es: Borrador ArregloPolar
-   MenuLocation: Modificación -> Herramientas de  Arreglo -> Arreglo Polar
+   MenuLocation: Modificación , Herramientas de  Arreglo , Arreglo Polar
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Version: 0.19
    SeeAlso: Draft_OrthoArray/es, Draft_CircularArray/es, Draft_PathArray/es, Draft_PathLinkArray/es, Draft_PointArray/es, Draft_PointLinkArray/es

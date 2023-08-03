@@ -1,6 +1,6 @@
 # Part Spiral/it
 ---
-- GuiCommand:   Name: Part Spiral   Name/it: Spirale   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Spirale---
+ GuiCommand:   Name: Part Spiral   Name/it: Spirale   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Spirale---
 
 
 </div>

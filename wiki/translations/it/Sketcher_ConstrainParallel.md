@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainHorizontal/it---
+ GuiCommand:   Name: Sketcher ConstrainParallel   Name/it: Parallela   Icon: Constraint Parallel.svg   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainHorizontal/it---
 
 
 </div>

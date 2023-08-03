@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать B-Сплайн
    Name: Sketcher_Create_a_B-Spline
    Icon: Sketcher_CompCreateBSpline.png

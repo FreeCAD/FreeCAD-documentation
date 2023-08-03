@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectrostatic
    Name/ru: FEM EquationElectrostatic
    Icon: Fem-equation-electrostatic.svg
-   MenuLocation:  Solve -> Equation electrostatic
+   MenuLocation:  Solve , Equation electrostatic
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

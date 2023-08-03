@@ -1,6 +1,6 @@
 # Ship GZ/it
 ---
-- GuiCommand:   Name: Ship PlotGZ   Name/it: Curve GZ   MenuLocation: Weights -> Calcola le curve GZ   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Ship PlotGZ   Name/it: Curve GZ   MenuLocation: Weights , Calcola le curve GZ   |Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_ViewScreenShot
    Name/ja: Std_ViewScreenShot
    MenuLocation: Tools -> Save picture...

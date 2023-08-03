@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/fr: Draft B-spline
-   MenuLocation: Draft -> B-spline
+   MenuLocation: Draft , B-spline
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **B** **S**
    Version: 0.7

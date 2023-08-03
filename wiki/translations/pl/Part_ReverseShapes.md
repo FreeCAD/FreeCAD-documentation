@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ReverseShapes
    Name/pl: Część: Odwróć kształty
-   MenuLocation: Część -> Odwróć kształty
+   MenuLocation: Część , Odwróć kształty
    Workbenches: Part_Workbench/pl
 ---
 

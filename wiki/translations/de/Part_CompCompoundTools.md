@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompCompoundTools
    Name/de: Part AuswahlVerbundwerkzeuge
-   MenuLocation: Formteil -> Verbund
+   MenuLocation: Formteil , Verbund
    Workbenches: Part_Workbench/de
    SeeAlso: 
 ---

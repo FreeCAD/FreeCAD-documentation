@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateTriangle
    Name/de: Sketcher DreieckErstellen
-   MenuLocation: Sketch -> Skizzengeometrie -> Gleichseitiges Dreieck erstellen
+   MenuLocation: Sketch , Skizzengeometrie , Gleichseitiges Dreieck erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **3**
    Version: 0.15

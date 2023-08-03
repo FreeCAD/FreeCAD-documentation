@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Point
    Name/ru: Точка
-   MenuLocation: Деталь -> Part_Primitives/ru -> Точка
+   MenuLocation: Деталь , Part_Primitives/ru , Точка
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

@@ -1,6 +1,6 @@
 # Draft FlipDimension/ro
 ---
-- GuiCommand:   Name: Draft FlipDimension   Name/ro: Draft FlipDimension   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
+ GuiCommand:   Name: Draft FlipDimension   Name/ro: Draft FlipDimension   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
 
 
 </div>

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_HorizontalDimension
    Name/it: Dimensione orizzontale
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw -> Dimensione orizzontale
+   MenuLocation: TechDraw , Dimensione orizzontale
    Shortcut: 
    SeeAlso: TechDraw_LengthDimension/it, TechDraw_VerticalDimension/it
 ---

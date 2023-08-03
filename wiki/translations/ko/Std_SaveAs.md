@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SaveAs
    Name/ko: 표준 다른 이름으로 저장
-   MenuLocation: 파일 -> 다른 이름으로 저장...
+   MenuLocation: 파일 , 다른 이름으로 저장...
    Workbenches: 모두
    SeeAlso: Std_SaveCopy/ko, Std_Save/ko
 ---

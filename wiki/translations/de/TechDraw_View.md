@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw View
    Name/de: TechDraw Ansicht
-   MenuLocation: TechDraw-> TechDraw Ansichten -> Ansicht einfügen
+   MenuLocation: TechDraw, TechDraw Ansichten , Ansicht einfügen
    Workbenches: TechDraw_Workbench/de
    SeeAlso: TechDraw_ProjectionGroup/de, TechDraw_SectionView/de
 ---

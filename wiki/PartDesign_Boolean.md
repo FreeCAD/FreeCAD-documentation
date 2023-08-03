@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Boolean
-   MenuLocation: Part Design -> Boolean operation
+   MenuLocation: Part Design , Boolean operation
    Workbenches: PartDesign_Workbench
    Version: 0.17
 ---

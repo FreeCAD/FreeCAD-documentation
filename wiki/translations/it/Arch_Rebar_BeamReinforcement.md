@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Rebar_BeamReinforcement
    Name/it: Armatura di trave
-   MenuLocation: Arch -> Strumenti armatura -> Armatura di trave o 3D/BIM -> Reinforcement -> Beam Reinforcement
+   MenuLocation: Arch , Strumenti armatura , Armatura di trave o 3D/BIM , Reinforcement , Beam Reinforcement
    Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
    SeeAlso: Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it, Arch Rebar/it
    Version: 0.19

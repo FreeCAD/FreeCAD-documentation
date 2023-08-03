@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/pt: Criar esboço
    Workbenches: Sketcher Workbench/pt
-   MenuLocation: Sketch -> Criar esboço
+   MenuLocation: Sketch , Criar esboço
    SeeAlso: Sketcher_MapSketch/pt, Sketcher_ReorientSketch/pt
 ---
 

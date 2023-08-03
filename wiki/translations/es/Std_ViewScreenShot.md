@@ -1,6 +1,6 @@
 # Std ViewScreenShot/es
 ---
-- GuiCommand:   Name: Std_ViewScreenShot   MenuLocation: Std Tools Menu/es   Herramientas -> Guardar imagen...|Workbenches: Todos   SeeAlso: ...---
+ GuiCommand:   Name: Std_ViewScreenShot   MenuLocation: Std Tools Menu/es   Herramientas -> Guardar imagen...|Workbenches: Todos   SeeAlso: ...---
 
 
 </div>

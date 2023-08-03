@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std HideSelection
    Name/ru: Std HideSelection
    Empty: 1
-   MenuLocation: Вид -> Видимость -> Скрыть выделенные
+   MenuLocation: Вид , Видимость , Скрыть выделенные
    Workbenches: All
    SeeAlso: Std_ToggleVisibility/ru, Std_ShowSelection/ru, Std_ToggleObjects/ru, Std_ShowObjects/ru, Std_HideObjects/ru
 ---

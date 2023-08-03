@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Delete
    Name/fr: Std Effacer
-   MenuLocation: Édition -> Effacer
+   MenuLocation: Édition , Effacer
    Workbenches: Tous
    Shortcut: **Suppr**
 ---

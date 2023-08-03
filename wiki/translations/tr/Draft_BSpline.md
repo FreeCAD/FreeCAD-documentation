@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/tr: BSpline
-   MenuLocation: Taslak -> BSpline
+   MenuLocation: Taslak , BSpline
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **B** **S**
    Version: 0.7

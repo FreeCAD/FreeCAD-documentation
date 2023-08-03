@@ -1,6 +1,6 @@
 # Draft Wire/sv
 ---
-- GuiCommand:   Name: Draft Wire   Name/sv: Draft Wire   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv, Draft BSpline/sv---
+ GuiCommand:   Name: Draft Wire   Name/sv: Draft Wire   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv, Draft BSpline/sv---
 
 
 </div>

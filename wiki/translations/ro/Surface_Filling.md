@@ -1,6 +1,6 @@
 # Surface Filling/ro
 ---
-- GuiCommand:   Icon: Filling.svg   Name: Surface Filling   MenuLocation: Surface -> Filling...   Workbenches: Surface Workbench|---
+ GuiCommand:   Icon: Filling.svg   Name: Surface Filling   MenuLocation: Surface , Filling...   Workbenches: Surface Workbench|---
 
 
 </div>

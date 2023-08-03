@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveHelix
    Name/de: PartDesign WendelAbziehen
-   MenuLocation: Part Design -> Objekte abziehen -> Wendel
+   MenuLocation: Part Design , Objekte abziehen , Wendel
    Workbenches: PartDesign_Workbench/de
    Version: 0.19
    SeeAlso: PartDesign_AdditiveHelix/de

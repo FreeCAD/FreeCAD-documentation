@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsProjectDistance
    Icon: Assembly_ConstraintPointsProjectDistance.svg
    Workbenches: Assembly3_Workbench

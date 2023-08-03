@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Open
    Name/pl: Std: Otwórz
-   MenuLocation: Plik -> Otwórz ...
+   MenuLocation: Plik , Otwórz ...
    Workbenches: wszystkie
    Shortcut: **Ctrl**+**O**
    SeeAlso: Std_Import/pl, Std_New/pl

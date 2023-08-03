@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points Export
    Name/fr: Points Exporter
-   MenuLocation: Points -> Exporter les points...
+   MenuLocation: Points , Exporter les points...
    Workbenches: Points_Workbench/fr
    SeeAlso: Import_Export/fr
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgMacroRecord
    Name/it: Registra una macro
-   MenuLocation: Macro -> Registra una macro ...
+   MenuLocation: Macro , Registra una macro ...
    Workbenches: Tutti
    SeeAlso: Std_MacroStopRecord/it
 ---

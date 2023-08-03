@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveTip
    Name/fr: PartDesign Désigner comme fonction résultante
-   MenuLocation: Menu contextuel -> Désigner comme fonction résultante
+   MenuLocation: Menu contextuel , Désigner comme fonction résultante
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_MoveFeature/fr, PartDesign_MoveFeatureInTree/fr

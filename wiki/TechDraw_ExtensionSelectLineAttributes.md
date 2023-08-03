@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionSelectLineAttributes
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Select Line Attributes, Cascade Spacing and Delta Distance
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Select Line Attributes, Cascade Spacing and Delta Distance
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

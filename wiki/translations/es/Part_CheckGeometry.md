@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CheckGeometry‏‎
    Name/es: Pieza ComprobarGeometría
-   MenuLocation: Pieza -> Comprobar geometría
+   MenuLocation: Pieza , Comprobar geometría
    Workbenches: Part_Workbench/es
 ---
 

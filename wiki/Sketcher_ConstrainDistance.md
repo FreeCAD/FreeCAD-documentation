@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistance
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain distance
+   MenuLocation: Sketch , Sketcher constraints , Constrain distance
    Workbenches: Sketcher_Workbench
    Shortcut: **K** **D**
    SeeAlso: Sketcher_ConstrainDistanceX, Sketcher_ConstrainDistanceY

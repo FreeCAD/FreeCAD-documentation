@@ -1,6 +1,6 @@
 # FEM PostPipelineFromResult/es
 ---
-- GuiCommand:   Name: FEM PostPipelineFromResult   MenuLocation:  Results -> post pipeline from result   ---
+ GuiCommand:   Name: FEM PostPipelineFromResult   MenuLocation:  Results , post pipeline from result   ---
 
 
 </div>

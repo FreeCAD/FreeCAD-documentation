@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/sv
 ---
-- GuiCommand:   Name: Sketcher CreateRectangle   Name/sv: Sketcher CreateRectangle   Workbenches: Sketcher Workbench/sv   Sketcher---
+ GuiCommand:   Name: Sketcher CreateRectangle   Name/sv: Sketcher CreateRectangle   Workbenches: Sketcher Workbench/sv   Sketcher---
 
 
 </div>

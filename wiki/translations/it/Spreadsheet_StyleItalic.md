@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_StyleItalic
    Name/it: Corsivo
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Stile -> Corsivo
+   MenuLocation: Spreadsheet , Stile , Corsivo
    Version: 0.17
 ---
 

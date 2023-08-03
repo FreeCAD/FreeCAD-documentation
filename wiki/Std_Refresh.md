@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Refresh
-   MenuLocation: Edit -> Refresh
+   MenuLocation: Edit , Refresh
    Workbenches: All
    Shortcut: **F5**
 ---

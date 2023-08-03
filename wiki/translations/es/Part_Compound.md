@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Compound‏‎
    Name/es: Pieza Compuesto‏‎
-   MenuLocation: Pieza -> Hacer Compuesto
+   MenuLocation: Pieza , Hacer Compuesto
    Workbenches: Part Workbench/es
    Version: 0.14
    SeeAlso: Part Union/es, Part CompoundFilter/es, Part ExplodeCompound/es

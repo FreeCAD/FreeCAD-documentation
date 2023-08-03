@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Spiral
    Name/ru: Плоская Cпираль
-   MenuLocation: Part_Workbench/ru -> Part_Primitives/ru -> Спираль
+   MenuLocation: Part_Workbench/ru , Part_Primitives/ru , Спираль
    Workbenches: Part_Workbench/ru
    Version: 0.14
    SeeAlso: Part_CreatePrimitives/ru

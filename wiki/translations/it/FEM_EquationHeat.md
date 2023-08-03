@@ -1,6 +1,6 @@
 # FEM EquationHeat/it
 ---
-- GuiCommand:   Name: FEM_EquationHeat   Name/it: FEM EquationHeat   Icon: Fem-equation-heat.svg   MenuLocation:  Solve -> Equation heat   ---
+ GuiCommand:   Name: FEM_EquationHeat   Name/it: FEM EquationHeat   Icon: Fem-equation-heat.svg   MenuLocation:  Solve , Equation heat   ---
 
 
 </div>

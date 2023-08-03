@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineKnotMultiplicity
    Name/it: Mostra/Nascondi molteplicità di nodo
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Sketcher B-spline tools -> Mostra/Nascondi le molteplicità di nodo della B-spline
+   MenuLocation: Sketch , Sketcher B-spline tools , Mostra/Nascondi le molteplicità di nodo della B-spline
    Version: 0.17
 SeeAlso=Sketcher CompCreateBSpline/it
 ---

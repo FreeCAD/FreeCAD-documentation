@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Midpoint
    Name/ru: Draft Midpoint
-   MenuLocation: Черчение -> Draft_Snap/ru -> Середина
+   MenuLocation: Черчение , Draft_Snap/ru , Середина
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxElementSelection
    Name/ko: 표준 면 선택 상자
-   MenuLocation: 편집 -> 면 선택 상자
+   MenuLocation: 편집 , 면 선택 상자
    Workbenches: 모두
    Shortcut: **Shift**+**E**
    SeeAlso: Std_BoxSelection/ko, Std_SelectAll/ko

@@ -1,6 +1,6 @@
 # Arch Building/uk
 ---
-- GuiCommand:   Name: Arch Building   Name/uk: Arch Building   Workbenches: Arch_Workbench/uk   Arch, Arch Site/uk---
+ GuiCommand:   Name: Arch Building   Name/uk: Arch Building   Workbenches: Arch_Workbench/uk   Arch, Arch Site/uk---
 
 
 </div>

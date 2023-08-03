@@ -1,6 +1,6 @@
 # PartDesign LinearPattern/it
 ---
-- GuiCommand:   Name: PartDesign LinearPattern   Name/it: Schiera lineare   MenuLocation: PartDesign -> Serie lineare   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign LinearPattern   Name/it: Schiera lineare   MenuLocation: PartDesign , Serie lineare   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

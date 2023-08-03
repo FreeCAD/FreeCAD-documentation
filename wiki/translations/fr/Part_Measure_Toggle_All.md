@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle All
    Name/fr: Part Tout basculer
-   MenuLocation: Mesure -> Tout basculer
+   MenuLocation: Mesure , Tout basculer
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Measure_Toggle_3D/fr, Part_Measure_Toggle_Delta/fr
 ---

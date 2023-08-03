@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionInsertSquare
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj przedrostek "〼"
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Wymiary -> Dodaj przedrostek "〼"
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Wymiary , Dodaj przedrostek "〼"
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CarbonCopy
    Name/fr: Sketcher Copie carbone
-   MenuLocation: Esquisse -> Géométries d'esquisse -> Copie carbone
+   MenuLocation: Esquisse , Géométries d'esquisse , Copie carbone
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **W**
    Version: 0.17

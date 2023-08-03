@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintMore
    Icon: Assembly_ConstraintMore.svg
    Workbenches: Assembly3_Workbench

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CircularArray
    Name/it: Serie circolare
-   MenuLocation: Modifiche -> Strumenti serie -> Serie circolare
+   MenuLocation: Modifiche , Strumenti serie , Serie circolare
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it

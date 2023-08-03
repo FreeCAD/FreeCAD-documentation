@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM CompMechEquations
    Name: FEM Équations mécaniques
    MenuLocation: 

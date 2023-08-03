@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateRectangles
    Workbenches: Sketcher_Workbench
    Version: 0.20

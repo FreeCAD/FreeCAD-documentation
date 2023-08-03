@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Std Direkthilfe
-   MenuLocation: Std Help Menu/de -> Direkthilfe
+   MenuLocation: Std Help Menu/de , Direkthilfe
    Workbenches: Alle
    Shortcut: **Shift** + **F1**
    SeeAlso: Std_OnlineHelp/de

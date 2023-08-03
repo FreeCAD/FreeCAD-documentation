@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MeshToShape   Name/es: Arch Malla a forma
-   MenuLocation: Arquitectura -> Utilidades -> Malla a forma
+   MenuLocation: Arquitectura , Utilidades , Malla a forma
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch SplitMesh/es, Arch RemoveShape/es
 ---

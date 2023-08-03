@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SendToPythonConsole
-   MenuLocation: Edit -> Send to Python Console
+   MenuLocation: Edit , Send to Python Console
    Workbenches: All
    Shortcut: **Ctrl**+**Shift**+**P**
    Version: 0.19

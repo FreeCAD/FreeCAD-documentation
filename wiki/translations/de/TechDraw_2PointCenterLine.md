@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 2PointCenterLine
    Name/de: TechDraw 2PunkteMittellinie
-   MenuLocation: TechDraw -> Linien Hinzufügen -> Mittellinie zwischen 2 Punkten hinzufügen
+   MenuLocation: TechDraw , Linien Hinzufügen , Mittellinie zwischen 2 Punkten hinzufügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/de, TechDraw_2LineCenterLine/de

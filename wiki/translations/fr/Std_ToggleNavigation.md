@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleNavigation
    Name/fr: Std Bascule de mode navigation
-   MenuLocation: Affichage -> Basculer en mode navigation/édition
+   MenuLocation: Affichage , Basculer en mode navigation/édition
    Workbenches: Tous
    Shortcut: **Echap**
 ---

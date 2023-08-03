@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Scale
    Name/fr: Draft Échelle
-   MenuLocation: Modification -> Échelle
+   MenuLocation: Modification , Échelle
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/fr, Draft_Clone/fr

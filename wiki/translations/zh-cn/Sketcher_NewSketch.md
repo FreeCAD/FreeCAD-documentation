@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name/zh-cn: 创建草图
    Name: Sketcher_NewSketch
-   MenuLocation: Sketch -> 创建草图
+   MenuLocation: Sketch , 创建草图
    Workbenches: Sketcher_Workbench/zh-cn
    SeeAlso: PartDesign_NewSketch/zh-cn, Sketcher_MapSketch/zh-cn, Sketcher_ReorientSketch/zh-cn
 ---

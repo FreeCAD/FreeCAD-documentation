@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectGroup
-   MenuLocation: Utilities -> Select group
+   MenuLocation: Utilities , Select group
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Std_Group, Draft_AddToGroup, Draft_AddConstruction, Draft_AutoGroup
 ---

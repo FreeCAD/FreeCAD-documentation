@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAlignment
    Name/fr: Assembly3 Contrainte d'alignement
    Icon: Assembly_ConstraintAlignment.svg

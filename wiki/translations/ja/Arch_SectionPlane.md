@@ -1,6 +1,6 @@
 # Arch SectionPlane/ja
 ---
-- GuiCommand:   Name: Arch SectionPlane   Name/ja: Arch SectionPlane   Workbenches: Arch Workbench/ja   建築|MenuLocation: Arch -> Section Plane   Shortcut: S P---
+ GuiCommand:   Name: Arch SectionPlane   Name/ja: Arch SectionPlane   Workbenches: Arch Workbench/ja   建築|MenuLocation: Arch -> Section Plane   Shortcut: S P---
 
 
 </div>

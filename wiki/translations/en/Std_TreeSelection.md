@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSelection
-   MenuLocation: View -> TreeView actions -> Go to selection
+   MenuLocation: View , TreeView actions , Go to selection
    Workbenches: All
    Shortcut: **T** **G**
    Version: 0.19

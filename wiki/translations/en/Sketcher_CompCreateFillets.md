@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateFillets
    Workbenches: Sketcher_Workbench
    Version: 0.19

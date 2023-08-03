@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeFace‏‎
-   MenuLocation: Part -> Make face from wires
+   MenuLocation: Part , Make face from wires
    Workbenches: Part_Workbench
    Version: 0.19
    SeeAlso: Part_RuledSurface

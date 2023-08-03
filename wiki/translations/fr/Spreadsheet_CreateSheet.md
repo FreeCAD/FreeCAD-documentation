@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet CreateSheet
    Name/fr: Spreadsheet Création d'une feuille de calcul
-   MenuLocation: Spreadsheet -> Créer une feuille de calcul
+   MenuLocation: Spreadsheet , Créer une feuille de calcul
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
 ---

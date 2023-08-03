@@ -1,8 +1,8 @@
 # Plot Axes/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: Eksen
-   MenuLocation: Arsa -> Eksen
+   MenuLocation: Arsa , Eksen
 ‏‎   
    Shortcut: 
    SeeAlso: ---

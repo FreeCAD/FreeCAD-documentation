@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves PasteSVG
    Name/fr: Curves Coller une image SVG
-   MenuLocation: Misc. -> Paste SVG
+   MenuLocation: Misc. , Paste SVG
    Workbenches: Curves_Workbench/fr
 ---
 

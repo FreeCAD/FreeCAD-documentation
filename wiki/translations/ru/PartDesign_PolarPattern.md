@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Круговой массив
    Name: PartDesign_PolarPattern
-   MenuLocation: Part Design -> Apply a pattern -> Круговой массив
+   MenuLocation: Part Design , Apply a pattern , Круговой массив
    Workbenches: PartDesign_Workbench/ru
    SeeAlso: PartDesign_MultiTransform/ru
 ---

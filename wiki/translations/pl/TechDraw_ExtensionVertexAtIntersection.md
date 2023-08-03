@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionVertexAtIntersection
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj wierzchołek kosmetyczny na przecięciu
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Dodaj wierzchołek kosmetyczny na przecięciu
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Linie środka / Gwinty , Dodaj wierzchołek kosmetyczny na przecięciu
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

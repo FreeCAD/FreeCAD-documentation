@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array
    Name/fr: Draft Réseau
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

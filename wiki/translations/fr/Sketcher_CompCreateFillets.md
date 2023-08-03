@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateFillets
    Name/fr: Sketcher Congés
    Workbenches: Sketcher_Workbench/fr

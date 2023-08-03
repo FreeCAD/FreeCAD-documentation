@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/ro: Funcții BSpline
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
-   MenuLocation: Draft -> BSpline
+   MenuLocation: Draft , BSpline
    Shortcut: **B** **S**
    SeeAlso: Draft Wire/ro
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Quit
    Name/de: Std Beenden
-   MenuLocation: Datei -> Beenden
+   MenuLocation: Datei , Beenden
    Workbenches: All
    Shortcut: **Alt**+**F4**
    SeeAlso: Std_CloseActiveWindow/de

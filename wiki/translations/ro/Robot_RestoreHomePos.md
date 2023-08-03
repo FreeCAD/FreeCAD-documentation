@@ -1,6 +1,6 @@
 # Robot RestoreHomePos/ro
 ---
-- GuiCommand:   Name: Robot RestoreHomePos   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot -> Restore home position---
+ GuiCommand:   Name: Robot RestoreHomePos   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot , Restore home position---
 
 
 </div>

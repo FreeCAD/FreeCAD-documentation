@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Smoothing
    Name/fr: Mesh Lissage
-   MenuLocation: Maillages -> Lisser...
+   MenuLocation: Maillages , Lisser...
    Workbenches: Mesh_Workbench/fr
 ---
 

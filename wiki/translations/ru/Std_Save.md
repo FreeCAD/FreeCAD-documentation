@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Save
    Name/ru: Std Save
-   MenuLocation: Std_File_Menu/ru -> Сохранить
+   MenuLocation: Std_File_Menu/ru , Сохранить
    Workbenches: All
    Shortcut: **Ctrl**+**S**
    SeeAlso: Std_SaveAs/ru, Std_SaveCopy/ru, Std_SaveAll/ru

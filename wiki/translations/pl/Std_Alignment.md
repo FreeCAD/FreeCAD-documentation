@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Alignment
    Name/pl: Std: Wyrównanie
-   MenuLocation: Edycja -> Wyrównanie ...
+   MenuLocation: Edycja , Wyrównanie ...
    Workbenches: wszystkie
    SeeAlso: Std_Placement/pl
 ---

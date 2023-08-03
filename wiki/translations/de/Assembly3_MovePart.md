@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MovePart
    Name/de: Assembly3 TeilBewegen
    Icon: Assembly_Move.svg
-   MenuLocation: Assembly3 -> Move part
+   MenuLocation: Assembly3 , Move part
    Workbenches: Assembly3_Workbench/de
    Shortcut: **A** dann **M**
 ---

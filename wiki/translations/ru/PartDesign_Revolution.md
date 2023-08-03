@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Фигура вращения
    Name: PartDesign_Revolution
-   MenuLocation: PartDesign -> Create an additive feature -> Фигура вращения
+   MenuLocation: PartDesign , Create an additive feature , Фигура вращения
    Workbenches: PartDesign_Workbench/ru
 ---
 

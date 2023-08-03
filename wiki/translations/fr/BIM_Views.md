@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/fr
+ GuiCommand:Addon/fr
    Name: BIM Views
    Name/fr: BIM Vues
    Workbenches: Image:IFC.svg BIM Workbench/fr
    Addon: BIM
-   MenuLocation: Manage -> Views
+   MenuLocation: Manage , Views
 ---
 
 # BIM Views/fr

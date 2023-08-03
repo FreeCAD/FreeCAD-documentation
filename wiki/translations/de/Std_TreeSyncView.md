@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSyncView
    Name/de: Std BaumSyncAnsicht
-   MenuLocation: Ansicht -> BaumAnsicht-Aktionen -> Sync-Ansicht
+   MenuLocation: Ansicht , BaumAnsicht-Aktionen , Sync-Ansicht
    Workbenches: All
    Shortcut: **T** **1**
    Version: 0.19

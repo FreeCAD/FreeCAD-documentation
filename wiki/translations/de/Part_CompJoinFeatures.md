@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompJoinFeatures
    Name/de: Part AuswahlVerbindungsmethoden
-   MenuLocation: Formteil -> Verbinden
+   MenuLocation: Formteil , Verbinden
    Workbenches: Part_Workbench/de
    Version: 0.16
    SeeAlso: Part_JoinConnect/de, Part_JoinEmbed/de, Part_JoinCutout/de, Part_Boolean/de, Part_Thickness/de

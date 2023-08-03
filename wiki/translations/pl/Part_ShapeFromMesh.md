@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ShapeFromMesh‏‎
    Name/pl: Część: Utwórz kształt z siatki
-   MenuLocation: Part -> Utwórz kształt z siatki ...
+   MenuLocation: Part , Utwórz kształt z siatki ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_MakeSolid/pl, Part_RefineShape/pl, Part_PointsFromMesh/pl
 ---

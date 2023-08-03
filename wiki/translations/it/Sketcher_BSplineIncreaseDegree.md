@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_BSplineIncreaseDegree
    Name/it: Aumenta di grado
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Strumenti B-spline -> Aumenta di grado
+   MenuLocation: Sketch , Strumenti B-spline , Aumenta di grado
    Version: 0.17
    SeeAlso: Sketcher CompCreateBSpline/it
 ---

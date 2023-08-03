@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/ro: Draft Rotate
-   MenuLocation: Draft -> Rotate
+   MenuLocation: Draft , Rotate
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **R** **O**
 ---

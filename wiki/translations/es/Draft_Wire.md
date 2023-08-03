@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Wire
    Name/es: Draft Wire
    MenuLocation: Croquis -> Polilínea

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupTag
    Name/fr: Path Attache
-   MenuLocation: Path -> Finition du parcours -> Attache
+   MenuLocation: Path , Finition du parcours , Attache
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupRampEntry/fr, Path_DressupDogbone/fr , Path_DressupDragKnife/fr
 ---

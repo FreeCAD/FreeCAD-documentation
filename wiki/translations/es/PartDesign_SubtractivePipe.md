@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractivePipe
    Name/es: PartDesign Barrido sustractivo
-   MenuLocation: Part Design -> Create a substractive feature -> Tubo sustractivo
+   MenuLocation: Part Design , Create a substractive feature , Tubo sustractivo
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
    SeeAlso: PartDesign_AdditivePipe/es, PartDesign_SubtractiveLoft

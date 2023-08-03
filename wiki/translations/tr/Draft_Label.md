@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Label
    Name/tr: Etiket
-   MenuLocation: Taslak -> Etiket
+   MenuLocation: Taslak , Etiket
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **L**
    SeeAlso: Draft Text/tr, Draft ShapeString/tr

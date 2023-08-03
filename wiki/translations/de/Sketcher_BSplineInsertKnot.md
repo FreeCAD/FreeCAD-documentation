@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineInsertKnot
    Name/de: Sketcher BSplineInsertKnot
-   MenuLocation: Sketch -> Sketcher B-spline tools -> Insert knot
+   MenuLocation: Sketch , Sketcher B-spline tools , Insert knot
    Workbenches: Sketcher_Workbench/de
    Version: 0.20
    SeeAlso: Sketcher_BSplineKnotMultiplicity/de, Sketcher_BSplineIncreaseKnotMultiplicity/de, Sketcher_BSplineDecreaseKnotMultiplicity/de

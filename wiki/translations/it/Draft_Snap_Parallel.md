@@ -1,9 +1,9 @@
 # Draft Snap Parallel/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Parallel
    Name/it: Parallela
-   MenuLocation: Draft -> Draft Snap/it -> Parallela
+   MenuLocation: Draft , Draft Snap/it , Parallela
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it---

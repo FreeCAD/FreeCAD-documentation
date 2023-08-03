@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ReorientSketch
    Name/de: Sketcher SkizzeAnordnen
-   MenuLocation: Sketch -> Skizze neu Anordnen
+   MenuLocation: Sketch , Skizze neu Anordnen
    Workbenches: Sketcher_Workbench/de, PartDesign_Workbench/de
    SeeAlso: Sketcher_MapSketch/de, Sketcher_NewSketch/de
 ---

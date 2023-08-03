@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Chamfer
    Name/fr: Part Chanfrein
-   MenuLocation: Part -> Chanfrein...
+   MenuLocation: Part , Chanfrein...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Fillet/fr
 ---

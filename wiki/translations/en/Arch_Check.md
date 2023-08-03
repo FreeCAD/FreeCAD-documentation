@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
-   MenuLocation: Arch -> Utilities -> Check
+   MenuLocation: Arch , Utilities , Check
    Workbenches: Arch_Workbench
    SeeAlso: Arch_CloseHoles
 ---

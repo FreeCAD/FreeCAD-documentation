@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Clear All
    Name/it: Cancella tutto
-   MenuLocation: {{StdMenu}} -> Cancella tutto‎
+   MenuLocation: {{StdMenu}} , Cancella tutto‎
    Workbenches: Part_Workbench/it
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Wire
    Name/tr: Tel
-   MenuLocation: Taslak -> Tel
+   MenuLocation: Taslak , Tel
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **P** **L**
    Version: 0.17

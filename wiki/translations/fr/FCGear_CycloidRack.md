@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear CycloidRack
    Name/fr: FCGear Crémaillère cycloïde
-   MenuLocation: Gear -> Cycloid Rack
+   MenuLocation: Gear , Cycloid Rack
    Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: 1.0

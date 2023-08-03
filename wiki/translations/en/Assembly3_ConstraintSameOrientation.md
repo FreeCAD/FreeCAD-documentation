@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSameOrientation
    Icon: Assembly_ConstraintSameOrientation.svg
    Workbenches: Assembly3_Workbench

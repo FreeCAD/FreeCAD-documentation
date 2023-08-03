@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Project
    Name/fr: Arch Projet
-   MenuLocation: Arch -> Projet
+   MenuLocation: Arch , Projet
    Workbenches: Arch_Workbench/fr
    Shortcut: **P** **O**
    SeeAlso: Arch_Site/fr, Arch_Building/fr

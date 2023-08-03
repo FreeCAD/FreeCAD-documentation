@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIsometric
    Name/fr: Std Vue isométrique
-   MenuLocation: Affichage -> Vues standards -> Axonométrique -> Isométrique
+   MenuLocation: Affichage , Vues standards , Axonométrique , Isométrique
    Workbenches: Tous
    Shortcut: **0**
    SeeAlso: Std_OrthographicCamera/fr, Std_ViewDimetric/fr, Std_ViewTrimetric/fr

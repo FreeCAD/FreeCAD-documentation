@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintCurrentDensity
    Name/de: FEM RandbedingungStromdichte
-   MenuLocation:  Model -> Electromagnetic Constraints -> Constraint current density
+   MenuLocation:  Model , Electromagnetic Constraints , Constraint current density
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/de, FEM_EquationMagnetodynamic2D/de

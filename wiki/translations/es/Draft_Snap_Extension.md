@@ -1,6 +1,6 @@
 # Draft Snap Extension/es
 ---
-- GuiCommand:   Name: Draft Snap Extension   Workbenches: Draft Workbench   Draft, Arch Workbench -> Extension|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Draft Snap Extension   Workbenches: Draft Workbench   Draft, Arch Workbench , Extension|Shortcut:    SeeAlso: ---
 
 
 </div>

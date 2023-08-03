@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreezeViews
    Name/pl: Std: Zamroź widok
-   MenuLocation: Widok -> Zamroź widok -> ...
+   MenuLocation: Widok , Zamroź widok , ...
    Workbenches: Wszystkie
    SeeAlso: Std_StoreWorkingView/pl, Std_RecallWorkingView/pl,Std_ViewIvIssueCamPos/pl
 ---

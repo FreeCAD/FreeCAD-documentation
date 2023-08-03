@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddConstruction
    Name/fr: Draft Ajouter au groupe de construction
-   MenuLocation: Utilitaires -> Ajouter au groupe de construction
+   MenuLocation: Utilitaires , Ajouter au groupe de construction
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Version: 0.17
    SeeAlso: Draft_ToggleConstructionMode/fr, Draft_AddToGroup/fr

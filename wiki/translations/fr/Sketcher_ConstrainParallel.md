@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainParallel
    Name/fr: Sketcher Contrainte parallèle
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte parallèle
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte parallèle
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **P**
    SeeAlso: Sketcher_ConstrainVertical/fr, Sketcher_ConstrainHorizontal/fr

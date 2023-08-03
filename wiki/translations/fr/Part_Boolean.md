@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Boolean
    Name/fr: Part Opération booléenne
-   MenuLocation: Part -> Opération booléenne -> Opération booléenne...
+   MenuLocation: Part , Opération booléenne , Opération booléenne...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Cut, Part_Fuse/fr, Part_Common/fr, Part_Section/fr
 ---

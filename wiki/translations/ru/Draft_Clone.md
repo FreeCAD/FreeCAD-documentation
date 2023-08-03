@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Clone
    Name/ru: Клонировать
-   MenuLocation: Черчение -> Клонировать
+   MenuLocation: Черчение , Клонировать
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **C** **L**
    SeeAlso: Draft Scale/ru

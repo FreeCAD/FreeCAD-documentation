@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CheckGeometry‏‎
    Name/fr: Part Vérifier la géométrie
-   MenuLocation: Part -> Vérifier la géométrie...
+   MenuLocation: Part , Vérifier la géométrie...
    Workbenches: Part_Workbench/fr
 ---
 

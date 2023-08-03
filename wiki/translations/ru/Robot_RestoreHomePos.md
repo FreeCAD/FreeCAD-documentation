@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot_RestoreHomePos
    Name/ru: Вернуть в исходное положение
-   MenuLocation: Робот -> Вернуть в исходное положение
+   MenuLocation: Робот , Вернуть в исходное положение
    Workbenches: Robot_Workbench/ru
 ---
 

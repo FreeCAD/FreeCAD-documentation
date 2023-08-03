@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Trimming
    Name/es: Croquizador Recortar
-   MenuLocation: Croquis -> Croquizador Geometrías -> Recortar borde
+   MenuLocation: Croquis , Croquizador Geometrías , Recortar borde
    Workbenches: Sketcher_Workbench/es
    Version: 0.12
    SeeAlso: Sketcher_Extend/es

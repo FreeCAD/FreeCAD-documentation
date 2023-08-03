@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/ro: Draft PathArray
-   MenuLocation: Draft -> PathArray
+   MenuLocation: Draft , PathArray
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Version: 0.14
    SeeAlso: Draft Array/ro

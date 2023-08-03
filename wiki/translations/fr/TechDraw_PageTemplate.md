@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw PageTemplate
    Name/fr: TechDraw Page à partir d'un modèle
-   MenuLocation: TechDraw -> Page -> Insérer une page à partir d'un modèle
+   MenuLocation: TechDraw , Page , Insérer une page à partir d'un modèle
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_PageDefault/fr, TechDraw_Templates/fr
 ---

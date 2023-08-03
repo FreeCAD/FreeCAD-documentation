@@ -1,9 +1,9 @@
 ---
-- GuiCommand:Addon
+ GuiCommand:Addon
    Name: BIM Setup
    Workbenches: Image:IFC.svg BIM Workbench
    Addon: BIM
-   MenuLocation: Manage -> Setup
+   MenuLocation: Manage , Setup
 ---
 
 # BIM Setup/ru

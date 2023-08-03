@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDecreaseDecimal
    Name/fr: TechDraw Moins de décimales
-   MenuLocation: TechDraw -> Extensions : cotes -> Moins de décimales
+   MenuLocation: TechDraw , Extensions : cotes , Moins de décimales
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить объект верстака Draft
    Name: TechDraw_DraftView
-   MenuLocation: TechDraw -> Вставить объект верстака Draft
+   MenuLocation: TechDraw , Вставить объект верстака Draft
    Workbenches: TechDraw_Workbench/ru, Draft_Workbench/ru
    SeeAlso: TechDraw_ArchView/ru
 ---

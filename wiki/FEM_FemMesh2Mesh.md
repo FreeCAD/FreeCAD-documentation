@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM FemMesh2Mesh
-   MenuLocation: Mesh -> FEM mesh to mesh
+   MenuLocation: Mesh , FEM mesh to mesh
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

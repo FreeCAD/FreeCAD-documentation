@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainSnellsLaw
    Name/de: Sketcher ConstrainSnellsLaw
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Lichtbrechung  festlegen
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Lichtbrechung  festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **W**
    Version: 0.15

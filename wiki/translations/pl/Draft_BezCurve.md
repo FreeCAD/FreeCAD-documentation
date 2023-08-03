@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BezCurve
    Name/pl: Draft: Krzywa Beziera
-   MenuLocation: Drafting -> Narzędzia Beziera -> Krzywa Beziera
+   MenuLocation: Drafting , Narzędzia Beziera , Krzywa Beziera
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **B** **Z**
    Version: 0.14

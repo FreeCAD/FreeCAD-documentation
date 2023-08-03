@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSyncPlacement
    Name/de: Std BaumSyncPosition
-   MenuLocation: Ansicht -> Baumansicht-Aktionen -> Sync-Platzierung
+   MenuLocation: Ansicht , Baumansicht-Aktionen , Sync-Platzierung
    Workbenches: Alle
    Shortcut: **T** **3**
    Version: 0.19

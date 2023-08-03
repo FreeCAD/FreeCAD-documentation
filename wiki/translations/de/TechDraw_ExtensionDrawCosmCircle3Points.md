@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDrawCosmCircle3Points
    Name/de: TechDraw ErgänzungHilfskreisDurch3PunkteZeichnen
-   MenuLocation: TechDraw -> Ergänzungen: Mittellinien/Gewinde -> Hilfskreis über 3 Punkte hinzufügen
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde , Hilfskreis über 3 Punkte hinzufügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Midpoint
    Name/tr: Taslak Orta nokta
-   MenuLocation: Taslak -> Draft_Snap/tr -> Orta nokta
+   MenuLocation: Taslak , Draft_Snap/tr , Orta nokta
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: ''None''
    SeeAlso: Draft Snap/tr

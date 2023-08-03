@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Shape
    Name/fr: Path Parcours à partir de formes
-   MenuLocation: Path -> Autres commandes -> À partir de la forme
+   MenuLocation: Path , Autres commandes , À partir de la forme
    Workbenches: Path_Workbench/fr
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw PageDefault
-   MenuLocation: TechDraw -> Page -> Insert Default Page
+   MenuLocation: TechDraw , Page , Insert Default Page
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_PageTemplate, TechDraw_Templates
 ---

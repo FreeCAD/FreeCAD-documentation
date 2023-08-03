@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewRotateRight
    Name/pl: Std: Odwróć widok w prawo
-   MenuLocation: Widok -> Widoki standardowe -> Odwróć w prawo
+   MenuLocation: Widok , Widoki standardowe , Odwróć w prawo
    Workbenches: wszystkie
    Shortcut: **Shift** + **Prawo**
    SeeAlso: Std_ViewRotateLeft/pl

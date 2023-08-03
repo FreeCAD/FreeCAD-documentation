@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainParallel
    Name/pl: Szkicownik: Wiązanie równoległości
-   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie równoległości
+   MenuLocation: Szkic , Wiązania szkicownika , Wiązanie równoległości
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **P**
    SeeAlso: Sketcher_ConstrainVertical/pl, Sketcher_ConstrainHorizontal/pl

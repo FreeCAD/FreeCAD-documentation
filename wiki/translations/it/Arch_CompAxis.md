@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CompAxis
    Name/it: Assi
-   MenuLocation: Arch -> Assi
+   MenuLocation: Arch , Assi
    Workbenches: Arch Workbench/it, BIM Workbench/it
    Version: 0.17
    SeeAlso: Arch_Axis/it, Arch_AxisSystem/it, Arch_Grid/it

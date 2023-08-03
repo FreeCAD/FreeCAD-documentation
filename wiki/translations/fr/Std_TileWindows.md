@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TileWindows
    Name/fr: Std Mosaïque
-   MenuLocation: Fenêtre -> Mosaïque
+   MenuLocation: Fenêtre , Mosaïque
    Workbenches: Tous
    SeeAlso: Std_CascadeWindows/fr
 ---

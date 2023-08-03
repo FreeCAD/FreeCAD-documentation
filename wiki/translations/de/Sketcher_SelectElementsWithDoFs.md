@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectElementsWithDoFs
    Name/de: Sketcher UnterbestimmteElementeAuswählen
-   MenuLocation: Skizze -> Skizzenwerkzeuge -> Unterbestimmte Elemente auswählen
+   MenuLocation: Skizze , Skizzenwerkzeuge , Unterbestimmte Elemente auswählen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **Z** **F**
    Version: 0.18

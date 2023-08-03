@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/pl: Rysunek Roboczy: Obróć
-   MenuLocation: Modyfikacja -> Obróć
+   MenuLocation: Modyfikacja , Obróć
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **R** **O**
    SeeAlso: Draft_SubelementHighlight/pl

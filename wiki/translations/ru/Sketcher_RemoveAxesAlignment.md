@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Удалить выравнивание осей
    Name: Sketcher_RemoveAxesAlignment
-   MenuLocation: Эскиз -> Инструменты для эскиза -> Удалить выравнивание осей
+   MenuLocation: Эскиз , Инструменты для эскиза , Удалить выравнивание осей
    Workbenches: Sketcher_Workbench/ru
    Version: 0.20
 ---

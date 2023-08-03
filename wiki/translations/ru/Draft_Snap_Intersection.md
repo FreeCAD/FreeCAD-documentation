@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Intersection
-   MenuLocation: Черчение -> Draft_Snap/ru -> Пересечение
+   MenuLocation: Черчение , Draft_Snap/ru , Пересечение
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

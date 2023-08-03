@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket LaunchLug
-   MenuLocation: Rocket -> Launch Guides -> Launch Lug
+   MenuLocation: Rocket , Launch Guides , Launch Lug
    Workbenches: Rocket_Workbench
    Version: 0.19
 ---

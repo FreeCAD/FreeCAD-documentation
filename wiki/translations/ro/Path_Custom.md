@@ -1,6 +1,6 @@
 # Path Custom/ro
 ---
-- GuiCommand:   Name: Path Custom   Workbenches: Path Workbench   Path|MenuLocation: Path -> Partial Commands -> Custom   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Path Custom   Workbenches: Path Workbench   Path|MenuLocation: Path , Partial Commands , Custom   Shortcut:    SeeAlso: ---
 
 
 </div>

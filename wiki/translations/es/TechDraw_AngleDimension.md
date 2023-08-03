@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Angle
    Name/es: TechDraw Dimensión Ángulo
-   MenuLocation: TechDraw -> Dimensión Ángulo
+   MenuLocation: TechDraw , Dimensión Ángulo
    Workbenches: TechDraw_Workbench/es
    SeeAlso: TechDraw_3PtAngleDimension/es
 ---

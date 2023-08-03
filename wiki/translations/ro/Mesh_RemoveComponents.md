@@ -1,6 +1,6 @@
 # Mesh RemoveComponents/ro
 ---
-- GuiCommand:   Name: Mesh RemoveComponents‏‎   MenuLocation: Meshes -> Remove components   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Mesh RemoveComponents‏‎   MenuLocation: Meshes , Remove components   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

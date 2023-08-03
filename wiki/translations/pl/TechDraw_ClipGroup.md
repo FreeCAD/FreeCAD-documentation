@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ClipGroup
    Name/pl: Rysunek Techniczny: Wstaw grupę wycinków
-   MenuLocation: Rysunek Techniczny -> Wstaw grupę wycinków
+   MenuLocation: Rysunek Techniczny , Wstaw grupę wycinków
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_ClipGroupAdd/pl, TechDraw_ClipGroupRemove/pl
 ---

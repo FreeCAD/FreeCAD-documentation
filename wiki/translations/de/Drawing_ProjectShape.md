@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing ProjectShape
    Name/de: Drawing ProjectShape
    Empty: 1
    Workbenches: Drawing_Workbench/de
-   MenuLocation: Drawing -> Project shape
+   MenuLocation: Drawing , Project shape
 ---
 
 # Drawing ProjectShape/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вырезать
    Name: Std_Cut
-   MenuLocation: Правка -> Вырезать
+   MenuLocation: Правка , Вырезать
    Workbenches: All
    SeeAlso: Std_Copy/ru, Std_Paste/ru, Std_DuplicateSelection/ru
 ---

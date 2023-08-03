@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainBlock
    Name/de: Sketcher Fixieren
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Fixieren
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Fixieren
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **B**
    Version: 0.17

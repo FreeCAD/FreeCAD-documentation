@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves GordonSurface
-   MenuLocation: Surfaces -> Gordon surface
+   MenuLocation: Surfaces , Gordon surface
    Workbenches: Curves_Workbench
 ---
 

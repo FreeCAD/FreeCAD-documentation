@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Scale
    Name/pl: Siatka Skaluj
-   MenuLocation: Siatki -> Skaluj ...
+   MenuLocation: Siatki , Skaluj ...
    Workbenches: Mesh_Workbench/pl
 ---
 

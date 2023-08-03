@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset2D
    Name/pl: Część: Odsunięcie 2D
-   MenuLocation: Część -> Odsunięcie 2D
+   MenuLocation: Część , Odsunięcie 2D
    Workbenches: Part_Workbench/pl
    Version: 0.17
    SeeAlso: Part_Offset/pl, Part_Thickness/pl, Draft_Offset/pl

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Conics
    Name/it: Conica
    Workbenches: Sketcher Workbench/it

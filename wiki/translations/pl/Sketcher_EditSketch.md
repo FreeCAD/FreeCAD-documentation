@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Name/pl: Szkicownik: Edycja szkicu
-   MenuLocation: Szkic -> Edycja szkicu
+   MenuLocation: Szkic , Edycja szkicu
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    SeeAlso: Sketcher_LeaveSketch/pl
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch IfcSpreadsheet
-   MenuLocation: Arch -> Utilities -> Create IFC spreadsheet
+   MenuLocation: Arch , Utilities , Create IFC spreadsheet
    Workbenches: Arch_Workbench
    Shortcut: **I** **P**
    SeeAlso: Arch_IFC, Arch_IfcExplorer

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/ru: Draft AnnotationStyleEditor
-   MenuLocation: Annotation -> Annotation styles
+   MenuLocation: Annotation , Annotation styles
    Workbenches: Draft_Workbench/ru
    Shortcut: -
    SeeAlso: Draft_Text/ru, Draft_Dimension/ru, Draft_Label/ru

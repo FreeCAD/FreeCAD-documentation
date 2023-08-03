@@ -1,6 +1,6 @@
 # Drawing View/cs
 ---
-- GuiCommand:   Name: Drawing View   Name/cs: Drawing View   Workbenches: Drawing Workbench/cs   Výkres, Complete---
+ GuiCommand:   Name: Drawing View   Name/cs: Drawing View   Workbenches: Drawing Workbench/cs   Výkres, Complete---
 
 
 </div>

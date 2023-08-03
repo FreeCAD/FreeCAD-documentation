@@ -1,6 +1,6 @@
 # Part Mirror/ro
 ---
-- GuiCommand:   Name: Part Mirror   MenuLocation: Part -> Mirror   Workbenches: Part Workbench   Part|SeeAlso: 
+ GuiCommand:   Name: Part Mirror   MenuLocation: Part -> Mirror   Workbenches: Part Workbench   Part|SeeAlso: 
 
 
 </div>

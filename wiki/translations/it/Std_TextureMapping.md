@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TextureMapping
    Name/it: Mappa una trama
-   MenuLocation: Visualizza -> Mappa una trama...
+   MenuLocation: Visualizza , Mappa una trama...
    Workbenches: Tutti
 ---
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path_Job
    Name/it: Lavorazione
    Workbenches: Path Workbench/it
-   MenuLocation: Path -> Lavorazione
+   MenuLocation: Path , Lavorazione
    Shortcut: **P** **F**
    SeeAlso: 
 ---

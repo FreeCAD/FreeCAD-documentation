@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Grid   Name/it: Griglia
-   MenuLocation: Grafico -> Griglia
+   MenuLocation: Grafico , Griglia
 ‏‎   Workbenches: Plot_Workbench/it
 ---
 

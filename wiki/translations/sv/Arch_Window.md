@@ -1,6 +1,6 @@
 # Arch Window/sv
 ---
-- GuiCommand:   Name: Arch Window   Name/sv: Arch Window   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch Window   Name/sv: Arch Window   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

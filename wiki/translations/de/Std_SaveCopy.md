@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SaveCopy
    Name/de: Std KopieSpeichern
-   MenuLocation: Datei -> Speichern einer Kopie...
+   MenuLocation: Datei , Speichern einer Kopie...
    Workbenches: Alle
    Shortcut: **C**
    SeeAlso: Std_Save/de, Std_SaveAs/de

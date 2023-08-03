@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: U-Образная арматура
    Name: Arch_Rebar_UShape
-   MenuLocation: Arch -> Rebar tools -> U-Shape Rebar<br>3D/BIM -> Reinforcement tools -> U-Shape Rebar
+   MenuLocation: Arch , Rebar tools , U-Shape Rebar<br>3D/BIM , Reinforcement tools , U-Shape Rebar
    Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_LShape/ru

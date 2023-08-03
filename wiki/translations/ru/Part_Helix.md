@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Helix
    Name/ru: Винтовая Спираль
-   MenuLocation: Деталь -> Part_Primitives/ru -> Спираль
+   MenuLocation: Деталь , Part_Primitives/ru , Спираль
    Workbenches: Part_Workbench/ru,  OpenSCAD_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/it:  Limita al piano di lavoro
-   MenuLocation: Draft -> Draft Snap/it ->  Piano di lavoro
+   MenuLocation: Draft , Draft Snap/it ,  Piano di lavoro
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft SelectPlane/it

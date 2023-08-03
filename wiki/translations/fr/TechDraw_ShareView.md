@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ShareView
    Name/fr: TechDraw Copier une vue
-   MenuLocation: TechDraw -> Vues de Techdraw -> Copier une vue
+   MenuLocation: TechDraw , Vues de Techdraw , Copier une vue
    Workbenches: TechDraw_Workbench/fr
    Version: 0.20
    SeeAlso: TechDraw_MoveView/fr

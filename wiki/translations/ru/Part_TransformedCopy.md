@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать преобразованную копию
    Name: Part_TransformedCopy
-   MenuLocation: Деталь -> Создать копию -> Создать преобразованную копию
+   MenuLocation: Деталь , Создать копию , Создать преобразованную копию
    Workbenches: Part_Workbench/ru
    Version: 0.19
    SeeAlso: Part_SimpleCopy/ru, Part_ElementCopy/ru, Part_RefineShape/ru

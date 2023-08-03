@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Part Attachment
    Empty: 1
    Workbenches: Part_Workbench, PartDesign Workbench
-   MenuLocation: Part -> Attachment...
+   MenuLocation: Part , Attachment...
    SeeAlso: Placement
    Version: 0.17
 ---

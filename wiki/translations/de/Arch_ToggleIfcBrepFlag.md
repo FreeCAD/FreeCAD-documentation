@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch ToggleIfcBrepFlag
    Name/de: Arch UmschaltenIfcBrepMarkierung
    Workbenches: Arch_Workbench/de
-   MenuLocation: Arch -> Dienstprogramme -> Umschalten Ifc Brep Markierung
+   MenuLocation: Arch , Dienstprogramme , Umschalten Ifc Brep Markierung
    SeeAlso: Arch_IfcExplorer/de, Arch_IFC/de
 ---
 

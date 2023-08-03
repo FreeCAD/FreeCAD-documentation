@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Scale
    Name/tr: Ölçekle
-   MenuLocation: Draft -> Scale
+   MenuLocation: Draft , Scale
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **S** **C**
    SeeAlso: Draft Clone/tr

@@ -1,6 +1,6 @@
 # Sketcher ConstrainParallel/cs
 ---
-- GuiCommand:   Name: Constraint Parallel   Name/cs: Constraint Parallel   Workbenches: Sketcher Workbench/cs   Sketcher, PartDesign Workbench/cs, Sketcher ConstrainHorizontal/cs---
+ GuiCommand:   Name: Constraint Parallel   Name/cs: Constraint Parallel   Workbenches: Sketcher Workbench/cs   Sketcher, PartDesign Workbench/cs, Sketcher ConstrainHorizontal/cs---
 
 
 </div>

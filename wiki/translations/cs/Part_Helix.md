@@ -1,6 +1,6 @@
 # Part Helix/cs
 ---
-- GuiCommand:   Name: Part Helix   Name/cs: Díl Šroubovice   MenuLocation: Díl -> Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů -> Šroubovice, OpenSCAD_Workbench/cs|SeeAlso: ..---
+ GuiCommand:   Name: Part Helix   Name/cs: Díl Šroubovice   MenuLocation: Díl , Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů , Šroubovice, OpenSCAD_Workbench/cs|SeeAlso: ..---
 
 
 </div>

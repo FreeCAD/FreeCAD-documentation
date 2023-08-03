@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Nest
    Name/fr: Arch Calepinage
-   MenuLocation: Arch -> Outils pour les panneaux -> Calepinage
+   MenuLocation: Arch , Outils pour les panneaux , Calepinage
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_Panel/fr, Arch_Panel_Sheet/fr
 ---

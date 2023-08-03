@@ -1,6 +1,6 @@
 # Std ViewFitAll/it
 ---
-- GuiCommand:   Name: Std_ViewFitAll   Name/it: Visualizza tutto   MenuLocation: Visualizza -> Viste standard -> Visualizza tutto   Workbenches: Tutti   Shortcut: **V** **F**   SeeAlso: Std_ViewFitSelection/it---
+ GuiCommand:   Name: Std_ViewFitAll   Name/it: Visualizza tutto   MenuLocation: Visualizza , Viste standard , Visualizza tutto   Workbenches: Tutti   Shortcut: **V** **F**   SeeAlso: Std_ViewFitSelection/it---
 
 
 

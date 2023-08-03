@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateEllipse
    Name/it: Ellisse da centro
    Icon: Sketcher_CreateEllipse.svg
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Geometrie -> Ellisse da centro
+   MenuLocation: Sketch , Geometrie , Ellisse da centro
    Version: 0.15
    SeeAlso: Sketcher_CreateEllipseBy3Points/it, Sketcher CreateCircle/it, Sketcher_CreateArcOfEllipse/it
 ---

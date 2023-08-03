@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Edit
    Name/es: Borrador Edición
-   MenuLocation: Modificación -> Editar<br>Utilidades -> Editar
+   MenuLocation: Modificación , Editar<br>Utilidades , Editar
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/es

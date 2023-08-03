@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Import
-   MenuLocation: File -> Import...
+   MenuLocation: File , Import...
    Workbenches: All
    Shortcut: **Ctrl**+**I**
    SeeAlso: Std_Open, Import_Export, Import_Export_Preferences

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing Lux
-   MenuLocation: Raytracing -> New Luxrender project‏‎
+   MenuLocation: Raytracing , New Luxrender project‏‎
    Workbenches: Raytracing_Workbench
    Shortcut: 
    SeeAlso: 

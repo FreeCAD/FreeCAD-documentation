@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Open SVG
    Name/ru: Drawing Open SVG
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Чертёж -> Открыть SVG...
+   MenuLocation: Чертёж , Открыть SVG...
    Shortcut: 
    SeeAlso: Drawing Save/ru
 ---

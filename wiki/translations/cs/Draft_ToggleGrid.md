@@ -1,6 +1,6 @@
 # Draft ToggleGrid/cs
 ---
-- GuiCommand:   Name: Draft ToggleGrid   Name/cs: Kreslení Přepnout mřížka   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Draft -> Utilitiy -> Přepnout mřížka---
+ GuiCommand:   Name: Draft ToggleGrid   Name/cs: Kreslení Přepnout mřížka   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Draft , Utilitiy , Přepnout mřížka---
 
 
 </div>

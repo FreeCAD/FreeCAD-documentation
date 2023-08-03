@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch PipeConnector
    Name/fr: Arch Raccord
-   MenuLocation: Arch -> Outils pour la tuyauterie -> Raccord
+   MenuLocation: Arch , Outils pour la tuyauterie , Raccord
    Workbenches: Arch_Workbench/fr
    Shortcut: **P** **C**
    Version: 0.17

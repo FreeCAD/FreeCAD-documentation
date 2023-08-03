@@ -1,6 +1,6 @@
 # Part Mirror/es
 ---
-- GuiCommand:   Name: Part_Mirror   MenuLocation: Pieza -> Simetría   Workbenches: Pieza,Completo---
+ GuiCommand:   Name: Part_Mirror   MenuLocation: Pieza -> Simetría   Workbenches: Pieza,Completo---
 
 
 </div>

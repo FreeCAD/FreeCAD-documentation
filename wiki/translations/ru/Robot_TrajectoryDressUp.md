@@ -1,10 +1,10 @@
 # Robot TrajectoryDressUp/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot TrajectoryDressUp
    Name/ru: Robot TrajectoryDressUp
    Workbenches: Robot_Workbench/ru
-   MenuLocation: Robot -> TrajectoryDressUp ---
+   MenuLocation: Robot , TrajectoryDressUp ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Std Quit/ro
 ---
-- GuiCommand:   Name: Std Quit   Name/ro: Ieșire   MenuLocation: Std_File_Menu/ro   File -> Ieșire,Std Import/ro---
+ GuiCommand:   Name: Std Quit   Name/ro: Ieșire   MenuLocation: Std_File_Menu/ro   File , Ieșire,Std Import/ro---
 
 
 </div>

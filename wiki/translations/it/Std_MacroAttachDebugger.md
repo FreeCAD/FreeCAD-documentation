@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MacroAttachDebugger
    Name/it: Collega al debugger remoto
    Empty: 1
-   MenuLocation: Macro -> Collega al debugger remoto...
+   MenuLocation: Macro , Collega al debugger remoto...
    Workbenches: Tutti
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset
-   MenuLocation: Part -> 3D Offset
+   MenuLocation: Part , 3D Offset
    Workbenches: Part_Workbench
    SeeAlso: Part_Thickness, Part_Offset2D
 ---

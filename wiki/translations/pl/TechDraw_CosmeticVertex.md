@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw CosmeticVertex
    Name/pl: Rysunek Techniczny: Wstaw wierzchołek kosmetyczny
-   MenuLocation: Rysunek Techniczny -> Dodaj wierzchołki -> Wstaw wierzchołek kosmetyczny
+   MenuLocation: Rysunek Techniczny , Dodaj wierzchołki , Wstaw wierzchołek kosmetyczny
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_Midpoints/pl, TechDraw_Quadrants/pl

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Стерео красный/голубой
    Name: Std_ViewIvStereoRedGreen
-   MenuLocation: Вид -> Стерео -> Стерео красный/голубой
+   MenuLocation: Вид , Стерео , Стерео красный/голубой
    Workbenches: Все
    SeeAlso: Std_ViewIvStereoQuadBuff/ru, Std_ViewIvStereoInterleavedRows/ru, Std_ViewIvStereoInterleavedColumns/ru, Std_ViewIvStereoOff/ru
 ---

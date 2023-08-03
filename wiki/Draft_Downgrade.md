@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
-   MenuLocation: Modification -> Downgrade
+   MenuLocation: Modification , Downgrade
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade, Part_Cut

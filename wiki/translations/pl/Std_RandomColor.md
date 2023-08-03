@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RandomColor
    Name/pl: Std: Kolor losowy
-   MenuLocation: Widok -> Nadaj kolor losowo
+   MenuLocation: Widok , Nadaj kolor losowo
    Workbenches: wszystkie
 ---
 

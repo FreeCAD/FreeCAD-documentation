@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Line
    Name/de: PartDesign Bezugslinie erstellen
-   MenuLocation: PartDesign -> Bezugselement erstellen -> Bezugslinie erstellen
+   MenuLocation: PartDesign , Bezugselement erstellen , Bezugslinie erstellen
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_Point/de, PartDesign_Plane/de

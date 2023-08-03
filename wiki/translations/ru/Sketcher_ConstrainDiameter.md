@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничить диаметр
    Name: Sketcher_ConstrainDiameter
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничить диаметр
+   MenuLocation: Sketch , Ограничения эскиза , Ограничить диаметр
    Workbenches: Sketcher_Workbench/ru
    SeeAlso: Sketcher_ConstrainDistance/ru, Sketcher_ConstrainDistanceX/ru, Sketcher_ConstrainDistanceY/ru
    Version: 0.18

@@ -1,6 +1,6 @@
 # Arch ToggleSubs/ro
 ---
-- GuiCommand:   Name: Arch ToggleSubs   Workbenches: Arch_Workbench/ro   Arch|MenuLocation: Arch -> Utilities -> Toggle Subcomponents   Shortcut: ‏‎   SeeAlso: ---
+ GuiCommand:   Name: Arch ToggleSubs   Workbenches: Arch_Workbench/ro   Arch|MenuLocation: Arch , Utilities , Toggle Subcomponents   Shortcut: ‏‎   SeeAlso: ---
 
 
 </div>

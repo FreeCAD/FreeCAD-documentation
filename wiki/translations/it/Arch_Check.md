@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
    Name/it: Controlla
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Utilità -> Controlla
+   MenuLocation: Arch , Utilità , Controlla
    SeeAlso: Arch CloseHoles/it
 ---
 

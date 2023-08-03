@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear BevelGear
    Name/it: Ingranaggio conico
-   MenuLocation: FCGear -> Create a Bevel gear
+   MenuLocation: FCGear , Create a Bevel gear
    Workbenches: FCGear Workbench/it
    Version: 0.16
 ---

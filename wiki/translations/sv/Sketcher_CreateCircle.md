@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/sv
 ---
-- GuiCommand:   Name: Sketcher CreateCircle   Name/sv: Sketcher Circle   Workbenches: Sketcher Workbench/sv   Sketcher---
+ GuiCommand:   Name: Sketcher CreateCircle   Name/sv: Sketcher Circle   Workbenches: Sketcher Workbench/sv   Sketcher---
 
 
 </div>

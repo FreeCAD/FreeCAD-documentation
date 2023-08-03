@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SplitMesh
    Name/es: Arch SplitMesh
-   MenuLocation: Arquitectura -> Utilidades -> Dividir malla
+   MenuLocation: Arquitectura , Utilidades , Dividir malla
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch SelectNonSolidMeshes/es
 ---

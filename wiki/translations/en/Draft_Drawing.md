@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Workbenches: Drawing_Workbench, Draft_Workbench, Arch_Workbench
    SeeAlso: TechDraw_DraftView

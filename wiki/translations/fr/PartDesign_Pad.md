@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pad
    Name/fr: PartDesign Protrusion 
-   MenuLocation: Part Design -> Créer une fonction additive -> Protrusion
+   MenuLocation: Part Design , Créer une fonction additive , Protrusion
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_Pocket/fr
 ---

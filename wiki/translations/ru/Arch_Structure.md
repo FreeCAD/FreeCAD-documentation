@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Структура
    Name: Arch_Structure
-   MenuLocation: Arch -> Структура
+   MenuLocation: Arch , Структура
    Workbenches: Arch_Workbench/ru
    Shortcut: **S** **T**
    SeeAlso: Arch_Wall/ru, Arch_Rebar/ru

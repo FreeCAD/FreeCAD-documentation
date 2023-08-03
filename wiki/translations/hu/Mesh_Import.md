@@ -1,6 +1,6 @@
 # Mesh Import/hu
 ---
-- GuiCommand:   Name: Mesh ImportMesh   MenuLocation: Hálók -> Háló importálása   Workbenches: Mesh Workbench   Háló---
+ GuiCommand:   Name: Mesh ImportMesh   MenuLocation: Hálók , Háló importálása   Workbenches: Mesh Workbench   Háló---
 
 
 </div>

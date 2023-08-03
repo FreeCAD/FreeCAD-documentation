@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Window
    Name/ro: Arch Window
-   MenuLocation: Arch -> Window
+   MenuLocation: Arch , Window
    Workbenches: Arch_Workbench/ro
    Shortcut: **W** **I**
    SeeAlso: Arch Wall/ro

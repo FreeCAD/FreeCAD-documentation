@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateRegularPolygon
    Workbenches: Sketcher_Workbench
 ---

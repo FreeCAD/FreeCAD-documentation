@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArcOfEllipse
    Name/fr: Sketcher Arc d'ellipse
-   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un arc d'ellipse
+   MenuLocation: Esquisse , Géométries d'esquisse , Créer un arc d'ellipse
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **E** **A**
    Version: 0.15

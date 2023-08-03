@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointOnCircle
    Icon: Assembly_ConstraintPointOnCircle.svg
    Workbenches: Assembly3_Workbench

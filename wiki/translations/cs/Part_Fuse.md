@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/cs: Part Union
    Icon: Part Fuse.png
-   MenuLocation: Part -> Boolean -> Union
+   MenuLocation: Part , Boolean , Union
    Workbenches: Part_Workbench/cs
    SeeAlso: Part Cut/cs, Part Common/cs
 ---

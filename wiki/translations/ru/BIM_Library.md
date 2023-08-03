@@ -1,8 +1,8 @@
 ---
-- GuiCommand:Addon/ru
+ GuiCommand:Addon/ru
    Name: BIM Library
    Name/ru: BIM Library
-   MenuLocation: 3D Modeling -> Library
+   MenuLocation: 3D Modeling , Library
    Workbenches: Image:IFC.svg BIM Workbench/ru
    Addon: BIM
    SeeAlso: Arch Equipment/ru

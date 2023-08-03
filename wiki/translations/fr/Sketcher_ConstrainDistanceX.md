@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistanceX
    Name/fr: Sketcher Contrainte distance en X
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte distance horizontale
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte distance horizontale
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **L**
    SeeAlso: Sketcher_ConstrainDistance/fr, Sketcher_ConstrainDistanceY/fr

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path ThreadMilling
-   MenuLocation: Path -> Specialty Operations -> Thread Milling
+   MenuLocation: Path , Specialty Operations , Thread Milling
    Workbenches: Path_Workbench
 ---
 

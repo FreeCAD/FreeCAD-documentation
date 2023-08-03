@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/pl
+ GuiCommand:Addon/pl
    Name: BIM Setup
    Name/pl: BIM Setup
    Workbenches: Image:IFC.svg BIM_Workbench/pl
    Addon: BIM
-   MenuLocation: Manage -> Ustawiania BIM
+   MenuLocation: Manage , Ustawiania BIM
 ---
 
 # BIM Setup/pl

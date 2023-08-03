@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Slope
    Name/de: Entwurf Neigung
-   MenuLocation: Entwurf -> Setze Neigung<br>Dienstprogramme -> Setze Neigung
+   MenuLocation: Entwurf , Setze Neigung<br>Dienstprogramme , Setze Neigung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.17
 ---

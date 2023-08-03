@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointArray
    Icon: Draft_PointArray.svg
    Workbenches: Draft Workbench, Arch Workbench
-   MenuLocation: Draft -> PointArray
+   MenuLocation: Draft , PointArray
    Version: 0.18
    SeeAlso: Draft Array, Draft PathArray
 ---

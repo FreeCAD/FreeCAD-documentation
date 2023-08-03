@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/de
+ GuiCommand:Addon/de
    Name: BIM Box
    Name/de: BIM Kasten
    Workbenches: Image:IFC.svg BIM Workbench/de
    Addon: BIM
-   MenuLocation: 3D Modellierung -> Kasten
+   MenuLocation: 3D Modellierung , Kasten
    SeeAlso: Part Box/de
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Offset
    Name/ru: Смещение 3D
-   MenuLocation: Деталь -> Смещение 3D
+   MenuLocation: Деталь , Смещение 3D
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Thickness/ru
 ---

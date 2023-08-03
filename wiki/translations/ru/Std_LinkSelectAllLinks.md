@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выбрать все ссылки
    Name: Std_LinkSelectAllLinks
    MenuLocation: 

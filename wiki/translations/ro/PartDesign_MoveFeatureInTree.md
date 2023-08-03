@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveFeatureInTree
    Name/ro: PartDesign MoveFeatureInTree
    Empty: 1
-   MenuLocation: Contextual menu -> Move object after other object
+   MenuLocation: Contextual menu , Move object after other object
    Workbenches: PartDesign Workbench/ro
    SeeAlso: PartDesign MoveTip/ro, PartDesign MoveFeature/ro
    Version: 0.17

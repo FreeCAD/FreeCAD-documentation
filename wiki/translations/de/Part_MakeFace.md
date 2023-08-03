@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeFace‏‎
    Name/de: Part FlächeAusLinienzügen‏‎
-   MenuLocation: Formteil -> Erstelle Fläche anhand von Kantenzügen
+   MenuLocation: Formteil , Erstelle Fläche anhand von Kantenzügen
    Workbenches: Part_Workbench/de
    Version: 0.19
    SeeAlso: Part_RuledSurface/de

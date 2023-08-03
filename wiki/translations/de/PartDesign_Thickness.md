@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Thickness
    Name/de: PartDesign Dicke
-   MenuLocation: Part Design -> Modifikationen -> Dicke
+   MenuLocation: Part Design , Modifikationen , Dicke
    Workbenches: PartDesign Workbench/de
    Version: 0.17
    SeeAlso: Part_Thickness/de

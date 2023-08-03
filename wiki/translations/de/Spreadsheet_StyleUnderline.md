@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet StyleUnderline
    Name/de: Kalkulationstabelle StilUnterstrichen
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle -> Stile -> Unterstrichener Text
+   MenuLocation: Kalkulationstabelle , Stile , Unterstrichener Text
    Version: 0.17
 ---
 

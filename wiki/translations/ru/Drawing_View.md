@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing View
    Name/ru: Drawing View
    Workbenches: Drawing Workbench/ru, Complete
-   MenuLocation: Черчение -> Вставить вид в чертёж
+   MenuLocation: Черчение , Вставить вид в чертёж
    Shortcut: none
    SeeAlso: Drawing Landscape A3/ru
 ---

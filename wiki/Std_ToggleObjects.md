@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleObjects
-   MenuLocation: View -> Visibility -> Toggle all objects
+   MenuLocation: View , Visibility , Toggle all objects
    Workbenches: All
    SeeAlso: Std_ToggleVisibility, Std_ShowSelection, Std_HideSelection, Std_ShowObjects, Std_HideObjects
 ---

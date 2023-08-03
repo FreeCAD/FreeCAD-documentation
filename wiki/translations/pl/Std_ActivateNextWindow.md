@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ActivateNextWindow
    Name/pl: Std: Następne
-   MenuLocation: Okna -> Następne
+   MenuLocation: Okna , Następne
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **Tab**
    SeeAlso: Std_ActivatePrevWindow/pl, Std_Windows/pl

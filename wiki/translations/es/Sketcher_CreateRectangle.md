@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRectangle
    Name/es: Croquizador CrearRectángulo
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Croquizador-> Geometrías del Croquizador -> Crear rectángulo
+   MenuLocation: Croquizador, Geometrías del Croquizador , Crear rectángulo
    Shortcut: **R**
    SeeAlso: Sketcher_CreatePolyline/es
 ---

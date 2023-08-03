@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Facebinder
    Name/pl: Rysunek Roboczy: Łącznik kształtów
-   MenuLocation: Kreślenie -> Łącznik kształtu
+   MenuLocation: Kreślenie , Łącznik kształtu
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **F** **F**
    Version: 0.14

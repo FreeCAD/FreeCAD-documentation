@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Tube
    Name/fr: Part Tube
-   MenuLocation: Part -> Primitives -> Tube
+   MenuLocation: Part , Primitives , Tube
    Workbenches: Part_Workbench/fr
    Version: 0.19
    SeeAlso: Part_Primitives/fr

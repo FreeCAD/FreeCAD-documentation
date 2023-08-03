@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Hydrostatics
    Name/fr: Ship Hydrostatiques
-   MenuLocation: Ship design -> Hydrostatics
+   MenuLocation: Ship design , Hydrostatics
    Workbenches: Ship_Workbench/fr
    Shortcut: 
    SeeAlso: 

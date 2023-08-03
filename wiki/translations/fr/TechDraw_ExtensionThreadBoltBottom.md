@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionThreadBoltBottom
    Name/fr: TechDraw Filetage
-   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Filetage
+   MenuLocation: TechDraw , Extensions : taraudages/filetages , Filetage
    Workbenches: TechDraw_Workbench/fr
    Version: 0.20
    SeeAlso: TechDraw_ExtensionThreadHoleBottom/fr, TechDraw_ExtensionCircleCenterLines/fr

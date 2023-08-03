@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Structure
    Name/ja: Arch Structure
    Workbenches: Arch Workbench/ja

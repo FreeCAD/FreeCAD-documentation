@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MergeWalls
-   MenuLocation: Arch -> Utilities -> Merge Walls
+   MenuLocation: Arch , Utilities , Merge Walls
    Workbenches: Arch_Workbench
    SeeAlso: Arch_Wall
 ---

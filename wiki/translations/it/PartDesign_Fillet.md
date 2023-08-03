@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Fillet
    Name/it: Raccordo
    Workbenches: PartDesign Workbench/it
-   MenuLocation: PartDesign -> Raccordo
+   MenuLocation: PartDesign , Raccordo
    SeeAlso: PartDesign_Chamfer, Part Fillet
 ---
 

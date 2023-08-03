@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Polygon
    Name/de: Entwurf Polygon
-   MenuLocation: Entwurf -> Polygon
+   MenuLocation: Entwurf , Polygon
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **P** **G**
    Version: 0.7

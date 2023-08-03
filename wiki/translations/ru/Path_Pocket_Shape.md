@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Pocket
    Name/ru: Path Pocket
-   MenuLocation: Path -> Pocket Shape
+   MenuLocation: Path , Pocket Shape
    Workbenches: Path Workbench/ru
    Shortcut: **P** **O**
    SeeAlso: 

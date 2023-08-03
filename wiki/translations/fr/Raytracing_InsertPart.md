@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing InsertPart
    Name/fr: Raytracing Insérer une pièce
-   MenuLocation: Raytracing -> Insérer une pièce
+   MenuLocation: Raytracing , Insérer une pièce
 ‎   Workbenches: Raytracing_Workbench/fr
    Shortcut: 
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fillet
    Name/es: Pieza Redondeo
-   MenuLocation: Pieza -> Redondeo
+   MenuLocation: Pieza , Redondeo
    Workbenches: Part_Workbench/es
    SeeAlso: Part Chamfer/es
 ---

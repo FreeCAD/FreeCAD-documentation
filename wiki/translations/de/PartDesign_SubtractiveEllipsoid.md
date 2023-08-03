@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveEllipsoid
    Name/de: PartDesign EllipsoidAbziehen
-   MenuLocation: Part Design -> Grundkörper abziehen -> Ellipsoid
+   MenuLocation: Part Design , Grundkörper abziehen , Ellipsoid
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/de, PartDesign_AdditiveEllipsoid/de

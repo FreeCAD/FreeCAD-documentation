@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Horizontal
    Name/es: Constraint Horizontal
    Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador -> Restricción Horizontal
+   MenuLocation: Croquizador , Restricciones del Croquizador , Restricción Horizontal
    SeeAlso: Sketcher_ConstrainVertical/es
 ---
 

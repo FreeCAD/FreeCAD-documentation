@@ -1,6 +1,6 @@
 # Draft BSpline/cs
 ---
-- GuiCommand:   Name: Draft BSpline   Name/cs: Draft BSpline   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft BSpline   Name/cs: Draft BSpline   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

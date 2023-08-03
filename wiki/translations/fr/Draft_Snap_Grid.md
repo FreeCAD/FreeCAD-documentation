@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Name/fr: Draft Aimantation Grille
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

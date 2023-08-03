@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_ProjectionGroup
    Name/it: Gruppo di proiezioni
-   MenuLocation: TechDraw -> Gruppo di proiezioni
+   MenuLocation: TechDraw , Gruppo di proiezioni
    Workbenches: TechDraw_Workbench/it
    Shortcut: 
    SeeAlso: TechDraw_View/it, TechDraw_SectionView/it

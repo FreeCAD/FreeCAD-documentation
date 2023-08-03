@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvIssueCamPos
    Name/ru: Std ViewIvIssueCamPos
-   MenuLocation: Вид -> Стерео -> Выводить положения камеры
+   MenuLocation: Вид , Стерео , Выводить положения камеры
    Workbenches: All
    SeeAlso: Std_FreezeViews/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddToGroup
    Name/fr: Draft Déplacer vers un groupe
-   MenuLocation: Utilitaires -> Déplacer vers le groupe...
+   MenuLocation: Utilitaires , Déplacer vers le groupe...
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Std_Group/fr, Draft_AddNamedGroup/fr, Draft_AddConstruction/fr, Draft_AutoGroup/fr
 ---

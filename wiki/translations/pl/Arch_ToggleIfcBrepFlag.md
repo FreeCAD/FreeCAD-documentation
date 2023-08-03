@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch ToggleIfcBrepFlag
-   MenuLocation: Arch -> Utilities -> Toggle Ifc Brep flag
+   MenuLocation: Arch , Utilities , Toggle Ifc Brep flag
    Workbenches: Arch_Workbench
    SeeAlso: Arch_IfcExplorer, Arch_IFC
 ---

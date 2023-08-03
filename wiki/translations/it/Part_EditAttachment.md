@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Attachment
    Name/it: Part Allegato
-   MenuLocation: Part -> Allegato...
+   MenuLocation: Part , Allegato...
    Workbenches: Part_Workbench/it, PartDesign_Workbench/it
    Version: 0.17
    SeeAlso: Placement/it, Basic_Attachment_Tutorial/it, Part_Part2DObject/it

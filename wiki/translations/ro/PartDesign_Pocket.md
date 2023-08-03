@@ -1,6 +1,6 @@
 # PartDesign Pocket/ro
 ---
-- GuiCommand:   Name: PartDesign Pocket   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign -> Pocket---
+ GuiCommand:   Name: PartDesign Pocket   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign , Pocket---
 
 
 </div>

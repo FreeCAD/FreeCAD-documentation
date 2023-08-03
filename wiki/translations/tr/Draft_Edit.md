@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Edit
    Name/tr: Düzenle
-   MenuLocation: Taslak -> Düzenle
+   MenuLocation: Taslak , Düzenle
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **E**
    SeeAlso: Std_Edit

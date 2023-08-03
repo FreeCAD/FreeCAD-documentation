@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDrawCosmArc
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj łuk kosmetyczny
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Dodaj łuk kosmetyczny
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Linie środka / Gwinty , Dodaj łuk kosmetyczny
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

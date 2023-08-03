@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Wire
    Name/it: Polilinea
-   MenuLocation: Drafting -> Polilinea
+   MenuLocation: Drafting , Polilinea
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **P** **L**
    Version: 0.7

@@ -1,6 +1,6 @@
 # Draft Clone/ro
 ---
-- GuiCommand:   Name: Draft Clone   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
+ GuiCommand:   Name: Draft Clone   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
 
 
 </div>

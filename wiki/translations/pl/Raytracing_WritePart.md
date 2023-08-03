@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing WritePart
    Name/pl: Raytracing: Eksport części
-   MenuLocation: Raytracing -> Narzędzia -> Eksport części do POV-Ray
+   MenuLocation: Raytracing , Narzędzia , Eksport części do POV-Ray
    Workbenches: Raytracing_Workbench/pl
    Shortcut: brak
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Add
    Name/tr: Mimari Ekle
-   MenuLocation: Mimari -> Ekle
+   MenuLocation: Mimari , Ekle
    Workbenches: Arch_Workbench/tr
    SeeAlso: Arch Remove/tr
 ---

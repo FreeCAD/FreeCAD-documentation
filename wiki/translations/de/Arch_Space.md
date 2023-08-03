@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Space   Name/de: Arch Raum
-   MenuLocation: Arch -> Raum
+   MenuLocation: Arch , Raum
    Workbenches: Arch_Workbench/de
    Shortcut: **S** **P**
    Version: 0.14

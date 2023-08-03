@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RandomColor
    Name/it: Colore casuale
-   MenuLocation: Visualizza -> Colore casuale
+   MenuLocation: Visualizza , Colore casuale
    Workbenches: Tutti
 ---
 

@@ -1,6 +1,6 @@
 # Std DlgCustomize/ro
 ---
-- GuiCommand:   Name: Std DlgCustomize   MenuLocation: Std Tools Menu   Tools -> Customize...---
+ GuiCommand:   Name: Std DlgCustomize   MenuLocation: Std Tools Menu   Tools , Customize...---
 
 
 </div>

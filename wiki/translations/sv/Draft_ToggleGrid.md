@@ -1,6 +1,6 @@
 # Draft ToggleGrid/sv
 ---
-- GuiCommand:   Name: Draft ToggleGrid   Name/sv: Draft ToggleGrid   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Toggle grid---
+ GuiCommand:   Name: Draft ToggleGrid   Name/sv: Draft ToggleGrid   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft , Utilities , Toggle grid---
 
 
 </div>

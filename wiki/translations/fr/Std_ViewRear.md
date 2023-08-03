@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewRear
    Name/fr: Std Vue de l'arrière
-   MenuLocation: Affichage -> Vues standards -> Arrière
+   MenuLocation: Affichage , Vues standards , Arrière
    Workbenches: Tous
    Shortcut: **4**
    SeeAlso: Std_ViewBottom/fr, Std_ViewLeft/fr

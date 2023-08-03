@@ -1,6 +1,6 @@
 # Draft Trimex/sv
 ---
-- GuiCommand:   Name: Draft Trimex   Name/sv: Draft Trimex   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Trimex   Name/sv: Draft Trimex   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

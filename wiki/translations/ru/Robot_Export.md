@@ -1,10 +1,10 @@
 # Robot Export/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot Export
    Name/ru: Robot Export
    Workbenches: Robot_Workbench/ru
-   MenuLocation: Робот-> Экспорт траектории---
+   MenuLocation: Робот, Экспорт траектории---
 
 
 </div>

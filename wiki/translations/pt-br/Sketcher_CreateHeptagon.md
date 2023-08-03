@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateHeptagon
-   MenuLocation: Sketch -> Sketcher geometries -> Create heptagon
+   MenuLocation: Sketch , Sketcher geometries , Create heptagon
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **P** **7**
    Version: 0.15

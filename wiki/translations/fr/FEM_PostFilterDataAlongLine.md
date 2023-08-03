@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterDataAlongLine
    Name/fr: FEM Filtre d'écrêtage selon une ligne
-   MenuLocation: Résultats -> Filtre d'écrêtage selon une ligne
+   MenuLocation: Résultats , Filtre d'écrêtage selon une ligne
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_PostPipelineFromResult/fr, FEM_tutorial/fr
 ---

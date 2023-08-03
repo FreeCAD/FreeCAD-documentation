@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar BentShape
-   MenuLocation: Arch -> Rebar tools -> Bent-Shape Rebar<br>3D/BIM -> Reinforcement tools -> Bent-Shape Rebar
+   MenuLocation: Arch , Rebar tools , Bent-Shape Rebar<br>3D/BIM , Reinforcement tools , Bent-Shape Rebar
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
    SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_Stirrup

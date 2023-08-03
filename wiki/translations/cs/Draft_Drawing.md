@@ -1,6 +1,6 @@
 # Draft Drawing/cs
 ---
-- GuiCommand:   Name: Draft_Drawing   Name/cs: Draft Drawing   Workbenches: Drawing_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Drafting -> Drawing---
+ GuiCommand:   Name: Draft_Drawing   Name/cs: Draft Drawing   Workbenches: Drawing_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Drafting , Drawing---
 
 
 </div>

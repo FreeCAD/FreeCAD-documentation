@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch IfcExplorer
    Name/de: Arch IfcExplorer
    Icon: IFC.svg
-   MenuLocation: Arch -> Dienstprogramme -> Ifc Explorer
+   MenuLocation: Arch , Dienstprogramme , Ifc Explorer
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_IFC/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/it: Mostra/Nascondi la griglia
-   MenuLocation: Draft -> Utilità -> Mostra/Nascondi la griglia
+   MenuLocation: Draft , Utilità , Mostra/Nascondi la griglia
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **G** **R**
    SeeAlso: Draft Snap/it

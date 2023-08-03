@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves IsoCurve
    Name/de: Curves IsoKurve
-   MenuLocation: Surfaces -> IsoCurve
+   MenuLocation: Surfaces , IsoCurve
    Workbenches: Curves_Workbench/de
    SeeAlso: Curves_JoinCurve/de
 ---

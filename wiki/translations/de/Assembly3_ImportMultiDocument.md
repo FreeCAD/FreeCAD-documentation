@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ImportMultiDocument
    Name/de: Assembly3 MehrfachdokumentEinfügen
    Icon: Assembly_Import.svg
-   MenuLocation: Assembly3 -> Import from STEP -> Import as multi-document
+   MenuLocation: Assembly3 , Import from STEP , Import as multi-document
    Workbenches: Assembly3_Workbench/de
 ---
 

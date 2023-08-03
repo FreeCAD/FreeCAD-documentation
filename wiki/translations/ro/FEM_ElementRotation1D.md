@@ -1,6 +1,6 @@
 # FEM ElementRotation1D/ro
 ---
-- GuiCommand:   Name: FEM ElementRotation1D   MenuLocation:  Model -> Beam rotation   ---
+ GuiCommand:   Name: FEM ElementRotation1D   MenuLocation:  Model , Beam rotation   ---
 
 
 </div>

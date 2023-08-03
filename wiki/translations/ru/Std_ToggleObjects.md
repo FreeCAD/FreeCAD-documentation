@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleObjects
    Name/ru: Std ToggleObjects
    Empty: 1
-   MenuLocation: Вид -> Видимость -> Инвертировать все видимости
+   MenuLocation: Вид , Видимость , Инвертировать все видимости
    Workbenches: All
    SeeAlso: Std_ToggleVisibility/ru, Std_ShowSelection/ru, Std_HideSelection/ru, Std_ShowObjects/ru, Std_HideObjects/ru
 ---

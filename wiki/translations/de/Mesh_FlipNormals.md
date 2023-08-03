@@ -1,9 +1,9 @@
 # Mesh FlipNormals/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FlipNormals‏‎
    Name/de: Netz Normalen spiegeln
-   MenuLocation: Meshes -> Flip Normals
+   MenuLocation: Meshes , Flip Normals
    Workbenches: Mesh Workbench/de
    Shortcut:    SeeAlso: ---
 

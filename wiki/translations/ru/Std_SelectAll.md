@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выбрать всё
    Name: Std_SelectAll
-   MenuLocation: Правка -> Выбрать всё
+   MenuLocation: Правка , Выбрать всё
    Workbenches: Все
    SeeAlso: Std_BoxSelection/ru, Std_BoxElementSelection/ru
 ---

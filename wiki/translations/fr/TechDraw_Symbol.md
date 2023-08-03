@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Symbol
    Name/fr: TechDraw Symbole SVG
-   MenuLocation: TechDraw -> Insérer un symbole SVG
+   MenuLocation: TechDraw , Insérer un symbole SVG
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_Templates/fr, Draft_SVG/fr
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_Revolution
    Name/es: DiseñoPiezas Rotación
    MenuLocation: DiseñoPiezas -> Rotación

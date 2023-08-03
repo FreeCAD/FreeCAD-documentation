@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Layer
-   MenuLocation: Utilities -> Layer
+   MenuLocation: Utilities , Layer
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
    SeeAlso: Draft_AutoGroup, Draft_LayerManager

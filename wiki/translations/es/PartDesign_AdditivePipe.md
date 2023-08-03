@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePipe
    Name/es: DiseñoPiezas AdditivoTubo
    Workbenches: PartDesign_Workbench/es
-   MenuLocation: DiseñoPiezas -> Additivo Tubo
+   MenuLocation: DiseñoPiezas , Additivo Tubo
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/es, PartDesign_SubtractivePipe/es
 ---

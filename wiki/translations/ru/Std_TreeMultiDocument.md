@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeMultiDocument
    Name/ru: Std TreeMultiDocument
-   MenuLocation: Вид -> Дерево документа -> Многокомпонентный документ
+   MenuLocation: Вид , Дерево документа , Многокомпонентный документ
    Workbenches: All
    SeeAlso: Std_TreeSingleDocument/ru, Std_TreeCollapseDocument/ru
 ---

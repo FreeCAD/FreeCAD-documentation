@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Perpendicular
    Name/it: Perpendicolare
-   MenuLocation: Draft -> Draft_Snap/it -> Perpendicolare
+   MenuLocation: Draft , Draft_Snap/it , Perpendicolare
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 AutoFixElement
    Name/fr: Assembly3 Auto réparation d'un élement
    Icon: Assembly_AutoFixElement.svg‎‎
-   MenuLocation: Assembly3 -> Auto fix element
+   MenuLocation: Assembly3 , Auto fix element
    Workbenches: Assembly3_Workbench/fr
 ---
 

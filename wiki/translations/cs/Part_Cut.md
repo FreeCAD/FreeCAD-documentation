@@ -1,6 +1,6 @@
 # Part Cut/cs
 ---
-- GuiCommand:   Name: Part Cut   Name/cs: Díl Oddělit   MenuLocation: Díl -> Oddělit   Workbenches: Part_Workbench/cs   Díl, Part Common/cs---
+ GuiCommand:   Name: Part Cut   Name/cs: Díl Oddělit   MenuLocation: Díl , Oddělit   Workbenches: Part_Workbench/cs   Díl, Part Common/cs---
 
 
 </div>

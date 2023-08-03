@@ -1,6 +1,6 @@
 # Sketcher CreateRectangle/cs
 ---
-- GuiCommand:   Name: Sketcher CreateRectangle   Name/cs: Skicář Obdélník   Workbenches: Sketcher Workbench/cs   Skicář---
+ GuiCommand:   Name: Sketcher CreateRectangle   Name/cs: Skicář Obdélník   Workbenches: Sketcher Workbench/cs   Skicář---
 
 
 </div>

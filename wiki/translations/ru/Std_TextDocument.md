@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TextDocument
    Name/ru: Std TextDocument
-   MenuLocation: Инструменты -> Add text document
+   MenuLocation: Инструменты , Add text document
    Workbenches: All
    Version: 0.19
    SeeAlso: Draft ShapeString/ru, Draft Text/ru

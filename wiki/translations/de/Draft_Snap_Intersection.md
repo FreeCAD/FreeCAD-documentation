@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Intersection
    Name/de: Draft EinrastenAufSchnittpunkt
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

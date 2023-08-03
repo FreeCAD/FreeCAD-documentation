@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_MakeIfcSpreadsheet
    Name/it: Crea un foglio di calcolo Ifc
    Icon: Arch_Schedule.svg
-   MenuLocation: Arch -> Utilità -> Crea un foglio di calcolo Ifc...
+   MenuLocation: Arch , Utilità , Crea un foglio di calcolo Ifc...
    Workbenches: Arch_Workbench/it
    Shortcut: **I** **P**
    SeeAlso: Arch IFC/it, Arch IfcExplorer/it

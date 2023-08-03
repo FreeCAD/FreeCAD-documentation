@@ -1,6 +1,6 @@
 # Draft Slope/ro
 ---
-- GuiCommand:   Name: Draft Slope   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft -> Utilities -> Set Slope   SeeAlso: ---
+ GuiCommand:   Name: Draft Slope   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft , Utilities , Set Slope   SeeAlso: ---
 
 
 </div>

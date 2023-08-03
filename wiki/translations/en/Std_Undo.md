@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Undo
-   MenuLocation: Edit -> Undo
+   MenuLocation: Edit , Undo
    Workbenches: All
    Shortcut: **Ctrl**+**Z**
    SeeAlso: Std_Redo

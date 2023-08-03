@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sweep
    Name/pl: Część: Wyciągnięcie po ścieżce
-   MenuLocation: Część -> Wyciągnięcie po ścieżce
+   MenuLocation: Część , Wyciągnięcie po ścieżce
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Loft/pl
 ---

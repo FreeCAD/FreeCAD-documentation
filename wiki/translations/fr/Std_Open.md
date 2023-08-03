@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Open
    Name/fr: Std Ouvrir
-   MenuLocation: Fichier -> Ouvrir...
+   MenuLocation: Fichier , Ouvrir...
    Workbenches: Tous
    Shortcut: **Ctrl**+**O**
    SeeAlso: Std_Import/fr, Std_New/fr

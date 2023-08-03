@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ProjectShape
-   MenuLocation: TechDraw -> TechDraw Views -> Project shape...
+   MenuLocation: TechDraw , TechDraw Views , Project shape...
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

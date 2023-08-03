@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign InvoluteGear
    Name/fr: PartDesign Engrenage à développante
    Icon: PartDesign_InternalExternalGear.svg
-   MenuLocation: Part Design -> Engrenage à développante...
+   MenuLocation: Part Design , Engrenage à développante...
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: FCGear_Workbench/fr
 ---

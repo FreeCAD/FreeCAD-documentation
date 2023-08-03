@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh ImportMesh‏‎
    Name/de: Polygonnetz Import
-   MenuLocation: Polygonnetze -> Polygonnetz importieren...
+   MenuLocation: Polygonnetze , Polygonnetz importieren...
    Workbenches: Mesh_Workbench/de
    SeeAlso: Std_Import/de,Std_Open/de, Import_Export/de
 ---

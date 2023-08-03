@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Segmentation
    Name/fr: Mesh Segmentation
-   MenuLocation: Maillages -> Segmenter le maillage...
+   MenuLocation: Maillages , Segmenter le maillage...
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_SegmentationBestFit/fr
 ---

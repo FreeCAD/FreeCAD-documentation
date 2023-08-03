@@ -1,6 +1,6 @@
 # PartDesign SubtractiveTorus/it
 ---
-- GuiCommand:   Name: PartDesign SubtractiveTorus   Name/it: Toro sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveTorus   Name/it: Toro sottrattivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

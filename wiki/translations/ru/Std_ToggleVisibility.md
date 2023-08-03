@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Видимость
    Name: Std_ToggleVisibility
-   MenuLocation: Вид -> Видимость
+   MenuLocation: Вид , Видимость
    Workbenches: Все
    Shortcut: **Space**
    SeeAlso: Std_ShowSelection/ru, Std_HideSelection/ru, Std_ToggleObjects/ru, Std_ShowObjects/ru, Std_HideObjects/ru

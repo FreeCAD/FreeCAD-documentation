@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 GroupObjects
    Name/de: Assembly3 ObjekteGruppieren
    Icon: Assembly_New_Group.svg
-   MenuLocation: Assembly3 -> Group objects
+   MenuLocation: Assembly3 , Group objects
    Workbenches: Assembly3_Workbench/de
    Shortcut: **A** **Z**
 ---

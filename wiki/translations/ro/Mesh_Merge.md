@@ -1,6 +1,6 @@
 # Mesh Merge/ro
 ---
-- GuiCommand:   Name: Mesh Merge‏‎   MenuLocation: Meshes -> Merge   Workbenches: Mesh Workbench   Mesh---
+ GuiCommand:   Name: Mesh Merge‏‎   MenuLocation: Meshes , Merge   Workbenches: Mesh Workbench   Mesh---
 
 
 </div>

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinConnect
-   MenuLocation: Part -> Join -> Connect objects
+   MenuLocation: Part , Join , Connect objects
    Workbenches: Part_Workbench
    Version: 0.16
    SeeAlso: Part_JoinEmbed, Part_JoinCutout, Part_Boolean, Part_Thickness

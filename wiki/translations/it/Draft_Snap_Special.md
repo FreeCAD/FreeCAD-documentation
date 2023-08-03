@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Name/it: Speciale
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Draft Snap/it -> Speciale
+   MenuLocation: Draft , Draft Snap/it , Speciale
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
    Version: 0.17

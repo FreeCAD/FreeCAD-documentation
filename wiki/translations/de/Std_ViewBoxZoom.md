@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewBoxZoom
    Name/de: Std AnsichtRechteckauswahl
-   MenuLocation: Ansicht -> Zoom -> Zoomen mit Rechteck
+   MenuLocation: Ansicht , Zoom , Zoomen mit Rechteck
    Workbenches: Alle
    Shortcut: **Ctrl**+**B**
    SeeAlso: Std_ViewZoomIn/de, Std_ViewZoomOut/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateCircle
    Name/pl: Szkicownik: Utwórz okrąg
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz okrąg
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz okrąg
    Workbenches: Sketcher Workbench/pl
    Shortcut: **G** **C**
    SeeAlso: Sketcher CompCreateArc/pl

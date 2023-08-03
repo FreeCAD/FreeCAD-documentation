@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_SendToPythonConsole
    Name/it: Invia alla console Python
-   MenuLocation: Modifica -> Invia alla console Python
+   MenuLocation: Modifica , Invia alla console Python
    Workbenches: Tutti
    Shortcut: **Ctrl**+**Maiusc**+**P**
    Version: 0.19

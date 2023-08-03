@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CompPipe
    Name/fr: Arch Outils pour la tuyauterie 
-   MenuLocation: Arch -> Outils pour la tuyauterie
+   MenuLocation: Arch , Outils pour la tuyauterie
    Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.17
    SeeAlso: 

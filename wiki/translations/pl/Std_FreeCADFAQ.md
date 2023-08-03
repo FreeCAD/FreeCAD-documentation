@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADFAQ
    Name: Std: Często zadawane pytania dotyczące FreeCAD
-   MenuLocation: Pomoc -> Std: Często zadawane pytania dotyczące FreeCAD
+   MenuLocation: Pomoc , Std: Często zadawane pytania dotyczące FreeCAD
    Workbenches: wszystkie
    SeeAlso: Std_FreeCADWebsite/pl,  Std_FreeCADUserHub/pl,  Std_FreeCADPowerUserHub/pl, Std_FreeCADForum/pl
 ---

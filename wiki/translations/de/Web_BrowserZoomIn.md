@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web BrowserZoomIn
    Name/de: Web BrowserVergrößern
    MenuLocation: 

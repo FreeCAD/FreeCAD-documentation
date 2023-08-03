@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ElementGeometry2D
    Name/it: FEM ElementGeometry2D
-   MenuLocation: Model -> Spessore di una lastra
+   MenuLocation: Model , Spessore di una lastra
    Workbenches: FEM_Workbench/it
    Shortcut: **C** **S**
    SeeAlso: FEM_tutorial/it

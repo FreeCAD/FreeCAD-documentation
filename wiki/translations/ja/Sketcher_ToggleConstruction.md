@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ToggleConstruction
    Name/ja: Sketcher_ToggleConstruction
    Workbenches: Sketcher Workbench/ja, PartDesign Workbench/ja
-   MenuLocation: Sketch -> Sketcher geometries -> Toggle construction line
+   MenuLocation: Sketch , Sketcher geometries , Toggle construction line
 ---
 
 # Sketcher ToggleConstruction/ja

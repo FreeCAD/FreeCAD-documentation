@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompCompoundTools
    Name/fr: Part Composés
-   MenuLocation: Part -> Composés
+   MenuLocation: Part , Composés
    Workbenches: Part_Workbench/fr
 ---
 

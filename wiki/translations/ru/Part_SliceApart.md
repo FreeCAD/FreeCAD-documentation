@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SliceApart
    Name/ru: Part SliceApart
-   MenuLocation: Деталь -> Разделить -> Slice Apart
+   MenuLocation: Деталь , Разделить , Slice Apart
    Workbenches: Part_Workbench/ru
    Version: 0.18
    SeeAlso: Part_Slice/ru, Part_ExplodeCompound/ru

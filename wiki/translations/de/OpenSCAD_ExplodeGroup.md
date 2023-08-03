@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD ExplodeGroup
    Name/de: OpenSCAD GruppeSprengen
-   MenuLocation: OpenSCAD -> Sprenge Gruppe‏‎
+   MenuLocation: OpenSCAD , Sprenge Gruppe‏‎
    Workbenches: OpenSCAD_Workbench/de
 ---
 

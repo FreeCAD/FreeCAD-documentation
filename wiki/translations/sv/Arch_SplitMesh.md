@@ -1,6 +1,6 @@
 # Arch SplitMesh/sv
 ---
-- GuiCommand:   Name: Arch SplitMesh   Name/sv: Arch SplitMesh   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch SplitMesh   Name/sv: Arch SplitMesh   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

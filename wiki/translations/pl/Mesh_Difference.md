@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Difference
    Name/pl: Siatka Różnica
-   MenuLocation: Siatki -> Operacje logiczne -> Różnica
+   MenuLocation: Siatki , Operacje logiczne , Różnica
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_Union/pl, Mesh_Intersection/pl
 ---

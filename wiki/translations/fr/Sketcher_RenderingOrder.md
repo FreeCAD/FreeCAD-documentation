@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RenderingOrder
    Name/fr: Sketcher Ordre de rendu
    Workbenches: Sketcher_Workbench/fr

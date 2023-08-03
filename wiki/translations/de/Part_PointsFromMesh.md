@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part PointsFromMesh‎
    Name/de: Part PunkteAusGeometrie
-   MenuLocation: Part -> Punktobjekt aus Geometrie erstellen
+   MenuLocation: Part , Punktobjekt aus Geometrie erstellen
    Workbenches: Part_Workbench/de
    Version: 0.19
    SeeAlso: Part_ShapeFromMesh/de, Part_MakeSolid/de, Part_RefineShape/de

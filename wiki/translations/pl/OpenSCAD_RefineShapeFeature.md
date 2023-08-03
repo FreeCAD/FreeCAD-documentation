@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD RefineShapeFeature
-   MenuLocation: OpenSCAD -> Refine Shape Feature
+   MenuLocation: OpenSCAD , Refine Shape Feature
    Workbenches: OpenSCAD_Workbench
    SeeAlso: Part_RefineShape
 ---

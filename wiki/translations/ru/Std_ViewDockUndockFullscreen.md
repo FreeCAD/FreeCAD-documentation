@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
 
    Name: Std ViewDockUndockFullscreen
    Name/ru: Std ViewDockUndockFullscreen
    Empty: 1
-   MenuLocation: Вид -> Окно документа -> Закреплённое/Откреплённное
+   MenuLocation: Вид , Окно документа , Закреплённое/Откреплённное
    Workbenches: All
    Shortcut: **V** **D** / **V** **U**
    SeeAlso: Std_ViewFullscreen/ru, Std_MainFullscreen/ru

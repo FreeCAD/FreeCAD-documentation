@@ -1,6 +1,6 @@
 # Part Compound/it
 ---
-- GuiCommand:   Name: Part Compound‏‎   Name/it: Crea un composto‏‎   MenuLocation: Parte -> Crea un composto   Workbenches: Part Workbench/it   Part, Part CompoundFilter/it, Part ExplodeCompound/it---
+ GuiCommand:   Name: Part Compound‏‎   Name/it: Crea un composto‏‎   MenuLocation: Parte , Crea un composto   Workbenches: Part Workbench/it   Part, Part CompoundFilter/it, Part ExplodeCompound/it---
 
 
 </div>

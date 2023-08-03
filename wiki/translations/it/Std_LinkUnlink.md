@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkUnlink
    Name/it: Annulla il link
    MenuLocation: Nessuna

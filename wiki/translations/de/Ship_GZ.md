@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship PlotGZ
    Name/de: Schiff PlotGZ
-   MenuLocation: Gewichte -> GZ Kurve Berechnung
+   MenuLocation: Gewichte , GZ Kurve Berechnung
 |
    Workbenches: Ship Workbench/de
    Shortcut: 

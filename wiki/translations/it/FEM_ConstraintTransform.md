@@ -1,6 +1,6 @@
 # FEM ConstraintTransform/it
 ---
-- GuiCommand:   Name: FEM_ConstraintTransform   Name/it: ConstraintTransform   MenuLocation:  Modello -> Vincoli meccanici -> Constraint transform   ---
+ GuiCommand:   Name: FEM_ConstraintTransform   Name/it: ConstraintTransform   MenuLocation:  Modello , Vincoli meccanici , Constraint transform   ---
 
 ## Descrizione
 

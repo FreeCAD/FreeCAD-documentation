@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignVCenter
    Name/pl: Arkusz Kalkulacyjny: Wyśrodkuj w pionie
-   MenuLocation: Arkusz kalkulacyjny -> Wyrównanie -> Wyśrodkuj w pionie
+   MenuLocation: Arkusz kalkulacyjny , Wyrównanie , Wyśrodkuj w pionie
    Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
 ---

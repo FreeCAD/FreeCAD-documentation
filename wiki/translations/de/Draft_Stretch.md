@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Stretch
    Name/de: Draft Strecken
-   MenuLocation: Änderung -> Strecken
+   MenuLocation: Änderung , Strecken
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **S** **H**
    Version: 0.17

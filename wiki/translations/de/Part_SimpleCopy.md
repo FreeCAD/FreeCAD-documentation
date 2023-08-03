@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SimpleCopy‎
    Name/de: Part EinfacheKopie
-   MenuLocation: Part -> Erzeuge eine Kopie -> Erzeuge eine einfache Kopie
+   MenuLocation: Part , Erzeuge eine Kopie , Erzeuge eine einfache Kopie
    Workbenches: Part Workbench/de
    Siehe auch: Std Copy/de, Std_DuplicateSelection/de, Part_TransformedCopy/de, Part_ElementCopy/de, Part_RefineShape/de
 ---

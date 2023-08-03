@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft WorkingPlaneProxy
    Name/de: Draft ArbeitsebenenProxy
-   MenuLocation:  Dienstprogramme -> Arbeitsebenen-Proxy erstellen
+   MenuLocation:  Dienstprogramme , Arbeitsebenen-Proxy erstellen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft_SelectPlane/de
 ---

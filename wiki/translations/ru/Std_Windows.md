@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Windows
-   MenuLocation: Windows -> Windows...
+   MenuLocation: Windows , Windows...
    Workbenches: All
    SeeAlso: Std_ActivateNextWindow, Std_ActivatePrevWindow
 ---

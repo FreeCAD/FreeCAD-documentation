@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Std neue Ansicht
    Name: Std ViewCreate
-   MenuLocation: Std View Menu/de -> Neue Ansicht‏‎
+   MenuLocation: Std View Menu/de , Neue Ansicht‏‎
    Workbenches: Alle
    SeeAlso: Std ViewDockUndockFullscreen/de
 ---

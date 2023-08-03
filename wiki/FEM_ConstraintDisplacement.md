@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintDisplacement
-   MenuLocation: Model -> Mechanical Constraints -> Constraint displacement
+   MenuLocation: Model , Mechanical Constraints , Constraint displacement
    Workbenches: FEM_Workbench
    Shortcut: 
    SeeAlso: FEM_tutorial

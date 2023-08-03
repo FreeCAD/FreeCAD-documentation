@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPdf
    Name/ko: 표준 PDF로 내보내기
-   MenuLocation: 파일 -> PDF로 내보내기...
+   MenuLocation: 파일 , PDF로 내보내기...
    Workbenches: 모두
    SeeAlso: Std_Print/ko, Std_Export/ko, Std_ViewScreenShot/ko
 ---

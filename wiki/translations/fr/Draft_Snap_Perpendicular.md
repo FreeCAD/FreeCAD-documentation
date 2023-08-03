@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Perpendicular
    Name/fr: Draft Aimantation Perpendiculaire
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

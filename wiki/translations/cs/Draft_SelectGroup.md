@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectGroup
    Name/cs: Kreslení VybratSkupinu
    Workbenches: Draft_Workbench/cs, Arch_Workbench/cs

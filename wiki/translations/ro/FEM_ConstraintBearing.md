@@ -1,6 +1,6 @@
 # FEM ConstraintBearing/ro
 ---
-- GuiCommand:   Name: FEM ConstraintBearing   MenuLocation: Model -> Mechanical Constraints -> Constraint bearing   ---
+ GuiCommand:   Name: FEM ConstraintBearing   MenuLocation: Model , Mechanical Constraints , Constraint bearing   ---
 
 
 </div>

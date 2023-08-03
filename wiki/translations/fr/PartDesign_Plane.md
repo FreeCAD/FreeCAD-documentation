@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Plane
    Name/fr: PartDesign Plan de référence
-   MenuLocation: Part Design -> Créer une référence -> Créer un plan de référence
+   MenuLocation: Part Design , Créer une référence , Créer un plan de référence
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_Point/fr, PartDesign_Line/fr

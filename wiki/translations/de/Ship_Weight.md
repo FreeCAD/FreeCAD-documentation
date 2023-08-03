@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Weight
    Name/de: Ship Gewicht
-   MenuLocation: Weights -> Neues Schiffsgewicht erstellen
+   MenuLocation: Weights , Neues Schiffsgewicht erstellen
    Workbenches: Ship_Workbench/de
    Shortcut: 
    SeeAlso: 

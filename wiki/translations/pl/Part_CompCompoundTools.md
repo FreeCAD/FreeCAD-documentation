@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompCompoundTools
    Name/pl: Część: Komponent - narzędzia złożeń
-   MenuLocation: Część -> Złożenie
+   MenuLocation: Część , Złożenie
    Workbenches: Part_Workbench/pl
    SeeAlso: 
 ---

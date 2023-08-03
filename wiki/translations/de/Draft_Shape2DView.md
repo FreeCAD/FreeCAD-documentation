@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Shape2DView
    Name/de: Draft Form2DAnsicht
-   MenuLocation: Änderung -> Form in 2D Ansicht
+   MenuLocation: Änderung , Form in 2D Ansicht
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: TechDraw_ProjectShape/de
 ---

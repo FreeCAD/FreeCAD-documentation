@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw CosmeticVertex
    Name/de: TechDraw Hilfspunkt
-   MenuLocation: TechDraw -> Knoten hinzufügen -> Hilfspunkt hinzufügen
+   MenuLocation: TechDraw , Knoten hinzufügen , Hilfspunkt hinzufügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_Midpoints/de, TechDraw_Quadrants/de

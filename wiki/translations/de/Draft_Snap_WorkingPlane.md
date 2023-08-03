@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/de: Draft EinrastenAufArbeitsebene
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

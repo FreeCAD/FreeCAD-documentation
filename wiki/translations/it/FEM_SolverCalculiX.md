@@ -1,6 +1,6 @@
 # FEM SolverCalculiX/it
 ---
-- GuiCommand:   Name: FEM_SolverCalculiX   Name/it: Risolutore CalculiX   Icon: Fem_Solver.svg   MenuLocation:  Solve -> Risolutore CalculiX sperimentale   ---
+ GuiCommand:   Name: FEM_SolverCalculiX   Name/it: Risolutore CalculiX   Icon: Fem_Solver.svg   MenuLocation:  Solve , Risolutore CalculiX sperimentale   ---
 
 
 </div>

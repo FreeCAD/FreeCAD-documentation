@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionPosVertChainDimension
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Position Vertical Chain Dimensions
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Vertical Chain Dimensions
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

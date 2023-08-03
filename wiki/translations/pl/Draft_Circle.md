@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/pl: Draft: Okrąg
-   MenuLocation: Drafting -> Okrąg
+   MenuLocation: Drafting , Okrąg
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **C** **I**
    Version: 0.7

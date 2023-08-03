@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pad
    Name/it: PartDesign Estrusione
-   MenuLocation: Part Design -> Crea una funzione additiva -> Estrusione
+   MenuLocation: Part Design , Crea una funzione additiva , Estrusione
    Workbenches: PartDesign_Workbench/it
    SeeAlso: PartDesign_Pocket/it
 ---

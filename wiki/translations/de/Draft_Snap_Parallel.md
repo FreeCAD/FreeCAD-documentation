@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Parallel
    Name/de: Draft EinrastenParallel
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

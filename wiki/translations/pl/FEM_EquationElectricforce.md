@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectricforce
    Name/pl: MES: Równanie siły elektrostatycznej
-   MenuLocation: Rozwiąż -> Równania elektromagnetyczne -> Równanie siły elektrostatycznej
+   MenuLocation: Rozwiąż , Równania elektromagnetyczne , Równanie siły elektrostatycznej
    Workbenches: FEM_Workbench/pl
    Version: 0.19
    SeeAlso: FEM_EquationElectrostatic/pl

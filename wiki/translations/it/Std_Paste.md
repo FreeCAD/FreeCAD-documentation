@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Paste
    Name/it: Incolla
-   MenuLocation: Modifica -> Incolla
+   MenuLocation: Modifica , Incolla
    Shortcut: **Ctrl**+**V**
    Workbenches: Tutti
    SeeAlso: Std_Cut/it, Std_Copy/it, Std_DuplicateSelection/it

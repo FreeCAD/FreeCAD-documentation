@@ -1,6 +1,6 @@
 # Arch Axis/sv
 ---
-- GuiCommand:   Name: Arch Axis   Name/sv: Arch Axis   Workbenches: Arch_Workbench/sv   Arch|MenuLocation: Arch -> Axis   Shortcut: A X---
+ GuiCommand:   Name: Arch Axis   Name/sv: Arch Axis   Workbenches: Arch_Workbench/sv   Arch|MenuLocation: Arch -> Axis   Shortcut: A X---
 
 
 </div>

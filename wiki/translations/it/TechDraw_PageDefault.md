@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_PageDefault
    Name/it: Nuovo disegno standard
-   MenuLocation: TechDraw -> Nuovo disegno standard
+   MenuLocation: TechDraw , Nuovo disegno standard
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_PageTemplate/it, TechDraw Templates/it
 ---

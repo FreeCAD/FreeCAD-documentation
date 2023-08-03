@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgCustomize
    Name/es: Std PersonalizarDiálogo
-   MenuLocation: Herramientas -> Personalizar...
+   MenuLocation: Herramientas , Personalizar...
    Workbenches: Todo
    SeeAlso: Interface_Customization/es
 ---

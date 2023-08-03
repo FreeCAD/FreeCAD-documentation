@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Defeaturing
    Name/pl: Część: Usuwanie cech
-   MenuLocation: Część -> Usuwanie cech
+   MenuLocation: Część , Usuwanie cech
    Workbenches: Part_Workbench/pl
    Version: 0.18
    SeeAlso: Defeaturing_Workbench/pl, Macro_Parametric_Defeaturing/pl

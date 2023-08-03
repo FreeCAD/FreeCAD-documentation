@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Difference
-   MenuLocation: Meshes -> Boolean -> Difference
+   MenuLocation: Meshes , Boolean , Difference
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_Union, Mesh_Intersection
 ---

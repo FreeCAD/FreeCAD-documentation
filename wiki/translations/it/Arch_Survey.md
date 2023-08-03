@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Survey
    Name/it: Ispeziona
-   MenuLocation: Arch -> Ispeziona
+   MenuLocation: Arch , Ispeziona
    Workbenches: Arch_Workbench/it
    SeeAlso: File:FCInfo.png Macro FCInfo/it<br />Macro_SimpleProperties
 ---

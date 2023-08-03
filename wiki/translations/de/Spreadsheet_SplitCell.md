@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet SplitCell
    Name/de: Kalkulationstabelle ZellenTeilen
    Workbenches: Spreadsheet_Workbench/de
-   MenuLocation: Kalkulationstabelle -> Zellen Teilen
+   MenuLocation: Kalkulationstabelle , Zellen Teilen
    Version: 0.17
 ---
 

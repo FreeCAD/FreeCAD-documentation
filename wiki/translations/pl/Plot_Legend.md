@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Legend
    Name/pl: Wykres: Pokaz / ukryj legendę
-   MenuLocation: Wykres -> Pokaz / ukryj legendę
+   MenuLocation: Wykres , Pokaz / ukryj legendę
    Workbenches: Plot_Workbench/pl
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cut
    Name/de: Part Differenz
-   MenuLocation: Formteil -> Boolesche Operationen -> Differenz
+   MenuLocation: Formteil , Boolesche Operationen , Differenz
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Boolean/de, Part_Fuse/de, Part_Common/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADForum
    Name/it: Forum di FreeCAD
-   MenuLocation: Aiuto -> Forum di FreeCAD
+   MenuLocation: Aiuto , Forum di FreeCAD
    Workbenches: Tutti
    SeeAlso: Std_FreeCADWebsite/it, Std_FreeCADUserHub/it, Std_FreeCADPowerUserHub/it, Std_FreeCADFAQ/it
 ---

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateEllipseBy3Points
    Name/ro: Sketcher CreateEllipse3Point
    Icon: Sketcher_CreateEllipse_3points.png
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Sketcher geometries -> Create ellipse by 3 points
+   MenuLocation: Sketch , Sketcher geometries , Create ellipse by 3 points
    Version: 0.15
    SeeAlso: Sketcher_CreateEllipseByCenter/ro, Sketcher CreateCircle/ro, Sketcher_CreateArcOfEllipse/ro
 ---

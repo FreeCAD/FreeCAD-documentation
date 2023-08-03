@@ -1,6 +1,6 @@
 # FEM ConstraintPulley/ro
 ---
-- GuiCommand:   Name: FEM ConstraintPulley   MenuLocation: Model -> Mechanical Constraints -> Constraint pulley   ---
+ GuiCommand:   Name: FEM ConstraintPulley   MenuLocation: Model , Mechanical Constraints , Constraint pulley   ---
 
 
 </div>

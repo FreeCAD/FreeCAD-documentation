@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Wedge
    Name/pl: Część: Klin
-   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Klin
+   MenuLocation: Część , Utwórz geometrie pierwotne ... , Klin
    Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
    SeeAlso: Part_Primitives/pl
 ---

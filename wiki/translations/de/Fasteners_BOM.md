@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Fasteners BOM
    Name/de: Fasteners Stückliste
-   MenuLocation: Fasteners -> Generate BOM
+   MenuLocation: Fasteners , Generate BOM
    Workbenches: Fasteners_Workbench/de
    SeeAlso: Spreadsheet_Workbench/de
 ---

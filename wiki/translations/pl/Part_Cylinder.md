@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cylinder
    Name/pl: Część: Walec
-   MenuLocation: Część -> Bryła pierwotna -> Walec
+   MenuLocation: Część , Bryła pierwotna , Walec
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_CreatePrimitives/pl
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Design456 ExtrudeFace
-   MenuLocation: Design456_Tools -> 3DTools -> Extrude Face
+   MenuLocation: Design456_Tools , 3DTools , Extrude Face
    Workbenches: Design456 Workbench
    Shortcut: None
    SeeAlso: 

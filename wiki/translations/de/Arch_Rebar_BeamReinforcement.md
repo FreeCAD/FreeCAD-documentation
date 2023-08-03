@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Rebar_BeamReinforcement
    Name/de: Architektur Bewehrung BalkenVerstärkung
-   MenuLocation: Arch -> Bewehrungswerkzeuge oder 3D/BIM -> Reinforcement -> BalkenVerstärkung
+   MenuLocation: Arch , Bewehrungswerkzeuge oder 3D/BIM , Reinforcement , BalkenVerstärkung
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de, Arch_Rebar/de

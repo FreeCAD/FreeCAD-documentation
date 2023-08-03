@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkSelectLinkedFinal
    Name/de: Std ZumLetztenVerknüpftenObjektGehen
    MenuLocation: ''None''

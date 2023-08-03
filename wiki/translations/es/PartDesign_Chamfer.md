@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Chamfer
    Name/es: DiseñoPieza Chaflán
    Workbenches: PartDesign Workbench/es
-   MenuLocation: DiseñoPieza -> Chaflán
+   MenuLocation: DiseñoPieza , Chaflán
    SeeAlso: PartDesign_Fillet/es, Part Chamfer/es
 ---
 

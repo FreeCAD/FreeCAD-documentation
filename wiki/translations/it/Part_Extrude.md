@@ -1,6 +1,6 @@
 # Part Extrude/it
 ---
-- GuiCommand:   Name: Part_Extrude   Name/it: Estrusione   MenuLocation: Parte -> Estrudi...   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part_Extrude   Name/it: Estrusione   MenuLocation: Parte , Estrudi...   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SaveAs
    Name/pl: Std: Zapisz jako
-   MenuLocation: Plik -> Zapisz jako ...
+   MenuLocation: Plik , Zapisz jako ...
    Workbenches: wszystkie
    SeeAlso: Std_SaveCopy/pl, Std_Save/pl
 ---

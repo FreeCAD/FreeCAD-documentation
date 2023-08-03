@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/tr: Yol dizisi
-   MenuLocation: Draft -> PathArray
+   MenuLocation: Draft , PathArray
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft Array/tr
 ---

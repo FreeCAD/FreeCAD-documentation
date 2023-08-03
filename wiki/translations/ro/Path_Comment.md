@@ -1,6 +1,6 @@
 # Path Comment/ro
 ---
-- GuiCommand:   Name: Path Comment   Workbenches: Path Workbench   Path|MenuLocation: Path -> Partial Commands -> Comment   Shortcut: P,C   SeeAlso: ---
+ GuiCommand:   Name: Path Comment   Workbenches: Path Workbench   Path|MenuLocation: Path , Partial Commands , Comment   Shortcut: P,C   SeeAlso: ---
 
 
 </div>

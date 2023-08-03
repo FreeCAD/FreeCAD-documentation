@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Area
    Name/de: Schiffsbereich
    Icon: Ship_AreaCurve.svg
-   MenuLocation: Schiffskonstruktion -> Bereichskurve
+   MenuLocation: Schiffskonstruktion , Bereichskurve
    
    Shortcut: 
    SeeAlso: 

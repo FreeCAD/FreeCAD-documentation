@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Line
    Name/it: Linea di riferimento
-   MenuLocation: Part Design -> Linea di riferimento
+   MenuLocation: Part Design , Linea di riferimento
    Workbenches: PartDesign Workbench/it
    Version: 0.17
    SeeAlso: PartDesign Point/it, PartDesign Plane/it

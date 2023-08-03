@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Quadrants
    Name/fr: TechDraw Sommets quadrants
-   MenuLocation: TechDraw -> Ajouter des sommets -> Ajouter des sommets de quadrants
+   MenuLocation: TechDraw , Ajouter des sommets , Ajouter des sommets de quadrants
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/fr, TechDraw_Midpoints/fr

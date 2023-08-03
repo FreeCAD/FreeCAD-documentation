@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LeaderLine
    Name/it: Linea guida
-   MenuLocation: TechDraw -> Aggiungi linee -> Linea guida
+   MenuLocation: TechDraw , Aggiungi linee , Linea guida
    Workbenches: TechDraw_Workbench/it
    Version: 0.19
    SeeAlso: TechDraw_RichTextAnnotation/it, TechDraw_WeldSymbol/it, TechDraw_LineGroup/it

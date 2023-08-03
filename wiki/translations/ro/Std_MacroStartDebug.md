@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStartDebug
    Name/ro: Std MacroStartDebug
    Workbenches: All
-   MenuLocation: Std Macro Menu/ro -> Debug Macro 
+   MenuLocation: Std Macro Menu/ro , Debug Macro 
    Shortcut: F6
    SeeAlso: 
 ---

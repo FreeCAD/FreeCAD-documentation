@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipse
    Name/de: Part Ellipse
-   MenuLocation: Formteil -> Part_CreatePrimitives/de -> Ellipse
+   MenuLocation: Formteil , Part_CreatePrimitives/de , Ellipse
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Deburr
    Name/pl: Path: Usuwanie zadziorów
-   MenuLocation: Path -> Usuwanie zadziorów
+   MenuLocation: Path , Usuwanie zadziorów
    Workbenches: Path_Workbench/pl
    Version: 0.18
 ---

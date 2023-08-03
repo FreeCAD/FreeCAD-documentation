@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Удалить компонент
    Name/ru: Arch Remove
-   MenuLocation: Архитектура -> Удалить компонент
+   MenuLocation: Архитектура , Удалить компонент
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch_CutLine, Arch_CutPlane, Arch_Add/ru
 ---

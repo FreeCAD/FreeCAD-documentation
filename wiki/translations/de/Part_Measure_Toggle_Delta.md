@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle Delta
    Name/de: Part Messung DeltaUmschalten
-   MenuLocation: Messen -> Delta umschalten
+   MenuLocation: Messen , Delta umschalten
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Measure_Toggle_All/de, Part_Measure_Toggle_3D/de
 ---

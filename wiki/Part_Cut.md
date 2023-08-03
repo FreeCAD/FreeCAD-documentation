@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cut
-   MenuLocation: Part -> Boolean -> Cut
+   MenuLocation: Part , Boolean , Cut
    Workbenches: Part_Workbench
    SeeAlso: Part_Boolean, Part_Fuse, Part_Common
 ---

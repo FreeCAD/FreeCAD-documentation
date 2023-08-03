@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Import
    Name/pl: Siatka: Import
-   MenuLocation: Siatki -> Importuj siatkę ...
+   MenuLocation: Siatki , Importuj siatkę ...
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Std_Import/pl, Std_Open/pl, Import_Export/pl
 ---

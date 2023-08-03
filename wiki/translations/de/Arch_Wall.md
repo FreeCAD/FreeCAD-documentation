@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Wall
    Name/de: Arch Wand
-   MenuLocation: Arch -> Wand
+   MenuLocation: Arch , Wand
    Workbenches: Arch_Workbench/de
    Shortcut: **W** **A**
    SeeAlso: Arch_Structure/de

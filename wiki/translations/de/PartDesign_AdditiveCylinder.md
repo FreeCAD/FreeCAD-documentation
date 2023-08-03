@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveCylinder
    Name/de: PartDesign ZylinderHinzufügen
-   MenuLocation: Part Design -> Grundkörper hinzufügen -> Zylinder
+   MenuLocation: Part Design , Grundkörper hinzufügen , Zylinder
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/de, PartDesign_SubtractiveCylinder/de

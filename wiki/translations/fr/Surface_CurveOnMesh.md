@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface CurveOnMesh
    Name/fr: Surface Courbe sur maillage
-   MenuLocation: Surface -> Curve on mesh...
+   MenuLocation: Surface , Curve on mesh...
    Workbenches: Surface_Workbench/fr
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft FlipDimension
    Name/tr: Boyutu çevir
-   MenuLocation: Draft -> Utilities -> Flip Dimension
+   MenuLocation: Draft , Utilities , Flip Dimension
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft Dimension/tr
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Mirror
    Name/ru: Зеркальное отражение
    MenuLocation: Деталь -> Зеркальное отражение...

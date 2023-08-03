@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Intersection
    Name/fr: Mesh Intersection‏‎
-   MenuLocation: Maillages -> Opération booléenne -> Intersection
+   MenuLocation: Maillages , Opération booléenne , Intersection
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_Union, Mesh_Difference
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Tube
    Name/pl: Część: Rura
-   MenuLocation: Część -> Bryła pierwotna -> Utwórz rurę
+   MenuLocation: Część , Bryła pierwotna , Utwórz rurę
    Workbenches: Part_Workbench/pl
    Version: 0.19
    SeeAlso: Part_Primitives/pl

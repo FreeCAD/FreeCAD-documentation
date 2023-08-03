@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADUserHub
    Name/fr: Std Documentation utilisateurs
-   MenuLocation: Aide -> Documentation utilisateurs
+   MenuLocation: Aide , Documentation utilisateurs
    Workbenches: Tous
    SeeAlso: Std_FreeCADWebsite/fr, Std_FreeCADPowerUserHub/fr, Std_FreeCADForum/fr, Std_FreeCADFAQ/fr
 ---

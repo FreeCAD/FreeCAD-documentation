@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SplitComponents
    Name/fr: Mesh Éclater par composants
-   MenuLocation: Maillages -> Éclater par composants
+   MenuLocation: Maillages , Éclater par composants
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_Merge/fr
 ---

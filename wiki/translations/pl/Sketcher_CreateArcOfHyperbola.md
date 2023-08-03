@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateArcOfHyperbola
    Name/pl: Szkicownik: Utwórz łuk na podstawie hiperboli
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz łuk na podstawie elipsy
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz łuk na podstawie elipsy
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **H**
    Version: 0.17

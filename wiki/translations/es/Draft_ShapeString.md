@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/es: Bosquejar forma de cadena
    MenuLocation: Borrador -> Bosquejar forma de cadena

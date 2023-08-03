@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainPerpendicular
    Name/es: Croquizador RestringirPerpendicular
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador -> Perpendicular
+   MenuLocation: Croquizador , Restricciones del Croquizador , Perpendicular
    Shortcut: **N**
    SeeAlso: Sketcher_ConstrainAngle/es
 ---

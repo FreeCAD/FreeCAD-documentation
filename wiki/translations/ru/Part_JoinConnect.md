@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_JoinConnect
    Name/ru: Part JoinConnect
-   MenuLocation: Деталь -> Join -> Connect objects
+   MenuLocation: Деталь , Join , Connect objects
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_JoinConnect/ru, Part_JoinEmbed/ru, Part_JoinCutout/ru, Part Boolean/ru, Part Thickness/ru
 ---

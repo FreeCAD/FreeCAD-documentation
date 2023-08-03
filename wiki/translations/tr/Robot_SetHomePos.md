@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot SetHomePos
    Name/tr: Robot Ana konum ayarla
    Workbenches: Robot_Workbench/tr
-   MenuLocation: Robot -> Ana konum ayarla
+   MenuLocation: Robot , Ana konum ayarla
 ---
 
 # Robot SetHomePos/tr

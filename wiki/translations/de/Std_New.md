@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std New
    Name/de: Std Neu
-   MenuLocation: Datei -> Neu
+   MenuLocation: Datei , Neu
    Workbenches: Alle
    Shortcut: **Strg**+**N**
    SeeAlso: Std_Open/de, Std_Import/de

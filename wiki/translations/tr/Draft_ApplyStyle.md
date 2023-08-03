@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Apply
    Name/tr: Stili uygula
-   MenuLocation: Taslak-> Araçlar -> Stili uygula
+   MenuLocation: Taslak, Araçlar , Stili uygula
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    SeeAlso: Draft Tray/tr
 ---

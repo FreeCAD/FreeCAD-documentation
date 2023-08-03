@@ -1,6 +1,6 @@
 # FEM MeshDisplayInfo/it
 ---
-- GuiCommand:   Name: FEM_MeshPrintInfo   Name/it: FEM MeshPrintInfo   Icon: Fem-femmesh-print-info.svg   MenuLocation:  Menu contestuale dell'oggetto mesh -> Informazioni di stampa   ---
+ GuiCommand:   Name: FEM_MeshPrintInfo   Name/it: FEM MeshPrintInfo   Icon: Fem-femmesh-print-info.svg   MenuLocation:  Menu contestuale dell'oggetto mesh , Informazioni di stampa   ---
 
 
 </div>

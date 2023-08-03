@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveHelix
    Name/pl: Projekt Części: Subtraktywna helisa
-   MenuLocation: Projekt Części -> Utwórz cechę przez odjęcie ->  Subtraktywna helisa
+   MenuLocation: Projekt Części , Utwórz cechę przez odjęcie ,  Subtraktywna helisa
    Workbenches: PartDesign_Workbench/pl
    Version: 0.19
    SeeAlso: PartDesign_AdditiveHelix/pl

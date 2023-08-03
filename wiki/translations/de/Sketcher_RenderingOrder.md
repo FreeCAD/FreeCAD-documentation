@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RenderingOrder
    Name/de: Sketcher RenderingReihenfolge
    Workbenches: Sketcher_Workbench/de

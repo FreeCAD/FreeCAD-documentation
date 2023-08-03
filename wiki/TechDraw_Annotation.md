@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Annotation
-   MenuLocation: TechDraw -> Annotations -> Insert Annotation
+   MenuLocation: TechDraw , Annotations , Insert Annotation
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_RichTextAnnotation
 ---

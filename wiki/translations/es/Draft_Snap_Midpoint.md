@@ -1,6 +1,6 @@
 # Draft Snap Midpoint/es
 ---
-- GuiCommand:   Name: Draft Midpoint   Workbenches: Draft Workbench   Draft, Arch Workbench -> Midpoint---
+ GuiCommand:   Name: Draft Midpoint   Workbenches: Draft Workbench   Draft, Arch Workbench , Midpoint---
 
 
 </div>

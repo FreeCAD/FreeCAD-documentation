@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Union‏‎
    Name/it: Unione
-   MenuLocation: Mesh -> Operazione booleana -> Unione
+   MenuLocation: Mesh , Operazione booleana , Unione
    Workbenches: Mesh Workbench/it
    SeeAlso: Mesh_Merge/it
 ---

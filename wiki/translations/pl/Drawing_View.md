@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing View
    Name/pl: Kreślenie: Widok
    Workbenches: Drawing_Workbench/pl
-   MenuLocation: Kreślenie -> Wstaw widok w rysunku
+   MenuLocation: Kreślenie , Wstaw widok w rysunku
    Shortcut: brak
    SeeAlso: Drawing_Landscape_A3/pl
 ---

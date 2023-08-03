@@ -1,6 +1,6 @@
 # Part Sphere/cs
 ---
-- GuiCommand:   Name: Part Sphere   Name/cs: Díl Koule   MenuLocation: Díl -> Koule   , Kompletace---
+ GuiCommand:   Name: Part Sphere   Name/cs: Díl Koule   MenuLocation: Díl -> Koule   , Kompletace---
 
 
 </div>

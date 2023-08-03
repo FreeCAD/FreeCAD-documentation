@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MeshToShape
    Name/de: Arch NetzZuForm
-   MenuLocation: Arch -> Dienstprogramme -> Netz zu Form
+   MenuLocation: Arch , Dienstprogramme , Netz zu Form
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_SplitMesh/de, Arch_RemoveShape/de
 ---

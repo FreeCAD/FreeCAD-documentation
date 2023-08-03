@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface CurveOnMesh
    Name/de: Surface KurveAufNetz
-   MenuLocation: Surface -> Curve on mesh
+   MenuLocation: Surface , Curve on mesh
    Workbenches: Surface_Workbench/de|
    Version: 0.17
 ---

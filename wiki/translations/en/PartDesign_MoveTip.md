@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MoveTip
-   MenuLocation: Context menu -> Set tip
+   MenuLocation: Context menu , Set tip
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: PartDesign_MoveFeature, PartDesign_MoveFeatureInTree

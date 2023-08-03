@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fuse
    Name/pl: Część: Połączenie
-   MenuLocation: Część -> Operacje logiczne -> Połączenie
+   MenuLocation: Część , Operacje logiczne , Połączenie
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Cut/pl, Part_Common/pl, Part_Boolean/pl
 ---

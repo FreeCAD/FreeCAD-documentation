@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
    Name/tr: Şekil dizesi
-   MenuLocation: Taslak -> Şekil dizesi
+   MenuLocation: Taslak , Şekil dizesi
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **S** **S**
    Version: 0.14

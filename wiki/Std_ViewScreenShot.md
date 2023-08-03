@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewScreenShot
-   MenuLocation: Tools -> Save image...
+   MenuLocation: Tools , Save image...
    Workbenches: All
    SeeAlso: Std_Print, Std_PrintPdf, Macro_Copy3DViewToClipboard, Macro_Screen_Wiki, Macro_Snip
 ---

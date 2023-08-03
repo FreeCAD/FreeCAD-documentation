@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh RemoveCompByHand
    Name/de: Mesh KomponenteVonHandEntfernen‏‎
-   MenuLocation: Netze -> Komponente von Hand entfernen...
+   MenuLocation: Netze , Komponente von Hand entfernen...
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_RemoveComponents/de, Arch_SplitMesh/de
 ---

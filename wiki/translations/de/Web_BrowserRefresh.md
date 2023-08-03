@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web BrowserRefresh
    Name/de: Web BrowserAktualisieren
    MenuLocation: 

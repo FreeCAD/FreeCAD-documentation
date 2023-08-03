@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshGmshFromShape
    Name/de: FEM NetzGmshAusForm
-   MenuLocation: Netz -> FEM Netz aus Form durch Gmsh
+   MenuLocation: Netz , FEM Netz aus Form durch Gmsh
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

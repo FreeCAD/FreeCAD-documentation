@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Stairs
-   MenuLocation: Arch -> Stairs
+   MenuLocation: Arch , Stairs
    Workbenches: Arch_Workbench/pt-br
    Shortcut: **S** **R**
    Version: 0.14

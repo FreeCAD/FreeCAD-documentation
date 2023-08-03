@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointOnCircle
    Name/fr: Assembly3 Contrainte point sur un cercle
    Icon: Assembly_ConstraintPointOnCircle.svg

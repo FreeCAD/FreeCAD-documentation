@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/cs: Přepínání uchopování
    Workbenches: Draft_Workbench/cs, Arch_Workbench/cs
-   MenuLocation: Kreslení -> Utility -> Přepínání uchopování
+   MenuLocation: Kreslení , Utility , Přepínání uchopování
 ---
 
 # Draft Snap Lock/cs

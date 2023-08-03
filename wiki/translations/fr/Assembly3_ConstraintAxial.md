@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAxial
    Name/fr: Assembly3 Contrainte axiale
    Icon: Assembly_ConstraintAxial.svg

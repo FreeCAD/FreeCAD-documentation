@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Section
    Name/de: Part Schnittkurve
-   MenuLocation: Formteil -> Schnittkurve
+   MenuLocation: Formteil , Schnittkurve
    Workbenches: Part_Workbench/de
    SeeAlso: Part_CrossSections/de
 ---

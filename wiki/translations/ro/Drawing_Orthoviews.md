@@ -1,6 +1,6 @@
 # Drawing Orthoviews/ro
 ---
-- GuiCommand:   Name: Drawing Orthoviews   Workbenches: Drawing Workbench   Drawing, Complete---
+ GuiCommand:   Name: Drawing Orthoviews   Workbenches: Drawing Workbench   Drawing, Complete---
 
 Instrumentul Orthoviews introduce un set de proiecții ortogonale ale obiectului selectat în foaia de desen activă. Rețineți că nu creează un singur obiect de vizualizare pe pagină. În schimb, va fi creată o proiecție ortogonală separată pentru fiecare dintre vizualizările selectate în opțiuni.
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint SnellsLaw
    Name/it: Rifrazione
-   MenuLocation: Sketch -> Sketcher Constraints -> Rifrazione 
+   MenuLocation: Sketch , Sketcher Constraints , Rifrazione 
    Workbenches: Sketcher Workbench/it
    Version: 0.15
 ---

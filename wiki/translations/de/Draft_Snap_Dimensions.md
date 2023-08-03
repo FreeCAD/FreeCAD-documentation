@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/de: Draft EinrastenAufMaße
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

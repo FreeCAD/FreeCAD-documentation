@@ -1,6 +1,6 @@
 # PartDesign SubtractiveWedge/ro
 ---
-- GuiCommand:   Name: PartDesign SubtractiveWedge   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign SubtractiveWedge   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM Analysis
    Name/fr: FEM Conteneur d'analyse
-   MenuLocation: Modèle -> Conteneur d'analyse‏‎
+   MenuLocation: Modèle , Conteneur d'analyse‏‎
    Workbenches: FEM_Workbench/fr
    Shortcut: **S** **A**
    SeeAlso: FEM_tutorial/fr

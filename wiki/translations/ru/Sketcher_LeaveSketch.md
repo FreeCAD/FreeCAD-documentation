@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Покинуть эскиз
    Name: Sketcher_LeaveSketch
-   MenuLocation: Sketch -> Покинуть эскиз
+   MenuLocation: Sketch , Покинуть эскиз
    Workbenches: Sketcher_Workbench/ru, PartDesign_Workbench/ru
    SeeAlso: Sketcher_EditSketch/ru
 ---

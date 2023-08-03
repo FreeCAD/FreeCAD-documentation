@@ -1,6 +1,6 @@
 # Draft Downgrade/cs
 ---
-- GuiCommand:   Name: Draft_Downgrade   Name/cs: Kreslení Degradace   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft_Downgrade   Name/cs: Kreslení Degradace   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

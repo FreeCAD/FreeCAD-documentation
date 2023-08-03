@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CloseShape
-   MenuLocation: Sketch -> Sketcher tools -> Close shape
+   MenuLocation: Sketch , Sketcher tools , Close shape
    Workbenches: Sketcher_Workbench
    Shortcut: **Z** **W**
    Version: 0.15

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Linear
    Name/pl: Część: Pomiar liniowy
-   MenuLocation: Pomiary -> Pomiar liniowy
+   MenuLocation: Pomiary , Pomiar liniowy
    Workbenches: Part_Workbench/pl
    SeeAlso: Std_MeasureDistance/pl, Draft_Dimension/pl
 ---

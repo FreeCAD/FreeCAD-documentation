@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ElementCopy
    Name/pl: Część: Utwórz kopię kształtu elementu
-   MenuLocation: Część -> Utwórz kopię -> Utwórz kopię kształtu elementu
+   MenuLocation: Część , Utwórz kopię , Utwórz kopię kształtu elementu
    Workbenches: Part_Workbench/pl
    Version: 0.19
    SeeAlso: Part_SimpleCopy/pl, Part_ElementCopy/pl, Part_RefineShape/pl

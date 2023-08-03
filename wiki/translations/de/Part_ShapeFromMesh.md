@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ShapeFromMesh‏‎
    Name/de: Part FormAusNetz
-   MenuLocation: Part -> Erzeuge Form aus Netz...
+   MenuLocation: Part , Erzeuge Form aus Netz...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_MakeSolid/de, Part_RefineShape/de, Part_PointsFromMesh/de
 ---

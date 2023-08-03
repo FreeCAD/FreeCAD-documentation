@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing InsertPart
-   MenuLocation: Raytracing -> InsertPart‏‎
+   MenuLocation: Raytracing , InsertPart‏‎
    Workbenches: Raytracing_Workbench
    Shortcut: 
    SeeAlso: 

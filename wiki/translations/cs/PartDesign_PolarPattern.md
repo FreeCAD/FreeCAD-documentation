@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_PolarPattern
    Name/cs: Návrh dílu Polární vzorky
    Workbenches: PartDesign Workbench/cs

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Extrude
    Name/es: Pieza Extruye
-   MenuLocation: Pieza -> Extrusión
+   MenuLocation: Pieza , Extrusión
    Workbenches: Part_Workbench/es
    SeeAlso: Draft Trimex/es
 ---

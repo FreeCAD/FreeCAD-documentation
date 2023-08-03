@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 AddXZWorkplane
    Name/fr: Assembly3 Ajouter un plan de travail XZ
    Icon: Assembly_Add_WorkplaneXZ.svg‎‎
-   MenuLocation: Assembly3 -> Workplane and origin -> Add XZ workplane
+   MenuLocation: Assembly3 , Workplane and origin , Add XZ workplane
    Workbenches: Assembly3_Workbench/fr
 ---
 

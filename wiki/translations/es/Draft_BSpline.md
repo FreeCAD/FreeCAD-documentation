@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BSpline
    Name/es: Borrador BSpline
-   MenuLocation: Borrador -> B-Spline 
+   MenuLocation: Borrador , B-Spline 
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **B** **S**
    Version: 0.7

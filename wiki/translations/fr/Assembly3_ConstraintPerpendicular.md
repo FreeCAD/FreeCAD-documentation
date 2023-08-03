@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPerpendicular
    Name/fr: Assembly3 Contrainte perpendiculaire
    Icon: Assembly_ConstraintPerpendicular.svg

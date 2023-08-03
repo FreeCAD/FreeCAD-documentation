@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostApplyChanges
    Name/pl: MES Zastosuj zmiany
-   MenuLocation: Wyniki -> Zastosuj zmiany
+   MenuLocation: Wyniki , Zastosuj zmiany
    Workbenches: FEM_Workbench/pl
    SeeAlso: Std_Refresh/pl, FEM_PostCreateFunctions/pl
 ---

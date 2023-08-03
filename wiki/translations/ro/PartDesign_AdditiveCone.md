@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveCone
    Name/ro: PartDesign AdditiveCone
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: Part Design -> Create an additive primitive -> Additive Cone
+   MenuLocation: Part Design , Create an additive primitive , Additive Cone
    Version: 0.17
    SeeAlso: PartDesign CompPrimitiveAdditive/ro
 ---

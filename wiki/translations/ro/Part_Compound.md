@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Compound
-‏‎   MenuLocation: Part -> Make compound
+‏‎   MenuLocation: Part , Make compound
    Workbenches: Part Workbench
    SeeAlso: 
 ---

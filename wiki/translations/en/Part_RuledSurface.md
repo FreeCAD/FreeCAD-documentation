@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RuledSurface
-   MenuLocation: Part -> RuledSurface
+   MenuLocation: Part , RuledSurface
    Workbenches: Part_Workbench
    SeeAlso: Part_MakeFace
 ---

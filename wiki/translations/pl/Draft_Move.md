@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/pl: Draft: Move
    Name: Draft Move
-   MenuLocation: Modyfikacja -> Przesuń
+   MenuLocation: Modyfikacja , Przesuń
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **M** **V**
    Version: 0.7

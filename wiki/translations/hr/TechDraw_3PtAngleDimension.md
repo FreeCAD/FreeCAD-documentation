@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 3PtAngleDimension
-   MenuLocation: TechDraw -> Dimensions -> Insert 3-Point Angle Dimension
+   MenuLocation: TechDraw , Dimensions , Insert 3-Point Angle Dimension
    Workbenches: TechDraw_Workbench
    Version: 0.18
    SeeAlso: TechDraw_AngleDimension

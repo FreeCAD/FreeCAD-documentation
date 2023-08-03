@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/de: Draft Drehen
-   MenuLocation: Änderung -> Drehen
+   MenuLocation: Änderung , Drehen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **R****O**
    Version: 0.7

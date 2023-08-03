@@ -1,6 +1,6 @@
 # Part Torus/sv
 ---
-- GuiCommand:   Name: Part Torus   Name/sv: Part Torus   MenuLocation: Part -> Torus   ,Complete---
+ GuiCommand:   Name: Part Torus   Name/sv: Part Torus   MenuLocation: Part -> Torus   ,Complete---
 
 
 </div>

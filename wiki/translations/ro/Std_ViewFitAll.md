@@ -1,6 +1,6 @@
 # Std ViewFitAll/ro
 ---
-- GuiCommand:   Name: Std ViewFitAll   MenuLocation: Std View Menu   View -> Standard views‏‎ -> FitAll---
+ GuiCommand:   Name: Std ViewFitAll   MenuLocation: Std View Menu   View , Standard views‏‎ , FitAll---
 
 
 </div>

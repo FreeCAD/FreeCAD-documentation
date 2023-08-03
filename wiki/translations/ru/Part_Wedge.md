@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Wedge
    Name/ru: Клин
-   MenuLocation: Деталь -> Создать примитивы... -> Клин
+   MenuLocation: Деталь , Создать примитивы... , Клин
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

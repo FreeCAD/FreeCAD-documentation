@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Scale
    Name/es: Draft Scale
    Workbenches: Draft_Workbench/es, Arch_Workbench/es

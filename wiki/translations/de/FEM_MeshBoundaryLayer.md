@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshBoundaryLayer
    Name/de: FEM NetzGrenzschicht
-   MenuLocation: Netz -> FEM Netz Begrenzungsschicht
+   MenuLocation: Netz , FEM Netz Begrenzungsschicht
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

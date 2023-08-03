@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing SpreadsheetView
    Name/it: Vista foglio di calcolo
    Workbenches: Drawing_Workbench/it
-   MenuLocation: Drawing -> Vista foglio di calcolo
+   MenuLocation: Drawing , Vista foglio di calcolo
 ---
 
 # Drawing SpreadsheetView/it

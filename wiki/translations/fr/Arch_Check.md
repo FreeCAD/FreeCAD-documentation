@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Check
    Name/fr: Arch Vérifier
-   MenuLocation: Arch -> Utilitaires -> Vérifier
+   MenuLocation: Arch , Utilitaires , Vérifier
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_CloseHoles/fr
 ---

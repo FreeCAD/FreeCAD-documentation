@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Stairs
    Name/de: Arch Treppe
-   MenuLocation: Arch -> Treppe
+   MenuLocation: Arch , Treppe
    Workbenches: Arch_Workbench/de
    Shortcut: **S** **R**
    Version: 0.14

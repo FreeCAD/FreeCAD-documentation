@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
 
    Name: Sketcher Clone
    Name/de: Sketcher Klonen
@@ -9,7 +9,7 @@
    Name/ro: Sketcher Clonă
    Name/ru: Sketcher Клонировать
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Sketch -> Herriamentas de croquis -> Clonar
+   MenuLocation: Sketch , Herriamentas de croquis , Clonar
    Version: 0.16
    SeeAlso: Sketcher Copy/es, Sketcher Move/es
 ---

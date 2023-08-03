@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Scale
    Name/it: Scala
-   MenuLocation: Mesh -> Scala...
+   MenuLocation: Mesh , Scala...
    Workbenches: Mesh Workbench/it
 ---
 

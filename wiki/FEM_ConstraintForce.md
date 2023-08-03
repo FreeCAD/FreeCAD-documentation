@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintForce
-   MenuLocation: Model -> Mechanical Constraints -> Constraint force
+   MenuLocation: Model , Mechanical Constraints , Constraint force
    Workbenches: FEM_Workbench
    SeeAlso: FEM_ConstraintPressure
 ---

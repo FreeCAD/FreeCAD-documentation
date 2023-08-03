@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveTorus
    Name/es: PartDesign Toro Sustractivo
-   MenuLocation: Part Design -> Crear una primitiva sustractiva -> Toro Sustractivo
+   MenuLocation: Part Design , Crear una primitiva sustractiva , Toro Sustractivo
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/es

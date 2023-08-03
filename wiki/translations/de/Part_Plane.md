@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Plane
    Name/de: Part Ebene
-   MenuLocation: Formteil -> Part_Primitives/de -> Ebene
+   MenuLocation: Formteil , Part_Primitives/de , Ebene
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

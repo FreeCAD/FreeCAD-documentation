@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Line
-   MenuLocation: Part -> Part_Primitives -> Line
+   MenuLocation: Part , Part_Primitives , Line
    Workbenches: Part_Workbench,  OpenSCAD_Workbench
    SeeAlso: Part_Primitives
 ---

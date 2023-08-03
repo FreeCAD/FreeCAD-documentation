@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Toggle All
    Name/it: Attiva/Disattiva tutto
-   MenuLocation: Std Measure Menu/it -> Attiva/Disattiva tutto‏‎
+   MenuLocation: Std Measure Menu/it , Attiva/Disattiva tutto‏‎
    Workbenches: Part_Workbench/it
 ---
 

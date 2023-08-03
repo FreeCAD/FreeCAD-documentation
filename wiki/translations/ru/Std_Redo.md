@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Redo
    Name/ru: Вернуть
-   MenuLocation: Правка -> Вернуть
+   MenuLocation: Правка , Вернуть
    Workbenches: Все
    Shortcut: **Ctrl**+**Y**
    SeeAlso: Std_Undo/ru

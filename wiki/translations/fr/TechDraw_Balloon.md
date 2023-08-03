@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Balloon
    Name/fr: TechDraw Infobulle
-   MenuLocation: TechDraw -> Annotations -> Insérer une infobulle
+   MenuLocation: TechDraw , Annotations , Insérer une infobulle
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_Annotation/fr

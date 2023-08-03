@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Extension
    Name/ro: Draft Snap Extension
-   MenuLocation: Draft -> Draft Snap/ro -> Extension
+   MenuLocation: Draft , Draft Snap/ro , Extension
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    SeeAlso: Draft Snap/ro, Draft_Snap_Lock/ro
 ---

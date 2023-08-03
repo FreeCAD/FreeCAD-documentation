@@ -1,6 +1,6 @@
 # Part Cylinder/es
 ---
-- GuiCommand:   Name: Part Cylinder   Name/es: Part Cylinder   MenuLocation: Part -> Cylinder   , Complete---
+ GuiCommand:   Name: Part Cylinder   Name/es: Part Cylinder   MenuLocation: Part , Cylinder   , Complete---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinConnect
    Name/it: Congiunzione
-   MenuLocation: Part -> Congiungi -> Congiungi oggetti
+   MenuLocation: Part , Congiungi , Congiungi oggetti
    Workbenches: Part_Workbench/it
    SeeAlso: Part_JoinEmbed/it, Part_JoinCutout/it, Part Boolean/it, Part Thickness/it
 ---

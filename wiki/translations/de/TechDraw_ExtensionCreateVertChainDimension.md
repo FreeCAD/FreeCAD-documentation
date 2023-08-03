@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertChainDimension
    Name/de: TechDraw ErgänzungVertikaleMaßkette
-   MenuLocation: TechDraw -> Ergänzungen: Maße -> Vertikale Maßkette erstellen
+   MenuLocation: TechDraw , Ergänzungen: Maße , Vertikale Maßkette erstellen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

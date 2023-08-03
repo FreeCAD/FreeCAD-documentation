@@ -1,6 +1,6 @@
 # Path Adaptive/it
 ---
-- GuiCommand:   Name: Path Adaptive   Name/it: Adattiva   Workbenches: Path Workbench/it   Path|MenuLocation: Path -> Adattiva   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Path Adaptive   Name/it: Adattiva   Workbenches: Path Workbench/it   Path|MenuLocation: Path , Adattiva   Shortcut:    SeeAlso: ---
 
 
 </div>

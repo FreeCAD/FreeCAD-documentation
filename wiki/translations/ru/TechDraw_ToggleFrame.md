@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Отображение рамки вкл/выкл
    Name: TechDraw_ToggleFrame
-   MenuLocation: TechDraw -> Отображение рамки вкл/выкл
+   MenuLocation: TechDraw , Отображение рамки вкл/выкл
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_View/ru, TechDraw_ProjectionGroup/ru
 ---

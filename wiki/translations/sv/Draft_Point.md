@@ -1,6 +1,6 @@
 # Draft Point/sv
 ---
-- GuiCommand:   Name: Draft Point   Name/sv: Draft Point   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Point   Shortcut: P T---
+ GuiCommand:   Name: Draft Point   Name/sv: Draft Point   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Point   Shortcut: P T---
 
 
 </div>

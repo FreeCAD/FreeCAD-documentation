@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Angle
    Name/it: Angolo
-   MenuLocation: Draft -> Draft Snap/it -> Angolo
+   MenuLocation: Draft , Draft Snap/it , Angolo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---

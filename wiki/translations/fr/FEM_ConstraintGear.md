@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintGear
    Name/fr: FEM Contrainte d'engrenage
-   MenuLocation: Modèle -> Contraintes sans solveur -> Contrainte d'engrenage
+   MenuLocation: Modèle , Contraintes sans solveur , Contrainte d'engrenage
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintBearing/fr, FEM_ConstraintPulley/fr
 ---

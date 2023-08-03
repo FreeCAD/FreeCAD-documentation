@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_New
    Name/ru: Создать
-   MenuLocation: Файл -> Создать
+   MenuLocation: Файл , Создать
    Workbenches: All
    Shortcut: **Ctrl**+**N**
    SeeAlso: Std_Open/ru,<br>Std_Import/ru

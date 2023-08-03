@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveCone
    Name/de: PartDesign KegelAbziehen
-   MenuLocation: Part Design ->  Grundkörper abziehen -> Kegel
+   MenuLocation: Part Design ,  Grundkörper abziehen , Kegel
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/de, PartDesign_AdditiveCone/de

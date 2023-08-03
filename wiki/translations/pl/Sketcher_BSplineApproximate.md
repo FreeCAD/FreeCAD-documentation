@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineApproximate
    Name/pl: Szkicownik: Konwertuj geometrię na krzywą złożoną
-   MenuLocation: Szkic -> Narzędzia szkicownika krzywej złożonej -> Konwertuj geometrię na krzywą złożoną
+   MenuLocation: Szkic , Narzędzia szkicownika krzywej złożonej , Konwertuj geometrię na krzywą złożoną
    Workbenches: Sketcher_Workbench/pl
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/pl

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainTangent
    Workbenches: Sketcher Workbench
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain tangent
+   MenuLocation: Sketch , Sketcher constraints , Constrain tangent
    Shortcut: T
    SeeAlso: Sketcher ConstrainPointOnObject
 ---

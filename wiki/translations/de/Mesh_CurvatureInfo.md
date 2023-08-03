@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh CurvatureInfo
    Name/de: Netz KrümmungInfo
-   MenuLocation: Netze -> Analyse -> Krümmungsinfo
+   MenuLocation: Netze , Analyse , Krümmungsinfo
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_VertexCurvature/de
 ---

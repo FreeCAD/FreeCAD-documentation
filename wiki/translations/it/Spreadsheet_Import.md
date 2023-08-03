@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_Import
    Name/it: Importa un foglio di calcolo
-   MenuLocation: Spreadsheet -> Importa un foglio di calcolo
+   MenuLocation: Spreadsheet , Importa un foglio di calcolo
    Workbenches: Spreadsheet_Workbench/it
    Version: 0.17
    SeeAlso: Spreadsheet_Export/it

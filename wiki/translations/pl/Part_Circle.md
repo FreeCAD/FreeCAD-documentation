@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Circle
    Name/pl: Part Okrąg
-   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Okrąg
+   MenuLocation: Część , Utwórz geometrie pierwotne ... , Okrąg
    Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
    SeeAlso: Part_Primitives/pl
 ---

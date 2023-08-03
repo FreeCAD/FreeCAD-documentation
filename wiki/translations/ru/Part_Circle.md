@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Circle
    Name/ru: Окружность
-   MenuLocation: Деталь -> Part_Primitives/ru -> Окружность
+   MenuLocation: Деталь , Part_Primitives/ru , Окружность
    Workbenches: Part_Workbench/ru
    SeeAlso: 
 ---

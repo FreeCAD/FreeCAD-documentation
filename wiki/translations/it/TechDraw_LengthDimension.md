@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_Dimension_Length
    Name/it: Lunghezza
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw -> Lunghezza
+   MenuLocation: TechDraw , Lunghezza
    Shortcut: 
    SeeAlso: TechDraw_HorizontalDimension/it, TechDraw_VerticalDimension/it
 ---

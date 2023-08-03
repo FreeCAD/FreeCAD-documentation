@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Export
    Name/pl: Siatka: Eksportuj
-   MenuLocation: Siatki -> Eksportuj siatkę ...
+   MenuLocation: Siatki , Eksportuj siatkę ...
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Std_Export/pl, Import_Export/pl
 ---

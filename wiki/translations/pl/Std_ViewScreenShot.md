@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewScreenShot
    Name/pl: Std: Zapisz zrzut ekranu
-   MenuLocation: Przybory -> Zapisz obrazek ...
+   MenuLocation: Przybory , Zapisz obrazek ...
    Workbenches: wszystkie
    SeeAlso: Std_Print/pl, Std_PrintPdf/pl, Macro_Copy3DViewToClipboard/pl, Macro_Screen_Wiki/pl, Macro_Snip/pl
 ---

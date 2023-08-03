@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_Scaled
    Name/fr: PartDesign Mise à l'échelle
    MenuLocation: Aucune 

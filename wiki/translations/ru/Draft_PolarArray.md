@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Массив вращения
    Name: Draft_PolarArray
-   MenuLocation: Modification -> Array tools -> Массив вращения
+   MenuLocation: Modification , Array tools , Массив вращения
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Version: 0.19
    SeeAlso: Draft_OrthoArray/ru, Draft_CircularArray/ru, Draft_PathArray/ru, Draft_PathLinkArray/ru, Draft_PointArray/ru, Draft_PointLinkArray/ru

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Lock
    Name/it: Attiva/Disattiva
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Draft Snap/it -> Attiva/Disattiva
+   MenuLocation: Draft , Draft Snap/it , Attiva/Disattiva
    SeeAlso: Draft Snap/it, Draft ToggleGrid/it
 ---
 

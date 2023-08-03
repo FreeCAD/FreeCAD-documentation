@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Cut
    Name/pl: Std: Wytnij
-   MenuLocation: Edycja -> Wytnij
+   MenuLocation: Edycja , Wytnij
    Workbenches: All
    SeeAlso: Std_Copy/pl, Std_Paste/pl, Std_DuplicateSelection/pl
 ---

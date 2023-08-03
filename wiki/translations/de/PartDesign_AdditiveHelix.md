@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveHelix
    Name/de: PartDesign WendelHinzufügen
-   MenuLocation: Part Design -> Objekte hinzufügen -> Wendel
+   MenuLocation: Part Design , Objekte hinzufügen , Wendel
    Workbenches: PartDesign_Workbench/de
    Version: 0.19
    SeeAlso: PartDesign_SubtractiveHelix/de

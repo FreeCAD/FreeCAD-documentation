@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeSyncView
-   MenuLocation: View -> TreeView actions -> Sync view
+   MenuLocation: View , TreeView actions , Sync view
    Workbenches: All
    Shortcut: **T** **1**
    Version: 0.19

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: Sketcher Creaţi un arc de hiperbolă 
    Icon: Sketcher Hyperbolic Arc.png
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Geometria schitei -> Creaţi un arc de hiperbolă
+   MenuLocation: Sketch , Geometria schitei , Creaţi un arc de hiperbolă
    Version: 0.17
    SeeAlso: Sketcher CreateArcOfEllipse/ro, Sketcher_CreateArcOfParabola/ro
 ---

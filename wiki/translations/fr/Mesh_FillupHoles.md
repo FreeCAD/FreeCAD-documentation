@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FillupHoles
    Name/fr: Mesh Remplir les trous
-   MenuLocation: Maillages -> Remplir les trous...
+   MenuLocation: Maillages , Remplir les trous...
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_FillInteractiveHole/fr, Mesh_AddFacet/fr
 ---

@@ -1,6 +1,6 @@
 # Raytracing InsertPart/ro
 ---
-- GuiCommand:   Name: Raytracing InsertPart   MenuLocation: Raytracing -> InsertPart‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing InsertPart   MenuLocation: Raytracing , InsertPart‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

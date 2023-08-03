@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainRadius
    Name/de: Sketcher RadiusFestlegen
-   MenuLocation: Sketch -> Skizzen-Beschränkungen -> Radius oder Gewicht festlegen
+   MenuLocation: Sketch , Skizzen-Beschränkungen , Radius oder Gewicht festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **R**
    SeeAlso: Sketcher_ConstrainDistance/de, Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de

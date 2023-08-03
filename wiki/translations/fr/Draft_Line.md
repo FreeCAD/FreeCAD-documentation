@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/fr: Draft Ligne
-   MenuLocation: Draft -> Ligne
+   MenuLocation: Draft , Ligne
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **L** **I**
    Version: 0.7

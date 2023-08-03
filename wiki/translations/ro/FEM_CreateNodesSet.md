@@ -1,6 +1,6 @@
 # FEM CreateNodesSet/ro
 ---
-- GuiCommand:   Name: FEM CreateNodesSet    MenuLocation: Mesh -> Nodes set   ---
+ GuiCommand:   Name: FEM CreateNodesSet    MenuLocation: Mesh , Nodes set   ---
 
 
 </div>

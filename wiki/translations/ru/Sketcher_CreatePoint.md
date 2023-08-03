@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreatePoint
    Name/ru: Точка
-   MenuLocation: Эскиз -> Геометрия эскиза -> Точка
+   MenuLocation: Эскиз , Геометрия эскиза , Точка
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **Y**
 ---

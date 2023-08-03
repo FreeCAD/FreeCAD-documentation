@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AxisCross
    Name/ru: Std AxisCross
    Empty: 1
-   MenuLocation: Вид -> Показать/скрыть оси координат
+   MenuLocation: Вид , Показать/скрыть оси координат
    Workbenches: All
    Shortcut: **A** **C**
 ---

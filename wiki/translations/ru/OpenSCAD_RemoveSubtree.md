@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD RemoveSubtree‏‎ 
    Name/ru: OpenSCAD RemoveSubtree‏‎ 
-   MenuLocation: OpenSCAD -> Удалить объекты вместе с их потомками
+   MenuLocation: OpenSCAD , Удалить объекты вместе с их потомками
    Workbenches: OpenSCAD_Workbench/ru
    Shortcut: нет
    SeeAlso: ---

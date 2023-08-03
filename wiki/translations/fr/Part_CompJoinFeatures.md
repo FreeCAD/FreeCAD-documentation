@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompJoinFeatures
    Name/fr: Part Jointure
-   MenuLocation: Part -> Joindre
+   MenuLocation: Part , Joindre
    Workbenches: Part_Workbench/fr
    Version: 0.16
    SeeAlso: Part_JoinConnect/fr, Part_JoinEmbed/fr, Part_JoinCutout/fr, Part Boolean/fr, Part Thickness/fr

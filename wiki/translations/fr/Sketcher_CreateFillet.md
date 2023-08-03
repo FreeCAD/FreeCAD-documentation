@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateFillet
    Name/fr: Sketcher Congé
-   MenuLocation: Esquisse -> Géométries d'esquisse -> Congé d'esquisse
+   MenuLocation: Esquisse , Géométries d'esquisse , Congé d'esquisse
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **F** **F**
    SeeAlso: Sketcher_CreatePointFillet/fr

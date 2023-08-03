@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintBearing
    Name/fr: FEM Contrainte de roulement
-   MenuLocation: Modèle -> Contraintes sans solveur -> Contrainte de roulement
+   MenuLocation: Modèle , Contraintes sans solveur , Contrainte de roulement
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintGear/fr, FEM_ConstraintPulley/fr
 ---

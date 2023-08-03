@@ -1,6 +1,6 @@
 # Draft Point/cs
 ---
-- GuiCommand:   Name: Draft Point   Name/cs: Kreslení Bod   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Kreslení -> Bod   Shortcut: P T---
+ GuiCommand:   Name: Draft Point   Name/cs: Kreslení Bod   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Kreslení -> Bod   Shortcut: P T---
 
 
 </div>

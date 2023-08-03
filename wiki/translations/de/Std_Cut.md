@@ -1,9 +1,9 @@
 # Std Cut/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Cut
    Name/de: Std Ausschneiden
-   MenuLocation: Std_Edit_Menu/de -> Ausschneiden
+   MenuLocation: Std_Edit_Menu/de , Ausschneiden
    Shortcut: **Strg**+**X**
    Workbenches: Alle
    SeeAlso: Std Copy/de, Std Paste/de, Std Delete/de---

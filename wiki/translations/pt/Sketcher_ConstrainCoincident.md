@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: Constraint PointOnPoint.svg
    Name/pt: Sketcher ConstrainCoincident
    Workbenches: Sketcher Workbench/pt
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain coincident
+   MenuLocation: Sketch , Sketcher constraints , Constrain coincident
    SeeAlso: Sketcher_ConstrainLock/pt, Sketcher ConstrainPointOnObject/pt
 ---
 

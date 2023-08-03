@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Intersection
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Draft_Snap, Draft_Snap_Lock

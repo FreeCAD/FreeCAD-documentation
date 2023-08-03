@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Правильное геометрическое тело
    Name: Mesh_BuildRegularSolid
-   MenuLocation: Полигональные Сетки -> Правильное геометрическое тело...
+   MenuLocation: Полигональные Сетки , Правильное геометрическое тело...
    Workbenches: Mesh_Workbench/ru
 ---
 

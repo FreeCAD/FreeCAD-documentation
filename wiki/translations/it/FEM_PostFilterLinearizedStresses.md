@@ -1,6 +1,6 @@
 # FEM PostFilterLinearizedStresses/it
 ---
-- GuiCommand:   Name: FEM PostCreateLinearizedStressesFilter   Name/it: FEM PostCreateLinearizedStressesFilter   Icon: Fem-linearizedstresses.svg   MenuLocation:  Risultati -> Linearized stresses filter    ---
+ GuiCommand:   Name: FEM PostCreateLinearizedStressesFilter   Name/it: FEM PostCreateLinearizedStressesFilter   Icon: Fem-linearizedstresses.svg   MenuLocation:  Risultati , Linearized stresses filter    ---
 
 
 </div>

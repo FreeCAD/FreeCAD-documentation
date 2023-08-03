@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std RandomColor
    Name/ru: Std RandomColor 
-   MenuLocation: Вид -> Случайный цвет
+   MenuLocation: Вид , Случайный цвет
    Workbenches: Все
 ---
 

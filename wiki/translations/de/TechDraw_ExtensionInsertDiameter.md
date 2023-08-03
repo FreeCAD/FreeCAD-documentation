@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionInsertDiameter
    Name/de: TechDraw ErgänzungDurchmesserEinfügen
-   MenuLocation: TechDraw -> Ergänzung: Maße -> '⌀'-Symbol einfügen
+   MenuLocation: TechDraw , Ergänzung: Maße , '⌀'-Symbol einfügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

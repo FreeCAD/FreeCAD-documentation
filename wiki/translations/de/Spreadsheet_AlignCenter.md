@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignCenter
    Name/de: Kalkulationstabelle MittigAusrichten
-   MenuLocation: Kalkulationstabelle -> Ausrichtung -> Mittig Ausrichten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Mittig Ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

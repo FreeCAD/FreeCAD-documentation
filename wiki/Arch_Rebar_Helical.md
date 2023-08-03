@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Helical
-   MenuLocation: Arch -> Rebar tools -> Helical Rebar<br>3D/BIM -> Reinforcement tools -> Helical Rebar
+   MenuLocation: Arch , Rebar tools , Helical Rebar<br>3D/BIM , Reinforcement tools , Helical Rebar
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.17
    SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_Stirrup, Arch_Rebar_ColumnReinforcement

@@ -1,6 +1,6 @@
 # Part Cylinder/ro
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cylinder
    Name/ro: Part Cylinder
    MenuLocation: Part -> Cylinder

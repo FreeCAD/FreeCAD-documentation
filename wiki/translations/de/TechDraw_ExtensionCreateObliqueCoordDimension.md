@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateObliqueCoordDimension
    Name/de: TechDraw ErgänzungSchrägeKoordinatenmaße
-   MenuLocation: TechDraw -> Ergänzungen: Maße -> Schräge Koordinatenmaße erstellen
+   MenuLocation: TechDraw , Ergänzungen: Maße , Schräge Koordinatenmaße erstellen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

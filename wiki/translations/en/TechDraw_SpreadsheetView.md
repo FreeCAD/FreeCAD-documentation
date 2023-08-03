@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw SpreadsheetView
-   MenuLocation: TechDraw -> Views From Other Workbenches -> Insert Spreadsheet View
+   MenuLocation: TechDraw , Views From Other Workbenches , Insert Spreadsheet View
    Workbenches: TechDraw_Workbench, Spreadsheet_Workbench
 ---
 

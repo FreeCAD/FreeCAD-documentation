@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивная сфера
    Name: PartDesign_AdditiveSphere
-   MenuLocation: Part Design -> Создать аддитивный примитив -> Аддитивная Сфера
+   MenuLocation: Part Design , Создать аддитивный примитив , Аддитивная Сфера
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/ru, PartDesign_SubtractiveSphere/ru

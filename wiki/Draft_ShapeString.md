@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShapeString
-   MenuLocation: Drafting -> Shape from text
+   MenuLocation: Drafting , Shape from text
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: 
    Version: 0.14

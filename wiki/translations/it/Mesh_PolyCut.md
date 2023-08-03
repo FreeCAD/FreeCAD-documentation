@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_PolyCut
    Name/it: Taglia la mesh
-   MenuLocation: Mesh -> Taglio -> Taglia la mesh
+   MenuLocation: Mesh , Taglio , Taglia la mesh
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_PolyTrim/it, Mesh_TrimByPlane/it
 ---

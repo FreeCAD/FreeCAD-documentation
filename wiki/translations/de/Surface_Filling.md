@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Surface Filling
    Name/de: Surface Füllfläche
-   MenuLocation: Surface -> Filling
+   MenuLocation: Surface , Filling
    Workbenches: Surface_Workbench/de
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 2PointCosmeticLine
    Name/pl: Dodaj linię kosmetyczną wytyczoną przez dwa punkty
-   MenuLocation: Rysunek Techniczny -> Dodaj Linię -> Dodaj linię środkową pomiędzy dwoma punktami
+   MenuLocation: Rysunek Techniczny , Dodaj Linię , Dodaj linię środkową pomiędzy dwoma punktami
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/pl, TechDraw_2LineCenterLine/pl

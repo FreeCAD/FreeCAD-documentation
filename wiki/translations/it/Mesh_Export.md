@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Export
    Name/it: Esporta mesh
-   MenuLocation: Mesh -> Esporta mesh...
+   MenuLocation: Mesh , Esporta mesh...
    Workbenches: Mesh_Workbench/it
    SeeAlso: Std_Export/it, Import_Export/it
 ---

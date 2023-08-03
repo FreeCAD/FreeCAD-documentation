@@ -1,6 +1,6 @@
 # FEM PostApplyChanges/it
 ---
-- GuiCommand:   Name: FEM_PostApplyChanges   Name/it: FEM PostApplyChanges   MenuLocation:  Risultati -> Apply changes to pipeline   ---
+ GuiCommand:   Name: FEM_PostApplyChanges   Name/it: FEM PostApplyChanges   MenuLocation:  Risultati , Apply changes to pipeline   ---
 
 
 </div>

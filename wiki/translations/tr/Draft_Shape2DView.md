@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Shape2DView
    Name/tr: 2D görünüme çevir
-   MenuLocation: Draft -> Shape 2D View
+   MenuLocation: Draft , Shape 2D View
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 

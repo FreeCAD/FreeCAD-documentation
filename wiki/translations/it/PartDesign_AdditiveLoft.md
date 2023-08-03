@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveLoft
    Name/it: Loft additivo
    Workbenches: PartDesign Workbench/it
-   MenuLocation: Part Design -> Loft additivo
+   MenuLocation: Part Design , Loft additivo
    Version: 0.17
    SeeAlso: PartDesign AdditivePipe/it
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Landscape A3
    Name/fr: Drawing Feuille A3 Paysage
    Workbenches: Drawing Workbench/fr
-   MenuLocation: Drawing -> Insérer une nouvelle mise en plan -> Feuille A3 paysage
+   MenuLocation: Drawing , Insérer une nouvelle mise en plan , Feuille A3 paysage
    Shortcut: 
 ---
 

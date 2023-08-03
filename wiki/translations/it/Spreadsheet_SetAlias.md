@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_SetAlias
    Name/it: Alias
    Workbenches: Spreadsheet_Workbench/it

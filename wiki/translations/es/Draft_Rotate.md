@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/es: Draft Rotate
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
-   MenuLocation: Croquis -> Girar
+   MenuLocation: Croquis , Girar
    Shortcut: **R** **O**
 ---
 

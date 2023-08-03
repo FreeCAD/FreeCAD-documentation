@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ReorientSketch
    Name/it: Riposiziona lo schizzo
    Empty: 1
    Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Part design -> Riposiziona sketch
+   MenuLocation: Part design , Riposiziona sketch
    SeeAlso: Sketcher_MapSketch/it, Sketcher_NewSketch/it
 ---
 

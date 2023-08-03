@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/de: Draft Kreis
-   MenuLocation: Entwurf -> Kreis
+   MenuLocation: Entwurf , Kreis
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **C** **I**
    Version: 0.7

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Decimating
    Name/it: Decima
-   MenuLocation: Mesh -> Decima...
+   MenuLocation: Mesh , Decima...
    Workbenches: Mesh_Workbench/it
    Version: 0.19
 ---

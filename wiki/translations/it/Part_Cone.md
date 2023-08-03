@@ -1,6 +1,6 @@
 # Part Cone/it
 ---
-- GuiCommand:   Name: Part Cone   Name/it: Cono   MenuLocation: Parte -> Primitive -> Cono   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part Cone   Name/it: Cono   MenuLocation: Parte , Primitive , Cono   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectricforce
-   MenuLocation: Solve -> Electromagnetic Equations -> Electricforce equation
+   MenuLocation: Solve , Electromagnetic Equations , Electricforce equation
    Workbenches: FEM_Workbench
    Version: 0.19
    SeeAlso: FEM_EquationElectrostatic

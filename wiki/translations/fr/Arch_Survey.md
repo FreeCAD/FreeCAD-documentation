@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Survey
    Name/fr: Arch Prendre des cotes
-   MenuLocation: Arch -> Prendre des cotes
+   MenuLocation: Arch , Prendre des cotes
    Workbenches: Arch_Workbench/fr
    SeeAlso: Macro_FCInfo/fr, Macro_SimpleProperties/fr
 ---

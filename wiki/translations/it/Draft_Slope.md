@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Slope
    Name/it: Draft Slope
-   MenuLocation: Draft -> Utilità -> Imposta la pendenza
+   MenuLocation: Draft , Utilità , Imposta la pendenza
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.17
    SeeAlso: Draft Line/it, Draft Wire/it

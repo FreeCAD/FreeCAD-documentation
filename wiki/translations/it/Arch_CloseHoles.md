@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloseHoles
    Name/it: Chiudi fori
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Utilità -> Chiudi fori   SeeAlso: Arch Check/it
+   MenuLocation: Arch , Utilità , Chiudi fori   SeeAlso: Arch Check/it
 ---
 
 # Arch CloseHoles/it

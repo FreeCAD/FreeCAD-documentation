@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part PointsFromMesh‎
    Name/it: Crea punti da mesh
-   MenuLocation: Part -> Crea punti da mesh
+   MenuLocation: Part , Crea punti da mesh
    Workbenches: Part Workbench/it
    Version: 0.19
    SeeAlso: Part ShapeFromMesh/it, Part_MakeSolid/it, Part RefineShape/it

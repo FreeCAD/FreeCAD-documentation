@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DemoMode
    Name/fr: Std Vue en rotation
-   MenuLocation: Outils -> Vue en rotation...
+   MenuLocation: Outils , Vue en rotation...
    Workbenches: Tous
 ---
 

@@ -1,6 +1,6 @@
 # Part Cut/it
 ---
-- GuiCommand:   Name: Part_Cut   Name/it: Sottrai   MenuLocation: Part -> Booleana -> Sottrai   Workbenches: Part_Workbench/it   Parte, Part Common/it, Part Boolean/it---
+ GuiCommand:   Name: Part_Cut   Name/it: Sottrai   MenuLocation: Part , Booleana , Sottrai   Workbenches: Part_Workbench/it   Parte, Part Common/it, Part Boolean/it---
 
 
 </div>

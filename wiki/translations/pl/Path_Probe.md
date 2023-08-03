@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Probe
-   MenuLocation: Path -> Supplemental Commands -> Probe
+   MenuLocation: Path , Supplemental Commands , Probe
    Workbenches: Path_Workbench
 ---
 

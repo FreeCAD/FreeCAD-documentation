@@ -1,6 +1,6 @@
 # PartDesign MultiTransform/ro
 ---
-- GuiCommand:   Name: PartDesign MultiTransform   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign -> MultiTransform---
+ GuiCommand:   Name: PartDesign MultiTransform   Workbenches: PartDesign Workbench   PartDesign, Complete|MenuLocation: PartDesign -> MultiTransform---
 
 
 </div>

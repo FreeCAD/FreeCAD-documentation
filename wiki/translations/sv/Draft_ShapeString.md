@@ -1,6 +1,6 @@
 # Draft ShapeString/sv
 ---
-- GuiCommand:   Name: Draft ShapeString   Name/sv: Draft ShapeString   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv, Part Extrude/sv---
+ GuiCommand:   Name: Draft ShapeString   Name/sv: Draft ShapeString   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv, Part Extrude/sv---
 
 
 </div>

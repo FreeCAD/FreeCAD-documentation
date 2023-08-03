@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainAngle
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain angle
+   MenuLocation: Sketch , Sketcher constraints , Constrain angle
    Workbenches: Sketcher_Workbench
    Shortcut: **K** **A**
    SeeAlso: Sketcher_ConstrainDistance, Sketcher_ConstrainPerpendicular

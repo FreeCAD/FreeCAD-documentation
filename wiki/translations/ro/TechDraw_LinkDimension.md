@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ro: TechDraw Dimension Link
-   MenuLocation: TechDraw -> Dimension Link
+   MenuLocation: TechDraw , Dimension Link
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_View, TechDraw_ProjectionGroup
 ---

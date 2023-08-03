@@ -1,6 +1,6 @@
 # PartDesign Revolution/it
 ---
-- GuiCommand:   Name: PartDesign Revolution   Name/it: Rivoluzione   MenuLocation: PartDesign -> Rivoluzione   Workbenches: PartDesign Workbench/it---
+ GuiCommand:   Name: PartDesign Revolution   Name/it: Rivoluzione   MenuLocation: PartDesign , Rivoluzione   Workbenches: PartDesign Workbench/it---
 
 
 </div>

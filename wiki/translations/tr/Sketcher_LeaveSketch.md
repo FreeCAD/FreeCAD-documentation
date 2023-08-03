@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher LeaveSketch
    Name/tr: Eskizi Kapat
    Workbenches: Sketcher Workbench/tr, PartDesign Workbench/tr
-   MenuLocation: Eskiz -> Eskizi kapat
+   MenuLocation: Eskiz , Eskizi kapat
 ---
 
 # Sketcher LeaveSketch/tr

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Radius
    Name/it: Raggio
    Workbenches: TechDraw_Workbench/it
-   MenuLocation: TechDraw -> Raggio
+   MenuLocation: TechDraw , Raggio
    Shortcut: 
    SeeAlso: TechDraw_DiameterDimension/it
 ---

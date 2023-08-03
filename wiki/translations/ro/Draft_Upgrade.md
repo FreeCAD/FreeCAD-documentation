@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/ro: Draft Upgrade
    Workbenches: Draft_Workbench, Arch_Workbench

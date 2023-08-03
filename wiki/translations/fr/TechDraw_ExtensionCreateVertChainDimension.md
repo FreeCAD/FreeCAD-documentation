@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertChainDimension
    Name/fr: TechDraw Cotes verticales
-   MenuLocation: TechDraw -> Extensions : cotes -> Cotes verticales
+   MenuLocation: TechDraw , Extensions : cotes , Cotes verticales
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

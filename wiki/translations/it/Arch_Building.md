@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Building
    Name/it: Edificio
-   MenuLocation: Arch -> Edificio
+   MenuLocation: Arch , Edificio
    Workbenches: Arch_Workbench/it
    Shortcut: **B** **U**
    SeeAlso: Arch_BuildingPart/it, Arch_Site/it

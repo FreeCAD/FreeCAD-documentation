@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupLeadInOut
    Name/fr: Path Entrée/sortie
-   MenuLocation: Path -> Finition du parcours -> Entrée/sortie
+   MenuLocation: Path , Finition du parcours , Entrée/sortie
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupDogbone/fr, Path_DressupTag/fr, Path_DressupRampEntry/fr, Path_DressupDragKnife/fr
 ---

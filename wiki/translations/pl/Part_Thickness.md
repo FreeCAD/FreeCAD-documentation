@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Thickness
    Name/pl: Część: Grubość
-   MenuLocation: Część -> Grubość
+   MenuLocation: Część , Grubość
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Offset/pl
 ---

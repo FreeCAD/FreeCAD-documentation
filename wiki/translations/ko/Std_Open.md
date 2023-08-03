@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Open
    Name/ko: 표준 열기
-   MenuLocation: 파일 -> 열기...
+   MenuLocation: 파일 , 열기...
    Workbenches: 모두
    Shortcut: **Ctrl**+**O**
    SeeAlso: Std_Import/ko, Std_New/ko

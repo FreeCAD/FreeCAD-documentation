@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Plane
    Name/ru: Плоскость
-   MenuLocation: Part_Workbench/ru -> Part_Primitives/ru -> Плоскость
+   MenuLocation: Part_Workbench/ru , Part_Primitives/ru , Плоскость
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

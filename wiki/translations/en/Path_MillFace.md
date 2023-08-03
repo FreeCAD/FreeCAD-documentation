@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path MillFace
-   MenuLocation: Path -> Face
+   MenuLocation: Path , Face
    Workbenches: Path_Workbench
 ---
 

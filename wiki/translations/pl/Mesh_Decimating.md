@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Decimating
    Name/pl: Siatka: Decymacja
-   MenuLocation: Siatki -> Decymacja ...
+   MenuLocation: Siatki , Decymacja ...
    Workbenches: Mesh_Workbench/pl
    Version: 0.19
 ---

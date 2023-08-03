@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistanceY
    Name/es: Sketcher ConstrainDistanceY
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador-> Distancia Vertical
+   MenuLocation: Croquizador , Restricciones del Croquizador, Distancia Vertical
    Shortcut: May+V
    SeeAlso: Sketcher_ConstrainDistanceX/es, Sketcher_ConstrainDistance/es
 ---

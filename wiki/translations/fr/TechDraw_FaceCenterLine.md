@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw FaceCenterLine
    Name/fr: TechDraw Ligne centrale à une face
-   MenuLocation: TechDraw -> Ajouter des lignes -> Ajouter une ligne centrale à des faces
+   MenuLocation: TechDraw , Ajouter des lignes , Ajouter une ligne centrale à des faces
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/fr, TechDraw_2LineCenterLine/fr, TechDraw_2PointCenterLine/fr, TechDraw_CosmeticEraser/fr

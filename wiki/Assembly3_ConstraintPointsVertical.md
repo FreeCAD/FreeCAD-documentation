@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsVertical
    Icon: Assembly_ConstraintPointsVertical.svg
    Workbenches: Assembly3_Workbench

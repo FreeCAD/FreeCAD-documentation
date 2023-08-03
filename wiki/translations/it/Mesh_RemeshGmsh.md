@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_RemeshGmsh
    Name/it: Affinamento
-   MenuLocation: Mesh -> Affinamento...
+   MenuLocation: Mesh , Affinamento...
    Workbenches: Mesh_Workbench/it
    Version: 0.19
    SeeAlso: Mesh_FromPartShape/it

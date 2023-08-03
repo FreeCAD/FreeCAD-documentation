@@ -1,6 +1,6 @@
 # Std Alignment/ro
 ---
-- GuiCommand:   Name: Std Alignment   MenuLocation: Std_Edit_Menu   Edit -> Alignment...---
+ GuiCommand:   Name: Std Alignment   MenuLocation: Std_Edit_Menu   Edit , Alignment...---
 
 
 </div>

@@ -1,6 +1,6 @@
 # Part Common/es
 ---
-- GuiCommand:   Name: Part_Common   Name/es: Part_Common   MenuLocation: Part -> Common   Workbenches: Part_Workbench/es   Pieza, Part Cut/es---
+ GuiCommand:   Name: Part_Common   Name/es: Part_Common   MenuLocation: Part , Common   Workbenches: Part_Workbench/es   Pieza, Part Cut/es---
 
 
 </div>

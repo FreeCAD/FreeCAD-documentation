@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Усечь
    Name: Sketcher_Trimming
-   MenuLocation: Sketch -> Геометрия эскиза -> Обрезать линию
+   MenuLocation: Sketch , Геометрия эскиза , Обрезать линию
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **T**
    Version: 0.12

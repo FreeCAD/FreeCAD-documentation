@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch PipeConnector
    Name/it: Raccordo
-   MenuLocation: Arch -> Tubazioni -> Raccordo
+   MenuLocation: Arch , Tubazioni , Raccordo
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **C**
    Version: 0.17

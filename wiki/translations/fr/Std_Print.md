@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Print
    Name/fr: Std Imprimer
-   MenuLocation: Fichier -> Imprimer...
+   MenuLocation: Fichier , Imprimer...
    Workbenches: Tous
    Shortcut: **Ctrl**+**P**
    SeeAlso: Std_PrintPreview/fr, Std_PrintPdf/fr, Std_Export/fr, Std_ViewScreenShot/fr

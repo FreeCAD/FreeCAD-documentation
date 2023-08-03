@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SectionCut
    Name/de: Part Schnittansicht
-   MenuLocation: Ansicht -> Dauerhafte Schnittdarstellung
+   MenuLocation: Ansicht , Dauerhafte Schnittdarstellung
    Workbenches: Alle
    Version: 0.20
    SeeAlso: Std ToggleClipPlane/de

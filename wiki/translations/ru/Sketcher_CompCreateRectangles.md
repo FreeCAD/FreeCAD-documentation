@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать прямоугольник
    Name: Sketcher_CompCreateRectangles
    Icon: Sketcher_CompCreateRectangles.png

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD MirrorMeshFeature
-   MenuLocation: OpenSCAD -> Mirror Mesh Feature
+   MenuLocation: OpenSCAD , Mirror Mesh Feature
    Workbenches: OpenSCAD_Workbench
    SeeAlso: Part_Mirror
 ---

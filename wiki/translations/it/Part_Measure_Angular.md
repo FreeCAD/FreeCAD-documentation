@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Angular
    Name/it: Misura angolare
-   MenuLocation: {{StdMenu}} -> Misura angolare‏‎
+   MenuLocation: {{StdMenu}} , Misura angolare‏‎
    Workbenches: Part_Workbench/it
 ---
 

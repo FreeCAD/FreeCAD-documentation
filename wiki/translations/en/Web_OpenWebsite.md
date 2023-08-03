@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web OpenWebsite
    MenuLocation: 
    Workbenches: Web_Workbench, Start_Workbench

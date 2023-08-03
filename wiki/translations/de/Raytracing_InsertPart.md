@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing InsertPart
    Name/de: Raytracing InsertPart
-   MenuLocation: Raytracing -> Teil einfügen
+   MenuLocation: Raytracing , Teil einfügen
 ‏‎|
    Workbenches: Raytracing_Workbench/de
    Shortcut: 

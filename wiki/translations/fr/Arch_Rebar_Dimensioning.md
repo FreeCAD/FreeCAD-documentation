@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Dimensioning
    Name/fr: Arch Dimensions des armatures
-   MenuLocation: Arch -> Rebar -> Rebar Dimensioning
+   MenuLocation: Arch , Rebar , Rebar Dimensioning
    Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    SeeAlso: Arch_Rebar_Drawing/fr, Reinforcement_Addon/fr
    Version: 0.19

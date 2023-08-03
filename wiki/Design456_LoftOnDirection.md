@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Design456 LoftOnDirection
-   MenuLocation: Design456_Tools -> 3DTools -> LoftOnDirection
+   MenuLocation: Design456_Tools , 3DTools , LoftOnDirection
    Workbenches: Design456 Workbench
    Shortcut: None
    SeeAlso: 

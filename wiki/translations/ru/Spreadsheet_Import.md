@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Импорт электронной таблицы
    Name: Spreadsheet_Import
-   MenuLocation: Электронная таблица -> Импорт электронной таблицы
+   MenuLocation: Электронная таблица , Импорт электронной таблицы
    Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
    SeeAlso: Spreadsheet_Export/ru

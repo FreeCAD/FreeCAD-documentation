@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Common
    Name/de: Part Schnitt
-   MenuLocation: Formteil -> Boolesche Operation -> Schnitt
+   MenuLocation: Formteil , Boolesche Operation , Schnitt
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Boolean/de, Part_Cut/de, Part_Fuse/de
 ---

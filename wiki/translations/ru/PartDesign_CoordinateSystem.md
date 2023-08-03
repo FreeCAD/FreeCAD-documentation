@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать локальную систему координат
    Name: PartDesign_CoordinateSystem
-   MenuLocation: PartDesign -> Создать локальную систему координат
+   MenuLocation: PartDesign , Создать локальную систему координат
    Workbenches: PartDesign_Workbench/ru
    Version: 0.18
    SeeAlso: PartDesign_Point/ru, PartDesign_Line/ru, PartDesign_Plane/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveLoft
    Name/fr: PartDesign Lissage soustractif
-   MenuLocation: Part Design -> Créer une fonction soustractive -> Enlèvement de matière par lissage
+   MenuLocation: Part Design , Créer une fonction soustractive , Enlèvement de matière par lissage
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/fr, PartDesign_SubtractivePipe/fr

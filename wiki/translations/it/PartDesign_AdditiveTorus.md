@@ -1,6 +1,6 @@
 # PartDesign AdditiveTorus/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveTorus   Name/it: Toro additivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveTorus   Name/it: Toro additivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear_LanternGear
    Name/it: Ingranaggio a lanterna
-   MenuLocation: FCGear -> Create a Lantern gear
+   MenuLocation: FCGear , Create a Lantern gear
    Workbenches: FCGear Workbench/it
    Shortcut: None
    Version: v0.16

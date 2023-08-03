@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshBoundaryLayer
-   MenuLocation: Mesh -> FEM mesh boundary layer
+   MenuLocation: Mesh , FEM mesh boundary layer
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

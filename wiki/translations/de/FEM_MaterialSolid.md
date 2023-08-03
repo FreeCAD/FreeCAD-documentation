@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialSolid
    Name/de: FEM MaterialFeststoff
-   MenuLocation: Modell -> Materiallien -> Material für Feststoffe
+   MenuLocation: Modell , Materiallien , Material für Feststoffe
    Workbenches: FEM_Workbench/de
    Shortcut: **M** **S**
    SeeAlso: FEM_tutorial/de

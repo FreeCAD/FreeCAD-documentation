@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Name/ru: Draft Snap Special
-   MenuLocation: Черчение -> Draft Snap/ru -> Special
+   MenuLocation: Черчение , Draft Snap/ru , Special
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

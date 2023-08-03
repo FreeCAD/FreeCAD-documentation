@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AddToGroup   Name/ro: Draft AddToGroup
-   MenuLocation: Draft -> Utilities -> Add to groupà
+   MenuLocation: Draft , Utilities , Add to groupà
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: 
    SeeAlso: Draft_SelectGroup/ro, Std_Group/ro

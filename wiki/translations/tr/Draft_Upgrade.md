@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/tr: Yükselt
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
-   MenuLocation: Draft -> Upgrade
+   MenuLocation: Draft , Upgrade
    Shortcut: **U** **P**
    SeeAlso: Draft Downgrade/tr
 ---

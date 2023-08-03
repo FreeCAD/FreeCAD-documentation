@@ -1,9 +1,9 @@
 # Mesh BoundingBox/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_BoundingBox‏‎
    Name/it: Info limiti d'ingombro‏‎
-   MenuLocation: Mesh -> Analizza -> Info limiti d'ingombro...
+   MenuLocation: Mesh , Analizza , Info limiti d'ingombro...
    Workbenches: Mesh Workbench/it---
 
 ## Descrizione

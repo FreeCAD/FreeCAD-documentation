@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign WizardShaft
    Name/es: DiseñoPiezas AsistenteEje
    Workbenches: PartDesign_Workbench/es

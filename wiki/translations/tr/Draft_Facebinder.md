@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Facebinder
    Name/tr: Yüz kaplama
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
-   MenuLocation: Taslak -> Yüz kaplama
+   MenuLocation: Taslak , Yüz kaplama
    Shortcut: **F** **F**
    SeeAlso: Part Box/tr, Arch Wall/tr
    Version: 0.14

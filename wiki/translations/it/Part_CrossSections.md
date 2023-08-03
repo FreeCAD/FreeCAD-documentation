@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SectionCross
    Name/it: Sezioni...
    Icon: Part_CrossSections.svg
-   MenuLocation: Parte -> Sezioni...
+   MenuLocation: Parte , Sezioni...
    Workbenches: Part_Workbench/it
    SeeAlso: Part_Section/it
 ---

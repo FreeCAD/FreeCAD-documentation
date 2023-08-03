@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 CreateAssembly
    Name/fr: Assembly3 Créer un assemblage
    Icon: Assembly_New_Assembly.svg
-   MenuLocation: Assembly3 -> Create assembly
+   MenuLocation: Assembly3 , Create assembly
    Workbenches: Assembly3_Workbench/fr
    Shortcut: **A** **N**
 ---

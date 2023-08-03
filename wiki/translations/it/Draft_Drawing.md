@@ -1,10 +1,10 @@
 # Draft Drawing/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/it: Disegno
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Disegno
+   MenuLocation: Draft , Disegno
    SeeAlso: TechDraw_DraftView/it, Draft Shape2DView/it---
 
 

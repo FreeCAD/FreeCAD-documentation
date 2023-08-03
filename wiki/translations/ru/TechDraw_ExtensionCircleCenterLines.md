@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить осевые линии к окружности
    Name: TechDraw_ExtensionCircleCenterLines
-   MenuLocation: TechDraw -> Extensions: centerlines and threading -> Draw circle centerlines
+   MenuLocation: TechDraw , Extensions: centerlines and threading , Draw circle centerlines
    Workbenches: TechDraw_Workbench/ru
    Shortcut: 
    Version: 0.20

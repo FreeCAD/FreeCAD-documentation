@@ -1,6 +1,6 @@
 # Sketcher MapSketch/cs
 ---
-- GuiCommand:   Name: Sketcher_MapSketch   Name/cs: Skicář Vyznač náčrt   Vytvoří náčrt na ploše, PartDesign Workbench/cs---
+ GuiCommand:   Name: Sketcher_MapSketch   Name/cs: Skicář Vyznač náčrt   Vytvoří náčrt na ploše, PartDesign Workbench/cs---
 
 
 </div>

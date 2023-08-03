@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points Structure
    Name/de: Points Strukturieren
-   MenuLocation: Punkte -> Strukturierte Punktwolke
+   MenuLocation: Punkte , Strukturierte Punktwolke
    Workbenches: Points_Workbench/de
 ---
 

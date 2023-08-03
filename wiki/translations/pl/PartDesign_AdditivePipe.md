@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditivePipe
    Name/pl: PartDesign AdditivePipe
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Uzupełnianie wyciągnięciem wzdłuż ścieżki
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Uzupełnianie wyciągnięciem wzdłuż ścieżki
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/pl, PartDesign_SubtractivePipe/pl

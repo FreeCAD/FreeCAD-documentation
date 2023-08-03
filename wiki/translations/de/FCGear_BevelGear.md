@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear BevelGear
    Name/de: FCGear Kegelrad
-   MenuLocation: Gear -> Bevel Gear
+   MenuLocation: Gear , Bevel Gear
    Workbenches: FCGear_Workbench/de
    Version: v0.16
 ---

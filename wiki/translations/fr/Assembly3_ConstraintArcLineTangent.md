@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintArcLineTangent
    Name/fr: Assembly3 Contrainte tangence arc ligne
    Icon: Assembly_ConstraintArcLineTangent.svg

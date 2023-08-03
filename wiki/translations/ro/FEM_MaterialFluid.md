@@ -1,6 +1,6 @@
 # FEM MaterialFluid/ro
 ---
-- GuiCommand:   Name: FEM MaterialFluid   MenuLocation:  Model -> Material for fluid   ---
+ GuiCommand:   Name: FEM MaterialFluid   MenuLocation:  Model , Material for fluid   ---
 
 
 </div>

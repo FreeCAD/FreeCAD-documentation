@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLineLength
    Icon: Assembly_ConstraintLineLength.svg
    Workbenches: Assembly3_Workbench

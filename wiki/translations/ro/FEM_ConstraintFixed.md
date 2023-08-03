@@ -1,6 +1,6 @@
 # FEM ConstraintFixed/ro
 ---
-- GuiCommand:   Name: FEM ConstraintFixed   Name/ro: FEM ConstraintFixed   MenuLocation: Model -> Mechanical Constraints -> Constraint fixed   ---
+ GuiCommand:   Name: FEM ConstraintFixed   Name/ro: FEM ConstraintFixed   MenuLocation: Model , Mechanical Constraints , Constraint fixed   ---
 
 
 </div>

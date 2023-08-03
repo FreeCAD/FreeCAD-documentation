@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Уместить всё
    Name: Std_ViewFitAll
-   MenuLocation: Вид -> Стандартные виды‏‎ -> Уместить всё
+   MenuLocation: Вид , Стандартные виды‏‎ , Уместить всё
    Workbenches: Все
    Shortcut: **V** **F**
    SeeAlso: Std_ViewFitSelection/ru

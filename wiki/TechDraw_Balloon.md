@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Balloon
-   MenuLocation: TechDraw -> Annotations -> Insert Balloon Annotation
+   MenuLocation: TechDraw , Annotations , Insert Balloon Annotation
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_Annotation

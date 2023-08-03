@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_PrintPreview
    Name/it: Anteprima di stampa
-   MenuLocation: File -> Anteprima di stampa...
+   MenuLocation: File , Anteprima di stampa...
    Workbenches: Tutti
    SeeAlso: Std_Print/it
 ---

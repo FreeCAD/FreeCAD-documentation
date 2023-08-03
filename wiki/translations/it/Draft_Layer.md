@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Layer
    Name/it: Strato
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Utilità -> Strato
+   MenuLocation: Draft , Utilità , Strato
    Version: 0.19
    See also: Draft_AutoGroup/it
 ---

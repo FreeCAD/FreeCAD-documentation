@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничение расстояния по горизонтали
    Name: Sketcher_ConstrainDistanceX
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение расстояния по горизонтали
+   MenuLocation: Sketch , Ограничения эскиза , Ограничение расстояния по горизонтали
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **Shift** + **H**
    SeeAlso: Sketcher_ConstrainDistance/ru, Sketcher_ConstrainDistanceY/ru

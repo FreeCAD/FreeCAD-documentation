@@ -1,6 +1,6 @@
 # Ship Hydrostatics/it
 ---
-- GuiCommand:   Name: Ship Hydrostatics   Name/it: Idrostatica   MenuLocation: Ship design -> Idrostatica   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Ship Hydrostatics   Name/it: Idrostatica   MenuLocation: Ship design , Idrostatica   |Shortcut:    SeeAlso: ---
 
 
 </div>

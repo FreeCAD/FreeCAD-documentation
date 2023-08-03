@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign NewSketch
-   MenuLocation: Sketch -> Create sketch
+   MenuLocation: Sketch , Create sketch
    Workbenches: PartDesign_Workbench
    Version: 0.17
    SeeAlso: Sketcher_NewSketch

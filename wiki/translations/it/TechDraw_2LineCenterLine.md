@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw 2LineCenterLine
    Name/it: Linea centrale a 2 linee
-   MenuLocation: TechDraw -> Aggiungi linee -> Linea centrale a 2 linee
+   MenuLocation: TechDraw , Aggiungi linee , Linea centrale a 2 linee
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_FaceCenterLine/it, TechDraw_2PointCenterLine/it
    Version: 0.19

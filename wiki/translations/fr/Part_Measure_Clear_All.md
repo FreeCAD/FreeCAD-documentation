@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Clear All
    Name/fr: Part Tout effacer
-   MenuLocation: Mesure -> Tout effacer
+   MenuLocation: Mesure , Tout effacer
    Workbenches: Part_Workbench/fr
 ---
 

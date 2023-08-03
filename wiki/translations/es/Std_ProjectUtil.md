@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ProjectUtil
    Name/es: Std ProjectoUtil
-   MenuLocation: Hierramientas -> Utilidad del proyecto...
+   MenuLocation: Hierramientas , Utilidad del proyecto...
    Workbenches: Todo
 ---
 

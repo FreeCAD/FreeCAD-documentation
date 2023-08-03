@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign InvoluteGear
    Name/es: DiseñoPiezas EngranajeEvolvente
-   MenuLocation: DiseñoPiezas -> Engranaje Evolvente...
+   MenuLocation: DiseñoPiezas , Engranaje Evolvente...
    Workbenches: PartDesign Workbench/es
    SeeAlso: FCGear_Workbench/es
 ---

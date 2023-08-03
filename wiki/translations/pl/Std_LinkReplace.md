@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkReplace
    Name/pl: Std: Zastąp przez łącze
    MenuLocation: brak

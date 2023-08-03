@@ -1,6 +1,6 @@
 # Std UnitsCalculator/it
 ---
-- GuiCommand:   Name: Std_UnitsCalculator   Name/it: Convertitore di unità   MenuLocation: Strumenti -> Convertitore di unità...   Workbenches: Tutti   SeeAlso: ---
+ GuiCommand:   Name: Std_UnitsCalculator   Name/it: Convertitore di unità   MenuLocation: Strumenti , Convertitore di unità...   Workbenches: Tutti   SeeAlso: ---
 
 ## Descrizione
 

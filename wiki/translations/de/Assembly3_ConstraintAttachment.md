@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAttachment
    Name/de: Assembly3 Befestigung
    Icon: Part_Attachment.svg

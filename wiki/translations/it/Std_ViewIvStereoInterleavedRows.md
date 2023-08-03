@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoInterleavedRows
    Name/it: Stereo a righe interlacciate
-   MenuLocation: Visualizza -> Stereo -> Stereo a righe interlacciate
+   MenuLocation: Visualizza , Stereo , Stereo a righe interlacciate
    Workbenches: Tutti
    SeeAlso: Std_ViewIvStereoRedGreen/it, Std_ViewIvStereoQuadBuff/it,  Std_ViewIvStereoInterleavedColumns/it, Std_ViewIvStereoOff/it
 ---

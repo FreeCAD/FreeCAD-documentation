@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Arc
    Name/ja: 中心点から円弧を作成
    Workbenches: Sketcher Workbench/ja
-   MenuLocation: Sketch -> スケッチャージオメトリ -> 中心点から円弧を作成
+   MenuLocation: Sketch , スケッチャージオメトリ , 中心点から円弧を作成
    SeeAlso: Sketcher CompCreateCircle/ja
 ---
 

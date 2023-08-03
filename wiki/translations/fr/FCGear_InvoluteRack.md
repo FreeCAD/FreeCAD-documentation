@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear InvoluteRack
    Name/fr: FCGear Engrenage à crémaillère
-   MenuLocation: Gear -> Involute Rack
+   MenuLocation: Gear , Involute Rack
    Workbenches: FCGear_Workbench/fr
    Shortcut: Aucun
    Version: v0.16

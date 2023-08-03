@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part FaceColors
    Name/fr: Part Définir les couleurs
-   MenuLocation: Menu contextuel -> Définir les couleurs...
+   MenuLocation: Menu contextuel , Définir les couleurs...
    Workbenches: Part_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Std_SetAppearance/fr
 ---

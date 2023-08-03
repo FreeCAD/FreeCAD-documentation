@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Grid
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Draft_Snap, Draft_Snap_Lock, Draft_ToggleGrid, Draft_SelectPlane

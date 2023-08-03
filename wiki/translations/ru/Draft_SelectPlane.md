@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SelectPlane
    Name/ru: Draft SelectPlane
-   MenuLocation: Draft -> Utilities -> Select Plane
+   MenuLocation: Draft , Utilities , Select Plane
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **W** **P**
    SeeAlso: Draft_SetWorkingPlaneProxy/ru, Draft_ToggleGrid/ru

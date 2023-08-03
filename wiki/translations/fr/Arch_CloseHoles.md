@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CloseHoles
    Name/fr: Arch Fermer les trous
-   MenuLocation: Arch -> Utilitaires -> Fermer les trous
+   MenuLocation: Arch , Utilitaires , Fermer les trous
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch_Check/fr
 ---

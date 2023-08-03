@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ExplodeCompound
    Name/fr: Part Éclater le composé
-   MenuLocation: Part -> Composés -> Éclater le composé
+   MenuLocation: Part , Composés , Éclater le composé
    Workbenches: Part_Workbench/fr
    Version: 0.18
    SeeAlso: Part_Compound/fr, Draft_Downgrade/fr

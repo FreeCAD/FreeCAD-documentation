@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher NewSketch
    Name/de: Sketcher NeueSkizze
-   MenuLocation:  Skizze -> Skizze erstellen
+   MenuLocation:  Skizze , Skizze erstellen
    Workbenches: Sketcher Workbench/de
    SeeAlso: PartDesign_NewSketch/de,Sketcher_MapSketch/de, Sketcher_ReorientSketch/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Roof
    Name/ru: Крыша
-   MenuLocation: Архитектура -> Крыша
+   MenuLocation: Архитектура , Крыша
    Workbenches: Arch_Workbench/ru
    Shortcut: **R** **F**
    SeeAlso: Arch_Structure/ru, Arch_Wall/ru

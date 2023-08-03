@@ -1,6 +1,6 @@
 # Part Fillet/it
 ---
-- GuiCommand:   Name: Part_Fillet   Name/it: Raccorda   MenuLocation: Parte -> Raccorda...   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part_Fillet   Name/it: Raccorda   MenuLocation: Parte , Raccorda...   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

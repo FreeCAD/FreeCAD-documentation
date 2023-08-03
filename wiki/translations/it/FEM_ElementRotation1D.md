@@ -1,6 +1,6 @@
 # FEM ElementRotation1D/it
 ---
-- GuiCommand:   Name: FEM_ElementRotation1D   Name/it: Rotazione di trave   Icon: Fem-beam-rotation.svg   MenuLocation:  Modello -> Rotazione di trave   ---
+ GuiCommand:   Name: FEM_ElementRotation1D   Name/it: Rotazione di trave   Icon: Fem-beam-rotation.svg   MenuLocation:  Modello , Rotazione di trave   ---
 
 ## Description
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExportPageDXF
    Name/pl: Rysunek Techniczny: Wyeksportuj stronę do formatu DXF
-   MenuLocation: Rysunek Techniczny -> Strona -> Wyeksportuj stronę do formatu DXF
+   MenuLocation: Rysunek Techniczny , Strona , Wyeksportuj stronę do formatu DXF
    Workbenches: TechDraw_Workbench/pl
    Version: 0.18
    SeeAlso: TechDraw_ExportPageSVG/pl, Draft_DXF/pl

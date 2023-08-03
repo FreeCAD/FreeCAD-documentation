@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathArray
    Name/ru: Draft PathArray
-   MenuLocation: Черчение -> Массив по направляющей
+   MenuLocation: Черчение , Массив по направляющей
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    SeeAlso: Draft Array/ru 
 ---

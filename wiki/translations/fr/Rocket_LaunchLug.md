@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket LaunchLug
    Name/fr: Rocket Rampe de lancement
-   MenuLocation: Rocket -> Launch Guides -> Launch Lug
+   MenuLocation: Rocket , Launch Guides , Launch Lug
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

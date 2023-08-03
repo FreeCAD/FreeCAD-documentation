@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SetStyle
    Name/de: Draft StilFestlegen
-   MenuLocation: Utilities -> Stil festlegen
+   MenuLocation: Utilities , Stil festlegen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_AnnotationStyleEditor/de, Draft_ApplyStyle/de

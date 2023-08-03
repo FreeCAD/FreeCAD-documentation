@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh HarmonizeNormals
    Name/de: Mesh Normalen ausrichten
-   MenuLocation: Netze -> Normalen ausrichten
+   MenuLocation: Netze , Normalen ausrichten
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_FlipNormals/de
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateConic
    Workbenches: Sketcher_Workbench
 ---

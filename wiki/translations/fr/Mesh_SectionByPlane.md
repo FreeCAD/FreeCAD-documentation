@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SectionByPlane
    Name/fr: Mesh Section
-   MenuLocation: Maillages -> Couper -> Créer une section à partir d'un maillage et d'un plan
+   MenuLocation: Maillages , Couper , Créer une section à partir d'un maillage et d'un plan
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_CrossSections/fr
 ---

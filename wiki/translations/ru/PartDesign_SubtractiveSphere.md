@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Субтрактивная сфера
    Name: PartDesign_SubtractiveSphere
-   MenuLocation: Part Design -> Создать субтрактивный примитив -> Субтрактивная сфера
+   MenuLocation: Part Design , Создать субтрактивный примитив , Субтрактивная сфера
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/ru, PartDesign_AdditiveSphere/ru

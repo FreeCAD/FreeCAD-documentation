@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPreview
-   MenuLocation: File -> Print preview...
+   MenuLocation: File , Print preview...
    Workbenches: All
    SeeAlso: Std_Print
 ---

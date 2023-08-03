@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Thickness
    Name/fr: Part Évidement
-   MenuLocation: Part -> Evidement...
+   MenuLocation: Part , Evidement...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Offset/fr
 ---

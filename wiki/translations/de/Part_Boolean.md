@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Boolean
    Name/de: Part BoolescheOperation
-   MenuLocation: Formteil -> Boolesche Operation -> Boolesche Operation...
+   MenuLocation: Formteil , Boolesche Operation , Boolesche Operation...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Cut/de, Part_Fuse/de, Part_Common/de, und Part_Section/de
 ---

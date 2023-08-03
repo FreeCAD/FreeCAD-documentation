@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves CompressionSpring
    Name/de: Curves Druckfeder
-   MenuLocation: Surfaces -> Compression Spring
+   MenuLocation: Surfaces , Compression Spring
    Workbenches: Curves_Workbench/de
 ---
 

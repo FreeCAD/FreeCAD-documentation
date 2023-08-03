@@ -1,6 +1,6 @@
 # Sketcher CreatePolyline/es
 ---
-- GuiCommand:   Name: Sketcher CreatePolyline   Workbenches: Sketcher Workbench/es   Croquizador---
+ GuiCommand:   Name: Sketcher CreatePolyline   Workbenches: Sketcher Workbench/es   Croquizador---
 
 
 </div>

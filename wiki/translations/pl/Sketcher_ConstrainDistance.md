@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint Length
    Name/pl: Szkicownik: Wiązanie odległości
-   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie odległości
+   MenuLocation: Szkic , Wiązania szkicownika , Wiązanie odległości
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **K** **D**
    SeeAlso: Sketcher_ConstrainDistanceX/pl, Sketcher_ConstrainDistanceY/pl

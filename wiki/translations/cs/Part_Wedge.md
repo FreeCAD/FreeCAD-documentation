@@ -1,6 +1,6 @@
 # Part Wedge/cs
 ---
-- GuiCommand:   Name: Part Wedge   Name/cs: Díl_Klín   MenuLocation: Díl -> Part_CreatePrimitives/cs   Díl Vytváření zákl.geom.tvarů -> Klín---
+ GuiCommand:   Name: Part Wedge   Name/cs: Díl_Klín   MenuLocation: Díl -> Part_CreatePrimitives/cs   Díl Vytváření zákl.geom.tvarů -> Klín---
 
 
 </div>

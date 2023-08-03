@@ -1,6 +1,6 @@
 # Path Simulator/it
 ---
-- GuiCommand:   Name: Path Simulator   Name/it: Simulatore   Workbenches: Path Workbench/it   Path ---
+ GuiCommand:   Name: Path Simulator   Name/it: Simulatore   Workbenches: Path Workbench/it   Path ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Series
    Name/ru: Plot Series
-   MenuLocation: Plot -> Series
+   MenuLocation: Plot , Series
 ‏‎   Workbenches: Plot_Workbench/ru
    Shortcut: 
    SeeAlso: 

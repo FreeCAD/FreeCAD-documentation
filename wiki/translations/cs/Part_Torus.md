@@ -1,6 +1,6 @@
 # Part Torus/cs
 ---
-- GuiCommand:   Name: Part_Torus   Name/cs: Díl_Torus   MenuLocation: Díl -> Torus   , Kompletace---
+ GuiCommand:   Name: Part_Torus   Name/cs: Díl_Torus   MenuLocation: Díl -> Torus   , Kompletace---
 
 
 </div>

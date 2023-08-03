@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConnectLines
    Name/pl: Szkicownik: Połącz linie
-   MenuLocation: Szkic -> Narzędzia szkicownika -> Połącz linie
+   MenuLocation: Szkic , Narzędzia szkicownika , Połącz linie
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **J**
    Version: 0.15

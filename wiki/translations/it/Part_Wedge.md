@@ -1,6 +1,6 @@
 # Part Wedge/it
 ---
-- GuiCommand:   Name: Part Wedge   Name/it: Cuneo   MenuLocation: Parte -> Crea Primitive -> Cuneo   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part Wedge   Name/it: Cuneo   MenuLocation: Parte , Crea Primitive , Cuneo   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

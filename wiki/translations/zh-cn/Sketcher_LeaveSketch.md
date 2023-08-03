@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name/zh-cn: 离开草图
    Name: Sketcher_LeaveSketch
-   MenuLocation: Sketch -> 离开草图
+   MenuLocation: Sketch , 离开草图
    Workbenches: Sketcher_Workbench/zh-cn, PartDesign_Workbench/zh-cn
    SeeAlso: Sketcher_EditSketch/zh-cn
 ---

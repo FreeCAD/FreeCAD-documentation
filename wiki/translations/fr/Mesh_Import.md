@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Import‏‎
    Name/fr: Mesh Importer un maillage
-   MenuLocation: Maillages -> Importer un maillage...
+   MenuLocation: Maillages , Importer un maillage...
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Std_Import/fr, Std_Open/fr, Import_Export/fr
 ---

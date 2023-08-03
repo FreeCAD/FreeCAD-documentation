@@ -1,6 +1,6 @@
 # Sketcher CreateLine/cs
 ---
-- GuiCommand:   Name: Sketcher CreateLine   Name/cs: Skicář Přímka   Workbenches: Sketcher Workbench/cs   Skicář---
+ GuiCommand:   Name: Sketcher CreateLine   Name/cs: Skicář Přímka   Workbenches: Sketcher Workbench/cs   Skicář---
 
 
 </div>

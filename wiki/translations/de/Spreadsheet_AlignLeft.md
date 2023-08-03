@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignLeft
    Name/de: Kalkulationstabelle LinksAusrichten
-   MenuLocation: Kalkulationstabelle -> Ausrichtung -> LinksAusrichten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , LinksAusrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

@@ -1,6 +1,6 @@
 # Std SaveAs/es
 ---
-- GuiCommand:   Name: Std SaveAs   Name/es: Std SaveAs   MenuLocation: Std_File_Menu/es   File -> Save as...---
+ GuiCommand:   Name: Std SaveAs   Name/es: Std SaveAs   MenuLocation: Std_File_Menu/es   File , Save as...---
 
 
 </div>

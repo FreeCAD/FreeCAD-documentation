@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Начальное условие скорости потока
    Name: FEM_ConstraintInitialFlowVelocity
-   MenuLocation: Модель -> Fluid Constraints -> Начальное условие скорости потока
+   MenuLocation: Модель , Fluid Constraints , Начальное условие скорости потока
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_ConstraintFlowVelocity/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveHelix
    Name/fr: PartDesign Hélice additive
-   MenuLocation: Part Design -> Créer une fonction additive -> Hélice additive
+   MenuLocation: Part Design , Créer une fonction additive , Hélice additive
    Workbenches: PartDesign_Workbench/fr
    Version: 0.19
    SeeAlso: PartDesign_SubtractiveHelix/fr

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSymmetricVertical
    Name/de: Assembly3 Vertikale Symmetrie
    Icon: Assembly_ConstraintGeneral.svg

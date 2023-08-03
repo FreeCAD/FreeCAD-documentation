@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SetStyle
-   MenuLocation: Utilities -> Set style
+   MenuLocation: Utilities , Set style
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **S** **S**
    Version: 0.19

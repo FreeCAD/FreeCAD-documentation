@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainEqual
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain equal
+   MenuLocation: Sketch , Sketcher constraints , Constrain equal
    Workbenches: Sketcher_Workbench
    Shortcut: **E**
    SeeAlso: Sketcher_ConstrainRadius

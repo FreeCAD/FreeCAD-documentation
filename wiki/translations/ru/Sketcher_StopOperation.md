@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Остановить операцию
    Name: Sketcher_StopOperation
-   MenuLocation: Эскиз -> Остановить операцию
+   MenuLocation: Эскиз , Остановить операцию
    Workbenches: Sketcher_Workbench/ru
 ---
 

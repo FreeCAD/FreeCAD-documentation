@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeRecordSelection
    Name/de: Std BaumAuswahlAufzeichnen
-   MenuLocation: Ansicht -> Baumansicht-Aktionen -> Auswahl aufzeichnen
+   MenuLocation: Ansicht , Baumansicht-Aktionen , Auswahl aufzeichnen
    Workbenches: Alle
    Shortcut: **T** **5**
    Version: 0.19

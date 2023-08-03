@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SectionCut
    Name/fr: Part Coupe persistante
-   MenuLocation: Affichage -> Coupe persistante
+   MenuLocation: Affichage , Coupe persistante
    Workbenches: Tous
    Version: 0.20
    SeeAlso: Std_ToggleClipPlane/fr

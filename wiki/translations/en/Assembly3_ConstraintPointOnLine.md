@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointOnLine
    Icon: Assembly_ConstraintPointOnLine.svg
    Workbenches: Assembly3_Workbench

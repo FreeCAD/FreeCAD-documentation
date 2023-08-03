@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintColinear
    Name/de: Assembly3 Kollinear
    Icon: Assembly_ConstraintColinear.svg

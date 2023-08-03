@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Text
    Name/ro: Draft Text
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
-   MenuLocation: Draft -> Text
+   MenuLocation: Draft , Text
    Shortcut: **T** **E**
    SeeAlso: Draft_Label, Draft_ShapeString
 ---

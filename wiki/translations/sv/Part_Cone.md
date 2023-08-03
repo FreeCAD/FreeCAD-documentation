@@ -1,6 +1,6 @@
 # Part Cone/sv
 ---
-- GuiCommand:   Name: Part Cone   Name/sv: Part Cone   MenuLocation: Part -> Cone   Workbenches: Part_Workbench/sv   Part, Complete---
+ GuiCommand:   Name: Part Cone   Name/sv: Part Cone   MenuLocation: Part -> Cone   Workbenches: Part_Workbench/sv   Part, Complete---
 
 
 </div>

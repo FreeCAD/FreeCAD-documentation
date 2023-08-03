@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleClipPlane
    Name/fr: Std Basculer le plan de coupe
-   MenuLocation: Affichage -> Plan de coupe
+   MenuLocation: Affichage , Plan de coupe
    Workbenches: Tous
    SeeAlso: Part_SectionCut/fr
 ---

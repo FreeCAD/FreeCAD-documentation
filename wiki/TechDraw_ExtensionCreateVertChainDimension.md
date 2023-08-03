@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCreateVertChainDimension
-   MenuLocation: TechDraw -> Extensions: Dimensions -> Create Vertical Chain Dimensions
+   MenuLocation: TechDraw , Extensions: Dimensions , Create Vertical Chain Dimensions
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainPointOnObject
    Workbenches: Sketcher Workbench
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain point onto object
+   MenuLocation: Sketch , Sketcher constraints , Constrain point onto object
    Shortcut: Shift+O
    SeeAlso: Sketcher ConstrainCoincident
 ---

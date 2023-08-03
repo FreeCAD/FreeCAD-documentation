@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Line
    Name/de: Part Linie
-   MenuLocation: Formteil -> Part_Primitives/de -> Linie
+   MenuLocation: Formteil , Part_Primitives/de , Linie
    Workbenches: Part_Workbench/de, OpenSCAD_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

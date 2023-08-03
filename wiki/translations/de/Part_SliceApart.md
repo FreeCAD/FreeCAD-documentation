@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SliceApart
    Name/de: Part Auseinanderschneiden
-   MenuLocation: Formteil -> Teilen -> Auseinanderschneiden
+   MenuLocation: Formteil , Teilen , Auseinanderschneiden
    Version: 0.18.15506
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Slice/de, Part_ExplodeCompound/de

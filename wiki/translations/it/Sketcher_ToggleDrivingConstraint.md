@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ToggleConstraint   Name/it: Vincoli guida o definitivi
    Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch -> Vincoli -> Vincoli guida o definitivi
+   MenuLocation: Sketch , Vincoli , Vincoli guida o definitivi
    SeeAlso: Sketcher_ToggleConstruction/it
    Version: 0.16
 ---

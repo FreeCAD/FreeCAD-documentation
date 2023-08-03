@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pad
-   MenuLocation: Part Design -> Create an additive feature -> Pad
+   MenuLocation: Part Design , Create an additive feature , Pad
    Workbenches: PartDesign_Workbench
    SeeAlso: PartDesign_Pocket
 ---

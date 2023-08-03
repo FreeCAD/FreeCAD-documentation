@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Сверху
    Name: Std_ViewTop
-   MenuLocation: Вид -> Стандартные виды‏‎ -> Сверху
+   MenuLocation: Вид , Стандартные виды‏‎ , Сверху
    Workbenches: Все
    Shortcut: **2**
    SeeAlso: Std_ViewFront/ru, Std_ViewRight/ru

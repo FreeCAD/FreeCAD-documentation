@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw PageDefault
    Name/pl: Rysunek Techniczny: Wstaw nową domyślną stronę rysunku
-   MenuLocation: Rysunek Techniczny -> Strona -> Wstaw nową domyślną stronę rysunku
+   MenuLocation: Rysunek Techniczny , Strona , Wstaw nową domyślną stronę rysunku
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_PageTemplate/pl, TechDraw_Templates/pl
 ---

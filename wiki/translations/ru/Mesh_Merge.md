@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Merge‏‎
    Name/ru: Mesh Merge‏‎
-   MenuLocation: Сетки -> Объединить
+   MenuLocation: Сетки , Объединить
    Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: Mesh_Union/ru

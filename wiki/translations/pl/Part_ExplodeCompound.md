@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ExplodeCompound
    Name/pl: Część: Rozbij kształt złożony
-   MenuLocation: Część -> Złożenie -> Rozbij kształt złożony
+   MenuLocation: Część , Złożenie , Rozbij kształt złożony
    Workbenches: Part_Workbench/pl
    Version: 0.18
    SeeAlso: Part_Compound/pl, Draft_Downgrade/pl

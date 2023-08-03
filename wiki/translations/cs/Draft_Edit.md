@@ -1,6 +1,6 @@
 # Draft Edit/cs
 ---
-- GuiCommand:   Name: Draft Edit   , Arch_Workbench/cs|MenuLocation: Draft -> Edit---
+ GuiCommand:   Name: Draft Edit   , Arch_Workbench/cs|MenuLocation: Draft -> Edit---
 
 
 </div>

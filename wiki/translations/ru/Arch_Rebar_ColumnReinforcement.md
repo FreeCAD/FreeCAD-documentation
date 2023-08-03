@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Армировать колонну
    Name: Arch_Rebar_ColumnReinforcement
-   MenuLocation: Arch -> Rebar tools -> Column Reinforcement<br>3D/BIM -> Reinforcement tools -> Column Reinforcement
+   MenuLocation: Arch , Rebar tools , Column Reinforcement<br>3D/BIM , Reinforcement tools , Column Reinforcement
    Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Version: 0.19
    SeeAlso: Reinforcement_Workbench/ru, Arch_Rebar/ru, Arch_Rebar_Helical/ru, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru

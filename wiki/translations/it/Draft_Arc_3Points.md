@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc 3Points
    Name/it: Arco da tre punti
-   MenuLocation: Drafting -> Strumenti Arco -> Arco da tre punti
+   MenuLocation: Drafting , Strumenti Arco , Arco da tre punti
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **A** **T**
    Version: 0.19

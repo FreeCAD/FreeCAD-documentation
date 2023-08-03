@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterCutFunction
    Name/ru: FEM PostFilterCutFunction
-   MenuLocation: Results -> Function cut filter
+   MenuLocation: Results , Function cut filter
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

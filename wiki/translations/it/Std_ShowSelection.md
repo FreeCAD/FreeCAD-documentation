@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ShowSelection
    Name/it: Mostra la selezione
-   MenuLocation: Visualizza -> Visibilità -> Mostra la selezione
+   MenuLocation: Visualizza , Visibilità , Mostra la selezione
    Workbenches: Tutti
    SeeAlso: Std_ToggleVisibility/it, Std_HideSelection/it, Std_ToggleObjects/it, Std_ShowObjects/it, Std_HideObjects/it
 ---

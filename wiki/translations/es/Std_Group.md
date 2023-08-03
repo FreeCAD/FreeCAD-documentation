@@ -1,6 +1,6 @@
 # Std Group/es
 ---
-- GuiCommand:   Name: Std Group   MenuLocation: Tree View -> Right click on the document name   , Draft_AddToGroup/es---
+ GuiCommand:   Name: Std Group   MenuLocation: Tree View , Right click on the document name   , Draft_AddToGroup/es---
 
 
 </div>

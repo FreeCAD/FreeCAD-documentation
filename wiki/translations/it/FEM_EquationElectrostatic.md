@@ -1,6 +1,6 @@
 # FEM EquationElectrostatic/it
 ---
-- GuiCommand:   Name: FEM_EquationElectrostatic   Name/it: Equazione elettrostatica   Icon: Fem-equation-electrostatic.svg   MenuLocation:  Solve -> Equazione elettrostatica   ---
+ GuiCommand:   Name: FEM_EquationElectrostatic   Name/it: Equazione elettrostatica   Icon: Fem-equation-electrostatic.svg   MenuLocation:  Solve , Equazione elettrostatica   ---
 
 
 </div>

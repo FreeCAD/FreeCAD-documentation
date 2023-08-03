@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
-   MenuLocation: Drafting -> Line
+   MenuLocation: Drafting , Line
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **L** **I**
    Version: 0.7

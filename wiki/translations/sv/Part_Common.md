@@ -1,6 +1,6 @@
 # Part Common/sv
 ---
-- GuiCommand:   Name: Part_Common   Workbenches: Del,Komplett---
+ GuiCommand:   Name: Part_Common   Workbenches: Del,Komplett---
 
 
 </div>

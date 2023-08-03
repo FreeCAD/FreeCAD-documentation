@@ -1,6 +1,6 @@
 # PartDesign Thickness/ro
 ---
-- GuiCommand:   Name: PartDesign Thickness   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign Thickness   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

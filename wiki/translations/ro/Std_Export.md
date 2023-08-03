@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Export
    Name/ro: Exportul
    Workbenches: All
-   MenuLocation: Std File Menu/ro -> Exportul
+   MenuLocation: Std File Menu/ro , Exportul
    Shortcut: Ctrl + E
    SeeAlso: Std_Import/ro
 ---

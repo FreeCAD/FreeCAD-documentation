@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std BoxElementSelection
    Name/pl: Std: Wybór elementów ramką zaznaczenia
-   MenuLocation: Edycja -> Wybór elementów ramką zaznaczenia
+   MenuLocation: Edycja , Wybór elementów ramką zaznaczenia
    Workbenches: All
    Shortcut: **Shift** + **E**
    SeeAlso: Std_BoxSelection/pl, Std_SelectAll/pl

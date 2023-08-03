@@ -1,6 +1,6 @@
 # OpenSCAD MeshBoolean/it
 ---
-- GuiCommand:   Name: OpenSCAD MeshBoolean   Name/it: Booleane su Mesh   MenuLocation: OpenSCAD -> Booleane su Mesh...‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: OpenSCAD MeshBoolean   Name/it: Booleane su Mesh   MenuLocation: OpenSCAD , Booleane su Mesh...‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

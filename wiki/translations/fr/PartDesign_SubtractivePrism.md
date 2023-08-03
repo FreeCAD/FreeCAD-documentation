@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractivePrism
    Name/fr: PartDesign Prisme soustractif
-   MenuLocation: Part Design -> Créer une primitive soustractive -> Prisme soustractif
+   MenuLocation: Part Design , Créer une primitive soustractive , Prisme soustractif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/fr, PartDesign_AdditivePrism/fr

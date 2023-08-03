@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Изменить внешний вид линий
    Name: TechDraw_DecorateLine
-   MenuLocation: TechDraw -> Change Appearance of Line
+   MenuLocation: TechDraw , Change Appearance of Line
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/ru, TechDraw_CosmeticEraser/ru

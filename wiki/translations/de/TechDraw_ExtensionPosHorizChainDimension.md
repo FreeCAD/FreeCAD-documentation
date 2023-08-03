@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionPosHorizChainDimension
    Name/de: TechDraw ErgänzungHorizontaleKettenmaßeAnordnen
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Position Horizontal Chain Dimensions
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Horizontal Chain Dimensions
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle
    Name/es: Draft Rectangle
-   MenuLocation: Croquis ->  Rectángulo
+   MenuLocation: Croquis ,  Rectángulo
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **R** **E**
    Version: 0.7

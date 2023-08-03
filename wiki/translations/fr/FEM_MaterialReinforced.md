@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialReinforced
    Name/fr: FEM Matériau renforcé
-   MenuLocation: Modèle -> Matériaux -> Matériau renforcé 
+   MenuLocation: Modèle , Matériaux , Matériau renforcé 
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

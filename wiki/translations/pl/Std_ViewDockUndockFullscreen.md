@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
 
    Name: Std ViewDockUndockFullscreen
    Nam/pl: Std: Zadokuj / Oddokuj okno
    Empty: 1
-   MenuLocation: Widok -> Okno dokumentu -> Zadokowany / Niezadokowany
+   MenuLocation: Widok , Okno dokumentu , Zadokowany / Niezadokowany
    Workbenches: wszystkie
    Shortcut: **V** **D** / **V** **U**
    SeeAlso: Std_ViewFullscreen/pl, Std_MainFullscreen/pl

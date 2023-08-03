@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverCalculixCxxtools
    Name/fr: FEM Solveur CalculiX standard
-   MenuLocation: Résolution -> Solveur CalculiX standard
+   MenuLocation: Résolution , Solveur CalculiX standard
    Workbenches: FEM_Workbench/fr
    Shortcut: **S** **X**
    SeeAlso: FEM_tutorial/fr

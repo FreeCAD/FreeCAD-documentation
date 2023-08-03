@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/it: Rimuovi
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Rimuovi
+   MenuLocation: Arch , Rimuovi
    SeeAlso: Arch CutLine/it, Arch CutPlane/it, Arch Add/it
 ---
 

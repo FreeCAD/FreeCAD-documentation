@@ -1,6 +1,6 @@
 # Part Point/it
 ---
-- GuiCommand:   Name: Part_Point   Name/it: Punto   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Punto---
+ GuiCommand:   Name: Part_Point   Name/it: Punto   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Punto---
 
 
 </div>

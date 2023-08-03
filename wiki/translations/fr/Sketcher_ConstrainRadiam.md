@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainRadiam
    Name/fr: Sketcher Contrainte automatique rayon/diamètre
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte automatique rayon/diamètre
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte automatique rayon/diamètre
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **S**
    Version: 0.20

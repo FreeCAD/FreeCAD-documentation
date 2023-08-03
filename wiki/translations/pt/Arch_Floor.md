@@ -1,6 +1,6 @@
 # Arch Floor/pt
 ---
-- GuiCommand:   Name: Arch Floor   Name/pt: Arch Floor   Workbenches: Arch_Workbench/pt   Arch, Arch Site/pt---
+ GuiCommand:   Name: Arch Floor   Name/pt: Arch Floor   Workbenches: Arch_Workbench/pt   Arch, Arch Site/pt---
 
 
 </div>

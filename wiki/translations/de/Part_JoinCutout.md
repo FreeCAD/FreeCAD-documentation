@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinCutout
    Name/de: Part Ausschneiden
-   MenuLocation: Formteil -> Verbinden -> Ausschnitt für Objekt
+   MenuLocation: Formteil , Verbinden , Ausschnitt für Objekt
    Workbenches: Part_Workbench/de
    Version: 0.16
    SeeAlso: Part_JoinConnect/de, Part_JoinEmbed/de, Part_Boolean/de, Part_Thickness/de

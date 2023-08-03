@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateOctagon
    Name/pl: Szkicownik: Utwórz ośmiokąt
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz ośmiokąt
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz ośmiokąt
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **P** **8**
    Version: 0.15

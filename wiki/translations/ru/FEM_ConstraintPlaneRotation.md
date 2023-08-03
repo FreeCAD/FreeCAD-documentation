@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Ограничить вращение плоскости
    Name: FEM_ConstraintPlaneRotation
-   MenuLocation: Модель -> Geometrical Constraints -> Ограничить вращение плоскости
+   MenuLocation: Модель , Geometrical Constraints , Ограничить вращение плоскости
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_ConstraintTransform/ru
 ---

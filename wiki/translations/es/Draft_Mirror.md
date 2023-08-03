@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Mirror
    Name/es: Draft Mirror
-   MenuLocation: Draft -> Mirror
+   MenuLocation: Draft , Mirror
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    SeeAlso: Draft Scale/es
 ---

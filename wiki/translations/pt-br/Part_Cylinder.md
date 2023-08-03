@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cylinder
-   MenuLocation: Part -> Primitives -> Cylinder
+   MenuLocation: Part , Primitives , Cylinder
    Workbenches: Part_Workbench
    SeeAlso: Part_Primitives
 ---

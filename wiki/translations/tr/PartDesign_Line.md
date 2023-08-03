@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Line
    Name/tr: Referans Çizgisi Oluştur
    Workbenches: PartDesign Workbench/tr
-   MenuLocation: Parça tasarım -> Referans çizgisi oluştur
+   MenuLocation: Parça tasarım , Referans çizgisi oluştur
    Version: 0.17
    SeeAlso: PartDesign Point/tr, PartDesign Plane/tr
 ---

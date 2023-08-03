@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionThreadBoltSide
    Name/fr: TechDraw Corps de filetage
-   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Corps de filetage
+   MenuLocation: TechDraw , Extensions : taraudages/filetages , Corps de filetage
    Workbenches: TechDraw_Workbench/fr
    Version: 0.20
    SeeAlso: TechDraw_ExtensionThreadHoleSide/fr

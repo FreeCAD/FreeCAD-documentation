@@ -1,6 +1,6 @@
 # Sketcher LeaveSketch/it
 ---
-- GuiCommand:   Name: Sketcher LeaveSketch   Name/it: Esci   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:   Name: Sketcher LeaveSketch   Name/it: Esci   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
 
 
 </div>

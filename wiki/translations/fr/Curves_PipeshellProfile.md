@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves PipeshellProfile
    Name/fr: Curves Profil de l'enveloppe d'un tube
-   MenuLocation: Surfaces -> Pipeshell profile
+   MenuLocation: Surfaces , Pipeshell profile
    Workbenches: Curves_Workbench/fr
    SeeAlso: Curves_Pipeshell/fr
 ---

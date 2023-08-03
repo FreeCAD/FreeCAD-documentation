@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintMidPoint
    Name/de: Assembly3 Mittelpunkt
    Icon: Assembly_ConstraintMidPoint.svg

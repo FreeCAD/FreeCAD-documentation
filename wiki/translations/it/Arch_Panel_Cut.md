@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Panel Cut
    Name/it: Arch Panel Cut
-   MenuLocation: Arch -> Strumenti pannello -> Sagoma pannello
+   MenuLocation: Arch , Strumenti pannello , Sagoma pannello
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **C**
    SeeAlso: Arch Panel/it, Arch Panel Sheet/it, Arch Nest/it, Path Workbench/it

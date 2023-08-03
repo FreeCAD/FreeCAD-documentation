@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DuplicateSelection
    Name/fr: Std Dupliquer la Sélection
-   MenuLocation: Édition -> Dupliquer la sélection
+   MenuLocation: Édition , Dupliquer la sélection
    Workbenches: tous
    SeeAlso: Std_Copy/fr, Std_Paste/fr
 ---

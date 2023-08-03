@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainAngle
    Name/fr: Sketcher Contrainte angulaire
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte angulaire
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte angulaire
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **A**
    SeeAlso: Sketcher_ConstrainDistance/fr, Sketcher_ConstrainPerpendicular/fr

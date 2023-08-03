@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Split
    Name/es: Croquizador Dividir
-   MenuLocation: Croquis -> Croquizador Geometrías -> Dividir
+   MenuLocation: Croquis , Croquizador Geometrías , Dividir
    Workbenches: Sketcher_Workbench/es
    Version: 0.20
    SeeAlso: Sketcher_Trimming/es

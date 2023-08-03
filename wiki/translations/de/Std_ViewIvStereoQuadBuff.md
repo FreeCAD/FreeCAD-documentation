@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoQuadBuff
    Name/de: Std AnsichtIvStereoVierfachPuffer
-   MenuLocation: Ansicht -> Stereo -> Stereo Vierfach Puffer
+   MenuLocation: Ansicht , Stereo , Stereo Vierfach Puffer
    Workbenches: Alle
    SeeAlso: Std_ViewIvStereoRedGreen/de, Std_ViewIvStereoInterleavedRows/de, Std_ViewIvStereoInterleavedColumns/de, Std_ViewIvStereoOff/de
 ---

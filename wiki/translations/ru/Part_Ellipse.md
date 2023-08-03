@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipse
    Name/ru: Эллипс
-   MenuLocation: Деталь -> Part_Primitives/ru -> Эллипс
+   MenuLocation: Деталь , Part_Primitives/ru , Эллипс
    Workbenches: Part_Workbench/ru, OpenSCAD_Workbench/ru
    SeeAlso: ..
 ---

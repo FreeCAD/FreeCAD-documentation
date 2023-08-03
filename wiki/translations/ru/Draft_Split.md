@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Split
    Name/ru: Draft Split
-   MenuLocation: Draft -> Split
+   MenuLocation: Draft , Split
    Workbenches: Draft_Workbench/ru
    Shortcut: **S** **P**
    Version: 0.18

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompJoinFeatures
    Name/ru: Part CompJoinFeatures
-   MenuLocation: Деталь -> Join
+   MenuLocation: Деталь , Join
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_JoinConnect/ru, Part_JoinEmbed/ru, Part_JoinCutout/ru, Part Boolean/ru, Part Thickness/ru
 ---

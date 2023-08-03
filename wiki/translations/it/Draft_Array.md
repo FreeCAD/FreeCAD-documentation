@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft_Array
    Name/it: Serie
-   MenuLocation: Draft -> Serie
+   MenuLocation: Draft , Serie
    Workbenches: Draft_Workbench/it
    SeeAlso: Draft_PolarArray/it, Draft_CircularArray/it,Draft PathArray/it, Draft PointArray/it, Draft Clone/it
 ---

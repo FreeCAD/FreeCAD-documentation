@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft OrthoArray
    Name/de: Draft RechtwinkligeAnordnung
-   MenuLocation: Änderung -> Array tools -> Anordnung
+   MenuLocation: Änderung , Array tools , Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de

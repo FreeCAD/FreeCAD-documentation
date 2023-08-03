@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh RemoveCompByHand
    Name/pl: Siatka: Usuń elementy Interaktywnie
-   MenuLocation: Siatki -> Usuń elementy ręcznie ...
+   MenuLocation: Siatki , Usuń elementy ręcznie ...
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_RemoveComponents/pl, Arch_SplitMesh/pl
 ---

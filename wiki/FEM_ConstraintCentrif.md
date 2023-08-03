@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintCentrif
-   MenuLocation: Model -> Mechanical Constraints -> Constraint centrif
+   MenuLocation: Model , Mechanical Constraints , Constraint centrif
    Workbenches: FEM_Workbench
    Shortcut: 
    Version: 0.20

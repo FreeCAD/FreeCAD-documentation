@@ -1,6 +1,6 @@
 # Robot CreateTrajectory/ro
 ---
-- GuiCommand:   Name: Robot CreateTrajectory   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot -> Create trajectory---
+ GuiCommand:   Name: Robot CreateTrajectory   Workbenches: Robot_Workbench   Robot|MenuLocation: Robot , Create trajectory---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Тепловое уравнение
    Name: FEM_EquationHeat
-   MenuLocation:  Solve -> Тепловое уравнение
+   MenuLocation:  Solve , Тепловое уравнение
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_tutorial/ru
 ---

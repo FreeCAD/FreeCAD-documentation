@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch RemoveShape
    Name/sv: Arch RemoveShape
    Workbenches: Arch_Workbench/sv
-   MenuLocation: Arch -> Utilities -> Remove Shape
+   MenuLocation: Arch , Utilities , Remove Shape
    SeeAlso: Arch SplitMesh, Arch MeshToShape/sv
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing Render
    Name/ru: Raytracing Render
-   MenuLocation: Трассировка лучей -> С визуализацией
+   MenuLocation: Трассировка лучей , С визуализацией
    Workbenches: Raytracing_Workbench/ru
    Shortcut: 
    SeeAlso: 

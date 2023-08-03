@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Circle
-   MenuLocation: Part -> Part_Primitives -> Circle
+   MenuLocation: Part , Part_Primitives , Circle
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    SeeAlso: Part_Primitives
 ---

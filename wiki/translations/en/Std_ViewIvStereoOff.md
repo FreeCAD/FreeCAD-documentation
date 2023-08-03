@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoOff
-   MenuLocation: View -> Stereo -> Stereo Off
+   MenuLocation: View , Stereo , Stereo Off
    Workbenches: All
    SeeAlso: Std_ViewIvStereoRedGreen, Std_ViewIvStereoQuadBuff, Std_ViewIvStereoInterleavedRows, Std_ViewIvStereoInterleavedColumns
 ---

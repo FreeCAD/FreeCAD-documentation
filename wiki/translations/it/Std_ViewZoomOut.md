@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewZoomOut
    Name/it: Riduci
-   MenuLocation: Visualizza -> Zoom -> Riduci
+   MenuLocation: Visualizza , Zoom , Riduci
    Workbenches: Tutti
    Shortcut: **Ctrl**+**-**
    SeeAlso: Std_ViewZoomIn/it, Std_ViewBoxZoom/it

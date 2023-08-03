@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MaterialReinforced
    Name/de: FEM MaterialBewehrt
-   MenuLocation:  Modell -> Materialien -> Verstärkter Werkstoff 
+   MenuLocation:  Modell , Materialien , Verstärkter Werkstoff 
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

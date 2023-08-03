@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SetStyle
    Name/fr: Draft Définir le style
-   MenuLocation: Utilitaires -> Définir le style
+   MenuLocation: Utilitaires , Définir le style
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **S**
    Version: 0.19

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewDockUndockFullscreen
    Name/fr: Std Fenêtre document détachée
    Empty: 1
-   MenuLocation: Affichage -> Fenêtre Document‏‎ -> Dockée/Non dockée
+   MenuLocation: Affichage , Fenêtre Document‏‎ , Dockée/Non dockée
    Workbenches: Tous
    Shortcut: **V** **D** / **V** **U**
    SeeAlso: Std_ViewFullscreen/fr, Std_MainFullscreen/fr

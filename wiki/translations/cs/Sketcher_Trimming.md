@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/cs:  Skicář Oříznutíí
    Icon: Sketcher Trimming.png
    Workbenches: Sketcher Workbench/cs
-   MenuLocation: Náčrt -> Skicář Konstrukce ->  Oříznutí hrany
+   MenuLocation: Náčrt , Skicář Konstrukce ,  Oříznutí hrany
    Version: 0.12
    SeeAlso: Sketcher Extend/cs
 ---

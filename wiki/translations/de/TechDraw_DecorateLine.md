@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw DecorateLine
    Name/de: TechDraw LiniendarstellungÄndern
-   MenuLocation: TechDraw -> Liniendarstellung ändern
+   MenuLocation: TechDraw , Liniendarstellung ändern
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/de, TechDraw_CosmeticEraser/de

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship New‏‎
    Name/de: Schiff Neu‏‎
    Icon: Ship_Instance.svg
-   MenuLocation: Schiffskonstruktion -> Ein neues Schiff erstellen
+   MenuLocation: Schiffskonstruktion , Ein neues Schiff erstellen
    Workbenches: Ship Workbench/de|
 Shortcut=
    SeeAlso: 

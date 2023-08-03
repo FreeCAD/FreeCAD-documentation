@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ViewSection
    Name/pl: Szkicownik: Widok przekroju
-   MenuLocation: Szkic -> Widok przekroju
+   MenuLocation: Szkic , Widok przekroju
    Workbenches: Sketcher_Workbench/pl, PartDesign_Workbench/pl
    Shortcut: **Q** **S**
    Version: 0.18

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves MultiLoft
    Name/fr: Curves Multi lissage
-   MenuLocation: Surfaces -> MultiLoft
+   MenuLocation: Surfaces , MultiLoft
    Workbenches: Curves_Workbench/fr
 ---
 

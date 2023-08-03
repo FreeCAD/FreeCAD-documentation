@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Revert
    Name/ru: Std Revert
-   MenuLocation: Файл -> Вернуться
+   MenuLocation: Файл , Вернуться
    Workbenches: All
 ---
 

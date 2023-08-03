@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot SetDefaultValues
    Name/fr: Robot Valeurs par défaut
-   MenuLocation: Robot -> Définir les valeurs par défaut
+   MenuLocation: Robot , Définir les valeurs par défaut
    Workbenches: Robot_Workbench/fr
 ---
 

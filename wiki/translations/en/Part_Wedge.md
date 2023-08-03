@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Wedge
-   MenuLocation: Part -> Part_Primitives -> Wedge
+   MenuLocation: Part , Part_Primitives , Wedge
    Workbenches: Part_Workbench, OpenSCAD_Workbench
    SeeAlso: Part_Primitives
 ---

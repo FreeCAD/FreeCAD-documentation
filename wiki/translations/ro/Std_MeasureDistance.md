@@ -1,6 +1,6 @@
 # Std MeasureDistance/ro
 ---
-- GuiCommand:   Name: Std MeasureDistance   MenuLocation: Std View Menu   View -> Measure distance‏‎||Workbenches: All   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Std MeasureDistance   MenuLocation: Std View Menu   View , Measure distance‏‎||Workbenches: All   Shortcut:    SeeAlso: ---
 
 
 </div>

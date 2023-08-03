@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ClippingPlaneRemoveAll
    Name/ru: FEM ClippingPlaneRemoveAll
    Icon: Fem-clipping-plane-remove-all.svg
-   MenuLocation:  Utility -> Clipping Plane Remove All
+   MenuLocation:  Utility , Clipping Plane Remove All
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Rebar_Drawing_Dimensioning
    Name/it: Disegna e quota un'armatura
-   MenuLocation: Arch -> Armatura
+   MenuLocation: Arch , Armatura
    Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
    SeeAlso: Arch_Rebar_BOM/it, Reinforcement_Bar_Shape_Cut_List/it
    Version: 0.19

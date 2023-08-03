@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet StyleBold
    Name/it: Grassetto
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Stile -> Grassetto
+   MenuLocation: Spreadsheet , Stile , Grassetto
    Version: 0.17
 ---
 

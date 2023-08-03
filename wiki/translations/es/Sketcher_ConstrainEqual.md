@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainEqual
    Name/es: Croquizador RestringirIgual
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Croquis -> Croquizador Restricciones -> Restringir igual
+   MenuLocation: Croquis , Croquizador Restricciones , Restringir igual
    Shortcut: E
    SeeAlso: Sketcher_ConstrainRadius/es
 ---

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std OrthographicCamera
    Name/pl: Std: Widok ortogonalny
-   MenuLocation: Widok -> Widok ortogonalny
+   MenuLocation: Widok , Widok ortogonalny
    Workbenches: wszystkie
-   Shortcut: **V** -> **O**
+   Shortcut: **V** , **O**
    SeeAlso: Std_PerspectiveCamera/pl
 ---
 

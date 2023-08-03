@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignTop
-   MenuLocation: Spreadsheet -> Alignment -> Align top
+   MenuLocation: Spreadsheet , Alignment , Align top
    Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---

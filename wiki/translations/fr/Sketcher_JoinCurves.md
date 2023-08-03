@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher JoinCurves
    Name/fr: Sketcher Joindre des courbes
-   MenuLocation: Esquisse -> Outils d'esquisse des B-splines -> Joindre des courbes
+   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Joindre des courbes
    Workbenches: Sketcher_Workbench/fr
    Version: 0.21
    SeeAlso: 

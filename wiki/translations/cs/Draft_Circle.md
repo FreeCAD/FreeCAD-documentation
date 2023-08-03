@@ -1,6 +1,6 @@
 # Draft Circle/cs
 ---
-- GuiCommand:   Name: Draft_Circle   Name/cs: Kreslení_Kružnice   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft_Circle   Name/cs: Kreslení_Kružnice   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

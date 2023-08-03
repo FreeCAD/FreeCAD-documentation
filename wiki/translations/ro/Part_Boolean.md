@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Booleans
    Name/ro: Part Booleans
-   MenuLocation: Part -> Booleans
+   MenuLocation: Part , Booleans
    Workbenches: Part_Workbench/ro, Complete
    SeeAlso: Part Union/ro, Part Common/ro and Part Cut/ro
 ---

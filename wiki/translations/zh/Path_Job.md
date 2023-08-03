@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Job
    Name/zh: 刀路作业
    Workbenches: Path Workbench
-   MenuLocation: Path -> Job
+   MenuLocation: Path , Job
    Shortcut: **P** **F**
    SeeAlso: 
 ---

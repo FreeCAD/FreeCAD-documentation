@@ -1,6 +1,6 @@
 # Draft SelectPlane/cs
 ---
-- GuiCommand:   Name: Draft SelectPlane   Name/cs: Kreslení VýběrRoviny   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Kreslení -> Utility -> Výběr roviny---
+ GuiCommand:   Name: Draft SelectPlane   Name/cs: Kreslení VýběrRoviny   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs|MenuLocation: Kreslení -> Utility -> Výběr roviny---
 
 
 </div>

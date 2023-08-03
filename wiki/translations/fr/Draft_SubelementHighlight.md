@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft SubelementHighlight
    Name/fr: Draft Surbrillance des sous éléments
-   MenuLocation: Modification -> Surbrillance des sous éléments
+   MenuLocation: Modification , Surbrillance des sous éléments
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **H** **S**
    Version: 0.19

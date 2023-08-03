@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignBottom
    Name/de: Kalkulationstabelle UntenAusrichten
-   MenuLocation: Kalkulationstabelle -> Ausrichtung -> Unten Ausrichten
+   MenuLocation: Kalkulationstabelle , Ausrichtung , Unten Ausrichten
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

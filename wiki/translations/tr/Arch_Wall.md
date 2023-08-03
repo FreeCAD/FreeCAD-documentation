@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Wall
    Name/tr: Mimari Duvar
-   MenuLocation: Mimari -> Duvar
+   MenuLocation: Mimari , Duvar
    Workbenches: Arch_Workbench/tr
    Shortcut: **W** **A**
    SeeAlso: Arch Structure/tr

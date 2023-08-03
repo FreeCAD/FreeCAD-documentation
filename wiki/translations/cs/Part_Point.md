@@ -1,6 +1,6 @@
 # Part Point/cs
 ---
-- GuiCommand:   Name: Part Point   Name/cs: Díl Bod   MenuLocation: Díl -> Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů -> Bod, OpenSCAD_Workbench/cs|SeeAlso: ..---
+ GuiCommand:   Name: Part Point   Name/cs: Díl Bod   MenuLocation: Díl , Part_CreatePrimitives/cs   Vytváření zákl.geom.tvarů , Bod, OpenSCAD_Workbench/cs|SeeAlso: ..---
 
 
 </div>

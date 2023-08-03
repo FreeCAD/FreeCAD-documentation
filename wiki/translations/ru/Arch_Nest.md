@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Компоновка
    Name: Arch_Nest
-   MenuLocation: Arch -> Инструменты панелирования -> Компоновка
+   MenuLocation: Arch , Инструменты панелирования , Компоновка
    Workbenches: Arch_Workbench/ru
    Version: 0.17
    SeeAlso: Arch_Panel/ru, Arch_Panel_Sheet/ru

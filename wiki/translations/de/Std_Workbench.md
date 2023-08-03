@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Name/de: Std Arbeitsbereich
    Empty: 1
-   MenuLocation: Ansicht -> Arbeitsbereich
+   MenuLocation: Ansicht , Arbeitsbereich
    Workbenches: Alle
    SeeAlso: Workbenches/de
 ---

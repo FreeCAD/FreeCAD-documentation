@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket Parachute Size Calculator
    Name/fr: Rocket Calcul taille parachute
    Icon: Rocket_Calculator.svg
-   MenuLocation: Rocket -> Calculators -> Parachute Size Calculator
+   MenuLocation: Rocket , Calculators , Parachute Size Calculator
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

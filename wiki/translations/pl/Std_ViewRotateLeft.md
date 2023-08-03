@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewRotateLeft
    Name/pl: Std: Odwróć widok w lewo
-   MenuLocation: Widok -> Widoki standardowe -> Odwróć w lewo
+   MenuLocation: Widok , Widoki standardowe , Odwróć w lewo
    Workbenches: wszystkie
    Shortcut: **Shift**+**Lewo**
    SeeAlso: Std_ViewRotateRight/pl

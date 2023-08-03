@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelBack
    Name/fr: Std Précédent
    MenuLocation: 

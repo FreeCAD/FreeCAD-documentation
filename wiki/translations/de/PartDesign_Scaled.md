@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Scaled
    Name/de: PartDesign Scaled
    MenuLocation: None 

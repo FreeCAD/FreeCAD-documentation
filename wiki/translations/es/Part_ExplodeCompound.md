@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ExplodeCompound
    Name/es: Pieza ExplotarCompuesto
-   MenuLocation: Pieza -> Compuesto -> Explotar Compuesto
+   MenuLocation: Pieza , Compuesto , Explotar Compuesto
    Version: 0.18.15506
    Workbenches: Part_Workbench/es
    SeeAlso: Part_Compound/es, Draft Downgrade/es

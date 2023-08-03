@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Import‎
    Name/pl: Część: Import projektu CAD
-   MenuLocation: Część -> Import projektu CAD ...
+   MenuLocation: Część , Import projektu CAD ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Export/pl, Std_Import/pl, Import_Export/pl
 ---

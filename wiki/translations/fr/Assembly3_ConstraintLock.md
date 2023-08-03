@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLock
    Name/fr: Assembly3 Contrainte de verrouillage
    Icon: Assembly_ConstraintLock.svg

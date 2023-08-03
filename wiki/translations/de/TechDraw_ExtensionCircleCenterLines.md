@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCircleCenterLines
    Name/de: TechDraw ErgänzungKreismittellinien
-   MenuLocation: TechDraw -> Ergänzungen: Mittellinien/Gewinde -> Kreismittellinien hinzufügen
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde , Kreismittellinien hinzufügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

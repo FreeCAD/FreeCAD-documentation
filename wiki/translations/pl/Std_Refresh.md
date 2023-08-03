@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Refresh
    Name/pl: Std: Odśwież
-   MenuLocation: Edycja -> Odśwież
+   MenuLocation: Edycja , Odśwież
    Workbenches: wszystkie
    Shortcut: **F5**
 ---

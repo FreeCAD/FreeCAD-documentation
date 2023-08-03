@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddWall
    Name/fr: SheetMetal Tôle pliée
-   MenuLocation: SheetMetal -> Make Wall
+   MenuLocation: SheetMetal , Make Wall
    Workbenches: SheetMetal_Workbench/fr
    Shortcut: **W**
 ---

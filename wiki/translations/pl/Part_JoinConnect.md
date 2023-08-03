@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinConnect
    Name/pl: Część: Połącz obiekty
-   MenuLocation: Część -> Połącz -> Połącz obiekty
+   MenuLocation: Część , Połącz , Połącz obiekty
    Workbenches: Part_Workbench/pl
    Version: 0.16
    SeeAlso: Part_JoinEmbed/pl, Part_JoinCutout/pl, Part_Boolean/pl, Part_Thickness/pl

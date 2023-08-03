@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fillet
    Name/pl: Część: Zaokrąglenie
-   MenuLocation: Część -> Zaokrąglenie ...
+   MenuLocation: Część , Zaokrąglenie ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Chamfer/pl
 ---

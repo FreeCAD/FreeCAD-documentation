@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Horizontal
    Name/de: TechDraw MaßHorizontal
-   MenuLocation: TechDraw -> Bemaßungen -> Horizontales Maß einfügen
+   MenuLocation: TechDraw , Bemaßungen , Horizontales Maß einfügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: **Shift** + **H**
    SeeAlso: TechDraw_LengthDimension/de, TechDraw_VerticalDimension/de

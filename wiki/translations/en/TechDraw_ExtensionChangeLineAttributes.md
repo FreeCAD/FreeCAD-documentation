@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionChangeLineAttributes
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Change Line Attributes
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Change Line Attributes
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

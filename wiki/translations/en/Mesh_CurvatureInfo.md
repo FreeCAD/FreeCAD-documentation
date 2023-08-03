@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh CurvatureInfo
-   MenuLocation: Meshes -> Analyze -> Curvature info
+   MenuLocation: Meshes , Analyze , Curvature info
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_VertexCurvature
 ---

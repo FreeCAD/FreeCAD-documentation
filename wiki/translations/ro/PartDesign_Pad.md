@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pad
    Name/ro: PartDesign Pad
    Workbenches: PartDesign Workbench/ro
-   MenuLocation: Part Design -> Pad
+   MenuLocation: Part Design , Pad
 ---
 
 # PartDesign Pad/ro

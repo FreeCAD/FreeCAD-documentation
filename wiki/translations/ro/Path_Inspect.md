@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Inspect
    Workbenches: Path Workbench
-   MenuLocation: Path -> Inspect G-code
+   MenuLocation: Path , Inspect G-code
    Shortcut: 
    SeeAlso: 
 ---

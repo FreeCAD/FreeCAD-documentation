@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Reference
    Name/ro: Arch Reference
-   MenuLocation: Arch -> Reference
+   MenuLocation: Arch , Reference
    Workbenches: Arch_Workbench/ro
    Shortcut: 
    SeeAlso: Arch BuildingPart

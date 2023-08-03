@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet AlignBottom
-   MenuLocation: Spreadsheet -> Alignment -> Align bottom
+   MenuLocation: Spreadsheet , Alignment , Align bottom
    Workbenches: Spreadsheet_Workbench
    Version: 0.17
 ---

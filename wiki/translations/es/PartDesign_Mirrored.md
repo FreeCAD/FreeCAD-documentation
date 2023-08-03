@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Mirrored
    Name/es: PartDesign Simetría
-   MenuLocation: PartDesign -> Apply a pattern -> Simetría
+   MenuLocation: PartDesign , Apply a pattern , Simetría
    Workbenches: PartDesign_Workbench/es
 ---
 

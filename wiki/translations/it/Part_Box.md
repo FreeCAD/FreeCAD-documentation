@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Box   Name/it: Cubo
    Icon: Part Box.svg
-   MenuLocation: Parte -> Primitive -> Cubo
+   MenuLocation: Parte , Primitive , Cubo
    Workbenches: Part_Workbench/it
    SeeAlso: Part_CreatePrimitives/it
    Version: ?

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/it
+ GuiCommand:Addon/it
    Name: BIM Windows
    Name/it: Finestre BIM
    Workbenches: Image:IFC.svg BIM Workbench/it
    Addon: BIM
-   MenuLocation: Gestione -> Finestre
+   MenuLocation: Gestione , Finestre
 ---
 
 # BIM Windows/it

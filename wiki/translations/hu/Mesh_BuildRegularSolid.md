@@ -1,6 +1,6 @@
 # Mesh BuildRegularSolid/hu
 ---
-- GuiCommand:   Name: Mesh BuildRegularSolid   Workbenches: Mesh Workbench/hu   Háló|MenuLocation: Hálók -> Szabályos tömör test…   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Mesh BuildRegularSolid   Workbenches: Mesh Workbench/hu   Háló|MenuLocation: Hálók , Szabályos tömör test…   Shortcut:    SeeAlso: ---
 
 ## Description
 

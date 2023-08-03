@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Part
    Name/ro: Std Part
    Workbenches: All

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Ortho
    Name/tr: Taslak Orto
-   MenuLocation: Taslak -> Draft Snap/tr -> Orto
+   MenuLocation: Taslak , Draft Snap/tr , Orto
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 

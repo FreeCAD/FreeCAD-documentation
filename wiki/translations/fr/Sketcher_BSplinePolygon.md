@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplinePolygon
    Name/fr: Sketcher Polygone de contrôle d'une B-spline
-   MenuLocation: Esquisse -> Outils d'esquisse des B-splines -> Afficher/masquer le polygone de contrôle de la B-spline
+   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Afficher/masquer le polygone de contrôle de la B-spline
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/fr

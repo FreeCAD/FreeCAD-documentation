@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Legend
    Name/fr: Plot Légende
-   MenuLocation: Plot -> Afficher/Masquer la légende
+   MenuLocation: Plot , Afficher/Masquer la légende
    Workbenches: Plot_Workbench/fr
 ---
 

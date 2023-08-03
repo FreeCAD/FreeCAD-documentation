@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Near
    Name/it: Vicino a
-   MenuLocation: Draft -> Draft Snap/it -> Vicino
+   MenuLocation: Draft , Draft Snap/it , Vicino
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it

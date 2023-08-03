@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves SketchOnSurface
    Name/de: Curves SkizzeAufFläche
-   MenuLocation: Surfaces -> Sketch on Surface
+   MenuLocation: Surfaces , Sketch on Surface
    Workbenches: Curves_Workbench/de
 ---
 

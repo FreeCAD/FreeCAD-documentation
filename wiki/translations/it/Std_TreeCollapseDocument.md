@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_TreeCollapseDocument
    Name/it: Comprimi/Espandi
-   MenuLocation: Visualizza -> Azioni della vista ad albero -> Comprimi/Espandi
+   MenuLocation: Visualizza , Azioni della vista ad albero , Comprimi/Espandi
    Workbenches: Tutti
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/it, Std_TreeMultiDocument/it

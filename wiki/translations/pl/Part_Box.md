@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Box
    Name/pl: Część: Sześcian
-   MenuLocation: Część -> Bryła pierwotna -> Sześcian
+   MenuLocation: Część , Bryła pierwotna , Sześcian
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Primitives/pl
 ---

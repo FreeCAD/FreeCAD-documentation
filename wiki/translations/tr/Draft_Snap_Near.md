@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Near
    Name/tr: Taslak En yakın
-   MenuLocation: Taslak -> Draft Snap/tr -> En yakın
+   MenuLocation: Taslak , Draft Snap/tr , En yakın
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 

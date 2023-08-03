@@ -1,6 +1,6 @@
 # FEM EquationFlux/it
 ---
-- GuiCommand:   Name: FEM_EquationFluxsolver   Name/it: Equazione fluxsolver   Icon: Fem-equation-fluxsolver.svg   MenuLocation:  Solve -> Equazione fluxsolver   ---
+ GuiCommand:   Name: FEM_EquationFluxsolver   Name/it: Equazione fluxsolver   Icon: Fem-equation-fluxsolver.svg   MenuLocation:  Solve , Equazione fluxsolver   ---
 
 
 </div>

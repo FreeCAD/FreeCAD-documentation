@@ -1,6 +1,6 @@
 # Draft Rectangle/sv
 ---
-- GuiCommand:   Name: Draft Rectangle   Name/sv: Draft Rectangle   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Rectangle   Name/sv: Draft Rectangle   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

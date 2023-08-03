@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves ToConsole
    Name/fr: Curves Vers la console
-   MenuLocation: Misc. -> Objects to Console
+   MenuLocation: Misc. , Objects to Console
    Workbenches: Curves_Workbench/fr
 ---
 

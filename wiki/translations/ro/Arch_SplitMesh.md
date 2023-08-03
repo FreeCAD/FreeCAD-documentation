@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SplitMesh
    Name/ro: Arch SplitMesh
-   MenuLocation: Arch -> Utilities -> Split Mesh
+   MenuLocation: Arch , Utilities , Split Mesh
    Workbenches: Arch_Workbench/ro
    SeeAlso: Arch SelectNonSolidMeshes, Arch MeshToShape
 ---

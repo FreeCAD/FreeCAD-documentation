@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PrintPdf
-   MenuLocation: File -> Export PDF...
+   MenuLocation: File , Export PDF...
    Workbenches: All
    SeeAlso: Std_Print, Std_Export, Std_ViewScreenShot
 ---

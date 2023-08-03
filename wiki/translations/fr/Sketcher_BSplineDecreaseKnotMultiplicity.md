@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineDecreaseKnotMultiplicity
    Name/fr: Sketcher Diminuer la multiplicité d'un nœud
-   MenuLocation: Esquisse -> Outils d'esquisse des B-splines -> Diminuer la multiplicité de noeuds
+   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Diminuer la multiplicité de noeuds
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
    SeeAlso: Sketcher_BSplineKnotMultiplicity/fr, Sketcher_BSplineIncreaseKnotMultiplicity/fr

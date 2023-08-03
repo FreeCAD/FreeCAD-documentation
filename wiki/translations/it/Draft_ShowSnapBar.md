@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ShowSnapBar
    Name/it: Barra Snap
-   MenuLocation: Draft -> Utilità -> Mostra barra Snap
+   MenuLocation: Draft , Utilità , Mostra barra Snap
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it
 ---

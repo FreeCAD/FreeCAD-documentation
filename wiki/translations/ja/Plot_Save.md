@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Save
    Name/ja: Plot Save
    Workbenches: Plot Workbench

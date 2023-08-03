@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Delete
    Name/es: Delete
    Workbenches: Todos
-   MenuLocation: Editar -> Borrar
+   MenuLocation: Editar , Borrar
 ---
 
 # Std Delete/es

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Shape2DView
    Name/ro: Draft Shape2DView
    MenuLocation: Draft -> Shape 2D View

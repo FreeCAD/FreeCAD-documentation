@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint PointOnObject
    Name/es: Constraint PointOnObject
    Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
-   MenuLocation: Croquizador -> Restricciones del Croquizador -> Punto en objeto
+   MenuLocation: Croquizador , Restricciones del Croquizador , Punto en objeto
    SeeAlso: Sketcher_ConstrainCoincident/es
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Workbenches: Sketcher Workbench, PartDesign Workbench
-   MenuLocation: Sketch -> Edit sketch
+   MenuLocation: Sketch , Edit sketch
 ---
 
 # Sketcher EditSketch/ro

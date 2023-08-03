@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array
    Name/es: Borrador Arreglo
-   MenuLocation: Borrador -> Arreglo
+   MenuLocation: Borrador , Arreglo
    Workbenches: Draft_Workbench/es
    SeeAlso: Draft_PolarArray/es|Borrador ArregloPolar
 , Draft_CircularArray/es, Draft_PathArray/es, Draft_PointArray/es, Draft_Clone/es

@@ -1,6 +1,6 @@
 # FEM ConstraintSelfWeight/ro
 ---
-- GuiCommand:   Name: FEM ConstraintSelfWeight   Name/ro: FEM ConstraintSelfWeight   MenuLocation: Model -> Mechanical Constraints -> Constraint self weight   ---
+ GuiCommand:   Name: FEM ConstraintSelfWeight   Name/ro: FEM ConstraintSelfWeight   MenuLocation: Model , Mechanical Constraints , Constraint self weight   ---
 
 
 </div>

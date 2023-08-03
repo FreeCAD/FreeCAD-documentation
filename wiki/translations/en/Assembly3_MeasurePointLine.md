@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MeasurePointLine
    Icon: Assembly_MeasurePointLineDistance.svg
    Workbenches: Assembly3_Workbench

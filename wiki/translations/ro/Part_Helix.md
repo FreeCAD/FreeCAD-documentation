@@ -1,6 +1,6 @@
 # Part Helix/ro
 ---
-- GuiCommand:   Name: Part Helix   Name/ro: Part Elice   MenuLocation: Part -> Part_CreatePrimitives/ro   Create Primitives -> Helix,  OpenSCAD_Workbench/ro---
+ GuiCommand:   Name: Part Helix   Name/ro: Part Elice   MenuLocation: Part , Part_CreatePrimitives/ro   Create Primitives , Helix,  OpenSCAD_Workbench/ro---
 
 
 </div>

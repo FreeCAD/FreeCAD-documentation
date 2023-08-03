@@ -1,6 +1,6 @@
 # Sketcher ConstrainPerpendicular/it
 ---
-- GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:   Name: Sketcher ConstrainPerpendicular   Name/it: Perpendicolare   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
 
 
 </div>

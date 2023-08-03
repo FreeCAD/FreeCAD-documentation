@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ProjectUtil
    Name/pl: Std: Narzędzie projektu
-   MenuLocation: Przybory -> Narzędzia projektu ...
+   MenuLocation: Przybory , Narzędzia projektu ...
    Workbenches: wszystkie
 ---
 

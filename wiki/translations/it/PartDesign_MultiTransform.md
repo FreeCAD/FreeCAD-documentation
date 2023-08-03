@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_MultiTransform   Name/it: MultiTrasformazione
    Workbenches: PartDesign Workbench/it
-   MenuLocation: PartDesign -> MultiTrasformazione
+   MenuLocation: PartDesign , MultiTrasformazione
 ---
 
 # PartDesign MultiTransform/it

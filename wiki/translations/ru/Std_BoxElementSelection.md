@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Область выбора элементов
    Name: Std_BoxElementSelection
-   MenuLocation: Правка -> Область выбора элементов
+   MenuLocation: Правка , Область выбора элементов
    Workbenches: Все
    Shortcut: **Shift**+**E**
    SeeAlso: Std_BoxSelection/ru, Std_SelectAll/ru

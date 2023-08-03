@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshNetgenFromShape
-   MenuLocation: Mesh -> FEM mesh from shape by Netgen
+   MenuLocation: Mesh , FEM mesh from shape by Netgen
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

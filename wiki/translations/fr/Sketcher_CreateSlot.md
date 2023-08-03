@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateSlot
    Name/fr: Sketcher Contour oblong
-   MenuLocation: Esquisse -> Géométries d'esquisse -> Créer un contour oblong
+   MenuLocation: Esquisse , Géométries d'esquisse , Créer un contour oblong
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **S**
 ---

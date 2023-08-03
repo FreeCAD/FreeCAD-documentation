@@ -1,6 +1,6 @@
 # Part RegularPolygon/it
 ---
-- GuiCommand:   Name: Part RegularPolygon   Name/it: Poligono regolare   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Poligono regolare---
+ GuiCommand:   Name: Part RegularPolygon   Name/it: Poligono regolare   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Poligono regolare---
 
 
 </div>

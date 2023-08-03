@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CutLine
    Name/de: Arch SchneideLinie
-   MenuLocation: Arch -> Schneiden mit einer Linie
+   MenuLocation: Arch , Schneiden mit einer Linie
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_CutPlane/de
    Version: 0.19

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Horizontal Extent
    Name/de: TechDraw MaßHorizontaleAusdehnung
-   MenuLocation: TechDraw -> Maßeinträge -> Maß für die horizontale Ausdehnung einfügen
+   MenuLocation: TechDraw , Maßeinträge , Maß für die horizontale Ausdehnung einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_LengthDimension/de, TechDraw_VerticalExtentDimension/de

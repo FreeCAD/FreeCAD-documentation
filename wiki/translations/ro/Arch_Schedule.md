@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Schedule
    Name/ro: Arch Schedule
-   MenuLocation: Arch -> Schedule
+   MenuLocation: Arch , Schedule
    Workbenches: Arch_Workbench/ro
    SeeAlso: Arch Equipment
 ---

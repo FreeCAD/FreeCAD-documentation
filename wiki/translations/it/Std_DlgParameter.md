@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_DlgParameter
    Name/it: Modifica parametri
-   MenuLocation: Strumenti -> Modifica parametri...
+   MenuLocation: Strumenti , Modifica parametri...
    Workbenches: Tutti
    SeeAlso: Preferences_Editor/it
 ---

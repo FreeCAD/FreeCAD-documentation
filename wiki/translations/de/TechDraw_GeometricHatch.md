@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw GeometricHatch
    Name/de: TechDraw GeometrischeSchraffur
-   MenuLocation: TechDraw -> Hatching -> Fläche mit einer geometrischen Schraffur versehen
+   MenuLocation: TechDraw , Hatching , Fläche mit einer geometrischen Schraffur versehen
    Workbenches: TechDraw_Workbench/de
    SeeAlso: TechDraw_Hatch/de, TechDraw_Hatching/de
 ---

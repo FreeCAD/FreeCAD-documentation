@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewBoxZoom
    Name/ru: Std ViewBoxZoom
    Workbenches: All
-   MenuLocation: Вид -> Масштаб‏‎ -> Увеличить область
+   MenuLocation: Вид , Масштаб‏‎ , Увеличить область
    Shortcut: **Ctrl**+**B**
    SeeAlso: Std_ViewZoomIn/ru, Std_ViewZoomOut/ru
 ---

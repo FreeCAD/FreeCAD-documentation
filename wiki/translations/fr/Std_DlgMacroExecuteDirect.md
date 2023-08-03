@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgMacroExecuteDirect
    Name/fr: Std Lancer la macro
-   MenuLocation: Macro -> Lancer la macro
+   MenuLocation: Macro , Lancer la macro
    Workbenches: Tous
    Shortcut: **Ctrl**+**F6**
    SeeAlso: Std_DlgMacroExecute/fr

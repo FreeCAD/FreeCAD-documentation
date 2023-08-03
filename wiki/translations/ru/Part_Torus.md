@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Torus
    Name/ru: Тор
-   MenuLocation: Деталь -> Примитивы -> Тор
+   MenuLocation: Деталь , Примитивы , Тор
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

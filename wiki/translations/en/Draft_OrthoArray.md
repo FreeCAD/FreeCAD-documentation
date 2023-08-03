@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft OrthoArray
-   MenuLocation: Modification -> Array tools -> Array
+   MenuLocation: Modification , Array tools , Array
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
    SeeAlso: Draft_PolarArray, Draft_CircularArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray

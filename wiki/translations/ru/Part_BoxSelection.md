@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выделить область
    Name: Part_BoxSelection
-   MenuLocation: Part -> Выделить область
+   MenuLocation: Part , Выделить область
    Workbenches: Part_Workbench/ru
    Version: 0.18
    SeeAlso: Std_BoxSelection/ru, Std_BoxElementSelection/ru, Std_SelectAll/ru

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Axis
    Name/uk: Arch Axis
    Workbenches: Arch_Workbench/uk

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeCollapseDocument
-   MenuLocation: View -> TreeView actions -> Collapse/Expand
+   MenuLocation: View , TreeView actions , Collapse/Expand
    Workbenches: All
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument, Std_TreeMultiDocument

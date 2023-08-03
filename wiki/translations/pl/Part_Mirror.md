@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Mirror
    Name/pl: Część: Odbicie lustrzane
-   MenuLocation: Część -> Odbicie lustrzane ...
+   MenuLocation: Część , Odbicie lustrzane ...
    Workbenches: Part_Workbench/pl
 ---
 

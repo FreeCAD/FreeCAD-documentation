@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 GoToRelation
    Icon: Assembly_GotoRelation.svg
-   MenuLocation: Assembly3 -> Go to relation
+   MenuLocation: Assembly3 , Go to relation
    Workbenches: Assembly3_Workbench
    Shortcut: **A** **R**
 ---

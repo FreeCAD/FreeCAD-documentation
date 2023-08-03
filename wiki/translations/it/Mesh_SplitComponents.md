@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SplitComponents
-   MenuLocation: Meshes -> Split by components
+   MenuLocation: Meshes , Split by components
    Workbenches: Mesh_Workbench
    Version: 0.19
    SeeAlso: Mesh_Merge

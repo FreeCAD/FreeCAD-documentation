@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Paste
    Name/pl: Std: Wklej
-   MenuLocation: Edycja -> Wklej
+   MenuLocation: Edycja , Wklej
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **V**
    SeeAlso: Std_Cut/pl, Std_Copy/pl, Std_DuplicateSelection/pl

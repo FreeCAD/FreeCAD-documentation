@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw StackDown
    Name/fr: TechDraw Empiler vers le bas
-   MenuLocation: TechDraw -> Empiler -> Déplacer la vue vers le bas d'un niveau
+   MenuLocation: TechDraw , Empiler , Déplacer la vue vers le bas d'un niveau
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.21

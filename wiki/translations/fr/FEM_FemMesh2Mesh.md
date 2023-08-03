@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM FemMesh2Mesh
    Name/fr: FEM Maillage FEM à maillage
-   MenuLocation: Maillage -> Maillage FEM à maillage
+   MenuLocation: Maillage , Maillage FEM à maillage
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---

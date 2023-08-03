@@ -1,6 +1,6 @@
 # Plot Grid/ro
 ---
-- GuiCommand:   Name: Plot Grid   MenuLocation: Plot -> Grid‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Grid   MenuLocation: Plot , Grid‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

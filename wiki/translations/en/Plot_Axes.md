@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Plot Axes
-   MenuLocation: Plot -> Configure axes
+   MenuLocation: Plot , Configure axes
    Workbenches: Plot_Workbench
 ---
 

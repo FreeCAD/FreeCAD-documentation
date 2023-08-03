@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot TrajectoryCompound
-   MenuLocation: Robot -> TrajectoryCompound
+   MenuLocation: Robot , TrajectoryCompound
    Workbenches: Robot_Workbench
 ---
 

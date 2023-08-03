@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ClippingPlaneRemoveAll
    Name/de: FEM AlleSchnittebenenEntfernen
-   MenuLocation: Dienstprogramme -> Alle Schnittebenen entfernen
+   MenuLocation: Dienstprogramme , Alle Schnittebenen entfernen
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

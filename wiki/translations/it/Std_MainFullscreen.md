@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_MainFullscreen
    Name/it: Schermo intero
-   MenuLocation: Visualizza -> Schermo intero
+   MenuLocation: Visualizza , Schermo intero
    Workbenches: All
    Shortcut: **Alt**+**F11**
    SeeAlso: Std_ViewFullscreen/it

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectricforce
    Name/de: FEM GleichungElektrischeKraft
-   MenuLocation: Lösen -> Electromagnetic Equations -> Gleichung für elektrische Kraft
+   MenuLocation: Lösen , Electromagnetic Equations , Gleichung für elektrische Kraft
    Workbenches: FEM_Workbench/de
    Version: 0.19
    SeeAlso: FEM_EquationElectrostatic/de

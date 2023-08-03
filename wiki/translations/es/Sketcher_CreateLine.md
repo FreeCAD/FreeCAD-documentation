@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateLine
    Name/es: Croquizador CrearLínea
-   MenuLocation: Croquis -> Geometría de croquizador -> Crear línea
+   MenuLocation: Croquis , Geometría de croquizador , Crear línea
    Workbenches: Sketcher_Workbench/es
    Shortcut: L
    SeeAlso: Sketcher_CreatePolyline/es

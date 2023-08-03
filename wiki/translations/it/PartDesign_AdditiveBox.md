@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveBox
    Name/it: Cubo additivo
    Workbenches: PartDesign Workbench/it
-   MenuLocation: Part Design -> Crea una primitiva additiva -> Cubo
+   MenuLocation: Part Design , Crea una primitiva additiva , Cubo
    Version: 0.17
    SeeAlso: PartDesign CompPrimitiveAdditive/it
 ---

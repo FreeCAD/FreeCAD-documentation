@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh PolyCut
    Name/de: Mesh PolygonSchnitt
-   MenuLocation: Netze -> Schneiden -> Netz schneiden
+   MenuLocation: Netze , Schneiden , Netz schneiden
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_PolyTrim/de, Mesh_TrimByPlane/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MultiplyConstraint
    Icon: Assembly_ConstraintMultiply.svg‎‎
-   MenuLocation: Assembly3 -> Multiply constraint
+   MenuLocation: Assembly3 , Multiply constraint
    Workbenches: Assembly3_Workbench
 ---
 

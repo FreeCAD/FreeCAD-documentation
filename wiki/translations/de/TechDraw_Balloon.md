@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Balloon
    Name/de:  TechDraw Hinweisfeld
-   MenuLocation: TechDraw -> Anmerkungen -> Hinweisfeld einfügen
+   MenuLocation: TechDraw , Anmerkungen , Hinweisfeld einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_Annotation/de

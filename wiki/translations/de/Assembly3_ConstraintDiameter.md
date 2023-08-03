@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintDiameter
    Name/de: Assembly3 Durchmesser
    Icon: Assembly_ConstraintDiameter.svg

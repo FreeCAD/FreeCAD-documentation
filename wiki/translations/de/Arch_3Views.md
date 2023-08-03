@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch 3Views
    Name/de: Arch 3Ansichten
-   MenuLocation: Arch -> Dienstprogramme -> 3 Ansichten aus Netz
+   MenuLocation: Arch , Dienstprogramme , 3 Ansichten aus Netz
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_SplitMesh/de, Arch_MeshToShape/de
 ---

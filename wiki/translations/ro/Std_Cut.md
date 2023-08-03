@@ -1,6 +1,6 @@
 # Std Cut/ro
 ---
-- GuiCommand:   Name: Std Cut   MenuLocation: Std_Edit_Menu   Edit -> Cut, Std Paste, Std Delete---
+ GuiCommand:   Name: Std Cut   MenuLocation: Std_Edit_Menu   Edit , Cut, Std Paste, Std Delete---
 
 
 </div>

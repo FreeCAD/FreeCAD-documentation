@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CompCreateBSpline
    Name/fr: Sketcher B-splines
    Workbenches: Sketcher_Workbench/fr

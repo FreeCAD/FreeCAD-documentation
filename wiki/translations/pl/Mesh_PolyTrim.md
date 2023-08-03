@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh PolyTrim
    Name/pl: Siatka Przytnij
-   MenuLocation: Siatki -> Cięcie -> Przytnij siatkę
+   MenuLocation: Siatki , Cięcie , Przytnij siatkę
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_PolyCut/pl, Mesh_TrimByPlane/pl
 ---

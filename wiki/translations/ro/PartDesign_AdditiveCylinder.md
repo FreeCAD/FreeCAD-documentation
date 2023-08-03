@@ -1,6 +1,6 @@
 # PartDesign AdditiveCylinder/ro
 ---
-- GuiCommand:   Name: PartDesign AdditiveCylinder   Workbenches: PartDesign Workbench   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveCylinder   Workbenches: PartDesign Workbench   PartDesign---
 
 
 </div>

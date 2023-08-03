@@ -1,6 +1,6 @@
 # Arch SplitMesh/cs
 ---
-- GuiCommand:   Name: Arch SplitMesh   Name/cs: Arch Rozděl síť   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch SplitMesh   Name/cs: Arch Rozděl síť   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves ReflectLines
    Name/fr: Curves Ligne réfléchie
-   MenuLocation: Surfaces -> Reflect Lines
+   MenuLocation: Surfaces , Reflect Lines
    Workbenches: Curves_Workbench/fr
 ---
 

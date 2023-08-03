@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Schedule
-   MenuLocation: Arch -> Schedule
+   MenuLocation: Arch , Schedule
    Workbenches: Arch_Workbench
    SeeAlso: Arch_Equipment
 ---

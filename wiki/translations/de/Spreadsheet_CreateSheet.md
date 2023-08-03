@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet CreateSheet
    Name/de: Kalkulationstabelle ErstelleArbeitsblatt
-   MenuLocation: Kalkulationstabelle -> Erstelle Kalkulationstabelle
+   MenuLocation: Kalkulationstabelle , Erstelle Kalkulationstabelle
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
 ---

@@ -1,6 +1,6 @@
 # Path DressupDragKnife/it
 ---
-- GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Trascina lama   Workbenches: Path Workbench/it   Path, Path_DressupRampEntry/it, Path_DressupDogbone/it ---
+ GuiCommand:   Name: Path DressupTag   Name/it: Vestizione Trascina lama   Workbenches: Path Workbench/it   Path, Path_DressupRampEntry/it, Path_DressupDogbone/it ---
 
 
 </div>

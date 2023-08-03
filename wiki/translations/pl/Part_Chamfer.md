@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Chamfer
    Name/pl: Część: Sfazowanie
-   MenuLocation: Część -> Sfazowanie ...
+   MenuLocation: Część , Sfazowanie ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Fillet/pl
 ---

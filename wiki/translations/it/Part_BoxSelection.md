@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part BoxSelection
    Name/it: Part BoxSelection
-   MenuLocation: Part -> Box di selezione
+   MenuLocation: Part , Box di selezione
    Workbenches: Part_Workbench/it
    Version: 0.18
    SeeAlso: Std_BoxSelection/it, Std_BoxElementSelection/it, Std_SelectAll/it

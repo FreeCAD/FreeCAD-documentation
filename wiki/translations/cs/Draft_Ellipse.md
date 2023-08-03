@@ -1,6 +1,6 @@
 # Draft Ellipse/cs
 ---
-- GuiCommand:   Name: Draft_Ellipse   Name/cs: Kreslení Elipsa   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft_Ellipse   Name/cs: Kreslení Elipsa   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

@@ -1,6 +1,6 @@
 # FEM ConstraintTransform/ro
 ---
-- GuiCommand:   Name: FEM ConstraintTransform   MenuLocation:  Model -> Mechanical constraints -> Constraint transform   ---
+ GuiCommand:   Name: FEM ConstraintTransform   MenuLocation:  Model , Mechanical constraints , Constraint transform   ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Import
    Name/ko: 표준 가져오기
-   MenuLocation: 파일 -> 가져오기...
+   MenuLocation: 파일 , 가져오기...
    Workbenches: 모두
    Shortcut: **Ctrl**+**I**
    SeeAlso: Std_Open/ko, Import_Export/ko, Import_Export_Preferences/ko

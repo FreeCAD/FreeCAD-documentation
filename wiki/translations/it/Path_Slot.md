@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path_Slot
    Name/it: Scanalatura
    Workbenches: Path Workbench/it
-   MenuLocation: Path -> Scanalatura
+   MenuLocation: Path , Scanalatura
    Shortcut: 
    Version: 0.19
    SeeAlso: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 CreateElement
    Icon: Assembly_New_Element.svg
-   MenuLocation: Assembly3 -> Create element
+   MenuLocation: Assembly3 , Create element
    Workbenches: Assembly3_Workbench
    Shortcut: **A** **E**
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Line
    Name/ru: Линия
-   MenuLocation: Деталь -> Part_Primitives/ru -> Линия
+   MenuLocation: Деталь , Part_Primitives/ru , Линия
    Workbenches: Part_Workbench/ru,  OpenSCAD_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

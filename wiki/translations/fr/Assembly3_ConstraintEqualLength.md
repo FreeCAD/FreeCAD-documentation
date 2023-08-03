@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintEqualLength
    Name/fr: Assembly3 Contrainte égalité longueur
    Icon: Assembly_ConstraintEqualLength.svg

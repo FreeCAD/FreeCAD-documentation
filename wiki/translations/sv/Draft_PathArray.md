@@ -1,6 +1,6 @@
 # Draft PathArray/sv
 ---
-- GuiCommand:   Name: Draft PathArray   Name/sv: Draft PathArray   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv ---
+ GuiCommand:   Name: Draft PathArray   Name/sv: Draft PathArray   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv ---
 
 
 </div>

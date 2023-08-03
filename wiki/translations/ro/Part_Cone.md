@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cone
    Name/ro: Part Cone
    MenuLocation: Part -> Cone

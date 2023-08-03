@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewLoadImage
    Name/it: Carica immagine
-   MenuLocation: Strumenti -> Carica immagine...
+   MenuLocation: Strumenti , Carica immagine...
    Workbenches: Tutti
    Version/it: 0.21
 ---

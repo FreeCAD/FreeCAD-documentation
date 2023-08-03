@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM CompMechEquations
    MenuLocation: 
    Workbenches: FEM_Workbench

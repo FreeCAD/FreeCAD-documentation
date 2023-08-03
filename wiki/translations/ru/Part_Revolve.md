@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Revolve
    Name/ru: Вращать
-   MenuLocation: Деталь -> Вращать...
+   MenuLocation: Деталь , Вращать...
    Workbenches: Part_Workbench/ru
    SeeAlso: 
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Export‎
    Name/pl: Część: Eksport projektu do CAD ...
-   MenuLocation: Część -> Eksport projektu do CAD
+   MenuLocation: Część , Eksport projektu do CAD
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Import/pl, Std_Export/pl, Import_Export/pl
 ---

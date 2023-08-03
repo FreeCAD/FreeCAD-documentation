@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Проект
    Name: Arch_Project
-   MenuLocation: Arch -> Проект
+   MenuLocation: Arch , Проект
    Workbenches: Arch_Workbench/ru
    Shortcut: **P** **O**
    SeeAlso: Arch_Site/ru, Arch_Building/ru

@@ -1,12 +1,12 @@
 # Part Prism/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/tr: Parça Prizma
-   MenuLocation: Parça -> Part_CreatePrimitives/tr -> Prizma
+   MenuLocation: Parça , Part_CreatePrimitives/tr , Prizma
    Workbenches: Part Workbench/tr
    Version: 0.14
-   SeeAlso: Parça -> Temel Geometrik Şekil -> Part_Box/tr---
+   SeeAlso: Parça , Temel Geometrik Şekil , Part_Box/tr---
 
 
 </div>

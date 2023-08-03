@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh AddFacet
    Name/fr: Mesh Ajouter un triangle
-   MenuLocation: Maillages -> Ajouter un triangle
+   MenuLocation: Maillages , Ajouter un triangle
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_FillupHoles/fr, Mesh_FillInteractiveHole/fr
 ---

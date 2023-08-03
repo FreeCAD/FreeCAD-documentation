@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_LinkImport
    Name/it: Importa un link
    MenuLocation: Nessuna

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PolarArray
-   MenuLocation: Modification -> Array tools -> Polar array
+   MenuLocation: Modification , Array tools , Polar array
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.19
    SeeAlso: Draft_OrthoArray, Draft_CircularArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray

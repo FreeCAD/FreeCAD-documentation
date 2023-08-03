@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/ru: Показывать сетку
-   MenuLocation: Черчение -> Вспомогательные -> Показывать сетку
+   MenuLocation: Черчение , Вспомогательные , Показывать сетку
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **G** **R**
    SeeAlso: Draft_Snap/ru, Draft_Snap_Lock/ru

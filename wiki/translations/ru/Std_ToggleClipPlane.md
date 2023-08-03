@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Плоскость сечения
    Name: Std_ToggleClipPlane
-   MenuLocation: Вид -> Плоскость сечения
+   MenuLocation: Вид , Плоскость сечения
    Workbenches: Все
 ---
 

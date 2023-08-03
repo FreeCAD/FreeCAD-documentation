@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreezeViews
    Name/fr: Std Figer l'affichage
-   MenuLocation: Affichage -> Figer l'affichage -> ...
+   MenuLocation: Affichage , Figer l'affichage , ...
    Workbenches: Tous
    SeeAlso: Std_ViewIvIssueCamPos/fr
    SeeAlso: Std_StoreWorkingView/fr, Std_RecallWorkingView/fr, Std_ViewIvIssueCamPos/fr

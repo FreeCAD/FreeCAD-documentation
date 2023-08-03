@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal_Relief
    Name/it: Scarico
-   MenuLocation: SheetMetal -> Relief
+   MenuLocation: SheetMetal , Relief
    Workbenches: SheetMetal Workbench/it
    Shortcut: None
    Version: 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Create3PointCircle
-   MenuLocation: Sketch -> Sketcher geometries -> Create circle by three points
+   MenuLocation: Sketch , Sketcher geometries , Create circle by three points
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **3** **C**
    SeeAlso: 

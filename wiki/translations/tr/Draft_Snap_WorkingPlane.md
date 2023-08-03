@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap WorkingPlane
    Name/tr: Taslak Çalışma düzlemi
-   MenuLocation: Taslak -> Draft Snap/tr -> Çalışma düzlemi
+   MenuLocation: Taslak , Draft Snap/tr , Çalışma düzlemi
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 

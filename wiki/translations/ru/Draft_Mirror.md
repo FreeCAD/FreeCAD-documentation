@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Отразить
    Name: Draft_Mirror
-   MenuLocation: Modification -> Отразить
+   MenuLocation: Modification , Отразить
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **M** **I**
    SeeAlso: Draft_Clone/ru

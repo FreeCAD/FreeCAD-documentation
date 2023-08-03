@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MirrorSketch
    Name/pl: Szkicownik: Odbicie lustrzane szkicu
-   MenuLocation: Szkic -> Odbicie lustrzane szkicu
+   MenuLocation: Szkic , Odbicie lustrzane szkicu
    Workbenches: Sketcher_Workbench/pl
    Version: 0.16
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft WireToBSpline
    Name/ro: Draft WireToBSpline
-   MenuLocation: Drafting ->  Wire to BSpline
+   MenuLocation: Drafting ,  Wire to BSpline
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
 ---
 

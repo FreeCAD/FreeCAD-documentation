@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher constrain radius or diameter
    MenuLocation: 
    Workbenches: Sketcher Workbench

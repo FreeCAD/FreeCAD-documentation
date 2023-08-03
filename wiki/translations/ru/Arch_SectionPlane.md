@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SectionPlane
    Name/ru: Arch SectionPlane
    MenuLocation: Архитектура -> Плоскость сечения

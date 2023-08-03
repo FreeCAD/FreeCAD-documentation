@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Reorient
    Name/es: Sketcher Reorient
    Empty: 1
    Workbenches: Sketcher Workbench/es, PartDesign Workbench/es
-   MenuLocation: Part design -> Reorient sketch
+   MenuLocation: Part design , Reorient sketch
    SeeAlso: Sketcher_MapSketch/es, Sketcher_NewSketch/es
 ---
 

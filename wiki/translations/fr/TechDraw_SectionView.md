@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw SectionView
    Name/fr: TechDraw Vue en coupe
-   MenuLocation: TechDraw -> Vues de Techdraw -> Insérer une vue en coupe
+   MenuLocation: TechDraw , Vues de Techdraw , Insérer une vue en coupe
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_ComplexSection/fr, TechDraw_View/fr, TechDraw_ProjectionGroup/fr
 ---

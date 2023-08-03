@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивный трубный профиль
    Name: PartDesign_AdditivePipe
-   MenuLocation: PartDesign -> Create an additive feature -> Аддитивный трубный профиль
+   MenuLocation: PartDesign , Create an additive feature , Аддитивный трубный профиль
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_AdditiveLoft/ru, PartDesign_SubtractivePipe/ru

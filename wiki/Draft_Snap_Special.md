@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.17

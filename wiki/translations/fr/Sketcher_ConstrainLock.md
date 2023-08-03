@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/fr: Sketcher Contrainte fixe
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte fixe
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte fixe
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **L**
    SeeAlso: Sketcher_ConstrainBlock/fr

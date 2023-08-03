@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/es: Sketcher Move
    Icon: Sketcher_Move.svg
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Sketch -> Herramientas de croquis -> Move
+   MenuLocation: Sketch , Herramientas de croquis , Move
    Shortcut: Ctrl + M
    Version: 0.18
    SeeAlso: Sketcher Clone/es, Sketcher Copy/es

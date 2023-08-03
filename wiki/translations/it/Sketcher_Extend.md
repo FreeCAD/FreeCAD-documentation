@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Extend
    Name/it: Estendi bordo
    Icon: Sketcher Extend.svg
-   MenuLocation: Sketch -> Geometrie -> Estendi bordo
+   MenuLocation: Sketch , Geometrie , Estendi bordo
    Workbenches: Sketcher Workbench/it
    SeeAlso: Sketcher Trimming/it
    Version: 0.17

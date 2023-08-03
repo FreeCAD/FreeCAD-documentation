@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Экспорт листа в SVG
    Name: TechDraw_ExportPageSVG
-   MenuLocation: TechDraw -> Экспорт листа в SVG
+   MenuLocation: TechDraw , Экспорт листа в SVG
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_Templates/ru, Draft_SVG/ru
 ---

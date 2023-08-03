@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать фигуру из полигональной сетки
    Name: Part_ShapeFromMesh‏‎
-   MenuLocation: Part -> Создание фигуры из полигональной сетки...
+   MenuLocation: Part , Создание фигуры из полигональной сетки...
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_MakeSolid/ru, Part_RefineShape/ru, Part_PointsFromMesh/ru
 ---

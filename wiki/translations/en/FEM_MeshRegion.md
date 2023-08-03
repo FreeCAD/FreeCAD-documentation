@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshRegion
-   MenuLocation: Mesh -> FEM mesh region
+   MenuLocation: Mesh , FEM mesh region
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

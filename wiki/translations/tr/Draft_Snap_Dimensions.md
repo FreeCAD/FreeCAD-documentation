@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Dimensions
    Name/tr: Taslak Boyutlar
-   MenuLocation: Taslak -> Draft Snap/tr -> Boyutlar
+   MenuLocation: Taslak , Draft Snap/tr , Boyutlar
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 

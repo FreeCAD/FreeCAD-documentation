@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Ellipsoid
    Name/ru: Эллипсоид
-   MenuLocation: Деталь -> Part_Primitives/ru -> Эллипсоид
+   MenuLocation: Деталь , Part_Primitives/ru , Эллипсоид
    Workbenches: Part_Workbench/ru,  OpenSCAD_Workbench/ru
    SeeAlso: Part_Primitives/ru
 ---

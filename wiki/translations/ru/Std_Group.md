@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать группу
    Name: Std_Group
-   MenuLocation: Tree_view/ru -> Правый клик на имени документа -> Создать группу
+   MenuLocation: Tree_view/ru , Правый клик на имени документа , Создать группу
    Workbenches: Все
    Shortcut: 
    Version: 

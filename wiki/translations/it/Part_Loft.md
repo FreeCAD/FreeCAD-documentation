@@ -1,6 +1,6 @@
 # Part Loft/it
 ---
-- GuiCommand:   Name: Part Loft   Name/it: Loft   MenuLocation: Part -> Loft...   ---
+ GuiCommand:   Name: Part Loft   Name/it: Loft   MenuLocation: Part , Loft...   ---
 
 
 </div>

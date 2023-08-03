@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part SliceApart
    Name/pl: Część: Rozetnij
-   MenuLocation: Część -> Rozdziel -> Rozetnij
+   MenuLocation: Część , Rozdziel , Rozetnij
    Workbenches: Part_Workbench/pl
    Version: 0.18
    SeeAlso: Part_Slice/pl, Part_ExplodeCompound/pl

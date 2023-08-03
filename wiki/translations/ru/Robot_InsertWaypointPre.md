@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot InsertWaypointPre
    Name/ru: Robot InsertWaypointPre
-   MenuLocation: Робот -> Вставить в траекторию
+   MenuLocation: Робот , Вставить в траекторию
    Workbenches: Robot_Workbench/ru
    Shortcut: **W**
    SeeAlso: Robot_CreateTrajectory/ru, Robot_InsertWaypoint/ru

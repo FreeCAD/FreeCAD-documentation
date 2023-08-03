@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewScreenShot
    Name/ru: Std ViewScreenShot
-   MenuLocation: Инструменты -> Сохранить изображение...
+   MenuLocation: Инструменты , Сохранить изображение...
    Workbenches: Все
    SeeAlso: Std_Print/ru, Std_PrintPdf/ru
 ---

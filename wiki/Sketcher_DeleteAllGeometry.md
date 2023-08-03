@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher DeleteAllGeometry
-   MenuLocation: Sketch -> Sketcher tools -> Delete all geometry
+   MenuLocation: Sketch , Sketcher tools , Delete all geometry
    Workbenches: Sketcher_Workbench
    Version: 0.18
    SeeAlso: Sketcher_DeleteAllConstraints

@@ -1,6 +1,6 @@
 # Std Delete/ro
 ---
-- GuiCommand:   Name: Std Delete   Workbenches: All   MenuLocation: Std Edit Menu -> Delete---
+ GuiCommand:   Name: Std Delete   Workbenches: All   MenuLocation: Std Edit Menu , Delete---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Horizontal Extent
    Name/it: Estensione orizzontale
-   MenuLocation: TechDraw -> Estensione orizzontale
+   MenuLocation: TechDraw , Estensione orizzontale
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_LengthDimension/it, TechDraw_VerticalExtentDimension/it
 ---

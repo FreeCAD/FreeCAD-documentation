@@ -1,8 +1,8 @@
 # Plot Labels/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: Etiket
-   MenuLocation: Arsa -> Etiket
+   MenuLocation: Arsa , Etiket
 ‏‎   
    Shortcut: 
    SeeAlso: ---

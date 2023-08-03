@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Torus
    Name/fr: Part Tore
-   MenuLocation: Part -> Primitives -> Tore
+   MenuLocation: Part , Primitives , Tore
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---

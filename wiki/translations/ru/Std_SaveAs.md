@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_SaveAs
    Name/ru: Сохранить как...
-   MenuLocation: Std_File_Menu/ru -> Сохранить как...
+   MenuLocation: Std_File_Menu/ru , Сохранить как...
    Workbenches: Все
    SeeAlso: Std_SaveCopy/ru,<br> Std_Save/ru
 ---

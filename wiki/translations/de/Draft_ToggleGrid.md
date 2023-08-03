@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/de: Draft RasterUmschalten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

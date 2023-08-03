@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw FaceCenterLine
-   MenuLocation: TechDraw -> Add Lines -> Add Centerline to Faces
+   MenuLocation: TechDraw , Add Lines , Add Centerline to Faces
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_2LineCenterLine, TechDraw_2PointCenterLine

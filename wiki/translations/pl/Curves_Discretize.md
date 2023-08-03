@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves Discretize
-   MenuLocation: Curves -> Discretize
+   MenuLocation: Curves , Discretize
    Workbenches: Curves_Workbench
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset
    Name/de: Part Versatz
-   MenuLocation: Formteil -> 3D-Versatz...
+   MenuLocation: Formteil , 3D-Versatz...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Thickness/de, Part_Offset2D/de
 ---

@@ -1,6 +1,6 @@
 # Robot TrajectoryCompound/es
 ---
-- GuiCommand:   Name: Robot TrajectoryCompound   Name/es: Robot TrajectoryCompound   Workbenches: Robot_Workbench/es   Robot|MenuLocation: Robot -> TrajectoryCompound---
+ GuiCommand:   Name: Robot TrajectoryCompound   Name/es: Robot TrajectoryCompound   Workbenches: Robot_Workbench/es   Robot|MenuLocation: Robot , TrajectoryCompound---
 
 
 </div>

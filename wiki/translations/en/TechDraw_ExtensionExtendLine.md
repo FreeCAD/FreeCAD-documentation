@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionExtendLine
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Extend Line
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Extend Line
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

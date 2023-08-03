@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Merge
    Name/fr: Mesh Fusionner
-   MenuLocation: Maillages -> Fusionner
+   MenuLocation: Maillages , Fusionner
    Workbenches: Mesh_Workbench/fr
    SeeAlso: Mesh_SplitComponents/fr
 ---

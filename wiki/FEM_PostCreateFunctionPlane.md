@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionPlane
-   MenuLocation: Results -> Filter Functions -> Plane
+   MenuLocation: Results , Filter Functions , Plane
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

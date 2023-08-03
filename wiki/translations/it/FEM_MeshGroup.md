@@ -1,6 +1,6 @@
 # FEM MeshGroup/it
 ---
-- GuiCommand:   Name: FEM_MeshGroup   Name/it: FEM MeshGroup   MenuLocation:  Mesh -> FEM Mesh group   ---
+ GuiCommand:   Name: FEM_MeshGroup   Name/it: FEM MeshGroup   MenuLocation:  Mesh , FEM Mesh group   ---
 
 ## Descrizione
 

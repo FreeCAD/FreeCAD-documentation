@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher LeaveSketch
    Name/fr: Sketcher Quitter l'esquisse
-   MenuLocation: Esquisse -> Quitter l'esquisse
+   MenuLocation: Esquisse , Quitter l'esquisse
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_EditSketch/fr
 ---

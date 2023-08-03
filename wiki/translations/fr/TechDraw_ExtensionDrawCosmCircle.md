@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionDrawCosmCircle
    Name/fr: TechDraw Cercle
-   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Cercle
+   MenuLocation: TechDraw , Extensions : taraudages/filetages , Cercle
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Назад
    Name: Std_SelBack
    MenuLocation: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Export‏‎
    Name/fr: Part Exportation
-   MenuLocation: Part -> Exporter un fichier de CAO...
+   MenuLocation: Part , Exporter un fichier de CAO...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Import/fr, Std_Export/fr, Import_Export/fr
 ---

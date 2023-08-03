@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintSectionPrint
    Name/fr: FEM Contrainte d'empreinte de section
-   MenuLocation: Modèle -> Contraintes géométriques -> Contrainte d'empreinte de section
+   MenuLocation: Modèle , Contraintes géométriques , Contrainte d'empreinte de section
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: 

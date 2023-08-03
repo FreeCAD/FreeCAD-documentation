@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing View
    Workbenches: Drawing Workbench, Complete
-   MenuLocation: Drawing -> Insert view in drawing
+   MenuLocation: Drawing , Insert view in drawing
    Shortcut: none
    SeeAlso: Drawing Landscape A3
 ---

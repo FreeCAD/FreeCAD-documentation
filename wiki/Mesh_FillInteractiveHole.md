@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh FillInteractiveHole
-   MenuLocation: Meshes -> Close hole
+   MenuLocation: Meshes , Close hole
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_FillupHoles, Mesh_AddFacet
 ---

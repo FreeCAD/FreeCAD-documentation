@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/it
 ---
-- GuiCommand:   Name: Sketcher CreateCircle   Name/it: Cerchio   Workbenches: Sketcher Workbench/it   Sketcher---
+ GuiCommand:   Name: Sketcher CreateCircle   Name/it: Cerchio   Workbenches: Sketcher Workbench/it   Sketcher---
 
 
 </div>

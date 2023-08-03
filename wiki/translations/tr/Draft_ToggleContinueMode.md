@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleContinueMode
    Name/tr: Devam modunu değiştir
-   MenuLocation: Draft -> Utilities -> Toggle continue mode
+   MenuLocation: Draft , Utilities , Toggle continue mode
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 

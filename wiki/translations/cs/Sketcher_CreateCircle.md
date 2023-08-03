@@ -1,6 +1,6 @@
 # Sketcher CreateCircle/cs
 ---
-- GuiCommand:   Name: Sketcher CreateCircle   Name/cs: Skicář Kružnice   Workbenches: Sketcher Workbench/cs   Skicář---
+ GuiCommand:   Name: Sketcher CreateCircle   Name/cs: Skicář Kružnice   Workbenches: Sketcher Workbench/cs   Skicář---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name/zh-cn: 映射草图至面...
    Name: Sketcher_MapSketch
-   MenuLocation: Part Design/Sketch -> 映射草图至面...
+   MenuLocation: Part Design/Sketch , 映射草图至面...
    Workbenches: Sketcher_Workbench/zh-cn, PartDesign_Workbench/zh-cn
    SeeAlso: Sketcher_NewSketch/zh-cn
 ---

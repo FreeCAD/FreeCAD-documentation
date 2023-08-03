@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: WebTools Sketchfab
    Name/fr: WebTools Sketchfab
-   MenuLocation: Web Tools -> Sketchfab
+   MenuLocation: Web Tools , Sketchfab
 |
    Workbenches: WebTools_Workbench/fr
    Shortcut: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Копировать
    Name: Sketcher_Copy
-   MenuLocation: Sketch -> Инструменты для эскиза -> Копировать
+   MenuLocation: Sketch , Инструменты для эскиза , Копировать
    Workbenches: Sketcher_Workbench/ru
    Version: 0.16
    SeeAlso: Sketcher_Clone/ru, Sketcher_Move/ru

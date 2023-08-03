@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch CurtainWall
    Name/de: Arch Vorhangfassade
-   MenuLocation: Arch -> Vorhandene Fassade
+   MenuLocation: Arch , Vorhandene Fassade
    Workbenches: Arch_Workbench/de
    Shortcut: **C** **W**
    Version: 0.19

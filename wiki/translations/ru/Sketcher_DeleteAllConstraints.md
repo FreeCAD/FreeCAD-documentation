@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Удалить все ограничения
    Name: Sketcher_DeleteAllConstraints
-   MenuLocation: Эскиз -> Инструменты для эскиза -> Удалить все ограничения
+   MenuLocation: Эскиз , Инструменты для эскиза , Удалить все ограничения
    Workbenches: Sketcher_Workbench/ru
    Version: 0.18
    SeeAlso: Sketcher_DeleteAllGeometry/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Cut
    Name/ru: Обрезать
-   MenuLocation: Деталь -> Булевы операции -> Обрезать
+   MenuLocation: Деталь , Булевы операции , Обрезать
    Workbenches: Part_Workbench/ru
    SeeAlso: Part Union/ru, Part Common/ru, Part Boolean/ru
 ---

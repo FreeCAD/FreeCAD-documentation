@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign MultiTransform
    Name/de: PartDesign MultiTransform
-   MenuLocation: Part Design -> Muster anwenden -> Mehrfach-Transformation erstellen
+   MenuLocation: Part Design , Muster anwenden , Mehrfach-Transformation erstellen
    Workbenches: PartDesign_Workbench/de
    SeeAlso: PartDesign_Mirrored/de, PartDesign_LinearPattern/de, PartDesign_PolarPattern/de, PartDesign_Scaled/de
 ---

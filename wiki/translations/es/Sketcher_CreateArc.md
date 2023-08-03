@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Arc
    Name/es: Croquizador Arco
-   MenuLocation: Croquis -> Geometrías de Croquizador -> Crear arco por el centro
+   MenuLocation: Croquis , Geometrías de Croquizador , Crear arco por el centro
    Workbenches: Sketcher_Workbench/es
    SeeAlso: Sketcher_CompCreateCircle/es
 ---

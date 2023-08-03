@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sphere
    Name/pl: Część: Sfera
-   MenuLocation: Część -> Bryła pierwotna -> Sfera
+   MenuLocation: Część , Bryła pierwotna , Sfera
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_CreatePrimitives/pl
 ---

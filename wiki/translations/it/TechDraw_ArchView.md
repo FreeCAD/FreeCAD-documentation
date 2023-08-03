@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw_ArchView
    Name/it: Vista di Arch
-   MenuLocation: TechDraw -> Vista di Arch
+   MenuLocation: TechDraw , Vista di Arch
    Workbenches: TechDraw_Workbench/it
    SeeAlso: Arch Workbench/it, Arch SectionPlane/it
 ---

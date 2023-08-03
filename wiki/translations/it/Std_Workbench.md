@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Name/it: Ambiente
    Empty: 1
-   MenuLocation: View -> Workbench
+   MenuLocation: View , Workbench
    Workbenches: Workbenches/it
 ---
 

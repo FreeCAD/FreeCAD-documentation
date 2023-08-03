@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Edit
    Name/de: Draft Bearbeiten
-   MenuLocation: Modification -> Bearbeiten
+   MenuLocation: Modification , Bearbeiten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **E**
    SeeAlso: Std_Edit/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainPointOnObject
    Name/fr: Sketcher Contrainte point sur objet
-   MenuLocation: Esquisse -> Contraintes d'esquisse  -> Contrainte point sur objet
+   MenuLocation: Esquisse , Contraintes d'esquisse  , Contrainte point sur objet
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **O**
    SeeAlso: Sketcher_ConstrainCoincident/fr

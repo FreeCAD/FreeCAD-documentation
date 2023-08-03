@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить Вид в группу
    Name: TechDraw_ClipGroupAdd
-   MenuLocation: TechDraw -> Добавить Вид в группу
+   MenuLocation: TechDraw , Добавить Вид в группу
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_ClipGroup/ru, TechDraw_ClipGroupRemove/ru
 ---

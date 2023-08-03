@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AutoGroup
-   MenuLocation: Draft -> Utilities -> AutoGroup
+   MenuLocation: Draft , Utilities , AutoGroup
    Workbenches: Draft Workbench, Arch Workbench
    SeeAlso: Draft_Layer, Std Group
    Version: 0.17

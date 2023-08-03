@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Landscape A3
    Name/de: Drawing Landscape A3
    Workbenches: Drawing_Workbench/de, Complete
-   MenuLocation: Drawing -> Neue Zeichnung einfügen -> A3 Landscape
+   MenuLocation: Drawing , Neue Zeichnung einfügen , A3 Landscape
    Shortcut: none
 ---
 

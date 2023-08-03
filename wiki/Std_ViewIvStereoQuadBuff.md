@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoQuadBuff
-   MenuLocation: View -> Stereo -> Stereo quad buffer
+   MenuLocation: View , Stereo , Stereo quad buffer
    Workbenches: All
    SeeAlso: Std_ViewIvStereoRedGreen, Std_ViewIvStereoInterleavedRows, Std_ViewIvStereoInterleavedColumns, Std_ViewIvStereoOff
 ---

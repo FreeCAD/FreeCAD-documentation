@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves Line
-   MenuLocation: Curves -> Parametric line
+   MenuLocation: Curves , Parametric line
    Workbenches: Curves_Workbench
 ---
 

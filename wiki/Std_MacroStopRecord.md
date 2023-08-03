@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MacroStopRecord
-   MenuLocation: Macro -> Stop macro recording
+   MenuLocation: Macro , Stop macro recording
    Workbenches: All
    SeeAlso: Std_DlgMacroRecord
 ---

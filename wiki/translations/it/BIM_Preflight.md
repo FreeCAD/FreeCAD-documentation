@@ -1,9 +1,9 @@
 ---
-- GuiCommand:Addon
+ GuiCommand:Addon
    Name: BIM Preflight
    Workbenches: Image:IFC.svg BIM Workbench
    Addon: BIM
-   MenuLocation: Manage -> Preflight check
+   MenuLocation: Manage , Preflight check
 ---
 
 # BIM Preflight/it

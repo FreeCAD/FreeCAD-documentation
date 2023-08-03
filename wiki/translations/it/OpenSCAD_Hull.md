@@ -1,6 +1,6 @@
 # OpenSCAD Hull/it
 ---
-- GuiCommand:   Name: OpenSCAD Hull   Name/it: Hull   MenuLocation: OpenSCAD -> Hull‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: OpenSCAD Hull   Name/it: Hull   MenuLocation: OpenSCAD , Hull‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

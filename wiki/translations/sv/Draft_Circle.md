@@ -1,6 +1,6 @@
 # Draft Circle/sv
 ---
-- GuiCommand:   Name: Draft Circle   Name/sv: Draft Circle   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
+ GuiCommand:   Name: Draft Circle   Name/sv: Draft Circle   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Upgrade
    Name/es: Borrador Elevar
-   MenuLocation: Modificación -> Elevar
+   MenuLocation: Modificación , Elevar
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/es

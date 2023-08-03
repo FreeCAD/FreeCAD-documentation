@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM_ConstraintSelfWeight
    Name/it: Vincolo peso proprio
-   MenuLocation: Modello -> Vincoli meccanici -> Vincolo peso proprio
+   MenuLocation: Modello , Vincoli meccanici , Vincolo peso proprio
    Workbenches: FEM_Workbench/it
    Shortcut: **C** **W**
    SeeAlso: FEM_tutorial/it

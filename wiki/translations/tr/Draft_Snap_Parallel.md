@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Parallel
    Name/tr: Taslak Paralel
-   MenuLocation: Taslak -> Draft Snap/tr -> Paralel
+   MenuLocation: Taslak , Draft Snap/tr , Paralel
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: 
    SeeAlso: 

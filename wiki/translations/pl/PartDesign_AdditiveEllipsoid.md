@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveEllipsoid
    Name/pl: Projekt Części: Addytywna elipsoida
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywna elipsoida
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Addytywna elipsoida
    Workbenches: PartDesign_Workbench/pl
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/pl, PartDesign_SubtractiveEllipsoid/pl

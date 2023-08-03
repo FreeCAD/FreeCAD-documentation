@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateRegularPolygon
    Name/es: Croquizador CrearPolígonoRegular
    Workbenches: Sketcher_Workbench/es
-   MenuLocation: Dibujar -> Dibujar geometrías -> Crear un polígono regular
+   MenuLocation: Dibujar , Dibujar geometrías , Crear un polígono regular
    Shortcut: 
    SeeAlso: 
 ---

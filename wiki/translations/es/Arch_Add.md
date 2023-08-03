@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Add
    Name/es: Arch Add
    Workbenches: Arch_Workbench/es
-   MenuLocation: Arquitectura -> Adicción
+   MenuLocation: Arquitectura , Adicción
    SeeAlso: Arch Remove/es
 ---
 

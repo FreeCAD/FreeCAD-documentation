@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Refresh
    Name/pl: Część: Odśwież pomiary
-   MenuLocation: Pomiary -> Odśwież pomiary
+   MenuLocation: Pomiary , Odśwież pomiary
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_Measure_Linear/pl, Part_Measure_Angular/pl
 ---

@@ -1,6 +1,6 @@
 # PartDesign Fillet/ro
 ---
-- GuiCommand:   Name: PartDesign Fillet   Workbenches: PartDesign Workbench   PartDesign, Complete---
+ GuiCommand:   Name: PartDesign Fillet   Workbenches: PartDesign Workbench   PartDesign, Complete---
 
 
 </div>

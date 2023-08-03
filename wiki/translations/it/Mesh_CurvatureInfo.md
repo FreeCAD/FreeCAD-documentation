@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_CurvatureInfo
    Name/it: Dettagli curvatura
-   MenuLocation: Mesh -> Analizza -> Dettagli curvatura
+   MenuLocation: Mesh , Analizza , Dettagli curvatura
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_VertexCurvature/it
 ---

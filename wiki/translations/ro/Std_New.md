@@ -1,6 +1,6 @@
 # Std New/ro
 ---
-- GuiCommand:   Name: Std New   Name/ro: Std New   MenuLocation: Std_File_Menu/ro   File -> New,Std Import/ro---
+ GuiCommand:   Name: Std New   Name/ro: Std New   MenuLocation: Std_File_Menu/ro   File , New,Std Import/ro---
 
 
 </div>

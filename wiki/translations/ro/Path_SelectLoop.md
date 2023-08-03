@@ -1,6 +1,6 @@
 # Path SelectLoop/ro
 ---
-- GuiCommand:   Name: Path SelectLoop   Workbenches: Path Workbench   Path|MenuLocation: Path -> Finish Selecting Loop   Shortcut: P,L   SeeAlso: ---
+ GuiCommand:   Name: Path SelectLoop   Workbenches: Path Workbench   Path|MenuLocation: Path , Finish Selecting Loop   Shortcut: P,L   SeeAlso: ---
 
 
 </div>

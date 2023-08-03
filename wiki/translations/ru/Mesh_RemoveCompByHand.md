@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh RemoveCompByHand‏‎
    Name/ru: Mesh RemoveCompByHand‏‎
-   MenuLocation: Сетки -> Удалить компоненты вручную...
+   MenuLocation: Сетки , Удалить компоненты вручную...
    Workbenches: Mesh Workbench/ru
    Shortcut: 
    SeeAlso: 

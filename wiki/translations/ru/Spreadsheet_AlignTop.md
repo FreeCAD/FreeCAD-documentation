@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выровнять по верхнему краю
    Name: Spreadsheet_AlignTop
-   MenuLocation: Электронная таблица -> Alignment -> Выровнять по верхнему краю
+   MenuLocation: Электронная таблица , Alignment , Выровнять по верхнему краю
    Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SegmentationBestFit
    Name/pl: Siatka Utwórz segmenty z najlepiej dopasowanych powierzchni
-   MenuLocation: Siatki -> Utwórz segmenty z najlepiej dopasowanych powierzchni ...
+   MenuLocation: Siatki , Utwórz segmenty z najlepiej dopasowanych powierzchni ...
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_Segmentation/pl
 ---

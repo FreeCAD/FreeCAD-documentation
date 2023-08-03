@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateFunctionPlane
    Name/de: FEM NachbereitungFunktionEbene
-   MenuLocation: Ergebnisse -> Filterfunktionen -> Ebene
+   MenuLocation: Ergebnisse , Filterfunktionen , Ebene
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

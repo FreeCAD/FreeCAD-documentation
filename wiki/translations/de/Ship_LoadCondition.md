@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Loading
    Name/de: Schiffsbelastung
-   MenuLocation: Gewichte -> Erstelle eine neue Ladebedingung
+   MenuLocation: Gewichte , Erstelle eine neue Ladebedingung
 |
    Workbenches: Ship Workbench/de
    Shortcut: 

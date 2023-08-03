@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RefineShape
    Name/pl: Część: Udoskonal kształt
-   MenuLocation: Część -> Utwórz kopię -> Udoskonal kształt
+   MenuLocation: Część , Utwórz kopię , Udoskonal kształt
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_SimpleCopy/pl, Part_TransformedCopy/pl, Part_ElementCopy/pl, OpenSCAD_RefineShapeFeature/pl
 ---

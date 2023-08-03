@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear InvoluteGear
    Name/de: FCGear Evolventenzahnrad
-   MenuLocation: Gear -> Involute Gear
+   MenuLocation: Gear , Involute Gear
    Workbenches: FCGear_Workbench/de
    Shortcut: Kein
    Version: v0.16

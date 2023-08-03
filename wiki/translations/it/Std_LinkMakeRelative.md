@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_LinkMakeRelative
    Name/it: Crea un link relativo
    MenuLocation: Nessuna

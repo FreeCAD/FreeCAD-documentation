@@ -1,9 +1,9 @@
 # Mesh RemoveComponents/it
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_RemoveComponents
    Name/it: Rimuovi componenti‏‎
-   MenuLocation: Mesh -> Rimuovi componenti...
+   MenuLocation: Mesh , Rimuovi componenti...
    Workbenches: Mesh Workbench/it
    SeeAlso: Mesh_RemoveCompByHand/it, Arch_SplitMesh/it---
 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher EditSketch
    Name/it: Modifica Sketch
    Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch -> Modifica schizzo
+   MenuLocation: Sketch , Modifica schizzo
    SeeAlso: Sketcher LeaveSketch/it
 ---
 

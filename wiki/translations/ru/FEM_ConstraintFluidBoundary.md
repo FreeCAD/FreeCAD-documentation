@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintFluidBoundary
    Name/ru: FEM ConstraintFluidBoundary
-   MenuLocation:  Model -> Fluid constraints -> Constraint fluid boundary
+   MenuLocation:  Model , Fluid constraints , Constraint fluid boundary
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

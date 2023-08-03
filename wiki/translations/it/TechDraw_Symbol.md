@@ -1,6 +1,6 @@
 # TechDraw Symbol/it
 ---
-- GuiCommand:   Name: TechDraw_Symbol   Name/it: Simbolo SVG   Workbenches: TechDraw_Workbench/it   TechDraw, Draft SVG/it---
+ GuiCommand:   Name: TechDraw_Symbol   Name/it: Simbolo SVG   Workbenches: TechDraw_Workbench/it   TechDraw, Draft SVG/it---
 
 
 </div>

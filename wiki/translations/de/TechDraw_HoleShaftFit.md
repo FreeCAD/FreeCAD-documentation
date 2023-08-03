@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw HoleShaftFit
    Name/de: TechDraw Passungen
-   MenuLocation: TechDraw -> Wellen- oder Bohrungspassung hinzufügen
+   MenuLocation: TechDraw , Wellen- oder Bohrungspassung hinzufügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.21
    SeeAlso: TechDraw_Geometric_dimensioning_and_tolerancing/de

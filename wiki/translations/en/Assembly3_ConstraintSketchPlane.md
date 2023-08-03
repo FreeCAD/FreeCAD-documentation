@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintSketchPlane
    Icon: Assembly_ConstraintSketchPlane.svg
    Workbenches: Assembly3_Workbench

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/it: Quota
-   MenuLocation: Draft -> Quota
+   MenuLocation: Draft , Quota
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **D** **I**
    Version: 0.8

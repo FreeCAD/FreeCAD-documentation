@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Thickness
    Name/ru: Толщина
-   MenuLocation: Деталь -> Толщина
+   MenuLocation: Деталь , Толщина
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Offset/ru
 ---

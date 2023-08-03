@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeMultiDocument
    Name/fr: Std Arborescence Plusieurs documents
-   MenuLocation: Affichage -> Vue en arborescence -> Document multiple
+   MenuLocation: Affichage , Vue en arborescence , Document multiple
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/fr, Std_TreeCollapseDocument/fr

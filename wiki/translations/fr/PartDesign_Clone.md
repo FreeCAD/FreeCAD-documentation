@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Clone
    Name/fr: PartDesign Clone
-   MenuLocation: Part Design -> Créer un clone
+   MenuLocation: Part Design , Créer un clone
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: Draft_Clone/fr

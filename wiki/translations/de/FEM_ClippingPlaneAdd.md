@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ClippingPlaneAdd
    Name/de: FEM SchnittebeneHinzufügen
-   MenuLocation: Dienstprogramme -> Schnittebene auf Oberfläche
+   MenuLocation: Dienstprogramme , Schnittebene auf Oberfläche
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---

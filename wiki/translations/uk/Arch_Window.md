@@ -1,6 +1,6 @@
 # Arch Window/uk
 ---
-- GuiCommand:   Name: Arch Window   Name/uk: Arch Window   Workbenches: Arch_Workbench/uk   Arch---
+ GuiCommand:   Name: Arch Window   Name/uk: Arch Window   Workbenches: Arch_Workbench/uk   Arch---
 
 
 </div>

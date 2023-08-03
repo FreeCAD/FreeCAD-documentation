@@ -1,6 +1,6 @@
 # Part SimpleCopy/it
 ---
-- GuiCommand:   Name: Part SimpleCopy‎‏‎   Name/it: Copia semplice   MenuLocation: Part -> Crea una copia -> Copia semplice   Workbenches: Part Workbench/it   Part, Std Copy/it, Std_DuplicateSelection/it, Part_TransformedCopy/it, Part_ElementCopy/it, Part_RefineShape/it|Icon: Tree_Part.svg|---
+ GuiCommand:   Name: Part SimpleCopy‎‏‎   Name/it: Copia semplice   MenuLocation: Part , Crea una copia , Copia semplice   Workbenches: Part Workbench/it   Part, Std Copy/it, Std_DuplicateSelection/it, Part_TransformedCopy/it, Part_ElementCopy/it, Part_RefineShape/it|Icon: Tree_Part.svg|---
 
 ## Descrizione
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoRedGreen
    Name/fr: Std Stéréo rouge cyan
-   MenuLocation: Affichage -> Stéréo -> Stéréo rouge/cyan
+   MenuLocation: Affichage , Stéréo , Stéréo rouge/cyan
    Workbenches: Tous
    SeeAlso: Std_ViewIvStereoQuadBuff/fr, Std_ViewIvStereoInterleavedRows/fr, Std_ViewIvStereoInterleavedColumns/fr, Std_ViewIvStereoOff/fr
 ---

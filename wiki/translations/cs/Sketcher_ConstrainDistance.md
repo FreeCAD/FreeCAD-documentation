@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/cs: Constraint Length
    Workbenches: Sketcher Workbench/cs
-   MenuLocation: Sketch -> Vazby náčrtu -> Vazba vzdálenosti
+   MenuLocation: Sketch , Vazby náčrtu , Vazba vzdálenosti
    Shortcut: Shift + D
    SeeAlso: Sketcher ConstrainDistanceX/cs, Sketcher ConstrainDistanceY/cs
 ---

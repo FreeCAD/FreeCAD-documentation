@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/pl: Sketcher: Wiązanie blokady odległości
-   MenuLocation: Szkic -> Wiązania szkicownika -> Wiązanie blokady odległości
+   MenuLocation: Szkic , Wiązania szkicownika , Wiązanie blokady odległości
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **K** **L**
    SeeAlso: Sketcher_ConstrainBlock/pl

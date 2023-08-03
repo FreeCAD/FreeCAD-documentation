@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Перейти на самый глубокий связанный объект
    Name: Std_LinkSelectLinkedFinal
    MenuLocation: ''Нет''

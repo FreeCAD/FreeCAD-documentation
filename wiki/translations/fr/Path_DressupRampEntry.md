@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path DressupRampEntry
    Name/fr: Path Rampe d'entrée
-   MenuLocation: Path -> Finition du parcours -> Rampe d'entrée
+   MenuLocation: Path , Finition du parcours , Rampe d'entrée
    Workbenches: Path_Workbench/fr
    SeeAlso: Path_DressupTag/fr, Path_DressupDogbone/fr, Path_DressupDragKnife/fr
 ---

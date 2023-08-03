@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoInterleavedRows
    Name/fr: Std Lignes stéréo entrelacées
-   MenuLocation: Affichage -> Stéréo -> Lignes stéréo entrelacées
+   MenuLocation: Affichage , Stéréo , Lignes stéréo entrelacées
    Workbenches: Tous
    SeeAlso: Std_ViewIvStereoRedGreen/fr, Std_ViewIvStereoQuadBuff/fr, Std_ViewIvStereoInterleavedColumns/fr, Std_ViewIvStereoOff/fr
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Shapebuilder
    Name/pl: Część: Konstruktor
-   MenuLocation: Część -> Konstruktor kształtu ...
+   MenuLocation: Część , Konstruktor kształtu ...
    Workbenches: Part_Workbench/pl
    SeeAlso: Part_CreatePrimitives/pl
 ---

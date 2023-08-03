@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Symmetry
-   MenuLocation: Sketch -> Sketcher tools -> Symmetry
+   MenuLocation: Sketch , Sketcher tools , Symmetry
    Workbenches: Sketcher_Workbench
    Shortcut: **Z** **S**
    Version: 0.16

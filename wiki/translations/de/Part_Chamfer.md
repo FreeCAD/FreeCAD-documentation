@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Chamfer
    Name/de: Part Fase
-   MenuLocation: Part -> Anfasen...
+   MenuLocation: Part , Anfasen...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Fillet/de
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/ro: Cerc
-   MenuLocation: Draft -> Circle
+   MenuLocation: Draft , Circle
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **C** **I**
    SeeAlso: Draft Arc/ro

@@ -1,6 +1,6 @@
 # Mesh HarmonizeNormals/ro
 ---
-- GuiCommand:   Name: Mesh HarmonizeNormals‏‎   MenuLocation: Meshes -> Harmonize normals   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Mesh HarmonizeNormals‏‎   MenuLocation: Meshes , Harmonize normals   Workbenches: Mesh Workbench   Mesh|Shortcut:    SeeAlso: ---
 
 
 </div>

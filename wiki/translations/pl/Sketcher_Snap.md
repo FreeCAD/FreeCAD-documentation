@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Snap
    Name/pl: Szkicownik: Włącz / wyłącz przyciąganie
    Workbenches: Sketcher_Workbench/pl

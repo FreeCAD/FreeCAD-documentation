@@ -1,6 +1,6 @@
 # Arch Reference/hr
 ---
-- GuiCommand:   Name: Arch Reference   Name/hr: Arch Reference   Workbenches: Arch_Workbench   Arch---
+ GuiCommand:   Name: Arch Reference   Name/hr: Arch Reference   Workbenches: Arch_Workbench   Arch---
 
 
 </div>

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Fixture
    Name/it: Fissaggio
    Workbenches: Path Workbench/it
-   MenuLocation: Path -> Comandi parziali -> Fissaggio
+   MenuLocation: Path , Comandi parziali , Fissaggio
    Shortcut: **P** **F**
    SeeAlso: 
 ---

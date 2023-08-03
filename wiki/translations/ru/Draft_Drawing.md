@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/ru: Draft Drawing
    MenuLocation: Черчение -> Рисунок

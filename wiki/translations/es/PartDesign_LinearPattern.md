@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign LinearPattern
    Name/es: DiseñoPieza PatrónLineal
-   MenuLocation: DiseñoPieza  ->  Aplicar un patrón -> PatrónLineal
+   MenuLocation: DiseñoPieza  ,  Aplicar un patrón , PatrónLineal
    Workbenches: PartDesign_Workbench/es
 ---
 

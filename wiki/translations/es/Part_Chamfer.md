@@ -1,6 +1,6 @@
 # Part Chamfer/es
 ---
-- GuiCommand:   Name: Part_Chamfer   MenuLocation: Pieza -> Chaflán   Workbenches: Pieza,Completo---
+ GuiCommand:   Name: Part_Chamfer   MenuLocation: Pieza , Chaflán   Workbenches: Pieza,Completo---
 
 
 </div>

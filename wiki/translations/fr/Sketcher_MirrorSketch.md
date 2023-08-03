@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MirrorSketch
    Name/fr: Sketcher Esquisse miroir
-   MenuLocation: Esquisse -> Esquisse miroir
+   MenuLocation: Esquisse , Esquisse miroir
    Workbenches: Sketcher_Workbench/fr
    Version: 0.16
 ---

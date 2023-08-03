@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ExplodeCompound
    Name/de: Part VerbundSprengen
-   MenuLocation: Formteil -> Verbund -> Verbundteile extrahieren
+   MenuLocation: Formteil , Verbund , Verbundteile extrahieren
    Workbenches: Part_Workbench/de
    Version: 0.18
    SeeAlso: Part_Compound/de, Draft_Downgrade/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Split
    Name/de: Entwurf Teilen
-   MenuLocation: Änderung -> Teilen
+   MenuLocation: Änderung , Teilen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **S** **P**
    Version: 0.18

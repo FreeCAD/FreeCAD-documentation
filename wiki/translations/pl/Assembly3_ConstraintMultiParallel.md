@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintMultiParallel
    Icon: Assembly_ConstraintMultiParallel.svg
    Workbenches: Assembly3_Workbench

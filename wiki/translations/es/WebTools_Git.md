@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: WebTools Git‏‎
    Name/es: HerramientasWeb Git
-   MenuLocation: HerramientasWeb -> Git
+   MenuLocation: HerramientasWeb , Git
    Workbenches: WebTools_Workbench/es
    Version: 0.17
 ---

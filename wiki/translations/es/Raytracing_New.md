@@ -1,6 +1,6 @@
 # Raytracing New/es
 ---
-- GuiCommand:   Name: Raytracing New   Name/es: Raytracing New   MenuLocation: Raytracing -> New‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing New   Name/es: Raytracing New   MenuLocation: Raytracing , New‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

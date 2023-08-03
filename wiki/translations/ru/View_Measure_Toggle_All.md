@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: View Measure Toggle All
    Name/ru: View Measure Toggle All
-   MenuLocation: Вид -> Видимость -> Показывать замеры
+   MenuLocation: Вид , Видимость , Показывать замеры
    Workbenches: All
    SeeAlso: View_Measure_Clear_All, Part_Measure_Toggle_All, Part_Measure_Clear_All
 ---

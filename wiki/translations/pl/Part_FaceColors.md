@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part FaceColors
    Name/pl: Część: Kolor dla ściany
-   MenuLocation: Menu podręczne -> Ustaw kolory ...
+   MenuLocation: Menu podręczne , Ustaw kolory ...
    Workbenches: Part_Workbench/pl, PartDesign_Workbench/pl
    SeeAlso: Std_SetAppearance/pl
 ---

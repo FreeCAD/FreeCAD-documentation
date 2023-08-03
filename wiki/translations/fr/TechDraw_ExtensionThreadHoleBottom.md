@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionThreadHoleBottom
    Name/fr: TechDraw Taraudage
-   MenuLocation: TechDraw -> Extensions : taraudages/filetages -> Taraudage
+   MenuLocation: TechDraw , Extensions : taraudages/filetages , Taraudage
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

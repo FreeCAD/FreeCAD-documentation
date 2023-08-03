@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Export
    Name/it: Esporta
-   MenuLocation: File -> Esporta...
+   MenuLocation: File , Esporta...
    Workbenches: All
    Shortcut: **Ctrl**+**E**
    SeeAlso: Std_PrintPdf/it, Import_Export/it, Import_Export_Preferences/it

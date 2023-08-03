@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Name/pl: Std: Środowiska pracy
    Empty: 1
-   MenuLocation: Widok -> Środowiska pracy
+   MenuLocation: Widok , Środowiska pracy
    Workbenches: Workbenches/pl
 ---
 

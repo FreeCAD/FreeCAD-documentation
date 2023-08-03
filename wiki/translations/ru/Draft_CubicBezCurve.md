@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft CubicBezCurve
    Name/ru: Draft CubicBezCurve
-   MenuLocation: Draft -> Bezier tools -> CubicBezCurve
+   MenuLocation: Draft , Bezier tools , CubicBezCurve
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Version: 0.19
    SeeAlso: Draft Wire/ru, Draft BSpline/ru, Draft BezCurve/ru

@@ -1,6 +1,6 @@
 # Sketcher CreatePoint/cs
 ---
-- GuiCommand:   Name: Sketcher CreatePoint   Name/cs:  Skicář Bod   Workbenches: Sketcher Workbench/cs   Skicář|MenuLocation: Náčrt -> Skicář Konstrukce ->  Vytvořit bod   SeeAlso: ---
+ GuiCommand:   Name: Sketcher CreatePoint   Name/cs:  Skicář Bod   Workbenches: Sketcher Workbench/cs   Skicář|MenuLocation: Náčrt , Skicář Konstrukce ,  Vytvořit bod   SeeAlso: ---
 
 
 </div>

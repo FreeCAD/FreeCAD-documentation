@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Fillet
    Name/de: PartDesign Verrundung
-   MenuLocation: Part Design -> Modifikationen -> Verrundung
+   MenuLocation: Part Design , Modifikationen , Verrundung
    Workbenches: PartDesign_Workbench/de
    SeeAlso: PartDesign_Chamfer/de
 ---

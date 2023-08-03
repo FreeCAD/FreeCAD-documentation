@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Perpendicular
    Name/ru: Draft Perpendicular
-   MenuLocation: Черчение -> Draft_Snap/ru -> Нормаль
+   MenuLocation: Черчение , Draft_Snap/ru , Нормаль
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: 

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostCreateLinearizedStressesFilter
    Name/ru: FEM PostCreateLinearizedStressesFilter
    Icon: Fem-linearizedstresses.svg
-   MenuLocation:  Results -> Linearized stresses filter
+   MenuLocation:  Results , Linearized stresses filter
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

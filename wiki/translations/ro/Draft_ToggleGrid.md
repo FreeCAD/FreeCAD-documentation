@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleGrid
    Name/ro: Draft ToggleGrid
-   MenuLocation: Draft -> Utilities -> Toggle grid
+   MenuLocation: Draft , Utilities , Toggle grid
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **G** **R**
    SeeAlso: Draft_Snap, Draft_Snap_Grid, Draft_SelectPlane

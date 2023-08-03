@@ -1,6 +1,6 @@
 # Part Builder/cs
 ---
-- GuiCommand:   Name: Part Shapebuilder   Name/cs: Part Shapebuilder   MenuLocation: Part -> Shapebuilder...   ---
+ GuiCommand:   Name: Part Shapebuilder   Name/cs: Part Shapebuilder   MenuLocation: Part -> Shapebuilder...   ---
 
 
 </div>

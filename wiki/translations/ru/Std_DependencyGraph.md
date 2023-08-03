@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Граф зависимостей
    Name: Std DependencyGraph
-   MenuLocation: Инструменты -> Граф зависимостей...
+   MenuLocation: Инструменты , Граф зависимостей...
    Workbenches: Все
 ---
 

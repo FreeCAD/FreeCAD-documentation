@@ -1,6 +1,6 @@
 # FEM MaterialFluid/it
 ---
-- GuiCommand:   Name: FEM_MaterialFluid   Name/it: FEM Materiale per fluido   MenuLocation:  Modello -> Materiali -> Materiale per fluido   ---
+ GuiCommand:   Name: FEM_MaterialFluid   Name/it: FEM Materiale per fluido   MenuLocation:  Modello , Materiali , Materiale per fluido   ---
 
 
 </div>

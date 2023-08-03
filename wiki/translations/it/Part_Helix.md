@@ -1,6 +1,6 @@
 # Part Helix/it
 ---
-- GuiCommand:   Name: Part_Helix   Name/it: Elica   MenuLocation: Parte -> Part_CreatePrimitives/it   Crea primitive -> Elica,  OpenSCAD_Workbench/it---
+ GuiCommand:   Name: Part_Helix   Name/it: Elica   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Elica,  OpenSCAD_Workbench/it---
 
 
 </div>

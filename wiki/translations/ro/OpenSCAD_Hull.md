@@ -1,6 +1,6 @@
 # OpenSCAD Hull/ro
 ---
-- GuiCommand:   Name: OpenSCAD Hull   MenuLocation: OpenSCAD -> Hull‏‎   |Shortcut: none   SeeAlso: 
+ GuiCommand:   Name: OpenSCAD Hull   MenuLocation: OpenSCAD , Hull‏‎   |Shortcut: none   SeeAlso: 
 
 
 </div>

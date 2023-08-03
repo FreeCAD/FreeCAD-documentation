@@ -1,6 +1,6 @@
 # Draft SelectGroup/sv
 ---
-- GuiCommand:   Name: Draft SelectGroup   Name/sv: Draft SelectGroup   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Select group---
+ GuiCommand:   Name: Draft SelectGroup   Name/sv: Draft SelectGroup   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Select group---
 
 
 </div>

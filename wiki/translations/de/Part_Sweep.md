@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sweep
    Name/de: Part Austragung
-   MenuLocation: Formteil -> Sweep...
+   MenuLocation: Formteil , Sweep...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Loft/de
 ---

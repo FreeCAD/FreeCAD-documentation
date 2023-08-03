@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Angular
    Name/pl: Część: Pomiar kątowy
-   MenuLocation: Pomiary -> Pomiar kątowy
+   MenuLocation: Pomiary , Pomiar kątowy
    Workbenches: Part_Workbench/pl
    SeeAlso: Draft_Dimension/pl
 ---

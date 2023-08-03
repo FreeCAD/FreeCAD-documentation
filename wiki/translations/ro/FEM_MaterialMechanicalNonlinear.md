@@ -1,6 +1,6 @@
 # FEM MaterialMechanicalNonlinear/ro
 ---
-- GuiCommand:   Name: FEM MaterialMechanicalNonlinear   MenuLocation:  Model -> Nonlinear mechanical material   ---
+ GuiCommand:   Name: FEM MaterialMechanicalNonlinear   MenuLocation:  Model , Nonlinear mechanical material   ---
 
 
 </div>

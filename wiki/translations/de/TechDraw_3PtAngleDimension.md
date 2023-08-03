@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Angle3Pt
    Name/de: TechDraw Winkelmaß3Punkte
-   MenuLocation: TechDraw -> Winkelmaß über 3 Punkte ???
+   MenuLocation: TechDraw , Winkelmaß über 3 Punkte ???
    Workbenches: TechDraw_Workbench/de
    Version: 0.18
    SeeAlso: TechDraw_AngleDimension/de

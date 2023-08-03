@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ClipGroup
-   MenuLocation: TechDraw -> Clipped Views -> Insert Clip Group
+   MenuLocation: TechDraw , Clipped Views , Insert Clip Group
    Workbenches: TechDraw_Workbench
    SeeAlso: TechDraw_ClipGroupAdd, TechDraw_ClipGroupRemove
 ---

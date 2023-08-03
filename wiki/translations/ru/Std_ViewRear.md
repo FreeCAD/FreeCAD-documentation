@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Сзади
    Name: Std_ViewRear
-   MenuLocation: Вид -> Стандартные виды‏‎ -> Сзади
+   MenuLocation: Вид , Стандартные виды‏‎ , Сзади
    Workbenches: Все
    Shortcut: **4**
    SeeAlso: Std_ViewBottom/ru, Std_ViewLeft/ru

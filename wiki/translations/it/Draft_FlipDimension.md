@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft FlipDimension
    Name/it: Capovolgi quota
-   MenuLocation: Modifiche -> Capovolgi quota
+   MenuLocation: Modifiche , Capovolgi quota
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
 ---
 

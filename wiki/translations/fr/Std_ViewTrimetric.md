@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewTrimetric
    Name/fr: Std Vue trimétrique
-   MenuLocation: Affichage -> Vues standards -> Axonometric -> Trimétrique
+   MenuLocation: Affichage , Vues standards , Axonometric , Trimétrique
    Workbenches: Tous
    SeeAlso: Std_ViewIsometric/fr, Std_ViewDimetric/fr
 ---

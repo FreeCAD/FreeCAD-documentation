@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_CompCreateConic
    Name/ru: Создать фигуру конического сечения
    Icon: Sketcher_CompCreateConic.png

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Revert
    Name/pl: Std: Przywróć
-   MenuLocation: Plik -> Przywróć
+   MenuLocation: Plik , Przywróć
    Workbenches: wszystkie
 ---
 

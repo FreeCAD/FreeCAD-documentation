@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: WebTools BimServer
    Name/ru: Arch BimServer‏‎‏‎
    Workbenches: Arch_Workbench/ru
-   MenuLocation: Архитектура -> Утилиты -> BIM server
+   MenuLocation: Архитектура , Утилиты , BIM server
    Shortcut: ‏‎
    SeeAlso: 
 ---

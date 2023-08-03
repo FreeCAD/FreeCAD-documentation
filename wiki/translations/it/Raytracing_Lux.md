@@ -1,6 +1,6 @@
 # Raytracing Lux/it
 ---
-- GuiCommand:   Name: Raytracing Lux   Name/it: Raytracing Lux   MenuLocation: Raytracing -> Nuovo progetto Lux‏‎render   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Raytracing Lux   Name/it: Raytracing Lux   MenuLocation: Raytracing , Nuovo progetto Lux‏‎render   |Shortcut:    SeeAlso: ---
 
 
 </div>

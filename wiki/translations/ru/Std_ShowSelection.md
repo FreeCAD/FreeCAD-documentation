@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ShowSelection
    Name/ru: Std ShowSelection
    Empty: 1
-   MenuLocation: Вид -> Видимость -> Показать выделенные
+   MenuLocation: Вид , Видимость , Показать выделенные
    Workbenches: All
    SeeAlso: Std_ToggleVisibility/ru, Std_HideSelection/ru, Std_ToggleObjects/ru, Std_ShowObjects/ru, Std_HideObjects/ru
 ---

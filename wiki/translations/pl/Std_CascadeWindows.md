@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std CascadeWindows
    Name/pl: Std: Kaskadowo
-   MenuLocation: Okna -> Kaskadowo
+   MenuLocation: Okna , Kaskadowo
    Workbenches: wszystkie
    SeeAlso: Std_TileWindows/pl
 ---

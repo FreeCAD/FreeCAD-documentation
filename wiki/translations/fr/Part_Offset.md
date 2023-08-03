@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Offset
    Name/fr: Part Décalage 3D
-   MenuLocation: Part -> Décalage 3D...
+   MenuLocation: Part , Décalage 3D...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Thickness/fr, Part_Offset2D/fr
 ---

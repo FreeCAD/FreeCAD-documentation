@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Builder
    Name/de: Part FormGenerator
-   MenuLocation: Formteil -> Form-Generator...
+   MenuLocation: Formteil , Form-Generator...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

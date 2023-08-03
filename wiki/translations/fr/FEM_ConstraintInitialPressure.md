@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintInitialPressure
    Name/fr: FEM Contrainte de pression initiale
-   MenuLocation: Modèle -> Contraintes du fluide -> Contrainte de pression initiale
+   MenuLocation: Modèle , Contraintes du fluide , Contrainte de pression initiale
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path PostProcess
    Name/fr: Path Post-traitement
-   MenuLocation: Path -> Post-traitement
+   MenuLocation: Path , Post-traitement
    Workbenches: Path_Workbench/fr
    Shortcut: **P** **P**
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить Вид
    Name: TechDraw_View
-   MenuLocation: TechDraw -> Вставить Вид
+   MenuLocation: TechDraw , Вставить Вид
    Workbenches: TechDraw_Workbench/ru
    SeeAlso: TechDraw_ProjectionGroup/ru, TechDraw_SectionView/ru
 ---

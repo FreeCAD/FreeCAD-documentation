@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DrawStyle
-   MenuLocation: View -> Draw style -> ...
+   MenuLocation: View , Draw style , ...
    Workbenches: All
    Shortcut: **V** **1** - **V** **7**
    SeeAlso: Std_SelBoundingBox

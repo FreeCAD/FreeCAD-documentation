@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot Edge2Trac
-   MenuLocation: Robot -> Edge to trajectory
+   MenuLocation: Robot , Edge to trajectory
    Workbenches: Robot_Workbench
 ---
 

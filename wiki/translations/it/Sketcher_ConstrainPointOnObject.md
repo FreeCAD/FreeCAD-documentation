@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainPointOnObject
    Name/it: Punto su oggettto
    Icon: Constraint_PointOnObject.svg
    Workbenches: Sketcher Workbench/it
-   MenuLocation: PartDesign -> Schizzo -> Punto su oggetto
+   MenuLocation: PartDesign , Schizzo , Punto su oggetto
    Shortcut: **Maiusc** + **O**
    SeeAlso: Sketcher ConstrainCoincident/it
 ---

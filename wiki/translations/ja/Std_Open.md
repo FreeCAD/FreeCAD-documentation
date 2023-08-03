@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Open
    Name/ja: Std_Open
    Workbenches: All

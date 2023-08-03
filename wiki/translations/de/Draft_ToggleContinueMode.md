@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleContinueMode
    Name/de: Draft FortsetzungsmodusUmschalten
-   MenuLocation: Werkzeuge -> In den Fortsetzungsmodus umschalten
+   MenuLocation: Werkzeuge , In den Fortsetzungsmodus umschalten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
 ---
 

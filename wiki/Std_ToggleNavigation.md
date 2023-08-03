@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleNavigation
-   MenuLocation: View -> Toggle navigation/Edit mode
+   MenuLocation: View , Toggle navigation/Edit mode
    Workbenches: All
    Shortcut: **Esc**
 ---

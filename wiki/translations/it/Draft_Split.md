@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Split
    Name/it: Dividi
-   MenuLocation: Modifiche -> Dividi
+   MenuLocation: Modifiche , Dividi
    Workbenches: Draft_Workbench/it,  Arch_Workbench/it
    Shortcut: **S** **P**
    Version: 0.18

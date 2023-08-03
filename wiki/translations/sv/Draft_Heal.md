@@ -1,6 +1,6 @@
 # Draft Heal/sv
 ---
-- GuiCommand:   Name: Draft Heal   Name/sv: Draft Heal   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft -> Utilities -> Heal---
+ GuiCommand:   Name: Draft Heal   Name/sv: Draft Heal   Workbenches: Draft_Workbench/sv   Draft, Arch_Workbench/sv|MenuLocation: Draft , Utilities , Heal---
 
 
 </div>

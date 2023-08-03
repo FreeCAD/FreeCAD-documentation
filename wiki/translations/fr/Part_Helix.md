@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Helix
    Name/fr: Part Hélice
-   MenuLocation: Part -> Part_Primitives/fr -> Hélice
+   MenuLocation: Part , Part_Primitives/fr , Hélice
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---

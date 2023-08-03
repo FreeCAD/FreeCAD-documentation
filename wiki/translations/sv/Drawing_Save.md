@@ -1,6 +1,6 @@
 # Drawing Save/sv
 ---
-- GuiCommand:   Name: Drawing Save   Name/sv: Drawing Save   Workbenches: Drawing Workbench/sv   Drawing, Complete---
+ GuiCommand:   Name: Drawing Save   Name/sv: Drawing Save   Workbenches: Drawing Workbench/sv   Drawing, Complete---
 
 
 </div>

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_AlignRight
    Name/it: Allinea a destra
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Allineamento -> A destra
+   MenuLocation: Spreadsheet , Allineamento , A destra
    Version: 0.17
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Parallel
    Workbenches: Draft Workbench, Arch Workbench
-   MenuLocation: Draft -> Draft Snap -> Parallel
+   MenuLocation: Draft , Draft Snap , Parallel
    Shortcut: 
    SeeAlso: 
 ---

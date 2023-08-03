@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Circle
    Name/fr: Part Cercle
-   MenuLocation: Part -> Part_Primitives/fr -> Cercle
+   MenuLocation: Part , Part_Primitives/fr , Cercle
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---

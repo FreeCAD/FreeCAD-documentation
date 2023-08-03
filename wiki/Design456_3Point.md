@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Design456 3Point
-   MenuLocation: Design456 -> 3Point
+   MenuLocation: Design456 , 3Point
    Workbenches: Design456 Workbench
    Shortcut: None
    SeeAlso: 

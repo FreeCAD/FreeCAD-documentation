@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAttachment
    Icon: Part_Attachment.svg
    Workbenches: Assembly3_Workbench

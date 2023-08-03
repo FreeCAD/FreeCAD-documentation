@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Copy
    Name/es: Sketcher Copiar
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Sketch -> Herramientas de croquis -> Copiar
+   MenuLocation: Sketch , Herramientas de croquis , Copiar
    Version: 0.16
    SeeAlso: Sketcher Clone/es, Sketcher Move/es
 ---

@@ -1,6 +1,6 @@
 # Part Ellipsoid/es
 ---
-- GuiCommand:   Name: Part Ellipsoid   Name/es: Part Ellipsoid   MenuLocation: Part -> Part_CreatePrimitives/es   Create Primitives -> Ellipsoid, OpenSCAD_Workbench/es|SeeAlso: ..---
+ GuiCommand:   Name: Part Ellipsoid   Name/es: Part Ellipsoid   MenuLocation: Part , Part_CreatePrimitives/es   Create Primitives , Ellipsoid, OpenSCAD_Workbench/es|SeeAlso: ..---
 
 
 </div>

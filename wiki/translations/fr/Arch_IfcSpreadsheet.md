@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_IfcSpreadsheet
    Name/fr: Arch Tableur IFC
-   MenuLocation: Arch -> Utilitaires -> Créer une feuille de calcul IFC
+   MenuLocation: Arch , Utilitaires , Créer une feuille de calcul IFC
    Workbenches: Arch_Workbench/fr
    Shortcut: **I** **P**
    SeeAlso: Arch_IFC/fr, Arch_IfcExplorer/fr

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ElementRotation1D
    Name/ru: FEM ElementRotation1D
    Icon: Fem-beam-rotation.svg
-   MenuLocation:  Model -> Element Geometry -> Beam rotation
+   MenuLocation:  Model , Element Geometry , Beam rotation
    Workbenches: FEM_Workbench/ru
    SeeAlso: FEM_tutorial/ru
 ---

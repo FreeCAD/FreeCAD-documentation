@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Revolution
    Name/pl: Projekt Części: Wyciągnij przez obrót
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Wyciągnij przez obrót
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Wyciągnij przez obrót
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: PartDesign_Groove/pl
 ---

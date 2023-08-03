@@ -1,9 +1,9 @@
 # Std Group/de
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Group
    Name/de: Std Gruppe
-   MenuLocation: Baumansicht -> Rechtsklick auf den Dokumentennamen
+   MenuLocation: Baumansicht , Rechtsklick auf den Dokumentennamen
    |Workbenches: Alle
    Shortcut: 
    Version: 

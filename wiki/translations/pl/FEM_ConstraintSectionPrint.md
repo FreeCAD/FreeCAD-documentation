@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintSectionPrint
    Name/pl: MES: Zapis wyników z przekroju
-   MenuLocation:  Model -> Wiązania Geometryczne -> Zapis wyników z przekroju
+   MenuLocation:  Model , Wiązania Geometryczne , Zapis wyników z przekroju
    Workbenches: FEM_Workbench/pl
    Version: 0.19
    SeeAlso: 

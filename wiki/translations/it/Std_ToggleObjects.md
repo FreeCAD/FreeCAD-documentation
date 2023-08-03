@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleObjects
    Name/it: Commuta tutti gli oggetti
-   MenuLocation: Visualizza -> Visibilità -> Commuta tutti gli oggetti
+   MenuLocation: Visualizza , Visibilità , Commuta tutti gli oggetti
    Workbenches: Tutti
    SeeAlso: Std_ToggleVisibility/it, Std_ShowSelection/it, Std_HideSelection/it, Std_ShowObjects/it, Std_HideObjects/it
 ---

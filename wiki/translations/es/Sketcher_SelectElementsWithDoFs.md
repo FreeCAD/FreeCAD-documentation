@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectElementsWithDoFs
    Name/es: Croquizador SeleccionarElementosConGdL 
-   MenuLocation: Croquis -> Croquizador Herramientas -> Seleccionar GdL del solucionador
+   MenuLocation: Croquis , Croquizador Herramientas , Seleccionar GdL del solucionador
    Workbenches: Sketcher_Workbench/es
    Version: 0.18
 ---

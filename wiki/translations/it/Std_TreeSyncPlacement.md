@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_TreeSyncPlacement
    Name/it: Sincronizza la posizione
-   MenuLocation: Visualizza -> Azioni della vista ad albero -> Sincronizza la posizione
+   MenuLocation: Visualizza , Azioni della vista ad albero , Sincronizza la posizione
    Workbenches: Tutti
    Shortcut: **T** **3**
    Version: 0.19

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Fillet
    Name/ro: Part Fillet
-   MenuLocation: Part -> Fillet
+   MenuLocation: Part , Fillet
    Workbenches: Part_Workbench/ro, Complete
    SeeAlso: Part Chamfer/ro
 ---

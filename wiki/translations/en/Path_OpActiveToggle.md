@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path OpActiveToggle
-   MenuLocation: Path -> Toggle the Active State of the Operation
+   MenuLocation: Path , Toggle the Active State of the Operation
    Workbenches: Path_Workbench
    Shortcut: **P** **X **
 ---

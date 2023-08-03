@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/sv: Sketcher ConstrainLock
    Workbenches: Sketcher Workbench/sv, PartDesign Workbench/sv
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain lock
+   MenuLocation: Sketch , Sketcher constraints , Constrain lock
    SeeAlso: Sketcher_ConstrainBlock
 ---
 

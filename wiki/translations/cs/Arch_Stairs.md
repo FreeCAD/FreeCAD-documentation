@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Stairs   Name/cs: Arch Schody
    Workbenches: Arch_Workbench/cs
-   MenuLocation: Arch -> Stairs
+   MenuLocation: Arch , Stairs
    Shortcut: **S** **R**
    SeeAlso: Arch Structure/cs, Arch Equipment/cs
    Version: 0.14

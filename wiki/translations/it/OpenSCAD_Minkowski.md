@@ -1,6 +1,6 @@
 # OpenSCAD Minkowski/it
 ---
-- GuiCommand:   Name: OpenSCAD Minkowski   Name/it: Minkowski   MenuLocation: OpenSCAD -> Minkowski‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: OpenSCAD Minkowski   Name/it: Minkowski   MenuLocation: OpenSCAD , Minkowski‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

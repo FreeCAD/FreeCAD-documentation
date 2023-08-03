@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationMagnetodynamic2D
-   MenuLocation: Solve -> Electromagnetic Equations -> Magnetodynamic2D equation
+   MenuLocation: Solve , Electromagnetic Equations , Magnetodynamic2D equation
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic

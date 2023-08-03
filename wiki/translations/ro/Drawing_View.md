@@ -1,6 +1,6 @@
 # Drawing View/ro
 ---
-- GuiCommand:   Name: Drawing View   Name/ro: Drawing View   Workbenches: Drawing Workbench/ro   Drawing, Complete---
+ GuiCommand:   Name: Drawing View   Name/ro: Drawing View   Workbenches: Drawing Workbench/ro   Drawing, Complete---
 
 
 </div>

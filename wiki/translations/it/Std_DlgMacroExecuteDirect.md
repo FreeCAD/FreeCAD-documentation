@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DlgMacroExecuteDirect
    Name/it: Esegui la macro nell'editor
-   MenuLocation: Macro -> Esegui la macro
+   MenuLocation: Macro , Esegui la macro
    Workbenches: Tutti
    Shortcut: **Ctrl**+**F6**
    SeeAlso: Std_DlgMacroExecute/it

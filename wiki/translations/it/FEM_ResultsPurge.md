@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ResultsPurge
    Name/it: Azzera risultati
-   MenuLocation: Risultati -> Azzera risultati
+   MenuLocation: Risultati , Azzera risultati
    Workbenches: FEM_Workbench/it
    Shortcut: **R** **P**
    SeeAlso: FEM_tutorial/it

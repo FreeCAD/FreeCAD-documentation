@@ -1,6 +1,6 @@
 # Part Box/cs
 ---
-- GuiCommand:   Name: Part Box   MenuLocation: Part -> Box   , Complete---
+ GuiCommand:   Name: Part Box   MenuLocation: Part , Box   , Complete---
 
 
 </div>

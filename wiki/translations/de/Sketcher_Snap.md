@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Snap
    Workbenches: Sketcher_Workbench
    Version: 0.21

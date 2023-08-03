@@ -1,6 +1,6 @@
 # Arch Add/cs
 ---
-- GuiCommand:   Name: Arch Add   Name/cs: Arch Přidat   Workbenches: Arch_Workbench/cs   Arch---
+ GuiCommand:   Name: Arch Add   Name/cs: Arch Přidat   Workbenches: Arch_Workbench/cs   Arch---
 
 
 </div>

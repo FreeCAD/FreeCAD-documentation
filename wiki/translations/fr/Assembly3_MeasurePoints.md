@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 MeasurePoints
    Name/fr: Assembly3 Mesure point à point
    Icon: Assembly_MeasurePointDistance.svg

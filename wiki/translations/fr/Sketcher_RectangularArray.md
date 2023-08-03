@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher RectangularArray
    Name/fr: Sketcher Réseau rectangulaire
-   MenuLocation: Esquisse -> Outils d'esquisse -> Réseau rectangulaire
+   MenuLocation: Esquisse , Outils d'esquisse , Réseau rectangulaire
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **A**
    Version: 0.16

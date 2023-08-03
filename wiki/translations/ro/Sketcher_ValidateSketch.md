@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ValidateSketch
    Name/ro: Sketcher ValidateSketch
    Empty: 1
    Workbenches: Sketcher Workbench/ro, PartDesign Workbench/ro
-   MenuLocation: Sketch / Part Design -> Validate sketch
+   MenuLocation: Sketch / Part Design , Validate sketch
 ---
 
 # Sketcher ValidateSketch/ro

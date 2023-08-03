@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear HypoCycloidGear
    Name/de: FCGear Hypozykloidenrad
-   MenuLocation: Gear -> HypoCycloid Gear
+   MenuLocation: Gear , HypoCycloid Gear
    Workbenches: FCGear_Workbench/de
    Shortcut: Kein
    Version: 1.0

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet Import
    Name/de: Kalkulationstabelle Importieren
-   MenuLocation: Tabellenkalkulation -> Kalkulationstabelle importieren
+   MenuLocation: Tabellenkalkulation , Kalkulationstabelle importieren
    Workbenches: Spreadsheet_Workbench/de
    Version: 0.17
    SeeAlso: Spreadsheet_Export/de

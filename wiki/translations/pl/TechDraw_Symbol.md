@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Symbol
    Name/pl: Rysunek Techniczny: Wstaw symbol SVG
-   MenuLocation: Rysunek Techniczny -> Wstaw symbol SVG
+   MenuLocation: Rysunek Techniczny , Wstaw symbol SVG
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_Templates/pl, Draft_SVG/pl
 ---

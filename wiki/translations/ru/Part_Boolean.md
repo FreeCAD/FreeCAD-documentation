@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Boolean
    Name/ru: Part Boolean
-   MenuLocation: Деталь -> Булевы операции
+   MenuLocation: Деталь , Булевы операции
    Workbenches: Part_Workbench/ru
    SeeAlso: Part Union/ru, Part Common/ru, Part Cut/ru и Part Section/ru
 ---

@@ -1,6 +1,6 @@
 # Draft Wire/cs
 ---
-- GuiCommand:   Name: Draft_Wire   Name/cs: Kreslení Drát   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs, Draft BSpline/cs---
+ GuiCommand:   Name: Draft_Wire   Name/cs: Kreslení Drát   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs, Draft BSpline/cs---
 
 
 </div>

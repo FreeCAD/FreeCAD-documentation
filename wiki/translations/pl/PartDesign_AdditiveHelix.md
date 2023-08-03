@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveHelix
    Name/pl: Projekt Części: Addytywna helisa
-   MenuLocation: Projekt Części -> Utwórz cechę przez dodanie -> Addytywna helisa
+   MenuLocation: Projekt Części , Utwórz cechę przez dodanie , Addytywna helisa
    Workbenches: PartDesign_Workbench/pl
    Version: 0.19
    SeeAlso: PartDesign_SubtractiveHelix/pl

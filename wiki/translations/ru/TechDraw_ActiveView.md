@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставить активный вид 
    Name: TechDraw_ActiveView
-   MenuLocation: TechDraw -> Вставить активный вид 
+   MenuLocation: TechDraw , Вставить активный вид 
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_Symbol/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/it: Cerchio
-   MenuLocation: Drafting -> Cerchio
+   MenuLocation: Drafting , Cerchio
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **C** **I**
    Version: 0.7

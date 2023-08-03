@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot CreateRobot
    Name/fr: Robot Création de robot
-   MenuLocation: Robot -> Insérer des robots
+   MenuLocation: Robot , Insérer des robots
    Workbenches: Robot_Workbench/fr
 ---
 

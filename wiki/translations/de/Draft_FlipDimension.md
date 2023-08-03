@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft FlipDimension
    Name/de: Draft MaßKippen
-   MenuLocation: Änderung -> Bemaßung umkehren
+   MenuLocation: Änderung , Bemaßung umkehren
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
 ---
 

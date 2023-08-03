@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainLock
    Name/ru: Sketcher ConstrainLock
-   MenuLocation: Sketch -> Ограничения эскиза -> Ограничение положения
+   MenuLocation: Sketch , Ограничения эскиза , Ограничение положения
    Workbenches: Sketcher_Workbench/ru
    SeeAlso: Sketcher_ConstrainBlock/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PolarArray
    Name/it: Serie polare
-   MenuLocation: Modifiche -> Strumenti serie -> Serie polare
+   MenuLocation: Modifiche , Strumenti serie , Serie polare
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
    SeeAlso: Draft_OrthoArray/it, Draft_CircularArray/it, Draft_PathArray/it, Draft_PathLinkArray/it, Draft_PointArray/it, Draft_PointLinkArray/it

@@ -1,6 +1,6 @@
 # Draft Line/cs
 ---
-- GuiCommand:   Name: Draft Line   Name/cs: Kreslení Přímka   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Line   Name/cs: Kreslení Přímka   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

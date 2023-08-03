@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveCylinder
    Name/fr: PartDesign Cylindre additif
-   MenuLocation: Part Design -> Créer une primitive additive -> Cylindre additif
+   MenuLocation: Part Design , Créer une primitive additive , Cylindre additif
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/fr, PartDesign_SubtractiveCylinder/fr

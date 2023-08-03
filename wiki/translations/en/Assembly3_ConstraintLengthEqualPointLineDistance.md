@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintLengthEqualPointLineDistance
    Icon: Assembly_ConstraintLengthEqualPointLineDistance.svg
    Workbenches: Assembly3_Workbench

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewCreate
    Name/ko: 표준 3D 보기 만들기
-   MenuLocation: 보기 -> 새 3D 보기 만들기
+   MenuLocation: 보기 , 새 3D 보기 만들기
    Workbenches: 모두
    SeeAlso: Std_ViewDockUndockFullscreen/ko, Std_ViewFullscreen/ko
 ---

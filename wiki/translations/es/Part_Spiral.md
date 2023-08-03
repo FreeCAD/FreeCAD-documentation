@@ -1,6 +1,6 @@
 # Part Spiral/es
 ---
-- GuiCommand:   Name: Part Spiral   Name/es: Part Spiral   MenuLocation: Part_Workbench/es   Part -> Part_CreatePrimitives/es -> Spiral---
+ GuiCommand:   Name: Part Spiral   Name/es: Part Spiral   MenuLocation: Part_Workbench/es   Part , Part_CreatePrimitives/es , Spiral---
 
 
 </div>

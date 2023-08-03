@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM MeshClear
    Name/pl: MES: Wyczyść dane siatki
-   MenuLocation: Menu podręczne na obiekcie siatki -> Wyczyść dane siatki MES
+   MenuLocation: Menu podręczne na obiekcie siatki , Wyczyść dane siatki MES
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
 ---

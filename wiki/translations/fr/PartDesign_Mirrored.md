@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign_Mirrored
    Name/fr: PartDesign Symétrie
-   MenuLocation: Part Design -> Appliquer une transformation -> Symétrie
+   MenuLocation: Part Design , Appliquer une transformation , Symétrie
    Workbenches: PartDesign_Workbench/fr
    SeeAlso: PartDesign_MultiTransform/fr
 ---

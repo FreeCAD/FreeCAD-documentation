@@ -1,6 +1,6 @@
 # FEM ConstraintInitialTemperature/ro
 ---
-- GuiCommand:   Name: FEM ConstraintInitialTemperature   MenuLocation: Model -> Thermal Constraints -> Constraint initial temperature   ---
+ GuiCommand:   Name: FEM ConstraintInitialTemperature   MenuLocation: Model , Thermal Constraints , Constraint initial temperature   ---
 
 
 </div>

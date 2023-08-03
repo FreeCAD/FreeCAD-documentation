@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintEqualRadius
    Icon: Assembly_ConstraintEqualRadius.svg
    Workbenches: Assembly3_Workbench

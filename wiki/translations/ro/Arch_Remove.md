@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/ro: Arch Remove
-   MenuLocation: Arch -> Remove
+   MenuLocation: Arch , Remove
    Workbenches: Arch_Workbench/fr
    SeeAlso: Arch Add
 ---

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RefineShape
-   MenuLocation: Part -> Create a copy -> Refine Shape
+   MenuLocation: Part , Create a copy , Refine Shape
    Workbenches: Part_Workbench
    SeeAlso: Part_SimpleCopy, Part_TransformedCopy, Part_ElementCopy, OpenSCAD_RefineShapeFeature
 ---

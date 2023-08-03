@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar ColumnReinforcement
    Name/fr: Arch : Rebar Armature circulaire
-   MenuLocation: Arch -> Rebar tools
+   MenuLocation: Arch , Rebar tools
    Workbenches: Arch_Workbench/fr, BIM_Workbench/fr
    Version: 0.19
    SeeAlso: Reinforcement_Workbench/fr, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr, Arch_Rebar/fr

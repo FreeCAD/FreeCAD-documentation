@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Web BrowserSetURL
    Name/de: Web BrowserURLBearbeiten
    MenuLocation: 

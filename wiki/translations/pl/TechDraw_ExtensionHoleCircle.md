@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionHoleCircle
    Name/pl: Rysunek Techniczny: Rozszerzenie Dodaj osie otworów w okręgu
-   MenuLocation: Rysunek Techniczny -> Rozszerzenie: Linie środka / gwinty -> Dodaj osie otworów w okręgu
+   MenuLocation: Rysunek Techniczny , Rozszerzenie: Linie środka / gwinty , Dodaj osie otworów w okręgu
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

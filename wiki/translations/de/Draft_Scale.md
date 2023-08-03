@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Scale
    Name/de: Draft Skalieren
-   MenuLocation: Änderung -> Skalieren
+   MenuLocation: Änderung , Skalieren
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/de, Draft_Clone/de

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewIvStereoRedGreen
    Name/it: Stereo rosso/ciano
-   MenuLocation: Visualizza -> Stereo -> Stereo rosso/ciano
+   MenuLocation: Visualizza , Stereo , Stereo rosso/ciano
    Workbenches: Tutti
    SeeAlso: Std_ViewIvStereoQuadBuff/it, Std_ViewIvStereoInterleavedRows/it, Std_ViewIvStereoInterleavedColumns/it, Std_ViewIvStereoOff/it
 ---

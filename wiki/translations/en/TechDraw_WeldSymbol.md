@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw WeldSymbol
-   MenuLocation: TechDraw -> Symbols -> Add Welding Information to Leaderline
+   MenuLocation: TechDraw , Symbols , Add Welding Information to Leaderline
    Workbenches: TechDraw_Workbench
    Version: 0.19
    SeeAlso: TechDraw_LeaderLine

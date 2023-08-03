@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Part
    MenuLocation: None
    Workbenches: All

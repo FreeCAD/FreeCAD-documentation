@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/es: Sustraer
-   MenuLocation: Arquitectura -> Sustraer
+   MenuLocation: Arquitectura , Sustraer
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch Add/es
 ---

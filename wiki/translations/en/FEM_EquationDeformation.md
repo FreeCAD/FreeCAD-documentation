@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationDeformation
-   MenuLocation: Solve -> Mechanical equations -> Deformation equation
+   MenuLocation: Solve , Mechanical equations , Deformation equation
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationElasticity, FEM_tutorial

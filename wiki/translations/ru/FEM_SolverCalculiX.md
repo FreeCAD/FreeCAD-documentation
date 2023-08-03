@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverCalculiX
    Name/ru: FEM SolverCalculiX
-   MenuLocation:  Solve -> solver CalculiX experimental
+   MenuLocation:  Solve , solver CalculiX experimental
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

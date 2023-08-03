@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
-   MenuLocation: Drafting -> Circle
+   MenuLocation: Drafting , Circle
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **C** **I**
    Version: 0.7

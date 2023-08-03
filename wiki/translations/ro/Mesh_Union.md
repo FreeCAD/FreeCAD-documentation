@@ -1,6 +1,6 @@
 # Mesh Union/ro
 ---
-- GuiCommand:   Name: Mesh Union‏‎   MenuLocation: Meshes -> Boolean -> Union   Workbenches: Mesh Workbench   Mesh---
+ GuiCommand:   Name: Mesh Union‏‎   MenuLocation: Meshes , Boolean , Union   Workbenches: Mesh Workbench   Mesh---
 
 
 </div>

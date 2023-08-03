@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Draft2Sketch
    Name/tr: Taslak/Eskiz çevir
-   MenuLocation: Drafting -> Draft to Sketch
+   MenuLocation: Drafting , Draft to Sketch
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
 ---
 

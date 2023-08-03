@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std MakroFehlersucherAnhängen
    Empty: 1
-   MenuLocation: Makro -> An den entfernten Fehlersucher anhängen...
+   MenuLocation: Makro , An den entfernten Fehlersucher anhängen...
    Workbenches: Alle
 ---
 

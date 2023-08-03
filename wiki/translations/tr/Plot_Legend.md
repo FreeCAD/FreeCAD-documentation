@@ -1,8 +1,8 @@
 # Plot Legend/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name/tr: Yazıt
-   MenuLocation: Arsa -> Yazıt
+   MenuLocation: Arsa , Yazıt
 ‏‎   
    Shortcut: 
    SeeAlso: ---

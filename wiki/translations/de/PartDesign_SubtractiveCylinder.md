@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveCylinder
    Name/de: PartDesign ZylinderAbziehen
-   MenuLocation: Part Design -> Grundkörper abziehen -> Zylinder
+   MenuLocation: Part Design , Grundkörper abziehen , Zylinder
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/de, PartDesign AdditiveCylinder/de

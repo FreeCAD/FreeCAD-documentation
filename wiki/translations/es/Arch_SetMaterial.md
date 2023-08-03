@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SetMaterial
    Name/es: Arch SetMaterial
-   MenuLocation: Arch -> Set material...
+   MenuLocation: Arch , Set material...
    Workbenches: Arch_Workbench/es, BIM_Workbench/es
    Shortcut: **M** **T**
 ---

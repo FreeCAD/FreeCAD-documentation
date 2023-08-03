@@ -1,6 +1,6 @@
 # Draft Label/ru
 ---
-- GuiCommand:   Name: Draft Label   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft -> Label   Shortcut: D L---
+ GuiCommand:   Name: Draft Label   Workbenches: Draft Workbench   Draft, Arch Workbench|MenuLocation: Draft , Label   Shortcut: D L---
 
 
 </div>

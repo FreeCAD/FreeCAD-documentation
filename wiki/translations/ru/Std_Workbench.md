@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Workbench
    Name/ru: Std Workbench
    Empty: 1
-   MenuLocation: {{StdMenu}} -> Верстак
+   MenuLocation: {{StdMenu}} , Верстак
    Workbenches: Workbenches/ru
    SeeAlso: 
 ---

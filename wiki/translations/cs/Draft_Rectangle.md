@@ -1,6 +1,6 @@
 # Draft Rectangle/cs
 ---
-- GuiCommand:   Name: Draft Rectangle   Name/cs: Draft Rectangle   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Rectangle   Name/cs: Draft Rectangle   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

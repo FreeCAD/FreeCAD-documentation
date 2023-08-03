@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать новую под-объектную связующую форму
    Name: PartDesign_SubShapeBinder
    Workbenches: PartDesign_Workbench/ru
-   MenuLocation: Part Design -> Create a sub-object shape binder
+   MenuLocation: Part Design , Create a sub-object shape binder
    Version: 0.19
    SeeAlso: PartDesign_ShapeBinder/ru, PartDesign_Clone/ru
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintPointsVertical
    Name/de: Assembly3 VertikalePunkte
    Icon: Assembly_ConstraintPointsVertical.svg

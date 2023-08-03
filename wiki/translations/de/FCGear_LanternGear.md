@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FCGear LanternGear
    Name/de:  FCGear Triebstockrad
-   MenuLocation: Gear -> Lantern Gear
+   MenuLocation: Gear , Lantern Gear
    Workbenches: FCGear_Workbench/de
    Shortcut: Keine
    Version: v0.16

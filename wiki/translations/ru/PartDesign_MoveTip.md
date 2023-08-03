@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Установить точку завершения расчёта тела
    Name: PartDesign_MoveTip
-   MenuLocation: Контекстное меню -> Установить точку завершения расчёта тела
+   MenuLocation: Контекстное меню , Установить точку завершения расчёта тела
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_MoveFeature/ru, PartDesign_MoveFeatureInTree/ru

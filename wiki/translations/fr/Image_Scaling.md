@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image Scaling
    Name/fr: Image Redimensionner l'image
    MenuLocation: 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh EvaluateSolid
    Name/pl: Siatka: Sprawdź siatkę bryły
-   MenuLocation: Siatki -> Analizuj -> Sprawdź siatkę bryły
+   MenuLocation: Siatki , Analizuj , Sprawdź siatkę bryły
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Arch_SelectNonSolidMeshes/pl
 ---

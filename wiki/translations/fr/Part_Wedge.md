@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Wedge
    Name/fr: Part Pyramide tronquée
-   MenuLocation: Part -> Part_Primitives/fr -> Pyramide tronquée
+   MenuLocation: Part , Part_Primitives/fr , Pyramide tronquée
    Workbenches: Part_Workbench/fr, OpenSCAD_Workbench/fr
    SeeAlso: Part_Primitives/fr
 ---

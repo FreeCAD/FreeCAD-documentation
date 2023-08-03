@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ApplyStyle
-   MenuLocation: Utilities -> Apply current style
+   MenuLocation: Utilities , Apply current style
    Workbenches: Draft_Workbench, Arch_Workbench
    SeeAlso: Draft_SetStyle
 ---

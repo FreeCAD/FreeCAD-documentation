@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAttachmentOffset
    Icon: Assembly_ConstraintAttachmentOffset.svg‎‎
    Workbenches: Assembly3_Workbench

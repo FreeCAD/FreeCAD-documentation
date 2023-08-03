@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/es: Borrador Rebajar
-   MenuLocation: Modificación -> Rebajar
+   MenuLocation: Modificación , Rebajar
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: **D** **N**
    SeeAlso: Draft_Upgrade/es, Part_Cut/es

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Vertical Extent
    Name/de: TechDraw MaßVertikaleAusdehnung
-   MenuLocation: TechDraw -> Maßeinträge -> Maß für die vertikale Ausdehnung einfügen
+   MenuLocation: TechDraw , Maßeinträge , Maß für die vertikale Ausdehnung einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_LengthDimension/de, TechDraw_HorizontalExtentDimension/de

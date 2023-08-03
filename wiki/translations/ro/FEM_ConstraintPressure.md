@@ -1,6 +1,6 @@
 # FEM ConstraintPressure/ro
 ---
-- GuiCommand:   Name: FEM ConstraintPressure   Name/ro: FEM ConstraintPressure   MenuLocation: Model -> Mechanical Constraints -> Constraint pressure   ---
+ GuiCommand:   Name: FEM ConstraintPressure   Name/ro: FEM ConstraintPressure   MenuLocation: Model , Mechanical Constraints , Constraint pressure   ---
 
 
 </div>

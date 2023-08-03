@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet_StyleUnderline
    Name/it: Sottolineato
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Spreadsheet -> Stile -> Sottolineato
+   MenuLocation: Spreadsheet , Stile , Sottolineato
    Version: 0.17
 ---
 

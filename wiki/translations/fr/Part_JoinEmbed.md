@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part JoinEmbed
    Name/fr: Part Intégrer
-   MenuLocation: Part -> Joindre -> Intégrer un objet
+   MenuLocation: Part , Joindre , Intégrer un objet
    Workbenches: Part_Workbench/fr
    Version: 0.16
    SeeAlso: Part_JoinConnect/fr, Part_JoinCutout/fr, Part_Boolean/fr, Part_Thickness/fr

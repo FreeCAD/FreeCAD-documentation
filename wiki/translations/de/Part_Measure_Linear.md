@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Linear
    Name/de: Part Messung Abstand
-   MenuLocation: Messen -> Linear messen
+   MenuLocation: Messen , Linear messen
    Workbenches: Part_Workbench/de
    SeeAlso: Std_MeasureDistance/de, Draft_Dimension/de
 ---

@@ -1,6 +1,6 @@
 # OpenSCAD MeshBoolean/ro
 ---
-- GuiCommand:   Name: OpenSCAD MeshBoolean   MenuLocation: OpenSCAD -> Mesh Boolean...‏‎   |Shortcut: none   SeeAlso: 
+ GuiCommand:   Name: OpenSCAD MeshBoolean   MenuLocation: OpenSCAD , Mesh Boolean...‏‎   |Shortcut: none   SeeAlso: 
 
 
 </div>

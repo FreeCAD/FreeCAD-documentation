@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ShowObjects
    Name/fr: Std Afficher tous les objets
-   MenuLocation: Affichage -> Visibilité -> Afficher tous les objets
+   MenuLocation: Affichage , Visibilité , Afficher tous les objets
    Workbenches: Tous
    SeeAlso: Std_ToggleVisibility/fr, Std_ShowSelection/fr, Std_HideSelection/fr, Std_ToggleObjects/fr, Std_HideObjects/fr
 ---

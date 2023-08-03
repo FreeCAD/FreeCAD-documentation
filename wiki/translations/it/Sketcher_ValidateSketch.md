@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ValidateSketch
    Name/it: Convalida lo schizzo
    Empty: 1
    Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch/Part Design -> Convalida lo schizzo...
+   MenuLocation: Sketch/Part Design , Convalida lo schizzo...
 ---
 
 # Sketcher ValidateSketch/it

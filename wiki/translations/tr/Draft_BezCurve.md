@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft BezCurve
    Name/tr: Bezier eğrisi
-   MenuLocation: Taslak -> Bezier eğrisi
+   MenuLocation: Taslak , Bezier eğrisi
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: B Z
    Version: 0.14

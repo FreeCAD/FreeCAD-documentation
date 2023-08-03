@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Line
    Name/es: Línea PartDesign
    Workbenches: PartDesign Workbench/es
-   MenuLocation: Part Design -> Crear una línea de referencia
+   MenuLocation: Part Design , Crear una línea de referencia
    Version: 0.17
    SeeAlso: PartDesign Point/es, PartDesign Plane/es
 ---

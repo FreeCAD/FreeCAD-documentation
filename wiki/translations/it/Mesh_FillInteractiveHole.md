@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_FillInteractiveHole‏‎
    Name/it: Chiudi il buco
-   MenuLocation: Mesh -> Chiudi il buco
+   MenuLocation: Mesh , Chiudi il buco
    Workbenches: Mesh Workbench/it
    SeeAlso: Mesh_FillupHoles/it, Mesh_AddFacet/it
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Pipe
    Name/de: Arch Rohr
-   MenuLocation: Arch -> Pipe tools -> Rohr
+   MenuLocation: Arch , Pipe tools , Rohr
    Workbenches: Arch_Workbench/de
    Shortcut: **P** **I**
    Version: 0.17

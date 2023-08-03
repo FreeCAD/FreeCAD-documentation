@@ -1,6 +1,6 @@
 # Sketcher ConstrainRadius/it
 ---
-- GuiCommand:   Name: Sketcher_ConstrainRadius   Name/it: Raggio   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainDistanceY/it---
+ GuiCommand:   Name: Sketcher_ConstrainRadius   Name/it: Raggio   Workbenches: Sketcher Workbench/it   Schizzo, Sketcher ConstrainDistanceY/it---
 
 
 </div>

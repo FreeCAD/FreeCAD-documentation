@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Custom
    Name/ru: Path Custom
-   MenuLocation: Path -> Supplemental Commands -> Дополнительно
+   MenuLocation: Path , Supplemental Commands , Дополнительно
    Workbenches: Path_Workbench/ru
    Shortcut: 
    SeeAlso: 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ResultsPurge
-   MenuLocation: Results -> Purge results
+   MenuLocation: Results , Purge results
    Workbenches: FEM_Workbench
    Shortcut: **R** **P**
    SeeAlso: FEM_tutorial

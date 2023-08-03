@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Выровнять по нижнему краю
    Name: Spreadsheet_AlignBottom
-   MenuLocation: Электронная таблица -> Alignment -> Выровнять по нижнему краю
+   MenuLocation: Электронная таблица , Alignment , Выровнять по нижнему краю
    Workbenches: Spreadsheet_Workbench/ru
    Version: 0.17
 ---

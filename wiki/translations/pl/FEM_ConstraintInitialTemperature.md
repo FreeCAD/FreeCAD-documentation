@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintInitialTemperature
-   MenuLocation: Model -> Thermal Constraints -> Constraint initial temperature
+   MenuLocation: Model , Thermal Constraints , Constraint initial temperature
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Angle
    Name/de: Draft EinrastenAufWinkel
    Workbenches: Draft_Workbench/de, Arch_Workbench/de

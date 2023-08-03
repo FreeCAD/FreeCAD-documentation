@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship New
    Name/it: Nuova‏‎
-   MenuLocation: Ship design -> Crea una nuova nave
+   MenuLocation: Ship design , Crea una nuova nave
    Workbenches: Ship Workbench/it
    Shortcut: 
    SeeAlso: 

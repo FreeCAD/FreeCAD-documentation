@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft AnnotationStyleEditor
    Name/es: Borrador EditorEstiloAnotación
-   MenuLocation: Anotación -> Estilos de anotación...
+   MenuLocation: Anotación , Estilos de anotación...
    Workbenches: Draft_Workbench/es
    SeeAlso: Draft_Text/es, Draft_Label/es, Draft_Dimension/es
    Version: 0.19

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Указать угловой размер по 3 точкам
    Name: TechDraw_3PtAngleDimension
-   MenuLocation: TechDraw -> Указать угловой размер по 3 точкам
+   MenuLocation: TechDraw , Указать угловой размер по 3 точкам
    Workbenches: TechDraw_Workbench/ru
    Version: 0.18
    SeeAlso: TechDraw_AngleDimension/ru

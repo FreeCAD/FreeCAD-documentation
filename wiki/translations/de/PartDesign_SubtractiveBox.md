@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign SubtractiveBox
    Name/de: PartDesign QuaderAbziehen
-   MenuLocation: Part Design -> Grundkörper abziehen -> Quader
+   MenuLocation: Part Design , Grundkörper abziehen , Quader
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveSubtractive/de, PartDesign_AdditiveBox/de

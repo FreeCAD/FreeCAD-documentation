@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LandmarkDimension
    Name/pl: Rysunek Techniczny: Wstaw wymiar przestrzenny
-   MenuLocation: Rysunek Techniczny -> Wymiary -> Wstaw wymiar przestrzenny - EXPERYMENTALNE
+   MenuLocation: Rysunek Techniczny , Wymiary , Wstaw wymiar przestrzenny - EXPERYMENTALNE
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_HorizontalDimension/pl, TechDraw_VerticalDimension/pl

@@ -1,6 +1,6 @@
 # Draft Clone/cs
 ---
-- GuiCommand:   Name: Draft Clone   Name/cs: Kreslení Klon   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft Clone   Name/cs: Kreslení Klon   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Line
    Name/ro: Draft Line
-   MenuLocation: Draft -> Line
+   MenuLocation: Draft , Line
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    Shortcut: **L** **I**
    SeeAlso: Draft Wire/ro

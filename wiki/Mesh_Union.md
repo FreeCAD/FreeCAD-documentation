@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Union
-   MenuLocation: Meshes -> Boolean -> Union
+   MenuLocation: Meshes , Boolean , Union
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_Intersection, Mesh_Difference
 ---

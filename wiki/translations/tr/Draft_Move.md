@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Move
    Name/tr: Taşı
-   MenuLocation: Taslak -> Taşı
+   MenuLocation: Taslak , Taşı
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **M** **V**
    SeeAlso: Draft Array/tr, Draft PathArray/tr

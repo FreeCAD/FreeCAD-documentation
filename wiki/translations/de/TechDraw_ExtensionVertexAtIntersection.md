@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionVertexAtIntersection
    Name/de: TechDraw ErgänzungKnotenAnSchnittstelle
-   MenuLocation: TechDraw -> Ergänzungen: Mittellinien/Gewinde -> Hilfsschnittpunkte hinzufügen
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde , Hilfsschnittpunkte hinzufügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20

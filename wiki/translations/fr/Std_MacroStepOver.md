@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std DebugOver
    Name/fr: Std Passer outre
    Empty: 1
-   MenuLocation: Macro -> Passer outre 
+   MenuLocation: Macro , Passer outre 
    Workbenches: Tous
    Shortcut: **F10**
    SeeAlso: Std_MacroStepInto/fr, Std_ToggleBreakpoint/fr

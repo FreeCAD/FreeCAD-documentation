@@ -1,6 +1,6 @@
 # Std Paste/ro
 ---
-- GuiCommand:   Name: Std_Paste   MenuLocation: Edit -> Paste   Shortcut: Ctrl+V   Workbenches: All   SeeAlso: Std_Copy, Std_DuplicateSelection---
+ GuiCommand:   Name: Std_Paste   MenuLocation: Edit , Paste   Shortcut: Ctrl+V   Workbenches: All   SeeAlso: Std_Copy, Std_DuplicateSelection---
 
 
 </div>

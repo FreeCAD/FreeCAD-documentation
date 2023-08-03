@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar Drawing Dimensioning
    MenuLocation: 
    Workbenches: Arch_Workbench, BIM_Workbench

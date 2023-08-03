@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintCoincidence
    Icon: Assembly_ConstraintCoincidence.svg
    Workbenches: Assembly3_Workbench

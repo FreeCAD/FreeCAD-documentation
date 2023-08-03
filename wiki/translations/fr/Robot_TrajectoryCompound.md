@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot TrajectoryCompound
    Name/fr: Robot Groupement de trajectoires
-   MenuLocation: Robot -> Groupement de trajectoires
+   MenuLocation: Robot , Groupement de trajectoires
    Workbenches: Robot_Workbench/fr
 ---
 

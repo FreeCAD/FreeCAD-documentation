@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LandmarkDimension
    Name/it: Quota da punti di riferimento
-   MenuLocation: TechDraw -> Quota da punti di riferimento
+   MenuLocation: TechDraw , Quota da punti di riferimento
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_HorizontalDimension/it, TechDraw_VerticalDimension/it
    Version: 0.19

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Spreadsheet Import
    Name/pl: Arkusz Kalkulacyjny: Importuj
-   MenuLocation: Arkusz Kalkulacyjny -> Importuj
+   MenuLocation: Arkusz Kalkulacyjny , Importuj
    Workbenches: Spreadsheet_Workbench/pl
    Version: 0.17
    SeeAlso: Spreadsheet_Export/pl

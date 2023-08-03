@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part TransformedCopy
    Name/fr: Part Copie transformée
-   MenuLocation: Part -> Créer une copie -> Créer une copie modifiée
+   MenuLocation: Part , Créer une copie , Créer une copie modifiée
    Workbenches: Part_Workbench/fr
    Version: 0.19
    SeeAlso: Part_SimpleCopy/fr, Part_ElementCopy/fr, Part_RefineShape/fr

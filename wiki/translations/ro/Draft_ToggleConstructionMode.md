@@ -1,6 +1,6 @@
 # Draft ToggleConstructionMode/ro
 ---
-- GuiCommand:   Name: Draft ToggleConstructionMode   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
+ GuiCommand:   Name: Draft ToggleConstructionMode   Workbenches: Draft_Workbench   Draft, Arch_Workbench---
 
 
 </div>

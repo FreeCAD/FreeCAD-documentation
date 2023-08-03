@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SelForward
    Name/fr: Std Suivant
    MenuLocation: 

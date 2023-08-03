@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher BSplineInsertKnot
    Name/pl: Szkicownik: Wstaw węzeł krzywej zlożonej
-   MenuLocation: Szkic -> Narzędzia szkicownika krzywej złożonej -> Wstaw węzeł
+   MenuLocation: Szkic , Narzędzia szkicownika krzywej złożonej , Wstaw węzeł
    Workbenches: Sketcher_Workbench/pl
    Version: 0.20
    SeeAlso: Sketcher_BSplineKnotMultiplicity/pl, Sketcher_BSplineIncreaseKnotMultiplicity/pl, Sketcher_BSplineDecreaseKnotMultiplicity/pl

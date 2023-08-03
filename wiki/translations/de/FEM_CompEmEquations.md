@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM CompEmEquations
    Name/de: FEM AuswahlEmGleichungen
    MenuLocation: 

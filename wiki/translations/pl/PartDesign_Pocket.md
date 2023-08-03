@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Pocket
    Name/pl: Projekt Części: Kiezeń
-   MenuLocation: Projekt części -> Utwórz cechę przez odjęcie -> Kieszeń
+   MenuLocation: Projekt części , Utwórz cechę przez odjęcie , Kieszeń
    Workbenches: PartDesign_Workbench/pl
    SeeAlso: PartDesign_Pad/pl
 ---

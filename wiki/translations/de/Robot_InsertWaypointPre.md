@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot InsertWaypointPre   Name/de: Robot In Bewegungsbahn einfügen
    Workbenches: Robot_Workbench
-   MenuLocation: Roboter -> In Bewegungsbahn einfügen
+   MenuLocation: Roboter , In Bewegungsbahn einfügen
    Shortcut: **W**
 ---
 

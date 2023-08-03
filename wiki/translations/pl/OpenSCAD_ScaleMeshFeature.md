@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD ScaleMeshFeature
-   MenuLocation: OpenSCAD -> Scale Mesh Feature
+   MenuLocation: OpenSCAD , Scale Mesh Feature
    Workbenches: OpenSCAD_Workbench
    SeeAlso: Mesh_Scale
 ---

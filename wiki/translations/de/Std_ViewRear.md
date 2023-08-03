@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewRear
    Name/de: Std Rückansicht
-   MenuLocation: Ansicht -> Standardansichten -> Hinten
+   MenuLocation: Ansicht , Standardansichten , Hinten
    Workbenches: Alle
    Shortcut: **4**
    SeeAlso: Std_ViewBottom/de, Std_ViewLeft

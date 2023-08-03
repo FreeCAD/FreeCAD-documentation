@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Export
    Name/ko: 표준 내보내기
-   MenuLocation: 파일 -> 내보내기...
+   MenuLocation: 파일 , 내보내기...
    Workbenches: 모두
    Shortcut: **Ctrl**+**E**
    SeeAlso: Std_PrintPdf, Import_Export, Import_Export_Preferences

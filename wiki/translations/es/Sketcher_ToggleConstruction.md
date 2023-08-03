@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher AlterConstruction
    Name/es: Alternar geometría de construcción
    Icon: Sketcher_AlterConstruction.svg
    Workbenches: Sketcher Workbench/es
-   MenuLocation: Sketch -> Geometrías de croquis -> Alternar geometría de construcción
+   MenuLocation: Sketch , Geometrías de croquis , Alternar geometría de construcción
 ---
 
 # Sketcher ToggleConstruction/es

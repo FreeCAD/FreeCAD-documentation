@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std AddonMgr
    Name/fr: Std Gestionnaire des extensions
-   MenuLocation: Outils -> Gestionnaire des extensions
+   MenuLocation: Outils , Gestionnaire des extensions
    Workbenches: Tous
    Version: 0.17
    SeeAlso: External workbenches/fr, Macros/fr

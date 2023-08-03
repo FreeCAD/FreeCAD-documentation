@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Intersection
    Name/it: Intersezione
-   MenuLocation: Draft -> Draft_Snap/it -> Intersezione
+   MenuLocation: Draft , Draft_Snap/it , Intersezione
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it

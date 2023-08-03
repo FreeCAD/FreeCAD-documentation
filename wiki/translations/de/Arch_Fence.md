@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Fence
    Name/de: Arch Zaun
-   MenuLocation: Arch -> Zaun
+   MenuLocation: Arch , Zaun
    Workbenches: Arch_Workbench/de
    Version: 0.19
 ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch_Building
    Name/ru: Здание
    Workbenches: Arch_Workbench/ru
-   MenuLocation: Arch -> Здание
+   MenuLocation: Arch , Здание
    Shortcut: **B** **U**
    SeeAlso: Arch_BuildingPart/ru, Arch_Site/ru
 ---

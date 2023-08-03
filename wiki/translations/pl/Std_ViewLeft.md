@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewLeft
    Name/pl: Std: Widok od lewej
-   MenuLocation: Widok -> Widoki standardowe -> Od lewej
+   MenuLocation: Widok , Widoki standardowe , Od lewej
    Workbenches: wszystkie
    Shortcut: **6**
    SeeAlso: Std_ViewRear/pl, Std_ViewBottom/pl

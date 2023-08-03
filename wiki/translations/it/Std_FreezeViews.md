@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_FreezeViews
    Name/it: Viste bloccate
-   MenuLocation: Visualizza -> Viste bloccate -> ...
+   MenuLocation: Visualizza , Viste bloccate , ...
    Workbenches: Tutti
    SeeAlso: Std_StoreWorkingView/it, Std_RecallWorkingView/it, Std_ViewIvIssueCamPos/it
 ---

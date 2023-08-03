@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MeshToShape
    Name/ro: Arch MeshToShape
-   MenuLocation: Arch -> Utilities -> Mesh to Shape
+   MenuLocation: Arch , Utilities , Mesh to Shape
    Workbenches: Arch_Workbench/ro
    SeeAlso: Arch SplitMesh/ro, Arch RemoveShape/ro
 ---

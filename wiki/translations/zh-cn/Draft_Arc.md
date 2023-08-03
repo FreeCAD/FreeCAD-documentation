@@ -1,8 +1,8 @@
 ---
-- GuiCommand:-cn
+ GuiCommand:-cn
    Name: Draft Arc
    Name/zh-cn: Draft Arc
-   MenuLocation: Draft -> Arc
+   MenuLocation: Draft , Arc
    Workbenches: Draft_Workbench/zh-cn, Arch_Workbench/zh-cn
    Shortcut: **A** **R**
    SeeAlso: Draft Circle/zh-cn, Draft Ellipse/zh-cn

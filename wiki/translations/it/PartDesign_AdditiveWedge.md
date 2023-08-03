@@ -1,6 +1,6 @@
 # PartDesign AdditiveWedge/it
 ---
-- GuiCommand:   Name: PartDesign AdditiveWedge   Name/it: Cuneo additivo   Workbenches: PartDesign Workbench/it   PartDesign---
+ GuiCommand:   Name: PartDesign AdditiveWedge   Name/it: Cuneo additivo   Workbenches: PartDesign Workbench/it   PartDesign---
 
 
 </div>

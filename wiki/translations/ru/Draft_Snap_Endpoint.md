@@ -1,9 +1,9 @@
 # Draft Snap Endpoint/ru
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Endpoint
    Name/ru: Draft Endpoint
-   MenuLocation: Черчение -> Draft Snap/ru -> Конечные точки
+   MenuLocation: Черчение , Draft Snap/ru , Конечные точки
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: 
    SeeAlso: ---

@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch AxisSystem
    Name/de: Arch AchsenSystem
    Icon: Arch Axis System.svg
-   MenuLocation: Arch -> Achsenwerkzeuge -> Achsensystem
+   MenuLocation: Arch , Achsenwerkzeuge , Achsensystem
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_Axis/de, Arch_Grid/de
 ---

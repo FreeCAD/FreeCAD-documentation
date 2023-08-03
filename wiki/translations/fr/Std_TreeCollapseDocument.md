@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std TreeCollapseDocument
    Name/fr: Std Arborescence Réduire développer
-   MenuLocation: Affichage -> Vue en arborescence -> Réduire/développer
+   MenuLocation: Affichage , Vue en arborescence , Réduire/développer
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Std_TreeSingleDocument/fr, Std_TreeMultiDocument/fr

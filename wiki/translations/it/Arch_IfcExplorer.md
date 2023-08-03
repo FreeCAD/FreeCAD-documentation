@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch IfcExplorer
    Name/it: Esplora Ifc
    Icon: IFC.svg
    Workbenches: Arch_Workbench/it
-   MenuLocation: Arch -> Utilità -> Esplora Ifc
+   MenuLocation: Arch , Utilità , Esplora Ifc
    SeeAlso: Arch IFC/it
 ---
 

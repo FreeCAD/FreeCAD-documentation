@@ -1,6 +1,6 @@
 # Drawing Open SVG/cs
 ---
-- GuiCommand:   Name: Drawing Open SVG   Name/cs: Drawing Open SVG   Workbenches: Drawing Workbench/cs   Výkres, Sestavení---
+ GuiCommand:   Name: Drawing Open SVG   Name/cs: Drawing Open SVG   Workbenches: Drawing Workbench/cs   Výkres, Sestavení---
 
 
 </div>

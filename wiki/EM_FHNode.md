@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: EM FHNode
-   MenuLocation: EM -> FHNode
+   MenuLocation: EM , FHNode
    Workbenches: EM_Workbench
    Shortcut: **E** **N**
    Version: 0.17

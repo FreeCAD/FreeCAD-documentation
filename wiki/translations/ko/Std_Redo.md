@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Redo
    Name/ko: 표준 다시 실행
-   MenuLocation: 편집 -> 다시 실행
+   MenuLocation: 편집 , 다시 실행
    Workbenches: 모두
    Shortcut: **Ctrl**+**Y**
    SeeAlso: Std_Undo/ko

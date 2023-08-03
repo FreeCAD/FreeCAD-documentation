@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Linear
    Name/fr: Part Mesure linéaire
-   MenuLocation: Mesure -> Mesure linéaire
+   MenuLocation: Mesure , Mesure linéaire
    Workbenches: Part_Workbench/fr
    SeeAlso: Std_MeasureDistance/fr, Draft_Dimension/fr
 ---

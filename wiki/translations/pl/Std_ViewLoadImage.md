@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ViewLoadImage
    Name/pl: Std: Załaduj obraz
-   MenuLocation: Przybory -> Załaduj obraz ...
+   MenuLocation: Przybory , Załaduj obraz ...
    Workbenches: wszystkie
    Version: 0.21
 ---

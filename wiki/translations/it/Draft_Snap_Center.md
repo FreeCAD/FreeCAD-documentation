@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Center
    Name/it: Centro
-   MenuLocation: Draft -> Draft Snap/it   Ancoraggio -> Centro|Shortcut: 
+   MenuLocation: Draft , Draft Snap/it   Ancoraggio , Centro|Shortcut: 
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---

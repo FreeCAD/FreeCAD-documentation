@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch AxisSystem
    Name/it: Sistema di assi
    Icon: Arch Axis System.svg
-   MenuLocation: Arch -> Sistema di assi
+   MenuLocation: Arch , Sistema di assi
    Workbenches: Arch_Workbench/it
    SeeAlso: Arch Axis/it, Arch Grid/it
 ---

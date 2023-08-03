@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintArcLineTangent
    Name/de: Assembly3 Bogen-Linie-Tangente
    Icon: Assembly_ConstraintArcLineTangent.svg

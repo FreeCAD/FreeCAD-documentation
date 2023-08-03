@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw LinkDimension
    Name/it: Link alla dimensione
-   MenuLocation: TechDraw -> Link alla geometria 3D
+   MenuLocation: TechDraw , Link alla geometria 3D
    Workbenches: TechDraw_Workbench/it
    Shortcut: 
    SeeAlso: TechDraw_View/it, TechDraw_ProjectionGroup/it

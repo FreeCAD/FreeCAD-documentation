@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Split
    Name/fr: Draft Scinder
-   MenuLocation: Modification -> Scinder
+   MenuLocation: Modification , Scinder
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **S** **P**
    Version: 0.18

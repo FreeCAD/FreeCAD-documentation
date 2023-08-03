@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM SolverControl
    Name/it: Imposta il risolutore
-   MenuLocation: Soluzione -> Imposta il risolutore
+   MenuLocation: Soluzione , Imposta il risolutore
    Workbenches: FEM_Workbench/it
    Shortcut: **S** **C**
    SeeAlso: FEM_tutorial/it

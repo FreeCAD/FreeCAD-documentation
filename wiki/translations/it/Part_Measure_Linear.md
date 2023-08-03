@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Linear
    Name/it: Misura Lineare
-   MenuLocation: Std Measure Menu/it -> Misura Lineare‏‎
+   MenuLocation: Std Measure Menu/it , Misura Lineare‏‎
    Workbenches: Part_Workbench/it
 ---
 

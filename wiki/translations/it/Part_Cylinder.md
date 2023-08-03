@@ -1,6 +1,6 @@
 # Part Cylinder/it
 ---
-- GuiCommand:   Name: Part Cylinder   Name/it: Cilindro   MenuLocation: Parte -> Primitive -> Cilindro   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:   Name: Part Cylinder   Name/it: Cilindro   MenuLocation: Parte , Primitive , Cilindro   Workbenches: Part_Workbench/it   Parte---
 
 
 </div>

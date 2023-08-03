@@ -1,6 +1,6 @@
 # Arch Remove/ja
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Remove
    Name/ja: Removeツール
    MenuLocation: Arch -> Remove

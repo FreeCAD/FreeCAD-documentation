@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreatePointFillet
    Name/pl: Utwórz zaokrąglenie z zachowaniem narożników
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Utwórz zaokrąglenie z zachowaniem narożników
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz zaokrąglenie z zachowaniem narożników
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **F** **P**
    Version: 0.19

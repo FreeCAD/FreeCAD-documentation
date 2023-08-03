@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Paste
    Name/ru: Вставить
-   MenuLocation: Правка -> Вставка
+   MenuLocation: Правка , Вставка
    Workbenches: Все
    Shortcut: **Ctrl**+**V**
    SeeAlso: Std_Cut/ru, Std_Copy/ru, Std_DuplicateSelection/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_CompOffsetTools
    Name/ru: Инструменты смещения
-   MenuLocation: Part -> Инструменты смещения
+   MenuLocation: Part , Инструменты смещения
    Workbenches: Part_Workbench/ru
    SeeAlso: 
 ---

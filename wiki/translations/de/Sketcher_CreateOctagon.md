@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateOctagon
    Name/de: Sketcher AchteckErstellen
-   MenuLocation: Sketch -> Skizzengeometrien -> Achteck erstellen
+   MenuLocation: Sketch , Skizzengeometrien , Achteck erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **P** **8**
    Version: 0.15

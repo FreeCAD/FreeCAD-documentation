@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionShortenLine
    Name/fr: TechDraw Raccourcir
-   MenuLocation: TechDraw -> Extensions : attributs/modifications -> Racourcir la ligne
+   MenuLocation: TechDraw , Extensions : attributs/modifications , Racourcir la ligne
    Workbenches: TechDraw_Workbench/fr
    Shortcut: 
    Version: 0.20

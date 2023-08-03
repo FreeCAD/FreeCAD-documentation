@@ -1,6 +1,6 @@
 # Arch Add/ro
 ---
-- GuiCommand:   Name: Arch Add   Name/ro: Arch Add   Workbenches: Arch_Workbench/ro   Arch---
+ GuiCommand:   Name: Arch Add   Name/ro: Arch Add   Workbenches: Arch_Workbench/ro   Arch---
 
 
 </div>

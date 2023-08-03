@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostApplyChanges
    Name/ru: FEM PostApplyChanges
-   MenuLocation:  Results -> apply changes to pipeline
+   MenuLocation:  Results , apply changes to pipeline
    Workbenches: FEM_Workbench/ru
    Shortcut: 
    SeeAlso: FEM_tutorial/ru

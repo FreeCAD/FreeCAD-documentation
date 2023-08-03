@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Rebar BeamReinforcement
-   MenuLocation: Arch -> Rebar tools -> Beam Reinforcement<br>3D/BIM -> Reinforcement tools -> Beam Reinforcement
+   MenuLocation: Arch , Rebar tools , Beam Reinforcement<br>3D/BIM , Reinforcement tools , Beam Reinforcement
    Workbenches: Arch_Workbench, BIM_Workbench
    Version: 0.19
    SeeAlso: Reinforcement_Workbench, Arch_Rebar, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars

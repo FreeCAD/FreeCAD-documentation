@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket Thrust To Weight Calculator
    Icon: Rocket_Calculator.svg
-   MenuLocation: Rocket -> Calculators -> Thrust To Weight Calculator
+   MenuLocation: Rocket , Calculators , Thrust To Weight Calculator
    Workbenches: Rocket_Workbench
    Version: 0.19
 ---

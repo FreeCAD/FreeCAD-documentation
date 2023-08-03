@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh_Merge
    Name/it: Unisci
-   MenuLocation: Mesh -> Unisci
+   MenuLocation: Mesh , Unisci
    Workbenches: Mesh_Workbench/it
    SeeAlso: Mesh_SplitComponents/it
 ---

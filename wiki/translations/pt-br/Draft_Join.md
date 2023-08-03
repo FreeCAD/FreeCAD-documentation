@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Join
-   MenuLocation: Modification -> Join
+   MenuLocation: Modification , Join
    Workbenches: Draft_Workbench, Arch_Workbench
    Shortcut: **J** **O**
    Version: 0.18

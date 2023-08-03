@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher CreateBSplineByInterpolation
    Name/pl: Szkicownik: Krzywa złozona przez interpolację
-   MenuLocation: Szkic -> Elementy geometryczne szkicownika -> Krzywa złożona przez węzły
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Krzywa złożona przez węzły
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **G** **B** **I**
    Version: 0.21

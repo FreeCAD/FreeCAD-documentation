@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign NewSketch
    Name/tr: Eskiz oluştur
    Workbenches: PartDesign Workbench/tr
-   MenuLocation: PartDesign -> Eskiz oluştur
+   MenuLocation: PartDesign , Eskiz oluştur
    Version: 0.17
 ---
 

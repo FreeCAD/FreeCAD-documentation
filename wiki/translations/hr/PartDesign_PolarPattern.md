@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign PolarPattern
-   MenuLocation: Part Design -> Apply a pattern -> PolarPattern
+   MenuLocation: Part Design , Apply a pattern , PolarPattern
    Workbenches: PartDesign_Workbench
    SeeAlso: PartDesign_MultiTransform
 ---

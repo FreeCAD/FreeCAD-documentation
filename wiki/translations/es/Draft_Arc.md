@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
    Name/es: Draft Arc
-   MenuLocation: Croquis -> Arco
+   MenuLocation: Croquis , Arco
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
    Shortcut: A R
    SeeAlso: Draft Circle/es

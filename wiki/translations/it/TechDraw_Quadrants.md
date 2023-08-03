@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Quadrants
    Name/it: Quadrante
-   MenuLocation: TechDraw -> Aggiungi vertici -> Quadrante
+   MenuLocation: TechDraw , Aggiungi vertici , Quadrante
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw CosmeticVertex/it, TechDraw Midpoints/it
    Version: 0.19

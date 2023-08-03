@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionLinePerpendicular
-   MenuLocation: TechDraw -> Extensions: Centerlines/Threading -> Add Cosmetic Perpendicular Line
+   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Perpendicular Line
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Downgrade
    Name/tr: Düşür
-   MenuLocation: Draft -> Downgrade
+   MenuLocation: Draft , Downgrade
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **N**
    SeeAlso: Draft Upgrade/tr

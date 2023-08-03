@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sphere
    Name/de: Part Kugel
-   MenuLocation: Part -> Grundkörper -> Kugel
+   MenuLocation: Part , Grundkörper , Kugel
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Primitives/de
 ---

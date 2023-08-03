@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Compound‏‎Filter
    Name/es: Pieza FiltroCompuesto
-   MenuLocation: Part -> Filtro Compuesto
+   MenuLocation: Part , Filtro Compuesto
    Workbenches: Part Workbench/es
    Version: 0.17
 ---

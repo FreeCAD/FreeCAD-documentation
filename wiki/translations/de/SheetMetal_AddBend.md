@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: SheetMetal AddBend
    Name/de: SheetMetal BiegungHinzufügen
-   MenuLocation: SheetMetal -> Make Bend
+   MenuLocation: SheetMetal , Make Bend
    Workbenches: SheetMetal_Workbench/de
    Shortcut: **S** **B**
    SeeAlso: SheetMetal_AddRelief/de, SheetMetal_AddJunction/de

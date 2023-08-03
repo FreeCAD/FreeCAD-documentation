@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Polygon
    Name/ru: Draft Polygon
    MenuLocation: Черчение -> Многоугольник

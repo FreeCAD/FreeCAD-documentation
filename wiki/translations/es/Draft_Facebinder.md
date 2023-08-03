@@ -1,10 +1,10 @@
 # Draft Facebinder/es
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Facebinder
    Name/es: Draft Facebinder
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
-   MenuLocation: Draft -> Facebinder
+   MenuLocation: Draft , Facebinder
    Shortcut: F F---
 
 

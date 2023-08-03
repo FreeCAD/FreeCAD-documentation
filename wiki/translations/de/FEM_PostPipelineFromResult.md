@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostPipelineFromResult
    Name/de: FEM PostPipelineFromResult
-   MenuLocation: Ergebnisse -> Nachbearbeitungs-Pipeline aus Ergebnis
+   MenuLocation: Ergebnisse , Nachbearbeitungs-Pipeline aus Ergebnis
    Workbenches: FEM_Workbench/de
    Version: 0.17
    SeeAlso: FEM_ResultShow/de, FEM_tutorial/de

@@ -1,10 +1,10 @@
 ---
-- GuiCommand:Addon/it
+ GuiCommand:Addon/it
    Name: BIM Layers
    Name/it: Strati BIM
    Workbenches: BIM Workbench/it
    Addon: BIM
-   MenuLocation: Gestione -> Strati
+   MenuLocation: Gestione , Strati
 ---
 
 # BIM Layers/it

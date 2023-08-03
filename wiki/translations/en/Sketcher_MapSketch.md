@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher MapSketch
-   MenuLocation: Part Design/Sketch -> Map sketch to face...
+   MenuLocation: Part Design/Sketch , Map sketch to face...
    Workbenches: Sketcher_Workbench, PartDesign_Workbench
    SeeAlso: Sketcher_NewSketch
 ---

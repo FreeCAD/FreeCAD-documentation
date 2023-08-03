@@ -1,6 +1,6 @@
 # FEM ElementFluid1D/ro
 ---
-- GuiCommand:   Name: FEM ElementFluid1D   Name/ro: FEM ElementFluid1D   MenuLocation: Model -> Fluid section for 1D flow   ---
+ GuiCommand:   Name: FEM ElementFluid1D   Name/ro: FEM ElementFluid1D   MenuLocation: Model , Fluid section for 1D flow   ---
 
 
 </div>

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher SelectConstraints
    Name/pl: Szkicownik: Wybierz powiązane więzy
-   MenuLocation: Szkic -> Narzędzia szkicownika -> Wybierz powiązane więzy
+   MenuLocation: Szkic , Narzędzia szkicownika , Wybierz powiązane więzy
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **Z** **K**
    Version: 0.15

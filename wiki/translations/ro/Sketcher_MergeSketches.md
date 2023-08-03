@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Icon: Sketcher MergeSketch.svg
    Name/ro: Combină schițe
    Workbenches: Sketcher Workbench/ro
-   MenuLocation: Sketch -> Combină schițe
+   MenuLocation: Sketch , Combină schițe
    Version: 0.15
 ---
 

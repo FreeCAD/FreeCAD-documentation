@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Measure Clear All
    Name/pl: Część: Usuń widoczne pomiary
-   MenuLocation: Pomiary -> Usuń widoczne pomiary
+   MenuLocation: Pomiary , Usuń widoczne pomiary
    Workbenches: Part_Workbench/pl
 ---
 

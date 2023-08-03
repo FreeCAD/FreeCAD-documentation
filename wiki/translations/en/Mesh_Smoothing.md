@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh Smoothing
-   MenuLocation: Meshes -> Smooth...
+   MenuLocation: Meshes , Smooth...
    Workbenches: Mesh_Workbench
 ---
 

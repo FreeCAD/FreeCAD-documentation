@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Dimension Radius
    Name/es: TechDraw Dimensión Radio
-   MenuLocation: TechDraw -> Dimensión Radio
+   MenuLocation: TechDraw , Dimensión Radio
    Workbenches: TechDraw_Workbench/es
    SeeAlso: TechDraw_DiameterDimension/es
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionThreadHoleSide
    Name/pl: Rysunek Techniczny: Rozszerzenie Geometria pomocnicza dla otworu gwintowanego, widok z boku
-   MenuLocation: Rysunek Techniczny -> Rozszerzenia: Linie środka / Gwinty -> Geometria pomocnicza dla otworu gwintowanego, widok z boku
+   MenuLocation: Rysunek Techniczny , Rozszerzenia: Linie środka / Gwinty , Geometria pomocnicza dla otworu gwintowanego, widok z boku
    Workbenches: TechDraw_Workbench/pl
    Shortcut: 
    Version: 0.20

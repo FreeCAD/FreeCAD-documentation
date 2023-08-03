@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Hatch
    Name/fr: Draft Hachure
-   MenuLocation: Draft -> Hachure
+   MenuLocation: Draft , Hachure
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **H** **A**
    Version: 0.20

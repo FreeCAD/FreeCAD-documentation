@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Grid
    Name/es: Arch Grid
-   MenuLocation: Arch -> Axis tools -> Grid
+   MenuLocation: Arch , Axis tools , Grid
    Workbenches: Arch_Workbench/es
    SeeAlso: Arch Axis/es, Arch AxisSystem/es
 ---

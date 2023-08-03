@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Prism
    Name/pl: Część: Graniastosłup
-   MenuLocation: Część -> Utwórz geometrie pierwotne ... -> Graniastosłup
+   MenuLocation: Część , Utwórz geometrie pierwotne ... , Graniastosłup
    Workbenches: Part_Workbench/pl, OpenSCAD_Workbench/pl
    SeeAlso: Part_Primitives/pl
 ---

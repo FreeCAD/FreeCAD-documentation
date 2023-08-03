@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Аддитивный эллипсоид
    Name: PartDesign_AdditiveEllipsoid
-   MenuLocation: Part Design -> Создать аддитивный примитив -> Аддитивный Эллипсоид
+   MenuLocation: Part Design , Создать аддитивный примитив , Аддитивный Эллипсоид
    Workbenches: PartDesign_Workbench/ru
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/ru, PartDesign_SubtractiveEllipsoid/ru

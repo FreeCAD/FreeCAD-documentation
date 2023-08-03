@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std FreeCADWebsite
-   MenuLocation: Help -> FreeCAD Website
+   MenuLocation: Help , FreeCAD Website
    Workbenches: All
    SeeAlso: Std_FreeCADUserHub, Std_FreeCADPowerUserHub, Std_FreeCADForum, Std_FreeCADFAQ
 ---

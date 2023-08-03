@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Array   Name/ro: Matrice repetabilitate
-   MenuLocation: Draft -> Array
+   MenuLocation: Draft , Array
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
    SeeAlso: Draft_PolarArray, Draft_CircularArray, Draft_PathArray, Draft_PointArray, Draft_Clone
 ---

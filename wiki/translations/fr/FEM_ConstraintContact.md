@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintContact
    Name/fr: FEM Contrainte de contact
-   MenuLocation: Modèle -> Contraintes mécaniques -> Contrainte de contact
+   MenuLocation: Modèle , Contraintes mécaniques , Contrainte de contact
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintFixed/fr
 ---

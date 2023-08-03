@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Drawing
    Name/ro: Draft Drawing
-   MenuLocation: Drafting -> Drawing
+   MenuLocation: Drafting , Drawing
    Workbenches: Draft_Workbench/ro, Arch_Workbench/ro
 ---
 

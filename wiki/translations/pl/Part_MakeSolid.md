@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeSolid
    Name/pl: Część: Przekształć na bryłę
-   MenuLocation: Część -> Przekształć na bryłę
+   MenuLocation: Część , Przekształć na bryłę
    Workbenches: Part_Workbench/pl
 ---
 

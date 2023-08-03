@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Спереди
    Name: Std_ViewFront
-   MenuLocation: Вид -> Стандартные виды‏‎ -> Спереди
+   MenuLocation: Вид , Стандартные виды‏‎ , Спереди
    Workbenches: Все
    Shortcut: **1**
    SeeAlso: Std_ViewTop/ru, Std_ViewRight/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch SetMaterial
    Name/ru: Arch SetMaterial
-   MenuLocation: Arch -> Инструменты материала -> Материал
+   MenuLocation: Arch , Инструменты материала , Материал
    Workbenches: Arch_Workbench/ru, BIM_Workbench/ru
    Shortcut: **M** **T**
    SeeAlso: Arch_CompSetMaterial/ru, Arch_MultiMaterial/ru

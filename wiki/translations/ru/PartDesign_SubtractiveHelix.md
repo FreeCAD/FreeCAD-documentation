@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Субтрактивная спираль
    Name: PartDesign_SubtractiveHelix
-   MenuLocation: Part Design -> Субтрактивные преобразования -> Субтрактивная спираль
+   MenuLocation: Part Design , Субтрактивные преобразования , Субтрактивная спираль
    Workbenches: PartDesign_Workbench/ru
    Version: 0.19
    SeeAlso: PartDesign_AdditiveHelix/ru

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkReplace
    MenuLocation: None
    Workbenches: All

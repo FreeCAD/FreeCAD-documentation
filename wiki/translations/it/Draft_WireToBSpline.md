@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft WireToBSpline
    Name/it: Polilinea in B-spline
-   MenuLocation: Modifiche -> Polilinea in B-spline
+   MenuLocation: Modifiche , Polilinea in B-spline
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft_Wire/it, Draft_BSpline/it
 ---

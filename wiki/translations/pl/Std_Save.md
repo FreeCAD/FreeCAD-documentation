@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Save
    Name/pl: Std: Zapisz
-   MenuLocation: Plik -> Zapisz
+   MenuLocation: Plik , Zapisz
    Workbenches: wszystkie
    Shortcut: **Ctrl** + **S**
    SeeAlso: Std_SaveAs/pl, Std_SaveCopy/pl, Std_SaveAll/pl

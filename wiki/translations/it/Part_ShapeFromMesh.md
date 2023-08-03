@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part ShapeFromMesh
    Name/it: ‏‎Crea forma da mesh
-   MenuLocation: Part -> Crea forma da mesh...
+   MenuLocation: Part , Crea forma da mesh...
    Workbenches: Part_Workbench/it
    SeeAlso: Part_MakeSolid/it, Part_RefineShape/it, Part_PointsFromMesh/it
 ---

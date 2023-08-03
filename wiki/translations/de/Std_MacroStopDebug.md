@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Std MakroFehlersucheAnhalten
-   MenuLocation: Makro -> Fehlersuche Anhalten
+   MenuLocation: Makro , Fehlersuche Anhalten
    Workbenches: Alle
    Shortcut: **Shift**+**F6**
    SeeAlso: Std_MacroStartDebug/de

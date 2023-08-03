@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Migrate
    Name/es: DiseñoPiezas Migración
-   MenuLocation: Diseño Piezas -> Migración
+   MenuLocation: Diseño Piezas , Migración
    Workbenches: PartDesign_Workbench/es
    Version: 0.17
 ---

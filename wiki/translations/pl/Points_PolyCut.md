@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Points PolyCut
    Name/pl: Punkty: Wycinanie punktów
-   MenuLocation: Punkty -> Wytnij punkt chmury
+   MenuLocation: Punkty , Wytnij punkt chmury
    Workbenches: Points_Workbench/pl
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Loft
    Name/pl: Part: Wyciągnij po profilach
-   MenuLocation: Część -> Wyciągnięcie po profilach...
+   MenuLocation: Część , Wyciągnięcie po profilach...
    Workbenches: Part_Workbench/pl
    Version: 0.13
    SeeAlso: Part_Sweep/pl

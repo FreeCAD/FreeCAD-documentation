@@ -1,10 +1,10 @@
 # Robot CreateRobot/tr
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Robot CreateRobot
    Name/tr: Robot oluştur
    Workbenches: Robot_Workbench/tr
-   MenuLocation: Robot -> Robot oluştur---
+   MenuLocation: Robot , Robot oluştur---
 
 
 </div>

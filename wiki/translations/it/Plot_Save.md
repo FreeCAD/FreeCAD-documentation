@@ -1,6 +1,6 @@
 # Plot Save/it
 ---
-- GuiCommand:   Name: Plot Save   Name/it: Salva grafico   Workbenches: Plot_Workbench/it   Grafico|MenuLocation: Grafico  -> Salva grafico---
+ GuiCommand:   Name: Plot Save   Name/it: Salva grafico   Workbenches: Plot_Workbench/it   Grafico|MenuLocation: Grafico  , Salva grafico---
 
 
 </div>

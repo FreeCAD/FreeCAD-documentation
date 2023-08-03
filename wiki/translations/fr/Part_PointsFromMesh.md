@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part PointsFromMesh‎
    Name/fr: Part Points à partir de maillage
-   MenuLocation: Part -> Créer un objet points à partir d'une géométrie
+   MenuLocation: Part , Créer un objet points à partir d'une géométrie
    Workbenches: Part_Workbench/fr
    Version: 0.19
    SeeAlso: Part_ShapeFromMesh/fr, Part_MakeSolid/fr, Part_RefineShape/fr

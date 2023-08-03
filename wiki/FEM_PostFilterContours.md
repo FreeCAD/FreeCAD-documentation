@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterContours
-   MenuLocation: Results -> Contours filter
+   MenuLocation: Results , Contours filter
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_PostPipelineFromResult, FEM_PostCreateFunctions, FEM_tutorial

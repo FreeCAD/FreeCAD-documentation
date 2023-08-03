@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std_Copy
    Name/it: Copia
-   MenuLocation: Modifica -> Copia
+   MenuLocation: Modifica , Copia
    Shortcut: **Ctrl**+**C**
    Workbenches: Tutti
    SeeAlso: Std_Paste/it, Std_DuplicateSelection/it

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part CompSplittingTools
-   MenuLocation: Part -> Split
+   MenuLocation: Part , Split
    Workbenches: Part_Workbench
    SeeAlso: 
 ---

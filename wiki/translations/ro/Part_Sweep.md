@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Sweep
    Name/ro: Part Sweep
-   MenuLocation: Part -> Sweep...
+   MenuLocation: Part , Sweep...
 |
    Workbenches: Part_Workbench/ro
    SeeAlso: Part Loft/ro

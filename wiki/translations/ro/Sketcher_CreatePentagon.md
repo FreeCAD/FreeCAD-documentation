@@ -1,6 +1,6 @@
 # Sketcher CreatePentagon/ro
 ---
-- GuiCommand:   Name: Sketcher CreatePentagon   Name/ro: Sketcher CreatePentagon   Workbenches: Sketcher Workbench/ro   Sketcher|MenuLocation: Sketch -> Sketcher geometries -> Create pentagon   Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Sketcher CreatePentagon   Name/ro: Sketcher CreatePentagon   Workbenches: Sketcher Workbench/ro   Sketcher|MenuLocation: Sketch , Sketcher geometries , Create pentagon   Shortcut:    SeeAlso: ---
 
 
 </div>

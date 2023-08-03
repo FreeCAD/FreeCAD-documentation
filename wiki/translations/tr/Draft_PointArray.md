@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PointArray
    Name/tr: Nokta dizisi
    Icon: Draft_PointArray.svg
-   MenuLocation: Draft -> PointArray
+   MenuLocation: Draft , PointArray
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Version: 0.18
    SeeAlso: Draft Array/tr, Draft PathArray/tr

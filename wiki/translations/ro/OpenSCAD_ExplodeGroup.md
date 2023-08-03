@@ -1,6 +1,6 @@
 # OpenSCAD ExplodeGroup/ro
 ---
-- GuiCommand:   Name: OpenSCAD ExplodeGroup   MenuLocation: OpenSCAD -> Explode Group‏‎   |Shortcut: none   SeeAlso: 
+ GuiCommand:   Name: OpenSCAD ExplodeGroup   MenuLocation: OpenSCAD , Explode Group‏‎   |Shortcut: none   SeeAlso: 
 
 
 </div>

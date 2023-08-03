@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rectangle   Name/de: Draft Rectangle
-   MenuLocation: Entwurf -> Rechteck
+   MenuLocation: Entwurf , Rechteck
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **R** **E**
    SeeAlso: Part Box/de

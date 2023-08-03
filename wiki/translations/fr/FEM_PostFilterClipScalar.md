@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM PostFilterClipScalar
    Name/fr: FEM Filtre d'écrêtage scalaire
-   MenuLocation: Résultats -> Filtre d'écrêtage scalaire
+   MenuLocation: Résultats , Filtre d'écrêtage scalaire
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_PostPipelineFromResult/fr, FEM_tutorial/fr
 ---

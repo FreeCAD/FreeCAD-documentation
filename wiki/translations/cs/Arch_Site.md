@@ -1,6 +1,6 @@
 # Arch Site/cs
 ---
-- GuiCommand:   Name: Arch Site   Name/cs: Arch Site   Workbenches: Arch_Workbench/cs   Arch, Arch Building/cs---
+ GuiCommand:   Name: Arch Site   Name/cs: Arch Site   Workbenches: Arch_Workbench/cs   Arch, Arch Building/cs---
 
 
 </div>

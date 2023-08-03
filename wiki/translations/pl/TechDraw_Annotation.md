@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Annotation
    Name/pl: Rysunek Techniczny: Wstaw adnotację
-   MenuLocation: TechDraw -> Adnotacje -> Wstaw adnotację
+   MenuLocation: TechDraw , Adnotacje , Wstaw adnotację
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: Draft_Text/pl, Draft_ShapeString/pl
 ---

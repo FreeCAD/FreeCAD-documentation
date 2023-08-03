@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw RedrawPage
    Name/fr: TechDraw Redessiner une page
-   MenuLocation: TechDraw -> Page -> Redessiner la page
+   MenuLocation: TechDraw , Page , Redessiner la page
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
 ---

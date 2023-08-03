@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Добавить осевую линию между 2 линиями
    Name: TechDraw_2LineCenterLine
-   MenuLocation: TechDraw -> Добавить Линии -> Добавить осевую линию между 2 линиями
+   MenuLocation: TechDraw , Добавить Линии , Добавить осевую линию между 2 линиями
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_FaceCenterLine/ru, TechDraw_2PointCenterLine/ru

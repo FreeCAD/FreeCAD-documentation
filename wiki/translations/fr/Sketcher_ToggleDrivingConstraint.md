@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ToggleDrivingConstraint
    Name/fr: Sketcher Contraintes pilotantes
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Basculer les contraintes pilotantes/pilotées
+   MenuLocation: Esquisse , Contraintes d'esquisse , Basculer les contraintes pilotantes/pilotées
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **X**
    Version: 0.16

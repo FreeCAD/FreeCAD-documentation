@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign Sprocket
    Name/de: PartDesign Kettenrad
-   MenuLocation: Part Design -> Kettenrad...
+   MenuLocation: Part Design , Kettenrad...
    Workbenches: PartDesign_Workbench/de
    Version: 0.19
 ---

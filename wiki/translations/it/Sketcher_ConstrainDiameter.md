@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher_ConstrainDiameter   Name/it: Diametro
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Vincoli -> Diametro
+   MenuLocation: Sketch , Vincoli , Diametro
    SeeAlso: Sketcher ConstrainDistance/it, Sketcher ConstrainDistanceX/it, Sketcher ConstrainDistanceY/it
 ---
 

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Heal
    Name/ru: Draft Heal
-   MenuLocation: Черчение -> Утилиты -> Лечить
+   MenuLocation: Черчение , Утилиты , Лечить
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
 ---
 

@@ -1,6 +1,6 @@
 # FEM PostFilterDataAlongLine/it
 ---
-- GuiCommand:   Name: FEM_PostCreateDataAlongLineFilter   Name/it: FEM PostCreateDataAlongLineFilter   Icon: Fem-DataAlongLine.svg   MenuLocation:  Risultati -> Data along line filter    ---
+ GuiCommand:   Name: FEM_PostCreateDataAlongLineFilter   Name/it: FEM PostCreateDataAlongLineFilter   Icon: Fem-DataAlongLine.svg   MenuLocation:  Risultati , Data along line filter    ---
 
 
 </div>

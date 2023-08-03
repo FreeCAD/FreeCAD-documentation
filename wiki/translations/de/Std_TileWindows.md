@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/de: Std FensterAnordnen
-   MenuLocation: Fenster -> Anordnen
+   MenuLocation: Fenster , Anordnen
    Workbenches: Alle
    SeeAlso: Std_CascadeWindows/de
 ---

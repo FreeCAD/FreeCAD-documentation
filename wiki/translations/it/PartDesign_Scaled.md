@@ -1,6 +1,6 @@
 # PartDesign Scaled/it
 ---
-- GuiCommand:   Name: PartDesign Scaled   Name/it: Scala   Workbenches: PartDesign Workbench/it   PartDesign, Completo|MenuLocation: PartDesign -> Multitrasformazione---
+ GuiCommand:   Name: PartDesign Scaled   Name/it: Scala   Workbenches: PartDesign Workbench/it   PartDesign, Completo|MenuLocation: PartDesign , Multitrasformazione---
 
 
 </div>

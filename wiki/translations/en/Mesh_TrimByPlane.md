@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh TrimByPlane
-   MenuLocation: Meshes -> Cutting -> Trim mesh with a plane
+   MenuLocation: Meshes , Cutting , Trim mesh with a plane
    Workbenches: Mesh_Workbench
    SeeAlso: Mesh_PolyCut, Mesh_PolyTrim
 ---

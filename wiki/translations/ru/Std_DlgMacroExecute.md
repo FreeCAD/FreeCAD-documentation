@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Макрос
    Name: Std_DlgMacroExecute
-   MenuLocation: Макрос -> Макросs...
+   MenuLocation: Макрос , Макросs...
    Workbenches: Все
    SeeAlso: Std_DlgMacroExecuteDirect/ru
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part RuledSurface
    Name/fr: Part Surface Réglée
-   MenuLocation: Part -> Créer une surface réglée
+   MenuLocation: Part , Créer une surface réglée
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_MakeFace/fr
 ---

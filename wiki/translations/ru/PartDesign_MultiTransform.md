@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Множественное преобразование
    Name: PartDesign_MultiTransform
-   MenuLocation: PartDesign -> Apply a pattern -> Множественное преобразование
+   MenuLocation: PartDesign , Apply a pattern , Множественное преобразование
    Workbenches: PartDesign_Workbench/ru
 ---
 

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: OpenSCAD ReplaceObject‏‎
-   MenuLocation: OpenSCAD -> ReplaceObject‏‎
+   MenuLocation: OpenSCAD , ReplaceObject‏‎
    Workbenches: OpenSCAD_Workbench
 ---
 

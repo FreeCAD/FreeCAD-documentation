@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Повернуть
    Name: Draft_Rotate
-   MenuLocation: Модификация -> Повернуть
+   MenuLocation: Модификация , Повернуть
    Workbenches: Draft_Workbench/ru, Arch_Workbench/ru
    Shortcut: **R** **O**
    Version: 0.7

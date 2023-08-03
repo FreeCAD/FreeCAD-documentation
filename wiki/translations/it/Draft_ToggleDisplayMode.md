@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleDisplayMode
    Name/it: Aspetto
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft -> Utilità -> Cambia la visualizzazione
+   MenuLocation: Draft , Utilità , Cambia la visualizzazione
    Shortcut: **Maiusc** + **Spazio**
    SeeAlso: Std ToggleVisibility/it
 ---

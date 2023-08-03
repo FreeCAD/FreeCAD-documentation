@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Group
-   MenuLocation: Tree_view -> Right click on the document name -> Create group
+   MenuLocation: Tree_view , Right click on the document name , Create group
    Workbenches: All
    Shortcut: 
    Version: 

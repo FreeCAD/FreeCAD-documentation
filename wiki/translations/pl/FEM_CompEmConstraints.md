@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM CompEmConstraints
    MenuLocation: 
    Workbenches: FEM_Workbench

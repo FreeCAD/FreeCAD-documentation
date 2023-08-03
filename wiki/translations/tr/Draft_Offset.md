@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Offset
    Name/tr: Ofsetle
-   MenuLocation: Taslak -> Ofsetle
+   MenuLocation: Taslak , Ofsetle
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **O** **S**
    SeeAlso: Part_Offset2D/tr

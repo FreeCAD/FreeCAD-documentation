@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft ToggleConstructionMode
    Name/it: Modalità Costruzione
-   MenuLocation: Utilità -> Attiva/Disattiva modalità di costruzione
+   MenuLocation: Utilità , Attiva/Disattiva modalità di costruzione
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **C** **M**
    SeeAlso: Draft_AddConstruction/it

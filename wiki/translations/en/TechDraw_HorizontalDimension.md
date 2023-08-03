@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw HorizontalDimension
-   MenuLocation: TechDraw -> Dimensions -> Insert Horizontal Dimension
+   MenuLocation: TechDraw , Dimensions , Insert Horizontal Dimension
    Workbenches: TechDraw_Workbench
    Shortcut: **Shift** + **H**
    SeeAlso: TechDraw_LengthDimension, TechDraw_VerticalDimension

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw ExtensionCascadeObliqueDimension
-   MenuLocation: TechDraw -> Extensions: Attributes/Modifications -> Cascade Oblique Dimensions
+   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Cascade Oblique Dimensions
    Workbenches: TechDraw_Workbench
    Shortcut: 
    Version: 0.20

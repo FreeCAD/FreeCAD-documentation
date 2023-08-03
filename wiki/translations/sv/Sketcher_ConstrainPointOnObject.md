@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Constraint PointOnObject
    Name/sv: Constraint PointOnObject
    Workbenches: Sketcher Workbench/sv, PartDesign Workbench/sv
-   MenuLocation: Sketch -> Sketcher constraints -> Constrain point onto object
+   MenuLocation: Sketch , Sketcher constraints , Constrain point onto object
    SeeAlso: Sketcher_ConstrainCoincident/sv
 ---
 

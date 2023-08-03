@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 AddZYWorkplane
    Name/fr: Assembly3 Ajouter un plan de travail ZY
    Icon: Assembly_Add_WorkplaneZY.svg‎‎
-   MenuLocation: Assembly3 -> Workplane and origin -> Add ZY workplane
+   MenuLocation: Assembly3 , Workplane and origin , Add ZY workplane
    Workbenches: Assembly3_Workbench/fr
 ---
 

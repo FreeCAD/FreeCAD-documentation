@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Path Drilling
-   MenuLocation: Path -> Drilling
+   MenuLocation: Path , Drilling
    Workbenches: Path_Workbench
 ---
 

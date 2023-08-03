@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Create3PointArc
-   MenuLocation: Sketch -> Sketcher geometries -> Create arc by three points
+   MenuLocation: Sketch , Sketcher geometries , Create arc by three points
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **3** **A**
    SeeAlso: 

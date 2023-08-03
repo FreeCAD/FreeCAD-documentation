@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Circle
    Name/es: Draft Círculo
    Workbenches: Draft_Workbench/es, Arch_Workbench/es
-   MenuLocation: Boceto -> Circunferencia
+   MenuLocation: Boceto , Circunferencia
    Shortcut: **C** **I**
    Version: 0.7
    SeeAlso: Draft_Arc/es

@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Panel Cut
-   MenuLocation: Arch -> Panel tools -> Panel Cut
+   MenuLocation: Arch , Panel tools , Panel Cut
    Workbenches: Arch_Workbench, Path_Workbench
    Shortcut: **P** **C**
    Version: 0.17

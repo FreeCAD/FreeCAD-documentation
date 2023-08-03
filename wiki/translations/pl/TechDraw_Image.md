@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: TechDraw Image
    Name/pl: Rysunek Techniczny: Wstaw obraz bitmapy
-   MenuLocation: Rysunek Techniczny -> Wstaw obraz bitmapy
+   MenuLocation: Rysunek Techniczny , Wstaw obraz bitmapy
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_Symbol/pl
 ---

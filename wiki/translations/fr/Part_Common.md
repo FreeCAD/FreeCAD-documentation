@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Common
    Name/fr: Part Intersection
-   MenuLocation: Part -> Opération booléenne -> Intersection 
+   MenuLocation: Part , Opération booléenne , Intersection 
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Boolean/fr, Part_Cut/fr, Part_Fuse/fr
 ---

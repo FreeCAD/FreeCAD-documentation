@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Вставка аннотаций форматированным текстом
    Name: TechDraw_RichTextAnnotation
-   MenuLocation: TechDraw -> Заметки -> Вставка аннотаций форматированным текстомs
+   MenuLocation: TechDraw , Заметки , Вставка аннотаций форматированным текстомs
    Workbenches: TechDraw_Workbench/ru
    Version: 0.19
    SeeAlso: TechDraw_Templates/ru, Draft_SVG/ru, TechDraw_LeaderLine/ru

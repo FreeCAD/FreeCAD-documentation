@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Mesh SectionByPlane
    Name/pl: Siatka: Utwórz przekrój siatki płaszczyzną
-   MenuLocation: Siatki -> Cięcie -> Utwórz przekrój siatki płaszczyzną
+   MenuLocation: Siatki , Cięcie , Utwórz przekrój siatki płaszczyzną
    Workbenches: Mesh_Workbench/pl
    SeeAlso: Mesh_CrossSections/pl
 ---

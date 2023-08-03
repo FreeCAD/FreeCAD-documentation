@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Copy
    Name/fr: Sketcher Copie
-   MenuLocation: Esquisse -> Outils d'esquisse -> Copie
+   MenuLocation: Esquisse , Outils d'esquisse , Copie
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **Z** **C**
    Version: 0.16

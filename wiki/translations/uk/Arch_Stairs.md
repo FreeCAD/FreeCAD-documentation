@@ -1,6 +1,6 @@
 # Arch Stairs/uk
 ---
-- GuiCommand:   Name: Arch Stairs   Name/uk: Arch Stairs   Workbenches: Arch_Workbench/uk   Arch|MenuLocation: Arch -> Stairs   Shortcut: S R---
+ GuiCommand:   Name: Arch Stairs   Name/uk: Arch Stairs   Workbenches: Arch_Workbench/uk   Arch|MenuLocation: Arch , Stairs   Shortcut: S R---
 
 
 </div>

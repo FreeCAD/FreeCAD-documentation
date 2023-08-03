@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part Slice
    Name/pl: Część: Rozbij na kształty złożenia
-   MenuLocation: Część -> Rozdziel -> Rozbij na kształty złożenia
+   MenuLocation: Część , Rozdziel , Rozbij na kształty złożenia
    Workbenches: Part_Workbench/pl
    Version: 0.17
    SeeAlso: Part_BooleanFragments/pl, Part_XOR/pl, Part_CompJoinFeatures/pl, Part_Boolean/pl

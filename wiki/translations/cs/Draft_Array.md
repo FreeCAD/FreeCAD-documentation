@@ -1,6 +1,6 @@
 # Draft Array/cs
 ---
-- GuiCommand:   Name: Draft_Array   Name/cs: Kreslení Pole   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
+ GuiCommand:   Name: Draft_Array   Name/cs: Kreslení Pole   Workbenches: Draft_Workbench/cs   Kreslení, Arch_Workbench/cs---
 
 
 </div>

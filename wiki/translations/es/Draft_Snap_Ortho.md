@@ -1,6 +1,6 @@
 # Draft Snap Ortho/es
 ---
-- GuiCommand:   Name: Draft Snap Ortho   Workbenches: Draft Workbench   Draft, Arch Workbench -> Ortho|Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Draft Snap Ortho   Workbenches: Draft Workbench   Draft, Arch Workbench , Ortho|Shortcut:    SeeAlso: ---
 
 
 </div>

@@ -1,6 +1,6 @@
 # FEM EquationFlow/ro
 ---
-- GuiCommand:   Name: FEM EquationFlow   MenuLocation:  Solve -> Equation flow   ---
+ GuiCommand:   Name: FEM EquationFlow   MenuLocation:  Solve , Equation flow   ---
 
 
 </div>

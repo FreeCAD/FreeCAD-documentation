@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Dimension
    Name/tr: Boyut
-   MenuLocation: Taslak -> Boyut
+   MenuLocation: Taslak , Boyut
    Workbenches: Draft_Workbench/tr, Arch_Workbench/tr
    Shortcut: **D** **I**
    Version: 0.18

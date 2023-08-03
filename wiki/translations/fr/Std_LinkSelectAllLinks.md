@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std LinkSelectAllLinks
    Name/fr: Std Tous les liens
    MenuLocation: 

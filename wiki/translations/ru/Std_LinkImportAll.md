@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Импорт всех ссылок
    Name: Std_LinkImportAll
    MenuLocation: Нет

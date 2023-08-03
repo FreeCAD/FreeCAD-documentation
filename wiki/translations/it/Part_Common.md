@@ -1,6 +1,6 @@
 # Part Common/it
 ---
-- GuiCommand:   Name: Part_Common   Name/it: Intersezione   MenuLocation: Part -> Intersezione   Workbenches: Part_Workbench/it   Parte, Part Cut/it---
+ GuiCommand:   Name: Part_Common   Name/it: Intersezione   MenuLocation: Part , Intersezione   Workbenches: Part_Workbench/it   Parte, Part Cut/it---
 
 
 </div>

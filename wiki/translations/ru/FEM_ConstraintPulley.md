@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM ConstraintPulley
    Name/ru: FEM ConstraintPulley
-   MenuLocation: Model -> Constraints without solver -> Constraint pulley
+   MenuLocation: Model , Constraints without solver , Constraint pulley
    
    SeeAlso: FEM_ConstraintBearing/ru, FEM_ConstraintGear/ru
 ---

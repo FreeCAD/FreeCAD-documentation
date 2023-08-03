@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Label
    Name/de: Draft Notiz
-   MenuLocation: Anmerkung -> Bezeichnung
+   MenuLocation: Anmerkung , Bezeichnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **L**
    Version: 0.17

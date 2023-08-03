@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std ToggleVisibility
    Name/fr: Std Basculer la visibilité
-   MenuLocation: Affichage -> Visibilité
+   MenuLocation: Affichage , Visibilité
    Workbenches: Tous
    Shortcut: **Barre d'espace**
    SeeAlso: Std_ShowSelection/fr, Std_HideSelection/fr, Std_ToggleObjects/fr, Std_ShowObjects/fr, Std_HideObjects/fr

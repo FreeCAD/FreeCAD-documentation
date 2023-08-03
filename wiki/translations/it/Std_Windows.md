@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Windows
    Name/it: Finestre
-   MenuLocation: Finestre -> Finestre...
+   MenuLocation: Finestre , Finestre...
    Workbenches: Tutti
    SeeAlso: Std_ActivateNextWindow/it, Std_ActivatePrevWindow/it
 ---

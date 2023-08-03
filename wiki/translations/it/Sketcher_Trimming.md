@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher Trim edge
    Name/it: Rifila
    Icon: Sketcher_Trimming.svg
    Workbenches: Sketcher Workbench/it
-   MenuLocation: Sketch -> Geometrie -> Rifila
+   MenuLocation: Sketch , Geometrie , Rifila
    Version: 0.12
    SeeAlso: Sketcher Extend/it
 ---

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Heal
    Name/it: Ripara
-   MenuLocation: Utilità -> Ripara
+   MenuLocation: Utilità , Ripara
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft_Upgrade/it, Draft_Downgrade/it
 ---

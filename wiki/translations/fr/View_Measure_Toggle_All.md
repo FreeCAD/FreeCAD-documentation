@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: View Measure Toggle All
    Name/fr: Affichage Affichage des mesures
-   MenuLocation: Affichage -> Visibilité -> Activer/désactiver les mesures
+   MenuLocation: Affichage , Visibilité , Activer/désactiver les mesures
    Workbenches: Tous
    SeeAlso: View_Measure_Clear_All/fr, Part_Measure_Toggle_All/fr, Part_Measure_Clear_All/fr
 ---

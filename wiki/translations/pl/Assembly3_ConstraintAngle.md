@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Assembly3 ConstraintAngle
    Icon: Assembly_ConstraintAngle.svg
    Workbenches: Assembly3_Workbench

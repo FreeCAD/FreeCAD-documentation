@@ -1,10 +1,10 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher External
    Name/ro: Sketcher External
    Workbenches: Sketcher Workbench/ro
    Shortcut: X
-   MenuLocation: Sketch -> Sketcher geometries -> Sketcher External
+   MenuLocation: Sketch , Sketcher geometries , Sketcher External
    SeeAlso: Sketcher_ToggleConstruction/ro
 ---
 

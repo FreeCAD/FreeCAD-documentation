@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign CoordinateSystem
    Name/pl: Projekt Części: Utwórz lokalny układ współrzędnych.
-   MenuLocation: Projekt Części -> Utwórz lokalny układ współrzędnych
+   MenuLocation: Projekt Części , Utwórz lokalny układ współrzędnych
    Workbenches: PartDesign_Workbench/pl
    Version: 0.18
    SeeAlso: PartDesign_Point/pl, PartDesign_Line/pl, PartDesign_Plane/pl

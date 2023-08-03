@@ -1,6 +1,6 @@
 # FEM ConstraintContact/ro
 ---
-- GuiCommand:   Name: FEM ConstraintContact   Name/ro: FEM ConstraintContact   MenuLocation: Model -> Mechanical Constraints -> Constraint contact   ---
+ GuiCommand:   Name: FEM ConstraintContact   Name/ro: FEM ConstraintContact   MenuLocation: Model , Mechanical Constraints , Constraint contact   ---
 
 
 </div>

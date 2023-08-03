@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Rocket NoseCone
    Name/fr: Rocket Coiffe
-   MenuLocation: Rocket -> Nose Cone
+   MenuLocation: Rocket , Nose Cone
    Workbenches: Rocket_Workbench/fr
    Version: 0.19
 ---

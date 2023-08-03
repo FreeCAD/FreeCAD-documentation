@@ -1,6 +1,6 @@
 # Plot Series/it
 ---
-- GuiCommand:   Name: Plot Series   Name/it: Serie   MenuLocation: Grafico -> Serie‏‎   |Shortcut:    SeeAlso: ---
+ GuiCommand:   Name: Plot Series   Name/it: Serie   MenuLocation: Grafico , Serie‏‎   |Shortcut:    SeeAlso: ---
 
 
 </div>

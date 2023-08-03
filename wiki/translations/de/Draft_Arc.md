@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Arc
    Name/de: Draft Bogen
-   MenuLocation: Entwurf -> Bogenwerkzeuge -> Kreisbogen
+   MenuLocation: Entwurf , Bogenwerkzeuge , Kreisbogen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.7
    Shortcut: **A** **R**

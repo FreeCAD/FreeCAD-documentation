@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: PartDesign AdditiveEllipsoid
    Name/de: PartDesign EllipsoidHinzufügen
-   MenuLocation: Part Design -> Grundkörper hinzufügen-> Ellipsoid hinzufügen
+   MenuLocation: Part Design , Grundkörper hinzufügen, Ellipsoid hinzufügen
    Workbenches: PartDesign_Workbench/de
    Version: 0.17
    SeeAlso: PartDesign_CompPrimitiveAdditive/de, PartDesign_SubtractiveEllipsoid/de

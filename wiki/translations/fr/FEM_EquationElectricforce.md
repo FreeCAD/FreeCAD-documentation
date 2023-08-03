@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: FEM EquationElectricforce
    Name/fr: FEM Équation de force électrique
-   MenuLocation: Résolution -> Équations électromagnétiques -> Équation de force électrique
+   MenuLocation: Résolution , Équations électromagnétiques , Équation de force électrique
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: FEM_EquationElectrostatic/fr

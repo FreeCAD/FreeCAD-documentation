@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Image CreateImagePlane
    MenuLocation: 
    Workbenches: Image_Workbench

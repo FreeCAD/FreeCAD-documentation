@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name/ru: Создать полилинию
    Name: Sketcher_CreatePolyline
-   MenuLocation: Sketch -> Геометрия эскиза -> Создать полилинию
+   MenuLocation: Sketch , Геометрия эскиза , Создать полилинию
    Workbenches: Sketcher_Workbench/ru
    Shortcut: **G** **M**
    SeeAlso: Sketcher_CreateLine/ru

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch Floor
    Name/de: Arch Geschoss
-   MenuLocation: Architektur -> Stockwerk
+   MenuLocation: Architektur , Stockwerk
    Workbenches: Arch_Workbench/de
    Shortcut: **L** **V**
    SeeAlso: Arch_Building/de, Arch_BuildingPart/de, Arch_Site/de

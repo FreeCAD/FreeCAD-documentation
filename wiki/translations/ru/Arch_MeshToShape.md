@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Arch MeshToShape
    Name/ru: Arch MeshToShape
-   MenuLocation: Архитектура -> Утилиты -> Сетка в фигуру
+   MenuLocation: Архитектура , Утилиты , Сетка в фигуру
    Workbenches: Arch_Workbench/ru
    SeeAlso: Arch SplitMesh/ru, Arch RemoveShape/ru
 ---

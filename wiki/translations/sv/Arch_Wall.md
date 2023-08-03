@@ -1,6 +1,6 @@
 # Arch Wall/sv
 ---
-- GuiCommand:   Name: Arch Wall   Name/sv: Arch Wall   Workbenches: Arch_Workbench/sv   Arch---
+ GuiCommand:   Name: Arch Wall   Name/sv: Arch Wall   Workbenches: Arch_Workbench/sv   Arch---
 
 
 </div>

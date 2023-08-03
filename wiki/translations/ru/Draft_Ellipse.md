@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Ellipse
    Name/ru: Draft Ellipse
    MenuLocation: Черчение -> Эллипс

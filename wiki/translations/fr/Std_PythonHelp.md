@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std PythonHelp
    Name/fr: Std Documentation automatique des modules Python 
-   MenuLocation: Aide -> Documentation automatique des modules Python
+   MenuLocation: Aide , Documentation automatique des modules Python
    Workbenches: Tous
    SeeAlso: Std_FreeCADPowerUserHub/fr
 ---

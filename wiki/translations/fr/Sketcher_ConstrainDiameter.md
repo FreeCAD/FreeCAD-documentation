@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Sketcher ConstrainDiameter
    Name/fr: Sketcher Contrainte diamètre
-   MenuLocation: Esquisse -> Contraintes d'esquisse -> Contrainte de diamètre
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de diamètre
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **O**
    Version: 0.18

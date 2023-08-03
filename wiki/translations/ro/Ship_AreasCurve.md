@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Ship Area
    Icon: Ship_AreaCurve.svg
-   MenuLocation: Ship design -> Areas curve
+   MenuLocation: Ship design , Areas curve
    Workbenches: Ship Workbench
    Shortcut: 
    SeeAlso: 

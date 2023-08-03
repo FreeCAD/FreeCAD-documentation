@@ -1,9 +1,9 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Drawing Clip
    Name/ru: Drawing Clip
    Workbenches: Drawing Workbench, Complete
-   MenuLocation: Чертёж -> Клип
+   MenuLocation: Чертёж , Клип
    Shortcut: none
 ---
 

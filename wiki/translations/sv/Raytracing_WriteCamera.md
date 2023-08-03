@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Raytracing WriteCamera‏‎
    Name/sv: Raytracing WriteCamera‏‎
-   MenuLocation: Raytracing -> Camera‏‎
+   MenuLocation: Raytracing , Camera‏‎
    Workbenches: Raytracing_Workbench/sv
    Shortcut: 
    SeeAlso: 

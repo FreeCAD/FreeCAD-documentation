@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part MakeFace‏‎
    Name/fr: Part Créer une face
-   MenuLocation: Part -> Créer une face à partir de polylignes
+   MenuLocation: Part , Créer une face à partir de polylignes
    Workbenches: Part_Workbench/fr
    Version: 0.19
    SeeAlso: Part_RuledSurface/fr

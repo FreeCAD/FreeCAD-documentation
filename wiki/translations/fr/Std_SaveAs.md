@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std SaveAs
    Name/fr: Std Enregistrer sous
-   MenuLocation: Fichier -> Enregistrer sous...
+   MenuLocation: Fichier , Enregistrer sous...
    Workbenches: Tous
    SeeAlso: Std_SaveCopy, Std_Save/fr
 ---

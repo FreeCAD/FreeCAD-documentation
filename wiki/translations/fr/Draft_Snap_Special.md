@@ -1,5 +1,5 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Snap Special
    Name/fr: Draft Aimantation Spécial
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr

@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Part_Fillet
    Name/ru: Скругление
-   MenuLocation: Деталь -> Скругление...
+   MenuLocation: Деталь , Скругление...
    Workbenches: Part_Workbench/ru
    SeeAlso: Part_Chamfer/ru
 ---

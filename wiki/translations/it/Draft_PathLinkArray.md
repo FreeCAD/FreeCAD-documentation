@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft PathLinkArray
    Name/it: Serie di link su tracciato
-   MenuLocation: Modifiche -> Strumenti serie -> Serie di link su tracciato
+   MenuLocation: Modifiche , Strumenti serie , Serie di link su tracciato
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.19
    SeeAlso: Draft_OrthoArray/it, Draft_PolarArray/it, Draft_CircularArray/it, Draft_PathLinkArray/it, Draft_PointArray/it

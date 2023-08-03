@@ -1,7 +1,7 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Std Cut
-   MenuLocation: Edit -> Cut
+   MenuLocation: Edit , Cut
    Workbenches: All
    SeeAlso: Std_Copy, Std_Paste, Std_DuplicateSelection
 ---

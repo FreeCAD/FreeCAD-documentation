@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Curves SplitCurve
    Name/de: Curves KurveTeilen
-   MenuLocation: Curves -> Split curve
+   MenuLocation: Curves , Split curve
    Workbenches: Curves_Workbench/de
 ---
 

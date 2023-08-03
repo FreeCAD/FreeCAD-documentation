@@ -1,8 +1,8 @@
 ---
-- GuiCommand:
+ GuiCommand:
    Name: Draft Rotate
    Name/fr: Draft Pivoter
-   MenuLocation: Modification -> Pivoter
+   MenuLocation: Modification , Pivoter
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **R** **O**
    Version: 0.7
