@@ -854,7 +854,7 @@ class MediaWiki:
                     tutblk = tutblk[0]
                     tutblk = tutblk.strip()
                     tutblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",tutblk) # fixing GuiCommand contents
-                    tutblk = "---\n- TutorialInfo:"+tutblk+"\n---\n\n"
+                    tutblk = "---\n TutorialInfo:"+tutblk+"\n---\n\n"
                     result = re.sub("{{TutorialInfo.*?}}\n","",result,flags=flags)
                     result = tutblk + result
 

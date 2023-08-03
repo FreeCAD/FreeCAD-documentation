@@ -1,5 +1,5 @@
 ---
-- TutorialInfo:   Topic:2D Drafting
+ TutorialInfo:   Topic:2D Drafting
    Level:Intermediate
    Author:Mark Stephen ([Quick61](User_Quick61.md))
    Time:An hour or less
