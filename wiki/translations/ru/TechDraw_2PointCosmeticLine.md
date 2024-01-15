@@ -80,7 +80,13 @@ Cosmetic lines have no properties of their own, as they are not document objects
 Cosmetic lines can be created using the {{Incode|makeCosmeticLine(v1, v2)}} or {{Incode|makeCosmeticLine3d(v1, v2)}} methods of DrawViewPart.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

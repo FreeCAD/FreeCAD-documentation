@@ -403,7 +403,7 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 **Propriétés pour les directions secondaires X et Y des barres d\'armature des colonnes de la semelle renforcée :**
 
--    `column_sec_rebars_t_offset`et `sec_rebars_b_offset` sont des n-uplets (xdir_rebars_t\_offset, ydir_rebars_t\_offset) qui définissent les distances de décalage (ou hauteur) pour les armatures secondaires de direction x et de direction y par rapport aux faces supérieures de la structure, respectivement.
+-    `column_sec_rebars_t_offset`et `sec_rebars_b_offset` sont des n-uplets (xdir_rebars_t_offset, ydir_rebars_t_offset) qui définissent les distances de décalage (ou hauteur) pour les armatures secondaires de direction x et de direction y par rapport aux faces supérieures de la structure, respectivement.
 
 -    `column_sec_rebars_number_diameter`est un tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) qui définit le jeu de nombres#diamètres des barres secondaires de direction x et de direction y, respectivement.
 

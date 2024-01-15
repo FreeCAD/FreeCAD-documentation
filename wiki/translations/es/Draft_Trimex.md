@@ -46,7 +46,7 @@ Bottom: a face extruded into a solid body.*
 
 ### Options
 
-The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   Hold down **Alt** to invert the default result of the command.
 -   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
@@ -91,12 +91,6 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

@@ -1,5 +1,5 @@
 # Manual:A gentle introduction/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 [Python](https://fr.wikipedia.org/wiki/Python_(langage)) est un langage populaire, open source, souvent embarqué et utilisé comme langage de script dans des applications, comme c\'est le cas dans FreeCAD. Il possède également des qualités qui le rendent particulièrement attractif pour nous, utilisateurs de FreeCAD: il est facile à apprendre, surtout pour les novices en programmation et il est embarqué dans d\'autres logiciels. Cela en fait un outil essentiel à apprendre puisqu\'il pourra être utilisé dans d\'autres applications tels que [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) ou [GRASS](http://grass.osgeo.org/).
 
@@ -7,11 +7,13 @@ FreeCAD fait une utilisation intensive de Python. Avec lui, vous pouvez accéder
 
 ![](images/Exercise_python_01.jpg )
 
-Mais la console Python a une autre utilité très importante : chaque fois que vous appuyez sur un bouton de la barre d\'outils, ou que vous effectuez d\'autres opérations dans FreeCAD, un certain code en Python est affiché dans la console (si l\'option **Afficher les commandes de script dans la console Python** est activée dans **Edition → Préférences → Général → Macro**) et exécuté. En laissant la console Python ouverte, vous pouvez littéralement voir le code Python se dérouler au fur et à mesure que vous travaillez, et en un rien de temps, presque sans le savoir, vous vous retrouverez à apprendre une partie du langage Python.
+Mais la console Python a une autre utilité très importante : chaque fois que vous appuyez sur un bouton de la barre d\'outils, ou que vous effectuez d\'autres opérations dans FreeCAD, un certain code en Python est affiché dans la console (si l\'option **Afficher les commandes de script dans la console Python** est activée dans **Edition → Préférences → Python → Macro**) et exécuté. En laissant la console Python ouverte, vous pouvez littéralement voir le code Python se dérouler au fur et à mesure que vous travaillez, et en un rien de temps, presque sans le savoir, vous vous retrouverez à apprendre une partie du langage Python.
 
 FreeCAD possède également un [système de macros](Macros/fr.md) qui vous permet d'enregistrer vos actions pour les rejouer plus tard. Ce système utilise la console Python en enregistrant simplement ce qui y est fait.
 
 Dans ce chapitre, nous allons découvrir de façon très générale le langage Python. Si vous souhaitez en apprendre plus, la documentation wiki de FreeCAD possède une section pour utilisateurs avancés en [programmation Python](Power_users_hub/fr.md).
+
+
 
 ### Ecrire du code Python 
 
@@ -20,6 +22,8 @@ Il existe deux façons simples d\'écrire du code Python dans FreeCAD : à parti
 Dans ce chapitre, vous pourrez utiliser les deux méthodes, mais il est fortement recommandé d\'utiliser la console Python car elle vous informe instantanément des erreurs que vous faites.
 
 Si c\'est la première fois que vous programmez en Python, pensez à lire cette courte [introduction au langage Python](Introduction_to_Python/fr.md) avant d\'aller plus loin. Cela rendra les concepts de base de Python plus clairs.
+
+
 
 ### Manipuler des objets FreeCAD 
 
@@ -72,6 +76,8 @@ Les propriétés de vue sont stockées dans un **ViewObject**. Chaque objet Free
 Essayez l\'exemple suivant pour accéder à la couleur de trait de notre boîte:
 
 box.ViewObject.LineColor 
+
+
 
 ### Vecteurs et emplacements 
 

@@ -7,7 +7,7 @@
 |Version=0.1
 |Date=2020-01-27
 |FCVersion=All
-|Download=[https://wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png ToolBar Icon]
 |SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard.md)
 }}
 
@@ -56,7 +56,7 @@ __Date__ = '2020-01-27'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = ''
 __Wiki__ = ''
-__Icon__ = ''
+__Icon__ = 'https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png'
 __Help__ = 'Macro file must be edited with the desired nut parameters before use'
 __Status__ = 'Beta'
 __Requires__ = ''

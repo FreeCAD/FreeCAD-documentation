@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part_Chamfer
    Name/fr: Part Chanfrein
-   MenuLocation: Part , Chanfrein...
+   MenuLocation: Part , Chanfreiner...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Fillet/fr
 ---
@@ -20,8 +20,8 @@
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfrein...**.
-    -   Sélectionnez l\'option **Part → Chanfrein...** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Part_Chamfer.svg" width=16px> Chanfreiner...**.
+    -   Sélectionnez l\'option **Part → Chanfreiner...** dans le menu.
 2.  Sélectionnez la forme à chanfreiner dans la boîte de dialogue.
 3.  Sélectionnez les arêtes à chanfreiner en cochant la case correspondante dans la boîte de dialogue de chanfreinage ou en les sélectionnant directement sur le modèle.
 4.  Modifiez les paramètres du chanfrein.

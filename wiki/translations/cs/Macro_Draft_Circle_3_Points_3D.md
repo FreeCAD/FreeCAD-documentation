@@ -35,7 +35,7 @@ Pořadí výběru tvarů ovlivňuje úhel **OS** a zpětně sklon kružnice. V p
 
 ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
-**Macro_Draft_Circle_3\_Points_3D.FCMacro**
+**Macro_Draft_Circle_3_Points_3D.FCMacro**
 
 
 {{MacroCode|code=

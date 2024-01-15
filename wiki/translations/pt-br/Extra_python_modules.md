@@ -640,10 +640,6 @@ For building the IfcPython wrapper, SWIG needs to be installed. Please download 
 
 Tutorial [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
-### Installation 
-
-On all platforms, only by installing the appropriate package from [ODA DWG-DXF Converter](https://www.opendesign.com/guestfiles/oda_file_converter). After installation, if the utility is not found automatically by FreeCAD, you might need to set the path to the converter executable manually, open Edit → Preferences → Import-Export → DWG and fill \"Path to Teigha File Converter\" appropriately.
-
 ## LazyLoader
 
 LazyLoader is a Python module that allows deferred loading, while still importing at the top of the script. This is useful if you are importing another module that is slow, and it is used several times throughout the script. Using LazyLoader can improve workbench startup times, but the module will still need to be loaded on first use.

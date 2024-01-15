@@ -15,6 +15,8 @@ La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16
 
 Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) où les trous sont simplement découpés le long de la normale à l\'esquisse (axe z local), cet outil agit comme s\'il dépliait l\'objet en tôle, découpait les trous et repliait l\'objet.
 
+
+
 ## Utilisation
 
 1.  Sélectionner une **face plane**.
@@ -35,16 +37,22 @@ Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style
 
     -   Raccourci clavier : **M** puis **S**
 
+
+
 ## Remarques
 
 -   L\'esquisse peut contenir plus d\'un contour.
 -   Tout contour doit au moins toucher la face planaire, sinon il ne fera pas de trou du tout.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet SheetMetal SketchOnSheet est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -66,6 +74,8 @@ Un objet SheetMetal SketchOnSheet est dérivé d\'un objet [Part Feature](Part_F
 
 -    {{PropertyData/fr|kfactor|FloatConstraint}}: \"Ecart par rapport au côté gauche\". Valeur par défaut : {{value|0,50}}.
 
+
+
 ## Exemple
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
@@ -83,6 +93,8 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Seulement un contour et une disposition des trous*
+
+
 
 ### Déroulement des tâches 
 

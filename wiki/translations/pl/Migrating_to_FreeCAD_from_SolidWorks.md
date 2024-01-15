@@ -1,44 +1,56 @@
 # Migrating to FreeCAD from SolidWorks/pl
 ## Informacje ogólne 
 
-The intention of this page is to serve as a guide for users that are accustomed to the SolidWorks CAD/CAM workflow and want to migrate to FreeCAD.
+Intencją tej strony jest służyć jako przewodnik dla użytkowników, którzy są przyzwyczajeni do przepływu pracy SolidWorks CAD / CAM i chcą przejść na FreeCAD.
 
-## History
 
-Understanding a little of the history of FreeCAD may help users comprehend it better:
 
--   FreeCAD was initially designed to behave parametrically using the [Constructive solid geometry](Constructive_solid_geometry.md) method (see the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)).
--   Later it incorporated the [Feature editing](Feature_editing.md) method with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md). SolidWorks also uses this approach.
+## Historia
 
-## Tips
+Zrozumienie odrobiny historii FreeCAD może pomóc użytkownikom lepiej go zrozumieć:
 
-The [PartDesign Workbench](PartDesign_Workbench.md) has many functions that are equivalent to SolidWorks. The image below identifies equivalent functions and their names on each platform, as well as functions that are unique to each platform.
+-   FreeCAD został początkowo zaprojektowany tak, aby zachowywał się parametrycznie przy użyciu metody [Konstrukcyjnej geometrii bryły](Constructive_solid_geometry/pl.md) *(patrz środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md))*.
+-   Później włączył metodę [Edycji cech](Feature_editing/pl.md) ze środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md). SolidWorks również używa tego podejścia.
+
+
+
+## Wskazówki
+
+Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) posiada wiele funkcji, które są odpowiednikami SolidWorks. Poniższy obraz identyfikuje równoważne funkcje i ich nazwy na każdej platformie, a także funkcje, które są unikalne dla każdej platformy.
 
 <img alt="" src=images/Features_and_Part_Design.png  style="width:600px;"> 
-*A comparison between FreeCAD and SolidWorks. Click the image for a higher resolution.*
+*Porównanie programów FreeCAD i SolidWorks. Kliknij obraz, aby uzyskać powiększenie.*
 
-## Topological naming problem 
+ Problem nazewnictwa topologicznego
 
-FreeCAD version 0.20 is still affected by the [Topological naming problem](Topological_naming_problem.md), but there are plans to fix this in the next version.
+FreeCAD w wersji 0.20 jest nadal dotknięty [problemem nazewnictwa topologicznego](Topological_naming_problem/pl.md), ale istnieją plany naprawienia tego w następnej wersji.
 
-## Tutorials
 
-List of helpful tutorials
+
+## Poradniki
+
+Lista przydatnych poradników
+
+
 
 ### Joko Engineeringhelp 
 
-There are many video tutorials online. Some of the more popular (at the time this was written) are by a Youtuber calling himself [**Joko Engineeringhelp**](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/videos).
+Istnieje wiele samouczków wideo online. Niektóre z bardziej popularnych *(w momencie pisania tego tekstu)* są autorstwa Youtubera nazywającego siebie [**Joko Engineeringhelp**](https://www.youtube.com/channel/UC-CubOaooNwC-3RBKUoAOQQ/videos).
 
-One of his tutorials is meant specifically for former SolidWorks users: <https://www.youtube.com/watch?v=7XXnulyKPNI>
+Jeden z jego poradników jest przeznaczony specjalnie dla byłych użytkowników SolidWorks: <https://www.youtube.com/watch?v=7XXnulyKPNI>
 
-Some of the other videos are comparisons of SolidWorks and FreeCAD: <https://www.youtube.com/watch?v=RX8-3rMCbRw>
+Niektóre z pozostałych filmów to porównania SolidWorks i FreeCAD: <https://www.youtube.com/watch?v=RX8-3rMCbRw>
 
-## Related
 
-### Forum Threads 
 
--   [Anyone willing to collaborate on writing guides for users coming from other CAD/CAM solutions to FreeCAD?](https://forum.freecadweb.org/viewtopic.php?f=8&t=42139&p=366957#p357540)
--   [Extreme Difficulty coming from Autodesk Inventor 2019.](https://forum.freecadweb.org/viewtopic.php?f=3&t=42980#p366121)
+## Powiązane
+
+
+
+### Tematy na Forum 
+
+-   [Czy ktoś chce współpracować przy pisaniu przewodników dla użytkowników przechodzących z innych rozwiązań CAD / CAM do FreeCAD?](https://forum.freecadweb.org/viewtopic.php?f=8&t=42139&p=366957#p357540)
+-   [Ekstremalne trudności z przejściem z Autodesk Inventor 2019](https://forum.freecadweb.org/viewtopic.php?f=3&t=42980#p366121).
 
 
 

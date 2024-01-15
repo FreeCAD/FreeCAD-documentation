@@ -13,27 +13,16 @@
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Usuń geometrie pomocnicze** usuwa obiekty geometrii pomocniczych ze strony. Obiektami tymi są:
-
-
-</div>
+Narzędzie **Usuń geometrie pomocnicze** usuwa obiekty geometrii pomocniczych ze strony. Obiektami tymi są: wierzchołki kosmetyczne, linie kosmetyczne i linie środkowe.
 
 
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz jeden lub więcej obiektów kosmetycznych na stronie.
-2.  Naciśnij przycisk na pasku narzędzi **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> Usuń geometrie pomocnicze**.
-3.  Wybrane obiekty kosmetyczne zostaną usunięte.
-
-
-</div>
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk na pasku narzędzi **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> Usuń geometrie pomocnicze**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → <img src="images/TechDraw_CosmeticEraser.svg" width=16px> Usuń geometrie pomocnicze**.
 
 
 

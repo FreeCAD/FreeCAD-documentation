@@ -49,14 +49,6 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-[Stop macro recording](Std_MacroStopRecord.md) încheie sesiunea de înregistrarea macrocomenzii curente
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 [Macros\...](Std_DlgMacroExecute.md) selectează și execută macrocomanda înregistrată.
 
 
@@ -110,6 +102,16 @@ The following tools are available in this menu:
 <div class="mw-translate-fuzzy">
 
 [Toggle breakpoint](Std_DebugToggle.md)
+
+
+</div>
+
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+[Stop macro recording](Std_MacroStopRecord.md) încheie sesiunea de înregistrarea macrocomenzii curente
 
 
 </div>

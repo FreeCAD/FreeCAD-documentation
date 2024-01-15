@@ -1,4 +1,7 @@
 # Macro FCTreeView/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCTreeView
 |Icon=Macro_FCTreeView.png
@@ -11,13 +14,37 @@
 |Download=[https://forum.freecadweb.org/download/file.php?id=70498 Macro FCTreeView Icon package] decomprimere il file .zip e copiare le icona nella directory delle macro.
 }}
 
+
+</div>
+
+
+
 ## Descrizione
 
-Macro per elencare tutti gli oggetti nel progetto in una lista senza gerarchia, opzioni per ordinare per nome, etichetta, visibilità, gruppo, con opzioni di ricerca per nome, etichetta \.... senza distinzione tra maiuscole e minuscole o con distinzione tra maiuscole e minuscole e selezionare tutti gli oggetti visualizzati nella finestra macro. {{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
+Macro per elencare tutti gli oggetti nel progetto in una lista senza gerarchia, opzioni per ordinare per nome, etichetta, visibilità, gruppo, con opzioni di ricerca per nome, etichetta \.... senza distinzione tra maiuscole e minuscole o con distinzione tra maiuscole e minuscole e selezionare tutti gli oggetti visualizzati nella finestra macro.
+
+
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![Macro FCTreeView](images/FCTreeView.gif ) 
+
+
+</div>
+
+
 
 ### Sezione **Window** 
 
@@ -32,7 +59,9 @@ Il titolo visualizza l\'opzione, il numero e il tipo di oggetti visualizzati
 -   **V** = Visibile
 -   **H** = Nascosto
 
-Se viene selezionato un oggetto: viene visualizzata la Base di posizionamento, Rotazione e Centro di massa (se disponibile!) ![Icona utilizzata per il nome dell\'oggetto](images/Macro_FCTreeView_00.png ) Icona utilizzata per il nome dell\'oggetto (la barra di scorrimento è colorata in blu)
+Se viene selezionato un oggetto: viene visualizzata la Base di posizionamento, Rotazione e Centro di massa (se disponibile!)
+
+![Icona utilizzata per il nome dell\'oggetto](images/Macro_FCTreeView_00.png ) Icona utilizzata per il nome dell\'oggetto (la barra di scorrimento è colorata in blu)
 
 ![Icon used for the Label of object](images/Macro_FCTreeView_05.png ) Icona utilizzata per l\'etichetta dell\'oggetto (la barra di scorrimento è di colore blu chiaro)
 
@@ -45,6 +74,8 @@ Se viene selezionato un oggetto: viene visualizzata la Base di posizionamento, R
 ![Icona usata per informare l\'oggetto in un gruppo, gli oggetti numerici sono visualizzati nel gruppo in alto (la barra di scorrimento è colorata in rosso)](images/Macro_FCTreeView_03.png ) Icona usata per informare l\'oggetto in un gruppo, gli oggetti numerici sono visualizzati nel gruppo in alto (la barra di scorrimento è colorata in rosso)
 
 ![Icona utilizzata per visualizzare il singolo oggetto (non il gruppo)](images/Macro_FCTreeView_04.png ) Icona utilizzata per visualizzare il singolo oggetto (non il gruppo)
+
+
 
 ### Section **Ordina per :** 
 
@@ -161,9 +192,11 @@ flip/flop per Selezionati tutti gli oggetti visualizzati nella finestra
 
 accesso nelle opzioni del foglio di calcolo
 
+
+
 ### Le opzioni SpreadSheet: 
 
-![Macro FCTreeView](images/TreeView_SpeadSheet.gif ) 
+![Macro FCTreeView](images/TreeView_SpeadSheet.gif )
 
 ![](images/Macro_FCTreeView_001.png )
 
@@ -230,7 +263,9 @@ esci dalle opzioni del foglio di calcolo
 
 ### Icons
 
-L\'icona deve essere copiata nella stessa directory della macro [Macro_FCTreeView_Icon](https://forum.freecadweb.org/download/file.php?id=70498)
+L\'icona deve essere copiata nella stessa directory della macro
+
+[Macro_FCTreeView_Icon](https://forum.freecadweb.org/download/file.php?id=70498)
 
 ![Icon used for the Name of object](images/Macro_FCTreeView_00.png ) ![Icon used for visualise if the object is status Visible (mouse click for Hidden)](images/Macro_FCTreeView_01.png ) ![Icon used for visualise if the object is status Hidden (mouse click for Visible)](images/Macro_FCTreeView_02.png ) ![Icon used for inform the object in a group the number objects is displayed in top group](images/Macro_FCTreeView_03.png ) ![Icon used for displayed the single object (not group)](images/Macro_FCTreeView_04.png ) ![Icon used for the Label of object](images/Macro_FCTreeView_05.png ) ![Icon used for flip/flop normal/Visibility](images/Macro_FCTreeView_06.png ) ![Icon used for flip/flop normal/Group](images/Macro_FCTreeView_07.png ) ![Icon used for Reverse the data listing (momentarily not used)](images/Macro_FCTreeView_08.png ) ![Icon used for quit Macro FCTreeView (momentarily not used)](images/Macro_FCTreeView_09.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Name](images/Macro_FCTreeView_10.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Label](images/Macro_FCTreeView_11.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Visibility/Hidden](images/Macro_FCTreeView_12.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Grout/Single object](images/Macro_FCTreeView_13.png ) ![Icon used for flip/flop the data listing Fold/Expend](images/Macro_FCTreeView_14.png ) ![Icon used for flip/flop the data listing Expend/Fold](images/Macro_FCTreeView_15.png ) ![Icon used for reload the data in the project](images/Macro_FCTreeView_16.png ) ![Icon used for the Name contains objects (or folder Group)](images/Macro_FCTreeView_17.png ) ![Icon used for return in original organisation after operation visibility/Hidden](images/Macro_FCTreeView_18.png ) ![If this check Box is checked the sort is created by length with the button clicked (Name, Label \...)](images/Macro_FCTreeView_19.png ) ![Icon used for Clear the search line edit](images/Macro_FCTreeView_20.png ) ![Icon used for flip/flop Split the Name list](images/Macro_FCTreeView_21.png ) ![Icon used for flip/flop Split the Name and Label list](images/Macro_FCTreeView_22.png ) ![Icon used for Selected all object(s) displayed in the window](images/Macro_FCTreeView_23.png ) ![Icon used for Unselected all object(s)](images/Macro_FCTreeView_24.png ) ![Icon used for access in Spreadsheet options](images/Macro_FCTreeView_25.png ) ![Icon used for quit the Spreadsheet options](images/Macro_FCTreeView_26.png ) ![Icon used for save the data in Spreadsheet](images/Macro_FCTreeView_27.png ) ![Icon used for select all checkbox options](images/Macro_FCTreeView_28.png ) ![Icon used for unselected all checkbox options](images/Macro_FCTreeView_29.png ) ![Icon used for save the value data in Spreadsheet](images/Macro_FCTreeView_30.png ) ![Icon used for save the value and Unit data in Spreadsheet](images/Macro_FCTreeView_31.png ) ![Icon used for save the value, Unit and type data in Spreadsheet](images/Macro_FCTreeView_32.png ) ![Icon used for split the value, Unit and type in cell separate in Spreadsheet](images/Macro_FCTreeView_33.png )
 
@@ -240,12 +275,14 @@ Per evitare molte istanze il clic sul pulsante Barra degli strumenti è effetto 
 
 La macro si trova nella parte destra del dock per la modifica, modifica la riga di valore numero 133 **testing = 0** (o la modifica con il mouse come normale di un widget)
 
-The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
+The toolbar icon ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 **Macro_FCTreeView.FCMacro**
 
 
 {{CodeDownload|https://gist.github.com/mario52a/67517ef758ff20005d0a6adcfd8c9190|Macro_FCTreeView.FCMacro}}
+
+
 
 ## Da fare 
 
@@ -292,7 +329,13 @@ ver 00.03 (23/09/2017) : aggiungi ricerca per tipo oggetto
 
 ver 00.02 (11/09/2017) : modifica per ancorare e impedire molte istanze il clic sul pulsante è effetto flip/flop (macro nascondi/visibile)
 
+
+<div class="mw-translate-fuzzy">
+
 ver 00.01 (08/09/2017) :
+
+
+</div>
 
 
 

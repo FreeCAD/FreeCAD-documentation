@@ -1,7 +1,7 @@
 # FEM Install/fr
 ## Introduction
 
-Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes: l'un est utilisé pour générer le [FEM Mesh](FEM_Mesh/fr.md), l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
+Pour pouvoir effectuer une analyse par éléments finis (FEA) dans l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)**, FreeCAD utilise deux programmes externes : l'un est utilisé pour générer le [FEM Mesh](FEM_Mesh/fr.md), l'autre pour la résolution numérique du analyse réelle. Vous pouvez tester si votre installation FreeCAD est prête pour une FEA en exécutant l'exemple [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D/fr.md) fourni avec l\'installation de FreeCAD depuis la v0.17.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Workflow de l'atelier FEM ; le plan de travail appelle deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
@@ -84,7 +84,7 @@ OCC module loaded
 
 ## Installation sous Windows 
 
-Les paquets FreeCAD disponibles à partir de la page [Téléchargements](Download/fr.md) incluent déjà Netgen et CalculiX, donc aucun logiciel supplémentaire ne doit être installé. Quelques liens pour obtenir un meilleur exécutable Calculix que celui inclus dans FreeCAD peuvent être trouvés ici [alternative ccx executables](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164).
+Les paquets FreeCAD disponibles à partir de la page [Téléchargements](Download/fr.md) incluent déjà Netgen et CalculiX, donc aucun logiciel supplémentaire ne doit être installé. Quelques liens pour obtenir un meilleur exécutable CalculiX que celui inclus dans FreeCAD peuvent être trouvés ici [alternative ccx executables](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

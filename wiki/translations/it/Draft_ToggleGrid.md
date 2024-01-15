@@ -1,49 +1,50 @@
 ---
  GuiCommand:
    Name: Draft ToggleGrid
-   Name/it: Mostra/Nascondi la griglia
-   MenuLocation: Draft , Utilità , Mostra/Nascondi la griglia
+   Name/it: Attiva/disattiva Griglia
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **G** **R**
-   SeeAlso: Draft Snap/it
+   SeeAlso: Draft_Snap_Grid/it, Draft_SelectPlane/it
 ---
 
 # Draft ToggleGrid/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento consente di mostrare e nascondere la griglia definita nelle [Preferenze di Draft](Draft_Preferences/it.md) o con lo strumento [Seleziona il piano](Draft_SelectPlane/it.md).
+Il comando <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Attiva/disattiva Griglia** modifica la visibilità della griglia.
 
 
-</div>
+{{Version/it|0.22}}
+
+: Ogni [Vista 3D](3D_view/it.md) ha la propria griglia che può essere sempre visibile, visibile solo durante i comandi o invisibile. La visibilità iniziale della griglia nelle nuove visualizzazioni dipende dalle [preferenze](#Preferenze.md).
+
+
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+1.  Il comando può essere utilizzato mentre è attivo un altro comando.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Draft_ToggleGrid.svg" width=16px> [Attiva/disattiva Griglia](Draft_ToggleGrid.md)** nella barra degli strumenti di aggancio di Draft.
+    -   Premere il pulsante **<img src="images/Draft_ToggleGrid.svg" width=16px> [Attiva/disattiva Griglia](Draft_ToggleGrid.md)** nel [Draft snap widget](Draft_snap_widget/it.md).
+    -   Usare la scorciatoia da tastiera: **G** quindi **R**. Questa scorciatoia non può essere utilizzata se è attivo un altro comando.
+3.  La visibilità della griglia appartenente alla vista 3D corrente è cambiata:
+    -   Se nessun altro comando è attivo:
+        -   Se la griglia era invisibile ora è sempre visibile.
+        -   Se la griglia era visibile ora non è più sempre visibile, ma la visibilità della griglia durante i comandi rimane invariata.
+    -   Se è attivo un altro comando:
+        -   Se la griglia era invisibile ora è visibile solo durante i comandi.
+        -   Se la griglia era visibile ora non è più visibile durante i comandi e non è più sempre visibile.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Definire l\'aspetto della griglia in [Preferenze di Draft](Draft_Preferences/it.md); andare nel menu **Modifica → Preferenze → Draft → Griglia e snap**; impostare le opzioni \"Dimensioni della griglia\", \"Spaziatura della griglia\" e \"Linee principali ogni\", quindi premere **OK**.
-2.  Quindi fare clic con il pulsante destro su un oggetto Draft e selezionare **Utilities → <img src="images/Draft_Grid.svg" width=16px> Attiva la griglia**.
-3.  Oppure fare clic destro su uno spazio vuoto su una barra degli strumenti, o andare nel menu **Visualizza → Barre degli strumenti**, e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
-4.  Quindi premere il pulsante **<img src="images/Draft_Grid.svg" width=16px> [Mostra/Nascondi la griglia](Draft_ToggleGrid/it.md)** per rendere visibile la griglia.
+## Preferenze
 
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
-
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Sono disponibili diverse preferenze della griglia: **Modifica → Preferenze... → Draft → Griglia e aggancio**.
+-   Per mantenere la griglia attiva quando si passa ad altri ambienti di lavoro vedere [Ottimizzazione](Fine-tuning/it#Draft_Workbench.md).
 
 
 

@@ -7,7 +7,9 @@
 
 L\'<img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> [Atelier Defeaturing](Defeaturing_Workbench/fr.md) est un atelier complémentaire destiné à l\'édition de modèles STEP, en supprimant des fonctionnalités sélectionnées sur le modèle. C\'est un [atelier externe](External_workbenches/fr.md) et ne fait pas partie de l\'installation standard de FreeCAD.
 
-## Fonctionnalités
+
+
+## Fonctions
 
 -   Comprend un ensemble d\'outils pour éditer une forme ou un modèle STEP, en supprimant le(s) trou(s), face(s), en simplifiant le modèle, en modifiant la tolérance, en appliquant des opérations booléennes floues, etc.
 -   Il existe également des outils pour créer des formes plus solides, à partir de bord(s), de face(s) ou de coque(s).
@@ -18,13 +20,19 @@ Remarque: davantage d\'outils avancés de Defeaturing pourront être utilisés s
 
 ## Installation
 
+
+
 ### Installation automatique (recommandé) 
 
 Utilisation de FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) disponible dans v0.17 + via **Outils → Gestionnaire des extensions**. Recherchez l\'icône <img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> Defeaturing workbench. Le Gestionnaire des extensions complémentaires informe également l\'utilisateur lorsqu\'une nouvelle version de cette extension est disponible.
 
+
+
 ### Manuellement
 
 Voir [Comment installer un atelier supplémentaire](How_to_install_additional_workbenches/fr.md)
+
+
 
 ### Versions supportées 
 
@@ -33,11 +41,15 @@ Voir [Comment installer un atelier supplémentaire](How_to_install_additional_wo
 -   FreeCAD v0.17 \>= 13522
 -   FreeCAD v0.18+
 
+
+
 ## Références
 
 -   Auteur : Github : [\@easyw](https://github.com/easyw) \| FreeCAD Forums: [1](https://forum.freecadweb.org/viewtopic.php?f=9&t=29506)
 -   Code source sur Github : <https://github.com/easyw/Defeaturing_WB>
 -   Fil du forum <https://forum.freecadweb.org/viewtopic.php?t=29506>
+
+
 
 ## Outils
 
@@ -80,6 +92,8 @@ Voir [Comment installer un atelier supplémentaire](How_to_install_additional_wo
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Union.png  style="width:32px;"> [Fuzzy Union](DefeatWB_Tools_Fuzzy_Union.md): Union approximative
 -   <img alt="" src=images/DefeatWB_Tools_Fuzzy_Common.png  style="width:32px;"> [Fuzzy Common](DefeatWB_Tools_Fuzzy_Common.md): Intersection approximative
 
+
+
 ## Tutoriels vidéo 
 
 ### Déconstruction
@@ -105,6 +119,8 @@ Fonction enlèvement utilisant le nouvel outil OCC7.3
 -   Retirer les trous ou les poches
 -   Lire ou modifier la tolérance
 -   Faire des opérations booléennes approximatives
+
+
 
 ## Ateliers externes 
 

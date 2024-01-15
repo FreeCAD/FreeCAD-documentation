@@ -20,29 +20,33 @@ Pozwala na tworzenie [grup](Std_Group/pl.md), przesuwanie obiektów wewnątrz gr
 
 Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obiektu. W tym przypadku widok drzewa pokazuje tę zależność poprzez pochłanianie starszego obiektu wewnątrz nowego obiektu. Rozwijanie i zwijanie obiektów w widoku drzewa pokazuje parametryczną historię tego obiektu. Obiekty głębiej położone wewnątrz innych są starsze, natomiast obiekty znajdujące się na zewnątrz są nowsze i pochodzą od obiektów starszych. Modyfikując obiekty wewnętrzne, operacje parametryczne rozprzestrzeniają się aż do góry, generując nowy wynik.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
-
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
 
 
-*Najwyższy z obiektów jest tworzony przez wykonywanie operacji parametrycznych na obiektach, które same zostały utworzone przez poprzednie operacje. Rozwinięcie drzewa na wielu poziomach ujawnia oryginalne elementy, które zostały użyte do utworzenia brył cząstkowych.*
+*Najwyższy z obiektów jest tworzony przez wykonywanie operacji parametrycznych na obiektach, które same zostały utworzone przez poprzednie operacje. <br>
+Pełne rozwinięcie drzewa na wielu poziomach ujawnia oryginalne elementy, które zostały użyte do utworzenia brył cząstkowych.*
 
 
 
-### Etykiety i atrybuty 
+### Kolumny widoku drzewa 
 
-W kolumnie **Etykiety i atrybuty** wyświetlane są etykiety i ikony obiektów.
+Domyślnie widok drzewa wyświetla tylko jedną kolumnę z etykietami i ikonami obiektów. Opcjonalnie można wyświetlić także drugą kolumnę z opisami, a następnie dodać nagłówki kolumn.
 
-Zaznaczenie obiektu w tej kolumnie i naciśnięcie przycisku **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*, pozwala na edycję właściwości **Etykieta** obiektu na miejscu, bez konieczności korzystania z menu kontekstowego opisanego poniżej lub [Edytora właściwości](Property_editor/pl.md).
+Aby włączyć kolumnę opisu, kliknij prawym przyciskiem myszki widok drzewa i w menu kontekstowym wybierz:
+**Ustawienia widoku drzewa → Pokaż kolumnę opisu**. {{Version/pl|0.21}}
 
 
 
-### Opis
+### Edycja etykiety obiektu 
 
-Kolumna Opis wyświetla dalsze informacje o obiektach, jeśli są dostępne.
+Zaznacz obiekt w pierwszej kolumnie i naciśnij przycisku **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*, pozwala na edycję właściwości **Etykieta** obiektu. Tę właściwość można również edytować za pomocą menu kontekstowego opisanego poniżej lub w sekcji [Edytora właściwości](Property_editor/pl.md).
 
-Informacje te są przechowywane w obiekcie w obiekcie właściwości **Etykieta2**, który można edytować na miejscu, wybierając obiekt w tej kolumnie i naciskając **F2** *(w systemach Linuxi Windows)* lub **Enter** *(na macOS)* lub poprzez [Edytor właściwości](Property_editor/pl.md).
+
+
+### Edytuj opis obiektu 
+
+Obiekt może opcjonalnie posiadać opis. Informacje te są przechowywane w jego właściwości **Etykieta2**. Jeśli wyświetlana jest kolumna opisu, można edytować tę właściwość, wybierając obiekt w tej kolumnie i naciskając przycisk **F2** *(w systemach Linux i Windows)* lub **Enter** *(na macOS)*. Właściwość tę można również zmienić w [Edytorze właściwości](Property_editor/pl.md).
 
 
 

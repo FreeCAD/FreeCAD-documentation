@@ -22,10 +22,10 @@
 
 FreeCAD刀路工作台按如下工作流程创建这些机器指令：
 
--   使用[零件设计工作台](PartDesign_Workbench/zh.md)，[零件工作台 或](Part_Workbench/zh.md)[草图工作台中的一个或多个创建作为基础对象的](Draft_Workbench/zh.md)3D模型。
--   在[刀路工作台中创建](Path_Workbench.md)[刀路作业](Path_Job/zh.md)。 这包含用于生成在CNC铣床上处理作业的G-code所有必要的信息：有库存材料，工厂有一定的[刀具包](Path_ToolLibraryEdit/zh.md)，它遵循某些命令(通常是G-Code)控制速度和运动。
+-   使用[零件设计工作台](PartDesign_Workbench/zh.md)，[零件工作台 ](Part_Workbench/zh.md)或[草图工作台](Draft_Workbench/zh.md)中的一个或多个创建作为基础对象的3D模型。
+-   在[刀路工作台](Path_Workbench.md)中创建[刀路作业](Path_Job/zh.md)。 这包含用于生成在CNC铣床上处理作业的G-code所有必要的信息：有库存材料，工厂有一定的[刀具包](Path_ToolLibraryEdit/zh.md)，它遵循某些命令(通常是G-Code)控制速度和运动。
 -   根据作业操作的要求选择刀具。
--   使用例如 [轮廓线和](Path_Profile/zh.md)[开槽操作创建铣削路径](Path_Pocket_3D/zh.md)。 这些刀路对象使用FreeCAD内部独立于CNC机器的G-Code语言。
+-   使用例如 [轮廓线](Path_Profile/zh.md)和[开槽](Path_Pocket_3D/zh.md)操作创建铣削路径。 这些刀路对象使用FreeCAD内部独立于CNC机器的G-Code语言。
 -   使用与您的机器匹配的G-Code形式导出作业。
 
 
@@ -467,7 +467,7 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture.
 
 <div class="mw-translate-fuzzy">
 
-见 [刀路脚本页](Path_scripting.md)。
+见 [刀路脚本](Path_scripting.md)页。
 
 
 </div>

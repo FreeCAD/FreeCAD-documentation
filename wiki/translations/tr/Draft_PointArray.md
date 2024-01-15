@@ -32,9 +32,9 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 ## Usage
 
 1.  Select the object you wish to array.
-2.  Add the [point compound](#Point_compound.md) object to the selection.
+2.  Add the point object to the selection.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_PointArray.svg" width=16px> [Draft PointArray](Draft_PointArray.md)** button.
+    -   Press the **<img src="images/Draft_PointArray.svg" width=16px> [Point array](Draft_PointArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_PointArray.svg" width=16px> Point array** option from the menu.
 4.  The array is created.
 5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).

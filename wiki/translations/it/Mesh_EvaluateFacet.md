@@ -2,6 +2,8 @@
 ---
  GuiCommand:   Name: Mesh_EvaluateFacet   Name/it: Dettagli faccia   MenuLocation: Mesh , Analizza , Dettagli faccia   Workbenches: Mesh_Workbench/it   Mesh|Shortcut:    SeeAlso: ---
 
+
+
 ## Descrizione
 
 
@@ -18,6 +20,8 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 
 *Example of the information displayed in the Report view*
+
+
 
 ## Utilizzo
 

@@ -9,6 +9,8 @@
 
 # PartDesign AdditivePipe/tr
 
+
+
 ## Tanım
 
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.
@@ -23,10 +25,12 @@ The example image above shows two different cross-section shapes. The text below
 1.  Create two separate sketches;
     -   one for the path, e.g two lines connected by a curve as in the image above,
     -   one for the cross-section shape, e.g. a circle as the first shape in the image above. Instead of a sketch also the face of a 3D object can be used. (<small>(v0.20)</small> )
-2.  **Arrange** the two shapes in 3D correctly. It is recommended to place the origin of the cross-section onto the line of the path. The two sketches should in most cases be **orthogonal**. This can be done with the \'Map Mode\' function (make both sketches visible with **Space**. Select the cross-section sketch. Select Properties/DataTab/MapMode. Click the appearing **...** button at the right side. In the Attachment Dialog select a vertex of the path sketch and select the correct mode to get the two sketches aligned correctly).
-3.  Press the **<img src="images/PartDesign_AdditivePipe.svg" width=24px> [Additive pipe](PartDesign_AdditivePipe.md)** button.
+2.  **Arrange** the two shapes in 3D correctly. It is recommended to place the origin of the cross-section onto the line of the path. The two sketches should in most cases be **orthogonal**. This can be done with the \'Map Mode\' function (make both sketches visible with **Space**. Select the cross-section sketch. Select Properties/DataTab/MapMode. Click the appearing **...** button at the right side. In the Attachment Dialog select a vertex of the path sketch and select the correct mode to get the two sketches aligned correctly.
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/PartDesign_AdditivePipe.svg" width=16px> [Additive pipe](PartDesign_AdditivePipe.md)** button.
+    -   Select the **PartDesign → Create an additive feature → <img src="images/PartDesign_AdditivePipe.svg" width=16px> Additive pipe** option from the menu.
 4.  In the **Select feature** dialog select a sketch to be used cross-section and click **OK**.
-    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive pipe button. In that case you will not get a \"Select feature\' dialog.
+    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected before starting the tool. You will not get this dialog then.
 5.  In the **Pipe parameters** under **Path to sweep along**, press the **Object** button.
 6.  Select the sketch to be used as path in the 3D view. In this case the whole sketch will be used as path.
     -   Alternatively, single edges of the sketch can be selected by pressing **Add Edge** and selecting edges in the 3D view. Note that you must press the **Add Edge** for each edge again. You must select a continous line with no branches.
@@ -67,25 +71,61 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 ## Properties
 
--    **Label**: name given to the operation, this name can be changed at convenience.
+See also: [Property editor](Property_editor.md).
+
+A PartDesign AdditivePipe object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
+
+
+{{TitleProperty|Base}}
+
+-    **Add Sub Shape|PartShape|Hidden**:
+
+-    **Base Feature|Link|Hidden**:
+
+-    **_Body|LinkHidden|Hidden**:
+
+
+{{TitleProperty|Part Design}}
 
 -    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
 
--    **Sections**: lists the sections used.
 
--    **Spine Tangent**: true or false (default). True extends the path to include tangent edges.
+{{TitleProperty|Sketch Based}}
 
--    **Auxiliary Spine Tangent**: true or false (default). True extends the auxiliary path to include tangent edges.
+-    **Profile|LinkSub**: reference to sketch.
 
--    **Auxiliary Curvelinear**: true or false (default). True calculates normal between equidistant points on both spines.
+-    **Midplane|Bool**: extrude symmetrically to sketch face.
 
--    **Mode**: profile mode. See [Options](#Options.md).
+-    **Reversed|Bool**: reverses extrusion direction.
 
--    **Binormal**: binormal vector for corresponding orientation mode.
+-    **Up To Face|LinkSub**: face where feature will end.
 
--    **Transition**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+-    **Allow Multi Face|Bool**: allow multiple faces in profile.
 
--    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
+
+{{TitleProperty|Sweep}}
+
+-    **Sections|LinkSubList**: lists the sections used.
+
+-    **Spine|LinkSub**: spine (path) to sweep along.
+
+-    **Spine Tangent|Bool**: true or false (default). True extends the spine to include tangent edges.
+
+-    **Auxiliary Spine|LinkSub|Hidden**: secondary spine (path) to orient the Sweep.
+
+-    **Auxiliary Spine Tangent|Bool**: true or false (default). True extends the auxiliary spine to include tangent edges.
+
+-    **Auxiliary Curvelinear|Bool**: true or false (default). True calculates the normal between equidistant points on both spines.
+
+-    **Mode|Enumeration**: profile mode. Options are *Fixed*, *Frenet*, *Auxiliary* or *Binormal*. See [Options](#Options.md).
+
+-    **Binormal|Vector**: binormal vector for corresponding orientation mode.
+
+-    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+
+-    **Transformation|Enumeration**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
 ## Notes
 

@@ -14,7 +14,7 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Snap Grid** option snaps to the intersections of grid lines. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
+The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Snap Grid** option snaps to the intersections of grid lines.
 
 ![](images/Draft_Snap_Grid_example.png ) 
 *Snapping the second point of a line to the grid*
@@ -31,18 +31,16 @@ The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Sna
     -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Grid.svg" width=16px> Snap Grid** option.
 4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
 5.  Note that you can also change snap options while a command is active.
-6.  The grid is now displayed if it was not yet visible.
+6.  If required use [Draft ToggleGrid](Draft_ToggleGrid.md) to display the grid. The grid must be visible for this snap option to work.
 7.  Move the cursor near the intersection of two grid lines.
 8.  If an intersection is found the point is marked and the <img alt="" src=images/Draft_Snap_Grid.svg  style="width:16px;"> icon is displayed near the cursor.
 9.  Click to confirm the point.
 
-
-{{Userdocnavi/ro}}
+ {{Userdocnavi/ro}}
 
 See [Draft Snap](Draft_Snap#Preferences.md).
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Several grid preferences are available: **Edit → Preferences... → Draft → Grid and snapping**.
 
 
 

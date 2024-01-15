@@ -56,7 +56,7 @@ Tout le travail dans TechDraw commence par une page. Les pages sont basées sur 
 
 1.  Cliquez sur <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [TechDraw Page par défaut](TechDraw_PageDefault/fr.md) pour créer une nouvelle page.
 2.  Cliquez sur Body dans la [vue 3D](3D_view/fr.md) ou dans la [vue combinée](Combo_view/fr.md).
-3.  Cliquez sur [32px]([Image:TechDraw_View.svg.md)\] [TechDraw Créer une nouvelle vue](TechDraw_View/fr.md). Cela ajoutera la vue à la page que nous venons de créer.
+3.  Cliquez sur <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [TechDraw Créer une nouvelle vue](TechDraw_View/fr.md). Cela ajoutera la vue à la page que nous venons de créer.
 
 Nous avons maintenant une vue sur la page qui regarde le Body du haut. C\'est un peu petit, cependant.
 

@@ -1,45 +1,49 @@
 # Macro screw maker1 2/fr
 {{Macro/fr
 |Name=Macro_screw_maker1_2
+|Name/fr=Macro_screw_maker1_2
 |Icon=Macro_screw_maker1_2.png
-|Description=Crée une vis, boulon ... avec ou sans filet
+|Description=Crée une vis, un boulon... avec ou sans filetage, selon les normes ISO.
 |Author=Ulrich Brammer
 |Version=2.3.1
 |Date=2018-10-22
-|FCVersion=Toutes versions
-|Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png Icône pour votre barre d'outils]
+|FCVersion=Toutes
+|Download=[https://wiki.freecad.org/images/0/00/Macro_screw_maker1_2.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro crée une vis avec ou sans filet, suivant les normes ISO. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+Cette macro crée une vis avec ou sans filetage, suivant les normes ISO.
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
 
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
-*Screw maker*
+*Visserie*
+
+
 
 ## Utilisation
 
-Sélectionnez les caractéristiques de la vis et cliquer sur le bouton \"**Create**\"
-
-Si vous sélectionnez un cercle sur un forage, ou alternativement la surface interne d\'un forage circulaire et le cercle supérieur de ce forage en même temps, la vis sera créée dans le forage.
+1.  Sélectionnez les caractéristiques de la vis et cliquez sur le bouton de création.
+2.  Si vous sélectionnez simultanément un cercle sur un trou, ou la surface intérieure d\'un trou circulaire et le cercle au sommet de ce trou, la vis sera placée dans le trou à l\'aide du bouton de création.
+3.  Un texte de message vous informe lorsque la combinaison de propriétés sélectionnée n\'est pas disponible.
 
 
 <center>
 
-<File:Macro_screw_maker_02.png%7CInterface> de **screw_maker** et quelques types de vis. <File:Macro_screw_maker_03.png%7CUne> vis avec son filet
+<File:Macro_screw_maker_02.png%7CInterface> de **screw_maker** et de quelques types de vis. <File:Macro_screw_maker_03.png%7CUne> vis avec son filetage
 
 
 </center>
 
-La création du filet prend beaucoup de temps. Soyez patient et surveillez l\'utilisation du CPU.
-
-La dernière version de création de vis est la version 2.0. Le wiki ne permet pas de télécharger un fichier zip et copier de gros textes sur cette page n\'est pas pratique. Donc, voici un lien vers le post sur le forum avec : [la dernière version](http://forum.freecadweb.org/viewtopic.php?f=22&t=6558&start=30#p95929)
+La création du filetage prend beaucoup de temps. Soyez patient et surveillez l\'utilisation du CPU.
 
 ## Script
 
-La dernière version de la macro se trouve à l\'adresse [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro). Mais le moyen le plus simple d\'installer cette macro consiste à utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+La dernière version de la macro se trouve à l\'adresse [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro). Mais le moyen le plus simple d\'installer cette macro consiste à utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md).
 
-ToolBar Icon ![](images/Macro_screw_maker1_2.png )
+Icône de la barre d\'outils ![](images/Macro_screw_maker1_2.png )
 
 **Macro_screw_maker_2.FCMacro**
 
@@ -4980,6 +4984,8 @@ if __name__ == '__main__':
   main()
 
 }}
+
+
 
 ## Liens
 

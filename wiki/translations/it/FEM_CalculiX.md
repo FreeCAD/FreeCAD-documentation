@@ -111,7 +111,7 @@ L\'ambiente FEM può leggere lo stress risultante (Von Mises) e tutti gli sposta
 
 </div>
 
-Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
+Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each fixed boundary condition and for each displacement boundary condition which constrains translation degrees of freedom.
 
 ## Related
 

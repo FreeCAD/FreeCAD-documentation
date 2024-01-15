@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Fillet
    Name/de: Draft Verrundung
-   MenuLocation: Entwurf , Verrundung
+   MenuLocation: Zeichnen , Verrundung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **F** **I**
    Version: 0.19
@@ -24,15 +24,23 @@ Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft
 
 ## Anwendung
 
+1.  Zwei [Draft Linien](Draft_Line/de.md) auswählen, die sich in einem einzelnen Punkt treffen.
 
-<div class="mw-translate-fuzzy">
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Fillet.svg" width=16px> [Verrundung](Draft_Fillet/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Fillet.svg" width=16px> Verrundung** auswählen.
+    -   Das Tastaturkürzel **F** dann **I**.
 
-1.  Wähle zwei [Entwurf Linie](Draft_Line/de.md), die bereits auf dem Dokument platziert sind und sich an einem Punkt treffen.
-2.  Drücke die Taste **<img src="images/Draft_Fillet.svg" width=16px> [Entwurf Verrundung](Draft_Fillet/de.md)** Taste.
-3.  Wähle den Radius der Verrundung und drücke dann **Enter**.
+3.  Den **Abrundungsradius** eingeben. Ist die Option **Fase erstellen** ausgewählt, wird er als Größe der Fase verwendet (die Länge der geraden Kante). Achtung, der Befehl kann nicht erfolgreich abgeschlossen werden, wenn der Radius bzw. die Fase zu groß für die ausgewählten Linien ist.
 
+4.  Wahlweise die Option **Originalobjekte löschen** aktivieren.
 
-</div>
+5.  Wahlweise die Option **Fase erstellen** aktivieren.
+
+6.  Wurden eine oder beide der vorherigen Optionen ausgewählt: In das Eingabefeld **Abrundungsradius** klicken.
+
+7.  
+    **Enter**drücken.
 
 
 
@@ -42,17 +50,11 @@ Der Befehl <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft
 
 
 
-## Anmerkungen
+## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Das resultierende Verrundungsobjekt ist nicht editierbar.
--   Wenn der Radius zu groß ist, als dass der erzeugte Bogen nicht zu einer der Linien tangiert wäre, wird der Vorgang nicht erfolgreich sein.
--   Im Moment werden nur einzelne Linien unterstützt; [Draft Wires](Draft_Wire/de.md), d.h. Linien mit mehreren Punkten, führen möglicherweise nicht zum gewünschten Ergebnis.
-
-
-</div>
+-   Eine Draft Verrundung kann nicht bearbeitet werden und ist auch nicht mit den Linien verknüpft, die zu ihrer Erstellung verwendet wurden.
+-   Nur Draft-Linien, also [Draft Polylinien](Draft_Wire/de.md) mit nur zwei Punkten werden zurzeit unterstützt.
+-   Eine [Draft Polylinie](Draft_Wire/de.md), die mindestens drei Punkte hat, kann verrundet oder angefast werden, indem ihre {{PropertyData/de|Fillet Radius}} bzw. {{PropertyData/de|Chamfer Size}} geändert wird. Da [Draft Linien](Draft_Line/de.md) und [Draft Polylinien](Draft_Wire/de.md) mit den Befehlen [Draft Polylinie](Draft_Wire/de.md), [Draft Verbinden](Draft_Join/de.md) oder [Draft Hochstufen](Draft_Upgrade/de.md) verbunden werden können, stellt dies eine alternative Methode zur Erstellung von Verrundungen und Fasen dar.
 
 
 
@@ -69,19 +71,13 @@ Ein Draft-Verrundungs-Objekt wird von einem [Part Part2DObject](Part_Part2DObjec
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyData/de|End|VectorDistance}}: (schreibgeschützt) gibt den Endpunkt der Verrundung an.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Fillet Radius|Length}}: (schreibgeschützt) Radius, mit dem die Verrundung erstellt wurde.
 
--    **Start**: (schreibgeschützt) gibt den Startpunkt an.
+-    {{PropertyData/de|Length|Length}}: (schreibgeschützt) gibt die Gesamtlänge der Verrundung an.
 
--    **End**: (schreibgeschützt) gibt den Endpunkt an.
-
--    **Length**: (schreibgeschützt) gibt die Länge des gesamten Segments an.
-
--    **Fillet Radius**: (schreibgeschützt) Radius, mit dem die Verrundung erstellt wurde.
-
-
-</div>
+-    {{PropertyData/de|Start|VectorDistance}}: (schreibgeschützt) gibt den Startpunkt der Verrundung an.
 
 
 
@@ -90,19 +86,15 @@ Ein Draft-Verrundungs-Objekt wird von einem [Part Part2DObject](Part_Part2DObjec
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyView/de|Arrow Size|Length}}: Gibt die Größe des Symbols an, das am Ende der Verrundung angezeigt wird.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyView/de|Arrow Type|Enumeration}}: Gibt den Typ des Symbols an, das am Ende der Verrundung angezeigt wird und die Werte {{value|Punkt}} (Dot), {{value|Kreis}} (Circle), {{value|Pfeil}} (Arrow), {{value|Schrägstrich}} (Tick) oder {{value|Schrägstrich-2}} annehmen kann.
 
-### Ansicht 
+-    {{PropertyView/de|End Arrow|Bool}}: Gibt an, ob am Ende der Verrundung ein Symbol angezeigt wird, damit es als Maßlinie verwendet werden kann.
 
--    {{PropertyView/de|Ende Pfeil}}: Wenn es `True` ist, zeigt es ein Symbol am letzten Punkt der Linie an, so dass es als Anmerkungslinie verwendet werden kann.
+-    {{PropertyView/de|Pattern|Enumeration}}: wird nicht verwendet.
 
--    {{PropertyView/de|Pfeil Größe}}: Gibt die Größe des Symbols an, das am Ende der Zeile angezeigt wird.
-
--    **Pfeil Typ**: gibt den Typ des am Ende der Zeile angezeigten Symbols an, das \"Punkt\", \"Kreis\", \"Pfeil\", \"Haken\", oder \"Haken-2\" sein kann.
-
-
-</div>
+-    {{PropertyView/de|Pattern Size|Float}}: wird nicht verwendet.
 
 
 

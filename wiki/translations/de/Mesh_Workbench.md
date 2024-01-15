@@ -1,17 +1,17 @@
-# <img alt="Mesh Arbeitsbereichssymbol" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/de
+# <img alt="Symbol des Arbeitsbereichs Mesh" src=images/Workbench_Mesh.svg  style="width:64px;"> Mesh Workbench/de
 
 
 
 
 
 
-## Einführung
+## Einleitung
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;">[Mesh](Mesh_Workbench/de.md) (Polygonnetz) behandelt [Dreiecksnetze](http://en.wikipedia.org/wiki/Triangle_mesh). Netze sind eine besondere Art von 3D-Objekten, die aus dreieckigen Flächen bestehen, die durch ihre Knoten und Kanten miteinander verbunden sind.
 
 Viele 3D-Anwendungen, wie [Sketchup](http://de.wikipedia.org/wiki/SketchUp_%28Software%29), [blender](http://de.wikipedia.org/wiki/Blender_%28Software%29), [Maya](http://de.wikipedia.org/wiki/Maya_%28Software%29) und [3d studio max](http://de.wikipedia.org/wiki/3D-Studio_MAX), verwenden Polygonnetze als wichtigsten Typ von 3D-Objekten. Da Polygonnetze sehr einfache Objekte sind, die nur aus Knoten (Punkten), Kanten und dreieckigen Flächen bestehen, sind sie sehr einfach zu erstellen, zu bearbeiten, zu unterteilen und zu dehnen und können leicht und ohne Verlust an Details von einer Anwendung zur anderen übertragen werden. Außerdem können 3D-Anwendungen in der Regel sehr große Mengen davon ohne Probleme verwalten, da sie sehr einfache Daten enthalten. Aus diesen Gründen sind Netze oft das 3D-Objekt der Wahl, für Anwendungen im Umgang mit Filmen, Animationen und Bilderstellung.
 
-Im technischen Bereich stellen Polygonnetze allerdings eine große Begrenzung dar: Sie können gekrümmte Flächen nicht präzise definieren. Deshalb setzt FreeCAD stattdessen auf [Brep](wikipedia_Boundary_representation.md). Der Arbeitsbereich Mesh bietet einige Befehle zur direkten Änderung von Polygonnetzen, wird aber am häufigsten verwendet, um 3D-Netzdaten zu importieren und in einen Volumenkörper umzuwandeln, zur Verwendung mit den Arbeitsbereichen <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md).
+Im technischen Bereich stellen Polygonnetze allerdings eine große Begrenzung dar: Sie können gekrümmte Flächen nicht präzise definieren. Deshalb setzt FreeCAD stattdessen auf [Brep](wikipedia_Boundary_representation.md). Der Arbeitsbereich Mesh bietet einige Befehle zur direkten Änderung von Polygonnetzen, wird aber am häufigsten verwendet, um 3D-Netzdaten zu importieren und in einen Festkörper umzuwandeln, zur Verwendung mit den Arbeitsbereichen <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -19,7 +19,7 @@ Im technischen Bereich stellen Polygonnetze allerdings eine große Begrenzung da
 
 ## Werkzeuge
 
-Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugegriffen werden. Fast alle Werkzeuge sind auch in einer der Mesh-Werkzeugleisten verfügbar.
+Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugegriffen werden. Fast alle Werkzeuge sind auch in einer der Mesh-Symbolleisten verfügbar.
 
 -   <img alt="" src=images/Mesh_Import.svg  style="width:32px;"> [Netz importieren\...](Mesh_Import/de.md): Importiert ein Netzobjekt aus einer Datei.
 
@@ -66,23 +66,23 @@ Auf alle Werkzeuge des Arbeitsbereichs Mesh kann über das Menü **Netze** zugeg
 
 -   Boolsche Operation
 -   <img alt="" src=images/Mesh_Union.svg  style="width:32px;">[Vereinigung](Mesh_Union/de.md): Erzeugt ein Netzobjekt, das die Vereinigung von zwei Netzobjekten ist.
--   <img alt="" src=images/Mesh_Intersection.svg  style="width:32px;">[Schnittmenge](Mesh_Intersection/de.md): Erstellt ein Netzobjekt, das die Schnittmenge zweier Netzobjekte ist.
+-   <img alt="" src=images/Mesh_Intersection.svg  style="width:32px;">[Schnitt](Mesh_Intersection/de.md): Erstellt ein Netzobjekt, das die Schnittmenge zweier Netzobjekte ist.
 -   <img alt="" src=images/Mesh_Difference.svg  style="width:32px;">[Differenz](Mesh_Difference/de.md): Erstellt ein Netzobjekt, das die Differenz von zwei Netzobjekten ist.
 
 -   Schneiden
-    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Netz schneiden](Mesh_PolyCut/de.md): Schneidet ganze Flächen aus Netzobjekten aus.
-    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;">[Netz stutzen](Mesh_PolyTrim/de.md): Stutzt Flächen und Teile von Flächen aus Netzobjekten.
-    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;">[Netz mit einer Ebene stutzen](Mesh_TrimByPlane/de.md): Stutzt Flächen und Teile von Flächen auf einer Seite einer Ebene aus einem Netzobjekt.
-    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;">[Schnitt aus Netz und Ebene erzeugen](Mesh_SectionByPlane/de.md): Erzeugt einen Querschnitt über ein Netzobjekt.
-    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;">[Querschnitte\...](Mesh_CrossSections/de.md): Erstellt mehrere Querschnitte durch Netzobjekte.
+    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Netz schneiden](Mesh_PolyCut/de.md): Schneidet ganze Flächen aus Netzobjekten heraus.
+    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;">[Netz trimmen](Mesh_PolyTrim/de.md): Trimmt Flächen und Teile von Flächen von Netzobjekten.
+    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;">[Netz mit Ebene trimmen](Mesh_TrimByPlane/de.md): Entfernt Flächen und Teile von Flächen, die sich auf der einen Seite einer Ebene befinden, aus einem Netzobjekt.
+    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;">[Schnitt aus Netz und Ebene erstellen](Mesh_SectionByPlane/de.md): Erzeugt eine ebene Schnittlinie über ein Netzobjekt.
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;">[Querschnitte\...](Mesh_CrossSections/de.md): Erstellt mehrere parallele ebene Schnittlinien über Netzobjekte.
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;">[Zusammenführen](Mesh_Merge/de.md): Erstellt ein Netzobjekt, indem die Netze von zwei oder mehr Netzobjekten kombiniert werden.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Nach Komponenten teilen](Mesh_SplitComponents/de.md): Zerlegt ein Mesh-Objekt in seine Komponenten.
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Komponenten trennen](Mesh_SplitComponents/de.md): Zerlegt ein Netzobjekt in seine Bestandteile.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;">[Netze entpacken](MeshPart_CreateFlatMesh/de.md): Erstellt eine flache Darstellung eines Netzobjekts.
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;">[Netz abwickeln](MeshPart_CreateFlatMesh/de.md): Erstellt eine ebene Darstellung eines Netzobjekts.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;">[Fläche entpacken](MeshPart_CreateFlatFace/de.md): Erstellt eine flache Darstellung einer Fläche eines Formobjekts.
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;">[Fläche abwickeln](MeshPart_CreateFlatFace/de.md): Erstellt eine ebene Darstellung einer Fläche eines Formobjekts.
 
 
 

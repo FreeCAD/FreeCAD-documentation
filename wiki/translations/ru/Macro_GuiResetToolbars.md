@@ -3,20 +3,26 @@
 |Name=GuiResetToolbars
 |Description=This macro resets the position of the toolbars. Run the macro within a workbench that has a missing toolbar(s).
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
 |Date=2020-04-21
 |Version=1.0.0
 |FCVersion= 0.18.4 and above
 |SeeAlso=[https://github.com/PR-DC/GuiResetToolbars/ Github repository]
 }}
 
+
+
 ## Описание
 
 Этот макрос сбрасывает положение панелей инструментов.
 
+
+
 ## Применение
 
 Запустите макрос в верстаке, на котором \"пропали\" или сместились панели инструментов.
+
+
 
 ## Скрипт
 
@@ -58,7 +64,7 @@ __Date__ = '2020-04-21'
 __License__ = 'LGPL-3.0-or-later'
 __Web__ = "https://github.com/PR-DC/GuiResetToolbars/"
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_GuiResetToolbars'
-__Icon__ = 'GuiResetToolbars.svg'
+__Icon__ = 'https://wiki.freecad.org/images/f/f8/GuiResetToolbars.svg'
 __Help__ = 'Run the macro within a workbench that has missing toolbar(s)'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18.4'
@@ -73,6 +79,8 @@ tb = mw.findChildren(QtGui.QToolBar)
 for i in tb:
     mw.addToolBar(QtCore.Qt.TopToolBarArea, i)
 }}
+
+
 
 ## Ссылки
 

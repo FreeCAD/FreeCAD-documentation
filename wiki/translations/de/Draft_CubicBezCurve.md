@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft CubicBezCurve
-   Name/de: Entwurf KubischeBézKurve
-   MenuLocation: Entwurf , Bézier Werkzeuge , Kubische Bézier Kurve
+   Name/de: Draft KubischeBézierkurve
+   MenuLocation: Zeichnen , Bézierwerkzeuge , Kubische Bézierkurve
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_BezCurve/de, Draft_BSpline/de, 
@@ -10,62 +10,79 @@
 
 # Draft CubicBezCurve/de
 
+
+
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft_CubicBezCurve/de\|Entwurf KubischeBézKurve**-Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
+Der Befehl <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft KubischeBézierkurve** erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
 
-Die Bézierkurve ist eine der am häufigsten verwendeten Kurven bei Computergrafiken. Dieser Befehl erlaubt dir eine kontinuierliche Spline aus mehreren Béziersegmenten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in [Inkscape](https://inkscape.org/). Eine allgemeine Bézier Kurve beliebigen Grades kann mit dem [Entwurf BézKurve](Draft_BezCurve/de.md) Befehl erstellt werden.
+Die Bézierkurve ist eine der am häufigsten verwendeten Kurven für Computergrafiken. Dieser Befehl erlaubt es, einen zusammenhängenden Spline aus mehreren Bézier-Abschnitten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in [Inkscape](https://inkscape.org/). Eine allgemeine Bézierkurve beliebigen Grades kann mit dem Befehl [Draft Bézierkurve](Draft_BezCurve/de.md) erstellt werden.
 
-Der [Entwurf BézKurve](Draft_BezCurve/de.md) und der [Entwurf KubischeBézKurve](Draft_CubicBezCurve/de.md) Befehl verwenden **Kontrollpunkte**, um die Position und Krümmung der Spline zu definieren. Der [Entwurf BSpline](Draft_BSpline/de.md) Befehl andererseits legt die **genauen Punkte**, durch die die Kurve verläuft fest.
+Die Befehle [Draft Bézierkurve](Draft_BezCurve/de.md) und [Draft KubischeBézierkurve](Draft_CubicBezCurve/de.md) verwenden **Kontrollpunkte**, um die Position und Krümmung der Splines festzulegen. Der Befehl [Draft BSpline](Draft_BSpline/de.md) legt andererseits die **genauen Punkte**, durch die die Kurve verläuft fest.
 
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
-*Spline, definiert durch drei kubische Béziersegmente. Das erste Segment wird durch vier Punkte definiert. Nachfolgende Segmente verwenden zwei Punkte aus dem vorherigen Segment wieder und benötigen daher nur zwei zusätzliche Punkte.*
+*Spline, definiert durch drei kubische Bézier-Abschnitte. Der erste Abschnitt wird durch vier Punkte definiert. Nachfolgende Abschnitte verwenden zwei Punkte aus dem vorherigen Abschnitt wieder und benötigen daher nur zwei weitere Punkte.*
+
+
 
 ## Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
+
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Kubische Bézierkurve](Draft_CubicBezCurve/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → Bézierwerkzeuge → <img src="images/Draft_CubicBezCurve.svg" width=16px> Kubische Bézierkurve** auswählen.
+
+2.  Der Aufgaben-Bereich **Kubische Bézierkurve** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+
+3.  Es ist nicht möglich die Punkte im Aufgaben-Bereich einzugeben.
+
+4.  Für die folgenden Varianten der [ Mausnavigation](Mouse_navigation/de.md) muss eine Taste auf der Tastatur gedrückt gehalten werden:
+    -   Wird [OpenInventor-Navigation](Mouse_navigation/de#OpenInventor_Navigation.md) verwendet, muss die **Strg**-Taste (Ctrl) während der Ausführung des Befehls durchgängig gedrückt gehalten werden.
+    -   Wird [Gesten-Navigation](Mouse_navigation/de#Gesture_Navigation.md) verwendet, muss die **Alt**-Taste für jede Abfolge von klicken, halten, loslassen gedrückt gehalten werden, es ist aber auch möglich diese Taste während der Ausführung des Befehls durchgängig gedrückt zu halten.
+
+5.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen und die Maustaste gedrückt halten (1). Dies ist der erste Endpunkt.
+
+6.  Den Mauszeiger auf einen anderen Punkt in der [3D-Ansicht](3D_view.md) ziehen und die Maustaste loslasen (2). Dies ist der erste Kontrollpunkt.
+
+7.  Den Mauszeiger auf einen weiteren Punkt in der [3D-Ansicht](3D_view.md) bewegen, diesen Punkt auswählen und die Maustaste gedrückt halten (3). Dies ist der zweite Endpunkt.
+
+8.  Den Mauszeiger auf einen weiteren Punkt in der [3D-Ansicht](3D_view.md) ziehen, um die endgültige Krümmung des Abschnitts anzupassen und die Maustaste loslasen (4). Dies ist der zweite Kontrollpunkt.
+
+9.  Eine Bézierkurve 3. Grades wurde hinzugefügt.
+
+10. Wahlweise kann der Ablauf von klicken und halten (5) sowie ziehen und loslassen (6) wiederholt werden, um weitere Abschnitte hinzuzufügen.
+
+11. Jeder Folgeabschnitt verwendet entsprechend den zweiten Endpunkt und den Zweiten Kontrollpunkt des vorherigen Abschnitts als seinen ersten Endpunkt und ersten Kontrollpunktach.
+
+12. 
+    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl zu beenden.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die Taste **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md)
-**
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht und halte die Maustaste (1) gedrückt; dies ist der erste Endpunkt.
-3.  Ziehe den Mauszeiger an einen anderen Punkt in der 3D Ansicht und lasse die Maustaste los (2); dies ist der erste Kontrollpunkt.
-4.  Bewege den Zeiger auf einen anderen Punkt in der 3D Ansicht und klicke und halte die Maustaste auf diesen Punkt (3); dies ist der zweite Endpunkt.
-5.  Bewege den Zeiger auf einen anderen Punkt in der 3D-Ansicht, um die endgültige Krümmung der Spline anzupassen, und lasse dann die Maustaste (4) los.
-6.  In diesem Moment hast du bereits eine Bezier-Kurve von 3. Grad. Der Befehl kann durch Drücken von **Esc** oder der Taste **Close** abgeschlossen werden, oder Du kannst den Prozess des Klickens und Haltens (5) und des Ziehens und Loslassens (6) wiederholen, um weitere Bezier-Segmente dritten Grades hinzuzufügen.
-
-
-</div>
 
 ## Optionen
 
-Siehe [Entwurf BezKurve](Draft_BezCurve/de#Optionen.md).
+Siehe [Draft Bézierkurve](Draft_BezCurve/de#Optionen.md).
+
+
 
 ## Hinweise
 
--   Eine Entwurf KubischeBezKurve kann mit dem Befehl [Entwurf Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
+-   Eine kubische Draft-Bézierkurve (CubicBezCurve-Objekt) kann mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
 
-## Einstellungen
 
-Siehe [Entwurf BezKurve](Draft_BezCurve/de#Eigenschaften.md).
 
 ## Eigenschaften
 
-Siehe [Entwurf BezKurve](Draft_BezCurve/de#Eigenschaften.md).
+Siehe [Draft Bézierkurve](Draft_BezCurve/de#Eigenschaften.md).
+
+
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-Siehe [Entwurf BezKurve](Draft_BezCurve/de.md) für allgemeine Information. Ein kubischer Bézier wird durch Übergabe der Option Grad=3 an `makeBezCurve()` erzeugt.
+Siehe [Draft Bézierkurve](Draft_BezCurve/de.md) für allgemeine Informationen. Eine kubische Bézierkurve wird durch Übergabe der Option Grad=3 an `makeBezCurve()` erzeugt.
 
 Für jedes kubische Bézier-Segment müssen vier Punkte verwendet werden, von denen die beiden Extrempunkte angeben, wo der Spline durchläuft, und die beiden Zwischenpunkte Kontrollpunkte sind.
 

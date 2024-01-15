@@ -25,7 +25,7 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 3.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> ou le menu **Résolution → Équations électromagnétiques → [Équation électrostatique](FEM_EquationElectrostatic/fr.md)**. Ceci est important car l\'équation de force électrique a besoin du champ potentiel calculé par l\'équation électrostatique.
 4.  Changez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
-L\'équation de la force électrique ne calcule la force que pour les faces avec une <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) si l\'option **Calculer la force électrique** de la contrainte est utilisée.
+L\'équation de la force électrique ne calcule la force que pour les faces avec un <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) avec l\'option **Calculer la force électrique** de la condition aux limites est utilisée.
 
 
 
@@ -39,9 +39,9 @@ L\'équation de la force électrique fournit ce paramètre spécial :
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation de la force électrique n\'a pas de contraintes propres. Elle prend la <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) de l\'<img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [équation électrostatique](FEM_EquationElectrostatic/fr.md). Dans la contrainte, il est important d\'utiliser l\'option **Calculer la force électrique**.
+L\'équation de la force électrique n\'a pas de caractéristiques d\'analyse propres. Elle prend la <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [condition limite du potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) de l\'<img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [équation électrostatique](FEM_EquationElectrostatic/fr.md). Dans la condition limite, il est important d\'utiliser l\'option **Calculer la force électrique**.
 
 
 

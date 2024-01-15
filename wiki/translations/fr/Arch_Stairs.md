@@ -15,7 +15,7 @@
 
 L\'outil [Arch Escalier](Arch_Stairs/fr.md) vous permet de construire automatiquement plusieurs types d\'escaliers. Les escaliers droits (avec ou sans palier central) peuvent être créés de toutes pièces. Les escaliers plus complexes nécessitent des objets de base.
 
-Voir la [terminologie des escaliers](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
+Voir la [terminologie des escaliers sur wikipedia](https://fr.wikipedia.org/wiki/Escalier#Terminologie) pour une définition des différents termes utilisés pour décrire les parties d\'un escaliers.
 
 <img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;"> 
 *Deux escaliers ont été créés : l'un avec une structure massive et un palier, l'autre avec un seul limon.*
@@ -53,7 +53,7 @@ En noir, les lignes les reliant utilisées pour les étages.
 
 {{TitleProperty|Segment and Parts}}
 
--    **Abs Top|Vector**: (en lecture seule) niveau supérieur absolu auquel mène l\'escalier.
+-    **Abs Top|Vector**: (lecture seule) niveau supérieur absolu auquel mène l\'escalier.
 
 -    **Last Segment|Link**: dernier segment (volée des marches ou palier) d\'un escalier en arc se connectant à ce segment. Le niveau de départ de l\'escalier sera le niveau final de ce dernier segment.
 
@@ -69,13 +69,13 @@ En noir, les lignes les reliant utilisées pour les étages.
 
 -    **Railing Height Right|Length**: hauteur de la rampe droite de l\'escalier ou du palier.
 
--    **Railing Left|LinkHidden**: balustrade gauche. {{Version/fr|0.20}} : Le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
+-    **Railing Left|LinkHidden**: balustrade gauche. {{Version/fr|0.20}} : le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
 
 -    **Railing Offset Left|Length**: décalage de la rampe gauche par rapport au bord de l\'escalier ou du palier.
 
 -    **Railing Offset Right|Length**: décalage de la rampe droite par rapport au bord de l\'escalier ou du palier.
 
--    **Railing Right|LinkHidden**: balustrade droite. {{Version/fr|0.20}} : Le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
+-    **Railing Right|LinkHidden**: balustrade droite. {{Version/fr|0.20}} : le type de propriété est passé de {{Incode|String}} à {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}
@@ -93,7 +93,7 @@ En noir, les lignes les reliant utilisées pour les étages.
 
 {{TitleProperty|Steps}}
 
--    **Blondel Ratio|Float**: (en lecture seule) le rapport Blondel calculé. Ce rapport indique un escalier confortable et devrait se situer entre 62 et 64 cm ou 24,5 et 25,5 pouces.
+-    **Blondel Ratio|Float**: (lecture seule) le rapport Blondel calculé. Ce rapport indique un escalier confortable et devrait se situer entre 62 et 64 cm ou 24,5 et 25,5 pouces.
 
 -    **Landing Depth|Length**: profondeur du palier de la volée des marches, si elle est activée dans **Landings**. Par défaut, elle correspond à **Width** si elle est égale à 0.
 
@@ -159,9 +159,6 @@ L\'outil Escalier peut être utilisé dans des [macros](Macros/fr.md) et à part
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```
-
--   Crée un objet avec les attributs donnés
--   Retourne le nouvel objet escalier
 
 -   Crée un objet `Stairs` à partir de `baseobj` donné.
 -   Si `baseobj` n\'est pas indiqué, il utilisera `length`, `width`, `height` et `steps` pour construire un objet solide.

@@ -29,7 +29,7 @@ Esta é a documentação wiki de [FreeCAD](http://www.freecadweb.org). Existem d
 
 ## Índice
 
-A lista abaixo contém todos os artigos desta wiki que formam a espinha dorsal da documentação 'offline' (manual) fornecida com a aplicação FreeCAD. Já localizado para vários idiomas:
+O índice está disponível em vários idiomas:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

@@ -18,7 +18,7 @@ This command was originally intended for groups, hence its name, but was redesig
 
 1.  Optionally select the layer you want to make active in the [Tree view](Tree_view.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/button_invalid.svg" width=16px> [None](Draft_AutoGroup.md)** button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
+    -   Press the ![](images/Draft_tray_button_layer.png ) button in the [Draft Tray](Draft_Tray.md). This button can look different. If there is an active layer it will show the name of the layer and a layer icon with the **Line Color** and **Shape Color** of the layer.
     -   If you have selected a layer: select the **<img src="images/button_right.svg" width=16px> Activate this layer** option from the [Tree view](Tree_view.md) context menu.
 3.  If you have not yet selected a layer the layer menu opens. Do one of the following:
     -   Select **None** to work without an active layer.
@@ -35,7 +35,7 @@ This command was originally intended for groups, hence its name, but was redesig
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
+-   This command can optionally also handle groups: **Edit → Preferences... → Draft → General → Include groups in layer list**.
 
 ## Scripting
 

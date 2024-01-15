@@ -31,8 +31,14 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 ### Vorgaben
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Projektionsmethode**: Ob eine [Ansichtengruppe](TechDraw_ProjectionGroup/de.md) entweder die europäische (first-angle) Projektion oder die amerikanische (third-angle) Projektion verwenden. Siehe [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) (engl.) (oder [Projektionsmethoden](https://de.wikipedia.org/wiki/Normalprojektion#Ansichten)) für eine Erklärung.
 -   **Darstellung verdeckter Kanten**: Der Stil, der für verdeckte Linien zu verwenden ist.
+
+
+</div>
 
 
 
@@ -50,8 +56,18 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 ### Raster
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Show Grid**: Standardeinstellung der Rasteranzeige für neu erstellten Seiten. {{Version/de|0.20}}
 -   **Grid Spacing**: Standardabstand zwischen Rasterlinien auf neu erstellten Seiten. {{Version/de|0.20}}
+
+
+</div>
+
+### Selection
+
+-   **Enable Multiselection Mode**: If enabled, clicking without **Ctrl** does not clear the existing selection. <small>(v0.22)</small> 
 
 
 
@@ -82,6 +98,9 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 <img alt="Einstellungen für Maßeinträge" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Normbasis und Ausführung von Maßeinträgen**: Die Norm, die für Maßeinträge zu verwenden ist. Die Unterschiede zwischen den Normen sind in der Abbildung dargestellt:
 
 ![\|500px\|Unterschiede zwischen den unterstützten Normen. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png )
@@ -107,10 +126,18 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Line Spacing - ISO**: Abstand zwischen der Maßlinie und dem Maßtext für ISO-Maße. {{Version/de|0.21}}
 
 
+</div>
+
+
 
 ## Anmerkung
 
 <img alt="Anmerkungseinstellungen" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
+
+### Annotation
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Normbasis für Schnittlinien**: Norm, die zur Darstellung von Schnittlinien in [Schnittansichten](TechDraw_SectionView/de.md) zu verwenden ist.
 -   **Schnittliniendarstellung**: Linienart der Schnittlinien.
@@ -133,12 +160,28 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Mittelpunktsmarkierungen drucken**: Bogenmittenmarkierungen in der Druckausgabe anzeigen.
 
 
+</div>
+
+### Lines
+
+-   **Line Standard**: Standard to be used to draw section lines in [section views](TechDraw_SectionView.md).
+-   **Line Width Group**: A [LineGroup](TechDraw_LineGroup.md) to set the default line widths.
+-   **Hidden Line Style**: Style of hidden lines. <small>(v0.22)</small> 
+-   **Section Line Style**: Style for section lines.
+-   **Detail Highlight Style**: Line style of the outline shape for [detail views](TechDraw_DetailView.md).
+-   **Center Line Style**: Default style for [centerlines](TechDraw_FaceCenterLine.md).
+-   **Line End Cap Shape**: The default (round) should almost always be the right choice. Flat or square caps are useful if you are planning to use a drawing as a 1:1 cutting guide.
+
+
 
 ## Farben
 
 <img alt="Farbeinstellungen" src=images/TechDraw_PreferencesColors.png  style="width:350px;">
 
 Einstellung der Standardfarben für neue Zeichnungsblätter:
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Normal**: Normale Linienfarbe.
 -   **Vorausgewählt**: Vorausgewählte Farbe. Die Farbe, die verwendet wird, um Objekte hervorzuheben, wenn die Maus darüber bewegt wird.
@@ -160,6 +203,9 @@ Einstellung der Standardfarben für neue Zeichnungsblätter:
 -   **Einfarbig**: Wenn aktiviert, wird die eingestellte Farbe für alle Texte und Linien verwendet. {{Version/de|0.21}}
 -   **Blattfarbe**: Die Hintergrundfarbe des Zeichenblattes. {{Version/de|0.21}}
 
+
+</div>
+
 ## HLR
 
 <img alt="HLR-Einstellungen" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
@@ -179,6 +225,9 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 
 <img alt="Erweiterte Einstellungen" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Flächen erkennen**: Wenn angehakt, versucht TechDraw, Flächen unter Verwendung der Liniensegmente zu erzeugen, die vom Algorithmus zum Entfernen verdeckter Linien zurückgegeben werden. Flächen müssen erkannt werden, um [Schraffieren](TechDraw_Hatching/de.md) verwenden zu können, aber bei komplexen Modellen kann es zu Leistungseinbußen kommen.
 -   **Fortschritt berichten**: Gibt Fortschrittsmeldungen aus, während die darzustellende Geometrie berechnet wird. {{Version/de|0.21}}
 -   *\'Neuen Flächenfinder-Algorithmus verwenden*: Wenn aktiviert, wird der neue Flächenfinder-Algorithmus verwendet, anstatt des originalen. {{Version/de|0.21}}
@@ -195,6 +244,9 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 -   **Form der Linienenden**: Einstellung für die Form der Linienendkappen. Erläuterung der Optionen: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Max. SVG-Schraffur-Felder**: Die maximale Anzahl (Limit) von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Maßstäben könnte man einen Fehler wegen zu vieler SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 -   **Max. PAT-Schraffur-Segmente**: Die maximale Anzahl von Schraffursegmenten, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
+
+
+</div>
 
 
 

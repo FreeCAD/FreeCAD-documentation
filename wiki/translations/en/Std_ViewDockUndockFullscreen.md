@@ -1,8 +1,6 @@
 ---
  GuiCommand:
-
    Name: Std ViewDockUndockFullscreen
-   Empty: 1
    MenuLocation: View , Document window , Docked/Undocked
    Workbenches: All
    Shortcut: **V** **D** / **V** **U**
@@ -15,7 +13,7 @@
 
 [3D views](3D_view.md) can be undocked from the main [FreeCAD interface](Interface.md) and moved to a different display for example.
 
-![](images/FinestraNonAgganciata.png ) 
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
 *An undocked 3D view*
 
 ## Docked

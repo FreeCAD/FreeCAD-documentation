@@ -103,7 +103,7 @@ C:/Program Files/FreeCAD-0.18/Mod
 -   FreeCAD Wiki : [Page principale du Wiki](https://wiki.freecadweb.org/Main_Page)
 -   Forum FreeCAD : [Importateur EaglePCB pour FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=9&t=5107)
 -   Tutoriels :
--   Vidéos : [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Vidéos : [EaglePCB_2_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Fichiers : [PCB library](https://github.com/marmni/FreeCAD-PCB-library)
 -   Signaler les bogues : Veuillez signaler les bogues à <https://github.com/marmni/FreeCAD-PCB/issues>
 

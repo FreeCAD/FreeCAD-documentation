@@ -1,6 +1,8 @@
 # Release notes 0.18/fr
 FreeCAD 0.18 est sorti le 12 mars 2019, à télécharger sur la page [GitHub](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.4). Ceci est un résumé des changements les plus intéressants. La liste complète des modifications est disponible sur [MantisBT bugtracker FC 0.18 - Liste des changements](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78). Les notes de versions de FreeCAD sont disponibles dans la [liste des fonctionnalités](Feature_list/fr#Notes_de_versions.md).
 
+
+
 ## Points forts 
 
 Outils [TechDraw](#Atelier_TechDraw.md) étendus.
@@ -24,6 +26,8 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 
 
+
+
 ## Généralités
 
 -   Centre de démarrage (Start) repensé
@@ -41,26 +45,30 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 
 
+
+
 ## Atelier Arch (Architecture) 
 
-![ 700px \| thumb \| right \| L\'atelier Arch au travail](images/_Arch_release018_example.jpg )
+<img alt="L\'atelier Arch au travail" src=images/_Arch_release018_example.jpg  style="width:700px;">
 
--   [ Walls](Arch_Wall/fr.md) peut maintenant être affiché comme une pile de blocs. Il existe de nombreuses options pour configurer leurs tailles et la manière dont les blocs doivent être empilés.
--   Les [ Building Parts](Arch_BuildingPart/fr.md) sont le nouveau conteneur Arch à tout faire. Ils peuvent regrouper n'importe quel nombre d'objets, ils peuvent être utilisés pour créer des sols (étages), des bâtiments (les outils [Arch Floor](Arch_Floor/fr.md) et [ Arch Building](Arch_Building/fr.md) produisent désormais des parties de construction), ou tout autre groupe de Objets Arch. Ils peuvent être déplacés comme [ Parts](Std_Part/fr.md), et ils sont [ clonables](Draft_Clone/fr.md) et [ référençables](Arch_Reference/fr.md) !
--   L\'[Atelier BIM](BIM_Workbench/fr.md) (ajouté via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)) est un nouveau pendant externe expérimental de [ Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
--   [ Windows](Arch_Window/fr.md) dispose de nouveaux préréglages, tels qu\'une fenêtre coulissante à 4 volets. Si la [librairie Parts](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) est installée, on dispose de toutes les portes et fenêtres de la bibliothèque.
--   [ Panneaux](Arch_Panel/fr.md) peut désormais créer différents types de panneaux profilés, tels que des panneaux ondulés ou même des panneaux sandwich.
--   Les objets [ Structure](Arch_Structure/fr.md) ont un nouveau mode de dessin de poutre, qui vous permet de cliquer sur deux points pour placer un élément structurel entre eux.
+-   [Walls](Arch_Wall/fr.md) peut maintenant être affiché comme une pile de blocs. Il existe de nombreuses options pour configurer leurs tailles et la manière dont les blocs doivent être empilés.
+-   Les [Building Parts](Arch_BuildingPart/fr.md) sont le nouveau conteneur Arch à tout faire. Ils peuvent regrouper n'importe quel nombre d'objets, ils peuvent être utilisés pour créer des sols (étages), des bâtiments (les outils [Arch Floor](Arch_Floor/fr.md) et [Arch Building](Arch_Building/fr.md) produisent désormais des parties de construction), ou tout autre groupe de Objets Arch. Ils peuvent être déplacés comme [Parts](Std_Part/fr.md), et ils sont [clonables](Draft_Clone/fr.md) et [référençables](Arch_Reference/fr.md) !
+-   L\'[Atelier BIM](BIM_Workbench/fr.md) (ajouté via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md)) est un nouveau pendant externe expérimental de [Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
+-   [Windows](Arch_Window/fr.md) dispose de nouveaux préréglages, tels qu\'une fenêtre coulissante à 4 volets. Si la [librairie Parts](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) est installée, on dispose de toutes les portes et fenêtres de la bibliothèque.
+-   [Panneaux](Arch_Panel/fr.md) peut désormais créer différents types de panneaux profilés, tels que des panneaux ondulés ou même des panneaux sandwich.
+-   Les objets [Structure](Arch_Structure/fr.md) ont un nouveau mode de dessin de poutre, qui vous permet de cliquer sur deux points pour placer un élément structurel entre eux.
 -   Tous les types IFC sont maintenant disponibles pour tous les objets Arch. Tous les objets peuvent être exporté de n\'importe quel autre type vers IFC.
--   [ Window placement](Arch_Window/fr.md) a été entièrement repensé. Placer correctement les fenêtres dans les objets hôtes était auparavant très pénible, c\'est maintenant beaucoup plus facile.
+-   [Window placement](Arch_Window/fr.md) a été entièrement repensé. Placer correctement les fenêtres dans les objets hôtes était auparavant très pénible, c\'est maintenant beaucoup plus facile.
 -   Paramètres de fenêtre dynamiques : la taille des cadres de fenêtre est maintenant une propriété de fenêtre. Il est donc maintenant possible d\'ajuster l\'épaisseur des fenêtres prédéfinies sans qu\'il soit nécessaire de modifier leurs composants ou leurs esquisses de base.
 -   Les jeux de propriétés IFC sont désormais pris en charge par tous les objets Arch.
 -   L\'importateur et l\'exportateur IFC ont été considérablement améliorés avec une multitude de nouvelles fonctionnalités : prise en charge des ensembles de propriétés, prise en charge de la grille, compression de fichiers, profils partagés, prise en charge des groupes, ensembles de quantités, etc.
--   [ Materiaux](Arch_SetMaterial/fr.md) prend désormais en charge la hiérarchie. Si vous attribuez à un matériau un autre matériau en tant que père, il apparaît correctement empilé dans l\'arbre.
+-   [Materiaux](Arch_SetMaterial/fr.md) prend désormais en charge la hiérarchie. Si vous attribuez à un matériau un autre matériau en tant que père, il apparaît correctement empilé dans l\'arbre.
 -   Tous les objets et matériaux Arch prennent désormais en charge les systèmes de classification (pas encore pris en charge par l\'import/export IFC).
 -   [Références externes](Arch_Reference/fr.md) vous permet maintenant de lier dans un fichier FreeCAD des pièces d\'un autre fichier FreeCAD.
 
 -   Mais il y a beaucoup plus ! Consultez le [rapports de développement Arch / BIM](https://github.com/yorikvanhavre/BIM_Workbench/wiki) pour voir tout ce qui y a été fait cette année.
+
+
 
 ## Atelier Draft (Planche à dessin) 
 
@@ -100,6 +108,8 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 La gestion des matériaux a été améliorée. Il est maintenant possible d\'utiliser l\'éditeur global de matériaux FreeCAD. Voir aussi les [fiches Matériau](Release_notes_0.18/fr#Manipulation_des_matériaux.md). Pour cela, le panneau de travail Matériau FEM a été optimisé.
 
+
+
 ## Atelier Part (Pièce) 
 
 -   L\'outil [Vérifier la géométrie](Part_CheckGeometry/fr.md) ouvre maintenant une petite fenêtre avec une barre de progression et un bouton **Annuler** pour terminer la tâche si cela prend trop de temps.
@@ -107,22 +117,32 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 
 -   Le nouvel outil [SliceApart (trancheur)](Part_SliceApart/fr.md) est basé sur le composant [Slice to Compound (Scinder en composants)](Part_Slice/fr.md) et comprend un découpeur automatique de composant permettant de fractionner facilement des objets.
 
+
+
 ## Atelier PartDesign (Conception de pièces) 
 
 -   Le nouvel outil [Système de coordonnées](PartDesign_CoordinateSystem/fr.md) permet désormais l\'ajout d\'une visualisation du système de coordonnées locales par rapport à un ou plusieurs objets de référence.
 
+
+
 ## Atelier Path 
+
+
 
 ### Améliorations générales 
 
 -   Le chemin peut maintenant afficher correctement le gcode avec les termes d\'axe ABC
 -   Améliorations de l\'éditeur Outils - Édition simplifiée pour des types d\'outils sélectifs
 
+
+
 ### Amélioration de la Tâche (Job) 
 
 -   Les travaux (jobs) peuvent maintenant avoir plusieurs objets de base
 -   L\'organisation des conteneurs de travail (jobs) a été améliorée
 -   Les valeurs par défaut pour les préférences d\'Opération peuvent être contrôlées via SetupSheets
+
+
 
 ### Opérations
 
@@ -133,10 +153,14 @@ La gestion des matériaux a été améliorée. Il est maintenant possible d\'uti
 -   RampEntry Dressup (rampe d\'entrée d\'usinage) a maintenant un point de départ configurable
 -   L\'opération PocketShape (forme en poche) peut maintenant \"utiliser les contours\"
 
+
+
 ### Post-traitement 
 
 -   grbl_post -- argument pour supprimer les commandes de changement d\'outil
 -   post-traitement grbl_g81
+
+
 
 ## Atelier Sketcher (Esquisseur) 
 
@@ -160,7 +184,11 @@ Liens de forum pertinents :
 -   [Sketcher Suppression automatiquement des modes redondants](https://forum.freecadweb.org/viewtopic.php?f=9&t=30594)
 -   [Nomenclature étendue des contraintes](https://forum.freecadweb.org/viewtopic.php?f=10&t=28890)
 
+
+
 ## Atelier Spreadsheet (Feuille de calcul) 
+
+
 
 ## Atelier Surface 
 
@@ -188,6 +216,8 @@ L\'atelier TechDraw a bénéficié de plusieurs ajouts et améliorations dans la
 <img alt="Une fiche de matériau" src=images/_Material-Card-018.png  style="width:300px;"> La manipulation des matériaux a été améliorée. Il est maintenant possible de créer des **fiches de matériau** pour chaque matériau. Les fiches peuvent contenir toutes les informations, propriétés physiques, spécifications architecturales, liens Web, commentaires, etc. Les fiches sont des fichiers texte avec le suffixe **.FCMat** et peuvent être utilisées pour tous les ateliers de FreeCAD.
 
 FreeCAD fournit des fiches de matériau pour les métaux standard, les plastiques et différents types d\'acier.
+
+
 
 ## Modules Additionnels 
 

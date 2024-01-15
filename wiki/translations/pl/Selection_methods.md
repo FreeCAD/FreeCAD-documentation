@@ -1,65 +1,81 @@
 # Selection methods/pl
-## Overview
+## Informacje ogólne 
 
-[Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
+**Metody wyboru** w programie FreeCAD pozwalają na wybieranie obiektów w [interfejsie FreeCAD](Interface/pl.md): są to [Widok 3D](3D_view/pl.md), [Widok drzewa](Tree_view/pl.md), [Widok wyboru](Selection_view/pl.md) i inne okna dialogowe. Niektóre metody wyboru są specyficzne dla konkretnego środowiska pracy i są udokumentowane we dokumentacji tego środowiska.
 
-## 3D view 
 
-In the [3D view](3D_view.md) there are various ways of selecting objects.
 
-### Simple selection 
+### Widok 3D 
 
-Simple selection with the mouse (by default left-click) and pre-selection (hover) are described in the [mouse navigation](Mouse_navigation.md) page.
+W oknie [Widoku 3D](3D_view/pl.md) istnieją różne sposoby wybierania obiektów.
 
-### Repeated clicks 
 
-The first click selects a sub-element (vertex, edge or face) of the object under the mouse. A second click selects the whole object.
 
-The third click extends the selection to its container object ([PartDesign Body](PartDesign_Body.md), [Std Part](Std_Part.md), and others). Further clicks expand the selection up the container chain.
+### Zwykłe zaznaczenie 
 
-### Selection commands 
+Prosty wybór za pomocą myszy *(domyślnie kliknięcie lewym przyciskiem myszy)* i wybór wstępny *(najechanie kursorem)* zostały opisane na stronie [Profil nawigacji myszką](Mouse_navigation/pl.md).
 
--   To select all objects: [Std SelectAll](Std_SelectAll.md).
--   To box select multiple main objects: [Std BoxSelection](Std_BoxSelection.md).
--   To box select multiple faces: [Std BoxElementSelection](Std_BoxElementSelection.md) or [Part BoxSelection](Part_BoxSelection.md).
 
-## Selection view 
 
-The [selection view](Selection_view.md) shows the names of the objects being selected, including their full name within an object, for example, `Unnamed#Body.Box001.Face17`.
+### Wielokrotne kliknięcia 
 
-It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSelection.md), and sending the object to the [Python console](Python_console.md).
+Pierwsze kliknięcie wybiera element podrzędny *(wierzchołek, krawędź lub ścianę)* obiektu znajdującego się pod kursorem myszki. Drugie kliknięcie zaznacza cały obiekt.
 
-### Object export 
+Trzecie kliknięcie rozszerza wybór na obiekt kontenera *([Zawartość](PartDesign_Body/pl.md), [Część](Std_Part/pl.md) i innych)*. Kolejne kliknięcia rozszerzają zaznaczenie w górę łańcucha kontenerów.
 
-*This should be in the [selection view](selection_view.md) page.*
 
-Select any complex object, for example, a [PartDesign Body](PartDesign_Body.md) or [Std Part](Std_Part.md), then in the [selection view](selection_view.md) select again the object, and then press **Ctrl** + **C** in the keyboard to open the **Object selection** dialog. This allows copying the selected object together with all or only some of that object\'s dependency objects. For example, for a [Std Part](Std_Part.md) the possible objects to select include the [Std Part](Std_Part.md) itself, but also its Origin, its three base axes (XYZ), and its three base planes (XY, YZ, XZ).
 
-After pressing **OK**, the selected objects are copied into memory, and then can be pasted in the document to duplicate these objects only.
+### Polecenia wyboru 
+
+-   Aby wybrać wszystkie obiekty: [Zaznacz wszystko](Std_SelectAll/pl.md)
+-   Aby zaznaczyć wiele głównych obiektów: [Zaznacz obszar](Std_BoxSelection/pl.md).
+-   Aby zaznaczyć wiele ścian: [Wybór elementów ramką zaznaczenia](Std_BoxElementSelection/pl.md) lub [Zaznacz obszarem](Part_BoxSelection/pl.md).
+
+
+
+## Widok zaznaczenia 
+
+Widok [wyboru](Selection_view/pl.md) pokazuje nazwy wybranych obiektów, w tym ich pełne nazwy w obrębie obiektu, na przykład `Unnamed#Body.Box001.Face17`.
+
+Pozwala również na wykonywanie niektórych akcji, takich jak [dopasowanie widoku do zaznaczenia](Std_ViewFitSelection/pl.md), i wysyłanie obiektu do [konsoli Python](Python_console/pl.md).
+
+
+
+### Eksport obiektu 
+
+*To powinno znajdować się na stronie [Widok wyboru](Selection_view/pl.md).*
+
+Wybierz dowolny złożony obiekt, na przykład [Zawartość](PartDesign_Body/pl.md) środowiska Projekt Części lub [Część](Std_Part/pl.md) środowiska Część, a następnie w [widoku wyboru](Selection_view/pl.md) wybierz ponownie obiekt i naciśnij **Ctrl** + **C** na klawiaturze, aby otworzyć okno dialogowe **Wybór obiektu**. Umożliwia to skopiowanie wybranego obiektu wraz ze wszystkimi lub tylko niektórymi obiektami zależnymi od tego obiektu. Na przykład dla obiektu [Część](Std_Part/pl.md) możliwe obiekty do wybrania obejmują samą [części](Std_Part/pl.md), ale także jej Odniesienie położenia, jej trzy osie bazowe *(XYZ)* i jej trzy płaszczyzny bazowe *(XY, YZ, XZ)*.
+
+Po naciśnięciu przycisku **OK** wybrane obiekty są kopiowane do pamięci, a następnie mogą zostać wklejone do dokumentu w celu powielenia tylko tych obiektów.
 
 ![](images/ObjectSelection.png )
 
 
 
-*Object selection dialog that is launched from the [selection view](Selection_view.md).*
+*Okno dialogowe wyboru obiektu uruchamiane z [Widok wyboru](Selection_view/pl.md).*
 
-## Tree view 
 
-In the [tree view](tree_view.md) items can be selected, or deselected, one at a time, by holding the **Ctrl** key and clicking with the mouse.
 
-A range of items can be selected by clicking on the first item, holding **Shift**, and clicking on the last item.
+## Widok drzewa 
 
-Selecting a single item will also show its properties in the [property editor](property_editor.md).
+W oknie [Widoku drzewa](Tree_view/pl.md) elementy można zaznaczać lub odznaczać pojedynczo, przytrzymując klawisz **Ctrl** i klikając myszką.
 
-Double clicking will open any associated [task panel](task_panel.md) containing actions. Make sure to close this task panel before executing another command or switching to any other workbench.
+Zakres elementów można wybrać, klikając pierwszy element, przytrzymując **Shift** i klikając ostatni element.
 
-More methods are available by opening the context menu (right-click), depending on the object selected or the active workbench; see the information in [tree view](tree_view.md).
+Wybranie pojedynczego elementu spowoduje również wyświetlenie jego właściwości w [Edytorze właściwości](Property_editor/pl.md).
 
-## Scripting
+Podwójne kliknięcie spowoduje otwarcie powiązanego okna [panelu zadań](Task_panel/pl.md) zawierającego akcje. Pamiętaj, aby zamknąć ten panel zadań przed wykonaniem innego polecenia lub przejściem do innego środowiska pracy.
 
-Selecting objects is inherently a graphical task and therefore it is only available when the graphical user interface is loaded.
+Więcej metod jest dostępnych po otwarciu menu kontekstowego *(prawym przyciskiem myszy)*, w zależności od wybranego obiektu lub aktywnego środowiska pracy. Zobacz informacje na stronie [Widok drzewa](Tree_view/pl.md).
 
-These methods can be used in [macros](Macros.md) or from the [Python console](Python_console.md):
+
+
+## Tworzenie skryptów 
+
+Wybieranie obiektów jest z natury zadaniem graficznym i dlatego jest dostępne tylko wtedy, gdy załadowany jest graficzny interfejs użytkownika.
+
+Metody te mogą być używane w [makrodefinicjach](Macros/pl.md) lub z [konsoli Python](Python_console/pl.md):
 
 
 ```python
@@ -70,7 +86,7 @@ Gui.Selection.addSelectionGate
 Gui.Selection.Filter
 ```
 
-The `addSelectionGate` method prevents the user from selecting objects not specified in the selection string. A <img alt="" src=images/Button_invalid.svg  style="width:16px;"> symbol appears when the pointer is over an item not in the specified group.
+Metoda `addSelectionGate` zapobiega wybieraniu przez użytkownika obiektów nieokreślonych w ciągu wyboru. Symbol <img alt="" src=images/Button_invalid.svg  style="width:16px;"> pojawia się, gdy wskaźnik znajduje się nad elementem spoza określonej grupy.
 
 
 ```python
@@ -83,14 +99,14 @@ Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Face")
 Gui.Selection.addSelectionGate("SELECT Part::Feature SUBELEMENT Vertex")
 ```
 
-To remove `SelectionGate()`:
+Aby usunąć `SelectionGate()`:
 
 
 ```python
 Gui.Selection.removeSelectionGate()
 ```
 
-See the [Source documentation](Source_documentation.md) and [Std PythonHelp](Std_PythonHelp.md) for more help on using these tools.
+Zobacz strony [Dokumentacja dla źródeł](Source_documentation/pl.md) i [Pomoc dla środowiska Python](Std_PythonHelp/pl.md), aby uzyskać więcej informacji na temat korzystania z tych narzędzi.
 
 
 

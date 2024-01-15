@@ -13,27 +13,16 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw HilfsobjektEntfernen** entfernt Hilfsobjekte vom Zeichnungsblatt. Hilfsobjekte sind:
-
-
-</div>
+Das Werkzeug **TechDraw HilfsobjektEntfernen** entfernt Hilfsobjekte. Zu den Hilfsobjekten gehören Hilfspunkte, Hilfslinien und Mittellinien.
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Ein oder mehrere Hilfsobjekte eines Zeichnungsblattes auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> Hilfsobjekt entfernen** drücken.
-3.  Die ausgewählten Hilfsobjekte werden entfernt.
-
-
-</div>
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Hilfsobjekte entfernen](TechDraw_CosmeticEraser/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → <img src="images/TechDraw_CosmeticEraser.svg" width=16px> Hilfsobjekt entfernen** auswählen.
 
 
 

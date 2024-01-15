@@ -16,25 +16,24 @@
 
 Il comando **Cos\'è questo?** apre la documentazione di aiuto per un comando specifico.
 
-In FreeCAD {{VersionPlus/it|0.20}} questo comando richiede l\'[Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+A partire dalla versione 0.20 di FreeCAD questo comando e il sistema di Aiuto sono gestiti da un Modulo Aiuto separato. Per le versioni 0.20 e 0.21 questo modulo è un [componente aggiuntivo](https://github.com/FreeCAD/FreeCAD-Help) che deve essere [installato](Std_AddonMgr/it.md) separatamente. Nelle versioni successive il Modulo di Aiuto è integrato in FreeCAD.
 
 
 
 ## Utilizzo
 
-1.  Se Help Addon non è ancora disponibile verrà chiesto di installarlo tramite [Addon Manager](Std_AddonMgr/it.md).
-2.  Esistono diversi modi per invocare il comando:
+1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Std_WhatsThis.svg" width=16px> [Cos'è questo?](Std_WhatsThis/it.md)**.
     -   Selezionare l\'opzione **Aiuto → <img src="images/Std_WhatsThis.svg" width=16px> Cos'è questo?** dal menu.
     -   Usare la scorciatoia da tastiera: **Maiusc**+**F1**.
-3.  Fare clic su un pulsante della barra degli strumenti o su un\'opzione di menu.
-4.  Si apre la documentazione di aiuto per il comando selezionato.
+2.  Fare clic su un pulsante della barra degli strumenti o su un\'opzione di menu.
+3.  Si apre la documentazione di aiuto per il comando selezionato.
 
 
 
 ## Note
 
--   L\'Addon Help ha una serie di preferenze. Vedere [Editor delle preferenze](Preferences_Editor/it#Aiuto.md).
+-   Il sistema di Aiuto ha una serie di preferenze. Vedere [Editor delle preferenze](Preferences_Editor/it#Aiuto.md).
 
 
 

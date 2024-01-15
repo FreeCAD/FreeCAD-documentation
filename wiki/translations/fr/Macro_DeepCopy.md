@@ -1,25 +1,26 @@
 # Macro DeepCopy/fr
 {{Macro/fr
 |Name=Macro DeepCopy
+|Name/fr=Macro DeepCopy
 |Icon=Macro_DeepCopy.png
-|Description=Crée un compound avec les objets sélectionnés
+|Description=Sélectionnez une pièce dans l'arborescence, exécutez la macro et elle créera un composé avec une copie de toutes ses formes. La hiérarchie de la pièce est perdue ainsi que toutes les fonctionnalités spéciales des enfants de la pièce d'origine. Par exemple, les sous-parties, les corps, les esquisses... seront perdus et leur forme sera copiée.
 |Author=galou_breizh
 |Version=1.0
 |Date=2018-03-16
-|FCVersion=>= v0.17
-|Download=[https://www.freecadweb.org/wiki/images/0/0a/Macro_DeepCopy.png ToolBar Icon]
+|FCVersion=V0.17 et au-dessus
+|Download=[https://wiki.freecad.org/images/0/0a/Macro_DeepCopy.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Sélectionnez un objet dans l\'arbre, exécutez la macro et un un composé sera créer avec une copie de toutes ses formes. La hiérarchie des pièces est perdue ainsi que toutes les fonctionnalités spéciales des enfants de la pièce d\'origine. Par exemple, les sous-parties, les corps, les croquis, \... seront perdus et leur forme sera copiée.
+Sélectionnez un objet dans l\'arborescence, exécutez la macro et un un composé sera créer avec une copie de toutes ses formes. La hiérarchie des pièces est perdue ainsi que toutes les fonctionnalités spéciales des enfants de la pièce d\'origine. Par exemple, les sous-parties, les corps, les croquis\... seront perdus et leur forme sera copiée.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Conversion/DeepCopy.FCMacro}}
 
 ## Script
 
-ToolBar Icon ![](images/Macro_DeepCopy.png )
+Icône de la barre d\'outils ![](images/Macro_DeepCopy.png )
 
 **Macro_DeepCopy.FCMacro**
 
@@ -28,15 +29,15 @@ ToolBar Icon ![](images/Macro_DeepCopy.png )
 __Name__ = 'Deep Copy'
 __Comment__ = 'Takes a part and makes a compound out of it'
 __License__ = 'Apache-2.0'
-__Web__ = 'https://www.freecadweb.org/wiki/Macro_DeepCopy'
-__Wiki__ = 'https://www.freecadweb.org/wiki/Macro_DeepCopy'
-__Icon__ = 'DeepCopy.png'
+__Web__ = 'https://wiki.freecad.org/Macro_DeepCopy'
+__Wiki__ = 'https://wiki.freecad.org/Macro_DeepCopy'
+__Icon__ = 'https://wiki.freecad.org/images/0/0a/Macro_DeepCopy.png'
 __Help__ = 'Select a part and launch'
 __Author__ = 'galou_breizh'
 __Version__ = '1.0.0'
 __Status__ = 'Stable'
 __Requires__ = 'FreeCAD >= v0.17'
-__Files__ = 'DeepCopy.svg'
+__Files__ = 'Macro_DeepCopy.png'
 
 import FreeCAD as app
 import FreeCADGui as gui
@@ -119,7 +120,7 @@ if __name__ == '__main__':
 
 }}
 
-[code on github](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Conversion/DeepCopy.FCMacro)
+[code sur GitHub](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Conversion/DeepCopy.FCMacro)
 
 
 

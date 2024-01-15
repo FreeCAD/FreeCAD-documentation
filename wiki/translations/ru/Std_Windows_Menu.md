@@ -43,7 +43,13 @@
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Каскад](Std_CascadeWindows/ru.md): Располагает окна каскадом.
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Окна\...](Std_Windows/ru.md): Открывает список окон доступных для выбора.
+
+
+</div>
 
 
 

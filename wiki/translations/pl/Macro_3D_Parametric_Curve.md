@@ -2,18 +2,18 @@
 {{Macro
 |Name=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
-|Description=Draw a function described by parametric equations x(t), y(t) and z(t) With the possibility to choose between b-spline and polyline for the type of line between points.
+|Description=Draw a function described by parametric equations x(t), y(t) and z(t) with the possibility to choose between B-spline and polyline for the type of line between points.
 |Author=Lucio Gomez (psicofil)
 |Version=2.0
 |Date=2015-03-06
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
-|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
+|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP.md)
 }}
 
 ## Description
 
-This macro creates a curve described by parametric equations x(t), y(t) and z(t). With the possibility to choose between b-spline and polyline for the type of line between points.
+This macro creates a curve described by parametric equations x(t), y(t) and z(t), with the possibility to choose between B-spline and polyline for the type of line between points.
 
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*

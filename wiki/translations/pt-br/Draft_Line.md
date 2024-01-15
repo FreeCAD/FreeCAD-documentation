@@ -10,6 +10,8 @@
 
 # Draft Line/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Line.svg  style="width:24px;"> **Draft Line** command creates a straight line.
@@ -19,44 +21,53 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 <img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
 *Line defined by two points*
 
+
+
 ## Utilização
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** button.
+    -   Press the **<img src="images/Draft_Line.svg" width=16px> [Line](Draft_Line.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Line.svg" width=16px> Line** option from the menu.
     -   Use the keyboard shortcut: **L** then **I**.
 2.  The **Line** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 
+
+
 ## Opções
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   To use polar coordinates enter a value for the **Length** and a value for the **Angle**, and press **Enter** after each.
 -   Check the **Angle** checkbox to constrain the pointer to the specified angle.
--   Press **H** to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.
+-   Press **L** to change the focus from the **X** input box to the **Length** input box and back. Depending on the input box that receives the focus the **Angle** checkbox is checked or unchecked.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
+-   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
+
+
 
 ## Notas
 
 -   A Draft Line can be edited with the [Draft Edit](Draft_Edit.md) command.
 -   Draft Lines and [Draft Wires](Draft_Wire.md) can be joined with the [Draft Wire](Draft_Wire.md) command, the [Draft Join](Draft_Join.md) command or the [Draft Upgrade](Draft_Upgrade.md) command.
 
+
+
 ## Preferências
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+
+
 
 ## Propriedades
 

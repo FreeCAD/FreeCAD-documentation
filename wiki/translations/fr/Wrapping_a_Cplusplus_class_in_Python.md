@@ -1,5 +1,7 @@
 # Wrapping a Cplusplus class in Python/fr
-**Cet article est un article en cours. Merci d'y apporter vos connaissances!**
+**Cet article est un article en cours. Merci d'y apporter vos connaissances !**
+
+
 
 
 
@@ -23,6 +25,8 @@ Editez le fichier approprié **CMakeLists.txt** pour ajouter des références à
 
 -    `[YourClass]Py.h`
     
+
+
 
 ## Fichier XML de description des classes 
 
@@ -94,9 +98,13 @@ et :
 void AxisPy::setDirection(Py::Object arg)
 }}
 
+
+
 ## Mise en œuvre du fichier Cplusplus 
 
 Le fichier d\'implémentation C++ `[YourClass]PyImp.cpp` fournit la \"colle\" qui relie les structures C++ et Python ensemble, effectuant la traduction efficacement d\'un langage à l\'autre. Le système FreeCAD C++ vers Python fournit un certain nombre de classes C++ qui correspondent à leur type Python. La plus fondamentale de ces classes est la classe `Py::Object` \-- rarement créée directement, cette classe fournit la base de l\'arbre d\'héritage et est utilisée comme type de retour pour toute fonction qui retourne des données Python.
+
+
 
 ### Fichiers inclus 
 
@@ -114,6 +122,8 @@ Votre fichier d\'implémentation C++ comprendra les fichiers suivants :
 }}
 
 Bien entendu, vous pouvez inclure tous les autres en-têtes C++ dont votre code a besoin pour fonctionner.
+
+
 
 ### Constructeur
 
@@ -148,6 +158,8 @@ PyAPI_FUNC(int) PyArg_ParseTupleAndKeywords (PyObject *, PyObject *, const char 
 PyAPI_FUNC(int) PyArg_VaParse (PyObject *, const char *, va_list);
 PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const char *, char **, va_list);
 }}
+
+
 
 ## Liens
 

@@ -1,4 +1,7 @@
 # Macro PartToVRML/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Macro PartToVRML
 |Icon=PartToVRML.png
@@ -8,13 +11,32 @@
 |Date=2016-02-22
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro converte le parti selezionate in mesh VRML per caricare velocemente oggetti di piccole dimensioni (è compatibile con modelli VRML Kicad e Blender)
 
+
+</div>
+
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 L\'icona ![](images/PartToVRML.png )
+
+
+</div>
 
 **Macro_PartToVRML.FCMacro**
 
@@ -35,7 +57,7 @@ L\'icona ![](images/PartToVRML.png )
     __Comment__ = "This macro creates VRML model of selected object(s), with colors (for Kicad and Blender compatibility)"
     __Web__ = "http://www.freecadweb.org/"
     __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_PartToVRML"
-    __Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_PartToVRML.png"
+    __Icon__  = "https://wiki.freecad.org/images/f/f8/PartToVRML.png"
     __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_PartToVRML.png"
     __Help__ = "start the macro and follow the instructions"
     __Status__ = "stable"

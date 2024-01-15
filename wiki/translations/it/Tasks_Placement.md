@@ -9,6 +9,8 @@ Opzioni della scheda **Posizionamento**. Queste opzioni riguardano soltanto la p
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -28,6 +30,8 @@ La funzione **Posizionamento** può essere attivata in diversi modi:
 
 
 </div>
+
+
 
 ### Nella Vista combinata → Dati 
 
@@ -232,6 +236,8 @@ Sono i **Tait-Bryan angles**. Per maggiori informazioni si può consultare [Ango
 
 
 </div>
+
+
 
 ## Link e Esempi 
 

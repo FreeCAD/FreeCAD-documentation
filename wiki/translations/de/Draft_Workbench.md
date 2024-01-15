@@ -102,11 +102,11 @@ Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt ei
 
   - <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Path array](Draft_PathArray/de.md): erstellt eine Anordnung aus einem ausgewählten Objekt, indem Kopien entlang eines Pfades positioniert werden.
 
-  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path Link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
 
-  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point Array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
+  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
 
-  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point Link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edit](Draft_Edit.md): puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
 
@@ -122,7 +122,7 @@ Rechts ein nicht-planarer [Draft Draht](Draft_Wire/de.md), der als Pfadobjekt ei
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to Sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
 
@@ -138,7 +138,7 @@ Das [Draft Fach](Draft_Tray.md) ermöglicht die Auswahl einer Arbeitsebene, Stil
 
 ![](images/Draft_tray_default.png )
 
--   ![](images/Draft_tray_button_plane.png ) [Ebene wählen](Draft_SelectPlane/de.md): wählt die aktuelle Draft-Arbeitsebene aus. Auch im Menü verfügbar: **Werkzeuge → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen**.
+-   ![](images/Draft_tray_button_plane.png ) [Ebene auswählen](Draft_SelectPlane/de.md): legt die aktuelle Draft-Arbeitsebene fest. Auch im Menü verfügbar: **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene auswählen**.
 
 -   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**.
 
@@ -198,7 +198,7 @@ Die Symbolleiste Draft-Einrasten erlaubt das Auswählen der aktiven Einrast-Opti
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [EinrastenAufMaße](Draft_Snap_Dimensions/de.md): zeigt die temporären X- und Y-Maße an.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [RasterUmschalten](Draft_ToggleGrid/de.md): schaltet das Raster ein bzw. aus.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [RasterUmschalten](Draft_ToggleGrid/de.md): ändert die Sichtbarkeit des Rasters.
 
 
 
@@ -212,7 +212,7 @@ Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> [Zu
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [GruppeWählen](Draft_SelectGroup/de.md): wählt den Inhalt von [Std Gruppen](Std_Group/de.md) oder gruppenartigen [Arch](Arch_Workbench/de.md)-Objekten aus.
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
 
@@ -229,8 +229,6 @@ Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Ent
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). Available in the [Draft utility tools toolbar](Draft_Workbench#Draft_utility_tools_toolbar.md) in {{VersionMinus|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
-
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
@@ -260,12 +258,6 @@ If there is an active document the context menu contains an additional sub-menu:
 
 -   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options 
-
-For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available:
-
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten: flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
-
 ### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
@@ -281,6 +273,18 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activate this layer](Draft_AutoGroup.md): activates the selected layer.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
+
+### Text options 
+
+For a [Draft Text](Draft_Text.md) and a [Draft Label](Draft_Label.md) that contains one or more hyperlinks, to a local or remote file or an URL, this additional option is available:
+
+-   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v0.22)</small> 
+
+### Wire options 
+
+For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available:
+
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten: flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
 
 ### Working plane proxy options 
 
@@ -302,6 +306,10 @@ If there is an active document the context menu contains one additional sub-menu
 
 -   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
+### Text options 
+
+See [above](#Text_options.md).
+
 
 
 ## Veraltete Werkzeuge 
@@ -309,6 +317,8 @@ If there is an active document the context menu contains one additional sub-menu
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Anordnung](Draft_Array/de.md): Erstellt eine rechtwinklige Anordnung aus einem Ausgewählten Objekt. Die erstellte Anordnung kann in eine [PolareAnordnung](Draft_PolarArray/de.md) oder eine [circular array](Draft_CircularArray.md) gewandelt werden, indem ihre {{PropertyData/de|Array Type}} geändert wird. Nicht mehr enthalten in {{VersionPlus/de|0.21}}.
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. Not available in <small>(v0.21)</small> .
+
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v0.22)</small> .
 
 
 

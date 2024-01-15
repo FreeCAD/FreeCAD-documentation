@@ -9,6 +9,8 @@
 
 # PartDesign Boolean/de
 
+
+
 ## Beschreibung
 
 **PartDesign Boolesche Operation** importiert einen oder mehrere [PartDesign-Körper (Bodies)](PartDesign_Body/de.md) oder [PartDesign-Klone](PartDesign_Clone/de.md) (hier \"Werkzeugkörper\" genannt) in den aktiven PartDesign-Körper und führt eine Boolesche Operation durch (Vereinigung, Differenz oder Schnitt ).
@@ -18,6 +20,8 @@
 
 
 *Links der aktive Körper (A) mit den Werkzeugkörpern (B) und (C); Rechts das Ergebnis nach der Booleschen Operation Differenz.*
+
+
 
 ## Anwendung
 
@@ -34,7 +38,9 @@
 6.  
     **OK**klicken.
 
-Alternativ können ein oder mehrere Körper vor dem Drücken der Schaltfläche Boolesche Operation ausgewählt werden; sie werden dann automatisch hinzugefügt.
+Alternativ können Objekte ausgewählt werden, bevor die Schaltfläche Boolesche Operation gedrückt wird. Sie werden automatisch hinzugefügt. Bei der Vorauswahl ist man nicht auf Körper (Bodies) beschränkt. [PartDesign FormBinder](PartDesign_ShapeBinder/de.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder/de.md) und sogar Festkörper, die mit anderen Arbeitsbereichen erstellt wurden, können dann auch ausgewählt werden.
+
+
 
 ## Optionen
 
@@ -42,6 +48,8 @@ Alternativ können ein oder mehrere Körper vor dem Drücken der Schaltfläche B
 -   **Differenz:** Zieht den/die Werkzeugkörper vom aktiven Körper ab.
 -   **Schnitt:** Extrahiert die Überschneidung der/des gewählten Körper(s) mit dem aktiven Körper.
 -   Die Schaltfläche **Körper entfernen** drücken, um einen Körper durch Auswahl in der [3D-Ansicht](3D_view/de.md) zu entfernen.
+
+
 
 ## Eigenschaften
 
@@ -59,6 +67,8 @@ Alternativ können ein oder mehrere Körper vor dem Drücken der Schaltfläche B
 -    {{PropertyView/de|Selectable}}: true oder false. Wenn auf \"false\" gesetzt, kann das Objekt nicht in der 3D-Ansicht ausgewählt werden.
 
 -    {{PropertyView/de|Sichtbarkeit}}: true oder false. Schaltet die Sichtbarkeit des Objekts in der 3D-Ansicht um.
+
+
 
 ## Begrenzungen
 

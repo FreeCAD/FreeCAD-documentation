@@ -1,31 +1,38 @@
 ---
  GuiCommand:
    Name: Draft AddConstruction
-   MenuLocation: Utilities , Add to Construction group
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Dodaj do grupy konstrukcyjnej
+   MenuLocation: Narzędzia , Dodaj do grupy konstrukcyjnej
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.17
-   SeeAlso: Draft_ToggleConstructionMode, Draft_AddToGroup
+   SeeAlso: Draft_ToggleConstructionMode/pl, Draft_AddToGroup/pl
 ---
 
 # Draft AddConstruction/pl
 
-## Description
 
-The <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft AddConstruction** command moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md). It also applies the [construction geometry color](Draft_ToggleConstructionMode#Preferences.md) to the objects.
 
-## Usage
+## Opis
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddConstruction.svg" width=16px> [Draft AddConstruction](Draft_AddConstruction.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddConstruction.svg" width=16px> Add to Construction group** option from the menu.
-3.  If it does not exist the construction group is created first.
-4.  The objects are moved to the construction group and their color properties are changed.
+Polecenie <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Dodaj do grupy konstrukcyjnej** przenosi obiekty do [grupy konstrukcyjnej](Draft_ToggleConstructionMode/pl.md). Stosuje również [kolor geometrii konstrukcji](Draft_ToggleConstructionMode/pl#Ustawienia.md) względem obiektów.
 
-## Notes
 
--   Objects can also be moved to the construction group by drag and dropping them on the group in the [Tree view](Tree_view.md), or by using the [Draft AddToGroup](Draft_AddToGroup.md) command. But in both cases the [construction geometry color](Draft_ToggleConstructionMode#Preferences.md) is not applied.
--   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
+
+## Użycie
+
+1.  Wybierz jeden lub więcej obiektów.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_AddConstruction.svg" width=16px> '''Dodaj do grupy konstrukcyjnej'''**.
+    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddConstruction.svg" width=16px> Dodaj do grupy konstrukcyjnej**.
+3.  Jeśli nie istnieje, najpierw tworzona jest grupa konstrukcyjna.
+4.  Obiekty są przenoszone do grupy konstrukcyjnej i zmieniane są ich właściwości kolorystyczne.
+
+
+
+## Uwagi
+
+-   Obiekty mogą być również przenoszone do grupy konstrukcyjnej poprzez przeciągnięcie i upuszczenie ich na grupę w oknie [Widoku drzewa](Tree_view/pl.md) lub poprzez użycie polecenia [Dodaj do grupy](Draft_AddToGroup/pl.md). Ale w obu przypadkach [kolor geometrii konstrukcji](Draft_ToggleConstructionMode/pl#Ustawienia.md) nie jest stosowany.
+-   Więcej informacji na temat organizacji modelu można znaleźć na stronach [Struktura dokumentu](Document_structure/pl.md) i [Poradnik dla środowiska pracy Architektura](Arch_tutorial/pl#Porządkowanie_modelu.md).
 
 
 

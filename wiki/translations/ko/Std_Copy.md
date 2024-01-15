@@ -33,7 +33,7 @@
 
     -   메뉴에서 **편집 → <img src="images/Std_Copy.svg" width=16px> 복사** 옵션을 선택합니다.
 
-    -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_Copy.svg" width=16px> 복사** 옵션을 선택합니다.
+    -   [트리 보기](Tree_view/ko.md)의 상황에 맞는 메뉴에서 **<img src="images/Std_Copy.svg" width=16px> 복사** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **Ctrl**+**C**.
 3.  개체에 선택하지 않은 의존성이 있는 경우 포함 할 항목을 지정하라는 대화 상자가 나타납니다.

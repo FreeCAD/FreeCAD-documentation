@@ -58,13 +58,13 @@ L\'équation magnétodynamique 2D fournit ces paramètres spéciaux :
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation magnétodynamique 2D prend en compte les contraintes suivantes si elles sont définies :
+L\'équation magnétodynamique 2D prend en compte les caractéristiques d\'analyse suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md)
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Densité de courant](FEM_ConstraintCurrentDensity/fr.md)
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnétisation](FEM_ConstraintMagnetization/fr.md)
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md)
 
 

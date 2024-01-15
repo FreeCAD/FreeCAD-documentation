@@ -1,6 +1,6 @@
 # Macro Rotate View/fr
 {{Macro/fr
-|Name=Rotate View by 90°
+|Name=Macro Rotate View by 90°
 |Name/fr=Macro Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
 |Description=Cette macro fait pivoter l'affichage actuel de 90 ° vers la gauche. Ne fonctionne que si vous êtes en [vue de dessus](Std_ViewTop/fr.md).
@@ -8,8 +8,8 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=Toutes
-|Download=[https://www.freecadweb.org/wiki/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Macro_Rotate_View_view_90_Degrees]
-|SeeAlso=[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric/fr.md) [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"><br />[Macro Rotate View Free](Macro_Rotate_View_Free/fr.md)
+|Download=[https://wiki.freecad.org/images/a/a0/Macro_Rotate_View_view_90_Degrees.png Icône de la barre d'outils]
+|SeeAlso=[Macro Rotate ViewAxonometric](Macro_Rotate_ViewAxonometric/fr.md), [Macro Rotate View Free](Macro_Rotate_View_Free/fr.md)
 }}
 
 ## Description
@@ -22,7 +22,7 @@ Ne fonctionne que si vous êtes en vue de dessus: ![Std_ViewTop\|16px\|link=Std_
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Rotate_View_view_90_Degrees.png )
+Icône de la barre d\'outils ![](images/Macro_Rotate_View_view_90_Degrees.png )
 
 **Macro_Rotate_View_90_Degrees.FCMacro**
 

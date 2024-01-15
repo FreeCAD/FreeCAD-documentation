@@ -22,9 +22,13 @@ Une petite sélection de fonctions qui peuvent être créées :
 <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;"> 
 *fossettes, persiennes, découpes dessinées, ponts*
 
+
+
 ## Utilisation
 
 Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si nécessaire, double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
+
+
 
 ### Fossette
 
@@ -36,6 +40,8 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
     -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall**.
     -   Le raccourci clavier : **M** puis **F**.
 
+
+
 ### Persienne
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
@@ -44,6 +50,8 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 4.  Ajoutez à la sélection une **face latérale** adjointe à la face inférieure pour indiquer la position de la coupe.
 5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
+
+
 
 ### Pont
 
@@ -55,6 +63,8 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 6.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 7.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
+
+
 ### Découpe dessinée 
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
@@ -64,6 +74,8 @@ Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si 
 5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
 6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
+
+
 ### Multiplication et motif 
 
 Pour multiplier et modeler la fonction emboutie, une **esquisse** contenant des cercles et des arcs peut être ajoutée à la propriété **Sketch** de l\'objet **WallForming**. Cette esquisse doit être **coplanaire** avec la face à emboutir.
@@ -71,6 +83,8 @@ Pour multiplier et modeler la fonction emboutie, une **esquisse** contenant des 
 Les points centraux des cercles ou des arcs sont utilisés pour fournir des positions où placer les instances de la caractéristique en relief. Ils n\'influencent pas l\'orientation des instances.
 
 L\'orientation dépend toujours de l\'orientation de la première face sélectionnée.
+
+
 
 ### Ajouter des congés 
 
@@ -85,6 +99,8 @@ L\'orientation dépend toujours de l\'orientation de la première face sélectio
 5.  Sélectionnez un bord sur la face inférieure de l\'objet SheetMetal pour recevoir un congé.
 6.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) (voir ci-dessus)
 
+
+
 ## Remarques
 
 La géométrie emboutie n\'est pas limitée aux parois planes et aux connexions cylindriques, de sorte qu\'après l\'application d\'une telle géométrie à un objet SheetMetal **l\'objet n\'est plus dépliable**.
@@ -93,11 +109,15 @@ L\'emboutissage peut être désactivé (en définissant la propriété **Suppres
 
 L\'emboutissage et les congés doivent être les dernières étapes de la création d\'un objet SheetMetal.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet SheetMetal WallForming est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -130,6 +150,8 @@ Un objet SheetMetal WallForming est dérivé d\'un objet [Part Feature](Part_Fea
 
 -    {{PropertyData/fr|Sketch|Link}}: \"Esquisse de point sur la tôle\". Lien vers l\'esquisse contenant des informations sur la manière de multiplier et de distribuer les instances de l\'outil de formage. (Les points centraux des cercles et des arcs sont utilisés pour créer et positionner ces instances).
 
+
+
 ## Exemple
 
 <img alt="" src=images/SheetMetal_Forming-01.png  style="width:300px;"> <img alt="" src=images/SheetMetal_Forming-02.png  style="width:300px;"> 
@@ -149,6 +171,8 @@ Il n\'est pas nécessaire de travailler avec des esquisses coplanaires ici.
 
 <img alt="" src=images/SheetMetal_Forming-03.png  style="width:200px;"> 
 *Bol en tôle et objet embouti*
+
+
 
 ### Déroulement des tâches 
 

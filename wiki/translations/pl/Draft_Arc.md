@@ -11,6 +11,8 @@
 
 # Draft Arc/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Tworzy różne rodzaje łuków** utworzy łuk kołowy w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) ze środka, promienia, kąta początkowego i kąta wierzchołkowego. Promień i kąty mogą być zdefiniowane przez wybranie punktów.
@@ -20,9 +22,11 @@ Polecenie <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> **Tworzy r�
 <img alt="" src=images/Draft_Arc_example.jpg  style="width:400px;"> 
 *Łuk zdefiniowany za pomocą czterech punktów, środka, promienia, punkty początku i końca łuku.*
 
+
+
 ## Użycie
 
-Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Arc.svg" width=16px> [Tworzy różne rodzaje łuków ...](Draft_Arc/pl.md)**.
@@ -34,30 +38,39 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 5.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość **Kąta rozpoczęcia**.
 6.  Wybierz czwarty punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz wartość **Kąta otwarcia**.
 
+
+
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
 -   Aby ręcznie wprowadzić współrzędne środka, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już wybrane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
 -   Naciśnij przycisk **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **T** lub kliknij na pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu pracy, pozwalając na dalsze tworzenie łuków.
+-   Naciśnij klawisz **N** lub kliknij na pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu pracy, pozwalając na dalsze tworzenie łuków.
 -   Wciśnij klawisz **S** by włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby zakończyć działanie polecenia.
+
+
 
 ## Uwagi
 
 -   Szkic łuku można edytować za pomocą polecenia [Edycja](Draft_Edit/pl.md).
 
+
+
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
--   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych, promieni i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Jeśli w oknie ustawień opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [okrąg](Part_Circle/pl.md) środowiska Część, zamiast okręgu Rysunku Roboczego.
+
+
 
 ## Właściwości
 
 Zobacz stronę [Rysunek Roboczy: Okrąg](Draft_Circle/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
+
+
 
 ## Tworzenie skryptów 
 

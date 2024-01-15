@@ -49,7 +49,13 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 -   Mover la elipse por el borde es lo mismo que mover el centro de la elipse.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

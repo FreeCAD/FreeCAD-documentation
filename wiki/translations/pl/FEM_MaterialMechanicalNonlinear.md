@@ -1,30 +1,91 @@
 ---
  GuiCommand:
    Name: FEM MaterialMechanicalNonlinear
-   MenuLocation: Model , Materials , Nonlinear mechanical material
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Nieliniowy materiał mechaniczny
+   MenuLocation: Model , Materiały , Nieliniowy materiał mechaniczny
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MaterialMechanicalNonlinear/pl
 
-## Description
 
-Adds nonlinear mechanical material model. Currently only plasticity with simple hardening is available.
 
-## Usage
+## Opis
 
-1.  To define nonlinear mechanical material model do the following:
-    -   Add the **<img src="images/Fem-add-material.svg" width=16px> [MaterialSolid](FEM_MaterialSolid.md)** first and select it.
-    -   Click the **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [FEM MaterialMechanicalNonlinear](FEM_MaterialMechanicalNonlinear.md)** button or choose the **Model → Materials → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Nonlinear mechanical material‏‎** option from the menu.
-2.  To edit an existing MaterialMechanicalNonlinear object:
-    -   Click it in the [Tree view](Tree_view.md).
-    -   Select the material model (currently only simple hardening is available).
-    -   Define yield points (stress vs plastic strain). The first point must have a zero plastic strain specified.
+Tworzy nieliniowy materiał mechaniczny. Obecnie dostępna jest tylko plastyczność z prostym wzmocnieniem (izotropowym).
 
-## Notes
 
--   In FreeCAD 0.19 and older versions, it\'s possible to specify only 3 yield points. Since the 0.20 version, this limitation doesn\'t exist and a list of yield point can contain as many of them as needed.
+
+## Użycie
+
+1.  Aby utworzyć nowy obiekt MaterialMechanicalNonlinear, skorzystaj z jednego z następujących podejść:
+    -   Dodaj najpierw **<img src="images/FEM_MaterialSolid.svg" width=16px> [Materiał dla bryły](FEM_MaterialSolid/pl.md)** i zaznacz go.
+    -   Wciśnij przycisk **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> '''Nieliniowy materiał mechaniczny'''** lub wybierz opcję **Model → Materiały → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Nieliniowy materiał mechaniczny‏‎** z menu.
+2.  Aby edytować istniejący obiekt MaterialMechanicalNonlinear:
+    -   Zaznacz go w [widoku drzewa](Tree_view/pl.md).
+    -   Wybierz model materiału *(obecnie dostępne jest tylko proste wzmocnienie)*.
+    -   Zdefiniuj punkty z krzywej naprężenie \[MPa\] - odkształcenie plastyczne. Pierwszy punkt musi mieć zerowe odkształcenia plastyczne. Wciśnij przycisk **...** obok właściwości **Yield Points** aby wprowadzić punkty za pomocą wygodnej listy. Składnia jest opisana w sekcji [Uwagi](#Uwagi.md).
+
+
+
+## Uwagi
+
+-   We FreeCAD 0.19 i starszych wersjach, można wprowadzić tylko 3 punkty z krzywej naprężenie - odkształcenie plastyczne. Od wersji 0.20 lista punktów może być dowolnie długa.
+-   Składnia powinna być następująca:
+
+:   
+    
+```python
+    stress_1, 0
+    stress_2, plastic_strain_2
+    ...
+    
+```
+    
+
+
+
+
+
+:   Z kropką jako separatorem dziesiętnym, ponieważ korzysta z niej CalculiX.
+
+
+
+
+
+:   Przykładowo, aby zdefiniować model biliniowy ze wzmocnieniem dla stali S275:
+
+
+
+
+
+:   
+    
+```python
+    275, 0
+    490, 0.2
+    
+```
+    
+
+
+
+
+
+:   Lub, aby zdefiniować idealną plastyczność bez wzmocnienia dla tego materiału:
+
+
+
+
+
+:   
+    
+```python
+    275, 0
+    
+```
+    
 
 
 

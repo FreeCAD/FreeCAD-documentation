@@ -15,6 +15,8 @@ La commande **Std Documentation des modules Python** démarre un serveur Web qui
 
 Le serveur Web est basé sur le module [pydoc](https://docs.python.org/3.8/library/pydoc.html#module-pydoc) de Python et extrait ainsi les docstrings (chaîne de caractères) des fichiers Python (`.py`) et la documentation textuelle définie dans les wrappers Python (`.xml`) qui exposent le code C++ sous-jacent.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Aide → <img src="images/Std_PythonHelp.svg" width=16px> Documentation automatique des modules python** dans le menu.

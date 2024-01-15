@@ -26,6 +26,8 @@ Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse
 
 </div>
 
+
+
 ## Utilizzo
 
 
@@ -82,7 +84,7 @@ Per identificare il numero che indica le linee ed i punti si prega di fare rifer
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

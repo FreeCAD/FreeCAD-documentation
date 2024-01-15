@@ -4,7 +4,7 @@
 
 **Uwaga:**
 
-wszystkie ikony w drzewie źródłowym, zobacz na stronie [Wytyczne dotyczące grafiki](Artwork/pl.md).
+wszystkie ikony w drzewie źródłowym, zobacz na stronie [grafika](Artwork/pl.md).
 
 Ikona FreeCAD składa się z 6 elementów, które można zapamiętać za pomocą akronimu SALCHO: **S**troke, **A**lignment, **L**ighlighting, **C**olor, **H**ighlighting, **O**utline.
 
@@ -13,159 +13,181 @@ Oto konkretny, aczkolwiek dowolny przykład:
 ![](images/FreeCAD_icon_example_details.svg )
 
   --- 
-  A   The highlight color is used for this entire surface to indicate light falling from above.
-  B   The obligatory dark outline surrounds the icon shape to provide form contrast.
-  C   Just inside the outline, the highlight stroke (Highlight color) provides contrast on dark backgrounds.
-  D   This face is primarily the base color, but a light gradient from highlight (top left) to base (bottom right) gives the impression of light falling from above left.
-  E   The highlight here is the base color (one tone down) to give the impression of this being the face furthest from the light.
-  F   This face is like D but goes from Base (top left) to Dark (bottom right), to indicate that this is the face furthest from the light.
+  A   Kolor podświetlenia jest używany na całej powierzchni, aby wskazać światło padające z góry.
+  B   Obowiązkowy ciemny kontur otacza kształt ikony, aby zapewnić kontrast kształtu.
+  C   Obrys wewnątrz konturu *(kolor podświetlenia)* zapewnia kontrast na ciemnym tle.
+  D   Ta powierzchnia ma głównie kolor bazowy, ale jasny gradient od podświetlenia *(u góry po lewej)* do bazy *(u dołu po prawej)* sprawia wrażenie światła padającego z góry po lewej.
+  E   Podświetleniem jest tutaj kolor bazowy *(o jeden ton niższy)*, aby sprawić wrażenie, że jest to twarz najbardziej oddalona od światła.
+  F   Ta powierzchnia jest podobna do D, ale przechodzi od podstawy *(lewy górny róg)* do ciemności *(prawy dolny róg)*, aby wskazać, że jest to powierzchnia najbardziej oddalona od światła.
   --- 
 
-The following sections explain these elements with more detail.
+Poniższe sekcje wyjaśniają te elementy bardziej szczegółowo.
 
-This icon is displayed as follows:
+Ikona ta jest wyświetlana w następujący sposób:
 
-   
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;">   64 px, original size, large buttons.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;">   32 px, medium size, regular buttons.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;">   16 px, small size, as it appears in the [tree view](tree_view.md).
-   
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;"> | 64 px, oryginalny rozmiar, duże przyciski.                                        |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;"> | 32 px, średni rozmiar, zwykłe przyciski.                                          |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;"> | 16 px, mały rozmiar, tak jak pojawia się w [widoku drzewa](Tree_view.md). |
++++
 
-## Colors
 
 
-**Obligatory**
+## Kolory
 
-FreeCAD uses a palette adapted from the [Tango palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Each main color comes in 4 tones: Highlight, Base, Dark and Outline. Notice that the Outline is not completely black but a very dark variation of the Base.
+
+**Obowiązkowe**
+
+FreeCAD używa palety zaadaptowanej z [palety Tango](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Każdy główny kolor ma 4 odcienie: Podświetlenia, Bazy, Ciemnego i Konturu. Zauważ, że Kontur nie jest całkowicie czarny, ale jest bardzo ciemną odmianą Bazy.
 
 ![](images/Green_tones.PNG ) 
-*Example of a 4 tone color family (Chameleon)*
+*Przykład 4-tonowej rodziny kolorów ''(Kameleon)''.*
 
-See [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) for the full range. A selection of some key colors.
+Zobacz [paletę FreeCAD](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00), aby zapoznać się z pełną gamą. Wybór niektórych kluczowych kolorów.
 
       
-                                                                                                                                                          Use the Yellow tones for tools that create objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Use the Blue tones for tools that modify objects; for an example, see [Part](Part_Workbench.md) and [Draft Workbenches](Draft_Workbench.md).
-  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Use the Teal tones for view-related tools; for an example, see the [View Menu](Std_View_Menu.md).
-  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Use the Red tones for Constraint related tools; for an example, see [Sketcher Workbench](Sketcher_Workbench.md).
+                                                                                                                                                          Żółtych tonów należy używać w przypadku narzędzi, które tworzą obiekty. Jako przykład można podać środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
+  style=\"background-color:#729fcf;\|   style=\"background-color:#3465a4;\|   style=\"background-color:#204a87;\|   style=\"background-color:#0b1521;\|   Używaj niebieskich odcieni dla narzędzi, które modyfikują obiekty. Jako przykład, zobacz środowiska pracy [Część](Part_Workbench/pl.md) i [Rysunek Roboczy](Draft_Workbench/pl.md).
+  style=\"background-color:#34e0e2\|    style=\"background-color:#16d0d2\|    style=\"background-color:#06989a\|    style=\"background-color:#042a2a\|    Używaj odcieni turkusu dla narzędzi związanych z widokiem; przykład można znaleźć w [menu Widoku](Std_View_Menu/pl.md).
+  style=\"background-color:#ef2929\|    style=\"background-color:#cc0000\|    style=\"background-color:#a40000\|    style=\"background-color:#280000\|    Używaj czerwonych tonów dla narzędzi związanych z wiązaniami. Przykład można znaleźć w środowisku pracy [Szkicownik](Sketcher_Workbench/pl.md).
       
 
    
-  style=\"width: 25%;\|Why limit myself to these colors?   Restricting the colors to a defined palette helps avoid heterogeneous iconography and improves readability when there are many icons.
-  How do I use the FreeCAD palette?                        Installing [the palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) is as easy as [copying it into your Inkscape palette folder](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
+  style=\"width: 25%;\|Dlaczego ograniczać się do tych kolorów?   Ograniczenie kolorów do określonej palety pomaga uniknąć niejednorodnej ikonografii i poprawia czytelność w przypadku wielu ikon.
+  Jak używać palety FreeCAD?                                      Instalacja [palety](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) jest tak prosta, jak [skopiowanie jej do folderu palety Inkscape](https://inkscape.org/en/learn/faq/#how-install-new-extensions-palettes-document-templates-symbol-sets-icon-sets-etc).
    
 
-## Grid and stroke width 
 
 
-**Obligatory**
+## Szerokość siatki i obrysu 
 
-FreeCAD icons have a nominal size of 64 pixels both in width and height. When creating or editing an icon, make sure the document size is 64 x 64 with the units being pixels (px). Leaving an inner 2px margin of empty space all around the document area is useful as it prevents effects like anti-aliasing (blurring of edges). That is, the usable space for the icon should be considered 60 x 60, and the edges should be left empty.
+
+**Obowiązkowe**
+
+Ikony FreeCAD mają nominalny rozmiar 64 pikseli zarówno w szerokości, jak i wysokości. Podczas tworzenia lub edycji ikony należy upewnić się, że rozmiar dokumentu wynosi 64 x 64, a jednostkami są piksele (px). Pozostawienie wewnętrznego marginesu 2px pustej przestrzeni wokół obszaru dokumentu jest przydatne, ponieważ zapobiega efektom takim jak antyaliasing (rozmycie krawędzi). Oznacza to, że przestrzeń użytkowa dla ikony powinna wynosić 60 x 60, a krawędzie powinny pozostać puste.
 
 <img alt="" src=images/FreeCAD_icon_size.svg  style="width:128px;"> 
-*Draw the icon inside the blue area and everything will work out fine.*
+*Narysuj ikonę wewnątrz niebieskiego obszaru, a wszystko będzie działać poprawnie.*
 
-It\'s also strongly recommended to use a visual grid that has a minor grid line every pixel, and a major grid line every 2 pixels. The strokes of the icon should be aligned along the minor grid intersections.
+Zdecydowanie zaleca się również użycie siatki wizualnej, która ma mniejszą linię siatki co piksel i główną linię siatki co 2 piksele. Obrysy ikony powinny być wyrównane wzdłuż przecięć siatki pomocniczej.
 
-Strokes should be no *thinner* than 2px, with rounded caps and corners in most cases. Strokes can be *thicker*, but they should preferably be a multiple of 2px in order to minimize scaling fuzziness.
+Obrysy nie powinny być *cieńsze* niż 2px, z zaokrąglonymi nakładkami i narożnikami w większości przypadków. Obrysy mogą być *grubsze*, ale powinny być wielokrotnością 2 pikseli, aby zminimalizować rozmycie skalowania.
 
 <img alt="" src=images/FreeCAD_icon_stroke_2px.svg  style="width:320px;"> 
-*Grid with strokes that are multiples of 2px.*
+*Siatka z obrysami będącymi wielokrotnością 2px.*
 
    
-  Why use this grid and stroke size?   For historical reasons, FreeCAD uses a 64x64 icon that then gets scaled down. Not ideal, but it adds character. As a result, keeping things aligned to a power of two grid with thicknesses that are powers of two helps to avoid or at least mitigate anti-aliasing issues upon re-scaling.
-  How do I comply with this?           If you are using Inkscape, go to **File → Document Properties** and confirm the width, height and units of your page are correct. Then go to the **Grids** tab, click **New**, set the units to `px`, `Spacing X` and `Spacing Y` to 1 and `Major grid line every` to 2.
+  Dlaczego używana jest ta siatka i rozmiar obrysu?   Ze względów historycznych FreeCAD używa ikony 64x64, która jest następnie skalowana w dół. Nie jest to idealne rozwiązanie, ale dodaje charakteru. W rezultacie utrzymywanie rzeczy wyrównanych do siatki potęgi dwójki i grubości będących potęgami dwójki pomaga uniknąć lub przynajmniej złagodzić problemy z antyaliasingiem podczas ponownego skalowania.
+  Jak mogę się do tego zastosować?                    Jeśli używasz Inkscape, przejdź do **File → Document Properties** i potwierdź, że szerokość, wysokość i jednostki strony są prawidłowe. Następnie przejdź do zakładki **Grids**, kliknij **New**, ustaw jednostki na `px`, `Spacing X` i `Spacing Y` na 1 oraz `Major grid line every` na 2.
    
 
-## Outline
 
 
-**Obligatory**
+## Kontur
 
-Basing yourself on the main color of the icon, ensure that there is a dark outline of 2px, as mentioned earlier. This works in unison with the highlight to ensure good form contrast on multiple background tones.
+
+**Obowiązkowe**
+
+Opierając się na głównym kolorze ikony, upewnij się, że istnieje ciemny kontur 2px, jak wspomniano wcześniej. Działa to w połączeniu z podświetleniem, aby zapewnić dobry kontrast formy na wielu odcieniach tła.
 
 <img alt="" src=images/Draft_Point.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Point_backgrounds.svg  style="width:" height="128px;"> 
-*The dark edge of the icon is the outline.*
+*Ciemna krawędź ikony to kontur.*
 
    
-  Why is the outline needed?   The outline is the skeleton on which everything else hangs by adding form contrast. Using the Outline color or the Dark color depends on the situation, but without this line, the range of backgrounds on which the icon is visible gets drastically limited
-  How do I comply with this?   Simply add a stroke of 2px around every part of the icon that will be adjacent to the background color, that is, the outline is for external strokes. In case of shapes that have a hole in the middle, for example, a donut, the outline should also be added to the interior hole. Snap your path\'s nodes to the grid whenever possible, aiming for the minor grid intersections.
+  Dlaczego kontur jest potrzebny?    Kontur jest szkieletem, na którym wszystko inne wisi, dodając kontrast formy. Użycie koloru konturu lub ciemnego koloru zależy od sytuacji, ale bez tej linii zakres tła, na którym ikona jest widoczna, zostaje drastycznie ograniczony
+  Jak mogę się do tego zastosować?   Wystarczy dodać obrys 2px wokół każdej części ikony, która będzie przylegać do koloru tła, czyli kontur jest dla obrysów zewnętrznych. W przypadku kształtów, które mają otwór w środku, na przykład oponka pączek, kontur należy również dodać do wewnętrznego otworu. Przyciągaj węzły ścieżki do siatki, gdy tylko jest to możliwe, celując w mniejsze przecięcia siatki.
    
 
-## Highlight
 
 
-**Strongly advised**
+## Podświetlenie
 
-Using the Highlight color, add an internal stroke of 2px to help make that outline pop. On dark backgrounds, it\'s this highlight what will be providing the form to the icon.
+
+**Zdecydowanie zalecane**
+
+Używając koloru podświetlenia, dodaj wewnętrzny obrys o wielkości 2 pikseli, aby kontur był bardziej widoczny. Na ciemnych tłach to właśnie to podświetlenie będzie stanowić formę ikony.
 
 <img alt="" src=images/Draft_Move.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Move_backgrounds.svg  style="width:" height="128px;"> 
-*The light highlight helps in dark backgrounds.*
+*Jasne podświetlenie jest pomocne na ciemnym tle.*
 
    
-  Why use the highlight?       The highlight works in unison with the outline to improve form contrast, especially on dark backgrounds. It is never a bad idea, but if you don\'t have the space, for example, you have a very thin line, you can opt out of it provided you have ensured enough contrast between the main color and the outline.
-  How do I comply with this?   Just like the outline, simply trace a stroke of 2px around the internal side of the outline, snapping nodes to the grid when possible, aiming for the minor grid intersections.
+  Dlaczego warto używać podświetlenia?   Podświetlenie działa w połączeniu z konturem, aby poprawić kontrast formy, szczególnie na ciemnych tłach. Nigdy nie jest to zły pomysł, ale jeśli nie masz miejsca, na przykład masz bardzo cienką linię, możesz z niego zrezygnować, pod warunkiem, że zapewniłeś wystarczający kontrast między głównym kolorem a konturem.
+  Jak mogę się do tego zastosować?       Podobnie jak w przypadku obrysu, po prostu narysuj kontur o szerokości 2 pikseli wokół wewnętrznej strony obrysu, przyciągając węzły do siatki, jeśli to możliwe, celując w mniejsze przecięcia siatki.
    
 
-## Lighting
 
 
-**Optional**
+## Podświetlenie 
 
-As per Tango guidelines, if you\'re adding a gradient lighting effect, try to make it look like the light is coming from the top left. This is done by adding the highlight color up top left and the Base or Dark color bottom right. Notice that only palette colors are used.
+
+**Opcjonalne**
+
+Zgodnie z wytycznymi Tango, jeśli dodajesz efekt oświetlenia gradientowego, postaraj się, aby wyglądało na to, że światło pochodzi z lewego górnego rogu. Odbywa się to poprzez dodanie koloru podświetlenia w lewym górnym rogu i koloru bazowego lub ciemnego w prawym dolnym rogu. Zauważ, że używane są tylko kolory z palety.
 
 <img alt="" src=images/Draft_Clone.svg  style="width:" height="128px;"> <img alt="" src=images/Draft_Clone_backgrounds.svg  style="width:" height="128px;"> 
-*Subtle lighting effect coming from top left.*
+*Subtelny efekt podświetlenia od lewego górnego rogu.*
 
    
-  style=\"width:25%;\|Why use lighting?   Lighting is just another way to tie icons together and ensure that there are varying levels of [\"value\"](https://en.wikipedia.org/wiki/Lightness) to improve their readability. Provided the outline and highlight are present though, it can be considered optional
-  How do I comply with this?              Set the fill to be a linear or a radial gradient. In Inkscape this is available in the stroke and fill settings; with \"F2\" it is possible to move the nodes of the gradient around to make sure they are at the right angle.
+  style=\"width:25%;\|Dlaczego warto używać oświetlenia?   Oświetlenie to tylko kolejny sposób na powiązanie ikon i zapewnienie różnych poziomów [\"wartości\"](https://en.wikipedia.org/wiki/Lightness) w celu poprawy ich czytelności. Pod warunkiem jednak, że kontur i podświetlenie są obecne, można je uznać za opcjonalne
+  Jak mogę się do tego zastosować?                         Ustaw wypełnienie jako gradient liniowy lub radialny. W Inkscape jest to dostępne w ustawieniach obrysu i wypełnienia; za pomocą \"F2\" można przesuwać węzły gradientu, aby upewnić się, że są pod odpowiednim kątem.
    
 
-## Recommended recording format 
 
-All icons should be created in [SVG](SVG.md) format with a vector image application, such as [Inkscape](http://inkscape.org). This makes it easier to apply changes and derive additional icons in the same application space.
 
-When committing icons to be used directly by FreeCAD (in a \*.qrc file), save them as \"Plain SVG\". This will reduce the icon size and save the disk and memory space.
+## Zalecany format zapisu 
 
-## Closing remarks 
+Wszystkie ikony powinny być tworzone w formacie [SVG](SVG/pl.md) za pomocą aplikacji do tworzenia obrazów wektorowych, takiej jak [Inkscape](http://inkscape.org). Ułatwia to wprowadzanie zmian i tworzenie dodatkowych ikon w tej samej przestrzeni aplikacji.
 
-Remember: **SALCHO**, Stroke, Alignment, Lighting, Color, Highlight, Outline
+Podczas zapisywania ikon, które mają być używane bezpośrednio przez FreeCAD *(w pliku \*.qrc)*, należy zapisać je jako \"Plain SVG\". Zmniejszy to rozmiar ikony i zaoszczędzi miejsce na dysku i w pamięci.
 
-Here are some tips to check your work.
 
-### Checking size 
 
-Inkscape has a handy tool to check your icon at various sizes. Go to **View → Icon Preview...** and it\'ll show you previews of your icon resized to 16, 24, 32 and 64 pixels.
+## Uwagi końcowe 
 
-### Checking your outline 
+Pamiętaj: **SALCHO**, *(**S**troke, **A**lignment, **L**ighting, **C**olor, **H**ighlight, **O**utline)* Obrys, Wyrównanie, Oświetlenie, Kolor, Podświetlenie, Kontur
 
-1.  Put your icon on a big rectangle that is the same color as the darkest color in your icon.
-2.  Still looks OK? Great. Go to the next step. If not, adjust the highlight.
-3.  Do the same but this time using the lightest color.
-4.  Still looks OK? Great. Outlines and highlights have been used appropriately. Otherwise, adjust the outline.
+Oto kilka wskazówek, jak sprawdzić swoją pracę.
+
+
+
+### Sprawdzanie rozmiaru 
+
+Inkscape posiada przydatne narzędzie do sprawdzania ikon w różnych rozmiarach. Przejdź do **View → Icon Preview...**, by zobaczyć podgląd ikony w rozmiarze 16, 24, 32 i 64 pikseli.
+
+
+
+### Sprawdzanie konturu 
+
+1.  Umieść ikonę na dużym prostokącie, który ma ten sam kolor co najciemniejszy kolor ikony.
+2.  Nadal wygląda OK? Świetnie. Przejdź do następnego kroku. Jeśli nie, dostosuj podświetlenie.
+3.  Zrób to samo, ale tym razem używając najjaśniejszego koloru.
+4.  Nadal wygląda dobrze? Świetnie. Kontury i podświetlenia zostały użyte prawidłowo. W przeciwnym razie dostosuj kontur.
 
 <img alt="" src=images/Draft_Move_backgrounds_outline.svg  style="width:" height="128px;"> 
-*Testing the icon against the darkest and lightest colors as background*
+*Testowanie ikony na tle najciemniejszego i najjaśniejszego koloru.*
 
    
-  My icon is barely visible.   You have poor form contrast. Double check the outline and highlight, one of these is probably missing or improperly applied.
+  Moja ikona jest ledwo widoczna.   Masz słaby kontrast kształtu. Dokładnie sprawdź kontur i podświetlenie, prawdopodobnie brakuje jednego z nich lub są one nieprawidłowo zastosowane.
    
 
-### Checking your contrast 
 
-1.  Export your icon from SVG to a bitmap format, like `.png` or `.jpg`.
-2.  Load your bitmap in an image program, and change it to grayscale. For example, in GIMP you would go to **Image → Mode → Grayscale**.
-3.  Inkscape allows you to convert the SVG directly to grayscale using **Extensions → Color → Grayscale**.
-4.  Can you still clearly make out any internal details? Great. The contrast is good.
 
-A grayscale image allows you to more easily identify problems in contrast, as only a mix of black and white is present. Testing grayscale images is also good for colorblind users. If they can see the details in a grayscale image, then the contrast of the fully colored image is probably good as well.
+### Sprawdzanie kontrastu 
+
+1.  Wyeksportuj ikonę z SVG do formatu bitmapy, takiego jak `.png` lub `.jpg`.
+2.  Załaduj bitmapę do programu graficznego i przekształć ją do odcieni szarości. Na przykład, w programie GIMP należy przejść do **Image → Mode → Grayscale**.
+3.  Inkscape pozwala na bezpośrednią konwersję SVG do skali szarości za pomocą **Extensions → Color → Grayscale**.
+4.  Czy nadal wyraźnie widać wewnętrzne szczegóły? Świetnie. Kontrast jest dobry.
+
+Obraz w skali szarości pozwala łatwiej zidentyfikować problemy z kontrastem, ponieważ obecna jest tylko mieszanka czerni i bieli. Testowanie obrazów w skali szarości jest również dobre dla użytkowników niewidzących kolorów. Jeśli widzą oni szczegóły na obrazie w skali szarości, to kontrast w pełni kolorowego obrazu jest prawdopodobnie również dobry.
 
 <img alt="" src=images/Draft_Move_contrast_grayscale.svg  style="width:" height="128px;"> 
-*Testing the icon's contrast in grayscale*
+*Testowanie kontrastu ikony w skali szarości.*
 
    
-  I can\'t make out all the details.   The colors you\'ve chosen have poor value contrast. Try using colors that are further apart in your 4 tone palette, that is, a highlight green beside a highlight yellow will be difficult to see, knock one of those colors down to Base or Dark.
+  Nie jestem w stanie rozróżnić wszystkich szczegółów.   Wybrane kolory mają słaby kontrast wartości. Spróbuj użyć kolorów, które są bardziej oddalone od siebie w palecie 4 tonów, to znaczy, że podświetlona zieleń obok podświetlonej żółci będzie trudna do zobaczenia, obniż jeden z tych kolorów do poziomu podstawowego lub ciemnego.
 
 
 

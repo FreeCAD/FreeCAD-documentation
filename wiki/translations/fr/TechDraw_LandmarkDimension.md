@@ -12,33 +12,46 @@
 
 ## Description
 
-L\'outil **TechDraw Insérer une cote à partir des points du repère** ajoute une cote linéaire à une vue. La cote est basée sur deux points **feature** (Draft.Point ou Part.Vertex) du modèle 3D. Remarquez que les points doivent être des objets **feature** qui apparaissent dans le modèle de la [vue en arborescence](Tree_view/fr.md). Les sommets aléatoires d\'une forme ne fonctionneront pas.
+L\'outil **TechDraw Insérer une cote à partir des points du repère** ajoute une cote linéaire à une vue. La cote est basée sur deux objets points (objets [Draft Point](Draft_Point/fr.md), [Part Point](Part_Point/fr.md) ou [PartDesign Point](PartDesign_Point/fr.md)) du modèle 3D.
 
-Le but de cet outil est de fournir une solution de contournement à la corruption des cotes provoquée par des problèmes de \"[dénomination topologique](Topological_naming_problem/fr.md)\". Les points sources doivent utiliser des [Expressions](Expressions/fr.md) ou un autre mécanisme contenant pour établir leur position. Étant donné que les points sont des [Objets Document](App_DocumentObject/fr.md) et non des composants de forme, leur nom ne change pas avec les recalculs et donc ils sont faciles à trouver.
+Le but de cet outil est de fournir une solution de contournement à la corruption des cotes provoquée par des problèmes de « [dénomination topologique](Topological_naming_problem/fr.md) ». Les points sources doivent utiliser des [Expressions](Expressions/fr.md) ou d\'autres mécanismes contenant pour établir leur position. Étant donné que les points sont des [Objets Document](App_DocumentObject/fr.md) et non des composants de forme, leur nom ne change pas avec les recalculs et donc ils sont faciles à trouver.
 
 Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s.md) pour en savoir plus sur les dimensions et les noms topologiques.
-
-Insérer une cote à partir des points du repère se comporte généralement comme toute autre cote.
 
 
 
 ## Utilisation
 
-1.  Sélectionnez 2 objets Point dans la [vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md).
-2.  Sélectionnez également la vue à laquelle la cote doit être ajoutée.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Insérer une cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md)
-** ou **TechDraw → Dimensions → Insérer une cote à partir des points du repère - EXPÉRIMENTAL**
-4.  Une cote sera ajoutée à la vue. Le texte de la cote peut être déplacé vers la position souhaitée.
+1.  Sélectionnez deux objets ponctuels dans la [vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
+2.  Ajoutez la bonne vue TechDraw à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Insérer une cote à partir des points du repère - EXPÉRIMENTAL](TechDraw_LandmarkDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_LandmarkDimension.svg" width=16px> Insérer une cote à partir des points du repère - EXPÉRIMENTAL** du menu.
+4.  Une cote est ajoutée à la vue.
+5.  La cote peut être déplacée jusqu\'à la position souhaitée.
+6.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tolérances.md).
+
+
+
+### Changer les propriétés 
+
+Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [boîte de dialogue Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
 
 ## Limitations
 
-L\'outil Insérer une cote à partir des points du repère est initialement limité aux cotes \"Distance\". D\'autres types peuvent être ajoutés si la demande le justifie.
+L\'outil Insérer une cote à partir des points du repère est initialement limité aux cotes « Distance ». D\'autres types peuvent être ajoutés si la demande le justifie.
+
+
+
+## Remarques
+
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Remarques/fr.md).
 
 
 
 ## Propriétés
 
-Insérer une cote à partir des points du repère n\'introduit aucune nouvelle propriété.
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s/fr.md).
 
 
 
@@ -50,12 +63,12 @@ L\'outil Insérer une cote à partir des points du repère peut être utilisé d
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::LandmarkDimension", "Landmark")
 dim1.Type = "Distance"
-dim1.References2D=[(TDView, 'Vertex1')]
-dim1.References3D=[(Point3d1, 'Vertex1')]
-dim1.References3D=[(Point3d2, 'Vertex1')]
-rc = page.addView(dim1)
+dim1.References2D = [(TDView, "Vertex1")]
+dim1.References3D = [(Point3d1, "Vertex1")]
+dim1.References3D = [(Point3d2, "Vertex1")]
+page.addView(dim1)
 ```
 
 

@@ -8,12 +8,16 @@
 
 # Mesh Evaluation/pl
 
+
+
 ## Opis
 
 Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 
-![](images/Mesh_Evaluation_dialog.png ) 
+<img alt="" src=images/Mesh_Evaluation_dialog.png  style="width:300px;"> 
 *Okno dialogowe Oceń i napraw siatkę z włączoną opcją ''Fałdy na powierzchni''*
+
+
 
 ## Użycie
 
@@ -46,10 +50,14 @@ Polecenie **Analizuj** ocenia i naprawia obiekt siatkowy.
 14. Naciśnij przycisk **Zamknij** aby zamknąć okno dialogowe i zakończyć polecenie.
 15. Przycisk **Odśwież** nie działa w tej chwili prawidłowo.
 
+
+
 ## Uwagi
 
 -   Naprawa siatki może oznaczać, że problematyczne elementy zostaną usunięte z siatki, co spowoduje powstanie dziur. Dziury można zamknąć za pomocą poleceń [Wypełnienie otworów](Mesh_FillupHoles/pl.md), [Interaktywne wypełnienie otworów](Mesh_FillInteractiveHole/pl.md) i [Dodaj element](Mesh_AddFacet/pl.md).
 -   Zobacz [ten post na forum](https://forum.freecadweb.org/viewtopic.php?f=3&p=533252#p533252), aby uzyskać wyjaśnienie struktury danych siatki. Ta informacja może pomóc zrozumieć, dlaczego w danej siatce występują problemy.
+
+
 
 ## Ustawienia
 

@@ -12,6 +12,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -26,6 +28,8 @@ Această funcție oprește înregistrarea unei macrocomenzi. Ea este accesibilă
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

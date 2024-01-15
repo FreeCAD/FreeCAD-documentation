@@ -96,7 +96,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 
@@ -117,6 +117,8 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) is a large collection of libraries for computational fluid dynamics (CFD) simulations. OpenFOAM is used by the [Cfd](Cfd_Workbench.md) and [CfdOF](https://github.com/jaheyns/CfdOF) [external workbenches](external_workbenches.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

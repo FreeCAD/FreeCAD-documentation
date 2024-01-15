@@ -21,6 +21,8 @@ L\'outil Segment FH insère un objet FastHenry de type Segment.
 
 *Segment FH FastHenry*
 
+
+
 ## Utilisation
 
 L\'objet Segment FH peut être basé sur la position d\'un objet <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Draft Ligne](Draft_Line/fr.md) ou sur deux <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeuds FH](EM_FHNode/fr.md) qui seront les points d\'extrémité du Segment FH, ou bien, vous pouvez sélectionner l\'emplacement 3D des deux points d\'extrémité, où deux Noeuds FH supplémentaires seront créés.
@@ -34,12 +36,14 @@ Vous pouvez également le faire :
 1.  Sélectionnez deux objets <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [Noeuds FH](EM_FHNode/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur la touche **E** puis **S**.
 
-Ou:
+Ou :
 
 1.  Sélectionnez un ou plusieurs objet(s) [Draft Ligne](Draft_Line/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment/fr.md)** ou appuyez sur les touches **E** puis **S**. Autant d\'objets Segment FH seront créés que les objets Draft Ligne.
 
-### Remarques
+
+
+### Remarques :
 
 -   Si vous créez un objet Segment FH basé sur un objet Draft Ligne, vous ne pouvez PAS déplacer librement le FHSegment ou les points finaux FHNodes. Le FHSegment sera toujours contraint à l\'objet de base. Pour modifier la position du FHSegment ou de son point de fin, appliquez la modification à l\'objet Draft Line sous-jacent (l\'objet de base est masqué par défaut, vous pouvez l\'afficher à nouveau en sélectionnant l\'objet dans l\'arborescence et en appuyant sur **Espace**.
 
@@ -49,6 +53,8 @@ Ou:
 
 -   Pour entrer les coordonnées manuellement, il suffit d\'entrer les nombres, et frapper sur la touche **Entrée** entre chaque affectation de la composante X, Y et Z. Vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées pour insérer le point.
 -   Appuyez sur **Echap** ou le **Fermer** pour annuler et quitter l\'opération.
+
+
 
 ## Propriétés
 
@@ -74,14 +80,16 @@ Ou:
 
 -    **rw**: le rapport des filaments adjacents dans le sens de la largeur (paramètre de segment \'rw\' dans FastHenry)
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil FHSegment peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil FHSegment peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -102,7 +110,7 @@ segment = makeFHSegment(baseobj=None, nodeStart=None, nodeEnd=None, width=None, 
 
 -    `name`est le nom de l\'objet.
 
-Exemple:
+Exemple :
 
 
 ```python

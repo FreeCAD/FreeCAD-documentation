@@ -11,6 +11,8 @@ Der [FreeCAD FehlerVerfolger](https://www.freecadweb.org/tracker) ist der Ort um
 
 Wie im obigen Flussdiagramm dargestellt, durchsuche bitte vor dem Erstellen von Tickets immer zuerst die Foren und den Fehlerverfolger, um herauszufinden, ob dein Problem ein bekanntes Problem ist. Dies erspart Entwicklern und Freiwilligen eine Menge Zeit/Arbeit, die diese Zeit damit verbringen könnte, FreeCAD noch fantastischer zu machen.
 
+
+
 ## Fehler melden 
 
 Wenn du glaubst, einen Fehler gefunden zu haben, kannst du ihn gerne melden, solange du unsere Schritt-für-Schritt-Richtlinien befolgt hast.
@@ -30,6 +32,8 @@ Wenn du glaubst, einen Fehler gefunden zu haben, kannst du ihn gerne melden, sol
 -   Bitte reiche für jeden Fehler einen separaten Bericht ein.
 -   Wenn dein Fehler einen Absturz in FreeCAD verursacht und du dich auf einem System befindest, das dies unterstützt, kannst du versuchen, einen **debug backtrace** auszuführen und diesen Trace an das Ticket anzuhängen. Dies kann Entwicklern viel Zeit ersparen, die Quelle des Absturzes zu lokalisieren. Siehe [Fehlerdiagnose](Debugging/de.md) für weitere Einzelheiten.
 
+
+
 ## Anfordern von Funktionen 
 
 Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert ist, es handelt sich nicht um einen Fehler, sondern um eine Funktionsanfrage.
@@ -43,6 +47,8 @@ Wenn du möchtest, dass etwas in FreeCAD erscheint, das noch nicht implementiert
 
 ![FreeCAD Fehlerverfolger-Berichtsseite - verwende die Auswahlliste, um korrekt zu bestimmen, was das Ticket ist](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Einreichen von Änderungssätzen 
 
 Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert hast, das in FreeCAD von öffentlichem Nutzen sein kann, sende deinen Änderungssatz als \"Pull Request\" an [GitHub](https://github.com/FreeCAD/FreeCAD).
@@ -51,11 +57,15 @@ Falls du eine Fehlerbehebung, eine Erweiterung oder etwas anderes programmiert h
 2.  Der Pull Request (PR) wird an das [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD) gesendet. Die PR-Sendungsbenachrichtigung wird vorausgefüllt mit einer Checkliste, der man folgen kann, um sicherzugehen, dass die Einsendung die besten Chancen hat, schnell akzeptiert zu werden. Wer noch nicht mit `git` gearbeitet hat oder sich mit dem Senden eines PR nach github nicht sicher auskennt, sollte unsere Wiki-Seite zur Einführung in [github](Source_code_management.md) lesen.
 3.  Man sollte für Diskussionen erreichbar sein, sowohl im Forum als auch für den GitHub-Pull-Request, damit der Kode möglichst effektiv eingefügt werden kann.
 
+
+
 ## Zusammenführen anfragen 
 
 (Dieselben Richtlinien wie [Einreichen von Änderungssätzen](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))
 
 Wenn du einen Git Zweig erstellt hast, der Änderungen enthält, die du gerne im FreeCAD Code zusammengeführt sehen möchtest, kannst du dort darum bitten, dass dein Zweig überprüft und zusammengeführt wird, wenn die FreeCAD Entwickler damit einverstanden sind. Du musst zuerst deinen Zweig in einem öffentlichen Git Repositorium (github, gitlab, bitbucket, sourceforge etc\...) veröffentlichen und dann die URL deines Zweiges in deiner Zusammenführungsanfrage angeben.
+
+
 
 ## MantisBT Tips und Tricks 
 
@@ -162,12 +172,6 @@ Das Format wird von MantisBT erkannt  - fix #1234
 -   resolves #1234, #5678
 
 Für die Neugierigen hier ist die regex, die MantisBT für diese Operation verwendet:
-
-
-## Verwandtes
-
--   [Fehlersichtung](Bug_Triage/de.md)
--   [Quellcodeverwaltung](Source_Code_Management/de.md)
 
 
 

@@ -23,17 +23,18 @@ Der **Std DlgMacroRecord** Befehl startet eine [Makro](Macros/de.md) Aufnahmesit
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std DlgMakroAufzeichnen](Std_DlgMacroRecord/de.md)** Schaltfläche.
-    -   Wähle die **Makro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Makroaufnahme...** Option aus dem Menü.
+    -   Die Schaltfläche **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Makro aufzeichnen...](Std_DlgMacroRecord/de.md)** drücken.
+    -   Den Menüeintrag **Makro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Makro aufzeichnen...** auswählen.
 2.  Das Dialogfeld Makroaufzeichnung wird geöffnet.
-3.  Gib einen Namen für das Makro in das Eingabefeld **Makroname** ein.
-4.  Ändere wahlweise den **Makropfad** durch drücken der **...** Taste
-5.  Die **Stop** Taste funktioniert zu diesem Zeitpunkt nicht.
-6.  Drücke die **Aufzeichnen** Schaltfläche, um das Dialogfeld zu schließen und die Aufzeichnungssitzung zu starten.
-7.  Führe die Aktionen aus, die du aufzeichnen möchtest.
-8.  Um die Aufnahmesitzung zu beenden, führe eine der folgenden Aktionen aus:
-    -   Drücke die **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** Schaltfläche.
-    -   Wähle den **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px>. Stoppe Makroaufzeichnung**s Option aus dem Menü.
+3.  Im Eingabefeld **Makroname** einen Namen für das Makro eingeben.
+4.  Wahlweise den **Makro-Zielpfad** durch drücken der Schaltfläche **...** anpassen.
+5.  Die **Stop**-Taste funktioniert zu diesem Zeitpunkt nicht.
+6.  Die Schaltfläche **Aufzeichnen** drücken, um das Dialogfeld zu schließen und die Aufzeichnung zu starten.
+7.  Das Schaltflächensymbol des Befehls ändert sich zu **<img src="images/Std_MacroStopRecord.svg" width=16px>** und der Menütext ändert sich zu **Stop macro recording**.
+8.  Die Aktionen ausführen, die aufgezeichnet werden sollen.
+9.  Um die Aufnahmesitzung zu beenden, gibt es folgenden Möglichkeiten:
+    -   Die Schaltfläche **<img src="images/Std_MacroStopRecord.svg" width=16px> [Stop macro recording](Std_DlgMacroRecord/de.md)** drücken.
+    -   Den Menüeintrag **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px> Makroaufzeichnung stoppen** auswählen.
 
 
 

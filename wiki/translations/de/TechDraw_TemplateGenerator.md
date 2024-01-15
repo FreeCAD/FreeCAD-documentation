@@ -2,7 +2,7 @@
  TutorialInfo:e
    Topic: TechDraw-Vorlagen erzeugen mittels Python-Macro
    Level: Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
-   FCVersion:  0.19.1 und neuer
+   FCVersion:  0.21 und neuer
    Time: 
    Author: User:FBXL5
    SeeAlso: Macro_TemplateHelper/de
@@ -27,6 +27,8 @@ Die folgenden Kode-Beispiele können kopiert, in eine leere Textdatei eingefügt
 Eine Vorlage stellt einen Hintergrund für Zeichnungsaufgaben bereit und ihre Maße werden vom Druckertreiber für die korrekte Skalierung der Zeichnung verwendet.
 
 Die Vorlagen sind SVG-Dateien, daher muss ein Makro einige Zeilen SVG-Kode (eine Untermenge von XML-Kode) zusammenstellen.
+
+**Hinweis:** nachdem FreeCAD von **freecadweb.org** nach **freecad.org** umgezogen ist, wurde diese Seite entsprechend aktualisiert und der resultierende SVG-Code ist nicht mehr kompatibel mit FreeCAD-Versionen, die älter sind als v0.21. Für diese versionen muss {{Incode|freecad.org}} in der Deklarationszeile des resultierenden SVG-Codes von Hand auf {{Incode|freecadweb.org}} zurückgeändert werden, da die editierbaren Texte sonst nicht erkannt werden.
 
 
 
@@ -70,7 +72,7 @@ Der Körper startet mit einem öffnenden Tag, der Informationen über Namensräu
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": Externer Verweis auf den XML-Namensraum, um Standard-XML-Befehle nachzuschlagen.
 :   **version=**\"1.1\": Die verwendete XML-Version ist 1.1
-:   **xmlns:freecad=**\"[Svg-Namensraum](https://wiki.freecad.org/index.php?title=Svg_Namespace)\": Externer Verweis auf FreeCADs Namensraumerweiterung zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte.
+:   **xmlns:freecad=**\"\...=Svg_Namespace\": Externe Verknüpfung zu FreeCADs [Svg-Namensraum](Svg_Namespace/de.md)\"-Erweiterung, zum Nachschlagen spezieller Befehle, die nur innerhalb einer FreeCAD-Umgebung verwendet werden, wie z.B. editierbare Texte.
 :   \"freecad:\" wird Attributnamen vorangestellt, damit sie durch die besagten speziellen Befehle verarbeitet werden.
 :   **width=**\"420mm\": Breite der Zeichenfläche
 :   **height=**\"297mm\": Höhe der Zeichenfläche
@@ -85,7 +87,7 @@ Für eine leere DIN-A3-Seite im Querformat war das alles.
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">

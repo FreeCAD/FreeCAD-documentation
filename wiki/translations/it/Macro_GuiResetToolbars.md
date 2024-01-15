@@ -4,7 +4,7 @@
 |Name/it=Gui Reset Tool bars
 |Description=Questa macro ripristina la posizione delle barre degli strumenti. Esegui la macro in un workbench che ha una barra degli strumenti mancante.
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
 |Date=2020-04-21
 |Version=1.0.0
 |FCVersion= 0.18.4 e piu
@@ -63,7 +63,7 @@ __Date__ = '2020-04-21'
 __License__ = 'LGPL-3.0-or-later'
 __Web__ = "https://github.com/PR-DC/GuiResetToolbars/"
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_GuiResetToolbars'
-__Icon__ = 'GuiResetToolbars.svg'
+__Icon__ = 'https://wiki.freecad.org/images/f/f8/GuiResetToolbars.svg'
 __Help__ = 'Run the macro within a workbench that has missing toolbar(s)'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18.4'

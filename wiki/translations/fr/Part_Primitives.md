@@ -46,7 +46,7 @@ La commande <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> **P
 4.  L\'objet est mis à jour de manière dynamique dans la [Vue 3D](3D_view/fr.md).
 5.  Appuyez sur le bouton **OK**.
 
-Les propriétés d\'une Part Primitive peuvent également être modifiées dans l\'[Éditeur de propriétés](Property_editor/fr.md), et ses **Placement** peuvent également être modifiées avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+Les propriétés d\'une Part Primitive peuvent également être modifiées dans l\'[éditeur de propriétés](Property_editor/fr.md), et ses **Placement** peuvent également être modifiées avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformer](Std_TransformManip/fr.md).
 
 
 

@@ -1,34 +1,27 @@
 ---
  GuiCommand:
    Name: Arch Panel Cut
-   Name/it: Arch Panel Cut
+   Name/it: Sagoma pannello
    MenuLocation: Arch , Strumenti pannello , Sagoma pannello
-   Workbenches: Arch_Workbench/it
+   Workbenches: Arch_Workbench/it, Path_Workbench/it
    Shortcut: **P** **C**
-   SeeAlso: Arch Panel/it, Arch Panel Sheet/it, Arch Nest/it, Path Workbench/it
+   Version: 0.17
+   SeeAlso: Arch_Panel/it, Arch_Panel_Sheet/it, Arch_Nest/it
 ---
 
 # Arch Panel Cut/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Arch_Panel/it.md), da inserire in un [Foglio pannello](Arch_Panel_Sheet/it.md) o da esportare direttamente in [DXF](Draft_DXF/it.md). Gli oggetti Sagoma pannello sono anche supportati dall\'ambiente [Path](Path_Workbench/it.md).
-
-
-</div>
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
+
+
 ## Uso
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Selezionare uno o più oggetti [Pannello](Arch_Panel/it.md)
 2.  Premere il pulsante **<img src="images/Arch_Panel_Cut.svg" width=16px> [Sagoma pannello](Arch_Panel_Cut/it.md)
@@ -36,28 +29,20 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 3.  Regolare le proprietà desiderate
 
 
-</div>
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   Se il pannello non è piatto, ma, per esempio è ondulato il rilievo non appare nella Sagoma del pannello. Questo strumento è utile soprattutto per i pannelli piatti
 -   Sagoma del pannello può visualizzare un tag. Questo tag può essere una linea di testo personalizzata o può mostrare automaticamente il tag, l\'etichetta o la descrizione del pannello a cui è collegato.
--   Per essere utilizzato nelle lavorazioni CNC, il tag deve essere scritto con un font \"appiccicoso\", in cui le lettere sono semplici polilinee che la macchina possa seguire facilmente. Alla creazione, l\'oggetto Sagoma del pannello utilizza automaticamente il carattere specificato in Modifica → Preferenze → Draft → Testi e Dimensioni → Font ShapeString
+-   Per essere utilizzato nelle lavorazioni CNC, il tag deve essere scritto con un font \"appiccicoso\", in cui le lettere sono semplici polilinee che la macchina possa seguire facilmente. Alla creazione, l\'oggetto Sagoma del pannello utilizza automaticamente il carattere specificato in Modifica → Preferenze → Draft → Testi e Dimensioni → Default → Font ShapeString font file
 -   Facendo doppio click su Sagoma del pannello nella vista ad albero dopo che essa è stata creata permette di entrare nella modalità di modifica e modificare la posizione del tag
 -   Quando è necessario posizionare insieme diverse sagome di pannelli, Sagoma pannello può visualizzare un margine, che è utile per assicurare che tra di loro sia sempre presente un certo spazio
 
 
-</div>
 
 ## Proprietà
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
@@ -76,12 +61,6 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 -    {{PropertyData/it|Make Face}}: Se è True, il pannello è una Part Face, altrimenti è una Part Wire
 
 
-</div>
-
-### View
-
-
-<div class="mw-translate-fuzzy">
 
 ### Vista
 
@@ -90,32 +69,15 @@ Questo strumento crea, nel documento 3D, una vista piana, 2D di un [pannello](Ar
 -    {{PropertyView/it|Show Margin}}: Attiva o disattiva la visualizzazione del margine
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Sagoma pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Sagoma pannello può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
@@ -148,24 +110,11 @@ View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
 
+
+
 ## Tutorial
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Tutorial Wikihouse portabile](Wikihouse_porting_tutorial/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

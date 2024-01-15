@@ -15,54 +15,64 @@
 -   Kod LGPLv2 *(lub podobny)* finansowany przez Europę za pośrednictwem IMT i EESAB.
 -   Modułowy: Ten workbench został stworzony z zamiarem, aby dodawanie poradników i ocen było modułowe. Innymi słowy, należy dodać poradnik w folderze **lessons** lub ewaluację w folderze **exercises**, aby pojawiły się w odpowiednim narzędziu.
 
-### Interactive
+## Interaktywność
 
-**Interactive** tutorials (AKA <img alt="" src=images/MOOC_Player.svg  style="width:24px;"> Player) are step-by-step guided exercises with objective checks. It launches directly into FreeCAD and allows you to advance one step at a time of modeling of an object. The user has a text, a video and above all a check that the objectives have been achieved.
+**Interaktywne** samouczki *(AKA <img alt="" src=images/MOOC_Player.svg  style="width:24px;"> Player)* są ćwiczeniami prowadzonymi krok po kroku z obiektywnymi kontrolami. Uruchamia się bezpośrednio w programie FreeCAD i pozwala na przejście jednego kroku w modelowaniu obiektu. Użytkownik ma do dyspozycji tekst, wideo, a przede wszystkim sprawdzenie, czy cele zostały osiągnięte.
 
 <img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width:1024px;"> 
-*align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) 
-*MOOC Player Dialog close up*
+*align=center|Okno dialogowe odtwarzacza MOOC w interfejsie graficznym FreeCAD* ![](images/MOOC_Player_Dialog.png ) 
+*Okno dialogowe odtwarzacza MOOC w zbliżeniu*
 
-### Evaluations
+### Oceny
 
-**Evaluations** (AKA <img alt="" src=images/MOOC_Grader.svg  style="width:24px;"> Grader) consist of a small program that checks certain criteria of a FreeCAD document, for example, the presence of a part body, a sketch or the final volume. <img alt="" src=images/MOOC_Grader_Dialog.png  style="width:1024px;"> 
-*align=center|The MOOC Grader Dialog*
+**Oceny** (AKA <img alt="" src=images/MOOC_Grader.svg  style="width:24px;"> Grader) składają się z małego programu, który sprawdza pewne kryteria dokumentu FreeCAD, na przykład obecność Zawartości części, szkicu lub ostatecznej objętości. <img alt="" src=images/MOOC_Grader_Dialog.png  style="width:1024px;"> 
+*align=center|Okno dialogowe MOOC Oceny*
 
-## Installation
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
 
-## Limitations
+## Instalacja
 
-ATM this workbench is only available in the French language.
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
-## Technical Details 
 
-From a technical point of view, the workbench is composed of:
 
--   an \"API\" that contains the code that analyzes the document (**MoocChecker.py**)
--   the code that executes the tutorials in the \"lessons\" folder (**MoocPlayer.py**)
--   the code that executes the evaluations in the \"exercises\" folder (**MoocGrader.py**)
+## Ograniczenia
 
-## Roadmap
+Te środowisko pracy jest dostępne tylko w języku francuskim.
 
--   internationalization of the workbench
--   Integration of videos in FreeCAD (PySide2.QtWebEngineWidgets?)
--   request the integration of the workbench in the list of the addon manager DONE
 
-## Links
 
--   Source code hosted on Framagit: [1](https://framagit.org/freecad-france/mooc-workbench)
--   Official complete [2](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
--   Discussion threads: [English](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584) / [French](https://forum.freecadweb.org/viewtopic.php?f=12&t=37322)
+## Szczegóły techniczne 
 
-## External workbenches 
+Z technicznego punktu widzenia, środowisko pracy składa się z:
 
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
+-   \"API\" zawierającego kod analizujący dokument (**MoocChecker.py**)
+-   kodu wykonującego samouczki w folderze \"lessons\" (**MoocPlayer.py**)
+-   kodu wykonującego oceny w folderze \"exercises\" (**MoocGrader.py**).
 
-The [external workbenches](external_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
+## Mapa rozwoju 
 
-New workbenches are in development, stay tuned!
+-   internacjonalizacja środowiska pracy
+-   Integracja wideo we FreeCAD (PySide2.QtWebEngineWidgets?)
+-   zażądaj integracji środowiska pracy z listą menedżera dodatków zrobione
+
+
+
+## Odnośniki internetowe 
+
+-   Kod źródłowy hostowany na Framagit: [1](https://framagit.org/freecad-france/mooc-workbench)
+-   Oficjalnye kompletne [środowisko pracy](https://framagit.org/freecad-france/mooc-workbench#mooc-workbench)
+-   Wątki dyskusyjne: [English](https://forum.freecadweb.org/viewtopic.php?f=9&t=37584) / [French](https://forum.freecadweb.org/viewtopic.php?f=12&t=37322)
+
+
+
+## Zewnętrzne środowiska pracy 
+
+Środowiska pracy FreeCAD są łatwe do zaprogramowania w środowisku [Python](Python/pl.md). Dlatego też, wiele osób opracowuje dodatkowe \"przestrzenie robocze\" wykraczające poza główny obszar rozwoju programu FreeCAD.
+
+Strona [Zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera informacje i poradniki na temat niektórych z nich, a projekt [Dodatki FreeCAD](https://github.com/FreeCAD/FreeCAD-addons) ma na celu zebranie ich i uczynienie łatwymi do zainstalowania z poziomu programu FreeCAD.
+
+Nowe środowiska pracy są w czasie tworzenia, bądź cierpliwy!
 
 
 

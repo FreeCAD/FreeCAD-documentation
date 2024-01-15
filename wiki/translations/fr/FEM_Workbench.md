@@ -30,7 +30,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 
 
-*Déroulement des tâches de l'atelier FEM; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
+*Déroulement des tâches de l'atelier FEM ; l'atelier fait appel à deux programmes externes pour effectuer le maillage d'un objet solide et la solution proprement dite du problème des éléments finis.*
 
 
 
@@ -42,111 +42,97 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ### Matériaux
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Matériau pour solide](FEM_MaterialSolid/fr.md) : permet de sélectionner un matériau solide de la base de données.
+  - <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Matériau pour solide](FEM_MaterialSolid/fr.md) : permet de sélectionner un matériau solide de la base de données.
 
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Matériau pour fluide](FEM_MaterialFluid/fr.md) : permet de sélectionner un matériau fluide dans la base de données.
+  - <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Matériau pour fluide](FEM_MaterialFluid/fr.md) : permet de sélectionner un matériau fluide dans la base de données.
 
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md) : permet d\'ajouter un modèle de matériau mécanique non linéaire.
+  - <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md) : permet d\'ajouter un modèle de matériau mécanique non linéaire.
 
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Matériau renforcé](FEM_MaterialReinforced/fr.md) : permet de sélectionner dans la base de données des matériaux renforcés composés d\'une matrice et d\'un renfort.
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Matériau renforcé](FEM_MaterialReinforced/fr.md) : permet de sélectionner dans la base de données des matériaux renforcés composés d\'une matrice et d\'un renfort.
 
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editeur de matériaux](FEM_MaterialEditor/fr.md) : permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
+  - <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Éditeur de matériaux](FEM_MaterialEditor/fr.md) : permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
 
 
 
 ### Géométrie de l\'élément 
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Coupe transversale élément type poutre](FEM_ElementGeometry1D/fr.md) : utilisé pour définir les sections transversales d\'éléments de type poutre.
+  - <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Coupe transversale d\'un élément 1D](FEM_ElementGeometry1D/fr.md) : utilisé pour définir les sections transversales d\'éléments de type poutre.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotation élément type poutre](FEM_ElementRotation1D/fr.md) : utilisé pour faire pivoter les coupes transversales d\'éléments de type poutre.
+  - <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotation d\'un élément 1D](FEM_ElementRotation1D/fr.md) : utilisé pour faire pivoter les coupes transversales d\'éléments de type poutre.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Épaisseur élément de type coque](FEM_ElementGeometry2D/fr.md) : utilisé pour définir l\'épaisseur de l\'élément de type coque.
+  - <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Épaisseur d\'un élément 2D](FEM_ElementGeometry2D/fr.md) : utilisé pour définir l\'épaisseur d\'un élément de type coque.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide 1D](FEM_ElementFluid1D/fr.md) : utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
-
-
-
-### Contraintes électromagnétiques 
-
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:48px;"> [Contraintes électromagnétiques](FEM_CompEmConstraints/fr.md) : il s\'agit d\'un menu d\'icônes dans la barre d\'outils contraintes FEM, qui contient les contraintes suivantes :
-
-  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir le potentiel électrostatique.
-
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md) : utilisé pour définir une densité de courant. {{Version/fr|0.21}}
-
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md) : utilisé pour définir une magnétisation. {{Version/fr|0.21}}
+  - <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide 1D](FEM_ElementFluid1D/fr.md) : utilisé pour créer un élément de section fluide pour les réseaux pneumatiques et hydrauliques.
 
 
 
-### Contraintes de fluides 
+### Conditions limites électromagnétiques 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement initiale pour un corps (volume).
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md) : utilisé pour définir les conditions limites de potentiel électrostatique.
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour un corps (volume). {{Version/fr|0.21}}
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Densité de courant](FEM_ConstraintCurrentDensity/fr.md) : utilisé pour définir les conditions limites de densité de courant. {{Version/fr|0.21}}
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
-
-
-
-### Contraintes géométriques 
-
--   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte de rotation du plan](FEM_ConstraintPlaneRotation/fr.md) : permet de définir une contrainte de rotation plane sur une face plane.
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Contrainte d\'affichage de la section](FEM_ConstraintSectionPrint/fr.md) : permet d\'afficher les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données.
-
--   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Contrainte de transformation](FEM_ConstraintTransform/fr.md) : utilisé pour définir une contrainte de transformation sur une face.
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnétisation](FEM_ConstraintMagnetization/fr.md) : utilisé pour définir les conditions limites de magnétisation. {{Version/fr|0.21}}
 
 
 
-### Contraintes mécaniques 
+### Conditions limites des fluides 
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md) : utilisé pour définir une contrainte d\'immobilisation sur le point/bord/face(s).
+  - <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement initiale pour un corps (volume).
 
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md) : utilisé pour définir une contrainte de déplacement sur le point/bord/face(s).
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Pression initiale](FEM_ConstraintInitialPressure/fr.md) : utilisé pour définir une pression initiale pour un corps (volume). {{Version/fr|0.21}}
 
--   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contrainte de contact](FEM_ConstraintContact/fr.md) : utilisé pour définir une contrainte de contact entre deux faces.
-
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces.
-
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir un ressort. {{Version/fr|0.20}}
-
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md) : utilisé pour définir une force en \[N\] appliquée uniformément à une face sélectionnable dans une direction définissable.
-
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) : permet de définir une contrainte de pression.
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constrainte centrifuge](FEM_ConstraintCentrif/fr.md) : utilisé pour définir une contrainte de charge de corps centrifuge. {{Version/fr|0.20}}
-
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte du poids propre](FEM_ConstraintSelfWeight/fr.md) : permet de définir une accélération de gravité agissant sur un modèle.
+  - <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vitesse d\'écoulement comme condition limite](FEM_ConstraintFlowVelocity/fr.md) : utilisé pour définir une vitesse d\'écoulement comme condition aux limites sur une arête (2D) ou une face (3D).
 
 
 
-### Contraintes thermiques 
+### Fonctions d\'analyse géométrique 
 
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md) : permet de définir la température initiale d\'un corps.
+  - <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Contrainte multi-points de plan](FEM_ConstraintPlaneRotation/fr.md) : permet de définir une contrainte pour que les nœuds d\'une surface plane restent dans le même plan.
 
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Contrainte de flux de chaleur](FEM_ConstraintHeatflux/fr.md) : permet de définir une contrainte de flux thermique sur une ou plusieurs face(s)
+  - <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Affichage des variables de sortie](FEM_ConstraintSectionPrint/fr.md) : affiche les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données.
 
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md) : permet de définir une contrainte de température sur un point/bord/face(s).
-
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) : utilisé pour définir une source de chaleur interne d\'un objet.
+  - <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Système de coordonnées locales](FEM_ConstraintTransform/fr.md) : utilisé pour définir une contrainte de transformation sur une face.
 
 
 
-### Contraintes sans solveur 
+### Conditions limites et charges mécaniques 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition de limite du fluide](FEM_ConstraintFluidBoundary/fr.md) : utilisé pour définir une condition limite de fluide.
+  - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md) : utilisé pour définir une contrainte d\'immobilisation sur le point/bord/face(s).
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md) : utilisé pour définir une contrainte de roulement.
+  - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md) : utilisé pour définir une contrainte de déplacement sur le point/bord/face(s).
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Contrainte d\'engrenage](FEM_ConstraintGear/fr.md) : utilisé pour définir une contrainte de vitesse.
+  - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contrainte de contact](FEM_ConstraintContact/fr.md) : utilisé pour définir une contrainte de contact entre deux faces.
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : utilisé pour définir une contrainte de poulie.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces.
+
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir un ressort. {{Version/fr|0.20}}
+
+  - <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Charge d\'effort](FEM_ConstraintForce/fr.md) : utilisé pour définir une force en \[N\] appliquée uniformément à une face sélectionnable dans une direction définissable.
+
+  - <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Charge de pression](FEM_ConstraintPressure/fr.md) : permet de définir une contrainte de pression.
+
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Charge centrifuge](FEM_ConstraintCentrif/fr.md) : utilisé pour définir une contrainte de charge de corps centrifuge. {{Version/fr|0.20}}
+
+  - <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Charge de gravité](FEM_ConstraintSelfWeight/fr.md) : permet de définir une accélération gravitationnelle agissant sur un modèle.
+
+
+
+### Conditions limites et charges thermiques 
+
+  - <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Température initiale](FEM_ConstraintInitialTemperature/fr.md) : permet de définir la température initiale d\'un corps.
+
+  - <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Charge de flux de chaleur](FEM_ConstraintHeatflux/fr.md) : permet de définir une contrainte de flux de chaleur sur une ou plusieurs face(s)
+
+  - <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Condition limite de température](FEM_ConstraintTemperature/fr.md) : permet de définir une contrainte de température sur un point/bord/face(s).
+
+  - <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Source de chaleur du corps](FEM_ConstraintBodyHeatSource/fr.md) : utilisé pour définir une source de chaleur interne d\'un objet.
 
 
 
 ### Écraser des constantes 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : permet de remplacer la [permittivité du vide](https://fr.wikipedia.org/wiki/Permittivit%C3%A9_du_vide) par une valeur personnalisée.
+  - <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md) : permet de remplacer la [permittivité du vide](https://fr.wikipedia.org/wiki/Permittivit%C3%A9_du_vide) par une valeur personnalisée.
 
 
 
@@ -170,9 +156,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 ## Menu : Résolution 
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : crée un nouveau solveur pour cette analyse.
-
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) : identique au modèle original <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) avec des vérifications supplémentaires.
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) : crée un nouveau solveur pour cette analyse.
 
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solveur Elmer](FEM_SolverElmer/fr.md) : crée le contrôleur de solveur pour Elmer.
 
@@ -180,13 +164,17 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solveur Z88](FEM_SolverZ88/fr.md) : crée le contrôleur de solveur pour Z88.
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:48px;"> [Équations mécaniques](FEM_CompMechEquations/fr.md) : menu d\'icônes dans la barre d\'outils d\'équations FEM qui contient les équations suivantes : {{Version/fr|0.21}}
+
+
+### Équations mécaniques 
 
   - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Équation d\'élasticité](FEM_EquationElasticity/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses linéaires mécaniques.
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Équation de déformation](FEM_EquationDeformation/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) permettant de réaliser des analyses mécaniques non linéaires (déformations). {{Version/fr|0.21}}
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:32px;"> [Équations électromagnétiques](FEM_CompEmEquations/fr.md) : menu d\'icônes dans la barre d\'outils d\'équations FEM qui contient les équations suivantes : {{Version/fr|0.21}}
+
+
+### Équations électromagnétiques 
 
   - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Équation électrostatique](FEM_EquationElectrostatic/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses électrostatiques.
 
@@ -202,7 +190,7 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Équation de chaleur](FEM_EquationHeat/fr.md) : équation pour le <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md) pour effectuer des analyses de transfert de chaleur.
 
--   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Contrôle du travail du solveur](FEM_SolverControl/fr.md) : ouvre le menu pour ajuster et lancer le solveur sélectionné.
+-   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Contrôle du solveur](FEM_SolverControl/fr.md) : ouvre le menu pour ajuster et lancer le solveur sélectionné.
 
 -   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Résolution](FEM_SolverRun/fr.md) : lance le solveur sélectionné de l\'analyse active.
 
@@ -230,19 +218,21 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtre d\'écrêtage selon une ligne](FEM_PostFilterDataAlongLine/fr.md) : utilisé pour tracer les valeurs d\'un champ le long d\'une ligne spécifiée.
 
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Graphique de linéarisation des contraintes](FEM_PostFilterLinearizedStresses/fr.md) : crée un graphique de linéarisation des contraintes.
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Graphique de linéarisation des critères](FEM_PostFilterLinearizedStresses/fr.md) : crée un graphique de linéarisation des critères.
 
--   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Données du filtre d\'écrêtage d\'un point](FEM_PostFilterDataAtPoint/fr.md) : permet d\'afficher la valeur d\'un champ sélectionné à un point donné.
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Données au point](FEM_PostFilterDataAtPoint/fr.md) : permet d\'afficher la valeur d\'un champ sélectionné à un point donné.
 
--   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:48px;"> [Fonctions de filtrage](FEM_PostCreateFunctions/fr.md) : il s\'agit d\'un menu d\'icônes dans la barre d\'outils Résultats de FEM qui contient les commandes suivantes :
 
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filtre fonction plan](FEM_PostCreateFunctionPlane/fr.md) : coupe le maillage résultant selon un plan.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filtre fonction sphère](FEM_PostCreateFunctionSphere/fr.md) : coupe le maillage résultant selon une sphère.
+### Fonctions de filtrage 
 
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filtre fonction cylindre](FEM_PostCreateFunctionCylinder/fr.md) : coupe le maillage résultant selon un cylindre. {{Version/fr|0.21}}
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Plan](FEM_PostCreateFunctionPlane/fr.md) : coupe le maillage résultant selon un plan.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filtre fonction boîte](FEM_PostCreateFunctionBox/fr.md) : coupe le maillage résultant selon une boîte. {{Version/fr|0.21}}
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Sphère](FEM_PostCreateFunctionSphere/fr.md) : coupe le maillage résultant selon une sphère.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Cylindre](FEM_PostCreateFunctionCylinder/fr.md) : coupe le maillage résultant selon un cylindre. {{Version/fr|0.21}}
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Boîte](FEM_PostCreateFunctionBox/fr.md) : coupe le maillage résultant selon une boîte. {{Version/fr|0.21}}
 
 
 
@@ -264,6 +254,20 @@ L\'atelier FEM peut être utilisé sur Windows, MacOSX et Linux. Étant donné q
 
 
 
+## Outils obsolètes 
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condition de limite du fluide](FEM_ConstraintFluidBoundary/fr.md) : utilisé pour définir une condition limite de fluide.
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Contrainte de roulement](FEM_ConstraintBearing/fr.md) : utilisé pour définir une contrainte de roulement.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Contrainte d\'engrenage](FEM_ConstraintGear/fr.md) : utilisé pour définir une contrainte d\'engrenage.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Contrainte de poulie](FEM_ConstraintPulley/fr.md) : utilisé pour définir une contrainte de poulie.
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solveur CalculiX (nouveau modèle)](FEM_SolverCalculiX/fr.md) : identique au modèle original <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md) avec des vérifications supplémentaires. L\'outil était inachevé. Non disponible dans {{VersionPlus/fr|0.22}}.
+
+
+
 ## Préférences
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences\...](FEM_Preferences/fr.md) : préférences disponibles dans les outils FEM.
@@ -276,7 +280,9 @@ Les pages suivantes décrivent différents sujets de l\'atelier FEM.
 
 [FEM Installation des composants requis](FEM_Install/fr.md) : une description détaillée de la configuration des programmes externes utilisés dans l\'atelier.
 
-[FEM Maillage](FEM_Mesh/fr.md) : informations complémentaires sur l\'obtention d\'un maillage pour l\'analyse par éléments finis.
+[FEM Préparation de la géométrie et maillage](FEM_Geometry_Preparation_and_Meshing/fr.md) : conseils concernant la préparation de la géométrie pour une analyse aux éléments finis et le maillage.
+
+[FEM Maillage](FEM_Mesh/fr.md) : détails sur les maillages dans l\'atelier FEM.
 
 [FEM Solveur](FEM_Solver/fr.md) : informations supplémentaires sur les différents solveurs disponibles dans l'atelier et sur ceux qui pourraient être utilisés à l'avenir.
 

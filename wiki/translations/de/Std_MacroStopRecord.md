@@ -9,9 +9,13 @@
 
 # Std MacroStopRecord/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Makroaufzeichnung beenden** beendet die Makroaufzeichnungssitzung.
+
+
 
 ## Anwendung
 
@@ -19,6 +23,8 @@ Der Befehl **Std Makroaufzeichnung beenden** beendet die Makroaufzeichnungssitzu
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Std_MacroStopRecord.svg" width=16px> [Makroaufzeichnung beenden](Std_MacroStopRecord/de.md)** drücken.
     -   Den Menüeintrag **Makro → <img src="images/Std_MacroStopRecord.svg" width=16px> Makroaufzeichnung beenden** auswählen.
+
+
 
 ## Hinweise
 

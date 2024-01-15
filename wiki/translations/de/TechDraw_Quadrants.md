@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw Quadrants
    Name/de: TechDraw Quadranten
-   MenuLocation: TechDraw , Knoten hinzufügen , Quadranten Knoten hinzufügen
+   MenuLocation: TechDraw , Knoten hinzufügen , Quadrantengrenzpunkte hinzufügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/de, TechDraw_Midpoints/de
@@ -11,41 +11,29 @@
 # TechDraw Quadrants/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw Quadranten** fügt einer oder mehreren ausgewählten Kanten der Länge nach drei [Hilfspunkte](TechDraw_CosmeticVertex/de.md) hinzu. Die Punkte werden bei 25%, 50% und 75% der Länge positioniert. für eine Kreiskante ergeben sich so Hilfspunkte bei 90°, 180° and 270°, zusätzlich zu ihrem geometrischen Knotenpunkt bei 0°.
-
-
-</div>
+Das Werkzeug **TechDraw Quadranten** fügt einer oder mehreren ausgewählten Kanten der Länge nach drei [Hilfspunkte](TechDraw_CosmeticVertex/de.md) hinzu. Die Punkte werden bei 25%, 50% und 75% der Länge jeder Kante positioniert. Für eine Kreiskante ergeben sich so Hilfspunkte bei 90°, 180° and 270°, zusätzlich zu ihrem geometrischen Knotenpunkt bei 0°.
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
-*Kosmetische Knoten an Quadrantenpunkten eines Kreises*
+*Hilfspunkte an Quadrantengrenzpunkten eines Kreises*
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Eine oder mehrere Kanten in einer Ansicht auswählen. Jede Kante kann ausgewählt werden, nicht nur Kreise.
-2.  Die Schaltfläche **<img src="images/TechDraw_Quadrants.svg" width=16px> Quadrantengrenzpunkte hinzufügen** drücken.
-3.  Hilfspunkte werden an den Viertelpunkten der Kanten hinzugefügt.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Quadrants.svg" width=16px> [Quadrantengrenzpunkte hinzufügen](TechDraw_Quadrants/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Knoten hinzufügen → <img src="images/TechDraw_Quadrants.svg" width=16px> Quadrantengrenzpunkte hinzufügen** auswählen.
 
 
-</div>
 
-## Notes
+## Hinweise
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Die erstellten Hilfspunkte sind nicht parametrisch mit den ausgewählten Kanten verbunden.
+-   Zum Löschen eines Hilfspunktes wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Hilfsobjekte entfernen](TechDraw_CosmeticEraser/de.md) verwendet.
 
 
 

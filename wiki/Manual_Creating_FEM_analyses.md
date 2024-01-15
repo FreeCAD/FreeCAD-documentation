@@ -1,6 +1,4 @@
 # Manual:Creating FEM analyses
-{{Manual:TOC}}
-
 FEM stands for [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method). It is a vast mathematical subject, but in FreeCAD we can think of it as a way to calculate propagations inside a 3D object, by cutting it into small pieces, and analyzing the impact of each small piece on its neighbours. This has several uses in the engineering and electromagnetism fields, but we will focus on one use that is already well developed in FreeCAD, which is simulating deformations in objects which are submitted to forces and weights.
 
 Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbench.md). There are a number of steps: Preparing the geometry, setting its material, performing the meshing, division into smaller parts, like we did in the [Preparing objects for 3D printing](Manual_Preparing_models_for_3D_printing.md) chapter, and finally calculating the simulation.

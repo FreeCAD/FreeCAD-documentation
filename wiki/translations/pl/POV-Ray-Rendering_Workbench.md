@@ -1,4 +1,4 @@
-# <img alt="POV-Ray-Rendering Workbench icon" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/pl
+# <img alt="Ikona środowiska pracy POV-Ray-Rendering" src=images/POV-Ray-Rendering_workbench_icon.svg  style="width:64px;"> POV-Ray-Rendering Workbench/pl
 
 
 
@@ -19,59 +19,67 @@
 
 ### Teksturowanie
 
-There are more than 100 predefined textures you can apply, but you can also define your own textures.
+Istnieje ponad 100 predefiniowanych tekstur, które można zastosować, ale można również zdefiniować własne tekstury.
 
 <img alt="" src=images/POV-Ray-Rendering_Textures.png  style="width:600px;">
 
-#### Thumbnails and live preview 
 
-To see the impact of the selected texture options you can check the pre-rendered thumbnail or use the live preview to render the texture.
+
+#### Miniatury i podgląd na żywo 
+
+Aby zobaczyć wpływ wybranych opcji tekstury, możesz sprawdzić wstępnie renderowaną miniaturę lub użyć podglądu na żywo, aby wyrenderować teksturę.
 
 
 
 ### Oświetlenie
 
-With the three light types: area light, point light and spot light, and their different options, you can create advanced lighting.
+Dzięki trzem rodzajom światła: obszarowemu, punktowemu i skupionemu oraz ich różnym opcjom można tworzyć zaawansowane oświetlenie.
 
 <img alt="" src=images/POV-Ray-Rendering_Lights.png  style="width:600px;">
 
-#### Indirect lighting (GI) 
 
-The workbench has the option to enable indirect lighting to create more realistic images.
+
+#### Oświetlenie pośrednie (GI) 
+
+Środowisko pracy posiada opcję włączenia oświetlenia pośredniego w celu tworzenia bardziej realistycznych obrazów.
 
 <img alt="" src=images/POV-Ray-Rendering_IndirectLighting.png  style="width:600px;">
 
-### HDRI environments 
 
-With support for HDRI environments, beautiful environments are simple to use.
+
+### Środowiska HDRI 
+
+Dzięki obsłudze środowisk HDRI, piękne otoczenia są łatwe w użyciu.
 
 <img alt="" src=images/POV-Ray-Rendering_HDRI.png  style="width:600px;">
 
-### User inc file 
 
-Power users who want access to *all* options of the [POV-Ray](http://www.povray.org/) renderer can do so by creating a special file. For more details see the [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) page on our Wiki.
+
+### Plik inc użytkownika 
+
+Zaawansowani użytkownicy, którzy chcą uzyskać dostęp do \"wszystkich\" opcji renderera [POV-Ray](http://www.povray.org/), mogą to zrobić, tworząc specjalny plik. Więcej szczegółów można znaleźć na stronie [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) na naszej Wiki.
 
 
 
 ## Użycie
 
-Here is a simple demonstration of the workbench:
+Oto prosta demonstracja środowiska pracy:
 
 ![](images/POV-Ray-Rendering_Demo.gif )
 
-There are many more options on the other tabs, please explore them yourself, or you can visit our Wiki: [Workbench Wiki](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc)
+W innych zakładkach znajduje się o wiele więcej opcji, z którymi można zapoznać się samodzielnie lub odwiedzając naszą Wiki: [Wiki Środowisko pracy](https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc).
 
 
 
 ## Instalacja
 
-This workbench can be installed and updated from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). The [POV-Ray](http://www.povray.org/) renderer used by the workbench has to be installed separately. For Windows users, the installer can be downloaded from the [POV-Ray Download Page](https://www.povray.org/download/), for Linux users it can usually be installed from the package manager. Look up the detailed instructions in the [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV) if you\'re on a Mac.
+To środowisko pracy może być instalowane i aktualizowane z poziomu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menedżera dodatków](Std_AddonMgr/pl.md). Używany przez środowisko pracy renderer [POV-Ray](http://www.povray.org/) musi zostać zainstalowany osobno. Dla użytkowników systemu Windows instalator można pobrać ze strony [POV-Ray do pobrania](https://www.povray.org/download/), dla użytkowników systemu Linux można go zazwyczaj zainstalować z menedżera pakietów. Jeśli korzystasz z komputera Mac, szczegółowe instrukcje znajdziesz na stronie [POV-Ray Wiki](https://wiki.povray.org/content/HowTo:Install_POV).
 
-To complete the installation the path to the POV-Ray executable has to be defined in the workbench preferences, usually these are the default paths:
+Aby zakończyć instalację, ścieżka do pliku wykonywalnego POV-Ray musi być zdefiniowana w preferencjach środowiska pracy, zazwyczaj są to ścieżki domyślne:
 
--   **Windows:** **C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe** (the **v*.*** folder may change depending on the POV-Ray version)
+-   **Windows:** **C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe** (folder **v*.*** może się zmienić w zależności od wersji POV-Ray)
 -   **Linux:** **/usr/bin/povray**
--   **MacOS:** Not available. If you have more information, please let us know.
+-   **MacOS:** Niedostępne. Jeśli masz więcej informacji, daj nam znać.
 
 <img alt="" src=images/POV-Ray-Rendering_ExePath.png  style="width:600px;">
 
@@ -79,32 +87,36 @@ To complete the installation the path to the POV-Ray executable has to be define
 
 ## Przybory
 
--   <img alt="" src=images/POV-Ray-Rendering_OpenDialog.svg  style="width:32px;"> OpenDialog: Opens the dialog where most of the work is done. Here you can apply textures, add HDRI environments, etc. and start the rendering.
+-   <img alt="" src=images/POV-Ray-Rendering_OpenDialog.svg  style="width:32px;"> Export Model: Otwiera okno dialogowe pozwalające na skonfigurowanie oraz wyrenderowanie sceny.
 
--   <img alt="" src=images/POV-Ray-Rendering_PointLight.svg  style="width:32px;"> Point Light: Inserts a Point Light.
+-   <img alt="" src=images/POV-Ray-Rendering_PointLight.svg  style="width:32px;"> Insert Point Light: Dodaj światło punktowe.
 
--   <img alt="" src=images/POV-Ray-Rendering_AreaLight.svg  style="width:32px;"> Area Light: Inserts an Area Light.
+-   <img alt="" src=images/POV-Ray-Rendering_AreaLight.svg  style="width:32px;"> Insert an Area Light: Dodaj światło obszarowe.
 
--   <img alt="" src=images/POV-Ray-Rendering_SpotLight.svg  style="width:32px;"> Spot Light: Inserts a Spot Light.
+-   <img alt="" src=images/POV-Ray-Rendering_SpotLight.svg  style="width:32px;"> Insert a Spot Light: Dodaj światło reflektorowe.
 
-## References
 
--   Authors:
+
+## Odniesienia
+
+-   Autorzy:
     -   Usb Hub: <https://gitlab.com/usbhub>
     -   DerUhrmacher: <https://gitlab.com/DerUhrmacher>
--   Source code on GitHub: <https://github.com/TheRaytracers/freecad-povray-render>
+-   Kod dostępny na GitHub: <https://github.com/TheRaytracers/freecad-povray-render>
 
-## Links to POV-Ray Workbench 
 
--   Workbench Wiki: <https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc>
--   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
--   Report bugs: Please report bugs at GitHub or the FreeCAD Forum
+
+## Linki do środowiska pracy POV-Ray 
+
+-   Dokumentacja: <https://gitlab.com/usbhub/exporttopovray/-/tree/master/doc>
+-   Wątek na forum: <https://forum.freecadweb.org/viewtopic.php?f=9&t=48629>
+-   Zgłaszanie błędów: Błędy można zgłaszać na GitHub oraz oficjalnym Forum FreeCAD
 
 
 
 ## Inne użyteczne odnośniki 
 
--   [External workbenches](External_workbenches.md)
+-   [Zewnętrzne środowiska prracy](External_workbenches/pl.md)
 
 
 

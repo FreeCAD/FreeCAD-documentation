@@ -1,49 +1,37 @@
 # Release notes 0.21/fr
-**FreeCAD 0.21 est en cours de développement, il n'y a pas encore de date de sortie prévue.**
-
-
-{{Message|
-Des fonctionnalités sont-elles manquantes ? Mentionnez-les dans les [https://forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;69438 Notes de publication pour v0.21] du fil du forum.
-
-Voir [Contribuer à FreeCAD](Help_FreeCAD/fr.md) pour savoir comment contribuer à FreeCAD.
-}}
-
-
-{{Message|Toutes les images de cette page doivent utiliser le suffixe **_relnotes_0.21**}}
-
-
-
-
-**FreeCAD 0.21** a été publié le **JJ MM 2023**, téléchargez la depuis la page [Téléchargement](Download/fr.md). Cette page liste toutes les nouvelles fonctionnalités et les changements.
+**FreeCAD 0.21** a été publié le **02 août 2023**. Téléchargez la depuis la page [Téléchargement](Download/fr.md).
+Cette page liste toutes les nouvelles fonctionnalités et les changements.
 
 Les notes de versions plus anciennes de FreeCAD sont disponibles dans la [liste des notes de versions](Feature_list/fr#Notes_de_versions.md).
 
-L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur le [forum des modèles des utilisateurs](https://forum.freecadweb.org/viewforum.php?f=24).
+<img alt="" src=images/FreeCAD_relnotes_0.21.png  style="width:720px;">
 
 
 
 ## Général
 
+-   Le schéma de dénomination par défaut des fichiers de sauvegarde est désormais **FCBak**. L\'ancien format (**FCStd#**) est obsolète et sera supprimé dans une prochaine version. Les utilisateurs dont l\'ancien format est activé seront avertis au démarrage. [Pull request #9668](https://github.com/FreeCAD/FreeCAD/pull/9668)
+
 
 
 ## Interface utilisateur 
 
-   
-  ![](images/Navi_Cube_relnotes_0.21.png )   Le [Cube de navigation](Navigation_Cube/fr.md) a été mis à jour. Le cube n\'est plus affiché en perspective si la [vue 3D](3D_view/fr.md) est en mode orthographique. Les faces des coins ont été rendues hexagonales et plus grandes afin qu\'elles soient plus faciles à cliquer. Des bordures ont été ajoutées autour des boutons. La sélection et la taille des polices par défaut ont été améliorées. Le menu Mini-cube comprend maintenant une case à cocher pour activer la mobilité du cube. Plusieurs nouveaux paramètres ont été ajoutés, voir la page [Cube de navigation](Navigation_Cube/fr.md) pour plus d\'informations.Les pages suivantes ont été ajoutées : [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876), [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266), [Pull request #8646](https://github.com/FreeCAD/FreeCAD/pull/8646) et [Pull request #9356](https://github.com/FreeCAD/FreeCAD/pull/9356).
-   
++++
+| ![](images/Navi_Cube_relnotes_0.21.png ) | Le [Cube de navigation](Navigation_Cube/fr.md) a été mis à jour. Le cube n\'est plus affiché en perspective si la [vue 3D](3D_view/fr.md) est en mode orthographique. Les faces des coins ont été rendues hexagonales et plus grandes afin qu\'elles soient plus faciles à cliquer. Des bordures ont été ajoutées autour des boutons. La sélection et la taille des polices par défaut ont été améliorées. Le menu Mini-cube comprend maintenant une case à cocher pour activer la mobilité du cube. Plusieurs nouveaux paramètres ont été ajoutés, voir la page [Cube de navigation](Navigation_Cube/fr.md) pour plus d\'informations.Les pages suivantes ont été ajoutées : [Pull request #7876](https://github.com/FreeCAD/FreeCAD/pull/7876), [Pull request #8266](https://github.com/FreeCAD/FreeCAD/pull/8266), [Pull request #8646](https://github.com/FreeCAD/FreeCAD/pull/8646) et [Pull request #9356](https://github.com/FreeCAD/FreeCAD/pull/9356). |
++++
 
 +++
 | <img alt="" src=images/Part_SectionCut_example_relnotes_0.21.gif  style="width:384px;">Coupe persistante d\'objets se croisant.Cliquez sur l\'image pour voir l\'animation. | L\'outil [Coupe persistante](Part_SectionCut/fr.md) permet maintenant de couper des objets qui s\'entrecroisent. Ceci est utile pour les assemblages où les intersections d\'objets s\'intersectant ne peuvent parfois pas être évitées en raison de problèmes numériques. |
 |                                                                                                                                                                                                                         | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                                                                                |
 +++
 
-   
-  <img alt="" src=images/Measurement-Part_relnotes_0.21.png  style="width:384px;">   Le style d\'affichage des résultats de [mesure](Part_Workbench/fr#Mesure.md) créés à l\'aide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) peut désormais être modifié dans les [Préférences](PartDesign_Preferences/fr#Mesure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
-   
++++
+| <img alt="" src=images/Measurement-Part_relnotes_0.21.png  style="width:384px;"> | Le style d\'affichage des résultats de [mesure](Part_Workbench/fr#Mesure.md) créés à l\'aide de l\'[atelier Part](Part_Workbench/fr.md) ou de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) peut désormais être modifié dans les [Préférences](PartDesign_Preferences/fr#Mesure.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148) |
++++
 
-   
-  <img alt="" src=images/WbSelector_relnotes_0.21.png  style="width:384px;">   Le sélecteur d\'ateliers peut maintenant être placé de manière optionnelle dans la barre de menu au lieu de la zone de la barre d\'outils. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
-   
++++
+| <img alt="" src=images/WbSelector_relnotes_0.21.png  style="width:384px;"> | Le sélecteur d\'ateliers peut maintenant être placé de manière optionnelle dans la barre de menu au lieu de la zone de la barre d\'outils. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679) |
++++
 
 
 
@@ -124,6 +112,9 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 ## Gestionnaire des extensions 
 
+-   Ajout d\'une gestion des paquets de base de Python pour la mise à jour et la suppression des dépendances installées automatiquement.
+-   Ajout d\'un \"mode développeur\" pour aider à la création du fichier de métadonnées requis dans chaque extension.
+
 
 
 ## Atelier Arch 
@@ -145,7 +136,7 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 ## Atelier Draft 
 
--   Le manque de précision de [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) lors de l\'aimantation à des courbes a été corrigé. De plus, [Draft Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) peut maintenant aussi s\'accrocher à des faces et trouver des points multiples. Pour s\'accrocher à un sommet (par exemple un [Draft Point](Draft_Point/fr.md)) [Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) doit maintenant être utilisé au lieu de [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md). [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
+-   Le manque de précision de [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) lors de l\'aimantation à des courbes a été corrigé. De plus, [Draft Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) peut maintenant aussi s\'accrocher à des faces et trouver des points multiples. Pour s\'accrocher à un sommet (par exemple un [Draft Point](Draft_Point/fr.md)) [Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) doit maintenant être utilisé au lieu de [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md). [Pull request #7132](https://github.com/FreeCAD/FreeCAD/pull/7132)
 -   Pour faciliter le travail avec des [calques](Draft_Layer/fr.md), leur comportement de glisser-déposer a été modifié. Si vous déposez un objet d\'un [Std Groupe](Std_Group/fr.md), ou un objet de type groupe tel qu\'un [Arch Partie de bâtiment](Arch_BuildingPart/fr.md), sur un calque, il n\'est plus retiré du groupe, et vice versa. Cela fonctionne sans maintenir la touche **Ctrl** enfoncée. [Pull request #7462](https://github.com/FreeCAD/FreeCAD/pull/7462)
 -   La commande [Draft Réseau de points](Draft_PointArray/fr.md) prend désormais en charge davantage de types d\'objets Points. Tout objet ayant une forme et des sommets, ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de points](Points_Workbench/fr.md) peuvent être utilisés. [Pull request #7597](https://github.com/FreeCAD/FreeCAD/pull/7597)
 -   Les menus contextuels de la [vue en arborescence](Tree_view/fr.md) pour les objets Draft ont été améliorés. Les objets qui peuvent être édités avec la commande [Draft Éditer](Draft_Edit/fr.md) ou qui ont une solution d\'édition dédiée, ont maintenant une option **Éditer** dans ce menu. L\'option **Définir les couleurs** a été supprimée pour les objets sans face ou qui ne peuvent avoir qu\'une seule face. [Pull request #7970](https://github.com/FreeCAD/FreeCAD/pull/7970)
@@ -199,13 +190,13 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 -   Lors de l\'exécution d\'analyses à l\'aide du <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> [solveur CalculiX](FEM_SolverCalculixCxxtools/fr.md), un [pipeline de resultats](FEM_PostPipelineFromResult/fr.md) est désormais créé pour visualiser les résultats. [Pull request #8525](https://github.com/FreeCAD/FreeCAD/pull/8525) et [Pull request #8903](https://github.com/FreeCAD/FreeCAD/pull/8903)
 -   Il est maintenant possible d\'effectuer [analyses transitoires](FEM_SolverElmer_SolverSettings/fr#Pas_de_temps_(analyses_transitoires).md) lors de l\'utilisation du <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solveur Elmer](FEM_SolverElmer/fr.md). [Pull request #9056](https://github.com/FreeCAD/FreeCAD/pull/9056)
--   La <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) a été ajoutée pour définir la pression interne initiale des fluides. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
--   La <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md) a été ajoutée pour définir les densités de courant des corps et des faces. [Pull request #8348](https://github.com/FreeCAD/FreeCAD/pull/8348)
--   La <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [contrainte de magnétisation](FEM_ConstraintMagnetization.md) a été ajoutée pour définir les magnétisations des corps et des faces. [Pull request #8393](https://github.com/FreeCAD/FreeCAD/pull/8393)
--   La <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:24px;"> [contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md) et <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:24px;"> [contrainte de vitesse d\'écoulement initiale](FEM_ConstraintInitialFlowVelocity/fr.md) ont été complètement réécrites. Il est maintenant également possible de spécifier une vitesse via une formule mathématique (pour définir un profil de vitesse). [Pull request #8963](https://github.com/FreeCAD/FreeCAD/pull/8963) et [Pull request #8964](https://github.com/FreeCAD/FreeCAD/pull/8964)**Remarque :** il s\'agit d\'un changement majeur. Les analyses avec des contraintes de vitesse d\'écoulement et de vitesse d\'écoulement initiale existantes ne fonctionneront plus. Vous devez créer de nouvelles contraintes de vitesse d\'écoulement dans l\'analyse pour que les analyses existantes fonctionnent. [Pull request #8963](https://github.com/FreeCAD/FreeCAD/pull/8963) et [Pull request #8964](https://github.com/FreeCAD/FreeCAD/pull/8964)**Remarque bis :** jusqu\'à FreeCAD 0.21, les résultats du solveur d\'écoulement étaient erronés (la densité et la viscosité du fluide étaient trop élevées d\'un facteur 1000). Par conséquent, la refonte de la contrainte de vitesse garantit également que les résultats seront corrects.
--   Il est maintenant possible de définir dans la <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:24px;"> [contrainte de déplacement](FEM_ConstraintDisplacement/fr.md) des déplacements définis par des équations (déplacement en fonction du temps du solveur utlisé).
--   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
--   La <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:24px;"> [contrainte de ressort](FEM_ConstraintSpring/fr.md) n\'était utilisée par aucun solveur. Elle peut maintenant être utilisée par le solveur [Elmer](FEM_SolverElmer/fr.md) via les équations de [déformation](FEM_EquationDeformation/fr.md) et d\'[élasticité](FEM_EquationElasticity/fr.md). [Pull request #9005](https://github.com/FreeCAD/FreeCAD/pull/9005)
+-   La <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [pression initiale](FEM_ConstraintInitialPressure/fr.md) a été ajoutée pour définir la pression interne initiale des fluides. [Pull request #7364](https://github.com/FreeCAD/FreeCAD/pull/7364)
+-   La <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [densité de courant](FEM_ConstraintCurrentDensity/fr.md) a été ajoutée pour définir les densités de courant des corps et des faces. [Pull request #8348](https://github.com/FreeCAD/FreeCAD/pull/8348)
+-   La <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [magnétisation](FEM_ConstraintMagnetization.md) a été ajoutée pour définir les magnétisations des corps et des faces. [Pull request #8393](https://github.com/FreeCAD/FreeCAD/pull/8393)
+-   La <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:24px;"> [Vitesse d\'écoulement comme condition limite](FEM_ConstraintFlowVelocity/fr.md) et la <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:24px;"> [Vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md) ont été complètement réécrites. Il est maintenant également possible de spécifier une vitesse via une formule mathématique (pour définir un profil de vitesse). [Pull request #8963](https://github.com/FreeCAD/FreeCAD/pull/8963) et [Pull request #8964](https://github.com/FreeCAD/FreeCAD/pull/8964)**Remarque :** il s\'agit d\'un changement majeur. Les analyses avec des contraintes de vitesse d\'écoulement et de vitesse d\'écoulement initiale existantes ne fonctionneront plus. Vous devez créer de nouvelles contraintes de vitesse d\'écoulement dans l\'analyse pour que les analyses existantes fonctionnent. [Pull request #8963](https://github.com/FreeCAD/FreeCAD/pull/8963) et [Pull request #8964](https://github.com/FreeCAD/FreeCAD/pull/8964)**Remarque bis :** jusqu\'à FreeCAD 0.21, les résultats du solveur d\'écoulement étaient erronés (la densité et la viscosité du fluide étaient trop élevées d\'un facteur 1000). Par conséquent, la refonte de la contrainte de vitesse garantit également que les résultats seront corrects.
+-   Il est maintenant possible de définir dans la <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:24px;"> [condition limite de déplacement](FEM_ConstraintDisplacement/fr.md) des déplacements définis par des équations (déplacement en fonction du temps du solveur utlisé).
+-   La <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:24px;"> [Source de chaleur du corps](FEM_ConstraintBodyHeatSource/fr.md) a maintenant un panneau de tâches et il est possible de définir la chaleur pour plusieurs corps ou d\'utiliser plusieurs contraintes pour différents corps dans une analyse. [Pull request #7367](https://github.com/FreeCAD/FreeCAD/pull/7367)
+-   La commande <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:24px;"> [Ressort](FEM_ConstraintSpring/fr.md) n\'était utilisée par aucun solveur. Elle peut maintenant être utilisée par le solveur [Elmer](FEM_SolverElmer/fr.md) via les équations de [déformation](FEM_EquationDeformation/fr.md) et d\'[élasticité](FEM_EquationElasticity/fr.md). [Pull request #9005](https://github.com/FreeCAD/FreeCAD/pull/9005)
 -   La fonction de découpage du maillage résultant <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px;"> [Filtre fonction cylindre](FEM_PostCreateFunctionCylinder/fr.md) a été ajoutée. [Pull request #8735](https://github.com/FreeCAD/FreeCAD/pull/8735)
 -   La fonction de découpage du maillage résultant <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:24px;"> [Filtre fonction boîte](FEM_PostCreateFunctionBox/fr.md) a été ajoutée. [Pull request #8825](https://github.com/FreeCAD/FreeCAD/pull/8825)
 -   Il est maintenant possible d\'ouvrir (et ainsi de visualiser) des fichiers \*.pvtu (données de grille non structurées VTK partitionnées). Un fichier \*.pvtu est également le résultat d\'une simulation par [Elmer](FEM_SolverElmer/fr.md), lorsque plus d\'un cœur de CPU est utilisé pour les calculs. [Pull request #7159](https://github.com/FreeCAD/FreeCAD/pull/7159)
@@ -220,29 +211,13 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 
 
-## Exportation
-
-
-
 ## Mesh (Maillage) 
-
-
-
-### Autres améliorations de Mesh 
 
 -   Permet d\'ajouter des transparences à un maillage. [Fil de discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=72531) et [Commit f88305e](https://github.com/FreeCAD/FreeCAD/commit/f88305e).
 
 
 
-## Atelier OpenSCAD 
-
-
-
 ## Atelier Part 
-
-
-
-### Autres améliorations de Part 
 
 -   La commande [Part Points à partir de maillage](Part_PointsFromMesh/fr.md) a été étendue pour accepter n\'importe quel objet géométrique. [Pull request #8730](https://github.com/FreeCAD/FreeCAD/pull/8730)
 
@@ -255,10 +230,11 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
                                                                                                                                     
    
 
-   
-  <img alt="" src=images/PartDesign_task_dialog_relnotes_0.21.png  style="width:384px;">   L\'interface utilisateur de plusieurs boîtes de dialogue de tâches de PartDesign pour la sélection de géométries a été améliorée, ne nécessitant plus l\'utilisation de boutons séparés pour l\'ajout ou la suppression de géométries dans la sélection. [Pull request #8990](https://github.com/FreeCAD/FreeCAD/pull/8990)
-                                                                                                          
-   
++++
+| <img alt="" src=images/PartDesign_task_dialog_relnotes_0.21.png  style="width:384px;"> | L\'interface utilisateur de plusieurs boîtes de dialogue de tâches de PartDesign pour la sélection de géométries a été améliorée, ne nécessitant plus l\'utilisation de boutons séparés pour l\'ajout ou la suppression de géométries dans la sélection. [Pull request #8990](https://github.com/FreeCAD/FreeCAD/pull/8990) |
++++
+|                                                                                                       |                                                                                                                                                                                                                                                                                                                             |
++++
 
 
 
@@ -266,8 +242,8 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 -   Dans la boîte de dialogue de [Perçage](PartDesign_Hole/fr.md), les types de têtes de vis obsolètes (vis à tête métrique, vis à tête cylindrique, etc.) ont été supprimés. Ils étaient abandonnés depuis FreeCAD 0.19. Les perçages utilisant ces types sont transformés en fraisages/alésages personnalisés avec le diamètre et la profondeur utilisés par les types. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   Dans les boîtes de dialogue de [Lissage additif](PartDesign_AdditiveLoft/fr.md) et de [Lissage soustractif](PartDesign_SubtractiveLoft/fr.md), l\'option **Fermé**, auparavant non fonctionnelle, crée désormais un lissage fermé (comme un anneau). [Pull request #8748](https://github.com/FreeCAD/FreeCAD/pull/8748)
--   La commande [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) a été ajoutée à la barre d\'outils des aides. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
--   Les commandes inutilisables [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) et [Vue de l\'esquisse](Sketcher_ViewSketch/fr.md) ont été supprimées du menu. Les commandes [Modifier l\'esquisse](Sketcher_EditSketch/fr.md), [Fusionner les esquisses](Sketcher_MergeSketches/fr.md) et [Esquisse miroir](Sketcher_MirrorSketch/fr.md) ont été ajoutées au menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   La commande [Valider une esquisse](Sketcher_ValidateSketch/fr.md) a été ajoutée à la barre d\'outils des aides. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
+-   Les commandes inutilisables [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) et [Vue de l\'esquisse](Sketcher_ViewSketch/fr.md) ont été supprimées du menu. Les commandes [Modifier une esquisse](Sketcher_EditSketch/fr.md), [Fusionner des esquisses](Sketcher_MergeSketches/fr.md) et [Esquisse miroir](Sketcher_MirrorSketch/fr.md) ont été ajoutées au menu. [Pull request #7700](https://github.com/FreeCAD/FreeCAD/pull/7700)
 -   L\'[Engrenage à développante](PartDesign_InvoluteGear/fr.md) a de nouvelles propriétés permettant de modifier la longueur des dents. Cela permet maintenant d\'ajuster certains types de contacts et d\'utiliser le profil pour créer également des [involute splines (en)](https://en.wikipedia.org/wiki/Spline_(mechanical)) (arbre avec canelure ?). [Pull request #8184](https://github.com/FreeCAD/FreeCAD/pull/8184)
 -   L\'[Engrenage à développante](PartDesign_InvoluteGear/fr.md) permet désormais de changer de profil. [Issue #5618](https://github.com/FreeCAD/FreeCAD/issues/5618) et [Pull request #8934](https://github.com/FreeCAD/FreeCAD/pull/8934)
 -   Lors de la création d\'un [Clone](PartDesign_Clone/fr.md), celui-ci hérite désormais des couleurs de l\'objet cloné. [Pull request #9547](https://github.com/FreeCAD/FreeCAD/pull/9547)
@@ -281,10 +257,6 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Des chaînes de substitution supplémentaires pour le nommage automatique des sorties. Si la sortie est divisée en plusieurs fichiers, les noms de fichiers peuvent automatiquement substituer le label du contrôleur d\'outil, Systèmes de coordonnées de pièce (Work Coordinate Systems = WCS), ou le label de l\'opération. Ceci s\'ajoute aux autres chaînes de substitution existantes comme la date, le nom du travail, etc.
 
 -   Implémentation de l\'option de brise-copeaux (Chipbreaking) pour les cycles de perçage de type débourrage. Le brise-copeaux émet un cycle G73 qui amène la commande à effectuer un très petit mouvement de rétraction pour casser le copeau sans rétracter complètement la mèche du trou. G73 est supporté nativement par LinuxCNC. D\'autres postprocesseurs devront interpréter le G73 et émettre les codes de contrôle appropriés ou décomposer la rétraction en mouvements G1/G0. Le support des postprocesseurs pour la décomposition G73 a été ajouté aux postprocesseurs \"refactorisés\". [Pull request #7469](https://github.com/FreeCAD/FreeCAD/pull/7469).
-
-
-
-## Module Plot 
 
 
 
@@ -310,60 +282,69 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
                                                                                                                                                           
    
 
-   
-  <img alt="" src=images/Sketcher_Grid_Rework_relnotes_0.21.png  style="width:384px;">   La grille de Sketcher a été retravaillée. L\'outil [Grille](Sketcher_Grid/fr.md) a été ajouté. L\'option de mise à l\'échelle automatique de la grille a été ajoutée. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473)
-                                                                                                      
-   
++++
+| <img alt="" src=images/Sketcher_Grid_Rework_relnotes_0.21.png  style="width:384px;"> | La grille de Sketcher a été retravaillée. L\'outil [Grille](Sketcher_Grid/fr.md) a été ajouté. L\'option de mise à l\'échelle automatique de la grille a été ajoutée. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473) |
++++
+|                                                                                                   |                                                                                                                                                                                                                                                  |
++++
 
-   
-  <img alt="" src=images/Sketcher_Constraint_Widget_relnotes_0.21.png  style="width:384px;">   Le widget Contrainte de Sketcher a été retravaillé pour simplifier l\'interface utilisateur. [Pull request #7566](https://github.com/FreeCAD/FreeCAD/pull/7566)
-                                                                                                                  
-   
++++
+| <img alt="" src=images/Sketcher_Constraint_Widget_relnotes_0.21.png  style="width:384px;"> | Le widget Contrainte de Sketcher a été retravaillé pour simplifier l\'interface utilisateur. [Pull request #7566](https://github.com/FreeCAD/FreeCAD/pull/7566) |
++++
+|                                                                                                               |                                                                                                                                                                 |
++++
 
    
   <img alt="" src=images/Sketcher_Element_Widget_relnotes_0.21.gif  style="width:384px;">Cliquez sur l\'image pour voir l\'animation.   Le widget Eléments a été retravaillé pour simplifier l\'interface utilisateur et permettre une sélection plus simple des différentes parties de chaque géométrie : arête, point de départ, point d\'arrivée et point central. [Pull request #7567](https://github.com/FreeCAD/FreeCAD/pull/7567)
                                                                                                                                                                       
    
 
-   
-  <img alt="" src=images/Sketcher_Grid_relnotes_0.21.gif  style="width:384px;">   Une fonction permettant de redimensionner automatiquement la grille en fonction du niveau de zoom et d\'autres améliorations ont été introduites. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473)
-                                                                                        
-   
++++
+| <img alt="" src=images/Sketcher_Grid_relnotes_0.21.gif  style="width:384px;"> | Une fonction permettant de redimensionner automatiquement la grille en fonction du niveau de zoom et d\'autres améliorations ont été introduites. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473) |
++++
+|                                                                                     |                                                                                                                                                                                                                      |
++++
 
-   
-  <img alt="" src=images/Sketcher_layers_relnotes_0.21.gif  style="width:384px;">   La fonctionnalité de base des calques visuels a été introduite. Pour l\'instant, seuls 3 calques codés en dur sont pris en charge. D\'autres améliorations sont attendues dans le futur. Ce PR supprime également le widget \"Edit controls\" du panneau des tâches car tout son contenu a été déplacé vers d\'autres endroits ou supprimé. Les options d\'ordre de rendu ont été déplacées dans la barre d\'outils d\'édition du Sketcher. [Pull request #8716](https://github.com/FreeCAD/FreeCAD/pull/8716) et [Pull request #9590](https://github.com/FreeCAD/FreeCAD/pull/9590)
-                                                                                            
-   
++++
+| <img alt="" src=images/Sketcher_layers_relnotes_0.21.gif  style="width:384px;"> | La fonctionnalité de base des calques visuels a été introduite. Pour l\'instant, seuls 3 calques codés en dur sont pris en charge. D\'autres améliorations sont attendues dans le futur. Ce PR supprime également le widget \"Edit controls\" du panneau des tâches car tout son contenu a été déplacé vers d\'autres endroits ou supprimé. Les options d\'ordre de rendu ont été déplacées dans la barre d\'outils d\'édition du Sketcher. [Pull request #8716](https://github.com/FreeCAD/FreeCAD/pull/8716) et [Pull request #9590](https://github.com/FreeCAD/FreeCAD/pull/9590) |
++++
+|                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++++
 
-   
-  <img alt="" src=images/Sketcher_Circle2CircleConstraint_relnotes_0.21.png  style="width:384px;">   La [contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md) de cercle à cercle a été introduite. [Pull request #8896](https://github.com/FreeCAD/FreeCAD/pull/8896)
-                                                                                                                              
-   
++++
+| <img alt="" src=images/Sketcher_Circle2CircleConstraint_relnotes_0.21.png  style="width:384px;"> | La [contrainte distance](Sketcher_ConstrainDistance/fr.md) de cercle à cercle a été introduite. [Pull request #8896](https://github.com/FreeCAD/FreeCAD/pull/8896) |
++++
+|                                                                                                                           |                                                                                                                                                                            |
++++
 
-   
-  <img alt="" src=images/Sketcher_Circle2LineConstraint_relnotes_0.21.png  style="width:384px;">   La [contrainte dimensionnelle](Sketcher_ConstrainDistance/fr.md) de cercle à ligne a été introduite. [Pull request #9044](https://github.com/FreeCAD/FreeCAD/pull/9044)
-                                                                                                                          
-   
++++
+| <img alt="" src=images/Sketcher_Circle2LineConstraint_relnotes_0.21.png  style="width:384px;"> | La [contrainte de distance](Sketcher_ConstrainDistance/fr.md) de cercle à ligne a été introduite. [Pull request #9044](https://github.com/FreeCAD/FreeCAD/pull/9044) |
++++
+|                                                                                                                       |                                                                                                                                                                              |
++++
 
    
   <img alt="" src=images/Sketcher-snap2_relnotes_0.21.gif  style="width:384px;">Cliquez sur l\'image de gauche pour voir l\'animation.   Le gestionnaire d\'aimantation, l\'aimantation à l\'angle et l\'aimantation au point milieu ont été ajoutés. [Pull request #8387](https://github.com/FreeCAD/FreeCAD/pull/8387)
                                                                                                                                                               
    
 
-   
-  <img alt="" src=images/Sketcher-concentric_relnotes_0.21.gif  style="width:384px;">   [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) peut désormais agir comme une contrainte concentrique lors de la sélection de 2 ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
-                                                                                                    
-   
++++
+| <img alt="" src=images/Sketcher-concentric_relnotes_0.21.gif  style="width:384px;"> | [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) peut désormais agir comme une contrainte concentrique lors de la sélection de 2 ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703) |
++++
+|                                                                                                 |                                                                                                                                                                                                                                                                                      |
++++
 
-   
-  <img alt="" src=images/Sketcher-B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;">   L\'outil [B-spline par des nœuds](Sketcher_CreateBSplineByInterpolation/fr.md) a été ajouté. [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530)
-                                                                                                                        
-   
++++
+| <img alt="" src=images/Sketcher-B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;"> | L\'outil [B-spline par des nœuds](Sketcher_CreateBSplineByInterpolation/fr.md) a été ajouté. [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530) |
++++
+|                                                                                                                     |                                                                                                                                                                         |
++++
 
-   
-  <img alt="" src=images/Sketcher-periodic_B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;">   L\'outil [B-spline périodique par des nœuds](Sketcher_CreatePeriodicBSplineByInterpolation/fr.md) a été ajouté. [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530)
-                                                                                                                                          
-   
++++
+| <img alt="" src=images/Sketcher-periodic_B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;"> | L\'outil [B-spline périodique par des nœuds](Sketcher_CreatePeriodicBSplineByInterpolation/fr.md) a été ajouté. [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530) |
++++
+|                                                                                                                                       |                                                                                                                                                                                            |
++++
 
 
 
@@ -382,32 +363,29 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 
 
 
-## Atelier Spreadsheet 
-
-
-
-### Autres améliorations de Spreadsheet 
-
-
-
 ## Atelier Surface 
 
-   
-  <img alt="" src=images/Surface_BlendCurve_relnotes_0.21.png  style="width:250px;">   L\'outil [Fusion de courbes](Surface_BlendCurve/fr.md) a été ajouté. [Pull request #7339](https://github.com/FreeCAD/FreeCAD/pull/7339)
-                                                                                                  
-   
++++
+| <img alt="" src=images/Surface_BlendCurve_relnotes_0.21.png  style="width:250px;"> | L\'outil [Fusion de courbes](Surface_BlendCurve/fr.md) a été ajouté. [Pull request #7339](https://github.com/FreeCAD/FreeCAD/pull/7339) |
++++
+|                                                                                               |                                                                                                                                                 |
++++
 
 
 
 ## Atelier TechDraw 
 
-   
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_0.21.png  style="width:250px;">             L\'outil [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) a été ajouté pour permettre la création de symboles de finition de surface décrivant la rugosité, la disposition et l\'ondulation, mais aussi le type de traitement de surface. Il prend en charge les styles ISO et ASME. Comme le montre l\'image, l\'outil existant [Ligne de référence](TechDraw_LeaderLine/fr.md) peut être utilisé pour référencer correctement les symboles orientés vers les bords d\'un objet. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_0.21.png  style="width:250px;">                         L\'outil [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) a été ajouté pour permettre la création de demi-sections, de sections décalées et de sections alignées. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
-  <img alt="" src=images/TechDraw_HoleShaftFitExample_relnotes_0.21.png  style="width:250px;">               L\'outil [Tolérance de trou/d\'arbre](TechDraw_HoleShaftFit/fr.md) a été ajouté. [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
-  <img alt="" src=images/TechDraw_AxoLengthDimensionExample_relnotes_0.21.png  style="width:250px;">   L\'outil [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md) a été ajouté. [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
-                                                                                                                                  
-   
++++
+| <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_0.21.png  style="width:250px;">           | L\'outil [Symbole d\'état de surface](TechDraw_SurfaceFinishSymbol/fr.md) a été ajouté pour permettre la création de symboles de finition de surface décrivant la rugosité, la disposition et l\'ondulation, mais aussi le type de traitement de surface. Il prend en charge les styles ISO et ASME. Comme le montre l\'image, l\'outil existant [Ligne de référence](TechDraw_LeaderLine/fr.md) peut être utilisé pour référencer correctement les symboles orientés vers les bords d\'un objet. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227) |
++++
+| <img alt="" src=images/TechDraw_ComplexSection_relnotes_0.21.png  style="width:250px;">                       | L\'outil [Vue en coupe complexe](TechDraw_ComplexSection/fr.md) a été ajouté pour permettre la création de demi-sections, de sections décalées et de sections alignées. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)                                                                                                                                                                                                                                                                                                                                   |
++++
+| <img alt="" src=images/TechDraw_HoleShaftFitExample_relnotes_0.21.png  style="width:250px;">             | L\'outil [Tolérance de trou/d\'arbre](TechDraw_HoleShaftFit/fr.md) a été ajouté. [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)                                                                                                                                                                                                                                                                                                                                                                                                                          |
++++
+| <img alt="" src=images/TechDraw_AxoLengthDimensionExample_relnotes_0.21.png  style="width:250px;"> | L\'outil [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md) a été ajouté. [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)                                                                                                                                                                                                                                                                                                                                                                                                                            |
++++
+|                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
++++
 
 
 
@@ -427,22 +405,6 @@ L\'endroit pour une image accrocheuse sélectionnée par les administrateurs sur
 -   Les cotes 3D peuvent désormais être créées de la même manière que les cotes 2D (à l\'exception du fait que la géométrie doit être sélectionnée dans une vue 3D). Il n\'est donc plus nécessaire de les lier manuellement à la géométrie 3D. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 -   L\'outil [Réparation des cotes](TechDraw_DimensionRepair/fr.md) a été ajouté. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 -   Une fonction pour supprimer les bords qui se chevauchent renvoyés par l\'algorithme de suppression des lignes cachées a été ajoutée plus un nouveau paramètre (dans les préférences avancées) pour le nombre de passages de cette fonction. [Pull request #9280](https://github.com/FreeCAD/FreeCAD/pull/9280)
-
-## Web
-
-
-
-## Ateliers externes 
-
-### A2plus
-
-### Assembly3
-
-### Assembly4
-
-### FCGear
-
-### Ship
 
 ## Compilation
 
@@ -480,6 +442,12 @@ Selon les capacités graphiques OpenGL d\'un ordinateur, il se peut que l\'on re
 ### macOS : l\'atelier Start affiche une page blanche 
 
 Si l\'[atelier Start](Start_Workbench/fr.md) n\'affiche qu\'une page blanche, vous devez activer l\'option **Utiliser le logiciel OpenGL** dans le menu **FreeCAD-0.21 → Préférences → Affichage**.
+
+
+
+## Autres ressources 
+
+-   [Vidéo de Mango Jelly à propos des fonctions de la 0.21](https://www.youtube.com/watch?v=rPxr0yvNgxo)
 
 
 

@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Il vincolo Orizzontale impone a una o più linee selezionate nello schizzo di essere parallele all\'asse orizzontale del disegno.
+
+
 
 ## Utilizzo
 
@@ -73,7 +77,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

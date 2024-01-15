@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Mesh HarmonizeNormals
-   Name/de: Mesh Normalen ausrichten
+   Name/de: Mesh NormalenAusrichten
    MenuLocation: Netze , Normalen ausrichten
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_FlipNormals/de
@@ -28,8 +28,8 @@ Der Befehl **Mesh Normalen ausrichten** richtet die Normalen eines Netzobjektes 
 
 ## Hinweise
 
--   This command can produce a mesh with flipped normals. The [Mesh FlipNormals](Mesh_FlipNormals.md) command can be used to correct this.
--   For a clear indication of the orientation of the faces of mesh objects make sure the **Lighting** property of the mesh objects is set to {{Value|One side}}. The color of the back side of their faces will then depend on the backlight settings: **Edit → Preferences... → Display → 3D View → Backlight color - Intensity**. See: [Preferences Editor](Preferences_Editor#3D_View.md).
+-   Dieser Befehl kann Netze mit umgekehrten Normalen erstellen. Der Befehl [Mesh NormalenUmkehren](Mesh_FlipNormals/de.md) kann verwendet werden, um dies zu korrigieren.
+-   Für eine deutliche Aussage zur Ausrichtung der Flächen von Netzobjekten sollte die {{PropertyView/de|Lighting}} des Netzobjekts auf {{Value|One side}} gesetzt sein, dann hängt die Farbe der Rückseite ihrer Flächen von den Einstellungen der Hintergrundbeleuchtung ab: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Farbe der Hintergrundbeleuchtung - Intensität**. Siehe: [Voreinstellungseditor](Preferences_Editor/de#3D-Viewer.md).
 
 
 

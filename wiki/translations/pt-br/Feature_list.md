@@ -8,6 +8,9 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 ## Notas da Versão 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Versão 0.20](Release_notes_0.20.md) - Junho de 2022
 -   [Versão 0.19](Release_notes_0.19.md) - Março de 2021
 -   [Versão 0.18](Release_notes_0.18.md) - Março de 2019
@@ -18,6 +21,9 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 -   [Versão 0.13](Release_notes_0.13.md) - Janeiro de 2013
 -   [Versão 0.12](Release_notes_0.12.md) - Dezembro de 2011
 -   [Versão 0.11](Release_notes_0.11.md) - Março de 2011
+
+
+</div>
 
 
 
@@ -85,7 +91,7 @@ Esta é lista recursos uma extensa, porém incompleta, que o FreeCAD disponibili
 
 -   **modelagem de extrusões, seções ou filetes a partir do uso de perfis**, **que seguem uma direção reta** ou **que giram ao redor de um eixo**.
 
--   **componentes topológicos** como **vértices\'\',**arestas\'\', **fios** e **planos**.
+-   **componentes topológicos** como *\'vértices*, **arestas\'\',**fios**e**planos\'\'\'.
 
 -   **testes e reparos**. FreeCAD tem ferramentas para testar a integridade de malhas (teste de sólidos, teste de superfícies (non-two-dimensional manifold), teste de auto-intersecção) e para reparar malhas (preenchimento de furos, orientação uniforme).
 

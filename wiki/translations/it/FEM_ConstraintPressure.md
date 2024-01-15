@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Si applica un vincolo di pressione a una faccia.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -29,6 +39,8 @@ Si applica un vincolo di pressione a una faccia.
 
 
 </div>
+
+
 
 ## Note
 

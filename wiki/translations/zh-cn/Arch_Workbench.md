@@ -7,11 +7,11 @@
 
 ## 简介
 
-建筑工作台为FreeCAD提供了一种现代化的[建筑信息模型（building information modelling）](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)工作流程，它支持的特性有完全参数化的建筑实体，如墙、结构构件、屋顶、窗口、台阶、管道与家具。建筑工作台还支持[建筑业国际工业标准（industry foundation classes）](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据，以及联合[TechDraw工作台制作](TechDraw_Workbench.md)2D平面布置图。
+建筑工作台为FreeCAD提供了一种现代化的[建筑信息模型（building information modelling）](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM)工作流程，它支持的特性有完全参数化的建筑实体，如墙、结构构件、屋顶、窗口、台阶、管道与家具。建筑工作台还支持[建筑业国际工业标准（industry foundation classes）](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据，以及联合[TechDraw工作台](TechDraw_Workbench.md)制作2D平面布置图。
 
-由于建筑工作台要利用2D对象来构建其建筑对象，因此，它导入了[底图工作台（Draft Workbench）中的所有工具](Draft_Workbench.md)。除此以外，建筑工作台亦可使用如[零件工具台（Part）与](Part_Workbench.md)[零件设计工作台（PartDesign）所创建的对象](PartDesign_Workbench.md)。
+由于建筑工作台要利用2D对象来构建其建筑对象，因此，它导入了[底图工作台（Draft Workbench）](Draft_Workbench.md)中的所有工具。除此以外，建筑工作台亦可使用如[零件工具台（Part）](Part_Workbench.md)与[零件设计工作台（PartDesign）](PartDesign_Workbench.md)所创建的对象。
 
-FreeCAD中的BIM功能正逐步拆分至此建筑工作台中，它持有基本的建筑体工具与[BIM Workbench](BIM_Workbench.md)，后者可以利用[Addon Manager进行安装](Std_AddonMgr.md)。本工作台在建筑工具（Arch tools）之上添加了一个新的接口层，目标是令FreeCAD中的BIM工作流程更为直观且更易于使用。
+FreeCAD中的BIM功能正逐步拆分至此建筑工作台中，它持有基本的建筑体工具与[BIM Workbench](BIM_Workbench.md)，后者可以利用[Addon Manager](Std_AddonMgr.md)进行安装。本工作台在建筑工具（Arch tools）之上添加了一个新的接口层，目标是令FreeCAD中的BIM工作流程更为直观且更易于使用。
 
 The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch community](https://osarch.org), with the ultimate goal of improving building design by using entirely free software.
 
@@ -125,8 +125,6 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -165,6 +163,10 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
 
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
+
 
 
 ### 首选项
@@ -192,7 +194,7 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 <div class="mw-translate-fuzzy">
 
-在[Python脚本与](Python.md)[宏（macros）中调用](macros.md)[Arch Python API](http://www.freecadweb.org/api/Arch.html)函数即可使用本建筑模块。
+在[Python](Python.md)脚本与[宏（macros）](macros.md)中调用[Arch Python API](http://www.freecadweb.org/api/Arch.html)函数即可使用本建筑模块。
 
 
 </div>

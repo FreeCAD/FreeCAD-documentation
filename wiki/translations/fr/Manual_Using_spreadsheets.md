@@ -1,11 +1,13 @@
 # Manual:Using spreadsheets/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 FreeCAD dispose d\'un autre atelier intéressant à explorer : l'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md). Cet atelier permet de créer des [feuilles de calcul](https://fr.wikipedia.org/wiki/Tableur) telles que celles réalisées avec [Excel](https://fr.wikipedia.org/wiki/Microsoft_Excel) ou [Calc de LibreOffice](https://fr.wikipedia.org/wiki/LibreOffice#Calc) directement dans FreeCAD. Ces feuilles de calcul peuvent ensuite être remplies avec des données extraites de votre modèle et peuvent également effectuer une série de calculs entre les valeurs. Les feuilles de calcul peuvent être exportées sous forme de fichiers CSV, qui peuvent être importés dans n\'importe quelle autre application de tableur.
 
 Dans FreeCAD, cependant, les feuilles de calcul ont une utilité supplémentaire : leurs cellules peuvent recevoir un nom et peuvent être référencées par n\'importe quel champ pris en charge par le moteur des [expressions](Expressions/fr.md). Cela transforme les feuilles de calcul en puissantes structures de contrôle, où les valeurs insérées dans des cellules spécifiques peuvent générer des dimensions du modèle. Il n\'y a qu\'une chose à garder à l\'esprit, car FreeCAD interdit les dépendances circulaires entre les objets, une même feuille de calcul ne peut pas être utilisée pour définir une propriété d\'un objet et, en même temps, récupérer une valeur de propriété à partir du même objet. Cela voudrait dire que la feuille de calcul et l\'objet sont interdépendants.
 
 Dans l\'exemple suivant, nous allons créer quelques objets, récupérer certaines de leurs propriétés dans une feuille de calcul, puis utiliser la feuille de calcul pour générer directement les propriétés d\'autres objets.
+
+
 
 ### Lecture de propriétés 
 
@@ -36,6 +38,8 @@ Dans FreeCAD, en plus de ces comportements communs, on a ajouté une possibilit�
 ![](images/Exercise_spreadsheet_04.jpg )
 
 La page de l\'[atelier Spreadsheet](Spreadsheet_Workbench/fr.md) décrit plus en détail toutes les opérations et fonctions disponibles que vous pouvez utiliser dans les feuilles de calcul.
+
+
 
 ### Ecriture de propriétés 
 

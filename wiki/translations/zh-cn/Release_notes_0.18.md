@@ -1,30 +1,30 @@
 # Release notes 0.18/zh-cn
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Download.md)。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
+FreeCAD 0.18发布于2019年3月12日，您可从此[下载](Download.md)页获得它。本文为此版本中最有趣的一些变化的总结。而完整的变更列表可从[MantisBT bug追踪程序记录的FC 0.18版变更日志](https://www.freecadweb.org/tracker/changelog_page.php?version_id=78)处找到。
 
-旧版FreeCAD的发布说明可从[特性列表处找到](Feature_list#Release_notes.md)。
+旧版FreeCAD的发布说明可从[特性列表](Feature_list#Release_notes.md)处找到。
 
 
 </div>
 
 ## 亮点
 
-经过扩展的[TechDraw工作台工具](#TechDraw_Workbench.md)
+经过扩展的[TechDraw工作台](#TechDraw_Workbench.md)工具
 
 <img alt="图中模型由Laurent14制作" src=images/TechDraw_sheet_screenshot.png  style="width:700px;">
 
 
 
 
-新的[草图工作台工具](#Sketcher_Workbench.md)，以及更稳定、更健壮的[PartDesign工作台](#PartDesign_Workbench.md)
+新的[草图工作台](#Sketcher_Workbench.md)工具，以及更稳定、更健壮的[PartDesign工作台](#PartDesign_Workbench.md)
 
 <img alt="图中模型由un1corn制作" src=images/Part_engine_screenshot.jpg  style="width:700px;">
 
 
 
 
-经过增强与扩展的[建筑与BIM工作台工具](#Arch_Workbench.md)
+经过增强与扩展的[建筑与BIM工作台](#Arch_Workbench.md)工具
 
 <img alt="图中模型由regis制作" src=images/TechDraw_sheet_screenshot.png  style="width:700px;">
 

@@ -1,29 +1,19 @@
 ---
  GuiCommand:
    Name: Arch MergeWalls
-   Name/it: Unisci Pareti
-   MenuLocation: Arch , Utilità , Unisci Pareti
+   Name/it: Unisci Muri
+   MenuLocation: Arch , Utilità , Unisci Muri
    Workbenches: Arch_Workbench/it
-   Shortcut: 
-   SeeAlso: Arch Wall/it
+   SeeAlso: Arch_Wall/it
 ---
 
 # Arch MergeWalls/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src="images/_Arch_Wall.svg" width=16px> [Pareti](Arch_Wall/it.md)** selezionate.
-
-
-</div>
 
 
 
@@ -42,33 +32,14 @@ Lo strumento [Unisci pareti](Arch_MergeWalls/it.md) fonde due o più **<img src=
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 base = joinWalls(walls, delete=False)
 ```
@@ -88,22 +59,6 @@ FreeCAD.ActiveDocument.recompute()
 
 base = Arch.joinWalls([Wall1, Wall2])
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it
-|[Chiudi i fori](Arch_CloseHoles/it.md)
-|[Ispeziona](Arch_Check/it.md)
-|[Arch](Arch_Workbench/it.md)
-|IconL=Arch_CloseHoles.svg
-|IconC=Workbench_Arch.svg
-|IconR=Arch_Check.svg
-}}
-
-
-</div>
 
 
 

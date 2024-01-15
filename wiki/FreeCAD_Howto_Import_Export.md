@@ -18,8 +18,6 @@ Please refer to the Page [FreeCAD and DWG-Import](FreeCAD_and_DWG_Import.md)
 
 Please refer to the Page [FreeCAD and DXF Import](FreeCAD_and_DWG_Import.md)
 
-Tutorial: [DXF Importer Install](Dxf_Importer_Install.md)
-
 ### BREP Format 
 
 Todo

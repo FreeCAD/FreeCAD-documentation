@@ -11,34 +11,22 @@
 |SeeAlso=[Macro Align Working Plane to Camera](Macro_Align_Working_Plane_to_Camera/it.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:24px"> 
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Questa macro allinea la fotocamera al corrente [Piano di lavoro di Draft](Draft_SelectPlane/it.md)
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 -   Impostare il [Piano di lavoro di Draft](Draft_SelectPlane/it.md) desiderato
 -   Eseguire la macro
 
-
-</div>
-
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
+Icona barra strumenti ![](images/Macro_Align_Camera_to_Working_Plane.png )
 
 **Macro_Align_Camera_to_Working_Plane.FCMacro**
 

@@ -24,6 +24,8 @@ La tâche peut être divisée en quatre parties:
 -   La troisième étape consiste à ajouter la prise en compte de la nouvelle équation dans le solveur d\'Elmer.
 -   Après cela, l\'exportation d\'analyse sous Elmer doit être étendue pour prendre en charge le nouveau type d\'équation.
 
+
+
 ## Ajout d\'un nouveau type d\'équation 
 
 Dans cette étape, nous allons modifier le fichier suivant:
@@ -44,6 +46,8 @@ class FlowViewProxy(BaseViewProxy):
     def getIcon(self):
         return ":/icons/FEM_EquationFlow.svg"
 ```
+
+
 
 ## L\'objet équation d\'Elmer 
 
@@ -67,12 +71,16 @@ Commençons par le module qui implémente l\'objet document. Il peut être copi�
 
 L\'équation de l\'écoulement dans Elmer est une équation potentiellement non linéaire. Cela signifie que nous allons focaliser notre travail sur `heat.py`.
 
+
+
 ### Mots-clés 
 
 -   Si la nouvelle équation ne supporte que les mots-clés pour les systèmes \"linéaires\", copiez le module {{Incode|femsolver/elmer/equations/elasticity.py}}.
 -   Si la nouvelle équation supporte les mots-clés pour les systèmes *linéaires* et *non linéaires*, copiez le module {{Incode|femsolver/elmer/equations/heat.py}}.
 
 L\'équation du flux dans Elmer est une équation potentiellement non linéaire. Cela signifie que nous allons baser notre travail sur {{Incode|heat.py}}.
+
+
 
 ### Modification des fichiers 
 
@@ -109,6 +117,8 @@ Enfin, il faut enregistrer une définition de **makeEquationStatcurrent** dans `
 
 Enfin et surtout, enregistrez le nouveau fichier de module (`flow.py`) dans les deux fichiers `src/Mod/Fem/CMakeLists.txt` comme décrit dans [Module d\'extension FEM](https://www.freecadweb.org/wiki/Extend_FEM_Module/fr). Les listes appropriées peuvent être facilement trouvées en recherchant les fichiers de modules d'équations existants d'Elmer.
 
+
+
 ## Extension de l\'objet du solveur 
 
 Dans cette étape, nous allons modifier le fichier suivant:
@@ -133,6 +143,8 @@ _EQUATIONS = {
 +    "Flow": flow,
 }
 ```
+
+
 
 ## Extension de l\'analyse à l\'export 
 
@@ -186,6 +198,8 @@ peut contrôler une série d\'autres méthodes détaillées. Notre équation de 
     
 
 Nous avons maintenant terminé la partie fonction de la nouvelle équation. Ensuite, nous allons connecter la nouvelle équation à travers l\'interface graphique.
+
+
 
 ## Outil de l\'interface graphique pour créer une équation 
 

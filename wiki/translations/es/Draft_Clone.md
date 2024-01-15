@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -34,7 +36,12 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Borrador Clon junto a su objeto de origen*
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias formas de invocar el comando:
@@ -43,11 +50,18 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
     -   Utilice el atajo de teclado: **C** y luego **L**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 
+
+</div>
+
+
+
 ## Propiedades
 
 Ver también: [Editor de propiedades](property_editor/es.md).
 
 Un objeto creado con el comando Clonar Borrador deriva de un [Pieza Pieza2DObjeto](Part_Part2DObject/es.md), de un objeto [Pieza Característica](Part_Feature/es.md) o, si se crea un Arch Clone, del tipo de objeto del objeto fuente. Hereda todas las propiedades de ese objeto. Un clon derivado de uno de los dos primeros objetos también tiene las siguientes propiedades adicionales:
+
+
 
 ### Datos
 
@@ -59,6 +73,8 @@ Un objeto creado con el comando Clonar Borrador deriva de un [Pieza Pieza2DObjet
 -    **Objetos|ListaEnlacesGlobal**: especifica los objetos que se clonan.
 
 -    **Escala|Vector**: especifica los factores de escala X, Y y Z.
+
+
 
 ## Guión
 

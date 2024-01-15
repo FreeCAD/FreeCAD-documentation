@@ -1,38 +1,45 @@
 ---
  GuiCommand:
    Name: FEM MaterialSolid
-   MenuLocation: Model , Materials , Material for solid
-   Workbenches: FEM_Workbench
+   Name/pl: Materiał dla bryły
+   MenuLocation: Model , Materiały , Materiał dla bryły
+   Workbenches: FEM_Workbench/pl
    Shortcut: **M** **S**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MaterialSolid/pl
 
-## Description
 
-Adds material properties to a part.
+
+## Opis
+
+Tworzy materiał dla ciała stałego.
 
 ![](images/FEMMaterialSolidProperties.png ) 
-*The FEM material task panel*
+*Okno dialogowe materiału MES*
 
-## Usage
 
-1.  To create a new MaterialSolid object do one of the following:
-    -   Press the **<img src="images/FEM_MaterialSolid.svg" width=16px> [FEM MaterialSolid](FEM_MaterialSolid.md)** button.
-    -   Select the **Model → Materials → <img src="images/FEM_MaterialSolid.svg" width=16px> Material for solid‏‎** option from the menu.
-2.  To edit an existing MaterialSolid object:
-    -   Double-click it in the [Tree view](Tree_view.md).
-3.  The FEM material task panel opens.
-4.  Select a material. For engineering mechanical analysis, **CalculiX-Steel** is a typical option.
-5.  Provided that you are applying material to the whole object, don\'t select any geometrical entities (leave reference list empty). Material will be applied to the whole model. Otherwise assign material to particular model parts manually by selecting some of them for each inserted material, but don\'t leave any part of the model without material assigned.
-6.  You can adjust material properties such as density, young\'s modulus, poisson ratio, etc., however most of the common materials are already available in the presets and they don\'t need any tweaking.
-7.  If you make modifications, you can save your customized material.
-8.  Press the **Close** button to close the task panel.
 
-## Notes
+## Użycie
 
-1.  The mechanical material uses the \*MATERIAL card in CalculiX. Details about the mechanical material is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
+1.  Aby stworzyć nowy obiekt MaterialSolid, skorzystaj z jednego z następujących podejśćː
+    -   Wciśnij przycisk **<img src="images/FEM_MaterialSolid.svg" width=16px> '''Materiał dla bryły'''**.
+    -   Wybierz opcję **Model → Materiały → <img src="images/FEM_MaterialSolid.svg" width=16px> Materiał dla ciała stałego‏‎** z menu.
+2.  Aby edytować istniejący obiekt MaterialSolid:
+    -   Dwukrotnie kliknij na nim w [widoku drzewa](Tree_view/pl.md).
+3.  Zostanie otwarte okno dialogowe materiału MES.
+4.  Wybierz materiał. Przykładowo, materiał *CalculiX-Steel* jest często używany do analiz mechanicznych.
+5.  Jeśli definiujesz materiał dla całego modelu, nie wybieraj żadnych obiektów geometrycznych *(zostaw pustą listę odniesień)*. Materiał zostanie automatycznie przypisany do całego modelu. W innym wypadku, przypisz materiały do wybranych części ręcznie, poprzez wybieranie ich do poszczególnych definicji materiału, ale nie zostawiaj żadnej części modelu bez definicji materiału.
+6.  Możesz dostosować właściwości materiału, takie jak gęstość, moduł Younga, współczynnik Poissona itd., ale większość powszechnie używanych materiałów jest już dostępna w bazie bez potrzeby zmian właściwości.
+7.  Jeśli wprowadzisz modyfikacje, możesz zapisać zmieniony materiał.
+8.  Wciśnij przycisk **Zamknij** aby zamknąć okno dialogowe.
+
+
+
+## Uwagi
+
+1.  Materiał mechaniczny korzysta ze słowa kluczowego \*MATERIAL w CalculiX. Szczegóły można znaleźć na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node216.html>
 
 
 

@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-如果你喜欢FreeCAD，也愿意为它的开发工作提供帮助，即使你不是一名程序员，除了[捐献以外](Donate.md)，你仍有很多事情可做。
+如果你喜欢FreeCAD，也愿意为它的开发工作提供帮助，即使你不是一名程序员，除了[捐献](Donate.md)以外，你仍有很多事情可做。
 
 
 </div>
@@ -15,16 +15,16 @@ Although FreeCAD doesn\'t need money to be developed, donations can help the pro
 
 ## 文档工作
 
-帮助我们构建、修正并扩充这份文档。例如修正错误，扩充并修正表达不清晰的页面，创建主题缺失的页面。为FreeCAD wiki的文档做贡献很简单，在[WikiPages页面](WikiPages.md)，你能找到起步所需的指导以及帮助。要编辑wiki，你需要一个具有编辑权限的wiki账号（为避免网络垃圾，wiki是写保护的）。你可以通过[论坛](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830)或者[IRC频道](https://wiki.freecadweb.org/Help#Chat)索要一个账号。注意IRC频道的响应应该没有论坛快。[FreeCAD官网论坛](https://forum.freecadweb.org)是主要的提问和讨论地方，它将保存社区的经验与知识。
+帮助我们构建、修正并扩充这份文档。例如修正错误，扩充并修正表达不清晰的页面，创建主题缺失的页面。为FreeCAD wiki的文档做贡献很简单，在[WikiPages](WikiPages.md)页面，你能找到起步所需的指导以及帮助。要编辑wiki，你需要一个具有编辑权限的wiki账号（为避免网络垃圾，wiki是写保护的）。你可以通过[论坛](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830)或者[IRC频道](https://wiki.freecadweb.org/Help#Chat)索要一个账号。注意IRC频道的响应应该没有论坛快。[FreeCAD官网论坛](https://forum.freecadweb.org)是主要的提问和讨论地方，它将保存社区的经验与知识。
 
 
 <div class="mw-translate-fuzzy">
 
 一些期待您工作的地方：
 
--   [范畴：命令参考页面列出了所有FreeCAD](:Category_Command_Reference.md)[命令文档](Command.md)。它们大多数还只含有很少的信息，或者根本就是空白的。良好的命令文档页面如何编写您可以参考[WikiPages](WikiPages.md)。
--   [教程部分需要一些例子以说明如何使用工作台](Tutorials.md)。如果你用FreeCAD做出了挺酷的东西，为什么不为后人记录下来你的做法呢？
--   在FreeCAD的[Bug追踪中仍有一些具有](bugtracker.md)[\"文档\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)标签的，期待您的关照。
+-   [范畴：命令参考](:Category_Command_Reference.md)页面列出了所有FreeCAD[命令](Command.md)文档。它们大多数还只含有很少的信息，或者根本就是空白的。良好的命令文档页面如何编写您可以参考[WikiPages](WikiPages.md)。
+-   [教程](Tutorials.md)部分需要一些例子以说明如何使用工作台。如果你用FreeCAD做出了挺酷的东西，为什么不为后人记录下来你的做法呢？
+-   在FreeCAD的[Bug追踪](bugtracker.md)中仍有一些具有[\"文档\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)标签的，期待您的关照。
 
 
 </div>
@@ -58,7 +58,7 @@ Although FreeCAD doesn\'t need money to be developed, donations can help the pro
 
 请确认你熟悉基本的wiki标记语法；参考[帮助：编辑](Help_Editing.md)。
 
-到[WikiPages熟悉本wiki的样式风格](WikiPages.md)，特别是一些模板文件。
+到[WikiPages](WikiPages.md)熟悉本wiki的样式风格，特别是一些模板文件。
 
 
 <div class="mw-translate-fuzzy">
@@ -120,7 +120,7 @@ There are dozens of bugs reported on [GitHub](https://github.com/FreeCAD/FreeCAD
 
 ### 设计艺术品
 
-看看 [艺术品页面](Artwork.md)，那里有给FreeCAD设计图标的指南。
+看看 [艺术品](Artwork.md)页面，那里有给FreeCAD设计图标的指南。
 
 
 </div>
@@ -136,10 +136,10 @@ See the [Artwork](Artwork.md) and [Artwork Guidelines](Artwork_Guidelines.md) pa
 
 -   FreeCAD有它自己的节奏，它只有很小的一个开发者队伍。我们想投入足够的时间，但是时间总是不够。我们也没有事先计划，总是哪位开发者看着合适又有时间，事情就这样办好了。所以，我们不做什么待办任务列表。你自己决定你喜欢做什么，比如说一个错误你想修正，或者一个缺失的功能你来实现。[跟踪器](http://www.freecadweb.org/tracker)里也有一些议题，还没有分派给任何人。
 -   在你开始为FreeCAD写代码之前，你必须熟悉FreeCAD怎样工作。这看起来是显然的。你如果你不知道它的预期行为，你心里其实也就不知道做什么和怎么做。
--   几乎所有的事情都可以通过Python或C++实现。在两种语言中，内核的表现几乎一致。即使你打算用C++编程，我们还是建议你通读[发烧友中心页面](Power_users_hub.md)，因为它会给你关于内核的一个整体认知。
+-   几乎所有的事情都可以通过Python或C++实现。在两种语言中，内核的表现几乎一致。即使你打算用C++编程，我们还是建议你通读[发烧友中心](Power_users_hub.md)页面，因为它会给你关于内核的一个整体认知。
 -   如果你用C++编程，请先确保你能不带错误地编译。
 -   把你自己介绍给其他开发者。FreeCAD不是别的，它首先是一个社交项目。在实现任何东西以前，我们在[论坛](http://forum.freecadweb.org)里已经有很多讨论了。所以我们给你一个好建议，每次在真正着手之前，先和大家讨论一下你的想法，告诉他们你计划做什么。我们也有一个[异步通讯频道](irc://chat.freenode.net/freecad)，然而论坛才是唯一那个你能遇到所有开发者的地方。
--   从2016年开始，FreeCAD也参与 [谷歌编程夏令营项目](Google_Summer_of_Code.md)。如果你有兴趣参加下一季活动，请先看看我们的点子。
+-   从2016年开始，FreeCAD也参与 [谷歌编程夏令营](Google_Summer_of_Code.md)项目。如果你有兴趣参加下一季活动，请先看看我们的点子。
 
 
 </div>
@@ -161,4 +161,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-⏵ [documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category_Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/zh-cn
+⏵ [documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category_Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/zh-cn

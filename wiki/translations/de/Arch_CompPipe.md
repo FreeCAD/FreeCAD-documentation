@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Arch CompPipe
-   Name/de: Arch BildeRohr
+   Name/de: Arch AuswahlRohr
    MenuLocation: Arch , Rohrwerkzeuge
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    SeeAlso: 
@@ -10,24 +10,19 @@
 
 # Arch CompPipe/de
 
+
+
 ## Beschreibung
 
-Grouping of several pipe related tools.
+Gruppierung mehrerer Werkzeuge im Zusammenhang mit Rohren.
+
+
 
 ## Typen von 
 
--   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Pipe](Arch_Pipe.md): Creates a pipe.
+-   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> [Rohr](Arch_Pipe/de.md): Erstellt ein Rohr.
 
--   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connector](Arch_PipeConnector.md): Creates a corner or T-connection between 2 or 3 selected pipes.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbinder](Arch_PipeConnector/de.md): Erstellt eine Bogen- oder T-Verbindung zwischen 2 bzw 3 ausgewählten Rohren.
 
 
 

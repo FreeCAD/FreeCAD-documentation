@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher ConstrainHorizontal
    Name/de: Sketcher HorizontalFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Horizontal einschränken
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Horizontal festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **H**
    SeeAlso: Sketcher_ConstrainVertical/de
@@ -10,9 +10,13 @@
 
 # Sketcher ConstrainHorizontal/de
 
+
+
 ## Beschreibung
 
-Die Randbedingung HorizontalFestlegen legt fest, dass eine oder mehrere gewählte Linien parallel zur horizontalen Achse der Skizze sind.
+Die Randbedingung HorizontalFestlegen legt fest, dass eine oder mehrere gewählte Linien parallel zur horizontalen Achse der Skizze verlaufen.
+
+
 
 ## Anwendung
 
@@ -33,18 +37,20 @@ Die Randbedingung HorizontalFestlegen legt fest, dass eine oder mehrere gewählt
 *und dann die Beschränkung wie oben beschrieben anwenden, sie werden so eingeschränkt, dass sie parallel zur horizontalen Achse der Skizze liegen.
 *
 
+
+
 ## Skripten
 
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Horizontal', Line))```
 
-Die [Skizzierer Skripten](Sketcher_scripting.md)-Seite erklärt die Werte, die für `Line` verwendet werden können und enthält weitere Beispiele, wie man Beschränkungen aus Python-Skripten erstellt.
+Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Werte, die für `Line` verwendet werden können und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

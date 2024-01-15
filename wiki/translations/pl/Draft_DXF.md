@@ -6,11 +6,15 @@ Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym 
 ![](images/Screenshot_qcad.jpg ) 
 *Rysunek Qcad wyeksportowany do DXF, który jest następnie otwierany w programie FreeCAD*
 
+
+
 ## Importowanie
 
 Dostępne są dwa importery, który z nich będzie używany można określić w menu **Edycja → Preferencje → Import/Eksport → DXF**: Pierwszy jest wbudowany, oparty na C++ i szybki, drugi jest starszy, zakodowany w Pythonie, wolniejszy i wymaga instalacji dodatku, ale czasami lepiej radzi sobie z niektórymi wystąpieniami obiektów i potrafi tworzyć bardziej dopracowane obiekty FreeCAD. Oba obsługują wszystkie wersje DXF począwszy od R12.
 
 Bryły 3D wewnątrz pliku DXF są przechowywane w binarnym bloku ACIS/SAT, który w tej chwili nie może być odczytany przez FreeCAD.
+
+
 
 ### Importer C++ 
 
@@ -30,6 +34,8 @@ Można importować następujące obiekty DXF:
 -   obiekty odniesienia
 -   obiekty przestrzeni papierowej
 
+
+
 ### Starszy importer 
 
 Importer ten może importować następujące obiekty DXF:
@@ -45,9 +51,13 @@ Importer ten może importować następujące obiekty DXF:
 -   linie odniesienia
 -   warstwy
 
+
+
 ## Eksportowanie
 
 Istnieją również dwa eksportery. Starszy eksporter eksportuje do formatu R12 DXF, a eksporter C++ do formatu R14 DXF. Oba formaty mogą być obsługiwane przez wiele aplikacji.
+
+
 
 ### Eksporter C++ 
 
@@ -58,6 +68,8 @@ Niektóre z cech i ograniczeń tego eksportera to:
 -   Teksty i wymiary nie są eksportowane.
 -   Kolory są ignorowane.
 -   Warstwy są mapowane na podstawie nazw obiektów.
+
+
 
 ### Starszy eksporter 
 
@@ -70,13 +82,19 @@ Niektóre z cech i ograniczeń tego eksportera to:
 -   Kolory w DXF są oparte na kolorze linii obiektów. Czarny jest mapowany do \"ByBlock\", inne kolory są mapowane przy użyciu kolorów indeksu kolorów AutoCAD Color Index *(ACI)*.
 -   Warstwy są odwzorowywane na podstawie nazw grup. Gdy grupy są zagnieżdżone, najgłębsza grupa nadaje nazwę warstwy\'
 
+
+
 ## Instalacja
 
 Z powodów licencyjnych, wymagane biblioteki importu/eksportu [DXF](DXF/pl.md) potrzebne dla starszej wersji importera, nie są częścią kodu źródłowego programu FreeCAD. Aby uzyskać więcej informacji zobacz stronę: [FreeCAD i import DXF](FreeCAD_and_DXF_Import/pl.md).
 
+
+
 ## Ustawienia
 
 Aby uzyskać więcej informacji zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
+
+
 
 ## DWG
 
@@ -91,6 +109,8 @@ Wbudowane jest wsparcie dla następujących konwerterów DWG:
 -   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) *(komercyjny)*. {{Version/pl|0.20}}
 
 Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.md) i [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.
+
+
 
 ## Tworzenie skryptów 
 

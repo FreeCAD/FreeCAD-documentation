@@ -5,13 +5,18 @@
 |Icon=multiCuts.png
 |Description=Makro poprawia hierarchię cięć logicznych poprzez automatyczne etykietowanie i używanie kopii dla cięć.
 |Author=Dprojects
+|Download=[https://wiki.freecad.org/images/0/02/MultiCuts.png ikonka paska narzędzi]
 |Date=2022-08-15
 |Version=1.0
 }}
 
+
+
 ## Opis
 
 ![](images/MultiCuts_test.gif )
+
+
 
 ## Skrypt
 
@@ -25,8 +30,8 @@ __Date__    = "2022-08-15"
 __Comment__ = ""
 __Web__ = "https://github.com/dprojects/Woodworking"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_multiCuts"
-__Icon__  = "multiCuts.png"
-__IconW__  = "multiCuts.png"
+__Icon__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
+__IconW__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
 __Help__ = "select base object and next objects to cut the base"
 __Status__ = "stable"
 __Requires__ = "freecad 0.20.29177"

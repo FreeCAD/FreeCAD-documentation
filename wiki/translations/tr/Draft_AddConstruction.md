@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 
@@ -21,6 +23,8 @@ Bu araç seçilen nesne(ler)i [Taslak İnşa grubuna](Draft_ToggleConstructionMo
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

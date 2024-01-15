@@ -22,6 +22,13 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 </div>
 
+
+<small>(v0.22)</small> 
+
+: For each 3D view a separate working plane is stored.
+
+The ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md) changes depending on the current working plane. <small>(v0.22)</small> : If the working plane is not set to **Auto** an asterisk (*****) is appended to the button label if the origin of the working plane does not match the global origin.
+
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
 *Shapes created on different working planes*
 
@@ -30,43 +37,42 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 1.  Do one of the following:
     -   Select a single object. The following objects are supported:
         -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
-        -   [Arch BuildingParts](Arch_BuildingPart.md).
-        -   [Arch SectionPlanes](Arch_SectionPlane.md).
+        -   [Arch Axes](Arch_Axis.md) (<small>(v0.22)</small> )
+        -   [Arch AxisSystems](Arch_AxisSystem.md) (<small>(v0.22)</small> )
+        -   [Arch BuildingParts](Arch_BuildingPart.md)
+        -   [Arch SectionPlanes](Arch_SectionPlane.md)
         -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
-        -   [Part Feature](Part_Feature.md) objects that have a single face. [Part Planes](Part_Plane.md) for example.
-        -   Objects that are not [Part Feature](Part_Feature.md) objects and have a **Placement** property.
+        -   Non-solid objects that consist of a single flat face or a single curved edge, or (<small>(v0.22)</small> ) that have three or more vertices.
+        -   Solid objects or objects without a shape that have a **Placement** property. (<small>(v0.22)</small> )
     -   Select one or more subelements. You can select:
         -   A flat face.
+        -   A curved edge.
         -   Three vertices.
-        -   A circular edge.
-        -   Two straight edges that are co-planar but not co-linear.
-        -   A straight edge and a vertex that does not lie on the (extended) edge.
+        -   An edge and a vertex, or two edges. The combined vertices must define a plane. (<small>(v0.22)</small> )
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
+    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
 3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
 ## Usage with post-selection 
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
+    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Do one of the following:
-    -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select:
-        -   A flat face.
-        -   Three vertices.
+    -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md).
+    -   Select one or more subelements. See the [previous paragraph](#Usage_with_pre-selection.md).
 4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
 5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
 ## Usage with presets 
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
+    -   Press the ![](images/Draft_tray_button_plane.png ) button in the [Draft Tray](Draft_Tray.md).
+    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select plane** option from the menu.
     -   Use the keyboard shortcut: **W** then **P**.
 2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
 3.  Press any of the buttons to finish the command.
@@ -98,8 +104,7 @@ Modul kreslení má pracovní rovinu, která umožňuje specifikovat uživatelsk
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
--   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
+-   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping**.
 -   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 ## Scripting
@@ -115,50 +120,36 @@ Objekt pracovní roviny může být snadno vyvořen a manipulován ve skriptech 
 </div>
 
 
-<div class="mw-translate-fuzzy">
+<small>(v0.22)</small> 
 
-Můžete také přistupovat na aktuální pracovní rovinu Kreslení:
+The WorkingPlane module offers two classes to create working plane objects: the `PlaneBase` class and the `PlaneGui` class. The second class inherits from the first. Objects of the `PlaneGui` class interact with the GUI (the [Draft Tray](Draft_Tray.md) button), the [3D view](3D_view.md) and the [grid](Draft_Snap_Grid.md). `PlaneBase` objects do not.
 
-
-</div>
+Use the `get_working_plane()` method of the WorkingPlane module to get an instance of the `PlaneGui` class linked to the current 3D view. The method either returns the existing working plane linked to the view or creates a new working plane if required.
 
 
 ```python
-# This code only works if the Draft Workbench is active!
-
 import FreeCAD as App
-import FreeCADGui as Gui
+import WorkingPlane
 
-workplane = App.DraftWorkingPlane
+wp = WorkingPlane.get_working_plane()
 
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
+origin = App.Vector(0, 0, 0)
+normal = App.Vector(1, 1, 1).normalize()
+offset = 17
+wp.align_to_point_and_axis(origin, normal, offset)
 
-workplane.alignToPointAndAxis(v1, v2, 17)
-Gui.Snapper.toggleGrid()
-Gui.Snapper.toggleGrid()
+point = App.Vector(10, 15, 2)
+projection = wp.project_point(point)
+print(projection)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Příklad:
-
-
-</div>
+The `PlaneBase` class can be used to create working planes independent of the GUI:
 
 
 ```python
 import WorkingPlane
 
-my_plane = WorkingPlane.plane()
-
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
-my_plane.alignToPointAndAxis(v1, v2, 17)
-
-projection = my_plane.projectPoint(App.Vector(10, 15, 2))
-print(projection)
+wp = WorkingPlane.PlaneBase()
 ```
 
 

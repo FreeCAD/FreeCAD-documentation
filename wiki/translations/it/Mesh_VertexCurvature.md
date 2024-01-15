@@ -8,6 +8,8 @@
 
 # Mesh VertexCurvature/it
 
+
+
 ## Descrizione
 
 The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh objects. A curvature object displays the curvature of a mesh using different colors for the convex, flat and concave parts.
@@ -19,7 +21,7 @@ The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh obj
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Mesh VertexCurvature](Mesh_VertexCurvature.md)** button.
+    -   Press the **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Curvature plot](Mesh_VertexCurvature.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the menu.
     -   Select the **<img src="images/Mesh_VertexCurvature.svg" width=16px> Curvature plot** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
 

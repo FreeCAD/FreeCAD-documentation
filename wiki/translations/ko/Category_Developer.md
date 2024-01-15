@@ -5,7 +5,8 @@ This category contains articles that are relevant for developers.
 
 |     |     |     |
 | --- | --- | --- |
-| [Changelog/ko](Changelog/ko.md) | [Compile on Linux/ko](Compile_on_Linux/ko.md) |
+| [Changelog/ko](Changelog/ko.md) | [Compile on Linux/ko](Compile_on_Linux/ko.md) | [Contributors/ko](Contributors/ko.md) |
+|
 
 
 

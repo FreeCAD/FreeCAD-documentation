@@ -233,6 +233,7 @@ Persone che hanno aiutato a tradurre l\'applicazione FreeCAD (recuperato da <htt
 -   [Марко Пејовић](User_Марко_Пејовић.md)
 -   [Николай Матвеев](User_Николай_Матвеев.md)
 -   [Федір](User_Федір.md)
+-   [JYSEO2016](User_JYSEO2016.md)
 
 
 

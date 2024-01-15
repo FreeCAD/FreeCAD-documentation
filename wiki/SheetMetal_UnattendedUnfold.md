@@ -13,9 +13,11 @@
 
 The <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) command unfolds a sheet metal object.
 
-If the parent body of a selected planar face has been subject to unfolding before, this tool will skip the menu in the task panel. Otherwise it will show an error message asking for either \"set a Manual K-factor\" or \"use a Material Definition Sheet\".
+This command is not available by default, see [Notes](#Notes.md).
 
-With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command the parent body\'s label received a suffix (such as *\_material_0.5din*) and after that it is ready to be use with this tool.
+If the parent body of a selected planar face has been subject to unfolding before, this command will skip the menu in the task panel. Otherwise it will show an error message asking for either \"set a Manual K-factor\" or \"use a Material Definition Sheet\".
+
+With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command the parent body\'s label received a suffix (such as *\_material_0.5din*) and after that it is ready to be used with this command.
 
 ## Usage
 
@@ -24,6 +26,10 @@ With the first use of the <img alt="" src=images/SheetMetal_Unfold.svg  style="w
     -   The **<img src="images/_SheetMetal_UnattendedUnfold.svg_" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** button.
     -   The **SheetMetal → <img src="images/SheetMetal_UnattendedUnfold.svg" width=16px> [Unattended Unfold](SheetMetal_UnattendedUnfold.md)** menu option.
     -   The keyboard shortcut: **U**
+
+## Notes
+
+To make this command available, first enable Engineering Mode in the preferences. Go to **Edit → Preferences → SheetMetal → General Settings**, and set **Engineering UX Mode** to {{Value|Enabled}}. Changing this preference requires a restart of FreeCAD.
 
 ## Properties
 

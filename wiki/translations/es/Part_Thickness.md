@@ -16,7 +16,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Espesor](Part_Thickness/es.md) trabaja sobre una forma sólida y la transforma en un objeto hueco, dando a cada una de sus caras un espesor definido. Con algunos sólidos permite un ahorro de trabajo significativo, pues evita hacer extrusiones y vaciados.
+
+
+</div>
 
 
 

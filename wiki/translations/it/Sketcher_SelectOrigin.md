@@ -9,7 +9,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Seleziona l\'origine di uno schizzo.
+
+
+</div>
 
 
 

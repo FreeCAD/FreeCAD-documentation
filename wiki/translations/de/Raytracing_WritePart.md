@@ -12,8 +12,7 @@
 
 </div>
 
-
-{{Raytracing_Tools_navi/de}}
+ {{Raytracing_Tools_navi/de}}
 
 
 <div class="mw-translate-fuzzy">
@@ -25,8 +24,7 @@ Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-R
 
 </div>
 
-
-{{Userdocnavi/de}}
+ {{Userdocnavi/de}}
 
 
 <div class="mw-translate-fuzzy">
@@ -34,12 +32,16 @@ Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-R
 ## Benutzung
 
 1.  Selektiere das zu exportierende Teil in der Baumansicht
-2.  Wähle **Raytracing** → **Utilities** → **<img src="images/Raytracing_Part.png" width=32px> Exportiere Teil nach POV-Ray...** aus dem oberen Menü.
+2.  Wähle **Raytracing** → **Utilities** → **<img src="images/Raytracing_WritePart.svg" width=32px> Exportiere Teil nach POV-Ray...** aus dem oberen Menü.
 
 
 </div>
 
+
+
 ## Beschränkungen
+
+
 
 ## Anmerkungen
 
@@ -60,4 +62,4 @@ Exportiert das ausgewählte Teil in eine pov-Datei zur Verwendung in einem POV-R
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/de
+⏵ [documentation index](../README.md) > Raytracing WritePart/de

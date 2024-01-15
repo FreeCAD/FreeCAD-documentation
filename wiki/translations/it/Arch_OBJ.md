@@ -1,32 +1,15 @@
 # Arch OBJ/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-
-
-
-
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Oltre all\'esportatore [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) standard di FreeCAD, il [Modulo Architettura](Arch_Workbench/it.md) dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
+Oltre all\'esportatore [OBJ](https://en.wikipedia.org/wiki/Wavefront_.obj_file) standard di FreeCAD, il [Modulo Architettura](Arch_Workbench/it.md) dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
 
 
-</div>
 
-## Exporting without GUI 
+## Esportazione senza GUI 
 
-Exporting without the graphical interface is possible from the command line, using the [Mesh Workbench](Mesh_Workbench.md) exporter only.
+L\'esportazione senza l\'interfaccia grafica è possibile dalla riga di comando, solo utilizzando l\'esportatore di [Mesh](Mesh_Workbench/it.md).
 
-In this example, a STEP file is imported, the colors of the [Shape](Shape.md) are saved, then a mesh is created from it, the colors of the original object are re-applied to the faces of the new mesh, which is then exported to OBJ format. Since this is done with the Mesh Workbench, the result is a triangulated mesh.
+In questo esempio, viene importato un file STEP, i colori della [Shape](Shape/it.md) vengono salvati, quindi da esso viene creata una mesh, i colori dell\'oggetto originale vengono riapplicati alle facce della nuova mesh, che viene poi esportato in formato OBJ. Poiché questa operazione viene eseguita con Mesh Workbench, il risultato è una mesh triangolata.
 
 
 ```python
@@ -51,31 +34,18 @@ for i in range(mesh.countSegments()):
 mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 ```
 
-## More information 
+
+
+## Ulteriori informazioni 
 
 -   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
 
-## Tutorials
 
-
-<div class="mw-translate-fuzzy">
 
 ## Tutorial
 
 -   [Importare da STL o OBJ](Import_from_STL_or_OBJ/it.md)
 -   [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

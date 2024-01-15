@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -17,6 +19,8 @@
 
 ![](images/Std_Placement_taskpanel.png ) 
 *The Placement task panel*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -46,6 +50,7 @@ The dialog can also be launched by clicking on the ellipsis button **...** that 
 ## Notes
 
 -   For more information about the placement parameters see the [Placement](Placement.md) page, and the [Aeroplane](Aeroplane.md) tutorial.
+-   The rotation angle can be set in degrees in the GUI but is stored in radians internally so that angles usually have to be converted when used in scripts.
 
 ## Scripting
 
@@ -80,7 +85,11 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Move the base point of the object, then rotate the object 45 degrees around the X axis. 
+Move the base point of the object, then rotate the object 45 degrees around the X axis.
+
+The math module supplies a method `radians()` to easily convert degrees to radians and has to be imported at first.
+
+
 ```python
 import math
 

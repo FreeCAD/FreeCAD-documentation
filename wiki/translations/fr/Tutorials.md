@@ -40,16 +40,17 @@ FreeCAD fournit deux flux de travail principaux pour modéliser des pièces :
 
 Veuillez noter que le flux de travail de [l\'atelier PartDesign ](PartDesign_Workbench/fr.md) a été considérablement modifié depuis FreeCAD 0.17. Certains tutoriels n\'ont pas été mis à jour et peuvent faire référence à la version 0.16.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Part_WB/fr](Creating_a_simple_part_with_Part_WB/fr.md)\|[Créer une pièce simple avec l\'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Part_WB/fr](Creating_a_simple_part_with_Part_WB/fr.md)\|[Créer une pièce simple avec l\'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md)
 Une introduction à FreeCAD et à l\'atelier Part en utilisant des solides primitifs.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Draft_and_Part_WB/fr](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)\|[Création d\'une pièce simple avec les ateliers Draft et Part](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Draft_and_Part_WB/fr](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)\|[Création d\'une pièce simple avec les ateliers Draft et Part](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md)
 Une introduction à la modélisation de solides avec l\'atelier Draft en créant un profil 2d dans Draft.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_PartDesign/fr](Creating_a_simple_part_with_PartDesign/fr.md)\|[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) (v0.17)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_PartDesign/fr](Creating_a_simple_part_with_PartDesign/fr.md)\|[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) (v0.17)
 Introduction au flux de travaux PartDesign : tracé d\'une esquisse, fonction protrusion, cavité et déplacement de l\'objet.
 
-Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) (v0.17)br/\>Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques : créer une esquisse, fonction protrusion, des références externes, cavité et un miroir.
+Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) (v0.17)
+Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques : créer une esquisse, fonction protrusion, des références externes, cavité et un miroir.
 
 Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial_019](Basic_Part_Design_Tutorial_019.md)\|[Tutoriel d\'introduction PartDesign 019](Basic_Part_Design_Tutorial_019/fr.md) (v0.19 ou supérieure)
 Une version mise à jour du précédent tutoriel. Crée le même modèle en utilisant des techniques qui évitent le [problème de dénomination topologique](Topological_naming_problem/fr.md).
@@ -127,7 +128,7 @@ Il s\'agit d\'un exemple inclus dans chaque installation de FreeCAD. Démontre u
 FEM tutorial result.png\|link=[FEM_tutorial/fr](FEM_tutorial/fr.md)\|[FEM Tutoriel](FEM_tutorial/fr.md) (v0.20)
 Courte introduction aux étapes nécessaires pour effectuer une analyse dans l\'atelier FEM : modéliser votre objet, créer un maillage, ajouter des contraintes et des forces, ajouter un matériau, exécuter le solveur, et visualiser les résultats.
 
-Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a\_Composite_Block/fr](FEM_Shear_of_a_Composite_Block/fr.md)\|[FEM Cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite_Block/fr.md) (v0.17)
+Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a_Composite_Block/fr](FEM_Shear_of_a_Composite_Block/fr.md)\|[FEM Cisaillement d\'un bloc composite](FEM_Shear_of_a_Composite_Block/fr.md) (v0.17)
 Étudier la déformation d\'un bloc constitué d\'un noyau dur entouré d\'un matériau plus mou : créer des régions maillées, ajoutez des matériaux, mettre en place des contraintes de glissement, ajouter des charges de cisaillement, lancer le solveur et visualiser les résultats à l\'aide d\'un plan de coupe.
 
 Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM/fr](Analysis_of_reinforced_concrete_with_FEM/fr.md)\|[FEM Analyse du béton armé](Analysis_of_reinforced_concrete_with_FEM/fr.md) (v0.19)
@@ -143,11 +144,11 @@ Ce tutoriel explique les bases du transfert des données de l\'atelier FEM vers 
 
 ## CNC & impression 3D 
 
-Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[Tutoriel Path, pas à pas pour l\'impatientt](Path_Walkthrough_for_the_Impatient/fr.md)
-Présentation rapide du flux de travail pour l\'atelier Path: créer un travail, définir la sortie, définir l\'outil de fraisage, définir les opérations de tracé, démarrer la simulation et générer un fichier de sortie en G-code.
+Path-WalkThroughResult.gif\|link=[Path Walkthrough for the Impatient/fr](Path_Walkthrough_for_the_Impatient/fr.md)\|[Tutoriel Path, pas à pas pour l\'impatient](Path_Walkthrough_for_the_Impatient/fr.md)
+Présentation rapide du flux de travail pour l\'atelier Path : créer un travail, définir la sortie, définir l\'outil de fraisage, définir les opérations de tracé, démarrer la simulation et générer un fichier de sortie en G-code.
 
 Exercise meshing 03.jpg\|link=[Manual:Preparing models for 3D printing/fr](Manual:Preparing_models_for_3D_printing/fr.md)\|[Préparer les modèles pour l\'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) (v0.16)
-Convertir un objet solide en objet maillé à l'aide de l\'atelier Mesh, exporter le maillage au format STL et utiliser Slic3r pour préparer le code-G. Egalement utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
+Convertir un objet solide en objet maillé à l'aide de l\'atelier Mesh, exporter le maillage au format STL et utiliser Slic3r pour préparer le code-G. Également utiliser l\'atelier Cura ou l\'atelier Path pour générer le code-G.
 
 
 
@@ -245,8 +246,6 @@ Voici une liste de tous les tutoriels qui ne figurent pas dans le manuel **quell
 | [Draft Tutoriel Forme à partir de texte](Draft_ShapeString_tutorial/fr.md)                                                             | Conception produit         | Débutant                  | 0:30                     | r-frank et vocx                                                                               | 0.17 ou ultérieur       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft : Tutoriel](Draft_tutorial/fr.md)                                                                                               | Atelier Draft              | Débutant                  | 0:30                     | [Drei](User_Drei.md) et vocx                                                          | 0.19                    | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Installation du module d\'importation DXF](Dxf_Importer_Install/fr.md)                                                                | Importer                   | Intermédiaire             | 0:05                     | [Mario52](User_Mario52.md)                                                            | Toutes                  | Aucun                                                                                                                                                                                                                                                                                                                         |
 ++++++++
 | [Tutoriel de Bloc moteur](Engine_Block_Tutorial/fr.md)                                                                                 | Atelier Part               | Débutant                  | 1:00                     | Andrewbuck40                                                                                  | 0.14.3700               |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

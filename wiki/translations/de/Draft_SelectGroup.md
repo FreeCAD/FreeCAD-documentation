@@ -1,38 +1,34 @@
 ---
  GuiCommand:
    Name: Draft SelectGroup
-   Name/de: Wähle Gruppe
-   MenuLocation: Dienstprogramme , Wähle Gruppe
+   Name/de: Draft GruppeAuswählen
+   MenuLocation: Dienstprogramme , Gruppe auswählen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Std_Group/de, Draft_AddToGroup/de, Draft_AddConstruction/de, Draft_AutoGroup/de
 ---
 
 # Draft SelectGroup/de
 
+
+
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft GruppeAuswählen** wählt den Inhalt von ausgewählten [Std Gruppen](Std_Group/de.md) oder gruppenähnlichen [Arch](Arch_Workbench/de.md)-Objekten aus. Für ausgewählte Objekte, die keine Gruppen sind, werden die Inhalte der Gruppe ausgewählt, in der sie enthalten sind.
 
-<div class="mw-translate-fuzzy">
-
-Der <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Wähle Gruppe**-Befehl selektiert den Inhalt von [Entwurf Schicht](Draft_Layer/de.md), [Std Gruppe](Std_Group/de.md) oder gruppenähnlichen [Arch](Arch_Workbench/de.md)-Objekten.
+Der Befehl wurde in FreeCAD Version 0.20 überarbeitet und diese Seite beschreibt diese Version.
 
 
-</div>
-
-The command was revised in FreeCAD version 0.20 and this page describes that version.
 
 ## Anwendung
 
+1.  Ein oder mehrere Objekte auwählen, die sich in einer Gruppe befinden und/oder eine oder mehrere Gruppen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_SelectGroup.svg" width=16px> [Gruppe auswählen](Draft_SelectGroup/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectGroup.svg" width=16px> Gruppe auswählen** auswählen.
+    -   Die Menüoption **Dienstprogramme → <img src="images/Draft_SelectGroup.svg" width=16px> Gruppe auswählen** im Kontextmenü von [Baumansicht](Tree_view/de.md) oder [3D-Ansicht](3D_view/de.md) auswählen.
+3.  Der Inhalt der Gruppen wird ausgewählt.
 
-<div class="mw-translate-fuzzy">
 
-## Anwendung 
-
-1.  Wähle eine oder mehrere Gruppen in der Baumansicht
-2.  Drücke den **<img src="images/Draft_SelectGroup.png" width=16px> [Wähle Gruppe](Draft_SelectGroup/de.md)**-Button
-
-
-</div>
 
 ## Hinweise
 

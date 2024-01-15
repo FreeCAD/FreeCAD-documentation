@@ -18,6 +18,8 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 -   [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 操作方法
@@ -27,7 +29,7 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -48,22 +50,26 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 <div class="mw-translate-fuzzy">
 
-マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[Addon ManagerにリンクするAddons](Std_AddonMgr.md) \...ボタンを使ってインストールできます。
+マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[Addon Manager](Std_AddonMgr.md)にリンクするAddons \...ボタンを使ってインストールできます。
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
 
 ### 例
 
-「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチで](Part_Workbench/ja.md)、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
+「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチ](Part_Workbench/ja.md)で、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
 
 
 </div>
 
 Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in the [Part Workbench](Part_Workbench.md), create a cylinder with radius = 10 and height = 10. Then, press the \"stop recording\" button. In the edit macros dialog, you can see the python code that has been recorded, and, if you want, make alterations to it. To execute your macro, simply press the execute button on the toolbar while your macro is in the editor. You macro is always saved to disk, so any change you make, or any new macro you create, will always be available next time you start FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -82,12 +88,14 @@ Of course it is not practical to load a macro in the editor in order to use it. 
 
 <div class="mw-translate-fuzzy">
 
-[Customize Toolbars](Customize_Toolbars.md) この方法であなたのマクロをFreeCADの標準ツールのように使うことができます。これは、FreeCADのpythonスクリプトの力のおかげで、インターフェイスに独自のツールを簡単に追加することができます。Pythonスクリプティングについて詳細をお知りになりたい場合は[Scriptingページを参照してください](Scripting.md)。
+[Customize Toolbars](Customize_Toolbars.md) この方法であなたのマクロをFreeCADの標準ツールのように使うことができます。これは、FreeCADのpythonスクリプトの力のおかげで、インターフェイスに独自のツールを簡単に追加することができます。Pythonスクリプティングについて詳細をお知りになりたい場合は[Scripting](Scripting.md)ページを参照してください。
 
 
 </div>
 
 See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -104,16 +112,20 @@ You can also directly copy/paste python code into a macro, without recording GUI
 See [How to install macros](How_to_install_macros.md) for a more detailed description.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### マクロリポジトリ
 
-[Macros recipesページには](Macros_recipes.md)、あなたのFreeCADに追加できるいくつかの便利なマクロが紹介されています。
+[Macros recipes](Macros_recipes.md)ページには、あなたのFreeCADに追加できるいくつかの便利なマクロが紹介されています。
 
 
 </div>
 
 There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -127,6 +139,8 @@ There are two main places for macros. The first one is the official peer-reviewe
 
 -   [Automatically run macro at startup](Macro_at_Startup.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
+
+
 
 
 <div class="mw-translate-fuzzy">

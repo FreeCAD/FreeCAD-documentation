@@ -15,7 +15,7 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 
 <img alt="" src=images/FEM_Function-Cut-Filter-Example.png  style="width:400px;">
 
-*Un filtre de fonction de découpe avec pour sphère comme fonction de découpe.Le pipeline original est l\'objet semi-transparent.*
+*Un filtre de fonction de découpe avec une sphère comme fonction de découpe.Le pipeline original est l\'objet semi-transparent.*
 
 
 
@@ -33,7 +33,7 @@ Affiche les résultats sur une sphère ou un plan traversant le modèle.
 5.  Les résultats seront affichés sur la surface de la fonction de filtrage.
 6.  Cliquez sur le bouton **OK** pour terminer la commande.
 
-**Remarque** : s\'il n\'existe pas encore de fonction de filtrage, vous ne pouvez définir directement un **champ** après sa création que lorsque <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md) est activé. Sinon, vous pouvez le faire d\'abord après avoir rouvert le menu du dialogue du filtre.
+**Remarque** : un **Champ** ne peut être défini que si une fonction de filtre existe et a été appliquée avec <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:16px;"> [Appliquer les modifications](FEM_PostApplyChanges/fr.md). Alternativement vous pouvez rouvrir la boîte de dialogue du filtre.
 
 
 

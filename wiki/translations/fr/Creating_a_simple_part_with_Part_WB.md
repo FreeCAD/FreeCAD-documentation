@@ -15,6 +15,8 @@
 
 
 
+
+
 ## Introduction
 
 Ce tutoriel a pour but d\'être utilisé comme une première introduction à la modélisation 3d en utilisant l\'[atelier Part](Part_Workbench/fr.md) ![](images/Switch_PartWorkbench.JPG ) de FreeCAD. Après avoir terminé ce tutoriel, vous devriez être en mesure de créer des modèles 3D simples en utilisant des primitives comme des cubes, des cylindres, etc. avec une technique appelée [Géométrie de construction de solides](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), en bref la modélisation **CSG** pour *Constructive Solid Geometry*. Une autre façon de créer des modèles 3D consiste à utiliser une forme 2D, par exemple en extrudant ou en faisant tourner la forme 2D dans l\'espace 3D. Pour une introduction à cette technique, veuillez suivre le tutoriel similaire *[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)*. Les deux tutoriels ont intentionnellement généré exactement le même modèle, ce qui permet au débutant d\'avoir une expérience pratique des deux techniques différentes et de la façon dont elles sont mises en œuvre dans FreeCAD. La définition des deux techniques peut être considérée comme strictement divisée d\'un point de vue sémantique, cependant il n\'y a rien qui empêche directement un mélange des techniques lors de la création de modèles. Il y a quelques mises en garde à faire lors du mélange des techniques de modélisation, qui sont principalement liées à des aspects de la façon dont FreeCAD est programmé. Il y a un [3ème tutoriel](Creating_a_simple_part_with_Draft_and_Part_WB/fr.md) destiné à servir de première introduction à un exemple de modélisation mixte. Ce tutoriel utilise **l\'atelier \"Draft** pour créer un profil 2D utilisé pour extruder un solide dans **l\'atelier Part** pour créer le même modèle que dans ce tutoriel.
@@ -24,6 +26,8 @@ Avant de commencer, regardez comment **[naviguer](Mouse_navigation/fr.md)** dans
 ![](images/T101pwb00-01_navi.png )
 
 De nombreux nouveaux venus dans les programmes de CAO se retrouvent bloqués pendant l\'apprentissage du logiciel, si cela vous arrive, n\'hésitez pas à faire des recherches sur le wiki ou le forum pour obtenir plus d\'informations - il y a de fortes chances que d\'autres personnes aient été bloquées par la même chose dans le passé et qu\'il existe donc déjà une réponse à votre question spécifique. Vous pouvez également poster un message sur le forum pour poser vos questions ou faire part de vos découvertes. Le forum comporte plusieurs fils de discussion où les utilisateurs sont aidés à accomplir toutes sortes de tâches différentes. Ces fils de discussion sont souvent similaires à des didacticiels et comportent souvent des illustrations spécifiques.
+
+
 
 ### Le tutoriel couvre 
 
@@ -38,15 +42,21 @@ De nombreux nouveaux venus dans les programmes de CAO se retrouvent bloqués pen
 -   Organiser l\'arboscence un peu différemment
 -   Empaqueter
 
+
+
 ## Le modèle à réaliser 
 
 <img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png )
 
+
+
 ## Utilisation de l\'atelier Part pour créer et manipuler les blocs de construction primitifs 
 
 Créez un nouveau document et enregistrez-le directement sous un nouveau nom. Il est bon de veiller à enregistrer le document à intervalles réguliers, ou juste avant des opérations plus importantes. Passez ensuite à l**\'[atelier Part](Part_Workbench/fr.md)** en utilisant soit le [sélecteur d\'atelier](Getting_started/fr#Explorer_l.27interface.md) (étiqueté 10 dans l\'image liée) ou en allant dans le menu **Affichage → Atelier**. FreeCAD démarre avec les barres d\'outils en haut, la vue combinée à gauche et la vue 3D à droite.
+
+
 
 ### Créer le bloc solide principal 
 
@@ -66,6 +76,8 @@ Cliquez sur <img alt="" src=images/Std_ViewFitAll.svg  style="width:24px;"> **[T
 
 ![](images/T101pwb01-05_cube2.png )
 
+
+
 ### Créer le congé 
 
 Pour réaliser le congé sur le coin, dans la barre d\'outils, appuyez sur <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> *[Congé](Part_Fillet/fr.md)* qui ouvre le *panneau de tâches* pour les congés dans la [Vue combinée](Combo_view/fr.md) sur le côté. Changez la spinbox *radius* à 20 mm, puis dans la vue 3D, sélectionnez le bord de largeur en haut à droite et cliquez sur **OK**.
@@ -74,11 +86,15 @@ Pour réaliser le congé sur le coin, dans la barre d\'outils, appuyez sur <img 
 
 Le *Panneau de tâches* se ferme et vous revenez à la Vue en arborescence qui comporte maintenant un objet congé au lieu du cube précédent.
 
+
+
 ### Visibilité des enfants 
 
 Cliquez sur le signe plus/caret pour développer les enfants du congé, qui dans ce cas est le *cube* que nous avons créé plus tôt, mais il est grisé. Sélectionnez le cube et appuyez sur la barre d\'espacement - cela permet de rendre le cube visible à nouveau et l\'icône n\'est plus grisée. Pour désélectionner le cube, cliquez dans une zone vide de la vue en arborescence ou de la vue 3D.
 
 ![](images/T101pwb01-07_fillet.png )
+
+
 
 ### Créer le chanfrein 
 
@@ -93,6 +109,8 @@ L\'angle de placement utilise le **vecteur de placement** (Axis) comme axe de ro
 ![](images/T101pwb01-09_chamfer2.png )
 
 Le même placement peut également être obtenu avec d\'autres valeurs. L\'alternative la plus simple d\'un placement identique est un angle de +30 degrés et un axe des y de -1.
+
+
 
 #### Console Python 
 
@@ -118,6 +136,8 @@ Pour effectuer la coupe, avec la touche **Ctrl** enfoncée, sélectionnez d\'abo
 
 ![](images/T101pwb01-14_model1.png )
 
+
+
 #### Les barres d\'outils 
 
 Une petite remarque sur les barres d\'outils, puisqu\'elles sont le moyen habituel de lancer des commandes. Bien qu\'il existe un paramètre de base pour la disposition des barres d\'outils, la disposition réelle sur votre ordinateur peut s\'avérer moins qu\'idéale. Dans ce cas, il est facile de l\'ajuster. Considérez la section supérieure de l\'image ci-dessous. Il y a deux rangées de barres d\'outils et seul un nombre limité de boutons de la barre d\'outils de l\'[atelier Part](Part_Workbench/fr.md) est visible. La façon la plus simple de voir plus de boutons de la barre d\'outils est de maximiser la fenêtre de FreeCAD, à moins qu\'elle ne soit déjà maximisée bien sûr.
@@ -126,6 +146,8 @@ Il est plus courant d\'ajuster la disposition des barres d\'outils en fonction d
 
 ![](images/T101pwb01-141_toolbars.png )
 
+
+
 #### L\'outil de mesure 
 
 L**\'[outil de mesure](Part_Workbench/fr#Mesure.md)** de l**\'atelier Part** peut être utilisé pour vérifier que notre calcul et le placement du chanfrein sont corrects. Appuyez sur le bouton <img alt="" src=images/Part_Measure_Linear.svg  style="width:24px;"> **[Mesure linéaire](Part_Measure_Linear/fr.md)** et un *panneau de tâches* s\'ouvre, puis sélectionnez les 2 points d\'extrémité d\'un côté du chanfrein.
@@ -133,6 +155,8 @@ L**\'[outil de mesure](Part_Workbench/fr#Mesure.md)** de l**\'atelier Part** peu
 ![](images/T101pwb01-15_model1measure1.png )
 
 Il est donné avec une dimension x de 50 mm, effacez la mesure et fermez le dialogue.
+
+
 
 ### Créer le trou 
 
@@ -152,6 +176,8 @@ Félicitations, le modèle est maintenant prêt.
 
 Le modèle de base étant prêt, explorons les différentes façons de modifier ce modèle. Certains exemples concernent l\'apparence, les fonctionnalités supplémentaires ou simplement une autre façon de faire.
 
+
+
 ## Changer couleur et transparence 
 
 Il y a plusieurs façons de modifier l\'apparence des objets, dans ce cas, utilisons l\'onglet Vue dans la partie propriété de la vue combinée. Tout d\'abord, sélectionnez l\'objet dans la vue en arborescence, puis éditez n\'importe quelle propriété comme la couleur de la ligne, la couleur de la forme ou la transparence via l**\'onglet Vue** (qui se trouve en bas de la *Vue combinée*).
@@ -161,6 +187,8 @@ Il y a plusieurs façons de modifier l\'apparence des objets, dans ce cas, utili
 Malheureusement, lorsque l\'objet est sélectionné, il est un peu difficile de voir à quoi il ressemblera après avoir ajusté sa nouvelle apparence. Pour voir le résultat final, il faut désélectionner l\'objet. Voici la nouvelle apparence du modèle, où l\'on peut maintenant voir le trou traversant également en vue iso. Une autre façon de modifier l\'apparence est via le **Affichage → ![](images/)_Apparence...**.
 
 ![](images/T101pwb02-02_appearance2.png )
+
+
 
 ## Une autre façon de repérer le trou 
 
@@ -190,6 +218,8 @@ En répétant l\'étape de la **soustraction booléenne** de tout à l\'heure, o
 
 ![](images/T101pwb03-05_modelmeasure.png )
 
+
+
 ## Faire du trou un trou fraisé 
 
 Revenez à l\'[atelier Part](Part_Workbench/fr.md) et créez un *cône* en cliquant sur le bouton <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **[Cône](Part_Cone/fr.md)** dans la barre d\'outils. Changez *radius1* à 0 mm et *radius2* à 7 mm - cela donnera un *fraisage* de 2 mm sur le rayon. En fixant la \"hauteur\" du cône à 7 mm, on obtient un angle supérieur du cône de 90 degrés, ou un angle de fraisage de 45 degrés. Il convient de noter qu\'une fois encore, on pourrait tout aussi bien utiliser le <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Chanfrein](Part_Chamfer/fr.md).
@@ -212,15 +242,17 @@ Trois éléments doivent être spécifiés, le *type d\'opération*, la *premiè
 
 ![](images/T101pwb04-04_modelcomplete.png )
 
+
+
 ## Faire une pièce creuse 
 
-Faites un *enregistrer sous* sous un nouveau nom. FreeCAD possède toutes les opérations typiques d\'un modeleur 3D, l\'une d\'entre elles est <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Coque](Part_Thickness/fr.md)**, qui est utilisée pour *évider* les pièces.
+Faites un *enregistrer sous* sous un nouveau nom. FreeCAD possède toutes les opérations typiques d\'un modeleur 3D, l\'une d\'entre elles est <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Évider](Part_Thickness/fr.md)**, qui est utilisée pour *évider* les pièces.
 
 Faites pivoter la vue de manière à ce que la face inférieure du modèle soit visible.
 
 ![](images/T101pwb05-01_frombottom.png )
 
-Sélectionnez la *face inférieure* du modèle, puis dans l\'[Atelier Part](Part_Workbench/fr.md) sélectionnez <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Coque](Part_Thickness/fr.md)** et l\'écran devrait ressembler à celui ci-dessous.
+Sélectionnez la *face inférieure* du modèle, puis dans l\'[atelier Part](Part_Workbench/fr.md) sélectionnez <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> **[Évider](Part_Thickness/fr.md)** et l\'écran devrait ressembler à celui ci-dessous.
 
 ![](images/T101pwb05-02_thickness_cmd.png )
 
@@ -235,6 +267,8 @@ De plus, en prenant la mesure de la largeur de la pièce, celle-ci est maintenan
 La largeur extérieure de la pièce est maintenant de 30 mm, comme avant, et les coins sont tous anguleux.
 
 ![](images/T101pwb05-05_thickness_modified.png )
+
+
 
 ## Une autre façon de positionner le chanfrein 
 
@@ -256,11 +290,15 @@ Enfin, modifiez la position en **X=50** et **Z=50** et effectuez la *soustractio
 
 Cela montre une fois de plus qu\'il y a toujours plusieurs façons de produire le même résultat, ce qui est un thème récurrent en matière de modélisation 3D. Lorsqu\'il s\'agit de géométries de base ou de solides, on peut utiliser différents ateliers dans FreeCAD ainsi que différentes commandes et toujours obtenir la même forme extérieure d\'un solide. Vous devez simplement trouver votre propre manière vers un ensemble d\'outils préférés et un flux de travail avec lequel vous êtes à l\'aise. La modélisation en 3D paramétrique est un processus d\'apprentissage constant, et il faut de la pratique pour le maîtriser.
 
+
+
 ## Modification des dimensions, couleurs de la face et TNP 
 
 FreeCAD est un modeleur 3D paramétrique, ce qui vous permet de changer n\'importe quel *placement* ou *dimension* et le modèle sera mis à jour en conséquence. En général, cela fonctionne, mais il est possible de casser un modèle lors de l\'édition - par exemple lorsqu\'un congé est basé sur une arête qui n\'existe plus à cause d\'une modification. Lorsqu\'un modèle se casse pendant la modification, on parle de **TNP ou [Problème de dénomination topologique](Topological_naming_problem/fr.md)**.
 
 Allez-y et expérimentez en changeant les dimensions et les placements pour voir si vous pouvez casser le modèle, n\'oubliez pas de recalculer le modèle après les changements si nécessaire. Cela peut être fait avec le bouton <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Rafraîchir](Std_Refresh/fr.md) dans la barre d\'outils, si l\'icône est grisée, il n\'est pas nécessaire de rafraîchir l\'objet.
+
+
 
 ### Repositionner le cylindre 
 
@@ -269,6 +307,8 @@ Voici un exemple de cylindre déplacé du centre vers un côté du corps princip
 ![](images/T101pwb07-01_cylindermoved.png )
 
 Lorsque vous déplacez le cylindre et que vous percez la surface extérieure, dans la version 0.19 vous perdez une partie des paramètres de couleur de votre modèle. FreeCAD revient aux paramètres par défaut de l\'utilisateur pour les couleurs et la transparence des formes dans la vue 3D, cependant la forme **Cut002** montre toujours les couleurs et la transparence qu\'elle avait auparavant comme on le voit dans l\'image ci-dessous.
+
+
 
 ### Réparer les couleurs 
 
@@ -279,6 +319,8 @@ Voici un moyen de les récupérer. Changez d\'abord *transparency* d\'un cran ve
 ![](images/T101pwb07-03_set_colors.png )
 
 La commande **Définir les couleurs** vous permet de sélectionner des faces une par une d\'une forme et de définir une couleur unique pour les faces sélectionnées.
+
+
 
 ### Plusieurs solides 
 
@@ -306,6 +348,8 @@ La face 2 est le côté droit de la face 2 originale, le côté gauche de l\'anc
 
 Vous êtes encouragés à apprendre comment éviter les modèles cassés à cause de TNP, des lectures supplémentaires peuvent être faites [ailleurs sur le wiki](Topological_naming_problem/fr.md), qui se concentre principalement sur un flux de travail *basé sur des esquisses*, le mécanisme sous-jacent est le même cependant. La renumérotation décrite ici pour les faces est valable pour toutes les entités géométriques, faces, arêtes et sommets.
 
+
+
 ## Organiser l\'arborescence un peu différemment 
 
 Faites un *enregistrer sous* sous un nouveau nom. Puis supprimez toutes les soustractions pour obtenir un modèle ressemblant à celui ci-dessous.
@@ -319,6 +363,8 @@ Au lieu de faire une soustraction pour chaque primitive, nous pouvons d\'abord a
 En utilisant cette approche, la vue en arborescence finit par ressembler à ce qui suit, qui est simplement une façon différente de construire le même modèle. Comparez cela avec la vue arborescente originale, aucune n\'est meilleure que l\'autre, mais lors de la création de modèles plus complexes, une approche plutôt qu\'une autre peut présenter des avantages en termes de facilité de modification/réorganisation du modèle si nécessaire.
 
 ![](images/T101pwb08-02_fused.png )
+
+
 
 ## Enveloppe
 

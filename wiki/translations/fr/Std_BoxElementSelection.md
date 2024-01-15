@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std BoxElementSelection
    Name/fr: Std Sélection d'éléments par boîte
-   MenuLocation: Édition , Sélection d'éléments par boîte
+   MenuLocation: Édition , Sélectionner des éléments par une boîte
    Workbenches: Tous
    Shortcut: **Maj**+**E**
    SeeAlso: Std_BoxSelection/fr, Std_SelectAll/fr
@@ -12,14 +12,14 @@
 
 ## Description
 
-La commande **Std BoxElementSelection** sélectionne des faces dans une zone rectangulaire définie par l\'utilisateur, une boîte, dans la [vue 3D](3D_view/fr.md).
+La commande **Std Sélection d\'éléments par boîte** sélectionne des faces dans une zone rectangulaire définie par l\'utilisateur, une boîte, dans la [vue 3D](3D_view/fr.md).
 
 
 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Sélectionnez l\'option **Édition → <img src="images/Std_BoxElementSelection.svg" width=16px> Sélection d'éléments par boîte** dans le menu.
+    -   Sélectionnez l\'option **Édition → <img src="images/Std_BoxElementSelection.svg" width=16px> Sélectionner des éléments par une boîte** du menu.
     -   Utilisez le raccourci clavier : **Maj**+**E**.
 2.  Effectuez l\'une des actions suivantes :
     -   Faites glisser un rectangle de gauche à droite pour sélectionner les faces dont le centre géométrique se trouve à l\'intérieur du rectangle.

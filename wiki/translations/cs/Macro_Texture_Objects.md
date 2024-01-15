@@ -1,4 +1,7 @@
 # Macro Texture Objects/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Texture Objects
 |Translate=Texture Objects
@@ -10,6 +13,9 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
 |FCVersion= 0.18 и испод
 }}
+
+
+</div>
 
 ## Description
 
@@ -25,6 +31,8 @@ Toto makro umožňuje dočasně vložit obrázek s texturou na vybraný objekt. 
 
 <img alt="" src=images/Textured_objects.jpg  style="width:680px;">
 
+
+
 ## Скрипта
 
 **Macro_Texture_Objects.FCMacro**
@@ -37,7 +45,7 @@ from PySide import QtGui
 from pivy import coin
 
 # get a jpg filename
-jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open image file','*.jpg')
+jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),'Open image file','*.jpg')
 
 # apply textures
 for obj in FreeCADGui.Selection.getSelection():
@@ -47,6 +55,8 @@ for obj in FreeCADGui.Selection.getSelection():
     rootnode.insertChild(tex,1)
 
 }}
+
+
 
 ## Линкови
 

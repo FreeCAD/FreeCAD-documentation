@@ -1,44 +1,54 @@
 ---
  GuiCommand:
    Name: FEM ConstraintBodyHeatSource
-   MenuLocation: Model , Thermal Constraints , Constraint body heat source
-   Workbenches: FEM_Workbench
+   Name/pl: MES: Objętościowe źródło ciepła
+   MenuLocation: Model , Warunki brzegowe i obciążenia termiczne , Objętościowe źródło ciepła
+   Workbenches: FEM_Workbench/pl
    Version: 0.19
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintBodyHeatSource/pl
+
+
 
 ## Opis
 
 Definiuje wewnętrznie wytworzone ciepło ciała podane w W/kg.
 
+
+
 ## Użycie
 
-1.  Either press the **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''FEM ConstraintBodyHeatSource'''** or select the menu **Model → Thermal Constraints → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Constraint body heat source**.
-2.  Set the value:
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> '''Objętościowe źródło ciepła'''** lub wybierz opcję **Model → Warunki brzegowe i obciążenia termiczne → <img src="images/FEM_ConstraintBodyHeatSource.svg" width=16px> Objętościowe źródło ciepła** z menu.
+2.  Wprowadź wartość:
     -   
-        <small>(v1.0)</small> 
+        {{VersionPlus/pl|0.21}}
         
-        : For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
+        : Do analizy 3D wybierz bryłę z modelu, do analizy 2D wybierz powierzchnię.
 
     -   
-        {{VersionMinus|0.20}}
+        {{VersionMinus/pl|0.20}}
         
-        : Since the constraint has no task dialog, use the [property editor](Property_editor.md) and set the property **Heat Source**.
-
-## Limitation
+        : Ponieważ narzędzie nie ma okna dialogowego, użyj [edytora właściwości](Property_editor/pl.md) i ustaw właściwość {{PropertyData/pl|Heat Source}}.
 
 
-{{VersionMinus|0.20}}
 
-: The body heat source is applied to the whole model, meaning all bodies of the setup. It is not possible to select an individual body.
+## Ograniczenia
+
+
+{{VersionMinus/pl|0.20}}
+
+: Objętościowe źródło ciepła jest przykładane na cały model. Nie można wskazać pojedynczych brył.
+
+
 
 ## Uwagi
 
--   To wiązanie działa tylko z solverem Elmer.
--   Więcej informacji można znaleźć w [tym wątku forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) i następujących postach. [Ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=28926) może być również przydatny.
+-   To narzędzie działa tylko z solverem Elmer.
+-   Więcej informacji można znaleźć w [tym wątku forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) i kolejnych postach. [Ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=28926) może być również przydatny.
 -   Przykłady z Elmera można również znaleźć w poradniku [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf).
+
 
 
 

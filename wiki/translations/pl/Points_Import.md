@@ -9,9 +9,13 @@
 
 # Points Import/pl
 
+
+
 ## Opis
 
 Polecenie **Import punktów** importuje chmurę punktów z pliku.
+
+
 
 ## Użycie
 
@@ -21,9 +25,13 @@ Polecenie **Import punktów** importuje chmurę punktów z pliku.
 2.  Wybierz plik chmury punktów.
 3.  Naciśnij przycisk **Otwórz**.
 
+
+
 ## Właściwości
 
 Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
+
+
 
 ## Format pliku chmury punktów 
 
@@ -31,6 +39,8 @@ Zobacz stronę [Konwertuj na punkty](Points_Convert/pl.md).
 -   Każda linia pliku musi zawierać współrzędne X, Y i Z punktu.
 -   Współrzędne muszą być oddzielone spacjami.
 -   We współrzędnych musi być użyty znak dziesiętny, a nie przecinek.
+
+
 
 ## Przykładowy plik chmury punktów 
 

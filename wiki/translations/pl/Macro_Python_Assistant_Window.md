@@ -63,34 +63,49 @@ Most of the functionality for the PAW is provided by the contextual menu, the op
 
 -   Copy
     - provide the standard Copy function
+
 -   Copy selection to console
     - the current selection is copied to the end of the Python Console
+
 -   Copy contents to console
     - the complete contents of the PAW is copied to the end of the Python Console
+
 -   Paste
     - provide the standard Paste function
+
 -   Append contents of Python Console to PAW
     - the copies of the Python Console are placed at the end of the PAW - note that the contents of the Python Console may be a mixture of Python Code, output from Python Code, error message text, output from any part of FreeCAD
+
 -   Select between Markers
     - markers are used to divide up the text of the PAW into sections, once the contents are in sections then a section can be selected individually and worked with (e.g. Copy, Copy to the Python Console, Delete). The intention of Markers is to allow separate and unrelated sequences of Python statement to exist in the PAW, and then be managed and worked with individually.
+
 -   Select all
     - provide the standard Select All function
+
 -   Clearbr
     - provide the standard Clear function where all the text in the PAW is deleted
+
 -   Insert marker
     - insert a textual Marker at the current cursor location
+
 -   Remove \"\>\>\> \"
     - after Python Console output is copied to the PAW, any lines which were output from executed Python commands will be prefixed with \"\>\>\> \", this option removed those prefixes so the output can be used as context free data
+
 -   Reduce multiple blank lines to single blank lines
     - compacts the text by removing multiple blank lines
+
 -   Alter GUI settings
     - brings up a modal window with three controls:
+
 -   <img alt="" src=images/PythonAssistantWindowGui2.jpg  style="width:500px;">
+
     -   a slider to set the percentage of the screen width dedicated to the PAW (remembering that there is a certain width which the FreeCAD main window will not go below)
     -   a slider to set the percentage of the height of the screen dedicated to the PAW
     -   a pair of radio buttons to indicate whether the PAW should be placed at the top or bottom of the left hand side of the screen
+
 -   Save as file
     - the contents of the PAW window are written out to a user selected file - the contents of the PAW are not altered
+
 -   Close window
     - the PAW window is closed and the contents written out to the persistent storage file
     Note: there is no Dialog asking about saving, it is done automatically

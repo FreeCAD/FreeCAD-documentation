@@ -5,23 +5,17 @@
    MenuLocation: Arch , Strumenti pannello , Foglio pannello
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **S**
-   SeeAlso: Arch Panel/it, Arch Panel Cut/it, Arch Nest/it
+   Version: 0.17
+   SeeAlso: Arch_Panel/it, Arch_Panel_Cut/it, Arch_Nest/it
 ---
 
 # Arch Panel Sheet/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di oggetti [Sagoma di pannello](Arch_Panel_Cut/it.md), o qualsiasi altri oggetti 2D come quelli prodotti da [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md). Il Foglio pannello consiste tipicamente in un tracciato di tagli che devono essere eseguiti da una macchina CNC. Questi fogli possono poi essere esportati in un file [DXF](Draft_DXF.md).
-
-
-</div>
+Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di oggetti [Sagoma di pannello](Arch_Panel_Cut/it.md), o qualsiasi altri oggetti 2D come quelli prodotti da [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md). Il Foglio pannello consiste tipicamente in un tracciato di tagli che devono essere eseguiti da una macchina CNC. Questi fogli possono poi essere esportati in un file [DXF](Draft_DXF/it.md).
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
@@ -29,17 +23,15 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 
 *L\'immagine sopra mostra come appaiono i Fogli pannello quando sono esportati in DXF.*
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Facoltativamente, selezionare uno o più oggetti [Sagoma pannello](Arch_Panel_Cut/it.md) o qualsiasi altro oggetto 2D posizionato sul piano XY.
 2.  Premere il pulsante **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Foglio pannello](Arch_Panel_Sheet/it.md)**, o premere i tasti **P** e poi **S**.
 3.  Regolare le proprietà desiderate.
 
 
-</div>
 
 ## Opzioni
 
@@ -49,12 +41,11 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 -   Fogli pannello in grado di visualizzare un margine, che è utile per garantire che ci sia sempre un certo spazio tra gli oggetti interni e il bordo del foglio
 -   Quando i fogli pannello vengono esportati in DXF, i contorni, i fori interni, i tag dei loro figli interni sono collocati su layer diversi, come mostrato nell\'immagine sopra
 
+
+
 ## Proprietà
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
@@ -79,12 +70,6 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 -    {{PropertyData/it|Grain Direction}}: Ciò consente di sapere la direzione principale della fibra del pannello (senso orario, 0 ° significa in alto)
 
 
-</div>
-
-### View
-
-
-<div class="mw-translate-fuzzy">
 
 ### Vista
 
@@ -95,30 +80,15 @@ Questo strumento permette di costruire un foglio 2D con un numero qualsiasi di o
 -    {{PropertyView/it|Show Grain}}: Mostra la struttura della fibra (Make Face deve essere impostata su True)
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Foglio pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Foglio pannello può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -157,24 +127,11 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
+
+
 ## Tutorial
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Tutorial Wikihouse portabile](Wikihouse_porting_tutorial/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

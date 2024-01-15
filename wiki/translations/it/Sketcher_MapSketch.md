@@ -1,21 +1,19 @@
-# Sketcher MapSketch/it
 ---
- GuiCommand:   Name: Sketcher MapSketch   Name/it: Mappa Schizzo   Workbenches: Sketcher Workbench/it   Sketcher, PartDesign Workbench/it---
+ GuiCommand:
+   Name: Sketcher MapSketch
+   Name/it: Mappa Schizzo
+   MenuLocation: Part Design/Schizzo , Mappa schizzo su faccia...
+   Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
+   SeeAlso: Sketcher_NewSketch/it
+---
+
+# Sketcher MapSketch/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Mappa uno **Schizzo già esistente nel progetto** su una faccia planare selezionata in una forma. Permette di utilizzare uno schizzo realizzato in precedenza, di modificarlo e, inoltre, di riposizionarlo sul piano definito dalla faccia selezionata. Le funzioni PartDesign create da questo disegno saranno fuse con il solido di base per le funzionalità additive (PAD, Rivoluzione) o sottratte dal solido di base nel caso di funzioni sottrattive (Scavo, Scanalatura).
-
-
-</div>
+Questo strumento mappa uno schizzo esistente sulla faccia di una forma. Le funzionalità di PartDesign create da questo schizzo verranno fuse con il solido sottostante per le funzionalità aggiuntive (Pad, Rivoluzione) o verranno sottratte dal solido sottostante in caso di funzionalità sottrattive (Tasca, Scanalatura).
 
 Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimappa uno schizzo esistente alla faccia di un solido o di una funzione PartDesign. Casi d\'uso tipici sono:
 
@@ -29,15 +27,10 @@ Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimapp
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare la faccia della forma su cui si vuole applicare lo schizzo
-2.  Fare clic sul pulsante **<img src="images/Sketcher_MapSketch.svg" width=16px> Mappa uno schizzo su una faccia** per selezionare lo schizzo da utilizzare.
-3.  Selezionare lo schizzo. Questa azione posiziona automaticamente lo schizzo selezionato sul piano della faccia attiva, anche se faccia e schizzo sono orientati diversamente, e avvia l\'ambiente Sketcher per consentire eventuali modifiche allo schizzo stesso.
-
-
-</div>
+-   Selezionare la faccia di un oggetto PartDesign o di un solido.
+-   Fare clic sull\'icona **<img src="images/Sketcher_MapSketch.svg" width=16px> [Mappa schizzo su faccia](Sketcher_MapSketch/it.md)** nella barra degli strumenti (o andare al menu PartDesign o Schizzo a seconda dell\'ambiente di lavoro attivo )
+-   Nella finestra di dialogo **Seleziona schizzo** che si apre, selezionare dall\'elenco lo schizzo da mappare sulla faccia e fare clic su OK.
+-   Lo schizzo viene aperto automaticamente in modalità di modifica.
 
 
 
@@ -45,19 +38,13 @@ Notare che questo strumento non serve per creare i nuovi disegni. Mappa o rimapp
 
 Mappa schizzo viene spesso utilizzato durante la riparazione di un modello danneggiato.
 
-
-<div class="mw-translate-fuzzy">
-
-Un caso d\'uso comune è quando il grafico delle dipendenze è stato rotto. Si può visualizzare il grafico delle dipendenze da **Strumenti** → **[Grafico delle dipendenze](Std_DependencyGraph/it.md)**. Questo può accadere quando si elimina una funzione nel mezzo dell\'albero del modello. Nell\'esempio seguente interromperemo e ripareremo un modello.
-
-
-</div>
+Un caso d\'uso comune è quando il grafico delle dipendenze è stato rovinato. (Si può visualizzare il grafico delle dipendenze da **Strumenti** → **[Grafico delle dipendenze](Std_DependencyGraph/it.md)**). Questo può accadere quando si elimina una funzione nel mezzo dell\'albero del modello. Nell\'esempio seguente interromperemo e ripareremo un modello.
 
 Questo è il modello base. Ha un pad, una tasca e un pad all\'interno della tasca. Notare che il grafico delle dipendenze è lineare.
 
 ![](images/JschremppFCADEdit1.png )
 
-Ora abbiamo eliminato la tasca e lo schizzo che ha creato la tasca (Pocket e Sketch001). Notare che ora il grafico delle dipendenze è interrotto. Per riparare questo modello, vogliamo allegare Sketch002 alla faccia superiore del Pad. Nella vista del modello si può vedere che sarebbe facile selezionare la faccia sbagliata.
+Ora abbiamo eliminato la tasca e lo schizzo che ha creato la tasca (Pocket e Sketch001). Notare che ora il grafico delle dipendenze è interrotto. Per riparare questo modello, vogliamo attaccare Sketch002 alla faccia superiore del Pad. Nella vista del modello si può vedere che sarebbe facile selezionare la faccia sbagliata.
 
 ![](images/JschremppFCADEdit2.png )
 
@@ -70,13 +57,7 @@ Ora selezioniamo la faccia superiore di Pad e quindi selezioniamo lo strumento M
 ![](images/JschremppFCADEdit4.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

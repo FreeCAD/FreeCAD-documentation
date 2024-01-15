@@ -94,4 +94,4 @@ FreeCAD posiada [Bibliotekę Modeli](https://github.com/FreeCAD/FreeCAD-library)
 
 
 ---
-⏵ [documentation index](../README.md) > [Command Reference]] wyszczególnia i dokumentuje wszystkie  ](Category_Command Reference]] wyszczególnia i dokumentuje wszystkie  .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/pl
+⏵ [documentation index](../README.md) > [Command Reference]] wyszczególnia i dokumentuje wszystkie  ](Category_Command Reference]] wyszczególnia i dokumentuje wszystkie  .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/pl

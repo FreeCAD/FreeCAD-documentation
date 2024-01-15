@@ -1,6 +1,7 @@
 # Macro FCCamera/fr
 {{Macro/fr
 |Name=Macro FCCamera
+|Name/fr=Macro FCCamera
 |Icon=FCCamera_00.png
 |Description={{ColoredText|#ff0000|#ffffff|Nouvelle version de l'interface modifiée pour HD dpi (QGridLayout) fonctionnant uniquement avec FC version 0.18 et plus (PySide2 Qt5)}}<br/>Pour les versions précédentes, voir [https://gist.githubusercontent.com/mario52a/4aa545c23b323cf68824/raw/42dc3ef73dc8db463a03b175f5a7f1f6978e3293/Macro%2520FCCamera.FCMacro FCCamera] et l'installer manuellement.<br/><br/>
 Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini et crée un plan pour faire face à l'écran afin de créer un formulaire dans les positions du plan spécifiées : la face sélectionnée faisant face à l'écran, pour détecter la position de la caméra, aligner la vue sur la face ou sur l'axe, aligner l'objet à voir.
@@ -8,7 +9,7 @@ Cette macro peut faire pivoter l'écran selon un angle défini et l'axe défini 
 |Version=0.14
 |Date=2020/10/20
 |FCVersion=0.18 et plus
-|Download=
+|Download=[https://wiki.freecad.org/images/2/25/FCCamera_00.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -193,24 +194,24 @@ Le même résultat peut être obtenu en créant un plan dans le coin donné par 
 
 ## Versions
 
--   **ver 0.14 (20/10/2020):** correction du bogue \"Grid\" non accepté
+-   **ver 0.14 (20/10/2020) :** correction du bogue \"Grid\" non accepté
 
--   **ver 0.13 (28/06/2020):** ajout des images dans le code souece, creation du plan \"On point, Center face, BBox center, Center Mass\", gridLayout
+-   **ver 0.13 (28/06/2020) :** ajout des images dans le code souece, creation du plan \"On point, Center face, BBox center, Center Mass\", gridLayout
 
--   **ver 00.12.1 (12/02/2020):** suppression des mauvais caractères lignes 674 et 675 (accent\...) encore
+-   **ver 00.12.1 (12/02/2020) :** suppression des mauvais caractères lignes 674 et 675 (accent\...) encore
 
--   **ver 12 (01/08/2019):** compatible Python 3 ( print to print() )
+-   **ver 12 (01/08/2019) :** compatible Python 3 ( print to print() )
 
--   **ver 11 (13/01/2018):** mineur
+-   **ver 11 (13/01/2018) :** mineur
 
--   **ver 10 (13/01/2018):** ajout \"def centerBoundBoxGlobal():\" pour version 0.17
+-   **ver 10 (13/01/2018) :** ajout \"def centerBoundBoxGlobal():\" pour version 0.17
 
--   **ver 09 (08/01/2018):** mineur
+-   **ver 09 (08/01/2018) :** mineur
 
--   **ver 08 (08/01/2018):** supp \"Pyqt4\" and adjust number image
--   **ver 07 (03/01/2018):** ajout du panneau photo et de la rotation sur un axe de direction aléatoire sélectionné (wire, edge, line )
+-   **ver 08 (08/01/2018) :** supp \"Pyqt4\" and adjust number image
+-   **ver 07 (03/01/2018) :** ajout du panneau photo et de la rotation sur un axe de direction aléatoire sélectionné (wire, edge, line )
 
--   **ver 0.6 (13/12/2016):** nouveau système de recherche du chemin des macros directement dans les préférences.
+-   **ver 0.6 (13/12/2016) :** nouveau système de recherche du chemin des macros directement dans les préférences.
 
 #path = FreeCAD.ConfigGet("AppHomePath")
 #path = FreeCAD.ConfigGet("UserAppData")
@@ -220,7 +221,7 @@ path = param.GetString("MacroPath","") + "/"                
 path = path.replace("\\","/")
 App.Console.PrintMessage("Path locality to FCCamera.....images.png [ " + path + " ]"+"\n")
 
--   **ver 0.5 06/09/2016:** correction du nom \"FCCamera_Axis_rotation_X.png\" dans le bloc reset
+-   **ver 0.5 06/09/2016 :** correction du nom \"FCCamera_Axis_rotation_X.png\" dans le bloc reset
 
 -   **ver 0.4 28/02/2016 :** affichage de tous les renseignements de la caméra et calcul de la [Direction](http://forum.freecadweb.org/viewtopic.php?f=13&t=14213#p114667)
 

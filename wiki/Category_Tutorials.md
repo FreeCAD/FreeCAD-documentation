@@ -15,11 +15,11 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 | [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md) | [BIM ingame tutorial](BIM_ingame_tutorial.md) | [Creating a simple part with Draft and Part WB](Creating_a_simple_part_with_Draft_and_Part_WB.md) |
 | [Creating a simple part with Part WB](Creating_a_simple_part_with_Part_WB.md) | [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) | [Customize Toolbars](Customize_Toolbars.md) |
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md) | [Draft tutorial](Draft_tutorial.md) | [Drawing Template HowTo](Drawing_Template_HowTo.md) |
-| [Drawing tutorial](Drawing_tutorial.md) | [Dxf Importer Install](Dxf_Importer_Install.md) | [Engine Block Tutorial](Engine_Block_Tutorial.md) |
-| [Example Combined Footing](Example_Combined_Footing.md) | [Example Slab Having LShape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md) | [Example Slab Having Mesh Of Straight Rebars](Example_Slab_Having_Mesh_Of_Straight_Rebars.md) |
-| [Example Slab Having UShape Rebars Reinforcement Mesh](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh.md) | [Example Slab Spanning in One Direction](Example_Slab_Spanning_in_One_Direction.md) | [Example Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md) |
-| [Export to STL or OBJ](Export_to_STL_or_OBJ.md) | [Extend FEM Module](Extend_FEM_Module.md) | [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) |
-| [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md) | [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md) | [FEM tutorial](FEM_tutorial.md) |
+| [Drawing tutorial](Drawing_tutorial.md) | [Engine Block Tutorial](Engine_Block_Tutorial.md) | [Example Combined Footing](Example_Combined_Footing.md) |
+| [Example Slab Having LShape Rebars Reinforcement Mesh](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh.md) | [Example Slab Having Mesh Of Straight Rebars](Example_Slab_Having_Mesh_Of_Straight_Rebars.md) | [Example Slab Having UShape Rebars Reinforcement Mesh](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh.md) |
+| [Example Slab Spanning in One Direction](Example_Slab_Spanning_in_One_Direction.md) | [Example Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md) | [Export to STL or OBJ](Export_to_STL_or_OBJ.md) |
+| [Extend FEM Module](Extend_FEM_Module.md) | [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) | [FEM Example Capacitance Two Balls](FEM_Example_Capacitance_Two_Balls.md) |
+| [FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md) | [FEM Shear of a Composite Block](FEM_Shear_of_a_Composite_Block.md) | [FEM tutorial](FEM_tutorial.md) |
 | [FEM Tutorial Python](FEM_Tutorial_Python.md) | [FreeCAD on Video](FreeCAD_on_Video.md) | [FreeCAD-Ship s60 tutorial](FreeCAD-Ship_s60_tutorial.md) |
 | [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md) | [How to install additional workbenches](How_to_install_additional_workbenches.md) | [How to install macros](How_to_install_macros.md) |
 | [Import from STL or OBJ](Import_from_STL_or_OBJ.md) | [Import OpenSCAD code](Import_OpenSCAD_code.md) | [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md) |

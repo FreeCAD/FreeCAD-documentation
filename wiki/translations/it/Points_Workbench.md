@@ -2,10 +2,10 @@
 
 
 
+
+
+
 ## Introduzione
-
-
-
 
 L\'[Ambiente Points](Points_Workbench/it.md) <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> offre gli strumenti specifici per lavorare con [point clouds](http://en.wikipedia.org/wiki/Point_cloud) (nuvole di punti). È ancora in sviluppo.
 
@@ -15,19 +15,19 @@ Una nuvola di punti è una raccolta di punti nello spazio 3D. Generalmente una n
 
 ## Strumenti
 
-È possibile accedere a tutti gli strumenti di Points dal menu **Points**. Alcuni strumenti sono disponibili anche nella barra degli strumenti **Strumenti punti**.
-
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Converti in punti\...](Points_Convert/it.md): crea nuvole di punti da oggetti forma.
-
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Nuvola di punti strutturata](Points_Structure/it.md): crea una nuvola di punti strutturata a partire dai punti di una nube di punti esistente.
+È possibile accedere a tutti gli strumenti di Points dal menu **Points** e tramite la barra degli strumenti **Strumenti punti**.
 
 -   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Importa punti\...](Points_Import/it.md): importa una nuvola di punti da un file.
 
 -   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Esporta punti\...](Points_Export/it.md): esporta una nuvola di punti in un file.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Taglia i punti con un poligono](Points_PolyCut/it.md): taglia i punti dalle nuvole di punti.
+-   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Converti in punti\...](Points_Convert/it.md): crea nuvole di punti da oggetti forma.
+
+-   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Nuvola di punti strutturata](Points_Structure/it.md): crea una nuvola di punti strutturata a partire dai punti di una nube di punti esistente.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Unisci le nuvole di punti](Points_Merge/it.md): unisce diverse nuvole di punti in una sola.
+
+-   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Taglia i punti con un poligono](Points_PolyCut/it.md): taglia i punti dalle nuvole di punti.
 
 
 

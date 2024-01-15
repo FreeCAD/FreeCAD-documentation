@@ -40,7 +40,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub.md): Opens the FreeCAD Power users documentation wiki page.
 
--   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the python index of modules in your default Internet browser.
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the Python index of modules in your default Internet browser.
 
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [FreeCAD Forum](Std_FreeCADForum.md): Opens the FreeCAD forum.
 

@@ -1,5 +1,5 @@
 # Embedding FreeCAD/de
-## Einführung
+## Einleitung
 
 FreeCAD kann als ein [Python](Python/de.md)-Modul in anderen Programmen oder einer eigenständigen Python-Konsole importiert werden, zusammen mit all seinen Modulen und Komponenten. Es ist sogar möglich, die FreeCAD-GUI als ein Python-Modul zu importieren, allerdings mit [einigen Einschränkungen](Embedding_FreeCAD/de#Caveats.md).
 

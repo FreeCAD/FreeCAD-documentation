@@ -1,14 +1,9 @@
 # Installing on Mac/pl
-FreeCAD można zainstalować na systemie MacOS jako pakiet .dmg, który może zostać przeciągnięty do folderu Aplikacje:
+FreeCAD można zainstalować na systemie MacOS jako pakiet .dmg, który może zostać przeciągnięty do folderu Aplikacje, zobacz stronę [Pobieranie](Download/pl.md).
 
+Jeśli chcesz pobrać wersję rozwojową, która może być niestabilna, zobacz stronę [Pobieranie kompilacji tygodniowych](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
-{{DownloadMacStable}}
-
-kompilacja weekly może być pobrana z
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-Jednakże, w celu aktualizacji oprogramowania, wysoce zalecane jest użycie menedżera pakietów, takiego jak **HomeBrew**. Instrukcje instalacji HomeBrew można zobaczyć [tutaj](https://brew.sh/). Kiedy HomeBrew jest zainstalowany, możesz po prostu zainstalować FreeCAD 0.18.4 poprzez swój terminal bash z
+Jednakże, w celu aktualizacji oprogramowania, wysoce zalecane jest użycie menedżera pakietów, takiego jak **HomeBrew**. Instrukcje instalacji HomeBrew można zobaczyć [tutaj](https://brew.sh/). Kiedy HomeBrew jest zainstalowany, możesz po prostu zainstalować FreeCAD poprzez swój terminal bash z
 
 
 ```python
@@ -45,10 +40,15 @@ Teraz wystarczy kliknąć na ikone aplikacji, aby uruchomić FreeCAD. Jeśli uka
 
 Obecnie nie ma dezinstalatora dla FreeCAD zainstalowanego z pakietem dmg. Aby całkowicie usunąć FreeCAD i wszystkie zainstalowane komponenty, przeciągnij następujące pliki i foldery do kosza:
 
--   Folder /Applications:
-    -   FreeCAD
+-   W katalogu aplikacji:
+    -   /Applications/FreeCAD.app
+-   W katalogu domowym biblioteki użytkownika
+    -   \$HOME/Library/Application Support/FreeCAD
+    -   \$HOME/Library/Preferences/FreeCAD
+    -   \$HOME/Library/Preferences/com.freecad.FreeCAD.plist
+    -   \$HOME/Library/Caches/FreeCAD
 
-Jeśli zainstalowałeś FreeCAD z homebrajskim, po prostu użyj polecenia `brew uninstall freecad`. To jest to.
+Jeśli zainstalowałeś FreeCAD z homebrajskim, po prostu użyj polecenia `brew uninstall freecad`, aby odinstalować /Applications/FreeCAD.app. Powiązane pliki i katalogi w bibliotece domowej użytkownika będą musiały zostać usunięte samodzielnie.
 
 
 

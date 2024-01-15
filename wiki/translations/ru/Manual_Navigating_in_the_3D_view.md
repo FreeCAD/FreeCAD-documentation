@@ -1,14 +1,7 @@
 # Manual:Navigating in the 3D view/ru
-<div class="mw-translate-fuzzy">
+{{Manual:TOC}}
 
 
-
-
-
-</div>
-
-
-{{Manual:TOC/ru}}
 
 ### Слово о трёхмерном пространстве 
 
@@ -24,7 +17,11 @@
 
 Вы можете смотреть на эту сцену с любого угла, как будто Вы держите камеру. Камеру можно сдвигать влево, вправо, вверх и вниз (сдвиг), поворачивать вокруг рассматриваемого объекта (вращать), и придвигать/отодвигать от сцены (масштаб).
 
+
+
 ### Окно трёхмерного вида FreeCAD 
+
+
 
 #### Навигация мышью 
 
@@ -65,18 +62,17 @@
 
 </div>
 
+
+
 #### Навигация клавиатурой 
 
 Однако некоторые управляющие комбинации доступны всегда, вне зависимости от режима навигации:
 
-
-<div class="mw-translate-fuzzy">
-
--    **CTRL**\+ {{ASCII|43}} и **CTRL** + {{ASCII|22}} для приближения и отдаления вида соответственно
+-    **Ctrl**\+ {{ASCII|43}} и **Ctrl** + {{ASCII|22}} для приближения и отдаления вида соответственно
 
 -   Клавиши стрелок {{ASCII|17}}{{ASCII|16}}{{ASCII|30}}{{ASCII|31}} для сдвига вида влево/вправо и вверх/вниз
 
--    **SHIFT**\+ {{ASCII|17}} и **SHIFT** + {{ASCII|16}} для вращения вида на 90 градусов
+-    **Shift**\+ {{ASCII|17}} и **Shift** + {{ASCII|16}} для вращения вида на 90 градусов
 
 -   Цифровые клавиши, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, для переключения семи стандартных видов: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Изометрический](Std_ViewIsometric/ru.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [спереди](Std_ViewFront/ru.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [сверху](Std_ViewTop/ru.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [справа](Std_ViewRight/ru.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [сзади](Std_ViewRear/ru.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [снизу](Std_ViewBottom/ru.md) и <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [слева](Std_ViewLeft/ru.md)
 
@@ -86,10 +82,7 @@
 -    **V**
     **P**устанавливает камеру в режим <img alt="" src=images/View-perspective.svg  style="width:24px;"> [перспективы](Std_PerspectiveCamera/ru.md)
 
--    **CTRL**позволяет выбрать более одного, дополнительные объекты или элементы
-
-
-</div>
+-    **Ctrl**позволяет выбрать более одного, дополнительные объекты или элементы
 
 Эти элементы управления так же доступны из [меню Вид](Std_View_Menu/ru.md), а некоторые из панели инструментов Вида.
 
@@ -109,6 +102,8 @@
 
 Маленький куб в слева внизу от кластера активирует выпадающее меню выбора режима отображения.
 
+
+
 ### Выбор объектов 
 
 Объекты внутри трёхмерного вида могут быть выделены кликом на них кнопкой мыши, соответствующей режиму навигации (описанном выше). Одиночный клик выделяет объект, и один из его субкомпонентов. Двойной клик выбирает объект и все его субкомпоненты. Можно выделить более одного субкомпонента или даже различные субкомпоненты из различных объектов нажатием кнопки CTRL. Клик на пустом месте трёхмерного вида снимает всё выделение.
@@ -121,23 +116,8 @@
 
 **Читать далее**
 
-
-<div class="mw-translate-fuzzy">
-
--   [Модель навигации в FreeCAD](Mouse_Model/ru.md)
--   [Navigation Cluster](Navigation_Cube/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   [Модель навигации в FreeCAD](Mouse_navigation/ru.md)
+-   [Навигационный Куб](Navigation_Cube/ru.md)
 
 
 

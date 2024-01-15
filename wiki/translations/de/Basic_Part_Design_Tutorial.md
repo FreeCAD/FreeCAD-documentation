@@ -6,6 +6,7 @@
    Time: Unter einer Stunde
    FCVersion: 0.17 oder höher
    Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Grundlagen Part Design für v0.17
+   SeeAlso: Basic_Part_Design_Tutorial_019
 ---
 
 # Basic Part Design Tutorial/de
@@ -22,17 +23,27 @@ Ein Video der gesamten Konstruktion ist hier: <https://youtu.be/geIrH1cOCzc>
 
 (jeder Abschnitt hat sein eigenes separates Video unten)
 
+
+
 ## Bevor du anfängst 
+
+
 
 ## Die Aufgabe 
 
 In diesem Tutorium wird mit dem Arbeitsbereich Part Design ein 3D-Volumenmodell des Bauteils, das in der [Zeichnung](TechDraw_Workbench/de.md) unten gezeigt wird. Alle für diese Aufgabe erforderlichen Maße sind vorhanden. Am Anfang steht die Erstellung einer Kernform aus einer Basisskizze; danach wird auf dieser Form aufgebaut, indem so genannte Formelemente hinzugefügt werden. Diese Formelemente fügen dem Volumenkörper entweder Material hinzu oder entfernen Material von ihm, indem sie zusätzliche Skizzen und zugehörige Formelement-Operationen verwenden. In diesem Tutorium werden nicht alle Funktionen und Werkzeuge verwendet, die im Arbeitsbereich Part Design zur Verfügung stehen, sondern es werden so viele verwendet, dass der Benutzer dieses Tutoriums eine grundlegende Basis erhält, auf der er sein Wissen und seine Fähigkeiten aufbauen kann.
 
+
+
 ## Das Bauteil 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
+
+
 ## Konstruktion des Bauteils 
+
+
 
 ### Beginn
 
@@ -53,6 +64,8 @@ Hinweis: Es ist möglich, dass die **OK**-Schaltfläche nicht sichtbar ist, wenn
 Sobald auf OK geklickt wird, wechselt FreeCAD automatisch in den Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) und öffnet die Skizze im Bearbeitungsmodus:
 
 ![](images/Tut17_sketcherempty.png )
+
+
 
 ### Die Skizze erstellen 
 
@@ -75,6 +88,8 @@ An diesem Punkt sollte man eine vollständig bestimmte Skizze haben, wie durch d
 Nun im [Aufgabenbereich](Task_panel/de.md) die Schaltfläche **Schließen** drücken, um den Skizzenbearbeitungsmodus zu verlassen und Skizze aufpolstern <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Aufpolsterung](PartDesign_Pad/de.md) aus der Symbolleiste im PartDesign-Menü wählen. Das öffnet ein **Aufpolstern**-Menü im Aufgabenbereich. In diesem Dialogfeld zuerst das Aufklappmenü **Typ** und dann **Zwei Längen** wählen. Die Zeichnung am Anfang dieses Tutorials sagt aus, dass das Teil 53 mm lang ist. Wir erhalten diesen Abstand, indem wir unsere Skizze in beide Richtungen von der Mittelebene aus auffüllen, d.h. es wird symmetrisch bezüglich der Skizzierebene aufgepolstert. Der Grund dafür wird später beim Erstellen von Features klar werden. Zunächst soll das Teil insgesamt 53 mm lang sein, also 26,5 für die erste Länge und 26,5 für die zweite Länge eingeben. Alternativ könnte die volle Länge von 53 mm eingegeben und dann auf das Kontrollkästchen **Symmetrisch zu einer Ebene** geklickt werden. Sobald das erledigt ist, haben wir nun unsere Basis, auf der wir zusätzliche Features hinzufügen werden, um unser Teil zu konstruieren.
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/cUyPnCMeTgg>
+
+
 
 ### Formelemente mit Taschen und externen Geometrien 
 
@@ -103,6 +118,8 @@ Für den nächsten Schritt muß \"Pocket\" im Modell-Reiter der Combo-Ansicht au
 ![](images/tut17_profilewithslots.png )
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/wiGXV9G7mrM>
+
+
 
 ### Formelemente mit Aufpolsterung und externen Geometrien 
 
@@ -133,6 +150,8 @@ Die Mirror-Funktion erneut anwenden, um den zweiten Block zu erhalten. Der erste
 ![](images/tut17_profilewithsideblocks.png )
 
 Ein Video der Schritte in diesem Teil des Tutorials ist hier: <https://youtu.be/Ido1owp8ubc>
+
+
 
 ### Formelemente mit Taschen und externen Geometrien 
 
@@ -191,6 +210,8 @@ An dieser Stelle sind einige Linien zu erkennen, die von sich schneidenden Forme
 Ein Video zu diesen Schritten des Tutoriums sind hier: <https://youtu.be/UYI0gvxCYeI>
 
 Dieses Tutorium und dein Modell sind vollständig.
+
+
 
 ## Zusätzliche Quellen 
 

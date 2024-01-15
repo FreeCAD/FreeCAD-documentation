@@ -47,6 +47,9 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccione el objeto que desea formar un array.
 2.  Añade el objeto [punto compuesto](#Punto_compuesto.md) a la selección.
 3.  Hay varias formas de invocar el comando:
@@ -54,6 +57,9 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
     -   Seleccione la opción **Modificación → Herramientas de arreglo →<img src="images/Draft_PointArray.svg" width=16px> Arreglo de puntos** en el menú.
 4.  Se crea el arreglo.
 5.  Opcionalmente cambia las [propiedades](#Propiedades.md) del arreglo en el [Editor de propiedades](property_editor/es.md).
+
+
+</div>
 
 ## Point object version 0.20 and below 
 

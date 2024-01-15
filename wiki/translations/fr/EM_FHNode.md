@@ -18,6 +18,8 @@ L\'outil Noeud FH insère un objet FastHenry de type Nœud.
 ![](images/EM_FHNode_Example.png ) 
 *Noeud FH FastHenry*
 
+
+
 ## Utilisation
 
 L\'objet Noeud FH peut être basé sur la position d\'un objet [Draft Point](Draft_Point/fr.md) ou vous pouvez sélectionner l\'emplacement 3D du Noeud FH.
@@ -25,7 +27,7 @@ L\'objet Noeud FH peut être basé sur la position d\'un objet [Draft Point](Dra
 1.  Appuyez sur la touche **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode/fr.md)** ou appuyez sur la touche **E** puis **N**.
 2.  Cliquez sur un point de la vue 3D ou tapez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
-Alternativement, vous pouvez également:
+Alternativement, vous pouvez également :
 
 1.  Sélectionnez un ou plusieurs objet(s) [Draft Point](Draft_Point/fr.md)
 2.  Appuyez sur le bouton **<img src="images/EM_FHNode.svg" width=16px> [EM FHNode](EM_FHNode/fr.md)** ou appuyez sur les touches **E** puis **N**. Autant de FHNodes seront créés que les objets Draft Points, aux mêmes coordonnées que les Draft Points.
@@ -36,6 +38,8 @@ Alternativement, vous pouvez également:
 -   Cochez la case pour basculer le mode *continue* . Si le mode Continuer est activé, l\'outil FHNode redémarrera après avoir placé un nœud, vous permettant d\'en placer un autre sans appuyer à nouveau sur le bouton de l\'outil.
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande en cours.
 
+
+
 ## Propriétés
 
 -    **X**: La coordonnée X du noeud.
@@ -44,14 +48,16 @@ Alternativement, vous pouvez également:
 
 -    **Z**: La coordonnée Z du noeud.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil FHNode peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil FHNode peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -114,7 +120,7 @@ pos = setAbsCoord(abs_coord, placement=None)
 
 -    `placement`est un nouveau placement FHNode. Si `None`,l\'emplacement n\'est pas modifié
 
-Exemple:
+Exemple :
 
 
 ```python

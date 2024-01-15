@@ -24,8 +24,8 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 ## Użycie
 
--   Zaznacz punkty na pustym obszarze okna widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w oknie Widoku zadań)*.
--   Wciśnięcie klawisza **Esc** lub kliknięcie prawym klawiszem myszy anuluje tę funkcję.
+-   Zaznacz punkty na pustym obszarze w oknie widoku 3D lub na istniejącym obiekcie *(automatyczne wiązania muszą być aktywne w [widoku zadań](Task_panel/pl.md))*.
+-   Wciśnięcie klawisza **Esc** lub kliknięcie prawym klawiszem myszy dezaktywuje tę funkcję.
 
 
 

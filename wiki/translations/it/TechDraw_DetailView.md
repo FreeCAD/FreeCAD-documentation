@@ -24,8 +24,17 @@ Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area 
 
 </div>
 
-![](images/ViewDetail.png ) 
+![](images/ViewDetail.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Vista di dettaglio con casella di visualizzazione circolare di una vista esistente*
+
+
+</div>
 
 
 
@@ -43,7 +52,11 @@ Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area 
 
 </div>
 
-La vista Dettaglio può essere visualizzata in una casella rotonda o quadrata. Questo è controllato dalle [preferenze](TechDraw_Preferences/it#Annotazioni.md) impostate in **Contorno del dettaglio**.
+## Notes
+
+-   To edit a detail view double-click it in the [Tree view](Tree_view.md).
+-   The outlines of detail views can be round or square. This is controlled by the **Detail View Outline Shape** [preference](TechDraw_Preferences#Annotation.md).
+-   [Forum topic with a good discussion about setting the anchor.](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 ## Properties Detail View 
 
@@ -54,13 +67,13 @@ See also [TechDraw View](TechDraw_View#Properties.md).
 
 {{TitleProperty|Detail}}
 
--    **Base View|Link**: The view on which this Detail view is based.
+-    **Base View|Link**: The view on which the detail view is based.
 
--    **Anchor Point|Vector**: The center of the Detail view within the **Base View**.
+-    **Anchor Point|Vector**: The center of the detail view within the **Base View**.
 
--    **Radius|Float**: The size of the area in the **Base View** that is displayed in the Detail view.
+-    **Radius|Float**: The size of the area in the **Base View** that is displayed in the detail view.
 
--    **Reference|String**: An identifier for the Detail view in the **Base View**.
+-    **Reference|String**: An identifier for the detail view in the **Base View**.
 
 ## Properties Base View 
 
@@ -74,52 +87,22 @@ Una vista Dettaglio eredita tutte le proprietà applicabili della vista specific
 
 </div>
 
+### View
+
+
+{{TitleProperty|Hightlight}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Highlight Adjust**: angolo di rotazione in senso orario della vista Dettaglio.
 
 -    **Highlight Line Color**: Colore della linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
 
 -    **Highlight Line Style**: Stile di linea per la forma del contorno. L\'impostazione predefinita per questo è l\'impostazione **Detail Highlight Style** nelle [preferenze di TechDraw](TechDraw_Preferences/it.md).
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Note
-
--   [Una buona discussione sull\'impostazione dell\'ancoraggio](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
-
 
 </div>
-
-
-
-## Script
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API TechDraw](TechDraw_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Dettaglio può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
-```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
-...TBA
-```
 
 
 <div class="mw-translate-fuzzy">

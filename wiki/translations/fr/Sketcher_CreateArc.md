@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Sketcher Arc
-   Name/fr: Sketcher Création d'arc
+   Name/fr: Sketcher Arc
    MenuLocation: Esquisse , Géométries d'esquisse , Créer un arc à partir du centre
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **A**
@@ -22,7 +22,7 @@ Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanch
 
 ## Utilisation
 
--   Cliquer des points dans un espace libre de la vue 3D, ou sur un élément existant (les contraintes auto doivent être activées dans le panneau Tâches).
+-   Cliquer des points dans un espace libre de la vue 3D, ou sur un élément existant (les contraintes auto doivent être activées dans le [panneau des tâches](Task_panel/fr.md)).
 -   Appuyer sur **Echap** ou faire un clic droit avec la souris annule l\'opération.
 
 

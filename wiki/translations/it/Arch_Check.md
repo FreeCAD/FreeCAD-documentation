@@ -2,27 +2,18 @@
  GuiCommand:
    Name: Arch Check
    Name/it: Controlla
-   Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Utilità , Controlla
-   SeeAlso: Arch CloseHoles/it
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch_CloseHoles/it
 ---
 
 # Arch Check/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti <img alt="" src=images/_Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) o <img alt="" src=images/_Workbench_Arch.svg  style="width:16px;"> [Architettura](Arch_Workbench/it.md) non-solidi, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
-
-
-</div>
+Questo strumento controlla il documento corrente o gli oggetti selezionati alla ricerca di oggetti **<img src="images/_Workbench_Part.svg" width=16px> [Part](Part_Workbench/it.md)** o **<img src="images/_Workbench_Arch.svg" width=16px> [Arch](Arch_Workbench/it.md)**, che potrebbero dare problemi, poiché la maggior parte delle operazioni del modulo Architettura richiedono oggetti solidi.
 
 
 
@@ -32,33 +23,14 @@ Questo strumento controlla il documento corrente o gli oggetti selezionati alla 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 list_bad = check(objectslist, includehidden=False)
 ```
@@ -89,15 +61,6 @@ Wire = Draft.makeWire([FreeCAD.Vector(1000, 0, 0), FreeCAD.Vector(1500, 1000, 0)
 list_bad = Arch.check([Wall1, Wall2, Circle, Wire], includehidden=True)
 print(list_bad)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

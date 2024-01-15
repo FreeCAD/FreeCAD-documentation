@@ -175,6 +175,8 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Dodaj linię kosmetyczną \...](TechDraw_2PointCosmeticLine/pl.md): dodaje linię estetyczną łączącą 2 wierzchołki.
 
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Dodaj okrąg kosmetyczny](TechDraw_CosmeticCircle/pl.md): dodaje geometrię pomocniczą w postaci okręgu. {{Version/pl|0.22}}
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md): Narzędzie to usuwa obiekty kosmetyczne z danej strony.
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:24px;"> [Zmień wygląd wybranych linii](TechDraw_DecorateLine/pl.md): Narzędzie to zmienia wygląd krawędzi.
@@ -233,6 +235,8 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Oblicz pole powierzchni wybranych ścian](TechDraw_ExtensionAreaAnnotation/pl.md): oblicza pole powierzchni wybranych powierzchni i wstawia adnotację z opisem powierzchni. {{Version/pl|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Oblicz długość łuku dla zaznaczonych krawędzi](TechDraw_ExtensionArcLengthAnnotation/pl.md): oblicza długość łuku na wybranych krawędziach i wstawia adnotację o długości łuku. {{Version/pl|0.22}}
+
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Dostosuj format etykiety](TechDraw_ExtensionCustomizeFormat/pl.md): umożliwia dostosowanie formatowania tekstu dymka lub tekstu wymiarowego. Można dodawać symbole GD&T i inne znaki specjalne. {{Version/pl|0.20}}
 
 
@@ -259,7 +263,11 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
   - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Geometria pomocnicza dla gwintu śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku od dołu dla śruby / nakrętki / pręta gwintowanego . {{Version/pl|0.20}}
 
--   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Utwórz wierzchołki w przecięciu](TechDraw_ExtensionVertexAtIntersection/pl.md): tworzy wierzchołki pomocnicze w miejscu przecięcia wybranych krawędzi. {{Version/pl|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dodaj wierzchołki:
+
+  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Utwórz wierzchołki w przecięciu](TechDraw_ExtensionVertexAtIntersection/pl.md): tworzy wierzchołki pomocnicze w miejscu przecięcia wybranych krawędzi. {{Version/pl|0.20}}
+
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Dodaj wierzchołek odsunięcia](TechDraw_CommandAddOffsetVertex/pl.md): dodaje wierzchołek kosmetyczny w miejscu o określonym przesunięciu od wybranego wierzchołka. {{Version/pl|0.22}}
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dodaj geometrię pomocniczą okręgu lub łuku:
 

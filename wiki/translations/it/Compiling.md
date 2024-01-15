@@ -1,10 +1,11 @@
 # Compiling/it
 Ogni sistema operativo ha la sua pagina per la compilazione di FreeCAD nella [documentazione online](Online_Help_Toc/it.md).
 
-     
-     <img alt="" src=images/Windows.png  style="width:" height="32px;">     <img alt="" src=images/Linux_with_text.png  style="width:" height="32px;">       <img alt="" src=images/Mac.png  style="width:" height="32px;">          [Docker container](Compile_on_Docker.md)
-   [Compilare in Windows](Compile_on_Windows/it.md)           [Compilare in Linux](Compile_on_Linux/it.md)           [Compilare in MacOS](Compile_on_MacOS/it.md)   [Compilare in Docker](Compile_on_Docker/it.md)
-     
++::+::+::+::+
+| <img alt="" src=images/Windows.png  style="width:" height="32px;">     | <img alt="" src=images/Linux_with_text.png  style="width:" height="32px;"> | <img alt="" src=images/Mac.png  style="width:" height="32px;">         | [Docker container](Compile_on_Docker.md)       |
++++++
+| [Compilare in Windows](Compile_on_Windows/it.md) | [Compilare in Linux](Compile_on_Linux/it.md)                 | [Compilare in MacOS](Compile_on_MacOS/it.md) | [Compilare in Docker](Compile_on_Docker/it.md) |
++++++
 
 Per compilare su BSD e altri sistemi Unix, è possibile seguire le istruzioni generali di [Compilazione in Linux](Compile_on_Linux/it.md) ma utilizzando le dipendenze appropriate per tali sistemi.
 

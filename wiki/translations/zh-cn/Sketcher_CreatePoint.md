@@ -47,7 +47,7 @@
 
 <div class="mw-translate-fuzzy">
 
-可通过设置[草图首选项（Sketcher Preferences）中的选项在捕捉网格模式下创建点](Sketcher_Preferences.md)。此时，如果所创点距网格线的距离小于网格间距的25%，则将被捕捉至网格上。 捕捉模式并不会把它们固定至网格上。可以通过鼠标移动或约束的方式把点移至其他地方。
+可通过设置[草图首选项（Sketcher Preferences）](Sketcher_Preferences.md)中的选项在捕捉网格模式下创建点。此时，如果所创点距网格线的距离小于网格间距的25%，则将被捕捉至网格上。 捕捉模式并不会把它们固定至网格上。可以通过鼠标移动或约束的方式把点移至其他地方。
 
 
 </div>

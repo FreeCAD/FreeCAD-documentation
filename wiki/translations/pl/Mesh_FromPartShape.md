@@ -22,7 +22,7 @@ Operacją odwrotną jest [Kształt z siatki](Part_ShapeFromMesh/pl.md) ze środo
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_FromPartShape.svg" width=16px> [Utwórz siatkę z kształtu](Mesh_FromPartShape/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_FromPartShape.svg" width=16px> '''Utwórz siatkę z kształtu'''**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_FromPartShape.svg" width=16px> Utwórz siatkę z kształtu ...**.
 3.  Otwiera się panel zadań **Rozdrobnienie**.
 4.  Gdy panel zadań jest otwarty, możesz stworzyć nowe zaznaczenie lub zmienić istniejące.

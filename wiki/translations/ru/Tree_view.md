@@ -25,25 +25,32 @@
 
 Многие операции создают объекты, которые зависят от ранее существовавшего объекта. В этом случае древовидное представление показывает эту связь, поглощая более старый объект внутри нового объекта. Разворачивание и сворачивание объектов в древовидном представлении показывает параметрическую историю этого объекта. Объекты, которые находятся глубже внутри других, являются более старыми, в то время как объекты, которые находятся снаружи, являются более новыми и являются производными от более старых объектов. Изменяя внутренние объекты, параметрические операции распространяются до самого верха, порождая новый результат.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
+<div class="mw-translate-fuzzy">
 
 
 
 *Самый верхний объект создается путем выполнения параметрических операций над объектами, которые сами были созданы предыдущими операциями. Разворачивание списка в древе на много уровней, раскрывает исходные элементы, которые были использованы для создания элементов твердых тел.*
 
-### Labels & Attributes 
 
-In the Labels & Attributes column the labels and icons of the objects are displayed.
+</div>
 
-Selecting an object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), allows to edit the object\'s **Label** property in situ without detour via the context menu action described below or the [Property editor](Property_editor.md).
+### Tree view columns 
 
-### Description
+By default the tree view only displays a single column with the labels and icons of objects. A second column with descriptions can optionally be displayed as well, column headings are then also added.
 
-The Description column displays further information about objects, if available.
+To enable the description column right click the tree view and in the context menu select:
+**Tree settings → Show description column** <small>(v0.21)</small> 
 
-This information is stored in an object\'s **Label2** property which can be edited in situ by selecting the object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), or via the [Property editor](Property_editor.md).
+### Edit object label 
+
+Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu action described below or in the [Property editor](Property_editor.md).
+
+### Edit object description 
+
+An object can optionally have a description. This information is stored in its **Label2** property. If the description column is displayed you can edit this property by selecting an object in that column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS). The property can also be changed in the [Property editor](Property_editor.md).
 
 
 

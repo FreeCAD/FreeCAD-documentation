@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Ellipse
-   Name/de: Entwurf Ellipse
-   MenuLocation: Entwurf , Ellipse
+   Name/de: Draft Ellipse
+   MenuLocation: Zeichnen , Ellipse
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **E** **L**
    Version: 0.7
@@ -11,173 +11,120 @@
 
 # Draft Ellipse/de
 
+
+
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Draft_Ellipse.svg  style="width:24px;"> **Draft Ellipse** erstellt eine Ellipse in der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) aus zwei Punkten, die ein Rechteck festlegen, in das die Ellipse hineinpasst.
 
-<div class="mw-translate-fuzzy">
+Eine Draft-Ellipse kann in einen Ellipsenbogen gewandelt werden, indem ihre {{PropertyData/de|First Angle}} und {{PropertyData/de|Last Angle}} auf unterschiedliche Werte gesetzt werden
 
-Das Ellipsen Werkzeug erzeugt eine Ellipse in der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md) durch Eingabe von zwei Punkten zur Definition der Eckpunkte eines Rechtecks, in das die Ellipse passt. Es verwendet den [Entwurf Linienstil](Draft_Linestyle/de.md) festgelegt auf die [Entwurf Ablage](Draft_Tray/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann auch zur Erstellung von elliptischen Bögen verwendet werden, indem der Start und Endwinkel angegeben wird. Zum Erstellen von Kreisen und Kreisbögen verwende die Werkzeuge [Entwurf Kreis](Draft_Circle/de.md) und [Entwurf Bogen](Draft_Arc/de.md). Du kannst auch eine Ellipsen oder Kreisbogen mit den Werkzeugen [Entwurf BSpline](Draft_BSpline/de.md) und [Entwurf BezKurve](Draft_BezCurve/de.md) annähern.
+<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;"> 
+*Eine durch die Ecken eines Rechtecks festgelegte Ellipse*
 
 
-</div>
-
-<img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Ellipse definiert durch die Ecken eines Rechtecks*
-
-
-</div>
 
 ## Anwendung
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md) und [Draft-Beschränken](Draft_Constrain/de.md).
+
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** auswählen.
+    -   Das Tastaturkürzel **E** dann **L**.
+2.  Der Aufgaben-Bereich **Ellipse** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+4.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt darf nicht auf die X-, Y- oder Z-Achse festgelegt werden.
 
 
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Draft_Ellipse.svg" width=16px> [Entwurf Ellipse](Draft_Ellipse/de.md)** Taste oder drücke **E** dann **L** Tasten.
-2.  Klicke einen ersten Punkt in der 3D Ansicht oder
-
-gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-
-1.  Klicke einen zweiten Punkt in der 3D Ansicht oder
-
-gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-
-
-</div>
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
+
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
+
+-    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativ-Modus umzuschalten. Ist der Relativ-Modus aktiviert, beziehen sich die Koordinaten des zweiten Punktes auf den ersten Punkt, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
+
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+
+-    **F**drücken oder die Checkbox **Füllen** aktivieren, um den Füllen-Modus umzuschalten. Ist der Füllen-Modus aktiviert, wird die {{PropertyData/de|Make Face}} der erstellten Ellipse auf `True` gesetzt und sie erhält eine gefüllte Fläche.
+
+-    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Ellipsen fortzufahren.
+
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
+
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
-<div class="mw-translate-fuzzy">
 
--   Um Koordinaten manuell einzugeben, gib einfach die Ziffern ein, drücke dann **Enter** zwischen den X, Y und Z Komponenten. YDu kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
--   Drücke **R** oder klicke auf das Kontrollkästchen, um den *relativen* Modus umzuschalten. Wenn der Relativmodus eingeschaltet ist, sind die Koordinaten des zweiten Punktes relativ zum ersten Punkt; wenn nicht, sind sie absolut, ausgehend vom Ursprung (0,0,0).
--   Drücke **T** oder klicke das Kontrollkästchen an, um den Modus *fortsetzen* zu aktivieren. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Ellipsenwerkzeug nach dem Beenden der Form neu gestartet, so dass Du eine weitere Form zeichnen kannst, ohne die Werkzeugschaltfläche erneut zu drücken.
--   Drücke **L** oder klicke auf das Kontrollkästchen, um den Modus \"gefüllt\" zu aktivieren. Wenn der Modus \"gefüllt\" aktiviert ist, erzeugt die Ellipse eine gefüllte Fläche ({{PropertyData/de|Erstelle Fläche}} `True`); wenn nicht, erzeugt die Ellipse keine Fläche ({{PropertyData/de|Erstelle Fläche}} `False`).
--   Halte **STRG** während des Zeichnens gedrückt, um [Fangen](Draft_Snap/de.md) deinen Punkt unabhängig von der Entfernung zur nächsten Fangposition zu zwingen.
--   Halte **Umschalten**, während du auf [Beschränken](Draft_Constrain/de.md) deinen zweiten Punkt horizontal oder vertikal in Bezug auf den ersten zeichnest.
--   Drücke **Esc** oder die **Schließen** Taste, um den aktuellen Befehl abzubrechen.
+## Hinweise
+
+-   Eine Draft-Ellipse kann mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
 
 
-</div>
 
-## Notes
+## Einstellungen
 
--   A Draft Ellipse can be edited with the [Draft Edit](Draft_Edit.md) command.
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft-Einstellungen](Draft_Preferences/de.md).
 
-## Preferences
+-   Ist die Option **Bearbeiten → Einstellungen... → Draft → Allgemein → Part-Grundkörper erstellen, wenn möglich** aktiviert, wird eine [Part-Ellipse](Part_Circle/de.md) anstelle einer Draft-Ellipse erstellt.
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Ellipse](Part_Ellipse.md) instead of a Draft Ellipse.
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A Draft Ellipse object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+Eine Draft-Ellipse (Ellipse-Objekt) wird von einem [Part Part2DObject](Part_Part2DObject/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
-{{TitleProperty|Draft}}
-
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
--    {{PropertyData/de|Erster Winkel}}: gibt den Winkel des ersten Punktes der Ellipse an; normalerweise 0°.
 
--    {{PropertyData/de|Letzter Winkel}}: gibt den Winkel des letzten Punktes der Ellipse an; normalerweise 0°.
+{{TitleProperty|Draft}}
 
--    {{PropertyData/de|Hauptradius}}: gibt den Hauptradius der Ellipse an; normalerweise 0°.
+-    **Area|Area**(schreibgeschützt): Gibt den Flächeninhalt der Ellipsenfläche an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist oder die Fläche nicht erstellt werden kann.
 
--    {{PropertyData/de|Nebenradius}}: gibt den kleinen Radius der Ellipse an.
+-    **First Angle|Angle**: Legt den Winkel des ersten Punktes auf der Ellipse fest; normalerweise {{value|0&#176;}}.
 
-:   Wenn beide Radien den gleichen Wert haben, sieht die Ellipse wie ein [Entwurf Kreis](Draft_Circle/de.md) aus.
+-    **Last Angle|Angle**: Legt den Winkel des letzten Punktes auf der Ellipse fest; normalerweise {{value|0&#176;}}.
 
--    {{PropertyData/de|Fläche erzeugen}}: gibt an, ob die Ellipse eine Fläche erzeugt oder nicht. Ist sie `True`, wird eine Fläche erzeugt, andernfalls wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form eine Vollellipse ist.
+-    **Major Radius|Length**: Legt den Hauptradius der Ellipse fest.
 
-Damit es eine Vollellipse ist, müssen {{PropertyData/de|Erster Winkel}} und {{PropertyData/de|Letzter Winkel}} den gleichen Wert haben; andernfalls wird ein elliptischer Bogen angezeigt. Die Werte 0° und 360° werden als gleich betrachtet.
+-    **Make Face|Bool**: Legt fest, ob die Ellipsenfläche erstellt wird oder nicht. Auf `True` gesetzt, wird eine Fläche erstellt, andernfalls wird nur der Ellipsenumfang als Teil des Objekts angesehen. Diese Eigenschaft funktioniert nur, wenn die Form eine vollständige Ellipse ist.
+
+-    **Minor Radius|Length**: Legt den Nebenradius der Ellipse fest.
 
 
-</div>
 
-### View
+### Ansicht
 
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyView/de|Pattern|Enumeration}}: Legt das [Draft-Muster](Draft_Pattern/de.md) fest, mit dem die Fläche der Ellipse gefüllt wird. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Make Face}} auf `True` und die {{PropertyView/de|Display Mode}} auf {{value|Flat Lines}} gesetzt ist.
 
-<div class="mw-translate-fuzzy">
-
-### Ansicht
-
--    {{PropertyView/de|Muster}}: definiert ein [Entwurf Muster](Draft_Pattern/de.md), mit dem die Fläche der Form gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Fläche erstellen}} `True` ist und {{PropertyView/de|Anzeigemodus}} auf \"Ebene Linien\" gesetzt ist.
-
--    {{PropertyView/de|Mustergröße}}: gibt die Größe des [Entwurf Muster](Draft_Pattern/de.md) an.
+-    {{PropertyView/de|Pattern Size|Float}}: Legt die Größe des [Draft-Musters](Draft_Pattern.md) fest.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[Entwurf API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Ellipsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden:
-
-
-</div>
+Zum Erstellen einer Draft-Ellipse wird die Methode `make_ellipse` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeEllipse`.
 
 
 ```python
 ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Erzeugt ein `Ellipse` Objekt mit gegebenem Haupt- ({incode\|majradius}) und Nebenradius (`minradius`) in Millimetern.
-    -   Der größere Wert wird für den Hauptradius (X Achse) verwendet, wenn keine andere Platzierung angegeben ist.
--   Wenn ein `placement` angegeben wird, wird er verwendet; andernfalls wird die Form am Ursprung erzeugt.
--   Wenn `Fläche` `True` ist, wird die Ellipse eine Fläche bilden, d.h. sie wird gefüllt erscheinen.
-
-
-</div>
+-   Erstellt ein `ellipse`-Objekt mit gegebenem `majradius` (Hauptradius) und `minradius` (Nebenradius) in Millimetern.
+    -   Der größere Wert wird für den Hauptradius (X-Achse) verwendet, wenn keine andere Positionierung angegeben ist.
+-   Ist `placement` auf `None` gesetzt, wird die Ellipse im Ursprung erstellt.
+-   Ist `Fläche` auf `True` gesetzt, erhält die Ellipse eine Fläche, d.h. sie wird gefüllt erscheinen.
 
 Beispiel:
 
@@ -199,15 +146,6 @@ ellipse3 = Draft.make_ellipse(700, 1000, placement=place3)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

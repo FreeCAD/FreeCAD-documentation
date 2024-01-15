@@ -1,32 +1,33 @@
 # Macro View Rotation/fr
 {{Macro/fr
 |Name=View Rotation
+|Name/fr=View Rotation
 |Icon=Macro View Rotation.png
-|Description=Cette macro fournit une interface graphique, afin de permettre une rotation précise des objets dans la vue.
+|Description=Cette interface graphique permet de faire pivoter la vue avec plus de précision qu'avec la souris.  La rotation s'effectue selon des axes fixés par rapport à l'utilisateur et non par rapport aux objets, bien que l'objectif soit que les objets tournent autour de leur centre partagé approximatif plutôt qu'autour du centre de la vue.<br />L'interface graphique se place par défaut en haut à droite de l'écran. Ce comportement peut être modifié par édition.<br />[http://forum.freecadweb.org/download/file.php?id=453 Kit d'icônes]
 |Author=Joe Dowsett
 |Version=1.0
 |Date=2012-01-04
 |FCVersion=Toutes
-|Download=[http://forum.freecadweb.org/download/file.php?id=453 Icons Package]<br />[https://www.freecadweb.org/wiki/images/a/af/Macro_View_Rotation.png Icon ToolBar]
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md)<br />[Macro FCCamera](Macro_FCCamera/fr.md)
+|Download=[https://wiki.freecad.org/images/a/af/Macro_View_Rotation.png Icône de la barre d'outils]
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View/fr.md), [Macro FCCamera](Macro_FCCamera/fr.md)
 }}
 
 ## Description
 
 Cette interface graphique permet de faire pivoter la vue avec plus de précision qu\'avec l\'utilisation de la souris. La rotation se fait selon un des axes fixes par rapport à l\'utilisateur, et non par rapport aux objets, l\'objectif est de faire tourner les objets approximativement autour de leurs centres communs plutôt que le centre de la vue.
 
-Les valeurs par défaut positionnent la boîte de dialogue en haut et à droite de l\'écran, cet emplacement peut être changé en modifiant les valeurs ci dessous,
+L\'interface graphique se place par défaut en haut à droite de l\'écran. Ce comportement peut être modifié par édition.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
 
-<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Trois icônes symbolisent les directions de rotation. Vous pouvez trouver un fichier zip contenant ces icônes [here](http://forum.freecadweb.org/download/file.php?id=453), les images doivent être placées dans le dossier contenant vos macros. S\'il vous plaît, n\'hésitez pas à contribuer de meilleurs!
+<img alt="Rotation de la vue" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Trois icônes symbolisent les directions de rotation. Vous pouvez trouver un fichier zip contenant ces icônes [here](http://forum.freecadweb.org/download/file.php?id=453), les images doivent être placées dans le dossier contenant vos macros. S\'il vous plaît, n\'hésitez pas à contribuer de meilleurs!
 
-## Code
+## Script
 
-La dernière version de la macro se trouve à l\'adresse [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro), mais le moyen le plus simple d\'installer cette macro consiste à utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md).
+La dernière version de la macro se trouve à l\'adresse [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro), mais le moyen le plus simple d\'installer cette macro consiste à utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md).
 
-ToolBar Icon ![](images/Macro_View_Rotation.png )
+Icône de la barre d\'outils ![](images/Macro_View_Rotation.png )
 
 **Macro View Rotation.FCMacro** {{MacroCode|code=
 # -*- coding: utf-8 -*-
@@ -280,17 +281,14 @@ if __name__ == '__main__':
 
 ## Option
 
-à la fin de la fonction **initUI**.
-
-Les deux premiers arguments, (**droit-300, 0**) (ligne 91) fournissent la position du coin supérieur gauche de la fenêtre - mon expérience est, que le comportement a été, comme prévu sur Ubuntu, mais Vista positionne la fenêtre trop haut et, le **0** doit être changé à **\~ 30**.
+À la fin de la fonction \"initUI\", les deux premiers arguments (right-300, 0) (ligne 91) fournissent la position du coin supérieur gauche de la fenêtre - d\'après mon expérience, le comportement était conforme aux attentes sous Ubuntu, mais Vista positionnait la fenêtre trop haut et le 0 devait être modifié à \~30.
 
 
 ```python
-
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Page de discussion 
+## Forum
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 

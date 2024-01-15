@@ -1,34 +1,39 @@
 ---
  GuiCommand:
    Name: FEM ClippingPlaneAdd
-   MenuLocation: Utilities , Clipping plane on face
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Płaszczyzna cięcia na ścianie
+   MenuLocation: Narzędzia , Płaszczyzna cięcia na ścianie
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ClippingPlaneAdd/pl
 
-## Description
 
-Adds a clipping plane for the whole model view. All visible objects will be cut by it, no matter if these are geometric models, meshes or result pipelines.
 
-The clipping plane is the same you get when using the feature [Toggle Clip Plane](Std_ToggleClipPlane.md) with the difference that the clipping plane is persistent. Therefore it shares the same functionality of providing only hollow cuts.
+## Opis
 
-## Usage
+Dodaje płaszczyznę cięcia dla całego widoku modelu. Wszystkie widoczne obiekty zostaną przez nią przecięte, niezależnie od tego czy są to modele geometryczne, siatki czy obiekty prezentacji graficznej wyników.
 
-To create a clipping plane, either use the toolbar button **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Clipping plane on face'''** or the menu **Utilities → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Clipping plane on face**. It is possible to have several clipping planes.
+Płaszczyzna cięcia jest taka sama jak ta w przypadku narzędzia [Płaszczyzna tnąca](Std_ToggleClipPlane/pl.md), z tą różnicą, że ta płaszczyzna cięcia jest trwała. Zatem posiada tą samą cechę umożliwiania tylko przekrojów bez wypełnienia.
 
-Despite the plane is persistent, it will not appear in the [document tree](Tree_view.md). The plane appears in the model view like this:
+
+
+## Użycie
+
+Aby utworzyć płaszczyznę cięcia, wciśnij przycisk **<img src="images/FEM_ClippingPlaneAdd.svg" width=16px> '''Płaszczyzna cięcia na ścianie'''** lub wybierz opcję **Narzędzia → <img src="images/FEM_ClippingPlaneAdd.svg" width=16px> Płaszczyzna cięcia na ścianie**. Można mieć wiele płaszczyzn cięcia.
+
+Mimo że płaszczyzna jest trwała, nie pojawi się w [drzewie dokumentu](Tree_view/pl.md). Płaszczyzna pojawia się w widoku modelu w ten sposób:
 
 <img alt="" src=images/FEM_Clipping-Plane-Example.png  style="width:400px;">
 
-To move the plane, click on the big white cuboid that is perpendicular to the plane and keep the mouse button pressed while the mouse is moved.
+Aby przesunąć płaszczyznę, kliknij na dużym białym prostopadłościanie, który jest prostopadły do płaszczyzny i trzymaj przycisk myszy wciśnięty podczas poruszania nią.
 
-To rotate and tilt the plane, click on a line that connects the small cubes with the the big white cuboid and keep the mouse button pressed while the mouse is moved.
+Aby obracać i pochylać płaszczyznę, kliknij na linii, która łączy małe kostki z dużym białym prostopadłościanem i trzymaj przycisk myszy wciśnięty podczas poruszania nią.
 
-The 6 small cubes are handles to adjust the size. However, since the object is an infinite plane, the size does not matter.
+Sześć małych kostek służy za uchwyty do zmiany rozmiaru. Ponieważ jednak obiekt jest nieskończoną płaszczyzną, jego rozmiar nie ma znaczenia.
 
-To remove all clipping planes, use the feature [Remove all clipping planes](FEM_ClippingPlaneRemoveAll.md). Removing only a certain plane is not possible.
+Aby usunąć wszystkie płaszczyzny cięcia użyj narzędzia [Usuń wszystkie płaszczyzny cięcia](FEM_ClippingPlaneRemoveAll/pl.md). Nie ma możliwości usunięcia tylko wybranej płaszczyzny.
 
 
 

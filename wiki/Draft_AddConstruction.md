@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Draft AddConstruction
-   MenuLocation: Utilities , Add to Construction group
+   MenuLocation: Utilities , Add to construction group
    Workbenches: Draft_Workbench, Arch_Workbench
    Version: 0.17
    SeeAlso: Draft_ToggleConstructionMode, Draft_AddToGroup
@@ -17,8 +17,8 @@ The <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Dra
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddConstruction.svg" width=16px> [Draft AddConstruction](Draft_AddConstruction.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddConstruction.svg" width=16px> Add to Construction group** option from the menu.
+    -   Press the **<img src="images/Draft_AddConstruction.svg" width=16px> [Add to construction group](Draft_AddConstruction.md)** button.
+    -   Select the **Utilities → <img src="images/Draft_AddConstruction.svg" width=16px> Add to construction group** option from the menu.
 3.  If it does not exist the construction group is created first.
 4.  The objects are moved to the construction group and their color properties are changed.
 

@@ -1,32 +1,41 @@
 ---
  GuiCommand:
    Name: FEM ConstraintInitialTemperature
-   Name/de: FEM RandbedingungStarttemperatur
-   MenuLocation: Modell , Thermische Randbedingungen , Randbedingung Starttemperatur
+   Name/de: FEM StartbedingungTemperatur
+   MenuLocation: Modell , Thermische Randbedingungen und Belastungen , Startbedingung Temperatur
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---
 
 # FEM ConstraintInitialTemperature/de
 
+
+
 ## Beschreibung
 
-Erstellt eine Randbedingung Starttemperatur für eine thermo-mechanische Analyse.
+Legt eine Starttemperatur für eine thermo-mechanische Analyse fest.
+
+
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> [Randbedingung Starttemperatur](FEM_ConstraintInitialTemperature.md)** drücken.
-    -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Randbedingung Starttemperatur** auswählen.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> [Startbedingung Temperatur](FEM_ConstraintInitialTemperature.md)** drücken.
+    -   Den Menüeintrag **Modell → Thermische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Startbedingung Temperatur** auswählen.
 2.  Den Startwert der Temperatur für die Analyse eingeben.
 
-## Limitations
 
-Diese Randbedingung ordnet die Starttemperatur allen Knoten im FEA-Modell zu - es ist nicht möglich einzelne Bereiche auszuwählen.
+
+## Einschränkungen
+
+Dieses Werkzeug ordnet die Starttemperatur allen Knoten im FEA-Modell zu - es ist nicht möglich einzelne Bereiche auszuwählen.
+
+
 
 ## Hinweise
 
--   This constraint uses the \*INITIAL CONDITIONS card in CalculiX. The initial temperature constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+-   This tool uses the \*INITIAL CONDITIONS card in CalculiX. It is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+-   Initial temperature has to be defined for all thermomechanical analyses performed with CalculiX, even the steady-state ones.
 
 
 

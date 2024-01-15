@@ -17,7 +17,7 @@ Veuillez considérer que les objets copiés-collés ne dépendent pas de l\'orig
 
 ## Trouver et positionner un ou des objets collés 
 
-Après une opération de copier-coller, l\'emplacement des nouveaux objets dans la [Vue 3D](3D_view/fr.md) peut ne pas être évident. Cela est dû au fait que les nouveaux objets ont la même propriété [Placement](Placement/fr.md) que leurs originaux. Basculez la propriété Visibilité (**Barre d'espace**) pour masquer les originaux, puis déplacez les copies à leur emplacement correct, par exemple en utilisant <img alt="" src=images/Std_TransformManip.svg  style="width:24px;"> [Std Transformation manipulation](Std_TransformManip/fr.md) ou <img alt="" src=images/Std_Placement.svg  style="width:24px;"> [Std Positionnement](Std_Placement/fr.md).
+Après une opération de copier-coller, l\'emplacement des nouveaux objets dans la [vue 3D](3D_view/fr.md) peut ne pas être évident. Cela est dû au fait que les nouveaux objets ont la même propriété de [Placement](Placement/fr.md) que leurs originaux. Basculez la propriété Visibility (**Barre d'espace**) pour masquer les originaux, puis déplacez les copies à leur emplacement correct, par exemple en utilisant <img alt="" src=images/Std_TransformManip.svg  style="width:24px;"> [Std Transformer](Std_TransformManip/fr.md) ou <img alt="" src=images/Std_Placement.svg  style="width:24px;"> [Std Positionner](Std_Placement/fr.md).
 
 
 
@@ -27,7 +27,7 @@ Comme la plupart des choses dans FreeCAD, il y a plusieurs façons de faire une 
 
 -   PartDesign : [Symétrie](PartDesign_Mirrored/fr.md), [Répétition linéaire](PartDesign_LinearPattern/fr.md), [Répétition circulaire](PartDesign_PolarPattern/fr.md), [Transformations multiples](PartDesign_MultiTransform/fr.md)
 -   Part : [Miroir](Part_Mirror/fr.md), [Copie simple](Part_SimpleCopy.md)
--   Draft : [Décalage](Draft_Offset/fr.md), [Echelle](Draft_Scale/fr.md), [Réseau orthogonal](Draft_OrthoArray/fr.md), [Réseau selon une courbe](Draft_PathArray/fr.md), [Cloner](Draft_Clone/fr.md), [Miroir](Draft_Mirror/fr.md)
+-   Draft : [Décaler](Draft_Offset/fr.md), [Échelle](Draft_Scale/fr.md), [Réseau orthogonal](Draft_OrthoArray/fr.md), [Réseau selon une courbe](Draft_PathArray/fr.md), [Cloner](Draft_Clone/fr.md), [Miroir](Draft_Mirror/fr.md)
 
 
 

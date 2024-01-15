@@ -13,22 +13,19 @@
 
 La commande <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft Appliquer le style** applique les paramètres de style en cours aux objets sélectionnés.
 
-Cette commande ne gère actuellement que cinq des paramètres proposés par la commande [Draft Définir le style](Draft_SetStyle/fr.md) :
 
--    **Couleur de ligne**
-    
+{{VersionMinus/fr|0.21}}
 
--    **Largeur de ligne**
-    
+: cette commande ne gère que cinq des paramètres offerts par la commande [Draft Définir le style](Draft_SetStyle/fr.md).
 
--    **Couleur de la forme**
-    
 
--    **Taille du texte**
-    
+{{Version/fr|0.21}}
 
--    **Couleur du texte**
-    
+: cette commande modifie les propriétés d\'affichage des objets. Elle applique tous les paramètres offerts par la commande [Draft Définir le style](Draft_SetStyle/fr.md). Elle modifie également ces autres propriétés :
+
+-    **Decimals**(pour les dimensions) : Voir [Draft Préférences](Draft_Preferences/fr#Textes_et_dimensions.md).
+
+-    **ShowLine**(pour les dimensions) : Idem.
 
 
 
@@ -42,7 +39,7 @@ Cette commande ne gère actuellement que cinq des paramètres proposés par la c
 
 ## Remarques
 
--   Dans la version 0.20 de FreeCAD, la commande [Draft Définir le style](Draft_SetStyle/fr.md) peut également appliquer les paramètres.
+-   La commande [Draft Définir le style](Draft_SetStyle/fr.md) peut également appliquer les paramètres.
 
 
 

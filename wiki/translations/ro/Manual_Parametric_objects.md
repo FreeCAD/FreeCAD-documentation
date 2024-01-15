@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 FreeCAD este proiectat pentru modelare parametrică. Aceasta înseamnă că geometria pe care o creați, în loc să fie construibilă liber, este produsă prin reguli și parametri. De exemplu, un cilindru ar putea fi produs dintr-o rază și o înălțime. Cu ajutorul acestor doi parametri, programul dispune de suficiente informații pentru a construi cilindrul.
 

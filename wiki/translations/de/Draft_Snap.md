@@ -14,7 +14,7 @@ Das Einrasten steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workb
 
 Diese Werkzeuge sind in der Symbolleiste Draft-Einrasten und im [Draft-Widget Einrasten](Draft_snap_widget.md) vorhanden.
 
-Man beachte, dass Kreisbögen keine Vollkreise sein müssen.
+Man beachte, dass kreisförmige Kanten keine Vollkreise sein müssen.
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [EinrastenSperren](Draft_Snap_Lock/de.md): aktiviert oder deaktiviert Einrasten global.
 
@@ -46,7 +46,7 @@ Man beachte, dass Kreisbögen keine Vollkreise sein müssen.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [EinrastenAufMaße](Draft_Snap_Dimensions/de.md): zeigt die temporären X- und Y-Maße an.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [RasterUmschalten](Draft_ToggleGrid/de.md): schaltet das Raster ein bzw. aus.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [RasterUmschalten](Draft_ToggleGrid/de.md): ändert die Sichtbarkeit des Rasters.
 
 
 
@@ -79,18 +79,15 @@ Man beachte, dass Kreisbögen keine Vollkreise sein müssen.
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
-Man beachte, dass FreeCAD nach dem Ändern einiger Einstellungen einen Neustart erfordert.
-
--   Erfordert ein [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Befehl, das die Punkteingabe aktiv ist, kann der maximale Abstand, bei dem [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) einen Schnittpunkt von Rasterlinien erkennt,\"on-the-fly\" geändert werden durch Drücken von **[** (Mehr-Taste) oder **]** (Weniger-Taste). Diese Einstellung wird gespeichert unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → snapRange**. Sie kann auch im Aufgaben-Bereich des Befehls [Draft EbeneAuswählen](Draft_SelectPlane/de.md) angepasst werden.
--   Um nur dann einzurasten, wenn die **Fangmodus**-Taste gedrückt gehalten wird:
-    -   Abwählen: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Objektfang → Rastmodus ständig aktiviert (deaktiviert den Rastmodus-Umschalter)**.
-    -   Die standardmäßige ** Fangmodus**-Taste, **Ctrl**, kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Objektfang → Fangmodus**.
--   Soll die Symbolleiste Draft-Einrasten nur angezeigt werden, wenn ein Befehl aktiv ist:
-    -   Auswählen: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Objektfang → Symbolleiste Draft-Einrasten anzeigen**.
-    -   Auswählen: **Bearbeiten → Einstellungen... → Draft → Raster und einrasten → Objektfang → Symbolleiste Draft-Einrasten nach Verwendung ausblenden**.
--   Die Einrast-Symbole können geändert werden: **Bearbeiten → Einstellungen... → Draft → Visuelle Einstellungen → Visuelle Einstellungen → Einrastsymbolstil**.
--   Die Farbe der Einrast-Symbole und der Maße von [Draft EinrastenAufMaße](Draft_Snap_Dimensions.md) kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Visuelle Einstellungen → Visuelle Einstellungen → Farbe**.
--   Die genannten Einzelzeichen-Tastaturkürzel können geändert werden: **Bearbeiten → Einstellungen... → Draft → User interface settings → In-Command Shortcuts**.
+-   Erfordert ein [Draft](Draft_Workbench.md)- oder [Arch](Arch_Workbench.md)-Befehl, das die Punkteingabe aktiv ist, kann der maximale Abstand, bei dem [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) einen Schnittpunkt von Rasterlinien erkennt,\"on-the-fly\" geändert werden durch Drücken von **P** (Mehr-Taste) oder **M** (Weniger-Taste). Diese Einstellung wird gespeichert unter **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → snapRange**. Sie kann auch im Aufgaben-Bereich des Befehls [Draft EbeneAuswählen](Draft_SelectPlane/de.md) angepasst werden.
+-   Um nur dann einzurasten, wenn der **Einrasten**-Umschalter gedrückt gehalten wird:
+    -   Abwählen: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Immer einrasten (deaktiviert den Einrast-Umschalter)**.
+    -   Die standardmäßige Taste für **Einrasten**, **Ctrl**, kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Einrast-Umschalter**.
+-   Soll die Symbolleiste Draft-Einrasten nur angezeigt werden, wenn ein Befehl aktiv ist: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten →  Die Symbolleiste Draft-Einrasten nur während der Ausführung von Befehlen anzeigen** aktivieren. {{Version/de|0.22}}
+-   Die Einrastsymbole können geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Stil der Einrastsymbole**.
+-   Die Farbe der Einrastsymbole und der Maße von [Draft EinrastenAufMaße](Draft_Snap_Dimensions/de.md) kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Farbe der Einrastsymbole**.
+-   Die Größe der Einrastsymbole hängt ab von: **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße**. {{Version/de|0.22}}
+-   Die genannten Einzelzeichen-Tastaturkürzel können geändert werden: **Bearbeiten → Einstellungen... → Draft → Schnittstelle → Befehlsinterne Tastaturkürzel**.
 
 
 

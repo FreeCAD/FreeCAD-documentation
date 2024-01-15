@@ -274,7 +274,7 @@ Teraz musimy przesunąć naszą nową płytę dachową do jej właściwej pozycj
 
 <img alt="" src=images/BIM_Tutorial_21.jpg  style="width:300px;">
 
-Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width:16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na **XZ \'\'(Od przodu)***. Ustawiając się w widoku z przodu*(wciśnij klawisz **1**)\'\', możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width:16px;"> **Przesuń**, **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian:
+Innym sposobem na przesunięcie naszej płyty na właściwą pozycję, jest użycie <img alt="" src=images/Draft_Move.png  style="width:16px;"> narzędzia **Przesunięcie** z menu **Modyfikacja**. W tym celu musimy najpierw ustawić naszą płaszczyznę roboczą w płaszczyźnie pionowej, naciskając przycisk <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> **płaszczyzna robocza** *(upewnij się, że nie masz wybranej żadnej ściany)*, i ustawiając ją na *\'XZ*(Od przodu)***. Ustawiając się w widoku z przodu*(wciśnij klawisz**1**)\'\', możemy teraz wybrać płytę, wcisnąć przycisk <img alt="" src=images/Draft_Move.png  style="width:16px;">**Przesuń\'\'\', **Shift**, aby ograniczyć ruch w pionie, kliknij na jeden z punktów na szczycie ścian:
 
 <img alt="" src=images/BIM_Tutorial_23.jpg  style="width:300px;">
 

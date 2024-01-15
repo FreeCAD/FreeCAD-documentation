@@ -1,5 +1,5 @@
 # Manual:Generating 2D drawings/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 Quando il modello non può essere stampato o fresato direttamente da una macchina, perché, ad esempio, è troppo grande (un edificio) o richiede un montaggio manuale dopo che i pezzi sono pronti, di solito bisogna spiegare ad un\'altra persona come realizzarlo. Nel campo tecnico (ingegneria, architettura, ecc), questo di solito viene fatto con dei disegni. I disegni vengono consegnati alla persona responsabile dell\'assemblaggio del prodotto finale e questi spiegheranno come farlo.
 

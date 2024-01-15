@@ -14,7 +14,7 @@
 
 La commande <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Draft Échelle** met à l\'échelle ou copie les objets sélectionnés autour d\'un point de base. En mode sous-élément, la commande met à l\'échelle les points et les arêtes sélectionnés de [Draft Ligne](Draft_Line/fr.md) et [Draft Polyligne](Draft_Wire/fr.md).
 
-La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draft](Draft_Workbench/fr.md) ou l\'[Atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[Atelier Part](Part_Workbench/fr.md), l\'[Atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[Atelier Arch](Arch_Workbench/fr.md).
+La commande peut être utilisée sur des objets 2D créés avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md), mais aussi sur de nombreux objets 3D tels que ceux créés avec l\'[Atelier Part](Part_Workbench/fr.md), l\'[atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'[atelier Arch](Arch_Workbench/fr.md).
 
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Mise à l'échelle d'un objet autour d'un point de base*
@@ -23,15 +23,15 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Sélectionnez éventuellement un ou plusieurs objets, ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
-2.  Il existe plusieurs manières d\'invoquer la commande :
+1.  Vous pouvez sélectionner un ou plusieurs objets, ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
+2.  Il existe plusieurs manières de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Scale.svg" width=16px> [Draft Échelle](Draft_Scale/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Scale.svg" width=16px> Échelle** dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Scale.svg" width=16px> Échelle** du menu.
     -   Utilisez le raccourci clavier : **S** puis **C**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 4.  Le panneau des tâches **Échelle** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
-6.  Choisissez le point de base dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+6.  Choisissez le point de base dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Entrez les facteurs d\'échelle X, Y et Z.
 8.  Appuyez sur **Retour** ou sur le bouton **OK** pour terminer la commande.
 
@@ -41,9 +41,9 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 
 ### Premier panneau des tâches 
 
-Les raccourcis clavier à caractère unique mentionné ici peut être modifié. Voir les [Préférences Draft](Draft_Preferences/fr.md).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
--   Pour saisir manuellement les coordonnées du point de base, saisissez les composantes X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement les coordonnées du point de base, saisissez les composantes X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **G** ou cochez la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur le bouton **Fermer** pour annuler la commande.
@@ -58,14 +58,14 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   Si la case **Copie** est cochée, une copie à l\'échelle de l\'objet d\'origine est créée. Cela ne fonctionne que pour les objets Draft qui ont une propriété **Points**, tels que [Draft Polylignes](Draft_Wire/fr.md).
 -   Si la case **Modifier les sous-éléments** est cochée, la commande utilisera les sous-éléments sélectionnés au lieu de l\'ensemble des objets. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 -   Si la case **Créer un clone** est cochée, les [Draft Clones](Draft_Clone/fr.md) des objets originaux sont créés. Cela fonctionne pour tous les types d\'objets. Pour les objets qui ne sont pas des objets Draft ou pour les objets Draft qui n\'ont pas de propriété **Points**, cette option **doit** être sélectionnée.
--   Appuyez sur le bouton **Sélectionnez à partir de/vers les points** et sélectionnez deux points supplémentaires dans la [Vue 3D](3D_view/fr.md) pour calculer les facteurs d\'échelle. Cela cochera automatiquement la case **Mise à l'échelle uniforme**. Les facteurs d\'échelle X, Y et Z seront donc égaux et seront réglés sur la distance entre le point de base et le point « à partir de » divisé par la distance entre le point de base et le point « vers ».
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur le bouton **Sélectionnez à partir de/vers les points** et sélectionnez deux points supplémentaires dans la [vue 3D](3D_view/fr.md) pour calculer les facteurs d\'échelle. Cela cochera automatiquement la case **Mise à l'échelle uniforme**. Les facteurs d\'échelle X, Y et Z seront donc égaux et seront réglés sur la distance entre le point de base et le point \"à partir de\" divisé par la distance entre le point de base et le point \"vers\".
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande.
 
 
 
 ## Remarques
 
--   La commande peut également mettre à l\'échelle [une image plane](Image_CreateImagePlane/fr.md), mais pas en mode clone.
+-   La commande peut également mettre à l\'échelle des [plans d\'image](Image_CreateImagePlane/fr.md) mais pas en mode clone.
 
 
 
@@ -73,8 +73,7 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle ({{Version/fr|0.20}}) et des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
--   Pour resélectionner les objets de base après avoir copié les objets : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
+-   Pour resélectionner les objets de base après avoir copié des objets : **Édition → Préférences... → Draft → Général → Sélectionner les objets de base après la copie**.
 
 
 

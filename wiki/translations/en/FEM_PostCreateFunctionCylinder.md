@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM PostCreateFunctionCylinder
-   MenuLocation: Results , Filter Functions , Cylinder
+   MenuLocation: Results , Filter functions , Cylinder
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_tutorial
@@ -17,7 +17,7 @@ The <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:24px
 
 ### Create a cylinder function 
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Cylinder](FEM_PostCreateFunctionCylinder.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Cylinder** option from the menu.
+1.  Press the **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Cylinder](FEM_PostCreateFunctionCylinder.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Cylinder** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the center and the radius of the section cylinder.
 4.  Press the **OK** button to finish.

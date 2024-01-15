@@ -44,7 +44,13 @@
 -   The target edge or point object may be modified as well if it is not fully constrained.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

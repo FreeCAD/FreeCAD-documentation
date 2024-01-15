@@ -16,7 +16,7 @@ L\'outil Matériaux multiples définit une liste de [materiaux](Material/fr.md) 
 
 ![](images/Arch_multimaterial_example.png )
 
-Tous les objets Arch ne peuvent pas actuellement utiliser des matériaux multiples, et l\'utilisation qu\'ils en font diffère. Actuellement:
+Tous les objets Arch ne peuvent pas actuellement utiliser des matériaux multiples, et l\'utilisation qu\'ils en font diffère. Actuellement :
 
 -   <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Mur](Arch_Wall/fr.md) avec des matériaux multiples utilisera les définitions de matériaux et les épaisseurs pour créer un mur multicouche
 -   <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Fenêtre](Arch_Window/fr.md) avec des matériaux multiples va attribuer des matériaux avec un nom donné défini dans le Multi-Matériau aux composants de fenêtre avec un même nom ou type (voir ci-dessous). L\'épaisseur du matériau n\'est pas prise en compte.

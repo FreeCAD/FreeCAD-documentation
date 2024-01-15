@@ -11,7 +11,7 @@ FreeCAD 跨平台可用，（在Windows、Mac OS 和 Linux 平台上运行方式
 
 FreeCAD 从开源世界的丰富经验中受益。它内部包含了几个其他开源组件，而且 FreeCAD 本身可以作为其他应用程序的组件使用。它具有许多在开源世界中已经成为标准的做法，例如支持多种文件格式，以及可脚本化、可定制和可修改。这一切都得益于一个充满活力和热情的用户社区。
 
-FreeCAD 的官方网站是 <http://www.freecadweb.org>
+FreeCAD 的官方网站是 <http://www.freecad.org>
 
 **延伸阅读：**
 

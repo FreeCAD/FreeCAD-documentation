@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw_ClipGroupAdd
    Name/it: Aggiungi una vista al gruppo clip
-   MenuLocation: TechDraw , Aggiungi una vista al gruppo clip
+   MenuLocation: TechDraw , Clipped Views , Aggiungi una vista al gruppo clip
    Workbenches: TechDraw_Workbench/it
    SeeAlso: TechDraw_ClipGroup/it, TechDraw_ClipGroupRemove/it
 ---
 
 # TechDraw ClipGroupAdd/it
-
-
-</div>
 
 
 
@@ -25,13 +22,10 @@ Lo strumento **Aggiungi una vista al gruppo clip** aggiunge una vista a una Clip
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare una Clip e una Vista poi premere il pulsante **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md)** per aggiungere la vista.
-
-
-</div>
+1.  Selezionare una Clip nella [Vista 3D](3D_view/it.md) o nella [Vista ad albero](Tree_view.md).
+2.  Esistono diversi modi per richiamare lo strumento:
+    -   Premere il pulsante **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Aggiungi una vista al gruppo clip](TechDraw_ClipGroupAdd/it.md)**.
+    -   Selezionare dal menu **TechDraw → Clipped Views → <img src="images/TechDraw_ClipGroupAdd.svg" width=16px> Aggiungi una vista al gruppo clip**.
 
 
 

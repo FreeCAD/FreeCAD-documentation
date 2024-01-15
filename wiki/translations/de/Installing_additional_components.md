@@ -3,17 +3,25 @@
 
 Nach dem installieren von FreeCAD für dein Betriebssystem ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [Mac](Installing_on_Mac/de.md)), solltest du die Installation einer oder mehrerer der folgenden zusätzlichen Komponenten in Betracht ziehen.
 
+
+
 # Hilfedateien
 
 Weitere Informationen findest du auf der Seite [Installieren von Hilfedateien](Installing_Helpfile/de.md).
+
+
 
 # Externe Arbeitsbereiche 
 
 Abgesehen von den Standard [Arbeitsbereichen](workbenches/de.md), die mit FreeCAD gebündelt sind, gibt es eine große Sammlung nützlicher [externer Arbeitsbereiche](External_workbenches/de.md), erstellt von Gemeinschaftsmitgliedern.
 
+
+
 # Drittanbieter Software 
 
 FreeCAD unterstützt von Haus aus einige Softwarepakete von Drittanbietern. In vielen Fällen brauchst du die Software nur zu installieren, und wenn FreeCAD neu gestartet wird, findet es sie automatisch und kann sie verwenden. Dieser Abschnitt soll eine Liste solcher Softwarepakete bereitstellen, zusammen mit einigen Informationen darüber, wo sie in FreeCAD verwendet werden und wo sie heruntergeladen werden können.
+
+
 
 ## Unterstützung
 
@@ -33,17 +41,25 @@ FreeCAD unterstützt von Haus aus einige Softwarepakete von Drittanbietern. In v
 
 [OpenSCAD](https://www.openscad.org) ist ein 3D Volumenkörper Modellierer. Der [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md) ist von dieser Software abhängig und der [ Arbeitsbereich Polygonnetze](Mesh_Workbench/de.md) verwendet sie für ihre booleschen Werkzeuge. Es wird auch für den Import von SCAD Dateien mit dem [Std Import](Std_Import/de.md) Werkzeug benötigt.
 
+
+
 ## Dateiformate
 
 Die gesamte Software in diesem Abschnitt wird von den [Std Import](Std_Import/de.md) oder [Std Export](Std_Export/de.md) Werkzeugen verwendet.
+
+
 
 ### CADAustauscher
 
 [CADExchanger](https://cadexchanger.com) ist eine kommerzielle Anwendung zum Austausch von verschiedenen CAD Dateiformaten. Es gibt einen [externen Arbeitsbereich](https://github.com/yorikvanhavre/CADExchanger), um diese Anwendung in FreeCAD zu verwenden.
 
+
+
 ### DXF Importeur 
 
 FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert in C++. Derzeit führen sie nicht alle Funktionen des DXF Formats aus. Für diese Funktionen sind der alte Python Importeer und Exporteur weiterhin verfügbar. Diese benötigen die [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer) Python Bibliothek. Siehe die [FreeCAD und DXF Import](FreeCAD_and_DXF_Import/de.md) Seite für weitere Informationen.
+
+
 
 ### DWG Konverter 
 
@@ -67,6 +83,8 @@ Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeC
 
 [Pycollada](https://github.com/pycollada/pycollada/releases), auch bekannt als python-collada ist eine Python Bibliothek zum Lesen und Schreiben von Collada (DAE) Dateien. Pycollada ist in den FreeCAD Installationsprogrammen für Windows und Mac enthalten.
 
+
+
 ## Bildsynthese
 
 ### LuxCoreRender
@@ -77,15 +95,19 @@ Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeC
 
 [https://luxcorerender.org/history/ LuxRender](https://luxcorerender.org/history/_LuxRender.md) ist eine der beiden Render Maschinen, die von der [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Im Jahr 2013 wurde das Projekt neu gestartet und wurde zu [LuxCoreRender](LuxCoreRender/de.md), wobei der Code neu geschrieben und die Kompatibilität verbessert wurde. Offiziell unterstützt der Arbeitsbereich Strahlverfolgung nur noch den aufgegebenen [LuxRender](LuxRender/de.md) (letzte Version ist 1.6, 2017-12-28), während der neue [Render Arbeitsbereich](https://github.com/FreeCAD/FreeCAD-render) (gedacht als zukünftiger Ersatz des Arbeitsbereich Strahlverfolgung) stattdessen LuxCoreRender unterstützt und die Unterstützung für LuxRender eingestellt hat. Wie auch immer, auch wenn es offiziell nicht unterstützt wird, kann [LuxCoreRender](LuxCoreRender/de.md) mit dem Arbeitsbereich Strahlverfolgung funktionieren, es könnte sich lohnen, es auszuprobieren. Siehe die [LuxRender](LuxRender/de.md) Seite für weitere Informationen und Installationsanweisungen, und den [LuxCoreRender](LuxCoreRender/de.md), wenn du eine modernere Software ausprobieren möchtest.
 
+
+
 ### POVRay
 
 [POV-Ray](https://www.povray.org) ist ein sehr bekannter Strahlenverfolger zur Bildsynthese von fotorealistischen Bildern. Er ist einer von zwei Bildsynthese Engines, die derzeit vom [Arbeitsbereich Strahlverfolgung](Raytracing_Workbench/de.md) unterstützt werden. Siehe die [POV-Ray](POV-Ray/de.md) Seite für weitere Informationen und Installationsanweisungen.
+
+
 
 ## Finite Elemente 
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) ist eine Garnitur von zwei Finite Element Paketen: CalculiX CrunchiX, ein FEM Löser, und CalculiX GraphiX, ein GUI Frontend. Nur der Löser wird von FreeCAD unterstützt. Er wird von dem Werkzeug [Löser CalculiX](FEM_SolverCalculiX/de.md) verwendet.
+[CalculiX](http://calculix.de) ist eine Einheit von zwei Finite-Elemente-Paketen: CalculiX CrunchiX, ein FEM-Löser, und CalculiX GraphiX, ein GUI-Frontend. Nur der Löser wird von FreeCAD unterstützt. Er wird von dem Werkzeug [LöserCalculixCxxtools](FEM_SolverCalculixCxxtools/de.md) verwendet.
 
 ### Gmsh
 
@@ -106,6 +128,8 @@ Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeC
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) ist eine große Sammlung von Bibliotheken für numerische Strömungsmechanik (engl.: Computational Fluid Dynamics) (CFD) Simulationen. OpenFOAM wird von [Cfd](Cfd_Workbench/de.md) und [CfdOF](https://github.com/jaheyns/CfdOF) [externe Arbeitsbereiche](external_workbenches/de.md) verwendet.
+
+
 
 # Verwandte Seiten 
 

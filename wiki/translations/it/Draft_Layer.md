@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Draft Layer
-   Name/it: Strato
+   Name/it: Livello
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft , Utilità , Strato
+   MenuLocation: Draft , Utilità , Livello
    Version: 0.19
    See also: Draft_AutoGroup/it
 ---
@@ -11,165 +11,131 @@
 # Draft Layer/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo [Strato](Draft_Layer/it.md) crea un tipo speciale di gruppo che controlla le proprietà visive degli oggetti posizionati al suo interno. Modificando le proprietà dello strato, come la larghezza della linea, il colore della linea, il colore della forma e la trasparenza, le modifiche vengono propagate agli oggetti che utilizzano la proprietà Strato.
-
-
-</div>
+Il comando <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Livello** crea un livello Draft (Layer). Un livello è un tipo speciale di gruppo con un numero di [proprietà visive](#View.md). Queste proprietà e qualsiasi modifica apportata ad esse vengono propagate agli oggetti posizionati all\'interno del livello. I livelli stessi vengono inseriti in un altro gruppo speciale: Draft LayerContainer.
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Andare nel menu **Draft → Utilità → <img src="images/Draft_Layer.svg" width=16px> Strato**.
-2.  Modificare le proprietà di visualizzazione desiderate dello strato.
-
-
-</div>
-
-## Context menu 
-
-### Layer container options 
-
-For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: merges all layers with the same base label.
-
-:   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label.
-
--    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
-
-### Layer options 
-
-For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
-
--    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
-
-## Drag and drop behavior 
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Draft_Layer.svg" width=16px> [Livello](Draft_Layer/it.md)**.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_Layer.svg" width=16px> Livello** dal menu.
+    -   Se il contenitore del livello esiste già: fare clic con il tasto destro del mouse nella [Vista ad albero](Tree_view/it.md) e selezionare l\'opzione **<img src="images/Draft_NewLayer.svg" width=16px> Aggiungi nuovo livello** dal menu contestuale .
+2.  Se non esiste, viene creato prima il contenitore del livello.
+3.  Viene creato un livello e inserito nel contenitore del livello.
+4.  Facoltativamente modificare le [proprietà](#Properties.md) del livello.
+5.  Facoltativamente, inserire gli oggetti nel livello trascinandoli sul livello nella [Vista ad albero](Tree_view/it.md). Gli oggetti possono anche essere inseriti in un livello modificando la proprietà **Group** del livello.
+6.  Facoltativamente [attivare](#Layer_options.md) il livello.
 
 
-<small>(v0.21)</small> 
 
-If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
+## Menu contestuale 
 
-## Notes
 
--   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
--   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+
+### Opzioni del contenitore di livelli 
+
+Per un Draft LayerContainer queste opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad albero](Tree_view/it.md):
+
+-    **<img src="images/Draft_Layer.svg" width=16px> Unisci livelli duplicati**: unisce tutti i livelli con la stessa etichetta di base.
+
+:   L\'etichetta di base di un livello è la sua **Label** privata delle cifre finali e degli spazi. Tutti i livelli con la stessa etichetta di base vengono uniti in un singolo livello con **Label** impostato su quell\'etichetta di base.
+
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Aggiungi nuovo livello**: aggiunge un nuovo livello al documento corrente.
+
+
+
+### Opzioni dei livelli 
+
+Per un livello Draft queste opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad albero](Tree_view/it.md):
+
+-    **<img src="images/button_right.svg" width=16px> [Attiva questo livello](Draft_AutoGroup/it.md)**: attiva il livello selezionato.
+
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Seleziona contenuto livello](Draft_SelectGroup/it.md)**: seleziona gli oggetti all\'interno del livello selezionato.
+
+
+
+## Comportamento trascina e rilascia 
+
+
+{{Version/it|0.21}}
+
+Se si rilascia un oggetto da un [ Gruppo](Std_Group/it.md), o un oggetto simile a un gruppo come un [Parte di edificio Arch](Arch_BuildingPart/it.md), su un livello nella [Vista ad albero](Tree_view/it.md), è non rimosso dal gruppo e viceversa. Per rimuovere un oggetto da un livello è necessario rilasciarlo su un altro livello o sul nodo del documento. Non è necessario tenere premuto il tasto **Ctrl** durante il trascinamento o il rilascio su un livello.
+
+
+
+## Note
+
+-   È anche possibile creare un nuovo livello con il comando [Draft Gruppo automatico](Draft_AutoGroup/it.md).
+-   L\'[Ambiente BIM](BIM_Workbench/it.md) offre uno [strumento di gestione dei livelli](BIM_Layers/it.md) completo che verrà eventualmente incluso nell\'[Ambiente Draft](Draft_Workbench/it.md).
 
 
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+Un oggetto Draft Livello deriva da un oggetto [App FeaturePython](App_FeaturePython/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
 
-{{TitleProperty|Layer}}
 
-
-<div class="mw-translate-fuzzy">
-
--    **Group**: specifica gli elementi che fanno parte del gruppo.
-
--   Proprietà visive che possono essere modificate e propagate agli oggetti: **Stile di disegno**, **Colore della linea**, **Larghezza della linea**, **Colore della forma**, **Trasparenza**, e **Visibilità**.
-
-
-</div>
-
-### View
+### Dati
 
 
 {{TitleProperty|Layer}}
 
-The properties in this section are applied to objects that are put inside the layer. And any changes to these properties are propagated to them. For two properties, **Line Color** and **Shape Color**, this behavior is optional.
-
--    **Draw Style|Enumeration**: specifies the draw style of the layer: {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} or {{value|Dashdot}}
-
--    **Line Color|Color**: specifies the line color of the layer.
-
--    **Line Width|Float**: specifies the line width of the layer.
-
--    **Override Line Color Children|Bool**: specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
-
--    **Override Shape Color Children|Bool**: specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
-
--    **Shape Color|Color**: specifies the shape color of the layer.
-
--    **Transparency|Percent**: specifies the transparency of the layer.
-
-
-{{TitleProperty|Print}}
-
--    **Line Print Color|Color**: specifies the line print color of the layer.
-
--    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
+-    **Group|LinkList**: specifica gli oggetti che si trovano all\'interno del livello.
 
 
 
-## Script
+### Vista
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Layer}}
 
+Le proprietà in questa sezione vengono applicate agli oggetti inseriti all\'interno del livello. E qualsiasi modifica a queste proprietà viene propagata a loro. Per due proprietà, **Line Color** e **Shape Color**, questo comportamento è facoltativo.
 
-**Vedere anche:**
+-    **Draw Style|Enumeration**: specifica lo stile di disegno del livello: {{value|Solid}}, {{value|Dashed}}, {{value|Punteggiato}} o {{value|Dashdot} }
+    * **Line Color|Color**: specifica il colore della linea del livello.
+    * **Line Width|Float**: specifica la larghezza della linea del livello.
+    * **Override Line Color Children|Bool**: specifica se le modifiche al **Line Color** del livello vengono propagate agli oggetti all'interno del livello.
+    * **Override Shape Color Children|Bool**: specifica se le modifiche a **Shape Color** del livello vengono propagate agli oggetti all'interno del livello.
+    * **Shape Color|Color**: specifica il colore della forma del livello.
+    * **Transparency|Percent**: specifica la trasparenza del livello.
 
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
+    {{TitleProperty|Print}}
 
+    * **Line Print Color|Color**: specifica il colore di stampa della linea del livello.
+    * **Use Print Color|Bool**: specifica se il **Line Print Color|** del livello viene utilizzato quando una [TechDraw Vista di Draft](TechDraw_DraftView/it.md) viene creata dagli oggetti interni al livello.
 
-</div>
+    <span id="Scripting"></span>
+    ==Script==
 
+    Vedere anche: [https://freecad.github.io/SourceDoc/ Autogenerated API documentation] e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
+    Per creare un livello Draft utilizzare il metodo `make_layer` del modulo Draft. Per aggiungere o rimuovere oggetti da un livello, modificare la sua proprietà `Group`.
 
-Per aggiungere o rimuovere oggetti dallo strato, sovrascrivere semplicemente il suo attributo `Group`.
-
-
-</div>
-
-
+    
 ```python
-import FreeCAD as App
-import Draft
+    import FreeCAD as App
+    import Draft
 
-doc = App.newDocument()
+    doc = App.newDocument()
 
-layer = Draft.make_layer(line_color=(1.0, 0.0, 0.0, 0.0),
-                         shape_color=(1.0, 1.0, 0.0, 0.0))
+    layer = Draft.make_layer(line_color=(1.0, 0.0, 0.0, 0.0),
+                             shape_color=(1.0, 1.0, 0.0, 0.0))
 
-polygon1 = Draft.make_polygon(5, radius=1000)
-polygon2 = Draft.make_polygon(3, radius=500)
-polygon3 = Draft.make_polygon(6, radius=220)
-layer.Group = [polygon1, polygon2, polygon3]
+    polygon1 = Draft.make_polygon(5, radius=1000)
+    polygon2 = Draft.make_polygon(3, radius=500)
+    polygon3 = Draft.make_polygon(6, radius=220)
+    layer.Group = [polygon1, polygon2, polygon3]
 
-doc.recompute()
+    doc.recompute()
+    
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -1,36 +1,45 @@
 ---
  GuiCommand:
    Name: Fasteners Move
-   MenuLocation: Fasteners , Move fastener
-   Workbenches: Fasteners_Workbench
+   Name/pl: Elementy Złączne: Przesuń
+   MenuLocation: Elementy Złączne , Przesuń
+   Workbenches: Fasteners_Workbench/pl
 ---
 
 # Fasteners Move/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** command moves and attaches a fastener to a circular edge. It can also be used to detach a fastener. An attached fastener has a **base Object** and its **Placement** is dynamically linked to that object.
 
-## Usage
+## Opis
 
-### Attach
+Polecenie <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Przesuń** przenosi i dołącza element złączny do okrągłej krawędzi. Może być również użyte do odłączenia elementu złącznego. Dołączony element złączny ma właściwość **baza Obiektu**, a jego właściwość **Umiejscowienie** jest dynamicznie powiązana z tym obiektem.
+
+
+
+## Użycie
+
+
+
+### Dołączenie
 
 <img alt="" src=images/Fasteners_Move_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Move_Result.png  style="width:200px;"> 
-*On the left a fastener and a circular edge are selected. On the right the fastener has been moved and attached to the selected edge.*
+*Po lewej stronie wybrano element złączny i okrągłą krawędź. Po prawej element złączny został przeniesiony i dołączony do wybranej krawędzi.*
 
-1.  Select a single fastener and a single circular edge.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
-3.  The fastener moves to the selected edge and is attached to it.
+1.  Wybierz pojedynczy element złączny i pojedynczą okrągłą krawędź.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_Move.svg" width=16px> '''Przesuń'''**.
+    -   Wybierz opcję z menu **Elementy Złączne → <img src="images/Fasteners_Move.svg" width=16px> Przesuń**.
+3.  Element mocujący przesunie się do wybranej krawędzi i zostanie do niej przymocowany.
 
-### Detach
 
-1.  Select a single fastener.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
-3.  The fastener is detached.
+
+### Odłączenie
+
+1.  Wybierz pojedynczy element złączny.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_Move.svg" width=16px> '''Przesuń'''**.
+    -   Wybierz opcję z menu **Elementy Złączne → <img src="images/Fasteners_Move.svg" width=16px> Przesuń**.
+3.  element złączny zostanie odłączony.
 
 
 

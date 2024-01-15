@@ -1,7 +1,7 @@
 # Placement/fr
 ## Présentation
 
-**Placement** (**Positionnement** en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le placement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[Éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Édition → Positionnement...** pour ouvrir le [panneau des tâches de Positionnement](Std_Placement/fr.md).
+**Placement** (**Positionner** en français) est la manière dont FreeCAD spécifie l\'emplacement et la position (orientation) d\'un objet dans l\'espace. Le positionnement peut être spécifié sous plusieurs formes et manipulé via un [script](Python_scripting_tutorial/fr#Vecteurs_et_placements.md), l\'[éditeur de propriétés](Property_editor/fr.md) ou en sélectionnant **Édition → Positionner...** pour ouvrir le [panneau des tâches de Positionner](Std_Placement/fr.md).
 
 
 

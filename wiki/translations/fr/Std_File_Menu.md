@@ -47,7 +47,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_SaveCopy.svg  style="width:32px;"> [Enregistrer une copie](Std_SaveCopy/fr.md) : enregistre une copie du document sous un nouveau nom de fichier.
 
--   <img alt="" src=images/Std_SaveAll.svg  style="width:32px;"> [Tout enregistrer](Std_SaveAll/fr.md) : enregistre tous les documents ouverts.
+-   <img alt="" src=images/Std_SaveAll.svg  style="width:32px;"> [Enregistrer tout](Std_SaveAll/fr.md) : enregistre tous les documents ouverts.
 
 -   <img alt="" src=images/Std_Revert.svg  style="width:32px;"> [Rétablir](Std_Revert/fr.md) : retourne à la version sauvegardée du document.
 
@@ -65,7 +65,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_PrintPdf.svg  style="width:32px;"> [Exporter au format PDF\...](Std_PrintPdf/fr.md) : exporte le document au format PDF.
 
--   [Fichiers récent\...](Std_RecentFiles/fr.md) : affiche la liste des fichiers récents.
+-   [Fichiers récents\...](Std_RecentFiles/fr.md) : affiche la liste des fichiers récents.
 
 -   <img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Quitter](Std_Exit/fr.md) : quitte l\'application.
 

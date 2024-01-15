@@ -9,9 +9,13 @@
 
 # Mesh Merge/pl
 
+
+
 ## Opis
 
 Polecenie **Scal** tworzy nowy nieparametryczny obiekt siatkowy, [cecha siatki](Mesh_Feature/pl.md), poprzez połączenie siatek dwóch lub więcej obiektów siatkowych. Polecenie nie wykonuje połączenia logicznego, nowy obiekt będzie zawierał oddzielne elementy siatki. Dla połączenia logicznego użyj zamiast tego polecenia, funkcji [Połączenie](Mesh_Union/pl.md). To polecenie jest odpowiednikiem polecenia [Rozbij na komponenty](Mesh_SplitComponents/pl.md).
+
+
 
 ## Użycie
 
@@ -19,6 +23,8 @@ Polecenie **Scal** tworzy nowy nieparametryczny obiekt siatkowy, [cecha siatki](
 2.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_Merge.svg" width=16px> '''Scal'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_Merge.svg" width=16px> Scal**.
+
+
 
 ## Właściwości
 

@@ -1,81 +1,88 @@
 ---
  GuiCommand:
    Name: Draft CircularArray
-   MenuLocation: Modification , Array tools , Circular array
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: kołowy
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk kołowy
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
-   SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray
+   SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
 
 # Draft CircularArray/pl
 
-## Description
 
-The <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Draft CircularArray** command creates an array from a selected object by placing copies along concentric circumferences. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+## Opis
+
+Polecenie <img alt="" src=images/Draft_CircularArray.svg  style="width:24px;"> **Szyk kołowy** tworzy tablicę z wybranego obiektu poprzez umieszczenie kopii wzdłuż współśrodkowych okręgów. Polecenie może opcjonalnie utworzyć szyk [łączy](App_Link.md), który jest bardziej wydajny niż zwykły szyk.
+
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_CircularArray_example.png  style="width:400px;"> 
-*Draft CircularArray*
+*Szyk kołowy*
 
-## Usage
 
-See also: [Draft Snap](Draft_Snap.md).
 
-1.  Optionally select one object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CircularArray.svg" width=16px> [Draft CircularArray](Draft_CircularArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array** option from the menu.
-3.  The **Circular array** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an object: select one object.
-5.  Enter the required parameters in the task panel.
-6.  To finish the command do one of the following:
-    -   Pick a point in the [3D view](3D_view.md) for the **Center of rotation**.
-    -   Press **Enter**.
-    -   Press the **OK** button.
+## Użycie
 
-## Options
+Zapoznaj się również z informacjami na stronie [Przyciąganie](Draft_Snap/pl.md).
 
--   Enter the **Radial distance** to specify the distance between the circular layers, and between the center and the first circular layer.
--   Enter the **Tangential distance** to specify the distance between the elements on the same circular layer. Must be larger than zero.
--   Enter the **Number of circular layers**. The element at the center counts as one layer. Must be at least {{Value|2}}. The maximum that can be entered in the task panel is {{Value|99}}, but higher values are possible by changing the **Number Circles** property of the array.
--   Enter the **Symmetry** value. This number determines how the elements are distributed. A value of {{Value|3}}, for example, results in a pattern with three equal 120° pie segments. Larger values for the **Symmetry** and the **Tangential distance** result in fewer or even no elements on the inner layers.
--   Pick a point in the [3D view](3D_view.md), note that this will also finish the command, or type coordinates for the **Center of rotation**. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press the **Reset point** button to reset the **Center of rotation** to the origin.
--   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
--   Press **Esc** or the **Cancel** button to abort the command.
+1.  Opcjonalnie wybierz jeden obiekt.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_CircularArray.svg" width=16px> '''Szyk kołowy'''**.
+    -   Wybierz opcję z manu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_CircularArray.svg" width=16px> Szyk kołowy**.
+3.  Otworzy się panel zadań **Szyk kołowy**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Jeśli nie wybrano jeszcze żadnego obiektu: wybierz jeden obiekt.
+5.  Wprowadź wymagane parametry w panelu zadań.
+6.  Aby zakończyć polecenie, wykonaj jedną z następujących czynności:
+    -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) dla **Środek obrotu**.
+    -   Naciśnij **Enter**.
+    -   Naciśnij przycisk **OK**.
 
-## Notes
 
--   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
--   A Draft CircularArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft PolarArray](Draft_PolarArray.md) by changing its **Array Type** property.
--   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferences
+## Opcje
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   Wprowadź **Odległość promieniowa**, aby określić odległość między okrągłymi warstwami oraz między środkiem a pierwszą okrągłą warstwą.
+-   Wprowadź **Odległość styczna**, aby określić odległość między elementami na tej samej warstwie kołowej. Musi być ona większa od zera.
+-   Wprowadź **Liczba warstw kołowych**. Element w środku liczy się jako jedna warstwa. Liczba ta musi wynosić co najmniej {{Value|2}}. Maksymalna wartość, jaką można wprowadzić w panelu zadań to {{Value|99}}, ale wyższe wartości są możliwe poprzez zmianę właściwości **Liczba okręgów** szyku.
+-   Wprowadź wartość **Odbicie lustrzane**. Liczba ta określa sposób rozmieszczenia elementów. Wartość {{Value|3}}, na przykład, skutkuje wzorem z trzema równymi segmentami kołowymi 120°. Większe wartości **Odbicia lustrzanego** i **Odległość styczna** skutkują mniejszą liczbą lub nawet brakiem elementów na wewnętrznych warstwach.
+-   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md), zauważ, że zakończy to również polecenie, lub wpisz współrzędne dla **Środka obrotu**. Oś obrotu tablicy będzie przechodzić przez ten punkt. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Naciśnij przycisk **Zresetuj współrzędne punktu**, aby zresetować **Środek obrotu** do punktu odniesienia położenia.
+-   Jeśli pole wyboru **Scal** jest zaznaczone, nakładające się elementy w tablicy są łączone. Nie działa to w przypadku szyków łączy.
+-   Jeśli pole wyboru **Szyk łączy** jest zaznaczone, tworzony jest szyk łączy zamiast zwykłego szyku. Szyk łączy jest bardziej wydajny, ponieważ jego elementami są obiekty [App: Łącze](App_Link/pl.md).
+-   Naciśnij **Esc** lub przycisk **Cancel**, aby przerwać wykonywanie polecenia.
 
--   To change the number of decimals used for the input of coordinates and distances: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
-## Properties
 
-See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
+## Uwagi
 
-## Scripting
+-   Domyślną osią obrotu dla szyku jest dodatnia oś Z. Można to zmienić edytując właściwość **Oś**.
+-   Szyk kołowy może zostać przekształcony w [Szyk ortogonalny](Draft_OrthoArray/pl.md) lub [Szyk biegunowy](Draft_PolarArray/pl.md) poprzez zmianę jego właściwości **Typ szyku**.
+-   Szyk łączy nie może zostać przekształcony w zwykły szyk lub odwrotnie. Typ szyku musi być określony w czasie tworzenia.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a circular array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create [Draft OrthoArrays](Draft_OrthoArray.md), [Draft PolarArrays](Draft_PolarArray.md) and Draft CircularArrays. For each array type one or more wrappers are available.
 
-The main method:
+## Właściwości
+
+Zapoznaj się z informacjami zawartymi na stronie [Szyk ortogonalny](Draft_OrthoArray/pl#Właściwości.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć parametryczny szyk kołowy, należy użyć metody `make_array` *({{Version/pl|0.19}})* modułu Rysunek Roboczy. Metoda ta zastępuje przestarzałą metodę `makeArray`. Metoda `make_array` może tworzyć obiekty [Szyk ortogonalny](Draft_OrthoArray/pl.md), [Szyk biegunowy](Draft_PolarArray/pl.md) i Szyk kołowy środowiska Rysunek Roboczy. Dla każdego typu szyku dostępny jest jeden lub więcej elementów opakowujących.
+
+Metoda podstawowa:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for circular arrays is:
+Opakowaniem dla szyków kołowych jest:
 
 
 ```python
@@ -86,21 +93,21 @@ array = make_circular_array(base_object,
                             use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`jest obiektem, który ma zostać użyty w szyku. Może to być również `Etykieta` (ciąg znaków) obiektu w bieżącym dokumencie.
 
--    `r_distance`and `tan_distance` are the radial and tangential distances between the elements.
+-    `r_distance`i `tan_distance` są odległościami radialnymi i stycznymi między elementami.
 
--    `number`is the number of circular layers in the pattern, the original object counts as the first layer.
+-    `Liczba`to liczba okrągłych warstw we wzorze, oryginalny obiekt liczy się jako pierwsza warstwa.
 
--    `symmetry`is an integer used in some calculations that affect the way the elements are distributed around the circumferences. Usual values are from 1 to 6. Higher values are not recommended and will make the elements in the inner layers disappear.
+-    `symetria`to liczba całkowita używana w niektórych obliczeniach, które wpływają na sposób rozmieszczenia elementów na obwodzie. Zwykle przyjmuje się wartości od 1 do 6. Wyższe wartości nie są zalecane i spowodują zniknięcie elementów w wewnętrznych warstwach.
 
--    `axis`and `center` are vectors that describe the direction of the axis of rotation, and a point through which that axis passes.
+-    `Oś`i `Środek` to wektory opisujące kierunek osi obrotu i punkt, przez który ta oś przechodzi.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Jeśli `use_link` ma wartość {{True/pl}}, utworzone elementy są [App: Łącze](App_Link/pl.md) zamiast zwykłych kopii.
 
--    `array`is returned with the created array object.
+-    `szyk`jest zwracany wraz z utworzonym obiektem szyku.
 
-Example:
+Przykład:
 
 
 ```python

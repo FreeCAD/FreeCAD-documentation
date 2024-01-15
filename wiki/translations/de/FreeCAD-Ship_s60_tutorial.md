@@ -1,6 +1,6 @@
 ---
  TutorialInfo:e
-   Topic: Schiff Arbeitsbereich
+   Topic: Arbeitsbereich Ship
    Level: Anfänger
    Time: 
    Author: 
@@ -16,11 +16,11 @@
 
 
 
-## Einführung
+## Einleitung
 
-In diesem Tutorium werden wir mit einem Serie 60 Schiff der Universität von Iowa arbeiten. Das Tutorium soll zeigen, wie man mit einem symmetrischen Einrumpfschiff arbeiten kann, aber auch Mehrrumpf- oder nicht-symmetrische Schiffe können mit dem gleichen Verfahren ausgeführt werden.
+In diesem Tutorium werden wir mit einem Serie-60-Schiff der Universität von Iowa arbeiten. Diese Anleitung soll zeigen, wie man mit einem symmetrischen Einrumpfschiff arbeiten kann, aber auch Mehrrumpf- oder nicht-symmetrische Schiffe können mit dem gleichen Vorgehen ausgeführt werden.
 
-Erfahre mehr über <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Arbeitsbereich Schiff](Ship_Workbench/de.md).
+Erfahre mehr über den Arbeitsbereich <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ship](Ship_Workbench/de.md).
 
 
 
@@ -28,30 +28,30 @@ Erfahre mehr über <img alt="" src=images/Workbench_Ship.svg  style="width:24px;
 
 ### Hintergrund
 
-Die <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Arbeitsbereich Schiff](Ship_Workbench/de.md) arbeitet über **Schiffsentitäten**, die auf der bereitgestellten Geometrie erstellt werden müssen. Bei der Geometrie muss es sich um einen Festkörper (oder einen Satz von Festkörpern) handeln, wobei die folgenden Kriterien berücksichtigt werden müssen:
+Der Arbeitsbereich <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ship](Ship_Workbench/de.md) arbeitet über **Schiffsentitäten**, die auf der bereitgestellten Geometrie aufbauend erstellt werden müssen. Bei der Geometrie muss es sich um einen Festkörper (oder einen Satz von Festkörpern) handeln, wobei die folgenden Kriterien berücksichtigt werden müssen:
 
 -   Die gesamte Rumpfgeometrie muss bereitgestellt werden (einschließlich symmetrischer Körper).
--   Die Steuerbord Geometrie muss im negativen Bereich \"y\" enthalten sein.
--   Der Nullpunkt (0,0,0) ist der *Mittschiffsabschnitt* (Mittelpunkt zwischen dem hinteren und vorderen Lot) und des *Basislinien* Schnittpunkts.
+-   Die Steuerbord Geometrie muss sich im negativen \"Y\"-Bereich befinden.
+-   Der Nullpunkt (0,0,0) ist der Schnittpunkt vom *Mittschiff-Spantenriss* (Mittelebene zwischen dem hinteren und vorderen Lot) und der *Kiellinie*.
 
-![Schematische Ansicht der Vorzeichenkriterien](images/FreeCAD-Ship-SignCriteria.jpg )
+![Schematische Ansicht der Konstruktionsachsen](images/FreeCAD-Ship-SignCriteria.jpg )
 
 
 <center>
 
-FreeCAD-Schiff Vorzeichenkriterien
+FreeCAD-Ship Konstruktionsachsen
 
 
 </center>
 
-### Laden der Serie 60 Geometrie 
+### Serie-60-Geometrie laden 
 
-Um neue Anwender zu unterstützen, enthält der Arbeitsbereich Schiff einen Geometrie Beispiel Lader mit den folgenden Auswahlmöglichkeiten:
+Um neue Anwender zu unterstützen, enthält der Arbeitsbereich Ship eine Ladefunktion für Beispielgeometrien mit den folgenden Auswahlmöglichkeiten:
 
--   Serie 60 von der Universität Iowa
--   Wigley Kanonisches Schiff
--   Serie 60 Katamaran
--   Wigley Katamaran
+-   Series 60 from Iowa University
+-   Wigley Canonical Ship
+-   Series 60 Catamaran
+-   Wigley Catamaran
 
 ![Schiffsgeometrien Beispielladersymbol.](images/Ship_Load.svg )
 

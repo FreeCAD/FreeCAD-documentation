@@ -45,7 +45,13 @@ Esta página contém documentação útil para utilizadores do FreeCAD em geral:
 
 ## Índice
 
+
+<div class="mw-translate-fuzzy">
+
 A seguinte tabela lista todos os artigos desta wiki que formam a espinha dorsal da documentação offline fornecida com a aplicação. Já está disponível em vários idiomas:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

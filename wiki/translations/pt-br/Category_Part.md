@@ -25,7 +25,7 @@ This category lists pages related to the [Part Workbench/pt-br](Part_Workbench/p
 | [Part Offset/pt-br](Part_Offset/pt-br.md) | [Part Offset2D/pt-br](Part_Offset2D/pt-br.md) | [Part Plane/pt-br](Part_Plane/pt-br.md) |
 | [Part Point/pt-br](Part_Point/pt-br.md) | [Part PointsFromMesh/pt-br](Part_PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](Part_Primitives/pt-br.md) |
 | [Part Prism/pt-br](Part_Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](Part_ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](Part_RefineShape/pt-br.md) |
-| [Part RegularPolygon/pt-br](Part_RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](Part_ReverseShapes/pt-br.md) | [Part Revolve/pt-br](Part_Revolve/pt-br.md) |
+| [Part RegularPolygon/pt-br](Part_RegularPolygon/pt-br.md) | [Part ReverseShape/pt-br](Part_ReverseShape/pt-br.md) | [Part Revolve/pt-br](Part_Revolve/pt-br.md) |
 | [Part RuledSurface/pt-br](Part_RuledSurface/pt-br.md) | [Part scripting/pt-br](Part_scripting/pt-br.md) | [Part Section/pt-br](Part_Section/pt-br.md) |
 | [Part ShapeFromMesh/pt-br](Part_ShapeFromMesh/pt-br.md) | [Part SimpleCopy/pt-br](Part_SimpleCopy/pt-br.md) | [Part Slice/pt-br](Part_Slice/pt-br.md) |
 | [Part SliceApart/pt-br](Part_SliceApart/pt-br.md) | [Part Sphere/pt-br](Part_Sphere/pt-br.md) | [Part Spiral/pt-br](Part_Spiral/pt-br.md) |

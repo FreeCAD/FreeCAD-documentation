@@ -11,7 +11,7 @@
 
 ## Description
 
-The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object like an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md) using a line that is crossing the object.
+The **Arch CutLine** tool cuts a solid Arch object like an [Arch Wall](Arch_Wall.md) or [Arch Structure](Arch_Structure.md) with a straight edge. Based on that edge and the normal of the [Draft working plane](Draft_SelectPlane.md) a cutting face is generated.
 
  <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;"> 
 
@@ -21,11 +21,14 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 
 ## Usage
 
-1.  Select the object to be cut in the [tree view](Tree_view.md) or the [3D view](3D_view.md).
-2.  Then select the edge to be used to cut the object, for example, a [Draft Wire](Draft_Wire.md). This object should be selected in the [3D view](3D_view.md) only.
-3.  Press the **<img src="images/Arch_CutLine.svg" width=16px> [Cut Line](Arch_CutLine.md)** button.
-4.  Choose **Behind** or **Front** to indicate what part of the solid will be removed.
-5.  Click the **OK** button.
+1.  If required align the working plane:
+    -   The selected edge may not be parallel to the normal of the working plane.
+    -   The generated cutting face will be perpendicular to the working plane.
+2.  Select the object to be cut in the [Tree view](Tree_view.md) or the [3D view](3D_view.md).
+3.  Select a straight edge. This must be selected in the [3D view](3D_view.md).
+4.  Press the **<img src="images/Arch_CutLine.svg" width=16px> [Cut with line](Arch_CutLine.md)** button.
+5.  Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
+6.  Press the **OK** button.
 
 ## Scripting
 

@@ -16,10 +16,10 @@ La commande <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;">
 
 ## Utilisation
 
-1.  Sélectionnez une ou plusieurs [Draft Dimensions](Draft_Dimension/fr.md).
+1.  Sélectionner une ou plusieurs [Draft Dimensions](Draft_Dimension/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_FlipDimension.svg" width=16px> [Inverser le texte de la dimension](Draft_FlipDimension/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser le texte de la dimension** dans le menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_FlipDimension.svg" width=16px> [Inverser le texte de la dimension](Draft_FlipDimension/fr.md)**.
+    -   Sélectionner l\'option **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Inverser le texte de la dimension** du menu.
 
 
 

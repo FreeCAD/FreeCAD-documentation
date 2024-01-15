@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM ConstraintMagnetization
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint magnetization
+   MenuLocation: Model , Electromagnetic boundary conditions , Magnetization boundary condition
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D
@@ -11,12 +11,12 @@
 
 ## Description
 
-Creates a FEM constraint for the magnetization. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
+Creates a FEM boundary condition for the magnetization. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
 
 ## Usage
 
-1.  Press the **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [FEM ConstraintMagnetization](FEM_ConstraintMagnetization.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Constraint magnetization**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
+1.  Press the **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Magnetization boundary condition](FEM_ConstraintMagnetization.md)** button or use the menu **Model → Electromagnetic boundary conditions → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Magnetization boundary condition**.
+2.  In the [3D view](3D_view.md) select the object the bounadry condition should be applied to.
 3.  Press the **Add** button.
 
 ## Options

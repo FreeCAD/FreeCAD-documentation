@@ -1,59 +1,62 @@
 ---
  GuiCommand:
    Name: Draft Stretch
-   MenuLocation: Modification , Stretch
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Rozciągnij
+   MenuLocation: Modyfikacja , Rozciągnij
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **S** **H**
    Version: 0.17
 ---
 
 # Draft Stretch/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Draft Stretch** command stretches objects by moving selected points.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Rozciągnij** rozciąga obiekty, przesuwając wybrane punkty.
 
 <img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;"> 
-*Stretching three Draft Wires*
+*Rozciąganie trzech linii.*
 
-## Usage
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  Optionally select one or more objects. The objects must be [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Rectangles](Draft_Rectangle.md), [Draft BSplines](Draft_BSpline.md) or [Draft BezCurves](Draft_BezCurve.md). Other objects are ignored.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Stretch.svg" width=16px> [Draft Stretch](Draft_Stretch.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Stretch.svg" width=16px> Stretch** option from the menu.
-    -   Use the keyboard shortcut: **S** then **H**.
-3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The **Stretch** task panel opens. See [Options](#Options.md) for more information.
-5.  Pick the first point, one corner of a rectangular selection area, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-6.  Pick the second point, the opposite corner of the selection area, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-7.  The points of the selected objects that are inside the selection area are marked.
-8.  Pick the third point, the base point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-9.  Pick the fourth point, the target point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
+## Użycie
 
-## Options
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+1.  Opcjonalnie wybierz jeden lub więcej obiektów. Obiektami muszą być [liniami](Draft_Line/pl.md), [poliliniami](Draft_Wire/pl.md), [prostokątami](Draft_Rectangle/pl.md), [krzywymi złożonymi](Draft_BSpline/pl.md) lub [krzywymi Bézier\'a](Draft_BezCurve/pl.md). Inne obiekty są ignorowane.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Stretch.svg" width=16px> '''Rozciągnij'''**.
+    -   Wybierz opcję z menu **Modyfikacja → <img src="images/Draft_Stretch.svg" width=16px> Rozciągnij**.
+    -   Użyj skrótu klawiaturowego: **S**, a następnie **H**.
+3.  Jeśli obiekt nie został jeszcze wybrany: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+4.  Otworzy się panel zadań **Rozciągnij**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+5.  Wybierz pierwszy punkt, jeden z rogów prostokątnego obszaru zaznaczenia, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+6.  Wybierz drugi punkt, przeciwległy narożnik obszaru zaznaczenia, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+7.  Punkty wybranych obiektów, które znajdują się wewnątrz obszaru zaznaczenia, zostaną zaznaczone.
+8.  Wybierz trzeci punkt, punkt bazowy, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
+9.  Wybierz czwarty punkt, punkt docelowy, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point of the displacement are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+## Opcje
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
-## Scripting
+-   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z i naciśnij **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu przesunięcia są względne do pierwszego punktu, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-There is no Python method to stretch objects. To emulate the results of the Draft Stretch command geometric properties of objects have to be modified.
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Nie ma metody Python do rozciągania obiektów. Aby naśladować wyniki polecenia **Rozciągnij**, należy zmodyfikować właściwości geometryczne obiektów.
 
 
 

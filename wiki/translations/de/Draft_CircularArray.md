@@ -29,7 +29,7 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 
 1.  Optionally select one object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CircularArray.svg" width=16px> [Draft CircularArray](Draft_CircularArray.md)** button.
+    -   Press the **<img src="images/Draft_CircularArray.svg" width=16px> [Circular array](Draft_CircularArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_CircularArray.svg" width=16px> Circular array** option from the menu.
 3.  The **Circular array** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an object: select one object.
@@ -60,14 +60,6 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 -   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
 -   A Draft CircularArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft PolarArray](Draft_PolarArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
-
-
-
-## Einstellungen
-
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten und Abstände zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
 
 
 

@@ -25,22 +25,19 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Erstelle einen Linienzug entgegen dem Uhrzeigersinn und wähle ihn aus
+1.  Einen Linienzug gegen den Uhrzeigersinn erstellen und auswählen.
     -   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
 
-2.  Drücke die **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof/de.md)** Taste oder drücke **R**, dann **F** Tasten
+2.  Die Schaltfläche **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof/de.md)** drücken oder das Tastaturkürzel **R** dann **F**.
 
-3.  Das Standard Dach Objekt könnte eine seltsame Form haben, weil das Werkzeug nicht alle notwendigen Informationen hat
+3.  Das Standard-Dach-Objekt könnte eine seltsame Form haben, weil das Werkzeug nicht alle notwendigen Informationen hat
 
-4.  Nachdem erstellen des Standard Dachs, doppelklicke auf das Objekt in der [Baumansicht](tree_view/de.md), um auf alle Eigenschaften zuzugreifen und sie zu bearbeiten. Der Winkel muss zwischen 0 und 90 liegen.
+4.  Nach dem Erstellen des Standard-Dachs, auf das Objekt in der [Baumansicht](Tree_view/de.md) doppelklicken, um auf alle Eigenschaften zuzugreifen und sie zu bearbeiten. Der Winkel (Angle) muss zwischen 0 und 90 liegen.
     -   ![](images/RoofTable.png )
 
-5.  Jede Linie entspricht einer Dachscheibe. Du kannst also für jede Dachscheibe die gewünschten Eigenschaften festlegen.
+5.  Jede Zeile entspricht einer Dachscheibe. Es können also für jede Dachscheibe die gewünschten Eigenschaften festgelegt werden.
 
-6.  Um Dir zu helfen, kannst Du `Winkel` oder `Run` auf `0` setzen und eine `relative Id` definieren, so dass eine automatische Berechnung die Daten relativ zu dieser `relative Id` ermittelt.
+6.  Um Dir zu helfen, kannst Du `Angle` oder `Run` auf `0` setzen und eine `relative Id` definieren, so dass eine automatische Berechnung die Daten relativ zu dieser `relative Id` ermittelt.
 
 7.  Es funktioniert folgendermaßen:
     1.  Falls `Angle &#61; 0` und `Run &#61; 0`, dann ist das Profil identisch zum relativen Profil
@@ -54,40 +51,43 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
     **Hinweis**: für ein besseres Verständnis siehe bitte diesen [youtube clip](https://www.youtube.com/watch?v=4Urwru71dVk).
 
 
-</div>
-
-
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Dächer teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md)
-
-
-</div>
+-   Dächer haben die gleichen Eigenschaften und verhalten sich wie alle anderen [Arch-Komponenten](Arch_Component/de.md)
 
 
 
 ## Eigenschaften
 
--    {{PropertyData/de|Winkel}}: Liste der Neigungswinkel der Sparren (ein Winkel für jede Kante des Linienzuges).
-
--    {{PropertyData/de|Runs}}: Liste der Breite der Dachscheiben (ein Run für jede Kante des Linienzuges).
-
--    {{PropertyData/de|IdRel}}: Liste von Relation zwischen Winkel und Dachneigung
-
--    {{PropertyData/de|Dicke}}: Liste der Stärken der Dachsparren (eine Stärke pro Kante im Linienzug).
-
--    {{PropertyData/de|Überhang}}: Liste der Überhänge der Dachsparren (ein Überhang für jede Kante des Linienzuges).
-
--    {{PropertyData/de|Fläche}}: Der Flächenindex des zu verwendenden Basisobjekts (nicht wirklich genutzt)
-
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
+### Daten
+
+
+{{TitleProperty|Roof}}
+
+-    {{PropertyData/de|Angles|FloatList}}: Die Liste der Winkel des Dachabschnitts.
+
+-    {{PropertyData/de|Border Length|Length}}: Die Gesamtlänge der Ränder des Dachs.
+
+-    {{PropertyData/de|Face|Integer}}: Die Nummer der Fläche des Basisobjekts, auf dem das Dach aufbaut (nicht verwendet).
+
+-    {{PropertyData/de|Flip|Bool}}: Gibt an, ob die Richtung des Dachs umgedreht werden sollte.
+
+-    {{PropertyData/de|Heights|FloatList}}: Die Liste der berechneten Höhen des Dachabschnitts.
+
+-    {{PropertyData/de|Id Rel|IntegerList}}: Die Liste der IDs der zugehörigen Profile des Dachabschnitts.
+
+-    {{PropertyData/de|Overhang|FloatList}}: Die Liste der Überhänge der Dachabschnitte.
+
+-    {{PropertyData/de|Ridge Length|Length}}: Die Gesamtlänge der Grate und Sparren des Dachs.
+
+-    {{PropertyData/de|Runs|FloatList}}: Die Liste der Projektionen horizontaler Längen der Dachabschnitte.
+
+-    {{PropertyData/de|Thickness|FloatList}}: Die Liste der Dicken der Dachabschnitte.
+
+
 
 ## Skripten
 
@@ -96,16 +96,7 @@ Das **<img src="images/Arch_Roof.svg" width=16px> [Arch Dach](Arch_Roof.md)** We
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Dach Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole durch Verwenden der folgenden Funktion verwendet werden:
-
-
-</div>
+Das Werkzeug Dach kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python

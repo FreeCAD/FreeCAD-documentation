@@ -23,6 +23,8 @@ Cette commande est la première des trois étapes permettant de convertir un obj
 <img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
 *Créer un grugeage - couper les coins*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs sommets d\'angle.
@@ -32,6 +34,8 @@ Cette commande est la première des trois étapes permettant de convertir un obj
     -   Le raccourci clavier : **S** puis **R**.
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
+
+
 
 ## Remarques
 
@@ -47,20 +51,24 @@ Pour créer un cuboïde creux avec l\'[atelier Part](Part_Workbench/fr.md) :
         -   Un <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle/fr.md).
         -   Une <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Polyligne](Draft_Wire/fr.md).
         -   Une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Esquisse](Sketcher_NewSketch/fr.md).
-2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évidement](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
+2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évider](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
 
 Pour créer un cuboïde creux avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md) :
 
 1.  Créez un solide en utilisant soit :
     -   Un <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Cube additif](PartDesign_AdditiveBox/fr.md).
     -   Une <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) d\'un <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Esquisse](Sketcher_NewSketch/fr.md).
-2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évidement](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
+2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évider](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet SheetMetal Grugeage carré est dérivé d\'un objet [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 

@@ -52,9 +52,9 @@ m = Mesh.createTorus(8.0, 2.0, 50)
 Mesh.show(m)
 ```
 
-Les deux premiers paramètres définissent les rayons du tore, et le troisième paramètre est un facteur de sous-échantillonnage pour le nombre de triangles qui seront créés. Plus cette valeur est élevée plus la figure sera lisse.
+Les deux premiers paramètres définissent les rayons du tore et le troisième paramètre est un facteur de sous-échantillonnage pour le nombre de triangles qui seront créés. Plus cette valeur est élevée plus la figure sera lisse.
 
-Le module `Mesh` propose également trois méthodes booléennes: `union()`, `intersection()` et `difference()` :
+Le module `Mesh` propose également trois méthodes booléennes : `union()`, `intersection()` et `difference()` :
 
 
 ```python
@@ -93,7 +93,8 @@ doc.recompute()
 
 ## Remarques
 
-Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage. Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés / attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
+Les scripts, bien que difficiles à utiliser, de test unitaire du module `Mesh` constituent une source étendue de scripts liés au maillage.
+Dans ces tests unitaires, toutes les méthodes sont appelées et toutes les propriétés/attributs sont modifiés. Donc, si vous êtes assez audacieux, jetez un œil au [module de test unitaire](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Mesh/App/MeshTestsApp.py).
 
 Voir aussi : [Mesh API](Mesh_API/fr.md). {{Top}}  {{Mesh Tools navi}}
 

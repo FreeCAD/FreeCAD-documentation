@@ -114,7 +114,7 @@ Typical Configuration Sections include:
 
 The **Edit** → **Preferences...** → **Path** → **Job Preferences tab** → **Defaults** → **Path** is used to set the default Postprocessor selected on Job creation. This allows Path workbench to be configured to only display desired Postprocessors, and to set a default.
 
-Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** by default:
+Included Postprocessors are saved in **FreeCAD/Mod/Path/Path/Post/scripts** by default:
 
 -   centroid
 -   comparams
@@ -127,6 +127,7 @@ Included Postprocessors are saved in the **FreeCAD/Mod/Path/Pathscripts/Post** b
 -   nccad
 -   opensbp
 -   phillips
+-   refactored\* (These postprocessors are works-in-progress and will be changing a lot)
 -   rml
 -   smoothie
 -   uccnc

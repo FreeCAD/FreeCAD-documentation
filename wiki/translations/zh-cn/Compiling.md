@@ -1,12 +1,13 @@
 # Compiling/zh-cn
 <div class="mw-translate-fuzzy">
 
-如何编译FreeCAD，针对每种操作系统，都有它自己的页面，在[在线帮助文档里有](Online_Help_Toc.md).
+如何编译FreeCAD，针对每种操作系统，都有它自己的页面，在[在线帮助文档](Online_Help_Toc.md)里有.
 
-    
-   ![ alt=\'Windows\' \| link= Compile_on_Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Compile_on_Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Compile_on_MacOS](images/Mac.png )
-                              [ 在Windows上编译](Compile_on_Windows.md)                                                     [ 在Linux/Unix上编译](Compile_on_Linux.md)                                               [ 在Mac上编译](Compile_on_MacOS.md)
-    
++::+::+::+
+| ![ alt=\'Windows\' \| link= Compile_on_Windows](images/Windows.png ) | ![ alt=\'Linux\' \| link= Compile_on_Linux](images/Linux.png ) | ![ alt=\'Mac\' \| link= Compile_on_MacOS](images/Mac.png ) |
+++++
+| [ 在Windows上编译](Compile_on_Windows.md)                                                        | [ 在Linux/Unix上编译](Compile_on_Linux.md)                                             | [ 在Mac上编译](Compile_on_MacOS.md)                                              |
+++++
 
 
 </div>

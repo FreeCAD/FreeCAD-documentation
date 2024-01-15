@@ -1,46 +1,59 @@
 ---
  GuiCommand:
    Name: Curves EditableSpline
+   Name/pl: Krzywe: Edytowalna krzywa złożona
    MenuLocation: Curves , Freehand BSpline
-   Workbenches: Curves_Workbench
+   Workbenches: Curves_Workbench/pl
 ---
 
 # Curves EditableSpline/pl
 
-## Description
 
-The <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> [Curves EditableSpline](Curves_EditableSpline.md) creates a freehand B-spline curve. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed).
-2.  Optionally select vertexes, edges and/or faces:
-    -   The number of vertexes of the spline will match the number of selected elements.
-    -   The spline vertexes will be snapped to the selected vertexes, and to the midpoints of the selected edges and faces.
-3.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> button in the Curves toolbar.
-    -   Use the **Curves → Freehand BSpline** entry in the dropdown menu.
+Polecenie <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> **Edytowalna krzywa złożona** tworzy krzywą złozoną kreśloną \"odręcznie\". Narzędzie to jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
-## Options
 
-During the command a special edit mode is active and there are several actions and behaviors that can be controlled by keys and mouse clicks.
 
--   To move a vertex or guide line (guide lines are the straight lines between vertexes) press and hold down the left mouse button on it, and move the mouse.
--   The **A** key selects or deselects all vertexes and guide lines.
--   The **I** key will add a vertex to the segment belonging to the selected guide line. The new vertex will be selected.
--   The **T** key sets or un-sets tangent mode for the selected vertexes or guide lines (relative to the view direction).
--   The **P** key aligns selected objects.
--   The **S** key can be used to snap a vertex to a vertex belonging to another B-spline. With a vertex of the B-spline being edited selected, hold down the **Ctrl** key and add the target vertex to the selection, then hit the **S** key. The vertexes are snapped together.
--   To unsnap vertexes, select the snapped vertex pair and again hit the **S** key. The vertex of the B-spline being edited remains selected and can now be moved.
--   The **L** key sets or un-sets the linear interpolation.
--   The **X**, **Y** or **Z** keys can be used to constrain the movement of the object being dragged. While dragging, hit the desired axis key. Hit the same key again to disable the constraint.
--   The **Q** key finishes the command and exits edit mode.
+## Użycie
 
-## Limitations
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Opcjonalnie wybierz wierzchołki, krawędzie i/lub ściany:
+    -   Liczba wierzchołków krzywej będzie zgodna z liczbą wybranych elementów.
+    -   Wierzchołki krzywej zostaną przyciągnięte do wybranych wierzchołków oraz do punktów środkowych wybranych krawędzi i powierzchni.
+3.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_EditableSpline.svg  style="width:24px;"> na pasku narzędzi Krzywe.
+    -   Użyj pozycji **Curves → Freehand BSpline** w menu.
 
-## Properties
 
-## Scripting
+
+## Opcje
+
+Podczas wykonywania polecenia aktywny jest specjalny tryb edycji, w którym dostępnych jest kilka akcji i zachowań, które można kontrolować za pomocą klawiszy i kliknięć myszą.
+
+-   Aby przesunąć wierzchołek lub linię prowadzącą *(linie prowadzące to linie proste między wierzchołkami)*, naciśnij i przytrzymaj lewy przycisk myszy, a następnie przesuń kursor myszy.
+-   Klawisz **A** zaznacza lub odznacza wszystkie wierzchołki i linie prowadzące.
+-   Klawisz **I** doda wierzchołek do segmentu należącego do wybranej linii prowadzącej. Nowy wierzchołek zostanie zaznaczony.
+-   Klawisz **T** ustawia lub wyłącza tryb styczny dla wybranych wierzchołków lub linii pomocniczych *(względem kierunku widoku)*.
+-   Klawisz **P** wyrównuje wybrane obiekty.
+-   Klawisz **S** może być użyty do przyciągnięcia wierzchołka do wierzchołka należącego do innej krzywej złożónej. Po zaznaczeniu wierzchołka edytowanej krzywej złozonej, przytrzymaj klawisz **Ctrl** i dodaj wierzchołek docelowy do zaznaczenia, a następnie naciśnij klawisz **S**. Wierzchołki zostaną ze sobą połączone.
+-   Aby odłączyć wierzchołki, zaznacz przyciągniętą parę wierzchołków i ponownie naciśnij klawisz **S**. Wierzchołek edytowanej krzywej złozonej pozostaje zaznaczony i może być teraz przesuwany.
+-   Klawisz **L** ustawia lub wyłącza interpolację liniową.
+-   Klawisze **X**, **Y** lub **Z** mogą być użyte do ograniczenia ruchu przeciąganego obiektu. Podczas przeciągania naciśnij żądany klawisz osi. Ponowne naciśnięcie tego samego klawisza wyłącza ograniczenie.
+-   Klawisz **Q** kończy polecenie i wychodzi z trybu edycji.
+
+
+
+## Ograniczenia
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

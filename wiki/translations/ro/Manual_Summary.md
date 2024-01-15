@@ -1,15 +1,9 @@
 # Manual:Summary/ro
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
+This is the table of contents used for the automatic construction of the **FreeCAD MANUAL**.
 
 There is another table of contents for the [FreeCAD **Online Help** system](Online_Help_Toc.md).
 
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;">
 
 -   [Introducere](Manual_Introduction.md)
 -   Descoperind FreeCAD
@@ -59,9 +53,6 @@ There is another table of contents for the [FreeCAD **Online Help** system](Onli
     -   [Crearea de obiecte parametrice](Manual_Creating_parametric_objects.md)
     -   [Crearea inerfeței instrumetnelor](Manual_Creating_interface_tools.md)
 -   [Comunitatea](Manual_The_Community.md)
-
-
-</div>
 
 
 

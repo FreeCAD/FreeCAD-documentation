@@ -1,33 +1,20 @@
 # Drawing templates/de
-**The [Drawing Workbench](Drawing_Workbench.md) became obsolete in v0.17. Consider using the [TechDraw Workbench](TechDraw_Workbench.md) instead.**
+**Der Arbeitsbereich [Drawing](Drawing_Workbench/de.md) ist seit v0.17. veraltet. Stattdessen sollte der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) verwendet werden.**
 
 
 
 
-
-**Die Entwicklung des Drawing-Moduls wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Modul könnte in zukünftigen Ausgaben entfernt werden.**
+ **Die Entwicklung des Drawing-Moduls wurde gestoppt und ein neuer in v0.17 eingeführter TechDraw-Arbeitsbereich zielt darauf, es zu setzen. Beide Module stehen in v0.17 zur Verfügung, aber das Drawing-Modul könnte in zukünftigen Ausgaben entfernt werden.**
 
 ## SVG-Vorlagenerstellung 
 
-
-<div class="mw-translate-fuzzy">
-
-Das Anlegen von Vorlagen für den Zeichnungs-Arbeitsbereich ist sehr einfach (siehe auch das Tutorial [Drawing_Template_HowTo/de](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http://www.inkscape.org). Trotzdem musst Du oftmals später die Datei mit einem Texteditor öffnen, um die folgenden Regeln zu erfüllen. Es geht nur um zwei Regeln:
+Das Anlegen von Vorlagen für den Arbeitsbereich Drawing ist sehr einfach (siehe auch das Tutorial [Drawing VorlagenHowTo](Drawing_Template_HowTo/de.md)). Vorlagen sind svg-Dateien, die mit jeder Anwendung erstellt werden können, die svg-Dateien exportieren kann, wie z.B. [Inkscape](http://www.inkscape.org). Allerdings muss die svg-Datei oft im Anschluss mit einem Texteditor geöffnet werden, um den folgenden Regeln zu entsprechen. Es geht nur um zwei Regeln:
 
 
-</div>
 
-### Base rules 
+### Grundregeln
 
-
-<div class="mw-translate-fuzzy">
-
-### Basisregeln
-
--   Ein Pixel = ein Millimeter. Die Seitengröße kann innerhalb des öffnenden<svg>-Tags angegeben werden, entweder ohne Einheit oder mit \"mm\". Beispielsweise sind diese beiden Formen gültig:
-
-
-</div>
+-   Ein Pixel = ein Millimeter. Die Seitengröße kann innerhalb des öffnenden<svg>-Tags angegeben werden, entweder ohne Einheit oder mit \"mm\". Beispielsweise sind diese beiden Varianten gültig:
 
  html
 width="1067mm"
@@ -55,31 +42,19 @@ viewBox="0 0 1067 762"
 
 Der Text oben (bei dem es sich eigentlich um einen XML-Kommentar handelt) muss auf einer eigenen Zeile stehen und darf nicht Teil eines anderen Textes sein. Achte darauf, dass Inkscape bei erneutem öffnen und speichern die Zeile zwar beibehält, aber andere XML-Elemente in der gleichen Zeile hinzufügt, so dass diese Vorlagen nicht mehr funktioniert. Du musst die Datei daher mit einem Texteditor öffnen und dafür sorgen, dass diese Zeile einzeln steht.
 
-### Namespace
 
-
-<div class="mw-translate-fuzzy">
 
 ### Namensraum
 
--   Verschiedene Objekte (besonders die mit dem [Draft_Drawing](Draft_Drawing/de.md)-Befehl erstellten und wenn Deine Vorlage editierbaren Text enthält) benutzen einen speziellen [Namensraum](Svg_Namespace/de.md), der spezifisch für FreeCAD ist. Dies erlaubt FreeCAD, diese Elemente in svg-Dateien zu erkennen, die andere Anwendungen einfach ignorieren. Wenn Du beabsichtigst, diese Elemente zu nutzen, musst Du diese Zeile nach dem öffnenden<svg>-Tag einfügen, z.B. zusammen mit den anderen xmlns-Zeilen, die durch Inkscape hinzugefügt werden.
-
-
-</div>
+-   Verschiedene Objekte (besonders die mit dem Befehl [Draft Zeichnung](Draft_Drawing/de.md) erstellten und wenn die Vorlage editierbaren Text enthält) benutzen einen speziellen [Svg Namensraum](Svg_Namespace/de.md), der auf FreeCAD zugeschnitten ist. Dies erlaubt FreeCAD, diese Elemente in svg-Dateien zu erkennen, die andere Anwendungen einfach ignorieren. Sollen diese Elemente eingesetzt werden, muss die folgende Zeile innerhalb des öffnenden<svg>-Tags eingefügt werden, z.B. zusammen mit den anderen xmlns-Zeilen, die durch Inkscape hinzugefügt werden:
 
 xmlns:freecad=\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\"
 
-### Title block 
 
 
-<div class="mw-translate-fuzzy">
+### Schriftfeld
 
-### Titelblock
-
-Zusätzlich zu diesen Regeln können der Vorlage (seit FreeCAD v0.14) Informationen zu der Umrandung (border) und dem Titelblock hinzugefügt werden, die vom orthographischen Projektionswerkzeug benutzt werden. Diese Information definiert, wo FreeCAD diese Projektionen platzieren kann (und wo nicht).
-
-
-</div>
+Zusätzlich zu diesen Regeln können der Vorlage (seit FreeCAD v0.14) Informationen zu Rahmen (Border) und Schriftfeld (Title block) hinzugefügt werden, die vom orthogonalen Projektionswerkzeug benutzt werden. Diese Informationen legen fest, wo FreeCAD diese Projektionen platzieren kann (und wo nicht).
 
 Um die Umrandung zu definieren, muss die folgende Zeile vor dem -Tag der svg-Datei stehen.
 
@@ -120,7 +95,7 @@ Das Folgende ist ein Beispiel für den Code, der die \"Working space\"- und \"Ti
 
 
 
-In order to enable up to scale printing, the real word size has to be given in the width and height attributes of the SVG-Tag. The size of the document in user units, (px), has to be given in the viewBox attribute.
+Um Drucken in Originalgröße zu ermöglichen, muss die tatsächliche Größe in den Attributen width (Breite) und height (Höhe) des SVG-Tags angegeben werden. Die Größe des Dokuments in user units (px) muss im Attribut viewBox angegeben werden.
 
 Das Folgende muss wie im nachfolgenden Beispiel formattiert werden:
 
@@ -133,23 +108,19 @@ height="yyymm"
 viewBox="0 0 xxx yyy"
 
 
--   Several custom attributes can be placed in templates. The list of currently supported attributes is available on the [Svg Namespace](Svg_Namespace.md) page.
+-   Es können mehrere besondere Attribute in Vorlagen eingefügt werden. Die Liste der zurzeit unterstützten Attribute befindet sich auf der Seite [Svg Namensraum](Svg_Namespace/de.md).
+
+
 
 ## DXF-Vorlagen 
 
-
-<div class="mw-translate-fuzzy">
-
-Seit v0.15 kann FreeCAD zuverlässig eine [Zeichnungsseite](Drawing_Workbench/de.md) ins DXF-Format exportieren. Dieses System benutzt ebenfalls Vorlagen. Wenn eine dxf-Datei mit dem gleichen Namen im gleichen Verzeichnis wie die für eine Seite genutzte svg-Vorlage gefunden wird, wird sie für den Export verwendet. Falls nicht, wird eine leere Vorlage erstellt.
-
-
-</div>
+Seit v0.15 kann FreeCAD zuverlässig ein [Drawing](Drawing_Workbench/de.md)-Zeichnungsblatt ins DXF-Format exportieren. Dieses System benutzt ebenfalls Vorlagen. Wird eine dxf-Datei in dem Verzeichnis gefunden, das auch die svg-Zeichnungsvorlage mit dem gleichen Namen enthält, wird diese (dxf-Datei) für den Export verwendet. Falls nicht, wird eine leere Vorlage erstellt.
 
 Consequently, if you create your own SVG templates, and wish to be able to export the Drawing pages that you create with it to DXF, you just need to create a corresponding DXF template, and save it with the same name in the same folder.
 
 DXF templates can be created with any application that produces DXF files, such as LibreCAD. You then need to edit them with a text editor, and add two additional lines, one at the beginning or end of the BLOCKS section, and another at the beginning or end of the ENTITIES section, which are where FreeCAD will add its own blocks and entities.
 
-A very simple template looks like this:
+So sieht eine sehr einfache Vorlage aus:
 
     999
     FreeCAD DXF exporter v0.15
@@ -184,17 +155,13 @@ The above template doesn\'t contain any entity. If you create your DXF file with
 
 The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities\". They must exist in the template, and they must be placed on their own line. You can choose to place them right after the BLOCKS or ENTITIES line, which is easier (just use the \"search\" function of your text editor to find them), or at the end, just before the \"0 ENDSEC\" lines (beware that there is one for each SECTION, make sure to use the ones relative to BLOCKS and ENTITIES). The latter method will place the FreeCAD objects after the objects defined in the template, which might be more logical.
 
+
+
 ## A3 Vorlagen 
 
 
-<div class="mw-translate-fuzzy">
 
-### A3 Klassisch: 
-
-<img alt="" src=images/A3_Classic.svg  style="width:800px;">
-
-
-</div>
+### A3, klassisch: 
 
 <img alt="" src=images/A3_Classic.svg  style="width:800px;">
 
@@ -211,48 +178,62 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 <img alt="" src=images/A3_Showcase.svg  style="width:800px;">
 
 
-<div class="mw-translate-fuzzy">
 
-### A3 Querformat englisch: 
-
-<img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
-
-
-</div>
+### A3 Querformat, englisch: 
 
 <img alt="" src=images/A3_Landscape_english.svg  style="width:800px;">
+
+
 
 ## A4 Vorlagen 
+
+
 
 ### A4 Querformat englisch: 
 
 <img alt="" src=images/A4_Landscape_english.svg  style="width:800px;">
 
+
+
 ### A4 Hochformat 1 englisch: 
 
 <img alt="" src=images/A4_Portrait_1_english.svg  style="width:400px;">
 
+
+
 ## US Letter Vorlagen 
+
+
 
 ### US Letter Querformat: 
 
 <img alt="" src=images/US_Letter_landscape.svg  style="width:800px;">
 
+
+
 ### US Letter Hochformat: 
 
 <img alt="" src=images/US_Letter_portrait.svg  style="width:400px;">
+
+
 
 ### US Letter ds Querformat: 
 
 <img alt="" src=images/US_Letter_ds_Landscape.svg  style="width:800px;">
 
+
+
 ### US Legal ds Querformat: 
 
 <img alt="" src=images/US_Legal_ds_Landscape.svg  style="width:800px;">
 
+
+
 ### US Ledger ds Querformat: 
 
 <img alt="" src=images/US_Ledger_ds_Landscape.svg  style="width:800px;">
+
+
 
 ## Andere verfügbare Standards 
 

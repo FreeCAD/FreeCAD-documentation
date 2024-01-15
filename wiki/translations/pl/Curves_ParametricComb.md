@@ -1,39 +1,52 @@
 ---
  GuiCommand:
    Name: Curves ParametricComb
+   Name/pl: Krzywe: Grzebień parametryczny
    MenuLocation: Curves , Comb plot
-   Workbenches: Curves_Workbench
+   Workbenches: Curves_Workbench/pl
 ---
 
 # Curves ParametricComb/pl
 
-## Description
 
-The <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> [Curves ParametricComb](Curves_ParametricComb.md) can help to visualize the regularity or smoothness of a curve as well as the continuity between two curves. Note: A comb is only for visualization.
 
-A 3D comb will be created for 3D curves. Sample and scale can be changed. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
+## Opis
+
+Polecenie <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> **Grzebień parametryczny** może pomóc w wizualizacji regularności lub gładkości krzywej, a także ciągłości między dwiema krzywymi. Uwaga: Grzebień służy tylko do wizualizacji.
+
+Dla krzywych 3D zostanie utworzony grzebień 3D. Próbka i skala mogą zostać zmienione. Narzędzie to jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
 <img alt="" src=images/Curves_ParametricComb_demo.jpg  style="width:600px;"> 
-*Above: shows the before (left) and after (right) application of the ParametricComb AKA Comb plot tool*
+*Powyżej: przed ''(po lewej)'' i po ''(po prawej)'' zastosowaniu narzędzia ParametricComb jako Comb plot.*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  Select an object in the [tree view](Tree_view.md) (sketch, wire\...) or one or several edges in the [3D view](3D_view.md) (use **CTRL** key)
-3.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;"> button
-    -   Use the **Curves → Comb plot**
-4.  A comb is created, showing the curvature of the selection.
 
-## Notes
+## Użycie
 
--   This tool functions as a visual aid.
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Wybierz obiekt w oknie [widoku drzewa](Tree_view/pl.md) *(szkic, polilinia \...)* lub jedną lub kilka krawędzi w oknie [widoku 3D](3D_view/pl.md) (użyj klawisza **CTRL**).
+3.  Aby wywołać polecenie, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_ParametricComb.svg  style="width:24px;">
+    -   Użyj **Curves → Comb plot**.
+4.  Utworzony zostanie grzebień pokazujący krzywiznę zaznaczenia.
 
-## Limitations
 
-## Properties
 
-## Scripting
+## Uwagi
+
+-   To narzędzie działa jako pomoc wizualna.
+
+
+
+## Ograniczenia
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

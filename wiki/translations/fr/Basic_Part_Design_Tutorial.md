@@ -6,6 +6,7 @@
    Time: Moins d'une heure
    FCVersion: 0.17 ou plus
    Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17
+   SeeAlso: Basic_Part_Design_Tutorial_019/fr
 ---
 
 # Basic Part Design Tutorial/fr
@@ -22,17 +23,27 @@ Une vidéo de l\'ensemble de la construction est ici: <https://youtu.be/geIrH1cO
 
 (chaque section a son propre extrait vidéo ci-dessous)
 
+
+
 ## Avant de commencer 
+
+
 
 ## La tâche 
 
 Dans ce tutoriel, vous allez utiliser l\'atelier Part Design pour créer un modèle solide 3D de la pièce illustrée dans le [dessin](TechDraw_Workbench/fr.md) ci-dessous. Toutes les dimensions nécessaires pour accomplir cette tâche sont données. Vous allez commencer par créer une forme de base à partir d\'une esquisse de base, puis construire sur cette forme, en ajoutant ce que l\'on appelle les fonctions. Ces fonctions ajouteront ou retireront de la matière du solide en utilisant des esquisses supplémentaires et des des fonctions supplémentaires. Ce tutoriel n\'utilisera pas toutes les fonctionnalités et tous les outils disponibles dans l\'atelier Part Design, mais devrait en montrer suffisamment pour donner à l\'utilisateur de ce tutoriel une ressource de base sur laquelle fonder ses connaissances et compétences.
 
+
+
 ## La pièce 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
+
+
 ## Construire la pièce 
+
+
 
 ### Démarrer
 
@@ -53,6 +64,8 @@ Tout travail dans Part Design commence par un [Corps (Body)](Glossary/fr#Body.md
 Une fois que vous avez cliqué sur OK, FreeCAD passe automatiquement à l\'[atelier Sketcher](Sketcher_Workbench/fr.md) et ouvre l\'esquisse en mode d\'édition :
 
 ![](images/Tut17_sketcherempty.png )
+
+
 
 ### Créer l\'esquisse 
 
@@ -75,6 +88,8 @@ Ensuite, vous utiliserez l\'outil <img alt="" src=images/Sketcher_CreatePolyline
 Maintenant, dans le [Panneau des tâches](Task_panel/fr.md), cliquez sur le bouton **Fermer** pour quitter le mode d\'édition d\'esquisse et sélectionnez <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Protrusion](PartDesign_Pad/fr.md) dans la barre d\'outils ou dans le menu Part Design. Cela vous donnera une boîte de dialogue Paramètres de protrusion dans le Panneau des tâches. À l\'aide de cette boîte de dialogue, en utilisant d\'abord le menu déroulant Type, sélectionnez Deux dimensions. Le dessin présenté au début de ce tutoriel indique que la pièce mesure 53 mm de long. Nous le faisons en remplissant notre esquisse des deux côtés à partir du plan central pour obtenir cette distance, c\'est-à-dire rendre le pavé symétrique par rapport au plan d\'esquisse. La raison en est vue plus tard lors de la création de fonctionnalités. Pour l\'instant, étant donné que nous voulons qu\'il soit de 53 mm au total, nous allons entrer 26.5 pour la première longueur et 26.5 pour la deuxième longueur. Vous pouvez également fournir une longueur unique de 53 mm et cliquer sur la case à cocher Symétrique par rapport au plan. Une fois cela fait, nous avons maintenant notre base solide sur laquelle nous allons ajouter des fonctionnalités supplémentaires pour construire notre pièce.
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/cUyPnCMeTgg>
+
+
 
 ### Fonction poche et géométrie externe 
 
@@ -103,6 +118,8 @@ Pour l\'opération suivante, assurez-vous que \"Pocket\" est sélectionné dans 
 ![](images/tut17_profilewithslots.png )
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/wiGXV9G7mrM>
+
+
 
 ### Fonction de protrusion avec géométrie externe 
 
@@ -133,6 +150,8 @@ Utilisez à nouveau la fonction Symétrie pour obtenir la deuxième protrusion. 
 ![](images/tut17_profilewithsideblocks.png )
 
 Une vidéo des étapes utilisées dans cette partie du tutoriel est ici: <https://youtu.be/Ido1owp8ubc>
+
+
 
 ### Fonction cavité avec géométrie externe 
 
@@ -191,6 +210,8 @@ Pour la dernière étape de ce tutoriel, fermez la fenêtre d\'esquisse par \"fe
 Une vidéo de ces étapes du tutoriel est ici: <https://youtu.be/UYI0gvxCYeI>
 
 Ce tutoriel ainsi que votre modèle sont terminés.
+
+
 
 ## Ressources Additionelles 
 

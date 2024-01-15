@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Part Extrude
-   MenuLocation: Part , Extrude
+   MenuLocation: Part , Extrude...
    Workbenches: Part_Workbench
    SeeAlso: Draft_Trimex, PartDesign_Pad
 ---
@@ -31,7 +31,7 @@
 -   对一个开放的连线（例如，一条底图连线）进行挤型操作，将生成一个开放的壳（若干互连的面）
 -   对一个闭合的连线（例如，一条底图连线）进行挤型操作，将根据可选项生成一个壳（若干连接的面），如果参数\"solid\"为\"true\"将生成一个实体
 -   对一个面（例如，平面）进行挤型操作，将生成一个实体（例如，长方体）
--   对一个[Draft Shape String进行挤型操作](Draft_ShapeString.md)，将生成一个复合实体（生成的字符串是由多个字母实体复合而成）
+-   对一个[Draft Shape String](Draft_ShapeString.md)进行挤型操作，将生成一个复合实体（生成的字符串是由多个字母实体复合而成）
 -   对壳中的多个面进行挤型操作，将生成一个复合实体。
 
 
@@ -52,7 +52,7 @@
 
 1.  在3D视图或模型树中选中待挤型的（多个）形状
 2.  点击工具栏中的**<img src="images/Part_Extrude.png" width=16px> '''Extrude'''** 图标，或前往Part → Extrude菜单
-3.  设置挤型的方向与长度，以及其他可选参数（参见后面的[参数部分获得更多详情](#Parameters.md)）。
+3.  设置挤型的方向与长度，以及其他可选参数（参见后面的[参数](#Parameters.md)部分获得更多详情）。
 4.  单击OK。
 
 
@@ -126,7 +126,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **Placement**: 标准的[定位参数集](Placement.md)
+-   **Placement**: 标准的[定位](Placement.md)参数集
 
 
 </div>
@@ -204,7 +204,7 @@
 
 <div class="mw-translate-fuzzy">
 
-## 与[PartDesign Pad的比较](PartDesign_Pad.md) 
+## 与[PartDesign Pad](PartDesign_Pad.md)的比较 
 
 
 </div>

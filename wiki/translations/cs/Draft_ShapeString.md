@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -28,6 +30,8 @@ The Draft ShapeString command is not intended for standard text annotations. The
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Použití
@@ -38,7 +42,7 @@ The Draft ShapeString command is not intended for standard text annotations. The
 For Windows users: please read the [Font file selection on Windows](#Font_file_selection_on_Windows.md) paragraph first.
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
+    -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
     -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
@@ -49,6 +53,9 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
     -   Enter a file path in the **Font file** input box.
     -   Press the **...** button and select a file.
 8.  Press the **OK** button to finish the command.
+9.  Optionally change the **Justification** of the ShapeString. See [Properties](#Properties.md).
+
+
 
 ## Volby
 
@@ -104,6 +111,8 @@ See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft
     -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the ShapeString task panel.
     -   Alternatively, set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
 
+
+
 ## Vlastnosti
 
 See also: [Property editor](Property_editor.md).
@@ -131,14 +140,11 @@ A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObje
 
 </div>
 
-### View
-
-
-{{TitleProperty|Draft}}
-
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the text. This property only works if **Display Mode** is {{value|Flat Lines}}.
-
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+<img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
+*The height of the red rectangle (solid line) is equal to the cap height.<br>
+The height of the green rectangle (dashed line) is equal to the shape height.<br>
+The corners, the midpoints of the edges, and the center of the rectangles<br>
+match the 9 justification options: Top-Left to Bottom-Right.*
 
 ## Scripting
 

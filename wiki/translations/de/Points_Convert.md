@@ -21,9 +21,11 @@ Ein Formobjekt bezeichnet hier jedes Objekt mit einer {{PropertyData/de|Shape}}.
 ## Anwendung
 
 1.  Ein oder mehrere Objekte auswählen.
-2.  Den Menüeintrag **Punkte → In Punkte umwandeln...** auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Points_Convert.svg" width=16px> [In Punkte umwandeln...](Points_Convert/de.md)** drücken.
+    -   Den Menüeintrag **Points → In Punkte umwandeln...** auswählen.
 3.  Das Dialogfeld **Abstand** wird geöffnet.
-4.  Den **Maximalabstand** eingeben. Der Wert muss im Bereich {{Value|0.05}} - {{Value|10.0}} liegen.
+4.  Den **Maximalabstand** eingeben. Der Wert muss im Bereich {{Value|0.01}} - {{Value|10.00}} liegen.
 5.  Die Schaltfläche **OK** drücken, um das Dialogfeld zu schließen und den Befehl zu beenden.
 
 
@@ -37,22 +39,18 @@ Punktwolkenobjekte sind [App GeoFeature](App_GeoFeature/de.md)-Objekte mit den f
 ### Daten
 
 
+{{TitleProperty|Base}}
+
+-    {{PropertyData/de|Points|PointsKernel|Hidden}}: ein Points-Kernel, der mit diesem Objekt verknüpft ist.
+
+-    {{PropertyData/de|Normal|NormalList|Hidden}}: eine Liste von Normalen. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte umwandeln](Points_Convert/de.md) aus Netzobjekten oder Formobjekten mit Flächen erstellt wurden.
+
+
 {{TitleProperty|Strukturierte Punkte}}
 
 -    **Höhe|Integer**: die Anzahl der eindeutigen Y Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
 
 -    **Breite|Integer**: die Anzahl der eindeutigen X Koordinaten in der Punktwolke. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte strukturieren](Points_Structure/de.md) erstellt wurden.
-
-
-
-#### Versteckte Daten 
-
-
-{{TitleProperty|Base}}
-
--    **Punkte|PointsKernel**: ein Punkte PunkteKernel, der mit diesem Objekt verknüpft ist.
-
--    **Normal|NormalList**: eine Liste von Normalen. Diese Eigenschaft ist nur für Punktwolken verfügbar, die mit dem Befehl [Punkte umeandeln](Points_Convert/de.md) aus Netzobjekten oder Formobjekten mit Flächen erstellt wurden.
 
 
 

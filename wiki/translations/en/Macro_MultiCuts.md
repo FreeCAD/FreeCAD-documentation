@@ -4,6 +4,7 @@
 |Icon=multiCuts.png
 |Description=This macro improves boolean cut hierarchy by automatic labeling and using copies for cut.
 |Author=Dprojects
+|Download=[https://wiki.freecad.org/images/0/02/MultiCuts.png ToolBar Icon]
 |Date=2022-08-15
 |Version=1.0
 }}
@@ -12,7 +13,7 @@
 
 ![](images/MultiCuts_test.gif )
 
-## Code
+## Script
 
 
 {{MacroCode|code=
@@ -24,8 +25,8 @@ __Date__    = "2022-08-15"
 __Comment__ = ""
 __Web__ = "https://github.com/dprojects/Woodworking"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_multiCuts"
-__Icon__  = "multiCuts.png"
-__IconW__  = "multiCuts.png"
+__Icon__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
+__IconW__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
 __Help__ = "select base object and next objects to cut the base"
 __Status__ = "stable"
 __Requires__ = "freecad 0.20.29177"

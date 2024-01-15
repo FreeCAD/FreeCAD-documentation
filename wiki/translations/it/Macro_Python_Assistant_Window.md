@@ -64,34 +64,49 @@ La maggior parte della funzionalità della PAW sono fornite dal menu contestuale
 
 -   Copy
     - fornisce la funzione standard di Copia
+
 -   Copy selection to console
     - copia la selezione corrente alla fine della Console Python
+
 -   Copy contents to console
     - copia tutto il contenuto della PAW alla fine della Console Python
+
 -   Paste
     - fornisce la funzione standard di Incolla
+
 -   Append contents of Python Console to PAW
     - copia il contenuto della Console Python alla fine della PAW - notare che i contenuti della Console Python possono essere una miscela di codice Python, output del codice Python, messaggi di errore, output di qualsiasi parte di FreeCAD
+
 -   Select between Markers
     - seleziona tra marcatori - i marcatori sono utilizzati per suddividere il testo della PAW in sezioni, e quando i contenuti sono sezionati, ogni sezione può essere selezionata individualmente e lavorata con (ad esempio copia, copia nella Console Python, Elimina). I marcatori consentono a sequenze separate e indipendenti di dichiarazioni Python di esistere nella PAW, e di essere poi gestite e lavorate singolarmente.
+
 -   Select all
     - fornisce la funzione standard di Seleziona tutto
+
 -   Clear
     - fornisce la funzione standard di Elimina che cancella tutti itest della PAW
+
 -   Insert marker
     - inserisce un marcatore testuale nella posizione corrente del cursore
+
 -   Remove \"\>\>\> \"
     - dopo aver copiato l\'output della Console Python nella PAW, le linee che prodotte come output dei comandi Python eseguiti hanno il prefisso \"\>\>\>\", questa opzione rimuove tali prefissi in modo che l\'output può essere utilizzato come contesto libero da dati
+
 -   Reduce multiple blank lines to single blank lines
     - compatta il testo, eliminando le righe vuote multiple
+
 -   Alter GUI settings
     - porta in primo piano una finestra modale con tre controlli:
+
 -   <img alt="" src=images/PythonAssistantWindowGui2.jpg  style="width:500px;">
+
     -   un cursore per impostare la percentuale della larghezza dello schermo dedicata alla PAW (ricordando che c\'è una larghezza limite al di sotto della quale la finestra principale di FreeCAD non scende)
     -   un cursore per impostare la percentuale dell\'altezza dello schermo dedicata alla PAW
     -   una coppia di pulsanti di opzione per indicare se la PAW deve essere posizionata nella parte superiore o inferiore del lato sinistro dello schermo
+
 -   Save as file
     - il contenuto della finestra PAW viene scritto in un file selezionato dall\'utente - il contenuto della PAW non viene alterato
+
 -   Close window
     - la finestra PAW viene chiusa e il contenuto scritto in un file a memoria persistente
     Nota: Non appare alcun dialogo, il salvataggio avviene automaticamente
@@ -116,7 +131,7 @@ Quando il codice è stabile, potete salvarlo in un file Python o in un file macr
 
 **Altro esempio**
 
-You are trying to find out what is going wrong with the Rotation values of various objects in an Assembly. Out of 27 objects you can\'t see any pattern as to which objects will be affected. So you put a few lines of Python together to isolate the incorrect objects, paste it into the PAW. Then take a couple of lines of Python to get the Label and Rotation values, paste that code to the PAW as well. Copy the code to detail all the objects you need to see listed and repeat it for each object - all in the PAW. The Python Console will have all these results (including any typing errors and error messages) but it will have scrolled off the visible portion of the window long ago. So now you have a concise set of Python lines, you copy it from the PAW, paste it into the Python Console and there is the exact list of the objects which need debugging - along with their specific values. If needed you could then paste the results from the Python Console back into the PAW - prefix it with the Python comment character (\'#\') if you want to save it in the Python code and keep it executable. Finally you can save this conglomeration to a file from the PAW so it is secure on disk. Ready for the next time you need to steal or adapt the logic in the code.
+Si sta cercando di capire cosa non va nei valori di rotazione di vari oggetti di un assieme. Su 27 oggetti non si riesce a individuare uno schema che indichi quali siano gli oggetti interessati. Quindi si mettono insieme alcune righe di Python per isolare gli oggetti non corretti e si incollano nel PAW. Poi si mettono insieme un paio di righe di Python per ottenere i valori di Label e Rotation e si incolla anche questo codice nel PAW. Copiate il codice per tutti gli oggetti che volete vedere elencati e ripetetelo per ogni oggetto, sempre nel PAW. La console di Python conterrà tutti i risultati (compresi gli errori di digitazione e i messaggi di errore), ma la porzione visibile della finestra sarà già stata fatta scorrere via da tempo. Ora si dispone di un insieme conciso di righe Python, lo si copia dal PAW, lo si incolla nella console Python e si ottiene l\'elenco esatto degli oggetti che devono essere sottoposti a debug, insieme ai loro valori specifici. Se necessario, si possono incollare nuovamente i risultati dalla console Python nel PAW, anteponendo il carattere di commento Python (\'#\') se si desidera salvarli nel codice Python e mantenerli eseguibili. Infine, si può salvare questo conglomerato in un file dal PAW, in modo che sia al sicuro sul disco. Pronto per la prossima volta che dovrete rubare o adattare la logica del codice.
 
 ## Opzioni
 

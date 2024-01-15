@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> **Draft Clone** command creates linked copies, clones, of selected objects. The shape of a clone is parametric, it will update if its source object changes. But a clone does have its own position, rotation, and scale, and its own [View properties](Property_editor.md). For [Arch](Arch_Workbench.md) objects the command creates a special type of clone: an Arch clone.
@@ -22,14 +24,18 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <img alt="" src=images/Draft_Clone_example.jpg  style="width:400px;"> 
 *Draft Clone next to its source object*
 
+
+
 ## Utilização
 
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Clone.svg" width=16px> [Draft Clone](Draft_Clone.md)** button.
+    -   Press the **<img src="images/Draft_Clone.svg" width=16px> [Clone](Draft_Clone.md)** button.
     -   Select the **Modification → <img src="images/Draft_Clone.svg" width=16px> Clone** option from the menu.
     -   Use the keyboard shortcut: **C** then **L**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
+
+
 
 ## Propriedades
 

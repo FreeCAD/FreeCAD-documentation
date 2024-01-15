@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintDisplacement
-   Name/de: FEM RandbedingungVersatz
-   MenuLocation: Modell , Mechanische Randbedingungen , Randbedingung Versatz
+   Name/de: FEM RandbedingungVerschiebung
+   MenuLocation: Modell , Mechanische Randbedingungen und Belastungen , Randbedingung Verschiebung
    Workbenches: FEM_Workbench/de
    Shortcut: 
    SeeAlso: FEM_tutorial/de
@@ -14,14 +14,14 @@
 
 ## Beschreibung
 
-Erstellt eine FEM-Randbedingungn für einen festgelegten Versatz eines ausgewählten Objekts für einen bestimmten Freiheitsgrad.
+Erstellt eine FEM-Randbedingungn für eine festgelegte Verschiebung (Auslenkung) eines ausgewählten Objekts für bestimmte Freiheitsgrade.
 
 
 
 ## Anwendung
 
-1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> '''Randbedingung Versatz'''** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Randbedingung Versatz** auswählen.
-2.  In der [3D-Ansicht](3D_view.md) as Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante, oder eine Fläche sein.
+1.  Die Schaltfläche **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> '''Randbedingung Verschiebung'''** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Randbedingung Verschiebung** auswählen.
+2.  In der [3D-Ansicht](3D_view.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante, oder eine Fläche sein.
 3.  Die Schaltfläche **Hinzufügen** drücken.
 4.  Das Deaktivieren von *Unspecified* aktiviert die erforderlichen Felder zum Bearbeiten.
 5.  Die Werte anpassen oder ({{Version/de|0.21}}) eine Formel für die Versatzwerte festlegen.
@@ -58,7 +58,7 @@ This code has the following syntax:
 
 ### Drehungen
 
-Elmer only uses the **Displacement \*** fields of the constraint. To define rotations, we need a formula.
+Elmer only uses the **Displacement \*** fields of the boundary condition. To define rotations, we need a formula.
 
 If for example a face should be rotated according to this condition:
 
@@ -86,7 +86,7 @@ This code has the following syntax:
 
 For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [solver CalculiX](FEM_SolverCalculixCxxtools.md):
 
--   The constraint uses the \*BOUNDARY card.
+-   This tool uses the \*BOUNDARY card.
 -   Fixing a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
 -   Prescribing a displacement for a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 

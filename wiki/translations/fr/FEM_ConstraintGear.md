@@ -4,7 +4,7 @@
    Name/fr: FEM Contrainte d'engrenage
    MenuLocation: Modèle , Contraintes sans solveur , Contrainte d'engrenage
    Workbenches: FEM_Workbench/fr
-   SeeAlso: FEM_ConstraintBearing/fr, FEM_ConstraintPulley/fr
+   SeeAlso: 
 ---
 
 # FEM ConstraintGear/fr
@@ -12,6 +12,8 @@
 ## Description
 
 Pas supporté avec l\'interface Calculix
+
+
 
 ## Utilisation
 

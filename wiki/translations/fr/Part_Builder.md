@@ -41,10 +41,10 @@ Cet outil peut créer les objets suivants :
 
 ### Face à partir de sommets 
 
-1.  Sélectionner les sommets délimitant la face dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez les sommets délimitant la face dans la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la face doit être planaire
 3.  Cliquez sur **Créer**.
-4.  L\'objet sera créé dans la [vue 3D](3D_view/fr.md) et sera répertorié dans la [Vue en arborescence](Tree_view/fr.md).
+4.  L\'objet sera créé dans la [vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
 
 ![](images/Face_from_verts.gif )
 
@@ -52,10 +52,10 @@ Cet outil peut créer les objets suivants :
 
 ### Face à partir d\'arêtes 
 
-1.  Sélectionner un ensemble fermé d\'arêtes délimitant la face dans la [Vue 3D](3D_view/fr.md).
+1.  Sélectionner un ensemble fermé d\'arêtes délimitant la face dans la [vue 3D](3D_view/fr.md).
 2.  Sélectionnez si la face doit être planaire.
 3.  Cliquez sur **Créer**.
-4.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [Vue en arborescence](Tree_view/fr.md).
+4.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
 
 ![](images/Face_from_edges.gif )
 
@@ -63,19 +63,19 @@ Cet outil peut créer les objets suivants :
 
 ### Coque à partir de faces 
 
-1.  Sélectionner les faces dans la [Vue 3D](3D_view/fr.md).
-2.  Sélectionner si la forme doit être raffinée
-3.  Sélectionnez si toutes les faces doivent être incluses dans la coque
+1.  Sélectionner les faces dans la [vue 3D](3D_view/fr.md).
+2.  Sélectionnez si la forme doit être raffinée.
+3.  Sélectionnez si toutes les faces doivent être incluses dans la coque.
 4.  Cliquez sur **Créer**.
-5.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [Vue en arborescence](Tree_view/fr.md).
+5.  L\'objet sera créé dans la [vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
 
 
 
-### Solide à partir de coque 
+### Solide à partir d\'une coque 
 
 1.  Sélectionnez si la forme doit être raffinée.
 2.  Cliquez sur **Créer**.
-3.  L\'objet sera créé dans la [Vue 3D](3D_view/fr.md) et sera répertorié dans la [Vue en arborescence](Tree_view/fr.md).
+3.  L\'objet sera créé dans la [vue 3D](3D_view/fr.md) et sera répertorié dans la [vue en arborescence](Tree_view/fr.md).
 
 
 
@@ -83,10 +83,10 @@ Cet outil peut créer les objets suivants :
 
 Un flux de travail possible pourrait être :
 
--   Dessiner un modèle filaire de votre forme à l\'aide des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) (par exemple, ligne et polyligne).
--   Créer toutes les faces avec \"face à partir des bords\"
--   Créer une \"coque à partir de faces\"
--   Créer un \"solide à partir d\'une coque\"
+-   Dessinez un modèle filaire de votre forme à l\'aide des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) (par exemple, ligne et polyligne).
+-   Créez toutes les faces avec \"face à partir des bords\"
+-   Créez une \"coque à partir de faces\"
+-   Créez un \"solide à partir d\'une coque\"
 
 
 

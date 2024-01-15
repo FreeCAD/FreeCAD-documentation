@@ -16,6 +16,8 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
 
 ![600px](images/JoinFeatures_Connect.png)
 
+
+
 ## Utilisation
 
 1.  Sélectionnez les objets à connecter.
@@ -25,6 +27,8 @@ Outil de connexion pour joindre deux objets creux (par exemple deux tuyaux). Peu
     -   Utilisez l\'entrée **Part → Joindre → Connecter des objets** dans le menu Part
 
 Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et le résultat de l\'intersection est affiché dans la [vue 3D](3D_view/fr.md).
+
+
 
 ## Propriétés
 
@@ -37,6 +41,8 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
 
 -    **Tolerance**: Valeur de \"flou\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
 
+
+
 ## Exemple
 
 1.  Créer une conduite en appliquant un [Part évidement](Part_Thickness/fr.md) sur un [Part cylindre](Part_Cylinder/fr.md) :
@@ -45,8 +51,10 @@ Un objet paramétrique Connect est créé. Les objets d\'origine sont cachés et
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Sélectionner le premier tuyau puis le second, et cliquer sur l\'option \'Connecter des objets\' du menu déroulant Joindre des objets à paroi.
     ![320px](images/JoinFeatures_Example_step3_Connect.png)
-4.  Utiliser divers outils de plan de coupe ([Std Créer une section \...](Std_ToggleClipPlane/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour voir l\'intérieur. Dans l\'image ci-dessous, un Arch Plan de coupe est utilisé.
+4.  Utiliser divers outils de plan de coupe ([Std Couper selon des plans](Std_ToggleClipPlane/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md), [Arch Couper selon un plan](Arch_CutPlane/fr.md)) pour voir l\'intérieur. Dans l\'image ci-dessous, un Arch Plan de coupe est utilisé.
     ![320px](images/JoinFeatures_Example_step4_Connect.png)
+
+
 
 ## Algorithme
 
@@ -58,12 +66,16 @@ Les algorithmes derrière les outils Joindre sont très simples, et les comprend
 
 3\. Les pièces d\'intersection qui touchent au moins deux objets sont ajoutées au résultat. Ensuite, les pièces sont jointes pour former le résultat de Connecter.
 
+
+
 ### Remarques
 
 -   Si, à l\'étape 1, chaque objet reste en un seul morceau, le résultat de Connecter sera équivalent à la [Part Union](Part_Fuse/fr.md) des objets.
 -   Actuellement, tous les composés fournis sont explosés avant la connexion. Cela signifie que les composés à intersection automatique, qui ne sont pas valides pour toutes les autres opérations booléennes, sont valables pour Connecter. (Cela pourra être changé à l\'avenir.)
 -   La \"plus grande\" pièce est celle qui a la plus grande masse. C\'est-à-dire que pour les solides, les volumes sont comparés; pour les coques et les faces, les zones sont comparées, etc.
 -   Depuis FreeCAD v0.17.8053, et si la version OCC est la version 6.9.0 et ultérieure, Connecter est presque aussi rapide que toutes les autres opérations booléennes. Pour les versions plus anciennes, Connecter est environ 5 fois plus lent qu\'une opération booléenne normale et ne fonctionne que sur les solides.
+
+
 
 ## Script
 

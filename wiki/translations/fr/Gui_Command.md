@@ -21,13 +21,13 @@ Si le document n\'est pas fini, utilisez le bandeau [Template:UnfinishedDocu](Te
 
 ## Pages d\'aide 
 
-Chaque GuiCommand doit avoir une page d\'aide. La page d\'aide est hébergée sur le wiki de documentation FreeCAD. L\'article porte le même nom que la GuiCommand, par exemple [Draft ShapeString](Draft_ShapeString/fr.md).
+Chaque GuiCommand doit avoir une page d\'aide. La page d\'aide est hébergée sur le wiki de documentation FreeCAD. L\'article porte le même nom que la GuiCommand, par exemple [Draft Forme à partir d\'un texte](Draft_ShapeString/fr.md).
 
 Pour créer vos propres pages d\'aide vous pouvez utiliser le [modèle GuiCommand](GuiCommand_model/fr.md).
 
 Exemples :
 
--   [Draft Formes à partir de texte](Draft_ShapeString/fr.md)
+-   [Draft Forme à partir d\'un texte](Draft_ShapeString/fr.md)
 -   [Draft Ligne](Draft_Line/fr.md)
 
 

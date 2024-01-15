@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -22,6 +24,8 @@ Spessore di una lastra viene utilizzato per definire lo spessore degli elementi 
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -35,9 +39,19 @@ Spessore di una lastra viene utilizzato per definire lo spessore degli elementi 
 
 </div>
 
+
+
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   L\'analisi combinata di elementi di shell con elementi solidi o bordi non è supportata nella versione corrente (FreeCAD 0.18).
+
+
+</div>
+
+
 
 ## Proprietà
 
@@ -46,7 +60,11 @@ Spessore di una lastra viene utilizzato per definire lo spessore degli elementi 
 
 : specifica lo spessore della shell.
 
+
+
 ## Script
+
+
 
 ## Note
 

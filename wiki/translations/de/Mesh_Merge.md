@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Der Befehl **Mesh Zusammenführen** erstellt ein neues nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md) durch Kombination von zwei oder mehr Netzobjekten. Der Befehl führt keine boolesche Vereinigung aus; das neue Objekt wird separate Netzkomponenten enthalten. Für eine boolesche Vereinigung wird stattdessen der Befehl [Mesh Vereinigung](Mesh_Union/de.md) verwendet. Dieser Befehl ist das Gegenstück zum Befehl [Mesh KomponentenTeilen](Mesh_SplitComponents/de.md).
+Der Befehl **Mesh Zusammenführen** erstellt ein neues nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md) durch Kombination von zwei oder mehr Netzobjekten. Der Befehl führt keine boolesche Vereinigung aus; das neue Objekt wird separate Netzkomponenten enthalten. Für eine boolesche Vereinigung wird stattdessen der Befehl [Mesh Vereinigung](Mesh_Union/de.md) verwendet. Dieser Befehl ist das Gegenstück zum Befehl [Mesh KomponentenTrennen](Mesh_SplitComponents/de.md).
 
 
 
@@ -21,7 +21,7 @@ Der Befehl **Mesh Zusammenführen** erstellt ein neues nicht parametrisches Netz
 
 1.  Zwei oder Mehr Netzobjekt auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Mesh_Merge.svg" width=16px> [Mesh Zusammenführen](Mesh_Merge/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Mesh_Merge.svg" width=16px> [Zusammenführen](Mesh_Merge/de.md)** drücken.
     -   Den Menüeintrag **Netze → <img src="images/Mesh_Merge.svg" width=16px> Zusammenführen** auswählen.
 
 

@@ -13,7 +13,7 @@
 
 ## Description
 
-Applique des [Contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) aux points de terminaison avec les mêmes coordonnées que les éléments sélectionnés.
+Applique des [contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) aux points de terminaison avec les mêmes coordonnées que les éléments sélectionnés.
 
 
 

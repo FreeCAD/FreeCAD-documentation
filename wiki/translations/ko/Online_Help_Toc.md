@@ -1,53 +1,26 @@
 # Online Help Toc/ko
-<div class="mw-translate-fuzzy">
+프리캐드에 관해 문의사항 또는 도움이 필요한 것이 있으시면 [도움말 페이지](Help.md) 등을 이용하여 주시기 바랍니다.
 
- 이것은 FreeCAD의 *온라인 도움말*시스템의 자동 구축에 사용 된 목차입니다. 이 설명서의 인쇄용 버전은 [릴리즈 페이지](https://github.com/FreeCAD/FreeCAD/releases)에서도 사용할 수 있습니다.
+다른 형식으로 준비된 도움말의 목차가 [FreeCAD MANUAL](Manual:Introduction/ko.md)에 있습니다.
 
-
-</div>
-
-[FreeCAD MANUAL의](Manual_Introduction.md) 다른 차례가 있습니다.
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;"> 
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   소개
     -   [ Welcome](Online_Help_Startpage.md)
     -   [FreeCAD에 대해](About_FreeCAD.md)
-    -   [특징](Feature_list.md)
-    -   [윈도에 설치](Install_on_Windows.md)
-    -   [리눅스/유닉스에 설치](Install_on_Linux.md)
-    -   [IMac에 설치](Install_on_Mac.md)
-    -   [Installing additional contents](Installing.md)
-
-
-</div>
-
--   Introduction
-    -   [Welcome](Online_Help_Startpage.md)
-    -   [About FreeCAD](About_FreeCAD.md)
-    -   [Features](Feature_list.md)
-    -   [Installing on Windows](Installing_on_Windows.md)
-    -   [Installing on Linux](Installing_on_Linux.md)
-    -   [Installing on Mac](Installing_on_Mac.md)
-    -   [Installing additional components](Installing_additional_components.md)
-
-
-<div class="mw-translate-fuzzy">
+    -   [특징](Feature_list/ko.md)
+    -   [윈도우에 설치](Installing_on_Windows/ko.md)
+    -   [리눅스/유닉스에 설치](Installing_on_Linux/ko.md)
+    -   [Mac에 설치](Installing_on_Mac/ko.md)
+    -   [추가 기능 설치하기](Installing_additional_components/ko.md)
 
 -   Working with FreeCAD
     -   [시작하기](Getting_started.md)
-    -   [Navigating in the 3D space](Mouse_Model.md)
-    -   [Use of the navigation cluster](Navigation_Cube.md)
-    -   [The FreeCAD Document](Document_structure.md)
-    -   [Working with parametric objects](Property_editor.md)
-    -   [Working with workbenches](Workbenches.md)
-    -   [Importing and exporting to other filetypes](Import_Export.md)
-
-
-</div>
+    -   [마우스로 탐색](Mouse_navigation.md)
+    -   [선택방법들](Selection_methods.md)
+    -   [The navigation cube](Navigation_Cube.md)
+    -   [The FreeCAD document](Document_structure.md)
+    -   [Property editor](Property_editor.md)
 
 -   The [Workbenches](Workbenches.md)
 
@@ -83,25 +56,17 @@
 
 -   [Tutorials](Tutorials.md)
 
+-   FreeCAD 사용자 설정
+    -   [개인 전용 환경 만들기](Interface_Customization.md)
+    -   [기본 설정 변경](Preferences_Editor.md)
+    -   [외부 파일 불러오기-내보내기 조건 설정](Import_Export_Preferences.md)
+    -   [작업의 환경과 시작](Start_up_and_Configuration.md)
 
-<div class="mw-translate-fuzzy">
-
--   FreeCAD 커스터마이즈
-    -   [Customizing the interface](Interface_Customization.md)
-    -   [Setting user preferences](Preferences_Editor.md)
-    -   [Working with macros](Macros.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   스크립트 및 매크로
-    -   [Working with macros](Macros.md)
-    -   [Script tutorial](Scripts.md)
-    -   [Introduction to Python](Introduction_to_Python.md)
-    -   [Python scripting tutorial](Python_scripting_tutorial.md)
+-   [파이썬 스크립트](Scripting_and_macros.md)
+    -   [매크로 이용한 작업](Macros.md)
+    -   [스크립트 자습서](Scripts.md)
+    -   [파이썬 소개](Introduction_to_Python.md)
+    -   [파이썬 스크립트 사용 자습서](Python_scripting_tutorial.md)
     -   [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
     -   [Part scripting](Part_scripting.md)
     -   [Shape manipulation](Topological_data_scripting.md)
@@ -113,33 +78,32 @@
     -   [Dialog creation](Dialog_creation.md)
 
 
-</div>
-
-
 <div class="mw-translate-fuzzy">
 
--   Developing applications for FreeCAD
-    -   [라이선스](Licence.md)
-    -   FreeCAD 컴파일
-        -   [Finding assistance](Tracker.md)
-        -   [Compiling on Windows](Compile_on_Windows.md)
-        -   [Compiling on Unix](Compile_on_Linux/ko.md)
-        -   [Compiling on Mac](Compile_on_MacOS.md)
-        -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
-        -   [Third Party Libraries](Third_Party_Libraries.md)
-        -   [Third Party Tools](Third_Party_Tools.md)
-        -   [Start up and Configuration](Start_up_and_Configuration.md)
-    -   Build Support Tools
-        -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Adding a workbench](Workbench_creation.md)
+-   개발하기
+    -   [권리사항](Licence.md)
+    -   프리캐드 컴파일링
+        -   [윈도우즈에서 컴파일링](Compile_on_Windows.md)
+        -   [Compiling on Linux](Compile_on_Linux.md)
+        -   [Compiling on MacOS](Compile_on_MacOS.md)
+        -   [Compiling on Docker](Compile_on_Docker.md)
+        -   [Compiling on Docker CLI mode](FreeCAD_Docker_CLI_mode.md)
+        -   [Compiling (speeding up)](Compiling_(Speeding_up).md)
+        -   [Third party libraries](Third_Party_Libraries.md)
+        -   [Third party tools](Third_Party_Tools.md)
+    -   개발용 도구들
+        -   [Bug tracker](Tracker.md)
         -   [Debugging FreeCAD](Debugging.md)
         -   [Testing FreeCAD](Testing.md)
-        -   [Continuous Integration](Continuous_Integration.md)
-    -   FreeCAD 변경
+        -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
+        -   [연속적인 축적 방법](Continuous_Integration.md)
+    -   Modifying FreeCAD
         -   [Branding](Branding.md)
-        -   [Translating FreeCAD](Localisation/ko.md)
-        -   [Installing extra python modules](Extra_python_modules.md)
+        -   [프리캐드 번역](Localisation.md)
+        -   [작업환경 추가](Workbench_creation.md)
+        -   [외부의 파이썬 모듈들을 설치하기](Extra_python_modules.md)
     -   [Source documentation](Source_documentation.md)
+    -   [API](https://www.freecadweb.org/api/)
 
 
 </div>
@@ -147,7 +111,7 @@
 -   Credits
     -   [기여자](Contributors.md)
 
--   [어휘](Glossary.md)
+-   [용어 설명](Glossary/ko.md)
 
 
 

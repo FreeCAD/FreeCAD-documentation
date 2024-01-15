@@ -1,22 +1,20 @@
 # BezierCurve API
 
+Describes a rational or non-rational Bezier curve:
+                -- a non-rational Bezier curve is defined by a table of poles (also called control points)
+                -- a rational Bezier curve is defined by a table of poles with varying weights
 
-				Describes a rational or non-rational Bezier curve:
-				-- a non-rational Bezier curve is defined by a table of poles (also called control points)
-				-- a rational Bezier curve is defined by a table of poles with varying weights
+                Constructor takes no arguments.
 
-				Constructor takes no arguments.
+                Example usage:
+                    p1 = Base.Vector(-1, 0, 0)
+                    p2 = Base.Vector(0, 1, 0.2)
+                    p3 = Base.Vector(1, 0, 0.4)
+                    p4 = Base.Vector(0, -1, 1)
 
-				Example usage:
-					p1 = Base.Vector(-1, 0, 0)
-					p2 = Base.Vector(0, 1, 0.2)
-					p3 = Base.Vector(1, 0, 0.4)
-					p4 = Base.Vector(0, -1, 1)
-
-					bc = BezierCurve()
-					bc.setPoles([p1, p2, p3, p4])
-					curveShape = bc.toShape()
-			
+                    bc = BezierCurve()
+                    bc.setPoles([p1, p2, p3, p4])
+                    curveShape = bc.toShape()
 
 
 
@@ -109,7 +107,7 @@ Is the type of the FreeCAD object with module domain
 #### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
-					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
+                    approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
@@ -275,7 +273,7 @@ Computes for this Bezier curve the parametric tolerance (UTolerance)
 for a given 3D tolerance (Tolerance3D).
 If f(t) is the equation of this Bezier curve, the parametric tolerance
 ensures that:
-|t1-t0| < UTolerance ===> |f(t1)-f(t0)| < Tolerance3D
+|t1-t0| < UTolerance =""==> |f(t1)-f(t0)| < Tolerance3D
 
 
 
@@ -326,11 +324,11 @@ Inserts before the pole of index.
 #### <img src="images/BIM_Column.svg" style="width:16px;"> interpolate
 
 Interpolates a list of constraints.
-				Each constraint is a list of a point and some optional derivatives
-				An optional list of parameters can be passed. It must be of same size as constraint list.
-				Otherwise, a simple uniform parametrization is used.
-				Example :
-				bezier.interpolate([[pt1, deriv11, deriv12], [pt2,], [pt3, deriv31]], [0, 0.4, 1.0])
+                Each constraint is a list of a point and some optional derivatives
+                An optional list of parameters can be passed. It must be of same size as constraint list.
+                Otherwise, a simple uniform parametrization is used.
+                Example :
+                bezier.interpolate([[pt1, deriv11, deriv12], [pt2,], [pt3, deriv31]], [0, 0.4, 1.0])
 
 
 
@@ -338,7 +336,7 @@ Interpolates a list of constraints.
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
-				  arguments: curve/surface (for the intersection), precision (float)
+                  arguments: curve/surface (for the intersection), precision (float)
 
 
 
@@ -363,7 +361,7 @@ Returns all intersection points and curve segments between the curve and the sur
 #### <img src="images/BIM_Column.svg" style="width:16px;"> isClosed
 
 Returns true if the distance between the start point and end point of
-					this Bezier curve is less than or equal to gp::Resolution().
+                    this Bezier curve is less than or equal to gp::Resolution().
 
 
 
@@ -511,7 +509,7 @@ Set a pole of the Bezier curve.
 
 Set the poles of the Bezier curve.
 
-				Takes a list of 3D Base.Vector objects.
+                Takes a list of 3D Base.Vector objects.
 
 
 
@@ -530,7 +528,7 @@ Computes the tangent of parameter u on this curve
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
-					toBSpline([Float=First, Float=Last]) -> B-Spline curve
+                    toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
@@ -579,4 +577,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > BezierCurve API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > BezierCurve API

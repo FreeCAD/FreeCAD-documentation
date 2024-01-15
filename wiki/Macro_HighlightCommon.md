@@ -7,7 +7,7 @@
 |Version=2.3.2
 |Date=2021-07-01
 |FCVersion=0.17 and above
-|Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
 }}
 
 ## Description

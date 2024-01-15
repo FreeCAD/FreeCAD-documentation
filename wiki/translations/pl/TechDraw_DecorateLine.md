@@ -2,66 +2,58 @@
  GuiCommand:
    Name: TechDraw DecorateLine
    Name/pl: Rysunek Techniczny: Zmień wygląd linii
-   MenuLocation: Rysunek Techniczny , Zmień wygląd linii
+   MenuLocation: Rysunek Techniczny , Dodaj linie , Zmień wygląd linii
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: TechDraw_FaceCenterLine/pl, TechDraw_CosmeticEraser/pl
+   SeeAlso: TechDraw_ShowAll/pl, TechDraw_CosmeticEraser/pl
 ---
 
 # TechDraw DecorateLine/pl
 
 
-</div>
-
-
 
 ## Opis
 
+Narzędzie **Zmień wygląd linii** zmienia wygląd krawędzi, w tym linii kosmetycznych i linii środkowych. Ponadto umożliwia ukrycie krawędzi.
 
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Zmień wygląd linii** zmienia wygląd krawędzi.
-
-
-</div>
-
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;"> 
 *Przykładowe krawędzie przed dekoracją.*
 
-
-</div>
-
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;"> 
 *Przykładowe krawędzie po dekoracji*
-
-
-</div>
 
 
 
 ## Użycie
 
+1.  Wybierz widok lub jedną lub więcej krawędzi w widoku.
+2.  Narzędzie można wywołać na kilka sposobów:
+3.  Wybierz jedną lub więcej krawędzi w widoku.
+    -   Naciśnij przycisk **<img src="images/TechDraw_DecorateLine.svg" width=16px> '''Zmień wygląd linii'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj linie → <img src="images/TechDraw_DecorateLine.svg" width=16px>. Zmień wygląd linii**.
+4.  Otworzy się panel zadań.
+5.  Jeśli zaznaczyłeś krawędzie: opcjonalnie zmień ich **kolor**, **styl**, **wagę** i / lub **widoczność** w sekcji **Dekoracja linii**.
+6.  Aby przywrócić widoczność niewidocznych krawędzi w widoku: opcjonalnie naciśnij jeden lub więcej przycisków w sekcji \"Przywróć niewidoczne linie\":
+    -   
+        **Wszystkie**
+        
+        ,
 
-<div class="mw-translate-fuzzy">
+    -   
+        **Geometrie**
+        
+        ,
 
-1.  Wybierz jedną lub więcej krawędzi w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_DecorateLine.svg" width=16px> '''Zmień wygląd linii'''**.
-3.  Otworzy się okno dialogowe, w którym można zmienić kolor, styl, grubość i widoczność wybranych krawędzi.
+    -   
+        **Kosmetyczne**
+        
+        ,
 
-
-</div>
+    -   
+        **Linie środka**
+        
+        ,
+7.  Naciśnij przycisk **OK**.
 
 
 

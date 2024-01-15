@@ -10,55 +10,45 @@
 
 # TechDraw 2LineCenterLine/fr
 
-
-</div>
-
 ## Description
-
-
-<div class="mw-translate-fuzzy">
 
 L\'outil **TechDraw Ligne centrale entre 2 lignes** ajoute une ligne centrale entre deux arêtes.
 
-
-</div>
-
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
-
-
-<div class="mw-translate-fuzzy">
 
 
 
 *Ligne centrale alignée entre 2 arêtes*
 
 
-</div>
 
-## Usage create 
+## Utilisation
+
+1.  Sélectionnez deux arêtes dans une vue. Les arêtes doivent être plus ou moins parallèles.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des lignes → <img src="images/TechDraw_2LineCenterLine.svg" width=16px> Ajouter une ligne centrale entre 2 lignes** du menu.
+3.  Un panneau de tâches s\'ouvre. Voir [TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr#Options.md) pour plus d\'informations.
+4.  Appuyez sur le bouton **OK** pour confirmer.
+5.  Une ligne centrale est ajoutée entre les arêtes sélectionnées.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Sélectionnez 2 bords dans une vue. Les bords devraient être plus ou moins parallèles.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Ajouter une ligne centrale entre 2 lignes](TechDraw_2LineCenterLine/fr.md)**.
-3.  Une boîte de dialogue s\'ouvrira où vous pourrez spécifier les attributs de la nouvelle ligne centrale.
-4.  Une ligne centrale sera ajoutée entre les 2 arêtes sélectionnées. **Si la ligne générée semble étrange ou n\'est pas crée du tout, vous devrez peut-être utiliser l\'option** [**Flip Ends**](#Flip_Ends.md).
+## Édition
+
+Voir [TechDraw Ligne centrale à une face](TechDraw_FaceCenterLine/fr#Édition.md).
 
 
-</div>
 
-## Usage edit 
+## Remarques
 
-See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
+-   Pour supprimer une ligne centrale, utilisez **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [TechDraw Gomme](TechDraw_CosmeticEraser/fr.md)**.
 
-## Notes
 
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
-## Properties
+## Propriétés
 
-Centerlines have no properties of their own, as they are not document objects.
+Les lignes centrales n\'ont pas de propriétés propres car elles ne sont pas des objets du document.
 
 
 

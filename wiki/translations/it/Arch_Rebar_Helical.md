@@ -2,16 +2,13 @@
  GuiCommand:
    Name: Arch Rebar Helical
    Name/it: Armatura elicoidale
-   MenuLocation: Arch , Strumenti armatura , Armatura elicoidale o 3D/BIM , Reinforcement , Helical Rebar
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_Stirrup/it, Arch_Rebar_ColumnReinforcement/it
+   MenuLocation: Arch , Strumenti armatura , Armatura elicoidale<br>3D/BIM , Reinforcement tools , Armatura elicoidale
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_Stirrup/it, Arch_Rebar_ColumnReinforcement/it
 ---
 
 # Arch Rebar Helical/it
-
-
-</div>
 
 
 
@@ -21,14 +18,7 @@ Lo strumento [Armatura elicoidale](Arch_Rebar_Helical/it.md) consente all\'utent
 
 Lo strumento **Armatura elicoidale** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
-
+Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
@@ -40,39 +30,28 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Utilizzo
 
+1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)**.
 
-<div class="mw-translate-fuzzy">
+2.  Quindi selezionare **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Armatura elicoidale](Arch_Rebar_Helical/it.md)** dagli strumenti dell\'armatura.
 
-1.  Selezionare qualsiasi faccia di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
-
-2.  Quindi selezionare **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Armatura elicoidale](Arch_Rebar_Helical/it.md)** dal menu Armature.
-
-3.  Sul lato sinistro dello schermo appare un [pannello delle azioni](task_panel/it.md) come sottostante.
+3.  Sul lato sinistro dello schermo appare un [pannello](task_panel/it.md) come quello sottostante.
 
 4.  Selezionare l\'orientamento desiderato.
 
-5.  Fornire i dati per \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' e \'Diameter\' dell\'armatura.
+5.  Fornire i dati per \'Copriferro sinistro\', \'Copriferro destro\', \'Top Cover\', \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' e \'Diametro\' dell\'armatura.
 
-6.  Selezionare la modalità di distribuzione \'Amount\' o \'Spacing\' (quantità o spaziatura).
+6.  Selezionare la modalità di distribuzione \'Quantità\' o \'Passo\'.
+    -   Se è selezionato \'Passo\', l\'utente può anche optare per un [Passo personalizzato](Custom_Spacing/it.md).
 
-7.  Se è selezionata \'Spacing\', la spaziatura, l\'utente può anche optare per una [spaziatura personalizzata](Custom_Spacing/it.md).
+7.  
+    **Usa lato selezionato**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
 
-8.  
-    **Pick Selected Face**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
+8.  Cliccare **OK** o **Applica** per generare l\'armatura.
 
-9.  Cliccare **OK** o **Applica** per generare l\'armatura.
+9.  Cliccare **Annulla** per uscire dal pannello.
 
-10. Cliccare **Annulla** per uscire dal pannello delle azioni.
-
-
-</div>
-
-
-:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
-
-
-
-*Pannello Azioni per lo strumento Armatura elicoidale di Arch*
+<img alt="" src=images/HelicalRebarDialog.png  style="width:250px;"> 
+*Pannello per lo strumento Armatura elicoidale di Arch*
 
 
 
@@ -88,11 +67,6 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Diameter}}: Diametro della barra elicoidale.
 
-
-
-
-<div class="mw-translate-fuzzy">
-
 ## Scripting
 
 
@@ -100,21 +74,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura elicoidale può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Armatura elicoidale può essere usato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -167,15 +127,6 @@ import HelicalRebar
 
 HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

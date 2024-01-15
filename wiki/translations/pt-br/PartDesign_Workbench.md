@@ -7,23 +7,11 @@
 
 ## Introdução
 
-
-<div class="mw-translate-fuzzy">
-
 A <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md) fornece ferramentas avançadas para modelagem de peças sólidas complexas. O seu foco principal é a criação de peças mecânicas que podem ser fabricadas e montadas em um produto acabado. Entretanto, os sólidos criados podem ser usados em geral para qualquer outra finalidade, como [projeto arquitetônico](Arch_Workbench/pt-br.md), [análise de elementos finitos](FEM_Workbench/pt-br.md), ou [usinagem e impressão 3D](Path_Workbench/pt-br.md).
-
-
-</div>
 
 A bancada de trabalho PartDesign está intrinsecamente relacionada ao [bancada de trabalho Sketcher](Sketcher_Workbench.md). O usuário normalmente cria um Sketch(Esboço), depois utiliza a ferramenta [Protrusão](PartDesign_Pad.md) para extrudá-lo e criar um sólido básico, e então este sólido é modificado posteriormente.
 
-
-<div class="mw-translate-fuzzy">
-
 Enquanto a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Bancada de trabalho Part](Part_Workbench/pt-br.md) é baseado em uma [geometria construtiva sólida](constructive_solid_geometry/pt-br.md)(CSG) para construir formas, a Bancada de trabalho PartDesign utiliza uma metodologia paramétrica de edição de características, o que significa que um sólido básico é transformado sequencialmente pela adição de características no topo até que a forma final seja obtida. Veja a página [edição de recursos](feature_editing/pt-br.md) para uma explicação mais completa deste processo, e depois veja [Criando uma peça simples com PartDesign](Creating_a_simple_part_with_PartDesign/pt-br.md) para começar a criar sólidos.
-
-
-</div>
 
 Uma discussão mais detalhada da bancada de trabalho Part workbench comparada à bancada de trabalho Part Design pode ser encontrada aqui: [Part e Part Design](Part_and_PartDesign/pt-br.md).
 
@@ -55,21 +43,9 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Criar esboço](PartDesign_NewSketch/pt-br.md): cria um novo esboço em um rosto ou plano selecionado. Se nenhuma face for selecionada enquanto esta ferramenta é executada, o usuário é solicitado a selecionar um plano do painel Tarefas. A interface então muda para o [Bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) em modo de edição de esboço.
 
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar esboço](Sketcher_EditSketch/pt-br.md): edite o Esboço selecionado.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar esboço](Sketcher_EditSketch/pt-br.md): Edite o Esboço selecionado.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [ Aplique um esboço de um lado](Sketcher_MapSketch/pt-br.md): Mapeia um esboço para um plano previamente selecionado ou para uma face do corpo ativo.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [ Aplique um esboço de um lado](Sketcher_MapSketch/pt-br.md): mapeia um esboço para um plano previamente selecionado ou para uma face do corpo ativo.
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Validate sketch](Sketcher_ValidateSketch.md): verifies the tolerance of different points and adjusts them.
 
@@ -89,21 +65,9 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/PartDesign_CoordinateSystem.svg  style="width:32px;"> [Criar um sistema de coordenadas local](PartDesign_CoordinateSystem/pt-br.md): cria um sistema de coordenadas local anexado à geometria do datum no corpo ativo.
 
+-   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Criar um aglutinante de forma](PartDesign_ShapeBinder/pt-br.md): cria um aglutinante de forma referenciando a geometria de um único objeto pai.
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:32px;"> [Criar um aglutinante de forma](PartDesign_ShapeBinder/pt-br.md): cria um aglutinante de forma no corpo ativo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Criar um aglutinante em forma de subobjetos](PartDesign_SubShapeBinder/pt-br.md): cria um aglutinante de forma para um subelemento, como borda ou face de outro corpo, enquanto mantém a posição relativa desse elemento. <small>(v0.19)</small> 
-
-
-</div>
+-   <img alt="" src=images/PartDesign_SubShapeBinder.svg  style="width:32px;"> [Criar um aglutinante em forma de subobjeto(s)](PartDesign_SubShapeBinder/pt-br.md): cria um aglutinante de forma referenciando a geometria de um ou mais objetos pai.
 
 -   <img alt="" src=images/PartDesign_Clone.svg  style="width:32px;"> [Criar um clone](PartDesign_Clone/pt-br.md): cria um clone do corpo selecionado.
 
@@ -121,13 +85,7 @@ Estas são ferramentas para criar características básicas ou adicionar materia
 
 -   <img alt="" src=images/PartDesign_AdditivePipe.svg  style="width:32px;"> [Aditivo de varredura](PartDesign_AdditivePipe/pt-br.md): cria um sólido ao varrer um ou mais esboços ao longo de um caminho aberto ou fechado.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice aditiva](PartDesign_AdditiveHelix/pt-br.md): cria um sólido ao varrer um esboço ao longo de uma hélice. <small>(v0.19)</small> 
-
-
-</div>
+-   <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:32px;"> [Hélice aditiva](PartDesign_AdditiveHelix/pt-br.md): cria um sólido ao varrer um esboço ao longo de uma hélice.
 
 -   <img alt="" src=images/PartDesign_CompPrimitiveAdditive.png  style="width:48px;"> [Criar um aditivo primitivo](PartDesign_CompPrimitiveAdditive/pt-br.md): adiciona um aditivo primitivo ao corpo ativo.
 

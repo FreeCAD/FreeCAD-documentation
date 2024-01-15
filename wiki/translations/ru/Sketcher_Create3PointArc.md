@@ -29,7 +29,13 @@
 -   Нажмите **Esc** или правую кнопку мыши для отмены функции.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

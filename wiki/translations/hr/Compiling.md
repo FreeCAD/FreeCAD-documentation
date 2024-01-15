@@ -3,10 +3,11 @@
 
 Svaki operacijski sistem ima svoju stranicu za kompiliranje FreeCAD programa [Online Help Documentacija](Online_Help_Toc/hr.md).
 
-    
-   ![ alt=\'Windows\' \| link= Compile_on_Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Compile_on_Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Compile_on_MacOS](images/Mac.png )
-                             [Compile on Windows](Compile_on_Windows.md)                                                  [ Compile on Linux/Unix](Compile_on_Linux.md)                                             [ Compile on Mac](Compile_on_MacOS.md)
-    
++::+::+::+
+| ![ alt=\'Windows\' \| link= Compile_on_Windows](images/Windows.png ) | ![ alt=\'Linux\' \| link= Compile_on_Linux](images/Linux.png ) | ![ alt=\'Mac\' \| link= Compile_on_MacOS](images/Mac.png ) |
+++++
+| [Compile on Windows](Compile_on_Windows.md)                                                      | [ Compile on Linux/Unix](Compile_on_Linux.md)                                          | [ Compile on Mac](Compile_on_MacOS.md)                                           |
+++++
 
 
 </div>

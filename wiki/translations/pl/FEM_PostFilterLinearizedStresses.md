@@ -1,30 +1,76 @@
 ---
  GuiCommand:
    Name: FEM PostFilterLinearizedStresses
-   MenuLocation: Results , Stress linearization plot
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_PostFilterDataAlongLine, FEM_tutorial
+   Name/pl: Wykres linearyzacji naprężeń
+   MenuLocation: Wyniki , Wykres linearyzacji naprężeń
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_PostFilterDataAlongLine/pl, FEM_tutorial/pl
 ---
 
 # FEM PostFilterLinearizedStresses/pl
 
-## Description
 
-Creates a stress linearization plot.
 
-To learn more about stress linearization plots, you can read [this description](https://www.graspengineering.com/what-is-stress-linearization/).
+## Opis
+
+Tworzy wykres linearyzacji naprężeń.
+
+Więcej informacji na temat linearyzacji naprężeń można uzyskać na stronie opisującej [linearyzację naprężeń](https://www.graspengineering.com/what-is-stress-linearization/).
 
 <img alt="" src=images/FEM_Stress-Linearization-Plot-Example.png  style="width:500px;">
 
-*A stress linearization plot.*
+*Wykres linearyzacji naprężeń.*
 
-## Usage
 
-1.  Select a previously created [Line clip filter](FEM_PostFilterDataAlongLine.md).
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Stress linearization plot'''**.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Stress linearization plot**.
-3.  An XY plot with linearized stress values (membrane, membrane+bending and total) along the line will be created in a separate window.
+
+## Użycie
+
+1.  Zaznacz wcześniej utworzony [filtr przycięcia linią](FEM_PostFilterDataAlongLine/pl.md) z wykreśloną jedną z następujących wielkości naprężenia:
+    -   Mises,
+
+    -   Tresca,
+
+    -   Major principal *(maksymalne naprężenie główne)*,
+
+    -   Intermediate principal *(pośrednie naprężenie główne)*,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie xx komponentu,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie xy komponentu,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie xz komponentu,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie yy komponentu,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie yz komponentu,
+
+    -   
+        <small>(v0.22)</small> 
+        
+        : Naprężenie zz komponentu.
+
+    -   Minor principal (minimalne naprężenie główne).
+2.  Uruchom narzędzie poprzez:
+    -   Wciśnięcie przycisku **<img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> '''Wykres linearyzacji naprężeń'''**.
+    -   Wybranie opcji **Wyniki → <img src="images/FEM_PostFilterLinearizedStresses.svg" width=16px> Wykres linearyzacji naprężeń**.
+3.  Wykres XY ze zlinearyzowanymi wartościami naprężeń *(membranowe, membranowe+gnące i całkowite)* wzdłuż linii zostanie utworzony w osobnym oknie.
+
+Wielkość naprężenia wykreślona w filtrze przycięcia linią zostanie użyta do obliczenia naprężeń zlinearyzowanych.
 
 
 

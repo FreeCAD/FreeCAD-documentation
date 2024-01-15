@@ -7,22 +7,23 @@
 |Version=2.3.1
 |Date=2018-10-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/0/00/Macro_screw_maker1_2.png ToolBar Icon]
 }}
 
 ## Description
 
-This macro creates a screw with or without thread, according to ISO standards.  {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+This macro creates a screw with or without thread, according to ISO standards.
 
-<img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
+ 
+
+ <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;">  
 *Screw maker*
-
-
 
 ## Usage
 
-Select the characteristics of the screw and click on the create button.
-If you select a circle on a hole, or alternatively the inner surface of a circular hole and the circle at top of that hole at the same time, the screw will be placed into the hole with the create button. There is a message text, that will inform you, when the selected combination of properties is not available.
+1.  Select the characteristics of the screw and click on the create button.
+2.  If you select a circle on a hole, or alternatively the inner surface of a circular hole and the circle at top of that hole at the same time, the screw will be placed into the hole with the create button.
+3.  There is a message text, that will inform you, when the selected combination of properties is not available.
 
 
 <center>
@@ -34,13 +35,13 @@ If you select a circle on a hole, or alternatively the inner surface of a circul
 
 The creation of the thread takes some time. Be patient and have a look at the CPU-usage.
 
-## Code
+## Script
 
-The lastest version of the macro is to be found at [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md). 
+The latest version of the macro is to be found at [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 
-**Macro_screw_maker_2.FCMacro**
+ **Macro_screw_maker_2.FCMacro**
 
 
 {{MacroCode|code=

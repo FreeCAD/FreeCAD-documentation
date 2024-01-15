@@ -69,7 +69,7 @@
 
 -   To better control the shape of the loft, it is recommended that all cross-sections have the same number of segments. For example, for a loft between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
 -   You can loft from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
--   [Vertices](Glossary#V.md) can only be either the start or end of a loft. Otherwise the loft body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object.
+-   [Vertices](Glossary#V.md) can only be either the start or end of a loft. Otherwise the loft body would consist of two solids connected at a single point. This would violate the CAD kernel\'s definition of a 3D object.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
 -   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections: Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
 -   It is not possible to loft disjoint or crossing loops.

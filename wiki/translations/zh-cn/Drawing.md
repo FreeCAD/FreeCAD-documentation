@@ -1,13 +1,13 @@
 # Drawing/zh-cn
 ## 简介
 
-在FreeCAD中，\"[图样](Drawing.md)\"通常指一个[3D 模型的二维投影](model.md)。这个3D模型通常是用[TechDraw 工作台创建的](TechDraw_Workbench.md)
+在FreeCAD中，\"[图样](Drawing.md)\"通常指一个[3D 模型](model.md)的二维投影。这个3D模型通常是用[TechDraw 工作台](TechDraw_Workbench.md)创建的
 
 
 
 ## 用法
 
-1.  从一个已经构建的[3D模型开始](model.md)，例如，使用[PartDesign Workbench创建的模型](PartDesign_Workbench.md)。 事实上，模型可以是任何具有[Shape的对象](Shape.md)(包括2D对象)。
+1.  从一个已经构建的[3D模型](model.md)开始，例如，使用[PartDesign Workbench](PartDesign_Workbench.md)创建的模型。 事实上，模型可以是任何具有[Shape](Shape.md)的对象(包括2D对象)。
 2.  切换到 [TechDraw Workbench](TechDraw_Workbench.md).
 3.  点击 **[<img src=images/TechDraw_PageDefault.svg style="width:16px"> [TechDraw PageDefault](TechDraw_PageDefault.md)** 或**[<img src=images/TechDraw_PageTemplate.svg style="width:16px"> [TechDraw PageTemplate](TechDraw_PageTemplate.md)** 创建一个页面.
 4.  选择已有的模型,然后点击 **[<img src=images/TechDraw_View.svg style="width:16px"> [TechDraw View](TechDraw_View.md)** 或**[<img src=images/TechDraw_ProjectionGroup.svg style="width:16px"> [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md)**.

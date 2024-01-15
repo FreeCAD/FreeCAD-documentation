@@ -1,12 +1,13 @@
 # Qt Example/pl
-{{Macro
+{{Macro/pl
 |Name=Macro Qt Example
+|Name/pl=Makrodefinicja: Przykłady QT
 |Icon=MEPlan.png
-|Description=It describes Qt commands.
+|Description=Opisuje polecenia Qt
 |Author=Mario52
 |Version=0.4
 |Date=2019-06-19
-|FCVersion=All
+|FCVersion=wszystkie
 |Download=<br />
 [https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
 [https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
@@ -17,67 +18,71 @@
 [https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
 [https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
 [https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
-|SeeAlso=[Dialog creation](Dialog_creation.md)
+|Zobacz również=[Tworzenie okna dialogowego](Dialog_creation/pl.md)
 }}
 
-This macro is an example of using Qt commands their connections, extraction and data assignment.
+Ta makrodefinicja jest przykładem użycia poleceń Qt do łączenia, ekstrakcji i przypisywania danych.
 
-Image:Qt_Example_00.png\|Qt example Image:Qt_Example_01.png\|Qt example details
+Image:Qt_Example_00.png\|Przykład Qt Image:Qt_Example_01.png\|Szczegóły przykładu Qt
 
-Are treated:
+Są traktowane:
 
-1.  **icon for window** : The icon displayed on main window
-2.  **horizontalSlider** : horizontal slider its connection and data extraction / assignment
-3.  **progressBar horizontal** : progress bar horizontal its connection and data extraction / assignment
-4.  **verticalSlider** : vertical slider its connection and data extraction / assignment
-5.  **progressBar vertical** : progress bar vertical its connection and data extraction / assignment
-6.  **lineEdit** : line edit its connection and data extraction / assignment
-7.  **lineEdit** : line edit its connection and data extraction / assignment
-8.  **doubleSpinBox** : double spinbox its connection and data extraction / assignment
+1.  **icon for window** : Ikona wyświetlana w oknie głównym
+2.  **horizontalSlider** : poziomy suwak, jego połączenie i pobieranie danych / przypisanie
+3.  **progressBar horizontal** : poziomy pasek postępu, jego połączenie i pobieranie danych / przypisanie
+4.  **verticalSlider** : pionowy suwak jego połączenie i ekstrakcja danych / przypisanie
+5.  **progressBar vertical** : pionowy pasek postępu jego połączenie i ekstrakcja danych / przypisanie
+6.  **lineEdit** : edycja linii jej połączenie i ekstrakcja danych / przypisanie
+7.  **lineEdit** : edycja linii jej połączenia i ekstrakcja danych / przypisanie
+8.  **doubleSpinBox** : podwójny spinbox jego połączenie i ekstrakcja danych / przypisanie
 9.  **doubleSpinBox** :
 10. **doubleSpinBox** :
-11. **button** : button its connection
+11. **button** : przycisk jego połączenie
 12. **button** :
-13. **radioButton** : radio button with icons its connection and checked
-14. **checkBox** : checkbox with icon its connection checked and unchecked
-15. **textEdit** : text edit its connection and data extraction / assignment
-16. **graphicsView** : graphic view with 2 graphs and method used for change image
+13. **radioButton** : przycisk radiowy z ikonami jego połączenia i zaznaczony
+14. **checkBox** : pole wyboru z ikoną jego połączenia zaznaczone i odznaczone
+15. **textEdit** : edycja tekstu z połączeniem i pobieraniem/przypisywaniem danych
+16. **graphicsView** : widok graficzny z 2 wykresami i metodą zmiany obrazu
 
-The tools used are:
+Zastosowane narzędzia to:
 
 [python-2.7.8](https://www.python.org/downloads/)
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
 
-For convert the file .ui in .py you must uses **pyuic.py** is located in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (for Windows)
+Do konwersji pliku .ui w .py należy użyć pliku **pyuic.py** znajdującego się w \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" *(dla Windows)*.
 
-you can create a convertuitopy.bat file to automate the process:
+można utworzyć plik convertuitopy.bat, aby zautomatyzować proces:
 
-**1:** Create a new file in your Qt working directory and name it **convertuitopy.bat**
+**1:** Utwórz nowy plik w katalogu roboczym Qt i nazwij go **convertuitopy.bat**.
 
-**2:** Edit the file and paste this line there
+**2:** Edytuj plik i wklej tam następującą linię:
 
 **@\"C:\\Python27\\python\" \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" -x %1.ui \> %1.py**
 
-**3:** then in a Dos console type **convertuitopy myproject** (Do not give extension the command automatically adds)
+**3:** następnie w konsoli CLI wpisz **convertuitopy myproject** *(nie podawaj rozszerzenia, polecenie doda je automatycznie)*
 
-**4:** monprojet.py your file is created
+**4:** monprojet.py twój plik został utworzony.
 
-### The icons used 
+
+
+### Użyte ikony 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
 ![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
 
-You must copy and paste the images in the same directory as the macro, here:
+Musisz skopiować i wkleić obrazy do tego samego katalogu co makrodefinicje, tutaj:
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
 Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
-## Script
 
-The contents of the file **Qt_Example.FCMacro** are given below:
+
+## Tworzenie skryptów 
+
+Zawartość pliku **Qt_Example.FCMacro** jest podana poniżej:
 
 
 {{MacroCode|code=
@@ -791,7 +796,7 @@ ui.setupUi(MainWindow)
 MainWindow.show()
 }}
 
-Enjoy
+Dobrej zabawy.
 
 
 

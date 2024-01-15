@@ -1,6 +1,8 @@
 # Online Help Startpage/sv
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## Välkommen till FreeCAD on-line hjälp 
 
 
@@ -11,6 +13,8 @@ Detta dokument har skapats automatiskt av innehållet i den officiella FreeCAD w
 
 </div>
 
+
+
 ### Hur man använder detta dokument 
 
 
@@ -20,6 +24,10 @@ Detta dokument är uppdelat i flera avsnitt: introduktion, användande, skriptni
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### Bidra
 

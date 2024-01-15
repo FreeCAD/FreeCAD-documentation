@@ -31,6 +31,9 @@ El comando Borrador BSpline especifica los **puntos exactos** por los que pasar�
 
 Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_BSpline.svg" width=16px> [Borrador BSpline](Draft_BSpline/es.md)**.
     -   Seleccione la opción **Borrador → <img src="images/Draft_BSpline.svg" width=16px> B-spline** en el menú.
@@ -41,10 +44,19 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 5.  Pulse **Esc** o el botón **Cerrar** para finalizar el comando.
 
 
+</div>
+
+
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Los atajos de teclado de un solo carácter disponibles en el panel de tareas se pueden cambiar. Ver [Preferencias de Borrador](Draft_Preferences/rs.md). Los atajos mencionados aquí son los atajos por defecto.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -71,15 +83,6 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 -   Un Borrador BSpline puede ser editado con el comando [Borrador Edición](Draft_Edit/es.md).
 -   Un Borrador BSpline puede convertirse en un [Borrador Hilo](Draft_Wire/es.md) con el comando [Borrador HiloABSpline](Draft_WireToBSpline/es.md).
-
-
-
-## Preferencias
-
-Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
-
--   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
--   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
 
 
 

@@ -13,12 +13,22 @@
 
 </div>
 
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Aggiunge le proprietà dei materiali ad una parte.
 
+
+</div>
+
 ![](images/FEMMaterialSolidProperties.png ) 
 *The FEM material task panel*
+
+
 
 ## Utilizzo
 
@@ -40,6 +50,8 @@ Aggiunge le proprietà dei materiali ad una parte.
 
 
 </div>
+
+
 
 ## Note
 

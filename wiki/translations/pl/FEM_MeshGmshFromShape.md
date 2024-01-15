@@ -1,122 +1,149 @@
 ---
  GuiCommand:
    Name: FEM MeshGmshFromShape
-   MenuLocation: Mesh , FEM mesh from shape by Gmsh
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Siatka MES z kształtu przy pomocy generatora Gmsh
+   MenuLocation: Siatka , Siatka MES z kształtu przy pomocy generatora Gmsh
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MeshGmshFromShape/pl
 
-## Description
 
-For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
 
-Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+## Opis
 
-## Usage
+Geometria do analizy metodą elementów skończonych musi być poddana dyskretyzacji do [siatki MES](FEM_Mesh/pl.md). To narzędzie korzysta z programu [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (który musi być zainstalowany w systemie) do generowania siatki.
 
-1.  Select the shape you want to analyze. For volume FEM this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [BooleanFragments](Part_BooleanFragments.md) command.)
-    -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md)** button.
-    -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** option from the menu.
-2.  Optionally edit the minimal and maximal element size. (Autodetection works fine unless you apply complicated boundary conditions.)
-3.  Click the **Apply** button and wait for the computation of the mesh to complete
-4.  Close the task. You now should see a new FEMMeshGMSH object in your active analysis container.
+W zależności od Twojego systemu operacyjnego i pakietu instalacyjnego, Gmsh może być dołączony do programu FreeCAD lub nie. Więcej informacji można znaleźć na stronie [Instalacja środowiska MES](FEM_Install/pl.md).
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
 
-## Properties
 
--    **Algorithm2D**: The algorithm to create 2D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). For Delaunay, see [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation).
+## Użycie
 
--    **Algorithm3D**: The algorithm to create 3D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm).
+1.  Wybierz kształt, który chcesz analizować. Dla objętości musi to być bryła pojedyncza lub złożona. Bryła złożona jest konieczna jeśli część jest wykonana z wielu materiałów *(bryłę złożoną można utworzyć przy pomocy narzędzia [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md))*.
+    -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> '''FEM mesh from shape by Gmsh'''** button.
+    -   Wybierz opcję **Siatka → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Siatka MES z kształtu przy pomocy generatora Gmsh** z menu.
+2.  Opcjonalnie, edytuj minimalny i maksymalny rozmiar elementu *(autodetekcja często tworzy zbyt rzadkie siatki)*.
+3.  Wciśnij przycisk **Zastosuj** i poczekaj aż zakończy się generowanie siatki.
+4.  Zamknij okno dialogowe. Powinieneś widzieć nowy obiekt FEMMeshGMSH dodany do aktywnego kontenera analizy.
 
--    **Characteristic Length Max**: The maximal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Max element size**.
+Po utworzeniu siatki można zmienić jej właściwości używając [edytora właściwości](Property_editor/pl.md). Po zmianie właściwości należy ponownie otworzyć okno dialogowe narzędzia i wcisnąć przycisk **Zastosuj** *(można zostawić okno dialogowe otwarte podczas zmieniania właściwości)*.
 
--    **Characteristic Length Min**: The minimal size of the mesh elements. If set to *0.0*, the size will be set automatically. This property can also be changed in the Gmsh dialog in the field **Min element size**.
+
+
+## Właściwości
+
+-    **Algorithm2D**: Algorytm do tworzenia siatek 2D. Dostępne algorytmy są opisane [na stronie projektu GMSH](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). Dla Delaunay zobacz stronę[triangulacja Delone](https://pl.wikipedia.org/wiki/Triangulacja_Delone).
+
+-    **Algorithm3D**: Algorytm do tworzenia siatek 3D. Dostępne algorytmy są opisane [na stronie projektu GMSH](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm).
+
+-    **Characteristic Length Max**: Maksymalny rozmiar elementów. Jeśli ustawione jest *0.0* to rozmiar zostanie dobrany automatycznie. Ta właściwość może być również zmieniona w oknie dialogowym narzędzia w polu **Maksymalny rozmiar elementu**.
+
+-    **Characteristic Length Min**: Minimalny rozmiar elementów. Jeśli ustawione jest {{Value|0.0}} to rozmiar zostanie dobrany automatycznie. Ta właściwość może być również zmieniona w oknie dialogowym narzędzia w polu **Minimalny rozmiar elementu**.
 
 -    **Coherence Mesh**:
 
-    -   true (default); duplicate mesh nodes will be removed
-    -   false
+    -   
+        {{true/pl}}
+        
+        *(domyślne)* zduplikowane węzły siatki zostaną usunięte
 
--    **Element Dimension**: The dimension of the mesh elements. This property can also be changed in the Gmsh dialog in the field **Mesh element dimension**.
+    -   
+        {{false/pl}}
+        
 
-    -   From Shape (default); the dimension will be determined from the dimension of the object that is meshed
+-    **Element Dimension**: Przestrzeń elementów siatki. Ta właściwość może być również zmieniona w oknie dialogowym narzędzia w polu **Wymiar elementu**.
+
+    -   From Shape *(domyślne)* przestrzeń zostanie określona na podstawie przestrzeni obiektu, dla którego siatka jest generowana
     -   1D
     -   2D
     -   3D
 
--    **Element Order**: The [mesh element order](https://www.comsol.de/support/knowledgebase/1270). This property can also be changed in the Gmsh dialog in the field **Mesh order**. <small>(v0.20)</small> 
+-    **Element Order**: [Rząd elementów](https://www.comsol.de/support/knowledgebase/1270). Ta właściwość może być również zmieniona w oknie dialogowym narzędzia w polu **Kolejność elementów**. {{Version/pl|0.20}}
 
     -   1st
-    -   2nd (default)**Note:** If you use the solver [Elmer](FEM_SolverElmer.md) you may get this error: *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.* This means the solver equation cannot handle 2nd order meshes. Use either 1st order meshes then, or check the FreeCAD Wiki page for the solver equation for possible options to handle 2nd order meshes.
+    -   2nd *(domyślne)***Uwaga:** Jeśli korzystasz z solvera [Elmer](FEM_SolverElmer/pl.md), możesz trafić na ten błąd: *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.* To oznacza, że dane równanie *(typ analizy)* nie wspiera siatek drugiego rzędu. W takim wypadku użyj siatki pierwszego rzędu lub sprawdź stronę wiki danego równania żeby znaleźć ewentualne możliwości używania siatek drugiego rzędu.
 
--    **Geometrical Tolerance**: The geometrical tolerance for the mesh to match the object edges. The default *0.0* means that Gmsh\'s default of 1e-8 is used.
+-    **Geometrical Tolerance**: Tolerancja geometryczna dla dopasowania siatki do krawędzi obiektu. Domyślne ustawienie *0.0* oznacza, że Gmsh skorzysta z wartości 1e-8.
 
--    **Groups Of Nodes**: All nodes and not only the elements will be saved for each physical mesh group. Physical groups are collections of mesh entities (points, curves, surfaces and volumes). They and are identified by their dimension and by a tag. For example a mesh of the same object region is internally tagged the same. So all surfaces of this region will form one physical group.
+-    **Groups Of Nodes**: Wszystkie węzły a nie tylko elementy zostaną zapisane dla każdej fizycznej grupy siatki. Fizyczne grupy siatki to zbiory obiektów siatki *(punktów, krawędzi, powierzchni i objętości)*. Są one identyfikowane za pomocą przestrzeni i indywidualnego oznaczenia. Przykładowo, siatka tego samego obszaru obiektu jest wewnętrznie oznaczana tak samo. Więc wszystkie powierzchnie tego obszaru będą tworzyły jedną grupę fizyczną.
 
--    **High Order Optimize**: If and how meshes with <small>(v0.20)</small>  Gmsh supports different optimization algorithms. **Elastic** is an algorithm in which the mesh elements are treated as a collection of deformable viscoelastic solids. 1st order meshes cannot be optimized because their element borders are linear an cannot be deformed.
+-    **High Order Optimize**: Czy i jak siatki z właściwością {{Version/pl|0.20}} Gmsh wspiera różne algorytmy optymalizacji. **Elastic** to algorytm, w którym elementy siatki są traktowane jako kolekcja deformowalnych ciał lepkosprężystych. Siatki pierwszego rzędu nie mogą być optymalizowane, ponieważ ich krawędzie są liniowe i nie można ich deformować.
 
--    **Mesh Size From Curvature**<small>(v0.20)</small> : The number of mesh elements per $2\pi$ times the radius of the curvature. To get a finer mesh at small corners or holes, this value can be increased for better results
+-    **Mesh Size From Curvature**{{Version/pl|0.20}}: Liczba elementów siatki na $2\pi$ razy promień krzywizny. Aby uzyskać gęstszą siatkę dla małych wierzchołków lub otworów, należ zwiększyć tą wartość dla lepszych wyników.
 
 <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature.png  style="width:450px;"> 
-*Effect of  ''Mesh Size From Curvature'''; left: set to 12, right: deactivated*
+*Efekt właściwości  ''Mesh Size From Curvature'''. Po lewej: ustawionej na 12. Po prawej: dezaktywowanej.
+*
 
--    **Optimize Netgen**: Whether the mesh will be optimized using the 3D mesh generator [Netgen](https://github.com/NGSolve/netgen) to improve the quality of tetrahedral elements. **Note:** since Netgen can only create tetrahedral elements, this option is ignored for meshes whose **Element Dimension** is not *3D*.
+-    **Optimize Netgen**: Czy siatka będzie optymalizowana przy pomocy generatora siatki 3D [Netgen](https://github.com/NGSolve/netgen) aby poprawić jakość elementów czworościennych. **Uwaga:** ponieważ Netgen może tworzyć tylko elementy czworościenne, ta opcja jest ignorowana dla siatek, których właściwość **Element Dimension** nie jest ustawiona na *3D*.
 
--    **Recombination Algorithm**<small>(v0.20)</small> : The algorithm used for **Recombine 3D All** and also for **Recombine All**. For more info, see section [Element Recombination](#Element_Recombination.md) and for technical details see the [Gmsh documentation](https://www.gmsh.info/doc/texinfo/gmsh.html#t11).
+-    **Recombination Algorithm**{{Version/pl|0.20}}: Algorytm używany przez **Recombine 3D All** i przez **Recombine All**. Więcej informacji można znaleźć w sekcji [Rekombinacja elementów](#Rekombinacja_elementów.md) a szczegóły technicznej znajdują się w [dokumentacji Gmsh](https://www.gmsh.info/doc/texinfo/gmsh.html#t11).
 
--    **Recombine 3D All**<small>(v0.20)</small> : Applies a recombination 3D-algorithm to all volumes. Tetrahedra will be recombined into prisms, hexahedra or pyramids if possible.
+-    **Recombine 3D All**{{Version/pl|0.20}}: Stosuje algorytm rekombinacji 3D dla wszystkich objętości. Czworościany będą przekształcone w pięciościany, prostopadłościany lub piramidki gdzie będzie to możliwe.
 
--    **Recombine All**: Applies a recombination algorithm to all surfaces. Triangles will be recombined into quadrangles when possible.
+-    **Recombine All**: Stosuje algorytm rekombinacji dla wszystkich powierzchni. Trójkąty będą przekształcone w czworokąty gdzie będzie to możliwe a recombination algorithm to all surfaces.
 
--    **Optimize Std**Optimizes the mesh to improve the quality of tetrahedral elements.
+-    **Optimize Std**Optymalizuje siatkę aby zwiększyć jakość elementów czworościennych.
 
--    **Second Order Linear**: Option if second order nodes (if **Element Order** set to *2nd*) and/or mesh refinement points are created by linear interpolation.
+-    **Second Order Linear**: Czy węzły elementów drugiego rzędu *(jeśli wlaściwość **Element Order** jest ustawiona **2nd**)* i / lub punkty zagęszczania siatki są tworzone przez interpolację liniową.
 
-    -   true; linear interpolation is used
-    -   false (default); curvilinear interpolation is used
+    -   
+        {{true/pl}}
+        
+        używana jest interpolacja liniowa.
 
-## Notes
+    -   
+        {{false/pl}}
+        
+        *(domyślne)* używana jest interpolacja krzywoliniowa.
 
-### Nonpositive Jacobians 
 
-When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
 
--   Set **Second Order Linear** to *true* but keep **Element Order** at *2nd*.
--   Set **Element Order** to *1st*.
--   Use a smaller element size by reducing the **Characteristic Length Max**.
--   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
+## Uwagi
 
-### Mesh Growth 
 
-At edges and small geometric entities, the mesh has to be smaller than in areas without edges. So the mesh element size grows away from the edges. The growing strategy of Gmsh is to grow between edges of different sizes. So the growing fails when an area has the same sized edges like for example this tube:
+
+### Ujemne jakobiany 
+
+Jeśli pojawia się błąd o ujemnych jakobianach, można wypróbować następujące podejściaː
+
+-   Ustawić właściwość **Second Order Linear** na {{true/pl}}, ale zostawić **Element Order** na *2nd*.
+-   Ustawić **Element Order** na *1st*.
+-   Zmniejszyć rozmiar elementów siatki poprzez redukcję **Characteristic Length Max**.
+-   Jeśli używany jest solver ccxtools i przycisk uruchamiania *(nie panel zadań)* to węzły elementów z ujemnymi jakobianami będą zaznaczone na zielono.
+
+
+
+### Wzrost siatki 
+
+Na krawędziach i małych obiektach geometrycznych siatka musi być mniejsza niż w obszarach z dala od krawędzi. Więc rozmiar elementu rośnie w oddaleniu od krawędzi. Strategia wzrostu siatki w Gmsh to wzrost między krawędziami o różnych rozmiarach. Więc wzrost zawodzi jeśli obszar ma krawędzie o tych samych rozmiarach jak w poniższym przykładzieː
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-failing.png  style="width:400px;"> 
-*Failing mesh growing because the cylindrical area is surrounded by the same edges*
+*Wzrost siatki zawodzi, ponieważ obszar cylindryczny jest otoczony takimi samymi krawędziami.*
 
-To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
+Aby umożliwić rozsądny wzrost siatki, należy w takim przypadku dodać krawędź do tego obszaru. W tym przykładzie byłby to okrąg w środku walca. Okrąg jest dodany jako część bryły złożonej z [fragmentacji funkcją logiczną](Part_BooleanFragments/pl.md), zobacz [plik projektu](https://forum.freecadweb.org/download/file.php?id=146255) tego przykładu.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
-*Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
+*Rozsądny wzrost siatki dzięki dodatkowej krawędzi w środku cylindrycznego obszaru.*
 
 
 
 ### Rekombinacja elementów 
 
-Elements can be recombined in two ways, on the surface of objects so that triangles will be recombined into quadrangles if possible and in the volume of objects so that tetrahedra will be recombined into prisms, hexahedra or pyramids if possible. Thinking about the geometry, it becomes clear that the recombination result depends strongly on the geometry of the body and that recombining a 3D body only at the surface will mostly lead to strange results.
+Elementy mogą być rekombinowane na dwa sposoby, na powierzchni obiektów tak, że trójkąty są przekształcane w czworoboki jeśli to możliwe i w objętości obiektów tak, że czworościany są przekształcane w pięciościany, prostopadłościany lub piramidki jeśli to możliwe. Oczywiste jest, iż wynik rekombinacji silnie zależy od geometrii obiektu i że rekombinacja obiektu 3D tylko na powierzchni zwykle prowadzi do niepożądanych rezultatów.
 
-To illustrate this, look at the image below. A cuboid body is meshed using the standard settings (tetrahedra, 2nd order mesh). This is the subimage at the upper left. The image at the upper right shows the result, when additionally the elements are recombined only at the surface of the body. The result is bad because the changed surface elements don\'t fit to the unchanged volume elements. So When we use now also **Recombine 3D All**, the result is better, see the lower left subimage. However, the result doesn\'t show a great difference compared to the mesh without recombinations. Since our body is a cuboid, it is therefore sensible to use a recombination algorithm that tries to create cuboids as well. And this result is shown in the subimage at the lower right.
+Zostało to przedstawione na rysunku poniżej. Siatka dla prostopadłościanu jest tworzona ze standardowymi ustawieniami *(czworościany drugiego rzędu)* To rysunek w lewym górnym rogu. Rysunek w prawym górnym rogu pokazuje wynik gdy dodatkowo elementy są rekombinowane tylko na powierzchni obiektu. Wynik jest zły, ponieważ zmienione elementy na powierzchni nie pasują do niezmienionych elementów w objętości. Więc sama właściwość Jeśli używana jest dodatkowo właściwość **Recombine 3D All**, wynik jest lepszy *(lewy dolny rysunek)*. Jednak wynik nie odbiega znacząco od siatki bez rekombinacji. Ponieważ obiekt jest prostopadłościanem, rozsądne jest użycie algorytmu rekombinacji, który próbuje też utworzyć prostopadłościany. Taki wynik jest pokazany na prawym dolnym rysunku.
 
-The *Simple* recombination algorithm will leave some triangles in the mesh in case the recombining leads to badly shaped quads. In such cases use a *full-quad* recombination algorithm, which will automatically perform a coarser mesh followed by the recombination, smoothing and subdividing. See [forum topic](https://forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392)
+Algorytm rekombinacji *Simple* zostawi pewną liczbę trójkątów w siatce jeśli rekombinacja prowadzi do złej jakości czworoboków. W takich przypadkach należy użyć algorytmu *full-quad*, który automatycznie tworzy rzadszą siatkę a następnie dokonuje rekombinacji, wygłaszania i podziału. Więcej informacji można znaleźć [w tym wątku na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=20351#p520392).
 
 <img alt="" src=images/FEM_Gmsh-Recombination.png  style="width:600px;"> 
-*Effect of mesh element recombination.<br>
-Upper left: standard mesh.<br>
-Upper right: recombination only at the surface using the '''Simple''' algorithm.<br>
-Lower left: recombination at the surface and in the volume using the '''Simple''' algorithm.<br>
-Lower right: recombination at the surface and in the volume using the '''Simple full-quad''' algorithm*
+*Efekt rekombinacji elementów siatki.<br>
+Górny lewy róg: standardowa siatka.<br>
+Górny prawy róg: rekombinacja tylko na powierzchni przy pomocy algorytmu '''Simple'''.<br>
+Dolny lewy róg: rekombinacja na powierzchni i w objętości przy pomocy algorytmu '''Simple'''.<br>
+Dolny prawy róg: rekombinacja na powierzchni i w objętości przy pomocy algorytmu '''Simple full-quad'''*
 
 
 

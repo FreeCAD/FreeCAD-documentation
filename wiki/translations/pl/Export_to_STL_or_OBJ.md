@@ -1,10 +1,11 @@
 ---
- TutorialInfo:
-   Topic: Export to STL or OBJ
-   Level: Beginner
-   Time: 20 minutes
+ TutorialInfo:l
+   Topic:  Eksport do formatu STL lub OBJ
+   Level:  Początkujący
+   Time:  20 minut
    Author: r-frank
    FCVersion: 0.16.6703
+   Files:  nie dołączono
 ---
 
 # Export to STL or OBJ/pl
@@ -13,52 +14,67 @@
 
 
 
-## Introduction
 
-In this tutorial we will cover how to export STL/OBJ-files from FreeCAD. The mesh-format STL/OBJ is dimensionless; FreeCAD will assume on export that the units used in the model are in mm. If this is not the case you have to scale your model. One way to do this is using <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Draft Scale](Draft_Scale.md).
 
-## Sample part 
+## Wprowadzenie
 
-You can use your own FreeCAD file, but you could also create a quick test file by
+W tym poradniku omówimy, jak wykonać eksport plików STL / OBJ z FreeCAD. Format siatki STL / OBJ jest bezwymiarowy. FreeCAD zakłada przy eksporcie, że jednostki użyte w modelu są w mm. Jeśli tak nie jest, należy przeskalować model. Jednym ze sposobów jest użycie narzędzia <img alt="" src=images/Draft_Scale.svg  style="width:24px;">. [Skaluj](Draft_Scale/pl.md) środowiska pracy Rysunek Roboczy.
 
--   Opening FreeCAD
--   Create a new document
--   Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
--   Insert a cube by clicking on <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Part Box/Cube](Part_Box.md)
--   Insert a cone by clicking on <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Part Cone](Part_Cone.md)
--   Select both objects in the [tree view](Tree_view.md)
--   Apply a fusion by clicking on <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Part Fuse](Part_Fuse.md)
--   Save your file
 
-## Export Method 1: Using \"File → Export\" 
 
--   Select the solid to be exported in the tree view.
--   Choose **File** → **Export...** and set file type to \"STL mesh (\*.stl \*.ast)\".
--   Enter your file name. The default extension is \".stl\". You must include the extension \".ast\" in the file name to produce a .ast file. Choose **Save**.
+## Przykładowa część 
 
-## Export Method 2: Using the Mesh Workbench in FreeCAD 
+Możesz użyć własnego pliku FreeCAD, ale możesz także utworzyć szybki plik testowy poprzez:
 
--   Switch to the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md)
--   Select the solid to be meshed in the tree view.
--   Choose **Meshes** → **<img src="images/Mesh_FromPartShape.svg" width=32px> Create Mesh from shape...** from the main (top) menu.
--   Select one of the available meshers and specify the available options. For more information refer to [Mesh from Shape](Mesh_FromPartShape.md).
--   Choose **OK**. The mesh object will be created in the tree view (with green mesh icon <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;">).
--   Right click the mesh object in the tree view and choose **<img src="images/Mesh_Export.svg" width=32px> Export mesh...**.
--   Fill in the file name; the extension is not necessary. The extension will be set based on the file type. If you include an extension which does not match the selected file type, an extension for the selected type will be added when the file is saved. If you include an extension which matches the file type, no additional extension will be added.
--   The default file type is \"Binary STL (\*.stl)\". Change the type if you wish.
--   Choose **Save**.
+1.  Uruchomienie FreeCAD.
+2.  Utworzenie nowego dokumentu.
+3.  Przełączenie na środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md).
+4.  Wstaw sześcian klikając w <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Sześcian](Part_Box/pl.md).
+5.  Wstaw stożek klikając w <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Stożek](Part_Cone/pl.md).
+6.  Zaznacz oba obiekty w oknie [Widoku drzewa](Tree_view/pl.md).
+7.  Zastosuj scalenie klikając w <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Połączenie](Part_Fuse/pl.md).
+8.  Zapisz plik.
 
-## Which Method to choose ? 
 
-Method 2 is to be preferred. Among the reasons:
 
--   When you have more than one Body to convert you can use Tools from <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md). For example, you can fuse meshes before exporting.
--   Curved surfaces are represented in STL as a series of straight-line segments, generated via tessellation. This results in slightly under-sized inside dimensions for curved surfaces. If you are exporting to use in 3D-printing, this may result in an under-sized hole, for example. In such cases you may need a finer tessellation value. When exporting from another workbench using **File** → **Export...**, the tessellation is controlled by the overall display tessellation set in **Edit** → **Preferences...** → Part Design → Shape view. However, because those parameters control the tessellation used to render shapes on the display, decreasing them will slow down display rendering, often significantly. In addition, exporting immediately after changing the display tessellation preference value will not have the desired effect because display tessellation is not updated immediately. One must force a change in the underlying model to cause the tessellation to be recomputed \-- for example, by editing a sketch parameter (Setting it to its original value will suffice).
+## Metoda eksportu 1: Korzystanie z opcji \"Plik → Eksportuj\" 
 
-## Links
+1.  Przy ustawieniach domyślnych ta metoda tworzy siatkę z zauważalnie postrzępionymi krzywymi. Aby uzyskać gładsze wykończenie podczas np. drukowania 3D, należy skonfigurować rozdzielczość siatki:
+    1.  Upewnij się, że środowisko pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md) zostało załadowane *(domyślnie nie jest załadowany)*.
+    2.  Przejdź do menu **Edycja → Preferencje ... → Import-Export → Formaty siatki**.
+    3.  Zmień **Maksymalne odchylenie siatki**. Niższa wartość spowoduje utworzenie siatki o wyższej rozdzielczości.
+2.  Wybierz bryłę do wyeksportowania w widoku drzewa.
+3.  Wybierz Plik **File → Eksportuj ...** i ustaw typ pliku na **STL mesh (*.stl *.ast)**.
+4.  Wprowadź nazwę pliku. Domyślne rozszerzenie to **.stl**. Musisz dołączyć rozszerzenie **.ast**, aby utworzyć plik **.ast**.
+5.  Wybierz **Zapisz**.
 
--   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
--   [Import Export](Import_Export.md)
+
+
+## Metoda eksportu 2: Korzystanie z środowiska pracy Siatka w programie FreeCAD 
+
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md)
+2.  Wybierz bryłę do zazębienia w widoku drzewa.
+3.  Wybierz **Siatki** → **<img src="images/Mesh_FromPartShape.svg" width=32px> Utwórz siatkę z kształtu ...** z menu głównego.
+4.  Wybierz jedną z dostępnych siatek i określ dostępne opcje. Więcej informacji można znaleźć na stronie [Kształt z siatki](Mesh_FromPartShape/pl.md).
+5.  Wybierz **OK**. Obiekt siatki zostanie utworzony w widoku drzewa *(z zieloną ikoną siatki <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;">)*.
+6.  Kliknij prawym przyciskiem myszy obiekt siatki w widoku drzewa i wybierz **<img src="images/Mesh_Export.svg" width=32px> Eksportuj siatkę ...**.
+7.  Wpisz nazwę pliku. Rozszerzenie nie jest konieczne. Rozszerzenie zostanie ustawione na podstawie typu pliku. W przypadku podania rozszerzenia, które nie pasuje do wybranego typu pliku, rozszerzenie dla wybranego typu zostanie dodane podczas zapisywania pliku. W przypadku podania rozszerzenia pasującego do typu pliku, dodatkowe rozszerzenie nie zostanie dodane.
+8.  Domyślnym typem pliku jest **Binary STL (*.stl)**. Zmień typ, jeśli chcesz.
+9.  Wybierz **Zapisz**.
+
+
+
+## Którą metodę wybrać 
+
+-   Metoda 1 może być używana w większości sytuacji, w których wymagany jest plik siatki.
+-   W metodzie 2 można zweryfikować siatkę w programie FreeCAD. A jeśli masz więcej niż jedną bryłę do przekonwertowania, możesz użyć narzędzi z <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Siatka](Mesh_Workbench/pl.md). Na przykład można połączyć siatki przed eksportem.
+
+
+
+## Odnośniki internetowe 
+
+-   [Import z formatu STL or OBJ](Import_from_STL_or_OBJ.md)
+-   [Import i eksport](Import_Export/pl.md)
 
 
 

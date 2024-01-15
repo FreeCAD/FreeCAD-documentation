@@ -38,95 +38,83 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 ### Materials
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Material for solid](FEM_MaterialSolid.md): Lets you select a solid material from the database.
+  - <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Material for solid](FEM_MaterialSolid.md): Lets you select a solid material from the database.
 
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Material for fluid](FEM_MaterialFluid.md): Lets you select a fluid material from the database.
+  - <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Material for fluid](FEM_MaterialFluid.md): Lets you select a fluid material from the database.
 
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md): Lets you add a nonlinear mechanical material model.
+  - <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md): Lets you add a nonlinear mechanical material model.
 
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md): Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md): Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
 
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Material editor](FEM_MaterialEditor.md): Lets you open the material editor to edit materials.
+  - <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Material editor](FEM_MaterialEditor.md): Lets you open the material editor to edit materials.
 
 ### Element Geometry 
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Beam cross section](FEM_ElementGeometry1D.md): Used to define cross sections for beam elements.
+  - <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Beam cross section](FEM_ElementGeometry1D.md): Used to define cross sections for beam elements.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Beam rotation](FEM_ElementRotation1D.md): Used to rotate cross sections of beam elements.
+  - <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Beam rotation](FEM_ElementRotation1D.md): Used to rotate cross sections of beam elements.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Shell plate thickness](FEM_ElementGeometry2D.md): Used to define shell element thickness.
+  - <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Shell plate thickness](FEM_ElementGeometry2D.md): Used to define shell element thickness.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Used to create fluid section element for pneumatic and hydraulic networks.
+  - <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Fluid section for 1D flow](FEM_ElementFluid1D.md): Used to create fluid section element for pneumatic and hydraulic networks.
 
-### Electromagnetic Constraints 
+### Electromagnetic boundary conditions 
 
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md): Used to define electrostatic potential.
 
-  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Constraint electrostatic potential](FEM_ConstraintElectrostaticPotential.md): Used to define electrostatic potential.
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
+### Fluid boundary conditions 
 
-### Fluid Constraints 
+  - <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Initial flow velocity condition](FEM_ConstraintInitialFlowVelocity.md): Used to define an initial flow velocity for a body (volume).
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md): Used to define an initial flow velocity for a body (volume).
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Flow velocity boundary condition](FEM_ConstraintFlowVelocity.md): Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md): Used to define a flow velocity as a boundary condition at an edge (2D) or face (3D).
+### Geometrical analysis features 
 
-### Geometrical Constraints 
+  - <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Plane multi-point constraint](FEM_ConstraintPlaneRotation.md): Used to define a constraint for keeping the nodes in a planar surface in the same plane.
 
--   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation.md): Used to define a plane rotation constraint on a planar face.
+  - <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Section print feature](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the data file.
 
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file.
+  - <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Local coordinate system](FEM_ConstraintTransform.md): Used to define a transform constraint on a face.
 
--   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md): Used to define a transform constraint on a face.
+### Mechanical boundary conditions and loads 
 
-### Mechanical Constraints 
+  - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Fixed boundary condition](FEM_ConstraintFixed.md): Used to define a fixed constraint on point/edge/face(s).
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md): Used to define a fixed constraint on point/edge/face(s).
+  - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Displacement boundary condition](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
 
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
+  - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Contact constraint](FEM_ConstraintContact.md): Used to define a contact constraint between two faces.
 
--   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact.md): Used to define a contact constraint between two faces.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
 
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
+  - <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Force load](FEM_ConstraintForce.md): Used to define a force in \[N\] applied uniformly to a selectable face in a definable direction.
 
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md): Used to define a force in \[N\] applied uniformly to a selectable face in a definable direction.
+  - <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Pressure load](FEM_ConstraintPressure.md): Used to define a pressure constraint.
 
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md): Used to define a pressure constraint.
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Centrifugal load](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
 
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+  - <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Gravity load](FEM_ConstraintSelfWeight.md): Used to define a gravity acceleration acting on a model.
 
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md): Used to define a gravity acceleration acting on a model.
+### Thermal boundary conditions and loads 
 
-### Thermal Constraints 
+  - <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Initial temperature](FEM_ConstraintInitialTemperature.md): Used to define the initial temperature of a body.
 
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md): Used to define the initial temperature of a body.
+  - <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Heat flux load](FEM_ConstraintHeatflux.md): Used to define a heat flux constraint on a face(s).
 
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux.md): Used to define a heat flux constraint on a face(s).
+  - <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Temperature boundary condition](FEM_ConstraintTemperature.md): Used to define a temperature constraint on a point/edge/face(s).
 
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature.md): Used to define a temperature constraint on a point/edge/face(s).
-
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md): Used to define an internally generated body heat.
-
-### Constraints without solver 
-
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition.
-
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint.
-
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear.md): Used to define a gear constraint.
-
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint.
+  - <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Body heat source](FEM_ConstraintBodyHeatSource.md): Used to define an internally generated body heat.
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
+  - <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
 
 ## Menu: Mesh 
 
@@ -148,21 +136,19 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md): Creates a new solver for this analysis.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md): Same as the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) with extra checks.
-
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md): Creates the solver controller for Elmer.
 
 -   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): Creates the solver controller for the MYSTRAN solver. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md): Creates the solver controller for Z88.
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Mechanical equations 
 
   - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity equation](FEM_EquationElasticity.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform linear mechanical analyses.
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Electromagnetic equations 
 
   - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform electrostatic analyses.
 
@@ -208,15 +194,15 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md): Used to display value of a selected field at a given point.
 
--   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:" height="32px;"> [Filter functions](FEM_PostCreateFunctions.md): This is an icon menu in the FEM Results toolbar that holds the following commands:
+### Filter functions 
 
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
 
 ## Menu: Utilities 
 
@@ -232,6 +218,18 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo.md): Displays basic statistics of existing mesh - number of nodes and elements of each type.
 
+## Obsolete tools 
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition. Did not have a solver. Not available in <small>(v0.22)</small> .
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear.md): Used to define a gear constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint. Did not have a solver. Not available in <small>(v0.22)</small> .
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md): Same as the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) with extra checks. Tool was unfinished. Not available in <small>(v0.22)</small> .
+
 ## Preferences
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferences\...](FEM_Preferences.md): Preferences available in FEM Tools.
@@ -242,7 +240,9 @@ The following pages explain different topics of the FEM Workbench.
 
 [FEM Install](FEM_Install.md): a detailed description on how to set up the external programs used in the workbench.
 
-[FEM Mesh](FEM_Mesh.md): further information on obtaining a mesh for finite element analysis.
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): tips regarding geometry preparation for FEM and meshing.
+
+[FEM Mesh](FEM_Mesh.md): details about meshes in the FEM workbench.
 
 [FEM Solver](FEM_Solver.md): further information on the different solvers available in the workbench, and those that could be used in the future.
 

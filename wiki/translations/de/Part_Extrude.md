@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Extrude
    Name/de: Part Extrudieren
-   MenuLocation: Formteil , Extrudieren...
+   MenuLocation: Part , Extrudieren...
    Workbenches: Part_Workbench/de
    SeeAlso: Draft_Trimex/de, PartDesign_Pad/de
 ---
@@ -38,7 +38,7 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 
 1.  Die Formen in der [3D-Ansicht](3D_view/de.md) oder in der [Baumansicht](Tree_view/de.md) auswählen.
 
-2.  Die Schaltfläche **<img src="images/Part_Extrude.svg" width=16px> [Extrudieren](Part_Extrude/de.md)** in der Symbolleiste drücken oder den Menüeintrag **Part → Extrudieren** auswählen.
+2.  Die Schaltfläche **<img src="images/Part_Extrude.svg" width=16px> [Extrudieren...](Part_Extrude/de.md)** in der Symbolleiste drücken oder den Menüeintrag **Part → Extrudieren...** auswählen.
 
 3.  Richtung, Länge und wahlweise weitere Parameter einstellen (siehe den folgenden Abschnitt [Parameter](#Parameter.md) für weitere Einzelheiten).
 

@@ -4,10 +4,12 @@
 
 <div class="mw-translate-fuzzy">
 
-本頁將告訴你如何增加一個新的workbench到FreeCAD介面。[Workbenches是一個FreeCAD指令的容器](Workbenches/zh-tw.md)。我們可以用Python、C++或者是混合使用前兩種語言來撰寫。而混合使用的好處是可以擁有C++的速度和Python的 flexibility 。然而在所有的workbench都會藉由兩個檔案來開啟他們
+本頁將告訴你如何增加一個新的workbench到FreeCAD介面。[Workbenches](Workbenches/zh-tw.md)是一個FreeCAD指令的容器。我們可以用Python、C++或者是混合使用前兩種語言來撰寫。而混合使用的好處是可以擁有C++的速度和Python的 flexibility 。然而在所有的workbench都會藉由兩個檔案來開啟他們
 
 
 </div>
+
+
 
 ## workbench 架構 
 
@@ -42,6 +44,8 @@ The Mod directory should look like this:
 -   In the InitGui.py file you usually define a workbench, which contains a name, an icon, and a series of FreeCAD commands (see below). That python file also defines functions that are executed when FreeCAD loads (you try to do as little as possible there, so you don\'t slow down the startup), another that gets executed when the workbench is activated (that\'s where you\'ll do most of the work), and a third one when the workbench is deactivated (so you can remove things if needed).
 
 The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
+
+
 
 ### C++ workbench 架構 
 
@@ -82,6 +86,8 @@ extern "C" {
 }
 ```
 
+
+
 ### Init.py 檔 
 
 
@@ -112,7 +118,7 @@ extern "C" {
 # ***************************************************************************/
 
 FreeCAD.addImportType("My own format (*.own)", "importOwn")
-FreeCAD.addExportType("My own format (*.own)", "importOwn")
+FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 

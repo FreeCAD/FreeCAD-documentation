@@ -78,4 +78,4 @@ Zusätzliche Projektkonfigurationen würden die Definition von zusätzlichen Vor
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/de
+⏵ [documentation index](../README.md) > Raytracing Lux/de

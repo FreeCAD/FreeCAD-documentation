@@ -79,7 +79,7 @@ This category contains the help pages of each of FreeCAD command.
 | [Part Offset/pt-br](Part_Offset/pt-br.md) | [Part Offset2D/pt-br](Part_Offset2D/pt-br.md) | [Part Plane/pt-br](Part_Plane/pt-br.md) |
 | [Part Point/pt-br](Part_Point/pt-br.md) | [Part PointsFromMesh/pt-br](Part_PointsFromMesh/pt-br.md) | [Part Primitives/pt-br](Part_Primitives/pt-br.md) |
 | [Part Prism/pt-br](Part_Prism/pt-br.md) | [Part ProjectionOnSurface/pt-br](Part_ProjectionOnSurface/pt-br.md) | [Part RefineShape/pt-br](Part_RefineShape/pt-br.md) |
-| [Part RegularPolygon/pt-br](Part_RegularPolygon/pt-br.md) | [Part ReverseShapes/pt-br](Part_ReverseShapes/pt-br.md) | [Part Revolve/pt-br](Part_Revolve/pt-br.md) |
+| [Part RegularPolygon/pt-br](Part_RegularPolygon/pt-br.md) | [Part ReverseShape/pt-br](Part_ReverseShape/pt-br.md) | [Part Revolve/pt-br](Part_Revolve/pt-br.md) |
 | [Part RuledSurface/pt-br](Part_RuledSurface/pt-br.md) | [Part Section/pt-br](Part_Section/pt-br.md) | [Part ShapeFromMesh/pt-br](Part_ShapeFromMesh/pt-br.md) |
 | [Part SimpleCopy/pt-br](Part_SimpleCopy/pt-br.md) | [Part Slice/pt-br](Part_Slice/pt-br.md) | [Part SliceApart/pt-br](Part_SliceApart/pt-br.md) |
 | [Part Sphere/pt-br](Part_Sphere/pt-br.md) | [Part Spiral/pt-br](Part_Spiral/pt-br.md) | [Part Sweep/pt-br](Part_Sweep/pt-br.md) |
@@ -126,9 +126,7 @@ This category contains the help pages of each of FreeCAD command.
 | [Sketcher BSplineDecreaseDegree/pt-br](Sketcher_BSplineDecreaseDegree/pt-br.md) | [Sketcher BSplineDecreaseKnotMultiplicity/pt-br](Sketcher_BSplineDecreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineDegree/pt-br](Sketcher_BSplineDegree/pt-br.md) |
 | [Sketcher BSplineIncreaseDegree/pt-br](Sketcher_BSplineIncreaseDegree/pt-br.md) | [Sketcher BSplineIncreaseKnotMultiplicity/pt-br](Sketcher_BSplineIncreaseKnotMultiplicity/pt-br.md) | [Sketcher BSplineKnotMultiplicity/pt-br](Sketcher_BSplineKnotMultiplicity/pt-br.md) |
 | [Sketcher BSplinePoleWeight/pt-br](Sketcher_BSplinePoleWeight/pt-br.md) | [Sketcher BSplinePolygon/pt-br](Sketcher_BSplinePolygon/pt-br.md) | [Sketcher CarbonCopy/pt-br](Sketcher_CarbonCopy/pt-br.md) |
-| [Sketcher Clone/pt-br](Sketcher_Clone/pt-br.md) | [Sketcher CloseShape/pt-br](Sketcher_CloseShape/pt-br.md) | [Sketcher CompCreateArc/pt-br](Sketcher_CompCreateArc/pt-br.md) |
-| [Sketcher CompCreateBSpline/pt-br](Sketcher_CompCreateBSpline/pt-br.md) | [Sketcher CompCreateCircle/pt-br](Sketcher_CompCreateCircle/pt-br.md) | [Sketcher CompCreateConic/pt-br](Sketcher_CompCreateConic/pt-br.md) |
-| [Sketcher CompCreateRectangles/pt-br](Sketcher_CompCreateRectangles/pt-br.md) | [Sketcher CompCreateRegularPolygon/pt-br](Sketcher_CompCreateRegularPolygon/pt-br.md) | [Sketcher ConnectLines/pt-br](Sketcher_ConnectLines/pt-br.md) |
+| [Sketcher Clone/pt-br](Sketcher_Clone/pt-br.md) | [Sketcher CloseShape/pt-br](Sketcher_CloseShape/pt-br.md) | [Sketcher ConnectLines/pt-br](Sketcher_ConnectLines/pt-br.md) |
 | [Sketcher ConstrainAngle/pt-br](Sketcher_ConstrainAngle/pt-br.md) | [Sketcher ConstrainBlock/pt-br](Sketcher_ConstrainBlock/pt-br.md) | [Sketcher ConstrainCoincident/pt-br](Sketcher_ConstrainCoincident/pt-br.md) |
 | [Sketcher ConstrainDiameter/pt-br](Sketcher_ConstrainDiameter/pt-br.md) | [Sketcher ConstrainDistance/pt-br](Sketcher_ConstrainDistance/pt-br.md) | [Sketcher ConstrainDistanceX/pt-br](Sketcher_ConstrainDistanceX/pt-br.md) |
 | [Sketcher ConstrainDistanceY/pt-br](Sketcher_ConstrainDistanceY/pt-br.md) | [Sketcher ConstrainEqual/pt-br](Sketcher_ConstrainEqual/pt-br.md) | [Sketcher ConstrainHorizontal/pt-br](Sketcher_ConstrainHorizontal/pt-br.md) |
@@ -167,11 +165,13 @@ This category contains the help pages of each of FreeCAD command.
 | [Std Import/pt-br](Std_Import/pt-br.md) | [Std LinkImport/pt-br](Std_LinkImport/pt-br.md) | [Std LinkImportAll/pt-br](Std_LinkImportAll/pt-br.md) |
 | [Std LinkMake/pt-br](Std_LinkMake/pt-br.md) | [Std LinkMakeRelative/pt-br](Std_LinkMakeRelative/pt-br.md) | [Std LinkReplace/pt-br](Std_LinkReplace/pt-br.md) |
 | [Std LinkSelectAllLinks/pt-br](Std_LinkSelectAllLinks/pt-br.md) | [Std LinkSelectLinked/pt-br](Std_LinkSelectLinked/pt-br.md) | [Std LinkSelectLinkedFinal/pt-br](Std_LinkSelectLinkedFinal/pt-br.md) |
-| [Std LinkUnlink/pt-br](Std_LinkUnlink/pt-br.md) | [Std Part/pt-br](Std_Part/pt-br.md) | [Std ProjectUtil/pt-br](Std_ProjectUtil/pt-br.md) |
-| [Std PythonHelp/pt-br](Std_PythonHelp/pt-br.md) | [Std ReportBug/pt-br](Std_ReportBug/pt-br.md) | [Std SelBack/pt-br](Std_SelBack/pt-br.md) |
-| [Std SelectAll/pt-br](Std_SelectAll/pt-br.md) | [Std SelForward/pt-br](Std_SelForward/pt-br.md) | [Std SetAppearance/pt-br](Std_SetAppearance/pt-br.md) |
-| [Std ViewFitSelection/pt-br](Std_ViewFitSelection/pt-br.md) | [Std WhatsThis/pt-br](Std_WhatsThis/pt-br.md) | [Std Workbench/pt-br](Std_Workbench/pt-br.md) |
-| [TechDraw SpreadsheetView/pt-br](TechDraw_SpreadsheetView/pt-br.md) |
+| [Std LinkUnlink/pt-br](Std_LinkUnlink/pt-br.md) | [Std MergeProjects/pt-br](Std_MergeProjects/pt-br.md) | [Std Open/pt-br](Std_Open/pt-br.md) |
+| [Std Part/pt-br](Std_Part/pt-br.md) | [Std ProjectUtil/pt-br](Std_ProjectUtil/pt-br.md) | [Std PythonHelp/pt-br](Std_PythonHelp/pt-br.md) |
+| [Std Refresh/pt-br](Std_Refresh/pt-br.md) | [Std ReportBug/pt-br](Std_ReportBug/pt-br.md) | [Std Revert/pt-br](Std_Revert/pt-br.md) |
+| [Std SelBack/pt-br](Std_SelBack/pt-br.md) | [Std SelectAll/pt-br](Std_SelectAll/pt-br.md) | [Std SelForward/pt-br](Std_SelForward/pt-br.md) |
+| [Std SetAppearance/pt-br](Std_SetAppearance/pt-br.md) | [Std ViewFitSelection/pt-br](Std_ViewFitSelection/pt-br.md) | [Std ViewLoadImage/pt-br](Std_ViewLoadImage/pt-br.md) |
+| [Std WhatsThis/pt-br](Std_WhatsThis/pt-br.md) | [Std Workbench/pt-br](Std_Workbench/pt-br.md) | [TechDraw SpreadsheetView/pt-br](TechDraw_SpreadsheetView/pt-br.md) |
+|
 
 
 

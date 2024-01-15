@@ -1,4 +1,7 @@
 # Macro View Rotation/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
@@ -12,18 +15,51 @@
 |SeeAlso=[Macro Rotate View](Macro_Rotate_View/de.md)<br />[Macro FCCamera](Macro_FCCamera/de.md)
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Über diese GUI kann die Ansicht präziser gedreht werden als bei Verwendung der Maus. Die Rotation richtet sich nach den Achsen, die in Bezug auf den Benutzer festgelegt sind, und nicht auf die Objekte. Das Ziel besteht jedoch darin, dass sich die Objekte um ihre ungefähre gemeinsame Mitte herum drehen, anstatt um die Ansichtsmitte Die GUI befindet sich standardmäßig rechts oben auf dem Bildschirm. Dieses Verhalten kann durch Bearbeiten geändert werden
 
 
+</div>
+
+The GUI defaults to the top right of the screen, this behaviour can be changed by editing.
+
+
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Mit drei Symbolen werden die Drehrichtungen symbolisiert. Eine ZIP-Datei mit diesen Symbolen finden Sie [here](http://forum.freecadweb.org/download/file.php?id=453), die Bilder sollten sich in dem Ordner befinden, der Ihre Makros enthält. Bitte zögern Sie nicht, bessere beizutragen!
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Code
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros finden Sie unter [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro). Der einfachste Weg, dieses Makro zu installieren, ist der [Addon-Manager](Std_AddonMgr/de.md).
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 
@@ -279,15 +315,32 @@ if __name__ == '__main__':
 
 ## Option
 
-am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Zeile 91) geben die Position für die obere linke Ecke des Fensters an. Ich habe die Erfahrung gemacht, dass das Verhalten auf Ubuntu wie beabsichtigt war, aber Vista positionierte das Fenster zu hoch und die 0 dazu in \~ 30 geändert werden.
-```python
 
+<div class="mw-translate-fuzzy">
+
+## Option 
+
+am Ende der Funktion \'initUI\'. Die ersten beiden Argumente (rechts-300, 0) (Zeile 91) geben die Position für die obere linke Ecke des Fensters an. Ich habe die Erfahrung gemacht, dass das Verhalten auf Ubuntu wie beabsichtigt war, aber Vista positionierte das Fenster zu hoch und die 0 dazu in \~ 30 geändert werden.
+
+
+</div>
+
+
+```python
         self.setGeometry(right-300, 0, 300, 150)
 ```
+
+## Forum
+
+
+<div class="mw-translate-fuzzy">
 
 ## Diskussionsseite
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+
+</div>
 
 
 

@@ -24,7 +24,7 @@ La commande **Courbure** crée des objets de courbure pour les objets maillés. 
 2.  Il existe plusieurs manières de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Tracer la courbure](Mesh_VertexCurvature/fr.md)**.
     -   Sélectionnez l\'option **Maillages → <img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracer la courbure** du menu.
-    -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracer la courbure** du menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou du menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **<img src="images/_Mesh_VertexCurvature.svg" width=16px> Tracer la courbure** depuis le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou depuis le menu contextuel de la [vue 3D](3D_view/fr.md).
 
 
 

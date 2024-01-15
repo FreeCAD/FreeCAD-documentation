@@ -21,7 +21,7 @@ La commande **Couper un maillage** coupe des faces entières à partir d\'objets
 2.  Sélectionnez un ou plusieurs objets maillés.
 3.  Il existe plusieurs manières de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_PolyCut.svg" width=16px> [Couper le maillage](Mesh_PolyCut/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/_Mesh_PolyCut.svg" width=16px> Couper la maillage** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/_Mesh_PolyCut.svg" width=16px> Couper la maillage** du menu.
 4.  Définissez un polygone en sélectionnant des points dans la vue 3D.
 5.  Sélectionnez une option dans le menu contextuel de la vue 3D :
     -   
@@ -35,7 +35,7 @@ La commande **Couper un maillage** coupe des faces entières à partir d\'objets
         : supprime les faces qui sont complètement à l\'extérieur du polygone.
 
     -   
-        **Scinder**
+        **Recomposer**
         
         : supprime les faces qui sont complètement à l\'extérieur du polygone et crée un nouvel objet maillé les contenant.
 

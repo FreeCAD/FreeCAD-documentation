@@ -1,37 +1,42 @@
 ---
  GuiCommand:Addon
    Name: BIM IfcProperties
-   Workbenches: Image:IFC.svg BIM Workbench
+   Name/pl: BIM: Edytuj właściwości IFC
+   Workbenches: Image:IFC.svg BIM Workbench/pl
    Addon: BIM
-   MenuLocation: Manage , IFC Properties
-   SeeAlso: BIM IfcElements,BIM IfcQuantities
+   MenuLocation: Zarządzaj , Edytuj właściwości IFC
+   SeeAlso: BIM IfcElements/pl,BIM IfcQuantities/pl
 ---
 
 # BIM IfcProperties/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_ifcproperties_screenshot.png  style="width:1024px;">
 
-The IFC properties manager allows you to edit the IFC properties of one selected object, many selected objects or all objects of the document. IFC properties are pieces of information attached to individual objects. They can only be attached to [BIM objects](BIM_Workbench.md), so any non-BIM object must first be converted to a BIM object using menu **3D/BIM -\> Create component** before being able to hold IFC properties.
+Menedżer właściwości IFC umożliwia edycję właściwości IFC jednego wybranego obiektu, wielu wybranych obiektów lub wszystkich obiektów dokumentu. Właściwości IFC to informacje dołączone do poszczególnych obiektów. Mogą być one dołączane tylko do [obiektów BIM](BIM_Workbench/pl.md), więc każdy obiekt nie będący obiektem BIM musi najpierw zostać przekonwertowany na obiekt BIM za pomocą opcji w menu **3D/BIM -> Komponent**, zanim będzie mógł przechowywać właściwości IFC.
 
-IFC properties can be custom, that is, you can define your own name and value for them, or follow a preset schema defined by the IFC standard. These properties are defined in **Property sets** and are usually made available for the most common IFC types. For example, the **Pset_BeamCommon** property set is made to be attached to beams. Predefined property sets usually contains usual properties that the IFC schema has defined for a particular type. For example, the Pset_WallCommon, that should be attached to walls, contains properties that define if the wall is load-bearing or is exterior or interior.
+Właściwości IFC mogą być niestandardowe, tzn. można zdefiniować dla nich własną nazwę i wartość, lub mogą być zgodne z gotowym schematem zdefiniowanym przez standard IFC. Właściwości te są zdefiniowane w *Zestawach właściwości* i są zwykle udostępniane dla najpopularniejszych typów IFC. Na przykład zestaw właściwości **Pset_BeamCommon** jest przeznaczony do dołączania do belek. Predefiniowane zestawy właściwości zazwyczaj zawierają zwykłe właściwości, które schemat IFC zdefiniował dla określonego typu. Na przykład zestaw Pset_WallCommon, który powinien być dołączony do ścian, zawiera właściwości określające, czy ściana jest nośna, zewnętrzna czy wewnętrzna.
 
-You can create your own properties and property sets and attribute them to any object. There is no requirement in the IFC schema to add predefined Psets for common types or any restriction to add custom properties. This is a decision left to users. Usually, when working in a team, these things get decided alongside other BIM requirements, to make sure all BIM models produced meet the same requirements.
+Można tworzyć własne właściwości i zestawy właściwości i przypisywać je do dowolnego obiektu. W schemacie IFC nie ma wymogu dodawania predefiniowanych zestawów właściwości dla typowych typów ani żadnych ograniczeń dotyczących dodawania niestandardowych właściwości. Jest to decyzja pozostawiona użytkownikom. Zazwyczaj, podczas pracy w zespole, kwestie te są ustalane wraz z innymi wymaganiami BIM, aby upewnić się, że wszystkie tworzone modele BIM spełniają te same wymagania.
 
-### Defining your own property sets 
 
-The available property sets that are predefined in the IFC standard are stored in a [csv file bundled with FreeCAD](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/pset_definitions.csv). You can also add a custom csv file with your own property sets. This file must be named CustomPsets.csv and be placed in \$USERAPPDATA/BIM
 
-The \$USERAPPDATA folder depends on your platform/operating system (usually \$HOME/.FreeCAD on linux/mac, /users/YOUR USER/Application Data/roaming/FreeCAD on windows), and can also be found by entering this in the FreeCAD Python console:
+### Definiowanie własnych zestawów właściwości 
+
+Dostępne zestawy właściwości, które są wstępnie zdefiniowane w standardzie IFC, są przechowywane w pliku [csv dołączonym do FreeCAD](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/pset_definitions.csv). Można również dodać niestandardowy plik csv z własnymi zestawami właściwości. Plik ten musi mieć nazwę CustomPsets.csv i być umieszczony w katalogu \$USERAPPDATA/BIM
+
+Folder \$USERAPPDATA zależy od platformy/systemu operacyjnego *(zazwyczaj \$HOME/.FreeCAD na linux/mac, /users/YOUR USER/Application Data/roaming/FreeCAD na windows)* i można go również znaleźć wpisując go w konsoli Python:
 
 FreeCAD.getUserAppDataDir()
 
-Inside the CSV file, each line represents a different property set, beginning with the name of the set, and any number of Name;Type pairs, defining a property name and its [type](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/ifc_types_IFC4.json). For example:
+Wewnątrz pliku CSV każdy wiersz reprezentuje inny zestaw właściwości, zaczynając od nazwy zestawu i dowolnej liczby par Nazwa;Typ, definiujących nazwę właściwości i jej [typ](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/Presets/ifc_types_IFC4.json). Na przykład:
 
 Pset_FreeCAD;Name;IfcLabel;Version;IfcReal
 
-would define a property set named \"FreeCAD\" (the Pset\_ prefix is not mandatory but is a common practice) that contains two properties: one called \"Name\" which is an IfcLabel (a piece of text), and another called \"Version\" which is an IfcReal (a numeric value with decimals)
+zdefiniowałby zestaw właściwości o nazwie \"FreeCAD\" *(przedrostek Pset\_ nie jest obowiązkowy, ale jest powszechną praktyką)*, który zawiera dwie właściwości: jedną o nazwie \"Name\", którą jest IfcLabel *(fragment tekstu)*, a drugą o nazwie \"Version\", która jest IfcReal *(wartość liczbowa z miejscami dziesiętnymi)*.
 
 
 

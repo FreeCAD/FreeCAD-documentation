@@ -9,29 +9,35 @@
 
 # PartDesign Sprocket/ru
 
+
+
 ## Описание
 
-This tool allows you to create a 2D profile of a sprocket (or chainwheel). It can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
+Этот инструмент позволяет вам создать двухмерный профиль звёздочки (или цепного колеса). Он может быть выдавлен с помощью инструмента [Выдавливание](PartDesign_Pad/ru.md).
+
+
 
 ## Применение
 
-1.  Optionally activate the correct body.
-2.  Go to the menu **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Sprocket...**.
-3.  Set the **Number Of Teeth** and the **Sprocket Reference**.
-4.  Click **OK**.
-5.  If there was no active body: drag and drop the sprocket into a body for the application of further features like padding.
+1.  Опционально подходящее тело может быть выбранно.
+2.  Перейдите в меню **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:16px"> Цепное колесо (звёздочка)...**.
+3.  Установите **Количество зубцов** и **Стандарт цепного колеса**.
+4.  нажмите **OK**.
+5.  Если тело не было выбранно: перетащите звёздочку в тело для дальнейшего операций (к примеру выдавливание).
+
+
 
 ## Свойства
 
--    **Number Of Teeth**: Number of teeth
+-    **Количество зубцов**: Количество зубцов
 
--    **Sprocket Reference**: The sprocket type. A list of sprocket definitions. <small>(v0.20)</small>  The list includes ANSI and ISO-norms as well as some bicycle and motorcycle sprocket definitions.
+-    **Стандарт цепного колеса**: Стандарт цепного колеса. Список стандартов цепных колес <small>(v0.20)</small>  Список включает стандарты ANSI и ISO наряду с велосипедными и мотоциклетными звёздочками.
 
--    **Pitch**: Distance between two teeth
+-    **Шаг цепи**: Расстояние между ближайшими зубьями
 
--    **Roller Diameter**: Diameter of the chain rollers the sprocket is designed for
+-    **Диаметр ролика цепи**: Диаметр роликов цепи для которой проектируется звёздочка
 
--    **Thickness**:The principal thickness of the sprocket. **Note:** The sprocket cannot just be padded with this thickness because the teeth have side chamfers. Therefore look at the sprocket definition to model a valid 3D sprocket. <small>(v0.20)</small> 
+-    **Толщина**:Главная толщина звездочки. **Внимание:** звездочку нельзя просто выдавить с заданной толщиной , так как зубья должны иметь скругление по бокам. Чтобы спроектировать полноценную звёздочку посмотрите стандарты. <small>(v0.20)</small> 
 
 
 

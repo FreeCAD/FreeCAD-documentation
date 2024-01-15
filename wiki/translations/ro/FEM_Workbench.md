@@ -56,13 +56,31 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ### Materiale
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-material.svg  style="width:32px;"> [FEM material for solid](FEM_MaterialSolid/ro.md): Vă permite să selectați un material din baza de date.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-material-fluid.svg  style="width:32px;"> [Material for fluid](FEM_MaterialFluid.md): Lets you select a material from the database.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-material-nonlinear.svg  style="width:32px;"> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear/ro.md): Vă permite să selectați un material din baza de date..
 
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md): Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
+
+</div>
+
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Reinforced material (concrete)](FEM_MaterialReinforced.md): Lets you select reinforced materials consisting of a matrix and a reinforcement from the database.
 
 
 <div class="mw-translate-fuzzy">
@@ -74,11 +92,29 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 ### Element Geometry 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-beam-section.svg  style="width:32px;"> [Beam cross section](FEM_ElementGeometry1D.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fem-beam-rotation.svg  style="width:32px;"> [Beam rotation](FEM_ElementRotation1D.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fem-shell-thickness.svg  style="width:32px;"> [Shell plate thickness](FEM_ElementGeometry2D.md):
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -88,17 +124,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Constrângeri Electrostatice 
-
-
-</div>
-
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
+### Electromagnetic boundary conditions 
 
 
 <div class="mw-translate-fuzzy">
@@ -108,13 +134,19 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Fluid constraints 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -124,71 +156,145 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
-
--   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md):
-
-### Geometrical Constraints 
-
--   <img alt="" src=images/Fem-constraint-planerotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ro.md): Vă permite să definiți o constrângere de rotație a planului pe o fațetă plană
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Constraint section print](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the dat file.
-
--   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
-
-
-
-### Constrângeri Mecanice 
-
--   <img alt="" src=images/Fem-constraint-fixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed/ro.md):Se utilizează pentru a defini o constrângere fixă pe punct/margine/fațetă (e)..
-
--   <img alt="" src=images/Fem-constraint-displacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
-
--   <img alt="" src=images/Fem-constraint-contact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact/ro.md): Utilizat pentru a defini contactul de constrângere între două fațete.
-
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
-
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
-
--   <img alt="" src=images/Fem-constraint-force.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ro.md): Utilizat pentru a defini o forță exprimată în \[N\] aplicată unifrom pe fațetă selectată într-o direcție definibilă.
-
--   <img alt="" src=images/Fem-constraint-pressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ro.md): Utilizat pentru a defini constrângere de presiune.
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
-
--   <img alt="" src=images/Fem-constraint-selfweight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ro.md): Utilizat pentru a defini accelerația gravitațională care acționează asupra modelului.
-
-
-
-### Constrângeri termice 
-
--   <img alt="" src=images/Fem-constraint-InitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature/ro.md): Utilizat pentru a defini temperatura inițială a corpului.
-
--   <img alt="" src=images/Fem-constraint-heatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux/ro.md): Utilizat pentru a defini fluxul de căldură constrâns pe o fațetă(e).
-
--   <img alt="" src=images/Fem-constraint-temperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature/ro.md): Utilizat pentru a defini constrângerea de temperatură pe un punct/muchie/fațetă(e).
-
--   <img alt="" src=images/Fem-constraint-heatflux.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource/ro.md):
-
-### Constraints without solver 
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Constraint fluid boundary](FEM_ConstraintFluidBoundary.md):
+-   <img alt="" src=images/Fem-constraint-flow-velocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md):
 
 
 </div>
 
--   <img alt="" src=images/Fem-constraint-bearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ro.md): Utilizat pentru a defini o constrângere de rulment.
+### Geometrical analysis features 
 
--   <img alt="" src=images/Fem-constraint-gear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ro.md): Utilizat pentru a defini o constrângere de angrenaj de roți dințate.
 
--   <img alt="" src=images/Fem-constraint-pulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ro.md): Utilizat pentru a defini o constrângere de tip fulie.
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-planerotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ro.md): Vă permite să definiți o constrângere de rotație a planului pe o fațetă plană
+
+
+</div>
+
+  - <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Section print feature](FEM_ConstraintSectionPrint.md): Used to print the predefined facial output variables (forces and moments) to the data file.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-transform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform.md):
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+### Constrângeri Mecanice 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-fixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed/ro.md):Se utilizează pentru a defini o constrângere fixă pe punct/margine/fațetă (e)..
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-displacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-contact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact/ro.md): Utilizat pentru a defini contactul de constrângere între două fațete.
+
+
+</div>
+
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Tie constraint](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
+
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-force.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ro.md): Utilizat pentru a defini o forță exprimată în \[N\] aplicată unifrom pe fațetă selectată într-o direcție definibilă.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-pressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ro.md): Utilizat pentru a defini constrângere de presiune.
+
+
+</div>
+
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Centrifugal load](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-selfweight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ro.md): Utilizat pentru a defini accelerația gravitațională care acționează asupra modelului.
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+### Constrângeri termice 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-InitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature/ro.md): Utilizat pentru a defini temperatura inițială a corpului.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-heatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux/ro.md): Utilizat pentru a defini fluxul de căldură constrâns pe o fațetă(e).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-temperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature/ro.md): Utilizat pentru a defini constrângerea de temperatură pe un punct/muchie/fațetă(e).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-heatflux.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource/ro.md):
+
+
+</div>
 
 ### Overwrite Constants 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
+  - <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
 
 
 
@@ -235,14 +341,6 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX.md):
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Fem-elmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md):
 
 
@@ -258,7 +356,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Mechanical equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -270,7 +368,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Electromagnetic equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -402,21 +500,15 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 </div>
 
+### Filter functions 
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
--   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
 
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
 
-</div>
-
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
-
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
 
 
 
@@ -448,6 +540,30 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo/ro.md): Displays basic statistics of existing mesh - number of nodes and elements of each type.
 
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-constraint-fluid-boundary.svg  style="width:32px;"> [Constraint fluid boundary](FEM_ConstraintFluidBoundary.md):
+
+
+</div>
+
+-   <img alt="" src=images/Fem-constraint-bearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ro.md): Utilizat pentru a defini o constrângere de rulment.
+
+-   <img alt="" src=images/Fem-constraint-gear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ro.md): Utilizat pentru a defini o constrângere de angrenaj de roți dințate.
+
+-   <img alt="" src=images/Fem-constraint-pulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ro.md): Utilizat pentru a defini o constrângere de tip fulie.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Fem-solver.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX.md):
+
+
+</div>
+
 
 
 ## Preferințe
@@ -464,7 +580,15 @@ The following pages explain different topics of the FEM Workbench.
 
 [FEM Install](FEM_Install.md): a detailed description on how to set up the external programs used in the workbench.
 
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): tips regarding geometry preparation for FEM and meshing.
+
+
+<div class="mw-translate-fuzzy">
+
 [FEM Mesh](FEM_Mesh.md) pentru informații suplimentere privind AEF asupra Plaselor în Modulul MEF din FreeCAD
+
+
+</div>
 
 [ FEM Solver](FEM_Solver.md) for further Informations about FEM Solvers in FEM Module,
 

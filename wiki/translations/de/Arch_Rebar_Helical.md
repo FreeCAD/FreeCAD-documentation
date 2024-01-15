@@ -1,16 +1,14 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_Helical   Name/de: Arch Bewehrungsstab spiralförmig
-   MenuLocation: Arch , Rebar tools , Spiralförmige Bewehrung oder 3D/BIM , Verstärkung , Spiralförmige Bewehrung 
+   Name: Arch_Rebar_Helical
+   Name/de: Arch Armierung Wendelbewehrung
+   MenuLocation: Arch , Rebar tools , Wendelbewehrung<br>3D/BIM , Bewehrungswerkzeuge , Wendelbewehrung 
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_Stirrup/de,Arch_Rebar_ColumnReinforcement/de
 ---
 
 # Arch Rebar Helical/de
-
-
-</div>
 
 
 
@@ -32,29 +30,29 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 ## Anwendung
 
+1.  Eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Dann **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Wendelbewehrung](Arch_Rebar_Helical/de.md)** aus den Bewehrungswerkzeugen auswählen.
 
-1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
-2.  Wähle dann **<img src="images/Arch_Rebar_Helical.svg" width=16px> [Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)** aus den Bewehrungsstab-Werkzeugen.
-3.  Ein [Aufgaben-Paneel](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt wie im folgenden Bild dargestellt.
-4.  Wähle die gewünschte Ausrichtung.
-5.  Fülle die Werte wie \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Anchor length\' (Ankerlänge), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes.
-6.  Wähle den Verteilungsmodus, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
+3.  Ein [Aufgaben-Bereich](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt wie im folgenden Bild dargestellt.
+
+4.  Die gewünschte Ausrichtung auswählen.
+
+5.  Die Werte für \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Anchor length\' (Ankerlänge), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes eingeben.
+
+6.  Die Art der Verteilung auswählen, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
+
 7.  Falls \'Spacing\' gewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) gewählt werden.
-8.  Wähle **Pick selected face** zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
-9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
-10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
+8.  
+    **Pick selected face**wird verwendet, um die Fläche für die Verteilung der Bewehrungsstäbe zu bestätigen oder zu ändern.
 
-</div>
+9.  Schaltfläche **OK** oder **Anwenden** drücken, um die Bewehrungsstäbe zu erstellen.
 
+10. Schaltfläche **Abbrechen** drücken, um den Aufgaben-Bereich zu verlassen.
 
-:   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
-
-
-
-*Aufgaben-Ansicht für das Arch Bewehrungsstab spiralförmig-Werkzeug*
+<img alt="" src=images/HelicalRebarDialog.png  style="width:250px;"> 
+*Aufgaben-Bereich für das Werkzeug Arch Armierung Wendelbewehrung*
 
 
 
@@ -72,31 +70,14 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Scripting
+## Skripten
 
 
 **Siehe auch:**
 
-[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
+[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Das Spiralförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
+Das Werkzeug Armierung Wendelbewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python
@@ -149,22 +130,6 @@ import HelicalRebar
 
 HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)
-|[Bewehrung Rundsäulenverstärkung](Arch_Rebar_Circular_ColumnReinforcement/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-|IconL=Arch_Rebar_Stirrup.svg
-|IconR=Arch_Rebar_ColumnReinforcement.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
 
 
 

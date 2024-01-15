@@ -1,4 +1,7 @@
 # Macro screw maker1 2/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro_screw_maker1_2
 |Translate=Macro screw maker1 2
@@ -10,12 +13,31 @@
 |Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
-Toto makro vytváří šroub s nebo bez závitu podle ISO standardů. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+Toto makro vytváří šroub s nebo bez závitu podle ISO standardů.
+
+
+</div>
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
 
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
 *Screw maker*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Použití
 
@@ -25,14 +47,25 @@ Jestliže vyberete otvor nebo vnitřní povrch kruhové díry a zároveň kružn
 
 <center>
 
-<File:Macro_screw_maker_02.png%7COkno> **tvorby šroubu** a několik typů šroubů. [File:Macro_screw_maker_03.png\|Šroub](File:Macro_screw_maker_03.png%7CŠroub) se závitem
+<File:Macro_screw_maker_02.png%7COkno> **tvorby šroubu** a několik typů šroubů. <File:Macro_screw_maker_03.png%7CŠroub> se závitem
 
 
 </center>
 
 Vytvoření podprocesu trvá dlouhou dobu. Buďte trpěliví a podívejte se na využití CPU. Nejnovější verze nástroje Screw Maker je 1.7. Wiki neumožňuje nahrát soubor zip a kopírování textu z této stránky není vhodné. Takže zde je odkaz na příspěvek ve fóru s nejnovější verzí: <http://forum.freecadweb.org/viewtopic.php?f=22&t=6558#p52887>
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skript
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -4983,6 +5016,8 @@ if __name__ == '__main__':
   main()
 
 }}
+
+
 
 ## Odkaz
 

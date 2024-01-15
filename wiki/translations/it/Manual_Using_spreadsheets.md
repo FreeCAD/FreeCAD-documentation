@@ -1,5 +1,5 @@
 # Manual:Using spreadsheets/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 FreeCAD dispone di un altro ambiente di lavoro interessante da esplorare: l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md). Questo ambiente permette di creare direttamente in FreeCAD un [foglio di calcolo](https://en.wikipedia.org/wiki/Spreadsheet) come quelli fatti con [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) o con [Calc di LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc). Questi fogli di calcolo possono essere popolati con dei dati estratti dal modello, e possono anche eseguire una serie di calcoli tra i valori. I fogli di calcolo possono essere esportati come file CSV, che possono essere importati in qualsiasi altra applicazione che gestisca i foglio di calcolo.
 

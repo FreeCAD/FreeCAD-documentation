@@ -3,17 +3,25 @@
 
 После установки FreeCAD на вашей операционной системе ([Windows](Installing_on_Windows/ru.md), [Linux](Installing_on_Linux/ru.md) или [Mac](Installing_on_Mac/ru.md)), вы можете рассмотреть возможность установки одного или нескольких из следующих дополнительных компонентов.
 
+
+
 # Файлы помощи 
 
 Смотри [Установка файла справки](Installing_Helpfile/ru.md).
+
+
 
 # Внешние верстаки 
 
 Кроме стандартных [верстаков](workbenches/ru.md), привязанных к FreeCAD, есть большая коллекция полезных [сторонних верстаков](External_workbenches.md), созданных членами сообщества.
 
+
+
 # Стороннее программное обеспечение 
 
 FreeCAD поддерживает некоторые сторонние программные пакеты из коробки. Зачастую вам нужно лишь установить программное обеспечение, и при следующем запуске оно будет автоматически найдено и его можно использовать. В данном разделе представлен список всех таких пакетов ПО, а также некоторой информации о том, где он используется во FreeCAD и где его загрузить.
+
+
 
 ## Поддержка
 
@@ -33,6 +41,8 @@ FreeCAD поддерживает некоторые сторонние прог�
 
 [OpenSCAD](https://www.openscad.org) - средство моделирования объёмных твёрдых тел. [Верстак OpenSCAD](OpenSCAD_Workbench/ru.md) зависит от этого программного обеспечения, а [верстак Mesh](Mesh_Workbench/ru.md) использует его для своих булевых операций. Он так же необходим для импорта файлов SCAD с помощью инструмента [Std Import](Std_Import/ru.md).
 
+
+
 ## Форматы файлов 
 
 Все программное обеспечение в этом разделе используется инструментами [Импорт](Std_Import/ru.md) или [Экспорт](Std_Export/ru.md).
@@ -40,6 +50,8 @@ FreeCAD поддерживает некоторые сторонние прог�
 ### CADExchanger
 
 [CADExchanger](https://cadexchanger.com) это комерческое приложение с закрытым исходным кодом для обмена файлами различных форматов файлов САПР. Для использования этого приложения в FreeCAD имеется [внешний верстак](https://github.com/yorikvanhavre/CADExchanger).
+
+
 
 ### Импортёр DXF 
 
@@ -67,6 +79,8 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 [Pycollada](https://github.com/pycollada/pycollada/releases), также известная как `python-collada`, представляет собой библиотеку Python для чтения и записи документов COLLADA (DAE). Pycollada включён в установщики FreeCAD для Windows и Mac.
 
+
+
 ## Визуализация
 
 ### LuxCoreRender
@@ -77,19 +91,31 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 [LuxRender](https://luxcorerender.org/history/) is one of the two render engines supported by the [Raytracing Workbench](Raytracing_Workbench.md). In 2013 the project has been rebooted becoming [LuxCoreRender](LuxCoreRender.md), with a major code rewriting and compatibility breaking changes. Officially the Raytracing Workbench only supports the abandoned [LuxRender](LuxRender.md) (latest version is 1.6, 2017-12-28), while the new [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) (intended as a future replacement of the Raytracing Workbench) supports instead LuxCoreRender and has dropped the support for LuxRender. Anyway, even if officially not supported, [LuxCoreRender](LuxCoreRender.md) may work with the Raytracing Workbench, it might be worth to give it a try. See the [LuxRender](LuxRender.md) page for more information and installation instructions, and the [LuxCoreRender](LuxCoreRender.md) if you want to try a more modern software.
 
+
+
 ### POVRay
 
 [POV-Ray](https://www.povray.org) - это известный трассировщик лучей, который может создавать фотореалистичные изображения. Это один из двух механизмов рендеринга, которые в настоящее время поддерживаются [верстаком Raytracing](Raytracing_Workbench/ru.md). Дополнительную информацию и инструкцию по установке смотрите на странице [POV-Ray](POV-Ray/ru.md).
+
+
 
 ## Конечные элементы 
 
 ### CalculiX
 
+
+<div class="mw-translate-fuzzy">
+
 [CalculiX](http://calculix.de) представляет собой набор из двух пакетов конечных элементов: CalculiX CrunchiX, вычислитель МКЭ, и CalculiX GraphiX, графический интерфейс. В FreeCAD поддерживается лишь вычислитель. Он используется инструментом [Solver CalculiX](FEM_SolverCalculiX/ru.md).
+
+
+</div>
 
 ### Gmsh
 
 [Gmsh](http://gmsh.info) это автоматический генератор сеток для метода конечных элементов. Он используется инструментами [FEM MeshGmshFromShape](FEM_MeshGmshFromShape/ru.md) и [Mesh FromPartShape](Mesh_FromPartShape/ru.md).
+
+
 
 ### Элмер
 
@@ -106,6 +132,8 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) это большая коллекция библиотек для вычислительной гидродинамики (computational fluid dynamics, CFD). OpenFOAM используется [внешними верстаками](external_workbenches/ru.md) [Cfd](Cfd_Workbench/ru.md) и [CfdOF](https://github.com/jaheyns/CfdOF).
+
+
 
 # Связанные страницы 
 

@@ -1,40 +1,53 @@
 ---
  GuiCommand:
    Name: Curves ZebraTool
+   Name/pl: Krzywe: Narzędzie zebra
    MenuLocation: Surfaces , Zebra Tool
-   Workbenches: Curves_Workbench
+   Workbenches: Curves_Workbench/pl
 ---
 
 # Curves ZebraTool/pl
 
-## Description
 
-The <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Curves ZebraTool](Curves_ZebraTool.md) creates a Zebra texture for surface inspection. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  Select the surface to be tested
-3.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Zebra texture for surface inspection](Curves_ZebraTool.md) button in the tool bar.
-    -   Use the **Surfaces → Zebra Tool**
-4.  Change the Zebra Tool parameter to the required conditions
+Narzędzie <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> **Narzędzie zebra** tworzy obiekt wyciągnięcia po ścieżce powłoki rury. To narzędzie jest częścią [środowisk zewnętrznych](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
-## Properties
 
--    **Black Stripes Width**: Change the black stripes width.
 
--    **Scale**: Scale the Zebra stripes.
+## Użycie
 
--    **Rotation**: Rotate the Zebra stripes.
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Wybierz powierzchnię do przetestowania
+3.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk na pasku narzędzi <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> **ZebraTool**.
+    -   Użyj **Surfaces → Zebra Tool**.
+4.  Zmień parametr Zebra Tool na wymagane wartości.
 
-## Notes
 
--   Click on the **Quit** button to exit the Zebra Tool.
 
-## Limitations
+## Właściwości
 
-## Scripting
+-    **Szerokość czarnych pasków**: Zmiana szerokości czarnych pasków.
+
+-    **Skala**: Skalowanie pasków zebry.
+
+-    **Obrót**: Obrót pasków zebry.
+
+
+
+## Uwagi
+
+-   Kliknij przycisk **Wyjdź**, aby wyjść z narzędzia Zebra Tool.
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów 
 
 
 

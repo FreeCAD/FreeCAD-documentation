@@ -1,16 +1,14 @@
 ---
  GuiCommand:
    Name: Draft LayerManager
-   MenuLocation: Utilities , Manage layers...
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/de: Draft LayerManager
+   MenuLocation: Dienstprogramme , Ebenen verwalten...
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.21
-   SeeAlso: BIM_Workbench, Draft_Layer
+   SeeAlso: BIM_Workbench/de, Draft_Layer/de
 ---
 
 # Draft LayerManager/de
-
-
-</div>
 
 
 
@@ -24,15 +22,9 @@ The layers manager allows you to manage [layers](Draft_Layer.md). Layers are a s
 
 </div>
 
-<img alt="" src=images/BIM_layers_screenshot.png  style="width:800px;">
+<img alt="" src=images/BIM_layers_screenshot.png  style="width:400px;">
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Layers are imported and exported from/to [IFC](Arch_IFC.md) and [DXF/DWG](Draft_DXF.md).
-
-
-</div>
+Layer werden von/nach [IFC](Arch_IFC/de.md) und [DXF/DWG](Draft_DXF/de.md) importiert und exportiert.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -46,22 +38,7 @@ The layers manager allows you to manage your layers, add or remove layers, or ch
 
 ## Anwendung
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-TBD
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-
-
-
-</div>
+in Arbeit\...
 
 
 

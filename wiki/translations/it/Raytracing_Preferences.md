@@ -15,4 +15,4 @@ C\'è solo una scheda: Raytracing.
 
 
 ---
-⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/it
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Raytracing Preferences/it

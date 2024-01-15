@@ -2,16 +2,13 @@
  GuiCommand:
    Name: TechDraw WeldSymbol
    Name/fr: TechDraw Soudure
-   MenuLocation: TechDraw , Ajouter les informations de soudage...
+   MenuLocation: TechDraw , Symboles , Ajouter les informations de soudage à la ligne de référence
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_LeaderLine/fr
 ---
 
 # TechDraw WeldSymbol/fr
-
-
-</div>
 
 ## Description
 
@@ -24,22 +21,19 @@ L\'outil **TechDraw Soudure** ajoute les spécifications de soudage à une ligne
 
 ## Utilisation
 
+1.  Sélectionnez une [ligne de référence](TechDraw_LeaderLine/fr.md) existante.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyer sur le bouton **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Ajouter les informations de soudage à la ligne de référence](TechDraw_WeldSymbol/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Symboles → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Ajouter les informations de soudage à la ligne de référence** du menu.
+3.  Un panneau de tâches s\'ouvre.
+4.  Spécifiez les symboles de soudage et le texte d\'accompagnement à ajouter à la ligne de référence.
+5.  Appuyez sur le bouton **OK**.
 
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une [Ligne de référence](TechDraw_LeaderLine/fr.md) existante.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_WeldSymbol.svg" width=16px> [Ajouter les informations de soudage...](TechDraw_WeldSymbol/fr.md)**.
-3.  Une boîte de dialogue s\'ouvre. Il permet de définir des symboles de soudage individuels et le texte d\'accompagnement à ajouter à la ligne de rappel.
-4.  Appuyez sur le bouton OK pour quitter la boîte de dialogue et enregistrer les modifications.
-5.  Une fois le symbole de soudage créé, vous pouvez le modifier en double-cliquant sur le symbole de soudure dans la vue en arborescence.
 
 
-</div>
+## Remarques
 
-## Notes
-
--   After creation a welding symbol can be edited by double clicking it in the [Tree view](Tree_view.md).
--   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
+-   Après sa création, un symbole de soudage peut être édité en double-cliquant dessus dans la [vue en arborescence](Tree_view/fr.md)\* Il y a un [paramètre de préférence](TechDraw_Preferences/fr.md) pour le répertoire par défaut des symboles de soudage. Vous pouvez ajouter vos propres symboles dans un répertoire personnel.
 
 
 

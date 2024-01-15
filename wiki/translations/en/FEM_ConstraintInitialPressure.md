@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM ConstraintInitialPressure
-   MenuLocation: Model , Fluid Constraints , Constraint initial pressure
+   MenuLocation: Model , Fluid boundary conditions , Initial pressure condition
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity
@@ -11,11 +11,11 @@
 
 ## Description
 
-Creates an initial pressure constraint for a fluid flow analysis.
+Creates an initial pressure condition for a fluid flow analysis.
 
 ## Usage
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> '''FEM ConstraintInitialPressure'''** or select the menu **Model →  <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Fluid Constraints → Constraint initial pressure**.
+1.  Press the **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> [Initial pressure condition](FEM_ConstraintInitialPressure.md)** button or select the menu **Model → Fluid boundary conditions → <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Initial pressure condition**.
 2.  Enter an initial pressure value.
 3.  For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
 

@@ -56,7 +56,13 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Los atajos de teclado de un solo carácter disponibles en el panel de tareas se pueden cambiar. Ver [Preferencias de Borrador](Draft_Preferences/rs.md). Los atajos mencionados aquí son los atajos por defecto.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -83,15 +89,6 @@ Los atajos de teclado de un solo carácter disponibles en el panel de tareas se 
 
 -   Un Borrador de Curva de Bézier puede ser editado con el comando [Borrador Edición](Draft_Edit/es.md).
 -   OpenCascade, y por tanto FreeCAD, no soporta curvas Bézier de grados superiores a 25. Esto no debería ser un problema en la práctica, ya que la mayoría de los usuarios suelen utilizar curvas Bézier de grados 3 a 5.
-
-
-
-## Preferencias
-
-Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
-
--   Para cambiar el número de decimales utilizados para la entrada de coordenadas: **Edición → Preferencias... → General → Unidades → Configuración de unidades → Número de decimales**.
--   Para cambiar el valor inicial del modo relleno: **Edición → Preferencias... → Borrador → Ajustes generales → Borrador Opciones de las herramientas → Rellenar objetos con caras siempre que sea posible**. Cambiar el modo de relleno en un panel de tareas anulará esta preferencia para la sesión actual de FreeCAD.
 
 
 

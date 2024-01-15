@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Fasteners MatchTypeOuter
-   Name/fr: Fasteners MatchTypeOuter
-   MenuLocation: Fasteners , Match for pass hole
+   Name/fr: Fasteners Adapter pour le trou de passage
+   MenuLocation: Fasteners , Adapter pour le trou de passage
    Workbenches: Fasteners_Workbench/fr
    SeeAlso: Fasteners_MatchTypeInner/fr
 ---
@@ -11,13 +11,15 @@
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Fasteners MatchTypeOuter** se comporte comme une bascule avec la commande [Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md). Lorsque **Fasteners MatchTypeOuter** est sélectionné, les bords circulaires sont considérés comme des trous de passage lorsque de nouvelles fixations y sont fixées. Cela détermine les dimensions par défaut de ces fixations. Ce paramètre n\'est pas utilisé pour les vis à tête fraisée.
+La commande <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Fasteners Adapter pour le trou de passage** se comporte comme une bascule avec la commande [Fasteners Adapter pour le trou taraudé](Fasteners_MatchTypeInner/fr.md). Lorsque **Fasteners Adapter pour le trou de passage** est sélectionné, les bords circulaires sont considérés comme des trous de passage lorsque de nouvelles fixations y sont fixées. Cela détermine les dimensions par défaut de ces fixations. Ce paramètre n\'est pas utilisé pour les vis à tête fraisée.
+
+
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Match for pass hole](Fasteners_MatchTypeOuter.md)**.
-    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match for pass hole** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Adapter pour le trou de passage](Fasteners_MatchTypeOuter/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Adapter pour le trou de passage** du menu.
 2.  Le bouton reste enfoncé pour indiquer l\'option sélectionnée.
 
 

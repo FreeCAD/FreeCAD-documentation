@@ -1,108 +1,102 @@
-# Part Torus/it
 ---
- GuiCommand:   Name: Part Torus   Name/it: Toro   MenuLocation: Parte , Primitive , Toro   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:
+   Name: Part Torus
+   Name/it: Part Toro
+   MenuLocation: Parte , Primitive , Toro
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Primitives/it
+---
+
+# Part Torus/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Crea un semplice toro parametrico, con i parametri position, angle1, angle2, angle3, radius1 e radius2.
+Il comando <img alt="" src=images/Part_Torus.svg  style="width:24px;"> **Part Toro** crea un solido toroide parametrico, a forma di ciambella. È il risultato dello spostamento di un profilo circolare attorno a un percorso circolare. Nel sistema di coordinate definito dalla sua proprietà **Placement**, il percorso circolare del toro giace sul piano XY con il centro nell\'origine.
 
-
-</div>
-
-A Part Torus can be turned into a segment of a torus by changing its **Angle3** property. By changing its **Angle1** and/or **Angle2** properties the swept profile can become a segment of a circle.
+Una Part Toro può essere trasformata in un segmento di un toro modificando la sua proprietà **Angle3**. Modificando le sue proprietà **Angle1** e/o **Angle2** il profilo di creazione può diventare un segmento di un cerchio.
 
 <img alt="" src=images/Part_Torus_Example.png  style="width:400px;">
 
 
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Attivare l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md).
-2.  Richiamare il comando Toro in uno di questi modi:
-    -   Premere il pulsante <img alt="" src=images/Part_Torus.svg  style="width:24px;">.
-    -   Usare **Part → Toro** dal menu principale.
-
-
-</div>
-
-## Example
-
-![Part Torus from the scripting example](images/Part_Torus_Scripting_Example.png )
-
-A Part Torus object created with the [scripting example](#Scripting.md) below is shown here.
-
-## Notes
-
--   A Part Torus can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Torus.svg" width=16px> [Toro](Part_Torus/it.md)**.
+    -   Selezionare l\'opzione **Parte → Primitive → <img src="images/Part_Torus.svg" width=16px> Toro** dal menu.
+2.  Viene creato il toro.
+3.  Facoltativamente, modificare le dimensioni e il **Placement** del toro effettuando una delle seguenti operazioni:
+    -   Fare doppio clic sull\'oggetto nella [Vista ad albero](Tree_view/it.md):
+        1.  Si apre il pannello delle attività **Primitive geometriche**.
+        2.  Modificare una o più proprietà.
+        3.  L\'oggetto viene aggiornato dinamicamente nella [vista 3D](3D_view/it.md).
+        4.  Premere il pulsante **OK**.
+    -   Modificare le proprietà nell\'[Editor delle proprietà](Property_editor.md).
+    -   Modificare il **Placement** con il comando <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Trasforma](Std_TransformManip/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-![](images/TorusExampleRadius1.jpg ) Il parametro Raggio1 ha il valore di 20 mm.
+## Esempio
+
+![Part Toro dall\'esempio di scripting](images/Part_Torus_Scripting_Example.png )
+
+Qui viene mostrato un oggetto Part Toro creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
 
 
-</div>
 
-See also: [Property editor](Property_editor.md).
+## Note
 
-A Part Torus object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+-   È possibile creare un Part Toro anche con il comando <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitive](Part_Primitives/it.md). Con questo comando si può specificare le dimensioni e il posizionamento al momento della creazione.
 
-### Data
+
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Toro deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Torus}}
 
+-    **Radius1|Length**: il raggio del percorso circolare del toro. Il valore predefinito è {{Value|10mm}}.
 
-<div class="mw-translate-fuzzy">
+-    **Radius2|Length**: il raggio del profilo circolare del toro. Il valore predefinito è {{Value|2mm}}.
 
--    {{Parameter|Raggio1:}}Raggio del cerchio attorno al quale circola il disco. Distanza tra l\'asse di rotazione, centro del toro, e il centro del disco.
+-    **Angle1|Angle**: l\'angolo iniziale del profilo circolare. Intervallo valido: {{Value|-180° &lt;&#61; valore &lt;&#61; 180°}}. Il valore predefinito è {{Value|-180°}}.
 
--    {{Parameter|Raggio2:}}Raggio del disco che definisce la forma del toro
+-    **Angle2|Angle**: l\'angolo finale del profilo circolare. Intervallo valido: {{Value|-180° &lt;&#61; valore &lt;&#61; 180°}}. Il valore predefinito è {{Value|180°}}. Se l\'angolo totale del profilo circolare è inferiore a {{Value|360°}} il profilo avrà una forma a torta.
 
--    {{Parameter|Angolo1:}}1° Angolo di taglio per definire il disco del toro
-
--    {{Parameter|Angolo2:}}2° Angolo di taglio per definire il disco del toro
-
--    {{Parameter|Angolo3:}}3° Angolo per definire la circonferenza del toro. Ampiezza della rotazione
+-    **Angle3|Angle**: l\'angolo del percorso circolare del toro. Intervallo valido: {{Value|0° &lt; valore &lt;&#61; 360°}}. Il valore predefinito è {{Value|360°}}. Se è inferiore a {{Value|360°}} il solido risultante sarà un segmento di un toro.
 
 
-</div>
 
-## Scripting
+## Script
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-A Part Torus can be created with the {{Incode|addObject()}} method of the document:
+È possibile creare una Part Toro con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 ```
 
--   Where {{Incode|"myTorus"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myTorus"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

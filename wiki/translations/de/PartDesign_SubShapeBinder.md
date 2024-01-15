@@ -83,6 +83,8 @@ Die Hauptunterschiede sind:
 -   ein PartDesign-Teilformbinder ermittelt immer die relative Positionierung der referenzierten Geometrie. Dieses Verhalten ist für den PartDesign-Formbinder optional und kann über seine {{PropertyData/de|Trace Support}} aktiviert werden.
 -   Nur PartDesign-Teilformbinder unterstützen 2D-Versatz (parallele Konturen).
 
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+
 
 
 ## Eigenschaften

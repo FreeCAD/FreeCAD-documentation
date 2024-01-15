@@ -1,7 +1,7 @@
 # Tutorials/zh-tw
 <div class="mw-translate-fuzzy">
 
-本頁面提供了一系列高質量的書面教學。 完整的，未排序的教學課程可以在[目錄：Tutorial中找到](:Category_Tutorials.md)，而經過排序整理的教學課程，請見下方表格[綜合清單](Tutorials#Tutorials_-_Comprehensive_list.md)。
+本頁面提供了一系列高質量的書面教學。 完整的，未排序的教學課程可以在[目錄：Tutorial](:Category_Tutorials.md)中找到，而經過排序整理的教學課程，請見下方表格[綜合清單](Tutorials#Tutorials_-_Comprehensive_list.md)。
 
 
 </div>
@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-如果您想為編寫Wiki文檔和教學課程做出貢獻，請閱讀[WikiPages中的一般Wiki指南](WikiPages.md)，以及[教學指引](tutorial_guidelines.md)。
+如果您想為編寫Wiki文檔和教學課程做出貢獻，請閱讀[WikiPages](WikiPages.md)中的一般Wiki指南，以及[教學指引](tutorial_guidelines.md)。
 
 
 </div>
@@ -172,7 +172,7 @@ These are tutorials that are related to scripting or programming. They are geare
 
 ## 教學-綜合清單 
 
-這裡列出所有不在手冊中的教學課程(不論品質如何)。如果有教學在[:Category:Tutorials中有](:Category_Tutorials.md)，但在此表格中找不到，請將其加入此表格。
+這裡列出所有不在手冊中的教學課程(不論品質如何)。如果有教學在[:Category:Tutorials](:Category_Tutorials.md)中有，但在此表格中找不到，請將其加入此表格。
 
 
 </div>
@@ -231,8 +231,6 @@ These are tutorials that are related to scripting or programming. They are geare
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++
 | [Engine Block Tutorial](Engine_Block_Tutorial.md)                                                                  | Part Workbench          | Beginner              | 1:00                   | Andrewbuck40                                                                                   | 0.14.3700           |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

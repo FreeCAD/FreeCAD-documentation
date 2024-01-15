@@ -28,7 +28,7 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 1.  It is advisable to enable the [Report view](Report_view.md). The command will display detailed information there.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_EvaluateFacet.svg" width=16px> [Mesh EvaluateFacet](Mesh_EvaluateFacet.md)** button.
+    -   Press the **<img src="images/Mesh_EvaluateFacet.svg" width=16px> [Face info](Mesh_EvaluateFacet.md)** button.
     -   Select the **Meshes → Analyze → <img src="images/Mesh_EvaluateFacet.svg" width=16px> Face info** option from the menu.
 3.  The cursor changes to a pipette icon.
 4.  Select a face of a mesh object.

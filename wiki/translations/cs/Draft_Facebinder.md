@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -19,6 +21,8 @@ It can be used to create an extrusion from a collection of faces. This extrusion
 
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Facebinder created from the faces of walls*
+
+
 
 ## Použití
 

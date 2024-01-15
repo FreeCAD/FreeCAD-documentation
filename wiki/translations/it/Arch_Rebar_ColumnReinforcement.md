@@ -1,17 +1,14 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_ColumnReinforcement
+   Name: Arch Rebar ColumnReinforcement
    Name/it: Armatura di pilastro
-   MenuLocation: Arch , Strumenti armatura , Armatura di colonna o BIM , 3D/BIM , Reinforcement , Column Reinforcement
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_Helical/it, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it
+   MenuLocation: Arch , Strumenti armatura , Armatura pilastro<br>3BIM , 3D/BIM , Reinforcement , Armatura pilastro
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.19
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_Helical/it, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it
 ---
 
 # Arch Rebar ColumnReinforcement/it
-
-
-</div>
 
 
 
@@ -19,15 +16,9 @@
 
 Lo strumento [Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Pilastro.
 
-The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
-
-
-<div class="mw-translate-fuzzy">
+Lo strumento [Armatura di pilastro](Arch_Rebar_ColumnReinforcement/it.md) è integrato anche nell\'[Ambiente BIM](BIM_Workbench/it.md).
 
 Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
 *Armatura di pilastro all'interno di un [Struttura](Arch_Structure/it.md) pilastro*
@@ -146,13 +137,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Armatura di pilastro può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 
@@ -185,34 +170,34 @@ RebarGroup = makeSingleTieFourRebars(
 
 ```
 
--   Creates a `RebarGroup` object from the given `structure`, which is an [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
-    -   If no `structure` nor `facename` are given, it will take the user selected face as input.
+-   Crea un oggetto `RebarGroup` dalla `structure` specificata, che è una [Struttura](Arch_Structure/it.md), e dalla `facename`, che è una faccia di quella struttura.
+    -   Se non vengono forniti `structure` né `facename`, verrà utilizzata la faccia selezionata dall\'utente come input.
 
--    `l_cover_of_tie`, `r_cover_of_tie`, `t_cover_of_tie`, `b_cover_of_tie` and `offset_of_tie` are inner offset distances for the tie elements with respect to the faces of the structure. They are respectively the left, right, top, bottom and front/rear offsets.
+-    `l_cover_of_tie`, `r_cover_of_tie`, `t_cover_of_tie`, `b_cover_of_tie` e `offset_of_tie` sono le distanze di offset interne degli elementi di trazione rispetto alle facce della struttura. Sono rispettivamente gli offset sinistro, destro, superiore, inferiore e anteriore/posteriore.
 
--    `bent_angle`define the angle of the tip of the reinforcement loop.
+-    `bent_angle`definisce l\'angolo della punta del gancio di rinforzo.
 
--    `extension_factor`define the length of the tip of the reinforcement loop, expressed in times the diameter.
+-    `extension_factor`definisce la lunghezza della punta dell\'anello di rinforzo, espressa in numero di volte il diametro.
 
--    `dia_of_tie`is the diameter of the ties.
+-    `dia_of_tie`è il diametro delle legature.
 
--    `number_spacing_check`if it is `True` it will create as many ties as given by `number_spacing_value`; if it is `False` it will create ties separated by the numerical value of `number_spacing_value`.
+-   se `number_spacing_check` è `True` creerà tante legature quante sono indicate da `number_spacing_value`; se è `False` creerà un numero di legature diverso dal valore numerico di `number_spacing_value`.
 
--    `number_spacing_value`specifies the number of ties, or the value of the separation between them, depending on `number_spacing_check`.
+-    `number_spacing_value`specifica il numero di legature di un dato valore, o il valore della distanza tra loro, a seconda di `number_spacing_check`.
 
--    `dia_of_rebars`is the diameter of the main rebars.
+-    `dia_of_rebars`è il diametro delle armature principali.
 
--    `t_offset_of_rebars`and `b_offset_of_rebars` are inner offset distances for the main rebars with respect to the top and bottom faces of the structure, respectively.
+-    `t_offset_of_rebars`e `b_offset_of_rebars` sono le distanze di offset interne per le armature principali rispetto alle facce superiore e inferiore della struttura, rispettivamente.
 
--    `rebar_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
+-    `rebar_type`è il tipo delle armature principali; può essere `"StraightRebar"` o `"LShapeRebar"`.
 
--    `hook_orientation`specifies the orientation of LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `hook_orientation`specifica l\'orientamento del gancio a forma di L; può essere: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, {{ incode\|\"Top Right\"}}, `"Top Left"`, `"Bottom Right"` o `"Bottom Left"`.
 
--    `hook_extend_along`specifies direction for hook extension; it can be `"x-axis"` or `"y-axis"`.
+-    `hook_extend_along`specifica la direzione per l\'estensione del gancio; può essere `"asse x"` o `"asse y"`.
 
--    `l_rebar_rounding`is the parameter that determines the bending radius of the LShaped main rebars, expressed as times the diameter.
+-    `l_rebar_rounding`è il parametro che determina il raggio di curvatura delle armature principali a forma di L, espresso come multipli del diametro.
 
--    `hook_extension`is the length of hook of LShaped rebars.
+-    `hook_extension`è la lunghezza del gancio delle armature a forma di L.
 
 
 
@@ -346,46 +331,46 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 ```
 
--   Creates a `RebarGroup` object from the given `structure`, which is an [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
-    -   If no `structure` nor `facename` are given, it will take the user selected face as input.
+-   Crea un oggetto `RebarGroup` dalla `structure` specificata, che è una [Struttura](Arch_Structure/it.md), e dalla `facename`, che è una faccia di quella struttura.
+    -   Se non vengono forniti `structure` né `facename`, verrà utilizzata la faccia selezionata dall\'utente come input.
 
--    `l_cover_of_tie`, `r_cover_of_tie`, `t_cover_of_tie`, `b_cover_of_tie` and `offset_of_tie` are inner offset distances for the tie elements with respect to the faces of the structure. They are respectively the left, right, top, bottom and front/rear offsets.
+-    `l_cover_of_tie`, `r_cover_of_tie`, `t_cover_of_tie`, `b_cover_of_tie` e `offset_of_tie` sono le distanze di offset interne degli elementi di tiraggio rispetto alle facce della struttura. Sono rispettivamente gli offset sinistro, destro, superiore, inferiore e anteriore/posteriore.
 
--    `bent_angle`define the angle of the tip of the reinforcement loop.
+-    `bent_angle`definisce l\'angolo della punta del gancio di rinforzo.
 
--    `extension_factor`define the length of the tip of the reinforcement loop, expressed in times the diameter.
+-    `extension_factor`definisce la lunghezza della punta dell\'anello di rinforzo, espressa in numero di volte il diametro.
 
--    `dia_of_tie`is the diameter of the ties.
+-    `dia_of_tie`è il diametro delle legature.
 
--    `number_spacing_check`if it is `True` it will create as many ties as given by `number_spacing_value`; if it is `False` it will create ties separated by the numerical value of `number_spacing_value`.
+-   Se `number_spacing_check` è `True` creerà tante legature quante sono indicate da `number_spacing_value`; se è `False` creerà un numero di legature diverso dal valore numerico di `number_spacing_value`.
 
--    `number_spacing_value`specifies the number of ties, or the value of the separation between them, depending on `number_spacing_check`.
+-    `number_spacing_value`specifica il numero di legature di un dato valore, o il valore della distanza tra loro, a seconda di `number_spacing_check`.
 
--    `dia_of_main_rebars`is the diameter of the main rebars.
+-    `dia_of_main_rebars`è il diametro delle armature principali.
 
--    `main_rebars_t_offset`and `main_rebars_b_offset` are inner offset distances for the main rebars with respect to the top and bottom faces of the structure, respectively.
+-    `main_rebars_t_offset`e `main_rebars_b_offset` sono le distanze di offset interne per le armature principali rispetto alle facce superiore e inferiore della struttura, rispettivamente.
 
--    `main_rebars_type`is the type of the main rebars; it can be `"StraightRebar"` or `"LShapeRebar"`.
+-    `main_rebars_type`è il tipo delle armature principali; può essere `"StraightRebar"` o `"LShapeRebar"`.
 
--    `main_hook_orientation`specifies the orientation of main LShaped hook; it can be: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"`.
+-    `main_hook_orientation`specifica l\'orientamento del gancio a forma di L; può essere: `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` o `"Bottom Left"`.
 
--    `main_hook_extend_along`specifies direction for main hook extension; it can be `"x-axis"` or `"y-axis"`.
+-    `main_hook_extend_along`specifica la direzione per l\'estensione del gancio; può essere `"x-axis"` o `"y-axis"`.
 
--    `l_main_rebar_rounding`is the parameter that determines the bending radius of the LShaped main rebars, expressed as times the diameter.
+-    `l_main_rebar_rounding`è il parametro che determina il raggio di curvatura delle armature principali a forma di L, espresso come multipli del diametro.
 
--    `main_hook_extension`is the length of hook of main LShaped rebars.
+-    `main_hook_extension`è la lunghezza del gancio delle armature a forma di L.
 
--    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) and (xdir_rebars_b\_offset, ydir_rebars_b\_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
+-    `sec_rebars_t_offset`e `sec_rebars_b_offset` sono tuple (xdir_rebars_t_offset, ydir_rebars_t_offset) e (xdir_rebars_b_offset, ydir_rebars_b_offset) rispettivamente, che definiscono le distanze di offset interne per le barre secondarie in direzione x e y secondo rispettivamente le facce superiore e inferiore della struttura.
 
--    `sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
+-    `sec_rebars_number_diameter`è una tupla (xdir_rebars_number_diameter, ydir_rebars_number_diameter) che definisce l\'insieme numero#diametro delle armature secondarie nella direzione x e nella direzione y, rispettivamente.
 
--    `sec_rebars_type`is a tuple (xdir_rebars_type, ydir_rebars_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
+-    `sec_rebars_type`è una tupla (xdir_rebars_type, ydir_rebars_type) che definisce rispettivamente il tipo di armature secondarie nella direzione x e nella direzione y; può avere `"StraightRebar"` o `"LShapeRebar"` come tipo di armatura.
 
--    `sec_hook_orientation`is a tuple (xdir_hook_orientation, ydir_hook_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook_orientation.
+-    `sec_hook_orientation`è una tupla (xdir_hook_orientation, ydir_hook_orientation) che definisce l\'orientamento del gancio a forma di L della direzione x secondaria e della direzione y; può avere `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, {{incode |"Top Right"}}, `"Top Left"`, `"Bottom Right"` o `"Bottom Left"` come orientamento del gancio.
 
--    `l_sec_rebar_rounding`is a tuple (l_xdir_rebar_rounding, l_ydir_rebar_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
+-    `l_sec_rebar_rounding`è una tupla (l_xdir_rebar_rounding, l_ydir_rebar_rounding) che determina il raggio di piegatura delle barre d\'armatura secondarie a forma di L nella direzione x e nella direzione y, espresso come multiplo del diametro delle barre d\'armatura a forma di L nella direzione x e nella direzione y, rispettivamente.
 
--    `sec_hook_extension`is a tuple (xdir_hook_extension, ydir_hook_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
+-    `sec_hook_extension`è una tupla (xdir_hook_extension, ydir_hook_extension) che definisce la lunghezza del gancio delle armature secondarie a forma di L nella direzione x e nella direzione y.
 
 
 
@@ -592,15 +577,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
     facename=None,
 )
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

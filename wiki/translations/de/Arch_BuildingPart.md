@@ -35,23 +35,17 @@ Diese Ebene ist immer parallel zur GebäudeTeil Basisebene, aber du kannst den V
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Nach der Erstellung eines Gebäudeteils können weitere Objekte durch Ziehen und Ablegen in der Baumansicht hinzugefügt werden oder durch Verwenden des Werkzeugs **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)**.
 -   Objekte können, durch Ziehen und Ablegen aus der Baumansicht heraus aus einem Gebäudeteil entfernt werden oder durch Verwenden des Werkzeugs **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)**.
 -   Mit einem Doppelklick auf den Gebäudeteil (BuildingPart-Objekt) in der Baumansicht wird die [Arbeitsebene](Draft_SelectPlane/de.md) auf seine Position gesetzt, und der Gebäudeteil wird aktiviert, was bedeutet daß neue Objekte automatisch zu ihm hinzugefügt werden.
 
-Erneutes Doppelklicken auf den Gebäudeteil deaktiviert ihn und setzt die Arbeitsebene wieder auf die vorherige Position zurück (in version 0.19 muss diese Option im Eigenschafteneditor unter Ansicht - Interaction - Double Click Activates auf true gesetzt werden, damit sie zur Verfügung steht).
+Erneutes Doppelklicken auf den Gebäudeteil deaktiviert ihn und setzt die Arbeitsebene wieder auf die vorherige Position zurück (diese Option muss im Eigenschafteneditor unter Ansicht - Interaction - Double Click Activates auf true gesetzt werden, damit sie zur Verfügung steht).
 
 -   Das Gebäudeteil-Objekt kann in der 3D-Ansicht eine Markierung mit einer Benennung und einer Höhenangabe anzeigen.
 -   Wenn ein Gebäudeteil verschoben oder gedreht wird, werden alle abhängigen Objekte, die entweder die {{PropertyData/de|Move With Host}} nicht besitzen oder bei denen diese aktiviert wurde, mit ihm zusammen verschoben bzw. gedreht.
 -   Gebäudeteile können [Draft Klone](Draft_Clone/de.md) sein.
 -   Gebäudeteile können jeden IFC-Typ annehmen. Ihre Eigenschaft **Ifc Type** bestimmt ihre Verwendung. Ist sie auf **Building Storey** gesetzt, verhält er sich wie ein Stockwerk. Ist sie auf **Building** gesetzt, verhält er sich wie ein Gebäude, und ist sie auf **Element Assembly** gesetzt, verhält er sich wie eine Baugruppe. Das Symbol ändert sich entsprechend dieser Einstellung, hat aber ansonsten keine weiteren Auswirkungen in FreeCAD. Der Export nach IFC als der eine oder andere Typ kann jedoch Auswirkungen auf andere BIM-Anwendungen haben.
 -   Gebäudeteile ermöglichen das Festlegen einer **Auto-group capture box**. Nachfolgende Draft- und Arch-Objekte oder alles was Draft.autogroup() verwendet, weden automatisch zum Gebäudeteil hinzugefügt, wenn sie sich vollständig innerhalb der Auswahl-Box befinden. {{Version/de|0.20}}
-
-
-</div>
 
 
 

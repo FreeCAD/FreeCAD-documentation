@@ -10,9 +10,11 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Une feuille de tableur avec un certain nombre de cellules remplies de texte et de quantités*
 
+
+
 ## Outils
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md) : créer une nouvelle feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Feuille de calcul](Spreadsheet_CreateSheet/fr.md) : créer une nouvelle feuille de calcul.
 
 -   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importer](Spreadsheet_Import/fr.md) : importer un fichier CSV dans une feuille de calcul.
 
@@ -44,27 +46,45 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
+
+
 ## Préférences
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Préférences](Spreadsheet_Preferences/fr.md) : les préférences pour l\'atelier Spreadsheet. {{Version/fr|0.20}}
+
+
+
+## Supprimer des cellules peut être dangereux 
+
+Remarquez que la suppression des cellules contenant des données peut casser la feuille de calcul et votre modèle s\'il repose sur la feuille de calcul. Vous n\'êtes pas prévenu si cela se produit.
+
+
 
 ## Insérer et supprimer des lignes et des colonnes 
 
 Des lignes et des colonnes peuvent être insérées ou supprimées en faisant un clic droit sur un en-tête de ligne ou de colonne et en sélectionnant l\'option appropriée dans le menu contextuel. Il est possible de sélectionner d\'abord plusieurs lignes ou colonnes. Soit en maintenant la touche **Ctrl** enfoncée tout en sélectionnant les en-têtes, soit en maintenant le bouton gauche de la souris enfoncé et en faisant glisser la souris.
 
-Dans la version 0.19 de FreeCAD et antérieure, les lignes sont insérées au-dessus des lignes sélectionnées et les colonnes à gauche des colonnes sélectionnées. Dans la version 0.20 de FreeCAD, vous pouvez spécifier le côté d\'insertion.
 
-Remarquez que la suppression de lignes ou de colonnes contenant des données peut entraîner la rupture de la feuille de calcul et de votre modèle si celui-ci repose sur la feuille de calcul. Vous n\'êtes pas prévenu si cela se produit.
+
+## Éditer des cellules 
+
+Le contenu d\'une cellule peut être modifié en sélectionnant la cellule et en entrant une valeur dans la boîte de saisie **Contenu** en haut de la fenêtre. Pour modifier une cellule sur place, sélectionnez-la et appuyez sur **F2** ou double-cliquez dessus.
+
+
+
+## Supprimer des cellules 
+
+Pour supprimer une ou plusieurs cellules, sélectionnez-les et appuyez sur **Suppr**. Cela supprimera leur contenu, leurs propriétés et leurs alias. Pour supprimer uniquement le contenu d\'une cellule, il convient de l\'éditer.
+
+
 
 ## Couper et copier-coller des cellules 
 
-Les opérations couper et copier-coller peuvent être utilisées sur les cellules des feuilles de calcul FreeCAD. Vous pouvez utiliser les raccourcis normaux pour ces opérations : **Ctrl**+**X**, **Ctrl**+**C** et **Ctrl**+**V** respectivement. Pour sélectionner plusieurs cellules, maintenez la touche **Ctrl** enfoncée tout en sélectionnant, ou maintenez le bouton gauche de la souris enfoncé et faites glisser pour sélectionner une plage de cellules rectangulaires.
+Les opérations couper et copier-coller peuvent être utilisées sur les cellules des feuilles de calcul. Vous pouvez utiliser les raccourcis normaux pour ces opérations : **Ctrl**+**X**, **Ctrl**+**C** et **Ctrl**+**V** respectivement. Pour sélectionner plusieurs cellules, maintenez la touche **Ctrl** enfoncée tout en sélectionnant, ou maintenez le bouton gauche de la souris enfoncé et faites glisser pour sélectionner une plage de cellules rectangulaires.
 
-Les opérations couper et copier stockent le contenu et les propriétés des cellules dans le presse-papiers. L\'opération coller écrit les données de manière à ce que le contenu de la cellule supérieure gauche des données stockées soit déposé dans la cellule active. Les autres contenus stockés sont placés par rapport à cette cellule. Les formules sont mises à jour en conséquence.
+Les opérations couper et copier enregistrent le contenu, les propriétés et les alias des cellules dans le presse-papiers. L\'opération de collage écrit les données de manière à ce que le contenu de la cellule supérieure gauche des données stockées soit déposé dans la cellule active. Les autres contenus stockés sont placés par rapport à cette cellule. Les formules sont mises à jour en conséquence. Les alias ne sont collés que s\'ils sont uniques.
 
-Remarquez que la suppression des cellules contenant des données peut casser la feuille de calcul et votre modèle s\'il repose sur la feuille de calcul. Vous n\'êtes pas prévenu si cela se produit.
 
-Dans la version 0.19 de FreeCAD et antérieures, il y a un bug qui peut provoquer un blocage de FreeCAD si une plage de cellules non-rectangulaire est collée. Il est conseillé d\'enregistrer votre travail avant d\'effectuer toute opération de collage.
 
 ## Propriétés d\'une cellule 
 
@@ -80,6 +100,8 @@ Comme mentionné dans les onglets, les propriétés suivantes peuvent être chan
 -   Affichage unités : affiche l\'unité de la cellule. Veuillez lire la section [Unités](#Unités.md) ci-dessous.
 -   Alias : définit un [alias](Spreadsheet_SetAlias/fr.md) pour cette cellule. Cet alias peut être utilisé dans les formules de cellule et aussi dans les [expressions](Expressions/fr.md) générales; voir la section [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md) pour plus d\'informations.
 
+
+
 ## Expressions dans les cellules 
 
 Une cellule de feuille de calcul peut contenir un nombre, un texte ou une expression. Les expressions doivent commencer par le signe égal \"=\".
@@ -92,6 +114,8 @@ Les expressions de cellules peuvent contenir des nombres, des fonctions, des ré
 -   Le nombre de décimales affichées peut différer de vos [paramètres de préférences](Preferences_Editor/fr#Unit.C3.A9s.md).
 
 Les références aux objets dans le modèle sont expliquées ci-dessous [Références aux données CAO](#R.C3.A9f.C3.A9rences_aux_donn.C3.A9es_CAO.md). L\'utilisation des valeurs de cellule de feuille de calcul pour définir les propriétés du modèle est expliquée ci-dessous [Données de la feuille de calcul dans les expressions](#Donn.C3.A9es_de_la_feuille_de_calcul_dans_les_expressions.md). Pour plus d\'informations sur les expressions et les fonctions disponibles, voir [Expressions](Expressions/fr.md).
+
+
 
 ## Interaction entre les feuilles de calcul et le modèle de CAO 
 
@@ -106,6 +130,8 @@ FreeCAD attribuera automatiquement un nom unique à une feuille de calcul lors d
 L\'étiquette d\'une feuille de calcul est automatiquement définie sur le nom de la feuille de calcul lors de sa création. Contrairement au nom, l\'étiquette peut être modifiée, par exemple dans le panneau des propriétés ou à l\'aide de l\'action Renommer du menu contextuel. Par défaut, FreeCAD n\'accepte pas les étiquettes en double, mais il existe une [préférence](Preferences_Editor/fr#Document.md) qui permet de passer outre. Les feuilles de calcul avec des étiquettes dupliquées dans le même document ne peuvent pas être référencées par leur étiquette.
 
 FreeCAD vérifie les dépendances cycliques. Voir [limitations courantes](Spreadsheet_Workbench/fr#Limitations_Courantes.md).
+
+
 
 ### Références aux données CAO 
 
@@ -136,6 +162,8 @@ Le tableau suivant montre quelques exemples en supposant que le modèle a une fo
 |                                                       | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                              |
 |                                                       |                                                       |                              |
 ++++
+
+
 
 ### Données de la feuille de calcul dans les expressions 
 
@@ -173,6 +201,8 @@ Bien que vous puissiez utiliser le numéro de ligne et de colonne dans une expre
 
 </div>
 
+
+
 ### Modèles complexes et recalculs 
 
 La modification d\'une feuille de calcul déclenchera un recalcul du modèle 3D, même si les modifications n\'affectent pas le modèle. Pour un modèle complexe, un recalcul peut prendre beaucoup de temps et devoir attendre après chaque édition est bien sûr assez ennuyeux.
@@ -193,6 +223,8 @@ Il existe trois solutions pour y remédier :
     -   L\'inconvénient est que le modèle ne recalculera pas automatiquement après les modifications apportées à la feuille de calcul.
     -   Dans le scénario où vous ouvrez d\'abord le fichier \"tableur\", changez une ou plusieurs valeurs puis ouvrez le fichier \"modèle\", il n\'y aura aucune indication que le modèle doit être recalculé. Mais si les deux fichiers sont ouverts, l\'icône [Std Rafraîchir](Std_Refresh/fr.md) se mettra à jour correctement pour le fichier \"modèle\" après les modifications apportées au fichier \"tableur\".
 
+
+
 ## Unités
 
 Le tableur intègre une notion de dimension (unités) associée aux valeurs de cellule. Un numéro entré sans unité associée n\'a pas de dimension. L\'unité doit être entrée immédiatement après la valeur numérique, sans espace intermédiaire. Si un nombre a une unité associée, cette unité sera utilisée dans tous les calculs. Par exemple, la multiplication de deux longueurs avec l\'unité mm donne une surface avec l\'unité mm².
@@ -205,11 +237,17 @@ Un nombre sans dimension ne peut pas être changé en nombre avec une unité dan
 
 Parfois, il peut être souhaitable de supprimer une dimension dans une expression. Cela peut être fait en multipliant par 1 avec une unité réciproque.
 
+
+
 ## Importation et exportation 
+
+
 
 ### Format CSV 
 
 Les feuilles de calcul FreeCAD peuvent être importées et exportées au format [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des autres applications de feuilles de calcul telles que Microsoft Excel ou LibreOffice Calc. Voir [Spreadsheet Importer](Spreadsheet_Import/fr.md) et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
+
+
 
 ### Format XLSX 
 
@@ -221,13 +259,19 @@ Les feuilles de calcul au format Excel XLSX peuvent être importées avec la com
 
 Les autres fonctionnalités ne sont pas importées dans la feuille de calcul FreeCAD.
 
+
+
 ## Imprimer
 
 Pour gérer la mise en page nécessaire à l\'impression, les feuilles de calcul FreeCAD sont imprimées en les insérant dans une [TechDraw Vue d\'un tableur](TechDraw_SpreadsheetView/fr.md).
 
+
+
 ## Limites actuelles 
 
 FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conception, cette vérification s'arrête au niveau de l'objet feuille de calcul. Par conséquent, vous ne devriez pas avoir de feuille de calcul contenant à la fois des cellules dont les valeurs sont utilisées pour spécifier des paramètres pour le modèle et des cellules dont les valeurs utilisent la sortie du modèle. Par exemple, vous ne pouvez pas avoir de cellules spécifiant la longueur, la largeur et la hauteur d\'un objet, et une autre cellule qui référence le volume total de la forme obtenue. Cette restriction peut être surmontée en disposant de deux feuilles de calcul : l\'une utilisée comme source de données pour les paramètres d\'entrée du modèle et l\'autre pour les calculs basés sur les données géométriques résultantes.
+
+
 
 ## Liaison entre cellules 
 
@@ -235,6 +279,8 @@ FreeCAD vérifie les dépendances cycliques lorsqu\'il recalcule. De par sa conc
 {{Version/fr|0.20}}
 
 Il est possible de lier le contenu des cellules à d\'autres cellules du tableur. Cela peut s\'avérer utile pour traiter des tables volumineuses ou pour obtenir le contenu d\'une cellule à partir d\'une autre feuille de calcul.
+
+
 
 ### Créer une liaison 
 
@@ -252,6 +298,8 @@ Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2
 ![](images/Spreadsheet_binding-result.png ) 
 *La feuille de calcul peut maintenant ressembler à ceci*
 
+
+
 ### Modifier la liaison 
 
 1.  Cliquez du bouton droit de la souris sur une cellule liée (il n\'est pas nécessaire de mettre en surbrillance l\'ensemble de la plage liée) et sélectionnez **Lier...** dans le menu contextuel.
@@ -259,11 +307,15 @@ Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2
 3.  Modifiez une ou plusieurs options. Notez que la plage de cellules liée, **Lier les cellules**, ne peut pas être modifiée.
 4.  Appuyez sur **OK**.
 
+
+
 ### Supprimer la liaison 
 
 1.  Clic droit de la souris sur une cellule liée (il n\'est pas nécessaire de mettre en surbrillance l\'ensemble de la plage liée) et sélectionnez **Lier...** dans le menu contextuel.
 2.  La boîte de dialogue **Lier des cellules de la feuille de calcul** s\'ouvre.
 3.  Appuyez sur **Délier**.
+
+
 
 ### Remarques
 
@@ -273,6 +325,8 @@ Pour lier, par exemple, la plage de cellules A3-C4 à la plage de cellules B1-D2
 -   La liaison des cellules possède une vérification de l\'étendue et vous avertit en cas d\'étendue non concordante. Par exemple, lier des cellules 1x3 à des cellules 3x2 ne peut pas fonctionner car on ne sait pas quelles sont les 3 cellules à utiliser sur les 6 cellules d\'origine.
 -   Vous ne pouvez pas modifier la plage de cellules d\'une liaison existante. Vous devez d\'abord délier les cellules, puis créer une nouvelle liaison.
 -   La couleur du cadre indiquant la liaison ne peut pas encore être modifiée.
+
+
 
 ## Tables de configuration 
 
@@ -317,6 +371,8 @@ Des étapes similaires s\'appliquent à une [PartDesign Sous forme liée](PartDe
 
 
 </div>
+
+
 
 ## Scripts basiques 
 

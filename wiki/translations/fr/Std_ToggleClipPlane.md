@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Std ToggleClipPlane
-   Name/fr: Std Basculer le plan de coupe
-   MenuLocation: Affichage , Plan de coupe
+   Name/fr: Std Couper selon des plans
+   MenuLocation: Affichage , Couper selon des plans
    Workbenches: Tous
    SeeAlso: Part_SectionCut/fr
 ---
@@ -11,30 +11,30 @@
 
 ## Description
 
-La commande **Std Basculer le plan de coupe** permet de masquer temporairement les objets et leurs parties sur un côté d\'un maximum de trois plans virtuels dans la [vue 3D](3D_view/fr.md) active.
+La commande **Std Couper selon des plans** permet de masquer temporairement les objets et leurs parties sur un côté d\'un maximum de trois plans virtuels dans la [vue 3D](3D_view/fr.md) active.
 
 ![](images/Std_ToggleClipPlane_example.png ) 
 *Un objet creux coupé*
 
 ![](images/Std_ToggleClipPlane_Dialog.png ) 
-*La boite de dialogue Découpage*
+*La boite de dialogue Couper selon des plans*
 
 
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleClipPlane.svg" width=16px> Plan de coupe** dans le menu.
+1.  Sélectionnez l\'option **Affichage → <img src="images/Std_ToggleClipPlane.svg" width=16px> Couper selon des plans** du menu.
 2.  Dans La boite de dialogue Découpage, effectuez l\'une des opérations suivantes :
-    -   Cochez une ou plusieurs des cases {{CheckBox|TRUE|Découpage suivant X}} à {{CheckBox|TRUE|Découpage suivant Z}}.
-        -   Modifiez éventuellement la ou les distances de décalage.
-        -   Appuyez éventuellement sur le bouton **Retourner** pour changer le côté du plan de détourage où les objets sont masqués.
-    -   Cochez la case {{CheckBox|TRUE|Découpage suivant une direction personnalisée}}.
-        -   Modifiez éventuellement la distance de décalage.
+    -   Cochez une ou plusieurs des cases {{CheckBox|TRUE|Découpage suivant X}} à {{CheckBox|TRUE|Couper suivant Z}}.
+        -   Vous pouvez modifier la ou les distances de décalage.
+        -   Vous pouvez modifier appuyer sur le bouton **Retourner** pour changer le côté du plan de découpe où les objets sont masqués.
+    -   Cochez la case {{CheckBox|TRUE|Couper suivant une direction personnalisée}}.
+        -   Vous pouvez modifier la distance de décalage.
         -   Effectuez l\'une des actions suivantes :
             -   Appuyez sur le bouton **Vue** pour utiliser la direction de la vue en cours.
             -   Cochez la case {{CheckBox|TRUE|Ajuster la direction de la vue}} pour une direction qui s\'adapte dynamiquement et afficher les changements.
             -   Spécifiez la direction en entrant les coordonnées X, Y et Z d\'un vecteur normal.
-3.  Modifiez éventuellement la vue pour inspecter le modèle.
+3.  Vous pouvez modifier la vue pour inspecter le modèle.
 4.  Appuyez sur le bouton **Fermer** pour fermer le panneau des tâches et terminer la commande.
 
 

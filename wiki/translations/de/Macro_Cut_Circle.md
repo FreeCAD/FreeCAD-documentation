@@ -1,4 +1,7 @@
 # Macro Cut Circle/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Macro Cut Circle
 |Name/de=Makro Cut Circle
@@ -11,20 +14,37 @@
 |Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Symbol]
 }}
 
+
+</div>
+
+
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Dieses Makro schneidet einen Kreis oder Kreisbogen in mehrere Bögen, die Bögen können zur Unterscheidung abwechselnd eingefärbt werden.
 
+
+</div>
+
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *KreisSchneiden*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
 Kopiere das Makro **cutCirle** komplett in die Python Konsole FreeCAD wähle den/die Kreis(e) und (oder) Bogen Typ in der Konsole:
 
-um die Kreise und Bögen zu sehen, die hier im Beispiel 5 zusammenhängende Bögen schneiden.
 
-Das ursprüngliche Objekt wird nicht gelöscht.
+</div>
+
+
 
 ## Skript
 
@@ -38,7 +58,7 @@ ToolBar Icon ![](images/Macro_Cut_Circle.png )
 # selection circle(s) (circles and arcs)
 # give number of cut, biColor 0/1
 # cut the circle to x arcs
-# if biColor is <> 0 the arcs are coloured alternately Red White Red White ....
+# if biColor is <> 0 the arcs are colored alternately Red White Red White ....
 # 
  
 __title__   = "cutCircle"
@@ -94,28 +114,44 @@ def cutCircle(number = 2, biColor = 0):
                 pivot1 += pivot0
     App.ActiveDocument.recompute()
 
-#cutCircle(5, 1)  # here with 5 arcs and coloured
+#cutCircle(5, 1)  # here with 5 arcs and colored
 #cutCircle(4)     #
 
 }}
+
+
 
 ## Beispiel
 
 
 ```python
-cutCircle(5, 1)  # here with 5 arcs and coloured
+cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
+
+## Project
+
+
+<div class="mw-translate-fuzzy">
 
 ## Projekt
 
 Kreis auf Zylinder schneiden
 
+
+</div>
+
 ## Version
 
 ver 00.03 02/07/2019 : \"App.ActiveDocument.recompute()\" hinzugefügt
 
+
+<div class="mw-translate-fuzzy">
+
 ver 00.02 09/03/2015 : Hinzufügen von Bögen erzeugen, die abwechselnd rot-weiß-rot-weiß gefärbt sind \.... oder nicht
+
+
+</div>
 
 ver 00.01 24/02/2015 :
 

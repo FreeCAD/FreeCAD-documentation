@@ -4,8 +4,8 @@
 |Icon=Workbench_Image.svg
 |Description=Quickly and easily set the color and transparency of individual faces, edges, and vertices.
 |Author=TheMarkster
-|Version=1.02
-|Date=2021-12-12
+|Version=1.03
+|Date=2023-10-07
 |FCVersion=Python3 builds
 |Download=[https://wiki.freecadweb.org/images/d/de/Workbench_Image.svg ToolBar Icon]
 }}
@@ -53,8 +53,8 @@ ToolBar Icon ![](images/Workbench_Image.svg )
 # 0 = no transparency, 255 = full transparency
 # first 2 custom colors are the default gray and black
 # used for faces and edges/points
-
-__version__ = "1.02"
+__icon__ = "https://wiki.freecad.org/images/d/de/Workbench_Image.svg"
+__version__ = "1.03"
 from PySide import QtGui,QtCore
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)

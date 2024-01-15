@@ -19,8 +19,8 @@
 
 移除工具允许您执行两种操作：
 
--   从建筑对象中移除一个子构件，例如像[建筑添加工具示例中那样](Arch_Add.md)，将添加至墙体的立方体移除掉。
--   从如[墙体（wall）或](Arch_Wall.md)[结构构件（structure）等建筑构件中去掉具有](Arch_Structure.md)[形状（shape）的对象](Part_Workbench.md)。
+-   从建筑对象中移除一个子构件，例如像[建筑添加工具](Arch_Add.md)示例中那样，将添加至墙体的立方体移除掉。
+-   从如[墙体（wall）](Arch_Wall.md)或[结构构件（structure）](Arch_Structure.md)等建筑构件中去掉具有[形状（shape）](Part_Workbench.md)的对象。
 
 
 </div>
@@ -28,7 +28,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[建筑添加工具与本工具功能相反](Arch_Add.md)。
+[建筑添加](Arch_Add.md)工具与本工具功能相反。
 
 
 </div>
@@ -80,7 +80,7 @@
 
 <div class="mw-translate-fuzzy">
 
-通过下列函数就可以在[macros与](macros.md)[Python控制台中使用移除工具](Python.md)：
+通过下列函数就可以在[macros](macros.md)与[Python](Python.md)控制台中使用移除工具：
 
 
 </div>

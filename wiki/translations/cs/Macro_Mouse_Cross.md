@@ -1,4 +1,7 @@
 # Macro Mouse Cross/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
@@ -12,12 +15,28 @@
 |Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Toto malé makro mění šipku kurzoru myši na jemný křížek.
 
+
+</div>
+
 <img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width:480px;"> 
 *Malý příklad použití třídy '''ViewObserver()''' a použití klávesnice '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Použití
 
@@ -26,6 +45,11 @@ Toto malé makro mění šipku kurzoru myši na jemný křížek.
 3.  Stiskněte klávesu **G** pro aktivaci mřížky.
 4.  Stiskněte klávesu **X** pro zobrazení všech kurzoru.
 5.  Stiskněte klávesu **Q** pro ukončení makra.
+
+
+</div>
+
+
 
 ## Skript
 
@@ -201,9 +225,16 @@ except Exception:
 
 }}
 
+
+
 ### Kurzory, které mohou být používány 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Omezení
 
@@ -211,6 +242,9 @@ Kurzor může měnit vzhled v závislosti na používané pracovní ploše, mus�
 Kurzor může být nahrazen jiným posuvníkem (např. rozšíření okna, rohu, \...).
 Mřížka je permanentní.
 Zbytek rezidentního makra.
+
+
+</div>
 
 
 

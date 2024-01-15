@@ -1,4 +1,7 @@
 # Macro Mouse Cross/es
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/es
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
@@ -12,12 +15,28 @@
 |Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 Esta pequeña macro gira la flecha del mouse en una cruz de precisión.
 
+
+</div>
+
 <img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width:480px;"> 
 *Pequeño ejemplo de uso de la clase '''ViewObserver()''' y el uso del teclado con '''[SoKeyboardEvent](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md)'''*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Cómo usar 
 
@@ -26,6 +45,9 @@ Esta pequeña macro gira la flecha del mouse en una cruz de precisión.
 3.  Presione el botón **G** para activar la cuadrícula.
 4.  Presione el botón **X** para visualizar todos los cursores.
 5.  Presione el botón **Q** para salir de la macro.
+
+
+</div>
 
 ## Script
 
@@ -201,15 +223,25 @@ except Exception:
 
 }}
 
+
+
 ### Cursores que pueden ser utilizados. 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Limitación
 
 El cursor puede cambiar de aspecto dependiendo del Workbench utilizado, debe repetir la operación.
 El cursor puede ser subtitulador de los otros controles deslizantes (por ejemplo, expansión de una ventana, esquina \...).
 La cuadrícula es permanente.
+
+
+</div>
 
 
 

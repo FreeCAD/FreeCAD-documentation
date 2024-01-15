@@ -123,7 +123,7 @@ Si vous avez bien travaillé, vous devriez obtenir ceci :
 
 L\'esquisse est devenue verte, ce qui signifie qu\'elle est entièrement contrainte. Il n\'y a plus aucune ambiguïté, tout est parfaitement défini. Ceci est confirmé par le message du solveur en haut à gauche. Remarquez également que le centre de l\'arc a légèrement bougé, en effet en donnant ces trois dernières contraintes, FreeCAD a calculé la vraie position du centre.
 
-Si votre esquisse n\'est pas encore verte, un ou plusieurs points ne sont pas coïncidents (2 points sont superposés mais non coïncidents). Faites une petite fenêtre (fenêtre de capture) autour d\'un point, et cliquez sur <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:24px;"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md). 
+Si votre esquisse n\'est pas encore verte, un ou plusieurs points ne sont pas coïncidents (2 points sont superposés mais non coïncidents). Faites une petite fenêtre (fenêtre de capture) autour d\'un point, et cliquez sur <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:24px;"> [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md). 
 *Remarque : ne confondez pas la contrainte coïncidente avec le point d\'esquisse ; alors que leurs icônes sont très similaires, ce dernier a une icône plus grande ; il ajoute un point dans l\'esquisse.*
 
 Procédez de la même manière avec tous les points.

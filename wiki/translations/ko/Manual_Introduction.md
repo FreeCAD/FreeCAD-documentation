@@ -12,7 +12,7 @@
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org)는 자유 오픈 소스 parametric 3D 모델링 프로그램입니다. 주로 3D 프린팅할 수 있는 물체에 초점을 맞춰 소형 전자 부품부터 건물이나 토목 공학과 같은 대형 물체에 이르기까지 실제 물체를 모델링하기 위해 제작되었다. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+[FreeCAD](http://www.freecadweb.org)는 3차원 모형의 치수를 매개변수를 이용해 적용하여 모델링 하는 프로그램이며 소스코드는 개방 되어 있습니다. 실제의 물건, 소형의 전자부품에서 대형인 건물과 토목 구조물 등에 이르기 까지, 3D 형상 제작을 위한 것이며, 3D 프린팅에 사용되는 것에 중점을 두고 만들었습니다. FreeCAD 는 사용하기, 내려받기, 개량해서 배포하기 등 여러가지에 관해 여러분의 자유를 허용하고 있고, 소스코드도 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)의 권리조항에서 개방된 것에 따라 공개되고 게시 되었습니다. FreeCAD를 이용하여 여러분이 만든 것은 완전히 여러분의 소유물이며, 프리캐드 없이 수정할 수 있습니다
 
 FreeCAD는 근본적으로 사회적 프로젝트이며, FreeCAD에 대한 열정으로 개발자와 사용자 커뮤니티가 개발하고 유지 관리합니다.
 

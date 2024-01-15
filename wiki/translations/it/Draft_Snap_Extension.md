@@ -1,68 +1,48 @@
-# Draft Snap Extension/it
 ---
  GuiCommand:
    Name: Draft Snap Extension
-   Name/it: Estensione
-   MenuLocation: Draft , Draft Snap/it , Estensione
+   Name/it: Draft Aggancia Estensione
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: 
-   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it---
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
+---
+
+# Draft Snap Extension/it
 
 
-</div>
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> **Draft Aggancia Estensione** esegue l\'aggancio ad una linea immaginaria che si estende oltre i punti finali dei bordi diritti. I bordi possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
-<div class="mw-translate-fuzzy">
+È possibile fare riferimento a un massimo di 2 (o 8 {{Version/it|0.20}}) bordi con questa opzione di aggancio e [Draft Aggancia Parallelo](Draft_Snap_Parallel/it.md), rendendo possibile l\'aggancio alle intersezioni virtuali. Entrambe le opzioni di aggancio possono anche essere combinate con altre opzioni di aggancio.
 
-Questo metodo crea un aggancio a un punto su una linea immaginaria che si estende oltre i punti finali dei segmenti di linea.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+![](images/Draft_Snap_Extension_example.png ) 
+*Aggancio del secondo punto di una linea all'estensione di un bordo*
 
 
-{{Draft Tools navi/it}}
-
-
-</div>
-
-![](images/Draft_Snap_Extension_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Snap del secondo punto di una linea all'estensione di un'altra linea
-*
-
-
-</div>
 
 ## Utilizzo
 
 
 {{Userdocnavi/it}}
 
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Estensione** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Extension.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Extension.svg" width=16px> Aggancia Estensione**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Spostare il cursore su un bordo dritto.
+6.  Il bordo viene evidenziato.
+7.  Se ora si sposta il ​​cursore oltre gli estremi del bordo, si vedrà apparire una linea tratteggiata quando il cursore si trova sul bordo esteso.
+8.  Il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Extension.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+9.  Fare clic per confermare il punto.
 
-<div class="mw-translate-fuzzy">
-
-1.  Assicurarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Attiva aggancio](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Extension.svg" width=16px> [Estensione](Draft_Snap_Extension/it.md)** siano attivati.
-2.  Scegliere uno strumento di Draft per disegnare una forma.
-3.  Posizionare il cursore vicino ai punti finali del segmento di linea che si desidera estendere.
-4.  Spostando il puntatore lontano dal segmento di linea, ma mantenendo la stessa pendenza, appare una linea tratteggiata che indica l\'estensione della linea originale.
-5.  Cliccare per agganciare e attaccare il nuovo punto.
 
 
-</div>
+## Preferenze
 
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

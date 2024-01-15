@@ -15,7 +15,7 @@
 
 La commande <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft Courbe de Bézier** crée une [courbe de Bézier](http://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) à partir de plusieurs points.
 
-La commande crée une seule courbe de Bézier dont la {{PropertyData/fr|Degree}} est `number_of_points - 1`. Elle peut être transformée en une courbe de Bézier par morceaux en réduisant cette propriété.
+La commande crée une seule courbe de Bézier dont la **Degree** est `number_of_points - 1`. Elle peut être transformée en une courbe de Bézier par morceaux en réduisant cette propriété.
 
 Les commandes Draft Courbe de Bézier et [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) utilisent des **points de contrôle** pour définir la position et la courbure de la spline. La commande [Draft B-spline](Draft_BSpline/fr.md), quant à elle, spécifie les **points exacts** par lesquels la courbe passera.
 
@@ -29,30 +29,30 @@ Les commandes Draft Courbe de Bézier et [Draft Courbe de Bézier cubique](Draft
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_BezCurve.svg" width=16px> [Courbe de Bézier](Draft_BezCurve/fr.md)**.
-    -   Sélectionnez l\'option **Draft → Outils de Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** dans le menu.
-    -   Utilisez le raccourci clavier : **B** puis **Z**. {{Version/fr|0.20}}
+    -   Appuyer sur le bouton **<img src="images/Draft_BezCurve.svg" width=16px> [Courbe de Bézier](Draft_BezCurve/fr.md)**.
+    -   Sélectionner l\'option **Draft → Outils de Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** du menu.
+    -   Utiliser le raccourci clavier : **B** puis **Z**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Courbe de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+5.  Appuyer sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la courbe créée aura la valeur **Make Face** mis à `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une courbe qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle courbe, **Make Face** doit être défini sur `False`.
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une courbe fermée en la fixant au premier point de la courbe, ce qui vous permet de continuer à créer des courbes.
+-   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la courbe créée aura la valeur **Make Face** mis à `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une courbe qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle courbe, **Make Face** doit être défini sur `False`.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une courbe fermée en la fixant au premier point de la courbe, ce qui vous permet de continuer à créer des courbes.
 -   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la courbe ouverte.
 -   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la courbe. Une courbe fermée peut également être créée en se plaçant au premier point de la courbe.
 -   Appuyez sur **W** ou sur le bouton **<img src="images/Draft_Wipe.svg" width=16px> Effacer** pour supprimer les segments déjà placés, mais continuez à travailler à partir du dernier point.
 -   Appuyez sur **U** ou sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Définir le plan de travail](Draft_SelectPlane/fr.md)** pour ajuster le plan de travail actuel dans l\'orientation définie par le dernier et le précédent point.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 
 
@@ -60,15 +60,6 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 -   Une Draft Courbe de Bézier peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   OpenCascade, et donc FreeCAD, ne supporte pas les courbes de Bézier de degrés supérieurs à 25. Cela ne devrait pas être un problème en pratique, car la plupart des utilisateurs utilisent généralement des courbes de Bézier de degrés 3 à 5.
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 
 

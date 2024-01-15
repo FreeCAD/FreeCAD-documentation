@@ -20,48 +20,57 @@ Une Draft Ligne est en fait une [Draft Polyligne](Draft_Wire/fr.md) avec seuleme
 <img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
 *Ligne définie par deux points*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Line.svg" width=16px> [Ligne](Draft_Line/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Line.svg" width=16px> Ligne** dans le menu.
-    -   Utilisez le raccourci clavier : **L** puis **I**.
+    -   Appuyer sur le **<img src="images/Draft_Line.svg" width=16px> [Ligne](Draft_Line/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Line.svg" width=16px> Ligne** du menu.
+    -   Utilisez les raccourcis du clavier : **L** puis **I**.
 2.  Le panneau de tâches **Ligne** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Pour utiliser des coordonnées polaires, entrez une valeur pour la **Longueur** et une valeur pour l\'**Angle** et appuyez sur **Entrée** après chacune d\'elles.
 -   Cochez la case **Angle** pour contraindre le pointeur à l\'angle spécifié.
--   Appuyez sur **H** pour faire passer le curseur de **X** à **Longueur** et inversement. Selon la saisie, la case **Angle** est cochée ou décochée.
+-   Appuyez sur **L** pour faire passer le curseur de **X** à **Longueur** et inversement. Selon la saisie, la case **Angle** est cochée ou décochée.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des lignes.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des lignes.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande.
+
+
 
 ## Remarques
 
--   Une Draft Ligne peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
--   Les Draft Lignes et les [Draft Polylignes](Draft_Wire/fr.md) peuvent être jointes avec la commande [Draft Polylignes](Draft_Wire/fr.md), la commande [Draft Joinde](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
+-   Une Draft Ligne peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
+-   Les Draft Lignes et les [Draft Polylignes](Draft_Wire/fr.md) peuvent être jointes avec la commande [Draft Polylignes](Draft_Wire/fr.md), la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
+
+
 
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées, longueurs et angles : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier le champ initial du panneau des tâches sur le champ de saisie de **Longueur** : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Mettre l'accent sur la longueur plutôt que la coordonnée X**. Notez que vous devez déplacer le pointeur dans la [vue 3D](3D_view/fr.md) pour que le changement prenne effet.
--   Si le **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Utiliser les primitives de Part si possible** est cochée, la commande créera une [Part Ligne](Part_Line/fr.md) au lieu d\'une Draft ligne.
+-   Pour changer le but initial du panneau des tâches de la boîte de saisie **Longueur** : **Édition → Préférences... → Draft → Général → Mettre l’accent sur la longueur plutôt que la coordonnée X**. Notez que vous devez déplacer le pointeur dans la [vue 3D](3D_view/fr.md) pour que la modification prenne effet.
+-   Si la commande **Édition → Préférences... → Draft → Général → Créer des primitives Part si possible** est cochée, la commande créera une [Part Ligne](Part_Line/fr.md) au lieu d\'une Draft Ligne.
+
+
 
 ## Propriétés
 
 Voir [Draft Polylignes](Draft_Wire/fr#Propri.C3.A9t.C3.A9s.md).
+
+
 
 ## Script
 
@@ -80,7 +89,7 @@ line = make_line(Shape)
 -   Crée un objet `Ligne` à partir de `Part.LineSegment`.
 -   Crée un objet `Ligne` du premier sommet au dernier sommet de la `Shape` donnée.
 
-Exemple:
+Exemple :
 
 
 ```python

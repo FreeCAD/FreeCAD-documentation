@@ -1,5 +1,5 @@
 # Command/de
-## Einführung
+## Einleitung
 
 
 
@@ -13,6 +13,8 @@ Jeder FreeCAD-Befehl hat einen eindeutigen Namen, der in der [Liste aller Befehl
 FreeCADGui.runCommand("my_Command_Name")
 ```
 
+
+
 ## Hintergrund
 
 FreeCAD Befehle sind pro Arbeitsbereich definiert. Arbeitsbereiche werden ihre Befehlsdefinitionen normalerweise zum FreeCAD Programmstartzeitpunkt hinzufügen, so dass der Befehl existiert und verfügbar ist, sobald FreeCAD startet, unabhängig davon, ob der jeweilige Arbeitsbereich aktiviert ist oder nicht. Allerdings könnte der Arbeitsbereichsautor in einigen Fällen entschieden haben, den FreeCAD Startprozess nicht zu überlasten/belasten und deshalb die Befehlsdefinitionen erst bei der Initialisierung des Arbeitsbereichs zu laden. In diesen Fällen ist der Befehl erst nach der Aktivierung des Arbeitsbereichs verfügbar (Du hast wenigstens einmal dorthin mit dem Arbeitsbereichswähler gewechselt).
@@ -20,6 +22,8 @@ FreeCAD Befehle sind pro Arbeitsbereich definiert. Arbeitsbereiche werden ihre B
 Da die meisten von ihnen Benutzeraktionen erfordern, sind FreeCAD Befehle nur im GUI-Modus und nicht im Konsolen Modus verfügbar. Der Einfachheit halber haben die meisten FreeCAD Befehle eine entsprechende Python Funktion (wie `Part.makeBox` oder `Draft.makeLine`) oder führen Code aus, der sehr einfach in einem Python Skript und/oder [Makronachgebildet](macros/de.md) werden kann.
 
 Befehle können entweder in C++ oder Python festgelegt werden.
+
+
 
 ## In C++ definierte Befehle 
 
@@ -56,6 +60,8 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
+
+
 ## In Python definierte Befehle 
 
 Beispiel für eine Python Befehlsdefinition, sie kann in einem Verzeichnis wie **Mod/ModuleName/tools/commands.py** abgelegt werden. 
@@ -88,6 +94,8 @@ class MyCommand:
 # The command must be "registered" with a unique name by calling its class.
 FreeCADGui.addCommand('My_Command', MyCommand())
 ```
+
+
 
 ## Beispiele
 

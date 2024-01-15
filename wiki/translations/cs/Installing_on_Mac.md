@@ -1,24 +1,9 @@
 # Installing on Mac/cs
-<div class="mw-translate-fuzzy">
+FreeCAD can be installed on macOS from a .dmg package which you can drag and drop into your Applications folder, see the [Download](Download.md) page.
 
-FreeCAD může být nainstalován na Mac OS X v jednom kroku použitím Installeru.
+If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 
-
-{{DownloadMacStable}}
-
-Tato stránka popisuje použití a vlastnosti FreeCAD installeru. Jsou zde zahrnuty i odinstalační instrukce. Jak nainstalujete můžete [začít](Getting_started/cs.md)!
-
-
-</div>
-
-
-{{DownloadMacStable}}
-
-and the weekly build can be downloaded from
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD through your bash terminal with
 
 
 ```python
@@ -62,8 +47,14 @@ Instaler Vám ukáže obrazovku **Customize Installation**, se seznamem balíčk
 
 V současné době není k dispozici odinstalační program pro FreeCAD, Pro kompletní odstranění FreeCADu a všech jeho nainstalovaných komponent, přetáhněte myší následující soubory a složky do Koše:
 
+
+<div class="mw-translate-fuzzy">
+
 -   Ve složce /Applications:
     -   FreeCAD
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

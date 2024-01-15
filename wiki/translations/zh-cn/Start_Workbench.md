@@ -16,32 +16,11 @@
 
 </div>
 
+<img alt="Start workbench, Documents tab" src=images/Start_Documents.png  style="width:500px;">
 
-<div class="mw-translate-fuzzy">
+<img alt="Start workbench, Help tab" src=images/Start_Help.png  style="width:500px;">
 
-<img alt="" src=images/FreeCad_Start_0.18_documents.png  style="width:1024px;"> 
-*align=center|启动工作台及其文档选项卡*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCad_Start_0.18_help.png  style="width:1024px;"> 
-*align=center|启动工作台及其帮助选项卡*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCad_Start_0.18_activity.png  style="width:1024px;"> 
-*align=center|启动工作台及其动态信息选项卡*
-
-
-</div>
+<img alt="Start workbench, Activity tab" src=images/Start_Activity.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">

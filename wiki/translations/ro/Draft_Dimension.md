@@ -90,7 +90,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ### Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -198,7 +198,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
+-    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. Not used for linear dimensions.
 
 ### Data angular dimension 
 

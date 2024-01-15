@@ -46,7 +46,7 @@
 ### 制作支持工具
 
 -   [FreeCAD构建工具](FreeCAD_Build_Tool/zh-cn.md)
-    -   [添加应用模块给FreeCAD](Module_Creation/zh-cn.md)
+    -   [添加应用模块](Module_Creation/zh-cn.md)给FreeCAD
 -   [调试FreeCAD](Debugging/zh-cn.md)
 -   [测试FreeCAD](Testing/zh-cn.md)
 -   [编译（加速）FreeCAD](Compiling_(Speeding_up)/zh-cn.md)
@@ -61,9 +61,9 @@
 
 -   理解[FreeCAD的源代码](The_FreeCAD_source_code.md)
 -   向FreeCAD或工作台添加[功能](Gui_Command.md)
--   [品牌化或者说](Branding/zh-cn.md)*如何让FreeCAD看起来很特别*
+-   [品牌化](Branding/zh-cn.md)或者说*如何让FreeCAD看起来很特别*
 -   我们为FreeCAD做的[艺术工作](Artwork/zh-cn.md)，你可以自由重用
--   [艺术工作指南列出了图标设计的标准](Artwork_Guidelines/zh-cn.md)
+-   [艺术工作指南](Artwork_Guidelines/zh-cn.md)列出了图标设计的标准
 -   [翻译FreeCAD](Localisation/zh-cn.md)
 -   [附加Python模块](Extra_python_modules/zh-cn.md)，如何在FreeCAD里扩展Python功能
 -   [谷歌代码之夏](Google_Summer_of_Code/zh-cn.md)，参与谷歌的学生支持计划

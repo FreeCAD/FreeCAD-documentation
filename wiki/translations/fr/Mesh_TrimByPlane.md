@@ -17,7 +17,7 @@ La commande **Ajuster par plan** permet de découper les faces et parties de fac
 
 ## Utilisation
 
-1.  Sélectionnez un seul objet maillé et un seul [Part Plan](Part_Plane/fr.md). Le plan (étendu) doit croiser l\'objet maillé.
+1.  Sélectionnez un seul objet maillé et un seul [Part Plan](Part_Plane/fr.md). Le plan (étendu) doit couper l\'objet maillé.
 
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Ajuster le maillage avec un plan](Mesh_TrimByPlane/fr.md)
@@ -27,7 +27,7 @@ La commande **Ajuster par plan** permet de découper les faces et parties de fac
 3.  La boîte de dialogue **Découpe par un plan** s\'ouvre.
 
 4.  
-    **Sélectionnez le côté que vous souhaitez garder**en appuyant sur l\'un des boutons:
+    **Sélectionner le coté à conserver.**en appuyant sur l\'un des boutons:
 
     -   
         **En-dessous**
@@ -38,7 +38,7 @@ La commande **Ajuster par plan** permet de découper les faces et parties de fac
         
 
     -   
-        **Scinder**
+        **Recomposer**
         
         : supprime les faces et les parties de faces au-dessus du plan et crée un nouveau maillage les contenant.
 

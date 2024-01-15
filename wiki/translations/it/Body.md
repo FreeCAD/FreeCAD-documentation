@@ -5,6 +5,8 @@ In FreeCAD la parola \"Body\" (Corpo) viene normalmente utilizzata per fare rife
 
 Per ulteriori informazioni su questo tipo di oggetto vedere [Corpo di PartDesign](PartDesign_Body/it.md).
 
+
+
 ## Utilizzo
 
 1.  Passare nell\'ambiente [PartDesign](PartDesign_Workbench/it.md).
@@ -14,6 +16,8 @@ Per ulteriori informazioni su questo tipo di oggetto vedere [Corpo di PartDesign
 5.  Aggiungere altri schizzi e pad e usare altri strumenti di [PartDesign](PartDesign_Workbench/it.md) per modificare e trasformare il solido iniziale.
 
 In alternativa, invece di usare gli [schizzi](Sketch/it.md), si possono aggiungere [funzioni primitive](PartDesign_Feature/it.md) di PartDesign, ad esempio, un **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [Cubo additivo](PartDesign_AdditiveBox/it.md)**. Per creare un volume finale è possibile utilizzare qualsiasi numero di funzioni additive e sottrattive.
+
+
 
 ## Note
 

@@ -1,7 +1,7 @@
 # Getting started/fr
 ## Avant-propos 
 
-FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets de précision et de contrôler l\'historique de la modélisation 3D.
+FreeCAD est une [application de modélisation paramétrique](About_FreeCAD/fr.md) 3D. Elle est principalement destinée à la conception mécanique, mais sert aussi à toutes les utilisations où vous avez besoin de modéliser des objets avec précision et de contrôler l\'historique de la modélisation 3D.
 
 FreeCAD est en cours de développement depuis 2002 et propose une grande liste de [fonctions](Feature_list/fr.md). Des capacités manquent encore mais il est assez puissant pour une utilisation amateur et de petits ateliers. Il existe une communauté d\'utilisateurs enthousiastes en pleine croissance qui participent au [forum FreeCAD](http://forum.freecadweb.org/index.php) et vous pouvez trouver [nombreux exemples](http://forum.freecadweb.org/viewforum.php?f=24) de projets de qualité développés avec FreeCAD. Voir aussi [FreeCAD utilisé en production](FreeCAD_used_in_production.md).
 
@@ -18,7 +18,7 @@ Voir aussi :
 
 ## Installation
 
-Tout d\'abord (si ce n\'est pas déjà fait) téléchargez et installez FreeCAD. Consultez la page de [téléchargements](Download/fr.md) pour plus d\'informations sur les mises à jour et versions actuelles et les instructions d\'installation pour votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)). Il y a des paquets d\'installation pour Windows (.msi), pour Debian et Ubuntu (.deb), openSUSE (.rpm) et Mac OSX. FreeCAD est disponible dans les gestionnaires de paquets de plusieurs autres distributions Linux. Une [AppImage](AppImage/fr.md) autonome exécutable est également disponible et fonctionne sur la plupart des systèmes 64 bits Linux récents. FreeCAD est open source et donc vous pouvez également récupérer le code source et le [compiler](Compiling/fr.md) vous-même.
+Tout d\'abord, téléchargez et installez FreeCAD. Voir la page [Téléchargement](Download/fr.md) pour des informations sur les versions en cours et les mises à jour ainsi que les instructions d\'installation pour votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)). FreeCAD est disponible dans les gestionnaires de paquets de nombreuses distributions Linux. FreeCAD étant un logiciel libre, vous pouvez également récupérer le code source et le [compiler](Compiling/fr.md) vous-même.
 
 
 

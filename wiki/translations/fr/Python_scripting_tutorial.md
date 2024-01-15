@@ -18,7 +18,7 @@ Il existe plusieurs façons d\'utiliser Python dans FreeCAD :
 
 Dans ce tutoriel, nous allons travailler sur quelques exemples de base pour vous aider à démarrer, mais il y a beaucoup plus de [ documentations sur les scripts Python](Power_users_hub/fr.md) disponibles sur ce wiki. Si vous êtes totalement nouveau sur Python et que vous voulez comprendre comment cela fonctionne, nous avons également une [Introduction à Python](introduction_to_Python/fr.md).
 
-Avant de continuer avec les scripts Python, allez dans la fenêtre **Edit → Préférences → Général → Fenêtre de sortie** et cochez les deux cases :
+Avant de continuer avec les scripts Python, allez dans la fenêtre **Edit → Préférences → Général → Vue rapport** et cochez les deux cases :
 
 -    **Rediriger les messages internes Python vers la vue rapport**.
 
@@ -53,7 +53,7 @@ Si vous écrivez dans la console Python FreeCAD, vous remarquerez que dès que v
 ![](images/Screenshot_classbrowser.jpg ) 
 *Le mécanisme de saisie semi-automatique de la console Python FreeCAD*
 
-Maintenant notre nouveau document sera créé. Cela revient à appuyer sur le bouton **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** dans la barre d\'outils. En fait, la plupart des boutons de FreeCAD ne font rien d\'autre que d\'exécuter une ou plusieurs lignes de code Python. Encore mieux, vous pouvez définir une option dans **Édition → Préférences → Général → Macro** avec **Montrer les commandes du script dans la console Python**. Cela affichera dans la console tout le code Python exécuté lorsque vous pressez les boutons. Très utile pour apprendre à reproduire des actions dans Python.
+Maintenant notre nouveau document sera créé. Cela revient à appuyer sur le bouton **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** dans la barre d\'outils. En fait, la plupart des boutons de FreeCAD ne font rien d\'autre que d\'exécuter une ou plusieurs lignes de code Python. Encore mieux, vous pouvez définir une option dans **Édition → Préférences → Python → Macro** avec **Montrer les commandes du script dans la console Python**. Cela affichera dans la console tout le code Python exécuté lorsque vous pressez les boutons. Très utile pour apprendre à reproduire des actions dans Python.
 
 Maintenant revenons à notre document et voyons ce que nous pouvons faire avec lui :
 

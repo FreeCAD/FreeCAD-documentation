@@ -32,7 +32,7 @@ Dies ist das Dokumentations Wiki von [FreeCAD](http://www.freecadweb.org). Es gi
 
 ## Inhaltsverzeichnis
 
-Die folgende Tabelle listet alle Artikel dieses Wikis auf, die das Rückgrat der Offline Dokumentation bilden, die mit der FreeCAD Anwendung ausgeliefert wird. Sie ist bereits in einigen Sprachen verfügbar:
+Das Inhaltsverzeichnis ist in mehreren Sprachen verfügbar:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

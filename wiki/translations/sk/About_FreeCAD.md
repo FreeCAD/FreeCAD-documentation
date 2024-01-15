@@ -1,10 +1,28 @@
 # <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/sk
 
+
+<div class="mw-translate-fuzzy">
+
 **FreeCAD** univerzálny parametrický 3D [**CAD**](https://sk.wikipedia.org/wiki/Projektovanie_pomocou_po%C4%8D%C3%ADta%C4%8Da) nástroj s [otvoreným kódom](https://sk.wikipedia.org/wiki/Open_source) ([LGPL licencia](http://licence.gnulinux.cz/lgpl-v3-sk)). FreeCAD sa zameriava na [strojné inžinierstvo](http://en.wikipedia.org/wiki/Mechanical_engineering) a [produktový dizajn](http://en.wikipedia.org/wiki/Product_design), ale takisto nájde využitie v ďalších oblastiach inžinierstva, ako napríklad v architektúre, pri analýze konečných prvkov (angl. FEA), 3D tlači a iných.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 FreeCAD obsahuje nástroje podobné systémom [CATIA](https://en.wikipedia.org/wiki/CATIA), [SolidWorks](http://en.wikipedia.org/wiki/Solidworks) alebo [Solid Edge](http://en.wikipedia.org/wiki/Solid_Edge), a preto sa tiež radí do katégorie produktov tzpu [**CAD**](https://sk.wikipedia.org/wiki/Projektovanie_pomocou_po%C4%8D%C3%ADta%C4%8Da), [**Manažment životného cyklu (angl. PLM)**](https://sk.wikipedia.org/wiki/Mana%C5%BEment_%C5%BEivotn%C3%A9ho_cyklu), [**Počítačom podporované technológie (angl. CAx)**](http://en.wikipedia.org/wiki/CAx), [**Inžinierstvo pomocou počítača (angl. CAE)**](https://sk.wikipedia.org/wiki/In%C5%BEinierstvo_pomocou_po%C4%8D%C3%ADta%C4%8Da). Je to [parametrický modelovací nástroj](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) s modulárnou programovou štruktúrou, vďaka ktorej je možné pridávať dodatočné vlastnosti a funkcie bez úpravy základného systému.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tak, ako iné CAD modelovacie nástroje, má aj FreeCAD mnoho 2D komponentov, pomocou ktorých sa dajú načrtnúť rovinné tvary alebo vytvoriť nákresy. Nezameriava sa ale na priame 2D kreslenie (ako napríklad [Inkscape](https://inkscape.org/) alebo [AutoCAD LT](http://en.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)), takisto nie je cieľom animácia alebo úprava sieťových modelov (ako v softvéroch [Blender](https://www.blender.org/), [Maya](http://en.wikipedia.org/wiki/Maya_(software)), [3ds Max](http://en.wikipedia.org/wiki/3ds_Max) alebo [Cinema 4D](http://en.wikipedia.org/wiki/CINEMA_4D)). Vďaka svojej širokej prispôsobivosti však môže FreeCAD poslúžiť užívateľom vo väčšom spektre oblastí, než na aké sa prvotne zameriava.
+
+
+</div>
 
 FreeCAD hojne využíva knižnice s otvoreným zdrojovým kódom, ktoré existujú v oblasti [vedeckých výpočtov](http://en.wikipedia.org/wiki/Scientific_Computation). Medzi nimi sú výkonné CAD jadro [Open Cascade Technology (OCCT)](http://OpenCascade.org); [Coin3D](https://github.com/coin3d/coin/wiki), súprava nástrojov na vývoj 3D grafiky kompatibilná s [Open Inventorom](http://en.wikipedia.org/wiki/Open_Inventor); svetoznáma knižnica na tvorbu užívateľského rozhrania [Qt](http://www.qt.io/) a moderný skriptovací jazyk [Python](http://www.python.org). Samotný FreeCAD môže byť takisto použitý aj ako knižnica v iných programoch.
 
@@ -24,7 +42,17 @@ Viac informácií o vlastnostiach FreeCADu nájdete v [zozname vlastností](Feat
 
 Projekt FreeCAD začal v roku 2001 a jeho príbeh je popísaný na stránke [história](history.md).
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD je udržiavaný a vyvíjaný komunitou nadšených vývojárov a používateľov (pozrite si stránku [prispievatelia](contributors.md)). Na FreeCADe pracujú dobrovoľne a vo svojom voľnom čase. Nevedia zaručiť, že FreeCAD obsahuje všetko, čo by ste od neho očakávali, ale na vývoji pracujú najlepšie, ako sa len dá! Komunita sa stretáva na [diskusnom fóre](http://forum.freecadweb.org), kde sa preberá väčšina nápadov a rozhodnutí. Neváhajte a pridajte sa k nám!
+
+
+</div>
+
+### About the FPA 
+
+The FreeCAD project is also supported by a non-profit organization, the [FreeCAD project association (FPA)](https://fpa.freecad.org). The FPA is an independent body created by some FreeCAD veterans in 2021 to collect [donations](donate.md) and other resources to support the project and its community, to help protect that community and allow it to continue developing in the best conditions, and to represent the project against other bodies such as companies and institutions.
 
 
 

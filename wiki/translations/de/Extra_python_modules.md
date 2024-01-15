@@ -215,7 +215,7 @@ self.doubleSpinBox.setToolTip(u"Coordinate placement Axis Y.")# PySide
 
 ### Zusätzliche Dokumentation 
 
--   [Qt official documentation site](https://doc.qt.io/qt.html#qtforpython)
+-   [Seite der offiziellen Qt-Dokumentation](https://doc.qt.io/qt.html#qtforpython)
 
 ## Pivy
 
@@ -664,10 +664,6 @@ Um den IfcPython wrapper zu erstellen, muss SWIG installiert werden. Bitte lade 
 ### Verweise
 
 Tutorium [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
-
-### Installation 
-
-Auf allen Plattformen, nur durch Installation des entsprechenden Pakets von [ODA DWG-DXF Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Nach der Installation, wenn das Dienstprogramm nicht automatisch von FreeCAD gefunden wird, musst Du möglicherweise den Pfad zur ausführbaren Konverterdatei manuell einstellen; öffne Bearbeiten → Einstellungen → Import-Export → DWG und fülle \"Pfad zum Teigha File Converter\" entsprechend aus.
 
 ## LazyLoader
 

@@ -2,33 +2,34 @@
  GuiCommand:
    Name: Draft Apply
    Name/pl: Rysunek Roboczy: Zastosuj bieżący styl
-   MenuLocation: Przybory , Zastosuj bieżący styl
+   MenuLocation: Narzędzia , Zastosuj bieżący styl
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    SeeAlso: Draft_SetStyle/pl
 ---
 
 # Draft ApplyStyle/pl
 
+
+
 ## Opis
 
 Polecenie środowiska Rysunek Roboczy <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Zastosuj bieżący styl** stosuje bieżące ustawienia stylu do wybranych obiektów.
 
-To polecenie obsługuje obecnie tylko pięć ustawień:
 
--    **Kolor linii**
-    
+{{VersionMinus/pl|0.21}}
 
--    **Szerokość linii**
-    
+: To polecenie obsługuje tylko pięć ustawień, które oferuje polecenie [Ustaw styl](Draft_SetStyle/pl.md).
 
--    **Kolor kształtu**
-    
 
--    **Rozmiar tekstu**
-    
+{{Version/pl|0.21}}
 
--    **Kolor tekstu**
-    
+: To polecenie zmienia właściwości widoku obiektów. Stosuje wszystkie ustawienia oferowane przez polecenie [Ustaw styl](Draft_SetStyle/pl.md). Zmienia również te dodatkowe właściwości:
+
+-    **Miejsca dziesiętne***(dla wymiarów)*: Zobacz stronę [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl#Teksty_i_wymiary.md).
+
+-    **WyświetlLinię***(dla wymiarów)*: Analogicznie.
+
+
 
 ## Użycie
 
@@ -36,9 +37,11 @@ To polecenie obsługuje obecnie tylko pięć ustawień:
 2.  Wybierz jeden lub więcej obiektów.
 3.  Wybierz z menu opcję **Przybory → <img src="images/Draft_ApplyStyle.svg" width=16px> Zastosuj bieżący styl**.
 
+
+
 ## Uwagi
 
--   W wersji FreeCAD v0.20 polecenie [Ustaw styl](Draft_SetStyle/pl.md) może również zastosować te ustawienia.
+-   Polecenie [Ustaw styl](Draft_SetStyle/pl.md) może również zastosować te ustawienia.
 
 
 

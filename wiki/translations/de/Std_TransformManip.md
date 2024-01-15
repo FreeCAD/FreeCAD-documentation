@@ -2,35 +2,48 @@
  GuiCommand:
    Name: Std TransformManip
    Name/de: Std Bewegen
-   MenuLocation: Rechtsklick auf ein Objekt in der Baumansicht , Transformieren
-Bearbeiten , Transformieren
+   MenuLocation: Bearbeiten , Bewegen
    Workbenches: Alle
-   SeeAlso: Std_Base/de
+   SeeAlso: Std_UserEditMode/de|Std BenutzerBearbeitungsModus
+
 ---
 
 # Std TransformManip/de
 
+
+
 ## Beschreibung
 
-Mit diesem Werkzeug können Rotations- und/oder Verschiebungswerte von Objekten inkrementell verändert werden.
+Das Werkzeug **Std Bewegen** ermöglicht Rotations- und Verschiebungswerte inkrementell auf ein Objekt anzuwenden.
 
-![](images/Manipulators.png )
+<img alt="" src=images/Std_TransformManip_Example.png  style="width:400px;">
+
+
 
 ## Anwendung
 
-1.  Dies kann für durch einen Rechtsklick auf das Objekt in der [Baumansicht](Tree_view/de.md) aktiviert werden. Für andere Objekte ist die Funktion auch mit einem Doppelklick auf das Objekt in der Baumansicht erreichbar.
-    -   Die linke Maustaste drücken und halten, während der Cursor auf einen Achspfeil zeigt und dann ziehen, um das Objekt in diese Richtung zu ziehen.
-    -   Die linke Maustaste drücken und halten, während der Cursor auf eine Kugel zeigt und dann ziehen, um das Objekt in dieser Achse zu drehen.
-    -   Durch die inkrementellen Parametern im [Aufgabenfenster können](Task_panel/de.md) die Bewegungen genau durchgeführt werden.
-2.  Mit der **OK** wird diese Funktion beendet.
+1.  Ein Objekt mit einer {{PropertyData/de|Placement}} auswählrn. Siehe [Hinweise](#Hinweise.md).
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Den Menüeintrag **Bearbeiten → <img src="images/Std_TransformManip.svg" width=16px> Bewegen** auswählen.
+    -   Die Menüoption **<img src="images/Std_TransformManip.svg" width=16px> Bewegen** im Kontextmenü der [Baumansicht](Tree_view/de.md) auswählen.
+    -   Ist der [Bearbeitungsmodus](Std_UserEditMode/de.md) auf **<img src="images/Std_UserEditModeTransform.svg" width=16px> Transformieren** gesetzt, kann ein Objekt in der Baumansicht doppelt angeklickt werden.
+3.  Der Aufgaben-Dialog **Schrittweiten** wird geöffnet.
+4.  Wahlweise die Schrittweiten der Parameter anpassen.
+5.  Zum Bewegen hat man folgende Möglichkeiten:
+    -   Die linke Maustaste auf einem Achspfeil drücken, halten und ziehen, um das Objekt entlang dieser Achse zu verschieben.
+    -   Die linke Maustaste auf einem Ebenensymbol drücken, halten und ziehen, um das Objekt auf dieser Ebene zu verschieben.
+    -   Die linke Maustaste auf einem Kugelsymbol drücken, halten und ziehen, um das Objekt um die zugehörige Achse zu drehen.
+6.  Zum Beenden des Befehls hat man folgende Möglichkeiten:
+    -   Die Schaltfläche **OK** drücken, um zu bestätigen und zu beenden.
+    -   Die Schaltfläche **Abbrechen** drücken, um die ausgeführten Bewegungen rückgängig zu machen und zu beenden. {{Version/de|0.22}}
+
+
 
 ## Hinweise
 
 -   Sobald das Objekt in der [3D-Ansicht](3D_view/de.md) verschoben/gedreht wird, werden diese Änderungen übernommen.
--   Es gibt keine Taste zum Abbrechen. Durch Betätigen der **OK**-Schaltfläche wird nur die Anwendung verlassen.
--   Es ist möglich, durch Beätigen der Schaltfläche <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Std Rückgängig](Std_Undo/de.md) nachträglich zurückzubauen.
-
-Die Wertefelder sind für inkrementellen Parameter, jedoch nicht für absolute Werte.
+-   Einige Objekte mit einer {{PropertyData/de|Placement}}, wie z.B. Skizzen, oder Objekte, die an anderen Objekten befestigt sind, können nicht bewegt werden.
+-   Es gibt keine Schaltfläche **Abbrechen** in {{VersionMinus/de|0.21}}, in diesen Versionen muss man zunächst die Schaltfläche **OK** drücken und anschließend den Befehl <img alt="" src=images/Std_Undo.svg  style="width:20px;"> [Rückgängig](Std_Undo/de.md) verwenden, um die Änderungen nachträglich rückgängig zu machen.
 
 
 

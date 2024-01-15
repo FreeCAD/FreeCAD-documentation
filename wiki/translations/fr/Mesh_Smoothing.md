@@ -12,7 +12,7 @@
 
 La commande **Lissage** lisse les objets maillés en modifiant la position de leurs sommets.
 
-![](images/Meshes_Smooth.jpg ) 
+<img alt="" src=images/Meshes_Smooth.jpg  style="width:350px;"> 
 *Le panneau des tâches Lissage après avoir choisi l'option Seulement la sélection*
 
 
@@ -20,8 +20,15 @@ La commande **Lissage** lisse les objets maillés en modifiant la position de le
 ## Utilisation
 
 1.  Si vous prévoyez de lisser uniquement certaines zones, notez que la commande utilise la couleur rouge pour marquer les faces sélectionnées pour cette option. Pour les voir correctement :
-    -   La **Display Mode** des objets maillés devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
-    -   La **Shape Color** des objets maillés ne doit pas être rouge.
+    -   
+        **Display Mode**
+        
+        des objets maillés devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
+
+    -   
+        **Shape Color**
+        
+        des objets maillés ne doit pas être rouge.
 2.  Sélectionnez un ou plusieurs objets maillés.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_Smoothing.svg" width=16px> [Lisser...](Mesh_Smoothing/fr.md)

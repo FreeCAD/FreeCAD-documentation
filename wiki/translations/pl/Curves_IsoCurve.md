@@ -1,39 +1,52 @@
 ---
  GuiCommand:
    Name: Curves IsoCurve
+   Name/pl: Krzywe: Krzywa ISO
    MenuLocation: Surfaces , IsoCurve
-   Workbenches: Curves_Workbench
-   SeeAlso: Curves_JoinCurve
+   Workbenches: Curves_Workbench/pl
+   SeeAlso: Curves_JoinCurve/pl
 ---
 
 # Curves IsoCurve/pl
 
-## Description
 
-The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves IsoCurve](Curves_IsoCurve.md) tool applies a UV oriented lattice on to a selected surface. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
+
+## Opis
+
+Polecenie <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> **Krzywa ISO** nakłada siatkę zorientowaną w UV na wybraną powierzchnię. Narzędzie to jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
 <img alt="" src=images/Curves_IsoCurve_Demo.jpg  style="width:600" height="400px;"> 
-*Above: shows the before (left) and after (right) surface applied IsoCurve*
+*Powyżej: pokazuje model przed ''(po lewej)'' i po ''(po prawej)'' nałożeniu powierzchni IsoCurve.*
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  Select an unique surface on the [3D view](3D_view.md)
-3.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> button
-    -   Use the **Surfaces → IsoCurve** entry from the Curves menu
-4.  A UV oriented lattice on the surface is created.
-5.  Change `NumberU` or/and `NumberV` to get more curves.
 
-## Notes
+## Użycie
 
--   Curves can be extracted as a subelement (e.g: with [Curves JoinCurves](Curves_JoinCurve.md)) for others uses or just to help to visualize the shape.
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Wybierz unikalną powierzchnię w oknie [ widoku 3D](3D_view/pl.md).
+3.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;">
+    -   Użyj polecenia z menu **Surfaces → IsoCurve**.
+4.  Zostanie utworzona siatka zorientowana UV na powierzchni.
+5.  Zmień właściwości `NumberU` lub / i `NumberV`, aby uzyskać więcej krzywych.
 
-## Limitations
 
-## Properties
 
-## Scripting
+## Uwagi
+
+-   Krzywe można wyodrębnić jako elementy podrzędne *(np. za pomocą narzędzia [Połącz krzywą](Curves_JoinCurve/pl.md))* do innych zastosowań lub po prostu w celu wizualizacji kształtu.
+
+
+
+## Ograniczenia
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

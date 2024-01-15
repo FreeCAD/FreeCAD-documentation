@@ -6,14 +6,9 @@ FreeCAD kan installeras på Mac OS X i ett steg genom att använda Installeraren
 
 </div>
 
+If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 
-{{DownloadMacStable}}
-
-and the weekly build can be downloaded from
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD through your bash terminal with
 
 
 ```python
@@ -57,8 +52,14 @@ Installeraren kommer att presentera en **Customize Installation** skärm som lis
 
 Det finns för närvarande ingen avinstallerare för FreeCAD. För att helt ta bort FreeCAD och alla installerade komponenter, dra följande filer och mappar till papperskorgen:
 
+
+<div class="mw-translate-fuzzy">
+
 -   I /Applications:
     -   FreeCAD
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

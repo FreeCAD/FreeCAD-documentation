@@ -1,28 +1,33 @@
 ---
  GuiCommand:
    Name: FEM Examples
-   MenuLocation: Utilities , Open FEM examples
-   Workbenches: FEM_Workbench
+   Name/pl: MES Przykłady
+   MenuLocation: Narzędzia , Otwórz przykłady
+   Workbenches: FEM_Workbench/pl
    Version: 0.19
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM Examples/pl
 
-## Description
 
-[FEM Examples](FEM_Examples.md) launches a graphical interface that allows you to access the different examples available in the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench.md) workbench.
+
+## Opis
+
+Uruchamia interfejs graficzny dający dostęp do różnych przykładów dostępnych w <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [środowisku pracy MES](FEM_Workbench/pl.md).
 
 ![](images/FEM_Example_gui.png ) 
-*The example selection dialog*
+*Okno dialogowe wyboru przykładów.*
 
-## Usage
 
-1.  The examples will use one of the [finite element solvers](FEM_Solver.md) that the workbench supports. Therefore the necessary [FEM solver](FEM_Solver.md) must be installed before they can be run.
-2.  Select the **Utilities → <img src="images/FEM_Examples.svg" width=16px> Open FEM examples** option from the menu.
-3.  The **FEM Examples** view opens with various categories, **All**, **Constraints**, **Equations**, **Materials**, **Meshes**, **Solvers**.
-4.  Open the categories, select one example, and press **Setup** to open the simulation case only.
-5.  Or press **Run** to open the case, and start the simulation, so that the results are available.
+
+## Użycie
+
+1.  Przykłady korzystają z jednego z [solverów MES](FEM_Solver/pl.md), które to środowisko pracy wspiera. Zatem odpowiedni [solver](FEM_Solver/pl.md) musi być zainstalowany przed uruchomieniem przykładów.
+2.  Wybierz opcję **Narzędzia → <img src="images/FEM_Examples.svg" width=16px> Otwórz przykłady** z menu lub wciśnij przycisk **<img src="images/FEM_Examples.svg" width=16px> [Otwórzy przykłady](FEM_Examples/pl.md)**.
+3.  Otworzy się okno **FEM Examples** z różnymi kategoriami, **All**, **Constraints**, **Equations**, **Materials**, **Meshes**, **Solvers**.
+4.  Otwórz kategorię, wybierz przykład i wciśnij przycisk **Setup** aby tylko otworzyć przypadek analizy.
+5.  Lub wciśnij przycisk **Run** aby otworzyć przypadek i uruchomić obliczenia, tak by dostępne były wyniki.
 
 
 

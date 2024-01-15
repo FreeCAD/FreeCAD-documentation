@@ -11,27 +11,16 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Gomme** efface les objets cosmétiques de la page. Les objets cosmétiques sont :
-
-
-</div>
+L\'outil **TechDraw Gomme** efface les objets cosmétiques. Les objets cosmétiques comprennent les sommets cosmétiques, les lignes cosmétiques et les lignes centrales.
 
 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez un ou plusieurs objets cosmétiques sur une page.
-2.  Appuyez sur le bouton de la barre du menu **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> Supprimer l'objet cosmétique**.
-3.  Les objets cosmétiques sélectionnés seront supprimés.
-
-
-</div>
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Supprimer l'objet cosmétique](TechDraw_CosmeticEraser/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_CosmeticEraser.svg" width=16px> Supprimer l'objet cosmétique** du menu.
 
 
 

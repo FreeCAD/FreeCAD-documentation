@@ -1,5 +1,5 @@
 # Manual:Creating FEM analyses/pl
-{{Manual:TOC/pl}}
+{{Manual:TOC}}
 
 MES to skrót od [Metoda Elementów Skończonych](https://en.wikipedia.org/wiki/Finite_element_method). Jest to rozległy temat matematyczny, ale w FreeCAD możemy myśleć o nim jako o sposobie obliczania rozchodzenia się energii wewnątrz obiektu 3D, poprzez pocięcie go na małe kawałki i przeanalizowanie wpływu każdego małego kawałka na jego sąsiadów. Ma to wiele zastosowań w inżynierii i elektromagnetyzmie, ale my skupimy się na jednym z zastosowań, które jest już dobrze rozwinięte w programie FreeCAD, a mianowicie na symulacji deformacji obiektów poddawanych działaniu sił i ciężarów.
 
@@ -79,7 +79,7 @@ Wyniki wyświetlane za pomocą programu MES nie są oczywiście obecnie wystarcz
 
 -   Plik utworzony podczas tego ćwiczenia: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/fem.FCStd>
 
-**Więcej informacji**
+**Więcej informacji:**
 
 -   [Środowisko pracy MES](FEM_Workbench/pl.md)
 -   [Instalacja środowiska MES](FEM_Install/pl.md)

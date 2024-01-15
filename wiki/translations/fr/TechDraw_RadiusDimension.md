@@ -11,13 +11,7 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Cote de rayon** ajoute une dimension de rayon à une vue. La cote peut être appliquée à n\'importe quel bord du dessin, que ce soit un cercle ou un arc de cercle. La distance sera initialement la distance projetée (c\'est-à-dire, comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle à l\'aide de l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)**.
-
-
-</div>
+L\'outil **TechDraw Cote de rayon** ajoute une cote de rayon à une vue. Cette cote peut être appliquée à toute arête qui est un cercle ou un arc de cercle.
 
 <img alt="" src=images/TechDraw_Dimension_Radius_example.png  style="width:130px;"> 
 *Mesurer un cercle, indiquant le rayon*
@@ -26,45 +20,36 @@ L\'outil **TechDraw Cote de rayon** ajoute une dimension de rayon à une vue. La
 
 ## Comment faire 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez un cercle ou un arc de cercle dans le dessin. (Remarquez que certains arcs qui semblent être circulaires sont en fait des ellipses ou des B-splines. Vous ne pouvez pas créer de cote de rayon dans ces cas-là)
-2.  Appuyez sur le bouton **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Insérer une cote de rayon](TechDraw_RadiusDimension/fr.md)
-**
-3.  Une dimension sera ajoutée à la vue. La dimension peut être déplacée à la position désirée.
-4.  Si nécessaire, ajoutez des tolérances comme décrit dans [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
-
-
-</div>
-
-### Display 3D measurement 
-
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
-
-### Change properties 
+1.  Sélectionnez un cercle ou un arc de cercle. La géométrie peut être sélectionnée dans la [vue 3D](3D_view/fr.md) ou dans le dessin. Notez que certains arcs qui semblent circulaires sont en fait des ellipses ou des B-splines. Dans ce cas, vous ne pouvez pas définir une dimension de rayon.
+2.  Si vous avez sélectionné une géométrie dans la vue 3D : ajoutez la bonne vue TechDraw à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Insérer une cote de rayon](TechDraw_RadiusDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_RadiusDimension.svg" width=16px> Insérer une cote de rayon** du menu.
+4.  Une cote est ajoutée à la vue.
+5.  La cote peut être déplacée jusqu\'à la position souhaitée.
+6.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tol.C3.A9rances.md).
 
 
-<div class="mw-translate-fuzzy">
+
+### Affichage des mesures 3D 
+
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Affichage_des_mesures_3D.md).
+
+
+
+### Changer les propriétés 
 
 Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira la [Boîte de dialogue Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
 
-
-</div>
-
 ## Limitations
 
-
-<div class="mw-translate-fuzzy">
-
-Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md)
 
 
-</div>
 
-## Notes
+## Remarques
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Remarques/fr.md).
 
 
 
@@ -82,10 +67,10 @@ L\'outil Cote de rayon peut être utilisé dans des [macros](Macros/fr.md) et à
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::DrawViewDimension", "Dimension")
 dim1.Type = "Radius"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
+dim1.References2D=[(view1, "Edge1")]
+page.addView(dim1)
 ```
 
 

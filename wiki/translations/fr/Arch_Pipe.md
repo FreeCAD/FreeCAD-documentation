@@ -15,10 +15,12 @@
 
 Cet outil vous permet de créer des conduites à partir de zéro ou à partir d\'objets basés sur (Draft, Sketch, etc..) sélectionnés et contenant une et une seule polyligne ouverte.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez une forme linéaire [Part](Part_Workbench/fr.md) telle qu\'une [Draft Ligne](Draft_Line/fr.md), un [Draft Polyligne](Draft_Wire.md) ou une [Esquisse](Sketcher_NewSketch/fr.md) ouverte.
-2.  Appelez cette commande en utilisant plusieurs méthodes:
+2.  Appelez cette commande en utilisant plusieurs méthodes :
     -   En appuyant sur le bouton **<img src="images/Arch_Pipe.svg" width=16px> [Conduite](Arch_Pipe/fr.md)** dans la barre d\'outils.
     -   En appuyant sur le raccourci clavier **P** puis **I**.
     -   Depuis **Arch → Outils pour la tuyauterie → Conduite** dans le menu supérieur.
@@ -26,6 +28,8 @@ Cet outil vous permet de créer des conduites à partir de zéro ou à partir d\
 ## Options
 
 -   Conduite partage les propriétés et comportements communs à tous les [Arch Composants](Arch_Component/fr.md)
+
+
 
 ## Propriétés
 
@@ -36,6 +40,8 @@ Cet outil vous permet de créer des conduites à partir de zéro ou à partir d\
 -    **Base**: polyligne de base de cette conduite, le cas échéant
 
 -    **Profile**: profil de base de cette conduite. S\'il n\'est pas donné, la conduite est cylindrique.
+
+
 
 ## Processus de travail typique 
 
@@ -72,6 +78,8 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 -   Changer le rayon de courbure ne modifie pas la longueur résultante du tracé des conduites (pour changer la résultante, vous devez changer le départ et l\'arrivée des conduites). Vous pouvez donc tracer votre chemin de lignes sans vous soucier des courbes et rayon des coudes.
 
 Il est aussi possible de créer une Arch conduite sans ligne de base, dans ce cas utilisez la propriété \"Length\" pour définir la longueur.
+
+
 
 ## Script
 

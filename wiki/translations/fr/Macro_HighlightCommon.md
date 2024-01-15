@@ -1,13 +1,14 @@
 # Macro HighlightCommon/fr
 {{Macro/fr
 |Name=HightlightCommon
+|Name/fr=HightlightCommon
 |Icon=Macro_HighlightCommon.png
 |Description=Mise en évidence des parties communes en affichant la forme commune en rouge et en définissant une demi-transparence sur les parties originales (les objets originaux ne sont pas modifiés).
 |Author=JMG
 |Version=2.3.2
 |Date=2021-07-01
 |FCVersion=0.17 et au dessus
-|Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/8/85/Macro_HighlightCommon.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -26,9 +27,11 @@ Icône de la barre d\'outils ![](images/Macro_HighlightCommon.png )
 
 **Macro_HighlightCommon.FCMacro**
 
-Le code est visible sur Github : [Utility/HighlightCommon.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
+Le code est visible sur GitHub : [Utility/HighlightCommon.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightCommon.FCMacro).
 
-## Links
+
+
+## Liens
 
 -   Ici la macro complémentaire [Macro_HighlightDifference](Macro_HighlightDifference/fr.md)
 -   Mon blog [Linux for an engineer](http://linuxforanengineer.blogspot.com.es/) pour le code et d\'autres macros intéressantes pour FreeCAD

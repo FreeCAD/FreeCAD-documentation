@@ -1,46 +1,37 @@
 ---
  GuiCommand:
    Name: Arch Rebar ColumnReinforcement
-   Name/de: Architektur Bewehrung Säulenverstärkung
-   MenuLocation: Architektur , Rebar Tools , Säulenverstärkung oder 3D/BIM , Reinforcement tools , Stützenbewehrung 
-   Workbenches: Arch_Workbench, BIM Workbench
+   Name/de: Arch Armierung Säulenbewehrung
+   MenuLocation: Arch , Rebar Tools , Säulenbewehrung<br>3D/BIM , Reinforcement tools , Säulenbewehrung 
+   Workbenches: Arch_Workbench/de, BIM Workbench/de
    Version: 0.19
-   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_Helical/de, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars
+   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_Helical/de, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de
 ---
 
 # Arch Rebar ColumnReinforcement/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Das [StützenVerstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md)-Objektes zu erzeugen.
+Das Werkzeug [Armierung Säulenbewehrung](Arch_Rebar_ColumnReinforcement/de.md) ermöglicht dem Anwender, Bewehrungsstäbe innerhalb einer Säule ([Struktur](Arch_Structure/de.md)-Objekt) zu erzeugen.
 
-Das [Arch Stützenverstärkung](Arch_Rebar_ColumnReinforcement/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das Werkzeug [Armierung Säulenbewehrung](Arch_Rebar_ColumnReinforcement/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
-
-
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_example.png  style="width:400px;"> 
-*Stützenbewehrung innerhalb eines Stütze [Architektur Struktur](Arch_Structure/de.md)*
+*Säulenbewehrung innerhalb einer Säule [Arch-Struktur](Arch_Structure/de.md)*
 
 
 
 ## Anwendung
 
-1\. Wähle eine Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekt.
-2. Wähle dann **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Stützen Verstäkung](Arch_Rebar_ColumnReinforcement.md)** aus den Bewehrungs-Werkzeugen.
-3. Eine Dialog-Box wird sich öffnen, wie unten gezeigt.
+1\. Eine Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekts auswählen.
+2. Dann **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Säulenbewehrung](Arch_Rebar_ColumnReinforcement.md)** aus den Bewehrungswerkzeugen auswählen.
+3. Ein Dialogfenster wird geöffnet, wie unten gezeigt.
 <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
-*Dialog-Box für das Arch-Bewehrung-Stützenverstärkungs-Werkzeug*
+*Dialog-Box für das Werkzeug Arch Armierung Säulenbewehrung*
 
 4\. Wähle den gewünschten Typ von Säulenverstärkung.
 5. Mache Eingaben zu Daten bzgl. Spannankern
@@ -146,15 +137,11 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Stützenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole, durch Anwendung der folgenden Funktion verwendet werden:
+Das Werkzeug Säulenbewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
-</div>
 
-### Create Single Tie Four Rebars 
+### Einzel Binder mit vier Stäben erstellen 
 
 
 ```python
@@ -371,7 +358,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_hook_extension`is the length of hook of main LShaped rebars.
 
--    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) and (xdir_rebars_b\_offset, ydir_rebars_b\_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
+-    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t_offset, ydir_rebars_t_offset) and (xdir_rebars_b_offset, ydir_rebars_b_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
 
 -    `sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
 
@@ -588,15 +575,6 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
     facename=None,
 )
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

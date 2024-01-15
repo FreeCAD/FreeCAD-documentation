@@ -17,7 +17,7 @@ L\'outil <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [Termi
 
 ## Utilisation
 
-1.  Sélectionnez deux arêtes qui partagent un sommet commun.
+1.  Sélectionnez une arête.
 2.  Il y a plusieurs façons de lancer cette commande :
     -   Appuyez sur le bouton **<img src="images/Path_SelectLoop.svg" width=16px> [Terminer la boucle de sélection](Path_SelectLoop/fr.md)**.
     -   Sélectionnez la commande **Path → <img src="images/Path_SelectLoop.svg" width=16px> Terminer la boucle de sélection** dans le menu.

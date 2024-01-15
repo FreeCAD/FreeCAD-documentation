@@ -1,91 +1,108 @@
 ---
  GuiCommand:
    Name: Draft WorkingPlaneProxy
-   MenuLocation: Utilities , Create working plane proxy
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_SelectPlane
+   Name/pl: Rysunek Roboczy: Pośrednia płaszczyzna robocza
+   MenuLocation: Narzędzia , Pośrednia płaszczyzna robocza
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_SelectPlane/pl
 ---
 
 # Draft WorkingPlaneProxy/pl
 
-## Description
 
-The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft WorkingPlaneProxy** command creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md). A working plane proxy can be used to quickly restore a working plane. The camera position and visibility of the objects in the [3D view](3D_view.md) are also saved in the working plane proxy and can, [optionally](#Properties.md), be restored as well.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Pośrednia płaszczyzna robocza** tworzy proxy płaszczyzny roboczej w celu zapisania bieżącej [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Pośrednia płaszczyzna robocza może być użyta do szybkiego przywrócenia płaszczyzny roboczej. Ujęcie widoku i widoczność obiektów w oknie [widoku 3D](3D_view/pl.md) są również zapisywane w obiekcie pośrednim płaszczyzny roboczej i mogą, [opcjonalnie](#Właściwości.md), zostać przywrócone.
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
-*Three working plane proxies showing different orientations and offsets*
+*Trzy pośrednie płaszczyzny robocze pokazujące różne orientacje i przesunięcia.*
 
-## Usage
 
-1.  Optionally change the [working plane](Draft_SelectPlane.md).
-2.  Optionally change the [3D view](3D_view.md).
-3.  Optionally change the visibility state of objects in the document.
-4.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Create working plane proxy** option from the menu.
-5.  A working plane proxy is created.
-6.  To align the [working plane](Draft_SelectPlane.md) with a working plane proxy, double-click the working plane proxy in the [Tree view](Tree_view.md) or use it with the [Draft SelectPlane](Draft_SelectPlane.md) command.
+
+## Użycie
+
+1.  Opcjonalnie zmień [płaszczyznę roboczą](Draft_SelectPlane/pl.md).
+2.  Opcjonalnie można zmienić ujęcie [widoku 3D](3D_view/pl.md).
+3.  Opcjonalnie można zmienić widoczność obiektów w dokumencie.
+4.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> '''Pośrednia płaszczyzna robocza''**.
+    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Pośrednia płaszczyzna robocza**.
+5.  Zostanie utworzona pośrednia płaszczyzna robocza.
+6.  Aby wyrównać [płaszczyznę roboczą](Draft_SelectPlane/pl.md) z pośrednią płaszczyzną roboczą, kliknij dwukrotnie pośrednią płaszczyznę roboczą w [widoku drzewa](Tree_view/pl.md) lub użyj polecenia [Wybór płaszczyzny](Draft_SelectPlane/pl.md).
+
+
 
 ## Menu podręczne 
 
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
+W przypadku Pośredniej płaszczyzny roboczej środowiska Rysunek Roboczy te dodatkowe opcje są dostępne w menu kontekstowym [widoku drzewa](Tree_view/pl.md):
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Zapisz pozycję kamery**: aktualizuje właściwość **Wyświetlanie danych** proxy płaszczyzny roboczej z bieżącymi ustawieniami kamery [widoku 3D](3D_view/pl.md).
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
-
-## Notes
-
--   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+-    **<img src="images/Draft_SelectPlane.svg" width=16px>: Zapisz stan obiektów**: aktualizuje właściwość **Mapa widoczności** proxy płaszczyzny roboczej z bieżącym stanem widoczności obiektów w dokumencie.
 
 
-{{TitleProperty|Base}}
 
--    **Placement|Placement**: specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
+## Uwagi
 
--    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
-
-### View
+-   Pośrednie płaszczyzny robocze mogą być [przenoszone](Draft_Move/pl.md) i [obracane](Draft_Rotate/pl.md) jak każdy inny obiekt. Użyj <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Przyciągnij do środka](Draft_Snap_Center/pl.md), aby przyciągnąć je do punktu **Umiejscowienia**.
 
 
-{{TitleProperty|Base}}
 
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+## Właściwości
 
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
-
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
-
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
-
--    **View Data|FloatList**: specifies the camera position and settings.
-
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+Obiekt Pośrednia płaszczyznarobocza środowiska pracy Rysunek Roboczy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
+### Dane
 
--    **Display Size|Length**: specifies the length and width of the working plane proxy.
 
-## Scripting
+{{TitleProperty|Podstawa}}
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-    **Umiejscowienie|Placement**: określa pozycję proxy płaszczyzny roboczej w [widoku 3D](3D_view/pl.md). Aby dowiedzieć się więcej zapoznaj się z informacjami na stronie [Umiejscowienie](Placement/pl.md).
 
-To create a Draft WorkingPlaneProxy use the `make_workingplaneproxy` method of the Draft module.
+-    **Kształt|Hidden**: określa kształt pośredniej płaszczyzny roboczej.
 
-If the [Draft Workbench](Draft_Workbench.md) is active the FreeCAD application object has a `DraftWorkingPlane` property which stores the current working plane. The {{Incode|Placement}} from the {{Incode|getPlacement}} method of the `DraftWorkingPlane` object can be used to create an aligned working plane proxy. The {{Incode|Placement}} of a working plane proxy in turn can be used to realign the working plane.
+
+
+### Widok
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Kolor linii|Color**: określa kolor wszystkich elementów pośredniej płaszczyzny roboczej.
+
+-    **Szerokość linii|Float**: określa szerokość linii osi i symboli strzałek.
+
+-    **Przywróć stan|Bool**: określa, czy **Mapa widoczności** jest przywracana, gdy [płaszczyzna robocza](Draft_SelectPlane/pl.md) jest wyrównana z pośrednią płaszczyzną roboczą.
+
+-    **Przywróć widok|Bool**: określa, czy **Widok danych** jest przywracany, gdy [płaszczyzna robocza](Draft_SelectPlane/pl.md) jest wyrównana z pośrednią płaszczyzną roboczą.
+
+-    **Widoczność|Percent**: określa przezroczystość powierzchni pośredniej płaszczyzny roboczej.
+
+-    **Widok danych|FloatList**: określa pozycję i ustawienia kamery.
+
+-    **Mapa widoczności|Map|ukryte**: określa stan widoczności obiektów.
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Rozmiar strzałki|Length**: określa rozmiar symboli strzałek wyświetlanych na końcu trzech osi.
+
+-    **Wyświetlany rozmiar|Length**: określa długość i szerokość pośredniej płaszczyzny roboczej.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć Pośrednią płaszczyznę roboczą środowiska Rysunek Roboczy należy użyć metody `make_workingplaneproxy` modułu Rysunek Roboczy.
+
+Jeśli środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) jest aktywne, obiekt aplikacji FreeCAD posiada właściwość `DraftWorkingPlane`, która przechowuje bieżącą płaszczyznę roboczą. Wartość {{Incode|Umiejscowienie}} z metody {{Incode|getPlacement}} obiektu {{Incode|DraftWorkingPlane}} może być użyta do utworzenia wyrównanej pośredniej płaszczyzny roboczej. Z kolei {{Incode|Umiejscowienie}} pośredniej płaszczyzny roboczej może być użyte do wyrównania płaszczyzny roboczej.
 
 
 ```python

@@ -77,6 +77,8 @@ Dies sind Werkzeuge zum Erstellen neuer und Ändern vorhandener Objekte.
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Spiegeln](Part_Mirror/de.md): Spiegelt das ausgewählte Objekt über eine Spiegelebene.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Skalieren](Part_Scale.md): Skaliert eine oder mehrere Formen. {{Version/de|0.22}}
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Verrundung](Part_Fillet/de.md): Verrundet die Kanten eines Objekts.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fase](Part_Chamfer/de.md): Erstellt Fasen an den Kanten eines Objekts.
@@ -170,7 +172,7 @@ Zerschneidet und teilt ein Objekt, indem es mit anderen Objekten verschnitten wi
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Umwandeln in Festkörper](Part_MakeSolid/de.md): Wandelt ein Formobjekt in ein Festkörperobjekt um.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Umgekehrte Formen](Part_ReverseShapes/de.md): Kehrt die Normalen aller Flächen des ausgewählten Objekts um.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Formen umkehren](Part_ReverseShape/de.md): Kehrt die Normalen aller Flächen des ausgewählten Objekts um.
 
 -   Erstelle eine Kopie:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"><img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Einfache Kopie erstellen](Part_SimpleCopy/de.md): Erstellt eine einfache Kopie eines ausgewählten Objekts.

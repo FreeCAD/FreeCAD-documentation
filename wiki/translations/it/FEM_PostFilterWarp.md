@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -28,6 +30,8 @@ The result will be the same like with the *Displacement* slider of the [result s
 ![](images/FEM_Warp-Filter-Example.gif )
 
 *A warp filter of the displacement of a beam clamped on one side.*
+
+
 
 ## Utilizzo
 

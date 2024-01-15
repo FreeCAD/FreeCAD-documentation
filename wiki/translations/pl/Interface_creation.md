@@ -1,38 +1,44 @@
 # Interface creation/pl
-## Introduction
+## Wprowadzenie
 
-Power users have the possibility of [creating interfaces](Interface_creation.md) to help them produce complex tools for their custom [addons](Addon.md), such as [macros](Macros.md) or full [workbenches](Workbenches.md).
+Zaawansowani użytkownicy mają możliwość [tworzenia interfejsu](Interface_creation/pl.md), aby pomóc wytwarzać złożone narzędzia dla ich niestandardowych [dodatków](Addon/pl.md), takie jak [makrodefinicje](Macros/pl.md) lub pełne [środowiska pracy](Workbenches/pl.md).
 
-Interfaces are created using [PySide](PySide.md), which is a library for using Qt with [Python](Python.md).
+Interfejs jest tworzony przy użyciu biblioteki [PySide](PySide/pl.md), która umożliwia korzystanie z Qt w środowisku [Python](Python/pl.md).
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
-*Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
+*Dwie ogólne metody tworzenia interfejsów, poprzez włączenie interfejsu do pliku Python lub poprzez użycie plików `.ui*.`
 
-## Description
 
-There are typically two ways of creating interfaces with PySide.
 
-### Interface in a .ui file 
+## Opis
 
-In this method the interface is defined in a `.ui` file (an XML document that defines the structure of the interface), which is then imported into [Python](Python.md) code that uses it. This is the recommended approach.
+Istnieją zazwyczaj dwa sposoby tworzenia interfejsu za pomocą PySide.
 
--   It allows the programmer to work with the graphical interface separately from the logic that will use it.
--   It allows anybody to look at the interface alone, that is, the `.ui` file, without having to run Python code.
--   The `.ui` file may be designed by anybody without programming knowledge.
--   The `.ui` interface can be used in a standalone window (modal), or in an embedded window (non-modal); therefore, this method is ideal to create custom [task panels](Task_panel.md).
--   Since the `.ui` file just describes the \"appearance\" of the interface, it does not need to be tied to a particular programming language; it may be used both in [Python](Python.md) and C++ code.
 
-### Interface completely in Python code 
 
-In this method the entire interface is defined by several Python calls.
+### Interfejs w pliku .ui 
 
--   This is an older way of working with interfaces.
--   This method produces very verbose code because many details of the interface need to be specified by hand.
--   It is not simple to separate the interface from the logic that uses that code, meaning that a user would need to run the [Python](Python.md) file in the correct context in order to see how the interface would look.
--   This method has the advantage that several interfaces may be contained within a single document, at the expense of making the file very large.
--   This method is recommended only for small interfaces that don\'t define more than a few widgets, for example in [macros](Macros.md).
+W tej metodzie interfejs jest zdefiniowany w pliku `.ui` (dokument XML, który definiuje strukturę interfejsu), który jest następnie importowany do kodu [Python](Python/pl.md), który go używa. Jest to zalecane podejście.
 
-For examples on this method see [Interface creation completely in Python](Dialog_creation.md).
+-   Pozwala programiście pracować z interfejsem graficznym oddzielnie od logiki, która będzie z niego korzystać.
+-   Pozwala to każdemu spojrzeć na sam interfejs, czyli plik `.ui`, bez konieczności uruchamiania kodu Python.
+-   Plik `.ui` może być zaprojektowany przez każdego bez wiedzy programistycznej.
+-   Interfejs `.ui` może być używany w samodzielnym oknie *(modalnym)* lub w oknie osadzonym *(niemodalnym)*, dlatego ta metoda jest idealna do tworzenia niestandardowych [paneli zadań](Task_panel/pl.md).
+-   Ponieważ plik `.ui` opisuje tylko \"wygląd\" interfejsu, nie musi być powiązany z konkretnym językiem programowania; może być używany zarówno w [Python](Python/pl.md), jak i w kodzie C++.
+
+
+
+### Interfejs w całości w kodzie Python 
+
+W tej metodzie cały interfejs jest definiowany przez kilka wywołań środowiska Python.
+
+-   Jest to starszy sposób pracy z interfejsem.
+-   Metoda ta tworzy bardzo rozwlekły kod, ponieważ wiele szczegółów interfejsu musi zostać określonych ręcznie.
+-   Nie jest łatwo oddzielić interfejs od logiki, która używa tego kodu, co oznacza, że użytkownik musiałby uruchomić plik [Python](Python/pl.md) w odpowiednim kontekście, aby zobaczyć, jak wyglądałby interfejs.
+-   Ta metoda ma tę zaletę, że kilka interfejsów może być zawartych w jednym dokumencie, kosztem tego, że plik jest bardzo duży.
+-   Ta metoda jest zalecana tylko dla małych interfejsów, które nie definiują więcej niż kilka widżetów, na przykład w [makrodefinicjach](Macros/pl.md).
+
+Przykłady tej metody można znaleźć w [Tworzenie interfejsu całkowicie w kodzie Python](Interface_creation/pl#Interface_completely_in_Python_code.md).
 
 
 

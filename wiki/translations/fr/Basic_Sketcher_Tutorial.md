@@ -44,8 +44,8 @@ Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de réfé
 Quelques actions à retenir:
 
 -   Appuyez sur le bouton droit de la souris ou appuyez une fois sur **Echap** sur le clavier pour désélectionner l\'outil actif en mode édition.
--   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [Panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
--   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
+-   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
+-   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](Tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier une esquisse](Sketcher_EditSketch/fr.md)**.
 
 
 
@@ -124,7 +124,7 @@ Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **[<img 
 5\. Créez une série d\'arcs.
 
 :   5.1. Cliquez sur **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Sketcher Créer un arc...](Sketcher_CreateArc/fr.md)**.
-:   5.2. Approchez-vous de l\'extrémité de l\'une des lignes de construction et cliquez dessus. Cela définira le point central de l\'arc circulaire sur <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincidant](Sketcher_ConstrainCoincident/fr.md) avec l\'extrémité de cette ligne.
+:   5.2. Approchez-vous de l\'extrémité de l\'une des lignes de construction et cliquez dessus. Cela définira le point central de l\'arc circulaire <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coïncidant](Sketcher_ConstrainCoincident/fr.md) avec l\'extrémité de cette ligne.
 :   5.3. Cliquez une fois dans la [vue 3D](3D_view/fr.md) à un emplacement arbitraire pour définir simultanément le rayon de l\'arc et son premier point final. Définissez un rayon approximatif de {{Value|8 mm}}.
 :   5.4. Déplacez le pointeur dans le sens inverse des aiguilles d\'une montre pour tracer un arc dont la concavité pointe vers l\'origine de l\'esquisse. Cliquez pour définir le point final de l\'arc, en définissant un arc circulaire qui balaye approximativement {{Value|180°}} ou un demi-cercle.
 :   5.5. Répétez ces étapes avec chaque ligne de construction, de sorte que chacune d\'elles ait un arc circulaire à son extrémité. Nous appellerons ces arcs O-arcs pour les arcs extérieurs.

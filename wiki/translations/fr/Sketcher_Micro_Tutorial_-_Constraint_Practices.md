@@ -35,8 +35,8 @@ Il est préférable d\'utiliser une **contrainte géométrique** à la place d\'
 Quelques actions à retenir :
 
 -   Appuyez sur le bouton droit de la souris ou appuyez une fois sur **Echap** sur le clavier pour désélectionner l\'outil actif en mode édition.
--   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [Panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
--   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
+-   Pour quitter le mode d\'édition d\'esquisse, appuyez sur le bouton **Fermer** dans le [panneau des tâches](Task_Panel/fr.md) ou appuyez deux fois sur **Echap** au le clavier.
+-   Pour entrer à nouveau en mode édition, double-cliquez sur l\'esquisse dans la [vue en arborescence](Tree_view/fr.md) ou sélectionnez-la puis cliquez sur **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Sketcher Modifier une esquisse](Sketcher_EditSketch/fr.md)**.
 
 
 

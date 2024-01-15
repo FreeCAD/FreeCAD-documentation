@@ -21,17 +21,23 @@ L\'outil Solveur FH insère un objet de type Solveur FH.
 
 *Objet Solveur FH*
 
+
+
 ## Utilisation
 
-Pour insérer un objet de type Solveur FH dans le document:
+Pour insérer un objet de type Solveur FH dans le document :
 
 1.  Appuyez sur le bouton **<img src="images/EM_FHSolver.svg" width=16px> [EM FHSolver](EM_FHSolver/fr.md)** ou appuyez sur les touches **E** puis **X**.
+
+
 
 ### Remarques
 
 -   L\'objet Solveur FH représente les directives FastHenry qui sont nécessaires dans les sections communes du fichier d\'entrée FastHenry pour définir les paramètres de simulation, comme par exemple la liste des points de fréquence auxquels la simulation doit être exécutée, les unités de mesure par défaut, etc\... ainsi que le nom du fichier de sortie et le dossier de création du fichier d\'entrée FastHenry.
 
 -   Vous ne devez avoir qu\'un seul objet Solveur FH par document. Si plusieurs objets Solveur FH sont présents, seul le premier sera pris en compte.
+
+
 
 ## Propriétés
 
@@ -57,14 +63,16 @@ Pour insérer un objet de type Solveur FH dans le document:
 
 -    **Filename**: le nom du fichier de simulation lors de l\'exportation au format de fichier d\'entrée FastHenry
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Solveur FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Solveur FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -73,7 +81,7 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -   Crée un objet `FHSolver`.
 
--    `units`est l\'unité de mesure FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Les valeurs autorisées sont: \"km\", \"m\", \"cm\", \"mm\", \"um\", \"in\", \"mils\". La valeur par défaut est `EMFHSOLVER_DEFUNITS`
+-    `units`est l\'unité de mesure FastHenry. Chaque unité dans FreeCad sera une unité de l\'unité de mesure correspondante dans FastHenry. Les valeurs autorisées sont : « km », « m », « cm », « mm », « um », \"in\", \"mils\". La valeur par défaut est `EMFHSOLVER_DEFUNITS`
 
 -    `sigma`est la conductivité par défaut du flotteur. La valeur par défaut est `EMFHSOLVER_DEF_SEGSIGMA`.
 
@@ -97,7 +105,7 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -    `name`est le nom de l\'objet
 
-Exemple:
+Exemple :
 
 
 ```python

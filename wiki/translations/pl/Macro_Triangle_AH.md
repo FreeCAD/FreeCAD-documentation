@@ -1,20 +1,19 @@
 # Macro Triangle AH/pl
 {{Macro
 |Name=Macro Triangle AH
-|Icon=Macro_Triangle_AH.png
 |Description=This macro create one triangle creates a triangle by giving the head angle and the height of the triangle. The new triangle is created in the real coordinate.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019/07/02
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/4/41/Macro_Triangle_AH.png ToolBar Icon]
 }}
 
 ## Description
 
-This macro create one isosceles triangle by giving the head angle and the height of the triangle (the triangle of the head is positioned to the xyz coordinates 0.0.0)
+This macro create one isosceles triangle by giving the head angle and the height of the triangle. The triangle of the head is positioned to the xyz coordinates 0.0.0.
 
-## Use
+## Usage
 
 Copy the macro **Triangle AH** complete in the Python console FreeCAD
 

@@ -40,8 +40,6 @@ Ten poradnik przeprowadzi Cię przez proces wymodelowania części pokazanej na 
 
 -   Kliknij na <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [**Nowy szkic**](Sketcher_NewSketch/pl.md). Albo z menu podrzędnego w oknie zadania po lewej stronie, albo z paska narzędziowego powyżej, albo z menu Projekt Części na górze.
 
-[800px\|center](Plik:TBHS-1.JPG.md)
-
 <img alt="" src=images/TBHS-1.JPG  style="width:800px;">
 
 W oknie dialogowym zostanie wyświetlony monit o wybranie orientacji szkicu i podanie odsunięcia.
@@ -61,390 +59,431 @@ Jesteś teraz zwrócony do płaszczyzny XY z góry i masz dostęp do narzędzi k
 
 Masz teraz pływający prostokąt o nieokreślonych wymiarach.
 
--   Click on a line of the rectangle, you now have access to the constraint tools at the right of the toolbar (depending of the size of your screen you may need to drag them to the left in order to see them all)
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 80mm, click OK.
--   Repeat with the other side of the rectangle, also 80mm.
+-   Kliknij linię prostokąta, aby uzyskać dostęp do narzędzi wiązań po prawej stronie paska narzędzi *(w zależności od rozmiaru ekranu może być konieczne przeciągnięcie ich w lewo, aby zobaczyć je wszystkie)*.
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md)
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź {{Value|80 mm}} i kliknij **OK**.
+-   Powtórz czynność z drugim bokiem prostokąta, również wpisując {{Value|80 mm}}.
 
 <img alt="" src=images/TBHS-4.JPG  style="width:800px;">
 
 Masz teraz ruchomy kwadrat.
 
--   Click on the lower left point of the square.
--   Click on the origin of the XY plane (at the intersection of the two thick lines).
--   Click on <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Coincident**](Sketcher_ConstrainCoincident_‎.md).
+-   Kliknij lewy dolny punkt kwadratu.
+-   Kliknij na początek płaszczyzny XY *(na przecięciu dwóch grubych linii)*.
+-   Kliknij na <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md).
 
 <img alt="" src=images/TBHS-5.JPG  style="width:800px;">
 
-You now have a totally constrained sketch, as you are told by the solver on the left and the change of color. It is a good practice to always have a totally constrained sketch.
+Masz teraz całkowicie związany szkic, o czym informuje Cię solwer po lewej stronie i zmiana jego koloru. Dobrą praktyką jest posiadanie zawsze całkowicie zawężonego szkicu.
 
-An under-constrained sketch can leave room for unwanted change, if you modify something later on.
+Niedostatecznie związany szkic może pozostawić miejsce na niechciane zmiany, jeśli zmodyfikujesz coś później.
 
-On the opposite, an over-constrained sketch is also not good. In that case the solver warn you of redundant constraints and you should remove some of them.
+Z drugiej strony, szkic z nadmiernymi więzami również nie jest dobry. W takim przypadku solwer ostrzega o nadmiarowych wiązaniach i należy usunąć niektóre z nich.
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Aby opuścić szkic, kliknij przycisk **Zamknij** po lewej stronie lub ikonę <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> na pasku narzędzi lub naciśnij **ESC**.
 
 <img alt="" src=images/TBHS-6.JPG  style="width:800px;">
 
-You now only see the square, and the contextual task menu on the left show you more options than before.
+Teraz widzisz tylko kwadrat, a menu kontekstowe zadań po lewej stronie pokazuje więcej opcji niż wcześniej.
 
-### Create a pad 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
--   Enter 4mm and click OK.
+
+### Utwórz wyciągnięcie 
+
+-   Kliknij na widok <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Aksonometryczny** wśród standardowych widoków, aby lepiej zobaczyć, co się stanie.
+-   Kliknij na <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Wyciągnięcie**.
+-   Wprowadź {{Value|4 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS-7.JPG  style="width:800px;">
 
-Your sketch is now in volume !
+Twój szkic ma teraz objętość!
 
-### Create a sketch on it 
 
--   Select the upper face
+
+### Utwórz na nim szkic 
+
+-   Wybierz górną powierzchnię
 
 <img alt="" src=images/TBHS-8.JPG  style="width:800px;">
 
-The color of the face change and you have more options in the contextual task menu.
+Zmienia się kolor ściany i dostępnych jest więcej opcji w menu podręcznym.
 
--   Click on <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**. As a face was selected it will not ask you to choose a plane.
+-   Kliknij na <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Utwórz szkic**. Ponieważ wybrano ścianę, nie zostanie wyświetlony monit o wybranie płaszczyzny.
 
 <img alt="" src=images/TBHS-9.JPG  style="width:800px;">
 
--   Click on <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [**Circle**](Sketcher_CreateCircle.md), click to place the center, move the pointer and click to define the radius.
--   Draw 4 circles on the pad (of any size)
--   Press **ESC** or click the right mouse button to stop using the tool.
+-   Kliknij na <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [**Utwórz okrąg**](Sketcher_CreateCircle/pl.md), kliknij ponownie aby umieścić środek, przesuń wskaźnik i kliknij, aby zdefiniować promień.
+-   Narysuj 4 okręgi na podkładce \'\'(o dowolnym rozmiarze)\'.\'
+-   Naciśnij **ESC** lub kliknij prawym przyciskiem myszy, aby zakończyć korzystanie z narzędzia.
 
 <img alt="" src=images/TBHS-10.JPG  style="width:800px;">
 
--   Select the circles
--   Click on <img alt="" src=images/Constraint_EqualLength.png  style="width:32px;"> [**Equal Length**](Sketcher_ConstrainEqual.md)
+-   Wybierz okręgi
+-   Kliknij na <img alt="" src=images/Constraint_EqualLength.png  style="width:32px;"> [**Wiązanie równości**](Sketcher_ConstrainEqual/pl.md).
 
 <img alt="" src=images/TBHS-11.JPG  style="width:800px;">
 
-Now the circles share the same radius.
+Teraz okręgi mają ten sam promień.
 
--   Click on <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [**External geometry**](Sketcher_External.md).
--   Click on the four sides of the square, it add lines, color magenta.
+-   Kliknij na <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Utwórz geometrię zewnętrzną](Sketcher_External/pl.md).
+-   Kliknij na cztery boki kwadratu, doda to linie, kolor magenta.
 
 <img alt="" src=images/TBHS-12.JPG  style="width:800px;">
 
-Theses lines will serve as reference to position the circles.
+Linie te posłużą jako odniesienie do pozycjonowania okręgów.
 
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md).
--   Click on a center of a circle.
--   Click on a magenta line.
--   Set distance (20mm from each side).
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Równanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Kliknij na środek okręgu.
+-   Kliknij na linię w kolorze magenta.
+-   Ustaw odległość *(20 mm z każdej strony)*.
 
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
--   Click on a circle
--   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md) and set it at 1,5mm.
+-   Kliknij na okrąg
+-   Kliknij na <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md) i ustaw go na {{Value|1,5mm}}.
 
 <img alt="" src=images/TBHS-14.JPG  style="width:800px;">
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Aby opuścić szkic, kliknij przycisk **Zamknij** po lewej stronie lub ikonę <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> na pasku narzędzi lub naciśnij **ESC**.
 
 <img alt="" src=images/TBHS-15.JPG  style="width:800px;">
 
-### Create a pad 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
--   Enter 25mm and click OK.
+
+### Utwórz wyciągnięcie 
+
+-   Kliknij na widok <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Aksonometryczny** wśród standardowych widoków, aby lepiej zobaczyć, co się stanie.
+-   Kliknij na <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Wyciągnij**.
+-   Wprowadź wartość {{Value|25 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS-16.JPG  style="width:800px;">
 
-You have the basic shape, it just need final touches.
+Masz już podstawowy kształt, potrzebujesz tylko ostatecznych poprawek.
 
-### Rounding the corners 
 
--   Holding **CTRL** click on the vertical edge at each corner to select the four of them.
 
-Don\'t hesitate to help you by switching the display mode (just at the left of the Axonometric View) between <img alt="" src=images/DrawStyleWireFrame.svg  style="width:32px;"> **Wireframe** and <img alt="" src=images/DrawStyleFlatLines.svg  style="width:32px;"> **Wireframe and shadow**.
+### Zaokrąglanie narożników 
+
+-   Przytrzymując **CTRL** kliknij pionową krawędź w każdym rogu, aby wybrać cztery z nich.
+
+Nie wahaj się pomóc, przełączając tryb wyświetlania (tuż po lewej stronie widoku aksonometrycznego) między <img alt="" src=images/DrawStyleWireFrame.svg  style="width:32px;"> **Szkieletowy** a <img alt="" src=images/DrawStyleFlatLines.svg  style="width:32px;"> **cieniowany z krawędziami**.
 
 <img alt="" src=images/TBHS-17.JPG  style="width:800px;">
 
--   Click on <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [**Fillet**](PartDesign_Fillet.md).
--   Set the radius at 20mm.
+-   Kliknij na <img alt="" src=images/PartDesign_Fillet.svg  style="width:32px;"> [**Zaokrąglenie**](PartDesign_Fillet/pl.md).
+-   Ustaw promień na {{Value|20 mm}}.
 
 <img alt="" src=images/TBHS-18.JPG  style="width:800px;">
 
-Much better.
+O wiele lepiej.
 
-### Making it more robust 
 
-We need to add material at the base of the cylinders to make them less prone to snap. Because of the printing orientation these small surfaces will be fragile at the junction with the base.
 
--   Select the circles at the base of the cylinders
+### Zwiększenie wytrzymałości 
+
+Musimy dodać materiał u podstawy cylindrów, aby były mniej podatne na pęknięcia. Ze względu na orientację drukowania te małe powierzchnie będą kruche na styku z podstawą.
+
+-   Wybierz okręgi u podstawy cylindrów.
 
 <img alt="" src=images/TBHS-19.JPG  style="width:800px;">
 
--   Click on <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [**Chamfer**](PartDesign_Chamfer.md).
--   Set it to 2mm.
+-   Kliknij na <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> [Sfazowanie](PartDesign_Chamfer/pl.md).
+-   Ustaw wartość {{Value|2 mm}}.
 
 <img alt="" src=images/TBHS-20.JPG  style="width:800px;">
 
-### Chamfer the edges 
 
--   Select the face under the base, add a <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Chamfer** of 0,5mm.
 
-The first layer of plastic is often being squashed a little too much, this will compensate that and save you time in cleaning the model. If the first layer is ok that will make it only nicer
+### Sfazowanie krawędzi 
+
+-   Wybierz powierzchnię pod podstawą, dodaj <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Sfazowanie** o wartości {{Value|0,5 mm}}.
+
+Pierwsza warstwa plastiku jest często nieco zbyt mocno zgnieciona, co zrekompensuje to i zaoszczędzi czas na czyszczenie modelu. Jeśli pierwsza warstwa jest w porządku, poprawi tylko wygląd.
 
 <img alt="" src=images/TBHS-21.JPG  style="width:800px;">
 
--   Select the edges at the border of the upper face (holding **CTRL** ).
+-   Wybierz krawędzie na granicy górnej powierzchni *(przytrzymując **CTRL**)*.
 
 <img alt="" src=images/TBHS-23.JPG  style="width:800px;">
 
--   Add a <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Chamfer** of 1mm. This one is only aesthetic.
+-   Dodaj <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Sfazowanie** {{Value|1 mm}}. To jest tylko kwestia estetyczna.
 
 <img alt="" src=images/TBHS-22.JPG  style="width:800px;">
 
-Tadaa !
+Gotowe !
 
-## Export as a .STL 
 
--   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the last feature (the chamfer).
+
+## Eksport do pliku .STL 
+
+-   W widoku Złożonym po lewej stronie, wybierz widok drzewa zamiast kontekstowego menu zadań, kliknij ostatnią cechę *(fazę)*.
 
 <img alt="" src=images/TBHS-24.JPG  style="width:800px;">
 
--   Now you can select \"Export\...\" from the File menu at the top left, and select the file format .STL.
--   Just print it :-)
+-   Teraz możesz wybrać \"Eksportuj\...\" z menu Plik w lewym górnym rogu i wybrać format pliku .STL.
+-   Wystarczy go wydrukować :-)
 
-## Inspiration
 
-The above model make a good starting point to use FreeCAD, but as a toothbrush head stand it have its flaws : due to the print orientation and small surface the sticks are prone to break.
 
-Inspired by the variety of solutions other people came up with, we will make this second version which will be much better.
+## Inspiracja
+
+Powyższy model stanowi dobry punkt wyjścia do korzystania z FreeCAD, ale jako stojak na główkę szczoteczki do zębów ma swoje wady: ze względu na orientację wydruku i małą powierzchnię drążki są podatne na złamania.
+
+Zainspirowani różnorodnością rozwiązań zaproponowanych przez inne osoby, stworzymy drugą wersję, która będzie znacznie lepsza.
 
 <img alt="" src=images/TBHS-v2.jpg  style="width:800px;">
 
-Don\'t worry it is often needed to go through several revision for an idea (e.g. : once the prototype on the picture was used, we added more space between the heads so that they should not touch).
+Nie martw się, często trzeba przejść przez kilka poprawek dla danego pomysłu *(np.: po użyciu prototypu na obrazku dodaliśmy więcej miejsca między główkami, aby się nie stykały)*.
 
-In this second part you will also learn to use more tools, like the powerful *Linear repetition*.
+W tej drugiej części nauczysz się również korzystać z większej liczby narzędzi, takich jak potężne \"powtórzenie liniowe\".
 
-## Second idea : a band 
 
--   Create a new document and select the ![](images/Workbench_PartDesign.svg‎‎ ) *Part Design* workbench.
 
-### Create a sketch 
+## Drugi pomysł: pasmo 
 
--   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**, on the XY plane.
+-   Utwórz nowy dokument i wybierz środowisko pracy ![](images/Workbench_PartDesign.svg ) **Projekt Części**.
+
+
+
+### Utwórz szkic 
+
+-   Utwórz <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Nowy szkic** na płaszczyźnie XY.
 
 <img alt="" src=images/TBHS-1.JPG  style="width:800px;">
 
--   Draw a <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [**Slot**](Sketcher_CreateSlot.md)
-    -   Click to place the first center
-    -   Move to define the length and radius
-    -   Click to set the second center.
+-   Narysuj <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Utwórz wpust](Sketcher_CreateSlot/pl.md),
+    -   Kliknij, aby umieścić pierwszy środek,
+    -   Przesuń, aby zdefiniować długość i promień,
+    -   Kliknij, aby ustawić drugi środek.
 
 <img alt="" src=images/TBHS2-1.JPG  style="width:800px;">
 
-You now have a floating slot of unspecified dimensions.
+Masz teraz pływający wpust o nieokreślonych wymiarach.
 
--   Click on one of the horizontal lines of the slot
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 75mm, click OK.
-    -   that\'s for a 3 head stand, count 25mm for each, if you want more
+-   Kliknij jedną z poziomych linii wpustu.
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wpisz {{Value|75 mm}} i kliknij **OK**.
+    -   Dotyczy to stojaka na 3 główki, policz 25 mm dla każdej, jeśli chcesz więcej
 
 <img alt="" src=images/TBHS2-2.JPG  style="width:800px;">
 
--   Click on one point of the horizontal line
--   Click on one point of the other horizontal line
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 29mm, click OK.
+-   Kliknij jeden punkt linii poziomej
+-   Kliknij na jeden punkt drugiej poziomej linii
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź {{Value|29 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-3.JPG  style="width:800px;">
 
--   Draw a <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [**Slot**](Sketcher_CreateSlot.md) around the first slot.
+-   Narysuj <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Utwórz wpust](Sketcher_CreateSlot/pl.md) wokół pierwszego wpustu.
 
 <img alt="" src=images/TBHS2-4.JPG  style="width:800px;">
 
--   Make the centers of the second slot coincident with the centers of the first slot with <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Coincident**](Sketcher_ConstrainCoincident_‎.md).
+-   Spraw, aby środki drugiego wpustu pokrywały się ze środkami pierwszego wpustu za pomocą <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [wiązania zbieżności](Sketcher_ConstrainCoincident/pl.md).
 
 <img alt="" src=images/TBHS2-5.JPG  style="width:800px;">
 
--   Click on one point of the horizontal line of the first slot
--   Click on one point of the nearest horizontal line of the second slot
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 3mm, click OK.
+-   Kliknij na jeden punkt poziomej linii pierwszego wpustu.
+-   Kliknij na jeden punkt najbliższej poziomej linii drugiego wpustu.
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź {{Value|3 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-6.JPG  style="width:800px;">
 
--   To make the sketch fully constrained
-    -   Click on the lower left point of the second slot
-    -   Click on the origin of the XY plan
-    -   Click on <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Coincident**](Sketcher_ConstrainCoincident_‎.md)
+-   Aby szkic był w pełni związany:
+    -   Kliknij lewy dolny punkt drugiego wpustu,
+    -   Kliknij na początek planu XY,
+    -   Kliknij na <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md).
 
 <img alt="" src=images/TBHS2-7.JPG  style="width:800px;">
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Aby opuścić szkic, kliknij przycisk **Zamknij** po lewej stronie lub ikonę <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> na pasku narzędzi lub naciśnij **ESC**.
 
 <img alt="" src=images/TBHS2-8.JPG  style="width:800px;">
 
-### Create a pad 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
--   Enter 30mm and click OK.
+
+### Utwórz wyciągnięcie 
+
+-   Kliknij na widok <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Aksonometryczny** wśród standardowych widoków, aby lepiej zobaczyć, co się stanie.
+-   Kliknij na <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Wyciągnij**.
+-   Wprowadź wartość {{Value|30 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-9.JPG  style="width:800px;">
 
-### Create a sketch on it 
 
--   Select the upper face
+
+### Utwórz na nim szkic 
+
+-   Wybierz górną powierzchnię
 
 <img alt="" src=images/TBHS2-10.JPG  style="width:800px;">
 
--   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**. As a face was selected it will not ask you to choose a plane.
+-   Kliknij na <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Utwórz szkic**. Ponieważ wybrano ścianę, nie zostanie wyświetlony monit o wybranie płaszczyzny.
 
 <img alt="" src=images/TBHS2-11.JPG  style="width:800px;">
 
--   Draw an <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [**Hexagon**](Sketcher_CreateHexagon.md)
-    -   Click to place the center
-    -   Move to define the radius
-    -   Click to set
+-   Narysuj <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> [Sześciokąt](Sketcher_CreateHexagon/pl.md).
+    -   Kliknij, aby umieścić środek,
+    -   Przesuń, aby zdefiniować promień,
+    -   Kliknij, aby ustawić.
 
 <img alt="" src=images/TBHS2-12.JPG  style="width:800px;">
 
--   Click on an edge of the hexagon
--   Click on <img alt="" src=images/Constraint_Horizontal.svg  style="width:32px;"> [**Horizontal**](Sketcher_ConstrainHorizontal_‎.md)
+-   Kliknij na krawędź sześciokąta.
+-   Kliknij na <img alt="" src=images/Constraint_Horizontal.svg  style="width:32px;"> [Zwiąż w poziomie](Sketcher_ConstrainHorizontal/pl.md)
 
 <img alt="" src=images/TBHS2-13.JPG  style="width:800px;">
 
--   Click on the center of the hexagon
--   Click on the horizontal line of the XY plane
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 15mm, click OK.
+-   Kliknij na środek sześciokąta.
+-   Kliknij na poziomą linię płaszczyzny XY
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź wartość {{Value|15 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-14.JPG  style="width:800px;">
 
--   Click on the center of the hexagon
--   Click on the vertical of the XY plane
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 10mm, click OK.
+-   Kliknij środek sześciokąta
+-   Kliknij pionową płaszczyznę XY
+-   Kliknij <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź {{Value|10 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">
 
--   Click on the blue circle of the hexagon
--   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
--   A dialog prompts you to set a dimension. Enter 8mm, click OK.
+Kliknij niebieski okrąg sześciokąta.
+
+-   Kliknij na <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;">. [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md)
+-   Okno dialogowe wyświetli monit o ustawienie wymiaru. Wprowadź {{Value|8 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-16.JPG  style="width:800px;">
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Aby opuścić szkic, kliknij przycisk **Zamknij** po lewej stronie lub ikonę <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> na pasku narzędzi lub naciśnij **ESC**.
 
 <img alt="" src=images/TBHS2-17.JPG  style="width:800px;">
 
-### Create a hole 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [**Pocket**](PartDesign_Pocket.md).
--   Select *to the first* in the dropdown menu and click OK.
+
+### Utwórz otwór 
+
+-   Kliknij na widok <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Aksonometryczny** wśród standardowych widoków, aby lepiej zobaczyć, co się stanie.
+-   Kliknij na [32px](Plik:PartDesign_Pocket.svg.md) [Kieszeń](PartDesign_Pocket/pl.md).
+-   Wybierz *do pierwszego* z rozwijanego menu i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-18.JPG  style="width:800px;">
 
-### Linear repetition 
 
--   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the pocket feature.
--   Click on <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**LinearPattern**](PartDesign_LinearPattern.md).
--   Set the length at 55mm and occurencies at 3, then click OK.
+
+### Powtarzanie liniowe 
+
+-   W widoku złożonym po lewej stronie, wybierz widok drzewa zamiast kontekstowego menu zadań, kliknij cechę kieszeni.
+-   Kliknij na <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Szyk liniowy](PartDesign_LinearPattern/pl.md).
+-   Ustaw długość na {{Value|55 mm}} i liczbę wystąpień na {{Value|3}}, a następnie kliknij **OK**.
 
 <img alt="" src=images/TBHS2-19.JPG  style="width:800px;">
 
-### Create a sketch on it 
 
--   Select the inner face
+
+### Utwórz na nim szkic 
+
+-   Wybierz wewnętrzną ścianę
 
 <img alt="" src=images/TBHS2-20.JPG  style="width:800px;">
 
--   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **New sketch**. As a face was selected it will not ask you to choose a plane.
+-   Kliknij na <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> **Utwórz szkic**. Ponieważ wybrano ścianę, nie zostanie wyświetlony monit o wybranie płaszczyzny.
 
 <img alt="" src=images/TBHS2-21.JPG  style="width:800px;">
 
--   Click on <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [**Circle**](Sketcher_CreateCircle.md), click to place the center, move the pointer and click to define the radius.
+-   Kliknij na <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [Utwórz okrąg](Sketcher_CreateCircle/pl.md), kliknij, aby umieścić środek, przesuń kursor i kliknij, aby zdefiniować promień.
 
 <img alt="" src=images/TBHS2-22.JPG  style="width:800px;">
 
--   Click on the center of the circle
--   Click on the horizontal line of the XY plane
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 15mm, click OK.
+-   Kliknij na środek okręgu.
+-   Kliknij na poziomą linię płaszczyzny XY.
+-   Kliknij na <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź wartość {{Value|15 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-23.JPG  style="width:800px;">
 
--   Click on the center of the circle
--   Click on the vertical of the XY plane
--   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md)
--   A dialog prompts you to set a dimension. Enter 10mm, click OK.
+-   Kliknij środek okręgu.
+-   Kliknij pionową płaszczyznę XY.
+-   Kliknij <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md).
+-   Pojawi się okno dialogowe z prośbą o ustawienie wymiaru. Wprowadź {{Value|10 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-24.JPG  style="width:800px;">
 
--   Click on the circle
--   Click on <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [**Radius**](Sketcher_ConstrainRadius.md)
--   A dialog prompts you to set a dimension. Enter 3.5mm, click OK.
+-   Kliknij na okrąg.
+-   Kliknij na <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md)
+-   Okno dialogowe wyświetli monit o ustawienie wymiaru. Wprowadź {{Value|3,5 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-25.JPG  style="width:800px;">
 
--   To leave the sketch, click either on the \"Close\" button on the left, or the <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> icon in the toolbar, or press **ESC**.
+-   Aby opuścić szkic, kliknij przycisk **Zamknij** po lewej stronie lub ikonę <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> na pasku narzędzi lub naciśnij **ESC**.
 
 <img alt="" src=images/TBHS2-26.JPG  style="width:800px;">
 
-### Create a pad 
 
--   Click on <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Axonometric** among the standard views, to better see what will happen.
--   Click on <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Pad**.
--   Enter 4mm and click OK.
+
+### Utwórz wyciągnięcie 
+
+-   Kliknij na widok <img alt="" src=images/View-axometric.svg  style="width:32px;"> **Aksonometryczny** wśród standardowych widoków, aby lepiej zobaczyć, co się stanie.
+-   Kliknij na <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> **Wyciągnięcie**.
+-   Wprowadź {{Value|4 mm}} i kliknij **OK**.
 
 <img alt="" src=images/TBHS2-27.JPG  style="width:800px;">
 
-### Linear repetition 
 
--   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the pad feature.
--   Click on <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [**LinearPattern**](PartDesign_LinearPattern.md).
--   Set the length at 55mm and occurencies at 3, then click OK.
+
+### Powtarzanie liniowe 
+
+-   W widoku złożonym po lewej stronie, wybierz widok drzewa zamiast kontekstowego menu zadań, kliknij cechę wyciągnięcia.
+-   Kliknij na <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:32px;"> [Szyk liniowy](PartDesign_LinearPattern/pl.md).
+-   Ustaw długość na {{Value|55 mm}} i liczbę wystąpień na {{Value|3}}, a następnie kliknij **OK**.
 
 <img alt="" src=images/TBHS2-28.JPG  style="width:800px;">
 
-### Draft
 
--   Select the side of each round pads
+
+### Pochylenie ścian 
+
+-   Wybierz krawędź każdego okrągłego wyciągnięcia.
 
 <img alt="" src=images/TBHS2-29.JPG  style="width:800px;">
 
--   Click on <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [**Draft**](PartDesign_Draft.md).
--   Set the draft angle at 40°.
--   Click on \"Neutral plane\" and select the face on which the sketch is drawn.
--   Tick \"Invert the draft direction\".
+-   Kliknij na <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Pochylenie ścian](PartDesign_Draft/pl.md).
+-   Ustaw kąt szkicu na {{Value|40°}}.
+-   Kliknij \"Płaszczyzna neutralna\" i wybierz powierzchnię, na której rysowany jest szkic.
+-   Zaznacz opcję \"Odwróć kierunek wyciągnięcia\".
 
 <img alt="" src=images/TBHS2-30.JPG  style="width:800px;">
 
-We could have used a chamfer to do something similar, but the draft is more appropriate in this case.
+Mogliśmy użyć sfazowania, aby zrobić coś podobnego, ale w tym przypadku bardziej odpowiednie jest pochylenie.
 
-Chamfer = left / Draft = right
+Faza = lewa / Pochylenie = prawa
 
 <img alt="" src=images/TBHS2-30-chamfer.JPG  style="width:200px;"><img alt="" src=images/TBHS2-30-draft.JPG  style="width:200px;">
 
-### Finishes
 
--   Holding **CTRL** select the bottom and top faces.
+
+### Wykończenia
+
+-   Przytrzymując klawisz **CTRL** wybierz dolną i górną powierzchnię.
 
 <img alt="" src=images/TBHS2-31-bottom.JPG  style="width:200px;"><img alt="" src=images/TBHS2-31-top.JPG  style="width:200px;">
 
--   -   Add a <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Chamfer** of 0,5mm.
+-   -   Dodaj <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **Sfazowanie** {{Value|0,5 mm}}.
 
 <img alt="" src=images/TBHS2-31.JPG  style="width:800px;">
 
-Perfect !
+Perfekcyjnie!
 
-## Export as a .STL 
 
--   In the Combo View on the left, select the tree view instead of the contextual task menu, click on the last feature (the chamfer).
+
+## Eksport do pliku .STL 
+
+-   W widoku Combo po lewej stronie, wybierz widok drzewa zamiast kontekstowego menu zadań, kliknij ostatnią cechę *(fazę)*.
 
 <img alt="" src=images/TBHS2-32.JPG  style="width:800px;">
 
--   Now you can select \"Export\...\" from the File menu at the top left, and select the file format .STL.
--   Print it instead of the first version or to replace it if it eventually broke ;-)
+-   Teraz możesz wybrać \"Eksportuj\...\" z menu Plik w lewym górnym rogu i wybrać format pliku .STL.
+-   Wydrukuj go zamiast pierwszej wersji lub zastąp go, jeśli ostatecznie się zepsuł ;-)
 
 
 {{PartDesign Tools navi

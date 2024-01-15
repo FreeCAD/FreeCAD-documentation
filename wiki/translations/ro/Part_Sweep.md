@@ -33,7 +33,8 @@ Instrumentul Baleiere (Part Sweep) este similar cu [Part Loft](Part_Loft/ro.md) 
 
 </div>
 
-![](images/Part_Sweep_simple.png ) *Un balaiaj solid generat pronind de la un profil (A) proiectat de-a lungul unei traiectorii(B).*
+<img alt="" src=images/Part_Sweep_simple.png  style="width:400px;"> 
+*A solid sweep generated from a single profile (A) distributed along a spine (B)*
 
 ## Usage
 
@@ -75,9 +76,9 @@ Instrumentul Baleiere (Part Sweep) este similar cu [Part Loft](Part_Loft/ro.md) 
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
 
-## Properties
+## Options
 
-### Solid
+#### Solid
 
 
 <div class="mw-translate-fuzzy">
@@ -91,7 +92,7 @@ Dacă \"Solid\" este setat ca fiind \"true\", FreeCAD crează un solid, furnizâ
 
 </div>
 
-### Frenet
+#### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
@@ -107,9 +108,15 @@ se schimbă de-a lungul traiectoriei de baleiere. If "Frenet" is "fals
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 If \"Frenet\" is \"true\" the orientation of the profile is computed basing on local curvature and tangency vectors of the path. This keeps the orientation of the profile consistent when sweeping along a helix (because curvature vector of a straight helix is always pointing to its axis). However, when path is not a helix, the resulting shape can have strange looking twists sometimes. For more information, see [Frenet Serret formulas](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
-### Transition
+
+</div>
+
+#### Transition
 
 
 <div class="mw-translate-fuzzy">
@@ -121,43 +128,71 @@ If \"Frenet\" is \"true\" the orientation of the profile is computed basing on l
 
 </div>
 
-## Profile limitations and complications 
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Sweep object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Sweep}}
 
-## Limitări și complicații asupra Profilelor 
+-    **Sections|LinkList**: lists the sections used.
 
--   A vertex or point
-    -   vertex or point may only be used as the first and/or last profile in the list of profiles.
-        -   For example
-            -   you can not Sweep from a circle to a point, to a ellipse.
-            -   However you could Sweep from a point to a circle to an ellipse to another point.
--   Open or closed geometry profiles can not be mixed in one single Sweep
-    -   In one Sweep, all profiles (lines wires etc.) must be either open or closed.
-        -   For example
-            -   FreeCAD can not Sweep between one Part Circle and one default Part Line.
--   Draft Workbench features
-    -   Draft Workbench features can be directly used as a profile in FreeCAD 0.14 or later.
-        -   For example the following Draft features can be used as profiles in a Part Sweep
-            -   Draft Polygon.
-            -   Draft Point, Line, wire,
-            -   Draft B-spline, Bezier Curve
-            -   Draft Circle, Ellipse, Rectangle
--   PartDesign Sketches
-    -   The profile may be created with a sketch. However only a valid sketch will be shown in the list to be available for selection.
-    -   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire)
--   Part Workbench
-    -   the profile can be a valid Part geometric primitive which can be created with the [Part CreatePrimitives tool](Part_CreatePrimitives.md)
-        -   For example the following Part geometric primitives can be a valid profile
-            -   Point (Vertex), Line (Edge)
-            -   Helix, Spiral
-            -   Circle, Ellipse
-            -   Regular Polygon
-            -   Plane (Face)
+-    **Spine|LinkSub**: spine (path) to sweep along.
 
+-    **Solid|Bool**: true or false (default). True creates a Solid.
 
-</div>
+-    **Frenet|Bool**: true or false (default). True uses Frenet algorithm.
+
+-    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right corner* or *Round corner*.
+
+## Limitations
+
+### Vertex or point 
+
+A vertex or point may only be used as the first and/or last profile.
+For example:
+
+-   You cannot Sweep from a circle to a point, to an ellipse.
+-   You can however Sweep from a point to a circle to an ellipse to another point.
+
+### Profiles
+
+In one Sweep, all profiles (lines wires etc.) must be either open or closed.
+For example:
+
+-   FreeCAD cannot Sweep between a Part Circle and a Part Line.
+
+### Sketches
+
+-   The profile may be created with a sketch. However only valid sketches will be available for selection in the task panel.
+-   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire).
+
+### Draft Workbench objects 
+
+A profile can be a [Draft Workbench](Draft_Workbench.md) object.
+The following objects can be valid profiles:
+
+-   Point
+-   Line, Wire
+-   B-spline, Bézier Curve
+-   Circle, Ellipse
+-   Rectangle, Polygon
+
+### Part Workbench objects 
+
+A profile can be a Part object created with the [Part Primitives](Part_Primitives.md) command.
+The following objects can be valid profiles:
+
+-   Point (Vertex)
+-   Line (Edge)
+-   Helix, Spiral
+-   Circle, Ellipse
+-   Regular Polygon
+-   Plane (Face)
 
 ## Links
 

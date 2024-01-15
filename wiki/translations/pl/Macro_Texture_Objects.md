@@ -1,22 +1,27 @@
 # Macro Texture Objects/pl
-{{Macro
-|Name=Texture Objects
+{{Macro/pl
+|Name=Tekstura na obiektach
 |Icon=Macro_Texture_Objects.png
-|Description=This macro allows you to temporarily put a texture image on selected objects. To remove the textures, simply close and reopen the document.
+|Description=Makrodefinicja umożliwia tymczasowe umieszczenie obrazu tekstury na wybranych obiektach. Aby usunąć tekstury, wystarczy zamknąć i ponownie otworzyć dokument.
 |Author=yorik
-|Version=1.0
-|Date=2011-10-13
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
-|FCVersion= 0.18 and below
+|Version=1.1
+|Date=2023-12-08
+|Download=[https://wiki.freecad.org/images/d/da/Macro_Texture_Objects.png ikonka paska narzędziowego]
+|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Ikona paska narzędzi]
+|FCVersion= 0.18 i nowszy
 }}
 
-## Description
 
-This macro allows you to temporarily put a texture image on selected objects. To remove the textures, simply close and reopen the document.
+
+## Opis
+
+Makrodefinicja umożliwia tymczasowe umieszczenie obrazu tekstury na wybranych obiektach. Aby usunąć tekstury, wystarczy zamknąć i ponownie otworzyć dokument.
 
 <img alt="" src=images/Textured_objects.jpg  style="width:680px;">
 
-## Script
+
+
+## Skrypt
 
 **Macro_Texture_Objects.FCMacro**
 
@@ -28,7 +33,7 @@ from PySide import QtGui
 from pivy import coin
 
 # get a jpg filename
-jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open image file','*.jpg')
+jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),'Open image file','*.jpg')
 
 # apply textures
 for obj in FreeCADGui.Selection.getSelection():
@@ -39,11 +44,13 @@ for obj in FreeCADGui.Selection.getSelection():
 
 }}
 
-## Links
 
--   Forum thread [Macro Texture Objects](https://forum.freecadweb.org/viewtopic.php?t=7216)
 
--   Forum thread [Script to map texture with environement checked](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
+## Odnośniki internetowe 
+
+-   Wątek na forum [Obiekty tekstury](https://forum.freecadweb.org/viewtopic.php?t=7216)
+
+-   Wątek na forum [Skrypt do mapowania tekstur przy zaznaczonym środowisku](https://forum.freecadweb.org/viewtopic.php?f=3&t=28795)
 
 
 

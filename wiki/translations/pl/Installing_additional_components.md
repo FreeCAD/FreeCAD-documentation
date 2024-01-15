@@ -108,7 +108,7 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 ## CalculiX
 
-[CalculiX](http://calculix.de) jest zestawem dwóch kompletnych pakietów elementów skończonych: CalculiX CrunchiX, solwer FEM i CalculiX GraphiX, nakładka GUI. FreeCAD obsługuje tylko solver. Jest używany przez narzędzie [Solver CalculiX](FEM_SolverCalculiX.md).
+[CalculiX](http://calculix.de) jest zestawem dwóch kompletnych pakietów elementów skończonych: CalculiX CrunchiX, solwer FEM i CalculiX GraphiX, nakładka GUI. FreeCAD obsługuje tylko solver. Jest używany przez narzędzie [SolverCalculixCxxtools](FEM_SolverCalculixCxxtools/pl.md).
 
 
 

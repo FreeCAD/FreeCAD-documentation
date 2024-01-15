@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Tanım
 
 
@@ -30,6 +32,8 @@ Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](3D_view.md).*
 
+
+
 ## Nasıl kullanılır 
 
 If no previous solid is selected:
@@ -46,6 +50,8 @@ If a solid object is selected:
 
 -   If no Body currently exists when **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)** is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)**.
 -   Double-click the Body in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active body** to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](PartDesign_Body#Active_status.md) for more information.
+
+
 
 ## Özellikler
 
@@ -140,6 +146,8 @@ other CAD programs like Catia allow discontiguous solids in the same \"Body\". A
 ## Detailed explanation of the properties 
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Aktif Durum 
@@ -169,6 +177,8 @@ Bir Cismi etkinleştirmek, aynı zamanda aktif çalışma tezgahı değilse, ara
 
 
 *Document with two PartDesign Bodies, of which the second one is active.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -206,6 +216,8 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 *Left: PartDesign Body Origin in the [tree view](tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Temel Özellik 
@@ -218,7 +230,7 @@ Temel özellik, tanım gereği Cisim\'de oluşturulan ilk Parça tasarım özell
 The Base Feature is the first [PartDesign Feature](PartDesign_Feature.md) in the Body when the Body is based on another solid shape. This solid can be created by any workbench, or imported from an external file, for example, a STEP file.
 
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
-*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+*Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.*
 
 To create the Base Feature:
 
@@ -259,6 +271,8 @@ The Base Feature is entirely optional; it is only present when including an obje
 If another PartDesign body is selected as a BaseFeature it must have a shape. If it is empty (no features, no BaseFeature, \...) this will result in error.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### İpucu
@@ -290,6 +304,8 @@ Daha fazla detay için <img alt="" src=images/PartDesign_MoveTip.png  style="wid
 
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -324,6 +340,8 @@ Diğer tezgahlarda işlemler tamamlandıktan sonra, Cismi düzenleyebilmek için
 
 
 *Left: when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right: when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
+
+
 
 
 <div class="mw-translate-fuzzy">

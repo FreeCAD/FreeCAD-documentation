@@ -8,9 +8,13 @@
 
 # Mesh BuildRegularSolid/it
 
+
+
 ## Descrizione
 
 Il comando **Solido regolare** crea un oggetto mesh solido parametrico regolare.
+
+
 
 ## Utilizzo
 
@@ -58,9 +62,13 @@ Il comando **Solido regolare** crea un oggetto mesh solido parametrico regolare.
 
 </div>
 
+
+
 ## Note
 
 -   Gli oggetti mesh creati con questo comando sono parametrici. Ogni volta che vengono ricalcolati, ad esempio dopo aver modificato uno dei loro parametri, viene ricostruita la loro mesh. Ciò significa che manipolarli con comandi come [ Affinamento](Mesh_RemeshGmsh/it.md), [Scala](Mesh_Scale/it.md) ecc. Di solito non ha senso.
+
+
 
 ## Proprietà
 

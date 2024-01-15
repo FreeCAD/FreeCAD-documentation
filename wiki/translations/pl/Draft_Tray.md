@@ -1,20 +1,22 @@
 # Draft Tray/pl
-## Description
+## Opis
 
-The **Draft Tray** allows selecting the working plane, defining style settings, toggling construction mode, and specifying the active layer or group. The four buttons show the current settings. The Draft Tray is available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) and cannot be disabled.
+**Tacka narzędziowa** umożliwia wybór płaszczyzny roboczej, definiowanie ustawień stylu, przełączanie trybu konstrukcji i określanie aktywnej warstwy lub grupy. Cztery przyciski pokazują bieżące ustawienia. Tacka narzędziowa jest dostępna w środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) i nie można ich wyłączyć.
 
 ![](images/Draft_tray_default.png ) 
-*The Draft Tray*
+*Tacka narzędziowa.*
 
-## Available tools 
 
--   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane.
 
--   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects.
+## Dostępne narzędzia 
 
--   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off.
+-   ![](images/Draft_tray_button_plane.png ) [Wybierz płaszczyznę](Draft_SelectPlane/pl.md): wybiera bieżącą płaszczyznę roboczą środowiska Rysunek Roboczy.
 
--   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_style.png ). [Ustaw styl](Draft_SetStyle/pl.md): ustawia domyślny styl dla nowych obiektów.
+
+-   ![](images/Draft_tray_button_construction.png ) [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md): włącza lub wyłącza tryb konstrukcji środowiska Rysunek Roboczy.
+
+-   ![](images/Draft_tray_button_layer.png ) [Grupowanie automatyczne](Draft_AutoGroup/pl.md): zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [architektury](Arch_Workbench/pl.md).
 
 
 

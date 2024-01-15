@@ -83,7 +83,7 @@ Tolerances are created by using the [Balloon](TechDraw_Balloon.md) feature of Te
 The tolerance indicator of GD&T is a frame, also called \"feature control frame\". It can be created by using the [Balloon](TechDraw_Balloon.md) feature of TechDraw:
 
 -   after adding a Balloon and if its shape is not already a frame, double-click on it in the model tree and set in the appearing dialog the **Shape** to **Rectangle**.
--   add the corresponding Unicode character for the feature you need to the Balloon **Text**. (You can copy them from the reference tables [below](TechDraw_Geometric_dimensioning_and_tolerancing#Symbol_reference.md).)
+-   add the corresponding Unicode character for the feature you need to the Balloon **Text**. (You can copy them from the reference tables [below](TechDraw_Geometric_dimensioning_and_tolerancing#Symbol_reference.md) or use [TechDraw ExtensionCustomizeFormat](TechDraw_ExtensionCustomizeFormat.md).)
 -   by adding the character \'\|\' to the **Text**, you start a new indicator field.
 
 There is no rule that defines if or how the tolerance indicator must have a leader line or not, so you can either:

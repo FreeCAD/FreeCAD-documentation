@@ -7,7 +7,9 @@
 
 L\'[Atelier Manipulator](Manipulator_Workbench/fr.md) est un [atelier externe](External_workbenches/fr.md) destiné à aider les utilisateurs de FreeCAD à aligner, déplacer, faire pivoter et mesurer des objets 3D via une interface graphique conviviale. Ces séries d\'outils aident à transformer les objets de placement et de mesure et les modèles STEP dans FreeCAD.
 
-## Fonctionnalités
+
+
+## Fonctions
 
 ![](images/Aligner-ico.png ) **Aligner :** ensemble d\'outils permettant de déplacer et d\'aligner des pièces 3D ; il peut également aligner un objet (face, arête, point) sur l\'origine dans FreeCAD.
 
@@ -21,12 +23,16 @@ Les outils peuvent être **flottants** ou **dockés à gauche ou à droite**.
 
 Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des conseils utiles.
 
+
+
 ## Références
 
 -   Auteur sur github : [\@easyw](https://github.com/easyw)
 -   Forums FreeCAD : [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
 -   Code source sur github: <https://github.com/easyw/Manipulator>
 -   Annonces/discussion du forum : <https://forum.freecadweb.org/viewtopic.php?t=24742>
+
+
 
 ## Tutoriel
 
@@ -35,6 +41,8 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 
 *Tutoriel sur YouTube [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
+
+
 
 ## Outils
 
@@ -80,12 +88,16 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ## Installation
 
+
+
 ### Installation automatique 
 
 La méthode recommandée pour installer l\'atelier Manipulator est via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire des extensions**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
+
+
 
 ### Installation manuelle 
 
@@ -118,9 +130,13 @@ git clone https://github.com/easyw/Manipulator Manipulator
 -   FreeCAD v0.18+
 -   FreeCAD v0.19+
 
+
+
 ## Histoire
 
 L\'atelier a évolué à partir de la macro [Center Align Objects with Faces or Edges](Macro_Center_Align_Objects_with_Faces_or_Edges/fr.md).
+
+
 
 ## Ateliers extérieurs 
 

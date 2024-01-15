@@ -1,40 +1,32 @@
 ---
  GuiCommand:
    Name: Arch CompPanel
-   Name/it: Pannelli
-   MenuLocation: Arch , Pannelli
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: 
+   Name/it: Strumenti Pannello
+   MenuLocation: Arch , Strumenti pannello
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: 
 ---
 
 # Arch CompPanel/it
 
 
-</div>
 
 ## Descrizione
 
 Raggruppamento di numerosi strumenti relativi al pannello.
 
+
+
 ## Tipi
 
--   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): Creates a panel object from a selected 2D object.
+-   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Pannelllo](Arch_Panel/it.md): Crea un oggetto pannello da un oggetto 2D selezionato.
 
--   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): Creates a 2D cut view from a panel.
+-   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Sagoma pannello](Arch_Panel_Cut/it.md): Crea una vista 2D ritagliata da un pannello.
 
--   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Panel Sheet](Arch_Panel_Sheet.md): Creates a 2D cut sheet including panel cuts or other 2D objects.
+-   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Foglio pannello](Arch_Panel_Sheet/it.md): Crea un foglio singolo 2D che include tagli di pannelli o altri oggetti 2D.
 
--   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): Allows to nest several flat objects inside a container shape.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nido](Arch_Nest/it.md): Permette di annidare diversi oggetti piatti all\'interno di una forma contenitore.
 
 
 

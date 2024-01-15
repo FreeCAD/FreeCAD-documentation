@@ -1,22 +1,25 @@
 ---
  GuiCommand:Addon
    Name: BIM Layers
-   Workbenches: BIM Workbench
+   Name/pl: BIM: Warstwy
+   Workbenches: BIM_Workbench/pl
    Addon: BIM
    MenuLocation: Manage , Layers
 ---
 
 # BIM Layers/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_layers_screenshot.png  style="width:1024px;">
 
-The layers manager allows you to manage [layers](Draft_Layer.md). Layers are a special kind of group that controls the visual properties of objects placed inside of it. By changing the properties of the Layer, such as line width, line color, shape color and transparency, the changes are propagated to its child objects. Layers don\'t interfere with any other FreeCAD structure such as [groups](Std_Group.md) or [Building parts](Arch_BuildingPart.md), so any object can be at the same time part of a layer and part of a group.
+Menedżer warstw umożliwia zarządzanie [warstwami](Draft_Layer/pl.md). Warstwy są specjalnym rodzajem grupy, która kontroluje właściwości wizualne obiektów umieszczonych wewnątrz niej. Zmieniając właściwości warstwy, takie jak szerokość linii, kolor linii, kolor kształtu i przezroczystość, zmiany są przekazywane do jej obiektów podrzędnych. Warstwy nie kolidują z żadną inną strukturą FreeCAD, taką jak [grupa](Std_Group/pl.md) lub [część budowli](Arch_BuildingPart/pl.md), więc każdy obiekt może być jednocześnie częścią warstwy i częścią grupy.
 
-Layers are imported and exported from/to [IFC](Arch_IFC.md) and [DXF/DWG](Draft_DXF.md).
+Warstwy są importowane i eksportowane z / do formatów takich jak: [IFC](Arch_IFC/pl.md) i [DXF / DWG](Draft_DXF/pl.md).
 
-The layers manager allow you to manage your layers, add or remove layers, or change their visual properties. To add objects to a layer, simply drag them into the layer in the tree view. To remove them, drag them from the layer and drop them into the document root.
+Menedżer warstw umożliwia zarządzanie warstwami, dodawanie lub usuwanie warstw oraz zmianę ich właściwości wizualnych. Aby dodać obiekty do warstwy, wystarczy przeciągnąć je na warstwę w widoku drzewa. Aby je usunąć, przeciągnij je z warstwy i upuść w katalogu głównym dokumentu.
 
 
 

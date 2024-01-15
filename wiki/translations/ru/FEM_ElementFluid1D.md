@@ -19,6 +19,9 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Существует несколько способов вызова команды:
     -   Нажмите кнопку **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)**.
     -   Или выберите пункт меню **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow**.
@@ -26,6 +29,9 @@
 3.  Выберите тип секции: заполнение трубы, ввод трубы и т.д.
 4.  Введите параметры типа раздела.
 5.  Выберите и добавьте ребро.
+
+
+</div>
 
 
 

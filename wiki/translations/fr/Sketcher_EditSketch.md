@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher EditSketch
-   Name/fr: Sketcher Modifier l'esquisse
-   MenuLocation: Esquisse , Modifier l'esquisse
+   Name/fr: Sketcher Modifier une esquisse
+   MenuLocation: Esquisse , Modifier une esquisse
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_LeaveSketch/fr
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Modifier l\'esquisse** ouvre la [boite de dialogue de Sketcher](Sketcher_Dialog/fr.md) pour modifier une esquisse existante.
+La commande **Modifier une esquisse** ouvre la [boite de dialogue de Sketcher](Sketcher_Dialog/fr.md) pour modifier une esquisse existante.
 
 
 
@@ -20,9 +20,9 @@ La commande **Modifier l\'esquisse** ouvre la [boite de dialogue de Sketcher](Sk
 Il existe plusieurs façons de lancer la commande :
 
 -   Double-cliquez sur une esquisse dans la [vue en arborescence](Tree_view/fr.md).
--   Sélectionnez une esquisse et appuyez sur le **<img src="images/Sketcher_EditSketch.svg" width=16px> [Modifier l'esquisse](Sketcher_EditSketch/fr.md)**.
--   Sélectionnez une esquisse et choisissez l\'option **Equisse → <img src="images/Sketcher_EditSketch.svg" width=16px> Modifier l'esquisse** du menu.
--   Cliquez avec le bouton droit de la souris sur une esquisse dans l\'arborescence et choisissez l\'option **Modifier l'esquisse** dans le menu contextuel.
+-   Sélectionnez une esquisse et appuyez sur le **<img src="images/Sketcher_EditSketch.svg" width=16px> [Modifier une esquisse](Sketcher_EditSketch/fr.md)**.
+-   Sélectionnez une esquisse et choisissez l\'option **Equisse → <img src="images/Sketcher_EditSketch.svg" width=16px> Modifier une esquisse** du menu.
+-   Cliquez avec le bouton droit de la souris sur une esquisse dans l\'arborescence et choisissez l\'option **Modifier une esquisse** dans le menu contextuel.
 
 
 

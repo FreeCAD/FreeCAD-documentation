@@ -17,9 +17,9 @@ Alternatively, instead of using [sketches](Sketch.md), you can add primitive [Pa
 
 ## Notes
 
-A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md) in a [feature editing](feature_editing.md) methodology.
+A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md) in a [feature editing](Feature_editing.md) methodology.
 
-A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
+A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](Constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
 
 
 {{PartDesign Tools navi

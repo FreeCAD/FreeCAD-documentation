@@ -55,17 +55,14 @@ In questo tutorial ci occuperemo di come esportare file STL / OBJ da FreeCAD. Da
 
 ## Export Method 1: Using \"File → Export\" 
 
-
-<div class="mw-translate-fuzzy">
-
-## Esportazione metodo 1: Usando \"File → Esporta\" 
-
--   Selezionare il solido da esportare nella vista ad albero.
--   Scegliere ** File** → ** Export...** e impostare il tipo di file su \"STL mesh (\*.stl \*.ast)\".
--   Inserire il nome del file. L\'estensione di default è \".stl\". È necessario includere l\'estensione \".ast\" nel nome del file per produrre un file .ast. Scegliere **Salva**.
-
-
-</div>
+1.  With the default settings, this method creates a mesh with noticeably jagged curves. To get a smoother finish when e.g. 3D printing, the mesh resolution should be configured:
+    1.  Make sure the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) has been loaded (it is not loaded by default).
+    2.  Go to **Edit → Preferences... → Import-Export → Mesh Formats**.
+    3.  Change **Maximum mesh deviation**. A lower value will produce a mesh with a higher resolution.
+2.  Select the solid to be exported in the tree view.
+3.  Choose **File → Export...** and set the file type to **STL mesh (*.stl *.ast)**.
+4.  Enter your file name. The default extension is **.stl**. You must include the extension **.ast** to produce an **.ast** file.
+5.  Choose **Save**.
 
 ## Export Method 2: Using the Mesh Workbench in FreeCAD 
 

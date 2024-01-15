@@ -136,6 +136,8 @@ Detta är verktyg för att förändra existerande objekt. De kommer att låta di
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scale](Part_Scale.md): Scales one or more shapes. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
@@ -220,7 +222,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convert to solid](Part_MakeSolid.md): Converts a shape object to a solid object.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Reverse shapes](Part_ReverseShapes.md): Flips the normals of all faces of selected objects.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Reverse shapes](Part_ReverseShape.md): Flips the normals of all faces of selected objects.
 
 -   Create a copy:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_SimpleCopy.md): Creates a simple copy of a selected object.

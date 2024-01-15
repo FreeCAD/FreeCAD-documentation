@@ -37,6 +37,7 @@ This command is the second of three steps to convert a shell object made with th
 
 
 :   <img alt="" src=images/PostGap.png  style="width:320px;">
+
 :   
     
 *Giunzione applicata all'angolo.

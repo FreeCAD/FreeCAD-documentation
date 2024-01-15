@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-利用此工具可从头或基于其他[几何图形（shape）或](Part_Workbench.md)[网格（mesh）对象来构建墙体](Mesh_Workbench.md)。构建墙体并非一定要基于其他对象，仅需长、宽、高三种属性来描述其长方体外观即可。在利用存在的几何图形构建墙体时，可以以下列对象为基础：
+利用此工具可从头或基于其他[几何图形（shape）](Part_Workbench.md)或[网格（mesh）](Mesh_Workbench.md)对象来构建墙体。构建墙体并非一定要基于其他对象，仅需长、宽、高三种属性来描述其长方体外观即可。在利用存在的几何图形构建墙体时，可以以下列对象为基础：
 
 
 </div>
@@ -36,12 +36,12 @@
 
 <div class="mw-translate-fuzzy">
 
-我们也可以对的墙体执行添加或移除操作。在执行添加操作时，将令其他对象的形状与墙体相融；移除则是从墙体中去除目标对象。利用[Arch Add与](Arch_Add.md)[Arch Remove工具即可实现墙体的增减操作](Arch_Remove.md)。Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor.md). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
+我们也可以对的墙体执行添加或移除操作。在执行添加操作时，将令其他对象的形状与墙体相融；移除则是从墙体中去除目标对象。利用[Arch Add](Arch_Add.md)与[Arch Remove](Arch_Remove.md)工具即可实现墙体的增减操作。Additions and subtractions have no influence over wall parameters such as height and width, which can still be changed. Walls can also have their height automatic, if they are included into a higher-level object such as [floors](Arch_Floor.md). The height must be kept at 0, then the wall will adopt the height specified in the parent object.
 
 
 </div>
 
-当若干墙体相交的时候，您需要将它们置于同一[楼层（floor）上](Arch_Floor.md)，再实现它们在几何方面上的相交。
+当若干墙体相交的时候，您需要将它们置于同一[楼层（floor）](Arch_Floor.md)上，再实现它们在几何方面上的相交。
 
 
 
@@ -178,7 +178,7 @@ Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and al
 
 <div class="mw-translate-fuzzy">
 
-借助下列函数即可在[宏与](macros.md)[Python控制台中使用墙体工具](Python.md)：
+借助下列函数即可在[宏](macros.md)与[Python](Python.md)控制台中使用墙体工具：
 
 
 </div>

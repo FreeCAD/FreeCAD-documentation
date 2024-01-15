@@ -15,31 +15,37 @@ Ces objets ne doivent pas nécessairement être des formes géométriques visibl
 
 ## Travailler avec la vue en arborescence 
 
-Par défaut, chaque fois qu\'un nouvel objet est créé, il est ajouté à la fin de la liste dans l\'arborescence. L\'arborescence permet de gérer les objets pour les garder organisés. Elle permet de créer des [groupes](Std_Group/fr.md), de déplacer des objets à l\'intérieur de groupes, de déplacer des groupes à l\'intérieur d\'autres groupes, de renommer des objets, de copier des objets, de supprimer des objets et d\'autres opérations dans le menu contextuel (clic droit) qui dépendent de l\'objet actuellement sélectionné et du plan de travail actuellement actif.
+Par défaut, chaque fois qu\'un nouvel objet est créé, il est ajouté à la fin de la liste dans l\'arborescence. L\'arborescence permet de gérer les objets pour les garder organisés. Elle permet de créer des [groupes](Std_Group/fr.md), de déplacer des objets à l\'intérieur de groupes, de déplacer des groupes à l\'intérieur d\'autres groupes, de réétiqueter des objets, de copier des objets, de supprimer des objets et d\'autres opérations dans le menu contextuel (clic droit) qui dépendent de l\'objet actuellement sélectionné et du plan de travail actuellement actif.
 
 De nombreuses opérations créent des objets qui dépendent d\'un objet déjà existant. Dans ce cas, l\'arborescence montre cette relation en absorbant l\'objet plus ancien à l\'intérieur du nouvel objet. Le développement et la réduction des objets dans l\'arborescence montrent l\'historique paramétrique de cet objet. Les objets qui sont plus profondément à l\'intérieur des autres sont plus anciens, tandis que les objets qui sont à l\'extérieur sont plus récents et sont dérivés des objets plus anciens. En modifiant les objets intérieurs, les opérations paramétriques se propagent jusqu\'au sommet, générant un nouveau résultat.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
-
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
 
 
-*L'objet au sommet est créé en effectuant des opérations paramétriques sur des objets qui ont eux-mêmes été créés par des opérations précédentes. L'élargissement de l'arbre à plusieurs niveaux révèle les éléments originaux qui ont été utilisés pour créer les solides partiels.*
+*L'objet au sommet est créé en effectuant des opérations paramétriques sur des objets qui ont eux-mêmes été créés par des opérations précédentes.<br>
+L'expansion complète de l'arboresence révèle les éléments d'origine qui ont été utilisés pour créer les solides partiels.*
 
 
 
-### Étiquettes et attributs 
+### Colonnes de la vue en arborescence 
 
-Dans la colonne Étiquettes et attributs, les étiquettes et les icônes des objets sont affichées.
+Par défaut, la vue en arborescence n\'affiche qu\'une seule colonne avec les étiquettes et les icônes des objets. Une deuxième colonne avec des descriptions peut être affichée en option, et des en-têtes de colonne sont également ajoutés.
 
-En sélectionnant un objet dans cette colonne et en appuyant sur **F2** (sous Windows et Linux), ou **Entrée** (sous macOS), cela permet d\'éditer la propriété **Label** de l\'objet in situ sans détour par l\'action du menu contextuel décrite ci-dessous ou par l\'[éditeur de propriétés](Property_editor/fr.md).
+Pour activer la colonne de description, cliquez avec le bouton droit de la souris sur la vue en arborescence et sélectionnez dans le menu contextuel :
+**Paramètres de la vue en arborescence → Afficher la colonne de description** {{Version/fr|0.21}}
 
-### Description
 
-La colonne Description affiche des informations supplémentaires sur les objets, si elles sont disponibles.
 
-Ces informations sont enregistées dans la propriété **Label2** d\'un objet, qui peut être modifiée in situ en sélectionnant l\'objet dans cette colonne et en appuyant sur **F2** (sous Windows et Linux), ou **Entrée** (sous macOS), ou via l\'[éditeur de propriétés](Property_editor/fr.md).
+### Modifier l\'étiquette de l\'objet 
+
+Sélectionnez un objet dans la première colonne et appuyez sur **F2** (sous Windows et Linux) ou **Entrée** (sous macOS) pour modifier sa propriété **Label**. Cette propriété peut également être modifiée via l\'action du menu contextuel décrite ci-dessous ou dans l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
+
+### Modifier la description de l\'objet 
+
+Un objet peut éventuellement être accompagné d\'une description. Cette information est enregistrée dans sa propriété **Label2**. Si la colonne de description est affichée, vous pouvez modifier cette propriété en sélectionnant un objet dans cette colonne et en appuyant sur **F2** (sous Windows et Linux) ou **Entrée** (sous macOS). La propriété peut également être modifiée dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 ## Actions
 
@@ -138,7 +144,7 @@ Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md)
 
 -    **[Transformer](Std_TransformManip/fr.md)**: lance le widget de transformation pour déplacer ou faire tourner l\'objet.
 
--    **[Editeur de pièces jointes](Part_EditAttachment/fr.md)**: lance une boîte de dialogue pour attacher l\'objet à un ou plusieurs autres objets.
+-    **[Éditeur de pièces ancrées](Part_EditAttachment/fr.md)**: lance une boîte de dialogue pour ancrer l\'objet à un ou plusieurs autres objets.
 
 -    **[Définir les couleurs...](Part_FaceColors/fr.md)**: définit la couleur des faces sélectionnées de l\'objet.
 

@@ -4,16 +4,18 @@
 |Name/fr=GenerateDrawing
 |Description=Macro pour la génération automatique de dessins avec 3 projections normales et une isométrique.
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/File:GenerateDrawing.svg Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/7/74/GenerateDrawing.svg Icône de la barre d'outils]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 et au-dessus
-|SeeAlso=[https://github.com/PR-DC/PRDC_GenerateDrawing_FC Dépôt Github]
+|SeeAlso=[https://github.com/PR-DC/PRDC_GenerateDrawing_FC Dépôt GitHub]
 }}
 
 ## Description
 
 Macro pour la génération automatique de dessins avec 3 projections normales et une isométrique.
+
+
 
 ## Utilisation
 
@@ -23,7 +25,9 @@ Ouvrez le modèle et exécutez le programme de la macro (vérifiez les paramètr
 
 ## Script
 
-Icône de la barre d\'outils ![](images/GenerateDrawing.svg )
+Icône de la barre d\'outils
+
+![](images/GenerateDrawing.svg )
 
 **GenerateDrawing.FCMacro**
 
@@ -71,7 +75,7 @@ __Date__ = '2022-01-07'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = 'https://github.com/PR-DC/PRDC_GenerateDrawing_FC'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_GenerateDrawing'
-__Icon__ = 'GenerateDrawing.svg'
+__Icon__ = 'https://wiki.freecad.org/images/7/74/GenerateDrawing.svg'
 __Help__ = 'Open model and run the macro program!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18'
@@ -241,6 +245,8 @@ else:
     msgBox.exec_()
     App.Console.PrintError("\nError: No active document!\n")
 }}
+
+
 
 ## Liens
 

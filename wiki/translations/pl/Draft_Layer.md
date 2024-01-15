@@ -1,110 +1,131 @@
 ---
  GuiCommand:
    Name: Draft Layer
-   MenuLocation: Utilities , Layer
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Warstwa
+   MenuLocation: Narzędzia , Warstwa
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
-   SeeAlso: Draft_AutoGroup, Draft_LayerManager
+   SeeAlso: Draft_AutoGroup/pl, Draft_LayerManager/pl
 ---
 
 # Draft Layer/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer** command creates a Draft Layer. A layer is a special kind of group with a number of [visual properties](#View.md). These properties, and any changes to them, are propagated to the objects placed inside the layer. The layers themselves are put in another special group: the Draft LayerContainer.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer** option from the menu.
-    -   If the layer container already exists: right-click it in the [Tree view](Tree_view.md) and select the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from context menu.
-2.  If it does not exist the layer container is created first.
-3.  A layer is created and put in the layer container.
-4.  Optionally change the [properties](#Properties.md) of the layer.
-5.  Optionally put objects in the layer by drag and dropping them on the layer in the [Tree view](Tree_view.md). Objects can also be put in a layer by editing the **Group** property of the layer.
-6.  Optionally [activate](#Layer_options.md) the layer.
+Polecenie <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Warstwa** tworzy warstwę roboczą. Warstwa jest specjalnym rodzajem grupy z szeregiem [właściwości wizualnych](#Widok.md). Te właściwości i wszelkie ich zmiany są przenoszone na obiekty umieszczone wewnątrz warstwy. Same warstwy są umieszczane w innej specjalnej grupie: Draft LayerContainer.
 
-## Context menu 
+
+
+## Użycie
+
+1.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Draft_Layer.svg" width=16px> '''Warstwa'''**.
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_Layer.svg" width=16px> Warstwa**.
+    -   Jeśli kontener warstwy już istnieje: kliknij go prawym przyciskiem myszy w widoku drzewa i wybierz opcję **<img src="images/Draft_NewLayer.svg" width=16px> Dodaj nową warstwę** z menu kontekstowego.
+2.  Jeśli nie istnieje, najpierw tworzony jest kontener warstwy.
+3.  Warstwa jest tworzona i umieszczana w kontenerze warstw.
+4.  Opcjonalnie można zmienić [właściwości](#Właściwości.md) warstwy.
+5.  Opcjonalnie umieść obiekty w warstwie, przeciągając i upuszczając je na warstwie w [widoku drzewa](Tree_view/pl.md). Obiekty mogą być również umieszczane w warstwie poprzez edycję właściwości **Grupa** warstwy.
+6.  Opcjonalnie [aktywuj](#Opcje_warstwy.md) warstwę.
+
+
+
+## Menu podręczne 
 
 
 
 ### Opcje kontenera warstw 
 
-For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
+W przypadku kontenera warstw te dodatkowe opcje są dostępne w menu kontekstowym [widoku drzewa](Tree_view/pl.md):
 
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: merges all layers with the same base label.
+-    **<img src="images/Draft_Layer.svg" width=16px>: scal wszystkie warstwy o tej samej etykiecie bazowej. Scal duplikaty warstw**: scala wszystkie warstwy z tą samą etykietą bazową.
 
-:   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label.
+:   Podstawowa etykieta warstwy to jej **Etykieta** pozbawiona końcowych cyfr i spacji. Wszystkie warstwy z tą samą etykietą bazową są łączone w jedną warstwę z **Etykietą** ustawioną na tę etykietę bazową.
 
--    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
-
-### Layer options 
-
-For a Draft Layer these additional options are available in the [Tree view](Tree_view.md) context menu:
-
--    **<img src="images/button_right.svg" width=16px> [Activate this layer](Draft_AutoGroup.md)**: activates the selected layer.
-
--    **<img src="images/Draft_SelectGroup.svg" width=16px> [Select layer contents](Draft_SelectGroup.md)**: selects the objects inside the selected layer.
-
-## Drag and drop behavior 
+-    **<img src="images/Draft_NewLayer.svg" width=16px>: Dodaj nową warstwę**: dodaje nową warstwę do bieżącego dokumentu.
 
 
-<small>(v0.21)</small> 
 
-If you drop an object from a [Std Group](Std_Group.md), or a group-like object such as an [Arch BuildingPart](Arch_BuildingPart.md), on a layer in the [Tree view](Tree_view.md), it is not removed from the group, and vice versa. To remove an object from a layer it must be dropped on another layer or on the document node. There is no need to hold down the **Ctrl** key when dragging from or dropping on a layer.
+### Opcje warstwy 
 
-## Notes
+W przypadku warstwy środowiska Rysunek Roboczy te dodatkowe opcje są dostępne w menu podręcznym [Widok drzewa](Tree_view/pl.md):
 
--   A new layer can also be created with the [Draft AutoGroup](Draft_AutoGroup.md) command.
--   The [BIM Workbench](BIM_Workbench.md) offers a complete [layer manager tool](BIM_Layers.md) which will eventually be included in the [Draft Workbench](Draft_Workbench.md).
+-    **<img src="images/button_right.svg" width=16px>: [Aktywuj wybraną warstwę](Draft_AutoGroup/pl.md)**: aktywuje wybraną warstwę.
 
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft Layer object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+-    **<img src="images/Draft_SelectGroup.svg" width=16px> [Wybierz zawartość warstwy](Draft_SelectGroup/pl.md)**: zaznacza obiekty wewnątrz wybranej warstwy.
 
 
-{{TitleProperty|Layer}}
 
--    **Group|LinkList**: specifies the objects that are inside the layer.
-
-### View
+## Zachowanie przeciągnij i upuść 
 
 
-{{TitleProperty|Layer}}
+{{Version/pl|0.21}}
 
-The properties in this section are applied to objects that are put inside the layer. And any changes to these properties are propagated to them. For two properties, **Line Color** and **Shape Color**, this behavior is optional.
-
--    **Draw Style|Enumeration**: specifies the draw style of the layer: {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} or {{value|Dashdot}}
-
--    **Line Color|Color**: specifies the line color of the layer.
-
--    **Line Width|Float**: specifies the line width of the layer.
-
--    **Override Line Color Children|Bool**: specifies if changes to the **Line Color** of the layer are propagated to the objects inside the layer.
-
--    **Override Shape Color Children|Bool**: specifies if changes to the **Shape Color** of the layer are propagated to the objects inside the layer.
-
--    **Shape Color|Color**: specifies the shape color of the layer.
-
--    **Transparency|Percent**: specifies the transparency of the layer.
+Jeśli upuścisz obiekt z [Std: Grupa](Std_Group/pl.md), lub obiekt podobny do grupy, taki jak [Architektura\" Część budowli](Arch_BuildingPart/pl.md), na warstwę w [widoku drzewa](Tree_view/pl.md), nie zostanie on usunięty z grupy i vice versa. Aby usunąć obiekt z warstwy, musi on zostać upuszczony na innej warstwie lub na węźle dokumentu. Nie ma potrzeby przytrzymywania klawisza **Ctrl** podczas przeciągania z lub upuszczania na warstwę.
 
 
-{{TitleProperty|Print}}
 
--    **Line Print Color|Color**: specifies the line print color of the layer.
+## Uwagi
 
--    **Use Print Color|Bool**: specifies if the **Line Print Color|** of the layer is used when a [TechDraw DraftView](TechDraw_DraftView.md) is created from the objects inside the layer.
+-   Nową warstwę można również utworzyć za pomocą polecenia [Grupowanie automatyczne](Draft_AutoGroup/pl.md).
+-   Środowisko pracy [BIM](BIM_Workbench/pl.md) oferuje kompletne [narzędzie do zarządzania warstwami](BIM_Layers/pl.md), które ostatecznie zostanie włączone do środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Layer use the `make_layer` method of the Draft module. To add objects to, or remove objects from, a layer change its `Group` property.
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Warstwa środowiska pracy Rysunek Roboczy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Etykieta}}
+
+-    **Group|LinkList**: określa obiekty znajdujące się wewnątrz warstwy.
+
+
+
+### Widok
+
+
+{{TitleProperty|Warstwa}}
+
+Właściwości w tej sekcji są stosowane do obiektów umieszczonych wewnątrz warstwy. Wszelkie zmiany tych właściwości są do nich przenoszone. W przypadku dwóch właściwości, **Kolor linii** i **Kolor kształtu**, zachowanie to jest opcjonalne.
+
+-    **Styl rysowania|Enumeration**: określa styl rysowania warstwy: {{value|Ciągła}}, {{value|Przerywana}}, {{value|Kropkowana}} lub {{value|KreskaKropka}}.
+
+-    **Kolor linii|Color**: określa kolor linii warstwy.
+
+-    **Szerokość linii|Float**: określa szerokość linii warstwy.
+
+-    **Zastąp elementy potomne kolorem linii|Bool**: określa, czy zmiany w **Kolorze linii** warstwy są przekazywane do obiektów wewnątrz warstwy.
+
+-    **Zastąp elementy podrzędne kolorem kształtu|Bool**: określa, czy zmiany w **Kolorze kształtu** warstwy są przekazywane do obiektów wewnątrz warstwy.
+
+-    **Kolor kształtu|Color**: określa kolor kształtu warstwy.
+
+-    **Przezroczystość|Percent**: określa przezroczystość warstwy.
+
+
+{{TitleProperty|Drukuj}}
+
+-    **Kolor wydruku linii|Color**: określa kolor wydruku linii warstwy.
+
+-    **Użyj koloru wydruku|Bool**: określa, czy **Kolor wydruku linii|** warstwy jest używany, gdy [TechDraw DraftView](TechDraw_DraftView.md) jest tworzony z obiektów wewnątrz warstwy.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć warstwę środowiska Rysunek Roboczy, użyj metody `make_layer` modułu Rysunek Roboczy. Aby dodać lub usunąć obiekty z warstwy, zmień jej właściwość `Grupa`.
 
 
 ```python

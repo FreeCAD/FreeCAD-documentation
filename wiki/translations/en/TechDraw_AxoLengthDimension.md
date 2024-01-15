@@ -31,6 +31,11 @@ The **TechDraw AxoLengthDimension** tool adds a length dimension to an axonometr
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
 
+
+<small>(v0.22)</small> 
+
+: When dimensioning edges parallel to the global coordinate system axes, the actual (3D) value is calculated automatically and inserted into the dimension label as a text.
+
 ### Change properties 
 
 To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).

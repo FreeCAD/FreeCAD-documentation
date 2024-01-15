@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM ConstraintCurrentDensity
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint current density
+   MenuLocation: Model , Electromagnetic boundary conditions , Current density boundary condition
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D
@@ -11,12 +11,12 @@
 
 ## Description
 
-Creates a FEM constraint for the current density. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
+Creates a FEM boundary condition for the current density. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
 
 ## Usage
 
-1.  Press the **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [FEM ConstraintCurrentDensity](FEM_ConstraintCurrentDensity.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Constraint current density**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
+1.  Press the **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Current density boundary condition](FEM_ConstraintCurrentDensity.md)** button or use the menu **Model → Electromagnetic boundary conditions → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Current density boundary condition**.
+2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
 3.  Press the **Add** button.
 
 ## Options

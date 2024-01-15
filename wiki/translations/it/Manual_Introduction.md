@@ -1,9 +1,9 @@
 # Manual:Introduction/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) è una applicazione di modellazione parametrica 3D free e open-source. È fatto principalmente per modellare gli oggetti del mondo reale, che vanno dai piccoli componenti elettronici fino agli edifici e ai progetti di ingegneria civile, con particolare attenzione agli oggetti stampabili in 3D. FreeCAD può essere scaricato, usato, distribuito e modificato liberamente, il suo codice sorgente è aperto e pubblicato sotto la molto permissiva licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). I dati prodotti con FreeCAD sono di completa proprietà dell\'autore, e possono essere recuperati anche senza FreeCAD.
+[FreeCAD](http://www.freecad.org) è una applicazione di modellazione parametrica 3D free e open-source. È fatto principalmente per modellare gli oggetti del mondo reale, che vanno dai piccoli componenti elettronici fino agli edifici e ai progetti di ingegneria civile, con particolare attenzione agli oggetti stampabili in 3D. FreeCAD può essere scaricato, usato, distribuito e modificato liberamente, il suo codice sorgente è aperto e pubblicato sotto la molto permissiva licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). I dati prodotti con FreeCAD sono di completa proprietà dell\'autore, e possono essere recuperati anche senza FreeCAD.
 
 FreeCAD è anche fondamentalmente un progetto sociale, in quanto è sviluppato e mantenuto da una comunità di sviluppatori e di utenti uniti dalla passione per FreeCAD.
 

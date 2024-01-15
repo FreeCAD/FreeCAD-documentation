@@ -1,6 +1,4 @@
 # Manual:Creating renderings
-{{Manual:TOC}}
-
 In computer speak, the word [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) is used to describe a nice image produced from a 3D model. Of course, we could say that what we see in the FreeCAD 3D view is already nice. However, anybody who has seen a recent Hollywood movie, knows that it is possible to produce images with a computer that are almost indistinguishable from a photograph.
 
 Of course, producing photo-realistic images requires a lot of work, in addition to a 3D application that offers specific tools for that purpose, such as precise controls for materials and lighting. Because FreeCAD is an application geared more towards technical modelling, it does not feature any advanced rendering tools.

@@ -1,4 +1,7 @@
 # Macro screw maker1 2/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Macro_screw_maker1_2
 |Translate=Macro_screw_maker1_2
@@ -11,12 +14,31 @@
 |Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
-Dieses Makro erstellt eine Schraube mit oder ohne Gewinde gemäß ISO-Standards. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+Dieses Makro erstellt eine Schraube mit oder ohne Gewinde gemäß ISO-Standards.
+
+
+</div>
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
 
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
 *Screw maker*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Nutzung
 
@@ -34,10 +56,25 @@ Wenn Sie einen Kreis in einem Loch auswählen, oder alternativ gleichzeitig die 
 Die Erstellung des Threads dauert einige Zeit. Seien Sie geduldig und sehen Sie sich die CPU-Auslastung an.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skript
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), aber der einfachste Weg, dieses Makro zu installieren, ist mit dem [Addon-Manager](Std_AddonMgr/de.md).
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

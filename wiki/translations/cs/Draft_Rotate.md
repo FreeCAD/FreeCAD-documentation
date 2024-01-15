@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -19,6 +21,8 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 <img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
 *Rotating an object around a center point*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -43,9 +47,11 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 </div>
 
+
+
 ## Volby
 
-The single character keyboard shortcuts and the modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -69,9 +75,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
--   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
+-   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General → Select base objects after copying**.
 
 ## Scripting
 

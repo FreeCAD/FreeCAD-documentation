@@ -1,5 +1,5 @@
 # Manual:Traditional 2D drafting/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 Vous pouvez être intéressé par FreeCAD car vous avez déjà une expérience de dessin technique, par exemple avec un logiciel comme [AutoCAD](https://fr.wikipedia.org/wiki/AutoCAD). Ou vous savez déjà quelque chose dans le Design, ou vous préférez dessiner avant de construire. Dans les deux cas, FreeCAD propose un atelier avec des fonctionnalités plus traditionnelles, avec des outils que l'on trouve dans la plupart des applications CAO 2D : l\'[atelier Draft](Draft_Workbench/fr.md).
 
@@ -27,7 +27,7 @@ L\'activation de tous les boutons d\'accrochage est pratique, mais ralentit éga
 -   Commençons par passer en **mode construction**, ce qui nous permettra de dessiner des lignes directrices sur lesquelles nous allons dessiner notre géométrie finale.
 -   Si vous le souhaitez, mettez le **plan de travail** sur **XY**. Si vous faites cela, le plan de travail ne changera pas, peu importe la vue actuelle. Si ce n\'est pas le cas, le plan de travail s\'adapte automatiquement à la vue actuelle, et vous devriez prendre soin de rester en vue de dessus lorsque vous souhaitez dessiner sur le plan XY (sol).
 -   Ensuite, sélectionnez l\'outil <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Rectangle](Draft_Rectangle/fr.md) et tracez un rectangle, en commençant par le point (0,0,0), de 2 mètres par 2 mètres (laissez Z à zéro). Notez que la plupart des commandes Draft peuvent être entièrement exécutées à partir du clavier, sans toucher la souris, en utilisant leur raccourci à deux lettres. Notre premier rectangle 2x2m peut se faire comme ceci : re 0 **Entrée** 0 Entrée 0 **Entrée** 2m **Entrée** 2m **Entrée** 0 **Entrée**.
--   Dupliquez ce rectangle de 15 cm à l\'intérieur, en utilisant l\'outil Décalage <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Décalage](Draft_Offset/fr.md), en activant son mode Copie et en lui donnant une distance de 15 cm :
+-   Dupliquez ce rectangle de 15 cm à l\'intérieur, en utilisant l\'outil <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Décaler](Draft_Offset/fr.md), en activant son mode Copier et en lui donnant une distance de 15 cm :
 
 ![](images/Exercise_cabin_02.jpg )
 
@@ -46,12 +46,12 @@ L\'activation de tous les boutons d\'accrochage est pratique, mais ralentit éga
 
 ![](images/Exercise_cabin_04.jpg )
 
-Nous pouvons changer leur couleur grise par défaut en un motif de hachures, en sélectionnant les deux murs, et en définissant leur propriété **Motif** à **Simple**, et leur **taille** à votre goût, par exemple **0,005**.
+-   Nous pouvons donner aux murs un joli motif de hachures. Sélectionnez les deux murs, assurez-vous que leur propriété **Make Face** est réglée sur **`True`**, puis réglez leur propriété **Motif** sur **Simple**, et leur **taille** à votre convenance, par exemple **0.005**.
 
 ![](images/Exercise_cabin_05.jpg )
 
 -   Nous pouvons maintenant cacher la géométrie de construction en cliquant avec le bouton droit sur le groupe Construction et en choisissant **Masquer la sélection**.
--   Dessinons maintenant les fenêtres et les portes. Assurez-vous que le filtre d'accrochage <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [Point Milieu](Draft_Snap/fr.md) est activé et tracez six lignes comme suit :
+-   Dessinons maintenant les fenêtres et les portes. Assurez-vous que l\'<img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> [aimantation au point milieu](Draft_Snap/fr.md) est activé et tracez six lignes comme suit :
 
 ![](images/Exercise_cabin_06.jpg )
 
@@ -94,12 +94,16 @@ Notre dessin est maintenant terminé ! Puisqu\'il commence à y avoir un certain
 
 Fondamentalement, ce que fait l'atelier Draft, c\'est fournir des moyens graphiques pour créer des opérations partielles de base. Pendant que dans Part, vous positionnez généralement les objets en définissant leur propriété de placement à la main, dans Draft vous pouvez le faire à l\'écran. Il y a des moments où c'est mieux, d\'autres fois où l\'autre est préférable. N\'oubliez pas, vous pouvez créer des [outils personnalisés](Interface_Customization/fr.md) dans un de ces ateliers, ajouter les outils de l\'autre et obtenir le meilleur des deux mondes.
 
+
+
 ## Téléchargements
 
 -   Le fichier créé lors de cet exercice: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/cabin.FCStd>
 -   Le fichier DXF de l\'évier: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/sink.dxf>
 -   Le fichier DXF de la table de cuisson: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/cooktop.dxf>
 -   Le fichier final DXF produit lors de cet exercice: <Https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf>
+
+
 
 ## En relation 
 

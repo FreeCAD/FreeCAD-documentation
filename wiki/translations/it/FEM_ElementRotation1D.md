@@ -28,7 +28,7 @@
 
 ## Limitations
 
--   Currently multiple rotations are not supported (a single rotation is applied to all beams in the model).
+-   Currently, multiple rotations are not supported (a single rotation is applied to all beams in the model).
 
 ## Notes
 

@@ -16,30 +16,31 @@
 
 Данный инструмент создает новый эскиз. Создает новое [PartDesign Тело](PartDesign_Body/ru.md) чтобы разместить в нем эскиз если такового не существует и автоматически открывает [верстак Sketcher](Sketcher_Workbench/ru.md).
 
-When creating models using the [PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
+Если вы создаете эскиз в [верстаке PartDesign](PartDesign_Workbench/ru.md), вам стоит использовать этот инструмент вместо **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Создать эскиз](Sketcher_NewSketch/ru.md)** из [верстака Sketcher](Sketcher_Workbench.md).
 
 
 
 ## Применение
 
-1.  Press the **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
-2.  In the Tasks panel, the **Select feature** dialog is brought up. Select one of the planes in the list or in the 3D view which can be reoriented for better visibility.
-3.  Press **OK**.
-4.  The interface automatically switches to the Sketcher workbench and the sketch can be edited. Once the sketch is exited, the interface is brought back to the PartDesign workbench and the 3D view is restored to the view orientation prior to creating the sketch.
-5.  Alternatively, a plane or a face on the existing active body can be selected before creating the sketch, in which case the sketch is instantly created.
+1.  Нажмите на кнопку**[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Создать эскиз](PartDesign_NewSketch/ru.md)** на панели инструментов PartDesign.
+2.  В окне задач находится окно **Выбор элементов операции**. Выберете одну из плоскостей из списка или используя трехмерный вид для лучшего обзора.
+3.  Нажмите на кнопку **OK**.
+4.  Интерфейс автоматически переключится на верстак Sketcher для редактирования эскиза. Когда вы закроете эскиз, интерфейс вернется к верстаку PartDesign и трехмерному виду, который был до создания эскиза.
+5.  В противном случае плоскость на активном теле может, в этом случае эскиз мгновенно создается.
 
 
 
 ## Опции
 
--   To change the attachment of an existing sketch, change its **Map Mode** property (see [Properties](#Properties.md).)
+-   Чтобы изменить прикрепление существующего эскиза, измените параметр **Map Mode** (смотри [Свойства](#Свойства.md).)
 
--   The *Select feature* Dialog defines the features of the new sketch
+-   Окно *Выбор элементов операции* определяет параметры нового эскиза
 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
-    :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
+
+    :   Окно *Выбор элементов операции*. С этими параметрами создается эскиз на плоскости XY и разрешает использование элементов того-же тела
 
 Dialog settings
 

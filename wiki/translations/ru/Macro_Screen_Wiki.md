@@ -7,8 +7,8 @@
 |Version=00.06b
 |Date=2023/06/26
 |FCVersion=0.19 and more
-|Download=Download the [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] image and paste it in the same directory of the macro
-|SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md)<br/><img src="images/Snip.png" width=24px> [Macro Snip](Macro_Snip.md)
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_Screen_Wiki.png ToolBar Icon]
+|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard.md), [Macro Snip](Macro_Snip.md)
 }}
 
 
@@ -40,7 +40,13 @@
 
 
 
+
+<div class="mw-translate-fuzzy">
+
 ## Использование
+
+
+</div>
 
 
 

@@ -7,20 +7,26 @@
 
 
 
+
+
 ## Introduzione
 
 Qui si spiega come controllare il modulo [Part](Part_Workbench/it.md) direttamente dall\'interprete Python di FreeCAD o da qualsiasi script esterno. Assicurarsi di sfogliare la sezione [Script](Scripting/it.md) e la sezione [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md) se hai bisogno di maggiori informazioni su come funziona lo scripting Python in FreeCAD. Se non conosci Python, è una buona idea leggere prima la [Introduzione a Python](Introduction_to_Python/it.md).
+
+
 
 ### Vedere anche 
 
 -   [Script di Part](Part_scripting/it.md)
 -   [OpenCASCADE](OpenCASCADE/it.md)
 
+
+
 ## Diagramma delle classi 
 
 Questa è una panoramica delle classi del [Linguaggio di Modellazione Unificato (UML)](http://it.wikipedia.org/wiki/Unified_Modeling_Language) più importanti del modulo Parte:
 
-![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
+![Python classes of the Part module](images/Part_Classes.jpg ) 
 
 ### Geometria
 
@@ -33,6 +39,8 @@ Gli oggetti geometrici sono le fondamenta per la costruzione di tutti gli oggett
 
 
 {{Top}}
+
+
 
 ### Topologia
 
@@ -51,11 +59,13 @@ Sono disponibili i seguenti tipi di dati topologici:
 
 {{Top}}
 
+
+
 ## Esempio: Creare una semplice topologia 
 
 ![Wire](images/Wire.png )
 
-Creeremo ora una topologia tramite la costruzione della semplice geometria. Come caso di studio, utilizzeremo una forma come quella che si vede nella figura, composta da quattro vertici, due archi e due linee. {{Top}}
+Creeremo ora una topologia tramite la costruzione della semplice geometria. Come caso di studio, utilizzeremo una forma come quella che si vede nella figura, composta da quattro vertici, due archi e due linee. 
 
 ### Creare la geometria 
 
@@ -76,6 +86,8 @@ V4 = App.Vector(0, -10, 0)
 
 {{Top}}
 
+
+
 ### Arco
 
 ![Circle](images/Circel.png )
@@ -93,6 +105,8 @@ C2 = Part.Arc(V2, VC2, V3)
 
 {{Top}}
 
+
+
 ### Linea
 
 ![Line](images/Line.png )
@@ -108,6 +122,8 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
+
+
 ### Unire tutto 
 
 L\'ultimo passaggio consiste nell\'unire tutti gli elementi geometrici di base e produrre una forma topologica:
@@ -119,6 +135,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 #### Creare un prisma 
 
@@ -133,6 +151,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 
 {{Top}}
 
+
+
 ### Mostra tutto 
 
 
@@ -142,6 +162,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 ## Creare forme di base 
 
@@ -173,7 +195,7 @@ Alcuni metodi `make...()` disponibili:
 
 -    `makeTorus(radius1, raggio2)`Crea un toro con i raggi dati.
 
-Vedere la pagina [API di Part](Part_API/it.md) per un elenco completo dei metodi disponibili del modulo Part. {{Top}}
+Vedere la pagina [API di Part](Part_API/it.md) o [Documentazione Python Part API autogenerata](https://freecad-python-stubs.readthedocs.io/en/latest/autoapi/Part/) per un elenco completo dei metodi disponibili del modulo Part. 
 
 ### Importare i moduli necessari 
 
@@ -187,6 +209,8 @@ import Part
 
 
 {{Top}}
+
+
 
 ### Creare un vettore 
 
@@ -208,6 +232,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 #### Creare un bordo 
 
@@ -243,6 +269,8 @@ edge.CenterOfMass
 
 {{Top}}
 
+
+
 ### Mostrare la forma sullo schermo 
 
 Con le operazioni precedenti abbiamo creato un oggetto bordo, ma esso non è visibile da nessuna parte sullo schermo. Questo perché la scena 3D di FreeCAD mostra solo quello che gli si chiede di visualizzare. Per farlo, usiamo questo semplice metodo:
@@ -252,7 +280,7 @@ Con le operazioni precedenti abbiamo creato un oggetto bordo, ma esso non è vis
 Part.show(edge)
 ```
 
-La funzione show crea un oggetto nel nostro documento FreeCAD e gli assegna la forma \"edge\". Utilizzare questo metodo ogni volta che si vuole visualizzare il proprio prodotto sullo schermo. {{Top}}
+La funzione show crea un oggetto nel nostro documento FreeCAD e gli assegna la forma \"edge\". Utilizzare questo metodo ogni volta che si vuole visualizzare il proprio prodotto sullo schermo. 
 
 ### Creare un contorno 
 
@@ -292,6 +320,8 @@ wire2.isClosed()
 
 {{Top}}
 
+
+
 ### Creare una faccia 
 
 Sono valide solo le facce create da contorni chiusi. Nell\'esempio, wire3 è un contorno chiuso, ma wire2 non è un contorno chiuso (vedi esempio precedente)
@@ -312,7 +342,7 @@ sface.isValid()
 > False
 ```
 
-Solamente le facce hanno un\'area, non i contorni né i bordi. {{Top}}
+Solamente le facce hanno un\'area, non i contorni né i bordi. 
 
 ### Creare una circonferenza 
 
@@ -354,6 +384,8 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
+
+
 ### Creare un arco attraverso dei punti 
 
 Sfortunatamente non esiste una funzione `makeArc()`, ma abbiamo la funzione `Part.Arc()` per creare un arco attraverso tre punti. Crea un oggetto arco, che unisce il punto iniziale al punto finale attraverso il punto medio. La funzione `toShape()` dell\'oggetto arc deve essere chiamata per ottenere un oggetto edge, come quando si usa `Part.LineSegment` invece di `Part.makeLine`.
@@ -379,7 +411,7 @@ circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-Gli archi sono bordi validi, come le linee, quindi possono essere usati anche nei contorni. {{Top}}
+Gli archi sono bordi validi, come le linee, quindi possono essere usati anche nei contorni. 
 
 ### Creare un poligono 
 
@@ -392,6 +424,8 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 
 {{Top}}
+
+
 
 ### Creare una curva di Bézier 
 
@@ -408,6 +442,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 ### Creare un piano 
 
@@ -428,7 +464,7 @@ plane.BoundBox
 
 è il parallelepipedo che racchiude il piano e la cui diagonale parte da (3,0,0) e termina in (5,0,2). Qui lo spessore di `BoundBox` sull\'asse y è zero, poiché la nostra forma è totalmente piatta.
 
-Nota: `makePlane()` accetta solo `App.Vector()` per start_pnt e dir_normal e non tuple. {{Top}}
+Nota: 
 
 ### Creare una ellisse 
 
@@ -478,7 +514,7 @@ eli = Part.Ellipse(App.Vector(0, 0, 0), 10, 5)
 Part.show(eli.toShape())
 ```
 
-Per il costruttore Ellisse precedente abbiamo passato il centro, MajorRadius e MinorRadius. {{Top}}
+Per il costruttore Ellisse precedente abbiamo passato il centro, MajorRadius e MinorRadius. 
 
 ### Creare un toro 
 
@@ -503,7 +539,7 @@ Il codice sopra creerà una fetta del toro.
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 ```
 
-Il codice precedente creerà un semi toro; solo l\'ultimo parametro viene modificato vale a dire l\'angolo e gli angoli rimanenti sono predefiniti. Impostare il valore dell\'angolo a 180 creerà il toro da 0 a 180, cioè, un mezzo toro. {{Top}}
+Il codice precedente creerà un semi toro; solo l\'ultimo parametro viene modificato vale a dire l\'angolo e gli angoli rimanenti sono predefiniti. Impostare il valore dell\'angolo a 180 creerà il toro da 0 a 180, cioè, un mezzo toro. 
 
 ### Creare un cubo o parallelepipedo 
 
@@ -519,6 +555,8 @@ len(box.Vertexes)
 
 {{Top}}
 
+
+
 ### Creare una sfera 
 
 Utilizzare `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. Per impostazione predefinita pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 e angle3 = 360. Angle1 e angle2 sono il minimo e il massimo verticale della sfera, angolo3 è il diametro della sfera.
@@ -531,6 +569,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 
 
 {{Top}}
+
+
 
 ### Creare un cilindro 
 
@@ -545,6 +585,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 {{Top}}
 
+
+
 ### Creare un cono 
 
 Utilizzare `makeCone(raggio1, raggio2, altezza, [pnt, dir, angolo])`. Per impostazione predefinita pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) e angle = 360.
@@ -558,11 +600,15 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 
 {{Top}}
 
+
+
 ## Modificare le forme 
 
-Esistono diversi modi per modificare le forme. Alcuni sono semplici operazioni di trasformazione come lo spostamento o la rotazione di forme, altri sono più complessi, come l\'unione e la sottrazione di una forma da un\'altra. {{Top}}
+Esistono diversi modi per modificare le forme. Alcuni sono semplici operazioni di trasformazione come lo spostamento o la rotazione di forme, altri sono più complessi, come l\'unione e la sottrazione di una forma da un\'altra. 
 
 ## Operazioni di trasformazione 
+
+
 
 ### Traslare una forma 
 
@@ -574,7 +620,7 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(App.Vector(2, 0, 0))
 ```
 
-Questo sposterà la forma \"myShape\" di 2 unità nella direzione dell\'asse x. {{Top}}
+Questo sposterà la forma \"myShape\" di 2 unità nella direzione dell\'asse x. 
 
 ### Ruotare una forma 
 
@@ -585,7 +631,7 @@ Per ruotare una forma, è necessario specificare il centro, l\'asse e l\'angolo 
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-Il codice precedente ruota la forma di 180 gradi attorno all\'asse z. {{Top}}
+Il codice precedente ruota la forma di 180 gradi attorno all\'asse z. 
 
 ### Trasformazioni matriciali 
 
@@ -623,6 +669,8 @@ myShape.transformGeometry(myMat)
 
 {{Top}}
 
+
+
 ### Ridimensionare una forma 
 
 Scalare (ridimensionare) una forma è una delle operazioni più pericolose perché, a differenza della traslazione o della rotazione, il ridimensionamento non uniforme (con valori diversi per gli assi x, y, z) può modificare la struttura della forma. Ad esempio, la scalatura di un cerchio con un valore in orizzontale diverso da quello in verticale lo trasformerà in un ellisse, forma che matematicamente si comporta in modo molto diverso. Per il ridimensionamento, non possiamo usare `transformShape()`, ma dobbiamo usare `transformGeometry()`:
@@ -637,7 +685,11 @@ myShape=myShape.transformGeometry(myMat)
 
 {{Top}}
 
+
+
 ## Operazioni Booleane 
+
+
 
 ### Sottrazione
 
@@ -653,6 +705,8 @@ diff = cylinder.cut(sphere)
 
 {{Top}}
 
+
+
 ### Intersezione
 
 Allo stesso modo, l\'intersezione tra le due forme è chiamato \"common\" e viene eseguita così:
@@ -667,6 +721,8 @@ common = cylinder1.common(cylinder2)
 
 {{Top}}
 
+
+
 ### Unione
 
 L\'unione è chiamata \"fuse\" e funziona allo stesso modo:
@@ -680,6 +736,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 ### Sezione
 
@@ -700,6 +758,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 ### Estrusione
 
@@ -722,6 +782,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 
 {{Top}}
+
+
 
 ## Esplorare le forme 
 
@@ -746,7 +808,7 @@ v.Point
 
 Digitando le righe sopra nell\'interprete Python, si otterrà una buona comprensione della struttura degli oggetti Part. Qui, il comando `makeBox()` crea una forma solida. Questo solido, come tutti i solidi Part, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono lieste di bordi, che delimitano la faccia. Ogni faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. I bordi dritti hanno solo due vertici, ovviamente.
 
-Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona descrizione della struttura degli oggetti Parte. Qui, il nostro comando makeBox() crea una forma solida. Questo solido, come tutti i solidi Parte, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono liste di bordi che delimitano la faccia. Ciascuna faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. Ovviamente, i bordi diritti hanno solo due vertici. {{Top}}
+Digitando le righe di cui sopra nell\'interprete Python, si otterrà una buona descrizione della struttura degli oggetti Parte. Qui, il nostro comando makeBox() crea una forma solida. Questo solido, come tutti i solidi Parte, contiene delle facce. Le facce contengono sempre delle linee (polilinee), che sono liste di bordi che delimitano la faccia. Ciascuna faccia ha almeno un contorno chiuso (ne può avere più di uno se la faccia presenta dei fori). Nel contorno, possiamo guardare a ciascun bordo separatamente, e all\'interno di ogni bordo, possiamo vedere i vertici. Ovviamente, i bordi diritti hanno solo due vertici. 
 
 ### Analizzare i bordi 
 
@@ -777,6 +839,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 ### Utilizzare una selezione 
 
@@ -816,6 +880,8 @@ print("Length of the selected edges: ", length)
 
 {{Top}}
 
+
+
 ## Esempio completo: La bottiglia OCC 
 
 Un esempio tipico si trova nella pagina [OpenCasCade Technology Tutorial](http://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html#sec1) che spiega come costruire una bottiglia. Questo è un buon esercizio anche per FreeCAD. In effetti, se si segue il nostro esempio qui sotto e la pagina di OCC contemporaneamente, si capisce bene come sono implementate le strutture di OCC in FreeCAD. Lo script completo è anche incluso nell\'installazione di FreeCAD (all\'interno della cartella Mod/Part) e può essere chiamato dall\'interprete python digitando:
@@ -830,6 +896,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 ### Lo script 
 
@@ -885,6 +953,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 ### Spiegazione dettagliata 
 
@@ -989,7 +1059,7 @@ el = makeBottleTut()
 Part.show(el)
 ```
 
-Infine, chiamiamo la funzione per creare effettivamente la parte, e quindi renderla visibile. {{Top}}
+Infine, chiamiamo la funzione per creare effettivamente la parte, e quindi renderla visibile. 
 
 ## Cubo forato 
 
@@ -1047,6 +1117,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 ## Caricare e salvare 
 

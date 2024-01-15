@@ -1,41 +1,49 @@
 ---
  GuiCommand:
    Name: Draft Snap Parallel
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap, Draft_Snap_Lock
+   Name/pl: Rysunek Roboczy: Przyciągnij równolegle
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl
 ---
 
 # Draft Snap Parallel/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:24px;"> **Draft Snap Parallel** option snaps to an imaginary line parallel to straight edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Extension](Draft_Snap_Extension.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:24px;"> **Przyciągnij równolegle** przyciąga do wyimaginowanej linii równoległej do prostych krawędzi. Krawędzie mogą należeć do obiektów środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów utworzonych za pomocą innych [środowisk pracy](Workbenches/pl.md).
+
+Do 2 *(lub 8 {{Version/pl|0.20}})* krawędzi można odwołać się za pomocą tej opcji przyciągania i [przyciągania na wydłużeniu](Draft_Snap_Extension/pl.md), umożliwiając przyciąganie do wirtualnych przecięć. Obie opcje przyciągania mogą być również łączone z innymi opcjami przyciągania.
 
 ![](images/Draft_Snap_Parallel_example.png ) 
-*Snapping the second point of a line to an invisible line that is parallel to an edge*
+*Przyciąganie drugiego punktu linii do niewidocznej linii równoległej do krawędzi.*
 
-## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-2.  If **Draft Snap Parallel** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Parallel.svg" width=16px>** button in the Draft snap toolbar.
-    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Parallel.svg" width=16px> Snap Parallel** option.
-3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-4.  Note that you can also change snap options while a command is active.
-5.  Pick a first point. This snap option requires a previous point. The parallel snap line will pass through this point.
-6.  Move the cursor over a straight edge.
-7.  The edge is highlighted.
-8.  If you now move the cursor around the previous point you will notice a \"magnetic\" effect when the cursor is on the parallel snap line.
-9.  The point is marked and the <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:16px;"> icon is displayed near the cursor.
-10. Click to confirm the point.
+## Użycie
 
-## Preferences
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+1.  Upewnij się, że przyciąganie jest włączone. Zobacz stronę <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+2.  Jeśli opcja **Przyciągnij równolegle** nie jest aktywna, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Parallel.svg" width=16px>** na pasku narzędzi przyciągania.
+    -   Naciśnij i przytrzymaj przycisk **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** na pasku narzędzi [Widżet przyciągania](Draft_snap_widget/pl.md) i w otwartym menu wybierz opcję **<img src="images/Draft_Snap_Parallel.svg" width=16px> Przyciągnij równolegle
+        **.
+3.  Wybierz polecenia środowiska [Rysunku Roboczego](Draft_Workbench/pl.md) lub [Architektury](Arch_Workbench/pl.md), aby utworzyć geometrię.
+4.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
+5.  Wybierz pierwszy punkt. Ta opcja przyciągania wymaga poprzedniego punktu. Równoległa linia przyciągania będzie przechodzić przez ten punkt.
+6.  Przesuń kursor nad prostą krawędź.
+7.  Krawędź zostanie podświetlona.
+8.  Jeśli teraz przesuniesz kursor wokół poprzedniego punktu, zauważysz efekt \"magnetyczny\", gdy kursor znajdzie się na równoległej linii przyciągania.
+9.  Punkt zostanie zaznaczony, a ikona <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:16px;"> zostanie wyświetlona w pobliżu kursora.
+10. Kliknij, aby potwierdzić punkt.
+
+
+
+## Ustawienia
+
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

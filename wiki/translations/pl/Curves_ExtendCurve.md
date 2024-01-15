@@ -1,30 +1,43 @@
 ---
  GuiCommand:
    Name: Curves ExtendCurve
+   Name/pl: Krzywe: Rozszerz krzywą
    MenuLocation: Curves , Extend Curve
-   Workbenches: Curves_Workbench
+   Workbenches: Curves_Workbench/pl
 ---
 
 # Curves ExtendCurve/pl
 
-## Description
 
-The <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> [Curves ExtendCurve](Curves_ExtendCurve.md) extends the selected edge. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md)..
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> button
-    -   Use the **Curves → Extend Curve**
+Polecenie <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;"> **Rozszerz krzywą** wydłuża wybraną krawędź. Narzędzie to jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
-## Properties
 
-## Notes
 
-## Limitations
+## Użycie
 
-## Scripting
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_ExtendCurve.svg  style="width:24px;">
+    -   Użyj pozycji w menu **Curves → Extend Curve**.
+
+
+
+## Właściwości
+
+
+
+## Uwagi
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów 
 
 
 

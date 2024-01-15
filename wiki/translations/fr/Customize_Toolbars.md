@@ -1,9 +1,13 @@
 # Customize Toolbars/fr
 {{TutorialInfo/fr|Topic=SampleTopic|Level=Débutant|Time=5 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=Toutes}}
 
+
+
 ## Sommaire
 
-Ce tutoriel vous vous montre la personnalisation de la barre d\'outils. Les outils (incluant les outils-Macro) peuvent être utilisés dans différents ateliers. Dans un exemple une Macro devient un \"texte Menu\", \" une \"Infobulle\" et une \"Icône\". Ensuite l\'outil-Macro devient un élément supplémentaire de la barre d\'outil dans l\'atelier.
+Ce tutoriel vous montre la personnalisation de la barre d\'outils. Les outils (incluant les outils-Macro) peuvent être utilisés dans différents ateliers. Dans un exemple une Macro devient un \"texte Menu\", \" une \"Infobulle\" et une \"Icône\". Ensuite l\'outil-Macro devient un élément supplémentaire de la barre d\'outil dans l\'atelier.
+
+
 
 ## Utilisation
 
@@ -108,6 +112,8 @@ Dans la fenêtre **Nouvelle barre d\'outils** entrez le nom de la nouvelle barre
 -   Votre nouvelle barre d\'outils est maintenant affichés dans le menu contextuel de la barre d\'outils. Ses icônes (dans notre exemple seulement la caméra) seront visible, si la barre d\'outils est activée (coché bleu).
 
 <img alt="Nouvelle barre d\'outils" src=images/CustomizeToolBar_18.png  style="width:640px;"> 
+
+
 
 ## Remarques
 

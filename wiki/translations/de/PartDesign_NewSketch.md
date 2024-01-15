@@ -44,6 +44,7 @@ Werden Modelle unter Verwendung des Arbeitsbereichs [PartDesign](PartDesign_Work
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+
     :   Dialog *Element auswählen*. Diese Einstellungen erstellen eine Skizze auf der XY-Ebene und lassen die Verwendung von Querverweisen anderer Elemente desselben Körpers
 
 Dialog-Einstellungen

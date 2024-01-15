@@ -1,9 +1,12 @@
-# WebTools Sketchfab/it
 ---
- GuiCommand:   Name: WebTools Sketchfab   Name/it: WebTools Sketchfab   MenuLocation: WebTools , Sketchfab   |Shortcut:    SeeAlso: ---
+ GuiCommand:
+   Name: WebTools Sketchfab
+   Name/it: WebTools Sketchfab
+   MenuLocation: WebTools , Sketchfab
+   
+---
 
-
-</div>
+# WebTools Sketchfab/it
 
 ## Descrizione
 
@@ -12,9 +15,8 @@ Questo strumento consente di esportare e caricare gli oggetti in un proprio acco
 ![](images/Sketchfab_exporter.jpg )
 
 
-<div class="mw-translate-fuzzy">
 
-## Uso
+## Utilizzo
 
 1.  Creare un proprio un account su [SketchFab](http://www.sketchfab.com), se non esiste ancora. Gli account gratuiti vanno bene, gli account a pagamento aggiungono ulteriori funzionalità, come la possibilità di avere modelli privati e grandi dimensioni massime di upload
 2.  Preparare un modello che si desidera caricare
@@ -23,13 +25,6 @@ Questo strumento consente di esportare e caricare gli oggetti in un proprio acco
 5.  Cliccare sul pulsante \"Upload\"
 
 
-</div>
-
-1.  Make yourself an account on [SketchFab](http://www.sketchfab.com) if you don\'t have one yet. Free accounts are just fine, paid accounts add more features like the possibility to have private models and bigger maximum upload sizes
-2.  Prepare a model you wish to upload
-3.  Click on <img alt="" src=images/WebTools_Sketchfab.svg  style="width:32px;"> from the main toolbar in the [WebTools Workbench](WebTools_Workbench.md)
-4.  Fill in the fields. Name and API key are mandatory
-5.  Click the \"Upload\" button
 
 ## Opzioni
 

@@ -33,7 +33,7 @@ Gli strumenti si trovano nel menu **Part** o nel menu **Measure**.
 
 Questi sono strumenti per creare oggetti primitivi.
 
--   <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Prisma](Part_Box/it.md): Crea parallelepipedi.
+-   <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/it.md): Crea un cubo.
 
 -   <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/it.md): Crea un cilindro.
 
@@ -46,14 +46,14 @@ Questi sono strumenti per creare oggetti primitivi.
 -   <img alt="" src=images/Part_Tube.svg  style="width:32px;"> [Tubo](Part_Tube/it.md): Crea un tubo.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Crea primitive\...](Part_Primitives/it.md): uno strumento per creare una delle seguenti primitive:
-    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plane](Part_Plane/it.md): crea un piano.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Box](Part_Box/it.md): crea un cubo. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/it.md).
+    -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Piano](Part_Plane/it.md): crea un piano.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cubo](Part_Box/it.md): crea un cubo. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/it.md).
     -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder/it.md): crea un cilindro. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/it.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone/it.md): crea un cono. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cuneo](Part_Cone/it.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cono](Part_Cone/it.md): crea un cono. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cono](Part_Cone/it.md).
     -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sfera](Part_Sphere/it.md): crea una sfera. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sfera](Part_Sphere/it.md).
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellissoide](Part_Ellipsoid/it.md): crea un ellissoide.
     -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus/it.md): crea un toro. Questo oggetto può anche essere creato con lo strumento <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/it.md).
-    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prism](Part_Prism/it.md): crea un prisma.
+    -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/it.md): crea un prisma.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cuneo](Part_Wedge/it.md) crea un cuneo.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Elica](Part_Helix/it.md): crea un\'elica.
     -   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/it.md): crea una spirale.
@@ -71,11 +71,13 @@ Questi sono strumenti per creare oggetti primitivi.
 
 Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
--   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Estrusione](Part_Extrude/it.md): Estrude facce planari.
+-   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Estrudi](Part_Extrude/it.md): Estrude facce planari.
 
 -   <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> [Rivoluziona](Part_Revolve/it.md): Crea un solido tramite la rivoluzione di un oggetto (non solido) attorno ad un asse.
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Specchia](Part_Mirror/it.md): Riflette l\'oggetto selezionato rispetto ad un asse stabilito.
+
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scala](Part_Scale/it.md): Ridimensiona una o più forme. {{Version/it|0.22}}
 
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Raccorda](Part_Fillet/it.md): Raccorda (arrotonda) i bordi di un oggetto.
 
@@ -165,7 +167,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Converti in solido](Part_MakeSolid/it.md): Converte un oggetto forma di un oggetto solido.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Inverti le forme](Part_ReverseShapes/it.md): Capovolge le normali di tutte le facce dell\'oggetto selezionato.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Inverti le forme](Part_ReverseShape/it.md): Capovolge le normali di tutte le facce dell\'oggetto selezionato.
 
 -   Creare una copia:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Crea una copia semplice](Part_SimpleCopy/it.md): Crea una semplice copia dell\'oggetto selezionato.

@@ -58,28 +58,16 @@ Du kannst das Vorhangwand Werkzeug auch ohne ein ausgewähltes Objekt verwenden.
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Fassaden teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md)
 -   Fassadenriegel können aus einem automatischen Rechteckprofil (setze ihre **Mullion Size**-Eigenschaften) oder aus einem benutzerdefinierten Profil (setze die **Mullion Profile**-Eigenschaft) erstellt werden. Die Riegel können mittig über jeder Kante oder durch das Deaktivieren der **Center Profile**-Eigenschaft relativ zum Ursprungspunkt (0,0,0) platziert werden. Wenn du bspw. ein Profil geringfügig hinter den Paneelen platzieren möchtest, würdest du dieses Profil geringfügig unter den Ursprungspunkt (0,0,0) ziehen
 -   Fassaden unterstützen [Mehrfachmaterialien](Arch_MultiMaterial/de.md). Innerhalb des Mehrfachmaterials wird die **Frame**-Ebene für die Riegel verwendet und die **Glass panel**-Ebene für Glasscheiben oder **Solid panel**, falls keine Glasscheibenebene im Mehrfachmaterial existiert
 -   Fassaden können auf einem linearen Objekt wie einer Linie, einem Bogen oder einem Linienzug basieren. In diesem Fall wird - intern - eine Basisoberfläche durch extrudieren des linearen Objekts entlang der durch die **Vertical Direction**-Eigenschaft vorgegebenen Richtung erstellt, in der durch die **Height**-Eigenschaft vorgegebenen Länge.
 
 
-</div>
-
-
 
 ## Eigenschaften
 
-
-<div class="mw-translate-fuzzy">
-
-Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) Objekten und habe ebenfalls die folgenden zusätzlichen Eigenschaften:
-
-
-</div>
+Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de.md) (Components-Objekte) und habe ebenfalls die folgenden zusätzlichen Eigenschaften:
 
 -    {{PropertyData/de|Vertical Mullion Number}}:Die Anzahl der vertikalen Pfosten
 
@@ -131,20 +119,11 @@ Vorhangfassaden erben die Eigenschaften von [Arch Komponenten](Arch_Component/de
 
 ## Erstellen von Vorhangfassaden 
 
-
-<div class="mw-translate-fuzzy">
-
 Vorhangfassaden sind praktisch in Verbindung mit [Arch Wänden](Arch_Wall/de.md), um Fachwerkwände (Wände mit einer inneren strukturellen Ebene bestehend aus Rahmen, üblicherweise Holz oder Metall, anstelle eines homogenen Materials wie Beton oder Ziegeln) zu erstellen.
-
-
-</div>
 
 <img alt="" src=images/Frame_wall_example.png  style="width:780px;">
 
 Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade basierend auf der gleichen Basislinie, gibt der Wand dann ein Mehrfachmaterial, das einen leeren Platz lässt, wo die Vorhangfassade platziert wird.
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Erstelle eine normale [Arch Wand](Arch_Wall/de.md), z.B. durch anklicken zweier Punkte eines bestehenden linearen Objekts
 2.  Wähle das Basisobjekt der neu erstellten Arch Wand
@@ -158,9 +137,6 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 10. Setze die **Host**-Eigenschaft der Vorhangfassade auf die Wand, die wir zuerst erstellt haben
 
 
-</div>
-
-
 
 ## Skripten
 
@@ -169,15 +145,7 @@ Die nachfolgend beschriebene Prozedur erstellt eine Wand und eine Vorhangfassade
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Vorhangfassaden Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
-
-
+Das Werkzeug Vorhangfassade kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden: 
 ```python
 MyCurtainWall = makeCurtainWall(baseobj)
 ```

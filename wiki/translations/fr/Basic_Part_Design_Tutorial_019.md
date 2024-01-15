@@ -73,12 +73,12 @@ L\'esquisse maîtresse contient la forme de base rectangulaire du modèle et deu
 
 **Etape A : créer l\'esquisse**
 
-1.  Cliquez sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une esquisse](PartDesign_NewSketch.md). Ceci va créer l\'esquisse dans le corps qui vient d\'être créé. Elle sera nommée **Sketch**.
+1.  Cliquez sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une esquisse](PartDesign_NewSketch/fr.md). Ceci va créer l\'esquisse dans le corps qui vient d\'être créé. Elle sera nommée **Sketch**.
 2.  Un panneau de tâches comme **Fig : MS1** s\'ouvre et vous devez choisir le plan auquel l\'esquisse sera attachée.
-    1.  Sélectionnez **XY_Plane** dans la liste ou sélectionnez ce plan dans la [Vue 3D](3D_view/fr.md).
+    1.  Sélectionnez **XY_Plane** dans la liste ou sélectionnez ce plan dans la [vue 3D](3D_view/fr.md).
     2.  Cliquez sur **OK**.
 3.  FreeCAD passe automatiquement à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md).
-4.  L\'esquisse est ouverte en mode édition : vous verrez quelque chose comme **Fig : MS2**. Les axes X et Y de l\'esquisse sont indiqués ainsi que son origine (le point rouge).
+4.  L\'esquisse est ouverte en mode édition : vous verrez quelque chose comme **Fig : MS2**. Les axes X (la ligne rouge) et Y (la ligne verte) de l\'esquisse sont indiqués, ainsi que son origine (le point rouge).
 
 **Etape B : ajouter la géométrie**
 
@@ -150,13 +150,13 @@ Le profil principal est créé en [protrusant](PartDesign_Pad/fr.md) une nouvell
 
 1.  Cliquez sur <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) et créez une forme comme dans **Fig : MP1**.
 2.  Les étiquettes P1, P2, etc. n\'apparaîtront pas dans l\'esquisse. Elles ont été ajoutées à titre de référence.
-3.  Pour le dernier point du segment final, assurez-vous de choisir le premier point de la forme. Le point changera de couleur et vous verrez le symbole d\'un <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md) apparaissent près du curseur. Les contraintes de coïncidence doivent être explicites. Il ne suffit pas que deux points coïncident visuellement.
+3.  Pour le dernier point du segment final, assurez-vous de choisir le premier point de la forme. Le point changera de couleur et vous verrez le symbole d\'une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) apparaitre près du curseur. Les contraintes de coïncidence doivent être explicites. Il ne suffit pas que deux points coïncident visuellement.
 4.  Appuyez sur **Echap** ou cliquez avec le bouton droit de la souris pour quitter l\'outil.
 
 **Étape C : assigner les contraintes**
 
 1.  Les trois contraintes verticales et horizontales que vous voyez dans l\'image devraient avoir été ajoutées automatiquement si vous avez dessiné ces lignes de cette façon. Si vous ne l\'avez pas fait, vous devez les ajouter.
-2.  Sélectionnez le point **P2** et l\'axe **Y** et appliquez une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte de point sur objet](Sketcher_ConstrainPointOnObject/fr.md).
+2.  Sélectionnez le point **P2** et l\'axe **Y** de l\'esquisse et appliquez une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte de point sur objet](Sketcher_ConstrainPointOnObject/fr.md). Comme l\'esquisse est attachée au plan YZ, l\'axe Y de l\'esquisse ne correspond pas à l\'axe Y du corps.
 3.  Sélectionnez l**\'origine** et le point **P1** et appliquez une <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md). Pourquoi pas une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)? vous pourriez vous demander. Essayez-la (et annulez-la). L\'esquisse deviendra orange et un message du solveur intitulé *Contraintes redondantes* apparaîtra. Comme la ligne P1 à P2 a déjà été contrainte à être verticale, le seul degré de liberté restant est la coordonnée Y de P1. La contrainte de coïncidence met les coordonnées X et Y à zéro, mais la coordonnée X est déjà déterminée. La contrainte horizontale, en revanche, ne fixe que la coordonnée Y à zéro, ce qui est suffisant.
 4.  Sélectionnez la ligne définie par les points **P2** et **P3**, appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), et assignez **Longueur = 5 mm**.
 5.  Sélectionnez la ligne définie par les points **P1** et **P2**, appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md), et assignez **Longueur = 26 mm**.
@@ -299,7 +299,7 @@ Les côtés sont créés de manière similaire, mais au lieu d\'enlever du maté
 8.  Appliquez ces contraintes :
     1.  Sélectionnez une des lignes horizontales, appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX/fr.md), et attribuez une valeur de **7 mm**.
     2.  Sélectionnez l\'une des lignes verticales, appliquez une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Contrainte de distance verticale](Sketcher_ConstrainDistanceY/fr.md), et attribuez cette expression : **>.Constraints.width**.
-    3.  Sélectionnez le point en **haut à gauche** du rectangle créé (marqué **TL** sur la **Fig : SD1**) et le nouveau **point de géométrie externe** et appliquez une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md).
+    3.  Sélectionnez le point en **haut à gauche** du rectangle créé (marqué **TL** sur la **Fig : SD1**) et le nouveau **point de géométrie externe** et appliquez une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md).
 9.  L\'esquisse devrait être entièrement contrainte maintenant.
 10. Cliquez sur **Fermer**.
 
@@ -345,7 +345,7 @@ C\'est maintenant l\'heure de la partie la plus difficile de notre modélisation
 
 1.  Rendez visible **Sketch001**, et cachez **Sketch** et **Mirrored001**.
 2.  Cliquez sur <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Créer une esquisse](PartDesign_NewSketch/fr.md) et créez une nouvelle esquisse attachée au *YZ_Plane*. L\'esquisse sera nommée **Sketch004**.
-3.  Cliquez sur <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyline](Sketcher_CreatePolyline/fr.md) et tracez une polyligne comme celle indiquée par les points **P1**, **P2**, **P3** et **P4** dans la **Fig : CH1**.
+3.  Cliquez sur <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:24px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) et tracez une polyligne comme celle indiquée par les points **P1**, **P2**, **P3** et **P4** dans la **Fig : CH1**.
 4.  N\'oubliez pas de fermer la polyligne en choisissant le premier point. Cela créera la <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md) nécessaire.
 5.  Quittez l\'outil.
 6.  Vérifiez les contraintes appliquées :
@@ -370,7 +370,7 @@ C\'est maintenant l\'heure de la partie la plus difficile de notre modélisation
     2.  Assignez **8.5 mm** à **Longueur** et **2ème longueur**.
     3.  Cliquez sur **OK**.
 3.  Sélectionnez la **Pocket001** juste créée.
-4.  Changez sa propriété **Refine** en **True**.
+4.  Dans l\'onglet Données de l\'[éditeur de propriétés](Property_editor/fr.md), changez la propriété **Refine** en **True**. L\'éditeur de propriétés se trouve dans l\'onglet Modèle de la [vue combinée](Combo_view/fr.md).
 
 **Remarques**
 

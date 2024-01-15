@@ -15,9 +15,32 @@
 
 La commande [Solveur Mystran](FEM_SolverMystran/fr.md) permet d\'utiliser le solveur [MYSTRAN](https://www.mystran.com). Il peut être utilisé pour :
 
-1.  Définir les paramètres d\'analyse
-2.  Sélectionner le répertoire de travail
-3.  Exécuter le solveur MYSTRAN
+1.  Définir les paramètres d\'analyse.
+2.  Sélectionner le répertoire de travail.
+3.  Exécuter le solveur MYSTRAN.
+
+## Installation
+
+Vous pouvez obtenir l\'exécutable Windows Mystran [ici](https://github.com/MYSTRANsolver/MYSTRAN%20Releases). Placez le dossier où vous avez placé **Mystran.exe** dans la variable PATH de Windows.
+
+Le [Solveur Mystran](FEM_SolverMystran/fr.md) a également besoin de deux autres paquets :
+
+-   [pyNastran](https://github.com/SteveDoyle2/pyNastran) - pour écrire le fichier de cas.
+-   [hfcMystran](https://github.com/ceanwang/hfcMystran) - pour lire le fichier de résultats NEU de Mystran.
+
+pyNastran peut être installé via pip :
+
+1.  Ouvrez un terminal de commande dans votre dossier **FreeCAD\bin**.
+2.  Entrez : {{Incode|python -m pip install pyNastran}}
+3.  Il sera installé dans le dossier **FreeCAD\bin\lib\site-packages**.
+
+hfcMystran peut être téléchargé depuis son site github sous forme de fichier zip. Décompressez-le et placez-le dans le dossier **FreeCAD\Mod**.
+
+
+
+## Test rapide 
+
+Après l\'installation, vous pouvez sélectionner **Utilitaires → Ouvrir des exemples de l'atelier FEM** dans l\'atelier FEM. Sous **Solveur → Mystran**, vous pouvez trouver des exemples Mystran fonctionnels.
 
 
 
@@ -95,17 +118,17 @@ $PARAMS
 PARAM       POST      -1
 ```
 
-add_femelement_geometry.py - Ajout de cartes GRID
+add_femelement_geometry.py - Ajout de jeux de paramètres GRID
 
-add_mesh.py - Ajout de cartes d\'éléments
+add_mesh.py - Ajout de jeux de paramètres d\'éléments
 
-add_femelement_material.py - Ajout de la carte MAT1
+add_femelement_material.py - Ajout du jeu de paramètres MAT1
 
-add_con_fixed.py - Ajout des cartes SPCADD et SPC1
+add_con_fixed.py - Ajout des jeux de paramètres SPCADD et SPC1
 
-add_con_displacement.py - Ajout des cartes SPCADD et SPC1
+add_con_displacement.py - Ajout des jeux de paramètres SPCADD et SPC1
 
-add_con_force.py - Ajout de cartes FORCE
+add_con_force.py - Ajout de jeux de paramètres FORCE
 
 
 

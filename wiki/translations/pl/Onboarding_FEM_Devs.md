@@ -1,39 +1,53 @@
 # Onboarding FEM Devs/pl
-## Description
+## Opis
 
-This page will orient new developers on how to setup their development environments in order to hack on the FEM workbench.
+Na tej stronie nowi programiści dowiedzą się, jak skonfigurować swoje środowiska programistyczne, aby kodować w środowisku pracy MES.
 
-## Setting up a Dev Environment 
 
-TBD
 
-### Prerequisites
+## Konfiguracja środowiska deweloperskiego 
+
+Do opracowania.
+
+
+
+### Wymagania wstępne 
 
 -   Netgen
 
-### Recommended
+
+
+### Zalecane
 
 -   Paraview
 
-### Compiling via Source 
 
-TBD
 
-### Compiling via Docker 
+### Kompilacja ze źródła 
 
-TBD
+Do opracowania.
 
-## Source Code Management 
 
-Keeping FreeCAD up-to-date is documented in [Source code management](Source_code_management.md) page. Along with useful `git` tips.
 
-## FEM Code Infrastructure 
+### Kompilacja przez Docker 
 
-The FEM code lives in `src/Mod/Fem`
+Do opracowania.
 
--    `App/`console-mode application, defines basic structures and base classes for document objects, that are used by modules to build their own.
 
--    `Gui/`GUI-mode application, defines the [3D view](3D_view.md), tools/functions used by workbench to interact with UI and 3D view, defines base classes for [view providers](Viewprovider.md).
+
+## Zarządzanie kodem źródłowym 
+
+Utrzymanie aktualności FreeCAD jest udokumentowane na stronie [Zarządzanie kodem źródłowym](Source_code_management/pl.md). Wraz z przydatnymi wskazówkami `git`.
+
+
+
+## Infrastruktura kodu MES 
+
+Kod MES znajduje się w `src/Mod/Fem`.
+
+-    `App/`aplikacja w trybie konsoli, definiuje podstawowe struktury i klasy bazowe dla obiektów dokumentów, które są używane przez moduły do tworzenia własnych.
+
+-    `Gui/`Aplikacja w trybie GUI, definiuje [widok 3D](3D_view/pl.md), narzędzia/funkcje używane przez środowisko pracy do interakcji z interfejsem użytkownika i widokiem 3D, definiuje klasy bazowe dla [dostawcy widoków](Viewprovider/pl.md).
 
 -    `femcommands/`
     
@@ -92,46 +106,56 @@ The FEM code lives in `src/Mod/Fem`
 -    `TestFemGui.py`
     
 
-### Coding Conventions 
 
-Please see [coding_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) file on the FreeCAD repository.
 
-## Adding New FEM Solvers 
+### Konwencja kodowania 
 
-A new FEM solver requires the following:
+Zobacz plik [coding_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) w repozytorium FreeCAD.
 
--   Mesh exporter
--   Results importer
--   Solver object (needs changes in solver settings, unit tests, ObjectsFem modules as well)
--   Task and writer module (here is where the main solver input writing happens)
--   GUI tool to create a solver
--   GUI preference tab to set the solver binary path
--   A solver input writing unit test. Best to take the ccx cantilever. This is available for all mesh element types
--   Having one or two beers
 
-See also:
 
--   [Extend FEM Module](Extend_FEM_Module.md)
--   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
--   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
+## Dodawanie nowych solwerów MES 
 
-## Writing Unit Tests 
+Nowy solver MES wymaga następujących elementów:
 
-TBD
+-   Eksporter siatki,
+-   Importer wyników,
+-   Obiekt Solver *(wymaga zmian w ustawieniach solvera, testach jednostkowych, modułach ObjectsFem)*,
+-   Moduł zadań i zapisu *(tutaj odbywa się główny zapis danych wejściowych solvera)*,
+-   Narzędzie GUI do tworzenia solvera,
+-   Zakładka preferencji GUI do ustawiania ścieżki binarnej solvera,
+-   Test jednostkowy zapisu danych wejściowych solvera. Najlepiej skorzystać ze wspornika ccx. Jest on dostępny dla wszystkich typów elementów siatki,
+-   Jedno lub dwa piwa \...
 
-## Informative
+Zobacz także:
 
--   [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
--   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
--   [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)
+-   [Rozszerzenie modułu FEM](Extend_FEM_Module/pl.md)
+-   Wysiłki związane z implementacją solvera [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem).
+-   Wysiłki związane z implementacją solvera \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\].
 
-## Related
 
--   FEM bugs in the [FreeCAD bugtracker](https://github.com/FreeCAD/FreeCAD/issues)
--   Open FEM [FIXME](https://github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) comments in the FreeCAD source code
--   Open FEM [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) comments in the FreeCAD source code
--   [Original thread discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) for this wiki page
--   [FEM Workbench](FEM_Workbench.md)
+
+## Pisanie testów jednostkowych 
+
+Do opracowania.
+
+
+
+## Informacje dodatkowe 
+
+-   [Zawijanie klasy C++ w środowisku Python](Wrapping_a_Cplusplus_class_in_Python/pl.md)
+-   [Dodawanie równań w środowisku MES](Add_FEM_Equation_Tutorial/pl.md)
+-   [Dodaj przycisk do paska narzędzi MES](Add_Button_to_FEM_Toolbar_Tutorial/pl.md)
+
+
+
+## Powiązane
+
+-   Błędy MES w [FreeCAD bugtracker](https://github.com/FreeCAD/FreeCAD/issues)
+-   Otwarte komentarze do MES [FIXME](https://github.com/FreeCAD/FreeCAD/search?q=FIXME+AND+fem) w kodzie źródłowym FreeCAD
+-   Otwarte komentarze do MES [TODO](https://github.com/FreeCAD/FreeCAD/search?q=TODO+AND+fem) w kodzie źródłowym FreeCAD
+-   [Oryginalna dyskusja w wątku](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) dla tej strony wiki
+-   [środowisko pracy MES](FEM_Workbench/pl.md)
 
 
 

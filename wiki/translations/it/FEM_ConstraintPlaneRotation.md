@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso piano.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -28,6 +38,8 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 </div>
 
+
+
 ## Limitazioni
 
 
@@ -38,6 +50,8 @@ Crea un vincolo FEM per mantenere i nodi in una superficie planare nello stesso 
 
 
 </div>
+
+
 
 ## Note
 

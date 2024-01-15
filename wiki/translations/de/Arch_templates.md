@@ -3,51 +3,51 @@ Dieses Seite zeigt die Vorlagen entsprechend dem American National Standards Ins
 
 ### Arch A 
 
-#### Arch_A\_Querformat
+#### Arch_A_Querformat
 
 <img alt="" src=images/Arch_A_Landscape.svg  style="width:800px;">
 
-#### Arch_A\_Hochformat
+#### Arch_A_Hochformat
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width:800px;">
 
 ### Arch B 
 
-#### Arch_B\_Querformat
+#### Arch_B_Querformat
 
 <img alt="" src=images/Arch_B_Landscape.svg  style="width:800px;">
 
-#### Arch_B\_Hochformat
+#### Arch_B_Hochformat
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width:800px;">
 
 ### Arch C 
 
-#### Arch_C\_Querformat
+#### Arch_C_Querformat
 
 <img alt="" src=images/Arch_C_Landscape.svg  style="width:800px;">
 
-#### Arch_C\_Hochformat
+#### Arch_C_Hochformat
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width:800px;">
 
 ### Arch D 
 
-#### Arch_D\_Querformat
+#### Arch_D_Querformat
 
 <img alt="" src=images/Arch_D_Landscape.svg  style="width:800px;">
 
-#### Arch_D\_Hochformat
+#### Arch_D_Hochformat
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width:800px;">
 
 ### Arch E 
 
-#### Arch_E\_Querformat
+#### Arch_E_Querformat
 
 <img alt="" src=images/Arch_E_Landscape.svg  style="width:800px;">
 
-#### Arch_E\_Hochformat
+#### Arch_E_Hochformat
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width:800px;">
 

@@ -17,14 +17,16 @@
 
 ## Описание
 
-Selects the horizontal axis of a sketch.
+The <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> **SelectHorizontalAxis** command selects the horizontal axis of a sketch.
 
 
 
 ## Применение
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select horizontal axis** from the top menu.
+1.  If not done yet: Open a sketch in edit mode.
+2.  There are several ways to invoke the command:
+    -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Select horizontal axis** option from the menu.
+    -   The keyboard shortcut: **Z** then **H**.
 3.  The horizontal axis of the sketch will be selected.
 
 

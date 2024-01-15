@@ -15,6 +15,8 @@ La commande <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> *
 
 Cette commande a été révisée dans la version 0.20 de FreeCAD et cette page décrit cette version.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets qui se trouvent dans des groupes, et/ou sélectionnez un ou plusieurs groupes.
@@ -23,6 +25,8 @@ Cette commande a été révisée dans la version 0.20 de FreeCAD et cette page d
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélection d'un groupe** dans le menu.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SelectGroup.svg" width=16px> Sélection d'un groupe** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) ou de la [Vue 3D](3D_view/fr.md).
 3.  Le contenu des groupes est sélectionné.
+
+
 
 ## Remarques
 

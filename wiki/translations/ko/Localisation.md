@@ -1,26 +1,7 @@
 # Localisation/ko
-<div class="mw-translate-fuzzy">
+## 요약
 
-
-{{docnav|Branding|Extra python modules}}
-
-
-</div>
-
-
-
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-**지역화**는 일반적으로 다중 언어 사용자 인터페이스를 가진 소프트웨어 제공 절차입니다. In FreeCAD you can set the language of the user interface under **Edit → Preferences → Application**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
-
-
-</div>
-
-**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+여기서 **번역** 의 의미는 주로, 외국 언어로 된 소프트웨어의 화면을 만드는 것 입니다. In FreeCAD you can set the language of the user interface under **Edit → Preferences → Application**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
 
 
@@ -30,17 +11,9 @@ One of the very important things users can contribute to FreeCAD (if for example
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## FreeCAD 소스 코드 번역 
 
-FreeCAD utilizes a third party collaborative on-line translation system called [Crowdin](https://crowdin.net). It is proprietary software but free to FOSS projects. Below are instructions on how to use it:
-
-
-</div>
-
-FreeCAD utilizes a third party collaborative on-line translation system called [Crowdin](https://crowdin.net).
+FreeCAD 는 외부의 [Crowdin](https://crowdin.net) 라고 하는 온라인 공동 번역 시스템을 도입 했습니다.
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
@@ -82,7 +55,7 @@ Starting with FreeCAD 0.20, the following variables can be manually added to the
 
 <div class="mw-translate-fuzzy">
 
-이 위키는 많은 내용을 담고 있으며 대부분이 매뉴얼을 구성합니다. [Main Page에서](Main_Page.md) 시작하는 문서를 찾아보거나 [Online Help Toc](Online_Help_Toc.md) 사용자 매뉴얼을 보세요.
+이 위키는 많은 내용을 담고 있으며 대부분이 매뉴얼을 구성합니다. [Main Page](Main_Page.md)에서 시작하는 문서를 찾아보거나 [Online Help Toc](Online_Help_Toc.md) 사용자 매뉴얼을 보세요.
 
 
 </div>

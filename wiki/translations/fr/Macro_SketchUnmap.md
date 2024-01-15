@@ -1,21 +1,26 @@
 # Macro SketchUnmap/fr
 {{Macro/fr
 |Name=SketchUnmap
-|Description=Cette macro réinitialise un emplacement absolu de l’esquisse et crée éventuellement un plan de référence.<br/>Cette macro a été écrite principalement pour contourner le problème de dénomination topologique susceptible de casser un modèle lorsqu'une esquisse a été attachée directement ou indirectement à une face ou à un objet. tout autre élément topologique.<br/>
-Pour éviter les ruptures, une macro doit être appliquée lorsque le modèle est toujours correct. Il ne peut pas "réparer" un modèle cassé. Si vous venez de casser votre modèle, annulez les dernières modifications dans une bonne situation, appliquez la macro aux esquisses instables, puis recommencez l'opération précédente.
+|Name/fr=SketchUnmap
 |Icon=SketchUnmap.svg
+|Description=Cette macro réinitialise un emplacement absolu de l’esquisse et crée éventuellement un plan de référence.<br/>Cette macro a été écrite principalement pour contourner le problème de dénomination topologique qui peut casser un modèle lorsqu'une esquisse a été directement ou indirectement attachée à une face ou à tout autre élément topologique.<br/>
+Pour éviter les ruptures, une macro doit être appliquée lorsque le modèle est toujours correct. Elle ne peut pas "réparer" un modèle cassé. Si vous venez de casser votre modèle, annulez les dernières modifications dans une bonne situation, appliquez la macro aux esquisses instables, puis recommencez l'opération précédente.
 |Author=OpenBrain
 |Date=2019-06-14
 |Version=0.6.2
-|FCVersion= 0.17+
-|Download= [https://www.freecadweb.org/wiki/images/3/34/SketchUnmap.svg ToolBar Icon]
+|FCVersion=0.17 et au dessus
+|Download=[https://wiki.freecad.org/images/3/34/SketchUnmap.svg Icône de la barre d'outils]
 }}
 
 ## Description
 
+
+
 ### Contexte
 
 Cette macro a été écrite principalement pour contourner le problème de dénomination topologique susceptible de casser un modèle lorsqu\'une esquisse a été directement ou indirectement attachée à une face ou à tout autre élément topologique. Pour éviter les ruptures, une macro doit être appliquée lorsque le modèle est toujours correct. Il ne peut pas \"réparer\" un modèle cassé. Si vous venez de casser votre modèle, annulez les dernières modifications dans une bonne situation, appliquez la macro aux esquisses instables, puis recommencez l\'opération précédente.
+
+
 
 ### Utilisation
 
@@ -34,6 +39,8 @@ Pour utiliser la macro, sélectionnez simplement l\'esquisse cible (par exemple,
 La macro est disponible via le [gestionnaire d\'extensions](Std_AddonMgr/fr.md). Le code est fourni sur cette page pour plus de commodité au cas où votre système n\'ait pas git-python. Bien qu\'elle devrait être à jour, la dernière version de la macro est toujours disponible sur [FreeCAD-macro repository](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Information/SimpleProperties.FCMacro)
 
 Pour des explications plus détaillées, voir la page [ Comment installer des macros](How_to_install_macros/fr.md).
+
+
 
 ### Détails
 
@@ -59,7 +66,7 @@ Ce qui en terme d\'image donne ce qui suit:
 
 ## Script
 
-ToolBar Icon ![](images/SketchUnmap.svg )
+Icône de la barre d\'outils ![](images/SketchUnmap.svg )
 
 **Macro_SketchUnmap.FCMacro**
 
@@ -93,7 +100,7 @@ __Date__ = '2019-06-14'
 __License__ = 'LGPL v2'
 __Web__ = 'https://www.freecadweb.org/wiki/Macro_SketchUnmap'
 __Wiki__ = 'https://www.freecadweb.org/wiki/Macro_SketchUnmap'
-__Icon__ = 'SketchUnmap.svg'
+__Icon__ = 'https://wiki.freecad.org/images/3/34/SketchUnmap.svg'
 __Help__ = 'Select the sketch to unmap (eg. in the tree view) then run the macro'
 __Status__ = 'Beta'
 __Requires__ = 'FreeCAD >= 0.17'
@@ -190,6 +197,8 @@ else:
 
 -   Ne traitez qu\'un croquis à la fois
 -   Travaillez uniquement sur des objets d\'esquisse
+
+
 
 ### Discussion sur le forum 
 

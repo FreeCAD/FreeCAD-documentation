@@ -1,5 +1,5 @@
 # Conda/de
-## Einführung
+## Einleitung
 
 
 
@@ -16,6 +16,8 @@ Die Motivation für den Einsatz von Conda ist vielfältig, ebenso wie der Zweck 
 
 Lasse es uns aufschlüsseln.
 
+
+
 ### Conda als Paketverwalter 
 
 Zuerst ist Conda ein Paketmanager - ähnlich wie apt oder pip.
@@ -23,6 +25,8 @@ Zuerst ist Conda ein Paketmanager - ähnlich wie apt oder pip.
 Das bedeutet, dass wir **Pakete** mit einem einfachen conda install von verschiedenen [Kanälen](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html#what-is-a-conda-channel) wie z.B. [conda-forge](https://conda-forge.org/) installieren können.
 
 Conda Forge ist analog zu [the Python Paket Index (PyPI)](https://pypi.org/), einem Gemeinschaftskanal, der aus Tausenden von Mitwirkenden besteht, und dient [Freecad](https://anaconda.org/conda-forge/freecad) als Conda Paket.
+
+
 
 ### Conda als ein Abhängigkeitsverwalter 
 
@@ -33,6 +37,8 @@ Conda kann die Abhängigkeiten verwalten und die Abhängigkeiten für ein Projek
 Warum nicht einfach pip verwenden? pip funktioniert wirklich gut für die Verwaltung der Abhängigkeiten von Projekten, die *nur* Python verwenden.
 
 Conda arbeitet für mehrere Sprachen und ist daher besser geeignet, um die Abhängigkeiten von Projekten wie FreeCAD zu verwalten, die Abhängigkeiten über eine Vielzahl von Sprachen wie C / C++ und Python haben.
+
+
 
 ### Conda als ein Umgebungsverwalter 
 
@@ -46,11 +52,13 @@ Conda Umgebungen ermöglichen es dir, dieselbe exakte Umgebung auf verschiedenen
 
 Zum Beispiel mehrere lokale Entwicklerrechner oder ein entfernter Build Server, der von Travis CI bereitgestellt wird.
 
+
+
 ## Conda einrichten 
 
 1\. [Miniconda einrichten](https://docs.conda.io/en/latest/miniconda.html).
 
-2\. Überprüfe, ob deine Installation erfolgreich war und machen dich mit dem conda **CLI**\' vertraut. $ conda --help
+2\. Überprüfe, ob deine Installation erfolgreich war und machen dich mit dem 
 
 ## Einrichtung von FreeCAD mit Conda 
 
@@ -81,6 +89,8 @@ conda create --name fcenv-dev --channel freecad/label/dev freecad
 -   [Lasse uns über Conda sprechen](https://forum.freecadweb.org/viewtopic.php?t=39656)
 -   [Verpackungslösung: (ana)conda](https://forum.freecadweb.org/viewtopic.php?f=10&t=15197)
 -   [FreeCAD Conda Verteilung](https://forum.freecadweb.org/viewtopic.php?f=8&t=45582)
+
+
 
 ## Siehe Auch 
 

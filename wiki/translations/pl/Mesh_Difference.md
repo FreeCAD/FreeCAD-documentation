@@ -9,6 +9,8 @@
 
 # Mesh Difference/pl
 
+
+
 ## Opis
 
 Polecenie **Różnica**\' tworzy nowy nieparametryczny obiekt siatkowy [cecha siatki](Mesh_Feature/pl.md), który jest różnicą dwóch obiektów siatkowych: jeden obiekt siatkowy jest wycięty z drugiego.
@@ -18,6 +20,8 @@ Polecenie **Różnica**\' tworzy nowy nieparametryczny obiekt siatkowy [cecha si
 ![](images/Mesh_Difference_example.png ) 
 *Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy, który jest różnicą tych obiektów, jeśli sześcian jest wybrany jako obiekt główny.*
 
+
+
 ## Użycie
 
 1.  Wybierz główny obiekt siatki.
@@ -25,6 +29,8 @@ Polecenie **Różnica**\' tworzy nowy nieparametryczny obiekt siatkowy [cecha si
 3.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Mesh_Difference.svg" width=16px> '''Różnica'''**.
     -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Difference.svg" width=16px> Różnica**.
+
+
 
 ## Właściwości
 

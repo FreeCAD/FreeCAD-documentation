@@ -16,6 +16,8 @@ Cet outil permet d\'ajouter des [matériaux](Material.md) au document actif et d
 
 ![](images/Arch_materials_01.jpg )
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets pour leur attribuer un nouveau matériau.
@@ -32,16 +34,18 @@ Cet outil permet d\'ajouter des [matériaux](Material.md) au document actif et d
 
 ![](images/Arch_materials_02.jpg )
 
--   **Faire le choix prédéfini\...**: Choisissez un matériau prédéfini, et utilisez le tel quel, adaptez le ou modifiez le
--   **Nom**: Donnez un nom au matériau.
--   **Bouton d\'édition**: Cela ouvre le matériau actuel dans l\'[Editeur de matériaux](FEM_MaterialEditor/fr.md) de FreeCAD qui vous permet de modifier de nombreuses propriétés supplémentaires et d\'ajouter vos propres propriétés personnalisées.
--   **Description**: Description des détails du matériau.
--   **Couleur**: Affiche les couleurs de matériau, si vous appliquez une autre couleur au matériau, tous les matériaux de ce type auront cette couleur.
--   **Couleur de la section**: Couleur d\'affichage pour le matériau, qui sera appliquée sur les pages TechDraw, lorsqu\'un objet avec ce matériau est coupé et que la propriété \"Display materials\" du plan de coupe contenant est définie sur True .
--   **Code standard**: Un nom et un numéro de spécification déterminé dans le système [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) ou [Omniclass](http://www.omniclass.org/).
--   **Bouton du navigateur de code**: Pas encore implémenté - permettra d\'ouvrir la référence dans un navigateur Web.
--   **URL**: Une URL pour connaître les informations du matériau utilisé.
--   **Ouvre l\'URL dans un navigateur**: Ouvre l\'URL dans un navigateur web.
+-   **Faire le choix prédéfini\...** : Choisissez un matériau prédéfini, et utilisez le tel quel, adaptez le ou modifiez le
+-   **Nom** : Donnez un nom au matériau.
+-   **Bouton d\'édition** : Cela ouvre le matériau actuel dans l\'[Éditeur de matériaux](FEM_MaterialEditor/fr.md) de FreeCAD qui vous permet de modifier de nombreuses propriétés supplémentaires et d\'ajouter vos propres propriétés personnalisées.
+-   **Description** : Description des détails du matériau.
+-   **Couleur** : Affiche les couleurs de matériau, si vous appliquez une autre couleur au matériau, tous les matériaux de ce type auront cette couleur.
+-   **Couleur de la section** : Couleur d\'affichage pour le matériau, qui sera appliquée sur les pages TechDraw, lorsqu\'un objet avec ce matériau est coupé et que la propriété \"Display materials\" du plan de coupe contenant est définie sur True.
+-   **Code standard** : Un nom et un numéro de spécification déterminé dans le système [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) ou [Omniclass](http://www.omniclass.org/).
+-   **Bouton du navigateur de code** : Pas encore implémenté - permettra d\'ouvrir la référence dans un navigateur Web.
+-   **URL** : Une URL pour connaître les informations du matériau utilisé.
+-   **Ouvre l\'URL dans un navigateur** : Ouvre l\'URL dans un navigateur web.
+
+
 
 ## Relation avec IFC 
 

@@ -403,7 +403,7 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 **Właściwości dla drugiego kierunku X i Y prętów zbrojeniowych słupów w stopie fundamentowej:**
 
--    `column_sec_rebars_t_offset`oraz `sec_rebars_b_offset` to tuple *(xdir_rebars_t\_offset, ydir_rebars_t\_offset)* które określają odległości przesunięcia *(lub wysokość)* dla pomocniczych prętów zbrojeniowych w kierunku x i y odpowiednio w stosunku do górnych powierzchni konstrukcji.
+-    `column_sec_rebars_t_offset`oraz `sec_rebars_b_offset` to tuple *(xdir_rebars_t_offset, ydir_rebars_t_offset)* które określają odległości przesunięcia *(lub wysokość)* dla pomocniczych prętów zbrojeniowych w kierunku x i y odpowiednio w stosunku do górnych powierzchni konstrukcji.
 
 -    `column_sec_rebars_number_diameter`to tuple *(xdir_rebars_number_diameter, ydir_rebars_number_diameter)* określające odpowiednio zestaw ilości#średnic pomocniczych prętów zbrojeniowych w kierunku X i w kierunku Y.
 

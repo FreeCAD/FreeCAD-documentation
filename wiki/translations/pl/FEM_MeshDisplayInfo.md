@@ -2,48 +2,54 @@
  GuiCommand:
    Name: FEM MeshDisplayInfo
    Name: MES: Wyświetl informacje o siatce MES
-   MenuLocation: Context menu on mesh object , Wyświetl informacje o siatce MES
+   MenuLocation: Menu podręczne na obiekcie siatki , Wyświetl informacje o siatce MES
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MeshDisplayInfo/pl
 
-## Description
 
-Displays basic statistics of existing mesh - number of nodes and elements of each type. Particularly, total number of the following features is shown:
 
--   Nodes,
--   Edges,
--   Faces,
--   Polygons,
--   Volumes,
--   Polyhedrons,
+## Opis
 
-\* Linear edges,
+Wyświetla podstawowe statystyki istniejącej siatki - liczbę węzłów i elementów każdego typu. Dokładniej, całkowite liczby następujących cech są podawane:
 
--   Linear faces,
--   Linear volumes,
+-   Węzły,
+-   Krawędzie,
+-   Ściany,
+-   Wielokąty,
+-   Objętości,
+-   Wielościany,
 
-\* Quadratic edges,
+\* Krawędzie liniowe,
 
--   Quadratic faces,
--   Quadratic triangles,
--   Quadratic quadrangles,
--   Quadratic volumes,
--   Quadratic hexahedrons,
--   Quadratic tetrahedrons,
--   Quadratic prisms,
--   Quadratic pyramids.
+-   Ściany liniowe,
+-   Objętości liniowe,
 
-## Usage
+\* Krawędzie kwadratowe,
 
-1.  Create finite element mesh first (using one of the available techniques).
-2.  Select the mesh in the [Tree view](Tree_view.md).
-3.  Right click on it and choose the **<img src="images/FEM_MeshDisplayInfo.svg" width=16px> [Display FEM mesh info](FEM_MeshDisplayInfo.md)** option.
-4.  To close the FEM Mesh Info window, click **OK**.
+-   Ściany kwadratowe,
+-   Trójkąty kwadratowe,
+-   Czworoboki kwadratowe,
+-   Objętości kwadratowe,
+-   Prostopadłościany kwadratowe,
+-   Czworościany kwadratowe,
+-   Pięcościany kwadratowe,
+-   Piramidki kwadratowe.
 
-## Scripting
+
+
+## Użycie
+
+1.  Najpierw utwórz siatkę MES *(używając jednej z dostępnych technik)*.
+2.  Zaznacz siatkę w [widoku drzewa](Tree_view/pl.md).
+3.  Kliknij na niej prawym przyciskiem myszy i wybierz opcję **<img src="images/FEM_MeshDisplayInfo.svg" width=16px> [Wyświetl informacje o siatce MES](FEM_MeshDisplayInfo/pl.md)**.
+4.  Aby zamknąć okno FEM Mesh Info, wciśnij przycisk **OK**.
+
+
+
+## Skrypty
 
 
 {{code|code=
@@ -54,7 +60,7 @@ setup()
 print(App.ActiveDocument.Mesh.FemMesh)
 }}
 
-will output the following result:
+da następujący wynikː
 
 
 {{code|code=

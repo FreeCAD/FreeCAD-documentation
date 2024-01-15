@@ -13,8 +13,7 @@
 
 </div>
 
-
-{{Raytracing Tools navi/it}}
+ {{Raytracing Tools navi/it}}
 
 
 <div class="mw-translate-fuzzy">
@@ -26,8 +25,7 @@ Esporta la parte selezionata in un file POV da usare in un progetto POV-Ray.
 
 </div>
 
-
-{{Userdocnavi/it}}
+ {{Userdocnavi/it}}
 
 
 <div class="mw-translate-fuzzy">
@@ -35,12 +33,16 @@ Esporta la parte selezionata in un file POV da usare in un progetto POV-Ray.
 ## Uso
 
 1.  Selezionare parte da esportare nella vista ad albero
-2.  Scegliere ** Raytracing** → ** Utilità** →**<img src="images/Raytracing_Part.png" width=32px> Esporta la parte in POV-Ray** dal menu principale.
+2.  Scegliere ** Raytracing** → ** Utilità** →**<img src="images/Raytracing_WritePart.svg" width=32px> Esporta la parte in POV-Ray** dal menu principale.
 
 
 </div>
 
+
+
 ## Limitazioni
+
+
 
 ## Note
 
@@ -61,4 +63,4 @@ Esporta la parte selezionata in un file POV da usare in un progetto POV-Ray.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/it
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing WritePart/it

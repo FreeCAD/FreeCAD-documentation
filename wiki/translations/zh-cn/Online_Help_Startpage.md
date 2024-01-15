@@ -1,6 +1,8 @@
 # Online Help Startpage/zh-cn
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## 欢迎来到 FreeCAD 在线帮助 
 
 
@@ -11,6 +13,8 @@
 
 </div>
 
+
+
 ### 如何使用
 
 
@@ -20,6 +24,10 @@
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### 贡献
 

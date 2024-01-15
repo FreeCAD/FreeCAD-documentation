@@ -1,14 +1,16 @@
 ---
  GuiCommand:
    Name: Draft Upgrade
-   Name/de: Entwurf Hochstufen
-   MenuLocation: Entwurf , Hochstufen
+   Name/de: Draft Hochstufen
+   MenuLocation: Änderung , Hochstufen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **U** **P**
    SeeAlso: Draft_Downgrade/de
 ---
 
 # Draft Upgrade/de
+
+
 
 ## Beschreibung
 
@@ -17,18 +19,24 @@ Der <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> Der Befehl **
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Ein offener nicht editierbarer Draht wird zu einem geschlossenen Draht und dann zu einer Fläche hochgestuft. Ein geschlossener, nicht editierbarer quadratischer Draht wird ebenfalls zu einer Fläche hochgestuft. Die beiden Flächen werden dann hochgestuft, um einen Verbund zu erstellen, der schließlich zu einem einzelnen bearbeitbaren Entwurf Draht hochgestuft wird.*
 
+
+
 ## Anwendung
 
-1.  Wähle optional ein oder mehrere Objekte aus.
+1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_Upgrade.svg" width=16px> [Entwurf Hochstufen](Draft_Upgrade/de.md)**.
-    -   Wähle die Option **Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **U** und dann **P**.
-3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
+    -   Die Schaltfläche **<img src="images/Draft_Upgrade.svg" width=16px> [Hochstufen](Draft_Upgrade/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Upgrade.svg" width=16px> Hochstufen** auswählen.
+    -   Das Tastaturkürzel **U** dann **P**.
+3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+
+
 
 ## Hinweise
 
 -   [Entwurf Linien](Draft_Line/de.md) und [Entwurf Drähte](Draft_Wire/de.md) können mit diesem Befehl, aber auch mit dem Befehl [Entwurf Fügen](Draft_Join/de.md) oder dem Befehl [Entwurf Draht](Draft_Wire/de.md) verbunden werden.
+
+
 
 ## Skripten
 

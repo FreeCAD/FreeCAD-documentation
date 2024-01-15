@@ -13,9 +13,9 @@
 
 ## Beschreibung
 
-Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen. Von diesem Dialogfenster aus können Makros ausgeführt, bearbeited und verwaltet werden.
+Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen. Von diesem Dialogfenster aus können Makros ausgeführt, bearbeitet und verwaltet werden.
 
-![](images/Std_DlgMacroExecute_dialog.png ) 
+<img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
 *Das Dialogfenster Makro ausführen*
 
 
@@ -33,95 +33,158 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 
 
+### Datei suchen / In Datei suchen 
+
+:   
+    {{Version/de|0.22}}
+    
+
+
+
+
+
+:   Diese zwei Eingabefelder können verwendet werden, um Makros in den Dateilisten unter **Benutzermakros** oder **Systemmakros** zu filtern. Dies kann ein regulärer Ausdruck sein oder einfacher Text. Groß- und Kleinschreibung werden nicht berücksichtigt.
+
+
+
+
+
+:   **Datei suchen** filtert die Liste nach Dateinamen. Nur Dateinamen, die dem eingegebenen Text entsprechen, erscheinen in der Liste. **In Dateien suchen** filtert die Liste nach Dateiinhalten. Nur Dateien, deren Textinhalt dem eingegebenen Text entspricht, erscheinen in der Liste.
+
+
+
+
+
+:   Das Leeren des Eingabefeldes deaktiviert den zugehörigen Filter. Enthalten beide Eingabefelder Texte, werden beide Filter angewendet. Filtern kann auch eine leere Liste ergeben.
+
+
+
 ### Benutzermakros
 
-1.  Der Reiter **Benutzermakros** listet die im **Speicherort der Benutzermakros** verfügbaren Makros.
-2.  Auf ein Makro klicken, um es auszuwählen.
-3.  Der Name des ausgewählten Makros erscheint im Feld **Makroname**.
+:   Unter **Benutzermakros** werden die Makros gelistet, die am **Speicherort der Benutzermakros** zur Verfügung stehen.
+
+1.  Ein Makro in der Liste anklicken, um es auszuwählen.
+2.  Der Name des ausgewählten Makros erscheint im Feld **Makroname**.
 
 
 
 ### Systemmakros
 
-:   Der Reiter **Systemmakros** wird derzeit nicht verwendet.
+:   Damit **Systemmakros** verwendet werden können, muss zuerst ein Ordner **Macro** als ein Geschwister-Ordner des Ordners **bin**, in dem FreeCAD installiert ist, angelegt und darin ein paar Makros abgelegt werden.
+
+
+
+
+
+:   Um den Ordner **bin** zu finden, gibt man folgendes in der [Python-Konsole](Python_console/de.md) ein:
+
+
+
+
+
+:   
+    
+```python
+    App.getHomePath()
+    
+```
+    
+
+1.  Ein Makro in der Liste anklicken, um es auszuwählen.
+2.  Der Name des ausgewählten Makros erscheint im Feld **Makroname**.
 
 
 
 ### Speicherort der Benutzermakros 
 
-1.  Press the **...** button to change the user macros location.
-2.  Browse to a different folder and select it.
+1.  Die Schaltfläche **...** drücken, um den Ablageort der Benutzermakros zu ändern.
+2.  Zu einem anderen Ordner wechseln und diesen auswählen.
 
 
 
 ### Ausführen
 
-1.  To execute a macro do one of the following:
-    -   Select the macro in the list and press the **Execute** button.
-    -   Double-click the macro in the list.
-2.  The dialog box closes.
-3.  The macro is executed.
+1.  Zum Ausführen eines Makros gibt es folgende Möglichkeiten:
+    -   Das Makro in der Liste auswählen und die Schaltfläche **Ausführen** drücken.
+    -   Ein Doppelklick auf das Makro in der Liste.
+2.  Das Dialogfenster wird geschlossen.
+3.  Das Makro wird ausgeführt.
 
 
 
 ### Schließen
 
-1.  Press **Esc** or the **Close** button to close the dialog box.
+1.  Die **Esc**-Taste oder Die Schaltfläche **Schließen** drücken, um das Dialogfenster zu schließen.
 
 
 
 ### Erstellen
 
-1.  Press the **Create** button to create a new macro file.
-2.  Enter a name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
-3.  Press **Enter** or the **OK** button.
-4.  Both dialog boxes close.
-5.  The new file is opened in the Macro editor.
+1.  Die Schaltfläche **Erstellen** drücken, um eine neue Makrodatei anzulegen.
+
+2.  Einen Namen im Dialogfenster, das gerade geöffnet wurde, eingeben. Die Dateiendung **.FCMacro** muss nicht eingegeben werden.
+
+3.  
+    **Enter**oder die Schaltfläche **OK** drücken.
+
+4.  Beide Dialogfenster werden geschlossen.
+
+5.  Die neue Datei wird im Makroeditor geöffnet.
 
 
 
 ### Löschen
 
-1.  Select the macro you want to delete in the list.
-2.  Press the **Delete** button.
-3.  Press the **Yes** button in the confirmation dialog box that pops up.
+1.  Das Makro, das gelöscht werden soll, in der Liste auswählen.
+2.  Die Schaltfläche **Löschen** drücken.
+3.  Die Schaltfläche **Ja** im Bestätigungsdialog, der geöffnet wird, drücken.
 
 
 
 ### Bearbeiten
 
-1.  Select the macro you want to edit in the list.
-2.  Press the **Edit** button.
-3.  The dialog box closes.
-4.  The selected file is opened in the Macro editor.
+1.  Das Makro, das bearbeitet werden soll, in der Liste auswählen.
+2.  Die Schaltfläche **Bearbeiten** drücken.
+3.  Das Dialogfenster wird geschlossen.
+4.  Das ausgewählte Makro wird im Makroeditor geöffnet.
 
 
 
 ### Umbenennen
 
-1.  Select the macro you want to rename in the list.
-2.  Press the **Rename** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
-4.  Press **Enter** or the **OK** button.
+1.  Das Makro, das umbenannt werden soll, in der Liste auswählen.
+
+2.  Die Schaltfläche **Umbenennen** drücken.
+
+3.  Einen neuen Namen im Dialogfenster, das geöffnet wurde, eingeben. Die Dateiendung **.FCMacro** muss nicht eingegeben werden.
+
+4.  
+    **Enter**oder die Schaltfläche **OK** drücken.
 
 
 
-### Duplizieren
+### Kopieren
 
-1.  Select the macro you want to duplicate in the list.
-2.  Press the **Duplicate** button.
-3.  Enter a new name in the dialog box that pops up. You do not have to include the **.FCMacro** extension.
-4.  Press **Enter** or the **OK** button.
+1.  Das Makro, das kopiert werden soll, in der Liste auswählen.
+
+2.  Die Schaltfläche **Kopieren** drücken.
+
+3.  Einen neuen Namen im Dialogfenster, das geöffnet wurde, eingeben. Die Dateiendung **.FCMacro** muss nicht eingegeben werden.
+
+4.  
+    **Enter**oder die Schaltfläche **OK** drücken.
 
 
 
 ### Werkzeugleiste
 
-1.  Select the macro you want to add to a custom toolbar in the list.
-2.  Press the **Toolbar** button.
-3.  Two \'walkthrough\' dialogs will guide you through the required steps. See [Interface Customization](Interface_Customization.md) for more information.
+1.  Das Makro auswählen, das zu einer benutzerdefinierten Symbolleiste hinzugefügt werden soll, in der Liste auswählen.
+2.  Die Schaltfläche **Symbolleiste** drücken.
+3.  Zwei Dialogfenster führen durch die erforderlichen Schritte. Siehe [Anpassung der Oberfläche](Interface_Customization/de.md) für weitere Informationen.
 
-### Download
+
+
+## Herunterladen
 
 1.  Die Schaltfläche **Herunterladen** drücken, um den [Addon-Manager](Std_AddonMgr/de.md) zu starten.
 
@@ -135,7 +198,7 @@ Der Befehl **Std DlgMakroAusführen** öffnet das Dialogfenster Makro ausführen
 
 ## Einstellungen
 
--   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
+-   Der Ablageort der Benutzermakros kann auch in den Voreinstellungen angepasst werden: **Bearbeiten → Einstellungen... → Python → Makro → Makro-Zielpfad**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Makro.md).
 
 
 

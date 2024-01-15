@@ -44,9 +44,9 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
 
 -   <img alt="" src=images/Mesh_VertexCurvature.svg  style="width:32px;"> [Traçar curvatura](Mesh_VertexCurvature/pt-br.md): Cria objetos de curvatura de malha para objetos de malha.
 
--   <img alt="" src=images/Mesh_HarmonizeNormals.svg  style="width:32px;"> [Harmonizar as normas](Mesh_HarmonizeNormals/pt-br.md): Harmoniza as normas dos objetos de malha.
+-   <img alt="" src=images/Mesh_HarmonizeNormals.svg  style="width:32px;"> [Harmonizar as normais](Mesh_HarmonizeNormals/pt-br.md): Harmoniza as normais dos objetos de malha.
 
--   <img alt="" src=images/Mesh_FlipNormals.svg  style="width:32px;"> [Mudança de direção de normas](Mesh_FlipNormals/pt-br.md): Vira as normas dos objetos de malha.
+-   <img alt="" src=images/Mesh_FlipNormals.svg  style="width:32px;"> [Mudança de direção de normais](Mesh_FlipNormals/pt-br.md): Vira as normais dos objetos de malha.
 
 -   <img alt="" src=images/Mesh_FillupHoles.svg  style="width:32px;"> [Preencher furos\...](Mesh_FillupHoles/pt-br.md): Preenche buracos em objetos de malha.
 

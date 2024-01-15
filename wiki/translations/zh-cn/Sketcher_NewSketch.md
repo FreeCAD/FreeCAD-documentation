@@ -22,7 +22,7 @@
 
 <div class="mw-translate-fuzzy">
 
-请注意，[零件设计工作台（PartDesign workbench）有它自己的](PartDesign_Workbench.md)[创建新草图命令](PartDesign_NewSketch.md)，当您使用零件设计工作台时，它将采用自己专属的新建工具。
+请注意，[零件设计工作台（PartDesign workbench）](PartDesign_Workbench.md)有它自己的[创建新草图](PartDesign_NewSketch.md)命令，当您使用零件设计工作台时，它将采用自己专属的新建工具。
 
 
 </div>
@@ -50,7 +50,7 @@
 
 <div class="mw-translate-fuzzy">
 
-通过[映射草图（Map Sketch） - 命令可将草图重新映射至另一存在的面上](Sketcher_MapSketch.md)。
+通过[映射草图（Map Sketch） - 命令](Sketcher_MapSketch.md)可将草图重新映射至另一存在的面上。
 
 
 </div>
@@ -58,7 +58,7 @@
 
 <div class="mw-translate-fuzzy">
 
-利用[方位（Placement）属性可把草图移至](Placement/zh-cn.md)3D空间中。
+利用[方位（Placement）](Placement/zh-cn.md)属性可把草图移至3D空间中。
 
 
 </div>

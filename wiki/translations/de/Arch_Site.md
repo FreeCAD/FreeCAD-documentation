@@ -27,95 +27,71 @@ Der Arch Baustelle ist ein spezielles Objekt, das Eigenschaften eines Standard F
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Nachdem du einen Standort erstellt hast, kannst du ihm weitere Objekte hinzufügen, indem du sie per Ziehen & Loslassen in der Baumansicht oder unter Verwendung des **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeugs. Dies bestimmt nur, welches Objekt Teil des gegebenen Standorts ist, und hat keinen Einfluss auf das Gelände selbst.
--   Du kannst Objekte von einem Standort entfernen, indem du sie per Ziehen & Loslassen aus der Baumansicht herausziehst oder durch Verwendung des **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)** Werkzeugs
--   Du kannst ein Geländeobjekt hinzufügen, indem du die **Gelände** Eigenschaft des Standorts bearbeitest. Das Gelände muss eine offene Hülle oder Oberfläche sein.
--   Du kannst Volumina hinzufügen, die zum Basisgelände hinzugefügt oder vom Basisgelände subtrahiert werden sollen, indem du auf den Standort doppelklickst und Objekte zu ihren Subtraktions- oder Additionsgruppen hinzufügst. Die Objekte müssen Volumenkörper sein.
--   Die {{PropertyData/de|Extrusionsvektor}} Eigenschaft kann verwendet werden, um einige Probleme zu lösen, die bei der Arbeit mit Subtraktionen und Additionen auftreten können. Um diese Additionen/Subtraktionen durchzuführen, wird die Geländeoberfläche in einen Körper extrudiert, der dann entsprechend vereinigt/subtrahiert wird. Abhängig von der Geländetopologie kann diese Extrusion mit dem Standard Extrusionsvektor fehlschlagen. Daher kannst du das Problem möglicherweise beheben, indem du diesen auf einen anderen Wert änderst.
-
-
-</div>
+-   Nachdem ein Grundstück erstellt wurde, können ihm Objekte hinzugefügt werden, durch Ziehen und Ablegen in der [Baumansicht](Tree_view/de.md) oder durch Verwenden des Werkzeugs **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)**. Dies bestimmt nur, welche Objekte Teil des gegebenen Grundstücks sind, und hat keinen Einfluss auf das Gelände selbst.
+-   Objekte können von einem Grundstück entfernt werden, indem sie durch Ziehen & Ablegen in der [Baumansicht](Tree_view/de.md) herausgezogen werden oder durch Verwenden des Werkzeugs **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove/de.md)**.
+-   Ein Geländeobjekt (Terrain-Objekt) kann hinzugefügt werden, indem die {{PropertyData/de|Gelände}} des Grundstücks bearbeitet wird. Das Gelände kann eine offene Hülle (Shell) sein oder ({{Version/de|0.21}}) ein Festkörper.
+-   Du kannst Volumenkörper hinzufügen, die zum Basisgelände hinzugefügt oder vom Basisgelände subtrahiert werden sollen, indem du auf das Grundstück doppelklickst und Objekte zu ihren Gruppen Ergänzungen oder Subtraktionen hinzufügst. Die Objekte müssen Festkörper sein.
+-   Die {{PropertyData/de|Extrusionsvektor}} kann verwendet werden, wenn das Gelände eine offene Hülle ist und/oder Ergänzugen und Subtraktionen vorhanden sind. Um diese Ergänzugen bzw. Subtraktionen durchzuführen, wird die offene Hülle zu einem Körper extrudiert, der dann entsprechend vereinigt bzw. beschnitten wird. Abhängig von der Geländetopologie kann diese Extrusion mit dem Standard Extrusionsvektor fehlschlagen. Dann kann das Problem möglicherweise behoben werden, indem dieser auf einen anderen Wert geändert wird. Diese Eigenschaft wird ignoriert, wenn das Gelände ein Festkörper ist.
 
 
 
 ## Eigenschaften
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
--    **Gelände**: Das Basisgelände dieses Baustelle
+-    {{PropertyData/de|Gelände}}: Das Basisgelände dieses Grundstücks.
 
--    **Addresse**: Die Straße und Hausnummer dieser Baustelle.
+-    {{PropertyData/de|Addresse}}: Die Straße und Hausnummer dieses Grundstücks.
 
--    **Postanschrift**: Die Postanschrift oder Postleitzahl dieser Baustelle
+-    {{PropertyData/de|Postanschrift}}: Die Postanschrift oder Postleitzahl dieses Grundstücks.
 
--    **Stadt**: Die Stadt dieser Baustelle
+-    {{PropertyData/de|Stadt}}: Die Stadt dieses Grundstücks.
 
--    **Land**: Das Land dieser Baustelle
+-    {{PropertyData/de|Land}}: Das Land dieses Grundstücks.
 
--    **Breitengrad**: Der Breitengrad dieser Baustelle
+-    {{PropertyData/de|Breitengrad}}: Der Breitengrad dieses Grundstücks.
 
--    **Längengrad**: Der Längengrad dieser Baustelle
+-    {{PropertyData/de|Längengrad}}: Der Längengrad dieses Grundstücks.
 
--    **Url**: Eine Url, die diese Baustelle auf einer Kartierungs Webseite zeigt
+-    {{PropertyData/de|Url}}: Eine Url, die dieses Grundstück auf einer Kartierungs-Webseite zeigt.
 
--    **Projizierte Fläche**: Die Fläche der Projektion dieses Objekts auf die XY Ebene
+-    {{PropertyData/de|Projizierte Fläche}}: Die Fläche der Projektion dieses Objekts auf die XY-Ebene
 
--    **Umfang**: Die Umfangslänge dieses Geländes
+-    {{PropertyData/de|Umfang}}: Die Umfangslänge dieses Geländes.
 
--    **Additionsvolumen**: Das diesem Gelände hinzuzufügende Erdvolumen
+-    {{PropertyData/de|Additionsvolumen}}: Das diesem Gelände hinzuzufügende Erdvolumen.
 
--    **Subtraktionsvolumen**: Das Erdvolumen, das von diesem Gelände entfernt werden soll
+-    {{PropertyData/de|Subtraktionsvolumen}}: Das Erdvolumen, das von diesem Gelände entfernt werden soll.
 
--    **Extrusionsvektor**: Ein Extrusionsvektor zur Verwendung bei der Durchführung boolescher Operationen
+-    {{PropertyData/de|Extrusionsvektor}}: Ein Extrusionsvektor zur Verwendung bei der Durchführung boolescher Verknüpfungen.
 
--    **Splitter entfernen**: Splitter aus der resultierenden Form entfernen
+-    {{PropertyData/de|Splitter entfernen}}: Splitter aus der resultierenden Form entfernen.
 
--    **Deklination**: Der Winkel zwischen dem wahren Norden und der Nordrichtung in diesem Dokument, d.h. die Y Achse. <small>(v0.18)</small>  Das bedeutet, dass standardmäßig Norden auf die Y Achse und Osten auf die X Achse zeigt; der Winkel wird gegen den Uhrzeigersinn schrittweise erhöht. Diese Eigenschaft war früher als **Nord Abweichung** bekannt.
+-    {{PropertyData/de|Deklination}}: Der Winkel zwischen dem wahren Norden und der Nordrichtung in diesem Dokument, d.h. die Y-Achse. Das bedeutet, dass standardmäßig Norden auf die Y-Achse und Osten auf die X-Achse zeigt; der Winkel wird gegen den Uhrzeigersinn schrittweise erhöht. Diese Eigenschaft war früher als {{PropertyData/de|Nord-Abweichung}} bekannt.
 
--    **EPW Datei**: Erlaube das Anhängen einer EPW Datei von der [Ladybug EPW Daten Webseite](https://www.ladybug.tools/epwmap/) an diese Baustelle. Dies wird benötigt, um Windrosendiagramme anzuzeigen. <small>(v0.19)</small> 
-
-
-</div>
-
-### View
+-    {{PropertyData/de|EPW-Datei}}: Ermöglicht das Anhängen einer EPW-Datei von der [Ladybug EPW-Daten-Webseite](https://www.ladybug.tools/epwmap/) an dieses Grundstück. Dies wird benötigt, um Windrosendiagramme anzuzeigen.
 
 
-<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
--    **Solardiagram**: Zeigt das Solardiagramm an oder blendet es aus
+-    {{PropertyView/de|Solardiagram}}: Zeigt das Solardiagramm an oder blendet es aus
 
--    **Solardiagram Farbe**: Die Farbe des Solardiagramms
+-    {{PropertyView/de|Solardiagram Farbe}}: Die Farbe des Solardiagramms
 
--    **Solardiagram Position**: Die Position des Solardiagramms.
+-    {{PropertyView/de|Solardiagram Position}}: Die Position des Solardiagramms.
 
--    **Solardiagram Maßstab**: Der Maßstab des Solardiagramms.
+-    {{PropertyView/de|Solardiagram Maßstab}}: Der Maßstab des Solardiagramms.
 
--    **Windrose**: Zeigt das Windrosendiagramm an oder blendet es aus (erfordert die **EPW Datei** Dateneigenschaft ausgefüllt und das Ladybug Python Modul installiert (siehe unten)
-
-
-</div>
+-    {{PropertyView/de|Windrose}}: Zeigt das Windrosendiagramm an oder blendet es aus (erfordert, dass die Dateneigenschaft **EPW-Datei** ausgefüllt und das Python-Modul Ladybug installiert ist. (siehe unten)
 
 
 
 ## Typischer Arbeitsablauf 
 
-
-<div class="mw-translate-fuzzy">
-
-Beginne damit, ein Objekt zu erstellen, das dein Gelände repräsentiert. Es muss eine offene Fläche sein, kein Festkörper. Es ist z.B. einfach, Netzdaten zu importieren, die über das Menü **Teil → Form aus Netz erstellen** in eine Teilform umgewandelt werden können. Erstelle dann ein Baustellenobjekt, und setze dessen Eigenschaft {{PropertyData/de|Gelände}} auf das gerade erstellte Teil:
-
-
-</div>
+Man beginnt damit, ein Objekt zu erstellen, das das Gelände repräsentiert. Es können z.B. einfach Netzdaten importiert werden, die mit dem Menüeintrag **Part → Form aus Netz erstellen** in eine Part-Form umgewandelt werden können. Dann wird ein Grundstück (Site-Objekt) erstellt, und dessen {{PropertyData/de|Gelände}} auf die gerade erstellte Part-Form gesetzt:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -131,13 +107,7 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 ## Solar- und Winddiagramme 
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
-
-
-</div>
+Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Grundstück](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Hierfür müssen {{PropertyData/de|Längengrad}}, {{PropertyData/de|Breitengrad}} und {{PropertyData/de|Deklination}} (previously {{PropertyData/de|Nordabweichung}}) korrekt eingestellt und {{PropertyView/de|Solardiagramm}} oder {{PropertyView/de|Windrose}} auf `True` gesetzt sein.
 
 **Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 

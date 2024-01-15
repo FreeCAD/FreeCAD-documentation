@@ -10,12 +10,22 @@
 
 # FEM MaterialSolid/ru
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Добавляет свойства материала к детали.
 
+
+</div>
+
 ![](images/FEMMaterialSolidProperties.png ) 
 *Внешний вид панели материалов верстака МКЭ*
+
+
 
 ## Применение
 
@@ -38,6 +48,8 @@
 
 
 </div>
+
+
 
 ## Примечания
 

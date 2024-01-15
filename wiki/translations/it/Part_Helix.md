@@ -1,94 +1,92 @@
 # Part Helix/it
 ---
- GuiCommand:   Name: Part_Helix   Name/it: Elica   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Elica,  OpenSCAD_Workbench/it---
+ GuiCommand:
+   Name: Part_Helix
+   Name/it: Part Elica
+   MenuLocation: Parte , Part_Primitives/it , Elica
+   Workbenches: Part_Workbench/it,  OpenSCAD_Workbench/it
+   SeeAlso: Part_Primitives/it---
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-La primitiva geometrica **[<img src=images/Part_Helix.svg style="width:16px"> [Elica](Part_Helix/it.md)** crea una forma ad elica, definita da un raggio, un passo e un\'altezza totale.
-
-
-</div>
+Una <img alt="" src=images/Part_Helix.svg  style="width:24px;"> **Part Elica** è una forma parametrica che può essere creata con il comando <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitive](Part_Primitives/it.md) . Nel sistema di coordinate definito dalla sua proprietà **Placement**, l\'asse dell\'elica corrisponde all\'asse Z e il suo punto inferiore, il punto iniziale, si trova sull\'asse X.
 
 <img alt="" src=images/Part_Helix_Example.png  style="width:400px;">
 
+
+
 ## Utilizzo
 
-See [Part Primitives](Part_Primitives#Usage.md).
-
-## Example
-
-![Part Helix from the scripting example](images/Part_Helix_Scripting_Example.png )
-
-A Part Helix object created with the [scripting example](#Scripting.md) below is shown here.
+Vedere [Part Primitive](Part_Primitives/it#Utilizzo.md).
 
 
-<div class="mw-translate-fuzzy">
 
-## Opzioni
+## Esempio
 
+![Part Elica dall\'esempio di scripting](images/Part_Helix_Scripting_Example.png )
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Un uso comune della primitiva elica è per [creare delle filettature](Thread_for_Screw_Tutorial/it.md) insieme a un profilo chiuso e all\'operazione **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep/it.md)**. Questo processo funziona essenzialmente allo stesso modo in [PartDesign](PartDesign_Workbench/it.md) utilizzando lo strumento **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [Sweep additivo ](PartDesign_AdditivePipe/it.md)**.
+Qui viene mostrato un oggetto Part Elica creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
 
 
-</div>
 
-## Properties
+## Note
 
-See also: [Property editor](Property_editor.md).
+-   È possibile utilizzare una Part Elica per creare filettature. Vedere il [Tutorial sulla filettatura](Thread_for_Screw_Tutorial/it.md).
 
-A Part Helix object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Elica deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Coordinate System}}
 
--    **Local Coord|Enumeration**: The [handedness](https://en.wikipedia.org/wiki/Screw_thread), or direction, of the helix: {{Value|Right-handed}} or {{Value|Left-handed}}. The default is {{Value|Right-handed}}, meaning the helix turns counterclockwise as it goes up.
+-    **Local Coord|Enumeration**: il [senso di rotazione](https://en.wikipedia.org/wiki/Screw_thread), o direzione, dell\'elica: {{Value|Right-handed}} o {{Value |Right-handed}}. Il valore predefinito è {{Value|Right-handed}}, il che significa che l\'elica gira in senso antiorario mentre sale.
 
 
 {{TitleProperty|Helix}}
 
--    **Pitch|Length**: The distance between two consecutive turns of the helix measured along its Z axis. The default is {{Value|1mm}}.
+-    **Pitch|Length**: la distanza tra due giri consecutivi dell\'elica misurata lungo il suo asse Z. Il valore predefinito è {{Value|1mm}}.
 
--    **Height|Length**: The height of the helix. The default is {{Value|2mm}}.
+-    **Height|Length**: l\'altezza dell\'elica. Il valore predefinito è {{Value|2mm}}.
 
--    **Radius|Length**: The start radius of the helix. The helix has a constant radius if **Angle** is {{Value|0°}}.
+-    **Radius|Length**: il raggio iniziale dell\'elica. L\'elica ha un raggio costante se **Angle** è {{Value|0°}}.
 
--    **Segment Length|QuantityConstraint**: The number of turns per helix subdivision. The default is {{Value|1}}, meaning each full turn of the helix is a separate segment. Use {{Value|0}} to suppress subdivision.
+-    **Segment Length|QuantityConstraint**: il numero di giri per suddivisione dell\'elica. Il valore predefinito è {{Value|1}}, il che significa che ogni giro completo dell\'elica è un segmento separato. Utilizzare {{Value|0}} per sopprimere la suddivisione.
 
--    **Angle|Angle**: The angle that defines of the outer shape of the helix. Valid range: {{Value|-90° &lt; value &lt; 90°}}. The default is {{Value|0°}}. If it is {{Value|0°}} the helix is cylindrical, else it is conical.
+-    **Angle|Angle**: l\'angolo che definisce la forma esterna dell\'elica. Intervallo valido: {{Value|-90° &lt; valore &lt; 90°}}. Il valore predefinito è {{Value|0°}}. Se è {{Value|0°}} l\'elica è cilindrica, altrimenti è conica.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Helix can be created with the {{Incode|addObject()}} method of the document:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+È possibile creare una Part Elica con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 helix = FreeCAD.ActiveDocument.addObject("Part::Helix", "myHelix")
 ```
 
--   Where {{Incode|"myHelix"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myHelix"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

@@ -1,5 +1,5 @@
 # Part Loft Technical Details/de
-Diese Seite erklärt die Details, wie die [Ausformungsoberfläche](Part_Loft/de.md) des Werkzeugs erzeugt wird. Dies ist ebenfalls relevant für [Part Austragung](Part_Sweep.md), die entlang eines geraden Pfades erfolgen, auch wenn es Unterschiede gibt.
+Diese Seite erklärt die Details, wie die [Ausformungsoberfl](Part_Loft/de.md)äche des Werkzeugs erzeugt wird. Dies ist ebenfalls relevant für [Part Austragung](Part_Sweep.md), die entlang eines geraden Pfades erfolgen, auch wenn es Unterschiede gibt.
 
 Die angegebenen Informationen sind implementierungsspezifisch und können sich ändern. Der aktuelle Stand ist relevant für FreeCAD 0.15.4119, OCC Version: 6.7.0.
 
@@ -27,9 +27,9 @@ Wenn mindestens eines der Profile eine unterschiedliche Anzahl von Segmenten hat
 
 Der Vorgang wird auf alle Profile ausgedehnt, um die gleiche Anzahl von Segmenten zu erhalten. Die Gesamtanzahl der Segmente in jedem Profil wäre gleich der Summe aller Segmentanzahlen aller Profile (vorausgesetzt, dass keiner der Knoten zufällig im gleichen Polarwinkel liegt).
 
-   
-  <img alt="Der Vorgang des Schneidens von Profil2 (weiße sichelförmige Form), um Verbindungen zu erzeugen, die den Eckpunkten von Profil1 (violettes Fünfeck) entsprechen. Die eingefügten Verbindungen werden durch gelbe Pfeile markiert." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Das Ergebnis der Ausformung entsprechend dem Bild links." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-   
++++
+| <img alt="Der Vorgang des Schneidens von Profil2 (weiße sichelförmige Form), um Verbindungen zu erzeugen, die den Eckpunkten von Profil1 (violettes Fünfeck) entsprechen. Die eingefügten Verbindungen werden durch gelbe Pfeile markiert." src=images/Loft-vertex-insertion.png  style="width:300px;"> | <img alt="Das Ergebnis der Ausformung entsprechend dem Bild links." src=images/Loft_crescent_pentagon.png  style="width:300px;"> |
++++
 
 
 
@@ -77,8 +77,9 @@ Beachte, dass Ausformung eine \"Ruled\"-Eigenschaft hat. Wenn sie auf \"true\" g
 -   Bei der Ausformung ist es nicht erforderlich, dass die Profile getrennt sind (siehe Bild unten). Sie können komplanar sein, aber sie sollten sich nicht schneiden.
 -   Wenn die Eigenschaft \"geschlossen\" der Ausformung \"true\" ist, gibt es eine Eckverbindung in allen Splines, die die Ausformung bilden (siehe Bild unten). Es gibt jetzt keine zuverlässige Möglichkeit, die Ausformung glatt zu schließen.
 
-    
-  <img alt="Es ist nicht erforderlich, dass die Profile parallel sind." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Ausformung können die Profile koplanar sein. In diesem Beispiel sind zwei von drei Profilen koplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Ein Beispiel für eine geschlossene Ausformung zwischen drei fünfeckigen Profilen (weiß). Beachte die nicht glatte Verbindung am äußersten Profil. Dies ist das erste Profil im geschlossenen Loft." src=images/Loft-closed.png  style="width:300px;">
+++++
+| <img alt="Es ist nicht erforderlich, dass die Profile parallel sind." src=images/Loft_nonparallel.png  style="width:300px;"> | <img alt="In Ausformung können die Profile koplanar sein. In diesem Beispiel sind zwei von drei Profilen koplanar." src=images/Loft_Coplanar.png  style="width:300px;"> | <img alt="Ein Beispiel für eine geschlossene Ausformung zwischen drei fünfeckigen Profilen (weiß). Beachte die nicht glatte Verbindung am äußersten Profil. Dies ist das erste Profil im geschlossenen Loft." src=images/Loft-closed.png  style="width:300px;"> |
+++++
 
 
 

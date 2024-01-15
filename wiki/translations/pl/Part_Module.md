@@ -78,6 +78,8 @@ Są to narzędzia do tworzenia i modyfikacji istniejących obiektów.
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Odbicie lustrzane \...](Part_Mirror/pl.md): odtwarza wybrany obiekt na danej płaszczyźnie lustrzanej.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Skaluj](Part_Scale/pl.md): Skaluje jeden lub więcej kształtów. {{Version/pl|0.22}}
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Zaokrąglenie \...](Part_Fillet/pl.md): zaokrągla krawędzie obiektu.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Fazka \...](Part_Chamfer/pl.md): fazowanie krawędzi obiektu.
@@ -168,7 +170,7 @@ Narzędzia te wykonują operacje logiczne.
 
 -   [Konwersja do bryły](Part_MakeSolid.md): konwertuje obiekt kształtu na bryłę.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Odwróć kształty](Part_ReverseShapes.md): przerzuca normalne wszystkich powierzchni zaznaczonego obiektu.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Odwróć kształty](Part_ReverseShape/pl.md): przerzuca normalne wszystkich powierzchni zaznaczonego obiektu.
 
 -   Wykonaj duplikat:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Utwórz prostą kopię](Part_SimpleCopy/pl.md): Tworzy kopię prostą wybranych obiektów.

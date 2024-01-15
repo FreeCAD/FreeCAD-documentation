@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Rebar ColumnReinforcement
-   Name/de: Architektur Bewehrung SäulenVerstärkung
-   MenuLocation: Arch , Rebar tools , Säulenverstärkung oder 3D/BIM , Reinforcement tools , Stützenbewehrung
+   Name/de: Arch Armierung Säulenbewehrung ZweiBügelSechsStäbe
+   MenuLocation: Arch , Rebar tools , Säulenbewehrung oder 3D/BIM , Reinforcement tools , Säulenbewehrung
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de,Arch_Rebar_ColumnReinforcement/de, Arch_Rebar_BeamReinforcement/de
    Version: 0.19
@@ -10,25 +10,29 @@
 
 # Arch Rebar ColumnReinforcement TwoTiesSixRebars/de
 
+
+
 ## Beschreibung
 
-The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool allows the user to create reinforcing bars (Two Ties Six Rebars) inside a Column [Arch Structure](Arch_Structure.md) object.
+Das Werkzeug [Armierung Säulenbewehrung ZweiBügelSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md) erlaubt dem Anwender Bewehrungen (Zwei Bügel und sechs Stäbe) innerhalb eines [Arch Struktur](Arch_Structure/de.md)-Objekts Säule zu erzeugen.
 
-The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
+Das Werkzeug [Armierung Säulenbewehrung ZweiBügelSechsStäbe](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench.md) integriert.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
 
 
-*TwoTiesSixRebars Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
+* Säulenbewehrung mit zwei Bügeln und sechs Stäben (Bewehrungskorb) innerhalb einer [Arch-Struktur](Arch_Structure/de.md) Säule*
 
-## Usage
 
-1\. Select any face of a previously created **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object.
-2. Then select **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md)** from the rebar tools.
-3. A dialog box will pop-out on screen as shown below.
+
+## Anwendung
+
+1\. Eine Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekts auswählen.
+2. Dann **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Säulenbewehrung](Arch_Rebar_ColumnReinforcement.md)** aus den Bewehrungswerkzeugen auswählen.
+3. Ein Dialogfenster wird geöffnet, wie unten gezeigt.
 <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
@@ -97,6 +101,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 -    **Bottom Offset**: The distance between rebar from the bottom face of the structure.
 
 -    **Diameter**: Diameter of the main rebars.
+
+
 
 ## Skripten
 

@@ -1,13 +1,15 @@
 # Coin3d snippets/pl
-## Description of this list 
+## Opis listy 
 
-Complex libraries like [COIN3D](https://en.wikipedia.org/wiki/Coin3D) need good documentation and good tutorials. Unfortunately, there aren\'t many tutorials for the COIN library. After much research, the code examples listed below were found. They have been modified so that they can be loaded in FreeCAD. But some code may fail as these examples were created for other environments. You will find warnings for those problems in the code.
+Złożone biblioteki takie jak [COIN3D](https://en.wikipedia.org/wiki/Coin3D) potrzebują dobrej dokumentacji i dobrych samouczków. Niestety, nie ma zbyt wielu samouczków dla biblioteki COIN. Po wielu poszukiwaniach znaleziono poniższe przykłady kodu. Zostały one zmodyfikowane tak, aby można je było załadować do FreeCAD. Jednak niektóre kody mogą zawieść, ponieważ przykłady te zostały stworzone dla innych środowisk. W kodzie znajdują się ostrzeżenia dotyczące tych problemów.
 
-Users can run these scripts either as a [macro](Macros.md) or directly in the [Python console](Python_console.md). Please notice that many of the functions have \'Exe\' or \'Execu\', short for \'Execute\', in their name.
+Użytkownicy mogą uruchamiać te skrypty jako [makrodefinicje](Macros.md) lub bezpośrednio w [Konsoli Python](Python_console/pl.md). Zwróć uwagę, że wiele funkcji ma w nazwie \"Exe\" lub \"Execu\", skrót od \"Execute\".
 
-These files are also mentioned in the [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) for the C language.
+Pliki te są również wymienione w dokumencie [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) dla języka C.
 
-## List of the files and their screenshot (Python scripts) 
+
+
+## Lista plików i ich zrzuty ekranu *(skrypty Python)* 
 
 -   [02.1.HelloCone.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.1.HelloCone.py.jpg)
 -   [02.2.EngineSpin.py](https://github.com/MariwanJ/COIN3D_Examples/blob/main/screenShots/02.2.EngineSpin.py.jpg)
@@ -76,21 +78,27 @@ These files are also mentioned in the [Inventor Mentor tutorial](http://www-evas
 -   17.2.GLCallback.py
 -   17.3.GLFloor.py
 
-## Source code 
 
-You can find the source code of these scripts on GitHub: [COIN3D examples](https://github.com/MariwanJ/COIN3D_Examples).
 
-## Software for learning COIN3D library 
+## Kod źródłowy 
 
-[CoinDesigner](http://coindesigner.sourceforge.net/), although old, is a useful program if you want to understand how the Coin3D library can be used, and how you can write your own code both in the Inventor 2.x format or for FreeCAD.
+Kod źródłowy tych skryptów można znaleźć w serwisie GitHub: [Przykłady COIN3D](https://github.com/MariwanJ/COIN3D_Examples).
 
-No installation is required. Thanks go to the author of the program.
 
-## Notes
 
-1.  Click the names of the scripts to see the screenshot. The scripts that do not have a link probably cannot be executed under FreeCAD. But even so, please try to look at the code. These scripts may still give you some ideas.
-2.  There are many other drawing files (Inventor 2.x format) that can be loaded in FreeCAD and saved as a python script. The formatting will not be great, but such a script can still help you understand the COIN3D library.
-3.  Generally, COIN3D doesn\'t provide good primitive drawings. The widget system Design456 does provide some: some basic shapes, and also some complex shapes. The arrow widget and the line widget used by the [Design456 Workbench](Design456_Workbench.md) are examples.
+## Oprogramowanie do nauki biblioteki COIN3D 
+
+[CoinDesigner](http://coindesigner.sourceforge.net/), choć stary, jest przydatnym programem, jeśli chcesz zrozumieć, jak można wykorzystać bibliotekę Coin3D i jak możesz napisać własny kod zarówno w formacie Inventor 2.x, jak i dla FreeCAD.
+
+Nie jest wymagana instalacja. Podziękowania dla autora programu.
+
+
+
+## Uwagi
+
+1.  Kliknij nazwy skryptów, aby zobaczyć zrzut ekranu. Skrypty, które nie mają linku, prawdopodobnie nie mogą być wykonane pod FreeCAD. Ale nawet jeśli tak jest, spróbuj spojrzeć na kod. Te skrypty mogą dostarczyć pewnych pomysłów.
+2.  Istnieje wiele innych plików rysunkowych (format Inventor 2.x), które można załadować do FreeCAD i zapisać jako skrypt Python. Formatowanie nie będzie doskonałe, ale taki skrypt może pomóc w zrozumieniu biblioteki COIN3D.
+3.  Ogólnie rzecz biorąc, COIN3D nie zapewnia dobrych prymitywnych rysunków. System widżetów Design456 zapewnia kilka: kilka podstawowych kształtów, a także kilka złożonych kształtów. Widżet strzałki i widżet linii używane przez środowisko pracy [Design456](Design456_Workbench/pl.md) są przykładami.
 
 
 

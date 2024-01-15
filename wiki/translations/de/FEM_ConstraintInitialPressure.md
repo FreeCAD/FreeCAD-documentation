@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintInitialPressure
    Name/de: FEM StartbedingungDruck
-   MenuLocation: Model , Fluid-Randbedingungen , Constraint initial pressure
+   MenuLocation: Modell , Fluid-Randbedingungen , Startbedingung Druck
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_ConstraintInitialFlowVelocity/de
@@ -14,21 +14,21 @@
 
 ## Beschreibung
 
-Erstellt eine Randbedingung für den Startwert eines Druckes für die Strömungsanalyse eines Fluids.
+Erstellt eine Startbedingung eines Druckes für die Strömungsanalyse eines Fluids.
 
 
 
 ## Anwendung
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> '''FEM ConstraintInitialPressure'''** or select the menu **Model →  <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Fluid Constraints → Constraint initial pressure**.
-2.  Enter an initial pressure value.
-3.  For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
+1.  Die Schaltfläche **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> [Startbedingung Druck](FEM_ConstraintInitialPressure/de.md)** drücken oder den Menüeintrag **Modell → Fluid-Randbedingungen → <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Startbedingung Druck**.
+2.  Einen Startwert für den Druck eingeben.
+3.  Für eine 3D-Analyse einen Festkörper (body) des Modells auswählen, für eine 2D-Analyse eine Fläche auswählen.
 
 
 
 ## Hinweise
 
-For simple analyses, it is not necessary to specify the initial pressure, however also in these cases it is recommended as best practice.
+In einfachen Analysen ist es nicht erforderlich, einen Startwert für den Druck anzugeben, wird aber als bewährte Vorgehensweise empfohlen.
 
 
 

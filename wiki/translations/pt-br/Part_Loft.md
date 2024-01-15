@@ -9,104 +9,75 @@
 
 # Part Loft/pt-br
 
-## Overview
+## Description
 
-The **Part Loft** tool is used to create a face, shell or a solid shape from two or more profiles. The profiles can be a point (vertex), line (Edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations and complications](Part_Loft#Limitations_and_complications.md), see below, however the profiles may come from [Part Workbench primitives](Part_Workbench.md), [Draft Workbench objects](Draft_Workbench.md) and [Sketches](Sketcher_Workbench.md).
+The <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
 
-The Loft has three parameters, \"Ruled surface\",\"Create solid\" and \"Closed\" each with a value of either \"true\" or \"false\".
+<img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
+*Loft from three profiles which are two [Part Circles](Part_Circle.md) and one [Part Ellipse](Part_Ellipse.md). Parameters are Solid "True" and Ruled "True".*
 
-If \"Create solid\" is \"true\" FreeCAD creates a solid if the profiles are of closed geometry, if \"false\" FreeCAD creates a face or (if more than one face) a shell for either open or closed profiles.
+## Usage
 
-If \"Ruled surface\" is \"true\" FreeCAD creates a face, faces or a solid from ruled surfaces. [Ruled surface page on Wikipedia.](http://en.wikipedia.org/wiki/Ruled_surface)
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Loft.svg" width=16px> [Loft...](Part_Loft.md)** button.
+    -   Select the **Part → <img src="images/Part_Loft.svg" width=16px> Loft...** option from the menu.
+2.  The Loft [task panel](Task_panel.md) opens.
+3.  In the *Available Profiles* list on the left select the first profile and click on the right arrow to place it in the *Selected profiles* list on the right.
+4.  Repeat for the second profile and again if more than two profiles are desired.
+5.  Optionally use the up and down arrows to reorder the selected profiles.
+6.  Define options [Create solid](#Data.md), [Ruled surface](#Data.md), and [Closed](#Data.md).
+7.  Click **OK**.
 
-If \"Closed\" is \"true\" FreeCAD attempts to loft the last profile to the first profile to create a closed figure.
+### Accepted geometry 
 
-For more info on how the profiles are joined together, refer [Part Loft Technical Details](Part_Loft_Technical_Details.md) page.
+-   **Profiles:** can be a point (vertex), line (edge), wire or face. Edges and wires may be either open or closed. There are various [Limitations](#Limitations.md), see below.
 
-![centre\|Part Loft. From three profiles which are two Part Circles and one Part Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles. <small>(v0.20)</small> 
 
-## Notes
+## Options
 
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
+#### Create solid 
 
-## Limitations and complications 
+If \"Solid\" is set to \"true\", FreeCAD creates a solid, provided the profiles are closed; if set to \"false\", FreeCAD creates a face or a shell for either open or closed profiles.
 
--   A vertex or point
-    -   vertex or point may only be used as the first and/or last profile in the list of profiles.
-        -   For example
-            -   you cannot loft from a circle to a point, to an ellipse.
-            -   However you could Loft from a point to a circle to an ellipse to another point.
--   Open or closed geometry profiles can not be mixed in one single Loft
-    -   In one Loft, all profiles (lines wires etc.) must be either open or closed.
-        -   For example
-            -   FreeCAD can not Loft between one Part Circle and one default Part Line.
--   Draft Workbench features
-    -   Draft Workbench features can be directly used as a profile in FreeCAD 0.14 or later.
-        -   For example the following Draft features can be used as profiles in a Part Loft
-            -   Draft Polygon.
-            -   Draft Point, Line, wire,
-            -   Draft B-spline, Bezier Curve
-            -   Draft Circle, Ellipse, Rectangle
--   PartDesign Sketches
-    -   The profile may be created with a sketch. However only a valid sketch will be shown in the list to be available for selection.
-    -   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire)
--   Part Workbench
-    -   the profile can be a valid Part geometric primitive which can be created with the [Part Primitives](Part_Primitives.md) tool
-        -   For example the following Part geometric primitives can be a valid profile
-            -   Point (Vertex), Line (Edge)
-            -   Helix, Spiral
-            -   Circle, Ellipse
-            -   Regular Polygon
-            -   Plane (Face)
+#### Ruled surface 
 
--   Closed Lofts
-    -   The results of closed lofts may be unexpected - the loft may develop twists or kinks. Lofting is very sensitive to the Placement of the profiles and the complexity of the curves required to connect the corresponding Vertices in all the profiles.
+If \"Ruled surface\" is \"true\" FreeCAD creates a face, a shell or a solid from [ruled surfaces](http://en.wikipedia.org/wiki/Ruled_surface).
 
-## An example Loft 
+#### Closed
 
-The Loft tool is in the Part Workbench, menu Part -\> Loft\... or via the icon in the tool bar.
+If \"Closed\" is \"true\" FreeCAD attempts to loft the last profile to the first profile to create a closed loop.
 
-![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
+For more information on how profiles are joined together see [Part Loft Technical Details](Part_Loft_Technical_Details.md).
 
-In the \"Tasks\" will be two lists: \"Available\" and \"Selected\".
+## Properties
 
-![](images/Part_Loft_Liste3.png )
+See also: [Property editor](Property_editor.md).
 
-### Selection of the sections 
+A Part Loft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-In the \"Available\" the available items are displayed. Two sections must be selected one after the first in this list.
+### Data
 
-![](images/Part_Loft_Liste_Auswahl_3b.png )
 
-Thereafter, with the blue arrow that item is added to the list of \"Selected\".
+{{TitleProperty|Loft}}
 
-![](images/Part_Loft_Liste_Auswahl_3c.png )
+-    **Sections|LinkList**: lists the sections used.
 
-The selected items must be of the same type.
+-    **Solid|Bool**: true or false (default). True creates a solid.
 
-Tip: the active/selected items in the list are displayed in the 3D area as active/selected.
+-    **Ruled|Bool**: true or false (default). True creates a ruled surface.
 
-### Command complete 
+-    **Closed|Bool**: rue or false (default). True creates a closed loft by connecting last to first profile.
 
-If both sections are selected, the command can be completed with \"OK\".
+-    **Max Degree|IntegerConstraint**: Maximum degree.
 
-![](images/Part_Loft_Liste_Auswahl_3d.png )
+## Limitations
 
-### Result
+A Part Loft has the same limitations as a [Part Sweep](Part_Sweep#Limitations.md).
 
-From closed lines we get surfaces which might be taken as a superficial look for solids.
+### Closed Lofts 
 
-![](images/Part_Loft_geschlossen.png )
-
-If indeed a solid needs to be created, used the button \"Create Solid\" or after creating the Loft switch to its *properties* tab *data* and set the switch \"Solid\" to true.
-
-The procedure is the same as described above with open polylines.
-
-### Changing the selection of sections 
-
-If you want to change the selection of the sections after creation of the loft, you can select the field Sections in the Data tab and click the occuring ellipsis button. The list of all selectable sections occurs, the current selection is highlighted. You can remove or add additional sections.
-
-The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
+-   The results of a closed Loft may be unexpected, the Loft may develop twists or kinks. Lofting is very sensitive to the Placement of the profiles and the complexity of the curves required to connect the corresponding vertices in all the profiles.
 
 
 

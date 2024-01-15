@@ -1,103 +1,118 @@
 ---
  GuiCommand:
    Name: FCGear WormGear
-   MenuLocation: Gear , Worm Gear
-   Workbenches: FCGear_Workbench
+   Name/pl: FCGear: Przekładnia ślimakowa
+   MenuLocation: Gear , Przekładnia ślimakowa
+   Workbenches: FCGear_Workbench/pl
    Shortcut: None
    Version: v0.16
-   SeeAlso: PartDesign_InvoluteGear
+   SeeAlso: PartDesign_InvoluteGear/pl
 ---
 
 # FCGear WormGear/pl
 
+
+
 ## Opis
 
-The worm can be considered a special case of a helical gear. Imagine that there is only one tooth on a spur gear. Now increase the helix angle so much that the tooth winds around the spur gear several times before it emerges on the opposite side. The result would be a single thread worm.
+Ślimak można uznać za szczególny przypadek koła zębatego walcowego. Wyobraź sobie, że na kole zębatym czołowym znajduje się tylko jeden ząb. Teraz zwiększ kąt pochylenia linii śrubowej tak bardzo, że ząb owija się wokół koła zębatego czołowego kilka razy, zanim pojawi się po przeciwnej stronie. Rezultatem będzie ślimak z pojedynczym gwintem.
 
-For a single-start worm, each full turn (360 degrees) of the worm advances the gear by one tooth. So a gear with 24 teeth will provide a gear reduction of 24:1. For a multi-start worm, the gear reduction equals the number of teeth on the gear, divided by the number of starts on the worm.
+W przypadku ślimaka o pojedynczym rozruchu każdy pełny obrót *(360 stopni)* ślimaka przesuwa przekładnię o jeden ząb. Zatem przekładnia z 24 zębami zapewni redukcję przełożenia 24:1. W przypadku ślimaka wielostartowego redukcja przekładni jest równa liczbie zębów koła zębatego podzielonej przez liczbę uruchomień ślimaka.
 
-A worm can only be used with a worm wheel. This is called a worm drive. Like other gear arrangements, a worm drive can reduce rotational speed or transmit higher torque. One of the major advantages of worm gear drive units are that they can transfer motion in 90 degrees. A worm drive is also self-locking.
+Ślimak może być używany tylko z kołem ślimakowym. Nazywa się to napędem ślimakowym. Podobnie jak inne przekładnie, napęd ślimakowy może zmniejszać prędkość obrotową lub przenosić wyższy moment obrotowy. Jedną z głównych zalet przekładni ślimakowych jest to, że mogą one przenosić ruch pod kątem 90 stopni. Przekładnia ślimakowa jest również samoblokująca.
 
 ![](images/Worm-Gear_example.png ) 
-*Worm gear (No. of teeth 3)*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_WormGear.svg style="width:16px"> [Worm Gear](FCGear_WormGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_WormGear.svg style="width:16px"> Worm Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-An FCGear WormGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Przekładnia ślimakowa ''(liczba zębów 3)''*
 
 
-{{Properties_Title|base}}
 
--    **diameter|Length**: Default is {{Value|5 mm}}. Pitch diameter.
+## Użycie
 
--    **height|Length**: Default is {{Value|5 mm}}. Value of the worm length.
-
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
-
--    **reverse_pitch|Bool**: Default is {{False}}, {{True}} changes the rotating direction from right to left.
-
--    **teeth|Integer**: Default is {{Value|3}}. Number of teeth (see [Notes](#Notes.md)).
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_WormGear.svg style="width:16px"> '''Przekładnia ślimakowa'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_WormGear.svg style="width:16px"> Przekładnia ślimakowa**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|computed}}
 
--    **beta|Angle**: (read-only) Lead angle (see also the information in [Notes](#Notes.md) and [Useful formulas](#Useful_formulas.md)).
+## Właściwości
 
-
-{{Properties_Title|involute}}
-
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+Obiekt Przekładnia ślimakowa wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|tolerance}}
 
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
-
--    **head|Float**: Default is {{Value|0}}. This value is used to change the tooth height.
+### Dane
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Podstawowe}}
 
--    **version|String**:
+-    **średnica|Length**: Wartością domyślną jest {{Value|5 mm}}. Średnica podziałki.
 
-## Notes
+-    **wysokość|Length**: Wartością domyślną jest {{Value|5 mm}}. Wartość długości ślimaka.
 
--    **beta**: If the lead angle is less than 5°, it is a self-locking gear. A typical example are the tuning pegs on a guitar or ukulele.
+-    **moduł|Length**: Wartością domyślną jest {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](#Uwagi.md))*.
 
--    **clearance**: At a worm gearing, clearance is the distance between the tooth tip of the worm and the tooth root of the worm wheel.
+-    **odwrotny_skok|Bool**: Wartością domyślną jest {{False/pl}}, {{True/pl}} zmienia kierunek obrotu z prawego na lewy.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth. If the module is changed, the lead angle also changes (**beta**).
+-    **zęby|Integer**: Wartością domyślną jest {{Value|3}}. Ilość zębów *(patrz [Uwagi](#Uwagi.md))*.
 
--    **teeth**: The number of teeth in a worm is called the number of threads. Correspondingly, one speaks of single, double or multiple thread worms. In general, mainly single worms are produced, but in special cases the number of starts can be up to four (sometimes also more). If the number of teeth is changed, **beta** also changes.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+{{Properties_Title|Obliczone}}
 
-## Useful formulas 
+-    **beta|Angle**: (tylko do odczytu) Kąt natarcia *(zobacz także informacje w sekcji [Uwagi](#Uwagi.md) i [Przydatne wzory](#Przydatne_wzory.md))*.
 
--    **beta (lead angle)**= arctan (**module** \* **teeth** : **pitchdiameter (diameter)**)
 
--    **axial pitch**= **pi** \* **module** \* **teeth**
+{{Properties_Title|Ewolwenta}}
 
--    **beta (lead angle)**= arctan (**axial pitch** : (**pitchdiameter (diameter)** \* **pi**))
+-    **kąt_natarcia|Angle**: Wartością domyślną jest {{Value|20 °}} *(patrz sekcja [Uwagi](#Uwagi.md))*.
 
--    **worm length**= 4,5 \* **module** \* **pi**
 
-## Worm wheel 
+{{Properties_Title|Tolerancja}}
 
-The worm wheel must be designed manually. For this purpose [FCGear InvoluteGear](FCGear_InvoluteGear.md) can be used for a simple construction. In any case, in-depth knowledge of the gear types is required.
+-    **prześwit|Float**: Domyślną wartością jest {{Value|0.25}}. *(patrz sekcja [Uwagi](#Uwagi.md))*.
+
+-    **head|Float**: Domyślną wartością jest {{Value|0}}. Ta wartość jest używana do zmiany wysokości zęba.
+
+
+{{Properties_Title|Wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+-    **beta**: Jeśli kąt wyprzedzenia jest mniejszy niż 5°, jest to przekładnia samohamowalna. Typowym przykładem są kołki strojeniowe na gitarze lub ukulele.
+
+-    **luz**: W przypadku przekładni ślimakowej, luz jest odległością pomiędzy wierzchołkiem zęba ślimaka a nasadą zęba koła ślimakowego.
+
+-    **moduł**: Korzystając z wytycznych ISO *(Międzynarodowej Organizacji Normalizacyjnej)*, rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów przekładni. Moduł *(m)*: m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Jeśli pomnożymy moduł przez Pi, otrzymamy Skok (p). Skok to odległość między odpowiednimi punktami na sąsiednich zębach. Jeśli moduł zostanie zmieniony, zmieni się również kąt wyprzedzenia (**beta**).
+
+-    **zęby**: Liczba zębów w ślimacznicy nazywana jest liczbą zwojów. W związku z tym mówi się o ślimacznicach jedno-, dwu- lub wielokrotnych. Ogólnie rzecz biorąc, produkowane są głównie pojedyncze ślimacznice, ale w szczególnych przypadkach liczba startów może wynosić do czterech *(czasami także więcej)*. Jeśli zmienia się liczba zębów, zmienia się również **beta**.
+
+-    **pressure_parameter**: Parametr należy zmieniać tylko wtedy, gdy dostępna jest wystarczająca wiedza na temat geometrii przekładni.
+
+
+
+## Przydatne wzory 
+
+-    **beta ''(kąt natarcia)''**= arctan (**moduł** \* **ilość zębów** : **pitchdiameter ''(średnica)''**)
+
+-    **podziałka osiowa**= **pi** \* **moduł** \* **ilość zębów**
+
+-    **beta ''(kąt natarcia)''**= arctan (**podziałka osiowa** : (**pitchdiameter ''(średnica)''** \* **pi**))
+
+-    **długość ślimacznicy**= 4,5 \* **moduł** \* **pi**
+
+
+
+## Koło ślimakowe 
+
+Koło ślimakowe musi być zaprojektowane ręcznie. W tym celu można użyć [koła zębatego ewolwentowego](FCGear_InvoluteGear/pl.md) aby uprościć konstrukcję. W każdym przypadku wymagana jest dogłębna znajomość typów przekładni.
 
 ![](images/Worm-Gear_example3.png ) 
-*Worm with worm wheel*
+*Ślimak z kołem ślimakowym.*
 
 
 

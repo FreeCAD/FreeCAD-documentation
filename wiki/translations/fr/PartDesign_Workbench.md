@@ -41,11 +41,11 @@ Ces outils ne font en fait pas partie de l\'atelier PartDesign. Ils appartiennen
 
 -   ![\|32px](images/Sketcher_NewSketch.svg ) [Esquisse](PartDesign_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, l\'utilisateur est invité à sélectionner un plan dans le panneau Tâches. L\'interface bascule ensuite vers l\'[atelier Sketcher](Sketcher_Workbench/fr.md) en mode d\'édition d\'esquisse.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier l\'esquisse](Sketcher_EditSketch/fr.md) : modifie l\'esquisse sélectionnée.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier une esquisse](Sketcher_EditSketch/fr.md) : modifie l\'esquisse sélectionnée.
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Appliquer une esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un plan sélectionné du corps actif.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) : vérifie la tolérance de différents points et les ajuste.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider une esquisse](Sketcher_ValidateSketch/fr.md) : vérifie la tolérance de différents points et les ajuste.
 
 
 
@@ -166,7 +166,7 @@ Ces outils appliquent un traitement aux arêtes ou faces.
 
 -   <img alt="" src=images/PartDesign_Draft.svg  style="width:32px;"> [Dépouille](PartDesign_Draft/fr.md) : applique un angle de dépouille aux faces sélectionnées du corps actif.
 
--   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Coque](PartDesign_Thickness/fr.md) : crée une coque épaisse à partir du corps actif et ouvre la face sélectionnée.
+-   <img alt="" src=images/PartDesign_Thickness.svg  style="width:32px;"> [Évidement](PartDesign_Thickness/fr.md) : crée une évidement épais à partir du corps actif et ouvre la face sélectionnée.
 
 
 

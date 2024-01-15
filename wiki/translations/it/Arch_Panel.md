@@ -6,13 +6,12 @@
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **A**
    Version: 0.15
-   SeeAlso: Arch Panel Cut/it, Arch Panel Sheet/it
+   SeeAlso: Arch_Panel_Cut/it, Arch_Panel_Sheet/it
 ---
 
 # Arch Panel/it
 
 
-</div>
 
 ## Descrizione
 
@@ -26,26 +25,23 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Utilizzo
-
-
-<div class="mw-translate-fuzzy">
 
 -   Selezionare una forma 2D (oggetto di Draft, faccia o schizzo) - opzionale.
 -   Premere il pulsante **<img src="images/Arch_Panel.svg" width=16px> [Pannello](Arch_Panel/it.md)**, oppure premere i tasti **P** e **A**.
 -   Regolare le proprietà come desiderate.
 
 
-</div>
 
 ### Limitazioni
 
 -   Attualmente non esiste un sistema automatico per creare tagli 2D nei fogli usando oggetti pannello, ma tale caratteristica è prevista e sarà aggiunta in futuro.
 
+
+
 ## Opzioni
-
-
-<div class="mw-translate-fuzzy">
 
 -   Gli elementi Pannello condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md).
 -   Lo spessore di un pannello può essere regolato dopo la creazione.
@@ -55,7 +51,6 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 -   I Pannelli possono utilizzare i <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [ Multi-Materiali](Arch_MultiMaterial/it.md). Quando si utilizza un multi-materiale, il pannello diventa multistrato, utilizzando gli spessori specificati nel multi-materiale. A qualsiasi strato con uno spessore pari a zero viene assegnato lo spessore definito automaticamente dallo spazio rimanente definito dal valore dello spessore del pannello meno gli altri strati.
 
 
-</div>
 
 ## Proprietà
 
@@ -79,20 +74,14 @@ Dalla versione 0.17, il Pannello Arch può anche essere usato per creare dei pro
 
 -    **Bottom Wave**: Se l\'onda inferiore del pannello è piatta o no
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
+[API di Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 Lo strumento Pannello può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
@@ -111,31 +100,11 @@ Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
 
+
+
 ## Tutorial
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/it.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it
-|[Strumenti pannello](Arch_CompPanel/it.md)
-|[Sagoma pannello](Arch_Panel_Cut/it.md)
-|[Arch](Arch_Workbench/it.md)
-|IconL=Arch_CompPanel.png
-|IconC=Workbench_Arch.svg
-|IconR=Arch_Panel_Cut.svg
-}}
-
-
-</div>
 
 
 

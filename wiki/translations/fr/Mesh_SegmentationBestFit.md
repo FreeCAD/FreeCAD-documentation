@@ -17,9 +17,16 @@ La commande **Segmentation adaptée** crée des segments de maillage séparés p
 
 ## Utilisation
 
-1.  Si vous envisagez d\'identifier les paramètres d\'un type de surface, notez que la commande utilise la couleur rouge pour marquer les faces sélectionnées pour cette option. Pour les voir correctement :
-    -   La **Display Mode** de l\'objet maillé devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
-    -   La **Shape Color** de l\'objet maillé ne doit pas être rouge.
+1.  Si vous souhaitez identifier les paramètres d\'un type de surface, notez que la commande utilise la couleur rouge pour marquer les faces sélectionnées pour cette option. Pour les voir correctement :
+    -   
+        **Display Mode**
+        
+        de l\'objet maillé devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
+
+    -   
+        **Shape Color**
+        
+        de l\'objet maillé ne doit pas être rouge.
 2.  Sélectionnez un seul objet maillé.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Segmenter le maillage par des surfaces adaptées...](Mesh_SegmentationBestFit/fr.md)**.

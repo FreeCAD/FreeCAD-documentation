@@ -1,14 +1,9 @@
 # Manual:Introduction/zh-tw
-{{Manual:TOC/zh-tw}}
-
-![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) 是一開源三維建模軟體。主要為了實體建模，囊括小自電子零件大至建築與土木專案，並特別針對可三維列印物件。FreeCAD 免費下載、使用、散佈與修改，且其源碼開源且以非常寬鬆之 [LGPL](https://zh.wikipedia.org/zh-tw/GNU%E5%AE%BD%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81) 授權發布。您以 FreeCAD 所生產之物完全歸您所有，且可不由 FreeCAD 存取。
+{{Manual:TOC}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-
-{{Manual:TOC/zh-tw}}
-
-![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) 是一開放原始碼參數式三維建模軟體。主要為了實體建模，囊括小自電子零件大至建築與土木專案，並特別針對可三維列印物件。FreeCAD 免費下載、使用、散佈與修改，且其源碼開源且以非常寬鬆之 [LGPL](https://zh.wikipedia.org/zh-tw/GNU%E5%AE%BD%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81) 授權發布。您以 FreeCAD 所生產之物完全歸您所有，且可不由 FreeCAD 存取。
+[FreeCAD](http://www.freecadweb.org) 是一開放原始碼參數式三維建模軟體。主要為了實體建模，囊括小自電子零件大至建築與土木專案，並特別針對可三維列印物件。FreeCAD 免費下載、使用、散佈與修改，且其源碼開源且以非常寬鬆之 [LGPL](https://zh.wikipedia.org/zh-tw/GNU%E5%AE%BD%E9%80%9A%E7%94%A8%E5%85%AC%E5%85%B1%E8%AE%B8%E5%8F%AF%E8%AF%81) 授權發布。您以 FreeCAD 所生產之物完全歸您所有，且可不由 FreeCAD 存取。
 
 FreeCAD 同時為一徹底社群專案，以俱 FreeCAD 熱忱所凝聚之社群開發者與用戶開發與維護故。
 

@@ -17,13 +17,7 @@ FreeCAD utiliza un sistema de traducción colaborativa en línea de terceros lla
 
 <img alt="" src=images/Logo-crowdin.png  style="width:320px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Se trata de un software propietario, pero gratuito para los proyectos FOSS. A continuación encontrará instrucciones sobre cómo utilizarlo:
-
-
-</div>
+Se trata de un software propietario, pero gratuito para los proyectos [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software). A continuación encontrará instrucciones sobre cómo utilizarlo:
 
 -   Ir a la [FreeCAD página del proyecto de traducción en Crowdin](http://crowdin.net/project/freecad)
 -   Iniciar sesión creando un nuevo perfil, o utilizando una cuenta de terceros (GitHub, GitLab, GMail, etc\...)

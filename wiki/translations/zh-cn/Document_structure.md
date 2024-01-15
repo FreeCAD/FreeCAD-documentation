@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD 文档内的对象可以是不同类型的。每个工作台都能够创建属于它的对象类型，例如[网格工作台可创建网格对象](Mesh_Workbench/zh-cn.md)，而[零件工作台可创建零件对象](Part_Workbench/zh-cn.md)，还有[草图工作台也可创建零件对象](Draft_Workbench/zh-cn.md)，等等。
+FreeCAD 文档内的对象可以是不同类型的。每个工作台都能够创建属于它的对象类型，例如[网格工作台](Mesh_Workbench/zh-cn.md)可创建网格对象，而[零件工作台](Part_Workbench/zh-cn.md)可创建零件对象，还有[草图工作台](Draft_Workbench/zh-cn.md)也可创建零件对象，等等。
 
 
 </div>

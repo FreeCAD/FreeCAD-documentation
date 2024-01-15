@@ -17,6 +17,8 @@ La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **D
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Deux faces se chevauchant sont déclassées en un objet Part Soustraction, qui est déclassé en une face. Cette face est ensuite déclassée en un fil fermé, qui est finalement déclassé en arêtes séparées.*
 
+
+
 ## Utilisation
 
 1.  En option, sélectionnez un ou plusieurs objets.
@@ -25,6 +27,8 @@ La commande <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **D
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Désagréger** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **N**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+
+
 
 ## Script
 

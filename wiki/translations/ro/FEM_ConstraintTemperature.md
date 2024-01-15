@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Crée une contrainte FEM pour une condition de limite de température.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,7 +42,9 @@ Crée une contrainte FEM pour une condition de limite de température.
 
 ### Option
 
-By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
+
+
 
 ## Notă
 

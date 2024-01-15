@@ -12,7 +12,7 @@
 
 ## Opis
 
-Opcja <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
+Polecenie <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:24px;"> **Przyciągnij do wymiaru** pokazuje tymczasowe wymiary X i Y. Wyświetlają one odległość X i Y między kursorem a poprzednim punktem w układzie współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). Wymiary są tworzone na [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
 <img alt="" src=images/Draft_Snap_Dimensions_example.png  style="width:400px;"> 
 *Wymiary tymczasowe pokazują położenie kursora*
@@ -37,7 +37,7 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 
 ## Ustawienia
 
-Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

@@ -27,6 +27,8 @@
 
 上記のフローチャートに示されているように、チケットを作成する前にまずフォーラムとバグトラッカーを検索して、問題が既知の問題で あるかどうかを確認してください。 これにより、開発者やボランティアにとって、FreeCADをさらにすばらしいものにする時間を節約できます。
 
+
+
 ## バグ
 
 もし、バグを発見したかもと思ったら、そこにバグを報告することは歓迎されます。しかし、バグを報告する前に、以下の項目をチェックしてください。:
@@ -45,6 +47,8 @@
 
 バグの修正や、拡張機能、一般公開できるFreeCADの何らかを作成したときは、Subversioを使ってパッチを作成し、 [patches section](https://sourceforge.net/tracker/?group_id=49159&atid=455300) セクションにファイルを投稿してください。
 
+
+
 ## 機能追加要望
 
 実装されていない機能をFreeCADで使いたいと思ったら、それはバグではなく、機能追加要望です。これは同じトラッカー（バグではなく機能要望として申請する）に投稿できますが、あなたの機能追加要望が実現される保証が無いことを心に留めておいてください。
@@ -59,6 +63,8 @@
 -   バグ毎に個別のレポートを投稿してください。
 -   FreeCADをinux上で利用し、バグが原因でクラッシュした場合は、デバッグトレースを実行することもできます。端末からgdb freecadを実行（gdbパッケージがインストールされていることを仮定）し、gdbの中でrunを実行します。　FreeCADは実行されます。クラッシュが発生したら、btと入力するとバックトレースを取得できます。投稿するバグレポートの中にバックトレースを含めてください。
 
+
+
 ## パッチの投稿　
 
 In case you have programmed a bug fix, an extension or something else that can be of public use in FreeCAD, submit your patch as a \"Pull Request\" at [GitHub](https://github.com/FreeCAD/FreeCAD).
@@ -66,6 +72,8 @@ In case you have programmed a bug fix, an extension or something else that can b
 1.  For a large, complex, or behavior-changing submission, open a forum thread in the [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) to announce and discuss your patch. For small bugfixes this is not necessary.
 2.  Submit your Pull Request (PR) to the [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). The PR submission message will be pre-filled with a checklist for you to follow to ensure that your submission has the best chance at speedy acceptance. If you haven\'t worked with `git` before or are unfamiliar with submitting a PR to github, please read our introduction to [github](Source_code_management.md) wiki page.
 3.  Be present for the discussion, both in the forum and in the GitHub pull request, so that your code can potentially be merged more effectively.
+
+
 
 ## \"古い\"sourceforgeのトラッカー(廃止)
 
@@ -166,11 +174,6 @@ The format MantisBT will recognize:
 
 For the inquisitive here is the regex MantisBT uses for this operation:
 
-
-## Related
-
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
 
 
 <div class="mw-translate-fuzzy">

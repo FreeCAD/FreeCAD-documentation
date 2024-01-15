@@ -13,6 +13,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 \"Vytvoření zámku na vybrané položce\"
@@ -25,6 +27,8 @@ Tento nástroj se pokusí plně ustavit jakoukoliv vybranou položku.
 </div>
 
 **Constraint Lock** applies **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Horizontal distance](Sketcher_ConstrainDistanceX.md)** and **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)** constraints to selected vertices (points) in the sketch. If a single vertex is selected, the horizontal and vertical distance constraints will refer to the sketch origin point. If two or more points are selected, horizontal and vertical distance constraints will be added for each pair of points. There is no automatic prompt to edit the constraints\' values, they must be edited manually.
+
+
 
 
 <div class="mw-translate-fuzzy">

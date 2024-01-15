@@ -25,7 +25,13 @@ The **TechDraw CosmeticEraser** tool removes cosmetic objects. Cosmetic objects 
     -   Select the **TechDraw → <img src="images/TechDraw_CosmeticEraser.svg" width=16px> Remove Cosmetic Object** option from the menu.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

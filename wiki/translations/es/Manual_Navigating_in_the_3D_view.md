@@ -1,5 +1,7 @@
 # Manual:Navigating in the 3D view/es
-{{Manual:TOC/es}}
+{{Manual:TOC}}
+
+
 
 ### Una palabra sobre el espacio 3D 
 
@@ -15,7 +17,11 @@ El punto de encuentro de los tres ejes es el origen. Es el punto donde el valor 
 
 Puedes mirar esa escena desde cualquier ángulo, como si estuvieras sosteniendo una cámara. Esa cámara puede moverse a la izquierda, a la derecha, hacia arriba y hacia abajo (panorámica), girar alrededor de lo que está apuntando (rotación) y acercarse o alejarse de la escena (zoom).
 
+
+
 ### La vista 3D de FreeCAD 
+
+
 
 #### Navegación del ratón 
 
@@ -43,6 +49,8 @@ Cada uno de estos modos asigna diferentes botones del ratón, o combinaciones de
 ++++++
 | OpenCascade       | ![Click middle button mouse](images/Pan-mouse.svg )                                                                                                                                                             | ![Hold middle then right mouse button](images/Rotate-mouse-MMB+RMB.svg )                                                                                                 | ![Roll middle button mouse](images/Zoom-mouse.svg )                                                                                                                            | ![Click left button mouse](images/Select-mouse.svg )                                        |
 ++++++
+
+
 
 #### Navegación del teclado 
 
@@ -80,6 +88,8 @@ Clicking one of the four triangles will rotate the view 45 degrees in the indica
 The navigation cluster may be moved to any part of the 3D display by dragging. The drag (left) mouse button must be pressed inside the cube itself to initiate a drag. The structure will not begin moving until the pointer is dragged outside the cube.
 
 There is a smaller mini-cube in the lower right of the cluster which activates a drop-down menu allowing you to switch the viewing mode.
+
+
 
 ### Seleccionar objetos 
 

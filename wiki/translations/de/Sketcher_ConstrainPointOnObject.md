@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher ConstrainPointOnObject
    Name/de: Sketcher PunktAufObjektFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Punkt auf Objekt festlegen
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Punkt auf Objekt festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **O**
    SeeAlso: Sketcher_ConstrainCoincident/de
@@ -10,9 +10,16 @@
 
 # Sketcher ConstrainPointOnObject/de
 
+
+</div>
+
+
+
 ## Beschreibung
 
-Bringt einen Punkt an einem anderen Objekt an, z.B. einer Linie, einem Bogen oder einer Skizzenachse.
+Fixiert einen Punkt auf einem anderen Objekt, z.B. einer Linie, einem Bogen oder einer Skizzenachse.
+
+
 
 ## Anwendung
 
@@ -20,7 +27,9 @@ Bringt einen Punkt an einem anderen Objekt an, z.B. einer Linie, einem Bogen ode
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md)** drücken.
     -   Das Tastaturkürzel **O**.
-    -   Den Menüeintrag **Sketch → Skizzen-Beschränkungen → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Punkt auf Objekt festlegen** auswählen.
+    -   Den Menüeintrag **Skizze → Sketcher-Randbedingungen → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Punkt auf Objekt festlegen** auswählen.
+
+
 
 ## Skripten
 
@@ -37,13 +46,13 @@ Die Randbedingung kann in [Makros](Macros/de.md) und von der [Python](Python/de.
 
 -    `LineFixed`ist die Nummer der Linie, an die der Punkt `PointOfLineMoving` befestigt werden soll.
 
-Die Seite [Sketcher Skripten](Sketcher_scripting/de.md) erklärt, wie man die Zahlen zur Bestimmung von Linien und Punkten erkennt.
+Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt, wie man die Zahlen zur Bestimmung von Linien und Punkten erkennt.
 
 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

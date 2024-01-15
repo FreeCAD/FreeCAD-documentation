@@ -72,6 +72,7 @@ Demonstracja tworzenia **Zadania** środowiska pracy <img alt="" src=images/Work
 6\. Zakładka Wyjście definiuje ścieżkę pliku wyjściowego, nazwę, rozszerzenie i postprocesor. Zaawansowani użytkownicy mogą dostosować Argumenty postprocesora *(wskazanie kursorem myszki powoduje wyświetlenie podpowiedzi typowych argumentów)*.
 
 :   ![](images/Path-JobOutput.png )
+
 :   
     
 *Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) z wybraną zakładką '''Wyjście'''*
@@ -82,6 +83,7 @@ Demonstracja tworzenia **Zadania** środowiska pracy <img alt="" src=images/Work
 ### Narzędzia
 
 :   ![](images/Path-JobTools.png )
+
 :   
     
 *Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) z wybraną zakładką '''Narzędzia'''*
@@ -90,6 +92,7 @@ Demonstracja tworzenia **Zadania** środowiska pracy <img alt="" src=images/Work
 7\. Zmodyfikuj domyślne narzędzie, zaznaczając je i klikając przycisk **Edycja**. Spowoduje to otwarcie okna **Edytor kontrolera narzędzi**.
 
 :   ![](images/Path-ToolConfig.gif )
+
 :   
     
 *Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) Kontrolera narzędzi*
@@ -100,6 +103,7 @@ Demonstracja tworzenia **Zadania** środowiska pracy <img alt="" src=images/Work
 9\. Wybierz zakładkę **Narzędzia** w Kontrolerze narzędzi. Ustaw średnicę *(a jeśli chcesz użyć narzędzia <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Symulator](Path_Simulator/pl.md) później: dodaj kąt krawędzi tnącej i wysokość krawędzi tnącej)*.
 
 :   ![](images/Path-ToolAdd.gif )
+
 :   
     
 *Powyżej: Okienko dialogowe Edycja [zadania](Path_Job/pl.md) Kontrolera narzędzi i zakładka '''Narzędzia'''*
@@ -130,6 +134,7 @@ To drzewo jest wyświetlane po konfiguracji zadania, po rozwinięciu zadania śc
 13\. Wybranie spodu kieszeni, a następnie przycisku <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Kształt kieszeni](Path_Pocket_Shape/pl.md) otwiera okno Kształt kieszeni. Używane są domyślne wartości Geometrii bazowej, Głębokości i Wysokości, wybrana jest zakładka Operacja, a wartość procentowa Kroku nad jest ustawiona na wartość 50.
 
 :   ![](images/Path-PocketOperation.gif )
+
 :   
     
 *Powyżej: Okno dialogowe Kształt kieszeni z wybranym panelem Operacja*
@@ -140,6 +145,7 @@ To drzewo jest wyświetlane po konfiguracji zadania, po rozwinięciu zadania śc
 Rezultatem jest model z dwiema ścieżkami:
 
 :   ![](images/Path-WalkThroughResult.gif )
+
 :   
     
 *Powyżej: wynik dla modelu z dwiema ścieżkami*
@@ -154,6 +160,7 @@ Istnieją dwa sposoby weryfikacji utworzonych ścieżek. Można sprawdzić G-cod
 Aby sprawdzić G-Code użyj narzędzia <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Przeglądaj polecenia ścieżki](Path_Inspect/pl.md). Wybranie odpowiednich linii G-code w oknie G-code podświetla poszczególne segmenty ścieżki.
 
 :   ![](images/Path-InspectWindow.gif )
+
 :   
     
 *Powyżej: Narzędzie [Przeglądaj polecenia ścieżki](Path_Inspect/pl.md) otwiera okno dialogowe G-code*
@@ -164,6 +171,7 @@ Aby rozpocząć symulację, użyj narzędzia <img alt="" src=images/Path_Simulat
 Dostosuj prędkość i dokładność i rozpocznij symulację za pomocą przycisku <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> *(Play)*.
 
 :   ![](images/Path-Simulation.gif )
+
 :   
     
 *Powyżej: [Symulacja CAM](Path_Simulator/pl.md) w toku*
@@ -181,6 +189,7 @@ Ostatnim krokiem do wygenerowania G-code dla docelowej frezarki jest postprocess
 -   Wybierz narzędzie <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Przetwarzanie końcowe](Path_Post/pl.md) do przetwarzania pliku. Spowoduje to otwarcie okna G-code umożliwiającego sprawdzenie końcowego pliku wyjściowego przed jego zapisaniem.
 
 :   ![](images/Path-PostOutput.gif )
+
 :   
     
 *Powyżej: Okno G-code umożliwiające przeglądanie końcowego pliku wyjściowego*

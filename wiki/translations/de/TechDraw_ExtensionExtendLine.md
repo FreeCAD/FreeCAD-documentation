@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:24px;"> **TechDraw ErgänzungLinieVerlängern** Werkzeug verlängert eine Hilfslinie oder Mittellinie an beiden Enden.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungLinieVerlängern** verlängert eine Hilfslinie oder Mittellinie an beiden Enden.
 
 <img alt="" src=images/TechDraw_ExtensionExtendLineExample.png  style="width:300px;"> 
 *Rechts eine an beiden Enden verlängerte Mittellinie*
@@ -30,18 +24,12 @@ Das <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:24px;"
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional lege die Verlängerung mit dem<img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug fest.
-2.  Wähle eine einzelne Hilfslinie oder Mittellinie.
-3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> Extend Line** Option aus dem Menü.
+1.  Wahlweise die Verlängerung mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) festlegen.
+2.  Eine einzelne Hilfslinie oder Mittellinie auswählen.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> [Linie verlängern](TechDraw_ExtensionExtendLine/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> Linie verlängern** auswählen.
 4.  Die Linie wird an beiden Enden verlängert.
-
-
-</div>
 
 
 

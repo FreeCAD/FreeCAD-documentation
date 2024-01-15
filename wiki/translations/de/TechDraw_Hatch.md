@@ -38,7 +38,8 @@ Das Werkzeug **TechDraw Schraffur** füllt einen geschlossenen Bereich in einer 
 
 ## Hinweise
 
--   Schraffierte Objekte sind anfällig für das \"[Problem der topologischen Benennung](Topological_naming_problem/de.md)\". Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Information. Es wird empfohlen, dass das Schraffieren einer der letzten Schritte im Zeichenprozess ist.
+-   Für eine durchgängige Farbfüllung wird unter **Datei mit dem Schraffurmuster** **solid.svg** ausgewählt.
+-   Schraffierte Objekte sind anfällig für das \"[Problem der topologischen Benennung](Topological_naming_problem/de.md)\". Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Information. Es wird empfohlen, das Schraffieren als einen der letzten Schritte im Zeichenprozess anzuwenden.
 -   [SVG](SVG/de.md)-Beispielmuster sind lokal verfügbar unter:
 
 :   

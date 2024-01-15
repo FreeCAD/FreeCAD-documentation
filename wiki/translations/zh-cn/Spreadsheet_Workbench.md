@@ -62,23 +62,29 @@
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferences](Spreadsheet_Preferences.md): the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
 
+## Removing cells can be dangerous 
+
+Note that deleting or removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
 ## Insert and remove rows and columns 
 
 Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
 
-In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and columns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+## Edit cells 
 
-Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+The content of a cell can be edited by selecting the cell and entering a value in the **Content** inputbox at the top of the window. To edit a cell in-place, select it and press **F2**, or double-click it.
+
+## Delete cells 
+
+To delete one or more cells select them and press **Del**. This will delete their contents, their properties and their aliases. To only delete the content of a cell it should be edited instead.
 
 ## Cut and copy-paste cells 
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+Cut and copy-paste operations can be used on spreadsheets cells. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
 
-The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
+The cut and copy operations store the contents, properties and aliases of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly. Aliases are only pasted if they are unique.
 
-Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
 
-In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +151,8 @@ The label of a spreadsheet is automatically set to the name of the spreadsheet u
 FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 对 CAD 数据的引用 
@@ -193,6 +201,8 @@ The following table shows some examples assuming the model has a feature named \
 |                                                | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
 |                                                |                                                       |                                |
 ++++
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -256,6 +266,8 @@ There are three solutions to deal with this:
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
 
+
+
 ## 单位
 
 
@@ -291,6 +303,8 @@ If a cell contains a value which represents a dimension, it should be entered wi
 
 
 </div>
+
+
 
 ## 导入与导出
 
@@ -335,6 +349,8 @@ Excel 中的电子表格-格式 \"xlsx \" 可以导入到 FreeCAD 文档中。Ex
 ## Printing
 
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
+
+
 
 
 <div class="mw-translate-fuzzy">

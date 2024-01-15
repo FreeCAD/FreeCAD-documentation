@@ -18,7 +18,9 @@
 
 Ce tutoriel devrait servir d\'introduction à [Part Ancrage](Part_EditAttachment/fr.md). Il n\'est pas exhaustif mais nous espérons qu\'il aidera les utilisateurs à se familiariser avec.
 
-Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md). Écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails. Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici : <https://grabcad.com/library/50-cad-exercise-drawing-1>
+Ancrage est un utilitaire pour attacher un objet à un autre. Cela lie les propriétés de placement des deux objets, l\'objet ancré suivra alors l\'original (si son placement est modifié.) L\'accent est mis sur l\'atelier Part Design et l\'ancrage d\'esquisses à d\'autres esquisses. Il s\'agit d\'une méthode recommandée pour créer des modèles [*stables*](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md).
+Ce tutoriel a été écrit pour la V0.19, mais devrait être valide pour toute version V0.17 et ultérieure. Cependant, les choses peuvent différer dans certains détails.
+Le modèle original a été conçu par Md. Aminul Islam et téléchargé à partir d\'ici : <https://grabcad.com/library/50-cad-exercise-drawing-1> en tant que \"Practice - 13\".
 
 
 

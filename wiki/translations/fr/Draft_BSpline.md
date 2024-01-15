@@ -15,7 +15,7 @@
 
 La commande <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Draft B-spline** crée une [courbe B-spline](http://fr.wikipedia.org/wiki/B-spline) à partir de plusieurs points.
 
-La commande Draft B-spline spécifie les **points exacts** par lesquels la courbe passera. Les commandes [Draft Courbe de Bézier](Draft_BezCurve.md) et [Draft Courbe de Bézier cubique](Draft_CubicBezCurve.md), en revanche, utilisent **des points de contrôle** pour définir la position et la courbure de la spline.
+La commande Draft B-spline spécifie les **points exacts** par lesquels la courbe passera. Les commandes [Draft Courbe de Bézier](Draft_BezCurve.md) et [Draft Courbe de Bézier cubique](Draft_CubicBezCurve.md), en revanche, utilisent DES **points de contrôle** pour définir la position et la courbure de la spline.
 
 <img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
 *Spline definie par plusieurs points*
@@ -26,31 +26,31 @@ La commande Draft B-spline spécifie les **points exacts** par lesquels la courb
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dans le menu.
-    -   Utilisez le raccourci clavier : **B** puis **S**.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyer sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_BSpline.svg" width=16px> B-spline** du menu.
+    -   Utiliser les raccourcis du clavier : **B** puis **S**.
 2.  Le panneau de tâches **B-spline** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+5.  Appuyer sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la spline créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une spline qui s\'auto-intersecte avec une face ne s\'affichera pas correctement, pour une telle spline, **Make Face** doit être définie sur `False`.
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une spline fermée en l\'accrochant au premier point de la spline, ce qui vous permet de continuer à créer des splines.
+-   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la spline créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et ne s\'auto-intersectionne pas. Notez qu\'une spline qui s\'auto-intersecte avec une face ne s\'affichera pas correctement, pour une telle spline, **Make Face** doit être définie sur `False`.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une spline fermée en l\'accrochant au premier point de la spline, ce qui vous permet de continuer à créer des splines.
 -   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la cannelure ouverte.
 -   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la courbe. Une spline fermée peut également être créée en s\'accrochant au premier point de la spline.
 -   Appuyez sur **W** ou sur le bouton **<img src="images/Draft_Wipe.svg" width=16px> Effacer** pour supprimer les segments de courbe déjà placés, mais continuez à travailler à partir du dernier point.
 -   Appuyez sur **U** ou sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Définir le plan de travail](Draft_SelectPlane/fr.md)** pour ajuster le plan de travail actuel dans l\'orientation définie par le dernier et le précédent point.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 
 
@@ -58,15 +58,6 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 -   Une Draft B-spline peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
 -   Une Draft B-spline peut être convertie en un [Draft Polyligne](Draft_Wire/fr.md) avec la commande [Draft Polyligne vers B-spline](Draft_WireToBSpline/fr.md).
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 
 

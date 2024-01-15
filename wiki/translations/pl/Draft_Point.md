@@ -1,80 +1,91 @@
 ---
  GuiCommand:
    Name: Draft Point
-   MenuLocation: Drafting , Point
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Punkt
+   MenuLocation: Kreślenie , Punkt
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.7
 ---
 
 # Draft Point/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** command creates a simple point. Draft points can be useful as a reference for placing lines, wires or other objects.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Puntk** środowiska Rysunek Roboczy tworzy zwykły punkt. Punkty mogą być przydatne jako odniesienie do umieszczania linii, polilinii lub innych obiektów.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
 
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Point.svg" width=16px> [Draft Point](Draft_Point.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Point.svg" width=16px> Point** option from the menu.
-2.  The **Point** task panel opens. See [Options](#Options.md) for more information.
-3.  Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating points.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
-
-## Notes
-
--   Use <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Snap Near](Draft_Snap_Near.md) ({{VersionMinus|0.20}}) or <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Snap Endpoint](Draft_Snap_Endpoint.md) (<small>(v0.21)</small> ) to snap to Draft points.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft Point object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
 
 
-{{TitleProperty|Draft}}
+## Użycie
 
--    **X|Distance**: specifies the X coordinate of the point.
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
--    **Y|Distance**: specifies the Y coordinate of the point.
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Point.svg" width=16px> '''Punkt'''**.
+    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Point.svg" width=16px> Punkt**.
+2.  Otworzy się panel zadań **Punkt**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+3.  Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 
--    **Z|Distance**: specifies the Z coordinate of the point.
-
-### View
 
 
-{{TitleProperty|Draft}}
+## Opcje
 
--    **Pattern|Enumeration**: not used.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
--    **Pattern Size|Float**: not used.
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie kursora poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). <small>(v0.20)</small> 
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie punktów.
+-   Wciśnij **S** by włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Point use the `make_point` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePoint` method.
+## Uwagi
+
+-   Użyj narzędzi <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Przyciągnij do najbliższego](Draft_Snap_Near/pl.md) *({{VersionMinus/pl|0.20}})* lub <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md) *({{VersionPlus/pl|0.21}})*, aby przyciągać do punktów szkicu.
+
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Punkt środowiska pracy Rysunek Roboczy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **X|Distance**: określa współrzędną punktu X.
+
+-    **Y|Distance**: określa współrzędną punktu Y.
+
+-    **Z|Distance**: określa współrzędną punktu Z.
+
+
+
+### Widok
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Wzór|Enumeration**: niewykorzystane.
+
+-    **Rozmiar wzoru|Float**: niewykorzystane.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć Punkt środowiska Rysunek Roboczy użyj metody `make_point` modułu Rysunek Roboczy *({{Version/pl|0.19}})*. Ta metoda zastępuje przestarzałą metodę `makePoint`.
 
 
 ```python
@@ -82,16 +93,16 @@ point = make_point(X=0, Y=0, Z=0, color=None, name="Point", point_size=5)
 point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 ```
 
--   Creates a `point` object in the specified `X`, `Y` and `Z` coordinates, with units in millimeters. If no coordinates are given the point is created at the origin (0,0,0).
-    -   If `X` is a `point` defined by a `FreeCAD.Vector`, it is used.
+-   Tworzy obiekt `point` w podanych współrzędnych `X`, `Y` i `Z`, z jednostkami w milimetrach. Jeśli nie podano współrzędnych, punkt zostanie utworzony w punkcie odniesienia położenia (0,0,0).
+    -   Jeśli `X` jest `point` zdefiniowanym przez `FreeCAD.Vector`, jest on używany.
 
--    `color`is a tuple `(R, G, B)` that indicates the color of the point in the RGB scale; each value in the tuple should be in the range from `0` to `1`.
+-    `color`jest krotką `(R, G, B)`, która wskazuje kolor punktu w skali RGB; Każda wartość w krotce powinna mieścić się w zakresie od `0` do `1`.
 
--    `name`is the name of the object.
+-    `name`jest nazwą obiektu.
 
--    `point_size`is the size of the object in pixels, if the graphical user interface is loaded.
+-    `point_size`to rozmiar obiektu w pikselach, jeśli załadowany jest graficzny interfejs użytkownika.
 
-Example:
+Przykład:
 
 
 ```python
@@ -108,9 +119,9 @@ point2 = Draft.make_point(p2, color=(0.5, 0.3, 0.6), point_size=10)
 doc.recompute()
 ```
 
-Example:
+Przykład:
 
-This code creates `N` random points within a square of side `2L`. It makes a loop creating `N` points, that may appear anywhere from `-L` to `+L` on both X and Y. It also chooses a random color and size for each point. Change `N` to change the number of points, and change `L` to change the area covered by the points.
+Ten kod tworzy `N` losowych punktów w kwadracie o boku `2L`. Wykonuje pętlę tworzącą `N` punktów, które mogą pojawić się w dowolnym miejscu od `-L` do `+L` na X i Y. Wybiera również losowy kolor i rozmiar dla każdego punktu. Zmień wartość `N`, aby zmienić liczbę punktów, i zmień wartość `L`, aby zmienić obszar pokryty przez punkty.
 
 
 ```python

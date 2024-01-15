@@ -1,31 +1,41 @@
 ---
  GuiCommand:
    Name: FEM ConstraintInitialTemperature
-   MenuLocation: Model , Thermal Constraints , Constraint initial temperature
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: MES Warunek początkowy temperatury
+   MenuLocation: Model , Warunki brzegowe i obciążenia termiczne , Temperatura początkowa
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintInitialTemperature/pl
 
-## Description
 
-Creates an initial temperature constraint for a thermo-mechanical analysis.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> [FEM ConstraintInitialTemperature](FEM_ConstraintInitialTemperature.md)** button.
-    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Constraint initial temperature** option from the menu.
-2.  Enter an initial temperature value for the analysis.
+Definiuje temperaturę początkową do analizy termo-mechanicznej
 
-## Limitations
 
-This constraint applies the initial temperature to all nodes in the FEA model - it\'s not possible to select individual regions.
 
-## Notes
+## Użycie
 
--   This constraint uses the \*INITIAL CONDITIONS card in CalculiX. The initial temperature constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+1.  Jest kilka sposobów wywołania tej komendyː
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> '''Warunek początkowy temperatury'''**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia termiczne → <img src="images/FEM_ConstraintInitialTemperature.svg" width=16px> Warunek początkowy temperatury** z menu.
+2.  Wprowadź wartość temperatury początkowej dla analizy.
+
+
+
+## Ograniczenia
+
+To narzędzie definiuje temperaturę początkową dla wszystkich węzłów siatki modelu - nie ma możliwość wskazania indywidualnych obszarów.
+
+
+
+## Uwagi
+
+-   To narzędzie korzysta ze słowa kluczowego \*INITIAL CONDITIONS w CalculiX. Jest ono opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node215.html>
+-   Temperatura początkowa musi być zdefiniowana dla wszystkich analiz termomechanicznych wykonywanych za pomocą CalculiX, nawet tych w stanie ustalonym.
 
 
 

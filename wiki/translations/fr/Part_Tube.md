@@ -27,12 +27,12 @@ La commande <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Tu
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Tube** dans le menu.
-2.  Le panneau de tâches **Tube** s\'ouvre et un aperçu du tube s\'affiche dans la [Vue 3D](3D_view/fr.md).
+2.  Le panneau de tâches **Tube** s\'ouvre et un aperçu du tube s\'affiche dans la [vue 3D](3D_view/fr.md).
 3.  Spécifiez les dimensions.
 4.  L\'aperçu est mis à jour dynamiquement.
 5.  Appuyez sur le bouton **OK**.
 6.  Le tube est créé.
-7.  Vous pouvez modifier les **Placement** du tube dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+7.  Vous pouvez modifier le **Placement** du tube dans l\'[éditeur de propriétés](Property_editor/fr.md) ou avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformer](Std_TransformManip/fr.md).
 
 
 

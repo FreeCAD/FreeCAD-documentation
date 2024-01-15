@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Aplică o constrângere de presiune pe o fațetă.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +38,8 @@ Aplică o constrângere de presiune pe o fațetă.
 
 </div>
 
+
+
 ## Note
 
 
@@ -38,7 +50,7 @@ Distribuția presiunii este întotdeauna uniformă și întotdeauna perpendicula
 
 </div>
 
--   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
+-   Pressure on shells: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

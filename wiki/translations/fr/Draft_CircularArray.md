@@ -25,17 +25,17 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
-1.  Optionnellement, sélectionnez un objet.
+1.  Sélectionner un objet.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Réseau circulaire](Draft_CircularArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_CircularArray.svg" width=16px> Réseau circulaire** dans le menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_CircularArray.svg" width=16px> [Réseau circulaire](Draft_CircularArray/fr.md)**.
+    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_CircularArray.svg" width=16px> Réseau circulaire** du menu.
 3.  Le panneau de tâches **Réseau circulaire** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez en un.
-5.  Saisissez les paramètres requis dans le panneau des tâches.
-6.  Pour terminer la commande, effectuez l\'une des opérations suivantes :
-    -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) pour le **Centre de rotation**.
-    -   Appuyez sur **Entrée**.
-    -   Appuyez sur le bouton **OK**.
+4.  Si vous n\'avez pas encore sélectionné d\'objet : en sélectionner un.
+5.  Saisir les paramètres requis dans le panneau des tâches.
+6.  Pour terminer la commande, effectuer l\'une des opérations suivantes :
+    -   Choisir un point dans la [vue 3D](3D_view/fr.md) pour le **Centre de rotation**.
+    -   Appuyer sur **Entrée**.
+    -   Appuyer sur le bouton **OK**.
 
 ## Options
 
@@ -56,14 +56,6 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 -   L\'axe de rotation par défaut du réseau est l\'axe Z positif. Il peut être modifié en éditant sa propriété **Axis**.
 -   Un Draft Réseau circulaire peut être transformé en un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) ou un [Draft Réseau polaire](Draft_PolarArray/fr.md) en modifiant sa propriété **Array Type**.
 -   Un réseau de liens ne peut pas être transformé en un réseau normal ou vice versa. Le type de réseau doit être décidé au moment de la création.
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des distances : **Edition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 
 
 

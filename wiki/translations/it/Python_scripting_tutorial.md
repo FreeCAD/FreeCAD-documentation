@@ -18,11 +18,11 @@ Esistono diversi modi per utilizzare Python in FreeCAD:
 
 In questo tutorial, lavoreremo su un paio di esempi di base per consentire a tutti di iniziare, ma in questo wiki è disponibile anche molta altra [documentazione sugli script Python](Power_users_hub/it.md). Per chi ancora non conoscesse Python, ma è interessato a capire come funziona, c\'è anche una [Introduzione a Python](Introduction_to_Python/it.md) per una formazione di base.
 
-Prima di procedere con lo scripting Python, andare su **Modifica → Preferenze → Generale → Finestra di output** e selezionare le due caselle:
+Prima di procedere con lo scripting Python, andare su **Modifica → Preferenze → Generale → Report** e selezionare le due caselle:
 
 -    **Reindirizza l'output interno di Python alla finestra di report**.
 
--    **Reindirizza gli errori interni di Python alla finestra di rapporto**.
+-    **Reindirizza gli errori interni di Python alla finestra di report**.
 
 Quindi andare su **Visualizza → Panelli** e selezionare:
 
@@ -53,7 +53,7 @@ Se lo si digita nella console Python di FreeCAD, si nota che non appena si digit
 ![](images/Screenshot_classbrowser.jpg ) 
 *Il meccanismo di completamento automatico della console Python di FreeCAD*
 
-Ora verrà creato il nostro nuovo documento. Questo equivale alla pressione del pulsante **<img src="images/Std_New.svg" width=16px> [Nuovo](Std_New.md)** sulla barra degli strumenti. In effetti, la maggior parte dei pulsanti in FreeCAD non fa altro che eseguire una o più righe di codice Python. Ancora meglio, si può impostare un\'opzione in **Modifica → Preferenze → Generali → Macro** su **Mostra lo scritp dei comandi nella console python**. Questo visualizzerà nella console tutto il codice Python che viene eseguito quando si premono i vari pulsanti. Ciò è molto utile per imparare a riprodurre azioni in Python.
+Ora verrà creato il nostro nuovo documento. Questo equivale alla pressione del pulsante **<img src="images/Std_New.svg" width=16px> [Nuovo](Std_New.md)** sulla barra degli strumenti. In effetti, la maggior parte dei pulsanti in FreeCAD non fa altro che eseguire una o più righe di codice Python. Ancora meglio, si può impostare un\'opzione in **Modifica → Preferenze → Python → Macro** su **Mostra lo scritp dei comandi nella console python**. Questo visualizzerà nella console tutto il codice Python che viene eseguito quando si premono i vari pulsanti. Ciò è molto utile per imparare a riprodurre azioni in Python.
 
 Ora torniamo al nostro documento e vediamo cosa si può fare:
 

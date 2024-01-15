@@ -1,5 +1,5 @@
 # Category:Template/fr
-This category contains all the Templates
+Cette catégorie contient tous les modèles
 
 ### Contents
 

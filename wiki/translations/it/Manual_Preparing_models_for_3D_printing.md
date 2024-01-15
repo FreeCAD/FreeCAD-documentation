@@ -1,5 +1,5 @@
 # Manual:Preparing models for 3D printing/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 Uno dei principali utilizzi di FreeCAD è quello di produrre oggetti del mondo reale. Questi possono essere progettati in FreeCAD, e poi essere resi reali in diversi modi, come ad esempio comunicati ad altre persone che poi li costruiscono, o, sempre più frequentemente, inviati direttamente ad una [stampante 3D](https://en.wikipedia.org/wiki/3D_printing) o ad una [macchina CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). In questo capitolo viene spiegato come ottenere dei modelli pronti per essere inviati a queste macchine.
 

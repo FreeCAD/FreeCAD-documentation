@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: FEM ConstraintGear
-   MenuLocation: Model , Constraints without solver , Constraint gear
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintBearing, FEM_ConstraintPulley
+   Name/pl: MES: Wiązanie koła zębatego
+   MenuLocation: Model , Wiązania bez solvera , Wiązanie koła zębatego
+   Workbenches: FEM_Workbench/pl
 ---
 
 # FEM ConstraintGear/pl

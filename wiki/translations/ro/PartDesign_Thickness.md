@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -15,8 +17,10 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
 
 </div>
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:400px;"> 
 *Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -52,6 +56,8 @@ Instrumentul **Thickness** lucrează pe un corp solid și îl transformă într-
     -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
+
+
 
 ## Opţiuni
 
@@ -96,7 +102,7 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 -    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
+-    **Support Transform|Bool**: Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning. Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
@@ -108,20 +114,20 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: Refine shape (clean up redundant edges) after adding/subtracting. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**: \"Thickness value\". Default: {{value|1 mm}}.
+-    **Value|Length**: Thickness value. Default: {{value|1 mm}}.
 
--    **Mode|Enumeration**: \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+-    **Mode|Enumeration**: Mode. {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
--    **Join|Enumeration**: \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+-    **Join|Enumeration**: Join type. {{value|Arc}} (default) or {{Value|Intersection}}.
 
--    **Reversed|Bool**: \"Apply the thickness towards the solids interior\". Default: `False`.
+-    **Reversed|Bool**: Apply the thickness towards the solids interior. Default: `False`.
 
--    **Intersection|Bool**: \"Enable intersection-handling\". Default: `False`.
+-    **Intersection|Bool**: Enable intersection-handling. Default: `False`.
 
 
 

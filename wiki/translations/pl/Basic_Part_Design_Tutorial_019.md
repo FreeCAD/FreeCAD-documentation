@@ -80,7 +80,7 @@ Szkic główny zawiera prostokątny kształt podstawy modelu oraz dwa *nazwane w
     1.  Wybierz **XY_Plane** z listy lub wybierz tę płaszczyznę w oknie [widoku 3D](3D_view/pl.md).
     2.  Kliknij **OK**.
 3.  FreeCAD automatycznie przełączy się na środowisko pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md)
-4.  Szkic jest otwierany w trybie edycji: zobaczysz coś w rodzaju **Rys: MS2**. Wskazane są osie X i Y szkicu oraz jego punkt odniesienia położenia *(czerwony punkt)*.
+4.  Szkic jest otwierany w trybie edycji: zobaczysz coś w rodzaju **Rys: MS2**. Wskazane są osie X *(linia czerwona)* i Y *(linia zielona)* szkicu oraz jego punkt odniesienia położenia *(czerwony punkt)*.
 
 **Krok B: Dodaj geometrię**
 
@@ -161,7 +161,7 @@ Profil główny jest tworzony przez [wyciągnięcie](PartDesign_Pad/pl.md) noweg
 **Krok C: Przypisz wiązania**
 
 1.  Trzy pionowe i poziome wiązania, które widzisz na obrazku, powinny zostać dodane automatycznie, o ile narysowałeś te linie w ten sposób. Jeśli tego nie zrobiłeś, musisz je dodać.
-2.  Wybierz punkt **P2** oraz oś **Y** i zastosuj <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md).
+2.  Wybierz punkt **P2** oraz oś **Y** szkicu i zastosuj <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [wiązanie punktu na obiekcie](Sketcher_ConstrainPointOnObject/pl.md). Ponieważ szkic jest dołączony do YZ_Plane, oś Y szkicu nie pokrywa się z osią Y obiektu Zawartości.
 3.  Wybierz *punkt odniesienia położenia* i punkt *P1* i zastosuj <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md). Możesz zapytać dlaczego nie <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md)?. Więc spróbuj *(i cofnij)*. Szkic zmieni kolor na pomarańczowy i pojawi się komunikat solvera **Wiązania nadmiarowe**. Ponieważ linia od P1 do P2 została już związana w pionie, jedynym pozostałym stopniem swobody jest współrzędna Y linii P1. Wiązanie zbieżności ustawia zarówno współrzędną X jak i Y na zero, ale współrzędna X jest już określona. Z kolei wiązanie poziome ustawia na zero tylko współrzędną Y, co jest wystarczające.
 4.  Wybierz linię zdefiniowaną przez punkty **P2** i **P3**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md), i przypisz jej **Długość = 5 mm**.
 5.  Wybierz linię zdefiniowaną przez punkty **P1** i **P2**, zastosuj <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md), i przypisz jej **Długość = 26 mm**.
@@ -384,7 +384,7 @@ Teraz czas na najtrudniejszą część naszego modelowania, wyzwanie, które poj
     2.  Przypisz **8,5 mm** do **długości** i **drugiej długości**.
     3.  Kliknij **OK**.
 3.  Wybierz nowo utworzony **Pocket001**.
-4.  Zmień wartość jego właściwości **ulepsz** na {{True/pl}}.
+4.  W zakładce Dane [Edytora właściwości](Property_editor/pl.md) zmień wartość właściwości **Ulepsz** na {{True/pl}}. Edytor właściwości znajduje się w zakładce Model w [Widoku złożonego](Combo_view/pl.md).
 
 **Uwagi**
 

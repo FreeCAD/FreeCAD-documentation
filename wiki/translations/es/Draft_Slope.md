@@ -12,12 +12,16 @@
 
 </div>
 
+
+
 ## Descripción
 
 El comando <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Borrador Pendiente** inclina la [Borrador Líneas](Draft_Line/es.md) o [Borrador Hilos](Draft_Wire/es.md) seleccionados aumentando, o disminuyendo, la coordenada Z de todos los puntos después del primero. También puede utilizarse para aplanar [Borrador Hilos](Draft_Wire/es.md). Tenga en cuenta que la pendiente es relativa al plano XY definido por la **Placement** de los objetos.
 
 <img alt="" src=images/Draft_Slope_example.png  style="width:400px;"> 
 *On the left a horizontal Draft Line. On the right the same line with a slope value of 1 (angle is 45°)*
+
+
 
 ## Utilización
 
@@ -34,6 +38,8 @@ El comando <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Borrad
 
 
 </div>
+
+
 
 ## Guión
 

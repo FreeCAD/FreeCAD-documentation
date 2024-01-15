@@ -27,24 +27,27 @@ The **TechDraw GeometricHatch** tool fills a closed region in a View with a patt
 
 ## Notes
 
+-   For a solid color fill use [TechDraw Hatch](TechDraw_Hatch.md) instead and select **solid.svg** as the **Pattern File**.
 -   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
+-   A small set of sample patterns are available in:
 
-A small set of sample patterns are available in:
-
-
+:   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    $INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
+:   Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example:
 
-`$INSTALL_DIR`
-
-is the directory where FreeCAD was installed, for example
-
-
+:   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
 ## Properties
 

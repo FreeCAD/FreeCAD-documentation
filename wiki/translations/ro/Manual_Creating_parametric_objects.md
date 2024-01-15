@@ -1,5 +1,5 @@
 # Manual:Creating parametric objects/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 În [previous chapter](Manual_Creating_and_manipulating_geometry.md), Am văzut cum este creată geometrie Pieselor și cum este afișată aceasta pe ecran, atașând-o la un documente obeict \"dumb\" (non-parametric). Acest lucru este obositor când vrem să schimbăm forma acestui obiect. Va trebui să creăm o nouă formă, apoi să o atribuim din nou obiectului nostru.
 

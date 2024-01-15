@@ -17,6 +17,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -30,22 +32,43 @@ Ako nije otkriven nijedan objekt (nije odabir), opruga se stvara u točki XYZ 0.
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/8b0b60336a62f22c0730e6fb88687ffd1b1dd502/Macro_FCSpring_Helix_Variable.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/3f6e4df2768f36e88af4f56af669206ff0d33e0c/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Upotreba
 
 Ovaj odjeljak služi za konfiguraciju opruge
 
+
+</div>
+
 Shematski detalj konfiguracije opruga
 
 ![](images/Macro_TruncateSpring_01.png ) 
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 #### **GUI**
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_01.png ) 
+
+#### Configuration
+
+
+<div class="mw-translate-fuzzy">
 
 #### **Prvi dio, konfiguracija opruge** 
 
@@ -68,7 +91,15 @@ Shematski detalj konfiguracije opruga
 
 -    {{SpinBox|360 deg}}**End** : Završni kut posljednje zavojnice opruge.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
+
+#### Type line 
+
+
+<div class="mw-translate-fuzzy">
 
 #### **Drugi odjeljak, upišite redak** 
 
@@ -80,11 +111,22 @@ Shematski detalj konfiguracije opruga
 
 -    {{CheckBox|Reverse}}**Reverse**: Oznaka obrnuto ako je potvrdni okvir aktiviran, smjer proljeća mijenja
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_03.png ) 
+
+#### Options
+
+
+<div class="mw-translate-fuzzy">
 
 #### **Treći odjeljak, odabir** 
 
 Ovaj je odjeljak prikazan ako je odabran objekt. Objekt tipa je prikazan u uređivaču teksta
+
+
+</div>
 
 Objekt može biti linija, 2 boda, krug, žica \... jedna osa se automatski stvara duljina opruge
 
@@ -110,9 +152,17 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 ![](images/Macro_FCSpring_Helix_Variable_02_1.png ) 
 
+#### Position (0)(xx) 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Position (0)(xx)\'\' 
 
 (0)(xx) : Odabir broja, duljina u mm stvorene osi x 10, tj. Broj točaka za pomicanje opruge osi
+
+
+</div>
 
 -    **Begin/End**: Postavite oprugu na početnu, srednju i krajnju os
 
@@ -125,6 +175,11 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 -   **Slider**: Postavite oprugu na njegovu os
 
 ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
+
+#### Coil special dimension 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Četiri dijela, zavojnica posebne duljine 
 
@@ -148,7 +203,15 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 -    **Zoom**: Gumb \"Zoom\" povećava tekstualni prozor
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_04.png ) 
+
+#### Command
+
+
+<div class="mw-translate-fuzzy">
 
 #### Naredbe
 
@@ -168,37 +231,91 @@ Otkrivanje: cilindar (radijus), sfera (radijus), toroid (radijus), konus (mali r
 
 -    **Help**: Ez a gomb megjeleníti a wiki oldalt a FreeCAD böngészőben.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
+
+## Report view 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Prikaz izvješća 
 
 Prikaz izvješća prozora prikazao je svu izmijenjenu vrijednost.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
+
+## Example spring 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Primjer proljeće 
 
 Primjer za modificirano proljeće
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
+
+## Example Report view 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Primjer prikaza izvješća 
 
 Kada se makro pokrene, u tabličnom se obliku prikazuje cijeli popis skretanja.
 
-Ovdje su podaci o izvoru iznad i prikazani u prikazu izvješća ![](images/Macro_FCSpring_Helix_Variable_08.png ) 
+
+</div>
+
+Ovdje su podaci o izvoru iznad i prikazani u prikazu izvješća ![](images/Macro_FCSpring_Helix_Variable_08.png )
+
+
+
+
+## Icon
+
+
+<div class="mw-translate-fuzzy">
 
 ## Ikona
 
 Preuzmite sliku i kopirajte datoteku u svoj makro repertoar.
 
+
+</div>
+
 Kliknite sliku, u novom prozoru postavite pokazivač miša iznad slike, kliknite desnu tipku miša i učinite \"Spremi cilj kao \...\"
 
+
+<div class="mw-translate-fuzzy">
+
 Gumb alatne trake ![Button](images/FCSpring_Helix_Variable.png )  Ikone makronaredbi
+
+
+</div>
+
+Macro icons
+
+
+<div class="mw-translate-fuzzy">
 
 ![](images/FCSpring_Helix_Variable_Icon_01.png ) ![](images/FCSpring_Helix_Variable_Icon_02.png ) ![](images/FCSpring_Helix_Variable_Icon_02b.png ) ![](images/FCSpring_Helix_Variable_Icon_03.png ) ![](images/FCSpring_Helix_Variable_Icon_03b.png ) ![](images/FCSpring_Helix_Variable_Icon_04.png ) ![](images/FCSpring_Helix_Variable_Icon_05.png ) ![](images/FCSpring_Helix_Variable_Icon_06.png ) 
 
 ## Skripta
+
+
+</div>
+
+## Script
 
 **Macro_FCSpring_Helix_Variable.FCMacro**
 
@@ -206,9 +323,22 @@ Preuzmite makronaredbu u Gist [Macro_FCSpring_Helix_Variable](https://gist.githu
 
 ## Installation
 
+
+<div class="mw-translate-fuzzy">
+
+## Installation 
+
 A fenti fájl egy makró GitHub kód formájában. Töltse le a Zip fájlt a GitHub-on, majd kövesse a próbabábut makrók telepítésére vonatkozó útmutatásait, amely a következő webhelyen látható: [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
+
+</div>
+
+
+
 ## Primjeri
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -283,6 +413,10 @@ A fenti fájl egy makró GitHub kód formájában. Töltse le a Zip fájlt a Git
 
 
 
+</div>
+
+
+
 <center>
 
 <File:Macro_FCSpringHelixVariable_Spring_On_Circle.gif%7CPrimjer> stvaranja opruge na krugu <File:Macro_FCSpringHelixVarable_Spring_Along_Axis.gif%7CPomaknite> se duž osi
@@ -291,9 +425,19 @@ A fenti fájl egy makró GitHub kód formájában. Töltse le a Zip fájlt a Git
 </center>
 
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Linkovi
 
 Rasprava na forumu [Try to do a Spring](http://forum.freecadweb.org/viewtopic.php?f=3&t=8313&p=68161#p68161)
+
+
+</div>
+
+
 
 ## Projekt
 
@@ -303,7 +447,23 @@ omekšati priključke :done
 
 promijenite promjer na bilo koju zavojnicu :done
 
+
+
 ## Verzija
+
+2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
+
+2023/09/01 Version 0.18b correct (adapt) the code :
+
+
+```python
+self.PB_Adapt_Radius.setStyleSheet("background-color: QPalette.Base") 
+```
+
+to 
+```python
+self.PB_Adapt_Radius.setStyleSheet("QPushButton {background-color: QPalette.Base}") 
+```
 
 2022/03/16 Version 0.18 : adding scrollBar, possibility docking Left or Right, restore the chrono *(time.time())*, memorise the last FilePath
 

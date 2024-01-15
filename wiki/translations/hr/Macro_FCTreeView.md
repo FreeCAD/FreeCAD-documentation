@@ -17,14 +17,35 @@
 
 </div>
 
+
+
 ## Opis
 
-Makro za popis svih objekata u projektu na jednom popisu bez hijerarhije, opcije sortiranja po imenu, oznaci, vidljivosti, grupi, po duljini opcije pretraživanja po nazivu, naljepnici \.... bez velikih i malih slova ili s osjetljivim i velikim slovima i odabir svih objekata prikazanih u makro prozor. {{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
+Makro za popis svih objekata u projektu na jednom popisu bez hijerarhije, opcije sortiranja po imenu, oznaci, vidljivosti, grupi, po duljini opcije pretraživanja po nazivu, naljepnici \.... bez velikih i malih slova ili s osjetljivim i velikim slovima i odabir svih objekata prikazanih u makro prozor.
+
+
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/67517ef758ff20005d0a6adcfd8c9190/raw/59bc2028978c82744c83c6b138ab3ef30e0bf6f3/Macro_FCTreeView.FCMacro}}
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Kako koristiti 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ![Macro FCTreeView](images/FCTreeView.gif ) 
 *Macro FCTreeView window*
+
+
+</div>
+
+
 
 ### Odjeljak **Window** 
 
@@ -39,7 +60,9 @@ Naslov prikazuje opciju, broj i vrstu prikazanih objekata
 -   **V** = Visible
 -   **H** = Hidden
 
-Ako je odabran jedan objekt: prikazuje se baza položaja, rotacija i središte mase (ako je dostupno !) ![Icon used for the Name of object](images/Macro_FCTreeView_00.png ) Ikona koja se koristi za Naziv objekta (klizač je obojen u plavo)
+Ako je odabran jedan objekt: prikazuje se baza položaja, rotacija i središte mase (ako je dostupno !)
+
+![Icon used for the Name of object](images/Macro_FCTreeView_00.png ) Ikona koja se koristi za Naziv objekta (klizač je obojen u plavo)
 
 ![Ikona koja se koristi za oznaku objekta](images/Macro_FCTreeView_05.png ) Ikona koja se koristi za oznaku objekta (klizač je obojen plavom bojom)
 
@@ -52,6 +75,8 @@ Ako je odabran jedan objekt: prikazuje se baza položaja, rotacija i središte m
 ![Ikona koja se koristi za ime sadrži objekte (ili grupu mapa)](images/Macro_FCTreeView_03.png ) Ikona koja se koristi za ime sadrži objekte (ili grupu mapa)
 
 ![Ikona korištena za prikaz pojedinačnog objekta (ne grupe)](images/Macro_FCTreeView_04.png ) Ikona korištena za prikaz pojedinačnog objekta (ne grupe)
+
+
 
 ### Odjeljak **Sort by :** 
 
@@ -79,6 +104,8 @@ Ikona koja se koristi za flip/flop normalan/obrnuti unos podataka sortira prema 
 **[<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
 
 Ako je potvrdni okvir označen, sortiranje se kreira prema duljini s gumbom na koji ste kliknuli (ime, oznaka \...)
+
+
 
 ### Odjeljak**Global**
 
@@ -132,12 +159,16 @@ vizualizirati je li objekt status Vidljiv
 
 vizualizirajte je li objekt skriven
 
+
+
 ### Odjeljak**Search**
 
 
 **[<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Izbrišite uređivanje retka pretraživanja
+
+
 
 #### Mogućnosti radio gumba **Search**: 
 
@@ -168,9 +199,11 @@ flip/flop Unselected svi objekti
 
 pristup u opcijama proračunske tablice
 
+
+
 ### Opcije raspoređivanja: 
 
-![Macro FCTreeView](images/TreeView_SpeadSheet.gif ) 
+![Macro FCTreeView](images/TreeView_SpeadSheet.gif )
 
 ![](images/Macro_FCTreeView_001.png )
 
@@ -235,11 +268,17 @@ spremite podatke u prikazanu tablicu. ako proračunska tablica nije aktivna, pro
 
 zatvorite opcije proračunske tablice
 
+
+
 ### Ikone
 
-Ikona mora biti kopirana u isti direktorij kao i makronaredba [Macro_FCTreeView_Icon](https://forum.freecadweb.org/download/file.php?id=70498)
+Ikona mora biti kopirana u isti direktorij kao i makronaredba
+
+[Macro_FCTreeView_Icon](https://forum.freecadweb.org/download/file.php?id=70498)
 
 ![Icon used for the Name of object](images/Macro_FCTreeView_00.png ) ![Icon used for visualise if the object is status Visible (mouse click for Hidden)](images/Macro_FCTreeView_01.png ) ![Icon used for visualise if the object is status Hidden (mouse click for Visible)](images/Macro_FCTreeView_02.png ) ![Icon used for inform the object in a group the number objects is displayed in top group](images/Macro_FCTreeView_03.png ) ![Icon used for displayed the single object (not group)](images/Macro_FCTreeView_04.png ) ![Icon used for the Label of object](images/Macro_FCTreeView_05.png ) ![Icon used for flip/flop normal/Visibility](images/Macro_FCTreeView_06.png ) ![Icon used for flip/flop normal/Group](images/Macro_FCTreeView_07.png ) ![Icon used for Reverse the data listing (momentarily not used)](images/Macro_FCTreeView_08.png ) ![Icon used for quit Macro FCTreeView (momentarily not used)](images/Macro_FCTreeView_09.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Name](images/Macro_FCTreeView_10.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Label](images/Macro_FCTreeView_11.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Visibility/Hidden](images/Macro_FCTreeView_12.png ) ![Icon used for flip/flop normal/reverse the data listing sort by Grout/Single object](images/Macro_FCTreeView_13.png ) ![Icon used for flip/flop the data listing Fold/Expend](images/Macro_FCTreeView_14.png ) ![Icon used for flip/flop the data listing Expend/Fold](images/Macro_FCTreeView_15.png ) ![Icon used for reload the data in the project](images/Macro_FCTreeView_16.png ) ![Icon used for the Name contains objects (or folder Group)](images/Macro_FCTreeView_17.png ) ![Icon used for return in original organisation after operation visibility/Hidden](images/Macro_FCTreeView_18.png ) ![If this check Box is checked the sort is created by length with the button clicked (Name, Label \...)](images/Macro_FCTreeView_19.png ) ![Icon used for Clear the search line edit](images/Macro_FCTreeView_20.png ) ![Icon used for flip/flop Split the Name list](images/Macro_FCTreeView_21.png ) ![Icon used for flip/flop Split the Name and Label list](images/Macro_FCTreeView_22.png ) ![Icon used for Selected all object(s) displayed in the window](images/Macro_FCTreeView_23.png ) ![Icon used for Unselected all object(s)](images/Macro_FCTreeView_24.png ) ![Icon used for access in Spreadsheet options](images/Macro_FCTreeView_25.png ) ![Icon used for quit the Spreadsheet options](images/Macro_FCTreeView_26.png ) ![Icon used for save the data in Spreadsheet](images/Macro_FCTreeView_27.png ) ![Icon used for select all checkbox options](images/Macro_FCTreeView_28.png ) ![Icon used for unselected all checkbox options](images/Macro_FCTreeView_29.png ) ![Icon used for save the value data in Spreadsheet](images/Macro_FCTreeView_30.png ) ![Icon used for save the value and Unit data in Spreadsheet](images/Macro_FCTreeView_31.png ) ![Icon used for save the value, Unit and type data in Spreadsheet](images/Macro_FCTreeView_32.png ) ![Icon used for split the value, Unit and type in cell separate in Spreadsheet](images/Macro_FCTreeView_33.png )
+
+
 
 ## Skripta
 
@@ -247,16 +286,20 @@ Za sprečavanje mnogih primjera klik na gumb alatne trake je efekt flip/flop (sa
 
 Makronaredba se nalazi u desnom pristaništu za promjenu mijenja broj retka vrijednosti133 **testing = 0** (ili ga promijenite mišem kao widget normalno)
 
-The icon ToolBar ![Macro FCTreeView](images/Macro_FCTreeView.png )
+The toolbar icon ![Macro FCTreeView](images/Macro_FCTreeView.png )
 
 **Macro_FCTreeView.FCMacro**
 
 
 {{CodeDownload|https://gist.github.com/mario52a/67517ef758ff20005d0a6adcfd8c9190|Macro_FCTreeView.FCMacro}}
 
+
+
 ## Za napraviti 
 
 ~~Docked the macro~~
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -307,7 +350,13 @@ ver 00.03 (23/09/2017) : add search by type object
 
 ver 00.02 (11/09/2017) : modify for docked and prevent many instance the clic on button are effect flip/flop (macro hide/visible)
 
+
+<div class="mw-translate-fuzzy">
+
 ver 00.01 (08/09/2017) :
+
+
+</div>
 
 
 

@@ -1,9 +1,9 @@
 # Manual:Introduction/zh-cn
-{{Manual:TOC/zh-cn}}
+{{Manual:TOC}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) 是一个免费、开源的参数化三维建模应用程序。它主要用于建模现实世界的物体，从小型电子元件到建筑和土木工程项目等大型物体，尤其注重三维打印物体。 FreeCAD 可以免费下载、使用、分发和修改，其源代码是开放的，使用非常宽松的 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 许可进行发布。您使用 FreeCAD 生成的数据完全属于您，即使不使用 FreeCAD 也可以恢复。
+[FreeCAD](http://www.freecad.org) 是自由的、开源的、参数化的3D建模应用软件，主要用于对现实世界对象建模，小至电子元器件，大至建筑物和市政工程，FreeCAD 主要用于制作能 3D 打印的实体对象。FreeCAD 可以自由下载，自由使用，自由分发和自由修改。其源代码是开放的，公开的，遵守非常宽容的 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 协议。使用 FreeCAD 产生的数据完全是你的，不用 FreeCAD 也可以寻回它们。
 
 FreeCAD 也是一个社区项目，由一群对 FreeCAD 充满热情的开发者和用户共同开发和维护。
 

@@ -1,48 +1,49 @@
 # Macro PropertyMemo/fr
 {{Macro/fr
 |Name=Macro_PropertyMemo
+|Name/fr=Macro_PropertyMemo
 |Icon=PropertyMemo.png
 |Description={{ColoredText|#ff0000|#ffffff|Nouvelle interface graphique modifiée pour fonctionner en HD dpi (QGridLayout), uniquement la version FC 0.19 et plus (PySide2 Qt5)}} <br/> <br/>
-Pour la version précédente, voir [https://gist.githubusercontent.com/mario52a/eafcf79703fab64b8da5/raw/51702c17fb4b205da52488bf2a239011bbbc9da5/Macro_FCPropertyMemo.FCMacro Macro_FCPropertyMemo.FCMacro] et l'installer manuellement.
-Cette petite macro vous permet d'ajouter une Propriété (mémo ou autre texte) uniquement à un objet Draft.
+Pour la version précédente, voir [https://gist.githubusercontent.com/mario52a/eafcf79703fab64b8da5/raw/51702c17fb4b205da52488bf2a239011bbbc9da5/Macro_FCPropertyMemo.FCMacro Macro_FCPropertyMemo.FCMacro] et l'installer manuellement.<br/><br/>
+Cette macro crée une propriété supplémentaire (mémo ou autre texte) pour votre objet (ne fonctionne qu'avec les objets Draft).
 |Author=Mario52
 |Version=2020-05-17
 |FCVersion=0.19
-|Download=[https://www.freecadweb.org/wiki/images/f/f2/PropertyMemo.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/f/f2/PropertyMemo.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette petite macro vous permet d\'ajouter une Propriété (mémo ou autre texte) à un objet Draft (pour le moment uniquement sur objet Draft)
+Cette macro crée une propriété supplémentaire (mémo ou autre texte) pour votre objet (ne fonctionne qu\'avec les objets Draft).
 
 ![](images/Macro_FCPropertyMemo_00.png ) 
-*Addin one property Memo → Name*
+*Ajout d'une propriété Memo → Nom*
+
+
 
 ## Utilisation
 
-Lancez la macro sélectionnez un objet Draft complétez les champs et appliquez la modification. Une nouvelle propriété est créée dans la Vue combinée **Vue combinée → Property → Data tab**
+Lancez la macro sélectionnez un objet Draft complétez les champs et appliquez la modification. Une nouvelle propriété est créée dans la Vue combinée **Vue combinée → Propriété → Onglet Données**
 
--   **Property title** : Titre de la nouvelle propriété (Defaut: Memo)
+-   **Property title** : titre de la propriété (nom du groupe) pour la nouvelle propriété (par défaut : Memo).
 
--   **Property name** ! nom de la nouvelle propriété
+-   **Property name** : nom de la nouvelle propriété.
 
--    {{CheckBox|TRUE|UnCheck for String}}: checkBox pour le choix de la chaîne ou de la liste (par défaut)
+-    {{CheckBox|TRUE|UnCheck for String}}: case à cocher qui détermine le type de mémo. Cochez la case pour changer le type en chaîne au lieu de la liste.
 
-![Une propriété Memo est créée](images/Macro_FCPropertyMemo_01.png )
-
--   **Memo** : Titre de la propriété ici Memo (par défaut)
--   **Name** : Nom de la propriété ici, Name
--   Le champ libre nouvellement créé est à compléter manuellement
+![Exemple de propriété mémo](images/Macro_FCPropertyMemo_01.png )
 
 
 
 
-La case à cocher vous donne le choix entre deux options. Si la case à cocher est activé, vous avez la possibilité de créer une liste de mémos que vous pouvez modifier dans une fenêtre si non le mémo sera affiché dans une ligne (option par défaut)
+-   **Memo** : titre de la propriété : {{Value|Memo}}.
+-   **Name** : nom de la propriété : {{Value|Name}}.
+-   Le champ est vide.
 
 
 <center>
 
-Image:Macro_FCPropertyMemo_02.png\|Property Mémo liste. Image:Macro_FCPropertyMemo_03.png\|La fenêtre Mémo liste.
+Image:Macro_FCPropertyMemo_02.png\|Exemple de propriété mémo utilisant une liste Image:Macro_FCPropertyMemo_03.png\|Modification de la liste
 
 
 </center>
@@ -52,7 +53,7 @@ Image:Macro_FCPropertyMemo_02.png\|Property Mémo liste. Image:Macro_FCPropertyM
 
 ## Script
 
-L\'icône disponible pour votre barre d\'outils ![](images/PropertyMemo.png )
+L\'icône de la barre d\'outils ![](images/PropertyMemo.png )
 
 **Macro_FCPropertyMemo.FCMacro**
 
@@ -393,11 +394,13 @@ MainWindow.show()
 
 }}
 
+
+
 ## Liens
 
 La discussion sur le forum [Object description field](http://forum.freecadweb.org/viewtopic.php?f=3&t=12282)
 
-Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
+Mes macros sur le Github de [mario52a](https://gist.github.com/mario52a).
 
 ## Version
 

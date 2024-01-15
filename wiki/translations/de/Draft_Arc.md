@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Arc
    Name/de: Draft Bogen
-   MenuLocation: Entwurf , Bogenwerkzeuge , Kreisbogen
+   MenuLocation: Zeichnen , Bogenwerkzeuge , Kreisbogen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.7
    Shortcut: **A** **R**
@@ -26,73 +26,59 @@ Ein Draft-Bogen ist eigentlich ein [Draft-Kreis](Draft_Circle/de.md) mit einer {
 
 ## Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwendung 
-
-1.  Drücke den **<img src="images/Draft_Arc.svg" width=16px> [Bogen](Draft_Arc/de.md)
-** Taste oder drücke **A**, dann **R**
-2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine Koordinate und drücke den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-3.  Klicke einen zweiten Punkt in der 3D Ansicht oder gib einen Wert für den Radius ein.
-4.  Klicke einen dritten Punkt in der 3D Ansicht oder gib einen Startwinkel ein.
-5.  Klicke einen vierten Punkt in der 3D Ansicht oder gib einen Öffnungswinkel ein.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+2.  Die Schaltfläche **<img src="images/Draft_Arc.svg" width=16px> [Kreisbogen](Draft_Arc/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc.svg" width=16px> Kreisbogen** auswählen.
+    -   Das Tastaturkürzel **A** dann **R**. {{Version/de|0.20}}
+3.  Der Aufgaben-Bereich **Kreisbogen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+4.  Den ersten Punkt, den Mittelpunkt des Kreisbogens, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
+5.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder den **Radius** eingeben.
+6.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder den **Startwinkel** eingeben.
+7.  Den vierten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder den **Öffnungswinkel** eingeben.
 
 
 
 ## Optionen
 
-Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
+-   Zum manuellen Eingeben der Koordinaten des Mittelpunktes werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view.md) heraus zu bewegen, bevor die Koordinaten eingegeben werden.
 
-<div class="mw-translate-fuzzy">
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
-## Optionen 
+-    **N**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzen-Modus umzuschalten. Wenn der Fortsetzen-Modus aktiviert ist, wird der Befehl nach dem Beenden erneut gestartet, und ermöglicht so mit dem Erstellen von Bögen fortzufahren.
 
--   Die primäre Anwendung des Kreisbogen-Werkzeugs erfolgt durch Auswahl von vier Punkten: dem Mittelpunkt, einem Punkt auf dem Umkreis, dem Startwinkel und dem Endpunkt.
--   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
--   Die Richtung des Kreisbogens hängt von der Bewegung Deiner Maus ab. Wenn Du sie nach Eingabe des dritten Punkts im Uhrzeigersinn bewegst, wird auch der Kreisbogen im Uhrzeigersinn erstellt. Um ihn gegen den Uhrzeigersinn zu erstellen, bewege die Maus einfach zurück über den dritten Punkt, bis der Kreisbogen in die andere Richtung gezeichnet wird.
--   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, wenn Du die gewünschten Werte zum Einfügen des Punkts hast.
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
--   Drücke **T** oder klicke das Ankreuzkästchen zum de/aktivieren des **'''Nächstes'''**-Buttons. Wenn der Fortsetzungsmodus aktiviert ist, wird das Kreisbogen-Tool nach Beenden des Bogens neugestartet, um das Zeichnen eines weiteren ohne erneutes Drücken des Werkzeug-Buttons zu ermöglichen.
--   Halte **Strg** während des Zeichnens, um das Einrasten Deines Punkts an der nächsten Einrastposition zu erzwingen, unabhängig vom Abstand.
--   Halte **Shift** während des Zeichnens, um Deinen Punkt horizontal oder vertikal in Relation zum Mittelpunkt einzuschränken.
--   Drücke **Esc** oder den **'''Schließen'''**-Button, um den aktuellen Linien-Befehl abzubrechen.
-
-
-</div>
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
--   Ein Bogen kann mit dem [Bearbeiten](Draft_Edit/de.md)-Befehl geändert werden.
+-   Ein Draft-Bogen kann mit dem Befehl [Draft-Bearbeiten](Draft_Edit/de.md) geändert werden.
 
 
 
 ## Einstellungen
 
-Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft-Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   Wenn die Option **Bearbeiten → Einstellungen... → Draft → Allgemein → Create Part primitives if possible** aktiviert ist, wird ein [Part-Kreis](Part_Circle/de.md) anstelle eines Draft-Kreises erstellt.
 
 
 
 ## Eigenschaften
 
-Siehe [Draft Kreis](Draft_Circle/de#Properties.md).
+Siehe [Draft-Kreis](Draft_Circle/de#Eigenschaften.md).
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen eines Draft-Bogens wird die Methode `make_circle` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeCircle`.
 

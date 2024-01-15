@@ -15,7 +15,11 @@ L\'outil [Arch Clôture](Arch_Fence/fr.md) est un objet qui construit une clôtu
 
 <img alt="" src=images/Arch_Fence_description_example.png  style="width:600px;">
 
+
+
 ## Utilisation
+
+
 
 ### Création à partir de zéro 
 
@@ -32,7 +36,11 @@ Pour l\'instant, l\'outil suppose ce qui suit
 1.  Le tracé est dessiné sur le plan XY
 2.  La section et le poteau sont dessinés à l\'origine de manière à rester debout dans la vue de face
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -46,18 +54,24 @@ Pour l\'instant, l\'outil suppose ce qui suit
 
 -    **Number Of Sections**: nombre total de sections utilisées pour construire la clôture. Calculé automatiquement.
 
+
+
 ### Vue
 
 -    **Use Original Colors**: lorsque l\'option est définie à `True`, la clôture utilisera les couleurs de la section d\'origine et du piquet. Sinon, la définition de ShapeColor de la clôture sera utilisée pour coloriser la clôture.
+
+
 
 ## Remarques
 
 -   Arch Clôture a été introduit dans FC v0.19 par l\'utilisateur furti.
 -   [Sujet du forum](https://forum.freecadweb.org/viewtopic.php?t=36149) discutant de la fonctionnalité Arch Clôture.
 
+
+
 ## Script
 
-L\'outil Clôture peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante:
+L\'outil Clôture peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide de la fonction suivante :
 
 
 ```python

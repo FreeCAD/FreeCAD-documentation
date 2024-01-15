@@ -19,7 +19,7 @@ Il comando **Taglia la mesh** taglia intere facce da oggetti mesh.
 
 ## Utilizzo
 
-1.  Durante il comando non è possibile modificare la [vista 3D](3D_view.md). Si consiglia di allineare correttamente prima la vista 3D.
+1.  Durante il comando non è possibile modificare la [vista 3D](3D_view/it.md). Si consiglia di allineare correttamente prima la vista 3D.
 2.  Selezionare uno o più oggetti mesh.
 3.  Esistono diversi modi per richiamare il comando:
     -   Premere il pulsante **<img src="images/Mesh_PolyCut.svg" width=16px> [Taglia la mesh](Mesh_PolyCut/it.md)**.

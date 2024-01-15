@@ -15,18 +15,26 @@
 
 Cet outil vous permet de créer des raccords entre deux ou plusieurs [Arch Conduites](Arch_Pipe/fr.md) sélectionnés.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez 2 or 3 [Arch Conduites](Arch_Pipe/fr.md). Si vous avez sélectionné trois conduites, deux doivent être parfaitement alignés.
 2.  Cliquez le bouton **<img src="images/Arch_PipeConnector.svg" width=16px> [Raccord](Arch_PipeConnector/fr.md)** ou pressez la touche **P** puis **C**.
 
+
+
 ## Propriétés
 
 -    **Radius**: rayon de la courbe de ce raccord
 
+
+
 ## Processus de travail typique 
 
 Voir les informations de [Arch Conduite](Arch_Pipe/fr.md) pour le processus d\'utilisation des conduites et la création de raccords.
+
+
 
 ## Script
 
@@ -35,7 +43,7 @@ Voir les informations de [Arch Conduite](Arch_Pipe/fr.md) pour le processus d\'u
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Raccord peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Raccord peut être utilisé dans une [macro](Macros/fr.md) ou depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```

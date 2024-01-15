@@ -16,32 +16,11 @@ Din această interfață puteți vedea informații utile și puteți să accesa�
 
 </div>
 
+<img alt="Start workbench, Documents tab" src=images/Start_Documents.png  style="width:500px;">
 
-<div class="mw-translate-fuzzy">
+<img alt="Start workbench, Help tab" src=images/Start_Help.png  style="width:500px;">
 
-<img alt="" src=images/FreeCad_Start_0.18_documents.png  style="width:1024px;"> 
-*align=center|Start workbench, documents tab*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCad_Start_0.18_help.png  style="width:1024px;"> 
-*align=center|Start workbench, help tab*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/FreeCad_Start_0.18_activity.png  style="width:1024px;"> 
-*align=center|Start workbench, activity tab*
-
-
-</div>
+<img alt="Start workbench, Activity tab" src=images/Start_Activity.png  style="width:500px;">
 
 
 <div class="mw-translate-fuzzy">

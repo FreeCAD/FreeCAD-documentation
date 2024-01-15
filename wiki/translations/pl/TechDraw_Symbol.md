@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw Symbol
    Name/pl: Rysunek Techniczny: Wstaw symbol SVG
-   MenuLocation: Rysunek Techniczny , Wstaw symbol SVG
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw symbol SVG
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_Templates/pl, Draft_SVG/pl
 ---
 
 # TechDraw Symbol/pl
-
-
-</div>
 
 
 
@@ -25,16 +22,17 @@ Narzędzie **Wstaw symbol SVG** wstawia plik [SVG](SVG/pl.md) na stronę. Symbol
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Naciśnij przycisk **<img src="images/TechDraw_Symbol.svg" width=16px> '''Wstaw symbol SVG'''**.
-2.  Otworzy się okno dialogowe *Wybierz plik SVG do otwarcia*.
-3.  Wybierz lokalizację i nazwę pliku.
-4.  Naciśnij **OK**.
-
-
-</div>
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w [Widoku drzewa](Tree_view.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_Symbol.svg" width=16px> '''Wstaw symbol SVG'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Symbol.svg" width=16px> Wstaw symbol SVG**.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunków, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+4.  Zostanie otwarte okno dialogowe pliku.
+5.  Wybierz lokalizację i nazwę pliku.
+6.  Symbol zostanie wstawiony.
+7.  Opcjonalnie można zmienić jego właściwość **Skala**, aby dostosować jego rozmiar.
 
 
 

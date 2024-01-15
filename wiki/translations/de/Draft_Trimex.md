@@ -28,7 +28,7 @@ Unten: eine Fläche zu einem Festkörper extrudiert.*
 
 ### Anwendung
 
-1.  Wahlweise ein Objekt auswählen. Das Objekt muss eine [Draft-Linie](Draft_Line/de.md), ein [Draft-Draht](Draft_Wire/de.md), ein [Draft-Bogen](Draft_Arc/de.md) oder ein [Draft-Kreis](Draft_Circle/de.md) sein (nur diese lassen sich trimmen). Ist das ausgewählte Objekt geschlossen, muss seine {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
+1.  Wahlweise ein Objekt auswählen. Das Objekt muss eine [Draft-Linie](Draft_Line/de.md), eine [Draft-Polylinie](Draft_Wire/de.md), ein [Draft-Bogen](Draft_Arc/de.md) oder ein [Draft-Kreis](Draft_Circle/de.md) sein (nur diese lassen sich trimmen). Ist das ausgewählte Objekt geschlossen, muss seine {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Trimex.svg" width=16px> [Trimex](Draft_Trimex.md)** drücken.
     -   Den Menüeintrag **Änderung → <img src="images/Draft_Trimex.svg" width=16px> Trimex** auswählen.
@@ -45,7 +45,7 @@ Unten: eine Fläche zu einem Festkörper extrudiert.*
 
 ### Optionen
 
-The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   Hold down **Alt** to invert the default result of the command.
 -   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
@@ -92,14 +92,6 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
-
-
-
-## Einstellungen
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 
 

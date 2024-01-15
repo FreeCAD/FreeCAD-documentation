@@ -11,9 +11,13 @@
 
 # Arch Pipe/it
 
+
+
 ## Descrizione
 
 Questo strumento permette di creare delle tubazioni partendo da zero, o dagli oggetti selezionati. Gli oggetti selezionati devono essere Part-based (Draft, Schizzo, ecc ..) e contenere una e una sola polilinea (wire) aperta,
+
+
 
 ## Utilizzo
 
@@ -23,9 +27,13 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
     -   Premere i tasti **P** e poi **I** da tastiera.
     -   Usare la voce **Arch → Strumenti tubazioni → Tubo** del menu principale.
 
+
+
 ## Opzioni
 
 -   Gli elementi Tubo condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
+
+
 
 ## Proprietà
 
@@ -37,19 +45,15 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 
 -    {{PropertyData/it|Profile}}: Il profilo di base del tubo. Se non è dato, il tubo è di forma cilindrica.
 
+
+
 ## Flusso di lavoro tipico 
 
 -   Iniziare collocando degli apparecchi sanitari o idraulici (il wc della figura sottostante è un file step importato). Commutare questi oggetti in Arch Equipment selezionandoli e premendo il tasto [Arredo](Arch_Equipment/it.md).
 
 ![](images/Arch_pipe_example_01.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Snap_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio wc. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi:
-
-
-</div>
+-   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Snap_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per Python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio WC. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
@@ -63,13 +67,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   Vi è ora un nuovo strumento [Pendenza](Draft_Slope/it.md) che permette di modificare la pendenza delle linee Draft, per esempio del 5% (0.05). Così si può rapidamente dare alle linee delle tubazioni di scarico una pendenza corretta. Questo strumento modifica solo le coordinate z, quindi basta agganciarle l\'un l\'altra, la proiezione dall\'alto resta invariata.
-
-
-</div>
 
 ![](images/Arch_pipe_example_05.jpg )
 
@@ -85,30 +83,16 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 È anche possibile creare Tubi Arch senza una linea di base, in questo caso utilizzare la proprietà \"Length\" per definire la lunghezza.
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Tubo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Tubo può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

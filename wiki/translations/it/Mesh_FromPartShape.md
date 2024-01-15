@@ -6,15 +6,9 @@
 
 ## Descrizione
 
+Il comando **Mesh_FromPartShape** crea oggetti [mesh](mesh/it.md) non parametrici ([Mesh Features](Mesh_Feature/it.md)) da [shape](shape/it.md) di oggetti ([Part Features](Part_Feature/it.md)).
 
-<div class="mw-translate-fuzzy">
-
-Il comando **Crea mesh da una forma** crea oggetti mesh non parametrici, [Mesh features](Mesh_Feature/it.md), da oggetti forma.
-
-
-</div>
-
-The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
+L\'operazione inversa è [Crea forma da mesh](Part_ShapeFromMesh/it.md) dell\' <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Part](Part_Workbench/it.md).
 
 
 
@@ -22,7 +16,7 @@ The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <i
 
 1.  Facoltativamente selezionare uno o più oggetti.
 2.  Esistono diversi modi per richiamare il comando:
-    -   Premere il pulsante **<img src="images/Mesh_FromPartShape.svg" width=16px> Mesh da forma**.
+    -   Premere il pulsante **<img src="images/Mesh_FromPartShape.svg" width=16px> [Crea mesh da una forma...](Mesh_FromPartShape/it.md)**.
     -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_FromPartShape.svg" width=16px> Crea mesh da una forma...** dal menu.
 3.  Si apre il pannello delle azioni **Tessellazione**.
 4.  Mentre il pannello delle azioni è aperto, si può fare una nuova selezione o modificare una selezione esistente.
@@ -162,15 +156,9 @@ Per utenti Linux è richiesto il modulo esterno [Gmsh](https://gmsh.info/).
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Questo comando non è limitato agli oggetti creati con [Part](Part_Workbench/it.md). Può creare una mesh da qualsiasi oggetto che abbia una forma, inclusi gli oggetti creati con [PartDesignh](PartDesign_Workbench/it.md).
+-   Questo comando non è limitato agli oggetti creati con [Part](Part_Workbench/it.md). Può creare una mesh da qualsiasi oggetto che abbia una forma, inclusi gli oggetti creati con [PartDesign](PartDesign_Workbench/it.md).
 -   Il comando [Esporta](Std_Export/it.md) può esportare oggetti forma direttamente in un formato mesh.
 -   Vedere anche il tutorial [Esportare in STL o OBJ](Export_to_STL_or_OBJ/it.md).
-
-
-</div>
 
 
 
@@ -217,13 +205,7 @@ msh.ViewObject.DisplayMode = "Flat Lines"
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Mesh Tools navi

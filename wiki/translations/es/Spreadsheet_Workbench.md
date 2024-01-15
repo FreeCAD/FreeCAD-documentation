@@ -1,5 +1,7 @@
 # <img alt="El icono del Ambiente de trabajo Hoja de cálculo" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/es
 
+
+
 ## Introducción
 
 El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambiente de trabajo de hojas de cálculo](Spreadsheet_Workbench/es.md) permite crear y editar hojas de cálculo, utilizar datos de la hoja de cálculo como parámetros en un modelo, rellenar la hoja de cálculo con datos recuperados de un modelo, realizar cálculos y exportar los datos a otras aplicaciones de hojas de cálculo como LibreOffice o Microsoft Excel.
@@ -9,6 +11,8 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambie
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Una hoja de cálculo con determinadas celdas rellenas de texto y cantidades*
+
+
 
 ## Herramientas
 
@@ -44,27 +48,57 @@ El <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Ambie
 
 -    **Negro**y **Blanco** establecen los colores de primer plano y de fondo de las celdas seleccionadas.
 
+
+
 ## Preferencias
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferencias](Spreadsheet_Preferences.md): las preferencias para el entorno de trabajo Spreadsheet. <small>(v0.20)</small> 
+
+## Removing cells can be dangerous 
+
+
+<div class="mw-translate-fuzzy">
+
+Note que eliminar celdas con datos puede romper la hoja de cálculo y tu modelo si este se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
+
+
+</div>
+
+
 
 ## Inserte elimine filas y columnas 
 
 Filas y columnas pueden ser insertadas o eliminadas haciendo clic derecho en un encabezado de fila o columna y seleccionando la opción apropiada en el menú contextual. Es posible seleccionar primero varias filas o columnas. Ya sea manteniendo presionado la tecla {{KEY | Ctrl}} al seleccionar los encabezados, o manteniendo presionado el botón del mouse izquierdo y arrastrando.
 
-En FreeCAD versión 0.19 y anteriores las filas son insertadas arriba de las filas seleccionadas, y las columnas a la izquierda de las columnas seleccionadas. En FreeCAD versión 0.20 puede especificar el lugar de inserción.
+## Edit cells 
 
-Tenga en cuenta que eliminar filas o columnas con datos puede romper la hoja de cálculo y su modelo si se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
+The content of a cell can be edited by selecting the cell and entering a value in the **Content** inputbox at the top of the window. To edit a cell in-place, select it and press **F2**, or double-click it.
+
+## Delete cells 
+
+To delete one or more cells select them and press **Del**. This will delete their contents, their properties and their aliases. To only delete the content of a cell it should be edited instead.
+
+
 
 ## Cortar y copiar-pegar celdas 
 
+
+<div class="mw-translate-fuzzy">
+
 Las operaciones de cortar y copiar-pegar se pueden usar en las celdas de hojas de cálculo de FreeCAD. Puede usar los atajos normales para estas operaciones: {{KEY | Ctrl}} {{KEY | X}}, {{KEY | Ctrl}} {{KEY | C}} y {{KEY | Ctrl}} {{KEY | V}} respectivamente. Para seleccionar múltiples celdas, mantenga presionada la tecla {{KEY | Ctrl}} mientras selecciona, o mantenga presionado el botón del mouse izquierdo y arrastre para seleccionar un rango de celda rectangular.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Las operaciones de cortar y copiar almacenan el contenido y las propiedades de las celdas en el portapapeles. La operación de pegar escribe los datos de tal manera que el contenido de la celda superior izquierda de los datos almacenados aparezcan en la celda activa. Otro contenido almacenado se coloca en relación con esa celda. Las fórmulas se actualizan en consecuencia.
 
-Note que eliminar celdas con datos puede romper la hoja de cálculo y tu modelo si este se basa en la hoja de cálculo. No será advertido previamente si esto sucede.
 
-En FreeCAD versión 0.19 y anteriores hay un error que puede hacer que FreeCAD se cuelgue si se pega un rango de celdas no rectangular. Es aconsejable guardar su trabajo antes de realizar cualquier operación de pegar.
+</div>
+
+
 
 ## Propiedades de la celda 
 
@@ -85,6 +119,8 @@ Como se indica en las pestañas, se pueden modificar las siguientes propiedades:
 
 
 </div>
+
+
 
 ## Expresiones de la celda 
 
@@ -117,6 +153,8 @@ Las expresiones de celdas pueden contener números, funciones, referencias a otr
 
 Las referencias a objetos en el modelo se explican en [Referencias a datos CAD](#Referencias_a_datos_CAD.md) más abajo. El uso de los valores de las celdas de la hoja de cálculo para definir las propiedades del modelo se explica en [Datos de la hoja de cálculo en las expresiones](#Hoja_de_datos_en_expresiones.md) más adelante. Para más información sobre las expresiones y las funciones disponibles, véase [Expresiones](Expressions/es.md).
 
+
+
 ## Interacción entre las hojas de cálculo y el modelo CAD 
 
 Los datos en las celdas de una hoja de cálculo pueden usarse en expresiones de parámetros del modelo CAD. Por lo tanto, una hoja de cálculo puede usarse como fuente de valores de parámetros utilizados en todo un modelo, recolectando efectivamente los valores en un solo lugar. Cuando los valores se cambian en la hoja de cálculo, se propagan por todo el modelo.
@@ -130,6 +168,8 @@ FreeCAD will automatically assign a unique name to a spreadsheet when it is crea
 The label of a spreadsheet is automatically set to the name of the spreadsheet upon creation. Unlike the name, the label can be changed, for example in the properties panel or using the context menu action Rename. By default FreeCAD does not accept duplicate labels, but there is a [preference](Preferences_Editor#Document.md) to override this. Spreadsheets with duplicate labels in the same document cannot be referenced by their label.
 
 FreeCAD checks for cyclic dependencies. See [Current limitations](Spreadsheet_Workbench#Current_limitations.md).
+
+
 
 ### Referencias a los datos CAD 
 
@@ -160,6 +200,8 @@ The following table shows some examples assuming the model has a feature named \
 |                                                | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
 |                                                |                                                       |                                |
 ++++
+
+
 
 ### Datos de la hoja de cálculo en expresiones 
 
@@ -197,6 +239,8 @@ While you may use the row and column number in an expression to reference a cell
 
 </div>
 
+
+
 ### Modelos complejos y recálculos 
 
 Editing a spreadsheet will trigger a recompute of the 3D model, even if the changes do not affect the model. For a complex model a recompute can take a long time, and having to wait after every single edit is of course quite annoying.
@@ -217,6 +261,8 @@ There are three solutions to deal with this:
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
 
+
+
 ## Unidades
 
 The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm².
@@ -228,6 +274,8 @@ You can change the units displayed for a cell value using the [Cell properties d
 A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
 
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
+
+
 
 ## Importación y exportación 
 
@@ -245,13 +293,19 @@ Spreadsheets in the Excel-format XLSX can be imported with the [Std Import](Std_
 
 Other functionality is not imported into the FreeCAD spreadsheet.
 
+
+
 ## Impresión
 
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
 
+
+
 ## Limitaciones actuales 
 
 FreeCAD checks for cyclic dependencies when it recomputes. By design, that check stops at the level of the spreadsheet object. As a consequence, you should not have a spreadsheet which contains both cells whose values are used to specify parameters to the model, and cells whose values use output from the model. For example, you cannot have cells specifying the length, width, and height of an object, and another cell which references the total volume of the resulting shape. This restriction can be surmounted by having two spreadsheets: one used as a data-source for input parameters to the model and the other used for calculations based on resultant geometry-data.
+
+
 
 ## Enlazamiento de celdas 
 
@@ -259,6 +313,8 @@ FreeCAD checks for cyclic dependencies when it recomputes. By design, that check
 <small>(v0.20)</small> 
 
 Es posible enlazar el contenido de unas celdas a otras celdas en la hoja de cálculo. Esto puede ser útil cuando se trata de tablas grandes o para obtener contenido de celda de otra hoja de cálculo.
+
+
 
 ### Crear enlaces 
 
@@ -297,6 +353,8 @@ Para enlazar, por ejemplo, el rango de celdas A3-C4 al rango de celdas B1-D2:
 -   The cell binding has a range check and warns you about mismatched ranges. For example binding 1x3 cells to 3x2 cells cannot work because it is unknown which 3 cells of the original 6 cells should be used.
 -   You cannot change the cell range of an existing binding. You must first unbind the cells and then create a new binding.
 -   The frame color indicating the binding cannot be changed yet.
+
+
 
 ## Tablas de configuración 
 
@@ -347,6 +405,8 @@ Pasos similares se aplican a un [PartDesign SubShapeBinder](PartDesign_SubShapeB
 
 
 </div>
+
+
 
 ## Scripting básico 
 

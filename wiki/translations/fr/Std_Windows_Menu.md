@@ -35,15 +35,15 @@ Le menu Windows permet de changer et de réorganiser les fenêtres [Zone d\'affi
 
 Les outils suivants sont disponibles dans ce menu :
 
--   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Suivant](Std_ActivateNextWindow/fr.md) : active la fenêtre suivante.
+-   <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:32px;"> [Suivante](Std_ActivateNextWindow/fr.md) : active la fenêtre suivante.
 
--   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Précédent](Std_ActivatePrevWindow/fr.md) : active la fenêtre précédente.
+-   <img alt="" src=images/Std_ActivatePrevWindow.svg  style="width:32px;"> [Précédente](Std_ActivatePrevWindow/fr.md) : active la fenêtre précédente.
 
 -   <img alt="" src=images/Std_TileWindows.svg  style="width:32px;"> [Mosaïque](Std_TileWindows/fr.md) : mets les fenêtres en mosaïque.
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Fenêtre en cascade](Std_CascadeWindows/fr.md) : mets les fenêtres en cascade.
 
--   [Fenêtre\...](Std_Windows/fr.md) : ouvre une boîte de dialogue à partir de laquelle une fenêtre peut être activée.
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Fenêtres\...](Std_Windows/fr.md) : ouvre une boîte de dialogue à partir de laquelle une fenêtre peut être activée.
 
 
 

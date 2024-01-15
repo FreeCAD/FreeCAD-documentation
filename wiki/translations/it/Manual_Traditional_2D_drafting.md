@@ -1,5 +1,5 @@
 # Manual:Traditional 2D drafting/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 Si può essere interessati a FreeCAD perché si ha già una certa esperienza di disegno tecnico, ad esempio con un software come [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Si conosce già qualcosa sulla progettazione, oppure si preferisce disegnare le cose prima di costruirle. In ogni caso, FreeCAD dispone di un ambiente di lavoro più tradizionale, con gli strumenti che si trovano nella maggior parte delle applicazioni CAD 2D: l\'ambiente [Draft](Draft_Workbench/it.md).
 
@@ -46,7 +46,7 @@ Per mostrare il funzionamento e le possibilità dell\'ambiente Draft, camminerem
 
 ![](images/Exercise_cabin_04.jpg )
 
--   E\' possibile cambiare il loro colore grigio predefinito di un bel modello di tratteggio. Selezionare entrambe le pareti, quindi impostare la loro proprietà **Pattern** in **Simple**, e **Pattern size** a piacere, per esempio **0.005**.
+-   E\' possibile dare alle pareti un bel modello di tratteggio. Selezionare entrambi i muri, assicurarsi che la loro proprietà **Make Face** sia impostata su **`True`**, quindi impostare la loro proprietà **Pattern** su **Simple** e la **Dimensione del motivo** a proprio piacimento, ad esempio **0.005**.
 
 ![](images/Exercise_cabin_05.jpg )
 

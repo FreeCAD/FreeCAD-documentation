@@ -37,17 +37,17 @@ Equation:
 
 -    **Phase Change Model**: The model use for phase changes (ice to water etc.). The model *Spatial 1* is the apparent-heat-capacity method, *Spatial 2* and *Temporal* are effective-heat-capacity methods.For more info about the models, see [this paper](https://blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (section 2.5.2.2) (is in German). In the paper it was also shown that *Spatial 1* has numerical problems on larger temperature gradients and that *Spatial 2* was preferred for the phase change ice to water.
 
-## Constraint Information 
+## Analysis Feature Information 
 
-The elasticity equation takes the following constraints into account if they are set:
+The heat equation takes the following analysis features into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature.md)
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Body heat source](FEM_ConstraintBodyHeatSource.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Initial temperature condition](FEM_ConstraintInitialTemperature.md)
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Temperature boundary condition](FEM_ConstraintTemperature.md)
 
 ### Note
 
-Except for calculations in 2D, for all above constraints it is important that they act on a face or a body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for all the above analysis features it is important that they act on a face or a body. Features in 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Result
 

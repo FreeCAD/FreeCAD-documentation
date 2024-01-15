@@ -16,6 +16,8 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part 
 
 ![600px](images/JoinFeatures_Cutout.png)
 
+
+
 ## Utilisation
 
 1.  Sélectionnez d\'abord l\'objet de base, puis l\'objet pour définir la découpe.
@@ -25,6 +27,8 @@ L\'outil <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Part 
     -   Utilisation de l\'entrée **Part → Joindre → Découper pour un objet ** du menu Part
 
 Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Découpe). Les objets originaux sont masqués et le résultat de la découpe est affiché dans la [vue 3D](3D_view/fr.md).
+
+
 
 ## Propriétés
 
@@ -39,6 +43,8 @@ Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Décou
 
 -    **Refine**: définit s\'il faut appliquer l\'opération [Part Affiner](Part_RefineShape/fr.md) ou non, à la forme finale. La valeur par défaut est déterminée par la case à cocher \"Affiner automatiquement la forme après l\'opération booléenne\" dans les préférences de Part Design. Lorsque la propriété Mode est à \"bypass\", affiner est ignoré (jamais appliqué).
 
+
+
 ## Exemple
 
 1.  Créez un tuyau en appliquant un [évidement](Part_Thickness/fr.md) à un [cylindre](Part_Cylinder/fr.md) :
@@ -47,6 +53,8 @@ Un objet Part JoinFeature est créé avec le mode défini sur \"Cutout\" (Décou
     ![320px](images/JoinFeatures_Example_step2.png)
 3.  Sélectionnez le premier tuyau, puis le second (l\'ordre de sélection est important), puis cliquez le bouton \"Découper pour un objet\" de la barre d\'outils déroulante Joindre les objets.
     ![320px](images/JoinFeatures_Example_step3_Cutout.png)
+
+
 
 ## Algorithme
 
@@ -59,11 +67,15 @@ Les algorithmes derrière les outils Joindre sont assez simples et leur compréh
 3\. Si la propriété Refine (Affiner) est vraie, la forme résultante est [affinée](Part_RefineShape/fr.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
+
+
 ### Remarques
 
 -   Si après l'étape 1, l'objet reste en un seul morceau, le résultat de la découpe sera équivalent à une [Part Soustraction booléenne](Part_Cut/fr.md) de la base et de l'Outil.
 -   Actuellement, l\'outil produira un résultat inattendu, si un composé est fourni comme base. Cela pourra être changé dans le futur.
 -   Étant donné que la plus grande pièce est déterminée en comparant les volumes des pièces, l\'outil ne peut fonctionner qu\'avec des solides. Cela pourra être changé dans le futur.
+
+
 
 ## Script
 

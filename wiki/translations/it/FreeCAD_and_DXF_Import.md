@@ -1,118 +1,55 @@
 # FreeCAD and DXF Import/it
-## Background
+## Antefatto
 
-DXF is a proprietary CAD data format for 2D drawings that originated with AutoCAD. More details can be found on the [DXF](DXF.md) wiki page.
-
-
-
-
-<div class="mw-translate-fuzzy">
-
-## Note Legali 
-
-Per essere in grado di importare dei file DXF è necessario installare manualmente alcuni file. Perché questo? Queste librerie sono pubblicate con un\'altra licenza di FreeCAD, così gli sviluppatori di FreeCAD non devono impacchettarle con l\'applicazione FreeCAD.
-
-
-</div>
-
-Since FreeCAD version 0.18 there is a new C++ DXF importer, and since version 0.19 also a new C++ DXF exporter. These new components are installed with FreeCAD.
-
-To use the older, legacy, DXF importer and exporter you need to install several files. These files cannot be included with FreeCAD since they use libraries published under a license that is not compatible with FreeCAD.
+DXF è un formato dati CAD proprietario per disegni 2D originati da AutoCAD. Maggiori dettagli possono essere trovati sulla pagina wiki [DXF](DXF/it.md).
 
 
 
+## Introduzione
 
-<div class="mw-translate-fuzzy">
+A partire dalla versione 0.18 di FreeCAD è presente un nuovo importatore DXF C++ e dalla versione 0.19 anche un nuovo esportatore DXF C++. Questi nuovi componenti vengono installati con FreeCAD.
 
-## Come installarle 
+Per utilizzare il vecchio importatore ed esportatore DXF è necessario installare diversi file. Questi file non possono essere inclusi con FreeCAD poiché utilizzano librerie pubblicate con una licenza non compatibile con FreeCAD.
 
 
-</div>
+
+## Come installare l\'importatore ed esportatore DXF legacy 
 
 
 
 ### Installazione automatica 
 
+Se questi file non sono ancora stati installati, andare al menu **Modifica → Preferenze → Importa/Esporta → DXF** e attivare l\'opzione **Consenti a FreeCAD di scaricare e aggiornare automaticamente le librerie DXF** per consentire a FreeCAD di scaricare e installare automaticamente queste librerie.
 
-<div class="mw-translate-fuzzy">
-
-Se non è ancora installato, andare al menu **Modifica → Preferenze → Importa/Esporta → DXF** e attivare l\'opzione **Consenti a FreeCAD di scaricare automaticamente le librerie DXF** per consentire a FreeCAD di scaricare e installare automaticamente queste librerie.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Per FreeCAD 0.14 o versione più vecchie è necessario installarle manualmente:
-
-
-</div>
+Per FreeCAD 0.14 o versioni precedenti è necessario installarle manualmente:
 
 
 
 ### Installazione manuale 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Andare a [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) e scaricare questi file (sul lato destro si può scegliere \"download as ZIP\").
+1.  Andare a [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) e scaricare i file (sul lato destro si può selezionare \"download as ZIP\").
 2.  Mettere i file nella cartella delle macro.
+3.  Se non si è sicuri di dove sia questa cartella, andare su **Modifica → Preferenze → Python → Macro** e controllare il campo denominato **Percorso macro**.
 
--   In Ubuntu, normalmente la cartella si trova in
-
-/home/your_user_name/.FreeCAD 
-
-La directory è nascosta. Potrebbe essere necessario renderla visibile.
-
--   In Windows, la directory standard delle macro è
-
-C:\Users\your_user_name\AppData\Roaming\FreeCAD
+-   In Ubuntu la cartella macro è normalmente: /home/your_user_name/.FreeCAD (la cartella è nascosta, potrebbe essere necessario mostrarla)
+-   In Windows la cartella delle macro è normalmente: C:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Tutorial: [Installare l\'importatore DXF](Dxf_Importer_Install/it.md)
-
-
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Trucchi e consigli 
 
-A volte sembra che i file DXF non importino nulla anche se in programmi CAD 2D-DXF si aprono senza problemi. In questo caso, si può provare:
+A volte i file DXF non vengono importati anche se si aprono senza problemi in altri programmi CAD.
 
-1.  andare in Modifica → Preferenze → Import/Export → DXF/DWG e deselezionare l\'opzione \"Unisci geometria\" e riprovare.
-2.  Ricordate che forse ora non avrete i punti finali delle linee coincidenti. Si dovrà farli coincidere da soli.
-3.  Potete farlo con il comando \"Close Shape\" nel workbench Sketcher (con la versione 0.15) oppure è possibile applicare i vincoli manualmente
+Si può provare quanto segue:
 
-Potete anche provare:
+1.  Andare su **Modifica → Preferenze → Importa/Esporta → DXF** e deselezionare l\'opzione **Unisci la geometria** e riprovare.
+2.  Ricordare che forse ora non si avranno endpoint coincidenti. Si possono renderli coincidenti con [Convalida lo schizzo](Sketcher_ValidateSketch/it.md)
 
-1.  andare in Modifica → Preferenze → Draft → Generali e regolare il valore di \"Tolerance\" (default: 0,05)
-2.  Riprovare
+Si può anche provare:
 
+1.  Su **Modifica → Preferenze → Draft → Impostazioni generali** e modificare il valore di **Tolleranza** (valore predefinito: 0,05) e quindi riprovare.
 
-</div>
-
-Sometimes DXF Files don\'t import although they open in other CAD-Programs without problems.
-
-You can try:
-
-1.  Go to **Edit → Preferences → Import-Export → DXF** and untick the option **Join geometry** and try again.
-2.  Remember that maybe now you won\'t have coincident endpoints. You can make them coincident with [Sketcher ValidateSketch](Sketcher_ValidateSketch.md)
-
-You can also try:
-
-1.  Go to **Edit → Preferences → Draft → General settings** and adjust the value of **Tolerance** (default: 0,05) and try again.
-
-For an overview of all DXF related preferences see [Import Export Preferences](Import_Export_Preferences#DXF.md).
+Per una panoramica di tutte le preferenze relative a DXF vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DXF.md).
 
 
 

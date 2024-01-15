@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:24px;"> [Limitation d\'une zone](Path_DressupPathBoundary.md) permet de restreindre l\'étendue d\'un parcours à une plus petite partie de l\'objet. Par exemple, restreindre un parcours de contour à une seule face ou une partie du modèle.
+L\'outil <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:24px;"> [Limitation d\'une zone](Path_DressupPathBoundary/fr.md) permet de restreindre l\'étendue d\'un parcours à une plus petite partie de l\'objet. Par exemple, restreindre un parcours de contour à une seule face ou une partie du modèle.
 
 
 

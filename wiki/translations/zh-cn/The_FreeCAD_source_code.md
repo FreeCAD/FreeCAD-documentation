@@ -62,7 +62,7 @@
 ### 相关的东西
 
 -   [源代码管理](Source_code_management/zh-cn.md)
--   [发烧友中心里面又很多文档](Power_users_hub/zh-cn.md)，它们关于模块，关于OpenCasCade，关于Coin3D，主要是写给Python程序员。虽然如此，因为功能性都是相通的，这些页面对C++程序员也有助益。
+-   [发烧友中心](Power_users_hub/zh-cn.md)里面又很多文档，它们关于模块，关于OpenCasCade，关于Coin3D，主要是写给Python程序员。虽然如此，因为功能性都是相通的，这些页面对C++程序员也有助益。
 
 
 </div>

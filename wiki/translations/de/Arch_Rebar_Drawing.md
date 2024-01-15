@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: Arch Rebar Drawing
+   Name/de: Arch Armierung Zeichnung
    MenuLocation: Arch , Rebar
-   Workbenches: Arch_Workbench, BIM_Workbench
-   SeeAlso: Arch Rebar Dimensioning, Reinforcement Addon
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
+   SeeAlso: Arch Rebar Dimensioning/de, Reinforcement Addon/de
    Version: 0.19
 ---
 
@@ -11,21 +12,25 @@
 
 Bitte beachte: Die folgende Arbeit ist im Entwicklungszweig des Arbeitsbereichs Bewehrung vorhanden [hier](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
 
+
+
 ## Beschreibung
 
-Das [Bewehrungszeichnungs](Arch_Rebar_Drawing/de.md) Werkzeug erlaubt dem Benutzer Zeichnungen von Bewehrungsstäben erstellen.
+Das Werkzeug [Armierung Zeichnung](Arch_Rebar_Drawing/de.md) ermöglicht dem Benutzer Zeichnungen von Bewehrungen erstellen.
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;">
 
 
 
-*Zeichnung und Bemessung von Bewehrungsstäben*
+*Zeichnung von Bewehrungen*
+
+
 
 ## Anwendung
 
-1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Addon](Reinforcement_Addon.md).
+1\. Ein FreeCAD-Modell öffnen, dass Bewehrungen enthält, die mit dem [Addon Reinforcement](Reinforcement_Addon/de.md) erstellt wurden.
 
 2\. In FreeCAD Python console, copy below code snippet to generate reinforcement drawing from different views for each [Arch Structure](Arch_Structure.md) element. 
 ```python
@@ -40,6 +45,8 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 ## ReinforcementDrawingView Object 
 
 A Rebars Drawing SVG View object.
+
+
 
 ### Eigenschaften
 

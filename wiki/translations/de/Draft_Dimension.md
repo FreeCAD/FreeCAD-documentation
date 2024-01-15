@@ -107,19 +107,19 @@ Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und
 
 ### Optionen
 
-Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
--   Um Koordinaten von Hand einzugeben, gibt man die werte der X-, Y- und Z-Komponenten jeweils gefolgt von einem **Enter** ein. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, wenn die gewünschten Werte erreicht sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view.md) herauszubewegen, bevor man Koordinaten eingibt.
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
--    **R**drücken oder die Checkbox **Relativ** aktivieren, um den relativen Modus ein- bzw. auszuschalten. Wenn der relative Modus aktiviert ist, beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
+-    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativ-Modus umzuschalten. Ist der Relativ-Modus aktiviert, beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--    **G**drücken oder die Checkbox **Global** aktivieren, um den globalen Modus ein- bzw. auszuschalten. Wenn der globale Modus aktiviert ist, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
--    **T**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzungsmodus ein- bzw. auszuschalten. Wenn der Fortsetzungsmodus aktiviert ist, wird der Befehl nach jeder Fertigstellung wieder neu starten und ermöglicht so, dass man kontinuierlich weitere Maße erstellen kann. Alle folgenden Maße starten am Endpunkt des vorhergehenden Maßes und verwenden dieselbe Grundlinie für das erste Maß. Man beachte, dass die Auswahl von Kanten bei aufeinader folgenden Maßen nicht möglicht ist.
+-    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Maßen fortzufahren. Alle folgenden Maße starten am Endpunkt des vorhergehenden Maßes und verwenden dieselbe Grundlinie wie das erste Maß. Man beachte, dass die Auswahl von Kanten bei aufeinanderfolgenden Maßen nicht möglicht ist.
 
--    **S**drücken, um [Draft Fangen](Draft_Snap/de.md) ein- bzw. auszuschalten.
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
--    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl fertigzustellen.
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl fertigzustellen.
 
 
 
@@ -140,53 +140,12 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
 -   Lineare und radiale Draft-Maße können mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) editiert werden.
+-   Draft-Maße, die mit [FreeCAD Version 0.21](Release_notes_0.21/de.md) sind nicht rückwärtskompatibel.
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Eigenschaften
-
--    **Start**: Der Startpunkt des zu messenden Abstands
-
--    **End**: Der Endpunkt des zu messenden Abstands
-
--    **Dimline**: Ein Punkt, durch den die Maßlinie verlaufen muss
-
--    **Display Mode**: Gibt an, ob der Text an den Maßlinien ausgerichtet ist, oder immer dem Blickpunkt folgt
-
--    **Font Size**: Die Größe der Zeichen
-
--    **Ext Lines**: Die Größe der Erweiterungslinie (zwischen den Messpunkten und der Maßlinie)
-
--    **Text Position**: Kann benutzt werden, um die Textanzeige an einer bestimmten Position zu erzwingen
-
--    **Text Spacing**: Gibt den Platz zwischen Text und Maßlinie an
-
--    **Override**: Zeigt einen Text anstatt des Maßes an. Füge \"\$dim\" in den Text ein, um das Maß anzuzeigen
-
--    **Font Name**: Die Schriftart für den anzuzeigenden Text. Es kann ein Schriftartennamen sein, wie \"Arial\", ein Schriftstil wie \"sans\", \"serif\" oder \"mono\" oder eine Familie wie \"Arial,Helvetica,sans\" oder ein Name mit einem Schriftstil wie \"Arial:Bold\". Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird eine generische benutzt.
-
--    **Arrow Type**: Der Typ des zu benutzenden Pfeils
-
--    **Arrow Size**: Die Größe der Pfeile
-
--    **Decimals**: Die Anzahl der anzuzeigenden Dezimalstellen der Bemaßung
-
--    **Flip Arrows**: Vertauschen der Richtung der Pfeile
-
--    **Unit Override**: Drückt den Abstand in der angegebenen Einheit aus (falls leer, wird die Einheit des Systems (system unit) verwendet) <small>(v0.17)</small> 
-
-
-</div>
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
@@ -219,7 +178,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
+-    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. Not used for linear dimensions.
 
 ### Data angular dimension 
 
@@ -259,7 +218,7 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
+-    {{PropertyView/de|Display Mode|Enumeration}}: Gibt an, wie der Text angezeigt wird. Ist es {{value|World}}, wird der Text auf einer Ebene angezeigt, die durch die {{PropertyData/de|Normal}} des Maßes festgelegt wird. Ist es {{value|Screen}}, wird der Text immer in Richtung Bildschirm angezeigt. Dies ist eine übernommene Eigenschaft. Die genannten Optionen sind die umbenannten Optionen ({{Version/de|0.21}}).
 
 
 {{TitleProperty|Graphics}}
@@ -314,13 +273,13 @@ Ein Draft Dimension-Objekt ist von einem [App FeaturePython](App_FeaturePython/d
 
 Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-To create a Draft Dimension use the `make_dimension` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeDimension` method.
+Zum Erstellen eines Draft-Maßes wird die Methode `make_dimension` des Draft-Moduls verwendet (<small>(v0.19)</small> ). Diese Methode ersetzt die veraltete Methode `makeDimension`.
 
 
 ```python
 dimension = make_dimension(p1, p2, p3=None, p4=None)```
 
-There are various ways to invoke this method, depending on the arguments passed to it:
+Es gibt mehrere Möglichkeiten,diese Methode aufzurufen, abhängig von den an sie übergebenen Argumenten.
 
 
 ```python
@@ -329,21 +288,17 @@ dimension = make_dimension(object, i1, i2, p4=None)
 dimension = make_dimension(object, i1, mode, p4=None)
 ```
 
+-   Erstellt ein lineares Maß (`dimension`-Objekt), indem es den Abstand zwischen den Punkten `p1` und `p2` misst.
+-   Erstellt ein lineares Maß (`dimension`-Objekt), verknüpft mit dem Objekt `object`, das den Abstand zwischen seinen Knotenpunkten mit den Indizes `i1` und `i2` misst.
+-   Erstellt ein Bogenmaß (`dimension`-Objekt), verknüpft mit dem Objekt `object`, wobei `i1` der Index der gekrümmten Kante ist, die gemessen wird und `mode` die Art des Maßes festlegt, entweder `"radius"` (Radienmaß) oder `"diameter"` (Durchmessermaß).
+    -   
+        `p3`
+        
+        im ersten Aufruf und `p4` in den anderen beiden geben einen optionalenPunkt an, durch den die Maßlinie verlaufen soll.
 
-<div class="mw-translate-fuzzy">
+    -   Alle Punkte werden durch `FreeCAD.Vector`, ihren Ortsvektor festgelegt.
 
--   Erstellt ein Bemaßungs-Objekt mit der Bemaßungslinie durch p3.
--   Das Bemaßungs-Objekt übernimmt die in der Befehlszeile (command bar) gesetzte [Linienbreite und -farbe](Draft_Linestyle/de.md).
--   Es gibt viele Wege zur Erstellung einer Bemaßung, abhängig von den übergebenen Argumenten:
-
-1.  (p1,p2,p3): erstellt eine Standardbemaßung von p1 bis p2.
-2.  (Objekt,i1,i2,p3): erstellt eine verbundene Bemaßung zum angegebenen Objekt, mit dem Abstand zwischen den Kanten i1 und i2.
-3.  (Objekt,i1,Modus,p3): erstellt eine verbundene Bemaßung zum angegebenen Objekt, i1 ist der Index der zu messenden (gebogenen) Kante und Modus ist entweder \"radius\" oder \"diameter\". Liefert das neu erstellte Objekt zurück.
-
-
-</div>
-
-To create an angular dimension use the following method:
+Zum Erstellen eines Winkelmaßes wird die folgende Methode verwendet:
 
 
 ```python
@@ -351,14 +306,9 @@ dimension = make_angular_dimension(center, angles, p3, normal=None)
 dimension = make_angular_dimension(center, [angle1, angle2], p3, normal=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   erstellt eine Winkelbemaßung vom angegebenen Mittelpunkt mit den angegebenen Winkeln durch den Punkt p3.
--   liefert das neu erstellte Objekt zurück.
-
-
-</div>
+-   Erstellt ein Winkelmaß (angular `dimension`) aus `center`, dem gegebenen Mittelpunkt, `angles`, einer Liste mit zwei Elementen, und Punkt `p3`, durch den der Bogen verlaufen soll.
+    -   Wenn `angle1 > angle2` ist, wird der angezeigte Winkel aus der Differenz `angle1 - angle2` ermittelt; anderenfalls wird der entgegengesetzte Winkel `360 - (angle2 - angle1)` angezeigt.
+    -   Die Winkel sollten in Grad eingegeben werden.
 
 The view properties of `dimension` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
 

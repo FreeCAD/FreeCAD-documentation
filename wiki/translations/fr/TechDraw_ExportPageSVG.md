@@ -23,7 +23,7 @@ L\'outil **TechDraw Exporter au format SVG** enregistre la page de dessin en cou
     -   Appuyez sur le **<img src="images/TechDraw_ExportPageSVG.svg" width=16px> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Page → <img src="images/TechDraw_ExportPageSVG.svg" width=16px> Exporter une page au format SVG** dans le menu.
     -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Exporter en SVG** dans le menu contextuel.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
 4.  La boîte de dialogue **Exporter la page en SVG** s\'ouvre.

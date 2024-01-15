@@ -54,19 +54,31 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 
 </div>
 
-Una piccola serie di modelli di tratteggio sono disponibili in:
 
-
+:   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    $INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
+
+
+<div class="mw-translate-fuzzy">
 
 dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esempio
 
 
+</div>
+
+
+:   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
 
 

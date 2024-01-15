@@ -77,7 +77,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 
 Excessively long processing times (longer than 10 minutes) can occur when processing large complex models. In addition to the factors already mentioned the following steps could help identify potential causes and solutions.
 
-**\'\'Low Memory**\'\'
+***Low Memory***
 Check how much memory is available while the scan is running using a tool such as the Windows **Task Manager, Memory tab**. If more than 90% of memory is consistently being used then a small **Linear Deflection** parameter could be generating a mesh that is too large for the available memory.
 To confirm this \...
 
@@ -90,7 +90,7 @@ To make this value the default for all new **<img src="images/Path_Surface.svg" 
 **Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance **.
 Note as of version 0.19 the **Linear Deflection** default = GeometryTolerance / 4
 
-**\'\'Invalid Geometry**\'\'
+***Invalid Geometry***
 If a model contains invalid geometry the scanning time can increase significantly. A model can be checked using the [Part CheckGeometry](Part_CheckGeometry.md) function in <img alt="" src=images/Workbench_Part.svg  style="width:24px;">**Part Workbench**.
 To run the tool:
 

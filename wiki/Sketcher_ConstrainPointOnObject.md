@@ -4,22 +4,33 @@
    MenuLocation: Sketch , Sketcher constraints , Constrain point onto object
    Workbenches: Sketcher_Workbench
    Shortcut: **O**
-   SeeAlso: Sketcher_ConstrainCoincident
+   SeeAlso: Sketcher_ConstrainCoincidentUnified, Sketcher_ConstrainCoincident
 ---
 
 # Sketcher ConstrainPointOnObject
 
 ## Description
 
-Affixes a point onto another object such as a line, arc, or sketch axis.
+The <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Sketcher ConstrainPointOnObject](Sketcher_ConstrainPointOnObject.md) command fixes points on edges or axes.
+
+
+<small>(v0.22)</small> 
+
+: This command is replaced by the [Sketcher ConstrainCoincidentUnified](Sketcher_ConstrainCoincidentUnified.md) command if the **Unify Coincident and PointOnObject** option is selected in the [Sketcher Preferences](Sketcher_Preferences#General.md).
 
 ## Usage
 
-1.  Select a point and an edge in any order.
+1.  Optionally do one of the following:
+    -   Select a single point and a single edge (in any order).
+    -   Select several points and a single edge (idem).
+    -   Select a single point and several edges (idem).
 2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
-    -   Use the **O** keyboard shortcut.
-    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> Constrain point onto object** entry in the top menu.
+    -   Press the **<img src="images/Sketcher_ConstrainPointOnObject.svg" width=16px> [Constrain point onto object](Sketcher_ConstrainPointOnObject.md)** button.
+    -   Select the **Sketch → Sketcher constraints → <img src="images/Sketcher_ConstrainPointOnObject.svg" width=16px> Constrain point onto object** option from the menu.
+    -   Use the keyboard shortcut: **O**.
+3.  To indicate that the command has been activated the cursor shows a white cross and the command icon.
+4.  Optionally keep selecting elements. You can only select two elements at a time now.
+5.  To finish the command press **Esc** or the right mouse button, or start a another constraints or geometries command.
 
 ## Scripting
 
@@ -41,7 +52,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 
- {{Sketcher Tools navi}}
+ {{Sketcher_Tools_navi}}
 
 
 

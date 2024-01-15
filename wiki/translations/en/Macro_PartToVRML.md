@@ -4,6 +4,7 @@
 |Icon=PartToVRML.png
 |Description=This macro converts selected parts to VRML meshes.
 |Author=Easyw-fc
+|Download=[https://wiki.freecad.org/images/f/f8/PartToVRML.png ToolBar Icon]
 |Version=1.9.2
 |Date=2016-02-22
 }}
@@ -35,7 +36,7 @@ The icone ![](images/PartToVRML.png )
     __Comment__ = "This macro creates VRML model of selected object(s), with colors (for Kicad and Blender compatibility)"
     __Web__ = "http://www.freecadweb.org/"
     __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_PartToVRML"
-    __Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_PartToVRML.png"
+    __Icon__  = "https://wiki.freecad.org/images/f/f8/PartToVRML.png"
     __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_PartToVRML.png"
     __Help__ = "start the macro and follow the instructions"
     __Status__ = "stable"

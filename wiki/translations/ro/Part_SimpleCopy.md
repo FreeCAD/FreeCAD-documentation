@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Introducere
 
 Elimină istoricul piesei, astfel încât pașii diferiți pentru a crea piesa nu mai sunt accesibili / editabili de loc.
@@ -21,6 +23,8 @@ With Simple copy only a non-parametric simple solid is produced, so if you want 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

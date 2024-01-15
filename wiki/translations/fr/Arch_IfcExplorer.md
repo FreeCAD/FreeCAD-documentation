@@ -22,9 +22,11 @@ Le but de cet explorateur est simplement de vous permettre de vérifier ce qui e
 *Explorateur Ifc avec certaines de ses propriétés*
     
 
+
+
 ## Utilisation
 
-1.  Lancez l\'Explorateur IFC via:
+1.  Lancez l\'Explorateur IFC via :
     -   En appuyant sur le bouton <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;">
     -   Utilisation de l\'entrée **Arch → Utilitaires → Explorateur IFC** dans le menu déroulant Arch.
 

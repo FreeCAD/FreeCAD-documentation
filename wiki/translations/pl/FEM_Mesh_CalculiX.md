@@ -1,92 +1,136 @@
 # FEM Mesh CalculiX/pl
-## FEM element types in CalculiX 
+## Typy elementów MES w CalculiX 
 
-For detailed information on FreeCAD FEM elements see [FEM Mesh](FEM_Mesh.md) and [FEM Element Types](FEM_Element_Types.md). For CalculiX specific questions you may try the [Discourse group](https://calculix.discourse.group) or the [Discord channel](https://discord.gg/yyuQQg5).
+Szczegółowy informacje na temat elementów skończonych we FreeCAD można znaleźć na stronach [MES: Siatka](FEM_Mesh/pl.md) i [MES: Rodzaje elementów](FEM_Element_Types/pl.md). Pytania związane ściśle z solverem CalculiX można zadawać na grupach [Discourse](https://calculix.discourse.group) i [Discord](https://discord.gg/yyuQQg5).
 
-### Segment element 
 
-   
-  seg2 FreeCAD nodes                      seg3 FreeCAD nodes
-  <img alt="" src=images/Seg2.png  style="width:250px;">   <img alt="" src=images/Seg3--fc.png  style="width:250px;">
-  seg2 (B31) CalculiX nodes               seg3 (B32) CalculiX nodes
-  <img alt="" src=images/Seg2.png  style="width:250px;">   <img alt="" src=images/Seg3--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes               
-  N1, N2                                  N1, N3, N2
-   
 
-  : **Segment element from FreeCAD to CalculiX \-- node assignment**
+## Element 1D 
 
-### Triangle element 
++++
+| seg2 FreeCAD węzły                    | seg3 FreeCAD węzły                              |
++++
+| <img alt="" src=images/Seg2.png  style="width:250px;"> | <img alt="" src=images/Seg3--fc.png  style="width:250px;">   |
++++
+| seg2 (B31) CalculiX węzły             | seg3 (B32) CalculiX węzły                       |
++++
+| <img alt="" src=images/Seg2.png  style="width:250px;"> | <img alt="" src=images/Seg3--ccx.png  style="width:250px;"> |
++++
+| FreeCAD → CalculiX, węzły             |                                                 |
++++
+| N1, N2                                | N1, N3, N2                                      |
++++
 
-   
-  tria3 FreeCAD nodes                                 tria6 FreeCAD nodes
-  <img alt="" src=images/Tria3--fc.png  style="width:250px;">     <img alt="" src=images/Tria6--fc.png  style="width:250px;">
-  tria3 (S3) CalculiX nodes                           tria6 (S6) CalculiX nodes
-  <img alt="" src=images/Tria3--ccx.png  style="width:250px;">   <img alt="" src=images/Tria6--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes                           
-  N1, N2, N3                                          N1, N2, N3, N4, N5, N6
-   
+: **Element 1D z FreeCAD do CalculiX \-- przypisanie węzłów**
 
-  : **Triangle element from FreeCAD to CalculiX \-- node assignment**
 
-### Quadratic element 
 
-   
-  quad4 FreeCAD nodes                                 quad8 FreeCAD nodes
-  <img alt="" src=images/Quad4--fc.png  style="width:250px;">     <img alt="" src=images/Quad8--fc.png  style="width:250px;">
-  quad4 (S4) CalculiX nodes                           quad8 (S8) CalculiX nodes
-  <img alt="" src=images/Quad4--ccx.png  style="width:250px;">   <img alt="" src=images/Quad8--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes                           
-  N1, N2, N3, N4                                      N1, N2, N3, N4, N5, N6, N7, N8
-   
+## Element trójkątny 
 
-  : **Quadratic element from FreeCAD to CalculiX \-- node assignment**
++++
+| tria3 FreeCAD węzły                               | tria6 FreeCAD węzły                               |
++++
+| <img alt="" src=images/Tria3--fc.png  style="width:250px;">   | <img alt="" src=images/Tria6--fc.png  style="width:250px;">   |
++++
+| tria3 (S3) CalculiX węzły                         | tria6 (S6) CalculiX węzły                         |
++++
+| <img alt="" src=images/Tria3--ccx.png  style="width:250px;"> | <img alt="" src=images/Tria6--ccx.png  style="width:250px;"> |
++++
+| FreeCAD → CalculiX, węzły                         |                                                   |
++++
+| N1, N2, N3                                        | N1, N2, N3, N4, N5, N6                            |
++++
 
-### Tetrahedron element 
+: **Element trójkątny z FreeCAD do CalculiX \-- przypisanie węzłów**
 
-The following node order is not implemented ! TODO: verify node order (do not forget getccxVolumesByFace()).
 
-   
-  tetra4 FreeCAD nodes                                  tetra10 FreeCAD nodes
-  <img alt="" src=images/Tetra4--fc.png  style="width:250px;">     <img alt="" src=images/Tetra10--fc.png  style="width:250px;">
-  tetra4 (C3D4) CalculiX nodes                          tetra10 (C3D10) CalculiX nodes
-  <img alt="" src=images/Tetra4--ccx.png  style="width:250px;">   <img alt="" src=images/Tetra10--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes                             
-  N2, N3, N4, N1                                        N2, N3, N4, N1, N6, N10, N9, N5, N7, N8
-   
 
-  : **Tetrahedron element from FreeCAD to CalculiX \-- node assignment**
+### Element czworokątny 
 
-### Hexahedron element 
++++
+| quad4 FreeCAD węzły                               | quad8 FreeCAD węzły                               |
++++
+| <img alt="" src=images/Quad4--fc.png  style="width:250px;">   | <img alt="" src=images/Quad8--fc.png  style="width:250px;">   |
++++
+| quad4 (S4) CalculiX węzły                         | quad8 (S8) CalculiX węzły                         |
++++
+| <img alt="" src=images/Quad4--ccx.png  style="width:250px;"> | <img alt="" src=images/Quad8--ccx.png  style="width:250px;"> |
++++
+| FreeCAD → CalculiX, węzły                         |                                                   |
++++
+| N1, N2, N3, N4                                    | N1, N2, N3, N4, N5, N6, N7, N8                    |
++++
 
-   
-  hexa8 FreeCAD nodes                                 hexa20 FreeCAD nodes
-  <img alt="" src=images/Hexa8--fc.png  style="width:250px;">     <img alt="" src=images/Hexa20--fc.png  style="width:250px;">
-  hexa8 (C3D8) CalculiX nodes                         hexa20 (C3D20) CalculiX nodes
-  <img alt="" src=images/Hexa8--ccx.png  style="width:250px;">   <img alt="" src=images/Hexa20--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes                           
-  N6, N7, N8, N5, N2, N3, N4, N1                      N6, N7, N8, N5, N2, N3, N4, N1, N14, N15, N16, N13, N10, N11, N12, N9, N18, N19, N20, N17
-   
+: **Element czworokątny z FreeCAD do CalculiX \-- przypisanie węzłów**
 
-  : **Hexahedron element from FreeCAD to CalculiX \-- node assignment**
 
-### Pentahedron element 
 
-   
-  penta6 FreeCAD nodes                                  penta15 FreeCAD nodes
-  <img alt="" src=images/penta6--fc.png  style="width:250px;">     <img alt="" src=images/Penta15--fc.png  style="width:250px;">
-  penta6 (C3D6) CalculiX nodes                          penta15 (C3D15) CalculiX nodes
-  <img alt="" src=images/Penta6--ccx.png  style="width:250px;">   <img alt="" src=images/Penta15--ccx.png  style="width:250px;">
-  FreeCAD → CalculiX, Nodes                             
-  N5, N6, N4, N2, N3, N1                                N5, N6, N4, N2, N3, N1, N11, N12, N10, N8, N9, N7, N14, N15, N13
-   
+## Element czworościenny 
 
-  : **Pentahedron element from FreeCAD to CalculiX \-- node assignment**
+Następująca kolejność węzłów nie jest zaimplementowanaǃ Do zrobieniaː zweryfikować kolejność węzłów *(nie zapomnieć getccxVolumesByFace())*.
 
-## Related
++++
+| tetra4 FreeCAD węzły                                | tetra10 FreeCAD węzły                                 |
++++
+| <img alt="" src=images/Tetra4--fc.png  style="width:250px;">   | <img alt="" src=images/Tetra10--fc.png  style="width:250px;">   |
++++
+| tetra4 (C3D4) CalculiX węzły                        | tetra10 (C3D10) CalculiX węzły                        |
++++
+| <img alt="" src=images/Tetra4--ccx.png  style="width:250px;"> | <img alt="" src=images/Tetra10--ccx.png  style="width:250px;"> |
++++
+| FreeCAD → CalculiX, węzły                           |                                                       |
++++
+| N2, N3, N4, N1                                      | N2, N3, N4, N1, N6, N10, N9, N5, N7, N8               |
++++
 
--   [FEM CalculiX](FEM_CalculiX.md) page
--   [CalculiX preferences](FEM_Preferences#CalculiX.md) dialog menu in the FEM Workbench preferences menu
+: **Element czworościenny z FreeCAD do CalculiX \-- przypisanie węzłów**
+
+
+
+## Element prostopadłościenny 
+
++++
+| hexa8 FreeCAD węzły                               | hexa20 FreeCAD węzły                                                                      |
++++
+| <img alt="" src=images/Hexa8--fc.png  style="width:250px;">   | <img alt="" src=images/Hexa20--fc.png  style="width:250px;">                                         |
++++
+| hexa8 (C3D8) CalculiX węzły                       | hexa20 (C3D20) CalculiX węzły                                                             |
++++
+| <img alt="" src=images/Hexa8--ccx.png  style="width:250px;"> | <img alt="" src=images/Hexa20--ccx.png  style="width:250px;">                                       |
++++
+| FreeCAD → CalculiX, węzły                         |                                                                                           |
++++
+| N6, N7, N8, N5, N2, N3, N4, N1                    | N6, N7, N8, N5, N2, N3, N4, N1, N14, N15, N16, N13, N10, N11, N12, N9, N18, N19, N20, N17 |
++++
+
+: **Element prostopadłościenny z FreeCAD do CalculiX \-- przypisanie węzłów**
+
+
+
+### Element pięciościenny 
+
++++
+| penta6 FreeCAD węzły                                | penta15 FreeCAD węzły                                            |
++++
+| <img alt="" src=images/penta6--fc.png  style="width:250px;">   | <img alt="" src=images/Penta15--fc.png  style="width:250px;">              |
++++
+| penta6 (C3D6) CalculiX węzły                        | penta15 (C3D15) CalculiX węzły                                   |
++++
+| <img alt="" src=images/Penta6--ccx.png  style="width:250px;"> | <img alt="" src=images/Penta15--ccx.png  style="width:250px;">            |
++++
+| FreeCAD → CalculiX, węzły                           |                                                                  |
++++
+| N5, N6, N4, N2, N3, N1                              | N5, N6, N4, N2, N3, N1, N11, N12, N10, N8, N9, N7, N14, N15, N13 |
++++
+
+: **Element pięciościenny z FreeCAD do CalculiX \-- przypisanie węzłów**
+
+
+
+## Powiązane
+
+-   Strona [MESː CalculiX](FEM_CalculiX/pl.md)
+-   Okno dialogowe [preferencji CalculiX](FEM_Preferences/pl#CalculiX.md) w menu preferencji środowiska pracy MES
 
 
 {{FEM Tools navi

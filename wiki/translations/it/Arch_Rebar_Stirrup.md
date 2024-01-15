@@ -1,33 +1,24 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_Stirrup
-   Name/it: Staffe armatura
-   MenuLocation: Arch , Strumenti armatura , Staffe armatura o BIM , 3D/BIM , Reinforcement , Stirrup
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_Helical/it, Arch Rebar/it
+   Name: Arch Rebar Stirrup
+   Name/it: Staffe
+   MenuLocation: Arch , Strumenti di armatura , Staffa<br>BIM , Reinforcement tools , Staffa
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_Helical/it
 ---
 
 # Arch Rebar Stirrup/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-Lo strumento [Staffe armatura](Arch_Rebar_Stirrup/it.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
+Lo strumento [Staffa](Arch_Rebar_Stirrup/it.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
 
-Lo strumento **Staffe armatura** è anche integrato in [BIM](BIM_Workbench/it.md).
-
-
-<div class="mw-translate-fuzzy">
+Lo strumento [Staffa](Arch_Rebar_Stirrup/it.md) è anche integrato in [BIM](BIM_Workbench.md).
 
 Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
 
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Un set di staffe di rinforzo all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -36,38 +27,27 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
-2.  Quindi selezionare **<img src="images/Arch_Rebar_Stirrup.svg" width=16px> [Staffa armatura](Arch_Rebar_Stirrup/it.md)** dagli strumenti armatura.
+2.  Quindi selezionare **<img src="images/Arch_Rebar_Stirrup.svg" width=16px> [Staffa](Arch_Rebar_Stirrup/it.md)** dagli strumenti dell\'armatura.
 
-3.  Sul lato sinistro dello schermo appare un [pannello delle azioni](task_panel/it.md) come sottostante.
+3.  Sul lato sinistro dello schermo appare un [pannello](task_panel/it.md) come quello sottostante.
 
 4.  Selezionare l\'orientamento desiderato.
 
-5.  Fornire i dati per \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' e \'Diameter\' dell\'armatura.
+5.  Fornire i dati per \'Copriferro sinistro\', \'Copriferro destro\', \'Copriferro superiore\', \'Copriferro inferiore\', \'Copriferro anteriore\', \'Angolo di piegatura\', \'Fattore di piegatura\', \'Arrotondamento\' e \'Diametro\' dell\'armatura.
 
-6.  Selezionare la modalità di distribuzione \'Amount\' o \'Spacing\' (quantità o spaziatura).
+6.  Selezionare la modalità di distribuzione \'Quantità\' o \'Passo\'.
+    -   Se è selezionato \'Passo\' l\'utente può anche optare per una [Passo personalizzato](Custom_Spacing/it.md).
 
-7.  Se è selezionata \'Spacing\', la spaziatura, l\'utente può anche optare per una [spaziatura personalizzata](Custom_Spacing/it.md).
+7.  
+    **Usa lato selezionato**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
 
-8.  
-    **Pick Selected Face**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
+8.  Cliccare **OK** o **Applica** per generare l\'armatura.
 
-9.  Cliccare **OK** o **Applica** per generare l\'armatura.
+9.  Cliccare **Annulla** per uscire dal pannello.
 
-10. Cliccare **Annulla** per uscire dal pannello delle azioni.
-
-
-</div>
-
-
-:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/StirrupDialog.png  style="width:250px;"> 
 *Pannello Azioni per lo strumento Staffe armatura di Arch*
 
 
@@ -94,11 +74,6 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
-
-
-
-<div class="mw-translate-fuzzy">
-
 ## Scripting
 
 
@@ -106,23 +81,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Staffe armatura può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Staffe armatura può essere usato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -186,15 +145,6 @@ import Stirrup
 Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
                     100, 4, 14, 8, True, 8)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

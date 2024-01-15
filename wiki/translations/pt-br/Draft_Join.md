@@ -10,18 +10,24 @@
 
 # Draft Join/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Draft Join** command joins [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md) into a single wire. This command is the counterpart of the [Draft Split](Draft_Split.md) command.
+
+
 
 ## Utilização
 
 1.  The end points of the [Draft Lines](Draft_Line.md) and/or [Draft Wires](Draft_Wire.md) to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
 2.  Select two or more [Draft Lines](Draft_Line.md) and/or [Draft Wires](Draft_Wire.md).
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Join.svg" width=16px> [Draft Join](Draft_Join.md)** button.
+    -   Press the **<img src="images/Draft_Join.svg" width=16px> [Join](Draft_Join.md)** button.
     -   Select the **Modification → <img src="images/Draft_Join.svg" width=16px> Join** option from the menu.
     -   Use the keyboard shortcut: **J** then **O**.
+
+
 
 ## Notas
 

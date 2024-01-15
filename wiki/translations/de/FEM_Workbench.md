@@ -36,119 +36,105 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
-## Menü: Modell 
+## Menü Modell 
 
--   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Analyse-Container](FEM_Analysis/de.md): Erstellt einen neuen Behälter (Analysis-Objekt) für eine mechanische Analyse. Wenn in der Baumansicht vor dem Anklicken ein Festkörper ausgewählt wird, wird als nächstes der Vernetzungsdialog geöffnet.
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Analysebehälter](FEM_Analysis/de.md): Erstellt einen neuen Behälter (Analysis-Objekt) für eine mechanische Analyse. Wenn in der Baumansicht vor dem Anklicken ein Festkörper ausgewählt wird, wird als nächstes der Vernetzungsdialog geöffnet.
 
 
 
 ### Werkstoffe
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Werkstoff für Festkörper](FEM_MaterialSolid/de.md): Ermöglicht, einen Feststoff aus der Datenbank auszuwählen.
+  - <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Werkstoff für Festkörper](FEM_MaterialSolid/de.md): Ermöglicht, einen Feststoff aus der Datenbank auszuwählen.
 
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Werkstoff für Fluide](FEM_MaterialFluid/de.md): Ermöglicht, ein \"fließendes Material\" (Gas oder Flüssigkeit) aus der Datenbank auszuwählen.
+  - <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Werkstoff für Fluide](FEM_MaterialFluid/de.md): Ermöglicht, ein \"fließendes Material\" (Gas oder Flüssigkeit) aus der Datenbank auszuwählen.
 
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nichtlinearer mechanischer Werkstoff](FEM_MaterialMechanicalNonlinear/de.md): Ermöglicht das Hinzufügen eines nichtlinearen mechanischen Materialmodells.
+  - <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nichtlinearer mechanischer Werkstoff](FEM_MaterialMechanicalNonlinear/de.md): Ermöglicht das Hinzufügen eines nichtlinearen mechanischen Materialmodells.
 
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Bewehrtes Material (Beton)](FEM_MaterialReinforced/de.md): Ermöglicht, verstärkte Werkstoffe aus der Datenbank auszuwählen, die aus einer Matrix und einer Bewehrung (Verstärkung, Armierung) bestehen.
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Bewehrtes Material (Beton)](FEM_MaterialReinforced/de.md): Ermöglicht, verstärkte Werkstoffe aus der Datenbank auszuwählen, die aus einer Matrix und einer Bewehrung (Verstärkung, Armierung) bestehen.
 
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md): Ermöglicht, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
+  - <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Werkstoffeditor](FEM_MaterialEditor/de.md): Ermöglicht, den Werkstoffeditor zu öffnen, um Werkstoffe zu bearbeiten.
 
 
 
 ### Elementgeometrie
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Trägerquerschnitt](FEM_ElementGeometry1D/de.md): Wird verwendet, um Querschnitte für Balkenelemente zu definieren.
+  - <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Trägerquerschnitt](FEM_ElementGeometry1D/de.md): Wird verwendet, um Querschnitte für Balkenelemente zu definieren.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Träger Drehung](FEM_ElementRotation1D/de.md): Wird verwendet, um Querschnitte von Balkenelementen zu drehen.
+  - <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Träger Drehung](FEM_ElementRotation1D/de.md): Wird verwendet, um Querschnitte von Balkenelementen zu drehen.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Wandstärke](FEM_ElementGeometry2D/de.md): Wird verwendet, um die Wandstärke für Schalenelemente festzulegen.
+  - <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Wandstärke](FEM_ElementGeometry2D/de.md): Wird verwendet, um die Wandstärke für Schalenelemente festzulegen.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Strömungsquerschnitt für 1D-Strömung](FEM_ElementFluid1D/de.md): Wird verwendet, um einen FEM-Strömungsquerschnitt für pneumatische und hydraulische Netzwerke festzulegen.
+  - <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Strömungsquerschnitt für 1D-Strömung](FEM_ElementFluid1D/de.md): Wird verwendet, um einen FEM-Strömungsquerschnitt für pneumatische und hydraulische Netzwerke festzulegen.
 
 
 
 ### Elektromagnetische Randbedingungen 
 
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Elektromagnetische Randbedingungen](FEM_CompEmConstraints/de.md): Dies ist ein Symbolmenü in der Symbolleiste FEM Constraints, das die folgenden Randbedingungen enthält:
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Elektrostatisches Potential](FEM_ConstraintElectrostaticPotential/de.md): Legt ein elektrostatisches Potential fest.
 
-  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Elektrostatisches Potential](FEM_ConstraintElectrostaticPotential/de.md): Wird zum Festlegen eines elektrostatischen Potentials verwendet.
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Randbedingung Stromdichte](FEM_ConstraintCurrentDensity/de.md): Legt eine Stromdichte fest. {{Version/de|0.21}}
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Stromdichte](FEM_ConstraintCurrentDensity/de.md): Wird zum Festlegen einer Stromdichte verwendet. {{Version/de|0.21}}
-
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnetisierung](FEM_ConstraintMagnetization/de.md): Wird zum Festlegen einer Magnetisierung verwendet. {{Version/de|0.21}}
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Randbedingung Magnetisierung](FEM_ConstraintMagnetization/de.md): Wird zum Festlegen einer Magnetisierung verwendet. {{Version/de|0.21}}
 
 
 
-### Randbedingungen für Strömungen 
+### Randbedingungen für Fluide 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Startwert Strömungsgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md): Wird verwendet, um eine anfängliche Strömungsgeschwindigkeit für einen Körper (ein Volumen) zu definieren.
+  - <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Startbedingung Strömungsgeschwindigkeit](FEM_ConstraintInitialFlowVelocity/de.md): Wird verwendet, um eine anfängliche Strömungsgeschwindigkeit für einen Körper (ein Volumen) zu definieren.
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Startwert Druck](FEM_ConstraintInitialPressure/de.md): Wird verwendet, um einen anfänglichen Druck für einen Körper (ein Volumen) festzulegen. {{Version/de|0.21}}
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Startbedingung Druck](FEM_ConstraintInitialPressure/de.md): Wird verwendet, um einen anfänglichen Druck für einen Körper (ein Volumen) festzulegen. {{Version/de|0.21}}
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Strömungsgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md): Wird verwendet, um eine Strömungsgeschwindigkeit als Grenzbedingung an einer Kante (2D) oder Fläche (3D) festzulegen.
-
-
-
-### Geometrische Randbedingungen 
-
--   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Drehung der Beschränkungsebene](FEM_ConstraintPlaneRotation/de.md): Wird verwendet, um eine Beschränkung der Ebenendrehung auf einer ebenen Fläche festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [ConstraintSectionPrint](FEM_ConstraintSectionPrint/de.md): Wird zur Ausgabe der vorgegebenen \"facial output variables\" (Kräfte und Momente) in die dat-Datei verwendet.
-
--   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Transformationsbeschränkung](FEM_ConstraintTransform/de.md): Verwendet, um eine Transformationsbeschränkung für eine Fläche festzulegen.
+  - <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Randbedingung Strömungsgeschwindigkeit](FEM_ConstraintFlowVelocity/de.md): Wird verwendet, um eine Strömungsgeschwindigkeit als Grenzbedingung an einer Kante (2D) oder Fläche (3D) festzulegen.
 
 
 
-### Mechanische Randbedingungen 
+### Geometrische Analyse-Elemente 
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Festsetzen](FEM_ConstraintFixed/de.md): Wird verwendet, um Punkte, Kanten oder Flächen festzusetzen.
+-   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [RandbedingungEbeneDurchPunkte](FEM_ConstraintPlaneRotation/de.md): Wird verwendet, um eine Randbedingung zu erstellen, die Knoten einer ebenen Oberfläche auf derselben Ebene festhält.
 
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Versatz](FEM_ConstraintDisplacement/de.md): Wird verwendet, um einen Versatz für Punkte, Kanten oder Flächen festzulegen.
+-   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Section print feature](FEM_ConstraintSectionPrint/de.md): Wird zur Ausgabe der vorgegebenen \"facial output variables\" (Kräfte und Momente) in die Daten-Datei verwendet.
 
--   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Kontakt](FEM_ConstraintContact/de.md): Wird verwendet, um eine Randbedingung Kontakt zwischen zwei Flächen festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Verbinder](FEM_ConstraintTie/de.md): Wird verwendet, um eine Randbedingung Vebinder (wie ein Kleber- oder Schweißpunkt) zwischen zwei Flächen (\"bonded contact\") festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Feder](FEM_ConstraintSpring/de.md): Wird verwendet, um eine Randbedingung Feder festzulegen. {{Version/de|0.20}}
-
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Kraft](FEM_ConstraintForce/de.md): Wird verwendet, um eine Kraft in \[N\] festzulegen, die gleichmäßig auf eine auswählbare Fläche in einer definierbaren Richtung wirkt.
-
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Druck](FEM_ConstraintPressure/de.md): Wird verwendet, um eine Randbedingung Druck festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Randbedingung Zentrifugal-Belastung](FEM_ConstraintCentrif/de.md): Wird verwendet, um eine Randbedingung Zentrifugal-Belastung festzulegen. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Eigengewichtsbeschränkung](FEM_ConstraintSelfWeight/de.md): Wird verwendet, um eine Schwerkraftbeschleunigung festzulegen, die auf ein Modell wirkt.
+-   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Lokales Koordinatensystem](FEM_ConstraintTransform/de.md): Wird verwendet, um eine Randbedingung Überführen auf einer Fläche festzulegen.
 
 
 
-### Thermische Randbedingungen 
+### Mechanische Randbedingungen und Lasten 
 
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Anfangstemperaturbeschränkung](FEM_ConstraintInitialTemperature/de.md): Wird verwendet, um die Anfangstemperatur eines Körpers festzulegen.
+  - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md): Wird verwendet, um Punkte, Kanten oder Flächen festzusetzen.
 
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Wärmestrombeschränkung](FEM_ConstraintHeatflux/de.md): Wird verwendet, um eine Wärmestrombeschränkung auf einer Fläche(n) festzulegen.
+  - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Randbedingung Versatz](FEM_ConstraintDisplacement/de.md): Wird verwendet, um einen Versatz für Punkte, Kanten oder Flächen festzulegen.
 
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Temperaturbeschränkung](FEM_ConstraintTemperature/de.md): Wird verwendet, um eine Temperaturbeschränkung für einen Punkt/Kante/Fläche(n) festzulegen.
+  - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Randbedingung Kontakt](FEM_ConstraintContact/de.md): Wird verwendet, um eine Randbedingung Kontakt zwischen zwei Flächen festzulegen.
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Körperwärmequelle beschränken](FEM_ConstraintBodyHeatSource/de.md):
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Randbedingung Verbinder](FEM_ConstraintTie/de.md): Wird verwendet, um eine Randbedingung Vebinder (wie ein Kleber- oder Schweißpunkt) zwischen zwei Flächen (\"bonded contact\") festzulegen.
 
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Feder](FEM_ConstraintSpring/de.md): Wird verwendet, um eine Randbedingung Feder festzulegen. {{Version/de|0.20}}
 
+  - <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Kraftbelastung](FEM_ConstraintForce/de.md): Wird verwendet, um eine Kraft in \[N\] festzulegen, die gleichmäßig auf eine auswählbare Fläche in einer definierbaren Richtung wirkt.
 
-### Randbedingungen ohne Löser 
+  - <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Druckbelastung](FEM_ConstraintPressure/de.md): Wird verwendet, um eine Randbedingung Druck festzulegen.
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid Randbedingungen](FEM_ConstraintFluidBoundary/de.md): Wird zum festlegen einer Fluid-Grenzschicht-Bedingung.
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Zentrifugale Last](FEM_ConstraintCentrif/de.md): Legt eine zentrifugale Last auf einen Körper fest. {{Version/de|0.20}}
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Lagerbeschränkung](FEM_ConstraintBearing/de.md): Wird verwendet, um eine Lagerbeschränkung festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Zahnradbeschränkung](FEM_ConstraintGear/de.md): Wird verwendet, um eine Zahnradbeschränkung festzulegen.
-
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Scheibenbeschränkung](FEM_ConstraintPulley/de.md): Wird verwendet, um eine Scheibenbeschränkung festzulegen.
+  - <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Schwerkraft-Last](FEM_ConstraintSelfWeight/de.md): Wird verwendet, um eine Schwerkraftbeschleunigung festzulegen, die auf ein Modell wirkt.
 
 
 
-### Überschreiben von Konstanten 
+### Thermische Randbedingungen und Lasten 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [ElektrischeFeldkonstante](FEM_ConstantVacuumPermittivity/de.md): Wird verwendet, um die [elektrische Feldkonstante](https://de.wikipedia.org/wiki/Elektrische_Feldkonstante) (Permittivität des Vakuums) mit einem selbstgewählten Wert zu überschreiben.
+  - <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Startbedingung Temperatur](FEM_ConstraintInitialTemperature/de.md): Wird verwendet, um die Anfangstemperatur eines Körpers festzulegen.
+
+  - <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Wärmestrom-Last](FEM_ConstraintHeatflux/de.md): Wird verwendet, um eine Randbedingung Wärmestrom auf einer Fläche(n) festzulegen.
+
+  - <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [RandbedingungTemperatur](FEM_ConstraintTemperature/de.md): Wird verwendet, um eine Randbedingung Temperatur für einen Punkt, eine Kante oder Fläche(n) festzulegen.
+
+  - <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Körperwärmequelle](FEM_ConstraintBodyHeatSource/de.md): zum Festlegen von intern erzeugter Körperwärme.
+
+
+
+### Konstanten Überschreiben 
+
+  - <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [ElektrischeFeldkonstante](FEM_ConstantVacuumPermittivity/de.md): Wird verwendet, um die [elektrische Feldkonstante](https://de.wikipedia.org/wiki/Elektrische_Feldkonstante) (Permittivität des Vakuums) mit einem selbstgewählten Wert zu überschreiben.
 
 
 
@@ -174,21 +160,23 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md): Erstellt einen neuen Löser für diese Analyse.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Löser CalculiX (neuer Aufbau)](FEM_SolverCalculiX/de.md): Gleicht dem originalen Aufbau <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md) mit zusätzlichen Prüfungen.
-
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Löser Elmer](FEM_SolverElmer/de.md): Erstellt die Löser-Steuerung für Elmer.
 
 -   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Löser Mystran](FEM_SolverMystran/de.md): Erstellt die Löser-Steuerung für Mystran. {{Version/de|0.20}}
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Löser Z88](FEM_SolverZ88/de.md): Erstellt die Löser-Steuerung für Z88.
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanische Gleichungen](FEM_CompMechEquations/de.md): Dies ist ein Symbolmenü in der Symbolleiste FEM Equations, das die folgenden Gleichungen enthält: {{Version/de|0.21}}
+
+
+### Mechanische Gleichungen 
 
   - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elastizitätsgleichung](FEM_EquationElasticity/de.md): Gleichung für den Löser <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer.md) zur Durchführung linearer mechanischer Analysen.
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Verformung](FEM_EquationDeformation/de.md): Gleichung für den Löser <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/de.md) zur Durchführung nicht linearer mechanischer Analysen (Verformungen). {{Version/de|0.21}}
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Elektromagnetische Gleichungen](FEM_CompEmEquations/de.md): Dies ist ein Symbolmenü in der Symbolleiste FEM Gleichungen, das die folgenden Gleichungen enthält: {{Version/de|0.21}}
+
+
+### Elektromagnetische Gleichungen 
 
   - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Gleichung Elektrostatik](FEM_EquationElectrostatic/de.md): Gleichung für den Löser <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/de.md) zur Durchführung elektrostatischer Analysen.
 
@@ -236,7 +224,9 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/de.md): zur Darstellung des Wertes eines ausgewählten Feldes an einem gegebenen Punkt
 
--   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:48px;"> [Filterfunktionen](FEM_PostCreateFunctions/de.md): Dies ist ein Symbolmenü in der Symbolleiste FEM Results, das folgende Befehle beinhaltet:
+
+
+### Filterfunktionen
 
   - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Ebene](FEM_PostCreateFunctionPlane/de.md): Beschneidet das Ergebnisnetz mit einer Ebene.
 
@@ -266,6 +256,20 @@ Der Arbeitsbereich FEM kann unter Linux, Windows und Mac OSX eingesetzt werden. 
 
 
 
+## Veraltete Werkzeuge 
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid Randbedingungen](FEM_ConstraintFluidBoundary/de.md): Wird zum festlegen einer Fluid-Grenzschicht-Bedingung verwendet. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Lagerbeschränkung](FEM_ConstraintBearing/de.md): Wird verwendet, um eine Lagerbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Zahnradbeschränkung](FEM_ConstraintGear/de.md): Wird verwendet, um eine Zahnradbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Scheibenbeschränkung](FEM_ConstraintPulley/de.md): Wird verwendet, um eine Scheibenbeschränkung festzulegen. Besaß keinen Löser. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Löser CalculiX (neuer Aufbau)](FEM_SolverCalculiX/de.md): Gleicht dem originalen Aufbau <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Löser CalculiX Standard](FEM_SolverCalculixCxxtools/de.md) mit zusätzlichen Prüfungen. Das Werkzeug war nicht fertiggestellt. Nicht vorhanden in {{VersionPlus/de|0.22}}.
+
+
+
 ## Einstellungen
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Einstellungen\...](FEM_Preferences/de.md): Einstellungen, die in den FEM Werkzeugen verfügbar sind.
@@ -276,7 +280,9 @@ Die folgenden Seiten erläutern verschiedene Themen des FEM Arbeitsbereichs.
 
 [FEM Installieren](FEM_Install/de.md): eine detaillierte Beschreibung, wie die im Arbeitsbereich verwendeten externen Programme eingerichtet werden.
 
-[FEM Netz](FEM_Mesh/de.md): weitere Informationen zur Erlangung eines Netzes für die Finite Elemente Analyse.
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): Tipps bezüglich Geometrievorbereitung für FEM und Netzerstellung (engl.).
+
+[FEM Netz](FEM_Mesh/de.md): Einzelheiten zu Netzen im Arbeitsbereich FEM.
 
 [FEM Löser](FEM_Solver/de.md): weitere Informationen über die verschiedenen im Arbeitsbereich verfügbaren und zukünftig einsetzbaren Löser.
 

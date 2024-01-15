@@ -11,9 +11,9 @@
 
 ## Höhepunkte
 
-   
-  <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;">   Horizontale 4 Zylinder Drehschieber Dampfmaschine, von \"un1corn\", [Anwender Schaukasten](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602).
-   
++++
+| <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;"> | Horizontale 4 Zylinder Drehschieber Dampfmaschine, von \"un1corn\", [Anwender Schaukasten](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602). |
++++
 
 +++
 | <img alt="" src=images/FreeCAD_highlight_2_0.19.png  style="width:512px;"> | Vorentwurf von MAORY, einem Modul für adaptive Optik (AO) für das European Extremely Large Telescope (E-ELT); hier ist es auf der E-ELT Nasmyth Plattform montiert.                                                                                                                                                                                                                                                                                                             |
@@ -194,10 +194,11 @@ Neben der Einführung von [Anwendungsverknüpfung](App_Link/de.md) wurden mit de
 
 ## Erweiterungsverwalter
 
-   
-  <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;">   Der [Addon-Manager](Std_AddonMgr/de.md) wurde aktualisiert; er ist nun in der Lage, vollständigere Informationen zu allen [externen Arbeitsbereichen](external_workbenches/de.md) und [Makros](macros_recipes/de.md) anzuzeigen und für jedes von ihnen ein Symbol anzuzeigen. Es ermöglicht auch, beim Start nach Aktualisierungen zu suchen und benutzerdefinierte Repositorien zu verwenden. [Diskussion im Forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394).
-  <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">         Es zeigt auch Informationen darüber an, ob die Erweiterung veraltet, bereits installiert oder zur Aktualisierung verfügbar ist. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).
-   
++++
+| <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;"> | Der [Addon-Manager](Std_AddonMgr/de.md) wurde aktualisiert; er ist nun in der Lage, vollständigere Informationen zu allen [externen Arbeitsbereichen](external_workbenches/de.md) und [Makros](macros_recipes/de.md) anzuzeigen und für jedes von ihnen ein Symbol anzuzeigen. Es ermöglicht auch, beim Start nach Aktualisierungen zu suchen und benutzerdefinierte Repositorien zu verwenden. [Diskussion im Forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394). |
++++
+| <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">       | Es zeigt auch Informationen darüber an, ob die Erweiterung veraltet, bereits installiert oder zur Aktualisierung verfügbar ist. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).                                                                                                                                                                                                       |
++++
 
 
 
@@ -486,9 +487,9 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 
 ## Arbeitsbereich Pfad 
 
-   
-  <img alt="" src=images/CoolantModes.png  style="width:384px;">   Added coolant modes for coolant management. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=38852&start=10#p329868), [pull request #2463](https://github.com/FreeCAD/FreeCAD/pull/2463).
-   
++++
+| <img alt="" src=images/CoolantModes.png  style="width:384px;"> | Added coolant modes for coolant management. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=38852&start=10#p329868), [pull request #2463](https://github.com/FreeCAD/FreeCAD/pull/2463). |
++++
 
 -   New Tool Management system (Toolbits) [Wiki Page](https://wiki.freecadweb.org/Path_Tools), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=54521)
 
@@ -525,9 +526,9 @@ Die Entwickler von [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbenc
 
 -   New operation: **Slot**. Allows for creation of a horizontal slotting operation based on two custom points; the selection of one or more faces or edges; or the selection of two vertices. [forum discussion](https://forum.freecadweb.org/viewtopic.php?style=3&f=15&t=47693), [initial pull request #3624](https://github.com/FreeCAD/FreeCAD/pull/3624).
 
-    
-  ![V-Carve example](images/Vcarve.png )   New operation: **V-Carve** Allows for center-line engraving with V-bit.   [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=36135), [initial pull request #3879](https://github.com/FreeCAD/FreeCAD/pull/3879).
-    
+++++
+| ![V-Carve example](images/Vcarve.png ) | New operation: **V-Carve** Allows for center-line engraving with V-bit. | [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=36135), [initial pull request #3879](https://github.com/FreeCAD/FreeCAD/pull/3879). |
+++++
 
 -   General:
     -   Added cycle time calculations to operations and total cycle time to the job; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=26864), [pull request #3378](https://github.com/FreeCAD/FreeCAD/pull/3378).
@@ -600,9 +601,9 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 
 ## Arbeitsbereich Start 
 
-   
-  <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;">   Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316).
-   
++++
+| <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;"> | Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316). |
++++
 
 
 
@@ -703,9 +704,9 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 
 Siehe [Makrorezepte](Macros_recipes/de.md) für viele weitere Makros.
 
-   
-  <img alt="" src=images/Structural_frame.png  style="width:384px;">   Automatischer Leichtbaustahlrahmen Ersteller und Paneelisierer . [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) Repositorium (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) beispiel.
-   
++++
+| <img alt="" src=images/Structural_frame.png  style="width:384px;"> | Automatischer Leichtbaustahlrahmen Ersteller und Paneelisierer . [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) Repositorium (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) beispiel. |
++++
 
 
 
@@ -766,23 +767,23 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 
 ### ArchitekturTexturen
 
-   
-  <img alt="" src=images/ArchTextures_0.19.png  style="width:384px;">   The ArchTextures Workbench was developed to provide basic texture support to [Arch Workbench](Arch_Workbench.md) elements like walls and roofs, in order to quickly visualize a building. It is not intended to produce photo-realistic renderings, just simple texturing of materials like wood, brick, and concrete. It also provides lights (directional, point, and spot), which makes it more feature complete to set up a scene. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=38222) (help requests), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=38223) (development), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=31598) (only announcements), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=39031) (announcement of lights); [FreeCAD-ArchTextures](https://github.com/furti/FreeCAD-ArchTextures) repository (MIT).
-   
++++
+| <img alt="" src=images/ArchTextures_0.19.png  style="width:384px;"> | The ArchTextures Workbench was developed to provide basic texture support to [Arch Workbench](Arch_Workbench.md) elements like walls and roofs, in order to quickly visualize a building. It is not intended to produce photo-realistic renderings, just simple texturing of materials like wood, brick, and concrete. It also provides lights (directional, point, and spot), which makes it more feature complete to set up a scene. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=38222) (help requests), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=38223) (development), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=31598) (only announcements), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=39031) (announcement of lights); [FreeCAD-ArchTextures](https://github.com/furti/FreeCAD-ArchTextures) repository (MIT). |
++++
 
 ### BOLTSFC
 
-   
-  <img alt="" src=images/BOLTSFC_0.19.png  style="width:384px;">   BOLTS ist eine \"offene Bibliothek für technische Spezifikationen\"; sie soll freie, standardisierte und parametrisch definierte Teile zur Verfügung stellen, die in verschiedenen CAD Systemen wie OpenSCAD und FreeCAD verwendet werden können. Die BOLTS Bibliothek wurde 2013 eingeführt, wurde aber seit 2016 nur wenig gepflegt. Jetzt, mit einem neuen Betreuer und Repositorium, wurde das Projekt mit dem BOLTSFC Arbeitsbereich wiederbelebt, der eine Oberfläche zum Einfügen der verschiedenen parametrischen Objekte bietet. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549); [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC)-Repository, [BOLTS](https://github.com/boltsparts/BOLTS) Haupt-Repository (GPL 3).
-   
++++
+| <img alt="" src=images/BOLTSFC_0.19.png  style="width:384px;"> | BOLTS ist eine \"offene Bibliothek für technische Spezifikationen\"; sie soll freie, standardisierte und parametrisch definierte Teile zur Verfügung stellen, die in verschiedenen CAD Systemen wie OpenSCAD und FreeCAD verwendet werden können. Die BOLTS Bibliothek wurde 2013 eingeführt, wurde aber seit 2016 nur wenig gepflegt. Jetzt, mit einem neuen Betreuer und Repositorium, wurde das Projekt mit dem BOLTSFC Arbeitsbereich wiederbelebt, der eine Oberfläche zum Einfügen der verschiedenen parametrischen Objekte bietet. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549); [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC)-Repository, [BOLTS](https://github.com/boltsparts/BOLTS) Haupt-Repository (GPL 3). |
++++
 
 
 
 ### Arbeitsbereich GekrümmteFormen 
 
-   
-  <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;">   Die Arbeitsbereich GekrümmteFormen verfügt über Werkzeuge zum Entwerfen von 3D Oberflächen ausgehend von einem Skelett aus mehreren Kurven in der XY , XZ oder YZ Ebene. Er wurde insbesondere geschaffen, um die Modellierung der Tragflächen von Flugzeugen zu vereinfachen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989); [CurvedShapesWorkbencArbeitsbereich GekrümmteFormenh](https://github.com/chbergmann/CurvedShapesWorkbench) Repositorium (LGPL 3).
-   
++++
+| <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;"> | Die Arbeitsbereich GekrümmteFormen verfügt über Werkzeuge zum Entwerfen von 3D Oberflächen ausgehend von einem Skelett aus mehreren Kurven in der XY , XZ oder YZ Ebene. Er wurde insbesondere geschaffen, um die Modellierung der Tragflächen von Flugzeugen zu vereinfachen. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989); [CurvedShapesWorkbencArbeitsbereich GekrümmteFormenh](https://github.com/chbergmann/CurvedShapesWorkbench) Repositorium (LGPL 3). |
++++
 
 
 
@@ -798,9 +799,9 @@ Dies sind die neuen Arbeitsbereiche, die in diesem Entwicklungszyklus erstellt w
 
 ### Befestigungselemente
 
-   
-  <img alt="" src=images/Fastener_workbench.png  style="width:384px;">   Der [Arbeitsbereich Befestigungselemente](Fasteners_Workbench/de.md) zur Generierung von Standard ISO Schrauben, Bolzen, Unterlegscheiben und anderen Verbindungselementen wurde für die Arbeit mit Python 3 und Qt5 aktualisiert. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?t=11429); [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) Repositorium (GPL 2), [zusätzliche Details](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/).
-   
++++
+| <img alt="" src=images/Fastener_workbench.png  style="width:384px;"> | Der [Arbeitsbereich Befestigungselemente](Fasteners_Workbench/de.md) zur Generierung von Standard ISO Schrauben, Bolzen, Unterlegscheiben und anderen Verbindungselementen wurde für die Arbeit mit Python 3 und Qt5 aktualisiert. [Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?t=11429); [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) Repositorium (GPL 2), [zusätzliche Details](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/). |
++++
 
 
 

@@ -30,7 +30,7 @@ The coordinates **X, Y, Z** of value **0** or alignment not allowing not calcula
 
 ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
-**Macro_Draft_Circle_3\_Points_3D.FCMacro**
+**Macro_Draft_Circle_3_Points_3D.FCMacro**
 
 
 {{MacroCode|code=

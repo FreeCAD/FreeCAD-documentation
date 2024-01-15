@@ -221,11 +221,8 @@ Upload to SourceForge:
 
 1.  Update and/or check the current version in the wiki:
 
-    :   [Template:Stable-Version](Template:Stable-Version.md) (currently no longer used)
-    :   [Template:Development-Version](Template:Development-Version.md)
-    :   [Template:DownloadWindowsStable](Template_DownloadWindowsStable.md)
-    :   [Template:DownloadLinuxStable](Template_DownloadLinuxStable.md)
-    :   [Template:DownloadMacStable](Template_DownloadMacStable.md)
+    :   [Template:Stable-Version](Template:Stable-Version.md) (Not up-to-date and no longer used)
+    :   [Template:Development-Version](Template:Development-Version.md) (Not up-to-date and no longer used)
     :   [Installing on Windows](Installing_on_Windows.md)
     :   [Installing on Linux](Installing_on_Linux.md)
     :   [Installing on Mac](Installing_on_Mac.md)

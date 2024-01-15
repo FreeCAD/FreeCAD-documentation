@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ShowAll
    Name/fr: TechDraw Montrer tout
-   MenuLocation: TechDraw , Afficher/Masquer les arrêtes cachées
+   MenuLocation: TechDraw , Ajouter des lignes , Afficher/masquer les arrêtes invisibles
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_DecorateLine/fr
@@ -10,36 +10,25 @@
 
 # TechDraw ShowAll/fr
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Montrer tout** affiche ou masque les lignes invisibles dans une vue. Notez que \"invisible\" est un état esthétique, à ne pas confondre avec les lignes cachées qui sont des constructions géométriques.
-
-
-</div>
+L\'outil **TechDraw Montrer tout** outil permet d\'afficher temporairement, puis de masquer, des lignes invisibles dans une vue. Les lignes peuvent être rendues invisibles avec l\'outil [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md). Notez que \"invisible\" est un état cosmétique, à ne pas confondre avec les lignes cachées qui sont des constructions géométriques.
 
 
 
 ## Utilisation
 
+1.  Sélectionnez une vue avec des lignes invisibles sur une page ou dans la [vue en arborescence](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ShowAll.svg" width=16px> [Afficher/masquer les arrêtes invisibles](TechDraw_ShowAll/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des lignes → <img src="images/TechDraw_ShowAll.svg" width=16px> Afficher/masquer les arrêtes invisibles** du menu.
+3.  Toutes les lignes invisibles de la vue sont affichées ou cachées.
 
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une vue sur une page ou dans l\'arborescence.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_ShowAll.svg" width=16px> [Afficher/Masquer les arrêtes cachées](TechDraw_ShowAll/fr.md)**.
-3.  L'état des lignes invisibles dans la vue sera inversé.
 
 
-</div>
+## Remarques
 
-## Notes
-
--   To make invisible lines permanently visible use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
+-   Pour rendre les lignes invisibles visibles en permanence, utilisez <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;">. [TechDraw Apparence des lignes](TechDraw_DecorateLine/fr.md).
 
 
 

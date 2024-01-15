@@ -1,42 +1,55 @@
 ---
  GuiCommand:
    Name: FEM ElementGeometry2D
-   MenuLocation: Model , Element Geometry , Shell plate thickness
-   Workbenches: FEM_Workbench
+   Name/pl: MES: Grubość powłoki
+   MenuLocation: Model , Geometria elementu , Grubość powłoki
+   Workbenches: FEM_Workbench/pl
    Shortcut: **C** **S**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ElementGeometry2D/pl
 
-## Description
-
-**ElementGeometry2D** is used to define thickness of 2D FEM elements, all or lying on the chosen surface.
-
-## Usage
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
-2.  Define a thickness parameter.
-3.  Optionally press the **Add** button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is empty, all remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) objects) will be automatically assigned.
-
-## Limitations
-
--   Analysis combining shell elements with solid or edge elements is not supported in the current version (FreeCAD 0.18).
-
-## Properties
 
 
-**Thickness**
+## Opis
 
-: specifies the thickness of the shell.
+**ElementGeometry2D** jest używane do zdefiniowania grubości elementów powłokowych, wszystkich lub należących do wybranej powierzchni.
 
-## Scripting
 
-## Notes
 
-For viewing results from CalculiX solver on the mesh expanded to the prescribed thickness, property `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) need to be set to `True`.
+## Użycie
+
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Grubość powłoki](FEM_ElementGeometry2D/pl.md)**.
+    -   Wybierz opcję **Model → Geometria elementu → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Grubość powłoki** z menu.
+2.  Podaj grubość powłoki.
+3.  Opcjonalnie, wciśnij przycisk **Dodaj** w panelu zadań a następnie kliknij na powierzchni, dla której chcesz przypisać grubość. Jeśli żadna powierzchnia nie zostanie wskazana, wszystkie pozostałe powierzchnie *(których grubości nie są zdefiniowane przy pomocy innych obiektów **Grubość powłoki 2D**)* będą automatycznie użyte.
+
+
+
+## Ograniczenia
+
+-   Obecnie analizy łączące elementy powłokowe z bryłowymi lub belkowymi nie są wspierane.
+
+
+
+## Właściwości
+
+
+**Grubość**
+
+: Określa grubość powłoki.
+
+
+
+## Skrypty
+
+
+
+## Uwagi
+
+Do wyświetlania wyników z solvera CalculiX na siatce ze zwizualizowaną grubością, należy ustawić właściwość `Beam Shell Result Output 3D` w [solverze CalculiX](FEM_SolverCalculixCxxtools/pl.md) na wartość {{True/pl}}.
 
 
 

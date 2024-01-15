@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**표준 선택 보기(Std ViewFitSelection)** 명령은 선택한 개체가 모두 활성 [3D 보기에](3D_view/ko.md) 보이도록 카메라를 확대·축소 하거나 이동합니다.
+**표준 선택 보기(Std ViewFitSelection)** 명령은 선택한 개체가 모두 활성 [3D 보기](3D_view/ko.md)에 보이도록 카메라를 확대·축소 하거나 이동합니다.
 
 
 </div>
@@ -36,7 +36,7 @@
 
     -   메뉴에서 **보기 → 표준 보기 → <img src="images/Std_ViewFitSelection.svg" width=16px>선택 보기** 옵션을 선택합니다.
 
-    -   [3D 보기의](3D_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_ViewFitSelection.svg" width=16px> 선택 보기** 옵션을 선택합니다.
+    -   [3D 보기](3D_view/ko.md)의 상황에 맞는 메뉴에서 **<img src="images/Std_ViewFitSelection.svg" width=16px> 선택 보기** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **V** 다음 **S**.
 

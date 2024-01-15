@@ -48,8 +48,8 @@ Atelierul Draft prezintă un mod de construcție ( ToggleConstructionMode) care 
 
 ## Preferences
 
--   To change the label of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+-   To change the label of the construction group: **Edit → Preferences... → Draft → General → Construction group label**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General → Construction geometry color**.
 
 
 

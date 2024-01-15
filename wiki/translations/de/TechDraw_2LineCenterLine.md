@@ -11,56 +11,46 @@
 # TechDraw 2LineCenterLine/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
 Das Werkzeug **TechDraw 2LinienMittellinie** fügt eine Mittellinie zwischen zwei Kanten hinzu.
-
-
-</div>
 
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
-<div class="mw-translate-fuzzy">
+
+*Zwischen 2 Kanten ausgerichtete Mittellinie*
 
 
 
-*Ausgerichtete Mittellinie zwischen 2 Kanten*
+## Anwendung, Erstellen 
+
+1.  Zwei Kanten in einer Ansicht auswählen. Die Kanten sollten mehr oder weniger parallel sein.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Linien hinzufügen → <img src="images/TechDraw_2LineCenterLine.svg" width=16px> Mittellinie zwischen 2 Linien hinzufügen** auswählen.
+3.  Ein Aufgaben-Bereich wird geöffnet. Siehe [TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de#Optionen.md) für weitere Informationen.
+4.  Die Schaltfläche **OK** zum Bestätigen drücken.
+5.  Eine Mittellinie wird zwischen den ausgewählten Kanten hinzugefügt.
 
 
-</div>
 
-## Usage create 
+## Anwendung, Bearbeiten 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle zwei Kanten in einer Ansicht. Die Kanten sollten mehr oder weniger parallel sein.
-2.  Drücke den **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Mittellinie zwischen 2 Linien hinzufügen** Schaltfläche
-3.  Ein Dialogfeld wird geöffnet, in dem du die Attribute der neuen Mittellinie angeben kannst.
-4.  Eine Mittellinie wird zwischen den 2 ausgewählten Kanten hinzugefügt.**Wenn die erzeugte Linie seltsam aussieht oder überhaupt nicht erzeugt wurde, musst du eventuell die Option** [**Klappe Enden**](#Flip_Ends.md) verwenden.
+Siehe [TechDraw FlächenMittellinie](TechDraw_FaceCenterLine/de#Anwendung,_Bearbeiten.md).
 
 
-</div>
 
-## Usage edit 
+## Hinweise
 
-See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
+Zum Löschen einer Mittellinie wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md) verwendet.
 
-## Notes
 
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
-## Properties
+## Eigenschaften
 
-Centerlines have no properties of their own, as they are not document objects.
+Mittellinien haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind.
 
 
 

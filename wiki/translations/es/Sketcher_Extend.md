@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -32,6 +34,8 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 
 </div>
+
+
 
 ## Utilización
 

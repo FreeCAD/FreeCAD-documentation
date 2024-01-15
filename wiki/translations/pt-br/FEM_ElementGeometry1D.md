@@ -9,14 +9,18 @@
 
 # FEM ElementGeometry1D/pt-br
 
+
+
 ## Descrição
 
 **ElementGeometry1D** is used to define cross sections for beam elements. Currently the following types of cross sections are available: rectangular, circular and pipe.
 
+
+
 ## Utilização
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [FEM ElementGeometry1D](FEM_ElementGeometry1D.md)** button.
+    -   Press the **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Beam cross section](FEM_ElementGeometry1D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** option from the menu.
 2.  Choose the type of cross section and specify the necessary dimensions:
     -   Rectangular: width and height,
@@ -24,11 +28,19 @@
     -   Pipe: diameter and thickness.
 3.  Optionally press the **Add** button in the task panel and then click on the edge you want to have a prescribed cross section. If the edge selection is free, all remaining edges (whose cross section is not defined by other [FEM ElementGeometry1D](FEM_ElementGeometry1D.md) objects) will be automatically assigned.
 
+
+
 ## Opções
+
+
 
 ## Propriedades
 
+
+
 ## Limitações
+
+
 
 ## Notas
 

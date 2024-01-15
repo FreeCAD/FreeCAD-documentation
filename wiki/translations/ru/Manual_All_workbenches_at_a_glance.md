@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC/ru}}
+{{Manual:TOC}}
 
 Главная сложность новых пользователей FreeCAD - узнать, в каком верстаке найти нужный инструмент. Расположенная ниже таблица даст Вам обзор наиболее важных верстаков и их инструментов. Более полный список [верстаков](Workbenches/ru.md) смотрите в документации FreeCAD.
 
@@ -77,12 +77,15 @@
 
 Верстак Sketcher содержит инструменты для создания и редактирования сложных двумерных объектов, называемых эскизами (sketch). Геометрия внутри этих эскизов может быть точно позиционирована и связана использованием ограничений. Это создано в первую очередь для создания блоков в геометрии PartDesign, но может быть полезно в любом месте FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
   Инструмент                                                                                                                                                Описание                                                                                                                                                                     Инструмент                                                                                                                                               Описание
      
   <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> [Point](Sketcher_CreatePoint/ru.md)                                          Рисует точку                                                                                                                                                                 <img alt="" src=images/Sketcher_Line.svg  style="width:32px;"> [Line](Sketcher_CreateLine/ru.md)                                                         Рисует отрезок по двум точкам
   <img alt="" src=images/Sketcher_Arc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/ru.md)                                                              Рисует отрезок дуги по центру, радиусу, начальному и конечному углу                                                                                                          <img alt="" src=images/Sketcher_CreateArc3Point.png  style="width:32px;"> [Arc 3 points](Sketcher_Create3PointArc/ru.md)                      Рисует отрезок дуги по двум конечным точкам и третьей точке на окружности
   <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [Circle](Sketcher_CreateCircle/ru.md)                                                  Рисует окружность по центру и радиусу                                                                                                                                        <img alt="" src=images/Sketcher_CreateCircle3Point.png  style="width:32px;"> [ Circle 3 points](Sketcher_Create3PointCircle/ru.md)         Рисует окружность по трём точкам на ней
-  <img alt="" src=images/Sketcher_CreateEllipse.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter/ru.md)                          Рисует эллипс по центральной точке, и точкам большого и малого радиуса                                                                                                       <img alt="" src=images/Sketcher_CreateEllipse3Point.png  style="width:32px;"> [Ellipse 3 points](Sketcher_CreateEllipseBy3Points/ru.md)   Рисует эллипс по главному диаметру (две точки) и точке малого радиуса
+  <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter/ru.md)          Рисует эллипс по центральной точке, и точкам большого и малого радиуса                                                                                                       <img alt="" src=images/Sketcher_CreateEllipse3Point.png  style="width:32px;"> [Ellipse 3 points](Sketcher_CreateEllipseBy3Points/ru.md)   Рисует эллипс по главному диаметру (две точки) и точке малого радиуса
   <img alt="" src=images/Sketcher_CreateArcOfEllipse.png  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse/ru.md)            Рисует дугу эллипса по центральной точке, точке большого радиуса и начальной и конечной точке                                                                                <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyline](Sketcher_CreatePolyline/ru.md)                             Рисует линию, состоящую из нескольких отрезков. Доступно несколько режимов рисования
   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle/ru.md)                          Рисует прямоугольник по двум противоположным точкам                                                                                                                          <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle](Sketcher_CreateTriangle/ru.md)                             Рисует равносторонний треугольник, вписанный в круг конструктивной геометрии
   <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> [Square](Sketcher_CreateSquare/ru.md)                                      Рисует равносторонний прямоугольник, вписанный в круг конструктивной геометрии                                                                                               <img alt="" src=images/Sketcher_CreatePentagon.svg  style="width:32px;"> [Pentagon](Sketcher_CreatePentagon/ru.md)                             Рисует равносторонний пятиугольник, вписанный в круг конструктивной геометрии
@@ -99,6 +102,9 @@
   <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Distance](Sketcher_ConstrainDistance/ru.md)                                       Назначает расстояние от выбранной линии ограничением их длинны, или определяет расстояние между двумя точками ограничением расстояния между ними.                            <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [Radius](Sketcher_ConstrainRadius/ru.md)                                          Определяет радиус выбранной дуги или окружности установкой ограничением радиуса
   <img alt="" src=images/Constraint_InternalAngle.png  style="width:32px;"> [Internal anglr](Sketcher_ConstrainAngle/ru.md)                      Определяет внутренний угол между двумя выбранными линиями                                                                                                                    <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Map sketch](Sketcher_MapSketch/ru.md)                                          Располагает эскиз на заранее выбранной плоскости тела
   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Merge](Sketcher_MergeSketches/ru.md)                                        Соединяет два или более эскиза                                                                                                                                               <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Mirror](Sketcher_MirrorSketch/ru.md)                                     Отражает выбранные элементы эскиза
+
+
+</div>
 
 
 

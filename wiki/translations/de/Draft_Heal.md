@@ -1,7 +1,8 @@
 ---
  GuiCommand:
-   Name: Draft Heal   Name/de: Draft Heilen
-   MenuLocation: Entwurf , Dienstprogramme , Heilen
+   Name: Draft Heal
+   Name/de: Draft Heilen
+   MenuLocation: Dienstprogramme , Heilen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft_Upgrade/de, Draft_Downgrade/de
 ---
@@ -9,37 +10,18 @@
 # Draft Heal/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl versucht, Objekte aus dem [Draft Arbeitsbereich](Draft_Workbench/de.md) zu reparieren, die mit einer älteren FreeCAD-Version erstellt wurden, so dass sie in einer aktuelleren Version funktionieren.
+Der Befehl <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heilen** heilt problematische [Draft](Draft_Workbench.md)-Objekte, die in sehr alten Dateien gefunden werden. Es wird versucht die alten Objekte neu aufzubauen und ihre Eigenschaften auf die neuen Objekte zu übertragen.
 
 
-</div>
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein oder mehrere problematische Objekte.
-2.  Gehe zum Menü **Entwurf → Dienstprogramme  → <img src="images/Draft_Heal.svg" width=16px> [Heilen](Draft_Heal/de.md)**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Wahlweise ein oder mehrere problematische Objekte auswählen. Ist kein Objekt ausgewählt, wird das gesamte Dokument verarbeitet.
+2.  Den Menüeintrag **Dienstprogramme → <img src="images/Draft_Heal.svg" width=16px> Heilen** auswählen.
+3.  Werden keine Fehler gefunden, wird der Befehl auch nichts bearbeiten.
 
 
 

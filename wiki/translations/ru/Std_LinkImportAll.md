@@ -35,7 +35,13 @@ This command essentially runs **[<img src=images/Std_LinkImport.svg style="width
 *Left: various Links that point to objects in the "source" document. Right: the original objects were imported (copied) into the "target" document, and the existing Links were changed to point to these copies, so they no longer point to objects in "source".*
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 
@@ -18,11 +20,13 @@ Detta verktyg uppgraderar valda objekt på olika sätt. Om inget objekt är mark
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*
 
+
+
 ## Bruk
 
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Upgrade.svg" width=16px> [Draft Upgrade](Draft_Upgrade.md)** button.
+    -   Press the **<img src="images/Draft_Upgrade.svg" width=16px> [Upgrade](Draft_Upgrade.md)** button.
     -   Select the **Modification → <img src="images/Draft_Upgrade.svg" width=16px> Upgrade** option from the menu.
     -   Use the keyboard shortcut: **U** then **P**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).

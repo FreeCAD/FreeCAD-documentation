@@ -1,37 +1,17 @@
 # Installing additional components/ko
-<div class="mw-translate-fuzzy">
+# 설명
+
+여러분의 운영체제 ([윈도우](Installing_on_Windows.md), [리눅스](Installing_on_Linux.md) 또는 [맥킨토시](Installing_on_Mac.md)) 에 프리캐드를 설치한 뒤에, 아래에 설명되어 있는 부속 기능들 중에 필요한 것이 있을 겁니다.
 
 
 
+# 도움말 파일 
+
+다음을 읽어 보세요 ☞ [도움말 파일 설치](Installing_Helpfile.md).
 
 
-</div>
 
-
-
-
-# Introduction
-
-
-<div class="mw-translate-fuzzy">
-
-## 운영체제 선택 
-
-FreeCAD는 진정한 멀티플랫폼 애플리케이션이며 세계적으로 유명한 [Qt](http://en.wikipedia.org/wiki/Qt_(framework)) 프레임워크로 개발되었습니다. This means FreeCAD looks and acts the same on Windows, Linux and Mac. However, the installation procedure is a little different for each operating system. Choose your operating system for details on installing FreeCAD.
-
-    
-   ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
-                             [Install on Windows](Install_on_Windows.md)                                                     [ Install on Linux](Install_on_Linux.md)                                              [Install on Mac](Install_on_Mac.md)
-    
-
-
-</div>
-
-# Help files 
-
-See [Installing Helpfile](Installing_Helpfile.md).
-
-# External workbenches 
+# 외부 앱 형식의 작업환경 
 
 Apart from the default [workbenches](workbenches.md) bundled with FreeCAD, there is a large collection of useful [external workbenches](External_workbenches.md) made by community members.
 
@@ -109,7 +89,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 

@@ -1,5 +1,5 @@
 # Manual:Creating interface tools/ru
-{{Manual:TOC/ru}}
+{{Manual:TOC}}
 
 В последних двух главах мы видели как [создать геометрию Part](Manual:Creating_and_manipulating_geometry/ru.md) и [создавать параметрический объекты](Manual:Creating_parametric_objects/ru.md). Чтобы получить полный контроль за FreeCAD, осталось одно: создание инструментов, взаимодействующими с пользователем.
 
@@ -32,7 +32,13 @@ print("The entered height is ",text)
 
 ![](images/Exercise_python_08.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Теперь поместим 3 виджета **Double Spin Box** вблизи наших меток Length, Width и Height. Для каждой из них в нижней правой панели, которые показывают доступные установки для выбранных виджетов, найдите **Suffix** и установите суффикс в **mm**. У FreeCADа есть более совершенный виджет, который может поддерживать различные единицы, но он не доступен в Qt Creator по умолчанию (но может быть [вкомпилирован](Compile_on_Linux/Unix/ru#Qt_designer_plugin.md)), так что теперь мы будем использовать станданртный Double Spin Box, и мы добавим суффикс \"mm\", чтобы пользователи знали, в каких единицах они работают:
+
+
+</div>
 
 ![](images/Exercise_python_09.jpg )
 

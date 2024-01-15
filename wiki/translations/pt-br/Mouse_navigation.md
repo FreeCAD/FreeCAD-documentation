@@ -28,6 +28,10 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ## Available navigation styles 
 
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -69,6 +73,9 @@ Este é o estilo de navegação padrão. Ele permite ao usuário um controle sim
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{CAD Navigation
 |Select_name=Selecionar
 |Pan_name=Pan(movimento panorâmico)
@@ -78,12 +85,6 @@ Este é o estilo de navegação padrão. Ele permite ao usuário um controle sim
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-
-<div class="mw-translate-fuzzy">
-Manter pressionado **Ctrl** permite a seleção de múltiplos objetos.
-|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Pan_mode_text=Pan mode: segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
-|Zoom_text=Utilizar a roda do mouse para aumentar e diminuir o zoom.
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -109,6 +110,8 @@ Os usuários que usam o mouse com a mão direita podem achar este método mais f
 }}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Navegação por gestos 
@@ -132,9 +135,14 @@ Para definir o ponto de foco da câmera para rotação, clique em um ponto com o
 
 Segure **Alt** quando no [Sketcher](Sketcher_Workbench/pt-br.md). \|Tilt_view_text=Segure os botões esquerdo e direito do mouse, depois mova o ponteiro para o lado. \|Tilt_view_gesture_text=Gire a linha imaginária formada por dois pontos de contato.
 
+
+<div class="mw-translate-fuzzy">
+
 Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar → Preferências → Tela → Navegação → Navegação**, e desmarque a caixa de seleção "Desabilitar gesto de inclinação da tela sensível ao toque".
 }}
+</div>
 
+<span id="Maya-Gesture_navigation"></span>
 <div class="mw-translate-fuzzy">
 === Maya-Gesture Navigation ===
 </div>
@@ -158,6 +166,7 @@ Alternativamente, use a rodinha do mouse para aumentar e diminuir o zoom.
 |Rotate_view_text=Segure **Alt** e o botão esquerdo do mouse, depois mova o ponteiro.
 }}
 
+<span id="OpenCascade_navigation"></span>
 <div class="mw-translate-fuzzy">
 === OpenCascade ===
 </div>
@@ -201,7 +210,7 @@ Este modo não é baseado no Autodesk Inventor.
 |Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
 </div>
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -221,12 +230,15 @@ The OpenSCAD navigation style was modeled after [https://openscad.org/ OpenSCAD]
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
 
+<span id="Revit_navigation"></span>
 <div class="mw-translate-fuzzy">
 === Navegação do Revit ===
 </div>
@@ -267,11 +279,12 @@ The TinkerCAD navigation style was modeled after [https://en.wikipedia.org/wiki/
 |Rotate_view_text=Press the right mouse button, then move the pointer.
 }}
 
+<span id="Touchpad_navigation"></span>
 <div class="mw-translate-fuzzy">
 === Navegação Touchpad ===
 </div>
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 <div class="mw-translate-fuzzy">
 Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pressionamento de tecla com o touchpad.
@@ -294,12 +307,14 @@ Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pre
 }}
 </div>
 
+<span id="Hardware_support"></span>
 == Suporte de Hardware ==
 
 <div class="mw-translate-fuzzy">
 O FreeCAD também suporta alguns [dispositivos de entrada 3D](3D_input_devices/pt-br.md).
 </div>
 
+<span id="Recommended_navigation_for_macOS"></span>
 <div class="mw-translate-fuzzy">
 == Problemas no Mac OS X ==
 </div>

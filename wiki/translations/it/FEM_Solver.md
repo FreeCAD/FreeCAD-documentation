@@ -11,6 +11,8 @@ Questa pagina raccoglie le informazioni sui risolutori di elementi finiti utiliz
 
 Wikipedia [elenca molti pacchetti software ad elementi finiti](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages) che potenzialmente potrebbero funzionare con FreeCAD in futuro. Un confronto è disponibile su [feacompare.com](https://feacompare.com/).
 
+
+
 ### Risolutori disponibili in varie distribuzioni Linux 
 
 
@@ -22,6 +24,8 @@ Il repository [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependenc
 </div>
 
 Le informazioni sono anche discusse nel forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
+
+
 
 ## Solver con un\'interfaccia in FreeCAD 
 
@@ -51,7 +55,7 @@ Il solutore multifisico Elmer è stato integrato in FreeCAD come progetto di [Go
 
 ### Mystran
 
-Mystran is a structural analysis program which uses Nastran input file format. It is released under MIT license. Which means it seems OpenSource. See [main website](https://www.mystran.com/), [code repository](https://github.com/dr-bill-c/MYSTRAN) and [Mystran-FreeCAD-forum (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=46171).
+Mystran is a structural analysis program that uses the Nastran input file format. It is released under MIT license which means that it\'s open-source. See [main website](https://www.mystran.com/), [code repository](https://github.com/dr-bill-c/MYSTRAN) and [Mystran-FreeCAD-forum (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=46171).
 
 ### Z88
 
@@ -75,7 +79,15 @@ Vedere le informazioni:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Ci sono due versioni, Z88OS è l\'edizione open source, mentre Z88Aurora è freeware e include un\'interfaccia grafica e dei metodi di soluzione aggiuntivi.
+
+
+</div>
+
+
 
 ## Solver implementati come ambienti esterni 
 
@@ -107,11 +119,19 @@ DesignSPHysics può essere installato tramite [Addon manager](Std_AddonMgr/it.md
 
 </div>
 
+
+
 ### FastHenry e FasterCap 
 
 FastHenry e FasterCap sono risolutori di campi di capacità e induttanza-resistenza sviluppati da FastFieldSolvers: [main website](https://www.fastfieldsolvers.com/default.asp), [download page](https://www.fastfieldsolvers.com/download.htm) (binary and source code), [forum](https://www.fastfieldsolvers.com/forum/).
 
+
+<div class="mw-translate-fuzzy">
+
 [EM](EM_Workbench/it.md) è un ambiente di lavoro esterno che è stato creato per servire da front-end per questi risolutori elettromagnetici. FastHenry è completamente supportato per l\'analisi di impedenza magneto-quasistatica 3D, mentre FasterCap è accessibile attraverso alcune macro Python.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -173,7 +193,13 @@ OpenFoam è disponibile in FreeCAD attraverso due ambienti esterni:
 -   [Cfd](https://github.com/qingfengxia/Cfd), originario di Qingfeng Xia.
 -   [CfdOF](https://github.com/jaheyns/CfdOF), una biforcazione di Cfd che è finalizzata alla facilità d\'uso.
 
+
+<div class="mw-translate-fuzzy">
+
 Mentre Cfd è concepito come funzionalità completa per utenti avanzati, CfdOF è pensato per gli utenti che stanno iniziando con CFD e OpenFoam.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -198,6 +224,8 @@ Entrambi gli ambienti possono essere installati tramite [Addon manager](Std_Addo
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -257,7 +285,13 @@ L\'integrazione preliminare in FEM è stata eseguita. Vedere: [OOFem](https://fo
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Fino a quando l\'integrazione del solutore non viene completata e il nuovo codice non viene unito al repository principale di FreeCAD, i file necessari per l\'utilizzo del solutore in FEM possono essere scaricati da [forked FreeCAD branch](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem/src/Mod/Fem/). Per una panoramica dell\'implementazione, dai un\'occhiata alla cronologia dei commit <https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem>
+
+
+</div>
 
 ### MBDyn
 
@@ -265,9 +299,17 @@ Fino a quando l\'integrazione del solutore non viene completata e il nuovo codic
 -   [MBDyn](https://www.mbdyn.org/)
 -   [FreeCAD as pre-post processor for MBDyn (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=39165)
 
+
+
 ## Solutori non integrati 
 
+
+<div class="mw-translate-fuzzy">
+
 I seguenti solutori non sono stati integrati in FreeCAD ma hanno suscitato un certo interesse da parte della comunità degli utenti. Se uno sviluppatore desidera creare un ponte di comunicazione per un determinato risolutore, deve fare riferimento al [subforum FEM](https://forum.freecadweb.org/viewforum.php?f=18) per consigli e assistenza.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -387,7 +429,7 @@ Nei forum è stato suggerito di eseguire l\'analisi dei rinforzi del cemento arm
 
 With FreeCAD, Modelica was suggested to help perform animations, but more broadly it could be used in mechanical and building engineering to solve equations and optimize a particular design: [Modelica (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556).
 
-The [PyFMI](https://pypi.org/project/PyFMI/) package contains Python bindings to work with FMU models, which are standardized models in binary format produced by compliant Modelica environments, including Dymola, OpenModelica, and JModelica. It was suggested that this library could help FreeCAD connect to a [Modelica system](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556#p272632) (forum topic).
+The [PyFMI](https://pypi.org/project/PyFMI/) package contains Python bindings to work with FMU models, which are standardized models in the binary format produced by compliant Modelica environments, including Dymola, OpenModelica, and JModelica. It was suggested that this library could help FreeCAD connect to a [Modelica system](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556#p272632) (forum topic).
 
 ### Mumps
 
@@ -397,9 +439,9 @@ It does not perform finite element analysis directly, but it may be used interna
 
 ### Nastran
 
-Nastran is a structural analysis program developed by NASA in the 1970s. Modern versions of it are commercial products and closed source; however, older versions of it, [Nastran-93](https://github.com/nasa/NASTRAN-93) and [Nastran-95](https://github.com/nasa/NASTRAN-95) were released as open source in 2015. Forum post: [Nastran (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=12753).
+Nastran is a structural analysis program developed by NASA in the 1970s. Modern versions of it are commercial products and closed source; however, older versions of it, [Nastran-93](https://github.com/nasa/NASTRAN-93) and [Nastran-95](https://github.com/nasa/NASTRAN-95) were released as open-source in 2015. Forum post: [Nastran (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=12753).
 
-There is no technical support for the open source code, and it is probably difficult to compile in a modern system.
+There is no technical support for the open-source code, and it is probably difficult to compile in a modern system.
 
 ### OpenSees
 
@@ -407,21 +449,21 @@ There is no technical support for the open source code, and it is probably diffi
 
 ### PolyFEM
 
-[PolyFEM](https://polyfem.github.io/) is a simple C++ and Python finite element library. We provide a wide set of common partial differential equations including: Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
+[PolyFEM](https://polyfem.github.io/) is a simple C++ and Python finite element library. We provide a wide set of common partial differential equations including Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
 
 ### Sparselizard
 
-[Sparselizard](http://www.sparselizard.org/) is a fast, general, multiphysics, p-adaptive, open source C++ finite element library running on Linux, Mac and Windows. It is used to design next generation microdevices (ultrasound transducers, micromirrors, microvalves, comb drives,\...) and it is carefully validated against analytical solutions, third party software and measurements of the fabricated devices. It looks like it is developed by the team of gmsh mesh generator.
+[Sparselizard](http://www.sparselizard.org/) is a fast, general, multiphysics, p-adaptive, open-source C++ finite element library running on Linux, Mac and Windows. It is used to design next-generation microdevices (ultrasound transducers, micromirrors, microvalves, comb drives,\...) and it is carefully validated against analytical solutions, third-party software and measurements of the fabricated devices. It looks like it is developed by the team of gmsh mesh generator.
 
 ### SU2
 
 [SU2](https://su2code.github.io/) is a collection of software tools developed in C++ and Python for the solution of [partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equation) (PDE) and PDE-constrained optimization problems on unstructured meshes. It is particularly used in the fields of aerodynamics and computational fluid dynamics (CFD).
 
-### Technog
+### Tochnog
 
-Technog Professional is a closed source program to perform geotechnical simulations such as landslides, driving piles, slope stability, and civil engineering calculations (masonry and earthquake response), [website](http://www.feat.nl/) (broken link).
+Tochnog Professional is a closed-source program to perform geotechnical simulations such as landslides, driving piles, slope stability, and civil engineering calculations (masonry and earthquake response), [website](https://www.tochnogprofessional.nl/).
 
-Technog was successfully used in FreeCAD as a substitute of CalculiX, although the trial version is limited in the number of elements it can handle: [Integration of tochnog solver in FreeCAD FEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
+Tochnog was successfully used in FreeCAD as a substitute of CalculiX, although the trial version is limited in the number of elements it can handle: [Integration of tochnog solver in FreeCAD FEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
 
 ### XC
 

@@ -18,7 +18,8 @@
 
 Ten poradnik powinien służyć jako wprowadzenie do pracy z narzędziem [Edytuj mocowanie](Part_EditAttachment/pl.md) środowiska Część, nie jest on wyczerpujący, ale mam nadzieję, że pomoże użytkownikom w eksperymentowaniu.
 
-Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli. Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd:-https://grabcad.com/library/50-cad-exercise-drawing-1
+Mocowanie jest narzędziem służącym do dołączania obiektu do innego. Łączy to właściwości umiejscowienia obu obiektów, dołączony obiekt będzie podążał za oryginalnym *(jeśli jego umiejscowienie zostanie zmienione)*. Skupiamy się na środowisku pracy Projekt Części i dołączaniu szkiców do innych szkiców, jest to zalecana metoda do tworzenia [*stabilnych*](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md) modeli.
+Funkcjonalność została napisana dla v0.19, ale powinna działać dla każdej wersji 0.17 i późniejszych. Jednakże, niektóre szczegóły mogą się różnić. Oryginalny model został zaprojektowany przez Md. Aminul Islam i został pobrany stąd:-https://grabcad.com/library/50-cad-exercise-drawing-1 jako \"Ćwiczenie - 13\".
 
 
 

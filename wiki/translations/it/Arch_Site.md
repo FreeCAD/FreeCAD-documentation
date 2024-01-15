@@ -5,13 +5,10 @@
    Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Sito
    Shortcut: **S** **I**
-   SeeAlso: Arch Floor/it, Arch Building/it
+   SeeAlso: Arch_Floor/it, Arch_Building/it
 ---
 
 # Arch Site/it
-
-
-</div>
 
 
 
@@ -31,27 +28,18 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
--   Dopo aver creato un sito, è possibile aggiungere ad esso altri oggetti con il drag-and-drop nella struttura ad albero o utilizzando lo strumento **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)**. Ciò determina solo quale oggetto fa parte di un dato sito, e non ha effetto sul terreno stesso.
--   È possibile rimuovere gli oggetti da un sito trascinandoli fuori con il drag-and-drop nella vista ad albero o utilizzando lo strumento **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)
+-   Dopo aver creato un sito, è possibile aggiungere ad esso altri oggetti con il drag-and-drop nella [Vista ad albero](Tree_view/it.md) o utilizzando lo strumento **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)**. Ciò determina solo quali oggetti fanno parte di un dato sito, e non ha effetto sul terreno stesso.
+-   È possibile rimuovere gli oggetti da un sito trascinandoli fuori con il drag-and-drop nella [Vista ad albero](Tree_view/it.md) o utilizzando lo strumento **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)
 **
--   È possibile aggiungere un oggetto terreno modificando la proprietà **Terrain** del Sito. Il terreno deve essere un guscio aperto (shell) o una superficie.
--   È possibile aggiungere volumi da sommare o da sottrarre dal terreno di base, facendo doppio clic sul Sito, e aggiungendo gli oggetti ai suoi gruppi Sottrazioni o Aggiunte. Gli oggetti devono essere dei solidi.
--   La proprietà **Extrusion Vector** può essere utilizzata per risolvere alcuni problemi che possono presentarsi quando si lavora con le sottrazioni e le aggiunte. Per svolgere tali addizioni o sottrazioni, la superficie del terreno viene estrusa in un solido, che viene poi opportunamente aggiunto o sottratto. A seconda della topologia del terreno, questa estrusione potrebbe non riuscire con il vettore di default di estrusione. Può darsi che sia possibile risolvere il problema assegnando al vettore a un valore diverso.
-
-
-</div>
+-   È possibile aggiungere un oggetto terreno modificando la proprietà **Terrain** del Sito. Il terreno può essere un guscio aperto o ({{Version/it|0.21}}) un solido.
+-   È possibile aggiungere volumi da sommare o da sottrarre dal terreno di base, facendo doppio clic sul Sito, e aggiungendo gli oggetti ai suoi gruppi Rimozioni o Aggiunte. Gli oggetti devono essere dei solidi.
+-   La proprietà **Extrusion Vector** può essere utilizzata per risolvere alcuni problemi che possono presentarsi quando il terreno è un guscio aperto e vi sono aggiunte e/o rimozioni. Per svolgere tali aggiunte o rimozioni, il guscio aperto viene estruso in un solido, che viene poi opportunamente aggiunto o sottratto. A seconda della topologia del terreno, questa estrusione potrebbe non riuscire con il vettore di default di estrusione. Può darsi che sia possibile risolvere il problema assegnando al vettore a un valore diverso. Questa proprietà viene ignorata se il terreno è un solido.
 
 
 
 ## Proprietà
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Dati
 
@@ -83,17 +71,11 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 
 -    {{PropertyData/it|Remove Splitter}}: Rimuovere gli scarti dalla forma risultante
 
--    **Declination**: l\'angolo tra la direzione Nord reale e quella Nord in questo documento, ovvero l\'asse Y.<small>(v0.18)</small>  Ciò significa che per impostazione predefinita l\'asse Y punta a Nord e l\'asse X punta a Est; l\'angolo aumenta in senso antiorario. Questa proprietà era precedentemente nota come**North Deviation**.
+-    **Declination**: l\'angolo tra la direzione Nord reale e quella Nord in questo documento, ovvero l\'asse Y. Ciò significa che per impostazione predefinita l\'asse Y punta a Nord e l\'asse X punta a Est; l\'angolo aumenta in senso antiorario. Questa proprietà era precedentemente nota come**North Deviation**.
 
--    **EPW File**: Consente di allegare un file EPW dal [sito web di dati EPW Ladybug](https://www.ladybug.tools/epwmap/) a questo sito. Ciò è necessario per visualizzare i diagrammi della rosa dei venti {{version/it|0.19}}
-
-
-</div>
-
-### View
+-    **EPW File**: Consente di allegare un file EPW dal [sito web di dati EPW Ladybug](https://www.ladybug.tools/epwmap/) a questo sito. Ciò è necessario per visualizzare i diagrammi della rosa dei venti
 
 
-<div class="mw-translate-fuzzy">
 
 ### Vista
 
@@ -108,19 +90,10 @@ Il Sito di Arch è un oggetto speciale che unisce le proprietà di un oggetto gr
 -    **Wind Rose**: Mostra o nasconde il diagramma della rosa dei venti (richiede che la proprietà dati **File EPW** sia riempita e il modulo Ladybug Python sia installato (vedere sotto)
 
 
-</div>
-
-
 
 ## Tipico flusso di lavoro 
 
-
-<div class="mw-translate-fuzzy">
-
-Iniziare creando un oggetto che rappresenta il terreno. Deve essere una superficie aperta, non un solido. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
-
-
-</div>
+Iniziare creando un oggetto che rappresenta il terreno. Per esempio, è facile per importare dati mesh, che possono essere trasformati in una Part Shape dal menu **Part → Crea Forma da Mesh**. Poi, creare un oggetto Sito, e impostare la sua proprietà **Terrain** dalla Parte appena creata:
 
 ![](images/Arch_site_example_01.jpg )
 
@@ -136,40 +109,22 @@ La geometria sito sarà ricalcolata e le proprietà aree, il perimetro e i volum
 
 ## Diagrammi solari e del vento 
 
-
-<div class="mw-translate-fuzzy">
-
 Se nel proprio sistema è installato [Ladybug](https://www.ladybug.tools/ladybug.html), i [Siti](Arch_Site/it.md) di Arch possono visualizzare un diagramma solare o del vento. Per questo, le proprietà **Longitude**, **Latitude** e **Declination** (precedentemente era **North Deviation**) devono essere impostate correttamente, e la proprietà **Solar Diagram** o **Wind Rose** impostata su `True`. {{Version/it|0.17}} e {{Version/it|0.19}}
-
-
-</div>
 
 **Nota**: Se non avete Ladybug, [pysolar](http://pysolar.org/) è ancora supportato per generare diagrammi solari, ma non rose dei venti. E\' richiesto Pysolar 0.7 o superiore; questa versione funziona solo con Python 3. Se serve questa funzione con Python 2, si deve avere Pysolar 0.6 in quanto questa è l\'ultima versione che funziona con Python 2. Tuttavia, Ladybug è uno strumento molto più potente che probabilmente verrà utilizzato di più in futuro, quindi si consiglia di utilizzarlo al posto di pysolar. Ladybug può essere installato semplicemente tramite [pip](https://github.com/ladybug-tools/ladybug).
 
 ![](images/Freecad-solar-diagram.jpg )
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Sito può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Sito può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -234,15 +189,6 @@ import FreeCADGui, Arch
 Node = Arch.makeSolarDiagram(-46.38, -23.33, scale=10000, complete=True)
 FreeCAD.Gui.ActiveDocument.ActiveView.getSceneGraph().addChild(Node)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

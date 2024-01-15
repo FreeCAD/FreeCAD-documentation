@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo FEM per una condizione limite di temperatura.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -34,7 +44,9 @@ Crea un vincolo FEM per una condizione limite di temperatura.
 
 ### Option
 
-By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
+
+
 
 ## Note
 

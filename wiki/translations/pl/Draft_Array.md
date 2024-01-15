@@ -1,36 +1,45 @@
 ---
  GuiCommand:
    Name: Draft Array
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray
+   Name/pl: Rysunek Roboczy: Szyk
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_OrthoArray/pl, Draft_PolarArray/pl, Draft_CircularArray/pl
 ---
 
 # Draft Array/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Array.svg  style="width:24px;"> **Draft Array** command creates an orthogonal (3-axes) array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+## Opis
 
-This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) or [Draft CircularArray](Draft_CircularArray.md) command instead.
+Polecenie <img alt="" src=images/Draft_Array.svg  style="width:24px;"> **Szyk** tworzy ortogonalny *(3-osiowy)* szyk z wybranego obiektu. Utworzony szyk może zostać przekształcony w [szyk biegunowy](Draft_PolarArray/pl.md) lub [szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jego właściwości **Typ tablicy**.
 
-## Usage
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
-1.  To use this command in FreeCAD version 0.19 and later you need to add a button to a custom toolbar. See [Interface Customization](Interface_Customization.md).
-2.  Optionally select one object.
-3.  Press the **<img src="images/Draft_Array.svg" width=16px> [Draft Array](Draft_Array.md)** button.
-4.  If you have not yet selected an object: select one object.
-5.  The array is created.
-6.  Optionally change its [properties](Draft_OrthoArray#Properties.md).
+To polecenie jest już przestarzałe. Zamiast tego należy użyć [Szyk ortogonalny](Draft_OrthoArray/pl.md), [Szyk biegunowy](Draft_PolarArray/pl.md) lub [Szyk kołowy](Draft_CircularArray/pl.md).
 
-## Properties
 
-See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
 
-## Scripting
+## Użycie
 
-See [Draft OrthoArray](Draft_OrthoArray#Scripting.md).
+1.  Aby użyć tego polecenia w FreeCAD w wersji 0.19 i nowszych, należy dodać przycisk do niestandardowego paska narzędzi. Zapoznaj się z informacjami zawartymi na stronie [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md).
+2.  Opcjonalnie wybierz jeden obiekt.
+3.  Naciśnij przycisk **<img src="images/Draft_Array.svg" width=16px> [Szyk](Draft_Array/pl.md)**.
+4.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz jeden obiekt.
+5.  Tablica zostanie utworzona.
+6.  Opcjonalnie można zmienić [właściwości](Draft_OrthoArray/pl#Właściwości.md).
+
+
+
+## Właściwości
+
+Zapoznaj się z informacjami zawartymi na stronie [Szyk ortogonalny](Draft_OrthoArray/pl#Właściwości.md).
+
+
+
+## Tworzenie skryptów 
+
+Zapoznaj się z informacjami zawartymi na stronie [Szyk ortogonalny](Draft_OrthoArray/pl#Tworzenie_skryptów.md).
 
 
 

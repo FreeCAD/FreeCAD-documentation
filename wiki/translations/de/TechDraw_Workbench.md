@@ -2,7 +2,7 @@
 
 
 
-## Einführung
+## Einleitung
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw](TechDraw_Workbench/de.md) dient zur Erstellung einfacher technischer Zeichnungen aus 3D-Modellen, die mit einem anderen Arbeitsbereich erstellt wurden, wie z.B. [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md), [Arch](Arch_Workbench/de.md) oder die aus anderen Anwendungen importiert wurden. Jede Zeichnung ist ein Blatt, das verschiedene Ansichten von zeichnungsfähigen Objekten wie Part-Formelemente (Part::Features), PartDesign-Körper (PartDesign::Bodies), gruppierte Std-Parts (App::Part groups) und Std-Gruppen (App::DocumentObjectGroups) enthalten kann. Die daraus entstandenen Zeichnungen können für Dokumentationen, Fertigungsanweisungen, Verträge, Genehmigungen usw. verwendet werden.
 
@@ -173,6 +173,8 @@ Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informatio
 
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Hilfslinie durch 2 Punkte hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine Hilfslinie hinzu, die 2 Knoten verbindet
 
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Hilfskreis hinzufügen](TechDraw_CosmeticCircle/de.md): fügt einen Hilfskreis hinzu. {{Version/de|0.22}}
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Hilfsobjekt entfernen](TechDraw_CosmeticEraser/de.md): Entfernt Hilfsobjekte von einem Zeichnungsblatt.
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Liniendarstellung ändern](TechDraw_DecorateLine/de.md): ändert das Aussehen der ausgewählten Linie(n).
@@ -227,6 +229,8 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Flächenangabe](TechDraw_ExtensionAreaAnnotation/de.md): Berechnet den Flächeninhalt von ausgewählten Flächen und fügt ihn als Hinweistext mit Rahmen ein. {{Version/de|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Bogenlänge der ausgewählten Kanten berechnen](TechDraw_ExtensionArcLengthAnnotation/de.md): Berechnet die Bogenlänge ausgewählter Kanten und fügt sie als Hinweistext ein. {{Version/de|0.22}}
+
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Formatierung anpassen](TechDraw_ExtensionCustomizeFormat/de.md): Passt die Formatierung von Hinweistexten und Maßeinträgen an. Es können Symbole für Form- und Lagetolerierung (GD&T) und andere Sonderzeichen hinzugefügt werden. {{Version/de|0.20}}
 
 
@@ -249,7 +253,11 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
   - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Bolzengewinde](TechDraw_ExtensionThreadBoltBottom/de.md): Füge ein symbolisches Gewinde zu einem von oben gesehenen Bolzen hinzu. <small>(v0.20)</small> 
 
-  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Schnittpunkt](TechDraw_ExtensionVertexAtIntersection/de.md): Erzeuge Konstruktionspunkte im Schnittpunkt von Linien. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Hilfspunkte hinzufügen:
+
+  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Hilfsschnittpunkte hinzufügen](TechDraw_ExtensionVertexAtIntersection/de.md): Erzeugt Hilfspunkte an Schnittpunkten ausgewählter Kanten. {{Version/de|0.20}}
+
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Add an offset vertex](TechDraw_CommandAddOffsetVertex/de.md): Fügt einen Hilfspunkt mit einem bestimmten Versatz von einem ausgewählten Knoten hinzu. {{Version/de|0.22}}
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Kosmetische Kreise und Kreisbögen einfügen:
 

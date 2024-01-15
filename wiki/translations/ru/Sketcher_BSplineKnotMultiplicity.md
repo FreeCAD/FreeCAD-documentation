@@ -13,12 +13,16 @@
 
 </div>
 
+
+
 ## Описание
 
 Shows or hides the display of the knot multiplicity of a B-spline. See [this page](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md) for an explanation of the multiplicity. The multiplicity is shown in braces besides the knot.
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width:500px;"> 
 *B-spline in which the left knot has the multiplicity 3, the right knot has multiplicity 1, the end points have the multiplicity 4.*
+
+
 
 ## Применение
 

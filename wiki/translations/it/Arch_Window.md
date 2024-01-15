@@ -33,84 +33,48 @@ Tutte le informazioni applicabili alle [finestre](Arch_Window/it.md) si applican
 3.  Compilare i parametri desiderati.
 4.  Nella [vista 3D](3D_view/it.md), spostare la finestra nella posizione in cui si desidera posizionarla. Se si sposta il puntatore su un [muro](Arch_Wall/it.md), il contorno della finestra dovrebbe allinearsi con la faccia di quell\'oggetto.
 
-#### Additional presets 
 
 
-<div class="mw-translate-fuzzy">
+#### Preimpostazioni aggiuntive 
 
-
-**Note:**
-
-se si installa la \"Parts Library\" da [AddonManager](Std_AddonMgr/it.md), lo strumento finestra cercherà in questa libreria ulteriori preimpostazioni. Questi preset sono dei file di FreeCAD contenenti una singola finestra basata su uno schizzo parametrico che ha i vincoli definiti. Si possono aggiungere ulteriori preset nella directory `parts_library` in modo che vengano trovati dallo strumento finestra.
-
-
-</div>
+Se si installa la [Ambiente Libreria di parti](Parts_Library_Workbench/it.md) da [Addon Manager](Std_AddonMgr/it.md), lo strumento finestra cercherà in questa libreria ulteriori preimpostazioni. Questi preset sono dei file di FreeCAD contenenti una singola finestra basata su uno schizzo parametrico che ha i vincoli definiti. Si possono aggiungere ulteriori preset nella directory **parts_library** in modo che vengano trovati dallo strumento finestra.
 
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/**
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/**
 
-
-<div class="mw-translate-fuzzy">
-
-La `$ROOT_DIR` è la directory dell\'utente in cui sono archiviati la configurazione, le macro e gli ambienti di lavoro esterni di FreeCAD.
-
--   Su Linux di solito è `/home/username/.FreeCAD/`
--   Su Windows di solito è `C:\Users\username\Application Data\FreeCAD\`
--   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
-
-
-</div>
+-   La **$ROOT_DIR** è la directory utente in cui sono archiviati i file di configurazione, le macro e gli ambienti di lavoro esterni di FreeCAD. Può essere trovata inserendo `FreeCAD.getUserAppDataDir()` nella [console di Python](Python_console/it.md)
+    -   In linux di solito è **/home/username/.local/share/FreeCAD/** ({{VersionPlus/it|0.20}}) o **/home/username/.FreeCAD/** ({{VersionMinus/it|0.19}})
+    -   In windows di solito è **C:\Users\username\Application Data\FreeCAD\**
+    -   In Mac OSX di solito è **/Users/username/Library/Preferences/FreeCAD/**
+-   Il nome della subdirectory **Custom** è solo un suggerimento, è possibile utilizzare qualsiasi nome. Ma i file devono essere posizionati in una o più sottodirectory all\'interno delle directory **Doors** o **Windows**.
 
 
 
-### Creare dall\'inizio 
-
-
-<div class="mw-translate-fuzzy">
+### Creare da zero 
 
 1.  Opzionalmente, selezionare una faccia sull\'oggetto Arch in cui si desidera inserire la finestra.
 2.  Passare nell\'ambiente [Sketcher](Sketcher_Workbench/it.md).
 3.  Creare un nuovo schizzo.
-4.  Disegnare uno o più contorni chiusi (loop).
+4.  Disegnare uno o più contorni chiusi (anelli). Prestare molta attenzione all\'ordine di creazione di questi contorni, da questo dipende la numerazione dei \"wires\" nel [pannello attività](task_panel/it.md) (\"Window elements\").
 5.  Chiudere lo schizzo.
 6.  Tornare nell\'ambiente [Arch](Arch_Workbench/it.md).
 7.  Premere il pulsante **<img src="images/Arch_Window.svg" width=16px> [Finestra](Arch_Window/it.md)** , o premere i tasti **W** e poi **I**.
 8.  Per regolare i componenti della finestra e le varie proprietà, entrare nella finestra del [pannello Azioni](task_panel/it.md) facendo doppio clic sull\'oggetto creato nella [vista ad albero](tree_view/it.md).
-
-
-</div>
+9.  Si noti che poiché anche i componenti che seguono un componente incernierato saranno incernierati, tutti i componenti fissi devono essere creati prima.
 
 ## Presets
 
 Sono disponibili i seguenti modelli preimpostati:
 
-
-<div class="mw-translate-fuzzy">
-
-Image:ParametersDoorGlass.svg\|Glass door Image:ParametersDoorSimple.svg\|Simple door Image:ParametersWindowDouble.svg\|Double-opening window Image:ParametersWindowFixed.svg\|Fixed window Image:ParametersWindowSimple.svg\|Single-opening window Image:ParametersWindowStash.svg\|Sash-opening window
-
-
-</div>
+Image:ParametersWindowFixed.svg\|Fisso Image:ParametersWindowSimple.svg\|1 pannello aperto Image:ParametersWindowDouble.svg\|2 pannelli aperti Image:ParametersWindowStash.svg\|Anta a 2 vetri Image:ParametersWindowDouble.svg\|Scorrevole a 2 vetri Image:ParametersDoorSimple.svg\|Porta semplice Image:ParametersDoorGlass.svg\|Porta di vetro Image:ParametersWindowDouble.svg\|Scorrevole a 4 vetri Image:ParametersWindowSimple.svg\|Tenda da sole
 
 
 
 ## Creare i componenti 
 
-
-<div class="mw-translate-fuzzy">
-
-La finestra può includere 3 tipi di componenti: i pannelli, le cornici e le persiane.
-
-I pannelli e le persiane sono costituiti da un contorno chiuso che viene estruso. Le cornici sono formate da 2 o più contorni chiusi, entrambi estrusi, e quello più piccolo viene **<img src="images/Arch_Remove.png" width=16px> [sottratto](_Arch_Remove/it.md)** al più grande.
-
-È possibile accedere, creare, modificare ed eliminare i componenti di una finestra in modalità di modifica (doppio clic sull\'oggetto finestra nella struttura ad albero).
-
-I componenti hanno le seguenti proprietà:
-
-
-</div>
+La finestra può includere 4 tipi di componenti: telai, pannelli massicci, pannelli in vetro e persiane. I pannelli e le persiane sono costituiti da un contorno chiuso che viene estruso. Le cornici sono formate da 2 o più contorni chiusi, entrambi estrusi, e quello più piccolo viene **<img src="images/Arch_Remove.png" width=16px> [sottratto](_Arch_Remove/it.md)** al più grande. È possibile accedere, creare, modificare ed eliminare i componenti di una finestra in modalità di modifica (doppio clic sull\'oggetto finestra nella struttura ad albero). I componenti hanno le seguenti proprietà:
 
 -   **Name** : Un nome per il componente
 -   **Type**: Il tipo di componente. Può essere \"Frame\", \"Glass panel\" \"Solid panel\", o \"Louvres\"
@@ -126,9 +90,6 @@ I componenti hanno le seguenti proprietà:
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   Gli elementi Finestra condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 -   Se la casella **Auto-include** nel riquadro delle azioni di creazione della finestra non è selezionata, la finestra non verrà inserita in nessun oggetto ospite durante la creazione.
 -   Per inserire la finestra selezionata in un [muro](Arch_Wall/it.md), selezionare entrambi, poi premere il pulsante **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)**.
@@ -140,9 +101,6 @@ I componenti hanno le seguenti proprietà:
 uno strato di materiale denominato \"OuterFrame\". Se trova questo materiale lo attribuisce al componente OuterFrame. Il valore dello spessore dello strato di materiale viene ignorato.
 
 
-</div>
-
-
 
 ## Aperture
 
@@ -151,53 +109,53 @@ uno strato di materiale denominato \"OuterFrame\". Se trova questo materiale lo 
 
 il [Tutorial per finestre aperte](Tutorial_for_open_windows/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Le porte e le finestre possono apparire parzialmente o completamente aperte nel modello 3D oppure si possono visualizzare i simboli di apertura sia in pianta che in altezza. Di conseguenza, queste appariranno anche nelle viste in 2D estratte e generate da [Draft Viste 2D](Draft_Shape2DView/it.md) o [TechDraw](TechDraw_Workbench/it.md) o [Drawing](Drawing_Workbench/it.md). Per ottenere ciò, almeno uno dei componenti della finestra deve avere una cerniera e una modalità di apertura definita (vedere la sezione precedente \"Componenti dell\'edificio\"). Quindi, usando le proprietà **Opening**, **Symbol Plan** o **Symbol Elevation**, si può configurare l\'aspetto della finestra:
-
-
-</div>
+Le porte e le finestre possono apparire parzialmente o completamente aperte nel modello 3D oppure si possono visualizzare i simboli di apertura sia in pianta che in altezza. Di conseguenza, queste appariranno anche nelle viste in 2D estratte e generate da [Draft Viste 2D](Draft_Shape2DView/it.md) o [TechDraw](TechDraw_Workbench/it.md). Per ottenere ciò, almeno uno dei componenti della finestra deve avere una cerniera e una modalità di apertura definita (vedere la sezione precedente \"Componenti dell\'edificio\"). Quindi, usando le proprietà **Opening**, **Symbol Plan** o **Symbol Elevation**, si può configurare l\'aspetto della finestra:
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Una porta che mostra da sinistra a destra  come lavorano le proprietà Symbol Plan, Symbol Elevation e Opening*
 
-## Defining window types 
 
-Windows can also take advantage of other tools, specifically [PartDesign](PartDesign_Workbench.md) workflows, to define a type. A type is an object that defines the shape of the window. This is specially well suited to work with [App Parts](App_Part.md):
+
+## Definizione dei tipi di finestra 
+
+Windows può anche sfruttare altri strumenti, in particolare i flussi di lavoro [Part](PartDesign_Workbench/it.md), per definire un tipo. Un tipo è un oggetto che definisce la forma della finestra. Questo è particolarmente adatto per lavorare con [App Parts](App_Part/it.md):
 
 <img alt="" src=images/Arch_window_type_example.png  style="width:800px;">
 
-[Download the example file shown above](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
+[Scaricare il file di esempio mostrato sopra](https://github.com/FreeCAD/Examples/blob/master/Arch_Example_Files/Window_Type.FCStd)
 
-### Example workflow 
 
--   Create a window frame object, a glass panel, and any other window component you need, using [Part Workbench](Part.md) or [PartDesign](PartDesign_Workbench.md) tools.
--   For example, create a base rectangular sketch for your window, then a profile sketch for the frame, and create a [Part Sweep](Part_Sweep.md) to sweep the profile around the base sketch. Create a [Part Offset2D](Part_Offset2D.md) from the base sketch, then a [Part Extrude](Part_Extrude.md) to create the glass panel
--   Make sure all these pieces have a unique, meaningful name (for example, \"Frame\" or \"Glass Panel\")
--   Create an [App Part](App_Part.md), and place all your subcomponents in it
--   Create a volume to be subtracted from the wall, for example by extruding the base sketch. Add this volume to the App Part. Make sure the volume is turned off
--   If using FreeCAD version 0.19 or later, you can add 3 properties to your App Part, by right-clicking its properties view, and check \"Show All\". Add the following properties (all of them are optional, the group doesn\'t matter):
-    -   **Height** as a PropertyLength and link it, for example, to a vertical constraint of your base sketch
-    -   **Width** as a PropertyLength and link it, for example, to a horizontal constraint of your base sketch
-    -   **Subvolume** as a PropertyLink and link it to the volume to be subtracted that we created above
-    -   **Tag** as a PropertyString
 
-### Materials
+### Esempio di flusso di lavoro 
 
-Our window type is now ready. We can create window objects from it, simply by selecting the App Part and pressing the window button. The \"Height\", \"Width\", \"Subvolume\" and \"Tag\" properties of the window will be linked to the corresponding property of the App Part, if existing.
+-   Creare un oggetto telaio di finestra, un pannello di vetro e qualsiasi altro componente di finestra di cui c\'è bisogno, utilizzando gli strumenti [Part](Part/it.md) o [PartDesign](PartDesign_Workbench/it.md).
+-   Ad esempio, creare uno schizzo rettangolare di base per la finestra, quindi uno schizzo del profilo per il telaio e creare un [Part_Sweep](Part_Sweep.md) per eseguire lo sweep del profilo attorno allo schizzo di base. Creare un [Part_Offset2D](Part_Offset2D.md) dallo schizzo di base, quindi un [Part_Extrude](Part_Extrude.md) per creare il pannello di vetro
+-   Assicurarsi che tutti questi pezzi abbiano un nome univoco e significativo (ad esempio \"Frame\" o \"Glass Panel\")
+-   Creare un [App_Part](App_Part.md) e inserire tutti i sottocomponenti al suo interno
+-   Creare un volume da sottrarre al muro, ad esempio estrudendo lo schizzo di base. Aggiungere questo volume alla parte app. Assicurarsi che il volume sia disattivato
+-   Se si utilizza FreeCAD versione 0.19 o successiva, è possibile aggiungere 3 proprietà alla parte app, facendo clic con il pulsante destro del mouse sulla visualizzazione delle proprietà e selezionando \"Show All\". Aggiungere le seguenti proprietà (tutte sono facoltative, il gruppo non ha importanza):
+    -   **Height** come PropertyLength e collegarlo, ad esempio, ad un vincolo verticale dello schizzo di base
+    -   **Width** come PropertyLength e collegarlo, ad esempio, ad un vincolo orizzontale dello schizzo di base
+    -   **Subvolume** come PropertyLink e collegarlo al volume da sottrarre che è stato creato sopra
+    -   **Tag** come PropertyString
 
-To build a material for type-based windows:
 
--   Create a [multi-material](Arch_MultiMaterial.md)
--   Create one entry in the multi-material for each component of your App Part. For example, one \"Frame\", one \"Glass panel\" as we used above. Make sure to use the exact same name.
--   Attribute that multi-material to each of the windows derived from the same type
 
-You can use any other kind of workflow than the one described above, the important points to remember are:
+### Materiali
 
--   The type object must be one object, no matter the type (App Part, PartDesign Body, Part Compound, or even another Arch Window)
--   The type object must have a \"Subvolume\" property (linked to the window\'s Subvolume property) for openings in host objects to work
--   The type object must have a \"Group\" property with different children with same names as multi-material items for multi-materials to work
+Il tipo di finestra ora è pronto. Si possono creare oggetti finestra da esso, semplicemente selezionando la parte App e premendo il pulsante finestra. Le proprietà \"Height\", \"Width\", \"Subvolume\" e \"Tag\" della finestra verranno collegate alla corrispondente proprietà dell\'App Part, se esistente.
+
+Per creare un materiale per finestre basate sul tipo:
+
+-   Creare un [multimateriale](Arch_MultiMaterial/it.md)
+-   Creare una voce nel multimateriale per ogni componente della parte app. Ad esempio, un \"Frame\", un \"Glass panel\" come si è usato sopra. Assicurarsi di utilizzare esattamente lo stesso nome.
+-   Attribuire quel multimateriale a ciascuna delle finestre derivate dalla stessa tipologia
+
+È possibile utilizzare qualsiasi altro tipo di flusso di lavoro diverso da quello sopra descritto, i punti importanti da ricordare sono:
+
+-   L\'oggetto tipo deve essere un oggetto, indipendentemente dal tipo (App Part, PartDesign Body, Part Compound, o anche un altrop Arch Window)
+-   L\'oggetto tipo deve avere una proprietà \"Subvolume\" (collegata alla proprietà Subvolume della finestra) affinché le aperture negli oggetti host funzionino
+-   L\'oggetto tipo deve avere una proprietà \"Group\" con figli diversi con gli stessi nomi degli elementi multimateriale affinché i multimateriali funzionino
 
 
 
@@ -223,10 +181,7 @@ You can use any other kind of workflow than the one described above, the importa
 
 -    {{PropertyData/it|Symbol Elevation}}: Mostra il simbolo 2D di apertura nell\'elevazione
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -235,9 +190,6 @@ You can use any other kind of workflow than the one described above, the importa
 
 [API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
 Lo strumento Finestra può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
@@ -245,15 +197,9 @@ Lo strumento Finestra può essere utilizzato nelle [macro](macros/it.md) e dalla
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 -   Crea un oggetto `Window` basato su un `baseobj`, che deve essere un [Wire](Draft_Wire/it.md) o uno [Sketcher Schizzo](Sketcher_Workbench/it.md) chiuso.
 -   Se disponibile, imposta `width`, `height`, e `name` (label) della finestra.
 -   Se `baseobj` non è una forma chiusa, lo strumento non può creare un oggetto solido corretto.
-
-
-</div>
 
 Esempio: 
 ```python
@@ -291,15 +237,6 @@ Door = Arch.makeWindowPreset("Simple door",
                              h1=100, h2=100, h3=100, w1=200, w2=100, o1=0, o2=100,
                              placement=place)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it|[Riferimento esterno](Arch_Reference/it.md)|[Piano di sezione](Arch_SectionPlane/it.md)|[Arch](Arch_Workbench/it.md)|IconL=Arch_Reference.svg |IconC=Workbench_Arch.svg |IconR=Arch_SectionPlane.svg}}
-
-
-</div>
 
 
 

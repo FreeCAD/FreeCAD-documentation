@@ -9,6 +9,8 @@ Após instalar o FreeCAD para seu sistema operacional ([Windows](Installing_on_W
 
 </div>
 
+
+
 # Arquivos de ajuda 
 
 
@@ -19,13 +21,19 @@ A documentação offline não é enviada com todos os instaladores, mas está di
 
 </div>
 
+
+
 # Bancadas de trabalho externas 
 
 Além das [bancadas de trabalho](workbenches/pt-br.md) padronizadas, agrupadas com o FreeCAD, há uma grande coleção de [bancadas de trabalho externas](External_workbenches/pt-br.md) úteis feitas por membros da comunidade.
 
+
+
 # Componente de software de terceiros 
 
 O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em muitos casos tudo o que você precisa fazer é instalar o software, e quando o FreeCAD for reiniciado, ele o encontrará automaticamente e poderá usá-lo. Esta seção visa fornecer uma lista de tais pacotes de software, juntamente com algumas informações sobre onde eles são usados no FreeCAD e onde podem ser baixados.
+
+
 
 ## Suporte
 
@@ -51,6 +59,8 @@ O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em 
 
 </div>
 
+
+
 ## Formatos de arquivo 
 
 Todos os softwares desta seção serão utilizados pelas ferramentas [Importar Std](Std_Import/pt-br.md) ou [Exportar Std](Std_Export/pt-br.md).
@@ -58,6 +68,8 @@ Todos os softwares desta seção serão utilizados pelas ferramentas [Importar S
 ### CADExchanger
 
 [CADExchanger](https://cadexchanger.com) é uma aplicação comercial para a conversão de vários formatos de arquivo CAD. Existe um [bancada de trabalho externo](https://github.com/yorikvanhavre/CADExchanger) para usar este aplicativo no FreeCAD.
+
+
 
 ### Importador DXF 
 
@@ -84,6 +96,8 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 ### Pycollada
 
 [Pycollada](https://github.com/pycollada/pycollada/releases), também conhecida como python-collada, é uma biblioteca Python para ler e escrever arquivos Collada (DAE). O Pycollada está incluído nos instaladores do FreeCAD para Windows e Mac.
+
+
 
 ## Renderização
 
@@ -117,11 +131,19 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 </div>
 
+
+
 ## Elemento finito 
 
 ### CalculiX
 
+
+<div class="mw-translate-fuzzy">
+
 [CalculiX](http://calculix.de) é um conjunto de dois pacotes de elementos finitos: CalculiX CrunchiX, um solucionador FEM, e CalculiX GraphiX, uma 'interface' GUI. Somente o solucionador é suportado pelo FreeCAD. É utilizado pela ferramenta [Solver CalculiX](FEM_SolverCalculiX/pt-br.md).
+
+
+</div>
 
 ### Gmsh
 
@@ -148,6 +170,8 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) é uma grande coleção de bibliotecas para simulações de dinâmicas de fluidos computacionais (CFD). O OpenFOAM é usado pelo [Cfd](Cfd_Workbench/pt-br.md) e [CfdOF](https://github.com/jaheyns/CfdOF) [Bancadas de trabalho externas](external_workbenches/pt-br.md).
+
+
 
 # Páginas relacionadas 
 

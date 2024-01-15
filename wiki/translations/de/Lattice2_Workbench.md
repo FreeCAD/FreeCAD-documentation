@@ -156,13 +156,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Verknüpfungen zum Lattice2 Arbeitsbereich 
-
-
-</div>
+## Verknüpfungen zum Arbeitsbereich Lattice2 
 
 -   Lattice2 Wiki: <https://github.com/DeepSOIC/Lattice2/wiki>
 -   FreeCAD Wiki: <https://www.freecadweb.org/wiki/Lattice2_Workbench>

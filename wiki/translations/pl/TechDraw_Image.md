@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw Image
    Name/pl: Rysunek Techniczny: Wstaw obraz bitmapy
-   MenuLocation: Rysunek Techniczny , Wstaw obraz bitmapy
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw obraz bitmapy
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_Symbol/pl
 ---
 
 # TechDraw Image/pl
-
-
-</div>
 
 
 
@@ -25,14 +22,17 @@ Narzędzie **Wstaw obraz bitmapy** wstawia z pliku do strony widok obrazu [bitma
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> '''Wstaw obraz bitmapy'''**.
-2.  Otworzy się okno dialogowe pliku. Wybierz lokalizację i nazwę pliku.
-
-
-</div>
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_Image.svg" width=16px> '''Wstaw obraz bitmapy'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_Image.svg" width=16px> Wstaw obraz bitmapowy**.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+4.  Zostanie otwarte okno dialogowe pliku.
+5.  Wybierz lokalizację i nazwę pliku.
+6.  Obraz zostanie wstawiony.
+7.  Opcjonalnie można zmienić jego właściwość **Skala**, aby dostosować jego rozmiar.
 
 
 

@@ -1,38 +1,42 @@
 # Python/it
-**FreeCAD was originally designed to work with Python 2.x. This series ended with 2.7.18 release dated April, 20th 2020 and is succeeded by Python 3. The further development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.**
+**FreeCAD è stato originariamente progettato per funzionare con Python 2.x. Questa serie si è conclusa con il rilascio 2.7.18 datato 20 aprile 2020 ed è seguita da Python 3. L'ulteriore sviluppo di FreeCAD sarà effettuato esclusivamente con Python 3 e la compatibilità con le versioni precedenti non sarà supportata.**
+
+
 
 ## Descrizione
 
 
 
 
-[Python](https://www.python.org) is a general purpose, high level programming language that is very commonly used in large applications to automate some tasks by creating scripts or [macros](macros.md).
+[Python](https://www.python.org) è un linguaggio di programmazione di alto livello per scopi generali, comunemente utilizzato in applicazioni di grandi dimensioni per automatizzare alcune attività creando script o [macro](macros/it.md).
 
-In FreeCAD, Python code can be used to create various elements programmatically, without needing to click on the graphical user interface. Additionally, many tools and workbenches of FreeCAD are programmed in Python.
+In FreeCAD, il codice Python può essere utilizzato per creare vari elementi in modo programmatico, senza la necessità di fare clic sull\'interfaccia utente grafica. Inoltre, molti strumenti e ambienti di lavoro di FreeCAD sono programmati in Python.
 
-See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to start scripting in FreeCAD.
+Vedere [Introduzione a Python](Introduction_to_Python/it.md) per conoscere il linguaggio di programmazione Python, quindi [Guida agli Script Python](Python_scripting_tutorial/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md) per iniziare a creare script in FreeCAD .
 
-## Readability
 
-Readability of Python code is one of the most important aspects of this language. Using a clear and consistent style within the Python community facilitates contributions by different developers, as most experienced Python programmers expect the code to be formatted in a certain way and to follow certain rules. When writing Python code, it is advisable to follow [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) and [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/).
 
-These documents present explanations in a more user-friendly way:
+## Leggibilità
+
+La leggibilità del codice Python è uno degli aspetti più importanti di questo linguaggio. L\'uso di uno stile chiaro e coerente all\'interno della comunità Python facilita i contributi da parte di diversi sviluppatori, poiché i programmatori Python più esperti si aspettano che il codice sia formattato in un certo modo e segua determinate regole. Quando si scrive codice Python, è consigliabile seguire [PEP8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) e [PEP257: Docstring Conventions](https://www.python.org/dev/peps/pep-0257/).
+
+Questi documenti presentano le spiegazioni in modo più intuitivo:
 
 -   [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
 -   [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
 
-## Conventions
+## Convenzioni
 
-In this documentation, some conventions for Python examples should be followed.
+In questa documentazione dovrebbero essere seguite alcune convenzioni per gli esempi Python.
 
-This is a typical function signature
+Questa è una tipica firma di funzione
 
 
 ```python
 Wire = make_wire(pointslist, closed=False, placement=None, face=None, support=None)
 ```
 
--   Arguments with key-value pairs are optional, with the default value indicated in the signature. This means that the following calls are equivalent:
+-   Gli argomenti con coppie chiave-valore sono facoltativi, con il valore predefinito indicato nella firma. Ciò significa che le seguenti chiamate sono equivalenti:
 
 
 ```python
@@ -44,9 +48,9 @@ Wire = make_wire(pointslist)
 ```
 
 
-:   In this example the first argument doesn\'t have a default value so it should always be included.
+:   In questo esempio il primo argomento non ha un valore predefinito quindi dovrebbe essere sempre incluso.
 
--   When the arguments are given with the explicit key, the optional arguments can be given in any order. This means that the following calls are equivalent:
+-   Quando gli argomenti vengono forniti con la chiave esplicita, gli argomenti opzionali possono essere forniti in qualsiasi ordine. Ciò significa che le seguenti chiamate sono equivalenti:
 
 
 ```python
@@ -56,7 +60,7 @@ Wire = make_wire(pointslist, placement=None, closed=False, face=None)
 Wire = make_wire(pointslist, support=None, closed=False, placement=None, face=None)
 ```
 
--   Python\'s guidelines stress readability of code; in particular, parentheses should immediately follow the function name, and a space should follow a comma.
+-   Le linee guida di Python sottolineano la leggibilità del codice; in particolare, le parentesi dovrebbero seguire immediatamente il nome della funzione e uno spazio dovrebbe seguire una virgola.
 
 
 ```python
@@ -66,7 +70,7 @@ p3 = Vector(2, 0, 0)
 Wire = make_wire([p1, p2, p3], closed=True)
 ```
 
--   If code needs to be broken over several lines, this should be done at a comma inside brackets or parentheses; the second line should be aligned with the previous one.
+-   Se è necessario suddividere il codice su più righe, ciò dovrebbe essere fatto con una virgola tra parentesi quadre o parentesi quadre; la seconda riga dovrebbe essere allineata con la precedente.
 
 
 ```python
@@ -78,7 +82,7 @@ Wire = make_wire(pointslist,
                 None, None)
 ```
 
--   Functions may return an object that can be used as the base of another drawing function.
+-   Le funzioni possono restituire un oggetto che può essere utilizzato come base di un\'altra funzione di disegno.
 
 
 ```python
@@ -86,13 +90,15 @@ Wire = make_wire(pointslist, closed=True, face=True)
 Window = make_window(Wire, name="Big window")
 ```
 
-## Imports
 
-Python functions are stored in files called modules. Before using any function in that module, the module must be included in the document with the `import` instruction.
 
-This creates prefixed functions, that is, `module.function()`. This system prevents name clashes with functions that are named the same but that come from different modules. For example, the two functions `Arch.make_window()` and `myModule.make_window()` may coexist without problem.
+## Importazione
 
-Full examples should include the necessary imports and the prefixed functions.
+Le funzioni Python sono archiviate in file chiamati moduli. Prima di utilizzare qualsiasi funzione in quel modulo, il modulo deve essere incluso nel documento con l\'istruzione `import`.
+
+Questo crea funzioni con prefisso, ovvero `module.function()`. Questo sistema previene conflitti di nome con funzioni che hanno lo stesso nome ma che provengono da moduli diversi. Ad esempio, le due funzioni `Arch.make_window()` e `myModule.make_window()` possono coesistere senza problemi.
+
+Gli esempi completi dovrebbero includere le importazioni necessarie e le funzioni prefissate.
 
 
 ```python

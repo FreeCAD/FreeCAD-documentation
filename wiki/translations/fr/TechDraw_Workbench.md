@@ -97,7 +97,7 @@ Ce sont les outils pour décorer l\'apparence des pages et des vues.
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Applique un motif de hachure](TechDraw_GeometricHatch/fr.md) : applique un motif de hachure à une face en utilisant une spécification Autodesk PAT.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Symbole SVG](TechDraw_Symbol/fr.md) : insère un symbole [SVG](SVG/fr.md) dans une page.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Symbole](TechDraw_Symbol/fr.md) : insère un symbole [SVG](SVG/fr.md) dans une page.
 
 -   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Image Bitmap](TechDraw_Image/fr.md) : insère une image PNG ou JPG [bitmap](bitmap/fr.md) dans une page.
 
@@ -169,6 +169,8 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw-line2points.svg  style="width:32px;"> [Ligne cosmétique par 2 points](TechDraw_2PointCosmeticLine/fr.md) : ajoute une ligne cosmétique reliant 2 points.
 
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Cercle cosmétique](TechDraw_CosmeticCircle/fr.md) : ajoute un cercle cosmétique. {{Version/fr|0.22}}
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Gomme](TechDraw_CosmeticEraser/fr.md) : supprime les objets cosmétiques d\'une page.
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Apparence des lignes](TechDraw_DecorateLine/fr.md) : modifie l\'apparence des lignes.
@@ -221,6 +223,8 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Surface](TechDraw_ExtensionAreaAnnotation/fr.md) : calcule la surface des faces sélectionnées et insère une annotation de surface. {{Version/fr|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Longueur d\'arc d\'arêtes](TechDraw_ExtensionArcLengthAnnotation/fr.md) : calcule la longueur d\'arc d\'arêtes sélectionnées et insère une annotation de longueur d\'arc. {{Version/fr|0.22}}
+
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md) : Personnalise le formatage du texte d\'une infobulle ou du texte d\'une cote. Des [symboles GD&T](https://en.wikipedia.org/wiki/Geometric_dimensioning_and_tolerancing) et d\'autres caractères spéciaux peuvent être ajoutés. {{Version/fr|0.20}}
 
 
@@ -243,7 +247,11 @@ Ce sont des outils pour améliorer vos dessins TechDraw.
 
   - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Filetage](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue supérieure ou inférieure des boulons/vis/tiges. {{Version/fr|0.20}}
 
--   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Intersection de lignes](TechDraw_ExtensionVertexAtIntersection/fr.md) : crée des sommets cosmétiques à l\'intersection des lignes sélectionnées. {{Version/fr|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajoute des sommets :
+
+  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Intersection de lignes](TechDraw_ExtensionVertexAtIntersection/fr.md) : crée des sommets cosmétiques à l\'intersection des lignes sélectionnées. {{Version/fr|0.20}}
+
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Ajoute un sommet décalé](TechDraw_CommandAddOffsetVertex/fr.md) : ajoute un sommet cosmétique à un décalage spécifié par rapport à un sommet sélectionné. {{Version/fr|0.22}}
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajouter des cercles ou des arcs cosmétiques :
 

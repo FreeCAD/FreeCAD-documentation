@@ -9,9 +9,13 @@
 
 # Std ViewStatusBar/pl
 
+
+
 ## Opis
 
 Polecenie **Pasek stanu** przełącza wyświetlanie [Paska statusu](Status_bar/pl.md).
+
+
 
 ## Użycie
 

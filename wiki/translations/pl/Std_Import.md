@@ -93,7 +93,7 @@ Domyślnie płaszczyzna obrazu jest umieszczana na globalnej płaszczyźnie XY. 
 
 ### Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Płaszczyzna obrazu wywodzi się z obiektu [App: Cechy geometrii](App_GeoFeature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 

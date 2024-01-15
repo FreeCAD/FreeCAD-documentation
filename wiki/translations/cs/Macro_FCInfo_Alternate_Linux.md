@@ -1,4 +1,7 @@
 # Macro FCInfo Alternate Linux/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro FCInfo Alternate Linux
 |Translate=Macro FCInfo Alternate Linux
@@ -9,9 +12,20 @@
 |Date=2014-03-05
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Poskytuje řadu informací o vybraném tvaru a může zobrazovat konverzi délky, svahu (stupeň, radián, sklon, průtok), tvar, povrch, objem a hmotnost tvaru ve zvolené hustotě v různých měrných jednotkách v mezinárodním měřítku a v angličtině-Saxon (pouze pro PyQt4).
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
@@ -20,7 +34,15 @@ Server momentálně nepřijímá více stránek 64 kB a nebylo možné tuto str�
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 Stáhnout soubor zde:
+
+
+</div>
 
 [FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http://forum.freecadweb.org/download/file.php?id=4453)
 

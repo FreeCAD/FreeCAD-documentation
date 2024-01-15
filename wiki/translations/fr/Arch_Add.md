@@ -25,6 +25,8 @@ La contrepartie de cet outil est l\'outil **<img src="images/Arch_Remove.svg" wi
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *Dans l'image ci-dessus, une boîte est ajoutée à un mur.*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez les objets à ajouter ensemble. Le dernier objet sélectionné sera l\'objet Arch de l\'hôte.

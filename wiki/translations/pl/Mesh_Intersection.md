@@ -9,6 +9,8 @@
 
 # Mesh Intersection/pl
 
+
+
 ## Opis
 
 Polecenie **Przecięcie** tworzy nowy nieparametryczny obiekt siatkowy typu [cecha siatki](Mesh_Feature/pl.md), czyli przecięcie *(część wspólną)* dwóch obiektów siatki.
@@ -18,12 +20,16 @@ Polecenie **Przecięcie** tworzy nowy nieparametryczny obiekt siatkowy typu [cec
 ![](images/Mesh_Intersection_example.png ) 
 *Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy będący przecięciem tych obiektów.*
 
+
+
 ## Użycie
 
 1.  Wybierz dwa obiekty siatkowe, które częściowo się pokrywają.
 2.  Polecenie można wywołać na kilka sposobów:
     -   Naciśnij przycisk **<img src="images/Mesh_Intersection.svg" width=16px> '''Przecięcie'''**.
     -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Intersection.svg" width=16px> Przecięcie**.
+
+
 
 ## Właściwości
 

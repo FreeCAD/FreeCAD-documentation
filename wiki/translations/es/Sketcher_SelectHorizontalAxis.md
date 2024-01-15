@@ -17,7 +17,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Selecciona el eje horizontal de un croquis.
+
+
+</div>
 
 
 

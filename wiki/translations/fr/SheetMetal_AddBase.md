@@ -17,7 +17,7 @@ A partir d\'un contour ouvert, il crée un *profil* prismatique :
 
 <img alt="" src=images/SheetMetal_AddBase-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width:200px;">
 
-A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
+A partir d\'un contour fermé, il crée une *plaque* de base (flan) :
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 

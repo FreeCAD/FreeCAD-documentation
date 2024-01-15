@@ -11,9 +11,13 @@
 
 </div>
 
+
+
 ## Tanım
 
 Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıcı, modelin başka bir yönünü incelemek için model görünümü yönünü değiştirdiğinde ve eskiz için normal bir görünüme dönmek istediğinde faydalıdır.
+
+
 
 
 <div class="mw-translate-fuzzy">

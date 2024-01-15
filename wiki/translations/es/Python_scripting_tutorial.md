@@ -18,6 +18,9 @@ También existen diversas formas de utilizar Python en FreeCAD:
 
 En este tutorial, trabajaremos en varios ejemplos básicos para que puedas iniciarte, pero existe mucha más documentación sobre los [documentación sobre guionización en Python](Power_users_hub/es.md) disponible en esta wiki. Si eres totalmente nuevo en Python y quieres comprender cómo funciona, también tenemos una básica [Introducción a Python](introduction_to_Python/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Antes de proceder con la escritura en Python, vaya a **Editar → Preferencias → General → Ventana de salida** y marque dos casillas:
 
 -    **Redirigir salida Python interna a la vista de informe**.
@@ -27,6 +30,9 @@ Antes de proceder con la escritura en Python, vaya a **Editar → Preferencias �
 Luego vaya a **Vista → Paneles** y compruebe:
 
 -    **Vista de informe**.
+
+
+</div>
 
 
 

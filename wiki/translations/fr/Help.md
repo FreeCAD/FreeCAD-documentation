@@ -1,15 +1,17 @@
 # Help/fr
-## Forum
-
-Le premier endroit où vous pouvez demander de l\'aide est le [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3). Veuillez lire [cet article](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) avant de poser une question. N\'oubliez pas que des [informations importantes](Important_information.md) sur votre système sont nécessaires lorsque vous demandez de l\'aide.
-
-Il existe différents sous-forums pour les utilisateurs et les développeurs FreeCAD. Assurez-vous de rechercher sur Internet et de lire les questions existantes avant de demander de l\'aide. Il existe des sous-forums où vous pouvez discuter de sujets plus spécifiques, donner vos impressions sur FreeCAD, discuter de nouvelles idées, etc. Les forums sont très actifs et vous devriez obtenir une réponse très rapidement.
-
-
-
 ## Wiki
 
-Si vous avez besoin d\'aide ou avez des questions relatives à une page particulière de cette documentation wiki, vous pouvez toujours laisser des idées ou des commentaires sur la page , un onglet **discussion** se trouve sur chaque page. Pour télécharger des fichiers pour Wiki, veuillez utiliser [this page](https://www.freecadweb.org/wiki/Special:Upload).
+Si vous cherchez des réponses dans le Wiki, vous remarquerez rapidement que sa fonction de recherche n\'est pas très sophistiquée. Vous obtiendrez de meilleurs résultats en utilisant un moteur de recherche Internet. Ajoutez simplement {{Value|site:wiki.freecad.org}} à votre requête pour limiter la recherche au Wiki FreeCAD.
+
+## FAQ
+
+Certaines de vos questions ont peut-être déjà reçu une réponse sur la page [Foire aux questions](Frequently_asked_questions/fr.md).
+
+## Forum
+
+Un autre endroit où vous pouvez trouver de l\'aide est le [forum de FreeCAD](https://forum.freecad.org/viewforum.php?f=3). Veuillez lire [cette annonce](https://forum.freecad.org/viewtopic.php?f=3&t=2264) avant de poser une question. N\'oubliez pas que les [informations importantes](Important_information/fr.md) sur votre système est nécessaire lorsque vous demandez de l\'aide.
+
+Il existe différents sous-forums pour les utilisateurs et les développeurs FreeCAD. Assurez-vous de rechercher sur Internet et de lire les questions existantes avant de demander de l\'aide. Il existe des sous-forums où vous pouvez discuter de sujets plus spécifiques, donner vos impressions sur FreeCAD, discuter de nouvelles idées, etc. Les forums sont très actifs et vous devriez obtenir une réponse très rapidement.
 
 ## Internet Relay Chat (IRC) 
 

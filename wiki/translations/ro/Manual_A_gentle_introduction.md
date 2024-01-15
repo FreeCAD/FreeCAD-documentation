@@ -1,5 +1,5 @@
 # Manual:A gentle introduction/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) este un limbaj de programare popular, open source, foarte adesea încorporat în aplicații ca limbaj de scripting, ca în cazul FreeCAD. Are o serie de caracteristici care îl fac potrivite pentru utilizatorii noștri de pe FreeCAD: este foarte ușor de învățat, mai ales pentru cei care nu au programat niciodată înainte și este încorporat în multe alte aplicații. Acest lucru face ca acesta să fie un instrument valoros pentru a învăța, așa cum îl veți putea folosi în alte programe, cum ar fi [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) ori [GRASS](http://grass.osgeo.org/).
 
@@ -19,6 +19,8 @@ FreeCAD are de asememene un [macros system](Macros.md), care vă permite să vă
 
 În acest capitol, vom descoperi într-un mod foarte general limbajul Python. Dacă doriți să aflați mai multe, documentația wiki din FreeCAD are o secțiune extensivă despre programarea Python.[Python programming](Power_users_hub.md).
 
+
+
 ### Scrierea de cod Python 
 
 
@@ -32,6 +34,8 @@ Sunt două maniere facile de a scrie cod Python în FreeCAD: de la consola Pytho
 În acest capitol, veți putea utiliza ambele metode, dar este foarte recomandat să utilizați Consola Python, deoarece vă va informa imediat despre eventualele erori pe care le faceți în timp ce tastați.
 
 Dacă este prima dată când utilizați Python, luați în considerare citirea acestei scurte introduceri în programarea Python înainte de a merge mai departe [introduction to Python programming](Introduction_to_Python.md). Acest lucru va face conceptele de baza ale Python sa vă fie mai clare.
+
+
 
 ### Manipularea obiectelor FreeCAD 
 
@@ -90,6 +94,8 @@ Proprietățile de vizualizare sunt stocate în interiorul unui **ViewObject**. 
 De exemplu, pentru a accesa culoarea liniei casetei noastre:
 
 box.ViewObject.LineColor 
+
+
 
 ### Vectori și Plasament 
 

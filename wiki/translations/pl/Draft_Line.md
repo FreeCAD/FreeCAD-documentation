@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Draft Line
-   Name/pl: Rysunek roboczy: Linia
+   Name/pl: Rysunek Roboczy: Linia
    MenuLocation: Kreślenie , Linia
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **L** **I**
@@ -10,6 +10,8 @@
 ---
 
 # Draft Line/pl
+
+
 
 ## Opis
 
@@ -20,48 +22,59 @@ Linia środowiska Rysunek Roboczy jest w rzeczywistości [polilinią](Draft_Wire
 <img alt="" src=images/Draft_Line_example.jpg  style="width:400px;"> 
 *Linia utworzona przez dwa punkty*
 
+
+
 ## Użycie
 
-Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Line.svg" width=16px> [Utwórz linię ...](Draft_Line.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Line.svg" width=16px> '''Linia'''**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Line.svg" width=16px> Linia** opcję z menu.
     -   Użyj skrótu klawiaturowego: **L**, a następnie **I**.
 2.  Otworzy się panel zadań **Linia**. Aby uzyskać więcej informacji, zobacz [Opcje](#Opcje.md).
-3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
-4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
+3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+
+
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
 -   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, i naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza okno [widoku 3D](3D_view/pl.md).
 -   Aby użyć współrzędnych biegunowych, wprowadź wartość dla **Długości** i wartość dla **Kąta**, a następnie naciśnij klawisz **Enter** po każdej z nich.
 -   Zaznacz pole wyboru **kąt**, aby związać kursor do określonego kąta. Aby funkcja działała, pole wejściowe **Długość** musi przyjmować wartość niezerową.
--   Naciśnij klawisz **H**, aby zmienić aktywność z pola wprowadzania **X** na pole wprowadzania **Długość** i z powrotem. W zależności od pola wejściowego, które otrzymuje aktywność, pole wyboru **Kąt** jest zaznaczane lub odznaczane.
+-   Naciśnij klawisz **L**, aby zmienić aktywność z pola wprowadzania **X** na pole wprowadzania **Długość** i z powrotem. W zależności od pola wejściowego, które otrzymuje aktywność, pole wyboru **Kąt** jest zaznaczane lub odznaczane.
 -   Naciśnij klawisz **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu odnoszą się do pierwszego punktu, w przeciwnym razie odnoszą się do początku układu współrzędnych.
 -   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do głównego układu współrzędnych, w przeciwnym razie do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **T** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
+-   Naciśnij klawisz **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, pozwalając Ci kontynuować tworzenie linii.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
+
+
 
 ## Uwagi
 
 -   Linia może być edytowana za pomocą polecenia [Edytuj aktywny obiekt](Draft_Edit.md).
 -   Linie środowiska Rysunek Roboczy oraz [polilinie](Draft_Wire/pl.md) można łączyć za pomocą polecenia [Utwórz wielopunktowa linię \...](Draft_Wire/pl.md), polecenia [Połącz zaznaczone linie](Draft_Join/pl.md) lub polecenia [Ulepsz kształt](Draft_Upgrade/pl.md).
 
+
+
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
+-   Aby zmienić początkową aktywność panelu zadań na pole wprowadzania **Długość**: **Edycja → Preferencje... → Rysunek Roboczy → Ogólne → Ustaw aktywność na pole Długość zamiast na współrzędną X**. Pamiętaj, że musisz przesunąć wskaźnik w oknie [widoku 3D](3D_view/pl.md), aby zmiana odniosła skutek.
 -   Jeśli opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [Linia](Part_Line/pl.md) środowiska Część, zamiast środowiska Rysunek Roboczy.
+
+
 
 ## Właściwości
 
 Zobacz stronę [polilinia](Draft_Wire/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
+
+
 
 ## Tworzenie skryptów 
 

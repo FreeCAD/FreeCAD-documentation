@@ -90,7 +90,9 @@ See [Navigation Cube](Navigation_Cube#Advanced_parameters.md).
 
 ### <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) 
 
--   **Mod/Draft/defaultCameraHeight** (int): Sets the height of the camera when Draft starts in an empty document. 0 disables, FreeCAD default is 5, good when working in millimeters, a good height for arch work is 4500.
+-   **Mod/Draft/DefaultAnnoDisplayMode** (integer): Set to {{Value|1}} to create Draft annotations ([texts](Draft_Text.md), [dimensions](Draft_Dimension.md) and [labels](Draft_Label.md)) with their **Display Mode** set to {{Value|Screen}}. Set to {{Value|0}} for new annotations with this property set to {{Value|World}}. Defaults to {{Value|0}}. <small>(v0.22)</small> 
+-   **Mod/Draft/GridHideInOtherWorkbenches** (boolean): Set to `False` to keep the [Draft grid](Draft_ToggleGrid.md) when switching to workbenches other than [Arch](Arch_Workbench.md), [BIM](BIM_Workbench.md) or [Draft](Draft_Workbench.md). Defaults to `True`. <small>(v0.22)</small> 
+-   **Mod/Draft/useSupport** (boolean): Set to `True` to set the **Support** property of Draft objects created on a face of an exiting base object to that base object. This was standard behavior before FreeCAD version 0.19. Note that this parameter may not be supported in future versions. Defaults to `False`.
 
 ### <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) 
 
@@ -128,7 +130,8 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 ### <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Workbench](Start_Workbench.md) 
 
--   **Mod/Start/DefaultImportXXX** (string): Where XXX is a lowercase file extension. For example DefaultImportifc for .IFC files. Allows to set a default import module to be used when clicking an icon on the start page, when several importers are available. For example, setting DefaultImportifc = ifc_import will use the NativeIFC importer if available. <small>(v0.21)</small>
+-   **Mod/Start/DefaultImportXXX** (string): Where XXX is a lowercase file extension. For example DefaultImportifc for .IFC files. Allows to set a default import module to be used when clicking an icon on the start page, when several importers are available. For example, setting DefaultImportifc = ifc_import will use the NativeIFC importer if available. <small>(v0.21)</small> 
+-   **Mod/Start/TimeFormat** (string): A time format string such as {{Value|%m/%d/%Y %H:%M:%S}} used for the date in the tooltip that is shown when an item on the start page is hovered.
 
 
 

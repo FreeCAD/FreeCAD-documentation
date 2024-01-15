@@ -99,7 +99,7 @@ Geometrische Toleranzen werden mit der Funktion [Hinweisfeld einfügen](TechDraw
 Als Indikator für Form- und Lagetoleranzen wird der Toleranzrahmen verwendet, der mit dem Befehl [Hinweisfeld einfügen](TechDraw_Balloon/de.md) von TechDraw erstellt wird:
 
 -   Wurde ein Hinweisfeld hinzugefügt, dessen Form kein Rechteck ist, kann mit einem Doppelklick in der Baumansicht der Dialog Hinweiskreis geöffnet und darin unter **Rahmenform** der Eintrag **Rechteck** ausgewählt werden.
--   Das zugehörige Unicode-Zeichen für das zu beschreibende Merkmal im Eingabefeld **Text** hinzufügen. (Es kann aus der unter [Symbolreferenz](TechDraw_Geometric_dimensioning_and_tolerancing/de#Symbolreferenz.md) befindlichen Tabelle kopiert werden.)
+-   Das zugehörige Unicode-Zeichen für das zu beschreibende Merkmal im Eingabefeld **Text** hinzufügen. (Es kann aus der unter [Symbolreferenz](TechDraw_Geometric_dimensioning_and_tolerancing/de#Symbolreferenz.md) befindlichen Tabelle kopiert werden oder man verwendet [TechDraw ErgänzungFormatierungAnpassen](TechDraw_ExtensionCustomizeFormat/de.md).)
 -   Wird das Zeichen \'\|\' im Eingabefeld **Text** eingegeben, wird ein neues Feld im Toleranzrahmen begonnen.
 
 Es gibt keine Regel, die festlegt, ob oder wie ein Toleranzrahmen mit einer Hinweislinie verbunden wird; dafür kann man:

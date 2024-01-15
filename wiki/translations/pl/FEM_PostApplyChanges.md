@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM PostApplyChanges
-   Name/pl: MES Zastosuj zmiany
+   Name/pl: Zastosuj zmiany
    MenuLocation: Wyniki , Zastosuj zmiany
    Workbenches: FEM_Workbench/pl
    SeeAlso: Std_Refresh/pl, FEM_PostCreateFunctions/pl
@@ -13,7 +13,7 @@
 
 ## Opis
 
-Umożliwia przełączanie, czy zmiany w potokach i filtrach są stosowane natychmiast czy nie.
+Umożliwia przełączanie, czy zmiany w obiektach prezentacji graficzne wyników i filtrach są stosowane natychmiast czy nie.
 
 Jeśli ta opcja jest aktywna, zmiany w [funkcjach filtrujących](FEM_PostCreateFunctions/pl.md) i filtrach mają natychmiastowy efekt. Jednak przy dużych siatkach wynikowych może to znacznie spowolnić pracę komputera.
 

@@ -13,257 +13,280 @@
 
 ## Opis
 
-The tool <img alt="" src=images/Path_Waterline.svg  style="width:24px;"> [Waterline](Path_Waterline.md) creates a new Waterline operation. As of 0.19_pre, the operation works on the entire model to generate G-code for the Job. Currently, within the operation\'s settings there is no functionality to select specific areas, faces, or regions of the model.
+Narzędzie <img alt="" src=images/Path_Waterline.svg  style="width:24px;"> **Linia poziomu** tworzy nową operację Linii poziomu. Od wersji 0.19_pre operacja działa na całym modelu, generując G-code dla zadania. Obecnie w ustawieniach operacji nie ma funkcji wyboru określonych obszarów, powierzchni lub regionów modelu.
 
-The Waterline operation has two algorithms: OCL Drop Cutter and Experimental.
+Operacja Linii poziomu ma dwa algorytmy: OCL Drop Cutter i Experimental.
 
--   The OCL Drop Cutter algorithm interfaces to OCL.pyd, a 3rd party Open Source module titled [OpenCamLib](OpenCamLib.md), that generates tool paths from a 3D Model. OpenCamLib is not integrated directly into FreeCAD.
--   The Experimental algorithm makes use of the built-in Path.Area() class.
+-   Algorytm OCL Drop Cutter łączy się z OCL.pyd, zewnętrznym modułem Open Source o nazwie [OpenCamLib](OpenCamLib/pl.md), który generuje ścieżki narzędzia z modelu 3D. OpenCamLib nie jest zintegrowany bezpośrednio z FreeCAD.
+-   Eksperymentalny algorytm wykorzystuje wbudowaną klasę Path.Area().
 
-***Note***: In order to use the Waterline operation you must:
+***Uwaga***: Aby skorzystać z operacji Linia poziomu powinieneś:
 
-1.  Properly install [OpenCamLib](OpenCamLib.md).
-2.  Enable [Experimental Features](Path_experimental.md) for the Path Workbench.
-3.  Check **Edit → Preferences... → Path → Advanced → Enable OCL dependent features**.
+1.  Prawidłowo zainstalować [OpenCamLib](OpenCamLib/pl.md).
+2.  Włączyć [funkcje eksperymentalne](Path_experimental/pl.md) dla środowiska pracy CAM.
+3.  Sprawdzić nastawy **Edycja → Preferencje ... → CAM → Zaawansowane → Włącz funkcje zależne od OpenCamLib**.
 
-## Usage
 
-Usage instructions for multiple variations of the [Waterline](Path_Waterline.md) operation are presented here.
 
-#### Basic Operation 
+## Użycie
 
-1.  Press the **<img src="images/Path_Waterline.svg" width=24px> [Waterline](Path_Waterline.md)** icon, or select the [Waterline](Path_Waterline.md) tool from the **Path** menu.
-2.  Select the tool controller for the Operation from the Tool controller dialogue pop up window.
-3.  Adjust the operation depths as needed in the Depths tab: Start Depth, Finish Depth, Step Down.
-4.  Make adjustments in Heights tab if needed.
-5.  Configure settings in the Operations tab based on the Algorithm selected:
+Poniżej przedstawiono instrukcje użytkowania dla wielu wariantów operacji **Linii poziomu**.
+
+
+
+#### Operacje podstawowe 
+
+1.  Naciśnij **<img src="images/Path_Waterline.svg" width=24px> Linia poziomu** lub wybierz narzędzie **Linia poziomu** z menu **CAM**.
+2.  Wybierz kontroler narzędzia dla operacji z okna dialogowego Kontroler narzędzia.
+3.  Dostosuj głębokość operacji zgodnie z potrzebami w zakładce Głębokość: Głębokość początkowa, Głębokość końcowa, Krok w dół.
+4.  W razie potrzeby dostosuj ustawienia w zakładce Wysokość.
+5.  Skonfiguruj ustawienia w zakładce Operacje w oparciu o wybrany algorytm:
     1.  OCL Dropcutter
-        1.  Choose the BoundBox: Stock or BaseBoundBox.
-        2.  Set the Layer Mode: Single-pass or Multi-pas.
-        3.  Set the Sample Interval used for the OCL scan.
-    2.  Experimental
-        1.  Choose the BoundBox: Stock or BaseBoundBox.
-        2.  Set the Layer Mode: Single-pass or Multi-pas.
-        3.  Set the Cut Pattern if clearing is desired at each layer.
-        4.  Set the Boundary Adjustment (material allowance).
-6.  If you wish to preview the result before accepting the settings, click Apply
-7.  Click **OK** button to confirm and generate paths.
+        1.  Wybierz pole Ramka otaczająca: Przygotówka lub Punkt bazowy obiektu Ramki otaczającej.
+        2.  Ustaw tryb warstwy: Pojedyncze przejście lub Wielokrotne przejście.
+        3.  Ustaw interwał próbkowania używany do skanowania OCL.
+    2.  Eksperymentalne
+        1.  Wybierz Ramka otaczająca: Przygotówka lub Punkt bazowy obiektu Ramki otaczającej.
+        2.  Ustaw tryb warstwy: Pojedyncze przejście lub Wielokrotne przejście.
+        3.  Ustaw wzorzec cięcia, jeśli chcesz wyczyścić każdą warstwę.
+        4.  Ustaw dostosowanie granic *(naddatek materiału)*.
+6.  Jeśli chcesz wyświetlić podgląd wyniku przed zaakceptowaniem ustawień, kliknij przycisk Zastosuj.
+7.  Kliknij przycisk *OK*, aby potwierdzić i wygenerować ścieżki.
 
-To achieve different, or more complex, effects, adjust additional operation properties within the Data tab of the Properties View for the operation.
-
-##### Notes About Experimental Algorithm 
-
--   It does not handle overhangs correctly.
--   It only returns paths for an End Mill type cutter (tool bit).
--   It might not correctly catch all interior features.
--   It is just that, experimental, and not ready for mainstream integration. Please inspect paths with the built-in **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)**, or other 3rd-party G-code inspection tools, before cutting with your machine.
-
-#### Available Tool (Cutter) Shapes 
-
-When using the ***OCL Dropcutter*** algorithm, the Waterline operation uses OpenCamLib \[OCL\|OCL\] to extract paths from the part base. As such, a tool translation is required between the FreeCAD tool controller and OCL in order to complete the scan with your chosen tool(cutter) shape. These tool shapes are(should be) respected and available for the OCL Dropcutter so long as the built-in tool shapes are used, whether Legacy or ToolBit tools:
-
--   End mill
--   Ball end mill
--   Bull nose end mill
--   Chamfer bit
--   Engraver
-
-#### Additional Notes 
-
--   Should you choose to run the path simulator, **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)**, in the Path Workbench, you might not see tool-shape-specific material removal. Be cautious. A small trial job using foam or other very non-dense material is recommended to verify paths are correct with your selected tool controller.
--   As of May 2020, only the End Mill has any type of testing to determine accuracy of the FreeCAD-to-OCL tool settings translation. Please post any feedback for non-end-mill usage to the [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) section in the FreeCAD forums.
-
-## Properties
-
-***Note***: Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
+Aby uzyskać inne lub bardziej złożone efekty, należy dostosować dodatkowe właściwości operacji na karcie Dane w widoku Właściwości operacji.
 
 
-{{TitleProperty|Base}}
 
-Note: It is suggested that you do not edit the Placement property of path operations. Rather, move or rotate the Path Job model as needed.
+##### Uwagi o algorytmie eksperymentalnym 
 
--    **Placement**: Overall placement\[position and rotation\] of the object - with respect to the origin (or origin of parent object container)
+-   Nie obsługuje prawidłowo nawisów.
+-   Zwraca ścieżki tylko dla frezów typu End Mill *(bit narzędziowy)*.
+-   Może nie wychwytywać poprawnie wszystkich elementów wewnętrznych.
+-   Jest po prostu eksperymentalna i nie jest gotowa na integrację z głównym nurtem. Prosimy o sprawdzanie ścieżek za pomocą wbudowanego narzędzia **<img src="images/Path_Simulator.svg" width=16px> [Symulator CAM](Path_Simulator/pl.md)** lub innych narzędzi do kontroli G-Code innych firm, przed rozpoczęciem procesu obróbki.
+
+
+
+#### Dostępne kształty narzędzi (frezów) 
+
+W przypadku korzystania z algorytmu \"OCL Dropcutter\", operacja Waterline wykorzystuje OpenCamLib \[OCL/pl\|OCL\] do wyodrębniania ścieżek z podstawy części. W związku z tym wymagana jest translacja narzędzia między kontrolerem narzędzi FreeCAD a OCL w celu zakończenia skanowania wybranym kształtem narzędzia *(frezu)*. Te kształty narzędzi są *(powinny być)* respektowane i dostępne dla OCL Dropcutter, o ile używane są wbudowane kształty narzędzi, zarówno narzędzia starszego typu, jak i narzędzia typu ToolBit:
+
+-   Frez trzpieniowy
+-   Frez kulowy
+-   frez walcowo-czołowy
+-   Końcówka fazująca
+-   Grawer
+
+
+
+#### Uwagi dodatkowe 
+
+-   Jeśli zdecydujesz się uruchomić symulator **<img src="images/Path_Simulator.svg" width=16px> [CAM symulator](Path_Simulator/pl.md)**, w środowisku pracy Path możesz nie zobaczyć usuwania materiału specyficznego dla kształtu narzędzia. Zachowaj ostrożność. Zaleca się wykonanie małego zadania próbnego przy użyciu pianki lub innego bardzo niegęstego materiału w celu sprawdzenia poprawności ścieżek z wybranym kontrolerem narzędzia.
+-   Od maja 2020 r. tylko frez walcowo-czołowy jest testowany w celu określenia dokładności translacji ustawień narzędzia z FreeCAD doOCL. Prosimy o przesyłanie wszelkich opinii dotyczących użycia frezów innych niż frezy walcowo-czołowe do sekcji [Path/CAM](https://forum.freecadweb.org/viewforum.php?f=15) na forum FreeCAD.
+
+
+
+## Właściwości
+
+***Uwaga***: Nie wszystkie z tych właściwości są dostępne w edytorze okna zadań. Niektóre są dostępne tylko na karcie Dane w panelu Widok właściwości dla tej operacji.
+
+
+{{TitleProperty|Podstawa}}
+
+Uwaga: Zaleca się, aby nie edytować właściwości Umiejscowienie operacji ścieżki. W razie potrzeby należy raczej przesunąć lub obrócić model zadania ścieżki.
+
+-    **Umiejscowienie**: Ogólne położenie *(pozycja i obrót)* obiektu - w odniesieniu do punktu odniesienie położenia *(lub punktu odniesienie położenia kontenera obiektu nadrzędnego)*.
 
     -   
-        **Angle**
+        **Kąt**
         
-        : Angle in degrees applied to rotation of the object around Axis property value
+        : Kąt w stopniach zastosowany do obrotu obiektu wokół wartości właściwości Oś.
 
     -   
-        **Axis**
+        **Oś**
         
-        : Axis (one or multiple) around which to rotate the object, set in sub-properties: X, Y, Z
+        : Oś *(jedna lub wiele)*, wokół której ma zostać obrócony obiekt, ustawiona we właściwościach podrzędnych: X, Y, Z
 
         -   
             **X**
             
-            : X axis value
+            : Wartość osi X.
 
         -   
             **Y**
             
-            : Y axis value
+            : Wartość osi Y.
 
         -   
             **Z**
             
-            : Z axis value
+            : Wartość osi Z.
 
     -   
-        **Position**
+        **Pozycja**
         
-        : Position of the object, set in sub-properties: X, Y, Z - with respect to the origin (or origin of parent object container)
+        : Pozycja obiektu, ustawiona we właściwościach podrzędnych: X, Y, Z - względem początku *(lub początku kontenera obiektu nadrzędnego)*.
 
         -   
             **X**
             
-            : X distance value
+            : Wartość odległości X.
 
         -   
             **Y**
             
-            : Y distance value
+            : wartość odległości Y.
 
         -   
             **Z**
             
-            : Z distance value
+            : wartość odległości Z.
 
--    **Label**: User-provided name of the object (UTF-8)
-
-
-{{TitleProperty|Clearing Options}}
-
--    **Algorithm**: The library to use to generate the path
-
--    **BoundBox**: Should the operation be limited by the stock object or by the bounding box of the base object
-
--    **Clear Last Layer**: Set to clear last layer in \Multi-pass\ operation.
-
--    **Cut Mode**: The direction that the toolpath should go around the part: Climb (ClockWise) or Conventional (CounterClockWise)
-
--    **Cut Pattern**: Clearing pattern to use
-
--    **Depth Offset**:
-
--    **Ignore Outer Above**:
-
--    **Layer Mode**: The completion mode for the operation: single or multi-pass
-
--    **Step Over**:
+-    **Etykieta**: Nazwa obiektu podana przez użytkownika *(UTF-8)*.
 
 
-{{TitleProperty|Depth}}
+{{TitleProperty|Opcje czyszczenia}}
 
--    **Clearance Height**: The height needed to clear clamps and obstructions
+-    **Algorytm**: Biblioteka używana do generowania ścieżki.
 
--    **Final Depth**: Final Depth of Tool- lowest value in Z
+-    **Ramka otaczająca**: Czy operacja powinna być ograniczona przez obiekt podstawowy, czy przez obwiednię obiektu podstawowego?
 
--    **Safe Height**: The above which Rapid motions are allowed.
+-    **Wyczyść ostatnią warstwę**: Ustawia czyszczenie ostatniej warstwy w operacji wieloprzebiegowej.
 
--    **Start Depth**: Starting Depth of Tool- first cut depth in Z
+-    **Tryb obróbki**: Kierunek, w którym ścieżka narzędzia powinna przebiegać wokół części: Wspinanie *(zgodnie z ruchem wskazówek zegara)* lub Konwencjonalny *(przeciwnie do ruchu wskazówek zegara)*.
 
--    **Step Down**: Incremental Step Down of Tool
+-    **Wzorzec obróbki**: Wzorzec czyszczenia do użycia.
 
+-    **Odsunięcie głębokości**:
 
-{{TitleProperty|Path}}
+-    **Ignoruj zewnętrzne powyżej**:
 
--    **Active**: Make False, to prevent operation from generating code
+-    **Tryb warstwy**: Tryb zakończenia operacji: jedno- lub wieloprzebiegowy.
 
--    **Base**: The base geometry for this operation
-
--    **Comment**: An optional comment for this Operation
-
--    **Coolant Mode**:
-
--    **Cycle Time**:
-
--    **Tool Controller**: Defines the Tool controller used in the Operation
-
--    **User Label**: User assigned label
+-    **Krok powyżej**:
 
 
-{{TitleProperty|Start Point}}
+{{TitleProperty|Głębokość}}
 
--    **Start Point**: The custom start point for the path of this operation.
+-    **Wysokość prześwitu**: Wysokość potrzebna do usunięcia zacisków i przeszkód.
+
+-    **Głębokość końcowa**: Głębokość końcowa narzędzia - najniższa wartość w Z.
+
+-    **Wysokość bezpieczna**: Wysokość, powyżej której dozwolone są szybkie ruchy.
+
+-    **Głębokość początkowa**: Głębokość początkowa narzędzia - pierwsza głębokość cięcia w Z.
+
+-    **Krok w dół**: Przyrostowy krok w dół narzędzia.
+
+
+{{TitleProperty|Ścieżka}}
+
+-    **Aktywny**: Ustaw wartość {{False/pl}}, aby zapobiec generowaniu kodu przez operację.
+
+-    **Baza**: Geometria bazowa dla tej operacji.
+
+-    **Komentarz**: Opcjonalny komentarz dla tej operacji.
+
+-    **Tryb chłodzenia**:
+
+-    **Czas cyklu**:
+
+-    **Kontroler narzędzi**: Określa kontroler narzędzia używany w operacji.
+
+-    **Etykieta użytkownika**: Etykieta przypisana przez użytkownika.
+
+
+{{TitleProperty|Punkt początkowy}}
+
+-    **Punkt początkowy**: Niestandardowy punkt początkowy dla ścieżki tej operacji.
 
     -   
         **X**
         
-        : X distance value
+        : wartość odległości X.
 
     -   
         **Y**
         
-        : Y distance value
+        : wartość odległości Y.
 
     -   
         **Z**
         
-        : Z distance value
+        : wartość odległości Z.
 
--    **Use Start Point**: Make True, if specifying a Start Point
+-    **Użyj punktu początkowego**: Ustaw wartość {{True/pl}}, jeśli określono punkt początkowy.
 
-## Tasks Window Editor Layout 
 
-*Descriptions for the settings are provided in the Properties list above.*
 
-This section is simply a layout map of the settings in the window editor for the Operation.
+## Układ edytora w oknie zadań 
 
-### Base Location 
+*Opisy ustawień znajdują się na powyższej liście właściwości*.
 
--   **Add**: Adds selected element(s) which should be the base(s) for the path(s).
--   **Remove**: Remove the selected item(s) in the Base Location list.
--   **Edit**: Clear all items in the Base Location list.
+Ta sekcja jest po prostu mapą układu ustawień w edytorze okien dla operacji.
 
-### Depths
 
--    **Start Depth**
+
+### Lokalizacja bazowa 
+
+-   **Dodaj**: Dodaje wybrane elementy, które powinny być bazą dla ścieżek.
+-   **Usuń**: Usuwa wybrane elementy z listy Lokalizacja bazowa.
+-   **Edytuj**: Czyści wszystkie elementy na liście Lokalizacja bazowa.
+
+
+
+### Głębokości
+
+-    **Głębokość początkowa**
     
 
--    **Final Depth**
+-    **Głębokość końcowa**
     
 
--    **Step Down**
+-    **Krok w dół**
     
 
-### Heights
 
--    **Safe Height**
+
+### Wysokości
+
+-    **Wysokość bezpieczna**
     
 
--    **Clearance Height**
+-    **Wysokość prześwitu**
     
 
-### Operation
 
--    **Tool Controller**
+
+### Operacja
+
+-    **Kontroler narzędzi**.
+
+-    **Tryb chłodzenia**
     
 
--    **Coolant Mode**
+-    **Algorytm**
     
 
--    **Algorithm**
+-    **Ramka otaczająca**
     
 
--    **BoundBox**
+-    **Tryb warstwy**
     
 
--    **Layer Mode**
-    
+-    **Wzór obróbki**\~.
 
--    **Cut Pattern**\~
+-    **Regulacja granic**\~.
 
--    **Boundary Adjustment**\~
+-    **Odstęp między próbkami**\~.
 
--    **Sample Interval**\~
+\~Widoczność zmienia się wraz z innymi ustawieniami.
 
-\~Visibility changes with other settings.
 
-## Resources
 
--   G-code(path) simulator: [NCViewer](https://ncviewer.com/)
--   G-code(path) simulator: [CAMotics](https://www.camotics.org/)
+## Zasoby
+
+-   Symulator G-Code *(ścieżka)*: [NCViewer](https://ncviewer.com/)
+-   Symulator G-code *(ścieżka)*: [CAMotics](https://www.camotics.org/)
 
 
 

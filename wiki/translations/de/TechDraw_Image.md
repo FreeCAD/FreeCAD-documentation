@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw Image
    Name/de: TechDraw Bild
-   MenuLocation: TechDraw , Bitmap Bild einfügen
+   MenuLocation: TechDraw , TechDraw Ansichten , Bitmap-Grafik einfügen
    Workbenches: TechDraw_Workbench/de
    SeeAlso: TechDraw_Symbol/de
 ---
 
 # TechDraw Image/de
-
-
-</div>
 
 
 
@@ -19,20 +16,23 @@
 Das Werkzeug **TechDraw Bild** fügt eine [Bitmap](Bitmap/de.md)-Grafik (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht auf einem Zeichnungsblatt ein.
 
 ![](images/TechDraw_Image_example.png ) 
-*In die Zeichnungsseite eingefügtes Bild*
+*Ein auf dem Zeichnungsblatt eingefügtes Bild*
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Die Schaltfläche **<img src="images/TechDraw_Image.svg" width=16px> [Bitmap-Grafik einfügen](TechDraw_Image/de.md)** drücken.
-2.  Ein Dateidialog wird geöffnet. Einen Speicherort und einen Dateinamen auswählen.
-
-
-</div>
+1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Image.svg" width=16px> [Bitmap-Grafik einfügen](TechDraw_Image/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_Image.svg" width=16px> Bitmap-Grafik einfügen** auswählen.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+4.  Ein Dateidialog wird geöffnet.
+5.  Einen Speicherort und einen Dateinamen auswählen.
+6.  Die Bitmap-Grafik wird eingefügt.
+7.  Wahlweise ihre {{PropertyData/de|Scale}} ändern, um ihre Größe anzupassen.
 
 
 
@@ -70,7 +70,7 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md)
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Werkzeug Bild kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 

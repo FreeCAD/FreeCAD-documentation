@@ -10,9 +10,11 @@
 
 # Draft PathLinkArray/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Szyk powiązań po ścieżce** tworzy tablicę [powiązań](App_Link/pl.md) z wybranego obiektu poprzez umieszczenie kopii wzdłuż ścieżki. Użyj polecenia [Szyk po ścieżce](Draft_PathArray/pl.md) by stworzyć mniej wydajną zwykłą tablicę. Z wyjątkiem typu tablicy, która jest tworzona, [Powiązanie](App_Link/pl.md) lub zwykła tablica, to polecenie jest identyczne z [szykiem po ścieżce](Draft_PathArray/pl.md). Zobacz tam po więcej informacji.
+Polecenie <img alt="" src=images/Draft_PathLinkArray.svg  style="width:24px;"> **Szyk powiązań po ścieżce** tworzy tablicę [powiązań](App_Link/pl.md) z wybranego obiektu poprzez umieszczenie kopii wzdłuż ścieżki. Użyj polecenia [Szyk po ścieżce](Draft_PathArray/pl.md) by stworzyć mniej wydajny zwykły szyk. Z wyjątkiem typu szyku, który jest tworzony, [Powiązanie](App_Link/pl.md) lub zwykła tablica, to polecenie jest identyczne z [szykiem po ścieżce](Draft_PathArray/pl.md). Zobacz tam po więcej informacji.
 
 
 

@@ -4,11 +4,11 @@
 |Icon=FCInfoToolBar.png
 |Description=Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume ... in diverse unità (metriche e imperiali) in una barra degli strumenti in real tempo. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 |Author=Mario52
-|Version=00.04
-|Date=2023/06/28
+|Version=00.05b
+|Date=2023/09/06
 |FCVersion=0.18 and more
-|Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
+|Download=[https://wiki.freecad.org/images/9/9d/FCInfoToolBar.png ToolBar Icon]
+|SeeAlso=[Arch Survey](Arch_Survey/it.md), [Macro FCInfo](Macro_FCInfo/it.md), [Macro FCInfoGlass](Macro_FCInfoGlass/it.md)
 }}
 
 
@@ -18,10 +18,13 @@
 Fornisce informazioni sulla forma selezionata e può visualizzare una conversione di raggio, diametro, lunghezza, area, volume \... in diverse unità (metriche e imperiali) in una barra degli strumenti. Le informazioni da visualizzare sono parametrizzabili nel parametro di FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/c825afd430d9124a77f9688824d12a78b2219348/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
+
+![FCInfo_ToolBar](images/FCInfo_ToolBar_Animate01.gif ) 
+*Barra degli strumenti FCInfo in azione*
 
 
 
@@ -92,6 +95,9 @@ Le opzioni si trovano nel parametro di FreeCAD:
 -   ***switch_User_Display_RadiusObject***
     -   visualizzare il raggio e il diametro (r:) \[D:\]
 
+-   ***switch_User_Display_RadiusSurface***
+    -   visualizza il raggio e il diametro sulla superficie (rS:) \[DS:\]
+
 -   ***switch_User_Display_LengthObject***
     -   Visualizza la lunghezza del bordo selezionato o il perimetro della faccia selezionata
         -   (L:) visualizza la lunghezza del filo, linea, bordo selezionato
@@ -134,9 +140,15 @@ Le opzioni si trovano nel parametro di FreeCAD:
 -   ***switch_User_Display_Position***
     -   visualizza le coordinate del punto puntato dal mouse (Pos:)
 
+-   ***switch_User_Display_Position_2D_CAD***
+    -   visualizza le coordinate del punto 2D Cad (x, y) 0,0 = angolo in basso a sinistra
+
+-   ***switch_User_Display_Position_2D_BMP***
+    -   visualizza le coordinate punto 2D Bmp (x, y) 0,0 = angolo in alto a sinistra
+
 -   ***switch_User_NotInfoOnBeginning***
-    -   se è `False` l\'informazione (questa informazione) viene visualizzata
-    -   se è `True` l\'informazione non viene visualizzata
+    -   se è `False` l\'informazione (questa informazione) non viene visualizzata
+    -   se è `True` l\'informazione viene visualizzata
 
 -   ***seT_User_UnitSymbolSquare***
     -   dare il simbolo quadrato (Predefinito **2**)
@@ -217,6 +229,11 @@ Discussioni sul forum [Feature request: coordinates display](https://forum.freec
 
 
 ## Versione
+
+versione 00.05b 06/09/2023: corretto bug calcolo 2D Bmp
+
+versione 00.05 09/06/2023 : aggiunte coordinate 2D Cad (x, y) 0,0 = angolo in basso a sinistra o Bmp (x, y) 0,0 = angolo in alto a sinistra, raggioSuperficie
+crea il test \"if\" \' *switch_User_NotInfoOnBeginning*\' dimenticato!!
 
 versione 00.04 28/06/2023 : correzione fogli di stile e:
 

@@ -17,7 +17,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:16px;"> dibuja un círculo eligiendo tres puntos en el contorno del círculo. Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un icono de círculo rojo. Además se muestran las coordenadas en tiempo real.
+
+
+</div>
 
 
 
@@ -33,7 +39,13 @@ Esta herramienta <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

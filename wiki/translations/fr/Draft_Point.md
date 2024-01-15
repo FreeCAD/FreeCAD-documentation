@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** crée un point simple. Les Draft Points peuvent être utiles comme référence pour placer des lignes, des fils ou d\'autres objets.
+La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Point** crée un point simple. Des Draft Points peuvent être utiles comme référence pour placer des lignes, des polylignes ou d\'autres objets.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
 
@@ -22,34 +22,26 @@ La commande <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Point](Draft_Point/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Point.svg" width=16px> Point** dans le menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_Point.svg" width=16px> [Point](Draft_Point/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Point.svg" width=16px> Point** du menu.
 2.  Le panneau de tâches **Point** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir un point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les composantes X, Y et Z, et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des points.
--   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Pour saisir manuellement des coordonnées, entrer les composantes X, Y et Z, et appuyer sur **Entrée** après chacune, ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des points.
+-   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
+-   Appuyer sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 
 
 ## Remarques
 
--   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|0.21}}) pour s\'aimanter aux Draft points.
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
+-   Utilisez <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) ({{VersionMinus/fr|0.20}}) ou <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft Draft Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) ({{VersionPlus/fr|0.21}}) pour s\'aimanter aux Draft points.
 
 
 
@@ -106,7 +98,7 @@ point = make_point(point, Y=0, Z=0, color=None, name="Point", point_size=5)
 
 -    `point_size`est la taille de l\'objet en pixels si l\'interface graphique est chargée.
 
-Exemple:
+Exemple :
 
 
 ```python
@@ -123,7 +115,7 @@ point2 = Draft.make_point(p2, color=(0.5, 0.3, 0.6), point_size=10)
 doc.recompute()
 ```
 
-Exemple:
+Exemple :
 
 Ce code crée des `N` points aléatoires dans un carré de côté `2L`. Cela crée une boucle créant des `N` points, qui peuvent apparaître n\'importe où de `-L` à `+ L` sur X et Y/ Il choisit également une couleur et une taille aléatoires pour chaque point. Modifiez `N` pour changer le nombre de points, puis `L` pour changer la zone couverte par les points.
 

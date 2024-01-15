@@ -1,102 +1,100 @@
-# Part Cone/it
 ---
- GuiCommand:   Name: Part Cone   Name/it: Cono   MenuLocation: Parte , Primitive , Cono   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:
+   Name: Part Cone
+   Name/it: Part Cono
+   MenuLocation: Parte , Primitive , Cono
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Primitives/it
+---
+
+# Part Cone/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Part_Cone.svg  style="width:24px;"> **Part Cono** crea un cono parametrico solido. Nel sistema di coordinate definito dalla sua proprietà **Placement**, la faccia inferiore del cono si trova sul piano XY con il centro nell\'origine.
 
-<div class="mw-translate-fuzzy">
-
-Crea un tronco di cono parametrico.
-
-
-</div>
-
-The default Part Cone is truncated. It can be turned into a full, untruncated, cone by changing its **Radius1** or **Radius2** property to zero. It can be turned into a segment of a cone by changing its **Angle** property.
+Il Part Cono predefinito viene troncato. Può essere trasformato in un cono completo, non troncato, modificando la sua proprietà **Radius1** o **Radius2** su zero. Può essere trasformato in un segmento di cono modificando la sua proprietà **Angle**.
 
 <img alt="" src=images/Part_Cone_Example.png  style="width:400px;">
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Attivare l\'ambiente **<img src="images/Workbench_Part.svg" width=16px> [Parte](Part_Workbench/it.md)**.
-2.  Richiamare il comando Cono in uno di questi modi:
-    -   Premere il pulsante <img alt="" src=images/Part_Cone.svg  style="width:24px;"> [Cono](Part_Cone/it.md)
-    -   Usare **Part → Primitive → Cono** dal menu principale.
-
-
-</div>
-
-## Example
-
-![Part Cone from the scripting example](images/Part_Cone_Scripting_Example.png )
-
-A Part Cone object created with the [scripting example](#Scripting.md) below is shown here.
-
-## Notes
-
--   A Part Cone can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Cone.svg" width=16px> [Cono](Part_Cone/it.md)**.
+    -   Selezionare l\'opzione **Parte → Primitive → <img src="images/Part_Cone.svg" width=16px> Cono** dal menu.
+2.  Viene creato il cono.
+3.  Facoltativamente, modificare le dimensioni e il **Placement** del cono effettuando una delle seguenti operazioni:
+    -   Fare doppio clic sull\'oggetto nella [Vista ad albero](Tree_view/it.md):
+        1.  Si apre il pannello delle attività **Primitive geometriche**.
+        2.  Modificare una o più proprietà.
+        3.  L\'oggetto viene aggiornato dinamicamente nella [vista 3D](3D_view/it.md).
+        4.  Premere il pulsante **OK**.
+    -   Modificare le proprietà nell\'[Editor delle proprietà](Property_editor/it.md).
+    -   Modificare il **Placement** con il comando <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Trasforma](Std_TransformManip/it.md).
 
 
-<div class="mw-translate-fuzzy">
 
-## Opzioni
+## Esempio
 
-+++
-| ![](images/PartConeProperty_en.png ) |                                                                                                                                                                                         |
-|                                                        | **Cone**                                                                                                                                                                                           |
-|                                                        |                                                                                                                                                                                                     |
-|                                                        | -   **Radius 1:** raggio dell\'arco o del cerchio che definisce la faccia inferiore                                                                                                                    |
-|                                                        | -   **Radius 2:** raggio dell\'arco o del cerchio che definisce la faccia superiore                                                                                                                    |
-|                                                        | -   **Height:** l\'altezza del cono                                                                                                                                                                    |
-|                                                        | -   **Angle:** il numero di gradi dell\'arco che definisce le facce superiore e inferiore del cono. Il valore 360° predefinito crea facce circolari, un valore inferiore crea una porzione di un cono. |
-+++
+![Part Cono dall\'esempio di scripting](images/Part_Cone_Scripting_Example.png )
+
+Qui viene mostrato un oggetto Part Cono creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
 
 
-</div>
 
-See also: [Property editor](Property_editor.md).
+## Note
 
-A Part Cone object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+-   È possibile creare un Part Cono anche con il comando <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitive](Part_Primitives/it.md). Con questo comando si può specificare le dimensioni e il posizionamento al momento della creazione.
 
-### Data
+
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Cono deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Cone}}
 
--    **Radius1|Length**: The radius of the bottom face of the cone. Can be {{Value|0mm}} if **Radius2** is larger than {{Value|0mm}}. The default is {{Value|2mm}}.
+-    **Radius1|Length**: il raggio della faccia inferiore del cono. Può essere {{Value|0mm}} se **Radius2** è maggiore di {{Value|0mm}}. Il valore predefinito è {{Value|2mm}}.
 
--    **Radius2|Length**: The radius of the top face of the cone. Can be {{Value|0mm}} if **Radius1** is larger than {{Value|0mm}}. The default is {{Value|4mm}}.
+-    **Radius2|Length**: il raggio della faccia superiore del cono. Può essere {{Value|0mm}} se **Radius1** è maggiore di {{Value|0mm}}. Il valore predefinito è {{Value|4mm}}.
 
--    **Height|Length**: The height of the cone. The default is {{Value|10mm}}.
+-    **Height|Length**: l\'altezza del cono. Il valore predefinito è {{Value|10mm}}.
 
--    **Angle|Angle**: The angle of the circular arc that defines the top and bottom face of the cone. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a cone.
+-    **Angle|Angle**: l\'angolo dell\'arco circolare che definisce la faccia superiore e inferiore del cono. Intervallo valido: {{Value|0° &lt; valore &lt;&#61; 360°}}. Il valore predefinito è {{Value|360°}}. Se è inferiore a {{Value|360°}} il solido risultante sarà un segmento di cono.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Cone can be created with the {{Incode|addObject()}} method of the document:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+È possibile creare una Part Cono con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
--   Where {{Incode|"myCone"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myCone"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python
@@ -115,13 +113,7 @@ doc.recompute()
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Part_Tools_navi

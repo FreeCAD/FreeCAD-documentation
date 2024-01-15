@@ -33,7 +33,7 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 3.  Se l\'oggetto tetto di default ha una forma strana è perché lo strumento non possiede tutte le informazioni necessarie.
 
-4.  Dopo aver creato il tetto di default, fare doppio clic sull\'oggetto nella vista ad albero per accedere alla modifica di tutte le sue proprietà. Angolo deve essere compreso tra 0 e 90.
+4.  Dopo aver creato il tetto di default, fare doppio clic sull\'oggetto nella [vista ad albero](Tree_view/it.md) per accedere alla modifica di tutte le sue proprietà. Angolo deve essere compreso tra 0 e 90.
 
     :   ![](images/RoofTable.png )
 
@@ -57,52 +57,49 @@ Lo strumento **<img src="images/Arch_Roof.svg" width=16px> [Tetto](Arch_Roof/it.
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   Gli elementi Tetto condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
-
-
-</div>
 
 
 
 ## Proprietà
 
--    {{PropertyData/it|Angles}}: Angolo di pendenza di ogni falda (un angolo per ciascun lato del contorno di base).
-
--    {{PropertyData/it|Runs}}: Proiezione orizzontale della lunghezza della falda (un Run per ciascun lato del contorno di base).
-
--    {{PropertyData/it|IdRel}}: Elenco delle relazioni Id dell\'angolo di inclinazione del tetto.
-
--    {{PropertyData/it|Thickness}}: Spessore della falda (uno spessore per ciascun lato del contorno di base).
-
--    {{PropertyData/it|Overhang}}: Sbalzo della falda, in proiezione orizzontale (uno sbalzo per ciascun lato del contorno di base).
-
--    {{PropertyData/it|Face}}: L\'indice della faccia dell\'oggetto di base da utilizzare (non ancora usato)
-
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
+### Dati
+
+
+{{TitleProperty|Roof}}
+
+-    **Angles|FloatList**: L\'elenco degli angoli dei segmenti del tetto.
+
+-    **Border Length|Length**: La lunghezza totale dei bordi del tetto.
+
+-    **Face|Integer**: Il numero di faccia dell\'oggetto base utilizzato per costruire il tetto (non utilizzato).
+
+-    **Flip|Bool**: Specifica se la direzione del tetto deve essere invertita.
+
+-    **Heights|FloatList**: L\'elenco delle altezze calcolate dei segmenti del tetto.
+
+-    **Id Rel|IntegerList**: L\'elenco degli ID dei relativi profili dei segmenti di tetto.
+
+-    **Overhang|FloatList**: L\'elenco delle sporgenze dei segmenti del tetto.
+
+-    **Ridge Length|Length**: La lunghezza totale delle creste e dei fianchi del tetto.
+
+-    **Runs|FloatList**: L\'elenco delle proiezioni della lunghezza orizzontale dei segmenti del tetto.
+
+-    **Thickness|FloatList**: L\'elenco degli spessori dei segmenti del tetto.
+
+
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Tetto può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Tetto può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python

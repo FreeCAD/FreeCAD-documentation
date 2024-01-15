@@ -13,21 +13,9 @@
 
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Path_ExportTemplate.svg  style="width:24px;"> [Path VorlageExportieren](Path_ExportTemplate/de.md) enthält einen bequemen Mechanismus zum Speichern häufig verwendeter Auftragsdefinitionen aus einem bestehenden Auftrag heraus. Dies erleichtert die Einrichtung zukünftiger Aufträge, die weitgehend ähnlich sind, indem der Import von Auftragsvorlagen während des Prozesses der Auftragserstellung ermöglicht wird.
 
-<div class="mw-translate-fuzzy">
-
-Der Export von Auftragsvorlagen bietet einen bequemen Mechanismus zum Speichern häufig verwendeter Auftragsdefinitionen aus einem bestehenden Auftrag heraus. Dies erleichtert die Einrichtung zukünftiger Aufträge, die weitgehend ähnlich sind, indem der Import von Auftrag Vorlagen während des Auftragserstellungsprozesses ermöglicht wird.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragsvorgaben Reiter, Standardeinstellungen → Vorlage** legt die Standardvorlage fest.
-
-
-</div>
+Der **Bearbeiten → Voreinstellungen... → Pfad →  Auftragseinstellungen → Standardwerte → Vorlage** legt die Standardvorlage fest.
 
 
 

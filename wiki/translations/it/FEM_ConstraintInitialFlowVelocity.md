@@ -9,7 +9,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo di velocità iniziale del flusso per un\'analisi del flusso del fluido.
+
+
+</div>
 
 
 

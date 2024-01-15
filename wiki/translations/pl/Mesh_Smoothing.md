@@ -8,12 +8,16 @@
 
 # Mesh Smoothing/pl
 
+
+
 ## Opis
 
 Polecenie **Wygładź** wygładza obiekty siatkowe poprzez zmianę położenia ich wierzchołków.
 
-![](images/Meshes_Smooth.jpg ) 
+<img alt="" src=images/Meshes_Smooth.jpg  style="width:350px;"> 
 *Panel zadań wygładzania po wybraniu opcji Tylko wybór.*
+
+
 
 ## Użycie
 

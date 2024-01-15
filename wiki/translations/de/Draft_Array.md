@@ -1,92 +1,46 @@
 ---
  GuiCommand:
    Name: Draft Array
-   Name/de: Entwurf Anordnung
-   MenuLocation: Entwurf , Anordnung
+   Name/de: Draft Anordnung
+   MenuLocation: Zeichnen , Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
-   SeeAlso: Draft PathArray/de, Draft PointArray/de, Draft Clone/de
+   SeeAlso: Draft_OrthoArray, Draft_PolarArray, Draft_CircularArray
 ---
 
 # Draft Array/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/Draft_Array.svg  style="width:24px;"> Draft Anordnung erstellt eine orthogonale (3-Achsen)Anordnung aus einem ausgewählten Objekt. Die erstellte Anordnung kann in eine [polare Anordnung](Draft_PolarArray/de.md) oder eine [Kreis-Anordnung](Draft_CircularArray/de.md) umgewandelt werden, indem ihre {{PropertyData/de|Array Type}} geändert wird.
 
-<div class="mw-translate-fuzzy">
+Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) oder [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch für viele 3D-Objekte, die mit anderen Arbeitsbereichen wie [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
-Das **<img src="images/Draft_Array.svg" width=16px>[Entwurf Anordnung](Draft_Array/de.md)** Werkzeug erzeugt eine orthogonales (3-Achsen), polare oder kreisförmige Anordnung aus einem ausgewählten Objekt.
-
-
-</div>
+Dieser Befehl ist jetzt veraltet. Stattdessen können [Draft RechtwinkligeAnordnung](Draft_OrthoArray.md), [Draft PolareAnordnung](Draft_PolarArray.md) oder [Draft KreisAnordnung](Draft_CircularArray.md) verwendet werden.
 
 
-<div class="mw-translate-fuzzy">
 
-Dieses Werkzeug kann für 2D Formen verwendet werden, die mit der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, aber auch für viele Arten von 3D Objekten, wie sie mit der [Part Arbeitsbereich](Part_Workbench/de.md) oder [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt wurden.
+## Anwendung
 
-
-</div>
-
-This command is now obsolete. Use the [Draft OrthoArray](Draft_OrthoArray.md), [Draft PolarArray](Draft_PolarArray.md) or [Draft CircularArray](Draft_CircularArray.md) command instead.
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
-## Verwendung
-
-1.  Wähle ein Objekt aus, mit dem Du ein Array erstellen möchtest.
-2.  Drücke den **<img src="images/Draft_Array.svg" width=16px> [Entwurf Anordnung](Draft_Array/de.md)** Schaltfläche . Wenn kein Objekt gewählt ist, wirst Du aufgefordert, eines auszuwählen.
-3.  Das Anordnungsobjekt wird sofort erstellt. Du musst die Eigenschaften der Anordnung ändern, um die Anzahl und Richtung der erstellten Kopien zu ändern.
+1.  Um diesen Befehl in FreeCAD Version 0.19 und neuer zu verwenden, muss eine Schaltfläche zu einer benutzerdefinierten Symbolleiste hinzugefügt werden. Siehe [Oberfläche anpassen](Interface_Customization/de.md).
+2.  Wahlweise ein Objekt auswählen.
+3.  Die Schaltfläche **<img src="images/Draft_Array.svg" width=16px> [Draft Anordnung](Draft_Array/de.md)** drücken.
+4.  Ist noch kein Objekt ausgewählt: If you have not yet selected an object: Ein Objekt auswählen.
+5.  Die Anordnung wird erstellt.
+6.  Wahlweise seine [Eigenschaften](Draft_OrthoArray/de#Eigenschaften.md) anpassen.
 
 
-</div>
-
-## Properties
-
-
-<div class="mw-translate-fuzzy">
 
 ## Eigenschaften
 
--    {{PropertyData/de|Base}}: beschreibt das zu duplizierende Objekt in der Anordnung.
-
--    {{PropertyData/de|Array Type|Aufzählung}}: gibt den Typ der zu erstellenden Anordnung an, {{value|"ortho"}}, {{value|"polar"}}, oder {{value|"circular"}}.
-
--    {{PropertyData/de|Verschmelzen}}: wenn es `True` ist und die Kopien sich überschneiden, werden sie zu einer einzigen Form zusammengefügt.
+Siehe [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de#Eigenschaften.md).
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Skripten Gundlagen](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+Siehe [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de#Scripten.md).
 
 
 

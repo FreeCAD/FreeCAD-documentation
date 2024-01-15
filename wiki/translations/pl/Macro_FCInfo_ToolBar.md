@@ -4,11 +4,11 @@
 |Icon=FCInfoToolBar.png
 |Description=Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume ... in different units (metric and imperial) in a toolBar. The information to be displayed in real time is parametrizable in the Parameter of FreeCAD.
 |Author=Mario52
-|Version=00.04
-|Date=2023/06/28
+|Version=00.05b
+|Date=2023/09/06
 |FCVersion=0.18 and more
-|Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png The toolBar icon]
-|SeeAlso=[Arch Survey](Arch_Survey.md) <img src="images/Arch_Survey.svg" width=32px></br>[Macro FCInfo](Macro_FCInfo.md) <img src="images/FCInfo.png" width=32px></br>[Macro FCInfoGlass](Macro_FCInfoGlass.md) <img src="images/Macro_FCInfoGlass.png" width=32px>
+|Download=[https://wiki.freecad.org/images/9/9d/FCInfoToolBar.png ToolBar Icon]
+|SeeAlso=[Arch Survey](Arch_Survey.md), [Macro FCInfo](Macro_FCInfo.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
 ## Description
@@ -16,10 +16,13 @@
 Gives information about the selected shape and can display a conversion of radius, diameter, length, area, volume \... in different units (metric and imperial) in a toolBar. The information to be displayed is parametrizable in the Parameter of FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/c825afd430d9124a77f9688824d12a78b2219348/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo_ToolBar*
+
+![FCInfo_ToolBar](images/FCInfo_ToolBar_Animate01.gif ) 
+*FCInfo ToolBar in action*
 
 ## Usage
 
@@ -86,6 +89,9 @@ The options are located in the Parameter of FreeCAD:
 -   ***switch_User_Display_RadiusObject***
     -   display the radius and the diameter (r:) \[D:\]
 
+-   ***switch_User_Display_RadiusSurface***
+    -   display the radius and the diameter on surface (rS:) \[DS:\]
+
 -   ***switch_User_Display_LengthObject***
     -   display the Length of the edge selected or the Perimeter of the face selected
         -   (L:) display the Length of the wire, edge, line selected
@@ -129,9 +135,15 @@ The options are located in the Parameter of FreeCAD:
 -   ***switch_User_Display_Position***
     -   display the coordinates point mouse pointed (Pos:)
 
+-   ***switch_User_Display_Position_2D_CAD***
+    -   display the coordinates point 2D Cad (x, y) 0,0 = bottom left corner
+
+-   ***switch_User_Display_Position_2D_BMP***
+    -   display the coordinates point 2D Bmp (x, y) 0,0 = top left corner
+
 -   ***switch_User_NotInfoOnBeginning***
-    -   if it is `False` the info (this information) is displayed
-    -   if it is `True` the info is not displayed
+    -   if it is `False` the info (this information) is not displayed
+    -   if it is `True` the info is displayed
 
 -   ***seT_User_UnitSymbolSquare***
     -   give the symbol square (Default **2**)
@@ -202,6 +214,11 @@ enjoy
 The forum discussion [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version 00.05b 06/09/2023 : correct bug calcul 2D Bmp
+
+version 00.05 06/09/2023 : add coordinate 2D Cad (x, y) 0,0 = bottom left corner or Bmp (x, y) 0,0 = top left corner, radiusSurface
+create the test \"if\" **switch_User_NotInfoOnBeginning** i forgot !!
 
 version 00.04 28/06/2023 : correction styleSheet and:
 

@@ -97,4 +97,4 @@ FreeCAD dispose d\'une [bibliothèque de modèles](https://github.com/FreeCAD/Fr
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference/fr|commandes de référence]] de toutes les ](Category_Command_Reference/fr|commandes de référence]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/fr
+⏵ [documentation index](../README.md) > [Command_Reference/fr|commandes de référence]] de toutes les ](Category_Command_Reference/fr|commandes de référence]] de toutes les .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/fr

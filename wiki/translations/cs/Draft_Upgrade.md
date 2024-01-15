@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -17,6 +19,8 @@ Tento nástroj vylepší vybrané objekty jiným způsobem. Není-li vybrán ž�
 
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *An open non-editable wire is upgraded to a closed wire, and then to a face. A closed non-editable square wire is also upgraded to a face. The two faces are then upgraded to create a compound, which is finally upgraded to a single editable Draft Wire.*
+
+
 
 ## Použití
 

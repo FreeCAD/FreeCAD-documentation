@@ -1,63 +1,72 @@
 ---
  GuiCommand:
    Name: FEM EquationFlux
-   MenuLocation: Solve , Flux equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie strumienia
+   MenuLocation: Rozwiąż , Równanie strumienia
+   Workbenches: FEM_Workbench/pl
    Version: 0.17
    SeeAlso: 
 ---
 
 # FEM EquationFlux/pl
 
-This equation is used to calculate the fluxes resulting usually from Poisson kind of equations. These include the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md) and the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md).
+To równanie jest używane do wyznaczenia strumieni pochodzących głównie z równań typu Poissona. Obejmuje to <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [równanie ciepła](FEM_EquationHeat/pl.md) oraz <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md).
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Flux Computation*.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Flux Computation** *(obliczenia strumieni)*.
 
-## Usage
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Either use the toolbar button <img alt="" src=images/FEM_EquationFlux.svg  style="width:24px;"> or the menu **Solve → Flux equation**.
-3.  Now either add a heat equation (toolbar button <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> or menu **Solve → [Heat equation](FEM_EquationHeat.md)**) or an electrostatic equation (toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or menu **Solve → [Electrostatic equation](FEM_EquationElectrostatic.md)**). This is important because the flux equation needs the constraints set for these equastions.
-4.  When using the electrostatic equation, change the property **Flux Coefficient** to *None*. and the property **Flux Variable** to *Potential*.
-5.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
-## Solver Settings 
+## Użycie
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Wciśnij przycisk <img alt="" src=images/FEM_EquationFlux.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równanie strumienia** z menu.
+3.  Teraz dodaj równanie ciepła (przycisk <img alt="" src=images/_FEM_EquationHeat.svg  style="width:24px;"> lub opcja **Rozwiąż→ [równanie ciepła](FEM_EquationHeat/pl.md)**) lub równanie elektrostatyczne (przycisk <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> lub opcja **Rozwiąż → [równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md)**). Jest to istotne, ponieważ równanie strumienia wymaga warunków brzegowych ustawionych dla tych równań.
+4.  W przypadku używania równania elektrostatycznego, zmień właściwość **Flux Coefficient** na *None* a właściwość **Flux Variable** na *Potential*.
+5.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-The flux equation provides these special settings:
 
--    **Average Within Materials**: If *true*, continuity is enforced within the same material in the discontinuous Galerkin discretization using the penalty terms of the discontinuous Galerkin formulation.
 
--    **Calculate Flux**: Calculates the flux vector.
+## Ustawienia solvera 
 
--    **Calculate Flux Abs**: Calculates the absolute of the flux vector. Requires that **Calculate Flux** is true.
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
--    **Calculate Flux Magnitude**: Computes the magnitude of the vector field. Requires that Basically it is the same as **Calculate Flux Abs** but this requires less memory because it solves the matrix equation only once. The downside is that negative values may be introduced.
+Równanie strumienia posiada następujące specjalne ustawienia:
 
--    **Calculate Grad**: Calculates the gradient of the flux.
+-    **Average Within Materials**: Jeśli {{true/pl}}, ciągłość jest wymuszana w obrębie tego samego materiału w nieciągłej dyskretyzacji Galerkina przy pomocy członów funkcji kary nieciągłego sformułowania Galerkina.
 
--    **Calculate Grad Abs**: Calculates the absolute flux gradient. Requires that **Calculate Grad** is true.
+-    **Calculate Flux**: Wyznacza wektor strumienia.
 
--    **Calculate Grad Magnitude**: Computes the magnitude of the vector field. Requires that Basically it is the same as **Calculate Grad Abs** but this requires less memory because it solves the matrix equation only once. The downside is that negative values may be introduced.
+-    **Calculate Flux Abs**: Wyznacza wartość bezwzględną wektora strumienia. Wymaga właściwości **Calculate Flux** ustawionej na {{true/pl}}.
 
--    **Discontinuous Galerkin**: For discontinuous fields the standard Galerkin approximation enforces continuity which may be unphysical. As a remedy for this, set this property to *true*. Then the result may be discontinuous and may even be visualized as such.
+-    **Calculate Flux Magnitude**: Wyznacza wartość pola wektorowego. Wymaga właściwości Jest to właściwie to samo co **Calculate Flux Abs**, ale to wymaga mniej pamięci, ponieważ rozwiązuje równanie macierzowe tylko raz. Wadą jest to, że wartości ujemną mogą zostać wprowadzone.
 
--    **Enforce Positive Magnitude**: If *true*, the negative values of the computed magnitude fields are set to zero.
+-    **Calculate Grad**: Wyznacza gradient strumienia.
 
--    **Flux Coefficient**: Name of the proportionality coefficient to compute the flux.
+-    **Calculate Grad Abs**: Wyznacza bezwzględny gradient strumienia. Wymaga właściwości **Calculate Grad** ustawionej na {{true/pl}}.
 
--    **Flux Variable**: Name of the potential variable used to compute the gradient.
+-    **Calculate Grad Magnitude**: Wyznacza wartość pola wektorowego. Wymaga właściwości Jest to właściwie to samo co **Calculate Grad Abs**, ale to wymaga mniej pamięci, ponieważ rozwiązuje równanie macierzowe tylko raz. Wadą jest to, że wartości ujemną mogą zostać wprowadzone.
 
-## Constraint Information 
+-    **Discontinuous Galerkin**: Dla nieciągłych pól standardowa aproksymacja Galerkina wprowadza ciągłość, która może być niefizyczna. Rozwiązaniem jest ustawienie tej właściwości na {{true/pl}}. Wtedy wynik może być nieciągły i może nawet być zwizualizowany jako taki.
 
-The flux equation does not have own constraints. It takes the constraints from the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md) or the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md).
+-    **Enforce Positive Magnitude**: Jeśli {{true/pl}}, ujemne wartości obliczonego pola wielkości są ustawiane na zero.
 
-## Results
+-    **Flux Coefficient**: Nazwa współczynnika proporcjonalności do obliczenia strumienia.
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, nothing is calculated. Otherwise also the corresponding results will be available.
+-    **Flux Variable**: Nazwa zmiennej potencjalnej używanej do obliczenia gradientu.
 
-The resulting flux is either the heat flux $\rm W/m^2$ (misleadingly named \"temperature flux\") or the potential flux in $\rm W/m^2$ ($\rm A\cdot V/m^2$).
+
+
+## Informacje o cechach analizy 
+
+Równanie strumienia nie ma własnych warunków brzegowych. Korzysta z warunków brzegowych <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [równania ciepła](FEM_EquationHeat/pl.md) i <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [równania elektrostatycznego](FEM_EquationElectrostatic/pl.md).
+
+
+
+## Wyniki
+
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczone zostaną tylko przemieszczenia. W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki.
+
+Wynikowy strumień jest albo strumieniem ciepła w $\rm W/m^2$ (myląco nazwanym \"strumieniem temperatury\") lub strumieniem potencjalnym w $\rm W/m^2$ ($\rm A\cdot V/m^2$).
 
 
 

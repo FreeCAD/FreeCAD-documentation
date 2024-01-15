@@ -12,9 +12,9 @@
 
 ## Description
 
-Cet outil crée une nouvelle esquisse. Il crée un nouveau [PartDesign Corps](PartDesign_Body/fr.md) destiné à contenir l\'esquisse s\'il n\'en existe aucun et ouvre automatiquement l\'[atelier Sketcher](Sketcher_Workbench/fr.md) après sa création.
+Cet outil crée une nouvelle esquisse, crée un nouveau [PartDesign Corps](PartDesign_Body/fr.md) pour contenir l\'esquisse s\'il n\'en existe pas et ouvre automatiquement l\'[atelier Sketcher](Sketcher_Workbench/fr.md) après la création.
 
-Lors de la création de modèles à l\'aide de l\'[atelier PartDesign](PartDesign_Workbench/fr.md), cet outil doit être préféré à l\'outil **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md)** situé dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
+Lors de la création de modèles à l\'aide de l\'[atelier PartDesign](PartDesign_Workbench/fr.md), cet outil doit être préféré à l\'outil **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md)** de l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 
 
 
@@ -35,9 +35,10 @@ Lors de la création de modèles à l\'aide de l\'[atelier PartDesign](PartDesig
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+
     :   Boîte de dialogue *Sélectionner une fonction*. Ces paramètres créent une esquisse sur le plan XY et permettent des références croisées à partir d\'autres éléments du même corps
 
-Paramètres de la boîte de dialogue
+Paramètres de la boîte de dialogue :
 
 -   Système de coordonnées : définit l\'orientation du plan d\'esquisse
 -   Autoriser les fonctionnalités utilisées : *à définir*
@@ -58,7 +59,7 @@ Pour référencer des éléments dans l\'[atelier Sketcher](Sketcher_Workbench/f
 
 -    **Map Mode**: mode de liaison de l\'esquisse à un autre objet, généralement un plan ou une face, mais pouvant être constitué d\'autres types d\'objets. Cliquez une fois dans le champ pour afficher un bouton **...** et appuyez dessus pour ouvrir la boîte de dialogue de [Part Ancrage](Part_EditAttachment/fr.md). Si défini à Désactivé, la propriété Placement est activée.
 
--    **Placement**: contrôle l\'orientation de l\'esquisse dans l\'espace 3D, voir [placement](Std_Placement/fr.md). Désactivé si l\'esquisse est liée via la propriété Map Mode.
+-    **Placement**: contrôle l\'orientation de l\'esquisse dans l\'espace 3D, voir [Positionner](Std_Placement/fr.md). Désactivé si l\'esquisse est liée via la propriété Map Mode.
 
 
 

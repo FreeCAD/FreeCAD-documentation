@@ -28,6 +28,8 @@ A video of the whole construction is here: <https://youtu.be/geIrH1cOCzc>
 
 In this tutorial, you will be using the Part Design Workbench to create a 3D solid model of the part shown in the [Drawing](TechDraw_Workbench.md) below. All of the necessary dimensions to complete this task are given. You will start by creating a core shape from a base Sketch and then build on that shape, adding what is known as Features. These features will either add material to, or remove material from the solid by use of additional sketches and accompanying feature operations. This Tutorial will not use every feature and tool available within the Part Design Workbench, but should use enough to give the user of this tutorial a basic foundation upon which to build their knowledge and skills.
 
+
+
 ## Dio
 
 ![](images/Tutorial_Drawing_Sheet.png )

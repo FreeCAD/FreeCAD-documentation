@@ -11,21 +11,79 @@
 
 ## Description
 
-Ajoute un modèle de matériau mécanique non linéaire. Actuellement, seule la plasticité avec durcissement simple est disponible.
+Crée un matériau mécanique non linéaire. Actuellement, seule la plasticité avec un durcissement simple (isotrope) est disponible.
+
+
 
 ## Utilisation
 
-1.  Pour définir un modèle de matériau mécanique non linéaire, procédez comme suit :
-    -   Ajoutez d\'abord le **<img src="images/Fem-add-material.svg" width=16px> [Matériau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
-    -   Cliquez sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
+1.  Pour créer un objet matériau mécanique non linéaire, procédez comme suit :
+    -   Ajouter d\'abord un **<img src="images/FEM_MaterialSolid.svg" width=16px> [Matériau pour solide](FEM_MaterialSolid/fr.md)** et sélectionnez-le.
+    -   Cliquer sur le bouton **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> [Matériau mécanique non linéaire](FEM_MaterialMechanicalNonlinear/fr.md)** ou choisissez l\'option **Modèle → Matériaux → <img src="images/FEM_MaterialMechanicalNonlinear.svg" width=16px> Matériau mécanique non linéaire** dans le menu.
 2.  Pour modifier un objet Matériau mécanique non linéaire existant :
-    -   Cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
-    -   Sélectionnez le modèle de matériau (actuellement, seul le durcissement simple est disponible).
-    -   Définissez les limites d\'élasticité (contrainte vs déformation plastique). Le premier point doit être spécifié avec une déformation plastique nulle.
+    -   Slectionner le dessus dans la [vue en arborescence](Tree_view/fr.md).
+    -   Sélectionner le modèle de matériau (actuellement, seul le durcissement simple est disponible).
+    -   Définir les limites d\'élasticité (contrainte \[MPa\] en fonction de la déformation plastique). Le premier point doit avoir une déformation plastique nulle. Appuyez sur le bouton **...** à côté de **Yield Points** pour saisir les points à l\'aide d\'une liste intuitive. La syntaxe est décrite dans la section [Remarques](##Remarques.md).
+
+
 
 ## Remarques
 
--   Dans FreeCAD 0.19 et les versions antérieures, il est possible de spécifier seulement 3 points de rupture. Depuis la version 0.20, cette limitation n\'existe plus et une liste de limites d\'élasticité peut en contenir autant que nécessaire.
+-   Dans FreeCAD 0.19 et les versions antérieures, seules 3 points de contrôle peuvent être spécifiés. Depuis la version 0.20, une liste de points de contrôle peut contenir autant de points de contrôle que nécessaire.
+-   La syntaxe devrait être :
+
+:   
+    
+```python
+    stress_1, 0
+    stress_2, plastic_strain_2
+    ...
+    
+```
+    
+
+
+
+
+
+:   Avec le point comme séparateur décimal puisque c\'est ce qu\'utilise CalculiX.
+
+
+
+
+
+:   Par exemple pour définir un modèle bilinéaire avec trempe pour l\'acier S275 :
+
+
+
+
+
+:   
+    
+```python
+    275, 0
+    490, 0.2
+    
+```
+    
+
+
+
+
+
+:   Ou, pour définir une plasticité parfaite sans durcissement pour ce matériau :
+
+
+
+
+
+:   
+    
+```python
+    275, 0
+    
+```
+    
 
 
 

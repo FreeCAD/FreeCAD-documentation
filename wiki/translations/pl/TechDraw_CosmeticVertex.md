@@ -23,22 +23,22 @@ Narzędzie **Wstaw wierzchołek kosmetyczny** dodaje do widoku [wierzchołek](Gl
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz widok na rysunku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> Wstaw wierzchołek kosmetyczny
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> Wstaw wierzchołek kosmetyczny
 **
-3.  Otworzy się okno dialogowe zadania. Umożliwia ono ustawienie położenia wierzchołka kosmetycznego poprzez wybranie punktu lub wprowadzenie przesunięcia x,y od środka wybranego widoku.
-4.  Aby wybrać pozycję, naciśnij przycisk **Wybór punktów**. Kliknij pozycję w widoku, a następnie naciśnij przycisk **OK**, aby utworzyć punkt. Aby zakończyć wybieranie punktu bez tworzenia wierzchołka kosmetycznego, naciśnij przycisk **Zakończ wskazywanie** w oknie dialogowym.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj wierzchołki → <img src="images/TechDraw_CosmeticVertex.svg" width=16px> Wstaw wierzchołek kosmetyczny**.
+3.  Otworzy się panel zadań.
+4.  Opcjonalnie naciśnij przycisk **Wybór punktów** i wybierz punkt na stronie. Naciśnij przycisk **Zakończ wskazywanie**, aby anulować tę operację.
+5.  Opcjonalnie zmień lub określ współrzędne X i Y punktu. Współrzędne odnoszą się do środka widoku.
+6.  Naciśnij przycisk **OK**.
 
 
-</div>
 
-## Notes
+## Uwagi
 
--   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Nie można zmienić położenia istniejącego wierzchołka kosmetycznego. W tej chwili nie ma innego sposobu niż usunięcie go i utworzenie nowego.
+-   Aby usunąć wierzchołek kosmetyczny należy użyć narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
 
 
 

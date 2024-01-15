@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -26,12 +28,16 @@
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Два разных объекта осей расположены перпендикулярно друг другу для создания сетки*
 
+
+
 ## Применение
 
 1.  Нажмите кнопку **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis/ru.md)
 **, или сочетание клавиш **A**, затем **X**
 2.  [Передвиньте](Draft_Move/ru.md)/[Поверните](Draft_Rotate/ru.md) систему осей в нужное положение.
 3.  Войдите в режим редактирования, дважды кликнув по системе осей в дереве объектов, что бы настроить их параметры, такие как количество осей, расстояние и углы между осями.
+
+
 
 ## Опции
 
@@ -45,6 +51,8 @@
 
 
 </div>
+
+
 
 ## Свойства
 
@@ -72,6 +80,11 @@
 
 By setting the **Bubble Position** property to **Arrow left/right** or **Bar left/right**, the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. <small>(v0.20)</small> 
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Скрипты
 
 
@@ -79,7 +92,12 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 
 [Arch API](Arch_API/ru.md) и [Основы скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md)
 
-The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+The Axis tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```

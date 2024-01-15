@@ -21,7 +21,7 @@ The **Mesh HarmonizeNormals** command harmonizes the normals of mesh objects.
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> [Mesh HarmonizeNormals](Mesh_HarmonizeNormals.md)** button.
+    -   Press the **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> [Harmonize normals](Mesh_HarmonizeNormals.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_HarmonizeNormals.svg" width=16px> Harmonize normals** option from the menu.
 
 ## Notes

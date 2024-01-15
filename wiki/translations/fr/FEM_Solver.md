@@ -9,7 +9,7 @@ Wikipedia [répertorie de nombreux packages logiciels d\'éléments finis](https
 
 ### Solveurs disponibles dans diverses distributions Linux 
 
-Le dépôt [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) suit les dépendances de FreeCAD sur de nombreuses distributions Linux. La page [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) examine les solveurs FEA open source pouvant être utilisés avec l\'[atelier FEM](FEM_Workbench/fr.md). La page affiche la version d\'un solveur particulier dans le référentiel d\'une distribution Linux particulière. Cette information est utile pour savoir si un solveur est actuel ou obsolète et doit être mis à niveau.
+Le dépôt [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) suit les dépendances de FreeCAD sur de nombreuses distributions Linux. La page [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) examine les solveurs FEA open source pouvant être utilisés avec l\'[atelier FEM](FEM_Workbench/fr.md). La page affiche la version d\'un solveur particulier dans le dépôt d\'une distribution Linux particulière. Cette information est utile pour savoir si un solveur est à jour ou s\'il est obsolète et doit être mis à jour.
 
 L\'information est également discutée sur le forum : [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
@@ -29,7 +29,7 @@ Le solveur multiphysique Elmer a été intégré à FreeCAD en tant que projet d
 
 ### Mystran
 
-Mystran est un programme d\'analyse structurelle qui utilise le format de fichier Nastran. Il est publié sous la licence MIT. Ce qui signifie qu\'il semble OpenSource. Voir [site web principal](https://www.mystran.com/), [dépôt du code](https://github.com/dr-bill-c/MYSTRAN) et [sujet du forum sur Mystran](https://forum.freecadweb.org/viewtopic.php?t=46171).
+Mystran est un programme d\'analyse structurelle qui utilise le format de fichier d\'entrée Nastran. Il est publié sous licence MIT, ce qui signifie qu\'il semble être open-source. Voir [site web principal](https://www.mystran.com/), [dépôt du code](https://github.com/dr-bill-c/MYSTRAN) et [sujet du forum sur Mystran](https://forum.freecadweb.org/viewtopic.php?t=46171).
 
 ### Z88
 
@@ -41,7 +41,7 @@ Voir les informations :
 -   Notes de publication: [Z88os V15 publié le 17.07.2017](https://forum.z88.de/viewtopic.php?f=18&t=885), [Z88os V13 publié le 20.05.2009](https://forum.z88.de/viewtopic.php?t=90) (version dans Debian Jessie 8, Stretch 9, Buster 10).
 -   [Comment utiliser Z88 dans FEM? (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?t=23318).
 
-Il existe deux versions, Z88OS est l\'édition open source, tandis que Z88Aurora est un logiciel gratuit et comprend une interface graphique et des méthodes de solution supplémentaires.
+Il existe deux versions, Z88OS est l\'édition open-source, tandis que Z88Aurora est gratuit, qui inclut une interface graphique et des méthodes de résolution supplémentaires.
 
 
 
@@ -63,7 +63,7 @@ DesignSPHysics peut être installé via le [Gestionnaire des extensions](Std_Add
 
 FastHenry et FasterCap sont des solveurs de champ de capacitif et de résistance-inductance développés par FastFieldSolvers: [site principal](https://www.fastfieldsolvers.com/default.asp), [page de téléchargement](https://www.fastfieldsolvers.com/download.htm) (code binaire et source), [forum](https://www.fastfieldsolvers.com/forum/).
 
-[Atelier EM](EM_Workbench/fr.md) est un établi externe créé pour servir de front-end à ces solveurs électromagnétiques. FastHenry, pour l\'analyse d\'impédance magnéto-quasi statique en 3D, est entièrement pris en charge, tandis que FasterCap est accessible via certaines macros Python.
+L\'[atelier EM](EM_Workbench/fr.md) est un atelier externe qui a été créé pour servir d\'interface à ces solveurs électromagnétiques. FastHenry, pour l\'analyse d\'impédance magnéto-quasistatique en 3D, est entièrement supporté, tandis que FasterCap est accessible par le biais de quelques macros Python.
 
 Voir : [ElectroMagnetic Workbench (sujet principal du forum)](https://forum.freecadweb.org/viewtopic.php?f=9&t=33372), [Electromagnetic Workbench - de nouveau (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=31920), [FreeCAD for ElectroMagnetics (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=5400), [dépôt du code pour l\'atelier](https://github.com/ediloren/EM-Workbench-for-FreeCAD)
 
@@ -84,7 +84,7 @@ Certains des problèmes qui sont censés être résolus par ce solveur incluent
 
 L\'auteur considère que FreeCAD est une bonne plate-forme de prototypage permettant de configurer, de tester et de visualiser rapidement différents problèmes structurels. Il est donc très utile de disposer d\'un solveur intégré et flexible. Voir le fil principal, [fcFEM - FEA from start to finish (sujet principal du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=33974).
 
-fcFEM est présenté sous la forme d\'une bibliothèque python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de github](https://github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire des extensions](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
+fcFEM est présenté sous la forme d\'une bibliothèque Python et d\'une macro. Vous pouvez le télécharger à partir du [dépôt de GitHub](https://github.com/HarryvL/fcFEM). Il sera éventuellement disponible à partir du [gestionnaire des extensions](Std_AddonMgr/fr.md) ou sera distribué avec FreeCAD lui-même.
 
 ### OpenFoam
 
@@ -123,7 +123,7 @@ Il a été mentionné qu'il présentait certains avantages par rapport à Calcul
 
 L\'intégration préliminaire dans l\'atelier FEM a été effectuée. Voir : [OOFem (sujet principal du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=31288), [p126338 test request, multiple solvers (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?t=15568&start=20#).
 
-Jusqu\'à ce que l\'intégration du solveur soit terminée et que le nouveau code soit fusionné dans le dépôt principal de FreeCAD, les fichiers requis pour utiliser le solveur dans FEM Workbench peuvent être téléchargés à partir d\'un [fork de FreeCAD](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem/src/Mod/Fem/).
+Jusqu\'à ce que l\'intégration du solveur soit terminée et que le nouveau code soit fusionné dans le dépôt principal de FreeCAD, les fichiers nécessaires à l\'utilisation du solveur dans l\'atelier FEM peuvent être téléchargés à partir d\'un [fork de FreeCAD](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem/src/Mod/Fem/). Pour une vue d\'ensemble de l\'implémentation, jetez un coup d\'oeil à l\'historique des modifications <https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem>
 
 ### MBDyn
 
@@ -135,7 +135,7 @@ Jusqu\'à ce que l\'intégration du solveur soit terminée et que le nouveau cod
 
 ## Solveurs non intégrés 
 
-Les solveurs suivants n\'ont pas été intégrés à FreeCAD mais ils ont suscité un certain intérêt de la part de la communauté des utilisateurs. Si un développeur souhaite créer un pont de communication pour un solveur particulier, il ou elle doit consulter le [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18) pour obtenir des conseils et une assistance.
+Les solveurs suivants n\'ont pas été intégrés à FreeCAD mais ils ont suscité un certain intérêt de la part de la communauté des utilisateurs. Si un développeur souhaite créer un pont de communication pour un solveur particulier, il ou elle doit consulter le [sous-forum FEM](https://forum.freecadweb.org/viewforum.php?f=18) pour obtenir des conseils et une assistance.
 
 Les articles suivants sont peut-être obsolètes, mais les informations qu'ils contiennent peuvent néanmoins être utiles pour comprendre comment intégrer des solveurs dans FreeCAD.
 
@@ -157,7 +157,7 @@ Voir [ADAPy](https://github.com/Krande/adapy/) et [ADA - Assembly for Design & A
 
 ### Code-Aster et Code-Saturne 
 
-[Code-Aster](https://www.code-aster.org/) est un solveur multiphysique à code source ouvert. Avec le pré-processeur Salomé-Meca, ils forment une plate-forme de simulation développée par EDF-GDF, le plus grand groupe énergétique français. Il s\'agissait d\'un des premiers packages dont l\'inclusion dans FreeCAD avait été envisagée: [FreeCAD and Code-Aster/Salome-Meca (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?t=2839).
+[Code-Aster](https://www.code-aster.org/) est un solveur multiphysique au code source ouvert. Avec le pré-processeur Salomé-Meca, ils forment une plate-forme de simulation développée par EDF-GDF, le plus grand groupe énergétique français. Il s\'agissait d\'un des premiers packages dont l\'inclusion dans FreeCAD avait été envisagée : [FreeCAD and Code-Aster/Salome-Meca (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?t=2839).
 
 [Code-Saturne](https://www.code-saturne.org/cms/) est un logiciel gratuit et à code source ouvert développé et publié par EDF pour résoudre les problèmes de la dynamique des fluides numérique (CFD).
 
@@ -173,11 +173,11 @@ Il a été suggéré dans les forums de procéder à une analyse des cadres en b
 
 ### Impact FEM 
 
--   <http://www.impact-fem.org/> (lien cassé)
+-   <https://sourceforge.net/projects/impact/>
 
 ### libMesh
 
-[libMesh](https://libmesh.github.io/) est une bibliothèque d\'éléments finis c ++ pour la solution numérique d\'équations aux dérivées différentielles avec pour objectif principal de prendre en charge les calculs de raffinement de maillage adaptatif (AMR) en parallèle : [dépôt du code](https://github.com/libMesh/libmesh).
+[libMesh](https://libmesh.github.io/) est une bibliothèque en C++ d\'éléments finis pour la résolution numérique d\'équations aux dérivées partielles, dont l\'objectif principal est de fournir un support pour les calculs d\'amélioration du maillage adaptatif (AMR=adaptive mesh refinement) en parallèle : [dépôt du code](https://github.com/libMesh/libmesh).
 
 Il a été suggéré d\'intégrer cette bibliothèque dans FreeCAD dans le cadre du [Google Summer of Code project](Google_Summer_of_Code.md) : [GSOC 2019 Configuration Management Project (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?f=8&t=35493).
 
@@ -211,17 +211,17 @@ Il n\'y a pas de support technique pour le code open source et il est probableme
 
 ### Sparselizard
 
-[Sparselizard](http://www.sparselizard.org/) est une bibliothèque d\'éléments finis C ++ open source rapide, générale, multiphysique, p-adaptative, fonctionnant sous Linux, Mac et Windows. Elle est utilisée pour concevoir des microdispositifs de nouvelle génération (transducteurs à ultrasons, micromiroirs, microvannes, entraînements à peigne, \...) et est soigneusement validée par rapport aux solutions analytiques, aux logiciels tiers et aux mesures des dispositifs fabriqués. Elle semble être développée par l\'équipe du générateur de maillage gmsh.
+[Sparselizard](http://www.sparselizard.org/) est une bibliothèque d\'éléments finis en C ++ open source rapide, générale, multiphysique, p-adaptative, fonctionnant sous Linux, Mac et Windows. Elle est utilisée pour concevoir des microdispositifs de nouvelle génération (transducteurs à ultrasons, micromiroirs, microvannes, entraînements à peigne, \...) et est soigneusement validée par rapport aux solutions analytiques, aux logiciels tiers et aux mesures des dispositifs fabriqués. Elle semble être développée par l\'équipe du générateur de maillage gmsh.
 
 ### SU2
 
 [SU2](https://su2code.github.io/) est un ensemble d'outils logiciels développés en C ++ et en Python pour la résolution des [équation partielle différentielle](https://en.wikipedia.org/wiki/Partial_differential_equation) et des problèmes d\'optimisation sous contrainte PDE sur des maillages non structurés. Il est particulièrement utilisé dans les domaines de l\'aérodynamique et de la dynamique des fluides numérique (CFD).
 
-### Technog
+### Tochnog
 
-Technog Professional est un programme source fermé permettant de réaliser des simulations géotechniques telles que des glissements de terrain, des pieux, la stabilité des pentes et des calculs de génie civil (réponse de la maçonnerie et des tremblements de terre), [site web](http://www.feat.nl/) (lien cassé).
+Tochnog Professional est un programme source fermé permettant de réaliser des simulations géotechniques telles que des glissements de terrain, des pieux, la stabilité des pentes et des calculs de génie civil (réponse de la maçonnerie et des tremblements de terre), [site web](https://www.tochnogprofessional.nl/).
 
-Technog a été utilisé avec succès dans FreeCAD en tant que substitut de CalculiX bien que le nombre d'éléments pouvant être gérés par la version d'essai soit limité : [Integration of tochnog solver in FreeCAD FEM (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
+Tochnog a été utilisé avec succès dans FreeCAD en tant que substitut de CalculiX bien que le nombre d'éléments pouvant être gérés par la version d'essai soit limité : [Integration of tochnog solver in FreeCAD FEM (sujet du forum)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
 
 ### XC
 

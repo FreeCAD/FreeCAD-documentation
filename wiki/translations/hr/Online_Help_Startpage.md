@@ -9,6 +9,8 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## Dobro došli na FreeCAD online Pomoć 
 
 
@@ -19,6 +21,8 @@ Ovaj je dokument automatski izrađen iz sadržaja službene FreeCAD wiki dokumen
 
 </div>
 
+
+
 ### Kako koristiti 
 
 
@@ -28,6 +32,10 @@ Ovaj dokument je podijeljen u nekoliko odjeljaka: uvod, uporabu, skriptiranje i 
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### Sudjelujte
 

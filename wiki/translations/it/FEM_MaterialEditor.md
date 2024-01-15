@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -23,13 +25,9 @@ L\'editor dei materiali consente di modificare e salvare le informazioni contenu
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-![](images/Material_editor.jpg )
+![](images/Material_editor.png )
 
 
-</div>
 
 ## Utilizzo
 
@@ -48,6 +46,8 @@ All\'editor dei materiale attualmente si può accedere da:
 
 </div>
 
+
+
 ## Opzioni
 
 -   **Browser button**: Apre il contenuto della proprietà URL in un browser
@@ -59,8 +59,7 @@ All\'editor dei materiale attualmente si può accedere da:
 -   **Add property**: Permette di aggiungere una nuova proprietà personalizzata
 -   **Delete property**: Elimina una proprietà selezionata. Possono essere eliminate solo le proprietà personalizzate
 
-
-{{Arch Tools navi/it}}
+ {{Arch Tools navi/it}}
 
 -   I pulsanti **OK** e **Cancel** hanno e lo stesso effetto quando l\'editor del materiale non viene utilizzato per modificare direttamente la proprietà materiale di un oggetto esistente.
 

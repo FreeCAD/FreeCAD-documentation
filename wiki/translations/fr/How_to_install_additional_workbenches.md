@@ -37,19 +37,6 @@ Comment installer des ateliers et des extensions supplémentaires sous Windows
 
 
 
-### Obsolète
-
-
-**Remarque :**
-
-l\'utilisation de \"addons-installer\" n\'est plus recommandé. L\'utilisation du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) qui se trouve dans tous les systèmes est la manière recommandée.
-
-Utilisez [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
-
-Au cours du Google Summer of Code 2016, l\'étudiant Mandeep Singh a commencé à travailler sur une version améliorée ([disponible ici](https://github.com/mandeeps708/PluginManager)) mais cette version doit encore être améliorée avant de pouvoir être pleinement intégrée à FreeCAD.
-
-
-
 ### Installation manuelle 
 
 
@@ -59,7 +46,7 @@ cette méthode est possible mais pas nécessaire avec l\'introduction du <img al
 
 -   Téléchargez l\'atelier depuis github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Download ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
--   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et cherchez \"Chemin de la macro\".
+-   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Python → Macro** et cherchez \"Chemin de la macro\".
 -   Supposons que votre connexion Windows est \"*nom_utilisateur*\", le chemin par défaut de la macro est **%APPDATA%\FreeCAD\** qui est couramment **C:\Users\''nom_utilisateur''\Appdata\Roaming\FreeCAD**
 -   Dans le répertoire macro, créez (s\'il n\'est pas déjà présent) un dossier appelé \"**Mod**\"
 -   Dans le dossier Mod, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
@@ -123,7 +110,7 @@ cette méthode est possible mais pas nécessaire avec l\'introduction du <img al
 
 -   Téléchargez l\'atelier à partir de github en cliquant sur le bouton **Clone** ou **Download** sur la page github (coin supérieur droit) et en choisissant \"Download ZIP\"
 -   Dézippez l\'archive téléchargée sur votre disque dur local
--   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Général → Macro** et cherchez \"Chemin de la macro\"
+-   Dans FreeCAD, localisez le chemin de la macro en choisissant **Édition → Préférences → Python → Macro** et cherchez \"Chemin de la macro\"
 -   Par défaut, le répertoire des macros est le répertoire **./.FreeCAD/** (masqué) de votre répertoire personnel
 -   Dans le répertoire macro, créez (s\'il n\'est pas déjà présent) un dossier appelé "**Mod**"
 -   Dans le dossier Mod/, créez un dossier avec le nom de l\'atelier, par exemple "Curves"
@@ -182,10 +169,10 @@ Dans le cadre de cet exemple, disons que vous avez choisi l\'l\'[atelier Curves]
 
 -   N\'utilisez pas de caractères spéciaux (par exemple des trémas allemands) dans votre nom d\'utilisateur Windows, sinon FreeCAD ne reconnaîtra pas les fichiers et dossiers dans le chemin de la macro.
 -   Si vous avez déjà configuré un nom d\'utilisateur avec des caractères spéciaux, créez un nouveau nom d\'utilisateur ou pointez le chemin de la macro vers un répertoire n\'utilisant pas de caractères spéciaux.
--   Allez dans **Outils → Personnaliser... → Ateliers** et assurez-vous que l\'atelier n\'est pas défini comme invisible.
+-   Allez dans **Édition → Préférences → Ateliers** et assurez-vous que l\'atelier n\'est pas défini comme invisible.
 -   Avec les systèmes 32 bits et FreeCAD 0.16.6706, après les tentatives d\'installation, les ateliers supplémentaires peuvent ne pas être disponibles. Dans ce cas
     -   gardez la [vue rapport](Report_view/fr.md) ouverte lors du démarrage de FreeCAD et lisez l\'erreur,
-    -   voir ce fil de discussion du forum [Assembly2 dans la version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
+    -   voir ce fil de discussion du forum [Assembly2 dans la version : 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 
 

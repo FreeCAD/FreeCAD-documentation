@@ -1,9 +1,10 @@
 # Macro HilbertCurve/en
 {{Macro
 |Name=HilbertCurve
+|Icon=Hilbert_curve_icon.png
 |Description=This macro creates an Hilbert curve wire in 2 or 3 dimensions with many iterations.
 |Author=Simone Bignetti
-|Download=[https://wiki.freecadweb.org/images/6/69/Hilbert_curve_icon.png toolbar icon]
+|Download=[https://wiki.freecad.org/images/6/69/Hilbert_curve_icon.png ToolBar Icon]
 |Date=2021-02-13
 |Version=1.2.0
 |FCVersion= 0.16 to 0.19
@@ -71,7 +72,7 @@ __Date__    = '2020-12-29'
 __License__ = 'GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999'
 __Web__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
-__Icon__ = 'HilbertCurve.svg'
+__Icon__ = 'https://wiki.freecad.org/images/6/69/Hilbert_curve_icon.png'
 __Help__ = 'Choose the dimensions of the wire, the number of the iterations and the length of the wire segment.'
 __Status__ = 'Stable'
 __Requires__ = ''

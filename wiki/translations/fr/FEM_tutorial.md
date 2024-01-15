@@ -59,11 +59,11 @@ Maintenant, nous avons un modèle avec lequel travailler.
 
 ### Contraintes et forces 
 
-1.  Masquez le maillage dans l\'arborescence.
+1.  Masquez le maillage dans la vue en arborescence.
 2.  Affichez le modèle original.
-3.  Sélectionnez <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md).
+3.  Sélectionnez <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md).
 4.  Cliquez sur **Ajouter**, sélectionnez la face arrière de l\'objet Cube (face sur l\'axe *YZ*) et cliquez sur **OK**.
-5.  Sélectionnez <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> [Contrainte de force](FEM_ConstraintForce/fr.md).
+5.  Sélectionnez <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> [Charge d\'effort](FEM_ConstraintForce/fr.md).
 6.  Cliquez sur **Ajouter**, sélectionnez la face avant de l\'objet Cube (la face parallèle à la face arrière) et définissez la valeur **Charge \[N\]** à 9000000.
 7.  Réglez la *Direction* sur *-Z* en sélectionnant une des arêtes de la face parallèle à cette direction.
 8.  Cliquez sur **OK**.

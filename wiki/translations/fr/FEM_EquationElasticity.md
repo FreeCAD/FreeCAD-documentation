@@ -12,7 +12,7 @@
 
 ## Description
 
-Cette équation décrit les propriétés mécaniques des corps rigides.
+Cette équation décrit les propriétés mécaniques des corps solides.
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Linear Elasticity*.
 
@@ -24,7 +24,7 @@ Pour plus d\'informations sur les mathématiques de l\'équation, voir [Elmer mo
 2.  Utilisez maintenant le bouton de la barre d\'outils <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> ou le menu **Résolution → Équations mécaniques → Équation d'élasticité**.
 3.  Modifiez les [paramètres du solveur de l\'équation](#Param.C3.A8tres_du_solveur.md) ou les [paramètres généraux du solveur](FEM_SolverElmer_SolverSettings/fr.md) si nécessaire.
 
-**Remarque** : pour les analyses de déformation non linéaire, vous devez utiliser l\'<img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [équation de déformation](FEM_EquationDeformation/fr.md) ({{Version/fr|0.21}}). L\'équation d\'élasticité ne concerne que les déformations linéaires.
+**Remarque** : pour les analyses d\'élasticité non linéaire, vous devez utiliser l\'<img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [équation de déformation](FEM_EquationDeformation/fr.md) ({{Version/fr|0.21}}). L\'équation d\'élasticité ne concerne que les élasticités linéaires.
 
 **Remarque** : si vous utilisez plus d\'un cœur de CPU pour le solveur ({{Version/fr|0.21}}), vous ne pouvez pas utiliser les paramètres par défaut du solveur. Cependant, l\'utilisation d\'un seul CPU et des paramètres de solveur par défaut est dans de nombreux cas plus rapide que l\'utilisation de plusieurs CPU car le solveur d\'élasticité n\'est rapide que lorsque **Linear Solver Type** est réglé à *Direct* (la valeur par défaut est décrite [ici](FEM_SolverElmer_SolverSettings/fr#Système_linéaire.md)). Pour la résolution multi-CPU, on ne peut utiliser que la **Linear Direct Method** de *MUMPS*. Cependant, MUMPS n\'est pas disponible en téléchargement direct.
 
@@ -40,13 +40,13 @@ L\'équation d\'élasticité fournit ces paramètres spéciaux :
 
 -    **Calculate Principal**: si toutes les contraintes doivent être calculées.
 
--    **Calculate Strains**: si les déformations doivent être calculées. Ceci calculera également les contraintes, même si **Calculate Principal** ou **Calculate Stresses** sont *false*.
+-    **Calculate Strains**: si les déformations doivent être calculées. Ceci calculera également les contraintes, même si **Calculate Principal** ou **Calculate Stresses** sont `False`.
 
 -    **Calculate Stresses**: si les contraintes doivent être calculées. Par rapport à **Calculate Principal**, le critère d\'élasticité de Tresca et la contrainte principale ne seront pas calculés.
 
 -    **Constant Bulk System**: voir le manuel d\'Elmer pour plus d\'informations.
 
--    **Displace Mesh**: si le maillage peut être déformé. Par défaut \'à *true* et doit être mis à *false* pour les analyses de fréquence propre.
+-    **Displace Mesh**: si le maillage peut être déformé. Par défaut `True` et doit être mis à `False` pour les analyses de fréquence propre.
 
 -    **Fix Displacement**: si les déplacements ou les forces sont fixés, **Model Lumping** est automatiquement utilisé.
 
@@ -60,17 +60,17 @@ L\'équation d\'élasticité fournit ces paramètres spéciaux :
 
 -    **Model Lumping Filename**: fichier permettant de sauvegarder les résultats de la modélisation par blocs fonctionnels.
 
--    **Stability Analysis**: si *true*, **Eigen Analysis** devient une analyse de stabilité (analyse de flambage). Sinon, une analyse modale est effectuée.
+-    **Stability Analysis**: si `True`, **Eigen Analysis** devient une analyse de stabilité (analyse de flambage). Sinon, une analyse modale est effectuée.
 
 -    **Update Transient System**: voir le manuel d\'Elmer pour plus d\'informations.
 
--    **Variable**: variable pour l\'équation d\'élasticité. Ne modifiez cette variable que si **Incompressible** est définie à *true*, conformément au manuel d\'Elmer.
+-    **Variable**: variable pour l\'équation d\'élasticité. Ne modifiez cette variable que si **Incompressible** est définie à `True`, conformément au manuel d\'Elmer.
 
 Valeurs propres :
 
 -    **Eigen Analysis**: si une analyse propre doit être effectuée (calcul des modes propres et des fréquences propres).
 
--    **Eigen System Complex**: doit être à *true* si le système propre est complexe. Il doit être à *false* pour une analyse des valeurs propres amortie.
+-    **Eigen System Complex**: doit être à `True` si le système propre est complexe. Il doit être à `False` pour une analyse des valeurs propres amortie.
 
 -    **Eigen System Compute Residuals**: calcule les résidus du système de valeurs propres.
 
@@ -84,27 +84,27 @@ Valeurs propres :
 
 Équation :
 
--    **Contrainte plane**: calcule la solution en fonction de la situation de contrainte plane. S\'applique uniquement à la géométrie 2D.
+-    **Plane Stress**: calcule la solution en fonction de la situation de contrainte plane. S\'applique uniquement à la géométrie 2D.
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies :
+L\'équation d\'élasticité prend en compte les caractéristiques d\'analyse suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md)
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md)
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md)
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md)
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md)
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Charge d\'effort](FEM_ConstraintForce/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Température initiale](FEM_ConstraintInitialTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Charge de pression](FEM_ConstraintPressure/fr.md)
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Charge de gravité](FEM_ConstraintSelfWeight/fr.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Ressort](FEM_ConstraintSpring/fr.md)
 
 
 
 ### Remarque
 
--   Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+-   Sauf pour les calculs en 2D, pour toutes les caractéristiques d\'analyse ci-dessus, il est important qu\'elles agissent sur une face. Les caractéristiques en 3D définies comme des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 
 
@@ -112,10 +112,10 @@ L\'équation d\'élasticité prend en compte les contraintes suivantes si elles 
 
 Pour effectuer une analyse en mode propre (calcul des modes et fréquences propres), vous devez
 
-1.  Définir **Eigen Analysis** : à *true*.
-2.  Définir **Displace Mesh** : à *false* (faux)
-3.  Définir **Eigen System Values** : mettre le nombre le plus élevé de modes propres qui vous intéresse. Plus ce nombre est petit, plus le temps d\'exécution du solveur est court puisque les modes supérieurs peuvent être omis du calcul.
-4.  Ajouter une [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md) et définir au moins une face du corps comme fixe.
+1.  Définir **Eigen Analysis** à `True`.
+2.  Définir **Displace Mesh** à `False`.
+3.  Définir **Eigen System Values** au le nombre le plus élevé de modes propres qui vous intéresse. Plus ce nombre est petit, plus le temps d\'exécution du solveur est court puisque les modes supérieurs peuvent être omis du calcul.
+4.  Ajouter une [Condition de limite fixe](FEM_ConstraintFixed/fr.md) et définir au moins une face du corps comme fixe.
 5.  Lancer le solveur.
 
 Il est fortement recommandé d\'utiliser **Linear Solver Type** réglé à *Direct* (valeur par défaut) car cela est beaucoup plus rapide et les résultats sont plus précis.
@@ -124,9 +124,9 @@ Il est fortement recommandé d\'utiliser **Linear Solver Type** réglé à *Dire
 
 ## Analyse de flambage 
 
-Pour effectuer une analyse de flambage, vous devez procéder de la même manière que pour une [Analyse en mode propre](#Analyse_en_mode_propre.md), et en plus :
+Pour effectuer une analyse de flambage, vous devez procéder de la même manière que pour une [Analyse en mode propre](#Analyse_en_mode_propre.md) et en plus :
 
--   Définir **Analyse de stabilité** à *true*.
+-   Définir **Stability Analysis** à `True`.
 
 
 
@@ -134,7 +134,7 @@ Pour effectuer une analyse de flambage, vous devez procéder de la même manièr
 
 Les résultats disponibles dépendent des [paramètres du solveur](#Param.C3.A8tres_du_solveur.md). Si aucun des paramètres de **Calculate *** n\'a été défini à *true*, seul le déplacement est calculé. Sinon, les résultats correspondants seront également disponibles. Si **Eigen Analysis** est réglée à *true*, tous les résultats seront disponibles pour chaque mode propre calculé.
 
-Si **Eigen Analysis** a été réglée à *true*, les fréquences propres seront affichées à les logs du solveur dans le dialogue du solveur et également dans le document **SolverElmerOutput** qui sera créé dans l\'arborescence une fois que le solveur aura terminé.
+Si **Eigen Analysis** a été réglée à `True`, les fréquences propres seront affichées à les logs du solveur dans le dialogue du solveur et également dans le document **SolverElmerOutput** qui sera créé dans l\'arborescence une fois que le solveur aura terminé.
 
 **Remarque :** le vecteur de déplacement du mode propre $\vec{d}$ a une valeur arbitraire puisque le résultat est
 

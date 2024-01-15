@@ -225,6 +225,7 @@ People who helped to translate the FreeCAD application (retrieved from <https://
 -   [Марко Пејовић](User_Марко_Пејовић.md)
 -   [Николай Матвеев](User_Николай_Матвеев.md)
 -   [Федір](User_Федір.md)
+-   [JYSEO2016](User_JYSEO2016.md)
 
 ## Addons developers 
 

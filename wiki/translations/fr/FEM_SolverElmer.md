@@ -5,7 +5,7 @@
    MenuLocation: Résolution , Solveur Elmer
    Workbenches: FEM_Workbench/fr
    Shortcut: **S** **E**
-   SeeAlso: FEM_SolverElmer_SolverSettings/fr, FEM_SolverCalculiX/fr, FEM_SolverZ88, FEM_tutorial/fr
+   SeeAlso: FEM_SolverElmer_SolverSettings/fr, FEM_SolverCalculixCxxtools/fr, FEM_SolverZ88, FEM_tutorial/fr
 ---
 
 # FEM SolverElmer/fr
@@ -34,6 +34,7 @@ Il existe des programmes autonomes pour ces deux applications mais leur installa
 3.  Dans les [préférences de FEM](FEM_Preferences/fr#Elmer.md), définissez le chemin d\'accès correct pour `ElmerGrid` et `ElmerSolver`, ou {{VersionPlus/fr|0.21}} : définissez le chemin d\'accès pour `ElmerSolver_mpi` au lieu de `ElmerSolver` pour qu\'Elmer utilise tous les cœurs de processeur disponibles.
 
     :   ![Onglet Elmer dans les préférences de FEM](images/Preferences-ElmerPath.png )
+
     :   
         
 *Menu de dialogue des préférences Elmer montrant les champs pour localiser les binaires Elmer importants sur le système d'exploitation Windows*
@@ -57,6 +58,7 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
     -   Remarque : une analyse réussie nécessite au moins un modèle (2D ou 3D), un matériau ([FEM Fluide](FEM_MaterialFluid/fr.md) ou [FEM Solide](FEM_MaterialSolid/fr.md)), un [maillage Gmsh](FEM_MeshGmshFromShape/fr.md), des équations et des conditions aux limites
 
     :   ![](images/Elmer_typical_file_tree.png )
+
     :   
         
 *Exemple de [vue en arborescence](Tree_view/fr.md) une fois qu'un solveur pour Elmer est activé*
@@ -65,6 +67,7 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 5.  Double-cliquez sur l\'objet **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** pour préparer une analyse
 
     :   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width:300px;">
+
     :   
         
 *Menu de dialogue pour exécuter une analyse Elmer*

@@ -37,8 +37,6 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Macro recording\...](Std_DlgMacroRecord.md): Opens a dialog box to start a macro recording session.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md): Stops a macro recording session.
-
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute.md): Opens a dialog box to manage and execute macros.
 
 -   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Recent macros: shows a list of macros recently used, which can be called with a key combination, for example, **Ctrl**+**Shift**+**1**. This can be configured in the [Preferences](Preferences_Editor.md).
@@ -56,6 +54,10 @@ The following tools are available in this menu:
 -   [Step into](Std_MacroStepInto.md): Steps into code.
 
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md): Toggles a breakpoint.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Stop macro recording](Std_MacroStopRecord.md): Stops a macro recording session. Integrated in [Std DlgMacroRecord](Std_DlgMacroRecord.md). Not available in <small>(v0.22)</small> .
 
 
 

@@ -34,6 +34,8 @@ Il video dell\'intera costruzione è disponibile in: <https://youtu.be/geIrH1cOC
 
 </div>
 
+
+
 ## Prima di iniziare 
 
 ## The Task 
@@ -47,6 +49,8 @@ In questa esercitazione, si prevede di utilizzare l\'ambiente Part Design per cr
 
 
 </div>
+
+
 
 ## La Parte 
 
@@ -349,6 +353,8 @@ A questo punto, sono visibili alcune linee che provengono dalle funzioni interse
 Il video dei passaggi utilizzati in questa parte del tutorial è in: <https://youtu.be/UYI0gvxCYeI>
 
 Questo tutorial e il vostro modello sono terminati.
+
+
 
 ## Risorse aggiuntive 
 

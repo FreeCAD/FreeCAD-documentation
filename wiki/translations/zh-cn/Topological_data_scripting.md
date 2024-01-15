@@ -3,7 +3,7 @@
 
 ## 概述
 
-我们将在本文中向您解释如何直接用FreeCAD的Python解释器来控制[零件模块](Part_Workbench.md)，或者从任意外部脚本来实现这一点。关于拓扑数据脚本的基本描述位于[零件模块的概念介绍](Part_Workbench#Scripting.md)。如果您需要了解关于FreeCAD中python脚本工作原理的更多信息，请一定阅读[脚本一节与](Scripting.md)[FreeCAD脚本基础页面](FreeCAD_Scripting_Basics.md)。
+我们将在本文中向您解释如何直接用FreeCAD的Python解释器来控制[零件模块](Part_Workbench.md)，或者从任意外部脚本来实现这一点。关于拓扑数据脚本的基本描述位于[零件模块的概念介绍](Part_Workbench#Scripting.md)。如果您需要了解关于FreeCAD中python脚本工作原理的更多信息，请一定阅读[脚本](Scripting.md)一节与[FreeCAD脚本基础](FreeCAD_Scripting_Basics.md)页面。
 
 
 </div>
@@ -16,6 +16,8 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 -   [OpenCASCADE](OpenCASCADE.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 类图
@@ -25,7 +27,7 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 
 </div>
 
-This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
+This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,6 +53,8 @@ The geometric objects are the building blocks of all topological objects:
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -88,6 +92,8 @@ The following topological data types are available:
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 简易示例 ：创建简单拓扑结构 
@@ -107,6 +113,8 @@ The following topological data types are available:
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -142,6 +150,8 @@ V4 = App.Vector(0, -10, 0)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 弧
@@ -171,6 +181,8 @@ C2 = Part.Arc(V2, VC2, V3)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 线段
@@ -198,6 +210,8 @@ L2 = Part.LineSegment(V3, V4)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 合而为一
@@ -216,6 +230,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -239,6 +255,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 将结果呈现出来
@@ -253,6 +271,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -287,13 +307,15 @@ Part.show(b)
 -   **makeSphere(radius)**: 利用指定的半径创建一个球体
 -   **makeTorus(radius1,radius2)**: 利用指定的两个半径创建一个圆环体
 
-请参考[Part API页来查阅零件模块中的完整可用方法列表](Part_API.md)。
+请参考[Part API](Part_API.md)页来查阅零件模块中的完整可用方法列表。
 
 
 </div>
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -315,6 +337,8 @@ import Part
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -350,6 +374,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -394,6 +420,8 @@ edge.CenterOfMass
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 将图形显示在屏幕上
@@ -420,6 +448,8 @@ Part.show(edge)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -471,6 +501,8 @@ wire2.isClosed()
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 创建一个面
@@ -508,6 +540,8 @@ sface.isValid()
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -570,6 +604,8 @@ degrees = math.degrees(radians)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 沿多个点创建一条弧
@@ -605,7 +641,7 @@ circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-弧都是像线条那样的有效边，因此也可将其用作连线。 {{Top}}
+弧都是像线条那样的有效边，因此也可将其用作连线。 
 
 
 <div class="mw-translate-fuzzy">
@@ -626,6 +662,8 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -650,6 +688,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -691,6 +731,8 @@ plane.BoundBox
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -790,6 +832,8 @@ Part.show(eli.toShape())
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 创建一个环面
@@ -838,6 +882,8 @@ tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 创建一个立方体或长方体
@@ -858,6 +904,8 @@ len(box.Vertexes)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -881,6 +929,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 创建一个圆柱体
@@ -900,6 +950,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -923,6 +975,8 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 修改几何形状
@@ -932,7 +986,7 @@ FreeCAD提供了若干方法来修改几何形状。其中一些是简单的变�
 
 </div>
 
-There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
+There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. 
 
 
 <div class="mw-translate-fuzzy">
@@ -941,6 +995,8 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -972,6 +1028,8 @@ myShape.translate(App.Vector(2, 0, 0))
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 旋转一个几何形状
@@ -988,7 +1046,7 @@ To rotate a shape, you need to specify the rotation center, the axis, and the ro
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-上述代码将目标形状沿Z轴旋转180度。 {{Top}}
+上述代码将目标形状沿Z轴旋转180度。 
 
 
 <div class="mw-translate-fuzzy">
@@ -1047,6 +1105,8 @@ myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 对几何形状进行缩放
@@ -1069,12 +1129,16 @@ myShape=myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 布尔运算
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1099,6 +1163,8 @@ diff = cylinder.cut(sphere)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 交集
@@ -1121,6 +1187,8 @@ common = cylinder1.common(cylinder2)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### 并集
@@ -1141,6 +1209,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1169,6 +1239,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1205,6 +1277,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1245,6 +1319,8 @@ v.Point
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1289,6 +1365,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1343,6 +1421,8 @@ print("Length of the selected edges: ", length)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 完整的示例：OCC瓶子
@@ -1364,6 +1444,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1427,6 +1509,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1585,7 +1669,7 @@ el = makeBottleTut()
 Part.show(el)
 ```
 
-最后，我们调用此函数来创建实际零件，并将其显示粗来。 {{Top}}
+最后，我们调用此函数来创建实际零件，并将其显示粗来。 
 
 
 <div class="mw-translate-fuzzy">
@@ -1657,6 +1741,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -23,7 +23,7 @@ The <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Draft ToggleConstructionMode](Draft_ToggleConstructionMode.md)** button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
+    -   Press the **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Toggle construction mode](Draft_ToggleConstructionMode.md)** button in the [Draft Tray](Draft_Tray.md). This button is depressed if Draft construction mode is currently on.
     -   Select the **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode** option from the menu.
     -   Use the keyboard shortcut: **C** then **M**.
 2.  The button in the [Draft Tray](Draft_Tray.md) is updated.
@@ -34,8 +34,8 @@ The <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"
 
 ## Preferences
 
--   To change the label of the construction group: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction group name**.
--   To change the color that is used: **Edit → Preferences... → Draft → General settings → Construction Geometry → Construction geometry color**.
+-   To change the label of the construction group: **Edit → Preferences... → Draft → General → Construction group label**.
+-   To change the color that is used: **Edit → Preferences... → Draft → General → Construction geometry color**.
 
 
 

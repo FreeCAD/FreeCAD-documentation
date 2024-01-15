@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Sketcher ConstrainCoincident
    Name/fr: Sketcher Contrainte de coïncidence
-   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte coïncidente
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de coïncidence
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **C**
-   SeeAlso: Sketcher_ConstrainLock/fr, Sketcher_ConstrainPointOnObject/fr
+   SeeAlso: Sketcher_ConstrainCoincidentUnified/fr, Sketcher_ConstrainPointOnObject/fr
 ---
 
 # Sketcher ConstrainCoincident/fr
@@ -20,24 +20,24 @@ Associe un point à (coïncider avec) un ou plusieurs autres points. {{Version/f
 
 1.  Faites l\'une des actions suivantes :
     -   Sélectionnez deux points ou plus.
-    -   Sélectionner deux ou plusieurs arêtes de cercles, d\'arcs, d\'ellipses ou d\'arcs d\'ellipses.
+    -   Sélectionnez deux ou plusieurs arêtes de cercles, d\'arcs, d\'ellipses ou d\'arcs d\'ellipses.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **C**.
-    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Contrainte coïncidente** dans le menu supérieur.
+    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> Contrainte de coïncidence** du menu supérieur.
 
 
 
 ## Alternatives à la contrainte de coïncidence 
 
-Les deux éléments contraints d\'une contrainte [Coincidente](Sketcher_ConstrainCoincident/fr.md) doivent être des points de départ ou des sommets de point finaux, ou des points centraux d\'arcs, de cercles ou d\'ellipses. Certaines combinaisons qui ne sont pas possibles avec une contrainte coïncidente peuvent être émulées à l\'aide d\'autres contraintes:
+Les deux éléments contraints d\'une [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) doivent être des points de départ ou des sommets de point finaux, ou des points centraux d\'arcs, de cercles ou d\'ellipses. Certaines combinaisons qui ne sont pas possibles avec une contrainte coïncidente peuvent être émulées à l\'aide d\'autres contraintes:
 
--   La contrainte <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Symétrie](Sketcher_ConstrainSymmetric/fr.md) peut être utilisée pour placer un point de départ, un point final ou un point central sur le milieu d\'une ligne droite.
--   Un placement de milieu à milieu de deux lignes droites peut être obtenu en créant un nouveau <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [Point](Sketcher_CreatePoint/fr.md) et en utilisant deux <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Symétrie](Sketcher_ConstrainSymmetric/fr.md) contraintes de sorte qu\'il se trouve au milieu des deux lignes.
--   Un sommet peut être contraint de se trouver le long d\'une arête à l\'aide d\'une contrainte <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md). Notez qu\'avec cette contrainte, le point peut se trouver n\'importe où sur l\'extension complète d\'un segment ou d\'une courbe (c\'est-à-dire également avant le point de départ ou au-delà du point final).
--   Un placement colinéaire de deux lignes droites peut être obtenu en leur appliquant une contrainte <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Tangente](Sketcher_ConstrainTangent/fr.md), ou en combinant une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) et une contrainte <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Parallèle](Sketcher_ConstrainParallel/fr.md).
--   Deux arêtes peuvent être rendues identiques en utilisant deux contraintes de <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincidence](Sketcher_ConstrainCoincident/fr.md), une pour chaque paire d\'extrémités.
--   Deux cercles peuvent être rendus identiques en utilisant une contrainte <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincidence](Sketcher_ConstrainCoincident/fr.md) pour fusionner les centres, et en appliquant une contrainte <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Egalité](Sketcher_ConstrainEqual/fr.md) à leurs bords. Pour les arcs, cela garantira que les deux arcs font partie du même cercle, tout en leur permettant d\'avoir des points de départ et d\'arrivée différents.
+-   La <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [contrainte de symétrie](Sketcher_ConstrainSymmetric/fr.md) peut être utilisée pour placer un point de départ, un point final ou un point central sur le milieu d\'une ligne droite.
+-   Un placement de milieu à milieu de deux lignes droites peut être obtenu en créant un nouveau <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [point](Sketcher_CreatePoint/fr.md) et en utilisant deux <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [contraintes de symétrie](Sketcher_ConstrainSymmetric/fr.md) de sorte qu\'il se trouve au milieu des deux lignes.
+-   Un sommet peut être contraint de se trouver le long d\'une arête à l\'aide d\'une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md). Notez qu\'avec cette contrainte, le point peut se trouver n\'importe où sur l\'extension complète d\'un segment ou d\'une courbe (c\'est-à-dire également avant le point de départ ou au-delà du point final).
+-   Un placement colinéaire de deux lignes droites peut être obtenu en leur appliquant une <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [contrainte de tangence](Sketcher_ConstrainTangent/fr.md) ou en combinant une <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) et une <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [contrainte parallèle](Sketcher_ConstrainParallel/fr.md).
+-   Deux arêtes peuvent être rendues identiques en utilisant deux <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md), une pour chaque paire d\'extrémités.
+-   Deux cercles peuvent être rendus identiques en utilisant une <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md) pour fusionner les centres et en appliquant une <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [contrainte d\'égalité](Sketcher_ConstrainEqual/fr.md) à leurs bords. Pour les arcs, cela garantira que les deux arcs font partie du même cercle, tout en leur permettant d\'avoir des points de départ et d\'arrivée différents.
 
 
 

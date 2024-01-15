@@ -27,7 +27,7 @@ The **Draft annotation scale widget** can be used to specify the Draft annotatio
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The Draft annotation scale widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Annotation scale widget**.
+-   The Draft annotation scale widget is optional: **Edit → Preferences... → Draft → Interface → Show the Annotation scale widget in the Draft Workbench**.
 -   To change the annotation scale without the widget: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale**. The scale is defined by a single number. For a scale of {{Value|1:50}} enter {{Value|0.02}}.
 
 

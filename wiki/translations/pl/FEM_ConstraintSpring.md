@@ -1,8 +1,9 @@
 ---
  GuiCommand:
    Name: FEM ConstraintSpring
-   MenuLocation: Model , Mechanical Constraints , Constraint spring
-   Workbenches: FEM_Workbench
+|Name/pɬMES Sprężyna
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Sprężyna
+   Workbenches: FEM_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 
@@ -19,14 +20,15 @@ Definiuje warunek brzegowy sprężyny, do wykorzystania w analizach mechanicznyc
 
 <small>(v0.21)</small> 
 
-: The spring constraint can be used for the equations <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation](FEM_EquationDeformation.md) and <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity](FEM_EquationElasticity.md).
+: Sprężyna może być wykorzystana w równaniach <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [deformacji](FEM_EquationDeformation/pl.md) i <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [elastyczności](FEM_EquationElasticity/pl.md).
 
 
 
 ## Użycie
 
-1.  Either use the toolbar button **<img src="images/FEM_ConstraintSpring.svg" width=16px> [[FEM ConstraintSpring]]** or the menu **Model → Mechanical Constraints → <img src="images/FEM_ConstraintSpring.svg" width=16px> Constraint spring**.
-2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which have to be faces.
+1.  Użyj przycisku **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Sprężyna](FEM_ConstraintSpring/pl.md)** lub opcji **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintSpring.svg" width=16px> Sprężyna** w menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz ściany, do których sprężyna powinna zostać przyłożona.
+3.  Zdefiniuj sztywność w kierunku normalnym lub stycznym (w N/m) i wybierz, które Elmer powinien użyć.
 
 
 

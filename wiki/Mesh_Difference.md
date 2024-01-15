@@ -22,7 +22,7 @@ The **Mesh Difference** command creates a new non-parametric mesh object, a [Mes
 1.  Select the main mesh object.
 2.  Add the mesh object you want to cut from the main object to the selection. The mesh objects must overlap.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Difference.svg" width=16px> [Mesh Difference](Mesh_Difference.md)** button.
+    -   Press the **<img src="images/Mesh_Difference.svg" width=16px> [Difference](Mesh_Difference.md)** button.
     -   Select the **Meshes → Boolean → <img src="images/Mesh_Difference.svg" width=16px> Difference** option from the menu.
 
 ## Properties

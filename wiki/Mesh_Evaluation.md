@@ -11,14 +11,14 @@
 
 The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
- ![](images/Mesh_Evaluation_dialog.png )  
+ <img alt="" src=images/Mesh_Evaluation_dialog.png  style="width:300px;">  
 *The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled*
 
 ## Usage
 
 1.  Optionally select a single mesh object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Evaluation.svg" width=16px> [Mesh Evaluation](Mesh_Evaluation.md)** button.
+    -   Press the **<img src="images/Mesh_Evaluation.svg" width=16px> [Evaluate and repair mesh...](Mesh_Evaluation.md)** button.
     -   Select the **Meshes → Analyze → <img src="images/Mesh_Evaluation.svg" width=16px> Evaluate and repair mesh...** option from the menu.
 3.  The **Evaluate & Repair Mesh** dialog box opens.
 4.  Optionally press the **Settings...** button to change the following settings:

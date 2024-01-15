@@ -1,32 +1,37 @@
 # Macro 3D Parametric Curve/fr
 {{Macro/fr
 |Name=Macro 3D Parametric Curve
+|Name/fr=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
-|Description=Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(t) avec la possibilité de choisir le type de ligne b-spline ou polyline pour raccorder les points.
+|Description=Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(t), avec la possibilité de choisir entre B-spline ou polyline pour raccorder les points.
 |Author=Lucio Gomez (psicofil)
 |Version=2.0
 |Date=2015-03-06
 |FCVersion=Toutes versions
-|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png Icône pour votre barre d'outils]
-|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/fr.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_3D_Parametric_Curve.png Icône de la barre d'outils]
+|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/fr.md)
 }}
 
 ## Description
 
-Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(t) avec la possibilité de choisir le type de ligne b-spline ou polyline pour raccorder les points.
+Dessine une fonction décrite par des équations paramétriques x(t), y(t) et z(t) avec la possibilité de choisir entre une ligne B-spline ou une polyline pour raccorder les points.
 
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
-*Exemple Epicycloid courbe‎‎*
+*Exemple de courbe épicycloïde‎‎*
 
-## Script Original 
 
-Vous pouvez télécharger le dernier scipt (13/05/2015) sur Github repository: [**Macro 3D Parametric Curve.FCMacro**](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-## Script Modifié 
+## Script d\'origine 
 
-<img alt="Exemple de courbe Epicycloide‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
+Vous pouvez trouver le code mis à jour (13/05/2015) sur le dépôt Github suivant : [Le code est ici !](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
 
-ToolBar Icon ![](images/Macro_3D_Parametric_Curve.png )
+
+
+## Script modifié 
+
+<img alt="Exemple de courbe épicycloïde‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
+
+Icône de la barre d\'outils ![](images/Macro_3D_Parametric_Curve.png )
 
 **Macro 3D Parametric Curve.FCMacro**
 

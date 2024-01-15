@@ -10,7 +10,7 @@
 
 ## はじめに
 
-<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbenchは](BIM_Workbench.md)、FreeCADにて[Building Information Modeling](https://ja.wikipedia.org/wiki/BIM) (BIM)のためのツールや一連の作業を実装することを目的とした[外部ワークベンチです](External_workbenches.md)。<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Managerから導入可能です](Std_AddonMgr.md)。
+<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbench](BIM_Workbench.md)は、FreeCADにて[Building Information Modeling](https://ja.wikipedia.org/wiki/BIM) (BIM)のためのツールや一連の作業を実装することを目的とした[外部ワークベンチ](External_workbenches.md)です。<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)から導入可能です。
 
 The BIM Workbench is based on the built-in <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md), and both will probably be merged in the future. The BIM Workbench is a \"meta workbench\", intended to gather many useful tools from other workbenches in a single place, and create a workflow that is more convenient and user-friendly to both experienced BIM users and beginners. The BIM workbench also features some specific tools of its own, mostly wizards and management tools, located under the **Management** menu.
 

@@ -188,7 +188,7 @@ Mit diesem Wissen im Hinterkopf könnte ein Arbeitsablauf so aussehen:
     -   Die Befestigungsmöglichkeiten durchprobieren, um die am besten passende herauszufinden.
     -   Die Drehungs- und Koordinatenwerte anpassen, bis sich die Geometrie wieder in Konstruktionslage befindet.
 6.  OK drücken, um den Dialog zu schließen.
-7.  MIt noch immer aktiviertem Scharnierkörper das Werkzeug <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> [PartDesign Boolesch Operation](PartDesign_Boolean/de.md) auswählen.
+7.  MIt noch immer aktiviertem Scharnierkörper das Werkzeug <img alt="" src=images/PartDesign_Boolean.svg  style="width:16px;"> [PartDesign Boolesche Operation](PartDesign_Boolean/de.md) auswählen.
 8.  Im Dialog die Schaltfläche **Körper hinzufügen** drücken.
 9.  Den Körper der beweglichen Hälfte auswählen.
 10. OK drücken, um die Aktion zu beenden und den Dialog zu Schließen.

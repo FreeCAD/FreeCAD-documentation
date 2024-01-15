@@ -41,7 +41,7 @@ Das Werkzeug **TechDraw KomplexerSchnitt** fügt einem Zeichnungsblatt eine Schn
 
 ## Eigenschaften KomplexerSchnitt 
 
-Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften.md).
+Siehe auch [TechDraw Schnittansicht](TechDraw_SectionView/de#Eigenschaften_Schnittansicht.md).
 
 
 

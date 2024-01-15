@@ -1,21 +1,17 @@
 # Report view/es
 ## Introducción
 
-La [Vista de informe](Report_view/es.md) es un panel que muestra los mensajes de texto de los procesos y herramientas de FreeCAD. Está disponible en el menú **{{StdMenu|[Vista](Std_View_Menu/es.md)** → Paneles → Vista de informe}}.
+La [vista de informe](Report_view/es.md) es un panel que muestra los mensajes de texto de los procesos y herramientas de FreeCAD. Está disponible en el menú **{{StdMenu|[Vista](Std_View_Menu/es.md)** → Paneles → Vista de informe}}.
 
-
-<div class="mw-translate-fuzzy">
-
-Ciertas propiedades de este panel, como el color del texto y si se muestra automáticamente en caso de advertencias o errores, se pueden configurar en la pestaña **General → Ventana de salida** del [editor de preferencias](Preferences_Editor/es.md).
-
-
-</div>
+Ciertas propiedades de este panel, como el color del texto y si se muestra automáticamente en caso de advertencias o errores, se pueden configurar en la pestaña **General → Vista de informe** del [editor de preferencias](Preferences_Editor#Report_view/es.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
 *La vista del informe que muestra los mensajes cuando FreeCAD acaba de iniciarse.*
+
+
 
 ## Mensajes
 
@@ -42,14 +38,38 @@ Estas funciones pueden usarse desde la [consola de Python](Python_console/es.md)
 
 *Ejemplos de mensajes en la vista del informe: un mensaje general, una advertencia, un error y un mensaje registrado.*
 
+
+
 ## Acciones
 
+Al hacer clic con el botón derecho del ratón en la vista del informe se abre un menú contextual con los siguientes comandos:
 
-<div class="mw-translate-fuzzy">
+-    **Opciones**:
 
-Al hacer clic con el botón derecho del ratón en la vista del informe se muestran algunos comandos:
+    -   
+        **Display message types**
+        
+        : see [Preferences Editor](Preferences_Editor#Output_window.md).
 
--    **Opciones**: registro, advertencia, error, redirigir la salida de Python, redirigir los errores de Python, ir al final.
+    -   
+        **Show output window on**
+        
+        : idem.
+
+    -   
+        **Redirect Python output**
+        
+        : idem.
+
+    -   
+        **Redirect Python errors**
+        
+        : idem.
+
+    -   
+        **Go to end**
+        
+        : if checked the report view will scroll to the bottom when a new message is added.
 
 -    **Copiar**: almacena el texto seleccionado en el portapapeles para su posterior pegado; se desactiva si no hay nada seleccionado.
 
@@ -58,9 +78,6 @@ Al hacer clic con el botón derecho del ratón en la vista del informe se muestr
 -    **Borrar**: borra todos los mensajes de la vista del informe. Esto es útil si quiere solucionar un problema con una herramienta que imprime mensajes en la vista del informe, y quiere estar seguro de que no hay mensajes antiguos de herramientas anteriores.
 
 -    **Guardar como**: guarda los mensajes de la vista de informe en un archivo de texto.
-
-
-</div>
 
 
 {{Interface navi

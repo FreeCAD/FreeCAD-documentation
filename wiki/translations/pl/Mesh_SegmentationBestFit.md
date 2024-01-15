@@ -9,9 +9,13 @@
 
 # Mesh SegmentationBestFit/pl
 
+
+
 ## Opis
 
 Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzielne segmenty siatki dla określonych typów powierzchni obiektu siatkowego. Polecenie może również zidentyfikować ich parametry, co może być przydatne podczas ponownego projektowania obiektu siatkowego.
+
+
 
 ## Użycie
 
@@ -27,10 +31,10 @@ Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzi
         obiektu siatkowego nie powinien być czerwony.
 2.  Wybierz pojedynczy obiekt siatki.
 3.  Istnieje kilka sposobów wywołania polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Utwórz segmenty z najlepiej dopasowanych powierzchni](Mesh_SegmentationBestFit/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> '''Utwórz segmenty z najlepiej dopasowanych powierzchni'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Utwórz segmenty z najlepiej dopasowanych powierzchni ...**.
 4.  Otwiera się panel zadań **Segmentacja siatki**.
-5.  Opcjonalnie naciśnij jeden z przycisków **Paramety ...**, aby określić parametry powierzchni:
+5.  Opcjonalnie naciśnij jeden z przycisków **Parametry ...**, aby określić parametry powierzchni:
     -   Otwiera się okno dialogowe **Dopasowanie powierzchni**.
     -   Wybierz jedną lub więcej ścian należących do powierzchni:
         -   Naciśnij przycisk **Obszar** i trzymając wciśnięty lewy przycisk myszy narysuj w oknie [widoku 3D](3D_view/pl.md) region, czyli zamkniętą krzywa łamaną. Wybrane zostaną ściany, które (częściowo) mieszczą się wewnątrz obszaru.
@@ -38,7 +42,7 @@ Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzi
         -   Opcjonalnie naciśnij przycisk **Wyczyść**, aby wyczyścić zaznaczenie.
     -   Naciśnij przycisk **Oblicz**, aby dokonać obliczeń parametrów.
     -   Naciśnij przycisk **OK** lub **Anuluj**, aby zamknąć okno dialogowe.
-6.  Wybierz typ(y) powierzchni, dla których chcesz utworzyć segmenty siatki:
+6.  Wybierz typ*(y)* powierzchni, dla których chcesz utworzyć segmenty siatki:
     -   
         **Płaszczyzna**
         
@@ -53,7 +57,7 @@ Polecenie **Utwórz segmenty z najlepiej dopasowanych powierzchni** tworzy oddzi
 7.  Określ wartości **Tolerancji**.
 8.  Określ wartości **Minimalna liczba płaszczyzn**.
 9.  Naciśnij przycisk **OK**
-10. Polecenie utworzy [grupę](Std_Group.md) zawierającą oddzielne obiekty siatkowe, każdy będący segmentem oryginalnego obiektu siatkowego.
+10. Polecenie utworzy [grupę](Std_Group/pl.md) zawierającą oddzielne obiekty siatkowe, każdy będący segmentem oryginalnego obiektu siatkowego.
 11. Jeśli utworzona grupa jest pusta spróbuj użyć polecenia ponownie ze zmienionymi ustawieniami.
 
 

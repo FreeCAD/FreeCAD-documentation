@@ -18,7 +18,13 @@ See also:
 
 ## Instalacija
 
+
+<div class="mw-translate-fuzzy">
+
 Prvo preuzmite i instalirajte FreeCAD. Pogledaj [Preuzimanja](Download/hr.md) stranicu za informacije o preuzimanju, trenutnoj verziji programa, i o nadopunama, i instrukcije [Instalacija](Installing/hr.md) za vaš operacijski sustav ([Windows](Installing_on_Windows/hr.md), [Linux](Installing_on_Linux/hr.md) or [Mac](Installing_on_Mac/hr.md)). Postoje spremni instalacijski paketi za Windows (.msi), Debian i Ubuntu (.deb), openSUSE (.rpm) i Mac OSX. FreeCAD je dostupan od upravitelja paketa mnogih drugih distribucija Linuxa. Dostupna je i samostalna izvršna datoteka [AppImage](AppImage/hr.md) koja će se izvoditi na najnovijim 64-bitnim Linux sustavima. Budući da je FreeCAD otvorenog koda, također možete preuzeti izvorni kod i [kompilirati](Compiling/hr.md) ga sami.
+
+
+</div>
 
 
 

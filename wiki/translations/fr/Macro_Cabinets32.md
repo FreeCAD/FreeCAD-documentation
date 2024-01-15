@@ -1,13 +1,14 @@
 # Macro Cabinets32/fr
 {{Macro/fr
 |Name=Cabinets32
+|Name/fr=Cabinets32
 |Icon=Macro_Cabinets32.png
-|Description=Cette macro crée le Haut/Bas et les parois latérales d'une armoire avec la spécification System32.
+|Description=Cette macro crée le haut/bas et les parois latérales d'une armoire avec la spécification System32.
 |Author=Berner
 |Version=1.0
 |Date=2015-01-22
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png TollBar Icon]
+|FCVersion=Toutes
+|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -20,6 +21,8 @@ Cette macro crée le Haut/Bas et les parois latérales d\'une armoire avec la sp
 <img alt="" src=images/cabinettop.png  style="width:480px;"> 
 *cabinettop*
 
+
+
 ## Utilisation
 
 -   Lancez la macr et spécifiez la longueur, hauteur et largeur de votre plaque.
@@ -29,7 +32,7 @@ Cette macro crée le Haut/Bas et les parois latérales d\'une armoire avec la sp
 
 ## Script
 
-TollBar Icon ![](images/Macro_Cabinets32.png )
+Icône de la barre d\'outils ![](images/Macro_Cabinets32.png )
 
 **Cabinets32.FCMacro**
 

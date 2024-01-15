@@ -62,6 +62,7 @@ There are several ways to edit the toolbits and library:
 A. By clicking the column headers of the library you can sort the toolbit library. The library will retain the sort and use it in the dock.
 
 :   ![](images/Librarysort.png )
+
 :   
     
 *Sort the toolbit library via the column headers*
@@ -70,6 +71,7 @@ A. By clicking the column headers of the library you can sort the toolbit librar
 B. By doubleclicking in the first column you can edit the toolbit number. This will be the default tool number used when creating a new tool controller. It is possible to use the same number for multiple toolbits.
 
 :   ![](images/Edittoolnumber.png )
+
 :   
     
 *Double click first column to edit toolbit number*

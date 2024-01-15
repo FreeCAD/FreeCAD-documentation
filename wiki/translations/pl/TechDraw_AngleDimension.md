@@ -63,22 +63,6 @@ Zobacz stronę [Wymiar długości](TechDraw_LengthDimension/pl#W.C5.82a.C5.9Bciw
 
 
 
-## Tworzenie skryptów 
-
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
-
-Narzędzie **Wstaw wymiar kąta** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
-
-
-```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
-dim1.Type = "Angle"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
-```
-
-
-
 
 
 {{TechDraw Tools navi

@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -24,7 +26,12 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 ![](images/Draft_Draft2Sketch_example.png ) 
 *Convertir objetos de borrador en Croquizador Croquis*
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente selecciona uno o más objetos de Borrador o [Croquizador Croquis](Sketcher_NewSketch/es.md).
 2.  Hay varias formas de invocar el comando:
@@ -33,6 +40,11 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 4.  Se crea un nuevo objeto.
 
+
+</div>
+
+
+
 ## Notas
 
 -   Objetos que no son de borrador que son totalmente planas también se pueden convertir.
@@ -40,6 +52,8 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 -   [Borrador BezCurvas](Draft_BezCurve/es.md) será aproximado por [Croquizador BSplines](Sketcher_CreateBSpline/es.md).
 -   El [Ambiente de trabajo KicadStepUp](KicadStepUp_Workbench/es.md) externo contiene un comando para convertir un [Borrador BSpline](Draft_BSpline/es.md) en una serie de [Coquizador Arcos](Sketcher_CreateArc/es.md). Para más información vea el tema del foro [BSplines to Shape2DView and Sketcher](https://forum.freecadweb.org/viewtopic.php?f=9&t=25082).
 -   [Este otro tema del foro](https://forum.freecadweb.org/viewtopic.php?f=3&t=58781#p505207) contiene una macro para dicha conversión.
+
+
 
 ## Guión
 

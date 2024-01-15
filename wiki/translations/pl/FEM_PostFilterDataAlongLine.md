@@ -1,32 +1,39 @@
 ---
  GuiCommand:
    Name: FEM PostFilterDataAlongLine
-   MenuLocation: Results , Line clip filter
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   Name/pl: Filtr przycięcia linią
+   MenuLocation: Wyniki , Filtr przycięcia linią
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_tutorial/pl
 ---
 
 # FEM PostFilterDataAlongLine/pl
 
-## Description
 
-Plots the values of a field along a specified line.
+
+## Opis
+
+Tworzy wykres wartości pola wzdłuż wskazanej linii.
 
 ![](images/FEM_Line-Clip-Filter-Example.png )
 
-*A line clip filter inside a [Region clip filter](FEM_PostFilterClipRegion.md).The Region clip filter is the semi-transparent object.The part of the line outside the Region clip filter is set to a value of zero and therefore appears blue.*
+*Filtr przycięcia linią w [filtrze przycięcia obszaru](FEM_PostFilterClipRegion/pl.md).
+Filtr przycięcia obszaru jest półprzezroczysty.
+Część linii poza filtrem przycięcia obszaru jest ustawiona na wartość zero i dlatego wyświetla się na niebiesko.*
 
-## Usage
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter.
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> '''Line clip filter'''**.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Line clip filter**.
-3.  Specify the coordinates of two points defining the line along which the results are to be evaluated. Optionally, press the **Select Points** button and pick the points manually on the surface of the mesh.
-4.  Optionally, specify the **Resolution**.
-5.  Select a **Field** from the expandable list.
-6.  Press the **Create Plot** button. An XY plot of the field value versus the line length will be created in a separate window.
-7.  Click the **OK** button to finish the command.
+
+## Użycie
+
+1.  Zaznacz wcześniej utworzony [obiekt prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md) lub inny filtr.
+2.  Wywołaj polecenie poprzez:
+    -   Wciśnięcie przycisku **<img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> '''Filtr przycięcia linią'''**.
+    -   Wybranie opcji **Wyniki → <img src="images/FEM_PostFilterDataAlongLine.svg" width=16px> Filtr przycięcia linią**.
+3.  Wprowadź współrzędne dwóch punktów definiujących linię, wzdłuż której wyniki mają być uzyskane. Opcjonalnie, wciśnij przycisk **Wybierz punkty** i wskaż punkty ręcznie na powierzchni siatki.
+4.  Opcjonalnie, podaj **Rozdzielczość**.
+5.  Wybierz **Pole** z listy rozwijanej.
+6.  Wciśnij przycisk **Utwórzy wykres**. Wykres XY wartości pola w funkcji długości linii zostanie utworzony w osobnym oknie.
+7.  Wciśnij przycisk **OK** aby zakończyć polecenie.
 
 
 

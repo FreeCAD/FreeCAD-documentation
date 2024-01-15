@@ -19,7 +19,9 @@ Der Befehl **Points Zusammenführen** erzeugt eine Punktwolke, indem er die Punk
 ## Anwendung
 
 1.  Zwei oder mehr Punktwolken auswählen.
-2.  Den Menüeintrag **Punkte → Punktwolken zusammenführen** auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Points_Merge.svg" width=16px> [Punktwolken zusammenführen](Points_Merge/de.md)** Drücken.
+    -   Den Menüeintrag **Punkte → <img src="images/Points_Merge.svg" width=16px> Punktwolken zusammenführen** auswählen.
 
 
 

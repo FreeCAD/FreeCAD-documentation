@@ -17,28 +17,32 @@
 
 
 
+
+
 ## Einführung
 
-Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python Interpreter von FreeCAD. FreeCAD könnte ein \"sehr guter\" Ersatz für OpenSCAD sein, vor allem, weil es einen echten Python Interpreter hat, das heißt, es hat eine echte Programmiersprache an Bord, fast alles, was man mit der GUI machen kann, ist mit einem Python Skript machbar.
+Unter Skripten verstehen wir die Erstellung topologischer Objekte mit dem Python-Interpreter von FreeCAD. FreeCAD könnte ein \"sehr guter\" Ersatz für OpenSCAD sein, vor allem, weil es einen echten Python-Interpreter hat, das heißt, es hat eine echte Programmiersprache an Bord, fast alles, was man mit der GUI machen kann, ist mit einem Python-Skript machbar.
 
 Bedauerlicherweise sind die Informationen über das Skripten in der Dokumentation und sogar in diesem Wiki verstreut und es mangelt an Einheitlichkeit beim \"Schreiben\", und die meisten von ihnen werden zu technisch erklärt.
 
-## Zum Appetitanregen 
+
+
+## Erste Schritte 
 
 Das erste Hindernis auf einem einfachen Weg zur Skripterstellung ist, dass es keine direkte Möglichkeit gibt, den FreeCAD internen Python Editor über einen Menüeintrag oder ein Symbol im Werkzeugleistenbereich aufzurufen, aber wenn man weiß, dass FreeCAD eine Datei mit der Erweiterung `.py` im internen Python Editor öffnet, ist der einfachste Trick, sie in Ihrem bevorzugten Texteditor zu erstellen und sie dann mit dem üblichen Befehl **Datei → Öffnen** zu öffnen.
 
-Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit einer gewissen Ordnung geschrieben werden, FreeCAD Python Editor haben eine gute \"Syntax Hervorhebung\", die in vielen einfachen Editoren wie Windows Notepad oder einige grundlegende Linux Editoren fehlt, so ist es ausreichend, diese wenigen Zeilen zu schreiben:
+Um die Dinge in einer höflichen Art und Weise zu machen, muss die Datei mit einer gewissen Ordnung geschrieben werden. Der FreeCAD-Python-Editor hat eine gute \"Syntax-Hervorhebung\", die in vielen einfachen Editoren wie Windows Notepad oder einige grundlegende Linux Editoren fehlt, so ist es ausreichend, diese wenigen Zeilen zu schreiben:
 
 
 ```python
-"""script.py
+"""filename.py
 
-   Primo script per FreeCAD
+   A short description of what the script does
 
 """
 ```
 
-Speichere sie mit einem aussagekräftigen Namen mit der Erweiterung `.py` und lade die resultierende Datei in FreeCAD, mit dem besagten **Datei - Öffnen** Befehl.
+Diese werden mit einem aussagekräftigen Namen und der Erweiterung `.py` gespeichert und die resultierende Datei in FreeCAD geladen, mit dem besagten Befehl **Datei → Öffnen**.
 
 Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in diesem Teil des Codes gezeigt, den du als Vorlage für fast jedes zukünftige Skript verwenden könntest:
 
@@ -46,27 +50,25 @@ Ein Minimalbeispiel dafür, was in einem Skript enthalten sein muss, wird in die
 ```python
 """filename.py
 
-   Here a short but significant description of what the script do 
+   First FreeCAD Script
 
 """
 
 import FreeCAD
-from FreeCAD import Base, Vector
-import Part
-from math import pi, sin, cos
+from FreeCAD import Placement, Rotation, Vector
 
 DOC = FreeCAD.activeDocument()
-DOC_NAME = "Pippo"
+DOC_NAME = "Wiki_Example"
+
+# Helpers methods
 
 def clear_doc():
-    """
-    Clear the active document deleting all the objects
-    """
+    """Clear activeDocument deleting all the objects."""
     for obj in DOC.Objects:
         DOC.removeObject(obj.Name)
 
 def setview():
-    """Rearrange View"""
+    """Rearrange View."""
     FreeCAD.Gui.SendMsgToActiveView("ViewFit")
     FreeCAD.Gui.activeDocument().activeView().viewAxometric()
 
@@ -77,26 +79,28 @@ if DOC is None:
 else:
     clear_doc()
 
-# EPS= tolerance to use to cut the parts
-EPS = 0.10
-EPS_C = EPS * -0.5
+ROT0 = Rotation(0, 0, 0)
+VEC0 = Vector(0, 0, 0)
 ```
 
 Der obige Code enthält einige Tricks:
 
--    `import FreeCAD`Diese Zeile importiert FreeCAD in den FreeCAD Python Interpreter, es mag überflüssig erscheinen, ist es aber nicht.
+-    `import FreeCAD`Diese Zeile importiert FreeCAD in FreeCADs Python-Interpreter. Es mag überflüssig erscheinen, ist es aber nicht.
 
--    `von der FreeCAD Importbasis, Vektor`Basis und Vektor sind in FreeCAD-Skripten weit verbreitet. Wenn du sie auf diese Weise importierst, ersparst du dir den Aufruf mit `FreeCAD.Vector` oder `FreeCAD.Base` anstelle von `Basis` oder `Vektor`, dies erspart viele Tastatureingaben und macht Codezeilen viel kleiner.
+-    `from FreeCAD import Placement, Rotation, Vector`**Placement** **Rotation** and **Vector** sind in FreeCAD-Skripten weit verbreitet. Werden sie auf diese Weise importiert, erspart dies viele Tastendrücke und verkürzt Codezeilen, da statt `FreeCAD.Vector` oder `FreeCAD.Placement` nur noch `Vector` oder `Placement` getippt werden muss.
 
 Lasse uns mit einem kleinen Skript anfangen, das eine sehr kleine Arbeit leistet, aber die Kraft dieses Ansatzes zeigt.
 
 
 ```python
-def cubo(nome, lung, larg, alt):
-    obj_b = DOC.addObject("Part::Box", nome)
-    obj_b.Length = lung
-    obj_b.Width = larg
-    obj_b.Height = alt
+# Script methods
+
+def my_box(name, len, wid, hei):
+    """Create a box."""
+    obj_b = DOC.addObject("Part::Box", name)
+    obj_b.Length = len
+    obj_b.Width = wid
+    obj_b.Height = hei
 
     DOC.recompute()
 
@@ -104,48 +108,53 @@ def cubo(nome, lung, larg, alt):
 
 # objects definition
 
-obj = cubo("test_cube", 5, 5, 5)
+obj = my_box("test_cube", 5, 5, 5)
 
 setview()
 ```
 
-Setze diese Zeilen nach dem \"Vorlage\" Code und drücke den grünen Pfeil in der **Makro Werkzeugleiste**
+Die obigen Codezeilen werden nach `# Script methods` eingegeben und der grüne Pfeil in der Symbolleiste **Macro** gedrückt.
 
-Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Pippo\" (italienischer Name von **Goofy**\') ist geöffnet, und du wirst in der 3D Ansicht einen [Würfel](Part_Box/de.md) sehen, wie in der Abbildung unten.
+Du wirst einige magische Dinge sehen, ein neues Dokument mit dem Namen \"Wiki_example\" wird geöffnet, und du wirst in der 3D-Ansicht einen [Würfel](Part_Box/de.md) sehen, wie in der Abbildung unten.
 
-![Test Cube](images/Cubo.png )
+![Testwürfel](images/Cubo.png )
 
-## Etwas mehr\... 
 
-Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun, diese Kodezeilen nach der `cubo()` Methode und vor der Zeile `# objects definition` hinzufügen.
+
+## Etwas mehr 
+
+Nicht allzu erstaunlich? Ja, aber irgendwo müssen wir anfangen, wir können das Gleiche mit einem [Zylinder](Part_Cylinder/de.md) tun; diese Kodezeilen werden nach der Methode `my_box()` und vor der Zeile `# objects definition` hinzugefügt.
 
 
 ```python
-def base_cyl(nome, ang, rad, alt ):
-    obj = DOC.addObject("Part::Cylinder", nome)
+def my_cyl(name, ang, rad, hei):
+    """Create a Cylinder."""
+    obj = DOC.addObject("Part::Cylinder", name)
     obj.Angle = ang
     obj.Radius = rad
-    obj.Height = altDOC.recompute()
+    obj.Height = hei
 
-    return obj   
+    DOC.recompute()
 
+    return obj
 ```
 
 Auch hier nichts allzu Aufregendes. Aber bitte beachte einige Besonderheiten:
 
--   Das Fehlen des üblichen Verweises auf die `App.`, die in vielen Dokumentations Codeschnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass \"besser explizit als implizit\" `App.` in einer sehr \" dürftigen\" Weise erklärt, woher die Dinge kommen.
--   Beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC` = `FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
+-   Das Fehlen des üblichen Verweises auf die `App.`, die in vielen Dokumentations-Codeschnipseln vorhanden ist, ist beabsichtigt, dieser Code könnte sogar beim Aufruf von FreeCAD als Modul in einem externen Python-Interpreter verwendet werden, die Sache ist mit einem AppImage nicht einfach zu bewerkstelligen, aber mit etwas Vorsicht wäre es machbar. Und in dem Standard Motto von Python, dass \"besser explizit als implizit\" `App.` in einer sehr \" dürftigen\" Weise erklärt, woher die Dinge kommen.
+-   Beachte die Verwendung des dem aktiven Dokument zugewiesenen \"konstanten\" Namens in `DOC &#61; FreeCAD. activeDocument()`; activeDocument ist keine \"Konstante\" im strengen Sinne, aber in einer \"semantischen\" Weise ist unser \"aktives Dokument\", das für unseren Gebrauch eine richtige \"Konstante\" ist, so dass die Python Konvention, den \"ALL CAPS\" Namen für \"Konstanten\" zu verwenden, ganz zu schweigen davon, dass `DOC` viel kürzer ist als `FreeCAD.activeDocument()`.
 -   Jede Methode gibt eine Geometrie zurück, dies wird in der Fortsetzung der Seite deutlich.
 -   Geometrie hatte nicht die Eigenschaft `Placement`, wenn die einfachen Geometrien verwendet werden, um komplexere Geometrie zu erstellen, ist die Verwaltung von `Placement` eine umständliche Sache.
 
 Was ist nun mit diesen Geometrien zu tun?
 
-Lasse uns boolesche Operationen einführen. Als Einstiegsbeispiel setze diese Zeilen nach `base_cyl(...`, dies erzeugt eine Methode für eine **Verschmelzung**, auch als **Vereinigung** Operation bekannt:
+Lasst uns boolesche Verknüpfungen einführen. Als Einstiegsbeispiel werden diese Zeilen nach `my_cyl` eingefügt; dies erzeugt eine Methode zum **Verschmelzen** (fuse), bekannt als **Vereinigung**:
 
 
 ```python
-def fuse_obj(nome, obj_0, obj_1):
-    obj = DOC.addObject("Part::Fuse", nome)
+def fuse_obj(name, obj_0, obj_1):
+    """Fuse two objects."""
+    obj = DOC.addObject("Part::Fuse", name)
     obj.Base = obj_0
     obj.Tool = obj_1
     obj.Refine = True
@@ -162,18 +171,20 @@ Verwenden wir die Geometrien, löschen wir Zeilen unterhalb des Codeabschnitts, 
 ```python
 # objects definition
 
-obj = cubo("cubo_di_prova", 5, 5, 5)
+obj = my_box("test_cube", 5, 5, 5)
 
-obj1 = base_cyl('primo cilindro', 360,2,10)
+obj1 = my_cyl("test_cyl", 360, 2, 10)
 
-fuse_obj("Fusione", obj, obj1)
+fuse_obj("Fusion", obj, obj1)
 
 setview()
 ```
 
-Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D Ansicht so etwas wie:
+Starte das Skript mit dem grünen Pfeil und wir sehen in der 3D_Ansicht so etwas:
 
-![cube and cylinder](images/Cucil.png )
+![Würfel und Zylinder](images/Cucil.png )
+
+
 
 ## Platzierung
 
@@ -184,7 +195,7 @@ Normalerweise ist es notwendig, dass sich die Geometrien gegenseitig respektiere
 FreeCAD bietet eine große Auswahl an Möglichkeiten, diese Eigenschaft zu setzen, eine ist mehr auf eine andere zugeschnitten, abhängig vom Wissen und dem Hintergrund des Benutzers, aber je klarer das Schreiben im zitierten Tutoriumerklärt wird, verwendet es eine eigentümliche Definition des `Rotation` Anteils von `Placement`, recht einfach zu erlernen.
 
 
-```python 
+```python
 FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(10, 20, 30), Vector(0, 0, 0))
 ```
 
@@ -193,7 +204,7 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
   Objekt                                Referenzpunkt
    
   Part.Box                              links (minx), vorne (miny), unten (minz) Knoten
-  Part.Sphere                           Mittelpunkt der Kugel (d.h. Zentrum des Begrenzungskastens)
+  Part.Sphere                           Mittelpunkt der Kugel
   Part.Cylinder                         Mitte der Unterseite
   Part.Cone                             Mittelpunkt der Unterseite (oder Scheitelpunkt, wenn der Unterseitenradius 0 ist)
   Part.Torus                            Mittelpunkt des Torus
@@ -201,49 +212,71 @@ Aber gegenüber anderen Überlegungen ist eine Sache ausschlaggebend, nämlich d
 
 Diese Informationen müssen wir vor allem dann im Auge behalten, wenn wir eine Rotation anwenden müssen.
 
-Einige Beispiele mögen helfen, lösche die gesamte Zeile nach der `base_cyl` Methode und füge den Teil des Codes darunter ein:
+Einige Beispiele könnten helfen. Dazu die gesamte Zeile nach der Methode `my_cyl` löschen und den Teil des Codes darunter einfügen:
 
 
 ```python
-def sfera(nome, rad):
-    obj = DOC.addObject("Part::Sphere", nome)
-    obj.Radius = radDOC.recompute()
+def my_sphere(name, rad):
+    """Create a Sphere."""
+    obj = DOC.addObject("Part::Sphere", name)
+    obj.Radius = rad
 
-    return obj   
+    DOC.recompute()
 
-def mfuse_obj(nome, objs):
-    obj = DOC.addObject("Part::MultiFuse", nome)
+    return obj
+
+def my_box2(name, len, wid, hei, cent=False, off_z=0):
+    """Create a box with an optional z offset."""
+    obj_b = DOC.addObject("Part::Box", name)
+    obj_b.Length = len
+    obj_b.Width = wid
+    obj_b.Height = hei
+
+    if cent is True:
+        pos = Vector(len * -0.5, wid * -0.5, off_z)
+    else:
+        pos = Vector(0, 0, off_z)
+
+    obj_b.Placement = Placement(pos, ROT0, VEC0)
+
+    DOC.recompute()
+
+    return obj_b
+
+def mfuse_obj(name, objs):
+    """Fuse multiple objects."""
+    obj = DOC.addObject("Part::MultiFuse", name)
     obj.Shapes = objs
     obj.Refine = True
     DOC.recompute()
 
     return obj
 
-def aeroplano():
+def airplane():
+    """Create an airplane shaped solid."""
+    fuselage_length = 30
+    fuselage_diameter = 5
+    wing_span = fuselage_length * 1.75
+    wing_width = 7.5
+    wing_thickness = 1.5
+    tail_height = fuselage_diameter * 3.0
+    tail_position = fuselage_length * 0.70
+    tail_offset = tail_position - (wing_width * 0.5)
 
-    lung_fus = 30
-    diam_fus = 5
-    ap_alare = lung_fus * 1.75
-    larg_ali = 7.5
-    spess_ali = 1.5   
-    alt_imp = diam_fus * 3.0  
-    pos_ali = (lung_fus*0.70)
-    off_ali = (pos_ali - (larg_ali * 0.5))
+    obj1 = my_cyl("main_body", 360, fuselage_diameter, fuselage_length)
 
-    obj1 = base_cyl('primo cilindro', 360, diam_fus, lung_fus)
+    obj2 = my_box2("wings", wing_span, wing_thickness, wing_width, True, tail_offset)
 
-    obj2 = cubo('ali', ap_alare, spess_ali, larg_ali, True, off_ali)
+    obj3 = my_sphere("nose", fuselage_diameter)
+    obj3.Placement = Placement(Vector(0, 0, fuselage_length), ROT0, VEC0)
 
-    obj3 = sfera("naso", diam_fus)
-    obj3.Placement = FreeCAD.Placement(Vector(0, 0, lung_fus), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
-
-    obj4 = cubo('impennaggio', spess_ali, alt_imp, larg_ali, False, 0)
-    obj4.Placement = FreeCAD.Placement(Vector(0, alt_imp * -1, 0), FreeCAD.Rotation(0, 0, 0), Vector(0, 0, 0))
+    obj4 = my_box2("tail", wing_thickness, tail_height, wing_width, False, 0)
+    obj4.Placement = Placement(Vector(0, tail_height * -1, 0), ROT0, VEC0)
 
     objs = (obj1, obj2, obj3, obj4)
 
-    obj = mfuse_obj("Forma esempio", objs)
-    obj.Placement = FreeCAD.Placement(Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali))
+    obj = mfuse_obj("airplane", objs)
+    obj.Placement = Placement(VEC0, Rotation(0, 0, -90), Vector(0, 0, tail_position))
 
     DOC.recompute()
 
@@ -251,29 +284,30 @@ def aeroplano():
 
 # objects definition
 
-aeroplano()
+airplane()
 
 setview()
+
 ```
 
 Lasse uns etwas im Code erklären:
 
 -   Wir haben eine Methode verwendet, um eine Kugel zu definieren, wobei wir die einfachste Definition verwendet haben und nur den Radius verwendet haben.
 -   Wir haben eine zweite Schreibweise für die **Vereingung** oder **Verschmelzung** eingeführt, die mehrere Objekte verwendet, nicht weiter entfernt von dem üblichen **Part::Fuse** es verwendet **Part:Multifuse**. Wir verwenden nur eine Eigenschaft `Formen`. Wir haben ein **Tupel** als Argumente übergeben, aber es akzeptiert auch eine **Liste**.
--   Wir haben ein komplexes Objekt **aeroplano**\' definiert. (italienisches Wort für Flugzeug), aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
--   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0, 0, pos_ali)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
+-   Wir haben ein komplexes Objekt **airplane**\' definiert, aber wir haben es auf eine **\"parametrische\"** Art und Weise getan, indem wir einige Parameter definiert und andere Parameter durch einige Berechnungen auf der Grundlage der Hauptparameter abgeleitet haben.
+-   Wir haben einige Platzierungs `Platzierung` Eigenschaften in der Methode verwendet, und bevor wir die endgültigen Geometrien zurückgeben, haben wir eine `Rotation` Eigenschaft mit der *Gieren-Stampfen-Rollen* Schreibweise verwendet. Beachte die letzten `Vector(0, 0, tail_position)`, die ein **Rotationszentrum** der gesamten Geometrie definieren.
 
-    
-  ![aeroplane example](images/Aereo.png )   ![aereo rotated](images/Aereo2.png )   ![Prop Placement](images/Aereo-prop.png )
-    
+++++
+| ![Airplane example](images/Aereo.png ) | ![Airplane rotated](images/Aereo2.png ) | ![Placement property](images/Aereo-prop.png ) |
+++++
 
-Man kann leicht feststellen, dass **aeroplano** Geometrie um sein \"Baryzentrum\" oder seinen \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
+Man kann leicht feststellen, dass die **airplane**-Geometrie um ihr \"Baryzentrum\" oder ihren \"Schwerpunkt\" rotiert, den ich in der Flügelmitte festgelegt habe, ein Ort, der relativ \"natürlich\" ist, aber wo immer man will, platziert werden könnte.
 
-Der erste `Vector(0, 0, 0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `aeroplano()` durch diese Zeilen ersetzt:
+Der erste `Vector(0, 0, 0)` ist der Übersetzungsvektor, der hier nicht verwendet wird, aber wenn du `airplane()` durch diese Zeilen ersetzt:
 
 
 ```python
-obj_f = aeroplano()
+obj_f = airplane()
 
 print(obj_F.Placement)
 ```
@@ -287,18 +321,156 @@ Placement [Pos=(0, -21, 21), Yaw-Pitch-Roll=(0, 0, -90)]
 
 Was ist geschehen?
 
-FreeCAD hat die `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, pos_ali)` mit anderen Worten unsere `Placement` Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum**in den \"internen\" Werten von nur zwei Komponenten,**Translation**und**Rotation*\', spezifiziert.
+FreeCAD hat `Vector(0, 0, 0), FreeCAD.Rotation(0, 0, -90), Vector(0, 0, tail_position)` mit anderen Worten unsere `Placement`-Definition übersetzt, die drei Komponenten, **Translation**, **Rotation** und *Rotationszentrum**in die \"internen\" Werte von nur zwei Komponenten,**Translation**und**Rotation*\', festlegt.
 
-du kannst leicht den Wert von `pos_ali` mit einer print Anweisung in der `aeroplano(...` Methode visualisieren und sehen das es ist:
+Du kannst leicht den Wert von `tail_position` mit einer print Anweisung in der Methode `airplane()` visualisieren und dies sehen:
 
 
 ```python
-pos ali =  21.0
+tail_position = 21.0
 ```
 
 mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0, 0, 21)`, aber dieses Rotationszentrum wird in der GUI nicht angezeigt, es könnte als `Placement` Wert eingegeben werden, es könnte nicht leicht abgerufen werden.
 
 Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `Placement` Eigenschaft verwendet habe.
+
+This is the complete code example with a decent script docstring following [Google docstrings convention](https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html#example-google):
+
+
+```python
+"""Sample code.
+
+Filename:
+   airplane.py
+
+Author:
+    Dormeletti Carlo (onekk)
+
+Version:
+    1.0
+
+License:
+    Creative Commons Attribution 3.0
+
+Summary:
+    This code is a sample code written for FreeCAD Wiki page.
+    It create and airplane shaped solid made using standard "Part WB" built in shapes.
+
+"""
+
+import FreeCAD
+from FreeCAD import Placement, Rotation, Vector
+
+DOC = FreeCAD.activeDocument()
+DOC_NAME = "Wiki_Example"
+
+# Helpers methods
+
+def clear_doc():
+    """Clear activeDocument deleting all the objects."""
+    for obj in DOC.Objects:
+        DOC.removeObject(obj.Name)
+
+def setview():
+    """Rearrange View."""
+    FreeCAD.Gui.SendMsgToActiveView("ViewFit")
+    FreeCAD.Gui.activeDocument().activeView().viewAxometric()
+
+if DOC is None:
+    FreeCAD.newDocument(DOC_NAME)
+    FreeCAD.setActiveDocument(DOC_NAME)
+    DOC = FreeCAD.activeDocument()
+else:
+    clear_doc()
+
+ROT0 = Rotation(0, 0, 0)
+VEC0 = Vector(0, 0, 0)
+
+# Script methods
+
+def my_cyl(name, ang, rad, hei):
+    """Create a Cylinder."""
+    obj = DOC.addObject("Part::Cylinder", name)
+    obj.Angle = ang
+    obj.Radius = rad
+    obj.Height = hei
+
+    DOC.recompute()
+
+    return obj
+
+def my_sphere(name, rad):
+    """Create a Sphere."""
+    obj = DOC.addObject("Part::Sphere", name)
+    obj.Radius = rad
+
+    DOC.recompute()
+
+    return obj
+
+def my_box2(name, len, wid, hei, cent=False, off_z=0):
+    """Create a box with an optional z offset."""
+    obj_b = DOC.addObject("Part::Box", name)
+    obj_b.Length = len
+    obj_b.Width = wid
+    obj_b.Height = hei
+
+    if cent is True:
+        pos = Vector(len * -0.5, wid * -0.5, off_z)
+    else:
+        pos = Vector(0, 0, off_z)
+
+    obj_b.Placement = Placement(pos, ROT0, VEC0)
+
+    DOC.recompute()
+
+    return obj_b
+
+def mfuse_obj(name, objs):
+    """Fuse multiple objects."""
+    obj = DOC.addObject("Part::MultiFuse", name)
+    obj.Shapes = objs
+    obj.Refine = True
+    DOC.recompute()
+
+    return obj
+
+def airplane():
+    """Create an airplane shaped solid."""
+    fuselage_length = 30
+    fuselage_diameter = 5
+    wing_span = fuselage_length * 1.75
+    wing_width = 7.5
+    wing_thickness = 1.5
+    tail_height = fuselage_diameter * 3.0
+    tail_position = fuselage_length * 0.70
+    tail_offset = tail_position - (wing_width * 0.5)
+
+    obj1 = my_cyl("main_body", 360, fuselage_diameter, fuselage_length)
+
+    obj2 = my_box2("wings", wing_span, wing_thickness, wing_width, True, tail_offset)
+
+    obj3 = my_sphere("nose", fuselage_diameter)
+    obj3.Placement = Placement(Vector(0, 0, fuselage_length), ROT0, VEC0)
+
+    obj4 = my_box2("tail", wing_thickness, tail_height, wing_width, False, 0)
+    obj4.Placement = Placement(Vector(0, tail_height * -1, 0), ROT0, VEC0)
+
+    objs = (obj1, obj2, obj3, obj4)
+
+    obj = mfuse_obj("airplane", objs)
+    obj.Placement = Placement(VEC0, Rotation(0, 0, -90), Vector(0, 0, tail_position))
+
+    DOC.recompute()
+
+    return obj
+
+# objects definition
+
+airplane()
+
+setview()
+```
 
 
 

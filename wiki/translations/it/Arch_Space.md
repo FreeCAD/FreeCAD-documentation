@@ -11,19 +11,27 @@
 
 # Arch Space/it
 
+
+
 ## Descrizione
 
-Lo strumento Spazio consente di definire un volume vuoto, basato su una forma solida, oppure definendo i suoi confini, o con un mix di entrambi. Se è basato esclusivamente sui confini, il volume viene calcolato a partire dai confini dati, e sottraendo lo spazio interno ai confini. L\'oggetto spazio definisce sempre un volume solido. Può anche essere visualizzata la superficie di un oggetto spazio, calcolata intersecando un piano orizzontale nel centro di massa del volume dello spazio.
+Lo strumento Spazio consente di definire un volume vuoto, basato su una forma solida, oppure definendo i suoi confini, o con un mix di entrambi. Se è basato esclusivamente sui confini, il volume viene calcolato a partire dai confini dati, e sottraendo lo spazio interno ai confini. L\'oggetto Spazio definisce sempre un volume solido. Può anche essere visualizzata la superficie di un oggetto spazio, calcolata intersecando un piano orizzontale nel centro di massa del volume dello spazio.
 
-<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
+
+
+
 *Oggetto spazio creato da un oggetto solido esistente, poi sono aggiunte due facce della parete come confini.*
 
 
 
 ## Utilizzo
 
--   Selezionare un oggetto solido esistente o le facce che lo delimitano.
--   Premere il pulsante **<img src="images/Arch_Space.svg" width=16px> [Spazio](Arch_Space/it.md)**, oppure i tasti **S**, **P**.
+1.  Selezionare un oggetto solido esistente o le facce che lo delimitano.
+2.  Invocare il comando Spazio utilizzando uno dei seguenti metodi:
+    -   Premendo il pulsante **<img src="images/Arch_Space.svg" width=16px> [Spazio](Arch_Space/it.md)** nella barra degli strumenti.
+    -   Usando i tasti della tastiera **S** e poi **P**
+    -   Usando la voce **Arch → Spazio** dal menu in alto
 
 
 
@@ -91,26 +99,32 @@ Lo strumento Spazio consente di definire un volume vuoto, basato su una forma so
 ## Opzioni
 
 -   Per creare zone che raggruppano più spazi, utilizzare [Parte di edificio](Arch_BuildingPart/it.md) e impostare il tipo di IFC su \"Spatial Zone\"
--   L\'oggetto spazio ha le stesse modalità di visualizzazione degli altri oggetti Arch e Part, con una modalità in più chiamata **Footprint**, che visualizza solo la faccia inferiore dello spazio.
+-   L\'oggetto Spazio ha le stesse modalità di visualizzazione degli altri oggetti Arch e Part, con una modalità in più chiamata **Footprint**, che visualizza solo la faccia inferiore dello spazio.
+
+
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-Lo strumento Spazio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
+Lo strumento Spazio può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
 ```python
 Space = makeSpace(objects=None, baseobj=None, name="Space")
 ```
 
 -   Crea un oggetto `Space` con gli `objects` dati, o con un `baseobj`, che può essere.
-    -   un oggetto del documento, nel qual caso diventa la forma base dell\'oggetto spazio, o
+    -   un oggetto del documento, nel qual caso diventa la forma base dell\'oggetto Spazio, o
     -   un elenco di oggetti selezionati restituiti da `FreeCADGui.Selection.getSelectionEx()`, o
     -   una lista di tuple `(object, subobjectname)`
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -124,7 +138,9 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Dopo aver creato un oggetto spazio, ad esso si possono aggiungere delle facce selezionate con il seguente codice: 
+Dopo aver creato un oggetto spazio, ad esso si possono aggiungere delle facce selezionate con il seguente codice:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -138,7 +154,9 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-I confini possono anche essere rimossi, selezionando nuovamente le facce indicate: 
+I confini possono anche essere rimossi, selezionando nuovamente le facce indicate:
+
+
 ```python
 selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)
@@ -146,7 +164,7 @@ Arch.removeSpaceBoundaries(Space, selection)
 
 
 {{docnav/it
-|[Piano di sezione](Arch_SectionPlane.md)
+|[Piano di sezione](Arch_SectionPlane/it.md)
 |[Scale](Arch_Stairs/it.md)
 |[Arch](Arch_Workbench/it.md)
 |IconL=Arch_SectionPlane.svg

@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depuis le mode plein écran. Les vues 3D sont automatiquement [détachée](Std_ViewDockUndockFullscreen/fr.md) dans le mode plein écran.
+La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depuis le mode plein écran. Les vues 3D sont automatiquement [désancrées](Std_ViewDockUndockFullscreen/fr.md) dans le mode plein écran.
 
 
 
@@ -29,7 +29,7 @@ La commande **Std Plein écran** bascule la [vue 3D](3D_view/fr.md) vers et depu
 ## Remarques
 
 -   Plusieurs vues 3D pour le même document peuvent être créées avec la commande [ Std Créer une nouvelle vue](Std_ViewCreate/fr.md).
--   Les vues 3D peuvent également être ancrées et désamarrées avec la commande [Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md).
+-   Les vues 3D peuvent également être ancrées et désancrées avec la commande [Std Désancrer une fenêtre de document](Std_ViewDockUndockFullscreen/fr.md).
 
 
 

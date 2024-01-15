@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part_Fillet
    Name/fr: Part Congé
-   MenuLocation: Part , Congé...
+   MenuLocation: Part , Créer un congé...
    Workbenches: Part_Workbench/fr
    SeeAlso: Part_Chamfer/fr
 ---
@@ -11,13 +11,13 @@
 
 ## Description
 
-Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'une forme. Une boîte de dialogue permet de choisir la forme et les bords sur lesquels travailler.
+Cet outil crée des congés (arrondis) sur les arêtes sélectionnées d\'une forme. Une boîte de dialogue permet de choisir la forme et les arêtes sur lesquelles travailler.
 
 
 
 ## Utilisation
 
--   Lancez l\'outil à partir de la barre d\'outils Part ou du menu **Part → Congé...**. Vous pouvez sélectionner la forme avant de lancer l\'outil.
+-   Lancez l\'outil à partir de la barre d\'outils Part ou du menu **Part → Créer un congé...**. Vous pouvez sélectionner la forme avant de lancer l\'outil.
 -   Si la forme n\'a pas été sélectionnée avant de lancer l\'outil, sélectionnez-la dans la liste déroulante du [panneau des tâches](Task_panel/fr.md).
 -   Sélectionnez le type de congé, soit un rayon constant (par défaut) soit un rayon variable.
 -   Sélectionnez les arêtes soit dans la [vue 3D](3D_view/fr.md) ou en les cochant dans la liste des arêtes dans le [panneau des tâches](Task_panel/fr.md).

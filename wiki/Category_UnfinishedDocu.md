@@ -36,40 +36,38 @@ This category contains all Unfinished Documents
 | [Curves SketchOnSurface](Curves_SketchOnSurface.md) | [Curves SplitCurve](Curves_SplitCurve.md) | [Curves Workbench](Curves_Workbench.md) |
 | [Curves ZebraTool](Curves_ZebraTool.md) | [Developing FreeCAD with KDevelop](Developing_FreeCAD_with_KDevelop.md) | [Engine Block Tutorial](Engine_Block_Tutorial.md) |
 | [Exposing Cplusplus to Python](Exposing_Cplusplus_to_Python.md) | [FCGear CycloidRack](FCGear_CycloidRack.md) | [FCGear GearConnector](FCGear_GearConnector.md) |
-| [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md) | [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md) | [FEM ConstantVacuumPermittivity](FEM_ConstantVacuumPermittivity.md) |
-| [FEM ConstraintBearing](FEM_ConstraintBearing.md) | [FEM ConstraintFluidBoundary](FEM_ConstraintFluidBoundary.md) | [FEM ConstraintGear](FEM_ConstraintGear.md) |
-| [FEM ConstraintPulley](FEM_ConstraintPulley.md) | [FEM CreateNodesSet](FEM_CreateNodesSet.md) | [FEM ElementGeometry1D](FEM_ElementGeometry1D.md) |
-| [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) | [FEM ElementRotation1D](FEM_ElementRotation1D.md) | [FEM MaterialMechanicalNonlinear](FEM_MaterialMechanicalNonlinear.md) |
-| [FEM MaterialReinforced](FEM_MaterialReinforced.md) | [FEM MeshClear](FEM_MeshClear.md) | [FEM MeshNetgenFromShape](FEM_MeshNetgenFromShape.md) |
-| [FEM SolverCalculiX](FEM_SolverCalculiX.md) | [FEM SolverControl](FEM_SolverControl.md) | [FEM SolverMystran](FEM_SolverMystran.md) |
-| [FEM SolverRun](FEM_SolverRun.md) | [FreeCAD Docker CLI mode](FreeCAD_Docker_CLI_mode.md) | [FreeCAD Embedded in 3rd Party Applications](FreeCAD_Embedded_in_3rd_Party_Applications.md) |
-| [FreeCAD Humanitarian Projects](FreeCAD_Humanitarian_Projects.md) | [FreeCAD Philanthropy Open Source Hardware](FreeCAD_Philanthropy_Open_Source_Hardware.md) | [Gear](Gear.md) |
-| [InputField](InputField.md) | [Lattice2 AttachablePlacement](Lattice2_AttachablePlacement.md) | [Lattice2 Workbench](Lattice2_Workbench.md) |
-| [MacOS packaging](MacOS_packaging.md) | [Manual:BIM modeling](Manual_BIM_modeling.md) | [Material](Material.md) |
-| [Migrating to FreeCAD from SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md) | [ModernUI Workbench](ModernUI_Workbench.md) | [Node editors](Node_editors.md) |
-| [OpenSCAD ColorCodeShape](OpenSCAD_ColorCodeShape.md) | [Part BoxSelection](Part_BoxSelection.md) | [Part ElementCopy](Part_ElementCopy.md) |
-| [Part Loft](Part_Loft.md) | [Part Mirror](Part_Mirror.md) | [Part Offset](Part_Offset.md) |
+| [FCGear HypoCycloidGear](FCGear_HypoCycloidGear.md) | [FCGear InternalInvoluteGear](FCGear_InternalInvoluteGear.md) | [FEM CreateNodesSet](FEM_CreateNodesSet.md) |
+| [FEM ElementGeometry1D](FEM_ElementGeometry1D.md) | [FEM ElementRotation1D](FEM_ElementRotation1D.md) | [FEM MeshClear](FEM_MeshClear.md) |
+| [FEM SolverControl](FEM_SolverControl.md) | [FEM SolverMystran](FEM_SolverMystran.md) | [FEM SolverRun](FEM_SolverRun.md) |
+| [FreeCAD Docker CLI mode](FreeCAD_Docker_CLI_mode.md) | [FreeCAD Embedded in 3rd Party Applications](FreeCAD_Embedded_in_3rd_Party_Applications.md) | [FreeCAD Humanitarian Projects](FreeCAD_Humanitarian_Projects.md) |
+| [FreeCAD Philanthropy Open Source Hardware](FreeCAD_Philanthropy_Open_Source_Hardware.md) | [Gear](Gear.md) | [InputField](InputField.md) |
+| [Lattice2 AttachablePlacement](Lattice2_AttachablePlacement.md) | [Lattice2 Workbench](Lattice2_Workbench.md) | [MacOS packaging](MacOS_packaging.md) |
+| [Manual:BIM modeling](Manual_BIM_modeling.md) | [Material](Material.md) | [Migrating to FreeCAD from SolidWorks](Migrating_to_FreeCAD_from_SolidWorks.md) |
+| [ModernUI Workbench](ModernUI_Workbench.md) | [Node editors](Node_editors.md) | [OpenSCAD ColorCodeShape](OpenSCAD_ColorCodeShape.md) |
+| [Part BoxSelection](Part_BoxSelection.md) | [Part ElementCopy](Part_ElementCopy.md) | [Part Offset](Part_Offset.md) |
 | [Part RuledSurface](Part_RuledSurface.md) | [Part TransformedCopy](Part_TransformedCopy.md) | [PartDesign Examples](PartDesign_Examples.md) |
 | [Path Area](Path_Area.md) | [Path Area Workplane](Path_Area_Workplane.md) | [Path DressupAxisMap](Path_DressupAxisMap.md) |
 | [Path DressupLeadInOut](Path_DressupLeadInOut.md) | [Path DressupZCorrect](Path_DressupZCorrect.md) | [Path Engrave](Path_Engrave.md) |
-| [Path Fixture](Path_Fixture.md) | [Path Helix](Path_Helix.md) | [Path MillFace](Path_MillFace.md) |
-| [Path OpActiveToggle](Path_OpActiveToggle.md) | [Path Pocket 3D](Path_Pocket_3D.md) | [Path Postprocessor Customization](Path_Postprocessor_Customization.md) |
-| [Path Probe](Path_Probe.md) | [Path Sanity](Path_Sanity.md) | [Path Shape](Path_Shape.md) |
-| [Path Simulator](Path_Simulator.md) | [Path Surface](Path_Surface.md) | [Path ThreadMilling](Path_ThreadMilling.md) |
-| [Path ToolBit](Path_ToolBit.md) | [Path ToolBit Library](Path_ToolBit_Library.md) | [Path ToolBitDock](Path_ToolBitDock.md) |
-| [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md) | [Path ToolController](Path_ToolController.md) | [Path Tools](Path_Tools.md) |
-| [Path Waterline](Path_Waterline.md) | [Pyrate Workbench](Pyrate_Workbench.md) | [Robot SetDefaultOrientation](Robot_SetDefaultOrientation.md) |
-| [SheetMetal AddBase](SheetMetal_AddBase.md) | [SheetMetal AddBend](SheetMetal_AddBend.md) | [SheetMetal AddCornerRelief](SheetMetal_AddCornerRelief.md) |
-| [SheetMetal AddFoldWall](SheetMetal_AddFoldWall.md) | [SheetMetal AddJunction](SheetMetal_AddJunction.md) | [SheetMetal AddRelief](SheetMetal_AddRelief.md) |
-| [SheetMetal AddWall](SheetMetal_AddWall.md) | [SheetMetal Examples](SheetMetal_Examples.md) | [SheetMetal Extrude](SheetMetal_Extrude.md) |
+| [Path Fixture](Path_Fixture.md) | [Path fourth axis](Path_fourth_axis.md) | [Path Helix](Path_Helix.md) |
+| [Path MillFace](Path_MillFace.md) | [Path OpActiveToggle](Path_OpActiveToggle.md) | [Path Pocket 3D](Path_Pocket_3D.md) |
+| [Path Postprocessor Customization](Path_Postprocessor_Customization.md) | [Path Probe](Path_Probe.md) | [Path Sanity](Path_Sanity.md) |
+| [Path Shape](Path_Shape.md) | [Path Simulator](Path_Simulator.md) | [Path Surface](Path_Surface.md) |
+| [Path ThreadMilling](Path_ThreadMilling.md) | [Path ToolBit](Path_ToolBit.md) | [Path ToolBit Library](Path_ToolBit_Library.md) |
+| [Path ToolBitDock](Path_ToolBitDock.md) | [Path ToolBitLibraryOpen](Path_ToolBitLibraryOpen.md) | [Path ToolController](Path_ToolController.md) |
+| [Path Tools](Path_Tools.md) | [Path Waterline](Path_Waterline.md) | [Profile Based Shapes](Profile_Based_Shapes.md) |
+| [Pyrate Workbench](Pyrate_Workbench.md) | [Robot SetDefaultOrientation](Robot_SetDefaultOrientation.md) | [SheetMetal AddBase](SheetMetal_AddBase.md) |
+| [SheetMetal AddBend](SheetMetal_AddBend.md) | [SheetMetal AddCornerRelief](SheetMetal_AddCornerRelief.md) | [SheetMetal AddFoldWall](SheetMetal_AddFoldWall.md) |
+| [SheetMetal AddJunction](SheetMetal_AddJunction.md) | [SheetMetal AddRelief](SheetMetal_AddRelief.md) | [SheetMetal AddWall](SheetMetal_AddWall.md) |
+| [SheetMetal BaseShape](SheetMetal_BaseShape.md) | [SheetMetal Examples](SheetMetal_Examples.md) | [SheetMetal Extrude](SheetMetal_Extrude.md) |
 | [SheetMetal Forming](SheetMetal_Forming.md) | [SheetMetal SketchOnSheet](SheetMetal_SketchOnSheet.md) | [SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md) |
 | [SheetMetal Unfold](SheetMetal_Unfold.md) | [SheetMetal Workbench](SheetMetal_Workbench.md) | [Ship Capacity](Ship_Capacity.md) |
 | [Ship GZ](Ship_GZ.md) | [Ship LoadCondition](Ship_LoadCondition.md) | [Silk Workbench](Silk_Workbench.md) |
-| [Sketcher ConstrainHorizontal](Sketcher_ConstrainHorizontal.md) | [Sketcher Examples](Sketcher_Examples.md) | [Sketcher SelectElementsWithDoFs](Sketcher_SelectElementsWithDoFs.md) |
-| [Std MacroAttachDebugger](Std_MacroAttachDebugger.md) | [TechDraw General Examples](TechDraw_General_Examples.md) | [TechDraw Section Examples](TechDraw_Section_Examples.md) |
-| [Transient FEM analysis](Transient_FEM_analysis.md) | [Template:UnfinishedDocu](Template_UnfinishedDocu.md) | [Valgrind](Valgrind.md) |
-| [WikiPages](WikiPages.md) | [Windows packaging](Windows_packaging.md) | [Category:Work in progress](Category_Work_in_progress.md) |
-|
+| [Sketcher ConstrainHorizontal](Sketcher_ConstrainHorizontal.md) | [Sketcher ConstrainHorVer](Sketcher_ConstrainHorVer.md) | [Sketcher CreateArcSlot](Sketcher_CreateArcSlot.md) |
+| [Sketcher Dimension](Sketcher_Dimension.md) | [Sketcher Examples](Sketcher_Examples.md) | [Sketcher Rotate](Sketcher_Rotate.md) |
+| [Sketcher SelectElementsWithDoFs](Sketcher_SelectElementsWithDoFs.md) | [Std MacroAttachDebugger](Std_MacroAttachDebugger.md) | [TechDraw General Examples](TechDraw_General_Examples.md) |
+| [TechDraw Section Examples](TechDraw_Section_Examples.md) | [Transient FEM analysis](Transient_FEM_analysis.md) | [Template:UnfinishedDocu](Template_UnfinishedDocu.md) |
+| [Valgrind](Valgrind.md) | [WikiPages](WikiPages.md) | [Windows packaging](Windows_packaging.md) |
+| [Category:Work in progress](Category_Work_in_progress.md) |
 
 
 

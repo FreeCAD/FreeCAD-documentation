@@ -1,10 +1,10 @@
 # Installing on Linux/it
 ## Descrizione
 
-L\'installazione di FreeCAD sui più noti sistemi Linux è stata ora approvata dalla comunità e FreeCAD dovrebbe essere direttamente disponibile tramite il gestore di pacchetti disponibile della propria distribuzione. Il team di FreeCAD fornisce anche alcuni:
+L\'installazione di FreeCAD sui più noti sistemi Linux è approvata dalla comunità e FreeCAD è direttamente disponibile tramite il gestore di pacchetti su quei sistemi. Il team di FreeCAD fornisce anche alcuni:
 
--   Pacchetti \"ufficiali\" quando nuove versioni vengono rese disponibili via [Snap packages](Ubuntu_Snap/it.md), [AppImages](AppImage/it.md), [Flatpaks](Flatpak.md) e [PPA](#Versione_PPA_stabile.md)
--   Repository \"sperimentali\" o \'bleeding edge\' disponibili via [PPA](#PPA_per_le_versioni_di_sviluppo_(Daily).md) daily repository, [AppImages](AppImage.md), [Ubuntu Snaps](Ubuntu_Snap.md).
+-   Pacchetti \"ufficiali\" quando nuove versioni vengono rese disponibili via [Snap packages](Ubuntu_Snap/it.md), [AppImages](AppImage/it.md), [Flatpaks](Flatpak/it.md) e [PPA](#Versione_PPA_stabile.md)
+-   Repository \"sperimentali\" o \'bleeding edge\' disponibili via [PPA](#PPA_per_le_versioni_di_sviluppo_(Daily).md) daily repository, [AppImages](AppImage/it.md), [Ubuntu Snaps](Ubuntu_Snap/it.md).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -323,7 +323,7 @@ sudo dnf upgrade
 
 o equivalente, si aggiornerà all\'ultima build di FreeCAD, insieme agli aggiornamenti da qualsiasi altro repository attivo. Se vuoi qualcosa di un po\' più stabile, puoi disabilitare \@freecad/nightly nuovamente dopo l\'installazione iniziale. Il copr il repository conserva solo le build delle ultime 2 settimane. Questa non è una soluzione se vuoi scegliere una versione precedente specifica.
 
-Le istruzioni sono disponibili anche su [compila FreeCAD da solo](Compile_on_Linux.md), incluso uno script specifico per Fedora. Con una piccola modifica, per verificare il commit specifico da git, qualsiasi versione da circa FreeCAD 0.15 può essere costruita su qualsiasi distribuzione da Fedora 21.
+Le istruzioni sono disponibili anche su [Compilazione in Linux](Compile_on_Linux/it.md), incluso uno script specifico per Fedora. Con una piccola modifica, per verificare il commit specifico da git, qualsiasi versione da circa FreeCAD 0.15 può essere costruita su qualsiasi distribuzione da Fedora 21.
 
 
 </div>

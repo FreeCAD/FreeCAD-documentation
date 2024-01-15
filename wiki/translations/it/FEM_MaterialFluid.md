@@ -20,6 +20,8 @@ Aggiunge le proprietà del fluido ad una parte.
 ![](images/FEMMaterialFluidProperties.png ) 
 *The FEM material task panel*
 
+
+
 ## Utilizzo
 
 

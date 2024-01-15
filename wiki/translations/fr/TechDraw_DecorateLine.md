@@ -2,64 +2,51 @@
  GuiCommand:
    Name: TechDraw DecorateLine
    Name/fr: TechDraw Apparence des lignes
-   MenuLocation: TechDraw , Changer l'apparence des lignes
+   MenuLocation: TechDraw , Ajouter des lignes , Changer l'apparence des lignes
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: TechDraw_FaceCenterLine/fr, TechDraw_CosmeticEraser/fr
+   SeeAlso: TechDraw_ShowAll/fr, TechDraw_CosmeticEraser/fr
 ---
 
 # TechDraw DecorateLine/fr
 
-
-</div>
-
 ## Description
 
+L\'outil **TechDraw Apparence des lignes** modifie l\'apparence des arêtes, y compris les lignes cosmétiques et les lignes centrales. Il peut également rendre les arêtes invisibles.
 
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Apparence des lignes** modifie l\'apparence des lignes.
-
-
-</div>
-
-<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;"> 
 *Exemple de lignes avant modifications*
 
-
-</div>
-
-<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;"> 
 *Exemple de lignes après modifications*
-
-
-</div>
 
 
 
 ## Utilisation
 
+1.  Sélectionnez une vue ou une ou plusieurs lignes dans une vue.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Changer l'apparence des lignes](TechDraw_DecorateLine/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des lignes → <img src="images/TechDraw_DecorateLine.svg" width=16px> Changer l'apparence des lignes** du menu.
+3.  Un panneau de tâches s\'ouvre.
+4.  Si vous avez sélectionné des arêtes, vous pouvez changer leur **couleur**, **style**, **épaisseur** et/ou **visibilité** dans la section **Apparence des lignes**.
+5.  Pour rendre les bords invisibles de la vue à nouveau visibles de façon permanente : appuyez éventuellement sur un ou plusieurs des boutons de la section **Restaurer les lignes cachées** :
+    -   
+        **Tout**
+        
 
-<div class="mw-translate-fuzzy">
+    -   
+        **Géométrie**
+        
 
-1.  Sélectionnez une ou plusieurs lignes dans une vue.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_DecorateLine.svg" width=16px> [Changer l'apparence des lignes](TechDraw_DecorateLine/fr.md)**.
-3.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez modifier la couleur, le style, l\'épaisseur et la visibilité des lignes sélectionnées.
+    -   
+        **Cosmétique**
+        
 
-
-</div>
+    -   
+        **Ligne centrale**
+        
+6.  Appuyez sur le bouton **OK**.
 
 
 

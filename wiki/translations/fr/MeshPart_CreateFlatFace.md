@@ -18,7 +18,7 @@ La commande **Développer une face** crée une représentation à plat d\'une fa
 ## Utilisation
 
 1.  Sélectionnez une seule face d\'un objet forme dans la [vue 3D](3D_view/fr.md).
-2.  Sélectionnez l\'option **Maillages → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Développer une face** dans le menu.
+2.  Sélectionnez l\'option **Maillages → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Développer une face** du menu.
 
 
 

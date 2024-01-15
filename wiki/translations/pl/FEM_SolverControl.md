@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM SolverControl
-   Name/pl: MES: Kontrola Solwera
-   MenuLocation: Solve , Solver job control
+   Name/pl: MES: Kontrola pracy solvera
+   MenuLocation: Rozwiąż , Kontrola pracy solvera
    Workbenches: FEM_Workbench/pl
    Shortcut: **S** **T**
    SeeAlso: FEM_SolverRun/pl
@@ -10,9 +10,13 @@
 
 # FEM SolverControl/pl
 
+
+
 ## Opis
 
-Polecenie to służy do sterowania solverem FEM *(zapis pliku wejściowego, jego edycja, uruchomienie solvera)*.
+Polecenie to służy do sterowania solverem MES *(zapis pliku wejściowego, jego edycja, uruchomienie solvera)*.
+
+
 
 ## Użycie
 
@@ -29,11 +33,13 @@ Polecenie to służy do sterowania solverem FEM *(zapis pliku wejściowego, jego
 7.  Kliknij **Uruchom CalculiX**, aby uruchomić solver.
     -   Rozwiązanie może zająć sporo czasu dla dużych modeli.
 
+
+
 ## Uwagi
 
 -   Domyślny katalog roboczy można zmienić w **Edycja → Preferencje ... → MES**.
--   Elementy sterujące dla innych solverów mogą się różnić.
--   Uproszczona wersja polecenia to <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Uruchom obliczenia solvera](FEM_SolverRun/pl.md).
+-   Ustawienia dla innych solverów mogą się różnić.
+-   Uproszczona wersja polecenia to <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Uruchom solver](FEM_SolverRun/pl.md).
 
 
 

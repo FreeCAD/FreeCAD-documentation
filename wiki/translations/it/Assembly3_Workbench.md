@@ -374,7 +374,9 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 
 :   <img alt="" src=images/Assembly3_ToolbarNavigation.jpg  style="width:100px;">
+
 :   *Barra degli strumenti di navigazione*
+
 :   Queste funzioni sono utili quando si lavora con un assemblaggio con una gerarchia di file esterni collegati
     -   Selezionare l\'oggetto pezzo corrispondente nel gruppo di relazioni
     -   Selezionare l\'oggetto collegato
@@ -411,8 +413,11 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 
 
 :   <img alt="" src=images/Assembly3_ToolbarMeasurement.jpg  style="width:100px;">
+
 :   *Barra degli strumenti di misura*
+
 :   La **Barra degli strumenti di misura** aggiunge funzioni per misurare le distanze tra due punti, un punto e una retta o un punto e una faccia. Lo strumento *Misura angolo* traccia l\'angolo tra due facce o rette. Non esiste una funzione per misurare un raggio o un diametro.
+
 :   Gli strumenti di misura sopravvivono ai cambiamenti del pezzo, ad esempio la distanza tra i bordi di un cubo quando il cubo viene ridimensionato. Come i vincoli, i calcoli sono fatti in tempo reale e aggiornati ad ogni cambiamento. Dietro le quinte, la funzione è molto simile alla funzione [vincoli](#Constraints.md). La distanza o l\'angolo viene calcolata tra [elementi](#Elements.md) come per i[vincoli](#Constraints.md). Il visualizzatore nell\'albero funziona allo stesso modo.
 
 
@@ -642,6 +647,7 @@ Ci sono molti modi per creare un assemblaggio con Assembly3. Ecco il più sempli
 
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+
 :   *Risultato finale del primo esempio. Nell\'immagine è selezionato il banco di lavoro Assembly3 Worksbench, quindi sono visibili le sue barre degli strumenti multiple. Si noti che la \"TabBar\" verticale a sinistra della vista ad albero è un AddOn Workbench che non è contenuto nel FreeCAD standard (ma può essere installato con l\'Addon-Manager)*\'.
 
 

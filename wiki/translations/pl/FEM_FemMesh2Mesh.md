@@ -1,54 +1,51 @@
 ---
  GuiCommand:
    Name: FEM FemMesh2Mesh
-   MenuLocation: Mesh , FEM mesh to mesh
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Siatka MES na obiekt środowiska Siatka
+   MenuLocation: Siatka , Siatka MES do siatki
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM FemMesh2Mesh/pl
 
-## Description
-
-This tool converts surfaces of 3D elements of a selected FEM mesh to mesh, or converts 2D FEM mesh to mesh. Internally it picks FEM mesh element faces which are unique (not shared by two elements) and uses them to create faces of a mesh. Optionally it allows to create a deformed mesh caused by the action of the defined forces. This is done by adding the displacement of the FEM results to the mesh nodes (scale of the displacement can be set by Python).
-
-## Usage
-
-1.  Select a FEM mesh object.
-2.  Optionally also select the FEM results.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [FEM mesh to mesh](FEM_FemMesh2Mesh.md)** button.
-    -   Select the **Mesh → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> FEM mesh to mesh** option from the menu.
-
-## Scripting
-
-**Note**: The parameter *scale* was <small>(v0.21)</small> . For older versions of FreeCAD omit it from your code.
-
-When you just require the displacement scale factor, check your mesh object name and the scale factor in the following code:
 
 
-```python
-import femmesh.femmesh2mesh
-mesh_obj = FEMMeshGmsh  # the name of your mesh object
-scale = 5  # displacement scale factor
-out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(FreeCAD.ActiveDocument.mesh_obj.FemMesh, FreeCAD.ActiveDocument.CCX_Results, scale)
-import Mesh
-Mesh.show(Mesh.Mesh(out_mesh))
-```
+## Opis
 
-The cantilever example:
+To narzędzie przekształca powierzchnie elementów 3D wybranej siatki MES na obiekt środowiska pracy Siatka lub przekształca siatkę MES 2D na na obiekt środowiska pracy Siatka. Wewnętrznie, wybiera ono ścianki elementów siatki MES, które są unikatowe *(nie są dzielone przez dwa elementy)* i używa ich do stworzenia ścianek siatki. Opcjonalnie, może być użyte do zapisania zdeformowanej siatki. Robi się to poprzez dodanie przemieszczenia z wyników analizy MES do węzłów siatki *(skala przemieszczenia może być ustawiona przy pomocy skryptu w Python)*.
+
+
+
+## Użycie
+
+1.  Zaznacz obiekt siatki MES.
+2.  Opcjonalnie, zaznacz też wyniki analizy MES.
+3.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Siatka MES do siatki](FEM_FemMesh2Mesh/pl.md)**.
+    -   Wybierz opcję **Siatka → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Siatka MES do siatki** z menu.
+
+
+
+## Skrypty
+
+**Uwaga**: Parametr *scale* {{Version/pl|0.21}}. W przypadku starszych wersji programu należy go pominąć.
+
+Przykład belki wspornikowej:
 
 
 ```python
 from os.path import join
-the_file = join(FreeCAD.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
-fc_file = FreeCAD.openDocument(the_file)
-fem_mesh = fc_file.getObject("Box_Mesh").FemMesh  # do not remove the _
-result = fc_file.getObject("CCX_Results")
-scale = 1  # displacement scale factor
-from femmesh import femmesh2mesh
-out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
+import FreeCAD as App
 import Mesh
+from femmesh import femmesh2mesh
+
+path = join(App.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
+doc = App.openDocument(path)
+fem_mesh = doc.Box_Mesh.FemMesh
+result = doc.CCX_Results
+scale = 1  # displacement scale factor
+out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 

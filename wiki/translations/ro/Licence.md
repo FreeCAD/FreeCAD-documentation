@@ -15,9 +15,16 @@ FreeCAD utilizează două licențe diferite, una pentru aplicația în sine și 
 
 See FreeCAD\'s [debian copyright file](http://sourceforge.net/p/free-cad/code/ci/master/tree/package/debian/copyright) pentru mai multe detalii despre licențele utilizate de diferitele componente open source găsite în FreeCAD
 
+
+
 ## Impactul licențelor 
 
 Mai jos este o explicație mai prietenoasă despre ceea ce înseamnă licența LGPL pentru dvs.:
+
+#### All users 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Toți utilizatorii 
 
@@ -25,13 +32,34 @@ Toți utilizatorii pot folosi, copia, modifica, redistribui, FreeCAD în mod gra
 
 Codul sursă al FreeCAD este public și poate fi inspectat. Prin urmare, este posibil să verificați că nu se fac lucruri fără știrea dvs., de exemplu prin trimiterea datelor dvs. private undeva.
 
+
+</div>
+
+#### Professional users 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Utilizatorii Profesionali 
 
 Utilizatorii profesionali pot folosi FreeCAD în mod liber, pentru orice fel de muncă privată, comercială sau instituțională. Orice versiune de FreeCAD poate fi instalată și instalată oriunde, de ori câte ori doriți. Puteți de asemenea să modificați și să adaptați FreeCAD pentru scopurile dvs. fără nici o restricție. Cu toate acestea, nu puteți face dezvoltatorii FreeCAD răspunzători pentru orice daune comerciale sau pierderi care pot rezulta din utilizarea FreeCAD.
 
+
+</div>
+
+#### Open-source software developers 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Deavoltatorii Open Source 
 
 Puteți utiliza FreeCAD ca bază pentru a vă dezvolta propria aplicație sau o puteți extinde prin crearea de module noi pentru aceasta. Dacă FreeCAD este încorporat în propria dvs. aplicație, aveți posibilitatea să alegeți dintre licența GPL sau LGPL sau orice altă licență compatibilă cu LGPL pentru a permite utilizarea muncii dvs. în software-ul proprietar sau nu. Dacă dezvoltați un modul care să fie folosit ca extensie și nu includeți codul FreeCAD în el, puteți alege orice licență dorită. Cu toate acestea, dacă doriți să o utilizați cât de mult puteți, este o idee bună să utilizați aceeași licență ca FreeCAD în sine, astfel încât să poată fi accesată mai ușor în alte module viitoare sau chiar în FreeCAD.
+
+
+</div>
+
+#### Closed-source software developers 
 
 
 <div class="mw-translate-fuzzy">
@@ -43,6 +71,8 @@ Puteți utiliza FreeCAD ca bază pentru propria aplicație și nu sunteți forț
 
 </div>
 
+#### Files
+
 
 <div class="mw-translate-fuzzy">
 
@@ -53,9 +83,21 @@ Modelele și alte fișiere create cu FreeCAD nu sunt supuse niciunei licențe me
 
 </div>
 
+## Logo
+
+The FreeCAD logo is a [trademark owned by the FPA (FreeCAD project association)](https://fpa.freecad.org/trademark.pdf). This means the [FPA](https://fpa.freecad.org) is the sole body authorized to say who has the right to use the FreeCAD logo or not. The logo files, which are part of the FreeCAD source code or available elsewhere, for example on this wiki, are still all under the same licenses as the rest of FreeCAD (LGPL for the source code and Creative Commons for this wiki). You are still free to use the FreeCAD logo anywhere, on the same terms as the rest of FreeCAD, which means, basically, that you must use it to reference FreeCAD, and not use it, for example, for your own product, or any other way that is not referencing FreeCAD.
+
+## Statement of the main developer 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Declarația dezvoltatorului principal 
 
 Știu că discuția despre *\"dreptul\"* licenței pentru open source a ocupat o parte semnificativă a lățimii de bandă a internetului și acesta este motivul pentru care, în opinia mea, FreeCAD ar trebui să aibă fie sub această licență LGPL.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -2,8 +2,9 @@
  GuiCommand:
    Name: Spreadsheet_SetAlias
    Name/it: Alias
+   MenuLocation: -
    Workbenches: Spreadsheet_Workbench/it
-   MenuLocation: Barra degli strumenti di Spreadsheet
+   Shortcut: **Ctrl**+**Shift**+**A**
    Version: 0.17
 ---
 

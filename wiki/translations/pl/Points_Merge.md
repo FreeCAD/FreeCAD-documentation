@@ -8,14 +8,22 @@
 
 # Points Merge/pl
 
+
+
 ## Opis
 
 Narzędzie **Scal chmury punktów** tworzy chmurę punktów przez połączenie punktów z dwóch lub więcej chmur punktów.
 
+
+
 ## Użycie
 
 1.  Wybierz dwie lub więcej chmur punktów.
-2.  Wybierz z menu opcję **Punkty → Scal chmury punktów**.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Points_Merge.svg" width=16px> '''Scal chmury punktów'''**.
+    -   Wybierz z menu opcję **Punkty → Scal chmury punktów**.
+
+
 
 ## Właściwości
 

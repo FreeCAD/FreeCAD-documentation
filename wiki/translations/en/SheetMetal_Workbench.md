@@ -50,9 +50,11 @@ A detailed description of the tools can be found [on the author\'s blog](http://
 
 -   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend.md): 3rd step to convert a shell object into an unfoldable sheet metal object, replaces sharp edges with round bends.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a sketch based hole pattern along the folded walls of a sheet metal object .
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a sketch based hole pattern along the folded walls of a sheet metal object.
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Embosses shapes with or without holes into a sheet metal plate.
+
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters.
 
 ## Brief description 
 

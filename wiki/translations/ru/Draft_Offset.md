@@ -27,7 +27,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Optionally select one object. The object must lie on the current [Draft working plane](Draft_SelectPlane.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Offset.svg" width=16px> [Draft Offset](Draft_Offset.md)** button.
+    -   Press the **<img src="images/Draft_Offset.svg" width=16px> [Offset](Draft_Offset.md)** button.
     -   Select the **Modification → <img src="images/Draft_Offset.svg" width=16px> Offset** option from the menu.
     -   Use the keyboard shortcut: **O** then **S**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
@@ -42,10 +42,10 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Options
 
-The single character keyboard shortcuts and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
--   If the **OCC-style offset** checkbox is checked a special offset style is used: open [Draft Wires](Draft_Wire.md) are offset on both sides, and new edges are connected with rounded corners. This only works for planar Draft objects with at least two straight edges. Note that with this style a new non-parametric object is created, and if copy mode is off the original object is deleted.
--   Press **P** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create an offset copy instead of offsetting the original object.
+-   If the **OCC-style offset** checkbox is checked a special offset style is used: open [Draft Wires](Draft_Wire.md) are offset on both sides, and new edges are connected with rounded corners. This only works for planar objects with at least two edges. Note that with this style a new non-parametric object is created, and if copy mode is off the original object is deleted.
+-   Press **C** or click the **Copy** checkbox to toggle copy mode. If copy mode is on, the command will create an offset copy instead of offsetting the original object.
 -   Holding down **Alt** before picking points in the [3D view](3D_view.md) will also toggle copy mode. While **Alt** is held down multiple offset points can be picked. Release **Alt** to finish the command and see the created copies.
 -   Hold down **Shift** to keep the offset distance linked to the current segment.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
@@ -57,14 +57,6 @@ The single character keyboard shortcuts and the modifier keys mentioned here can
 
 -   To create an offset version of a [Draft BSpline](Draft_BSpline.md) its points are offset individually, and from the new points a new spline is calculated. This new spline is not parallel to the original spline. For an exact parallel offset of a [Draft BSpline](Draft_BSpline.md) the [Part Offset2D](Part_Offset2D.md) command should be used.
 -   The Draft Offset command cannot handle [Draft BezCurves](Draft_BezCurve.md). Use the [Part Offset2D](Part_Offset2D.md) command instead.
-
-
-
-## Настройки
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 
 

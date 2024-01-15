@@ -16,23 +16,22 @@
 
 Polecenie **Pomoc online** otwiera dokumentację pomocy. Aby otworzyć dokumentację konkretnego polecenia, użyj polecenia [Co to jest](Std_WhatsThis/pl.md).
 
-W programie FreeCAD {{VersionPlus/pl|0.20}} polecenie to wymaga zainstalowania [dodatku Pomoc](https://github.com/FreeCAD/FreeCAD-Help).
+Od wersji FreeCAD 0.20 polecenie to i system pomocy są zarządzane przez oddzielny moduł pomocy. W wersjach 0.20 i 0.21 modułem tym jest [dodatek](https://github.com/FreeCAD/FreeCAD-Help), który musi być [instalowany](Std_AddonMgr/pl.md) oddzielnie. W nowszych wersjach moduł pomocy jest zintegrowany z programem FreeCAD.
 
 
 
 ## Użycie
 
-1.  Jeśli dodatek Pomoc nie jest jeszcze dostępny, zostaniesz poproszony o jego zainstalowanie poprzez [Menadżer dodatkó](Std_AddonMgr.md).
-2.  Istnieje kilka sposobów na wywołanie polecenia:
+1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Wybierz z menu opcję **Pomoc → <img src="images/Std_OnlineHelp.svg" width=16px> Pomoc**.
     -   Użyj skrótu klawiaturowego: **F1**.
-3.  Otwiera się dokumentacja pomocy.
+2.  Otwiera się dokumentacja pomocy.
 
 
 
 ## Uwagi
 
--   Dodatek Pomoc posiada szereg preferencji. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Pomoc.md).
+-   System Pomocy posiada szereg preferencji. Zobacz informacje na stronie [Edytor ustawień](Preferences_Editor/pl#Pomoc.md).
 
 
 

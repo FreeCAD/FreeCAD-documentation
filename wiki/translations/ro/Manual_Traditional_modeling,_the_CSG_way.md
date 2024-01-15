@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 CSG înseamnă Constructive Solid Geometry [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry)și descrie maniera cea mai simplă de a lucra cu geometria 3D solidă, care creează obiecte complexe prin adăugarea/eliminarea unor elemente de volum prin utilizarea operațiilor booleene cum ar fi unirea, scăderea sau intersecția solidelor.
 

@@ -1,10 +1,11 @@
 # Compiling/zh-tw
 Each operating system has its own page for compiling FreeCAD in the [Online Help Documentation](Online_Help_Toc.md).
 
-     
-   <img alt="" src=images/Windows.png  style="width:" height="32px;">   <img alt="" src=images/Linux_with_text.png  style="width:" height="32px;">    <img alt="" src=images/Mac.png  style="width:" height="32px;">          [Docker container](Compile_on_Docker.md)
-   [Compile on Windows](Compile_on_Windows.md)              [Compile on Linux](Compile_on_Linux.md)              [Compile on MacOS](Compile_on_MacOS.md)   [Compile on Docker container](Compile_on_Docker.md)
-     
++::+::+::+::+
+| <img alt="" src=images/Windows.png  style="width:" height="32px;"> | <img alt="" src=images/Linux_with_text.png  style="width:" height="32px;"> | <img alt="" src=images/Mac.png  style="width:" height="32px;">    | [Docker container](Compile_on_Docker.md)            |
++++++
+| [Compile on Windows](Compile_on_Windows.md)  | [Compile on Linux](Compile_on_Linux.md)                      | [Compile on MacOS](Compile_on_MacOS.md) | [Compile on Docker container](Compile_on_Docker.md) |
++++++
 
 To compile on BSD, and other Unix systems, you can follow the general instruction in [Compile on Linux](Compile_on_Linux.md) but using the appropriate dependencies in those systems.
 

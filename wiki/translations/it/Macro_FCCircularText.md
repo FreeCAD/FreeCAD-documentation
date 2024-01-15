@@ -3,22 +3,27 @@
 |Name=Macro FCCircularText
 |Translate=Testo Circolare
 |Icon=FCCircularTextButtom.png
-|Description={{ColoredText|#ff0000|#ffffff|La nuova GUI della versione modificata per l'HD dpi (QGridLayout) esegue solo la versione FC 0.18 e successive (PySide2 Qt5)}} <br/><br/>Per la versione precedente vedere [https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install it manually. <br/><br/>Questa macro crea un testo intorno ad un cilindro.<br />Ultima Versione=0.14 Date=2019/04/27<br />Download the [https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png toolBar icon]<br />
-|Version=0.22
-|Date=2022/06/06
+|Description=Questa macro utilizza lo strumento [[Draft ShapeString]] per creare una riga di testo posizionata con diversi orientamenti circolari, inclusi circonferenza ed elicoidale (alla maniera di una colonna Traiana). Può anche essere usata per creare un quadrante di orologio con numeri arabi ''1, 2, 3,'' ecc., o numeri romani ''I, II, III,'' ecc.
+|Author=Mario52
+|Version=0.22c
+|Date=2023/11/17
 |FCVersion=0.19 è più
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
 
+
+
 ## Descrizione
 
-Questa macro usa <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString/it.md) è scrive un testo, in piedi o coricato, circonferenziale o elicoidale nel modo di [Trajan Column](http://en.wikipedia.org/wiki/Trajan%27s_Column) e crea un orologio con numeri arabi **1 2 3 \...** o Romani **I II III \...** (ispirata a [Macro to Create Clock Face](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock)) FC community member, cblt2l.
+Questa macro utilizza lo strumento <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Forma da testo](Draft_ShapeString/it.md) per creare una riga di testo posizionata con diversi orientamenti circolari, inclusi circonferenza ed elicoidale alla maniera di una [Colonna di Traiano](http://en.wikipedia.org/wiki/Trajan%27s_Column). Può anche essere usata per creare un quadrante di orologio con numeri arabi *1, 2, 3,* ecc., o numeri romani *I, II, III,* ecc. Quest\'ultimo utilizzo è stato ispirato dalla discussione del Forum [Macro per creare il quadrante dell\'orologio](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) del membro della comunità FC, cblt2l.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/7ab8a1e9dd7f924a62ecef83ec1d2ad8723e37d6/Macro_FCCircularText.FCMacro}}
 
 <img alt="texte 360 degrees" src=images/FCCircularText_01.png  style="width:400px;"> 
 *Esempio di macro che mostra il testo con un orientamento a 360 gradi*
+
+
 
 ## Utilizzo
 
@@ -39,15 +44,21 @@ Di default le opzioni sono disattivate e si attivano quando si seleziona {{Check
 
 Fatta eccezione per la casella **Z** di Placement per Clock che è attiva e che sposta il testo lungo l\'asse Z per consentire posizionare il testo sulla superficie di appoggio.
 
+
+
 ## Nota
 
 Le opzioni che sono facoltative per la funzione selezionata sono inattive e quindi non utilizzabili.
 
-## L\'interfaccia grafica di Circular Text 
+
+
+## Interfaccia
 
 Panoramica
 
 ![GUI](images/FCCircularText_06.png ) 
+
+
 
 ### Prima sezione 
 
@@ -70,6 +81,8 @@ Panoramica
 -    **Origin**ritorna al l\'origine sistema font ex: \"C:/Windows/Fonts/\"
 
     -   ARIAL.TTF è il font di default
+
+
 
 #### Opzioni disponibili 
 
@@ -151,11 +164,15 @@ setFontByDefault
 
 
 
+
+
 ## Seconda sezione 
 
 Configurare i caratteri in FCCircularText
 
 ![](images/FCCircularText_08.png ) 
+
+
 
 #### Prima zona 
 
@@ -196,6 +213,8 @@ Image:FCCircularText 39.png\|**Mode Flat** **Indoor** Il testo è orizzontale, l
 
 
 </center>
+
+
 
 #### Seconda zona 
 
@@ -283,7 +302,7 @@ Image:FCCircularText 22.png\| **Helix** Image:FCCircularText 33.png\| Image:FCCi
 -   **Base Helix** fornisce la base per iniziare l\'elica (anche Placement Z). Se *\'Placement Z\'* è diverso da zero, il punto di partenza viene aggiunto a Placement Z.
 -   **End Helix** Fine di passo dell\'elica che è calcolato rispetto all\'altezza e al numero di caratteri per spira.
 
-##### Orologio
+##### Clock
 
 Le figure sono parte di un cerchio con numeri arabi o romani.
 
@@ -363,6 +382,8 @@ Se selezioni un filo, un arco, un cerchio, una linea e un bordo, il percorso del
 
 l\'ultimo pulsante di opzione utilizzato viene salvato nel parametro di FreeCAD
 
+
+
 ### Sezione comandi 
 
 ![](images/FCCircularText_13.png ) 
@@ -374,6 +395,8 @@ l\'ultimo pulsante di opzione utilizzato viene salvato nel parametro di FreeCAD
 -    **Run Comp**: Lancia la macro e crea un oggetto Composto da tutti i caratteri.
 
 -    **Run**: Lancia la macro
+
+
 
 ### Parametri disponibili 
 
@@ -480,9 +503,7 @@ Usare la macro **FcString** per creare dei caratteri e il file **FcClock** per c
 
 ## Script
 
-Scaricare lo script da:
-
-L\'icona per ill pulsante:
+L\'icona per il pulsante:
 
 \- in .PNG ![](images/FCCircularTextButtom.png )
 
@@ -490,7 +511,7 @@ L\'icona per ill pulsante:
 
 Per maggiori informazioni vedere [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 
-### Vedi il Codice 
+### Script 
 
 **Macro_Circular_Text.FCMacro**
 
@@ -500,7 +521,9 @@ o tele carica lo script :
 
 \- o dal forum [Extrude from curved surface of cylinder](http://forum.freecadweb.org/viewtopic.php?f=3&t=7384&p=87642#p87642)
 
-## Esempi
+
+
+## Esempio
 
 
 <center>
@@ -573,7 +596,9 @@ Image:FCCircularText_Path_00_002_000.png\| {{CheckBox|TRUE|Word}} Il testo sta t
 
 </center>
 
-==Esempi su ellisse==
+
+
+## Esempi su ellisse 
 
 
 <center>
@@ -675,14 +700,25 @@ Image:FCCircularText_Path_00_Orth_Base_000.png\|Testo su BoundBox Base (normale)
 
 <center>
 
-Image:FCCircularText_Path_00_Orth_Top_000.png\|Testo su BoundBox Carattere superiore Image:FCCircularText_Path_00_001_000_000.png\|Testo sulla riga selezionata:
+Image:FCCircularText_Path_00_Orth_Top_000.png\|Text on BoundBox Top character Image:FCCircularText_Path_00_001_000_000.png\|Text on selected line:
 1: Orthogonal
 2: Tangent
 
 
 </center>
 
-## Limitativo
+
+
+<center>
+
+<File:YamahaDrumBadge00.gif%7CUtilizzo> esemplificativo ([Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?t=82577))
+
+
+</center>
+
+
+
+## Limitazioni
 
 
 **Note**
@@ -701,11 +737,27 @@ Image:FCCircularText Correction.gif\|Character overlap issue and the workaround
 
 (non totalmente sviluppato)
 
-In projetto :
+In progetto:
 
 Scrivere un testo circolare posizionato su un oggetto selezionato
 
+
+
 ## Registro delle modifiche: 
+
+-   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
+
+see [Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?p=719353#p719353) 
+```python
+sel = Gui.Selection.getCompleteSelection()
+#delete objects
+#restore previous selection
+Gui.Selection.clearSelection()
+for s in sel:
+    Gui.Selection.addSelection(s.Object,s.SubElementNames)
+```
+
+-   ver 0.22b 2023/11/15 : upgrade correction **stylesheet** and **FreeCAD.activeDocument().recompute(None,True,True)**
 
 -   ver 0.22 2022/06/06 : adding QScrollArea cause : [Unable to run FCCircularText \[Problem with screen size\]](https://forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 
@@ -870,6 +922,8 @@ replace
 -   ver 0.1
 
 \(2537\)
+
+
 
 ### Link
 

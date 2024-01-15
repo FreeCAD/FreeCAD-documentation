@@ -1,4 +1,7 @@
 # Macro CenterFace/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Macro CenterFace
 |Icon=CenterFace.png
@@ -9,16 +12,35 @@
 |Date=2018-10-07
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Dieses Makrotrace (bearbeitbar) zeichnet die mittlere Fläche (Masse) mit 1 Punkt und druckt die Koordinaten.
 
+
+</div>
+
 <img alt="" src=images/Macro_CenterFace_00.png  style="width:480px;"> 
 *CenterFace*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
 Wählen Sie eine Fläche aus und starten Sie das Makro. Ein Punkt zu Fläche wird rot gefärbt (kann geändert werden).
+
+
+</div>
 
 Um die Farbe des Punktes zu ändern, ändern Sie die Linien 36, 37, 38.
 
@@ -30,13 +52,23 @@ blue = 0.0 \#
 
 Die Mitte der Fläche (Masse) und die XYZ-Koordinaten der Fläche werden in der Berichtansicht angezeigt.
 
+## Icon
+
+
+<div class="mw-translate-fuzzy">
+
 ## Icone
 
 Laden Sie das Dateibild herunter und kopieren Sie es in Ihr Makro-Repertorium.
 
+
+</div>
+
 Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem Bild, klicken Sie mit der rechten Maustaste und wählen Sie \"Ziel speichern unter \...\".
 
 ![Button](images/CenterFace.png )
+
+
 
 ## Skript
 

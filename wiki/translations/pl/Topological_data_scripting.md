@@ -3,14 +3,18 @@
 
 Tutaj wyjaśnimy Ci jak kontrolować środowisko [Część](Part_Workbench/pl.md) bezpośrednio z interpretera FreeCAD Python, lub z dowolnego zewnętrznego skryptu. Przejrzyj sekcję [ o skryptach](Power_users_hub/pl.md) oraz strony [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), jeśli potrzebujesz więcej informacji na temat działania skryptów Pythona w FreeCAD. Jeśli jesteś początkującym użytkownikiem środowiska Python, dobrze jest najpierw przeczytać [Wprowadzenie do środowiska Python](Introduction_to_Python/pl.md).
 
+
+
 ## Zobacz również 
 
 -   [Skrypty w środowisku Część](Part_scripting/pl.md)
 -   [OpenCASCADE](OpenCASCADE/pl.md)
 
+
+
 ## Schemat klas 
 
-To jest [Unified Modeling Language *(UML)*](http://en.wikipedia.org/wiki/Unified_Modeling_Language) przegląd najważniejszych klas modułu Część: ![klasy Python, modułu Część](images/Part_Classes.jpg ) {{Top}}
+To jest [Unified Modeling Language *(UML)*](http://en.wikipedia.org/wiki/Unified_Modeling_Language) przegląd najważniejszych klas modułu Część: ![klasy Python, modułu Część](images/Part_Classes.jpg ) 
 
 ### Geometria
 
@@ -23,6 +27,8 @@ Obiekty geometryczne są elementami składowymi wszystkich obiektów topologiczn
 
 
 {{Top}}
+
+
 
 ### Topologia
 
@@ -41,11 +47,13 @@ Dostępne są następujące typy danych topologicznych:
 
 {{Top}}
 
+
+
 ## Przykład: Utwórz prostą topologię 
 
 ![Linia łamana](images/Wire.png )
 
-Stworzymy teraz topologię poprzez skonstruowanie jej z prostszej geometrii. Jako studium przypadku użyjemy części widocznej na rysunku, która składa się z czterech wierzchołków, dwóch łuków i dwóch linii. {{Top}}
+Stworzymy teraz topologię poprzez skonstruowanie jej z prostszej geometrii. Jako studium przypadku użyjemy części widocznej na rysunku, która składa się z czterech wierzchołków, dwóch łuków i dwóch linii. 
 
 ### Tworzenie geometrii 
 
@@ -66,6 +74,8 @@ V4 = App.Vector(0, -10, 0)
 
 {{Top}}
 
+
+
 ### Łuk
 
 ![Okrąg](images/Circel.png )
@@ -83,6 +93,8 @@ C2 = Part.Arc(V2, VC2, V3)
 
 {{Top}}
 
+
+
 ### Linia
 
 ![Linia](images/Line.png )
@@ -98,6 +110,8 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
+
+
 ### Połącz wszystko w całość 
 
 Ostatnim krokiem jest zestawienie geometrycznych elementów bazowych razem i uzyskanie kształtu topologicznego:
@@ -109,6 +123,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 ### Utwórz graniastosłup 
 
@@ -123,6 +139,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 
 {{Top}}
 
+
+
 ### Pokaż to wszystko 
 
 
@@ -132,6 +150,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 ## Utwórz podstawowe kształty 
 
@@ -163,7 +183,7 @@ Niektóre dostępne metody `make...()`:
 
 -    `makeTorus(radius1, radius2)`Tworzy torus o podanych promieniach.
 
-Zobacz stronę [skrypty środowiska Część](Part_API/pl.md) aby zobaczyć pełną listę dostępnych metod modułu Część. {{Top}}
+Zobacz stronę [skrypty środowiska Część](Part_API/pl.md) lub [dokumentacja API środowiska Część generowana automatycznie](https://freecad-python-stubs.readthedocs.io/en/latest/autoapi/Part/) aby zobaczyć pełną listę dostępnych metod modułu Część. 
 
 ## Import modułów 
 
@@ -177,6 +197,8 @@ import Part
 
 
 {{Top}}
+
+
 
 ### Utwórz wektor 
 
@@ -198,6 +220,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 ### Utwórz krawędź 
 
@@ -233,6 +257,8 @@ edge.CenterOfMass
 
 {{Top}}
 
+
+
 ### Wyświetl kształt na ekranie 
 
 Do tej pory utworzyliśmy obiekt krawędziowy, ale nie pojawia się on nigdzie na ekranie. Dzieje się tak dlatego, że scena 3D FreeCAD wyświetla tylko to, co każesz jej wyświetlić. Aby to zrobić, użyjemy prostej metody:
@@ -242,7 +268,7 @@ Do tej pory utworzyliśmy obiekt krawędziowy, ale nie pojawia się on nigdzie n
 Part.show(edge)
 ```
 
-Funkcja show tworzy obiekt w naszym dokumencie FreeCAD i przypisuje mu nasz kształt \"krawędzi\". Używaj jej zawsze wtedy, gdy chcesz wyświetlić swoje dzieło na ekranie. {{Top}}
+Funkcja show tworzy obiekt w naszym dokumencie FreeCAD i przypisuje mu nasz kształt \"krawędzi\". Używaj jej zawsze wtedy, gdy chcesz wyświetlić swoje dzieło na ekranie. 
 
 ### Utwórz linie łamaną 
 
@@ -282,6 +308,8 @@ wire2.isClosed()
 
 {{Top}}
 
+
+
 ### Utwórz ścianę 
 
 Tylko ściany utworzone z linii łamanych będą poprawne. W tym przykładzie linia łamana3 jest zamknięta, ale linia łamana2 nie jest *(patrz wyżej)*:
@@ -302,7 +330,7 @@ sface.isValid()
 > False
 ```
 
-Tylko twarze będą posiadać obszar, linie łamane i krawędzie nie. {{Top}}
+Tylko twarze będą posiadać obszar, linie łamane i krawędzie nie. 
 
 ### Utwórz okrąg 
 
@@ -344,6 +372,8 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
+
+
 ### Utwórz łuk wzdłuż punktów 
 
 Niestety nie ma funkcji `makeArc()`, ale mamy funkcję `Part.Arc()` do tworzenia łuku przez trzy punkty. Tworzy ona obiekt łuku łączący punkt początkowy z punktem końcowym przez punkt środkowy. Funkcja `toShape()` obiektu arc musi zostać wywołana, aby otrzymać obiekt krawędzi, tak samo jak w przypadku użycia `Part.LineSegment` zamiast `Part.makeLine`.
@@ -366,7 +396,7 @@ circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-Łuki są poprawnymi krawędziami, tak jak linie, więc mogą być również używane w poliliniach. {{Top}}
+Łuki są poprawnymi krawędziami, tak jak linie, więc mogą być również używane w poliliniach. 
 
 ### Utwórz wielokąt 
 
@@ -379,6 +409,8 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 
 {{Top}}
+
+
 
 ### Utwórz krzywą Béziera 
 
@@ -395,6 +427,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 ### Utwórz płaszczyznę 
 
@@ -415,7 +449,7 @@ plane.BoundBox
 
 jest prostopadłościanem zamykającym płaszczyznę o przekątnej zaczynającej się w punkcie (3, 0, 0) i kończącej w punkcie (5, 0, 2). W tym przypadku grubość `BoundBox` wzdłuż osi Y wynosi zero, ponieważ nasz kształt jest całkowicie płaski.
 
-Uwaga: `makePlane()` akceptuje tylko `App.Vector()` dla start_pnt i dir_normal, a nie krotki. {{Top}}
+Uwaga: 
 
 ### Utwórz elipsę 
 
@@ -465,7 +499,7 @@ eli = Part.Ellipse(App.Vector(0, 0, 0), 10, 5)
 Part.show(eli.toShape())
 ```
 
-Dla powyższego konstruktora elipsy przekazaliśmy center, MajorRadius oraz MinorRadius. {{Top}}
+Dla powyższego konstruktora elipsy przekazaliśmy center, MajorRadius oraz MinorRadius. 
 
 ### Utwórz torusa 
 
@@ -490,7 +524,7 @@ Powyższy kod utworzy wycinek torusa.
 tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 ```
 
-Powyższy kod utworzy połowę torusa; tylko ostatni parametr jest zmieniony, tzn. pozostałe kąty są domyślne. Nadanie kąta 180 spowoduje utworzenie torusa od 0 do 180, czyli jego połowę. {{Top}}
+Powyższy kod utworzy połowę torusa; tylko ostatni parametr jest zmieniony, tzn. pozostałe kąty są domyślne. Nadanie kąta 180 spowoduje utworzenie torusa od 0 do 180, czyli jego połowę. 
 
 ### Utwórz sześcian lub prostopadłościan 
 
@@ -506,6 +540,8 @@ len(box.Vertexes)
 
 {{Top}}
 
+
+
 ### Utwórz sferę 
 
 Przy użyciu `makeSphere(radius, [pnt, dir, angle1, angle2, angle3])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1), angle1 = -90, angle2 = 90 i angle3 = 360. Kąt1 i kąt2 to pionowe minimum i maksimum sfery, kąt3 to średnica sfery.
@@ -518,6 +554,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 
 
 {{Top}}
+
+
 
 ### Utwórz walec 
 
@@ -532,6 +570,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 {{Top}}
 
+
+
 ### Utwórz stożek 
 
 Przy użyciu `makeCone(radius1, radius2, height, [pnt, dir, angle])`. Domyślnie pnt = Vector(0, 0, 0), dir = Vector(0, 0, 1) i angle = 360.
@@ -545,11 +585,15 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 
 {{Top}}
 
+
+
 ## Modyfikuj kształty 
 
-Kształty można modyfikować na kilka sposobów. Niektóre z nich to proste operacje przekształcania, takie jak przesuwanie lub obracanie kształtów, inne są bardziej złożone, np. łączenie i odejmowanie jednego kształtu od drugiego. {{Top}}
+Kształty można modyfikować na kilka sposobów. Niektóre z nich to proste operacje przekształcania, takie jak przesuwanie lub obracanie kształtów, inne są bardziej złożone, np. łączenie i odejmowanie jednego kształtu od drugiego. 
 
 ## Operacje przekształcenia 
+
+
 
 ### Przekształcanie kształtu 
 
@@ -561,7 +605,7 @@ myShape = Part.makeBox(2, 2, 2)
 myShape.translate(App.Vector(2, 0, 0))
 ```
 
-Spowoduje to przesunięcie naszego kształtu \"myShape\" o 2 jednostki w kierunku X. {{Top}}
+Spowoduje to przesunięcie naszego kształtu \"myShape\" o 2 jednostki w kierunku X. 
 
 ### Obrót kształtu 
 
@@ -572,7 +616,7 @@ Aby obrócić kształt, należy określić środek obrotu, oś i kąt obrotu:
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-Powyższy kod obróci kształt o 180 stopni wokół osi Z. {{Top}}
+Powyższy kod obróci kształt o 180 stopni wokół osi Z. 
 
 ### Przekształcenia macierzowe 
 
@@ -610,6 +654,8 @@ myShape.transformGeometry(myMat)
 
 {{Top}}
 
+
+
 ### Skalowanie kształtu 
 
 Skalowanie kształtu jest bardziej niebezpieczną operacją, ponieważ w przeciwieństwie do przesunięcia czy obrotu, skalowanie nierównomierne *(z różnymi wartościami dla X, Y i Z)* może zmienić strukturę kształtu. Na przykład, skalowanie koła z większą wartością w poziomie niż w pionie przekształci je w elipsę, która zachowuje się matematycznie zupełnie inaczej. Do skalowania nie możemy użyć metody `transformShape()`, musimy użyć `transformGeometry()`:
@@ -624,7 +670,11 @@ myShape=myShape.transformGeometry(myMat)
 
 {{Top}}
 
+
+
 ## Operacje logiczne 
+
+
 
 ### Operacja odjęcia 
 
@@ -640,6 +690,8 @@ diff = cylinder.cut(sphere)
 
 {{Top}}
 
+
+
 ### Przecięcie
 
 W ten sam sposób przecięcie dwóch kształtów nazywane jest \"częścią wspólną\" i jest wykonywane w ten sposób:
@@ -654,6 +706,8 @@ common = cylinder1.common(cylinder2)
 
 {{Top}}
 
+
+
 ### Połączenie
 
 Połączenie nazywa się \"scaleniem\" i działa w ten sam sposób:
@@ -667,6 +721,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 ### Przekrój
 
@@ -687,6 +743,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 ### Wyciąganie
 
@@ -710,6 +768,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 {{Top}}
 
+
+
 ## Badanie kształtów 
 
 Możesz łatwo zbadać topologiczną strukturę danych:
@@ -731,7 +791,7 @@ v = e.Vertexes[0]
 v.Point
 ```
 
-Wpisując powyższe linie w interpreterze Python, uzyskasz dobre zrozumienie struktury obiektów Część. Tutaj, nasze polecenie `makeBox()` utworzyło bryłę. Ta bryła, jak wszystkie bryły typu Część, zawiera ściany. Ściany zawsze zawierają linie łamane *(polilinie)*, które są listą krawędzi ograniczających daną ścianę. Każda ściana ma co najmniej jedną zamkniętą linię łamaną *(może mieć ich więcej, jeśli posiada otwór)*. W liniach łamanych możemy oglądać każdą krawędź z osobna, a wewnątrz każdej krawędzi możemy zobaczyć wierzchołki. Proste krawędzie mają oczywiście tylko dwa wierzchołki. {{Top}}
+Wpisując powyższe linie w interpreterze Python, uzyskasz dobre zrozumienie struktury obiektów Część. Tutaj, nasze polecenie 
 
 ### Analiza krawędzi 
 
@@ -762,6 +822,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 ### Użycie zaznaczenia 
 
@@ -801,6 +863,8 @@ print("Length of the selected edges: ", length)
 
 {{Top}}
 
+
+
 ## Przykład: Butelka OCC 
 
 Typowym przykładem, który można znaleźć na stronie [OpenCasCade Technology](https://www.opencascade.com/doc/occt-6.9.0/overview/html/occt__tutorial.html) jest sposób na zbudowanie butelki. Jest to dobre ćwiczenie również dla programu FreeCAD. W rzeczywistości, jeśli będziesz śledził nasz przykład poniżej i stronę OCC jednocześnie, zobaczysz jak dobrze struktury OCC są zaimplementowane w FreeCAD. Skrypt jest dołączony do instalacji FreeCAD *(w folderze **Mod/Part**)* i może być wywołany z interpretera Python przez wpisanie:
@@ -815,6 +879,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 ### Skrypt
 
@@ -870,6 +936,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 ### Szczegółowe objaśnienia 
 
@@ -974,7 +1042,7 @@ el = makeBottleTut()
 Part.show(el)
 ```
 
-Na koniec wywołujemy funkcję, aby faktycznie utworzyć część, a następnie uczynić ją widoczną. {{Top}}
+Na koniec wywołujemy funkcję, aby faktycznie utworzyć część, a następnie uczynić ją widoczną. 
 
 ## Przykład: Sześcian z otworami 
 
@@ -1032,6 +1100,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 ## Wczytywanie i zapisywanie 
 

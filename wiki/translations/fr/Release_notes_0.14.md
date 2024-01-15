@@ -11,7 +11,11 @@ Modèle d\'une Jeep par Psicofil
 
 </center>
 
+
+
 ## Général
+
+
 
 ### Migration du site 
 
@@ -21,11 +25,15 @@ La seule partie de FreeCAD qui reste sur SourceForge est le dépôt Git, à la m
 
 Si vous n\'avez pas encore rencontré l\'incroyable communauté FreeCAD, payez-vous une visite sur le forum, et soyez impressionné par son talent, son énergie et son aide généreuse.
 
+
+
 ### Passage à PySide, FreeCAD est maintenant complètement LGPL 
 
 En raison des nombreuses complications provoquées par le modèle de double-licence de FreeCAD (LGPL et GPL), certains des composants de FreeCAD (à savoir le noyau OpenCasCade) étant incompatibles avec tout code GPL, nous avons décidé de commuter tout le code GPL restant de FreeCAD à LGPL. En raison de cette opération, [PyQt](http://fr.wikipedia.org/wiki/PyQt) n\'est plus employé, et a été remplacé par [PySide](http://fr.wikipedia.org/wiki/PySide). Il n\'y a pas beaucoup de conséquences sur l\'écriture des scripts python, PyQt peut toujours être employé à l\'intérieur de FreeCAD.
 
 Après avoir terminé notre passage à la LPGL, le projet OpenCasCade [aussi passé à la LPGL](http://www.opencascade.org/getocc/license/est), ce qui aurait résolu nos conflits de licence. Mais nous avons désormais un modèle de licence unifié et beaucoup plus clair qui devrait satisfaire toutes les distributions Linux les plus strictes.
+
+
 
 ### Modules d\'extension et projets parallèles : bibliothèque de Pièces, BOLTS, importateur Eagle 
 
@@ -37,13 +45,19 @@ La dernière année a vu éclore quelques projets intéressants parallèles à F
 
 Un autre projet externe intéressant est l\'[importeur EAGLE](http://sourceforge.net/projects/eaglepcb2freecad/), qui permet d\'importer des designs de circuits imprimés réalisés depuis plusieurs applications sous FreeCAD.
 
+
+
 ### Export WebGL 
 
 Depuis FreeCAD, vous pouvez maintenant exporter votre scène comme une page [WebGL](http://fr.wikipedia.org/wiki/WebGL) - HTML. Ce fichier inclut une visionneuse basée sur [three.js](http://threejs.org/) qui permet d\'inspecter la scène depuis le Web sans plugins, tant que vous le regardez avec un navigateur WebGL-compatible.
 
+
+
 ### Système d\'unités 
 
 Enfin, un système d\'[unités](units/fr.md) a été mis en œuvre à la base de FreeCAD, il est donc disponible pour tous les modules. Vous pouvez maintenant sélectionner un système d\'unités depuis les préférences. Les systèmes d\'unités disponibles incluent les millimètres, les mètres et les mesures US/impériales (pouces, pieds), mais davantage d\'unités devraient être bientôt disponibles. Une fois le système d\'unités sélectionné, la plupart des propriétés et des outils de FreeCAD utiliseront ces unités de préférence. Mais le système est très flexible, et dans la plupart des cas, vous pouvez combiner les unités autant que vous le voulez ; par exemple saisir des dimensions en pouces dans un document réglé en millimètres.
+
+
 
 ### Feuilles de style 
 
@@ -51,31 +65,47 @@ FreeCAD 0.14 devient encore plus personnalisable avec l\'ajout de [Feuilles de s
 
 <img alt="" src=images/Style_Sheets.png  style="width:1024px;">
 
+
+
 ### Mode d\'affichage global 
 
 La barre d\'outils des vues standard bénéficie de nouveaux boutons pour facilement basculer l\'affichage de la vue 3D complète en mode filaire, ombré ou filaire ombré.
+
+
 
 ### Anticrénelage de la fenêtre 3D 
 
 De nouvelles options ont été ajoutées au système d\'anticrénelage de la vue 3D de FreeCAD, que vous trouverez dans les préférences. Si vous disposez d\'une bonne carte graphique, vous pouvez maintenant profiter d\'un anticrénelage de haute qualité sous FreeCAD.
 
+
+
 ## Pièce
+
+
 
 ### Lissage et Balayage 
 
 Les outils [Lissage](Part_Loft/fr.md) et [Balayage](Part_Sweep/fr.md) ont été améliorés et peuvent maintenant utiliser des objets de l\'atelier Draft comme profils.
 
+
+
 ### Décalage
 
 Le nouvel outil [Décalage](Part_Offset/fr.md) créé des copies d\'une forme sélectionnée à une distance donnée de la forme initiale.
+
+
 
 ### Évidement
 
 Un nouvel outil [Évidement](Part_Thickness/fr.md) génère une pièce évidée à partir d\'un solide, en donnant une épaisseur donnée à chacune de ses faces.
 
+
+
 ### Créer un composé 
 
 L\'[atelier Part](Part_Workbench/fr.md) comprend maintenant un outil [Créer un composé](Part_Compound/fr.md) qui vous permet de créer rapidement un objet composé d\'un ensemble de formes sélectionnées.
+
+
 
 ### Primitives
 
@@ -83,21 +113,33 @@ De nouvelles formes primitives ont été ajoutées à l\'outil [Création de pri
 
 ![](images/Part_Create_Primitives1.jpeg )
 
+
+
 ### Outils de mesure 
 
 Un nouveau jeu d\'outils a été ajouté à l\'[atelier Part](Part_Workbench/fr.md). Vous pouvez sélectionner deux éléments (sommets, arêtes ou faces) pour afficher leur distance absolue et le long des axes X et Y.
 
+
+
 ## Part Design & Sketcher 
+
+
 
 ### Validateur d\'esquisse 
 
-L\'atelier [Sketcher](Sketcher_Workbench/fr.md) offre un nouvel outil [Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) pour vous aider à valider une esquisse en trouvant les contraintes manquantes ou redondantes. Il peut également ajouter automatiquement certaines contraintes manquantes, afin de rendre votre esquisse entièrement contrainte.
+L\'atelier [Sketcher](Sketcher_Workbench/fr.md) offre un nouvel outil [Valider une esquisse](Sketcher_ValidateSketch/fr.md) pour vous aider à valider une esquisse en trouvant les contraintes manquantes ou redondantes. Il peut également ajouter automatiquement certaines contraintes manquantes, afin de rendre votre esquisse entièrement contrainte.
+
+
 
 ### Générateur d\'engrenage 
 
 Un [générateur d\'engrenage à profil en développante de cercle](PartDesign_InvoluteGear/fr.md) a été ajouté à l\'[atelier PartDesign](PartDesign_Workbench/fr.md) pour créer rapidement des engrenages à partir de quelques paramètres.
 
+
+
 ## Drawing (Mise en plan) 
+
+
 
 ### Projections automatiques 
 
@@ -105,11 +147,17 @@ L\'atelier Drawing (mise en plan) continue d\'être amélioré avec d\'excitante
 
 <img alt="" src=images/DrawingWB.png  style="width:1024px;">
 
+
+
 ### Symboles
 
 Un nouvel outil [symbole](Drawing_Symbol/fr.md) est maintenant disponible dans l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md), permettant de placer des objets SVG sur la feuille. Ces objets sont stockées dans le document FreeCAD, vous n\'avez donc pas à expédier le fichier SVG original si vous distribuez vos documents.
 
+
+
 ## Lancer de rayons 
+
+
 
 ### Nouveaux outils de rendu 
 
@@ -121,9 +169,13 @@ Le système de[modèles Raytracing](Raytracing_Workbench/fr#Modèles.md) a aussi
 
 Les scripts .pov produits par FreeCAD contiennent maintenant un ratio d\'aspect automatique. L\'utilisateur n\'a plus besoin de maintenir un ratio de 4:3 dans les réglages Raytracing ou d\'éditer manuellement la sortie pour modifier le ratio en vue d\'obtenir un rendu approprié. N\'importe quelles largeur et hauteur peuvent maintenant être saisies sans crainte que les objets rendus soient compressés ou étirés.
 
+
+
 ### Support de LuxRender 
 
 En même temps que le support pour [POV-Ray](http://fr.wikipedia.org/wiki/Pov-ray), l\'[atelier Raytracing](Raytracing_Workbench/fr.md) supporte maintenant aussi [LuxRender](http://fr.wikipedia.org/wiki/LuxRender). Alors que POV-Ray est un [moteur de lancer de rayon classique](http://fr.wikipedia.org/wiki/Lancer_de_rayon) qui lance des rayons depuis la caméra afin de trouver la couleur de chaque pixel d\'une image, LuxRender est un [moteur de rendu non biaisé](http://en.wikipedia.org/wiki/Unbiased_rendering). Les scènes prennent beaucoup plus de temps à rendre, mais produisent un éclairage bien plus réaliste.
+
+
 
 ## Tableur
 
@@ -131,21 +183,31 @@ Un nouveau [Tableur](Spreadsheet_Workbench/fr.md) a été ajouté à FreeCAD. Il
 
 <img alt="" src=images/Arch_tutorial_53.jpg  style="width:1024px;">
 
+
+
 ## Draft (planche à dessin) 
+
+
 
 ### Importation/exportation DWG 
 
 FreeCAD est maintenant capable d\'importer et d\'exporter le [format DWG](https://fr.wikipedia.org/wiki/.dwg), merci au logiciel gratuit et multi-plateforme [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Une fois qu\'il es installé et son chemin d\'accès défini dans les préférences de l\'atelier Draft, FreeCAD pourra l\'utiliser pour importer et exporter des fichiers DWG, en les convertissant d\'abord en DXF puis en utilisant la fonction importation/exportation de DXF de l\'atelier Draft. L\'importation et l\'exportation des fichier DWG ont par conséquent les même limitations que pour le [format DXF](Draft_DXF/fr.md).
 
+
+
 ### Draft vers Plan fonctionne avec les groupes 
 
 L\'outil [Draft vers Mise en plan](Draft_Drawing/fr.md), qui sert à placer des objets de type Draft sur une [Mise en plan](Drawing_Workbench/fr.md), peut maintenant être appliqué sur des groupes, permettant de créer moins d\'objets Vue sur une mise en plan. Avec une gestion intelligente des groupes d\'objets Draft, vous avez une façon simple de contrôler l\'apparence de plusieurs objets sur votre page.
+
+
 
 ### Cotations recodées 
 
 L\'outil [Cote](Draft_Dimension/fr.md) a été complètement recodé: les cotes se comportent maintenant beaucoup mieux et elles ont gagné quelques nouvelles propriétés permettant de mieux les affiner, comme de plus belles flèches à taille variable, plus de contrôle sur la position du texte et la direction de la cote, et surtout un meilleur support de l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md). Vous pouvez maintenant placer des cotes sur n\'importe quel plan dans l\'espace 3D, et vous attendre à des résultats corrects quand vous les projetez sur une feuille de mise en plan avec l\'outil [Dessin](Draft_Drawing/fr.md).
 
 <img alt="" src=images/Draft_dimensions_recode.jpg  style="width:1024px;">
+
+
 
 ### Hachures
 
@@ -157,31 +219,47 @@ L\'[atelier Draft](Draft_Workbench/fr.md) propose aussi un nouveau « jouet »
 
 Le support des [ellipses](Draft_Ellipse/fr.md) a été ajouté, l\'atelier Draft permet maintenant de dessiner des ellipses complètes ou partielles.
 
+
+
 ### Chanfrein
 
 De la même façon que les congés qui sont apparus dans la [version 013](Release_notes_0.13/fr.md), les rectangles, les filaires et les polygones ont gagné une propriété chanfrein qui chanfreine leurs sommets. Le chanfrein est appliqué avec le congé, et les deux propriétés peuvent être utilisées simultanément, vous permettant de convertir un filaire simple en un objet complexe fait de plusieurs sections.
+
+
 
 ### Outils Agréger et Désagréger recodés 
 
 Les outils [Agréger](Draft_Upgrade/fr.md) et [Désagréger](Draft_Downgrade/fr.md) qui étaient auparavant des fragments hermétiques de magie dont vous ne pouviez jamais être sûr des résultats ont été recodés. Ils génèrent maintenant des messages beaucoup plus conviviaux, vous informant de ce qui a été produit et pourquoi. Ils sont maintenant accessibles par script Python, pas seulement dans leur ensemble mais par leurs opérations internes ; vous pouvez donc précisément définir quel type de mise à niveau doit être effectué.
 
+
+
 ### Copie de face 
 
 Le nouvel outil [Facebinder](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Facebinder. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Workbench/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
+
+
 
 ### Texte surfacique 
 
 L\'outil [Draft ShapeString](Draft_ShapeString/fr.md) créé des objets planaires à partir d\'une chaîne de texte et d\'une police TrueType. Ces objets, contrairement aux annotations [Texte](Draft_Text/fr.md) communes, sont de vrais objets 3D, et peuvent donc être extrudés puis utilisés pour créer de la gravure ou autres objets 3D avec du texte en relief.
 
+
+
 ### Courbes de Bézier 
 
 Un nouveau type de courbe accompagne désormais les [arcs de cercle](Draft_Arc/fr.md) et les [courbes BSpline](Draft_BSpline/fr.md) : les [courbes de Bézier](Draft_BezCurve/fr.md). Elles peuvent être créées en cliquant des points de la même manière que les autres objets Draft, mais vous pouvez ensuite les [éditer](Draft_Edit/fr.md) et modifier leurs points de contrôle, obtenant ainsi un contrôle très précis sur la forme de la courbe.
 
+
+
 ## Architecture
+
+
 
 ### Préréglages et profilés de structures 
 
 L\'outil [Structure](Arch_Structure/fr.md) a gagné plusieurs améliorations : il comporte maintenant des préréglages qui permettent de construire des poutres ou des colonnes basées sur des profils standards comme INP ou HEB, et un système de placement plus facile avec un mode spécial d\'[accrochage](Draft_Snap/fr.md). Vous pouvez maintenant également donner un chemin d\'extrusion aux éléments structurels afin de rendre possible des configurations avancés. Certaine des pièces offertes par [BOLTS](#Modules_d.27extension_et_projets_parall.C3.A8les_:_biblioth.C3.A8que_de_Pi.C3.A8ces.2C_BOLTS.2C_importateur_Eagle.md) peuvent aussi être directement créées comme des éléments structurels architecturaux.
+
+
 
 ### Préréglages des fenêtres 
 
@@ -189,9 +267,13 @@ L\'outil [Fenêtre](Arch_Window/fr.md) a également gagné un nouveau système d
 
 <img alt="" src=images/Screenshot_arch_window.jpg  style="width:1024px;">
 
+
+
 ### Volumes
 
 Un nouvel objet [Espace](Arch_Space/fr.md) est maintenant disponible, permettant de construire, annoter et calculer les espaces et les surfaces couvertes. Ces objets Espaces entourent toujours un volume solide, ainsi vous pouvez toujours connaître leur volume et surface couverte. Ils peuvent être construits à partir d\'une forme solide ou d\'un ensemble de faces.
+
+
 
 ### Murs multicouches 
 
@@ -199,9 +281,13 @@ Les [Murs](Arch_Wall/fr.md) peuvent maintenant être multicouches à l\'aide d\'
 
 <img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
+
+
 ### Escaliers
 
 Un nouvel outil [Escalier](Arch_Stairs/fr.md) permet de construire des escaliers complexes à partir de quelques paramètres. Pour l\'instant, seuls des escaliers droits sont disponibles, mais la liste grossira avec le temps. Ces escaliers proposent plusieurs paramètres de configuration, tels que la taille au plancher de l\'escalier, ou leur type de structure.
+
+
 
 ### Barres de renforcement 
 
@@ -209,21 +295,31 @@ Les barres d\'armature sont introduites avec l\'outil [Barres d\'armature](Arch_
 
 <img alt="" src=images/Screenshot_arch_rebar.jpg  style="width:1024px;">
 
+
+
 ### Ossatures
 
 Les ossatures sont abondamment utilisées en architecture : les rampes, systèmes structuraux, murs à ossature, etc. Le nouvel outil [Ossature](Arch_Frame/fr.md) permet de créer facilement toutes sortes d\'ossatures, en combinant un profil qui peut être n\'importe quel type de forme planaire extrudable comme des rectangles ou des cercles, et un agencement. Les agencements peuvent être dessinés dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md). Ces ossatures peuvent ensuite être converties en murs ou en structure au besoin.
+
+
 
 ### Prise de cotes 
 
 Un autre outil simple mais utile maintenant disponible dans l\'atelier Arch est la [Prise de cotes](Arch_Survey/fr.md). Dans ce mode, vous cliquez sur des sommets, des arêtes, des faces ou des objets complets pour obtenir leur hauteur, longueur, aire ou volume. Cette information est affichée sur le modèle, mais aussi copiée dans le presse-papiers, et colligée au format texte. Il est donc facile de la coller dans d\'autres applications et de vous procurer un flux de travail efficace pour la rédaction de liste de quantités.
 
+
+
 ### Tutoriel
 
 Un nouveau [tutoriel](Arch_tutorial.md) de 35 pages décrit l\'atelier Arch dans tous ses détails, en suivant un exercice complet.
 
+
+
 ### Import/export du format IFC 
 
 Beaucoup de travail a été accompli à la fois sur FreeCAD et [IfcOpenShell](http://www.ifcopenshell.org), qui est le logiciel gérant les fichiers IFC sous l\'atelier Arch. L\'utilisation d\'une [version de développement](http://github.com/aothms/IfcOpenShell) de IfcOpenShell, en plus de permettre un gain de performance spectaculaire lors de l\'importation de fichiers IFC de taille moyenne (enciron 50 Mo), permet également à FreeCAD d\'exporter des modèles au format IFC. Cette fonctionnalité, bien que toujours aux premiers stades de développement, peut déjà exporter des fichiers lisibles sans erreurs par les applications majeures supportant ce format.
+
+
 
 ## Liste complète 
 

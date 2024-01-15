@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher CreateArc
    Name/de: Sketcher BogenErstellen
-   MenuLocation: Sketch , Skizzengeometrien , Bogen aus Mittelpunkt erstellen
+   MenuLocation: Skizze , Skizzengeometrien , Kreisbogen um Mittelpunkt erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **A**
    SeeAlso: Sketcher_CompCreateCircle/de
@@ -24,8 +24,8 @@ Beim starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz m
 
 ## Anwendung
 
--   Wähle einen Punkt in einen leeren Bereich der 3D Ansicht, oder auf einem bestehenden Objekt (Auto Beschränkungen müssen in der AufgabenAnsicht aktiviert sein)
--   Drücken von **Esc** oder klicken der rechten Maustaste bricht die Funktion ab.
+-   Punkte in einem leeren Bereich der 3D-Ansicht oder auf einem bestehenden Objekt auswählen (Automatische Randbedingungen müssen im [Aufgaben-Bereich](Task_panel/de.md) aktiviert sein)
+-   Das Drücken von **Esc** oder ein Klick mit der rechten Maustaste bricht die Funktion ab.
 
 
 

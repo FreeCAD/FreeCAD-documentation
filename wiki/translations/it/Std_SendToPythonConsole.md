@@ -34,9 +34,8 @@ A seconda dell\'oggetto selezionato e delle sue forme secondarie selezionate, se
 |              | L\'oggetto collegato (se l\'oggetto selezionato è un collegamento)                                                                                     |
 +++
 |  | A seconda del tipo di {{Incode|obj}}:                                                                                                    |
-| {{Incode|shp}}  | La proprietà {{Incode|Shape}} di {{Incode|obj}} (per oggetti derivati ​​dalla classe                                         |
-|              | {{Incode|Part::Feature}})                                                                                                                |
-|                 | La proprietà {{Incode|Mesh}} di {{Incode|obj}} (per gli oggetti Mesh)                                                      |
+| {{Incode|shp}}  | La proprietà {{Incode|Shape}} di {{Incode|obj}} (per oggetti derivati ​​dalla classe {{Incode|Part::Feature}}) |
+|              | La proprietà {{Incode|Mesh}} di {{Incode|obj}} (per gli oggetti Mesh)                                                      |
 |                 | La proprietà {{Incode|Points}} di {{Incode|obj}} (per oggetti Points)                                                      |
 +++
 |  | La prima forma secondaria selezionata (creata solo se è selezionata almeno una forma secondaria)                                                       |

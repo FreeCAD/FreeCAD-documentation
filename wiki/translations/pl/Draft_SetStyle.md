@@ -1,163 +1,173 @@
 ---
  GuiCommand:
    Name: Draft SetStyle
-   MenuLocation: Utilities , Set style
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Ustaw styl
+   MenuLocation: Narzędzia , Ustaw styl
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **S** **S**
    Version: 0.19
-   SeeAlso: Draft_AnnotationStyleEditor, Draft_ApplyStyle
+   SeeAlso: Draft_AnnotationStyleEditor/pl, Draft_ApplyStyle/pl
 ---
 
 # Draft SetStyle/pl
 
-## Description
 
-The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Ustaw styl** ustawia domyślny styl dla nowych obiektów.
 
 <img alt="" src=images/Draft_SetStyle_Taskpanel.png  style="width:" height="550px;"> 
-*The Style settings task panel*
+*Panel zadań ustawień stylu.*
 
-## Usage
 
-1.  There are several ways to invoke the command:
-    -   Press the ![](images/Draft_tray_button_style.png ) button in the [Draft Tray](Draft_Tray.md). Depending on the current style settings this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style** option from the menu.
-    -   Use the keyboard shortcut: **S** then **S**. <small>(v0.20)</small> 
-2.  The **Style settings** task panel opens. See [Options](#Options.md) for more information.
-3.  Optionally change one or more settings.
-4.  Press the **OK** button to save the settings.
-5.  The button in the [Draft Tray](Draft_Tray.md) is updated.
 
-## Options
+## Użycie
 
--   From the dropdown list at the top of the task panel an exiting style preset can be selected. <small>(v0.20)</small> 
--   Press the **<img src="images/Document-save.svg" width=16px> Save style** button to save the style settings as a preset. <small>(v0.20)</small> 
--   In the **Lines and faces** section the following settings can be specified:
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk ![](images/Draft_tray_button_style.png ) w [tacce narzędziowej](Draft_Tray/pl.md). W zależności od bieżących ustawień stylu przycisk ten może wyglądać inaczej.
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_SetStyle.svg" width=16px> Ustaw styl**.
+    -   Użyj skrótu klawiaturowego: **S**, a następnie **S**.
+2.  Otworzy się panel zadań **Ustawienia stylu**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Opcjonalnie można zmienić jedno lub więcej ustawień.
+4.  Naciśnij przycisk **OK**, aby zapisać ustawienia.
+5.  Przycisk w [tacce narzędziowej](Draft_Tray/pl.md) zostanie zaktualizowany.
+
+
+
+## Opcje
+
+-   Z rozwijanej listy w górnej części panelu zadań można wybrać bieżące ustawienie stylu.
+-   Naciśnij przycisk **<img src="images/Document-save.svg" width=16px>**, aby zapisać bieżące ustawienia stylu jako ustawienie wstępne.
+-   W sekcji **Kształty** można określić następujące ustawienia:
     -   
-        **Line color**
-        
-        . This is also used for annotations (<small>(v0.21)</small> ) and for the **Point Color** of objects.
-
-    -   
-        **Line width**
-        
-        . This is also used for annotations (<small>(v0.21)</small> ) and for the **Point Size** of objects.
-
-    -   
-        **Draw style**
+        **Kolor kształtu**
         
         .
 
     -   
-        **Display mode**
+        **Przezroczystość**
         
         .
 
     -   
-        **Shape color**
+        **Kolor linii**
         
         .
 
     -   
-        **Transparency**
-        
-        .
--   The settings in the **Annotations** section apply to [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The following settings can be specified (see [Draft Text](Draft_Text#View.md) for details):
-    -   
-        **Text font**
+        **Szerokość linii**
         
         .
 
     -   
-        **Text size**
+        **Kolor punktu**
         
-        . This is in fact the default line height, the letters are smaller.
+        . {{Version/pl|0.22}}
 
     -   
-        **Text color**
+        **Rozmiar punktu**
+        
+        . {{Version/pl|0.22}}
+
+    -   
+        **Styl kreślenia**
         
         .
 
     -   
-        **Line spacing**
+        **Tryb wyświetlania**
         
-        . Not used for dimensions. <small>(v0.20)</small> 
--   In the **Dimensions** section the following settings can be specified (see [Draft Dimension](Draft_Dimension#View.md) for details):
+        .
+-   Ustawienia w sekcji **Adnotacje** mają zastosowanie do [Adnotacja wieloliniowa](Draft_Text.md), [Wymiarów](Draft_Dimension.md) i [Etykiet](Draft_Label.md). Można określić następujące ustawienia (zobacz [Draft Text](Draft_Text#View.md) aby uzyskać szczegółowe informacje):
     -   
-        **Arrow style**
+        **Kolor tekstu**
         
         .
 
     -   
-        **Arrow size**
+        **Nazwa czcionki**
         
         .
 
     -   
-        **Dim overshoot**
+        **Rozmiar czcionki**
         
-        . <small>(v0.21)</small> 
+        . W rzeczywistości jest to domyślna wysokość wiersza, litery są mniejsze.
 
     -   
-        **Ext lines**
+        **Odstępy między wierszami**
         
-        . <small>(v0.21)</small> 
+        . Nie używane dla wymiarów.
 
     -   
-        **Ext overshoot**
+        **Mnożnik skali**
         
-        . <small>(v0.21)</small> 
+        . Jest to odwrotność skali ustawionej w [widżecie skalowania adnotacji](Draft_annotation_scale_widget/pl.md). Jeśli skala wynosi {{value|1:100}}, mnożnik wynosi {{Value|100}}. {{Version/pl|0.22}}
+-   W sekcji **Wymiary** można określić następujące ustawienia (zobacz stronę [wymiary](Draft_Dimension/pl#Widok.md) aby uzyskać szczegółowe informacje):
+    -   
+        **Kolor linii i strzałek**
+        
+        . {{Version/pl|0.22}}
 
     -   
-        **Text spacing**
+        **Szerokość linii**
         
-        . <small>(v0.20)</small> 
+        . {{Version/pl|0.22}}
 
     -   
-        **Show units**
+        **Styl strzałki**
         
         .
 
     -   
-        **Unit override**
+        **Rozmiar strzałki**
         
         .
--   Press the **<img src="images/Draft_SetStyle.svg" width=16px> Selected** button to apply the settings to selected objects or groups. Objects can be selected while the task panel is open. <small>(v0.20)</small> 
--   Press the **<img src="images/Draft_Text.svg" width=16px> Annotations** button to apply the settings to all [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md) in the current document. <small>(v0.21)</small> 
--   Press the **Cancel** button to finish the command without saving the settings.
 
-## Notes
+    -   
+        **Wyświetlaj jednostki**
+        
+        .
 
--   The **Line color**, **Line width**, **Shape color** and **Transparency** settings are not only used for Draft objects, but also for objects created with other workbenches.
--   Styles are saved in a file with a fixed name: **StylePresets.json** which is stored in FreeCAD\'s user **Draft** folder:
-    -   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Draft/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Draft/** ({{VersionMinus|0.19}}).
-    -   On Windows it is **%APPDATA%\FreeCAD\Draft\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Draft\**.
-    -   On macOS it is usually **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
+    -   
+        **Zastępuj jednostki**
+        
+        .
 
-## Preferences
+    -   
+        **Przedłużenie wymiaru**
+        
+        . {{Version/pl|0.21}}
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+    -   
+        **Linie pomocnicze**
+        
+        . {{Version/pl|0.21}}
 
-The following preferences are involved:
+    -   
+        **Przedłużenie linii pomocniczych**
+        
+        . {{Version/pl|0.21}}
 
--   Line color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line color** and **Vertex color**.
--   Line width: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Line width** and **Vertex size**.
--   Draw style: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDrawStyle**.
--   Display mode: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultDisplayMode**.
--   Shape color: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape color**.
--   Transparency: **Edit → Preferences... → Part/Part Design → Shape appearance → Default Shape view properties → Shape transparency**.
--   Text font: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font family**.
--   Text size: **Edit → Preferences... → Draft → Texts and dimensions → Text settings → Font size**.
--   Text color: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DefaultTextColor**.
--   Line spacing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → LineSpacing**.
--   Arrow style: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Arrow style**.
--   Arrow size: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Arrow size**.
--   Dim overshoot: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Dimension line overshoot**.
--   Ext lines: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Extension lines size**.
--   Ext overshoot: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Extension line overshoot**.
--   Text spacing: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Text spacing**.
--   Show units: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Show the unit suffix in dimensions**.
--   Unit override: **Edit → Preferences... → Draft → Texts and dimensions → Dimension settings → Override unit**.
+    -   
+        **Odstępy w tekście**
+        
+        .
+-   Naciśnij przycisk **<img src="images/Draft_SetStyle.svg" width=16px> Zaznaczone**, aby zastosować ustawienia do wybranych obiektów lub grup. Obiekty można zaznaczać, gdy panel zadań jest otwarty.
+-   Naciśnij przycisk **<img src="images/Draft_Text.svg" width=16px> Adnotacje**, aby zastosować ustawienia do wszystkich [adnotacja wieloliniowych](Draft_Text/pl.md), [wymiarów](Draft_Dimension/pl.md) i [etykiet](Draft_Label/pl.md) w bieżącym dokumencie. {{Version/pl|0.21}}
+-   Naciśnij przycisk **Anuluj**, aby zakończyć polecenie bez zapisywania ustawień.
+
+
+
+## Uwagi
+
+-   Ustawienia w sekcji **Kształty**, z wyjątkiem **Styl rysowania** i **Tryb wyświetlania**, są używane nie tylko dla obiektów środowiska Rysunek Roboczy, ale także dla obiektów utworzonych w innych środowiskach pracy.
+-   Wszystkie ustawienia, z wyjątkiem **Styl rysowania** i **Tryb wyświetlania**, można również zmienić w preferencjach. Zobacz stronę [Preferencje środowiska Projekt Części](PartDesign_Preferences/pl#Wygląd_kształtu.md) i [Preferencje środowiska Rysunek Roboczy](Draft_Preferences/pl#Teksty_i_wymiary.md).
+-   Style są zapisywane w pliku o określonej nazwie: **StylePresets.json**, który jest przechowywany w folderze użytkownika FreeCAD **Draft**:
+    -   W systemie Linux jest to zazwyczaj **/home/<nazwa użytkownika>/.local/share/FreeCAD/Draft/**.
+    -   W systemie Windows jest to **%APPDATA%\FreeCAD\Draft\**, który zwykle znajduje się w **C:\Users\<username>\Appdata\Roaming\FreeCAD\Draft\**.
+    -   Na macOS jest to zazwyczaj **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
 
 
 

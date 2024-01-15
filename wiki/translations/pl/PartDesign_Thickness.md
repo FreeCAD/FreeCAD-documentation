@@ -16,7 +16,7 @@
 
 Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Grubość** przekształca bryłę w pusty obiekt z przynajmniej jedną otwartą ścianą, nadając każdej z pozostałych ścian jednolitą grubość. Dodaje do dokumentu obiekt **Grubość** wraz z jego odpowiednią reprezentacją w [widoku drzewa](Tree_view/pl.md).
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:400px;"> 
 *Bryła bazowa ''(A)'' → Bryła z wybraną ścianą do otwarcia ''(B)'' → Powstały pusty obiekt ''(C)''.*
 
 
@@ -110,7 +110,7 @@ Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;">
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
@@ -122,6 +122,8 @@ Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i 
 {{Properties_Title|Podstawowe}}
 
 -    **Base|LinkSub**: Link podrzędny do listy wybranych krawędzi i ścian cechy nadrzędnej.
+
+-    **Podparcie przemieszczenia|Bool**: Uwzględnia bazowy kształt addytywny / subtraktywny, gdy jest używany w funkcjach wzorca. Jeśli opcja jest wyłączona, tylko ubrana część kształtu jest używana do wzorowania. Wartość domyślna: {{FALSE/pl}}.
 
 -    **Support Transform|Bool**: \"Uwzględnij bazowy kształt addytywny/subtraktywny, gdy jest używany w cechach wzorcowych. Jeśli wyłączone, tylko ubrana część kształtu jest używana do wzorowania\". Domyślnie: `False`.
 
@@ -140,15 +142,15 @@ Obiekt Grubość wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i 
 
 {{Properties_Title|Grubość}}
 
--    **Value|Długość**: \"Wartość grubości\". Domyślnie: {{value|1 mm}}.
+-    **Value|Długość**: Wartość grubości. Domyślnie: {{value|1 mm}}.
 
--    **Tryb|Enumeration**: \"Tryb\". {{value|Powłoka}} *(domyślnie)*, {{value|Rura}} lub {{Value|Obie strony}}. Tylko opcja {{value|Powłoka}} jest zaimplementowana.
+-    **Tryb|Enumeration**: Tryb. {{value|Powłoka}} *(domyślnie)*, {{value|Rura}} lub {{Value|Obie strony}}. Tylko opcja {{value|Powłoka}} jest zaimplementowana.
 
--    **Dołącz|Enumeration**: \"Tryb dołączenia\". {{value|Łuk}} *(domyślnie)* lub {{Value|Przecięcie}}.
+-    **Dołącz|Enumeration**: Tryb dołączenia. {{value|Łuk}} *(domyślnie)* lub {{Value|Przecięcie}}.
 
--    **Odwrócony|Bool**: \"Stwórz grubość do wewnątrz\". Domyślnie: {{FALSE/pl}}.
+-    **Odwrócony|Bool**: Stwórz grubość do wewnątrz. Domyślnie: {{FALSE/pl}}.
 
--    **Przecięcie|Bool**: \"Włącz obsługę przecięć\". Domyślnie: {{FALSE/pl}}.
+-    **Przecięcie|Bool**: Włącz obsługę przecięć. Domyślnie: {{FALSE/pl}}.
 
 
 

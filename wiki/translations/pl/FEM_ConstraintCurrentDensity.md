@@ -1,78 +1,40 @@
 ---
  GuiCommand:
    Name: FEM ConstraintCurrentDensity
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint current density
-   Workbenches: FEM_Workbench
+   Name/pl: MES: Warunek brzegowy gęstości prądu
+   MenuLocation: Model , Warunki brzegowe elektromagnetyczne , Warunek brzegowy gęstości prądu
+   Workbenches: FEM_Workbench/pl
    Version: 0.21
-   SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D
+   SeeAlso: FEM_EquationMagnetodynamic/pl, FEM_EquationMagnetodynamic2D/pl
 ---
 
 # FEM ConstraintCurrentDensity/pl
 
 
-</div>
 
+## Opis
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Description
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Creates a FEM constraint for the current density. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Usage
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Press the **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [FEM ConstraintCurrentDensity](FEM_ConstraintCurrentDensity.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Constraint current density**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
-3.  Press the **Add** button.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Options
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   **Current density\_\*\_1**: The real/imaginary part of the current density in x-direction in A/m². For other coordinate systems than Cartesian 3D, this will be the first coordinate of the system instead of x.
--   **Current density\_\*\_2**: The real/imaginary part of the current density in y-direction in A/m². For other coordinate systems than Cartesian 3D, this will be the second coordinate of the system instead of y.
--   **Current density\_\*\_3**: The real/imaginary part of the current density in z-direction in A/m². For other coordinate systems than Cartesian 3D, this will be the third coordinate of the system instead of z. If the coordinate system has no third coordinate, this setting will be ignored.
--   **Current density\_\*\_\*\_Disabled**: Whether the corresponding parameter is disabled (assumed as unknown by the solver).
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Tworzy warunek brzegowy MES gęstości prądu. Używane z równaniami [magnetodynamicznym](FEM_EquationMagnetodynamic/pl.md) i [magnetodynamicznym 2D](FEM_EquationMagnetodynamic2D/pl.md).
 
 
 
+## Użycie
+
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Warunek brzegowy gęstości prądu](FEM_ConstraintCurrentDensity/pl.md)** lub wybierz opcję **Model → Warunki brzegowe elektromagnetyczne → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Warunek brzegowy gęstości prądu** z menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego chcesz przypisać warunek brzegowy.
+3.  Wciśnij przycisk **Dodaj**.
 
 
-</div>
+
+## Opcje
+
+-   **Gęstość prądu\_\*\_1**: Część rzeczywista/urojona gęstości prądu w kierunku x w A/m². Dla układów współrzędnych innych niż kartezjański 3D, będzie to pierwsza współrzędna układu zamiast x.
+-   **Gęstość prądu\_\*\_2**: Część rzeczywista/urojona gęstości prądu w kierunku y w A/m². Dla układów współrzędnych innych niż kartezjański 3D, będzie to druga współrzędna układu zamiast y.
+-   **Gęstość prądu\_\*\_3**: Część rzeczywista/urojona gęstości prądu w kierunku z w A/m². Dla układów współrzędnych innych niż kartezjański 3D, będzie to trzecia współrzędna układu zamiast z. Jeśli układ współrzędnych nie ma trzeciej współrzędnej, to ustawienie zostanie zignorowane.
+-   **Gęstość prądu\_\*\_\*̠nieokreślona**: Czy dany parametr ma być wyłączony (traktowany jako niewiadoma przez solver).
+
+
+
 
 
 {{FEM Tools navi

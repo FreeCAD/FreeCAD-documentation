@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionThreadBoltSide
    Name/de: TechDraw ErgänzungAußengewindeSeitlich
-   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Thread Bolt Side View
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde , Hilfslinien für Außengewinde in Seitenansicht hinzufügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw ErgänzungAußengewindeSeitlich** ergänzt ein von der Seite gesehenes Außengewinde (Schraube, Bolzen, Gewindestange) mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungAußengewindeSeitlich** ergänzt ein von der Seite gesehenes Außengewinde (Schraube, Bolzen, Gewindestange) mit 2 Gewindelinien (Hilfslinien - Cosmetic lines).
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:300px;"> 
 *Rechts ein Bolzen mit Gewindedarstellung*
@@ -30,18 +24,12 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style=
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional: definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
-2.  Wähle zwei parallele Linien.
-3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Add Cosmetic Thread Bolt Side View** Option aus dem Menü.
+1.  Optional: Die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes.md).
+2.  Zwei parallele Linien auswählen.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Hilfslinien für Außengewinde in Seitenansicht hinzufügen](TechDraw_ExtensionThreadBoltSide/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Hilfslinien für Außengewinde in Seitenansicht hinzufügen** auswählen.
 4.  Ein symbolisches Gewinde wird eingefügt.
-
-
-</div>
 
 
 

@@ -1,58 +1,72 @@
 # Cfd Workbench/pl
-## Introduction
+## Wprowadzenie
 
 
 
 
-Computional Fluid Dynamics (CFD) for FreeCAD based on OpenFOAM solver
+Kompaktowa dynamika płynów *(**C**omputional **F**luid **D**ynamics CFD)* dla FreeCAD oparta na solverze OpenFOAM
 
 <img alt="" src=images/FreeCAD_CFDworkbench_screenshot.png  style="width:512px;">
 
-## References
 
--   Author: qingfengxia Qingfeng Xia
--   Home page: <https://github.com/qingfengxia>
--   Source code on <https://github.com/qingfengxia/Cfd>
 
-## Tools
+## Bibliografia
 
-Detailed description
+-   Autor: qingfengxia Qingfeng Xia
+-   Strona główna: <https://github.com/qingfengxia>
+-   Kod źródłowy na <https://github.com/qingfengxia/Cfd>
 
-## Installation
 
-### Automatic installation 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
+## Narzędzia
 
-### From GitHub 
+Szczegółowy opis
 
-How to [here](https://github.com/qingfengxia/Cfd)
 
-**Prerequisites**
 
-To use CFD for FreeCAD
+## Instalacja
 
--   FreeCAD version \> 0.17
+
+
+### Instalacja automatyczna 
+
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
+
+
+
+### Z repozytorium GitHub 
+
+Jak to zrobić przeczytasz w serwisie [GitHub](https://github.com/qingfengxia/Cfd)
+
+**Wymagania wstępne**
+
+Aby korzystać z CFD dla FreeCAD
+
+-   Wymagany jest FreeCAD {{VersionPlus/pl|0.17}}
 -
-**Linux Installation Instructions** (From GitHub)
+**Instrukcja instalacji dla systemu Linux** *(z GitHub)*
 
-**Windows Installation Instructions** (From GitHub)
+**Instrukcja instalacji dla systemu Windows** *(z GitHub)*
 
-**Mac Installation Instructions** (From GitHub)
+**Instrukcja instalacji dla systemu MacOS** *(z GitHub)*
 
-## Links to CFD WB 
 
--   Workbench Wiki:
+
+## Linki do środowiska pracy CFD 
+
+-   Wiki środowiska pracy:
 -   FreeCAD Wiki:
 -   FreeCAD Forum: [7895](http://forum.freecadweb.org/viewtopic.php?f=24&t=7895), [11652](http://forum.freecadweb.org/viewtopic.php?t=11652) [16947](http://forum.freecadweb.org/viewtopic.php?t=16947), [17322](http://forum.freecadweb.org/viewtopic.php?t=17322)
--   Tutorials:
--   Videos:
--   Files:
--   Report bugs: Please report bugs at
+-   Poradniki:
+-   Filmy:
+-   Pliki:
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów pod adresem
 
-## Other useful links 
 
--   [Macros recipes](Macros_recipes.md)
+
+## Inne użyteczne odnośniki 
+
+-   [Przepisy na makrodefinicje](Macros_recipes/pl.md)
 
 
 

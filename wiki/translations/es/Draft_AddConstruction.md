@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -22,6 +24,8 @@ Este comando agrega los objetos seleccionados a la [Draft Construction group](Dr
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

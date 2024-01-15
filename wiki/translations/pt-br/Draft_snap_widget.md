@@ -28,7 +28,7 @@ See [Draft Snap](Draft_Snap.md).
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The Draft snap widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Draft snap widget**.
+-   The Draft snap widget is optional: **Edit → Preferences... → Draft → Interface → Show the Snap widget in the Draft Workbench**.
 
 
 

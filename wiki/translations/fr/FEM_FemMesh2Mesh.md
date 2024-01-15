@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage, ou convertit un maillage FEM 2D en maillage. En pratique, il sélectionne les faces des éléments du maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il permet de créer un maillage déformé par l\'action des forces définies. Ceci est fait en ajoutant le déplacement des résultats de la FEM aux nœuds du maillage (l\'échelle du déplacement peut être définie par Python).
+Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélectionné en maillage ou convertit un maillage FEM 2D en maillage. En pratique, il sélectionne les faces des éléments d\'un maillage FEM qui sont uniques (non partagées par deux éléments) et les utilise pour créer les faces d\'un maillage. En outre, il peut être utilisé pour sauvegarder un maillage déformé. Cela se fait en ajoutant le déplacement des résultats FEM aux nœuds du maillage (l\'échelle du déplacement peut être définie à l\'aide de Python).
 
 
 
@@ -21,7 +21,7 @@ Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélection
 2.  Vous pouvez également sélectionner les résultats FEM.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_FemMesh2Mesh.svg" width=16px> [Maillage FEM à maillage](FEM_FemMesh2Mesh/fr.md)**.
-    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** dans le menu.
+    -   Sélectionnez l\'option **Maillage → <img src="images/FEM_FemMesh2Mesh.svg" width=16px> Maillage FEM à maillage** du menu.
 
 
 
@@ -29,31 +29,21 @@ Cet outil convertit les surfaces des éléments 3D d\'un maillage FEM sélection
 
 **Remarque** : le paramètre *scale* est {{Version/fr|0.21}}. Pour les anciennes versions de FreeCAD, il faut l\'omettre de votre code.
 
-Si vous avez seulement besoin du facteur d\'échelle de déplacement, vérifiez le nom de votre objet de maillage et le facteur d\'échelle dans le code suivant :
-
-
-```python
-import femmesh.femmesh2mesh
-mesh_obj = FEMMeshGmsh  # the name of your mesh object
-scale = 5  # displacement scale factor
-out_mesh = femmesh.femmesh2mesh.femmesh_2_mesh(FreeCAD.ActiveDocument.mesh_obj.FemMesh, FreeCAD.ActiveDocument.CCX_Results, scale)
-import Mesh
-Mesh.show(Mesh.Mesh(out_mesh))
-```
-
 L\'exemple du cantilever :
 
 
 ```python
 from os.path import join
-the_file = join(FreeCAD.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
-fc_file = FreeCAD.openDocument(the_file)
-fem_mesh = fc_file.getObject("Box_Mesh").FemMesh  # do not remove the _
-result = fc_file.getObject("CCX_Results")
-scale = 1  # displacement scale factor
-from femmesh import femmesh2mesh
-out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
+import FreeCAD as App
 import Mesh
+from femmesh import femmesh2mesh
+
+path = join(App.getResourceDir(), "examples", "FemCalculixCantilever3D.FCStd")
+doc = App.openDocument(path)
+fem_mesh = doc.Box_Mesh.FemMesh
+result = doc.CCX_Results
+scale = 1  # displacement scale factor
+out_mesh = femmesh2mesh.femmesh_2_mesh(fem_mesh, result, scale)
 Mesh.show(Mesh.Mesh(out_mesh))
 ```
 

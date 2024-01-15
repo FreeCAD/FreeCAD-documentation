@@ -12,18 +12,29 @@
 
 # Std ViewDockUndockFullscreen/ru
 
+
+</div>
+
+
+
 ## Введение
 
 [Окно трёхмерного просмотра](3D_view/ru.md) можно отсоединить от основного [интерфейса FreeCAD](Interface/ru.md) и, например, переместить на другой дисплей.
 
-![](images/FinestraNonAgganciata.png ) 
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
 *Отстыкованный трёхмерный вид*
 
+
+
 ## Пристыкованное
+
+
 
 ### Описание
 
 The **Docked** menu option docks the active [3D view](3D_view.md) inside the main FreeCAD interface.
+
+
 
 ### Применение
 
@@ -33,11 +44,17 @@ The **Docked** menu option docks the active [3D view](3D_view.md) inside the mai
     -   Select the **Document window → Docked** option from the 3D view context menu.
     -   Use the keyboard shortcut: **V** then **D**.
 
+
+
 ## Отстыкованное
+
+
 
 ### Описание 
 
 The **Undocked** menu option undocks the active [3D view](3D_view.md) from the main FreeCAD interface.
+
+
 
 ### Применение 
 
@@ -46,6 +63,8 @@ The **Undocked** menu option undocks the active [3D view](3D_view.md) from the m
     -   Select the **View → Document window → Undocked** option from the menu.
     -   Select the **Document window → Undocked** option from the 3D view context menu.
     -   Use the keyboard shortcut: **V** then **U**.
+
+
 
 ## Примечания
 

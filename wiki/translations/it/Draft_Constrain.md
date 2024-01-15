@@ -1,77 +1,57 @@
 # Draft Constrain/it
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-Gli strumenti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) consentono di selezionare punti, distanze, raggi e angoli graficamente facendo clic sulla vista 3D con il puntatore.
+Oltre all\'inserimento delle coordinate o all\'uso degli [agganci](Draft_Snap/it.md) (snap), esiste una funzione chiamata vincolo che aiuta a disegnare con precisione in ambiente <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md). Per ogni punto successivo è possibile vincolare il movimento del cursore alla direzione X, Y o Z del sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). Questo può essere utilizzato ad esempio per creare una linea perfettamente verticale.
+
+I vincoli sono disponibili con la maggior parte dei comandi [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
+
+![](images/Draft_Constrain_taskpanel_example.png ) 
+*Mentre il cursore è vincolato, il pannello delle attività blocca i valori che non vengono modificati*
 
 
-</div>
 
-Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
+## Utilizzo vincoli orizzontali e verticali 
 
-![](images/Draft_Constrain_taskpanel_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-![](images/Draft_Constrain_Shift_Taskview_example.png ) 
-*La scheda Azioni quando si utilizza un vincolo orizzontale mentre si tiene premuto il tasto Maiusc*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Vincoli orizzontali e verticali 
+1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+2.  Scegliere un primo punto. È necessario un punto precedente.
+3.  Effettuare una delle seguenti operazioni:
+    -   Per un vincolo orizzontale: spostare il cursore a sinistra o a destra del punto precedente.
+    -   Per un vincolo verticale: spostare il cursore sopra o sotto il punto precedente.
+4.  Tenere premuto **Shift**.
+5.  Il cursore è ora vincolato.
+6.  Scegliere il punto successivo.
+7.  Se il comando è ancora attivo: facoltativamente rilasciare **Shift** per disabilitare il vincolo.
+8.  Rilasciare sempre **Shift** al termine del comando.
 
 
-</div>
+
+## Utilizzo vincoli X, Y e Z 
+
+1.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+2.  Scegliere un primo punto. È necessario un punto precedente.
+3.  Premere **X**, **Y** o **Z** per specificare la direzione.
+4.  Il cursore è ora vincolato.
+5.  Scegliere il punto successivo.
+6.  Se il comando è ancora attivo, opzionalmente, eseguire una delle seguenti operazioni:
+    -   Premere lo stesso tasto per disabilitare il vincolo.
+    -   Premere uno degli altri due tasti per vincolare in una direzione diversa.
+7.  I vincoli X, Y e Z vengono automaticamente disabilitati al termine del comando.
 
 
-<div class="mw-translate-fuzzy">
 
-Tenere premuto il tasto **Maiusc** mentre si disegna per vincolare in orizzontale (direzione X) o in verticale (direzione Y) il punto successivo rispetto all\'ultimo punto inserito. L\'orientamento orizzontale o verticale dipende dalla posizione del puntatore quando si preme **Maiusc**; se si è più ad est o ad ovest dall\'ultimo punto, il vincolo è orizzontale; se si è più a nord o a sud, è verticale. Per modificare l\'orientamento, rilasciare **Maiusc**, spostare il puntatore in una nuova posizione e premere nuovamente **Maiusc**.
+## Note
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Vincoli X, Y e Z 
+-   I vincoli possono essere combinati con gli [agganci](Draft_Snap/it.md).
+-   Il comando [Draft Offset](Draft_Offset/it.md) e il comando [Draft Taglia/Estendi](Draft_Trimex/it.md) utilizzano un diverso tipo di vincolo, ovvero per limitare l\'operazione a un determinato segmento.
 
 
-</div>
 
+## Preferenze
 
-<div class="mw-translate-fuzzy">
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
-Premere uno dei tasti **X**, **Y** o **Z** keys dopo un punto per vincolare il punto successivo nella direzione X, Y o Z specificata. Premere di nuovo lo stesso tasto per rilasciare il vincolo.
-
-
-</div>
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-Alcuni strumenti, come [Offset](Draft_Offset/it.md) e [Tronca/Estendi](Draft_Trimex/it.md) utilizzano il vincolo in modo diverso. Essi non vincolano verticalmente o orizzontalmente, ma usano altri modi più adatti allo specifico utensile, come ad esempio vincolare l\'operazione a un dato segmento di una polilinea.
-
-
-</div>
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
--   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
+-   Il tasto predefinito **Modalità di Vincolo**, **Shift**, può essere modificato: **Modifica → Preferenze... → Draft → Griglia e agganci  → Modalità di Vincolo**.
+-   Le scorciatoie **X**, **Y** e **Z** possono essere modificate: **Modifica → Preferenze... → Draft → Interfaccia →  Scorciatoie comandi**.
 
 
 

@@ -29,7 +29,7 @@ Cependant, une fois qu\'un [atelier](Workbenches/fr.md) est chargé, des command
     -   
         **Créer un groupe de liens**
         
-        : [groupe simple](Std_LinkMakeGroup/fr.md), [groupe avec liens](Std_LinkMakeGroup/fr.md), [groupe avec liens de transformation](Std_LinkMakeGroup/fr.md).
+        : [Groupe simple](Std_LinkMakeGroup/fr.md), [Groupe avec liens](Std_LinkMakeGroup/fr.md), [Groupe avec liens de transformation](Std_LinkMakeGroup/fr.md).
 
 -    **[Tout adapter](Std_ViewFitAll/fr.md)**: effectue un panoramique et un zoom sur la vue pour qu\'elle s\'adapte à tous les objets du document à l\'écran.
 
@@ -37,11 +37,11 @@ Cependant, une fois qu\'un [atelier](Workbenches/fr.md) est chargé, des command
 
 -    **[Style de dessin](Std_DrawStyle/fr.md)**: tel quel, lignes plates, ombrées, fil de fer, points, ligne cachée, aucun ombrage.
 
--    **[Vues standard](Std_View_Menu/fr.md)**: [isométrique](Std_ViewIsometric/fr.md), [avant](Std_ViewFront/fr.md), [haut](Std_ViewTop/fr.md), [droite](Std_ViewRight/fr.md), [arrière](Std_ViewRear/fr.md), [bas](Std_ViewBottom/fr.md), [gauche](Std_ViewLeft/fr.md), [rotation à gauche](Std_ViewRotateLeft/fr.md), [rotation à droite](Std_ViewRotateRight/fr.md).
+-    **[Vues standard](Std_View_Menu/fr.md)**: [Isométrique](Std_ViewIsometric/fr.md), [Avant](Std_ViewFront/fr.md), [Haut](Std_ViewTop/fr.md), [Droite](Std_ViewRight/fr.md), [Arrière](Std_ViewRear/fr.md), [Bas](Std_ViewBottom/fr.md), [Gauche](Std_ViewLeft/fr.md), [Rotation à gauche](Std_ViewRotateLeft/fr.md), [Rotation à droite](Std_ViewRotateRight/fr.md).
 
--    **Mesure**: [basculer mesure](View_Measure_Toggle_All/fr.md), [effacer mesure](View_Measure_Clear_All/fr.md).
+-    **Mesure**: [Basculer mesure](View_Measure_Toggle_All/fr.md), [Effacer mesure](View_Measure_Clear_All/fr.md).
 
--    **Fenêtre de document**: [ancrée](Std_ViewDockUndockFullscreen/fr.md), [dés ancrée](Std_ViewDockUndockFullscreen/fr.md), et [plein écran](Std_ViewDockUndockFullscreen/fr.md).
+-    **Fenêtre de document**: [Ancrée](Std_ViewDockUndockFullscreen/fr.md), [Désancrée](Std_ViewDockUndockFullscreen/fr.md) et [Plein écran](Std_ViewDockUndockFullscreen/fr.md).
 
 De plus, en fonction de l\'atelier et de l\'objet actifs, d\'autres commandes contextuelles peuvent devenir disponibles.
 

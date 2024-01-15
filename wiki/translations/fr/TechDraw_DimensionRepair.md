@@ -20,10 +20,7 @@ Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Limitations.md) pou
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez la cote à corriger et, éventuellement, les nouvelles références géométriques, sommets ou arêtes, dans la vue TechDraw ou dans la [vue 3D](3D_view/fr.md).
+1.  Sélectionnez la cote à corriger et, éventuellement, les nouvelles références géométriques, points ou arêtes, dans la vue TechDraw ou dans la [vue 3D](3D_view/fr.md).
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_DimensionRepair.svg" width=16px> [Réparer les références d'une cote](TechDraw_DimensionRepair/fr.md)** bouton.
     -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_DimensionRepair.svg" width=16px>Réparer les références d'une cote** dans le menu.
@@ -31,9 +28,7 @@ Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Limitations.md) pou
 4.  Sélectionnez de nouvelles références géométriques si vous ne l\'avez pas encore fait.
 5.  Cliquez sur le bouton **Remplacer les références par la sélection courante**.
 6.  Appuyez sur le bouton **OK** pour mettre à jour la dimension.
-
-
-</div>
+7.  Si des références 3D ont été sélectionnées : il est possible de modifier la propriété **Measure Type** de la cote à {{Value|True}}.
 
 
 

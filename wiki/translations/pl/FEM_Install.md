@@ -1,7 +1,7 @@
 # FEM Install/pl
 ## Wprowadzenie
 
-Aby móc przeprowadzić analizę elementów skończonych *(MES)* w ramach środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md), FreeCAD korzysta z dwóch zewnętrznych środowisk: jedno służy do generowania [siatek](FEM_Mesh/pl.md), a drugie do numerycznego rozwiązywania właściwej analizy. Możesz sprawdzić, czy Twoja instalacja FreeCAD jest gotowa do przeprowadzenia analizy metodą elementów skończonych, uruchamiając przykład [MES CalculiX - wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md), który jest dołączany do każdej instalacji FreeCAD od wersji 0.17.
+Aby móc przeprowadzić analizę metodą elementów skończonych *(MES)* w ramach środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md), FreeCAD korzysta z dwóch zewnętrznych programów: jeden służy do generowania [siatek](FEM_Mesh/pl.md), a drugi do numerycznego rozwiązywania właściwej analizy. Możesz sprawdzić, czy Twoja instalacja FreeCAD jest gotowa do przeprowadzenia analizy metodą elementów skończonych, uruchamiając przykład [MES CalculiX - wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md), który jest dołączany do każdej instalacji FreeCAD od wersji 0.17.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *Przepływ pracy w środowisku MES. Środowisko to wywołuje dwa zewnętrzne środowiska w celu wykonania siatkowania obiektu bryłowego oraz rozwiązania problemu metodą elementów skończonych.*
@@ -10,9 +10,9 @@ Aby móc przeprowadzić analizę elementów skończonych *(MES)* w ramach środo
 
 ### Solver MES 
 
-The default solver to perform finite element calculations is [CalculiX](FEM_CalculiX.md), a simple solver for analysis of structures. FreeCAD writes a CalculiX input file, starts the solver, and reads the output, which can then be presented visually in the viewport; this means the CalculiX binary is standalone and independent from FreeCAD. Given that there are many programs that can generate a mesh, **it is recommended to install the solver, and make sure it\'s working first**.
+Domyślny solver do symulacji MES to [CalculiX](FEM_CalculiX/pl.md), prosty solver do analiz strukturalnych. FreeCAD zapisuje plik wejściowy CalculiX\'a, uruchamia solver i odczytuje wyniki, które mogą być zaprezentowane graficznie w rzutni programu. Oznacza to, że plik wykonywalny solvera CalculiX jest niezależny od programu FreeCAD. Ponieważ istnieje wiele programów do generowania siatek, **zalecane jest najpierw zainstalowanie solvera i upewnienie się, że działa prawidłowo**.
 
-If the solver is correctly installed, you may run the single command `ccx` in the terminal to obtain a simple response:
+Jeśli solver jest poprawnie zainstalowany, możesz uruchomić pojedynczą komendę `ccx` w wierszu poleceń aby uzyskać krótką odpowiedź:
 
 
 {{SystemInput|User@PC:~$ ccx}}
@@ -22,15 +22,15 @@ If the solver is correctly installed, you may run the single command `ccx` in th
 Usage: CalculiX.exe -i jobname
 ```
 
-If the solver is installed, make sure the FEM Workbench is able to find the binary; go to **Edit → Preferences → FEM → CalculiX → Search in known binary directories**. If you compiled the solver yourself, untick the option, and give the correct path to the binary. For other solvers that could be used with FreeCAD, see [FEM Solver](FEM_Solver.md).
+Jeśli solver jest zainstalowany, upewnij się, że środowisko pracy MES może znaleźć jego plik wykonywalny - przejdź do **Edycja → Preferencje ... → MES → CalculiX → Szukaj w znanych katalogach bin**. Jeśli sam skompilowałeś solver, odznacz tę opcję i podaj prawidłową ścieżkę do pliku wykonywalnego. Informacje dotyczące innych solverów, które mogą być używane z FreeCAD, można znaleźć na stronie [MES: Solver](FEM_Solver/pl.md).
 
 
 
 ### Generowanie siatki MES 
 
-In order to create a [FEM Mesh](FEM_Mesh.md), FreeCAD uses [Gmsh](http://gmsh.info/) as the default mesher. Depending on your operating system and your FreeCAD installation Gmsh may be bundled with the FreeCAD installation binaries. If it is not, you can install it separately from FreeCAD and then use the menu **Edit → Preferences → FEM → Gmsh** to set the path to the *gmsh.exe*.
+Aby utworzyć [siatkę MES](FEM_Mesh/pl.md), FreeCAD korzysta z programu [Gmsh](http://gmsh.info/) jako domyślnego generatora siatek. W zależności od Twojego systemu operacyjnego i instalacji FreeCAD, Gmsh może być dołączony do plików instalacyjnych FreeCAD. Jeśli tak nie jest, możesz go zainstalować niezależnie i skorzystać z opcji **Edycja → Preferencje → MES → Gmsh** aby ustawić ścieżkę do pliku *gmsh.exe*.
 
-If the program is correctly installed, you may run the command `gmsh` in the terminal to launch the graphical interface of the program. This interface is not used by FreeCAD but demonstrates that the program is installed.
+Jeśli program jest poprawnie zainstalowany, możesz uruchomić komendę `gmsh` w wierszu poleceń aby otworzyć jego środowisko graficzne. To środowisko nie jest używane przez FreeCAD, ale pokazuje, że program jest zainstalowany.
 
 
 {{SystemInput|User@PC:~$ gmsh -info}}
@@ -51,15 +51,15 @@ Web site         : http://gmsh.info
 Mailing list     : gmsh@onelab.info
 ```
 
-If the mesher is installed, make sure the FEM Workbench is able to find the binary; go to **Edit → Preferences → FEM → Gmsh → Search in known binary directories**. If you compiled the mesher yourself, untick the option, and give the correct path to the binary. See [FEM Mesh](FEM_Mesh.md) for various possibilities of obtaining a valid mesh for analysis.
+Jeśli zainstalowany jest generator siatek, upewnij się, że środowisko pracy MES może znaleźć jego plik wykonywalny - przejdź do **Edycja → Preferencje → MES → Gmsh → Szukaj w znanych katalogach bin**. Jeśli sam skompilowałeś generator siatek, odznacz tę opcję i podaj prawidłową ścieżkę do pliku wykonywalnego. Zobacz stronę [MES: Siatka](FEM_Mesh/pl.md) aby poznać różne możliwości uzyskiwania siatek do analiz.
 
 
 
 ### Netgen
 
-In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
+Do utworzenia siatki MES możesz również skorzystać z generatora *Netgen*, jako alternatywy dla *Gmsh*. W zależności od Twojego systemu operacyjnego i instalacji FreeCAD, Netgen może być dołączony do plików instalacyjnych FreeCAD.
 
-If the program is correctly installed, you can run the command `netgen` in the terminal under Linux to launch the graphical interface of the program.
+Jeśli program jest poprawnie zainstalowany, możesz uruchomić komendę `netgen` w wierszu poleceń Linux aby otworzyć jego środowisko graficzne.
 
 
 {{SystemInput|User@PC:~$ netgen -V}}
@@ -86,7 +86,7 @@ OCC module loaded
 
 ## Instalacja w środowisku Windows 
 
-The FreeCAD packages available from the [download](Download.md) page already include Netgen and CalculiX, so no additional software needs to be installed. Some links where to get a better Calculix executable than included in FreeCAD can be found here [alternative ccx executables](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164)
+Paczki z programem FreeCAD dostępne na stronie [pobierania](Download/pl.md) zawierają już Netgen i CalculiX, więc nie jest wymagana instalacja żadnego dodatkowego oprogramowania. Linki z informacjami gdzie znaleźć lepsze pliki wykonywalne solvera CalculiX niż te dołączone do FreeCAD, można znaleźć w [tym wątku na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -95,7 +95,7 @@ The FreeCAD packages available from the [download](Download.md) page already inc
 
 ## Instalacja w środowisku Linux 
 
-Linux distributions have different ways of installing software. Many distributions have software repositories and package managers; before compiling source code, look in your package manager for `netgen`, `gmsh`, `calculix-ccx` or `ccx`, and install them following the instructions of your own distribution.
+Dystrybucje Linuxa mają różne sposoby instalowania oprogramowania. Wiele z nich posiada repozytoria oprogramowania i menedżery paczek. Przed skompilowaniem kodu źródłowego poszukaj w swoim menedżer paczek haseł `netgen`, `gmsh`, `calculix-ccx` lub `ccx` i zainstaluj te programy zgodnie z instrukcjami dla Twojej dystrybucji.
 
 
 <div class="mw-collapsible-content">
@@ -104,9 +104,9 @@ Linux distributions have different ways of installing software. Many distributio
 
 ### Instalacja w środowisku Ubuntu PPA 
 
-The [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) and [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) personal package archives (PPA) provide a more recent version of FreeCAD than is available in the official Ubuntu repositories. These PPAs include the most recent `netgen`, `gmsh`, and `calculix-ccx` packages as well. See [Installing on Linux](Installing_on_Linux.md) for more information on setting up the repositories.
+Archiwa PPA [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) i [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) zapewniają nowszą wersję programu FreeCAD niż ta dostępna w oficjalnych repozytoriach Ubuntu. Te PPA zawierają też najnowsze paczki `netgen`, `gmsh` i `calculix-ccx`. Zobacz stronę [Instalacja na Linux](Installing_on_Linux/pl.md) aby uzyskać więcej informacji o ustawianiu repozytoriów.
 
-If a PPA is already added to your system, install the packages as follows
+Jeśli PPA jest już dodane do Twojego systemu, zainstaluj paczki jak opisano poniżej
 
 
 ```python
@@ -115,37 +115,37 @@ sudo apt-get install gmsh
 sudo apt-get install calculix-ccx
 ```
 
-The [freecad-community](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) PPA also provides `netgen`, `gmsh`, and `calculix-ccx` packages for testing. If they are stable enough, they may be added to the daily or stable repositories. The binaries for ccx 2.14 work on Debian Stretch, but not on Debian Buster due to dependency problems.
+PPA [freecad-community](https://launchpad.net/~freecad-community/+archive/ubuntu/ppa) również zapewnia paczki `netgen`, `gmsh` i `calculix-ccx` do testowania. Jeśli są one wystarczająco stabilne, można je dodać do repozytoriów daily lub stable. Pliki wykonywalne dla ccx 2.14 działają w OS Debian Stretch, ale nie w Debian Buster ze względu na problemy z zależnościami.
 
 
-**Note:**
+**Uwaga:**
 
-the thread [Ubuntu Repository](http://forum.freecadweb.org/viewtopic.php?f=18&t=10393) discusses the creation of the Ubuntu PPA packages. At the time it was written, CalculiX was not included in the Debian repositories, so there were several personal packages in Launchpad. Only one package should be installed.
+wątek [Ubuntu Repository](http://forum.freecadweb.org/viewtopic.php?f=18&t=10393) na forum omawia tworzenie paczek Ubuntu PPA. W momencie jego tworzenia, CalculiX nie był uwzględniony w repozytoriach Debiana, więc było kilka osobistych paczek w Launchpad. Tylko jedna paczka powinna być zainstalowana.
 
 
 
 ### Instalacja w środowisku Arch Linux 
 
-Get the CalculiX package from the [AUR repository](https://aur.archlinux.org/packages/calculix/).
+Uzyskaj paczkę CalculiX z [repozytorium AUR](https://aur.archlinux.org/packages/calculix/).
 
 
 
 ### Instalacja w środowisku Debian 
 
--   Debian 9 Buster: the packages in the [repository](https://packages.debian.org/buster/calculix-ccx) are outdated, but you can use the packages from the Ubuntu PPA (`freecad-community`). See [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p279925) (forum post).
--   Debian 8 Stretch: the packages in the [repository](https://packages.debian.org/stretch/calculix-ccx) are outdated, but you can use the packages from the Ubuntu PPA (`freecad-community`). See [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&p=279925#p260872) (forum post).
--   Debian 7 Jessie: install the packages from Debian 8 Stretch using `dpkg`. See [Debian source package for Calculix](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597) (forum post).
+-   Debian 9 Buster: paczki w [repozytorium](https://packages.debian.org/buster/calculix-ccx) są nieaktualne, ale możesz skorzystać z paczek z Ubuntu PPA (`freecad-community`). Zobacz [ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p279925).
+-   Debian 8 Stretch: paczki w [repozytorium](https://packages.debian.org/stretch/calculix-ccx) są nieaktualne, ale możesz skorzystać z paczek z Ubuntu PPA (`freecad-community`). Zobacz[ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&p=279925#p260872).
+-   Debian 7 Jessie: zainstaluj paczki z Debian 8 Stretch używając `dpkg`. Zobacz [ten wątek na forum](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&p=110597#p110597).
 
 
 
 ### Instalacja w środowisku openSUSE 
 
 -   [openSUSE:Science Math](https://en.opensuse.org/openSUSE:Science_Math#Mesh_Generation_and_Related_Tools)
--   [netgen Automatic 3D tetrahedral mesh generator](https://software.opensuse.org/package/netgen)
--   [gmsh A three-dimensional finite element mesh generator](https://software.opensuse.org/package/gmsh)
--   [ccx An open source finite element package](https://software.opensuse.org/package/ccx)
+-   [netgen automatyczny generator siatek 3D czworościennych](https://software.opensuse.org/package/netgen)
+-   [gmsh generator siatek MES 3D](https://software.opensuse.org/package/gmsh)
+-   [ccx Otwarty pakiet MES](https://software.opensuse.org/package/ccx)
 
-Additional packages are typically installed with YAST (abbr. Yet another Setup Tool) the Linux operating system setup and configuration tool, or in any terminal/console (root rights required) with:
+Dodatkowe paczki są zwykle instalowane z YAST *(Yet another Setup Tool)*, narzędziem do ustawiania i konfiguracji systemu operacyjnego Linux lub w dowolnym wierszu poleceń / konsoli *(wymagane prawa dostępu)* z:
 
 :   
     
@@ -159,15 +159,15 @@ Additional packages are typically installed with YAST (abbr. Yet another Setup T
 
 
 
-### Binaria CalculiX 
+### Pliki wykonywalne CalculiX 
 
-The CalculiX authors provide a pre-compiled Linux binary of the solver; it can be downloaded from the [authors\' website](http://www.dhondt.de/). However, since different Linux distributions have different library paths, most likely this binary will not work without making some adjustments.
+Twórcy solvera CalculiX zapewniają gotowe pliki wykonywalne dla systemu Linux, można je pobrać ze [strony twórców](http://www.dhondt.de/). Jednak, ponieważ różne dystrybucje Linuxa mają różne ścieżki bibliotek, najprawdopodobniej ten plik wykonywalny nie będzie działać bez pewnych poprawek.
 
-To use the binary with Fedora 21, see the thread [Making FEM run on linux fedora 21](http://forum.freecadweb.org/viewtopic.php?f=18&t=10140). For newer Fedora versions, you should compile CalculiX yourself.
+Aby używać pliku wykonywalnego z Fedora 21, zobacz [ten wątek na forum](http://forum.freecadweb.org/viewtopic.php?f=18&t=10140). Dla nowszych wersji Fedora, powinieneś sam skompilować CalculiX.
 
-If you use this binary, check that the binary is executable, that it is in the executable `$PATH` of your system, and that you have the necessary version of the libraries (`libgfortran`, `liblapack`, `libblas`, etc.) against which it was compiled. This is mentioned in the forum post [FEM WB](http://forum.freecadweb.org/viewtopic.php?f=3&t=11830&start=20#p95741).
+Jeśli korzystasz z tego pliku wykonywalnego, upewnij się, że jest on typu .exe, jest w wykonywalnej ścieżce `$PATH` Twojego systemu i masz wymaganą wersję bibliotek (`libgfortran`, `liblapack`, `libblas`, itd.), z którymi był on kompilowany. Jest to wspomniane w [tym wątku na forum](http://forum.freecadweb.org/viewtopic.php?f=3&t=11830&start=20#p95741).
 
-Use the command `ldd` to see the libraries that are linked by the binary. Install any missing dependency.
+Skorzystaj z polecenia `ldd` aby zobaczyć biblioteki, do których odwołuje się plik wykonywalny. Zainstaluj wszelkie brakujące zależności.
 
 
 {{SystemInput|User@PC:~$ ldd /usr/bin/ccx}}
@@ -202,21 +202,21 @@ linux-vdso.so.1 (0x00007fffbabdc000)
 
 ### Kompilacja CalculiX 
 
-Since CalculiX is a standalone application, you can either install a binary packaged for your distribution, or compile it yourself. Any CalculiX version from 2.7.x onwards should work with FreeCAD, and since the code hasn\'t changed much in years, lower versions than 2.7.x may work as well.
+Ponieważ CalculiX jest niezależnym środowiskiem, możesz zainstalować paczkę dla Twojej dystrybucji lub samemu go skompilować. Każda wersja CalculiX od 2.7.x w górę powinna działać z FreeCAD a ponieważ kod nie był znacząco zmieniany w ostatnich latach, starsze wersje niż 2.7.x również mogą działać.
 
-Compiling CalculiX is a task for experienced users, requiring editing the Makefiles and build options in different platforms. See the following information:
+Kompilacja solvera CalculiX jest zadaniem dla doświadczonych użytkowników, wymagającym edycji plików Makefiles i opcji budowania na różnych platformach. Zobacz następujące informacje:
 
--   Debian: [Debian source package for Calculix](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&start=10), [Gmsh 4 package available for testing in Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p260506), [Compiling CalculiX ccx on fedora, ubuntu and debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
--   Fedora 27, 28, 29: [Compiling CalculiX ccx on fedora, ubuntu and debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
--   There is a CMake version of the source package in a [github repository](https://github.com/ricortiz/CalculiX-cmake), but at the FreeCAD forums no one has reported if this package works.
+-   Debian: [paczka źródłowa Debian dla CalculiX](http://forum.freecadweb.org/viewtopic.php?f=4&t=5975&start=10), [paczka Gmsh 4 do testowania w Community Extras PPA](https://forum.freecadweb.org/viewtopic.php?f=18&t=31360&start=10#p260506), [Kompilacja CalculiX ccx w systemach Fedora, Ubuntu i Debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
+-   Fedora 27, 28, 29: [Kompilacja CalculiX ccx w systemach Fedora, Ubuntu i Debian](https://forum.freecadweb.org/viewtopic.php?f=18&t=34024).
+-   Dostępna jest wersja CMake paczki źródła w [repozytorium GitHub](https://github.com/ricortiz/CalculiX-cmake), ale na forum FreeCAD nikt nie potwierdził, że działa.
 
 
 
 ### Kompilacja Netgen 
 
-Netgen was originally linked by FreeCAD when FreeCAD used OCE, the community fork of OpenCascade (OCCT). As OCE lagged in development behind OCCT, FreeCAD switched back to OCCT. This broke the linking of Netgen, which could only link against OCCT 6.9 or OCE 0.18 and below. As OCCT 7.x versions improved the core funcitonality of FreeCAD, it was decided to drop Netgen support in favor of Gmsh.
+Netgen był pierwotnie związany z FreeCAD gdy FreeCAD korzystał z OCE, społecznościowego forku OpenCascade (OCCT). Gdy OCE było opóźnione w rozwoju w stosunku do OCCT, FreeCAD powrócił do OCCT. Zepsuło to powiązanie z Netgenem, który mógł się łączyć tylko z OCCT 6.9 lub OCE 0.18 i starszymi. Ponieważ wersje OCCT 7.x usprawniły działanie rdzenia programu FreeCAD, podjęto decyzję o porzuceniu wsparcia dla Netgena na rzecz Gmsh.
 
-Since then some success has been achieved patching and linking newer versions of Netgen against OCCT 7.x. Nevertheless, the inclusion of Netgen with FreeCAD is still problematic.
+Od tego czasu osiągnięto pewien sukces z naprawianiem i łączeniem nowszych wersji Netgena z OCCT 7.x. Niemniej jednak, dołączanie Netgena do programu FreeCAD nadal jest problematyczne.
 
 
 </div>
@@ -229,28 +229,28 @@ Since then some success has been achieved patching and linking newer versions of
 ### Instalacja w środowisku MacOSX 
 
 
-**This information may be out of date. If you are an OSX user, please test and clean up this section**
+**Te informacje mogą być nieaktualne. Jeśli jesteś użytkownikiem OSX, prosimy o sprawdzenie i aktualizację tej sekcji**
 
-The OSX [development packages](https://github.com/FreeCAD/FreeCAD/releases) of FreeCAD may include Netgen but may not include CalculiX.
+[Paczki rozwojowe OSX](https://github.com/FreeCAD/FreeCAD/releases) programu FreeCAD mogą zawierać Netgen, ale mogą nie zawierać solvera CalculiX.
 
-See this forum post [FEM on Mac OSX](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&p=198652#p198642) for information on installing CalculiX, and an [updated post](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&start=90#p273746) for more recent information.
+Zobacz [ten wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&p=198652#p198642) aby uzyskać informacje o instalacji solvera CalculiX oraz [zaktualizowany post](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&start=90#p273746) aby uzyskać nowsze informacje.
 
 CalculiX:
 
--   [install CalculiX with brew](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&start=90#p508724)
+-   [instalacja solvera CalculiX z brew](https://forum.freecadweb.org/viewtopic.php?f=18&t=10979&start=90#p508724)
 
-The following posts may be outdated:
+Następujące posty mogą być nieaktualne:
 
--   [FEM on Mac OSX, post 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
--   [MacPorts users: CalculiX port test request](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
+-   [MES na Mac OSX, post 1](http://forum.freecadweb.org/viewtopic.php?f=18&t=10979)
+-   [użytkownicy MacPort: prośba o test portu CalculiX](http://forum.freecadweb.org/viewtopic.php?f=8&t=14497)
 
 
 
-## Informacje dodatkowe 
+## Dodatkowe informacje 
 
-The [FEM Workbench](FEM_Workbench.md) is under constant development. The most recent information is found in the [FreeCAD forum](http://www.forum.freecadweb.org/).
+[Środowisko pracy MES](FEM_Workbench/pl.md) jest stale rozwijane. Najnowsze informacje można znaleźć na [forum programu FreeCAD](http://www.forum.freecadweb.org/).
 
-If you have problems installing Netgen, Gmsh, or CalculiX, or another external tool, please search the forum first:
+Jeśli napotkasz problemy z instalacją programów Netgen, Gmsh lub CalculiX bądź innych zewnętrznych narzędzi, przeszukaj najpierw forum:
 
 -   [netgen site:forum.freecadweb.org](https://www.google.ch/search?q=sys.append.path+site%3Aforum.freecadweb.org#q=netgen+site:forum.freecadweb.org)
 -   [gmsh site:forum.freecadweb.org](https://www.google.ch/search?q=sys.append.path+site%3Aforum.freecadweb.org#q=gmsh+site:forum.freecadweb.org)

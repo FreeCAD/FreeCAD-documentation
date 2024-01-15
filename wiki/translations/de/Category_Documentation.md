@@ -12,9 +12,9 @@ This category groups all of the FreeCAD documentation
 | [Release notes 0.13/de](Release_notes_0.13/de.md) | [Release notes 0.14/de](Release_notes_0.14/de.md) | [Release notes 0.15/de](Release_notes_0.15/de.md) |
 | [Release notes 0.16/de](Release_notes_0.16/de.md) | [Release notes 0.17/de](Release_notes_0.17/de.md) | [Release notes 0.18/de](Release_notes_0.18/de.md) |
 | [Release notes 0.19/de](Release_notes_0.19/de.md) | [Release notes 0.20/de](Release_notes_0.20/de.md) | [Release notes 0.21/de](Release_notes_0.21/de.md) |
-| [Transportation Workbench/de](Transportation_Workbench/de.md) | [WikiPages/de](WikiPages/de.md) | [Category:Developer Documentation/de](Category_Developer_Documentation/de.md) |
-| [Category:Poweruser Documentation/de](Category_Poweruser_Documentation/de.md) | [Category:Screenshots/de](Category_Screenshots/de.md) | [Category:User Documentation/de](Category_User_Documentation/de.md) |
-| [Category:Wiki/de](Category_Wiki/de.md) |
+| [Release notes 0.22/de](Release_notes_0.22/de.md) | [Transportation Workbench/de](Transportation_Workbench/de.md) | [WikiPages/de](WikiPages/de.md) |
+| [Category:Developer Documentation/de](Category_Developer_Documentation/de.md) | [Category:Poweruser Documentation/de](Category_Poweruser_Documentation/de.md) | [Category:Screenshots/de](Category_Screenshots/de.md) |
+| [Category:User Documentation/de](Category_User_Documentation/de.md) | [Category:Wiki/de](Category_Wiki/de.md) |
 
 
 

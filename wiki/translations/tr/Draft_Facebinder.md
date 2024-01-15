@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Açıklama
 
 
@@ -43,6 +45,8 @@ Başka nesnelerden gelen bir yüz koleksiyonundan bir ekstrüzyon oluşturmak i�
 
 </div>
 
+
+
 ## Nasıl kullanılır 
 
 
@@ -55,6 +59,8 @@ Başka nesnelerden gelen bir yüz koleksiyonundan bir ekstrüzyon oluşturmak i�
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

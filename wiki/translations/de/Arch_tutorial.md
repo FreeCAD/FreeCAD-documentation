@@ -51,7 +51,7 @@ Zum momentanen Zeitpunkt, zu dem ich das Tutorial schreibe, besitzen FreeCAD und
 
 ## Typische Vorgehensweise 
 
-Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) ist hauptsächlich für zwei Vorgehensweisen ausgelegt:
+Der Arbeitsbereich [Arch](Arch_Workbench/de.md) ist hauptsächlich für zwei Vorgehensweisen ausgelegt:
 
 -   Erstellen Sie das Modell mit einem schnelleren, auf Polygonnetzen basierendem Programm (z.B. [Blender](https://de.wikipedia.org/wiki/Blender_%28software%29) oder [SketchUp](https://de.wikipedia.org/wiki/Sketchup)) und importieren Sie das Modell anschließend in FreeCAD, um Pläne zu extrahieren und Schnittansichten zu erstellen. FreeCAD wurde für eine hochpräzise Modellierung ausgelegt, wie sie im Architekturbereich nur selten notwendig ist, sodass die Modellierung von Architekturobjekten unter Umständen langsam und schwerlich verläuft. Aus diesem Grund hat eine Vormodellierung mit 3D-Grafiksoftware mitunter große Vorteile. Ich habe dies in [diesem Artikel](http://yorik.uncreated.net/guestblog.php?2012=180) in meinem Blog beschrieben. Wenn Sie wirklich präzise modellieren wollen (sauber, Volumenkörper, ohne Überschneidungen der Polygonnetze), dann wird Ihnen diese Vorgehensweise dieselbe Präzision und Geschwindigkeit bringen wie die andere.
 
@@ -79,9 +79,9 @@ Die [Importfunktion](Draft_DXF/de.md) für dxf-Dateien, die auch beim Importiere
 
 
 
-## Einfügen der Wände 
+## Wände aufbauen 
 
-Ebenso wie die meisten anderen Objekte in [Arch-Arbeitsbereich](Arch_Workbench/de.md), können auch [Wände](Arch_Wall/de.md) mit Hilfe vieler anderer Objekte erstellt werden: [Linien](Draft_Line/de.md), [Polylinien](Draft_Wire/de.md), [Skizzen](Sketcher_Workbench/de.md), Oberflächen oder Volumenkörper (oder auch von Grund auf, d.h. durch Angabe von Höhe, Breite und Länge). Die resultierende Geometrie der Wand hängt von der Geometrie der eben genannten Hilfsobjekte und ihren Attributen (z.B. der Breite) ab. Wie Sie sich wohl denken können, wird eine Wand, die auf einer Linie basiert, diese Linie für die Ausrichtung nutzen, während eine Wand, die auf einer Oberfläche basiert, diese Oberfläche als Grundfläche verwendet. Bei Volumenkörpern als Hilfsmittel nimmt die Wand die Gestalt des Volumenkörpers an. Folglich können Wände jede beliebige Form annehmen.
+Ebenso wie die meisten anderen Objekte im Arbeitsbereich [Arch](Arch_Workbench/de.md) können auch [Wände](Arch_Wall/de.md) mit Hilfe vieler anderer Objekte erstellt werden: [Linien](Draft_Line/de.md), [Polylinien](Draft_Wire/de.md), [Skizzen](Sketcher_Workbench/de.md), Oberflächen oder Festkörper (oder auch von Grund auf, d.h. durch Angabe von Höhe, Breite und Länge). Die resultierende Geometrie der Wand hängt von der Geometrie der eben genannten Hilfsobjekte und ihren Eigenschaften wie z.B. Breite und Höhe ab. Wie man sich wohl denken kann, wird eine Wand, die auf einer Linie basiert, diese Linie für die Ausrichtung nutzen, während eine Wand, die auf einer Fläche basiert, diese Fläche als Grundfläche verwendet. Bei Festkörpern als Hilfsmittel nimmt die Wand die Form des Festkörpern an. Folglich können Wände jede beliebige Form annehmen.
 
 Es gibt in FreeCAD mehrere mögliche Strategien zum Konstruieren von Wänden. Eine davon ist es, alle vorgesehenen Wände zunächst mit dem Werkzeug [Sketcher](Sketcher_Workbench/de.md) zu zeichnen und dann ein einzelnes, großes Wandobjekt daraus zu erstellen. Dies funktioniert zwar, hat aber den Nachteil, dass alle Wände dieselbe Wandstärke (Dicke) haben werden. Alternativ kann jede Wand einzeln skizziert und umgewandelt werden. Am besten ist jedoch ein Mittelweg: Für jede Art von Wand eine [Polylinie](Draft_Wire/de.md) zeichnen und in ein Wandobjekt umwandeln. Diesen Weg werden wir im Folgenden nehmen.
 
@@ -272,7 +272,7 @@ Nun bleibt noch, die Tür zu wählen, [Klonen](Draft_Clone/de.md) zu drücken un
 
 
 
-### Ihr Modell organisieren 
+### Das Modell organisieren 
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
@@ -472,13 +472,7 @@ Die Schnittebene erstellt automatisch Schnitte von den Objekten, die sie schneid
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Die Schnittebenen können zwei verschiedene Ausgaben erzeugen: [Formteil](Part_Workbench/de.md)-Objekte, die im gleichen Dokument wie Ihr 3D-Modell entstehen, oder [Zeichenansichten](Drawing_Workbench/de.md), die erzeugt werden, um ein Zeichenblatt zu erstellen, das mit dem [Drawing-Arbeitsbereich](Drawing_Workbench/de.md) verwendet werden kann. Jedes verhält sich anders und hat seine eigenen Vorteile.
-
-
-</div>
+Die Schnittebene kann zwei verschiedene Ausgaben erzeugen: [Part-Formen](Part_Workbench/de.md) (Shape-Objekte) in der 3D-Ansicht oder [TechDraw Arch-Ansichten](TechDraw_ArchView/de.md) auf einem Zeichnungsblatt, das mit dem Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) erstellt wurde. Beide verhalten sich unterschiedlich und haben jeweils eigenen Vorteile.
 
 **Formteilansichten**
 
@@ -492,21 +486,15 @@ Auf dem obigen Bild wurden zwei [Draft Form zu 2D-Ansichten](Draft_Shape2DView/d
 
 Beachten Sie, dass einige Merkmale noch nicht vom [DXF/DWG-Exporter](Draft_DXF/de.md) unterstützt werden, so dass das Ergebnis in Ihrer 2D-Anwendung ein wenig abweichen kann. Beispielsweise musste ich im obigen Bild die Schraffur neu erstellen und die Position einiger Bemaßungstext korrigieren. Wenn Sie Ihre Objekte in FreeCAD in verschiedenen Gruppen ablegen, dann werden diese in Ihrer 2D-Anwendung zu Ebenen (layers).
 
-**ArchViews**
+**Arch-Ansichten**
 
-The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) are [TechDraw ArchViews](TechDraw_ArchView.md). This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
+Die andere Art von Ausgaben, die von [Schnittebenen](Arch_SectionPlane/de.md) erstellt werden kann sind [TechDraw Arch-Ansichten](TechDraw_ArchView/de.md) (ArchView-Objekte). Diese Methode hat im Vergleich zur vorherigen eine wesentliche Einschränkung: Es gibt nur eine begrenzte Anzahl von Möglichkeiten, das Ergebnis zu bearbeiten und zurzeit werden Funktionen wie Bemaßen und Schraffieren nicht nativ unterstützt.
 
 Auf der anderen Seite ist das endgültige Ergebnis einfacher zu handhaben und die grafischen Möglichkeiten des SVG-Formats sind riesig, so dass dies in Zukunft die bevorzugte Methode sein wird. Momentan bekommen Sie allerdings mit der ersten die besseren Ergebnisse.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Im obigen Bild ist die Geometrie die direkte Ausgabe der Schnittebene, aber einige andere Draft-Objekte wie Bemaßungen und Schraffur-Polygone wurden hinzugefügt und ein anderes Ansichtsobjekt mit gleichem Maßstab und Abstandswerten wurde mit dem [Draft-Zeichnung](Draft_Drawing/de.md)-Werkzeug erstellt. Zukünftig werden solchen Operationen direkt auf der Zeichenseite möglich sein, so dass das Modell davon frei sein wird.
-
-
-</div>
+Im obigen Bild ist die Geometrie die direkte Ausgabe der Schnittebene, aber einige andere Draft-Objekte wie Maße und schraffierte Vielecke wurden hinzugefügt; eine weitere Ansicht (View-Objekt) mit gleichem Maßstab und gleichen Abstandswerten wurde mit dem Werkzeug [TechDraw DraftAnsicht](TechDraw_DraftView/de.md) erstellt. Zukünftig werden solchen Operationen direkt auf dem Zeichnungsblatt möglich sein, so dass das Modell sauber aufgeräumt bleibt.
 
 
 

@@ -1,38 +1,41 @@
 # Macro Circle/fr
 {{Macro/fr
 |Name=Macro Circle
+|Name/fr=Macro Circle
 |Icon=Macro_Circle.png
-|Description=Crée un cercle en donnant différents paramètres (Sans GUI). Le nouveau cercle est créée dans les coordonnées réelles de l'objet et non dans celles du corps. <br/> {{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
+|Description=Crée un cercle en donnant différents paramètres (sans interface graphique). Le nouveau cercle est créé dans les coordonnées réelles de l'objet et non dans celles du corps.<br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
 |Author=mario52
 |Version=0.4
 |Date=2019-06-19
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icon]
-|SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md) <img src="images/Macro_CirclePlus.png" width=24px>
+|FCVersion=Toutes
+|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icône de la barre d'outils]
+|SeeAlso=[Macro CirclePlus](Macro_CirclePlus/fr.md)
 }}
 
 ## Description
 
-Cette petite macro vous permet de créer un cercle en donnant comme argument différents paramètres comme le rayon, le diamètre, la circonférence, la surface, début d\'angle, fin d\'angle, arc, angle central, corde, flèche, point au centre du cercle, placement de l\'Objet au choix. La nouveau cercle est créée dans les coordonnées réelles de l\'objet et non dans celles du corps.
+Cette petite macro vous permet de créer un cercle en donnant comme argument différents paramètres comme le rayon, le diamètre, la circonférence, la surface, angle de départ, angle de fin, arc, angle central, corde, flèche, point au centre du cercle, placement de l\'objet au choix. La nouveau cercle est créée dans les coordonnées réelles de l\'objet et non dans celles du corps.
 {{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
 
 Le cercle fait toujours face à l\'écran (avec la commande getCameraOrientation) (ou donner le placement)
 
+
+
 ## Utilisation
 
-Copiez le code et collez le dans la console Python de FreeCAD, la fonction sera disponible tout le temps de votre cession (vous pouvez aussi utiliser ce code dans une macro). Donnez les paramètres au choix :
+Copier le code et le coller dans la console Python de FreeCAD la commande est utilisée tout le temps à la disposition de FreeCAD ouvert Donner le paramètre au choix :
 
 -   **x y z** : coordonnées du cercle s\'il n\'y a pas de coordonnées, le cercle est créé aux coordonnées 0,0,0
 -   **radius** : rayon du cercle
 -   **diameter** : diamètre du cercle
 -   **circumference** : circonférence du cercle
 -   **area** : surface du cercle
--   **startangle** : début d\'angle de l\'arc à créer
--   **endangle** : fin d\'angle de l\'arc
--   **arc** and **anglecenter** : longueur de l\'arc arc en combinaison avec angle central
+-   **startangle** : début de l\'angle de l\'arc à créer
+-   **endangle** : fin de l\'angle de l\'arc
+-   **arc** et **anglecenter** : longueur de l\'arc arc en combinaison avec angle central
     -   **arc** = longueur de l\'arc
     -   **anglecenter** = angle central à partir du centre du cercle jusqu\'aux deux extrémités de l\'arc (l\'angle est donné en degrés)
--   **cord** and **arrow** : longueur de la corde en combinaison avec la longueur de la flèche
+-   **cord** et **arrow** : longueur de la corde en combinaison avec la longueur de la flèche
     -   **cord** : longueur de la corde du cercle
     -   **arrow** : longueur de la flèche du cercle
 -   **center** : si \"center\" est différent de 0 un point sera créé au centre du cercle
@@ -44,9 +47,10 @@ Copiez le code et collez le dans la console Python de FreeCAD, la fonction sera 
     -   et donner **placemObject = pl**
 
 S\'il n\'y a pas de paramètre ex: \"**circle()**\" la liste des fonctions disponibles est affichée
-==Script==
 
-ToolBar Icon ![](images/Macro_Circle.png )
+## Script
+
+Icône de la barre d\'outils ![](images/Macro_Circle.png )
 
 **Macro_circle.FCMacro**
 
@@ -132,9 +136,11 @@ def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,
 
 }}
 
+
+
 ## Memo sur le cercle 
 
-**Exemples de codes entrés**
+**Exemples de codes**
 
 
 ```python
@@ -160,11 +166,11 @@ circle(x=65,y=-15,arc=3.5,anglecenter=40,startangle=20,center=1)    # example 6 
 
 ## Version
 
-ver 0.4 19/06/2019 : upgrade ver 0.19
+ver 0.4 19/06/2019 : mise à jour version 0.19
 
-ver 0.3 10/06/2018 : replace /2 to /2.0 (float)
+ver 0.3 10/06/2018 : remplacement de /2 par /2.0 (flottant)
 
-ver 0.2 24/02/2015 : adding function \"**placemObject**\"
+ver 0.2 24/02/2015 : ajout de la fonction \"**placemObject**\"
 
 
 

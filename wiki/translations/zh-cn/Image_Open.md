@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[图像打开工具只是简单地在视口中的新选项卡内打开用户系统里的一张图像](Image_Open.md)。
+[图像打开](Image_Open.md)工具只是简单地在视口中的新选项卡内打开用户系统里的一张图像。
 
 
 </div>
@@ -48,4 +48,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/zh-cn
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Open/zh-cn

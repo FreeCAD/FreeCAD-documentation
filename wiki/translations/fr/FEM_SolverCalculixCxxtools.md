@@ -24,9 +24,10 @@
 
 1.  Un <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> Solveur CalculiX standard est créé automatiquement lors de la création d\'un <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md).
     Pour le créer manuellement, utilisez l\'une des alternatives suivantes :
+    -   Appuyez sur le bouton **<img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> [Solveur standard CalculiX](FEM_SolverCalculixCxxtools/fr.md)**.
     -   Sélectionnez **Résolution → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solveur standard CalculiX** dans le menu.
     -   Appuyez sur les touches de raccourci **S** puis **X**.
-2.  Vous pouvez modifier les propriétés de <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+2.  Vous pouvez modifier les propriétés de <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools dans l\'[éditeur de propriétés](Property_editor/fr.md).
 3.  Double-cliquez sur l\'<img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> objet solveur CalculiXcxxTools.
 4.  Sélectionnez **Type d'analyse**.
 5.  Cliquez sur le bouton **Écrire un fichier .inp**.
@@ -44,11 +45,11 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
 
 -    **Analysis Type**:
 
-    -   static
-    -   frequency
-    -   thermomech - pour les charges mécaniques et thermiques
-    -   check - pour vérifier uniquement le maillage
-    -   buckling - pour les analyses de flambage {{Version/fr|0.20}}
+    -   static - analyse des contraintes statiques
+    -   frequency - analyse modale (fréquence naturelle)
+    -   thermomech - analyse thermomécanique
+    -   check - pas de calcul, vérifie les données d\'entrée
+    -   buckling - analyse de flambage linéaire {{Version/fr|0.20}}
 
 -    **Beam Shell Result Output 3D**: notez que CalculiX développe en interne les éléments 1D et 2D en éléments 3D pour réaliser l\'analyse FE.
 
@@ -93,10 +94,10 @@ Les valeurs par défaut peuvent être définies dans le menu **Édition → Pré
 
 -    **Matrix Solver Type**: type de solveur pour résoudre le système d\'équations dans l\'analyse FE. Il peut affecter de manière significative la vitesse de calcul et les besoins en mémoire. L\'adéquation dépend de votre modèle FE et du matériel disponible.
 
-    -   default - sélectionne automatiquement le solveur matriciel en fonction des solveurs disponibles (il s\'agira probablement de Spooles)
-    -   spooles - solveur direct avec prise en charge de plusieurs processeurs. Le nombre de processeurs doit être défini dans les [préférences](FEM_Preferences/fr#CalculiX.md) à la rubrique *Défauts du solveur → Nombre de processeurs à utiliser*.
-    -   iterativescaling - solveur itératif avec des demandes de mémoire minimales, approprié si le modèle contient principalement des éléments 3D
-    -   iterativecholesky - solveur itératif avec préconditionnement et faible demande de mémoire, adapté si le modèle contient principalement des éléments 3D
+    -   default - sélectionne automatiquement le solveur de matrice en fonction des solveurs disponibles (typiquement Spooles).
+    -   spooles - solveur direct avec le support de plusieurs CPUs. Le nombre de CPU doit être défini dans les [préférences](FEM_Preferences/fr#CalculiX.md) à *Défauts du solveur → Nombre de processeurs à utiliser*.
+    -   iterativescaling - solveur itératif avec la plus faible demande de mémoire, approprié si le modèle contient principalement des éléments 3D.
+    -   iterativecholesky - solveur itératif avec préconditionnement et faible demande de mémoire, adapté si le modèle contient principalement des éléments 3D.
 
 -    **Split Input Writer**:
 

@@ -1,67 +1,51 @@
 ---
  GuiCommand:
    Name: Arch CutPlane
-   Name/it: Taglia con piano
-   Workbenches: Arch_Workbench/it   Arch|MenuLocation: Arch , Taglia con piano
-   SeeAlso: Arch CutLine/it, Arch Remove/it
+   Name/it: Taglio con piano
+   MenuLocation: Arch , Taglio con piano
+   Workbenches: Arch_Workbench/it
 ---
 
 # Arch CutPlane/it
 
 
-</div>
 
 ## Descrizione
 
-Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un piano:
+Lo strumento **Arch CutPlane** taglia un oggetto solido di Arch come un [Muro](Arch_Wall/it.md) o una [Struttura](Arch_Structure/it.md) con una faccia planare.
 
--   È possibile tagliare un oggetto di Arch dalla parte normale a una faccia selezionata, o dalla parte opposta del piano.
--   Questo aggiunge un elemento sottrazione CutVolume all\'oggetto Arch.
-
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
-
-
-
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:400px;"> 
 *A sinistra: prima di applicare lo strumento Taglia con piano. Al centro: parete risultante dopo il taglio. A destra: un altro risultato opzionale*
+
+
 
 ## Utilizzo
 
+1.  Se il piano di taglio deve essere derivato da un bordo dritto ({{Version/it|0.22}}), facoltativamente allineare il [piano di lavoro](Draft_SelectPlane/it.md):
+    -   Il bordo selezionato non può essere parallelo alla normale del piano di lavoro.
+    -   La faccia di taglio generata sarà perpendicolare al piano di lavoro.
+2.  Selezionare l\'oggetto da tagliare.
+3.  Effettuare una delle seguenti operazioni:
+    -   Selezionare un oggetto con una singola faccia planare. {{Version/it|0.22}}
+    -   Selezionare una faccia planare nella [vista 3D](3D_view/it.md).
+    -   Selezionare un oggetto con un unico bordo dritto. {{Version/it|0.22}}
+    -   Selezionare un bordo dritto nella [Vista 3D](3D_view/it.md). {{Version/it|0.22}}
+4.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Arch_CutPlane.svg" width=16px> [Taglio con piano](Arch_CutPlane/it.md)**.
+    -   Selezionare l\'opzione **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Taglio con piano** dal menu.
+5.  Scegliere **Dietro** o **Di fronte** per indicare su quale lato della superficie di taglio il materiale deve essere rimosso.
+6.  Premere il pulsante **OK**.
 
-<div class="mw-translate-fuzzy">
 
-1.  Selezionare prima l\'oggetto da tagliare, quindi la faccia (la faccia deve essere l\'ultimo elemento selezionato, e deve essere selezionata nella [vista 3D](3D_view/it.md)).
-2.  Premere il pulsante **<img src="images/Arch_CutPlane.svg" width=24px> [Taglia con piano](Arch_CutPlane/it.md)**.
-3.  Scegliere se l\'oggetto deve essere tagliato dalla parte normale **posteriore** alla faccia oppure dalla parte normale **anteriore** della faccia
-4.  Cliccare sul pulsante **OK**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Taglia con Piano può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
+Lo strumento Taglia con Piano può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
 
 
 ```python
@@ -81,7 +65,9 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`specifica su quale lato del `FaceObject` verrà creato un volume; questo volume verrà quindi utilizzato per sottrarlo dal `archObject`. Se `sideFace` è `0` crea un volume nella parte posteriore della faccia, altrimenti lo crea davanti alla faccia.
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -122,15 +108,6 @@ cut_face2 = selection2.SubObjects[0]
 cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

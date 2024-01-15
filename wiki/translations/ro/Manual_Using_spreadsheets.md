@@ -1,5 +1,5 @@
 # Manual:Using spreadsheets/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 
 <div class="mw-translate-fuzzy">
@@ -14,6 +14,8 @@ FreeCAD oferă un alt atelier de lucru interesant pentru a explora: [Spreadsheet
 Cu toate acestea, în FreeCAD, foile de calcul au o utilitate suplimentară: Celulele lor pot primi un nume și pot fi menționate de orice domeniu susținut de [expressions engine](Expressions.md). Aceste foi de calcul se transformă în structuri de control puternice, unde valorile introduse în celule specifice pot modifica dimensiunile modelului. Nu trebuie să țineți minte doar că, deoarece FreeCAD interzice dependența circulară între obiecte, aceeași foaie de lucru nu poate fi utilizată pentru a defini o proprietate a unui obiect și, în același timp, pentru a recupera o valoarea de proprietate a aceluiași obiect. Asta ar însemna că foaia de calcul și obiectul depind unul de celălalt.
 
 În următorul exemplu, vom crea câteva obiecte, vom prelua unele dintre proprietățile lor dintr-o foaie de calcul și apoi vom folosi foaia de lucru pentru a modifica proprietățile altor obiecte.
+
+
 
 ### Lectura Proprietăților 
 
@@ -62,6 +64,8 @@ The [Spreadsheet Workbench](Spreadsheet_Workbench.md) page will describe in more
 
 
 </div>
+
+
 
 ### Scrierea proprietăților 
 

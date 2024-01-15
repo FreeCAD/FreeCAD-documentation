@@ -1,36 +1,49 @@
 ---
  GuiCommand:
    Name: Lattice2 AttachablePlacement
+   Name/pl: Lattice2: umiejscowienia umiejscowienia
    MenuLocation: Lattice2 , Attached Placement , Attached Placement
-   Workbenches: Lattice2 Workbench
+   Workbenches: Lattice2 Workbench/pl
    Shortcut: 
    SeeAlso: 
 ---
 
 # Lattice2 AttachablePlacement/pl
 
-## Description
 
-The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> [Lattice2 AttachablePlacement](Lattice2_AttachablePlacement.md) command assigns a placement or handle to an object so it can later be referred to by a location.
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Lattice2_workbench_icon.svg  style="width:24px;"> [Lattice2](Lattice2_Workbench.md) external workbench
-2.  Invoke the Attached Placement command several ways:
-    -   Press the <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> icon in the Lattice2 toolbar
-    -   Use the **Lattice2 → Attached Placement → Attached Placement** from the Lattice2 dropdown
-    -   Use the {{KEY}} {{KEY}} keyboard shortcut
-3.  Choose the options from the dialog menu
+Polecenie <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> **Dołączenie umiejscowienia** przypisuje położenie lub uchwyt do obiektu, dzięki czemu można się do niego później odwołać za pomocą lokalizacji.
 
-## Properties
 
-## Notes
 
--   Placement must be made inside the body.
+## Użycie
 
-## Limitations
+1.  Przełącz się do zewnętrznego środowiska pracy <img alt="" src=images/Lattice2_workbench_icon.svg  style="width:24px;"> [Lattice2](Lattice2_Workbench/pl.md).
+2.  Wywołaj polecenie Dołączenie umiejscowienia na kilka sposobów:
+    -   Naciśnij ikonę <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"> na pasku narzędzi Lattice2.
+    -   Użyj polecenia z menu podręcznego Lattice2 **Lattice2 → Attached Placement → Attached Placement**.
+    -   Użyj skrótu klawiaturowego **** ****.
+3.  Wybierz opcje z menu dialogowego
 
-## Scripting
+
+
+## Właściwości
+
+
+
+## Uwagi
+
+-   Umiejscowienie musi być wykonane wewnątrz Zawartości.
+
+
+
+## Ograniczenia
+
+
+
+## Tworzenie skryptów
 
 
 

@@ -44,10 +44,10 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 ## Opzioni
 
-Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
 
--   Se la casella di controllo **Offset in OCC** è selezionata, viene utilizzato uno stile di offset speciale: le [Polilinee](Draft_Wire/it.md) aperte sono sfalsate su entrambi i lati e i nuovi bordi sono collegati con angoli arrotondati. Questo funziona solo per oggetti planari Draft con almeno due spigoli dritti. Si noti che con questo stile viene creato un nuovo oggetto non parametrico e, se la modalità di copia è disattivata, l\'oggetto originale viene eliminato.
--   Premere **P** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà una copia sfalsata invece di sfalsare l\'oggetto originale.
+-   Se la casella di controllo **Offset in OCC** è selezionata, viene utilizzato uno stile di offset speciale: le [Polilinee](Draft_Wire/it.md) aperte sono sfalsate su entrambi i lati e i nuovi bordi sono collegati con angoli arrotondati. Questo funziona solo per oggetti planari con almeno due spigoli. Si noti che con questo stile viene creato un nuovo oggetto non parametrico e, se la modalità di copia è disattivata, l\'oggetto originale viene eliminato.
+-   Premere **C** o fare clic sulla casella di controllo **Copia** per attivare o disattivare la modalità di copia. Se la modalità copia è attiva, il comando creerà una copia sfalsata invece di sfalsare l\'oggetto originale.
 -   Tenendo premuto **Alt** prima di selezionare i punti nella [Vista 3D](3D_view/it.md) si attiverà anche la modalità di copia. Mentre si tiene premuto **Alt** è possibile selezionare più punti di offset. Rilasciare **Alt** per terminare il comando e vedere le copie create.
 -   Tenere premuto **Maiusc** per mantenere la distanza di offset collegata al segmento corrente.
 -   Premere **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
@@ -59,14 +59,6 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 -   Per creare una versione offset di una [BSpline](Draft_BSpline/it.md) i suoi punti vengono sfalsati singolarmente e dai nuovi punti viene calcolata una nuova spline. Questa nuova spline non è parallela alla spline originale. Per un esatto offset parallelo di una [BSpline](Draft_BSpline/it.md) si dovrebbe utilizzare il comando [Part Offset2D](Part_Offset2D/it.md).
 -   Il comando Draft Offset non può gestire [BezCurves](Draft_BezCurve/it.md). Utilizzare invece il comando [Part Offset2D](Part_Offset2D/it.md).
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
 

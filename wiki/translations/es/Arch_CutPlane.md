@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -25,7 +27,7 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 
 </div>
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:400px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -34,6 +36,8 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -53,6 +57,8 @@ La herramienta Plano de corte le permite cortar un objeto Arch de acuerdo a un p
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -90,7 +96,9 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 </div>
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

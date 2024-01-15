@@ -1,14 +1,17 @@
 ---
  GuiCommand:
    Name: FCGear CycloidRack
-   MenuLocation: Gear , Cycloid Rack
-   Workbenches: FCGear_Workbench
+   Name/pl: FCGear: Listwa zębata cykloidalna
+   MenuLocation: Gear , Listwa zębata cykloidalna
+   Workbenches: FCGear_Workbench/pl
    Shortcut: None
-   Version: 1.0
-   SeeAlso: FCGear_CycloidGear
+   Version: 0.22
+   SeeAlso: FCGear_CycloidGear/pl
 ---
 
 # FCGear CycloidRack/pl
+
+
 
 ## Opis
 
@@ -16,93 +19,103 @@
 
 
 
-*Cycloid racks from left to right: Spur gearing, helical gearing, double helical gearing*
+*Przekładnie cykloidalne od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa.*
+
+
 
 ## Użycie
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_CycloidRack.svg style="width:16px"> [Cycloid Rack](FCGear_CycloidRack.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_CycloidRack.svg style="width:16px"> Cycloid Rack** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-An FCGear CycloidRack object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk na pasku narzędzi **[<img src=images/FCGear_CycloidRack.svg style="width:16px"> '''Listwa zębata cykloidalna'''**.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_CycloidRack.svg style="width:16px"> Listwa zębata cykloidalna**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{value|15}}. Number of points for spline.
+## Właściwości
 
-
-{{Properties_Title|base}}
-
--    **add_endings|bool**: If {{True}} (default), then the total length of the rack is teeth \* pitch. If {{False}}, then the rack starts with a tooth-flank.
-
--    **height|Length**: Default is {{value|5 mm}}. Value of the gear width.
-
--    **teeth|Integer**: Default is {{value|15}}. Number of teeth.
-
--    **thickness|Length**: Default is {{value|5 mm}}. Thickness of the uncut part of the rack.
+Obiekt **Listwa zębata cykloidalna** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|computed}}
+{{Properties_Title|Dokładność}}
 
--    **transverse_pitch|Length**: (read-only) Pitch in the transverse plane.
-
-
-{{Properties_Title|cycloid}}
-
--    **inner_diameter|Float**: Default is {{value|7.5}}. Diameter of the rolling circle of hypocycloid, normalized by the **module** (see [Notes](FCGear_CycloidGear#Notes.md)).
-
--    **outer_diameter|Float**: Default is {{value|7.5}}. Diameter of the rolling circle of epicycloid, normalized by the **module** (see [Notes](FCGear_CycloidGear#Notes.md)).
+-    **numpoints|Integer**: Wartością domyślną jest {{value|15}}. Liczba punktów dla splajnu.
 
 
-{{Properties_Title|fillets}}
+{{Properties_Title|Podstawowe}}
 
--    **head_fillet|Float**: Default is {{value|0}}.
+-    **Dodaj_zakończenia|bool**: Jeśli wartość to {{True}} (domyślnie), całkowita długość zębatki to zęby \* podziałka. Jeśli jest to {{False}}, wówczas zębatka zaczyna się od boku zęba.
 
--    **root_fillet|Float**: Default is {{value|0}}.
+-    **Wysokość|Length**: Wartością domyślną jest {{value|5 mm}}. Wartość szerokości koła zębatego.
 
+-    **Zęby|Integer**: Wartość domyślna to {{value|15}}. Liczba zębów.
 
-{{Properties_Title|helical}}
-
--    **beta|Angle**: Default is {{value|0 °}}. With the helix angle β a helical gear is created (positive value → rotation direction right, negative value → rotation direction left).
-
--    **double_helix|Bool**: Default is {{false}}, {{true}} creates a double helix gear (see [Notes](FCGear_CycloidGear#Notes.md)).
+-    **Grubość|Length**: Domyślnie {{value|5 mm}}. Grubość nieobciętej części zębatki.
 
 
-{{Properties_Title|involute}}
+{{Properties_Title|Obliczone}}
 
--    **module|Length**: Default is {{value|1 mm}}. For racks the module equals the pitch and so is the distance between corresponding points on adjacent teeth (see [Notes](FCGear_CycloidGear#Notes.md)).
-
-
-{{Properties_Title|precision}}
-
--    **simplified|Bool**: Default is {{false}}. If {{true}} the rack is drawn with a constant number of teeth to avoid topological renaming.
+-    **Rozstaw_poprzeczny|Length**: *(tylko do odczytu)* Skok w płaszczyźnie poprzecznej.
 
 
-{{Properties_Title|tolerance}}
+{{Properties_Title|cykloidalna}}
 
--    **clearance|Float**: Default is {{value|0.25}} (see [Notes](FCGear_CycloidGear#Notes.md)).
+-    **Średnica_wewnętrzna|Float**: Wartością domyślną jest {{value|7.5}}. Średnica toczącego się okręgu hipocykloidy, znormalizowana przez **moduł** *(patrz [Uwagi](FCGear_CycloidGear#.md))*.
 
--    **head|Float**: Default is {{value|0}}. Additional length of the tip of the teeth, normalized by the **module**.
+-    **Średnica_zewnętrzna|Float**: Wartością domyślną jest {{value|7.5}}. Średnica toczącego się okręgu epicykloidy, znormalizowana przez **moduł** *(patrz [Uwagi](FCGear_CycloidGear#.md))*.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Zaokrąglenie}}
 
--    **version|String**:
+-    **head_fillet|Float**: Wartość domyślna to {{value|0 mm}}.
 
-## Notes
+-    **root_fillet|Float**: Wartość domyślna to {{value|0 mm}}.
 
-See [FCGear CycloidGear](FCGear_CycloidGear#Notes.md).
 
-## Useful formulas 
+{{Properties_Title|Śrubowy}}
 
-See [FCGear CycloidGear](FCGear_CycloidGear#Useful_formulas.md).
+-    **beta|Angle**: Domyślną wartością jest {{Value|0 °}}. ZKąt pochylenia linii śrubowej β tworzy przekładnię śrubową *(wartość dodatnia → kierunek obrotów w prawo, wartość ujemna → kierunek obrotów w lewo)*.
 
-## Scripting
+-    **Podwójna_helisa|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} tworzy podwójną helisę *(patrz [Uwagi](FCGear_CycloidGear/pl#Uwagi.md))*.
+
+
+{{Properties_Title|Ewolwenta}}
+
+-    **moduł|Length**: Wartością domyślną jest {{value|1 mm}}. W przypadku listew moduł jest równy podziałce, podobnie jak odległość między odpowiednimi punktami na sąsiednich zębach *(patrz [Uwagi](FCGear_CycloidGear/pl#Uwagi.md))*.
+
+
+{{Properties_Title|Precyzja}}
+
+-    **uproszczony|Bool**: Wartością domyślną jest {{false/pl}}. Jeśli wybrano {{true/pl}}, zębatka jest rysowana ze stałą liczbą zębów, aby uniknąć topologicznej zmiany nazwy.
+
+
+{{Properties_Title|Tolerancja}}
+
+-    **Prześwit|Float**: Domyślną wartością jest {{Value|0.25}} *(patrz [Uwagi](FCGear_CycloidGear/pl#Uwagi.md))*.
+
+-    **head|Float**: Domyślną wartością jest {{Value|0}}. Dodatkowa długość wierzchołka zębów, znormalizowana przez **moduł**.
+
+
+{{Properties_Title|Wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+Zobacz stronę [Koło zębate cykloidalne](FCGear_CycloidGear/pl#Uwagi.md).
+
+
+
+## Przydatne wzory 
+
+Zobacz stronę [Koło zębate cykloidalne](FCGear_CycloidGear/pl#Przydatne_wzory.md).
+
+
+
+## Tworzenie skryptów
 
 
 

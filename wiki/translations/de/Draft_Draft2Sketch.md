@@ -1,28 +1,34 @@
 ---
  GuiCommand:
    Name: Draft Draft2Sketch
-   Name/de: Entwurf EntwurfZuSkizze
-   MenuLocation: Änderung , Entwurf zu Skizze
-   Workbenches: Draft_Workbench/de, Arch_Workbench
+   Name/de: Draft ZeichnungZuSkizze
+   MenuLocation: Änderung , Zeichnung zu Skizze
+   Workbenches: Draft_Workbench/de, Arch_Workbench/de
 ---
 
 # Draft Draft2Sketch/de
 
+
+
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwurf EntwurfZuSkizze** wandelt [Draft](Draft_Workbench/de.md)-Objekte in [Sketcher-Skizzen](Sketcher_NewSketch/de.md) um und umgekehrt.
+Der Befehl <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Draft ZeichnungZuSkizze** wandelt [Draft](Draft_Workbench/de.md)-Objekte in [Sketcher-Skizzen](Sketcher_NewSketch/de.md) um und umgekehrt.
 
 ![](images/Draft_Draft2Sketch_example.png ) 
-*Konvertieren von Entwurfsobjekten in Skizzierer Skizzen*
+*Konvertieren von Draft-Objekten in Sketcher-Skizzen*
+
+
 
 ## Anwendung
 
-1.  Wähle optional ein oder mehrere Entwurfsobjekte oder [Skizzierer Skizzen](Sketcher_NewSketch/de.md).
+1.  Wahlweise ein oder mehrere Draft-Objekte oder [Sketcher Skizzen](Sketcher_NewSketch/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Entwurf EntwurfZuSkizze](Draft_Draft2Sketch/de.md)**.
-    -   Wähle die **Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Entwurf zu Skizze** im Menü.
-3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
+    -   Die Schaltfläche **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Zeichnung zu Skizze](Draft_Draft2Sketch/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Draft2Sketch.svg" width=16px> Zeichnung zu Skizze** auswählen.
+3.  Wenn noch kein Objekt ausgewählt wurde: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 4.  Ein neues Objekt wird erstellt.
+
+
 
 ## Anmerkungen
 
@@ -32,11 +38,13 @@ Der Befehl <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> *
 -   Der externe [KicadStepUp Arbeitsbereich](KicadStepUp_Workbench/de.md) enthält einen Befehl, um eine [Entwurf BSpline](Draft_BSpline/de.md) in eine Reihe von [Skizzierer Bögen](Sketcher_CreateArc/de.md) zu konvertieren. Weitere Informationen findest du im Forumsbeitrag [BSplines to Shape2DView and Sketcher](https://forum.freecadweb.org/viewtopic.php?f=9&t=25082).
 -   [Dieser andere Forenbeitrag](https://forum.freecadweb.org/viewtopic.php?f=3&t=58781#p505207) enthält ein Makro für eine solche Konvertierung.
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um Objekte in eine Skizze zu konvertieren, verwendedie Methode `make_sketch` ({{Version/de|0.19}}) des Moduls Entwurf. Diese Methode ersetzt die veraltete Methode `makeSketch`.
+Um Objekte in eine Skizze zu konvertieren, wird die Methode `make_sketch` des Draft-Moduls verwendet ({{Version/de|0.19}}). Diese Methode ersetzt die veraltete Methode `makeSketch`.
 
 
 ```python
@@ -63,7 +71,7 @@ sketch = make_sketch(objects_list, autoconstraints=False, addTo=None, delete=Fal
 
 -    `sketch`wird mit dem Skizzenobjekt zurückgegeben.
 
-Um eine Skizze in Entwurfsobjekte umzuwandeln, verwende die Methode `draftify` des Entwurf Moduls.
+Um eine Skizze in Draft-Objekte umzuwandeln, wird die Methode `draftify` des Draft-Moduls verwendet.
 
 
 ```python

@@ -62,7 +62,7 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 
 ## Optionen
 
-Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
+Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
 
 
@@ -92,9 +92,9 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Draft Linie](Draft_Line/de.md) und <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Draht](Draft_Wire/de.md) 
 
--   Wenn der Anfangs- oder Endknoten eines offenen Drahtes so verschoben wird, dass sie zusammenfallen, wird der Draht geschlossen.
+-   Wenn Anfangs- oder Endknoten einer offenen Polylinie so verschoben werden, dass sie zusammenfallen, wird die Polylinie geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Es müssen mindestens zwei Punkte verbleiben.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Draht schließen/öffnen}} ({{Version/de|0.21}}) und {{Value|Draht umkehren}} ({{Version/de|0.20}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Polylinie öffnen}}/{{Value|Polylinie schließen}} ({{Version/de|0.21}}) und {{Value|Polylinie umkehren}} ({{Version/de|0.20}}).
 
 
 
@@ -136,7 +136,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Wenn der Anfangs- oder Endknoten eines offenen Splines so verschoben wird, dass sie zusammenfallen, wird der Spline geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}. Für einen offenen Spline müssen mindestens zwei Punkte übrig bleiben. Bei einem geschlossenen Spline sind es mindestens drei Punkte.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}., {{Value|Spline schließen/öffnen}} ({{Version/de|0.21}}) and {{Value|Spline umkehren}} ({{Version/de|0.21}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}., {{Value|Polylinie öffnen}}/{{Value|Polylinie schließen}} ({{Version/de|0.21}}) und {{Value|Spline umkehren}} ({{Version/de|0.21}}).
 
 
 
@@ -144,7 +144,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Wenn der Anfangs- oder Endknoten einer offenen Kurve so verschoben wird, dass sie zusammenfallen, wird die Kurve geschlossen.
 -   Kontextmenü des Knotens: {{Value|Punkt löschen}}, {{Value|Scharf machen}}, {{Value|Tangente machen}} und {{Value|Symmetrisch machen}}.
--   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Kurve schließen/öffnen}} ({{Version/de|0.21}}) and {{Value|Kurve umkehren}} ({{Version/de|0.21}}).
+-   Kontextmenü der Kante: {{Value|Punkt hinzufügen}}, {{Value|Polylinie öffnen}}/{{Value|Polylinie schließen}} ({{Version/de|0.21}}) and {{Value|Kurve umkehren}} ({{Version/de|0.21}}).
 
 
 
@@ -161,23 +161,33 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 -   Ein einzelner Knoten zur Steuerung der Höhe der Wand wird über der {{PropertyData/de|Placement}} der Wand angezeigt.
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Structure](Arch_Structure.md) 
+
+
+### <img alt="" src=images/Arch_Structure.svg  style="width:24px;"> [Arch Struktur](Arch_Structure/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Window](Arch_Window.md) 
+
+
+### <img alt="" src=images/Arch_Window.svg  style="width:24px;"> [Arch Fenster](Arch_Window/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Space](Arch_Space.md) 
+
+
+### <img alt="" src=images/Arch_Space.svg  style="width:24px;"> [Arch Raum](Arch_Space/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Panel Cut](Arch_Panel_Cut.md) 
+
+
+### <img alt="" src=images/Arch_Panel_Cut.svg  style="width:24px;"> [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Panel Sheet](Arch_Panel_Sheet.md) 
+
+
+### <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:24px;"> [Arch Plattenzeichnung](Arch_Panel_Sheet/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
@@ -205,7 +215,9 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 -   Keine Kontextmenüs für dieses Objekt.
 
-### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Line](Part_Line.md) 
+
+
+### <img alt="" src=images/Part_Line.svg  style="width:24px;"> [Part Linie](Part_Line/de.md) 
 
 -   Keine Kontextmenüs für dieses Objekt.
 
@@ -222,7 +234,8 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   Die Farbe der temporären Knoten ist dieselbe wie die Farbe der Fangsymbole. Diese Farbe kann in den Voreinstellungen geändert werden: **Bearbeiten → Voreinstellungen... → Entwurf → Visuelle Einstellungen → Visuelle Einstellungen → Farbe**. Beachte, dass diese Farbe nicht für die temporären Knoten verwendet wird, die für [Draft BezKurven](Draft_BezCurve/de.md) angezeigt werden. Diese Knoten verwenden stattdessen die {{PropertyView/de|Linienfarbe}} der Kurve.
+-   Die Farbe der temporären Knoten ist dieselbe wie die Farbe der Einrastsymbole. Diese Farbe kann in den Voreinstellungen geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten → Snap symbol color**. Beachte, dass diese Farbe nicht für die temporären Knoten verwendet wird, die für [Draft BezKurven](Draft_BezCurve/de.md) angezeigt werden. Diese Knoten verwenden stattdessen die {{PropertyView/de|Linienfarbe}} der Kurve.
+-   Die größe der Knoten hängt von der Voreinstellung unter **Bearbeiten → Einstellungen... → Anzeige → 3D-Viewer → Markergröße** ab. {{Version/de|0.22}}
 
 
 

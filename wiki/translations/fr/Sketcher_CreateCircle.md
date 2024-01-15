@@ -12,8 +12,7 @@
 
 ## Description
 
-Cet outil dessine un Cercle, en cliquant deux points : le centre, et, un point sur la circonférence, le rayon.
-
+Cet outil dessine un cercle, en cliquant deux points : le centre, et, un point sur la circonférence, le rayon.
 Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône de cercle rouge. Les coordonnées à l\'écran du pointeur sont affichées à côté en bleu, et sont mises à jour en temps réel.
 
 ![](images/Sketcher_CircleExample1.png‎ ) 

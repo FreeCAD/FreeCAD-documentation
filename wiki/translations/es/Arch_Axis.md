@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -33,6 +35,8 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilización
@@ -51,6 +55,8 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 
 </div>
 
+
+
 ## Opciones
 
 
@@ -63,6 +69,8 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -89,6 +97,8 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 ## Use as section mark 
 
 By setting the **Bubble Position** property to **Arrow left/right** or **Bar left/right**, the axis will display a filled arrow or bar instead of the bubble, so it can be used as a section mark. <small>(v0.20)</small> 
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

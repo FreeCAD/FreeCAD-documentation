@@ -1,5 +1,5 @@
 # FEM Install/de
-## Einführung
+## Einleitung
 
 Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> [FEM Arbeitsbereichs](FEM_Workbench/de.md)** durchführen zu können, verwendet FreeCAD zwei externe Programme: eines wird für die Generierung des [FEM Netz](FEM_Mesh/de.md) verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
 
@@ -55,7 +55,7 @@ Wenn der Netzerzeuger installiert ist, stelle sicher, dass der FEM Arbeitsbereic
 
 ### Netgen
 
-In order to create a FEM Mesh, you can use *Netgen* as an alternative to *Gmsh*. Depending on your operating system and your FreeCAD installation Netgen may be bundled with the FreeCAD installation binaries.
+Zum Erstelle eines FEM-Netzes kann *Netgen* als Alternative zu *Gmsh* verwendet werden. Abhängig von dem Betriebssystem und der eigenen FreeCAD-Installation kann Netgen mit den Binär-Paketen für die FreeCAD-Installation gebündelt sein.
 
 Wenn das Programm korrekt installiert ist, kann der Befehl `netgen` unter Linux im Terminal ausgeführt werden, um die grafische Oberfläche des Programms zu starten.
 
@@ -84,7 +84,7 @@ OCC module loaded
 
 ## Installation unter Windows 
 
-Die auf der [Herunterladen](Download/de.md) Seite verfügbaren FreeCAD Pakete enthalten bereits Netgen und CalculiX, so dass keine zusätzliche Software installiert werden muss. Einige Verweise, wo eine bessere ausführbare Calculix Datei als die in FreeCAD enthalten bekommen kann, können hier unter [alternative ccx ausführbare Dateien](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164) gefunden werden.
+Die auf der Seite [Herunterladen](Download/de.md) verfügbaren FreeCAD-Pakete enthalten bereits Netgen und CalculiX, so dass keine zusätzliche Software installiert werden muss. Einige Verweise, wo eine bessere ausführbare CalculiX Datei als die in FreeCAD enthalten bekommen kann, können hier gefunden werden: [alternative ccx ausführbare Dateien](https://forum.freecad.org/viewtopic.php?f=18&t=58792&start=10#p506164).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -204,7 +204,7 @@ Das Kompilieren von CalculiX ist eine Aufgabe für erfahrene Anwender und erford
 
 ### Netgen kompilieren 
 
-Netgen wurde ursprünglich von FreeCAD verknüpft, als FreeCAD OCE, die Gemeinschaftsabspaltung von OpenCascade (OCCT), verwendete. Da OCE in der Entwicklung hinter OCCT zurückblieb, wechselte FreeCAD zurück zu OCCT. Dadurch wurde die Verknüpfung von Netgen unterbrochen, das nur gegen OCCT 6.9 oder OCE 0.18 und darunter verknüpft werden konnte. Da die OCCT 7.x Versionen die Kernfunktionalität von FreeCAD verbesserten, wurde beschlossen, die Netgen Unterstützung zugunsten von Gmsh aufzugeben.
+Netgen wurde ursprünglich von FreeCAD verknüpft, als FreeCAD OCE, den Community-Zweig von OpenCascade (OCCT), verwendete. Da OCE in der Entwicklung hinter OCCT zurückblieb, wechselte FreeCAD zurück zu OCCT. Dadurch wurde die Verknüpfung von Netgen unterbrochen, das nur gegen OCCT 6.9 oder OCE 0.18 und darunter verknüpft werden konnte. Da die OCCT 7.x Versionen die Kernfunktionalität von FreeCAD verbesserten, wurde beschlossen, die Netgen-Unterstützung zugunsten von Gmsh aufzugeben.
 
 Seitdem ist es gelungen, neuere Versionen von Netgen auszubessern und mit OCCT 7.x zu verbinden. Dennoch ist die Einbindung von Netgen in FreeCAD immer noch problematisch.
 

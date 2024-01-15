@@ -16,8 +16,10 @@ La commande **Points Fusionner** crée un nuage de points en combinant les point
 
 ## Utilisation
 
-1.  Sélectionnez un objet de nuage de points unique.
-2.  Sélectionnez l\'option **Points → Fusionner des nuages de points** du menu.
+1.  Sélectionnez deux nuages de points ou plus.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Points_Merge.svg" width=16px> [Fusionner des nuages de points](Points_Merge/fr.md)**.
+    -   Sélectionnez l\'option **Points → <img src="images/Points_Merge.svg" width=16px> Fusionner des nuages de points** du menu.
 
 
 

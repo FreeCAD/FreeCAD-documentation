@@ -23,7 +23,7 @@ La commande **Segmentation** crée des segments de maillage séparés pour des t
 **
     -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_Segmentation.svg" width=16px> Segmenter le maillage...** du menu.
 3.  Le panneau des tâches **Segmentation du maillage** s\'ouvre.
-4.  Cochez éventuellement l\'option **Lissage du maillage** et spécifiez une valeur pour le lissage du maillage. Plus la valeur est élevée, plus le maillage est supposé lisse. La spécification de {{Value|0}} a le même effet que la désactivation de cette option. Ne sélectionnez pas cette option si vous souhaitez créer des segments plans.
+4.  Vouz pouvez cochez l\'option **Lissage du maillage** et spécifier une valeur pour le lissage du maillage. Plus la valeur est élevée, plus le maillage est supposé lisse. La spécification de {{Value|0}} a le même effet que la désactivation de cette option. Ne sélectionnez pas cette option si vous souhaitez créer des segments plans.
 5.  Sélectionnez le type de surface pour lequel vous souhaitez créer des segments de maillage. Vous pouvez sélectionner plusieurs types, mais cela peut conduire à de moins bons résultats. Les types de surface disponibles sont :
     -   
         **Plan**

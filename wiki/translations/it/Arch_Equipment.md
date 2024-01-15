@@ -11,51 +11,35 @@
 # Arch Equipment/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
 Lo strumento Arredo offre un modo semplice e comodo per inserire nei progetti degli elementi autonomi non strutturali come ad esempio i mobili, le attrezzature idrosanitarie o gli apparecchi elettrici. Gli Arredi sono basati su [forme Part](Part_Workbench/it.md), che permettono loro di beneficiare della solidità e delle possibilità delle geometrie BRep, e che generano una bella vista durante il rendering dei piani e viste in sezione.
 
-
-</div>
-
-![](images/Arch_equipment_example.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/Arch_equipment_example.jpg ) 
 *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md). Le proiezioni piatte possono essere ottenute dallo strumento [Vista 2D di Draft](Draft_Shape2DView/it.md)*
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-A partire dalla versione 0.17, gli oggetti arredo hanno anche una proprietà **HiRes** in cui può essere collegato un oggetto [Mesh](Mesh_Workbench/it.md). Quindi gli oggetti arredo possono essere creati in modo che nella vista 3D sia visualizzata tale mesh invece che la loro forma, e questo permette di utilizzare qualsiasi oggetto mesh ad alta risoluzione, ad esempio i mobili dettagliati che si trovano comunemente sui siti web.
-
-
-</div>
+A partire dalla versione 0.17, gli oggetti arredo hanno anche una proprietà **HiRes** in cui può essere collegato un oggetto [Mesh](Mesh_Workbench/it.md). Gli oggetti arredo possono essere creati in modo che nella vista 3D sia visualizzata tale mesh invece che la loro forma, e questo permette di utilizzare qualsiasi oggetto mesh ad alta risoluzione, ad esempio i mobili dettagliati che si trovano comunemente sui siti web.
 
 ![](images/Arch_equipment_mesh.jpg ) 
 *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md), con allegata una mesh ad alta risoluzione*
 
 Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si trovano in modalità di visualizzazione Mesh vengono esportati come loro mesh, invece della loro forma.
 
+
+
 ## Utilizzo
 
 1.  Selezionare una forma [Part](Part_Workbench/it.md) e, opzionalmente, un oggetto [Mesh](Mesh_Workbench/it.md).
 2.  Premere il pulsante **<img src="images/Arch_Equipment.svg" width=16px> [Arredo](Arch_Equipment/it.md)**, o premere i tasti **E** poi **Q**.
 
+
+
 ## Opzioni
 
 -   Gli elementi Arredo condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
+
+
 
 ## Proprietà
 
@@ -66,32 +50,15 @@ Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si t
 -    {{PropertyData/it|Mesh}}: Una rappresentazione [Mesh](Mesh_Workbench/it.md) da utilizzare per questo arredo. Quando è impostata, diventa disponibile la modalità di visualizzazione **Mesh**.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Arredo può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Arredo può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
@@ -112,15 +79,6 @@ Box.Height = 600
 Equip = Arch.makeEquipment(Box)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

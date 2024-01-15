@@ -19,15 +19,15 @@ Notez que l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;
 
 ## Utilisation
 
-En cliquant sur l\'icône sans face (pré) sélectionnée, une boîte de dialogue vous demandant si l\'esquisse doit être dessinée dans
+En cliquant sur l\'icône sans face (pré)sélectionnée, une boîte de dialogue s\'ouvre pour demander si l\'esquisse doit être dessinée sur
 
--   XY-Plan
--   XZ-Plan
--   YZ-Plan
+-   Plan XY
+-   Plan XZ
+-   Plan YZ
 
 Vous pouvez modifier un décalage sur l'un des trois plans et le côté du décalage.
 
-En cliquant sur l\'icône avec une face présélectionnée, l\'esquisse sera mappée sur cette face sélectionnée.
+En cliquant sur l\'icône avec une face présélectionnée, l\'esquisse sera dessinée sur cette face sélectionnée.
 
 
 

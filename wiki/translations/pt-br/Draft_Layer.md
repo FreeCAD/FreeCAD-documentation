@@ -20,7 +20,7 @@ The <img alt="" src=images/Draft_Layer.svg  style="width:24px;"> **Draft Layer**
 ## Utilização
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer.md)** button.
+    -   Press the **<img src="images/Draft_Layer.svg" width=16px> [Layer](Draft_Layer.md)** button.
     -   Select the **Utilities → <img src="images/Draft_Layer.svg" width=16px> Layer** option from the menu.
     -   If the layer container already exists: right-click it in the [Tree view](Tree_view.md) and select the **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer** option from context menu.
 2.  If it does not exist the layer container is created first.

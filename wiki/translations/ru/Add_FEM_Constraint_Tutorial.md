@@ -18,16 +18,16 @@
 
 ## Введение
 
-In this tutorial we are going to add the flow velocity constraint to FreeCAD and implement support for the Elmer solver. Please make sure you have read and understood [Extend FEM Module](Extend_FEM_Module.md) before reading this tutorial.
+In this tutorial, we are going to add the flow velocity constraint to FreeCAD and implement support for the Elmer solver. Please make sure you have read and understood [Extend FEM Module](Extend_FEM_Module.md) before reading this tutorial.
 
-This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+This tutorial only covers how to implement constraints in Python. In contrast to solver and equations, constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
 
 ## Summary
 
-1.  **Create document object:** The document object that resides inside the analysis and though which the constraint can be parametrized and attached to boundaries.
+1.  **Create document object:** The document object that resides inside the analysis and through which the constraint can be parametrized and attached to boundaries.
 2.  **Create GUI command:** Add a command to the FEM workbench that adds a flow constraint to the active analysis.
-3.  **Create a task panel:** The task panel is necessary to allow the user to set the boundaries at which he wants to set the velocity constraint. It also makes entering the parameters a little more user friendly.
-4.  **Extend elmers writer:** Add support for the new constraint to Elmer by extending its sif file exporter.
+3.  **Create a task panel:** The task panel is necessary to allow the user to set the boundaries at which he wants to set the velocity constraint. It also makes entering the parameters a little more user-friendly.
+4.  **Extend Elmer\'s writer:** Add support for the new constraint to Elmer by extending its sif file exporter.
 
 ## Create document object 
 
@@ -98,9 +98,9 @@ class ViewProxy(FemConstraint.ViewProxy):
         return ":/icons/fem-constraint-flow-velocity.svg"
 ```
 
-Add the two new modules to the build system like described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list by searching for constraint modules.
+Add the two new modules to the build system as described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list by searching for constraint modules.
 
-As all objects of the FEM workbench the velocity constraint must be registered in {{Incode|ObjectsFem.py}}. The following method adds a velocity constraint to the active document. This method will be used by the GUI command to add the constraint. It must be inserted somewhere in {{Incode|ObjectsFem.py}}.
+As all objects of the FEM workbench, the velocity constraint must be registered in {{Incode|ObjectsFem.py}}. The following method adds a velocity constraint to the active document. This method will be used by the GUI command to add the constraint. It must be inserted somewhere in {{Incode|ObjectsFem.py}}.
 
 
 ```python
@@ -167,16 +167,16 @@ Put the command into Gui/Workbench.cpp to add it to the toolbar and menu. Search
 
 ## Create a task panel 
 
-In this step we are going to modify the following file:
+In this step, we are going to modify the following file:
 
 -    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
-In FreeCAD constraint objects benefit greatly from task panels. Task panels can make use of more powerful input widgets which expose the unit of entered values directely to the user. The velocity constraint even requires the use of a task panel since a task panel is the only way of specifieing the face(s) on which the constraint shall be applied.
+In FreeCAD, constraint objects benefit greatly from task panels. Task panels can make use of more powerful input widgets that expose the unit of entered values directly to the user. The velocity constraint even requires the use of a task panel since a task panel is the only way of specifying the face(s) on which the constraint shall be applied.
 
-The location of the module in which task panels are implemented is not strictely defined. For the velocity constraint we are just going to put the task panel in the same module we put the view proxy. The task panel is quite complicated. It makes use of the FemSolectionWidgets.BoundarySelector(). Thats a qt widget which allows the user to select the boundaries on which the constraint shall be applied. In addition to this widget it generates another one by loading a ui file specifically created for the velocity constraint. Via this widget the velocity vector can be specified.
+The location of the module in which task panels are implemented is not strictly defined. For the velocity constraint, we are just going to put the task panel in the same module where we put the view proxy. The task panel is quite complicated. It makes use of the FemSolectionWidgets.BoundarySelector(). That\'s a qt widget that allows the user to select the boundaries on which the constraint shall be applied. In addition to this widget, it generates another one by loading a UI file specifically created for the velocity constraint. Via this widget, the velocity vector can be specified.
 
-Most of the time is should be sufficient to just copy this class, use a suitable ui file (instead of TaskPanelFemFlowVelocity.ui) and adjust \_initParamWidget() as well as \_applyWidgetChanges(). If the new constraint requires bodies as references instead of boundaries just replace the BoundarySelector object with the SolidSelector.
+Most of the time it should be sufficient to just copy this class, use a suitable UI file (instead of TaskPanelFemFlowVelocity.ui) and adjust \_initParamWidget() as well as \_applyWidgetChanges(). If the new constraint requires bodies as references instead of boundaries just replace the BoundarySelector object with the SolidSelector.
 
 
 ```python
@@ -264,7 +264,7 @@ class _TaskPanel(object):
         self._obj.NormalToBoundary = self._paramWidget.normalBox.isChecked()
 ```
 
-The view proxy must be extended to support the task panel we just implemented. The following extended view proxy opens the task panel when the user makes a double click on the constraint object in the tree view.
+The view proxy must be extended to support the task panel we just implemented. The following extended view proxy opens the task panel when the user makes a double-click on the constraint object in the tree view.
 
 
 ```python

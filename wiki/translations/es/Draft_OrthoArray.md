@@ -34,6 +34,9 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Opcionalmente selecciona un objeto.
 2.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_OrthoArray.svg" width=16px> [Borrador ArregloOrtogonal](Draft_OrthoArray/es.md)**.
@@ -46,6 +49,9 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
     -   Haga clic en la [Vista 3D](3D_view/es.md).
     -   Pulse **Enter**.
     -   Pulse el botón **OK**.
+
+
+</div>
 
 
 
@@ -66,14 +72,6 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 
 -   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
-
-
-
-## Preferencias
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 
 

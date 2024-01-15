@@ -11,17 +11,19 @@ FreeCAD 0.17 a été publié le 6 avril 2018. Vous pouvez l\'obtenir depuis la p
 <img alt="" src=images/Release017_Title.jpg  style="width:800px;"> 
 *Garden Railway Coach O & K (par l\'utilisateur de FreeCAD \"Garden Railway Coach O & K\", voir [Users Showcase](http://forum.freecadweb.org/viewtopic.php?f=24&t=17261))*
 
+
+
 ## Points forts 
 
 Deux années se sont écoulées depuis la sortie de la version 0.16 précédente, mais l\'équipe FreeCAD n\'est pas restée inactive pendant ce temps. Plus de 6 800 révisions ont été ajoutées au code source de FreeCAD. A titre de comparaison, c\'est plus de trois fois le travail effectué entre les v0.16 et 0.15! La plupart des ateliers existants ont bénéficié d\'améliorations et deux nouveaux ateliers ont été ajoutés. De nouveaux modules supplémentaires ont également été développés par la communauté. Quelques-uns des points forts :
 
 L\'atelier **PartDesign** (conception de pièces) a été complètement révisé. Un nouveau conteneur Body (Corps) contient désormais une chaîne de fonctions et lève l\'exigence de mappage (Ancrage) des esquisses sur les faces planes. De nouveaux outils pour créer une géométrie de référence tels que des points, des axes et des plans rendent PartDesign beaucoup plus polyvalent. ![](images/PartDesign_Body_tree.png )
 
-Le nouveau <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) disponible dans le menu Outils (précédemment disponible en tant que [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) facilite l\'installation et la mise à jour des modules complémentaires et des macros sur Windows, Mac OS X et Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+Le nouveau <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md) disponible dans le menu Outils (précédemment disponible en tant que [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) facilite l\'installation et la mise à jour des modules complémentaires et des macros sur Windows, Mac OS X et Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 Le **Sketcher** (atelier d\'esquisses) prend maintenant en charge la création de B-spline avec de nombreuses façons de contrôler les courbes et d\'afficher les informations de la courbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
-Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawing et fournit déjà plus de fonctionnalités que l\'ancien atelier Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;">
+Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawing et fournit déjà plus de fonctionnalités que l\'ancien atelier Drawing. <img alt="" src=images/TechDraw_Workbench_Example.png  style="width:300px;"> 
 
 ## Généralités
 
@@ -38,7 +40,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 -   Le projet FreeCAD reconnaît les contributions de sa communauté en ajoutant un onglet Remerciements dans la fenêtre de dialogue *À propos de FreeCAD*. Les nouvels onglets Licence et Bibliothèques listent la licence de FreeCAD et fournissent de l\'information sur les bibliothèques tierces utilisées.
 
-<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;">
+<img alt="" src=images/AboutFreeCAD_Credits.png  style="width:300px;"> 
 
 ## Atelier Arch (architecture) 
 
@@ -70,6 +72,8 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 -   Le support d\'importation pour le format [3DS](Arch_3DS/fr.md) a été ajouté.
 
+
+
 ## L\'atelier Draft (Planche à dessin) 
 
 -   [Système de groupage Automatique](Draft_AutoGroup/fr.md): L\'atelier Draft dispose désormais d\'un bouton de regroupement automatique dans sa barre d\'outils principale. Une fois activé, tous les objets Draft et Arch nouvellement créés seront automatiquement placés dans ce groupe.
@@ -84,7 +88,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
 
 -   [Étiquettes Draft](Draft_Label/fr.md): Avec cet outil, on peut placer des étiquettes dans le document, qui est composé d\'un morceau de texte et d\'une ligne de repère qui peut être libre ou coller à un objet spécifique. Le texte peut être fait pour afficher un morceau de texte personnalisé, ou afficher automatiquement le contenu d\'une propriété de l\'objet cible.
 
-<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;">
+<img alt="" src=images/Draft_Label_Preview.png  style="width:640px;"> 
 
 ## Atelier FEM 
 
@@ -153,7 +157,7 @@ Le nouvel atelier **TechDraw** (mise en plan) vise à remplacer l\'atelier Drawi
     -   Les codes Python sont conformes à la plupart des règles de **flake8**.
     -   Des dizaines de **fautes de frappe** dans le code source ont été corrigées (à ce que je sache cela s\'applique à l\'ensemble de FreeCAD, luzpaz les trouve toutes comme une aiguille dans la botte de foin).
 
-Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;">
+Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <img alt="" src=images/bridge-detail.png  style="width:640px;"> 
 
 ## Atelier Part 
 
@@ -171,9 +175,11 @@ Quelques images <img alt="" src=images/bridge-all.png  style="width:640px;"> <im
 
 -   Amélioration: L\'outil [Solide par révolution](Part_Revolve/fr.md) supporte maintenant le lien paramétrique à l\'axe de révolution.
 
--   Le nouvel utilitaire [Ancrage](Part_EditAttachment/fr.md) accessible depuis le menu *Pièce → Attachement \...* peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
+-   Le nouvel utilitaire [Ancrage](Part_EditAttachment/fr.md) accessible depuis le menu *Part → Ancrer\...* peut être utilisé pour ancrer paramétriquement la plupart des types d\'objets à une autre géométrie.
 
 -   Le nouveau [conteneur Part](Std_Part/fr.md) peut être utilisé pour regrouper la plupart des types de formes et pour les déplacer comme une unité. Il contient également des plans et des axes standard auxquels attacher des objets. Il servira de base pour le futur atelier d\'assemblage en fournissant un moyen de déplacer les pièces. Il est disponible dans tous les ateliers à partir d\'une barre d\'outils avec [Groupe](Std_Group/fr.md).
+
+
 
 ## Atelier PartDesign (Conception de pièces) 
 
@@ -181,11 +187,13 @@ L\'atelier PartDesign a connu d\'importants changements, fruit des efforts conju
 
 -   Le nouveau conteneur [Body (Corps)](PartDesign_Body/fr.md) contient une chaîne de fonctionnalités PartDesign constituant un seul solide contigu. Il contient également des plans et des axes standard auxquels attacher des objets. Grâce au conteneur Body, il n\'est plus nécessaire de mapper (ancrer) les esquisses aux faces lors de l\'ajout de fonctionnalités. Cette exigence était une limitation majeure de l\'ancien PartDesign, qui pouvait entraîner la rupture de nombreux modèles lors des changements de paramètres. Donc, il est maintenant recommandé d\'éviter de mapper des esquisses aux faces autant que possible.
 
--   Nouvelles fonctionnalités additives et soustractives: [Primitives](PartDesign_CompPrimitiveAdditive/fr.md), [Lissage](PartDesign_AdditiveLoft/fr.md), [Balayage](PartDesign_AdditivePipe/fr.md), [Evidement ou coque](PartDesign_Thickness/fr.md).
+-   Nouvelles fonctionnalités additives et soustractives: [Primitives](PartDesign_CompPrimitiveAdditive/fr.md), [Lissage](PartDesign_AdditiveLoft/fr.md), [Balayage](PartDesign_AdditivePipe/fr.md), [Évidement](PartDesign_Thickness/fr.md).
 
 -   Les nouvelles entités de référence [plans](PartDesign_Plane/fr.md), [droites](PartDesign_Line/fr.md) et [ points](PartDesign_Point/fr.md) sont utiles pour placer des esquisses, l\'alignement et servir d\'axes de révolution.
 
 -   Nouvelle commutation automatique entre PartDesign et Sketcher. Lorsque vous créez une nouvelle esquisse à partir de l\'atelier PartDesign, une fois le support d\'esquisse défini, l\'interface utilisateur bascule automatiquement vers l\'atelier Esquisse et ses outils en mode d\'édition. Lorsque l\'esquisse est fermée, l\'interface utilisateur revient à l\'atelier PartDesign et restaure la vue à son état précédent. Ainsi, les outils Sketcher ont été supprimés des barres d\'outils PartDesign pour libérer de l\'espace pour les nouvelles fonctionnalités PartDesign.
+
+
 
 ## Atelier Path 
 
@@ -210,6 +218,8 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 -   L\'outil [Simulateur d\'usinage](Path_Simulator/fr.md) effectue une coupe simulée en 3D pour visualiser l\'exécution du parcours d\'usinage.
 
 -   Les opérations d\'habillage peuvent être utilisées pour affiner les opérations de base et ajouter de la complexité. Des déguisements existent pour les coins [\'dogbone\'](Path_DressupDogbone/fr.md), [balises d\'attente](Path_DressupTag/fr.md), [rampe d\'entrée d\'usinage](Path_DressupRampEntry/fr.md), et [découpage au cutter](Path_DressupDragKnife/fr.md) \'actions de coin\'
+
+
 
 ## Atelier Sketcher (esquisseur) 
 
@@ -249,13 +259,19 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 
 -   Les contraintes horizontales et verticales peuvent être utilisées pour aligner les points sélectionnés.
 
+
+
 ## Atelier Spreadsheet (Feuille de calcul ou tableur) 
 
 -   Un importateur de fichier Excel a été ajouté.
 
+
+
 ## Atelier Surface 
 
 -   Une nouvelle addition dans la v0.17, l\'atelier Surface propose (pour l\'instant) 4 commandes fonctionnelles de création de surface.
+
+
 
 ## Atelier TechDraw (Mise en plan) 
 
@@ -268,6 +284,8 @@ L\'atelier Path a été massivement révisé en version 0.17. La révision a vu 
 -   Meilleure gestion des modèles.
 -   Le dimensionnement est maintenant supporté par de multiples outils de dimensionnement: horizontal, vertical, longueur, radial, diamètre, angulaire.
 -   Outils de décoration: hachures, hachures compatibles avec les spécifications Autodesk PAT, symboles, images.
+
+
 
 ## Modules Additionnels 
 

@@ -403,7 +403,7 @@ footingReinforcementGroup = makeFootingReinforcement(
 
 **Properties for Secondary X and Y direction Rebar of columns in footing Reinforcement:**
 
--    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
+-    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t_offset, ydir_rebars_t_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
 
 -    `column_sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
 

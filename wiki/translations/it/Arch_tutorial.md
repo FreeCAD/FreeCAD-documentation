@@ -2,10 +2,8 @@
  TutorialInfo:t
    Topic: Modellazione
    Level: Intermedio
-   Time: 
    Author: User:Yorik
    FCVersion: 0.14
-   Files: 
 ---
 
 # Arch tutorial/it
@@ -13,12 +11,6 @@
 
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-
-</div>
 
 ![](images/Arch_tutorial_00.jpg )
 
@@ -26,73 +18,25 @@
 
 ## Introduzione
 
-
-<div class="mw-translate-fuzzy">
-
 Questo tutorial è una guida pratica che mira a fornire le basi per lavorare con l\'ambiente [Architettura](Arch_Workbench/it.md). Cercherò di renderla abbastanza semplice, in modo che non serva alcuna precedente esperienza con FreeCAD, ma è comunque utile avere almeno una discreta esperienza con il 3D o con le applicazioni [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling). In ogni caso, si deve essere disposti a cercare in proprio, nel [wiki della documentazione di FreeCAD](Main_Page.md), ulteriori informazioni su come funziona FreeCAD. Chi non ha mai provato FreeCAD deve prima leggere la pagina [Per iniziare](Getting_started/it.md). È utile consultare anche la nostra sezione dedicata ai [tutorial](tutorials/it.md) e ricordare che su [youtube](http://www.youtube.com/results?search_query=freecad) si trovano molte altre guide sull\'uso di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 L\'ambiente [Arch](Arch_Workbench/it.md) ha lo scopo di offrire un flusso completo di lavoro [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) all\'interno di FreeCAD. Poiché è ancora in fase di sviluppo, non aspettatevi di trovare gli stessi strumenti e il grado di perfezionamento delle evolute alternative commerciali come [Revit](http://en.wikipedia.org/wiki/Revit) o [ArchiCAD](http://en.wikipedia.org/wiki/Archicad), ma d\'altra parte FreeCAD è fatto per essere utilizzato in un ambito molto più vasto di quanto lo siano queste applicazioni e l\'ambiente [Arch](Arch_Workbench/it.md) trae grossi benefici dalle altre discipline a cui FreeCAD si rivolge, inoltre offre alcune caratteristiche viste raramente nelle applicazioni BIM tradizionali.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Ecco, come esempio, alcuni caratteristiche interessanti dell\'ambiente Arch di FreeCAD che è difficile trovare in altre applicazioni BIM:
-
-
-</div>
+Ecco, come esempio, alcune caratteristiche interessanti dell\'[Ambiente Arch](Arch_Workbench/it.md) di FreeCAD che è difficile trovare in altre applicazioni BIM:
 
 -   Gli oggetti architettonici sono sempre dei solidi. Dal forte retroterra meccanico di FreeCAD abbiamo appreso l\'importanza di lavorare sempre con degli oggetti solidi. Questo assicura un flusso di lavoro con meno possibilità di errori, e le operazioni booleane sono molto affidabili. Dato che tagliare degli oggetti 3D con un piano 2D, per estrarre le sezioni, è anche un\'operazione booleana, è possibile intuire immediatamente l\'importanza di questo punto.
 
 -   Gli oggetti architettonici possono sempre avere qualsiasi forma. Non c\'è nessuna restrizione. I muri non devono necessariamente essere verticali, le solette non hanno bisogno di apparire come solette. Qualsiasi oggetto solido può sempre diventare un oggetto architettonico. Cose molto complesse, di solito difficili da definire in altre applicazioni BIM, come una soletta curva che cresce diventando un muro (sì, è proprio di Zaha Hadid che stiamo parlando), in FreeCAD non presentano nessun problema particolare.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Tutta la potenza di FreeCAD è a portata di mano. È possibile progettare gli oggetti architettonici con qualsiasi altro strumento di FreeCAD, ad esempio con quelli di [PartDesign](PartDesign_Workbench/it.md), e poi, quando sono pronti, convertirli in oggetti architettonici. Essi conservano sempre l\'intero storico della loro modellazione, e continuano ad essere completamente modificabili. L\'ambiente [Arch](Arch_Workbench/it.md) eredita anche gran parte delle funzionalità dell\'ambiente [Draft](Draft_Workbench/it.md), quali lo [snap](Draft_Snap/it.md) e i [piani di lavoro](Draft_SelectPlane/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   L\'ambiente [Arch](Arch_Workbench/it.md) è molto [mesh](Mesh_Workbench/it.md)-friendly. Si può facilmente progettare un modello architettonico con un\'applicazione basata su mesh, ad esempio [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) o [SketchUp](http://en.wikipedia.org/wiki/Sketchup), e poi importarlo in FreeCAD. Se la qualità del modello è stata curata e i suoi oggetti sono forme solide manifold, per trasformarlo in oggetto architettonico basta premere un tasto.
 
+In questo momento, però, l\'[Ambiente Arch](Arch_Workbench/it.md), come il resto di FreeCAD, soffre di alcune limitazioni. Sulla maggior parte delle quali si sta lavorando e in futuro spariranno.
 
-</div>
+-   FreeCAD non è una applicazione 2D. È pensato e sviluppato per il 3D. Mette a disposizione un discreto insieme di strumenti per il disegno e la modifica di oggetti 2D negli ambienti [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md), ma non è fatto per gestire grandi (e talvolta mal disegnati) file di CAD 2D. Di solito è possibile importare correttamente i file 2D, ma se intendete continuare a lavorare su di loro in 2D non aspettatevi prestazioni elevate. Siete stati avvertiti.
 
-
-<div class="mw-translate-fuzzy">
-
-In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di alcune limitazioni. Sulla maggior parte si sta lavorando e in futuro spariranno.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   FreeCAD non è una applicazione 2D. È pensato e sviluppato per il 3D. Mette a disposizione un discreto insieme di strumenti per il disegno e la modifica di oggetti 2D negli ambienti [Draft](Draft_Workbench/it.md) e [Sketcher](Sketcher_Workbench/it.md), ma non è fatto per gestire grandi (e talvolta mal disegnati) file di CAD 2D. Di solito è possibile importare correttamente i file 2D, ma se intendete continuare a lavorare su di loro in 2D non aspettatevi prestazioni elevate. Siete avvertiti.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Per ora non c\'è ancora nessun supporto per i materiali. FreeCAD avrà presto un sistema completo di [Materiali](Material.md) in grado di definire dei materiali molto complessi, con tutte le preziosità che si possono desiderare (le proprietà personalizzate, le famiglie dei materiali, il rendering e le proprietà di aspetto, ecc) e ovviamente appena sarà pronto l\'ambiente Arch lo utilizzerà.
-
-
-</div>
+-   Per ora non c\'è ancora nessun supporto per i materiali. FreeCAD avrà presto un sistema completo di [Materiali](Material.md) in grado di definire dei materiali molto complessi, con tutte le preziosità che si possono desiderare (le proprietà personalizzate, le famiglie dei materiali, il rendering e le proprietà di aspetto, ecc) e ovviamente appena sarà pronto l\'[Ambiente Arch](Arch_Workbench/it.md) lo utilizzerà.
 
 -   Supporto preliminare di [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). È già possibile [importare i file IFC](Arch_IFC/it.md) in modo abbastanza affidabile, a condizione che [IfcOpenShell](http://ifcopenshell.org) sia installato sul sistema, ma l\'esportazione non è ancora supportata ufficialmente. Su questo stanno lavorando sia gli sviluppatori di FreeCAD che di IfcOpenShell, e ci si può aspettare che in futuro il supporto di IFC sarà completo.
 
@@ -101,35 +45,17 @@ In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di 
 -   In FreeCAD è già stato implementato il [Sistema di Unità](Units/it.md) di misura che permette di lavorare con qualsiasi unità desiderata (anche con le unità di misura imperiali, e chi proviene dagli Stati Uniti può essere eternamente grato di questo a Jürgen, il padrino e \"dittatore\" di FreeCAD). Al momento, però l\'attuazione non è completa, e l\'ambiente Arch non lo supporta ancora. Per ora Arch deve essere considerato \"unit-less\", cioè adimensionale.
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{Note|È richiesta la versione 0.14 di FreeCAD|Questo tutorial è stato scritto utilizzando la [versione 0.14 di FreeCAD](Release_notes_0.14/it.md). Per seguirlo è necessario avere almeno questa versione. Con le precedenti versioni possono mancare degli strumenti necessari o delle opzioni che sono presentate qui.}}
-
-
-</div>
 
 
 
 ## Flussi di lavoro tipici 
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ambiente [Arch](Arch_Workbench/it.md) è fatto principalmente per due tipi di flussi di lavoro:
-
-
-</div>
 
 -   Costruire il modello con una applicazione più veloce, basata su mesh come [Blender](http://en.wikipedia.org/wiki/Blender_%28software%29) o [SketchUp](http://en.wikipedia.org/wiki/Sketchup), e importarlo in FreeCAD per estrarre i piani e le viste delle sezioni. FreeCAD è stato pensato per la modellazione di precisione ad un livello molto più elevato di quello che serve di solito per la modellazione architettonica, quindi costruire i modelli direttamente in FreeCAD può essere faticoso e lento. Per tale motivo, questo flusso di lavoro presenta dei grandi vantaggi. Nel mio blog ho descritto il procedimento in [questo articolo](http://yorik.uncreated.net/guestblog.php?2012=180). Se il modello è curato, corretto e preciso (pulito, solidi, mesh non-manifold), questo flusso di lavoro dà le stesse prestazioni e lo stesso livello di precisione dell\'altro.
 
-
-<div class="mw-translate-fuzzy">
-
 -   Costruire il modello direttamente in FreeCAD. Questo è il procedimento che voglio mostrare in questo tutorial. Useremo principalmente tre ambienti di lavoro: naturalmente [Arch](Arch_Workbench/it.md), ma anche [Draft](Draft_Workbench/it.md), i cui strumenti sono tutti inclusi in Arch e quindi non c\'è bisogno di cambiare ambiente, e [Sketcher](Sketcher_Workbench/it.md). Per comodità, come faccio di solito, si può creare una barra degli strumenti personalizzata per il proprio ambiente Arch, con Strumenti → Personalizza, e aggiungervi gli strumenti di Sketcher che si usano spesso. Questo è il mio ambiente Arch modificato \"su misura\":
-
-
-</div>
 
 ![](images/Arch_tutorial_01.jpg )
 
@@ -155,21 +81,9 @@ L\'[importatore DXF](Draft_DXF/it.md) (che si occupa anche dei file DWG, siccome
 
 ## Costruire i muri 
 
-
-<div class="mw-translate-fuzzy">
-
 Come la maggior parte degli oggetti [Arch](Arch_Workbench/it.md), i [muri](Arch_Wall/it.md) possono essere costruiti su una grande varietà di altri oggetti: [linee](Draft_Line/it.md), [contorni](Draft_Wire/it.md) (polilinee), [schizzi](Sketcher_Workbench/it.md), facce o solidi (o anche su nulla, nel qual caso essi sono definiti da altezza, larghezza e lunghezza). La geometria della parete risultante dipende dalla geometria di base, e dalle proprietà definite, quali la larghezza e l\'altezza. Come si può immaginare, un muro basato su una linea usa questa linea come sua linea di allineamento, mentre un muro basato su una faccia usa tale faccia come sua impronta di base, e un muro basato su un solido adotta semplicemente la forma di tale solido. Questo permette a qualsiasi forma immaginabile di diventare un muro.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 In FreeCAD sono possibili diverse strategie per costruire un muro. Si potrebbe pensare di costruire un intero \"piano\" con [sketcher](Sketcher_Workbench/it.md), e poi costruire su di esso un solo, grande, oggetto muro. Questa tecnica funziona, ma a tutte le pareti del progetto sarebbe assegnato lo stesso spessore. In alternativa, è possibile costruire tutte le porzioni di muro basate su segmenti distinti. Oppure, come faremo qui, con un mix di entrambi. Costruiamo pertanto alcune [polilinee](Draft_Wire/it.md) sopra il piano importato, una per ogni tipo di muro:
-
-
-</div>
 
 ![](images/Arch_tutorial_03.jpg )
 
@@ -188,13 +102,7 @@ Avete notato che ho avuto grande cura di non incrociare i muri? Questo ci permet
 Sulla sinistra ci sono i due muri che si intersecano, sulla destra il risultato dopo aver aggiunto un muro all\'altro.
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{Note|Una nota importante sugli oggetti parametrici|È già ora di fare delle considerazioni importanti. Come potete vedere, in FreeCAD, tutto è parametrico: Il nuovo muro "unito" è costituito da due muri, ciascuno basato su una linea. Quando lo si espande nella [vista ad albero](Document_structure/it.md), si può vedere tutta questa catena di dipendenze. Come potete immaginare, questo piccolo gioco può diventare rapidamente molto complesso. Inoltre, sapendo già come lavorare con [sketcher](Sketcher_Workbench/it.md), si potrebbe pensare di disegnare le linee di base con schizzi vincolati. Tutta questa complessità ha però un costo: si eleva in modo esponenziale il numero di calcoli che FreeCAD deve compiere per mantenere aggiornata tutta la geometria del modello. Quindi, pensateci, non aggiungete delle inutili complessità quando non servono. Mantenere un buon equilibrio tra oggetti semplici e complessi, e riservare questi ultimi per i casi in cui servono veramente.}}
-
-
-</div>
 
 Ad esempio, avrei potuto disegnare tutte le linee di base di cui sopra, senza preoccuparmi di cosa attraversavano e poi sistemarle con lo strumento [Aggiungi](Arch_Add/it.md). Ma avrei elevato molto la complessità del modello, senza nessun vantaggio. Meglio farle corrette fin dall\'inizio, e mantenerle come parti geometriche molto semplici.
 
@@ -209,13 +117,7 @@ Prima di creare il tetto e di tagliare le pareti, costruiamo i rimanenti oggetti
 ![](images/Arch_tutorial_06.jpg )
 
 
-<div class="mw-translate-fuzzy">
-
-
-{{Note|A proposito di coordinate|Gli oggetti [Draft](Draft_Workbench/it.md), e anche molti oggetti  [Arch](Arch_Workbench/it.md), obbediscono ad un sistema Draft chiamato [piano di lavoro](Draft_SelectPlane/it.md). Questo sistema definisce il piano 2D dove avverranno le operazioni successive. Se non si specifica nessun piano, il piano di lavoro si adatta da solo alla visualizzazione corrente. Questo è il motivo per cui siamo passati alla vista frontale e poi abbiamo applicato uno spostamento di 0 in X e di 2.6 in Y . Con lo strumento piano di lavoro, potevamo anche costringere il piano di lavoro a rimanere al piano terra. Dopo, avremmo dovuto applicare uno spostamento di 0 in X, 0 in Y e 2.6 in Z.}}
-
-
-</div>
+{{Note|A proposito di coordinate|Gli oggetti [Draft](Draft_Workbench/it.md), e anche molti oggetti  [Arch](Arch_Workbench/it.md), obbediscono ad un sistema Draft chiamato [piano di lavoro](Draft_SelectPlane/it.md). Questo sistema definisce il piano 2D dove avverranno le operazioni successive. Se non si specifica nessun piano, il piano di lavoro si adatta da solo alla visualizzazione corrente. Questo è il motivo per cui siamo passati alla vista frontale e poi abbiamo applicato uno spostamento di 0 in X e di 2.6 in Y . Avremmo anche potuto forzare il piano di lavoro a rimanere a terra, utilizzando lo strumento [Seleziona piano](Draft_SelectPlane.md). Allora avremmo inserito un movimento di X pari a 0, Y pari a 0 e Z pari a 2,6. }}
 
 Ora spostiamo i muri in orizzontale, nella loro posizione corretta. Dato che abbiamo dei punti di snap, questo è più facile: Selezionare entrambi i muri, premere lo strumento [Sposta](Draft_Move/it.md), e spostarli da un punto all\'altro:
 
@@ -348,13 +250,7 @@ Bene! Tutto il duro lavoro difficile ormai è fatto, andiamo avanti con il lavor
 
 Le [Finestre](Arch_Window/it.md) sono oggetti abbastanza complessi. Essi sono utilizzati per creare tutti i tipi di oggetti \"inseriti\", come finestre o porte. Sì, in FreeCAD, le porte sono solo un particolare tipo di finestra, e pensandoci bene, anche nella vita reale, o no? Lo strumento [Finestra](Arch_Window/it.md) attualmente può ancora essere un po\' difficile da usare, ma consideratelo un compromesso, siccome è stato costruito per la massima potenza. Con esso si può costruire quasi ogni tipo di finestra che riuscite ad immaginare. Ma appena lo strumento disporrà di ulteriori modelli predefiniti, la situazione migliorerà certamente.
 
-
-<div class="mw-translate-fuzzy">
-
 Gli oggetti [Finestra](Arch_Window/it.md) funzionano così: Si basano su un disegno 2D, qualsiasi oggetto 2D, ma preferibilmente uno [schizzo](Sketcher_Workbench/it.md), che contiene dei contorni chiusi, delle polilinee. Questi contorni definiscono le diverse parti della finestra: telai esterni, telai interni, pannelli di vetro, pannelli solidi, ecc. Gli oggetti finestra hanno quindi una struttura che memorizza cosa si deve fare con ciascuno di questi contorni: estruderli, posizionarli ad una certa distanza, ecc. Infine, una finestra può essere inserita in un oggetto ospite, come una parete o struttura, e crea automaticamente una apertura. Tale apertura è calcolata estrudendo il contorno più grande presente nel disegno 2D.
-
-
-</div>
 
 In FreeCAD, ci sono due modi per creare tali oggetti: utilizzando un modello predefinito, o creando da zero il disegno della finestra. Qui vedremo entrambi i metodi. Ma ricordate che il metodo del modello predefinito non fa altro che creare, per voi, il disegno dell\'oggetto e definire le estrusioni necessarie.
 
@@ -382,13 +278,7 @@ Quindi ora tutto quello che dobbiamo fare è selezionare la porta, premere il ta
 
 Ora sarebbe un buon momento per fare un po\' di pulizia. Dato che abbiamo già due finestre, è bene fare un po\' di pulizia nella vista ad albero: creare un nuovo [gruppo](Std_Group/it.md), rinominarlo \"finestre\", e trascinare in esso le 2 finestre. Vi consiglio di separare in questo modo anche altri elementi, come i muri e le strutture. Dato che è anche possibile creare gruppi annidati, è possibile una ulteriore organizzazione, ad esempio inserendo tutti gli elementi che formano il tetto in un gruppo separato, in questo modo è facile attivarlo o disattivarlo (commutando un gruppo da visibile a invisibile, o viceversa, si applica la stessa azione a tutto il suo contenuto).
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ambiente [Arch](Arch_Workbench/it.md) ha alcuni strumenti aggiuntivi per organizzare il modello: [Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md) e [Piano](Arch_Floor/it.md). Quei tre oggetti sono basati sul gruppo standard di FreeCAD , quindi si comportano esattamente come i gruppi, ma hanno alcune proprietà aggiuntive. Ad esempio, il [Piano](Arch_Floor/it.md) ha la capacità di impostare e gestire l\'altezza dei muri e delle strutture contenute, e quando viene spostato, vengono spostati anche tutti i contenuti.
-
-
-</div>
 
 Qui, dal momento che abbiamo solo un edificio con solo un piano (e mezzo), non vi è alcuna reale necessità di utilizzare tali oggetti, quindi ci bastano i gruppi semplici.
 
@@ -413,13 +303,7 @@ Ora possiamo guardare alle cose veramente interessanti: come progettare le fines
 
 ### Creare delle finestre personalizzate 
 
-
-<div class="mw-translate-fuzzy">
-
 Come ho spiegato in precedenza, gli oggetti [Finestra](Arch_Window/it.md) sono creati da disegni 2D di elementi chiusi (contorni (polilinee), cerchi, rettangoli, nulla). Dal momento che gli oggetti [Draft](Draft_Workbench/it.md) non possono gestire più di uno di questi elementi, lo strumento preferito per disegnare le sagome delle finestre è [Sketcher](Sketcher_Workbench/it.md). Purtroppo, con l\'ambiente Sketcher, non è possibile lo snap agli oggetti esterni come si fa con nell\'ambiente Draft, cosa che qui sarebbe utile dato che i nostri prospetti sono già disegnati. Fortunatamente, esiste uno strumento per convertire gli oggetti Draft in uno schizzi: lo strumento [Converti Draft in Sketch](Draft_Draft2Sketch/it.md).
-
-
-</div>
 
 Cominciamo con la costruzione nostro primo disegno della finestra. L\'ho disegnato sul prospetto, utilizzando vari [rettangoli](Draft_Rectangle/it.md): uno per la sagoma esterna, e 4 per le sagome interne. Mi sono fermato davanti alla porta, perché, ricordate, la nostra porta ha già un telaio posizionato:
 
@@ -461,13 +345,7 @@ Pronto? Non proprio. Guardate l\'immagine qui sopra, abbiamo creato le porte con
 
 Abbiamo già visto come costruire e aggiornare i componenti della finestra, tramite la modalità di modifica della finestra, ma possiamo anche modificare il disegno a loro sottostante. Le finestre preimpostate non sono diverse da quelle personalizzate, ma semplicemente lo strumento [Finestra](Arch_Window/it.md) ha creato al nostro posto il disegno sottostante. Selezionare l\'oggetto door (l\'originale, non la copia, ricordiamoci che abbiamo fatto un clone), ed espanderlo nella vista ad albero. Ecco il nostro schizzo. Fare doppio clic su di esso per entrare in modalità di modifica.
 
-
-<div class="mw-translate-fuzzy">
-
 L\'ambiente [Schizzo](Sketcher_Workbench/it.md) è uno strumento estremamente potente. Non ha alcune delle comodità di [Draft](Draft_Workbench/it.md), come l\'ancoraggio o il piano di lavoro, ma ha molti altri vantaggi. In FreeCAD si utilizza di frequente uno o l\'altro a seconda delle necessità. La caratteristica più importante di Sketcher sono vincoli. I vincoli consentono di correggere automaticamente la posizione di alcuni elementi rispetto ad altri. Ad esempio, è possibile forzare un segmento a essere sempre in verticale, o a essere sempre ad una determinata distanza da un altro.
-
-
-</div>
 
 Quando noi modifichiamo il nostro schizzo porta, possiamo constatare che è prodotta da uno schizzo completamente vincolato:
 
@@ -507,13 +385,7 @@ Adesso facciamo i due pezzi rimanenti. Uno è facile, è una copia di quello che
 
 <img alt="" src=images/Arch_tutorial_38.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-L\'altro è un po\' complicato, guardando le immagini, si vede che ha molte divisioni verticali, come le finestre delle scale. Casualmente (o perché Vilanova Artigas l\'ha progettata molto bene ), la larghezza della finestra, di 4.50m, è esattamente la stessa della finestra delle scale, quindi possiamo utilizzare la stessa divisione: 15 pezzi di 30 cm. Qui ho usato lo strumento [Schiera](Draft_Array/it.md) per copiare le due linee 15 volte, e vi ho disegnato sopra dei rettangoli:
-
-
-</div>
+L\'altro è un po\' complicato, guardando le immagini, si vede che ha molte divisioni verticali, come le finestre delle scale. Casualmente (o perché Vilanova Artigas l\'ha progettata molto bene ), la larghezza della finestra, di 4.50m, è esattamente la stessa della finestra delle scale, quindi possiamo utilizzare la stessa divisione: 15 pezzi di 30 cm. Qui ho usato lo strumento [Serie ortogonale](Draft_OrthoArray/it.md) per copiare le due linee 15 volte, e vi ho disegnato sopra dei rettangoli:
 
 <img alt="" src=images/Arch_tutorial_39.jpg  style="width:1024px;">
 
@@ -531,13 +403,7 @@ Ora, se guardiamo la nostra elevazione da dietro e lo confrontiamo con il piano,
 
 <img alt="" src=images/Arch_tutorial_41.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
 Naturalmente ci sono diversi modi per farlo, creando un volume sottrazione sarebbe un modo semplice, ma sarebbe aggiungere inutili complessità al modello. Meglio modificare il contorno di base di ogni pavimento. Qui è dove entra in azione la modalità [Modifica](Draft_Edit/it.md). Espandere i pavimenti nella vista ad albero, poi rendere visibile il loro contorno di base, quindi fare doppio clic su di essi per entrare nella modalità di modifica. Ora possiamo spostare i punti, oppure aggiungere o rimuovere dei punti. Con questo, modificare i nostri pavimenti diventa facile.
-
-
-</div>
 
 <img alt="" src=images/Arch_tutorial_42.jpg  style="width:1024px;">
 
@@ -583,13 +449,7 @@ Fatto questo, è sufficiente selezionare l\'oggetto edificio, e scegliere il for
 
 ### Rendering
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD dispone anche di un modulo di rendering, che è il modulo [Raytracing](Raytracing_Workbench/it.md). Questo ambiente di lavoro attualmente supporta due motori di rendering, [PovRay](http://www.povray.org/) e [LuxRender](http://www.luxrender.net). Poiché FreeCAD non è progettato per il rendering delle immagini, le caratteristiche che l\'ambiente Raytracing vi offre sono un po\' limitate. La sequenza migliore di azioni quando si vuole fare rendering corretto, è quello di esportare il modello in un formato basato su maglia, come OBJ o STL, e aprirlo in un\'applicazione più adatta al rendering, come [blender](http://www.blender.org). L\'immagine sotto è stata prodotta con il motore di blender:
-
-
-</div>
 
 <img alt="" src=images/Arch_tutorial_47.jpg  style="width:1024px;">
 
@@ -609,23 +469,11 @@ Il piano di sezione produce automaticamente le viste in sezione degli oggetti ch
 
 <img alt="" src=images/Arch_tutorial_49.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-I piani di sezione possono produrre due cose diverse: oggetti [shape](Part_Workbench/it.md), che convivono nello stesso documento come il modello 3D, oppure [viste](Drawing_Workbench/it.md) fatte per essere utilizzate in un foglio di disegno prodotto dall\'ambiente [Drawing](Drawing_Workbench/it.md). Ognuno di questi si comporta in modo diverso, e ha i suoi vantaggi.
-
-
-</div>
+Il piano di sezione può produrre due diversi output: oggetti [shape](Part_Workbench/it.md) nella vista 3D o oggetti [Viste](TechDraw_ArchView/it.md) che vengono visualizzati su un foglio di disegno prodotto da [TechDraw](TechDraw_Workbench/it.md). Ognuno di questi si comporta in modo diverso e presenta i propri vantaggi.
 
 **Viste Shape, Viste 2D**
 
-
-<div class="mw-translate-fuzzy">
-
 Questo output viene prodotto utilizzando lo strumento [Vista 2D](Draft_Shape2DView/it.md) con un piano di sezione selezionato. Si produce una vista 2D del modello direttamente nello spazio 3D, come nell\'immagine qui sopra. Il vantaggio principale è che si può lavorare su queste viste con gli strumenti di [Draft](Draft_Workbench/it.md) (o qualsiasi altro strumento standard di FreeCAD), in modo da poter aggiungere testi, dimensioni, simboli, ecc:
-
-
-</div>
 
 <img alt="" src=images/Arch_tutorial_50.jpg  style="width:1024px;">
 
@@ -635,37 +483,25 @@ Nella immagine qui sopra, sono stati prodotte due [Viste 2D](Draft_Shape2DView/i
 
 Notare che alcune funzioni non sono ancora supportati dal [DXF/DWG exporter](Draft_DXF.md) quindi il risultato nella vostra applicazione 2D potrebbe essere un po\' diverso. Ad esempio, nell\'immagine sopra, ho dovuto rifare il tratteggio, e correggere la posizione di alcuni testi delle quote. Se in FreeCAD si posizionano gli oggetti in gruppi diversi, questi diventano i livelli, i layer, nella vostra applicazione di CAD 2D.
 
-**ArchViews**
+**Viste**
 
-The other kind of output that can be produced from [section planes](Arch_SectionPlane.md) are [TechDraw ArchViews](TechDraw_ArchView.md). This method has one big limitation compared to the previous one: you have limited possibilities to edit the results, and at the moment, things like dimensioning or hatching are still not natively supported.
+L\'altro tipo di output che può essere prodotto dai [piani di sezione](Arch_SectionPlane/it.md) sono le [viste](TechDraw_ArchView/it.md). Questo metodo ha un grosso limite rispetto al precedente: hai limitate possibilità di modificare i risultati, e al momento cose come quotatura o tratteggio non sono ancora supportate nativamente.
 
 D\'altra parte, il risultato finale è più facile da manipolare, e dato che le possibilità grafiche del formato SVG sono enormi, questo sarà senza dubbio il metodo preferito in futuro. Al momento, però, si ottengono risultati migliori con il precedente.
 
 <img alt="" src=images/Arch_tutorial_52.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Nella immagine qui sopra, la geometria è l\'output diretto del piano di sezione, ma sono stati aggiunti alcuni altri oggetti di Draft, come le dimensioni e i poligoni tratteggiati, e da questi usando lo strumento [Drawing](Draft_Drawing/it.md) è stato prodotto un altro oggetto vista con la stessa scala e gli stessi valori di offset. In futuro, tali operazioni potranno essere effettuate direttamente sulla pagina di Drawing, lasciando il modello completamente pulito.
-
-
-</div>
+Nella immagine qui sopra, la geometria è l\'output diretto del piano di sezione, ma sono stati aggiunti alcuni altri oggetti di Draft, come le dimensioni e i poligoni tratteggiati, e da questi usando lo strumento [vista di Draft](TechDraw_DraftView/it.md) è stato prodotto un altro oggetto vista con la stessa scala e gli stessi valori di offset. In futuro, tali operazioni potranno essere effettuate direttamente sulla pagina di Drawing, lasciando il modello completamente pulito.
 
 
 
 ### Estrarre le quantità 
 
-
-<div class="mw-translate-fuzzy">
-
 Questo è un altro compito molto importante che deve essere eseguito sui modelli BIM. In FreeCAD, le cose si mettono bene fin dall\'inizio, dal momento che il kernel OpenCascade di FreeCAD si prende già cura di calcolare lunghezze, aree e volumi per tutte le forme che esso produce. Poiché tutti gli oggetti [Arch](Arch_Workbench/it.md) sono solidi, si è sempre sicuri di poter ottenere da loro un volume.
-
-
-</div>
 
 **Utilizzare i fogli di calcolo**
 
-To populate a spreadsheet with values extracted from the model the Arch_Schedule tool can be used.
+Per popolare un foglio di calcolo con valori estratti dal modello è possibile utilizzare lo strumento Arch_Schedule.
 
 ![](images/Arch_schedule_example03.jpg )
 
@@ -679,13 +515,7 @@ Un altro modo per esaminare il modello e estrarre i valori, è quello di utilizz
 
 ## Conclusione
 
-
-<div class="mw-translate-fuzzy">
-
 Spero che questo offra una buona panoramica degli strumenti disponibili, per avere maggiori informazioni fate riferimento alla documentazione di [Arch](Arch_Workbench/it.md) e di [Draft](Draft_Workbench/it.md) (ci sono altri strumenti che non ho menzionato qui), e, più in generale, alle altre parti della [documentazione di FreeCAD](Main_Page/it.md). Pagare anche una visita al [forum](http://forum.freecadweb.org), molti problemi di solito possono essere risolti velocemente, e seguire il mio [blog](http://yorik.uncreated.net/guestblog.php?tag=freecad) per le novità sullo sviluppo dell\'ambiente Arch.
-
-
-</div>
 
 Il file creato durante questo tutorial è disponibile [qui](http://yorik.uncreated.net/archive/projects/casa_artigas.fcstd)
 

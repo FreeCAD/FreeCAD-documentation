@@ -16,7 +16,7 @@
 
 ## Introduction
 
-The FEM workbench has toolbars and menus. This tutorial shows how to add a test button to a toolbar. It also shows how to add a menuitem to a menu.
+The FEM workbench has toolbars and menus. This tutorial shows how to add a test button to a toolbar. It also shows how to add a menu item to a menu.
 
 The task can be split into four parts:
 
@@ -27,13 +27,13 @@ The task can be split into four parts:
 
 ## Create a new icon file 
 
-For the button we need an icon file. You can use any of your favorite tools to create it, but it must be in the SVG format. Here we will use the **FEM_testButton.svg** file as an example.
+For the button, we need an icon file. You can use any of your favorite tools to create it, but it must be in the SVG format. Here we will use the **FEM_testButton.svg** file as an example.
 
 It must be placed in: `src/Mod/Fem/Gui/Resources/icons/`.
 
 ## Register the new icon file 
 
-The new SVG icon file has to be registered for the GUI-button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
+The new SVG icon file has to be registered for the GUI button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
 
  {{code|code=
      <file>icons/FEM_testButton.svg</file>

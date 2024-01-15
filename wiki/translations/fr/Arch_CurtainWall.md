@@ -146,7 +146,7 @@ L\'outil Mur-rideau peut être utilisé à l\'intérieur d\'une [macro](Macros/f
 MyCurtainWall = makeCurtainWall(baseobj)
 ```
 
-Exemple:
+Exemple :
 
 
 ```python

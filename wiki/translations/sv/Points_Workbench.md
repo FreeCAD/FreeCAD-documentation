@@ -9,10 +9,10 @@
 
 <img alt="Points workbench icon" src=images/Workbench_Points.svg  style="width:128px;">
 
+
+
+
 ## Introduction
-
-
-
 
 The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Workbench](Points_Workbench.md) offers specific tools for working with [point clouds](http://en.wikipedia.org/wiki/Point_cloud). The workbench is still in development.
 
@@ -20,21 +20,27 @@ A point cloud is a collection of points in 3D space. A point cloud is generally 
 
 ## Tools
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Points_Import_Point_cloud.svg  style="width:32px;"> [Import Point Cloud](Points_Import/sv.md): will import coordinates for 3D-points from a text file
 -   <img alt="" src=images/Points_Export_Point_cloud.svg  style="width:32px;"> [Export Point Cloud](Points_Export/sv.md): will export coordinates for 3D-points to a text file
 -   <img alt="" src=images/PolygonPick.svg  style="width:32px;"> Polygon Pick: to do
 
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
 
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Structured point cloud](Points_Structure.md): Creates a structured point cloud from the points of an existing point cloud.
+</div>
 
 -   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Import points\...](Points_Import.md): Imports a point cloud from a file.
 
 -   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Export points\...](Points_Export.md): Exports a point cloud to a file.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cut point cloud](Points_PolyCut.md): Cuts points from point clouds.
+-   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
+
+-   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Structured point cloud](Points_Structure.md): Creates a structured point cloud from the points of an existing point cloud.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Merge point clouds](Points_Merge.md): Creates a point cloud by combining the points of two or more point clouds.
+
+-   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cut point cloud](Points_PolyCut.md): Cuts points from point clouds.
 
 ## Notes
 

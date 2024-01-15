@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 La Restricción Horizontal fuerza a la línea o líneas seleccionadas a ser paralelas al eje horizontal del croquis.
+
+
 
 ## Utilización
 
@@ -44,7 +48,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

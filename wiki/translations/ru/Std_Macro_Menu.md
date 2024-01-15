@@ -37,8 +37,6 @@
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Запись макроса\...](Std_DlgMacroRecord/ru.md): Открывает диалог записи нового макроса.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Остановить запись макроса](Std_MacroStopRecord/ru.md): Завершает текущую запись макроса.
-
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Макрос\...](Std_DlgMacroExecute/ru.md): Открывает диалог для управления и запуска макросов.
 
 
@@ -63,6 +61,16 @@
 -   [Шаг с заходом](Std_MacroStepInto/ru.md): Шаг в коде.
 
 -   [Установить/снять точку останова](Std_ToggleBreakpoint/ru.md): Установливает/снимает точку останова.
+
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Остановить запись макроса](Std_MacroStopRecord/ru.md): Завершает текущую запись макроса.
+
+
+</div>
 
 
 

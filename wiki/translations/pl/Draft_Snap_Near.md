@@ -12,10 +12,10 @@
 
 ## Opis
 
-Opcja <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Przyciągnij do najbliższego** powoduje przyciąganie do najbliższego punktu na powierzchniach oraz krawędziach. Ściany i krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
+Polecenie <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Przyciągnij do najbliższego** powoduje przyciąganie do najbliższego punktu na powierzchniach oraz krawędziach. Ściany i krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
-*Przyciąganie drugiego punktu prostej do najbliższego punktu na krawędzi*
+*Przyciąganie drugiego punktu prostej do najbliższego punktu na krawędzi.*
 
 
 
@@ -46,7 +46,7 @@ Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąg
 
 ## Ustawienia
 
-Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

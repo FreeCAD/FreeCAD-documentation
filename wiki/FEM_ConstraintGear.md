@@ -3,7 +3,6 @@
    Name: FEM ConstraintGear
    MenuLocation: Model , Constraints without solver , Constraint gear
    Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintBearing, FEM_ConstraintPulley
 ---
 
 # FEM ConstraintGear

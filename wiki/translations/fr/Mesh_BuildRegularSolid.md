@@ -61,7 +61,7 @@ La commande **Solide régulier** crée un solide paramétrique, maillé régulie
 
 ## Remarques
 
--   Les objets maillés créés avec cette commande sont paramétriques. A chaque fois qu\'ils sont recalculés, par exemple après avoir changé l\'un de leurs paramètres, leur maillage est reconstruit. Cela signifie que les manipuler avec des commandes telles que [Mesh Affinage](Mesh_RemeshGmsh/fr.md), [Mesh Echelle](Mesh_Scale/fr.md) etc\... n\'a généralement pas de sens.
+-   Les objets maillés créés avec cette commande sont paramétriques. A chaque fois qu\'ils sont recalculés, par exemple après avoir changé l\'un de leurs paramètres, leur maillage est reconstruit. Cela signifie que les manipuler avec des commandes telles que [Mesh Remailler avec Gmsh](Mesh_RemeshGmsh/fr.md), [Mesh Echelle](Mesh_Scale/fr.md) etc\... n\'a généralement pas de sens.
 
 
 

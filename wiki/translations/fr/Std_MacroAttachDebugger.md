@@ -2,8 +2,7 @@
  GuiCommand:
    Name: Std MacroAttachDebugger
    Name/fr: Std Débogueur distant
-   Empty: 1
-   MenuLocation: Macro , Attacher au débogueur distant...
+   MenuLocation: Macro , Se connecter au débogueur distant...
    Workbenches: Tous
 ---
 
@@ -12,6 +11,8 @@
 ## Description
 
 A faire.
+
+
 
 ## Utilisation
 

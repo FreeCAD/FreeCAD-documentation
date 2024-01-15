@@ -1,82 +1,50 @@
 # Draft OCA/de
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-
-
 ## Beschreibung
 
 Entwurf OCA ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehle, um das [OCA Dateiformat](http://groups.google.com/group/open_cad_format) zu verarbeiten.
 
-
-<div class="mw-translate-fuzzy">
-
-Das OCA Dateiformat ist eine Gemeinschaftsanstrengung zur Erstellung eines freien, einfachen und offenen CAD Dateiformats. OCA basiert weitgehend auf dem GCAD Dateiformat, das von [gCAD3D](http://www.gcad3d.org/) erzeugt wird. Beide Formate können in FreeCAD importiert werden, und die von FreeCAD exportierten OCA Dateien können in gCAD3D geöffnet werden.
+Das OCA-Dateiformat ist eine Gemeinschaftsanstrengung zur Erstellung eines freien, einfachen und offenen CAD-Dateiformats. OCA basiert weitgehend auf dem GCAD-Dateiformat, das von [gCAD3D](http://www.gcad3d.org/) erzeugt wird. Beide Formate können in FreeCAD importiert werden, und die von FreeCAD exportierten OCA-Dateien können in gCAD3D geöffnet werden.
 
 
-</div>
 
 ## Importieren
 
-Die folgenden OCA Objekte können importiert werden:
+Die folgenden OCA-Objekte können importiert werden:
 
 -   Linien
 -   Bögen und Kreise
--   Geschlossene Flächen
+-   Geschlossene Flächenbereiche
+
+
 
 ## Exportieren
 
-Die folgenden FreeCAD Objekte können exportiert werden:
+Die folgenden FreeCAD-Objekte können exportiert werden:
 
 -   Linien und Drähte (Polylinien)
 -   Bögen und Kreise
 -   Flächen
 
+
+
 ## Einstellungen
 
-
-<div class="mw-translate-fuzzy">
-
-Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
+Siehe [Import-Export-Einstellungen](Import_Export_Preferences/de.md).
 
 
-</div>
 
-## Scripting
+## Skripten
 
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-<div class="mw-translate-fuzzy">
-
-## Scripting 
-
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripte](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Du kannst Elemente mit der folgenden Funktion nach OCA exportieren:
-
-
-</div>
+Um Objekte in eine OCA-Datei zu exportieren, wird die Methode `export` des Moduls importSVG verwendet.
 
 
 ```python
 importOCA.export(exportList, filename)
 ```
 
--   For the Windows OS: use a **/** (forward slash) as the path separator in {{Incode|filename}}.
+-   Für Windows: **/** (forward slash) wird als Pfad-Trennzeichen in {{Incode|filename}} verwendet.
 
 Beispiel:
 
@@ -96,15 +64,6 @@ doc.recompute()
 objects = [polygon1, polygon2]
 importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

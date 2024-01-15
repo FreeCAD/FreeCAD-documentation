@@ -1,5 +1,7 @@
 # <img alt="Ikonka FreeCAD dla środowiska pracy A2plus" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/pl
 
+
+
 ## Wprowadzenie
 
 
@@ -9,9 +11,13 @@
 
 Niniejsza dokumentacja opisuje wersję A2plus **0.4.56 lub nowszą**.
 
+
+
 ## Instalacja
 
 Środowisko pracy A2plus jest dodatkiem do programu FreeCAD. Można je łatwo zainstalować za pomocą <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) z menu **Przybory → Menadżer dodatków**. A2plus jest w trakcie aktywnego rozwoju i będzie często wzbogacany o nowe funkcje. Dlatego warto go regularnie aktualizować, również za pomocą narzędzia w menu **Przybory → Menadżer dodatków**. Kod A2plus jest przechowywany i rozwijany [na GitHub](https://github.com/kbwbe/A2plus) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu **Mod** programu FreeCAD.
+
+
 
 ## Rozpoczęcie pracy 
 
@@ -33,6 +39,8 @@ Aby zapisać złożenie i zamknąć je po zakończeniu, można użyć przycisku 
 
 Przełączanie przycisku paska narzędzi <img alt="" src=images/A2p_CD_OneButton.svg  style="width:24px;"> ustawia sposób, zaznaczenia kilku krawędzi, ścian itp.: albo za pomocą pojedynczego kliknięcia, albo używając **Ctrl** + kliknięcie.
 
+
+
 ## Montaż
 
 Montaż części odbywa się poprzez dodawanie więzów pomiędzy częściami. Po wprowadzeniu wiązania środowisko pracy A2plus przesuwa części zgodnie z wiązaniem, jeśli jest to możliwe.
@@ -40,6 +48,8 @@ Montaż części odbywa się poprzez dodawanie więzów pomiędzy częściami. P
 Aby utworzyć wiązanie między częściami, przytrzymaj wciśnięty klawisz **Ctrl** i zaznacz każdą krawędź lub powierzchnię dwóch części. Następnie kliknij przycisk na pasku narzędziowym żądanego wiązania. Pojawi się okno dialogowe opisane w rozdziale [wiązania](#Wiązania.md). Wiązanie zostanie dodane do drzewa modelu dołączonego do części, których dotyczy.
 
 W przypadku złożonych wiązań między częściami środowisko pracy A2plus może nie wykonać rozwiązania wiązań. W związku z tym zapoznaj się również z punktem [Rozwiązywanie problemów](#Rozwi.C4.85zywanie_problem.C3.B3w.md), aby poznać strategie rozwiązywania takich przypadków.
+
+
 
 ### Bieżące monitorowanie 
 
@@ -50,6 +60,8 @@ Im więcej części dodajesz, tym ważniejsze jest, aby je śledzić. Dlatego A2
 -   Aby pokazać tylko niektóre części złożenia, wybierz te części w drzewie modelu i użyj przycisku paska narzędzi <img alt="" src=images/A2p_Isolate_Element.svg  style="width:24px;">. Alternatywnie możesz ukryć określoną część, zaznaczając ją w drzewie modelu i naciskając klawisz **Spacja**, aby przełączyć jej widoczność.
 -   Aby przełączyć widok przezroczystości całego złożenia, możesz użyć przycisku na pasku narzędzi <img alt="" src=images/A2p_ToggleTransparency.svg  style="width:24px;">.
 -   Każdą część można uczynić przezroczystą za pomocą normalnej edycji w programie FreeCAD. Jednak czasami ustawienie przezroczystości dla części jest tracone przy ponownym otwieraniu złożenia z powodu błędu w programie FreeCAD. Jako obejście tego problemu możesz użyć przycisku paska narzędzi <img alt="" src=images/A2p_Restore_Transparency.svg  style="width:24px;">, aby przywrócić ustawienia przezroczystości.
+
+
 
 ### Wiązania
 
@@ -64,81 +76,115 @@ Wiązania można wyłączyć, zmieniając ich [widzialność](Std_ToggleVisibili
 
 A2plus zapewnia następujące wiązania:
 
+
+
 #### Punkt w punkcie 
 
 Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrąg lub sferę na każdej części. Jeśli wybrano okrąg lub sferę, to jej punkt środkowy zostanie użyty w Wiązaniu. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PointIdentity.svg  style="width:24px;"> dodaje wiązanie {{Variable|PunktIdentyfikacja}}, które sprawia, że wierzchołki są zbieżne.
+
+
 
 #### Punkt na linii 
 
 Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, lub okrągłą [krawędź](Glossary#Edge.md) *(wybierze jej punkt środkowy)*, lub kulistą [ścinę](Glossary#Face.md) *(również wybierze jej punkt środkowy)* na jednej części i [krawędź](Glossary#Edge.md) na drugiej. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnLineConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|PunktNaLinii}}. Spowoduje ono umieszczenie wierzchołka na krawędzi.
 
+
+
 #### Punkt na płaszczyźnie 
 
 Wybierz [wierzchołek](Glossary#Vertex.md) *(punkt)*, okrągłą [krawędź](Glossary#Edge.md) *(zostanie wybrany jej punkt środkowy)* lub kulistą [ścianę](Glossary#Face.md) *(również zostanie wybrany jej punkt środkowy)* na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_PointOnPlaneConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|Punkt na płaszczyźnie}}. W oknie dialogowym wiązania można określić przesunięcie między punktem a płaszczyzną. Przesunięcie to można również przerzucić między obiema stronami płaszczyzny. Jeśli przesunięcie wynosi zero, ograniczenie spowoduje umieszczenie wierzchołka na płaszczyźnie.
+
+
 
 #### Sfera w sferze 
 
 Wybierz sferyczną [powierzchnię](Glossary#Powierzchnia.md) lub [wierzchołek](Glossary#Wertex.md) *(punkt)* na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|sphereCenterIdent}} *(sfera o wspólnym środku)*. Sprawi ono, że środki sfer, środki sfery i wierzchołka lub wierzchołki będą się pokrywać.
 
+
+
 #### Okrągła krawędź na okrągłej krawędzi 
 
 Wybierz okrągłą krawędź [krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|circularEdge}}. W oknie dialogowym wiązania można określić przesunięcie między krawędziami. To przesunięcie może być również odwrócone. Ponadto można ustawić kierunek wiązania i zablokować obrót części. Jeśli przesunięcie wynosi zero, wiązanie spowoduje, że krawędzie będą koncentrycznie leżeć w tej samej płaszczyźnie.
+
+
 
 #### Zbieżność osi 
 
 Wybierz cylindryczną [Powierzchnię](Glossary#Face.md) lub liniową [Krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|Zbieżność osi}}. W oknie dialogowym wiązania można określić kierunek osi. W oknie tym można również zablokować obrót części. Wiązanie spowoduje, że osie lub linie będą zbieżne.
 
+
+
 #### Równoległość osi 
 
 Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|równoległości osi}}. W oknie dialogowym ograniczenia można określić kierunek osi. Ograniczenie sprawi, że osie lub linie będą równoległe.
+
+
 
 #### Oś na płaszczyźnie równoległej 
 
 Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|Oś na płaszczyźnie równoległej}}. Dzięki temu wiązaniu oś lub prosta będzie równoległa do płaszczyzny.
 
+
+
 #### Oś na płaszczyźnie normalnej 
 
 Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|Oś na płaszczyźnie normalnej}}. Wiązanie spowoduje, że oś lub linia będzie normalna do płaszczyzny.
+
+
 
 #### Kąt osi na płaszczyźnie 
 
 Wybierz cylindryczną [powierzchnię](Glossary#Face.md) lub liniową [krawędź](Glossary#Edge.md) na jednej części i płaszczyznę na drugiej części. Przycisk paska narzędzi <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|axisPlaneAngleAngle}}. Początkowo wiązanie sprawi, że oś będzie równoległa do płaszczyzny. Następnie można dostosować kąt dla osi w pojawiającym się oknie dialogowym ustawień wiązania.
 
+
+
 #### Równoległe płaszczyzny 
 
 Zaznacz płaszczyznę na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|RównoległePłaszczyzny}}. W oknie dialogowym wiązania można określić kierunek wiązania. Użycie tego wiązania spowoduje, że płaszczyzny będą równoległe.
+
+
 
 #### Płaszczyzna na płaszczyźnie 
 
 Wybierz płaszczyznę na obu częściach. Przycisk na pasku narzędzi <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|Zbieżność płaszczyzn}}. Okno dialogowe wiązania pozwala określić kierunek wiązania i przesunięcie między płaszczyznami. Przesunięcie to może być również odwrócone. Jeśli przesunięcie wynosi zero, wiązanie spowoduje, że płaszczyzny będą się pokrywać.
 
+
+
 #### Płaszczyzna kątowa 
 
-Select a plane on both parts. The toolbar button <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> adds the constraint {{Variable|angledPlanes}}. The constraint dialog allows you to specify an angle between the planes. The constraint will make the planes at first parallel and the set the specified angle.
+Wybierz płaszczyznę na obu częściach. Przycisk paska narzędzi <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> dodaje wiązanie {{Variable|angledPlanes}}. Okno dialogowe wiązania pozwala określić kąt między płaszczyznami. Wiązanie sprawi, że płaszczyzny będą najpierw równoległe, a następnie ustawi określony kąt.
+
+
 
 #### Zbieżność w środku masy 
 
-Select either a closed [edge](Glossary#Edge.md) or a plane on both parts. The toolbar button <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> adds the constraint {{Variable|centerOfMass}}. The constraint dialog allows you to specify an offset between the edges or planes. This offset can also be flipped. You can furthermore set the constraint direction and lock the rotation of the parts. If the offset is zero, the constraint will put the edges or planes into the same plane.
+Wybierz zamkniętą [krawędź](Glossary#Edge.md) lub płaszczyznę na obu częściach. Przycisk paska narzędzi <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> dodaje ograniczenie {{Variable|centerOfMass}}. Okno dialogowe wiązania pozwala określić przesunięcie między krawędziami lub płaszczyznami. Przesunięcie to można również odwrócić. Ponadto można ustawić kierunek wiązania i zablokować obrót części. Jeśli przesunięcie wynosi zero, wiązanie umieści krawędzie lub płaszczyzny w tej samej płaszczyźnie.
+
+
 
 ### Montaż podzespołów 
 
-An assembly can contain other assemblies. They are added like parts by pressing the toolbar button <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> and selecting a ***.FCStd** file containing an assembly. Such subassemblies can also be edited like parts using the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. Please make sure for higher assembly stages that you update the assembly recursively via the toolbar button <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> when there were changes.
+Złożenie może zawierać inne złożenia. Dodaje się je jak części, naciskając przycisk paska narzędzi <img alt="" src=images/A2p_ImportPart.svg  style="width:24px;"> i wybierając plik ***.FCStd** zawierający zespół. Takie podzespoły mogą być również edytowane jak części za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">. W przypadku wyższych etapów montażu należy upewnić się, że zespół został zaktualizowany rekursywnie za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_RecursiveUpdate.svg  style="width:24px;"> po wprowadzeniu zmian.
+
+
 
 ## Operowanie wiązaniami 
 
-Possible constraints for a selection are displayed in the toolbar and the *Constraint Tools* dialog by enabling the corresponding buttons. The *Constraint Tools* dialog is opened via the toolbar button <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">. It is intended to stay open to be able to add quickly several constraints to the assembly.
+Możliwe wiązania dla zaznaczenia są wyświetlane na pasku narzędzi i w oknie dialogowym *Narzędzia wiązań* poprzez włączenie odpowiednich przycisków. Okno dialogowe *Narzędzia wiązań* jest otwierane za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">. Powinno ono pozostać otwarte, aby móc szybko dodać kilka wiązań do zespołu.
 
 Istniejące wiązania mogą być edytowane poprzez zaznaczenie ich w drzewie modelu, a następnie dwukrotne kliknięcie na nie lub użycie przycisku na pasku narzędzi <img alt="" src=images/A2p_EditConstraint.svg  style="width:24px;">. Umożliwi to otwarcie okna dialogowego *Właściwości wiązania*.
 
 Wiązania można tymczasowo wyciszyć, zaznaczając je w drzewie modelu i zmieniając właściwość elementu drzewa **Stłumione**.
 
-Constraints can be deleted either by selecting them in the model tree and pressing **Del** or by selecting a part with constraints in the model tree and using the toolbar button <img alt="" src=images/A2p_DeleteConnections.svg  style="width:24px;">.
+Wiązania mogą zostać usunięte poprzez zaznaczenie ich w drzewie modelu i naciśnięcie przycisku **Del** lub poprzez zaznaczenie części z wiązaniami w drzewie modelu i użycie przycisku paska narzędzi <img alt="" src=images/A2p_DeleteConnections.svg  style="width:24px;">.
 
-All constraints can be resolved at any time with the toolbar button <img alt="" src=images/A2p_solver.svg  style="width:24px;">. If the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;"> is turned on a resolve is automatically done after every edit of a constraint.
+Wszystkie wiązania mogą być rozwiązane w dowolnym momencie za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_solver.svg  style="width:24px;">. Jeśli przycisk paska narzędzi <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;"> jest włączony, rozwiązanie jest wykonywane automatycznie po każdej edycji wiązania.
 
-The toolbar button <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> affects the constraint that was added most recently. It flips the constraint direction.
+Przycisk paska narzędzi <img alt="" src=images/A2p_FlipConstraint.svg  style="width:24px;"> wpływa na ostatnio dodane wiązanie. Odwraca on kierunek wiązania.
 
-With the <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;"> tool, it is possible the show and inspect existing constraints. After clicking it a dialog pops up. Then either select a part in the tree and click the button **Import from part** to get all constraints of this part, or select one or more constraints in the tree and click the button **Import from Tree**. As result you get all info about the constraints. By clicking in the column *Suppress* a single constraint can be suppressed. For more features, follow the tooltips of the other dialog buttons.
+Za pomocą narzędzia <img alt="" src=images/A2p_CD_ConstraintViewer.svg  style="width:24px;"> można wyświetlać i sprawdzać istniejące wiązania. Po kliknięciu pojawi się okno dialogowe. Następnie należy wybrać część w drzewie i kliknąć przycisk **Importuj z drzewa**, aby uzyskać wszystkie wiązania tej części, lub wybrać jedno lub więcej wiązań w drzewie i kliknąć przycisk **Importuj z drzewa**. W rezultacie otrzymasz wszystkie informacje o ograniczeniach. Klikając w kolumnie \"Pomiń\" można wyłączyć pojedyncze wiązanie. Więcej informacji można znaleźć w podpowiedziach innych przycisków okna dialogowego.
+
+
 
 ## Lista części 
 
@@ -148,261 +194,310 @@ Struktura arkusza kalkulacyjnego wygląda następująco:
 
 ![](images/A2p_PartinfoTable.png )
 
-Fill out the grey fields with info you have and want to have in the final parts list.
+Wypełnij szare pola informacjami, które chcesz mieć na docelowej liście części.
 
-In the assembly or subassembly use the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width:24px;">. It will ask you if you want to iterate recursively over all subassemblies. Click on *Yes*. This creates a new spreadsheet with the name *#PARTSLIST#*. It contains the info from the different *#PARTSINFO#* spreadsheets of the parts in a list like this:
+W złożeniu lub podzespole użyj przycisku paska narzędzi <img alt="" src=images/A2p_PartsList.svg  style="width:24px;">. Pojawi się pytanie, czy chcesz iterować rekurencyjnie po wszystkich podzespołach. Kliknij na *Yes*. Spowoduje to utworzenie nowego arkusza kalkulacyjnego o nazwie *#PARTSLIST#*. Zawiera on informacje z różnych arkuszy kalkulacyjnych *#PARTSINFO#* części na liście takiej jak ta:
 
 ![](images/A2p_PartslistTable.png )
 
-The position (POS) is automatically set according to the appearance of the parts in the model tree. The top level part will get POS 1.
+Pozycja *(POS)* jest automatycznie ustawiana zgodnie z wyglądem części w drzewie modelu. Część najwyższego poziomu otrzyma POS 1.
 
-The quantity (QTY) is automatically calculated from the assembly. If a parts is twice in the assembly it will get QTY 2.
+Ilość *(QTY)* jest automatycznie obliczana na podstawie złożenia. Jeśli część występuje dwukrotnie w zespole, otrzyma QTY 2.
 
-If you have updated a part info you can refresh the parts list by pressing the toolbar button <img alt="" src=images/A2p_PartsList.svg  style="width:24px;"> again.
+Jeśli zaktualizowałeś informacje o części, możesz odświeżyć listę części, naciskając ponownie przycisk paska narzędzi <img alt="" src=images/A2p_PartsList.svg  style="width:24px;">.
 
-For subassemblies you can also create an info spreadsheet using the toolbar button <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;">. When you create or update the parts list of the main assembly this info will be used if you click on *No* for the question if you want to iterate recursively over all subassemblies. Then the different parts are not in the parts list but only the subassemblies.
+Dla złożeń podrzędnych można również utworzyć arkusz informacyjny za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_PartsInfo.svg  style="width:24px;">. Podczas tworzenia lub aktualizowania listy części głównego złożenia informacje te będą używane, jeśli klikniesz *Nie* na pytanie, czy chcesz iterować rekurencyjnie po wszystkich podzespołach. Wówczas różne części nie znajdują się na liście części, a jedynie w złożeniach podrzędnych.
 
-## Special Features 
 
-### Assembly Structure 
 
-The toolbar button <img alt="" src=images/A2p_Treeview.svg  style="width:24px;"> creates an HTML file with the structure of your assembly. The file will by default be created in the folder of your assembly file. The structure looks like this:
+## Funkcje specjalne 
+
+
+
+### Struktura złożenia 
+
+Przycisk paska narzędzi <img alt="" src=images/A2p_Treeview.svg  style="width:24px;"> tworzy plik HTML ze strukturą złożenia. Plik zostanie domyślnie utworzony w folderze pliku złożenia. Struktura wygląda następująco:
 
 :   ![](images/A2p_Dependency-Tree.jpg )
 
-### Degrees of Freedom 
 
-The button <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> labels every part of the assembly with its degrees of freedom. Furthermore it outputs a list with all parts and their dependencies. The list is output into FreeCAD\'s widget *Report view*. If this widget is currently not visible, it can either be shown by right-clicking into an empty part of the FreeCAD toolbar area and then choosing it in the appearing context menu or with the menu **View → Panels → [Report view](Report_view.md)**.
 
-The degrees of freedom labels can be removed by clicking the button <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> again.
+### Stopnie swobody 
 
-### Part Labels 
+Przycisk <img alt="" src=images/A2p_DOFs.svg  style="width:24px;"> oznacza każdą część złożenia z jej stopniami swobody. Ponadto wyświetla listę wszystkich części i ich zależności. Lista jest wyprowadzana do widżetu FreeCAD *Widok raportu*. Jeśli widżet ten nie jest obecnie widoczny, można go wyświetlić, klikając prawym przyciskiem myszy pustą część obszaru paska narzędzi FreeCAD, a następnie wybierając go w wyskakującym menu podręcznym lub za pomocą menu **Widok → Panele → [Widok raportu](Report_view/pl.md)**.
 
-The button <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> labels every part of the assembly in the 3D view with its name. The part labels can be removed by clicking the button <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> again
-
-### Shape of whole Assembly 
-
-Sometimes it is necessary to have the whole assembly combined as one shape. This shape can then for example be used for 3D printing in the [Mesh workbench](Mesh_Workbench.md) or for drawings in the [TechDraw workbench](TechDraw_Workbench.md). It is created using the toolbar button <img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">. The shape is by default not made visible. Use the same toolbar button to update the shape in case of changes in the assembly.
-
-### Convert absolute Paths to relative Ones 
-
-With the menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
-
-## Preferences
-
-The a2plus preferences can be accessed via FreeCAD\'s menu **Edit → [Preferences](Preferences_Editor.md)** and there in the section *A2plus*. You can set the following options:
-
-### Default solving method 
-
-Use solving of partial systems : The solver begins with a part that has the property **fixed Position** set to *true* and a part constrained to it. All other parts are not calculated. If a solution could be found, the next constrained part is added to the calculation and so on.
-Use \"magnetic\" solver, solving all parts at once : The solver tries to move all parts at once in direction to a part that has the property **fixed Position** set to *true*. Note that this will in most cases take more time for the calculation of a solution.
-Force fixed position : This sets the property **fixed Position** to *true* for all parts in the assembly. Then no calculation is actually performed since all parts will always be fixed to the positions where they were created.
-
-### Default solver behaviour 
-
-Solve automatically if a constraint property is changed : The solver will automatically be started. The same as turning on the toolbar button <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
-
-### Behaviour when updating imported parts 
-
-Recalculate imported parts before updating them : All parts of the assembly, including subassemblies, will be opened in FreeCAD to be reconstructed using values from spreadsheets.
-This feature is designed to construct fully parametrically. **Note:** This feature is very experimental and not recommended for important projects.
-Known problems:
-
--   The assembly can be destroyed because of wrong references to topological names in parts
--   Master spreadsheets can get broken when they are edited while a referenced part file is already closed. This can crash FreeCAD.
-
-Enable recursive update of imported parts : Opens all subassemblies recursively to update them.
+Etykiety stopni swobody można usunąć, klikając ponownie przycisk <img alt="" src=images/A2p_DOFs.svg  style="width:24px;">.
 
 
 
+### Etykiety części 
 
-
-Use experimental topological naming : While importing parts to the assembly an algorithm generates topological names for each subelement of the imported shape. The topological names are written into the **mux Info**. When an imported part needs to be updated, these topological names are used to update the subelements of the constraints. So assemblies get more robust against volatile subelement numbers of FreeCAD.
-**Note:** This increases file sizes and calculation time during import of parts. If topological naming should be used it has to be activated before the assembly is created.
-
-
+Przycisk <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;"> oznacza każdą część złożenia w widoku 3D jej nazwą. Etykiety części można usunąć, klikając ponownie przycisk <img alt="" src=images/A2p_PartLabel.svg  style="width:24px;">.
 
 
 
-Inherit per face transparency from parts and subassemblies : Use colour and transparency settings from imported parts.
-**Note:** This feature is very experimental and not recommended for important projects.
+### Kształt całego złożenia 
+
+Czasami konieczne jest połączenie całego złożenia w jeden kształt. Kształt ten może być następnie użyty do drukowania 3D w środowisku [Siatka](Mesh_Workbench/pl.md) lub do rysowania w środowisku [Rysunek Techniczny](TechDraw_Workbench/pl.md). Jest on tworzony za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">. Kształt nie jest domyślnie widoczny. Użyj tego samego przycisku paska narzędzi, aby zaktualizować kształt w przypadku zmian w złożeniu.
 
 
 
+### Konwersja ścieżek bezwzględnych na względne 
+
+Za pomocą opcji menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Konwertuj bezwzględne ścieżki importowanych części na względne** można konwertować ścieżki importowanych części.
 
 
-Do not import invisible shapes : This will hide invisible datum/construction shapes. **Note:** No constraints must be connected to datum/construction shapes in higher or other subassemblies. Otherwise you can break the assembly.
 
+## Ustawienia
+
+Dostęp do konfiguracji środowiska pracy A2plus można uzyskać poprzez menu FreeCAD **Edycja → [Preferencje ...](Preferences_Editor/pl.md)** i tam w sekcji *A2plus*. Można ustawić następujące opcje:
+
+
+
+### Domyślna metoda rozwiązywania 
+
+Użycie rozwiązywania układów cząstkowych: Rozwiązywanie rozpoczyna się od części, która ma właściwość **Pozycja ustalona** ustawioną na {{true/pl}} i części do niej związanej. Wszystkie pozostałe części nie podlegają obliczeniom. Jeśli uda się znaleźć rozwiązanie, do obliczeń dodawana jest następna związana część i tak dalej. Użyj \"magnetycznego\" solwera, rozwiązującego wszystkie części naraz: Solwer próbuje przesunąć wszystkie części naraz w kierunku części, która ma właściwość **Pozycja ustalona** ustawioną na \"true\". Należy pamiętać, że w większości przypadków obliczenie rozwiązania zajmie więcej czasu. Wymuś stałą pozycję: Ustawia właściwość **Pozycja ustalona** na wartość {{true/pl}} dla wszystkich części w złożeniu. Wówczas nie są wykonywane żadne obliczenia, ponieważ wszystkie części będą zawsze ustawione w pozycjach, w których zostały utworzone.
+
+
+
+### Domyślne działanie solvera 
+
+Rozwiąż automatycznie, jeśli właściwość wiązania zostanie zmieniona : Rozwiązywanie zostanie uruchomione automatycznie. Tak samo, jak użycie przycisku paska narzędzi <img alt="" src=images/A2p_ToggleAutoSolve.svg  style="width:24px;">.
+
+
+
+### Działanie podczas aktualizacji zaimportowanych części 
+
+Oblicz ponownie zaimportowane części przed ich aktualizacją: Wszystkie części złożenia, w tym złożenia podrzędne, zostaną otwarte we FreeCAD w celu zrekonstruowania przy użyciu wartości z arkuszy kalkulacyjnych.
+Ta funkcja jest przeznaczona do konstruowania w pełni parametrycznego.
+
+**Uwaga:** Ta funkcja jest bardzo eksperymentalna i nie jest zalecana w przypadku ważnych projektów.
+Znane problemy:
+
+-   Złożenie może zostać zniszczone z powodu błędnych odniesień do nazw topologicznych w częściach.
+-   Główne arkusze kalkulacyjne mogą ulec uszkodzeniu podczas edycji, gdy plik części, do którego następuje odniesienie, jest już zamknięty. Może to spowodować awarię programu FreeCAD.
+
+Włącz rekurencyjną aktualizację importowanych części: Otwiera rekurencyjnie wszystkie zespoły podrzędne w celu ich aktualizacji.
+
+Używanie eksperymentalnego nazewnictwa topologicznego: Podczas importowania części do złożenia algorytm generuje nazwy topologiczne dla każdego elementu podrzędnego importowanego kształtu. Nadawane nazwy topologiczne są zapisywane we własciwości **mux Info**. Kiedy zaimportowana część wymaga aktualizacji, te nazwy topologiczne są używane do aktualizacji elementów podrzędnych wiązań. Dzięki temu zespoły stają się bardziej odporne na zmienne numery elementów podrzędnych FreeCAD.
+**Uwaga:** Zwiększa to rozmiary plików i czas obliczeń podczas importowania części. Jeśli ma być używane nazewnictwo topologiczne, należy je aktywować przed utworzeniem złożenia.
 
 
 
 
-Use solid union for importing parts and subassemblies : All imported parts will directly be put together as union.
-This feature is useful for [FEM](FEM_Workbench.md) simulations or [3D-printing](Manual_Preparing_models_for_3D_printing.md) if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
 
-### User interface settings 
+Dziedziczenie przezroczystości na powierzchnię z części i podzespołów: Użyj ustawień kolorów i przezroczystości z importowanych części.
+**Uwaga:** Ta funkcja jest bardzo eksperymentalna i nie jest zalecana dla ważnych projektów.
 
-Show constraints in toolbar : If this option is not used, the toolbar buttons for the different constraints are not visible to save space in the toolbar. New constraints can still be set using the *Constraint Tools* dialog (toolbar button <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">).
-Use native file manager of your OS : If this option is used, you get the file dialog of your OS when selecting files for assemblies.
 
-### Storage of files 
 
-Use relative paths for imported parts : Uses relative file paths to the part files.
-Use absolute paths for imported parts : Uses absolute file paths to the part files.
-All files are in this project folder : All project files have to be in the specified folder. It doesn\'t matter if they are in subfolders of this folder. **Note:** No file is allowed to exist several times in the folder (e.g. in different subfolders).
-This option is helpful to work on different machines because then one only has to copy the project folder.
+
+
+Nie importuj niewidocznych kształtów: Spowoduje to ukrycie niewidocznych kształtów odniesienia / konstrukcji. **Uwaga:** Żadne wiązania nie mogą być połączone z kształtami odniesienia / konstrukcji w wyższych lub innych złożeniach podrzędnych. W przeciwnym razie może dojść do uszkodzenia złożenia.
+
+
+
+
+
+Używaj łączenia brył do importowania części i złożeń: Wszystkie importowane części zostaną bezpośrednio połączone w całość.
+Ta funkcja jest przydatna w przypadku [MES](FEM_Workbench/pl.md) lub symulacji [drukowania 3D](Manual:Preparing_models_for_3D_printing/pl.md), jeśli dozwolona jest tylko jedna bryła. Alternatywą jest utworzenie [kształtu całego zespołu](#Kształt_całego_złożenia.md) później.
+
+
+
+### Ustawienia interfejsu użytkownika 
+
+Pokaż wiązania na pasku narzędzi: Jeśli ta opcja nie jest używana, przyciski paska narzędzi dla różnych wiązań nie są widoczne, aby zaoszczędzić miejsce na pasku narzędzi. Nowe wiązania można nadal ustawiać za pomocą okna dialogowego **Narzędzia wiązań** *(przycisk paska narzędzi <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">)*. Użyj natywnego menedżera plików systemu operacyjnego: Jeśli ta opcja jest używana, podczas wybierania plików dla złożeń wyświetlane jest okno dialogowe plików systemu operacyjnego.
+
+
+
+### Zapisywanie plików 
+
+Użyj ścieżek względnych dla importowanych części : Używa względnych ścieżek do plików części.
+Użyj bezwzględnych ścieżek dla importowanych części: Używa bezwzględnych ścieżek do plików części.
+Wszystkie pliki znajdują się w tym folderze projektu: Wszystkie pliki projektu umieszczone są w określonym folderze. Nie ma znaczenia, czy znajdują się w podfolderach podrzędnych. Uwaga: Żaden plik nie może być w folderze kilka razy *(np. w różnych podfolderach)*.
+Ta opcja jest przydatna do pracy na różnych komputerach, ponieważ wystarczy skopiować folder projektu.
+
+
 
 ## Rozwiązywanie problemów 
 
-Sooner or later you will get the problem that A2plus cannot solve the constraints you set. To overcome this, there are different strategies:
+Prędzej czy później pojawi się problem, że środowisko A2plus nie może rozwiązać ustalonych wiązań. Aby temu zaradzić, istnieją różne strategie:
 
-### Using the Conflict Finder Tool 
 
-This is the safest method when you have several constraints because this tool attempts to solve one constraint after another until it finds the conflicting constraint. Then you can go on with the other strategies to resolve the identified constraint. The tool is called using the toolbar button <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
 
-### Checking Constraint Direction 
+### Korzystanie z narzędzia do wyszukiwania konfliktów 
 
-Sometimes constraints seem to be consistently defined but they can nevertheless not be solved. An example: Assume you have a {{Variable|[planesParallel](#Plane_Parallel.md)}} constraint set for two planes. Now you want to set for the same planes the {{Variable|[planeCoincident](#Plane_on_Plane.md)}} constraint and A2plus cannot solve this. Then the constraint directions of {{Variable|planesParallel}} and {{Variable|planeCoincident}} are different. Use the same direction for both constraints to fix this.
+Jest to najbezpieczniejsza metoda, gdy masz kilka ograniczeń, ponieważ narzędzie to próbuje rozwiązać jedno wiązanie po drugim, dopóki nie znajdzie konfliktowego wiązania. Następnie można przejść do innych strategii, aby rozwiązać zidentyfikowane wiązanie. Narzędzie jest wywoływane za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
 
-A2plus offers to automatically check the right direction for **all** constraints of the assembly using the toolbar button <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;">.
 
-### Deleting Constraints 
 
-Most cases of unsolvable constraints occur directly when adding a new constraint. The solution is then to delete the constraint you added last. A2plus will propose this, too.
+### Sprawdzanie kierunku wiązania 
 
-Sometimes the deletion strategy is the only one, for example when you edited a part in FreeCAD so that faces or edges connected to constraints are missing. You should then delete one constraint that is connected to the changed part at a time. Use the toolbar button <img alt="" src=images/A2p_solver.svg  style="width:24px;"> after every deletion to see if you reached a solvable state.
+Czasami wiązania wydają się być spójnie zdefiniowane, ale mimo to nie można ich rozwiązać. Przykład: Załóżmy, że masz wiązanie {{Variable|[Równoległe płaszczyzny](#Równoległe_płaszczyzny.md)}} ustawione dla dwóch płaszczyzn. Teraz chcesz ustawić dla tych samych płaszczyzn wiązanie {{Variable|[Płaszczyzna na płaszczyźnie](#Płaszczyzna_na_płaszczyźnie.md)}} i A2plus nie może tego rozwiązać. Wtedy kierunki wiązań {{Variable|Równoległe płaszczyzny}} i {{Variable|Płaszczyzna na płaszczyźnie}} są różne. Użyj tego samego kierunku dla obu wiązań, aby to naprawić.
 
-When you got an assembly that can be solved, add step by step the constraints you need.
+Środowisko pracy A2plus oferuje automatyczne sprawdzanie właściwego kierunku dla **wszystkich** wiązań złożenia za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;">.
 
-### Moving Parts 
 
-In some cases the solver only needs better start values to solve the constraints. Take for example the case that you have an axle part and a wheel part. You add a {{Variable|axisCoincident }} constraint and get no info that the solver failed but the parts are not moved accordingly and in the *Report view* widget of FreeCAD you see \"*REACHED POS-ACCURACY :0.0*\". A solution for this is to move the parts closer to that position you like to get by the constraint.
 
-**Note:** Assure that at least one part of the constraint has the property **fixed Position** set to *false*.
+### Usuwanie wiązań 
 
-### Setting the Tip Property 
+Większość przypadków nierozwiązywalnych wiązań występuje bezpośrednio podczas dodawania nowego wiązania. Rozwiązaniem jest usunięcie ostatnio dodanego wiązania. A2plus również to zaproponuje.
 
-If you miss some features of your part after the import to an A2plus assembly, check the property **[Tip](PartDesign_MoveTip.md)**.
+Czasami strategia usuwania jest jedyną, na przykład podczas edycji części w programie FreeCAD, tak że brakuje ścian lub krawędzi połączonych z wiązaniami. Powinieneś wtedy usunąć jedno wiązanie, które jest połączone ze zmienioną częścią na raz. Użyj przycisku paska narzędzi <img alt="" src=images/A2p_solver.svg  style="width:24px;"> po każdym usunięciu, aby sprawdzić, czy osiągnąłeś stan rozwiązywalny.
 
-A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+Gdy masz złożenie, które można rozwiązać, dodaj krok po kroku potrzebne wiązania.
 
-### Repairing Assembly Tree 
 
-If you cannot see a clear reason why some constraints cannot be resolved, you can try to use the toolbar button <img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">. This will resolve all constraints and re-group then again under the different parts.
 
-### Migrating old A2plus assemblies 
+### Przesuwanie Części 
 
-Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
+W niektórych przypadkach solver potrzebuje tylko lepszych wartości początkowych, aby rozwiązać powiązania. Weźmy na przykład przypadek, w którym masz część osi i część koła. Dodajesz wiązanie {{Variable|zbieżność Osi}} i nie otrzymujesz informacji, że solver zawiódł, ale części nie są odpowiednio przesuwane, a w widżecie \"Widok raportu\" FreeCAD widzisz \"*REACHED POS-ACCURACY :0.0*\". Rozwiązaniem jest przesunięcie części bliżej pozycji, którą chcesz uzyskać za pomocą wiązania.
 
-### Avoiding Accented Characters 
+**Uwaga:** Upewnij się, że przynajmniej jedna część wiązania ma właściwość **Pozycja ustalona** ustawioną na {{false/pl}}.
 
-**This strategy is not necessary for Windows.**
 
-On some operating systems you can get problems if the file names or the file paths of parts or the assembly contain accented characters. Therefore avoid such characters and also special characters in general.
 
-### Fixing Position 
+### Ustawienie właściwości Czubka 
 
-**This strategy is no longer necessary for assemblies created with A2plus 0.3.11 or newer because A2plus issues now a warning for missing fixed positions.**
+Jeśli po zaimportowaniu do złożenia A2plus brakuje niektórych funkcji części, należy sprawdzić właściwość **[Czubek](PartDesign_MoveTip/pl.md)**.
 
-When you set a constraint between two parts and no part has the property **fixed Position** set to *true* or is connected by a constraint to a part with **fixed Position** set to *true*, the constraint cannot be solved. The same happens if both parts of the constraint have **fixed Position** set to *true*.
+Środowisko pracy A2plus importuje bryły części ze wszystkimi ich cechami aż do cechy Czukek. Jest to rozsądne, ponieważ ustawienie właściwości Czubek na określoną cechę oznacza, że wszystkie cechy za nim nie powinny pojawić się w gotowej części. Jeśli więc przegapisz cechę części w A2plus, otwórz część za pomocą przycisku paska narzędzi <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, a następnie wybierz bryłę i spójrz na jej właściwość **Czubek**. Jeśli końcówka nie znajduje się w wybranym miejscu, kliknij prawym przyciskiem myszy w miejscu, w którym powinna się znajdować i wybierz **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Ustaw czubek**. Na koniec zapisz część i przeładuj złożenie za pomocą przycisku na pasku narzędzi <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
-Then A2plus outputs the info about the failed solution, but sometimes you only see that the parts are not moved accordingly and in the *Report view* widget of FreeCAD you see \"*REACHED POS-ACCURACY :0.0*\". This means the solver finished without errors but it could actually not solve the constraints.
 
-Therefore check that at least one of your parts in the assembly has **fixed Position** set to *true*. Then assure that you only set constraints to a part which is somehow connected to the fixed part. To visualise these dependencies, see section [Assembly Structure](#Assembly_Structure.md).
+
+### Naprawa drzewa montażu 
+
+Jeśli nie widzisz wyraźnego powodu, dla którego niektóre ograniczenia nie mogą zostać rozwiązane, możesz spróbować użyć przycisku paska narzędzi <img alt="" src=images/A2p_RepairTree.svg  style="width:24px;">. Spowoduje to rozwiązanie wszystkich wiązań i ponowne pogrupowanie ich pod różnymi częściami.
+
+
+
+### Migracja starych złożeń A2plus 
+
+Zespoły utworzone za pomocą środowiska A2plus starszego niż marzec 2019 r. nie wyświetlają prawidłowych ikon dla importowanych części i mają przestarzałe właściwości. Złożenia te można zmigrować do A2plus w wersji 0.4.35 i nowszej za pomocą opcji menu **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px">. Migruj proxy zaimportowanych części**. Po wykonaniu tej czynności należy zapisać i ponownie otworzyć plik złożenia.
+
+
+
+### Unikanie znaków akcentowanych 
+
+**Ta strategia nie jest konieczna dla systemu Windows.**
+
+W niektórych systemach operacyjnych mogą wystąpić problemy, jeśli nazwy plików lub ścieżki plików części lub zespołu zawierają znaki akcentowane. Dlatego należy unikać takich znaków, a także generalnie znaków specjalnych.
+
+
+
+### Pozycja ustalająca 
+
+**Ta strategia nie jest już konieczna w przypadku złożeń utworzonych za pomocą A2plus 0.3.11 lub nowszej wersji, ponieważ A2plus wydaje teraz ostrzeżenie o braku ustalonych pozycji**.
+
+Po ustawieniu wiązania między dwiema częściami, gdy żadna część nie ma właściwości **ustalona pozycja** ustawionej na {{true/pl}} lub jest połączona wiązaniem z częścią z **ustalona pozycja** ustawioną na {{true/pl}}, wiązanie nie może zostać rozwiązane. To samo dzieje się, jeśli obie części wiązania mają **fixed Position** ustawione na {{true/pl}}.
+
+Następnie A2plus wyświetla informacje o nieudanym rozwiązaniu, ale czasami widać tylko, że części nie zostały odpowiednio przesunięte, a w widżecie \"Widok raportu\" FreeCAD widać \"*REACHED POS-ACCURACY :0.0*\". Oznacza to, że solver zakończył pracę bez błędów, ale w rzeczywistości nie mógł rozwiązać wiązań.
+
+Dlatego sprawdź, czy przynajmniej jedna z części w złożeniu ma właściwość **ustalona pozycja** ustawioną na \"true\". Następnie upewnij się, że ustawiłeś ograniczenia tylko dla części, która jest w jakiś sposób połączona z częścią stałą. Aby zwizualizować te zależności, zobacz sekcję [Struktura złożenia](#Assembly_Structure/pl.md).
+
+
 
 ### Obracanie części 
 
-**This strategy is no longer necessary for assemblies created with A2plus 0.4.0 or newer because A2plus rotates the parts now automatically a bit in the background to get a sufficient start angle for the solver.**
+**Ta strategia nie jest już konieczna w przypadku złożeń utworzonych za pomocą środowiska pracy A2plus 0.4.0 lub nowszego, ponieważ A2plus automatycznie obraca części w tle, aby uzyskać wystarczający kąt początkowy dla solwera**.
 
-The solver often fails for the constraint {{Variable|angledPlanes}} if the two selected planes have currently an angle of 0° or 180°. (The parts are not moved accordingly and in the *Report view* widget of FreeCAD you see \"*REACHED POS-ACCURACY :0.0*\".) A solution for this is to rotate one part by a few degrees using FreeCAD\'s transform feature (right-click on the part in the model tree and select in the context menu **Transform**).
+Solver często kończy się niepowodzeniem dla wiązania {{Variable|kątowePłaszczyzny}}, jeśli dwie wybrane płaszczyzny mają obecnie kąt 0° lub 180°. *(Części nie są odpowiednio przesuwane, a w widżecie \"Widok raportu\" programu FreeCAD wyświetlany jest komunikat \"REACHED POS-ACCURACY :0.0\")*. Rozwiązaniem tego problemu jest obrócenie jednej części o kilka stopni za pomocą funkcji transformacji FreeCAD *(kliknij prawym przyciskiem myszy część w drzewie modelu i wybierz z menu kontekstowego **Przemieszczenie**)*.
 
-**Note:** Assure that at least one part of the constraint has the property **fixed Position** set to *false*.
+**Uwaga:** Upewnij się, że przynajmniej jedna część wiązania ma właściwość **Pozycja ustalona** ustawioną na {{false/pl}}.
+
+
 
 ## Animacja
 
 A2plus oferuje animacje za pomocą przeciągania oraz skryptów Pythona.
 
+
+
 ### Przeciąganie
 
-Dragging animations are interactive since you trigger it by dragging a part of the assembly. To get these kind of animations:
+Animacje przeciągania są interaktywne, ponieważ uruchamia się je poprzez przeciągnięcie części złożenia. Aby uzyskać tego rodzaju animacje:
 
-1.  Fully constrain the part whose movement or rotation should be animated
-2.  Click on the toolbar button <img alt="" src=images/A2p_MovePartUnderConstraints.svg  style="width:24px;">. This enables the dragging mode.
-3.  Click on the desired part in the assembly.
-4.  Now you can move the mouse and the part will follow the movement of the mouse within the defined constraints.
-5.  To end the dragging mode, left click in the assembly or press ESC.
+1.  W pełni zwiąż część, której ruch lub obrót ma być animowany
+2.  Kliknij przycisk na pasku narzędzi <img alt="" src=images/A2p_MovePartUnderConstraints.svg  style="width:24px;">. Spowoduje to włączenie trybu przeciągania.
+3.  Kliknij wybraną część w zespole.
+4.  Teraz możesz poruszać myszą, a część będzie podążać za ruchem myszy w ramach zdefiniowanych ograniczeń.
+5.  Aby zakończyć tryb przeciągania, kliknij lewym przyciskiem myszy w złożeniu lub naciśnij ESC.
 
-Here is an example assembly to try out the dragging animation: [A2p_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
+Oto przykładowy zestaw do wypróbowania animacji przeciągania: [A2p_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204).
 
 ![](images/A2p_dragging-animation-result.gif )
 
 
 
-*Above: The dragging animation using the example assembly*
+*Powyżej: Animacja przeciągania przy użyciu przykładowego złożenia.*
+
+
 
 ### Tworzenie skryptów 
 
-Despite the dragging mode offers nice interactive animations, they are sometimes not precise enough for screencasts or videos. Scripted animations have the advantage that they animate movements and rotations in a defined way. You can for example rotate a part by exactly 10° back and forth. The following examples use an assembly where a part should be rotated. If you try to animate this using the dragging mode, you will see how hard it is to get a back and forth rotation that you can e.g. show your boss in a presentation. With the interactive example script, however, this is an easy task.
+Pomimo tego, że tryb przeciągania oferuje ładne interaktywne animacje, czasami nie są one wystarczająco precyzyjne dla screencastów lub filmów. Animacje skryptowe mają tę zaletę, że animują ruchy i obroty w określony sposób. Można na przykład obrócić część o dokładnie 10° w przód i w tył. Poniższe przykłady wykorzystują złożenie, w którym część powinna zostać obrócona. Jeśli spróbujesz animować to za pomocą trybu przeciągania, zobaczysz, jak trudno jest uzyskać obrót w przód iw tył, który można np. pokazać szefowi w prezentacji. Dzięki interaktywnemu skryptowi przykładowemu jest to jednak łatwe zadanie.
 
-A scripted animation works usually this way:
+Animacja skryptowa działa zazwyczaj w ten sposób:
 
-1.  The assembly is fully constrained
-2.  The script changes a parameter, for example the position or rotation angle of a part
-3.  After the parameter change, the assembly constraints are solved
-4.  Step 2. and 3. are repeated to get the animation
+1.  Zespół jest w pełni ograniczony
+2.  Skrypt zmienia parametr, na przykład pozycję lub kąt obrotu części.
+3.  Po zmianie parametru wiązania zespołu są rozwiązywane.
+4.  Kroki 2. i 3. są powtarzane w celu uzyskania animacji.
 
-It is also possible to change instead of a placement parameter a constraint, for example the distance between 2 planes.
+Zamiast parametru rozmieszczenia można również zmienić ograniczenie, na przykład odległość między 2 płaszczyznami.
 
-#### Simple Script Example 
 
-The simplest way to script an animation is a non-interactive animation that follows a defined movement. Here is an example: First download this assembly file: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) and also this Python script: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97981).
+
+#### Przykład prostego skryptu 
+
+Najprostszym sposobem tworzenia skryptów animacji jest animacja nieinteraktywna, która podąża za zdefiniowanym ruchem. Oto przykład: Najpierw pobierz ten plik złożenia: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554), a także ten skrypt Python: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97981).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script and the lines beginning with a \'#\' describe what the different script lines do:
+Jest to zawartość skryptu, a linie zaczynające się od \"#\" opisują, co robią poszczególne linie skryptu:
 
 
 <div class="mw-collapsible-content">
 
 
 ```python
-# import libraries
+# import bibliotek
 import time, math, PySide
 import A2plus.a2p_solversystem as a2p_solver
 
-# we use steps of 1 degree
+# używamy kroków co 1 stopień
 step = 1
-# wait 1 ms between every step
+# odczekaj 1 ms między każdym krokiem
 timeout = 0.001
-# initial angle is 0 degree
+# początkowy kąt wynosi 0 stopni
 angle = 0
-# we take the currently opened document
+# bierzemy aktualnie otwarty dokument
 document = FreeCAD.activeDocument()
-# we want later change the rotation angle of the part "star_wheel_001"
+# chcemy później zmienić kąt obrotu części "star_wheel_001"
 starWheel = document.getObject("star_wheel_001")
-# define a progress dialog running from 0 to 360
-progressDialog = PySide.QtGui.QProgressDialog(u"Animation progress", u"Stop", 0, 360)
+# zdefiniuj okno dialogowe postępu działające od 0 do 360
+progressDialog = PySide.QtGui.QProgressDialog(u " Animation progress", u " Stop", 0, 360)
 
-# the while block is the main loop to change the angle and solve
-# the assembly constraints subsequently
-while angle < 360: # run this loop until we have one full turn (360 degrees)
-    # increase the rotation angle
+# blok while jest główną pętlą zmieniającą kąt i rozwiązującą
+# ograniczenia montażowe następnie
+while angle < 360: # wykonuj tę pętlę, aż uzyskamy jeden pełny obrót (360 stopni)
+    # zwiększyć kąt obrotu
     angle += step
-    # set the new angle to the progress dialog
+    # ustaw nowy kąt w oknie dialogowym postępu
     progressDialog.setValue(angle)
-    # change the rotation angle of the part "star_wheel_001"
+    # zmień kąt obrotu części "star_wheel_001"
     starWheel.Placement.Rotation.Angle = math.radians(angle)
-    # solve the constraints 
+    # rozwiąż ograniczenia 
     a2p_solver.solveConstraints(document, useTransaction=True)
-    # update the view after the solving ('Gui' stands for 'graphical user interface')
+    # zaktualizuj widok po rozwiązaniu ("Gui" oznacza "graficzny interfejs użytkownika")
     FreeCADGui.updateGui()
-    # bring the progress dialog to front
+    # przenieś okno dialogowe postępu na przód
     PySide.QtGui.QWidget.raise_(progressDialog)
-    # if 'Stop' was pressed in the dialog, exit the loop
+    # jeśli w oknie dialogowym naciśnięto "Stop", wyjdź z pętli
     if progressDialog.wasCanceled():
         angle = 360
-    # wait some time before performing the next step
+    # odczekaj jakiś czas przed wykonaniem następnego kroku
     time.sleep(timeout)
 ```
 
@@ -412,76 +507,78 @@ while angle < 360: # run this loop until we have one full turn (360 degrees)
 
 </div>
 
-To use the script to perform the animation, we must
+Aby użyć skryptu do wykonania animacji, musimy
 
-1.  Open the assembly file in FreeCAD.
-2.  Open the script file in FreeCAD.
-3.  Click on the toolbar button <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:24px;"> to execute the script (also called macro).
-4.  Change to the tab of the assembly to see the rotation.
+1.  Otworzyć plik złożenia w programie FreeCAD.
+2.  Otworzyć plik skryptu w programie FreeCAD.
+3.  Kliknąć przycisk paska narzędzi <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:24px;">, aby wykonać skrypt *(zwany również makrem)*.
+4.  Przejdź do zakładki zespołu, aby zobaczyć obrót.
 
-To practice, just change something in the script and execute it afterwards. For example increase *step* to *5*.
+Aby poćwiczyć, po prostu zmień coś w skrypcie i wykonaj go później. Na przykład zwiększyć \"krok\" do \"5\".
 
-This is the result of the example animation:
+Oto wynik przykładowej animacji:
 
 ![](images/A2p_animated-example-result.gif )
 
-#### Interactive Script Example 
 
-The first script example demonstrated how to create an animation without any user feedback. For most applications you need to interact with the animation. For example the interesting issue in the example is to see how the driving pins cross the center groove of the wheel. To have a closer look you might present this detail to your colleagues or boss. Therefore you need an interactive solution.
 
-This can be done by using a custom animation dialog with a slider. By moving the slider you can set the rotation angle and therefore rotate back and forth at interesting position.
+#### Przykład interaktywnego skryptu 
 
-We use the same assembly file: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) and this Python script: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97982).
+Pierwszy przykład skryptu pokazał, jak utworzyć animację bez żadnej informacji zwrotnej od użytkownika. W przypadku większości aplikacji konieczna jest interakcja z animacją. Na przykład interesującą kwestią w tym przykładzie jest zobaczenie, jak szpilki napędowe przecinają środkowy rowek koła. Aby przyjrzeć się temu bliżej, można zaprezentować ten szczegół współpracownikom lub szefowi. Dlatego potrzebne jest interaktywne rozwiązanie.
+
+Można to zrobić za pomocą niestandardowego okna dialogowego animacji z suwakiem. Przesuwając suwak można ustawić kąt obrotu, a tym samym obracać się tam i z powrotem w interesującej pozycji.
+
+Używamy tego samego pliku asemblera: [A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) i tego skryptu Pythona: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-This is the content of the script to get the interactive animation dialog:
+Jest to treść skryptu, który wyświetla interaktywne okno dialogowe animacji:
 
 
 <div class="mw-collapsible-content">
 
 
 ```python
-# import libraries
+# import bibliotek
 import time, math, PySide, sys
 import FreeCAD.A2plus.a2p_solversystem as a2p_solver
 from FreeCAD import Units
 from PySide import QtCore, QtGui
 
-# wait 1 ms after every calculation
+# odczekać 1 ms po każdym obliczeniu
 timeout = 0.001
-# we take the currently opened document
+# pobieramy aktualnie otwarty dokument
 document = FreeCAD.activeDocument()
-# we want later change the rotation angle of the part "star_wheel_001"
+# chcemy później zmienić kąt obrotu części "star_wheel_001"
 starWheel = document.getObject("star_wheel_001")
 
-class AnimationDlg(QtGui.QWidget): # the animation dialog
+class AnimationDlg(QtGui.QWidget): # okno dialogowe animacji
 
     def __init__(self): # to initialize the dialog
         super(AnimationDlg, self).__init__()
         self.initUI()
 
-    def initUI(self): # the definition of the dialog components
+    def initUI(self): # definicja komponentów okna dialogowego
         self.setMinimumSize(self.minimumSizeHint()) # set the minimal dialog size to minimum
         self.setWindowTitle('Animation Dialog')
-        # use a grid layout for the whole form
+        # używać układu siatki dla całego formularza
         self.mainLayout = QtGui.QGridLayout()
         self.lineNo = 0 # first dialog grid line
-        # add description label
+        # Dodaj etykietę opisu
         DescriptionLabel = QtGui.QLabel(self)
         DescriptionLabel.setText("Change slider to change rotation angle")
         self.mainLayout.addWidget(DescriptionLabel,self.lineNo,0,1,4)
-         # next dialog grid line
+         # następny wiersz okna dialogowego
         self.lineNo += 1
-        # add a label; there is no need for the "self." prefix because we don't want to change the label later
+        # dodaje etykietę; nie ma potrzeby stosowania przedrostka "self.", ponieważ nie chcemy później zmieniać etykiety.
         LabelMin = QtGui.QLabel(self)
         LabelMin.setText("Min")
         LabelMin.setFixedHeight(32)
         self.mainLayout.addWidget(LabelMin,self.lineNo,0)
-        # add a spin edit to define the slider minimum
+        # dodać edycję obrotową, aby zdefiniować minimum suwaka
         self.MinEdit = QtGui.QSpinBox(self)
-        # get the angle unit as string
+        # pobiera jednostkę kąta jako ciąg znaków
         self.MinEdit.setSuffix(" " + str(FreeCAD.Units.Quantity(1, FreeCAD.Units.Angle))[2:])
         self.MinEdit.setMaximum(999)
         self.MinEdit.setMinimum(0)
@@ -491,7 +588,7 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
         self.MinEdit.setToolTip("Minimal angle for the slider")
         QtCore.QObject.connect(self.MinEdit, QtCore.SIGNAL("valueChanged(int)"), self.setMinEdit)
         self.mainLayout.addWidget(self.MinEdit,self.lineNo,1)
-        # add the slider
+        # dodaj suwak
         self.slider = QtGui.QSlider(QtCore.Qt.Horizontal, self)
         self.slider.setRange(0, 360)
         self.slider.setValue(0)
@@ -499,14 +596,14 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
         self.slider.setToolTip("Move the slider to change the rotation angle")
         QtCore.QObject.connect(self.slider, QtCore.SIGNAL("sliderMoved(int)"), self.handleSliderValue)
         self.mainLayout.addWidget(self.slider,self.lineNo,2)
-        # add a label
+        # dodaj etykietę
         LabelMax = QtGui.QLabel(self)
         LabelMax.setText("Max")
         LabelMax.setFixedHeight(32)
         self.mainLayout.addWidget(LabelMax,self.lineNo,3)
-        # add a spin edit to define the slider maximum
+        # dodaje edycję obrotową, aby zdefiniować maksimum suwaka
         self.MaxEdit = QtGui.QSpinBox(self)
-        # get the angle unit as string
+        # pobiera jednostkę kąta jako ciąg znaków
         self.MaxEdit.setSuffix(" " + str(FreeCAD.Units.Quantity(1, FreeCAD.Units.Angle))[2:])
         self.MaxEdit.setMaximum(999)
         self.MaxEdit.setMinimum(1)
@@ -516,28 +613,28 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
         self.MaxEdit.setToolTip("Maximal angle for the slider")
         QtCore.QObject.connect(self.MaxEdit, QtCore.SIGNAL("valueChanged(int)"), self.setMaxEdit)
         self.mainLayout.addWidget(self.MaxEdit,self.lineNo,4)
-         # next dialog grid line
+         # następny wiersz okna dialogowego
         self.lineNo += 1
-        # add a spacer
+        # dodaje element dystansowy
         self.mainLayout.addItem(QtGui.QSpacerItem(10,10), 0, 0)
-        # add a label
+        # dodaje etykietę
         LabelCurrent = QtGui.QLabel(self)
         LabelCurrent.setText("Current angle:")
         LabelCurrent.setFixedHeight(32)
         self.mainLayout.addWidget(LabelCurrent,self.lineNo,1)
-        # output the current angle
+        # wyświetla bieżący kąt
         self.CurrentAngle = QtGui.QLineEdit(self)
         self.CurrentAngle.setText(str(0))
         self.CurrentAngle.setFixedHeight(32)
         self.CurrentAngle.setToolTip("Current rotation angle")
         self.CurrentAngle.isReadOnly()
         self.mainLayout.addWidget(self.CurrentAngle,self.lineNo,2)
-        # add label for the unit
+        # dodaje etykietę dla urządzenia
         LabelUnit = QtGui.QLabel(self)
         LabelUnit.setText("deg")
         LabelUnit.setFixedHeight(32)
         self.mainLayout.addWidget(LabelUnit,self.lineNo,3)
-        # button to close the dialog
+        # aby zamknąć okno dialogowe
         self.Close = QtGui.QPushButton(self)
         self.Close.setText("Close")
         self.Close.setFixedHeight(32)
@@ -549,25 +646,25 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
         self.update()
 
     def handleSliderValue(self):
-        # set slider value as angle
+        # ustawia wartość suwaka jako kąt
         starWheel.Placement.Rotation.Angle = math.radians(self.slider.value())
-        # output current angle
+        # kąt prądu wyjściowego
         self.CurrentAngle.setText(str(self.slider.value()))
-        # solve the constraints 
+        # rozwiązywanie wiązań
         a2p_solver.solveConstraints(document)
-        # update the view after the solving ('Gui' stands for 'graphical user interface')
+        # aktualizacja widoku po rozwiązaniu ''("Gui" oznacza "graficzny interfejs użytkownika")''
         FreeCADGui.updateGui()
-        # wait some time, important to give time to perform calculations
+        # odczekaj trochę czasu, ważne jest, aby dać czas na wykonanie obliczeń.
         time.sleep(timeout)
 
     def setMinEdit(self):
-        # assure that the minimum is samller than the maximum
+        # upewnij się, że minimum jest mniejsze niż maksimum
         if self.MinEdit.value() >=  self.MaxEdit.value():
             self.MaxEdit.setValue(self.MinEdit.value() + 1)
         self.slider.setRange(self.MinEdit.value(), self.MaxEdit.value())
 
     def setMaxEdit(self):
-        # assure that the minimum is samller than the maximum
+        # upewnić się, że minimum jest mniejsze niż maksimum
         if self.MinEdit.value() >=  self.MaxEdit.value():
             self.MinEdit.setValue(self.MaxEdit.value() - 1)
         self.slider.setRange(self.MinEdit.value(), self.MaxEdit.value())
@@ -575,17 +672,17 @@ class AnimationDlg(QtGui.QWidget): # the animation dialog
     def CloseClicked(self):
         AnimationDialog.close()
 
-# create and show the defined dialog
+# utwórz i wyświetl zdefiniowane okno dialogowe
 AnimationDialog = AnimationDlg()
 AnimationDialog.show()
 
-# run this loop when the dialog is visible
+# uruchom tę pętlę, gdy okno dialogowe jest widoczne
 while AnimationDialog.isVisible():
-    # update the view; important to give the OS feedback the dialog is alive
+    # aktualizacja widoku; ważne, aby system operacyjny otrzymał informację zwrotną, że okno dialogowe jest aktywne
     FreeCADGui.updateGui()
-    # bring the dialog to front, so that the dialog is always visible
+    # przeniesienie okna dialogowego na przód, tak aby było ono zawsze widoczne
     QtGui.QWidget.raise_(AnimationDialog)
-    # output slider value here too because during the calculation the slider might have been moved
+    # wartość wyjściowa suwaka również tutaj, ponieważ podczas obliczeń suwak mógł zostać przesunięty
     AnimationDialog.CurrentAngle.setText(str(AnimationDialog.slider.value()))
 ```
 
@@ -595,25 +692,27 @@ while AnimationDialog.isVisible():
 
 </div>
 
-The dialog defined in the script looks like this:
+Okno dialogowe zdefiniowane w skrypcie wygląda następująco:
 
 ![](images/A2p_AnimationDialog.png )
 
-### Script Commands 
 
-To understand the script syntax better, here is some command info: 
+
+### Polecenia skryptu 
+
+Aby lepiej zrozumieć składnię skryptu, oto kilka informacji o poleceniach: 
 ```python starWheel.Placement.Rotation.Angle = math.radians(angle)```
 
-Here we change the placement property `Rotation.Angle` of the part get got previously as `starWheel`. This property gets the angle as [radian](https://en.wikipedia.org/wiki/Radian). The function `radians()` from the library `math` converts the angle from degree to radian.
+Tutaj zmieniamy właściwość umieszczania `Rotation.Angle` części otrzymanej wcześniej jako `starWheel`. Ta właściwość pobiera kąt jako [radian](https://en.wikipedia.org/wiki/Radian). Funkcja `radians()` z biblioteki `math` konwertuje kąt ze stopni na radiany.
 
-The property `Rotation.Angle` uses the current placement axis of the part (in our example the X-axis). To rotate the part e.g. around the Z-axis one can set the rotation axis (before calling the rotation command) using the command: 
-```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Instead of rotating, parts can also be moved. To change for example the placement in Y-direction of the wheel, the command would be: 
-```python starWheel.Placement.Base.y = PositionShift``` In this case we would not define the variable `angle` but `PositionShift` that we change on every loop run.
+Właściwość `Rotation.Angle` wykorzystuje bieżącą oś umieszczenia części *(w naszym przykładzie oś X)*. Aby obrócić część np. wokół osi Z, można ustawić oś obrotu *(przed wywołaniem polecenia obrotu)* za pomocą polecenia: 
+```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Zamiast obracać, części można również przesuwać. Aby zmienić na przykład położenie koła w kierunku Y, polecenie brzmiałoby: 
+```python starWheel.Placement.Base.y = PositionShift``` W tym przypadku nie definiowalibyśmy zmiennej `angle`, ale `PositionShift`, którą zmieniamy przy każdym przebiegu pętli.
 
-There are different ways to set the placement of a part. Some are [ documented here](Placement.md). Unfortunately there is no list (yet) with all possible placement commands. 
+Istnieją różne sposoby ustawiania położenia części. Niektóre z nich są udokumentowane na stronie [Umiejscowienie](Placement/pl.md). Niestety nie ma *(jeszcze)* listy wszystkich możliwych poleceń umiejscowienia. 
 ```pythona2p_solver.solveConstraints(document, useTransaction=False/True)```
 
-This is an A2plus-specific command. It solves the assembly constraints of the assembly we previously got as `document`. The option `useTransaction` specifies if FreeCAD should store every change in the undo/redo stack. For large animations you might therefore set it to `False`.
+Jest to polecenie specyficzne dla środowiska pracy A2plus. Rozwiązuje ono wiązania złożenia, które wcześniej otrzymaliśmy jako `document`. Opcja `useTransaction` określa, czy FreeCAD powinien przechowywać każdą zmianę w stosie cofania / ponawiania. W przypadku dużych animacji można więc ustawić ją na `False`.
 
 
 

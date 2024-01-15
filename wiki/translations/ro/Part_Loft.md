@@ -13,7 +13,26 @@
 
 </div>
 
-## Overview
+## Description
+
+The <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
+
+<img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
+*Loft from three profiles which are two [Part Circles](Part_Circle.md) and one [Part Ellipse](Part_Ellipse.md). Parameters are Solid "True" and Ruled "True".*
+
+## Usage
+
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Loft.svg" width=16px> [Loft...](Part_Loft.md)** button.
+    -   Select the **Part → <img src="images/Part_Loft.svg" width=16px> Loft...** option from the menu.
+2.  The Loft [task panel](Task_panel.md) opens.
+3.  In the *Available Profiles* list on the left select the first profile and click on the right arrow to place it in the *Selected profiles* list on the right.
+4.  Repeat for the second profile and again if more than two profiles are desired.
+5.  Optionally use the up and down arrows to reorder the selected profiles.
+6.  Define options [Create solid](#Data.md), [Ruled surface](#Data.md), and [Closed](#Data.md).
+7.  Click **OK**.
+
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
@@ -25,13 +44,11 @@ Instrumentul Loft din Atelierul (Part Workbench) este utilizat pentru a crea o f
 
 </div>
 
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles. <small>(v0.20)</small> 
 
-<div class="mw-translate-fuzzy">
+## Options
 
-Instrumentul Loft are trei parametrii, \"Ruled\",\"Solid\" and \"Closed\" fiecare având câte o valoare sau \"true\" ori \"false\".
-
-
-</div>
+#### Create solid 
 
 
 <div class="mw-translate-fuzzy">
@@ -41,6 +58,8 @@ Dacă \"Solid\" are valoarea \"true\" FreeCAD creează un solid dacă profilele 
 
 </div>
 
+#### Ruled surface 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -49,7 +68,15 @@ Dacă este true\" , \"Ruled\" FreeCAD creează o fațetă, fațetele sau solidel
 
 </div>
 
+#### Closed
+
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD încearcă să atașeze ultimul profil la primul profil pentru a crea o figură închisă.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -59,55 +86,32 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 </div>
 
+## Properties
 
-<div class="mw-translate-fuzzy">
+See also: [Property editor](Property_editor.md).
 
-![centre\|Part_Loft. From three profiles which are two Part_Circles and one Part_Ellipse. Parameters are Solid \"True\" and Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+A Part Loft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-
-</div>
-
-## Notes
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
-
-## Limitations and complications 
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Loft}}
 
-## Limitări și complicații 
+-    **Sections|LinkList**: lists the sections used.
 
--   Un vertex sau un punct
-    -   vârful sau punctul pot fi utilizate numai ca primul și / sau ultimul profil din lista de profiluri.
-        -   De examplu
-            -   you cannot loft from a circle to a point, to an ellipse.
-            -   However you could Loft from a point to a circle to an ellipse to another point.
--   Open or closed geometry profiles can not be mixed in one single Loft
-    -   In one Loft, all profiles (lines wires etc.) must be either open or closed.
-        -   De examplu
-            -   FreeCAD can not Loft between one Part Circle and one default Part Line.
--   Draft Workbench features
-    -   Draft Workbench features can be directly used as a profile in FreeCAD 0.14 or later.
-        -   For example the following Draft features can be used as profiles in a Part Loft
-            -   Draft Polygon.
-            -   Draft Point, Line, wire,
-            -   Draft B-spline, Bezier Curve
-            -   Draft Circle, Ellipse, Rectangle
--   Schițe PartDesign Sketches
-    -   The profile may be created with a sketch. However only a valid sketch will be shown in the list to be available for selection.
-    -   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire)
--   Atelierul Part Workbench
-    -   the profile can be a valid Part geometric primitive which can be created with the [Part CreatePrimitives](Part_CreatePrimitives.md) tool
-        -   De examplu următoarele primiteve geometrice Part pot fi un profil valid
-            -   Punct (Vertex), Linie (Edge)
-            -   Elice, Spirală
-            -   Cerc, Elipsă
-            -   Poligon Regulat
-            -   Plan (Fațetă)
+-    **Solid|Bool**: true or false (default). True creates a solid.
 
+-    **Ruled|Bool**: true or false (default). True creates a ruled surface.
 
-</div>
+-    **Closed|Bool**: rue or false (default). True creates a closed loft by connecting last to first profile.
+
+-    **Max Degree|IntegerConstraint**: Maximum degree.
+
+## Limitations
+
+A Part Loft has the same limitations as a [Part Sweep](Part_Sweep#Limitations.md).
+
+### Closed Lofts 
 
 
 <div class="mw-translate-fuzzy">
@@ -117,106 +121,6 @@ Pentru mai multe informații supra modului cum profilele sunt legate împreună 
 
 
 </div>
-
-## An example Loft 
-
-
-<div class="mw-translate-fuzzy">
-
-## Un exemplu de Loft 
-
-Instrumentul Loft este în Atelierul Part Workbench, meniul Part -\> Loft\... sau via iconița din bara de instrumente.
-
-
-</div>
-
-![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
-
-
-<div class="mw-translate-fuzzy">
-
-In the \"Tasks\" will be two lists: \"node / wire\" and \"free form\".
-
-
-</div>
-
-![](images/Part_Loft_Liste3.png )
-
-
-<div class="mw-translate-fuzzy">
-
-### Selecția elementelor 
-
-In the \"node / wire\" the available items are displayed. Two elements must be selected one after the first in this list.
-
-
-</div>
-
-![](images/Part_Loft_Liste_Auswahl_3b.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Thereafter, with the blue arrow that item is added to the list of \"free form\".
-
-
-</div>
-
-![](images/Part_Loft_Liste_Auswahl_3c.png )
-
-The selected items must be of the same type.
-
-
-<div class="mw-translate-fuzzy">
-
-Tip: the active / selected items in the list are displayed in the 3D area as active / selected.
-
-
-</div>
-
-### Command complete 
-
-
-<div class="mw-translate-fuzzy">
-
-### Comanda completă 
-
-Dacă sunt selectate ambele elemente, comanda poate fi completată cu \"OK\".
-
-
-</div>
-
-![](images/Part_Loft_Liste_Auswahl_3d.png )
-
-### Result
-
-
-<div class="mw-translate-fuzzy">
-
-## Rezultat
-
-Din liniile închise obținem suprafețe care ar putea fi luate ca un aspect superficial pentru solide.
-
-
-</div>
-
-![](images/Part_Loft_geschlossen.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Dacă într-adevăr trebuie să creați un solid, utilizați butonul \"Create Solid\" sau după ce ați creat comutatorul Loft în tab-ul **properties** **data** și setați comutatorul \"Solid\" la True.
-
-
-</div>
-
-Procedura este aceeași cu cea descrisă mai sus cu polilinii deschise.
-
-### Changing the selection of sections 
-
-If you want to change the selection of the sections after creation of the loft, you can select the field Sections in the Data tab and click the occuring ellipsis button. The list of all selectable sections occurs, the current selection is highlighted. You can remove or add additional sections.
-
-The sequence of sections depends on the sequence of clicks in the list. If you want to make substantial changes it is recommended to first deselect all and then start selection in the right order.
 
 
 

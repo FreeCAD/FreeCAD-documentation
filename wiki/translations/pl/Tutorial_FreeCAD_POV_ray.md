@@ -31,13 +31,13 @@ Ten poradnik jest oparty na poście forum autorstwa schupin [FreeCAD / pov ray t
 
 *align=center|Przykład autorstwa użytkownika ''schupin'' modelu 3D i wysokiej jakości renderu wykonanego za pomocą programu FreeCAD i POV-Ray.*
 
-The files used in this tutorial are in post #8 [in the same thread](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
+Pliki użyte w tym poradniku znajdują się w poście #8 [w tym samym wątku](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
 
 
 
 ## Konfiguracja podstawowa 
 
-Follow the basic workflow outlined in the [Raytracing Workbench](Raytracing_Workbench.md) documentation.
+Postępuj zgodnie z podstawowym przepływem pracy opisanym w dokumentacji środowiska pracy [Raytracing](Raytracing_Workbench/pl.md).
 
 For direct rendering to work, the `povray` executable must be set in **Edit → Preferences → Raytracing → Render → POV-Ray executable**; set it to its location in your system, for example, `/usr/bin/povray`. Other options used by the renderer can be defined here as well, including the width `+W` and height `+H` of the image, and the use of antialiasing `+A`.
 

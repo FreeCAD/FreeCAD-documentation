@@ -25,7 +25,7 @@ The [Draft BezCurve](Draft_BezCurve.md) and the Draft CubicBezCurve commands use
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Draft CubicBezCurve](Draft_CubicBezCurve.md)** button.
+    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Cubic Bézier curve](Draft_CubicBezCurve.md)** button.
     -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
 2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  It is not possible the enter points via the task panel.
@@ -48,10 +48,6 @@ See [Draft BezCurve](Draft_BezCurve#Options.md).
 ## Notes
 
 -   A Draft CubicBezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
-
-## Preferences
-
-See [Draft BezCurve](Draft_BezCurve#Preferences.md).
 
 ## Properties
 

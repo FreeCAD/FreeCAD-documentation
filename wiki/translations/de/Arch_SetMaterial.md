@@ -10,33 +10,31 @@
 
 # Arch SetMaterial/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokument hinzuzufügen und ein Material einem [Arch](Arch_Workbench/de.md)-Objekt zuzuweisen. Materialien können alle Eigenschaften eines bestimmten Materials aufweisen und die Farbe des Objekts steuern, an das es angehängt wird. Materialien werden in einem **Materialien** Ordner im aktiven Dokument gespeichert.
-
-
-</div>
+Dieses Werkzeug ermöglicht [Materialien](Material.md) zum aktiven Dokument hinzuzufügen und ein Material einem [Arch](Arch_Workbench/de.md)-Objekt zuzuweisen. Ein Material enthält alle Eigenschaften eines bestimmten Materials und steuert die Farbe des Objekts, dem es zugeordnet ist. Materialien werden in einem Ordner **Materials** im aktiven Dokument gespeichert.
 
 ![](images/Arch_materials_01.jpg )
 
+
+
 ## Anwendung
 
+1.  Wahlweise ein oder mehrere Objekte auswählen, denen ein neues Material zugeordnet werden soll.
 
-<div class="mw-translate-fuzzy">
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial/de.md)** drücken.
+    -   Das Tastaturkürzel **M** dann **T**.
+    -   Den Menüeintrag **Arch → Materialwerkzeuge → Material** auswählen.
 
-1.  Wähle optional ein oder mehrere Objekte aus, denen du ein neues Material zuordnen möchtest.
-2.  Rufe den Befehl auf mehrere Arten auf:
-    -   Drücke die **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial/de.md)** Schaltfläche in dr Werkzeugleiste
-    -   Verwende die **M** dann **T** Tastaturkürzel.
-    -   Verwende die **Arch → Material Werkzeuge → Material** Eintrag aus dem oberen Menü.
-3.  Lade ein voreingestelltes Material, oder erstelle ein neues durch Ausfüllen der Felder .
-4.  Drücke **OK**.
+3.  Ein voreingestelltes Material laden, oder ein neues durch Ausfüllen der Felder erstellen.
+
+4.  
+    **OK**drücken.
 
 
-</div>
 
 ## Optionen
 
@@ -44,25 +42,18 @@ Die Material Werkzeuge erlauben dir [Materialien](Material.md) zum aktiven Dokum
 
 ![](images/Arch_materials_02.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Voreinstellungen wählen\...**: Wähle eins der voreingestellten Materialien, entweder wie vorgegeben oder angepasst durch ändern der folgenden Felder:
--   **Kopiere bestehende\...**: Kopiere eins der bestehenden Materialien
 -   **Name**: Wähle einen Namen für das Material
--   **Bearbeiten**-Schaltfläche: Dies öffnet das aktuelle Material in FreeCAD\'s [Materialeditor](Material_editor/de.md), der es erlaubt, zahlreiche zusätzliche Eigenschaften zu ändern und deine eigenen hinzuzufügen
+-   **Bearbeiten**-Schaltfläche: Dies öffnet das aktuelle Material in FreeCADs [Materialeditor](FEM_MaterialEditor/de.md), der es erlaubt, zahlreiche zusätzliche Eigenschaften zu ändern und deine eigenen hinzuzufügen
 -   **Beschreibung**: Eine detailliertere Beschreibung des Materials
 -   **Farbe**: Eine Anzeigefarbe für das Material, die auf alle Objekte angewendet werden, die dieses Material benutzen
 -   **Farbe der Schnittlinie**: Eine Anzeigefarbe für das Material, das auf TechDraw-Seiten angewendet wird, wenn ein Objekt mit diesem Material geschnitten wird und die \"Display materials\"-Eigenschaft auf der enthaltenden Schnittebene auf {{Incode|True}} gesetzt ist.
--   **Transparenz**: Ein Transparenzwert für dieses Material (0-99)
 -   **Standard-code**: Ein Name und Referenznummer eines Spezifikationssystems, wie [Masterformat](https://en.wikipedia.org/wiki/MasterFormat) oder [Omniclass](http://www.omniclass.org/).
 -   **Code browser**-Schaltfläche: erlaubt das Öffnen der Referenz in einem Web-Browser
 -   **URL**: Eine URL, wo mehr Informationen zu diesem Material gefunden werden können
 -   **URL**-Schaltfläche: erlaubt das Öffnen der URL in einem Web-Browser
--   **Vater**: ?
 
 
-</div>
 
 ## Bezug zu IFC 
 

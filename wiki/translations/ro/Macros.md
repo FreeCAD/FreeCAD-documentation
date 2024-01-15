@@ -18,6 +18,8 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 -   [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Cum funcționează 
@@ -27,7 +29,7 @@ Dacă activați consola de ieșire (Meniu Editare -\> Preferences -\> General -\
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -54,6 +56,8 @@ Acolo puteți gestiona macrocomenzile, puteți șterge, edita, duplica, instala 
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Exemplu
@@ -64,6 +68,8 @@ Apăsați butonul de înregistrare, dați un nume, să zicem \"cilindru 10x10\",
 </div>
 
 Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in the [Part Workbench](Part_Workbench.md), create a cylinder with radius = 10 and height = 10. Then, press the \"stop recording\" button. In the edit macros dialog, you can see the python code that has been recorded, and, if you want, make alterations to it. To execute your macro, simply press the execute button on the toolbar while your macro is in the editor. You macro is always saved to disk, so any change you make, or any new macro you create, will always be available next time you start FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -82,12 +88,14 @@ Of course it is not practical to load a macro in the editor in order to use it. 
 
 <div class="mw-translate-fuzzy">
 
-[Customize ToolbarsÎn](Customize_Toolbars.md) acest fel, puteți face ca macrocomanda să devină un instrument real, la fel ca orice instrument standard FreeCAD. Acest lucru, adăugat la puterea scripting-ului Python în cadrul FreeCAD, face posibilă adăugarea ușoară a propriilor instrumente la interfață. Citiți pagina [Scripting](Scripting.md) dacă doriți să aflați mai multe despre scrierea Python \...
+[Customize Toolbars](Customize_Toolbars.md)În acest fel, puteți face ca macrocomanda să devină un instrument real, la fel ca orice instrument standard FreeCAD. Acest lucru, adăugat la puterea scripting-ului Python în cadrul FreeCAD, face posibilă adăugarea ușoară a propriilor instrumente la interfață. Citiți pagina [Scripting](Scripting.md) dacă doriți să aflați mai multe despre scrierea Python \...
 
 
 </div>
 
 See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -104,6 +112,8 @@ You can also directly copy/paste python code into a macro, without recording GUI
 See [How to install macros](How_to_install_macros.md) for a more detailed description.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Depozitul de Macrocomenzi 
@@ -114,6 +124,8 @@ Vizitați pagina [Macros recipes](Macros_recipes.md) pentru a alege unele macroc
 </div>
 
 There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -127,6 +139,8 @@ There are two main places for macros. The first one is the official peer-reviewe
 
 -   [Automatically run macro at startup](Macro_at_Startup.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
+
+
 
 
 <div class="mw-translate-fuzzy">

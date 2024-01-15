@@ -26,43 +26,12 @@ print v3.Length
 {{APIFunction|distanceToLine|Vector1,Vector2|odległość między wektorem a prostą przechodzącą przez wektor1 w kierunku wektora2.|float}}
 
 
-{{APIFunction|distanceToLineSegment|Vector1,Vector2|wektor do najbliższego punktu na odcinku od wektora1 do wektora2.|vector}}
+{{APIFunction|distanceToPoint|point2|metoda instancji Base.Vector distanceToPoint(point2) |float}}
 
 
-{{APIFunction|distanceToPlane|Vector1,Vector2|odległość między wektorem a płaszczyzną zdefiniowaną przez punkt i normalną.|float}}
+{{APIFunction|distanceToPoint|Vector|odległość między tym wektorem a innym.|float}}
 
-
-{{APIFunction|dot|Vector|iloczyn punktowy między 2 wektorami.|float}}
-
-
-{{APIFunction|getAngle|Vector|kąt w radianach pomiędzy obecnym wektorem a kolejnym.|float}}
-
-
-{{APIFunction|multiply|Float|mnoży ''(skala jednostajna)'' wektor przez podany współczynnik.|nothing}}
-
-
-{{APIFunction|normalize| |normalizuje wektor ''(ustawia jego długość na wartość 1.0)''.|nothing}}
-
-
-{{APIFunction|projectToLine|Vector1,Vector2|rzutuje wektor na prostą przechodzącą przez wektor1 w kierunku wektora2.|nothing}}
-
-
-{{APIFunction|projectToPlane|Vector1,Vector2|rzutuje wektor na płaszczyznę zdefiniowaną przez punkt ''(wektor1)'' i normalną ''(wektor2)''.|nothing}}
-
-
-{{APIFunction|scale|Float,Float,Float|To samo co mnożenie, ale pozwala określić różne wartości dla kierunków x, y i z. ''(niejednolita skala)''|nothing}}
-
-
-{{APIFunction|sub|Vector|odejmuje wektor od obecnego.|vector}}
-
-
-{{APIProperty|x|współrzędna x wektora.}}
-
-
-{{APIProperty|y|współrzędna y wektora.}}
-
-
-{{APIProperty|z|współrzędna z wektora.}}
+. {{APIFunction|distanceToPlane|Vector1,Vector2|odległość między wektorem a płaszczyzną zdefiniowaną przez punkt i normalną.|float}} {{APIFunction|dot|Vector|iloczyn punktowy między 2 wektorami.|float}} {{APIFunction|getAngle|Vector|kąt w radianach pomiędzy obecnym wektorem a kolejnym.|float}} {{APIFunction|isEqual|Vector|Sprawdza, czy odległość między punktami reprezentowanymi przez ten Vector i Vector2 jest mniejsza lub równa podanej tolerancji.|float}} {{APIFunction|isOnLineSegment|Vector1,Vector2|Sprawdza, czy ten wektor znajduje się na odcinku linii wygenerowanym przez Vector1 i Vector2.|Vector}} {{APIFunction|multiply|Float|mnoży ''(skala jednostajna)'' wektor przez podany współczynnik.|nothing}} {{APIFunction|negative|Vector|Zwraca ujemną ''(przeciwną)'' wartość tego wektora.|Vector}} {{APIFunction|normalize| |normalizuje wektor ''(ustawia jego długość na wartość 1.0)''.|nothing}} {{APIFunction|projectToLine|Vector1,Vector2|rzutuje wektor na prostą przechodzącą przez wektor1 w kierunku wektora2.|nothing}} {{APIFunction|projectToPlane|Vector1,Vector2|rzutuje wektor na płaszczyznę zdefiniowaną przez punkt ''(wektor1)'' i normalną ''(wektor2)''.|nothing}} {{APIFunction|scale|Float,Float,Float|To samo co mnożenie, ale pozwala określić różne wartości dla kierunków x, y i z. ''(niejednolita skala)''|nothing}} {{APIFunction|sub|Vector|odejmuje wektor od obecnego.|vector}} {{APIProperty|x|współrzędna x wektora.}} {{APIProperty|y|współrzędna y wektora.}} {{APIProperty|z|współrzędna z wektora.}}
 
 
 

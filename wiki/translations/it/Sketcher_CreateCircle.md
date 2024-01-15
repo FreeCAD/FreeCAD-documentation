@@ -9,9 +9,15 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Disegna un cerchio dalla scelta di due punti: il **centro**, e un punto sulla circonferenza (il **raggio**).
 
 Quando lo strumento è attivo, il puntatore del mouse assume la forma di croce bianca accompagnata dall\'icona rossa di cerchio. Accanto al puntatore sono visualizzate, in blu, le coordinate della sua posizione aggiornate in tempo reale.
+
+
+</div>
 
 ![](images/Sketcher_CircleExample1.png‎ ) 
 

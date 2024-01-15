@@ -51,56 +51,60 @@ To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenc
 
 ## Właściwości
 
-**General:**
+**Ogólne:**
 
--    **Stirrup Extended Edge Offset**: The offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    **Przesunięcie krawędzi strzemienia**: Przesunięcie przedłużonych krawędzi końcowych strzemienia, tak aby krawędzie końcowe strzemienia o kącie zagięcia 90 stopni nie pokrywały się z jego krawędziami.
 
--    **Rebars Stroke Width**: The stroke-width of rebars in the rebar shape cut list.
+-    **Szerokość skoku pręta zbrojeniowego**: Szerokość obrysu prętów zbrojeniowych na liście cięcia kształtu prętów zbrojeniowych.
 
--    **Rebars Color Style**: The color style of rebars.
+-    **Styl kolorów prętów zbrojeniowych**: Styl koloru prętów zbrojeniowych.
 
--    **Row Height**: The height of each row of rebar shape in the rebar shape cut list.
+-    **Wysokość rzędu**: Wysokość każdego rzędu prętów zbrojeniowych na liście prętów zbrojeniowych.
 
--    **Column Width**: The width of each column of rebar shape in the rebar shape cut list.
+-    **Szerokość kolumny**: Szerokość każdej kolumny kształtu pręta zbrojeniowego na liście wyciętych kształtów prętów zbrojeniowych.
 
--    **Column Count**: The number of columns in the rebar shape cut list.
+-    **Liczba kolumn**: Liczba kolumn na liście wyciętych kształtów prętów zbrojeniowych.
 
--    **Side Padding**: The padding on each side of the rebar shape.
+-    **Wyściółka boczna**: Wypełnienie z każdej strony kształtu pręta zbrojeniowego.
 
--    **Horizontal Rebar Shape**: If True, then the rebar shape will be made horizontal by rotating the max length edge of the rebar shape.
+-    **Poziomy kształt pręta zbrojeniowego**: Jeśli wartość ta to {{True/pl}}, kształt pręta zbrojeniowego zostanie ustawiony poziomo poprzez obrócenie maksymalnej długości krawędzi kształtu pręta zbrojeniowego.
 
--    **Include Mark**: If it is set to True, then rebar.Mark will be included for each rebar shape in the rebar shape cut list.
+-    **Dołącz znak**: Jeśli wartość jest ustawiona na {{True/pl}}, wówczas rebar.Mark zostanie uwzględniony dla każdego kształtu pręta zbrojeniowego na liście cięcia kształtu pręta zbrojeniowego.
 
--    **SVG Output File**: The output file to write generated rebar shape cut list SVG.
+-    **Plik wyjściowy SVG**: Plik wyjściowy do zapisu wygenerowanej listy cięć kształtów prętów zbrojeniowych SVG.
 
-**Dimension Data:**
+**Dane wymiarowe:**
 
--    **Include Dimensions**: If True, then each rebar edge dimensions and bent angle dimensions will be included in the rebar shape cut list.
+-    **Zawiera wymiary**: Jeśli wartość wynosi {{True/pl}}, wówczas każdy wymiar krawędzi pręta zbrojeniowego i wymiary kąta gięcia zostaną uwzględnione na liście cięć kształtu pręta zbrojeniowego.
 
--    **Include Units in Dimension Label**: If it is True, then rebar edge length units will be shown in dimension label.
+-    **Uwzględnij jednostki w etykiecie wymiaru**: Jeśli ma wartość {{True/pl}}, jednostki długości krawędzi prętów zbrojeniowych będą wyświetlane w etykiecie wymiaru.
 
--    **Rebar Edge Dimension Units**: The units to be used for rebar edge length dimensions.
+-    **Jednostki wymiaru krawędzi pręta zbrojeniowego**: Jednostki używane dla wymiarów długości krawędzi prętów zbrojeniowych.
 
--    **Rebar Edge Dimension Precision**: The number of decimals that should be shown for rebar edge length as a dimension label.
+-    **Precyzja wymiarów krawędzi prętów zbrojeniowych**: Liczba miejsc dziesiętnych, które powinny być wyświetlane dla długości krawędzi pręta zbrojeniowego jako etykieta wymiaru.
 
--    **Dimension Font Family**: The font-family of dimension text.
+-    **Rodzina czcionek wymiaru**: Rodzina czcionki tekstu wymiaru.
 
--    **Dimension Font Size**: The font-size of dimension text.
+-    **Rozmiar czcionki**: Rozmiar czcionki tekstu wymiaru.
 
--    **Bent Angle Dimension Exclude List**: The list of bent angles to not include their dimensions.
+-    **Wymiar kąta wygięcia Lista nie obejmuje**: Lista kątów giętych, których wymiary nie będą uwzględniane.
 
--    **Helical Rebar Dimension Label Format**: The format of the helical rebar dimension label. e.g. \"%L,r=%R,pitch=%P\" where %L -\> Length of helical rebar, %R -\> Helix radius of helical rebar, %P -\> Helix pitch of helical rebar.
-
-## Scripting
+-    **Format etykiety wymiaru pręta zbrojeniowego spiralnego**: Format etykiety wymiaru spiralnego pręta zbrojeniowego. np. \"%L,r=%R,pitch=%P\", gdzie %L -\> Długość spiralnego pręta zbrojeniowego, %R -\> Promień spirali spiralnego pręta zbrojeniowego, %P -\> Skok spirali spiralnego pręta zbrojeniowego.
 
 
-**See also:**
 
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Tworzenie skryptów 
 
-The [Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:
 
-### Create Rebar Shape SVG 
+**Zobacz również:**
+
+[Skrypty Architektury](Arch_API/pl.md), [Skrypty Zbrojenia](Reinforcement_API/pl.md) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Narzędzie **Zestawienie kształtów i cięć prętów** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następującej funkcji:
+
+
+
+### Utwórz kształt zbrojenia SVG 
 
 
 ```python
@@ -127,51 +131,53 @@ getRebarShapeSVG(
 ) -> ElementTree.Element
 ```
 
--   Generates and returns a rebar shape SVG element for the given `rebar` object.
+-   Generuje i zwraca element SVG w kształcie pręta zbrojeniowego dla danego obiektu `rebar`.
 
--    `rebar`object can be of type \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\>, to generate its shape svg.
+-   Obiekt `rebar` może być typu \<ArchRebar.\_Rebar\> lub \<rebar2.BaseRebar\>, aby wygenerować jego kształt svg.
 
--    `view_direction`specifies the viewpoint direction for rebar shape. It can be of type `FreeCAD.Vector` or `WorkingPlane.Plane` though `WorkingPlane.Plane` is preferred.
+-    `view_direction`określa kierunek punktu widzenia dla kształtu pręta zbrojeniowego. Może być typu `FreeCAD.Vector` lub `WorkingPlane.Plane`, choć preferowany jest `WorkingPlane.Plane`.
 
--    `include_mark`specifies if rebar.Mark is to be included in rebar shape SVG or not.
+-    `include_mark`określa, czy rebar.Mark ma być zawarty w SVG kształtu pręta zbrojeniowego, czy nie.
 
--    `stirrup_extended_edge_offset`is the offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    `stirrup_extended_edge_offset`to przesunięcie przedłużonych krawędzi końcowych strzemienia, tak aby krawędzie końcowe strzemienia o kącie zagięcia 90 stopni nie pokrywały się z krawędziami strzemienia.
 
--    `rebar_stroke_width`specifies the stroke-width of rebar in svg.
+-    `rebar_stroke_width`określa szerokość obrysu prętów zbrojeniowych w svg.
 
--    `rebar_color_style`specifies the color style of rebar. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of the rebar shape.
+-    `rebar_color_style`określa styl koloru prętów zbrojeniowych. Może to być \"shape color\" lub \"color_name lub hex_value_of_color\". \"shape color\" oznacza wybór koloru kształtu pręta zbrojeniowego.
 
--    `include_dimensions`specifies if each rebar edge dimensions and bent angle dimensions are to be included in rebar shape SVG.
+-    `include_dimensions`określa, czy każdy wymiar krawędzi pręta zbrojeniowego i wymiary kąta gięcia mają być zawarte w SVG kształtu pręta zbrojeniowego.
 
--    `rebar_dimension_units`specifies the units to be used for rebar length dimensions.
+-    `rebar_dimension_units`określa jednostki, które mają być używane dla wymiarów długości prętów zbrojeniowych.
 
--    `rebar_length_dimension_precision`specifies the number of decimals that should be shown for rebar length as a dimension label. Set it to None to use user preferred unit precision from FreeCAD unit preferences.
+-    `rebar_length_dimension_precision`określa liczbę miejsc dziesiętnych, które powinny być wyświetlane dla długości pręta zbrojeniowego jako etykieta wymiaru. Ustaw wartość None, aby użyć preferowanej przez użytkownika precyzji jednostki z preferencji jednostki FreeCAD.
 
--    `include_units_in_dimension_label`specifies if rebar length units is to be shown in dimension label.
+-    `include_units_in_dimension_label`określa, czy jednostki długości prętów zbrojeniowych mają być wyświetlane w etykiecie wymiaru.
 
--    `bent_angle_dimension_exclude_list`specifies the list of bent angles to not include their dimensions.
+-    `bent_angle_dimension_exclude_list`określa listę kątów giętych, których wymiary mają nie być uwzględniane.
 
--    `dimension_font_family`specifies the font-family of dimension text.
+-    `dimension_font_family`określa rodzaj czcionki tekstu wymiaru.
 
--    `dimension_font_size`specifies the font-size of dimension text.
+-    `dimension_font_size`określa rozmiar czcionki tekstu wymiaru.
 
--    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where:
+-    `helical_rebar_dimension_label_format`określa format etykiety wymiaru pręta zbrojeniowego. Np. \"%L,r=%R,pitch=%P\" gdzie:
 
-   %L -> Length of helical rebar
-   %R -> Helix radius of helical rebar
-   %P -> Helix pitch of helical rebar
+   %L -> długość spiralnego pręta zbrojeniowego
+   %R -> promień spirali spiralnego pręta zbrojeniowego
+   %P -> Skok spirali spiralnego pręta zbrojeniowego
 
--    `scale`specifies the scale value to scale rebar SVG. The scale parameter helps to scale down rebar_stroke_width and dimension_font_size to make them resolution-independent. If max_height or max_width is set to a non-zero value, then the scale parameter will be ignored.
+-    `scale`określa wartość skali do skalowania SVG prętów zbrojeniowych. Parametr scale pomaga skalować w dół rebar_stroke_width i dimension_font_size, aby uczynić je niezależnymi od rozdzielczości. Jeśli wartość max_height lub max_width jest niezerowa, parametr scale zostanie zignorowany.
 
--    `max_height`specifies the maximum height of rebar shape SVG. Set it to 0 to have rebar shape SVG height based on the scale parameter.
+-    `max_height`określa maksymalną wysokość kształtu pręta zbrojeniowego SVG. Ustaw wartość 0, aby wysokość SVG kształtu pręta zbrojeniowego była oparta na parametrze skali.
 
--    `max_width`specifies the maximum width of rebar shape SVG. Set it to 0 to have rebar shape SVG width based on the scale parameter.
+-    `max_width`określa maksymalną szerokość kształtu pręta zbrojeniowego SVG. Ustaw wartość 0, aby uzyskać szerokość SVG w kształcie pręta zbrojeniowego w oparciu o parametr skali.
 
--    `side_padding`specifies the padding on each side of the rebar shape.
+-    `side_padding`określa wypełnienie po każdej stronie kształtu pręta zbrojeniowego.
 
--    `horizontal_shape`specifies if the rebar shape is to be made horizontal by rotating the max length edge of the rebar shape.
+-    `horizontal_shape`określa, czy kształt pręta zbrojeniowego ma być poziomy poprzez obrócenie maksymalnej długości krawędzi kształtu pręta zbrojeniowego.
 
-#### Example
+
+
+#### Przykład
 
 
 ```python
@@ -223,7 +229,9 @@ with open(output_file, "w", encoding="utf-8") as f:
 
 ```
 
-### Create Rebar Shape Cut List SVG 
+
+
+### Utwórz listę cięć kształtu pręta zbrojeniowego SVG 
 
 
 ```python
@@ -258,53 +266,55 @@ getRebarShapeCutList(
 ) -> ElementTree.Element
 ```
 
--   Generate and return rebar shape cut list SVG element for given `base_rebars_list`.
+-   Generuje i zwraca element SVG z listą wyciętych prętów zbrojeniowych dla danej listy `base_rebars_list`.
 
--    `base_rebars_list`is a list of \<ArchRebar.\_Rebar\> or \<rebar2.BaseRebar\> objects, to generate their RebarShape cut list. If not provided, then all ArchRebars and rebar2.BaseRebar objects with unique Mark from ActiveDocument will be selected and rebars with no Mark assigned will be ignored.
+-    `base_rebars_list`jest listą obiektów \<ArchRebar.\_Rebar\> lub \<rebar2.BaseRebar\>, aby wygenerować ich listę cięć RebarShape. Jeśli nie zostanie podana, wybrane zostaną wszystkie obiekty ArchRebar i rebar2.BaseRebar z unikalnym znacznikiem z ActiveDocument, a pręty zbrojeniowe bez przypisanego znacznika zostaną zignorowane.
 
--    `view_directions`is a list of viewpoint directions for each rebar shape. It can be either of type `FreeCAD.Vector` or `WorkingPlane.Plane` OR their list. Keep it `FreeCAD.Vector(0, 0, 0)` to automatically choose view_directions.
+-    `view_directions`to lista kierunków punktu widzenia dla każdego kształtu pręta zbrojeniowego. Może być typu `FreeCAD.Vector` lub `WorkingPlane.Plane`. LUB ich lista. Zachowaj `FreeCAD.Vector(0, 0, 0)`, aby automatycznie wybrać view_directions.
 
--    `include_mark`specifies if rebar.Mark is to be included for each rebar shape in rebar shape cut list SVG or not.
+-    `include_mark`określa, czy rebar.Mark ma być uwzględniony dla każdego kształtu pręta zbrojeniowego w SVG listy cięcia kształtu pręta zbrojeniowego, czy nie.
 
--    `stirrup_extended_edge_offset`specifies the offset of extended end edges of the stirrup, so that end edges of the stirrup with a 90-degree bent angle do not overlap with stirrup edges.
+-    `stirrup_extended_edge_offset`określa przesunięcie przedłużonych krawędzi końcowych strzemion, tak aby krawędzie końcowe strzemion o kącie zagięcia 90 stopni nie pokrywały się z krawędziami strzemion.
 
--    `rebars_stroke_width`specifies the stroke-width of rebars in rebar shape cut list SVG.
+-    `rebars_stroke_width`określa szerokość obrysu prętów zbrojeniowych w liście cięcia kształtu prętów zbrojeniowych SVG.
 
--    `rebars_color_style`specifies the color style of rebars. It can be \"shape color\" or \"color_name or hex_value_of_color\". \"shape color\" means to select the color of the rebar shape.
+-    `rebars_color_style`określa styl koloru prętów zbrojeniowych. Może to być \"shape color\" lub \"color_name lub hex_value_of_color\". \"shape color\" oznacza wybór koloru kształtu pręta zbrojeniowego.
 
--    `include_dimensions`specifies if each rebar edge dimensions and bent angle dimensions are to be included in the rebar shape cut list.
+-    `include_dimensions`określa, czy każdy wymiar krawędzi pręta zbrojeniowego i wymiary kąta gięcia mają być uwzględnione na liście cięcia kształtu pręta zbrojeniowego.
 
--    `rebar_edge_dimension_units`specifies the units to be used for rebar edge length dimensions.
+-    `rebar_edge_dimension_units`określa jednostki używane dla wymiarów długości krawędzi prętów zbrojeniowych.
 
--    `rebar_edge_dimension_precision`specifies the number of decimals that should be shown for rebar length as a dimension label. Set it to None to use user preferred unit precision from FreeCAD unit preferences.
+-    `rebar_edge_dimension_precision`określa liczbę miejsc dziesiętnych, które powinny być wyświetlane dla długości pręta zbrojeniowego jako etykieta wymiaru. Ustaw wartość None, aby użyć preferowanej przez użytkownika precyzji jednostki z preferencji jednostki FreeCAD.
 
--    `include_units_in_dimension_label`specifies if rebars edge length units is to be shown in dimension label.
+-    `include_units_in_dimension_label`określa, czy jednostki długości krawędzi prętów zbrojeniowych mają być wyświetlane w etykiecie wymiaru.
 
--    `bent_angle_dimension_exclude_list`specifies the list of bent angles to not include their dimensions.
+-    `bent_angle_dimension_exclude_list`określa listę kątów giętych, których wymiary mają nie być uwzględniane.
 
--    `dimension_font_family`specifies the font-family of dimension text.
+-    `dimension_font_family`określa rodzaj czcionki tekstu wymiaru.
 
--    `dimension_font_size`specifies the font-size of dimension text.
+-    `dimension_font_size`określa rozmiar czcionki tekstu wymiaru.
 
--    `helical_rebar_dimension_label_format`specifies the format of helical rebar dimension label. E.g. \"%L,r=%R,pitch=%P\" where:
+-    `helical_rebar_dimension_label_format`określa format etykiety wymiaru pręta zbrojeniowego. Np. \"%L,r=%R,pitch=%P\" gdzie:
 
-   %L -> Length of helical rebar
-   %R -> Helix radius of helical rebar
-   %P -> Helix pitch of helical rebar
+   %L -> Długość spiralnego pręta zbrojeniowego,
+   %R -> Promień spirali spiralnego pręta zbrojeniowego,
+   %P -> Skok spirali spiralnego pręta zbrojeniowego.
 
--    `row_height`specifies the height of each row of rebar shape in the rebar shape cut list.
+-    `row_height`określa wysokość każdego wiersza kształtu pręta zbrojeniowego na liście cięcia kształtu pręta zbrojeniowego.
 
--    `column_width`specifies the width of each row of rebar shape in the rebar shape cut list.
+-    `column_width`określa szerokość każdego wiersza pręta zbrojeniowego na liście prętów zbrojeniowych.
 
--    `column_count`specifies the number of columns in the rebar shape cut list. Set it to \"row_count\" to have column_count \<= row_count
+-    `column_count`określa liczbę kolumn na liście wyciętych prętów zbrojeniowych. Ustaw na \"row_count\", aby column_count \<= row_count
 
--    `side_padding`specifies the padding on each side of the rebar shape in the rebar shape cut list.
+-    `side_padding`określa wypełnienie po każdej stronie kształtu pręta zbrojeniowego na liście cięcia kształtu pręta zbrojeniowego.
 
--    `horizontal_rebar_shape`specifies if the rebar shape is to be made horizontal by rotating the max length edge of the rebar shape.
+-    `horizontal_rebar_shape`określa, czy kształt pręta zbrojeniowego ma być poziomy poprzez obrócenie maksymalnej długości krawędzi kształtu pręta zbrojeniowego.
 
--    `output_file`specifies the output file to write generated rebar shape cut list SVG.
+-    `output_file`określa plik wyjściowy do zapisu wygenerowanej listy wyciętych kształtów prętów zbrojeniowych SVG.
 
-#### Example 
+
+
+#### Przykład 
 
 
 ```python
@@ -323,7 +333,7 @@ Structure2.ViewObject.Transparency = 80
 Structure2.Placement = FreeCAD.Placement(FreeCAD.Vector(1000, 0, 0), FreeCAD.Rotation(FreeCAD.Vector(0, 0, 1), 0))
 FreeCAD.ActiveDocument.recompute()
 
-# Create Straight Rebars
+# Tworzenie prostych prętów zbrojeniowych.
 rebar_group = SingleTie.makeSingleTieFourRebars(
     l_cover_of_tie=40,        
     r_cover_of_tie=40,
@@ -347,12 +357,12 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
     facename="Face6",
 ).rebar_group
 
-# Assign Mark to straight rebars
+# Przypisz znak do prostych prętów zbrojeniowych.
 for straight_rebar in rebar_group.RebarGroups[1].MainRebars:
     straight_rebar.Mark = "main_sb"
 
 
-# Create LShaped Rebars with hook along x-axis
+# Utwórz pręty zbrojeniowe w kształcie litery L z hakiem wzdłuż osi x.
 rebar_group = SingleTie.makeSingleTieFourRebars(
     l_cover_of_tie=40,
     r_cover_of_tie=40,
@@ -376,13 +386,13 @@ rebar_group = SingleTie.makeSingleTieFourRebars(
     facename="Face6",
 ).rebar_group
 
-# Assign Mark to lshape rebars
+# Przypisz znak do prętów zbrojeniowych w kształcie litery L.
 for lshape_rebar in rebar_group.RebarGroups[1].MainRebars:
     lshape_rebar.Mark = "main_lb"
 
 output_file = str(Path.home() / "RebarShapeCutList.svg")
 
-# Create Rebar Shape Cut List for all base rebars in model
+# Utwórz listę cięcia prętów zbrojeniowych dla wszystkich prętów zbrojeniowych w modelu.
 RebarShapeCutListfunc.getRebarShapeCutList(
     base_rebars_list=None,
     view_directions=FreeCAD.Vector(0, 0, 0),

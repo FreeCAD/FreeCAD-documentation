@@ -205,7 +205,7 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 ### Dane
 
 
-{{TitleProperty| Link}}
+{{TitleProperty|Łącze}}
 
 -    **Powiązane Obiekty|XLink**: wskazuje obiekt źródłowy [App: Łącze](App_Link/pl.md). Może to być cały obiekt lub jego element *(wierzchołek, krawędź lub ściana)*.
 
@@ -251,7 +251,7 @@ Obiekt [App: Łącze](App_Link/pl.md) będzie dodatkowo pokazywał właściwośc
 ### Widok
 
 
-{{TitleProperty| Link}}
+{{TitleProperty|Łącze}}
 
 -    **Styl kreślenia|Enumeration**: domyślnie {{Value|Brak}}. Może przyjąć wartości {{value|Pełna}}, {{value|Kreskowana}}, {{value|Kropkowana}}, {{value|Kreska Kropka}}. Definiuje styl krawędzi w oknie [widoku 3D](3D_view/pl.md).
 

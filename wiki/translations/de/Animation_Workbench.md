@@ -1,11 +1,13 @@
 # Animation Workbench/de
-## Einführung
+## Einleitung
 
 Werkzeugsatz Animation für FreeCAD
 
 Dieser Arbeitsbereich kann zur Erstellung von Bildsequenzen verwendet werden.
 
 **Sie befindet sich noch im Aufbau - alle Beiträge sind willkommen \...**
+
+
 
 ## Referenzen
 
@@ -16,6 +18,8 @@ Dieser Arbeitsbereich kann zur Erstellung von Bildsequenzen verwendet werden.
 ## Installation
 
 Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Für die manuelle Installation siehe [Einrichten weiterer Arbeitsbereiche](Installing_more_workbenches/de.md).
+
+
 
 ## Werkzeuge
 
@@ -79,6 +83,8 @@ Andere
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Symbol2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Symbol3**:
 
+
+
 ## Verweise zum Arbeitsbereich Animation 
 
 -   Arbeitsbereich Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
@@ -89,6 +95,8 @@ Andere
 -   Dateien: [Beispiele](https://github.com/microelly2/Animation-WB-Examples)
 -   Testdaten: [Test cases](https://github.com/microelly2/Animation/tree/master/testcases)
 -   Fehler melden: Bitte melde Fehler unter [FreeCAD Forum](http://forum.freecadweb.org/index.php), oder unter [Animationsprobleme](https://github.com/microelly2/Animation/issues).
+
+
 
 ## Andere nützliche Verweise 
 

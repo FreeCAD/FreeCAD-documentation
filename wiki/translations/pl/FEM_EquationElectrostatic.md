@@ -1,69 +1,80 @@
 ---
  GuiCommand:
    Name: FEM EquationElectrostatic
-   MenuLocation: Solve , Electromagnetic Equations , Electrostatic equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie elektrostatyczne
+   MenuLocation: Rozwiąż , Równania elektromagnetyczne , Równanie elektrostatyczne
+   Workbenches: FEM_Workbench/pl
    Version: 0.19
-   SeeAlso: FEM_EquationElectricforce, FEM_Example_Capacitance_Two_Balls
+   SeeAlso: FEM_EquationElectricforce/pl, FEM_Example_Capacitance_Two_Balls/pl
 ---
 
 # FEM EquationElectrostatic/pl
 
-This equation perform electrostatic analyses using [Gauss\' law](https://en.wikipedia.org/wiki/Gauss%27s_law).
+To równanie służy do przeprowadzania analiz elektrostatycznych przy pomocy [prawa Gaussa](https://pl.wikipedia.org/wiki/Prawo_Gaussa_(elektryczno%C5%9B%C4%87)).
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatics*.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Electrostatics** *(elektrostatyka)*.
 
-## Usage
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electrostatic equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
-## Solver Settings 
+## Użycie
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania elektromagnetyczne → Równanie elektrostatyczne** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-The electrostatic equation provides these special settings:
 
--    **Calculate Capacitance Matrix**: Calculates the capacitance matrix. The matrix contains the the point charges of the mesh knots.
 
--    **Calculate Electric Energy**: Calculates the [electric potential energy](https://en.wikipedia.org/wiki/Electric_potential_energy).
+## Ustawienia solvera 
 
--    **Calculate Electric Field**: Calculates the [electric field](https://en.wikipedia.org/wiki/Electric_field).
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
--    **Calculate Electric Flux**: Calculates the [electric flux](https://en.wikipedia.org/wiki/Electric_flux).
+Równanie elektrostatyczne posiada następujące specjalne ustawienia:
 
--    **Calculate Surface Charge**: Calculates the [surface charge](https://en.wikipedia.org/wiki/Surface_charge).
+-    **Calculate Capacitance Matrix**: Wyznacza macierz pojemności elektrycznej. Macierz ta zawiera ładunki punktowe węzłów siatki.
 
--    **Capacitance Matrix Filename**: File in which the capacitance matrix is being saved. It is only used if **Calculate Capacitance Matrix** is set to *true*.
+-    **Calculate Electric Energy**: Wyznacza [potencjalną energię elektryczną](https://en.wikipedia.org/wiki/Electric_potential_energy).
 
--    **Constant Weights**: If constant weighting for results is used.
+-    **Calculate Electric Field**: Wyznacza [pole elektryczne](https://pl.wikipedia.org/wiki/Pole_elektryczne).
 
--    **Potential Difference**: Potential difference in Volt for which the capacitance is calculated. It is only used if **Calculate Capacitance Matrix** is set to *false*. Therefore in fact this setting specifies the voltage between the electrodes of a simple capacitor. Note that the given voltage has to be consistent with the potentials defined in the boundary conditions.
+-    **Calculate Electric Flux**: Wyznacza [strumień pola elektrycznego](https://pl.wikipedia.org/wiki/Strumie%C5%84_pola_elektrycznego).
 
-## Constraint Information 
+-    **Calculate Surface Charge**: Wyznacza [ładunek powierzchniowy](https://en.wikipedia.org/wiki/Surface_charge).
 
-The electrostatic equation takes the following constraints into account if they are set:
+-    **Capacitance Matrix Filename**: Plik, w którym zapisywana jest macierz pojemności elektrycznej. Używane tylko jeśli właściwość **Calculate Capacitance Matrix** jest ustawiona na {{true/pl}}.
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
+-    **Constant Weights**: Czy używane jest stałe ważenie wyników.
 
-### Note
+-    **Potential Difference**: Różnica potencjałów w Voltach, dla której liczona jest pojemność elektryczna. Używane tylko jeśli właściwość **Calculate Capacitance Matrix** jest ustawiona na {{false/pl}}. Zatem w praktyce to ustawienie określa napięcie między elektrodami prostego kondensatora. Zauważ, że podane napięcie musi być zgodne z potencjałami zdefiniowanymi w warunku brzegowym.
 
-Except for calculations in 2D, for <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraints](FEM_ConstraintElectrostaticPotential.md) it is important that they act on a face or body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
 
-## Results
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric force density and the electric potential are calculated. Otherwise also the corresponding results will be available.
+## Informacje o cechach analizy 
 
-The possible results are:
+Równanie elektrostatyczne uwzględnia następujące cechy analizy jeśli są zdefiniowane:
 
--   Electric energy density in $\rm J/m^3$
--   Electric field in $\rm V/m$
--   Electric flux in $\rm A\cdot s/m^2$
--   Electric force density in $\rm N/m^2$
--   Potential in $\rm V$
--   Potential loads in $\rm C$
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Warunek brzegowy potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md)
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Zdefiniuj przenikalność elektryczną próżni](FEM_ConstantVacuumPermittivity/pl.md)
+
+
+
+### Uwaga
+
+Oprócz analiz 2D, dla <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [warunków brzegowych potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md) ważne jest ży działały na ścianie lub objętości. Warunki brzegowe przypisane do linii lub wierzchołków nie będą rozpoznawane przez solver Elmer.
+
+
+
+## Wyniki
+
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczona zostanie tylko gęstość siły elektrycznej i potencjał elektryczny. W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki.
+
+Możliwe wyniki to:
+
+-   Gęstość energii elektrycznej w $\rm J/m^3$
+-   Pole elektryczne w $\rm V/m$
+-   Strumień pola elektrycznego w $\rm A\cdot s/m^2$
+-   Gęstość energii elektrycznej w $\rm N/m^2$
+-   Potencjał elektryczny w $\rm V$
+-   Obciążenia potencjalne w $\rm C$
 
 
 

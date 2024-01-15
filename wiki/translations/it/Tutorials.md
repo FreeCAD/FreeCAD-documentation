@@ -30,10 +30,10 @@ FreeCAD fornisce due flussi di lavoro principali per modellare le parti:
 
 Notare che il flusso di lavoro di [PartDesign](PartDesign_Workbench/it.md) è stato notevolmente modificato da FreeCAD 0.17 in poi; alcune delle esercitazioni non sono state aggiornate e potrebbero riferirsi alla versione 0.16.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Part_WB](Creating_a_simple_part_with_Part_WB.md)\|[Creazione di una parte semplice nell\'Ambiente Part](Creating_a_simple_part_with_Part_WB.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Part_WB](Creating_a_simple_part_with_Part_WB.md)\|[Creazione di una parte semplice nell\'Ambiente Part](Creating_a_simple_part_with_Part_WB.md)
 Un\'introduzione a FreeCAD e all\'Ambiente Part usando solidi primitivi.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Draft_and_Part_WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)\|[Creazione di una parte semplice in Draft e nell\'Ambiente Part](Creating_a_simple_part_with_Draft_and_Part_WB.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Draft_and_Part_WB](Creating_a_simple_part_with_Draft_and_Part_WB.md)\|[Creazione di una parte semplice in Draft e nell\'Ambiente Part](Creating_a_simple_part_with_Draft_and_Part_WB.md)
 Un\'introduzione alla modellazione di solidi nell\'Ambiente Draft creando un profilo 2d in Draft.
 
 <File:GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)\|[Creare una parte semplice con PartDesign](Creating_a_simple_part_with_PartDesign/it.md) (v0.17)
@@ -200,8 +200,6 @@ Qui sono elencati tutti i tutorial che non sono nel manuale **indipendentemente 
 | [Tutorial Draft Forma da Testo](Draft_ShapeString_tutorial/it.md)                                                                    | Design del prodotto          | Principiante             | 0:30                       | r-frank and vocx                                                                             | 0.17 e successive       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Tutorial di Draft](Draft_tutorial.md)                                                                                               | Ambiente Draft               | Principiante             | 0:30                       | [Drei](User_Drei.md) and vocx                                                        | 0.19                    | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Installare l\'importatore DXF](Dxf_Importer_Install.md)                                                                             | Importazione                 | Intermedio               | 0:05                       | [Mario52](User_Mario52.md)                                                           | Tutte                   | Nessuno                                                                                                                                                                                                                                                                                                                       |
 ++++++++
 | [Tutorial Blocco Motore](Engine_Block_Tutorial/it.md)                                                                                | Ambiente Part                | Principiante             | 1:00                       | Andrewbuck40                                                                                 | 0.14.3700               |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

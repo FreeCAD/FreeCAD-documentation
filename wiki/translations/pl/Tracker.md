@@ -11,6 +11,8 @@
 
 Jak pokazano na powyższym schemacie, przed utworzeniem zgłoszenia należy zawsze najpierw przeszukać forum i bugtracker, aby dowiedzieć się, czy Twój problem jest znany. Oszczędza to mnóstwo czasu/ pracy dla programistów i wolontariuszy, którzy mogliby poświęcić ten czas czyniąc FreeCAD jeszcze bardziej niesamowitym.
 
+
+
 ## Zgłaszanie błędów 
 
 Jeśli uważasz, że mogłeś znaleźć błąd, możesz go zgłosić, pod warunkiem, że postępowałeś zgodnie z naszymi zasadami krok po krokuː
@@ -30,6 +32,8 @@ Jeśli uważasz, że mogłeś znaleźć błąd, możesz go zgłosić, pod warunk
 -   Proszę złożyć jeden osobny raport dla każdego błędu.
 -   Jeśli twój błąd powoduje awarię programu FreeCAD i jesteś w systemie, który go obsługuje, możesz spróbować uruchomić **debug backtrace** i dołączyć ten ślad do zgłoszenia. To może zaoszczędzić programistom dużo czasu przez wskazywanie źródła błędu. Zobacz [Debugging](Debugging.md) po więcej szczegółów.
 
+
+
 ## Oczekiwane funkcje 
 
 Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplementowane, to nie jest błędem, ale żądaniem funkcji.
@@ -41,6 +45,8 @@ Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplemen
 -   **UWAGA #1** Aby zachować porządek, należy pamiętać o umieszczeniu adresu URL zgłoszenia w wątku forum, oraz numeru zgłoszenia *(jako linku)*.
 -   **UWAGA #2** Pamiętaj, że nie ma gwarancji, że twoje życzenie zostanie spełnione. ![Strona z raportem FreeCAD Bugtracker - użyj rozwijanego menu, aby poprawnie określić, czym jest zgłoszenie.](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Przesyłanie łatek 
 
 Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś innego, co może być użyteczne publicznie w programie FreeCADe, prześlij swoją poprawkę jako \"Pull Request\" na [GitHub](https://github.com/FreeCAD/FreeCAD).
@@ -49,11 +55,15 @@ Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś in
 2.  Prześlij swój Pull Request *(PR)* do [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Wiadomość o wysłaniu PR będzie wstępnie wypełniona listą kontrolną, którą należy wykonać, aby upewnić się, że zgłoszenie ma jak największe szanse na szybką akceptację. Jeśli nie pracowałeś wcześniej z `git` lub nie jesteś zaznajomiony z przesyłaniem PR na github, przeczytaj nasze wprowadzenie do [github](Source_code_management/pl.md) na stronie wiki.
 3.  Bądź obecny w dyskusji, zarówno na forum jak i w żądaniu podciągnięcia na GitHub, aby twój kod mógł być potencjalnie scalony bardziej efektywnie.
 
+
+
 ## Wnioskowanie o połączenie 
 
 *(Te same wytyczne co [Przesyłanie łatek](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))*.
 
 Jeśli stworzyłeś gałąź gita zawierającą zmiany, które chciałbyś zobaczyć w kodzie FreeCAD, możesz tam poprosić o recenzję i połączenie swojej gałęzi, jeśli deweloperzy FreeCAD są wobec niej zgodni. Musisz najpierw opublikować swoją gałąź w publicznym repozytorium git *(github, gitlab, bitbucket, sourceforge itp\...)*, a następnie podać adres URL Twojej gałęzi w swoim wniosku o połączenie.
+
+
 
 ## Wskazówki i sztuczki MantisBT 
 
@@ -161,12 +171,6 @@ Interfejs MantisBT rozpoznaje format:
 -   resolves #1234, #5678
 
 Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej operacji:
-
-
-## Powiązane
-
--   [Usuwanie błędów](Bug_Triage/pl.md)
--   [Zarządzanie kodem źródłowym](Source_code_management/pl.md)
 
 
 

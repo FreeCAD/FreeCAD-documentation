@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ElementGeometry1D
    Name/de: FEM ElementGeometrie1D
-   MenuLocation: Model , Element-Geometrie , Beam cross section
+   MenuLocation: Modell , Element-Geometrie , Stabquerschnitt
    Workbenches: FEM_Workbench/de
    Shortcut: **C** **B**
    SeeAlso: FEM_tutorial/de
@@ -21,12 +21,12 @@
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Beam cross section](FEM_ElementGeometry1D/de.md)** drücken.
-    -   Den Menüeintrag **Model → Element-Geometrie → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Beam cross section** auswählen.
+    -   Die Schaltfläche **<img src="images/FEM_ElementGeometry1D.svg" width=16px> [Stabquerschnitt](FEM_ElementGeometry1D/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementGeometry1D.svg" width=16px> Stabquerschnitt** auswählen.
 2.  Die Art des Querschnitts auswählen und die erforderlichen Abmaße eingeben:
-    -   Rectangular (Rechteck): width and height (Breite und Höhe),
-    -   Circular (Kreis): diameter (Durchmesser),
-    -   Pipe (Ring): diameter and thickness (Durchmesser und Wandstärke).
+    -   Rectangular (Rechteck): Breite und Höhe.
+    -   Circular (Kreis): Durchmesser.
+    -   Pipe (Ring): Durchmesser und Wandstärke.
 3.  Wahlweise die Schaltfläche **Hinzufügen** im Aufgabenbereich drücken und anschließend die Kante anklicken, die einen festgelegten Querschnitt erhalten soll. Ist die Auswahl leer, werden alle verbleibenden Kanten (deren Querschnitte nicht durch andere [ElementGeometrie1D](FEM_ElementGeometry1D/de.md)-Objekte festgelegt sind) automatisch zugeordnet.
 
 

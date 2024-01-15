@@ -1,13 +1,4 @@
-# PartDesign Workbench/ko
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|[Part Workbench](Part_Workbench.md)|[Path Workbench](Path_Workbench.md)|IconL=Workbench_Part.svg|IconR=Path-Workbench.svg}}
-
-
-</div>
-
-<img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:128px;">
+# <img alt="PartDesign workbench icon" src=images/Workbench_PartDesign.svg  style="width:64px;"> PartDesign Workbench/ko
 
 
 

@@ -17,125 +17,58 @@ Narzędzie **Krzywa łącząca** tworzy krzywą Bezier\'a między dwiema krawęd
 
 Geometria bazowa może należeć do krzywych utworzonych za pomocą środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może również należeć do obiektów bryłowych, takich jak te utworzone za pomocą środowiska [Część](Part_Workbench/pl.md).
 
-<img alt="" src=images/Surface_BlendCurve_G3_example.png  style="width:400px;"> <img alt="" src=images/Surface_BlendCurve_Comb.png  style="width:400px;">
+<img alt="" src=images/Surface_BlendCurve_G3_example.png  style="width:400px;"> <img alt="" src=images/Surface_BlendCurve_Comb.png  style="width:400px;"> 
+*Krzywa łączenia powierzchni łącząca dwie krawędzie z ciągłością G3. Pomarańczowy wielokąt reprezentuje punkty kontrolne. Grzebień krzywizny (z zewnętrznego środowiska pracy [Krzywe](Curves_Workbench/pl.md)) jest gładki w punktach styku.*
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
+## Użycie
 
+1.  Wybierz dwie krawędzie w oknie [widoku 3D](3D_view/pl.md).
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Surface_BlendCurve.svg" width=16px> '''Krzywa łącząca'''**.
+    -   Wybierz z menu opcję **Surface → <img src="images/Surface_BlendCurve.svg" width=16px> Krzywa łącząca**.
+3.  Dostosuj kształt krzywej we właściwościach obiektu **Dane**.
 
-*Surface Blend Curve joining 2 edges with G3 continuity. Orange polygon represent the control points. Curvature comb (from [Curves addon](Curves_Workbench.md)) is smooth at contact points.*
 
 
-</div>
+## Właściwości
 
+Krzywa łącząca jest pochodną podstawowej klasy [Część: Cecha](Part_Feature/pl.md) *(`Part::Feature`, poprzez klasę podrzędną `Part::Spline`)*, dlatego też dzieli z nią wszystkie jej właściwości.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Oprócz właściwości opisanych na stronie [Część: Cecha](Part_Feature/pl.md), krzywa mieszania powierzchni ma następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
 
-## Usage
 
 
-</div>
+### Dane
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+{{TitleProperty|Krzywa łącząca}}
 
-1.  Select two edges in the [3D view](3D_view.md)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Surface_BlendCurve.svg" width=16px> [Surface Blend Curve](Surface_BlendCurve.md)** button.
-    -   Select the **Surface → <img src="images/Surface_BlendCurve.svg" width=16px> Blend Curve** option from the menu.
-3.  Adjust the curve shape in the object Data properties
+-    **Start Edge|LinkSub**: Pierwsza krawędź wejściowa.
 
+-    **Start Continuity|Integer**: Geometryczna wartość ciągłości
 
-</div>
+-    **Start Parameter|Float**: Znormalizowany parametr wzdłuż krawędzi; od {{Value|0.0}} (początek krawędzi) do {{Value|1.0}} *(koniec krawędzi)*.
 
+-    **Start Size|Float**: Rozmiar stycznej.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **End Edge|LinkSub**: Druga krawędź wejściowa.
 
-## Properties
+-    **End Continuity|Integer**: Geometryczna wartość ciągłości
 
+-    **End Parameter|Float**: Znormalizowany parametr wzdłuż krawędzi; od {{Value|0.0}} (początek krawędzi) do {{Value|1.0}} \'\'\'\'(koniec krawędzi).
 
-</div>
+-    **End Size|Float**: Rozmiar stycznej.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-A [Surface Blend Curve](Surface_BlendCurve.md) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
+### Widok
 
 
-</div>
+{{TitleProperty|Baza}}
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Blend Curve has the following properties in the [property editor](Property_editor.md).
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Data
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-{{TitleProperty|Blend Curve}}
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--    **Start Edge|LinkSub**: First input edge.
-
--    **Start Continuity|Integer**: Geometric continuity value
-
--    **Start Parameter|Float**: Normalized parameter along edge; from {{Value|0.0}}(edge start) to {{Value|1.0}}(edge end).
-
--    **Start Size|Float**: Size of the tangent.
-
--    **End Edge|LinkSub**: Second input edge.
-
--    **End Continuity|Integer**: Geometric continuity value
-
--    **End Parameter|Float**: Normalized parameter along edge; from {{Value|0.0}}(edge start) to {{Value|1.0}}(edge end).
-
--    **End Size|Float**: Size of the tangent.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### View
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-{{TitleProperty|Base}}
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--    **Control Points|Bool**: it defaults to `False`; if set to `True`, it will show an overlay with the control points of the curve.
-
-
-</div>
+-    **Control Points|Bool**: wartość domyślna to {{FALSE/pl}}, Jeśli ustawiono {{TRUE/pl}}, wyświetlona zostanie nakładka z punktami kontrolnymi krzywej.
 
 
 
@@ -146,16 +79,10 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 [FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
+Narzędzie Blend Curve może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) poprzez dodanie obiektu `Surface::FeatureBlendCurve`.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The Blend Curve tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by adding the `Surface::FeatureBlendCurve` object.
-
--   The edges to be used to define the curve must be assigned as [LinkSub](LinkSub.md) to the `StartEdge` and `EndEdge` properties of the object.
--   All objects with edges need to be computed before they can be used as input for the properties of the Blend Curve object.
-
-
-</div>
+-   Krawędzie, które mają być użyte do zdefiniowania krzywej, muszą być przypisane jako [Struktura danych LinkSub](LinkSub/pl.md) do właściwości `StartEdge` i `EndEdge` obiektu.
+-   Wszystkie obiekty z krawędziami muszą zostać obliczone, zanim będą mogły zostać użyte jako dane wejściowe dla właściwości obiektu Blend Curve.
 
 
 ```python

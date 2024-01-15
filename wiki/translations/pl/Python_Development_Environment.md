@@ -617,6 +617,7 @@ Some other links about IDEs for Python which might be of interest are:
 -   [Choosing the Best Python IDE](http://pedrokroger.net/choosing-best-python-ide/)
 -   [Your Development Environment](http://docs.python-guide.org/en/latest/dev/env/)
 -   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
+-   [Using Pyzo Python IDE with FreeCAD](Pyzo.md)
 
 
 

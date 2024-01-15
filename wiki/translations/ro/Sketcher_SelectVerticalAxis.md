@@ -7,7 +7,7 @@
 
 ## Description
 
-Selects the vertical axis of a sketch.
+The <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:24px;"> **SelectVerticalAxis** command selects the vertical axis of a sketch.
 
 
 

@@ -11,36 +11,24 @@
 |Download=[https://www.freecadweb.org/wiki/images/8/8b/Macro_Normal_Vector.png ToolBar Icon]
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Macro semplice per ottenere l\'output nella console python di un vettore normale alla faccia selezionata in precedenza nella vista 3D.
 
 
-</div>
 
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 -   Selezionare una faccia nella vista 3D.
 -   Copiare il codice della Macro nella console python.
 -   FreeCAD visualizza le informazioni del vettore normale nella console python.
 -   Utilizzare questi valori per impostare la direzione mentre si crea una vista di disegno.
 
-
-</div>
-
 ## Script
 
-ToolBar Icon ![](images/Macro_Normal_Vector.png )
+Icona barra strumenti ![](images/Macro_Normal_Vector.png )
 
 **Macro_Normal_Vector.FCMacro**
 

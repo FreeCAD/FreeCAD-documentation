@@ -19,10 +19,10 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
 
 ## Utilizzo
 
-1.  Durante il comando non è possibile modificare la [vista 3D](3D_view.md). Si consiglia di allineare correttamente prima la vista 3D.
+1.  Durante il comando non è possibile modificare la [vista 3D](3D_view/it.md). Si consiglia di allineare correttamente prima la vista 3D.
 2.  Selezionare uno o più oggetti mesh.
 3.  Esistono diversi modi per invocare il comando:
-    -   Premere il bottone **<img src="images/Mesh_PolyTrim.svg" width=16px> [Mesh PolyTrim](Mesh_PolyTrim.md)**.
+    -   Premere il bottone **<img src="images/Mesh_PolyTrim.svg" width=16px> [Rifila con un poligono](Mesh_PolyTrim/it.md)**.
     -   Selezionare l\'opzione **Mesh → Taglio → <img src="images/Mesh_PolyTrim.svg" width=16px> Rifila con un poligono** dal menu.
 4.  Definire un poligono selezionando dei punti nella vista 3D.
 5.  Selezionare un\'opzione dal menu contestuale della vista 3D:
@@ -50,7 +50,7 @@ Il comando **Rifila con un poligono** taglia facce e parti di facce da oggetti m
 
 ## Script
 
-Vedere anche: [Script di base per FreeCAD](FreeCAD̠_Scripting_Basics/it.md)
+Vedere anche: [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
 Per tagliare una mesh con un poligono usare il suo metodo `trim`.
 

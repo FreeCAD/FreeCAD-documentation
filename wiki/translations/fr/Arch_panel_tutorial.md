@@ -24,12 +24,12 @@ Ceci est une publication croisée d\'un [tutoriel](http://opensourceecology.org/
 
 FreeCAD est un modélisateur 3D paramétrique. La modélisation paramétrique vous permet de modifier facilement votre conception en revenant dans l\'historique de votre modèle et en modifiant ses paramètres. FreeCAD est open source (licence LGPL) et très modulaire, permettant une extension et une personnalisation très avancées, notamment grâce à son utilisation intensive du langage Python.
 
--   FreeCAD website: <http://www.freecadweb.org/>
--   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
--   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
--   FreeCAD forum: <http://forum.freecadweb.org/>
--   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
--   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+-   Website de FreeCAD : <http://www.freecad.org/>
+-   Documentation du wiki de FreeCAD : <http://www.freecad.org/wiki/index.php?title=Main_Page>
+-   Ateliers de FreeCAD : <http://www.freecad.org/wiki/index.php?title=Workbench_Concept>
+-   Forum de FreeCAD : <http://forum.freecad.org/>
+-   Commencer avec FreeCAD : <http://www.freecad.org/wiki/index.php?title=Getting_started>
+-   Tutoriel en architecture : <http://www.freecad.org/wiki/index.php?title=Arch_tutorial>
 
 
 
@@ -70,7 +70,7 @@ FreeCAD est une application très technique, et sa courbe d\'apprentissage peut 
 
 -   Bien que FreeCAD puisse importer et travailler avec des objets mesh (Mesh workbench), il est principalement conçu pour fonctionner avec un type d\'objet plus avancé appelé brep, utilisé par la plupart de ses ateliers (Part, PartDesign, Draft, Sketcher, Arch). Lors de l\'importation de fichiers basés sur des maillages (.dae, .orb, .stl \...), vous devrez généralement convertir ces objets avant de pouvoir faire quelque chose d\'intéressant avec eux. Cependant, les formats de fichier basés sur des solides (.step, .iges), lorsqu\'ils sont importés dans FreeCAD, produisent directement des objets brep. Les formats 2D (.dxf, .svg) produisent également des contenus brep.
 
--   FreeCAD a différentes façons, ou modes, d\'utiliser les boutons de la souris. Ces modes peuvent être définis dans les préférences ou les modifications à la volée en cliquant avec le bouton droit sur l\'arrière-plan de la vue 3D. Ils sont décrits sur <http://www.freecadweb.org/wiki/ind>
+-   FreeCAD dispose de différents modes d\'utilisation des boutons de la souris. Ces modes peuvent être définis dans les préférences ou modifiés à la volée par un clic droit sur l\'arrière-plan de la vue 3D. Ils sont décrits sur <https://wiki.freecad.org/Mouse_navigation/fr>. Les modes les mieux adaptés au travail de CAO sont CAD ou Gestures.
 
 
 

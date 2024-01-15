@@ -1,7 +1,7 @@
 # Online Help Toc/zh-cn
-这是用于自动构建 FreeCAD **在线帮助**系统的目录。这份手册也有一份可打印版本在 [发布页](https://github.com/FreeCAD/FreeCAD/releases)。如果您对 FreeCAD 有任何疑问或需要帮助，请查阅 [帮助页面](help.md)，包括论坛和聊天组。
+\"如果你对FreeCAD有任何疑问或需要帮助，请首先查阅[ 帮助页](Help.md)。\"
 
-另外，这里还有一份[FreeCAD手册的目录](Manual:Introduction/zh-cn.md)。
+另外，这里还有一份[FreeCAD 手册](Manual:Introduction/zh-cn.md)的目录。
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -64,54 +64,48 @@
     -   [设置导入-导出首选项](Import_Export_Preferences/zh-cn.md)
     -   [使用宏](Macros/zh-cn.md)
 
-
-<div class="mw-translate-fuzzy">
-
--   脚本与宏
-    -   [Python 简介](Introduction_to_Python/zh-cn.md)
-    -   [Python 脚本指南](Python_scripting_tutorial/zh-cn.md)
-    -   [FreeCAD 脚本基础](FreeCAD_Scripting_Basics/zh-cn.md)
-    -   [网格脚本](Mesh_Scripting/zh-cn.md)
-    -   [零件脚本](Topological_data_scripting/zh-cn.md)
-    -   [网格与零件之间的转化](Mesh_to_Part/zh-cn.md)
-    -   [Coin 场景图](Scenegraph/zh-cn.md)
-    -   [使用 Pivy](Pivy/zh-cn.md)
-    -   [使用 PySide](PySide/zh-cn.md)
-    -   [创建参数化对象](Scripted_objects/zh-cn.md)
-    -   [嵌入式 FreeCAD](Embedding_FreeCAD/zh-cn.md)
-    -   脚本示例
-        -   [代码片段](Code_snippets/zh-cn.md)
-        -   [画线函数](Line_drawing_function/zh-cn.md)
-        -   [创建对话框](Dialog_creation/zh-cn.md)
-
-
-</div>
+-   [Python 脚本化](Scripting_and_macros.md)
+    -   [使用宏](Macros.md)
+    -   [脚本教程](Scripts.md)
+    -   [Python 简介](Introduction_to_Python.md)
+    -   [Python 脚本编写教程](Python_scripting_tutorial.md)
+    -   [FreeCAD 脚本编写基础](FreeCAD_Scripting_Basics.md)
+    -   [零件脚本编写](Part_scripting.md)
+    -   [形状操作](Topological_data_scripting.md)
+    -   [脚本化对象](Scripted_objects.md)
+    -   [Coin 场景图](Scenegraph.md)
+    -   [使用 Pivy](Pivy.md)
+    -   [使用 PySide](PySide.md)
+    -   [界面创建](Interface_creation.md)
+    -   [对话框创建](Dialog_creation.md)
 
 
 <div class="mw-translate-fuzzy">
 
--   为 FreeCAD 开发应用程序
-    -   [许可证](Licence/zh-cn.md)
-    -   编译 FreeCAD
-        -   [获取帮助](Tracker/zh-cn.md)
-        -   [在 Windows 中编译](Compile_on_Windows/zh-cn.md)
-        -   [在 Unix 中编译](Compile_on_Linux/zh-cn.md)
-        -   [在 Mac 中编译](Compile_on_MacOS/zh-cn.md)
-        -   [编译 (加速)](Compiling_(Speeding_up)/zh-cn.md)
-        -   [第三方库](Third_Party_Libraries/zh-cn.md)
-        -   [第三方工具](Third_Party_Tools/zh-cn.md)
-        -   [启动与配置](Start_up_and_Configuration/zh-cn.md)
-    -   构建工具
-        -   [FreeCAD 构建工具](FreeCAD_Build_Tool/zh-cn.md)
-        -   [增加功能模块](Module_Creation/zh-cn.md)
-        -   [调试 FreeCAD](Debugging/zh-cn.md)
-        -   [测试 FreeCAD](Testing/zh-cn.md)
-        -   [持续集成 (CI)](Continuous_Integration/zh-cn.md)
-    -   修改 FreeCAD
-        -   [商标](Branding/zh-cn.md)
-        -   [翻译 FreeCAD](Localisation/zh-cn.md)
-        -   [安装 Python 扩展模块](Extra_python_modules/zh-cn.md)
-    -   [源码文档](Source_documentation/zh-cn.md)
+-   开发
+    -   [许可证](Licence.md)
+    -   Compiling FreeCAD (编译 FreeCAD)
+        -   [在 Windows 上编译](Compile_on_Windows.md)
+        -   [在 Linux 上编译](Compile_on_Linux.md)
+        -   [在 MacOS 上编译](Compile_on_MacOS.md)
+        -   [在 Docker 上编译](Compile_on_Docker.md)
+        -   [在 Docker CLI 模式下编译](FreeCAD_Docker_CLI_mode.md)
+        -   [编译（加快速度）](Compiling_(Speeding_up).md)
+        -   [第三方库](Third_Party_Libraries.md)
+        -   [第三方工具](Third_Party_Tools.md)
+    -   Build Support Tools (构建支持工具)
+        -   [错误追踪](Tracker.md)
+        -   [调试 FreeCAD](Debugging.md)
+        -   [测试 FreeCAD](Testing.md)
+        -   [FreeCAD 构建工具](FreeCAD_Build_Tool.md)
+        -   [持续集成](Continuous_Integration.md)
+    -   Modifying FreeCAD (修改 FreeCAD)
+        -   [品牌化](Branding.md)
+        -   [翻译 FreeCAD](Localisation.md)
+        -   [添加工作台](Workbench_creation.md)
+        -   [安装额外的 Python 模块](Extra_python_modules.md)
+    -   [源代码文档](Source_documentation.md)
+    -   [API](https://www.freecadweb.org/api/)
 
 
 </div>

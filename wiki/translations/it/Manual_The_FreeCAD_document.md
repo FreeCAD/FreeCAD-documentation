@@ -1,5 +1,5 @@
 # Manual:The FreeCAD document/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 Un documento di FreeCAD contiene tutti gli oggetti della scena. Può contenere gruppi e oggetti realizzati con qualsiasi ambiente di lavoro. È quindi possibile cambiare ambiente e continuare a lavorare sullo stesso documento e / o oggetti all\'interno dello stesso documento. Il documento è ciò che viene salvato su disco quando si salva il lavoro. In FreeCAD è anche possibile aprire più documenti contemporaneamente, e aprire diverse viste dello stesso documento.
 

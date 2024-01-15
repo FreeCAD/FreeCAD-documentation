@@ -2,29 +2,33 @@
  GuiCommand:
    Name: FEM ConstraintFixed
    Name/de: FEM RandbedingungFestsetzen
-   MenuLocation: Modell , Mechanische Randbedingungen , Randbedingung Festsetzen
+   MenuLocation: Modell , Mechanische Randbedingungen und Belastungen , Randbedingung Festsetzen
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_ConstraintContact/de
 ---
 
 # FEM ConstraintFixed/de
 
+
+
 ## Beschreibung
 
-Erstellt eine FEM-Randbedingung zum Festsetzen eines Geometrieelements, die alle 6 Freiheitsgrade des ausgewählten Objekts sperrt.
+Erstellt eine FEM-Randbedingung zum Festsetzen einer geometrischen Einheit, die alle vorhandenen Freiheitsgrade der Knoten sperrt, die der ausgewählten geometrischen Einheit zugrunde liegen (6 Freiheitsgrade für Balken- und Schalenelemente, 3 für Festkörper-Elemente).
+
+
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Randbedingung Festsetzen](FEM_ConstraintFixed/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintFixed.svg" width=16px> Randbedingung Festsetzen** auswählen.
+    -   Den Menüeintrag **Modell → Mechanische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintFixed.svg" width=16px> Randbedingung Festsetzen** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll; dies kann ein Knoten (Ecke), eine Kante oder eine Fläche sein.
+
+
 
 ## Begrenzungen
 
-Objektarten können nicht innerhalb derselben Randbedingung gemischt werden. Für jede Objektart sollte eine eigene Randbedingung Festsetzen verwendet werden.
-
-## Hinweise
+Objektarten können innerhalb derselben Randbedingung nicht gemischt werden. Für jede Objektart sollte eine eigene Randbedingung Festsetzen verwendet werden.
 
 
 

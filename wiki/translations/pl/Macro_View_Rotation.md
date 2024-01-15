@@ -3,28 +3,31 @@
 |Name=Macro View Rotation
 |Icon=Macro_View_Rotation.png
 |Description=This GUI allows the view to be rotated with more precision than when using the mouse.  Rotation is according to axes fixed with respect to the user and not the objects, though the aim is that the objects rotate about their approximate shared centre rather than the view centre.<br />
-The GUI defaults to the top right of the screen, this behaviour can be changed by editing.
+The GUI defaults to the top right of the screen, this behaviour can be changed by editing.<br />
+<br />
+[http://forum.freecadweb.org/download/file.php?id=453 Icons Package]
 |Author=Joe Dowsett
 |Version=1.0
 |Date=2012-01-04
 |FCVersion=All
-|Download=[http://forum.freecadweb.org/download/file.php?id=453 Icons Package]<br />[https://www.freecadweb.org/wiki/images/a/af/Macro_View_Rotation.png Icon ToolBar]
-|SeeAlso=[Macro Rotate View](Macro_Rotate_View.md)<br />[Macro FCCamera](Macro_FCCamera.md)
+|Download=[https://wiki.freecad.org/images/a/af/Macro_View_Rotation.png ToolBar Icon]
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View.md), [Macro FCCamera](Macro_FCCamera.md)
 }}
 
 ## Description
 
 This GUI allows the view to be rotated with more precision than when using the mouse. Rotation is according to axes fixed with respect to the user and not the objects, though the aim is that the objects rotate about their approximate shared centre rather than the view centre.
-The GUI defaults to the top right of the screen, this behaviour can be changed by editing
+
+The GUI defaults to the top right of the screen, this behaviour can be changed by editing.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
 
-<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Three icons are referred to to symbolise the rotation directions. A zip file containing these icons can be found [here](http://forum.freecadweb.org/download/file.php?id=453), the images should be placed in the folder containing your macros. Please feel free to contribute better ones!
+<img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Three icons are referred to symbolise the rotation directions. A zip file containing these icons can be found [here](http://forum.freecadweb.org/download/file.php?id=453), the images should be placed in the folder containing your macros. Please feel free to contribute better ones!
 
-## Code
+## Script
 
-The lastest version of the macro is to be found at [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
+The latest version of the macro is to be found at [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 
@@ -280,13 +283,14 @@ if __name__ == '__main__':
 
 ## Option
 
-at the end of the function \'initUI\'. The first two arguments (right-300, 0) (line 91) provide the position for the top left corner of the window - my experience is that the behaviour was as intended on Ubuntu but Vista positioned the window too high and the 0 needed to be changed to \~30.
-```python
+At the end of the function \'initUI\' the first two arguments (right-300, 0) (line 91) provide the position for the top left corner of the window - my experience is that the behaviour was as intended on Ubuntu but Vista positioned the window too high and the 0 needed to be changed to \~30.
 
+
+```python
         self.setGeometry(right-300, 0, 300, 150)
 ```
 
-## Discussion page 
+## Forum
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
 

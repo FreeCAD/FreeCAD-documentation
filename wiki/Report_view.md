@@ -3,7 +3,7 @@
 
 The [Report view](Report_view.md) is a panel that shows text messages from FreeCAD processes and tools. It is available in the menu **{{StdMenu|[View](Std_View_Menu.md)** → Panels → Report view}}.
 
-Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [Preferences Editor](Preferences_Editor#Output_window.md).
+Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Report view** tab of the [Preferences Editor](Preferences_Editor#Report_view.md).
 
  <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;"> 
 

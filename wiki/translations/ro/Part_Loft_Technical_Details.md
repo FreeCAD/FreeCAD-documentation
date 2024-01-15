@@ -39,9 +39,9 @@ Dacă cel puțin unul dintre profile are un număr diferit de segmente, se aplic
 
 Operația este extinsă la toate profilurile, pentru a obține un număr egal de segmente. Numărul total de segmente din fiecare profil ar fi egal cu suma tuturor numerelor de segmente ale tuturor profilurilor (cu condiția ca nici unul dintre vârfuri să nu aibă același unghi polar).
 
-   
-  <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-   
++++
+| <img alt="The process of slicing profile2 (white crescent-like shape) to create joints corresponding to vertices of profile1 (purple pentagon). The inserted joints are marked by yellow arrows." src=images/Loft-vertex-insertion.png  style="width:300px;"> | <img alt="The result of loft relevant to the picture on the left." src=images/Loft_crescent_pentagon.png  style="width:300px;"> |
++++
 
 ### Step 2. Establishing correspondence between segments 
 
@@ -113,8 +113,9 @@ Rețineți că Loft are o proprietate \"Riglat\". Dacă este setat la adevărat,
 
 </div>
 
-    
-  <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;">
+++++
+| <img alt="It is not required that the profiles are parallel." src=images/Loft_nonparallel.png  style="width:300px;"> | <img alt="In Loft, the profiles can be coplanar. In this example, two of three profiles are coplanar." src=images/Loft_Coplanar.png  style="width:300px;"> | <img alt="An example of a closed loft between three pentagonal profiles (white). Note the non-smooth joint at the outermost profile. This is the first profile in the closed loft." src=images/Loft-closed.png  style="width:300px;"> |
+++++
 
 
 

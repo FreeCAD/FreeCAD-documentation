@@ -101,7 +101,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane/de.md): Beschneidet Objekte zeitweise.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut/de.md): Erzeugt dauerhafte Ausschnitte an objekten und Baugruppen. {{Version/de|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut/de.md): Erzeugt dauerhafte Ausschnitte an objekten und Baugruppen. **-- Steht zur Verfügung, sobald einer der Arbeitsbereiche [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) geladen wurde.** {{Version/de|0.20}}
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Texture mapping\...](Std_TextureMapping/.md): Bildet Texturen zetweise auf allen Objekten ab.
 
@@ -125,6 +125,9 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   [Arbeitsbereich](Std_Workbench/de.md) **-- Einen Arbeitsbereich aus dem Untermenü auswählen.**
 
+
+<div class="mw-translate-fuzzy">
+
 -   Werkzeugleisten **-- Jede Werkzeugleiste kann im Untermenü ein- oder ausgeschaltet werden. Einige Arbeitsbereiche fügen ihre eigenen Werkzeugleisten hinzu.**
     -   Datei
     -   Bearbeiten {{Version/de|0.21}}
@@ -135,14 +138,36 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   Struktur
     -   Hilfe {{Version/de|0.21}}
 
+
+</div>
+
 -   Fensterbereiche **-- Jeder Bereich kann im Untermenü ein- oder ausgeschaltet werden.**
-    -   [Ausgabefenster](Report_view/de.md)
-    -   [Baumansicht](Tree_view/de.md)
-    -   [Eigenschafteneditor](Property_editor/de.md)
+    -   [Baumansicht](Tree_view.md) **-- Steht zur Verfügung, wenn [Baumstruktur-Ansichtsmodus](Preferences_Editor/de#Allgemein_2.md) auf {{Value|Baumansicht und Eigenschafteneditor** gesetzt ist.}}
+    -   [Property view](Property_editor.md) **-- Wie vorher.**
     -   [Auswahlansicht](Selection_view/de.md)
-    -   [Combo-Ansicht](Combo_view/de.md)
+    -   [Aufgaben](Task_panel/de.md)
     -   [Python-Konsole](Python_console/de.md)
-    -   [DAG-Ansicht](DAG_view/de.md)
+    -   [DAG-Ansicht](DAG_view/de.md) **-- Steht nicht standardmäßig zur Verfügung, siehe [DAG-Ansicht](DAG_view/de.md).**
+    -   [Model](Combo_view/del.md) **-- Steht zur Verfügung, wenn [Baumstruktur-Ansichtsmodus](Preferences_Editor#Allgemein_2.md) auf {{Value|Combo-Ansicht** gesetzt ist.}}
+    -   [Ausgabefenster](Report_view/de.md)
+
+-   Überlagerungsmodus für angedockte Fenster {{Version/de|0.22}}
+    -   [Überlagerungsmodus für alle umschalten](Std_DockOverlayAll/de.md): Schaltet den Überlagerungsmodus für alle angedockten Fenster ein bzw. aus.
+    -   [Transparenzmodus für alle umschalten](Std_DockOverlayTransparentAll/de.md): Schaltet den Transparenzmodus für alle angedockten Fenster ein bzw. aus. So bleiben angedockte Fenster stets transparent.
+    -   [Überlagerungsmodus umschalten](Std_DockOverlayToggle/de.md): Schaltet den Überlagerungsmodus für die angedockten Fenster unter dem Mauszeiger ein bzw. aus.
+    -   [Transparenzmodus umschalten](Std_DockOverlayToggleTransparent/de.md): Schaltet den Transparenzmodus für die angedockten Fenster unter dem Mauszeiger ein bzw. aus. So bleibt das angedockte Fenster stets transparent.
+    -   [Mausaktionen in angedockten Überlagerungsfenstern umleiten](Std_DockOverlayMouseTransparent/de.md): Leitet alle Mausaktionen in angedockten Überlagerungsfenstern um.
+    -   [Links umschalten](Std_DockOverlayToggleLeft/de.md): Blendet den linken Überlagerungsbereich ein bzw. aus.
+    -   [Rechts umschalten](Std_DockOverlayToggleRight/de.md): Blendet den rechten Überlagerungsbereich ein bzw. aus.
+    -   [Oben umschalten](Std_DockOverlayToggleTop/de.md): Blendet den oberen Überlagerungsbereich ein bzw. aus.
+    -   [Unten umschalten](Std_DockOverlayToggleBottom/de.md): Blendet den unteren Überlagerungsbereich ein bzw. aus.
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
+
+-   Verknüpfungsnavigation
+    -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Zum verknüpften Objekt gehen](Std_LinkSelectLinked/de.md): Wählt die verknüpften Objekte aus und wechselt zu ihrem Dokument.
+    -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Zum tiefsten verknüpften Objekt gehen](Std_LinkSelectLinkedFinal/de.md): Wählt die am tiefsten verknüpften Objekte aus und wechselt zu ihrem Dokument.
+    -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Alle Verknüpfungen auswählen](Std_LinkSelectAllLinks/de.md): Wählt alle Verknüpfungen zu einem Objekt aus.
 
 -   Aktionen in der Baumansicht
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync-Ansicht](Std_TreeSyncView/de.md): Schaltet den SyncView-Modus der [Baumansicht](Tree_view/de.md) ein/aus.
@@ -155,6 +180,8 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
     -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Reduzieren/Erweitern](Std_TreeCollapseDocument/de.md): Schaltet die Baumansicht in den CollapseDocument-Modus.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Ziehen initiieren](Std_TreeDrag/de.md): Startet das Ziehen von ausgewählten Objekten in der Baumansicht.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Gehe zu Selektion](Std_TreeSelection/de.md): Scrollt die Baumansicht auf das zuerst erstellte Objekt einer Auswahl in der 3D-Ansicht.
+    -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Auswahl zurück](Std_SelBack/de.md): Stellt die vorherige Auswahl in der Baumansicht wieder her.
+    -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Auswahl vorwärts](Std_SelForward/de.md): Stellt die nachfolgende Auswahl in der Baumansicht wieder her.
 
 -   [Statusleiste](Std_ViewStatusBar/de.md): Schaltet die Anzeige der [Statusleiste](Status_bar/de.md) ein/aus.
 

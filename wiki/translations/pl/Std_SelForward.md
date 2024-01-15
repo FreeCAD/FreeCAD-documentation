@@ -2,10 +2,11 @@
  GuiCommand:
    Name: Std SelForward
    Name/pl: Std: Ponów wybór
-   MenuLocation: 
+   MenuLocation: Widok , Akcje widoku drzewa , Ponów zaznaczenie
    Workbenches: wszystkie
+   Shortcut: **S** **F**
    Version: 0.19
-   SeeAlso: Std_LinkSelectLinked/pl, Std_LinkSelectLinkedFinal/pl,  Std_LinkSelectAllLinks/pl, Std_SelBack/pl
+   SeeAlso: Std_SelBack/pl
 ---
 
 # Std SelForward/pl
@@ -21,8 +22,11 @@ Polecenie **Ponów wybór** przywraca następny zarejestrowany wybór z [Widoku 
 ## Użycie
 
 1.  Musi istnieć poprzedni wybór widoku Drzewa.
-2.  Naciśnij przycisk **<img src="images/Std_SelForward.svg" width=16px> [Ponów wybór](Std_SelForward/pl.md)**.
-3.  Następny wybór zostanie przywrócony.
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Kliknij czarną strzałkę w dół po prawej stronie przycisku **<img src="images/Std_TreeSyncView.svg" width=16px>** i wybierz opcję **<img src="images/_Std_SelForward.svg" width=16px>** z menu podręcznego. Uwaga: obraz przycisku zmieni się w zależności od wybranej opcji.
+    -   Wybierz z menu opcję **Widok → Akcje widoku drzewa → <img src="images/Std_SelForward.svg" width=16px> Ponów zaznaczenie**.
+    -   Użyj skrótu klawiaturowego: **S**, a następnie **F**.
+3.  Następnie wybór zostanie przywrócony.
 
 
 

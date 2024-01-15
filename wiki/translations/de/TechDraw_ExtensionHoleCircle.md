@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:24px;"> **TechDraw ExtensionHoleCircle** Werkzeug fügt zu einem Kreismuster Mittellinien hinzu.
-
-
-</div>
+Das Werkzeug **TechDraw ExtensionHoleCircle** fügt in einem Kreismuster angeordneten Kreisen Mittellinien hinzu.
 
 <img alt="" src=images/TechDraw_ExtensionHoleCircleExample.png  style="width:400px;"> 
 *Rechts ein Kreismuster mit Mittellinien*
@@ -30,18 +24,12 @@ Das <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:24px;"
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional: definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
-2.  Wähle drei oder mehr Kreise, die ein Kreismuster bilden.
-3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> [TechDraw ExtensionHoleCircle](TechDraw_ExtensionHoleCircle.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> Add Bolt Circle Centerlines** Option aus dem Menü.
+1.  Wahlweise die Linienmerkmale mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) festlegen.
+2.  Drei oder mehr Kreise, die ein Kreismuster bilden, auswählen.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> [Lochkreismittellinien hinzufügen](TechDraw_ExtensionHoleCircle/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> Lochkreismittellinien hinzufügen** auswählen.
 4.  Die Mittellinien werden hinzugefügt.
-
-
-</div>
 
 
 

@@ -1,8 +1,7 @@
 ---
  GuiCommand:
    Name: Draft Snap Angle
-   Name/it: Angolo
-   MenuLocation: Draft , Draft Snap/it , Angolo
+   Name/it: Draft Aggancia Angolo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
@@ -10,56 +9,35 @@
 # Draft Snap Angle/it
 
 
-</div>
-
-
-{{Draft Tools navi/it}}
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Questo metodo si aggancia ai punti di cerchi e archi con incrementi specifici di 30° e 45° sull\'arco; questo include 0°, 60°, 90°, 180°, 210°, 270° e altri multipli interi.
+L\'opzione <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft Aggancia Angolo** esegue l\'aggancio ai punti cardinali speciali sui bordi circolari, a multipli di 30° e 45°. I bordi possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
+
+![](images/Draft_Snap_Angle_example.png ) 
+*Aggancio del secondo punto di una linea al punto -30° su un bordo circolare. I piccoli cerchi magenta indicano tutti i punti cardinali speciali disponibili.*
+
+ {{Userdocnavi/it}}
+
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Angolo** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Angle.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Angle.svg" width=16px> Aggancia Angolo**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Spostare il cursore su un bordo circolare.
+6.  Il bordo viene evidenziato.
+7.  Se viene trovato un punto cardinale, il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+8.  Facoltativamente, spostare il cursore più vicino a un altro punto cardinale per selezionare invece quel punto.
+9.  Fare clic per confermare il punto.
 
 
-</div>
 
-![](images/Draft_Snap_Angle_example.png )
+## Preferenze
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio sul secondo punto di una linea sul cerchio, con l'angolo di 45° sull'arco; i piccoli cerchi indicano tutti i possibili punti di aggancio*
-
-
-</div>
-
-
-{{Userdocnavi/it}}
-
-For general information about snapping see [Draft Snap](Draft_Snap.md).
-
-
-<div class="mw-translate-fuzzy">
-
-## Utilizzo
-
-1.  Accertarsi che <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Attiva snap](Draft_Snap_Lock/it.md) e <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> [Angolo](Draft_Snap_Angle/it.md) siano attivati.
-2.  Sceglire uno strumento Drfat per disegnare una forma.
-3.  Sposta il cursore su un oggetto cerchio o un arco.
-4.  Il cerchio o l\'arco si evidenziano in giallo, e un piccolo cerchio bianco indica il punto sull\'arco su cui verrà agganciato il nuovo punto; questo punto formerà un angolo con l\'orizzontale di 30° o 45°, o un loro multiplo.
-5.  Spostare il cursore in una posizione diversa sul cerchio per scegliere un altro punto di aggancio.
-6.  Cliccare per agganciare e attaccare il nuovo punto.
-
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

@@ -8,7 +8,7 @@ Cette catégorie répertorie les pages relatives à [Web Workbench](Web_Workbenc
 | [Artwork Web/fr](Artwork_Web/fr.md) | [Web BrowserBack/fr](Web_BrowserBack/fr.md) | [Web BrowserNext/fr](Web_BrowserNext/fr.md) |
 | [Web BrowserRefresh/fr](Web_BrowserRefresh/fr.md) | [Web BrowserSetURL/fr](Web_BrowserSetURL/fr.md) | [Web BrowserStop/fr](Web_BrowserStop/fr.md) |
 | [Web BrowserZoomIn/fr](Web_BrowserZoomIn/fr.md) | [Web BrowserZoomOut/fr](Web_BrowserZoomOut/fr.md) | [Web OpenWebsite/fr](Web_OpenWebsite/fr.md) |
-| [Web Workbench/fr](Web_Workbench/fr.md) |
+| [Template:Web Tools navi/fr](Template_Web_Tools_navi/fr.md) | [Web Workbench/fr](Web_Workbench/fr.md) |
 
 
 

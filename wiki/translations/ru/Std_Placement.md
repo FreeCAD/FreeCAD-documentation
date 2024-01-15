@@ -9,12 +9,16 @@
 
 # Std Placement/ru
 
+
+
 ## Описание
 
 The **Std Placement** command displays the Placement [task panel](Task_panel.md) for a selected object.
 
 ![](images/Std_Placement_taskpanel.png ) 
 *The Placement task panel*
+
+
 
 ## Применение
 
@@ -28,9 +32,12 @@ The **Std Placement** command displays the Placement [task panel](Task_panel.md)
 
 The dialog can also be launched by clicking on the ellipsis button **...** that appears in the [property editor](Property_editor.md) when you click on the **Placement** property.
 
+
+
 ## Примечания
 
 -   For more information about the placement parameters see the [Placement](Placement.md) page, and the [Aeroplane](Aeroplane.md) tutorial.
+-   The rotation angle can be set in degrees in the GUI but is stored in radians internally so that angles usually have to be converted when used in scripts.
 
 ## Scripting
 
@@ -65,7 +72,11 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Move the base point of the object, then rotate the object 45 degrees around the X axis. 
+Move the base point of the object, then rotate the object 45 degrees around the X axis.
+
+The math module supplies a method `radians()` to easily convert degrees to radians and has to be imported at first.
+
+
 ```python
 import math
 

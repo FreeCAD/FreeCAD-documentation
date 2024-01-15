@@ -1,15 +1,17 @@
 # Custom icon in tree view/pl
-## Introduction
+## Wprowadzenie
 
-This is an example of modifying the icon of a custom [viewprovider](Viewprovider.md), which are normally added to [scripted objects](scripted_objects.md).
+Oto przykład modyfikacji ikony niestandardowego [Dostawcy widoku](Viewprovider/pl.md), które są zwykle dodawane do [obiektów tworzonych skryptami](scripted_objects/pl.md).
 
-## Personalized icon in the combo view 
 
-Here an example to create an object with properties and icon personalised in ComboView
 
-Download the example icon to the same directory as the macro ![icon Example for the macro\|24px](images/FreeCADIco.png )
+## Spersonalizowana ikona w widoku połączonym 
 
-Use of an icon for three different use cases: icon_in_file_disk (format .png), icon_XPM_in_macro (format .XPM) and icon_resource_FreeCAD
+Oto przykład tworzenia obiektu z właściwościami i ikoną spersonalizowaną w Widoku połączonym.
+
+Pobierz przykładową ikonę do tego samego katalogu co makrodefinicję.![icon Example for the macro\|24px](images/FreeCADIco.png )
+
+Użycie ikony dla trzech różnych przypadków użycia: icon_in_file_disk *(format .png)*, icon_XPM_in_macro (format .XPM) i icon_resource_FreeCAD
 
 ![icon personalised](images/Qt_Example_02.png ) 
 
@@ -156,7 +158,7 @@ App.ActiveDocument.recompute()
 
 ```
 
-Complete example creating a cube and its icon
+Kompletny przykład tworzenia kostki i jej ikony.
 
 
 ```python

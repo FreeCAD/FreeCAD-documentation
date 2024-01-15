@@ -21,7 +21,7 @@ Cette macro crée un cercle circonscrit sur 3 points sélectionnés, de manière
 
 Sélectionnez 3 points, ou formes dans la vue 3D et exécutez la macro.
 Si la forme est une ligne, la coordonnée sera le centre de la ligne.
-![Circle_on_3\_points](images/Circle_on_3_points.png ) 
+![Circle_on_3_points](images/Circle_on_3_points.png ) 
 
 ## Options
 
@@ -83,7 +83,7 @@ Pour les télécharger, positionnez la souris sur l\'icône puis faites clic dro
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make_Circle_3\_Points.FCMacro**
+**Make_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -625,7 +625,7 @@ Regardez alternativement avec l\'œil gauche, puis l\'œil droit pour voir les v
 
 ## Crédits
 
-La genèse de la macro **Draft_Circle_3\_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) aidé de flachyjoe merci.
+La genèse de la macro **Draft_Circle_3_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) aidé de flachyjoe merci.
 
 La formule provient de [cercle_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) et utilisée avec l\'aimable autorisation de son auteur.
 
@@ -633,9 +633,9 @@ La formule adaptée par \" galou_breizh \" pour le cecle dans l\'espace 3D provi
 
 Les programmes séparés se trouvent ici,
 
-[Macro_Draft_Circle_3\_Points](Macro_Draft_Circle_3_Points/fr.md)
+[Macro_Draft_Circle_3_Points](Macro_Draft_Circle_3_Points/fr.md)
 
-[Macro_Draft_Circle_3\_Points_3D](Macro_Draft_Circle_3_Points_3D/fr.md)
+[Macro_Draft_Circle_3_Points_3D](Macro_Draft_Circle_3_Points_3D/fr.md)
 
 
 

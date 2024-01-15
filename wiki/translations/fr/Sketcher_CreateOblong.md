@@ -26,6 +26,12 @@ Cet outil dessine un rectangle arrondi en choisissant deux points opposés. Au d
 
 
 
+## Remarques
+
+Voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Remarques.md).
+
+
+
 
 
 {{Sketcher_Tools_navi

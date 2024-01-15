@@ -1,7 +1,8 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_Stirrup   Name/de: Arch Bewehrungsstab bügelförmig
-   MenuLocation: Arch , Rebar tools , Stirrup oder 3D/BIM , Reinforcement tools , Bügel
+   Name: Arch_Rebar_Stirrup
+   Name/de: Arch Armierung Bewehrungsbügel
+   MenuLocation: Arch , Rebar tools , Stirrup<br>3D/BIM , Reinforcement tools , Bügel
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.17
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_Helical/de
@@ -10,48 +11,45 @@
 # Arch Rebar Stirrup/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Das [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
+Das Werkzeug [Armierung Bewehrungsbügel](Arch_Rebar_Stirrup/de.md) erlaubt es dem Anwender, einen Satz von Bewehrungsbügeln in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
-Das [Arch Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das Werkzeug [Armierung Bewehrungsbügel](Arch_Rebar_Stirrup/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
-*Ein Satz von bügelförmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)*-Objekt
+*Ein Satz von Bewehrungsbügeln in einem [Struktur](Arch_Structure/de.md)*-Objekt
 
 
 
 ## Anwendung
 
+1.  Eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Dann **<img src="images/Arch_Rebar_Stirrup.svg" width=16px> [Bewehrungsbügel](Arch_Rebar_Stirrup/de.md)** aus den Bewehrungswerkzeugen auswählen.
 
-1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
-2.  Wähle dann **<img src="images/Arch_Rebar_Stirrup.svg" width=16px> [Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)** aus den Bewehrungsstab-Werkzeugen.
-3.  Ein [Aufgaben-Paneel](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt wie im folgenden Bild dargestellt.
-4.  Wähle die gewünschte Ausrichtung.
-5.  Fülle die Werte wie \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Anchor length\' (Ankerlänge), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes.
-6.  Wähle den Verteilungsmodus, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
-7.  Falls \'Spacing\' gewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) gewählt werden.
-8.  Wähle **Pick selected face** zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
-9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
-10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
+3.  Der [Aufgaben-Bereich](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt, wie im folgenden Bild dargestellt.
 
+4.  Die gewünschte Ausrichtung auswählen.
 
-</div>
+5.  Die Werte wie \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Anchor length\' (Ankerlänge), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes eingeben.
 
+6.  Den Verteilungsmodus auswählen, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
 
-:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
+7.  Falls \'Spacing\' ausgewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) ausgewählt werden.
 
+8.  
+    **Pick selected face**wird verwendet, um die Fläche für die Verteilung der Bewehrungsstäbe zu bestätigen oder zu ändern.
 
+9.  Schaltfläche **OK** oder **Anwenden** drücken, um die Bewehrungsstäbe zu erstellen.
 
-*Aufgaben-Ansicht für das Arch Bewehrungsstab bügelförmig-Werkzeug*
+10. Schaltfläche **Abbrechen** drücken, um den Aufgaben-Bereich zu verlassen.
+
+<img alt="" src=images/StirrupDialog.png  style="width:250px;"> 
+*Aufgaben-Bereich für das Werkzeug Arch Armierung Bewehrungsbügel*
 
 
 
@@ -77,33 +75,14 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Scripten
+## Skripten
 
 
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Das Bügelförmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
+Das Werkzeug Rebar Bewehrungsbügel kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Rebar = makeStirrup(l_cover, r_cover, t_cover, b_cover, f_cover,
                     bentAngle, bentFactor, diameter, rounding, amount_spacing_check, amount_spacing_value,
@@ -167,22 +146,6 @@ import Stirrup
 Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
                     100, 4, 14, 8, True, 8)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[Abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
-|[Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-|IconL=Arch_Rebar_BentShape.svg
-|IconR=Arch_Rebar_Helical.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
 
 
 

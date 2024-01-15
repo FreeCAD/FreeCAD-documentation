@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -23,6 +25,8 @@ Acest instrument convertește un filament [Wires](Draft_Wire.md) într-o funcți
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -60,12 +60,6 @@ Vedere [Curva di Bézier](Draft_BezCurve/it#Options.md).
 
 
 
-## Preferenze
-
-Vedere [Curva di Bézier](Draft_BezCurve/it#Preferenze.md).
-
-
-
 ## Proprietà
 
 Vedere [Curva di Bézier](Draft_BezCurve/it#Properietà.md).

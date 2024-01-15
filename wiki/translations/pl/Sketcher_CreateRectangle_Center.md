@@ -30,6 +30,12 @@ Podczas uruchamiania narzędzia kursor myszki zmienia wygląd na biały krzyżyk
 
 
 
+## Uwagi
+
+Zobacz stronę [Utwórz prostokąt](Sketcher_CreateRectangle/pl#Uwagi.md).
+
+
+
 
 
 {{Sketcher Tools navi

@@ -1,8 +1,8 @@
 ---
- TutorialInfo:
-   Topic: Import text and geometry from Inkscape
-   Level: Beginner
-   Time: 30 minutes
+ TutorialInfo:l
+   Topic: Import tekstu i geometrii z programu Inkscape
+   Level: Początkujący
+   Time: 30 minut
    Author: r-frank
    FCVersion: 0.16.6704
    Files: 
@@ -14,47 +14,57 @@
 
 
 
-## Introduction
 
-This tutorial is supposed to show how to import text or geometry created with inkscape via svg-format into FreeCAD.
-Inkscape 0.91 and FreeCAD 0.16.6704 on Windows are used for these operations.
 
-## General tips for importing from inkscape 
+## Wprowadzenie
 
--   the svg-import in FreeCAD cannot handle a svg file with a resolution of more than 45 dpi, so check the settings in inkscape
--   when importing path objects which show up in the 3D view in FreeCAD not very smooth it may be a matter of the FreeCAD-settings for the shape view.
-    -   in FreeCAD choose **Edit** → **Preferences** → **Part Design** → **Shape View**
-    -   as for \"Tesselation\", the \"Maximum deviation depending on the model bounding box\" the default value is \"0,5 %\"
-    -   setting this to a lower value will increase smoothness of the model in the 3D view (and use more PC performance)
-    -   don\'t use values lower than \"0,01 %\", this will most likely crash FreeCAD
-    -   in that case deleting \"system.cfg\" and \"user.cfg\" in your FreeCAD-user-directory will solve this problem
+Ten samouczek ma na celu pokazanie, jak zaimportować tekst lub geometrię utworzoną w programie inkscape za pomocą formatu svg do programu FreeCAD.
+Do tych operacji używane są Inkscape 0.91 i FreeCAD 0.16.6704 na Windows.
 
-## Importing text from inkscape 
 
--   In inkscape, after inserting text (and perhaps applying effects like bending or something else to it) make sure to
-    -   select your text and choose **Path** → **Object to path**
-    -   ungroup your objects
-    -   save as \"Plain SVG (\*.svg)\" file format
--   open the file in FreeCAD, choosing the option \"SVG as geometry (importSVG)\"
--   a path object for each letter/number/sign will be created in the tree view
--   use [Draft Upgrade](Draft_Upgrade.md) tool on each path object to create faces
--   use pad or [Part Extrude](Part_Extrude.md) tool on the faces to get solids
--   you can fuse your objects or use compound on them depending on your intended further work
 
-## Importing geometry from inkscape 
+## Ogólne wskazówki dotyczące importu z Inkscape 
 
-Since inkscape and FreeCAD seem to have different approaches on how to apply dimensions on svg-object, the recommended workflow seems to be:
+-   import svg we FreeCAD nie może obsłużyć pliku svg o rozdzielczości większej niż 45 dpi, więc sprawdź ustawienia w inkscape.
+-   Podczas importowania obiektów ścieżek, które pojawiają się w oknie widoku 3D we FreeCAD niezbyt gładko, może to być kwestia ustawień FreeCAD dla widoku kształtu.
+    -   We FreeCAD wybierz **Edycja → Preferencje ... → Projekt Części → Widok kształtu**.
+    -   Jeśli chodzi o \"Tesselację\", \"Maksymalne dopuszczalne odchylenie w zależności od ramki otaczającej\", domyślną wartością jest \"0,5 %\",
+    -   ustawienie tej wartości na niższą zwiększy płynność modelu w oknie widoku 3D *(i wykorzysta większą wydajność komputera)*,
+    -   nie używaj wartości niższych niż \"0,01 %\", najprawdopodobniej spowoduje to awarię programu FreeCAD,
+    -   w takim przypadku usunięcie \"system.cfg\" i \"user.cfg\" w katalogu użytkownika FreeCAD rozwiąże ten problem.
 
--   ungroup all objects in inkscape
--   select all objects in inkscape
--   apply a stroke style with a width of 0 mm (yes, that is zero millimeter) to all objects
--   save as \"Inkscape SVG (\*.svg)\" or \"Plain SVG (\*.svg)\" file format
--   open the file in FreeCAD, choosing the option \"SVG as geometry (importSVG)\"
--   the dimensions of the objects in inkscape and in FreeCAD should now be identical
 
-## Credits
 
-Thanks to users \"freecad-heini-1\" and \"herbk\" for testing and providing valuable feedback.
+## Importowanie tekstu z programu inkscape 
+
+-   W inkscape, po wstawieniu tekstu *(i być może zastosowaniu do niego efektów takich jak zginanie lub coś innego)* upewnij się, że:
+    -   zaznaczyłeś tekst i wybrałeś **Ścieżka** → **Obiekt do ścieżki**,
+    -   rozgrupuj obiekty,
+    -   zapisz plik w formacie \"Zwykły SVG (\*.svg)\",
+-   Otwórz plik we FreeCAD, wybierając opcję \"SVG jako geometria (importSVG)\".
+-   Obiekt ścieżki dla każdej litery/liczby/znaku zostanie utworzony w widoku drzewa.
+-   Użyj narzędzia [Ulepsz kształt](Draft_Upgrade/pl.md) na każdym obiekcie ścieżki, aby utworzyć ściany.
+-   Użyj narzędzia Wyciągnij lub [Wyciągnij](Part_Extrude/pl.md) środowiska Część na powierzchniach, aby uzyskać bryły.
+-   Możesz połączyć swoje obiekty lub wykonać na nich złożenia w zależności od planowanej dalszej pracy
+
+
+
+## Importowanie geometrii z programu Inkscape 
+
+Ponieważ inkscape i FreeCAD wydają się mieć różne podejścia do stosowania wymiarów na obiekcie svg, zalecanym przepływem pracy wydaje się być:
+
+-   Rozgrupowanie wszystkich obiektów w Inkscape.
+-   Zaznaczenie wszystkich obiektów w Inkscape.
+-   Zastosowanie stylu obrysu o szerokości 0 mm *(tak, to jest zero milimetrów)* do wszystkich obiektów.
+-   Zapisanie pliku w formacie \"Inkscape SVG (\*.svg)\" lub \"Zwykły SVG (\*.svg)\".
+-   Otwarcie pliku w programie FreeCAD, wybierając opcję \"SVG jako geometria (importSVG)\".
+-   wymiary obiektów w inkscape i FreeCAD powinny być teraz identyczne.
+
+
+
+## Zasłużeni
+
+Podziękowania dla użytkowników \"freecad-heini-1\" i \"herbk\" za przetestowanie i przekazanie cennych opinii.
 
 
 

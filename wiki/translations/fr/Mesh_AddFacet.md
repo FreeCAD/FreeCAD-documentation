@@ -17,7 +17,7 @@ La commande **Ajouter un triangle** ajoute des faces le long d\'une limite d\'un
 
 ## Utilisation
 
-1.  Pendant la commande, le mode d\'édition sera actif. Dans ce mode, il est impossible de faire pivoter ou de faire un panoramique de la [vue 3D](3D_view.md) bien que le zoom fonctionne toujours. Mais vous pouvez temporairement sortir du mode d\'édition avec la commande [Std Bascule en mode navigation](Std_ToggleNavigation/fr.md) si vous avez besoin de changer la vue.
+1.  Pendant la commande, le mode d\'édition sera actif. Dans ce mode, il est impossible de faire pivoter ou de faire un panoramique de la [vue 3D](3D_view/fr.md) bien que le zoom fonctionne toujours. Mais vous pouvez temporairement sortir du mode d\'édition avec la commande [Std Bascule en mode navigation](Std_ToggleNavigation/fr.md) si vous avez besoin de changer la vue.
 2.  Sélectionnez un seul objet maillé ouvert.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_AddFacet.svg" width=16px> [Ajouter un triangle](Mesh_AddFacet/fr.md)**.

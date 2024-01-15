@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: FEM ConstraintFluidBoundary
-   MenuLocation: Model , Constraints without solver , Fluid boundary condition
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name: FEM ConstraintGear
+   Name/pl: MES: Zdefiniuj przepływ graniczny
+   MenuLocation: Model , Wiązania bez solvera , Zdefiniuj przepływ graniczny
+   Workbenches: FEM_Workbench/pl
 ---
 
 # FEM ConstraintFluidBoundary/pl
@@ -12,7 +12,7 @@
 
 ## Opis
 
-ToDo
+Do zrobienia
 
 
 

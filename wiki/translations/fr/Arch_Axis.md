@@ -17,49 +17,59 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille*
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Axis.svg" width=16px> [Axe](Arch_Axis/fr.md)** ou appuyez sur les touches **A** puis **X**.
-2.  [Draft Déplacer](Draft_Move/fr.md)/[Draft Rotation](Draft_Rotate/fr.md) positionne le système d\'axes dans la position souhaitée.
+2.  [Draft Déplacer](Draft_Move/fr.md)/[Draft Rotation](Draft_Rotate/fr.md) positionnent le système d\'axes dans la position souhaitée.
 3.  Passez en mode édition en double-cliquant sur le système d\'axes dans l\'arborescence pour ajuster ses paramètres tels que le nombre d\'axes, les distances et les angles entre les axes.
 
 ## Options
 
 -   Chaque axe de la série a sa propre distance et son propre angle par rapport à l\'axe précédent. Cela permet de faire des systèmes très complexes tels que des systèmes non orthogonaux, des systèmes polaires ou tout type de système non uniforme.
--   Double-cliquer sur l\'axe dans l\'arborescence permet d\'éditer les distances, les angles et les étiquettes de chaque axe.
+-   Double-cliquez sur l\'axe dans la vue en arborescence permet d\'éditer les distances, les angles et les étiquettes de chaque axe.
 -   La longueur des axes, la taille des bulles et les styles de numérotation sont personnalisables directement via les propriétés du système d\'axes.
 -   Chaque axe peut également afficher une étiquette, modifiable via la boîte de dialogue du panneau des tâches.
 
+
+
 ## Propriétés
 
--    **Length**: La longueur des axes.
+-    **Length**: longueur des axes.
 
--    **Limit**: Si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
+-    **Limit**: si supérieure à zéro, chaque axe sera représenté par deux lignes de la longueur donnée au lieu d\'une ligne continue. {{Version/fr|0.20}}
 
--    **Bubble Size**: La taille des bulles des axes.
+-    **Bubble Size**: taille des infobulles des axes.
 
--    **Numeration style**: Style de numérotation : 1,2,3, A,B,C, etc\...
+-    **Numeration style**: style de numérotation : 1,2,3, A,B,C, etc\...
 
--    **Bubble Position**: Position de la bulle sur l\'axe: Point de départ, point de terminaison, les deux ou aucun.
+-    **Bubble Position**: position de l\'infobulle sur l\'axe : point de départ, point à la fin, les deux ou aucun.
 
--    **Font Name**: Police du numéro de la bulle et/ou les étiquettes
+-    **Font Name**: police du numéro de l\'infobulle et/ou des étiquettes
 
--    **Font Size**: La taille du texte de l\'étiquette uniquement (le texte de la bulle est contrôlé par la taille de la bulle)
+-    **Font Size**: taille du texte de l\'étiquette uniquement (le texte de l\'infobullee est contrôlé par la taille de l\'infobulle)
 
--    **Show Labels**: Active/désactive l\'affichage du textes des étiquettes
+-    **Show Labels**: active/désactive l\'affichage du textes des étiquettes
+
+
 
 ## Utilisation comme marque de section 
 
-En définissant la propriété **Bubble Position** à **Arrow left/right** ou **Bar left/right**, l\'axe affichera une flèche ou une barre remplie à la place de la bulle, afin qu\'elle puisse être utilisée comme marque de section. {{Version/fr|0.20}}
+En définissant la propriété **Bubble Position** à **Arrow left/right** ou **Bar left/right**, l\'axe affichera une flèche ou une barre remplie à la place de l\'infobulle, afin qu\'elle puisse être utilisée comme marque de section. {{Version/fr|0.20}}
 
-## Scripts
+
+
+## Script
 
 
 **Voir aussi :**
 
-[API](Arch_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Axes peut être utilisé dans une [macro](macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Axes peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```

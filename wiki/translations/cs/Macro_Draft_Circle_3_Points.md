@@ -36,7 +36,7 @@ Jsou-li vybrané objekty v různých rovinách, (xy **Z10**, xy **Z2**, xy **Z5*
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Draft_Circle_3\_Points.FCMacro**
+**Draft_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=

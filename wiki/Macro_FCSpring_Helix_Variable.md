@@ -2,11 +2,13 @@
 {{Macro
 |Name=Macro FCSpring Helix Variable
 |Icon=FCSpring Helix Variable.png
-|Description=This macro creates a spring with customizable, any turn may change the spring configuration can be saved in a file with the extension '''.FCSpring''' or coordinates '''.FCSpringCoor'''.<br />Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)<br />If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.<br/>See the [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable#Examples examples]
+|Description=This macro creates a spring with customizable, any turn may change the spring configuration can be saved in a file with the extension '''.FCSpring''' or coordinates '''.FCSpringCoor'''.<br />Are detected: Surface (Face direction), Cylinder (Radius), Ellipse (MinorRadius), Sphere (Radius), Toroid (Radius1), Plane (Direction), Line (follow the Direction ), Point (XYZ vertex position)<br />If no object is detected (not selection) the spring is created at the point XYZ 0., 0., 0.<br/>See the [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable#Examples examples]<br/>
+<br/>
+Download [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |Author=Mario52
-|Version=01.18
-|Date=2022/03/16
-|Download=Download the [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
+|Download=[https://wiki.freecad.org/images/6/69/FCSpring_Helix_Variable.png ToolBar Icon]
+|Version=01.18c
+|Date=2023/09/01
 |FCVersion=0.19
 }}
 
@@ -29,7 +31,7 @@ Schematic detail of spring configuration
 
  ![](images/Macro_TruncateSpring_01.png ) 
 
-#### **Gui**
+#### Gui
 
  ![](images/Macro_FCSpring_Helix_Variable_01.png ) 
 
@@ -172,7 +174,9 @@ Example to spring modified
 
 When the macro is launched full list of turns is displayed in tabular form.
 
-Here the data of the spring above and displayed in the Report view ![](images/Macro_FCSpring_Helix_Variable_08.png )  
+Here the data of the spring above and displayed in the Report view ![](images/Macro_FCSpring_Helix_Variable_08.png )
+
+ 
 
 ## Icon
 
@@ -180,7 +184,9 @@ Download the file image and copy in your macro repertory.
 
 Click the image, in the new window position the mouse over the image, click the right mouse and do \"Save target as \...\"
 
-ToolBar button ![Button](images/FCSpring_Helix_Variable.png )  Macro icons
+ToolBar button ![Button](images/FCSpring_Helix_Variable.png ) 
+
+Macro icons
 
 ![](images/FCSpring_Helix_Variable_Icon_01.png ) ![](images/FCSpring_Helix_Variable_Icon_02.png ) ![](images/FCSpring_Helix_Variable_Icon_02b.png ) ![](images/FCSpring_Helix_Variable_Icon_03.png ) ![](images/FCSpring_Helix_Variable_Icon_03b.png ) ![](images/FCSpring_Helix_Variable_Icon_04.png ) ![](images/FCSpring_Helix_Variable_Icon_05.png ) ![](images/FCSpring_Helix_Variable_Icon_06.png ) 
 
@@ -244,6 +250,15 @@ The above file is a macro in the form of GitHub code. Download the Zip on GitHub
 
 <center>
 
+<File:Macro> FCSpring Helix Variable polygonalSpiral00.png\|Example polygonal Spiral by 3 points <File:Macro> FCSpring Helix Variable polygonalSpiral01.png\|Example polygonal Spiral by 4 points
+
+
+</center>
+
+
+
+<center>
+
 <File:Macro> FCSpring Helix Variable 19.png\|Difference between Smooth (here 71 with precision 5 (72 points)) and normal
 
 
@@ -290,6 +305,18 @@ soften fittings :done
 modify diameter to any coil :done
 
 ## Version
+
+2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
+
+2023/09/01 Version 0.18b correct (adapt) the code :
+
+ 
+```python
+self.PB_Adapt_Radius.setStyleSheet("background-color: QPalette.Base") 
+``` to 
+```python
+self.PB_Adapt_Radius.setStyleSheet("QPushButton {background-color: QPalette.Base}") 
+```
 
 2022/03/16 Version 0.18 : adding scrollBar, possibility docking Left or Right, restore the chrono *(time.time())*, memorise the last FilePath
 

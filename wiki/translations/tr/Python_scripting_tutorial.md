@@ -112,7 +112,7 @@ If you type this in the FreeCAD Python console, you will notice that as soon as 
 ![](images/Screenshot_classbrowser.jpg ) 
 *The autocomplete mechanism of the FreeCAD Python console*
 
-Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
+Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → Python → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
 Now let\'s get back to our document and see what we can do with it:
 

@@ -1,5 +1,5 @@
 # Manual:Traditional 2D drafting/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 
 <div class="mw-translate-fuzzy">
@@ -94,7 +94,13 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 ![](images/Exercise_cabin_04.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Putem schimba culoarea lor gri implicită într-un model frumos de hașură, prin selectarea ambilor pereți, apoi stabilirea lor**Pattern** property to **Simple**, and their **Pattern size** to your liking, for example **0.005**.
+
+
+</div>
 
 ![](images/Exercise_cabin_05.jpg )
 
@@ -191,6 +197,8 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **Fişiere de descărcat**
@@ -202,6 +210,8 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 -   Fișierul DXF chivetei : <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/sink.dxf>
 -   Fișier DXF al aragazului: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cooktop.dxf>
 -   Fișierul final DXF produs în timpul acestui exercițiu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf>
+
+
 
 
 <div class="mw-translate-fuzzy">

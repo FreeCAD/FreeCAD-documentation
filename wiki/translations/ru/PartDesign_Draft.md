@@ -8,6 +8,8 @@
 
 # PartDesign Draft/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **PartDesign Draft** tool creates angular draft on the selected faces of an object. It adds a **Draft** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
@@ -15,6 +17,8 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **PartDesi
    --
   ![Select one or more faces of the object before starting the tool. Here, 2 faces have been selected.](images/PartDesign_Draft-01.png ) ![Showing Draft Parameters in TaskPanel.](images/PartDesign_Draft-02.png ) ![2 faces have been added, and a 10 deg. draft applied. The bottom plane has remained dimensionally stable, while the draft has made the top plane smaller.](images/PartDesign_Draft-03.png ) ![The Neutral Plane has been changed to the top. Now, the top plane has stayed dimensionally stable, while the draft has made the bottom plane larger.](images/PartDesign_Draft-04.png ) ![Pull direction is set to the lower right edge, resulting in the draft pulling to the left.](images/PartDesign_Draft-05.png ) ![Checking the Reverse Direction box has applied an inward draft rather than outward.](images/PartDesign_Draft-06.png )   
    --
+
+
 
 
 
@@ -44,6 +48,8 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **PartDesi
 2.  The **Draft parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
 
+
+
 ## Опции
 
 -    **Add face**: Add faces to the selection by pressing the **Add face** button and selecting more faces.
@@ -61,9 +67,13 @@ The <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **PartDesi
 
 -    **Reverse pull direction**: Invert the pull direction by checking the **Reverse pull direction** checkbox. This will toggle the draft between positive and negative angles.
 
+
+
 ## Примечания
 
 -   The Draft tool will only work on faces that are not tangentially connected to other faces. A common mistake is to attempt to apply draft to a face that already has a fillet applied to it. To solve this, remove the fillet, apply the draft as needed, then re-apply the fillet.
+
+
 
 ## Свойства
 
@@ -82,7 +92,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 -    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
+-    **Support Transform|Bool**: Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning. Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
@@ -102,7 +112,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: Refine shape (clean up redundant edges) after adding/subtracting. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 

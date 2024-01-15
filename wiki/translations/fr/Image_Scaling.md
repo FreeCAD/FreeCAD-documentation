@@ -32,4 +32,4 @@ L\'outil [Image Redimensionner l\'image](Image_Scaling/fr.md) redimensionne une 
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/fr
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Scaling/fr

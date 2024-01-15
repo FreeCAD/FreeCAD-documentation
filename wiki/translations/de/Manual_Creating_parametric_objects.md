@@ -1,5 +1,5 @@
 # Manual:Creating parametric objects/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 In the [previous chapter](Manual_Creating_and_manipulating_geometry.md), we saw how to create Part geometry, and how to display it on screen, by attaching it to a \"dumb\" (non-parametric) document object. This is tedious when we want to change the shape of that object. We would need to create a new shape, then attribute it again to our object.
 

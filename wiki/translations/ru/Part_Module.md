@@ -83,6 +83,8 @@
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Отразить зеркально](Part_Mirror/ru.md): Отражает выбранный объект относительно зеркальной плоскости.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scale](Part_Scale.md): Scales one or more shapes. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Скругление](Part_Fillet/ru.md): Закругляет края объекта.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Фаска](Part_Chamfer/ru.md): Делает фаску на рёбрах объекта.
@@ -203,7 +205,13 @@
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Преобразовать в твёрдое](Part_MakeSolid/ru.md): Преобразует форму в твёрдое тело.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Reverse shapes (Обратная фигура)](Part_ReverseShapes/ru.md): Переворачивает нормали всех поверхностей выбранного объекта.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Reverse shapes (Обратная фигура)](Part_ReverseShape/ru.md): Переворачивает нормали всех поверхностей выбранного объекта.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

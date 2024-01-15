@@ -47,7 +47,7 @@ Przekrój A-A *(widok od dołu w górę)*
 *Widok podstawowy + <img src="images/Section-up.svg" width=24px> → Widok podstawowy i przekroju A-A w swojej domyślnej pozycji*
 
 <img alt="" src=images/TechDraw_ExampleSection-04.png  style="width:200px;"> 
-*Widok podstawowy i przekroju A-A we właściwym położeniu*
+*Widok podstawowy i przekroju A-A we właściwym położeniu.*
 
 Przekrój B-B *(widok od góry w dół)*
 
@@ -89,7 +89,7 @@ Przekrój E-E *(widok przekroju pod dowolnym kątem)*
 <img alt="" src=images/TechDraw_ExampleSection-12.png  style="width:300px;"> 
 *Widok podstawowy i przekroju E-e we właściwym położeniu*
 
-Domyślnie płaszczyzna przekroju przechodzi przez środek ciężkości obiektu. Aby uzyskać przekrój przesunięty musimy zmienić wartości w obszarze **Lokalizacja płaszczyzny przekroju**.
+Domyślnie płaszczyzna przekroju przechodzi przez środek ramki ograniczającej widoku *(w tym przypadku pokrywający się ze środkiem ciężkości obiektu)*. Aby uzyskać przekrój przesunięty musimy zmienić wartości w obszarze **Lokalizacja płaszczyzny przekroju**.
 
 <img alt="" src=images/TechDraw_ExampleSection-16.png  style="width:300px;">
 

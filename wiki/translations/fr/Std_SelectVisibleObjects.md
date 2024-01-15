@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std SelectVisibleObjects
    Name/fr: Std Sélection objets visibles
-   MenuLocation: Affichage , Visibilité , Sélectionnez des objets visibles
+   MenuLocation: Affichage , Visibilité , Sélectionner des objets visibles
    Workbenches: Tous
 ---
 
@@ -16,7 +16,7 @@ La commande **Std Sélection objets visibles** sélectionne tous les objets visi
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_SelectVisibleObjects.svg" width=16px>  Sélectionnez des objets visibles** dans le menu.
+1.  Sélectionnez l\'option **Affichage → Visibilité → <img src="images/Std_SelectVisibleObjects.svg" width=16px> Sélectionner des objets visibles** dans le menu.
 
 
 

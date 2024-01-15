@@ -26,8 +26,14 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 -   Seleccionar puntos en un área vacía de la vista 3D, o sobre un objeto existente (las restricciones automáticas debe estar activado en la Vista de Tareas).
 -   Presionando **Esc** o pulsando el botón derecho del ratón se cancela la función.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

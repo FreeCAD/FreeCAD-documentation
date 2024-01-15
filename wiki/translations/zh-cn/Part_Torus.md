@@ -35,7 +35,7 @@ A Part Torus can be turned into a segment of a torus by changing its **Angle3** 
 
 <div class="mw-translate-fuzzy">
 
-在[零件工作台中点击环面图标](Part_Workbench.md)<img alt="" src=images/Part_Torus.png  style="width:32px;">。这会在原点(point 0,0,0)处创建一个环面。 三个角度参数(angle1, angle2, angle3)与两个半径参数(radius1 , radius2)用于确定参数化环面，详情请看下段文字。
+在[零件工作台](Part_Workbench.md)中点击环面图标<img alt="" src=images/Part_Torus.png  style="width:32px;">。这会在原点(point 0,0,0)处创建一个环面。 三个角度参数(angle1, angle2, angle3)与两个半径参数(radius1 , radius2)用于确定参数化环面，详情请看下段文字。
 
 
 </div>

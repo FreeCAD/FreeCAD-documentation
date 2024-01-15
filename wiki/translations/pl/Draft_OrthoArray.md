@@ -1,253 +1,263 @@
 ---
  GuiCommand:
    Name: Draft OrthoArray
-   MenuLocation: Modification , Array tools , Array
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Szyk ortogonalny
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk ortogonalny
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
-   SeeAlso: Draft_PolarArray, Draft_CircularArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray
+   SeeAlso: Draft_PolarArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
 
 # Draft OrthoArray/pl
 
-## Description
 
-The <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray** command creates an orthogonal (3-axes) array from a selected object. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+## Opis
+
+Polecenie <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Szyk ortogonalny** tworzy prostokątny *(3-osiowy)* szyk z wybranego obiektu. Polecenie może opcjonalnie utworzyć szyk [Łączy](App_Link/pl.md), który jest bardziej wydajny niż zwykły szyk.
+
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
-*Draft OrthoArray*
-
-## Usage
-
-1.  Optionally select one object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_OrthoArray.svg" width=16px> [Draft OrthoArray](Draft_OrthoArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Array** option from the menu.
-3.  The **Orthogonal array** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an object: select one object.
-5.  Enter the required parameters in the task panel.
-6.  To finish the command do one of the following:
-    -   Click in the [3D view](3D_view.md).
-    -   Press **Enter**.
-    -   Press the **OK** button.
-
-## Options
-
--   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
--   Enter the **X intervals** to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
--   Enter the **Y intervals** to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
--   Enter the **Z intervals** to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
--   Press the **Reset X, Y or Z** button to reset the displacement in the given direction to the default values.
--   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
--   Press **Esc** or the **Cancel** button to abort the command.
-
-## Notes
-
--   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
--   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Properties
-
-See also: [Property editor](property_editor.md).
-
-The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
-
-### Data
+*Szyk ortogonalny.*
 
 
-{{TitleProperty|Link}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+## Użycie
 
--    **Scale|Float**
+1.  Opcjonalnie wybierz jeden obiekt.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_OrthoArray.svg" width=16px> '''Szyk ortogonalny'''**.
+    -   Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_OrthoArray.svg" width=16px> Szyk ortogonalny**.
+3.  Otworzy się panel zadań **Szyk prostokątny**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Jeśli nie wybrano jeszcze żadnego obiektu: wybierz jeden obiekt.
+5.  Wprowadź wymagane parametry w panelu zadań.
+6.  Aby zakończyć polecenie, wykonaj jedną z następujących czynności:
+    -   Kliknij w oknie [widoku 3D](3D_view/pl.md).
+    -   Naciśnij **Enter**.
+    -   Naciśnij przycisk **OK**.
+
+
+
+## Opcje
+
+-   Wprowadź **Liczbe elementów** dla kierunków X, Y i Z. Liczba ta musi wynosić co najmniej {{Value|1}} dla każdego kierunku.
+-   Wprowadź **odstęp X**, aby określić przemieszczenie elementów w kierunku X. W przypadku tablicy prostokątnej wartości Y i Z muszą być równe {{Value|0}}.
+-   Wprowadź **odstęp Y**, aby określić przemieszczenie elementów w kierunku Y. W przypadku tablicy prostokątnej wartości X i Z muszą mieć wartość {{Value|0}}.
+-   Wprowadź **odstęp Z**, aby określić przemieszczenie elementów w kierunku Z. W przypadku tablicy prostokątnej wartości X i Y muszą mieć wartość {{Value|0}}.
+-   Naciśnij przycisk **Reset X, Y or Z**, aby zresetować przemieszczenie w danym kierunku do wartości domyślnych.
+-   Jeśli pole wyboru **Scal** jest zaznaczone, nakładające się elementy w tablicy są łączone. Nie działa to w przypadku szyków łączy.
+-   Jeśli pole wyboru **Szyk łączy** jest zaznaczone, tworzony jest szyk Łączy zamiast zwykłego szyku. Szyk łączy jest bardziej wydajny, ponieważ jego elementami są obiekty [App: Łącze](App_Link/pl.md).
+-   Naciśnij **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
+
+
+
+## Uwagi
+
+-   Szyk ortogonalny może zostać przekształcony w [Szyk biegunowy](Draft_PolarArray/pl.md) lub [Szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jego właściwości **Typ szyku**.
+-   Szyk łączy nie może zostać przekształcony w zwykły szyk lub odwrotnie. Typ szyku musi być określony w czasie tworzenia.
+
+
+
+## Właściwości
+
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Polecenia Szyk ortogonalny, [Szyk biegunowy](Draft_PolarArray/pl.md) i [Szyk kołowy](Draft_CircularArray/pl.md) tworzą ten sam obiekt. Obiekt ten jest pochodną obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości *(z wyjątkiem niektórych właściwości widoku, które nie są dziedziczone przez szyki łączy)*. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej:
+
+
+
+### Dane
+
+
+{{TitleProperty|Łącze}}
+
+Właściwości w tej grupie są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
+
+-    **Skala|Float**
     
 
--    **Scale Vector|Vector|Hidden**
+-    **Wektor skali|Vector|Ukryte**.
+
+-    **Lista skali|VectorList**
     
 
--    **Scale List|VectorList**
+-    **Lista widoczności|BoolList|Ukryte**
     
 
--    **Visibility List|BoolList|Hidden**
+-    **Lista umiejscowienia|PlacementList|Ukryte**
     
 
--    **Placement List|PlacementList|Hidden**
+-    **Lista elementów|LinkList|Ukryte**
     
 
--    **Element List|LinkList|Hidden**
+-    **_ Link Touched|Bool|Ukryte**
     
 
--    **_ Link Touched|Bool|Hidden**
+-    **_ Child Cache|LinkList|Ukryte**
     
 
--    **_ Child Cache|LinkList|Hidden**
+-    **Elementy kolorowe|LinkSubHidden|Ukryte**
     
 
--    **Colored Elements|LinkSubHidden|Hidden**
-    
-
--    **Link Transform|Bool**
-    
-
-
-{{TitleProperty|Circular array}}
-
-The properties in this group are hidden for orthogonal arrays and polar arrays.
-
--    **Number Circles|Integer**: specifies the number of circular layers. Must be at least {{Value|2}}.
-
--    **Radial Distance|Distance**: specifies the distance between circular layers.
-
--    **Symmetry|Integer**: specifies the number of symmetry lines. This number changes the distribution of the elements in the array.
-
--    **Tangential Distance|Distance**: specifies the distance between elements in the same circular layer. Must be larger than zero.
-
-
-{{TitleProperty|Objects}}
-
--    **Array Type|Enumeration**: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
-
--    **Axis Reference|LinkGlobal**: specifies the object and edge to be used instead of the **Axis** and **Center** properties. Not used for orthogonal arrays.
-
--    **Base|Link**: specifies the object to duplicate in the array.
-
--    **Count|Integer**: (read-only) specifies the total number of elements in the array. {{VersionMinus|0.20}}: Only available for Link arrays.
-
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
-
--    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays.
-
-
-{{TitleProperty|Orthogonal array}}
-
-The properties in this group are hidden for circular arrays and polar arrays.
-
--    **Interval X|VectorDistance**: specifies the interval between elements in the X direction.
-
--    **Interval Y|VectorDistance**: specifies the interval between elements in the Y direction.
-
--    **Interval Z|VectorDistance**: specifies the interval between elements in the Z direction.
-
--    **Number X|Integer**: specifies the number of elements in the X direction. Must be at least {{Value|1}}.
-
--    **Number Y|Integer**: specifies the number of elements in the Y direction. Must be at least {{Value|1}}.
-
--    **Number Z|Integer**: specifies the number of elements in the Z direction. Must be at least {{Value|1}}.
-
-
-{{TitleProperty|Polar array}}
-
-The properties in this group are hidden for circular arrays and orthogonal arrays.
-
--    **Angle|Angle**: specifies the aperture of the circular arc. Use {{value|360&#176;}} for a full circle.
-
--    **Interval Axis|VectorDistance**: specifies the interval between elements in the **Axis** direction.
-
--    **Number Polar|Integer**: specifies the number of elements in the polar direction.
-
-
-{{TitleProperty|Polar/circular array}}
-
-The properties in this group are hidden for orthogonal arrays.
-
--    **Axis|Vector**: specifies the direction of the axis of the array.
-
--    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
-
-### View
-
-
-{{TitleProperty|Link}}
-
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
-
--    **Draw Style|Enumeration**
-    
-
--    **Line Width|FloatConstraint**
-    
-
--    **Override Material|Bool**
-    
-
--    **Point Size|FloatConstraint**
-    
-
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
-
--    **Shape Material|Material**
+-    **Przekształcenie łącza|Bool**
     
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Szyk kołowy}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Właściwości w tej grupie są ukryte dla tablic ortogonalnych i biegunowych.
 
--    **Child View Provider|PersistentObject|Hidden**
+-    **Liczba okręgów|Integer**: określa liczbę okrągłych warstw. Musi wynosić co najmniej {{Value|2}}.
+
+-    **Odległość promieniowa|Odległość**: określa odległość między okrągłymi warstwami.
+
+-    **Symetria|Integer**: określa liczbę linii symetrii. Liczba ta zmienia rozmieszczenie elementów w tablicy.
+
+-    **Odległość styczna|Distance**: określa odległość między elementami w tej samej warstwie kołowej. Musi być większa od zera.
+
+
+{{TitleProperty|Obiekty}}
+
+-    **Typ szyku|Enumeration**: określa typ szyku, który może być {{value|ortho}}, {{value|polar}} lub {{value|circular}}.
+
+-    **Oś odniesienia|LinkGlobal**: określa obiekt i krawędź, które mają być używane zamiast właściwości **Axis** i **Center**. Nie używane dla tablic ortogonalnych.
+
+-    **Baza|Link**: określa obiekt do powielenia w tablicy.
+
+-    **Ilość|Integer**: *(tylko do odczytu)* określa całkowitą liczbę elementów w tablicy. {{VersionMinus/pl|0.20}}: Dostępne tylko dla szyku Łączy.
+
+-    **Rozwiń szyk|Bool**: określa, czy rozwinąć szyk w oknie [Widoku drzewa](Tree_view/pl.md), aby umożliwić wybór jego poszczególnych elementów. Dostępne tylko dla szyków typu Link.
+
+-    **Połącz|Bool**: określa, czy nakładające się elementy w tablicy mają być łączone, czy nie. Nie używane dla szyków typu Łącze.
+
+
+{{TitleProperty|Szyk ortogonalny}}
+
+Właściwości w tej grupie są ukryte dla tablic kołowych i biegunowych.
+
+-    **Odstęp X|VectorDistance**: określa odstęp między elementami w kierunku X.
+
+-    **Odstęp Y|VectorDistance**: określa odstęp między elementami w kierunku Y.
+
+-    **Odstęp Z|VectorDistance**: określa odstęp między elementami w kierunku Z.
+
+-    **Ilość X|Integer**: określa liczbę elementów w kierunku X. Musi wynosić co najmniej {{Value|1}}.
+
+-    **Ilość Y|Integer**: określa liczbę elementów w kierunku Y. Musi mieć wartość co najmniej {{Value|1}}.
+
+-    **Ilość Z|Integer**: określa liczbę elementów w kierunku Z. Musi mieć wartość co najmniej {{Value|1}}.
+
+
+{{TitleProperty|Szyk biegunowy}}
+
+Właściwości w tej grupie są ukryte dla szyków kołowych i szyków ortogonalnych.
+
+-    **Kąt|Angle**: określa aperturę łuku kołowego. Użyj {{value|360&#176;}} dla pełnego okręgu.
+
+-    **Odstęp osi|VectorDistance**: określa odstęp między elementami w kierunku **Axis**.
+
+-    **Ilość Polar|Integer**: określa liczbę elementów w kierunku biegunowym.
+
+
+{{TitleProperty|Układ biegunowy / kołowy}}
+
+Właściwości w tej grupie są ukryte dla szyków ortogonalnych.
+
+-    **Oś|Vector**: określa kierunek osi tablicy.
+
+-    **Środek|VectorDistance**: określa punkt środkowy tablicy. Oś tablicy przechodzi przez ten punkt. W przypadku tablic kołowych jest to przesunięcie od **Umiejscowienia** obiektu **Baza**.
+
+
+
+### Widok
+
+
+{{TitleProperty|Łącze}}
+
+Właściwości w tej grupie, z wyjątkiem właściwości dziedziczonej, są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
+
+-    **Styl kreślenia|Enumeration**
     
 
--    **Material List|MaterialList|Hidden**
+-    **Szerokość linii|FloatConstraint**
     
 
--    **Override Color List|ColorList|Hidden**
+-    **Nadpisanie materiału|Bool**
     
 
--    **Override Material List|BoolList|Hidden**
+-    **Rozmiar punktu|FloatConstraint**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Wybieralny|Bool**: jest to właściwość dziedziczona, która pojawia się w grupie \"Wybór\" dla innych szyków.
+
+-    **Kształt materiału|Material**.
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Podstawa}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Właściwości w tej grupie, z wyjątkiem właściwości dziedziczonej, są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Dostawca widoku elementu podrzędnego|PersistentObject|Ukryte**.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
-
--    **Show In Tree|Bool**
+-    **Lista materiałów|MaterialList|Ukryte**
     
 
--    **Visibility|Bool**
+-    **Zastąp listę kolorów|ColorList|Ukryte**
+    
+
+-    **Zastąp listę materiałów|BoolList|Ukryte**
+    
+
+-    **Proxy|PythonObject|Ukryte**: jest to właściwość dziedziczona.
+
+
+{{TitleProperty|Opcje wyświetlania}}
+
+Właściwości w tej grupie są dziedziczone. Więcej informacji można znaleźć na stronie [Część: Cecha](Part_Feature/pl#Własności.md).
+
+-    **Ramka otaczająca|Bool**: ta właściwość nie jest dziedziczona przez szyk łączy.
+
+-    **Tryb wyświetlania|Enumeration**: dla szyku Łączy może to być {{value|Link}} lub {{value|ChildView}}. Dla innych szyków może to być: {{value|Cieniowany z krawędziami}}, {{value|Cieniowany}}, {{value|Szkieletowy}} lub {{value|Punkty}}.
+
+-    **Pokaż w drzewie|Bool**
+    
+
+-    **Widoczność|Bool**
     
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Rysunek Roboczy}}
 
--    **Pattern|Enumeration**: not used.
+-    **Wzór|Enumeration**: niewykorzystane.
 
--    **Pattern Size|Float**: not used.
+-    **Rozmiar wzoru|Float**: niewykorzystane.
 
 
-{{TitleProperty|Object style}}
+{{TitleProperty|Styl obiektu}}
 
-The properties in this group are not inherited by Link arrays.
+Właściwości w tej grupie nie są dziedziczone przez szyk łączy.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-### Parametric array 
+## Tworzenie skryptów 
 
-To create a parametric orthogonal array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create Draft OrthoArrays, [Draft PolarArrays](Draft_PolarArray.md) and [Draft CircularArrays](Draft_CircularArray.md). For each array type one or more wrappers are available.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The main method:
+
+
+### Szyk parametryczny 
+
+Aby utworzyć parametryczną tablicę ortogonalną, należy użyć metody `make_array` *({{Version/pl|0.19}})* modułu Rysunek Roboczy. Metoda ta zastępuje przestarzałą metodę `makeArray`. Metoda `make_array` może tworzyć obiekty OrthoArrays środowiska Rysunek Roboczy, [Szyk biegunowy](Draft_PolarArray/pl.md) i [Szyk kołowy](Draft_CircularArray/pl.md). Dla każdego typu szyku dostępny jest jeden lub więcej elementów opakowujących.
+
+Metoda podstawowa:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrappers for orthogonal arrays are:
+Opakowaniem dla szyków ortogonalnych są:
 
 
 ```python
@@ -265,7 +275,7 @@ array = make_ortho_array2d(base_object,
                            use_link=True)
 ```
 
-The wrappers for rectangular arrays are:
+Opakowaniem dla szyków prostokątnych są:
 
 
 ```python
@@ -283,19 +293,19 @@ array = make_rect_array2d(base_object,
                           use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`jest obiektem, który ma być tablicowany. Może to być również `Etykieta` *(ciąg znaków)* obiektu w bieżącym dokumencie.
 
--    `v_x`, `v_y`, and `v_z` are the vectors between the base points of the elements in the respective directions.
+-    `v_x`, `v_y` i `v_z` są wektorami pomiędzy punktami bazowymi elementów w odpowiednich kierunkach.
 
--    `d_x`, `d_y`, and `d_z` are the distances between the base points of the elements in the respective directions.
+-    `d_x`, `d_y` i `d_z` to odległości między punktami bazowymi elementów w odpowiednich kierunkach.
 
--    `n_x`, `n_y`, and `n_z` are the numbers of elements in the respective directions.
+-    `n_x`, `n_y` i `n_z` są liczbami elementów w odpowiednich kierunkach.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Jeśli `use_link` ma wartość {{True/pl}}, utworzone elementy są [łącza](App_Link/pl.md) zamiast zwykłych kopii.
 
--    `array`is returned with the created array object.
+-    `szyk`jest zwracany wraz z utworzonym obiektem szyku.
 
-Example:
+Przykład:
 
 
 ```python
@@ -312,9 +322,11 @@ array = Draft.make_ortho_array2d(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
 
-### Non-parametric array 
 
-To create a non-parametric orthogonal array use the `array` method of the Draft module. This method returns `None`.
+
+### Szyk nieparametryczny 
+
+Aby utworzyć nieparametryczny szyk ortogonalny, należy użyć metody `array` modułu Rysunek Roboczy. Metoda ta zwraca `Brak`.
 
 
 ```python
@@ -322,7 +334,7 @@ array(objectslist, xvector, yvector, xnum, ynum)
 array(objectslist, xvector, yvector, zvector, xnum, ynum, znum)
 ```
 
-Example:
+Przykład:
 
 
 ```python

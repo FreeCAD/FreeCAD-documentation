@@ -6,14 +6,9 @@
 
 </div>
 
+If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 
-{{DownloadMacStable}}
-
-and the weekly build can be downloaded from
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD through your bash terminal with
 
 
 ```python
@@ -45,7 +40,7 @@ FreeCADインストーラーはディスクイメージファイルに収めら�
 
 The FreeCAD installer is provided as a app package (.app) enclosed in a disk image file.
 
-最新のインストーラーは[ダウンロードページからダウンロードすることができます](Download.md)。ファイルをダウンロードしたらディスクイメージをマウントして**Install FreeCAD**パッケージを実行してください。
+最新のインストーラーは[ダウンロードページ](Download.md)からダウンロードすることができます。ファイルをダウンロードしたらディスクイメージをマウントして**Install FreeCAD**パッケージを実行してください。
 
 ![](images/mac_installer_1.png )
 
@@ -65,8 +60,14 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 
 今のところFreeCADにはアンインストーラーがありません。FreeCADとインストールされた全てのコンポーネントを完全に取り除きたい場合は以下のファイルとフォルダをごみ箱にドラッグしてください。
 
+
+<div class="mw-translate-fuzzy">
+
 -   /Applications内：
     -   FreeCAD
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -1,30 +1,35 @@
 ---
  GuiCommand:
    Name: Fasteners ChangeParameters
-   MenuLocation: Fasteners , Change fastener parameters
-   Workbenches: Fasteners_Workbench
-   Shortcut: None
+   Name/pl: Elementy Złączne: Zmień parametry
+   MenuLocation: Elementy Złączne , Zmień parametry
+   Workbenches: Fasteners_Workbench/pl
+   Shortcut: Brak
    SeeAlso: 
 ---
 
 # Fasteners ChangeParameters/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> **Fasteners ChangeParameters** command can be used to change the parameters of fasteners.
 
-## Usage
+## Opis
 
-1.  Select one or more fasteners. If multiple fasteners are selected they must be either only screws, only washers or only nuts.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_ChangeParameters.svg" width=16px> [Change fastener parameters](Fasteners_ChangeParameters.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Change fastener parameters** option from the menu.
-3.  The **Change fastener parameters** task panel open.
-4.  Optionally change the **Fastener type**.
-5.  Optionally change the diameter by doing one of the following:
-    -   Check the **Auto set diameter** checkbox to match the diameter of the fasteners with the edge they are attached to.
-    -   Uncheck the **Auto set diameter** checkbox and select a **Diameter** from the dropdown list.
-6.  Leave the **Set length** check box unchecked. This option currently does not work.
+Polecenie <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:24px;"> **Zmień parametry** może być użyte do zmiany wymiarów elementów złącznych.
+
+
+
+## Użycie
+
+1.  Wybierz jeden lub więcej elementów złącznych. Jeśli wybrano wiele elementów złącznych, muszą to być tylko śruby, tylko podkładki lub tylko nakrętki.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_ChangeParameters.svg" width=16px> '''Zmień parametry'''**.
+    -   Wybierz opcję z menu **Elementy złączne → <img src="images/Fasteners_ChangeParameters.svg" width=16px> Zmień parametry**.
+3.  Otworzy się panel zadań **Zmień parametry**.
+4.  Opcjonalnie zmień **Typ**.
+5.  Opcjonalnie zmień średnicę, wykonując jedną z poniższych czynności:
+    -   Zaznacz pole wyboru **Ø automatycznie**, aby dopasować średnicę łączników do krawędzi, do której są przymocowane.
+    -   Odznacz pole wyboru **Ø automatycznie** i wybierz **Średnicę** z rozwijanej listy.
+6.  Pozostaw pole wyboru **Ustaw długość** niezaznaczone. Ta opcja obecnie nie działa.
 
 
 

@@ -44,169 +44,157 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 ### Materiał
 
--   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Materiał dla bryły](FEM_MaterialSolid/pl.md): Pozwala wybrać materiał dla bryły z bazy danych.
+  - <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Materiał dla bryły](FEM_MaterialSolid/pl.md): Pozwala wybrać materiał dla bryły z bazy danych.
 
--   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Materiał dla płynu](FEM_MaterialFluid/pl.md): Umożliwia wybór materiału dla płynu z bazy danych.
+  - <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Materiał dla płynu](FEM_MaterialFluid/pl.md): Umożliwia wybór materiału dla płynu z bazy danych.
 
--   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nieliniowy materiał mechaniczny](FEM_MaterialMechanicalNonlinear/pl.md): Umożliwia dodanie nieliniowego modelu materiału mechanicznego.
+  - <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Nieliniowy materiał mechaniczny](FEM_MaterialMechanicalNonlinear/pl.md): Umożliwia dodanie nieliniowego modelu materiału mechanicznego.
 
--   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Materiał zbrojony (beton)](FEM_MaterialReinforced/pl.md): Pozwala wybrać z bazy danych materiały zbrojone składające się z osnowy i zbrojenia.
+  - <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Materiał zbrojony *(beton)*](FEM_MaterialReinforced/pl.md): Pozwala wybrać z bazy danych materiały zbrojone składające się z osnowy i zbrojenia.
 
--   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Edytor materiału](FEM_MaterialEditor/pl.md): Pozwala otworzyć edytor materiałów, aby edytować materiały.
+  - <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Edytor materiału](FEM_MaterialEditor/pl.md): Pozwala otworzyć edytor materiałów, aby edytować materiały.
 
 
 
 ### Geometria elementu 
 
--   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Przekrój poprzeczny belki](FEM_ElementGeometry1D/pl.md): Służy do definiowania przekrojów poprzecznych dla elementów belkowych.
+  - <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Przekrój poprzeczny belki](FEM_ElementGeometry1D/pl.md): Służy do definiowania przekrojów poprzecznych dla elementów belkowych.
 
--   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Obrót belki](FEM_ElementRotation1D/pl.md): Służy do obracania przekrojów poprzecznych elementów belkowych.
+  - <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Obrót belki](FEM_ElementRotation1D/pl.md): Służy do obracania przekrojów poprzecznych elementów belkowych.
 
--   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Grubość powłoki](FEM_ElementGeometry2D/pl.md): Służy do określenia grubości powłoki elementu.
+  - <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Grubość powłoki](FEM_ElementGeometry2D/pl.md): Służy do określenia grubości powłoki elementu.
 
--   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Przekrój dla przepływu 1D](FEM_ElementFluid1D/pl.md): Służy do tworzenia elementu przekroju cieczy dla instalacji pneumatycznych i hydraulicznych.
-
-
-
-### Wiązania elektromagnetyczne 
-
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:48px;"> [Wiązania elektromagnetyczne](FEM_CompEmConstraints/pl.md): Jest to menu przyborów na pasku narzędzi wiązań MES, które zawiera następujące wiązania:
-
-  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Zdefiniuj potencjał elektrostatyczny](FEM_ConstraintElectrostaticPotential/pl.md): Służy do definiowania potencjału elektrostatycznego.
-
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Zdefiniuj gęstość prądu](FEM_ConstraintCurrentDensity/pl.md): Służy do określenia gęstości prądu. {{Version/pl|0.21}}
-
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Zdefiniuj magnetyzację](FEM_ConstraintMagnetization/pl.md): Służy do określenia namagnesowania. {{Version/pl|0.21}}
+  - <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Przekrój dla przepływu 1D](FEM_ElementFluid1D/pl.md): Służy do tworzenia elementu przekroju cieczy dla instalacji pneumatycznych i hydraulicznych.
 
 
 
-### Wiązania płynu 
+### Elektromagnetyczne warunki brzegowe 
 
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Zdefiniuj początkową prędkość przepływu](FEM_ConstraintInitialFlowVelocity/pl.md): Służy do określenia początkowej prędkości przepływu dla ciała *(objętości)*.
+  - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Warunek brzegowy potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md): Służy do definiowania potencjału elektrostatycznego.
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Zdefiniuj początkowe obciążenie ciśnieniem](FEM_ConstraintInitialPressure/pl.md): Służy do określenia ciśnienia początkowego dla danego ciała *(objętości)*. {{Version/pl|0.21}}
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Warunek brzegowy gęstości prądu](FEM_ConstraintCurrentDensity/pl.md): Służy do określenia gęstości prądu. {{Version/pl|0.21}}
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Zdefiniuj prędkość przepływu](FEM_ConstraintFlowVelocity/pl.md): Służy do określenia prędkości przepływu jako warunku brzegowego na krawędzi *(2D)* lub ścianie *(3D)*.
-
-
-
-### Wiązania geometrii 
-
--   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Zdefiniuj obrót w płaszczyźnie](FEM_ConstraintPlaneRotation/pl.md): Służy do definiowania wiązania obrotu w płaszczyźnie na ściance planarnej.
-
--   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Zapis wyników z przekroju](FEM_ConstraintSectionPrint/pl.md): Służy do drukowania predefiniowanych zmiennych wyjściowych ścian *(sił i momentów)* do pliku dat.
-
--   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Zdefiniuj odkształcenie](FEM_ConstraintTransform/pl.md): Służy do zdefiniowania wiązania przekształcenia na ścianie.
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Warunek brzegowy magnetyzacji](FEM_ConstraintMagnetization/pl.md): Służy do określenia magnetyzacji. {{Version/pl|0.21}}
 
 
 
-### Wiązania mechaniczne 
+### Warunki brzegowe płynu 
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Zdefiniuj przytwierdzenie](FEM_ConstraintFixed/pl.md): Służy do definiowania stałego wiązania punktu / krawędzi / powierzchni.
+  - <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Warunek początkowy prędkości przepływu](FEM_ConstraintInitialFlowVelocity/pl.md): Służy do określenia początkowej prędkości przepływu dla ciała *(objętości)*.
 
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md): Used to define a displacement constraint on point/edge/face(s).
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Warunek początkowy ciśnienia](FEM_ConstraintInitialPressure/pl.md): Służy do określenia ciśnienia początkowego dla danego ciała *(objętości)*. {{Version/pl|0.21}}
 
--   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact.md): Used to define a contact constraint between two faces.
-
--   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces.
-
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md): Used to define a force in \[N\] applied uniformly to a selectable face in a definable direction.
-
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md): Used to define a pressure constraint.
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md): Used to define a gravity acceleration acting on a model.
+  - <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Warunek brzegowy prędkości przepływu](FEM_ConstraintFlowVelocity/pl.md): Służy do określenia prędkości przepływu jako warunku brzegowego na krawędzi *(2D)* lub ścianie *(3D)*.
 
 
 
-### Wiązania termiczne 
+### Funkcje analizy geometrycznej 
 
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md): Used to define the initial temperature of a body.
+  - <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Wiązanie MPC typu płaszczyzna](FEM_ConstraintPlaneRotation/pl.md): Służy do definiowania wiązania utrzymującego węzły na płaskiej powierzchni w tej samej płaszczyźnie.
 
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux.md): Used to define a heat flux constraint on a face(s).
+  - <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Funkcja zapisu wyników z przekroju](FEM_ConstraintSectionPrint/pl.md): Służy do drukowania predefiniowanych zmiennych wyjściowych ścian *(sił i momentów)* do pliku danych.
 
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature.md): Used to define a temperature constraint on a point/edge/face(s).
-
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md): Used to define an internally generated body heat.
+  - <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Lokalny układ współrzędnych](FEM_ConstraintTransform/pl.md): Służy do zdefiniowania wiązania przekształcenia na ścianie.
 
 
 
-### Wiązania nie wymagające solwera 
+### Mechaniczne warunki brzegowe i obciążenia 
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary.md): Used to define a fluid boundary condition.
+  - <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md): Służy do definiowania stałego wiązania punktu / krawędzi / powierzchni.
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing.md): Used to define a bearing constraint.
+  - <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md): Służy do definiowania przemieszczeń punktów / krawędzi / powierzchni.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear.md): Used to define a gear constraint.
+  - <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Kontakt](FEM_ConstraintContact/pl.md): Służy do definiowania kontaktu między 2 powierzchniami.
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley.md): Used to define a pulley constraint.
+  - <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Wiązanie tie](FEM_ConstraintTie/pl.md): Służy do definiowania wiązania tie *(\"kontakt wiązany\")* między 2 powierzchniami.
+
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Sprężyna](FEM_ConstraintSpring/pl.md): Służy do definiowania sprężyny. {{Version/pl|0.20}}
+
+  - <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Obciążenie siłą](FEM_ConstraintForce/pl.md): Służy do definiowania siły w \[N\] rozłożonej równomiernie na wybranych ścianach w określonym kierunku.
+
+  - <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md): Służy do definiowania obciążenia powierzchni ciśnieniem.
+
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Obciążenie siłą odśrodkową](FEM_ConstraintCentrif/pl.md): Służy do definiowania obciążenia ciała siłą odśrodkową. {{Version/pl|0.20}}
+
+  - <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Obciążenie grawitacją](FEM_ConstraintSelfWeight/pl.md): Służy do definiowania przyspieszenia grawitacyjnego działającego na model.
+
+
+
+### Termiczne warunki brzegowe i obciążenia 
+
+  - <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Temperatura początkowa](FEM_ConstraintInitialTemperature/pl.md): Służy do definiowania początkowej temperatury ciała.
+
+  - <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Obciążenie strumieniem ciepła](FEM_ConstraintHeatflux/pl.md): Służy do definiowania obciążenia powierzchni strumieniem ciepła.
+
+  - <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Warunek brzegowy temperatury](FEM_ConstraintTemperature/pl.md): Służy do definiowania warunku brzegowego temperatury dla punktu / krawędzi / ściany.
+
+  - <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md): Służy do definiowania ciepła generowanego w ciele.
 
 
 
 ### Nadpisywanie wiązań 
 
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md): Used to overwrite the [permittivity of vacuum](https://en.wikipedia.org/wiki/Vacuum_permittivity) with a custom value.
+  - <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Zdefiniuj przenikalność elektryczną próżni](FEM_ConstantVacuumPermittivity/pl.md): Służy do nadpisywania [przenikalności elektrycznej próżni](https://en.wikipedia.org/wiki/Vacuum_permittivity) dowolną wartością.
 
 
 
 ## Menu: Siatka 
 
--   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md): Generates a finite element mesh for a model using Netgen.
+-   <img alt="" src=images/FEM_MeshNetgenFromShape.svg  style="width:32px;"> [Siatka MES z kształtu przy pomocy generatora Netgen](FEM_MeshNetgenFromShape/pl.md): Generuje siatkę MES dla modelu przy pomocy generatora Netgen.
 
--   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md): Generates a finite element mesh for a model using Gmsh.
+-   <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Siatka MES z kształtu przy pomocy generatora Gmsh](FEM_MeshGmshFromShape/pl.md): Tworzy siatkę MES dla modelu przy pomocy generatora Gmsh.
 
--   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md): Creates anisotropic meshes for accurate calculations near boundaries.
+-   <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> [Warstwa graniczna siatki](FEM_MeshBoundaryLayer/pl.md): Tworzy anizotropowe siatki dla dokładnych obliczeń przy brzegach.
 
--   <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> [FEM mesh region](FEM_MeshRegion.md): Creates a localized area(s) to mesh which highly optimizes analysis time.
+-   <img alt="" src=images/FEM_MeshRegion.svg  style="width:32px;"> [Obszar siatki](FEM_MeshRegion/pl.md): Tworzy zlokalizowane obszary do generowania siatki, aby zoptymalizować czas obliczeń.
 
--   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [FEM mesh group](FEM_MeshGroup.md): Groups and labels elements of a mesh (vertex, edge, surface) together, useful for exporting the mesh to external solvers.
+-   <img alt="" src=images/FEM_MeshGroup.svg  style="width:32px;"> [Grupa siatki](FEM_MeshGroup/pl.md): Grupuje i oznacza elementy siatki *(wierzchołek, krawędź, powierzchnia)* razem - przydatne do eksportowania siatki do zewnętrznych solverów.
 
--   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Nodes set](FEM_CreateNodesSet.md): Creates/defines a node set from FEM mesh.
+-   <img alt="" src=images/FEM_CreateNodesSet.svg  style="width:32px;"> [Utwórz zestaw węzłów](FEM_CreateNodesSet/pl.md): Tworzy zestaw węzłów z siatki MES.
 
--   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [FEM mesh to mesh](FEM_FemMesh2Mesh.md): Convert the surface of a FEM mesh to a mesh.
+-   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Siatka MES na obiekt środowiska Siatka](FEM_FemMesh2Mesh/pl.md): Przekształca powierzchnię siatki MES na obiekt środowiska Siatka.
 
 
 
 ## Menu: Rozwiąż 
 
--   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md): Creates a new solver for this analysis.
+-   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Narzędzia CalculiX](FEM_SolverCalculixCxxtools/pl.md): Tworzy kontroler solvera dla CalculiX.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX (new framework)](FEM_SolverCalculiX.md): Same as the original framework <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md) with extra checks.
+-   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer/pl.md): Tworzy kontroler solvera dla Elmer.
 
--   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md): Creates the solver controller for Elmer.
+-   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran/pl.md): Tworzy kontroler solvera dla Mystran. {{Version/pl|0.20}}
 
--   <img alt="" src=images/FEM_SolverMystran.svg  style="width:32px;"> [Solver Mystran](FEM_SolverMystran.md): Creates the solver controller for the MYSTRAN solver. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88/pl.md): Tworzy kontroler solvera dla Z88.
 
--   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Solver Z88](FEM_SolverZ88.md): Creates the solver controller for Z88.
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity equation](FEM_EquationElasticity.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform linear mechanical analyses.
+### Równania mechaniczne 
 
-  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Równanie elastyczności](FEM_EquationElasticity/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do liniowych analiz mechanicznych.
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Równanie deformacji](FEM_EquationDeformation/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do nieliniowych analiz mechanicznych. {{Version/pl|0.21}}
 
-  - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Electrostatic equation](FEM_EquationElectrostatic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform electrostatic analyses.
 
-  - <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Electricforce equation](FEM_EquationElectricforce.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate the electric force on surfaces.
 
-  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Magnetodynamic equation](FEM_EquationMagnetodynamic.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics. <small>(v0.21)</small> 
+### Równania elektromagnetyczne 
 
-  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to calculate magnetodynamics in 2D. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz elektrostatycznych.
 
--   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Flow equation](FEM_EquationFlow.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flow analyses.
+  - <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Równanie siły elektrostatycznej](FEM_EquationElectricforce/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do obliczania sił elektrycznych na powierzchni.
 
--   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Flux equation](FEM_EquationFlux.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform flux analyses.
+  - <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:32px;"> [Równanie magnetodynamiczne](FEM_EquationMagnetodynamic/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz magnetodynamicznych. {{Version/pl|0.21}}
 
--   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Heat equation](FEM_EquationHeat.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform heat transfer analyses.
+  - <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:32px;"> [Równanie magnetodynamiczne 2D](FEM_EquationMagnetodynamic2D/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz magnetodynamicznych 2D. {{Version/pl|0.21}}
 
--   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Solver job control](FEM_SolverControl.md): Opens the menu to adjust and start the selected solver.
+-   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Równanie przepływu](FEM_EquationFlow/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz przepływów.
 
--   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Run solver calculations](FEM_SolverRun.md): Runs the selected solver of the active analysis.
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Równanie strumienia](FEM_EquationFlux/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz strumieni.
+
+-   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Równanie ciepła](FEM_EquationHeat/pl.md): Równanie dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solvera Elmer](FEM_SolverElmer/pl.md) do analiz przepływu ciepła.
+
+-   <img alt="" src=images/FEM_SolverControl.svg  style="width:32px;"> [Kontrola pracy solvera](FEM_SolverControl/pl.md): Otwiera menu do ustawiania i uruchamiania wybranego solvera.
+
+-   <img alt="" src=images/FEM_SolverRun.svg  style="width:32px;"> [Uruchom solver](FEM_SolverRun/pl.md): Uruchamia wybrany solver w aktywnej analizie.
 
 
 
@@ -222,29 +210,31 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtr wizualizacji deformacji](FEM_PostFilterWarp/pl.md): Służy do wizualizacji skalowanego zdeformowanego kształtu modelu.
 
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar.md): Used to clip a field with a specified scalar value.
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtr przycinania skalarnego](FEM_PostFilterClipScalar/pl.md): Służy do przycinania pola wybraną wartością skalarną.
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction.md): Used to display the results on a sphere or a plane cutting through the model.
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Filtr cięcia funkcją](FEM_PostFilterCutFunction/pl.md): Służy do wyświetlania wyników na kuli lub płaszczyźnie przecinającej model.
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion.md): Used to clip a field with a sphere or a plane cutting through the model.
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtr przycięcia obszaru](FEM_PostFilterClipRegion/pl.md): Służy do przycinania pola kulą lub płaszczyzną przechodzącą przez model.
 
--   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Contours filter](FEM_PostFilterContours.md): Used to display iso-lines (for analyses in 2D) or iso-contours. <small>(v0.21)</small> 
+-   <img alt="" src=images/FEM_PostFilterContours.svg  style="width:32px;"> [Filtr konturów](FEM_PostFilterContours/pl.md): Służy do wyświetlania izolinii *(w 2D)* i izokonturów. {{Version/pl|0.21}}
 
--   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine.md): Used to plot the values of a field along a specified line.
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtr przycięcia linią](FEM_PostFilterDataAlongLine/pl.md): Służy do wyświetlania wartości pola wzdłuż wskazanej linii.
 
--   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses.md): Creates a stress linearization plot.
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Wykres linearyzacji naprężeń](FEM_PostFilterLinearizedStresses/pl.md): Tworzy wykres linearyzacji naprężeń.
 
--   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint.md): Used to display value of a selected field at a given point.
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Filtr danych w punkcie](FEM_PostFilterDataAtPoint/pl.md): Służy do wyświetlania wartości wybranego pola we wskazanym punkcie.
 
--   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:" height="32px;"> [Filter functions](FEM_PostCreateFunctions.md): This is an icon menu in the FEM Results toolbar that holds the following commands:
 
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
+### Funkcje filtrowania 
 
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Utwórz funkcję płaszczyzny](FEM_PostCreateFunctionPlane/pl.md): Przecina siatkę wynikową płaszczyzną.
 
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Utwórz funkcję sfery](FEM_PostCreateFunctionSphere/pl.md): Przecina siatkę wynikową kulą.
+
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Utwórz funkcję walca](FEM_PostCreateFunctionCylinder/pl.md): Przecina siatkę wynikową walcem. {{Version/pl|0.21}}
+
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Utwórz funkcję prostopadłościanu](FEM_PostCreateFunctionBox/pl.md): Przecina siatkę wynikową prostopadłościanem. {{Version/pl|0.21}}
 
 
 
@@ -266,6 +256,20 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 
 
 
+## Narzędzia przestarzałe 
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Zdefiniuj przepływ graniczny](FEM_ConstraintFluidBoundary/pl.md): Służy do definiowania warunku brzegowego płynu. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Wiązanie łożyska](FEM_ConstraintBearing/pl.md): Służy do definiowania wiązania łożyska. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Wiązanie koła zębatego](FEM_ConstraintGear/pl.md): Służy do definiowania wiązania koła zębatego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/pl.md): Służy do definiowania wiązania koła pasowego. Niewspierane przez żaden solver, niedostępne w {{VersionPlus/pl|0.22}}.
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solver CalculiX](FEM_SolverCalculiX/pl.md): To samo co <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Narzędzia CalculiX](FEM_SolverCalculixCxxtools/pl.md) z dodatkowymi sprawdzeniami. Narzędzie niedokończone, niedostępne w {{VersionPlus/pl|0.22}}.
+
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Preferencje \...](FEM_Preferences/pl.md): Ustawienia dostępne dla narzędzi środowiska MES w menu Edycja.
@@ -277,6 +281,8 @@ Kroki przeprowadzania analizy metodą elementów skończonych:
 Na kolejnych stronach znajdują się objaśnienia poszczególnych tematów związanych z środowiskiem pracy MES.
 
 [Instalacja środowiska MES](FEM_Install/pl.md): szczegółowy opis jak skonfigurować zewnętrzne programy używane w środowisku pracy.
+
+[Przygotowanie geometrii i siatki MES](FEM_Geometry_Preparation_and_Meshing/pl.md): wskazówki dotyczące przygotowania geometrii dla MES i siatki.
 
 [MES: Siatka](FEM_Mesh/pl.md): dalsze informacje na temat uzyskiwania siatki do analizy metodą elementów skończonych.
 
@@ -306,9 +312,9 @@ Poradnik 7: [Przykład pojemność dwóch kul](FEM_Example_Capacitance_Two_Balls
 
 Sprzężona analiza termiczno-mechaniczna poradnik [openSIM](https://opensimsa.github.io/training.html).
 
-Wideo poradnik 1: [FEM wideo dla początkujących](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) *(w tym link do YouTube)*.
+Wideo poradnik 1: [MES wideo dla początkujących](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499#p158353) *(w tym link do YouTube)*.
 
-Wideo poradnik 2: [FEM wideo dla początkujących](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) *(w tym link do YouTube)*.
+Wideo poradnik 2: [MES wideo dla początkujących](https://forum.freecadweb.org/viewtopic.php?f=18&t=20499&start=10#p162321) *(w tym link do YouTube)*.
 
 Wiele poradników w formie wideo: [anisim Open Source Engineering Software](https://www.youtube.com/channel/UCnvFCm2BbXOVI3ObfXcxXhw), *(w języku niemieckim)*.
 
@@ -316,13 +322,13 @@ Wiele poradników w formie wideo: [anisim Open Source Engineering Software](http
 
 ## Rozszerzenie środowiska pracy MES 
 
-Środowisko pracy MES jest w ciągłym rozwoju. Celem projektu jest znalezienie sposobu na łatwą interakcję z różnymi solverami MES, tak aby użytkownik końcowy mógł usprawnić proces tworzenia, siatkowania, symulacji i optymalizacji problemu projektowego, wszystko w ramach programu FreeCAD.
+Środowisko pracy MES jest w ciągłym rozwoju. Celem projektu jest znalezienie sposobu na łatwą interakcję z różnymi solverami MES, tak aby użytkownik końcowy mógł usprawnić proces tworzenia, generowania siatki, symulacji i optymalizacji problemu projektowego, wszystko w ramach programu FreeCAD.
 
-Poniższe informacje są skierowane do użytkowników i programistów, którzy chcą rozszerzyć środowisko MES na różne sposoby. Oczekiwana jest znajomość C++ i Pythona, a także pewna znajomość systemu \"document object\" używanego w FreeCAD. Informacje te są dostępne na stronach [Centrum Power użytkowników](Power_users_hub/pl.md) i [Centrum programisty](Developer_hub/pl.md). Proszę zauważyć, że ponieważ FreeCAD jest w trakcie aktywnego rozwoju, niektóre artykuły mogą być zbyt stare, a więc przestarzałe. Najbardziej aktualne informacje są omawiane na [forum FreeCAD](https://forum.freecadweb.org/index.php), w sekcji Development. W przypadku dyskusji na temat MES, porad lub pomocy w rozszerzeniu środowiska pracy, czytelnik powinien odnieść się do [forum FEM](https://forum.freecadweb.org/viewforum.php?f=18).
+Poniższe informacje są skierowane do użytkowników i programistów, którzy chcą rozszerzyć środowisko MES na różne sposoby. Oczekiwana jest znajomość C++ i środowiska Python, a także pewna znajomość systemu \"document object\" używanego w FreeCAD. Informacje te są dostępne na stronach [Centrum Power użytkowników](Power_users_hub/pl.md) i [Centrum programisty](Developer_hub/pl.md). Proszę zauważyć, że ponieważ FreeCAD jest w trakcie aktywnego rozwoju, niektóre artykuły mogą być zbyt stare, a więc przestarzałe. Najbardziej aktualne informacje są omawiane na [forum FreeCAD](https://forum.freecadweb.org/index.php), w sekcji Development. W przypadku dyskusji na temat MES, porad lub pomocy w rozszerzeniu środowiska pracy, czytelnik powinien odnieść się do [forum MES](https://forum.freecadweb.org/viewforum.php?f=18).
 
 Poniższe artykuły wyjaśniają, jak można rozszerzyć środowisko pracy, np. poprzez dodanie nowych typów warunków brzegowych *(wiązań)*, czy równań.
 
--   [Rozszerzenie modułu FEM](Extend_FEM_Module/pl.md)
+-   [Rozszerzenie modułu MES](Extend_FEM_Module/pl.md)
 -   [Wprowadzenie do MES dla programistów](Onboarding_FEM_Devs/pl.md) próbuje zorientować nowych twórców, w jaki sposób mogą przyczynić się do rozwoju środowiska pracy MES.
 -   [Dodawanie wiązań w środowisku MES](Add_FEM_Constraint_Tutorial/pl.md)
 -   [Dodawanie równań w środowisku MES](Add_FEM_Equation_Tutorial/pl.md)

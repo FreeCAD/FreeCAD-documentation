@@ -7,6 +7,8 @@ Więcej informacji na temat zaznaczania obiektów znajdziesz na stronie [Metody 
 
 Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przemieszczenie](Std_TransformManip/pl.md).
 
+
+
 ## Wybór stylu nawigacji 
 
 1.  Wykonaj jedną z następujących czynności:
@@ -18,7 +20,13 @@ Więcej informacji na temat manipulowania obiektami znajdziesz na stronie [Przem
 4.  Opcjonalnie zmień **Tryb obracania**. Zobacz [Edytor preferencji](Preferences_Editor/pl.md).
 5.  Jeśli wybrano styl nawigacji **CAD**: opcjonalnie zmień ustawienie **Włącz animację**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 
+
+
 ## Dostępne style nawigacji 
+
+W przypadku wszystkich stylów nawigacji, o ile obiekty nie są wybierane ze szkicu w trybie edycji, należy przytrzymać klawisz **Ctrl**, aby wybrać wiele obiektów.
+
+
 
 ### Blender
 
@@ -39,6 +47,8 @@ Można również przytrzymać lewy i prawy przycisk myszy, a następnie przesun�
 |Rotate_view_text=Przytrzymaj naciśnięty środkowy przycisk myszy, a następnie przesuń kursor.
 }}
 
+
+
 ### CAD
 
 Jest to domyślny styl nawigacji. Pozwala on użytkownikowi na prostą kontrolę widoku i nie wymaga użycia klawiszy klawiatury poza dokonywaniem wielokrotnego wyboru.
@@ -53,11 +63,9 @@ Jest to domyślny styl nawigacji. Pozwala on użytkownikowi na prostą kontrolę
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Naciśnij lewy przycisk myszki nad obiektem, który chcesz wybrać.
-
-Przytrzymanie przycisku **Ctrl** umożliwia wybór wielu obiektów.
-|Pan_text=Trzymając wciśnięty środkowy przycisk myszy, przesuń kursor.
-|Pan_mode_text=Tryb przesuwania: przytrzymaj wciśnięty klawisz **Ctrl**, naciśnij raz prawy przycisk myszy, a następnie przesuń wskaźnik.
-|Zoom_text=Użyj rolki myszy, aby przybliżyć lub oddalić widok.
+|Pan_text=Przytrzymaj środkowy przycisk myszy, a następnie przesuń kursor.
+|Pan_mode_text=Tryb panoramowania: przytrzymaj klawisz **Ctrl**, naciśnij raz prawy przycisk myszy, a następnie przesuń wskaźnik.
+|Zoom_text=Użyj kółka myszy do powiększania i pomniejszania.
 
 Kliknięcie środkowego przycisku myszy ponownie wyśrodkowuje widok na pozycję kursora.
 |Zoom_mode_text=Tryb powiększania: Przytrzymaj wciśnięty klawisz **Ctrl** oraz **Shift** Naciśnij jednokrotnie prawy przycisk myszy, a następnie przesuń wskaźnik.
@@ -73,6 +81,8 @@ W tej metodzie środkowy przycisk myszy może zostać puszczony po naciśnięciu
 
 Użytkownicy, którzy używają myszki prawą ręką, mogą uznać tę metodę za łatwiejszą od metody pierwszej.
 }}
+
+
 
 ### Gesture
 
@@ -103,8 +113,10 @@ Przytrzymaj klawisz **Alt** gdy pracujesz w środowisku [Sketcher](Sketcher_Work
 |Tilt_view_text=Przytrzymaj oba lewy i prawy przycisk myszy, a następnie przesuń kursor na bok. 
 |Tilt_view_gesture_text=Obróć umowną linię utworzoną przez dwa punkty dotyku.
 
-W wersji 0.18 metoda ta jest domyślnie wyłączona. Aby ją uaktywnić, przejdź do **Edit → Preferencje → Display** i odznacz pole wyboru "Disable touchscreen tilt gesture".
+Metoda ta jest domyślnie wyłączona. Aby ją uaktywnić, przejdź do **Edycja → Preferencje ... → Wyświetlanie → Nawigacja** i odznacz pole wyboru "Wyłącz gest obrotu na ekranie dotykowym".
 }}
+
+
 
 ### Maya-Gesture 
 
@@ -125,6 +137,8 @@ Opcjonalnie można użyć kółka myszy, aby powiększyć lub pomniejszyć obraz
 |Rotate_view_text=Przytrzymaj klawisz {**Alt**} i lewy przycisk myszy, a następnie przesuń kursor.
 }}
 
+
+
 ### OpenCascade
 
 Styl nawigacji OpenCascade był wzorowany na [OpenCascade](https://www.opencascade.com/).
@@ -143,6 +157,8 @@ Styl nawigacji OpenCascade był wzorowany na [OpenCascade](https://www.opencasca
 Ewentualnie przytrzymaj klawisz **Ctrl** i lewy przycisk myszy, a następnie przesuń kursor.
 |Rotate_view_text=Przytrzymaj klawisz **Ctrl** i prawy przycisk myszy, a następnie przesuń kursor.
 }}
+
+
 
 ### OpenInventor
 
@@ -166,6 +182,8 @@ Przytrzymaj klawisz **Ctrl**, aby wybrać wiele obiektów.
 Alternatywnie można przytrzymać środkowy przycisk myszy, następnie nacisnąć i przytrzymać lewy przycisk myszy, a następnie przesunąć kursor. 
 |Rotate_view_text=Przytrzymaj naciśnięty lewy przycisk myszy, a następnie przesuń kursor.}}
 
+
+
 ### OpenSCAD
 
 Styl nawigacji w programie OpenSCAD był wzorowany na [OpenSCAD](https://openscad.org/).
@@ -181,11 +199,15 @@ Styl nawigacji w programie OpenSCAD był wzorowany na [OpenSCAD](https://opensca
 |Rotate_view_name=Obróć widok 
 |Shift=**Shift**
 |Select_text=Naciśnij lewy przycisk myszy nad obiektem, który chcesz zaznaczyć.
+
+Przytrzymaj klawisze **Ctrl** i **Shift** podczas naciskania przycisku myszki, aby przeciągnąć obiekt na szkicu w trybie edycji.
 |Pan_text=Przytrzymaj prawy przycisk myszy, a następnie przesuń kursor.
 |Zoom_text=Przytrzymaj środkowy przycisk myszy, a następnie przesuń kursor.
 Ewentualnie przytrzymaj klawisz **Shift** i prawy przycisk myszki, a następnie przesuń kursor.
 |Rotate_view_text=Przytrzymaj lewy przycisk myszki, a następnie przesuń wskaźnik.
 }}
+
+
 
 ### Revit
 
@@ -209,6 +231,8 @@ Można również przytrzymać lewy i prawy przycisk myszy, a następnie przesun�
 Ewentualnie przytrzymaj środkowy przycisk myszy, a następnie naciśnij i przytrzymaj prawy przycisk myszy, po czym przesuń kursor.
 }}
 
+
+
 ### TinkerCAD
 
 Styl nawigacji TinkerCAD był wzorowany na stylu [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
@@ -228,9 +252,11 @@ Styl nawigacji TinkerCAD był wzorowany na stylu [TinkerCAD](https://en.wikipedi
 |Rotate_view_text=Trzymając wciśnięty prawy przycisk myszy, przesuń kursor. 
 }}
 
+
+
 ### Touchpad
 
-W przypadku nawigacji za pomocą panelu dotykowego przesuwanie, powiększanie i obracanie widoku wymaga użycia klawisza modyfikatora przy jednoczesnej obsłudze panelu dotykowego.
+W przypadku nawigacji za pomocą panelu dotykowego przesuwanie, powiększanie i obracanie widoku wymaga użycia klawisza modyfikatora przy jednoczesnej obsłudze panelu dotykowego. This style can also be used with a mouse.
 
 
 {{Touchpad Navigation
@@ -251,9 +277,13 @@ W przypadku nawigacji za pomocą panelu dotykowego przesuwanie, powiększanie i 
 |Rotate_view_alt_text=Alternatywnie, przytrzymaj klawisz **Shift** i lewy przycisk, a następnie przesuń wskaźnik.
 }}
 
+
+
 ## Wspierany sprzęt 
 
 FreeCAD obsługuje również niektóre [urządzenia wejściowe 3D](3D_input_devices/pl.md).
+
+
 
 ## Polecana nawigacja dla macOS 
 
@@ -262,6 +292,8 @@ W komputerach MacBook z gładzikiem nawigacja za pomocą gestów działa bardzo 
 -   Powiększenie: przeciągnij dwoma palcami,
 -   Obrót: przeciągnij trzema palcami,
 -   Przesuwanie: **Ctrl** + trzy palce.
+
+
 
 ## Opracowanie własnego schematu nawigacji 
 

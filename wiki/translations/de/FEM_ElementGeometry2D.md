@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ElementGeometry2D
    Name/de: FEM ElementGeometrie2D
-   MenuLocation: Model , Element-Geometrie , Shell plate thickness
+   MenuLocation: Modell , Element-Geometrie , Schalendicke
    Workbenches: FEM_Workbench/de
    Shortcut: **C** **S**
    SeeAlso: FEM_tutorial/de
@@ -14,23 +14,23 @@
 
 ## Beschreibung
 
-Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von 2D-FEM-Elementen verwendet; alle oder nur die auf einer ausgewählten Oberfläche liegen.
+Ein **ElementGeometry2D**-Objekt wird zum Festlegen der Wandstärke von FEM-Schalenelementen verwendet; für alle oder nur diejenigen, die auf der ausgewählten Oberfläche liegen.
 
 
 
 ## Anwendung
 
 1.  Es gibt mehrereMöglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Shell plate thickness](FEM_ElementGeometry2D/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** auswählen.
-2.  Den Parameter der Wandstärke festlegen.
-3.  Wahlweise die Schaltfläche **Hinzufügen** im Aufgabenbereich drücken und danach auf die Fläche klicken, die eine voreingestellte Wandstärke erhalten soll. Wenn die Flächenauswahl leer ist, werden ihr automatisch alle übrigen Flächen (deren Wandstärke nicht durch andere [ElementGeometry2D](FEM_ElementGeometry2D/de.md)-Objekte festgelegt ist) zugeordnet.
+    -   Die Schaltfläche **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Schalendicke](FEM_ElementGeometry2D/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Schalendicke** auswählen.
+2.  Die Schalendicke festlegen.
+3.  Wahlweise die Schaltfläche **Hinzufügen** im Aufgabenbereich drücken und danach auf die Fläche klicken, die eine voreingestellte Wandstärke erhalten soll. Wenn die Flächenauswahl leer ist, werden automatisch alle übrigen Flächen zugeordnet (deren Wandstärke nicht durch andere [ElementGeometry2D](FEM_ElementGeometry2D/de.md)-Objekte festgelegt ist).
 
 
 
 ## Einschränkungen
 
--   Eine Analyse, die Schalenelemente und Festkörper- oder Kantenelementen kombiniert, wird in der aktuellen Version (FreeCAD 0.18) nicht unterstützt.
+-   Zurzeit werden Analysen, die Schalenelemente mit Festkörper- oder Kantenelementen kombinieren, nicht unterstützt.
 
 
 

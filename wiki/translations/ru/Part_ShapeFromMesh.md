@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Введение
 
 
@@ -25,6 +27,8 @@
 </div>
 
 The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
+
+
 
 ## Применение
 
@@ -55,9 +59,13 @@ The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:
 
 After creation of a [Shape](Shape.md), it may be useful to use **[<img src=images/Part_MakeSolid.svg style="width:16px"> [Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
 
+
+
 ## Ссылки
 
 -   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) video by AllVisuals4U.
+
+
 
 ## Программирование
 

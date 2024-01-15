@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-利用[图像缩放工具可对](Image_Scaling.md)[图像平面工具所导入的图像进行缩放处理](Image_CreateImagePlane.md)。
+利用[图像缩放](Image_Scaling.md)工具可对[图像平面](Image_CreateImagePlane.md)工具所导入的图像进行缩放处理。
 
 
 </div>
@@ -49,4 +49,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/zh-cn
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Scaling/zh-cn

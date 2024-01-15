@@ -10,6 +10,8 @@
 
 # Std LinkImportAll/de
 
+
+
 ## Beschreibung
 
 
@@ -18,6 +20,8 @@
 imports all **Linked Object**s from Links into the current document, and then changes the attachment to point to these imported objects.
 
 This command essentially runs **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)** for all Links in a document.
+
+
 
 ## Anwendung
 

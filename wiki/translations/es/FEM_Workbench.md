@@ -60,13 +60,37 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ### Materiales
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Material para sólidos](FEM_MaterialSolid/es.md): Permite seleccionar un material de la base de datos.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Material para liquidos](FEM_MaterialFluid/es.md): Permite seleccionar un material de la base de datos.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Material mecánico no lineal](FEM_MaterialMechanicalNonlinear/es.md): Permite seleccionar un material de la base de datos.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Material reforzado (hormigón)](FEM_MaterialReinforced/es.md): Le permite seleccionar materiales reforzados compuestos por una matriz y una armadura de la base de datos.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -80,11 +104,29 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 ### Geometría Elementos 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Corte transversal de viga](FEM_ElementGeometry1D/es.md):
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotación de viga](FEM_ElementRotation1D/es.md):
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Espesor de caja de placa](FEM_ElementGeometry2D/es.md):
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -94,17 +136,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Restricciones electrostáticas 
-
-
-</div>
-
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
+### Electromagnetic boundary conditions 
 
 
 <div class="mw-translate-fuzzy">
@@ -114,13 +146,19 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Restricciones Fluido 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -130,15 +168,33 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Restricción de velocidad de flujo](FEM_ConstraintFlowVelocity/es.md): Utilizada para definir una velocidad de flujo como condición de contorno en un borde (2D) o cara (3D).
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Restricciones Geométricas 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Restricción de rotación de plano](FEM_ConstraintPlaneRotation/es.md): Utilizada para definir una restricción de rotación de plano sobre una cara plana.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -148,17 +204,47 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Restricción de transformación](FEM_ConstraintTransform/es.md): Utilizada para definir una restricción de transformación en una cara.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Restricciónes Mecánicas 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Restricción fija](FEM_ConstraintFixed/es.md): Utilizada para definir una restricción fija de un punto/arista/cara.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Restricción de desplazamiento](FEM_ConstraintDisplacement/es.md): Utilizada para definir una restricción desplazamiento de un punto/arista/cara(s).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Restricción de contacto](FEM_ConstraintContact/es.md): Utilizada para definir una restricción de contacto entre dos caras.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -168,45 +254,75 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restricción de fuerza](FEM_ConstraintForce/es.md): Utilizada para definir una fuerza en Newtons aplicada uniformemente a una cara seleccionada en una dirección definida.
-
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restricción de presión](FEM_ConstraintPressure/es.md): Utilizada para definir una restricción de presión
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restricción de peso propio](FEM_ConstraintSelfWeight/es.md): Utilizado para definir una aceleración de gravedad actuando sobre un modelo.
-
-
-
-### Restricciónes Térmicas 
-
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Restricción inicial de temperatura](FEM_ConstraintInitialTemperature/es.md): Utilizado para definir una restricción inicial de temperatura de un cuerpo.
-
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Restricción de flujo de calor](FEM_ConstraintHeatflux/es.md): Utilizado para definir una restricción de flujo de calor sobre una(s) cara(s).
-
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Restricción de temperatura](FEM_ConstraintTemperature/es.md): Utilizado para definir una restricción de temperatura sobre un punto/arista/cara(s).
-
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restricción de cuerpo de fuente de calor](FEM_ConstraintBodyHeatSource/es.md):
-
-
-
-### Restricciones sin solucionador 
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condición límite del fluido](FEM_ConstraintFluidBoundary/es.md):
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restricción de fuerza](FEM_ConstraintForce/es.md): Utilizada para definir una fuerza en Newtons aplicada uniformemente a una cara seleccionada en una dirección definida.
 
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restricción de rodamiento](FEM_ConstraintBearing/es.md): Utilizado para definir una restricción de rodamiento.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Restricción de engrane](FEM_ConstraintGear/es.md): Utilizado para definir una restricción de engrane.
+<div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restricción de polea](FEM_ConstraintPulley/es.md): Utilizado para definir una restricción de polea.
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Restricción de presión](FEM_ConstraintPressure/es.md): Utilizada para definir una restricción de presión
+
+
+</div>
+
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Centrifugal load](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Restricción de peso propio](FEM_ConstraintSelfWeight/es.md): Utilizado para definir una aceleración de gravedad actuando sobre un modelo.
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+### Restricciónes Térmicas 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Restricción inicial de temperatura](FEM_ConstraintInitialTemperature/es.md): Utilizado para definir una restricción inicial de temperatura de un cuerpo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Restricción de flujo de calor](FEM_ConstraintHeatflux/es.md): Utilizado para definir una restricción de flujo de calor sobre una(s) cara(s).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Restricción de temperatura](FEM_ConstraintTemperature/es.md): Utilizado para definir una restricción de temperatura sobre un punto/arista/cara(s).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Restricción de cuerpo de fuente de calor](FEM_ConstraintBodyHeatSource/es.md):
+
+
+</div>
 
 
 
@@ -267,14 +383,6 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX (experimental)](FEM_SolverCalculiX/es.md):
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solucionador Elmer](FEM_SolverElmer/es.md): Crea el controlador del Solucionador para Elmer. Es independiente de otros objetos solucionadores.
 
 
@@ -290,7 +398,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Mechanical equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -302,7 +410,7 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Electromagnetic equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -440,23 +548,15 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 </div>
 
+### Filter functions 
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
--   [Funciones del filtro](FEM_PostCreateFunctions/es.md):
-    -   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;">
-    -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;">
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
 
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
 
-</div>
-
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
-
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
 
 
 
@@ -488,6 +588,30 @@ Crea mallas anisotrópicas para realizar cálculos precisos cerca de los límite
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Mostrar información de la malla MEF](FEM_MeshDisplayInfo/es.md):
 
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condición límite del fluido](FEM_ConstraintFluidBoundary/es.md):
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Restricción de rodamiento](FEM_ConstraintBearing/es.md): Utilizado para definir una restricción de rodamiento.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Restricción de engrane](FEM_ConstraintGear/es.md): Utilizado para definir una restricción de engrane.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Restricción de polea](FEM_ConstraintPulley/es.md): Utilizado para definir una restricción de polea.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Solucionador CalculiX (experimental)](FEM_SolverCalculiX/es.md):
+
+
+</div>
+
 
 
 ## Preferencias
@@ -502,7 +626,15 @@ En las siguientes páginas se explican diferentes temas del ambiente de trabajo 
 
 [MEF Instalación](FEM_Install/es.md): una descripción detallada sobre cómo configurar los programas externos utilizados en el ambiente de trabajo.
 
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): tips regarding geometry preparation for FEM and meshing.
+
+
+<div class="mw-translate-fuzzy">
+
 [Malla en MEF](FEM_Mesh/es.md) más información sobre la obtención de una malla para el análisis de elementos finitos.
+
+
+</div>
 
 [Solucionador MEF](FEM_Solver/es.md): más información sobre los diferentes solvers disponibles en el banco de trabajo, y los que podrían utilizarse en el futuro.
 

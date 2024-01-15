@@ -1,5 +1,5 @@
 # Macro Z height map
-1.  REDIRECT [Macro_Z\_Height_Map](Macro_Z_Height_Map.md)
+1.  REDIRECT [Macro_Z_Height_Map](Macro_Z_Height_Map.md)
 
 
 

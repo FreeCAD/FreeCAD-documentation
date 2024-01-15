@@ -26,7 +26,7 @@ Narzędzie **Wstaw wymiar długości** dodaje wymiar liniowy do widoku. Wymiar m
     -   Wybierz dwa punkty.
     -   Wybierz pojedynczą krawędź prostą.
     -   Wybierz dwie krawędzie. Jeśli obie krawędzie są proste, muszą być równoległe. Spowoduje to utworzenie wymiaru prostopadłego, jeśli punkt końcowy jednej z krawędzi ma rzut prostopadły na drugą krawędź *(punkt wynikowy musi leżeć na rzeczywistej krawędzi)*. Jeśli możliwych jest wiele rozwiązań, używany jest punkt końcowy najbliższy rzutowanemu punktowi. Jeśli nie ma prawidłowego rzutowania prostopadłego, wymiar będzie odległością między najbliższymi punktami końcowymi krawędzi.
-    -   Wybierz punkt i krawędź. Spowoduje to utworzenie wymiaru prostopadłego, jeśli punkt ma rzut prostopadły na rzeczywistą krawędź. W przeciwnym razie wymiar będzie odległością między punktem a najbliższym punktem końcowym krawędzi.
+    -   Wybierz punkt i krawędź. #\* Wybierz punkt i krawędź. Spowoduje to utworzenie wymiaru prostopadłego. W {{VersionMinus/pl|0.21}} wymiar będzie prostopadły tylko wtedy, gdy punkt ma rzut prostopadły na rzeczywistą krawędź. W przeciwnym razie wymiar będzie odległością między punktem a najbliższym punktem końcowym krawędzi.
 2.  Jeśli geometria została wybrana w widoku 3D: dodaj prawidłowy widok do zaznaczenia, wybierając go w oknie [widoku 3D](3D_view/pl.md).
 3.  Istnieje kilka sposobów wywołania narzędzia:
     -   Naciśnij przycisk **<img src="images/TechDraw_LengthDimension.svg" width=16px> '''Wstaw wymiar długości'''**.
@@ -343,9 +343,13 @@ Zobacz [Wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md) aby zapoznać si�
 :   
 
     :   <img alt="Różnice między obsługiwanymi standardami" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+
     :   ISO Oriented - obiekty są rysowane zgodnie z normą ISO 129-1, tekst jest obrócony tak, aby był równoległy do stycznej linii wymiarowej.
+
     :   ISO Referencing - obiekty są rysowane zgodnie z normą ISO 129-1, tekst jest zawsze poziomy, nad najkrótszą możliwą linią odniesienia.
+
     :   ASME Inlined - obiekty są rysowane zgodnie ze standardem ASME Y14.5M, tekst jest poziomy, wstawiany w przerwie w obrębie linii wymiarowej lub łuku.
+
     :   ASME Referencing - obiekty są rysowane zgodnie z ASME Y14.5M, tekst jest poziomy, krótka linia odniesienia jest dołączona do pionowego środka jednej strony.
 
 
@@ -358,10 +362,10 @@ Narzędzie **Wymiar długości** może być używane w [makrodefinicjach](Macros
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::DrawViewDimension", "Dimension")
 dim1.Type = "Distance"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
+dim1.References2D=[(view1, "Edge1")]
+page.addView(dim1)
 ```
 
 

@@ -1,5 +1,10 @@
 # Online Help Toc/es
+<div class="mw-translate-fuzzy">
+
 Esta es la tabla de contenidos usada para construcción automática de el sistema de **ayuda en linea** en FreeCAD. Una versión imprimible de este manual es tambien disponible en la página de [lanzamientos](https://github.com/FreeCAD/FreeCAD/releases). Si tienes alguna pregunta o necesitas ayuda con FreeCAD por favor consulta la [página de ayuda](Help/es.md) incluyendo los foros y grupos de chat.
+
+
+</div>
 
 Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introduction.md).
 
@@ -84,6 +89,9 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
     -   [Creación de interfaces](Interface_creation/es.md)
     -   [Creación de diálogos](Dialog_creation/es.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   Desarrollo
     -   [Licencia](Licence/es.md)
     -   Compilando FreeCAD
@@ -110,6 +118,9 @@ Alli esta otra tabla de contenidos para el [Manual de FreeCAD](Manual_Introducti
         -   [Instalando módulos extra de python](Extra_python_modules/es.md)
     -   [Fuentes de documentación](Source_documentation/es.md)
     -   [API](https://www.freecadweb.org/api/)
+
+
+</div>
 
 -   Créditos
     -   [Contribuciones](Contributors/es.md)

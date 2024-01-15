@@ -20,7 +20,7 @@ Der Befehl **Mesh Dezimieren** verringert die Anzahl der Flächen von Netzobjekt
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Decimating.svg" width=16px> [Mesh Decimating](Mesh_Decimating.md)** button.
+    -   Press the **<img src="images/Mesh_Decimating.svg" width=16px> [Decimation...](Mesh_Decimating.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Decimating.svg" width=16px> Decimation...** option from the menu.
 3.  The **Decimating** task panel opens.
 4.  Specify the **Reduction**:

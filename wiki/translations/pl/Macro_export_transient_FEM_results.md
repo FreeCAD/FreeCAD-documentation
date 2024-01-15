@@ -23,7 +23,7 @@ Run the macro on a FreeCAD project that includes several FEM result objects from
 
 ## How to use (step-by-step with example) 
 
-As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → General → Macro.
+As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → Python → Macro.
 
 With the example file opened, we go to Macro → Macros\..., select \"ExportTransientResults_190830.FCMacro\" (or whatever name you saved it as) and execute it. The macro will now create a subfolder \'vtk-export\' besides the .FCStd file. Depending on the number and size of the result objects, this may take some time. In the Report View (View → Report View), we should see \'Macro finished\', if eveything went fine - or some error messages. (Note: Sometimes messages like \'PropertyFloatList NOT exported to vtk\' appear, but I was able to work with the VTK files anyway\...) In the subfolder \'vtk-export\', we will find .vtu files, one for each result set for each timestamp. Additionally, a .pvd file is created, which tells ParaView which result set belongs to which timestamp.
 

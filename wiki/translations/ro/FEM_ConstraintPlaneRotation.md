@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o constrângere FEM pentru păstrarea nodurilor în același plan
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +36,8 @@ Creează o constrângere FEM pentru păstrarea nodurilor în același plan
 
 </div>
 
+
+
 ## Limite
 
 
@@ -36,6 +48,8 @@ Creează o constrângere FEM pentru păstrarea nodurilor în același plan
 
 
 </div>
+
+
 
 ## Note
 

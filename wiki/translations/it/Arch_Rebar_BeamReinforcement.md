@@ -1,31 +1,24 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_BeamReinforcement
+   Name: Arch Rebar BeamReinforcement
    Name/it: Armatura di trave
-   MenuLocation: Arch , Strumenti armatura , Armatura di trave o 3D/BIM , Reinforcement , Beam Reinforcement
-   Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it, Arch Rebar/it
+   MenuLocation: Arch , Strumenti di armatura , Armatura trave<br>3D/BIM , Reinforcement tools , Armatura trave
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.19
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it
 ---
 
 # Arch Rebar BeamReinforcement/it
 
 
-</div>
 
 ## Descrizione
 
-Lo strumento [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Trave.
+Lo strumento [Armatura trave](Arch_Rebar_BeamReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Trave.
 
-The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
-
-
-<div class="mw-translate-fuzzy">
+Lo strumento [Armatura trave](Arch_Rebar_BeamReinforcement/it.md) è integrato anche nell\'[Ambiente BIM](BIM_Workbench.md).
 
 Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
@@ -33,9 +26,11 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 *Rinforzo di trave all'interno di una [Struttura](Arch_Structure/it.md) trave*
 
+
+
 ## Utilizzo
 
-1\. Seleziona la faccia destra di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** trave precedentemente creata, avente la lunghezza sull\'asse x. Oppure seleziona la faccia anteriore di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** trave precedentemente creata, avente la lunghezza sull\'asse y.
+1\. Seleziona la faccia a destra di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** trave precedentemente creato, avente la lunghezza sull\'asse x. Oppure seleziona la faccia anteriore di un oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** trave precedentemente creata, avente la lunghezza sull\'asse y.
 
 2\. Quindi selezionare **<img src="images/Arch_Rebar_ColumnReinforcement.svg" width=16px> [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md)** dagli Strumenti armatura.
 
@@ -72,19 +67,19 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 :<img src="images/Beam_TopReinforcement_RebarType.png" width=300px>
 
-: Per modificare il valore di Orientamento gancio, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Orientation. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Hook Orientation, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Orientation. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_TopReinforcement_HookOrientation.png" width=300px>
 
-: Per modificare il valore dell'estensione del gancio, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Extension. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Hook Extension, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Extension. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_TopReinforcement_HookExtension.png" width=300px>
 
-: Per modificare il valore dell'arrotondamento della barra, fare clic sul pulsante **Modifica** accanto all'etichetta Rounding. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Rounding, fare clic sul pulsante **Modifica** accanto all'etichetta Rounding. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_TopReinforcement_LRebarRounding.png" width=300px>
 
-: Per modificare il valore di spaziatura dei livelli, fare clic sul pulsante **Modifica** accanto all'etichetta Layer Spacing. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Layer Spacing, fare clic sul pulsante **Modifica** accanto all'etichetta Layer Spacing. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_TopReinforcement_LayerSpacing.png" width=300px>
 }}
@@ -120,15 +115,15 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 :<img src="images/Beam_ShearReinforcement_RebarType.png" width=300px>
 
-: Per modificare il valore di Orientamento gancio, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Orientation. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Hook Orientation, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Orientation. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_ShearReinforcement_HookOrientation.png" width=300px>
 
-: Per modificare il valore dell'estensione del gancio, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Extension. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Hook Extension, fare clic sul pulsante **Modifica** accanto all'etichetta Hook Extension. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_ShearReinforcement_HookExtension.png" width=300px>
 
-: Per modificare il valore dell'arrotondamento della barra, fare clic sul pulsante **Modifica** accanto all'etichetta Rounding. Appare una finestra di dialogo come mostrato di seguito.
+: Per modificare il valore di Rounding, fare clic sul pulsante **Modifica** accanto all'etichetta Rounding. Appare una finestra di dialogo come mostrato di seguito.
 
 :<img src="images/Beam_ShearReinforcement_LRebarRounding.png" width=300px>
 }}
@@ -147,14 +142,13 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 15\. Cliccare **Cancella** per uscire dalla finestra di dialogo.
 
+
+
 ## Proprietà
 
+**Staffe:**
 
-<div class="mw-translate-fuzzy">
-
-**Stirrups:**
-
--    **Left Cover**: a distanza tra l\'estremità sinistra della staffa e la faccia sinistra della struttura - copriferro a sinistra.
+-    **Left Cover**: la distanza tra l\'estremità sinistra della staffa e la faccia sinistra della struttura - copriferro a sinistra.
 
 -    **Right Cover**: la distanza tra l\'estremità destra della staffa e la faccia destra della struttura - copriferro a destra.
 
@@ -162,20 +156,17 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 -    **Bottom Cover**: la distanza tra la staffa e la faccia inferiore della struttura.
 
--    **Offset**: la distanza tra la staffa e la faccia superiore e inferiore della struttura.
+-    **Offset**: la distanza tra la staffa e la faccia selezionata indietro della struttura.
 
 -    **Diameter**: diametro della staffa.
 
 -    **Bent Angle**: l\'angolo dipiega definisce l\'angolo alle estremità di una staffa.
 
--    **Extension Factor**: il fattore di estensione definisce la lunghezza dell\'estremità della staffa, espressa in volte il diametro.
+-    **Extension Factor**: il fattore di estensione definisce la lunghezza dell\'estremità della staffa, espressa in numero di volte il diametro.
 
 -    **Number**: il numero di staffe.
 
 -    **Spacing**: la distanza tra gli assi di ogni staffa.
-
-
-</div>
 
 **Top/Bottom Reinforcement Rebars:** barre di armatura presenti nella parte superiore e inferiore della trave
 
@@ -187,7 +178,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 -    **Hook Extension**: Elenco di tuple di lunghezza del gancio a forma di L delle armature.
 
--    **Rounding**: Elenco di tuple del valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresse in volte il diametro.
+-    **Rounding**: Elenco di tuple del valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresse in numero di volte il diametro.
 
 -    **Layer Spacing**: Elenco di spaziatura tra due strati di rinforzo consecutivi.
 
@@ -201,9 +192,11 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 -    **Hook Extension**: Lista per la lunghezza del gancio a forma di L delle armature.
 
--    **Rounding**: Lista per il valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresse in volte il diametro.
+-    **Rounding**: Lista per il valore di arrotondamento da applicare agli angoli delle armature a forma di L, espresse in numero di volte il diametro.
 
 -    **Rebar Spacing**: Elenco di spaziatura tra due strati di rinforzo consecutivi.
+
+
 
 ## Script
 
@@ -213,6 +206,8 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 [API Arch](Arch_API/it.md), [API di Reinforcement](Reinforcement_API/it.md) e [Basi di script per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 Lo strumento Rinforzo di trave può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
+
+
 
 ### Creare staffe con due ganci 
 
@@ -259,22 +254,22 @@ RebarGroup = makeReinforcement(
 
 ```
 
--   Creates a `RebarGroup` object from the given `structure`, which is an [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
-    -   If no `structure` nor `facename` are given, it will take the user selected face as input.
+-   Crea un oggetto `RebarGroup` da una data `structure`, che è una [Struttura](Arch_Structure/it.md), e da una `facename`, che è una faccia di quella struttura.
+    -   Se non vengono forniti né la `structure` né la `facename`, verrà utilizzata la faccia selezionata dall\'utente come input.
 
--    `l_cover_of_stirrup`, `r_cover_of_stirrup`, `t_cover_of_stirrup`, `b_cover_of_stirrup` and `offset_of_stirrup` are inner offset distances for the stirrup elements with respect to the faces of the structure. They are respectively the left, right, top, bottom and front/rear offsets.
+-    `l_cover_of_stirrup`, `r_cover_of_stirrup`, `t_cover_of_stirrup`, `b_cover_of_stirrup` e `offset_of_stirrup` sono le distanze di offset interne per gli elementi della staffa rispetto alle facce della struttura. Sono rispettivamente gli offset sinistro, destro, superiore, inferiore e anteriore/posteriore.
 
--    `bent_angle`define the angle of the tip of the reinforcement loop of stirrup.
+-    `bent_angle`definisce l\'angolo in punta dell\'anello d\'armatura della staffa.
 
--    `extension_factor`define the length of the tip of the reinforcement loop of stirrup, expressed in times the diameter.
+-    `extension_factor`definisce la lunghezza in punta dell\'anello d\'armatura della staffa, espressa in numero di volte il diametro.
 
--    `dia_of_stirrup`is the diameter of the stirrup.
+-    `dia_of_stirrup`è il diametro della staffa.
 
--    `number_spacing_check`if it is `True` it will create as many stirrup as given by `number_spacing_value`; if it is `False` it will create stirrup separated by the numerical value of `number_spacing_value`.
+-    `number_spacing_check`se è `True` creerà tante staffe quante indicate da `number_spacing_value`; se è `False` creerà una staffa distanziata come nel valore numerico di `number_spacing_value`.
 
--    `number_spacing_value`specifies the number of stirrups, or the value of the separation between them, depending on `number_spacing_check`.
+-    `number_spacing_value`specifica il numero di staffe, o il valore della spaziatura tra di loro, a seconda di `number_spacing_check`.
 
--    `top_reinforcement_number_diameter_offset`and `bottom_reinforcement_number_diameter_offset` are tuple of number_diameter_offset string. Each element of tuple represents reinforcement for each new layer.
+-    `top_reinforcement_number_diameter_offset`e `bottom_reinforcement_number_diameter_offset` sono tuple della stringa number_diameter_offset. Ogni elemento della tupla rappresenta l\'armatura per ogni nuovo livello.
 
    Syntax: (
                "number1#diameter1@offset1+number2#diameter2@offset2+...",
@@ -282,55 +277,54 @@ RebarGroup = makeReinforcement(
                ...,
            )
 
--    `top_reinforcement_rebar_type`and `bottom_reinforcement_rebar_type` specifies type of top/bottom reinforcement bars.
+-    `top_reinforcement_rebar_type`e `bottom_reinforcement_rebar_type` specificano il tipo di barre d\'armatura superiori/inferiori.
 
-   Possible values:
+   Valori possibili:
    1. 'StraightRebar' or 'LShapeRebar'
-', ...) and number of elements of tuple must be equal to number of reinforcement
-      layers.
+', ...) e il numero di elementi della tupla deve essere uguale al numero di strati di rinforzo.
    3. [
 ', ...),
 ', ...),
           ...,
       ]
-      each element of list is a tuple, which specifies rebar type of each reinforcement layer. And each element of
-      tuple represents rabar_type for each set of rebars.
+      ogni elemento della lista è una tupla, che specifica il tipo di armatura di ogni livello di armatura. E ogni elemento della tupla rappresenta rabar_type per ogni insieme di armature.
    4. [
 ,
 ', ...),
           ...,
       ]
 
--    `top_reinforcement_layer_spacing`and `bottom_reinforcement_layer_spacing` is the spacing between two consecutive reinforcement layers.
+-    `top_reinforcement_layer_spacing`e `bottom_reinforcement_layer_spacing` è la spaziatura tra due strati di rinforzo consecutivi.
 
-   Possible values:
+   Valori possibili:
 
-, ...) and number of elements of tuple must be
-      equal to one less than number of layers.
+, ...) e il numero di elementi della tupla deve essere uguale al numero di strati meno uno.
 
--    `left_rebars_number_diameter_offset`and `right_rebars_number_diameter_offset` are string of number_diameter_offset.
+-    `left_rebars_number_diameter_offset`e `right_rebars_number_diameter_offset` sono stringhe di number_diameter_offset.
 
-   Syntax: "number1#diameter1@offset1+number2#diameter2@offset2+..."
+   Sintassi: "number1#diameter1@offset1+number2#diameter2@offset2+..."
 
--    `left_rebars_type`and `right_rebars_type` specifies type of left/right reinforcement bars.
+-    `left_rebars_type`e `right_rebars_type` specificano il tipo di barre d\'armatura sinistra/destra.
 
-   Possible values:
+   Valori possibili:
    1. 'StraightRebar' or 'LShapeRebar'
-', ...) and each element of tuple represents rabar_type for each set of rebars.
+', ...) e ogni elemento della tupla rappresenta rabar_type per ogni insieme di armature.
 
--    `left_rebars_spacing`and `right_rebars_spacing` is clear spacing between consecutive reinforcement bars.
+-    `left_rebars_spacing`e `right_rebars_spacing` sono la spaziatura netta tra barre d\'armatura consecutive.
 
--    `top_reinforcement_l_rebar_rounding`and `bottom_reinforcement_l_rebar_rounding` is the parameter that determines the bending radius of the LShaped top/bottom rebars, expressed as times the diameter. Possible syntax are similar to as discussed above for `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
+-    `top_reinforcement_l_rebar_rounding`e `bottom_reinforcement_l_rebar_rounding` è il parametro che determina il raggio di curvatura delle barre superiori/inferiori a forma di L, espresso come multiplo del diametro. La sintassi possibile è simile a quella discussa sopra per `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
 
--    `top_reinforcement_hook_extension`and `bottom_reinforcement_hook_extension` is the length of hook of LShaped rebars. Possible syntax are similar to as discussed above for `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
+-    `top_reinforcement_hook_extension`e `bottom_reinforcement_hook_extension` sono la lunghezza del gancio delle armature a forma di L. La sintassi possibile è simile a quella discussa sopra per `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
 
--    `top_reinforcement_hook_orientation`and `bottom_reinforcement_hook_orientation` specifies the orientation of LShaped hook; it can be `"Front Inside"`, `"Front Outside"`, `"Rear Inside"` or `"Rear Outside"`. Possible syntax are similar to as discussed above for `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
+-    `top_reinforcement_hook_orientation`e `bottom_reinforcement_hook_orientation` specificano l\'orientamento del hook LShaped; può essere `"Front Inside"`, `"Front Outside"`, `"Rear Inside"` o `"Rear Outside"`. La sintassi possibile è simile a quella discussa sopra per `top_reinforcement_rebar_type` / `bottom_reinforcement_rebar_type`.
 
--    `left_l_rebar_rounding`and `right_l_rebar_rounding` is the parameter that determines the bending radius of the LShaped left/right rebars, expressed as times the diameter. Possible syntax are similar to as discussed above for `left_rebars_type` / `right_rebars_type`.
+-    `left_l_rebar_rounding`e `right_l_rebar_rounding` è il parametro che determina il raggio di curvatura delle barre d\'armatura sinistra/destra a forma di L, espresso come multiplo del diametro. La sintassi possibile è simile a quella discussa sopra per `left_rebars_type` / `right_rebars_type`.
 
--    `left_rebars_hook_extension`and `right_rebars_hook_extension` is the length of hook of LShaped rebars. Possible syntax are similar to as discussed above for `left_rebars_type` / `right_rebars_type`.
+-    `left_rebars_hook_extension`e `right_rebars_hook_extension` è la lunghezza del gancio delle armature a forma di L. La sintassi possibile è simile a quella discussa sopra per `left_rebars_type` / `right_rebars_type`.
 
--    `left_rebars_hook_orientation`and `right_rebars_hook_orientation` specifies the orientation of LShaped hook; it can be `"Front Inside"`, `"Front Outside"`, `"Rear Inside"` or `"Rear Outside"`. Possible syntax are similar to as discussed above for `left_rebars_type` / `right_rebars_type`.
+-    `left_rebars_hook_orientation`e `right_rebars_hook_orientation` specificano l\'orientamento del gancio a forma di L; può essere `"Front Inside"`, `"Front Outside"`, `"Rear Inside"` o `"Rear Outside"`. La sintassi possibile è simile a quella discussa sopra per `left_rebars_type` / `right_rebars_type`.
+
+
 
 #### Esempio
 
@@ -382,15 +376,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
     facename="Face6",
 )
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

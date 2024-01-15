@@ -1,6 +1,7 @@
 # Macro Mouse Cross/fr
 {{Macro/fr
 |Name=Macro_Mouse_Cross
+|Name/fr=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
 |Translate=Macro Mouse Cross
 |Description=Cette macro change la forme de la souris en une croix de précision.
@@ -8,17 +9,19 @@
 |Author=Mario52
 |Version=0.05
 |Date=2020-08-06
-|FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
+|FCVersion=0.18 et au-dessus
+|Download=[https://wiki.freecad.org/images/f/ff/Macro_Mouse_Cross.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro change la forme de la souris en une croix de précision..
+Cette macro change la forme de la souris en une croix de précision.
 
 <img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width:480px;"> 
 *
 Petit exemple d'utilisation de la class '''ViewObserver()''' et de l'utilisation du clavier avec '''[SoKeyboardEvent](Code_snippets/fr#Observation_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md)'''*
+
+
 
 ## Utilisation
 
@@ -30,7 +33,7 @@ Petit exemple d'utilisation de la class '''ViewObserver()''' et de l'utilisation
 
 ## Script
 
-ToolBar icon ![](images/Macro_Mouse_Cross.png )
+Icône de la barre d\'outils ![](images/Macro_Mouse_Cross.png )
 
 **Macro_Mouse_Cross.FCMacro**
 
@@ -202,15 +205,17 @@ except Exception:
 
 }}
 
-### Les curseurs pouvant être utilisés 
+
+
+### Curseurs pouvant être utilisés 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 
 ## Limitations
 
-Le curseur peut changer d\'apparence suivant l\'établi utilisé, il faut alors répéter l'opération.
-Le curseur peut se substituer aux autre curseurs (ex: lors de l\'agrandissement d\'une fenêtre, coins\...).
-La grille est permanente.
+-   Le curseur peut changer d\'apparence en fonction de l\'atelier utilisé, auquel cas la macro doit être exécutée à nouveau.
+-   Le curseur peut être remplacé (par exemple lors de l\'expansion d\'une fenêtre).
+-   La grille est permanente.
 
 
 

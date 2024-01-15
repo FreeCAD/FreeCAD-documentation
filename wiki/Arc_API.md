@@ -73,7 +73,7 @@ Is the type of the FreeCAD object with module domain
 #### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
-					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
+                    approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
@@ -237,7 +237,7 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
-				  arguments: curve/surface (for the intersection), precision (float)
+                  arguments: curve/surface (for the intersection), precision (float)
 
 
 
@@ -395,7 +395,7 @@ Computes the tangent of parameter u on this curve
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
-					toBSpline([Float=First, Float=Last]) -> B-Spline curve
+                    toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
@@ -444,4 +444,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Arc API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Arc API

@@ -15,6 +15,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descriere
@@ -33,6 +35,8 @@ While Python scripts normally have the `.py` extension, FreeCAD macros should ha
 See [Introduction to Python](Introduction_to_Python.md) to learn about the Python programming language, and then [Python scripting tutorial](Python_scripting_tutorial.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) to learn about writing macros.
 
 Here is a video on [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -69,6 +73,8 @@ Besides the tools in the toolbar, the following functions are also available in 
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Locația și destinația mcrocomanzilor 
@@ -79,7 +85,7 @@ Besides the tools in the toolbar, the following functions are also available in 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → General → Macro → Macro recording settings**.
+Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → Python → Macro → Macro recording settings**.
 
 Downloaded macros should also be placed in this directory.
 
@@ -221,6 +227,8 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -469,6 +477,8 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 <div class="toccolours mw-collapsible mw-collapsed">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -688,6 +698,8 @@ todo
 <div class="toccolours mw-collapsible mw-collapsed">
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## The indentation errors examples wrong code 
@@ -723,6 +735,8 @@ This section describes some errors that may be encountered when copying and past
 ```python
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -777,6 +791,8 @@ This error is possible if the user doesn\'t copy the code correctly, and all spa
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **4 :** Here additional space is selected (it can happen) then you need to copy the code into a word processor to remove **one space all lines**
@@ -793,6 +809,8 @@ If an additional space is introduced at the beginning of all lines, the Python i
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -847,6 +865,8 @@ In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection wit
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 **8 :** Here the selection also take the column numbers which will also give an error
@@ -863,6 +883,8 @@ Here the selection also selects the line numbers in the code example. If this se
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -888,6 +910,8 @@ Here the selection also selects the line numbers in the code example. If this se
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 
 <div class="mw-translate-fuzzy">

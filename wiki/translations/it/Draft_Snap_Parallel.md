@@ -1,63 +1,48 @@
-# Draft Snap Parallel/it
 ---
  GuiCommand:
    Name: Draft Snap Parallel
-   Name/it: Parallela
-   MenuLocation: Draft , Draft Snap/it , Parallela
+   Name/it: Draft Aggancia Parallelo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: 
-   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it---
+   SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
+---
+
+# Draft Snap Parallel/it
+
+
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:24px;"> **Draft Aggancia Parallelo** esegue l\'aggancio ad una linea immaginaria parallela ai bordi diritti. I bordi possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
-<div class="mw-translate-fuzzy">
+È possibile fare riferimento a un massimo di 2 (o 8 {{Version/it|0.20}}) bordi con questa opzione di aggancio e [Draft Aggancia Estensioni](Draft_Snap_Extension/it.md), rendendo possibile l\'aggancio alle intersezioni virtuali. Entrambe le opzioni di aggancio possono anche essere combinate con altre opzioni di aggancio.
 
-Questo metodo si aggancia a un punto su una linea immaginaria che è parallela a un altro segmento di linea.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+![](images/Draft_Snap_Parallel_example.png ) 
+*Aggancio del secondo punto di una linea a una linea invisibile che è parallela a un bordo*
 
 
-{{Draft Tools navi/it}}
-
-
-</div>
-
-![](images/Draft_Snap_Parallel_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio del secondo punto di una linea a una linea invisibile che è parallela alla linea di riferimento*
-
-
-</div>
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Parallelo** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Parallel.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Parallel.svg" width=16px> Aggancia Parallelo**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Scegliere un primo punto. Questa opzione di aggancio richiede un punto precedente. La linea di cattura parallela passerà attraverso questo punto.
+6.  Spostare il cursore su un bordo dritto.
+7.  Il bordo viene evidenziato.
+8.  Se ora si sposta il ​​cursore attorno al punto precedente si noterà un effetto \"magnetico\" quando il cursore si trova sulla linea di cattura parallela.
+9.  Il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+10. Fare clic per confermare il punto.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Parallel.svg" width=16px> [Parallela](Draft_Snap_Parallel/it.md)** siano attivati.
-2.  Scegliere <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Linea](Draft_Line/it.md) per disegnare una forma. Inserire il primo punto.
-3.  Passare il cursore sul segmento di linea che si desidera utilizzare come riferimento.
-4.  Allontanare il cursore, cercando di mantenere la stessa pendenza della linea di riferimento fino a quando appare il simbolo di snap.
-5.  Cliccare per agganciare e attaccare il nuovo punto.
+## Preferenze
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

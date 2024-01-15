@@ -2,10 +2,10 @@
  GuiCommand:
    Name: Std LinkSelectLinkedFinal
    Name/pl: Std: Przejdź do najgłębiej połączonego obiektu
-   MenuLocation: brak
+   MenuLocation: Widok , Nawigacja przy użyciu łączy , Przejdź do najgłębiej połączonego obiektu
    Workbenches: wszystkie
    Version: 0.19
-   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectAllLinks/pl, Std_SelBack/pl, Std_SelForward/pl
+   SeeAlso: Std_LinkSelectLinked/pl, Std_LinkSelectAllLinks/pl
 ---
 
 # Std LinkSelectLinkedFinal/pl
@@ -21,9 +21,12 @@ Polecenie **Przejdź do najgłębiej połączonego obiektu** wybiera właściwo�
 ## Użycie
 
 1.  Wybierz łącze.
-2.  Z menu podręcznego [Widoku drzewa](Tree_view/pl.md) wybierz opcję **Akcje z łączami → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> '''Przejdź do najgłębiej połączonego obiektu'''**.
-3.  Połączony obiekt zostanie zaznaczony. Jeśli ten obiekt należy do zewnętrznego dokumentu, dokument ten jest aktywowany.
-4.  Opcjonalnie użyj **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack/pl.md)**, aby ponownie wybrać łacze.
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Wybierz z menu opcję **Widok → Nawigacja łączami → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Przejdź do najgłębiej połączonego obiektu**.
+    -   Wybierz z menu opcję **Akcje z łączami → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Przejdź do najgłębiej połączonego obiektu** z menu kontekstowego [Widoku drzewa](Tree_view/pl.md).
+    -   Użyj skrótu klawiaturowego: **S**, a następnie **D**.
+3.  Wybrany zostanie najgłębiej powiązany obiekt. Jeśli ten obiekt należy do zewnętrznego dokumentu, dokument ten jest aktywowany.
+4.  Opcjonalnie można użyć funkcji <img alt="" src=images/Std_SelBack.svg  style="width:16px;"> [Przywróć zaznaczenie](Std_SelBack/pl.md), aby ponownie wybrać link.
 
 
 

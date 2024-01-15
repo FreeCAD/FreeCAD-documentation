@@ -3,7 +3,7 @@
 
 La [Vue rapport](Report_view/fr.md) est un panneau qui affiche les messages texte des processus FreeCAD. Il est disponible dans **Affichage → Panneaux → Vue rapport**.
 
-Certaines propriétés de la vue, telles que la couleur du texte et son affichage automatiqueOpérations Booléenne en cas d'avertissements ou d'erreurs, peuvent être configurées dans l'onglet **Général → Fenêtre de sortie** de l\'[Éditeur des préférences](Preferences_Editor/fr#Fen.C3.AAtre_de_sortie.md).
+Certaines propriétés de ce panneau, comme la couleur du texte et l\'affichage automatique en cas d\'avertissements ou d\'erreurs, peuvent être configurées dans l'onglet **Général → Vue rapport** de l\'[éditeur des préférences](Preferences_Editor/fr#Vue_rapport.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 

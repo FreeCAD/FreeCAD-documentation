@@ -45,7 +45,7 @@
 
 -   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Документация по созданию скриптов на Python](Std_FreeCADPowerUserHub/ru.md): Открывает wiki страницу с документацией для продвинутых пользователей.
 
--   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the python index of modules in your default Internet browser.
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the Python index of modules in your default Internet browser.
 
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Форум FreeCAD](Std_FreeCADForum/ru.md): Открывает форум FreeCAD.
 

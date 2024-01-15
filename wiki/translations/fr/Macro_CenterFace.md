@@ -1,19 +1,23 @@
 # Macro CenterFace/fr
 {{Macro/fr
 |Name=Macro CenterFace
+|Name/fr=Macro CenterFace
 |Icon=CenterFace.png
-|Description=Cette macro crée un point rouge (éditable) au centre (mass) de la face sélectionnée et affiche ses coordonnées dans la vue rapport.
+|Description=Cette macro crée un point rouge (éditable) au centre de la face (centre de gravité) sélectionnée et affiche ses coordonnées dans la vue rapport.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/1/16/CenterFace.png Icône de la barre d'outils]
 |Version=0.2
 |Date=2018-10-07
 }}
 
 ## Description
 
-Cette macro crée un point rouge (éditable) au centre (mass) de la face sélectionnée et affiche ses coordonnées dans la vue rapport.
+Cette macro crée un point rouge (éditable) au centre de la face (centre de gravité) sélectionnée et affiche ses coordonnées dans la vue rapport.
 
 <img alt="CenterFace" src=images/Macro_CenterFace_00.png  style="width:480px;"> 
 *CenterFace*
+
+
 
 ## Utilisation
 
@@ -29,13 +33,17 @@ blue = 0.0 \#
 
 Le centre de la face et les coordonnées XYZ de ce centre seront affichés dans la vue rapport ainsi que la surface de la face et ses coordonnées.
 
-## Icone
 
-Téléchargez l\'icône pour votre barre d\'outils et copiez le dans votre répertoire de macros.
+
+## Icône
+
+Téléchargez l\'icône pour votre barre d\'outils et copiez la dans votre répertoire de macros.
 
 Cliquez sur l\'image, dans la nouvelle fenêtre faites clic droit de la souris et cliquez \"Enregistrez l\'image sous\...\"
 
 ![Bouton](images/CenterFace.png )
+
+
 
 ## Macro
 

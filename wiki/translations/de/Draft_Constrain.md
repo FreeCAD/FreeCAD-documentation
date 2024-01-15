@@ -1,49 +1,73 @@
 # Draft Constrain/de
 ## Beschreibung
 
-Neben der Eingabe von Koordinaten oder der Verwendung vom [Fangen](Draft_Snap/de.md) gibt es eine Funktion namens Beschränken, um dir zu helfen im <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und dem <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md) sorgfältig zu Zeichnen. Für jeden nachfolgenden Punkt kannst du die Bewegung des Mauszeigers auf die X, Y oder Z Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) beschränken. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
+Neben der Eingabe von Koordinaten oder der Verwendung vom [Einrasten](Draft_Snap/de.md) gibt es eine Funktion namens Beschränken, um zu helfen in den Arbeitsbereichen <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) und <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/de.md) genau zu zeichnen. Für jeden nachfolgenden Punkt kann die Bewegung des Mauszeigers auf die X-, Y- oder Z-Richtung des Koordinatensystems der [Arbeitsebene](Draft_SelectPlane/de.md) eingeschränkt werden. Dies kann zum Beispiel verwendet werden, um eine perfekt vertikale Linie zu erzeugen.
 
-Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Architektur](Arch_Workbench/de.md)-Befehlen verfügbar.
+Das Einschränken steht den meisten Befehlen der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) zur Verfügung.
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
-*Während der Mauszeiger beschränkt ist, sperrt das Aufgabenfeld die Werte, die nicht geändert werden*
+*Während der Mauszeiger eingeschränkt ist, sperrt der Aufgaben-Bereich die Werte, die nicht geändert werden*
+
+
 
 ## Anwendung horizontaler und vertikaler Beschränkungen 
 
-1.  Wähle einen [Entwurf](Draft_Workbench/de.md) oder [Architektur](Arch_Workbench/de.md) Befehl, um deine Geometrie zu erstellen.
-2.  Nimm einen ersten Punkt. Ein vorheriger Punkt ist erforderlich.
-3.  Mache eins von folgendem:
-    -   Für eine horizontale Beschränkung: Bewege den Mauszeiger nach links oder rechts zum vorherigen Punkt.
-    -   Für eine vertikale Beschränkung: Bewege den Mauszeiger über oder unter den vorherigen Punkt.
-4.  Halte **Shift** gedrückt.
-5.  Der Mauszeiger ist jetzt beschränkt.
-6.  Nimm den nächsten Punkt.
-7.  Wenn der Befehl noch aktiv ist: Lasse wahlweise **Shift** los, um die Beschränkung zu deaktivieren.
-8.  Lasse **Shift** immer los, wenn der Befehl beendet ist.
+1.  Einen [Draft-](Draft_Workbench/de.md) oder [Arch-Befehl](Arch_Workbench/de.md) auswählen, um Geometrie zu erstellen.
 
-## Anwendung X, Y und Z Beschränkungen 
+2.  Einen ersten Punkt auswählen. Ein vorausgewählter Punkt ist erforderlich.
 
-1.  Wähle einen [Entwurf](Draft_Workbench/de.md) oder [Architektur](Arch_Workbench/de.md) Befehl, um deine Geometrie zu erstellen.
-2.  Nimm einen ersten Punkt. Ein vorheriger Punkt ist erforderlich.
-3.  Drücke **X**, **Y** oder **Z**, um die Richtung anzugeben.
-4.  Der Mauszeiger ist nun beschränkt.
-5.  Nimm den nächsten Punkt.
-6.  Wenn der Befehl noch aktiv ist, mach wahlweise etwas von folgendem:
-    -   Drücke die gleiche Taste, um die Beschränkung zu deaktivieren.
-    -   Drücke eine der beiden anderen Tasten, um in einer anderen Richtung zu beschränken.
-7.  X-, Y- und Z-Beschränkungen werden automatisch deaktiviert, wenn der Befehl beendet ist.
+3.  Eine der folgenden Möglichkeiten auswählen:
+    -   Für eine Horizontal-Einschränkung: Den Mauszeiger vom vorherigen Punkt aus nach links oder rechts bewegen.
+    -   Für eine vertikale Beschränkung: Den Mauszeiger vom vorherigen Punkt aus nach oben oder unten bewegen.
+
+4.  
+    **Shift**gedrückt halten.
+
+5.  Der Mauszeiger ist jetzt entsprechend eingeschränkt.
+
+6.  Den nächsten Punkt auswählen.
+
+7.  Ist der Befehl noch aktiv: Wahlweise **Shift** loslassen, um die Einschränkung zu deaktivieren.
+
+8.  
+    **Shift**stets loslassen, wenn der Befehl beendet ist.
+
+
+
+## Anwendung X-, Y- und Z-Beschränkungen 
+
+1.  Einen [Draft-](Draft_Workbench/de.md) oder [Arch-Befehl](Arch_Workbench/de.md) auswählen, um Geometrien zu erstellen.
+
+2.  Einen ersten Punkt auswählen. Ein vorausgewählter Punkt ist erforderlich.
+
+3.  
+    **X**, **Y** oder **Z** drücken, um die Richtung festzulegen.
+
+4.  Der Mauszeiger ist jetzt entsprechend eingeschränkt.
+
+5.  Den nächsten Punkt auswählen.
+
+6.  Ist der Befehl noch aktiv: Wahlweise mach wahlweise etwas von folgendem:
+    -   Dieselbe Taste nochmals drücken, um die Einschränkung zu deaktivieren.
+    -   Eine der beiden anderen Tasten drücken, um eine andere Richtung festzulegen.
+
+7.  X-, Y- und Z-Einschränkungen werden automatisch deaktiviert, wenn der Befehl beendet ist.
+
+
 
 ## Hinweise
 
--   Beschränken kann mit [Fangen](Draft_Snap/de.md) kombiniert werden.
--   Der [Entwurf Versatz](Draft_Offset/de.md) Befehl und [Entwurf Trimex](Draft_Trimex/de.md) Befehl verwenden eine andere Art der Beschränkung, nämlich die Beschränkung des Einsatzes auf ein bestimmtes Segment.
+-   Beschränken kann mit [Einrasten](Draft_Snap/de.md) kombiniert werden.
+-   Die Befehle [Draft Versatz](Draft_Offset/de.md) und [Draft Trimex](Draft_Trimex/de.md) verwenden eine andere Art der Beschränkung, nämlich das Beschränken des Einsatzes auf ein bestimmtes Segment.
+
+
 
 ## Einstellungen
 
-Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   Die Standardtaste **Beschränken mod**, **Shift**, kann geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Raster und Fang → Fangen → Beschränken mod**.
--   Die Tastaturkürzel **X**, **Y** und **Z** können geändert werden: **Bearbeiten → Einstellungen... → Entwurf → Benutzeroberflächeneinstellungen → Befehlsinterne Tastaturkürzel**.
+-   Der voreingestellte **Randbedingungs-Modifikator**, **Shift**, kann geändert werden: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten →  Randbedingungs-Modifikator**.
+-   Die Tastaturkürzel **X**, **Y** und **Z** können geändert werden: **Bearbeiten → Einstellungen... → Draft → Schnittstelle → Befehlsinterne Tastaturkürzel**.
 
 
 

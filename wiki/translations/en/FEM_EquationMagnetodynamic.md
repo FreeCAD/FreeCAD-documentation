@@ -34,7 +34,7 @@ The magnetodynamic equation provides these special settings:
 
 ### Magnetodynamic
 
--    **Angular Frequency**: The harmonic actuation frequency. It only used if **Is Harmonic** is set to *true*.
+-    **Angular Frequency**: The harmonic actuation frequency. It is only used if **Is Harmonic** is set to *true*.
 
 -    **Automated Source Projection BCs**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
 
@@ -76,18 +76,18 @@ The magnetodynamic equation provides these special settings:
 
 -    **Calculate Nodal Heating**: Calculates the Joule heating scalar field for every mesh node.
 
-## Constraint Information 
+## Analysis Feature Information 
 
-The magnetodynamic equation takes the following constraints into account if they are set:
+The magnetodynamic equation takes the following analysis features into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density constraint](FEM_ConstraintCurrentDensity.md)
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization constraint](FEM_ConstraintMagnetization.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md)
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md)
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md)
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
 
 ## Results 
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric electric (called **av** in the results) potential is calculated. Otherwise also the corresponding results will be available.
+The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric (called **av** in the results) potential is calculated. Otherwise also the corresponding results will be available.
 
 The possible results are:
 

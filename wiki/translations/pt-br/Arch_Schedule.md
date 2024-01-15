@@ -8,6 +8,8 @@
 
 # Arch Schedule/pt-br
 
+
+
 ## Descrição
 
 The Schedule tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
@@ -18,6 +20,8 @@ The Schedule tool allows you to create and automatically populate a [spreadsheet
 : This tool has been rewritten in FreeCAD 0.17 and differs from previous versions.
 
 For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
+
+
 
 ## Utilização
 
@@ -43,7 +47,7 @@ Then you can fill line by line. Each line is a \"query\" and will render one lin
     -   If you enter `count` (or `Count` or `COUNT`, it\'s case-insensitive) the selected objects will simply be counted.
     -   If you enter an object property the value of this property for each of the selected objects will be retrieved and summed up. Objects that do not have the property will be skipped. Use dot notation to retrieve properties of properties: `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. If the property before the first dot starts with a lowercase letter it will be considered a reference to the object itself and be ignored. Entering for example `object.Shape.Volume` is the same as entering `Shape.Volume`.
 -   **Unit**: An optional unit to express the results in. It\'s up to you to give a unit that matches the query you are doing, for example, if you are retrieving volumes, you should use a volume unit, such as `m^3`. If you use a wrong unit, for ex. cm, you\'ll get wrong results.
--   **Objects**: You can leave this empty, then all the objects of the document will be considered by this query, or give a semicolon (;)-separated list of object names (not labels). If any of the objects in this list is a group, its children will be selected as well. So the easiest way to use this feature is to group your objects meaningfully in the document, and just give a group name here. You can also use the **Selection** button to add objects currently selected in the document.
+-   **Objects**: You can leave this empty, then all the objects of the document will be considered by this query, or give a semicolon (;)-separated list of object names (not labels). If any of the objects in this list is a group, its children will be selected as well. So the easiest way to use this feature is to group your objects meaningfully in the document, and just give a group name here. You can also use the **Add selection** button to add objects currently selected in the document.
 -   **Filter**: Here you can add a semicolon`;`-separated list of filters. Each filter is written in the form: `property:value`. You can only use properties that hold a string value. Both the property and the value are case-insensitive. The `value` can be left out but not the `:`. To properly handle schedules created with previous versions of Arch Schedule the `type` property will be translated to the `ifctype` property. It is advisable to not use `type` in new schedules.
 
 :   For example:

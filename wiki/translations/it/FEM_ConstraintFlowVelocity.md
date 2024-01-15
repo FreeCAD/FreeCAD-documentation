@@ -22,6 +22,7 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 2.  Il [pannello delle azioni](task_panel/it.md) visualizzerà i menu per vincolare la velocità del flusso.
 
     :   ![](images/FEM-constraint-flow-velocity_task-panel.png )
+
     :   
         
 *Sopra: il menu per vincolare la velocità del flusso nella scheda azioni*

@@ -14,6 +14,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -103,8 +105,10 @@ Nástroj Prostor umožňuje definovat prázdný objem, který je buď založen n
 
 ## Options
 
--   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
+-   To create zones that group several spaces, use an [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\".
+-   The Space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -137,7 +141,9 @@ Space = makeSpace(objects=None, baseobj=None, name="Space")
 
 </div>
 
-Příklad: 
+Příklad:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -151,7 +157,9 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-After a space object is created, selected faces can be added to it with the following code: 
+After a space object is created, selected faces can be added to it with the following code:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -165,7 +173,9 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-Boundaries can also be removed, again by selecting the indicated faces: 
+Boundaries can also be removed, again by selecting the indicated faces:
+
+
 ```python
 selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)

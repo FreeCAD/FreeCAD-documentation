@@ -1,35 +1,48 @@
 ---
  GuiCommand:
    Name: FEM ElementRotation1D
-   MenuLocation: Model , Element Geometry , Beam rotation
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: MES: Obrót belki
+   MenuLocation: Model , Geometria elementu , Obrót belki
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ElementRotation1D/pl
 
-## Description
 
-**ElementRotation1D** is used to rotate the beam profile around the axis of beam elements.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementRotation1D.svg" width=16px> [FEM ElementRotation1D](FEM_ElementRotation1D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementRotation1D.svg" width=16px> Beam rotation** option from the menu.
-2.  Specify the angle by which the beam profile is to be rotated.
+**ElementRotation1D** jest używany do obrócenia przekroju poprzecznego belki wokół osi elementów belkowych.
 
-## Options
 
-## Properties
 
-## Limitations
+## Użycie
 
--   Currently multiple rotations are not supported (a single rotation is applied to all beams in the model).
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Obrót belki](FEM_ElementRotation1D/pl.md)** button.
+    -   Wybierz opcję **Model → Geometria elementu → <img src="images/FEM_ElementRotation1D.svg" width=16px> Obrót belki** z menu.
+2.  Podaj kąt obrotu przekroju poprzecznego belki.
 
-## Notes
 
--   To visualize the rotated cross-section it is necessary to set `Beam Shell Result Output 3D` in the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) to `True` and run the analysis.
+
+## Opcje
+
+
+
+## Właściwości
+
+
+
+## Ograniczenia
+
+-   Obecnie nie są wspierane różne obroty w jednym modelu *(jeden obrót jest zadawany na wszystkie belki w modelu)*.
+
+
+
+## Uwagi
+
+-   Aby zwizualizować obrócony przekrój, należy ustawić `Beam Shell Result Output 3D` w [solverze CalculiX](FEM_SolverCalculixCxxtools/pl.md) na wartość {{True/pl}} i uruchomić analizę.
 
 
 

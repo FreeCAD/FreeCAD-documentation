@@ -1,26 +1,41 @@
 ---
  GuiCommand:
    Name: FEM CreateNodesSet
-   MenuLocation: Mesh , Nodes set
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Utwórz zestaw węzłów
+   MenuLocation: Siatka , Zestaw węzłów
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM CreateNodesSet/pl
 
-## Description
 
-## Usage
 
-## Options
+## Opis
 
-## Properties
 
-## Limitations
 
-## Notes
+## Użycie
 
-## Scripting
+
+
+## Opcje
+
+
+
+## Właściwości
+
+
+
+## Ograniczenia
+
+
+
+## Uwagi
+
+
+
+## Skrypty
 
 
 

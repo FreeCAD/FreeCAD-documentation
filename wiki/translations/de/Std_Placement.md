@@ -9,12 +9,16 @@
 
 # Std Placement/de
 
+
+
 ## Beschreibung
 
 Der Befehl **Std Positionierung** zeigt den [ Aufgabenbereich](Task_panel/de.md) Placement für ein ausgewähltes Objekt an.
 
 ![](images/Std_Placement_taskpanel.png ) 
 *Der Aufgabenbereich Placement*
+
+
 
 ## Verwendung
 
@@ -33,9 +37,14 @@ Der Befehl **Std Positionierung** zeigt den [ Aufgabenbereich](Task_panel/de.md)
 
 Der Dialog kann auch durch Klicken auf die Ellipsentaste **...** gestartet werden, die im [Eigenschafteneditor](Property_editor/de.md) erscheint, wenn man auf die {{PropertyData/de|Placement}} klickt.
 
+
+
 ## Hinweise
 
 -   Für weitere Informationen zu den Positionierungsparametern siehe die Seite [Positionierung](Placement/de.md) und und das Tutorium [Flugzeug](Aeroplane/de.md).
+-   Der Drehwinkel kann in der Benutzerschnittstelle (GUI) in Grad eingegeben werden, wird aber intern im Bogenmaß gespeichert, sodass Winkel normalerweise konvertiert werden müssen, wenn sie in Skripten verwendet werden.
+
+
 
 ## Skripten
 
@@ -70,7 +79,11 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Verschiebe den Basispunkt des Objekts und drehe dann das Objekt um 45 Grad um die x-Achse. 
+Verschiebe den Basispunkt des Objekts und drehe dann das Objekt um 45 Grad um die x-Achse.
+
+Das Modul math stellt eine Methode `radians()` zur Verfügung, mit der einfach von Grad in Bogenmaß umgewandelt werden kann und muss als erstes importiert werden.
+
+
 ```python
 import math
 

@@ -56,9 +56,6 @@ W przypadku korzystania z kształtu prostokąta, separatory można dodawać za p
 
 ### Dane
 
-
-<div class="mw-translate-fuzzy">
-
 -    **Tekst**: Tekst do wyświetlenia.
 
 -    **Widok źródłowy**: Widok źródłowy balonu.
@@ -67,11 +64,11 @@ W przypadku korzystania z kształtu prostokąta, separatory można dodawać za p
 
 -    **Odniesienie położenia Y**: Pozycja y początku dymka względem widoku.
 
--    **Typ zakończenia**: Symbol końca linii balonu. Opcje: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Brak, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Wypełniona strzałka, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Otwarta strzałka, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Grot, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Kropka, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Otwarte koło, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Widelec, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Wypełniony trójkąt.
+-    **Typ zakończenia**: Symbol końca linii balonu. Opcje: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Wypełniona strzałka, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Otwarta strzałka, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Grot, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Kropka, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Otwarte koło, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Widelec, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Wypełniony trójkąt, <img alt="" src=images/Arrownone.svg  style="width:20px;"> Brak.
 
 -    **Skala typu zakończenia**: Współczynnik skali dla **Typu zakończenia**.
 
--    **Kształt dymka**: Kształt bańki dymka. Opcje: <img alt="" src=images/Circular.svg  style="width:20px;"> Okrągły, Żaden, <img alt="" src=images/Triangle.svg  style="width:20px;"> Trójkąt, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspekcja, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Sześciokąt, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Kwadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Prostokąt
+-    **Kształt dymka**: Kształt bańki dymka. Opcje: <img alt="" src=images/Circular.svg  style="width:20px;"> Okrągły, Żaden, <img alt="" src=images/Triangle.svg  style="width:20px;"> Trójkąt, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspekcja, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Sześciokąt, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Kwadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Prostokąt.
 
 -    **Skala kształtu**: Współczynnik skali dla **Kształtu**.
 
@@ -82,9 +79,6 @@ W przypadku korzystania z kształtu prostokąta, separatory można dodawać za p
 -    **X**: Poziome położenie dymku względem widoku.
 
 -    **Y**: Pionowe położenie bańki balonu względem widoku.
-
-
-</div>
 
 
 

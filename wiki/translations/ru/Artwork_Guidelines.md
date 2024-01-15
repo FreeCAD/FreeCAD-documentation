@@ -25,11 +25,13 @@
 
 Эта иконка будет отображаться следующим образом:
 
-   
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;">   64 px, исходный размер, крупные кнопки.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;">   32 px, средний размер, стандартные иконки.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;">   16 px, маленький размер, так будет отображаться в [древе проекта](tree_view/ru.md).
-   
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;"> | 64 px, исходный размер, крупные кнопки.                                                     |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;"> | 32 px, средний размер, стандартные иконки.                                                  |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;"> | 16 px, маленький размер, так будет отображаться в [древе проекта](tree_view/ru.md). |
++++
 
 ## Цвета
 

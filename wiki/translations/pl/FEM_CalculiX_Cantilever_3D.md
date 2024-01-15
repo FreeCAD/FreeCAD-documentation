@@ -1,10 +1,10 @@
 ---
- TutorialInfo:
-   Topic: Finite Element Analysis
-   Level: Beginner
-   Time: 10 minutes
+ TutorialInfo:l
+   Topic: Analiza MES
+   Level: Początkujący
+   Time: 10 minut
    Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
-   FCVersion: 0.16.6377 or above
+   FCVersion: 0.16.6377 lub nowszy
 ---
 
 # FEM CalculiX Cantilever 3D/pl
@@ -13,114 +13,138 @@
 
 
 
-## Introduction
 
-This example is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s [FEM Workbench](FEM_Workbench.md) looks like in the FreeCAD interface and how the results can be visualized. It illustrates how to trigger a FEA and how to change the load value and load direction. Furthermore, since the example file is provided with any FreeCAD installation, it a useful and easy check to run for the purpose of ascertaining if the the FEM Workbench is set up properly.
+
+## Wprowadzenie
+
+Ten przykład ma na celu zaprezentowanie jak prosta analiza metodą elementów skończonych *(**MES**)* w [środowisku pracy MES](FEM_Workbench/pl.md) programu FreeCAD wygląda w interfejsie programu i jak można zwizualizować wyniki. Ten przykład ilustruje jak uruchomić analizę i jak zmienić wartość oraz kierunek obciążenia. Ponadto, ponieważ plik przykładu jest dostępny w każdej instalacji programu, jest to przydatne i proste sprawdzenie do uruchomienia dla upewnienia się, że środowisko pracy MES działa prawidłowo.
 
 <img alt="" src=images/FEM_example01_pic10.png  style="width:700px;">
 
-## Requirements
 
--   A compatible version of FreeCAD designated in the tutorial overview.
 
-    :   Use the **Help → About FreeCAD** to see the version of FreeCAD installed
--   No external software is needed for loading the example file, viewing the mesh and geometry as well as for visualizing the results.
--   For rerunning the FEA the solver software CalculiX has to be installed on your computer. Probably the solver has been installed together with FreeCAD already. If the solver CalculiX is not installed see [FEM Install](FEM_Install.md).
+## Wymagania
 
-## Set up the example file 
+-   Kompatybilna wersja programu FreeCAD wskazana w tabeli z informacjami o przykładzie.
 
-### Load the example file 
+    :   Użyj opcji **Pomoc → Informacje o FreeCAD** aby sprawdzić jaka wersja programu jest zainstalowana.
+-   Nie jest wymagane żadne zewnętrzne oprogramowanie aby załadować plik przykładu, obejrzeć siatkę i geometrię oraz zwizualizować wyniki.
+-   Do ponownego uruchomienia obliczeń na komputerze musi być zainstalowany solver CalculiX. Najprawdopodobniej solver ten został już zainstalowany razem z programem FreeCAD. Jeśli tak nie jest, zobacz stronę [Instalacja środowiska MES](FEM_Install/pl.md).
 
--   Start FreeCAD.
--   If the Start Workbench is not activated, load it and open the start page.
--   Open the example \"FemCalculixCantilever3D.FcStd\".
+
+
+## Przygotuj plik przykładu 
+
+
+
+### Załaduj plik przykładu 
+
+-   Uruchom program FreeCAD.
+-   Jeśli nie jest aktywna strona startowa, załaduj i otwórz ją.
+-   Otwórz przykład \"FemCalculixCantilever3D.FcStd\".
 
 <img alt="" src=images/FEM_example01_pic11.png  style="width:700px;">
 
-### Activate the analysis container 
 
--   To work with an analysis the analysis has to be activated.
--   In the [tree view](Tree_view.md), double click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analysis**,
--   or right click on the <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analysis** and choose **Activate analysis**.
+
+### Aktywuj kontener analizy 
+
+-   Do pracy z analizą wymagana jest aktywacja kontenera analizy.
+-   W [widoku drzewa](Tree_view/pl.md) kliknij dwukrotnie na obiekcie <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analiza**,
+-   lub kliknij prawym przyciskiem myszki na obiekcie <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> **Analiza** i wybierz opcję **Aktywuj analizę**.
 
 <img alt="" src=images/FEM_example01_pic12.png  style="width:700px;">
 
-### Analysis container and its objects 
 
--   If the analysis is activated, FreeCAD itself will change the current workbench to FEM.
--   There are at least 5 objects needed to make a static mechanical analysis.
--   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> analysis container
 
-1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> a solver
-2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> a material
-3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> a fixed constraint
-4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> a force constraint
-5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> a FEM mesh
+### Kontener analizy i jego obiekty 
 
--   In this example, results <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> are already included as well.
+-   Po aktywacji analizy FreeCAD sam zmieni środowisko pracy na MES.
+-   Do przeprowadzenia statycznej analizy mechanicznej potrzeba przynajmniej 5 podstawowych obiektów *(lub ich bardziej zaawansowanych odpowiedników)*.
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> kontener analizy,
 
-### Visualizing Results 
+1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> solver,
+2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> materiał,
+3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> warunek brzegowy utwierdzenia,
+4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> obciążenie siłą,
+5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> siatka MES.
 
-1.  Be sure the analysis is activated.
-2.  Be sure the analysis still contains the result object, if not just reload the example file.
-3.  Double click the result object <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">, or select it and click the <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Show result](FEM_ResultShow.md) button in the FEM toolbar.
-4.  In the task window, choose `z-Displacement`. It shows `-86.93 mm` in negative z-direction. This makes sense since the force is in negative z-direction as well.
-5.  Activate the check box besides the bottom slider of displacement show.
-6.  The slider can be used to alter the mesh to view the deformation in a simplified manner.
-7.  Choose among the different Result types to view all in the GUI available result types.
+-   W tym przykładzie, wyniki <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> również są uwzględnione.
+
+
+
+### Wizualizacja wyników 
+
+1.  Upewnij się, że analiza jest aktywna.
+2.  Upewnij się, że analiza nadal zawiera obiekt wyników, jeśli nie to ponownie załaduj plik przykładu.
+3.  Dwukrotnie kliknij na obiekcie wyników <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">bul zaznacz go i wciśnij przycisk <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> [Pokaż wyniki](FEM_ResultShow/pl.md).
+4.  W oknie dialogowym wybierz `Przemieszczenie z`. Pokazuje `-86.93 mm` w kierunku -z. Ma to sens, ponieważ siła też działa w tym kierunku.
+5.  Aktywuj pole przy dolnym suwaku do pokazywania przemieszczeń.
+6.  Suwaka można użyć do wyświetlenia deformacji siatki w prosty sposób.
+7.  Sprawdź różne typy wyników żeby zobaczyć jakie wyniki są dostępne.
 
 <img alt="" src=images/FEM_example01_pic13.png  style="width:400px;">
 
-### Purging Results 
 
-1.  Be sure the analysis is activated.
-2.  To remove the results: select in the icon toolbar the <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purge results](FEM_ResultsPurge.md) button.
 
-### Running the FEA 
+### Czyszczenie wyników 
 
--   In the [tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
--   In the [task panel](Task_panel.md) of the solver object make sure static analysis is selected.
--   Click on **write .inp file** in the same task window. Watch the log window until it prints \"write completed.\"
--   Click on **Run CalculiX**. Since this is a very small analysis it should take less than a second to run.
--   In the text window it should print in green letters \"CalculiX done without error!\" and in the next line \"loading result sets \...\"
--   You just have finished your first FEA in FreeCAD if there has not been any error message.
--   Click on **Close** in the task window.
--   A new result object should be created. You know how to visualize the results already.
--   If you get an error message no solver binary or similar when triggering the analysis check [FEM Install](FEM_Install.md).
+1.  Upewnij się, że analiza jest aktywna.
+2.  Aby usunąć wyniki: wciśnij przycisk <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Usuń wyniki](FEM_ResultsPurge/pl.md).
+
+
+
+### Uruchamianie analizy 
+
+-   W [widoku drzewa](Tree_view/pl.md) kliknij dwukrotnie na obiekcie solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
+-   W [panelu zadań](Task_panel/pl.md) obiektu solvera upewnij się, że analiza statyczna jest zaznaczona.
+-   Wciśnij przycisk **Zapisz plik .inp** w tym samym panelu zadań. Obserwuj okno wiadomości aż pokaże komunikat \"write completed\".
+-   Wciśnij przycisk **Uruchom CalculiX**. Ponieważ analiza jest bardzo mała, powinna trwać mniej niż sekundę.
+-   W polu tekstowym powinien się pojawić zielony komunikat \"CalculiX done without error!\" a w następnej linii \"loading result sets \...\"
+-   Właśnie ukończyłeś swoją pierwszą analizę MES we FreeCAD jeśli nie było żadnych błędów.
+-   Wciśnij przycisk **Zamknij** w oknie dialogowym.
+-   Nowy obiekt wyników powinien być utworzony. Wiesz już jak wizualizować wyniki.
+-   Jeśli podczas uruchamiania analizy pojawi się błąd *no solver binary* lub zbliżony, zajrzyj na stronę [Instalacja środowiska MES](FEM_Install/pl.md).
 
 <img alt="" src=images/FEM_example01_pic14.png  style="width:400px;">
 
-### Running the FEA the fast Way 
 
--   In tree view select the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> of the analysis <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
--   In the icon toolbar click on <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Run solver calculations](FEM_SolverRun.md).
--   The Calculix input file will be written, CalculiX will be triggered and the result object should be created.
 
-### Changing Load Direction and Load Value 
+### Szybkie uruchamianie analizy 
 
--   In the [tree view](Tree_view.md) expand <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results and select the <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh object and press the **Space** key.
-    -   **Result:** The visibility of the FEM mesh will be turned off. The geometrical model is still visible.
--   In the [tree view](Tree_view.md) double click on the <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> FEMConstraintForce object to open its [task panel](Task_panel.md)
--   In the task window change the load value to **500000000 N = 500 MN** (**Note:** force unit in task window has to be in N)
--   On the geometrical model click on one of the long edges in x-direction.
--   Click on the **Direction** button.
-    -   **Result:** The red arrows that illustrate force will change their direction in x-direction. They indicate the force direction.
--   Since tension should be applied to the box the Reverse Direction needs to be triggered by clicking on it.
--   The red arrows of the force will change their direction.
--   Click on **OK** in task window.
+-   W widoku drzewa zaznacz obiekt solvera <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> w obrębie kontenera analizy <img alt="" src=images/FEM_Analysis.svg  style="width:24px;">.
+-   Wciśnij przycisk <img alt="" src=images/FEM_SolverRun.svg  style="width:24px;"> [Uruchom solver](FEM_SolverRun/pl.md).
+-   Plik wejściowy solvera CalculiX zostanie zapisany, CalculiX będzie uruchomiony i pojawi się obiekt wyników.
+
+
+
+### Zmienianie wartości i kierunku działania siły 
+
+-   W [widoku drzewa](Tree_view/pl.md) rozwiń <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> CCX_Results i wybierz obiekt <img alt="" src=images/FEM_MeshResult.svg  style="width:24px;"> ResultMesh a następnie wciśnij klawisz **Spacja**.
+    -   **Efekt:** Widoczność siatki MES zostanie wyłączona. Model geometryczny jest wciąż widoczny.
+-   W [widoku drzewa](Tree_view/pl.md) dwukrotnie kliknij na obiekcie <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> FEMConstraintForce aby otworzyć jego [panel zadań](Task_panel/pl.md)
+-   W oknie dialogowym zmień wartość siły na **500000000 N = 500 MN** (**Uwaga:** jednostką siły w oknie dialogowym musi być \[**N**\])
+-   Wybierz jedną z długich krawędzi w kierunku x na modelu geometrycznym.
+-   Wciśnij przycisk **Kierunek**.
+    -   **Efekt:** Czerwone strzałki symbolizujące siłę zmienią kierunek na x, przedstawiając zmianę kierunku działania siły.
+-   Ponieważ przyłożone ma być obciążenie rozciągające, należy zaznaczyć pole Odwróć kierunek poprzez kliknięcie na nim.
+-   Czerwone strzałki symbolizujące siłę zmienią zwrot.
+-   Wciśnij przycisk **OK** w oknie dialogowym.
 
 <img alt="" src=images/FEM_example01_pic15.png  style="width:700px;">
 
--   You know how to trigger an analysis and how to visualize results already.
--   The deformation in x-direction should be 18.95 mm.
+-   Wiesz już jak uruchomić analizę i zwizualizować wyniki.
+-   Przemieszczenie w kierunku x powinno wynosić 18.95 mm.
 
 <img alt="" src=images/FEM_example01_pic16.png  style="width:400px;">
 
-## What next? 
 
--   We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
--   You are now prepared to do the second [FEM tutorial](FEM_tutorial.md).
--   We will create the CalculiX cantilever by ourselves and compare the results with the beam theory.
+
+## Co dalej? 
+
+-   Ukończyłeś podstawowy przykład dla [środowiska MES](FEM_Workbench/pl.md).
+-   Jesteś gotowy na drugi przykład [Poradnik MES](FEM_tutorial/pl.md).
+-   Utworzymy belkę wspornikową od zera a wyniki porównamy z teorią belek.
 
 
 {{FEM Tools navi

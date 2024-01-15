@@ -430,6 +430,12 @@ squashfs-root> ./usr/bin/freecad
 
 
 
+### Pyzo
+
+Zapoznaj się z treścią strony [artykuł o Pyzo](Pyzo/pl.md).
+
+
+
 ## Debugowanie OpenCasCade 
 
 Dla programistów chcących zagłębić się w kernel OpenCasCade, użytkownik \@abdullah stworzył [wątek](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientacyjny omawiający jak tego dokonać.

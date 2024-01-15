@@ -47,6 +47,12 @@ Tutti questi componenti e il modo appropriato per installarli sono elencati nell
 
 
 
+### Problemi noti specifici del sistema operativo 
+
+Trova i problemi noti specifici del sistema operativo in questa [discussione del forum](https://forum.freecad.org/viewtopic.php?t=30573)
+
+
+
 ### FreeCAD non si avvia affatto 
 
 Potrebbero esserci molte ragioni per questo, la più probabile è che manchi qualche libreria. Prova ad avviare FreeCAD da un terminale (digitare {{SystemInput|freecad}} al prompt del terminale, {{SystemInput|FreeCAD}} su alcuni sistemi) per vedere se appare qualche messaggio di errore. Inoltre, leggi il resto di questa FAQ in quanto può darti più indizi per rilevare la causa del problema. Se nulla aiuta, parlane sul [forum](http://forum.freecadweb.org/), ci sarà sicuramente qualcuno che può aiutarti.

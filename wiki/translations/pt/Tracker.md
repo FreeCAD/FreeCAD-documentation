@@ -165,12 +165,6 @@ The format MantisBT will recognize:
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-## Related
-
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/pt

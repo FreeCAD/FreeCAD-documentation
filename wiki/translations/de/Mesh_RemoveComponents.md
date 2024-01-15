@@ -15,7 +15,7 @@
 
 Der Befehl \"Mesh KomponentenEntfernen\" entfernt Flächen aus Netzobjekten.
 
-![](images/Meshes_RemoveComponents.jpg ) 
+<img alt="" src=images/Meshes_RemoveComponents.jpg  style="width:300px;"> 
 *Der Aufgaben-Bereich Komponenten entfernen*
 
 
@@ -26,7 +26,7 @@ Der Befehl \"Mesh KomponentenEntfernen\" entfernt Flächen aus Netzobjekten.
     -   The **Display Mode** of the mesh objects ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
     -   The **Shape Color** of the mesh objects should not be red.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Mesh RemoveComponents](Mesh_RemoveComponents.md)** button.
+    -   Press the **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Remove components...](Mesh_RemoveComponents.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_RemoveComponents.svg" width=16px> Remove components...** option from the menu.
 3.  The **Remove components** task panel opens.
 4.  Use one or more of the **Select** options to select faces:

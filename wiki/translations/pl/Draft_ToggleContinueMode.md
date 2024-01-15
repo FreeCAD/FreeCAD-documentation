@@ -1,23 +1,28 @@
 ---
  GuiCommand:
    Name: Draft ToggleContinueMode
-   MenuLocation: Utilities , Toggle continue mode
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Przełącz tryb kontynuacji
+   MenuLocation: Narzędzia , Przełącz tryb kontynuacji
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
 ---
 
 # Draft ToggleContinueMode/pl
 
-## Description
 
-The <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Draft ToggleContinueMode** command switches continue mode on or off. Many [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands support this mode. If continue mode is on they will restart after finishing. Continue mode can also be toggled in the task panel of those commands so in practice this command is rarely used.
 
-## Usage
+## Opis
 
-1.  Select the **Utilities → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Toggle continue mode** option from the menu.
-2.  Invoke a command that supports continue mode, [Draft Line](Draft_Line.md) or [Arch Wall](Arch_Wall.md) for example.
-3.  To toggle continue mode in the task panel of the command: press **T** or click the **Continue** checkbox.
-4.  Create your geometry.
-5.  Press **Esc** or the **Close** button to finish the command and switch off continue mode.
+Polecenie <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Przełącz tryb kontynuacji** włącza lub wyłącza tryb kontynuacji. Wiele poleceń środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md) obsługuje ten tryb. Jeśli tryb kontynuacji jest włączony, polecenia uruchomią się ponownie po zakończeniu. Tryb kontynuacji można również przełączać w panelu zadań tych poleceń, więc w praktyce polecenie to jest rzadko używane.
+
+
+
+## Użycie
+
+1.  Wybierz z menu opcję **Narzędzia → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Przełącz tryb kontynuacji**.
+2.  Wywołaj polecenie obsługujące tryb kontynuacji, na przykład [Rysunek Roboczy: Linia](Draft_Line/pl.md) lub [Architektura: Ściana](Arch_Wall/pl.md).
+3.  Aby włączyć tryb kontynuacji w panelu zadań polecenia: naciśnij **T** lub kliknij pole wyboru **Kontynuuj**.
+4.  Utwórz geometrię.
+5.  Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie i wyłączyć tryb kontynuacji.
 
 
 

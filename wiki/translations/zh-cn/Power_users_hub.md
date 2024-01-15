@@ -78,8 +78,8 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 <div class="mw-translate-fuzzy">
 
--   [内建模块是FreeCAD的主体模块](Builtin_modules.md)。里面的工具，可以调整FreeCAD的一般配置、文档和内容。
--   [创建工作台展示给你如何创建自己的工作台](Workbench_creation.md)。
+-   [内建模块](Builtin_modules.md)是FreeCAD的主体模块。里面的工具，可以调整FreeCAD的一般配置、文档和内容。
+-   [创建工作台](Workbench_creation.md)展示给你如何创建自己的工作台。
 
 
 </div>
@@ -91,7 +91,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 ### 网格类工作
 
--   [网格脚本](Mesh_Scripting.md)：怎样与[网格模块交互](Mesh_Workbench.md)。
+-   [网格脚本](Mesh_Scripting.md)：怎样与[网格模块](Mesh_Workbench.md)交互。
 
 
 </div>
@@ -164,7 +164,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 -   [画线函数](Line_drawing_function.md)：如何建造一个简单工具，来画线。
 -   [创建对话](Dialog_creation.md)：如何用Qt设计器来建造对话框，把它们用在FreeCAD里。
 -   [嵌入式FreeCAD](Embedding_FreeCAD.md)：在其他应用里，如何载入FreeCAD，作为一个Python模块。
--   [绘图模块为FreeCAD加入了](Draft_Workbench.md)2D绘图函数。它整个都是用Python写的，所以如果你想写自己的模块，它就是个好例子。
+-   [绘图模块](Draft_Workbench.md)为FreeCAD加入了2D绘图函数。它整个都是用Python写的，所以如果你想写自己的模块，它就是个好例子。
 -   [FreeCAD向量数学程序库](FreeCAD_vector_math_library.md)：几个很顺手的函数，来操控FreeCAD的向量。这个函数库也包含在绘图模块里面了。
 
 

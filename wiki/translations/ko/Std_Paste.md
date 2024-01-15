@@ -32,7 +32,7 @@
 
     -   메뉴에서 **편집 → <img src="images/Std_Paste.svg" width=16px> 붙여넣기** 옵션을 선택합니다.
 
-    -   [트리 보기의](Tree_view/ko.md) 상황에 맞는 메뉴에서 **<img src="images/Std_Paste.svg" width=16px> 붙여넣기** 옵션을 선택합니다. 이 옵션은 기존에 선택한 개체가 있을 때에만 사용할 수 있습니다.
+    -   [트리 보기](Tree_view/ko.md)의 상황에 맞는 메뉴에서 **<img src="images/Std_Paste.svg" width=16px> 붙여넣기** 옵션을 선택합니다. 이 옵션은 기존에 선택한 개체가 있을 때에만 사용할 수 있습니다.
 
     -   단축키를 사용합니다: **Ctrl**+**V**.
 
@@ -52,7 +52,7 @@
 
 ## 환경 설정 
 
--    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**값이 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+-    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**값이 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
 
 
 

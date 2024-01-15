@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM EquationFlow
    Name/pl: MES: Równanie przepływu
-   MenuLocation:  Solwer , Równanie przepływu
+   MenuLocation:  Rozwiąż , Równanie przepływu
    Workbenches: FEM_Workbench/pl
    Version: 0.17
    SeeAlso: 
@@ -10,63 +10,75 @@
 
 # FEM EquationFlow/pl
 
-This equation calculate viscous fluid flows using the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier-Stokes_Equations).
+To równanie analizuje przepływ płynów lepkich przy pomocy [równań Naviera-Stokesa](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Naviera-Stokesa).
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Navier-Stokes Equations*.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Navier-Stokes Equations** *(równania Naviera-Stokesa)*.
 
-## Usage
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationFlow.svg  style="width:24px;"> or the menu **Solve → Flow equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
-## Solver Settings 
+## Użycie
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationFlow.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równanie przepływu** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-The flow equation provides these special settings:
 
--    **Div Discretization**: To be set to *true* for incompressible flow for more stable discretization when the [Reynolds number](https://en.wikipedia.org/wiki/Reynolds_number) increases.
 
--    **Flow Model**: The flow model that should be used. The default *Full* includes convection and time derivative terms in the model. *No convection* switches off the convection terms and the *Stokes* model switches off the convection terms and the (explicit) time derivative terms.
+## Ustawienia solvera 
 
--    **Gradp Discretization**: If set to *true* pressure [Dirichlet boundary conditions](https://en.wikipedia.org/wiki/Dirichlet_boundary_condition) can be used. Also the mass flux is available as a natural boundary condition.
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
--    **Variable**: Optional only for calculations in 2D: You can change the default of *3* to *2*.**Note**: In this case none of the flow velocity constraints can have a specified z-component.
+Równanie przeplywu posiada następujące specjalne ustawienia:
 
-Equation:
+-    **Div Discretization**: Do ustawienia na {{true/pl}} w przypadku przepływu nieściśliwego dla bardziej stabilnej dyskretyzacji gdy rośnie [liczba Reynoldsa](https://pl.wikipedia.org/wiki/Liczba_Reynoldsa).
 
--    **Convection**: The type of convection to be used in the <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [Heat equation](FEM_EquationHeat.md).**Note**: For thermal flows it must be set to *Computed* (the default).
+-    **Flow Model**: Model przepływu jaki powinien być użyty. Domyślne *Full* uwzględnia człony konwekcji i pochodnych po czasie w modelu. *No convection* wyłącza człony konwekcyjne zaś *Stokes* wyłącza człony konwekcyjne i (jawne) człony pochodnych po czasie.
 
--    **Magnetic Induction**: If set to *true* the magnetic induction equation will be solved along with the [Navier-Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations).
+-    **Gradp Discretization**: Jeśli ustawione na {{true/pl}}, może być użyty ciśnieniowy [warunek brzegowy Dirichleta](https://pl.wikipedia.org/wiki/Warunek_brzegowy_Dirichleta). Ponadto, strumień masy jest dostępny jako naturalny warunek brzegowy.
 
-### Notes for Convergence 
+-    **Variable**: Opcjonalne tylko do analiz 2D: Możesz zmienić domyślną wartość *3* na *2*.**Uwaga**: W takim wypadku żaden z warunków brzegowych przepływu nie może mieć wprowadzonej składowej z.
 
-If the solver results do not converge, you can try these things (in the given order):
+Równanie:
 
-1.  Reduce the **Relaxation Factor**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Relaxation_Factor.md).
-2.  Increase the value for **Nonlinear Newton After Iterations**, see the [nonlinear system settings](FEM_SolverElmer_SolverSettings#Nonlinear_System.md).
-3.  Reduce the number of CPU cores used, see the [FEM preferences](FEM_Preferences#Elmer.md).
-4.  Increase the mesh density (make it more fine).
+-    **Convection**: Typ konwekcji do użycia w <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> [równaniu ciepła](FEM_EquationHeat/pl.md).**Uwaga**: Do przepływów termicznych musi być ustawiony na *Computed* (domyślne).
 
-## Constraint Information 
+-    **Magnetic Induction**: Jeśli ustawione na {{true/pl}}, równanie indukcji magnetycznej będzie rozwiązywane razem z [równaniami Naviera-Stokesa](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Naviera-Stokesa).
 
-The electrostatic equation takes the following constraints into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v0.21)</small> )
 
-### Notes
+### Uwagi dotyczące zbieżności 
 
--   Except for calculations in 2D, for all above constraints it is important that they act on a face or body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
--   Since <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) can only be set to faces, pressure constraints cannot be used for calculations in 2D.
--   If there is no <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) set, <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) will only be taken into account if **Gradp Discretization** is set to *true*.
+Jeśli analiza z użyciem tego solvera się nie zbiega, można wypróbować następujące podejścia (w podanej kolejności)ː
 
-## Results
+1.  Zmniejszyć wartość **Relaxation Factor**, zobacz [ustawienia układu nieliniowego](FEM_SolverElmer_SolverSettings/pl#Współczynnik_relaksacji.md).
+2.  Zwiększyć wartość **Nonlinear Newton After Iterations**, zobacz [ustawienia układu nieliniowego](FEM_SolverElmer_SolverSettings/pl#Układ_nieliniowy.md).
+3.  Zmniejszyć liczbę używanych rdzeni procesora, zobacz [preferencje MES](FEM_Preferences/pl#Elmer.md).
+4.  Zwiększyć gęstość siatki.
 
-The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there is no <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) and <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) constraint given, the resulting pressure will be relative not absolute. Since a pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
+
+
+## Informacje o cechach analizy 
+
+Równanie przepływu uwzględnia następujące cechy analizy jeśli są zdefiniowane:
+
+-   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Warunek brzegowy prędkości przepływu](FEM_ConstraintFlowVelocity/pl.md)
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Warunek początkowy prędkości przepływu](FEM_ConstraintInitialFlowVelocity/pl.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md)
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Warunek początkowy ciśnienia](FEM_ConstraintInitialPressure/pl.md) ({{Version/pl|0.21}})
+
+
+
+### Uwagi
+
+-   Poza analizami 2D, dla wszystkich powyższych warunków brzegowych ważne jest to, żeby działały na ścianie lub objętości. Warunki brzegowe w 3D przypisane do linii lub wierzchołków nie będą rozpoznane przez solver Elmer.
+-   Ponieważ <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md) może być zadane tylko na ściany, obciążenia ciśnieniem nie mogą być używane do analiz 2D.
+-   Jeśli nie ma ustawionego żadnego <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [obciążenia ciśnieniem](FEM_ConstraintPressure/pl.md), <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [warunek początkowy ciśnienia](FEM_ConstraintInitialPressure/pl.md) będzie brany pod uwagę tylko jeśli właściwość **Gradp Discretization** jest ustawiona na {{true/pl}}.
+
+
+
+## Wyniki
+
+Wynikiem są prędkość w $\rm m/s$ i ciśnienie w $\rm Pa$. Jeśli nie ma ustawionego żadnego <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [warunku początkowego ciśnienia](FEM_ConstraintInitialPressure/pl.md) ani <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [obciążenia ciśnieniem](FEM_ConstraintPressure/pl.md), wynik ciśnienia będzie względny. Ponieważ ciśnienie musi działać na ścianie, bezwzględnych wyników ciśnienia nie da się uzyskać w przypadku analiz 2D.
 
 
 

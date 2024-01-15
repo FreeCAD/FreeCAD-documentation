@@ -1,9 +1,11 @@
 # Macro MultiCuts/fr
 {{Macro/fr
 |Name=Macro multiCuts
+|Name/fr=Macro multiCuts
 |Icon=multiCuts.png
 |Description=Cette macro améliore la hiérarchie des coupes booléennes en étiquetant automatiquement et en utilisant des copies pour la coupe.
 |Author=Dprojects
+|Download=[https://wiki.freecad.org/images/0/02/MultiCuts.png Icône de la barre d'outils]
 |Date=2022-08-15
 |Version=1.0
 }}
@@ -24,8 +26,8 @@ __Date__    = "2022-08-15"
 __Comment__ = ""
 __Web__ = "https://github.com/dprojects/Woodworking"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_multiCuts"
-__Icon__  = "multiCuts.png"
-__IconW__  = "multiCuts.png"
+__Icon__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
+__IconW__  = "https://wiki.freecad.org/images/0/02/MultiCuts.png"
 __Help__ = "select base object and next objects to cut the base"
 __Status__ = "stable"
 __Requires__ = "freecad 0.20.29177"

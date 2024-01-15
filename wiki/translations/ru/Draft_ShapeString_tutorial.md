@@ -158,13 +158,13 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
 :   13.3. If **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** is active, as soon as you move the pointer close to a vertex, you should see that it attaches to it exactly.
 :   
     **Note:**if you have problems snapping to vertices, make sure only the **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** method is enabled. Having multiple snapping methods active at the same time may make it difficult to select the right feature.
-:   13.4. The extruded text should now be inside the body of the `Fillet` object.
+:   13.4. The extruded text should now be inside the body of the `Chamfer` object.
 
 ![](images/06_T04_Part_ShapeString_move.svg ) 
 *The extruded ShapeString should be moved to the position of the sketched line that lies on the face of the base body.*
 
 ![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
-*Extruded ShapeString positioned in the `Fillet*.`
+*Extruded ShapeString positioned in the `Chamfer*.`
 
 ## Creating engraved text 
 

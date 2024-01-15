@@ -11,7 +11,7 @@
 
 ## Description
 
-Pour une analyse par éléments finis, la géométrie doit être discrétisée en [FEM Maillage](FEM_Mesh/fr.md). Cette commande utilise le programme [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour calculer le maillage.
+Pour une analyse par éléments finis, la géométrie doit être discrétisée en un [maillage FEM](FEM_Mesh/fr.md). Cette commande utilise le logiciel [Gmsh](https://fr.wikipedia.org/wiki/Gmsh) (qui doit être installé sur le système) pour générer le maillage.
 
 En fonction de votre système d\'exploitation et de votre paquetage d\'installation, Gmsh peut être fourni avec FreeCAD ou pas. Pour plus d\'informations voir [FEM Installation des composants requis](FEM_Install/fr.md).
 
@@ -19,14 +19,14 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 ## Utilisation
 
-1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un solide. Un compsolid est nécessaire si votre pièce est composée de plusieurs matériaux. (Un compsolid peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
+1.  Sélectionnez la forme que vous souhaitez analyser. Pour le volume FEM, il doit s\'agir d\'un solide ou d\'un composé de solides (compsolid). Un composé de solides est nécessaire si votre pièce est composée de plusieurs matériaux. (Un composé de solides peut être créé avec la commande [Part Fragments booléens](Part_BooleanFragments/fr.md).)
     -   Appuyez sur le bouton **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [Maillage FEM à partir d'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md)**.
     -   Sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Maillage FEM à partir d'une forme de Gmsh** dans le menu.
-2.  Vous pouvez éventuellement modifier la taille minimale et maximale de l\'élément. (La détection automatique fonctionne correctement, sauf si vous appliquez des conditions aux limites compliquées.)
-3.  Cliquez sur le bouton **Appliquer** et attendez que le calcul du maillage soit terminé.
-4.  Ferme la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
+2.  Vous pouvez éventuellement modifier la taille minimale et maximale des éléments (l\'autodétection crée souvent des maillages trop grossiers).
+3.  Cliquez sur le bouton **Appliquer** et attendez que la génération du maillage soit terminée.
+4.  Fermez la tâche. Vous devriez maintenant voir un nouvel objet FEMMeshGMSH dans votre conteneur d\'analyse active.
 
-Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir la boîte de dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
 
 
 
@@ -110,7 +110,7 @@ Au niveau des bords et des petites entités géométriques, le maillage doit êt
 Pour permettre une croissance raisonnable du maillage, vous devez dans ce cas ajouter un bord à la zone. Dans l\'exemple, il s\'agit d\'un cercle au milieu du cylindre. Le cercle est ajouté dans le cadre d\'un composé [Part Fragments booléens](Part_BooleanFragments/fr.md) (pour former un CompSolid), voir l\'exemple de [the project file](https://forum.freecadweb.org/download/file.php?id=146255).
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
-*Croissance notable du maillage grâce à l'arête supplémentaire au milieu de l'arête cylindrique.*
+*Croissance notable du maillage grâce à l'arête supplémentaire au milieu de la région cylindrique*
 
 
 

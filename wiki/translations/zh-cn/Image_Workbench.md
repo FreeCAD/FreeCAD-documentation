@@ -1,6 +1,6 @@
 # Image Workbench/zh-cn
 **The '''Image Workbench''' is no longer included after version 0.20.<br>
-It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+Its functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
 
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
 
@@ -14,7 +14,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 
 
 
-[图像工作台用于管理不同类型的](Image_Workbench.md)[位图图像](bitmap.md)，用户可借此在FreeCAD中打开这些图像。
+[图像工作台](Image_Workbench.md)用于管理不同类型的[位图](bitmap.md)图像，用户可借此在FreeCAD中打开这些图像。
 
 
 
@@ -34,7 +34,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 
 ## 特性
 
--   与[草图相似](Sketcher_Workbench.md)，我们可将导入的图像附于XY，XZ或YZ主平面之一，并为之调整正、负偏移值。
+-   与[草图](Sketcher_Workbench.md)相似，我们可将导入的图像附于XY，XZ或YZ主平面之一，并为之调整正、负偏移值。
 -   导入图像的比例关系为1像素:1毫米。
 -   建议导入具有合理分辨率的图像。
 
@@ -45,7 +45,7 @@ It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import
 
 ## 工作流程
 
-图形工作台的一个主要用途就是借助[底图或](Draft_Workbench.md)[草图工具对目标图像进行描边](Sketcher_Workbench.md)，即为了基于目标图像的轮廓来生成对应实体。
+图形工作台的一个主要用途就是借助[底图](Draft_Workbench.md)或[草图](Sketcher_Workbench.md)工具对目标图像进行描边，即为了基于目标图像的轮廓来生成对应实体。
 
 
 </div>

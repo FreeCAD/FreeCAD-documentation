@@ -1,32 +1,37 @@
 ---
  GuiCommand:
    Name: FEM PostFilterWarp
-   MenuLocation: Results , Wrap filter
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   Name/pl: Filtr wizualizacji deformacji
+   MenuLocation: Wyniki , Filtr wizualizacji deformacji
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_tutorial/pl
 ---
 
 # FEM PostFilterWarp/pl
 
-## Description
 
-Displays the deformed shape of the model using a specified scale factor. Therefore a warp filter only has an effect for result vectors that deform the shape.
 
-The result will be the same like with the *Displacement* slider of the [result show](FEM_ResultShow.md) dialog with the difference that the displacement is for the Warp filter in the SI unit meter. For example if you use a [unit system](Preferences_Editor#Units.md) where the length unit is mm and set a displacement factor of 100 in the [result show](FEM_ResultShow.md) dialog, you need to set for the Warp filter a factor of 100.000 to get the same result.
+## Opis
+
+Wyświetla zdeformowany kształt modelu używając podanego współczynnika skali. Zatem filtr wizualizacji deformacji ma wpływ tylko na wektory wyników, które deformują siatkę.
+
+Rezultat będzie taki sam jak w przypadku suwaka *Przemieszczenie* w oknie dialogowym [obiektu wyników](FEM_ResultShow/pl.md) z tą różnicą, że przemieszczenie dla filtra wizualizacji deformacji jest w metrach. Przykładowo, jeśli używasz [układu jednostek](Preferences_Editor/pl#Jednostki.md), w którym jednostką długości jest mm i ustawisz współczynnik deformacji 100 w oknie dialogowym [obiektu wyników](FEM_ResultShow/pl.md), musisz ustawić współczynnik 100.000 dla filtra wizualizacji deformacji żeby uzyskać ten sam efekt.
 
 ![](images/FEM_Warp-Filter-Example.gif )
 
-*A warp filter of the displacement of a beam clamped on one side.*
+*Filtr wizualizacji deformacji w przypadku belki wspornikowej.*
 
-## Usage
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md).
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterWarp.svg" width=16px> '''Warp filter'''** button.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterWarp.svg" width=16px> Warp filter**.
-3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Warp Filter.
-4.  Specify the **Warp factor** directly or use the slider to set it. The **Min warp** and **Max warp** fields allow you to adjust the range of the slider.
-5.  Click the **OK** button to finish the command.
+
+## Użycie
+
+1.  Zaznacz wcześniej utworzony [obiekt prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md).
+2.  Wywołaj polecenie poprzez:
+    -   Wciśnięcie przycisku **<img src="images/FEM_PostFilterWarp.svg" width=16px> '''Filtr wizualizacji deformacji'''**.
+    -   Wybranie opcji **Wyniki → <img src="images/FEM_PostFilterWarp.svg" width=16px> Filtr wizualizacji deformacji** z menu.
+3.  Dostosuj **Opcje wyświetlania wyników** tak jak dla [obiektu prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md). Ukryj obiekt prezentacji graficznej wyników żeby zobaczyć efekty filtra wizualizacji deformacji.
+4.  Podaj **Współczynnik deformacji geometrii** bezpośrednio lub użyj suwaka żeby go ustawić. Pola **Min. deformacja geometrii** i **Max. deformacja geometrii** pozwalają Ci dostosować zakres suwaka.
+5.  Wciśnij przycisk **OK** aby zakończyć polecenie.
 
 
 

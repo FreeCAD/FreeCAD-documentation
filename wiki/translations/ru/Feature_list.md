@@ -13,6 +13,9 @@
 
 ## Информация о версиях 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Release 0.20](Release_notes_0.20/ru.md) - Июнь 2022
 -   [Release 0.19](Release_notes_0.19/ru.md) - Март 2021
 -   [Release 0.18](Release_notes_0.18/ru.md) - Март 2019
@@ -23,6 +26,9 @@
 -   [Release 0.13](Release_notes_0.13/ru.md) - Январь 2013
 -   [Release 0.12](Release_notes_0.12/ru.md) - Декабрь 2011
 -   [Release 0.11](Release_notes_0.11/ru.md) - Март 2011
+
+
+</div>
 
 
 

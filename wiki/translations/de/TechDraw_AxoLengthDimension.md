@@ -13,74 +13,47 @@
 
 ## Beschreibung
 
+Das Werkzeug **TechDraw AxonometrischesLängenmaß** fügt einer axonometrischen Ansicht ein Längenmaß hinzu. Das Maß kann die Länge einer Kante oder der Abstand zwischen zwei Punkten sein.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw AxonometrischesLängenmaß** fügt einer axonometrischen Ansicht ein Längenmaß hinzu. Das Maß kann die Länge einer Kante oder der Abstand zwischen zwei Eckpunkt sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_AxoLengthDimensionExample.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDraw_AxoLengthDimensionExample.png  style="width:300px;"> 
 *Axonometrische Längenmaße basierend auf einer Kante (blau) und zwei Punkten (rot)*
-
-
-</div>
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Mache eines der Folgenden:
-    -   Wähle zwei Kanten (e1 und e2 im Bild). Die erste Kante definiert die Richtung der Bemaßung und die Länge des gemessenen Abstandes. Die zweite Kante definiert die Richtung der Maßlinien.
-    -   Wähle zwei Kanten (e3 und e4 im Bild) und zwei Punkte (v1 und v2 im Bild). Die erste Kante definiert die Richtung der Bemaßung. Die zweite Kante definiert die Richtung der Maßlinien. Die Punkte bestimmen den gemessenen Abstand.
-2.  Wähle die **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Axonometric length dimension](TechDraw_AxoLengthDimension.md)** Schaltfläche.
-3.  Eine axonometrische Bemaßung wird in die Ansicht eingefügt. Die Bemaßung kann an die gewünschte Position bewegt werden.
-4.  Falls notwendig können Toleranzen wie [auf dieser Seite](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md) beschrieben eingefügt werden.
-
-
-</div>
+1.  Eine der folgenden Möglichkeiten auswählen:
+    -   Zwei Kanten (e1 und e2 im Bild) auswählen. Die erste Kante definiert die Ausrichtung der Maßlinie und den gemessenen Abstand. Die zweite Kante definiert die Ausrichtung der Maßhilfslinien.
+    -   Zwei Kanten (e3 und e4 im Bild) und zwei Punkte (v1 und v2 im Bild) auswählen. Die erste Kante definiert die Ausrichtung der Maßlinie. Die zweite Kante definiert die Ausrichtung der Maßhilfslinien. Die Punkte bestimmen den gemessenen Abstand.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Axonometrisches Längenmaß](TechDraw_AxoLengthDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Axonometrisches Längenmaß** auswählen.
+3.  Ein axonometrisches Längenmaß wird zur Ansicht hinzugefügt.
+4.  Das Maß kann an die gewünschte Position gezogen werden.
+5.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-### Display 3D measurement 
+### 3D-Abmessungen anzeigen 
 
-
-</div>
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#3D-Abmessungen_anzeigen.md).
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+
+<small>(v0.22)</small> 
+
+: When dimensioning edges parallel to the global coordinate system axes, the actual (3D) value is calculated automatically and inserted into the dimension label as a text.
 
 
 </div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-### Change properties 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+### Eigenschaften anpassen 
 
 Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog [Maßeintrag](TechDraw_LengthDimension/de#Dialog_Maßeintrag.md) geöffnet.
-
-
-</div>
 
 
 

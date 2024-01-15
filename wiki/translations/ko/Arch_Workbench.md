@@ -1,7 +1,4 @@
-# Arch Workbench/ko
-{{docnav/ko|[Workbenches/ko](Workbenches/ko.md)|[Draft Module/ko](Draft_Module/ko.md)|IconL=|IconR=Workbench_Draft.svg}}
-
-<img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:128px;">
+# <img alt="Arch workbench icon" src=images/Workbench_Arch.svg  style="width:64px;"> Arch Workbench/ko
 
 
 
@@ -128,8 +125,6 @@ These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -167,6 +162,10 @@ These are additional tools to help you in specific tasks.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 
 

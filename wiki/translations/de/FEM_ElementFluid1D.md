@@ -13,19 +13,19 @@
 
 ## Beschreibung
 
-Erstellt einen FEM-Strömungsabschnitt für pneumatische oder Hydraulische Anlagen
+Erstellt einen FEM-Strömungsabschnitt für pneumatische oder hydraulische Anlagen
 
 
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Fluid section for 1D flow](FEM_ElementFluid1D/de.md)** drücken.
-    -   Den Menüeintrag **Model → Element-Geometrie → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow** auswählen.
-2.  Select Fluid type: Liquid, Gas or Open Channel
-3.  Select Section type: Pipe Manning, Pipe Inlet etc.
-4.  Enter Section type parameters.
-5.  Select and add edge.
+    -   Die Schaltfläche **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Fluid-Abschnitt für 1D-Strömung](FEM_ElementFluid1D/de.md)** drücken.
+    -   Den Menüeintrag **Model → Element-Geometrie → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid-Abschnitt für 1D-Strömung** auswählen.
+2.  Art des Fluids auswählen: Flüssigkeit, Gas oder Open Channel (offenes Gerinne?)
+3.  Art des Abschnitts auswählen: Pipe Manning, Einlassrohr usw.
+4.  Parameter der Abschnittsarten eingeben.
+5.  Kante auswählen und hinzufügen.
 
 
 

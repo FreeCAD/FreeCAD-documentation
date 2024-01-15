@@ -107,7 +107,7 @@ Security → Edit → Users and mark all checkboxes under \'Allow\' option.
 -   Wiki di FreeCAD: [Pagina principale Wiki](https://wiki.freecadweb.org/Main_Page)
 -   Forum di FreeCAD: [EaglePCB importer for FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=9&t=5107)
 -   Tutorial:
--   Video: [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Video: [EaglePCB_2_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Archivio: [PCB biblioteca](https://github.com/marmni/FreeCAD-PCB-library)
 -   Segnalazione di bug: Si prega di segnalare i bug a <https://github.com/marmni/FreeCAD-PCB/issues>
 

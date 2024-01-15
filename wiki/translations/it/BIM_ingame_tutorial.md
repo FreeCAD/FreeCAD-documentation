@@ -3,7 +3,9 @@
 
 {{BIMTutorialAction|descr=This is the in-game tutorial of the [BIM Workbench](BIM_Workbench.md). It is not meant to be read here on the wiki, but rather to be started from inside FreeCAD, in the BIM workbench, under menu '''Help -> BIM tutorial'''. It includes a series of steps to be completed by the user. Each step is terminated by an instance of the [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template_BIMTutorialAction.md) template, which informs of the condition that need to be met. Images should be 300px wide. No SVG images should be used on this page, as they are not supported by the QTextBrowser widget}}
 
-### Welcome to the BIM workbench! 
+
+
+### Benvenuti nell\'ambiente BIM! 
 
 <img alt="" src=images/BIM_Tutorial_title.jpg  style="width:300px;">
 

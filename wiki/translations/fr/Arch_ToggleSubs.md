@@ -18,6 +18,8 @@ Normalement, si un objet Arch, comme un [Arch Mur](Arch_Wall/fr.md), est sélect
 
 Avec cet outil, les objets soustraits internes deviendront tous visibles ou masqués.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un objet Arch qui contient des soustractions
@@ -26,7 +28,7 @@ Avec cet outil, les objets soustraits internes deviendront tous visibles ou masq
 
 ## Options
 
-La couleur d\'un élément de soustraction peut suivre le style des éléments [Draft Construction](Draft_ToggleConstructionMode.md), en activant l\'option appropriée dans les [Arch Préférences](Arch_Preferences/fr.md), dans le menu **Edition → Préférences → Arch → Paramètres généraux → Appliquer le style de construction aux sous-composants**.
+La couleur d\'un élément de soustraction peut suivre le style des éléments [Draft Construction](Draft_ToggleConstructionMode.md), en activant l\'option appropriée dans les [Arch Préférences](Arch_Preferences/fr.md), dans le menu **Édition → Préférences → Arch → Paramètres généraux → Appliquer le style de construction aux sous-composants**.
 
 Le style de [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) peut être défini dans les [Draft Préférences](Draft_Preferences/fr.md) dans le menu **Préférences → Draft → Paramètres généraux**.
 

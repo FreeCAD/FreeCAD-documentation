@@ -15,16 +15,19 @@
 
 ## Description
 
-The Space tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
+The Space tool allows you to define an empty volume, either by basing it on a solid shape, or by defining its boundaries, or a mix of both. If it is based solely on boundaries, the volume is calculated by starting from the bounding box of all the given boundaries, and subtracting the spaces behind each boundary. The Space object always defines a solid volume. The floor area of a space object, calculated by intersecting a horizontal plane at the center of mass of the space volume, can also be displayed.
 
-<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
+
+
+
 *Space object created from an existing solid object, then two wall faces are added as boundaries.*
 
 ## Usage
 
 1.  Select an existing solid object, or faces on boundary objects.
 2.  Invoke the Arch Space command using several methods:
-    -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [[Arch Space]]** button in the toolbar.
+    -   Pressing the **<img src="images/Arch_Space.svg" width=16px> [Arch Space](Arch_Space.md)** button in the toolbar.
     -   Using the **S** then **P** keyboard keys
     -   Using the **Arch → Space** entry from the top menu
 
@@ -87,8 +90,8 @@ The Space tool allows you to define an empty volume, either by basing it on a so
 
 ## Options
 
--   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
+-   To create zones that group several spaces, use an [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\".
+-   The Space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
 
 ## Scripting
 
@@ -97,17 +100,21 @@ The Space tool allows you to define an empty volume, either by basing it on a so
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Space tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Space tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Space = makeSpace(objects=None, baseobj=None, name="Space")
 ```
 
 -   Creates a `Space` object from the given `objects` or `baseobj`, which can be
-    -   one document object, in which case it becomes the base shape of the space object, or
+    -   one document object, in which case it becomes the base shape of the Space object, or
     -   a list of selection objects as returned by `FreeCADGui.Selection.getSelectionEx()`, or
     -   a list of tuples `(object, subobjectname)`
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -121,7 +128,9 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-After a space object is created, selected faces can be added to it with the following code: 
+After a space object is created, selected faces can be added to it with the following code:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -135,7 +144,9 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-Boundaries can also be removed, again by selecting the indicated faces: 
+Boundaries can also be removed, again by selecting the indicated faces:
+
+
 ```python
 selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)

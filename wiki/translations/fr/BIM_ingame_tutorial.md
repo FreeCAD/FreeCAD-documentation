@@ -140,7 +140,7 @@ Ces outils produisent des objets annotatifs tels que des cotes, des textes, des 
 
 #### Accrochage
 
-Ces outils activent/désactivent les [accrochages](Draft_Snap/fr.md). Comme dans la plupart des applications BIM, chaque position d\'accrochage supplémentaire ajoute du temps de calcul lors du dessin, il est donc préférable de ne garder que celles dont vous avez besoin activées.
+Ces outils activent/désactivent les positons [aimantées](Draft_Snap/fr.md). Comme dans la plupart des applications BIM, chaque position d\'aimantation supplémentaire ajoute du temps de calcul lors du dessin, il est donc préférable de ne garder que celles dont vous avez besoin activées.
 
 
 
@@ -173,7 +173,7 @@ Réglez maintenant le plan de travail en mode \"Haut\":
 
 <img alt="" src=images/BIM_Tutorial_06.jpg  style="width:300px;">
 
-Les [outils d\'accrochage](Draft_Snap/fr.md) vous permettent de placer de nouveaux objets et points précisément en fonction de la géométrie existante. Cependant, l\'activation de nombreux emplacements d\'accrochage peut ralentir les opérations de dessin, il est donc judicieux de n\'activer que les outils d\'accrochage que vous souhaitez utiliser. Prenez un moment pour passer en revue ce que chacun d\'eux fait, afin que, si nécessaire, vous saurez lequel peut être désactivé.
+Les [outils d\'aimantation](Draft_Snap/fr.md) vous permettent de placer de nouveaux objets et points précisément en fonction de la géométrie existante. Cependant, l\'activation de nombreux emplacements d\'aimantation peut ralentir les opérations de dessin, il est donc judicieux de n\'activer que les outils d\'aimantation que vous souhaitez utiliser. Prenez un moment pour passer en revue ce que chacun d\'eux fait, afin que, si nécessaire, vous saurez lequel peut être désactivé.
 
 <img alt="" src=images/BIM_Tutorial_07.jpg  style="width:300px;">
 

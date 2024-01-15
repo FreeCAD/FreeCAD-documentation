@@ -32,4 +32,4 @@ Insert a view of a Part in a raytracing project.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart
+⏵ [documentation index](../README.md) > Raytracing InsertPart

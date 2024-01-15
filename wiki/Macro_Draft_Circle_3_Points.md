@@ -33,7 +33,7 @@ If all of the selected objects have their equal Z coordinates (xy **Z5**, xy **Z
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Draft_Circle_3\_Points.FCMacro**
+**Draft_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=

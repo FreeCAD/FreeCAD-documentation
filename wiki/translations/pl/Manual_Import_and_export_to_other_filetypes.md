@@ -1,39 +1,38 @@
 # Manual:Import and export to other filetypes/pl
 {{Manual:TOC}}
 
-FreeCAD can import and export to many filetypes. Here is a list of the most important ones with a short description of the available features:
+FreeCAD może importować i eksportować projekty do wielu formatów plików. Oto lista najważniejszych z nich wraz z krótkim opisem dostępnych funkcji:
 
-  Format   Import   Export   Notes
+  Format   Import   Eksport   Uwagi
      
-  STEP     Yes      Yes      This is the most faithful import/export format available, since it supports solid geometry and NURBS. Use it whenever it is possible.
-  IGES     Yes      Yes      An older solid format, also very well supported. Some older applications don\'t support STEP but have IGES.
-  BREP     Yes      Yes      The native format of [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), FreeCAD\'s geometry kernel.
-  DXF      Yes      Yes      An open format maintained by Autodesk. Since the 3D data inside a DXF file is encoded in proprietary format, FreeCAD can only import/export 2D data to/from this format.
-  DWG      Yes      Yes      The proprietary version of DXF. Requires the installation of the [Teigha File Converter](https://www.opendesign.com/guestfiles) utility. This format suffers from the same limitations as DXF.
-  OBJ      Yes      Yes      A mesh-based format. Can only contain triangulated meshes. All solid and NURBS-based objects of FreeCAD will be converted to mesh on export. An alternative exporter is provided by the Arch workbench, more suited to the export of architectural models.
-  DAE      Yes      Yes      The main import/export format of Sketchup. Can only contain triangulated meshes. All solid and NURBS-based objects of FreeCAD will be converted to mesh on export.
-  STL      Yes      Yes      A mesh-based format, commonly used for 3D printing. Can only contain triangulated meshes. All solid and NURBS-based objects of FreeCAD will be converted to mesh on export.
-  PLY      Yes      Yes      An older mesh-based format. Can only contain triangulated meshes. All solid and NURBS-based objects of FreeCAD will be converted to mesh on export.
-  IFC      Yes      Yes      [Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes). Requires the installation of [IfcOpenShell-python](http://ifcopenshell.org/python). The IFC format and its compatibility with other applications is a complex affair, use with care.
-  SVG      Yes      Yes      An excellent, widespread 2D graphics format
-  VRML     Yes      Yes      A rather old mesh-based web format.
-  GCODE    Yes      Yes      FreeCAD can already import and export to/from several flavors of GCode, but only a small number of machines is supported at the moment.
-  CSG      Yes      No       OpenSCAD\'s [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (Constructive Solid Geometry) format.
+  STEP     Tak      Tak       Jest to najwierniejszy dostępny format importu/eksportu, ponieważ obsługuje geometrię bryłową i NURBS. Należy go używać zawsze, gdy jest to możliwe.
+  IGES     Tak      Tak       Starszy format bryłowy, również bardzo dobrze obsługiwany. Niektóre starsze aplikacje nie obsługują STEP, ale mają IGES.
+  BREP     Tak      Tak       Natywny format [OpenCasCade](https://en.wikipedia.org/wiki/Open_Cascade_Technology), jądra geometrii FreeCAD.
+  DXF      Tak      Tak       Otwarty format utrzymywany przez Autodesk. Ponieważ dane 3D wewnątrz pliku DXF są zakodowane w zastrzeżonym formacie, FreeCAD może importować / eksportować tylko dane 2D do / z tego formatu.
+  DWG      Tak      Tak       Zastrzeżona wersja DXF. Wymaga instalacji narzędzia [Konwerter plików Teigha](https://www.opendesign.com/guestfiles). Format ten ma takie same ograniczenia jak DXF.
+  OBJ      Tak      Tak       Format oparty na siatce. Może zawierać tylko siatki triangulacyjne. Wszystkie obiekty bryłowe i oparte na NURBS FreeCAD zostaną przekonwertowane na siatkę podczas eksportu. Alternatywny eksporter jest dostarczany przez środowisko robocze Arch, bardziej odpowiednie do eksportu modeli architektonicznych.
+  DAE      Tak      Tak       Główny format importu i eksportu programu Sketchup. Może zawierać tylko siatki triangulacyjne. Wszystkie obiekty bryłowe i oparte na NURBS programu FreeCAD zostaną przekonwertowane na siatkę podczas eksportu.
+  STL      Tak      Tak       Format oparty na siatce, powszechnie używany do drukowania 3D. Może zawierać tylko siatki trójkątów. Wszystkie obiekty bryłowe i oparte na NURBS FreeCAD zostaną przekonwertowane na siatkę podczas eksportu.
+  PLY      Tak      Tak       Starszy format oparty na siatce. Może zawierać tylko siatki trójkątów. Wszystkie obiekty bryłowe i oparte na NURBS w FreeCAD zostaną przekonwertowane na siatkę podczas eksportu.
+  IFC      Tak      Tak       [Industry Foundation Classes](https://en.wikipedia.org/wiki/Industry_Foundation_Classes). Wymaga instalacji [IfcOpenShell-python](http://ifcopenshell.org/python). Format IFC i jego kompatybilność z innymi aplikacjami jest skomplikowana, należy zachować ostrożność.
+  SVG      Tak      Tak       Doskonały, szeroko rozpowszechniony format grafiki 2D
+  VRML     Tak      Tak       Dość stary format sieciowy oparty na siatce.
+  GCODE    Tak      Tak       FreeCAD może już importować i eksportować do / z kilku odmian GCode, ale obecnie obsługiwana jest tylko niewielka liczba maszyn.
+  CSG      Tak      Nie       Format OpenSCAD [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) Geometria konstrukcyjna brył *(Constructive Solid Geometry)*.
 
-Some of these file formats have options. These can be configured from menu **Edit → Preferences → Import/export:**
+Niektóre z tych formatów plików mają opcje konfiguracyjne. Można je przeglądnąć i zmienić w menu **Edycja → Preferencje ...→ Import / eksport:**.
 
 ![](images/Import_preferences.jpg )
 
-**Read more**
+**Więcej informacji:**
 
--   [All file formats supported by FreeCAD](Import_Export.md)
--   [Working with DXF files in FreeCAD](Draft_DXF.md):
--   [Enabling DXF and DWG support](Dxf_Importer_Install.md)
--   [Working with SVG files in FreeCAD](Draft_SVG.md)
--   [Importing and exporting to IFC](Arch_IFC.md)
+-   [Wszystkie formaty plików obsługiwane przez FreeCAD](Import_Export/pl.md)
+-   [Praca z plikami DXF w programie FreeCAD](Draft_DXF/pl.md):
+-   [Praca z plikami SVG w programie FreeCAD](Draft_SVG/pl.md)
+-   [Importowanie i eksportowanie do IFC](Arch_IFC/pl.md)
 -   [OpenCasCade](http://www.opencascade.com)
--   [Teigha File Converter](https://www.opendesign.com/guestfiles)
--   [IFC Specifications Database](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
+-   [Konwerter plików Teigha](https://www.opendesign.com/guestfiles)
+-   [Baza danych specyfikacji IFC](https://technical.buildingsmart.org/standards/ifc/ifc-schema-specifications/)
 -   [IfcOpenShell](http://ifcopenshell.org/)
 
 

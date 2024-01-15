@@ -1,81 +1,90 @@
 ---
  GuiCommand:
    Name: Draft PolarArray
-   MenuLocation: Modification , Array tools , Polar array
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Szyk biegunowy
+   MenuLocation: Modyfikacja , Narzędzia szyku , Szyk biegunowy
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
-   SeeAlso: Draft_OrthoArray, Draft_CircularArray, Draft_PathArray, Draft_PathLinkArray, Draft_PointArray, Draft_PointLinkArray
+   SeeAlso: Draft_OrthoArray/pl, Draft_CircularArray/pl, Draft_PathArray/pl, Draft_PathLinkArray/pl, Draft_PointArray/pl, Draft_PointLinkArray/pl
 ---
 
 # Draft PolarArray/pl
 
-## Description
 
-The <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+## Opis
+
+Polecenie <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Szyk biegunowy** tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu. Polecenie może opcjonalnie utworzyć szyk [łączy](App_Link/pl.md), który jest bardziej wydajny niż zwykły szyk.
+
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
-*Draft PolarArray*
+*Szyk biegunowy.*
 
-## Usage
 
-See also: [Draft Snap](Draft_Snap.md).
 
-1.  Optionally select one object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_PolarArray.svg" width=16px> [Draft PolarArray](Draft_PolarArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_PolarArray.svg" width=16px> Polar array** option from the menu.
-3.  The **Polar array** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an object: select one object.
-5.  Enter the required parameters in the task panel.
-6.  To finish the command do one of the following:
-    -   Pick a point in the [3D view](3D_view.md) for the **Center of rotation**.
-    -   Press **Enter**.
-    -   Press the **OK** button.
+## Użycie
 
-## Options
+Zapoznaj się również z informacjami na stronie [Przyciąganie](Draft_Snap/pl.md).
 
--   Enter the **Polar angle** to specify the total angle of the array. The angle is positive in the counter-clockwise direction.
--   Enter the **Number of elements**. Must be at least {{Value|2}}. The maximum that can be entered in the task panel is {{Value|99}}, but higher values are possible by changing the **Number Polar** property of the array.
--   Pick a point in the [3D view](3D_view.md), note that this will also finish the command, or type coordinates for the **Center of rotation**. The rotation axis of the array will pass through this point. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press the **Reset point** button to reset the **Center of rotation** to the origin.
--   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
--   Press **Esc** or the **Cancel** button to abort the command.
+1.  Opcjonalnie wybierz jeden obiekt.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_PolarArray.svg" width=16px> '''Szyk biegunowy'''**.
+    -   Wybierz z menu opcję **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PolarArray.svg" width=16px> Szyk biegunowy**.
+3.  Otworzy się panel zadań **Szyk biegunowy**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Jeśli nie wybrano jeszcze żadnego obiektu: wybierz jeden obiekt.
+5.  Wprowadź wymagane parametry w panelu zadań.
+6.  Aby zakończyć polecenie, wykonaj jedną z poniższych czynności:
+    -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) dla **Środek obrotu**.
+    -   Naciśnij **Enter**.
+    -   Naciśnij przycisk **OK**.
 
-## Notes
 
--   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
--   A Draft PolarArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
--   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferences
+## Opcje
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   Wprowadź **Kąt zakresu szyku**, aby określić całkowity kąt szyku. Kąt jest dodatni w kierunku przeciwnym do ruchu wskazówek zegara.
+-   Wprowadź **Liczba elementów**. Musi ona wynosić co najmniej {{Value|2}}. Maksymalna wartość, jaką można wprowadzić w panelu zadań to {{Value|99}}, ale wyższe wartości są możliwe poprzez zmianę właściwości **Ilość elementów polarnych** szyku.
+-   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md), zauważ, że to również zakończy polecenie, lub wpisz współrzędne dla **Środka obrotu**. Oś obrotu tablicy będzie przechodzić przez ten punkt. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Naciśnij przycisk **Zresetuj współrzędne punktu**, aby zresetować **Środek obrotu** do punktu początkowego.
+-   Jeśli pole wyboru **Scal** jest zaznaczone, nakładające się elementy w szyku są scalane. Nie działa to w przypadku szyków łączy.
+-   Jeśli pole wyboru **Szyk łączy** jest zaznaczone, tworzony jest szyk łączy zamiast zwykłego szyku. Szyk łączy jest bardziej wydajny, ponieważ jego elementami są obiekty [App Łącze](App_Link/pl.md).
+-   Naciśnij **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
 
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
-## Properties
 
-See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
+## Uwagi
 
-## Scripting
+-   Domyślną osią obrotu dla szyku jest dodatnia oś Z. Można to zmienić edytując właściwość **Oś**.
+-   Szyk biegunowy może zostać przekształcony w [Szyk ortogonalny](Draft_OrthoArray/pl.md) lub [Szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jego właściwości **Typ szyku**.
+-   Szyk łączy nie może zostać przekształcony w zwykły szyk lub odwrotnie. Typ szyku musi być określony w czasie tworzenia.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-### Parametric array 
 
-To create a parametric polar array use the `make_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeArray` method. The `make_array` method can create [Draft OrthoArrays](Draft_OrthoArray.md), Draft PolarArrays and [Draft CircularArrays](Draft_CircularArray.md). For each array type one or more wrappers are available.
+## Właściwości
 
-The main method:
+Zapoznaj się z informacjami zawartymi na stronie [Szyk ortogonalny](Draft_OrthoArray/pl#Właściwości.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+
+
+### Szyk parametryczny 
+
+Aby utworzyć parametryczny szyk biegunowy, należy użyć metody `make_array` *({{Version/pl|0.19}})* modułu Rysunek Roboczy. Metoda ta zastępuje przestarzałą metodę `makeArray`. Metoda `make_array` może tworzyć obiekty OrthoArrays środowiska Rysunek Roboczy, [Szyk ortogonalny](Draft_OrthoArray/pl.md) i [Szyk kołowy](Draft_CircularArray/pl.md). Dla każdego typu szyku dostępny jest jeden lub więcej elementów opakowujących.
+
+Metoda podstawowa:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for polar arrays is:
+Opakowaniem dla tablic biegunowych jest:
 
 
 ```python
@@ -84,19 +93,19 @@ array = make_polar_array(base_object,
                          use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `obiekt_bazowy`jest obiektem, który ma zostać użyty w szyku. Może to być również `Etykieta` *(ciąg znaków)* obiektu w bieżącym dokumencie.
 
--    `number`is the number of elements in the pattern, including the original object.
+-    `Ilość`jest liczbą elementów we wzorcu, włączając w to oryginalny obiekt.
 
--    `angle`is the angle of the polar arc in degrees.
+-    `Kąt`to kąt łuku biegunowego w stopniach.
 
--    `center`is the vector that defines the center of the pattern.
+-    `Środek`jest wektorem definiującym środek wzorca.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Jeśli `use_link` ma wartość {{True/pl}}, utworzone elementy są [App: Łącze](App_Link/pl.md) zamiast zwykłych kopii.
 
--    `array`is returned with the created array object.
+-    `szyk`jest zwracany wraz z utworzonym obiektem szyku.
 
-Example:
+Przykład:
 
 
 ```python
@@ -112,16 +121,18 @@ array = Draft.make_polar_array(tri, 8, 270, center)
 doc.recompute()
 ```
 
-### Non-parametric array 
 
-To create a non-parametric polar array use the `array` method of the Draft module. This method returns `None`.
+
+### Szyk nieparametryczny 
+
+Aby utworzyć nieparametryczny szyk biegunowy, należy użyć metody `array` modułu Rysunek Roboczy. Metoda ta zwraca `Brak`.
 
 
 ```python
 array(objectslist, center, angle, number)
 ```
 
-Example:
+Przykład:
 
 
 ```python

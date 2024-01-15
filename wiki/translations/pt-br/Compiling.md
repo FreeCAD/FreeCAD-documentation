@@ -3,10 +3,11 @@
 
 Cada sistema operacional tem sua própria página para a compilação do FreeCAD na [Documentação de ajuda on-line](Online_Help_Toc/pt-br.md).
 
-     
-      <img alt="" src=images/Windows.png  style="width:" height="32px;">         <img alt="" src=images/Linux.png  style="width:" height="32px;">           <img alt="" src=images/Mac.png  style="width:" height="32px;">        [Compile on Docker container](Compile_on_Docker/pt-br.md)
-   [Compilar no Windows](Compile_on_Windows/pt-br.md)   [Compilar no Linux](Compile_on_Linux/pt-br.md)   [Compilar no MacOS](Compile_on_MacOS/pt-br.md)   [Compilar no Docker container](Compile_on_Docker/pt-br.md)
-     
++::+::+::+::+
+| <img alt="" src=images/Windows.png  style="width:" height="32px;">       | <img alt="" src=images/Linux.png  style="width:" height="32px;">       | <img alt="" src=images/Mac.png  style="width:" height="32px;">           | [Compile on Docker container](Compile_on_Docker/pt-br.md)  |
++++++
+| [Compilar no Windows](Compile_on_Windows/pt-br.md) | [Compilar no Linux](Compile_on_Linux/pt-br.md) | [Compilar no MacOS](Compile_on_MacOS/pt-br.md) | [Compilar no Docker container](Compile_on_Docker/pt-br.md) |
++++++
 
 
 </div>

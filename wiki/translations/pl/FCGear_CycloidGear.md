@@ -1,135 +1,158 @@
 ---
  GuiCommand:
    Name: FCGear CycloidGear
-   MenuLocation: Gear , Cycloid Gear
-   Workbenches: FCGear_Workbench
-   Shortcut: None
+   Name/pl: FCGear: Koło zębate cykloidalne
+   MenuLocation: Gear , Koło zębate cykloidalne
+   Workbenches: FCGear_Workbench/pl
+   Shortcut: Brak
    Version: v0.16
-   SeeAlso: FCGear_InvoluteGear
+   SeeAlso: FCGear_InvoluteGear/pl
 ---
 
 # FCGear CycloidGear/pl
 
+
+
 ## Opis
 
-Cycloidal gears are very sensitive to an inaccurate adjustment of the centre distance, which then leads to a change in the transmission ratio. For these reasons, cycloidal gears are hardly found in mechanical engineering but are only used in special cases such as in the watch industry, for roots type blowers or for the drive of gear racks.
+Przekładnie cykloidalne są bardzo wrażliwe na niedokładną regulację odległości między osiami, co prowadzi do zmiany przełożenia. Z tych powodów przekładnie cykloidalne są rzadko spotykane w inżynierii mechanicznej, ale są stosowane tylko w specjalnych przypadkach, takich jak przemysł zegarmistrzowski, do dmuchaw typu root lub do napędu zębatek.
 
 ![](images/Cycloid-Gear_example_1.png ) 
-*From left to right: Spur gearing, helical gearing, double helical gearing*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_CycloidGear.svg style="width:16px"> [Cycloid Gear](FCGear_CycloidGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_CycloidGear.svg style="width:16px"> Cycloid Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-### Data
-
-An FCGear CycloidGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+*Od lewej do prawej: Przekładnia czołowa, przekładnia walcowa, podwójna przekładnia walcowa*
 
 
-{{Properties_Title|accuracy}}
 
--    **numpoints|Integer**: Default is {{Value|15}}. Change of the involute profile. Changing the value can lead to unexpected results.
+## Użycie
 
-
-{{Properties_Title|base}}
-
--    **height|Length**: Default is {{Value|5 mm}}. Value of the gear width.
-
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
-
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk na pasku narzędzi **[<img src=images/FCGear_CycloidGear.svg style="width:16px"> '''Koło zębate cykloidalne'''**.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_HypoCycloidGear.svg style="width:16px"> Koło zębate cykloidalne**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|computed}}
 
--    **angular_backlash|Angle**: (read-only)
-
--    **dw|Length**: (read-only) Working pitch diameter.
+## Właściwości
 
 
-{{Properties_Title|cycloid}}
 
--    **inner_diameter|Float**: (read-only) Diameter of the rolling circle of hypocycloid, normalized by the **module** (see [Notes](#Notes.md)).
+### Dane
 
--    **outer_diameter|Float**: Default is {{Value|7.5}}. Diameter of the rolling circle of epicycloid, normalized by the **module** (see [Notes](#Notes.md)).
-
-
-{{Properties_Title|fillets}}
-
--    **head_fillet|Float**: Default is {{Value|0 mm}}.
-
--    **root_fillet|Float**: Default is {{Value|0 mm}}.
+Obiekt **Koło zębate cykloidalne** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|helical}}
+{{Properties_Title|Dokładność}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical gear is created -- positive value → rotation direction right, negative value → rotation direction left.
-
--    **double_helix|Bool**: Default is {{False}}, {{True}} creates a double helix gear (see [Notes](#Notes.md)).
+-    **numpoints|Integer**: Wartość domyślna to {{value|15}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
 
 
-{{Properties_Title|tolerance}}
+{{Properties_Title|Podstawowe}}
 
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **wysokość|Length**: Wartością domyślną jest {{Value|5 mm}}. Wartość szerokości koła zębatego.
 
--    **clearance|Float**: Default is {{Value|0.25}} (see [Notes](#Notes.md)).
+-    **moduł|Length**: Domyślnie {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów *(patrz [Uwagi](#Uwagi.md))*.
 
--    **head|Float**: Default is {{Value|0}}. Additional length of the tip of the teeth, normalized by the **module**.
+-    **zęby|Integer**: Domyślną wartością jest {{Value|15}}. Liczba zębów.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Obliczone}}
 
--    **version|String**:
+-    **luz_kątowy|Angle**: *(tylko do odczytu)*.
 
-## Notes
+-    **dw|Length**: *(tylko do odczytu)* Średnica podziałki roboczej.
 
--   Cycloidal gears must always be specially matched to each other and can generally not be exchanged at will: In a gear pair, the value of **inner_diameter** on one gear must equal the **outer_diameter** on the other, and vice versa. See also the information in **Properties cycloid parameter view** below.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
+{{Properties_Title|cykloidalna}}
 
--    **double_helix**: To use the double helical gearing the helix angle β (**beta**) for the helical gearing must first be entered.
+-    **Średnica_wewnętrzna|Float**: *(tylko do odczytu)* Średnica toczącego się okręgu hipocykloidy, znormalizowana przez **moduł**. (patrz [Uwagi](#Uwagi.md)).
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **Średnica_zewnętrzna|Float**: Domyślnie {{Value|7.5}}. Średnica toczącego się okręgu epicykloidy, znormalizowana przez **moduł**. (patrz [Uwagi](#Uwagi.md)).
 
-## Special cases 
 
-### Straight line as hypocycloid 
+{{Properties_Title|Zaokrąglenie}}
 
-To obtain a straight line, directly towards the center, as hypocycloid, use the following [expression](Expressions.md) for the **inner_diameter**: `teeth / 2`. Such a tooth form is often found in historical clockworks and thus called \"clock toothing\". A larger **clearance** makes the effect even more visible.
+-    **head_fillet|Float**: Wartość domyślna to {{value|0 mm}}.
 
-### Full hypocycloid/epicycloid as tooth 
+-    **root_fillet|Float**: Wartość domyślna to {{value|0 mm}}.
 
-To obtain a gear made of complete hypocycloid and epicycloid curves use the following [expressions](Expressions.md):
 
--    **inner_diameter**: `0.5 + 1e-6`
+{{Properties_Title|Śrubowy}}
 
--    **outer_diameter**: `inner_diameter`
+-    **beta|Angle**: Domyślnie {{Value|0 °}}. Z kątem helisy β tworzone jest koło zębate śrubowe - wartość dodatnia → kierunek obrotu w prawo, wartość ujemna → kierunek obrotu w lewo.
 
--    **clearance**: `(-1 + inner_diameter/1mm) * 2`
+-    **Podwójna_helisa|Bool**: Domyślną wartością jest {{False/pl}}, {{True/pl}} tworzy podwójną helisę *(patrz [Uwagi](#Uwagi.md))*.
 
--    **head**: `(-1 + outer_diameter/1mm) * 2`
 
-The reference diameter is *d = m \* z*, with *m* being the **module** and *z* being the **teeth**. For a complete hypocycloid, the rolling diameter has to be *d_i = d / (z\*2) = m\*z / (z\*2)*. And if we now normalize this by the module, we get *d_in = m\*z / (z\*2) / m = 1 / 2*. The additional explicit tolerance value (`1e-6` in the expression above) is required to overcome coincidence issues.
+{{Properties_Title|Tolerancja}}
 
-Now the cycloids\' rolling circle diameters have to match the gear\'s addedum/dedendum. The addendum, i.e. the tooth length above the reference circle, is 1 + **head**. The dedendum, i.e. the tooth length below the reference circle, is 1 + **clearance**. Both are normalized by the module, thus we need a head/clearance value of *1 - d_in*. The additional ` / 1mm` and ` * 2` are required to overcome shortcomings already fixed in the development version of the FCGear Workbench, but porting those fixes back to the stable version may break existing models.
+-    **luz|Length**: Domyślną wartością jest {{Value|0}}. Luz zwrotny, zwany również luzem lub luzem, to odległość między zębami w parze kół zębatych.
 
-Such \"gears\" allow the the number of teeth to be as low as *two* and are used as rotary vanes in pumps or compressors (cf. [Roots-type Supercharger](https://en.wikipedia.org/wiki/Roots-type_supercharger)).
+-    **Prześwit|Float**: Domyślną wartością jest {{Value|0.25}} *(patrz [Uwagi](#Uwagi.md))*.
 
-### Infinitely large epicycloid 
+-    **head|Float**: Domyślną wartością jest {{Value|0}}. Dodatkowa długość wierzchołka zębów, znormalizowana przez **moduł**.
 
-If the radius of the epicycloid\'s rolling circle becomes infinitely large, it becomes a rolling straight line. Such a degenerated epicycloid is called involute. Gears with such a tooth form are handled by the [involute gear](FCGear_InvoluteGear.md) command. It is by far the most common tooth form Today.
 
-## Useful formulas 
+{{Properties_Title|Wersja}}
 
-See [FCGear InvoluteGear](FCGear_InvoluteGear#Useful_formulas.md).
+-    **Wersja|String**:
 
-## Properties cycloid parameter view 
+
+
+## Uwagi
+
+-   Cykloidalne koła zębate muszą być zawsze specjalnie dopasowane do siebie i generalnie nie mogą być dowolnie zamieniane: W parze kół zębatych, wartość parametru **średnica_wewnętrzna** na jednym kole zębatym musi być równa wartości parametru **średnica_zewnętrzna** na drugim kole zębatym i vice versa. Zobacz także informacje w **Właściwości widoku parametrów cykloidy** poniżej.
+
+-    **Prześwit**: W przypadku pary kół zębatych luz to odległość między wierzchołkiem zęba pierwszego koła zębatego a korzeniem zęba drugiego koła zębatego.
+
+-    **Podwójna_helisa**: Aby użyć podwójnej przekładni śrubowej, należy najpierw wprowadzić kąt pochylenia linii śrubowej β (**beta**) dla przekładni śrubowej.
+
+-    **moduł**: Korzystając z wytycznych ISO (Międzynarodowej Organizacji Normalizacyjnej), rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów przekładni. Moduł (m): m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Jeśli pomnożymy moduł przez Pi, otrzymamy Pitch (p). Pitch to odległość między odpowiednimi punktami na sąsiednich zębach.
+
+
+
+## Przypadki specjalne 
+
+
+
+### Linia prosta jako hipocykloida 
+
+Aby uzyskać linię prostą, bezpośrednio w kierunku środka, jako hipocykloidę, użyj następującego [wyrażenia](Expressions/pl.md) dla **średnicy_wewnętrznej**: `teeth / 2`. Taki kształt zębów jest często spotykany w historycznych zegarach i dlatego nazywany jest \"uzębieniem zegara\". Większe **Prześwit** sprawia, że efekt ten jest jeszcze bardziej widoczny.
+
+
+
+### Pełna hipocykloida/epicykloida jako ząb 
+
+Aby uzyskać koło zębate zbudowane z kompletnych krzywych hipocykloidalnych i epicykloidalnych, należy użyć następujących [wyrażenia](Expressions/pl.md):
+
+-    **średnica_wewnętrzna**: `0.5 + 1e-6`
+
+-    **średnica_zewnętrzna**: `średnica_wewnętrzna`
+
+-    **Prześwit**: `(-1 + średnica_wewnętrzna/1mm) * 2`
+
+-    **head**: `(-1 + średnica_zewnętrzna/1mm) * 2`
+
+Średnica referencyjna to *d = m \* z*, gdzie *m* to **moduł**, a *z* to **zęby**. Dla pełnej hipocykloidy średnica toczenia musi wynosić *d_i = d / (z\*2) = m\*z / (z\*2)*. A jeśli teraz znormalizujemy to przez moduł, otrzymamy *d_in = m\*z / (z\*2) / m = 1 / 2*. Dodatkowa jawna wartość tolerancji (`1e-6` w powyższym wyrażeniu) jest wymagana do przezwyciężenia problemów z koincydencją.
+
+Teraz średnica koła tocznego cykloidy musi odpowiadać addum/dedendum koła zębatego. Dodatek, tj. długość zęba powyżej koła odniesienia, wynosi 1 + **head**. Dedendum, tj. długość zęba poniżej okręgu odniesienia, wynosi 1 + **prześwit**. Oba są znormalizowane przez moduł, dlatego potrzebujemy wartości head / prześwit równej *1 - d_in*. Dodatkowe ` / 1mm` i ` * 2` są wymagane do przezwyciężenia niedociągnięć już naprawionych w wersji rozwojowej środowiska pracy FCGear, ale przeniesienie tych poprawek z powrotem do wersji stabilnej może zepsuć istniejące modele.
+
+Takie \"koła zębate\" pozwalają na zmniejszenie liczby zębów do \"dwóch\" i są używane jako obrotowe łopatki w pompach lub sprężarkach *(por. [Roots-type Supercharger](https://en.wikipedia.org/wiki/Roots-type_supercharger))*.
+
+
+
+### Nieskończenie duża epicykloida 
+
+Jeśli promień toczącego się okręgu epicykloidy staje się nieskończenie duży, staje się ona toczącą się linią prostą. Taka zdegenerowana epicykloida nazywana jest ewolwentą. Koła zębate o takim kształcie zębów są obsługiwane przez narzędzie [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md). Jest to obecnie najczęściej spotykany kształt zęba.
+
+
+
+## Przydatne wzory 
+
+Zobacz stronę [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl#Przydatne_wzory.md).
+
+
+
+## Widok właściwości parametrów cykloidy 
 
 <img alt="" src=images/CycloidGear_inner-outer-diameter_2.svg  style="width:400px;">
 

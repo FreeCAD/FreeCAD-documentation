@@ -22,7 +22,7 @@ Der Befehl **Points Importieren** importiert eine Punktwolke aus einer Datei.
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche <img alt="" src=images/Points_Import.svg  style="width:24px;"> [Punkte importieren\...](Points_Import.md) drücken.
     -   Den Menüeintrag **Punkte → <img src="images/Points_Import.svg" width=16px> Punkte importieren...** auswählen.
-2.  Eine Punktwolkendatei auswöhlen
+2.  Eine Punktwolkendatei auswählen
 3.  Die Schaltfläche **Öffnen** drücken.
 
 

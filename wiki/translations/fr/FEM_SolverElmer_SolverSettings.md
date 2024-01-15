@@ -89,9 +89,9 @@ Ce système a les propriétés suivantes :
 
 -    **Linear Solver Type**: si la résolution est faite *Direct* ou *Iterative*.
 
--    **Linear System Solver Disabled**: désactive le solveur linéaire. N\'utilisez cette option que dans des cas particuliers.Elle peut être utilisée pour désactiver temporairement une équation puisque sa résolution n\'est alors pas effectuée. Il existe cependant des cas où le solveur est envoyé dans une boucle infinie à la place.
+-    **Linear System Solver Disabled**: désactive le solveur linéaire. N\'utilisez cette option que dans des cas particuliers.Elle peut être utilisée pour désactiver temporairement une équation puisque sa résolution n\'est alors pas effectuée. Il existe cependant des cas où le solveur est envoyé dans une boucle infinie.
 
--    **Linear Tolerance**: la tolérance pour que le solveur s\'arrête. Si l\'erreur est inférieure à la tolérance, l\'exécution du solveur est terminée. Sinon, le nombre total d\'itérations linéaires Dans le log du solveur Elmer, vous voyez comment l\'erreur est minimisée pendant l\'exécution du solveur. (Regardez dans le log, à la fin de chaque itération du solveur, la valeur derrière *Relative Change*). Dans le cas où elle ne descend pas en dessous d\'une certaine valeur mais atteint une valeur supérieure à la tolérance actuelle qui est acceptable pour vous, vous pouvez augmenter la tolérance.
+-    **Linear Tolerance**: la tolérance pour que le solveur s\'arrête. Si l\'erreur est inférieure à la tolérance, l\'exécution du solveur est terminée. Sinon, le nombre total d\'itérations linéaires Dans le log du solveur Elmer, vous voyez comment l\'erreur est minimisée pendant l\'exécution du solveur. (Regardez dans le log, à la fin de chaque itération du solveur, la valeur derrière *Relative Change*). Si elle ne descend pas en dessous d\'une certaine valeur mais atteint une valeur supérieure à la tolérance actuelle qui est acceptable pour vous, vous pouvez augmenter la tolérance.
 
 
 
@@ -105,7 +105,7 @@ Ce système est itératif et possède les propriétés suivantes :
 
 -    **Nonlinear Newton After Tolerance**: identique à **Nonlinear Newton After Iterations** mais une tolérance est définie. La tolérance est la norme du résidu non linéaire. Si elle est atteinte, le passage de l\'algorithme *Picard* à l\'algorithme *Newton* est effectué.
 
--    **Nonlinear Newton After Tolerance**: la tolérance pour l\'arrêt du solveur. Si l\'erreur est inférieure à la tolérance, l\'exécution du solveur est terminée. Sinon, le nombre total d\'itérations Dans la réponse d\'Elmer, vous voyez comment l\'erreur est minimisée pendant l\'exécution du solveur. Au cas où elle ne descendrait pas en dessous d\'une certaine valeur acceptable mais supérieure à la tolérance actuelle, vous pouvez augmenter la tolérance.
+-    **Nonlinear Newton After Tolerance**: la tolérance pour l\'arrêt du solveur. Si l\'erreur est inférieure à la tolérance, l\'exécution du solveur est terminée. Sinon, le nombre total d\'itérations Dans la réponse d\'Elmer, vous voyez comment l\'erreur est minimisée pendant l\'exécution du solveur. Si elle ne descend pas en dessous d\'une certaine valeur acceptable mais supérieure à la tolérance actuelle, vous pouvez augmenter la tolérance.
 
 -    **Relaxation Factor**: c\'est LE paramètre le plus important dans le cas où le solveur ne converge pas :
 

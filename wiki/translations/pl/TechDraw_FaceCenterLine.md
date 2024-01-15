@@ -5,13 +5,10 @@
    MenuLocation: Rysunek Techniczny , Dodaj linie , Dodaj oś ściany
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: TechDraw_CosmeticVertex/pl, TechDraw_2LineCenterLine/pl, TechDraw_2PointCenterLine/pl, TechDraw_CosmeticEraser/pl
+   SeeAlso:  TechDraw_2LineCenterLine/pl, TechDraw_2PointCenterLine/pl
 ---
 
 # TechDraw FaceCenterLine/pl
-
-
-</div>
 
 
 
@@ -19,87 +16,58 @@
 
 Narzędzie **Dodaj oś ściany** dodaje linię środkową do wybranych ścian.
 
-<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/TechDraw_FaceCenterLine_Sample.png  style="width:400px;"> 
 *Oś dodana do ściany.*
 
 
-</div>
 
-## Usage create 
-
-
-<div class="mw-translate-fuzzy">
+## Użycie
 
 1.  Wybierz jedną lub więcej ścian w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Dodaj oś ściany**.
-3.  Otworzy się okno dialogowe, w którym można określić atrybuty nowej linii środkowej.
-4.  Linia środkowa zostanie dodana w punkcie środkowym obwiedni wybranej ściany *(ścian)*.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Dodaj oś ściany**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj linie → <img src="images/TechDraw_FaceCenterLine.svg" width=16px> Dodaj oś ściany**.
+3.  Otworzy się panel zadań. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Naciśnij przycisk **OK**, aby potwierdzić.
+5.  Linia środkowa zostanie dodana w punkcie środkowym obwiedni wybranych powierzchni.
 
 
-</div>
 
-## Usage edit 
+## Edycja
 
-
-<div class="mw-translate-fuzzy">
-
-Dowolny z przycisków poleceń linii środkowej *(**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Dodaj oś ściany**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Dodaj oś pomiędzy dwiema liniami](TechDraw_2LineCenterLine/pl.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Dodaj oś pomiędzy dwoma punktami](TechDraw_2PointCenterLine/pl.md)**)* można użyć do edycji dowolnej z linii środkowej.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Dowolne narzędzie poleceń linii środkowej *(**<img src="images/TechDraw_FaceCenterLine.svg" width=16px> Dodaj oś ściany**, **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> [Dodaj oś pomiędzy dwiema liniami](TechDraw_2LineCenterLine/pl.md)**, **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> [Dodaj oś pomiędzy dwoma punktami](TechDraw_2PointCenterLine/pl.md)**)* może zostać uzyte do edycji dowolnej z linii środkowej.
 
 1.  Wybierz linię środkową.
-2.  Naciśnij przycisk polecenia dowolnej linii środkowej.
+2.  Wywołaj narzędzie linii środkowej.
 3.  Otworzy się okno dialogowe, w którym można zmienić atrybuty linii środkowej.
-4.  Naciśnij **OK**, aby zobaczyć wprowadzone zmiany.
-
-
-</div>
+4.  Naciśnij **OK**, aby potwierdzić.
 
 
 
+## Opcje
 
-<div class="mw-translate-fuzzy">
-
-## Właściwości
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-1.  Tryb (przyciski wyboru):
-    -   **Pionowo**: wymusza pionową linię środkową
-    -   **Poziomo**: Wymusza linię środkową w poziomie.
+-   Tryb (przyciski wyboru):
+    -   **Pionowo**: wymusza pionową linię środkową. Ignorowane w przypadku narzędzia *Dodaj oś pomiędzy dwoma punktami*.
+    -   **Poziomo**: Wymusza linię środkową w poziomie. Ignorowane w przypadku narzędzia *Dodaj oś pomiędzy dwoma punktami*.
     -   **Wyrównane**: Ta opcja nie jest możliwa w przypadku linii środkowej do ściany.
-2.  **Przesuń w poziomie**: Przesuwa linię środkową w lewo lub w prawo od jej normalnego położenia.
-3.  **Przesuń w pionie**: Przesuwa linię środkową w górę lub w dół od jej normalnego położenia.
-4.  **Obróć**: Obraca linię środkową wokół jej środka *(stopnie. + przeciwnie do ruchu wskazówek zegara, - zgodnie z ruchem wskazówek zegara)*.
-5.  **Rozszerz o**: Wydłuża linię środkową o podaną wartość.
-6.  **Kolor**: Kolor linii środkowej.
-7.  **Grubość**: Grubość linii środkowej
-8.  **Styl**: <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Ciągła, <img alt="" src=images/Dash-line.svg  style="width:20px;"> Kreska, <img alt="" src=images/Dot-line.svg  style="width:20px;"> Kropka, <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Kreska kropka, <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Kreska kropka kropka.
-
-
-</div>
+-   **Przesuń w poziomie**: Przesuwa linię środkową w lewo lub w prawo od jej normalnego położenia.
+-   **Przesuń w pionie**: Przesuwa linię środkową w górę lub w dół od jej normalnego położenia.
+-   **Obróć**: Obraca linię środkową wokół jej środka *(stopnie. + przeciwnie do ruchu wskazówek zegara, - zgodnie z ruchem wskazówek zegara)*.
+-   **Rozszerz o**: Wydłuża linię środkową o podaną wartość.
+-   **Kolor**: Kolor linii środkowej.
+-   **Grubość**: Grubość linii środkowej.
+-   **Styl**: Styl linii środkowej. Dostępne opcje to:
+    -   <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Ciągła,
+    -   <img alt="" src=images/Dash-line.svg  style="width:20px;"> Kreska,
+    -   <img alt="" src=images/Dot-line.svg  style="width:20px;"> Kropka,
+    -   <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Kreska kropka,
+    -   <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Kreska kropka kropka.
 
 
 
 ## Uwagi
 
-
-<div class="mw-translate-fuzzy">
-
+-   Aby usunąć linię środkową użyj narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geomertie pomocnicze](TechDraw_CosmeticEraser/pl.md).
 -   Funkcja Dodaj oś ściany ostatecznie zastąpi dwie właściwości widoku:
     -   
         **LniaŚrodkaPoziomo**
@@ -112,11 +80,10 @@ Dowolny z przycisków poleceń linii środkowej *(**<img src="images/TechDraw_Fa
         : Pokazuje pionową linię środkową w widoku.
 
 
-</div>
 
-## Properties
+## Właściwości
 
-Centerlines have no properties of their own, as they are not document objects.
+Linie środka nie mają własnych właściwości, ponieważ nie są obiektami dokumentu.
 
 
 

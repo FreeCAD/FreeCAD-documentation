@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintSpring
    Name/de: FEM RandbedingungFeder
-   MenuLocation: Modell , Mechanische Randbedingungen , Randbedingung Feder
+   MenuLocation: Modell , Mechanische Randbedingungen und Lasten , Feder
    Workbenches: FEM_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,19 +15,20 @@
 
 ## Beschreibung
 
-Defines a spring boundary condition to be used for mechanical analyses using the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer solver](FEM_SolverElmer.md).
+Legt eine Randbedingung Feder fest, die für mechanische Analysen mit dem Löser <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Elmer](FEM_SolverElmer/de.md) verwendet wird.
 
 
-<small>(v0.21)</small> 
+{{Version/de|0.21}}
 
-: The spring constraint can be used for the equations <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation](FEM_EquationDeformation.md) and <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity](FEM_EquationElasticity.md).
+: Die Randbedingung Feder kann für die Gleichungen <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Verformung](FEM_EquationDeformation/de.md) und <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elastizität](FEM_EquationElasticity/de.md) verwendet werden.
 
 
 
 ## Anwendung
 
-1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Randbedingung Feder](FEM_ConstraintSpring/de.md)** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintSpring.svg" width=16px> Randbedingung Feder** auswählen.
-2.  In der [3D-Ansicht](3D_view/de.md) die Objekte auswählen, auf die die Randbedingung angewendet werden soll; diese müssen Flächen sein.
+1.  Entweder die Schaltfläche **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Feder](FEM_ConstraintSpring/de.md)** drücken oder den Menüeintrag **Modell → Mechanische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintSpring.svg" width=16px> Feder** auswählen.
+2.  In der [3D-Ansicht](3D_view/de.md) die Flächen auswählen, auf die die Feder angewendet werden soll.
+3.  Werte für normale oder tangentiale Steifigkeit (in N/m) eingeben und auswählen, welche Elmer verwenden soll.
 
 
 

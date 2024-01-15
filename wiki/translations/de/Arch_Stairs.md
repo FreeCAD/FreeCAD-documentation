@@ -11,74 +11,48 @@
 
 # Arch Stairs/de
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Das [Treppen](Arch_Stairs/de.md) Werkzeug ermöglicht dir automatisch verschiedene Treppentypen zu erstellen. Aktuell werden nur gerade Treppen (mit und ohne mittiges Treppenpodest) unterstützt. Treppen können von Grund auf neu gebaut werden, oder aus einer geraden [Linie](Draft_Line/de.md), in diesem Fall folgt die Treppe der Linie. Wenn die Linie nicht horizontal ist, sondern eine vertikale Neigung hat, folgt die Treppe ebenfalls ihrer Neigung.
+Das Werkzeug [Treppe](Arch_Stairs/de.md) ermöglicht verschiedene Arten von Treppen automatisch zu erstellen. Gerade Treppen (mit und ohne mittiges Podest) können von Grund auf neu erstellt werden. Komplexere Treppen erfordern Basisobjekte.
 
+Siehe den [Wikipediaeintrag Treppe](https://de.wikipedia.org/wiki/Treppe) für eine Erläuterung der verschiedenen verwendeten Begriffe zum beschreiben der Treppenbauteile.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Siehe den [Wikipediaeintrag](http://de.wikipedia.org/wiki/Treppe) für eine Erläuterung der verschiedenen verwendeten Begriffe zum beschreiben der Treppenbauteile.
-
-
-</div>
-
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Zwei konstruierte Treppen, eine mit massiver Struktur und Absatz  und eine mit einer mittigen Treppenwange.*
-
-
-</div>
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;"> 
+*Zwei konstruierte Treppen, eine mit massiver Struktur und Absatz  und die andere mit einer mittigen Treppenwange.*
 
 
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
 -   Treppen haben die gleichen Eigenschaften und verhalten sich wie alle anderen [Arch-Komponenten](Arch_Component/de.md)
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Auf den **<img src="images/Arch_Stairs.png" width=16px> [Treppe](Arch_Stairs/de.md)**-Button klicken oder Tasten **S** **R** drücken.
-2.  Gewünschte Werte anpassen. Einige Bauteile der Treppe, wie der Treppenlauf, sind nicht sofort sichtbar, wenn Eingaben dies unmöglich machen (Treppenlaufdicke = 0).
-
-
-</div>
+1.  Wahlweise ein oder mehrere Basisobjekte auswählen, z.B. [Draft Linien](Draft_Line/de.md) und [Draft Linienzüge](Draft_Wire/de.md):
+    -   Draft Linienzüge mit zwei und mehr Abschnitten werden verwendet, um Podeste zu erstellen. Sie müssen auf einer Ebene liegen, die parallel zur globalen XY-Ebene verläuft. Z.B. ein U-förmiger Linienzug für ein Podest mit einer halben Drehung (180°) und ein L-förmiger Linienzug für ein Eckpodest (90°).
+    -   Draft Linien werden verwendet, um Treppen zu erstellen.
+    -   Haben die Knoten aller Linien und Linienzüge korrekte Z-Koordinaten, verwendet die erstellte Treppe diese Informationen.
+    -   Die Basisobjekt müssen in der richtigen Reihenfolge ausgewählt werden, beginnend mit dem untersten Objekt.
+2.  Die Schaltfläche **<img src="images/Arch_Stairs.png" width=16px> [Treppe](Arch_Stairs/de.md)** drücken oder das Tastaturkürzel **S**, **R**.
+3.  Die gewünschten Werte anpassen. Einige Bauteile der Treppe, wie die Struktur, sind nicht sofort sichtbar, wenn irgendeine der Eigenschaften dies unmöglich machen, wie die Wandstärke einer Struktur von 0.
 
 <img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
-*Complex stairs based on a selection of lines and wired as shown on the left.<br>
-In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
-In black the lines connecting them used for the flights.
+*Eine komplexe Treppe, die auf einer Auswahl von Linien und Linienzügen basiert, wie links gezeigt.<br>
+Rot: die Linienzüge für die Podeste auf Z &equals; 1500 mm, Z &equals; 3000 mm and Z &equals; 4500 mm.<br>
+Schwarz: die Linien, die sie verbinden und für die Treppen verwendet werden.
 *
 
 
 
 ## Eigenschaften
 
-### Data
+
+
+### Daten
 
 
 {{TitleProperty|Segment and Parts}}
@@ -110,29 +84,18 @@ In black the lines connecting them used for the flights.
 
 {{TitleProperty|Stairs}}
 
+-    {{PropertyData/de|Align|Enumeration}}: Die Ausrichtung der Treppe zur Basislinie. Wird nur verwendet, wenn eine Basislinie festgelegt ist. Kann {{value|Left}} (links), {{value|Right}} (rechts) oder {{value|Center}} Mitte.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Height|Length}}: Die Gesamthöhe der Treppe. Wird nur verwendet, wenn eine Basislinie festgelegt ist oder wenn die Basislinie horizontal ist. Wird ignoriert, wenn die {{PropertyData/de|Riser Height Enforce}} nicht Null ist.
 
--    **Ausrichtung**: Die Ausrichtung der Treppe zur Basislinie, wenn diese vorhanden ist.
+-    {{PropertyData/de|Length|Length}}: Die Gesamtlänge der Treppe, wenn keine Basislinie festgelegt ist. Wird ignoriert, wenn die {{PropertyData/de|Tread Depth Enforce}} nicht Null ist.
 
--    **Basis**: Die Basislinie der Treppe, wenn vorhanden.
+-    {{PropertyData/de|Width|Length}}: Die Breite der Treppe.
 
--    **Höhe**: Die Gesamthöhe der Treppe, wenn nicht aufbauend auf einer Basisline, oder wenn die Basislinie horizontal ist.
-
--    **Länge**: Die Gesamtlänge der Treppe, wenn keine Basislinie definiert ist.
-
--    **Breite**: Die Breite der Treppe.
+-    {{PropertyData/de|Width of Landing|FloatList}}: Wenn die {{PropertyData/de|Number Of Steps}} (Anzahl der Stufen) 1 ist, wird das Treppenobjekt als Treppenabsatz eingesetzt. Ist dies der Fall und die Basislinie besteht aus mehreren Abschnitten, wird die Breite des ersten Abschnitts des Treppenabsatzes der {{PropertyData/de|Width}} entsprechen, die Breiten folgender Abschnitte entsprechen denen dieser Liste.
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Stufen
-
-
-</div>
+{{TitleProperty|Steps}}
 
 
 <div class="mw-translate-fuzzy">
@@ -151,12 +114,7 @@ Stufen
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-Treppenlauf
-
-
-</div>
+{{TitleProperty|Structure}}
 
 
 <div class="mw-translate-fuzzy">
@@ -176,24 +134,15 @@ Treppenlauf
 
 </div>
 
-## Limitations
 
 
-<div class="mw-translate-fuzzy">
-
-## Begrenzungen
+## Einschränkungen
 
 -   Momentan werden nur gerade Treppen unterstützt
--   Für runde Treppen siehe [Forum Eintrag](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534)
--   Siehe auch [Ankündigung im Forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564)
+-   Siehe [Beitrag im Forum](http://forum.freecadweb.org/viewtopic.php?f=23&t=6534) bezüglich Wendeltreppen
+-   Siehe [Ankündigung im Forum](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564)
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -202,18 +151,7 @@ Treppenlauf
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Raum Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Das Werkzeug Treppe kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden: 
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```

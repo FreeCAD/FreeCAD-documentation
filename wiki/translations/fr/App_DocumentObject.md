@@ -19,6 +19,8 @@ De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut appar
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
 
+
+
 ## Utilisation
 
 [App DocumentObject](App_DocumentObject/fr.md) est une classe interne, elle ne peut donc pas être créée à partir de l\'interface graphique, ni destinée à être utilisée seule. Il définit simplement le comportement de base et les propriétés des objets dans le programme.
@@ -26,9 +28,11 @@ De manière générale, un \"DocumentObject\" est toute \"chose\" qui peut appar
 Certains des DocumentObjects les plus importants sont les suivants:
 
 -   La classe [App FeaturePython](App_FeaturePython/fr.md), un objet vide qui peut être utilisé à différentes fins, en fonction des propriétés ajoutées.
--   La classe [App GeoFeature](App_GeoFeature/fr.md) , l\'objet de base de tous les objets géométriques, c\'est-à-dire des objets qui ont une propriété [Placement](Placement/fr.md) qui définit leur position dans la \[\[3D_view/fr\|vue 3D\] \].
+-   La classe [App GeoFeature](App_GeoFeature/fr.md) , l\'objet de base de tous les objets géométriques, c\'est-à-dire des objets qui ont une propriété [Placement](Placement/fr.md) qui définit leur position dans la [vue 3D](3D_view/fr.md).
 -   La classe [Part Feature](Part_Feature/fr.md), dérivée d\'App GeoFeature, et la classe parent d\'objets avec 2D et 3D [topological shapes](Part_TopoShape/fr.md).
 -   La classe [Mesh Feature](Mesh_Feature/fr.md), dérivée d\'App GeoFeature, et la classe parent d\'objets avec 2D et 3D [maillages](Mesh_MeshObject/fr.md).
+
+
 
 ## Propriétés
 
@@ -47,6 +51,8 @@ Ce sont les propriétés de base que possèdent essentiellement tous les objets.
 -    **Visibility|Bool**: afficher ou non l\'objet.
 
 Pour les objets dérivés, seul {{PropertyData/fr|Label}} sera répertoriée par défaut dans l\'[ éditeur de propriété](property_editor/fr.md). Les autres propriétés seront masquées.
+
+
 
 ## Script
 

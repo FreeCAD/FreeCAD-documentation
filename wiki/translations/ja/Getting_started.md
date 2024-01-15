@@ -36,7 +36,13 @@ See also:
 
 ## インストール
 
+
+<div class="mw-translate-fuzzy">
+
 First of all, download and install FreeCAD. See the [Download](Download.md) page for information on current versions and updates, and the installation instructions for you operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)). There are install packages ready for Windows (.msi), Debian and Ubuntu (.deb), openSUSE (.rpm), and Mac OSX. FreeCAD is available from the package managers of many other Linux distributions. A standalone [AppImage](AppImage.md) executable is also available, which will run on most recent 64-bit Linux systems. As FreeCAD is open-source, you can also grab the source code and [compile](Compiling.md) it yourself.
+
+
+</div>
 
 
 
@@ -55,7 +61,7 @@ First of all, download and install FreeCAD. See the [Download](Download.md) page
 
 <img alt="" src=images/FreeCAD_interface.png  style="width:1024px;">
 
-![最初に起動するFreeCADインターフェイスです。[他のスクリーンショットも参照してください](images/screenshots/jp.md)。](Freecad09-empty.jpg )
+![最初に起動するFreeCADインターフェイスです。[他のスクリーンショット](images/screenshots/jp.md)も参照してください。](Freecad09-empty.jpg )
 
 
 </div>
@@ -76,7 +82,7 @@ First of all, download and install FreeCAD. See the [Download](Download.md) page
 
 <div class="mw-translate-fuzzy">
 
-FreeCADは汎用の3Dモデリングアプリケーションです。機械工学と、専門的なエンジニアリングや建築などの関連分野に重点を置いています。FreeCADは、限られた特定のタスクを実行するためだけではなく、あらゆる種類の3Dアプリケーションを開発するためのプラットフォームとして考えられています。このため、FreeCADのインターフェイスは一連の [ワークベンチに分けられています](Workbenches/jp.md)。ワークベンチでは特定のタスクやタスクグループに必要なツールのみを表示するようにインターフェイスの内容を変更することができます。
+FreeCADは汎用の3Dモデリングアプリケーションです。機械工学と、専門的なエンジニアリングや建築などの関連分野に重点を置いています。FreeCADは、限られた特定のタスクを実行するためだけではなく、あらゆる種類の3Dアプリケーションを開発するためのプラットフォームとして考えられています。このため、FreeCADのインターフェイスは一連の [ワークベンチ](Workbenches/jp.md)に分けられています。ワークベンチでは特定のタスクやタスクグループに必要なツールのみを表示するようにインターフェイスの内容を変更することができます。
 
 
 </div>
@@ -188,7 +194,7 @@ A typical workflow with Arch and Draft workbenches might be:
 
 <div class="mw-translate-fuzzy">
 
-[Tutorialsページの詳細](Tutorials.md)。
+[Tutorials](Tutorials.md)ページの詳細。
 
 
 </div>
@@ -217,7 +223,7 @@ There are two types of addons:
 
 <div class="mw-translate-fuzzy">
 
-最後はFreeCADの最も強力な機能の一つ、[スクリプト環境です](scripting/ja.md) 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロとしても使用され](macros/ja.md)、カスタムコマンドを簡単に作成することができます。
+最後はFreeCADの最も強力な機能の一つ、[スクリプト](scripting/ja.md)環境です 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロ](macros/ja.md)としても使用され、カスタムコマンドを簡単に作成することができます。
 
 
 </div>

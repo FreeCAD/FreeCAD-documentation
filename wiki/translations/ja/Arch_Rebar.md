@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Rebarツールを使用すると、[Arch Structureオブジェクトの中に](Arch_Structure.md) [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) を配置することができます。 Rebarオブジェクトは、[sketches](Sketcher_Workbench.md) /[スケッチや](Sketcher_Workbench.md)[draft objects](Draft_Workbench.md)/[ドラフトオブジェクトなどの](Draft_Workbench.md)2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
+Rebarツールを使用すると、[Arch Structure](Arch_Structure.md)オブジェクトの中に [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) を配置することができます。 Rebarオブジェクトは、[sketches](Sketcher_Workbench.md) /[スケッチ](Sketcher_Workbench.md)や[draft objects](Draft_Workbench.md)/[ドラフトオブジェクト](Draft_Workbench.md)などの2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
 
 
 </div>
@@ -122,7 +122,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 <div class="mw-translate-fuzzy">
 
-Rebarツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
+Rebarツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
 
 
 </div>

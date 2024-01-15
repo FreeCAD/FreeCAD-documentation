@@ -1,5 +1,5 @@
 # Code snippets/de
-## Einführung
+## Einleitung
 
 Diese Seite enthält Beispiele, Stücke, Brocken von FreeCAD Python Code, die aus den Erfahrungen und Diskussionen der Benutzer auf den [Foren](https://forum.freecadweb.org/viewforum.php?f=22) gesammelt wurden. Lies und verwende sie als Ausgangspunkt für deine eigenen Skripte\...
 
@@ -302,7 +302,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 ### Beobachten von Kameraänderungen im 3D-Betrachter über Python 
 
-Dies erreicht man, indem man einen Node-Sensor zur Kamera hinzufügt.
+Dies erreicht man, indem man einen [Node sensor](https://www.coin3d.org/Coin/html/classSoNodeSensor.html) zur Kamera hinzufügt.
 
 
 ```python
@@ -874,6 +874,28 @@ class ViewObserver:
 o = ViewObserver(v)
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
+```
+
+
+{{Top}}
+
+### Display the active document 
+
+
+```python
+class DocObserver:                      # document Observer
+    def slotActivateDocument(self,doc):
+        print(doc.Name)
+
+obs=DocObserver()
+App.addDocumentObserver(obs)
+#App.removeDocumentObserver(obs)                 # desinstalle la fonction residente
+```
+
+To remove the observer call:
+
+
+```pythonApp.removeDocumentObserver(obs)                 # desinstalle la fonction residente
 ```
 
 

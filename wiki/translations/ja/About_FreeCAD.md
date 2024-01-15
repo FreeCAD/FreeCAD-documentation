@@ -60,6 +60,10 @@ FreeCAD is maintained and developed by a community of enthusiastic developers an
 
 </div>
 
+### About the FPA 
+
+The FreeCAD project is also supported by a non-profit organization, the [FreeCAD project association (FPA)](https://fpa.freecad.org). The FPA is an independent body created by some FreeCAD veterans in 2021 to collect [donations](donate.md) and other resources to support the project and its community, to help protect that community and allow it to continue developing in the best conditions, and to represent the project against other bodies such as companies and institutions.
+
 
 <div class="mw-translate-fuzzy">
 

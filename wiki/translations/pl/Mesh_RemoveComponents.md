@@ -9,12 +9,16 @@
 
 # Mesh RemoveComponents/pl
 
+
+
 ## Opis
 
 Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
 
-![](images/Meshes_RemoveComponents.jpg ) 
+<img alt="" src=images/Meshes_RemoveComponents.jpg  style="width:300px;"> 
 *Panel zadań Usuń fragmenty*
+
+
 
 ## Użycie
 
@@ -29,7 +33,7 @@ Polecenie **Usuń fragmenty** usuwa ściany z obiektów siatkowych.
         
         obiektów siatki nie powinien być czerwony.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Usuń fragmenty ...](Mesh_RemoveComponents/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_RemoveComponents.svg" width=16px> '''Usuń fragmenty ...'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_RemoveComponents.svg" width=16px> Usuń fragmenty ...**.
 3.  Otwiera się panel zadań **Usuń fragmenty**.
 4.  Użyj jednej lub więcej opcji **Wybierz**, aby wybrać ściany:

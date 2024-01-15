@@ -32,8 +32,14 @@ Când este activat acest instrument, indicatorul mouse-ului se transformă într
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selectați o zonă goală a vizualizării 3D sau pe un obiect existent(auto constrângerile trebuie să fie active în TaskView).
 -   Apăsați **Esc** sau faceți click dreapta pe butonul mouse-ului pentru a abandona funcția.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

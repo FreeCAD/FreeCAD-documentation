@@ -1,23 +1,28 @@
 ---
  GuiCommand:
    Name: Fasteners MatchTypeInner
-   MenuLocation: Fasteners , Match for tap hole
-   Workbenches: Fasteners_Workbench
-   SeeAlso: Fasteners_MatchTypeOuter
+   Name/pl: 
+   MenuLocation: Elementy złączne , Dopasowanie do otworu pod gwintownik
+   Workbenches: Fasteners_Workbench/pl
+   SeeAlso: Fasteners_MatchTypeOuter/pl
 ---
 
 # Fasteners MatchTypeInner/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> **Fasteners MatchTypeInner** command behaves as a toggle with the [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md) command. When **Fasteners MatchTypeInner** is selected, circular edges are considered to be tap holes when new fasteners are attached to them. This determines the default dimensions of those fasteners. This setting is not used for countersunk screws.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_MatchTypeInner.svg" width=16px> [Match for tap hole](Fasteners_MatchTypeInner.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_MatchTypeInner.svg" width=16px> Match for tap hole** option from the menu.
-2.  The button stays depressed to indicate the selected option.
+Polecenie <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> **Dopasowanie otworu pod gwint** zachowuje się jak przełącznik z poleceniem [Dopasowanie otworu jako przelotowego](Fasteners_MatchTypeOuter/pl.md). Gdy wybrane jest polecenie **Dopasowanie otworu pod gwint**, okrągłe krawędzie są uważane za otwory gwintowane, gdy dołączane są do nich nowe elementy złączne. Określa to domyślne wymiary tych elementów złącznych. To ustawienie nie jest używane dla śrub z łbem stożkowym.
+
+
+
+## Użycie
+
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_MatchTypeInner.svg" width=16px> '''Dopasowanie otworu pod gwint'''**.
+    -   Wybierz opcję z menu **Elementy złączne → <img src="images/Fasteners_MatchTypeInner.svg" width=16px> Dopasowanie otworu pod gwint**.
+2.  Przycisk pozostanie wciśnięty, aby wskazać wybraną opcję.
 
 
 

@@ -3,6 +3,8 @@
 
 Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes de FreeCAD. Ils peuvent être codés en Python, en C++, ou dans un mélange des deux, ce qui a l\'avantage d\'allier la vitesse du C++ à la flexibilité du Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python. Il peut s\'agir d\'ateliers \"internes\", inclus dans la distribution de FreeCAD, ou d\'ateliers \"externes\", distribués via le [Gestionnaire des extensions](Std_AddonMgr/fr.md) ou installés manuellement par téléchargement depuis un dépôt en ligne. Les ateliers internes peuvent être codés en C++, Python, ou une combinaison des deux, alors que les ateliers externes doivent être en Python uniquement.
 
+
+
 ## La structure Atelier 
 
 Vous avez besoin d\'un dossier, avec le nom de votre choix, placé dans le répertoire Mod de l\'utilisateur, avec un fichier `Init.py` et, éventuellement, un fichier `InitGui.py`. Le fichier Init est exécuté au démarrage de FreeCAD et le fichier `InitGui.py` est exécuté immédiatement après, mais uniquement lorsque FreeCAD démarre en mode GUI. C\'est tout ce dont FreeCAD a besoin pour trouver votre atelier au démarrage et l\'ajouter à son interface.
@@ -30,6 +32,8 @@ Dans ces fichiers, vous pouvez faire ce que vous voulez. Ils sont généralement
 -   Dans le fichier InitGui.py, vous définissez généralement un atelier, qui contient un nom, une icône et une série de commandes FreeCAD (voir ci-dessous). Cet fichier Python définit également les fonctions exécutées lors du chargement de FreeCAD (essayez d\'en faire le moins possible à ce niveau, afin de ne pas ralentir le démarrage). Un autre est exécuté lorsque l\'atelier est activé (c\'est là que vous ferez le plus du travail) et un troisième lorsque l\'atelier est désactivé (vous pouvez donc supprimer des éléments si nécessaire).
 
 La structure et le contenu des fichiers d\'un atelier décrits ici constituent la manière classique de créer un nouvel atelier. Il est possible d\'utiliser une légère variation dans la structure des fichiers lors de la création d\'un nouvel atelier Python. Cette méthode alternative est mieux décrite comme un \"atelier à espacement de noms\", ouvrant la possibilité d\'utiliser pip pour installer l\'atelier. Les deux structures fonctionnent, il s\'agit donc plutôt d\'une question de préférence lors de la création d\'un nouvel atelier. Le style et la structure pour les ateliers présentés ici sont disponibles dans l\'espace de noms global de FreeCAD, alors que pour le style et la structure alternatifs, l\'atelier réside dans un espace de noms dédié. Pour plus d\'informations sur le sujet, voir [En relation](Workbench_creation/fr#En_relation.md).
+
+
 
 ### La structure d\'atelier en C++ 
 
@@ -64,6 +68,8 @@ extern "C" {
 }
 ```
 
+
+
 ### Le fichier Init.py 
 
 
@@ -94,13 +100,15 @@ extern "C" {
 # ***************************************************************************/
 
 FreeCAD.addImportType("My own format (*.own)", "importOwn")
-FreeCAD.addExportType("My own format (*.own)", "importOwn")
+FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
 Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez que si vous souhaitez que votre atelier soit intégré et distribué avec le code source de FreeCAD à un moment donné, il doit être LGPL2+, comme dans l\'exemple ci-dessus. Voir [Licence](Licence/fr.md).
 
 Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de fournir le nom et l\'extension d\'un type de fichier, ainsi qu\'un module Python responsable de son importation. Dans l\'exemple ci-dessus, un module `importOwn.py` gérera les fichiers `.own`. Voir [Extraits de codes](Code_snippets/fr.md) pour plus d\'exemples.
+
+
 
 ### Ateliers en Python 
 
@@ -146,6 +154,8 @@ Gui.addWorkbench(MyWorkbench())
 ```
 
 En dehors de cela, vous pouvez faire ce que vous voulez : vous pouvez insérer tout votre code d\'atelier dans le fichier InitGui.py si vous le souhaitez, mais il est généralement plus pratique de placer les différentes fonctions de votre atelier dans des fichiers séparés. Ainsi ces fichiers sont plus petits et plus faciles à lire. Ensuite, vous importerez ces fichiers dans votre fichier InitGui.py. Vous pouvez organiser ces fichiers comme bon vous semble, un bon exemple est en avoir un pour chaque commande FreeCAD que vous ajoutez.
+
+
 
 #### Préférences
 
@@ -203,6 +213,8 @@ Vous pouvez également inclure un script qui est exécuté lorsque votre paquet 
 
 Pour que votre extension soit lue correctement par le gestionnaire des extensions, vous pouvez activer un \"mode développeur\" dans lequel le gestionnaire des extensions examine toutes les extensions disponibles et s\'assure que leurs métadonnées contiennent les éléments requis. Pour activer ce mode, sélectionnez : **Édition → Préférences... → Gestionnaire des extensions → Options du gestionnaire des extensions → Activer le mode développeur des extensions**, voir [Réglage des préférences](Preferences_Editor/fr#Options_du_gestionnaire_d.27Addons.md).
 
+
+
 ### Ateliers en C++ 
 
 Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire : vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple : il peut contenir une seule ligne :
@@ -235,6 +247,8 @@ namespace MyModuleGui {
 }
 ```
 
+
+
 #### Préférences 
 
 Vous pouvez également ajouter une page de préférences pour les ateliers C++. Les étapes sont similaires à celles de Python.
@@ -243,9 +257,13 @@ Vous pouvez également ajouter une page de préférences pour les ateliers C++. 
 
 Il y a deux options pour distribuer un atelier C++, vous pouvez soit héberger vous-même des versions précompilées pour les différents systèmes d\'exploitation, soit demander à ce que votre code soit intégré au code source de FreeCAD. Comme mentionné ci-dessus, cela nécessite une licence LGPL2+, et vous devez d\'abord présenter votre atelier à la communauté dans le [forum de FreeCAD](https://forum.freecad.org) pour revue.
 
+
+
 ## Commandes FreeCAD 
 
 Les commandes FreeCAD constituent le bloc de construction de base de l\'interface FreeCAD. Ils peuvent apparaître sous la forme d\'un bouton dans les barres d\'outils et d\'une entrée de menu dans les menus. Mais c\'est la même commande. Une commande est une simple classe Python, qui doit contenir un couple attributs et fonctions prédéfinis, définissant le nom de la commande, son icône et l\'action à effectuer lorsque la commande est activée.
+
+
 
 ### Définition des commandes Python 
 
@@ -271,6 +289,8 @@ class My_Command_Class():
 
 FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
+
+
 
 ### Définition des commandes en C++ 
 
@@ -313,6 +333,8 @@ void CreateMyModuleCommands(void)
     rcCmdMgr.addCommand(new CmdMyCommand());
 }
 ```
+
+
 
 ## \"Compiler\" votre fichier ressources 
 
@@ -376,6 +398,8 @@ os.system(
 
 os.remove(qrc_filename)
 ```
+
+
 
 ## En relation 
 

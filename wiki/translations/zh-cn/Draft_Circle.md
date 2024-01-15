@@ -17,7 +17,7 @@
 
 ## 描述
 
-底图圆形工具通过用户输入的两个点（中心点与半径），或通过拾取切线，或上述若干组合来在当前的[工作平面上创建一个圆形](Draft_SelectPlane.md)。它将根据[Draft Tray中的](Draft_Tray.md)[Draft Linestyle来创建圆形](Draft_Linestyle.md)。
+底图圆形工具通过用户输入的两个点（中心点与半径），或通过拾取切线，或上述若干组合来在当前的[工作平面](Draft_SelectPlane.md)上创建一个圆形。它将根据[Draft Tray](Draft_Tray.md)中的[Draft Linestyle](Draft_Linestyle.md)来创建圆形。
 
 
 </div>
@@ -25,7 +25,7 @@
 
 <div class="mw-translate-fuzzy">
 
-此工具与[Draft Arc工具的工作方式很相似](Draft_Arc.md)，区别在于前者创建的是一个完整的圆周。要绘制椭圆形请使用[Draft Ellipse工具](Draft_Ellipse.md)。
+此工具与[Draft Arc](Draft_Arc.md)工具的工作方式很相似，区别在于前者创建的是一个完整的圆周。要绘制椭圆形请使用[Draft Ellipse](Draft_Ellipse.md)工具。
 
 
 </div>
@@ -60,7 +60,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   为了手动输入坐标，您可以在输入X、Y或Z坐标值后，通过按下**Enter**键切换至下一个坐标分量。您可以在输入点的坐标值后按**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮来插入目标点。
 -   按**T**键或单击continue多选框即可切换至*连续*模式。如果开启了连续模式，则圆形工具将在绘制完一个圆形后再次开启，并令您在不用按下圆形工具这一按钮的情况下，继续绘制下一个圆形。
 -   按**L**键或单击filled复选框即可切换至*填充*模式。若开启填充模式，此工具创建的将是一个圆形的面(**Make Face** `True`)；否则创建的仅是一个圆形而非圆面(**Make Face** `False`)。
--   若希望将点强制绘至[捕捉到的最近位置](Draft_Snap.md)，请按住**Ctrl**键。
+-   若希望将点强制绘至[捕捉](Draft_Snap.md)到的最近位置，请按住**Ctrl**键。
 -   若希望令绘制的第二个点位于第一个的水平或垂直方向，请按住**Shift**键。
 -   按**Esc**键或**Close**按钮来终止当前命令。
 
@@ -93,9 +93,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
@@ -138,7 +136,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 -    **Pattern**: 指定[底图图案](Draft_Pattern.md)，用它来填充圆面。只有当**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时本属性才能生效。
 
--    **Pattern Size**: 指定[底图图案的大小](Draft_Pattern.md)。
+-    **Pattern Size**: 指定[底图图案](Draft_Pattern.md)的大小。
 
 
 </div>
@@ -161,7 +159,7 @@ A Draft Circle object is derived from a [Part Part2DObject](Part_Part2DObject.md
 
 <div class="mw-translate-fuzzy">
 
-通过下列函数就可以在[macros与](macros.md)[Python控制台中使用圆形工具](Python.md)：
+通过下列函数就可以在[macros](macros.md)与[Python](Python.md)控制台中使用圆形工具：
 
 
 </div>

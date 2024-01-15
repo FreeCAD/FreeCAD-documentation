@@ -3,18 +3,11 @@
 
 FreeCAD può essere importato come modulo [Python](Python/it.md) in altri programmi o in una console autonoma di Python, insieme con tutti i suoi moduli e componenti. E\' anche possibile importare l\'interfaccia utente di FreeCAD come modulo Python, ma con alcune restrizioni indicate nelle [avvertenze](Embedding_FreeCAD/it#Avvertenze.md).
 
+
+
 ## Utilizzare FreeCAD senza GUI 
 
-
-<div class="mw-translate-fuzzy">
-
-Una prima, diretta, facile e utile applicazione che si può fare di questo è quella di importare i documenti di FreeCAD in un vostro programma. Nell\'esempio che segue, si importa la geometria Parte di un documento di FreeCAD in [Blender](http://www.blender.org). Ecco lo script completo. Spero che sarete impressionati dalla sua semplicità:
-
-
-</div>
-
-
-{{Code|lang=python|code=
+La prima, diretta, facile e utile applicazione che si può fare grazie a questo è quella di importare i documenti di FreeCAD in un vostro programma. Nell\'esempio che segue, si importa la geometria Parte di un documento di FreeCAD in [Blender](http://www.blender.org). Segue lo script completo. È impressionante la sua semplicità: {{Code|lang=python|code=
 <nowiki>
 FREECADPATH = '/usr/lib/freecad-python3/lib/' # path to your FreeCAD.so or FreeCAD.pyd file,
 # for Windows you must either use \\ or / in the path, using a single \ is problematic
@@ -55,13 +48,7 @@ if __name__=='__main__':
 </nowiki>
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-La prima parte importante è fare in modo che Python trovi la nostra libreria di FreeCAD. Se la trova, tutti i moduli di FreeCAD, come il modulo Parte, che useremo anche, saranno automaticamente disponibili. Così noi prendiamo semplicemente la variabile sys.path, che è il posto dove Python cerca i moduli, e vi aggiungiamo il percorso di FreeCAD lib. Questa modifica è solo temporanea, e sarà persa quando chiuderemo il nostro interprete Python. Un altro modo potrebbe essere quello di creare un collegamento alla propria libreria di FreeCAD in uno dei percorsi di ricerca di Python. Io ho posto il percorso in una costante (FREECADPATH) in modo che per un altro utente dello script sarà più facile configurarlo per il proprio sistema.
-
-
-</div>
+La prima e più importante cosa da fare è che Python trovi la libreria di FreeCAD. Se la trova, tutti i moduli di FreeCAD, come il modulo Parte (che si è utilizzato) saranno automaticamente disponibili. Così si prenda semplicemente la variabile `sys.path`, che è il posto dove Python cerca i moduli, e vi si aggiunga il percorso della libreria FreeCAD. Questa modifica è solo temporanea, e sarà persa quando chiuderemo l\'interprete Python. Un modo alternativo potrebbe essere: creare un collegamento alla propria libreria di FreeCAD in uno dei percorsi di ricerca di Python. Si pone il percorso nella costante (`FREECADPATH`) in modo che per un altro utente dello script sia più facile configurarlo per il proprio sistema. Per gli utenti Windows è importante che il percorso venga specificato utilizzando `\\` o `/` come separatore anziché solo `\` poiché questo è un carattere di escape.
 
 
 {{Code|lang=python|code=
@@ -70,13 +57,7 @@ import sys
 sys.path.append(FREECADPATH)
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Quando siamo sicuri che la libreria viene caricata (la sequenza try/except), possiamo lavorare con FreeCAD, allo stesso modo come faremmo all\'interno dell\'interprete Python di FreeCAD. Apriamo il documento FreeCAD che è passato a noi dalla funzione main(), e facciamo una lista dei suoi oggetti. Poi, siccome abbiamo deciso di preoccuparci solo della geometria del pezzo, controlliamo se la proprietà Type di ogni oggetto contiene \"Parte\", e dopo la *tasselliamo*.
-
-
-</div>
+Quando si è sicuri che la libreria è stata caricata (la sequenza `try`/`except`), si può lavorare con FreeCAD, allo stesso modo che si farebbe all\'interno dell\'interprete Python di FreeCAD. Si apre il documento FreeCAD che viene passato dalla funzione `main()`, e si fa una lista dei suoi oggetti. Poi, siccome si è deciso di preoccuparsi solo della geometria del pezzo, controlliamo se la proprietà Type di ogni oggetto contiene \"`Part`\", e dopo la tasselliamo.
 
 
 {{Code|lang=python|code=
@@ -104,18 +85,14 @@ Il tassellamento produce una lista di vertici e un elenco di facce definite dai 
        Blender.Redraw()
 }}
 
-
-<div class="mw-translate-fuzzy">
-
-Ovviamente questo script è molto semplice (in realtà ne ho fatto uno più avanzato [qui](http://yorik.orgfree.com/scripts/import_freecad.py)), è probabile che si voglia estenderlo, per esempio per importare anche oggetti mesh, o importare la geometria di una parte che non ha facce, o importare altri formati di file che FreeCAD è in grado di leggere. Si potrebbe anche voler esportare la geometria in un documento di FreeCAD, cosa che può essere fatto allo stesso modo. Si potrebbe anche voler costruire un dialogo per permettere all\'utente di scegliere cosa importare, ecc.. La bellezza di tutto questo risiede proprio nel fatto che lasciate lavorare FreeCAD in ombra, mentre i suoi risultati sono presentati nel programma di vostra scelta.
+Ovviamente questo script è molto semplice (in realtà ne ho fatto uno più avanzato [FreeCAD to Blender importer](https://yorik.orgfree.com/scripts/import_freecad.py)), è probabile che si voglia estenderlo, per esempio per importare anche oggetti mesh, o importare la geometria di una parte che non ha facce, o importare altri formati di file che FreeCAD è in grado di leggere. Si potrebbe anche voler esportare la geometria in un documento di FreeCAD, cosa che può essere fatto allo stesso modo. Si potrebbe anche voler costruire un dialogo per permettere all\'utente di scegliere cosa importare, ecc.. La bellezza di tutto questo risiede proprio nel fatto che lasciate lavorare FreeCAD in ombra, mentre i suoi risultati sono presentati nel programma di vostra scelta.
 
 
-</div>
+**Nota:**
+
+controllare [Headless FreeCAD](Headless_FreeCAD/it.md) per eseguire FreeCAD senza la GUI.
 
 
-**Note:**
-
-checkout [Headless FreeCAD](Headless_FreeCAD.md) for running FreeCAD without the GUI.
 
 ## Utilizzare FreeCAD con GUI 
 
@@ -137,6 +114,8 @@ Per le applicazioni non-Qt, tuttavia, ci sono alcune limitazioni di cui è neces
 
 Notare che, questa soluzione, naturalmente, non funziona per nessuna applicazione da console perché non c\'è nessun ciclo di eventi in esecuzione.
 
+
+
 ## Avvertenze
 
 Anche se è possibile importare FreeCAD con un interprete Python esterno, questo non è uno scenario di utilizzo comune e richiede una certa cura. In generale, è meglio usare il Python incluso con FreeCAD, eseguire FreeCAD da linea di comando, o come un sottoprocesso. Vedere [Avvio e configurazione](Start_up_and_Configuration/it.md) per maggiori informazioni sulle ultime due opzioni.
@@ -148,9 +127,11 @@ Dato che il modulo Python di FreeCAD viene compilato da C ++ (invece di essere u
 '2.7.13 (default, Dec 17 2016, 23:03:43) \n[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]'
 ```
 
-## Related
 
--   [Headless FreeCAD](Headless_FreeCAD.md)
+
+## Riferimenti
+
+-   [Headless FreeCAD](Headless_FreeCAD/it.md)
 
 
 

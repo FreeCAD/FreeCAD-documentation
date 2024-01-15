@@ -47,7 +47,7 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md) (Tabellenkalkulation) zur Erstellung und Bearbeitung von Daten in Kalkulations- bzw. Konstruktionstabellen.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der [Startzentrum Arbeitsbereich](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der Arbeitsbereich [Start](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der Arbeitsbereich [Surface](Surface_Workbench/de.md) (Oberfläche) bietet Werkzeuge zum Erstellen und Ändern von Oberflächen. Er ähnelt der Option *Fläche aus Kanten* des [Part FormGenerators](Part_Builder/de.md).
 

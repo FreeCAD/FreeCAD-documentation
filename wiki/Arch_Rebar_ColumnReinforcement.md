@@ -358,7 +358,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_hook_extension`is the length of hook of main LShaped rebars.
 
--    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) and (xdir_rebars_b\_offset, ydir_rebars_b\_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
+-    `sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir_rebars_t_offset, ydir_rebars_t_offset) and (xdir_rebars_b_offset, ydir_rebars_b_offset) respectively, that defines inner offset distances for the secondary x-direction and y-direction rebars with respect to the top and bottom faces of the structure, respectively.
 
 -    `sec_rebars_number_diameter`is a tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) that defines number#diameter set of the secondary x-direction and y-direction rebars, respectively.
 

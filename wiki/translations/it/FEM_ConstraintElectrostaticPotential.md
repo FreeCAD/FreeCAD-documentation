@@ -21,10 +21,9 @@ Da fare
 
 ## Utilizzo
 
-#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [FEM ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
-
-1.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
-2.  Press the **Add** button.
+1.  Press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md)** button or use the menu **Model → Electromagnetic boundary conditions → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Electrostatic potential boundary condition**.
+2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to.
+3.  Press the **Add** button.
 
 ## Options
 
@@ -41,7 +40,7 @@ The dialog offers the following settings:
 -   **x, y, z checkboxes**: To declare the corresponding potential as unknown for the solver.
 -   **Potential Constant**: Option to set a constant potential.
 -   **Farfield / Electric infinity**: Option to make spherical approximation that the volume above the face extends to infinity.
--   **Calculate Electric Force**: Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
+-   **Calculate Electric Force**: Option to trigger the calculation of the electric force using the [Electricforce](FEM_EquationElectricforce.md) equation.
 -   **Capacity Body:**: Counter of the body (or face) with a capacitance.
 
 

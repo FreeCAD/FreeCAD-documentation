@@ -42,7 +42,7 @@ Při standardním scénáři bude očekáván následující seznam požadavků 
 ## Usage
 
 1.  Select the shape(s) in the [3D view](3D_view.md) or in the Model [tree view](Tree_view.md)
-2.  Click on the **<img src="images/Part_Extrude.svg" width=16px> [Part Extrude](Part_Extrude.md)** button in the toolbar, or go to the **Part → Extrude** menu
+2.  Click on the **<img src="images/Part_Extrude.svg" width=16px> [Part Extrude](Part_Extrude.md)** button in the toolbar, or go to the **Part → Extrude...** menu
 3.  Set the direction and length and optionally other parameters (see the following [Parameters](#Parameters.md) section for more details).
 4.  Click **OK**.
 

@@ -1,13 +1,15 @@
 # Dialog creation setting colors/pl
-## Introduction
+## Wprowadzenie
 
-This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide.md).
+To jest przykład [tworzenia dialogu](Dialog_creation/pl.md) z [PySide](PySide/pl.md).
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to create **.ui** files through Qt Designer, and load these in the program.
+W tym przykładzie cały interfejs jest zdefiniowany w środowisku [Python](Python/pl.md). Chociaż jest to możliwe w przypadku małych interfejsów, w przypadku większych interfejsów zaleca się tworzenie plików **.ui** za pomocą Qt Designer i ładowanie ich do programu.
 
-## Use QColorDialog to get a color 
 
-Complete code: 
+
+## Użyj QColorDialog, aby uzyskać kolor 
+
+Kompletny kod: 
 ```python
 # -*- coding: utf-8 -*-
 # https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/PySide/QtGui/QColor.html
@@ -31,9 +33,11 @@ if couleur.isValid():
 
 ```
 
-## Use QColorDialog to create a palette of colors (standard and custom) 
 
-This example modify the Standard color and the Customize color with the Tango FreeCAD guide.
+
+## Użyj QColorDialog do stworzenia palety kolorów *(standardowych i niestandardowych)* 
+
+W tym przykładzie zmodyfikowano kolor standardowy i kolor niestandardowy za pomocą przewodnika Tango FreeCAD.
 
 
 ```python

@@ -1,87 +1,99 @@
-# Part Wedge/it
 ---
- GuiCommand:   Name: Part Wedge   Name/it: Cuneo   MenuLocation: Parte , Crea Primitive , Cuneo   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:
+   Name: Part Wedge
+   Name/it: Part Cuneo
+   MenuLocation: Parte , Part_Primitives/it , Cuneo
+   Workbenches: Part_Workbench/it
+   SeeAlso: Part_Primitives/it
+---
+
+# Part Wedge/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Crea un solido parametrico a forma di cuneo. Il cuneo di default ha una base quadrata più grande e una cima quadrata più piccola.
-
-
-</div>
+Un <img alt="" src=images/Part_Wedge.svg  style="width:24px;"> **Part Cuneo** è un solido parametrico che può essere creato con il comando <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitive](Part_Primitives/it.md) . Ha da quattro a sei facce planari. È definito dai piani principali virtuali anteriore e posteriore su cui viene creata una faccia rettangolare (impostazione predefinita), un singolo bordo dritto o un singolo vertice. Queste forme di base definiscono le quattro facce quadrilatere o triangolari che le collegano. Il solido risultante è un vero cuneo solo se una delle forme base è una faccia rettangolare e l\'altra un bordo dritto. Nel sistema di coordinate definito dalla sua proprietà **Placement**, i piani principali anteriori e posteriori virtuali del cuneo sono piani paralleli al piano XZ e i bordi delle forme base sono paralleli all\'asse X o Z. Tutte le sue coordinate sono relative a quel sistema di coordinate.
 
 <img alt="" src=images/Part_Wedge_Example.png  style="width:400px;">
 
+
+
 ## Utilizzo
 
-See [Part Primitives](Part_Primitives#Usage.md).
+Vedere [Part Primitive](Part_Primitives/it#Utilizzo.md).
 
-## Example
 
-![Part Wedge from the scripting example](images/Part_Wedge_Scripting_Example.png )
 
-A Part Wedge object created with the [scripting example](#Scripting.md) below is shown here.
+## Esempio
 
-## Notes
+![Part Cuneo dall\'esempio di scripting](images/Part_Wedge_Scripting_Example.png )
 
--   The values of the coordinates of the wedge must be such that a valid solid can be create. This means that the front and rear base shapes can both be single edges, but not if they are parallel. And if one of the base shapes is a vertex the other shape must be a rectangular face.
+Qui viene mostrato un oggetto Part Cuneo creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
 
-## Properties
 
-See also: [Property editor](Property_editor.md).
 
-A Part Wedge object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+## Note
 
-### Data
+-   I valori delle coordinate del cuneo devono essere tali da poter creare un solido valido. Ciò significa che le forme di base anteriore e posteriore possono essere entrambe bordi singoli, ma non se sono parallele. E se una delle forme base è un vertice, l\'altra forma deve essere una faccia rettangolare.
+
+
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Cuneo deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Wedge}}
 
--    **Xmin|Distance**: The lowest X coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Xmin|Distance**: la coordinata X più bassa della faccia anteriore del cuneo. Il valore predefinito è {{Value|0mm}}.
 
--    **Ymin|Distance**: The Y coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Ymin|Distance**: la coordinata Y della faccia anteriore del cuneo. Il valore predefinito è {{Value|0mm}}.
 
--    **Zmin|Distance**: The lowest Z coordinate of the front face of the wedge. The default is {{Value|0mm}}.
+-    **Zmin|Distance**: la coordinata Z più bassa della faccia anteriore del cuneo. Il valore predefinito è {{Value|0mm}}.
 
--    **X2min|Distance**: The lowest X coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **X2min|Distance**: la coordinata X più bassa della faccia posteriore del cuneo. Il valore predefinito è {{Value|2mm}}.
 
--    **Z2min|Distance**: The lowest Z coordinate of the rear face of the wedge. The default is {{Value|2mm}}.
+-    **Z2min|Distance**: la coordinata Z più bassa della faccia posteriore del cuneo. Il valore predefinito è {{Value|2mm}}.
 
--    **Xmax|Distance**: The highest X coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Xmax|Distance**: la coordinata X più alta della faccia anteriore del cuneo. Il valore predefinito è {{Value|10mm}}.
 
--    **Ymax|Distance**: The Y coordinate of the rear face of the wedge. The default is {{Value|10mm}}.
+-    **Ymax|Distance**: la coordinata Y della faccia posteriore del cuneo. Il valore predefinito è {{Value|10mm}}.
 
--    **Zmax|Distance**: The highest Z coordinate of the front face of the wedge. The default is {{Value|10mm}}.
+-    **Zmax|Distance**: la coordinata Z più alta della faccia anteriore del cuneo. Il valore predefinito è {{Value|10mm}}.
 
--    **X2max|Distance**: The highest X coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **X2max|Distance**: la coordinata X più alta della faccia posteriore del cuneo. Il valore predefinito è {{Value|8mm}}.
 
--    **Z2max|Distance**: The highest Z coordinate of the rear face of the wedge. The default is {{Value|8mm}}.
+-    **Z2max|Distance**: la coordinata Z più alta della faccia posteriore del cuneo. Il valore predefinito è {{Value|8mm}}.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Wedge can be created with the {{Incode|addObject()}} method of the document:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+È possibile creare una Part Cuneo con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 wedge = FreeCAD.ActiveDocument.addObject("Part::Wedge", "myWedge")
 ```
 
--   Where {{Incode|"myWedge"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myWedge"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

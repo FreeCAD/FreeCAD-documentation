@@ -26,8 +26,8 @@ Il comando <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24
 
 1.  Facoltativamente, selezionare una o più [Linee](Draft_Line/it.md) o [Draft Polilinee](Draft_Wire/it.md), o oggetti i cui oggetti **Base** sono [Draft Linee](Draft_Line/it.md) o [Draft Polilinee](Draft_Wire/it.md).
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Draft Evidenzia sottoelemento](Draft_SubelementHighlight/it.md)**.
-    -   Seleziona l\'opzione **Modifica → <img src="images/Draft_SubelementHighlight.svg" width=16px> Evidenzia sottoelemento** dal menu.
+    -   Premere il pulsante **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Evidenzia sottoelemento](Draft_SubelementHighlight/it.md)**.
+    -   Seleziona l\'opzione **Modifiche → <img src="images/Draft_SubelementHighlight.svg" width=16px> Evidenzia sottoelemento** dal menu.
     -   Usare la scorciatoia da tastiera: **H** poi **S**.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Gli oggetti selezionati vengono resi visibili (se richiesto), il loro **Line Color** e **Point Color** vengono modificati in rosso e il loro **Point Size** viene modificato in {{ Value\|10}}.

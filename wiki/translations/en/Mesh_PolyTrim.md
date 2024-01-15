@@ -17,7 +17,7 @@ The **Mesh PolyTrim** command trims faces and parts of faces from mesh objects.
 1.  During the command the [3D view](3D_view.md) cannot be changed. It is advisable to properly line up the 3d view first.
 2.  Select one or more mesh objects.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_PolyTrim.svg" width=16px> [Mesh PolyTrim](Mesh_PolyTrim.md)** button.
+    -   Press the **<img src="images/Mesh_PolyTrim.svg" width=16px> [Trim mesh](Mesh_PolyTrim.md)** button.
     -   Select the **Meshes → Cutting → <img src="images/Mesh_PolyTrim.svg" width=16px> Trim mesh** option from the menu.
 4.  Define a polygon by picking points in the 3D view.
 5.  Select an option from the 3D view context menu:

@@ -12,10 +12,11 @@ Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw
 | [TechDraw ActiveView/fr](TechDraw_ActiveView/fr.md) | [TechDraw AngleDimension/fr](TechDraw_AngleDimension/fr.md) | [TechDraw Annotation/fr](TechDraw_Annotation/fr.md) |
 | [TechDraw API/fr](TechDraw_API/fr.md) | [TechDraw ArchView/fr](TechDraw_ArchView/fr.md) | [TechDraw AxoLengthDimension/fr](TechDraw_AxoLengthDimension/fr.md) |
 | [TechDraw Balloon/fr](TechDraw_Balloon/fr.md) | [TechDraw ClipGroup/fr](TechDraw_ClipGroup/fr.md) | [TechDraw ClipGroupAdd/fr](TechDraw_ClipGroupAdd/fr.md) |
-| [TechDraw ClipGroupRemove/fr](TechDraw_ClipGroupRemove/fr.md) | [TechDraw ComplexSection/fr](TechDraw_ComplexSection/fr.md) | [TechDraw CosmeticEraser/fr](TechDraw_CosmeticEraser/fr.md) |
-| [TechDraw CosmeticVertex/fr](TechDraw_CosmeticVertex/fr.md) | [TechDraw DecorateLine/fr](TechDraw_DecorateLine/fr.md) | [TechDraw DetailView/fr](TechDraw_DetailView/fr.md) |
-| [TechDraw DiameterDimension/fr](TechDraw_DiameterDimension/fr.md) | [TechDraw DimensionRepair/fr](TechDraw_DimensionRepair/fr.md) | [TechDraw DraftView/fr](TechDraw_DraftView/fr.md) |
-| [TechDraw ExportPageDXF/fr](TechDraw_ExportPageDXF/fr.md) | [TechDraw ExportPageSVG/fr](TechDraw_ExportPageSVG/fr.md) | [TechDraw ExtensionAreaAnnotation/fr](TechDraw_ExtensionAreaAnnotation/fr.md) |
+| [TechDraw ClipGroupRemove/fr](TechDraw_ClipGroupRemove/fr.md) | [TechDraw CommandAddOffsetVertex/fr](TechDraw_CommandAddOffsetVertex/fr.md) | [TechDraw ComplexSection/fr](TechDraw_ComplexSection/fr.md) |
+| [TechDraw CosmeticCircle/fr](TechDraw_CosmeticCircle/fr.md) | [TechDraw CosmeticEraser/fr](TechDraw_CosmeticEraser/fr.md) | [TechDraw CosmeticVertex/fr](TechDraw_CosmeticVertex/fr.md) |
+| [TechDraw DecorateLine/fr](TechDraw_DecorateLine/fr.md) | [TechDraw DetailView/fr](TechDraw_DetailView/fr.md) | [TechDraw DiameterDimension/fr](TechDraw_DiameterDimension/fr.md) |
+| [TechDraw DimensionRepair/fr](TechDraw_DimensionRepair/fr.md) | [TechDraw DraftView/fr](TechDraw_DraftView/fr.md) | [TechDraw ExportPageDXF/fr](TechDraw_ExportPageDXF/fr.md) |
+| [TechDraw ExportPageSVG/fr](TechDraw_ExportPageSVG/fr.md) | [TechDraw ExtensionArcLengthAnnotation/fr](TechDraw_ExtensionArcLengthAnnotation/fr.md) | [TechDraw ExtensionAreaAnnotation/fr](TechDraw_ExtensionAreaAnnotation/fr.md) |
 | [TechDraw ExtensionCascadeHorizDimension/fr](TechDraw_ExtensionCascadeHorizDimension/fr.md) | [TechDraw ExtensionCascadeObliqueDimension/fr](TechDraw_ExtensionCascadeObliqueDimension/fr.md) | [TechDraw ExtensionCascadeVertDimension/fr](TechDraw_ExtensionCascadeVertDimension/fr.md) |
 | [TechDraw ExtensionChangeLineAttributes/fr](TechDraw_ExtensionChangeLineAttributes/fr.md) | [TechDraw ExtensionCircleCenterLines/fr](TechDraw_ExtensionCircleCenterLines/fr.md) | [TechDraw ExtensionCreateHorizChainDimension/fr](TechDraw_ExtensionCreateHorizChainDimension/fr.md) |
 | [TechDraw ExtensionCreateHorizChamferDimension/fr](TechDraw_ExtensionCreateHorizChamferDimension/fr.md) | [TechDraw ExtensionCreateHorizCoordDimension/fr](TechDraw_ExtensionCreateHorizCoordDimension/fr.md) | [TechDraw ExtensionCreateLengthArc/fr](TechDraw_ExtensionCreateLengthArc/fr.md) |
@@ -29,24 +30,24 @@ Cette catégorie répertorie les pages liées à l\'atelier [Workbench](TechDraw
 | [TechDraw ExtensionPosVertChainDimension/fr](TechDraw_ExtensionPosVertChainDimension/fr.md) | [TechDraw ExtensionRemovePrefixChar/fr](TechDraw_ExtensionRemovePrefixChar/fr.md) | [TechDraw ExtensionSelectLineAttributes/fr](TechDraw_ExtensionSelectLineAttributes/fr.md) |
 | [TechDraw ExtensionShortenLine/fr](TechDraw_ExtensionShortenLine/fr.md) | [TechDraw ExtensionThreadBoltBottom/fr](TechDraw_ExtensionThreadBoltBottom/fr.md) | [TechDraw ExtensionThreadBoltSide/fr](TechDraw_ExtensionThreadBoltSide/fr.md) |
 | [TechDraw ExtensionThreadHoleBottom/fr](TechDraw_ExtensionThreadHoleBottom/fr.md) | [TechDraw ExtensionThreadHoleSide/fr](TechDraw_ExtensionThreadHoleSide/fr.md) | [TechDraw ExtensionVertexAtIntersection/fr](TechDraw_ExtensionVertexAtIntersection/fr.md) |
-| [TechDraw FaceCenterLine/fr](TechDraw_FaceCenterLine/fr.md) | [TechDraw Geometric dimensioning and tolerancing/fr](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md) | [TechDraw GeometricHatch/fr](TechDraw_GeometricHatch/fr.md) |
-| [TechDraw Hatch/fr](TechDraw_Hatch/fr.md) | [TechDraw Hatching/fr](TechDraw_Hatching/fr.md) | [TechDraw HoleShaftFit/fr](TechDraw_HoleShaftFit/fr.md) |
-| [TechDraw HorizontalDimension/fr](TechDraw_HorizontalDimension/fr.md) | [TechDraw HorizontalExtentDimension/fr](TechDraw_HorizontalExtentDimension/fr.md) | [TechDraw HowTo Page/fr](TechDraw_HowTo_Page/fr.md) |
-| [TechDraw Image/fr](TechDraw_Image/fr.md) | [TechDraw LandmarkDimension/fr](TechDraw_LandmarkDimension/fr.md) | [TechDraw LeaderLine/fr](TechDraw_LeaderLine/fr.md) |
-| [TechDraw LengthDimension/fr](TechDraw_LengthDimension/fr.md) | [TechDraw LineGroup/fr](TechDraw_LineGroup/fr.md) | [TechDraw LinkDimension/fr](TechDraw_LinkDimension/fr.md) |
-| [TechDraw Midpoints/fr](TechDraw_Midpoints/fr.md) | [TechDraw MoveView/fr](TechDraw_MoveView/fr.md) | [TechDraw PageDefault/fr](TechDraw_PageDefault/fr.md) |
-| [TechDraw PageTemplate/fr](TechDraw_PageTemplate/fr.md) | [TechDraw Pitch Circle Tutorial/fr](TechDraw_Pitch_Circle_Tutorial/fr.md) | [TechDraw Preferences/fr](TechDraw_Preferences/fr.md) |
-| [TechDraw PrintAll/fr](TechDraw_PrintAll/fr.md) | [TechDraw ProjectionGroup/fr](TechDraw_ProjectionGroup/fr.md) | [TechDraw ProjectShape/fr](TechDraw_ProjectShape/fr.md) |
-| [TechDraw Quadrants/fr](TechDraw_Quadrants/fr.md) | [TechDraw RadiusDimension/fr](TechDraw_RadiusDimension/fr.md) | [TechDraw RedrawPage/fr](TechDraw_RedrawPage/fr.md) |
-| [TechDraw RichTextAnnotation/fr](TechDraw_RichTextAnnotation/fr.md) | [TechDraw Section Examples/fr](TechDraw_Section_Examples/fr.md) | [TechDraw SectionView/fr](TechDraw_SectionView/fr.md) |
-| [TechDraw ShareView/fr](TechDraw_ShareView/fr.md) | [TechDraw ShowAll/fr](TechDraw_ShowAll/fr.md) | [TechDraw SpreadsheetView/fr](TechDraw_SpreadsheetView/fr.md) |
-| [TechDraw StackBottom/fr](TechDraw_StackBottom/fr.md) | [TechDraw StackDown/fr](TechDraw_StackDown/fr.md) | [TechDraw StackTop/fr](TechDraw_StackTop/fr.md) |
-| [TechDraw StackUp/fr](TechDraw_StackUp/fr.md) | [TechDraw SurfaceFinishSymbol/fr](TechDraw_SurfaceFinishSymbol/fr.md) | [TechDraw Symbol/fr](TechDraw_Symbol/fr.md) |
-| [TechDraw TemplateHowTo/fr](TechDraw_TemplateHowTo/fr.md) | [TechDraw Templates/fr](TechDraw_Templates/fr.md) | [TechDraw ToggleFrame/fr](TechDraw_ToggleFrame/fr.md) |
-| [Template:TechDraw Tools navi/fr](Template_TechDraw_Tools_navi/fr.md) | [TechDraw VerticalDimension/fr](TechDraw_VerticalDimension/fr.md) | [TechDraw VerticalExtentDimension/fr](TechDraw_VerticalExtentDimension/fr.md) |
-| [TechDraw View/fr](TechDraw_View/fr.md) | [TechDraw WeldSymbol/fr](TechDraw_WeldSymbol/fr.md) | [TechDraw Workbench/fr](TechDraw_Workbench/fr.md) |
-| [TechDrawGui API/fr](TechDrawGui_API/fr.md) | [Topological naming problem/fr](Topological_naming_problem/fr.md) | [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md) |
-|
+| [TechDraw FaceCenterLine/fr](TechDraw_FaceCenterLine/fr.md) | [TechDraw General Examples/fr](TechDraw_General_Examples/fr.md) | [TechDraw Geometric dimensioning and tolerancing/fr](TechDraw_Geometric_dimensioning_and_tolerancing/fr.md) |
+| [TechDraw GeometricHatch/fr](TechDraw_GeometricHatch/fr.md) | [TechDraw Hatch/fr](TechDraw_Hatch/fr.md) | [TechDraw Hatching/fr](TechDraw_Hatching/fr.md) |
+| [TechDraw HoleShaftFit/fr](TechDraw_HoleShaftFit/fr.md) | [TechDraw HorizontalDimension/fr](TechDraw_HorizontalDimension/fr.md) | [TechDraw HorizontalExtentDimension/fr](TechDraw_HorizontalExtentDimension/fr.md) |
+| [TechDraw HowTo Page/fr](TechDraw_HowTo_Page/fr.md) | [TechDraw Image/fr](TechDraw_Image/fr.md) | [TechDraw LandmarkDimension/fr](TechDraw_LandmarkDimension/fr.md) |
+| [TechDraw LeaderLine/fr](TechDraw_LeaderLine/fr.md) | [TechDraw LengthDimension/fr](TechDraw_LengthDimension/fr.md) | [TechDraw LineGroup/fr](TechDraw_LineGroup/fr.md) |
+| [TechDraw LinkDimension/fr](TechDraw_LinkDimension/fr.md) | [TechDraw Midpoints/fr](TechDraw_Midpoints/fr.md) | [TechDraw MoveView/fr](TechDraw_MoveView/fr.md) |
+| [TechDraw PageDefault/fr](TechDraw_PageDefault/fr.md) | [TechDraw PageTemplate/fr](TechDraw_PageTemplate/fr.md) | [TechDraw Pitch Circle Tutorial/fr](TechDraw_Pitch_Circle_Tutorial/fr.md) |
+| [TechDraw Preferences/fr](TechDraw_Preferences/fr.md) | [TechDraw PrintAll/fr](TechDraw_PrintAll/fr.md) | [TechDraw ProjectionGroup/fr](TechDraw_ProjectionGroup/fr.md) |
+| [TechDraw ProjectShape/fr](TechDraw_ProjectShape/fr.md) | [TechDraw Quadrants/fr](TechDraw_Quadrants/fr.md) | [TechDraw RadiusDimension/fr](TechDraw_RadiusDimension/fr.md) |
+| [TechDraw RedrawPage/fr](TechDraw_RedrawPage/fr.md) | [TechDraw RichTextAnnotation/fr](TechDraw_RichTextAnnotation/fr.md) | [TechDraw Section Examples/fr](TechDraw_Section_Examples/fr.md) |
+| [TechDraw SectionView/fr](TechDraw_SectionView/fr.md) | [TechDraw ShareView/fr](TechDraw_ShareView/fr.md) | [TechDraw ShowAll/fr](TechDraw_ShowAll/fr.md) |
+| [TechDraw SpreadsheetView/fr](TechDraw_SpreadsheetView/fr.md) | [TechDraw StackBottom/fr](TechDraw_StackBottom/fr.md) | [TechDraw StackDown/fr](TechDraw_StackDown/fr.md) |
+| [TechDraw StackTop/fr](TechDraw_StackTop/fr.md) | [TechDraw StackUp/fr](TechDraw_StackUp/fr.md) | [TechDraw SurfaceFinishSymbol/fr](TechDraw_SurfaceFinishSymbol/fr.md) |
+| [TechDraw Symbol/fr](TechDraw_Symbol/fr.md) | [TechDraw TemplateHowTo/fr](TechDraw_TemplateHowTo/fr.md) | [TechDraw Templates/fr](TechDraw_Templates/fr.md) |
+| [TechDraw ToggleFrame/fr](TechDraw_ToggleFrame/fr.md) | [Template:TechDraw Tools navi/fr](Template_TechDraw_Tools_navi/fr.md) | [TechDraw VerticalDimension/fr](TechDraw_VerticalDimension/fr.md) |
+| [TechDraw VerticalExtentDimension/fr](TechDraw_VerticalExtentDimension/fr.md) | [TechDraw View/fr](TechDraw_View/fr.md) | [TechDraw WeldSymbol/fr](TechDraw_WeldSymbol/fr.md) |
+| [TechDraw Workbench/fr](TechDraw_Workbench/fr.md) | [TechDrawGui API/fr](TechDrawGui_API/fr.md) | [Topological naming problem/fr](Topological_naming_problem/fr.md) |
+| [Tutorial for open windows/fr](Tutorial_for_open_windows/fr.md) |
 
 
 

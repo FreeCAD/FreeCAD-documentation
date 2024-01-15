@@ -25,7 +25,7 @@ Per un\'analisi degli elementi finiti, la geometria deve essere discretizzata in
 
 </div>
 
-Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+Depending on your operating system and your installation package, Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
 
 
 
@@ -44,7 +44,7 @@ Depending on your operating system and your installation package Gmsh might be b
 
 </div>
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
+After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
 
 ## Properties
 
@@ -103,12 +103,12 @@ After the mesh has been crated you can change its properties using the [property
 
 ### Nonpositive Jacobians 
 
-When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
+When you get a meshing error about nonpositive Jacobians, you can try out the following strategies:
 
 -   Set **Second Order Linear** to *true* but keep **Element Order** at *2nd*.
 -   Set **Element Order** to *1st*.
 -   Use a smaller element size by reducing the **Characteristic Length Max**.
--   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
+-   If solver ccxtools is used and the run button is used (not the task panel) the nodes of nonpositive jacobian elements will be green.
 
 ### Mesh Growth 
 
@@ -120,7 +120,7 @@ At edges and small geometric entities, the mesh has to be smaller than in areas 
 To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
-*Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
+*Sensible mesh growing due to the additional edge in the middle of the cylindrical area*
 
 ### Element Recombination 
 

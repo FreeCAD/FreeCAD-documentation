@@ -14,24 +14,34 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft ToggleGrid** command switches the grid on or off. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
+The <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft ToggleGrid** command changes the visibility of the grid.
+
+
+<small>(v0.22)</small> 
+
+: Each [3D view](3D_view.md) has its own grid that can either always be visible, only be visible during commands, or invisible. The initial visibility of the grid in new views depends on the [preferences](#Preferences.md).
 
 ## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
-
-1.  Optionally change the [working plane and/or the grid](Draft_SelectPlane.md).
-2.  To invoke **Draft ToggleGrid** do one of the following:
-    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the Draft snap toolbar.
-    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px>** button in the [Draft snap widget](Draft_snap_widget.md).
-    -   Use the keyboard shortcut: **G** then **R**. This shortcut cannot be used when a command is active.
+1.  The command can be used while another command is active.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px> [Toggle grid](Draft_ToggleGrid.md)** button in the Draft snap toolbar.
+    -   Press the **<img src="images/Draft_ToggleGrid.svg" width=16px> [Toggle grid](Draft_ToggleGrid.md)** button in the [Draft snap widget](Draft_snap_widget.md).
+    -   Use the keyboard shortcut: **G** then **R**. This shortcut cannot be used if another command is active.
+3.  The visibility of the grid belonging to the current 3D view has changed:
+    -   If no other command is active:
+        -   If the grid was invisible it is now always visible.
+        -   If the grid was visible it is now no longer always visible, but the grid\'s visibility during commands remains unchanged.
+    -   If another command is active:
+        -   If the grid was invisible it is now only visible during commands.
+        -   If the grid was visible it is now no longer visible during commands and no longer always visible.
 
 ## Preferences
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+-   Several grid preferences are available: **Edit → Preferences... → Draft → Grid and snapping**.
+-   To keep the grid when switching to other workbenches see [Fine-tuning](Fine-tuning#Draft_Workbench.md).
 
 
 

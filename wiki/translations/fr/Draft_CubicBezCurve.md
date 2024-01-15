@@ -21,22 +21,24 @@ Les commandes [Draft Courbe de Bézier](Draft_BezCurve/fr.md) et Draft Courbe de
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
 *Spline constituée de trois segments cubiques de Bézier. Le premier segment est défini par quatre points. Les segments suivants réutilisent deux points du segment précédent et ne nécessitent donc que deux points supplémentaires.*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md)**.
-    -   Sélectionnez la **Draft → Outils de Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** dans le menu.
+    -   Sélectionnez la **Draft → Outils de Bézier → <img src="images/Draft_CubicBezCurve.svg" width=16px> Courbe de Bézier cubique** du menu.
 2.  Le panneau de tâches **Courbe cubique de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Il n\'est pas possible de saisir des points via le panneau de tâches.
 4.  Pour les [modes de navigation par la souris](Mouse_navigation/fr.md) suivants, une touche du clavier doit être maintenue enfoncée :
-    -   Si vous utilisez le [Mode OpenInventor](Mouse_navigation/fr#Mode_OpenInventor.md), la touche **Ctrl** doit être maintenue enfoncée pendant toute la durée de la commande.
-    -   Si vous utilisez le [Mode Gestuel](Mouse_navigation/fr#Mode_Gestuel.md), la touche **Alt** doit être maintenue enfoncée pour chaque séquence de clic et de relâchement, mais il est également possible de maintenir cette touche enfoncée pendant toute la durée de la commande.
-5.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) et maintenez le bouton de la souris (1), il s\'agit du premier point.
-6.  Faites glisser le pointeur vers un autre point de la [Vue 3D](3D_view/fr.md) et relâchez le bouton de la souris (2), il s\'agit du premier point de contrôle.
-7.  Déplacez le pointeur vers un autre point dans la [Vue 3D](3D_view/fr.md), choisissez ce point et maintenez le bouton de la souris (3), il s\'agit du deuxième point d\'extrémité.
-8.  Déplacez le pointeur vers un autre point dans la [Vue 3D](3D_view/fr.md) pour ajuster la courbure finale du segment et relâchez le bouton de la souris (4), il s\'agit du deuxième point de contrôle.
+    -   Si vous utilisez le [mode OpenInventor](Mouse_navigation/fr#Mode_OpenInventor.md), la touche **Ctrl** doit être maintenue enfoncée pendant toute la durée de la commande.
+    -   Si vous utilisez le [mode Gestuel](Mouse_navigation/fr#Mode_Gestuel.md), la touche **Alt** doit être maintenue enfoncée pour chaque séquence de clic et de relâchement, mais il est également possible de maintenir cette touche enfoncée pendant toute la durée de la commande.
+5.  Choisissez le premier point dans la [vue 3D](3D_view/fr.md) et maintenez le bouton de la souris (1), il s\'agit du premier point.
+6.  Faites glisser le pointeur vers un autre point de la [vue 3D](3D_view/fr.md) et relâchez le bouton de la souris (2), il s\'agit du premier point de contrôle.
+7.  Déplacez le pointeur vers un autre point dans la [vue 3D](3D_view/fr.md), choisissez ce point et maintenez le bouton de la souris (3), il s\'agit du deuxième point d\'extrémité.
+8.  Déplacez le pointeur vers un autre point dans la [vue 3D](3D_view/fr.md) pour ajuster la courbure finale du segment et relâchez le bouton de la souris (4), il s\'agit du deuxième point de contrôle.
 9.  Vous avez maintenant une courbe de Bézier du 3ème degré.
 10. Vous pouvez répéter le processus de cliquer et de maintenir (5), puis de faire glisser et de relâcher (6) pour ajouter d\'autres segments.
 11. Chaque segment suivant utilisera le deuxième point d\'extrémité et le deuxième point de contrôle du segment précédent comme premier point d\'extrémité et premier point de contrôle respectivement.
@@ -48,15 +50,15 @@ Voir [Draft Courbe de Bézier](Draft_BezCurve/fr#Options.md).
 
 ## Notes
 
--   Une Draft Courbe de Bézier cubique peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Une Draft Courbe de Bézier cubique peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 
-## Préférences
 
-Voir [Draft Courbe de Bézier](Draft_BezCurve/fr#Pr.C3.A9f.C3.A9rences.md).
 
 ## Propriétés
 
 Voir [Draft Courbe de Bézier](Draft_BezCurve/fr#Propri.C3.A9t.C3.A9s.md).
+
+
 
 ## Script
 

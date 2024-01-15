@@ -1,110 +1,127 @@
 ---
  GuiCommand:
    Name: Draft Polygon
-   MenuLocation: Drafting , Polygon
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Wielokąt foremny
+   MenuLocation: Kreślenie , Wielokąt foremny
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **P** **G**
    Version: 0.7
 ---
 
 # Draft Polygon/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Draft Polygon** command creates a regular polygon in the current [working plane](Draft_SelectPlane.md) from a center and a radius. The radius can be defined by picking a point.
 
-A Draft Polygon can be switched from inscribed to circumscribed by changing its **Draw Mode** property. The corners of a Draft Polygon can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively.
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Polygon.svg  style="width:24px;"> **Wielokąt foremny** tworzy okrąg w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) na bazie punktu środkowego i promienia. Promień może być zdefiniowany przez wybranie punktu.
+
+Szkic wielokąta może zostać przełączony z wpisanego na opisany poprzez zmianę jego właściwości **Tryb kreślenia**. Narożniki szkicu wielokąta można zaokrąglić lub sfazować, zmieniając odpowiednio właściwości **Promień zaokrąglenia** lub **Promień sfazowania**.
 
 <img alt="" src=images/Draft_polygon_example.jpg  style="width:400px;"> 
-*Regular polygon defined by two points, center and radius*
-
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Polygon.svg" width=16px> [Draft Polygon](Draft_Polygon.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Polygon.svg" width=16px> Polygon** option from the menu.
-    -   Use the keyboard shortcut: **P** then **G**.
-2.  The **Polygon** task panel opens. See [Options](#Options.md) for more information.
-3.  Adjust the desired number of **Sides**.
-4.  Pick the first point, the center of the polygon, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-5.  Pick the second point in the [3D view](3D_view.md), or enter a **Radius**.
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
--   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created polygon will have **Make Face** set to `True` and will have a filled face.
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating polygons.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
-
-## Notes
-
--   A Draft Polygon can be edited with the [Draft Edit](Draft_Edit.md) command.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part RegularPolygon](Part_RegularPolygon.md) instead of a Draft Polygon.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Wielokąt foremny zdefiniowany przez dwa punkty, środek i promień.*
 
 
-{{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the polygon. The value will be {{value|0.0}} if **Make Face** if `False`.
+## Użycie
 
--    **Chamfer Size|Length**: specifies the length of the chamfers at the corners of the polygon.
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
--    **Draw Mode|Enumeration**: specifies if the polygon is {{value|inscribed}} in a circle or {{value|circumscribed}} around a circle.
-
--    **Faces Number|Integer**: specifies the number of sides of the polygon.
-
--    **Fillet Radius|Length**: specifies the radius of the fillets at the corners of the polygon.
-
--    **Make Face|Bool**: specifies if the polygon makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object.
-
--    **Radius|Length**: specifies the radius of the circle that defines the polygon.
-
-### View
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Polygon.svg" width=16px> '''Wielokąt foremny'''**.
+    -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_Polygon.svg" width=16px> Wielokąt foremny**.
+    -   Użyj skrótu klawiaturowego: **P**, a następnie **G**.
+2.  Otworzy się panel zadań **Wielokąt**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+3.  Ustaw żądaną liczbę **Boków**.
+4.  Wybierz pierwszy punkt, środek wielokąta, w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+5.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz **Promień**.
 
 
-{{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the polygon. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
+## Opcje
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
-## Scripting
+-   Aby samodzielnie wprowadzić współrzędne środka, wprowadź komponent X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby włączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odnoszone do globalnego układu współrzędnych, w przeciwnym razie są odnoszone do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony wielokąt będzie miał właściwość **Utwórz ścianę** ustawioną na wartość `True` i będzie miał wypełnioną ścianę.
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie wielokątów.
+-   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Polygon use the `make_polygon` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePolygon` method.
+
+## Uwagi
+
+-   Wielokąt foremny środowiska Rysunek Roboczy można edytować za pomocą polecenia [Edycja](Draft_Edit/pl.md).
+
+
+
+## Ustawienia
+
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
+
+-   Jeśli **Edycja → Preferencje ... → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Użyj prymitywów części, gdy są dostępne**, polecenie utworzy [Wielokąt foremny](Part_RegularPolygon/pl.md) środowiska Część zamiast wielokąta środowiska Rysunek Roboczy.
+
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Wielokąt foremny środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Obszar|Area**: *(tylko do odczytu)* określa obszar ściany wielokąta. Wartość będzie wynosić {{value|0.0}} jeśli włsściwość **Utwórz ścianę** ma wartość {{FALSE/pl}}.
+
+-    **Promień sfazowania|Length**: określa długość faz w narożnikach wielokąta.
+
+-    **Tryb kreślenia|Enumeration**: określa, czy wielokąt jest {{value|wpisany}} w okrąg lub {{value|opisany}} okręgiem.
+
+-    **Liczba ścian|Integer**: określa liczbę boków wielokąta.
+
+-    **Promień zaokrąglenia|Length**: określa promień zaokrąglenia w rogach wielokąta.
+
+-    **Utwórz ścianę|Bool**: określa, czy wielokąt tworzy ścianę, czy nie. Jeśli ma wartość {{TRUE/pl}}, tworzona jest ściana, w przeciwnym razie tylko kontur jest uważany za część obiektu.
+
+-    **Promień|Length**: określa promień okręgu definiującego wielokąt.
+
+
+
+### Widok
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Wzór|Enumeration**: określa [Wzór](Draft_Pattern/pl.md), którym ma zostać wypełniona ściana wielokąta. Ta właściwość działa tylko jeśli właściwość **Utwórz ścianę** ma wartość `True` i jeśli właściwość **Tryb wyświetlania** ma wartość {{value|Cieniowany z krawędziami}}.
+
+-    **Rozmiar wzoru|Float**: określa rozmiar [Wzoru](Draft_Pattern/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć **Wielokąt foremny** środowiska Rysunek Roboczy użyj metody `make_polygon` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makePolygon`.
 
 
 ```python
 polygon = make_polygon(nfaces, radius=1, inscribed=True, placement=None, face=None, support=None)
 ```
 
--   Creates a `polygon` object with the given number of faces (`nfaces`), and based on a circle of `radius` in millimeters.
--   If `inscribed` is `True`, the polygon is inscribed in the circle, otherwise it will be circumscribed.
--   If `placement` is `None` the polygon is created at the origin and one of its vertices will lie on the X axis.
--   If `face` is `True`, the polygon will make a face, that is, it will appear filled.
+-   Tworzy obiekt `wielokąt` z podaną liczbą ścian (`nfaces`) i oparty na `promieniu` okręgu w milimetrach.
+-   Jeśli włściwość `wpisany` ma wartość {{True/pl}}, wielokąt zostanie wpisany w okrąg, w przeciwnym razie zostanie opisany.
+-   Jeśli włściwość `umiejscowienie` ma wartość `Brak`, wielokąt zostanie utworzony w punkcie początkowym, a jeden z jego wierzchołków będzie leżał na osi X.
+-   Jeśli włściwość `ściana` ma wartość {{True/pl}}, wielokąt utworzy ścianę, czyli będzie wyglądał na wypełniony.
 
-Example: 
+Przykład: 
 ```python
 import FreeCAD as App
 import Draft

@@ -11,19 +11,25 @@
 
 # Draft Hatch/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> **Kreskowanie** środowiska Rysunek Roboczy tworzy kreskowanie na powierzchniach planarnych wybranego obiektu.
+
+
 
 ## Użycie
 
 1.  Wybierz obiekt z powierzchniami. Tylko planarne powierzchnie obiektu zostaną zakreskowane.
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
-    -   Naciśnij przycisk **<img src="images/Draft_Hatch.svg" width=16px> [Kreskowanie](Draft_Hatch/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Hatch.svg" width=16px> '''Kreskowanie'''**.
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Hatch.svg" width=16px> Kreskowanie**.
     -   Użyj skrótu klawiaturowego: **H**, a następnie **A**.
 3.  Otworzy się panel zadań **Kreskowanie**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 4.  Naciśnij przycisk **OK**, aby zakończyć polecenie.
+
+
 
 ## Opcje
 
@@ -32,6 +38,8 @@ Polecenie <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> **Kreskow
 -   Określ **Skalę** dla wzoru.
 -   Określ **Obrót** dla wzoru.
 -   Naciśnij klawisz **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
+
+
 
 ## Wyrównanie wzoru 
 
@@ -47,6 +55,8 @@ Dla szkicu kreskowania po lewej stronie właściwość Translate jest ustawiona 
 Dla szkicu kreskowania po prawej stronie jest ona ustawiona na wartość {{True/pl}}.
 }}
 
+
+
 ## Uwagi
 
 -   Na razie radzimy pobrać plik PAT. Wiele z nich można znaleźć w Internecie. Można na przykład wyszukać w sieci **acad.pat** lub **acadiso.pat**.
@@ -54,6 +64,8 @@ Dla szkicu kreskowania po prawej stronie jest ona ustawiona na wartość {{True/
     -   W systemie Linux jest to zazwyczaj **/usr/share/freecad**.
     -   W systemie Windows jest to zazwyczaj **C:\Program Files\FreeCAD**.
     -   W systemie macOS jest to zazwyczaj **/Applications/FreeCAD**.
+
+
 
 ## Ustawienia
 
@@ -66,11 +78,15 @@ Zastosowanie mają następujące preferencje:
 -   Skala: **Przybory → Edycja parametrów → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
 -   Obrót: **Przybory → Edycja parametrów → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
 
+
+
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Kreskowanie wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -88,6 +104,8 @@ Obiekt Kreskowanie wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) 
 -    **Skala|Float**: określa skalę wzoru.
 
 -    **Przesunięcie|Bool**: określa, czy podczas procesu kreskowania powierzchnie są tymczasowo przeliczane na globalną płaszczyznę XY. Ustawienie tej wartości na {{FALSE/pl}} może dać błędne wyniki dla powierzchni innych niż XY.
+
+
 
 ## Tworzenie skryptów 
 

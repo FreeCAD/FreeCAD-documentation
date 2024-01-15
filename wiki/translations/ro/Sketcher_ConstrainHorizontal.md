@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 **Constrângerea orizontală** forțează o linie din schiță să fie paralelă cu axa orizontală a schiței.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -63,7 +67,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

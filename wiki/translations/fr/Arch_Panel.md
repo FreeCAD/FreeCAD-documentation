@@ -78,7 +78,7 @@ Depuis la version {{VersionPlus/fr|0.17}}, Arch Panneau peut également être ut
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Panneau peut-être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante: 
+L\'outil Panneau peut-être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python
 Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, name="Panel")
 ```
@@ -87,7 +87,7 @@ Panel = makePanel(baseobj=None, length=0, width=0, thickness=0, placement=None, 
     -   Si aucun `baseobj` n\'est indiqué, vous pouvez fournir les valeurs numériques pour `length`, `width` et `thickness` pour créer un bloc panneau.
 -   Si un `placement` est donné, il est utilisé.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 

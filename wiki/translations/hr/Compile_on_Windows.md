@@ -124,7 +124,7 @@ If it fails with the message that Visual Studio could not be found, the CMake su
 If it fails with a message about the wrong Python version or missing Python, then:
 
 1.  Use the \"Search:\" box in CMake to search for the string \"Python\"
-2.  If you see there a path like *C:/Program Files/Python38/python.exe*, CMake recognized the Python that is already installed on your PC, but that version is not compatible with the LibPack. Since the LibPack includes a compatible version of Python, modify the following Python settings in CMake to its paths (assuming the LibPack is in the folder *D:/FreeCAD-build/FreeCADLibs_2\_8_x64_VC2019*):
+2.  If you see there a path like *C:/Program Files/Python38/python.exe*, CMake recognized the Python that is already installed on your PC, but that version is not compatible with the LibPack. Since the LibPack includes a compatible version of Python, modify the following Python settings in CMake to its paths (assuming the LibPack is in the folder *D:/FreeCAD-build/FreeCADLibs_2_8_x64_VC2019*):
 
 ![](images/CMake_Python_settings.png )
 
@@ -416,7 +416,7 @@ As result you will get the plugin file *\'FreeCAD_widgets.dll* in the folder*\~\
 
 To install the plugin, copy the DLL either to:
 
--   If you use the LibPack: to the folder*\~\\FreeCADLibs_2\_8_x64_VC2019\\plugins\\designer*
+-   If you use the LibPack: to the folder*\~\\FreeCADLibs_2_8_x64_VC2019\\plugins\\designer*
 -   If you have a full Qt installation: you can choose between the folder*C:\\Qt\\5.15.2\\msvc2019_64\\plugins\\designer*or*C:\\Qt\\5.15.2\\msvc2019_64\\bin\\designer* (you must first create the *designer* subfolder.)(adapt the paths to your installation!).
 
 Finally (re)start Qt Designer and check its menu **Help → Plugins**. If the plugin **FreeCAD_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.

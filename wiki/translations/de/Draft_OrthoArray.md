@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft OrthoArray
    Name/de: Draft RechtwinkligeAnordnung
-   MenuLocation: Änderung , Array tools , Anordnung
+   MenuLocation: Änderung , Anordnungswerkzeuge , Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.19
    SeeAlso: Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
@@ -28,7 +28,7 @@ Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereiche
 1.  Wahlweise ein Objekt auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_OrthoArray.svg" width=16px> [Anordnung](Draft_OrthoArray.md)** drücken.
-    -   Den Menüeintrag **Änderung → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** wählen.
+    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_OrthoArray.svg" width=16px> Anordnung** wählen.
 3.  Der Aufgabenbereich **Rechtwinklige Anordnung** wird geöffnet. Siehe auch [Optionen](#Optionen.md).
 4.  Ein Objekt auswählen, wenn noch keins ausgewählt wurde.
 5.  Die erforderlichen Parameter im Aufgabenbereich eingeben.
@@ -61,14 +61,6 @@ Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereiche
 
 -   Eine Draft RechtwinkligeAnordnung kann in eine [Draft PolareAnordnung](Draft_PolarArray/de.md) oder eine [Draft KreisAnordnung](Draft_CircularArray/de.md) umgewandelt werden, indem ihre {{PropertyData/de|Array Type}} verändert wird.
 -   Eine Verknüpfungsanordnung (Link-Array) kann nicht in eine normale Anordnung oder zurück umgewandelt werden. Diese Auswahl der Anordnungsart muss zum Erstellungszeitpunkt erfolgen.
-
-
-
-## Einstellungen
-
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
 
 
 

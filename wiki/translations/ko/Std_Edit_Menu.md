@@ -7,7 +7,7 @@
 
 ## 소개
 
-**표준 편집 메뉴(Std Edit Menu)**는 [표준 메뉴의](Standard_Menu/ko.md) 7개 하위 메뉴 중 하나입니다.
+**표준 편집 메뉴(Std Edit Menu)**는 [표준 메뉴](Standard_Menu/ko.md)의 7개 하위 메뉴 중 하나입니다.
 
 
 {{StdMenu
@@ -60,7 +60,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [파이썬 콘솔로 보내기](Std_SendToPythonConsole/ko.md): 개체를 참조하는 변수를 [파이썬 콘솔에](Python_console/ko.md) 생성합니다. {{Version/ko|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [파이썬 콘솔로 보내기](Std_SendToPythonConsole/ko.md): 개체를 참조하는 변수를 [파이썬 콘솔](Python_console/ko.md)에 생성합니다. {{Version/ko|0.19}}
 
 
 </div>
@@ -78,7 +78,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [환경 설정\...](Std_DlgPreferences/ko.md): [속성 편집기를](Preferences_Editor/ko.md) 엽니다. 
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [환경 설정\...](Std_DlgPreferences/ko.md): [속성 편집기](Preferences_Editor/ko.md)를 엽니다. 
 **-- MacOS에서는 이 메뉴 옵션이 편집 메뉴 대신 FreeCAD 메뉴에 나타날 수 있습니다.**
 
 

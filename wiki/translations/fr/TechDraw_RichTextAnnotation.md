@@ -5,13 +5,10 @@
    MenuLocation: TechDraw , Annotations , Insérer une annotation de texte enrichi
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
-   SeeAlso: TechDraw_Templates/fr, Draft_SVG/fr, TechDraw_LeaderLine/fr
+   SeeAlso: TechDraw_Annotation/fr
 ---
 
 # TechDraw RichTextAnnotation/fr
-
-
-</div>
 
 ## Description
 
@@ -24,29 +21,25 @@ L\'outil **TechDraw Insérer une annotation de texte enrichi** ajoute un bloc d\
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Appuyez sur le bouton **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Insérer une annotation de texte enrichi](TechDraw_RichTextAnnotation/fr.md)**.
-2.  Une boîte de dialogue de tâche s\'ouvre. La boîte de dialogue permet une saisie rapide du texte.
-3.  Le bouton **démarrer l'éditeur de texte enrichi** ouvre un éditeur complet. Appuyez sur l'icône Sauvegarder pour enregistrer vos modifications.
-4.  Une fois le bloc créé, vous pouvez le modifier en double-cliquant sur RichTextBlock dans l\'arborescence.
-5.  Pour attacher le bloc à une [Ligne de référence](TechDraw_LeaderLine/fr.md), sélectionnez la ligne avant de démarrer l\'outil Insérer une annotation de texte enrichi.
-
-
-</div>
-
-
-
-## Notes
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page désirée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+2.  Pour attacher la Annotation texte enrichi à une [ligne de référence](TechDraw_LeaderLine/fr.md), sélectionnez la ligne dans la [vue en arborescence](Tree_view/fr.md) ou sur la page.
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> [Insérer une annotation de texte enrichi](TechDraw_RichTextAnnotation/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Insérer une annotation de texte enrichi** du menu.
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+5.  Un panneau de tâches s\'ouvre.
+6.  Le panneau des tâches permet de saisir rapidement du texte.
+7.  Le bouton **Lancer l'éditeur de texte enrichi** ouvre un éditeur complet :
+    1.  Lorsque vous avez terminé, appuyez sur le bouton **<img src="images/Document-save.svg" width=16px>** pour enregistrer vos modifications et fermer l\'éditeur.
+8.  Appuyez sur le bouton **OK** pour fermer le panneau des tâches.
 
 
-<div class="mw-translate-fuzzy">
 
--   Vous pouvez modifier votre Annotation en texte enrichi en double-cliquant dessus dans la vue arborescente. Un double clic dans la zone graphique n'est pas encore supporté.
+## Remarques
 
-
-</div>
+-   Après sa création, une Annotation en texte enrichi peut être modifiée en double-cliquant sur la page.
 
 
 

@@ -1,6 +1,10 @@
 # Artwork Splash screen/it
 Queste sono le schermate iniziali che sono state utilizzate per ogni versione del programma.
 
+## FreeCAD 0.21 
+
+![](images/Freecadsplash021.png )
+
 ## FreeCAD 0.20 
 
 ![](images/Freecadsplash020.png )

@@ -8,7 +8,7 @@
 
 
 
-## Einführung
+## Einleitung
 
 Der <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Arbeitsbereich](BIM_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md) mit dem Ziel, vollständige [Bauwerksdatenmodellierung](https://en.wikipedia.org/wiki/Building_information_modeling) (engl.: Building Information Modeling) (BIM) Werkzeuge und Arbeitsabläufe in FreeCAD zu implementieren. Er kann aus dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden.
 
@@ -52,7 +52,7 @@ Das [in-game tutorial](BIM_ingame_tutorial/de.md) ist ein einfacher Weg, um schn
 
 ## Werkzeuge
 
-Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind: **2D Zeichnungs\'\',**3D Modellierungs\'\', **Anmerkungs** und **Änderungs** Werkzeuge. Die **verwalten** Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
+Der BIM Arbeitsbereich versammelt Werkzeuge aus mehreren anderen FreeCAD Arbeitsbereichen, hauptsächlich [Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md) und [Part](Part_Workbench/de.md), die grob in logische Kategorien eingeteilt sind: *\'2D Zeichnungs*, **3D Modellierungs\'\',**Anmerkungs**und**Änderungs**Werkzeuge. Die**verwalten\'\'\' Kategorie enthält Werkzeuge, die spezifisch für den BIM Arbeitsbereich sind.
 
 Zusätzlich, falls solche [Erweiterungen](External_workbenches/de.md) installiert sind, Werkzeuge von [Reinforcement](Arch_Rebar/de.md) (zusätzliche Werkzeuge für Bewehrungsstäbe), [Verbindungselemente](Fasteners_Workbench/de.md) (Bolzen und Schrauben), [Flamingo/Dodo](Flamingo_Workbench/de.md) (Metallstruktur- und Rohrleitungswerkzeuge) und [Teilebibliothek](Parts_Library_Workbench/de.md) sind automatisch im BIM Arbeitsbereich enthalten.
 

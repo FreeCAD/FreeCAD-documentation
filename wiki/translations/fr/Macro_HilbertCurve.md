@@ -1,9 +1,11 @@
 # Macro HilbertCurve/fr
-{{Macro
+{{Macro/fr
 |Name=HilbertCurve
-|Description=Cette macro crée un fil courbe de Hilbert en 2 ou 3 dimensions avec de nombreuses itérations. 
+|Name/fr=HilbertCurve
+|Icon=Hilbert_curve_icon.png
+|Description=Cette macro crée une courbe de Hilbert en 2 ou 3 dimensions avec de nombreuses itérations. 
 |Author=Simone Bignetti
-|Download=[https://wiki.freecadweb.org/images/6/69/Hilbert_curve_icon.png icône pour la barre des outils]
+|Download=[https://wiki.freecad.org/images/6/69/Hilbert_curve_icon.png Icône de la barre d'outils]
 |Date=2021-02-13
 |Version=1.2.0
 |FCVersion= 0.16 to 0.19
@@ -11,7 +13,9 @@
 
 ## Description
 
-Cette macro crée un fil [Courbe de Hilbert](https://fr.wikipedia.org/wiki/Courbe_de_Hilbert) en 2 ou 3 dimensions avec de nombreuses itérations.
+Cette macro crée une [courbe de Hilbert](https://fr.wikipedia.org/wiki/Courbe_de_Hilbert) en 2 ou 3 dimensions avec de nombreuses itérations.
+
+
 
 ## Utilisation
 
@@ -22,11 +26,11 @@ Cette macro crée un fil [Courbe de Hilbert](https://fr.wikipedia.org/wiki/Courb
     -   Spécifiez la longueur du segment de fil: {{SpinBox|10.00}}.
 3.  Cliquez sur **OK** pour créer le fil ou sur **CANCEL** pour quitter la macro.
 
-![Le fil Hilbert en 3D et 2 itérations.](images/HilbertCurveWire.png )
+![La polyligne de Hilbert en 3D et 2 itérations.](images/HilbertCurveWire.png )
 
 Vous pouvez utiliser une courbe de Hilbert comme chemin pour un [Part Balayage](Part_Sweep/fr.md), mais il est préférable d\'appliquer d\'abord un rayon au fil, sinon le balayage sera mal formé.
 
-![Le fil de la courbe de Hilbert avec un rayon](images/HilbertCurveWireRadius.png ).
+![La courbe de Hilbert avec un rayon](images/HilbertCurveWireRadius.png ).
 
 Trouver le bon rayon peut nécessiter des tests. Cela dépend de la longueur des segments de courbe et de la forme du profil à balayer.
 
@@ -71,7 +75,7 @@ __Date__    = '2020-12-29'
 __License__ = 'GNU LESSER GENERAL PUBLIC LICENSE Version 2.1, February 1999'
 __Web__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_HilbertCurve'
-__Icon__ = 'HilbertCurve.svg'
+__Icon__ = 'https://wiki.freecad.org/images/6/69/Hilbert_curve_icon.png'
 __Help__ = 'Choose the dimensions of the wire, the number of the iterations and the length of the wire segment.'
 __Status__ = 'Stable'
 __Requires__ = ''

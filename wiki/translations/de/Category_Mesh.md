@@ -10,14 +10,16 @@ This category lists pages related to the [Mesh_Workbench/de](Mesh_Workbench/de.m
 | [Mesh BuildRegularSolid/de](Mesh_BuildRegularSolid/de.md) | [Mesh CrossSections/de](Mesh_CrossSections/de.md) | [Mesh CurvatureInfo/de](Mesh_CurvatureInfo/de.md) |
 | [Mesh Decimating/de](Mesh_Decimating/de.md) | [Mesh Difference/de](Mesh_Difference/de.md) | [Mesh EvaluateFacet/de](Mesh_EvaluateFacet/de.md) |
 | [Mesh EvaluateSolid/de](Mesh_EvaluateSolid/de.md) | [Mesh Evaluation/de](Mesh_Evaluation/de.md) | [Mesh Export/de](Mesh_Export/de.md) |
-| [Mesh Feature/de](Mesh_Feature/de.md) | [Mesh FillInteractiveHole/de](Mesh_FillInteractiveHole/de.md) | [Mesh FlipNormals/de](Mesh_FlipNormals/de.md) |
-| [Mesh FromPartShape/de](Mesh_FromPartShape/de.md) | [Mesh HarmonizeNormals/de](Mesh_HarmonizeNormals/de.md) | [Mesh Import/de](Mesh_Import/de.md) |
-| [Mesh Intersection/de](Mesh_Intersection/de.md) | [Mesh Merge/de](Mesh_Merge/de.md) | [Mesh MeshObject/de](Mesh_MeshObject/de.md) |
-| [Mesh PolyCut/de](Mesh_PolyCut/de.md) | [Mesh PolyTrim/de](Mesh_PolyTrim/de.md) | [Mesh RemeshGmsh/de](Mesh_RemeshGmsh/de.md) |
-| [Mesh RemoveCompByHand/de](Mesh_RemoveCompByHand/de.md) | [Mesh RemoveComponents/de](Mesh_RemoveComponents/de.md) | [Mesh Scale/de](Mesh_Scale/de.md) |
-| [Mesh Scripting/de](Mesh_Scripting/de.md) | [Mesh Segmentation/de](Mesh_Segmentation/de.md) | [Mesh SplitComponents/de](Mesh_SplitComponents/de.md) |
-| [Mesh to Part/de](Mesh_to_Part/de.md) | [Mesh TrimByPlane/de](Mesh_TrimByPlane/de.md) | [Mesh Union/de](Mesh_Union/de.md) |
-| [Mesh VertexCurvature/de](Mesh_VertexCurvature/de.md) | [Mesh Workbench/de](Mesh_Workbench/de.md) | [Mesh/de](Mesh/de.md) |
+| [Mesh Feature/de](Mesh_Feature/de.md) | [Mesh FillInteractiveHole/de](Mesh_FillInteractiveHole/de.md) | [Mesh FillupHoles/de](Mesh_FillupHoles/de.md) |
+| [Mesh FlipNormals/de](Mesh_FlipNormals/de.md) | [Mesh FromPartShape/de](Mesh_FromPartShape/de.md) | [Mesh HarmonizeNormals/de](Mesh_HarmonizeNormals/de.md) |
+| [Mesh Import/de](Mesh_Import/de.md) | [Mesh Intersection/de](Mesh_Intersection/de.md) | [Mesh Merge/de](Mesh_Merge/de.md) |
+| [Mesh MeshObject/de](Mesh_MeshObject/de.md) | [Mesh PolyCut/de](Mesh_PolyCut/de.md) | [Mesh PolyTrim/de](Mesh_PolyTrim/de.md) |
+| [Mesh RemeshGmsh/de](Mesh_RemeshGmsh/de.md) | [Mesh RemoveCompByHand/de](Mesh_RemoveCompByHand/de.md) | [Mesh RemoveComponents/de](Mesh_RemoveComponents/de.md) |
+| [Mesh Scale/de](Mesh_Scale/de.md) | [Mesh Scripting/de](Mesh_Scripting/de.md) | [Mesh SectionByPlane/de](Mesh_SectionByPlane/de.md) |
+| [Mesh Segmentation/de](Mesh_Segmentation/de.md) | [Mesh SegmentationBestFit/de](Mesh_SegmentationBestFit/de.md) | [Mesh Smoothing/de](Mesh_Smoothing/de.md) |
+| [Mesh SplitComponents/de](Mesh_SplitComponents/de.md) | [Mesh to Part/de](Mesh_to_Part/de.md) | [Mesh TrimByPlane/de](Mesh_TrimByPlane/de.md) |
+| [Mesh Union/de](Mesh_Union/de.md) | [Mesh VertexCurvature/de](Mesh_VertexCurvature/de.md) | [Mesh Workbench/de](Mesh_Workbench/de.md) |
+| [Mesh/de](Mesh/de.md) | [MeshPart CreateFlatFace/de](MeshPart_CreateFlatFace/de.md) | [MeshPart CreateFlatMesh/de](MeshPart_CreateFlatMesh/de.md) |
 |
 
 

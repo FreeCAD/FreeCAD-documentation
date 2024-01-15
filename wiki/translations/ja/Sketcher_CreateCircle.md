@@ -16,11 +16,17 @@
 
 ## 説明
 
+
+<div class="mw-translate-fuzzy">
+
 このツールは中心、円上の点の二点のピックによって円を描きます。
 
 このツールを起動するとマウスポインターが赤い円アイコンのついた白い十字に変わります。またポインターの指す座標がリアルタイムに青色で横に表示されます。
 
 ![](images/Sketcher_CircleExample1.png )
+
+
+</div>
 
 ![](images/Sketcher_CircleExample1.png‎ ) 
 

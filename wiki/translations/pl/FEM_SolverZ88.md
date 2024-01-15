@@ -1,45 +1,54 @@
 ---
  GuiCommand:
    Name: FEM SolverZ88
-   MenuLocation: Solve , Solver Z88
-   Workbenches: FEM_Workbench
+   Name/pl: Solver Z88
+   MenuLocation: Rozwiąż , Solver Z88
+   Workbenches: FEM_Workbench/pl
    Shortcut: **S** **Z**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM SolverZ88/pl
 
-## Description
 
-The [SolverZ88](FEM_SolverZ88.md) command enables usage of the [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software) solver. It may be used for:
 
-1.  Setting analysis parameters
-2.  Selecting working directory
-3.  Running the Z88 solver
+## Opis
 
-## Installation
+Polecenie **SolverZ88** umożliwia użycie solvera [Z88](https://en.wikipedia.org/wiki/Z88_FEM_software). Może być wykorzystane do:
 
-To use the Z88 solver, the OpenSource version of Z88 (Z88OS) needs to be installed:
+1.  Ustawienia parametrów analizy.
+2.  Wybrania katalogu roboczego.
+3.  Uruchomienia solvera Z88.
 
-1.  Download the ZIP file from the [Z88OS website](https://en.z88.de/download-z88os).
-2.  Extract the ZIP to a folder of your choice.
-3.  In the [FEM preferences](FEM_Preferences.md) go to the Z88 tab and there set the path to the **z88r** binary. If you are on Windows this would be the path to the file **z88r.exe** that is in the subfolder **~\bin\win64** of the folder where your extracted the ZIP.
 
-## Usage
 
-1.  After the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md), use one of the following alternatives:
-    -   Select **Solve → <img src="images/FEM_SolverZ88.svg" width=x16px> Solver Z88** from the menu.
-    -   Press the **S** then **Z** shortcut keys.
-2.  Double click the <img alt="" src=images/FEM_SolverZ88.svg  style="width:" height="16px;"> SolverZ88 object.
-3.  Select the **Analysis type**.
-4.  Click the **Write** button.
-5.  Click the **Run** button.
+## Instalacja
 
-As a result you get an object called *Z88_xxx_results* (depending on the run simulation) in the [Tree view](Tree_view.md). This is the same kind of result object one gets when running the [CalculiX solver](FEM_SolverCalculixCxxtools.md). Starting from this, you can visualize the results using [Post Pipeline](FEM_PostPipelineFromResult.md) and [Clip Filters](FEM_Workbench#Menu__Results.md).
+Do korzystania z solvera Z88 musi być zainstalowana otwarta wersja Z88 *(Z88OS)*:
 
-## Preferences
+1.  Pobierz plik ZIP ze [strony Z88OS](https://en.z88.de/download-z88os).
+2.  Rozpakuj plik ZIP do wybranego folderu.
+3.  W [preferencjach MES](FEM_Preferences/pl.md) przejdź do zakładki Z88 i ustaw tam ścieżkę do pliku wykonywalnego **z88r**. Jeśli korzystasz z systemu Windows, będzie to ścieżka do pliku **z88r.exe** w podfolderze **~\bin\win64** katalogu, do którego rozpakowałeś plik ZIP.
 
-See the [Z88 preferences](FEM_Preferences#Z88.md) for the possible solver settings like the used solver method.
+
+
+## Użycie
+
+1.  Po utworzeniu <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [kontenera analizy](FEM_Analysis/pl.md), skorzystaj z jednej z następujących możliwości:
+    -   Wybierz opcję **Rozwiąż → <img src="images/FEM_SolverZ88.svg" width=x16px> Solver Z88** z menu.
+    -   Wciśnij klawisz **S** a następnie **Z**.
+2.  Dwukrotnie kliknij na obiekcie <img alt="" src=images/FEM_SolverZ88.svg  style="width:" height="16px;"> SolverZ88.
+3.  Wybierz **Typ analizy**.
+4.  Wciśnij przycisk **Zapisz**.
+5.  Wciśnij przycisk **Uruchom**.
+
+W wyniku tych czynności uw [widoku drzewa](Tree_view/pl.md) zyskasz obiekt nazwany *Z88_xxx_results* *(w zależności od uruchomionej symulacji)*. To ten sam rodzaj obiektu jaki uzyskuje się uruchamiając [solver CalculiX](FEM_SolverCalculixCxxtools/pl.md). Zaczynając od tego, możesz wizualizować wyniki przy pomocy [prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md) i [filtrów przycinania](FEM_Workbench/pl#Menu__Wyniki.md).
+
+
+
+## Preferencje
+
+Zobacz [preferencje Z88](FEM_Preferences/pl#Z88.md) aby znaleźć możliwe do ustawienia parametry solvera, takie jak używana metoda rozwiązywania.
 
 
 

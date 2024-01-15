@@ -25,6 +25,8 @@ Aplică un punct pe un alt obiect, cum ar fi o linie, un arc sau o axă de schi�
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Cum se folosește 
@@ -80,7 +82,7 @@ Pentru a identifica numărul care are indică liniile și punctele? Vă rog să 
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

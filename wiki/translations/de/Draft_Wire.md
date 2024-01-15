@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Wire
    Name/de: Draft Polylinie
-   MenuLocation: Entwurf , Polyline
+   MenuLocation: Zeichnen , Polyline
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **P** **L**
    Version: 0.7
@@ -30,18 +30,18 @@ Die Ecken einer Draft-Polylinie können verrundet oder mit einer Fase versehen w
 
 ### Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Polylinie](Draft_Wire/de.md)** drücken.
-    -   Den Menüeintrag **Entwurf → <img src="images/Draft_Wire.svg" width=16px> Polylinie** auswählen.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Polylinie** auswählen.
     -   Das Tastaturkürzel **P** dann **L**.
 
-2.  Der Aufgabenbereich **Polylinie** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+2.  Der Aufgaben-Bereich **Polylinie** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 
-3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) festlegen, oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
+3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) festlegen, oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
-4.  Weitere Punkte in der [3D-Ansicht](3D_view/de.md) festlegen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  eingeben** drücken.
+4.  Weitere Punkte in der [3D-Ansicht](3D_view/de.md) festlegen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
 5.  
     **Esc**drücken oder die Schaltfläche **Close**, um den Befehl abzuschließen.
@@ -50,31 +50,31 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 ### Optionen
 
-Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger außerhalb der [3D-Ansicht](3D_view/de.md) zu plazieren, bevor man Koordinaten eingibt.
 
-<div class="mw-translate-fuzzy">
+-    **R**drücken oder die Checkbox **Relative** anklicken, um den Relativ-Modus umzuschalten. Bei eingeschaltetem Relativ-Modus beziehen sich Koordinaten auf den letzten Punkt, falls vorhanden, andernfalls beziehen sie sich auf den Ursprung des Koordinatensystems.
 
--   Drücke **A** oder die **<img src="images/Draft_FinishLine.svg" width=12px> Beenden** Taste, um den Draht fertigzustellen, offen hinterlassend.
--   Drücke **O** oder die **<img src="images/Draft_CloseLine.svg" width=12px> Schliessen** Schaltfläche um den Draht zu schliessen, d.h. es wird ein Segment vom letzten Punkt zum ersten hinzugefügt, um eine Fläche zu bilden. Es sind mindestens drei Punkte erforderlich, um eine Fläche zu bilden.
--   Drücke **W** oder die **<img src="images/Draft_Wipe.svg" width=12px> Wischen** Taste um die bereits platzierten Liniensegmente zu entfernen, aber den Draht vom letzten Punkt aus weiter zu bearbeiten.
--   Drücke **U** oder die **<img src="images/Draft_SelectPlane.svg" width=12px> [Setze WP](Draft_SelectPlane/de.md)** Taste um die aktuelle Arbeitsebene in der Orientierung des letzten Punktes anzupassen.
--   Drücke **X**, **Y** oder **Z** nach einem Punkt, um den nächsten Punkt auf der gegebenen Achse zu beschränken.
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
--   Drücke **R** oder klicke auf das Kontrollkästchen, um den *relativen* Modus umzuschalten. Wenn der Modus \"relativ\" eingeschaltet ist, sind die Koordinaten des nächsten Punktes relativ zum letzten; wenn nicht, sind sie absolut, ausgehend vom Ursprung (0,0,0).
--   Drücke **T** oder klicke das Kontrollkästchen an, um den Modus *fortsetzen* zu aktivieren. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Drahtwerkzeug nach Beendigung des Drahtes neu gestartet, so dass Du einen weiteren Draht zeichnen kannst, ohne den Werkzeugknopf erneut zu drücken.
--   Drücke **L** oder klicke auf das Kontrollkästchen, um den *ausgefüllten* Modus umzuschalten. Wenn der Modus \"ausgefüllt\" eingeschaltet ist, erzeugt ein geschlossener Draht eine ausgefüllte Fläche {{PropertyData/de|Erstelle Fläche}} `True`; wenn nicht, erzeugt der geschlossene Draht keine Fläche {{PropertyData/de|Erstelle Fläche}} `False`
+-    **G**drücken oder die Checkbox **Global** anklicken, um den Global-Modus umzuschalten. Bei eingeschaltetem Global-Modus beziehen sich Koordinaten auf des globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordiatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
-:   
-    **Hinweis:**; der Draht sollte nicht gefüllt werden, wenn er sich selbst schneidet, da er keine ordnungsgemäße Fläche erzeugt. Wenn der Draht gefüllt ist, aber keine Form sichtbar ist, setze manuell {{PropertyData/de|Erstelle Fläche}} auf `False`, um den Draht zu sehen.
+-    **F**drücken oder die Checkbox **Filled** anklicken, um den Füll-Modus umzuschalten. Bei eingeschaltetem Füll-Modus wird die {{PropertyData/de|Make Face}} (Fläche erstellen) des erstellten Kantenzuges (Wire) auf `True` gesetzt und eine Fläche erstellt, vorausgesetzt er ist geschlossen und nicht selbstdurchdringend. Man beachte, dass ein selbstdurchdringender Kantenzug mit einer Fläche nicht vernünftig dargestellt wird. Für solche Kantenzüge muss die {{PropertyData/de|Make Face}} auf `False` gesetzt werden.
 
--   Halte **Ctrl** während des Zeichnens gedrückt, um [Fangen](Draft_Snap/de.md) Deinen Punkt unabhängig vom Abstand zur nächsten Fangposition zu zwingen.
--   Halte **Umschalten**, während Du [Beschränken](Draft_Constrain/de.md) Deinen nächsten Punkt horizontal oder vertikal in Bezug auf den letzten zeichnest.
--   Drücke **Ctrl**+**Z** oder drücke die {{button|<img src="images/Draft_UndoLine.svg" width=12px> rückgängig}} Schaltfläche um den letzten Punkt rückgängig machen.
--   Drücke **Esc** oder die **Schliessen** Taste, um den aktuellen Befehl abzubrechen; bereits platzierte Liniensegmente bleiben erhalten.
+-    **N**drücken oder die Checkbox **Fortsetzen** anklicken, um den Fortsetzen-Modus umzuschalten. Bei eingeschaltetem Fortsetzen-Modus wird der Befehl nach dem Drücken von **<img src="images/Draft_FinishLine.svg" width=16px> Fertigstellen** oder **<img src="images/Draft_CloseLine.svg" width=16px> Schließen** fortgesetzt oder nach der Erstellung eines geschlossenen Kantenzuges durch Einrasten auf dem ersten Punkt. Dies ermöglicht, mit der Erstellung weiterer Kantenzüge fortzufahren.
 
+-    **/**oder die Schaltfläche **<img src="images/Draft_UndoLine.svg" width=16px> Rückgängig** drücken, um den letzten Punkt wieder zu entfernen.
 
-</div>
+-    **A**oder die Schaltfläche **<img src="images/Draft_FinishLine.svg" width=16px> Fertigstellen** drücken, um die Ausführung des Befehls abzuschließen und den Kantenzug offen zu lassen.
+
+-    **O**oder die Schaltfläche **<img src="images/Draft_CloseLine.svg" width=16px> Schließen** drücken, um die Ausführung des Befehls abzuschließen und den Kantenzug zu schließen. Ein geschlossener Kantenzug kann auch durch Einrasten auf dem ersten Punkt des Kantenzuges erstellt werden.
+
+-    **W**oder die Schaltfläche **<img src="images/Draft_Wipe.svg" width=16px> Wipe** drücken, um schon positionierte Abschnitte zu entfernen, aber trotzdem vom letzten Punkt aus weiterzumachen.
+
+-    **U**oder die Schaltfläche **<img src="images/Draft_SelectPlane.svg" width=16px> [Arbeitsebene auswählen](Draft_SelectPlane/de.md)** drücken, um die Ausrichtung der Arbeitsebene an die Richtung des letzten Abschnitts anzupassen.
+
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
+
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzuschließen.
 
 
 
@@ -84,33 +84,20 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 ### Anwendung 
 
-1.  The end points of the [Draft Lines](Draft_Line.md) and/or Draft Wires to be joined must be exactly coincident. If required first adjust points to ensure that this is the case.
-2.  Select two or more [Draft Lines](Draft_Line.md) and/or Draft Wires.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Wire.svg" width=16px> Polyline** option from the menu.
-    -   Use the keyboard shortcut: **P** then **L**.
+1.  Die Endpunkte der [Draft Linie](Draft_Line/de.md) und/oder des Draft-Kantenzuges, die verbunden werden sollen, müssen exakt deckungsgleich sein. Falls erforderlich, werden zuerst die Punkte angepasst, um dies sicherzustellen.
+2.  Zwei oder mehr [Draft Linien](Draft_Line/de.md) und/oder Draft-Kantenzüge auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Wire.svg" width=16px> [Draft Polylinie](Draft_Wire/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Wire.svg" width=16px> Polyline** auswählen.
+    -   Das Tastaturkürzel **P** dann **L**.
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Der Draht kann nach doppelklicken auf das Element in der Baumansicht oder durch drücken der Taste **<img src="images/Draft_Edit.svg" width=16px> [Entwurf Bearbeiten](Draft_Edit/de.md)** geändert werden. Dann kannst Du die Punkte an eine neue Position verschieben oder **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** oder **<img src="images/Draft_DelPoint.svg" width=16px> Punkt entfernen** und dann den Draht anklicken, um Punkte hinzuzufügen oder zu entfernen.
-
-
-</div>
-
-
-
-## Einstellungen
-
-Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen zu ändern, die bei der Eingabe von Koordinaten verwendet werden: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Einheiteneinstellungen → Anzahl der Dezimalstellen**.
--   Um den Anfangswert des Füllmodus zu ändern: **Bearbeiten → Einstellungen... → Entwurf → Allgemeine Einstellungen → Entwurf Werkzeuge Optionen → Objekte mit Flächen füllen, wann immer möglich**. Ändern des Füllmodus in einem Aufgabenpaneel, wird diese Voreinstellung für die aktuelle FreeCAD Sitzung überschreiben.
+-   Ein Draft Kantenzug (Wire) kann mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
+-   Ein Draft Kantenzug kann mit dem Befehl [Draft KantenzugZuBSpline](Draft_WireToBSpline/de.md) in einen [Draft-B-Spline](Draft_BSpline/de.md) umgewandelt werden.
+-   [Draft-Linien](Draft_Line/de.md) und Draft-Kantenzüge können auch mit den Befehlen [Draft Verbinden](Draft_Join/de.md) oder [Draft Hochstufen](Draft_Upgrade/de.md) verbunden werden.
 
 
 
@@ -127,30 +114,31 @@ Ein Draft-Polylinie-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyData/de|Area|Area}}: (nur Lesezugriff) gibt dem Flächeninhalt der Fläche eines Kantenzuges an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist oder die Fläche nicht erstellt werden kann.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Base|Link}}
+    
 
--    **Start**: spezifiziert den ersten Punkt im Draht.
+-    {{PropertyData/de|Chamfer Size|Length}}: gibt die Länge der Fasen an den Ecken des Kantenzuges an.
 
--    **Ende**: spezifiziert den letzten Punkt im Draht, wobei der Anfangspunkt nicht mitgezählt wird, wenn der Draht geschlossen wird.
+-    {{PropertyData/de|Closed|Bool}}: spezifiziert, ob der Draht geschlossen ist oder nicht. Wenn der Kantenzug zu Beginn offen ist, ist dieser Wert `False`; wird er auf `True` gesetzt, wird ein Liniensegment hinzugefügt, um den Kantenzug zu schließen. Wenn der Kantenzug ursprünglich geschlossen ist, ist dieser Wert `True`; wird er auf `False` gesetzt, wird das letzte Liniensegment entfernen, und der Kantenzug wird geöffnet.
 
--    **Geschlossen**: spezifiziert, ob der Draht geschlossen ist oder nicht. Wenn der Draht ursprünglich offen ist, ist dieser Wert `False`; ihn auf `True` setzen, wird ein Liniensegment zeichnen, um den Draht zu schließen. Wenn der Draht ursprünglich geschlossen ist, ist dieser Wert `True`; ihn auf `False` setzen, wird das letzte Liniensegment entfernen, und der Draht wird geöffnet.
+-    {{PropertyData/de|End|VectorDistance}}: gibt den Endpunkt des Kantenzuges an.
 
--    **Fasengröße**: gibt die Größe der Fasen (gerade Abschnitte) an, die an den Ecken des Drahtes erzeugt werden.
+-    {{PropertyData/de|Fillet Radius|Length}}: gibt den Radius der Verrundungen an den Ecken eines Kantenzuges an.
 
--    {{PropertyData/de|Verrundungsradius}}: gibt den Radius der Verrundungen (Bogenabschnitte) an, die an den Ecken des Drahtes erzeugt werden.
+-    {{PropertyData/de|Length|Length}}: (nur Lesezugriff) gibt die Länge des gesamten Kantenzuges an.
 
--    **Erstelle Fläche**: gibt an, ob der Draht eine Fläche bildet oder nicht. Wenn es `True` ist, wird eine Fläche erzeugt, andernfalls werden nur die Kanten als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn **Geschlossen** `True` ist.
+-    {{PropertyData/de|Make Face|Bool}}: gibt an, ob der Draht eine Fläche bildet oder nicht. Wenn sie `True` ist, wird eine Fläche erstellt, andernfalls werden nur die Kanten als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Closed}} auf `True` gesetzt ist und wenn der Kantenzug sich nicht selbst überschneidet.
 
-:   
-    **Hinweis:**setze **Erstelle Fläche** nicht auf `True`, wenn der Draht sich selbst überkreuzt, da er keine ordnungsgemäße Fläche erzeugt.
+-    **Points|VectorList**: gibt die Punkte des Kantenzuges in seinem lokalen Koordinatensystem an.
 
--    **Unterteilungen**: gibt die Anzahl der innen liegenden Knoten in jedem Abschnitt des Drahtes an. {{version/de|0.16}}
+-    {{PropertyData/de|Start|VectorDistance}}: gibt den Startpunkt des Kantenzuges an.
 
--    **Länge**: (nur-lesen) gibt die Länge des gesamten Drahtes an.
+-    {{PropertyData/de|Subdivisions|Integer}}: gibt die Anzahl der Unterteilungen für jede Kante des Kantenzuges an. Ist ihr Wert {{value|1}}, wird jede Kante in {{value|2}} gleichgroße Abschnitte aufgeteilt. Unterteilungen werden vor Fasen und Verrundungen angewendet.
 
-
-</div>
+-    {{PropertyData/de|Tool|Link}}
+    
 
 
 
@@ -159,21 +147,15 @@ Ein Draft-Polylinie-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyView/de|Arrow Size|Length}}: gibt die Größe des Symbols an, das am Ende des Kantenzuges angezeigt wird.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyView/de|Arrow Type|Enumeration}}: gibt die Art des Symbols an, das am Ende des Kantenzuges angezeigt wird; es stehen {{value|Dot}} (Punkt), {{value|Circle}} (Kreis), {{value|Arrow}} (Pfeil), {{value|Tick}} (Schrägstrich) oder {{value|Tick-2}} (Schrägstrich-2) zur Auswahl.
 
--    **Endpfeil**: wenn es `True` ist, wird ein Symbol am letzten Punkt des Drahtes angezeigt, so dass es als Anmerkungslinie verwendet werden kann.
+-    {{PropertyView/de|End Arrow|Bool}}: gibt an, ob ein Symbol am Ende des Kantenzuges angezeigt werden soll, damit es als Beschriftungszeile verwendet werden kann.
 
--    **Pfeilgröße**: gibt die Größe des am Ende des Drahtes angezeigten Symbols an.
+-    {{PropertyView/de|Pattern|Enumeration}}: gibt das [Draft Schraffurmuster](Draft_Pattern/de.md) an, mit dem die Fläche des geschlossenen Kantenzuges gefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Make Face}} auf `True` gesetzt ist und wenn die {{PropertyView/de|Display Mode}} den Wert {{value|Flat Lines}} enthält.
 
--    **Pfeiltyp**: gibt den Typ des am Ende des Drahtes angezeigten Symbols an, der \"Punkt\", \"Kreis\", \"Pfeil\" oder \"Kreuz\" sein kann.
-
--    **Muster**: spezifiziert ein [Entwurfsmuster](Draft_Pattern.md), mit dem die Fläche des geschlossenen Drahtes ausgefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn **Erstelle Fläche** `True` ist und wenn **Anzeigemodus** \"Ebene Linien\" ist.
-
--    **Mustergröße**: gibt die Größe des [Entwurfsmuster](Draft_Pattern/de.md) an.
-
-
-</div>
+-    {{PropertyView/de|Pattern Size|Float}}: gibt die Größe des [Draft Schraffurmusters](Draft_Pattern/de.md) an.
 
 
 
@@ -189,18 +171,12 @@ wire = make_wire(pointslist, closed=False, placement=None, face=None, support=No
 wire = make_wire(Part.Wire, closed=False, placement=None, face=None, support=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Erzeugt ein `Draht` Objekt mit der angegebenen Liste von Punkten, `Punktliste`.
+-   Erzeugt ein `Wire`-Objekt (Kantenzug) mit der angegebenen Liste von Punkten, `pointslist`.
     -   Jeder Punkt in der Liste wird durch seinen `FreeCAD.Vector` definiert, mit Einheiten in Millimetern.
     -   Alternativ kann die Eingabe ein `Part.Wire` sein, aus dem die Punkte extrahiert werden.
--   Wenn `closed` `True` ist, oder wenn der erste und letzte Punkt identisch sind, wird der Draht geschlossen.
--   Wenn ein `placement` angegeben wird, wird dieser verwendet; andernfalls wird die Form am Ursprung erzeugt.
--   Wenn `Fläche` `True` ist und der Draht geschlossen ist, wird der Draht eine Fläche bilden, d.h. er wird gefüllt erscheinen.
-
-
-</div>
+-   Wenn `closed` `True` ist, oder wenn der erste und letzte Punkt identisch sind, wird der Kantenzug geschlossen.
+-   Wenn ein `placement` (Position) angegeben wird, wird dieses verwendet; andernfalls wird die Form im Ursprung erzeugt.
+-   Wenn `face` `True` ist und der Kantenzug geschlossen ist, wird der Kantenzug eine Fläche bilden, d.h. er wird gefüllt erscheinen.
 
 Beispiel:
 

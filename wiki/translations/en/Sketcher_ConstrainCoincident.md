@@ -4,7 +4,7 @@
    MenuLocation: Sketch , Sketcher constraints , Constrain coincident
    Workbenches: Sketcher_Workbench
    Shortcut: **C**
-   SeeAlso: Sketcher_ConstrainLock, Sketcher_ConstrainPointOnObject
+   SeeAlso: Sketcher_ConstrainCoincidentUnified, Sketcher_ConstrainPointOnObject
 ---
 
 # Sketcher ConstrainCoincident/en

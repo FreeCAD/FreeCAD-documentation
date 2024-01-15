@@ -13,23 +13,16 @@
 
 ## Beschreibung
 
-[Arch NetzZuForm](Arch_MeshToShape/de.md) wandelt ein gewähltes [Polygonnetz](Mesh/de.md) ([Polygonnetz Formteil](Mesh_Feature/de.md)) Objekt in eine [Form](Shape/de.md) ([Part Formteil](Part_Feature/de.md)) Objekt.
+[Arch NetzZuForm](Arch_MeshToShape/de.md) wandelt ein gewähltes [Netz](Mesh/de.md)-Objekt ([Mesh Formelement](Mesh_Feature/de.md)) in ein [Form](Shape/de.md)-Objekt ([Part Formteil](Part_Feature/de.md)) um.
 
-Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. Das entsprechende Werkzeug **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part FormAusNetz](Part_ShapeFromMesh.md)** aus dem <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsbereich](Part_Workbench/de.md) ist möglicherweise besser für Objekte geeignet, die gekrümmte Oberflächen enthalten.
+Dieses Werkzeug ist für Objekte mit ebenen Flächen (keine Kurven) optimiert. Das entsprechende Werkzeug **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part FormAusNetz](Part_ShapeFromMesh.md)** aus dem Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/de.md) ist möglicherweise besser für Objekte geeignet, die gekrümmte Oberflächen enthalten.
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein Netzobjekt
-2.  Drücke den **<img src="images/Arch_MeshToShape.svg" width=16px> [Netz zu Form](Arch_MeshToShape/de.md)
-** Eintrag in **Arch → Dienstprogramme → Netz zu Form**
-
-
-</div>
+1.  Ein Netzobjekt auswählen
+2.  Den Menüeintrag **Arch → Dienstprogramme → <img src="images/Arch_MeshToShape.svg" width=16px> [Netz in Form umwandeln](Arch_MeshToShape/de.md)** auswählen.
 
 
 
@@ -39,10 +32,7 @@ Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. 
 
 ## Begrenzungen
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -51,18 +41,7 @@ Dieses Werkzeug ist für Objekte mit flachen Flächen (keine Kurven) optimiert. 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
 ```python
 new_obj = meshToShape(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)
 ```
@@ -91,15 +70,6 @@ FreeCAD.ActiveDocument.recompute()
 
 new_obj = Arch.meshToShape(Box)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

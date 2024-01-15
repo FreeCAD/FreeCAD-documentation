@@ -1,43 +1,53 @@
 # FreeCAD and Mesh Import/pl
 ## Post-Import 
 
-After import the model is (for FreeCAD), just an assembly of faces. You might want to convert the model into a shape FreeCAD can recognize and that could be altered in FreeCAD.
+Po zaimportowaniu model jest *(dla FreeCAD)* tylko zbiorem ścian. Możesz chcieć przekonwertować model na kształt, który FreeCAD może rozpoznać i który można później edytować w programie FreeCAD.
 
-To do this:
+Aby to zrobić:
 
-1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
-2.  Select the mesh, and go to the **Part → [Create shape from mesh](Part_ShapeFromMesh.md)** or press the <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Part ShapeFromMesh](Part_ShapeFromMesh.md) button
-3.  Click **OK** in the dialog
-4.  Select the newly created shape
-5.  Go to **Part → [Convert to solid](Part_MakeSolid.md)**
-6.  Select the newly created solid
-7.  Go to **Part → [Refine shape](Part_RefineShape.md)** or press the <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Part RefineShape](Part_RefineShape.md) button
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md)
+2.  Wybierz siatkę i przejdź do **Część → [Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md)** lub naciśnij przycisk <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:24px;"> [Utwórz kształt z siatki](Part_ShapeFromMesh/pl.md).
+3.  Kliknij **OK** w oknie dialogowym
+4.  Wybierz nowo utworzony kształt
+5.  Przejdź do **Część → [Przekształć na bryłę](Part_MakeSolid/pl.md)**.
+6.  Wybierz nowo utworzoną bryłę
+7.  Przejdź do **Część → [Udoskonal kształt](Part_RefineShape/pl.md)** lub naciśnij przycisk <img alt="" src=images/Part_RefineShape.svg  style="width:24px;"> [Udoskonal kształt](Part_RefineShape/pl.md).
 
-**Note:** The last step is not necessary, but it will clean the solid of most of its residual edges on planar and cylindrical surfaces.
+**Uwaga:** Ostatni krok nie jest konieczny, ale oczyści bryłę z większości krawędzi na powierzchniach płaskich i cylindrycznych.
 
-## Errors
 
-### \"cannot convert because shape is not a shell\" 
 
-Well, your shell seems to have errors, maybe it is not closed (has holes). Since the capabilities of the mesh workbench in FreeCAD are a little limited at the moment, you might want to try examining and repairing of your model with third-party software. After doing that, you may try importing and converting of your model again.
+## Błędy
 
-## Third Party Programs 
 
--   [Meshlab](http://meshlab.sourceforge.net/)
-    -   License: Open Source (GPL V2)
-    -   Runs on Windows 32/64 bit, Linux and macOS
--   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1)
-    -   License: Freeware
-    -   Runs on Windows XP/7/8, Linux and macOS
 
-## Tutorials
+### \"nie można przekonwertować, ponieważ kształt nie jest powłoką\" 
 
--   [Import from STL or OBJ](Import_from_STL_or_OBJ.md)
--   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
+Cóż, twoja powłoka wydaje się mieć błędy, być może nie jest zamknięta *(ma dziury)*. Ponieważ możliwości środowiska pracy siatki w FreeCAD są obecnie nieco ograniczone, możesz spróbować sprawdzić i naprawić swój model za pomocą oprogramowania zewnętrznego. Następnie możesz spróbować ponownie zaimportować i przekonwertować model.
 
-## Related
 
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
+
+## Programy zewnętrzne 
+
+-   [Meshlab](http://meshlab.sourceforge.net/),
+    -   Licencja: Open Source *(GPL V2)*,
+    -   Działa w systemach Windows 32/64 bit, Linux i macOS.
+-   [netFabb basic](http://www.netfabb.com/downloadcenter.php?basic=1),
+    -   Licencja: Freeware,
+    -   Działa na Windows XP/7/8, Linux i macOS.
+
+
+
+## Poradniki
+
+-   [Importowanie plików STL lub OBJ](Import_from_STL_or_OBJ/pl.md)
+-   [Eksport do formatu STL lub OBJ](Export_to_STL_or_OBJ.md)
+
+
+
+## Powiązane
+
+-   [FreeCAD Jak importować eksportować](FreeCAD_Howto_Import_Export.md)
 
 
 

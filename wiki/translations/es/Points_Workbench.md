@@ -11,10 +11,10 @@
 
 
 
+
+
+
 ## Introducción
-
-
-
 
 El <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Ambiente de trabajo Puntos](Points_Workbench/es.md) está creado para darte herramientas específicas para trabajar con [nubes de puntos](http://en.wikipedia.org/wiki/Point_cloud). Está Ambiente de trabajo aún en desarrollo.
 
@@ -24,19 +24,25 @@ Una nube de puntos es una colección de puntos en el espacio 3D. Una nube de pun
 
 ## Herramientas
 
+
+<div class="mw-translate-fuzzy">
+
 Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desde el menú **Puntos**. Algunas herramientas también están disponibles en la barra de herramientas **Herramientas de puntos**.
 
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convertir en puntos\...](Points_Convert/es.md): Crea nubes de puntos a partir de objetos de forma.
 
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Nube de puntos estructurada](Points_Structure/es.md): Crea una nube de puntos estructurada a partir de los puntos de una nube de puntos existente.
+</div>
 
 -   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Importar puntos\...](Points_Import/es.md): Importa una nube de puntos desde un archivo.
 
 -   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Exportar puntos\...](Points_Export/es.md): Exporta una nube de puntos a un archivo.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cortar nube de puntos](Points_PolyCut/es.md): Corta puntos de las nubes de puntos.
+-   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convertir en puntos\...](Points_Convert/es.md): Crea nubes de puntos a partir de objetos de forma.
+
+-   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Nube de puntos estructurada](Points_Structure/es.md): Crea una nube de puntos estructurada a partir de los puntos de una nube de puntos existente.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Combinar nubes de puntos](Points_Merge/es.md): Crea una nube de puntos combinando los puntos de dos o más nubes de puntos.
+
+-   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Cortar nube de puntos](Points_PolyCut/es.md): Corta puntos de las nubes de puntos.
 
 
 

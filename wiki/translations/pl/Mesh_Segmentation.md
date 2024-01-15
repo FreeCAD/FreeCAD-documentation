@@ -9,15 +9,19 @@
 
 # Mesh Segmentation/pl
 
+
+
 ## Opis
 
 Polecenie **Utwórz segmenty siatki** tworzy oddzielne segmenty siatki dla określonych typów powierzchni obiektu siatkowego.
+
+
 
 ## Użycie
 
 1.  Zaznacz pojedynczy obiekt siatki.
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Mesh_Segmentation.svg" width=16px> [Utwórz segmenty siatki](Mesh_Segmentation/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_Segmentation.svg" width=16px> '''Utwórz segmenty siatki'''**.
     -   Wybierz z menu polecenie **Siatki → <img src="images/Mesh_Segmentation.svg" width=16px> Utwórz segmenty siatki ...**.
 3.  Otworzy się panel zadań **Segmentacja siatki**.
 4.  Opcjonalnie zaznacz **Wygładź siatkę** i określ wartość gładkości siatki. Im wyższa wartość, tym gładsza będzie siatka. Podanie wartości {{Value|0}} ma taki sam efekt jak odznaczenie tej opcji. Nie zaznaczaj tej opcji, jeśli chcesz tworzyć segmenty planarne.
@@ -41,6 +45,8 @@ Polecenie **Utwórz segmenty siatki** tworzy oddzielne segmenty siatki dla okre�
 7.  Naciśnij przycisk **OK**.
 8.  Polecenie utworzy [grupę](Std_Group/pl.md) zawierającą oddzielne obiekty siatkowe, każdy będący segmentem oryginalnego obiektu siatkowego.
 9.  Jeśli utworzona grupa jest pusta spróbuj użyć polecenia ponownie ze zmienionymi ustawieniami.
+
+
 
 ## Uwagi
 

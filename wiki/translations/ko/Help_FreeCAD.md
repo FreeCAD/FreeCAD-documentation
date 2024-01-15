@@ -67,7 +67,7 @@ FreeCAD를 여러분의 언어로 번역하세요. FreeCAD 인터페이스의 �
 
 Translate FreeCAD to your own language. All text strings of the FreeCAD interface can be easily translated to other languages. All we need is someone who knows that other languages and is willing to help! All the translations are done online on [Crowdin](http://crowdin.net/project/freecad).
 
-번역에 대해 자세한 것은 [지역화를](Localisation.md) 보세요.
+번역에 대해 자세한 것은 [지역화](Localisation.md)를 보세요.
 
 
 <div class="mw-translate-fuzzy">
@@ -189,4 +189,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-⏵ [documentation index](../README.md) > [Command Reference]] page lists and documents all of the FreeCAD ](Category_Command Reference]] page lists and documents all of the FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/ko
+⏵ [documentation index](../README.md) > [Command Reference]] page lists and documents all of the FreeCAD ](Category_Command Reference]] page lists and documents all of the FreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/ko

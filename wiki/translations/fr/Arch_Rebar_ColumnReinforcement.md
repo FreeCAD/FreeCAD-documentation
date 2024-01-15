@@ -357,7 +357,7 @@ RebarGroup = makeSingleTieMultipleRebars(
 
 -    `main_hook_extension`est la longueur du crochet des barres d\'armature principales en L.
 
--    `sec_rebars_t_offset`et `sec_rebars_b_offset` sont respectivement des tuples (xdir_rebars_t\_offset, ydir_rebars_t\_offset) et (xdir_rebars_b\_offset, ydir_rebars_b\_offset), qui définit les distances de décalage intérieures des barres d\'armature secondaires à axe des x et à axe des y par rapport aux faces supérieure et inférieure de la structure, respectivement.
+-    `sec_rebars_t_offset`et `sec_rebars_b_offset` sont respectivement des tuples (xdir_rebars_t_offset, ydir_rebars_t_offset) et (xdir_rebars_b_offset, ydir_rebars_b_offset), qui définit les distances de décalage intérieures des barres d\'armature secondaires à axe des x et à axe des y par rapport aux faces supérieure et inférieure de la structure, respectivement.
 
 -    `sec_rebars_number_diameter`est un tuple (xdir_rebars_number_diameter, ydir_rebars_number_diameter) qui définit l\'ensemble nombre#diamètre des armatures secondaires des directions x et y, respectivement.
 

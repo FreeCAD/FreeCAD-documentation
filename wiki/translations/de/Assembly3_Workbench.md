@@ -468,6 +468,7 @@ Da das App-Image nur unter Linux funktioniert, ist für Windows-Benutzer (die ge
 Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der einfachste.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+
 :   *Endergebnis des \'Wie man startet\'-Beispiels. In dem Bild ist die Arbeitsumgebung Assembly3 ausgewählt, sodass ihre unterschiedlichen Werkzeugleisten sichtbar sind. Beachte, dass die vertikale \'TabBar\'-Leiste links neben der Baumansicht eine zusätzliche Arbeitsumgebung ist und nicht Bestandteil von Standard-FreeCAD (aber mit dem Addon-Manager installiert werden kann).*
 
 -   Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** drücken, um eine neue FreeCAD-Datei zu erstellen

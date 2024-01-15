@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: Std SelForward
-   MenuLocation: 
+   MenuLocation: View , TreeView actions , Selection forward
    Workbenches: All
+   Shortcut: **S** **F**
    Version: 0.19
-   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectLinkedFinal, Std_LinkSelectAllLinks, Std_SelBack
+   SeeAlso: Std_SelBack
 ---
 
 # Std SelForward
@@ -16,7 +17,10 @@ The **Std SelForward** command restores the next recorded [Tree view](Tree_view.
 ## Usage
 
 1.  There has to be a next Tree view selection.
-2.  Press the **<img src="images/Std_SelForward.svg" width=16px> [Forward](Std_SelForward.md)** button.
+2.  There are several ways to invoke the command:
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **<img src="images/Std_SelForward.svg" width=16px> Selection forward** option from the flyout. Note: the button image will change depending on the selected option.
+    -   Select the **View → TreeView actions → <img src="images/Std_SelForward.svg" width=16px> Selection forward** option from the menu.
+    -   Use the keyboard shortcut: **S** then **F**.
 3.  The next selection is restored.
 
 ## Notes

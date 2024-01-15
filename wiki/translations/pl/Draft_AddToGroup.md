@@ -1,39 +1,44 @@
 ---
  GuiCommand:
    Name: Draft AddToGroup
-   MenuLocation: Utilities , Move to group...
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Std_Group, Draft_AddNamedGroup, Draft_AddConstruction, Draft_AutoGroup
+   Name/pl: Rysunek Roboczy: Dodaj do grupy
+   MenuLocation: Narzędzia , Dodaj do grupy ...
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Std_Group/pl, Draft_AddNamedGroup/pl, Draft_AddConstruction/pl, Draft_AutoGroup/pl
 ---
 
 # Draft AddToGroup/pl
 
-## Description
 
-The <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup** command moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
 
-In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workbench.md) objects.
+## Opis
 
-## Usage
+Polecenie <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Dodaj do grupy** przenosi obiekty do [Grupy](Std_Group/pl.md) lub obiektu podobnego do grupy [Architektury](Arch_Workbench/pl.md). Może ono również rozgrupować obiekty.
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddToGroup.svg" width=16px> [Draft AddToGroup](Draft_AddToGroup.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> Move to group...** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
-3.  A menu is displayed near the cursor. Do one of the following:
-    -   Select **Ungroup** to move the objects out of the group(s) they are in.
-    -   Select the group you want to move the objects to.
-    -   Select **+ Add new group** to move the objects to a new group: <small>(v0.20)</small> 
-        1.  The **Add group** task panel opens.
-        2.  Enter a **Group name**.
-        3.  Press the **OK** button.
 
-## Notes
 
--   Objects can also be moved to a group by drag and dropping them on the group in the [Tree view](Tree_view.md).
--   This command can be used to move objects to the [Draft construction group](Draft_ToggleConstructionMode.md), but, contrary to the [Draft AddConstruction](Draft_AddConstruction.md) command, it does not apply the [construction geometry color](Draft_ToggleConstructionMode#Preferences.md).
--   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
+## Użycie
+
+1.  Wybierz jeden lub więcej obiektów.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_AddToGroup.svg" width=16px> '''Przenieś do grupy'''**.
+    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddToGroup.svg" width=16px> Przenieś do grupy ...**.
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_AddToGroup.svg" width=16px> Przenieś do grupy ...** z menu kontekstowego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+3.  W pobliżu kursora wyświetlane jest menu. Wykonaj jedną z następujących czynności:
+    -   Wybierz **Rozgrupuj**, aby przenieść obiekty poza grupę (grupy), w której się znajdują.
+    -   Wybierz grupę, do której chcesz przenieść obiekty.
+    -   Wybierz **+ Dodaj nową grupę**, aby przenieść obiekty do nowej grupy:
+        1.  Otworzy się panel zadań **Dodaj grupę**.
+        2.  Wprowadź **Nazwa grupy**.
+        3.  Naciśnij przycisk **OK**.
+
+
+
+## Uwagi
+
+-   Obiekty mogą być również przenoszone do grupy poprzez przeciągnięcie i upuszczenie ich na grupę w oknie [Widoku drzewa](Tree_view/pl.md).
+-   Polecenie to może być użyte do przeniesienia obiektów do [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md), ale w przeciwieństwie do polecenia [Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md), nie stosuje ono [koloru geometrii konstrukcyjnej](Draft_ToggleConstructionMode/pl#Ustawienia.md).
+-   Więcej informacji na temat organizacji modelu można znaleźć na stronie [Struktura dokumentu](Document_structure/pl.md) oraz [Poradnik dla środowiska pracy Architektura](Arch_tutorial/pl#Porządkowanie_modelu.md).
 
 
 

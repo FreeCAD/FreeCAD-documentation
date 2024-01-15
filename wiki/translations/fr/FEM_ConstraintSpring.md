@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintSpring
-   Name/fr: FEM Contrainte de ressort
-   MenuLocation: Modèle , Contraintes mécaniques, Contrainte de ressort
+   Name/fr: FEM Ressort
+   MenuLocation: Modèle , Conditions limites et charges mécaniques , Ressort
    Workbenches: FEM_Workbench/fr
    Version: 0.20
 ---
@@ -22,8 +22,9 @@ Définit une condition limite de ressort à utiliser pour les analyses mécaniqu
 
 ## Utilisation
 
-1.  Soit vous utilisez le bouton de la barre d\'outils **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Contrainte de ressort](FEM_ConstraintSpring/fr.md)** ou le menu **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintSpring.svg" width=16px> Contrainte de ressort**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez les objets auxquels la contrainte doit être appliquée.
+1.  Utiliser soit le bouton de la barre d\'outils **<img src="images/FEM_ConstraintSpring.svg" width=16px> [Ressort](FEM_ConstraintSpring/fr.md)** soit **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintSpring.svg" width=16px> Ressort** du menu.
+2.  Dans la [vue 3D](3D_view/fr.md), sélectionner les faces auxquelles le ressort doit être appliqué.
+3.  Spécifier la rigidité normale ou tangentielle (en N/m) et sélectionnez celle qu\'Elmer doit utiliser.
 
 
 

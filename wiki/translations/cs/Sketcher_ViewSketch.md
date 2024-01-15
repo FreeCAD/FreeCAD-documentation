@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Popis
 
 Tento nástroj nastaví pohled modelu kolmo k rovině náčrtu. Je to užitečné když uživatel změnil orientaci modelu kvůli prozkoumání jiných aspektů modelu a chce se vrátit k pohledu kolmému k náčrtu.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -1,6 +1,4 @@
 # Manual:Modeling for product design
-{{Manual:TOC}}
-
 [Product design](https://en.wikipedia.org/wiki/Product_design) is originally a commercial term, but in the 3D world, it often means modeling something with the idea to have it [3D-printed](https://en.wikipedia.org/wiki/3D_printing) or, more generally, manufactured by a machine, for example a 3D printer or a [CNC machine](https://en.wikipedia.org/wiki/Numerical_control).
 
 When you print objects in 3D, it is of ultimate importance that your objects are **solid**. As they will become real, solid objects, this is obvious. Nothing prevents them from being hollow inside, of course. But you always need to have a clear notion of which point is inside the material, and which point is outside, because the 3D printer or the CNC machine needs to know exactly what is filled with material and what is not. For this reason, in FreeCAD, the [PartDesign Workbench](PartDesign_Workbench.md) is the perfect tool to build such pieces, because it will always take care for you that your objects stay solid and buildable.

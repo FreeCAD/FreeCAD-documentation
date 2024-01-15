@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM PostCreateFunctionCylinder
    Name/de: FEM NachbereitungFunktionZylinder
-   MenuLocation: Ergebnisse , Filterfunktionen , Cylinder
+   MenuLocation: Ergebnisse , Filterfunktionen , Zylinder
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_tutorial/de
@@ -27,7 +27,7 @@ Die Funktion <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="w
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Cylinder](FEM_PostCreateFunctionCylinder.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Cylinder** option from the menu.
+1.  Press the **<img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> [Cylinder](FEM_PostCreateFunctionCylinder.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionCylinder.svg" width=16px> Cylinder** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the center and the radius of the section cylinder.
 4.  Press the **OK** button to finish.

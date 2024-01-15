@@ -14,102 +14,113 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arbeitsbereich](Draft_Workbench/de.md) verfügt über ein Bearbeitungsebenensystem. Eine Ebene in der [3D Ansicht](3D_view/de.md) zeigt an, wo eine Entwurfsform erstellt wird. Es gibt mehrere Möglichkeiten, die Bearbeitungsebene zu definieren:
-
--   Von einer ausgewählten Fläche.
--   Von drei ausgewählten Knoten.
--   Aus der gegenwärtigen Sicht.
--   Von einer Voreinstellung: oben, vorne oder seitlich.
--   Keine, in diesem Fall wird die Bearbeitungsebene beim Starten eines Befehls automatisch an die aktuelle Ansicht oder an eine Fläche angepasst, wenn Du mit dem Zeichnen auf einer vorhandenen Fläche beginnst.
+Der Befehl <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft EbeneAuswählen** legt die aktuelle Arbeitsebene fest. Dies ist die Ebene in der [3D-Ansicht](3D_view/de.md) auf der neue [Draft](Draft_Workbench.md)-Objekte erstellt werden. Eine Arbeitsebene kann auf einer oder mehreren [Voreinstellungen](#Anwendung_mit_Voreinstellungen.md) basieren oder auf einer Auswahl. Die Auswahl kann vor dem Aufruf des Befehls erfolgen ([Vorauswahl](#Anwendung_mit_Vorauswahl.md)) oder danach ([nachträgliche Auswahl](#Anwendung_mit_nahträglicher_Auswahl.md)).
 
 
-</div>
+{{Version/de|0.22}}
 
-<img alt="" src=images/WorkingPlane_example.png  style="width:400px;">
+: Zu jeder 3D-Ansicht wird eine eigene Arbeitebene gespeichert.
 
+Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray.md) ändert sich abhängig von der aktuellen Arbeitsebene. {{Version/de|0.22}}: Ist die Arbeitsebene nicht auf **Auto** gesetzt, wird der Benennung der Schaltfläche ein Stern (*****) vorangestellt, wenn der Ursprung der Arbeitsebene nicht dem globalen Ursprung entspricht.
 
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
+*Formen die auf unterschiedlichen Arbeitsebenen erstellt wurden*
 
 
 
-*Unterschiedliche Arbeitsebenen können eingestellt werden, auf denen Formen gezeichnet werden können.*
+## Anwendung mit Vorauswahl 
+
+1.  Eine der folgenden Möglichkeiten ausführen:
+    -   Ein einzelnes Objekt auswählen. Die folgenden Objekte werden unterstützt:
+        -   [Draft ArbeitsebenenProxies](Draft_WorkingPlaneProxy/de.md): Die {{PropertyView/de|View Data}} (die Kameraposition) und die {{PropertyView/de|Visibility Map}} (die gespeicherten Sichtbarkeitseinstellungen von Objekten) des Arbeitseben-Proxys werden ebenfalls wiederhergestellt.
+        -   [Arch Achsen](Arch_Axis/de.md) ({{Version/de|0.22}})
+        -   [Arch Achsensysteme](Arch_AxisSystem/de.md) ({{Version/de|0.22}})
+        -   [Arch Gebäudeteile](Arch_BuildingPart/de.md)
+        -   [Arch Schnittebenen](Arch_SectionPlane/de.md)
+        -   [Std Teile](Std_Part/de.md): Sollen nicht nur die angeklickten Subelemente ausgewählt werden, wird empfohlen Std-Teile in der [Baumansicht](Tree_view/de.md) auszuwählen.
+        -   Nicht-Festkörper-Objekte, die aus einer einzelnen ebenen Fläche oder einer einzelnen gekrümmten Kante bestehen oder ({{Version/de|0.22}}) die mindestens drei Knoten enthalten.
+        -   Festkörper-Objekte oder Objekte ohne eine Form, die eine {{PropertyData/de|Placement}} besitzen. ({{Version/de|0.22}})
+    -   Ein oder mehrere Unterelemente auswählen. Zur Wahl stehen:
+        -   Eine ebene Fläche.
+        -   Eine gekrümmte Kante.
+        -   Drei Knotenpunkte.
+        -   Eine Kante und ein Knoten oder zwei Kanten. Die Knoten müssen zusammen eine Ebene definieren. ({{Version/de|0.22}})
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
+    -   Das Tastaturkürzel **W** dann **P**.
+3.  Die Arbeitsebene und die Schaltfläche in der [Draft Tray](Draft_Tray/de.md) werden aktualisiert.
 
 
-</div>
 
-## Usage with pre-selection 
+## Anwendung mit nachträglicher Auswahl 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine Fläche eines vorhandenen Objekts in der [3D Ansicht](3D_view/de.md) aus, oder halte **strg** gedrückt und wähle drei Ecken eines Objekts. {{Version/de|0.17}}
-2.  Drücke die Taste **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)**, oder klicke mit der rechten Maustaste und wähle **Hilfsmittel→ <img src="images/Draft_SelectPlane.svg" width=16px>. [WähleEbene](Draft_SelectPlane/de.md)**.
-
-
-</div>
-
-## Usage with post-selection 
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
-2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following:
-    -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select:
-        -   A flat face.
-        -   Three vertices.
-4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
-5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
-
-## Usage with presets 
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche ![](images/_Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
+    -   Das Tastaturkürzel **W** dann **P**.
+2.  Der Aufgaben-Bereich **Arbeitsebene einrichten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Eine der folgenden Möglichkeiten ausführen:
+    -   Ein einzelnes Objekt auswählen. Siehe den [vorherigen Absatz](#Anwendung_mit_Vorauswahl.md).
+    -   Ein oder mehrere Unterelemente auswählen. Siehe den [vorherigen Absatz](#Anwendung_mit_Vorauswahl.md).
+4.  An eine beliebige Stelle in der [3D-Ansicht](3D_view/de.md) klicken, um die Auswahl zu bestätigen und den Befehl zu beenden.
+5.  Die Arbeitsebene und die Schaltfläche im [Draft Tray](Draft_Tray/de.md) werden aktualisiert.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Drücke die **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)
-**, oder verwende **Entwurf** → **Hilfsmittel** → **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)** aus dem oberen Menü, oder das Tastaturkürzel **W** und dann **P**
-2.  Wähle den Versatz, den Rasterabstand und die Hauptlinien
-3.  Wähle eine der Voreinstellungen: **<img src="images/View-top.svg" width=16px> XY (oben)**, **<img src="images/View-front.svg" width=16px>  XZ (vorne)**, **<img src="images/View-right.svg" width=16px> YZ (Seite)**, **<img src="images/View-isometric.svg" width=16px> Ansicht**, oder **<img src="images/View-axonometric.svg" width=16px> Auto**.
+## Anwendung mit Voreinstellungen 
 
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche ![](images/Draft_tray_button_plane.png ) im [Draft Tray](Draft_Tray/de.md) drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_SelectPlane.svg" width=16px> Ebene wählen** auswählen.
+    -   Das Tastaturkürzel **W** dann **P**.
+2.  Der Aufgaben-Bereich **Arbeitsebene einrichten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Eine der Schaltflächen drücken, um den Befehl zu beenden.
+4.  Die Arbeitsebene und die Schaltfläche im [Draft Tray](Draft_Tray/de.md) werden aktualisiert.
 
 
 
 ## Optionen
 
+-   Die Schaltfläche **<img src="images/View-top.svg" width=16px> Oben (XY)** drücken, um die Arbeitsebene zur XY-Ebene des globalen Koordinatensystems auszurichten.
 
-<div class="mw-translate-fuzzy">
+-   Die Schaltfläche **<img src="images/View-front.svg" width=16px> Front (XZ)** drücken, um die Arbeitsebene zur XZ-Ebene des globalen Koordinatensystems auszurichten.
 
--   Drücke die **<img src="images/View-top.svg" width=16px> XY (top)** Taste um die Bearbeitungsebene in der XY Ebene festzulegen.
+-   Die Schaltfläche **<img src="images/View-right.svg" width=16px> Seite (YZ)** drücken, um die Arbeitsebene zur YZ-Ebene des globalen Koordinatensystems auszurichten.
 
-Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht nach oben oder unten setzen (das Normal liegt in der positiven oder negativen Z Richtung). Drücke **2** oder **5**, um schnell zu diesen Ansichten zu wechseln.
+-   Die Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten** drücken, um die Arbeitsebene zur aktuellen [3D-Ansicht](3D_view/de.md) auszurichten. Ist die Checkbox **Ebene in Ansicht zentrieren** nicht aktiviert, ist der Ursprung der Arbeitsebene deckungsgleich mit dem Ursprung des globalen Koordinatensystems, andernfalls ist er deckungsgleich mit der Mitte der aktuellen [3D-Ansicht](3D_view/de.md).
 
--   Drücke die **<img src="images/View-front.svg" width=16px> XZ (front)** Taste, um die Bearbeitungsebene in der XZ Ebene festzulegen. Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht nach vorne oder hinten setzen (das Normal liegt in negativer oder positiver Y Richtung). Drücke **1** oder **4**, um schnell zu diesen Ansichten zu wechseln.
--   Drücke die Taste {**<img src="images/View-right.svg" width=16px> YZ (side)** Taste, um die Bearbeitungsebene in der YZ Ebene einzustellen. Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht auf die linke oder rechte Seite setzen. (das Normal liegt in positiver oder negativer X Richtung). Drücke  **3**} oder **6**, um schnell zu diesen Ansichten zu wechseln.
--   Drücke die **<img src="images/View-isometric.svg" width=16px> View** Taste , um die Bearbeitungsebene auf die aktuelle 3D Ansicht, senkrecht zur Kameraachse und durch den Ursprung (0,0,0) verlaufend, zu setzen.
--   Drücke die **<img src="images/View-axonometric.svg" width=16px> Auto** Taste , um eine aktuelle Bearbeitungsebene aufzuheben und automatisch eine Bearbeitungsebene zu setzen, wenn ein Werkzeug verwendet wird. Wenn ein Zeichenwerkzeug ausgewählt ist, wird das Gitter automatisch auf die aktuelle Ansicht aktualisiert; wenn die Ansicht gedreht wird und ein anderes Werkzeug ausgewählt wird, wird das Gitter in der neuen Ansicht neu gezeichnet. Dies entspricht dem Drücken von **<img src="images/View-isometric.svg" width=16px> View** automatisch vor der Verwendung eines Werkzeugs.
--   Setze den Wert \"Versatz\", um die Bearbeitungsebene in einem bestimmten senkrechten Abstand von der von dir gewählten Ebene zu setzen.
--   Setze den Wert \"Rasterabstand\", um den Abstand zwischen den einzelnen Linien im Raster zu definieren.
--   Setze den Wert \"Hauptlinie alle\", um eine etwas dickere Linie im Raster bei setzen des Wertes zu zeichnen. Zum Beispiel, wenn der Rasterabstand beispielsweise 0,5 m beträgt und alle 20 Linien eine Hauptlinie vorhanden ist, wird alle 10 m eine etwas dickere Linie sein.
--   Klicke auf das Kontrollkästchen \"Mittelebene auf Ansicht\", um die Ebene und das Gitter in der 3D Ansicht näher an die Kameraansicht zu zeichnen.
--   Drücke **Esc** oder die {{button|Close}} Taste, um den aktuellen Befehl abzubrechen.
+-   Die Schaltfläche **<img src="images/View-axonometric.svg" width=16px> Automatisch** drücken, um die Arbeitsebene auf **Auto** zu setzen. Eine auf **Auto** gesetzte Arbeitsebene wird automatisch zur aktuellen [3D-Ansicht](3D_view/de.md) ausgerichtet, wann immer ein Draft- oder [Arch](Arch_Workbench/de.md)-Befehl gestartet wird, der eine Punkteingabe erfordert. Dies ist entspricht dem Drücken der Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten**, bevor der Befehl verwendet wird. Außerdem richtet sich die Arbeitsebene zu ebenen Flächen aus, die vor dem Start des Befehls ausgewählt wurden, oder wenn während der Ausführung des Befehls Punkte auf ebenen Flächen ausgewählt werden.
 
+-    **Versetzen**legt den senkrechten Abstand zwischen der berechneten Ebene und der tatsächlichen Arbeitsebene fest.
 
-</div>
+-   Die Checkbox **Center plane on view** aktivieren, um den Ursprung der Arbeitsebene auf den Mittelpunkt der aktuellen [3D-Ansicht](3D_view/de.md) zu setzen. Diese Option kann in Kombination mit der Schaltfläche **<img src="images/View-isometric.svg" width=16px> Zur Ansicht ausrichten** nützlich sein.
+
+-   Einen Knoten in der [3D-Ansicht](3D_view/de.md) auswählen und die Schaltfläche **<img src="images/Draft_Move.svg" width=16px> Move working plane** drücken, um die die Arbeitsebene so zu versetzen, dass ihr Ursprung auf dem ausgewählten Knoten liegt.
+
+-    **Rasterabstand**legt den Abstand zwischen den Rasterlinien fest.
+
+-   Der Wert **Hauptlinien alle** legt fest, wo Hauptrasterlinien gezeichnet werden. Hauptrasterlinien sind geringfügig dicker, als normale Rasterlinen. Ist z.B. der Rasterabstand {{Value|0.5 m}} und es gibt eine Hauptlinie alle {{Value|10}} Linien, treten die Hauptlinien alle {{Value|5 m}} auf.
+
+-   Der Wert **Grid extension** legt die Anzahl der Rasterlinien in X- und Y-Richtung des Rasters fest.
+
+-   Der **Einrast-Radius** ist der maximale Abstand, den [Draft EinrastenAufRaster](Draft_Snap_Grid/de.md) berücksichtigt, um die Schnittstellen der Rasterlinien zu finden.
+
+-   Die Schaltfläche **<img src="images/view-fullscreen.svg" width=16px> Ansicht zentrieren** drücken, um die [3D-Ansicht](3D_view/de.md) zur aktuellen Arbeitsebene auszurichten.
+
+-   Die Schaltfläche **<img src="images/sel-back.svg" width=16px> Vorherige** drücken, um die Arbeitsebene auf ihre vorherige Position zurückzusetzen.
+
+-   Die Schaltfläche **Next <img src="images/sel-forward.svg" width=16px>** drücken, um die Arbeitsebene auf ihre nachfolgende Position zu setzen. {{Version/de|0.22}}
+
+-    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
--   It can be useful to align the [3D view](3D_view.md) with the selected Draft working plane. For example after switching the working plane to Front you may want to switch to the [Front view](Std_ViewFront.md) as well.
--   The grid can be toggled with the [Draft ToggleGrid](Draft_ToggleGrid.md) command.
--   By double-clicking [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) in the [Tree view](Tree_view.md) you can quickly switch between working planes.
+-   Es kann sinnvoll sein, die [3D-Ansicht](3D_view/de.md) zur ausgewählten Arbeitsebene auszurichten. Beispielsweise stellt man nach dem setzen der Arbeitsebene auf Front auch für die Ansicht auf die [Vorderansicht](Std_ViewFront.md) um.
+-   Das Raster kann mit dem Befehl [Raster ein-/ausblenden](Draft_ToggleGrid/de.md) umgeschaltet werden.
+-   Durch Doppelklicken auf [Draft Arbeitsebenen-Proxies](Draft_WorkingPlaneProxy/de.md) in der [Baumansicht](Tree_view/de.md) kann schnell zwischen Arbeitsebenen gewechselt werden.
 
 
 
@@ -117,9 +128,8 @@ Um auf dieser Ebene leicht zeichnen zu können, solltest Du die Ansicht nach obe
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
--   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
+-   Die Rastereinstellungen im Aufgaben-Bereich und auch einige andere Rastereinstellungen stehen als Voreinstellungen zur Verfügung: **Bearbeiten → Einstellungen... → Draft → Raster und Einrasten**.
+-   Der Einrastradius kann auch \"on-the-fly\" geändert werden (see [Draft Einrasten](Draft_Snap/de#Einstellungen.md)) oder durch **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
 
 
@@ -128,60 +138,37 @@ Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstel
 Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
-<div class="mw-translate-fuzzy">
+{{Version/de|0.22}}
 
-Du kannst auf die aktuelle Bearbeitungsebene Entwurf zugreifen und Transformationen darauf anwenden:
+Das Modul WorkingPlane (Arbeitsebene) enthält zwei Klassen zur Erstellung von Arbeitsebenen (working plane objects): Die Klasse `PlaneBase` und die Klasse `PlaneGui`. Die zweite Klasse ist von der ersten abgeleitet. Objekte der Klasse `PlaneGui` arbeiten mit der GUI (Schaltfläche im [Draft Tray](Draft_Tray/de.md)), der [3D-Ansicht](3D_view.md) und dem [Raster](Draft_Snap_Grid/de.md) zusammen. `PlaneBase`-Objekte tun dies nicht.
 
-
-</div>
+Die Methode `get_working_plane()` der Arbeitsebene wird verwendet, um eine Instanz der Klasse `PlaneGui` zu erhalten, die mit der 3D-Ansicht verknüpft ist. Die Methode gibt entweder die vorhandene Arbeitsebene zurück, die mit der Ansicht verknüpft ist, oder erstellt eine neue Arbeitsebene, fallls erforderlich.
 
 
 ```python
-# This code only works if the Draft Workbench is active!
-
 import FreeCAD as App
-import FreeCADGui as Gui
+import WorkingPlane
 
-workplane = App.DraftWorkingPlane
+wp = WorkingPlane.get_working_plane()
 
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
+origin = App.Vector(0, 0, 0)
+normal = App.Vector(1, 1, 1).normalize()
+offset = 17
+wp.align_to_point_and_axis(origin, normal, offset)
 
-workplane.alignToPointAndAxis(v1, v2, 17)
-Gui.Snapper.toggleGrid()
-Gui.Snapper.toggleGrid()
+point = App.Vector(10, 15, 2)
+projection = wp.project_point(point)
+print(projection)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Du kannst deine eigenen Ebenen erstellen und sie unabhängig von der aktuellen Arbeitsebene verwenden. Dies ist nützlich, wenn du Berechnungen oder Projektionen in diesen anderen Ebenen durchführen musst.
-
-
-</div>
+Die Klasse `PlaneBase` kann verwendet werden, um Arbeitsebenen unabhängig von der GUI zuerstellen:
 
 
 ```python
 import WorkingPlane
 
-my_plane = WorkingPlane.plane()
-
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
-my_plane.alignToPointAndAxis(v1, v2, 17)
-
-projection = my_plane.projectPoint(App.Vector(10, 15, 2))
-print(projection)
+wp = WorkingPlane.PlaneBase()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -29,7 +29,7 @@ Diese Implementation ist schnell, überspringt aber Merkmale, die nicht erkannt 
 
 ### Python DXF Importeur 
 
-Dieser Importer muss vor der Verwendung heruntergeladen und installiert werden. Siehe [Dxf Importer-Installation](Dxf_Importer_Install/de.md) oder benutze die Option \"\[ \] FreeCAD das automatische Herunterladen und Aktualisieren der DXF-Bibliotheken erlauben\" (in **Bearbeiten → Einstellungen → Import/Export → DXF**).
+Dieser Importer muss vor der Verwendung heruntergeladen und installiert werden. Dafür wird die Option \"\[ \] FreeCAD das automatische Herunterladen und Aktualisieren der DXF-Bibliotheken erlauben\" (in **Bearbeiten → Einstellungen → Import/Export → DXF**) verwendet.
 
 Dieser Importeur hat mehr Funktionen (wie das Importieren von Splines) und hat die Option zum Laden der DXF Formen in den Skizzierer. Sei jedoch gewarnt, dass alle Elemente der Skizze ein weiteres Mal einzeln im Modellbaum erscheinen, was verwirrend sein kann. Du kannst all diese einzelnen Objekte löschen und die einzelne Skizze beibehalten (die als zweiter Eintrag in der Liste der neuen Elemente erscheint).
 

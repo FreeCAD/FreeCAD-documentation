@@ -15,6 +15,8 @@ Cette commande permet de basculer la visibilité de toutes les mesures dans la [
 
 <img alt="" src=images/MeasureLinear3DandDelta1.PNG  style="width:400px;">
 
+
+
 ## Utilisation
 
 1.  Il y a plusieurs façons de lancer la commande :

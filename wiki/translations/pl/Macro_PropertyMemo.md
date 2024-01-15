@@ -4,7 +4,7 @@
 |Icon=PropertyMemo.png
 |Description={{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.19 and more (PySide2 Qt5)}} <br/> <br/> 
 For the precedent version see [https://gist.githubusercontent.com/mario52a/eafcf79703fab64b8da5/raw/51702c17fb4b205da52488bf2a239011bbbc9da5/Macro_FCPropertyMemo.FCMacro Macro_FCPropertyMemo.FCMacro] and install it manually.<br/><br/>
-This little macro create one Property additional (memo or other text) for you object (work only with Draft objects).<br/>Launch the macro select one object Draft complete the fields and apply. One new property is created in '''Combo view → Property → Data tab'''.
+This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
 |Author=Mario52
 |Version=2020-05-17
 |FCVersion=0.19
@@ -13,36 +13,34 @@ This little macro create one Property additional (memo or other text) for you ob
 
 ## Description
 
-This little macro create one Property additional (memo or other text) for you object (only Draft)
+This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
 
 ![](images/Macro_FCPropertyMemo_00.png ) 
-*Addin one property Memo → Name*
+*Adding one property Memo → Name*
 
-## Uses
+## Usage
 
-Launch the macro select one object Draft complete the fields and apply. One new property is created in **Combo view → Property → Data tab**
+Launch the macro, select one Draft object, complete the fields and apply. A new property is created in **Combo view → Property → Data tab**.
 
--   **Property title** : title of new property (Default: Memo)
+-   **Property title** : Property title (group name) for the new property (Default: Memo).
 
--   **Property name** : name of field property
+-   **Property name** : Name for the new property.
 
--    {{CheckBox|TRUE|UnCheck for String}}: checkBox for choice to string or list (By default)
+-    {{CheckBox|TRUE|UnCheck for String}}: Checkbox that determines the memo type. Check the checkbox to change the type to string instead of list.
 
-![One Property Memo is adding](images/Macro_FCPropertyMemo_01.png )
-
--   **Memo** : Property title here Memo
--   **Name** : Property name here Name
--   The field is free to manually complete
+![Example of a memo property](images/Macro_FCPropertyMemo_01.png )
 
 
 
 
-I the checkBox is checked you ave one memo in list, click to the tree point for open the list window
+-   **Memo** : Property title: {{Value|Memo}}.
+-   **Name** : Property name: {{Value|Name}}.
+-   The field is empty
 
 
 <center>
 
-Image:Macro_FCPropertyMemo_02.png\|One Property Memo list. Image:Macro_FCPropertyMemo_03.png\|The window Memo list.
+Image:Macro_FCPropertyMemo_02.png\|Example of a memo property using a list Image:Macro_FCPropertyMemo_03.png\|Editing the list
 
 
 </center>
@@ -397,12 +395,12 @@ MainWindow.show()
 
 The discussion on the forum [Object description field](http://forum.freecadweb.org/viewtopic.php?f=3&t=12282)
 
-My macros on [mario52a](https://gist.github.com/mario52a) gists
+My macros on Github of [mario52a](https://gist.github.com/mario52a).
 
 ## Version
 
--   ver 00.03 2020/05/17 : grid layout for 0.19
--   ver 00.02 19/10/2015 : add checkBox for choice memo String or memo List
+-   ver 00.03 2020/05/17 : Grid layout for 0.19
+-   ver 00.02 19/10/2015 : Add checkBox for choice memo String or memo List
 
 
 

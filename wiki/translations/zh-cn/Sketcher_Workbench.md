@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[ 草图工作台用于创建用于](Sketcher_Workbench.md)[ 零件工作台](PartDesign_Workbench/zh-cn.md)、[ 建筑工作台和其他工作台的二维几何图形](Arch_Workbench/zh-cn.md)。 通常，二维绘图被视为大多数CAD模型的起点，因为二维草图可以"拉伸"以创建三维形状；进一步的二维草图可以用于在先前构建的三维形状的基础上创建其他特征，如开槽"Pocket"、隆起"ridges"或拉伸。 草图绘制器与在[零件设计工作台中定义的布尔操作一起构成了构建实体的](PartDesign_Workbench/zh-cn.md)[构造实体几何方法的基础](constructive_solid_geometry/zh-cn.md)。此外，草图绘制器还与[零件设计工作台操作一起构成了创建实体的](PartDesign_Workbench/zh-cn.md)[特征编辑方法的基础](feature_editing/zh-cn.md)。
+[ 草图工作台](Sketcher_Workbench.md)用于创建用于[ 零件工作台](PartDesign_Workbench/zh-cn.md)、[ 建筑工作台](Arch_Workbench/zh-cn.md)和其他工作台的二维几何图形。 通常，二维绘图被视为大多数CAD模型的起点，因为二维草图可以"拉伸"以创建三维形状；进一步的二维草图可以用于在先前构建的三维形状的基础上创建其他特征，如开槽"Pocket"、隆起"ridges"或拉伸。 草图绘制器与在[零件设计工作台](PartDesign_Workbench/zh-cn.md)中定义的布尔操作一起构成了构建实体的[构造实体几何](constructive_solid_geometry/zh-cn.md)方法的基础。此外，草图绘制器还与[零件设计工作台](PartDesign_Workbench/zh-cn.md)操作一起构成了创建实体的[特征编辑](feature_editing/zh-cn.md)方法的基础。
 
 
 </div>
@@ -87,7 +87,7 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 <div class="mw-translate-fuzzy">
 
-有两种约束：几何和尺寸。它们在下面的[\'工具\'部分中详细介绍](#The_tools.md)。
+有两种约束：几何和尺寸。它们在下面的[\'工具\'](#The_tools.md)部分中详细介绍。
 
 
 </div>
@@ -185,7 +185,13 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [调整草图方向](Sketcher_ReorientSketch/zh-cn.md): 允许您更改草图的位置
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [校验草图...](Sketcher_ValidateSketch/zh-cn.md): 它允许你检查是否有不同点的公差和匹配。
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [合并草图](Sketcher_MergeSketches/zh-cn.md): 合并两个或多个草图。
 
@@ -227,7 +233,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Create an arc](Sketcher_CompCreateArc.md): 这是一个位于草图工作台中的图标菜单，其中列有下列命令：
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc.md): 从中心，半径，起始角度和最终角度绘制弧段。
 
@@ -239,24 +245,13 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Create a circle](Sketcher_CompCreateCircle.md): 这是一个位于草图工具栏中的图标菜单，其中列有下列命令：
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Circle](Sketcher_CreateCircle.md): 从中心和半径画一个圆。
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circle by 3 point](Sketcher_Create3PointCircle.md) : 从圆周上的三个点画一个圆。
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_Conics.png  style="width:32px;"> [Conic sections](Sketcher_CompCreateConic.md): 草图工作台提供了以下圆锥曲线工具。与B样条不同的是，可对这些圆锥曲线使用各种约束，如切线、对象上的点或正交。
-    -   <img alt="" src=images/Sketcher_CreateEllipse.png  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md) : 通过中心点，大半径点和小半径点绘制椭圆。 <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_CreateEllipse_3points.png  style="width:32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md) : 用大直径（2点）和小半径点绘制椭圆。 <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_Elliptical_Arc.png  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md) : 通过中心点，主要半径点，起点和终点绘制椭圆弧。 <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_Hyperbolic_Arc.png  style="width:32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md): 绘制双曲线弧。 <small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Parabolic_Arc.png  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): 画出抛物线弧。 <small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
 
@@ -268,15 +263,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Create a B-spline](Sketcher_CompCreateBSpline.md): 这是一个位于草图工作台中的图标菜单，其中列有下列命令：
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Create B-spline](Sketcher_CreateBSpline.md): 利用控制点来绘制一条B样条曲线。<small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md): 利用控制点来绘制一条周期性（periodic，此处为闭合closed之意）的B样条曲线。<small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
@@ -294,7 +281,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
 
 <div class="mw-translate-fuzzy">
@@ -308,13 +295,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create regular polygon](Sketcher_CompCreateRegularPolygon.md): 这是一个位于草图工具栏中的图标菜单，其中列有下列命令：
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.png  style="width:32px;"> [Triangle](Sketcher_CreateTriangle.md): 在几何圆草图中绘制一个正三角形。
 
@@ -336,9 +317,19 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Slot](Sketcher_CreateSlot.md): 通过选择一个半圆的中心和另一个半圆的终点绘制椭圆。
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 
 <div class="mw-translate-fuzzy">
@@ -350,6 +341,8 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -358,6 +351,8 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -365,8 +360,6 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -399,17 +392,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 约束用于定义长度、在草图元素之间设置规则以及沿垂直和水平轴锁定草图。某些约束要求 [辅助约束](Sketcher_helper_constraint.md)
 
-#### Geometric constraints 
-
-
-<div class="mw-translate-fuzzy">
-
-#### 几何约束
-
-不与数值数据关联
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -427,10 +410,14 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical.md): 将所选线条或折线元素约束为真正的垂直方向。在应用此约束之前, 可以选择多个对象。
+-   <img alt="" src=images/Constraint_Horizontal.png  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal.md): 将所选线条或折线元素约束为真正的水平方向。在应用此约束之前, 可以选择多个对象。
 
 
 </div>
@@ -438,7 +425,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Constraint_Horizontal.png  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal.md): 将所选线条或折线元素约束为真正的水平方向。在应用此约束之前, 可以选择多个对象。
+-   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical.md): 将所选线条或折线元素约束为真正的垂直方向。在应用此约束之前, 可以选择多个对象。
 
 
 </div>
@@ -485,19 +472,9 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Block](Sketcher_ConstrainBlock.md): it blocks an edge from moving, that is, it prevents its vertices from changing their current positions. It should be particularly useful to fix the position of B-Splines. See the [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensional constraints 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
 
-
-<div class="mw-translate-fuzzy">
-
-#### 尺寸約束
-
-**与数值数据关联**
-
-对于这些约束, 可以使用[表达式](Expressions/zh-cn.md)。数据可能取自 [电子表格](Spreadsheet_Workbench/zh-cn.md)
-
-
-</div>
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -507,7 +484,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md): Fixes the horizontal distance between two points or line endpoints. If only one item is selected, the distance is set to the origin.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Horizontal distance](Sketcher_ConstrainDistanceX.md): Fixes the horizontal distance between two points or line endpoints. If only one item is selected, the distance is set to the origin.
 
 
 <div class="mw-translate-fuzzy">
@@ -525,8 +502,6 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
-
 
 <div class="mw-translate-fuzzy">
 
@@ -540,7 +515,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 #### Special constraints 
 
@@ -630,6 +605,10 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetry](Sketcher_Symmetry.md): Copies a sketcher element symmetrical to a chosen line.
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone.md): Clones a sketcher element.
@@ -648,16 +627,6 @@ The following tools can be used the change the effect of constraints:
 
 ### Sketcher B-spline tools 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md): Shows or hides the display of the degree of a B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md): Shows or hides the display of the defining polygon of a B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md): Shows or hides the display of the curvature comb of a B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md): Shows or hides the display of the knot multiplicity of a B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convert geometry to B-spline](Sketcher_BSplineApproximate.md): Converts compatible geometry, edges and curves, into a B-spline.
 
 -   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md): Increases the degree (order) of a B-spline.
@@ -672,9 +641,21 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
-### Sketcher virtual space 
+### Sketcher visual 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch virtual space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md): Shows or hides the display of the degree of a B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md): Shows or hides the display of the defining polygon of a B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md): Shows or hides the display of the curvature comb of a B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md): Shows or hides the display of the knot multiplicity of a B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

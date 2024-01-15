@@ -1,68 +1,83 @@
 # FEM CalculiX/pl
-## Introduction
+## Wprowadzenie
 
-This page collects information on the [CalculiX](http://www.calculix.de/) finite element solver, the default solver in the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
+Ta strona zbiera informacje o solverze MES [CalculiX](http://www.calculix.de/), który stanowi domyślny solver w **<img src="images/Workbench_FEM.svg" width=24px> [środowisku pracy MES](FEM_Workbench/pl.md)** do analiz mechanicznych i termo-mechanicznych. W zależności od systemu operacyjnego, może być konieczność zainstalowania tego solvera przed uruchomieniem pierwszej symulacji w nim. Zobacz stronę [Instalacja środowiska MES](FEM_Install/pl.md).
 
-The solver is able to do linear and non-linear calculations, for static, dynamic, and thermal problems. The solver operates on an Abaqus input file (`.inp`), which means it can be used with different pre-processors that support this format. The program includes its own graphical preprocessor which, however, is not used by FreeCAD, only the solver itself.
+Ten solver nadaje się do symulacji liniowych i nieliniowych zagadnień statycznych, dynamicznych i termicznych. Operuje on na plikach (`.inp`) środowiska Abaqus, co oznacza, że może być używany z różnymi preprocessorami, które wspierają ten format. Posiada on własny preprocessor graficzny, który nie jest jednak używany we FreeCAD (zaimplementowany jest sam solver).
 
-CalculiX is designed to run on Unix platforms like Linux and Irix computers but also on MS-Windows. CalculiX was developed by engineers from MTU Aero Engines, Munich, Germany, to assist them in designing machinery such as jet turbines. The software is currently released to the public on the terms of the GPL version 2.
-
-## Integration with FreeCAD 
-
-Interaction between the [FEM Workbench](FEM_Workbench.md) and CalculiX is done through writing and reading text files. The sequence of operations is as follows:
-
-1.  A CalculiX input file is created with details required to run the simulation
-2.  The CalculiX solver is started with this input file
-3.  The output from the solver is logged
-4.  The output files from the solver are read, if they are available
-
-The [FEM Control Solver](FEM_SolverControl.md) tool manages the whole process. User interaction in the process is possible.
-
-## Preprocessing interface 
-
-The input file that CalculiX uses can be prepared and edited before the solver is started. The units used in the input file are independent of the units set in FreeCAD; they will always be millimeters (mm) and Newton (N).
+CalculiX jest stworzony do pracy na platformach Unixowych jak Linux i Irix, ale też MS-Windows. Został opracowany przez inżynierów z MTU Aero Engines w Munich (Niemcy) do wspomagania projektowania części maszyn takich jak turbiny silników odrzutowych. CalculiX jest obecnie udostępniany publicznie na zasadach licencji GPLv2.
 
 
-**(ToDo: check this. What happens with the mesh if inch is used in FreeCAD? As density was introduced, with this we have kg and s and no longer N?! how about this?!)**
 
-The CalculiX interface supports the following objects:
+## Integracja z FreeCAD 
 
-### FEM Elements 
+Interakcja między [środowiskiem pracy MES](FEM_Workbench/pl.md) a solverem CalculiX odbywa się poprzez zapis i odczyt plików tekstowych. Sekwencja operacji jest następująca:
 
--   Tet4 and Tet10
--   S3 and S6
--   B31 and B32
--   and those described in [FEM Mesh CalculiX](FEM_Mesh_CalculiX.md)
+1.  Tworzony jest plik wejściowy solvera CalculiX zawierający dane potrzebne do uruchomienia symulacji
+2.  CalculiX jest uruchamiany z tym plikiem wejściowym
+3.  Wyniki z solvera są zapisywane
+4.  Pliki wyjściowe z solvera są odczytywane, jeśli są dostępne
 
-### Analysis
+Narzędzie [MES: Kontrola pracy solvera](FEM_SolverControl/pl.md) zarządza całym procesem. Możliwa jest interakcja użytkownika w procesie.
 
--   Linear static analysis
--   Frequency analysis
--   Coupled thermal-structural analysis
 
-### Materials
 
--   One linear elastic isotropic material (uniformity in all directions)
--   Multiple material use is in development
+## Interfejs do preprocessingu 
 
-## Postprocessing interface 
+Plik wejściowy, którego CalculiX używa może być przygotowany i edytowany przed uruchomieniem solvera. Jednostki używane w pliku wejściowym są niezależne od jednostek ustawionych w programie FreeCAD - zawsze są to milimetry (mm) i Newtony (N).
 
-The FEM Workbench loads CalculiX results into a [result object](FEM_ResultShow.md) which will contain:
 
--   Displacements
--   Stresses
--   Strains
--   Equivalent plastic strain (PEEQ) -- if nonlinear material was used
--   Temperature -- for thermomechanical analysis
+**(Do zrobienia: sprawdzić to. Co się stanie z siatką jeśli we FreeCAD używane będą cale? Po wprowadzeniu gęstości, mamy kg i s, ale już nie N? Co z tym?ǃ)**
 
-FreeCAD reads results from \*.frd file which was created by CalculiX. If these results contain multiple time steps, each time step is imported to FreeCAD as a new result object. Same behavior applies for Frequency or Buckling analysis with multiple eigenvalues.
+Interfejs solvera CalculiX wspiera następujące obiekty:
 
-Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
 
-## Related
 
--   [FEM Mesh CalculiX](FEM_Mesh_CalculiX.md)
--   [CalculiX preferences](FEM_Preferences#CalculiX.md) dialog menu in the FEM Workbench preferences menu
+### Elementy skończone 
+
+-   Tet4 i Tet10
+-   S3 i S6
+-   B31 i B32
+-   i te opisane na stronie [MES: Siatka CalculiX](FEM_Mesh_CalculiX/pl.md)
+
+
+
+### Analizy
+
+-   Liniowe i nieliniowe analizy statyczne
+-   Analizy modalne (częstotliwości drgań własnych)
+-   Liniowe analizy wyboczeniowe
+-   Sprzężone analizy termo-mechaniczne
+
+
+
+### Materiały
+
+-   Materiały liniowo sprężyste izotropowe (jednorodne we wszystkich kierunkach)
+-   Plastyczność ze wzmocnieniem izotropowym
+
+
+
+## Interfejs do postprocessingu 
+
+Środowisko pracy MES wczytuje wyniki z solvera CalculiX do [obiektu wyników](FEM_ResultShow/pl.md), który zawiera:
+
+-   Przemieszczenia
+-   Naprężenia
+-   Odkształcenia
+-   Ekwiwalentne odkształcenia plastyczne (PEEQ) -- jeśli używany był nieliniowy materiał
+-   Temperatury -- dla analiz termomechanicznych
+
+FreeCAD odczytuje wyniki z pliku \*.frd utworzonego przez CalculiX. Jeśli te wyniki zawierają wiele przyrostów czasowych, każdy przyrost jest importowany do FreeCAD jako nowy obiekt wyników. To samo zachowanie dotyczy analiz modalnych i wyboczeniowych z wieloma wartościami własnymi.
+
+Siły reakcji można odczytać z pliku ccx_dat_file, który zawiera ich składowe *(fx, fy, fz)* dla każdego warunku brzegowego utwierdzenia lub przemieszczenia, który blokuje translacyjne stopnie swobody.
+
+
+
+## Powiązane
+
+-   Strona [MES: Siatka CalculiX](FEM_Mesh_CalculiX/pl.md)
+-   Okno dialogowe [preferencje CalculiX](FEM_Preferences/pl#CalculiX.md) w menu preferencji środowiska pracy MES
 
 
 {{FEM Tools navi

@@ -1,10 +1,88 @@
 # Svg Namespace/fr
-**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer sera introduit dans la version 0.17. Les deux ateliers seront fournis dans la version v0.17, mais l'atelier Mise en plan peut être supprimé dans les versions ultérieures.**
+**Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté, et un nouvel atelier [Techdraw](TechDraw_Workbench/fr.md) visant à le remplacer, a été introduit dans la version 0.17. Les deux ateliers ont été livrés de la v0.17 à la v0.20, mais depuis la v0.21, l'atelier Drawing n'est plus inclus.**
+
+
+{{Message|Actuellement, l'atelier TechDraw utilise toujours l'attribut '''freecad:EditableText''' et la déclaration d'espace de noms correspondante dans ses modèles aujourd'hui.}}
 
 
 
 
-Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des pages [modèles](Drawing_templates.md), plusieurs [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD dans le futur. Ces attributs utilisent tous le préfixe **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL de l\'espace de nom défini dans ces documents SVG fait référence à cette page.
+## Introduction
+
+FreeCAD peut importer et exporter des documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) contenant du code appartenant à un certain **espace de noms** qui est un sous-ensemble d\'instructions XML.
+
+Comme tout document XML, un document SVG se compose de deux sections :
+
+-   L\'en-tête : une seule ligne pour déclarer la version du langage XML utilisée pour les instructions dans le corps de ce document.
+-   Le corps : une liste d\'instructions. Les documents SVG contiennent toutes les instructions dans des balises<svg>.
+
+:   La balise d\'ouverture contient des informations sur la taille et les espaces de noms SVG utilisés.
+
+
+
+## Espace de noms par défaut 
+
+=
+
+L\'espace de noms SVG par défaut utilisé par FreeCAD est déclaré par cette ligne :
+
+
+{{Code|lang=xml|code=
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+}}
+
+Le lien externe mène à un site web contenant des informations sur l\'espace de noms et son ensemble d\'instructions. Les attributs de cet espace de noms sont utilisés sans préfixe.
+
+
+
+## Extension de l\'espace de noms 
+
+Les attributs manquants dans l\'espace de noms SVG peuvent être ajoutés par des extensions d\'espace de noms. FreeCAD utilise une telle extension pour les modèles de dessin. Les modèles pour l\'atelier Drawing utilisent quatre attributs personnalisés qui sont marqués d\'un préfixe \"freecad:\" :
+
+-   [freecad:EditableText](#freecad_EditableText.md), cet attribut est toujours utilisé pour les modèles de l\'atelier TechDraw.
+-   [freecad:basepoint1](#freecad_basepoint1.md)
+-   [freecad:basepoint2](#freecad_basepoint2.md)
+-   [freecad:dimpoint](#freecad_dimpoint.md)
+
+Une déclaration d\'espace de noms est utilisée pour introduire le préfixe et le lien vers le site web correspondant, **cette page** :
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+Le lien n\'est pas utilisé pour récupérer des informations ou des valeurs au moment de l\'exécution, mais c\'est la clé qui permet d\'activer les attributs personnalisés.
+
+
+
+### Modèles de Drawing 
+
+Dans les documents [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) exportés par l\'[atelier Drawing](Drawing_Workbench/fr.md) de FreeCAD et utilisés comme des [modèles](Drawing_templates/fr.md) de pages (de dessin), les [attributs](http://www.w3schools.com/xml/xml_attributes.asp) personnalisés peuvent être utilisés, à l\'origine pour l\'usage interne de FreeCAD, mais ils pourraient également être utilisés par d\'autres applications compatibles avec FreeCAD à l\'avenir. Ces attributs utilisent tous le préfixe d\'[espace de nom](http://www.w3schools.com/xml/xml_namespaces.asp) **freecad:**. L\'URL de l\'espace de noms définie dans ces documents SVG renvoie à cette page.
+
+:   L\'atelier Drawing n\'est plus inclus dans FreeCAD {{VersionPlus/fr|0.21}} et ces modèles de Drawing sont donc obsolètes.
+
+
+
+### Modèles de TechDraw 
+
+L\'atelier TechDraw utilise également des modèles SVG mais ne peut pas créer et exporter des modèles. Il s\'appuie sur [freecad:EditableText](#freecad_EditableText.md) pour les entrées dans les blocs de titre.
+
+
+
+### Migrer vers freecad.org 
+
+Depuis que le wiki de FreeCAD, y compris **cette page**, a été migré de **freecadweb.org** à **freecad.org** avec la version 0.21, le lien doit être mis à jour en conséquence :
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+Les mises à jour des modèles TechDraw contiennent maintenant une clé qui ne peut pas activer les attributs personnalisés lorsqu\'ils sont utilisés avec FreeCAD {{VersionMinus/fr|0.20}} par conséquent, les textes éditables des modèles récents ne sont pas reconnus et sont donc traités comme du texte brut.
+
+:   Dans de tels cas, le \"web\" doit être réinséré manuellement dans la déclaration de l\'espace de noms du modèle.
+
+Il semble que {{VersionPlus/fr|0.21}} puisse traiter l\'une ou l\'autre adresse de lien.
 
 
 

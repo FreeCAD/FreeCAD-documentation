@@ -69,7 +69,7 @@ For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer
 
 The magnetodynamic 2D equation provides these special settings:
 
--    **Angular Frequency**: The harmonic actuation frequency. It only used if **Is Harmonic** is set to *true*.
+-    **Angular Frequency**: The harmonic actuation frequency. It is only used if **Is Harmonic** is set to *true*.
 
 -    **Calculate Current Density**: Calculates the [current density](https://en.wikipedia.org/wiki/Current_density).
 
@@ -99,7 +99,7 @@ The magnetodynamic 2D equation provides these special settings:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-## Constraint Information 
+## Analysis Feature Information 
 
 
 </div>
@@ -107,7 +107,7 @@ The magnetodynamic 2D equation provides these special settings:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-The magnetodynamic 2D equation takes the following constraints into account if they are set:
+The magnetodynamic 2D equation takes the following analysis features into account if they are set:
 
 
 </div>
@@ -115,9 +115,9 @@ The magnetodynamic 2D equation takes the following constraints into account if t
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density constraint](FEM_ConstraintCurrentDensity.md)
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization constraint](FEM_ConstraintMagnetization.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md)
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md)
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md)
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
 
 
@@ -130,7 +130,7 @@ The magnetodynamic 2D equation takes the following constraints into account if t
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric electric potential (called **av** in the results) is calculated. Otherwise also the corresponding results will be available.
+The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric potential (called **av** in the results) is calculated. Otherwise also the corresponding results will be available.
 
 
 </div>

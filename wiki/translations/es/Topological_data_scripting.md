@@ -3,14 +3,18 @@
 
 Aquí te explicaremos cómo controlar el módulo [Pieza](Part_Workbench/es.md) directamente desde el intérprete de Python de FreeCAD, o desde cualquier guión externo. Asegúrate de navegar por la sección [Guionización](Scripting/es.md) y las páginas [Básicos de Guionización FreeCAD](FreeCAD_Scripting_Basics/es.md) si necesitas más información sobre cómo funciona el guionización de Python en FreeCAD. Si eres nuevo en Python, es una buena idea leer primero la [Introducción a Python](Introduction_to_Python/es.md).
 
+
+
 ### Ver también 
 
 -   [Guionización Pieza](Part_scripting/es.md)
 -   [OpenCASCADE](OpenCASCADE/es.md)
 
+
+
 ## Diagrama de clase 
 
-Este es un resumen [Lenguaje Unificado de Modelado (UML)](http://es.wikipedia.org/wiki/Lenguaje_Unificado_de_Modelado) de las clases más importantes del módulo Pieza: ![Clases de Python del módulo Pieza](images/Part_Classes.jpg ) {{Top}}
+Este es un resumen [Lenguaje Unificado de Modelado (UML)](http://es.wikipedia.org/wiki/Lenguaje_Unificado_de_Modelado) de las clases más importantes del módulo Pieza: ![Clases de Python del módulo Pieza](images/Part_Classes.jpg ) 
 
 ### Geometría
 
@@ -23,6 +27,8 @@ Los objetos geométricos son los bloques de construcción de todos los objetos t
 
 
 {{Top}}
+
+
 
 ### Topología
 
@@ -41,11 +47,13 @@ Los siguientes tipos de datos topológicos están disponibles:
 
 {{Top}}
 
+
+
 ## Ejemplo: Crear una topología simple 
 
 ![Hilo](images/Wire.png )
 
-Ahora crearemos una topología construyéndola a partir de una geometría más sencilla. Como caso de estudio utilizaremos una pieza como la que se ve en la imagen que consta de cuatro vértices, dos arcos y dos líneas. {{Top}}
+Ahora crearemos una topología construyéndola a partir de una geometría más sencilla. Como caso de estudio utilizaremos una pieza como la que se ve en la imagen que consta de cuatro vértices, dos arcos y dos líneas. 
 
 ### Crear geometría 
 
@@ -66,6 +74,8 @@ V4 = App.Vector(0, -10, 0)
 
 {{Top}}
 
+
+
 ### Arco
 
 ![Círculo](images/Circel.png )
@@ -83,6 +93,8 @@ C2 = Part.Arc(V2, VC2, V3)
 
 {{Top}}
 
+
+
 ### Línea
 
 ![Línea](images/Line.png )
@@ -98,6 +110,8 @@ L2 = Part.LineSegment(V3, V4)
 
 {{Top}}
 
+
+
 ### Poniendo todo junto 
 
 El último paso es poner los elementos base de la geometría juntos y formar una forma topológica:
@@ -109,6 +123,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 ### Crear un prisma 
 
@@ -123,6 +139,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 
 {{Top}}
 
+
+
 ### Mostrar todo 
 
 
@@ -132,6 +150,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 ## Crear formas básicas 
 
@@ -148,6 +168,9 @@ Puedes crear fácilmente objetos topológicos básicos con los métodos `make...
 b = Part.makeBox(100, 100, 100)
 Part.show(b)
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 Algunos métodos disponibles `make...()`:
 
@@ -169,7 +192,15 @@ Algunos métodos disponibles `make...()`:
 
 -    `makeTorus(radius1, radius2)`Hace un toro con los radios dados.
 
-Ver la página [Pieza API](Part_API/es.md) para una lista completa de los métodos disponibles del módulo Pieza. {{Top}}
+Ver la página [Pieza API](Part_API/es.md) para una lista completa de los métodos disponibles del módulo Pieza.
+
+
+</div>
+
+
+{{Top}}
+
+
 
 ### Módulos de importación 
 
@@ -189,6 +220,8 @@ import Part
 
 
 {{Top}}
+
+
 
 ### Crear un vector 
 
@@ -210,6 +243,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 ### Crear un borde 
 
@@ -245,6 +280,8 @@ edge.CenterOfMass
 
 {{Top}}
 
+
+
 ### Poniendo la forma en la pantalla 
 
 Hasta ahora hemos creado un objeto de borde, pero no aparece en ninguna parte de la pantalla. Esto se debe a que la escena 3D de FreeCAD sólo muestra lo que tú le dices que muestre. Para ello, utilizamos este sencillo método:
@@ -254,7 +291,7 @@ Hasta ahora hemos creado un objeto de borde, pero no aparece en ninguna parte de
 Part.show(edge)
 ```
 
-La función mostrar crea un objeto en nuestro documento de FreeCAD y le asigna nuestra forma \"borde\". Utilízala siempre que sea el momento de mostrar tu creación en pantalla. {{Top}}
+La función mostrar crea un objeto en nuestro documento de FreeCAD y le asigna nuestra forma \"borde\". Utilízala siempre que sea el momento de mostrar tu creación en pantalla. 
 
 ### Crear un hilo 
 
@@ -298,6 +335,8 @@ wire2.isClosed()
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de una cara 
@@ -335,6 +374,8 @@ Sólo las caras tendrán un área, ni los contornos ni las aristas.
 
 
 {{Top}}
+
+
 
 ### Crear un círculo 
 
@@ -389,6 +430,8 @@ degrees = math.degrees(radians)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de un arco por varios puntos 
@@ -438,6 +481,8 @@ Los arcos son aristas válidas, como las líneas. Así que también pueden utili
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de un polígono 
@@ -472,6 +517,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -513,6 +560,8 @@ Nota: makePlane sólo acepta Base.Vector() para start_pnt y dir_normal pero no t
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -618,6 +667,8 @@ para el constructor de la elipse de arriba hemos pasado el centro, MajorRadius y
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de un toro 
@@ -672,6 +723,8 @@ El código de arriba creará un semi toro, sólo el último parámetro se ha cam
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de un cubo o prisma 
@@ -692,6 +745,8 @@ len(box.Vertexes)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -715,6 +770,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Creación de un cilindro 
@@ -734,6 +791,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -757,6 +816,8 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Modificando formas 
@@ -766,7 +827,7 @@ Existen diversos métodos para modificar formas. Algunas son simples operaciones
 
 </div>
 
-There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
+There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. 
 
 
 <div class="mw-translate-fuzzy">
@@ -775,6 +836,8 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -806,6 +869,8 @@ Esto moverá nuestra forma \"myShape\" 2 unidades en la dirección del eje X.
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Rotación de una forma 
@@ -822,7 +887,7 @@ To rotate a shape, you need to specify the rotation center, the axis, and the ro
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-El código de arriba rotará la forma 180 grados alrededor del eje Z. {{Top}}
+El código de arriba rotará la forma 180 grados alrededor del eje Z. 
 
 
 <div class="mw-translate-fuzzy">
@@ -881,6 +946,8 @@ myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Escalando una forma 
@@ -903,12 +970,16 @@ myShape=myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Operaciones Booleanas 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -933,6 +1004,8 @@ diff = cylinder.cut(sphere)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Intersección
@@ -955,6 +1028,8 @@ common = cylinder1.common(cylinder2)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Unión
@@ -975,6 +1050,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1003,6 +1080,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1039,6 +1118,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1079,6 +1160,8 @@ Escribiendo las líneas de arriba en el interprete de Python, conseguirás una b
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1123,6 +1206,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1177,6 +1262,8 @@ print("Length of the selected edges: ", length)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Examen completo: La botella OCC 
@@ -1198,6 +1285,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1261,6 +1350,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1492,6 +1583,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

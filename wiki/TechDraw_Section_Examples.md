@@ -38,7 +38,7 @@ Section A-A (section up)
 *Base View + <img src="images/Section-up.svg" width=24px> → Base View and Section A-A in its default position*
 
  <img alt="" src=images/TechDraw_ExampleSection-04.png  style="width:200px;">  
-*Base View and Section A-A in its proper position*
+*Base View and Section A-A in its proper position.*
 
 Section B-B (section down)
 
@@ -76,7 +76,7 @@ Section E-E (section at an arbitrary angle)
  <img alt="" src=images/TechDraw_ExampleSection-12.png  style="width:300px;">  
 *Base View and Section E-E in its proper position*
 
-By default the section plane goes through the center of gravity of the object. To get an offset section we need to change the values in the **Section Plane Location** area.
+By default the section plane goes through the bounding box center of the view (in this case coincident with the center of gravity of the object). To get an offset section we need to change the values in the **Section Plane Location** area.
 
  <img alt="" src=images/TechDraw_ExampleSection-16.png  style="width:300px;">
 

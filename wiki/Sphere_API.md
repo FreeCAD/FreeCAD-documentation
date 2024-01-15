@@ -330,15 +330,15 @@ Computes the tangent of parameter (u,v) on this geometry
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Returns a B-Spline representation of this surface.
-					The optional arguments are:
-					* tolerance (default=1e-7)
-					* continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
-					* continuity in v (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
-					* maximum degree in u (default=25)
-					* maximum degree in v (default=25)
-					* maximum number of segments (default=1000)
-					* precision code (default=0)
-					Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
+                    The optional arguments are:
+                    * tolerance (default=1e-7)
+                    * continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
+                    * continuity in v (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
+                    * maximum degree in u (default=25)
+                    * maximum degree in v (default=25)
+                    * maximum number of segments (default=1000)
+                    * precision code (default=0)
+                    Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
 
 
 
@@ -392,4 +392,4 @@ Computes the point of parameter (u,v) on this surface
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Sphere API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Sphere API

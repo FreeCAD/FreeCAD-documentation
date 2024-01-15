@@ -12,10 +12,10 @@ Cette catégorie regroupe toute la documentation de FreeCAD.
 | [Release notes 0.12/fr](Release_notes_0.12/fr.md) | [Release notes 0.13/fr](Release_notes_0.13/fr.md) | [Release notes 0.14/fr](Release_notes_0.14/fr.md) |
 | [Release notes 0.15/fr](Release_notes_0.15/fr.md) | [Release notes 0.16/fr](Release_notes_0.16/fr.md) | [Release notes 0.17/fr](Release_notes_0.17/fr.md) |
 | [Release notes 0.18/fr](Release_notes_0.18/fr.md) | [Release notes 0.19/fr](Release_notes_0.19/fr.md) | [Release notes 0.20/fr](Release_notes_0.20/fr.md) |
-| [Release notes 0.21/fr](Release_notes_0.21/fr.md) | [Transportation Workbench/fr](Transportation_Workbench/fr.md) | [WikiPages/fr](WikiPages/fr.md) |
-| [Category:Developer Documentation/fr](Category_Developer_Documentation/fr.md) | [Category:Poweruser Documentation/fr](Category_Poweruser_Documentation/fr.md) | [Category:Screenshots/fr](Category_Screenshots/fr.md) |
-| [Category:User Documentation/fr](Category_User_Documentation/fr.md) | [Category:Wiki Documentation/fr](Category_Wiki_Documentation/fr.md) | [Category:Wiki/fr](Category_Wiki/fr.md) |
-|
+| [Release notes 0.21/fr](Release_notes_0.21/fr.md) | [Release notes 0.22/fr](Release_notes_0.22/fr.md) | [Transportation Workbench/fr](Transportation_Workbench/fr.md) |
+| [WikiPages/fr](WikiPages/fr.md) | [Category:Developer Documentation/fr](Category_Developer_Documentation/fr.md) | [Category:Poweruser Documentation/fr](Category_Poweruser_Documentation/fr.md) |
+| [Category:Screenshots/fr](Category_Screenshots/fr.md) | [Category:User Documentation/fr](Category_User_Documentation/fr.md) | [Category:Wiki Documentation/fr](Category_Wiki_Documentation/fr.md) |
+| [Category:Wiki/fr](Category_Wiki/fr.md) |
 
 
 

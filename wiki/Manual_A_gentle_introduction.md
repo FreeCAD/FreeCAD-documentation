@@ -1,13 +1,11 @@
 # Manual:A gentle introduction
-{{Manual:TOC}}
-
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) is a popular, open source programming language, very often embedded in applications as a scripting language, as is the case with FreeCAD. It has a series of features that make it suitable for us FreeCAD users: It is very easy to learn, especially for people who had never programmed before, and it is embedded in many other applications. This make it a valuable tool to learn, as you will be able to use it in other software, such as [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) or [GRASS](http://grass.osgeo.org/).
 
 FreeCAD makes extensive use of Python. With it, you can access and control almost any feature of FreeCAD. For example, you can create new objects, modify their geometry, analyze their contents, or even create new interface controls, tools and panels. Some FreeCAD workbenches and most of the addon workbenches are fully programmed in Python. FreeCAD has an advanced Python console, available from menu **View-\>Panels-\>Python console**. It is often useful to perform operations for which there is no toolbar button yet, or to check shapes for problems, or to perform repetitive tasks:
 
 ![](images/Exercise_python_01.jpg )
 
-But the Python console has another very important use: Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console (if the option to **Show script commands in Python console** is enabled in **Edit → Preferences → General → Macro**) and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will find yourself learning some of the Python language.
+But the Python console has another very important use: Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console (if the option to **Show script commands in Python console** is enabled in **Edit → Preferences → Python → Macro**) and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will find yourself learning some of the Python language.
 
 FreeCAD also has a [macros system](Macros.md), which allows you to record actions to be replayed later. This system also uses the Python console, by simply recording everything that is done in it.
 

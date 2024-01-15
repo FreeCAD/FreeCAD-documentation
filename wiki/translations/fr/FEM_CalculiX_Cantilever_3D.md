@@ -59,12 +59,12 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 -   Si l\'analyse est activée, FreeCAD de lui-même basculera vers l\'atelier FEM.
 -   Il faut au moins 5 objets pour faire une analyse mécanique statique.
--   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Conteneur d\'analyse
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> le conteneur d\'analyse
 
 1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> un solveur
 2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> un matériau
-3.  <img alt="" src=images/FEM_ConstraintFixed.png  style="width:24px;"> une contrainte fixée
-4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> une contrainte de force
+3.  <img alt="" src=images/FEM_ConstraintFixed.png  style="width:24px;"> une condition limite fixe
+4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> une charge de force
 5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> un maillage FEM
 
 -   Dans cet exemple, les résultats <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> sont déjà inclus.
@@ -140,7 +140,7 @@ Cet exemple est destiné à montrer à quoi ressemble une simple analyse par él
 
 ## Et ensuite ? 
 
--   Nous avons maintenant terminé avec le flux de travail de base pour l\'[atelier FEM](FEM_Workbench/fr.md).
+-   Nous avons maintenant terminé avec le processus de base pour l\'[atelier FEM](FEM_Workbench/fr.md).
 -   Vous êtes maintenant prêt à faire le deuxième [FEM Tutoriel](FEM_tutorial/fr.md).
 -   Nous allons créer le cantilever de CalculiX par nous-mêmes et comparer les résultats avec la théorie des poutres.
 

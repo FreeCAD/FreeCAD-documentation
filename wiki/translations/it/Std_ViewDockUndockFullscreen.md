@@ -1,9 +1,7 @@
 ---
  GuiCommand:
-
    Name: Std ViewDockUndockFullscreen
    Name/it: Finestra del documento
-   Empty: 1
    MenuLocation: Visualizza , Finestra del documento , Agganciata o Non agganciata
    Workbenches: All
    Shortcut: **V** **D** / **V** **U**
@@ -18,7 +16,7 @@
 
 La [Vista 3D](3D_view/it.md) può essere sganciata dall\'[interfaccia di FreeCAD](Interface/it.md) e spostata in un altro posto.
 
-![](images/FinestraNonAgganciata.png ) 
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
 *Una vista 3D sganciata*
 
 

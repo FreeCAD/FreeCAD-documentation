@@ -2,9 +2,10 @@
  GuiCommand:
    Name: Sketcher CreateSlot
    Name/de: Sketcher NutErstellen
-   MenuLocation: Sketch , Skizzengeometrie , Nut erstellen
+   MenuLocation: Sketch , Skizzengeometrien , Nut erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **S**
+   SeeAlso: Sketcher_CreateArcSlot/de
 ---
 
 # Sketcher CreateSlot/de

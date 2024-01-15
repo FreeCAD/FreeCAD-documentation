@@ -1,47 +1,41 @@
 # Mesh/de
 ## Einleitung
 
-In FreeCAD wird das Wort \"[Polygonnetz](Mesh/de.md)\" normalerweise verwendet, um sich auf ein [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) (`Mesh::MeshObject` Klasse) zu beziehen, ein Objekttyp, der 3D Daten definiert, aber kein Volumenkörper \"[Form](Shape/de.md)\" ist.
+In FreeCAD wird das Wort \"[Polygonnetz](Mesh/de.md)\" (kurz Netz) normalerweise verwendet, um sich auf ein [Mesh Netzobjekt](Mesh_MeshObject/de.md) (`Mesh::MeshObject`-Klasse) zu beziehen, eine Objektart, die 3D-Daten darstellt, aber keine Festkörper-\"[Form](Shape/de.md)\" ist.
 
-Polygonnetze sind sehr einfache Objekte, die nur Knoten (Punkte), Kanten und dreieckige Flächen enthalten. Im Allgemeinen sind sie leicht zu erstellen, zu modifizieren, zu unterteilen und zu dehnen und können ohne Detailverlust von einer Anwendung zur anderen übertragen werden. Da die Netze sehr einfache Daten enthalten, können 3D Anwendungen wie Animationssoftware und Videospiele sehr große Mengen von ihnen (Millionen von Dreiecken) ohne großen Rechenaufwand verwalten.
+Polygonnetze sind sehr einfache Objekte, die nur Knoten (Punkte), Kanten und dreieckige Flächen enthalten. Im Allgemeinen sind sie leicht zu erstellen, bearbeiten, unterteilen und zu dehnen und können ohne Detailverlust von einer Anwendung zu einer anderen übertragen werden. Da die Netze sehr einfache Daten enthalten, können 3D-Anwendungen wie Animationssoftware und Videospiele sehr große Mengen von ihnen (Millionen von Dreiecken) ohne großen Rechenaufwand verwalten.
 
-Im Bereich der technischen Netze gibt es jedoch eine große Einschränkung: Sie bestehen nur aus Flächen und haben keine \"Masse\" Informationen, so dass sie sich nicht wie \"Volumenkörper\" verhalten. Das bedeutet, dass festkörperbasierte Operationen, wie [boolesche Addition oder Subtraktion](Part_Boolean/de.md), auf Polygonnetzen schwer durchführbar sind. Da sie außerdem durch einzelne Punkte definiert sind, lassen sie sich nur schwer parametrisch beschreiben.
+Im Bereich der technischen Netze gibt es jedoch eine große Einschränkung: Sie bestehen nur aus Flächen und haben keine \"Masse\"-Informationen, so dass sie sich nicht wie \"Festkörper\" verhalten. Das bedeutet, dass festkörperbasierte Verknüpfungen wie [boolesche Vereinigung oder Differenz](Part_Boolean/de.md) mit Polygonnetzen schwer durchführbar sind. Da sie außerdem durch einzelne Punkte definiert sind, lassen sie sich nur schwer auf parametrische Art beschreiben.
 
-Siehe [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) für weitere Informationen über diesen Objekttyp und siehe [Polygonnetz](https://de.wikipedia.org/wiki/Polygonnetz) für generelle Informationen in Computersystemen.
+Siehe [Mesh Netzobjekt](Mesh_MeshObject/de.md) für weitere Informationen zu diesem Objekttyp und siehe [Polygonnetz](https://de.wikipedia.org/wiki/Polygonnetz) für allgemeine Informationen im Bereich Computersysteme.
 
 ![](images/Shape_and_mesh.svg )
 
 
 
-*Links: parametrische [Form](Shape/de.md), definiert durch Eigenschaften. Rechts: [Polygonnetz](Mesh/de.md), definiert durch Eckpunkte und Dreiecksflächen.*
+*Links: parametrische [Form](Shape/de.md), definiert durch Eigenschaften. Rechts: [Polygonnetz](Mesh/de.md), definiert durch Knoten und dreieckige Oberflächen.*
+
+
 
 ## Anwendung
 
-Polygonnetze werden normalerweise durch interne Funktionen der [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) oder durch den Import von Polygonnetzformatdateien, wie STL und OBJ, erstellt.
+Polygonnetze werden normalerweise durch interne Funktionen des Arbeitsbereichs [Mesh](Mesh_Workbench/de.md) erstellt oder durch den Import von Dateien in einem Netzformat wie STL oder OBJ.
 
-Im Wesentlichen wird jedes Objekt, das von einer [Polygonnetz Formelement](Mesh_Feature/de.md) (`Mesh::Feature` Klasse) abgeleitet ist, wird erwartet, ein Polygonnetz zu halten und zu verändern.
+Im Wesentlichen wird von jedem Objekt, das von einem [Mesh Formelement](Mesh_Feature/de.md) (`Mesh::Feature`-Klasse) abgeleitet ist, erwartet, ein Polygonnetz zu enthalten und zu verändern.
 
-
-<div class="mw-translate-fuzzy">
-
-Da FreeCAD in erster Linie als Volumenmodellierer konzipiert ist, ist es besser geeignet, mit Volumenkörpern [Formen](Shape/de.md) zu arbeiten. Es kann Netze in der [3D Ansicht](3D_view.md) importieren und anzeigen, aber um sie zu transformieren oder neue Geometrie zu erzeugen, muss das Netz zuerst in eine [Form](Shape/de.md) konvertiert werden (siehe [Part FormAusPolygonnetz](Part_ShapeFromMesh/de.md)). In vielen Fällen erfolgt diese Konvertierung nicht automatisch und erfordert die Neuerstellung der Geometrie mit Volumenkörpermodellierungstechniken unter Verwendung der [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) Werkzeuge.
+Da FreeCAD in erster Linie als Konstruktionsprogramm für Festkörper konzipiert ist, ist es besser geeignet, mit Festkörper- [Formen](Shape/de.md) zu bearbeiten. Es kann Netze in die [3D-Ansicht](3D_view.md) importieren und der Arbeitsbereich [Mesh](Mesh_Workbench/de.md) enthält einige Befehle um sie direkt zu bearbeiten. In vielen Fällen muss das Netz aber zuerst in eine [Form](Shape/de.md) konvertiert werden (siehe [Part FormAusNetz](Part_ShapeFromMesh/de.md)) oder die Geometrie muss nachkonstruiert werden, mit Modellierungstechniken für Festkörper der Arbeitsbereiche [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md).
 
 
-</div>
 
 ## Finite Element Netze 
 
 In FreeCAD kann sich das Wort \"[Polygonnetz](Mesh/de.md)\" auch auf ein bestimmtes Objekt beziehen, das in der Finite Elemente Analyse (FEA) verwendet wird.
 
+Wenn ein Objekt mit einer Festkörper-[Form](Shape/de.md) im Arbeitsbereich [FEM](FEM_Workbench/de.md) verwendet wird, wird es in ein Netz aus Dreiecken Netz umgewandelt. In diesem Fall ist das resultierende Objekt ein [FEM-Netzobjekt](FEM_Mesh/de.md) (`Fem::FemMeshObject`-Klasse) und ist nicht von einem [Mesh Formelement](Mesh_Feature/de.md) (`Mesh::Feature`-Klasse) abgeleitet.
 
-<div class="mw-translate-fuzzy">
-
-Wenn ein Objekt mit einem Volumenkörper [Form](Shape/de.md) in der [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendet wird, wird es zu einem dreieckigen Netz diskretisiert. In diesem Fall ist das resultierende Objekt ein [Fem FemPolygonnetzObjekt](FEM_Mesh/de.md) (`Fem::FemMeshObject` Klasse) und ist nicht von einer [Polygonnetz Merkmal](Mesh_Feature/de.md) (`Mesh::Feature` Klasse) abgeleitet.
+Für weitere Informationen siehe Arbeitsbereich [FEM](FEM_Workbench/de.md) und [FEM Polygonnetz](FEM_Mesh/de.md).
 
 
-</div>
-
-Für weitere Informationen siehe [FEM Arbeitsbereich](FEM_Workbench/de.md) und [FEM Polygonnetz](FEM_Mesh/de.md).
 
 ## Weitere Informationen 
 

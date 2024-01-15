@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: Std LinkSelectLinkedFinal
-   MenuLocation: ''None''
+   MenuLocation: View , Link navigation , Go to the deepest linked object
    Workbenches: All
+   Shortcut: **S** **D**
    Version: 0.19
-   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectAllLinks, Std_SelBack, Std_SelForward
+   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectAllLinks
 ---
 
 # Std LinkSelectLinkedFinal/en
@@ -16,9 +17,12 @@ The **Std LinkSelectLinkedFinal** command selects the **Linked Object**, the sou
 ## Usage
 
 1.  Select a link.
-2.  Select the **Link actions → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Go to deepest linked object** option from the [Tree view](Tree_view.md) context menu.
+2.  There are several ways to invoke the command:
+    -   Select the **View → Link navigation → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Go to the deepest linked object** option from the menu.
+    -   Select the **Link actions → <img src="images/Std_LinkSelectLinkedFinal.svg" width=16px> Go to the deepest linked object** option from the [Tree view](Tree_view.md) context menu.
+    -   Use the keyboard shortcut: **S** then **D**.
 3.  The deepest linked object is selected. If this object belongs to an external document that document is activated.
-4.  Optionally use **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** to reselect the link.
+4.  Optionally use <img alt="" src=images/Std_SelBack.svg  style="width:16px;"> [Std SelBack](Std_SelBack.md) to reselect the link.
 
 
 

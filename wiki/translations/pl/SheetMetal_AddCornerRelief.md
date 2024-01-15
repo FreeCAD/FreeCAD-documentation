@@ -1,114 +1,129 @@
 ---
  GuiCommand:
    Name: SheetMetal AddCornerRelief
-   MenuLocation: SheetMetal , Add Corner Relief
-   Workbenches: SheetMetal_Workbench
+   Name/pl: Arkusz Blachy: Dodaj podcięcie narożnika
+   MenuLocation: SheetMetal , Dodaj podcięcie narożnika
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **C** **R**
 ---
 
 # SheetMetal AddCornerRelief/pl
 
-## Description
 
-The <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> **SheetMetal AddCornerRelief** command adds a corner relief. A relief is usually created at corners where two bends meet, but the command can also create a relief at an open corner.
 
-The command can only create one relief at a time.
+## Opis
+
+Polecenie <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> **Dodaj podcięcie narożnika** dodaje podcięcie w narożniku. Podcięcie jest zwykle tworzone w narożnikach, w których spotykają się dwa zagięcia, ale polecenie może również utworzyć podcięcie w otwartym narożniku.
+
+Polecenie może utworzyć tylko jedno podcięcie naraz.
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-01.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-02.png  style="width:300px;"> 
-*Default corner of two bends → Corner with added corner relief*
+*Domyślny narożnik z dwoma zagięciami → Narożnik z dodatkowym podcięciem narożnym.*
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-03.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-04.png  style="width:300px;"> 
-*Default open corner → Open corner with added corner relief*
+*Domyślny otwarty narożnik → Otwarty narożnik z dodatkowym podcięciem.*
 
-## Usage
 
-1.  Select two edges of a corner.
-2.  Activate the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **SheetMetal AddCornerRelief** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> [Add Corner Relief](SheetMetal_AddCornerRelief.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Add Corner Relief** menu option.
-    -   The keyboard shortcut: **C** then **R**.
 
-## Relief shapes 
+## Użycie
 
-The shape of a corner relief can be altered by changing its property values:
+1.  Wybierz jedną lub więcej krawędzi.
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> **Wykonaj podcięcie narożnika** używając jednej z poniższych opcji:
+    -   Przycisk **<img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika**.
+    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddCornerRelief.svg" width=16px> Wykonaj podcięcie narożnika**.
+    -   Skrót klawiaturowy: **C** + **R**.
 
-The value of the property **ReliefSketch** can be chosen from a list: {{value|Circle}} (default), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
 
--    {{value|Circle}}and {{value|Square}} use the value of the property **Size** to scale the relief.
 
--    {{value|Circle-Scaled}}and {{value|Square-Scaled}} use the value of the property **Size Ratio** to scale the relief.
+## Kształt podcięcia 
 
--    {{value|Sketch}}activates the use of the sketch listed in the property **Sketch** to define the relief shape.
+Kształt narożnego podcięcia można zmienić, zmieniając wartości jego właściwości:
+
+Wartość właściwości **SzkicPodcięcia** może być wybrana z listy: {{value|Okrąg}} (domyślnie), {{value|Skalowany-Okrąg}}, {{value|Kwadrat}}, {{value|Skalowany-Kwadrat}}, {{value|Szkic}}.
+
+-    {{value|Okrąg}}i {{value|Kwadrat}} używają wartości właściwości **Rozmiar** do skalowania podcięcia.
+
+-    {{value|Skalowany-Okrąg}}i {{value|Skalowany-Kwadrat}} używają wartości właściwości **Współczynnik rozmiaru** do skalowania podcięcia.
+
+-    {{value|Szkic}}aktywuje użycie szkicu wymienionego we właściwości **Szkic** do zdefiniowania kształtu podcięcia.
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-07.png  style="width:200px;"> 
-*Circular relief (default settings) → Square relief (default settings) → Sketch based relief*
+*Podcięcie okrągłe ''(ustawienia domyślne)'' → Podcięcie kwadratowe ''(ustawienia domyślne)'' → Podcięcie oparte na szkicu*
 
-## A closer look at relief sizes 
 
-To get an idea how and where the relief is placed we unfold a default corner without a relief.
+
+## Bliższe spojrzenie na rozmiary podcięć 
+
+Aby zorientować się, jak i gdzie umieszczone jest podcięcie, rozkładamy domyślny narożnik bez podcięcia.
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-08.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-09.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-10.png  style="width:200px;">
 
 
 
-*Default corner of two bends → Corner with unfold solid → Corner in top view*
+*Domyślny narożnik z dwoma zagięciami → Narożnik z rozwiniętą bryłą → Narożnik w widoku z góry.*
 
-The next step is to open the unfold sketch, create a circle through 3 points and add a radius dimension.
-Now we add a corner relief, create the corresponding unfold solid and open the first unfold sketch again.
-Adding a concentric circle of 3 mm radius reveals that we have found out how the internal circle is positioned as the new circle fits perfectly into the cut-out of the relief\'s unfold solid.
+Następnym krokiem jest otwarcie rozwiniętego szkicu, utworzenie okręgu przez trzy punkty i dodanie wymiaru promienia.
+Teraz dodajemy narożne podcięcie, tworzymy odpowiednią rozwiniętą bryłę i ponownie otwieramy pierwszy rozwinięty szkic.
+Dodanie koncentrycznego okręgu o promieniu {{Value|3 mm}} pokazuje, że dowiedzieliśmy się, jak umieszczony jest wewnętrzny okrąg, ponieważ nowy okrąg idealnie pasuje do wycięcia rozwiniętej bryły z podcięciem.
 
 <img alt="" src=images/SheetMetal_AddCornerRelief-11.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddCornerRelief-12.png  style="width:300px;">
 
 
 
-*Default corner with unfold sketch → Corner with default relief and the same unfold sketch*
+*Domyślny narożnik z rozłożonym szkicem → Narożnik z domyślnym podcięciem i tym samym rozłożonym szkicem.*
 
-Trying to set the property **Size** to a value below the determined 1,67 mm will result in an error; any value above should work fine.
+Próba ustawienia właściwości **Rozmiar** na wartość poniżej określonego {{Value|1,67 mm}} spowoduje błąd. Każda wartość powyżej powinna działać poprawnie.
 
-Switching to Circle-Scaled and creating another unfold solid shows that 1,67 mm is the base for the property **Size Ratio**, too.
-
-## Notes
-
--   The k factor defines where within the thickness of a sheet the neutral axis is located.
-
-:   (It would be nice to know if this factor is according to ISO or ANSI standard\...)
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal CornerRelief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+Przełączenie na Skalowany-Okrąąg i utworzenie kolejnej rozwiniętej bryły pokazuje, że {{Value|1,67 mm}} jest również podstawą dla właściwości **Współczynnik rozmiaru**.
 
 
-{{Properties_Title|Base}}
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+## Uwagi
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-   Współczynnik **k** określa, gdzie w grubości arkusza znajduje się oś neutralna.
 
-
-{{Properties_Title|Parameters}}
-
--    **ReliefSketch|Enumeration**: \"Corner Relief Type\". {{value|Circle}} (default), {{value|Circle-Scaled}}, {{value|Square}}, {{value|Square-Scaled}}, {{value|Sketch}}.
-
--    **Size|Length**: \"Size of Shape\". Default: {{value|3,00 mm}}.
-
--    **Size Ratio|Float**: \"Size Ratio of Shape\". Default: {{value|1,50}}.
-
--    **base Object|LinkSub**: \"Base Object\". Links to the pair of edges defining the Corner Relief position.
-
--    **kfactor|FloatConstraint**: \"Neutral Axis Position\". Default: {{value|0,50}}.
+*(Dobrze byłoby wiedzieć, czy współczynnik ten jest zgodny ze standardem ISO czy ANSI \...)*
 
 
-{{Properties_Title|Parameters1}}
 
--    **Sketch|Link**: \"Corner Relief Sketch\".
+## Właściwości
 
--    **XOffset|Distance**: \"Gap from side one\". Default: {{value|0,00 mm}}.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
--    **YOffset|Distance**: \"Gap from side two\". Default: {{value|0,00 mm}}.
+Obiekt Podcięcia narożnika środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **Cecha bazowa|Link|hidden**: Cecha bazowa. Łącze do cechy nadrzędnej.
+
+-    **_Body|LinkHidden|hidden**: Ukryte łącze do elementu nadrzędnego.
+
+
+{{Properties_Title|Parametry}}
+
+-    **SzkicPodcięcia|Enumeration**: *Typ podcięcia narożnika* {{value|Okrąg}} (domyślnie), {{value|Skalowany-Okrąg}}, {{value|Kwadrat}}, {{value|Skalowany-Kwadrat}}, {{value|Szkic}}.
+
+-    **Rozmiar|Length**: *Rozmiar kształtu*. Wartość domyślna: {{value|3,00 mm}}.
+
+-    **Współczynnik rozmiaru|Float**: *Współczynnik rozmiaru kształtu*. Wartość domyślna: {{value|1,50}}.
+
+-    **Obiekt bazowy|LinkSub**: *Obiekt bazowy*. Łącza do pary krawędzi definiujących pozycję Podcięcia Narożnika.
+
+-    **WspółczynnikK|FloatConstraint**: *Pozycja osi neutralnej*. Wartość domyślna: {{value|0,50}}.
+
+
+{{Properties_Title|Parametry1}}
+
+-    **Szkic|Link**: *Szkic podcięcia narożnika*.
+
+-    **OdsunięcieX|Distance**: *Szczelina od strony pierwszej*. Wartość domyślna: {{value|0,00 mm}}.
+
+-    **OdsunięcieY|Distance**: *Szczelina od strony drugiej*. Wartość domyślna: {{value|0,00 mm}}.
 
 
 

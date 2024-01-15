@@ -18,213 +18,235 @@
 
 ## Wprowadzenie
 
-This tutorial was originally written by Drei, and it was rewritten and illustrated by vocx.
+Ten poradnik został pierwotnie napisany przez Drei i został zaktualizowany i odnowiony przez vocx.
 
-This tutorial is meant to introduce the reader to the basic workflow of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md).
+Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy środowiska pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-The reader will practice:
+Czytelnik przećwiczy:
 
--   creation of lines, arcs, and polygons
--   the use of working planes
--   the creation of dimensions, text, and shapestrings
--   the creation of a technical drawing
+-   tworzenie linii, łuków i wielokątów,
+-   korzystanie z płaszczyzn roboczych,
+-   tworzenie wymiarów, tekstu i ciągów kształtów,
+-   tworzenie rysunków technicznych.
 
-This tutorial uses the notation {{Value|(x, y, z)}} to denote the coordinates required to define points in an object. The default unit is millimeters {{Value|mm}}.
+Ten samouczek używa notacji {{Value|(x, y, z)}} do oznaczania współrzędnych wymaganych do zdefiniowania punktów w obiekcie. Domyślną jednostką są milimetry {{Value|mm}}.
 
 <img alt="" src=images/00_Dr01_Draft_Tutorial_final.png  style="width:" height="400px;"> 
-*Final drawing including various Draft objects.*
+*Rysunek końcowy zawierający różne obiekty środowiska Rysunek Roboczy.*
 
-## Setup
 
-1\. Open FreeCAD, create a new empty document with **File → [<img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
-:   1.1. Switch to the [Draft Workbench](Draft_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **View → Workbench → [<img src=images/Workbench_Draft.svg style="width:16px"> Draft**.
-:   1.2. Make sure you understand how to use the [property editor](property_editor.md), particularly the **Data** and **View** tabs to change the properties. When changing properties, you may have to do a **<img src="images/Std_Refresh.svg" width=16px> [Std Refresh](Std_Refresh.md)** action to see the result in the [3D view](3D_view.md).
-:   1.3. Since the Draft objects are planar shapes, they are better viewed from the top. Use **[<img src=images/Std_ViewTop.svg style="width:16px"> [View top](Std_ViewTop.md)** to set the [3D view](3D_view.md).
-:   1.4. Although it is not used in this tutorial, the Draft grid is helpful to position geometrical elements. Use **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [SelectPlane](Draft_SelectPlane.md)** to set both the working plane and the grid, and then show and hide the grid with **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Toggle grid](Draft_ToggleGrid.md)**.
+## Sposób postępowania 
 
-## Snap toolbar 
+1\. Uruchom FreeCAD, utwórz nowy pusty dokument za pomocą opcji z menu **Plik → [<img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)**.
 
-2\. The [Draft Snap toolbar](Draft_Snap.md) is normally activated when you switch to the [Draft Workbench](Draft_Workbench.md).
+:   1.1. Przełącz się do środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) z [selektora środowisk pracy](Std_Workbench.md), lub menu **Widok → Środowiska pracy → [<img src=images/Workbench_Draft.svg style="width:16px"> Rysunek Roboczy**.
+:   1.2. Upewnij się, że rozumiesz jak używać [edytora właściwości](Property_editor/pl.md), w szczególności zakładek **Dane** i **Widok** do zmiany właściwości. Podczas zmiany właściwości może być konieczne wykonanie **<img src="images/Std_Refresh.svg" width=16px> [odświeżenia](Std_Refresh/pl.md)**, aby zobaczyć rezultat w oknie [widoku 3D](3D_view/pl.md).
+:   1.3. Ponieważ obiekty środowiska Rysunek Roboczy są płaskimi kształtami, lepiej oglądać je od góry. Użyj **[<img src=images/Std_ViewTop.svg style="width:16px"> [widoku od góry](Std_ViewTop/pl.md)**, aby ustawić [widok 3D](3D_view/pl.md).
+:   1.4. Chociaż siatka nie jest używana w tym samouczku, jest pomocna w pozycjonowaniu elementów geometrycznych. Użyj narzędzia **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Wybór płaszczyzny roboczej](Draft_SelectPlane/pl.md)**, aby ustawić zarówno płaszczyznę roboczą, jak i siatkę, a następnie pokazać i ukryć siatkę za pomocą narzędzia **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md)**.
 
-:   2.1. To make sure it is always there, go to the [Draft Preferences](Draft_Preferences.md), **Edit → Preferences → Draft → Grid and snapping tab**.
-:   2.2. Verify that the **Show Draft Snap toolbar** is active.
 
-You can also change the visibility and properties of the Draft grid in this same window.
 
-## Working planes 
+## Pasek narzędzi przyciągania 
 
-Most Draft objects are planar shapes so they are naturally based on a **working plane**. A working plane can be one of the main XY, XZ, and YZ global coordinate planes, or it can be a plane that is parallel to them with a positive or negative offset, or it can be a plane defined by the face of a solid object.
+2\. Pasek narzędzi [przyciągania](Draft_Snap/pl.md) jest zwykle aktywowany po przejściu do środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md).
 
-3\. Press **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [SelectPlane](Draft_SelectPlane.md)**, or go to the menu **Utilities → [<img src=images/Draft_SelectPlane.svg style="width:16px"> [Select plane](Draft_SelectPlane.md)**, to open the working plane [task panel](task_panel.md).
+:   2.1. Aby upewnić się, że zawsze tam jest, przejdź do [ustawień](Draft_Preferences/pl.md), **Edycja → Preferencje → Rysunek Roboczy → Zakładka Siatka i przyciąganie**.
+:   2.2. Sprawdź, czy pasek narzędzi **Pokaż narzędzia przyciągania** jest aktywny.
 
-:   3.1. Press **[<img src=images/Std_ViewTop.svg style="width:16px"> Top (XY)**.
+W tym samym oknie można również zmienić widoczność i właściwości siatki środowiska Rysunek Roboczy.
 
-Before pressing the button, you can also change the value of the offset in millimeters, as well as the grid spacing, the main lines and snapping radius.
 
-## Lines and arcs 
 
-4\. We will create arcs and lines.
+## Płaszczyzny robocze 
 
-:   4.1. Press **[<img src=images/Draft_Arc.svg style="width:16px"> [Arc](Draft_Arc.md)**.
-:   4.2. Set the **Center** to {{Value|(0, 0, 0)}}, and press **Enter**.
-:   4.3. Set the **Radius** to {{Value|30 mm}}, and press **Enter**.
-:   4.4. Set the **Start angle** to {{Value|60.0°}}, and press **Enter**.
-:   4.5. Set the **Aperture angle** to {{Value|60.0°}}, and press **Enter**.
-:   4.6. Repeat the same procedure for a second arc with a radius of {{Value|25 mm}}, the other properties are the same.
+Większość obiektów środowiska Rysunek Roboczy to płaskie kształty, więc są one naturalnie oparte na **płaszczyźnie roboczej**. Płaszczyzna robocza może być jedną z głównych globalnych płaszczyzn współrzędnych XY, XZ i YZ lub może być płaszczyzną równoległą do nich z dodatnim lub ujemnym przesunięciem, lub może być płaszczyzną zdefiniowaną przez powierzchnię obiektu bryłowego.
 
-5\. We will now create a closed profile by tying the arcs with lines.
+3\. Naciśnij przycisk **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Wybierz płaszczyznę](Draft_SelectPlane/pl.md)**, lub przejdź do menu **Narzędzia → [<img src=images/Draft_SelectPlane.svg style="width:16px"> [Wybierz płaszczyznę](Draft_SelectPlane/pl.md)**, aby otworzyć [panel zadań](Task_panel/pl.md) płaszczyzny roboczej.
 
-:   5.1. Press **[<img src=images/Draft_Line.svg style="width:16px"> [Line](Draft_Line.md)**.
-:   5.2. In the [Snap toolbar](Draft_Snap.md) make sure **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Toggle snap](Draft_Snap_Lock.md)** is active, and only **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Endpoint](Draft_Snap_Endpoint.md)** as well. As you move the pointer onto the arc and close to one of its endpoints, the <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Endpoint](Draft_Snap_Endpoint.md) icon should appear. Also, the target point is emphasized with a large white dot. Click to select this point.
-:   5.3. Move the pointer to the closest endpoint of the other arc to tie the two arcs together.
-:   5.4. Repeat the process for the other side of the arc to close the profile.
+:   3.1. Naciśnij **[<img src=images/Std_ViewTop.svg style="width:16px"> Góra (XY)**.
+
+Przed naciśnięciem przycisku można również zmienić wartość odsunięcia w milimetrach, a także odstępy siatki, linie główne i promień przyciągania.
+
+
+
+## Linie i łuki 
+
+4\. Będziemy tworzyć łuki i linie.
+
+:   4.1. Naciśnij **[<img src=images/Draft_Arc.svg style="width:16px"> [Łuk](Draft_Arc.md)**.
+:   4.2. Ustaw **Środek** na {{Value|(0, 0, 0)}} i naciśnij klawisz **Enter**.
+:   4.3. Ustaw **Promień** na {{Value|30 mm}} i naciśnij **Enter**.
+:   4.4. Ustaw **Kąt początkowy** na {{Value|60.0°}} i naciśnij **Enter**.
+:   4.5. Ustaw **Kąt otwarcia** na {{Value|60.0°}} i naciśnij **Enter**.
+:   4.6. Powtórz tę samą procedurę dla drugiego łuku o promieniu {{Value|25 mm}}, pozostałe właściwości są takie same.
+
+5\. Utworzymy teraz profil zamknięty, wiążąc łuki liniami.
+
+:   5.1. Naciśnij **[<img src=images/Draft_Line.svg style="width:16px"> [Linia](Draft_Line/pl.md)**.
+:   5.2. Na pasku narzędzi [przyciągania](Draft_Snap/pl.md) upewnij się, że aktywna jest tylko opcja **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)** oraz tylko **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md)**. Po przesunięciu kursora na łuk i zbliżeniu do jednego z jego punktów końcowych, powinna pojawić się ikona <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [24px](Draft_Snap_Endpoint.svg.md) [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md). Ponadto punkt docelowy jest wyróżniony dużą białą kropką. Kliknij, aby wybrać ten punkt.
+:   5.3. Przesuń kursor do najbliższego punktu końcowego drugiego łuku, aby połączyć oba łuki.
+:   5.4. Powtórz proces dla drugiej strony łuku, aby zamknąć profil.
 
 <img alt="" src=images/01_Dr01_Draft_Arc_profile.png  style="width:" height="400px;"> 
-*Closed profile created by two arcs and two lines.*
+*Profil zamknięty utworzony przez dwa łuki i dwie linie.*
 
-## Fusing or compounding 
 
-We now have several objects in the [tree view](tree_view.md) that form a closed profile. However, this profile is still composed of disconnected objects; each of them can be edited and moved independently of the others. It is possible to continue working with the elements in this way, but it is also possible to fuse them into a single object.
 
-6a. Note that fusing the objects into a single object will create an object that is no longer parametric, so their properties cannot be modified further.
+## Łączenie lub montaż 
 
-:   6a.1. Select all four objects in the [tree view](tree_view.md), or by holding **Ctrl** and picking them in the [3D view](3D_view.md).
-:   6a.2. With these objects selected, click on **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Upgrade](Draft_Upgrade.md)**.
-:   6a.3. This will upgrade the four objects into a single {{Value|Wire}}.
+Mamy teraz kilka obiektów w [widoku drzewa](Tree_view/pl.md), które tworzą zamknięty profil. Jednak profil ten nadal składa się z rozłącznych obiektów. Każdy z nich może być edytowany i przenoszony niezależnie od pozostałych. Możliwe jest kontynuowanie pracy z elementami w ten sposób, ale możliwe jest również połączenie ich w jeden obiekt.
 
-6b. If you wish to maintain the parametric nature of the objects you can create a compound instead.
+6a. Należy pamiętać, że połączenie obiektów w jeden obiekt spowoduje utworzenie obiektu, który nie jest już parametryczny, więc ich właściwości nie mogą być dalej modyfikowane. 6a.1. Zaznacz wszystkie cztery obiekty w oknie [widoku drzewa](Tree_view/pl.md) lub przytrzymując **Ctrl** i wybierając je w oknie [widoku 3D](3D_view/pl.md).
 
-:   6b.1. Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
-:   6b.2. With these objects selected, click on **[<img src=images/Part_Compound.svg style="width:16px"> [Part Compound](Part_Compound.md)**.
+:   6a.2. Po zaznaczeniu tych obiektów kliknij **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Ulepsz](Draft_Upgrade/pl.md)**.
 
-## Rectangles, circles, and polygons 
+Ulepszy to cztery obiekty w jeden {{Value|polilinię}}.
 
-7\. We will draw a rectangular frame. (Switch back to the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [ Draft Workbench](Draft_Workbench.md).)
+6b. Jeśli chcesz zachować parametryczną naturę obiektów, możesz zamiast tego utworzyć złożenie.
 
-:   7.1. Press **[<img src=images/Draft_Rectangle.svg style="width:16px"> [Rectangle](Draft_Rectangle.md)**.
-:   7.2. Enter the values of the first point {{Value|(-100, -60, 0)}}, and press **Enter**.
-:   7.3. Make sure the **Relative** option is unchecked, as we will use absolute units. You may press **R** in the keyboard to quickly toggle this option on and off.
-:   7.4. Enter the values for the second point {{Value|(140, 90, 0)}}, and press **Enter**.
+:   6b.1. Przejdź do środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md).
+:   6b.2. Po zaznaczeniu tych obiektów, kliknij na **[<img src=images/Part_Compound.svg style="width:16px"> [Utwórz kształt złożony](Part_Compound/pl.md)**.
 
-A rectangle is created. Go in the [property editor](Property_editor.md) to change its properties. If you don\'t want the rectangle to create a face, set **Make Face** to `False`. If you want to make a face, but see only the wires of that object, keep **Make Face** to `True` but set the **Display Mode** to {{Value|Wireframe}}.
 
-8\. We will draw a circle.
 
-:   8.1. Press **[<img src=images/Draft_Circle.svg style="width:16px"> [Circle](Draft_Circle.md)**.
-:   8.2. Enter the values of the center {{Value|(0, 0, 0)}}, and press **Enter**.
-:   8.3. Set the radius to {{value|15 mm}}, and press **Enter**.
+## Prostokąty, okręgi i wielokąty 
 
-9\. We will draw a regular polygon.
+7\. Narysujemy prostokątną ramkę. *(Przełącz się z powrotem do środowiska <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md))*.
 
-:   9.1. Press **[<img src=images/Draft_Polygon.svg style="width:16px"> [Polygon](Draft_Polygon.md)**.
-:   9.2. Enter the values of the center {{Value|(0, 0, 0)}}, and press **Enter**.
-:   9.3. Set the number of sides to {{Value|6}}, and press **Enter**.
-:   9.4. Set the radius to {{Value|50 mm}}, and press **Enter**.
+:   7.1. Utwórz **[<img src=images/Draft_Rectangle.svg style="width:16px"> [Prostokąt](Draft_Rectangle/pl.md)**.
+:   7.2. Wprowadź wartości pierwszego punktu {{Value|(-100, -60, 0)}} i naciśnij **Enter**.
+:   7.3. Upewnij się, że opcja **Relatywnie** jest odznaczona, ponieważ będziemy używać jednostek bezwzględnych. Możesz nacisnąć **R** na klawiaturze, aby szybko włączyć lub wyłączyć tę opcję.
+:   7.4. Wprowadź wartości dla drugiego punktu {{Value|(140, 90, 0)}} i naciśnij **Enter**.
 
-Again, you may change the **Make Face** and **Display Mode** properties in the [property editor](property_editor.md) if you want.
+Utworzony zostanie prostokąt. Przejdź do [edytora właściwości](Property_editor.md), aby zmienić jego właściwości. Jeśli nie chcesz, aby prostokąt tworzył ścianę, ustaw właściwość **Utwórz ścianę** na wartość {{FALSE/pl}}. Jeśli chcesz utworzyć ścianę, ale widzieć tylko przewody tego obiektu, ustaw **Utwórz ścianę** na {{TRUE/pl}}, ale ustaw **Tryb wyświetlania** na {{Value|Szkieletowy}}.
 
-The rectangle, the circle, the polygon, and most other objects created with the [Draft Workbench](Draft_Workbench.md) share many data and view properties because they are derived from the same base class, [Part Part2DObject](Part_Part2DObject.md).
+8\. Narysujemy okrąg.
+
+:   8.1. Naciśnij przycisk **[<img src=images/Draft_Circle.svg style="width:16px"> [Okrąg](Draft_Circle/pl.md)**.
+:   8.2. Wprowadź wartości środka {{Value|(0, 0, 0)}} i naciśnij **Enter**.
+:   8.3. Ustaw promień na {{value|15 mm}} i naciśnij **Enter**.
+
+9\. Narysujemy wielokąt foremny.
+
+:   9.1. Naciśnij **[<img src=images/Draft_Polygon.svg style="width:16px"> [Wielokąt](Draft_Polygon/pl.md)**.
+:   9.2. Wprowadź wartości położenia środka {{Value|(0, 0, 0)}} i naciśnij **Enter**.
+:   9.3. Ustaw liczbę boków na {{Value|6}} i naciśnij **Enter**.
+:   9.4. Ustaw promień na {{Value|50 mm}} i naciśnij **Enter**.
+
+Ponownie, jeśli chcesz, możesz zmienić właściwości **Utwórz ścianę** i **Tryb wyświetlania** w [edytorze właściwości](Property_editor/pl.md).
+
+Prostokąt, okrąg, wielokąt i większość innych obiektów utworzonych za pomocą środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) współdzielą wiele danych i właściwości widoku, ponieważ wywodzą się z tej samej klasy bazowej, [Część: Część na obiekt 2D](Part_Part2DObject/pl.md).
 
 <img alt="" src=images/02_Dr01_Draft_Rectangle_circle_polygon.png  style="width:" height="400px;"> 
-*Rectangle, circle and polygon added.*
+*Dodano prostokąt, okrąg i wielokąt.*
 
-## Arrays
 
-Arrays are used to replicate an object several times in an orthogonal direction (X, Y, Z), around a revolution axis, or along a path.
 
-10\. We will create a polar array.
+## Szyki
 
-:   10.1. Select the {{Value|Wire}} object that was previously created with the **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Upgrade](Draft_Upgrade.md)** tool, or the {{Value|Compound}} created with the **[<img src=images/Part_Compound.svg style="width:16px"> [Part Compound](Part_Compound.md)** tool.
-:   10.2. Press **[<img src=images/Draft_PolarArray.svg style="width:16px"> [PolarArray](Draft_PolarArray.md)**.
-:   10.3. Adjust the polar angle to {{Value|360°}}.
-:   10.4. Set the number of elements to {{Value|4}}.
-:   10.5. Enter the values for the center of rotation {{Value|(0, 0, 0)}}, and press **Enter**.
+Szyki są używane do powielania obiektu kilka razy w kierunku prostopadłym *(X, Y, Z)*, wokół osi obrotu lub wzdłuż ścieżki.
 
-The array object shows copies of the object around the origin.
+10\. Utworzymy szyk biegunowy.
+
+:   10.1. Wybierz obiekt {{Value|Polilinia}}, który został wcześniej utworzony za pomocą narzędzia **[<img src=images/Draft_Upgrade.svg style="width:16px"> [Ulepsz](Draft_Upgrade/pl.md)** lub obiekt {{Value|Kształt złożony}} utworzony za pomocą narzędzia **[<img src=images/Part_Compound.svg style="width:16px"> [Utwórz kształt złożony](Part_Compound.md)** środowiska Część.
+:   10.2. Naciśnij przycisk **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Szyk biegunowy](Draft_PolarArray/pl.md)**.
+:   10.3. Ustaw kąt biegunowy na {{Value|360°}}.
+:   10.4. Ustaw liczbę elementów na {{Value|4}}.
+:   10.5. Wprowadź wartości środka obrotu {{Value|(0, 0, 0)}} i naciśnij **Enter**.
+
+Obiekt tablicy pokazuje kopie obiektu wokół punktu odniesienia położenia.
 
 <img alt="" src=images/03_Dr01_Draft_PolarArray.png  style="width:" height="400px;"> 
-*Polar array of the small profile centered around the origin.*
+*Szyk biegunowy małego profilu wyśrodkowanego wokół punktu odniesienia położenia.*
 
-## Dimensions
 
-Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.md) methods to select points and edges to measure. However, they can also be created by specifying absolute coordinates.
 
-11\. Create dimensions for the different objects.
+## Wymiary
 
-:   11.1. Press **[<img src=images/Draft_Dimension.svg style="width:16px"> [Dimension](Draft_Dimension.md)**.
-:   11.2. Pick the first point. In this tutorial the first point will always be the origin {{Value|(0, 0, 0)}}.
-:   11.3. In the [Snap toolbar](Draft_Snap.md) make sure **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Toggle snap](Draft_Snap_Lock.md)** is active, and only **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Midpoint](Draft_Snap_Midpoint.md)** as well. As you move the pointer to the top edge of the polygon, the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Midpoint](Draft_Snap_Midpoint.md) icon should appear; click to select this point.
-:   11.4. Move the cursor to the right to specify the location of the dimension, then click to set the final position, around {{Value|(100, 20, 0)}}. The dimension will automatically show the length value measured between the two points.
-:   11.5. Select the dimension object in the [tree view](tree_view.md), and in the [property editor](Property_editor.md), change **Font Size** to {{Value|6 mm}}, set **Ext Lines** to {{Value|45 mm}}, and **Show Unit** to `False`.
+Wymiary liniowe działają najlepiej przy użyciu odpowiednich metod [przyciągania](Draft_Snap/pl.md) do wybierania punktów i krawędzi do pomiaru. Można je jednak również utworzyć, określając współrzędne bezwzględne.
 
-12\. Repeat the process for the two arcs of the closed profile. The first point of the measurement will still be the origin, and the second point will use the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Midpoint](Draft_Snap_Midpoint.md) of the arc.
+11\. Tworzenie wymiarów dla różnych obiektów.
 
-13\. Repeat the process for the circle located in the center. The first point of the measurement will still be the origin. To select the second point make sure **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Toggle snap](Draft_Snap_Lock.md)** is active, and only **[<img src=images/Draft_Snap_Angle.svg style="width:16px"> [Angle](Draft_Snap_Angle.md)** as well. As you move the pointer to the top of the circle, the <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Angle](Draft_Snap_Angle.md) icon should appear; click to select this point. Then move the cursor to the right, and click to fix the dimension.
+:   11.1. Naciśnij **[<img src=images/Draft_Dimension.svg style="width:16px"> [Dimension](Draft_Dimension/pl.md)**.
+:   11.2. Wybierz pierwszy punkt. W tym poradniku pierwszym punktem będzie zawsze początek {{Value|(0, 0, 0)}}.
+:   11.3. Na pasku narzędzi [przyciągania](Draft_Snap/pl.md) upewnij się, że narzędzie **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)** jest aktywne i wybrano tylko funkcję **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md)**. Gdy przesuniesz wskaźnik do górnej krawędzi wielokąta, <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> powinna pojawić się ikona [Punkt środkowy](Draft_Snap_Midpoint/pl.md). Kliknij, aby wybrać ten punkt.
+:   11.4. Przesuń kursor w prawo, aby określić położenie wymiaru, a następnie kliknij, aby ustawić ostateczne położenie, około {{Value|(100, 20, 0)}}. Wymiar automatycznie wyświetli wartość długości zmierzoną między dwoma punktami.
+:   11.5. Wybierz obiekt wymiaru w [widoku drzewa](Tree_view/pl.md), a następnie w [edytorze właściwości](Property_editor.md) zmień **Rozmiar czcionki** na {{Value|6 mm}}, ustaw **Linie pomocnicze** na {{Value|45 mm}}, a **Wyświetlaj jednostki** na {{FALSE/pl}}.
 
-Remember to adjust the **Font Size**, and other properties to see the dimension correctly.
+12\. Powtórz ten proces dla dwóch łuków profilu zamkniętego. Pierwszy punkt pomiaru nadal będzie początkiem, dla drugiego punktu użyj <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md) łuku.
+
+13\. Powtórz ten proces dla okręgu znajdującego się w środku. Pierwszy punkt pomiaru nadal będzie punktem początkowym. Aby wybrać drugi punkt, upewnij się, że narzędzie **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Włącz / wyłącz przyciąganie](Draft_Snap_Lock/pl.md)** jest aktywne, i wybrano tylko funkcję **[<img src=images/Draft_Snap_Angle.svg style="width:16px"> [Przyciągnij do kąta](Draft_Snap_Angle/pl.md)**. Gdy przesuniesz kursor do górnej części okręgu, powinna pojawić się ikona <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> [Przyciągnij do kąta](Draft_Snap_Angle/pl.md). Kliknij, aby zaznaczyć ten punkt. Następnie przesuń kursor w prawo i kliknij, aby ustalić wymiar.
+
+Pamiętaj, aby dostosować **Rozmiar czcionki** i inne właściwości, aby poprawnie zobaczyć wymiar.
 
 <img alt="" src=images/04_Dr01_Draft_Dimension.png  style="width:" height="400px;"> 
-*Dimensions that measure the vertical distance from the origin to the top of the circle, arcs, and polygon.*
+*Wymiary mierzące pionową odległość od punktu odniesienia położenia do górnej krawędzi okręgu, łuku i wielokąta.*
 
-## Texts and ShapeStrings 
 
-14\. Text objects are simple planar figures that are created in the [3D view](3D_view.md) but don\'t have an actual \"[shape](Shape.md)\" underneath. This means that they cannot be used in complex operations with shapes like extrusions or boolean operations.
 
-:   14.1. Press **[<img src=images/Draft_Text.svg style="width:16px"> [Text](Draft_Text.md)**.
-:   14.2. Select the reference point in the [3D view](3D_view.md). In the [Snap toolbar](Draft_Snap.md) make sure **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Toggle snap](Draft_Snap_Lock.md)** is active, and only **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Midpoint](Draft_Snap_Midpoint.md)** as well. Move the pointer to the top edge of the highest arc, so that the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Midpoint](Draft_Snap_Midpoint.md) icon appears; click to select this point.
-:   14.3. Enter the desired **Text**, and press **Enter** once to start a new line; add more lines of text as needed.
-:   14.4. When you are ready to finish with edition, press **Enter** twice.
-:   14.5. Select the text object in the [tree view](tree_view.md), and in the [property editor](Property_editor.md), change **Font Size** to {{Value|6 mm}}, and **Justification** to {{Value|Center}}.
+## Adnotacje wieloliniowe i kształt z tekstu 
 
-15\. ShapeString objects are shapes made of primitive wires that follow the lines indicated by a certain font. This means that these objects have a real \"[shape](Shape.md)\" underneath, and thus can be used in complex operations like extrusions and boolean operations.
+14\. Obiekty tekstowe są prostymi figurami płaskimi, które są tworzone w oknie [widoku 3D](3D_view/pl.md), ale nie mają pod spodem rzeczywistego \"[kształtu](Shape/pl.md)\". Oznacza to, że nie mogą być używane w złożonych operacjach z kształtami, takich jak wyciągnięcia lub operacje logiczne.
 
-:   15.1. Press **[<img src=images/Draft_ShapeString.svg style="width:16px"> [ShapeString](Draft_ShapeString.md)**.
-:   15.2. Move the pointer to the desired location in the [3D view](3D_view.md) above the regular polygon, and click once. This will fix the base point for the ShapeString. The coordinates may be entered manually as well, for example, {{Value|(-20, 65, 0)}}.
-:   15.3. Enter the desired **String**, and choose the desired **Height**.
-:   15.4. If there is no default font file, you must click on the ellipsis **...** to open a dialog window to choose the font location in the system.
-:   15.5. When a valid font file has been specified, you may proceed to click **OK** or press **Enter**.
+:   14.1. Naciśnij przycisk **[<img src=images/Draft_Text.svg style="width:16px"> [Adnotacja wieloliniowa](Draft_Text/pl.md)**.
+:   14.2. Wybierz punkt odniesienia w oknie [widoku 3D](3D_view/pl.md). Na pasku narzędzi [przyciągania](Draft_Snap/pl.md) upewnij się, że narzędzie **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md)** jest aktywne i wybrano tylko funkcję **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md)**. Przesuń kursor do górnej krawędzi najwyższego łuku, tak aby <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> pojawi się ikona [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md). Kliknij, aby wybrać ten punkt.
+:   14.3. Wpisz wymagany **Tekst** i naciśnij **Enter** raz, aby rozpocząć nową linię. W razie potrzeby dodaj więcej linii tekstu.
+:   14.4. Gdy zakończysz edycję, naciśnij **Enter** dwa razy.
+:   14.5. Zaznacz obiekt tekstowy w oknie [widoku drzewa](Tree_view/pl.md), a następnie w oknie [edytora właściwości](Property_editor/pl.md) zmień wartość własciwości **Rozmiar czcionki** na {{Value|6 mm}}, a właściwość **Wyrównanie poziome** na {{Value|Wyśrodkowane}}.
+
+15\. Obiekty **Kształt z tekstu** to kształty wykonane z pierwotnych polilini, które podążają za liniami wskazanymi przez określoną czcionkę. Oznacza to, że obiekty te mają prawdziwy \"[kształt](Shape/pl.md)\" pod spodem, a zatem mogą być używane w złożonych operacjach, takich jak wyciągnięcia i operacje logiczne.
+
+:   15.1. Naciśnij przycisk **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**.
+:   15.2. Przesuń kursor do żądanego miejsca w oknie [widoku 3D](3D_view/pl.md) nad regularnym wielokątem i kliknij raz. Spowoduje to ustalenie punktu bazowego dla Kształtu z tekstu. Współrzędne można również wprowadzić ręcznie, na przykład {{Value|(-20, 65, 0)}}.
+:   15.3. Wprowadź żądany **Ciąg znaków** i wybierz odpowiednią **Wysokość**.
+:   15.4. Jeśli nie ma domyślnego pliku czcionki, należy kliknąć wielokropek **...**, aby otworzyć okno dialogowe umożliwiające wybranie lokalizacji czcionki w systemie.
+:   15.5. Po określeniu prawidłowego pliku czcionki można kliknąć **OK** lub nacisnąć **Enter**.
 
 <img alt="" src=images/05_Dr01_Draft_Text_ShapeString.png  style="width:" height="400px;"> 
-*Text and ShapeString objects added.*
+*Dodano obiekty Adnotacja wieloliniowa i Kształt z tekstu.*
 
-To extrude letters and engrave them on to solids, see the [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md).
+Aby wytłaczać litery i grawerować je na bryłach, zobacz poradnik [Poradnik: Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md).
 
-## Creating technical drawings 
 
-As it is now, the objects that we have created can be saved, exported to other formats like [SVG](SVG.md) or [DXF](DXF.md), or printed.
 
-If you wish, you may create a technical drawing to display these objects together with additional information like a frame.
+## Tworzenie rysunku technicznego 
 
-Before doing anything, hide the Draft grid by pressing **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Toggle  grid](Draft_ToggleGrid.md)**.
+W obecnej formie stworzone przez nas obiekty można zapisać, wyeksportować do innych formatów, takich jak [SVG](SVG.md) lub [DXF](DXF.md), lub wydrukować.
 
-16\. Switch to the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
+Jeśli chcesz, możesz utworzyć rysunek techniczny, aby wyświetlić te obiekty wraz z dodatkowymi informacjami, takimi jak ramka.
 
-:   16.1. Create a standard page by pressing **[<img src=images/TechDraw_PageDefault.svg style="width:16px"> [TechDraw PageDefault](TechDraw_PageDefault.md)**.
-:   16.2. In the [tree view](tree_view.md) select all objects created, except for the Page, and then press **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw ActiveView](TechDraw_ActiveView.md)**. Press **OK** with the default options; it may take a few seconds to create the view in the page.
-:   16.3. Selecting the Page object in the [tree view](tree_view.md) will automatically display the Page in the main window. With the Page selected, go to the [property editor](Property_editor.md), and change **Scale** to {{Value|0.75}}.
-:   16.4. Expand the Page object in the [tree view](tree_view.md) to select the ActiveView object. With this view selected, go to the [property editor](Property_editor.md), and change **Scale Type** to {{Value|Page}}.
-:   16.5. Recompute the model by using **[<img src=images/Std_Refresh.svg style="width:16px"> [Refresh](Std_Refresh.md)** or pressing **F5**.
-:   16.6. Hide the frames of the objects by pressing **[<img src=images/TechDraw_ToggleFrame.svg style="width:16px"> [TechDraw ToggleFrame](TechDraw_ToggleFrame.md)**.
+Zanim cokolwiek zrobisz, ukryj siatkę Rysunku Roboczego naciskając **[<img src=images/Draft_ToggleGrid.svg style="width:16px"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md)**.
 
-Learn more about the [TechDraw Workbench](TechDraw_Workbench.md) by reading the [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md).
+16\. Przejdź do środowiska pracy <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Roboczy](TechDraw_Workbench/pl.md).
+
+:   16.1. Utwórz standardową stronę naciskając **[<img src=images/TechDraw_PageDefault.svg style="width:16px"> [Wstaw nową domyślną stronę rysunku](TechDraw_PageDefault/pl.md)**.
+:   16.2. W oknie [widoku drzewa](Tree_view/pl.md) zaznacz wszystkie utworzone obiekty z wyjątkiem strony, a następnie naciśnij **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [Wstaw aktywny widok](TechDraw_ActiveView/pl.md)**. Naciśnij **OK** z domyślnymi opcjami. Utworzenie widoku na stronie może potrwać kilka sekund.
+:   16.3. Wybranie obiektu strony w oknie [widoku drzewa](Tree_view/pl.md) spowoduje automatyczne wyświetlenie strony w oknie głównym. Po wybraniu strony przejdź do [edytora właściwości](Property_editor/pl.md) i zmień właściwość **Skala** na {{Value|0.75}}.
+:   16.4. Rozwiń obiekt Strona w oknie [widoku drzewa](Tree_view/pl.md), aby wybrać obiekt AktywnyWidok. Po wybraniu tego widoku przejdź do [edytora właściwości](Property_editor/pl.md) i zmień właściwość **Typ skali** na {{Value|Strona}}.
+:   16.5. Ponownie oblicz model używając narzędzia **[<img src=images/Std_Refresh.svg style="width:16px"> [Przelicz](Std_Refresh/pl.md)** lub naciskając **F5**.
+:   16.6. Ukryj ramki obiektów naciskając **[<img src=images/TechDraw_ToggleFrame.svg style="width:16px"> [Włącz / wyłącz wyświetlanie ramek](TechDraw_ToggleFrame/pl.md)**.
+
+Dowiedz się więcej o środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) czytając poradnik [Podstawy dla środowiska pracy Rysunek Techniczny](Basic_TechDraw_Tutorial/pl.md).
 
 <img alt="" src=images/06_Dr01_Draft_TechDraw_page.png  style="width:" height="400px;"> 
-*TechDraw page with a projection of the shapes created with the Draft Workbench.*
+*Strona Rysunku Technicznego z rzutem kształtów utworzonych za pomocą środowiska Rysunek Roboczy.*
 
-TechDraw works best with objects that have a [Part TopoShape](Part_TopoShape.md). Since some objects from Draft, like [Draft Texts](Draft_Text.md) and [Draft Dimensions](Draft_Dimension.md), don\'t have such \"[shapes](Shape.md)\", some operations of TechDraw don\'t work with these elements.
+Rysunek Techniczny działa najlepiej z obiektami, które mają [kształt topologiczny](Part_TopoShape/pl.md). Ponieważ niektóre obiekty ze środowiska Rysunek Roboczy, takie jak [Adnotacja wieloliniowa](Draft_Text/pl.md) i [Wymiary](Draft_Dimension/pl.md), nie mają takich \"[kształtów](Shape/pl.md)\", niektóre operacje środowiska Rysunek Techniczny nie działają z tymi elementami.
 
-Tools like **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [TechDraw ActiveView](TechDraw_ActiveView.md)**, **[<img src=images/TechDraw_DraftView.svg style="width:16px"> [TechDraw DraftView](TechDraw_DraftView.md)**, and **[<img src=images/TechDraw_ArchView.svg style="width:16px"> [TechDraw ArchView](TechDraw_ArchView.md)** work by receiving an internal SVG image that is generated by internal Draft functions; therefore, TechDraw doesn\'t have much control about how these views are displayed. More integration of Draft and TechDraw is a work in progress.
+Narzędzia takie jak **[<img src=images/TechDraw_ActiveView.svg style="width:16px"> [Wstaw aktywny widok](TechDraw_ActiveView/pl.md)**, **[<img src=images/TechDraw_DraftView.svg style="width:16px"> [Wstaw obiekt środowiska Rysunek Roboczy](TechDraw_DraftView/pl.md)**, oraz **[<img src=images/TechDraw_ArchView.svg style="width:16px"> [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md)** działają poprzez odbieranie wewnętrznego obrazu SVG, który jest generowany przez wewnętrzne funkcje środowiska Rysunek Roboczy. Dlatego środowisko pracy Rysunek Techniczny nie ma dużej kontroli nad sposobem wyświetlania tych widoków. Większa integracja tych dwóch środowisk pracy jest w toku.
 
-## Final remarks 
 
-The [Draft Workbench](Draft_Workbench.md) in many ways is similar to the [Sketcher Workbench](Sketcher_Workbench.md), as both are intended to produce 2D shapes. The main difference is in the way each workbench handles coordinate systems, and how the objects are positioned. In Draft, objects are freely positioned in the global coordinates system, usually snapping their points to a grid, or to other objects. In Sketcher, a \"[sketch object](Sketch.md)\" defines a local coordinate system which serves as the reference for all geometrical elements within that sketch. Moreover, the sketch relies on \"constraints\" to define the final position of its points.
 
--   The [Draft Workbench](Draft_Workbench.md) is intended for 2D drawings which are suitable to be drawn on a grid. The [Arch Workbench](Arch_Workbench.md) mostly builds on top of the tools defined in the [Draft Workbench](Draft_Workbench.md).
+## Uwagi końcowe 
 
--   The [Sketcher Workbench](Sketcher_Workbench.md) is intended for 2D drawings that require precise relationships between its points. It does not rely on a grid, but on rules of positioning (constraints) to determine where the points and edges will be placed. The [Sketcher Workbench](Sketcher_Workbench.md) is mostly used together with the [PartDesign Workbench](PartDesign_Workbench.md) for the creation of solid [bodies](Body.md).
+Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) pod wieloma względami jest podobne do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md), ponieważ oba są przeznaczone do tworzenia kształtów 2D. Główna różnica polega na sposobie, w jaki każde ze środowisk pracy obsługuje układy współrzędnych i sposób pozycjonowania obiektów. W Rysunku Roboczym obiekty są swobodnie pozycjonowane w globalnym układzie współrzędnych, zazwyczaj przyciągając swoje punkty do siatki lub innych obiektów. W Szkicowniku **[obiekt szkicu](Sketch/pl.md)** definiuje lokalny układ współrzędnych, który służy jako odniesienie dla wszystkich elementów geometrycznych w tym szkicu. Co więcej, szkic opiera się na *wiązaniach* w celu zdefiniowania ostatecznej pozycji jego punktów.
 
--   It is possible to transform a Draft object into a [Sketch](Sketch.md), and the other way around, using the **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Draft Draft2Sketch](Draft_Draft2Sketch.md)** tool.
+-   Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) jest przeznaczone dla rysunków 2D, które nadają się do rysowania na siatce. Środowisko pracy [Architektura](Arch_Workbench/pl.md) opiera się głównie na narzędziach zdefiniowanych w środowisku [Rysunek Roboczy](Draft_Workbench/pl.md).
+
+-   Środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) jest przeznaczone do rysunków 2D, które wymagają precyzyjnych relacji między punktami. Nie opiera się ono na siatce, ale na regułach pozycjonowania *(wiązaniach)* w celu określenia, gdzie zostaną umieszczone punkty i krawędzie. [Szkicownik](Sketcher_Workbench/pl.md) jest najczęściej używany razem ze środowiskiem [Projekt Części](PartDesign_Workbench/pl.md) do tworzenia brył.
+
+-   Możliwe jest przekształcenie obiektu środowiska Rysunek Roboczy w [Szkic](Sketch/pl.md) i na odwrót, przy użyciu narzędzia **[<img src=images/Draft_Draft2Sketch.svg style="width:16px"> [Rysunek roboczy do szkicu](Draft_Draft2Sketch/pl.md)**.
 
 
 

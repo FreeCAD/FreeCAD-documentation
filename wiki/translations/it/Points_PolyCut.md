@@ -11,6 +11,8 @@
 # Points PolyCut/it
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Descrizione
@@ -21,6 +23,8 @@
 The **Points PolyCut** command cuts points from point clouds.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizzo
@@ -28,10 +32,10 @@ The **Points PolyCut** command cuts points from point clouds.
 
 </div>
 
-1.  During the command the [3D view](3D_view.md) cannot be changed. It is advisable to properly line up the 3d view first.
+1.  During the command the [3D view](3D_view.md) cannot be changed. It is advisable to properly align the 3D view first.
 2.  Select one or more point clouds.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Points_PolyCut.svg" width=16px> [Points PolyCut](Points_PolyCut.md)** button.
+    -   Press the **<img src="images/Points_PolyCut.svg" width=16px> [Cut point cloud](Points_PolyCut.md)** button.
     -   Select the **Points → <img src="images/Points_PolyCut.svg" width=16px> Cut point cloud** option from the menu.
 4.  Define a polygon in the 3D view.
 5.  Select an option from the 3D view context menu:
@@ -51,7 +55,13 @@ The **Points PolyCut** command cuts points from point clouds.
         : cancels the command.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Points Tools navi

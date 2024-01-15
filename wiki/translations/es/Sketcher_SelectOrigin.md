@@ -7,12 +7,14 @@
 
 ## Description
 
-Selects the origin of a sketch.
+The <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:24px;"> **SelectOrigin** command selects the origin of a sketch.
 
 ## Usage
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin** from the top menu.
+1.  If not done yet: Open a sketch in edit mode.
+2.  There are several ways to invoke the command:
+    -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectOrigin.svg style="width:16px"> Select origin** option from the menu.
+    -   The keyboard shortcut: **Z** then **O**.
 3.  The origin of the sketch will be selected.
 
 

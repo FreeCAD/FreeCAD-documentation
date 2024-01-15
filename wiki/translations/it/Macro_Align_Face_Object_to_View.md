@@ -11,34 +11,22 @@
 |FCVersion=Tutte
 |SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera/it.md)}}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Questa macro orienta la faccia dell\'oggetto verso la ActiveView (telecamera). Nel caso della faccia di un foro (o di una faccia interna o di un cilindro) orienta la faccia della foratura verso lo schermo.
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 -   Selezionare l\'oggetto ed eseguire la macro
 -   L\'oggetto viene orientato verso la telecamera
 
-
-</div>
-
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_Face_Object_to_View.png )
+Icona barra strumenti ![](images/Macro_Align_Face_Object_to_View.png )
 
 **Macro_Align_Face_Object_to_View.FCMacro**
 

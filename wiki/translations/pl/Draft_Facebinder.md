@@ -10,6 +10,8 @@
 
 # Draft Facebinder/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Łącznik kształtów** tworzy obiekt powierzchniowy z wybranych ścian. Łącznik kształtów jest parametryczny, będzie się aktualizował jeśli zmodyfikujesz jego obiekt źródłowy *(lub obiekty źródłowe)*.
@@ -19,6 +21,8 @@ Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wyt�
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Łącznik kształtu stworzony z powierzchni ścian*
 
+
+
 ## Użycie
 
 1.  Wybierz jedną lub więcej ścian.
@@ -27,11 +31,15 @@ Można go użyć do utworzenia wyciągnięcia z kolekcji powierzchni. Takie wyt�
     -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Facebinder.svg" width=16px> Łącznik kształtu**.
     -   Użyj skrótu klawiaturowego: **F**, a następnie **F**.
 
+
+
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -50,6 +58,8 @@ Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature
 
 -    {{PropertyData/pl|Zszyj|Bool}}: Określa, czy wykonywać operację zespolenia topologicznego na elemencie wiążącym.
 
+
+
 ### Widok
 
 
@@ -58,6 +68,8 @@ Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature
 -    {{PropertyView/pl|Wzór|Enumeration}}: określa [wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia w elemencie wiążącym. Ta właściwość działa tylko wtedy, gdy {{PropertyData/pl|Utwórz ścianę}} ma wartość `True` i gdy {{PropertyView/pl|Tryb wyświetlania}} ma wartość {{value|Linie płaskie}}.
 
 -    {{PropertyView/pl|Rozmiar wzoru|Float}}: określa rozmiar [wzoru](Draft_Pattern/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

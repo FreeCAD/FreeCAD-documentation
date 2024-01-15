@@ -9,6 +9,8 @@
 
 # Draft Stretch/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Draft Stretch** command stretches objects by moving selected points.
@@ -16,13 +18,15 @@ The <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Draft Stret
 <img alt="" src=images/Draft_Stretch_Example.jpg  style="width:400px;"> 
 *Stretching three Draft Wires*
 
+
+
 ## Utilização
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Optionally select one or more objects. The objects must be [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Rectangles](Draft_Rectangle.md), [Draft BSplines](Draft_BSpline.md) or [Draft BezCurves](Draft_BezCurve.md). Other objects are ignored.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Stretch.svg" width=16px> [Draft Stretch](Draft_Stretch.md)** button.
+    -   Press the **<img src="images/Draft_Stretch.svg" width=16px> [Stretch](Draft_Stretch.md)** button.
     -   Select the **Modification → <img src="images/Draft_Stretch.svg" width=16px> Stretch** option from the menu.
     -   Use the keyboard shortcut: **S** then **H**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
@@ -33,21 +37,17 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 8.  Pick the third point, the base point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 9.  Pick the fourth point, the target point, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 
+
+
 ## Opções
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point of the displacement are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
-
-## Preferências
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

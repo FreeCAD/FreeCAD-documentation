@@ -38,6 +38,7 @@ Narzędzie **Kreskowanie powierzchni za pomocą pliku obrazu** środowiska Rysun
 
 ## Uwagi
 
+-   Dla wypełnienia jednolitym kolorem jako **plik wzorca** wybierz **solid.svg**.
 -   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny: Wymiar długości](TechDraw_LengthDimension/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
 -   Przykładowe wzory [SVG](SVG/pl.md) są dostępne lokalnie w:
 

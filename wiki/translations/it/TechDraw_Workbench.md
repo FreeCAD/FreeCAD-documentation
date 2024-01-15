@@ -173,6 +173,8 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Linea Cosmetica tra due punti](TechDraw_2PointCosmeticLine/it.md): aggiunge una linea cosmetica che collega 2 vertici.
 
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Aggiungi Cerchio Cosmetico](TechDraw_CosmeticCircle/it.md): aggiunge un cerchio cosmetico. {{Version/it|0.22}}
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Rimuovi oggetto cosmetico](TechDraw_CosmeticEraser/it.md): Lo strumento Rimuovi oggetto cosmetico rimuove gli oggetti cosmetici da una pagina.
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Aspetto delle linee](TechDraw_DecorateLine/it.md): Lo strumento DecorateLine modifica l\'aspetto dei bordi.
@@ -227,6 +229,8 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Calcola l\'area delle facce selezionate](TechDraw_ExtensionAreaAnnotation/it.md): calcola l\'area delle facce selezionate e inserisce un\'annotazione dell\'area. {{Version/it|0.20}}
 
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Calcola la lunghezza dell\'arco dei bordi selezionati](TechDraw_ExtensionArcLengthAnnotation/it.md): calcola la lunghezza dell\'arco dei bordi selezionati e inserisce un\'annotazione sulla lunghezza dell\'arco. {{Version/it|0.22}}
+
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Personalizza formato etichetta](TechDraw_ExtensionCustomizeFormat/it.md): personalizza la formattazione di un etichetta o di una quota. È possibile aggiungere simboli GD&T e altri caratteri speciali. {{Version/it|0.20}}
 
 
@@ -249,7 +253,11 @@ Questi sono strumenti per migliorare i tuoi disegni TechDraw.
 
   - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Aggiunge Vista Inferiore Filettatura Cosmetica Bullone](TechDraw_ExtensionThreadBoltBottom/it.md): aggiunge una filettatura cosmetica alla vista superiore o inferiore di bulloni/viti/barre. {{Version/it|0.20}}
 
--   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Aggiunge Vertici di Intersezione Cosmetici](TechDraw_ExtensionVertexAtIntersection/it.md): aggiunge vertici cosmetici all\'intersezione dei bordi selezionati. {{Version/it|0.20}}
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Aggiungi vertici:
+
+ː\* <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Aggiunge Vertici di Intersezione Cosmetici](TechDraw_ExtensionVertexAtIntersection/it.md): aggiunge vertici cosmetici all\'intersezione dei bordi selezionati. {{Version/it|0.20}}
+
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Aggiungi un vertice di offset](TechDraw_CommandAddOffsetVertex.md): aggiunge un vertice cosmetico ad un offset specificato da un vertice selezionato. {{Version/it|0.22}}
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Aggiungi cerchi o archi cosmetici:
 

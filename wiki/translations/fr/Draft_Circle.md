@@ -20,46 +20,54 @@ Un Draft Cercle peut être transformé en arc de cercle en donnant à **First An
 <img alt="" src=images/Draft_Circle_example.jpg  style="width:400px;"> 
 *Cercle défini par deux points, le centre et le rayon*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Circle.svg" width=16px> [Cercle](Draft_Circle/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Circle.svg" width=16px> Cercle** dans le menu.
-    -   Utilisez le raccourci clavier : **C** puis **I**.
+    -   Appuyer sur le **<img src="images/Draft_Circle.svg" width=16px> [Cercle](Draft_Circle/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Circle.svg" width=16px> Cercle** du menu.
+    -   Utiliser le raccourci clavier : **C** puis **I**.
 2.  Le panneau de tâches **Cercle** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point, le centre du cercle dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou entrez un **Rayon**.
+3.  Choisir le premier point, le centre du cercle dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou entrer un **Rayon**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement les coordonnées du centre, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement les coordonnées du centre, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cliquez sur la case à cocher **Rempli** pour basculer en mode rempli. Si le mode rempli est activé, le cercle créé aura {{PropertyData/fr|Make Face}} défini sur `True` et aura une face remplie.
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des cercles.
+-   Appuyez sur **F** ou cliquez sur la case à cocher **Rempli** pour basculer en mode rempli. Si le mode rempli est activé, le cercle créé aura {{PropertyData/fr|Make Face}} défini sur `True` et aura une face remplie.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des cercles.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
+
+
 
 ## Remarques
 
 -   Un Draft Cercle peut être édité avec la commande [Draft Editer](Draft_Edit/fr.md).
 
+
+
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées et des rayons : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode de remplissage dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
--   Si l\'option **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Utiliser les primitives de Part si possible** est cochée, la commande créera un [Part Cercle](Part_Circle/fr.md) au lieu d\'un Draft Cercle.
+-   Si l\'option **Édition → Préférences... → Draft → Général → Créer des primitives Part si possible** est cochée, la commande créera un [Part Cercle](Part_Circle/fr.md) au lieu d\'un Draft Cercle.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Cercle est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -76,6 +84,8 @@ Un objet Draft Cercle est dérivé d\'un [Part Part2DObject](Part_Part2DObject/f
 
 -    **Radius|Length**: spécifie le rayon du cercle.
 
+
+
 ### Vue
 
 
@@ -84,6 +94,8 @@ Un objet Draft Cercle est dérivé d\'un [Part Part2DObject](Part_Part2DObject/f
 -    **Pattern|Enumeration**: spécifie un [Draft Motif](Draft_Pattern/fr.md). avec lequel remplir la face du cercle. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+
+
 
 ## Script
 

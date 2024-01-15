@@ -51,9 +51,9 @@ Vous vous exercerez à :
 :   2.4. Remplacez **Width** par {{incode   90 mm}}{: mediawiki}.
 :   2.5. Remplacez **Height** par {{incode   90 mm}}{: mediawiki}.
 
-3\. Dans l\'onglet **Data** de l\'Éditeur de propriétés, cliquez sur la valeur **Placement** pour que le bouton points de suspension **...** apparaisse sur la droite.
+3\. Dans l\'onglet **Données** de l\'éditeur de propriétés, cliquez sur la valeur **Placement** pour que le bouton points de suspension **...** apparaisse sur la droite.
 
-:   3.1. Appuyez sur les points de suspension pour ouvrir la boîte de dialogue Placement.
+:   3.1. Appuyez sur les points de suspension pour ouvrir la boîte de dialogue Positionner.
 :   3.2. Modifiez les valeurs de **Translation**.
 :   3.3. Remplacez **X** par {{incode   -45 mm}}{: mediawiki}.
 :   3.4. Remplacez **Y** par {{incode   -45 mm}}{: mediawiki}.
@@ -63,11 +63,11 @@ Vous vous exercerez à :
 4\. Répétez le processus en insérant un deuxième cube plus petit en cliquant sur **Image:Part_Box.svg   16px Part_Box/fr**{: mediawiki}.
 
 :   4.1. Le deuxième cube sera créé avec le même nom, mais avec un numéro supplémentaire pour distinguer l\'objet.
-:   4.2. Sélectionnez {{incode   Cube001}}{: mediawiki} dans la Vue en arborescence et modifiez les dimensions et le placement comme avec l\'objet précédent.
-:   4.3. Remplacez **Length** par {{incode   80 mm}}{: mediawiki}.
-:   4.4. Remplacez **Width** par {{incode   80 mm}}{: mediawiki}.
-:   4.5. Remplacez **Height** par {{incode   80 mm}}{: mediawiki}.
-:   4.6. Ouvrez la boîte de dialogue Placement.
+:   4.2. Sélectionnez {{incode   Cube001}}{: mediawiki} dans la vue en arborescence et modifiez les dimensions et le placement comme avec l\'objet précédent.
+:   4.3. Remplacez **Longueur** par {{incode   80 mm}}{: mediawiki}.
+:   4.4. Remplacez **Largeur** par {{incode   80 mm}}{: mediawiki}.
+:   4.5. Remplacez **Hauteur** par {{incode   80 mm}}{: mediawiki}.
+:   4.6. Ouvrez la boîte de dialogue Positionner.
 :   4.7. Remplacez **X** par {{incode   -40 mm}}{: mediawiki}.
 :   4.8. Remplacez **Y** par {{incode   -40 mm}}{: mediawiki}.
 :   4.9. Remplacez **Z** par {{incode   -40 mm}}{: mediawiki}.
@@ -91,11 +91,11 @@ Vous vous exercerez à :
 
 6\. Insérez un cylindre primitif en cliquant sur **Image:Part_Cylinder.svg   16px Part_Cylinder/fr**{: mediawiki}.
 
-:   6.1. Sélectionnez {{incode   Cylinder}}{: mediawiki} dans la Vue en arborescence.
-:   6.2. Modifiez les dimensions dans l\'onglet **Data** de l\'Éditeur de propriétés.
-:   6.3. Remplacez **Radius** par {{incode   27,5 mm}}{: mediawiki}.
-:   6.4. Remplacez **Height** par {{incode   120 mm}}{: mediawiki}.
-:   6.5. Ouvrez la boîte de dialogue Placement.
+:   6.1. Sélectionnez {{incode   Cylinder}}{: mediawiki} dans la vue en arborescence.
+:   6.2. Modifiez les dimensions dans l\'onglet **Data** de l\'éditeur de propriétés.
+:   6.3. Remplacez **Rayon** par {{incode   27,5 mm}}{: mediawiki}.
+:   6.4. Remplacez **Hauteur** par {{incode   120 mm}}{: mediawiki}.
+:   6.5. Ouvrez la boîte de dialogue Positionner.
 :   6.6. Remplacez **Z** par {{incode   -60 mm}}{: mediawiki}.
 :   6.7. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
@@ -103,19 +103,19 @@ Vous vous exercerez à :
 
 :   7.1. Le deuxième cylindre sera créé avec le même nom, mais avec un numéro supplémentaire pour distinguer l\'objet.
 :   7.2. Sélectionnez {{incode   Cylinder001}}{: mediawiki} dans la vue en arborescence et modifiez les dimensions et le placement comme avec l\'objet précédent.
-:   7.3. Remplacez **Radius** par {{incode   27,5 mm}}{: mediawiki}.
-:   7.4. Remplacez **Height** par {{incode   120 mm}}{: mediawiki}.
-:   7.5. Ouvrez la boîte de dialogue Placement.
+:   7.3. Remplacez **Rayon** par {{incode   27,5 mm}}{: mediawiki}.
+:   7.4. Remplacez **Hauteur** par {{incode   120 mm}}{: mediawiki}.
+:   7.5. Ouvrez la boîte de dialogue Positionner.
 :   7.6. Remplacez **Y** par {{incode   60 mm}}{: mediawiki}.
-:   7.7. Remplacez **Rotation** par {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** à {{incode   X}}{: mediawiki}  et **Angle** à {{incode   90 deg}}{: mediawiki}.
+:   7.7. Remplacez **Rotation** par {{incode   Axe de rotation et angle}}{: mediawiki}; **Axis** à {{incode   X}}{: mediawiki}  et **Angle** à {{incode   90 deg}}{: mediawiki}.
 :   7.8. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
 8\. Insérez un autre cylindre. Cette fois, créez un doublon afin que le rayon et la hauteur ne doivent pas être modifiés, seulement son placement.
 
-:   8.1. Sélectionnez {{incode   Cylinder001}}{: mediawiki} dans la Vue en arborescence et allez dans le menu **Edition , Std_DuplicateSelection/fr   Dupliquer une sélection**{: mediawiki}. Cela créera {{incode   Cylinder002}}{: mediawiki}.
-:   8.2. Ouvrez la boîte de dialogue Placement.
+:   8.1. Sélectionnez {{incode   Cylinder001}}{: mediawiki} dans la vue en arborescence et allez dans le menu **Edition , Std_DuplicateSelection/fr   Dupliquer une sélection**{: mediawiki}. Cela créera {{incode   Cylinder002}}{: mediawiki}.
+:   8.2. Ouvrez la boîte de dialogue Positionner.
 :   8.3. Changez **X** en {{incode   -60 mm}}{: mediawiki}, et changez **Y** en {{incode   0 mm}}{: mediawiki}.
-:   8.4. Changez **Rotation** par {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** à {{incode   Y}}{: mediawiki} et **Angle** à {{incode   90 deg}}{: mediawiki}.
+:   8.4. Changez **Rotation** par {{incode   Axe de rotation et angle}}{: mediawiki}; **Axis** à {{incode   Y}}{: mediawiki} et **Angle** à {{incode   90 deg}}{: mediawiki}.
 :   8.5. Appuyez sur le bouton **OK** pour fermer la boîte de dialogue.
 
 
@@ -158,11 +158,11 @@ Maintenant, nous allons créer plus de cubes qui seront utilisés comme outils d
 
 12\. Cliquez sur **Image: Part_Box.svg   16px Part_Box/fr**{: mediawiki}.
 
-:   12.1. Sélectionnez {{incode   Cube002}}{: mediawiki} dans la Vue en arborescence et modifiez les dimensions et l\'emplacement.
-:   12.2. Remplacez **Length** par {{incode   140 mm}}{: mediawiki}.
-:   12.3. Remplacez **Width** par {{incode   112 mm}}{: mediawiki}.
-:   12.4. Remplacez **Height** par {{incode   112 mm}}{: mediawiki}.
-:   12.5. Ouvrez la boîte de dialogue Placement.
+:   12.1. Sélectionnez {{incode   Cube002}}{: mediawiki} dans la vue en arborescence et modifiez les dimensions et l\'emplacement.
+:   12.2. Remplacez **Longueur** par {{incode   140 mm}}{: mediawiki}.
+:   12.3. Remplacez **Largeur** par {{incode   112 mm}}{: mediawiki}.
+:   12.4. Remplacez **Hauteur** par {{incode   112 mm}}{: mediawiki}.
+:   12.5. Ouvrez la boîte de dialogue Positionner.
 :   12.6. Remplacez **X** par {{incode   -70 mm}}{: mediawiki}.
 :   12.7. Remplacez **Y** par {{incode   -56 mm}}{: mediawiki}.
 :   12.8. Remplacez **Z** par {{incode   -56 mm}}{: mediawiki}.
@@ -170,11 +170,11 @@ Maintenant, nous allons créer plus de cubes qui seront utilisés comme outils d
 
 13\. Cliquez sur **Image: Part_Box.svg   16px Part_Box/fr**{: mediawiki}.
 
-:   13.1. Sélectionnez {{incode   Cube003}}{: mediawiki} dans la Vue en arborescence et modifiez les dimensions et l\'emplacement.
-:   13.2. Remplacez **Length** par {{incode   180 mm}}{: mediawiki}.
-:   13.3. Remplacez **Width** par {{incode   180 mm}}{: mediawiki}.
-:   13.4. Remplacez **Height** par {{incode   180 mm}}{: mediawiki}.
-:   13.5. Ouvrez la boîte de dialogue Placement.
+:   13.1. Sélectionnez {{incode   Cube003}}{: mediawiki} dans la vue en arborescence et modifiez les dimensions et l\'emplacement.
+:   13.2. Remplacez **Longueur** par {{incode   180 mm}}{: mediawiki}.
+:   13.3. Remplacez **Largeur** par {{incode   180 mm}}{: mediawiki}.
+:   13.4. Remplacez **Hauteur** par {{incode   180 mm}}{: mediawiki}.
+:   13.5. Ouvrez la boîte de dialogue Positionner.
 :   13.6. Remplacez **X** par {{incode   -90 mm}}{: mediawiki}.
 :   13.7. Remplacez **Y** par {{incode   -90 mm}}{: mediawiki}.
 :   13.8. Remplacez **Z** par {{incode   -90 mm}}{: mediawiki}.
@@ -198,12 +198,12 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 ## Couper les coins partie 1 
 
-17\. Dans la Vue en arborescence sélectionnez {{incode   Cube002}}{: mediawiki} et {{incode   Cube003}}{: mediawiki}.
+17\. Dans la vue en arborescence sélectionnez {{incode   Cube002}}{: mediawiki} et {{incode   Cube003}}{: mediawiki}.
 
-:   17.1. Ouvrez la boîte de dialogue Placement.
-:   17.2. Cochez l\'option **Apply incremental changes**; notez que toutes les valeurs de **Translation** sont remises à zéro.
-:   17.3. Remplacez **Rotation** par {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** à {{incode   X}}{: mediawiki} et **Angle** à {{incode   45 deg}}{: mediawiki}, puis cliquez sur **Apply**. Cela appliquera une rotation autour de l\'axe X et réinitialisera le champ **Angle** à zéro.
-:   17.4. Modifiez à nouveau **Rotation**, maintenant **Axis** en {{incode   Z}}{: mediawiki} et **Angle** en {{incode   45 deg}}{: mediawiki}, puis cliquez sur { {Button\   Apply}}. Cela appliquera une rotation autour de l\'axe Z local et réinitialisera le champ **Angle**{: mediawiki} à zéro.
+:   17.1. Ouvrez la boîte de dialogue Positionner.
+:   17.2. Cochez l\'option **Appliquer des modifications incrémentielles**; notez que toutes les valeurs de **Translation** sont remises à zéro.
+:   17.3. Remplacez **Rotation** par {{incode   Axe de rotation et angle}}{: mediawiki}; **Axe** à {{incode   X}}{: mediawiki} et **Angle** à {{incode   45 deg}}{: mediawiki}, puis cliquez sur **Appliquer**. Cela appliquera une rotation autour de l\'axe X et réinitialisera le champ **Angle** à zéro.
+:   17.4. Modifiez à nouveau **Rotation**, maintenant **Axe** en {{incode   Z}}{: mediawiki} et **Angle** en {{incode   45 deg}}{: mediawiki}, puis cliquez sur **Appliquer**. Cela appliquera une rotation autour de l\'axe Z local et réinitialisera le champ **Angle** à zéro.
 :   17.5. Cliquez sur **OK** pour fermer la boîte de dialogue.
 
 18\. Dans la Vue en arborescence désélectionnez les objets; puis sélectionnez d\'abord {{incode   Cube003}}{: mediawiki}, le plus gros cube, puis {{incode   Cube002}}{: mediawiki}, le plus petit cube.
@@ -224,12 +224,12 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 20\. Dans la Vue en arborescence, sélectionnez {{incode   Cut001}}{: mediawiki}, dans l\'onglet **View**, changez la valeur de **Visibility** en {{incode   false }}{: mediawiki}, ou appuyez sur **Espace** au clavier.
 
-21\. Dans la Vue en arborescence, sélectionnez {{incode   Cube004}}{: mediawiki} et {{incode   Cube005}}{: mediawiki}, dans l\'onglet **View**, modifiez la valeur de **Visibility ** à {{incode   true}}{: mediawiki}, ou appuyez sur **Espace** au clavier.
+21\. Dans la vue en arborescence, sélectionnez {{incode   Cube004}}{: mediawiki} et {{incode   Cube005}}{: mediawiki}, dans l\'onglet **Vue**, modifiez la valeur de **Visibility** à {{incode   true}}{: mediawiki}, ou appuyez sur **Espace** au clavier.
 
-:   21.1. Ouvrez la boîte de dialogue Placement.
-:   21.2. Cochez l\'option **Apply incremental changes**; notez que toutes les valeurs de **Translation** sont remises à zéro.
-:   21.3. Remplacez **Rotation** par {{incode   Rotation axis with angle}}{: mediawiki}; **Axis** à {{incode   X}}{: mediawiki}, et **Angle** à {{incode   45 deg}}{: mediawiki}, puis cliquez sur **Apply**. Cela appliquera une rotation autour de l\'axe X et réinitialisera le champ {{incode   Angle}}{: mediawiki} à zéro.
-:   21,4. Changez à nouveau **Rotation**, maintenant **Axis** en {{incode   Z}}{: mediawiki}, et **Angle** en {{incode   -45 deg}}{: mediawiki}, puis cliquez sur **Apply**. Cela appliquera une rotation autour de l\'axe Z local et réinitialisera le champ **Angle** à zéro.
+:   21.1. Ouvrez la boîte de dialogue Positionner.
+:   21.2. Cochez l\'option **Appliquer des modifications incrémentielles**; notez que toutes les valeurs de **Translation** sont remises à zéro.
+:   21.3. Remplacez **Rotation** par {{incode   Axe de rotation et angle}}{: mediawiki}; **Axe** à {{incode   X}}{: mediawiki}, et **Angle** à {{incode   45 deg}}{: mediawiki}, puis cliquez sur **Appliquer**. Cela appliquera une rotation autour de l\'axe X et réinitialisera le champ {{incode   Angle}}{: mediawiki} à zéro.
+:   21,4. Changez à nouveau **Rotation**, maintenant **Axe** en {{incode   Z}}{: mediawiki}, et **Angle** en {{incode   -45 deg}}{: mediawiki}, puis cliquez sur **Applique**. Cela appliquera une rotation autour de l\'axe Z local et réinitialisera le champ **Angle** à zéro.
 :   21.5. Cliquez sur **OK** pour fermer la boîte de dialogue.
 
 18\. Dans la Vue en arborescence désélectionnez les objets; puis sélectionnez d\'abord {{incode   Cube005}}{: mediawiki}, le plus gros cube, puis {{incode   Cube004}}{: mediawiki}, le plus petit cube.

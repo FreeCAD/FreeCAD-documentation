@@ -95,7 +95,7 @@ OCC module loaded
 
 ## Installing on Windows 
 
-The FreeCAD packages available from the [download](Download.md) page already include Netgen and CalculiX, so no additional software needs to be installed. Some links where to get a better Calculix executable than included in FreeCAD can be found here [alternative ccx executables](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164)
+The FreeCAD packages available from the [download](Download.md) page already include Netgen and CalculiX, so no additional software needs to be installed. Some links where to get a better CalculiX executable than included in FreeCAD can be found here: [alternative ccx executables](https://forum.freecadweb.org/viewtopic.php?f=18&t=58792&start=10#p506164)
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -207,7 +207,7 @@ Compiling CalculiX is a task for experienced users, requiring editing the Makefi
 
 ### Compile Netgen 
 
-Netgen was originally linked by FreeCAD when FreeCAD used OCE, the community fork of OpenCascade (OCCT). As OCE lagged in development behind OCCT, FreeCAD switched back to OCCT. This broke the linking of Netgen, which could only link against OCCT 6.9 or OCE 0.18 and below. As OCCT 7.x versions improved the core funcitonality of FreeCAD, it was decided to drop Netgen support in favor of Gmsh.
+Netgen was originally linked by FreeCAD when FreeCAD used OCE, the community fork of OpenCascade (OCCT). As OCE lagged in development behind OCCT, FreeCAD switched back to OCCT. This broke the linking of Netgen, which could only link against OCCT 6.9 or OCE 0.18 and below. As OCCT 7.x versions improved the core functionality of FreeCAD, it was decided to drop Netgen support in favor of Gmsh.
 
 Since then some success has been achieved patching and linking newer versions of Netgen against OCCT 7.x. Nevertheless, the inclusion of Netgen with FreeCAD is still problematic.
 

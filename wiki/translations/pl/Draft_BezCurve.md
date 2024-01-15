@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft BezCurve
-   Name/pl: Draft: Krzywa Beziera
-   MenuLocation: Drafting , Narzędzia Beziera , Krzywa Beziera
+   Name/pl: Rysunek Roboczy: Krzywa Béziera
+   MenuLocation: Kreślenie , Narzędzia krzywych Béziera , Krzywa Béziera
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **B** **Z**
    Version: 0.14
@@ -11,104 +11,113 @@
 
 # Draft BezCurve/pl
 
-## Description
 
-The <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Draft BezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) from several points.
 
-The command creates a single Bézier curve with a **Degree** that is `number_of_points - 1`. It can be transformed into a piecewise Bézier curve by reducing this property.
+## Opis
 
-The Draft BezCurve and the [Draft CubicBezCurve](Draft_CubicBezCurve.md) commands use **control points** to define the position and curvature of the spline. The [Draft BSpline](Draft_BSpline.md) command, on the other hand, specifies the **exact points** through which the curve will pass.
+Polecenie <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Krzywa Bézier\'a** tworzy krzywą [Bézier\'a](http://en.wikipedia.org/wiki/Bezier_curve) na podstawie kilku punktów.
+
+Polecenie tworzy pojedynczą krzywą Béziera o **Stopniu** równym `number_of_points - 1`. Można ją przekształcić w fragmentaryczną krzywą Béziera, zmniejszając tę właściwość.
+
+Polecenia [Sześcienna krzywa Bézier\'a](Draft_CubicBezCurve/pl.md) i Sześcienna krzywa Bézier\'a używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
 
 <img alt="" src=images/Draft_BezCurve_Example.png  style="width:400px;"> 
-*Bézier curve defined by multiple points*
-
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_BezCurve.svg" width=16px> [Draft BezCurve](Draft_BezCurve.md)** button.
-    -   Select the **Drafting → Bézier tools → <img src="images/Draft_BezCurve.svg" width=16px> Bézier curve** option from the menu.
-    -   Use the keyboard shortcut: **B** then **Z**. <small>(v0.20)</small> 
-2.  The **Bézier curve** task panel opens. See [Options](#Options.md) for more information.
-3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-5.  Press **Esc** or the **Close** button to finish the command.
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created curve will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting curve with a face will not display properly, for such a curve **Make Face** must be set to `False`.
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed curve by snapping to the first point of the curve, allowing you to continue creating curves.
--   Press **/** or the **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button to undo the last point.
--   Press **A** or the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button to finish the command and leave the curve open.
--   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command and close the curve. A closed curve can also be created by snapping to the first point of the curve.
--   Press **W** or the **<img src="images/Draft_Wipe.svg" width=16px> Wipe** button to delete the segments already placed, but keep working from the last point.
--   Press **U** or the **<img src="images/Draft_SelectPlane.svg" width=16px> [Set WP](Draft_SelectPlane.md)** button to adjust the current working plane in the orientation defined by the last and the previous point.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to finish the command.
-
-## Notes
-
--   A Draft BezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
--   OpenCascade, and therefore FreeCAD, does not support Bézier curves of degrees larger than 25. This should not be a problem in practice, as most users typically use Bézier curves of degrees 3 to 5.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft BezCurve object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Krzywa Bezier'a zdefiniowana przez wiele punktów*
 
 
-{{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the curve. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+## Użycie
 
--    **Closed|Bool**: specifies if the curve is closed or not. If the curve is initially open this value is `False`, setting it to `True` will draw a segment to close the curve. If the curve is initially closed this value is `True`, setting it to `False` will remove the last segment and make the curve open.
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
--    **Continuity|IntegerList**: (read-only) specifies the continuity of the curve.
-
--    **Degree|Integer**: specifies the degree of the curve.
-
--    **Length|Length**: (read-only) specifies the total length of the curve.
-
--    **Make Face|Bool**: specifies if the curve makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the curve does not self-intersect.
-
--    **Points|VectorList**: specifies the control points of the curve in its local coordinate system.
-
-### View
+1.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Draft_BezCurve.svg" width=16px> '''Krzywa Bezier'a'''**.
+    -   Wybierz z menu opcję **Kreślenie → Narzędzia krzywych Béziera → <img src="images/Draft_BezCurve.svg" width=16px> Krzywa Bézier'a**.
+    -   Użyj skrótu klawiaturowego: **B**, a następnie **Z**. {{Version/pl|0.20}}
+2.  Zostanie otwarty panel zadań **Krzywa Bézier'a**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+4.  Wybierz dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+5.  Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
 
-{{TitleProperty|Draft}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the curve.
+## Opcje
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the curve, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the curve, so it can be used as an annotation line.
+-   Aby ręcznie wprowadzić współrzędne, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor poza obszar okna [widoku 3D](3D_view/pl.md).
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **F** lub kliknij pole wyboru **Wypełniony**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzona krzywa będzie miała właściwość **Utwórz ścianę** ustawione na {{TRUE/pl}} i będzie miała wypełnioną ścianę, pod warunkiem, że jest zamknięta i nie przecina się samoczynnie. Należy pamiętać, że krzywa przecinająca się z powierzchnią nie będzie wyświetlana poprawnie, dla takiej krzywej **Utwórz ścianę** musi być ustawiona na {{FALSE/pl}}.
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętej krzywej poprzez przyciągnięcie do pierwszego punktu krzywej, umożliwiając dalsze tworzenie krzywych.
+-   Naciśnij **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby anulować ostatni punkt.
+-   Naciśnij **A** lub przycisk **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ**, aby zakończyć polecenie i pozostawić krzywą otwartą.
+-   Naciśnij **O** lub przycisk **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, aby zakończyć polecenie i zamknąć krzywą. Zamkniętą krzywą można również utworzyć, przyciągając ją do pierwszego punktu krzywej.
+-   Naciśnij **W** lub przycisk **<img src="images/Draft_Wipe.svg" width=16px> Wyczyść**, aby usunąć już umieszczone segmenty, ale kontynuować pracę od ostatniego punktu.
+-   Naciśnij **U** lub przycisk **<img src="images/Draft_SelectPlane.svg" width=16px> [Ustaw płaszczyznę roboczą](Draft_SelectPlane/pl.md)**, aby ustawić bieżącą płaszczyznę roboczą w orientacji określonej przez ostatni i poprzedni punkt.
+-   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed curve. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
-## Scripting
+## Uwagi
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-   Krzywa Bezier\'a środowiska Rysunek Roboczy może być edytowana za pomocą polecenia [Edytuj](Draft_Edit/pl.md).
+-   OpenCascade, a tym samym FreeCAD, nie obsługuje krzywych Bézier\'a o stopniach większych niż 25. W praktyce nie powinno to stanowić problemu, ponieważ większość użytkowników zazwyczaj używa krzywych Bézier\'a o stopniach od 3 do 5.
 
-To create a Draft Line use the `make_bezcurve` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeBezCurve` method.
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Krzywa Bezier\'a środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Obszar|Area**: *(tylko do odczytu)* określa obszar powierzchni krzywej. Wartość będzie {{value|0.0}} jeśli właściwość **Utwórz ścianę** ma wartość {{FALSE/pl}} lub ściana nie może zostać utworzona.
+
+-    **Zamknięta|Bool**: określa czy krzywa jest zamknięta czy nie. Jeśli krzywa jest początkowo otwarta, wartość ta wynosi {{FALSE/pl}}, ustawienie jej na {{TRUE/pl}} spowoduje narysowanie segmentu w celu zamknięcia krzywej. Jeśli krzywa jest początkowo zamknięta, wartość ta wynosi {{TRUE/pl}}, ustawienie jej na {{FALSE/pl}} spowoduje usunięcie ostatniego segmentu i otwarcie krzywej.
+
+-    **Ciągła|IntegerList**: *(tylko do odczytu)* określa ciągłość krzywej.
+
+-    **Stopień|Integer**: określa stopień krzywej.
+
+-    **Długość|Length**: *(tylko do odczytu)* określa całkowitą długość krzywej.
+
+-    **Utwórz ścianę|Bool**: określa czy krzywa tworzy powierzchnię czy nie. Jeśli jest {{TRUE/pl}}, tworzona jest ściana, w przeciwnym razie tylko obwód jest uważany za część obiektu. Ta właściwość działa tylko wtedy, gdy właściwość **Zamknięta** ma wartość {{TRUE/pl}} i jeśli krzywa nie przecina się samoczynnie.
+
+-    **Punkty|VectorList**: określa punkty kontrolne krzywej w jej lokalnym układzie współrzędnych.
+
+
+
+### Widok
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Rozmiar strzałki|Length**: określa rozmiar symbolu wyświetlanego na końcu krzywej.
+
+-    **Typ strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu krzywej, którym może być {{value|Punkt}}, {{value|Okrąg}}, {{value|Strzałka}}, {{value|Grot}} lub {{value|Grot-2}}.
+
+-    **Zakończenie strzałki|Bool**: określa, czy na końcu krzywej ma być wyświetlany symbol, aby można go było użyć jako linii adnotacji.
+
+-    **Wzór|Enumeration**: określa [Wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia zamkniętej krzywej. Ta właściwość działa tylko jeśli właściiwość **Utwórz ścianę** ma wartość {{TRUE/pl}} i jeśli właściwość **Tryb wyświetlania** ma wartość {{value|Cieniowany z krawędziami}}.
+
+-    **Rozmiar wzoru|Float**: określa rozmiar [Wzoru](Draft_Pattern/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć Krzywa Bezier\'a środowiska Rysunek Roboczy użyj metody `make_bezcurve` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeBezCurve`.
 
 
 ```python
@@ -116,14 +125,14 @@ bezcurve = make_bezcurve(pointslist, closed=False, placement=None, face=None, su
 bezcurve = make_bezcurve(Part.Wire, closed=False, placement=None, face=None, support=None, degree=None)
 ```
 
--   Creates a `bezcurve` object with the given list of points, `pointslist`.
-    -   Each point in the list is defined by its `FreeCAD.Vector`, with units in millimeters.
-    -   Alternatively, the input can be a `Part.Wire`, from which points are extracted.
--   If `closed` is `True`, or if the first and last points are identical, the curve is closed.
--   If `placement` is `None` the curve is created at the origin.
--   If `face` is `True`, and the curve is closed, the curve will make a face, that is, it will appear filled.
+-   Tworzy obiekt `bezcurve` z podaną listą punktów, `pointslist`.
+    -   Każdy punkt na liście jest zdefiniowany przez jego `FreeCAD.Vector`, z jednostkami w milimetrach.
+    -   Alternatywnie, dane wejściowe mogą być typu `Part.Wire`, z których wyodrębniane są punkty.
+-   Jeśli `closed` ma wartość {{True/pl}}, lub jeśli pierwszy i ostatni punkt mają identyczne wartości, krzywa jest zamknięta.
+-   Jeśli `placement` ma wartość `Brak`, kształt jest tworzony w punkcie początkowym.
+-   Jeśli parametr `ściana` ma wartość {{True/pl}}, a krzywa jest zamknięta, to krzywa będzie ścianą, czyli będzie wyglądała na wypełnioną.
 
-Example:
+Przykład:
 
 
 ```python

@@ -1,15 +1,26 @@
 # Macro FCSpring Helix Variable/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCSpring Helix Variable
 |Translate=Molla a spirale variabile
 |Icon=FCSpring Helix Variable.png
 |Description=Questa macro crea una molla personalizzabile, la configurazione della molla può essere salvata in un file con estensione '''.FCSpring''' o coordinate '''.FCSpringCoor'''.<br/>Vengono rilevati: Superficie (Direzione della faccia), Cilindro (raggio), Ellisse (raggio minore), Sfera (raggio), Toroide (raggio1), Piano (direzione), Linea (seguire la direzione), Punto (posizione vertice XYZ) <br / > Se non viene rilevato alcun oggetto (non selezione) la molla viene creata nel punto XYZ 0., 0., 0. <br / >Vedi [https://www.freecadweb.org/wiki/Macro_FCSpring_Helix_Variable/it#Esempi esempi]
 |Author=Mario52
-|Version=01.18
-|Date=2022/03/16
+|Version=01.18c
+|Date=2023/09/01
 |Download=Download the [https://forum.freecadweb.org/download/file.php?id=80844 the Icons] in .zip file 
 |FCVersion=0.19
 }}
+
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
@@ -19,22 +30,46 @@ Se non viene rilevato alcun oggetto (non selezione) la molla viene creata nel pu
 Si possono creare diverse configurazioni di molle, secondo le proprie esigenze, e poi salvarle in un file con estensione **.FCSpring**
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/8b0b60336a62f22c0730e6fb88687ffd1b1dd502/Macro_FCSpring_Helix_Variable.FCMacro}}
+</div>
+
+
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/68c81c32a0727a693d3a/raw/3f6e4df2768f36e88af4f56af669206ff0d33e0c/Macro_FCSpring_Helix_Variable.FCMacro}}
 
 <img alt="" src=images/TruncateSpring00.png  style="width:400px;"> 
 *FCSpring Helix Variable*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Uso
 
 Configurazione della molla
 
+
+</div>
+
 Schema di configurazione della molla
 
 ![](images/Macro_TruncateSpring_01.png ) 
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 #### **Gui**
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_01.png ) 
+
+#### Configuration
+
+
+<div class="mw-translate-fuzzy">
 
 #### Configurazione
 
@@ -57,7 +92,15 @@ Schema di configurazione della molla
 
 -    {{SpinBox|360 deg}}**End** : Angolo finale dell\'ultima spira della molla.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_02.png ) 
+
+#### Type line 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Tipo di linea 
 
@@ -69,11 +112,22 @@ Schema di configurazione della molla
 
 -    {{CheckBox|Reverse}}**Reverse** : Casella di controllo per invertire la direzione della molla
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_03.png ) 
+
+#### Options
+
+
+<div class="mw-translate-fuzzy">
 
 #### Opzione
 
 Questa sezione viene visualizzata se è selezionato l\'oggetto. Il tipo di oggetto viene visualizzato in Text Editor
+
+
+</div>
 
 L\'oggetto può essere una linea, 2 punti, un cerchio, un contorno \... un asse, la lunghezza della molla viene creata automaticamente
 
@@ -101,7 +155,15 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 #### Position (0)(xx) 
 
+
+<div class="mw-translate-fuzzy">
+
+#### Position (0)(xx) 
+
 (0)(xx) : Number selection(s), length in mm of axis created x 10, Dati e numeri punti per la posizione della molla sopra l\'asso
+
+
+</div>
 
 -    **Begin/End**: Posizione della base della molla su l\'asso, inizia, meta, fine del asso
 
@@ -114,6 +176,11 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 -   **Slider** : Posizione rapida della molla a longo l\'asso
 
 ![](images/Macro_FCSpring_Helix_Variable_02_2.png ) 
+
+#### Coil special dimension 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Spire di lunghezza speciale 
 
@@ -137,7 +204,15 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 -    **Zoom**: Pulsante \"Zoom\" ingrandisce la finestra di modifica del testo
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_04.png ) 
+
+#### Command
+
+
+<div class="mw-translate-fuzzy">
 
 ## Comandi
 
@@ -157,45 +232,109 @@ Detection : Cylinder (radius), Sphere (radius), Toroid (radius) , Cone (little r
 
 -    **Help**: Questo pulsante visualizza la pagina wiki nel browser FreeCAD.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_05.png ) 
+
+## Report view 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Registro degli eventi 
 
 La finestra Report visualizzata tutti i valori modificati.
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_06.png ) 
+
+## Example spring 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Esempio di molla 
 
 Esempio di molla modificata
 
+
+</div>
+
 ![](images/Macro_FCSpring_Helix_Variable_07.png ) 
+
+## Example Report view 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Esempio di rapporto nel Registro degli eventi 
 
 All\'avvio della macro viene visualizzato l\'elenco completo dei giri sotto forma di tabella.
 
-Questi sono i dati della molla precedente visualizzati nella finestra Report ![](images/Macro_FCSpring_Helix_Variable_08.png ) 
+
+</div>
+
+Questi sono i dati della molla precedente visualizzati nella finestra Report ![](images/Macro_FCSpring_Helix_Variable_08.png )
+
+
+
+
+## Icon
+
+
+<div class="mw-translate-fuzzy">
 
 ## Icone
 
 Scaricare le immagini e copiarle nel repertorio delle macro.
 
+
+</div>
+
 Cliccare sull\'immagine con il tasto destro del mouse e salvarla nella nuova posizione selezionando \"Salva oggetto con nome \...\"
 
+
+<div class="mw-translate-fuzzy">
+
 Pulsanti della barra degli strumenti ![Button](images/FCSpring_Helix_Variable.png )  Icone della macro
+
+
+</div>
+
+Macro icons
+
+
+<div class="mw-translate-fuzzy">
 
 ![](images/FCSpring_Helix_Variable_Icon_01.png ) ![](images/FCSpring_Helix_Variable_Icon_02.png ) ![](images/FCSpring_Helix_Variable_Icon_02b.png ) ![](images/FCSpring_Helix_Variable_Icon_03.png ) ![](images/FCSpring_Helix_Variable_Icon_03b.png ) ![](images/FCSpring_Helix_Variable_Icon_04.png ) ![](images/FCSpring_Helix_Variable_Icon_05.png ) ![](images/FCSpring_Helix_Variable_Icon_06.png ) 
 
 ## Script
 
+
+</div>
+
+## Script 
+
 **Macro_FCSpring_Helix_Variable.FCMacro**
 
 Download the macro to Gist [Macro_FCSpring_Helix_Variable](https://gist.github.com/mario52a/68c81c32a0727a693d3a)
 
+## Installation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Installazione
 
 Il file sopra è una macro sotto forma di codice GitHub. Scaricare il file Zip da GitHub, quindi seguire le istruzioni di installazione delle macro mostrate in [installing FreeCAD macros in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
+
+
+</div>
+
+
 
 ## Esempi
 
@@ -247,6 +386,15 @@ Il file sopra è una macro sotto forma di codice GitHub. Scaricare il file Zip d
 
 <center>
 
+<File:Macro> FCSpring Helix Variable polygonalSpiral00.png\|Example polygonal Spiral by 3 points <File:Macro> FCSpring Helix Variable polygonalSpiral01.png\|Example polygonal Spiral by 4 points
+
+
+</center>
+
+
+
+<center>
+
 <File:Macro> FCSpring Helix Variable 19.png\|Difference between Smooth (here 71 with precision 5 (72 points)) and normal
 
 
@@ -280,9 +428,19 @@ Il file sopra è una macro sotto forma di codice GitHub. Scaricare il file Zip d
 </center>
 
 
-## Link
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
+## Links 
 
 La discussione nel forum: [Try to do a Spring](http://forum.freecadweb.org/viewtopic.php?f=3&t=8313&p=68161#p68161)
+
+
+</div>
+
+
 
 ## In progetto 
 
@@ -292,7 +450,23 @@ ammorbidire i raccordi: fatto
 
 modificare il diametro di qualsiasi spira: fatto
 
+
+
 ## Versione
+
+2023/09/01 Version 0.18c adding **FreeCAD.activeDocument().recompute(None,True,True)***Texte en italique* \"bug\" fixed by **Syres** thanks [How to draw polygonal spirals in Freecad?](https://forum.freecad.org/viewtopic.php?p=703568#p703568)
+
+2023/09/01 Version 0.18b correct (adapt) the code :
+
+
+```python
+self.PB_Adapt_Radius.setStyleSheet("background-color: QPalette.Base") 
+```
+
+to 
+```python
+self.PB_Adapt_Radius.setStyleSheet("QPushButton {background-color: QPalette.Base}") 
+```
 
 2022/03/16 Version 0.18 : adding scrollBar, possibility docking Left or Right, restore the chrono *(time.time())*, memorise the last FilePath
 
@@ -366,7 +540,7 @@ ligne.Placement = App.Placement(App.Vector(0.0,0.0,0.0), App.Rotation(App.Vector
         ligne = FreeCAD.ActiveDocument.Line.Placement=App.Placement(App.Vector(0.0,0.0,0.0), App.Rotation(App.Vector(0,0,1),angleTr), App.Vector(0,0,0))
 ``` 6/11/2014 : aggiunto \"makeBSpline\" e configurazione
 
-## Limitationi
+## Limitazioni
 
 Durante i test di sweep ho ottenuto questi errori!
 

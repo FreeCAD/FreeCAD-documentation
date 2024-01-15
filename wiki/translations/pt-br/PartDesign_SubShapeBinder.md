@@ -72,6 +72,8 @@ The main differences are:
 -   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
 -   Only PartDesign SubShapeBinders support 2D offsetting.
 
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+
 ## Properties
 
 A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:

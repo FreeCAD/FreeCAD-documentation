@@ -15,15 +15,17 @@
 
 La commande <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hachure** crée des hachures sur les faces planes d\'un objet sélectionné.
 
+
+
 ## Utilisation
 
-1.  Sélectionnez un objet avec des faces. Seules les faces planes de l\'objet seront hachurées.
+1.  Sélectionner un objet avec des faces. Seules les faces planes de l\'objet seront hachurées.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Hatch.svg" width=16px> [Hachure](Draft_Hatch/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Hatch.svg" width=16px> Hachure** dans le menu.
-    -   Utilisez le raccourci clavier : **H** puis **A**.
-3.  Le panneau de tâches **Hatch** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-4.  Appuyez sur le bouton **OK** pour terminer la commande.
+    -   Appuyer sur le bouton **<img src="images/Draft_Hatch.svg" width=16px> [Hachure](Draft_Hatch/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Hatch.svg" width=16px> Hachure** du menu.
+    -   Utiliser le raccourci clavier : **H** puis **A**.
+3.  Le panneau de tâches **Hachure** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Appuyer sur le bouton **OK** pour terminer la commande.
 
 ## Options
 
@@ -32,6 +34,8 @@ La commande <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft
 -   Spécifiez une échelle **Échelle** pour le motif.
 -   Spécifiez un **Rotation** pour le motif.
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour interrompre la commande.
+
+
 
 ## Alignement des motifs 
 
@@ -47,6 +51,8 @@ Pour la hachure à gauche, la propriété Translate est réglée sur false.<br>
 Pour la hachure à droite, elle est réglée sur true.
 *
 
+
+
 ## Remarques
 
 -   Pour l\'instant, le conseil est de télécharger un fichier PAT. Vous pouvez en trouver beaucoup en ligne. Vous pouvez par exemple faire une recherche sur le web pour **acad.pat** ou **acadiso.pat**.
@@ -54,6 +60,8 @@ Pour la hachure à droite, elle est réglée sur true.
     -   Sous Linux c\'est généralement **/usr/share/freecad**.
     -   Sous Windows, il s\'agit généralement de **C:\Program Files\FreeCAD**.
     -   Sous macOS, il s\'agit généralement de **/Applications/FreeCAD**.
+
+
 
 ## Préférences
 
@@ -66,11 +74,15 @@ Les préférences suivantes sont en jeu :
 -   Échelle : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
 -   Rotation : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Hachure est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -88,6 +100,8 @@ Un objet Draft Hachure est dérivé d\'un [Part Feature](Part_Feature/fr.md) et 
 -    **Scale|Float**: spécifie l\'échelle du motif.
 
 -    **Translate|Bool**: indique si les faces sont temporairement translatées dans le plan XY global pendant le processus de hachurage. La valeur `False` peut donner de mauvais résultats pour les faces non XY.
+
+
 
 ## Script
 

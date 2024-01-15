@@ -3,6 +3,7 @@
    Name: Spreadsheet SetAlias
    MenuLocation: -
    Workbenches: Spreadsheet_Workbench
+   Shortcut: **Ctrl**+**Shift**+**A**
    Version: 0.17
 ---
 

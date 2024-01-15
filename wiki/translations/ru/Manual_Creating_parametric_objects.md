@@ -1,5 +1,14 @@
 # Manual:Creating parametric objects/ru
-{{Manual:TOC/ru}}
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+{{Manual:TOC}}
 
 В [предыдущей главе](Manual:Creating_and_manipulating_geometry/ru.md) мы видели создание геометрии Part, и как показать её на экране присоединением её к \"пустому\" (непараметрическому) объекту документа. Это муторно, когда мы хотим изменить форму объекта. Нам нужно создать новую форму, затем снова приписать её к нашему объекту.
 
@@ -132,6 +141,15 @@ FreeCAD.ActiveDocument.recompute()
 -   [Репозиторий макросов FreeCAD](Macros_recipes/ru.md)
 -   [Пример параметрического объекта](Scripted_objects/ru.md)
 -   [Дополнительные примеры в коде FreeCAD](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py)
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

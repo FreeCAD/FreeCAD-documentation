@@ -25,14 +25,14 @@ Besitzt eine Skizze redundant festgelegte Randbedingungen, werden die Indizes de
 Vorhandene Optionen:
 
 +++
-| Option                                                                               | Description                                                                                                        |
-+======================================================================================+====================================================================================================================+
-|                                                                       | This button opens a menu:                                                                                          |
-| **<img src="images/View-refresh.svg" width=x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** |                                                                                                                    |
-|                                                                                   | -                                                                                                   |
-|                                                                                      |     **Auto update**                                                                                    |
-|                                                                                      |                                                                                                                 |
-|                                                                                      |     : If checked, the whole document is recomputed after every sketch action. Not advisable for complex documents. |
+| Option                                                                               | Beschreibung                                                                                                                       |
++======================================================================================+====================================================================================================================================+
+|                                                                       | Diese Schaltfläche öffnet ein Menü:                                                                                                |
+| **<img src="images/View-refresh.svg" width=x16px> <img src="images/Toolbar_flyout_arrow.svg" width=x16px>** |                                                                                                                                    |
+|                                                                                   | -                                                                                                                   |
+|                                                                                      |     **Auto update**                                                                                                    |
+|                                                                                      |                                                                                                                                 |
+|                                                                                      |     : wenn aktiviert, wird nach jeder Aktion in der Skizze das ganze Modell neu berechnet. Nicht empfohlen für komplexe Dokumente. |
 +++
 
 
@@ -121,7 +121,7 @@ Vorhandene Optionen:
 
 ## Einschränkungen
 
-This section lists the constraints in the sketch. Unchecking a constraint in the list will hide it in the sketch. Constraints can be selected in the list as well as in the sketch.
+Dieser Abschnitt listet die Randbedingungen der Skizze. Wird eine Randbedingung in der Liste deaktiviert, wird sie in der Skizze ausgeblendet. Randbedingungen können sowohl in der Liste als auch in der Skizze ausgewählt werden.
 
 Vorhandene Optionen:
 
@@ -269,7 +269,7 @@ Vorhandene Optionen:
 
 ## Elemente
 
-This section lists the elements in the sketch. Unchecking an element in the list will hide it in the sketch. Elements can be selected in the list as well as in the sketch.
+Dieser Abschnitt listet die Elemente in der Skizze. Wird ein Element in der Liste deaktiviert, wird es in der Skizze ausgeblendet. Elemente können sowohl in der Liste als auch in der Skizze ausgewählt werden.
 
 Vorhandene Optionen:
 

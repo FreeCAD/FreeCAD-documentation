@@ -1,5 +1,5 @@
 # App Part/de
-## Einführung
+## Einleitung
 
 <img alt="" src=images/Geofeaturegroup.svg  style="width:32px;">
 

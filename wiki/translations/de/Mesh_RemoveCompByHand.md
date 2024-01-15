@@ -19,22 +19,16 @@ Der Befehl \"Mesh KomponentenVonHandEntfernen\" entfernt Komponenten aus Netzobj
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-## Anwendung 
-
-1.  Wähle **Netze** → **Komponente von Hand entfernen...** aus der Menüleiste.
-2.  Wähle die Komponente(n) in der 3D-Ansicht. Ausgewählte Komponenten werden in Rot dargestellt.
-
-Rechtsklick in der 3D-Ansicht bietet die Möglichkeit zum
-
--   Verlassen des Entfernen-Modus
--   Löschen ausgewählter Flächen
--   Abwählen ausgewählter Flächen
-
-
-</div>
+1.  Als eine Komponente wird eine komplette Gruppe von verbundenen Flächen bezeichnet. Normalerweise besteht ein Netzobjekt aus einer einzigen Komponente. Nach der Anwendung des Befehls [Mesh Zusammenführen](Mesh_Merge/de.md) kann aber ein Netzobjekt mehrere Komponenten enthalten.
+2.  Der Befehl verwendet die Farbe Rot, um ausgwählte Komponenten zu markieren. Damit diese korrekt dargestellt werden:
+    -   Die {{PropertyView/de|Display Mode}} (Anzeigemodus) des Netzobjekts sollte Flächen darstellen. Wenn nötig, den Befehl [Std Darstellungsart](Std_DrawStyle/de.md) anwenden, um diese Eigenschaft anzupassen.
+    -   Die {{PropertyView/de|Shape Color}} (Formfarbe) des Netzobjekts sollte nicht Rot sein.
+3.  Den Menüeintrag **Netze → <img src="images/Mesh_RemoveCompByHand.svg" width=16px> Komponente von Hand entfernen...** auswählen.
+4.  Der Mauszeiger wandelt sich in ein Hand-Symbol.
+5.  Die Komponenten in der [3D-Ansicht](3D_view/de.md) auswählen, die gelöscht werden sollen.
+6.  Wahlweise die Menüoption **Auswahl aufheben** im Kontextmenü der 3D-Ansicht auswählen, um alle Komponenten abzuwählen.
+7.  Die Menüoption **Selektierte Dreiecke löschen** im Kontextmenü der 3D-Ansicht auswählen, um die ausgewählten Komponenten zu löschen.
+8.  Die Menüoption **Entfernen-Modus verlassen** im Kontextmenü der 3D-Ansicht auswählen, um den Befehl fertigzustellen.
 
 
 

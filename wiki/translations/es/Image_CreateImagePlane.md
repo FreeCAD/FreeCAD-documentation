@@ -61,4 +61,4 @@ If no offset is given to the image initially, its position can still be adjusted
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/es
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image CreateImagePlane/es

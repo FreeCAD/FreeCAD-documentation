@@ -8,7 +8,7 @@ The defaults in the Macro are for parts of manufacturer Hettich.
 |Version=1.0
 |Date=2015-01-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png TollBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png ToolBar Icon]
 }}
 
 ## Description
@@ -30,11 +30,9 @@ This macro creates Top/Bottom and sidewalls for a cabinet with System32 specific
 
 ## Script
 
+ToolBar Icon ![](images/Macro_Cabinets32.png )
 
-
-TollBar Icon ![](images/Macro_Cabinets32.png )
-
-**Cabinets32.FCMacro**
+ **Cabinets32.FCMacro**
 
 
 {{MacroCode|code=

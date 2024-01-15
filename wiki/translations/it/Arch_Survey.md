@@ -4,23 +4,16 @@
    Name/it: Ispeziona
    MenuLocation: Arch , Ispeziona
    Workbenches: Arch_Workbench/it
-   SeeAlso: File:FCInfo.png Macro FCInfo/it<br />Macro_SimpleProperties
+   SeeAlso: Macro_FCInfo/it, Macro_SimpleProperties/it
 ---
 
 # Arch Survey/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Arch_Survey.svg  style="width:16px;"> Ispeziona entra in una speciale modalità di rilevamento, che consente di acquisire rapidamente misure e informazioni provenienti da un modello, e di trasferirle ad altre applicazioni. Quando si è in modalità Ispeziona, cliccando sui diversi sotto-elementi degli oggetti 3D si acquisiscono le seguenti informazioni, secondo su cosa si clicca:
-
-
-</div>
+Lo strumento **<img src="images/Arch_Survey.svg" width=16px> [Ispeziona](Arch_Survey/it.md)** entra in una speciale modalità di rilevamento, che consente di acquisire rapidamente misure e informazioni provenienti da un modello, e di trasferirle ad altre applicazioni. Quando si è in modalità Ispeziona, cliccando sui diversi sotto-elementi degli oggetti 3D si acquisiscono le seguenti informazioni (a secondo di cosa si clicca):
 
 -   Se si fa clic su uno spigolo, si ottiene la sua lunghezza
 -   Se si fa clic su un vertice, si ottiene la sua altezza (coordinata sull\'asse Z)
@@ -37,19 +30,17 @@ Quando vengono acquisite delle informazioni, succedono tre cose:
 
 *L\'immagine sopra mostra cosa succede quando si esegue la modalità di indagine.*
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **<img src="images/Arch_Survey.svg" width=16px> Ispeziona
+1.  Premere il pulsante **<img src="images/Arch_Survey.svg" width=16px> [Ispeziona](Arch_Survey/it.md)
 **
 2.  Cliccare su vertici, spigoli, facce o fare doppio clic per selezionare gli oggetti interi
 3.  Fare clic all\'esterno di qualsiasi geometria (sullo sfondo della vista 3D) per rimuovere le etichette esistenti, stampare una riga del totale nella finestra di dialogo Azioni e riavviare da zero il conteggio delle lunghezze e delle aree.
 4.  Premere **ESC** o il pulsante **'''Close'''** per uscire dalla modalità di indagine e rimuovere tutte le etichette.
 
 
-</div>
 
 ## Opzioni
 
@@ -58,26 +49,14 @@ Quando vengono acquisite delle informazioni, succedono tre cose:
 
 <img alt="" src=images/Arch_Survey_spreadsheet.jpg  style="width:640px;">
 
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
 La modalità di indagine non ha un\'interfaccia di programmazione, ma da qualsiasi oggetto selezionato basato su [Part](Part_Workbench/it.md) è facile raccogliere le stesse informazioni e riprodurle utilizzando il seguente script:
-
-
-</div>
 
 
 ```python
@@ -92,15 +71,6 @@ for obj in selection:
         print("Volume: %f", element.Volume)
         print("Center of Mass: %f", element.CenterOfMass)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

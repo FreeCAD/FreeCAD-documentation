@@ -1,10 +1,87 @@
 # Svg Namespace/it
+<div class="mw-translate-fuzzy">
+
+
 **Lo sviluppo del modulo Drawing è stato interrotto in FreeCAD 0.16 con il proposito di sostituirlo con il nuovo modulo [TechDraw](TechDraw_Workbench/it.md) che sarà introdotto nella versione 0.17. Nella versione 0.17 sono forniti entrambi i moduli, ma il modulo Drawing potrebbe essere rimosso nelle versioni future.**
 
 
+</div>
 
+
+
+
+## Introduction
+
+
+<div class="mw-translate-fuzzy">
 
 Nei documenti [SVG](http://it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Workbench/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
+
+
+</div>
+
+Like any XML document an SVG document consist of two sections:
+
+-   Head: just one line to declare which version of the XML language is used for the instructions in the body of this document.
+-   Body: a list of instructions. SVG documents enclose all instructions in<svg>-tags.
+
+:   The opening tag contains information about the size and the used SVG namespaces.
+
+## Default namespace 
+
+The default SVG namespace used by FreeCAD is declared with this line:
+
+
+{{Code|lang=xml|code=
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+}}
+
+The external link leads to a web site containing information about the namespace and its set of instructions. Attributes of this namespace are used without prefix.
+
+## Namespace extension 
+
+Attributes missing from the SVG namespace can be added by namespace extensions. FreeCAD uses such an extension for drawing templates. Templates for the Drawing workbench used four custom attributes which are marked with a \"freecad:\" prefix:
+
+-   [freecad:EditableText](#freecad_EditableText.md), this is still used with templates for the TechDraw workbench.
+-   [freecad:basepoint1](#freecad_basepoint1.md)
+-   [freecad:basepoint2](#freecad_basepoint2.md)
+-   [freecad:dimpoint](#freecad_dimpoint.md)
+
+A namespace declaration is used to introduce the prefix and the link to the related web site, **this page**:
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+The link is not used to retrieve information or values at runtime, but it is the key to activate the custom attributes.
+
+### Drawing templates 
+
+In the [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) documents exported by FreeCAD\'s [Drawing Workbench](Drawing_Workbench.md) and used as (Drawing) page [templates](Drawing_templates.md), the custom [attributes](http://www.w3schools.com/xml/xml_attributes.asp) can be used, originally for FreeCAD\'s own internal use, but could also be used by other FreeCAD-aware applications in the future. These attributes all use the **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) prefix. The namespace URL defined in those SVG documents refers to this page.
+
+:   The Drawing workbench is no longer included in FreeCAD <small>(v0.21)</small>  and so these Drawing templates are obsolate now.
+
+### TechDraw templates 
+
+The TechDraw workbench also uses SVG templates but can not create and export templates. It relies on [freecad:EditableText](#freecad_EditableText.md) for entries in title blocks.
+
+### Migration to freecad.org 
+
+Since the FreeCAD wiki, including **this page**, was migrated from **freecadweb.org** to **freecad.org** in version 0.21 the link has to be updated accordingly to:
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+Updated TechDraw templates now contain a key that can not activate the custom attributes when used with FreeCAD {{VersionMinus|0.20}} and as a result editable texts of recent templates are not recognised and so handled as plain text.
+
+:   In such cases the \"web\" has to be manually re-inserted into the namespace declaration of the template.
+
+It seems like <small>(v0.21)</small>  can deal with either link address.
+
+
 
 ## Utilizzo
 
@@ -41,6 +118,8 @@ viewBox="0 0 xxx yyy"
 
 
 Possono essere aggiunte informazioni supplementari per lo spazio di lavoro e il blocco del titolo e esse sono definite nella pagina [Modelli di squadrature](Drawing_templates/it.md).
+
+
 
 ## Attributi
 
@@ -84,6 +163,8 @@ Esempio: vedere [freecad:basepoint1](#freecad_basepoint1.md)
 Definisce il punto di un oggetto di [Quotatura](Draft_Dimension/it.md) attraverso il quale passa la linea di quota. Questo attributo viene utilizzato durante l\'importazione del frammento di SVG in FreeCAD, per ricreare l\'oggetto Quotatura. Il gruppo contiene i percorsi e altri elementi grafici per rappresentare correttamente l\'oggetto Quotatura in altre applicazioni SVG.
 
 Esempio: vedere [freecad:basepoint1](#freecad_basepoint1.md)
+
+
 
 ### Esempio di codice freecad:EditableText 
 
@@ -137,6 +218,8 @@ Questo esempio è tratto dalla tabella del modello di squadratura [A3_Landscape]
     ... </text>
   
   </g>
+
+
 
 
 #### Spiegazioni
@@ -211,6 +294,8 @@ Esempio :
 
 -   **editable** = \"AuthorName\"
 -   replace by **freecad:editable** = \"AuthorName\"
+
+
 
 ## Altri attributi disponibili 
 

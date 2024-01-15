@@ -1,32 +1,45 @@
 ---
  GuiCommand:
    Name: Curves ProfileSupport
+   Name/pl: Krzywe: Obsługa profilu
    MenuLocation: Surfaces , Profile support plane
-   Workbenches: Curves_Workbench
+   Workbenches: Curves_Workbench/pl
 ---
 
 # Curves ProfileSupport/pl
 
-## Description
 
-The <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> [Curves ProfileSupport](Curves_ProfileSupport.md) creates a support plane for sketches. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> button in the Curves toolbar.
-    -   Use the **Surfaces → Profile support plane** entry in the dropdown menu.
+Polecenie <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> **Obsługa profilu** tworzy płaszczyznę pomocniczą dla szkiców. Narzędzie to jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
-## Notes
 
-1.  To see a workflow how this tool can be used to construct a curved section of a guitar body, see [this forum reply](https://forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) from Chris_G (author of the curves workbench)
 
-## Limitations
+## Użycie
 
-## Properties
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_ProfileSupport.svg  style="width:24px;"> na pasku narzędzi Curves.
+    -   Użyj pozycji **Surfaces → Profile support plane** w menu.
 
-## Scripting
+
+
+## Uwagi
+
+Aby zobaczyć przepływ pracy, w jaki sposób można użyć tego narzędzia do skonstruowania zakrzywionej sekcji korpusu gitary, zobacz [ta odpowiedź na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=22675&start=90#p203978) od Chris_G *(autor krzywych workbench)*.
+
+
+
+## Ograniczenia
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

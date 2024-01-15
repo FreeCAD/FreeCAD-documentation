@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Fillet
    Name/de: Part Verrundung
-   MenuLocation: Formteil , Verrundung
+   MenuLocation: Part , Abrunden...
    Workbenches: Part_Workbench/de
    SeeAlso: Part_Chamfer/de
 ---
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erzeugt Verrundungen auf den ausgewählten Kanten einer Form. Ein Dialog ermöglicht die Auswahl der Form und der Kanten, die bearbeitet werden.
+Dieses Werkzeug erstellt Verrundungen auf den ausgewählten Kanten einer Form. Ein Dialog ermöglicht die Auswahl der Form und der Kanten, die bearbeitet werden.
 
 
 
@@ -21,11 +21,11 @@ Dieses Werkzeug erzeugt Verrundungen auf den ausgewählten Kanten einer Form. Ei
 
 -   Das Werkzeug wird aus der Part-Werkzeugleiste oder aus dem Menü **Part → Abrunden...** aufgerufen. Es ist möglich, die Form vor oder nach Aufruf des Werkzeugs auszuwählen (siehe Hinweis unten)
 
--   Wenn die Form nicht vor Aufruf des Werkzeugs ausgewählt wurde, wird sie in der Form-Ausklappliste im [Aufgabenbereich](Task_panel/de.md) ausgewählt.
+-   Wenn die Form nicht vor Aufruf des Werkzeugs ausgewählt wurde, wird sie in der Form-Ausklappliste im [Aufgaben-Dialog](Task_panel/de.md) ausgewählt.
 
 -   Den \"Typ der Ausrundung\" auswählen, entweder Konstanter Radius (standard) oder Variabler Radius.
 
--   Die Kanten entweder in der [3D-Ansicht](3D_view/de.md) oder in der Kantenliste im [aufgabenbereich](Task_panel/de.md) auswählen.
+-   Die Kanten entweder in der [3D-Ansicht](3D_view/de.md) oder in der Kantenliste im [Aufgaben-Dialog](Task_panel/de.md) auswählen.
 
 -   Den Wert des Radius eingeben.
 
@@ -33,9 +33,9 @@ Dieses Werkzeug erzeugt Verrundungen auf den ausgewählten Kanten einer Form. Ei
 
 ![](images/Dialog-fillet.png )
 
-## Formteilverrundung VS. PartDesign Verrundung 
+## Part Verrundung VS. PartDesign Verrundung 
 
-Es gibt ein weiteres Verrundungswerkzeug in der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md). Bitte beachte, dass ihre Bedienung recht unterschiedlich ist. Siehe sich das <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) Referenzseite für weitere Einzelheiten zu ihren Unterschieden.
+Es gibt ein weiteres Verrundungswerkzeug im Arbeitsbereich <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md). Bitte beachten, dass ihre Bedienung recht unterschiedlich ist. Siehe Referenzseite zu <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Verrundung](PartDesign_Fillet/de.md) für weitere Einzelheiten zu ihren Unterschieden.
 
 ## Hinweise zur Anwendung von Part Verrundung 
 

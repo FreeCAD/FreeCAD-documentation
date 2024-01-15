@@ -86,92 +86,92 @@
 | [FEM MaterialReinforced/ru](FEM_MaterialReinforced/ru.md) | [FEM MaterialSolid/ru](FEM_MaterialSolid/ru.md) | [FEM MeshBoundaryLayer/ru](FEM_MeshBoundaryLayer/ru.md) |
 | [FEM MeshClear/ru](FEM_MeshClear/ru.md) | [FEM MeshDisplayInfo/ru](FEM_MeshDisplayInfo/ru.md) | [FEM MeshGmshFromShape/ru](FEM_MeshGmshFromShape/ru.md) |
 | [FEM MeshGroup/ru](FEM_MeshGroup/ru.md) | [FEM MeshNetgenFromShape/ru](FEM_MeshNetgenFromShape/ru.md) | [FEM MeshRegion/ru](FEM_MeshRegion/ru.md) |
-| [FEM PostApplyChanges/ru](FEM_PostApplyChanges/ru.md) | [FEM PostCreateFunctions/ru](FEM_PostCreateFunctions/ru.md) | [FEM PostFilterClipRegion/ru](FEM_PostFilterClipRegion/ru.md) |
-| [FEM PostFilterClipScalar/ru](FEM_PostFilterClipScalar/ru.md) | [FEM PostFilterCutFunction/ru](FEM_PostFilterCutFunction/ru.md) | [FEM PostFilterDataAlongLine/ru](FEM_PostFilterDataAlongLine/ru.md) |
-| [FEM PostFilterDataAtPoint/ru](FEM_PostFilterDataAtPoint/ru.md) | [FEM PostFilterLinearizedStresses/ru](FEM_PostFilterLinearizedStresses/ru.md) | [FEM PostFilterWarp/ru](FEM_PostFilterWarp/ru.md) |
-| [FEM PostPipelineFromResult/ru](FEM_PostPipelineFromResult/ru.md) | [FEM ResultShow/ru](FEM_ResultShow/ru.md) | [FEM ResultsPurge/ru](FEM_ResultsPurge/ru.md) |
-| [FEM SolverCalculiX/ru](FEM_SolverCalculiX/ru.md) | [FEM SolverCalculixCxxtools/ru](FEM_SolverCalculixCxxtools/ru.md) | [FEM SolverControl/ru](FEM_SolverControl/ru.md) |
-| [FEM SolverElmer/ru](FEM_SolverElmer/ru.md) | [FEM SolverMystran/ru](FEM_SolverMystran/ru.md) | [FEM SolverRun/ru](FEM_SolverRun/ru.md) |
-| [FEM SolverZ88/ru](FEM_SolverZ88/ru.md) | [GuiCommand model/ru](GuiCommand_model/ru.md) | [Template:GuiCommand/ru](Template_GuiCommand/ru.md) |
-| [Template:GuiCommandAddon/ru](Template_GuiCommandAddon/ru.md) | [Image CreateImagePlane/ru](Image_CreateImagePlane/ru.md) | [Image Open/ru](Image_Open/ru.md) |
-| [Image Scaling/ru](Image_Scaling/ru.md) | [Mesh BoundingBox/ru](Mesh_BoundingBox/ru.md) | [Mesh BuildRegularSolid/ru](Mesh_BuildRegularSolid/ru.md) |
-| [Mesh CurvatureInfo/ru](Mesh_CurvatureInfo/ru.md) | [Mesh Difference/ru](Mesh_Difference/ru.md) | [Mesh EvaluateFacet/ru](Mesh_EvaluateFacet/ru.md) |
-| [Mesh EvaluateSolid/ru](Mesh_EvaluateSolid/ru.md) | [Mesh Evaluation/ru](Mesh_Evaluation/ru.md) | [Mesh Export/ru](Mesh_Export/ru.md) |
-| [Mesh FillInteractiveHole/ru](Mesh_FillInteractiveHole/ru.md) | [Mesh FlipNormals/ru](Mesh_FlipNormals/ru.md) | [Mesh FromPartShape/ru](Mesh_FromPartShape/ru.md) |
-| [Mesh HarmonizeNormals/ru](Mesh_HarmonizeNormals/ru.md) | [Mesh Import/ru](Mesh_Import/ru.md) | [Mesh Intersection/ru](Mesh_Intersection/ru.md) |
-| [Mesh Merge/ru](Mesh_Merge/ru.md) | [Mesh PolyCut/ru](Mesh_PolyCut/ru.md) | [Mesh RemoveCompByHand/ru](Mesh_RemoveCompByHand/ru.md) |
-| [Mesh RemoveComponents/ru](Mesh_RemoveComponents/ru.md) | [Mesh Scale/ru](Mesh_Scale/ru.md) | [Mesh Union/ru](Mesh_Union/ru.md) |
-| [Mesh VertexCurvature/ru](Mesh_VertexCurvature/ru.md) | [OpenSCAD AddOpenSCADElement/ru](OpenSCAD_AddOpenSCADElement/ru.md) | [OpenSCAD ColorCodeShape/ru](OpenSCAD_ColorCodeShape/ru.md) |
-| [OpenSCAD Edgestofaces/ru](OpenSCAD_Edgestofaces/ru.md) | [OpenSCAD ExpandPlacements/ru](OpenSCAD_ExpandPlacements/ru.md) | [OpenSCAD ExplodeGroup/ru](OpenSCAD_ExplodeGroup/ru.md) |
-| [OpenSCAD Hull/ru](OpenSCAD_Hull/ru.md) | [OpenSCAD IncreaseToleranceFeature/ru](OpenSCAD_IncreaseToleranceFeature/ru.md) | [OpenSCAD MeshBoolean/ru](OpenSCAD_MeshBoolean/ru.md) |
-| [OpenSCAD Minkowski/ru](OpenSCAD_Minkowski/ru.md) | [OpenSCAD RefineShapeFeature/ru](OpenSCAD_RefineShapeFeature/ru.md) | [OpenSCAD RemoveSubtree/ru](OpenSCAD_RemoveSubtree/ru.md) |
-| [OpenSCAD ReplaceObject/ru](OpenSCAD_ReplaceObject/ru.md) | [Part Boolean/ru](Part_Boolean/ru.md) | [Part BooleanFragments/ru](Part_BooleanFragments/ru.md) |
-| [Part Box/ru](Part_Box/ru.md) | [Part BoxSelection/ru](Part_BoxSelection/ru.md) | [Part Builder/ru](Part_Builder/ru.md) |
-| [Part Chamfer/ru](Part_Chamfer/ru.md) | [Part CheckGeometry/ru](Part_CheckGeometry/ru.md) | [Part Circle/ru](Part_Circle/ru.md) |
-| [Part Common/ru](Part_Common/ru.md) | [Part CompCompoundTools/ru](Part_CompCompoundTools/ru.md) | [Part CompJoinFeatures/ru](Part_CompJoinFeatures/ru.md) |
-| [Part CompOffsetTools/ru](Part_CompOffsetTools/ru.md) | [Part Compound/ru](Part_Compound/ru.md) | [Part CompoundFilter/ru](Part_CompoundFilter/ru.md) |
-| [Part CompSplittingTools/ru](Part_CompSplittingTools/ru.md) | [Part Cone/ru](Part_Cone/ru.md) | [Part CrossSections/ru](Part_CrossSections/ru.md) |
-| [Part Cut/ru](Part_Cut/ru.md) | [Part Cylinder/ru](Part_Cylinder/ru.md) | [Part Defeaturing/ru](Part_Defeaturing/ru.md) |
-| [Part EditAttachment/ru](Part_EditAttachment/ru.md) | [Part ElementCopy/ru](Part_ElementCopy/ru.md) | [Part Ellipse/ru](Part_Ellipse/ru.md) |
-| [Part Ellipsoid/ru](Part_Ellipsoid/ru.md) | [Part ExplodeCompound/ru](Part_ExplodeCompound/ru.md) | [Part Export/ru](Part_Export/ru.md) |
-| [Part Extrude/ru](Part_Extrude/ru.md) | [Part FaceColors/ru](Part_FaceColors/ru.md) | [Part Fillet/ru](Part_Fillet/ru.md) |
-| [Part Fuse/ru](Part_Fuse/ru.md) | [Part Helix/ru](Part_Helix/ru.md) | [Part Import/ru](Part_Import/ru.md) |
-| [Part JoinConnect/ru](Part_JoinConnect/ru.md) | [Part JoinCutout/ru](Part_JoinCutout/ru.md) | [Part JoinEmbed/ru](Part_JoinEmbed/ru.md) |
-| [Part Line/ru](Part_Line/ru.md) | [Part Loft/ru](Part_Loft/ru.md) | [Part MakeFace/ru](Part_MakeFace/ru.md) |
-| [Part MakeSolid/ru](Part_MakeSolid/ru.md) | [Part Measure Angular/ru](Part_Measure_Angular/ru.md) | [Part Measure Clear All/ru](Part_Measure_Clear_All/ru.md) |
-| [Part Measure Linear/ru](Part_Measure_Linear/ru.md) | [Part Measure Refresh/ru](Part_Measure_Refresh/ru.md) | [Part Measure Toggle 3D/ru](Part_Measure_Toggle_3D/ru.md) |
-| [Part Measure Toggle All/ru](Part_Measure_Toggle_All/ru.md) | [Part Measure Toggle Delta/ru](Part_Measure_Toggle_Delta/ru.md) | [Part Mirror/ru](Part_Mirror/ru.md) |
-| [Part Offset/ru](Part_Offset/ru.md) | [Part Offset2D/ru](Part_Offset2D/ru.md) | [Part Plane/ru](Part_Plane/ru.md) |
-| [Part Point/ru](Part_Point/ru.md) | [Part PointsFromMesh/ru](Part_PointsFromMesh/ru.md) | [Part Primitives/ru](Part_Primitives/ru.md) |
-| [Part Prism/ru](Part_Prism/ru.md) | [Part ProjectionOnSurface/ru](Part_ProjectionOnSurface/ru.md) | [Part RefineShape/ru](Part_RefineShape/ru.md) |
-| [Part RegularPolygon/ru](Part_RegularPolygon/ru.md) | [Part ReverseShapes/ru](Part_ReverseShapes/ru.md) | [Part Revolve/ru](Part_Revolve/ru.md) |
-| [Part RuledSurface/ru](Part_RuledSurface/ru.md) | [Part Section/ru](Part_Section/ru.md) | [Part ShapeFromMesh/ru](Part_ShapeFromMesh/ru.md) |
-| [Part SimpleCopy/ru](Part_SimpleCopy/ru.md) | [Part Slice/ru](Part_Slice/ru.md) | [Part SliceApart/ru](Part_SliceApart/ru.md) |
-| [Part Sphere/ru](Part_Sphere/ru.md) | [Part Spiral/ru](Part_Spiral/ru.md) | [Part Sweep/ru](Part_Sweep/ru.md) |
-| [Part Thickness/ru](Part_Thickness/ru.md) | [Part Torus/ru](Part_Torus/ru.md) | [Part TransformedCopy/ru](Part_TransformedCopy/ru.md) |
-| [Part Tube/ru](Part_Tube/ru.md) | [Part Wedge/ru](Part_Wedge/ru.md) | [Part XOR/ru](Part_XOR/ru.md) |
-| [PartDesign AdditiveBox/ru](PartDesign_AdditiveBox/ru.md) | [PartDesign AdditiveCone/ru](PartDesign_AdditiveCone/ru.md) | [PartDesign AdditiveCylinder/ru](PartDesign_AdditiveCylinder/ru.md) |
-| [PartDesign AdditiveEllipsoid/ru](PartDesign_AdditiveEllipsoid/ru.md) | [PartDesign AdditiveHelix/ru](PartDesign_AdditiveHelix/ru.md) | [PartDesign AdditiveLoft/ru](PartDesign_AdditiveLoft/ru.md) |
-| [PartDesign AdditivePipe/ru](PartDesign_AdditivePipe/ru.md) | [PartDesign AdditivePrism/ru](PartDesign_AdditivePrism/ru.md) | [PartDesign AdditiveSphere/ru](PartDesign_AdditiveSphere/ru.md) |
-| [PartDesign AdditiveTorus/ru](PartDesign_AdditiveTorus/ru.md) | [PartDesign AdditiveWedge/ru](PartDesign_AdditiveWedge/ru.md) | [PartDesign Body/ru](PartDesign_Body/ru.md) |
-| [PartDesign Boolean/ru](PartDesign_Boolean/ru.md) | [PartDesign Chamfer/ru](PartDesign_Chamfer/ru.md) | [PartDesign Clone/ru](PartDesign_Clone/ru.md) |
-| [PartDesign CompPrimitiveAdditive/ru](PartDesign_CompPrimitiveAdditive/ru.md) | [PartDesign CompPrimitiveSubtractive/ru](PartDesign_CompPrimitiveSubtractive/ru.md) | [PartDesign CoordinateSystem/ru](PartDesign_CoordinateSystem/ru.md) |
-| [PartDesign Draft/ru](PartDesign_Draft/ru.md) | [PartDesign Fillet/ru](PartDesign_Fillet/ru.md) | [PartDesign Groove/ru](PartDesign_Groove/ru.md) |
-| [PartDesign Hole/ru](PartDesign_Hole/ru.md) | [PartDesign InvoluteGear/ru](PartDesign_InvoluteGear/ru.md) | [PartDesign Line/ru](PartDesign_Line/ru.md) |
-| [PartDesign LinearPattern/ru](PartDesign_LinearPattern/ru.md) | [PartDesign Migrate/ru](PartDesign_Migrate/ru.md) | [PartDesign Mirrored/ru](PartDesign_Mirrored/ru.md) |
-| [PartDesign MoveFeature/ru](PartDesign_MoveFeature/ru.md) | [PartDesign MoveFeatureInTree/ru](PartDesign_MoveFeatureInTree/ru.md) | [PartDesign MoveTip/ru](PartDesign_MoveTip/ru.md) |
-| [PartDesign MultiTransform/ru](PartDesign_MultiTransform/ru.md) | [PartDesign NewSketch/ru](PartDesign_NewSketch/ru.md) | [PartDesign Pad/ru](PartDesign_Pad/ru.md) |
-| [PartDesign Plane/ru](PartDesign_Plane/ru.md) | [PartDesign Pocket/ru](PartDesign_Pocket/ru.md) | [PartDesign Point/ru](PartDesign_Point/ru.md) |
-| [PartDesign PolarPattern/ru](PartDesign_PolarPattern/ru.md) | [PartDesign Revolution/ru](PartDesign_Revolution/ru.md) | [PartDesign Scaled/ru](PartDesign_Scaled/ru.md) |
-| [PartDesign ShapeBinder/ru](PartDesign_ShapeBinder/ru.md) | [PartDesign Sprocket/ru](PartDesign_Sprocket/ru.md) | [PartDesign SubShapeBinder/ru](PartDesign_SubShapeBinder/ru.md) |
-| [PartDesign SubtractiveBox/ru](PartDesign_SubtractiveBox/ru.md) | [PartDesign SubtractiveCone/ru](PartDesign_SubtractiveCone/ru.md) | [PartDesign SubtractiveCylinder/ru](PartDesign_SubtractiveCylinder/ru.md) |
-| [PartDesign SubtractiveEllipsoid/ru](PartDesign_SubtractiveEllipsoid/ru.md) | [PartDesign SubtractiveHelix/ru](PartDesign_SubtractiveHelix/ru.md) | [PartDesign SubtractiveLoft/ru](PartDesign_SubtractiveLoft/ru.md) |
-| [PartDesign SubtractivePipe/ru](PartDesign_SubtractivePipe/ru.md) | [PartDesign SubtractivePrism/ru](PartDesign_SubtractivePrism/ru.md) | [PartDesign SubtractiveSphere/ru](PartDesign_SubtractiveSphere/ru.md) |
-| [PartDesign SubtractiveTorus/ru](PartDesign_SubtractiveTorus/ru.md) | [PartDesign SubtractiveWedge/ru](PartDesign_SubtractiveWedge/ru.md) | [PartDesign Thickness/ru](PartDesign_Thickness/ru.md) |
-| [PartDesign WizardShaft/ru](PartDesign_WizardShaft/ru.md) | [Path Array/ru](Path_Array/ru.md) | [Path Comment/ru](Path_Comment/ru.md) |
-| [Path Copy/ru](Path_Copy/ru.md) | [Path Custom/ru](Path_Custom/ru.md) | [Path Drilling/ru](Path_Drilling/ru.md) |
-| [Path Fixture/ru](Path_Fixture/ru.md) | [Path Helix/ru](Path_Helix/ru.md) | [Path Inspect/ru](Path_Inspect/ru.md) |
-| [Path Job/ru](Path_Job/ru.md) | [Path Pocket 3D/ru](Path_Pocket_3D/ru.md) | [Path Pocket Shape/ru](Path_Pocket_Shape/ru.md) |
-| [Path Post/ru](Path_Post/ru.md) | [Path Profile/ru](Path_Profile/ru.md) | [Path Sanity/ru](Path_Sanity/ru.md) |
-| [Path SelectLoop/ru](Path_SelectLoop/ru.md) | [Path Shape/ru](Path_Shape/ru.md) | [Path SimpleCopy/ru](Path_SimpleCopy/ru.md) |
-| [Path Simulator/ru](Path_Simulator/ru.md) | [Path Stop/ru](Path_Stop/ru.md) | [Path Surface/ru](Path_Surface/ru.md) |
-| [Plot Axes/ru](Plot_Axes/ru.md) | [Plot Grid/ru](Plot_Grid/ru.md) | [Plot Labels/ru](Plot_Labels/ru.md) |
-| [Plot Legend/ru](Plot_Legend/ru.md) | [Plot Positions/ru](Plot_Positions/ru.md) | [Plot Save/ru](Plot_Save/ru.md) |
-| [Plot Series/ru](Plot_Series/ru.md) | [Raytracing ExportProject/ru](Raytracing_ExportProject/ru.md) | [Raytracing InsertPart/ru](Raytracing_InsertPart/ru.md) |
-| [Raytracing Lux/ru](Raytracing_Lux/ru.md) | [Raytracing New/ru](Raytracing_New/ru.md) | [Raytracing Render/ru](Raytracing_Render/ru.md) |
-| [Raytracing ResetCamera/ru](Raytracing_ResetCamera/ru.md) | [Raytracing WriteCamera/ru](Raytracing_WriteCamera/ru.md) | [Raytracing WritePart/ru](Raytracing_WritePart/ru.md) |
-| [Raytracing WriteView/ru](Raytracing_WriteView/ru.md) | [Reinforcement Bar Bending Schedule/ru](Reinforcement_Bar_Bending_Schedule/ru.md) | [Reinforcement Bar Shape Cut List/ru](Reinforcement_Bar_Shape_Cut_List/ru.md) |
-| [Robot CreateRobot/ru](Robot_CreateRobot/ru.md) | [Robot CreateTrajectory/ru](Robot_CreateTrajectory/ru.md) | [Robot Edge2Trac/ru](Robot_Edge2Trac/ru.md) |
-| [Robot Export/ru](Robot_Export/ru.md) | [Robot InsertWaypoint/ru](Robot_InsertWaypoint/ru.md) | [Robot InsertWaypointPre/ru](Robot_InsertWaypointPre/ru.md) |
-| [Robot RestoreHomePos/ru](Robot_RestoreHomePos/ru.md) | [Robot SetDefaultOrientation/ru](Robot_SetDefaultOrientation/ru.md) | [Robot SetDefaultValues/ru](Robot_SetDefaultValues/ru.md) |
-| [Robot SetHomePos/ru](Robot_SetHomePos/ru.md) | [Robot Simulate/ru](Robot_Simulate/ru.md) | [Robot TrajectoryCompound/ru](Robot_TrajectoryCompound/ru.md) |
-| [Robot TrajectoryDressUp/ru](Robot_TrajectoryDressUp/ru.md) | [Ship AreasCurve/ru](Ship_AreasCurve/ru.md) | [Ship Capacity/ru](Ship_Capacity/ru.md) |
-| [Ship CreateShip/ru](Ship_CreateShip/ru.md) | [Ship GZ/ru](Ship_GZ/ru.md) | [Ship Hydrostatics/ru](Ship_Hydrostatics/ru.md) |
-| [Ship LoadCondition/ru](Ship_LoadCondition/ru.md) | [Ship LoadExample/ru](Ship_LoadExample/ru.md) | [Ship Tank/ru](Ship_Tank/ru.md) |
-| [Ship Weight/ru](Ship_Weight/ru.md) | [Sketcher BSplineApproximate/ru](Sketcher_BSplineApproximate/ru.md) | [Sketcher BSplineComb/ru](Sketcher_BSplineComb/ru.md) |
-| [Sketcher BSplineDecreaseDegree/ru](Sketcher_BSplineDecreaseDegree/ru.md) | [Sketcher BSplineDecreaseKnotMultiplicity/ru](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md) | [Sketcher BSplineDegree/ru](Sketcher_BSplineDegree/ru.md) |
-| [Sketcher BSplineIncreaseDegree/ru](Sketcher_BSplineIncreaseDegree/ru.md) | [Sketcher BSplineIncreaseKnotMultiplicity/ru](Sketcher_BSplineIncreaseKnotMultiplicity/ru.md) | [Sketcher BSplineInsertKnot/ru](Sketcher_BSplineInsertKnot/ru.md) |
-| [Sketcher BSplineKnotMultiplicity/ru](Sketcher_BSplineKnotMultiplicity/ru.md) | [Sketcher BSplinePoleWeight/ru](Sketcher_BSplinePoleWeight/ru.md) |
+| [FEM PostApplyChanges/ru](FEM_PostApplyChanges/ru.md) | [FEM PostFilterClipRegion/ru](FEM_PostFilterClipRegion/ru.md) | [FEM PostFilterClipScalar/ru](FEM_PostFilterClipScalar/ru.md) |
+| [FEM PostFilterCutFunction/ru](FEM_PostFilterCutFunction/ru.md) | [FEM PostFilterDataAlongLine/ru](FEM_PostFilterDataAlongLine/ru.md) | [FEM PostFilterDataAtPoint/ru](FEM_PostFilterDataAtPoint/ru.md) |
+| [FEM PostFilterLinearizedStresses/ru](FEM_PostFilterLinearizedStresses/ru.md) | [FEM PostFilterWarp/ru](FEM_PostFilterWarp/ru.md) | [FEM PostPipelineFromResult/ru](FEM_PostPipelineFromResult/ru.md) |
+| [FEM ResultShow/ru](FEM_ResultShow/ru.md) | [FEM ResultsPurge/ru](FEM_ResultsPurge/ru.md) | [FEM SolverCalculiX/ru](FEM_SolverCalculiX/ru.md) |
+| [FEM SolverCalculixCxxtools/ru](FEM_SolverCalculixCxxtools/ru.md) | [FEM SolverControl/ru](FEM_SolverControl/ru.md) | [FEM SolverElmer/ru](FEM_SolverElmer/ru.md) |
+| [FEM SolverMystran/ru](FEM_SolverMystran/ru.md) | [FEM SolverRun/ru](FEM_SolverRun/ru.md) | [FEM SolverZ88/ru](FEM_SolverZ88/ru.md) |
+| [GuiCommand model/ru](GuiCommand_model/ru.md) | [Template:GuiCommand/ru](Template_GuiCommand/ru.md) | [Template:GuiCommandAddon/ru](Template_GuiCommandAddon/ru.md) |
+| [Image CreateImagePlane/ru](Image_CreateImagePlane/ru.md) | [Image Open/ru](Image_Open/ru.md) | [Image Scaling/ru](Image_Scaling/ru.md) |
+| [Mesh BoundingBox/ru](Mesh_BoundingBox/ru.md) | [Mesh BuildRegularSolid/ru](Mesh_BuildRegularSolid/ru.md) | [Mesh CurvatureInfo/ru](Mesh_CurvatureInfo/ru.md) |
+| [Mesh Difference/ru](Mesh_Difference/ru.md) | [Mesh EvaluateFacet/ru](Mesh_EvaluateFacet/ru.md) | [Mesh EvaluateSolid/ru](Mesh_EvaluateSolid/ru.md) |
+| [Mesh Evaluation/ru](Mesh_Evaluation/ru.md) | [Mesh Export/ru](Mesh_Export/ru.md) | [Mesh FillInteractiveHole/ru](Mesh_FillInteractiveHole/ru.md) |
+| [Mesh FlipNormals/ru](Mesh_FlipNormals/ru.md) | [Mesh FromPartShape/ru](Mesh_FromPartShape/ru.md) | [Mesh HarmonizeNormals/ru](Mesh_HarmonizeNormals/ru.md) |
+| [Mesh Import/ru](Mesh_Import/ru.md) | [Mesh Intersection/ru](Mesh_Intersection/ru.md) | [Mesh Merge/ru](Mesh_Merge/ru.md) |
+| [Mesh PolyCut/ru](Mesh_PolyCut/ru.md) | [Mesh RemoveCompByHand/ru](Mesh_RemoveCompByHand/ru.md) | [Mesh RemoveComponents/ru](Mesh_RemoveComponents/ru.md) |
+| [Mesh Scale/ru](Mesh_Scale/ru.md) | [Mesh Union/ru](Mesh_Union/ru.md) | [Mesh VertexCurvature/ru](Mesh_VertexCurvature/ru.md) |
+| [OpenSCAD AddOpenSCADElement/ru](OpenSCAD_AddOpenSCADElement/ru.md) | [OpenSCAD ColorCodeShape/ru](OpenSCAD_ColorCodeShape/ru.md) | [OpenSCAD Edgestofaces/ru](OpenSCAD_Edgestofaces/ru.md) |
+| [OpenSCAD ExpandPlacements/ru](OpenSCAD_ExpandPlacements/ru.md) | [OpenSCAD ExplodeGroup/ru](OpenSCAD_ExplodeGroup/ru.md) | [OpenSCAD Hull/ru](OpenSCAD_Hull/ru.md) |
+| [OpenSCAD IncreaseToleranceFeature/ru](OpenSCAD_IncreaseToleranceFeature/ru.md) | [OpenSCAD MeshBoolean/ru](OpenSCAD_MeshBoolean/ru.md) | [OpenSCAD Minkowski/ru](OpenSCAD_Minkowski/ru.md) |
+| [OpenSCAD RefineShapeFeature/ru](OpenSCAD_RefineShapeFeature/ru.md) | [OpenSCAD RemoveSubtree/ru](OpenSCAD_RemoveSubtree/ru.md) | [OpenSCAD ReplaceObject/ru](OpenSCAD_ReplaceObject/ru.md) |
+| [Part Boolean/ru](Part_Boolean/ru.md) | [Part BooleanFragments/ru](Part_BooleanFragments/ru.md) | [Part Box/ru](Part_Box/ru.md) |
+| [Part BoxSelection/ru](Part_BoxSelection/ru.md) | [Part Builder/ru](Part_Builder/ru.md) | [Part Chamfer/ru](Part_Chamfer/ru.md) |
+| [Part CheckGeometry/ru](Part_CheckGeometry/ru.md) | [Part Circle/ru](Part_Circle/ru.md) | [Part Common/ru](Part_Common/ru.md) |
+| [Part CompCompoundTools/ru](Part_CompCompoundTools/ru.md) | [Part CompJoinFeatures/ru](Part_CompJoinFeatures/ru.md) | [Part CompOffsetTools/ru](Part_CompOffsetTools/ru.md) |
+| [Part Compound/ru](Part_Compound/ru.md) | [Part CompoundFilter/ru](Part_CompoundFilter/ru.md) | [Part CompSplittingTools/ru](Part_CompSplittingTools/ru.md) |
+| [Part Cone/ru](Part_Cone/ru.md) | [Part CrossSections/ru](Part_CrossSections/ru.md) | [Part Cut/ru](Part_Cut/ru.md) |
+| [Part Cylinder/ru](Part_Cylinder/ru.md) | [Part Defeaturing/ru](Part_Defeaturing/ru.md) | [Part EditAttachment/ru](Part_EditAttachment/ru.md) |
+| [Part ElementCopy/ru](Part_ElementCopy/ru.md) | [Part Ellipse/ru](Part_Ellipse/ru.md) | [Part Ellipsoid/ru](Part_Ellipsoid/ru.md) |
+| [Part ExplodeCompound/ru](Part_ExplodeCompound/ru.md) | [Part Export/ru](Part_Export/ru.md) | [Part Extrude/ru](Part_Extrude/ru.md) |
+| [Part FaceColors/ru](Part_FaceColors/ru.md) | [Part Fillet/ru](Part_Fillet/ru.md) | [Part Fuse/ru](Part_Fuse/ru.md) |
+| [Part Helix/ru](Part_Helix/ru.md) | [Part Import/ru](Part_Import/ru.md) | [Part JoinConnect/ru](Part_JoinConnect/ru.md) |
+| [Part JoinCutout/ru](Part_JoinCutout/ru.md) | [Part JoinEmbed/ru](Part_JoinEmbed/ru.md) | [Part Line/ru](Part_Line/ru.md) |
+| [Part Loft/ru](Part_Loft/ru.md) | [Part MakeFace/ru](Part_MakeFace/ru.md) | [Part MakeSolid/ru](Part_MakeSolid/ru.md) |
+| [Part Measure Angular/ru](Part_Measure_Angular/ru.md) | [Part Measure Clear All/ru](Part_Measure_Clear_All/ru.md) | [Part Measure Linear/ru](Part_Measure_Linear/ru.md) |
+| [Part Measure Refresh/ru](Part_Measure_Refresh/ru.md) | [Part Measure Toggle 3D/ru](Part_Measure_Toggle_3D/ru.md) | [Part Measure Toggle All/ru](Part_Measure_Toggle_All/ru.md) |
+| [Part Measure Toggle Delta/ru](Part_Measure_Toggle_Delta/ru.md) | [Part Mirror/ru](Part_Mirror/ru.md) | [Part Offset/ru](Part_Offset/ru.md) |
+| [Part Offset2D/ru](Part_Offset2D/ru.md) | [Part Plane/ru](Part_Plane/ru.md) | [Part Point/ru](Part_Point/ru.md) |
+| [Part PointsFromMesh/ru](Part_PointsFromMesh/ru.md) | [Part Primitives/ru](Part_Primitives/ru.md) | [Part Prism/ru](Part_Prism/ru.md) |
+| [Part ProjectionOnSurface/ru](Part_ProjectionOnSurface/ru.md) | [Part RefineShape/ru](Part_RefineShape/ru.md) | [Part RegularPolygon/ru](Part_RegularPolygon/ru.md) |
+| [Part ReverseShape/ru](Part_ReverseShape/ru.md) | [Part Revolve/ru](Part_Revolve/ru.md) | [Part RuledSurface/ru](Part_RuledSurface/ru.md) |
+| [Part Section/ru](Part_Section/ru.md) | [Part ShapeFromMesh/ru](Part_ShapeFromMesh/ru.md) | [Part SimpleCopy/ru](Part_SimpleCopy/ru.md) |
+| [Part Slice/ru](Part_Slice/ru.md) | [Part SliceApart/ru](Part_SliceApart/ru.md) | [Part Sphere/ru](Part_Sphere/ru.md) |
+| [Part Spiral/ru](Part_Spiral/ru.md) | [Part Sweep/ru](Part_Sweep/ru.md) | [Part Thickness/ru](Part_Thickness/ru.md) |
+| [Part Torus/ru](Part_Torus/ru.md) | [Part TransformedCopy/ru](Part_TransformedCopy/ru.md) | [Part Tube/ru](Part_Tube/ru.md) |
+| [Part Wedge/ru](Part_Wedge/ru.md) | [Part XOR/ru](Part_XOR/ru.md) | [PartDesign AdditiveBox/ru](PartDesign_AdditiveBox/ru.md) |
+| [PartDesign AdditiveCone/ru](PartDesign_AdditiveCone/ru.md) | [PartDesign AdditiveCylinder/ru](PartDesign_AdditiveCylinder/ru.md) | [PartDesign AdditiveEllipsoid/ru](PartDesign_AdditiveEllipsoid/ru.md) |
+| [PartDesign AdditiveHelix/ru](PartDesign_AdditiveHelix/ru.md) | [PartDesign AdditiveLoft/ru](PartDesign_AdditiveLoft/ru.md) | [PartDesign AdditivePipe/ru](PartDesign_AdditivePipe/ru.md) |
+| [PartDesign AdditivePrism/ru](PartDesign_AdditivePrism/ru.md) | [PartDesign AdditiveSphere/ru](PartDesign_AdditiveSphere/ru.md) | [PartDesign AdditiveTorus/ru](PartDesign_AdditiveTorus/ru.md) |
+| [PartDesign AdditiveWedge/ru](PartDesign_AdditiveWedge/ru.md) | [PartDesign Body/ru](PartDesign_Body/ru.md) | [PartDesign Boolean/ru](PartDesign_Boolean/ru.md) |
+| [PartDesign Chamfer/ru](PartDesign_Chamfer/ru.md) | [PartDesign Clone/ru](PartDesign_Clone/ru.md) | [PartDesign CompPrimitiveAdditive/ru](PartDesign_CompPrimitiveAdditive/ru.md) |
+| [PartDesign CompPrimitiveSubtractive/ru](PartDesign_CompPrimitiveSubtractive/ru.md) | [PartDesign CoordinateSystem/ru](PartDesign_CoordinateSystem/ru.md) | [PartDesign Draft/ru](PartDesign_Draft/ru.md) |
+| [PartDesign Fillet/ru](PartDesign_Fillet/ru.md) | [PartDesign Groove/ru](PartDesign_Groove/ru.md) | [PartDesign Hole/ru](PartDesign_Hole/ru.md) |
+| [PartDesign InvoluteGear/ru](PartDesign_InvoluteGear/ru.md) | [PartDesign Line/ru](PartDesign_Line/ru.md) | [PartDesign LinearPattern/ru](PartDesign_LinearPattern/ru.md) |
+| [PartDesign Migrate/ru](PartDesign_Migrate/ru.md) | [PartDesign Mirrored/ru](PartDesign_Mirrored/ru.md) | [PartDesign MoveFeature/ru](PartDesign_MoveFeature/ru.md) |
+| [PartDesign MoveFeatureInTree/ru](PartDesign_MoveFeatureInTree/ru.md) | [PartDesign MoveTip/ru](PartDesign_MoveTip/ru.md) | [PartDesign MultiTransform/ru](PartDesign_MultiTransform/ru.md) |
+| [PartDesign NewSketch/ru](PartDesign_NewSketch/ru.md) | [PartDesign Pad/ru](PartDesign_Pad/ru.md) | [PartDesign Plane/ru](PartDesign_Plane/ru.md) |
+| [PartDesign Pocket/ru](PartDesign_Pocket/ru.md) | [PartDesign Point/ru](PartDesign_Point/ru.md) | [PartDesign PolarPattern/ru](PartDesign_PolarPattern/ru.md) |
+| [PartDesign Revolution/ru](PartDesign_Revolution/ru.md) | [PartDesign Scaled/ru](PartDesign_Scaled/ru.md) | [PartDesign ShapeBinder/ru](PartDesign_ShapeBinder/ru.md) |
+| [PartDesign Sprocket/ru](PartDesign_Sprocket/ru.md) | [PartDesign SubShapeBinder/ru](PartDesign_SubShapeBinder/ru.md) | [PartDesign SubtractiveBox/ru](PartDesign_SubtractiveBox/ru.md) |
+| [PartDesign SubtractiveCone/ru](PartDesign_SubtractiveCone/ru.md) | [PartDesign SubtractiveCylinder/ru](PartDesign_SubtractiveCylinder/ru.md) | [PartDesign SubtractiveEllipsoid/ru](PartDesign_SubtractiveEllipsoid/ru.md) |
+| [PartDesign SubtractiveHelix/ru](PartDesign_SubtractiveHelix/ru.md) | [PartDesign SubtractiveLoft/ru](PartDesign_SubtractiveLoft/ru.md) | [PartDesign SubtractivePipe/ru](PartDesign_SubtractivePipe/ru.md) |
+| [PartDesign SubtractivePrism/ru](PartDesign_SubtractivePrism/ru.md) | [PartDesign SubtractiveSphere/ru](PartDesign_SubtractiveSphere/ru.md) | [PartDesign SubtractiveTorus/ru](PartDesign_SubtractiveTorus/ru.md) |
+| [PartDesign SubtractiveWedge/ru](PartDesign_SubtractiveWedge/ru.md) | [PartDesign Thickness/ru](PartDesign_Thickness/ru.md) | [PartDesign WizardShaft/ru](PartDesign_WizardShaft/ru.md) |
+| [Path Array/ru](Path_Array/ru.md) | [Path Comment/ru](Path_Comment/ru.md) | [Path Copy/ru](Path_Copy/ru.md) |
+| [Path Custom/ru](Path_Custom/ru.md) | [Path Drilling/ru](Path_Drilling/ru.md) | [Path Fixture/ru](Path_Fixture/ru.md) |
+| [Path Helix/ru](Path_Helix/ru.md) | [Path Inspect/ru](Path_Inspect/ru.md) | [Path Job/ru](Path_Job/ru.md) |
+| [Path Pocket 3D/ru](Path_Pocket_3D/ru.md) | [Path Pocket Shape/ru](Path_Pocket_Shape/ru.md) | [Path Post/ru](Path_Post/ru.md) |
+| [Path Profile/ru](Path_Profile/ru.md) | [Path Sanity/ru](Path_Sanity/ru.md) | [Path SelectLoop/ru](Path_SelectLoop/ru.md) |
+| [Path Shape/ru](Path_Shape/ru.md) | [Path SimpleCopy/ru](Path_SimpleCopy/ru.md) | [Path Simulator/ru](Path_Simulator/ru.md) |
+| [Path Stop/ru](Path_Stop/ru.md) | [Path Surface/ru](Path_Surface/ru.md) | [Plot Axes/ru](Plot_Axes/ru.md) |
+| [Plot Grid/ru](Plot_Grid/ru.md) | [Plot Labels/ru](Plot_Labels/ru.md) | [Plot Legend/ru](Plot_Legend/ru.md) |
+| [Plot Positions/ru](Plot_Positions/ru.md) | [Plot Save/ru](Plot_Save/ru.md) | [Plot Series/ru](Plot_Series/ru.md) |
+| [Raytracing ExportProject/ru](Raytracing_ExportProject/ru.md) | [Raytracing InsertPart/ru](Raytracing_InsertPart/ru.md) | [Raytracing Lux/ru](Raytracing_Lux/ru.md) |
+| [Raytracing New/ru](Raytracing_New/ru.md) | [Raytracing Render/ru](Raytracing_Render/ru.md) | [Raytracing ResetCamera/ru](Raytracing_ResetCamera/ru.md) |
+| [Raytracing WriteCamera/ru](Raytracing_WriteCamera/ru.md) | [Raytracing WritePart/ru](Raytracing_WritePart/ru.md) | [Raytracing WriteView/ru](Raytracing_WriteView/ru.md) |
+| [Reinforcement Bar Bending Schedule/ru](Reinforcement_Bar_Bending_Schedule/ru.md) | [Reinforcement Bar Shape Cut List/ru](Reinforcement_Bar_Shape_Cut_List/ru.md) | [Robot CreateRobot/ru](Robot_CreateRobot/ru.md) |
+| [Robot CreateTrajectory/ru](Robot_CreateTrajectory/ru.md) | [Robot Edge2Trac/ru](Robot_Edge2Trac/ru.md) | [Robot Export/ru](Robot_Export/ru.md) |
+| [Robot InsertWaypoint/ru](Robot_InsertWaypoint/ru.md) | [Robot InsertWaypointPre/ru](Robot_InsertWaypointPre/ru.md) | [Robot RestoreHomePos/ru](Robot_RestoreHomePos/ru.md) |
+| [Robot SetDefaultOrientation/ru](Robot_SetDefaultOrientation/ru.md) | [Robot SetDefaultValues/ru](Robot_SetDefaultValues/ru.md) | [Robot SetHomePos/ru](Robot_SetHomePos/ru.md) |
+| [Robot Simulate/ru](Robot_Simulate/ru.md) | [Robot TrajectoryCompound/ru](Robot_TrajectoryCompound/ru.md) | [Robot TrajectoryDressUp/ru](Robot_TrajectoryDressUp/ru.md) |
+| [Ship AreasCurve/ru](Ship_AreasCurve/ru.md) | [Ship Capacity/ru](Ship_Capacity/ru.md) | [Ship CreateShip/ru](Ship_CreateShip/ru.md) |
+| [Ship GZ/ru](Ship_GZ/ru.md) | [Ship Hydrostatics/ru](Ship_Hydrostatics/ru.md) | [Ship LoadCondition/ru](Ship_LoadCondition/ru.md) |
+| [Ship LoadExample/ru](Ship_LoadExample/ru.md) | [Ship Tank/ru](Ship_Tank/ru.md) | [Ship Weight/ru](Ship_Weight/ru.md) |
+| [Sketcher BSplineApproximate/ru](Sketcher_BSplineApproximate/ru.md) | [Sketcher BSplineComb/ru](Sketcher_BSplineComb/ru.md) | [Sketcher BSplineDecreaseDegree/ru](Sketcher_BSplineDecreaseDegree/ru.md) |
+| [Sketcher BSplineDecreaseKnotMultiplicity/ru](Sketcher_BSplineDecreaseKnotMultiplicity/ru.md) | [Sketcher BSplineDegree/ru](Sketcher_BSplineDegree/ru.md) | [Sketcher BSplineIncreaseDegree/ru](Sketcher_BSplineIncreaseDegree/ru.md) |
+| [Sketcher BSplineIncreaseKnotMultiplicity/ru](Sketcher_BSplineIncreaseKnotMultiplicity/ru.md) | [Sketcher BSplineInsertKnot/ru](Sketcher_BSplineInsertKnot/ru.md) | [Sketcher BSplineKnotMultiplicity/ru](Sketcher_BSplineKnotMultiplicity/ru.md) |
+| [Sketcher BSplinePoleWeight/ru](Sketcher_BSplinePoleWeight/ru.md) | [Sketcher BSplinePolygon/ru](Sketcher_BSplinePolygon/ru.md) |
 
 
 

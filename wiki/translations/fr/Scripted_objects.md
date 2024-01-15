@@ -5,15 +5,15 @@ Outre les types d\'objets standard tels que les annotations, les maillages et le
 
 Une particularité doit être comprise : pour des raisons de sécurité, les fichiers FreeCAD ne portent jamais de code embarqué. Le code Python que vous écrivez pour créer des objets paramétriques n\'est jamais enregistré dans un fichier. Cela signifie que si vous ouvrez un fichier contenant un tel objet sur une autre machine, si ce code Python n\'est pas disponible sur cette machine, l\'objet ne sera pas entièrement recréé. Si vous distribuez de tels objets à d\'autres, vous devrez également distribuer votre script Python, par exemple sous forme de [Macro](Macros/fr.md).
 
-**Remarque** : Il est possible d\'empaqueter du code Python dans un fichier FreeCAD en utilisant la sérialisation json avec un App::PropertyPythonObject, mais ce code ne peut jamais être exécuté directement et a donc peu d\'utilité pour notre propos ici.
+**Remarque** : il est possible d\'empaqueter du code Python dans un fichier FreeCAD en utilisant la sérialisation json avec un App::PropertyPythonObject, mais ce code ne peut jamais être exécuté directement et a donc peu d\'utilité pour notre propos ici.
 
 Les [Python Features](App_FeaturePython/fr.md) suivent la même règle que toutes les fonctionnalités FreeCAD : elles sont séparées en plusieurs parties App (application) et GUI (interface graphique). La partie applicative, l\'objet document, définit la géométrie de notre objet, tandis que sa partie graphique, l\'objet fournisseur de vues, définit la façon dont l\'objet sera affiché à l\'écran. L\'outil View Provider Object (créateur de vue), comme toute autre fonctionnalité de FreeCAD, n\'est disponible que lorsque vous exécutez FreeCAD dans sa propre interface graphique. Plusieurs propriétés et méthodes sont disponibles pour construire votre objet. Les propriétés doivent être de l\'un des types de propriétés prédéfinis offerts par FreeCAD et apparaîtront dans la fenêtre de visualisation des propriétés, de sorte qu\'elles puissent être modifiées par l\'utilisateur. De cette façon, les objets FeaturePython sont véritablement et totalement paramétriques. Vous pouvez définir les propriétés de l\'objet et de l\'affichage ViewObject de l\'objet séparément.
 
 
 
-## Exemples de base 
+## Exemple de base 
 
-L\'exemple suivant peut être trouvé dans le fichier [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py), avec beaucoup d\'autres exemples:
+L\'exemple suivant peut être trouvé dans le fichier [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) avec d\'autres exemples :
 
 
 ```python
@@ -168,8 +168,7 @@ Voir [Méthodes FeaturePython](FeaturePython_methods/fr.md) pour la référence 
 
 ## Propriétés disponibles 
 
-Les propriétés sont les bases des FeaturePython objets. Grâce à elles, l\'utilisateur est en mesure d\'interagir et de modifier son objet. Après avoir créé un nouveau FeaturePython dans votre document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), ses propriétés sont directement accessibles, vous pouvez obtenir la liste,
-en faisant:
+Les propriétés sont les bases des FeaturePython objets. Grâce à elles, vous pouvez interagir et modifier votre objet. Après avoir créé une nouvelle FeaturePython dans votre document ( obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), vous pouvez obtenir une liste des propriétés disponibles en faisant :
 
 
 ```python

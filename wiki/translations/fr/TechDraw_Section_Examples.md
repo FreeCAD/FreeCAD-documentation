@@ -88,7 +88,7 @@ Coupe E-E (coupe selon un angle arbitraire)
 <img alt="" src=images/TechDraw_ExampleSection-12.png  style="width:300px;"> 
 *Vue de base et coupe E-E dans sa position correcte*
 
-Par défaut, le plan de coupe passe par le centre de gravité de l\'objet. Pour obtenir une coupe décalée, nous devons modifier les valeurs dans la zone **Emplacement du plan de coupe**.
+Par défaut, le plan de coupe passe par le centre de la boîte englobante de la vue (dans ce cas, il coïncide avec le centre de gravité de l\'objet). Pour obtenir une coupe décalée, nous devons modifier les valeurs dans la zone **Emplacement du plan de coupe**.
 
 <img alt="" src=images/TechDraw_ExampleSection-16.png  style="width:300px;">
 

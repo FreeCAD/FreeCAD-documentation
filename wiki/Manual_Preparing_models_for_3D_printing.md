@@ -1,6 +1,4 @@
 # Manual:Preparing models for 3D printing
-{{Manual:TOC}}
-
 One of the main uses of FreeCAD is to produce real-world objects. These can be designed in FreeCAD, and then made real in different ways, such as communicated to other people who will then build them, or, more and more frequently, sent directly to a [3D printer](https://en.wikipedia.org/wiki/3D_printing) or a [CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29). This chapter will show you how to get your models ready to send to these machines.
 
 If you have been cautious while modeling, most of the difficulty you might encounter when printing your model in 3D has already been avoided. This involves basically:

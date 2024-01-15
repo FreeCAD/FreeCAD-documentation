@@ -1,7 +1,7 @@
 # Tree view/es
 ## Introducción
 
-La [vista árbol](Tree_view/es.md) aparece en la pestaña **Modelo** de la [vista combo](Combo_view/es.md), uno de los paneles más importantes de la [interfaz](Interface/es.md); muestra todos los objetos definidos por el usuario que forman parte de un documento de FreeCAD. La vista árbol es una representación de la [estructura del documento](document_structure/es.md), e indica qué información se guarda en el disco.
+La [vista de árbol](Tree_view/es.md) aparece en la pestaña **Modelo** de la [vista combo](Combo_view/es.md), uno de los paneles más importantes de la [interfaz](Interface/es.md); muestra todos los objetos definidos por el usuario que forman parte de un documento de FreeCAD. La vista de árbol es una representación de la [estructura del documento](document_structure/es.md), e indica qué información se guarda en el disco.
 
 Estos objetos no tienen que ser necesariamente formas geométricas visibles en la [Vista 3D](3D_view/es.md), sino que también pueden ser objetos de datos de apoyo creados con cualquiera de los [Ambientes de trabajo](Workbenches/es.md).
 
@@ -13,31 +13,33 @@ Estos objetos no tienen que ser necesariamente formas geométricas visibles en l
 
 
 
-## Trabajando con el vista arbol 
+## Trabajando con la vista de árbol 
 
-By default, whenever a new object is created, it is added to the end of the list in the tree view. The tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, renaming objects, copying objects, deleting objects, and other operations in the context menu (right click) which depend on the currently selected object and the currently active workbench.
+By default, whenever a new object is created, it is added to the end of the list in the tree view. The tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, relabeling objects, copying objects, deleting objects, and other operations in the context menu (right click) which depend on the currently selected object and the currently active workbench.
 
 Many operations create objects that are dependent on a previously existing object. In this case, the tree view shows this relationship by absorbing the older object inside the new object. Expanding and collapsing the objects in the tree view shows the parametric history of that object. Objects that are deeper inside others are older, while objects that are outside are newer, and are derived from the older objects. By modifying the interior objects, the parametric operations propagate all the way to the top, generating a new result.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
-
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
 
 
-*The topmost object is created by doing parametric operations on objects which themselves were created by previous operations. Expanding the tree many levels reveals the original elements that were used to create the partial solids.*
+*The topmost object is created by doing parametric operations on objects which themselves were created by previous operations.<br>
+Fully expanding the tree reveals the original elements that were used to create the partial solids.*
 
-### Labels & Attributes 
+### Tree view columns 
 
-In the Labels & Attributes column the labels and icons of the objects are displayed.
+By default the tree view only displays a single column with the labels and icons of objects. A second column with descriptions can optionally be displayed as well, column headings are then also added.
 
-Selecting an object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), allows to edit the object\'s **Label** property in situ without detour via the context menu action described below or the [Property editor](Property_editor.md).
+To enable the description column right click the tree view and in the context menu select:
+**Tree settings → Show description column** <small>(v0.21)</small> 
 
-### Description
+### Edit object label 
 
-The Description column displays further information about objects, if available.
+Select an object in the first column and press **F2** (on Windows and Linux), or **Enter** (on macOS), to edit its **Label** property. This property can also be edited via the context menu action described below or in the [Property editor](Property_editor.md).
 
-This information is stored in an object\'s **Label2** property which can be edited in situ by selecting the object in this column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS), or via the [Property editor](Property_editor.md).
+### Edit object description 
+
+An object can optionally have a description. This information is stored in its **Label2** property. If the description column is displayed you can edit this property by selecting an object in that column and pressing **F2** (on Windows and Linux), or **Enter** (on macOS). The property can also be changed in the [Property editor](Property_editor.md).
 
 
 

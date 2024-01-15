@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher BSplineKnotMultiplicity
    Name/de: Sketcher BSplineKnotenVielfachheit
-   MenuLocation: Sketch , B-Spline-Werkzeuge , Vielfachheit der B-Spline-Knoten ein- / ausblenden
+   MenuLocation: Skizze , Sketcher visuell , B-Spline-Informationsschicht ein- / ausblenden, Vielfachheit der B-Spline-Knoten ein- / ausblenden
    Workbenches: Sketcher_Workbench/de
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/de
@@ -10,12 +10,16 @@
 
 # Sketcher BSplineKnotMultiplicity/de
 
+
+
 ## Beschreibung
 
 Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese Seite](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md) für eine Erklärung der Vielfachheit. Die Vielfachheit wird in geschweiften Klammern neben dem Knoten angezeigt.
 
 <img alt="" src=images/Sketcher_KnotMultiplicity_multiplicity3.png  style="width:500px;"> 
 *B-spline, in der der linke Knoten die Vielfachheit 3 hat, der rechte Knoten hat die Vielfachheit 1, die Endpunkte haben die Vielfachheit 4.*
+
+
 
 ## Anwendung
 

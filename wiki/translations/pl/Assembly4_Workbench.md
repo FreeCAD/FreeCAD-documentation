@@ -1,36 +1,46 @@
-# <img alt="External workbench icon" src=images/Assembly4_workbench_icon.svg  style="width:64px;"> Assembly4 Workbench/pl
-
-## Introduction
+# <img alt="Ikonka FreeCAD dla środowiska pracy Złożenie 4" src=images/Assembly4_workbench_icon.svg  style="width:64px;"> Assembly4 Workbench/pl
 
 
 
+## Wprowadzenie
 
-[Assembly4](Assembly4_Workbench.md) is an [external workbench](external_workbenches.md) that is used to perform assembly of different bodies contained in a single file or in multiple documents. It was created in the v0.19 development cycle to take advantage of Assembly3 branch\'s new features, such as the [App Link](App_Link.md) object, and the new [expression engine](expressions.md).
 
-It was developed with the idea that a true constraint solver was not needed, and instead the [expression engine](expressions.md) was enough to establish relationships between different local coordinate systems attached to bodies. Thus its prototype name was \"Assembly without solver\" or AWS.
 
-## Installation
 
-Assembly4 can be installed from the [Addon Manager](Std_AddonMgr.md).
+Złożenie 4 to [zewnętrzne środowisko pracy](External_workbenches/pl.md), które służy do wykonywania montażu różnych obiektów zawartych w jednym pliku lub w wielu dokumentach. Został stworzony w cyklu rozwojowym v0.19, aby wykorzystać nowe funkcje gałęzi Złożenie 3, takie jak obiekt [App Łącze](App_Link/pl.md) i nowy [silnik wyrażeń](Expressions/pl.md).
 
-## Compatibility
+Został on opracowany z myślą o tym, że prawdziwy solver ograniczeń nie był potrzebny, a zamiast tego [silnik wyrażeń](Expressions/pl.md) wystarczył do ustanowienia relacji między różnymi lokalnymi układami współrzędnych dołączonymi do Zawartości. Dlatego też jego prototypowa nazwa brzmiała \"Montaż bez solvera\" lub AWS.
 
-Assembly4 was developed from the new tools created for [Assembly3](Assembly3_Workbench.md), in particular, the [App Link](App_Link.md) object and the improved [expression engine](expressions.md).
 
-Assembly4 was inspired by <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md) and <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) but it is not compatible with them. If you have older models made in those two workbenches, you should use those workbenches to open your models only.
 
-## Links
+## Instalacja
 
--   [App Link](App_Link.md) object that makes Assembly3 and Assembly4 work.
--   [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4) repository and documentation.
--   [Assembly 4 workbench](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), big discussion thread.
--   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
--   [External workbenches](External_workbenches.md)
+Środowisko pracy **Złożenie 4** można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-## Tutorials
 
--   [Various example parts, assemblies and tutorials](https://github.com/Zolko-123/FreeCAD_Examples)
--   [Phone Assembly Tutorial](https://github.com/thermalling/FreeCADAsm4_TutorialSubassembly/)
+
+## Zgodność
+
+Assembly4 zostało opracowane na podstawie nowych narzędzi stworzonych dla [Złożenie 3](Assembly3_Workbench/pl.md), w szczególności obiektu [App: Łącze](App_Link/pl.md) i ulepszonego [silnika wyrażeń](Expressions/pl.md).
+
+Środowisko Złożenie 4 zostało zainspirowane przez <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/pl.md) i <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md), ale nie jest z nimi kompatybilny. Jeśli posiadasz starsze modele wykonane w tych dwóch środowiskach pracy, powinieneś używać tych środowisk tylko do otwierania swoich modeli.
+
+
+
+## Odnośniki internetowe 
+
+-   [App: Łącze](App_Link/pl.md) obiekt, który sprawia, że Złożenie 3 i Złożenie 4 działają.
+-   [Złożenie 4](https://github.com/Zolko-123/FreeCAD_Assembly4) repozytorium i dokumentacja.
+-   [Środowisko pracy Złożenie 4](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), duży wątek dyskusyjny.
+-   [Aktualny status środowiska Złożenie](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+
+
+
+## Poradniki
+
+-   [Różne przykładowe części, zespoły i samouczki](https://github.com/Zolko-123/FreeCAD_Examples)
+-   [Przewodnik po montażu telefonu](https://github.com/thermalling/FreeCADAsm4_TutorialSubassembly/)
 
 
 

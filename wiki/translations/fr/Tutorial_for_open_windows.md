@@ -18,7 +18,7 @@
 
 Ce tutoriel montre comment placer des [Arch Fenêtres](Arch_Window/fr.md) et des portes dans un modèle de bâtiment, comment les afficher comme ouvertes dans la vue 3D et comment créer un dessin 2D (projection en plan et en élévation) pour le modèle. Il utilise l\'[atelier Draft](Draft_Workbench/fr.md), l\'[atelier Arch Workbench](Arch_Workbench/fr.md) et l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
-Les outils couramment utilisés sont: [Draft Grille](Draft_Snap_Grid/fr.md), [Draft Accrochage](Draft_Snap/fr.md), [Draft Fil](Draft_Wire/fr.md), [Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md) et [TechDraw Vue architecturale](TechDraw_ArchView/fr.md).
+Les outils couramment utilisés sont : [Draft Grille](Draft_Snap_Grid/fr.md), [Draft Aimantation](Draft_Snap/fr.md), [Draft Fil](Draft_Wire/fr.md), [Arch Mur](Arch_Wall/fr.md), [Arch Fenêtre](Arch_Window/fr.md), [Arch Plan de coupe](Arch_SectionPlane/fr.md) et [TechDraw Vue architecturale](TechDraw_ArchView/fr.md).
 
 Voir également la page suivante pour quelques vidéos sur la façon de travailler avec des fenêtres et des portes.
 
@@ -42,7 +42,7 @@ Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermé
 
 ## Placement d\'un mur 
 
-5\. Utilisez l\'outil [Draft Fil](Draft_Wire/fr.md) pour créer un fil fermé. Allez dans le sens antihoraire.
+5\. Utilisez l\'outil [Draft Polyligne](Draft_Wire/fr.md) pour créer une polyligne fermée. Allez dans le sens antihoraire.
 
 :   5.1. Premier point à (0, 0, 0); dans la boîte de dialogue, saisissez **0** **m** **Enter**, **0** **m** **Valider**, {{ KEY\|0}} **m** **Valider**.
 :   5.2. Deuxième point à (3, 0, 0). Appuyez sur **X** pour contraindre le mouvement à l\'axe X; entrez la valeur **3** **m** **Valider**.
@@ -51,7 +51,7 @@ Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermé
 :   5.5. Appuyez sur **O** pour fermer le fil et fermer l\'outil.
 :   5.6. Au pavé numérique, appuyez sur **0** pour obtenir une [vue axonométrique](Std_View_Menu/fr.md) du modèle.
 :   
-    **Remarque:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) et de la méthode [Draft Grille](Draft_Snap_Grid/fr.md).
+    **Remarque:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils [Draft Aimantation](Draft_Snap/fr.md) et de la méthode [Draft Grille](Draft_Snap_Grid/fr.md).
 
 6\. Sélectionnez `DWire` et remplacez la propriété {{PropertyData/fr|Make Face}} par `False`.
 
@@ -111,9 +111,9 @@ Nous sommes maintenant prêts à créer un bâtiment simple avec des murs fermé
 *align=center|Mur construit avec portes et fenêtres*
 
 
-**Remarque:**
+**Remarque :**
 
-lorsque vous placez une fenêtre ou une porte avec un préréglage, survolez l\'élément au-dessus du [Arch Mur](Arch_Wall/fr.md) et attendez que l\'élément tourne pour qu\'il soit parallèle à ce mur. Visez le bord inférieur du mur et utilisez `Sill height` pour ajuster la distance par rapport au sol. Si cela est difficile, utilisez le mode d\'accrochage [Draft Le plus proche](Draft_Snap_Near.md) de la barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) pour insérer l\'élément n\'importe où sur la face du mur, puis ajustez sa {{PropertyData/fr|Position}} manuellement comme décrit ci-dessus. Le fait d\'avoir plusieurs modes [Draft Accrochage](Draft_Snap/fr.md) actifs en même temps peut entraîner des problèmes de placement de l\'élément, essayez donc avec une seule option à la fois.
+lorsque vous placez une fenêtre ou une porte avec un préréglage, survolez l\'élément au-dessus du [Arch Mur](Arch_Wall/fr.md) et attendez que l\'élément tourne pour qu\'il soit parallèle à ce mur. Visez le bord inférieur du mur et utilisez `Sill height` pour ajuster la distance par rapport au sol. Si cela est difficile, utilisez le mode d\'aimantation [Draft Au plus proche](Draft_Snap_Near.md) de la barre d\'outils [Draft Aimantation](Draft_Snap/fr.md) pour insérer l\'élément n\'importe où sur la face du mur, puis ajustez sa **Position** manuellement comme décrit ci-dessus. Le fait d\'avoir plusieurs modes [Draft Aimantation](Draft_Snap/fr.md) actifs en même temps peut entraîner des problèmes de placement de l\'élément, essayez donc avec une seule option à la fois.
 
 
 **Remarque 2:**

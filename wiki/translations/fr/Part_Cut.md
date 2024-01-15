@@ -11,7 +11,7 @@
 
 ## Description
 
-Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrait au premier. Cette opération est totalement paramétrique : les composants peuvent être modifiés et le résultat recalculé.
+Coupe (soustrait) un objet à un autre, le dernier sélectionné est soustrait au premier. Cette opération est totalement paramétrique : les composants peuvent être modifiés et le résultat recalculé.
 
 **Remarque :** cette commande est une forme automatisée de l\'<img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Part Opération booléenne](Part_Boolean/fr.md).
 
@@ -22,15 +22,15 @@ Coupe (soustrait) un objet à un autre, le dernier sélectionné étant soustrai
 ## Utilisation
 
 1.  Sélectionnez deux formes
-2.  Lancez la commande Part Soustraction de plusieurs manières :
+2.  Lancez la commande de plusieurs manières :
     -   Appuyez sur le bouton **![](images/) '''Soustraction'''** dans la barre d\'outils Part
     -   Utilisez l\'entrée **Part → Opération booléenne → Soustraction** depuis le menu Part
 
 
 
-## Entrées prises en charge 
+## Objets pris en charge 
 
-Les objets utilisés doivent être des formes d\'[OpenCASCADE](OpenCASCADE/fr.md). Par exemple, les objets créés à l\'aide des ateliers Part, PartDesign ou Sketcher. Pour les maillages, il existe des outils booléens dédiés dans l\'[atelier MeshDesign](Mesh_Workbench/fr.md).
+Les objets utilisés doivent être des formes d\'[OpenCASCADE](OpenCASCADE/fr.md). Par exemple, les objets créés à l\'aide des ateliers Part, PartDesign ou Sketcher. Pour les maillages, il existe des outils booléens dédiés à l\'[atelier Mesh](Mesh_Workbench/fr.md).
 
 
 

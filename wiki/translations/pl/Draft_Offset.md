@@ -10,6 +10,8 @@
 
 # Draft Offset/pl
 
+
+
 ## Opis
 
 Narzędzie <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Odsunięcie** przesuwa każdy segment wybranego obiektu o zadaną odległość lub tworzy przesuniętą kopię wybranego obiektu.
@@ -17,13 +19,15 @@ Narzędzie <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Odsun
 <img alt="" src=images/Draft_Offset_example.jpg  style="width:400px;"> 
 *Odsunięcie linii łamanej*
 
+
+
 ## Użycie
 
 Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
 1.  Opcjonalnie wybierz jeden obiekt. Obiekt musi leżeć na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
-    -   Naciśnij przycisk **<img src="images/Draft_Offset.svg" width=16px> [Odsuń](Draft_Offset/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Offset.svg" width=16px> '''Odsunięcie'''**.
     -   Wybierz z menu opcję **Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie**.
     -   Użyj skrótu klawiaturowego: **O**, a następnie **S**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
@@ -36,27 +40,27 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
         3.  Wprowadź **Dystans**.
         4.  Naciśnij klawisz **Enter** aby zakończyć polecenie.
 
+
+
 ## Opcje
 
-Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
--   Jeśli pole wyboru **Odsunięcie w stylu OpenCascade** jest zaznaczone, używany jest specjalny styl odsunięcia: otwarte [polilinie](Draft_Wire/pl.md) są odsunięte po obu stronach, a nowe krawędzie są łączone z zaokrąglonymi rogami. Działa to tylko dla planarnych obiektów Rysunku roboczego z co najmniej dwoma prostymi krawędziami. Zauważ, że przy tym stylu tworzony jest nowy obiekt nieparametryczny, a jeśli tryb kopiowania jest wyłączony, oryginalny obiekt jest usuwany.
--   Naciśnij **P** lub kliknij pole wyboru **Copy**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy kopię z przesunięciem zamiast przesunięcia oryginalnego obiektu.
+-   Jeśli pole wyboru **Odsunięcie w stylu OpenCascade** jest zaznaczone, używany jest specjalny styl odsunięcia: otwarte [polilinie](Draft_Wire/pl.md) są odsunięte po obu stronach, a nowe krawędzie są łączone z zaokrąglonymi rogami. Działa to tylko dla planarnych obiektów z co najmniej dwoma krawędziami. Zauważ, że przy tym stylu tworzony jest nowy obiekt nieparametryczny, a jeśli tryb kopiowania jest wyłączony, oryginalny obiekt jest usuwany.
+-   Naciśnij **C** lub kliknij pole wyboru **Copy**, aby przełączyć tryb kopiowania. Jeśli tryb kopiowania jest włączony, polecenie utworzy kopię z przesunięciem zamiast przesunięcia oryginalnego obiektu.
 -   Przytrzymanie klawisza **Alt** przed wybraniem punktów w oknie [widoku 3D](3D_view/pl.md) również przełączy tryb kopiowania. Gdy klawisz **Alt** jest przytrzymany, można wybrać wiele punktów przesunięcia. Aby zakończyć polecenie i zobaczyć utworzone kopie, należy puścić klawisz **Alt**.
 -   Przytrzymaj klawisz **Shift**, aby zachować odległość przesunięcia związaną z bieżącym segmentem.
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
+
+
 
 ## Uwagi
 
 -   Aby utworzyć przesuniętą wersję [krzywą złożoną](Draft_BSpline/pl.md), jej punkty są przesuwane indywidualnie, a z nowych punktów obliczana jest nowa krzywa złożona. Ta nowa krzywa nie jest równoległa do krzywej oryginalnej. Aby uzyskać dokładne przesunięcie równoległe [krzywej złożonej](Draft_BSpline/pl.md) należy użyć polecenia [Part: Odsunięcie 2D](Part_Offset2D/pl.md).
 -   Polecenie nie radzi sobie z [krzywą Beziera](Draft_BezCurve/pl.md). Zamiast niego użyj polecenia [Part: Odsunięcie 2D](Part_Offset2D/pl.md).
 
-## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
-
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 
 ## Tworzenie skryptów 
 

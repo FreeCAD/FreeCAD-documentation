@@ -77,6 +77,8 @@ Estas são ferramentas para criar novos objetos e modificar os existentes.
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Espelho](Part_Mirror/pt-br.md): Cria uma peça simétrica de uma selecionada através de um plano de simetria.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scale](Part_Scale.md): Scales one or more shapes. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Filete](Part_Fillet/pt-br.md): Arredonda as arestas de um objeto.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chanfro](Part_Chamfer/pt-br.md): Cria um chanfro nas arestas de um objeto.
@@ -167,7 +169,13 @@ Estas ferramentas realizam operações booleanas.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Converter em sólido](Part_MakeSolid/pt-br.md): Converte uma forma em um sólido.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Inverter formas](Part_ReverseShapes/pt-br.md): Inverte as normais de todas as faces do objeto selecionado.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Inverter formas](Part_ReverseShape/pt-br.md): Inverte as normais de todas as faces do objeto selecionado.
+
+
+</div>
 
 -   Criar uma cópia:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Criar uma cópia simples](Part_SimpleCopy/pt-br.md): Cria uma cópia simples de um objeto selecionado.

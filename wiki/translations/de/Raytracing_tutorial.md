@@ -38,7 +38,7 @@ Dieses Tutorial soll den Leser in den grundlegenden Arbeitsablauf des Raytracing
 
 -   FreeCAD Version 0.16 oder neuer
 -   [POV-Ray](http://www.povray.org/) und/oder [LuxRender](http://www.luxrender.net/) ist auf dem System installiert
--   Im Falle von POV-Ray reicht es nicht aus, nur das Programm (binary executable) an der richtigen Stelle zu haben, sondern es ***erfordert***die Installation von***unterstützenden Dateien*** (supporting files), und in Ubuntu werden diese durch das Recommends-gekennzeichnete Paket [povray-includes](https://packages.ubuntu.com/search?keywords=povray-includes) zur Verfügung gestellt. Potenzielle Probleme gab es auch bei Linux-Installationen, die manuell im home-Verzeichnis des Benutzer angelegte lokale Konfigurationsdateien erforderten, wie [hier](https://forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576) diskutiert.
+-   Im Falle von POV-Ray reicht es nicht aus, nur das Programm (binary executable) an der richtigen Stelle zu haben, sondern es ***erfordert**\'\' die Installation von***unterstützenden Dateien**\'\' (supporting files), und in Ubuntu werden diese durch das Recommends-gekennzeichnete Paket [povray-includes](https://packages.ubuntu.com/search?keywords=povray-includes) zur Verfügung gestellt. Potenzielle Probleme gab es auch bei Linux-Installationen, die manuell im home-Verzeichnis des Benutzer angelegte lokale Konfigurationsdateien erforderten, wie [hier](https://forum.freecadweb.org/viewtopic.php?f=3&t=27548&start=10#p224576) diskutiert.
 -   Im Falle von POV-Ray wird die zusätzliche Installation von [psicofil\'s macro](https://github.com/psicofil/Macros_FreeCAD) empfohlen.
 -   Der Leser sollte Grundkenntnisse über die Arbeitsbereiche [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md) besitzen.
 
@@ -143,4 +143,4 @@ Wir sind nun fertig mit der grundlegenden Vorgehensweise mit dem Arbeitsbereich 
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/de
+⏵ [documentation index](../README.md) > [Raytracing](Category_Raytracing.md) > Raytracing tutorial/de

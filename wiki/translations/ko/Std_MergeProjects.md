@@ -44,7 +44,7 @@
 
 -   마지막으로 사용한 파일의 위치가 다음에 저장됩니다: **도구 → 파라미터 편집... → BaseApp → Preferences → General → FileOpenSavePath**.
 
--    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**가 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor#문서.md) 변경할 수 있습니다.
+-    **도구 → 파라미터 편집... → BaseApp → Preferences → Document → DuplicateLabels**가 `True`면 중복 레이블이 허용됩니다. 이 설정은 [환경 설정 편집기](Preferences_Editor#문서.md)에서도 변경할 수 있습니다.
 
 ## Scripting
 

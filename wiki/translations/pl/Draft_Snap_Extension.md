@@ -1,40 +1,48 @@
 ---
  GuiCommand:
    Name: Draft Snap Extension
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap, Draft_Snap_Lock
+   Name/pl: Rysunek Roboczy: Przyciągnij na wydłużeniu
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl
 ---
 
 # Draft Snap Extension/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> **Draft Snap Extension** option snaps to an imaginary line that extends beyond the endpoints of straight edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> **Przyciągnij na wydłużeniu** przyciąga do umownej linii, która rozciąga się poza punkty końcowe prostych krawędzi. Krawędzie mogą należeć do obiektów środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów utworzonych za pomocą innych [środowisk pracy](Workbenches/pl.md).
+
+Do 2 *(lub 8 {{Version/pl|0.20}})* krawędzi można odwołać się za pomocą tej opcji przyciągania i [przyciągania równoległego](Draft_Snap_Parallel/pl.md), umożliwiając przyciąganie do wirtualnych przecięć. Obie opcje przyciągania mogą być również łączone z innymi opcjami przyciągania.
 
 ![](images/Draft_Snap_Extension_example.png ) 
-*Snapping the second point of a line to the extension of an edge*
+*Przyciąganie drugiego punktu linii do przedłużenia krawędzi.*
 
-## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-2.  If **Draft Snap Extension** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Extension.svg" width=16px>** button in the Draft snap toolbar.
-    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Extension.svg" width=16px> Snap Extension** option.
-3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-4.  Note that you can also change snap options while a command is active.
-5.  Move the cursor over a straight edge.
-6.  The edge is highlighted.
-7.  If you now move the cursor beyond the endpoints of the edge, you will see a dashed line appear when the cursor is on the extended edge.
-8.  The point is marked and the <img alt="" src=images/Draft_Snap_Extension.svg  style="width:16px;"> icon is displayed near the cursor.
-9.  Click to confirm the point.
+## Użycie
 
-## Preferences
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+1.  Upewnij się, że przyciąganie jest włączone. Zobacz stronę <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+2.  Jeśli opcja **Przyciągnij prostopadle** nie jest aktywna, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Extension.svg" width=16px>** na pasku narzędzi przyciągania.
+    -   Naciśnij i przytrzymaj przycisk **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** na pasku narzędzi [Widżet przyciągania](Draft_snap_widget/pl.md) i w otwartym menu wybierz opcję **<img src="images/Draft_Snap_Extension.svg" width=16px> Przyciągnij na wydłużeniu
+        **.
+3.  Wybierz polecenia środowiska [Rysunku Roboczego](Draft_Workbench/pl.md) lub [Architektury](Arch_Workbench/pl.md), aby utworzyć geometrię.
+4.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
+5.  Przesuń kursor nad prostą krawędź.
+6.  Krawędź zostanie podświetlona.
+7.  Jeśli teraz przesuniesz kursor poza punkty końcowe krawędzi, zobaczysz przerywaną linię, gdy kursor znajdzie się na przedłużonej krawędzi.
+8.  Punkt zostanie zaznaczony, a ikona <img alt="" src=images/Draft_Snap_Extension.svg  style="width:16px;"> zostanie wyświetlona w pobliżu kursora.
+9.  Kliknij, aby potwierdzić punkt.
+
+
+
+## Ustawienia
+
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

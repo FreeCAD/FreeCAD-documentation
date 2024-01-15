@@ -5,7 +5,7 @@
 
 
 
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 BIM signifie [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling). La définition exacte du contenu varie, mais nous pouvons simplement dire que c\'est comme cela que les bâtiments et autres grandes structures comme les ponts, les tunnels, etc. sont modélisés aujourd\'hui. Les modèles BIM sont généralement basés sur des modèles 3D et incluent également une série de couches d\'informations supplémentaires, telles que des informations sur les matériaux, des relations avec d\'autres objets ou modèles ou des instructions spéciales pour la construction ou la maintenance. Ces informations supplémentaires permettent toutes sortes d\'analyses avancées du modèle, telles que la résistance structurelle, les estimations de coût et de temps de construction, ou les calculs de consommation d\'énergie.
 
@@ -68,7 +68,7 @@ Les parois individuelles sont cependant toujours accessibles, en développant l\
 -   Réglez le [Draft Plan de travail](Draft_SelectPlane/fr.md) sur **auto** donc nous ne sommes pas restreints au plan de masse.
 -   Appuyez sur le bouton <img alt="" src=images/Arch_Window.svg  style="width:16px;"> [Arch Fenêtre](Arch_Window/fr.md).
 -   Dans le panneau de création de la fenêtre, sélectionnez le modèle **Porte vitrée** et définissez sa **largeur** à 0,9 m et sa **hauteur** à 2,1 m.
--   Assurez-vous que l\'option Aimantation au point <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [le plus proche](Draft_Snap_Near/fr.md) est activée afin que nous puissions aimanter les objets aux faces.
+-   Assurez-vous que l\'option <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Aimantation Au plus proche](Draft_Snap_Near/fr.md) est activée afin que nous puissions aimanter les objets aux faces.
 -   Placez votre fenêtre à peu près au milieu de la face avant du mur :
 
 ![](images/Exercise_arch_06.jpg )
@@ -231,7 +231,7 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 -   [Atelier BIM](BIM_Workbench.md)
 -   [Atelier Arch](Arch_Workbench/fr.md)
 -   [Draft Plan de travail](Draft_SelectPlane/fr.md)
--   [Draft Paramètres d\'accrochage](Draft_Snap/fr.md)
+-   [Draft Aimantation](Draft_Snap/fr.md)
 -   [Expressions](Expressions/fr.md)
 -   [Le format IFC](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes)
 -   [IfcOpenShell](http://ifcopenshell.org/)

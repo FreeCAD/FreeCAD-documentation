@@ -9,6 +9,8 @@
 
 # Arch Add/it
 
+
+
 ## Descrizione
 
 Lo strumento Aggiungi permette di eseguire 4 diversi tipi di operazioni:
@@ -22,6 +24,8 @@ La controparte di questo strumento è lo strumento **<img src="images/Arch_Remov
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *Un box aggiunto a un muro come componente.*
+
+
 
 ## Utilizzo
 

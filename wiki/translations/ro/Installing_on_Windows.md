@@ -12,10 +12,7 @@
 
 ## Standard Installation 
 
-The easiest way to install the latest stable version of FreeCAD is to use the installer:
-
-
-{{DownloadWindowsStable}}
+The easiest way to install the latest stable version of FreeCAD is to use the installer, see the [Download](Download.md) page.
 
 
 <div class="mw-translate-fuzzy">
@@ -99,6 +96,8 @@ choco upgrade freecad
 }}
 
 This will get the latest version available from the Chocolatey repository. If there are any issues with the Chocolatey package, you can contact maintainers on [this page](https://chocolatey.org/packages/freecad).
+
+
 
 ### Dezinstalarea
 

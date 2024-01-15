@@ -15,7 +15,7 @@
 
 The **Std DlgMacroExecute** command opens the Execute macro dialog box. From this dialog box macros can be executed, edited and managed.
 
-![](images/Std_DlgMacroExecute_dialog.png ) 
+<img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
 *The Execute macro dialog box*
 
 
@@ -25,25 +25,71 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std DlgMacroExecute](Std_DlgMacroExecute.md)** button.
     -   Select the **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** option from the menu.
-2.  The Execute macro dialog box opens. See [Options](#Options.md).
+2.  The **Execute macro** dialog box opens. See [Options](#Options.md).
 
 
 
 ## Опции
 
+### Find file / Find in files 
+
+:   
+    <small>(v0.22)</small> 
+    
+
+
+
+
+
+:   These two input boxes can be used to filter macros from the file list on the **User macros** tab or the **System macros** tab. You may use regular expressions or simply enter text. All matches are case-insensitive.
+
+
+
+
+
+:   **Find file** filters the list by filename. Only filenames that match the entered text will appear in the list. **Find in files** filters the list by file content. Only files whose text content matches the entered text will appear in the list.
+
+
+
+
+
+:   Remove all text from a filter\'s input box to disable it. If both input boxes contain text, both filters are applied. Filtering may result in an empty list.
+
 
 
 ### Пользовательские макросы 
 
-1.  The **User macros** tab lists the macros available in the **User macros location**.
-2.  Click a macro to select it.
-3.  The name of the selected macro will appear in the **Macro name** box.
+:   The **User macros** tab lists the macros available in the **User macros location**.
+
+1.  Click a macro in the list to select it.
+2.  The name of the selected macro will appear in the **Macro name** box.
 
 
 
 ### Системные макросы 
 
-:   The **System macros** tab is not used at this time.
+:   To make use of the **System macros** tab you must create a folder named **Macro** as a sibling folder of the **bin** folder where FreeCAD is installed and put some macros there.
+
+
+
+
+
+:   To find the **bin** folder enter this in the [Python console](Python_console.md):
+
+
+
+
+
+:   
+    
+```python
+    App.getHomePath()
+    
+```
+    
+
+1.  Click a macro in the list to select it.
+2.  The name of the selected macro will appear in the **Macro name** box.
 
 
 
@@ -138,7 +184,13 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 -   The user macros location can also be changed in the preferences: **Edit → Preferences... → Python → Macro → Macro path**. See [Preferences Editor](Preferences_Editor#Macro.md).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

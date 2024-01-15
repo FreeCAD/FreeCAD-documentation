@@ -7,63 +7,84 @@
 
 ## Wprowadzenie
 
-FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best solution by showing the structural behavior of your designs on screen for parametric analysis and multiple loading situations.
+Środowisko pracy **FEMbyGEN** jest dodatkiem do FreeCAD. Zapewnia prosty interfejs do wyboru najlepszego rozwiązania, pokazując zachowanie strukturalne projektów na ekranie do analizy parametrycznej i wielu sytuacji obciążenia.
 
 <img alt="" src=images/Generative_Design.png  style="width:512px;">
 
-### Intended work-flow 
 
-1.  Click the **Initiate** button to create the parameters for the parametric analysis.
-2.  Using the **Alias** button please match the size and name of the parameters.
-3.  Associate the [Spreadsheet](Spreadsheet_Workbench.md) and your model.
-4.  Set up analysis model(s) with the [FEM Workbench](FEM_Workbench.md).
-5.  Switch back to the **FEMbyGEN Workbench** and with the **Generate** button, create all generations.
-6.  Click on the **FEA** button and Start FEA to run simulations.
-7.  You can check simulation files by clicking rows of the related generation.
-8.  Click on the **Results** button to get results into the master file.
-9.  Summation of all load case results will also be under Results in the [tree view](Tree_view.md).
 
-### Features
+### Zamierzony przepływ pracy 
 
--   Parametric FEM analysis
--   Supports multiple loadcases
--   Summarize all the results in a table
--   Sort results by your output weight
--   Summation of all load cases
+1.  Kliknij przycisk **Initiate**, aby zdefiniować parametry analizy parametrycznej.
+2.  Za pomocą przycisku **Alias** dopasuj wielkość i nazwę parametrów.
+3.  Skojarz [Arkusz kalkulacyjny](Spreadsheet_Workbench.md) z modelem.
+4.  Skonfiguruj model(e) analizy za pomocą środowiska pracy [MES](FEM_Workbench.md).
+5.  Przełącz się z powrotem do środowiska **FEMbyGEN** i za pomocą przycisku **Generate** utwórz wszystkie sekwencje.
+6.  Kliknij przycisk **FEA** i Start FEA, aby uruchomić symulacje.
+7.  Możesz sprawdzić pliki symulacji, klikając wiersze powiązanej sekwencji.
+8.  Kliknij przycisk **Results**, aby pobrać wyniki do pliku głównego.
+9.  Podsumowanie wszystkich wyników przypadków obciążeń będzie również dostępne w sekcji Wyniki oknie [Widoku drzewa](Tree_view/pl.md).
+10. Jeśli chcesz uzyskać rekomendację dla swojego projektu zamiast analizy parametrycznej, kliknij **CreatGeo**, aby zdefiniować warunki brzegowe projektu, takie jak obciążenia, podpory, geometrie ochronne. Następnie zostanie utworzona ramka otaczająca, a następnie zoptymalizowana w celu zaproponowania najbardziej odpowiedniej geometrii. Możesz użyć suwaka, aby zobaczyć poprzednie sugestie.
+11. Kliknij **Topology**, aby uruchomić symulację topologii dla całych generacji lub tylko pliku ze zdefiniowaną analizą MES. Na ekranie można zdefiniować parametry optymalizacji, a następnie wyświetlić wyniki. Dolny suwak pomoże zobaczyć postęp optymalizacji topologii.
 
-### Features to be supported in the future 
 
--   Topology Analysis
--   Taguchi Method to generate parametric variations
 
-### Limitations
+### Cechy
 
--   Works only with Calculix Solver
+-   Parametryczna analiza MES.
+-   Obsługa wielu przypadków obciążeń.
+-   Podsumowanie wszystkich wyników w tabeli.
+-   Sortowanie wyników według wagi wyjściowej.
+-   Sumowanie wszystkich przypadków obciążeń.
+-   Sugestie dotyczące geometrii na podstawie warunków brzegowych.
+-   Optymalizacja topologii.
 
-## Installation
 
-### Addon Manager 
 
-FEMbyGEN can easily be installed via the FreeCAD <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) from the **Tools → Addon manager** menu.
+### Funkcje obsługiwane w przyszłości 
 
-FEMbyGEN is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**.
+-   Implementacja inna niż metoda topologii BESO.
 
-The FEMbyGEN code is hosted and developed [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN).
 
-### Manual
 
-See [How to install additional workbenches](How_to_install_additional_workbenches.md)
+### Ograniczenia
 
-### Prerequisites
+-   Działa wyłącznie z solwerem CalculiX.
 
--   FreeCAD 0.19 or newer
 
-## References
 
--   Author: Serdar Ince, Ögeday Yavuz, Rahul Jhuree
--   Source code: [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN)
--   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?p=626306>
--   Report bugs: Please report bugs at [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN/issues)
+## Instalacja
+
+
+
+## Menadżer dodatków 
+
+FEMbyGEN może być łatwo zainstalowany w FreeCAD za pomocą <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) z menu **Przybory → Menadżer dodatków**.
+
+FEMbyGEN jest w trakcie aktywnego rozwoju i będzie często otrzymywać nowe funkcje. W związku z tym należy go regularnie aktualizować za pomocą menu **Przybory → Menedżer dodatków**.
+
+Kod FEMbyGEN jest hostowany i rozwijany w serwisie [GitHub](https://github.com/Serince/FEMbyGEN).
+
+
+
+### Podręcznik
+
+Więcej informacji na ten temat znajduje się na stronie [Jak zainstalować dodatkowe środowiska pracy](How_to_install_additional_workbenches/pl.md).
+
+
+
+### Wymagania wstępne 
+
+-   FreeCAD w wersji 0.19 lub nowszej.
+
+
+
+## Bibliografia
+
+-   Autor: Serdar Ince, Ögeday Yavuz, Rahul Jhuree
+-   Kod źródłowy: [FEMbyGEN na GitHub.com](https://github.com/Serince/FEMbyGEN)
+-   Forum FreeCAD: <https://forum.freecadweb.org/viewtopic.php?p=626306>
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na stronie [FEMbyGEN na GitHub](https://github.com/Serince/FEMbyGEN/issues)
 
 
 

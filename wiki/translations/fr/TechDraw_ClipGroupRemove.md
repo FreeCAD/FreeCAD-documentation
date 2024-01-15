@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ClipGroupRemove
    Name/fr: TechDraw Suppression vue d'une fenêtre de rognage
-   MenuLocation: TechDraw , Supprimer la vue de la fenêtre de rognage
+   MenuLocation: TechDraw , Vues de rognage , Supprimer la vue de la fenêtre de rognage
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_ClipGroup/fr, TechDraw_ClipGroupAdd/fr
 ---
 
 # TechDraw ClipGroupRemove/fr
-
-
-</div>
 
 ## Description
 
@@ -23,13 +20,11 @@ L\'outil **TechDraw Suppression vue d\'une fenêtre de rognage** supprime une vu
 
 ## Utilisation
 
+-   Sélectionnez une vue faisant partie d\'une fenêtre de rognage dans la [vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
 
-<div class="mw-translate-fuzzy">
-
--   Sélectionnez une vue faisant partie d\'un denêtre rognage et appuyez sur le bouton **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Supprimer la vue de la fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)** pour supprimer la vue.
-
-
-</div>
+1.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Supprimer la vue de la fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues de rognage → <img src="images/TechDraw_ClipGroupRemove.svg" width=16px> Supprimer la vue de la fenêtre de rognage** du menu.
 
 
 

@@ -33,4 +33,4 @@ Das Werkzeug [Bildebene skalieren](Image_Scaling/de.md) skaliert ein Bild, das m
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/de
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Scaling/de

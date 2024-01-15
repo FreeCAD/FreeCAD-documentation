@@ -81,7 +81,7 @@ Les objets 2D sont couramment utilisés comme aide à la conception ou pour trac
 Les annotations sont des objets d\'aide visuels pouvant être placés dans votre modèle. Ils peuvent être utilisés pour exporter votre modèle directement vers un format 2D tel que [DXF](Draft_DXF/fr.md), ou être réutilisés lors de la création de vues 2D de votre modèle avec l\'[atelier TechDraw](TechDraw_Workbench/fr.md).
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Texte](Draft_Text/fr.md) : dessine une annotation en texte multiligne
--   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString/fr.md) : dessine une ligne de texte comme géométrie
+-   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Forme à partir d\'un texte](Draft_ShapeString/fr.md) : dessine une ligne de texte comme géométrie
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Cote](Draft_Dimension/fr.md) : trace une cote linéaire, angulaire, radiale ou de diamètre
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label/fr.md): place une étiquette avec une flèche pointant vers un élément sélectionné
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Outils axes et grilles](Arch_Axis/fr.md) : crée un axe unique ou un tableau d\'axes dans le sens du document
@@ -139,17 +139,17 @@ Les objets 3D et BIM sont les éléments du monde réel qui composeront votre pr
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Déplacer](Draft_Move/fr.md) : déplace l\'objet (ou des objets) d\'un emplacement à un autre.
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Copier](BIM_Copy/fr.md) : copie l\'objet (ou des objets) d\'un emplacement à un autre.
--   <img alt="" src=images/Draft_Rotate.svg  style="width:32px;"> [Rotation](Draft_Rotate/fr.md) : pivote l\'objet (ou les objets) d\'un angle de départ à un angle d\'arrivée.
+-   <img alt="" src=images/Draft_Rotate.svg  style="width:32px;"> [Pivoter](Draft_Rotate/fr.md) : pivote l\'objet (ou les objets) d\'un angle de départ à un angle d\'arrivée.
 -   <img alt="" src=images/Draft_Clone.svg  style="width:32px;"> [Clone](BIM_Clone/fr.md) : clone les objets sélectionnés.
--   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Décalage](Draft_Offset/fr.md) : déplace les segments d\'un objet à une certaine distance.
--   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [Décalage 2D](Part_Offset2D/fr.md) : construit un fil parallèle à une certaine distance de l\'original ou agrandit/réduit une face plane. (version paramétrique)
--   <img alt="" src=images/Draft_Trimex.svg  style="width:32px;"> [Découper/prolonger (Trimex)](Draft_Trimex/fr.md) : découpe ou prolonge un objet.
+-   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Décaler](Draft_Offset/fr.md) : déplace les segments d\'un objet à une certaine distance.
+-   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [Décaler en 2D](Part_Offset2D/fr.md) : construit une polyligne parallèle à une certaine distance de l\'originale ou agrandit/réduit une face plane. (version paramétrique)
+-   <img alt="" src=images/Draft_Trimex.svg  style="width:32px;"> [Découper/prolonger](Draft_Trimex/fr.md) : découpe ou prolonge un objet.
 -   <img alt="" src=images/Draft_Scale.svg  style="width:32px;"> [Redimensionner](Draft_Scale/fr.md) : redimensionne l\'objet (ou les objets) sélectionné(s) à partir d\'un point de base.
 -   <img alt="" src=images/Draft_Stretch.svg  style="width:32px;"> [Étirer](Draft_Stretch/fr.md) : étire les objets sélectionnés.
 -   <img alt="" src=images/Draft_Array.png  style="width:32px;"> [Réseau](Draft_Array/fr.md) : crée une matrice polaire ou rectangulaire de l\'objet sélectionné.
--   <img alt="" src=images/Draft_PathArray.png  style="width:32px;"> [Matrice de copies](Draft_PathArray/fr.md) : crée une série d\'objets le long d\'un tracé (chemin).
+-   <img alt="" src=images/Draft_PathArray.png  style="width:32px;"> [Réseau selon une courbe](Draft_PathArray/fr.md) : crée une série d\'objets le long d\'un tracé (chemin).
 -   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Miroir](Draft_Mirror/fr.md) : crée un objet miroir des objets sélectionnés.
--   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extrusion](Part_Extrude/fr.md) : extrude les faces planes d\'un objet.
+-   <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> [Extruder](Part_Extrude/fr.md) : extrude les faces planes d\'un objet.
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Soustraction](Part_Cut/fr.md) : coupe (soustrait) un objet d\'un autre.
 -   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Union](Part_Fuse/fr.md) : unit de deux objets.
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Intersection](Part_Common/fr.md) : extrait la partie commune (intersection) de deux objets.

@@ -4,15 +4,17 @@ Here is a rough roadmap of areas to be addressed in the [TechDraw Workbench](Tec
 
 ### Current Activity 
 
--   preparation for v0.21 release
+-   refactoring code into more maintainable pieces
 
 ### Primary Focus for 2023 
 
-There are 2 main areas of work to address in 2023:
+There are 2 main areas to be addressed in 2023:
 
 -   conversion between drawing geometry and model geometry
     -   these conversions are scattered throughout the code
     -   the most visible impact is the difficulty in specifying cosmetic geometry
+    -   cosmetic vertex/edge/centerline now rotates with the parent view.
+
 -   the \"lesser topological naming problem\"
     -   primarily making dimensions survive the renaming of reference geometry
         -   Phase1 (reference geometry has a new name, but still exists) implemented by [PR #8989](https://github.com/FreeCAD/FreeCAD/pull/8989)
@@ -20,15 +22,26 @@ There are 2 main areas of work to address in 2023:
     -   also affects face hatching
     -   also affects edge appearance attributes
 
+### Work Completed in 2023 
+
+-   remove redundant edges from HLR result PR #9280
+-   dimension reference name change handling PR #8989
+-   RichTextAnnotation fix text size & position in svg export PR #10019
+-   improve SVG hatch drawing speed PR #9995 and PR #9885
+-   add large ANSI format templates PR #9825
+-   fix precision errors in 3d window direction/orientation PR #9577
+-   add shaft/hole fit annotation PR #8455
+-   add ANSI Y14.5 compatible font PR #8198
+-   Replacement for Qt XMLPatterns [PR #9104](https://github.com/FreeCAD/FreeCAD/pull/9104) (Thanks Werner!)
+-   zoom improvements PR #10547, #10456
+-   hatch speed improvements PR #9995, #9985
+
 ### Other Items for 2023 
 
 These items would be nice to address in 2023:
 
 -   drawing overlay
     -   allow graphics to be added to a drawing page as on a transparent overlay in traditional drafting. This will build on the [SymbolsAndTraces](https://github.com/WandererFan/FreeCAD/tree/SymbolsAndTraces) research project and \@Evgeniy\'s schematic workbench.
--   Replacement for Qt XMLPatterns
-    -   the XMLPatterns component will be removed in Qt6. It will need to be replaced by another XML parsing library. This functionality is used in Templates and Symbol views.
-        -   implemented by [PR #9104](https://github.com/FreeCAD/FreeCAD/pull/9104) (Thanks Werner!)
 
 ### Work Completed in 2022 
 

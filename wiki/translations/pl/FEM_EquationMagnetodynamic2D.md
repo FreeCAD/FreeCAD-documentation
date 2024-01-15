@@ -1,176 +1,92 @@
 ---
  GuiCommand:
    Name: FEM EquationMagnetodynamic2D
-   MenuLocation: Solve , Electromagnetic Equations , Magnetodynamic2D equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie magnetodynamiczne 2D
+   MenuLocation: Rozwiąż , Równania elektromagnetyczne , Równanie magnetodynamiczne 2D
+   Workbenches: FEM_Workbench/pl
    Version: 0.21
-   SeeAlso: FEM_EquationMagnetodynamic
+   SeeAlso: FEM_EquationMagnetodynamic/pl
 ---
 
 # FEM EquationMagnetodynamic2D/pl
 
+To równanie przeprowadza wersję 2D analizy [równań Maxwella](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Maxwella) gdy niewiadomą jest składowa z (lub φ).
 
-</div>
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Computation of Magnetic Fields in 2D** *(obliczenia pól magnetycznych w 2D)*.
 
+Do bardziej ogólnych analiz za pomocą równań Maxwella w 3D FreeCAD wspiera [równanie magnetodynamiczne](FEM_EquationMagnetodynamic/pl.md). Jednak jeśli możliwe jest przeprowadzenie analizy w 2D to jest to zalecane, ponieważ sformułowanie jest prostsze, a więc obliczenia trwają krócej.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-This equation performs analyses using a 2D version of the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations) when the unknown is the z-component (or φ-component).
 
+## Użycie
 
-</div>
+1.  Po dodaniu solvera Elmer zgdonie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania elektromagnetyczne → Równanie magnetodynamiczne 2D** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 2D*.
+## Ustawienia solvera 
 
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
-</div>
+Równanie magnetodynamiczne 2D posiada następujące specjalne ustawienia:
 
+-    **Angular Frequency**: Częstotliwość wzbudzenia harmonicznego. Używana tylko jeśli **Is Harmonic** jest ustawione na {{true/pl}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Calculate Current Density**: Wzynacza [gęstość prądu](https://pl.wikipedia.org/wiki/G%C4%99sto%C5%9B%C4%87_pr%C4%85du_elektrycznego).
 
-For more general analyses in 3D using the Maxwell\'s equations FreeCAD supports Elmer\'s [Magnetodynamic equation](FEM_EquationMagnetodynamic.md). Nevertheless, if it is possible to perform the analysis in 2D, this is recommended since the math behind this is then more simple and the calculation time is therefore faster.
+-    **Calculate Electric Field**: Wyznacza [wektorowe pole elektryczne](https://pl.wikipedia.org/wiki/Pole_elektryczne).
 
+-    **Calculate Elemental Fields**: Wyznacza pola elektromagnetyczne w każdym elemencie siatki. Może to być przydatne do poszukiwania nieciągłości w siatkach.**Uwaga**: obecnie FreeCAD nie może poprawnie wyświetlić tego wyniku. Nie ma on więc praktycznego zastosowania na ten moment.
 
-</div>
+-    **Calculate Harmonic Loss**: Wyznacza liniową i kwadratową harmoniczną utratę mocy. Zobacz dokument [Elmer models manual](https://www.elmerfem.org/blog/documentation/), sekcję *Loss Estimation Using the Fourier Series* aby uzyskać więcej informacji.
 
+-    **Calculate Joule Heating**: Oblicza [grzanie Joule\'a](https://en.wikipedia.org/wiki/Joule_heating).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Calculate Magnetic Strength**: Wyznacza [siłę pola magnetycznego](https://pl.wikipedia.org/wiki/Pole_magnetyczne).
 
-## Usage
+-    **Calculate Maxwell Stress**: Wyznacza pole [tensora naprężeń Maxwella](https://en.wikipedia.org/wiki/Maxwell_stress_tensor).
 
+-    **Calculate Nodal Fields**: Wyznacza pola w każdym węźle siatki. Domyślnie ustawione na {{true/pl}}. Jeśli żadna inna właściwość **Calculate *** nie jest ustawiona na {{true/pl}} to wyznacza tylko gęstość strumienia magnetycznego.
 
-</div>
+-    **Calculate Nodal Forces**: Wyznacza siły dla każdego węzła siatki. Wyniki mogą być użyte do dalszej analizy mechanicznej.
 
+-    **Calculate Nodal Heating**: Wyznacza pole skalarowe grzania Joule\'a dla każdego węzła siatki.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Is Harmonic**: Czy siła elektromotoryczna jest harmonicznie wzbudzana (prąd stały). Jeśli ta właściwość jest ustawiona na {{true/pl}} to właściwość **Angular Frequency** musi mieć wartość \> 0.
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationMagnetodynamic2D.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Magnetodynamic2D equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
 
-</div>
+## Informacje o cechach analizy 
 
+Równanie magnetodynamiczne 2D uwzględnia następujące cechy analizy jeśli są zdefiniowane:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Warunek brzegowy potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md)
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Warunek brzegowy gęstości prądu](FEM_ConstraintCurrentDensity/pl.md)
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Warunek brzegowy magnetyzacji](FEM_ConstraintMagnetization/pl.md)
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Zdefiniuj przenikalność elektryczną próżni](FEM_ConstantVacuumPermittivity/pl.md)
 
-## Solver Settings 
 
 
-</div>
+## Wyniki
 
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczany jest tylko potencjał elektryczny (nazwany **av** w wynikach). W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Możliwe wyniki to:
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+-   Gęstość prądu w $\rm A/m^2$
+-   Wartości wektora pola elektrycznego w $\rm V/m$
+-   Harmoniczna utrata mocy w $\rm W$
+-   Gęstość strumienia magnetycznego w $\rm T$
+-   Wartości tensora naprężeń Maxwella w $\rm As/m^3$
+-   Siła pola magnetycznego w $\rm A/m$
+-   Siła węzłowa w $\rm N$
+-   Grzanie Joule\'a w $\rm J$
+-   Potencjał w $\rm V$
 
 
-</div>
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The magnetodynamic 2D equation provides these special settings:
-
--    **Angular Frequency**: The harmonic actuation frequency. It only used if **Is Harmonic** is set to *true*.
-
--    **Calculate Current Density**: Calculates the [current density](https://en.wikipedia.org/wiki/Current_density).
-
--    **Calculate Electric Field**: Calculates the [Electric vector field](https://en.wikipedia.org/wiki/Electric_field).
-
--    **Calculate Elemental Fields**: Calculates the electromagnetic fields for every mesh element. This is useful to see discontinuities in meshes.**Note**: at the moment FreeCAD cannot display these results properly. Therefore it is at the moment of no practical use.
-
--    **Calculate Harmonic Loss**: Calculates the linear and quadratic harmonic power loss. See the [Elmer models manual](https://www.elmerfem.org/blog/documentation/), section *Loss Estimation Using the Fourier Series* for details
-
--    **Calculate Joule Heating**: Calculates the [Joule heating](https://en.wikipedia.org/wiki/Joule_heating).
-
--    **Calculate Magnetic Strength**: Calculates the [Magnetic field strength](https://en.wikipedia.org/wiki/Magnetic_field).
-
--    **Calculate Maxwell Stress**: Calculates the [Maxwell stress tensor](https://en.wikipedia.org/wiki/Maxwell_stress_tensor) field.
-
--    **Calculate Nodal Fields**: Calculates the fields for every mesh node. The default is *true*. If no other **Calculate *** is set to *true*, it only calculates the magnetic flux density.
-
--    **Calculate Nodal Forces**: Calculates the forces for every mesh node. The results can be used for further mechanical analysis.
-
--    **Calculate Nodal Heating**: Calculates the Joule heating scalar field for every mesh node.
-
--    **Is Harmonic**: If the driving force is harmonically actuated (AC current). If set to *true*, **Angular Frequency** must have a value \> 0.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Constraint Information 
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The magnetodynamic 2D equation takes the following constraints into account if they are set:
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density constraint](FEM_ConstraintCurrentDensity.md)
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization constraint](FEM_ConstraintMagnetization.md)
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Results
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric electric potential (called **av** in the results) is calculated. Otherwise also the corresponding results will be available.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The possible results are:
-
--   Current density in $\rm A/m^2$
--   Electric field vector values in $\rm V/m$
--   Harmonic power loss in $\rm W$
--   Magnetic flux density in $\rm T$
--   Maxwell stress tensor values in $\rm As/m^3$
--   Magnetic field strength in $\rm A/m$
--   Nodal force in $\rm N$
--   Joule heating in $\rm J$
--   Potential in $\rm V$
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

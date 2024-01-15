@@ -8,6 +8,8 @@
 
 
 
+
+
 ## Descrizione
 
 Dalla v0.17 è facile aggiungere le macro usando [Addon Manager](Std_AddonMgr/it.md). Un utente normale non deve fare altro che utilizzare questo strumento. Continuare a leggere per ulteriori informazioni sull\'installazione delle [macro](macros/it.md).
@@ -20,7 +22,11 @@ Vedere la pagina [Introduzione a Python](Introduction_to_Python/it.md) per conos
 
 Questo è un video su come [installare le macro in FreeCAD in Ubuntu](https://wiki.opensourceecology.org/wiki/Installing_Macros_in_FreeCAD).
 
+
+
 ## Il menu Macro e i suoi strumenti 
+
+
 
 ### Barra degli strumenti 
 
@@ -40,17 +46,21 @@ Oltre agli strumenti nella barra degli strumenti, nel menu **Macro** sono dispon
 -   [Un passo](Std_MacroStepInto/it.md)
 -   [Attiva/Disattiva punto di interruzione](Std_ToggleBreakpoint/it.md)
 
+
+
 ## Directory delle macro 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Le macro vengono create in una cartella specifica nella directory di FreeCAD dell\'utente. Questa directory può essere configurata nel dialogo [Esegui macro](Std_DlgMacroExecute/it.md), o nel [Editor delle preferenze](Preferences_Editor/it.md), attraverso il menu **Modifica → Preferenze → Generali → Macro → Impostazioni di registrazione delle macro**.
+Le macro vengono create in una cartella specifica nella directory di FreeCAD dell\'utente. Questa directory può essere configurata nel dialogo [Esegui macro](Std_DlgMacroExecute/it.md), o nel [Editor delle preferenze](Preferences_Editor/it.md), attraverso il menu **Modifica → Preferenze → Python → Macro → Impostazioni di registrazione delle macro**.
 
 Anche le macro scaricate dovrebbero essere collocate in questa directory.
 
 
 <div class="mw-collapsible-content">
+
+
 
 ### Directory di default 
 
@@ -74,6 +84,8 @@ La `$ROOT_DIR` può essere la directory di un utente particolare.
 -   Su Linux di solito è `/home/username/.local/share/FreeCAD/` (<small>(v0.20)</small> ) or `/home/username/.FreeCAD/` ({{VersionMinus|0.19}}).
 -   Su Windows di solito è `C:\Users\username\AppData\FreeCAD\`
 -   Su Mac OSX di solito è `/Users/username/Library/Preferences/FreeCAD/`
+
+
 
 ### Configurazione della directory utente 
 
@@ -118,10 +130,14 @@ La `$ROOT_DIR` può essere la directory di un utente particolare.
 
 </div>
 
+
+
 ## Installare le macro 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Metodo automatico 
 
@@ -145,6 +161,8 @@ Il metodo consigliato per installare i componenti aggiuntivi, ovvero gli [ambien
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Metodo manuale 1. Copiare il codice nell\'editor delle macro 
 
@@ -236,6 +254,8 @@ Creare un nuovo documento con **File → <img src="images/Std_New.svg" width=16p
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
+
+
 ### Metodo manuale 2. Aggiungere una macro compressa in un file .zip 
 
 Alcune macro sono troppo grandi per cui è scomodo copiarle e incollarle nell\'editor delle macro o non possono essere ospitate nel wiki. In questo caso, il codice può essere ospitato altrove, in un repository Github o nel[forum di FreeCAD](https://forum.freecadweb.org/). Il codice può anche essere compresso in un file `.zip`, tarball `.tar.xz` o altro tipo di archivio se contiene più file. Se il codice viene distribuito in questo modo, l\'archivio deve essere estratto e i file inseriti nella directory delle macro.
@@ -306,6 +326,8 @@ unzip your_file.zip -d your_directory
 
 </div>
 
+
+
 ## Eseguire una macro nella riga di comando 
 
 
@@ -336,10 +358,14 @@ todo
 
 </div>
 
+
+
 ## Errori nelle macro 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Errori di indentazione 
 
@@ -356,6 +382,8 @@ Un tipico errore di indentazione è simile al seguente:
 ```python
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
+
+
 
 #### Esempio 1 
 
@@ -376,12 +404,16 @@ Se il codice è selezionato, tutte le linee dovrebbero essere evidenziate fino a
 ![](images/Macro_Install_HowTo_11.png ) 
 *align=center|Codice Python evidenziato, che mostra che tutte le linee iniziano dal bordo sinistro*
 
+
+
 #### Esempio 2 
 
 Se viene introdotto uno spazio aggiuntivo all\'inizio di tutte le righe, l\'interprete Python fallisce e si lamenta delle indentazioni non necessarie. In questo caso, lo spazio iniziale deve essere rimosso da tutte le righe.
 
 ![](images/Macro_Install_HowTo_12.png ) 
 *align=center|Codice Python con spazio aggiuntivo su ogni riga*
+
+
 
 #### Esempio 3 
 
@@ -402,12 +434,16 @@ In Windows, con [Notepad++](http://notepad-plus-plus.org/) si può eseguire la s
 ![](images/Macro_Install_HowTo_16.png ) 
 *align=center|Codice Python con l'indentazione corretta*
 
+
+
 #### Esempio 4 
 
 In questa selezione sono inclusi anche i numeri di riga. Se questa selezione viene incollata nell\'editor delle macro, non funziona. Tutti i numeri di riga devono essere rimossi e gli spazi devono essere regolati in modo che il codice Python abbia l\'indentazione corretta.
 
 ![](images/Macro_Install_HowTo_29.png ) 
 *align=center|Selezione che comprende anche i numeri di riga; se questo codice viene incollato nell'editor delle macro, non funzionerà*
+
+
 
 #### Codice valido 
 
@@ -423,6 +459,8 @@ In questa selezione sono inclusi anche i numeri di riga. Se questa selezione vie
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
+
+
 ### Nessun output di testo dalle macro 
 
 Le macro possono generare informazioni nella vista report per descrivere cosa sta facendo il codice quando è in esecuzione.
@@ -431,6 +469,8 @@ Se non viene visualizzata alcuna informazione, assicurarsi che la vista report e
 
 
 <div class="mw-collapsible-content">
+
+
 
 #### Visualizzare le informazioni 
 
@@ -451,6 +491,8 @@ La semplice funzione Python
 ```python
 print("Hello World!")
 ```
+
+
 
 #### Abilitare la vista report 
 
@@ -473,6 +515,8 @@ Per vedere le informazioni visualizzate nella console è necessario:
 ![](images/Macro_Install_HowTo_34.png ) 
 *align=center|Finestra principale di FreeCAD con la vista Report e la console Python*
 
+
+
 #### Abilitare il comando print() 
 
 Potrebbe essere necessario configurare FreeCAD in modo che la funzione `print()` di [Python](Python/it.md) reindirizzi correttamente il suo output alla vista Report.
@@ -482,7 +526,7 @@ Potrebbe essere necessario configurare FreeCAD in modo che la funzione `print()`
 ![](images/Macro_Install_HowTo_35.png ) 
 *align=center|Andare nell'editor delle preferenze*
 
-2\. Andare nella sezione **Generale**, e poi **Finestra di output → Interprete Python**.
+2\. Andare nella sezione **Python**, e poi **Finestra di output → Interprete Python**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Preferenze della finestra output*

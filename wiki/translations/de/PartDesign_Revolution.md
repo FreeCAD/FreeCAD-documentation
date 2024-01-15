@@ -37,9 +37,9 @@ Das Werkzeug **Drehkörper** erstellt einenVolumenkörper durch Rotation einer S
 
 Bei der Erstellung eines Drehteils bietet der Dialog **Parameter der Rotation** einige Parameter an, die angeben, wie die Skizze gedreht werden soll.
 
-  
-  ![](images/partdesign_revolution_parameters.png )
-  
+++
+| ![](images/partdesign_revolution_parameters.png ) |
+++
 
 
 

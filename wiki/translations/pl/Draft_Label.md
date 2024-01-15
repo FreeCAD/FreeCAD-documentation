@@ -1,179 +1,193 @@
 ---
  GuiCommand:
    Name: Draft Label
-   MenuLocation: Annotation , Label
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Etykieta
+   MenuLocation: Adnotacja , Etykieta
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **D** **L**
    Version: 0.17
-   SeeAlso: Draft_Text, Draft_ShapeString
+   SeeAlso: Draft_Text/pl, Draft_ShapeString/pl
 ---
 
 # Draft Label/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Label** command creates a multi-line text with a 2-segment leader line and an arrow.
 
-If an object or a sub-element (face, edge or vertex) is selected when starting the command, the text can be made to display one or two attributes of the selected element, including position, length, area, volume and material. The text will then be linked to the attributes and will update if their values change.
+## Opis
 
-To insert a text element without an arrow use the [Draft Text](Draft_Text.md) command instead.
+Polecenie <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Etykieta** tworzy wielowierszowy tekst z dwu-segmentową linią prowadzącą i strzałką.
+
+Jeśli obiekt lub element podrzędny (ściana, krawędź lub wierzchołek) jest zaznaczony podczas uruchamiania polecenia, obiekt tekstu może wyświetlać jeden lub dwa atrybuty wybranego elementu, w tym położenie, długość, powierzchnię, objętość i materiał. Tekst będzie wówczas powiązany z atrybutami i będzie aktualizowany w przypadku zmiany ich wartości.
+
+Aby wstawić element tekstowy bez strzałki, należy użyć polecenia [Tekst](Draft_Text/pl.md).
 
 <img alt="" src=images/Draft_Label_example.jpg  style="width:400px;"> 
-*Various labels with different orientations, arrows and information*
+*Różne etykiety z różnymi orientacjami, strzałkami i informacjami.*
 
-## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  Optionally select an object or a sub-element (vertex, edge or face) that you want to display attributes of.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Label.svg" width=16px> [Draft Label](Draft_Label.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Label.svg" width=16px> Label** option from the menu.
-    -   Use the keyboard shortcut: **D** then **L**.
-3.  The **Label** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have selected an element: select an option from the **Label type** dropdown list. See [Label types](#Label_types.md) below.
-5.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
-6.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the start of the horizontal or vertical segment of the leader.
-7.  Pick the third point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the base point of the text.
+## Użycie
 
-## Options
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+1.  Opcjonalnie wybierz obiekt lub jego element podrzędny (wierzchołek, krawędź lub ścianę), którego atrybuty chcesz wyświetlić.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Label.svg" width=16px> '''Etykieta'''**.
+    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Label.svg" width=16px> Etykieta**.
+    -   Użyj skrótu klawiaturowego: **D**, a następnie **L**.
+3.  Otworzy się panel zadań **Etykieta**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+4.  Jeśli wybrałeś element: wybierz opcję z rozwijanej listy **Typ etykiety**. Zobacz sekcję [Typ etykiety](#Typ_etykiety.md) poniżej.
+5.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Ten punkt wskazuje cel *(główkę strzałki)*. Może to być dowolne miejsce, nie musi znajdować się na elemencie.
+6.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Punkt ten wskazuje początek poziomego lub pionowego segmentu linii prowadzącej.
+7.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**. Punkt ten wskazuje punkt bazowy tekstu.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
 
-## Label types 
 
-The following label types are available:
+## Opcje
 
--    {{Value|Custom}}: displays the contents of **Custom Text**.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
--    {{Value|Name}}: displays the internal name of the target object. The internal name is assigned when an object is created and remains fixed throughout the existence of the object.
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza okno [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 
--    {{Value|Label}}: displays the label of the target object. The label of an object can be changed by the user.
 
--    {{Value|Position}}: displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
 
--    {{Value|Length}}: displays the length of the target object or subelement, if applicable.
+## Typ etykiety 
 
--    {{Value|Area}}: displays the area of the target object or subelement, if applicable.
+Dostępne są następujące typy etykiet:
 
--    {{Value|Volume}}: displays the volume of the target object, if applicable.
+-    {{Value|Użytkownika}}: wyświetla zawartość **Tekst użytkownika**.
 
--    {{Value|Tag}}: displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
+-    {{Value|Nazwa}}: wyświetla wewnętrzną nazwę obiektu docelowego. Nazwa wewnętrzna jest przypisywana podczas tworzenia obiektu i pozostaje niezmienna przez cały okres istnienia obiektu.
 
--    {{Value|Material}}: displays the label of the material of the target object, if applicable.
+-    {{Value|Etykieta}}: wyświetla etykietę obiektu docelowego. Etykieta obiektu może zostać zmieniona przez użytkownika.
 
--    {{Value|Label + Position}}
-    
+-    {{Value|Pozycja}}: wyświetla współrzędne punktu bazowego docelowego obiektu, docelowego wierzchołka lub środka masy docelowego elementu podrzędnego, jeśli ma to zastosowanie.
 
--    {{Value|Label + Length}}
-    
+-    {{Value|Długość}}: wyświetla długość docelowego obiektu lub elementu podrzędnego, jeśli dotyczy.
 
--    {{Value|Label + Area}}
-    
+-    {{Value|Powierzchnia}}: wyświetla obszar docelowego obiektu lub elementu podrzędnego, jeśli ma to zastosowanie.
 
--    {{Value|Label + Volume}}
-    
+-    {{Value|Objętość}}: wyświetla objętość obiektu docelowego, jeśli dotyczy.
 
--    {{Value|Label + Material}}
-    
+-    {{Value|Znacznik}}: wyświetla atrybut `Znacznik` obiektu docelowego, jeśli dotyczy. Obiekty utworzone za pomocą środowiska pracy [Architektura](Arch_Workbench/pl.md) mogą mieć ten atrybut.
 
-## Notes
+-    {{Value|Materiał}}: wyświetla etykietę materiału obiektu docelowego, jeśli dotyczy.
 
--   The direction of the second segment of the leader determines the alignment of the text. If the segment is horizontal and pointing to the right the text is aligned to the left and vice versa. If the second segment goes vertically up, the text is aligned to the left. If it goes vertically down, the text is aligned to the right.
--   Draft Labels created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
+-    {{Value|Etykieta + pozycja}},
 
-## Properties
+-    {{Value|Etykieta + długość}},
 
-See also: [Property editor](Property_editor.md).
+-    {{Value|Etykieta + powierzchnia}},
 
-A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
+-    {{Value|Etykieta + objętość}},
 
-### Data
+-    {{Value|Etykieta + materiał}}.
 
 
-{{TitleProperty|Label}}
 
--    **Custom Text|StringList**: specifies the contents of the text if **Label Type** is {{Value|Custom}}. Each item in the list represents a new text line.
+## Uwagi
 
--    **Label Type|Enumeration**: specifies the type of information displayed by the label. See [Label types](#Label_types.md).
+-   Kierunek drugiego segmentu lidera określa wyrównanie tekstu. Jeśli segment jest poziomy i skierowany w prawo, tekst jest wyrównany do lewej i odwrotnie. Jeśli drugi segment jest skierowany pionowo w górę, tekst jest wyrównany do lewej. Jeśli jest skierowany pionowo w dół, tekst jest wyrównany do prawej.
+-   Wersje robocze etykiet utworzone lub zapisane w [FreeCAD w wersji 0.21](Release_notes_0.21/pl.md) nie są kompatybilne wstecz.
 
--    **Placement|Placement**: specifies the position of the text in the [3D view](3D_view.md) and, unless **Straight Direction** is {{Value|Custom}}, also of the first leader segment, which is the segment where the text is attached. See [Placement](Placement.md).
 
--    **Text|StringList**: (read-only) specifies the contents of the text that is actually displayed. Each item in the list represents a new text line.
 
+## Właściwości
 
-{{TitleProperty|Leader}}
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
--    **Points|VectorList**: specifies the points of the leader.
+Etykieta środowispa pracy Rysunek Roboczy wywodzi się z obiektu [App: FeaturePython](App_FeaturePython/pl.md) i dziedziczy wszystkie jego właściwości. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej.
 
--    **Straight Direction|Enumeration**: specifies the direction of the first leader segment: {{Value|Custom}}, {{Value|Horizontal}} or {{Value|Vertical}}.
 
--    **Straight Distance|Distance**: specifies the length of the first leader segment. Only used if **Straight Direction** is {{Value|Horizontal}} or {{Value|Vertical}}. If the distance is positive, the leader starts from the right side of the text and the text aligns to the right. Otherwise the leader starts from the left side of the text and the text aligns to the left.
 
+### Dane
 
-{{TitleProperty|Target}}
 
--    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
+{{TitleProperty|Etykieta}}
 
--    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
+-    **Tekst użytkownika|StringList**: określa zawartość tekstu, jeśli **Typ etykiety** to {{Value|Użytkownika}}. Każda pozycja na liście reprezentuje nową linię tekstu.
 
-### View
+-    **Typ etykiety|Enumeration**: określa typ informacji wyświetlanych przez etykietę. Zobacz sekcję [Typy etykiet](#Typ_etykiety.md).
 
+-    **Umiejscowienie|Placement**: określa położenie tekstu w oknie [widoku 3D](3D_view/pl.md) i, o ile **Kierunek prosty** nie ma wartości {{Value|Użytkownika}}, także pierwszego segmentu prowadzącego, czyli segmentu, do którego dołączony jest tekst. Zobacz stronę [Umiejscowienie](Placement/pl.md).
 
-{{TitleProperty|Annotation}}
+-    **Tekst|StringList**: *(tylko do odczytu)* określa zawartość wyświetlanego tekstu. Każdy element na liście reprezentuje nową linię tekstu.
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
+{{TitleProperty|Odniesienie}}
 
+-    **Punkt|VectorList**: określa punkty lidera.
 
-{{TitleProperty|Display Options}}
+-    **Kierunek prosty|Enumeration**: określa kierunek pierwszego segmentu prowadzącego: {{Value|Użytkownika}}, {{Value|Poziomo}} lub {{Value|Pionowo}}.
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
+-    **Odległość prosta|Distance**: określa długość pierwszego segmentu prowadzącego. Używane tylko jeśli **Kierunek prosty** ma wartość {{Value|Poziomo}} lub {{Value|Pionowo}}. Jeśli odległość jest dodatnia, linia pomocnicza zaczyna się od prawej strony tekstu, a tekst jest wyrównywany do prawej. W przeciwnym razie lider zaczyna od lewej strony tekstu, a tekst jest wyrównany do lewej.
 
 
-{{TitleProperty|Graphics}}
+{{TitleProperty|Cel}}
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the tip of the leader.
+-    **Cel|LinkSub**: określa obiekt i opcjonalny element podrzędny, z którym powiązana jest etykieta.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the tip of the leader, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-    **Punkt docelowy|Vector**: określa pozycję końcówki linii prowadzącej, do której przymocowana jest strzałka.
 
--    **Frame|Enumeration**: specifies what type of frame is drawn around the text. The current options are {{Value|None}} or {{Value|Rectangle}}.
 
--    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
+### Widok
 
--    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
 
+{{TitleProperty|Adnotacja}}
 
-{{TitleProperty|Text}}
+-    **Styl adnotacji|Enumeration**: określa styl adnotacji zastosowany do etykiety. Zobacz stronę [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md).
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v0.21)</small> 
+-    **Mnożnik skali|Float**: określa ogólny współczynnik skalowania zastosowany do etykiety.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v0.21)</small> 
 
--    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+{{TitleProperty|Opcje wyświetlania}}
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|Świat}}, tekst będzie wyświetlany na płaszczyźnie zdefiniowanej przez jego **Umiejscowienie**. Jeśli jest to {{value|Ekran}}, tekst będzie zawsze skierowany w stronę ekranu. To jest własność dziedziczona. Wspomniane opcje to opcje o zmienionych nazwach *({{Version/pl|0.21}})*.
 
--    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
 
--    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+{{TitleProperty|Grafika}}
 
--    **Text Color|Color**: specifies the color of the text.
+-    **Rozmiar strzałki|Length**: określa rozmiar symbolu wyświetlanego na końcu linii prowadzącej.
 
-## Scripting
+-    **Typ strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu wskaźnika, którym może być {{value|Punkt}}, {{value|Okrąg}}, {{value|Strzałka}}, {{value|Grot}} lub {{value|Grot-2}}.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-    **Ramka|Enumeration**: określa typ ramki rysowanej wokół tekstu. Dostępne opcje to {{Value|Brak}} lub {{Value|Prostokąt}}.
 
-To create a Draft Label use the `make_label` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeLabel` method.
+-    **Linia|Bool**: określa, czy ma być wyświetlana linia prowadząca. Jeśli ma wartość {{FALSE/pl}}, wyświetlane są tylko strzałka i tekst.
+
+-    **Kolor linii|Color**: określa kolor linii prowadzącej i strzałki. Jest on również używany dla ramki ({{Version/pl|0.20}}).
+
+-    **Szerokość linii|Float**: określa szerokość linii odniesienia. Jest używana także dla ramki ({{Version/pl|0.20}}).
+
+
+{{TitleProperty|Tekst}}
+
+-    **Nazwa czcionki|Font**: określa czcionkę używaną do rysowania tekstu. Może to być nazwa czcionki, taka jak {{value|Arial}}, domyślny styl, taki jak {{value|sans}}, {{value|serif}} lub {{value|mono}}, rodzina, taka jak {{value|Arial,Helvetica,sans}}, lub nazwa ze stylem, takim jak {{value|Arial:Bold}}. Jeśli podana czcionka nie zostanie znaleziona w systemie, zamiast niej zostanie użyta czcionka domyślna. <small>(v0.21)</small> 
+
+-    **Rozmiar czcionki|Length**: określa rozmiar liter. Tekst może być niewidoczny w oknie [widoku 3D](3D_view/pl.md), jeśli ta wartość jest bardzo mała. <small>(v0.21)</small> .
+
+-    **Wyrównanie|Enumeration**: określa poziome wyrównanie tekstu: {{value|Do lewej}}, {{value|Wyśrodkuj}} lub {{value|Do prawej}}. Używane tylko jeśli **Kierunek prosty** ma wartość {{Value|Użytkownika}}. W przeciwnym razie wyrównanie poziome jest oparte na znaku *(dodatnim lub ujemnym)* **Odległość prosta**.
+
+-    **Odstępy między wierszami|Float**: określa współczynnik stosowany do domyślnej wysokości linii tekstu.
+
+-    **Maksymalna liczba znaków|Integer**: określa maksymalną liczbę znaków w każdej linii tekstu.
+
+-    **Wyrównanie tekstu|Enumeration**: określa pionowe wyrównanie tekstu: {{value|Do góry}}, {{value|Pośrodku}} lub {{value|W dół}}.
+
+-    **Tekst Color|Color**: określa kolor tekstu.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć Etykietę środowiska pracy Rysunek Roboczy użyj metody `make_label` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeLabel`.
 
 
 ```python
@@ -185,7 +199,7 @@ label = make_label(target_point=App.Vector(0, 0, 0),
                    points=None)
 ```
 
-Example:
+Przykład:
 
 
 ```python

@@ -20,9 +20,9 @@ Ein **ElementRotation1D**-Objekt wird zum drehen des Balkenprofils um die Achse 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Trägerrotation](FEM_ElementRotation1D/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementRotation1D.svg" width=16px> Trägerrotation** auswählen.
-2.  Den Winkel festlegen, um den das Balkenprofil gedreht wird.
+    -   Die Schaltfläche **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Stabdrehung](FEM_ElementRotation1D/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Element-Geometrie → <img src="images/FEM_ElementRotation1D.svg" width=16px> Stabdrehung** auswählen.
+2.  Den Winkel festlegen, um den das Stabprofil gedreht wird.
 
 
 

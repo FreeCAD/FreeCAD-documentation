@@ -76,6 +76,7 @@
 6\. The Output tab defines the output file path, name, extension, and the Postprocessor. For advanced users, Post Processor Arguments can be customized (mouse over to show tooltips of common arguments).
 
 :   ![](images/Path-JobOutput.png )
+
 :   
     
 *Above: [Path Job](Path_Job.md) Edit dialog with the Output tab selected*
@@ -84,6 +85,7 @@
 ### Job Tools 
 
 :   ![](images/Path-JobTools.png )
+
 :   
     
 *Above: [Path Job](Path_Job.md) Edit dialog with the Tools tab selected*
@@ -92,6 +94,7 @@
 7\. Modify the Default tool by selecting it and clicking the **Edit** button. This opens the Tool Controller edit window.
 
 :   ![](images/Path-ToolConfig.gif )
+
 :   
     
 *Above: [Path Job](Path_Job.md) Tool Controller subpanel Edit dialog*
@@ -102,6 +105,7 @@
 9\. Select the Tool subpanel of the Tool controller. Set the diameter (and if you wish to use the <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Path Simulation](Path_Simulator.md) tool later: add a cutting edge angle and cutting edge height).
 
 :   ![](images/Path-ToolAdd.gif )
+
 :   
     
 *Above: [Path Job](Path_Job.md) Tool controller 'Tool' subpanel dialog*
@@ -128,6 +132,7 @@ This tree is shown after the Job\'s configuration once the Path Job is unfolded:
 13\. Selecting the bottom of the pocket and then the <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket](Path_Pocket_Shape.md) button opens the Pocket Shape window. The default values for Base Geometry, Depths, and Heights are used, and the Operation subpanel is selected, and the Step Over Percent is set at 50.
 
 :   ![](images/Path-PocketOperation.gif )
+
 :   
     
 *Above: Pocket Shape dialog with the Operation subpanel selected*
@@ -138,6 +143,7 @@ This tree is shown after the Job\'s configuration once the Path Job is unfolded:
 The result is a model with two paths:
 
 :   ![](images/Path-WalkThroughResult.gif )
+
 :   
     
 *Above: resulting with a model with two paths*
@@ -150,6 +156,7 @@ There are two ways to verify the created paths. The G-Code can be inspected, inc
 To inspect the G-Code use the <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path Inspect](Path_Inspect.md) tool. Selecting the corresponding G-Code lines within the G-Code Inspection window highlights individual path segments.
 
 :   ![](images/Path-InspectWindow.gif )
+
 :   
     
 *Above: [Path Inspection](Path_Inspect.md) tool opens the G-Code Inspection dialog*
@@ -160,6 +167,7 @@ To start the simulation use the <img alt="" src=images/Path_Simulator.svg  style
 Adjust speed and accuracy and start the simulation with the <img alt="" src=images/Path_BPlay.svg  style="width:24px;"> (Play) button.
 
 :   ![](images/Path-Simulation.gif )
+
 :   
     
 *Above: [Path Simulation](Path_Simulator.md) in progress*
@@ -175,6 +183,7 @@ The final step to generate G-Code for the target mill is to postprocess the Job.
 -   Select the <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Path Postprocessing](Path_Post.md) tool to postprocess the file. This opens a G-Code window allowing inspection of the final output file before it is saved.
 
 :   ![](images/Path-PostOutput.gif )
+
 :   
     
 *Above: G-Code window allowing inspection of the final output file*

@@ -21,6 +21,10 @@ This tool draws a rounded rectangle by picking two opposite points. When startin
 -   After pressing the <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:24px;"> **Create rounded rectangle** toolbar button, click once to set the first corner, then move the mouse and click a second time to set the opposite corner.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
+## Notes
+
+See [Sketcher CreateRectangle](Sketcher_CreateRectangle#Notes.md).
+
 
 
 

@@ -20,7 +20,7 @@
 
 ## 描述
 
-线段工具用于创建两点定义的线段。它根据[Draft Tray中](Draft_Tray.md)[Draft Linestyle的设置来绘制线段](Draft_Linestyle.md)。此工具与[Draft Wire工具的行为基本相同](Draft_Wire.md)，唯独线段工具在绘制完一条两点的线段即停止工作。
+线段工具用于创建两点定义的线段。它根据[Draft Tray](Draft_Tray.md)中[Draft Linestyle](Draft_Linestyle.md)的设置来绘制线段。此工具与[Draft Wire](Draft_Wire.md)工具的行为基本相同，唯独线段工具在绘制完一条两点的线段即停止工作。
 
 
 </div>
@@ -57,7 +57,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -69,8 +69,8 @@ The single character keyboard shortcuts available in the task panel can be chang
     -   您也通过指定\"Length（长度）\"与\"Angle（角度）\"的值来定义点的极坐标。点击\"Angle\"边上的复选框来约束线段所指向的角度。您还可以点击**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮来插入点。
 -   按**R**键或点击relative复选框切换至*相对坐标*模式。如果开启了相对坐标模式，则第二个点的坐标将相对于第一个点而定（即以第一个点为基准）；否则两点采用绝对坐标定义，即基于原点(0,0,0)而定。
 -   按**T**键或点击continue复选框切换至*连续*模式。如果开启了连续模式，则在指定某线段第二个端点后，线段绘制工具将自动重启并继续下条线段的绘制，而不必再次按线段工具按钮。
--   在将端点强制绘至最近[捕捉位置时](Draft_Snap.md)，按住**Ctrl**。
--   在绘制第二端点时，按住**Shift**键来[约束（constrain）它的位置位于第一个点的水平方向或垂直方向](Draft_Constrain.md)。
+-   在将端点强制绘至最近[捕捉](Draft_Snap.md)位置时，按住**Ctrl**。
+-   在绘制第二端点时，按住**Shift**键来[约束（constrain）](Draft_Constrain.md)它的位置位于第一个点的水平方向或垂直方向。
 -   按**Ctrl**+**Z**键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> Undo}}按钮来撤销最近绘制的线段。
 -   按**Esc**键或点击**Close**按钮来终止当前命令。
 
@@ -91,9 +91,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 ## Properties
 
@@ -102,7 +101,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## 属性
 
-线段对象享有[Draft Wire的所有属性](Draft_Wire.md)，但是其中仅有部分属性适用于线段。
+线段对象享有[Draft Wire](Draft_Wire.md)的所有属性，但是其中仅有部分属性适用于线段。
 
 
 </div>
@@ -125,7 +124,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-借助下列函数即可在[宏与](macros.md)[Python控制台中使用线段绘制工具](Python.md)：
+借助下列函数即可在[宏](macros.md)与[Python](Python.md)控制台中使用线段绘制工具：
 
 
 </div>

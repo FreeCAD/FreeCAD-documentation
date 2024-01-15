@@ -9,11 +9,24 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> **Part Sweep** di FreeCAD serve per creare una faccia, un guscio o una forma solida da uno o più profili (la sezione trasversale), proiettati lungo un percorso.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Lo strumento Parte Sweep è simile a <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft/it.md), ma con l\'aggiunta di un percorso per definire la proiezione tra i profili.
 
-<img alt="Un solido sweep generato da un profilo (A) proiettato lungo un percorso (B)." src=images/Part_Sweep_simple.png  style="width:500px;">
+
+</div>
+
+<img alt="" src=images/Part_Sweep_simple.png  style="width:400px;"> 
+*A solid sweep generated from a single profile (A) distributed along a spine (B)*
 
 
 
@@ -55,9 +68,9 @@ Il percorso può essere costituito da una linea (bordo) o una serie di linee col
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
 
-## Properties
+## Options
 
-### Solid
+#### Solid
 
 
 <div class="mw-translate-fuzzy">
@@ -71,7 +84,7 @@ Se \"Solid\" è impostato \"true\" FreeCAD crea un solido se i profili sono dell
 
 </div>
 
-### Frenet
+#### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
@@ -85,9 +98,15 @@ Se \"Solid\" è impostato \"true\" FreeCAD crea un solido se i profili sono dell
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sulla curvatura e tangenza dei vettori locali del percorso. Ciò mantiene l\'orientamento del profilo coerente quando si muove lungo un\'elica (in quanto il vettore di curvatura di un\'elica punta sempre al suo asse). Tuttavia, quando percorso non è un\'elica, la forma risultante può a volte avere strane torsioni. Per maggiori informazioni vedere [Frenet Serret formulas](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
-### Transition
+
+</div>
+
+#### Transition
 
 
 <div class="mw-translate-fuzzy">
@@ -99,43 +118,71 @@ Se \"Frenet\" è \"true\" l\'orientamento del profilo è calcolato basandosi sul
 
 </div>
 
-## Profile limitations and complications 
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Sweep object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Sweep}}
 
-## Limitazioni e complicazioni dei profili 
+-    **Sections|LinkList**: lists the sections used.
 
--   Un vertice o un punto
-    -   vertice o punto possono essere utilizzati solo come primo e/o ultimo profilo nella lista dei profili.
-        -   Per esempio
-            -   non si può realizzare uno Sweep da un cerchio ad un punto,e poi ad una ellisse.
-            -   Tuttavia si può realizzare uno Sweep da un punto a un cerchio a un\'ellisse a un altro punto.
--   Profili geometrici aperti o chiusi non possono essere mischiati in un unico Sweep
-    -   In uno Sweep, tutti i profili usati (wire, linee ecc) devono essere dello stesso tipo, aperto o chiuso.
-        -   Per esempio
-            -   FreeCAD non può creare uno Sweep tra un cerchio di Parte e una linea di default di Parte.
--   Funzioni di Draft
-    -   Le Funzioni di Draft possono essere utilizzate direttamente come profilo in FreeCAD 0.14 o versioni successive.
-        -   Ad esempio, le seguenti funzioni di Draft possono essere utilizzate come profili in un Sweep Parte
-            -   Poligono.
-            -   Punto, Linea, Wire
-            -   B-spline, Curva di Bezier
-            -   Cerchio, Ellisse, Rettangolo
--   Schizzi e PartDesign
-    -   Il profilo può essere creato con uno schizzo. Tuttavia solo gli schizzi validi verranno visualizzati nell\'elenco di quelli disponibili per la selezione.
-    -   Lo schizzo deve contenere un solo wire o linea aperta o chiusa (può essere composto da più segmenti, in quanto se questi segmenti sono tutti collegati costituiscono un unico wire)
--   Part
-    -   il profilo può essere una primitiva geometrica valida di Part che può essere creata con lo strumento [Crea Primitive](Part_CreatePrimitives/it.md)
-        -   Per esempio le seguenti primitive geometriche di Part possono essere un profilo valido
-            -   Punto (Vertex), Linea (Edge)
-            -   Elica, Spirale
-            -   Cerchio, Ellisse
-            -   Poligono regolare
-            -   Piano (Face)
+-    **Spine|LinkSub**: spine (path) to sweep along.
 
+-    **Solid|Bool**: true or false (default). True creates a Solid.
 
-</div>
+-    **Frenet|Bool**: true or false (default). True uses Frenet algorithm.
+
+-    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right corner* or *Round corner*.
+
+## Limitations
+
+### Vertex or point 
+
+A vertex or point may only be used as the first and/or last profile.
+For example:
+
+-   You cannot Sweep from a circle to a point, to an ellipse.
+-   You can however Sweep from a point to a circle to an ellipse to another point.
+
+### Profiles
+
+In one Sweep, all profiles (lines wires etc.) must be either open or closed.
+For example:
+
+-   FreeCAD cannot Sweep between a Part Circle and a Part Line.
+
+### Sketches
+
+-   The profile may be created with a sketch. However only valid sketches will be available for selection in the task panel.
+-   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire).
+
+### Draft Workbench objects 
+
+A profile can be a [Draft Workbench](Draft_Workbench.md) object.
+The following objects can be valid profiles:
+
+-   Point
+-   Line, Wire
+-   B-spline, Bézier Curve
+-   Circle, Ellipse
+-   Rectangle, Polygon
+
+### Part Workbench objects 
+
+A profile can be a Part object created with the [Part Primitives](Part_Primitives.md) command.
+The following objects can be valid profiles:
+
+-   Point (Vertex)
+-   Line (Edge)
+-   Helix, Spiral
+-   Circle, Ellipse
+-   Regular Polygon
+-   Plane (Face)
 
 ## Links
 

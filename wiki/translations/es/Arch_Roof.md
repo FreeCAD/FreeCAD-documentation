@@ -85,6 +85,11 @@ La herramienta Techo le permite crear un techo inclinado a partir de un wire sel
 
 ## Propiedades
 
+### Data
+
+
+{{TitleProperty|Roof}}
+
 
 <div class="mw-translate-fuzzy">
 

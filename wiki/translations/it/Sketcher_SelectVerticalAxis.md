@@ -9,7 +9,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Seleziona l\'asse verticale di uno schizzo.
+
+
+</div>
 
 
 

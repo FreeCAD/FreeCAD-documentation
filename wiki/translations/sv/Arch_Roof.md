@@ -41,7 +41,7 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 3.  The default roof object could have a strange shape, it\'s because the tool is missing some necessary information.
 
-4.  After creating the default roof, double click on the object in the [tree view](tree_view.md) to access and edit all the properties. Angle must be between 0 and 90.
+4.  After creating the default roof, double click on the object in the [tree view](Tree_view.md) to access and edit all the properties. Angle must be between 0 and 90.
 
     :   ![](images/RoofTable.png )
 
@@ -67,17 +67,30 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 ## Properties
 
--    **Angles**: List of the slope angle of the roof pane (an angle for each edge in the wire).
+### Data
 
--    **Runs**: List of the width of the roof pane (a run for each edge in the wire).
 
--    **IdRel**: List of relation Id of the slope angle of the roof.
+{{TitleProperty|Roof}}
 
--    **Thickness**: List of thickness of the roof pane. (a thickness for each edge in the wire).
+-    **Angles|FloatList**: The list of angles of the roof segments.
 
--    **Overhang**: List of the overhang of the roof pane (an overhang for each edge in the wire).
+-    **Border Length|Length**: The total length of the borders of the roof.
 
--    **Face**: The face index of the base object to be used (not really used).
+-    **Face|Integer**: The face number of the base object used to build the roof (not used).
+
+-    **Flip|Bool**: Specifies if the direction of the roof should be flipped.
+
+-    **Heights|FloatList**: The list of calculated heights of the roof segments.
+
+-    **Id Rel|IntegerList**: The list of IDs of the relative profiles of the roof segments.
+
+-    **Overhang|FloatList**: The list of overhangs of the roof segments.
+
+-    **Ridge Length|Length**: The total length of the ridges and hips of the roof.
+
+-    **Runs|FloatList**: The list of horizontal length projections of the roof segments.
+
+-    **Thickness|FloatList**: The list of thicknesses of the roof segments.
 
 ## Scripting
 

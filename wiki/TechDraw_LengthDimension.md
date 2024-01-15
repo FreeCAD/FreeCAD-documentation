@@ -21,7 +21,7 @@ The **TechDraw LengthDimension** tool adds a linear dimension to a View. The dim
     -   Select two points.
     -   Select a single straight edge.
     -   Select two edges. If both edges are straight they must be parallel. This will produce a perpendicular dimension if an endpoint of one of the edges has a perpendicular projection on the other edge (the resultant point must lie on the actual edge). If multiple solutions are possible, the endpoint that is closest to its projected point is used. If there is no valid perpendicular projection, the dimension will be the distance between the nearest endpoints of the edges.
-    -   Select a point and an edge. This will produce a perpendicular dimension if the point has a perpendicular projection on the actual edge. Else the dimension will be the distance between the point and the nearest endpoint of the edge.
+    -   Select a point and an edge. This will produce a perpendicular dimension. In {{VersionMinus|0.21}} the dimension will only be perpendicular if the point has a perpendicular projection on the actual edge. Else the dimension will be the distance between the point and the nearest endpoint of the edge.
 2.  If you have selected geometry in the 3D view: add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Insert Length Dimension](TechDraw_LengthDimension.md)** button.
@@ -308,9 +308,13 @@ See [Landmark Dimensions](TechDraw_LandmarkDimension.md) for another approach to
 :   
 
     :   <img alt="Differences between the supported standards" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+
     :   ISO Oriented - drawn according to the standard ISO 129-1, text is rotated to be parallel with the dimension line tangent.
+
     :   ISO Referencing - drawn in compliance with ISO 129-1, text is always horizontal, above the shortest possible reference line.
+
     :   ASME Inlined - drawn according to the standard ASME Y14.5M, text is horizontal, inserted in a break within the dimension line or arc.
+
     :   ASME Referencing - drawn in compliance with ASME Y14.5M, text is horizontal, short reference line is attached to one side\'s vertical center.
 
 ## Scripting
@@ -321,10 +325,10 @@ The Length Dimension tool can be used in [macros](Macros.md) and from the [Pytho
 
  
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::DrawViewDimension", "Dimension")
 dim1.Type = "Distance"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
+dim1.References2D=[(view1, "Edge1")]
+page.addView(dim1)
 ```
 
 

@@ -27,14 +27,15 @@ This category lists pages related to the [Part Workbench/it](Part_Workbench/it.m
 | [Part Offset2D/it](Part_Offset2D/it.md) | [Part Plane/it](Part_Plane/it.md) | [Part Point/it](Part_Point/it.md) |
 | [Part PointsFromMesh/it](Part_PointsFromMesh/it.md) | [Part Primitives/it](Part_Primitives/it.md) | [Part Prism/it](Part_Prism/it.md) |
 | [Part ProjectionOnSurface/it](Part_ProjectionOnSurface/it.md) | [Part RefineShape/it](Part_RefineShape/it.md) | [Part RegularPolygon/it](Part_RegularPolygon/it.md) |
-| [Part ReverseShapes/it](Part_ReverseShapes/it.md) | [Part Revolve/it](Part_Revolve/it.md) | [Part RuledSurface/it](Part_RuledSurface/it.md) |
-| [Part scripting/it](Part_scripting/it.md) | [Part Section/it](Part_Section/it.md) | [Part ShapeFromMesh/it](Part_ShapeFromMesh/it.md) |
-| [Part SimpleCopy/it](Part_SimpleCopy/it.md) | [Part Slice/it](Part_Slice/it.md) | [Part SliceApart/it](Part_SliceApart/it.md) |
-| [Part Sphere/it](Part_Sphere/it.md) | [Part Spiral/it](Part_Spiral/it.md) | [Part Sweep/it](Part_Sweep/it.md) |
-| [Part Thickness/it](Part_Thickness/it.md) | [Part TopoShape/it](Part_TopoShape/it.md) | [Part Torus/it](Part_Torus/it.md) |
-| [Part TransformedCopy/it](Part_TransformedCopy/it.md) | [Part Tube/it](Part_Tube/it.md) | [Part Wedge/it](Part_Wedge/it.md) |
-| [Part XOR/it](Part_XOR/it.md) | [Shape/it](Shape/it.md) | [Thread for Screw Tutorial/it](Thread_for_Screw_Tutorial/it.md) |
-| [Topological naming problem/it](Topological_naming_problem/it.md) | [Whiffle Ball tutorial/it](Whiffle_Ball_tutorial/it.md) |
+| [Part ReverseShape/it](Part_ReverseShape/it.md) | [Part Revolve/it](Part_Revolve/it.md) | [Part RuledSurface/it](Part_RuledSurface/it.md) |
+| [Part Scale/it](Part_Scale/it.md) | [Part scripting/it](Part_scripting/it.md) | [Part Section/it](Part_Section/it.md) |
+| [Part ShapeFromMesh/it](Part_ShapeFromMesh/it.md) | [Part SimpleCopy/it](Part_SimpleCopy/it.md) | [Part Slice/it](Part_Slice/it.md) |
+| [Part SliceApart/it](Part_SliceApart/it.md) | [Part Sphere/it](Part_Sphere/it.md) | [Part Spiral/it](Part_Spiral/it.md) |
+| [Part Sweep/it](Part_Sweep/it.md) | [Part Thickness/it](Part_Thickness/it.md) | [Part TopoShape/it](Part_TopoShape/it.md) |
+| [Part Torus/it](Part_Torus/it.md) | [Part TransformedCopy/it](Part_TransformedCopy/it.md) | [Part Tube/it](Part_Tube/it.md) |
+| [Part Wedge/it](Part_Wedge/it.md) | [Part XOR/it](Part_XOR/it.md) | [Shape/it](Shape/it.md) |
+| [Thread for Screw Tutorial/it](Thread_for_Screw_Tutorial/it.md) | [Topological naming problem/it](Topological_naming_problem/it.md) | [Whiffle Ball tutorial/it](Whiffle_Ball_tutorial/it.md) |
+|
 
 
 

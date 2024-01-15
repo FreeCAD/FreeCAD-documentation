@@ -2,7 +2,7 @@
  TutorialInfo:l
    Topic: Generator szablonów - makrodefinicja Python
    Level: Podstawowa znajomość środowiska Python i struktur svg jest przydatna
-   FCVersion: 0.19.1 i nowszy
+   FCVersion: 0.21 i nowszy
    Time: ''''
    Author: User:FBXL5
    SeeAlso: Macro_TemplateHelper/pl
@@ -27,6 +27,8 @@ Poniższe przykłady kodu można skopiować i wkleić do pustego pliku tekstoweg
 Szablon stanowi tło dla zadań rysunkowych, a jego wymiary są wykorzystywane przez sterowniki drukarki do prawidłowego skalowania rysunku.
 
 Szablony są plikami svg, więc makrodefinicja musi skomponować kilka linii kodu svg *(który jest podzbiorem kodu xml)*.
+
+**Uwaga:** Kiedy FreeCAD został przeniesiony z **freecadweb.org** do **freecad.org**, ta strona została odpowiednio zaktualizowana, a wynikowy kod SVG nie jest już kompatybilny z wersjami FreeCAD starszymi niż v0.21. W przypadku tych wersji należy ręcznie zmienić {{Incode|freecad.org}} na {{Incode|freecadweb.org}} w wierszu deklaracji przestrzeni nazw w wynikowym kodzie SVG, w przeciwnym razie edytowalne teksty nie zostaną rozpoznane.
 
 
 
@@ -70,7 +72,7 @@ Struktura zaczyna się od znacznika otwierającego, który zawiera informacje o 
 
 :   **xmlns=**<http://www.w3.org/2000/svg>\'\'\': Zewnętrzny link do przestrzeni nazw xml, aby wyszukać standardowe polecenia xml.
 :   **version=**\"1.1\": Używana wersja xml to 1.1
-:   **xmlns:freecad=**\"[Svg Namespace](https://wiki.freecad.org/index.php?title=Svg_Namespace)\": Zewnętrzny odnośnik do rozszerzenia przestrzeni nazw programu FreeCAD w celu wyszukania specjalnych poleceń, które są używane tylko wewnątrz środowiska FreeCAD np. dla tekstów edytowalnych.
+:   **xmlns:freecad=**\...=Svg_Namespace\": Zewnętrzny link do rozszerzenia FreeCAD [Svg Namespace](Svg_Namespace/pl.md), aby wyszukać specjalne polecenia, które są używane tylko w środowisku FreeCAD, np. dla tekstów edytowalnych.
 :   \"freecad:\" będzie poprzedzone nazwami atrybutów, aby były one obsługiwane przez wspomniane specjalne polecenia.
 :   **width=** \"420mm\": Szerokość obszaru rysowania.
 :   **height=** \"297mm\": Wysokość obszaru rysowania.
@@ -85,7 +87,7 @@ Dla pustej strony rozmiar DIN A3 w orientacji poziomej to wszystko.
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">

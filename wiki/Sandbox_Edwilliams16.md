@@ -101,7 +101,7 @@ represents a rotation of theta about the unit_vector axis. It is unlikely you wi
 
 Uses Euler Angles. (see below)
 
-​ <https://wiki.freecadweb.org/Placement>
+​<https://wiki.freecadweb.org/Placement>
 
 \-- Vector (rotation axis) and float (rotation angle)
 

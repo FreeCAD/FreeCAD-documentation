@@ -463,6 +463,7 @@ Since the AppImage only works for Linux, for Windows users (who want an alternat
 There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+
 :   *Final Result of the Getting Started Example. In the image the Assembly3 Workbench is selected, so its multiple toolbars are visible. Note that the vertical \"TabBar\" left of the tree view is an AddOn Workbench that is not contained in standard FreeCAD (but can be installed with the Addon-Manager).*
 
 -   Press **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** to create a new FreeCAD file

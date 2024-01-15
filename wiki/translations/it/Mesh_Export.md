@@ -21,7 +21,7 @@ Il comando **Esporta mesh** esporta un oggetto mesh in un formato file mesh. Son
 
 1.  Selezionare un singolo oggetto mesh.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Mesh_Export.svg" width=16px> Esporta mesh**.
+    -   Premere il pulsante **<img src="images/Mesh_Export.svg" width=16px> [Esporta mesh...](Mesh_Export/it.md)**.
     -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Export.svg" width=16px> Esporta mesh...** dal menu.
     -   Selezionare l\'opzione **<img src="images/Mesh_Export.svg" width=16px> Esporta mesh...** dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
 3.  Selezionare il formato file corretto nella finestra di dialogo.

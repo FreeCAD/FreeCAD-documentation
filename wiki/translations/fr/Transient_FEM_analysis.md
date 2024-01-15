@@ -41,11 +41,11 @@
 
 ### Affecter les matériaux 
 
-Dans l'atelier FEM, nous créons une nouvelle <img alt="" src=images/FEM_Analysis.svg  style="width:20px;"> analyse et ajoutons un nouveau <img alt="" src=images/FEM_MaterialSolid.svg  style="width:20px;"> matériau à l\'analyse. Dans la fenêtre de tâches à venir, nous sélectionnons l\'un des alliages d\'aluminium prédéfinis. Sous \'geometry reference selector\' (sélecteur de référence de géométrie), nous affectons le matériau à la bande inférieure de notre modèle en définissant le mode de sélection sur \'solid\', en cliquant sur \'add\' et en sélectionnant une face ou un bord de la bande inférieure. Dans la vue liste, \'BooleanFragments:Solid1\' devrait apparaître.
+Dans l'atelier FEM, nous créons une nouvelle <img alt="" src=images/FEM_Analysis.svg  style="width:20px;"> analyse et ajoutons un nouveau <img alt="" src=images/FEM_MaterialSolid.svg  style="width:20px;"> matériau à l\'analyse. Dans la fenêtre de tâches à venir, nous sélectionnons l\'un des alliages d\'aluminium prédéfinis. Sous \'geometry reference selector\' (sélecteur de référence de géométrie), nous affectons le matériau à la bande inférieure de notre modèle en définissant le mode de sélection sur \"solid\", en cliquant sur \"ajouter\" et en sélectionnant une face ou un bord de la bande inférieure. Dans la vue liste, \"BooleanFragments:Solid1\" devrait apparaître.
 
 <img alt="" src=images/Transient_FEM_Bimetal_(2).JPG  style="width:700px;">
 
-Nous fermons la fenêtre de la tâche et répétons les étapes pour créer un deuxième matériau « acier » (carte de matériau \'CalculiX-Steel\') et l\'affecter à la bande supérieure (\'BooleanFragments:Solid2\').
+Nous fermons la fenêtre de la tâche et répétons les étapes pour créer un deuxième matériau \"Steel\" (jeu de paramètres de matériau de \"CalculiX-Steel\") et l\'affectons à la bande supérieure (\"BooleanFragments:Solid2\").
 
 
 

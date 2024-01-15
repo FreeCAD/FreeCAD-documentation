@@ -7,7 +7,7 @@
 
 ## Description
 
-The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](Part_Thickness.md) tool works on a solid shape and transforms it into a hollow object, giving to each of its faces a defined thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
+The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](Part_Thickness.md) tool works on a solid shape and transforms it into a hollow object, giving to each of its faces a defined and constant thickness. On some solids it allows you to significantly speed up the work, and avoids making extrusions and pockets.
 
 ## Usage
 
@@ -20,27 +20,48 @@ The <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Thickness](
 
 ## Options
 
--   Thickness: Wall thickness of the resulting object, set the desired value
+-    **Thickness**: Wall thickness of the resulting object, set the desired value.
+
     -   A positive value will offset the faces outward
     -   A negative value will offset the faces inward
 
--   Mode
-    -   Skin: Select this option if you want to get an item like a vase, headless but with the bottom
-    -   Pipe: Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
-    -   RectoVerso:
+-    **Mode**-   
+        **Skin**
+        
+        : Select this option if you want to get an item like a vase, headless but with the bottom.
 
--   Join Type
-    -   Arc: removes the outer edges and create a fillet with a radius equal to the thickness defined
-    -   Tangent:
-    -   Intersection:
+    -   
+        **Pipe**
+        
+        : Select this option if you want to get an object like a pipe, headless and bottomless. In this case it may be convenient to select the faces to be deleted before you start the tool. Helping with predefined views buttons or use the numeric keys.
 
--   Intersection:
+    -   
+        **Recto Verso**
+        
+        :
 
--   Self-intersection: Enables self-intersection
+-    **Join Type**-   
+        **Arc**
+        
+        : removes the outer edges and create a fillet with a radius equal to the thickness defined.
 
--    **Faces**: Select the faces to be removed, then click **Done**
+    -   
+        **Tangent**
+        
+        :
 
--   Update view: Automatically updates the view in real time
+    -   
+        **Intersection**
+        
+        :
+
+-    **Intersection**:
+
+-    **Self-intersection**: Enables self-intersection.
+
+-    **Faces**: Select the faces to be removed, then click **Done**.
+
+-    **Update view**: Automatically updates the view in real time.
 
 ## Notes
 

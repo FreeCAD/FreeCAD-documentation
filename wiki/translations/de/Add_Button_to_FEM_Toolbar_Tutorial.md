@@ -38,7 +38,7 @@ Sie muss hier abgelegt werden: `src/Mod/Fem/Gui/Resources/icons/`.
 
 ## Die neue Symboldatei registrieren 
 
-The new SVG icon file has to be registered for the GUI-button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
+The new SVG icon file has to be registered for the GUI button by inserting it in `src/Mod/Fem/Gui/Resources/Fem.qrc`:
 
 
 {{code|code=

@@ -1,21 +1,20 @@
-# Part Extrude/it
 ---
- GuiCommand:   Name: Part_Extrude   Name/it: Estrusione   MenuLocation: Parte , Estrudi...   Workbenches: Part_Workbench/it   Parte---
+ GuiCommand:
+   Name: Part Extrude
+   Name/it: Part Estrudi
+   MenuLocation: Parte , Estrudi...
+   Workbenches: Part_Workbench/it
+   SeeAlso: Draft Trimex/it,
+PartDesign_Pad/it
+---
+
+# Part Extrude/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-**Estrusione** dell\'ambiente Parte estende una forma per una determinata distanza e in una direzione specifica. Il tipo di forma prodotta varia a seconda del tipo di forma in input e le opzioni selezionate.
-
-
-</div>
+**Part Estrudi** estende una forma ad una distanza specificata, in una direzione specificata. Il tipo di forma di output varierà in base al tipo di forma di input e alle opzioni selezionate.
 
 Di solito, secondo il tipo di forma in ingresso, si ottiene le seguente forma:
 
@@ -25,69 +24,40 @@ Di solito, secondo il tipo di forma in ingresso, si ottiene le seguente forma:
 -   Estrudere un Wire aperto (es. un Draft Wire), produce un guscio aperto (diverse facce unite)
 -   Estrudere un Wire chiuso (es. un Draft Wire), produce a scelta un guscio oppure se il parametro \"solid\" è \"true\" produce un solido
 -   Estrudere una faccia (es. piano), produce un solido (es. Cuboide)
--   Estrudere una <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> [Draft Shape String](Draft_ShapeString/it.md), produce un composto di solidi (la stringa è un composto di lettere che sono ciascuna un solido)
+-   Estrudere una <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> [Draft Forma da testo](Draft_ShapeString/it.md), produce un composto di solidi (la stringa è un composto di lettere che sono ciascuna un solido)
 -   Estrudere una shell di facce, produce un Compsolid.
 
 ![600px](images/Part_Extrude_demo.png)
 
 
 
-*Examples of extrusion*
-
-## Usage
+*Esempi di estrusione*
 
 
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-1.  Selezionare la forma nella vista 3D o nell\'albero del modello
-2.  Cliccare sull\'icona **<img src="images/Part_Extrude.svg" width=16px> '''Estrudi'''** nella barra degli strumenti, oppure andare nel menu Part → Estrudi
-3.  Impostare la direzione e la lunghezza e opzionalmente altri parametri, per maggiori informazioni vedere la sezione [Parametri](#Parametri.md).
-4.  Cliccare su OK.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+1.  Selezionare la forma o le forme nella [vista 3D](3D_view/it.md) o nel modello [vista ad albero](Tree_view/it.md)
+2.  Fare clic sul pulsante **<img src="images/Part_Extrude.svg" width=16px> [Part Estrudi](Part_Extrude/it.md)
+** nella barra degli strumenti o dal menu **Parte → Estrudi...**
+3.  Impostare la direzione, la lunghezza e facoltativamente altri parametri (vedere la seguente sezione [Parametri](#Parametri.md) per maggiori dettagli).
+4.  Fare clic su **OK**.
 
 In alternativa, la selezione può essere fatta dopo aver avviato lo strumento, selezionando una o più forme della lista nel [pannello Azioni](Task_panel/it.md).
 
-
-</div>
-
 L\'albero del modello elenca tanti oggetti estrusi quante erano le forme selezionate. Ogni forma di partenza è posizionata sotto il suo oggetto estrusione.
 
-## Parameters
 
-
-<div class="mw-translate-fuzzy">
 
 ## Parametri
 
-La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazione possono essere modificati nella scheda Dati.
+La forma di estrusione è definita dai seguenti parametri, che possono essere modificati dopo la sua creazione nell\'[Editor delle proprietà](Property_editor/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Base**: la forma di input (la forma su cui è stata applicata l\'estrusione Part)
-
-
-</div>
+-   **Base**: la forma di input (la forma su cui è stata applicata Part Estrudi).
 
 -   **Dir**: la direzione in cui estendere la forma. Se **Dir Mode** è \'Custom\', si può modificare **Dir**. Altrimenti, **Dir** è di sola lettura ed è calcolata dalla forma collegata.
 
-
-<div class="mw-translate-fuzzy">
-
--   **Dir Link**: collegamento parametrico a un bordo (linea) che imposta la direzione dell\'estrusione. Dalla v0.17, questa proprietà non è supportata dall\'editor delle proprietà.
-
-
-</div>
+-   **Dir Link**: collegamento parametrico a un bordo (linea) che imposta la direzione dell\'estrusione.
 
 -   **Dir Mode**: imposta il controllo di **Dir**. \'Custom\' significa che **Dir** è modificabile. \'Edge\' significa che Dir è ottenuta da un bordo (linea) collegato a **Dir Link**. \'Normal\' significa che Dir è perpendicolare al piano della forma di input.
 
@@ -101,35 +71,26 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 -   **Symmetric**: se True, l\'estrusione è centrata sulla forma di input e la lunghezza totale è **Length Fwd**. **Length Rev** viene ignorata.
 
+-   **Taper Angle** e **Taper Angle Rev**: applica un angolo all\'estrusione, in modo che i lati dell\'estrusione vengano disegnati secondo l\'angolo specificato. Un angolo positivo significa che la sezione trasversale si espande. **Taper Angle Rev** imposta la conicità per la parte invertita dell\'estrusione (la parte indicata da **Length Rev**).
+    -   
+        {{Version/it|0.20}}
+        
+        Le strutture interne ricevono l\'angolo di rastremazione opposto. Questo viene fatto per facilitare la progettazione di stampi e parti stampate.
 
-<div class="mw-translate-fuzzy">
-
--   **Taper Angle** e **Taper Angle Rev**: applica un angolo all\'estrusione, in modo che i lati dell\'estrusione vengano disegnati secondo l\'angolo specificato. Un angolo positivo significa che la sezione trasversale si espande. **Taper Angle Rev** imposta la conicità per la parte invertita dell\'estrusione (la parte indicata da **Length Rev**). Dalla v0.17, l\'estrusione rastremata è supportata solo per i contorni senza fori. La conicità non funziona bene se la forma estrusa contiene delle B-spline.
-
-
-</div>
+    -   
+        {{VersionMinus/it|0.19}}
+        
+        L\'estrusione rastremata è supportata solo per forme senza strutture interne. La rastremazione non funziona bene se la forma contiene B-spline.
 
 -   **Face Maker Class**: imposta il nome della classe C++ del codice di creazione della faccia, che viene utilizzato quando si creano dei solidi dai contorni. Questa proprietà serve principalmente per mantenere la compatibilità con le versioni precedenti. Non toccare, a meno che non si sappia esattamente cosa si sta facendo.
 
-
-<div class="mw-translate-fuzzy">
-
 -   **Placement**: i parametri standard di [posizionamento](Placement/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Label**: etichetta da mostrare nell\'albero del modello (non disponibile nella creazione dell\'estrusione)
-
-
-</div>
+-   **Label**: etichetta da mostrare nella [vista ad albero](Tree_view/it.md) del modello (non disponibile nella creazione dell\'estrusione).
 
 
 
-## Finestra di dialogo delle azioni 
+## Pannello Azioni 
 
 ![](images/Part_Extrude_dialog.png )
 
@@ -141,13 +102,7 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 -   \'Direction\' pulsante di opzioni: imposta il modo in cui viene calcolata la direzione di estrusione.
 
-
-<div class="mw-translate-fuzzy">
-
--    **Select**fare clic su di esso, quindi selezionare un bordo nella vista 3D. Questo bordo appare nel campo di testo accanto al pulsante, nel formato \"ObjectName:EdgeN\". Si può anche digitare il link manualmente. I valori X, Y, Z sono riempiti secondo la direzione del bordo.
-
-
-</div>
+-    **Select**fare clic su di esso, quindi selezionare un bordo nella [Vista 3D](3D_view/it.md). Questo bordo appare nel campo di testo accanto al pulsante, nel formato \"ObjectName:EdgeN\". Si può anche digitare il link manualmente. I valori X, Y, Z sono riempiti secondo la direzione del bordo.
 
 -   pulsanti **X**, **Y**, **Z** fare clic sul pulsante X per impostare la direzione dell\'estrusione sull\'asse X positivo. Fare nuovamente clic per impostare l\'asse X negativo.
 
@@ -163,51 +118,27 @@ La forma Estrusione è definita dai seguenti parametri, che dopo la sua creazion
 
 -   Shape list: qui si seleziona quali forme estrudere. Se sono selezionati più oggetti, vengono creati più oggetti di estrusione.
 
-## Notes
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and to specify the direction. <small>(v0.20)</small> 
 
 
-<div class="mw-translate-fuzzy">
+## Note
 
-## Suggerimenti
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetti appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come profili e per specificare la direzione. {{Version/it|0.20}}
 
-La finestra di dialogo Part Extrude non offre ancora un\'anteprima. **Applica** crea un oggetto estrusione ogni volta che si fa clic su di esso, e questo può essere utile come anteprima, ma queste rimangono anche quando si fa clic su **OK** per creare la forma definitiva. Per pulire il modello può essere utile cliccare su [Annulla](Std_Undo/it.md) prima di fare clic su **OK**.
-
-
-</div>
+-   La finestra di dialogo delle attività non offre ancora un\'anteprima. Il pulsante **Applica** creerà una estrusione ogni volta che si fa clic su di esso, che può essere utile come anteprima; tuttavia, l\'estrusione rimarrà e ne verrà creata una ulteriore quando si farà clic su **OK**. [Annulla](Std_Undo/it.md) può essere utile per ripulirla prima di fare clic su **OK**.
 
 
 
+## Comparazione con PartDesign Estrusione 
 
-<div class="mw-translate-fuzzy">
+Anche [PartDesign Estrusione](PartDesign_Pad/it.md) è una funzionalità di estrusione, ma presenta importanti differenze:
 
-## Comparazione con il [Pad di PartDesign](PartDesign_Pad/it.md) 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Il Pad di PartDesign è anche una funzione di estrusione, ma ci sono delle differenze importanti.
-
-
-</div>
-
--   Part Extrude always creates a standalone shape. PartDesign Pad fuses the extrusion result to the rest of the Body.
--   Part Extrude doesn\'t care where it is in model tree. PartDesign Pad can only live inside a [PartDesign Body](PartDesign_Body.md).
--   Part Extrude can extrude any object that has a Part geometry ([OpenCASCADE](OpenCASCADE.md) shape), except for solids and CompSolids.
--   Part Extrude can extrude individual faces of other objects. PartDesign Pad will only accept either Sketch or faces of PartDesign objects as a profile.
-
-
-<div class="mw-translate-fuzzy">
+-   Part Estrudi crea sempre una forma autonoma. PartDesign Estrusione fonde il risultato dell\'estrusione con il resto del corpo.
+-   Part Estrudi non è importante dove si trova nell\'albero del modello. PartDesign Estrusione può esistere solo all\'interno di un [PartDesign Corpo](PartDesign_Body/it.md).
+-   Part Estrudi può estrudere qualsiasi oggetto che abbia una geometria Part (forma [OpenCASCADE](OpenCASCADE/it.md)), ad eccezione dei solidi e dei CompSolid.
+-   Part Estrudi può estrudere singole facce di altri oggetti. PartDesign Estrusione accetterà come profilo solo lo schizzo o le facce degli oggetti PartDesign.
 
 
 
-
-
-</div>
 
 
 {{Part_Tools_navi

@@ -185,7 +185,13 @@ Todas las herramientas del Ambiente de Trabajo Croquiz se encuentran en el menú
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;">[Reorientar croquis](Sketcher_ReorientSketch/es.md): Permite adjuntar el boceto a uno de los planos principales.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;">[Validar el boceto](Sketcher_ValidateSketch/es.md): Verificar la tolerancia de los diferentes puntos y ajustarlos.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_MergeSketch.svg‎  style="width:32px;"> [Fusionar croquis](Sketcher_MergeSketches/es.md): Fusiona dos o más croquis
 
@@ -229,33 +235,19 @@ Estas son las herramientas para la creación de objetos.
 
 -   <img alt="" src=images/Sketcher_Line.svg  style="width:32px;"> [Línea](Sketcher_CreateLine/es.md): Dibuja un segmento de línea entre 2 puntos. Las líneas son infinitas en lo que respecta a ciertas restricciones.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Crear un arco](Sketcher_CompCreateArc/es.md): Este es un menú de iconos en la barra de herramientas de Sketcher que contiene los siguientes comandos:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
   - <img alt="" src=images/Sketcher_Arc.svg  style="width:32px;"> [Arco](Sketcher_CreateArc/es.md): Dibuja un segmento de arco dada por el centro, radio, ángulo inicial y ángulo final.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arco a través de 3 Puntos](Sketcher_Create3PointArc/es.md): Dibuja un segmento de arco entre dos puntos y un tercer punto que se haya en la circumferencia.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Crear un círculo](Sketcher_CompCreateCircle/es.md): Este es un menú de iconos en la barra de herramientas de Boceto que contiene los siguientes comandos:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
   - <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [Círculo](Sketcher_CreateCircle/es.md): Dibuja un círculo desde el centro y el radio.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Círculo de 3 puntos](Sketcher_Create3PointCircle/es.md): Dibuja un círculo de tres puntos en la circunferencia.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:32px;"> [Crear una cónica](Sketcher_CompCreateConic/es.md): El dibujante proporciona las siguientes secciones cónicas.
-
-A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones como [Tangente](Sketcher_ConstrainTangent/es.md), [Punto en el objeto](Sketcher_ConstrainPointOnObject/es.md), o [Perpendicular](Sketcher_ConstrainPerpendicular/es.md).
-
--   -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipse definida por su centro](Sketcher_CreateEllipseByCenter/es.md) : Dibuja una elipse dado su punto central, un segundo punto definiendo el extremo del radio mayor y un tercer punto definiendo el extremo del radio menor.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Elipse a través de 3 puntos](Sketcher_CreateEllipseBy3Points/es.md) : Dibuja una elipse definiendo los dos extremos de su radio mayor y un punto definiendo su radio menor.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arco elíptico](Sketcher_CreateArcOfEllipse/es.md) : Dibuja un arco elíptico definido por punto central, un punto definiendo el extremo del radio mayor y dos puntos definiendo los extremos del arco elíptico.
-    -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arco hiperbólico](Sketcher_CreateArcOfHyperbola/es.md): Dibuja un arco hiperbólico.
-    -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arco parabólico](Sketcher_CreateArcOfParabola/es.md): Dibuja un arco parabólico.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
 
@@ -267,15 +259,7 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Crear una B-spline](Sketcher_CompCreateBSpline/es.md): Es un menú de iconos en la barra de herramientas de Sketcher que contiene los siguientes comandos:
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Crear B-spline](Sketcher_CreateBSpline/es.md): Dibuja una curva B-spline por sus puntos de control.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Crear B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md): Dibuja una curva B-spline periódica (cerrada) por sus puntos de control.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
@@ -293,13 +277,7 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Crear rectángulos](Sketcher_CompCreateRectangles/es.md): Es un menú de iconos en la barra de herramientas de Croquizador que contiene los siguientes comandos: {{Version/es|0.20}}
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectángulo](Sketcher_CreateRectangle/es.md): Dibuja un rectángulo dado por 2 puntos opuestos
 
@@ -319,13 +297,7 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Crear polígono regular](Sketcher_CompCreateRegularPolygon/es.md): Es un menú de iconos en la barra de herramientas de Sketcher que contiene los siguientes comandos:
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
 -   <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triángulo](Sketcher_CreateTriangle/es.md): Dibuja un triángulo regular inscrito en un círculo de geometría de construcción.
 
@@ -347,9 +319,19 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Ranura](Sketcher_CreateSlot/es.md): Dibuja un óvalo seleccionando el centro de un semicírculo y un punto final del otro semicírculo.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 
 <div class="mw-translate-fuzzy">
@@ -361,6 +343,8 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -369,12 +353,18 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 </div>
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Extender](Sketcher_Extend/es.md): Extiende una línea o un arco a una línea límite, arco, elipse, arco de elipse o un punto en el espacio.
-
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividir](Sketcher_Split/es.md): Divide una línea o un arco en dos, convierte un círculo en un arco manteniendo la mayoría de las restricciones. {{Version/es|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Extender](Sketcher_Extend/es.md): Extiende una línea o un arco a una línea límite, arco, elipse, arco de elipse o un punto en el espacio.
 
 
 </div>
@@ -409,17 +399,7 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
 
 Las restricciones son utilizadas para establecer reglas entre los elementos del croquis, y para bloquear el croquis a lo largo de los ejes verticales y horizontales. Algunas restricciones crean restricciones auxiliares adicionales [Restricciones auxiliares](Sketcher_helper_constraint/es.md)
 
-#### Geometric constraints 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Restricciones geométricas 
-
-Estas restricciones no están asociadas con datos numéricos.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -437,9 +417,25 @@ Estas restricciones no están asociadas con datos numéricos.
 
 </div>
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;">[Vertical](Sketcher_ConstrainVertical/es.md): Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación vertical. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal/es.md): Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación horizontal. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;">[Vertical](Sketcher_ConstrainVertical/es.md): Limita las líneas o elementos de polilínea seleccionados a una verdadera orientación vertical. Se puede seleccionar más de un objeto antes de aplicar esta restricción.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;">[Paralelo](Sketcher_ConstrainParallel/es.md): Restringir dos o más líneas paralelas entre sí.
 
@@ -453,23 +449,33 @@ Estas restricciones no están asociadas con datos numéricos.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Bloqueo](Sketcher_ConstrainBlock/es.md): bloquea el movimiento de un borde, es decir, impide que sus vértices cambien su posición actual. Debería ser particularmente útil para fijar la posición de las Líneas B. Ver el [Tema de foro Bloqueo de restricción](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Dimensional constraints 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
+
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
-#### Restricciones dimensionales 
-
-Se trata de restricciones asociadas a los datos numéricos, para los cuales se pueden utilizar las [expresiones](Expressions/es.md). Los datos pueden ser tomados de una [hoja de cálculo](Spreadsheet_Workbench/es.md).
+-   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Bloquear](Sketcher_ConstrainLock/es.md): Restringe el artículo seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de ese artículo. Estas distancias de restricción pueden ser editadas más tarde.
 
 
 </div>
 
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Bloquear](Sketcher_ConstrainLock/es.md): Restringe el artículo seleccionado estableciendo distancias verticales y horizontales relativas al origen, bloqueando así la ubicación de ese artículo. Estas distancias de restricción pueden ser editadas más tarde.
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Distancia Horizontal](Sketcher_ConstrainDistanceX/es.md): Fija la distancia horizontal entre dos puntos o puntos finales de líneas. Si solo se selecciona uno, la distancia se define respecto al origen.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;">[Distancia Vertical](Sketcher_ConstrainDistanceY/es.md): Fija la distancia vertical entre dos puntos o puntos finales de líneas. Si solo se selecciona uno, la distancia se define respecto al origen.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -478,8 +484,6 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -496,7 +500,7 @@ Se trata de restricciones asociadas a los datos numéricos, para los cuales se p
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 
 
@@ -614,6 +618,10 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -679,46 +687,6 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostrar/ocultar el grado de B-spline](Sketcher_BSplineDegree/es.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Mostrar/ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Mostrar/ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Mostrar/ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md), <small>(v0.19)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convertir la geometría en B-spline](Sketcher_BSplineApproximate/es.md)
 
 
@@ -760,9 +728,7 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
-
-
-### Espacio virtual del croquizador 
+### Sketcher visual 
 
 
 <div class="mw-translate-fuzzy">
@@ -771,6 +737,48 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostrar/ocultar el grado de B-spline](Sketcher_BSplineDegree/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Mostrar/ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Mostrar/ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/de.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Mostrar/ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md), <small>(v0.19)</small> 
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

@@ -22,12 +22,13 @@ Pages relating to Architectural and Building Information Management
 | [Arch Preferences/de](Arch_Preferences/de.md) | [Arch Profile/de](Arch_Profile/de.md) | [Arch Project/de](Arch_Project/de.md) |
 | [Arch Rebar BeamReinforcement/de](Arch_Rebar_BeamReinforcement/de.md) | [Arch Rebar BentShape/de](Arch_Rebar_BentShape/de.md) | [Arch Rebar Circular ColumnReinforcement/de](Arch_Rebar_Circular_ColumnReinforcement/de.md) |
 | [Arch Rebar ColumnReinforcement TwoTiesSixRebars/de](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de.md) | [Arch Rebar ColumnReinforcement/de](Arch_Rebar_ColumnReinforcement/de.md) | [Arch Rebar Dimensioning/de](Arch_Rebar_Dimensioning/de.md) |
-| [Arch Rebar Drawing Dimensioning/de](Arch_Rebar_Drawing_Dimensioning/de.md) | [Arch Rebar Drawing/de](Arch_Rebar_Drawing/de.md) | [Arch Rebar Helical/de](Arch_Rebar_Helical/de.md) |
-| [Arch Rebar LShape/de](Arch_Rebar_LShape/de.md) | [Arch Rebar Stirrup/de](Arch_Rebar_Stirrup/de.md) | [Arch Rebar Straight/de](Arch_Rebar_Straight/de.md) |
-| [Arch Rebar UShape/de](Arch_Rebar_UShape/de.md) | [Arch Rebar/de](Arch_Rebar/de.md) | [Arch Reference/de](Arch_Reference/de.md) |
-| [Arch Remove/de](Arch_Remove/de.md) | [Arch RemoveShape/de](Arch_RemoveShape/de.md) | [Arch Roof/de](Arch_Roof/de.md) |
-| [Arch Schedule/de](Arch_Schedule/de.md) | [Arch SectionPlane/de](Arch_SectionPlane/de.md) | [Arch SelectNonSolidMeshes/de](Arch_SelectNonSolidMeshes/de.md) |
-| [Arch SetMaterial/de](Arch_SetMaterial/de.md) | [Arch Site/de](Arch_Site/de.md) | [Arch Space/de](Arch_Space/de.md) |
+| [Arch Rebar Drawing Dimensioning/de](Arch_Rebar_Drawing_Dimensioning/de.md) | [Arch Rebar Drawing/de](Arch_Rebar_Drawing/de.md) | [Arch Rebar Footing Reinforcement/de](Arch_Rebar_Footing_Reinforcement/de.md) |
+| [Arch Rebar Helical/de](Arch_Rebar_Helical/de.md) | [Arch Rebar LShape/de](Arch_Rebar_LShape/de.md) | [Arch Rebar Slab Reinforcement/de](Arch_Rebar_Slab_Reinforcement/de.md) |
+| [Arch Rebar Stirrup/de](Arch_Rebar_Stirrup/de.md) | [Arch Rebar Straight/de](Arch_Rebar_Straight/de.md) | [Arch Rebar UShape/de](Arch_Rebar_UShape/de.md) |
+| [Arch Rebar/de](Arch_Rebar/de.md) | [Arch Reference/de](Arch_Reference/de.md) | [Arch Remove/de](Arch_Remove/de.md) |
+| [Arch RemoveShape/de](Arch_RemoveShape/de.md) | [Arch Roof/de](Arch_Roof/de.md) | [Arch Schedule/de](Arch_Schedule/de.md) |
+| [Arch SectionPlane/de](Arch_SectionPlane/de.md) | [Arch SelectNonSolidMeshes/de](Arch_SelectNonSolidMeshes/de.md) | [Arch SetMaterial/de](Arch_SetMaterial/de.md) |
+| [Arch SHP/de](Arch_SHP/de.md) | [Arch Site/de](Arch_Site/de.md) | [Arch Space/de](Arch_Space/de.md) |
 | [Arch SplitMesh/de](Arch_SplitMesh/de.md) | [Arch Stairs/de](Arch_Stairs/de.md) | [Arch Structure/de](Arch_Structure/de.md) |
 | [Arch Survey/de](Arch_Survey/de.md) | [Arch ToggleIfcBrepFlag/de](Arch_ToggleIfcBrepFlag/de.md) | [Arch ToggleSubs/de](Arch_ToggleSubs/de.md) |
 | [Template:Arch Tools navi/de](Template_Arch_Tools_navi/de.md) | [Arch Truss/de](Arch_Truss/de.md) | [Arch tutorial/de](Arch_tutorial/de.md) |

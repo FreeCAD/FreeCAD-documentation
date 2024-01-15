@@ -18,6 +18,9 @@
 
 ## Установка
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Установите верстак Fasteners через <img alt="" src=images/AddonManager.svg  style="width:24px;"> [менеджер дополнений](Std_AddonMgr/ru.md). В случае установки вручную ознакомьтесь с руководством по [установке дополнительных верстаков](Installing_more_workbenches/ru.md).
 2.  Перезапустите FreeCAD.
 3.  Выберете верстак <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners](Fasteners_Workbench/ru.md) в [в списке доступных верстаков](Std_Workbench/ru.md).
@@ -39,6 +42,9 @@
             
             : Крепежные элементы сгруппированы на панелях инструментов.
     3.  Перезапустите FreeCAD.
+
+
+</div>
 
 
 
@@ -136,8 +142,13 @@
 
 -   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Hexagon head screw.
 
+-   <img alt="" src=images/Fasteners_DIN961.svg  style="width:32px;"> **DIN 961** Hexagon head screw.
+
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** **(ГОСТ Р ИСО 4017)** Винт с шестигранной головкой. *Классы точности А и В.*
+
+-   <img alt="" src=images/Fasteners_ISO8676.svg  style="width:32px;"> 
+**ISO 8676** Hexagon head screw with fine pitch thread. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_ISO4014.svg  style="width:32px;"> 
 **ISO 4014** **(ГОСТ Р ИСО 4014)** Болт с шестигранной головкой. *Классы точности А и В.*
@@ -227,6 +238,9 @@
 -   <img alt="" src=images/Fasteners_ISO1207.svg  style="width:32px;"> 
 **ISO 1207** **(ГОСТ Р ИСО 1580)** Винт с низкой цилиндрической головкой со шлицем. *Класс точности А.*
 
+-   <img alt="" src=images/Fasteners_DIN84.svg  style="width:32px;"> 
+**DIN 84 (superseded by ISO 1207)** Slotted cheese head screw. *Product grade A.*
+
 -   <img alt="" src=images/Fasteners_DIN96.svg  style="width:32px;"> **DIN 96** Slotted half round head wood screw.
 
 -   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width:32px;"> **ГОСТ 1144 (Исполнение 1)** Шуруп с полукруглой головкой.
@@ -239,22 +253,54 @@
 
 ### Винты с крестообразным шлицем 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** **(Ближайший аналог ГОСТ 11644)** Винт с полукруглой головкой, буртом и крестообразным шлицем.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fasteners_ISO7045.svg  style="width:32px;"> 
 **ISO 7045** **(ГОСТ Р ИСО 7045)** Винт со скругленной головкой и крестообразным шлицем типа Н. *Класс точности А.*
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO7046.svg  style="width:32px;"> 
 **ISO 7046** **(ГОСТ Р ИСО 7046 две части)** Винт с потайной головкой и крестообразным шлицем типа Н. *Класс точности А.*
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Fasteners_ISO7047.svg  style="width:32px;"> 
 **ISO 7047** **(ГОСТ Р ИСО 7047)** Винт с полупотайной головкой и крестообразным шлицем типа H. *Класс точности А.*
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** **(ГОСТ Р ИСО 7048)** Винт с низкой цилиндрической головкой и крестообразным шлицем.
 
--   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Half round head wood screw with type H cross recess.
 
--   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
+</div>
+
+-   <img alt="" src=images/Fasteners_DIN7996.svg  style="width:32px;"> **DIN 7996** Pan head wood screw with cross recess.
+
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Pan head wood screw with cross recess.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Pan head wood screw with cross recess.
 
 
 
@@ -281,11 +327,37 @@
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width:32px;"> 
 **ISO 4032** **(ГОСТ Р ИСО 4032)** Гайка шестигранная нормальная (тип 1). *Классы точности А и В.*
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO4033.svg  style="width:32px;"> 
 **ISO 4033** **(ГОСТ Р ИСО 4033)** Гайка шестигранная высокая (тип 2). *Классы точности А и В.*
 
+
+</div>
+
+-   <img alt="" src=images/Fasteners_ISO4034.svg  style="width:32px;"> **ISO 4034** Hexagon nut, style 1.
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Fasteners_ISO4035.svg  style="width:32px;"> 
 **ISO 4035** **(ГОСТ Р ИСО 4035)** Гайка шестигранная низкая с фаской (тип 0). *Классы точности А и В.*
+
+
+</div>
+
+-   <img alt="" src=images/Fasteners_ISO8673.svg  style="width:32px;"> 
+**ISO 8673** Hexagon nut with fine pitch thread, style 1. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8674.svg  style="width:32px;"> 
+**ISO 8674** Hexagon high nut with fine pitch thread, style 2. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8675.svg  style="width:32px;"> 
+**ISO 8675** Hexagon thin nut with fine pitch thread, style 0. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_DIN934.svg  style="width:32px;"> 
+**DIN 934 (superseded by ISO 4035 and ISO 8673)** Hexagon thin nut chamfered. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width:32px;"> **EN 1661** **(Ближайший аналог ГОСТ 50592 / ISO 4161 / DIN 6923 )** Гайка шестигранная с фланцем.
 
@@ -296,6 +368,10 @@
 -   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Hexagon weld nut.
 
 -   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Hexagon castle nut.
+
+-   <img alt="" src=images/Fasteners_DIN6330.svg  style="width:32px;"> **DIN 6330** Hexagon nut 1.5d high.
+
+-   <img alt="" src=images/Fasteners_DIN6331.svg  style="width:32px;"> **DIN 6331** Hexagon with collar 1.5d high.
 
 -   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Hexagon coupling nut.
 
@@ -324,19 +400,19 @@
 
 </div>
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC Square machine screw nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC square machine screw nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC Square nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC square nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC Гайка шестигранная.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC Гайка шестигранная низкая.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC Hexagon castle nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC hexagon castle nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC Hexagon nut with flange.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC hexagon nut with flange.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC Hexagon coupling nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC hexagon coupling nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Wing nut, type A.
 
@@ -344,9 +420,13 @@
 
 -   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** High cap nut.
 
-### T-slot nuts 
+### T-slot fasteners 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Гайка для Т-образных пазов.
+
+-   <img alt="" src=images/Fasteners_GN505.svg  style="width:32px;"> **GN 505** Serrated quarter-turn T-slot nut.
+
+-   <img alt="" src=images/Fasteners_GN505.4.svg  style="width:32px;"> **GN 505.4** Serrated T-slot bolt.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** T-slot nut.
 
@@ -363,6 +443,16 @@
 -   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width:32px;"> **ISO 7093-1** **(ГОСТ Р ИСО 7093-1)** Шайба плоская. Крупная серия. *Класс точности А*.
 
 -   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> **ISO 7094** **(Ближайший аналог ГОСТ 28848)** Шайба плоская. Особо большая. *Класс точности C*.
+
+-   <img alt="" src=images/Fasteners_ISO8738.svg  style="width:32px;"> **ISO 8738** Plain washer for clevis pins.
+
+-   <img alt="" src=images/Fasteners_DIN6319C.svg  style="width:32px;"> **DIN 6319C** Spherical washer.
+
+-   <img alt="" src=images/Fasteners_DIN6319D.svg  style="width:32px;"> **DIN 6319D** Conical seat.
+
+-   <img alt="" src=images/Fasteners_DIN6319G.svg  style="width:32px;"> **DIN 6319G** Conical seat.
+
+-   <img alt="" src=images/Fasteners_DIN6340.svg  style="width:32px;"> **DIN 6340** Washer for clamping devices.
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width:32px;"> **NFE27-619** Шайба-розетка полнотелая для винтов с потайной головкой.
 

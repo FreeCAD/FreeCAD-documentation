@@ -4,44 +4,235 @@
    MenuLocation: Part , Attachment...
    Workbenches: Part_Workbench, PartDesign_Workbench
    Version: 0.17
-   SeeAlso: Placement, Basic_Attachment_Tutorial, Part_Part2DObject
+   SeeAlso: Placement, Basic_Attachment_Tutorial
 ---
 
 # Part EditAttachment
 
 ## Description
 
-**Part EditAttachment** is a utility to attach an object to another one. The attached object is linked to the other object, which means that if the latter\'s placement is changed afterwards, the attached object will update to its new position.
+**Part EditAttachment** is a utility to attach an object to one or more other objects. The attached object is linked to the referenced object(s), which means that if the [placement](Std_Placement.md) or geometry of the referenced object(s) is changed, the placement of the attached object will update accordingly.
+
+## Attach engines 
+
+The attachment of an object is controlled by one of four attach engines. The default engine that is used for an object depends on its type.
+
+The four engines are:
+
+-   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
+-   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
+-   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
+-   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+
+The rest of this page focuses on the AttachEngine3D. The modes of the other engines are only listed. Note that the modes of AttachEnginePlane are in fact identical to those of AttachEngine3D.
 
 ## Usage
 
 1.  Select the object to be attached.
-2.  Go to the **Part → Attachment\...** menu.
+2.  Select the **Part → <img src="images/Part_EditAttachment.svg" width=16px> Attachment...** option from the menu.
+3.  The **Attachment** task panel opens.
+4.  At the top of the task panel *Not attached* can be read. The first button labeled **Selecting...** is highlighted to indicate a selection in the [3D view](3D_view.md) is expected.
+5.  Select a vertex, edge or face/plane belonging to another object.
+6.  In the input field to the right of the button, the referenced object and subelement are shown. For example, if a face of a [Part Box](Part_Box.md) is selected, the field may show {{Value|Box:Face6}}.
+7.  The available modes are filtered based on the selected references and their order. For example, for modes [Align O-Z-X](#Align_O-Z-X.md) to [Align O-Y-X](#Align_O-Y-X.md) the first reference must be a vertex. If the first reference is a subelement of a different type, they are removed from the list.
+8.  Select an [Attachment mode](#Attachment_mode.md) in the list. For information on the attachment modes, hover the mouse over them for a tooltip to appear.
+9.  *Attached with mode * is now displayed at the top of the task panel.
+10. Depending on the selected mode, add up to three more references by pressing the **Reference2**, **Reference3**, and **Reference4** buttons and repeating step 5. It is also possible to specify all references before selecting an attachment mode.
+11. When selecting an additional reference the label of the previous button will change and display the type of subelement of that reference.
+12. Optionally set an [Attachment Offset](#Attachment_Offset.md).
+13. Press **OK**.
+14. If applicable, optionally change the **Map Path Parameter** property in the [Property editor](Property_editor.md).
 
-    :   **Note**: when working in [PartDesign](PartDesign_Workbench.md) and creating sketches, datum geometry or primitives, steps 1 and 2 are unnecessary: the Attachment dialogue is brought up automatically.
-3.  Under **Attachment** parameters, *Not attached* can be read. The first button below is labeled **Selecting…** to indicate it is expecting a selection in the 3D view.
-4.  Select a topology element on the object to attach to: vertex, edge or face/plane. Datum geometry from [Part containers](Std_Part.md) are also selectable.
-5.  The first button\'s label now adopts the type of topology selected. In the white field to its right, the referenced object and its element is added. For example, if a face on a primitive cube is selected, the field will show Box:Face6.
-6.  Select an [Attachment mode](#Attachment_mode.md) in the list. The available modes are filtered by the selected references. *Attached with mode * will be displayed under the **Attachment** header.
+## Change attach engine 
 
-    :   For live information on the attachment modes, hover the mouse on top of one of the modes in the list for a tooltip to appear.
-7.  Optionally, add up to 3 more references by pressing the **Reference2**, **Reference3**, and **Reference4** buttons and repeating step 4.
-8.  Optionally set an [Attachment Offset](#Attachment_Offset.md).
-9.  Press **OK**.
+It is possible to manually change the attach engine of an object:
 
-## Options
+1.  Select the object.
+2.  Right-click in the [Property editor](Property_editor.md) and select **Show all** from the context menu.
+3.  Edit the **Attacher Type** property of the object.
+
+## Attachment modes 
+
+
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Attacher::AttachEnginePoint
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Object\'s origin
+-   Focus1
+-   Focus2
+-   On edge
+-   Center of curvature
+-   Center of mass
+-   Vertex
+-   Proximity point 1
+-   Proximity point 2
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Attacher::AttachEngineLine
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Object\'s X
+-   Object\'s Y
+-   Object\'s Z
+-   Axis of curvature
+-   Directrix1
+-   Directrix2
+-   Asymptote1
+-   Asymptote2
+-   Tangent
+-   Normal to edge
+-   Binormal
+-   Through two points
+-   Proximity line
+-   1st principal axis
+-   2nd principal axis
+-   3rd principal axis
+-   Normal to surface
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+
+
+### Attacher::AttachEnginePlane
+
+
+
+
+<div class="mw-collapsible-content">
+-   Deactivated
+-   Translate origin
+-   Object\'s XY
+-   Object\'s XZ
+-   Object\'s YZ
+-   Plane face
+-   Tangent to surface
+-   Normal to edge
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentric
+-   Revolution Section
+-   Plane by 3 points
+-   Normal to 3 points
+-   Folding
+-   Inertia 2-3
+-   Align O-N-X
+-   Align O-N-Y
+-   Align O-X-Y
+-   Align O-X-N
+-   Align O-Y-N
+-   Align O-Y-X
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+### Attacher::AttachEngine3D
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
-### Attachment mode 
-
 #### Deactivated
 
-Default, no reference selected.
+Attachment is disabled. The object can be moved by editing its [Placement](Placement.md) property.
 
-#### Normal to edge 
+#### Translate origin 
 
-Object is made perpendicular to edge. Optional vertex reference defines location.
+The origin is matched with a vertex. The orientation is still controlled by the Placement property of the attached object.
+
+:; Reference combinations:
+
+:   Vertex.
+
+#### Object\'s X Y Z 
+
+The Placement is made equal to the Placement of a linked object.
+
+:; Reference combinations:
+
+:   Any
+:   Conic
+
+#### Object\'s X Z Y 
+
+The X, Y and Z axes are matched with a linked object\'s local X, Z and -Y axes, respectively.
+
+:; Reference combinations:
+
+:   Any
+:   Conic
+
+#### Object\'s Y Z X 
+
+The X, Y and Z axes are matched with a linked object\'s local Y, Z and X axes, respectively.
+
+:; Reference combinations:
+
+:   Any
+:   Conic
+
+#### XY on plane 
+
+The XY plane is aligned to coincide with a planar face.
+
+:; Reference combinations:
+
+:   Plane
+
+#### XY tangent to surface 
+
+The XY plane is made tangent to a face at a vertex.
+
+:; Reference combinations:
+
+:   Face, Vertex
+:   Vertex, Face
+
+#### Z tangent to edge 
+
+The Z axis is aligned to be tangent to an edge. An optional vertex defines where.
+
+If no vertex is linked the **Map Path Parameter** property determines the point.
 
 :; Reference combinations:
 
@@ -49,171 +240,43 @@ Object is made perpendicular to edge. Optional vertex reference defines location
 :   Edge, Vertex
 :   Vertex, Edge
 
-See [Align O-X-Y type attachment modes](O-X-Y_type_attachment_modes.md) for more details on the following modes:
+#### Frenet NBT 
 
-#### Align O-Z-X 
+ <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;"> 
 
-Matches object\'s origin with first referenced vertex, then aligns its normal and horizontal plane axis toward vertex/along line.
+The X and Y axes are aligned to the normal (N) and binormal (B) axes of the [Frenet-Serret coordinate system](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at a point on a curved edge. An optional vertex defines where.
 
-:; Reference combinations:
+If no vertex is linked the **Map Path Parameter** property determines the point. The object\'s origin is translated to the vertex if the vertex is first, or kept at the curve if the curve is first.
 
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Align O-Z-Y 
-
-Matches object\'s origin with first referenced vertex and aligns its normal and vertical plane axis toward vertex/along line.
-
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Align O-X-Y 
-
-Matches object\'s origin with first referenced vertex and aligns its horizontal and vertical plane axes toward vertex/along line.
-
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Align O-X-Z 
-
-Matches object\'s origin with first referenced vertex and aligns its horizontal plane axis and normal toward vertex/along line.
-
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Align O-Y-Z 
-
-Matches object\'s origin with first referenced vertex and aligns its vertical plane axis and normal toward vertex/along line.
-
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Align O-Y-X 
-
-Matches object\'s origin with first referenced vertex and aligns its vertical and horizontal plane axes toward vertex/along line.
-
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Vertex, Vertex, Edge
-:   Vertex, Edge, Vertex
-:   Vertex, Edge, Edge
-:   Vertex, Vertex
-:   Vertex, Edge
-
-#### Translate origin 
-
-Object\'s origin is aligned to matched vertex. Orientation is controlled by [Placement](Placement.md) property.
-
-:; Reference combinations:
-
-:   Vertex.
-
-#### Object\'s XY 
-
-Plane is aligned to XY local plane of linked object.
-
-:; Reference combinations:
-
-:   Any, Conic.
-
-#### Object\'s XZ 
-
-Plane is aligned to XZ local plane of linked object.
-
-:; Reference combinations:
-
-:   Any, Conic.
-
-#### Object\'s YZ 
-
-Plane is aligned to YZ local plane of linked object.
-
-:; Reference combinations:
-
-:   Any, Conic
-
-#### Plane face 
-
-Plane is aligned to coincide to planar face.
-
-:; Reference combinations:
-
-:   Plane
-
-#### Tangent to surface 
-
-Plane is made tangent to surface at vertex.
-
-:; Reference combinations:
-
-:   Face, Vertex
-:   Vertex, Face
-
-#### Frenet NB 
-
-Plane is set to normal-binormal (NB) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The object\'s origin is translated to the vertex if the vertex is first, or kept at the curve if edge is first. This mode is similar to *Normal to edge*, except that X axis is well-defined.
+*Frenet NBT* is similar to *Z tangent to edge*, except that the X axis is well-defined.
 
 :;Reference combinations:
 
 :   Curve
 :   Curve, Vertex
 :   Vertex, Curve
-:   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN 
+#### Frenet TNB 
 
-Plane is set to tangent-normal (TN) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The origin of sketch is translated to the vertex if the vertex is first, or kept at the curve if edge is first. Effectively, if the curve is planar, the sketching plane is the plane of the curve.
+ <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;"> 
 
-:;Reference combinations:
+The X and Y axes are aligned to the tangent (T) and normal (N) axes of the Frenet-Serret coordinate system at a point on a curved edge. An optional vertex defines where.
 
-:   Curve
-:   Curve, Vertex
-:   Vertex, Curve
-:   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
+See [Frenet NBT](#Frenet_NBT.md).
 
-#### Frenet TB 
+#### Frenet TBN 
 
-Plane is set tangent-binormal (TB) axes of [Frenet-Serret coordinates](https://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas) at the point of the edge\'s curve that is closest to the vertex (or defined by MapPathParameter property, if vertex is not linked). The origin of sketch is translated to the vertex if the vertex is first, or kept at the curve if edge is first.
+ <img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;"> 
 
-:;Reference combinations:
+The X and Y axes are aligned to the tangent (T) and binormal (B) axes of the Frenet-Serret coordinate system at a point on a curved edge. An optional vertex defines where.
 
-:   Curve
-:   Curve, Vertex
-:   Vertex, Curve
-:   <img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;">
+See [Frenet NBT](#Frenet_NBT.md).
 
 #### Concentric
 
-Aligns to plane to osculating circle of an edge. Optional Vertex link defines where.
+The XY plane is aligned to the [osculating circle](https://en.wikipedia.org/wiki/Osculating_circle) at a point on an edge. An optional vertex defines where.
+
+If no vertex is linked the **Map Path Parameter** property determines the point.
 
 :; Reference combinations:
 
@@ -226,20 +289,13 @@ Aligns to plane to osculating circle of an edge. Optional Vertex link defines wh
 
 #### Revolution Section 
 
-Plane is perpendicular to edge, and Y axis is matched with axis of osculating circle. Optional Vertex link defines where.
+The Y axis is aligned to match the axis of the osculating circle at a point on an edge. An optional vertex defines where.
 
-:; Reference combinations:
+See [Concentric](#Concentric.md).
 
-:   Curve
-:   Circle
-:   Curve, Vertex
-:   Circle, Vertex
-:   Vertex, Curve
-:   Vertex, Circle
+#### XY plane by 3 points 
 
-#### Plane by 3 points 
-
-Aligns XY plane to pass through three vertices.
+The XY plane is aligned to pass through three vertices. The X axis will pass through the first two vertices.
 
 :; Reference combinations:
 
@@ -248,29 +304,25 @@ Aligns XY plane to pass through three vertices.
 :   Vertex, Line
 :   Line, Line
 
-#### Normal to 3 points 
+#### XZ plane by 3 points 
 
-Aligns plane to pass through first two vertices, and perpendicular to plane that passes through 3 vertices.
+The XZ plane is aligned to pass through three vertices. The X axis will pass through the first two vertices.
 
-:; Reference combinations:
-
-:   Vertex, Vertex, Vertex
-:   Line, Vertex
-:   Vertex, Line
-:   Line, Line
+See [XY plane by 3 points](#XY_plane_by_3_points.md).
 
 #### Folding
 
-Specialty mode for folding polyhedra. Select 4 edge in order: glueable edge, fold line, other fold line, other glueable edge. Plane will be aligned to folding the first edge. In the picture below, it is not required that both leafs to fold together be the same.
+ <img alt="" src=images/Attacher_mode_Folding.png  style="width:250px;"> 
+
+This is a special mode for folding polyhedra. Select four lines that share a common point in this order: contour line (1), fold line (2), other fold line (3), other contour line (4). To determine the coordinate system the selected contour lines are made coincident by rotating line 1 around line 2, and line 4 around line 3. The origin is matched with the common point, the X axis is matched with line 2, the Y axis is aligned towards the direction of the coincident contour lines.
 
 :; Reference combinations
 
 :   Line, Line, Line, Line
-:   ![ 250px](images/Attacher_mode_Folding.png )
 
-#### Inertia 2-3 
+#### Inertia CS 
 
-Object will be attached to a plane passing through second and third principal axes of inertia (passes through center of mass).
+The X, Y and Z axes are matched with those of an inertial coordinate system, constructed on principal axes of inertia and center of mass.
 
 :; Reference combinations:
 
@@ -279,28 +331,72 @@ Object will be attached to a plane passing through second and third principal ax
 :   Any, Any, Any
 :   Any, Any, Any, Any
 
-### Attachment Offset 
+#### Align O-Z-X 
 
-Attachment Offset is used to apply a linear or rotary offset from the referenced object. That means the offsets are relative to the *local* coordinate system, not to the global. It becomes active when an attachment mode other than *Deactivated* has been selected.
+The origin is matched with the first Vertex. The Z and X axes are aligned towards a vertex or along a line.
 
--   **X**: sets an offset distance in the X axis of the reference object.
+See [Align O-X-Y Type Attachment Modes](O-X-Y_Type_Attachment_Modes.md) for more details.
 
--   **Y**: sets an offset distance in the Y axis of the reference object.
+:; Reference combinations:
 
--   **Z**: sets an offset distance in the Z axis of the reference object. This coordinate is to be used for the frequent use case that you want to offset a sketch perpendicular to the plane.
+:   Vertex, Vertex, Vertex
+:   Vertex, Vertex, Line
+:   Vertex, Line, Vertex
+:   Vertex, Line, Line
+:   Vertex, Vertex
+:   Vertex, Line
 
--   **Yaw**: rotates the attached object along the reference object\'s Z axis.
+#### Align O-Z-Y 
 
--   **Pitch**: rotates the attached object along the reference object\'s Y axis.
+The origin is matched with the first Vertex. The Z and Y axes are aligned towards a vertex or along a line.
 
--   **Roll**: rotates the attached object along the reference object\'s X axis.
+See [Align O-Z-X](#Align_O-Z-X.md).
 
--   **Flip sides**: if checked, the attached object is reversed from its XY plane.
+#### Align O-X-Y 
+
+The origin is matched with the first Vertex. The X and Y axes are aligned towards a vertex or along a line.
+
+See [Align O-Z-X](#Align_O-Z-X.md).
+
+#### Align O-X-Z 
+
+The origin is matched with the first Vertex. The X and Z axes are aligned towards a vertex or along a line.
+
+See [Align O-Z-X](#Align_O-Z-X.md).
+
+#### Align O-Y-Z 
+
+The origin is matched with the first Vertex. The Y and Z axes are aligned towards a vertex or along a line.
+
+See [Align O-Z-X](#Align_O-Z-X.md).
+
+#### Align O-Y-X 
+
+The origin is matched with the first Vertex. The Y and X axes are aligned towards a vertex or along a line.
+
+See [Align O-Z-X](#Align_O-Z-X.md).
+
+## Attachment offset 
+
+Attachment Offset becomes active when an attachment mode other than *Deactivated* has been selected. It is used to apply a linear or rotary offset within the attachment coordinate system (ACS), as defined by the attachment mode and the referenced object(s).
+
+-   **In x-direction**: sets an offset distance along the X axis of the ACS.
+
+-   **In y-direction**: sets an offset distance along the Y axis of the ACS.
+
+-   **In z-direction**: sets an offset distance along the Z axis of the ACS.
+
+-   **Around x-axis**: rotates the attached object around the X axis of the ACS.
+
+-   **Around y-axis**: rotates the attached object around the Y axis of the ACS.
+
+-   **Around z-axis**: rotates the attached object around the Z axis of the ACS.
+
+-   **Flip sides**: if checked, the attachment is reversed. This is equivalent to rotating the object 180° around the Y axis of the ACS.
 
 ## Limitations
 
--   [Part](Std_Part.md) and [Body](PartDesign_Body.md) containers are not supported. While it\'s possible to use Attachment to align them, the attachment won\'t be parametrically linked.
--   If selecting two lines results in a traceback with \"points are collinear. Can\'t make a plane\", try selecting three points instead [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).
+-   If selecting two lines results in an error: \"Points are collinear. Can\'t make a plane\", try selecting three vertices instead [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).
 
 
 

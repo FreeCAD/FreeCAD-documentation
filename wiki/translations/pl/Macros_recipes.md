@@ -241,6 +241,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_Toggle_Views_Visibility.png"> [Makro Toggle Panels Visibility](Macro_Toggle_Panels_Visibility/pl.md): To makro przełącza widoczność różnych paneli pomocniczych w programie FreeCAD, umożliwiając wyświetlanie okna głównego na całej dostępnej przestrzeni ekranu.
 
+-    <img style="width:16px;" src="images/MacroToolbarManager_icon.svg"> [Makro Menadżer pasków narzędzi](Macro_MacroToolbarManager/pl.md): Łatwe zarządzanie niestandardowymi paskami narzędzi makrodefinicji, pozwala tworzyć, zmieniać nazwy i usuwać paski narzędzi, dodawać i usuwać makrodefinicje, edytować skróty i ikony, zawiera nawet proste narzędzie do tworzenia ikon xpm.
+
 
 </div>
 
@@ -459,6 +461,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_Connect_And_Sweep.png"> [Makro Connect And Sweep](Macro_Connect_And_Sweep/pl.md): Makrodefinicja ta w prosty sposób tworzy połączenie między dwoma obiektami, obiektem i punktem lub między dwoma punktami albo wybraną linią, linią łamaną, krawędzią (środki obiektów są punktami początkowym i końcowym przeciągnięcia), które można wybrać w postaci konfigurowalnej elipsy, wielokąta, okręgu.
 
+-    <img style="width:16px;" src="images/Std_AxisCross_example.svg"> [Makro Express Placement](Macro_Express_Placement/pl.md): umożliwia wyświetlanie i szybką edycję współrzędnych położenia wybranego obiektu bezpośrednio lub za pomocą wyrażeń.
+
 -    <img style="width:16px;" src="images/Macro_FlattenWire.png"> [Makro FlattenWire](Macro_FlattenWire/pl.md): Spłaszcza szkice polilinii, które nie są płaskie względem ich środkowej współrzędnej Z.
 
 -    <img style="width:16px;" src="images/Macro_FlattenWire3Points.png"> [Makro FlattenWire3Points](Macro_FlattenWire3Points/pl.md): Spłaszcza polilinie środowiska Rysunek Roboczy, które nie są płaskie, do płaszczyzny zdefiniowanej przez trzy
@@ -516,6 +520,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 -   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [colorManager](https://github.com/dprojects/Woodworking/blob/master/Tools/colorManager.py): Umożliwia ustawienie kolorów ścian dla wszystkich obiektów z arkusza kalkulacyjnego. Można także przeglądać kolory dla ręcznie wybranej ściany lub obiektu i obserwować efekt w modelu 3D w czasie rzeczywistym.
 
 -    <img style="width:16px;" src="images/Workbench_Image.svg"> [Makro Colorize](Macro_Colorize/pl.md): Łatwe nadawanie kolorów powierzchniom, krawędziom i wierzchołkom, w tym indywidualnych poziomów przezroczystości.
+
+-    <img style="width:16px;" src="images/EasyReflectorIcon.svg"> [Makrodefinicja: EasyReflector](Macro_EasyReflector/pl.md): Łatwe zarządzanie teksturami za pomocą parametrycznego obiektu Python, który utrzymuje się między sesjami FreeCAD i Dokumentów.
 
 -    <img style="width:16px;" src="images/Macro_HiddenAlls.png"> [Makro Hidden Alls objects](Macro_HiddenAlls/pl.md): Ta makrodefinicja sprawdza, czy wszystkie obiekty w dokumencie są ukryte *(parametr `Visibility` ma wartość {{False/pl}})*.
 
@@ -617,6 +623,8 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/aliasmanager_icon.png"> [Makro Alias Manager](Macro_Alias_Manager/pl.md): Pomaga w zarządzaniu aliasami w arkuszu roboczym FreeCAD Spreadsheet. Umożliwia on tworzenie, usuwanie i przenoszenie aliasów oraz tworzenie grup plików \"rodziny części\".
 
+-    <img style="width:16px;" src="images/ConstraintToAlias.svg"> [Makro ConstraintToAlias](Macro_ConstraintToAlias/pl.md): Umożliwia utworzenie arkusza kalkulacyjnego lub dodanie aliasu do istniejącego arkusza kalkulacyjnego z poziomu otwartego edytora szkiców.
+
 -    <img style="width:16px;" src="images/easy-alias-icon.png"> [Makro EasyAlias](Macro_EasyAlias/pl.md): Szybkie tworzenie aliasów w arkuszu kalkulacyjnym FreeCAD. Wykorzystuje on etykiety z jednej kolumny do tworzenia aliasów dla sąsiednich komórek w następnej kolumnie po prawej stronie, np. etykiety z kolumny A stają się aliasami dla komórek w kolumnie B.
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Makro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract/pl.md):Ta makrodefinicja zapisuje dane w pliku csv z formułą lub w pliku xml.
@@ -715,7 +723,7 @@ Jeśli napisałeś makro i chcesz umieścić je w kategoriach na tej stronie, zo
 
 -    <img style="width:16px;" src="images/Macro_Megaminx.png"> [Makro Megaminx](Macro_Megaminx/pl.md): Wyświetl Megaminx i interaktywnie wykonuj rotacje plasterków.
 
--    <img style="width:16px;" src="images/PropertyMemo.png"> [Makro PropertyMemo](Macro_PropertyMemo/pl.md): Ta mała makrodefinicja tworzy dodatkową Właściwość *(notatkę)* dla obiektu *(tylko Rysunek Roboczy)*.
+-    <img style="width:16px;" src="images/PropertyMemo.png"> [Makro PropertyMemo](Macro_PropertyMemo/pl.md): Ta mała makrodefinicja tworzy dodatkową Właściwość *(notatkę lub inny tekst)* dla obiektu *(tylko Rysunek Roboczy)*.
 
 -    <img style="width:16px;" src="images/Macro_Rubik_Cube.png"> [Makro Rubik Cube](Macro_Rubik_Cube/pl.md): Wyświetl kostkę Rubika i interaktywnie wykonuj obroty plastra.
 

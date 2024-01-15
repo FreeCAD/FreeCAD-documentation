@@ -12,9 +12,13 @@
 
 </div>
 
+
+
 ## 説明
 
 HorizontalConstraintは選択された線または画像の辺がスケッチの水平軸と平行なるように拘束を行います。
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -62,7 +66,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

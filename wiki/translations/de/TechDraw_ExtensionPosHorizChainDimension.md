@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionPosHorizChainDimension
    Name/de: TechDraw ErgänzungHorizontaleKettenmaßeAnordnen
-   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Horizontal Chain Dimensions
+   MenuLocation: TechDraw , Ergänzungen: Merkmale/Änderungen , Horizontale Kettenmaße anordnen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:24px;"> **TechDraw ErgänzungHorizontaleKettenmaßeAnordnen** verbindet horizontale Maße zu einer Maßkette.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungHorizontaleKettenmaßeAnordnen** verbindet horizontale Maße zu einer Maßkette.
 
 <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimensionExample.png  style="width:400px;"> 
 *Rechts die als Kette angeordneten Maße*
@@ -30,18 +24,12 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle zwei oder mehr horizontale Maße.
+1.  Zwei oder mehr horizontale Maße auswählen.
 2.  Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [TechDraw ExtensionPosHorizChainDimension](TechDraw_ExtensionPosHorizChainDimension.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Position Horizontal Chain Dimensions** Option aus dem Menü.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> [Horizontale Kettenmaße anordnen](TechDraw_ExtensionPosHorizChainDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Horizontale Kettenmaße anordnen** auswählen.
 4.  Die Maße werden fluchtend ausgerichtet, die Maßzahlen werden zentriert.
-
-
-</div>
 
 
 

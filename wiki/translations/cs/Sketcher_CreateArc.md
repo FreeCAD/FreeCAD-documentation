@@ -32,8 +32,14 @@ Po spuštění nástroje se ukazatel myši změní na bílý křížek s červen
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zadejte body na prázdné ploše ve 3D pohledu nebo na existujícím objektu (v okně Úkolů musí být aktivní automatická vazba (auto constraint)).
 -   Stisknutím klávesy **Esc** nebo kliknutím na pravé tlačítko myši se funkce přeruší.
+
+
+</div>
 
 
 

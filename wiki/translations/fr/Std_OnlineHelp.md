@@ -14,23 +14,22 @@
 
 La commande **Std Aide** ouvre la documentation d\'aide. Pour ouvrir la documentation d\'une commande spécifique, utilisez la commande [Std Qu\'est-ce que c\'est ?](Std_WhatsThis/fr.md).
 
-Dans FreeCAD {{VersionPlus/fr|0.20}}, cette commande nécessite l\'[extension Help](https://github.com/FreeCAD/FreeCAD-Help).
+Depuis la version 0.20 de FreeCAD, cette commande et le système d\'aide sont gérés par un module d\'aide séparé. Pour les versions 0.20 et 0.21, ce module est une [extension](https://github.com/FreeCAD/FreeCAD-Help) qui doit être [installée](Std_AddonMgr/fr.md) séparément. Dans les versions ultérieures, le module d\'aide est intégré à FreeCAD.
 
 
 
 ## Utilisation
 
-1.  Si l\'extension Help n\'est pas encore disponible, il vous sera demandé de l\'installer via le [Gestionnaire des extensions](Std_AddonMgr/fr.md).
-2.  Il existe plusieurs façons de lancer la commande :
+1.  Il y a plusieurs façons de lancer la commande :
     -   Sélectionnez l\'option **Aide → <img src="images/Std_OnlineHelp.svg" width=16px> Aide** du menu.
     -   Utilisez le raccourci clavier : **F1**.
-3.  La documentation d\'aide s\'ouvre.
+2.  La documentation d\'aide s\'ouvre.
 
 
 
 ## Remarques
 
--   L\'extension Help possède un certain nombre de préférences. Voir [Réglage des préférences](Preferences_Editor/fr#Help.md).
+-   L\'Aide possède un certain nombre de préférences. Voir [Réglage des préférences](Preferences_Editor/fr#Help.md).
 
 
 

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,6 +24,8 @@ Creates a vertical constraint to the selected lines or polyline elements. More t
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

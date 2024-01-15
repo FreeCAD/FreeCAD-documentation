@@ -11,34 +11,22 @@
 |SeeAlso=[Macro Align Camera to Working Plane](Macro_Align_Camera_to_Working_Plane/it.md) [24px|Macro Align Camera to Working Plane](File:Macro_Align_Camera_to_Working_Plane.png.md)
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
 Questa macro sposta il corrente [Piano di lavoro di Draft](Draft_SelectPlane/it.md) al centro della vista corrente. È utile quando si lavora abbastanza lontano dal centro della griglia.
 
 
-</div>
 
-## Usage
-
-
-<div class="mw-translate-fuzzy">
-
-## Uso
+## Utilizzo
 
 -   Spostare la vista nella zona in cui si desidera guardare
 -   Eseguire la macro
 
-
-</div>
-
 ## Script
 
-ToolBar Icon ![](images/Macro_Align_Working_Plane_to_Camera.png )
+Icona barra strumenti ![](images/Macro_Align_Working_Plane_to_Camera.png )
 
 **Macro_Align_Working_Plane_to_Camera.FCMacro**
 

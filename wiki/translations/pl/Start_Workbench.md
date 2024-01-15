@@ -2,13 +2,13 @@
 
 Środowisko pracy <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start](Start_Workbench/pl.md) nie jest tak naprawdę środowiskiem roboczym, jest to po prostu strona, która jest prezentowana po uruchomieniu programu FreeCAD bez załadowanego dokumentu.
 
-Z tego interfejsu możesz zobaczyć przydatne informacje i przejść do ostatnio otwieranych plików, przykładów, dokumentacji i najnowszych wiadomości ze świata FreeCAD. Możesz zmienić sposób funkcjonowania środowiska pracy Start lub zmienić domyślne środowisko pracy w [Edytorze ustawień](Preferences_Editor.md) w menu **Edycja → Preferencje ... → Start**.
+Z tego interfejsu można tworzyć nowe pliki, przechodzić do często używanych środowisk pracy za pomocą przycisków szybkiego uruchamiania (<small>(v0.22)</small> ), wyświetlać przydatne informacje, przechodzić do ostatnio otwieranych plików, przeglądać przykłady, przeglądać dokumentację i otrzymywać najnowsze wiadomości ze świata FreeCAD. Możesz zmienić sposób działania środowiska pracy Start lub zmienić domyślne środowisko pracy w menu [edytora ustawień](Preferences_Editor/pl.md).**Edycja → Preferencje ... → Start**.
 
-<img alt="środowisko pracy Start, zakładka dokumenty" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
+<img alt="Środowisko pracy Start, zakładka Dokumenty" src=images/Start_Documents.png  style="width:500px;">
 
-<img alt="środowisko pracy Start, zakładka pomoc" src=images/FreeCad_Start_0.18_help.png  style="width:500px;">
+<img alt="Środowisko pracy Start, zakładka Pomoc" src=images/Start_Help.png  style="width:500px;">
 
-<img alt="środowisko pracy Start, zakładka aktywność" src=images/FreeCad_Start_0.18_activity.png  style="width:500px;">
+<img alt="Środowisko pracy Start, zakładka Aktywność" src=images/Start_Activity.png  style="width:500px;">
 
 
 

@@ -5,9 +5,9 @@
 |Translate=Campitura di oggetti
 |Description=Questa macro permette di mettere temporaneamente una immagine di texture sugli oggetti selezionati. Per rimuovere le campiture, è sufficiente chiudere e riaprire il documento.
 |Author=yorik
-|Version=1.0
-|Date=2011-10-13
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
+|Version=1.1
+|Date=2023-12-08
+|Download=[https://wiki.freecad.org/images/d/da/Macro_Texture_Objects.png ToolBar Icon]
 |FCVersion= 0.18 e precedenti
 }}
 
@@ -31,7 +31,7 @@ from PySide import QtGui
 from pivy import coin
 
 # get a jpg filename
-jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open image file','*.jpg')
+jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),'Open image file','*.jpg')
 
 # apply textures
 for obj in FreeCADGui.Selection.getSelection():

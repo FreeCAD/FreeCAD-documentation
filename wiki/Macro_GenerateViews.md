@@ -3,7 +3,7 @@
 |Name=GenerateViews
 |Description=Macro for automatic 2D views generation with 6 normal projections and one isometric.
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/File:GenerateViews.svg ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/2/21/GenerateViews.svg ToolBar Icon]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 and above
@@ -64,7 +64,7 @@ __Date__ = '2022-01-07'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = 'https://github.com/PR-DC/PRDC_GenerateViews_FC'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_GenerateViews'
-__Icon__ = 'GenerateViews.svg'
+__Icon__ = 'https://wiki.freecad.org/images/2/21/GenerateViews.svg'
 __Help__ = 'Open model and run the macro program!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18'

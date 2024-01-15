@@ -11,6 +11,8 @@
 
 </div>
 
+
+
 ## 描述
 
 
@@ -18,9 +20,9 @@
 
 借助本建筑添加工具您将能够实现以下4种操作：
 
--   将具有[形状（shape）的对象添加至](Part_Workbench.md)[墙体（wall）或](Arch_Wall.md)[结构构件（structure）等建筑构件](Arch_Structure.md)。这会令那些对象成为建筑构件的一部分，即令您在不改动宽高等属性的情况下，方便地修改其形状。
--   将[墙体（wall）或](Arch_Wall.md)[结构构件（structure）等建筑构件添加至基于组织的](Arch_Structure.md)[楼层（floor）等建筑对象](Arch_Floor.md)。
--   将[建筑坐标系（axis system）添加至](Arch_Axis.md) [结构构件（structural object）](Arch_Structure.md)。
+-   将具有[形状（shape）](Part_Workbench.md)的对象添加至[墙体（wall）](Arch_Wall.md)或[结构构件（structure）](Arch_Structure.md)等建筑构件。这会令那些对象成为建筑构件的一部分，即令您在不改动宽高等属性的情况下，方便地修改其形状。
+-   将[墙体（wall）](Arch_Wall.md)或[结构构件（structure）](Arch_Structure.md)等建筑构件添加至基于组织的[楼层（floor）](Arch_Floor.md)等建筑对象。
+-   将[建筑坐标系（axis system）](Arch_Axis.md)添加至 [结构构件（structural object）](Arch_Structure.md)。
 -   将对象添加至[剖面（section plane）](Arch_SectionPlane.md)。
 
 
@@ -29,13 +31,15 @@
 
 <div class="mw-translate-fuzzy">
 
-[建筑移除工具与本工具功能相反](Arch_Remove.md)。
+[建筑移除](Arch_Remove.md)工具与本工具功能相反。
 
 
 </div>
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *将立方体添加至墙体，从而融为一体。*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -70,7 +74,7 @@
 
 <div class="mw-translate-fuzzy">
 
-借助下列函数即可在[宏与](macros.md)[Python控制台中使用添加工具](Python.md)：
+借助下列函数即可在[宏](macros.md)与[Python](Python.md)控制台中使用添加工具：
 
 
 </div>

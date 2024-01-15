@@ -1,237 +1,123 @@
 ---
  GuiCommand:
    Name: FEM EquationMagnetodynamic
-   MenuLocation: Solve , Electromagnetic Equations , Magnetodynamic equation
+   Name/pl: Równanie magnetodynamiczne
+   MenuLocation: Rozwiąż, Równania elektromagnetyczne , Równanie magnetodynamiczne
    Workbenches: FEM_Workbench
    Version: 0.21
-   SeeAlso: FEM_EquationMagnetodynamic2D
+   SeeAlso: FEM_EquationMagnetodynamic2D/pl
 ---
 
 # FEM EquationMagnetodynamic/pl
 
+To równanie przeprowadza analizę z użyciem [równań Maxwella](https://pl.wikipedia.org/wiki/R%C3%B3wnania_Maxwella).
 
-</div>
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Computation of Magnetic Fields in 3D** *(obliczenia pól magnetycznych w 3D)*.
 
+Jeśli możliwe jest przeprowadzenie analizy 2D, prostsze sformułowanie może być uzyte skutkując krótszymi obliczeniami. Do 2D, FreeCAD wspiera [równanie magnetodynamiczne 2D](FEM_EquationMagnetodynamic2D/pl.md) solvera Elmer.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-This equation perform analyses using the [Maxwell\'s equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations).
 
+## Użycie
 
-</div>
+1.  Po dodaniu solvera Elmer zgodnie z [tym opisem](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania elektromagnetyczne → Równanie magnetodynamiczne** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
+4.  Zalecane jest ustawienie w [ustawieniach solvera dla układu liniowego](FEM_SolverElmer_SolverSettings/pl#Układ_liniowy.md) właściwości **Linear Iterative Method** na **BiCGStabl**, właściwości **BiCGstabl Degree** na **4** zaś właściwości **Linear Preconditioning** na **None**. To zapewnia rozwiązanie równania w większości przypadków. Po uzyskaniu rozwiązania, te parametry można zmienić w razie potrzeby.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D*.
+## Ustawienia solvera 
 
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
-</div>
+Równanie magnetodynamiczne posiada następujące specjalne ustawieniaː
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-If it is possible to calculate in 2D, simpler math can be used resulting in faster solving times. For 2D, FreeCAD supports therefore Elmer\'s [Magnetodynamic 2D equation](FEM_EquationMagnetodynamic2D.md).
+### Układ liniowy 
 
+-    **Linear System Refactorize**: Refaktoryzuje macierz układu.
 
-</div>
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+### Magnetodynamiczne
 
-## Usage
+-    **Angular Frequency**: Częstotliwość wzbudzenia harmonicznego. Używana tylko jeśli **Is Harmonic** jest ustawione na {{true/pl}}.
 
+-    **Automated Source Projection BCs**: Zobacz dokument [Elmer models manual](http://www.elmerfem.org/blog/documentation/), sekcję *Computation of Magnetic Fields in 3D* aby uzyskać więcej informacji.
 
-</div>
+-    **FixInput Current Density**: Zapewnia zbieżność gęstości prądu.
 
+-    **Is Harmonic**: Czy siła elektromotoryczna jest harmonicznie wzbudzana (prąd stały). Jeśli ta właściwość jest ustawiona na {{true/pl}} to właściwość **Angular Frequency** musi mieć wartość \> 0.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Lagrange Gauge Penalization Coefficient**: Zobacz dokument [Elmer models manual](http://www.elmerfem.org/blog/documentation/), sekcję *Computation of Magnetic Fields in 3D* aby uzyskać więcej informacji.
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationMagnetodynamic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Magnetodynamic equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
-4.  It is recommend to set in the [Linear System solver settings](FEM_SolverElmer_SolverSettings#Linear_System.md) the **Linear Iterative Method** to **BiCGStabl**, the **BiCGstabl Degree** to **4** and **Linear Preconditioning** to **None**. This assures the equation can be solved in most cases. If so, these parameters can be changed if necessary.
+-    **Quadratic Approximation**: Umożliwia aproksymację drugiego rzędu prądu zasilania.**Uwaga:** Domyślny rząd [siatek Gmsh](FEM_MeshGmshFromShape/pl.md) we FreeCAD to drugi. Przy korzystaniu z siatek drugiego rzędu, konieczne jest ustawienie tej właściwości na Jednak dla większości zastosowań siatki pierwszego rzędu są wystarczające. Wyjątek stanowi przypadek, gdy filtr izokonturowy powinien być użyty do wizualizacji wyników. Wtedy użycie siatki drugiego rzędu, a więc również ustawienie właściwości **Quadratic Approximation** na {{true/pl}} jest zalecane.
 
+-    **Static Conductivity**: Zobacz dokument [Elmer models manual](http://www.elmerfem.org/blog/documentation/), sekcję *Computation of Magnetic Fields in 3D* aby uzyskać więcej informacji.
 
-</div>
+-    **Use Lagrange Gauge**: Zobacz dokument [Elmer models manual](http://www.elmerfem.org/blog/documentation/), sekcję *Computation of Magnetic Fields in 3D* aby uzyskać więcej informacji.
 
+-    **Use Piola Transform**: Musi być {{true/pl}} jeśli funkcje bazowe do interpolacji elementu krawędziowego są wybrane do bycia członkami rodziny optymalnych krawędzi elementów lub jeśli używana jest aproksymacja drugiego rzędu.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Use Tree Gauge**: Zobacz dokument [Elmer models manual](http://www.elmerfem.org/blog/documentation/), sekcję *Computation of Magnetic Fields in 3D* aby uzyskać więcej informacji. Właściwość ta będzie ignorowana jeśli **Use Piola Transform** jest ustawione na {{true/pl}}.
 
-## Solver Settings 
 
 
-</div>
+## Wyniki
 
+-    **Calculate Current Density**: Wyznacza [gęstość prądu elektrycznego](https://pl.wikipedia.org/wiki/G%C4%99sto%C5%9B%C4%87_pr%C4%85du_elektrycznego).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Calculate Electric Field**: Wyznacza [wektorowe pole elektryczne](https://pl.wikipedia.org/wiki/Pole_elektryczne).
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+-    **Calculate Elemental Fields**: Wyznacza pola elektromagnetyczne w każdym elemencie siatki. Może to być przydatne do poszukiwania nieciągłości w siatkach.**Uwaga**: obecnie FreeCAD nie może poprawnie wyświetlić tego wyniku. Nie ma on więc praktycznego zastosowania na ten moment.
 
+-    **Calculate Harmonic Loss**: Wyznacza liniową i kwadratową harmoniczną utratę mocy. Zobacz dokument [Elmer models manual](https://www.elmerfem.org/blog/documentation/), sekcję *Loss Estimation Using the Fourier Series* aby uzyskać więcej informacji.
 
-</div>
+-    **Calculate Joule Heating**: Oblicza [grzanie Joule\'a](https://en.wikipedia.org/wiki/Joule_heating).
 
+-    **Calculate Magnetic Strength**: Wyznacza [siłę pola magnetycznego](https://pl.wikipedia.org/wiki/Pole_magnetyczne).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Calculate Maxwell Stress**: Wyznacza pole [tensora naprężeń Maxwella](https://en.wikipedia.org/wiki/Maxwell_stress_tensor).
 
-The magnetodynamic equation provides these special settings:
+-    **Calculate Nodal Fields**: Wyznacza pola w każdym węźle siatki. Domyślnie ustawione na {{true/pl}}. Jeśli żadna inna właściwość **Calculate *** nie jest ustawiona na {{true/pl}} to wyznacza tylko gęstość strumienia magnetycznego.
 
+-    **Calculate Nodal Forces**: Wyznacza siły dla każdego węzła siatki. Wyniki mogą być użyte do dalszej analizy mechanicznej.
 
-</div>
+-    **Calculate Nodal Heating**: Wyznacza pole skalarowe grzania Joule\'a dla każdego węzła siatki.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-### Linear System 
+## Informacje o cechach analizy 
 
+Równanie magnetodynamiczne uwzględnia następujące cechy analizy jeśli są zdefiniowane:
 
-</div>
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Warunek brzegowy potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md)
+-   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Warunek brzegowy gęstości prądu](FEM_ConstraintCurrentDensity/pl.md)
+-   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Warunek brzegowy magnetyzacji](FEM_ConstraintMagnetization/pl.md)
+-   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Zdefiniuj przenikalność elektryczną próżni](FEM_ConstantVacuumPermittivity/pl.md)
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
--    **Linear System Refactorize**: Refactorizes the system matrix.
+## Wyniki 
 
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczany jest tylko potencjał elektryczny (nazwany **av** w wynikach). W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki.
 
-</div>
+Możliwe wyniki to:
 
+-   Gęstość prądu w $\rm A/m^2$
+-   Wartości wektora pola elektrycznego w $\rm V/m$
+-   Harmoniczna utrata mocy w $\rm W$
+-   Gęstość strumienia magnetycznego w $\rm T$
+-   Wartości tensora naprężeń Maxwella w $\rm As/m^3$
+-   Siła pola magnetycznego w $\rm A/m$
+-   Siła węzłowa w $\rm N$
+-   Grzanie Joule\'a w $\rm J$
+-   Potencjał w $\rm V$
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-### Magnetodynamic
 
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--    **Angular Frequency**: The harmonic actuation frequency. It only used if **Is Harmonic** is set to *true*.
-
--    **Automated Source Projection BCs**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
-
--    **FixInput Current Density**: Ensures divergence-freeness of current density.
-
--    **Is Harmonic**: If the driving force is harmonically actuated (AC current). If set to *true*, **Angular Frequency** must have a value \> 0.
-
--    **Lagrange Gauge Penalization Coefficient**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
-
--    **Quadratic Approximation**: Enables second-order approximation of driving current.**Note:** The default order of [Gmsh meshes](FEM_MeshGmshFromShape.md) in FreeCAD is 2nd order. When using 2nd order meshes, it is mandatory to set this option to *true*. Otherwise you will get this error: *ERROR:: GetEdgeBasis: Can\'t handle but linear elements, sorry.*However, for most applications, a 1st order mesh is sufficient. An exception is the case when an Isocontour filter should be applied to visualize the results. In this case using a 2nd order mesh and thus setting **Quadratic Approximation** to *true* is recommended.
-
--    **Static Conductivity**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
-
--    **Use Lagrange Gauge**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info.
-
--    **Use Piola Transform**: Must be *true* if basis functions for edge element interpolation are selected to be members of optimal edge element family or if second-order approximation is used.
-
--    **Use Tree Gauge**: See Elmer [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Computation of Magnetic Fields in 3D* for info. Will be ignored if **Use Piola Transform** is *true*.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Results
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--    **Calculate Current Density**: Calculates the [current density](https://en.wikipedia.org/wiki/Current_density).
-
--    **Calculate Electric Field**: Calculates the [Electric vector field](https://en.wikipedia.org/wiki/Electric_field).
-
--    **Calculate Elemental Fields**: Calculates the electromagnetic fields for every mesh element. This is useful to see discontinuities in meshes.**Note**: at the moment FreeCAD cannot display these results properly. Therefore it is at the moment of no practical use.
-
--    **Calculate Harmonic Loss**: Calculates the linear and quadratic harmonic power loss. See the [Elmer models manual](https://www.elmerfem.org/blog/documentation/), section *Loss Estimation Using the Fourier Series* for details
-
--    **Calculate Joule Heating**: Calculates the [Joule heating](https://en.wikipedia.org/wiki/Joule_heating).
-
--    **Calculate Magnetic Strength**: Calculates the [Magnetic field strength](https://en.wikipedia.org/wiki/Magnetic_field).
-
--    **Calculate Maxwell Stress**: Calculates the [Maxwell stress tensor](https://en.wikipedia.org/wiki/Maxwell_stress_tensor) field.
-
--    **Calculate Nodal Fields**: Calculates the fields for every mesh node. The default is *true*. If no other **Calculate *** is set to *true*, it only calculates the magnetic flux density.
-
--    **Calculate Nodal Forces**: Calculates the forces for every mesh node. The results can be used for further mechanical analysis.
-
--    **Calculate Nodal Heating**: Calculates the Joule heating scalar field for every mesh node.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Constraint Information 
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The magnetodynamic equation takes the following constraints into account if they are set:
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
--   <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:24px;"> [Current density constraint](FEM_ConstraintCurrentDensity.md)
--   <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:24px;"> [Magnetization constraint](FEM_ConstraintMagnetization.md)
--   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Results 
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the electric electric (called **av** in the results) potential is calculated. Otherwise also the corresponding results will be available.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The possible results are:
-
--   Current density in $\rm A/m^2$
--   Electric field vector values in $\rm V/m$
--   Harmonic power loss in $\rm W$
--   Magnetic flux density in $\rm T$
--   Maxwell stress tensor values in $\rm As/m^3$
--   Magnetic field strength in $\rm A/m$
--   Nodal force in $\rm N$
--   Joule heating in $\rm J$
--   Potential in $\rm V$
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

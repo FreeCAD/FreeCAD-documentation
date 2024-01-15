@@ -28,8 +28,8 @@ Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode
 
 ## Utilisation
 
-1.  Sélectionnez une forme [Part](Part_Workbench/fr.md), et optionnellement un objet [Mesh](Mesh_Workbench/fr.md).
-2.  Appuyez sur le bouton **<img src="images/Arch_Equipment.png" width=16px> [Équipement](Arch_Equipment/fr.md)** ou appuyez la touche **E** puis **Q**.
+1.  Sélectionnez une forme [Part](Part_Workbench/fr.md) et éventuellement un objet [Mesh](Mesh_Workbench/fr.md).
+2.  Appuyez sur le bouton **<img src="images/Arch_Equipment.png" width=16px> [Équipement](Arch_Equipment/fr.md)** ou appuyez les touches **E** puis **Q**.
 
 ## Options
 
@@ -39,11 +39,11 @@ Lors de l\'utilisation de l\'exportateur Arch OBJ, tous les équipements en mode
 
 ## Propriétés
 
--    **Model**: Une description du modèle de cet équipement.
+-    **Model**: description du modèle de cet équipement.
 
--    **Url**: Une URL de la page du produit, où plus d\'informations sur cet équipement peut être trouvée.
+-    **Url**: URL de la page du produit, où plus d\'informations sur cet équipement peut être trouvée.
 
--    **Mesh**: Représentation de cet équipement en objet [Mesh](Mesh_Workbench.md). Lorsqu\'il est défini, le mode d\'affichage **Maillage** devient disponible.
+-    **Mesh**: représentation [maillée](Mesh_Workbench/fr.md) à utiliser pour cet équipement. Lorsqu\'elle est définie, le mode d\'affichage **Maillage** devient disponible.
 
 
 
@@ -59,7 +59,7 @@ L\'outil Équipement peut-être utilisé dans des [macros](Macros/fr.md) et depu
 Equipment = makeEquipment(baseobj=None, placement=None, name="Equipment")
 ```
 
--   Crée un objet `Equipment` à partir d\'un `baseobj` ou un objet `Part` ou `Mesh`
+-   Crée un objet `Equipment` à partir d\'un `baseobj` ou un objet `Part` ou `Mesh`.
 -   Si `placement` est donné, il sera utilisé.
 -   Retourne `None` si l\'opération échoue.
 

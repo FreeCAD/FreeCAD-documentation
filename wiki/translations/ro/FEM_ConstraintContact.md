@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o constrângere MEF pentru contactul între două suprafețe.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -28,6 +38,8 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 
 
 </div>
+
+
 
 ## Limite
 
@@ -79,7 +91,7 @@ Creează o constrângere MEF pentru contactul între două suprafețe.
 
 -   A very detailed CalculiX contact example. ([link](http://dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 
--   A very cool example found in the FreeCAD German subforum. ([link](https://forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
+-   An interesting example found in the FreeCAD German subforum. ([link](https://forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
 
 
 

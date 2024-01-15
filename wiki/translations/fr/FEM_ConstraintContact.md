@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintContact
    Name/fr: FEM Contrainte de contact
-   MenuLocation: Modèle , Contraintes mécaniques , Contrainte de contact
+   MenuLocation: Modèle , Conditions limites et charges mécaniques , Contrainte de contact
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintFixed/fr
 ---
@@ -11,7 +11,7 @@
 
 ## Description
 
-Crée une contrainte FEM de contact entre deux surfaces.
+Crée une contrainte de contact entre deux surfaces.
 
 
 
@@ -19,7 +19,7 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 1.  Il existe plusieurs façons d\'appeler la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ConstraintContact.svg" width=16px> [Contrainte de contact](FEM_ConstraintContact/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Contraintes mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** dans le menu.
+    -   Sélectionnez l\'option **Modèle → Conditions limites et charges mécaniques → <img src="images/FEM_ConstraintContact.svg" width=16px> Contrainte de contact** dans le menu.
 2.  Sélectionnez la face principale.
 3.  Sélectionnez la face esclave.
 4.  Entrez une raideur de contact.
@@ -40,7 +40,7 @@ Crée une contrainte FEM de contact entre deux surfaces.
 ### Astuces pour modéliser 
 
 -   À partir de <https://forum.freecadweb.org/viewtopic.php?f=18&p=340874#p340494>
--   Il vaut mieux utiliser des éléments linéaires, sinon les calculs prennent beaucoup de temps.
+-   L\'utilisation d\'éléments linéaires est recommandée. Dans le cas contraire, les calculs peuvent prendre beaucoup de temps.
 -   Affectation maître/esclave :
     -   La plus grande des deux surfaces doit être la surface maîtresse.
     -   Si les surfaces sont de taille comparable, la surface du corps le plus rigide doit être la surface maîtresse.
@@ -48,9 +48,9 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 ### CalculiX
 
--   La rigidité de contact doit être 10 fois supérieure au module de Young du matériau pour un contact dur. Plus la valeur de la rigidité de contact est élevée, plus le contact entre les surfaces est dur.
--   La face esclave est la face qui pénètre dans la face maître, et subit donc plus de déformation.
--   La carte \*CONTACT PAIR est utilisée pour modéliser le contact dans CalculiX. La contrainte utilise le contact de pénalité Face-à-Face et la formulation du contact est expliquée en détail sur <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node112.html>.
+-   La rigidité de contact peut être estimée de 5 à 50 fois le module de Young du matériau. Plus la valeur de la rigidité de contact est élevée, plus le contact entre les surfaces est dur.
+-   La face esclave est la face qui pénètre dans la face maîtresse et subit donc une plus grande déformation.
+-   Le jeu de paramètres \*CONTACT PAIR est utilisée pour modéliser le contact dans CalculiX. La contrainte utilise le contact de pénalité Face-à-Face et la formulation du contact est expliquée en détail sur <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node112.html>.
 -   Vue d\'ensemble des différents types de contact : <https://forum.freecadweb.org/viewtopic.php?f=18&t=15699&start=90#p188736>
 -   Autres informations intéressantes :
     -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=23102#p180709> et les posts suivants !!!
@@ -60,7 +60,7 @@ Crée une contrainte FEM de contact entre deux surfaces.
 
 -   Un exemple de contact très détaillé avec CalculiX. ([lien](http://dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 
--   Un très bon exemple aussi dans le sous forum allemand. ([Lien](https://forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
+-   Un exemple intéressant dans le sous forum allemand. ([Lien](https://forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
 
 
 

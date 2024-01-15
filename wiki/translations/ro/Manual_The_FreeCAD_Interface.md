@@ -1,5 +1,5 @@
 # Manual:The FreeCAD Interface/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 FreeCAD utilizează [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) pentru a desena și administra interfața sa. Acest cadru este folosit într-o gamă largă de aplicații, astfel încât interfața FreeCAD este foarte clasică și nu prezintă dificultăți speciale în înțelegere Cele mai multe butoane sunt standard și vor fi găsite acolo unde vă așteptați(File -\> Open, Edit -\> Paste, etc). Iată aspectul FreeCAD atunci când îl deschideți pentru prima dată, imediat după instalare, afișându-vă centrul de start:
 
@@ -29,6 +29,8 @@ Dar după un timp sau după ce ați făcut unele modificări în preferințe, ve
 
 </div>
 
+
+
 ### Ateliere
 
 Rețineți că unele dintre pictograme s-au schimbat între cele două capturi de ecran de mai sus. Aici intră în joc cel mai important concept utilizat în interfața FreeCAD: atelierul de lucru.
@@ -54,6 +56,8 @@ Atelierele de lucru adesea îi lasă confuzi pe utilizatorii noi, deoarece nu es
 </div>
 
 Later in this manual, you will also find a table showing the contents of all Workbenches.
+
+
 
 ### Interfața
 
@@ -104,6 +108,8 @@ In addition to the 3D view panel, the following information panels are available
 
 
 </div>
+
+
 
 ### Personalizarea interafeței 
 

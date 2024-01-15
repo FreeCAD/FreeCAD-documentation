@@ -16,7 +16,7 @@
 L\'outil **TechDraw Cercle** ajoute un cercle cosmétique basé sur deux sommets.
 
 <img alt="" src=images/TechDraw_ExtensionDrawCosmCircleExample.png  style="width:250px;"> 
-*A droite, un cercle cosmétique ajouté*
+*À droite, un cercle cosmétique ajouté*
 
 
 

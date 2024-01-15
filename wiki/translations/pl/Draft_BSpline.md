@@ -11,98 +11,108 @@
 
 # Draft BSpline/pl
 
-## Description
 
-The <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Draft BSpline** command creates a [B-spline curve](http://en.wikipedia.org/wiki/B-spline) from several points.
 
-The Draft BSpline command specifies the **exact points** through which the curve will pass. The [Draft BezCurve](Draft_BezCurve.md) and the [Draft CubicBezCurve](Draft_CubicBezCurve.md) commands, on the other hand, use **control points** to define the position and curvature of the spline.
+## Opis
+
+Polecenie <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> **Krzywa złożona** tworzy krzywą [B-spline](http://en.wikipedia.org/wiki/B-spline) na podstawie kilku punktów.
+
+Polecenie Krzywa złożona określa punkty **exact points**, przez które będzie przechodzić krzywa. Polecenia [Krzywa złożona](Draft_BezCurve/pl.md) i [Sześcienna krzywa Beziera](Draft_CubicBezCurve/pl.md) używają z kolei **punktów kontrolnych** do określenia położenia i krzywizny odcinka krzywej.
 
 <img alt="" src=images/Draft_bspline_example.jpg  style="width:400px;"> 
-*Spline defined by multiple points*
-
-## Usage
-
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_BSpline.svg" width=16px> [Draft BSpline](Draft_BSpline.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_BSpline.svg" width=16px> B-spline** option from the menu.
-    -   Use the keyboard shortcut: **B** then **S**.
-2.  The **B-spline** task panel opens. See [Options](#Options.md) for more information.
-3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-5.  Press **Esc** or the **Close** button to finish the command.
-
-## Options
-
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
-
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created spline will have **Make Face** set to `True` and will have a filled face, provided it is closed and does not self-intersect. Note that a self-intersecting spline with a face will not display properly, for such a spline **Make Face** must be set to `False`.
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after using **<img src="images/Draft_FinishLine.svg" width=16px> Finish** or **<img src="images/Draft_CloseLine.svg" width=16px> Close**, or after creating a closed spline by snapping to the first point of the spline, allowing you to continue creating splines.
--   Press **/** or the **<img src="images/Draft_UndoLine.svg" width=16px> Undo** button to undo the last point.
--   Press **A** or the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button to finish the command and leave the spline open.
--   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command and close the spline. A closed spline can also be created by snapping to the first point of the spline.
--   Press **W** or the **<img src="images/Draft_Wipe.svg" width=16px> Wipe** button to delete the curve segments already placed, but keep working from the last point.
--   Press **U** or the **<img src="images/Draft_SelectPlane.svg" width=16px> [Set WP](Draft_SelectPlane.md)** button to adjust the current working plane in the orientation defined by the last and the previous point.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to finish the command.
-
-## Notes
-
--   A Draft BSpline can be edited with the [Draft Edit](Draft_Edit.md) command.
--   A Draft BSpline can be converted to a [Draft Wire](Draft_Wire.md) with the [Draft WireToBSpline](Draft_WireToBSpline.md) command.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft BSpline object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Odcinek krzywej zdefiniowany przez wiele punktów.*
 
 
-{{TitleProperty|Draft}}
 
--    **Area|Area**: (read-only) specifies the area of the face of the spline. The value will be {{value|0.0}} if **Make Face** if `False` or the face cannot be created.
+## Użycie
 
--    **Closed|Bool**: specifies if the spline is closed or not. If the spline is initially open this value is `False`, setting it to `True` will draw a curve segment to close the spline. If the spline is initially closed this value is `True`, setting it to `False` will remove the last curve segment and make the spline open.
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
--    **Make Face|Bool**: specifies if the spline makes a face or not. If it is `True` a face is created, otherwise only the perimeter is considered part of the object. This property only works if **Closed** is `True` and if the spline does not self-intersect.
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_BSpline.svg" width=16px> '''Krzywa złożona'''**.
+    -   Wybierz opcję **Kreślenie → <img src="images/Draft_BSpline.svg" width=16px> Krzywa złożona** z menu.
+    -   Użyj skrótu klawiaturowego: **B**, a następnie **S**.
+2.  Otworzy się panel zadań **Krzywa złożona**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+3.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt
+**
+4.  Wybierz dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+5.  Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
--    **Parameterization|Float**: affects the shape of the spline.
-
--    **Points|VectorList**: specifies the points of the spline in its local coordinate system.
-
-### View
 
 
-{{TitleProperty|Draft}}
+## Opcje
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the spline.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the spline, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Relatywnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). <small>(v0.20)</small> 
+-   Naciśnij **F** lub kliknij pole wyboru **Wypełnij**, aby przełączyć tryb wypełnienia. Jeśli tryb wypełnienia jest włączony, utworzony splajn będzie miał właściwość **Utwórz ścianę** ustawione na wartość {{TRUE/pl}} i będzie miał wypełnioną ścianę, pod warunkiem, że jest zamknięty i nie następuje samo-przecinanie. Należy pamiętać, że przecinający się splajn ze ścianą nie będzie wyświetlany poprawnie, dla takiego splajnu właściwość **Make Face** musi być ustawione na wartość {{FALSE/pl}}.
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po użyciu przycisku **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ** lub **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, lub po utworzeniu zamkniętego splajnu poprzez przyciągnięcie do pierwszego punktu splajnu, umożliwiając dalsze tworzenie splajnów.
+-   Naciśnij **/** lub przycisk **<img src="images/Draft_UndoLine.svg" width=16px> Cofnij**, aby cofnąć ostatni punkt.
+-   Naciśnij **A** lub przycisk **<img src="images/Draft_FinishLine.svg" width=16px> Zakończ**, aby zakończyć polecenie i pozostawić otwartą krzywą.
+-   Naciśnij **O** lub przycisk **<img src="images/Draft_CloseLine.svg" width=16px> Zamknij**, aby zakończyć polecenie i zamknąć linię krzywą. Zamkniętą krzywą można również utworzyć poprzez przyciągnięcie do pierwszego punktu splajnu.
+-   Naciśnij **W** lub przycisk **<img src="images/Draft_Wipe.svg" width=16px> Wyczyść**, aby usunąć już umieszczone segmenty krzywej, ale kontynuować pracę od ostatniego punktu.
+-   Naciśnij **U** lub przycisk **<img src="images/Draft_SelectPlane.svg" width=16px> [ustaw płaszczyzne roboczą](Draft_SelectPlane/pl.md)**, aby ustawić bieżącą płaszczyznę roboczą w orientacji określonej przez ostatni i poprzedni punkt.
+-   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the spline, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the face of the closed spline. This property only works if **Make Face** is `True` and if **Display Mode** is {{value|Flat Lines}}.
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+## Uwagi
 
-## Scripting
+-   Krzywa złożona środowiska Rysunek Roboczy może być edytowana za pomocą polecenia [Edytuj](Draft_Edit.md).
+-   Krzywa złożona środowiska Rysunek Roboczy może zostać przekonwertowany na [polilinię](Draft_Wire/pl.md) za pomocą narzędzia [Polilinia na krzywą złożoną](Draft_WireToBSpline/pl.md).
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft BSpline use the `make_bspline` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeBSpline` method.
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Krzywa złożona środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Obszar|Area**: *(tylko do odczytu)* określa obszar powierzchni krzywej. Wartość będzie wynosiła {{value|0.0}} jeśli właściwość **Utwórz ścianę** ma wartość {{FALSE/pl}} lub ściana nie może zostać utworzona.
+
+-    **Zamknięty|Bool**: określa czy krzywa jest zamknięta czy nie. Jeśli odcinek jest początkowo otwarty, wartość ta wynosi {{FALSE/pl}}, ustawienie jej na {{TRUE/pl}} spowoduje narysowanie segmentu krzywej w celu zamknięcia krzywej. Jeśli krzywa jest początkowo zamknięta, ta wartość to {{TRUE/pl}}, ustawienie jej na {{FALSE/pl}} spowoduje usunięcie ostatniego segmentu krzywej i otwarcie krzywej.
+
+-    **Utwórz ścianę|Bool**: określa, czy krzywa tworzy ścianę, czy nie. Jeśli ma wartość {{TRUE/pl}}, tworzona jest ściana, w przeciwnym razie tylko krawędź jest uważana za część obiektu. Ta właściwość działa tylko wtedy, gdy włąściwość **Zamknięty** ma wartość {{TRUE/pl}} i jeśli krzywa nie przecina się sama.
+
+-    **Parametryzacja|Float**: wpływa na kształt krzywej.
+
+-    **Punkty|VectorList**: określa punkty krzywej w jego lokalnym układzie współrzędnych.
+
+
+
+### Widok
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Rozmiar strzałki|Length**: określa rozmiar symbolu wyświetlanego na końcu krzywej.
+
+-    **Typ strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu krzywej, którym może być {{value|Punkt}}, {{value|Okrąg}}, {{value|Strzałka}}, {{value|Grot}} lub {{value|Grot-2}}.
+
+-    **Zakończenie strzałki|Bool**: określa, czy na końcu krzywej ma być wyświetlany symbol, aby można go było użyć jako linii adnotacji.
+
+-    **Wzór|Enumeration**: określa [Wzór](Draft_Pattern/pl.md), którym ma być wypełniona powierzchnia zamkniętej krzywej. Ta właściwość działa tylko jeśli właściiwość **Utwórz ścianę** ma wartość {{TRUE/pl}} i jeśli właściwość **Tryb wyświetlania** ma wartość {{value|Cieniowany z krawędziami}}.
+
+-    **Rozmiar wzoru|Float**: określa rozmiar [Wzoru](Draft_Pattern/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć linię Krzywa złożona użyj metody `make_line` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeLine`.
 
 
 ```python
@@ -110,14 +120,14 @@ bspline = make_bspline(pointslist, closed=False, placement=None, face=None, supp
 bspline = make_bspline(Part.Wire, closed=False, placement=None, face=None, support=None)
 ```
 
--   Creates a `bspline` object from the given list of points, `pointslist`.
-    -   Each point in the list is defined by its `FreeCAD.Vector`, with units in millimeters.
-    -   Alternatively, the input can be a `Part.Wire`, from which points are extracted.
--   If `closed` is `True`, or if the first and last points are identical, the spline is closed.
--   If `placement` is `None` the spline is created at the origin.
--   If `face` is `True`, and the spline is closed, the spline will make a face, that is, it will appear filled.
+-   Tworzy obiekt `Krzywej złóżonej` z podaną listą punktów, `pointslist`.
+    -   Każdy punkt na liście jest zdefiniowany przez jego `FreeCAD.Vector`, z jednostkami w milimetrach.
+    -   Alternatywnie, dane wejściowe mogą być typu `Part.Wire`, z których wyodrębniane są punkty.
+-   Jeśli właściwość `Zamknięty` ma wartość {{True/pl}}, lub jeśli pierwszy i ostatni punkt mają identyczne wartości, krzywa jest zamknięta.
+-   Jeśli `umiejscowienie` ma wartość `Brak`, kształt jest tworzony w punkcie początkowym.
+-   Jeśli właściwość `ściana` ma wartość {{True/pl}}, a krzywą jest zamknięta, to krzywa będzie ścianą, czyli będzie wyglądała na wypełnioną.
 
-Example:
+Przykład:
 
 
 ```python

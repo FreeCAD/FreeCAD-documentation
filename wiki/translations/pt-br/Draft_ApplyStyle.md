@@ -8,26 +8,27 @@
 
 # Draft ApplyStyle/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_ApplyStyle.svg  style="width:24px;"> **Draft ApplyStyle** command applies the current style settings to selected objects.
 
-This command currently handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers:
 
--    **Line color**
-    
+{{VersionMinus|0.21}}
 
--    **Line width**
-    
+: This command handles only five of the settings the [Draft SetStyle](Draft_SetStyle.md) command offers.
 
--    **Shape color**
-    
 
--    **Text size**
-    
+<small>(v0.21)</small> 
 
--    **Text color**
-    
+: This command changes the view properties of objects. It applies all settings the [Draft SetStyle](Draft_SetStyle.md) command offers. It also changes these additional properties:
+
+-    **Decimals**(for dimensions): See [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
+
+-    **ShowLine**(for dimensions): Idem.
+
+
 
 ## Utilização
 
@@ -37,7 +38,7 @@ This command currently handles only five of the settings the [Draft SetStyle](Dr
 
 ## Notes
 
--   In FreeCAD version 0.20 the [Draft SetStyle](Draft_SetStyle.md) command can also apply the settings.
+-   The [Draft SetStyle](Draft_SetStyle.md) command can also apply settings.
 
 
 <div class="mw-translate-fuzzy">

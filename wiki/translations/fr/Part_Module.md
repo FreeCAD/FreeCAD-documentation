@@ -44,11 +44,11 @@ Ce sont des outils pour créer des objets primitifs.
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Créer des primitives\...](Part_Primitives/fr.md) : outil pour créer l\'une des primitives suivantes :
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plan](Part_Plane/fr.md) : crée un plan.
     -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cube](Part_Box/fr.md) : crée une boîte. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cube](Part_Box/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md) : crée un cylindre. Cet objet peut également être créé avec la <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md).
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cône](Part_Cone/fr.md) : crée un cône. Cet objet peut également être créé avec la <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone/fr.md).
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md) : crée une sphère. Cet objet peut également être créé avec la <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> L\'outil [Sphère](Part_Sphere/fr.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md) : crée un cylindre. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cylindre](Part_Cylinder/fr.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cône](Part_Cone/fr.md) : crée un cône. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cône](Part_Cone/fr.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md) : crée une sphère. Cet objet peut également être créé avec l\'outil <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Sphère](Part_Sphere/fr.md).
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoïde](Part_Ellipsoid/fr.md) : crée un ellipsoïde.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Tore](Part_Torus/fr.md) : crée un tore. Cet objet peut aussi être créé avec la <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Outil_Part_Torus/fr.md).
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Tore](Part_Torus/fr.md) : crée un tore. Cet objet peut aussi être créé avec l\'outil <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Tore](Part_Torus/fr.md).
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisme](Part_Prism/fr.md) : crée un prisme.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Pyramide tronquée](Part_Wedge/fr.md) : crée une pyramide tronquée.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/fr.md) : crée une hélice.
@@ -73,6 +73,8 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Miroir](Part_Mirror/fr.md) : reflète l\'objet sélectionné sur un plan de miroir.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Échelle](Part_Scale/fr.md) : met à l\'échelle une ou plusieurs formes. {{Version/fr|0.22}}
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Congé](Part_Fillet/fr.md) : congés (arrondi) d\'arêtes d\'un objet.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chanfrein](Part_Chamfer/fr.md) : chanfreine les bords d\'un objet.
@@ -90,10 +92,10 @@ Il s\'agit d\'outils permettant de créer de nouveaux objets et de modifier des 
 -   <img alt="" src=images/Part_CrossSections.svg  style="width:32px;"> [Coupes](Part_CrossSections/fr.md) : crée une ou plusieurs coupes transversales à travers une forme sélectionnée.
 
 -   <img alt="" src=images/Part_CompOffsetTools.png  style="width:48px;"> [Outils de décalage](Part_CompOffsetTools/fr.md):
-    -   <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [Décalage 3D](Part_Offset/fr.md) : construit une forme parallèle à une certaine distance de l\'original.
-    -   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [Décalage 2D](Part_Offset2D/fr.md) : construit un fil parallèle à une certaine distance de l\'original ou agrandit/réduit une face plane.
+    -   <img alt="" src=images/Part_Offset.svg  style="width:32px;"> [Décaler en 3D](Part_Offset/fr.md) : construit une forme parallèle à une certaine distance de l\'original.
+    -   <img alt="" src=images/Part_Offset2D.svg  style="width:32px;"> [Décaler en 2D](Part_Offset2D/fr.md) : construit une polyligne parallèle à une certaine distance de l\'originale ou agrandit/réduit une face plane.
 
--   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Evidement](Part_Thickness/fr.md) : creuse un solide pour en faire comme une coque.
+-   <img alt="" src=images/Part_Thickness.svg  style="width:32px;"> [Évider](Part_Thickness/fr.md) : creuse un solide pour en faire comme une coque.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projection sur une surface](Part_ProjectionOnSurface/fr.md) : projette un logo, un texte ou une face, un fil ou une arête sur une surface.
 
@@ -143,9 +145,9 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_Measure_Toggle_All.svg  style="width:32px;"> [Tout basculer](Part_Measure_Toggle_All/fr.md) : affiche ou masque toutes les mesures.
 
--   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Basculer 3D](Part_Measure_Toggle_3D/fr.md) : affiche ou masque les mesures 3D.
+-   <img alt="" src=images/Part_Measure_Toggle_3D.svg  style="width:32px;"> [Mesures dans la 3D](Part_Measure_Toggle_3D/fr.md) : affiche ou masque les mesures dans la 3D.
 
--   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Basculer Delta](Part_Measure_Toggle_Delta/fr.md) : affiche ou masque les mesures delta.
+-   <img alt="" src=images/Part_Measure_Toggle_Delta.svg  style="width:32px;"> [Mesures selon le repère global](Part_Measure_Toggle_Delta/fr.md) : affiche ou masque les mesures dans le repère global.
 
 
 
@@ -163,7 +165,7 @@ Ces outils effectuent des opérations booléennes.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convertir en solide](Part_MakeSolid/fr.md) : convertit un objet forme en objet solide.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Inverser les formes](Part_ReverseShapes/fr.md) : inverse les normales de toutes les faces de l\'objet sélectionné.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Inverser les formes](Part_ReverseShape/fr.md) : inverse les normales de toutes les faces de l\'objet sélectionné.
 
 -   Créer une copie :
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Créer une copie simple](Part_SimpleCopy/fr.md) : crée une copie simple de l\'objet sélectionné.

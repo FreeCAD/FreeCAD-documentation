@@ -1,45 +1,56 @@
 # Macro Align View to Face/pl
-{{Macro
+{{Macro/pl
 |Name=Macro Align View to Face
+|Name/pl=Makrodefinicja: Wyrównaj widok do ściany
 |Icone=Macro_Align_View_to_Face.png
-|Description=This macro aligns the current view to a selected face
+|Description=Makro to ustawia bieżący widok na wybraną ścianę
 |Author=Rockn
-|Version=3.0
-|Date=2022-10-08
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png ToolBar Icon]
+|Version=3.1
+|Date=2023-11-12
+|FCVersion=wszystkie
+|Download=[https://www.freecadweb.org/wiki/images/d/d7/Macro_Align_View_to_Face.png Ikona paska narzędzi]
 }}
 
-## Description
 
-This macro rotates the current view to point perpendicularly at a selected face of an existing object.
 
-## Usage
+## Opis
 
-1.  Select a face on an object
-2.  Run the macro
+Makrodefinicja ta obraca bieżący widok tak, aby skierować go prostopadle do wybranej powierzchni istniejącego obiektu.
 
-## Script
 
-ToolBar Icon ![](images/Macro_Align_View_to_Face.png )
+
+## Użycie
+
+1.  Zaznacz ścianę na obiekcie.
+2.  Uruchom makrodefinicję.
+
+
+
+## Skrypt
+
+Ikonka paska narzędzi ![](images/Macro_Align_View_to_Face.png )
 
 **Macro_Align_View_to_Face.FCMacro** {{MacroCode|code=
 
 # -*- coding: utf-8 -*-
-# Set the current view perpendicular to the selected face
-# Place la vue perpendiculairement a la face selectionnee
+# Set the current view perpendicular to the selected line
+# Place la vue perpendiculairement a la line selectionnee
 # 2013 Jonathan Wiedemann,
 # 2016 Werner Mayer, 
 # 2022 tchernomax, https://forum.freecadweb.org/viewtopic.php?p=630019#p630019
+# 2023 FreeCutter, modifications towards linked objects like in workbench Assembly 4 , https://forum.freecad.org/viewtopic.php?p=718516#p718516
 #
 __title__   = "Align_View_to_Face"
 __author__  = "Jonathan Wiedemann (Rockn)"
 __url__     = "https://www.freecadweb.org/"
 __Wiki__    = "https://wiki.freecadweb.org/Macro_Align_View_to_Face"
-__version__ = "3.0"
-__date__    = "2022/10/08"  #YYYY/MM/DD
-#
+__version__ = "3.1"
+__date__    = "2023/11/12"  #YYYY/MM/DD
+
 from pivy import coin
+
+import FreeCAD as app
+import FreeCADGui as gui
 
 def pointAt(normal, up):
     z = normal
@@ -62,35 +73,38 @@ def pointAt(normal, up):
 
     return App.Placement(rot).Rotation
 
-sel=Gui.Selection.getSelectionEx()[0]
-obj=sel.Object
-face=sel.SubObjects[0]
-dir = face.normalAt(0,0)
-cam = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
+def get_selection_and_turn_view():
+    doc = app.activeDocument()
+    if doc is None:
+        app.Console.PrintWarning('Align_view_to_face: No file open, nothing to do\n')
+        returnselection = gui.Selection.getSelectionEx('', 0) # Returns a vector of selection objectsif not selection:
+        app.Console.PrintWarning('Align_view_to_face: Nothing selected, nothing to do\n')
+        returncam = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()''' used to understand the 'getSelection' results
+    for selection_object in selection:
+        object_ = selection_object.Object
+        sub_fullpaths = selection_object.SubElementNames
+        if not sub_fullpaths:
+            # An object is selected, not a face, edge, vertex.
+            print(object_.Name)
+        for sub_fullpath in sub_fullpaths:
+            # One or more subelements are selected.
+            print(object_.Name, sub_fullpath)
+    '''sel = selection[0]
+    face = sel.SubObjects[0]
+    if face.Area == 0:          # trying to avoid errors due to wrong selected objects
+        app.Console.PrintWarning('Align_view_to_face: Please select a face - not an edge or vertex\n')
+        return
+    dir = face.normalAt(0,0)if dir.z == 1 :
+        rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
+    elif dir.z == -1 :
+        rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
+    else :
+        rot = pointAt(dir, App.Vector(0.0,0.0,1.0))cam.orientation.setValue(rot.Q)
+    gui.SendMsgToActiveView("ViewSelection")
+    app.Console.PrintWarning('Align_view_to_face: Done\n')
 
-if dir.z == 1 :
-    rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
-elif dir.z == -1 :
-    rot = pointAt(dir, App.Vector(0.0,1.0,0.0))
-else :
-    rot = pointAt(dir, App.Vector(0.0,0.0,1.0))
-
-def computeRotation(obj):
-    if not obj.Parents:
-        # the object has no parent
-        return obj.Placement.Rotation
-    # the object has parent
-    # we compute the rotation of it's parent and multiply it with it's rotation
-    return parentRotate(obj.Parents[0][0]).multiply(obj.Placement.Rotation)
-
-if obj.Parents:
-    obj_par = obj.Parents[0][0]
-    rot_par = computeRotation(obj_par)
-    cam.orientation.setValue(rot_par.multiply(rot).Q)
-else:
-    cam.orientation.setValue(rot.Q)
-
-Gui.SendMsgToActiveView("ViewSelection")
+if __name__ == '__main__':
+    get_selection_and_turn_view()
 
 }}
 

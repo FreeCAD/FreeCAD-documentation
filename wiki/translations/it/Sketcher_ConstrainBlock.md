@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Il vincolo **Fissa** blocca un elemento geometrico in posizione con un singolo vincolo.
@@ -24,6 +26,8 @@ Il suo scopo principale è quello di lavorare con le <img alt="" src=images/Sket
 
 
 </div>
+
+
 
 ## Utilizzo
 

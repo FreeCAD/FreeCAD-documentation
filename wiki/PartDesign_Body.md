@@ -160,7 +160,7 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 The Base Feature is the first [PartDesign Feature](PartDesign_Feature.md) in the Body when the Body is based on another solid shape. This solid can be created by any workbench, or imported from an external file, for example, a STEP file.
 
  ![](images/PartDesign_Body_BaseFeature_tree.png )  
-*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+*Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.*
 
 To create the Base Feature:
 

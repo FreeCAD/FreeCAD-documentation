@@ -4,7 +4,7 @@
    Name/fr: FEM Contrainte de poulie
    MenuLocation: Modèle , Contraintes sans solveur , Contrainte de poulie
    Workbenches: FEM_Workbench/fr
-   SeeAlso: FEM_ConstraintBearing/fr, FEM_ConstraintGear/fr
+   SeeAlso: 
 ---
 
 # FEM ConstraintPulley/fr
@@ -12,6 +12,8 @@
 ## Description
 
 Pas supporté avec l\'interface Calculix
+
+
 
 ## Utilisation
 

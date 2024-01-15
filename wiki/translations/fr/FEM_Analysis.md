@@ -14,9 +14,8 @@
 
 L\'analyse FEM peut être considérée comme un conteneur qui contient tous les objets d\'une analyse par éléments finis. Il est obligatoire d\'avoir un conteneur d\'analyse qui contient tous les objets nécessaires. Au moins un des objets suivants est nécessaire pour une analyse mécanique :
 
--   [Matériau](FEM_MaterialSolid/fr.md)
--   [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
--   [Contrainte de force](FEM_ConstraintForce/fr.md) ou [Contrainte de pression](FEM_ConstraintPressure/fr.md)
+-   [Matériau pour solide](FEM_MaterialSolid/fr.md)
+-   [Condition de limite fixe](FEM_ConstraintFixed/fr.md) ou [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md)
 
 
 

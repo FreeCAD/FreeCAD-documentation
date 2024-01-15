@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Questo strumento elimina tutti i vincoli dallo schizzo in corso di modifica e lascia intatta la geometria.
+
+
 
 ## Utilizzo
 

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The **PartDesign SubShapeBinder** tool creates a shape binder referencing geometry from one or more parent objects. A SubShapeBinder is typically used inside a [PartDesign Body](PartDesign_Body.md) to reference geometry outside the Body. Using external geometry directly in a Body is not allowed and will lead to out of scope errors. But a SubShapeBinder can also be used without being nested in a Body.
@@ -27,6 +29,8 @@ On the right two SubShapeBinders referencing geometry from the first Body, neste
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 
 *The two SubShapeBinders are used to create a [Boolean cut](PartDesign_Boolean.md) and a [Pad](PartDesign_Pad.md) in the second Body.*
+
+
 
 ## Применение
 
@@ -64,6 +68,8 @@ On the right two SubShapeBinders referencing geometry from the first Body, neste
 -   The **Support** property contains the links to the referenced geometry. The property is read only by default, but can be changed by following the instructions described under [Start with empty SubShapeBinder](#Start_with_empty_SubShapeBinder.md).
 -   A SubShapeBinder created from a sketch can have an opposite \"tool direction\". For example a [Pad](PartDesign_Pad.md) created from the sketch may extend in the +Y direction, while a [Pad](PartDesign_Pad.md), with the same properties, created from the SubShapeBinder extends in the -Y direction. Toggling the **Reversed** property (or checkbox) will solve this.
 
+
+
 ## Различия между связующей формой и под-объектной связующей формой 
 
 The PartDesign SubShapeBinder tool and the [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) tool are quite similar. Their names are somewhat confusing as both can reference whole objects and subelements.
@@ -76,9 +82,15 @@ The main differences are:
 -   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
 -   Only PartDesign SubShapeBinders support 2D offsetting.
 
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+
+
+
 ## Свойства
 
 A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Данные
 
@@ -128,6 +140,8 @@ A PartDesign SubShapeBinder object is derived from a [Part Feature](Part_Feature
 -    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
 
 -    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+
+
 
 ## Ссылки
 

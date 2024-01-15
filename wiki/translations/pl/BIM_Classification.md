@@ -1,24 +1,29 @@
 ---
- GuiCommand:Addon
+ GuiCommand:Addon/pl
    Name: BIM Classification
-   Workbenches: Image:IFC.svg BIM Workbench
+   Name/pl: BIM: Klasyfikacja
+   Workbenches: Image:IFC.svg BIM_Workbench/pl
    Addon: BIM
-   MenuLocation: Manage , Classification
+   MenuLocation: Zarządzaj , Klasyfikacja
 ---
 
 # BIM Classification/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_classification_screenshot.png  style="width:1024px;">
 
-The classifications manager allows you to attribute a standard class to a BIM object or material. Several classification systems are available in XML or IFC form (both are supported by this tool) from <https://github.com/Moult/IfcClassification>, or directly from their publishers or from <https://www.graphisoft.com/downloads/archicad/BIM_Data.html> . To make these XML or IFC files known to FreeCAD they must be placed in a BIM subfolder of your FreeCAD user folder. The exact location for your system is informed on the BIM classification dialog. If both an IFC and XML file are available, the BIM Classification tool will prefer the IFC one.
+Menedżer klasyfikacji umożliwia przypisanie standardowej klasy do obiektu lub materiału BIM. Kilka systemów klasyfikacji jest dostępnych w formie XML lub IFC *(oba są obsługiwane przez to narzędzie)* ze strony <https://github.com/Moult/IfcClassification>, bezpośrednio od ich wydawców lub ze strony <https://www.graphisoft.com/downloads/archicad/BIM_Data.html>. Aby te pliki XML lub IFC były znane FreeCAD, muszą być umieszczone w katalogu BIM folderu użytkownika FreeCAD. Dokładna lokalizacja w systemie jest podana w oknie dialogowym klasyfikacji BIM. Jeśli dostępny jest zarówno plik IFC, jak i XML, narzędzie klasyfikacji BIM preferuje plik IFC.
 
-## Usage
 
--   Install one or more classification standard XML or IFC files as explained above
--   If you wish to add or edit a class for an object, select that object and press the BIM Classification button
--   If you wish to add or edit a class for a material, don\'t select anything and press the BIM Classification button. You will be able to browse the materials directly from the classification manager window
+
+## Użycie
+
+-   Zainstaluj jeden lub więcej standardowych plików klasyfikacji XML lub IFC, jak wyjaśniono powyżej.
+-   Jeśli chcesz dodać lub edytować klasę dla obiektu, wybierz ten obiekt i naciśnij przycisk BIM Klasyfikacja.
+-   Jeśli chcesz dodać lub edytować klasę dla materiału, nie wybieraj niczego i naciśnij przycisk BIM Klasyfikacja. Będziesz mógł przeglądać materiały bezpośrednio z okna menedżera klasyfikacji.
 
 
 

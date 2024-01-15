@@ -7,8 +7,8 @@
 |Version=01.02
 |Date=2020-01-10
 |FCVersion=All
-|Download=ToolBar icon [https://www.freecadweb.org/wiki/images/a/a4/Dodecahedron.svg Icon ToolBar]
-|SeeAlso=[Macro Pyramid](Macro_Pyramid.md) [<img src=images/Pyramidicon.svg style="width:24px">
+|Download=[https://wiki.freecad.org/images/a/a4/Dodecahedron.svg ToolBar Icon]
+|SeeAlso=[Macro Pyramid](Macro_Pyramid.md)
 }}
 
 ## Description
@@ -18,7 +18,7 @@ This macro creates parametric polyhedrons: tetrahedron, hexahedron, octahedron, 
 ## Notes
 
 -   If you\'re also interested in pyramids, then you can use <img alt="" src=images/Pyramidicon.svg  style="width:24px;"> [Pyramid macro](Macro_Pyramid.md).
--   You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same functions.
+-   You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) that contains the same functions.
 
 ![](images/Polyhedrons.png )
 
@@ -38,7 +38,7 @@ This macro creates parametric polyhedrons: tetrahedron, hexahedron, octahedron, 
 
 Note: You can always adjust the radius or the size, just like with normal parts.
 
--   More info at [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   More info at [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons).
 
 ## Related
 

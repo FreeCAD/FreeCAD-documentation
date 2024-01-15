@@ -19,7 +19,7 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;"> 
 *La séquence de clics est indiquée par des flèches jaunes avec des nombres.<br>
-C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
+C est le centre, a est le grand axe, b est le petit axe, F1, F2 sont les foyers.*
 
 
 
@@ -34,7 +34,7 @@ C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les 
 
 ## Particularités
 
--   Les axes majeurs et mineurs des ellipses sont stricts et ne peuvent pas être échangés en redimensionnant l\'ellipse. Ceci est une conséquence du paramétrage du solveur utilisé (centre (x, y), focus1 (x, y) et longueur de rayon mineur (b)) et le même comportement strict d\'OpenCascade. L\'ellipse doit être tournée pour échanger les axes.
+-   Le grand axe et le petit axe des ellipses sont stricts et ne peuvent pas être échangés en redimensionnant l\'ellipse. Ceci est une conséquence du paramétrage du solveur utilisé (centre (x, y), focus1 (x, y) et longueur du demi petit axe (b)) et le même comportement strict d\'OpenCascade. L\'ellipse doit être tournée pour échanger les axes.
 -   L\'ellipse peut fonctionner comme un cercle lorsque ses lignes de diamètre majeur et mineur sont supprimées, et l\'un des foyers est contraint de coïncider avec le centre. Mais la contrainte de rayon ne fonctionnera pas sur un tel cercle.
 -   Déplacer l\'ellipse par un bord donne le même résultat que le centre de l\'ellipse.
 

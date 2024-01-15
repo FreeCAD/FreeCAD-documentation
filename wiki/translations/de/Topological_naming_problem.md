@@ -23,9 +23,9 @@ Das Problem der topologischen Benennung betrifft und verwirrt neue Anwender von 
 
 2\. Wählen Sie die Oberseite des vorherigen Volumenkörpers aus und verwende dann <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign NewSketch](PartDesign_NewSketch/de.md), um eine weitere Skizze zu zeichnen; führe dann ein zweites Polster aus.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;"> |
++++
 
 3\. Wähle die Oberseite der vorherigen Extrusion aus und erstelle erneut eine Skizze und ein Polster.
 
@@ -33,17 +33,17 @@ Das Problem der topologischen Benennung betrifft und verwirrt neue Anwender von 
 
 4\. Doppelklicke nun auf die zweite Skizze und ändere sie so, dass ihre Länge entlang der X-Richtung liegt; dadurch wird das zweite Pad neu erstellt. Die dritte Skizze und das Polster bleiben an der gleichen Stelle.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;"> |
++++
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
 5\. Doppelklicke nun erneut auf die zweite Skizze und passe Deine Punkte so an, dass ein Teil davon außerhalb der durch das erste Pad definierten Grenzen liegt. Dadurch wird das zweite Pad korrekt neu berechnet, aber beim Betrachten der [Baumansicht](tree_view/de.md) wird im dritten Pad ein Fehler angezeigt.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;"> |
++++
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
@@ -51,17 +51,17 @@ Das Problem der topologischen Benennung betrifft und verwirrt neue Anwender von 
 
 Das Problem scheint darin zu bestehen, dass bei der Änderung der zweiten Skizze die Oberseite des zweiten Polsters von `Face13` in `Face14` umbenannt wurde. Die dritte Skizze ist wie ursprünglich an `Face13` angehängt, aber da sich diese Fläche nun auf der Seite befindet (nicht oben), folgt die Skizze ihrer Ausrichtung und ist nun falsch positioniert.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;"> |
++++
 
 7\. Um das Problem zu beheben, sollte die dritte Skizze wieder auf die Oberseite abgebildet werden. Wähle die Skizze aus, klicke auf die Ellipse (drei Punkte) neben der Eigenschaft {{PropertyData/de|Map Mode}}, und wähle erneut die Oberseite des zweiten Polsters. Dann geht die Skizze an die Spitze des vorhandenen Volumenkörpers, und das dritte Pad wird ohne Probleme erzeugt.
 
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;"> |
++++
 
 Die Umschlüsselung einer Skizze auf diese Weise kann bei jedem topologischen Benennungsfehler erfolgen, dies kann jedoch mühsam sein, wenn das Modell kompliziert ist und es viele solcher Skizzen gibt, die angepasst werden müssen.
 
@@ -80,9 +80,9 @@ Wie auf der Seite [Formelemente bearbeiten](Feature_editing/de.md) erläutert, b
 
 
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;"> |
++++
 
 3\. Wähle die zweite Skizze aus, klicke auf die Ellipse nahe der {{PropertyData/de|Map Mode}} Eigenschaft und wähle dann die erste Bezugsebene. Die Bezugsebene ist bereits von der XY-Ebene des Körpers versetzt, so dass für die Skizze kein weiterer Z-Versatz erforderlich ist.
 

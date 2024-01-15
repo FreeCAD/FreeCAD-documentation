@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Mesh Intersection
-   Name/de: Mesh Intersection
+   Name/de: Mesh Schnitt
    MenuLocation: Netze , Boolesche Verknüpfungen , Schnitt
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_Union/de, Mesh_Difference/de
@@ -24,9 +24,9 @@ Der Befehl **Mesh Schnitt** erstellt ein neues, nicht parametrisches Netzobjekt,
 
 ## Anwendung
 
-1.  Zwei oder mehr Netzobjekte, die sich teilweise überlappen.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Mesh_Intersection.svg" width=16px> [Mesh Schnitt](Mesh_Intersection/de.md)** drücken.
+1.  Zwei oder mehr Netzobjekte, die sich teilweise überlappen, auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_Intersection.svg" width=16px> [Schnitt](Mesh_Intersection/de.md)** drücken.
     -   Den Menüeintrag **Netze → Boolesche Verknüpfungen → <img src="images/Mesh_Intersection.svg" width=16px> Schnitt** auswählen.
 
 

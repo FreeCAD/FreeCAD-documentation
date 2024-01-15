@@ -11,7 +11,7 @@
 
 ## Description
 
-Ajoute des propriétés de fluide à une pièce.
+Crée un matériau pour le fluide.
 
 ![](images/FEMMaterialFluidProperties.png ) 
 *Le panneau des tâches des matériaux FEM*
@@ -26,7 +26,7 @@ Ajoute des propriétés de fluide à une pièce.
 2.  Pour modifier un objet MaterialFluid existant :
     -   Double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
 3.  Le panneau des tâches de matériau FEM s\'ouvre.
-4.  Sélectionnez un type de fluide. Pour la dynamique des fluides numériques (CFD), **Air** ou **Water** sont des options typiques.
+4.  Sélectionnez un type de fluide. Pour la dynamique des fluides numériques (CFD), **Air** ou **Water** sont des options communes.
 5.  Dans la mesure où vous appliquez le fluide à l\'ensemble de l\'objet, ne sélectionnez aucune entité géométrique (laissez la liste des références vide). Le fluide sera appliqué à l\'ensemble du modèle. Sinon, attribuez manuellement le fluide à des domaines particuliers du modèle en sélectionnant certains d\'entre eux pour chaque matériau inséré, si vous faites cela, ne laissez aucun domaine de votre modèle sans fluide attribué.
 6.  Vous pouvez ajuster les propriétés du fluide telles que la densité, la viscosité cinématique, la conductivité thermique, etc., quelques fluides clés sont déjà assignés dans la liste et ils n\'ont pas besoin d\'être modifiés.
 7.  Si vous apportez des modifications, vous pouvez enregistrer votre matériau personnalisé.

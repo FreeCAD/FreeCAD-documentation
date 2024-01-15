@@ -1,17 +1,9 @@
 # Manual:Introduction/hr
-<div class="mw-translate-fuzzy">
-
-
 {{Manual:TOC}}
-
-![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) je jedan open-source parametrijski program za 3D modeliranje.On je napravljen za modeliranje stvarnih objekata, počevši od malih elektronskih komponenata pa do zgrada i predmeta za 3D printanje. FreeCAD je besplatan za učitavanje, korištenje, distribuciju i mjenjanje koda. I njegov source code je otvorenog koda izdan pod [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) licencom. Podatci koje ste stvorili sa FreeCAD-om su potpuno vaši, i mogu se dobiti nazad (oporaviti) bez FreeCAD-a.
-
-
-</div>
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+[FreeCAD](http://www.freecad.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
 
 FreeCAD is also fundamentally a social project, as it is developed and maintained by a community of developers and users united by their passion for FreeCAD.
 

@@ -7,182 +7,74 @@
 
 ## Wprowadzenie
 
-Fcmcua jest [zewnętrznym środowiskiem pracy](External_workbench/pl.md), które jest używane do kontrolowania zespołu utworzonego w środowisku [Złożenie 4](Assembly4_Workbench/pl.md) z serwera [OPC UA](wikipedia_OPC_Unified_Architecture.md). Zapewnia to funkcjonalność symulacji maszyn sterowanych przez cyfrowe sterowniki takie jak [PLC](wikipedia_Programmable_logic_controller.md), o ile sterownik obsługuje OPC UA. Środowisko używa wartości dostarczonych przez serwer OPC UA do manipulowania Attachment Offset lokalnego układu współrzędnych *(LCS)* każdej części.
+Fcmcua jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które jest używane do kontrolowania zespołu utworzonego w środowisku [Złożenie 4](Assembly4_Workbench/pl.md) z serwera [OPC UA](wikipedia_OPC_Unified_Architecture.md). Zapewnia to funkcjonalność symulacji maszyn sterowanych przez cyfrowe sterowniki takie jak [PLC](wikipedia_Programmable_logic_controller.md), o ile sterownik obsługuje OPC UA. Środowisko używa wartości dostarczonych przez serwer OPC UA do manipulowania Attachment Offset lokalnego układu współrzędnych *(LCS)* każdej części.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-## Installation
+## Instalacja
 
-
-</div>
+Środowisko pracy **Fcmcua** można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-Fcmcua can be installed from the [Addon Manager](Std_AddonMgr.md).
+## Użycie
 
+Fcmcua udostępnia dwa typy mechanizmów do symulacji ruchu w modelu: **Oś** i **Siłownik**.
 
-</div>
+**Oś** jest kontrolowana przez wartości [zmiennoprzecinkowe](https://pl.wikipedia.org/wiki/Liczba_zmiennoprzecinkowa), które reprezentują pozycję osi lub prędkość silnika napędzającego oś.
 
+**Siłownik** to dowolny ruch wyzwalany sygnałem binarnym. W takim przypadku Fcmcua sama symuluje ruch, obliczając wartości pozycji potrzebne do symulacji.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Usage
-
-
-</div>
+Dalsze instrukcje użytkowania można znaleźć na stronie [repozytorium Fcmcua](https://github.com/heissgetraenk/fcmcua).
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-Fcmcua provides two types of mechanisms for simulating movement in a model: **Axis** and **Actuator**.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-An **axis** is controlled by [floating point](wikipedia:Floating-point_arithmetic.md) values that represent either the axis position or the speed of the motor that drives the axis.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-An **actuator** is any motion triggered by a binary signal. In that case Fcmcua itself simulates the motion by calculating the positional values needed for the simulation.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-For further usage instructions see the [Fcmcua repository](https://github.com/heissgetraenk/fcmcua).
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Connection
-
-
-</div>
+### Połaczenia
 
 <img alt="" src=images/Fcmcua_wb.svg  style="width:64px;">
 
+Adres URL do serwera OPC UA musi być określony w postaci {{Incode|opc.tcp://127.0.0.1:4840}}.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Ustawienie częstotliwości odpytywania może być wykorzystane do ograniczenia czasu między aktualizacjami zespołu FreeCAD.
 
-A URL to the OPC UA server must be specified in the form of {{Incode|opc.tcp://127.0.0.1:4840}}.
-
-
-</div>
+Stan połączenia jest wyświetlany na panelu połączenia.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-Setting a polling rate may be used to limit the time between updates to the FreeCAD assembly.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The connection state is displayed on the connection panel.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Axis Settings 
-
-
-</div>
+### Ustawienia dla osi 
 
 <img alt="" src=images/Fcmcua_axes.svg  style="width:64px;">
 
+Węzeł osi na serwerze OPC UA reprezentuje jednowymiarową zmianę przesunięcia mocowania części w zespole. Aby skonfigurować to przypisanie, należy określić następujące informacje:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-   **Node Id:** Adres węzła serwera.
+-   **Document Name:** Nazwa dokumentu części.
+-   **LCS:** Etykieta lokalnego układu współrzędnych części.
+-   **Offset:** Komponent wektorowy przesunięcia dołączenia, który zaktualizuje wartość węzła.
+-   **Type:** Oś prędkości lub oś pozycyjna.
 
-An axis node on the OPC UA server represents a one-dimensional change in the Attachment Offset of a part in the assembly. To configure this assignment the following information must be specified:
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   **Node Id:** The address of the server node.
--   **Document Name:** The name of the part\'s document.
--   **LCS:** The label of the part\'s Local Coordinate System.
--   **Offset:** The vector component of the Attachment Offset that the node value will update.
--   **Type:** Speed axis or positional axis.
+Wartość z serwera może być również odwrócona lub skalowana poprzez podanie znaku matematycznego i / lub współczynnika.
 
 
-</div>
 
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The value from the server can also be inverted or scaled by supplying a mathematical sign and/or factor.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Actuator Settings 
-
-
-</div>
+### Ustawienia dla siłownika 
 
 <img alt="" src=images/Fcmcua_actuator.svg  style="width:64px;">
 
+Węzeł siłownika na serwerze OPC UA działa jako wyzwalacz \"otwarcia\" lub \"zamknięcia\" siłownika. Aby skonfigurować siłownik, należy podać następujące informacje:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-An actuator node on the OPC UA server acts as a trigger to *open* or *close* the actuator. To configure the actuator the following information must be specified:
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   **Type:** Describes how many signals are used to open or close the actuator.
--   **Conditional Block:** An actuator may have a stop in its travel, activated by another binary signal. This feature is optional.
--   **Node Ids:** Depending on the configuration: the addresses of the nodes that trigger the opening/closing or the block of the actuator.
--   **Positions:** Depending on the configuration: the Attachment Offset values in the model that represent the open, close or block position of the actuator.
--   **Durations:** The timing with which the actuator opens or closes.
+-   **Type :** Opisuje, ile sygnałów jest używanych do otwierania lub zamykania siłownika.
+-   **Conditional Block:** Siłownik może mieć ogranicznik ruchu, aktywowany przez inny sygnał binarny. Ta funkcja jest opcjonalna.
+-   **Node Ids:** W zależności od konfiguracji: adresy węzłów, które wyzwalają otwarcie / zamknięcie lub blok siłownika.
+-   **Positions:** W zależności od konfiguracji: wartości odsunięcia dołączenia w modelu, które reprezentują pozycję otwarcia, zamknięcia lub zablokowania siłownika.
+-   **Durations:** Czas, w którym siłownik otwiera się lub zamyka.
 
 
-</div>
 
+## Odnośniki internetowe 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Links
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   [Fcmcua repository](https://github.com/heissgetraenk/fcmcua)
--   [External workbenches](External_workbenches.md)
-
-
-</div>
+-   [repozytorium Fcmcua](https://github.com/heissgetraenk/fcmcua)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
 
 
 

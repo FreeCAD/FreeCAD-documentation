@@ -16,7 +16,13 @@
 
 ## 描述
 
+
+<div class="mw-translate-fuzzy">
+
 本工具会根据用户拾取的两个点：中点与确定半径的点来绘制一个圆。 在开启此工具时，鼠标指针会变为一个附有红色圆形图标的白色十字。同时还会将当前的指针坐标实时显现在侧。
+
+
+</div>
 
 ![](images/Sketcher_CircleExample1.png‎ ) 
 

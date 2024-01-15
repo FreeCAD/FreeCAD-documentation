@@ -1,13 +1,14 @@
 # Macro Print SceneGraph/fr
 {{Macro/fr
 |Name=Macro_Print_SceneGraph
+|Name/fr=Macro_Print_SceneGraph
 |Icon=Macro_Print_SceneGraph.png
-|Description=Imprime la Vue 3D
+|Description=Cette macro parcourt le SceneGraph et imprime tous les nœuds et leurs champs dans la fenêtre Report View. Elle peut être utilisée à titre d'information ou vous pouvez ajouter du code pour modifier certaines parties de la SceneGraph ou imprimer plus de détails pour des types de nœuds particuliers.
 |Author=Aleph0
 |Version=00.03
 |Date=2017-10-24
 |FCVersion=0.16.6703
-|Download=[https://www.freecadweb.org/wiki/images/0/0b/Macro_Print_SceneGraph.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/0/0b/Macro_Print_SceneGraph.png Icône de la barre d'outils]
 }}
 
 ## Description

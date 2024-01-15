@@ -15,4 +15,4 @@ Il n\'y a qu\'un seul onglet: Raytracing.
 
 
 ---
-⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/fr
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Raytracing Preferences/fr

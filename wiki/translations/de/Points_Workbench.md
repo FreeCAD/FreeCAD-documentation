@@ -2,10 +2,10 @@
 
 
 
+
+
+
 ## Einleitung
-
-
-
 
 Der Arbeitsbereich <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points](Points_Workbench/de.md) enthält bestimmte Werkzeuge für die Arbeit mit [Punktwolken](https://de.wikipedia.org/wiki/Punktwolke). Der Arbeitsbereich befindet sich noch in der Entwicklung.
 
@@ -15,19 +15,19 @@ Eine Punktwolke ist eine Sammlung von Punkten im 3D-Raum. Eine Punktwolke entste
 
 ## Werkzeuge
 
-Alle Werkzeuge des Arbeitsbereichs Points sind aus dem Menü **Punkte** erreichbar. Einige Werkzeuge sind auch in der Symbolleiste **Punktwerkzeuge** verfügbar.
-
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [In Punkte umwandeln\...](Points_Convert/de.md): Erzeugt Punktwolken aus Formobjekten.
-
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Strukturierte Punktwolke](Points_Structure/de.md): Erstellt eine sortierte Punktwolke aus den Punkten einer vorhandenen Punktwolke.
+Alle Werkzeuge des Arbeitsbereichs Points sind aus dem Menü **Punkte** und der Symbolleiste **Punktwerkzeuge** erreichbar.
 
 -   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Punkte importieren](Points_Import/de.md): Importiert eine Punktwolke aus einer Datei.
 
 -   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Punkte exportieren\...](Points_Export/de.md): Exportiert eine Punktwolke in eine Datei.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Punktwolke schneiden](Points_PolyCut/de.md): Schneidet Punkte aus Punktwolken.
+-   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [In Punkte umwandeln\...](Points_Convert/de.md): Erzeugt Punktwolken aus Formobjekten.
+
+-   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Strukturierte Punktwolke](Points_Structure/de.md): Erstellt eine sortierte Punktwolke aus den Punkten einer vorhandenen Punktwolke.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Punktwolken zusammenführen](Points_Merge/de.md): Erzeugt eine Punktwolke durch Vereinen von Punkten aus zwei oder mehrer Punktwolken.
+
+-   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Punktwolke schneiden](Points_PolyCut/de.md): Schneidet Punkte aus Punktwolken.
 
 
 

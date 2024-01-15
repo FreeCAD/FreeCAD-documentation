@@ -3,13 +3,15 @@
 
 [Widok raportu](Report_view/pl.md) to panel, w którym wyświetlane są komunikaty tekstowe z procesów i narzędzi programu FreeCAD. Jest on dostępny w menu **{{StdMenu|[Widok](Std_View_Menu/pl.md)** → Panele → Widok raportu}}.
 
-Niektóre właściwości tego panelu, takie jak kolor tekstu oraz to, czy ma być on automatycznie wyświetlany w przypadku ostrzeżeń lub błędów, można skonfigurować w zakładce **Ogólne → Okno raportów** [Edytora preferencji](Preferences_Editor/pl#Widok_raportu.md).
+Niektóre właściwości tego panelu, takie jak kolor tekstu oraz to, czy ma być on automatycznie wyświetlany w przypadku ostrzeżeń lub błędów, można skonfigurować w zakładce **Ogólne → Widok raportu** [Edytora preferencji](Preferences_Editor/pl#Widok_raportu.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
 
 *Okno ''Widok raportu'' pokazujące komunikaty, gdy program FreeCAD został właśnie uruchomiony.*
+
+
 
 ## Komunikaty
 
@@ -35,6 +37,8 @@ Z funkcji tych można korzystać bezpośrednio z [konsoli Python](Python_console
 
 
 *Przykładowe komunikaty w oknie Widoku raportu: komunikat ogólny, ostrzeżenie, błąd i komunikat zarejestrowany.*
+
+
 
 ## Działania
 

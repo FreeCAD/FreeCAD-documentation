@@ -1,28 +1,22 @@
 # Draft Tray/it
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
 ## Descrizione
 
-La [barra di Draft](Draft_Tray/it.md) consente di modificare rapidamente le proprietà visive degli oggetti [Draft](Draft_Workbench/it.md).
-
-
-</div>
+Il **Vassoio Draft** consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare la modalità di costruzione e specificare il livello o il gruppo attivo. I quattro pulsanti mostrano le impostazioni attuali. Il Vassoio Draft è disponibile negli ambienti <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) e non può essere disabilitato.
 
 ![](images/Draft_tray_default.png ) 
-*The Draft Tray*
+*Il Vassoio Draft*
 
-## Available tools 
 
--   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane.
 
--   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects.
+## Strumenti disponibili 
 
--   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off.
+-   ![](images/Draft_tray_button_plane.png ) [Seleziona Piano](Draft_SelectPlane/it.md): seleziona il piano di lavoro Draft corrente.
 
--   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_style.png ) [Imposta stile](Draft_SetStyle/it.md): imposta lo stile predefinito per i nuovi oggetti.
+
+-   ![](images/Draft_tray_button_construction.png ) [Attiva/disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md): attiva o disattiva la modalità di costruzione Draft.
+
+-   ![](images/Draft_tray_button_layer.png ) [Disattiva auto gruppo](Draft_AutoGroup/it.md): cambia l\'oggetto attivo [Livello Draft](Draft_Layer/it.md) o, facoltativamente, l\'oggetto attivo [Gruppo](Std_Group/it.md) o l\'oggetto gruppo di [Arch](Arch_Workbench/it.md).
 
 
 

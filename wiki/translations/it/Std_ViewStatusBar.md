@@ -9,9 +9,13 @@
 
 # Std ViewStatusBar/it
 
+
+
 ## Descrizione
 
 Il comando **Barra di stato** attiva o disattiva la visualizzazione della [Barra di stato](Status_bar/it.md).
+
+
 
 ## Utilizzo
 

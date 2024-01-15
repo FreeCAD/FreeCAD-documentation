@@ -20,7 +20,7 @@ Siehe auch:
 
 ## Einrichtung
 
-Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen zu aktuellen Versionen und Installationsanweisungen für dein Betriebssystem lese die Seiten [Herunterladen](Download/de.md), ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [Mac](Installing_on_Mac/de.md)). Es gibt fertige Installationspakete für Windows (.msi), Debian und Ubuntu (.deb), openSUSE (.rpm) und Mac OSX. FreeCAD ist über die Paketmanager vieler anderer Linux Distributionen verfügbar. Eine eigenständige, ausführbare [AppImage](AppImage/de.md) Datei ist ebenfalls verfügbar, die auf den meisten aktuellen 64-Bit-Linux-Systemen läuft. Da FreeCAD Open-Source ist, kannst du den Quellcode herunterladen und [kompilieren](Compiling/de.md).
+Zuerst FreeCAD herunterladen und installieren. Für Informationen zu aktuellen Versionen und Installationsanweisungen für das jeweilige Betriebssystem siehe die Seiten [Herunterladen](Download/de.md), ([Windows](Installing_on_Windows/de.md), [Linux](Installing_on_Linux/de.md) oder [macOS](Installing_on_Mac/de.md)). FreeCAD ist über die Paketmanager vieler Linux-Distributionen verfügbar. Da FreeCAD Open-Source ist, kannst der Quellcode auch selbst heruntergeladen und [kompiliert](Compiling/de.md) werden.
 
 
 

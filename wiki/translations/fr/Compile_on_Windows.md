@@ -135,7 +135,7 @@ S\'il échoue avec le message Visual Studio est introuvable, la prise en charge 
 Si cela échoue avec un message sur la mauvaise version de Python ou Python manquant, alors :
 
 1.  Utilisez la case \"Search:\" dans CMake pour rechercher la chaîne \"Python\"
-2.  Si vous y voyez un chemin comme *C:/Program Files/Python38/python.exe*, CMake a reconnu le Python qui est déjà installé sur votre PC, mais cette version n\'est pas compatible avec le LibPack. Étant donné que le LibPack inclut une version compatible de Python, modifiez les paramètres Python suivants dans CMake sur ses chemins (en supposant que le LibPack se trouve dans le dossier *D:/FreeCAD-build/FreeCADLibs_2\_8_x64_VC2019*) :
+2.  Si vous y voyez un chemin comme *C:/Program Files/Python38/python.exe*, CMake a reconnu le Python qui est déjà installé sur votre PC, mais cette version n\'est pas compatible avec le LibPack. Étant donné que le LibPack inclut une version compatible de Python, modifiez les paramètres Python suivants dans CMake sur ses chemins (en supposant que le LibPack se trouve dans le dossier *D:/FreeCAD-build/FreeCADLibs_2_8_x64_VC2019*) :
 
 ![](images/CMake_Python_settings.png )
 
@@ -465,7 +465,7 @@ Le résultat est le fichier du plugin **FreeCAD_widgets.dll** dans le dossier*\~
 
 Pour installer le plugin, copiez la DLL soit vers :
 
--   Si vous utilisez le LibPack : dans le dossier*\~\\FreeCADLibs_2\_8_x64_VC2019\\plugins\\designer*
+-   Si vous utilisez le LibPack : dans le dossier*\~\\FreeCADLibs_2_8_x64_VC2019\\plugins\\designer*
 -   Si vous avez une installation complète de Qt : vous pouvez choisir entre le dossier*C:\\Qt\\5.15.2\\msvc2019_64\\plugins\\designer*ou*C:\\Qt\\5.15.2\\msvc2019_64\\bin\\designer* (vous devez d\'abord créer le sous-dossier *designer*.)(adaptez les chemins à votre installation !).
 
 Enfin, (re)lancez Qt Designer et vérifiez son menu **Help → Plugins**. Si le plugin **FreeCAD_widgets.dll** est répertorié comme étant chargé, vous pouvez maintenant concevoir et modifier les fichiers .ui de FreeCAD, sinon vous devez [compiler](#Compilation.md) vous-même la DLL.

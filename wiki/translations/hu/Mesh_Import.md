@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Bemutatás
@@ -20,6 +22,8 @@ Ez az eszköz lehetővé teszi egy [\*.STL](https://en.wikipedia.org/wiki/STL_(f
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

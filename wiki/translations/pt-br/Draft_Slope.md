@@ -8,6 +8,8 @@
 
 # Draft Slope/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft Slope** command slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one. It can also be used to flatten [Draft Wires](Draft_Wire.md). Note that the slope is relative to the XY plane defined by the **Placement** of the objects.
@@ -15,11 +17,13 @@ The <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft Slope**
 <img alt="" src=images/Draft_Slope_example.png  style="width:400px;"> 
 *On the left a horizontal Draft Line. On the right the same line with a slope value of 1 (angle is 45°)*
 
+
+
 ## Utilização
 
 1.  Select one or more [Draft Lines](Draft_Line.md) and/or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Slope.svg" width=16px> [Draft Slope](Draft_Slope.md)** button.
+    -   Press the **<img src="images/Draft_Slope.svg" width=16px> [Set slope](Draft_Slope.md)** button.
     -   Select the **Modification → <img src="images/Draft_Slope.svg" width=16px> Set slope** option from the menu.
 3.  Enter a **Slope** value. {{Value|0}} means each segment is horizontal, {{Value|0.5}} means the delta height for each segment is {{Value|0.5}} times its length, etc. The value can also be negative.
 4.  Press **Enter** or the **OK** button to finish the command.

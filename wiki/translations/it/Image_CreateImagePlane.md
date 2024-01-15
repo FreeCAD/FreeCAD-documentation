@@ -108,4 +108,4 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/it
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image CreateImagePlane/it

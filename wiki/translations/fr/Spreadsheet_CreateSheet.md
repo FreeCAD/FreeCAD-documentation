@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Spreadsheet CreateSheet
-   Name/fr: Spreadsheet Création d'une feuille de calcul
+   Name/fr: Spreadsheet Feuille de calcul
    MenuLocation: Spreadsheet , Créer une feuille de calcul
    Workbenches: Spreadsheet_Workbench/fr
    Version: 0.17
@@ -11,7 +11,9 @@
 
 ## Description
 
-L\'outil **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ajoute un nouvel objet de feuille de calcul au document actif qui sera ouvert dans un nouvel onglet dans la [Zone de vue principale](main_view_area/fr.md).
+L\'outil **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet Feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ajoute un nouvel objet de feuille de calcul au document actif qui sera ouvert dans un nouvel onglet dans la [Zone de vue principale](main_view_area/fr.md).
+
+
 
 ## Utilisation
 

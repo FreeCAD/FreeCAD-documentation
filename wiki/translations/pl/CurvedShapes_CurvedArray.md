@@ -1,55 +1,64 @@
 ---
  GuiCommand:
    Name: CurvedShapes CurvedArray
+   Name/pl: Kształty Zakrzywione: Szyk krzywych
    MenuLocation: 
-   Workbenches: CurvedShapes Workbench
+   Workbenches: CurvedShapes_Workbench/pl
    Shortcut: 
    SeeAlso: 
 ---
 
 # CurvedShapes CurvedArray/pl
 
-## Description
 
-Creates an array and resizes the items in the bounds of one or more hull curves. In this example, the orange base shape is rescaled in the bounds of the red and violet hullcurves. The curves do not have to be connected. The hullcurves should lie on or parallel to the XY- XZ- or YZ- plane.
+
+## Opis
+
+Tworzy tablicę i zmienia rozmiar elementów w granicach jednej lub więcej krzywych kadłuba. W tym przykładzie pomarańczowy kształt bazowy jest przeskalowywany w granicach czerwonej i fioletowej krzywej kadłuba. Krzywe nie muszą być połączone. Krzywe kadłuba powinny leżeć na płaszczyźnie XY- XZ- lub YZ- lub równolegle do niej.
 
 <https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> [Image:](Image:.md)
 
-## Usage
-
-1.  Step 1
-2.  Step 2: Invoke the command several way:
-    -   Using the <img alt="" src=images/WorkbenchName_Command.svg  style="width:24px;"> [ WorkbenchName Command](WorkbenchName_Command.md) button
-    -   Using the {{KEY}} {{KEY}} keyboard shortcut
-    -   Using the **Menu → Command** in the Menu dropdown
-3.  Step 3
-
-## Notes
-
--   The first curve that you select for CurvedArray creation will be the item that is swept and resized in the bounds of the other selected curves.
-
-## Properties
 
 
-{{Properties_Title|Base}}
+## Użycie
 
--    **Base**: The object to make an array from
+1.  Krok 1
+2.  Krok 2: Wywołaj polecenie na kilka sposobów:
+    -   Używając przycisku <img alt="" src=images/WorkbenchName_Command.svg  style="width:24px;"> przycisku [WorkbenchName Command](WorkbenchName_Command/pl.md)
+    -   Używając skrótu klawiaturowego {{KEY}} {{KEY}}
+    -   Używając opcji menu podręcznego **Menu → Command**.
+3.  Krok 3
 
--    **Hullcurves**: List of one or more bounding curves
 
--    **Axis**: Direction axis of the Base shape
 
--    **Items**: Nr. of array items
+## Uwagi
 
--    **OffsetStart**: Offset of the first part in Axis direction
+-   Pierwsza krzywa wybrana do utworzenia Szyku krzywych będzie elementem, który zostanie przeciągnięty i zmieni rozmiar w granicach innych wybranych krzywych.
 
--    **OffsetEnd**: Offset of the last part from the end in opposite Axis direction
 
--    **Twist**: Applies a rotation around Axis to the array items.
 
--    **Surface**: make a surface over the array items
+## Właściwości
 
--    **Solid**: make a solid if Base is a closed shape
+
+{{Properties_Title|Podstawa}}
+
+-    **Base**: Obiekt, z którego ma zostać utworzona tablica
+
+-    **Hullcurves**: Lista jednej lub więcej krzywych ograniczających
+
+-    **Axis**: Oś kierunku kształtu Baza.
+
+-    **Items**: Liczba elementów tablicy.
+
+-    **OffsetStart**: Przesunięcie pierwszej części w kierunku osi.
+
+-    **OffsetEnd**: pPrzesunięcie ostatniej części od końca w przeciwnym kierunku osi.
+
+-    **Twist**: Stosuje obrót wokół osi do elementów tablicy.
+
+-    **Surface**: Tworzy powierzchnię nad elementami tablicy.
+
+-    **Solid**: Tworzy bryłę, jeśli Base jest kształtem zamkniętym.
 
 
 

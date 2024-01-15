@@ -56,9 +56,17 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 -   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend/it.md): 3° passo per convertire un oggetto a shell in un oggetto in lamiera spiegabile, sostituisce gli spigoli vivi con curve rotonde.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet/it.md): Esegue una foratura basata su uno schizzo lungo le pareti piegate di un oggetto in lamiera.
 
+
+</div>
+
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming/it.md): Imprime forme con o senza fori in una lastra di metallo.
+
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Add base shape](SheetMetal_BaseShape.md): Adds a basic sheet metal object from parameters.
 
 
 
@@ -89,21 +97,25 @@ Questa sezione ha lo scopo di dare un\'idea approssimativa di come usare gli str
 1.  Crea una polilinea chiusa (preferibilmente con lo sketcher)
 2.  Utilizzare il comando <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) per creare una lamiera grezza.
 
-#### Start with a PartDesign Pad 
 
-1.  Create a closed polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) command to create a prismatic body.
-3.  The <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) command will make it an object of constant thickness.
-4.  To make it unfoldable it needs some gaps or connections between the walls:
-    1.  The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief.md) command will cut off selected corners.
-    2.  The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction.md) command will create junctions with gaps between adjoining walls that need to be disjoined.
-    3.  The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> [Make Bend](SheetMetal_AddBend.md) command will create cylindrical connections for the remaining walls that need to stay joined.
 
-Some parameters will be inherited from the parent object(s) but it is better to check the relevant parameters at each stage.
+#### Inizia con un PartDesign Pad 
 
-It should now be checked if the resulting sheet metal object can be unfolded. (see [Unfold\...](#Unfold_a_sheet_metal_object.md) below).
+1.  Crea una polilinea chiusa (preferibilmente con lo sketcher)
+2.  Utilizzare il comando <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) per creare un corpo prismatico.
+3.  Il comando <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) lo renderà un oggetto con spessore costante.
+4.  Per renderlo dispiegabile sono necessari degli spazi o collegamenti tra le pareti:
+    1.  Il comando <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief.md) taglierà gli angoli selezionati.
+    2.  Il comando <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction.md) creerà giunzioni con spazi tra lamiere adiacenti che devono essere disgiunti.
+    3.  Il comando <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> [Make Bend](SheetMetal_AddBend.md) creerà connessioni cilindriche per le lamiere rimanenti che devono rimanere unite.
 
-#### Adding more features 
+Alcuni parametri verranno ereditati dagli oggetti principali ma è meglio controllare i parametri rilevanti in ogni fase.
+
+E\' necessario verificare se l\'oggetto in lamiera risultante può essere spiegato. (vedi [Unfold\...](#Unfold_a_sheet_metal_object.md) qui di seguito).
+
+
+
+#### Aggiunta di ulteriori funzionalità 
 
 The unfoldable basic sheet metal objects can be extended:
 

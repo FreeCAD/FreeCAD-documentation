@@ -1,5 +1,5 @@
 # Manual:Modeling for product design/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 [La Conception de produits](https://en.wikipedia.org/wiki/Product_design) est à l\'origine un terme commercial, mais dans le monde de la 3D, cela signifie souvent de modéliser quelque chose avec l\'idée d\'[impression 3D](https://en.wikipedia.org/wiki/3D_printing) ou, plus généralement, de le fabriquer avec une machine, imprimante 3D ou machine à commande numérique [CNC](https://en.wikipedia.org/wiki/Numerical_control).
 

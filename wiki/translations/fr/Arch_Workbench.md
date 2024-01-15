@@ -65,7 +65,7 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Fenêtre](Arch_Window/fr.md) : crée une fenêtre à partir de rien ou en utilisant un objet sélectionné comme base.
 
--   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Toit](Arch_Roof/fr.md) : crée un toit incliné à partir d\'une polyligne sélectionnée.
+-   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Toiture](Arch_Roof/fr.md) : crée une toiture inclinée à partir d\'une polyligne sélectionnée.
 
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Outils pour les axes](Arch_CompAxis/fr.md)
 
@@ -123,8 +123,6 @@ Ce sont des outils de modification d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Couper suivant un plan](Arch_CutPlane/fr.md) : découpe un objet en fonction d\'un plan.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : découpe un objet en fonction d\'une ligne.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Ajouter](Arch_Add/fr.md) : ajoute des objets à un composant.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Soustraire](Arch_Remove/fr.md) : soustrait ou supprime des objets d\'un composant.
@@ -162,6 +160,12 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Tableur IFC](Arch_IfcSpreadsheet/fr.md) : crée une feuille de calcul pour stocker les propriétés [IFC](Arch_IFC/fr.md) d\'un objet.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Bascule des sous composants](Arch_ToggleSubs/fr.md) : affiche ou cache les sous-composants d\'un objet Arch.
+
+
+
+## Outils obsolètes 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Couper suivant une ligne](Arch_CutLine/fr.md) : découpe un objet en fonction d\'une ligne. Non disponible depuis {{VersionPlus/fr|0.22}}.
 
 
 

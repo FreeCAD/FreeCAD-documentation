@@ -1,5 +1,5 @@
 # Manual:Creating renderings/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 In limbajul computerului, cuvântul [rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29) este utilizat pentru a descrie o imagine frumoasă produsă de către un model 3D. Desigur, am putea spune că ceea ce vedem într-o vizualizarea 3D FreeCAD este deja ceva plăcut. Cu toate acestea, oricine a văzut un film recent de la Hollywood, știe că este posibil să se producă imagini cu un computer aproape că nu pot fi deosebite de o fotografie.
 
@@ -15,6 +15,8 @@ Alte instrumente open source de randare sunt create pentru a fi folosite în alt
 
 </div>
 
+
+
 ### Instalare
 
 Înainte de a putea utiliza Raytracing Workbench în FreeCAD, una dintre aceste două aplicații de randare trebuie instalată pe sistemul dvs.This is usually very straightforward. They both provide installers for many platforms or are usually included in the software repositories of most Linux distributions.
@@ -24,6 +26,8 @@ Odată POV-Ray ori Luxrender este instalat, trebuie să setăm calea spre execut
 ![](images/Exercise_raytracing_01.jpg )
 
 În acest ecran de preferințe putem seta dimensiunea dorită a imaginii pe care dorim să o producem.
+
+
 
 ### Randarea cu PovRay 
 
@@ -73,6 +77,8 @@ Acum putem face acest lucru prin selectarea tuturor obiectelor care compun masa 
 </div>
 
 ![](images/Exercise_raytracing_04.jpg )
+
+
 
 ### Randarea cu LuxRender 
 

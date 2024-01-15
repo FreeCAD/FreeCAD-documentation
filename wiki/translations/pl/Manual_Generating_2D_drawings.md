@@ -1,5 +1,5 @@
 # Manual:Generating 2D drawings/pl
-{{Manual:TOC/pl}}
+{{Manual:TOC}}
 
 Kiedy Twój model nie może być wydrukowany lub wyfrezowany bezpośrednio przez maszynę, na przykład *(budynek)* jest za duży lub wymaga ręcznego montażu po przygotowaniu elementów, zazwyczaj będziesz musiał wyjaśnić innej osobie, jak to zrobić. W dziedzinach technicznych *(inżynieria, architektura, itp.)*, zazwyczaj wykonuje się to za pomocą rysunków. Rysunki są przekazywane osobie odpowiedzialnej za montaż produktu końcowego i precyzują, jak to wykonać.
 
@@ -87,7 +87,7 @@ Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w
 -   Plik utworzony podczas tego ćwiczenia: [1](https://github.com/JoshuaCall/FreeCAD-manual/blob/master/files/drawing.FCStd)
 -   Arkusz SVG sporządzony z tego pliku: [2](https://github.com/JoshuaCall/FreeCAD-manual/blob/master/files/drawing.svg)
 
-**Więcej informacji**
+**Więcej informacji:**
 
 -   [Środowisko pracy Rysunek Techniczny](TechDraw_Workbench/pl.md)
 -   [Tech Draw: Jak wykonać nowy szablon ramki](TechDraw_TemplateHowTo/pl.md)

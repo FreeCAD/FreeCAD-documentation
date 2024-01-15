@@ -25,14 +25,14 @@ Un Part Tore peut être transformé en un segment de tore en modifiant sa propri
     -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> [Tore](Part_Torus/fr.md)**.
     -   Sélectionnez l\'option **Part → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans le menu.
 2.  Le tore est créé.
-3.  Vous pouvez modifier les dimensions et **Placement** du tore en effectuant l\'une des opérations suivantes :
-    -   Double-cliquez sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md) :
+3.  Vous pouvez modifier les dimensions et le **Placement** du tore en effectuant l\'une des opérations suivantes :
+    -   Double-cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) :
         1.  Le panneau de tâches **Primitives géométriques** s\'ouvre.
         2.  Modifiez une ou plusieurs propriétés.
-        3.  L\'objet est mis à jour dynamiquement dans la [Vue 3D](3D_view/fr.md).
+        3.  L\'objet est mis à jour dynamiquement dans la [vue 3D](3D_view/fr.md).
         4.  Appuyez sur le bouton **OK**.
-    -   Modifiez les propriétés dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-    -   Changez la **Placement** avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformation manipulation](Std_TransformManip/fr.md).
+    -   Modifiez les propriétés dans l\'[éditeur de propriétés](Property_editor/fr.md).
+    -   Changez le **Placement** avec la commande <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std Transformer](Std_TransformManip/fr.md).
 
 
 

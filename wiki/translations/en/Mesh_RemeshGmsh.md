@@ -17,7 +17,7 @@ The **Mesh RemeshGmsh** command remeshes a mesh object using the [Gmsh](https://
 
 1.  Select a single mesh object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Mesh RemeshGmsh](Mesh_RemeshGmsh.md)** button.
+    -   Press the **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Refinement...](Mesh_RemeshGmsh.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Refinement...** option from the menu.
 3.  The **Remesh by gmsh** task panel opens.
 4.  Specify the required settings. See the [Gmsh mesher settings](Mesh_FromPartShape#Gmsh_mesher.md) of the [Mesh FromPartShape](Mesh_FromPartShape.md) command.

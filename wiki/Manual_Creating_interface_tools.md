@@ -1,6 +1,4 @@
 # Manual:Creating interface tools
-{{Manual:TOC}}
-
 In the last two chapters, we saw how to [create Part geometry](Manual_Creating_and_manipulating_geometry.md) and [create parametric objects](Manual_Creating_parametric_objects.md). One last piece is missing to gain full control over FreeCAD: Create tools that will interact with the user.
 
 In many situations, it is not very user-friendly to construct an object with zero-values, like we did with the rectangle in the previous chapter, and then ask the user to fill in the Height and Width values in the Properties panel. This works for a very small number of objects, but will become very tedious if you have a lot of rectangles to make. A better way would be to be able to already give the Height and Width when creating the rectangle.

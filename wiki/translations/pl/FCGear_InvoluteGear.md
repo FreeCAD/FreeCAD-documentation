@@ -94,7 +94,7 @@ Obiekt InvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md)
 -    **przesunięcie|Float**: Domyślnie {{Value|0}}. Generuje dodatnie i ujemne przesunięcie profilu *(patrz [Uwagi](#Uwagi.md))*.
 
 
-{{Properties_Title|tolerancja}}
+{{Properties_Title|Tolerancja}}
 
 -    **backlash|Length**: Domyślnie {{Value|0}}. Luz zwrotny, zwany również lagiem lub swobodnym biegiem, to odległość między zębami w parze kół zębatych.
 
@@ -105,7 +105,7 @@ Obiekt InvoluteGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md)
 -    **reversed_backlash|Bool**: Wartość {{True/pl}} zmniejsza luz lub {{False/pl}} *(domyślnie)* i właściwość backslash zwiększa luz *(patrz [Uwagi](#Uwagi.md))*.
 
 
-{{Properties_Title|wersja}}
+{{Properties_Title|Wersja}}
 
 -    **Wersja|String**:
 

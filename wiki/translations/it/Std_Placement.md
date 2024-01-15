@@ -37,6 +37,7 @@ La finestra di dialogo può essere avviata anche facendo clic sul pulsante con i
 ## Note
 
 -   Per ulteriori informazioni sui parametri di posizionamento, vedere la pagina [Posizionamento](Placement/it.md) e il tutorial [Aereo](Aeroplane/it.md).
+-   L\'angolo di rotazione può essere impostato in gradi nella GUI ma è memorizzato internamente in radianti, quindi gli angoli solitamente devono essere convertiti quando vengono utilizzati negli script.
 
 
 
@@ -73,7 +74,11 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Sposta il punto base dell\'oggetto, quindi ruota l\'oggetto di 45 gradi attorno all\'asse X. 
+Sposta il punto base dell\'oggetto, quindi ruota l\'oggetto di 45 gradi attorno all\'asse X.
+
+Il modulo matematico fornisce un metodo `radians()` per convertire facilmente i gradi in radianti e deve essere prima importato.
+
+
 ```python
 import math
 

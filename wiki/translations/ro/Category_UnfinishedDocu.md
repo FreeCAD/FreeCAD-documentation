@@ -5,10 +5,8 @@ This category contains all Unfinished Documents
 
 |     |     |     |
 | --- | --- | --- |
-| [Engine Block Tutorial/ro](Engine_Block_Tutorial/ro.md) | [FEM ConstraintBearing/ro](FEM_ConstraintBearing/ro.md) | [FEM ConstraintPulley/ro](FEM_ConstraintPulley/ro.md) |
-| [FEM CreateNodesSet/ro](FEM_CreateNodesSet/ro.md) | [FEM ElementGeometry1D/ro](FEM_ElementGeometry1D/ro.md) | [FEM ElementGeometry2D/ro](FEM_ElementGeometry2D/ro.md) |
-| [FEM ElementRotation1D/ro](FEM_ElementRotation1D/ro.md) | [FEM MaterialMechanicalNonlinear/ro](FEM_MaterialMechanicalNonlinear/ro.md) | [Manual:BIM modeling/ro](Manual_BIM_modeling/ro.md) |
-| [OpenSCAD ColorCodeShape/ro](OpenSCAD_ColorCodeShape/ro.md) | [Part Loft/ro](Part_Loft/ro.md) | [Part Mirror/ro](Part_Mirror/ro.md) |
+| [Engine Block Tutorial/ro](Engine_Block_Tutorial/ro.md) | [FEM CreateNodesSet/ro](FEM_CreateNodesSet/ro.md) | [FEM ElementGeometry1D/ro](FEM_ElementGeometry1D/ro.md) |
+| [FEM ElementRotation1D/ro](FEM_ElementRotation1D/ro.md) | [Manual:BIM modeling/ro](Manual_BIM_modeling/ro.md) | [OpenSCAD ColorCodeShape/ro](OpenSCAD_ColorCodeShape/ro.md) |
 | [Part Offset/ro](Part_Offset/ro.md) | [Part RuledSurface/ro](Part_RuledSurface/ro.md) | [Path Engrave/ro](Path_Engrave/ro.md) |
 | [Path Fixture/ro](Path_Fixture/ro.md) | [Path Helix/ro](Path_Helix/ro.md) | [Path MillFace/ro](Path_MillFace/ro.md) |
 | [Path Pocket 3D/ro](Path_Pocket_3D/ro.md) | [Path Shape/ro](Path_Shape/ro.md) | [Path Simulator/ro](Path_Simulator/ro.md) |

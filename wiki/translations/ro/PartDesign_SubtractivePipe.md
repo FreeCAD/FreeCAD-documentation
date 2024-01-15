@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +42,8 @@
 
 
 </div>
+
+
 
 ## Opţiuni
 
@@ -67,6 +73,8 @@
 -   Transformed
 -   Right
 -   Rounded
+
+
 
 ## Proprietăți
 

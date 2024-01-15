@@ -1,6 +1,8 @@
 # Online Help Startpage/tr
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## FreeCAD Çevrimiçi Yardıma Hoşgeldiniz 
 
 
@@ -11,6 +13,8 @@ Bu belge resmi FreeCAD wiki belgelerinin içeriklerinden otomatik olarak oluştu
 
 </div>
 
+
+
 ### **Nasıl Kullanılır** 
 
 
@@ -20,6 +24,10 @@ Bu belge çeşitli bölümlere ayrılmıştır: giriş, kullanım şekli, script
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### **Katkıda Bulunmak** 
 

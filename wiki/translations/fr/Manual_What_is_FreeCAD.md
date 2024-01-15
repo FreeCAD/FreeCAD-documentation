@@ -1,5 +1,5 @@
 # Manual:What is FreeCAD/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 ![](images/Freecad016_screenshot1.jpg )
 
@@ -11,7 +11,7 @@ FreeCAD est également multiplateforme: il fonctionne exactement de la même man
 
 FreeCAD bénéficie également de l\'expérience accumulée par le monde open-source. Dans ses \"entrailles\", plusieurs autres composants du monde open-source sont utilisés. FreeCAD lui-même peut être utilisé comme composant dans d\'autres applications. Il possède également toutes sortes de fonctionnalités qui sont devenues une norme dans le monde open-source, telles que le support d\'une large gamme de formats de fichiers, extrêmement scriptables, personnalisables et modifiables. Tout est possible grâce à une communauté d\'utilisateurs dynamique et enthousiaste.
 
-Le site officiel de FreeCAD: [site officiel de FreeCAD](https://www.freecadweb.org/?lang=fr)
+Le site officiel de FreeCAD: [site officiel de FreeCAD](https://www.freecad.org/?lang=fr)
 
 Pour plus d\'informations:
 

@@ -1,5 +1,5 @@
 # Manual:Creating FEM analyses/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 FEM, en anglais Finite Element Method, signifie Méthode des éléments finis ([Méthode des éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis)). Il s\'agit d\'un vaste sujet mathématique que dans FreeCAD nous pouvons résumer par moyen de calculer les propagations à l\'intérieur d\'un objet 3D en le coupant en petits morceaux et en analysant l\'impact de chaque petit morceau sur ses voisins. Cela a plusieurs utilisations dans les domaines de l\'ingénierie et de l\'électromagnétisme. Nous examinerons plus en profondeur une seule utilisation déjà développée dans FreeCAD qui simule des déformations dans des objets soumis à des forces et à des poids.
 
@@ -52,12 +52,12 @@ Nous allons commencer avec la maison que nous avons modélisée dans le chapitre
 
 :   <img alt="" src=images/Exercise_fem_06.jpg  style="width:600px;">
 
--   Nous sommes maintenant prêts à appliquer des forces. Commençons par préciser quelles faces sont fixées au sol et ne peuvent donc pas bouger. Appuyez sur le bouton **<img src="images/FEM_ConstraintFixed.svg" width=16px> [FEM Contrainte fixée](FEM_ConstraintFixed/fr.md)**.
+-   Nous sommes maintenant prêts à appliquer des forces. Commençons par préciser quelles faces sont arrimées au sol et ne peuvent donc pas bouger. Appuyez sur le bouton **<img src="images/FEM_ConstraintFixed.svg" width=16px> [FEM Condition de limite fixe](FEM_ConstraintFixed/fr.md)**.
 -   Cliquez sur la face inférieure de notre bâtiment et appuyez sur le bouton **OK**. La face inférieure est maintenant indiquée comme inamovible :
 
 :   <img alt="" src=images/Exercise_fem_07.jpg  style="width:600px;">
 
--   Nous allons maintenant ajouter une charge sur la face supérieure, qui pourrait représenter, par exemple, un poids massif sur le toit. Pour cela, nous utiliserons une contrainte de pression. Appuyez sur le bouton **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Contrainte de pression](FEM_ConstraintPressure/fr.md)**.
+-   Nous allons maintenant ajouter une charge sur la face supérieure, qui pourrait représenter, par exemple, un poids massif sur le toit. Pour cela, nous utiliserons une contrainte de pression. Appuyez sur le bouton **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Charge de pression](FEM_ConstraintPressure/fr.md)**.
 -   Cliquez sur la face supérieure du toit, mettez la pression sur **10 MPa** (la pression est appliquée par millimètre carré) et cliquez sur le bouton **OK**. Notre force est maintenant appliquée :
 
 :   <img alt="" src=images/Exercise_fem_08.jpg  style="width:600px;">

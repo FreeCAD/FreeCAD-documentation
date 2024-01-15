@@ -115,10 +115,16 @@ tenga en cuenta que CalculiX expande internamente los elementos 1D y 2D en eleme
 
 -    **Eigenmodes Count**: Número de modos propios más bajos para calcular
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Geometric Nonlinearity**:
 
     -   el análisis lineal - lineal se realizará si el modelo no contiene material no lineal
     -   no lineal - se realizará análisis no lineal
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -144,7 +150,13 @@ tenga en cuenta que CalculiX expande internamente los elementos 1D y 2D en eleme
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Iterations Thermo Mech Maximum**:Número máximo de incrementos en el análisis termomecánico después del cual se detendrá el trabajo.
+
+
+</div>
 
 -    **Iterations User Defined Incrementations**:
 
@@ -190,10 +202,16 @@ tenga en cuenta que CalculiX expande internamente los elementos 1D y 2D en eleme
     -   falso: escriba toda la entrada en un archivo \* .inp para ser utilizado por el solucionador de CalculiX
     -   true - divide las entradas del solucionador en más archivos \* .inp, que pueden aclarar la edición manual
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Thermo Mechanical Steady State**:
 
     -   verdadero - análisis termo-mecánico de estado estable
     -   Falsa - Análisis termo-mecánico transitorio.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

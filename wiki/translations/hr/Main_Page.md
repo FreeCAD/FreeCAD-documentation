@@ -38,7 +38,13 @@ Ovdje se nalazi wiki dokumentacija programa [FreeCAD](https://www.freecadweb.org
 
 ## Sadržaj
 
+
+<div class="mw-translate-fuzzy">
+
 Slijedeća tabela lista sve artikle kostura wiki stranice izvan-mrežne (offline) dokumentacije isporučene s FreeCAD aplikacijom. Već je dostupno na više jezika:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

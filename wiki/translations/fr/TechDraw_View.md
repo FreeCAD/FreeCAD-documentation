@@ -28,7 +28,7 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 4.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_View.svg" width=16px> [Insérer une vue](TechDraw_View/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_View.svg" width=16px> Insérer une vue** du menu.
-5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
     1.  Sélectionnez la page souhaitée.
     2.  Appuyez sur le bouton **OK**.
 

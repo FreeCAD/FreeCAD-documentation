@@ -135,7 +135,6 @@ There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.
         -   [Third party tools](Third_Party_Tools.md)
     -   Build Support Tools
         -   [Bug tracker](Tracker.md)
-        -   [Bug triage](Bug_Triage.md)
         -   [Debugging FreeCAD](Debugging.md)
         -   [Testing FreeCAD](Testing.md)
         -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)

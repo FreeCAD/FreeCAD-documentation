@@ -14,14 +14,18 @@
 
 La commande <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft Ajouter au groupe de construction** déplace les objets vers le [Draft Groupe de construction](Draft_ToggleConstructionMode/fr.md). Elle applique également la [couleur de la géométrie de la construction](Draft_ToggleConstructionMode/fr#Pr.C3.A9f.C3.A9rences.md) aux objets.
 
+
+
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le **<img src="images/Draft_AddConstruction.svg" width=16px> [Ajouter au groupe de construction](Draft_AddConstruction/fr.md)**.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddConstruction.svg" width=16px> Ajouter au groupe de construction ** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddConstruction.svg" width=16px> Ajouter au groupe de construction ** du menu.
 3.  S\'il n\'existe pas, le groupe de construction doit être créé en premier.
 4.  Les objets sont déplacés vers le groupe de construction et leurs propriétés de couleur sont modifiées.
+
+
 
 ## Remarques
 

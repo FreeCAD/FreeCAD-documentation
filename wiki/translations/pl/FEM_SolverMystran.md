@@ -1,30 +1,62 @@
 ---
  GuiCommand:
    Name: FEM SolverMystran
-   MenuLocation: Solve , Solver Mystran
-   Workbenches: FEM_Workbench
+   Name/pl: Solver Mystran
+   MenuLocation: Rozwiąż , Solver Mystran
+   Workbenches: FEM_Workbench/pl
    Shortcut: **S** **M**
    Version: 0.20
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM SolverMystran/pl
 
-## Description
 
-The [SolverMystran](FEM_SolverMystran.md) command enables usage of the [MYSTRAN](https://www.mystran.com) solver. It may be used for:
 
-1.  Setting analysis parameters
-2.  Selecting working directory
-3.  Running the MYSTRAN solver
+## Opis
 
-## Usage
+Polecenie **SolverMystran** umożliwia używanie solvera [MYSTRAN](https://www.mystran.com). Można z niego skorzystać do:
 
-ToDo
+1.  Ustawienia parametrów analizy.
+2.  Wybrania katalogu roboczego.
+3.  Uruchamiania solvera MYSTRAN.
 
-## File function 
 
-Under Mod\\Fem\\femsolver\\mystran, there are these files:
+
+## Instalacja
+
+Plik wykonywalny solvera Mystran dla Windows można znaleźć [w serwisie GitHub](https://github.com/MYSTRANsolver/MYSTRAN%20Releases). Umieść folder tam gdzie jest **Mystran.exe** w zmiennej PATH systemu Windows.
+
+**Solver Mystran** wymaga też dwóch innych pakietów:
+
+-   [pyNastran](https://github.com/SteveDoyle2/pyNastran) - do zapisywania pliku przypadku analizy.
+-   [hfcMystran](https://github.com/ceanwang/hfcMystran) - do odczytywania plliku wyników NEU Mystrana.
+
+pyNastran można zainstalować poprzez pip:
+
+1.  Otwórz wiersz poleceń w Twoim folderze **FreeCAD\bin**.
+2.  Wprowadź: {{Incode|python -m pip install pyNastran}}
+3.  Zostanie zainstalowany w folderze **FreeCAD\bin\lib\site-packages**.
+
+hfcMystran można pobrać z jego strony GitHub jako plik zip. Wypakuj go i umieść w folderze **FreeCAD\Mod**.
+
+
+
+## Szybki test 
+
+Po instalacji możesz wybrać **Narzędzia → Otwórz przykłady** w środowisku pracy MES. Pod **Solver → Mystran** znajdziesz kilka działających przykładów.
+
+
+
+## Użycie
+
+Do uzupełnienia
+
+
+
+## Funkcja plików 
+
+Pod Mod\\Fem\\femsolver\\mystran są następujące plikiː
 
 
 ```python
@@ -40,9 +72,9 @@ solver.py
 tasks.py
 ```
 
-The function of each file are:
+Funkcja każdego pliku toː
 
-writer.py - main control file
+writer.py - główny plik kontrolny
 
 
 ```python
@@ -56,7 +88,7 @@ model = add_con_displacement.add_con_displacement(pynasf, model, self)
 model = add_con_force.add_con_force(pynasf, model, self)
 ```
 
-BDF() - Create empty case file.
+BDF() - Utwórz pusty plik przypadku.
 
 
 ```python
@@ -68,7 +100,7 @@ $pyNastran: nelements=0
 ENDDATA
 ```
 
-add_solver_control.py - Adding EXECUTIVE CONTROL DECK and CASE CONTROL DECK.
+add_solver_control.py - Dodawanie EXECUTIVE CONTROL DECK i CASE CONTROL DECK.
 
 
 ```python
@@ -90,17 +122,17 @@ $PARAMS
 PARAM       POST      -1
 ```
 
-add_femelement_geometry.py - Adding GRID cards
+add_femelement_geometry.py - Dodawanie kart GRID
 
-add_mesh.py - Adding element cards
+add_mesh.py - Dodawanie kart elementów
 
-add_femelement_material.py - Adding MAT1 card
+add_femelement_material.py - Dodawanie karty MAT1
 
-add_con_fixed.py - Adding SPCADD and SPC1 cards
+add_con_fixed.py - Dodawanie kart SPCADD i SPC1
 
-add_con_displacement.py - Adding SPCADD and SPC1 cards
+add_con_displacement.py - Dodawanie kart SPCADD i SPC1
 
-add_con_force.py - Adding FORCE cards
+add_con_force.py - Dodawanie kart FORCE
 
 
 

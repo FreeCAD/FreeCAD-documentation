@@ -4,6 +4,7 @@
    Name/pl: Arkusz Kalkulacyjny: Definiuj alias
    MenuLocation: -
    Workbenches: Spreadsheet_Workbench/pl
+   Shortcut: **Ctrl** + **Shift** + **A**
    Version: 0.17
 ---
 

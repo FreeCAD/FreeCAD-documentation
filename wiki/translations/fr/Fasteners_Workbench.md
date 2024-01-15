@@ -18,45 +18,46 @@ Les fixations dont les dimensions sont en pouces ont des icônes vertes.*
 
 ## Installation
 
-1.  Installez l\'atelier Fasteners via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
-2.  Redémarrez FreeCAD.
-3.  Créez un nouveau document.
-4.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans la [liste déroulante des ateliers](Std_Workbench/fr.md).
-5.  En option, vous pouvez modifier la barre d\'outils et la disposition du menu :
-    1.  Allez à : **Edition → Préférences... → Fasteners → General settings → Toolbar screw icons grouping**..
-    2.  Sélectionnez l\'une des options disponibles :
+1.  Installer l\'atelier Fasteners via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md). Pour une installation manuelle, voir [Installer des ateliers supplémentaires](Installing_more_workbenches/fr.md).
+2.  Redémarrer FreeCAD.
+3.  Créer un nouveau document.
+4.  Sélectionner l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans la [liste déroulante des ateliers](Std_Workbench/fr.md).
+5.  Vous pouvez modifier la barre d\'outils et la disposition du menu :
+    1.  Allez à : **Édition → Préférences... → Fasteners → General settings**.
+    2.  Sélectionner l\'une des options disponibles de **Groupement des icônes de vis** :
         -   
-            **None**
+            **Rien**
             
             : toutes les fixations apparaissent dans une seule barre d\'outils. Pour voir tous les boutons disponibles, utilisez le bouton **&gt;&gt;** pour la développer.
 
         -   
-            **Separate toolbars**
+            **Barres d'outils séparées**
             
             : les fixations sont regroupées dans plusieurs barres d\'outils. Il s\'agit de la disposition par défaut.
 
         -   
-            **Dropdown buttons**
+            **Boutons déroulants**
             
             : les fixations sont regroupées dans des barres d\'outils avec des boutons déroulants.
-    3.  Redémarrez FreeCAD.
+    3.  Vous pouvez décocher une ou plusieurs options du panneau **Les normes de fixation sont indiquées dans les barres d'outils**. Les options de standard non cochées sont toujours disponibles dans le menu.
+    4.  Redémarrez FreeCAD.
 
 
 
 ## Utilisation
 
-Les fixations peuvent être attachées ou non attachées. Les fixations attachées ont une **base Object**, un bord circulaire, et leur **Placement** est dynamiquement lié à cet objet. La commande <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Move](Fasteners_Move/fr.md) peut être utilisée pour fixer ou détacher une fixation.
+Les fixations peuvent être attachées ou non attachées. Les fixations attachées ont une **base Object**, un bord circulaire, et leur **Placement** est dynamiquement lié à cet objet. La commande <img alt="" src=images/Fasteners_Move.svg  style="width:16px;"> [Fasteners Déplacer](Fasteners_Move/fr.md) peut être utilisée pour fixer ou détacher une fixation.
 
 
 
 ### Fixations non attachées 
 
-1.  Sélectionnez la fixation souhaitée en cliquant sur son bouton ou en la choisissant dans le menu.
+1.  Sélectionner la fixation souhaitée en cliquant sur son bouton ou en la choisissant dans le menu.
 2.  Une fixation est créée à l\'origine.
 3.  Vous pouvez modifier les dimensions et les autres propriétés de la fixation :
-    1.  Sélectionnez la fixation.
-    2.  Allez dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md).
-    3.  Modifiez les propriétés requises.
+    1.  Sélectionner la fixation.
+    2.  Aller dans l\'onglet **Data** de l\'[éditeur de propriétés](Property_editor/fr.md).
+    3.  Modifier les propriétés requises.
 
 
 
@@ -65,14 +66,14 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width:200px;"> 
 *À gauche, deux bords circulaires sélectionnés. À droite, les fixations attachées.*
 
-1.  Spécifiez si les trous sélectionnés sont des trous de taraudage ou des trous de passage en sélectionnant <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md) ou <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter/fr.md) respectivement (non utilisé pour les vis à tête fraisée).
-2.  Sélectionnez une ou plusieurs arêtes circulaires et/ou faces avec des arêtes circulaires. Pour les vis fraisées, le bord supérieur du [trou chanfreiné](Fasteners_ChamferHole/fr.md) doit être sélectionné.
-3.  Sélectionnez la fixation souhaitée en cliquant sur son bouton ou en la choisissant dans le menu.
-4.  Une fixation est attachée à chacun des bords circulaires sélectionnés.
+1.  Sélectionner des trous comme trous de taraudage ou trous de passage en sélectionnant <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [Fasteners Adapter pour le trou taraudé](Fasteners_MatchTypeInner/fr.md) ou <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [Fasteners Adapter pour le trou de passage](Fasteners_MatchTypeOuter/fr.md) respectivement (non utilisé pour les vis à tête fraisée).
+2.  Sélectionner une ou plusieurs arêtes circulaires et/ou faces avec des arêtes circulaires. Pour les vis fraisées, le bord supérieur du [trou chanfreiné](Fasteners_ChamferHole/fr.md) doit être sélectionné.
+3.  Sélectionner la fixation souhaitée en cliquant sur son bouton ou en la choisissant dans le menu.
+4.  Une fixation est attachée à chacun de ses points sélectionnés.
 5.  Les dimensions par défaut de chaque fixation dépendent du rayon du bord circulaire sur lequel elle est fixée. Les vis à tête fraisée sont assorties au diamètre de leur tête, les autres fixations sont assorties au diamètre de leur tige.
 6.  Vous pouvez également modifier les dimensions et les autres propriétés des fixations. Voir ci-dessus.
-7.  Les fixations qui apparaissent à l\'envers peuvent être inversées avec la commande <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Fasteners Flip](Fasteners_Flip/fr.md) ou en modifiant leur propriété **invert**.
-8.  Changez éventuellement la propriété **offset** pour créer un espace entre les fixations et les bords auxquels elles sont attachées.
+7.  Les fixations qui apparaissent à l\'envers peuvent être inversées avec la commande <img alt="" src=images/Fasteners_Flip.svg  style="width:16px;"> [Inverser la fixation](Fasteners_Flip/fr.md) ou en modifiant leur propriété **invert**.
+8.  Vous pouvez changer la propriété **offset** pour créer un espace entre les fixations et les bords auxquels elles sont attachées.
 
 
 
@@ -85,23 +86,23 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 
 ## Commandes
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Invert fastener](Fasteners_Flip/fr.md) : inverse l\'orientation des fixations attachées.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Inverser la fixation](Fasteners_Flip/fr.md) : inverse l\'orientation des fixations attachées.
 
--   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Move fastener](Fasteners_Move/fr.md) : déplace et fixe une fixation sur un bord circulaire. Peut également être utilisé pour détacher une fixation.
+-   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Déplacer la fixation](Fasteners_Move/fr.md) : déplace et fixe une fixation sur un bord circulaire. Peut également être utilisé pour détacher une fixation.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Simplify shape](Fasteners_Shape/fr.md) : crée des copies non paramétriques des fixations.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Simplifier la forme](Fasteners_Shape/fr.md) : crée des copies non paramétriques des fixations.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Match for tap hole](Fasteners_MatchTypeInner/fr.md) : prend les bords circulaires comme des trous à fileter lorsque de nouvelles fixations y sont attachées.
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Adapter pour le trou taraudé](Fasteners_MatchTypeInner/fr.md) : prend les bords circulaires comme des trous à fileter lorsque de nouvelles fixations y sont attachées.
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Match for pass hole](Fasteners_MatchTypeOuter/fr.md) : prend les bords circulaires comme des trous de passage lorsque de nouvelles fixations y sont attachées.
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Adapter pour le trou de passage](Fasteners_MatchTypeOuter/fr.md) : prend les bords circulaires comme des trous de passage lorsque de nouvelles fixations y sont attachées.
 
--   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Generate BOM](Fasteners_BOM/fr.md) : crée une feuille de calcul avec une nomenclature pour les fixations du document.
+-   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Nomenclature](Fasteners_BOM/fr.md) : crée une feuille de calcul avec une nomenclature pour les fixations du document.
 
--   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Screw calculator](Fasteners_ScrewCalculator/fr.md) : affiche une calculatrice pour déterminer la taille des trous de vis.
+-   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Calculateur de trous de vis](Fasteners_ScrewCalculator/fr.md) : affiche une calculatrice pour déterminer la taille des trous de vis.
 
--   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Make countersunk](Fasteners_ChamferHole/fr.md) : chanfreine les trous pour les vis à tête fraisée.
+-   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Fraisage](Fasteners_ChamferHole/fr.md) : chanfreine les trous pour les vis à tête fraisée.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters/fr.md) : change les paramètres des fixations.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Paramètres de la fixation](Fasteners_ChangeParameters/fr.md) : change les paramètres des fixations.
 
 
 
@@ -111,19 +112,19 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 
-#### Fixations autobloquantes et fixations pour PCB 
+### Fixations à sertir et fixations pour PCB 
 
--   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Ecrou autobloquant.
+-   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Écrou à sertir.
 
--   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Fixation autobloquante.
+-   <img alt="" src=images/Fasteners_PEMTHStandoff.svg  style="width:32px;"> Entretoise à sertir.
 
--   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Goujon autobloquant.
+-   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Goujon à sertir.
 
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> Support de PCB femelle/mâle.
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> Entretoise filetée femelle/mâle pour PCB.
 
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> Entretoise de PCB femelle/femelle.
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> Entretoise femelle/femelle pour PCB.
 
--   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Insert pour piquage à chaud.
+-   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Insert thermofixé.
 
 
 
@@ -131,11 +132,16 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Vis à tête hexagonale.
 
+-   <img alt="" src=images/Fasteners_DIN961.svg  style="width:32px;"> **DIN 961** Vis à tête hexagonale.
+
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
-**ISO 4017** Vis à tête hexagonale. *Catégories de produits A et B.*
+**ISO 4017** Vis à tête hexagonale. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_ISO8676.svg  style="width:32px;"> 
+**ISO 8676** Vis à tête hexagonale à filetage métrique à pas fin entièrement filetées. *Grades A et B.*
 
 -   <img alt="" src=images/Fasteners_ISO4014.svg  style="width:32px;"> 
-**ISO 4014** Boulon à tête hexagonale. *Catégories de produits A et B.*
+**ISO 4014** Boulon à tête hexagonale. *Grades A et B.*
 
 -   <img alt="" src=images/Fasteners_EN1662.svg  style="width:32px;"> **EN 1662** Boulon à tête hexagonale avec embase, série étroite.
 
@@ -163,7 +169,7 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_ISO10642.svg  style="width:32px;"> **ISO 10642** Vis à tête fraisée à six pans creux.
 
--   <img alt="" src=images/Fasteners_ISO7379.svg  style="width:32px;"> **ISO 7379** Vis à épaulement à tête creuse hexagonale.
+-   <img alt="" src=images/Fasteners_ISO7379.svg  style="width:32px;"> **ISO 7379** Vis à épaulement à six pans creux.
 
 -   <img alt="" src=images/Fasteners_ISO4026.svg  style="width:32px;"> **ISO 4026** Vis sans tête à six pans creux à bout plat.
 
@@ -195,11 +201,11 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 
-### Vis à tête creuse hexalobulaire 
+### Vis à tête creuse torx 
 
--   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Vis à tête cylindrique à six pans creux.
+-   <img alt="" src=images/Fasteners_ISO14579.svg  style="width:32px;"> **ISO 14579** Vis à métaux tête cylindrique torx.
 
--   <img alt="" src=images/Fasteners_ISO14580.svg  style="width:32px;"> **ISO 14580**Vis à tête cylindrique à six pans creux.
+-   <img alt="" src=images/Fasteners_ISO14580.svg  style="width:32px;"> **ISO 14580** Vis à métaux tête cylindrique basse torx.
 
 -   <img alt="" src=images/Fasteners_ISO14582.svg  style="width:32px;"> **ISO 14582** Vis à tête fraisée à six pans creux, tête haute.
 
@@ -211,13 +217,16 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 ### Vis à tête fendue 
 
--   <img alt="" src=images/Fasteners_ISO2009.svg  style="width:32px;"> **ISO 2009** Vis à tête plate fendue et fraisée. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO2009.svg  style="width:32px;"> **ISO 2009** Vis à tête plate fendue et fraisée. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO2010.svg  style="width:32px;"> **ISO 2010** Vis à tête fraisée surélevée fendue. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO2010.svg  style="width:32px;"> **ISO 2010** Vis à tête fraisée surélevée fendue. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO1580.svg  style="width:32px;"> **ISO 1580** Vis à tête cylindrique fendue. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO1580.svg  style="width:32px;"> **ISO 1580** Vis à tête cylindrique fendue. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO1207.svg  style="width:32px;"> **ISO 1207** Vis à tête cylindrique fendue. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO1207.svg  style="width:32px;"> **ISO 1207** Vis à tête cylindrique fendue. *Grade A*.
+
+-   <img alt="" src=images/Fasteners_DIN84.svg  style="width:32px;"> 
+**DIN 84 (remplacée par ISO 1207)** Vis à tête cylindrique fendue. *Grade A.*
 
 -   <img alt="" src=images/Fasteners_DIN96.svg  style="width:32px;"> **DIN 96** Vis à bois à tête demi-ronde fendue.
 
@@ -231,22 +240,24 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 ### Vis type H à tête cruciforme 
 
--   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** Vis à tête cylindrique à empreinte cruciforme avec embase.
+-   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** Vis à tête cylindrique à empreinte cruciforme avec collerette.
 
 -   <img alt="" src=images/Fasteners_ISO7045.svg  style="width:32px;"> 
-**ISO 7045** Vis à tête cylindrique bombée type H à empreinte cruciforme. *Grade du produit A.*
+**ISO 7045** Vis à tête cylindrique bombée à empreinte cruciforme. *Grade A.*
 
 -   <img alt="" src=images/Fasteners_ISO7046.svg  style="width:32px;"> 
-**ISO 7046** Vis à tête plate fraisée à empreinte cruciforme. *Grade du produit A.*
+**ISO 7046** Vis à tête plate fraisée à empreinte cruciforme. *Grade A.*
 
 -   <img alt="" src=images/Fasteners_ISO7047.svg  style="width:32px;"> 
-**ISO 7047** Vis à tête fraisée surélevée à empreinte cruciforme. *Grade du produit A.*
+**ISO 7047** Vis à tête fraisée surélevée à empreinte cruciforme. *Grade A.*
 
--   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** Vis à tête cylindrique avec évidement transversal de type H.
+-   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** Vis à tête cylindrique à empreinte cruciforme.
 
--   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Vis à bois à tête demi-ronde avec empreinte en croix de type H.
+-   <img alt="" src=images/Fasteners_DIN7996.svg  style="width:32px;"> **DIN 7996** Vis à bois à tête cylindrique à empreinte cruciforme.
 
--   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Vis à bois à tête demi-ronde avec empreinte en croix de type H.
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Vis à bois à tête cylindrique à empreinte cruciforme.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Vis à bois à tête cylindrique à empreinte cruciforme.
 
 
 
@@ -254,7 +265,7 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 -   <img alt="" src=images/Fasteners_DIN603.svg  style="width:32px;"> **DIN 603** Boulon à tête carrée - boulon de carrosserie.
 
--   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> **DIN 478** Vis à tête carrée à embase cylindrique.
+-   <img alt="" src=images/Fasteners_DIN478.svg  style="width:32px;"> **DIN 478** Boulon à tête carrée avec collerette.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.1.svg  style="width:32px;"> **ASME B18.2.1.1** Boulon à tête carrée UNC.
 
@@ -265,13 +276,27 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 ### Écrous
 
 -   <img alt="" src=images/Fasteners_ISO4032.svg  style="width:32px;"> 
-**ISO 4032** Écrou hexagonal, style 1. *Catégories de produits A et B.*
+**ISO 4032** Écrou hexagonal, style 1. *Grades A et B.*
 
 -   <img alt="" src=images/Fasteners_ISO4033.svg  style="width:32px;"> 
-**ISO 4033** Écrou hexagonal, style 2. *Catégories de produits A et B.*
+**ISO 4033** Écrou hexagonal, style 2. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_ISO4034.svg  style="width:32px;"> **ISO 4034** Écrou hexagonal, style 1.
 
 -   <img alt="" src=images/Fasteners_ISO4035.svg  style="width:32px;"> 
-**ISO 4035** Écrou mince hexagonal, chanfreiné. *Catégories de produits A et B.*
+**ISO 4035** Écrou mince hexagonal, chanfreiné. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_ISO8673.svg  style="width:32px;"> 
+**ISO 8673** Écrous hexagonaux normaux (style 1) à filetage métrique à pas fin. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_ISO8674.svg  style="width:32px;"> 
+**ISO 8674** Écrous hexagonaux hauts (style 2) à filetage métrique à pas fin. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_ISO8675.svg  style="width:32px;"> 
+**ISO 8675** Écrous bas hexagonaux chanfreinés (style 0) à filetage métrique à pas fin. *Grades A et B.*
+
+-   <img alt="" src=images/Fasteners_DIN934.svg  style="width:32px;"> 
+**DIN 934 (remplacé par ISO 4035 et ISO 8673)** Écrou mince hexagonal, chanfreiné. *Grades A et B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width:32px;"> **EN 1661** Écrou hexagonal avec embase.
 
@@ -282,6 +307,10 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 -   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Écrou hexagonal à souder.
 
 -   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Écrou hexagonal à créneaux.
+
+-   <img alt="" src=images/Fasteners_DIN6330.svg  style="width:32px;"> **DIN 6330** Écrou hexagonal de 1,5d de haut.
+
+-   <img alt="" src=images/Fasteners_DIN6331.svg  style="width:32px;"> **DIN 6331** Écrou hexagonal avec collier de 1,5d de haut.
 
 -   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Écrou de rallonge hexagonal.
 
@@ -325,9 +354,13 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 
-### Écrous pour rainures en T 
+### Fixations pour rainures en T 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** Écrou pour rainures en T.
+
+-   <img alt="" src=images/Fasteners_GN505.svg  style="width:32px;"> **GN 505** Écrou dentelé quart de tour à rainure en T.
+
+-   <img alt="" src=images/Fasteners_GN505.4.svg  style="width:32px;"> **GN 505.4** Boulon à rainure en T dentelée.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** Écrou pour rainures en T.
 
@@ -335,17 +368,27 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 ### Rondelles
 
--   <img alt="" src=images/Fasteners_ISO7089.svg  style="width:32px;"> **ISO 7089** Rondelle plate, série normale. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO7089.svg  style="width:32px;"> **ISO 7089** Rondelle plate, série normale. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO7090.svg  style="width:32px;"> **ISO 7090** Rondelle plate chanfreinée, série normale. *Grade de produit A*.
+-   <img alt="" src=images/Fasteners_ISO7090.svg  style="width:32px;"> **ISO 7090** Rondelle plate chanfreinée, série normale. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO7092.svg  style="width:32px;"> **ISO 7092** Rondelle plate, série étroite. *Produit de qualité A*.
+-   <img alt="" src=images/Fasteners_ISO7092.svg  style="width:32px;"> **ISO 7092** Rondelle plate, série étroite. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width:32px;"> **ISO 7093-1** Rondelle plate, série large. *Grade du produit A*.
+-   <img alt="" src=images/Fasteners_ISO7093-1.svg  style="width:32px;"> **ISO 7093-1** Rondelle plate, série large. *Grade A*.
 
--   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> **ISO 7094** Rondelle plate, série très large. *Produit de qualité C*.
+-   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> **ISO 7094** Rondelle plate, série très large. *Grade C*.
 
--   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width:32px;"> **NFE27-619** Rondelles cuvette décolletées.
+-   <img alt="" src=images/Fasteners_ISO8738.svg  style="width:32px;"> **ISO 8738** Rondelle plate pour axes d\'articulation.
+
+-   <img alt="" src=images/Fasteners_DIN6319C.svg  style="width:32px;"> **DIN 6319C** Rondelle convexe.
+
+-   <img alt="" src=images/Fasteners_DIN6319D.svg  style="width:32px;"> **DIN 6319D** Rondelle concave.
+
+-   <img alt="" src=images/Fasteners_DIN6319G.svg  style="width:32px;"> **DIN 6319G** Rondelle portée sphérique concave.
+
+-   <img alt="" src=images/Fasteners_DIN6340.svg  style="width:32px;"> **DIN 6340** Rondelle pour dispositifs de serrage.
+
+-   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width:32px;"> **NFE27-619** Rondelle cuvette décoletée.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width:32px;"> **ASME B18.21.1.12A** Rondelle UN, série étroite.
 
@@ -357,9 +400,9 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 ### Circlips
 
--   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** Circlips extérieurs.
+-   <img alt="" src=images/Fasteners_DIN471.svg  style="width:32px;"> **DIN 471** Circlip extérieur.
 
--   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Circlips intérieurs.
+-   <img alt="" src=images/Fasteners_DIN472.svg  style="width:32px;"> **DIN 472** Circlip intérieur.
 
 -   <img alt="" src=images/Fasteners_DIN6799.svg  style="width:32px;"> **DIN 6799** Bague d\'arrêt pour arbre.
 
@@ -367,17 +410,17 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 ### Divers
 
--   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Tige filetée de longueur personnalisée pour le taraudage des trous.
+-   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Taraud de longueur personnalisée.
 
--   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Tige filetée de longueur personnalisée pour le taraudage des trous.
+-   <img alt="" src=images/Fasteners_ScrewTapInch.svg  style="width:32px;"> Taraud de longueur personnalisée.
 
--   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Tube fileté de longueur personnalisée pour couper les filets extérieurs.
+-   <img alt="" src=images/Fasteners_ScrewDie.svg  style="width:32px;"> Filière de longueur personnalisée.
 
--   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Tube fileté de longueur personnalisée pour couper les filets extérieurs.
+-   <img alt="" src=images/Fasteners_ScrewDieInch.svg  style="width:32px;"> Filière de longueur personnalisée.
 
--   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Tige filetée *DIN 975* de longueur arbitraire.
+-   <img alt="" src=images/Fasteners_ThreadedRod.svg  style="width:32px;"> Tige filetée **DIN 975** de longueur arbitraire.
 
--   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Tige filetée *UNC* de longueur arbitraire.
+-   <img alt="" src=images/Fasteners_ThreadedRodInch.svg  style="width:32px;"> Tige filetée **UNC** de longueur arbitraire.
 
 
 

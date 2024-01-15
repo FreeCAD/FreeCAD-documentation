@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Sketcher BSplineComb
-   MenuLocation: Sketch , Sketcher B-spline tools , Show/hide B-spline curvature comb
+   MenuLocation: Sketch , Sketcher visual , Show/hide B-spline information layer , Show/hide B-spline curvature comb
    Workbenches: Sketcher_Workbench
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline

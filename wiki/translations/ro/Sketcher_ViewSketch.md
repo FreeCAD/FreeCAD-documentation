@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Acest instrument definește modelul vederii perpendicular pe planul schiței. It is useful when the user has changed the model view orientation to examine another aspect of the model and wants to return to a view normal to the sketch.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -13,15 +13,9 @@
 
 ## Beschreibung
 
+Das Werkzeug **TechDraw MaßDurchmesser** fügt einer Ansicht ein Durchmessermaß hinzu. Das Maß kann auf jede Kante angewendet werden, die ein Kreis oder Kreisbogen ist.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw MaßDurchmesser** MaßDurchmesser fügt einer Ansicht ein Durchmessermaß hinzu. Das Maß kann auf jeden Kreis (alles kreisförmige) in der Zeichnung angewendet werden. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), kann aber unter Verwendung des Werkzeugs **<img src="images/TechDraw_LinkDimension.svg" width=16px> [MaßVerknüpfen](TechDraw_LinkDimension/de.md)** auf den eigentlichen 3D-Abstand geändert werden.
-
-
-</div>
-
-For more information see [TechDraw RadiusDimension](TechDraw_RadiusDimension.md).
+Für weitere Informationen siehe [TechDraw MaßRadius](TechDraw_RadiusDimension/de.md).
 
 <img alt="" src=images/TechDraw_Dimension_Diameter_example.png  style="width:130px;"> 
 *Messen eines Kreises, angeben des Durchmessers*

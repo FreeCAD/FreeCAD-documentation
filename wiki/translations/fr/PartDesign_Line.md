@@ -17,6 +17,8 @@ Crée une **Ligne de référence** qui peut être utilisée comme référence po
 <img alt="" src=images/datum_line.png  style="width:600px;"> 
 *Deux lignes de référence à travers les coins opposés du cube se rencontrent au centre de la masse.*
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/PartDesign_Line.svg" width=24px> '''Créer une ligne de référence'''** .
@@ -29,7 +31,9 @@ Crée une **Ligne de référence** qui peut être utilisée comme référence po
 
 ## Options
 
-Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part ancrage](Part_EditAttachment/fr.md).
+Double-cliquez sur l\'étiquette DatumLine dans l\'arborescence du modèle ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la référence** dans le menu contextuel pour éditer ses paramètres. Pour plus de détails sur le mode d\'ancrage et le décalage de l\'ancrage, voir [Part Ancrage](Part_EditAttachment/fr.md).
+
+
 
 ## Propriétés
 

@@ -7,7 +7,7 @@
 
 ## Introdução
 
-The **Std Help Menu** is one of the 7 sub-menus in the [standard menu](Standard_Menu.md):
+O **Menu Ajuda Std** é um dos 7 submenus do [menu padrão](Standard_Menu/pt-br.md):
 
 
 {{StdMenu
@@ -27,15 +27,15 @@ The **Std Help Menu** is one of the 7 sub-menus in the [standard menu](Standard_
 [Ajuda](Std_Help_Menu/pt-br.md)
 }}
 
-The Help menu provides access to the help system and links to the FreeCAD website and forum.
+O menu Ajuda fornece acesso ao sistema de ajuda e links para o site e o fórum do FreeCAD.
 
 
 
 ## Ferramentas
 
-The following tools are available in this menu:
+As seguintes ferramentas estão disponíveis nesse menu:
 
--   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Help](Std_OnlineHelp.md): Opens the help documentation.
+-   <img alt="" src=images/Std_OnlineHelp.svg  style="width:32px;"> [Ajuda](Std_OnlineHelp/pt-br.md): Abre a documentação de ajuda.
 
 -   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [FreeCAD Website](Std_FreeCADWebsite.md): Opens the main website of the FreeCAD project.
 
@@ -45,7 +45,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub.md): Opens the FreeCAD Power users documentation wiki page.
 
--   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the python index of modules in your default Internet browser.
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatic python modules documentation](Std_PythonHelp.md): Opens the Python index of modules in your default Internet browser.
 
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [FreeCAD Forum](Std_FreeCADForum.md): Opens the FreeCAD forum.
 

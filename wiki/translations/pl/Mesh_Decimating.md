@@ -13,7 +13,7 @@
 
 ## Opis
 
-Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
+Polecenie **Uprość** zmniejsza liczbę ścian w obiektach siatkowych.
 
 
 
@@ -21,9 +21,9 @@ Polecenie **Decymacja** zmniejsza liczbę ścian w obiektach siatkowych.
 
 1.  Wybierz jeden lub więcej obiektów siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_Decimating.svg" width=16px> [Decymacja](Mesh_Decimating.md)**.
-    -   Wybierz polecenie z menu **Meshes → <img src="images/Mesh_Decimating.svg" width=16px> Decymacja ...**.
-3.  Otworzy się panel zadań **Dziesiątkowanie**.
+    -   Naciśnij przycisk **<img src="images/Mesh_Decimating.svg" width=16px> '''Uprość'''**.
+    -   Wybierz polecenie z menu **Siatki → <img src="images/Mesh_Decimating.svg" width=16px> Uprość ...**.
+3.  Otworzy się panel zadań **Upraszczanie**.
 4.  Określ opcję **Redukcja**:
     -   Jeśli zaznaczono tylko jeden obiekt siatkowy i wybrano opcję **Liczba bezwzględna**:
         -   Przesuń suwak lub wpisz liczbę, aby określić nieprzekraczalną liczbę ścian.

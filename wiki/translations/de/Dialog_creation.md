@@ -1,5 +1,5 @@
 # Dialog creation/de
-## Einführung
+## Einleitung
 
 Auf dieser Seite werden wir zeigen, wie man mit [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s offiziellem Werkzeug für die Gestaltung von Oberflächen, eine einfache grafische Oberfläche erstellt; der Dialog wird in [Python](Python/de.md) Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
 
@@ -7,6 +7,8 @@ In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definie
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Zwei allgemeine Methoden zur Erstellung von Oberflächen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
+
+
 
 ## Gestalten des Dialogs 
 
@@ -43,6 +45,8 @@ Qt Designer ist sehr einfach zu benutzen. Auf der linken Leiste hast du Elemente
 Das ist soweit alles, was wir im Qt Designer tun müssen. Eine letzte Sache noch: Benennen wir alle unsere Elemente mit einfacheren Namen um, damit sie in unseren Skripten leichter zu identifizieren sind:
 
 ![](images/Qtpropeditor.jpg )
+
+
 
 ## Umwandeln unseres Dialogs zu Python 
 
@@ -239,6 +243,8 @@ class plane():
 
 ```
 
+
+
 ## Weitere Beispiele 
 
 -   [Dialogerstellung mit verschiedenen Widgets](Dialog_creation_with_various_widgets/de.md) mit `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, und anderen.
@@ -247,6 +253,8 @@ class plane():
 -   [Dialogerstellung Bild und animierte GIF](Dialog_creation_image_and_animated_GIF/de.md) mit `QLabel` und `QMovie`.
 -   [PySide Verwendungsschnipsel](PySide_usage_snippets/de.md).
 -   [Qt Beispiel](Qt_Example/de.md)
+
+
 
 ## Relevante Verweise 
 

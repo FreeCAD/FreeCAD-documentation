@@ -1,95 +1,112 @@
 ---
  GuiCommand:
    Name: Draft Fillet
-   MenuLocation: Drafting , Fillet
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Zaokrąglenie
+   MenuLocation: Kreślenie , Zaokrąglenie
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **F** **I**
    Version: 0.19
-   SeeAlso: Draft_Line, Draft_Wire
+   SeeAlso: Draft_Line/pl, Draft_Wire/pl
 ---
 
 # Draft Fillet/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Fillet** command creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md).
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Zaokrąglenie** tworzy zaokrąglenie, zaokrąglony narożnik lub sfazowanie, prostą krawędź między dwiema [Liniami](Draft_Line/pl.md).
 
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
-*Several fillets and chamfers created between two lines*
-
-## Usage
-
-1.  Select two [Draft Lines](Draft_Line.md) that meet in a single point.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Fillet.svg" width=16px> [Draft Fillet](Draft_Fillet.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Fillet** option from the menu.
-    -   Use the keyboard shortcut: **F** then **I**.
-3.  Enter the **Fillet radius**. If the **Create chamfer** option is selected this will be the size of the chamfer (the length of the straight edge). Note that the command will not succeed if the radius or the chamfer size is too large for the selected lines.
-4.  Optionally check the **Delete original objects** option.
-5.  Optionally check the **Create chamfer** option.
-6.  If you have selected one of the two previous options: Click in the **Fillet radius** input box.
-7.  Press **Enter**.
-
-## Options
-
--   Press **Esc** or the **Close** button to abort the command.
-
-## Notes
-
--   A Draft Fillet cannot be edited nor is it linked to the lines that were used to create it.
--   Only Draft Lines, that is [Draft Wires](Draft_Wire.md) with only two points, are supported at the moment.
--   A [Draft Wire](Draft_Wire.md) that has at least three points can be filleted or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. Since [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md), can be joined with the [Draft Wire](Draft_Wire.md) command, the [Draft Join](Draft_Join.md) command or the [Draft Upgrade](Draft_Upgrade.md) command, this provides an alternative method for creating fillets and chamfers.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A Draft Fillet object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Kilka zaokrągleń i fazowań utworzonych między dwiema liniami.*
 
 
-{{TitleProperty|Draft}}
 
--    **End|VectorDistance**: (read-only) specifies the end point of the fillet.
+## Użycie
 
--    **Fillet Radius|Length**: (read-only) radius with which the fillet was created.
+1.  Wybierz dwie [Linie](Draft_Line/pl.md), które spotykają się w jednym punkcie.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Fillet.svg" width=16px> '''Zaokrąglenie'''**.
+    -   Wybierz z menu opcję **Kreślenie → <img src="images/Draft_Fillet.svg" width=16px> Zaokrąglenie**.
+    -   Użyj skrótu klawiaturowego: **F**, a następnie **I**.
+3.  Wpisz **Promień zaokrąglenia**. Jeśli wybrano opcję **Utwórz sfazowanie**, będzie to rozmiar fazy *(długość prostej krawędzi)*. Należy pamiętać, że polecenie nie powiedzie się, jeśli promień lub rozmiar fazy jest zbyt duży dla wybranych linii.
+4.  Opcjonalnie zaznacz opcję **Usuń oryginalne obiekty:**.
+5.  Opcjonalnie zaznacz opcję **Utwórz sfazowanie**.
+6.  Jeśli wybrano jedną z dwóch poprzednich opcji: Kliknij w polu wprowadzania **Promień zaokrąglenia**.
+7.  Naciśnij **Enter**.
 
--    **Length|Length**: (read-only) specifies the total length of the fillet.
-
--    **Start|VectorDistance**: (read-only) specifies the start point of the fillet.
-
-### View
 
 
-{{TitleProperty|Draft}}
+## Opcje
 
--    **Arrow Size|Length**: specifies the size of the symbol displayed at the end of the fillet.
+-   Naciśnij przycisk **Esc** lub przycisk **Zamknij** aby przerwać wykonywanie polecenia.
 
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the end of the fillet, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
 
--    **End Arrow|Bool**: specifies whether to show a symbol at the end of the fillet, so it can be used as an annotation line.
 
--    **Pattern|Enumeration**: not used.
+## Uwagi
 
--    **Pattern Size|Float**: not used.
+-   Zaokrąglenie nie może być edytowane, ani nie jest powiązane z liniami, które zostały użyte do jego utworzenia.
+-   W tej chwili obsługiwane są tylko linie, czyli [polilinie](Draft_Wire/pl.md) z tylko dwoma punktami.
+-   [Polilinia](Draft_Wire/pl.md), która ma co najmniej trzy punkty, może zostać zaokrąglona lub sfazowana poprzez zmianę odpowiednio właściwości **Promień** lub **Rozmiar sfazowania**. Ponieważ [linia](Draft_Line/pl.md) i [polilinia](Draft_Wire/pl.md) mogą być łączone za pomocą komendy [polilinia](Draft_Wire/pl.md), komendy [Połącz](Draft_Join/pl.md) lub komendy [Ulepsz kształt](Draft_Upgrade/pl.md), zapewnia to alternatywną metodę tworzenia zaokrągleń i fazowań.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Fillet use the `make_fillet` method of the Draft module:
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Zaokrąglenie wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Koniec|VectorDistance**: *(tylko do odczytu)* określa punkt końcowy zaokrąglenia.
+
+-    **Promień zaokrąglenia|Length**: *(tylko do odczytu)* promień, do utworzenia zaokrąglenie.
+
+-    **Długość|Length**: *(tylko do odczytu)* określa całkowitą długość zaokrąglenia.
+
+-    **Start|VectorDistance**: *(tylko do odczytu)* określa punkt początkowy zaokrąglenia.
+
+
+
+### Widok
+
+
+{{TitleProperty|Rysunek Roboczy}}
+
+-    **Rozmiar strzałki|Length**: określa rozmiar symbolu wyświetlanego na końcu zaokrąglenia.
+
+-    **Styl strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu zaokrąglenia, którym może być {{value|Kropka}}, {{value|Okrąg}}, {{value|Strzałka}}, {{value|Grot}} lub {{value|Grot-2}}.
+
+-    **Zakończenie strzałki|Bool**: określa, czy na końcu zaokrąglenia ma być wyświetlany symbol, aby można go było użyć jako linii adnotacji.
+
+-    **Wzór|Enumeration**: nie używane.
+
+-    **Wzór Size|Float**: nie używane.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć zaokrąglenie, użyj metody `make_fillet` modułu Rysunek Roboczy.
 
 
 ```python
 fillet = make_fillet([line1, line2], radius=100, chamfer=False, delete=False)
 ```
 
--   Creates a `Fillet` object between lines `line1` and `line2`, using `radius` for the curvature.
--   If `chamfer` is `True` it will create a straight edge with the length of `radius`, instead of a rounded edge.
--   If `delete` is `True` it will delete the given `line1` and `line2`, and leave only the new object.
+-   Tworzy obiekt `Fillet` pomiędzy liniami `line1` i `line2`, używając `radius` dla krzywizny.
+-   Jeśli `chamfer` ma wartość `True`, utworzy prostą krawędź o długości `radius`, zamiast zaokrąglonej krawędzi.
+-   Jeśli `delete` jest `True`, usunie podane `line1` i `line2` i pozostawi tylko nowy obiekt.
 
-Example:
+Przykład:
 
 
 ```python

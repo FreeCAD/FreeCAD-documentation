@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: Mesh CrossSections
-   MenuLocation: Meshes , Cutting , Cross-sections..
-   Workbenches: Mesh_Workbench
+   Name/de: Mesh Schnittkonturen
+   MenuLocation: Netze , Schneiden , Schnitte...
+   Workbenches: Mesh_Workbench/de
    Version: 0.19
-   SeeAlso: Mesh_SectionByPlane
+   SeeAlso: Mesh_SectionByPlane/de
 ---
 
 # Mesh CrossSections/de
@@ -13,19 +14,19 @@
 
 ## Beschreibung
 
-The **Mesh CrossSections** command creates multiple cross sections across mesh objects. The cross sections are taken parallel to one of the main global planes (XY, XZ or YZ). For each set of cross sections a single [Part Feature](Part_Feature.md) is created.
+Der Befehl **Mesh Schnittkonturen** erstellt mehrere Schnittkonturen auf Netzobjekten. Die Schnittkonturen werden parallel zu einer der globale Hauptebenen (XY, XZ oder YZ) angelegt. Für jeden Satz von Schnittkonturen wird ein einzelnes [Part Formelement](Part_Feature/de.md) erstellt.
 
 
 
 ## Anwendung
 
-1.  Select one or more mesh objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_CrossSections.svg" width=16px> [Mesh CrossSections](Mesh_CrossSections.md)** button.
-    -   Select the **Meshes → Cutting → <img src="images/Mesh_CrossSections.svg" width=16px> Cross-sections..** option from the menu.
-3.  The **Cross sections** task panel opens.
-4.  The planes that will be used to create the cross sections are indicated in the [3D view](3D_view.md), and will be updated based on the task panel inputs.
-5.  Select the **Guiding plane**:
+1.  Ein oder mehrere Netzobjekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_CrossSections.svg" width=16px> [Schnitte...](Mesh_CrossSections/de.md)** drücken.
+    -   Den Menüeintrag **Vetze → Schneiden → <img src="images/Mesh_CrossSections.svg" width=16px> Schnitte...** auswählen.
+3.  Der Aufgaben-Bereich **Schnitte** twird geöffnet.
+4.  Die Ebenen, die verwendet werden, um die Schnittkonturen zu erstellen, werden in der [3D-Ansicht](3D_view/de.md) ausgewählt; sie werden entsprechend der Eingaben im Aufgaben-Bereich aktualisiert.
+5.  Die **Führungsebene** (Bezugsebene) auswählen:
     -   
         **XY**
         
@@ -37,27 +38,27 @@ The **Mesh CrossSections** command creates multiple cross sections across mesh o
     -   
         **YZ**
         
-6.  Specify the **Position** of the guiding plane from the origin. The default position is based on the center of the bounding box of the selected mesh objects. Choosing a different **Guiding plane** or toggling the **Sections** checkbox will reset the **Positon** to this default value.
-7.  Optionally check the **Sections** checkbox to create multiple cross sections:
+6.  Die **Position** (Abstand) von der Bezugsebene festlegen. Der voreingestellte Abstand basiert auf dem Mittelpunkt des Begrenzungsrahmens des ausgewählten Netzobjekts. Die Auswahl einer anderen **Führungsebene** oder das Umschalten der Checkbox **Schnitte** setzt die **Positon** auf die Vorgabewerte zurück.
+7.  Wahlweise die Checkbox **Schnitte** aktivieren, um mehrere Schnittkonturen zu erstellen:
     -   
-        **On both sides**
+        **Beidseitig**
         
-        : if checked, cross sections are created on both sides of the guiding plane.
+        : Wenn aktiviert, werden Schnittkonturen auf beiden Seiten der Bezugsebene erstellt.
 
     -   
-        **Count**
+        **Anzahl**
         
-        : the number of cross sections.
+        : die Anzahl der Schnittkonturen.
 
     -   
-        **Distance**
+        **Entfernung**
         
-        : the distance between the cross sections. The default value is based on the dimensions of the bounding box, the **On both sides** option, and the **Count** value. Changing the **Count** value will reset the **Distance** to this default value. Changing the **On both sides** option will recalculate the **Distance** ({{value|*2.0}} or {{value|*0.5}}). Note that the input box may be greyed out, but the value can in fact be changed.
+        : Der Abstand zwischen den Schnittkonturen. Der Vorgabewert basiert auf den Abmaßen des Begrenzungsrahmens, der Option **Beidseitig** und dem Wert **Anzahl**. Das Ändern des Wertes **Anzahl** setzt den Wert **Entfernung** zurück auf diesen Vorgabewert. Das Ändern des Wertes **Beidseiteg** berechnet die **Entfernung** neu ({{value|*2.0}} oder {{value|*0.5}}). Achtung, das Eingabefeld kann ausgegraut sein, aber der Wert kann trotzdem angepasst werden.
 
-    -   Optionally check the **Connect edges if distance is less than** checkbox and specify a value.
-8.  Press the {{button|Apply}} button to create the set of cross sections.
-9.  Optionally change one or more settings and create additional sets of cross sections.
-10. Press the {{button|OK}} button or the {{button|Cancel}} button to close the task panel and finish the command.
+    -   Wahlweise Checkbox **Kanten verbinden, wenn die Distanz kleiner ist als** aktivieren und einen Wert festlegen.
+8.  Die Schaltfläche {{button|Anwenden}} drücken, um einen Satz Schnittkonturen zu erstellen.
+9.  Wahlweise eine oder mehrere Einstellungen anpassen und weitere Schnittkonturen zu erstellen.
+10. Die Schaltfläche {{button|OK}} oder die Schaltfläche {{button|Abbrechen}} drücken, um den Aufgaben-Bereich zu schließen und den Befehl abzuschließen.
 
 
 

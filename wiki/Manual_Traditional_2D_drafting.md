@@ -1,6 +1,4 @@
 # Manual:Traditional 2D drafting
-{{Manual:TOC}}
-
 You might be interested by FreeCAD because you already have some technical drawing experience, for example with software like [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Or you already know something about design, or you prefer to draw things before building them. In any case, FreeCAD features a more traditional workbench, with tools found in most 2D CAD applications: The [Draft Workbench](Draft_Workbench.md).
 
 The Draft Workbench, although it adopts ways of working inherited from the traditional 2D CAD world, is not limited at all to the 2D realm. All its tools work in the whole 3D space and many of the Draft tools, for example <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Move](Draft_Move.md) or <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Rotate](Draft_Rotate.md), are commonly used all over FreeCAD because they are often more intuitive than changing placement parameters manually.
@@ -46,7 +44,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 
 ![](images/Exercise_cabin_04.jpg )
 
--   We can change their default grey color to a nice hatch pattern, by selecting both walls, then setting their **Pattern** property to **Simple**, and their **Pattern size** to your liking, for example **0.005**.
+-   We can give the walls a nice hatch pattern. Select both walls, make sure their **Make Face** property is set to **`True`**, then set their **Pattern** property to **Simple**, and their **Pattern size** to your liking, for example **0.005**.
 
 ![](images/Exercise_cabin_05.jpg )
 

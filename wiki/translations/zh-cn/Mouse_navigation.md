@@ -26,6 +26,10 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ## Available navigation styles 
 
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -67,6 +71,9 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{CAD Navigation
 |Select_name=选择对象
 |Pan_name=移动视图
@@ -76,12 +83,6 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=在待选对象上点击鼠标左键。
-
-<div class="mw-translate-fuzzy">
-按住**Ctrl**键来选择多个对象。
-|Pan_text=按住鼠标中键，并移动鼠标指针。
-|Pan_mode_text=移动视图模式: 按住**Ctrl**键，按下鼠标右键一次，再移动鼠标指针。 <small>(v0.17)</small> 
-|Zoom_text=用鼠标滚轮来进行缩放。
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -104,6 +105,8 @@ The Blender navigation style was modeled after [Blender](https://www.blender.org
 
 若用户惯用右手，便会发现此法较第一种方法更易使用。
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -143,8 +146,14 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 |Tilt_view_text=按住鼠标左右两键，再向一侧移动鼠标指针。
 |Tilt_view_gesture_text=旋转两指间的假想线段。
 
+<div class="mw-translate-fuzzy">
 在v0.18版中，此方法默认禁用。若要开启，请依次选择**Edit → Preferences → Display**，并反选"Disable touchscreen tilt gesture" 复选框。
 }}
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -228,7 +237,7 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 |Zoom_text=用鼠标滚轮来进行缩放。
 </div>
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -251,11 +260,15 @@ The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -305,6 +318,8 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 }}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### 触摸板导航
@@ -312,7 +327,7 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 
 </div>
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 
 <div class="mw-translate-fuzzy">
@@ -338,6 +353,8 @@ In Touchpad Navigation, panning, zooming, and rotating the view require a modifi
 
 </div>
 
+
+
 ## 硬件支持
 
 
@@ -347,6 +364,8 @@ FreeCAD 同样支持一些 [3D 输入设备](3D_input_devices/zh-cn.md).
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

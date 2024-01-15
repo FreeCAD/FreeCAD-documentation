@@ -26,7 +26,13 @@
 
 ## Оглавление
 
+
+<div class="mw-translate-fuzzy">
+
 В следующем списке оглавлений перечислены все статьи этой вики, которые составляют основу оффлайн документации, поставляемой с приложением FreeCAD. Они доступны на нескольких языках:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintCurrentDensity
    Name/de: FEM RandbedingungStromdichte
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint current density
+   MenuLocation:  Modell , Elektromagnetische Randbedingungen , RandbedingungStromdichte
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/de, FEM_EquationMagnetodynamic2D/de
@@ -20,7 +20,7 @@ Erstellt eine FEM-Randbedingung für die Stromdichte, zur Verwendung mit der [ma
 
 ## Anwendung
 
-1.  Die Schaltfläche **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Constraint current density](FEM_ConstraintCurrentDensity/de.md)** drücken oder den Menüeintrag **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Constraint current density** auswählen.
+1.  Die Schaltfläche **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Randbedingung Stromdichte](FEM_ConstraintCurrentDensity/de.md)** drücken oder den Menüeintrag **Modell → Elektromagnetische Randbedingungen → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Randbedingung Stromdichte** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
 3.  Die Schaltfläche **Hinzufügen** Drücken.
 

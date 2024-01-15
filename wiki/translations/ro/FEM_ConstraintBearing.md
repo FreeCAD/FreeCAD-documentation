@@ -5,9 +5,13 @@
 
 </div>
 
+
+
 ## Descriere
 
 Not supported by CalculiX Interface!
+
+
 
 
 <div class="mw-translate-fuzzy">

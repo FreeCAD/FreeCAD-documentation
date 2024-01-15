@@ -15,7 +15,7 @@
 
 Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa finestra di dialogo è possibile eseguire, modificare e gestire le macro.
 
-![](images/Std_DlgMacroExecute_dialog.png ) 
+<img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
 *La finestra di dialogo Esegui macro*
 
 
@@ -33,17 +33,65 @@ Il comando **Macro\...** apre la finestra di dialogo Esegui macro. Da questa fin
 
 
 
+### Trova file / Trova nei file 
+
+:   
+    {{Version/it|0.22}}
+    
+
+
+
+
+
+:   Queste due caselle di input possono essere utilizzate per filtrare le macro dall\'elenco dei file nella scheda **Macro utente** o nella scheda **Macro di sistema**. Si possono utilizzare espressioni regolari o semplicemente inserire testo. Tutte le corrispondenze non fanno distinzione tra maiuscole e minuscole.
+
+
+
+
+
+:   **Trova file** filtra l\'elenco per nome file. Nell\'elenco verranno visualizzati solo i nomi di file che corrispondono al testo immesso. **Trova nei file** filtra l\'elenco in base al contenuto del file. Nell\'elenco verranno visualizzati solo i file il cui contenuto testuale corrisponde al testo immesso.
+
+
+
+
+
+:   Rimuove tutto il testo dalla casella di input di un filtro per disabilitarlo. Se entrambe le caselle di input contengono testo, vengono applicati entrambi i filtri. Il filtraggio potrebbe risultare un elenco vuoto.
+
+
+
 ### Macro utente 
 
-1.  La scheda **Macro utente** elenca le macro disponibili nella **Posizione macro utente**.
-2.  Fare clic su una macro per selezionarla.
-3.  Il nome della macro selezionata apparirà nella casella **Nome macro**.
+:   La scheda **Macro utente** elenca le macro disponibili nella **Posizione macro utente**.
+
+1.  Fare clic su una macro nell\'elenco per selezionarla.
+2.  Il nome della macro selezionata apparirà nella casella **Nome macro**.
 
 
 
 ### Macro di sistema 
 
-:   La scheda **Macro di sistema** non è attualmente utilizzata.
+:   Per utilizzare la scheda **Macro di sistema** è necessario creare una cartella denominata **Macro** come cartella gemella della cartella **bin** in cui è installato FreeCAD e inserire all\'interno alcune macro.
+
+
+
+
+
+:   Per trovare la cartella **bin** inserire questo nella [Console Python](Python_console/it.md):
+
+
+
+
+
+:   
+    
+```python
+    App.getHomePath()
+    
+```
+    
+
+1.  Fare clic su una macro nell\'elenco per selezionarla.
+2.  Il nome della macro selezionata apparirà nella casella **Nome macro**.
 
 
 

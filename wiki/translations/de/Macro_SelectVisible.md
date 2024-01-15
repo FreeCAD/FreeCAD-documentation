@@ -1,4 +1,7 @@
 # Macro SelectVisible/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Macro SelectVisible
 |Translate=Macro SelectVisible
@@ -11,6 +14,11 @@
 |Download=[https://www.freecadweb.org/wiki/images/5/51/SelectVisible.png ToolBar Icon]
 }}
 
+
+</div>
+
+
+
 ## Beschreibung
 
 Alle in der Baumansicht sichtbaren Objekte (und nur diese) werden ausgewählt.
@@ -18,11 +26,33 @@ Alle in der Baumansicht sichtbaren Objekte (und nur diese) werden ausgewählt.
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/SelectVisible.FCMacro}}
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Gebrauch
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Kopiere das Makro in den Makro-Ordner und starte es (siehe [How to install macros](How_to_install_macros/de.md) für weitere Details).
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Code
+
+
+</div>
 
 Die neueste Version des Makros ist zu finden auf: <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
@@ -35,7 +65,7 @@ __Name__ = 'Select Visible'
 __Comment__ = 'All visible objects in the tree will be selected'
 __Web__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
 __Wiki__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
-__Icon__ = 'SelectVisible.svg'
+__Icon__ = 'https://wiki.freecad.org/images/5/51/SelectVisible.png'
 __Help__ = 'All visible objects in the tree and only these will be selected'
 __Author__ = 'galou_breizh'
 __Version__ = '1.0'

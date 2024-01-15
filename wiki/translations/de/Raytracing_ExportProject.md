@@ -34,4 +34,4 @@ Exportiert das ausgewählte Raytracing-Projekt in eine Datei.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/de
+⏵ [documentation index](../README.md) > Raytracing ExportProject/de

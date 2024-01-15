@@ -1,6 +1,6 @@
 ---
- TutorialInfo:
-   Topic:  Add FEM Constraint
+ TutorialInfo:l
+   Topic:  Dodawanie cech analiz MES
    Level: 
    Time: 
    Author: User:M42kus
@@ -14,22 +14,28 @@
 
 
 
-## Introduction
 
-In this tutorial we are going to add the flow velocity constraint to FreeCAD and implement support for the Elmer solver. Please make sure you have read and understood [Extend FEM Module](Extend_FEM_Module.md) before reading this tutorial.
 
-This tutorial only covers how to implement constraints in python. In contrast to solver and equations constraints follow the classic FEM module structure. That is, all modules of a constraint have their place in either the {{Incode|femobjects}} or {{Incode|femviewprovider}} package.
+## Wprowadzenie
 
-## Summary
+W tym poradniku dodamy warunek brzegowy prędkości przepływu do FreeCAD i zaimplementujemy wsparcie dla solvera Elmer. Upewnij się, że przeczytałeś i zrozumiałeś stronę [Rozszerzenie modułu MES](Extend_FEM_Module/pl.md) przed przejściem do tego poradnika.
 
-1.  **Create document object:** The document object that resides inside the analysis and though which the constraint can be parametrized and attached to boundaries.
-2.  **Create GUI command:** Add a command to the FEM workbench that adds a flow constraint to the active analysis.
-3.  **Create a task panel:** The task panel is necessary to allow the user to set the boundaries at which he wants to set the velocity constraint. It also makes entering the parameters a little more user friendly.
-4.  **Extend elmers writer:** Add support for the new constraint to Elmer by extending its sif file exporter.
+Ten poradnik omawia tylko implementację cech analizy w Python. W przeciwieństwie do solvera i równań, cechy analizy są zgodne z klasyczną strukturą środowiska pracy MES. Oznacza to, że wszystkie moduły cechy analizy mają swoje miejsce w paczce {{Incode|femobjects}} lub {{Incode|femviewprovider}}.
 
-## Create document object 
 
-In this step we are going to modify the following files:
+
+## Podsumowanie
+
+1.  **Utwórz obiekt dokumentu:** Obiekt dokumentu, który znajduje się wewnątrz analizy i poprzez który cecha analizy może być sparametryzowana i zadana na brzegach.
+2.  **Utwórz polecenie w GUI:** Dodaj do środowiska pracy MES polecenie, które wstawia warunek brzegowy przepływu do aktywnej analizy.
+3.  **Utwórz panel zadań:** Panel zadań jest konieczny aby umożliwić użytkownikowi ustawianie brzegów, na których warunek brzegowy ma być zadany. Ułatwia również nieco wprowadzanie parametrów.
+4.  **Rozszerz kod zapisujący pliki dla solvera Elmer:** Dodaj wsparcie dla nowej cechy analizy do Elmera poprzez rozszerzenie jego eksportera plików sif.
+
+
+
+## Utwórz obiekt dokumentu 
+
+W tym kroku zmodyfikujemy następujące pliki:
 
 -    **src/Mod/Fem/CMakeLists.txt**
     
@@ -40,7 +46,7 @@ In this step we are going to modify the following files:
 -    **src/Mod/Fem/ObjectsFem.py**
     
 
-And add the following files:
+I dodamy te pliki:
 
 -    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
@@ -48,7 +54,7 @@ And add the following files:
 -    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
-A document proxy and a view proxy are required for the new constraint. Those reside in separate modules. The document proxy in femobjects and the view proxy in femviewprovider. Just copy the modules from an existing constraint e.g.:
+Proxy dokumentu i proxy widoku są wymagane dla nowej cechy analizy. Znajdują się one w osobnych modułach. Proxy dokumentu jest w femobjects a proxy widoku w femviewprovider. Po prostu skopiuj moduły z istniejącej cechy analizy, np.:
 
 -    **femobjects/constraint_selfweight.py**
     
@@ -56,7 +62,7 @@ A document proxy and a view proxy are required for the new constraint. Those res
 -    **femviewprovider/view_constraint_selfweight.py**
     
 
-Adjust the Type variable and the properties to your needs. The document proxy of the flow constraint looks like the following:
+Popraw zmienną Type i właściwości tak jak potrzebujesz. Proxy dokumentu warunku brzegowego przepływu wygląda następująco:
 
 
 ```python
@@ -87,7 +93,7 @@ class Proxy(FemConstraint.Proxy):
             "Parameter", "Body heat flux")
 ```
 
-The module containing the view proxy might look a little more complicated. But for now just adjust the icon path. We are going to come back to this file in later steps of the tutorial.
+Moduł zawierający proxy widoku może wydawać się nieco bardziej skomplikowany. Ale póki co po prostu dodaj ścieżkę ikony. Wrócimy do tego pliku w dalszych krokach poradnika.
 
 
 ```python
@@ -96,9 +102,9 @@ class ViewProxy(FemConstraint.ViewProxy):
         return ":/icons/fem-constraint-flow-velocity.svg"
 ```
 
-Add the two new modules to the build system like described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list by searching for constraint modules.
+Dodaj dwa nowe moduły do systemu budowania, tak jak to opisano na stronie [Rozszerzenie modułu MES](https://www.freecadweb.org/wiki/Extend_FEM_Module/pl). Zlokalizuj poprawną listę poprzez poszukanie modułów cech analizy.
 
-As all objects of the FEM workbench the velocity constraint must be registered in {{Incode|ObjectsFem.py}}. The following method adds a velocity constraint to the active document. This method will be used by the GUI command to add the constraint. It must be inserted somewhere in {{Incode|ObjectsFem.py}}.
+Jak wszystkie obiekty środowiska pracy MES, warunek brzegowy prędkości musi być zarejestrowany {{Incode|ObjectsFem.py}}. Następująca metoda dodaje ten warunek brzegowy do aktywnego dokumentu. Ta metoda będzie używana przez polecenie w GUI do dodawania warunku brzegowego. Musi być wprowadzona gdzieś w {{Incode|ObjectsFem.py}}.
 
 
 ```python
@@ -112,9 +118,11 @@ def makeConstraintFlowVelocity(name="FlowVelocity"):
     return obj
 ```
 
-## Create GUI command 
 
-In this step we are going to modify the following files:
+
+## Utwórz polecenie w GUI 
+
+W tym kroku zmodyfikujemy następujące pliki:
 
 -    **src/Mod/Fem/CMakeLists.txt**
     
@@ -125,12 +133,12 @@ In this step we are going to modify the following files:
 -    **src/Mod/Fem/Gui/Workbench.cpp**
     
 
-And add the following new file:
+I dodamy ten nowy plik:
 
 -    **src/Mod/Fem/femobjects/constraint_flowvelocity.py**
     
 
-The command allows the user to actually add the constraint to the active analysis. Just copy a command from an existing constraint. Commands reside in the {{Incode|femviewprovider}} package. Adjust the resources attribute and the make method called in Activated to your needs. Also use a different command id in the addCommand call on the bottom of the module. The following class is the command class of the velocity constraint.
+To polecenie pozwala użytkownikowi faktycznie dodać cechę do aktywnej analizy. Po prostu skopiuj polecenie z istniejącej cechy. Polecenia są w paczce {{Incode|femviewprovider}}. Dostosuj cechy resources i make method wywoływane w Activated do swoich potrzeb. Użyj też innego id polecenia w addCommand call na dole modułu. Następująca klasa jest klasą polecenia warunku brzegowego prędkości przepływu.
 
 
 ```python
@@ -159,22 +167,24 @@ class Command(FemCommands.FemCommands):
 Gui.addCommand('FEM_AddConstraintFlowVelocity', Command())
 ```
 
-Add the new command file to the build system as decripted in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Locate the correct list be searching for existing command modules.
+Dodaj plik nowego polecenia do systemu budowania zgodnie z opisem na stronie [Rozszerzenie modułu MES](https://www.freecadweb.org/wiki/Extend_FEM_Module/pl). Zlokalizuj poprawną listę poprzez poszukanie modułów istniejących poleceń.
 
-Put the command into Gui/Workbench.cpp to add it to the toolbar and menu. Search for an existing constraint of the same category as the new one (e.g. Flow) copy-paste it and adjust the command id. This should be done two times. Once for the menu and again for the toolbar.
+Umieść polecenie w Gui/Workbench.cpp aby dodać je do paska narzędzi i menu. Poszukaj istniejących cech analizy tej samej kategorii jak nowa (np. Przepływ), skopiuj i wklej a następnie dostosuj id polecenia. Należy to zrobić dwukrotnie. Raz dla menu i raz dla paska narzędzi.
 
-## Create a task panel 
 
-In this step we are going to modify the following file:
+
+## Utwórz pasek zadań 
+
+W tym kroku zmodyfikujemy następujący plik:
 
 -    **src/Mod/Fem/femviewprovider/view_constraint_flowvelocity.py**
     
 
-In FreeCAD constraint objects benefit greatly from task panels. Task panels can make use of more powerful input widgets which expose the unit of entered values directely to the user. The velocity constraint even requires the use of a task panel since a task panel is the only way of specifieing the face(s) on which the constraint shall be applied.
+Obiekty cech analizy we FreeCAD zyskują znacznie na panelach zadań. Panele te mogą korzystać z lepszych widgetów danych wejściowych, które eksponują jednostkę wprowadzanych wartości. Warunek brzegowy prędkości przepływu nawet wymaga użycia panelu zadań, ponieważ jest to jedyny sposób wskazania ścian, na które warunek ma być nałożony.
 
-The location of the module in which task panels are implemented is not strictely defined. For the velocity constraint we are just going to put the task panel in the same module we put the view proxy. The task panel is quite complicated. It makes use of the FemSolectionWidgets.BoundarySelector(). Thats a qt widget which allows the user to select the boundaries on which the constraint shall be applied. In addition to this widget it generates another one by loading a ui file specifically created for the velocity constraint. Via this widget the velocity vector can be specified.
+Lokalizacja modułu, w którym zaimplementowane są panele zadań nie jest jednoznaczna. Dla warunku brzegowego prędkości przepływu po prostu umieścimy panel zadań w tym samym module co proxy widoku. Panel zadań jest dosyć złożony. Korzysta z FemSolectionWidgets.BoundarySelector(). To widget qt, który pozwala użytkownikowi wybrać brzegi, na które cecha analizy ma być nałożona. Oprócz tego widgetu, generuje też inny poprzez załadowanie pliku ui specjalnie utworzonego dla warunku brzegowego prędkości przepływu. Ten widget pozwala określić wektor prędkości przepływu.
 
-Most of the time is should be sufficient to just copy this class, use a suitable ui file (instead of TaskPanelFemFlowVelocity.ui) and adjust \_initParamWidget() as well as \_applyWidgetChanges(). If the new constraint requires bodies as references instead of boundaries just replace the BoundarySelector object with the SolidSelector.
+W większości przypadków powinno wystarczyć po prostu skopiowanie tej klasy, użycie odpowiedniego pliku ui (zamiast TaskPanelFemFlowVelocity.ui) i dostosowanie \_initParamWidget() oraz \_applyWidgetChanges(). Jeśli nowa cecha analizy wymaga brył zamiast brzegów jako odniesień to po prostu zamień obiekt BoundarySelector na SolidSelector.
 
 
 ```python
@@ -262,7 +272,7 @@ class _TaskPanel(object):
         self._obj.NormalToBoundary = self._paramWidget.normalBox.isChecked()
 ```
 
-The view proxy must be extended to support the task panel we just implemented. The following extended view proxy opens the task panel when the user makes a double click on the constraint object in the tree view.
+Proxy widoku musi być rozszerzone aby wspierać panel zadań, który właśnie zaimplementowaliśmy. Następujące rozszerzone proxy widoku otwiera panel zadań gdy użytkownik kliknie dwukrotnie na obiekcie cechy analizy w widoku drzewa.
 
 
 ```python
@@ -285,14 +295,16 @@ class ViewProxy(FemConstraint.ViewProxy):
         return True
 ```
 
-## Extend Elmer\'s writer 
 
-In this step we are going to modify the following file:
+
+## Rozszerz kod zapisujący pliki dla solvera Elmer 
+
+W tym kroku zmodyfikujemy następujący plik:
 
 -    **src/Mod/Fem/femsolver/elmer/writer.py**
     
 
-The writer module contains methods for all equation types. Depending on the type of the constraint, boundary condition, initial condition or body force one has to modify different methods. For our flow velocity we have to adjust {{Incode|_handleFlowBndConditions(...)}}.
+Moduł zapisujący zawiera metody dla wszystkich typów równań. W zależności od typu cechy analizy, należy zmodyfikować inne metody. Dla naszej prędkości przepływu musimy zmienić {{Incode|_handleFlowBndConditions(...)}}.
 
 
 ```python

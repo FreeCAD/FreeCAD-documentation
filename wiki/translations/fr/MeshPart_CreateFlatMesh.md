@@ -21,7 +21,7 @@ La commande **Développer un maillage** crée une représentation plate d\'un ob
 
 ## Utilisation
 
-1.  Sélectionnez un seul objet maillé. Le maillage doit être \"développable\". Par exemple, pour développer un maillage cylindrique, il doit avoir des extrémités ouvertes et une couture ouverte. Les surfaces courbes doivent également avoir un maillage relativement fin. Utilisez la commande [Mesh Affiner](Mesh_RemeshGmsh/fr.md) si nécessaire.
+1.  Sélectionnez un seul objet maillé. Le maillage doit être \"développable\". Par exemple, pour développer un maillage cylindrique, il doit avoir des extrémités ouvertes et une couture ouverte. Les surfaces courbes doivent également avoir un maillage relativement fin. Utilisez la commande [Mesh Remailler avec Gmsh](Mesh_RemeshGmsh/fr.md) si nécessaire.
 2.  Sélectionnez l\'option **Maillages → <img src="images/MeshPart_CreateFlatMesh.svg" width=16px> Développer un maillage** du menu.
 
 

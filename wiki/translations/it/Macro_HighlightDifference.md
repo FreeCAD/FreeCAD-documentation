@@ -1,4 +1,7 @@
 # Macro HighlightDifference/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=HighlightDifference
 |Translate=Evidenzia differenze
@@ -8,15 +11,31 @@
 |Date=2015-09-24
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Calcola la differenza tra due forme. Le parti aggiunte sono contrassegnate in rosso, le rimozioni sono contrassegnate in verde. Entrambe le parti originali diventano semitrasparenti. Nella console viene stampato il volume delle parti aggiunte e rimosse.
+
+
+</div>
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
 
 <img alt="" src=images/Macro_HighlightDifference_02.png  style="width:400px;"> 
 *Result difference two objects created*
+
+## Example
+
+
+<div class="mw-translate-fuzzy">
 
 ## Esempio
 
@@ -31,14 +50,33 @@ Image:Macro HighlightDifference 00.png\|Oggetti originali Image:Macro HighlightD
 
 
 
+
+</div>
+
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 Il codice è visibile in Github: [Utility/HighlightDifference.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
+
+
+</div>
+
+## Links
+
+
+<div class="mw-translate-fuzzy">
 
 ## Link
 
 -   Vedere la macro complementare: [Macro_HighlightCommon](Macro_HighlightCommon/it.md)
 -   La discussione nel forum: [\"collision detection\", overlapping](http://forum.freecadweb.org/viewtopic.php?f=22&t=12426)
+
+
+</div>
 
 
 

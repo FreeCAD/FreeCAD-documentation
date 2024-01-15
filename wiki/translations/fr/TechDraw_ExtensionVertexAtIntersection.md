@@ -16,7 +16,7 @@
 L\'outil **TechDraw Intersection de lignes** ajoute un ou plusieurs sommets cosmétiques à l\'intersection ou aux intersections des arêtes sélectionnées.
 
 <img alt="" src=images/TechDraw_ExtensionVertexAtIntersectionExample.png  style="width:200px;"> 
-*A droite, deux sommets cosmétiques ajoutés*
+*À droite, deux sommets cosmétiques ajoutés*
 
 
 

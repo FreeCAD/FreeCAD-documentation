@@ -9,6 +9,8 @@
 
 *Panel zadań prezentujący różne polecenia, gdy aktywne jest Środowisko pracy [PartDesign](PartDesign_Workbench/pl.md) i wybrano [szkicownik](Sketch/pl.md).*
 
+
+
 ## Praca z panelem zadań 
 
 Panel zadań zwykle otwiera się, gdy narzędzie wymagające wprowadzenia danych przez użytkownika jest aktywowane. Odbywa się to poprzez naciśnięcie przycisku na pasku narzędzi lub podwójne kliknięcie obiektu. Jeśli narzędzie nie wymaga wprowadzania danych przez użytkownika, wygeneruje swój wynik lub zakończy działanie, ale nie wyświetli panelu zadań.
@@ -30,6 +32,8 @@ Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych 
 *Panel zadań, który otwiera się podczas edycji [Arch Component](Arch_Component.md). Panel czeka, aż użytkownik wybierze obiekty, które można dodać lub odjąć od danego elementu.*
 
 **Uwaga:** Proszę zauważyć, że przełączenie z zakładki **Zadania** do zakładki **Model** nie kończy aktywnego polecenia. Zadanie nadal będzie działać w tle. Użytkownik jest odpowiedzialny za prawidłowe zakończenie lub przerwanie aktywnego polecenia przed rozpoczęciem innego zadania. Pozostawienie uruchomionego zadania może spowodować błędy podczas próby uruchomienia innych narzędzi.
+
+
 
 ## Uwagi
 

@@ -282,7 +282,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Yay oluştur](Sketcher_CompCreateArc/tr.md): Bu, aşağıdaki komutları içeren eskiz araç çubuğundaki bir simge menüsüdür:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
 
 <div class="mw-translate-fuzzy">
@@ -300,7 +300,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Daire Oluştur](Sketcher_CompCreateCircle/tr.md): Bu, aşağıdaki komutları içeren Eskiz araç çubuğundaki bir simge menüsüdür:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
 
 <div class="mw-translate-fuzzy">
@@ -318,18 +318,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Koni](Sketcher_CompCreateConic/tr.md):
-    -   <img alt="" src=images/Sketcher_CreateEllipse.png  style="width:32px;"> [Merkeze göre elips](Sketcher_CreateEllipseByCenter/tr.md): Merkez noktası, ana yarıçapı noktası ve küçük yarıçapı noktası ile bir elips çizer. <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_CreateEllipse_3points.png  style="width:32px;"> [3 nokta ile elips](Sketcher_CreateEllipseBy3Points/tr.md): Ana çap (2 puan) ve küçük yarıçap noktası ile bir elips çizer. <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_Elliptical_Arc.png  style="width:32px;"> [ eliptik yay](Sketcher_CreateArcOfEllipse/tr.md):Merkez nokta, ana yarıçap noktası, başlangıç ​​noktası ve bitiş noktası ile bir elips yayı çizer. <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_Hyperbolic_Arc.png  style="width:32px;"> [Hiperbolik yay](Sketcher_CreateArcOfHyperbola/tr.md): Hiperbolik yay çizer. <small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Parabolic_Arc.png  style="width:32px;"> [Parabolik yay](Sketcher_CreateArcOfParabola/tr.md): Parabolik yay çizer. <small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
 
@@ -341,15 +330,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Kama oluştur](Sketcher_CompCreateBSpline/tr.md): Aşağıdaki komutları içeren eskiz araç çubuğundaki bir simge menüsüdür:
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Kama](Sketcher_CreateBSpline/tr.md): Kontrol noktalarından kama için eğri oluşturur. <small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Periyodik kama](Sketcher_CreatePeriodicBSpline/tr.md): Kontrol noktalarına göre periyodik (kapalı) kama çizer. <small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
@@ -367,7 +348,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
 
 <div class="mw-translate-fuzzy">
@@ -381,13 +362,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Eşkenar çokgen](Sketcher_CompCreateRegularPolygon/tr.md): Bu, aşağıdaki komutları içeren Eskiz araç çubuğundaki bir simge menüsüdür:
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
 
 <div class="mw-translate-fuzzy">
@@ -439,6 +414,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Regular polygon](Sketcher_CreateRegularPolygon.md) : Draws a regular polygon by selecting the number of sides and picking two points: the center and one corner.
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -447,7 +424,9 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 
 <div class="mw-translate-fuzzy">
@@ -459,6 +438,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -467,6 +448,8 @@ Bunlar nesne oluşturma araçlarıdır.
 
 </div>
 
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -474,8 +457,6 @@ Bunlar nesne oluşturma araçlarıdır.
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -507,17 +488,7 @@ Bunlar nesne oluşturma araçlarıdır.
 
 Kısıtlamalar, uzunlukları tanımlamak, Eskiz öğeleri arasında kuralları belirlemek ve eskizleri dikey ve yatay eksenler boyunca kilitlemek için kullanılır. Bazı kısıtlamalar, [Yardımcı kısıtlamaların](Sketcher_helper_constraint.md) kullanılmasını gerektirir .
 
-#### Geometric constraints 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Geometrik kısıtlamalar 
-
-Bu kısıtlamalar sayısal verilerle ilişkili değildir.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -535,10 +506,14 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Dikey](Sketcher_ConstrainVertical/tr.md): Seçilen çizgileri veya çoklu çizgi öğelerini gerçek bir dikey yönlendirmeyle sınırlar. Bu kısıtlamayı uygulamadan önce birden fazla nesne seçilebilir.
+-   <img alt="" src=images/Constraint_Horizontal.png  style="width:32px;"> [Yatay](Sketcher_ConstrainHorizontal.md): Seçili çizgileri veya çoklu çizgi öğelerini gerçek bir yatay yönde sınırlar. Bu kısıtlamayı uygulamadan önce birden fazla nesne seçilebilir.
 
 
 </div>
@@ -546,7 +521,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Constraint_Horizontal.png  style="width:32px;"> [Yatay](Sketcher_ConstrainHorizontal.md): Seçili çizgileri veya çoklu çizgi öğelerini gerçek bir yatay yönde sınırlar. Bu kısıtlamayı uygulamadan önce birden fazla nesne seçilebilir.
+-   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Dikey](Sketcher_ConstrainVertical/tr.md): Seçilen çizgileri veya çoklu çizgi öğelerini gerçek bir dikey yönlendirmeyle sınırlar. Bu kısıtlamayı uygulamadan önce birden fazla nesne seçilebilir.
 
 
 </div>
@@ -599,15 +574,9 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
-#### Dimensional constraints 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
 
-
-<div class="mw-translate-fuzzy">
-
-#### Boyutsal kısıtlamalar 
-
-
-</div>
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -641,8 +610,6 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
-
 
 <div class="mw-translate-fuzzy">
 
@@ -656,7 +623,7 @@ Bu kısıtlamalar sayısal verilerle ilişkili değildir.
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 #### Special constraints 
 
@@ -758,6 +725,10 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -823,40 +794,6 @@ The following tools can be used the change the effect of constraints:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [ B-spline derecesini Göster / Gizle](Sketcher_BSplineDegree/tr.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [B-spline kontrol poligonunu Göster/Gizle](Sketcher_BSplinePolygon/tr.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [ B-spline eğrilik tepelerini Göster/Gizle](Sketcher_BSplineComb.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [B-spline düğüm çokluğunu Göster/Gizle](Sketcher_BSplineKnotMultiplicity/tr.md)
-
-
-</div>
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Geometriyi B-spline\'a Dönüştür](Sketcher_BSplineApproximate/tr.md)
 
 
@@ -892,9 +829,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
-
-
-### Eskiz sanal alanı 
+### Sketcher visual 
 
 
 <div class="mw-translate-fuzzy">
@@ -903,6 +838,42 @@ The following tools can be used the change the effect of constraints:
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [ B-spline derecesini Göster / Gizle](Sketcher_BSplineDegree/tr.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [B-spline kontrol poligonunu Göster/Gizle](Sketcher_BSplinePolygon/tr.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [ B-spline eğrilik tepelerini Göster/Gizle](Sketcher_BSplineComb.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [B-spline düğüm çokluğunu Göster/Gizle](Sketcher_BSplineKnotMultiplicity/tr.md)
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

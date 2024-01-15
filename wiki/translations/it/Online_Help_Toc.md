@@ -1,5 +1,5 @@
 # Online Help Toc/it
-Questo è il sommario dei contenuti utilizzati per costruire automaticamente la **Guida in linea** di FreeCAD. La versione stampabile di questo manuale è disponibile in [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se avete delle domande o bisogno di aiuto con FreeCAD, consultate la [pagina di aiuto](Help/it.md) inclusi i forum e i gruppi di chat.
+Se avete delle domande o bisogno di aiuto con FreeCAD, consultate come prima cosa la [pagina di aiuto](Help/it.md).
 
 C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
@@ -90,8 +90,7 @@ C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
         -   [Strumenti di terze parti](Third_Party_Tools/it.md)
     -   Creare strumenti di supporto
         -   [Ricevere assistenza](Tracker/it.md)
-        -   [Smistamento dei bug](Bug_Triage/it.md)
-        -   [Debugging](Debugging/it.md)
+        -   [Debugging FreeCAD](Debugging/it.md)
         -   [Testing](Testing/it.md)
         -   [Strumento di costruzione di FreeCAD](FreeCAD_Build_Tool/it.md)
         -   [Integrazione costante](Continuous_Integration/it.md)

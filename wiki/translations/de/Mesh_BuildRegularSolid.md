@@ -20,7 +20,7 @@ Der Befehl **Mesh RegelgeometrieErstellen** erstellt ein regelmäßiges parametr
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Regelgeometrie...](Mesh_BuildRegularSolid/de.md)** drücken.
-    -   Den Menüeintrag **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regelgeometrie...** auswählen.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regelgeometrie...** auswählen.
 2.  Das Dialogfenster **Regelgeometrie** wird geöffnet.
 3.  Zuerst den Typ des Netzobjekts aus der Ausklappliste auswählen:
     -   

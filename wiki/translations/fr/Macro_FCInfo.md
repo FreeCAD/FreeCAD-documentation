@@ -1,14 +1,16 @@
 # Macro FCInfo/fr
 {{Macro/fr
-|Icon=FCInfo.png
 |Name=Macro FCInfo
+|Name/fr=Macro FCInfo
+|Icon=FCInfo.png
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
-<br />[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/ddfd2254616b8f3127e0d930abe0b322fa99ee6a/FCInfo_fr_Ver_1-27-rmu_Docked.FCMacro Version française]
+<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/da448b70d27ee82c496b04ffb68f5224c653bed1/FCInfo_fr_Ver_1-28c-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.27
-|Date=2023/06/30
+|Download=[https://wiki.freecad.org/images/5/53/FCInfo.png Icône de la barre d'outils]
+|Version=1.28c
+|Date=2023/10/30
 |FCVersion=Toutes
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Prendre des cotes](Arch_Survey/fr.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties/fr.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
+|SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md), [Macro SimpleProperties](Macro_SimpleProperties/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 
 ## Description
@@ -16,7 +18,7 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l\'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d\'une esquisse en mode édition.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/93362d69fe505714b80655756b2a3ba752767975/FCInfo_en_Ver_1-27-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
@@ -25,7 +27,7 @@ Donne des informations sur la forme sélectionnée et peut afficher une conversi
 
 ## Utilisation
 
-Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une série de renseignements s\'affichent. Les calculs sont basés sur l\'unité de FreeCAD, qui est le **mm** à chaque nouvelle sélection, l\'unité de longueur revient toujours sur **mm** et angle sur **degrés décimal**. <img alt="Fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:900px;">
+Sélectionnez un objet et lancez l\'application, ou lancez d\'abord l\'application puis sélectionnez un objet. L\'objet est analysé et une boîte de dialogue s\'ouvre avec les informations recueillies. A chaque nouvelle sélection, l\'unité de longueur est remise à **mm** et l\'unité d\'angle à **degrés décimaux**. <img alt="Fenêtre supérieure" src=images/Macro_FCInfo_06.png  style="width:900px;">
 
 
 
@@ -36,11 +38,13 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
 ![FCInfo Document](images/Macro_FCInfo_Document_00.png )
 
--   Nom du document courant
--   Label de l\'objet
+-   Nom du document
+-   Label et nom interne de l\'objet
 -   Nom interne de l\'objet
--   Sub élément, nom du sous élément
--   Le type d\'objet
+-   Nom du sous-élément et type de l\'objet
+-   Type de l\'objet
+
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_001_Document** pour cacher la boîte)*\'.
 
 
 
@@ -48,8 +52,10 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
 ![FCInfo Coordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
 
--   Coordonnées X,Y et Z à l\'endroit du clic de souris
--   Le **bouton** crée sur le point, l'axe, le plan, copie la forme de l'axe vectoriel à partir de **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+-   Coordonnées X,Y et Z, cliquez sur la souris
+-   Le **button** crée un point, un axe, un plan, copie un axe vectoriel à partir de **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
+
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_002_Coordinate_Mouse** pour cacher la boîte)*\'.
 
 
 
@@ -57,27 +63,43 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
 ![FCInfo Color_on_point](images/Macro_FCInfo_Color_on_point_00.png )
 
--   -   valeur 0,0 à 1,0
+-   Couleur du point cliqué.
+    -   valeur de 0.0 à 1.0
 
--   Cette Line Edit affiche la valeur de couleur dans différents formats: {{LineEdit|"3435973887" , "#cccccc" , "0xcccccc" , "204,204,204" , "(0.8,0.8,0.8)"}}
-    -   **3435973887** : Mode RVBA Int non signé (format dans les préférences FreeCAD) Alpha = 255
-    -   **#cccccc** : Mode RVB Hexadécimal (Qt: `setStyleSheet("color : #cccccc")`)
-    -   **0xcccccc** : Mode RVB Hexadécimal (Python: `hex(0xcccccc`)
-    -   \"**204,204,204** \": RVB décim: Mode RVB (Qt: `setStyleSheet(u"QLineEdit {"background-color: rgb(204, 204, 204)};")`)
-    -   **(0.8,0.8,0.8)** : Flottant RVB : Mode format RVB flottant de 0.0 à 1.0
-    -   (Le nombre de décimales dépend de l\'option *\"x (Decimals)\"*)
+-   Line Edit affiche la valeur de la couleur dans différents formats : {{LineEdit|"3435973887" , "#cccccc" , "0xcccccc" , "204,204,204" , "(0.8,0.8,0.8)"}}
+    -   **3435973887** : mode RVBA Entier non signé (format dans les préférences de FreeCAD) Alpha = 255
+    -   **#cccccc** : mode RVB hexadécimal (Qt : `setStyleSheet("color : #cccccc")`)
+    -   **0xcccc** : mode RVB hexadécimal (Python : `hex(0xcccccc`)
+    -   \"**204,204,204** \" : RVB décimale : mode RVB (Qt : `setStyleSheet(u "QLineEdit {"background-color : rgb(204, 204, 204)} ;")`)
+    -   **(0.8,0.8,0.8)** : RVB flottant : mode RVB format float de 0.0 à 1.0
+    -   (Le nombre de décimales dépend de l\'option *\"x (Décimales)\"*)
 
--    {{CheckBox|Sub.Objet}}: change la couleur de l\'objet ou du sous-objet sélectionné. Si cette case est cochée {{CheckBox|TRUE|Sub.Objet}} la face ou le sous objet sélectionné est modifié ou dupliqué. S\'il n\'est pas activé (par défaut) l\'objet est modifié (couleur) ou dupliqué
+-    {{CheckBox|Sub.Objet}}: change la couleur de l\'objet ou du sous-objet sélectionné. Si cette case est activée {{CheckBox|TRUE|Sub.Objet}} la face ou le sous-objet sélectionné est modifié ou dupliqué. Si elle n\'est pas activée (par défaut) l\'objet est modifié (couleur) ou dupliqué.
 
--    **Coul. Obj**: Changer la couleur de la forme ou du visage selon le choix. Dans le cas d\'un objet Mesh ou Points, l\'objet complet est coloré.
+-    **Coul. Obj**: change la couleur de la forme ou de la face selon le choix. Dans le cas d\'un objet Mesh ou Points, l\'objet complet est coloré.
 
--    **Dupl. Obj**: Duplique le visage ou l\'objet selon l\'option choisie. Dans le cas d\'un objet Mesh ou Points l\'objet complet est coloré. Dupliquer un objet Mesh conserve l\'original et crée une forme solide. Dupliquer un objet Points conserve l\'original et crée une copie.
+-    **Dupl. Obj**: duplique la face ou l\'objet selon l\'option choisie. Dans le cas d\'un objet Mesh ou Points, l\'objet complet est coloré. Dupliquer un objet Mesh conserve l\'original et crée une forme solide. Dupliquer un objet Points conserve l\'original et crée une copie.
 
--    {{SpinBox|0}}: Le degré de transparence de la face ou de l\'objet sélectionné dépend de l\'option choisie **0 = opaque** , **100 = transparent**
+-    {{SpinBox|0}}: degré de transparence de la face ou de l\'objet sélectionné en fonction de l\'option choisie **0 = opaque** , **100 = transparent**
+
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_003_Color** pour cacher la Box)*\'
 
 
 
-### Secteur 4 : Unités 
+### Secteur 4 : Composants Mesh 
+
+![FCInfo Composant Mesh](images/Componant_Mesh_v_1-28.png )
+
+Si la sélection est un objet maillé, une nouvelle fenêtre ***\"Components\"*** est affichée et donne :
+
+-   Edges : nombre d\'arêtes {{LineEdit|9561}}.
+-   Faces : nombre de faces {{LineEdit|6374}}.
+-   Points : nombre de points {{LineEdit|3189}}.
+
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_004_Object_Mesh** pour cacher la Boîte)*\'
+
+
+### Secteur 5 : Unités 
 
 ![FCInfo Units](images/Macro_FCInfo_Units_00.png )
 
@@ -90,9 +112,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
 -   Périmètre de la forme (12). Périmètre de l\'objet et nombre de subObject (Edges) contenus dans l\'objet {{LineEdit|120.0 mm}}.
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_005_Value_Unit** pour cacher la boîte)*\'
 
 
-### Secteur 5: Inclinaison 
+
+### Secteur 6 : Inclinaison 
 
 ![FCInfo Inclination](images/Macro_FCInfo_Inclination_00.png )
 
@@ -119,9 +143,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
         
         ce bouton crée une ligne dans la direction NormalAt de l\'objet.
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_006_Inclination** pour cacher la boîte)*\'
 
 
-### Secteur 6 : Surface et Volume 
+
+### Secteur 7 : Surface et volume 
 
 ![FCInfo Surface and Volume](images/Macro_FCInfo_Surface_and_Volume_00.png )
 
@@ -182,9 +208,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
         
         : enregistre la modification ou le nouveau matériau
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_007_Surface_and_Volume** pour cacher la boîte)*\'
 
 
-### Secteur 7 : Cost 
+
+### Secteur 8 : Coût 
 
 ![FCInfo Cost](images/Macro_FCInfo_Cost_00.png )
 
@@ -198,9 +226,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
 {{SpinBox|10,0000 Eu (par Kg)}}
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_008_Cost_And_Price** pour cacher la boîte)*\'
 
 
-### Secteur 8 : BoundBox 
+
+### Secteur 9 : Boîte englobante 
 
 ![FCInfo BoundBox](images/Macro_FCInfo_BoundBox_00.png )
 
@@ -230,9 +260,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 
     -   Si {{CheckBox|TRUE|Text Dim.}} est coché, la dimension de la spinbox du texte {{SpinBox|3,000}} est opérationnelle pour donner votre valeur *(3.0 par défaut)*
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_009_BoundBox** pour cacher la boîte)*\'
 
 
-### Secteur 9 : Centre de: 
+
+### Secteur 10 : Centre 
 
 ![FCInfo Center of\...](images/Macro_FCInfo_Center_of_00.png )
 
@@ -240,9 +272,11 @@ Sélectionnez un objet ou lancez l\'application et sélectionnez un objet. Une s
 -   Centre de masse et ces coordonnées XYZ
 -   Les **Boutons** créent sur un point, un axe, un plan, copie un axe vectoriel sous forme de **FreeCAD.Vector(-24.0, 240.0, 7.0)** *(voir Secteur 13)*
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_010_Center_Mass** pour cacher la boîte)*\'
 
 
-### Secteur 10 : Inertia 
+
+### Secteur 11 : Centre d\'inertie 
 
 ![FCInfo Inertia](images/Macro_FCInfo_Inertia_00.png )
 
@@ -258,77 +292,99 @@ idem le poids
 -   Determinant 1 : {{LineEdit|4629629629629.633}} calcule le déterminant de la matrice, en [valeur scientifique](https://fr.wikipedia.org/wiki/Notation_scientifique)
 -   Determinant 2 : {{LineEdit|4629629629629.6328125}} calcule le déterminant de la matrice, en valeur décimale
 
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_011_Inertia** pour cacher la boîte)*\'
 
 
-### Secteur 11 : Module désactivé 
+
+### Secteur 12 : Feuille de calcul 
 
 ![FCInfo Disabled](images/Macro_FCInfo_Disabled_module_00.png )
 
--    {{CheckBox|Disabled module}}la fonction est inactive par défaut, un fois activée la fonction copie tous les détails de l\'objet dans un tableur.
+-   La case à cocher {{CheckBox|Disabled module}} permet de rechercher ou non tous les détails de l\'objet. Si elle n\'est pas cochée, seule la valeur principale est affichée.
+-   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector de la Face)
+-   200 lignes maximum dans le tableau, s\'il y a plus de 200 lignes il apparaît *(!+ 200)* et le nombre de lignes
+-   Si l\'objet comporte de nombreux objets, le temps est long et la recherche est répétée à chaque clic de souris. La fonction d\'écriture dans la feuille de calcul incluse, diminue le temps d\'affichage pour cela elle est désactivée par défaut
+-   Les détails complets peuvent être sauvegardés par le bouton **Save** dans un fichier au format CSV et peuvent être visualisés dans le tableur avec le bouton **Read** ou par un tableur externe comme [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) ou autre
 
--   Sommets et détails de la forme (compt_Edge), (compt_Faces), (compt_Vector of the Face)
-
-200 lignes au maximum dans le tableau de FCInfo mais la totalité est copiée dans le cas d\'une sauvegarde dans un fichier, s\'il y a plus de 200 lignes, il apparaît **(!+ 200)** et le nombre réel de lignes.
-Si l\'objet est compliqué avec beaucoup d\'objets, le temps est long et la recherche est répétée à tous les clics de souris. La fonction écriture dans le spreadSheet inclus, diminue le temps d\'affichage c\'est pour cela qu\'il est désactivé par défaut
-(les détails complets peuvent être sauvegardés dans un fichier au format CSV avec le bouton **Sauve** et peut être visualisés dans un tableur avec le bouton **Lire** ou avec un tableur externe comme [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) ou autre).
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_012_SpreadSheet** pour cacher la boîte)*\'.
 
 
 
-### Secteur 12 : SpreadSheet 
+### Secteur 13 : Création d\'une feuille de calcul 
 
 ![FCInfo SpreedSheet](images/Macro_FCInfo_SpreedSheet_00.png )
 
--    **Lire**: lecture des données dans un tableur sauvegardé **.FCInfo** ou txt, asc, csv
+-    **SpreadSheet**: crée une nouvelle feuille de calcul dans un document
 
--    **Sauve**: enregistre les données sur disque sous la forme sélectionnée ci-dessous **.FCInfo** ou txt, asc, csv
+-    {{LineEdit|SpreadSheet}}: la feuille de calcul courante. Si la feuille de calcul n\'existe pas, une feuille de calcul est créée
 
--    {{RadioButton|TRUE|Tabulation}}: le séparateur est Tabulation (par défaut)
+-    **Refresh**: rafraîchir la liste des feuilles de calcul dans le document
 
--    {{RadioButton|Virgule}}: le séparateur est la virgule
+-    {{ComboBox|-}}: le(s) tableur(s) présent(s) dans le document
 
--    {{RadioButton|Point virgule}}: le séparateur est le point-virgule
+-    **Read**: lire les données d\'une feuille de calcul sauvegardée *.FCInfo* ou txt, asc, csv
 
--    {{RadioButton|Espace}}: le séparateur est l\'espace
+-    **Save**: sauvegarde les données sur disque sous la forme sélectionnée ci-dessous *\'.FCInfo* ou txt, asc, csv
 
-Option pour sauvegarder ou lire la feuille de calcul avec différents séparateurs, Tabulation, Virgule, Point-virgule, Espace
+-    {{RadioButton|TRUE|Tabulation}}: le séparateur est la tabulation (par défaut)
+
+-    {{RadioButton|Comma}}: le séparateur est la virgule
+
+-    {{RadioButton|Semicolon}}: le séparateur est le point-virgule
+
+-    {{RadioButton|Space}}: le séparateur est l\'espace
+
+Option pour **sauvegarder** ou **lire** la feuille de calcul avec différents séparateurs, Tabulation, Virgule, Point-virgule, Espace
 La tabulation est le séparateur pour l\'\[Spreadsheet_Workbench/fr\|atelier Spreadsheet\] de FreeCAD
 Le nombre de ces quatre séparateurs est calculé pour aider en cas d\'inconnu
-Les VIRGULES sont les anciens séparateurs de la macro FCInfo (01.16 et avant)
-Maintenant pour la compatibilité avec le tableur FreeCAD et depuis la version 01.17, la TABULATION est le séparateur par défaut
+Les VIRGULES étaient les anciens séparateurs de la macro FCInfo (01.16 et avant)
+Depuis la version 01.17, pour être compatible avec le tableur FreeCAD, la TABULATION est le séparateur par défaut
 Si vous voulez convertir votre ancienne feuille de calcul FCInfo : ouvrez-la dans FCInfo et enregistrez-la avec l\'option Tabulation cochée.
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_013_SpreadSheet_Creation** pour cacher la boîte)*\'.
 
 
 
-### Secteur 13 : Commandes 
+### Secteur 14 : Principales commandes 
 
 ![FCInfo Main](images/Macro_FCInfo_Main_00.png )
 
--    {{CheckBox|Info}}: si cette case est cochée, les informations sont affichées dans la fenêtre de visualisation du rapport.
+-    {{CheckBox|Info}}: si cette case est cochée, les informations sont affichées dans la vue rapport
 
--    {{CheckBox|Point}}: si coché, un point est créé dans la forme de coordonnées affichée : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    {{CheckBox|Point}}: si cette case est cochée, un point est créé dans la forme de coordonnées affichée : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    {{CheckBox|Axes}}: si coché, un axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    {{CheckBox|Axis}}: si cette case est cochée, un axe est créé dans la forme de coordonnées affichée.
 
--    {{CheckBox|Plan}}: si coché, un plan d\'axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    {{CheckBox|Axis}}: si cette case est cochée, un axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
+
+-    {{CheckBox|Plan}}: si cette case est cochée, un plan d\'axe est créé dans le formulaire de coordonnées affiché : **FreeCAD.Vector(-24.0, 240.0, 7.0)**.
 
 -    {{RadioButton|Clip-B0}}: aucun presse-papier
 
--    {{RadioButton|Clip-B1}}: si coché, les coordonnées sont copiées dans le presse-papier Form : **FreeCAD.Vector(X.0, Y.0, Z.0)** Modèle FreeCAD
+-    {{RadioButton|Clip-B1}}: si cette case est cochée, les coordonnées sont copiées dans le clipBoard Forme : **FreeCAD.Vector(X.0, Y.0, Z.0)** Modèle FreeCAD
 
--    {{RadioButton|Clip-B2}}: si coché, les coordonnées sont copiées dans le presse-papier Form : **X, Y, Z** avec séparateur virgule
+-    {{RadioButton|Clip-B2}}: si cette case est cochée, les coordonnées sont copiées dans le clipBoard Form : **X, Y, Z** avec séparateur virgule
 
--    {{RadioButton|Clip-B3}}: si coché les coordonnées sont copiées dans le presse-papier Form : **X Y Z** tel quel avec séparateur d\'espace
+-    {{RadioButton|Clip-B3}}: si cette case est cochée, les coordonnées sont copiées dans le clipBoard Form : **X Y Z** tel quel avec séparateur d\'espace
 
--    {{CheckBox|Left/Right}}: si non coché, les macros de la fenêtre sont affichées à droite (par défaut). Si coché, les macros de la fenêtre sont affichées à gauche.
-    Si l\'option est 1 mode fly *(User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**seTPositionFlyRightLeft**)* ce bouton n\'est pas visible .
+-    {{CheckBox|Left/Right}}: si cette case n\'est pas cochée, les macros de la fenêtre sont affichées à droite (par défaut). Si elle est cochée, les macros de la fenêtre sont affichées à gauche.
 
--    {{SpinBox|4 (Decimales)}}: donner le nombre de décimales a afficher
+Si l\'option est 1 mode fly *(User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**seTPositionFlyRightLeft**)* ce bouton n\'est pas visible.
 
--    {{SpinBox|12 (Dim. texte)}}: donner la dimension du texte de la macro a afficher
+-    {{SpinBox|4 (Decimales)}}: donne le nombre de décimales affichées
 
--    **Raf**: rafraîchit l\'affichage des données dans la vue du rapport
+-    {{SpinBox|12 (Dim. texte)}}: donne la dimension du texte dans la macro
 
--    **Quitte**: quitter correctement la macro
+-    **Forum**: pointe vers le fil du forum FCInfo *(vous devez être connecté à internet)*.
+
+-    **Wiki**: pointe vers le Wiki FCInfo *(vous devez être connecté à internet)*
+
+-    **Ref**: rafraîchir l\'affichage des données dans la vue du rapport
+
+-    **Ref**: rafraîchir l\'affichage des données dans la vue rapport
+
+-    **Exit**: sortir correctement de la macro *(ne pas utiliser la croix rouge de la fenêtre)*
+
+*(vous pouvez cocher à {{false}} la variable **switch_setVisible_GBox_014_Main_Tools** pour cacher la Box)*\'.
 
 Une fois la macro lancée, la macro reste active et la fenêtre reste visible. Il faut quitter la macro par la touche **Quitte**. Si vous quittez par la petite croix, la fenêtre disparaît et la macro reste en mémoire, les données continuent de s\'afficher dans la *vue rapport* de FreeCAD. Vous devrez quitter FreeCAD pour vider la mémoire.
 
@@ -386,113 +442,136 @@ Cliquez deux fois sur l\'image pour voir l\'animation (l\'image doit être en pl
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
 
-#### FCInfo Configuration 
 
--   Location : **Tools \> Edit parameter \> \*User parameter:BaseApp/Preferences/Macros/FCMmacros/FCInfo/**
--   **switchNotInfoOnBeginning** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Display or not this text information on run macro
-        -   \[{{false}}\] = display this information
+
+#### Configuration de FCInfo 
+
+-   Emplacement : **Outils \> Editer les paramètres \> \*Paramètre utilisateur:BaseApp/Préférences/Macros/FCMmacros/FCInfo/**
+-   **switchNotInfoOnBeginning** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Affiche ou non ce texte d\'information lors de l\'exécution de la macro
+        -   \[{{false}}\] = afficher cette information
 
         -   
             {{true}}
             
-            = this Information is Not displayed On Beginning
--   **switchVersionSearch** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Search if one new version exist on run macro
--   **switchWarning** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Display or not display the window warning in case not good selection
--   **switchCreatePoint** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Check the Create point checkBox
--   **switchCreateAxis** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Check the Create axis checkBox
--   **switchCreatePlane** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Check the Create plane checkBox
--   **switchDisplayInfoObject** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Check the info checkBox
--   **switchClearDisplayReportView** **\#** SetBool {{true}} or \[{{false}}\]
-    -   if switchClearDisplayReportView is {{true}} the ReportView is cleared
--   **seTWidgetPosition** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Check the Widget Position Left/Right checkBox
-    -   if seTWidgetPosition \[{{false}}\] : if seTPositionFlyRightLeft = 2 = docked to Right
-    -   if seTWidgetPosition {{true}} : if seTPositionFlyRightLeft = 3 = docked to Left
-    -   if it is 1 the window macro is not docked
--   **switchBoundBoxCreateText** **\#** SetBool {{true}} or \[{{false}}\]
-    -   Create the text dimension of the BoundBox
--   **seTBoundBoxTextHeigth** **\#** seTBoundBoxTextHeigth = 3.0
-    -   Give the Heigth of the text dimension (independent of the seTTextHeigthValue)
+            = cette information n\'est pas affichée au début de l\'exécution de la macro
+-   **switchVersionSearch** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Recherche si une nouvelle version existe lors de l\'exécution de la macro
+-   **switchWarning** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Affiche ou non la fenêtre d\'avertissement en cas de mauvaise sélection
+-   **switchCreatePoint** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Cocher la case Créer un point
+-   **switchCreateAxis** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Cocher la case Créer un axe
+-   **switchCreatePlane** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Cocher la case Créer un plan
+-   **switchDisplayInfoObject** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Cocher la case info
+-   **switchClearDisplayReportView\'\'**#\'\'\' SetBool {{true}} ou \[{{false}}\]
+    -   Si switchClearDisplayReportView est {{true}} le vue rapport est effacée
+-   **seTWidgetPosition** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Cocher la case Position du widget à gauche/droite
+    -   Si seTWidgetPosition \[{{false}}\] : si seTPositionFlyRightLeft = 2 = ancré à droite
+    -   if seTWidgetPosition {{true}} : if seTPositionFlyRightLeft = 3 = ancré à gauche
+    -   si elle vaut 1, la fenêtre de la macro n\'est pas ancrée
+-   **switchBoundBoxCreateText** **\#** SetBool {{true}} ou \[{{false}}\]
+    -   Créer la dimension texte de la case a cocher
+-   **seTBoundBoxTextHeigth** **\#**\' seTBoundBoxTextHeigth = 3.0
+    -   Donne la hauteur de la dimension du texte (indépendamment de la valeur seTTextHeigthValue)
 -   **seTBoundBoxTextArround** **\#** seTBoundBoxTextArround = 3
-    -   Give the arround of the text dimensions (independent of the seTDecimalValue)
+    -   Donne l\'arrondi des dimensions du texte (indépendant de seTDecimalValue)
 -   **seTMemoClipBoard** **\#** SetInt \[0\], 1, 2, 3
-    -   Give one value \[0\], 1, 2, 3 clipBoard
-        -   \[0\] = desactivate the clipBoard
-        -   1 = the data string is memorised to : FreeCAD.Vector( X, Y, Z )
-        -   2 = the data string is memorised to : X, Y, Z
-        -   3 = the data string is memorised to : X Y Z
+    -   Donne une valeur \[0\], 1, 2, 3 presse-papier
+        -   \[0\] = désactiver le presse-papier
+        -   1 = la chaîne de données est mémorisée dans : FreeCAD.Vector( X, Y, Z )
+        -   2 = la chaîne de données est mémorisée dans : X, Y, Z
+        -   3 = la chaîne de données est mémorisée sous la forme de : X Y Z
 -   **seTTextHeigthValue** **\#** SetInt 11
-    -   Give one text heigth value of the macro
+    -   Donne une valeur de hauteur de texte de la macro
 -   **seTDecimalValue** **\#** SetInt 4
-    -   Give the number of decimal displayed
-    -   If the number is -1 the total decimal value is displayed)
--   **seTMaterialCurrentIndex** **\#** SetInt 0
-    -   Set the index of the ComboBox
+    -   Indique le nombre de décimales affichées
+    -   Si le nombre est -1, la valeur des décimales totale est affichée)
+-   **seTMaterialCurrentIndex** **\#**\' SetInt 0
+    -   Définit l\'index de la boîte combinée
 -   **seTMaterialFileName** **\#** SetString FCInfo_material.txt
-    -   Name of the material file
--   **seTMaterialSavePathName** **\#** SetString C:\\\...\\Macro\\FCInfo_material.txt
-    -   Path name of the material file
--   **seTMaterialPrice** **\#** SetFloat
-    -   Material price by Kg
+    -   Nom du fichier du matériau
+-   **seTMaterialSavePathName** **\#** SetString C:\\N- \\N- \\N- \\N- \\N- \\N- \\NMacro\\NFCINfo_material.txt
+    -   Nom du chemin d\'accès au fichier du matériau
+-   **seTMaterialPrice** **\#**\' SetFloat
+    -   Prix du matériau par Kg
 -   **seTMaterialSuffixDevise** **\#** SetString
-    -   Devise money
--   **seTMaterialSuffixCost** **\#** seTMaterialSuffixCost
-    -   Suffix Devise cost
--   **seTMaterialCost** **\#** SetFloat
-    -   Material cost
+    -   Devise de la monnaie
+-   **seTMaterialSuffixCost** **\#**\' seTMaterialSuffixCost
+    -   Coût du dispositif de suffixe
+-   **seTMaterialCost** **\#**\' SetFloat
+    -   Coût du matériau
 -   **seTDensiteValue** **\#** SetFloat 1.0
-    -   Give the densite value
+    -   Donne la valeur de la densite
 -   **seTDensiteDecimalNumber** **\#** SetInt 4
-    -   Give the number of decimal for the densite value
--   **seTDensiteSingleStep** **\#** SetFloat 1.0
-    -   Give the step for one click, by default 1.0 (possible 0.01 or \...)
+    -   Indique le nombre de décimales pour la valeur de la densite
+-   **seTDensiteSingleStep\'\'**#\'\'\' SetFloat 1.0
+    -   Donne le pas pour un clic, par défaut 1.0 (possible 0.01 ou \...)
 -   **seTDensiteSuffixChain** **\#** SetString kg (by dm3)
-    -   Choice your suffix string
--   **seTPositionFlyRightLeft** **\#** SetInt 2
-    -   Choice your position, Fly, \[Right\], Left
-        -   1 = the macro window is fly (not docked)
-        -   \[2\] = the macro window is positioned to Right
-        -   3 or other = the macro window is positioned to Left
--   **seTIndexUnitWeight** **\#** SetInt
-    -   Set unit Weight index
--   **seTUnitSymbolMicro** **\#** U
-    -   Set Symbol Micro
--   **seTUnitSymbolCube** **\#** 3
-    -   Set Symbol Cube
--   **seTUnitSymbolCarre** **\#** 2
-    -   Set Symbol Square
--   **seTIndexUnitLength** **\#** SetInt
-    -   Set unit Length index
+    -   Choisir votre chaîne de suffixe
+-   **seTPositionFlyRightLeft** **\#**\' SetInt 2
+    -   Choisir votre position, Fly, \[Right\], Left
+        -   \[1\] = la fenêtre macro est non dockée
+        -   \[2\] = la fenêtre macro est positionnée à droite
+        -   3 ou autre = la fenêtre macro est positionnée à gauche
+-   **seTIndexUnitWeight** **\#**\' SetInt
+    -   Définit l\'unité Poids de l\'index
+-   **seTUnitSymbolMicro** **\#**\' U
+    -   Définit le symbole Micro
+-   **seTUnitSymbolCube** **\#**\' 3
+    -   Définit le symbole Cube
+-   **seTUnitSymbolCarre** **\#**\' 2
+    -   Définit le symbole Square
+-   **seTIndexUnitLength** **\#**\' SetInt
+    -   Définit l\'unité de longueur de l\'index
 -   **setBSplineToByArcValue** **\#** SetFloat 0.00001
-    -   Set unit for cut the BSpline for seack the radius on point given
+    -   Définit l\'unité de coupe de la BSpline pour saisir le rayon sur le point donné
 -   **setMeshTopologyValue** **\#** SetFloat 0.1
-    -   Set unit for create the Mesh to Shape
--   **switchBSplineCreateCircleConstructorAxis** **\#**SetBool {{true}} or \[{{false}}\]
-    -   Display the axis of the circles (arcs) for create the BSpline
--   **switchBSplineCreateCircleConstructor** **\#**SetBool {{true}} or \[{{false}}\]
-    -   Display the circles cretors for create the BSpline
--   **switchCreateLineDiVatNatOnClick** **\#**SetBool {{true}} or \[{{false}}\]
-    -   Create the Line info on point (0,0,0) or on point mouse clicked (x,y,z) if it is {{true}}
-    -   If it is {{true}} one \'\*\' is displayed in front of text. EX: \'\*Direction\'
+    -   Définit l\'unité de création de la maille à la forme
+-   **switchBSplineCreateCircleConstructorAxis** **\#**SetBool {{true}} ou \[{{false}}\]
+    -   Affiche l\'axe des cercles (arcs) pour créer la B-spline
+-   **switchBSplineCreateCircleConstructor** **\#**SetBool {{true}} ou \[{{false}}\]
+    -   Affiche les créateurs de cercles pour créer la B-spline
+-   **switchCreateLineDiVatNatOnClick** **\#**SetBool {{true}} ou \[{{false}}\]
+    -   Créer l\'information de la ligne au point (0,0,0) ou au point cliqué par la souris (x,y,z) si c\'est {{true}}
+    -   Si c\'est {{true}}, un \'\*\' est affiché devant le texte. EX : \'\*Direction\'
+
+*(section GroupBox)* vous permet de n\'afficher que la ou les section(s) souhaitées (uniquement visuelles) {{False}} ou {{True}}.
+
+Tous les calculs sont fait sans tenir conte de cette option
+
+-   section GroupBox begin
+    -   **switch_setVisible_GBox_001_Document** = True (1)
+    -   **switch_setVisible_GBox_002_Coordinate_Mouse** = True (1)
+    -   **switch_setVisible_GBox_003_Color** = True (1)
+    -   **switch_setVisible_GBox_004_Object_Mesh** = True (1)
+    -   **switch_setVisible_GBox_005_Value_Unit** = True (1)
+    -   **switch_setVisible_GBox_006_Inclination** = True (1)
+    -   **switch_setVisible_GBox_007_Surface_and_Volume** = True (1)
+    -   **switch_setVisible_GBox_008_Cost_And_Price** = True (1)
+    -   **switch_setVisible_GBox_009_BoundBox** = True (1)
+    -   **switch_setVisible_GBox_010_Center_Mass** = True (1)
+    -   **switch_setVisible_GBox_011_Inertia** = True (1)
+    -   **switch_setVisible_GBox_012_SpreadSheet** = True (1)
+    -   **switch_setVisible_GBox_013_SpreadSheet_Creation** = True (1)
+    -   **switch_setVisible_GBox_014_Main_Tools** = True (1)
+-   section GroupBox end
 
 ## Script
 
 Copiez le contenu de la macro dans un fichier nommé \"FCInfo.FCMacro\"
 
--   Windows: habituellement **\" drive:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**.
+-   Windows : habituellement **\" drive:\\Users\\your_user_name\\AppData\\Roaming\\FreeCAD\\ \"**.
 -   Ubuntu : habituellement **\" /home/your_user_name/.FreeCAD \"**.
 
 Ou, directement dans l\'interface de FreeCAD.
 Les icônes doivent se trouver dans le même répertoire que la macro.
 Télécharger les images en vous positionnant sur les icônes <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> puis faites clic droit de la souris \"Enregistrer l\'image sous\" (ne pas modifier le nom)
-**PS: le code est trop long pour être contenu dans la page du wiki (pour le moment les pages du wiki n\'acceptent que 64 KB). Le code de la macro a été placé dans le forum**
+**PS : le code est trop long pour être contenu dans la page du wiki (pour le moment les pages du wiki n\'acceptent que 64 KB). Le code de la macro a été placé dans le forum**
 
 Téléchargez le fichier FCInfo **docké à droite**
 
@@ -500,7 +579,7 @@ Téléchargez le fichier FCInfo **docké à droite**
 {{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|Dernière version de Macro_FCInfo}}
 
 (Ou **[sur le forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
-**PS:** Cette macro utilise la fonction **getSelection()** et la liste des objets commence à 1 ex: pour un cube **Edge1 à Edge12** (arêtes) et le code qui liste les arêtes dans la console Python commence à 0 ex: pour un cube **Edge\[0\] à Edge\[11\]**
+**PS :** cette macro utilise la fonction **getSelection()** et la liste des objets commence à 1 ex: pour un cube **Edge1 à Edge12** (arêtes) et le code qui liste les arêtes dans la console Python commence à 0 ex: pour un cube **Edge\[0\] à Edge\[11\]**
 Cette différence est tout à fait normale, le compteur de la liste/tableau dans OpenCascade commence toujours à **1 et pas à 0**.
 
 ### Limitations
@@ -522,6 +601,10 @@ en projet :
 ~~incrustation à droite dans l\'interface de FreeCAD~~ fait
 
 ## Version
+
+ver 1.28b 1.28c 2023/10/30 orthographe
+
+ver 1.28 01/09/2023 modifié le nom des variables, possibilité de masquer chaque secteur, sauvegarder les données directement dans le document, le rayon de la surface, ajouter un bouton webWiki et webForum
 
 ver 1.27 2023/06/30 optimiser la feuille de style, corriger la position gauche/droite et restaurer la vue après l\'édition du sketcher 
 ```python

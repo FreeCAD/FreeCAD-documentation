@@ -1,4 +1,7 @@
 # Macro screw maker1 2/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro_screw_maker1_2
 |Translate=Macro_screw_maker1_2
@@ -11,12 +14,31 @@
 |Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png Icona per la ToolBar]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
-Questa macro crea una vite oppure un bullone, con o senza la filettatura, secondo le norme ISO. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+Questa macro crea una vite oppure un bullone, con o senza la filettatura, secondo le norme ISO.
+
+
+</div>
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
 
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
 *Screw maker*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
@@ -36,9 +58,26 @@ Quando si seleziona una combinazione di proprietà non disponibile l\'utente vie
 
 Creare il filetto richiede molto tempo. Siate pazienti e date un\'occhiata all\'utilizzo della CPU.
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Codice
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro è disponibile all\'indirizzo [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

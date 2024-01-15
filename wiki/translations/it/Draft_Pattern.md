@@ -1,53 +1,50 @@
 # Draft Pattern/it
 ## Descrizione
 
+Gli oggetti [Draft](Draft_Workbench/it.md) con una proprietà **Make Face** possono visualizzare un modello SVG invece di un colore a tinta unita della faccia.
 
-<div class="mw-translate-fuzzy">
-
-Tutti gli oggetti Draft chiudibili, come [rettangolo](Draft_Rectangle.md), [cerchio](Draft_Circle.md), [ellisse](Draft_Ellipse.md), [polilinee](Draft_Wire.md) o [poligoni](Draft_Polygon.md), quando sono chiusi e visualizzati in \"Flat Lines\", possono essere riempiti con un modello di tratteggio, al posto del colore della faccia, impostando la loro proprietà \"Pattern\".
-
-
-</div>
-
-![](images/DraftPatternSample.png )
+![](images/DraftPatternSample.png ) 
+*Un'ellisse e un poligono con un modello SVG*
 
 
-<div class="mw-translate-fuzzy">
-
-![](images/DraftPatternSample.png )
-
-
-</div>
 
 ## Utilizzo
 
+1.  Assicurarsi che gli oggetti siano chiusi e planari e non si intersechino.
+2.  Per chiudere una [Draft Polilinea](Draft_Wire/it.md), una [Draft BSpline](Draft_BSpline/it.md), una [Draft Curva di Bézier cubica](Draft_CubicBezCurve/it.md) o una \[\[Draft_BezCurve/it\|Draft Curva di Bézier
 
-<div class="mw-translate-fuzzy">
+\]\] impostare la sua proprietà **Closed** su `True`.
 
-1.  Selezionare l\'oggetto
-2.  In Vista combinata → Dati: impostare true per Make Face in modo da dare all\'oggetto una faccia riempibile con il tratteggio
-3.  In Vista combinata → Vista → Pattern: specificare un modello di tratteggio con cui riempire il contorno
-4.  In Vista combinata → Vista → Pattern Size: specificare la dimensione del tratteggio
+1.  Per chiudere un [Draft Cerchio](Draft_Circle/it.md) o una [Draft Ellisse](Draft_Ellipse/it.md) impostare le sue proprietà **First Angle** e **Last Angle** sullo stesso valore.
+2.  Selezionare gli oggetti.
+3.  Passare alla scheda **Visualizza** dell\'[Editor di proprietà](Property_editor.md).
+4.  La **Modalità di visualizzazione** deve essere impostata su {{Value|Flat Lines}}.
+5.  Selezionare un **Pattern**.
+6.  Facoltativamente, modificare la **Pattern Size**. Si noti che un valore più elevato determina un modello più denso.
+7.  Il motivo non viene visualizzato quando gli oggetti vengono selezionati. Deselezionarli per verificare il risultato.
+8.  Facoltativamente riselezionare gli oggetti per modificare le proprietà del modello.
 
 
-</div>
 
-## Available patterns 
+## Campiture Disponibili 
 
 Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General_steel.svg\|general_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
-## Notes
 
--   SVG patterns are stored in **.SVG** files. It is possible to use your own custom patterns. See [Preferences](#Preferences.md).
--   The patterns themselves are not saved in the FreeCAD document. Objects whose **Pattern** cannot be found are displayed with a solid face color instead.
 
-## Preferences
+## Note
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   I modelli SVG sono archiviati nei file **.SVG**. È possibile utilizzare i propri modelli personalizzati. Vedere [Preferenze](#Preferenze.md).
+-   I modelli stessi non vengono salvati nel documento di FreeCAD. Gli oggetti il ​​cui **Pattern** non può essere trovato vengono invece visualizzati con un colore della faccia a tinta unita.
 
--   To specify a directory with addition SVG patterns: **Edit → Preferences... → Draft → Visual settings → Alternate SVG patterns location**. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path. After changing this preference you must restart FreeCAD.
--   The **Edit → Preferences... → Draft → Visual settings → SVG pattern resolution** preference is not used.
--   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual settings → SVG pattern default size**.
+
+
+## Preferenze
+
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+
+-   Per modificare la **Pattern Size** utilizzata per i nuovi oggetti: **Modifica → Preferenze... → Draft → Visualizzazione → Dimensione della campitura SVG**.
+-   Per specificare una directory con campiture SVG aggiuntive: **Modifica → Preferenze... → Draft → Visualizzazione → Posizione aggiuntiva delle campiture SVG**.
 
 
 

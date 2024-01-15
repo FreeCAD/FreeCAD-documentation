@@ -1,9 +1,7 @@
 ---
  GuiCommand:
-
    Name: Std ViewDockUndockFullscreen
    Nam/pl: Std: Zadokuj / Oddokuj okno
-   Empty: 1
    MenuLocation: Widok , Okno dokumentu , Zadokowany / Niezadokowany
    Workbenches: wszystkie
    Shortcut: **V** **D** / **V** **U**
@@ -12,18 +10,26 @@
 
 # Std ViewDockUndockFullscreen/pl
 
+
+
 ## Wprowadzenie
 
 Okna [widoków 3D](3D_view/pl.md) mogą być odłączane od głównego [interfejsu FreeCAD](Interface/pl.md) i przenoszone na przykład na inny ekran.
 
-![](images/FinestraNonAgganciata.png ) 
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
 *Oddokowane okno widoku 3D*
 
+
+
 ## Zablokowane
+
+
 
 ### Opis
 
 Opcja menu **Zadokowany** powoduje zadokowanie aktywnego okna [widoku 3D](3D_view/pl.md) wewnątrz głównego interfejsu programu FreeCAD.
+
+
 
 ## Użycie
 
@@ -33,11 +39,17 @@ Opcja menu **Zadokowany** powoduje zadokowanie aktywnego okna [widoku 3D](3D_vie
     -   Wybierz opcję **Okno dokumentu → Zadokowany** z menu kontekstowego okna widoku 3D.
     -   Użyj skrótu klawiaturowego: **V**, a następnie **D**.
 
+
+
 ## Odblokowane
+
+
 
 ### Opis 
 
 Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D_view/pl.md) od głównego interfejsu programu FreeCAD.
+
+
 
 ## Użycie 
 
@@ -46,6 +58,8 @@ Opcja menu **Niezadokowany** powoduje odłączenie aktywnego okna [widoku 3D](3D
     -   Jeśli nie ma zadokowanych widoków 3D: wybierz z menu opcję **Widok → Okno dokumentu → Niezadokowany**.
     -   Wybierz opcję **Okno dokumentu → Niezadokowany** z menu kontekstowego okna widoku 3D.
     -   Użyj skrótu klawiaturowego: **V**, a następnie **U**.
+
+
 
 ## Uwagi
 

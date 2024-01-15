@@ -27,9 +27,9 @@ Jeśli przynajmniej jeden z profili ma inną liczbę segmentów, stosuje się na
 
 Operację tę rozszerzamy na wszystkie profile, by uzyskać równą liczbę odcinków. Całkowita liczba odcinków w każdym profilu będzie równa sumie wszystkich liczb odcinków wszystkich profili *(pod warunkiem, że żaden z wierzchołków nie znajdzie się pod tym samym kątem polarnym)*.
 
-   
-  <img alt="Proces krojenia profilu2 *(biały półksiężyc)* w celu utworzenia połączeń odpowiadających wierzchołkom profilu1 *(fioletowy pięciokąt)*. Wstawione złącza są oznaczone żółtymi strzałkami." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Wynik wyciągnięcia odpowiedni dla rysunku po lewej stronie." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-   
++++
+| <img alt="Proces krojenia profilu2 *(biały półksiężyc)* w celu utworzenia połączeń odpowiadających wierzchołkom profilu1 *(fioletowy pięciokąt)*. Wstawione złącza są oznaczone żółtymi strzałkami." src=images/Loft-vertex-insertion.png  style="width:300px;"> | <img alt="Wynik wyciągnięcia odpowiedni dla rysunku po lewej stronie." src=images/Loft_crescent_pentagon.png  style="width:300px;"> |
++++
 
 
 
@@ -77,8 +77,9 @@ Zauważ, że Wyciągnięcie ma właściwość \"Prostokreślnie\". Jeśli jest o
 -   W przypadku wyciągnięcia nie jest wymagane, aby profile były rozdzielone *(patrz zdjęcie poniżej)*. Mogą być koplanarne, ale nie powinny się przecinać.
 -   Gdy właściwość \"zamknięty\" wyciągnięcia ma wartość {{True/pl}}, we wszystkich krzywych tworzących wyciągnięcie po profilach znajduje się połączenie wierzchołkowe *(patrz rysunek poniżej)*. Nie ma teraz niezawodnego sposobu na płynne zamknięcie wyciągnięcia.
 
-    
-  <img alt="Nie jest wymagane, aby profile były równoległe." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="W wyciągnięciu, profile mogą być współosiowe. W tym przykładzie dwa z trzech profili są współpłaszczyznowe." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Przykład zamkniętego wyciągnięcia pomiędzy trzema pięciokątnymi profilami (biały). Należy zwrócić uwagę na niezbyt gładką spoinę na skrajnym profilu. Jest to pierwszy profil w zamkniętym poddaszu." src=images/Loft-closed.png  style="width:300px;">
+++++
+| <img alt="Nie jest wymagane, aby profile były równoległe." src=images/Loft_nonparallel.png  style="width:300px;"> | <img alt="W wyciągnięciu, profile mogą być współosiowe. W tym przykładzie dwa z trzech profili są współpłaszczyznowe." src=images/Loft_Coplanar.png  style="width:300px;"> | <img alt="Przykład zamkniętego wyciągnięcia pomiędzy trzema pięciokątnymi profilami (biały). Należy zwrócić uwagę na niezbyt gładką spoinę na skrajnym profilu. Jest to pierwszy profil w zamkniętym poddaszu." src=images/Loft-closed.png  style="width:300px;"> |
+++++
 
 
 

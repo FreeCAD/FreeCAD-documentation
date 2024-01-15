@@ -1,13 +1,12 @@
 # Macro Print SceneGraph
 {{Macro
 |Name=Macro_Print_SceneGraph
-|Icon=Macro_Print_SceneGraph.png
 |Description=This macro traverses the SceneGraph and prints all the nodes and their fields in the Report View window. It can be used just for information or you can add code to modify parts of the SceneGraph in some way or print more details for particular types of node.
 |Author=Aleph0
 |Version=00.03
 |Date=2017-10-24
 |FCVersion=0.16.6703
-|Download=[https://www.freecadweb.org/wiki/images/0/0b/Macro_Print_SceneGraph.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/0/0b/Macro_Print_SceneGraph.png ToolBar Icon]
 }}
 
 ## Description

@@ -1,20 +1,25 @@
 ---
  GuiCommand:
    Name: FEM ClippingPlaneRemoveAll
-   MenuLocation: Utilities , Remove all clipping planes
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Usuń wszystkie płaszczyzny cięcia
+   MenuLocation: Narzędzia , Usuń wszystkie płaszczyzny cięcia
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ClippingPlaneRemoveAll/pl
 
-## Description
 
-Removes all existing [clipping planes](FEM_ClippingPlaneAdd.md).
 
-## Usage
+## Opis
 
-Either use the toolbar button <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:16px;"> or the menu **Utilities → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Remove all clipping planes**.
+Usuwa wszystkie istniejące [płaszczyzny cięcia](FEM_ClippingPlaneAdd/pl.md).
+
+
+
+## Użycie
+
+Wciśnij przycisk <img alt="" src=images/FEM_ClippingPlaneRemoveAll.svg  style="width:16px;"> lub wybierz opcję **Narzędzia → <img src="images/FEM_ClippingPlaneRemoveAll.svg" width=16px> Usuń wszystkie płaszczyzny cięcia** z menu.
 
 
 

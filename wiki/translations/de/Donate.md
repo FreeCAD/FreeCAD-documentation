@@ -2,9 +2,8 @@
 Unten werden mehrere Möglichkeiten dargestellt, die zurzeit vom Projekt unterstützt werden. Zur Erinnerung: Es wird nie nötig sein, Geld zu bezahlen, um FreeCAD zu nutzen, zu studieren, zu vertreiben oder weiterzuentwickeln. Aber Spenden helfen FreeCAD und seinen Entwicklern dabei, Zeit und Ressourcen zu opfern, um das Projekt schneller und weiter wachsen zu lassen.
 
    --  -- 
-   <img alt="" src=images/Liberapay_logo.svg  style="width:128px;"> [FreeCAD LiberaPay team](https://liberapay.com/FreeCAD) (recommended)      <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width:128px;"> [PayPal](https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q)                    <img alt="" src=images/SepaLogoEN.jpg  style="width:128px;"> SEPA bank transfer: IBAN BE04 0019 2896 4531
-                   <img alt="" src=images/GitHub.svg  style="width:128px;"> [GitHub sponsor](https://github.com/sponsors/FreeCAD)                                 <img alt="" src=images/Opencollective_logo.svg  style="width:128px;"> [OpenCollective](https://opencollective.com/freecad)                  <img alt="" src=images/Bountysource_logo.png  style="width:128px;"> [Bountysource](https://app.bountysource.com/teams/freecad)
-             <img alt="" src=images/Stripe-logo.png  style="width:128px;"> [Stripe](https://donate.stripe.com/14k3ei9TYgwFclq145)                                                                                                                                                                     
+   <img alt="" src=images/Liberapay_logo.svg  style="width:128px;"> [FreeCAD LiberaPay team](https://liberapay.com/FreeCAD) (recommended)      <img alt="" src=images/PayPal_Logo_Icon_2014.svg  style="width:128px;"> [PayPal](https://www.paypal.com/donate/?hosted_button_id=M3Z8BGW6DB69Q)            <img alt="" src=images/SepaLogoEN.jpg  style="width:128px;"> SEPA bank transfer: IBAN BE04 0019 2896 4531
+                   <img alt="" src=images/GitHub.svg  style="width:128px;"> [GitHub sponsor](https://github.com/sponsors/FreeCAD)                                 <img alt="" src=images/Opencollective_logo.svg  style="width:128px;"> [OpenCollective](https://opencollective.com/freecad)                  <img alt="" src=images/Stripe-logo.png  style="width:128px;"> [Stripe](https://donate.stripe.com/14k3ei9TYgwFclq145)
    --  -- 
 
 Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu programmieren, wie z.B. Mitarbeit an der Dokumentation, der Übersetzung oder daran neuen Anwendern zu helfen ihren Weg zu finden. Siehe Seite [FreeCAD Unterstützen](Help_FreeCAD/de.md), um mehr zu erfahren.
@@ -22,8 +21,6 @@ Es gibt auch immer andere Wege zu helfen, anstatt Geld zu spenden oder zu progra
 -   <img alt="" src=images/Opencollective_logo.svg  style="width:24px;"> FreeCAD has an official [OpenCollective PayPal account](https://opencollective.com/freecad) where you can donate any amount, one time only or recurrently, via credit card, SEPA transfer or Paypal. The OpenCollective account is managed by the [FPA](https://github.com/FreeCAD/FPA). OpenCollective is a good option as it is independent and used by many open-source projects. OpenCollective is also a [501(c)](https://en.wikipedia.org/wiki/501(c)_organization) non-profit organization and can issue [donation receipts](https://docs.opencollective.com/help/financial-contributors/receipts) useful for US taxpayers.
 
 -   <img alt="" src=images/_GitHub.svg  style="width:24px;"> [GitHub sponsors](https://github.com/sponsors/FreeCAD) is a sponsoring platform offered by GitHub, where the FreeCAD source code is hosted. There you can donate any amount monthly to FreeCAD, via credit card or Paypal. The GitHub sponsors account is managed by the [FPA](https://github.com/FreeCAD/FPA).
-
--   <img alt="" src=images/Bountysource_logo.png  style="width:24px;"> FreeCAD hat ein offizielles [Bountysource](https://salt.bountysource.com/teams/freecad)-Konto; spende Geld für das FreeCAD-Projekt als Ganzes, oder biete eine \"Prämie\" an, um ein bestimmtes Problem oder einen Fehler zu beheben. Dies ist eine interessante Option, da deine Spende gezielt in einem bestimmten Bereich eingesetzt werden kann. Allerdings ist die Verwendung des Bountysource-Geldes für uns ein komplexerer Prozess, und es könnte eine Verzögerung zwischen der Spende und der effektiven Verwendung deiner Spende geben. **Warnung**: Es gab aktuell eine Serie von Problemen bezüglich bountysource und wir empfehlen derzeit nicht diese Plattform zu nutzen. Wir empfehlen auf ihrer [wikipedia-Seite](https://en.wikipedia.org/wiki/Bountysource) nach aktuellen Informationen zu suchen.
 
 -   <img alt="" src=images/Stripe-logo.png  style="width:24px;"> FreeCAD has a [Stripe donation account](https://donate.stripe.com/14k3ei9TYgwFclq145) where you can make a one-time donation via a credit card.
 
@@ -63,7 +60,7 @@ To encourage persons and companies to sponsor the FreeCAD project, we have creat
 -   🥈 Silver sponsor: from 100 USD / 100 EUR per month. Allows you to have your name or company name displayed on the [sponsors page](https://www.freecad.org/sponsor.php), with a link to your website, and a one-line description text.
 -   🥇 Gold sponsor: from 200 USD / 200 EUR per month. Allows you to have your name or company name and logo displayed on the [sponsors page](https://www.freecad.org/sponsor.php), with a link to your website and a custom description text. Companies that have helped FreeCAD early on will also appear under Gold sponsors.
 
-Instead of donating each month, you might find it more comfortable to make a one-tine donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don\'t hesitate to do so!
+Instead of donating each month, you might find it more comfortable to make a one-time donation that, when divided by twelve, would give you right to enter a sponsoring tier. Don\'t hesitate to do so!
 
 
 

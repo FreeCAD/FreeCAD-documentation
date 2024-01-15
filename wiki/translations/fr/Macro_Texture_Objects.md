@@ -1,12 +1,13 @@
 # Macro Texture Objects/fr
 {{Macro/fr
 |Name=Texture Objects
+|Name/fr=Texture Objects
 |Icon=Macro_Texture_Objects.png
 |Description=Cette macro permet de mettre temporairement une image qui servira de texture sur les objets sélectionnés. Pour supprimer les textures, Fermez simplement le document et rouvrez le.
 |Author=yorik
-|Version=1.0
-|Date=2011-10-13
-|Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icône de la barre d'outils]
+|Version=1.1
+|Date=2023-12-08
+|Download=[https://wiki.freecad.org/images/d/da/Macro_Texture_Objects.png Icône de la barre d'outils]
 |FCVersion=0.18 et en dessous
 }}
 
@@ -28,7 +29,7 @@ from PySide import QtGui
 from pivy import coin
 
 # get a jpg filename
-jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open image file','*.jpg')
+jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),'Open image file','*.jpg')
 
 # apply textures
 for obj in FreeCADGui.Selection.getSelection():
@@ -38,6 +39,8 @@ for obj in FreeCADGui.Selection.getSelection():
     rootnode.insertChild(tex,1)
 
 }}
+
+
 
 ## Liens
 

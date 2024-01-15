@@ -11,7 +11,7 @@
 
 ## Description
 
-This equation describes the nonlinear elastic deformation of rigid bodies.
+This equation describes the nonlinear elastic deformation of solid bodies.
 
 For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Finite Elasticity*.
 
@@ -41,27 +41,27 @@ The deformation equation provides these special settings:
 
 -    **Neo Hookean Model**: Uses the neo-Hookean material model.
 
--    **Variable**: The variable for the elasticity equation. Change there the *3* to *2* if you have a 2D geometry. For the special case that you have **Mixed Formulation** and **Neo Hookean Model** set to *true*, the variable number must be geometry dimensions + 1, so for 3D geometry the *3* must be changed to *4*.
+-    **Variable**: The variable for the deformation equation. Change there the *3* to *2* if you have a 2D geometry. For the special case that you have **Mixed Formulation** and **Neo Hookean Model** set to *true*, the variable number must be geometry dimensions + 1, so for 3D geometry the *3* must be changed to *4*.
 
 Equation:
 
 -    **Plane Stress**: Computes solution according to the plane stress situation. Applies only for 2D geometry.
 
-## Constraint Information 
+## Analysis Feature Information 
 
-The elasticity equation takes the following constraints into account if they are set:
+The deformation equation takes the following analysis features into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md)
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md)
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md)
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md)
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Fixed boundary condition](FEM_ConstraintFixed.md)
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Displacement boundary condition](FEM_ConstraintDisplacement.md)
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Force load](FEM_ConstraintForce.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Initial temperature condition](FEM_ConstraintInitialTemperature.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Pressure load](FEM_ConstraintPressure.md)
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Gravity load](FEM_ConstraintSelfWeight.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md)
 
 ### Note
 
--   Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+-   Except for calculations in 2D, for all the above analysis features it is important that they act on a face. Features in 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Results
 

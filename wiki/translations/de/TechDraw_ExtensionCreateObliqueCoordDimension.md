@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:24px;"> **TechDraw ErgänzungSchrägeKoordinatenmaße** erzeugt eine schräge Stufenbemaßung: mehrere Maße in gleichem Abstand mit der gleichen Basislinie.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungSchrägeKoordinatenmaße** erzeugt eine schräge Stufenbemaßung: mehrere Maße in gleichem Abstand mit der gleichen Basislinie.
 
 <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensionExample.png  style="width:400px;"> 
 *Rechts die erzeugten Maße*
@@ -30,20 +24,14 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimensio
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional kann der Abstand zwischen den Maßen mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes.md) definiert werden.
+1.  Wahlweise kann der Abstand zwischen den Maßen mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) festgelegt werden.
 2.  Drei oder mehr Knotenpunkte auswählen.
 3.  Die Reihenfolge der Auswahl der beiden ersten Knotenpunkte bestimmt die Position der Basislinie. Wenn der erste gewählte Knotenpunkt links vom zweiten liegt, dann ist die Basislinie beim ganz linken Knotenpunkt , sonst beim ganz rechten Knotenpunkt.
 4.  Die beiden zuerst gewählten Knotenpunkte bestimmen auch die Richtung der Maße.
 5.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Schräge Koordinatenmaße erstellen](TechDraw_ExtensionCreateObliqueCoordDimension.md)** drücken.
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> [Schräge Koordinatenmaße erstellen](TechDraw_ExtensionCreateObliqueCoordDimension/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Maße → <img src="images/TechDraw_ExtensionCreateObliqueCoordDimension.svg" width=16px> Schräge Koordinatenmaße erstellen** auswählen.
 6.  Stufenmaße mit zentrierten Maßzahlen werden eingefügt.
-
-
-</div>
 
 
 

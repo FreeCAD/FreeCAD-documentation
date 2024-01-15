@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Arch Panel
    Name/de: Arch Platte
-   MenuLocation: Arch , Panel tools , Platte
+   MenuLocation: Arch , Plattenwerkzeuge , Platte
    Workbenches: Arch_Workbench/de
    Shortcut: **P** **A**
    Version: 0.15
@@ -12,50 +12,50 @@
 # Arch Panel/de
 
 
-</div>
 
 ## Beschreibung
 
-Mit diesem Werkzeug kannst du alle Arten von platten-artigen Elementen bauen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http://www.wikihouse.cc/) Projekt, aber auch für alle Arten von Objekten, die auf einem flachen Profil basieren.
+Dieses Werkzeug ermöglicht alle Arten von platten-artigen Elementen zu erstellen, typischerweise für Plattenkonstruktionen wie das [WikiHouse](http://www.wikihouse.cc/)-Projekt, aber auch für alle Arten von Objekten, die auf einem ebenen Profil basieren.
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:700px;">
 
-*Das obige Bild zeigt eine Reihe von Plattenobjekten, die einfach aus importierten 2D Konturen aus einer DXF Datei erstellt wurden. Sie können dann gedreht und zusammengesetzt werden, um Strukturen zu erzeugen.*
+*Das obige Bild zeigt eine Reihe von Plattenobjekten, die einfach aus importierten 2D-Konturen aus einer DXF-Datei erstellt wurden. Sie können dann gedreht und zusammengesetzt werden, um Strukturen zu erzeugen.*
 
-Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gewellten oder trapezförmigen Profilen verwendet werden.
+Seit {{VersionPlus/de|0.17}} kann Arch Platte auch zur Erstellung von gewellten oder trapezförmigen Profilen verwendet werden:
 
 <img alt="" src=images/Arch_panel_wave.jpg  style="width:700px;">
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine 2D Form (Entwurfsobjekt, Fläche oder Skizze) - optional
-2.  Drücke die **<img src="images/Arch_Structure.svg" width=16px>[Arch Tafel](Arch_Panel/de.md)** Schaltfläche oder die **P** und **A** Tasten.
-3.  Passe die gewünschten Eigenschaften an.
+1.  Eine 2D-Form auswählen (Draft-Objekt, Fläche oder Skizze) - optional
+2.  Die Schaltfläche **<img src="images/Arch_Panel.svg" width=16px>[Arch Platte](Arch_Panel/de.md)** drücken oder das Tastaturkürzel **P** dann **A**.
+3.  Die gewünschten Eigenschaften anpassen.
 
 
-</div>
 
 ### Begrenzungen
 
--   Es gibt derzeit kein automatisches System zur Herstellung von 2D Schnittplatten aus Plattenobjekten, aber eine solche Funktion ist in den Plänen enthalten und wird in Zukunft hinzugefügt werden.
+-   Es gibt derzeit kein automatisches System zur Herstellung von 2D-Schnittbögen aus Plattenobjekten, aber eine solche Funktion ist in Planung enthalten und wird in Zukunft hinzugefügt werden.
+
+
 
 ## Optionen
 
+-   Platten teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md).
 
-<div class="mw-translate-fuzzy">
+-   Die Wandstärke einer Platte kann nach der Erstellung angepasst werden.
 
--   Tafeln teilen die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md).
--   Die Dicke einer Tafel kann nach der Erstellung angepasst werden.
--   Drücke **Esc** or the **Cancel** Schaltfläche, um den aktuellen Befehl abzubrechen.
--   Durch Doppelklicken auf die Tafel in der Baumansicht nach seiner Erstellung kannst du in den Bearbeitungsmodus wechseln und auf seine Additionen und Subtraktionen zugreifen und diese ändern.
--   Es ist möglich, automatisch Tafeln zu erstellen, die aus mehr als einem Blech eines Materials zusammengesetzt sind, indem man seine Blecheigenschaft erhöht.
--   Tafeln können <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [Mehrfachmaterial](Arch_MultiMaterial/de.md) n Anspruch nehmen. Wenn ein Mehrfachmaterial verwendet wird, wird die Platte mehrschichtig, wobei die durch das Mehrfachmaterial vorgegebenen Dicken verwendet werden. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den eigenen Dickenwert der Tafel definiert ist, nachdem die anderen Schichten abgezogen wurden.
+-    **Esc**oder die Schaltfläche **Cancel** drücken, um den aktuellen Befehl abzubrechen.
+
+-   Nach ihrer Erstellung kann durch Doppelklicken auf die Platte in der Baumansicht in den Bearbeitungsmodus gewechselt werden und so auf ihre Ergänzungen und Subtraktionen zugegriffen werden, um diese zu ändern.
+
+-   Es ist möglich, automatisch Platten zu erstellen, die aus mehr als einer Lage eines Materials zusammengesetzt sind, indem man den Wert ihrer Eigenschaft Sheets erhöht.
+
+-   Platten können <img alt="" src=images/Arch_MultiMaterial.svg  style="width:24px;"> [Mehrfachmaterial](Arch_MultiMaterial/de.md) in Anspruch nehmen. Wenn ein Mehrfachmaterial verwendet wird, wird die Platte mehrschichtig, wobei die durch das Mehrfachmaterial vorgegebenen Dicken verwendet werden. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den eigenen Dickenwert der Tafel definiert ist, nachdem die anderen Schichten abgezogen wurden.
 
 
-</div>
 
 ## Eigenschaften
 
@@ -79,10 +79,7 @@ Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gew
 
 -    **Untere Welle**: Wenn die untere Welle der Tafel flach ist oder nicht
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -90,9 +87,6 @@ Seit Version <small>(v0.17)</small>  kann Arch Tafel auch zur Erstellung von gew
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
 
 Das Plattenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
 ```python
@@ -111,15 +105,11 @@ Rect = Draft.makeRectangle(1000, 400)
 Panel = Arch.makePanel(Rect, thickness=36)
 ```
 
+
+
 ## Tutorien
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
-
-
-</div>
 
 
 

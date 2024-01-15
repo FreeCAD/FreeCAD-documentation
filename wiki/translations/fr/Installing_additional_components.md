@@ -3,17 +3,25 @@
 
 Après avoir installé FreeCAD sur votre système d\'exploitation ([Windows](Installing_on_Windows/fr.md), [Linux](Installing_on_Linux/fr.md) ou [Mac](Installing_on_Mac/fr.md)), vous pouvez envisager d\'installer un ou plusieurs des composants supplémentaires suivants.
 
+
+
 # Fichiers d\'aide 
 
 Voir [Installation du fichier d\'aide](Installing_Helpfile/fr.md).
+
+
 
 # Ateliers externes 
 
 Outre les [ateliers](Workbenches/fr.md) par défaut fournis avec FreeCAD, il existe un bon nombre collection d\'[ateliers externes](External_workbenches/fr.md) utiles créés par les membres de la communauté.
 
+
+
 # Logiciels tiers 
 
 FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de nombreux cas, tout ce que vous avez à faire est d\'installer le logiciel et une fois FreeCAD redémarré, il le trouvera automatiquement et pourra l\'utiliser. Cette section vise à fournir une liste de ces logiciels, ainsi que des informations sur leur utilisation dans FreeCAD et sur les sites de téléchargement.
+
+
 
 ## Assistance
 
@@ -33,6 +41,8 @@ FreeCAD prend en charge plusieurs progiciels tiers prêts à l\'emploi. Dans de 
 
 [OpenSCAD](https://www.openscad.org) est un modeleur 3D solide. L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) dépend de ce logiciel et l\'[atelier Mesh](Mesh_Workbench/fr.md) l\'utilise pour ses outils booléens. Il est également nécessaire pour l\'importation de fichiers SCAD avec l\'outil [Std Importer](Std_Import/fr.md).
 
+
+
 ## Format des fichiers 
 
 Tous les logiciels de cette section seront utilisés par les outils [Std Importer](Std_Import/fr.md) ou [Std Exporter](Std_Export/fr.md).
@@ -41,9 +51,13 @@ Tous les logiciels de cette section seront utilisés par les outils [Std Importe
 
 [CADExchanger](https://cadexchanger.com) est une application commerciale permettant d\'échanger divers formats de fichiers CAO. Il existe un [atelier externe](https://github.com/yorikvanhavre/CADExchanger) pour utiliser cette application dans FreeCAD.
 
+
+
 ### Importateur de DXF 
 
 FreeCAD a un importateur et un exportateur natifs pour les fichiers DXF, programmés en C ++. Actuellement, ils n\'implémentent pas toutes les fonctionnalités du format DXF. Pour ces fonctionnalités, l\'importateur et l\'exportateur Python hérités sont toujours disponibles. Ceux-ci nécessitent la bibliothèque Python [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer). Voir la page [FreeCAD et importation DXF](FreeCAD_and_DXF_Import/fr.md) pour plus d\'informations.
+
+
 
 ### Convertisseurs DWG 
 
@@ -67,6 +81,8 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 
 [Pycollada](https://github.com/pycollada/pycollada/releases), également connu sous le nom de python-collada, est une bibliothèque Python pour lire et écrire des fichiers Collada (DAE). Pycollada est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
 
+
+
 ## Rendu
 
 ### LuxCoreRender
@@ -81,11 +97,13 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 
 [POV-Ray](https://www.povray.org) est un traceur de rayons bien connu qui peut rendre des images photoréalistes. Il s\'agit de l\'un des deux moteurs de rendu actuellement pris en charge par l\'[atelier Raytracing](Raytracing_Workbench/fr.md). Voir la page [POV-Ray](POV-Ray/fr.md) pour plus d\'informations et les instructions d\'installation.
 
+
+
 ## Eléments finis 
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) est une suite de deux packages d\'éléments finis: CalculiX CrunchiX, un solveur FEM, et CalculiX GraphiX, une interface graphique. Seul le solveur est pris en charge par FreeCAD. Il est utilisé par l\'outil [FEM Solveur CalculiX experimental](FEM_SolverCalculiX/fr.md).
+[CalculiX](http://calculix.de) est une suite de deux packages d\'éléments finis : CalculiX CrunchiX, un solveur FEM, et CalculiX GraphiX, une interface graphique. Seul le solveur est pris en charge par FreeCAD. Il est utilisé par l\'outil [FEM Solveur CalculiX standard](FEM_SolverCalculixCxxtools/fr.md).
 
 ### Gmsh
 
@@ -106,6 +124,8 @@ Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [F
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) est une collection de bibliothèques pour les simulations en dynamique des fluides (Computational Fluid Dynamics = CFD). OpenFOAM est utilisé par [atelier Cfd](Cfd_Workbench/fr.md) et [CfdOF](https://github.com/jaheyns/CfdOF) [ateliers externes](external_workbenches/fr.md).
+
+
 
 # Pages en relation 
 

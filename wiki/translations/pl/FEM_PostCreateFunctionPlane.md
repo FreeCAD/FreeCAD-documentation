@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM PostCreateFunctionPlane
-   MenuLocation: Results , Filter Functions , Plane
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Utwórz funkcję płaszczyzny
+   MenuLocation: Wyniki , Funkcje filtrów , Płaszczyzna
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM PostCreateFunctionPlane/pl
@@ -12,41 +13,53 @@
 
 ## Opis
 
-Funkcja <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> **Utwórz płaszczyznę funkcji** określa sposób geometrycznego cięcia siatki. Jest ona wykorzystywana przez narzędzia <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Filtr funkcji odcięcia](FEM_PostFilterCutFunction/pl.md) oraz <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Filtr odcięcia obszaru](FEM_PostFilterClipRegion/pl.md).
+Narzędzie <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> **Utwórz funkcję płaszczyzny** określa sposób geometrycznego cięcia siatki. Jest wykorzystywane przez narzędzia <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:16px;"> [Filtr cięcia funkcją](FEM_PostFilterCutFunction/pl.md) oraz <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:16px;"> [Filtr przycięcia obszaru](FEM_PostFilterClipRegion/pl.md).
 
 
 
 ## Użycie
 
-### Create a plane function 
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
-2.  The Implicit function [task panel](Task_panel.md) is opened.
-3.  Optionally set the values for the origin and the direction of the section plane.
-4.  Press the **OK** button to finish.
 
-### Edit a plane function 
+### Utwórz funkcję płaszczyzny 
 
-If the Plane object in the [3D view](3D_view.md) is hidden, select the <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane object in the [tree view](Tree_view.md) and press **Space** to make it visible, like in this example:
+1.  Wciśnij przycisk **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Płaszczyzna](FEM_PostCreateFunctionPlane/pl.md)** lub wybierz opcję **Wyniki → Funkcje filtrów → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Płaszczyzna** z menu.
+2.  [Panel zadań](Task_panel/pl.md) funkcji niejawnej zostanie otwarty.
+3.  Opcjonalnie, ustaw wartości dla początku i kierunku płaszczyzny przekroju.
+4.  Wciśnij przycisk **OK** aby zakończyć.
+
+
+
+### Edytuj funkcję płaszczyzny 
+
+Jeśli obiekt Plane w [widoku 3D](3D_view/pl.md) jest ukryty, zaznacz <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> obiekt Plane w [widoku drzewa](Tree_view/pl.md) i wciśnij klawisz **Spacja** aby uczynić go widocznym, jak w tym przykładzie:
 
 <img alt="" src=images/FEM_Plane-Cut-Function-Example.png  style="width:300px;">
 
-#### Move the plane 
 
--   Click and drag the big white cuboid to move the plane along its normal vector.
--   Click and drag the white grid .
 
-#### Rotate and tilt the plane 
+#### Przesuń płaszczyznę 
 
--   Click and drag a line that connects the small cubes with the the big white cuboid to rotate and tilt the plane around its origin.
+-   Kliknij i przeciągnij duży biały prostopadłościan aby przesunąć płaszczyznę wzdłuż jej wektora normalnego.
+-   Kliknij i przeciągnij białą siatkę .
 
-#### Scale the plane 
 
--   Click and drag one of the 6 small cubes to scale the plane. However, since the object is an infinite plane, the size does not matter.
 
-## Notes
+#### Obróć i pochyl płaszczyznę 
 
--   Existing functions can be used for different filters and even for different <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [result pipelines](FEM_PostPipelineFromResult.md). It is nevertheless recommended to use a separate set of functions for each pipeline to keep track of the elements in the [tree view](Tree_view.md).
+-   Kliknij i przeciągnij linię, która łączy małe kostki z dużym białym prostopadłościanem aby obracać i pochylać płaszczyznę wokół jej początku.
+
+
+
+#### Przeskaluj płaszczyznę 
+
+-   Kliknij i przeciągnij jedną z 6 małych kostek aby przeskalować płaszczyznę. Jednak, ponieważ obiekt jest nieskończoną płaszczyzną, jego rozmiar nie ma znaczenia.
+
+
+
+## Uwagi
+
+-   Istniejące funkcje mogą być użyte do różnych filtrów a nawet do różnych <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:16px;"> [obiektów prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md). Jest jednak zalecane używanie osobnego zestawu funkcji dla każdego obiektu prezentacji graficznej wyników aby mieć pod kontrolą obiekty w [widoku drzewa](Tree_view/pl.md).
 
 
 

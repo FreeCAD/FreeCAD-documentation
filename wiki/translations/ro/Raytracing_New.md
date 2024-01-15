@@ -64,4 +64,4 @@ Setările suplimentare de proiect ar necesita definirea unor șabloane supliment
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ro
+⏵ [documentation index](../README.md) > Raytracing New/ro

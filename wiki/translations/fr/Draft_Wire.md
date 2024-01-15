@@ -32,29 +32,29 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
+    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** du menu.
     -   Utilisez le raccourci clavier : **P** puis **L**.
 2.  Le panneau de tâches **Polyligne** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+3.  Choisissez le premier point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisissez des points supplémentaires dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+5.  Appuyez sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ### Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valuers X, Y et Z, et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous savez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valuers X, Y et Z, et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous savez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cochez la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cochez la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cochez la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la ligne créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura une face remplie, à condition qu\'elle soit fermée et qu\'elle ne s\'auto-intersecte pas. Notez qu\'une ligne qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle ligne, {{PropertyData/fr|Make Face}} doit être défini sur `False`.
--   Appuyez sur **T** ou cochez la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'aimantant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
+-   Appuyez sur **F** ou cochez la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la ligne créée aura la valeur **Make Face** `True` et aura une face remplie, à condition qu\'elle soit fermée et qu\'elle ne s\'auto-intersecte pas. Notez qu\'une ligne qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle ligne, **Make Face** doit être défini sur `False`.
+-   Appuyez sur **N** ou cochez la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'aimantant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
 -   Appuyez sur **/** ou sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la ligne ouverte.
 -   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la ligne. Une ligne fermée peut également être créée en s\'aimantant au premier point de la ligne.
 -   Appuyez sur **W** ou sur le bouton **<img src="images/Draft_Wipe.svg" width=16px> Effacer** pour supprimer les segments déjà placés, mais continuez à travailler à partir du dernier point.
 -   Appuyez sur **U** ou sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Définir le plan de travail](Draft_SelectPlane/fr.md)** pour ajuster le plan de travail actuel dans l\'orientation du dernier segment.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 
 
@@ -69,7 +69,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Polyligne](Draft_Wire/fr.md)**.
     -   Sélectionnez l\'option **Draft → <img src="images/Draft_Wire.svg" width=16px> Polyligne** dans le menu.
-    -   Utilisez le raccourci clavier : **P** puis **L**.
+    -   Utilisez les raccourcis du clavier : **P** puis **L**.
 
 
 
@@ -78,15 +78,6 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Une Draft Polyligne peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   Une Draft Ligne peut être convertie en une [Draft B-spline](Draft_BSpline/fr.md) avec la commande [Draft Polyligne vers B-spline](Draft_WireToBSpline/fr.md).
 -   Les [Draft Lignes](Draft_Line/fr.md) et les Draft Polylignes peuvent également être jointes avec la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Agréger](Draft_Upgrade/fr.md).
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode rempli dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
 
 
 

@@ -70,7 +70,7 @@ There is only one tab: *Start page options* in the **Start** section. On this ta
 | **Use gradient for New File icon**   |                                                                                                                                                                                                                                        |
 |                                               |                                                                                                                                                                                                                                        |
 +++
-|                                   | Not used. This is specified in the [General preferences](Preferences_Editor#General_2.md) instead.                                                                                                                             |
+|                                   | Workbench to switch to after loading a file from the Start page, only used if Start is the [start up workbench](Preferences_Editor#Available_Workbenches.md).                                                                  |
 | **Switch workbench after loading**   |                                                                                                                                                                                                                                        |
 |                                               |                                                                                                                                                                                                                                        |
 +++

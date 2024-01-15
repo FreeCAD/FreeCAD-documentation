@@ -20,44 +20,53 @@ Un Draft Arc est en fait un [Draft Cercle](Draft_Circle/fr.md) dont **First Angl
 <img alt="" src=images/Draft_Arc_3Points_example.png  style="width:400px;"> 
 *Arc defini par trois points passant par la circonférence*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arc par 3 points](Draft_Arc_3Points/fr.md)**.
-    -   Sélectionnez l\'option **Draft → Outils arc → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** dans le menu.
-    -   Utilisez le raccourci clavier : **A** puis **T**. {{Version/fr|0.20}}
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyer sur le **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arc par 3 points](Draft_Arc_3Points/fr.md)**.
+    -   Sélectionner l\'option **Draft → Outils arc → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc par 3 points** du menu.
+    -   Utiliser le raccourci clavier : **A** puis **T**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Arc par 3 points** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Choisissez le troisième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+5.  Choisir le troisième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez la composante X, Y et Z, et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des arcs. {{Version/fr|0.20}}
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+-   Pour saisir manuellement des coordonnées, entrez la composante X, Y et Z, et appuyer sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyer sur **R** ou cliquer sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyer sur **N** ou cliquer sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des arcs. {{Version/fr|0.20}}
+-   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
+-   Appuyer sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+
+
 
 ## Remarques
 
--   Un Draft Arc peut être édité avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Un Draft Arc peut être édité avec la commande [Draft Éditer](Draft_Edit/fr.md).
+
+
 
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées, des rayons et des angles : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Si **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Utiliser les primitives de Part si possibles** est cochée, la commande créera une [Part Feature](Part_Feature/fr.md) non modifiable au lieu d\'un Draft Cercle.
+-   Si l\'option **Édition → Préférences... → Draft → Général → Créer des primitives Part si possible** est cochée, la commande créera une [Part Feature](Part_Feature/fr.md) non modifiable au lieu d\'un cercle de Draft.
+
+
 
 ## Propriétés
 
 Voir [Draft Cercle](Draft_Circle/fr#Propri.C3.A9t.C3.A9s.md).
+
+
 
 ## Script
 
@@ -78,7 +87,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 :   Par exemple, support=[(obj, ("Face1"))]
 
 -   Si `map_mode` est donné, il s\'agit d\'une chaîne définissant un type de mappage, par exemple, map_mode='FlatFace', map_mode='ThreePointsPlane' etc. Voir [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informations.
--   Si `primitive` est `True`, l\'arc créé sera un simple [Part Fonctionnalité](Part_Feature/fr.md), non un objet Draft complexe.
+-   Si `primitive` est `True`, l\'arc créé sera une simple [Part Feature](Part_Feature/fr.md) et non un objet Draft complexe.
 
 Exemple :
 

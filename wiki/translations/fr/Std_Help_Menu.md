@@ -41,17 +41,17 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_FreeCADDonation.svg  style="width:32px;"> [Don à FreeCAD](Std_FreeCADDonation/fr.md) : ouvre la page wiki de don de FreeCAD
 
--   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Documentation Utilisateur](Std_FreeCADUserHub/fr.md) : ouvre la page Documentation Utilisateur du wiki.
+-   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Documentation pour les utilisateurs](Std_FreeCADUserHub/fr.md) : ouvre la page wiki de la documentation des utilisateurs.
 
--   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md) : ouvre la page wiki de documentation pour scripter en Python.
+-   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Documentation pour programmer en Python](Std_FreeCADPowerUserHub/fr.md) : ouvre la page wiki de documentation pour programmer en Python.
 
 -   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Documentation automatique des modules Python](Std_PythonHelp/fr.md) : ouvre l\'index des modules Python dans votre navigateur par défaut.
 
--   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum FreeCAD](Std_FreeCADForum/fr.md) : ouvre le forum FreeCAD.
+-   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [Forum de FreeCAD](Std_FreeCADForum/fr.md) : ouvre le forum de FreeCAD.
 
--   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/fr.md) : ouvre la page wiki FreeCAD FAQ.
+-   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [Foire aux questions de FreeCAD](Std_FreeCADFAQ/fr.md) : ouvre la page wiki de la foire aux questions de FreeCAD.
 
--   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Rapport de bogue](Std_ReportBug/fr.md) : ouvre la page des problèmes de GitHub de FreeCAD.
+-   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Signaler un bogue](Std_ReportBug/fr.md) : ouvre la page GitHub des problèmes de FreeCAD.
 
 -   <img alt="" src=images/Std_About.svg  style="width:32px;"> [À propos de FreeCAD](Std_About/fr.md) : ouvre une boîte de dialogue contenant des informations sur FreeCAD.
 

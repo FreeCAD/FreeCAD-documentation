@@ -27,59 +27,48 @@ Dieser Befehl kann für 2D-Objekte verwendet werden, die mit den Arbeitsbereiche
 
 Siehe auch: [Draft Fangen](Draft_Snap/de.md).
 
+1.  Wahlweise ein Objekt auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_PolarArray.svg" width=16px> [Polare Anordnung](Draft_PolarArray/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PolarArray.svg" width=16px> Polare Anordnung** auswählen.
+3.  Der Aufgaben-Bereich **Polare Anordnung** wird geöffnet. Siehe [Optionen](#Optionen.md) für wietere Informationen.
+4.  Wurde noch kein Objekt ausgewählt: Ein Objekt auswählen.
+5.  Im Aufgaben-Bereich die erforderlichen Parameter eingeben.
+6.  Um den Befehl abzuschließen, gibt es folgende Möglichkeiten:
+    -   Einen Punkt für den **Drehmittelpunkt** in der [3D-Ansicht](3D_view/de.md) auswählen.
 
-<div class="mw-translate-fuzzy">
+    -   
+        **Enter**
+        
+        drücken.
 
-1.  Wähleein Objekt aus, von dem du die Polaranordnung erstellen möchtest.
-2.  Drücke die **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Polar Anordnung](Draft_PolarArray.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird das [Aufgabenpaneel](task_panel/de.md) geöffnet, aber du musst trotzdem ein Objekt auswählen, um fortzufahren.
-3.  Wähle den Polarwinkel, der bestimmt, wo sich das letzte Element der Anordnung befindet.
-4.  Wähle die Anzahl der Elemente in der Anordnung. Minimum von 2, Maximum von 99.
-5.  Wähle das Zentrum der Rotationsachse. Du kannst auf die [3D Ansicht](3D_view/de.md) klicken, um gleichzeitig die Position des Rotationszentrums festzulegen und den Befehl abzuschließen.
-6.  Optional hake die verschmelzungs- oder Verknüpfungsoptionen an.
-7.  Drücke **OK**, um den Befehl abzuschließen.
-
-
-</div>
+    -   Die Schaltfläche **OK** drücken.
 
 
 
 ## Optionen
 
+-   Den **Polarwinkel** eingeben, um den Gesamtwinkel der Anordnung festzulegen. Der positive Winkel wird gegen den Uhrzeigersinn angegeben.
 
-<div class="mw-translate-fuzzy">
+-   Die **Anzahl der Elemente** angeben; mindestens {{Value|2}}. Der größte Wert, der im Aufgaben-Bereich eingegeben werden kann ist {{Value|99}}, höhere Werte können aber durch Ändern der {{PropertyData/de|Number Polar}} der Anordnung gesetzt werden.
 
--   Drücke **Reset point** um das Drehzentrum auf den Ursprung zu setzen {{Value|(0, 0, 0)}}.
--   Wenn das Kontrollkästchen **Fuse** aktiviert ist, werden die resultierenden Objekte in der Anordnung zu einer einzigen Form verschmolzen, wenn sie einander berühren oder schneiden.
--   Wenn das Kontrollkästchen **Use Links** markiert ist, werden die resultierenden Objekte in der Anordnung nicht als einfache Kopien, sondern als [App Verknüpfungen](App_Link/de.md) erstellt. Dies verbessert die Speichernutzung der Anordnung, da die App Verknüpfung die [Form](Shape/de.md) des Originalobjekts wiederverwendet und keine neuen Formen erstellt. Wenn diese Option verwendet wird, hat das **Fuse** Kontrollkästchen keine Wirkung.
--   Drücke **Esc** oder die **Cancel** Schaltfläche, um den aktuellen Befehl abzubrechen.
+-   Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen (dies schließt auch den Befehl ab) oder dieKoordinaten für den for the **Drehmittelpunkt** eingeben. Die Rotationsachse wird durch diesen Punkt verlaufen. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) herauzubewegen, bevor die Koordinaten eingegeben werden.
 
+-   Die Schaltfläche **Punkt zurücksetzen** drücken, um den **Drehmittelpunkt** auf den Ursprung (zurück) zu setzen.
 
-</div>
+-   Ist die Checkbox **Vereinigung** aktiviert, werden überlappende elemente in der Anordnung vereinigt. dies funktioniert nicht mit Verknüpfungsanordnungen (Link-Arrays).
+
+-   Ist die Checkbox **Verknüpfungsanordnung** aktiviert, wird eine Verknüpfungsanordnung anstelle einer normalen Anordnung erstellt. Eine Verknüpfungsanordnung ist effektiver, da ihre Elemente [App-Link](App_Link/de.md)-Objekte sind.
+
+-    **Esc**drücken oder die Schaltfäche **Cancel**, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Hinweise:
-
--   Standardmäßig ist die Rotationsachse die positive Z Achse {{Value|(0, 0, 1)}}. Dies kann im [Eigenschaftseditor](property_editor/de.md) geändert werden, nachdem das Objekt erzeugt wurde.
--   Der Polarwinkel ist positiv im Gegenuhrzeigersinn und negativ im Uhrzeigersinn.
--   Jedes Element in der Anordnung ist ein exakter Klon des ursprünglichen Objekts, aber die gesamte Anordnung wird in Bezug auf Eigenschaften und Aussehen als eine Einheit betrachtet.
--   Mit diesem Befehl wird dasselbe Objekt erstellt, das mit den [Anordnung](Draft_Array/de.md) und [KreisAnordnung](Draft_CircularArray/de.md) Werkzeugen erstellt wurde. Daher kann die Anordnung einfach durch Ändern seiner Eigenschaften in orthogonal, polar oder zirkular umgewandelt werden.
-
-
-</div>
-
-
-
-## Einstellungen
-
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten und Winkel zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
+-   Die Standarddrehachse der Anordnung ist die positive Z-Achse. Dies kann durch Anpassen ihrer {{PropertyData/de|Axis}} geändert werden.
+-   Eine Draft PolareAnordnung kann in eine [Draft RechtwinkligeAnordnung](Draft_OrthoArray/de.md) oder eine [Draft Kreisanordnung](Draft_CircularArray.md) gewandelt werden, indem ihre {{PropertyData/de|Array Type}} geändert wird.
+-   Eine Verknüpfungsanordnung kann nicht in eine normale Anordnung gewandelt werden oder umgekehrt. Die Art der Anordnung muss zum Zeitpunkt der Erstellung entschieden werden.
 
 
 
@@ -106,7 +95,7 @@ Die Hauptmethode:
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrapper for polar arrays is:
+Der Wrapper für polare Anordnungen ist:
 
 
 ```python
@@ -115,24 +104,17 @@ array = make_polar_array(base_object,
                          use_link=True)
 ```
 
+-    `base_object`ist das Objekt, das angeordnet wird. Es kann auch das `Label` (Benennung) eines Objekts im Dokument sein.
 
-<div class="mw-translate-fuzzy">
+-    `number`ist die Anzahl der Elemente in dem Muster inklusive des Originalobjekts.
 
--   Erstellt eine Anordnung aus den in `obj` enthaltenen Objekten, die ein einzelnes Objekt oder eine Liste von Objekten sein kann.
+-    `angle`ist der Winkeldes polaren Bogens in Grad.
 
--   Der Wert von `center` ist ein Vektor, der den Mittelpunkt des Anordnungkreises definiert; `angle` ist der Winkel des Bogens in Grad, und `number` ist die Anzahl der Kopien im Kreismuster, einschließlich des Originalobjekts.
+-    `center`ist der Vektor, der den Mittelpunkt des Musters festlegt.
 
--   Wenn `use_link` `True` ist, handelt es sich bei den erstellten Kopien um [App Verknüpfungen](App_Link/de.md) und nicht um reguläre Kopien.
+-   Ist `use_link` auf `True` gesetzt, sind die erstellten Elemente [App-Links](App_Link.md) anstatt normale Kopien.
 
--    `array_list`wird mit den neuen Kopien zurückgegeben.
-
-    -   
-        `array_list`
-        
-        ist entweder ein einzelnes Objekt oder eine Liste von Objekten, abhängig von der Eingabe `obj`.
-
-
-</div>
+-    `array`wird mit dem erstellten Anordnungsobjekt zurückgegeben.
 
 Beispiel:
 

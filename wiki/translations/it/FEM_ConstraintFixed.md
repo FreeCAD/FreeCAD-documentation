@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo di fissaggio FEM per un elemento della geometria, bloccando tutti i 6 gradi di libertà dell\'oggetto selezionato.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -31,11 +41,17 @@ Crea un vincolo di fissaggio FEM per un elemento della geometria, bloccando tutt
 
 </div>
 
+
+
 ## Limitazioni
+
+
+<div class="mw-translate-fuzzy">
 
 Non è possibile ceare combinazioni di tipi di oggetti all\'interno dello stesso vincolo. Utilizzare un vincolo di fissaggio per ogni tipo di oggetto.
 
-## Note
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -3,9 +3,13 @@ Le preferenze per l\'ambiente [Arch](Arch_Workbench/it.md) si trovano nel [Edito
 
 Sono disponibili due schede: Impostazioni generali e Defaults.
 
+
+
 ## Impostazioni generali 
 
 ![](images/Preference_Arch_Tab_01.png )
+
+
 
 ## Predefiniti
 

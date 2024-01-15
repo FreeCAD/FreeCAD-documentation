@@ -17,7 +17,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo FEM per un determinato dislocamento di un oggetto selezionato per un dato grado di libertà.
+
+
+</div>
 
 
 
@@ -62,7 +68,7 @@ This code has the following syntax:
 
 ### Rotations
 
-Elmer only uses the **Displacement \*** fields of the constraint. To define rotations, we need a formula.
+Elmer only uses the **Displacement \*** fields of the boundary condition. To define rotations, we need a formula.
 
 If for example a face should be rotated according to this condition:
 

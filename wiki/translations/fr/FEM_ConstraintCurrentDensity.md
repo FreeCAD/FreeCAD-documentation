@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintCurrentDensity
-   Name/fr: FEM Contrainte de densité de courant
-   MenuLocation: Modèle , Contraintes électromagnétiques , Contrainte de densité de courant
+   Name/fr: FEM Densité de courant
+   MenuLocation: Modèle , Conditions limites électromagnétiques , Condition limite de densité de courant
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr
@@ -12,14 +12,14 @@
 
 ## Description
 
-Crée une contrainte FEM pour la densité de courant. À utiliser avec les équations [magnétodynamique](FEM_EquationMagnetodynamic/fr.md), [magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
+Crée une condition limite FEM pour la densité de courant. À utiliser avec les équations [magnétodynamiques](FEM_EquationMagnetodynamic/fr.md) et [magnétodynamiques 2D](FEM_EquationMagnetodynamic2D/fr.md)
 
 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Contrainte de densité de courant](FEM_ConstraintCurrentDensity/fr.md)** ou utilisez le menu **Modèle → Contraintes électromagnétiques → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Contrainte de densité de courant**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée.
+1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> [Condition limite de densité de courant](FEM_ConstraintCurrentDensity/fr.md)** ou utilisez le menu **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintCurrentDensity.svg" width=16px> Condition limite de densité de courant**.
+2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition de limite doit être appliquée.
 3.  Appuyez sur le bouton **Ajouter**.
 
 ## Options

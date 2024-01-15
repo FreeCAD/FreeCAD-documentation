@@ -1,125 +1,181 @@
 ---
  GuiCommand:
    Name: FEM SolverCalculixCxxtools
-   MenuLocation: Solve , Solver CalculiX Standard
-   Workbenches: FEM_Workbench
+   Name/pl: Narzędzia CalculiX
+   MenuLocation: Rozwiąż , Narzędzia CalculiX
+   Workbenches: FEM_Workbench/pl
    Shortcut: **S** **X**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM SolverCalculixCxxtools/pl
 
-## Description
 
-[CalculiXccxTools](FEM_SolverCalculixCxxtools.md) enables usage of the [CalculiX](https://en.wikipedia.org/wiki/Calculix) solver. It may be used for:
 
-1.  Setting analysis parameters
-2.  Selecting working directory
-3.  Running the CalculiX solver
+## Opis
 
-## Usage
+[Narzędzia CalculiX](FEM_SolverCalculixCxxtools/pl.md) umożliwiają użycie solvera [CalculiX](https://en.wikipedia.org/wiki/Calculix). Mogą być używane do:
 
-1.  A <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object is created automatically with the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md).
-    To create it manually, use one of the following alternatives:
-    -   Select **Solve → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solver CalculiX Standard** from the menu.
-    -   Press the **S** then **X** shortcut keys.
-2.  Optionally change the properties of the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object in the [Property editor](Property_editor.md).
-3.  Double click the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object.
-4.  Select the **Analysis type**.
-5.  Click the **Write .inp file** button.
-6.  Click the **Run CalculiX** button.
+1.  Ustawiania parametrów analizy
+2.  Wybierania ścieżki roboczej
+3.  Uruchamiania solvera CalculiX
 
-## Options
 
-Click the **Edit .inp file** button to display and edit the CalculiX input file manually before running the analysis. In that case it can be useful to set the **Split Input Writer** property to {{True}}.
 
-## Properties
+## Użycie
 
-Default values can be set in the menu **Edit → Preferences → FEM → CalculiX**
+1.  Obiekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools jest tworzony automatycznie razem z <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [kontenerem analizy](FEM_Analysis/pl.md).
+    Aby utworzyć go samodzielnie, skorzystaj z jednego z poniższych sposobów:
+    -   Wciśnij przycisk **<img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> '''Narzędzia CalculiX'''**.
+    -   Wybierz opcję **Rozwiąż → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Narzędzia CalculiX** z menu.
+    -   Wciśnij przycisk **S** a następnie **X**.
+2.  Opcjonalnie, zmień właściwości obiektu <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools w [edytorze właściwości](Property_editor/pl.md).
+3.  Dwukrotnie kliknij obiekt <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools.
+4.  Wybierz **Typ analizy**.
+5.  Wciśnij przycisk **Zapisz plik wejściowy .inp**.
+6.  Wciśnij przycisk **Uruchom CalculiX**.
+
+
+
+## Opcje
+
+Wciśnij przycisk **Edytuj plik .inp** aby wyświetlić i ręcznie edytować plik wejściowy solvera CalculiX przed uruchomieniem analizy. W takim wypadku może być przydatne ustawienie właściwości **Split Input Writer** na {{True/pl}}.
+
+
+
+## Właściwości
+
+Domyślne właściwości można ustawić w menu **Edycja → Preferencje ... → MES → CalculiX**
 
 -    **Analysis Type**:
 
-    -   static
-    -   frequency
-    -   thermomech - for mechanical and thermal loads
-    -   check - to check only the mesh
-    -   buckling - for buckling analyses <small>(v0.20)</small> 
+    -   static - statyczna analiza naprężeń.
+    -   frequency - analiza modalna *(wyznaczenie częstotliwości i postaci drgań własnych)*.
+    -   thermomech - analiza termomechaniczna.
+    -   check - bez obliczeń, przeprowadza sprawdzenie danych wejściowych.
+    -   buckling - liniowa analiza wyboczeniowa. {{Version/pl|0.20}}
 
--    **Beam Shell Result Output 3D**: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish FE analysis
+-    **Beam Shell Result Output 3D**: zwróć uwagę, że CalculiX wewnętrznie przekształca elementy 1D i 2D w elementy 3D
 
-    -   false - results of 1D and 2D elements will be averaged to the nodes of original 1D or 2D mesh (i.e. purely bended beam will show 0 nodal stresses due to averaging)
-    -   true - resulting mesh will contain 1D and 2D elements expanded to 3D elements
+    -   
+        {{false/pl}}
+        
+        \- wyniki dla elementów 1D i 2D będą uśrednione w węzłach oryginalnych elementów 1D lub 2D *(np. belka poddana czystemu zginaniu będzie miała zerowe naprężenia w węzłach z powodu uśredniania)*.
 
--    **Eigenmode High Limit**: Eigenvalues above this limit will not be calculated; **Note**: if eigenvalues of the model are above the high limit, CalculiX will finish without output
+    -   
+        {{true/pl}}
+        
+        \- wynikowa siatka będzie zawierała elementy 1D i 2D przekształcone w elementy 3D.
 
--    **Eigenmode Low Limit**: Eigenvalues below this limit will not be calculated
+-    **Eigenmode High Limit**: wartości własne powyżej tego limitu nie będą wyznaczane; **Uwaga**: jeśli wartości własne modelu są wyższe od tego limitu, CalculiX zakończy analizę bez wyników.
 
--    **Eigenmodes Count**: number of lowest eigenmodes to be calculated
+-    **Eigenmode Low Limit**: wartości własne poniżej tego limitu nie będą obliczane.
+
+-    **Eigenmodes Count**: liczba najniższych postaci własnych do wyznaczenia.
 
 -    **Geometric Nonlinearity**:
 
-    -   linear - linear analysis will be performed if model does not contain nonlinear material
-    -   nonlinear - nonlinear analysis will be performed
+    -   linear - przeprowadzona zostanie analiza liniowa jeśli model nie zawiera nieliniowego materiału.
+    -   nonlinear - przeprowadzona zostanie analiza nieliniowa.
 
--    **Iterations Control parameter Cutb**: defines the second line of [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Used if **Iterations Control Parameter Time Use** is set to *true*.
+-    **Iterations Control parameter Cutb**: definiuje drugą linię [zaawansowanych parametrów iteracji solvera CalculiX](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Używane jeśli właściwość **Iterations Control Parameter Time Use** jest ustawiona na {{true/pl}}.
 
--    **Iterations Control Parameter Iter**: defines the first line of [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Used if **Iterations Control Parameter Time Use** is set to *true*.
+-    **Iterations Control Parameter Iter**: definiuje pierwszą linię [zaawansowanych parametrów iteracji solvera CalculiX](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Używane jeśli właściwość **Iterations Control Parameter Time Use** jest ustawiona na {{true/pl}}.
 
--    **Iterations Control Parameter Time Use**-   true - activates **Iterations Control parameter Cutb** and **Iterations Control Parameter Iter**
-    -   false
+-    **Iterations Control Parameter Time Use**-   
+        {{true/pl}}
+        
+        \- aktywuje **Iterations Control parameter Cutb** i **Iterations Control Parameter Iter**.
 
--    **Iterations Thermo Mech Maximum**: maximum number of increments in thermomechanical analysis after which the job will be stopped.
+    -   
+        {{false/pl}}
+        
+
+-    **Iterations Thermo Mech Maximum**: maksymalna liczba przyrostów w analizie termomechanicznej, po której analiza zostanie zatrzymana.
 
 -    **Iterations User Defined Incrementations**:
 
-    -   true - automatic incrementation control will be switched off by DIRECT parameter
-    -   false - incrementation control will be automatic
+    -   
+        {{true/pl}}
+        
+        \- automatyczna kontrola inkrementacji będzie wyłączona przez parametr DIRECT.
+
+    -   
+        {{false/pl}}
+        
+        \- kontrola inkrementacji będzie automatyczna.
 
 -    **Iterations User Defined Time Step Length**:
 
-    -   true - activates **Time End** and **Time Initial Step** parameters
-    -   false
+    -   
+        {{true/pl}}
+        
+        \- aktywuje parametry **Time End** i **Time Initial Step**
+
+    -   
+        {{false/pl}}
+        
 
 -    **Material Nonlinearity**:
 
-    -   linear - only linear material properties will be included in the analysis
-    -   nonlinear - nonlinear material properties will be used from **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> [Nonlinear mechanical material](FEM_MaterialMechanicalNonlinear.md)** object
+    -   linear - w analizie będą uwzględnione tylko liniowe właściwości materiału.
+    -   nonlinear - uwzględnione będą nieliniowe właściwości materiału z obiektu **<img src="images/FEM_MaterialMechanicalNonlinear.svg" width=24px> [Nieliniowy materiał mechaniczny](FEM_MaterialMechanicalNonlinear/pl.md)**.
 
--    **Matrix Solver Type**: type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
+-    **Matrix Solver Type**: typ solvera do rozwiązania układu równań w analizie MES. Może znacząco wpłynąć na szybkość obliczeń i wymogi pamięci. Wybór zależy od danego modelu i dostępnego komputera.
 
-    -   default - automatically selects matrix solver depending on available solvers (probably it will be Spooles)
-    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in the [preferences](FEM_Preferences#CalculiX.md) at *Solver defaults → Number of CPU\'s to use*.
-    -   iterativescaling - iterative solver with least memory demands, suitable if model contains mostly 3D elements
-    -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if model contains mostly 3D elements
+    -   default - automatycznie wybiera solver do rozwiązywania macierzowego układu równań w zależności od dostępnych solverów *(zwykle jest to Spooles)*.
+    -   spooles - solver bezpośredni ze wsparciem dla wielu rdzeni. Liczbę rdzeni należy ustawić we [właściwościach](FEM_Preferences/pl#CalculiX.md) jako *Ustawienia domyślne solvera → Liczba rdzeni CPU do użycia*.
+    -   iterativescaling - solver iteracyjny z najniższymi wymaganiami pamięci, odpowiedni jeśli model składa się głównie z elementów 3D.
+    -   iterativecholesky - solver iteracyjny z prekondycjonowaniem i niskimi wymaganiami pamięci, odpowiedni jeśli model składa się głównie z elementów 3D.
 
 -    **Split Input Writer**:
 
-    -   false - write whole input into one \*.inp file to be used by CalculiX solver
-    -   true - split solver inputs into more \*.inp files, that can clarify hand editing
+    -   
+        {{false/pl}}
+        
+        \- zapisz wszystkie dane wejściowe do jednego pliku \*.inp file.
+
+    -   
+        {{true/pl}}
+        
+        \- podziel zapis danych wejściowych na więcej plików \*.inp - ułatwia ręczną edycję.
 
 -    **Thermo Mechanical Steady State**:
 
-    -   true - steady state thermo mechanical analysis
-    -   false - transient thermo mechanical analysis
+    -   
+        {{true/pl}}
+        
+        \- analiza termomechaniczna stanu ustalonego.
 
--    **Time End**: time period of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+    -   
+        {{false/pl}}
+        
+        \- analiza termomechaniczna stanu nieustalonego.
 
--    **Time Initial Step**: initial time increment of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
+-    **Time End**: czas trwania kroku, używany gdy parametr **Iterations User Defined Incrementations** lub **Iterations User Defined Time Step Length** jest ustawiony na {{true/pl}}
 
--    **Working Dir**: path to the working directory which will be used for CalculiX analysis files.
+-    **Time Initial Step**: początkowy przyrost czasu dla kroku, używany gdy parametr **Iterations User Defined Incrementations** lub **Iterations User Defined Time Step Length** jest ustawiony na {{true/pl}}.
 
-## Limitations
+-    **Working Dir**: ścieżka do katalogu roboczego, który będzie używany do plików solvera CalculiX.
 
-When running a CalculiX, you might end up with **error 4294977295**. This means you don\'t have enough RAM space. You have then 2 options:
 
-1.  reduce the number of mesh nodes, preferably by omitting geometry that is not absolutely necessary for your analysis
-2.  buy more RAM for your PC
 
-## Notes
+## Ograniczenia
 
-Original CalculiX documentation can be found at <http://dhondt.de/> in the \"ccx\" paragraph.
+Podczas uruchamiania solvera CalculiX można się spotkać z błędem **error 4294977295**. Oznacza to brak wystarczającej pamięci RAM. Istnieją dwa rozwiązania:
 
-## Scripting
+1.  zmniejszyć gęstość siatki, najlepiej przez pominięcie geometrii, która nie jest absolutnie niezbędna do analizy.
+2.  dokupić pamięć RAM do komputera.
+
+
+
+## Uwagi
+
+Oryginalną dokumentację solvera CalculiX można znaleźć na stronie <http://dhondt.de/> w części \"ccx\".
+
+
+
+## Tworzenie skryptów 
 
 
 

@@ -33,7 +33,7 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 
 <div class="mw-translate-fuzzy">
 
--   通过点击工具按钮，选择对应菜单项或借助键盘快捷键（首先需要在[Interface Customization中为之分配快捷键](Interface_Customization.md)）来调用对应绘制椭圆命令。
+-   通过点击工具按钮，选择对应菜单项或借助键盘快捷键（首先需要在[Interface Customization](Interface_Customization.md)中为之分配快捷键）来调用对应绘制椭圆命令。
 -   在3D视图中第一次点击所设置的是椭圆的中心。第二次点击所设置的是椭圆的第一个半径及其方向。第三次点击所设置的是另一种半径（前两次点击所定义的直线至第三次点击位置的距离即为第二个半径）。
 -   第三次点击后，椭圆就创建好了，与之共存的还有一系列对齐于它的构造几何对象（长轴、短轴、两个焦点）如果不需要这些构造几何对象，可将其手动删除，以后还可以重新创建。参见[在草图工作台中显示隐藏的内部几何图形](Sketcher_RestoreInternalAlignmentGeometry.md)。
 -   按**ESC**键或单击鼠标右键来退出此功能。
@@ -56,7 +56,13 @@ C is the center, a the major diameter, b the minor diameter, F1 and F2 are foci.
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

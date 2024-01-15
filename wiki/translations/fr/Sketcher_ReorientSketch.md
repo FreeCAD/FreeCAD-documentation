@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher ReorientSketch
-   Name/fr: Sketcher Réorienter l'esquisse
-   MenuLocation: Esquisse , Réorienter l'esquisse...
+   Name/fr: Sketcher Réorienter une esquisse
+   MenuLocation: Esquisse , Réorienter une esquisse...
    Workbenches: Sketcher_Workbench/fr, PartDesign_Workbench/fr
    SeeAlso: Sketcher_MapSketch/fr, Sketcher_NewSketch/fr
 ---
@@ -11,14 +11,14 @@
 
 ## Description
 
-Vous permet de détacher une esquisse d'une face et de la lier à l'un des plans principaux (avec un décalage).
+Permet de détacher une esquisse d'une face et de la lier à l'un des plans principaux (avec un décalage).
 
 
 
 ## Utilisation
 
 1.  Sélectionner l\'esquisse à réorienter dans l\'arborescence
-2.  Choisir **Esquisse → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Réorienter l'esquisse...](Sketcher_ReorientSketch/fr.md)** dans le menu supérieur
+2.  Choisir **Esquisse → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Réorienter une esquisse...](Sketcher_ReorientSketch/fr.md)** du menu supérieur
 3.  Un menu apparaîtra et vous demandera si vous souhaitez détacher l\'esquisse de sa face
 4.  Sélectionner **Oui** vous donnera le même menu que **Esquisse → Créer une esquisse**.
 5.  Vous pouvez attacher l\'esquisse à l\'un des plans principaux.

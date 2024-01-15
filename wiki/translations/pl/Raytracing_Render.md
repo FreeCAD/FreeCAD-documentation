@@ -35,4 +35,4 @@ Currently only POV-Ray and Luxrender are supported.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Render/pl
+⏵ [documentation index](../README.md) > Raytracing Render/pl

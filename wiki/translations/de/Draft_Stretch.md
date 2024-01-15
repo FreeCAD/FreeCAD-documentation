@@ -25,38 +25,34 @@ Das Werkzeug <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Dr
 
 Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein Objekt aus, das Du dehnen möchtest.
-2.  Drücke die Taste **<img src="images/Draft_Stretch.svg" width=16px> [[Draft Stretch]]**. Wenn kein Objekt ausgewählt ist, wirst Du aufgefordert, eines auszuwählen.
-3.  Klicke auf einen Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** .
-4.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate and drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste. Die ersten beiden Punkte definieren ein Auswahlrechteck. Die von diesem Rechteck eingeschlossenen Eckpunkte des ursprünglichen Objekts werden hervorgehoben.
-5.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-6.  Klicke auf einen vierten Punkt in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste. Das zweite Punktpaar definiert eine Linie, deren Abstand und Richtung verwendet wird, um die an den markierten Punkten angebrachte Figur zu strecken.
-
-
-</div>
+1.  Wahlweise einen oder mehrere Objekte auswählen. Die objekte müssen [Draft Linien](Draft_Line/de.md), [Draft Linienzüge](Draft_Wire/de.md) (Polylinien), [Draft Rechtecke](Draft_Rectangle/de.md), [Draft B-Splines](Draft_BSpline/de.md) oder [Draft Bézierkurve](Draft_BezCurve/de.md) sein. Andere Objekte werden ignoriert.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Stretch.svg" width=16px> [Strecken](Draft_Stretch/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Stretch.svg" width=16px> Strecken** auswählen.
+    -   Das Tastaturkürzel **S** dann **H**.
+3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Der Aufgaben-Bereich **Strecken** wird geöffnet. Siehe [Optionen](#Optionen.md) Für weitere Informationen.
+5.  Den ersten Punkt, eine Ecke eines rechteckigen Auswahlbereichs, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+6.  Den zweiten Punkt, die gegenüberliegende Ecke des Auswahlbereichs, in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+7.  Die Punkte des ausgewählten Objekts, die innerhalb des Auswahlbereiches liegen, werden markiert.
+8.  Den dritten Punkt, den Basispunkt, in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+9.  Den vierten Punkt, den Zielpunkt, in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
 
 
 ## Optionen
 
-Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
+Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point of the displacement are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
+-   Zum manuellen Eingeben der Koordinaten werden die X-, Y- und Z-Komponenten eingegeben und jeweils anschließend **Enter** gedrückt oder es wird die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** gedrückt, sobald die gewünschten Werte erreicht sind. Es ist ratsam, den Mauszeiger aus dem [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
+-    **R**drücken oder die Checkbox **Relativ** aktivieren, um den Relativ-Modus umzuschalten. Ist der Relativ-Modus eingeschaltet, werden die Koordinaten des zweiten Punktes des Versatzes relativ zum ersten Punkt angegeben, andernfalls zum Ursprung des Koordinatensystems.
 
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus eingeschaltet, werden Koordinaten relativ zum globalen Koordinatensystem angegeben, andernfalls zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
-## Einstellungen
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
+-    **Esc**drücken oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
 

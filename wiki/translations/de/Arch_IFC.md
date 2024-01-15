@@ -1,9 +1,9 @@
 # Arch IFC/de
 ## Beschreibung
 
-Die <img alt="" src=images/Workbench_Arch.svg  style="width:24px;">[Arch](Arch_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[Arbeitsbereich Bauwerksdatenmodellierung](BIM_Workbench/de.md) (engl. Building Information Modeling (kurz: BIM)) bietet einen [Industry Foundation Classes (IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) Importeur und Exporteur. Das IFC Format ist ein ständig wachsendes, weit verbreitetes Format für den Datenaustausch zwischen [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling) (Bauwerksdatenmodellierung) Anwendungen, das in der Architektur und im Ingenieurwesen verwendet wird.
+Die Arbeitsbereiche <img alt="" src=images/Workbench_Arch.svg  style="width:24px;">[Arch](Arch_Workbench/de.md) und <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM](BIM_Workbench/de.md) (engl. Building Information Modeling - Bauwerksdatenmodellierung) enthält Import- und Exportfunktionen für [Industry Foundation Classes (IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes). Das IFC-Format ist ein ständig wachsendes, weit verbreitetes Format für den Datenaustausch zwischen [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling)-Anwendungen, das im Architektur- und im Bauingenieurwesen verwendet wird.
 
-Sowohl der Importer als auch der Exporter hängen von der [IfcOpenShell](IfcOpenShell/de.md) Bibliothek ab, die in einigen FreeCAD Distributionen mitgeliefert wird. Eine einfache Möglichkeit zu prüfen, ob IfcOpenShell verfügbar ist, ist die Eingabe in der [Python Konsole](Python_console/de.md):
+Sowohl der Importer als auch der Exporter hängen von der [IfcOpenShell](IfcOpenShell/de.md)-Bibliothek ab, die in einigen FreeCAD-Distributionen mitgeliefert wird. Eine einfache Möglichkeit zu prüfen, ob IfcOpenShell verfügbar ist, ist die Eingabe in der [Python-Konsole](Python_console/de.md):
 
 
 ```python
@@ -15,23 +15,25 @@ Wenn keine Fehlermeldung erscheint, ist IfcOpenShell installiert, und du kannst 
 
 **Note:**
 
-Das **[<img src=images/BIM_Setup.svg style="width:16px"> [BIM Einrichtung](BIM_Setup/de.md)**swerkzeug sucht auch nach IfcOpenShell und gibt eine Warnmeldung aus, wenn diese nicht installiert ist.
+Das Werkzeug **[<img src=images/BIM_Setup.svg style="width:16px"> [BIM Einrichten](BIM_Setup/de.md)** sucht auch nach IfcOpenShell und gibt eine Warnmeldung aus, wenn diese nicht installiert ist.
 
 
 **Hinweis 2:**
 
-in der Vergangenheit (2013) verfügte der Arch Arbeitsbereich über einen einfacheren IFC Importeur, der nicht von IfcOpenShell abhängig war. Dieses Legacy Modul ist immer noch im Quellcode enthalten, aber ab v0.19 wird es überhaupt nicht mehr empfohlen; es wird nur eine sehr kleine Teilmenge von IFC Objekten importieren können und sollte als völlig veraltet betrachtet werden.
+in der Vergangenheit (2013) verfügte der Arbeitsbereich Arch über einen einfacheren IFC-Importeur, der nicht von IfcOpenShell abhängig war. Dieses Legacy-Modul ist immer noch im Quellcode enthalten, aber ab v0.19 wird es überhaupt nicht mehr empfohlen; es wird nur eine sehr kleine Teilmenge von IFC Objekten importieren können und sollte als völlig veraltet betrachtet werden.
+
+
 
 ## Importieren
 
-Alle [IfcProduct](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifckernel/lexical/ifcproduct.htm)-basierten Objekte aus IFC2x3 oder IFC4 Dateien werden in das FreeCAD Dokument importiert. In den IFC Voreinstellungen kannst du festlegen, wie die IFC Objekte importiert werden:
+Alle [IfcProduct](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifckernel/lexical/ifcproduct.htm)-basierten Objekte aus IFC2x3 oder IFC4 Dateien werden in das FreeCAD-Dokument importiert. In den IFC-Voreinstellungen kannst du festlegen, wie die IFC-Objekte importiert werden:
 
--   **vollparametrische Arch Objekte**, die Geometrie wird so weit wie möglich in FreeCAD editierbar sein
--   **nicht-parametrische Arch Objekte**, die Objekte tragen IFC Informationen und Eigenschaften, sind aber nicht editierbar
--   **nicht-parametrische Bauteilformen**, die Geometrie wird originalgetreu wiedergegeben, aber die IFC Informationen werden verworfen
+-   **vollparametrische Arch-Objekte**, die Geometrie wird so weit wie möglich in FreeCAD editierbar sein
+-   **nicht-parametrische Arch-Objekte**, die Objekte tragen IFC-Informationen und Eigenschaften, sind aber nicht editierbar
+-   **nicht-parametrische Bauteilformen**, die Geometrie wird originalgetreu wiedergegeben, aber die IFC-Informationen werden verworfen
 -   **eine Bauteilform pro Etage**, ein einziges Objekt, nur als Referenz
 
-Jeder dieser Typen verliert einige Informationen gegenüber dem vorherigen, ist aber ressourcenschonender, was das Öffnen größerer Dateien ermöglicht. Ein letzter Typ erlaubt es, das Importieren von Arch Objekten ganz zu verwerfen, was für strukturanalytische Modelle nützlich ist.
+Jeder dieser Typen verliert einige Informationen gegenüber dem vorherigen, ist aber ressourcenschonender, was das Öffnen größerer Dateien ermöglicht. Ein letzter Typ erlaubt es, das Importieren von Arch-Objekten ganz zu verwerfen, was für strukturanalytische Modelle nützlich ist.
 
 Wenn du versuchst, eine große Datei zu öffnen und FreeCAD zu lange für den Import braucht, versuche es normalerweise mit einem niedrigeren Importmodus.
 
@@ -49,6 +51,8 @@ Das Aktivieren von **show debug messages** in den IFC-Voreinstellungen wird eine
 
 **Hinweis**: Der BIM Arbeitsbereich verfügt über ein [IFC Explorer](BIM_IfcExplorer/de.md) Werkzeug , das dir erlaubt eine IFC Datei im schnellen Nur-Text Modus zu öffnen und nur die gewünschten Teile zu importieren.
 
+
+
 ## Export
 
 Beim Exportieren in IFC Dateien werden alle ausgewählten Objekte und ihre Nachkommen exportiert. Alle Arch/BIM Objekte werden unterstützt, ebenso wie andere Objekte, die in anderen Arbeitsbereichen erstellt wurden. Die einzigen derzeit noch nicht vollständig unterstützten Objekte sind **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**, **[<img src=images/Std_Part.svg style="width:16px"> [Std Parts](Std_Part/de.md)** und neue Strukturen wie **[<img src=images/Link.svg style="width:16px"> [Anwendungsverweise](Std_LinkMake/de.md)** und **[<img src=images/LinkGroup.svg style="width:16px"> VerweisGruppen**, so dass du diese noch etwas testen musst, wenn du sie verwenden möchtest. [Arch Referenzen](Arch_Reference/de.md) wird derzeit als `IfcBuildingElementProxies` exportiert.
@@ -58,6 +62,8 @@ Um einen ganzen Standort oder ein ganzes Gebäude oder ein ganzes Stockwerk oder
 IFC Dateien werden als IFC2x3 oder IFC4 exportiert, abhängig von Ihrer Version von IfcOpenShell, die mit jedem der IFC Schemata kompiliert werden kann. Wenn du IfcOpenShell v0.6 oder höher verwendest, wird die in den Arch Einstellungen angegebene IFC Version verwendet.
 
 Wenn die Form der exportierten Objekte auf einer Extrusion oder einer booleschen Operation basiert, werden die Operation und die Komponenten korrekt in die IFC exportiert. Wenn nicht, wird die Form des Objekts als [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4x1/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm) exportiert. Wenn die Form Kurven enthält, werden diese trianguliert. IfcOpenShell v0.5 oder höher verfügt jedoch über einen Serialisierer, der in den Import/Export → IFC Einstellungen aktiviert werden muss. Wenn dieser Serialisierer aktiviert ist, ist er in der Lage, sehr komplexe gekrümmte Objekte, wie z.B. solche, die auf NURBS basieren, zu exportieren und somit triangulierte Flächen zu vermeiden. Zum Zeitpunkt der Erstellung dieses Artikels unterstützen jedoch nur wenige andere BIM Anwendungen IFC NURBS Objekte, so dass ein wenig Testen empfohlen wird.
+
+
 
 ## Weitere Informationen 
 

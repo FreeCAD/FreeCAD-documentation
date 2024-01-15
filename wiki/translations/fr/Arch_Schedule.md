@@ -44,11 +44,11 @@ Vous appuyez sur le bouton **<img src="images/Arch_Schedule.svg" width=16px> [No
 Ensuite, vous pouvez remplir le classeur ligne par ligne. Chaque ligne est une \"requête\" et affichera une ligne dans la feuille de calcul. Appuyez sur le bouton **Ajouter** pour ajouter une nouvelle ligne et double-cliquez sur chaque cellule de cette ligne pour remplir les valeurs. Le bouton **Supprimer** supprimera la ligne qui contient une cellule sélectionnée, et **Effacer** supprimera toutes les lignes. Les valeurs possibles à mettre dans les colonnes sont :
 
 -   **Description** : description pour cette requête. La colonne Description sera la première colonne de la feuille de calcul résultante. Une description est obligatoire pour qu\'une requête soit effectuée. Si vous laissez la cellule de description vide, toute la ligne sera ignorée et laissée vide dans la feuille de calcul. Cela vous permet d\'ajouter des lignes \"séparateur\".
--   **Value** : il s\'agit de la requête réelle que vous souhaitez effectuer sur tous les objets sélectionnés par la requête. Il peut s\'agir de deux choses: soit le mot `count`, soit une propriété d\'objet:
+-   **Valeur** : il s\'agit de la requête réelle que vous souhaitez effectuer sur tous les objets sélectionnés par la requête. Il peut s\'agir de deux choses: soit le mot `count`, soit une propriété d\'objet:
     -   Si vous entrez `count` (ou `Count` ou `COUNT`, insensible à la casse), les objets sélectionnés seront simplement comptés.
-    -   Si vous entrez une propriété d\'objet, la valeur de cette propriété pour chacun des objets sélectionnés sera extraite et résumée. Les objets qui ne possèdent pas la propriété seront ignorés. Utilisez la notation par points pour récupérer les propriétés des propriétés: `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Si la propriété avant le premier point commence par une lettre minuscule, elle sera considérée comme une référence à l\'objet lui-même et sera ignorée. Saisir par exemple `object.Shape.Volume` équivaut à saisir `Shape.Volume`.
+    -   Si vous entrez une propriété d\'objet, la valeur de cette propriété pour chacun des objets sélectionnés sera extraite et résumée. Les objets qui ne possèdent pas la propriété seront ignorés. Utilisez la notation par points pour récupérer les propriétés des propriétés : `PropertyOfObject.PropertyOfProperty1.PropertyOfProperty2`. Si la propriété avant le premier point commence par une lettre minuscule, elle sera considérée comme une référence à l\'objet lui-même et sera ignorée. Saisir par exemple `object.Shape.Volume` équivaut à saisir `Shape.Volume`.
 -   **Unité** : unité optionnelle pour exprimer les résultats. C\'est à vous de donner une unité qui correspond à la requête que vous faites, par exemple, si vous récupérez des volumes, vous devez utiliser une unité de volume, telle que `m^3`. Si vous utilisez une mauvaise unité, par ex.cm, vous obtiendrez de mauvais résultats.
--   **Objets** : vous pouvez laisser ce champs vide, alors tous les objets du document seront considérés par cette requête, ou donner une liste séparée par des points-virgules (;) des noms d\'objets (pas d\'étiquettes). Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonctionnalité est donc de regrouper vos objets de manière significative dans le document, et de donner ici simplement un nom de groupe. Vous pouvez également utiliser le bouton **Selection** pour ajouter des objets actuellement sélectionnés dans le document.
+-   **Objets** : vous pouvez laisser ce champs vide, alors tous les objets du document seront considérés par cette requête, ou donner une liste séparée par des points-virgules (;) des noms d\'objets (pas d\'étiquettes). Si l\'un des objets de cette liste est un groupe, ses enfants seront également sélectionnés. La manière la plus simple d\'utiliser cette fonctionnalité est donc de regrouper vos objets de manière significative dans le document, et de donner ici simplement un nom de groupe. Vous pouvez également utiliser le bouton **Ajouter la sélection** pour ajouter des objets actuellement sélectionnés dans le document.
 -   **Filtre** : ici vous pouvez ajouter un point-virgule `;` - liste de filtres séparés. Chaque filtre est écrit sous la forme: `property:value`. Vous ne pouvez utiliser que des propriétés contenant une valeur de chaîne. La propriété et la valeur ne sont pas sensibles à la casse. `value` peut être omis mais pas `:`. Pour gérer correctement les nomenclatures créées avec les versions précédentes d\'Arch Nomenclature, la propriété `type` sera traduite en propriété `ifctype`. Il est conseillé de ne pas utiliser `type` dans les nouveaux horaires.
 
 :   Par exemple :
@@ -83,7 +83,7 @@ Ensuite, vous pouvez remplir le classeur ligne par ligne. Chaque ligne est une \
         
         ne conservera que les objets qui n\'ont pas la propriété **IFC Type**.
 
-Le bouton **Import** vous permet de construire cette liste dans une autre application avec tableur, et de l\'importer ici en tant que fichier CSV.
+Le bouton **Importer** vous permet de créer cette liste dans un autre tableur et de l\'importer ici sous forme de fichier csv.
 
 Nous pouvons donc construire une liste de requêtes comme celle-ci :
 
@@ -93,7 +93,7 @@ Après cela, appuyez sur le bouton **OK** et un nouvel objet Nomenclature est aj
 
 ![](images/Arch_schedule_example04.jpg )
 
-En double-cliquant sur l\'objet Nomenclature, vous revenez au panneau des tâches et modifiez les valeurs. En double-cliquant sur la feuille de calcul elle-même, vous obtenez les résultats dans 3 colonnes: description, valeur, unité (le cas échéant) :
+En double-cliquant sur l\'objet Nomenclature, vous revenez au panneau des tâches et modifiez les valeurs. En double-cliquant sur la feuille de calcul elle-même, vous obtenez les résultats dans 3 colonnes : description, valeur, unité (le cas échéant) :
 
 ![](images/Arch_schedule_example05.jpg )
 
@@ -103,7 +103,7 @@ La feuille de calcul peut ensuite être exportée au format CSV normalement, à 
 
 ## Propriétés dynamiques 
 
-Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont appelées [propriétés dynamiques](Property_editor/fr#Actions.md). Si elles ont été ajoutées avec l\'option **Prefix group name** sélectionnée, leurs noms commenceront effectivement par le nom du groupe, mais ce préfixe ne sera pas affiché dans l\'[Éditeur de propriétés](Property_editor/fr.md). Leurs noms ont la forme suivante : `NameOfGroup_NameOfProperty`. Pour les référencer dans une nomenclature, ce nom complet doit être utilisé.
+Il est possible d\'ajouter vos propres propriétés aux objets. Celles-ci sont appelées [propriétés dynamiques](Property_editor/fr#Actions.md). Si elles ont été ajoutées avec l\'option **Prefix group name** sélectionnée, leurs noms commenceront effectivement par le nom du groupe, mais ce préfixe ne sera pas affiché dans l\'[éditeur de propriétés](Property_editor/fr.md). Leurs noms ont la forme suivante : `NameOfGroup_NameOfProperty`. Pour les référencer dans une nomenclature, ce nom complet doit être utilisé.
 
 
 

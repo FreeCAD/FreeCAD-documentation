@@ -1,9 +1,11 @@
 # Macro FCInfo Alternate Linux/fr
 {{Macro/fr
 |Name=Macro FCInfo Alternate Linux
+|Name/fr=Macro FCInfo Alternate Linux
 |Icon=FCInfo.png
 |Description=Donne une série de renseignements sur la forme. (seulement pour PyQt4)
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/5/53/FCInfo.png Icône de la barre d'outils]
 |Version=1.12
 |Date=2014-03-05
 |SeeAlso=[Macro_FCInfo](Macro_FCInfo/fr.md)
@@ -20,7 +22,7 @@ Le serveur n\'accepte pas pour le moment des pages plus de 64 KB et il était im
 
 ## Script
 
-Téléchargez le fichier:
+Téléchargez le fichier ici :
 
 [FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http://forum.freecadweb.org/download/file.php?id=4453)
 

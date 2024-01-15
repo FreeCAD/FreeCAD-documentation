@@ -43,7 +43,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Kaskadowo](Std_CascadeWindows/pl.md): Układa okna.
 
--   [Okna \...](Std_Windows/pl.md): Otwiera okno dialogowe, z którego można aktywować okno.
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Okna \...](Std_Windows/pl.md): Otwiera okno dialogowe, z którego można aktywować okno.
 
 
 

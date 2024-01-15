@@ -6,17 +6,29 @@
 
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## Benvenuti nelle pagine dell\'aiuto in linea di FreeCAD 
 
-Questa documentazione è stata creata automaticamente a partire dai contenuti del wiki ufficiale di FreeCAD, raggiungibile anche [online](http://www.freecadweb.org/wiki/index.php?title=Main_Page). Poiché il wiki on-line è aggiornato e revisionato con continuità dalla community di FreeCAD, è possibile che la documentazione disponibile on-line sia più esaustiva e completa. In ogni caso crediamo che questa documentazione contenga tutte le informazioni che possono essere utili. Se così non fosse è possibile consultare il [forum](http://forum.freecadweb.org/index.php) di FreeCAD, dove qualcuno sarà sicuramente in grado di aiutarvi.
+Il sistema di aiuto di FreeCAD è ospitato su un [wiki/it](http://wiki.freecad.org) costruito, mantenuto e sviluppato dalla comunità di utenti e sviluppatori di FreeCAD. Contiene informazioni generali su FreeCAD, tutorial, documentazione precisa su ciascun comando di FreeCAD e documentazione di programmazione per Python e C++. Contiene anche traduzioni di questa documentazione in diverse lingue. Ci auguriamo che troverai qui tutte le informazioni di cui hai bisogno. Nel caso in cui tu abbia domande a cui non riesci a trovare risposta in questa documentazione, dai un\'occhiata al [forum di FreeCAD](http://forum.freecadweb.org/index.php), dove potresti trovare già la risposta alla tua domanda, oppure trova qualcuno in grado di aiutarti.
+
+
 
 ### Come utilizzare FreeCAD 
 
-Questo manuale è diviso in varie sezioni: Introduzione, utilizzo, scripting e sviluppo. Le ultime tre sezioni sono rivolte a diverse tipologie di utenti: utilizzatore, interessato al semplice utilizzo del programma; power-user, interessato allo sviluppo di script ed a personalizzazioni avanzate dell\'ambiente; sviluppatore, che considera FreeCAD una base di partenza per la stesura di applicazioni personali per gli scopi più disparati. Se siete del tutto nuovi in FreeCAD vi consigliamo di partire dall\'introduzione.
+Questo documento è suddiviso in diverse sezioni:
+
+1.  [Introduzione e utilizzo](User_hub/it.md), per gli utenti finali che desiderano semplicemente utilizzare il programma.
+2.  [Python scripting](Power_users_hub/it.md), per gli utenti esperti che sono interessati alle capacità di scripting di FreeCAD e desiderano personalizzare alcuni dei suoi aspetti.
+3.  [Linee guida per lo sviluppo](Developer_hub/it.md), per gli sviluppatori che considerano FreeCAD come base per sviluppare le proprie applicazioni.
+
+Molte pagine di questo wiki sono anche raggruppate in un [Manuale](Manual/it.md) più facile da leggere. Se sei nuovo a FreeCAD, ti suggeriamo di iniziare a leggere il manuale.
+
+
 
 ### Contribuire
 
-Come sicuramente vi sarà capitato di constatare, i programmatori sono pessimi scrittori di guide e di help! Per loro, naturalmente, è tutto estremamente chiaro, avendo sviluppato personalmente tutte le caratteristiche del programma. E\' quindi fondamentale, che gli utenti più esperti diano una mano nella stesura degli help e nella loro correzione. Già, ci riferiamo proprio a te! Ti stai chiedendo come? Semplice, accedi alla [sezione Utente del wiki](http://www.freecadweb.org/wiki/Main_Page/it). Avrai bisogno di un account per loggarti. Chiedi sul forum o sul [canale IRC](https://www.freecadweb.org/wiki/Help#Chat) l\'autorizzazione alla scrittura del wiki (il wiki è protetto dalla scrittura per evitare lo spamming) e creeremo un account per te. Attualmente, l\'account wiki è separato dall\'account del forum ma creeremo l\'account wiki con lo stesso nome dell\'account del forum. Quindi potrai iniziare a modificare! Inoltre, controlla [questa pagina](http://www.freecadweb.org/wiki/index.php?title=Help_FreeCAD/it) per vedere in quali altri modi puoi aiutare FreeCAD.
+Come potresti aver sperimentato, i programmatori a volte sono pessimi scrittori di documentazione! È quindi fondamentale che utenti esperti aiutino a scrivere, aggiornare, correggere e rivedere la documentazione. Sì, intendiamo te! La modifica del wiki è [facile](https://www.mediawiki.org/wiki/Help:Formatting/it). Poiché questa wiki è protetta da scrittura per ridurre lo spam, avrai bisogno di un account wiki di FreeCAD per accedere. Chiedi [sul forum](https://forum.freecad.org/viewtopic.php?t=6830) e ti creeremo un account. Attualmente, l\'account wiki è separato dall\'account del forum, ma creeremo un account wiki con lo stesso nome del tuo account del forum. Quindi puoi iniziare a modificare! Inoltre, controlla [questa pagina](http://www.freecadweb.org/wiki/index.php?title=Help_FreeCAD/it) per ulteriori modalità con cui puoi aiutare FreeCAD.
 
 
 {{docnav/it

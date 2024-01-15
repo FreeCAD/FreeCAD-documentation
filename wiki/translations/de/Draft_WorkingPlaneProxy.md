@@ -62,9 +62,9 @@ Ein Draft ArbeitsebenenProxy wird von einem [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Basis}}
 
--    **Placement|Placement**: specifies the position of the working plane proxy in the [3D view](3D_view.md). See [Placement](Placement.md).
+-    {{PropertyData/de|Placement|Placement}}: Legt die Position der Arbeitsebene in der [3D-Ansicht](3D_view/de.md) fest. Siehe [Positionierung](Placement/de.md).
 
--    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
+-    {{PropertyData/de|Shape|Shape|Hidden}}: Legt die Form des Arbeitsebenen-Proxys fest.
 
 
 

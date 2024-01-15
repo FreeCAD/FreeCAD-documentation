@@ -67,4 +67,4 @@ Imposta la fotocamera del progetto raytracing selezionato secondo la vista corre
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/it
+⏵ [documentation index](../README.md) > Raytracing ResetCamera/it

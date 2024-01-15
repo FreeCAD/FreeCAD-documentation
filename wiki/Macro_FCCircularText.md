@@ -2,11 +2,11 @@
 {{Macro
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
-|Description={{ColoredText|#ff0000|#ffffff|Latest macro version supports a HiDPI layout (QGridLayout) and runs only on versions 0.18 or higher (requires PySide2/Qt5)}}<br/><br/>For backward compatible version of the macro see [https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install manually. <br/><br/>This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
+|Description=This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
 |Author=Mario52
-|Version=0.22
-|Date=2022/06/06
-|FCVersion=0.19
+|Version=0.22c
+|Date=2023/11/17
+|FCVersion=0.19 and more
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
 
@@ -161,7 +161,7 @@ Configuring characters in FCCircularText
 
 #### First zone 
 
-Your choice :
+Your choice:
 
 ![](images/FCCircularText_09.png )
 
@@ -686,6 +686,15 @@ Activate the Part module, then Menu Part \> Make compound. Image:FCCircularText 
 
 
 
+<center>
+
+ <File:YamahaDrumBadge00.gif%7CExemple> use ([Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?t=82577)) 
+
+
+</center>
+
+
+
 ## Limitations
 
 
@@ -710,6 +719,20 @@ Image:FCCircularText Correction.gif\|Character overlap issue and the workaround
  Writing on a path circular text of position object selected.
 
 ## Change log 
+
+-   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
+
+ see [Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?p=719353#p719353) 
+```python
+sel = Gui.Selection.getCompleteSelection()
+#delete objects
+#restore previous selection
+Gui.Selection.clearSelection()
+for s in sel:
+    Gui.Selection.addSelection(s.Object,s.SubElementNames)
+```
+
+-   ver 0.22b 2023/11/15 : upgrade correction **stylesheet** and **FreeCAD.activeDocument().recompute(None,True,True)**
 
 -   ver 0.22 2022/06/06 : adding QScrollArea cause : [Unable to run FCCircularText \[Problem with screen size\]](https://forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 

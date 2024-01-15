@@ -10,6 +10,8 @@
 
 # PartDesign Draft/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> **PartDesign Formschräge** versieht die ausgewähleten Flächen eines Objekts mit einer (Entform-)Schräge. Es fügt dem Dokument ein **Draft**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
@@ -22,7 +24,11 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> *
 
 
 
+
+
 ## Anwendung
+
+
 
 ### Eine Formschräge hinzufügen 
 
@@ -38,6 +44,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> *
 :   *Nicht vergessen*:
     -   Da das Werkzeug immer mindestens eine Fläche erfordert, kann die letzte vorhandene Fläche nicht aus der Liste entfernt werden.
 
+
+
 ### Eine Formschräge bearbeiten 
 
 1.  Eine der folgenden Möglichkeiten startet die Bearbeitung:
@@ -45,6 +53,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> *
     -   Das Draft-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Draft bearbeiten** aus dem Kontextmenü auswählen.
 2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Formschräge** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
+
+
 
 ## Optionen
 
@@ -63,15 +73,21 @@ Das Werkzeug <img alt="" src=images/PartDesign_Draft.svg  style="width:24px;"> *
 
 -    **Zugrichtung umkehren**: Umkehren der Zugrichtung durch aktivieren der Checkbox **|Entformungsrichtung umkehren**. Dies schaltet den Winkel der Schräge von positiv zu negativ um.
 
+
+
 ## Hinweise
 
 -   Das Werkzeug Formschräge arbeitet nur mit Flächen, die nicht tangential mit anderen Flächen verbunden sind. (Hier sollte das englische Original präzisiert werden\...) A common mistake is to attempt to apply draft to a face that already has a fillet applied to it. To solve this, remove the fillet, apply the draft as needed, then re-apply the fillet.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein PartDesign-Draft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -82,16 +98,16 @@ Ein PartDesign-Draft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 -    {{PropertyData/de|Reversed|Bool}}: Standardwert: `False`.
 
--    {{PropertyData/de|Base|LinkSub}}: Sub-link to the parent feature\'s list of selected edges and faces.
+-    {{PropertyData/de|Base|LinkSub}}: Sub-Link zur Liste der Ausgewählten Kanten und Flächen des übergeordneten Formelements.
 
--    {{PropertyData/de|Support Transform|Bool}}: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Standardwert: `False`.
+-    {{PropertyData/de|Support Transform|Bool}}: In Muster-Formelementen die hinzuzufügende bzw. abzuziehende Grundform berücksichtigen. Wenn deaktiviert, wird nur der Anteil der Form für das Muster berücksichtigt, der nach dem Einfügen erkennbar bleibt. Standardwert: `False`.
 
 -    {{PropertyData/de|Add Sub Shape|PartShape|hidden}}
     
 
--    {{PropertyData/de|Base Feature|Link|hidden}}: Link to the parent feature.
+-    {{PropertyData/de|Base Feature|Link|hidden}}: Verknüpfung zum übergeordneten Formelement.
 
--    {{PropertyData/de|_ Body|LinkHidden|hidden}}: Link to the parent body.
+-    {{PropertyData/de|_ Body|LinkHidden|hidden}}: Verknüpfung zum übergeordneten Körper.
 
 
 {{Properties_Title/de|Draft}}
@@ -104,7 +120,7 @@ Ein PartDesign-Draft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md
 
 {{Properties_Title/de|Part Design}}
 
--    {{PropertyData/de|Refine|Bool}}: \"Form aufbereiten (überflüssige Kanten entfernen) nach einer Hinzufügen- oder Entfernen-Operation. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
+-    {{PropertyData/de|Refine|Bool}}: Form aufbereiten (überflüssige Kanten entfernen) nach einer Hinzufügen- oder Entfernen-Operation. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
 
 
 

@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part ProjectionOnSurface
    Name/fr: Part Projection sur surface
-   MenuLocation: Part , Créer une projection sur une surface...
+   MenuLocation: Part , Projeter sur une surface...
    Workbenches: Part_Workbench/fr
    Version: 0.19
 ---
@@ -16,7 +16,7 @@
 
 **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection sur surface](Part_ProjectionOnSurface/fr.md)**
 
-est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[<img src=images/_Draft_ShapeString.svg style="width:16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
+est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[<img src=images/_Draft_ShapeString.svg style="width:16px"> [Draft Forme à partir d'un texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
 
 À partir d\'une [forme](Shape/fr.md), cet outil peut projeter des arêtes, des polylignes (arêtes fermées) ou des faces entières à partir de celle-ci. Le résultat peut être de nouvelles arêtes, de nouvelles polylignes, de nouvelles faces ou même de nouveaux solides extrudés qui peuvent être utilisés dans des <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [opérations booléennes](Part_Boolean/fr.md) pour des effets tels que la gravure ou l\'estampage.
 
@@ -31,7 +31,7 @@ est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface dep
 ## Utilisation
 
 1.  Assurez-vous d\'avoir au moins deux objets dans votre document; l\'objet \"source\" que vous souhaitez projeter et l\'objet \"cible\" où la projection sera faite.
-2.  Cliquez sur **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Créer une projection sur une surface](Part_ProjectionOnSurface/fr.md)** pour lancer un [Panneau des tâches](Task_Panel/fr.md) avec différentes options.
+2.  Cliquez sur **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projeter sur une surface...](Part_ProjectionOnSurface/fr.md)** pour lancer un [panneau des tâches](Task_Panel/fr.md) avec différentes options.
 3.  Cliquez sur **Sélectionner la surface de projection**, puis cliquez sur la surface \"cible\" où la projection sera créée.
 4.  Cliquez ensuite sur le bouton spécifique pour choisir le type de sous-élément que vous souhaitez ajouter à votre objet de projection.
     -   
@@ -49,7 +49,7 @@ est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface dep
         
         : sélectionnez un bord source. L\'outil projettera uniquement l\'arête sélectionnée.
 
-    -   Une fois qu\'un bouton est enfoncé, choisissez un sous-élément dans la [Vue 3D](3D_view/fr.md). Si vous souhaitez le désélectionner, choisissez à nouveau le même élément.
+    -   Une fois qu\'un bouton est enfoncé, choisissez un sous-élément dans la [vue 3D](3D_view/fr.md). Si vous souhaitez le désélectionner, choisissez à nouveau le même élément.
 
     -   Lorsque vous êtes satisfait de votre sélection, appuyez sur le même bouton **Ajouter...** pour quitter le mode de sélection.
 5.  Cliquez ensuite sur le bouton radio spécifique pour choisir le type de forme de projection à créer.
@@ -71,8 +71,8 @@ est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface dep
 
 Remarques :
 
--   La direction de projection est automatiquement prise à partir de la direction de la caméra dans la [Vue 3D](3D_view/fr.md) au moment où l\'outil est lancé.
--   Pour changer la direction, déplacez la caméra et appuyez sur **Obtenir la direction actuelle de la caméra**.
+-   La direction de projection est automatiquement prise à partir de la direction de la caméra dans la [vue 3D](3D_view/fr.md) au moment où l\'outil est lancé.
+-   Pour changer la direction, déplacez la caméra et appuyez sur **Obtenir la nouvelle direction de la caméra**.
 -   Vous pouvez également appuyer sur les boutons **X :**, **Y :** ou **Z :** pour définir la direction de projection vers les principaux axes globaux, +X, -X, +Y, -Y, +Z, ou -Z.
 -   Cependant, notez que changer la direction de projection ne mettra pas automatiquement à jour l\'aperçu de projection. Pour ce faire, vous devez re-sélectionner la géométrie en appuyant sur les boutons **Ajouter...** et en sélectionnant à nouveau les sous-éléments.
 
@@ -82,7 +82,7 @@ Remarques :
 
 -    **Hauteur de l'extrusion**: hauteur de la forme solide qui est créée en extrudant la face projetée à partir de la surface cible et le long du négatif de la direction de projection. Par exemple, si la direction de projection est le long de +Y {{Value|(0, 1, 0)}}, l\'extrusion sera créée dans la direction -Y {{Value|(0, -1, 0)}}. Cette extrusion solide ne sera créée que si le sous-élément sélectionné était une face fermée, en appuyant sur le bouton **Ajouter une face** et en choisissant l\'option {{RadioButton|TRUE|Tout afficher}}.
 
--    **Profondeur du solide**: distance à laquelle l\'objet de projection est déplacé le long de la direction de projection. Les valeurs négatives déplaceront l\'objet dans la direction opposée. Cela permet de créer une projection décalée de la surface cible.
+-    **Profondeur**: distance à laquelle l\'objet de projection est déplacé le long de la direction de projection. Les valeurs négatives déplaceront l\'objet dans la direction opposée. Cela permet de créer une projection décalée de la surface cible.
 
 
 

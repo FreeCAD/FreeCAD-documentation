@@ -1,6 +1,8 @@
 # Online Help Startpage/ja
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## FreeCADオンラインヘルプへようこそ
 
 
@@ -10,6 +12,8 @@
 
 
 </div>
+
+
 
 ### 使用方法
 
@@ -21,12 +25,16 @@
 
 </div>
 
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
+
 ### 支援
 
 
 <div class="mw-translate-fuzzy">
 
-あなたはプログラマーの書いたひどいヘルプを読んだ経験があるかもしれません。彼らにとってはプログラムの使い方は完璧に明らかです。何しろ作ったのは自分なのですから。つまり経験を積んだユーザーがドキュメントの作成や修正を手伝ってくれることが必要不可欠なのです。そう、あなたのことです！やり方がわかりませんか？まずUserセクションに記載された <http://apps.sourceforge.net/mediawiki/free-cad/index.php> にあるウィキに行ってください。ログインには[Sourceforgeのアカウント](http://sourceforge.net/)が必要です。ログインしたらフォーラムかIRCチャンネルで書き込み権限をくれるように依頼してください（スパム防止のためにウィキには書き込み保護がかかっています）。書き込み権限を手に入れたら編集ができるようになります！また[Help_FreeCADページも見てください](Help_FreeCAD/jp.md)。さらに多くのFreeCADを支援するための方法が記載されています。
+あなたはプログラマーの書いたひどいヘルプを読んだ経験があるかもしれません。彼らにとってはプログラムの使い方は完璧に明らかです。何しろ作ったのは自分なのですから。つまり経験を積んだユーザーがドキュメントの作成や修正を手伝ってくれることが必要不可欠なのです。そう、あなたのことです！やり方がわかりませんか？まずUserセクションに記載された <http://apps.sourceforge.net/mediawiki/free-cad/index.php> にあるウィキに行ってください。ログインには[Sourceforgeのアカウント](http://sourceforge.net/)が必要です。ログインしたらフォーラムかIRCチャンネルで書き込み権限をくれるように依頼してください（スパム防止のためにウィキには書き込み保護がかかっています）。書き込み権限を手に入れたら編集ができるようになります！また[Help_FreeCAD](Help_FreeCAD/jp.md)ページも見てください。さらに多くのFreeCADを支援するための方法が記載されています。
 
 
 </div>

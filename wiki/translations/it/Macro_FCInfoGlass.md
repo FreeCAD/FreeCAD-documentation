@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Fornisce una serie di informazioni sulla forma selezionata e visualizza i dati direttamente nella vista 3D
@@ -54,6 +56,8 @@ global colorize              ; colorize                      ="black" # colorize
                                                                       # "black" "white" "red" "green" "blue" "yellow" "magenta" "cyan"
 
 ```
+
+
 
 ## Esempi
 
@@ -242,6 +246,8 @@ La discussione nel forum [FCInfo Macro](http://forum.freecadweb.org/viewtopic.ph
 </div>
 
 Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
+
+
 
 ## Versione
 

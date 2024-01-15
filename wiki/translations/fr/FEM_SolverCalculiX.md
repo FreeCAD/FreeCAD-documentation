@@ -5,7 +5,7 @@
    MenuLocation: Résolution , Solveur CalculiX 
    Workbenches: FEM_Workbench/fr
    Shortcut: **S** **C**
-   SeeAlso: FEM_CalculiX/fr, FEM_tutorial/fr
+   SeeAlso: 
 ---
 
 # FEM SolverCalculiX/fr

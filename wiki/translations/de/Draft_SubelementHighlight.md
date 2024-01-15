@@ -24,27 +24,36 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 ## Anwendung
 
+1.  Wahlweise eine oder mehrere [Draft Linien](Draft_Line/de.md), [Draft Kantenzüge](Draft_Wire/de.md) oder Objekte deren {{PropertyData/de|Basis}} Objekte enthält, die [Draft Linien](Draft_Line/de.md) oder [Draft Kantenzüge](Draft_Wire/de.md) sind.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle ein Objekt.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_SubelementHighlight.svg" width=16px> [UnterelementMarkieren](Draft_SubelementHighlight/de.md)** Schaltfläche
-    -   Verwende den **D** dann **E** Tastaturkürzel
-    -   Verwende den **Änderung → UnterelementMarkieren** Eintrag im Menü Entwurf
-    -   Klicke auf alle Punkte, die du verschieben möchtest.
-    -   Klicke einen anderen Punkt in der 3D Ansicht an, oder gib eine Koordinate ein und drücke den **<img src="images/Draft_AddPoint.svg" width=24px> Punkt hinzufügen**.
-3.  Drücke **Esc** oder die **Schliessen** Schaltfläche , um den aktuellen Befehl abzuschließen.
+    -   Die Schaltfläche **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Unterelement hervorheben](Draft_SubelementHighlight/de.md)** drücken.
+    -   Den Menüeintrag **Modification → <img src="images/Draft_SubelementHighlight.svg" width=16px> Unterelement hervorheben** auswählen.
+    -   Das Tastaturkürzel **H** dann **S**.
 
+3.  Wurde noch kein Element ausgewählt: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
 
-</div>
+4.  Die ausgewählten Ojekte werden (bei Bedarf) eingeblendet, ihre {{PropertyView/de|Line Color}} und {{PropertyView/de|Point Color}} werden auf rot geändert und ihre {{PropertyView/de|Point Size}} wird auf {{Value|10}} geändert.
+
+5.  Es ist ratsam, jetzt die bestehende Auswahl abzuwählen, z.B. durch klicken auf einen beliebigen Punkt in der [3D-Ansicht](3D_view/de.md).
+
+6.  Ein oder mehrere Unterelemente, Kanten oder Punkte, des Objekts, die rot markiert wurden, auswählen.
+
+7.  [Draft Verschieben](Draft_Move/de.md), [Draft Drehen](Draft_Rotate/de.md) oder [Draft Skalieren](Draft_Scale/de.md) aufrufen.
+
+8.  Unterelement-Modus im Aufgaben-Bereich des Befehls umschalten, indem die Checkbox **Unterelemente ändern** aktiviert wird.
+
+9.  Die ausgewählten Unterelemente ändern und den laufenden Draft-Befehl fertigstellen.
+
+10. 
+    **Esc**drücken, um die temporären visuellen Änderungen der Objekte zurückzunehmen.
 
 
 
 ## Hinweise
 
--   If objects have been highlighted with this command the temporary visual changes should be reverted before saving and reopening the file.
--   Highlighted objects should not be copied if subelement mode is off. The temporary visual changes cannot be reverted for copies created in this manner.
+-   Wurden Objekte mit diesem Befehl hervorgehoben, sollten die temporären visuellen Änderungen zurückgenommen werden, bevor die Datei gespeichert und wieder geöffnet wird.
+-   Hervorgehobene Objekte sollten nicht Kopiert werden, wenn der Unterelement-Modus ausgeschaltet ist. Die temporären visuellen Änderungen können für Kopien, die auf diese Art erstellt wurden, nicht zurückgenommen werden.
 
 
 

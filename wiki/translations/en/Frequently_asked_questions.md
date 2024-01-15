@@ -31,6 +31,10 @@ All those components and the appropriate way to install them are listed on the [
 
 ## Troubleshooting
 
+### Known OS-specific issues 
+
+Find known OS-specific issues on this [forum thread](https://forum.freecad.org/viewtopic.php?t=30573)
+
 ### FreeCAD doesn\'t start at all 
 
 There might be a lot of reasons for that, the most likely is that some library is missing. Try starting FreeCAD from a terminal (type {{SystemInput|freecad}} at a terminal prompt, {{SystemInput|FreeCAD}} on some systems) to see if some error message appears. Also, read the rest of this FAQ as it can give you more clues to detect the cause of the problem. If nothing helps, tell about it on the [forum](http://forum.freecadweb.org/), there will surely be someone who can help.

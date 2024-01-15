@@ -24,8 +24,6 @@ Bu araç, seçili nesneleri mevcut bir gruba eklemenizi veya mevcut gruplarında
 
 </div>
 
-In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workbench.md) objects.
-
 ## Usage
 
 

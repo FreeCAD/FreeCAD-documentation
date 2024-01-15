@@ -1,5 +1,5 @@
 # Manual:Installing/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 FreeCAD usa la licenza [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), che permette di scaricare, installare, ridistribuire e utilizzare FreeCAD nel modo desiderato, a prescindere dal tipo di lavoro si farà con esso (commerciale o non commerciale). Non si è tenuti a rispettare nessuna clausola o restrizione, e i file prodotti sono di completa proprietà dell\'autore. In realtà, l\'unica cosa vietata dalla licenza è quella di affermare che avete programmato FreeCAD voi stessi!
 

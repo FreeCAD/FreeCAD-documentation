@@ -1,27 +1,34 @@
 ---
  GuiCommand:
    Name: Fasteners Flip
-   MenuLocation: Fasteners , Invert fastener
-   Workbenches: Fasteners_Workbench
+   Name/pl: Elementy Złączne: Odwróć
+   MenuLocation: Elementy Złączne , Odwróć
+   Workbenches: Fasteners_Workbench/pl
 ---
 
 # Fasteners Flip/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Flip** command inverts the orientation of [attached fasteners](Fasteners_Workbench#Usage.md) by changing their **invert** property.
 
-## Usage
+## Opis
 
-1.  Select one or more attached fasteners. The selection may include unattached fasteners, but these will not be flipped. See [Notes](#Notes.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_Flip.svg" width=16px> [Invert fastener](Fasteners_Flip.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** option from the menu.
-3.  The orientation of the selected attached fasteners is inverted.
+Polecenie <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Odwróć** odwraca orientację [dołączonego elementu złącznego](Fasteners_Workbench#Użycie.md) poprzez zmianę właściwości **odwrócenie**.
 
-## Notes
 
--   The **invert** property is ignored for unattached fasteners and they cannot be flipped with this command. To flip them their **Placement** should be changed, for example with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej dołączonych elementów złącznych. Wybór może obejmować nieprzymocowane elementy złączne, ale nie zostaną one odwrócone. Zobacz [Uwagi](#Uwagi.md).
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_Flip.svg" width=16px> '''Odwróć'''**.
+    -   Wybierz opcję z menu **Elementy złaczne → <img src="images/Fasteners_Flip.svg" width=16px> Odwróć**.
+3.  Orientacja wybranych elementów złącznych zostanie odwrócona.
+
+
+
+## Uwagi
+
+-   Właściwość **Odwrócone** jest ignorowana dla niezamocowanych elementów złącznych i nie można ich odwrócić za pomocą tego polecenia. Aby je odwrócić, należy zmienić ich **Umiejscowienie**, na przykład za pomocą narzędzia <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Przemieszczenie](Std_TransformManip/pl.md).
 
 
 

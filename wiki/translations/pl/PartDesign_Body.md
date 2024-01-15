@@ -184,7 +184,7 @@ Wszystkie elementy składowe Zawartości są powiązane z jej odniesieniem poło
 
 
 
-### Właściwość podstawowa 
+### Cecha podstawowa 
 
 Element cechy bazowej jest pierwszym elementem [cecha projektu części](PartDesign_Feature/pl.md) w Zawartości, gdy Zawartość jest oparta na innym kształcie bryły. Bryła ta może być utworzona przez dowolne środowisko pracy lub zaimportowana z pliku zewnętrznego, na przykład z pliku STEP.
 

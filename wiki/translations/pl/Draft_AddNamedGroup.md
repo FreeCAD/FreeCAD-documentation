@@ -1,32 +1,39 @@
 ---
  GuiCommand:
    Name: Draft AddNamedGroup
-   MenuLocation: Utilities , Add a new named group
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Dodaj grupę o nazwie
+   MenuLocation: Narzędzia , Dodaj grupę o nazwie
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: 
    Version: 0.20
-   SeeAlso: Std_Group, Draft_AddToGroup, Draft_AutoGroup
+   SeeAlso: Std_Group/pl, Draft_AddToGroup/pl, Draft_AutoGroup/pl
 ---
 
 # Draft AddNamedGroup/pl
 
-## Description
 
-The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft AddNamedGroup** command creates a named [Std Group](Std_Group.md) and moves selected objects to that group.
 
-## Usage
+## Opis
 
-1.  Optionally select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Draft AddNamedGroup](Draft_AddNamedGroup.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_AddNamedGroup.svg" width=16px> Add a new named group** option from the menu.
-3.  The **Add group** task panel opens.
-4.  Enter a **Group name**.
-5.  Press the **OK** button.
+Polecenie <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Dodaj grupę o nazwie** tworzy nazwaną [Grupę](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy.
 
-## Notes
 
--   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
+
+## Użycie
+
+1.  Opcjonalnie wybierz jeden lub więcej obiektów.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_AddNamedGroup.svg" width=16px> '''Dodaj grupę o nazwie'''**.
+    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_AddNamedGroup.svg" width=16px> Dodaj grupę o nazwie**.
+3.  Otworzy się panel zadań **Dodaj grupę**.
+4.  Wprowadź **Nazwę grupy**.
+5.  Naciśnij przycisk **OK**.
+
+
+
+## Uwagi
+
+-   Więcej informacji na temat organizacji modelu można znaleźć na stronie [Struktura dokumentu](Document_structure/pl.md) oraz [Poradnik dla środowiska pracy Architektura](Arch_tutorial/pl#Porządkowanie_modelu.md).
 
 
 

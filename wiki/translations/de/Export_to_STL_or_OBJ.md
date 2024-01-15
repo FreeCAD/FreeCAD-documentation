@@ -13,46 +13,72 @@
 
 
 
-## Einführung
+
+
+## Einleitung
 
 In diesem Tutorial werden wir beschreiben, wie man STL/OBJ-Dateien aus FreeCAD exportiert. Da das Mesh-Format STL/OBJ dimensionslos ist, geht FreeCAD beim Export davon aus, dass die im Modell benutzen Einheiten in mm sind. Falls dies nicht der Fall sein sollte, muss das Modell entsprechend skaliert werden. Ein Weg dazu ist die Nutzung von <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> [Draft Skalieren](Draft_Scale/de.md).
 
+
+
 ## Beispiel-Teil 
 
-Natürlich kann ein eigenes Modell verwendet werden, aber man kann sich auch schnell ein Modell zum Testen erstellen, indem man
+Man kann ein eigenes Modell verwenden, man kann sich aber auch schnell ein Modell zum Testen erstellen:
 
--   FreeCAD startet
--   Ein neues Dokument erstellt
--   Zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part-Arbeitsbereich](Part_Workbench/de.md) wechselt
--   Einen Würfel einfügt durch Klick auf <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Part Würfel](Part_Box/de.md)
--   Einen Kegel einfügt durch Klick auf <img alt="" src=images/Part_Cone.png  style="width:32px;"> [Part Kegel](Part_Cone/de.md)
--   Beide Objekte in der [Baumansicht](Tree_view/de.md) auswählt
--   Eine bool\'sche Verschmelzung erzeugt durch Klick auf <img alt="" src=images/Part_Fuse.png  style="width:32px;"> [Part Vereinigung](Part_Fuse/de.md)
--   Danach die Datei speichert \...
+1.  FreeCAD starten.
+2.  Ein neues Dokument erstellen.
+3.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) wechseln.
+4.  Einen Würfel durch Anklicken von <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) einfügen.
+5.  Einen Kegel durch Anklicken von <img alt="" src=images/Part_Cone.png  style="width:24px;"> [Part Kegel](Part_Cone/de.md) einfügen.
+6.  Beide Objekte in der [Baumansicht](Tree_view/de.md) auswählen.
+7.  Eine boolesche Vereinigung durch Anklicken von <img alt="" src=images/Part_Fuse.png  style="width:24px;"> [Part Vereinigung](Part_Fuse/de.md) anwenden.
+8.  Die Datei speichern.
+
+
 
 ## Export-Methode 1: Benutzung von \"Datei → Exportieren\" 
 
--   Den zu exportierenden Körper in der Baumansicht auswählen
--   Wähle **Datei** → **Exportieren...** und setze den Dateityp auf \"STL mesh (\*.stl \*.ast)\"
--   Gib den Dateinamen ein. Die Standarddateiendung ist \".stl.\". Für die Erzeugung einer .ast-Datei ist sie auf \".ast\" zu ändern. Klicke auf ** Speichern**.
+1.  With the default settings, this method creates a mesh with noticeably jagged curves. To get a smoother finish when e.g. 3D printing, the mesh resolution should be configured:
+    1.  Make sure the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) has been loaded (it is not loaded by default).
+    2.  Go to **Edit → Preferences... → Import-Export → Mesh Formats**.
+    3.  Change **Maximum mesh deviation**. A lower value will produce a mesh with a higher resolution.
+2.  Select the solid to be exported in the tree view.
+3.  Choose **File → Export...** and set the file type to **STL mesh (*.stl *.ast)**.
+4.  Enter your file name. The default extension is **.stl**. You must include the extension **.ast** to produce an **.ast** file.
+5.  Choose **Save**.
+
+
 
 ## Export-Methode 2: Benutzung des Mesh-Design-Arbeitsbereichs in FreeCAD 
 
--   Wechsle in den [Mesh Design-Arbeitsbereich](Mesh_Workbench/de.md)
--   Wähle den zu vernetzenden Körper in der Baumansicht aus
--   Wähle ** Netze** → **<img src="images/Mesh_Mesh_from_Shape.svg" width=32px> Netz aus Form erstellen...** aus dem obersten Menü aus
--   Wähle einen der drei verfügbaren Vernetzer und wähle die Vernetzungs-Parameter, für weitere Informationen siehe [diese Seite (Netz aus Körpern)](Mesh_FromPartShape/de.md)
--   Wähle **OK** und der Netzkörper wird in der Baumansicht erstellt (mit einem grünen Netz-Icon)
--   Wähle den Netzkörper in der Baumansicht aus und mache einen Rechts-Klick auf den Eintrag
--   Wähle **<img src="images/Mesh_ExportMesh.png" width=32px> Exportiere Netz** um das Netz zu exportieren
--   Nun den Dateinamen festlegen (es wird der Name des Netzkörpers vorgeschlagen) und den Dateityp (Standard ist \"Binary STL (\*.stl)\")
--   Wähle **Speichern**
+1.  Zum Arbeitsbereich [Mesh](Mesh_Workbench/de.md) wechseln.
+
+2.  Den zu vernetzenden Festkörper in der Baumansicht auswählen.
+
+3.  Den Menüeintrag {{MenuCommand |Netze → <img src="images/Mesh_Mesh_from_Shape.svg" width=24px> Netz aus Form erstellen...}} auswählen.
+
+4.  Einen der drei verfügbaren Vernetzer auswählen und dann die Vernetzungs-Parameter. Für weitere Informationen siehe [NetzAusPartForm](Mesh_FromPartShape/de.md).
+
+5.  
+    **OK**auswählen und der Netzkörper wird in der Baumansicht erstellt (mit einem grünen Netz-Symbol).
+
+6.  Das Netzobjekt in der Baumansicht mit einem Rechtsklick auswählen und **<img src="images/Mesh_Export.svg" width=24px> Netz exportieren...** auswählen.
+
+7.  Den Dateinamen eingeben; ohne Dateiendung. Die Dateiendung wird auf Basis des Dateityps vergeben. Wird eine Endung eingegeben, die nicht mit dem ausgewählten Dateityp übereinstimmt, wird die Dateiendung angehängt, die dem ausgewählten Typ entspricht, wenn die Datei gespeichert wird.
+
+8.  Der Standard-Dateityp ist **Binary STL (*.stl)**. Er kann bei Bedarf geändert werden.
+
+9.  
+    ** Speichern**auswählen.
+
+
 
 ## Welche Methode sollte man wählen? 
 
-Methode 2 ist zu bevorzugen: Wenn Du mehr als einen Body zu konvertieren hast, kannst Du Werkzeuge aus dem <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh-Arbeitsbereich](Mesh_Workbench/de.md) verwenden. Beispielweise kannst Du Netze vor dem Exportieren verschmelzen.
+-   Methode 1 kann in den meisten Situationen verwendet werden, wo eine Netzdatei benötigt wird.
+-   Mit Methode 2 lässt sich ein Netz in FreeCAD überprüfen. Und wenn mehr als ein Festkörper konvertiert werden soll, können Werkzeuge des Arbeitsbereichs [Mesh](Mesh_Workbench/de.md) verwendet werden; z.B. können Netze vereinigt werden, bevor sie exportiert werden.
 
--   Gewölbte Oberflächen werden in STL als eine Reihe von geradlinigen Segmenten dargestellt, generiert durch Parkettierung (Tesselation). Dies resultiert in geringfügig zu kleinen inneren Abmessungen für gewölbte Oberflächen. In diesen Fällen kann ein feinerer Parkettierungswert helfen. Beim Exportieren aus anderen Arbeitsbereichen über **Datei** → **Export...** wird die Parkettierung über die Einstellungen in ** Bearbeiten** → **Einstellungen...** → Part design → Form-Ansicht → Tesselierung kontrolliert. Allerdings beeinflussen diese Parameter die Parkettierung bei der Anzeige von Formen, so dass Verringerungen zu einer Verlangsamung führen werden, oftmals spürbar. Außerdem hat ein Export direkt nach der Änderung der Parameter nicht den gewünschten Effekt, weil die Anzeige nicht sofort aktualisiert wird. Man muss eine Änderung im darunter liegenden Modell erzwingen, damit die Parkettierung aktualisiert wird - z.B. durch Anpassung eines Skizzenparameters (setzen auf den ursprünglichen Wert reicht aus).
+
 
 ## Verweise
 

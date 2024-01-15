@@ -13,7 +13,7 @@
 
 ### Available solvers in various Linux distributions 
 
-The [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) repository tracks the dependencies of FreeCAD across many Linux distribution. The [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) page looks at available open source FEA solvers that could be used with the [FEM Workbench](FEM_Workbench.md). The page shows the version of a particular solver in the repository of a particular Linux distribution. This information is useful to know if a solver is current, or out of date and must be upgraded.
+The [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) repository tracks the dependencies of FreeCAD across many Linux distributions. The [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) page looks at available open-source FEA solvers that could be used with the [FEM Workbench](FEM_Workbench.md). The page shows the version of a particular solver in the repository of a particular Linux distribution. This information is useful to know if a solver is current, or out of date and must be upgraded.
 
 The information is also discussed in the forum: [supported and not supported Solver](https://forum.freecadweb.org/viewtopic.php?f=18&t=26326&start=10#p270325).
 
@@ -31,7 +31,7 @@ The Elmer multiphysics solver was integrated into FreeCAD as a [Google Summer of
 
 ### Mystran
 
-Mystran is a structural analysis program which uses Nastran input file format. It is released under MIT license. Which means it seems OpenSource. See [main website](https://www.mystran.com/), [code repository](https://github.com/dr-bill-c/MYSTRAN) and [Mystran-FreeCAD-forum (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=46171).
+Mystran is a structural analysis program that uses the Nastran input file format. It is released under MIT license which means that it\'s open-source. See [main website](https://www.mystran.com/), [code repository](https://github.com/dr-bill-c/MYSTRAN) and [Mystran-FreeCAD-forum (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=46171).
 
 ### Z88
 
@@ -43,7 +43,7 @@ See the information:
 -   Release notes: [Z88os V15 released 17.07.2017](https://forum.z88.de/viewtopic.php?f=18&t=885), [Z88os V13 released 20.05.2009](https://forum.z88.de/viewtopic.php?t=90) (version in Debian Jessie 8, Stretch 9, Buster 10).
 -   [How to use Z88 in FEM? (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=23318).
 
-There are two versions, Z88OS is the open source edition, while Z88Aurora is freeware, and includes a graphical interface and additional solution methods.
+There are two versions, Z88OS is the open-source edition, while Z88Aurora is freeware, and includes a graphical interface and additional solution methods.
 
 ## Solvers implemented as external workbenches 
 
@@ -61,7 +61,7 @@ DesignSPHysics can be installed through the [AddonManager](Std_AddonMgr.md).
 
 FastHenry and FasterCap are inductance-resistance and capacitance field solvers developed by FastFieldSolvers: [main website](https://www.fastfieldsolvers.com/default.asp), [download page](https://www.fastfieldsolvers.com/download.htm) (binary and source code), [forum](https://www.fastfieldsolvers.com/forum/).
 
-The [EM Workbench](EM_Workbench.md) is an external workbench that was created to serve as the front-end for these electromagnetic solvers. FastHenry, for 3D magneto-quasistatic impedance analysis, is fully supported, while FasterCap is accessible through some Python macros.
+The [EM Workbench](EM_Workbench.md) is an external workbench that was created to serve as the front end for these electromagnetic solvers. FastHenry, for 3D magneto-quasistatic impedance analysis, is fully supported, while FasterCap is accessible through some Python macros.
 
 See: [ElectroMagnetic Workbench (main forum topic)](https://forum.freecadweb.org/viewtopic.php?f=9&t=33372) , [Electromagnetic Workbench - again.. (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=31920), [FreeCAD for ElectroMagnetics (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=5400), [code repository for the workbench](https://github.com/ediloren/EM-Workbench-for-FreeCAD).
 
@@ -82,7 +82,7 @@ Some of the problems that are intended to be overcome by this solver include
 
 The author considers FreeCAD a good prototyping platform to quickly set up, test, and visualize different structural problems, so having an integrated yet flexible solver is very helpful. See [fcFEM - FEA from start to finish (main forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=33974).
 
-fcFEM is packaged as a python library and a macro, and can be downloaded from the [github repository](https://github.com/HarryvL/fcFEM). It will eventually be available from the [AddonManager](Std_AddonMgr.md), or will be distributed as part of FreeCAD itself.
+fcFEM is packaged as a Python library and a macro and can be downloaded from the [github repository](https://github.com/HarryvL/fcFEM). It will eventually be available from the [AddonManager](Std_AddonMgr.md) or will be distributed as part of FreeCAD itself.
 
 ### OpenFoam
 
@@ -93,7 +93,7 @@ OpenFoam is available in FreeCAD through two external workbenches:
 -   [Cfd](https://github.com/qingfengxia/Cfd), originally by Qingfeng Xia.
 -   [CfdOF](https://github.com/jaheyns/CfdOF), a fork of Cfd focusing on ease of use.
 
-While Cfd is intended to be feature-complete for advanced users, CfdOF focuses on users that are just starting in the world of CFD and OpenFoam.
+While Cfd is intended to be feature-complete for advanced users, CfdOF focuses on users who are just starting in the world of CFD and OpenFoam.
 
 For Cfd: [update on FreeCAD + OpenFOAM fluid dynamic computation (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=13699), [Progress of the general Computational Fluid Dynamics (CFD) workbench: CfdWorkbench (old forum topic)](https://forum.freecadweb.org/viewtopic.php?f=37&t=22993).
 
@@ -113,13 +113,13 @@ See: [main website](https://fenicsproject.org/), [Fenics as Solver (forum topic)
 
 ### OOFEM
 
-[OOFEM](http://www.oofem.org/) is an object oriented FEM program by the Czech Technical University, for solving mechanical, transport and fluid mechanics problems.
+[OOFEM](http://www.oofem.org/) is an object-oriented FEM program by the Czech Technical University, for solving mechanical, transport and fluid mechanics problems.
 
 It was mentioned as having some advantages over CalculiX, like interface elements ([pre-stressed pre/post-tensioned concrete bridge (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=30286&start=20#p260275)), and arc-length control for elastic-plastic collapse analysis ([FEM - Tubular Connection with Shell Elements (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=24&t=26921&hilit=Arc#p215325)).
 
 Preliminary integration into the FEM Workbench has been done. See: [OOFem (main forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=31288), [test request, multiple solvers (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=15568&start=20#p126338).
 
-Until the solver integration is completed and the new code is merged into the main FreeCAD repository, the required files for using the solver in the FEM Workbench can be downloaded from a [forked FreeCAD branch](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem/src/Mod/Fem/). For a implementation overview have a look at the very clean commit history <https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem>
+Until the solver integration is completed and the new code is merged into the main FreeCAD repository, the required files for using the solver in the FEM Workbench can be downloaded from a [forked FreeCAD branch](https://github.com/berndhahnebach/FreeCAD_bhb/tree/femoofem/src/Mod/Fem/). For an implementation overview have a look at the very clean commit history <https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem>
 
 ### MBDyn
 
@@ -129,7 +129,7 @@ Until the solver integration is completed and the new code is merged into the ma
 
 ## Solvers not integrated 
 
-The following solvers have not been integrated into FreeCAD but they have garnered some interest by the user community. If a developer wishes to create a communication bridge for a particular solver, he or she should refer to the [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18) for advice and assistance.
+The following solvers have not been integrated into FreeCAD but they have garnered some interest from the user community. If a developer wishes to create a communication bridge for a particular solver, he or she should refer to the [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18) for advice and assistance.
 
 The following articles may be outdated, but the information they contain may still be useful to understand how to integrate solvers into FreeCAD
 
@@ -147,7 +147,7 @@ See [ADAPy](https://github.com/Krande/adapy/) and [ADA - Assembly for Design & A
 
 ### Code-Aster and Code-Saturne 
 
-[Code-Aster](https://www.code-aster.org/) is an open source multiphysics solver; together with the Salomé-Meca pre-processor they form a simulation platform developed by EDF-GDF, France\'s biggest energy company. It was an early package considered for inclusion in FreeCAD: [FreeCAD and Code-Aster/Salome-Meca (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=2839).
+[Code-Aster](https://www.code-aster.org/) is an open-source multiphysics solver; together with the Salomé-Meca pre-processor, they form a simulation platform developed by EDF-GDF, France\'s biggest energy company. It was an early package considered for inclusion in FreeCAD: [FreeCAD and Code-Aster/Salome-Meca (forum topic)](https://forum.freecadweb.org/viewtopic.php?t=2839).
 
 [Code-Saturne](https://www.code-saturne.org/cms/) is a free, open-source software developed and released by EDF to solve computational fluid dynamics (CFD).
 
@@ -163,21 +163,21 @@ It was suggested in the forums to perform reinforced concrete frames analysis (b
 
 ### Impact FEM 
 
--   <http://www.impact-fem.org/> (broken link)
+-   <https://sourceforge.net/projects/impact/>
 
 ### libMesh
 
-[libMesh](https://libmesh.github.io/) is a c++ finite element library for the numerical solution of partial differential equations, with a major goal to provide support for adaptive mesh refinement (AMR) computations in parallel: [code repository](https://github.com/libMesh/libmesh).
+[libMesh](https://libmesh.github.io/) is a C++ finite element library for the numerical solution of partial differential equations, with a major goal to provide support for adaptive mesh refinement (AMR) computations in parallel: [code repository](https://github.com/libMesh/libmesh).
 
 It was suggested to integrate this library into FreeCAD as part of a [Google Summer of Code project](Google_Summer_of_Code.md): [GSOC 2019 Configuration Management Project (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=8&t=35493).
 
 ### Modelica
 
-[Modelica](https://www.modelica.org/) is a language to model and optimize complex, and interconnected physical systems, for example, mechanical, electrical, thermal, hydraulic, and others. The language itself and its standard libraries are open source. Some simulation environments based on Modelica, like Catia\'s Dymola, are proprietary, but there are also free implementations like [OpenModelica](https://openmodelica.org/) and [JModelica](https://jmodelica.org/).
+[Modelica](https://www.modelica.org/) is a language to model and optimize complex, and interconnected physical systems, for example, mechanical, electrical, thermal, hydraulic, and others. The language itself and its standard libraries are open-source. Some simulation environments based on Modelica, like Catia\'s Dymola, are proprietary, but there are also free implementations like [OpenModelica](https://openmodelica.org/) and [JModelica](https://jmodelica.org/).
 
 With FreeCAD, Modelica was suggested to help perform animations, but more broadly it could be used in mechanical and building engineering to solve equations and optimize a particular design: [Modelica (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556).
 
-The [PyFMI](https://pypi.org/project/PyFMI/) package contains Python bindings to work with FMU models, which are standardized models in binary format produced by compliant Modelica environments, including Dymola, OpenModelica, and JModelica. It was suggested that this library could help FreeCAD connect to a [Modelica system](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556#p272632) (forum topic).
+The [PyFMI](https://pypi.org/project/PyFMI/) package contains Python bindings to work with FMU models, which are standardized models in the binary format produced by compliant Modelica environments, including Dymola, OpenModelica, and JModelica. It was suggested that this library could help FreeCAD connect to a [Modelica system](https://forum.freecadweb.org/viewtopic.php?f=18&t=32556#p272632) (forum topic).
 
 ### Mumps
 
@@ -187,9 +187,9 @@ It does not perform finite element analysis directly, but it may be used interna
 
 ### Nastran
 
-Nastran is a structural analysis program developed by NASA in the 1970s. Modern versions of it are commercial products and closed source; however, older versions of it, [Nastran-93](https://github.com/nasa/NASTRAN-93) and [Nastran-95](https://github.com/nasa/NASTRAN-95) were released as open source in 2015. Forum post: [Nastran (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=12753).
+Nastran is a structural analysis program developed by NASA in the 1970s. Modern versions of it are commercial products and closed source; however, older versions of it, [Nastran-93](https://github.com/nasa/NASTRAN-93) and [Nastran-95](https://github.com/nasa/NASTRAN-95) were released as open-source in 2015. Forum post: [Nastran (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=12753).
 
-There is no technical support for the open source code, and it is probably difficult to compile in a modern system.
+There is no technical support for the open-source code, and it is probably difficult to compile in a modern system.
 
 ### OpenSees
 
@@ -197,21 +197,21 @@ There is no technical support for the open source code, and it is probably diffi
 
 ### PolyFEM
 
-[PolyFEM](https://polyfem.github.io/) is a simple C++ and Python finite element library. We provide a wide set of common partial differential equations including: Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
+[PolyFEM](https://polyfem.github.io/) is a simple C++ and Python finite element library. We provide a wide set of common partial differential equations including Laplace, Helmholtz, Linear Elasticity, Saint-Venant Elasticity, Neo-Hookean Elasticity and Stokes. [PolyFEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=42857).
 
 ### Sparselizard
 
-[Sparselizard](http://www.sparselizard.org/) is a fast, general, multiphysics, p-adaptive, open source C++ finite element library running on Linux, Mac and Windows. It is used to design next generation microdevices (ultrasound transducers, micromirrors, microvalves, comb drives,\...) and it is carefully validated against analytical solutions, third party software and measurements of the fabricated devices. It looks like it is developed by the team of gmsh mesh generator.
+[Sparselizard](http://www.sparselizard.org/) is a fast, general, multiphysics, p-adaptive, open-source C++ finite element library running on Linux, Mac and Windows. It is used to design next-generation microdevices (ultrasound transducers, micromirrors, microvalves, comb drives,\...) and it is carefully validated against analytical solutions, third-party software and measurements of the fabricated devices. It looks like it is developed by the team of gmsh mesh generator.
 
 ### SU2
 
 [SU2](https://su2code.github.io/) is a collection of software tools developed in C++ and Python for the solution of [partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equation) (PDE) and PDE-constrained optimization problems on unstructured meshes. It is particularly used in the fields of aerodynamics and computational fluid dynamics (CFD).
 
-### Technog
+### Tochnog
 
-Technog Professional is a closed source program to perform geotechnical simulations such as landslides, driving piles, slope stability, and civil engineering calculations (masonry and earthquake response), [website](http://www.feat.nl/) (broken link).
+Tochnog Professional is a closed-source program to perform geotechnical simulations such as landslides, driving piles, slope stability, and civil engineering calculations (masonry and earthquake response), [website](https://www.tochnogprofessional.nl/).
 
-Technog was successfully used in FreeCAD as a substitute of CalculiX, although the trial version is limited in the number of elements it can handle: [Integration of tochnog solver in FreeCAD FEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
+Tochnog was successfully used in FreeCAD as a substitute of CalculiX, although the trial version is limited in the number of elements it can handle: [Integration of tochnog solver in FreeCAD FEM (forum topic)](https://forum.freecadweb.org/viewtopic.php?f=18&t=26772).
 
 ### XC
 

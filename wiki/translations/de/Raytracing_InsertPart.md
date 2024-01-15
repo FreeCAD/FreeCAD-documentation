@@ -74,4 +74,4 @@ Einfügen einer Ansicht eines Teils in ein Raytracing Projekt.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing InsertPart/de
+⏵ [documentation index](../README.md) > Raytracing InsertPart/de

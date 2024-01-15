@@ -15,6 +15,8 @@
 
 L\'outil Référence vous permet de placer dans le document actuel un objet qui copie sa forme et ses couleurs à partir d\'un objet basé sur l\'[Atelier Part](Part_Workbench/fr.md) (y compris [Arch Partie de bâtiment](Arch_BuildingPart/fr.md)) stocké dans un autre fichier FreeCAD. Si ce fichier FreeCAD change, l\'objet de référence est marqué pour être rechargé.
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Reference.svg" width=16px> '''Référence externe'''**,
@@ -30,6 +32,8 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 -   Pour référencer plusieurs objets à la fois, placez-les dans un [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 -   Lorsque vous désactivez la propriété de vue **Update Colors** de la référence, les couleurs d\'origine ne sont plus rechargées, vous pouvez donc les modifier en toute sécurité.
 
+
+
 ## Propriétés
 
 -    **File**: Fichier de base sur lequel ce composant est construit
@@ -37,6 +41,8 @@ L\'outil Référence vous permet de placer dans le document actuel un objet qui 
 -    **Part**: La partie à utiliser à partir du fichier de base.
 
 -    **Update Colors**: Si la valeur est true, les couleurs du fichier lié seront mises à jour.
+
+
 
 ## Script
 
@@ -47,7 +53,7 @@ makeReference ([file_path,object_name])
 
 crée un objet de référence à partir de l\'objet donné dans le fichier donné.
 
-Exemple: 
+Exemple : 
 ```python
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")

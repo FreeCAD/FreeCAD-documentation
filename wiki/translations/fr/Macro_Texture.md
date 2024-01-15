@@ -234,7 +234,7 @@ Image:Texture_003_napperon.png\|Une portion d\'une nappe de table. Image:Texture
 
 <center>
 
-[File:FCTexture_Example.gif\|Procédure](File:FCTexture_Example.gif%7CProcédure) pour créer un solide:
+<File:FCTexture_Example.gif%7CProcédure> pour créer un solide:
 **1:** Créer les lofts avec l\'outil <img alt="" src=images/Part_RuledSurface.svg  style="width:24px;">ou avec la <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md)
 **2:** Sélectionnez l\'ensemble et faites une opération d\'extrusion avec l\'outil <img alt="" src=images/Part_Extrude.svg  style="width:24px;">
 **3A:** Pour Linux téléchargez [GMSHMesh](https://github.com/psicofil/Macros_FreeCAD) (auteur psicofil) [Macro GMSH Wiki page](Macro_GMSH.md)

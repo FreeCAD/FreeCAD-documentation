@@ -11,7 +11,7 @@
 
 </div>
 
-このコマンドはブーリアン用ツールを一つにまとめたものです。実行される操作と使用されるパラメーターを下記のダイアログから指定することができます。より手軽なブーリアン演算については[Part Fuse](Part_Fuse/jp.md)、[Part Common](Part_Common/jp.md)、[Part Cutも見てください](Part_Cut/jp.md)。
+このコマンドはブーリアン用ツールを一つにまとめたものです。実行される操作と使用されるパラメーターを下記のダイアログから指定することができます。より手軽なブーリアン演算については[Part Fuse](Part_Fuse/jp.md)、[Part Common](Part_Common/jp.md)、[Part Cut](Part_Cut/jp.md)も見てください。
 
 ![](images/Dialog-boolean.jpg )
 

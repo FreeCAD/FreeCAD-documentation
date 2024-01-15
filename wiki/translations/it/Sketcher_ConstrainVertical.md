@@ -14,11 +14,15 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Crea un vincolo verticale per le linee o le polilinee selezionate.
 
 Può anche vincolare verticalmente i vertici. Si possono selezionare più oggetti {{VersionPlus/it|0.17}} .
+
+
 
 ## Utilizzo
 

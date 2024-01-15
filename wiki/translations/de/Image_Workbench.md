@@ -9,7 +9,7 @@ Seine Funktionalität wurde in [Std Basis](Std_Base/de.md) integriert. Siehe [St
 
 
 
-## Einführung
+## Einleitung
 
 Der <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Bild Arbeitsbereich](Image_Workbench/de.md) verwaltet verschiedene Arten von [Bitmap](bitmap/de.md) Bildern und ermöglicht, diese in FreeCAD zu öffnen.
 

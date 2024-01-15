@@ -19,9 +19,11 @@ Ici, un objet forme fait référence à tout objet avec une propriété **Shape*
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs objets.
-2.  Sélectionnez l\'option **Points → Convertir en points...** dans le menu.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Points_Convert.svg" width=16px> [Convertir en points...](Points_Convert/fr.md)**.
+    -   Sélectionnez l\'option **Points → <img src="images/Points_Convert.svg" width=16px> Convertir en points...** du menu.
 3.  La boîte de dialogue **Distance** s\'ouvre.
-4.  Entrez la **distance maximale**. La valeur doit être comprise dans la plage {{Value|0.05}} - {{Value|10.0}}.
+4.  Entrez la **distance maximale**. La valeur doit être comprise entre {{Value|0.01}} et {{Value|10.00}}.
 5.  Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et terminer la commande.
 
 
@@ -35,22 +37,18 @@ Les objets nuage de points sont des objets [App GeoFeature](App_GeoFeature/fr.md
 ### Données
 
 
+{{TitleProperty|Base}}
+
+-    **Points|PointsKernel|Hidden**: un noyau de points associé à cet objet.
+
+-    **Normal|NormalList|Hidden**: liste de normales. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Convertir](Points_Convert/fr.md) à partir d\'objets maillés ou d\'objets de forme avec des faces.
+
+
 {{TitleProperty|Structured points}}
 
 -    **Height|Integer**: nombre de coordonnées Y uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Nuage structuré](Points_Structure/fr.md).
 
 -    **Width|Integer**: nombre de coordonnées X uniques dans le nuage de points. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Nuage structuré](Points_Structure/fr.md).
-
-
-
-#### Données cachées 
-
-
-{{TitleProperty|Base}}
-
--    **Points|PointsKernel**: un noyau de points associé à cet objet.
-
--    **Normal|NormalList**: liste de normales. Cette propriété n\'est disponible que pour les nuages de points créés avec la commande [Points Convertir](Points_Convert/fr.md) à partir d\'objets maillés ou d\'objets de forme avec des faces.
 
 
 

@@ -1,7 +1,7 @@
 # Tutorials/ko
 <div class="mw-translate-fuzzy">
 
-이 페이지는 고품질 자습서를 제공합니다. 완전한, 정렬되지 않은 목록은 [:Category:Tutorials에](:Category_Tutorials.md) 있습니다.
+이 페이지는 고품질 자습서를 제공합니다. 완전한, 정렬되지 않은 목록은 [:Category:Tutorials](:Category_Tutorials.md)에 있습니다.
 
 
 </div>
@@ -181,8 +181,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++
 | [Engine Block Tutorial](Engine_Block_Tutorial.md)                                                                  | Part Workbench          | Beginner              | 1:00                   | Andrewbuck40                                                                                   | 0.14.3700           |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

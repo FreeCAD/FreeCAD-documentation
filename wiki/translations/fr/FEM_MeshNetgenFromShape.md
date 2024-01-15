@@ -36,7 +36,7 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
     -   true (valueur par défaut) ; éléments de second ordre,
     -   false ; éléments de premier ordre.
 
--    **Fineness**: définit la finesse du maillage.
+-    **Fineness**: offre des niveaux prédéfinis de densité de maillage.
 
 -    **Growth Rate**: définit de combien les éléments adjacents peuvent différer en taille.
 
@@ -46,8 +46,8 @@ En fonction de votre système d\'exploitation et de votre paquetage d\'installat
 
 -    **Optimize**:
 
-    -   true (valeur par défaut) ; applique un algorithme d\'optimisation pour améliorer la qualité du maillage,
-    -   false ;
+    -   true (valeur par défaut) : applique un algorithme d\'optimisation pour améliorer la qualité du maillage
+    -   false
 
 
 

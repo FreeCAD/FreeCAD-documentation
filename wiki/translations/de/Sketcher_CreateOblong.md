@@ -28,6 +28,12 @@ Dieses Werkzeug zeichnet ein abgerundetes Rechteck, indem zwei gegenüberliegend
 
 
 
+## Hinweise
+
+Siehe [Sketcher RechteckErstellen](Sketcher_CreateRectangle/de#Hinweise.md).
+
+
+
 
 
 {{Sketcher_Tools_navi

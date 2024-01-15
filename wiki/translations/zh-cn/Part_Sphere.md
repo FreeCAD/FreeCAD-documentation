@@ -31,7 +31,7 @@ A Part Sphere can be truncated at the top and/or bottom by changing its **Angle1
 
 ## 如何使用
 
-在[零件工作台中点击球体图标](Part_Workbench.md)<img alt="" src=images/Part_Sphere.png  style="width:32px;">。球体在创建时会被定位在原点(point 0,0,0)处。角度参数确定了所创的是局部球体，而非完整的球体（角度参数的默认设置值为360°）。
+在[零件](Part_Workbench.md)工作台中点击球体图标<img alt="" src=images/Part_Sphere.png  style="width:32px;">。球体在创建时会被定位在原点(point 0,0,0)处。角度参数确定了所创的是局部球体，而非完整的球体（角度参数的默认设置值为360°）。
 
 
 </div>

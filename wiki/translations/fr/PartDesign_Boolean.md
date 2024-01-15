@@ -19,6 +19,8 @@ L**\'Opération booléenne** importe un ou plusieurs [PartDesign Corps](PartDesi
 
 *A gauche : un corps actif (A) avec des corps (B) et (C). A droite : le résultat après une soustraction booléenne.*
 
+
+
 ## Utilisation
 
 1.  [Activer le corps](PartDesign_Body/fr#Statut_actif.md) qui doit recevoir la fonction booléenne. ***Remarque** : il est important de s\'assurer que ni le corps actif, ni aucune des fonctions qu\'il contient ne soit sélectionné avant de passer à l\'étape 2.*
@@ -28,7 +30,7 @@ L**\'Opération booléenne** importe un ou plusieurs [PartDesign Corps](PartDesi
 5.  Sélectionnez le type d\'opération booléenne dans le menu déroulant (fusion, soustraction ou intersection).
 6.  Cliquer **OK**.
 
-Alternativement, un ou plusieurs corps peuvent être sélectionnés avant d\'appuyer sur le bouton booléen. Ils seront automatiquement ajoutés.
+Il est également possible de sélectionner des objets avant d\'appuyer sur le bouton booléen. Ils seront ajoutés automatiquement. Lors de la présélection, vous n\'êtes pas limité aux corps. Vous pouvez également sélectionner les objets suivants : [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md), [PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) et même des solides créés avec d\'autres ateliers.
 
 ## Options
 
@@ -36,6 +38,8 @@ Alternativement, un ou plusieurs corps peuvent être sélectionnés avant d\'app
 -   **Soustraction :** soustrait le corps ou les corps désignés du corps actif.
 -   **Intersection :** extrait l\'intersection du ou des corps sélectionnés avec le corps actif.
 -   Presser le bouton **Enlever un corps** pour retirer un corps, en le sélectionnant dans la [vue 3D](3D_view/fr.md).
+
+
 
 ## Propriétés
 
@@ -53,6 +57,8 @@ Alternativement, un ou plusieurs corps peuvent être sélectionnés avant d\'app
 -    **Selectable**: vrai ou faux. Si la valeur est false, l\'élément ne peut pas être sélectionné dans la vue 3D.
 
 -    **Visibility**: vrai ou faux. Permet de basculer la visibilité de l\'élément dans la vue 3D.
+
+
 
 ## Limites
 

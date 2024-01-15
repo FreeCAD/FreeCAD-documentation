@@ -8,7 +8,7 @@
 |Version=0.05
 |Date=2020-08-06
 |FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/f/ff/Macro_Mouse_Cross.png ToolBar Icon]
 }}
 
 ## Description
@@ -25,6 +25,8 @@ This small macro turns the arrow of the mouse in a precision cross.
 3.  Press the **G** button to activate the grid.
 4.  Press the **X** button for visualise all cursor.
 5.  Press the **Q** button to quit the macro.
+
+
 
 ## Скрипт
 
@@ -200,15 +202,17 @@ except Exception:
 
 }}
 
+
+
 ### Курсоры, которые можно использовать 
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 
-## Limitation
+## Limitations
 
-The cursor can change appearance depending on the used Workbench, he must repeat the operation.
-The cursor can be subtituer to the other sliders (ex: expansion of a window, corner\...).
-The grid is permanent.
+-   The cursor can change appearance depending on the used Workbench, in which case the macro must be run again.
+-   The cursor can be substituted (for example when expanding of a window).
+-   The grid is permanent.
 
 
 

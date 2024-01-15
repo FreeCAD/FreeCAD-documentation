@@ -1,9 +1,9 @@
 # Manual:Introduction/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) est un modeleur paramétrique gratuit, libre et open-source. Il est principalement fait pour modéliser des objets du monde réel, du composant électronique à de grandes structures architecturale ou des projets d'ingénierie civils, avec une attention particulière pour les objets 3D imprimables. FreeCAD est téléchargeable gratuitement, libre d\'utilisation, de distribution et de modification. Son code source est ouvert et publié sous la très ouverte licence [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Les données que vous générez sont les vôtres et peuvent être utilisées sans FreeCAD.
+[FreeCAD](https://www.freecad.org/?lang=fr) est un modeleur paramétrique gratuit, libre et open-source. Il est principalement fait pour modéliser des objets du monde réel, du composant électronique à de grandes structures architecturale ou des projets d'ingénierie civils, avec une attention particulière pour les objets 3D imprimables. FreeCAD est téléchargeable gratuitement, libre d\'utilisation, de distribution et de modification. Son code source est ouvert et publié sous la très ouverte licence [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Les données que vous générez sont les vôtres et peuvent être utilisées sans FreeCAD.
 
 FreeCAD est fondamentalement un projet social, développé et maintenu par une communauté de programmeurs et d\'utilisateurs unis par leur passion pour FreeCAD.
 

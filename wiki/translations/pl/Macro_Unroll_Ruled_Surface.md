@@ -5,7 +5,7 @@
 |Author=Hervé B., heda
 |Version=1.1
 |Date=2022-07-24
-|Download=[https://www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/b/ba/Macro_Unroll_Ruled_Surface.png ToolBar Icon]
 }}
 
 ## Description

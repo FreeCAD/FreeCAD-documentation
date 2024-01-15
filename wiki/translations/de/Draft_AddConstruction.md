@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft AddConstruction
-   Name/de: Draft ZurKonstruktionsgruppeHinzufügen
-   MenuLocation: Utilities , Zur Konstruktionsgruppe hinzufügen
+   Name/de: Draft HilfsgeometrieHinzufügen
+   MenuLocation: Dienstprogramme , Zur Hilfsgeometriegruppe hinzufügen
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version/de: 0.17
    SeeAlso: Draft_ToggleConstructionMode/de, Draft_AddToGroup/de
@@ -14,18 +14,18 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft ZurKonstruktionsgruppeHinzufügen** verschiebt Objekte in die [Draft Konstruktionsgruppe](Draft_ToggleConstructionMode/de.md). Er wendet auch die [Hilfsgeometriefarbe](Draft_ToggleConstructionMode/de#Einstellungen.md) auf die Objekte an.
+Der Befehl <img alt="" src=images/Draft_AddConstruction.svg  style="width:24px;"> **Draft HilfsgeometrieHinzufügen** verschiebt Objekte in die [Draft-Hilfsgeometriegruppe](Draft_ToggleConstructionMode/de.md). Er wendet auch die [Hilfsgeometriefarbe](Draft_ToggleConstructionMode/de#Einstellungen.md) auf die Objekte an.
 
 
 
 ## Anwendung
 
-1.  Wähle ein oder mehrere Objekte.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_AddConstruction.svg" width=16px> [Draft ZurKonstruktionsgruppeHinzufügen](Draft_AddConstruction/de.md)**-Schaltfläche.
-    -   Wähle die **Utilities → <img src="images/Draft_AddConstruction.svg" width=16px> Zur Konstruktiongruppe hinzufügen**-Option aus dem Menü.
-3.  Falls sie noch nicht existiert, wird sie zuerst erstellt.
-4.  Die Objekte werden zur Konstruktionsgruppe hinzugefügt und ihre Farbeigenschaften geändert.
+1.  Ein oder mehrere Objekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_AddConstruction.svg" width=16px> [Zur Hilfsgeometriegruppe hinzufügen](Draft_AddConstruction/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_AddConstruction.svg" width=16px> Zur Hilfsgeometriegruppe hinzufügen** auswählen.
+3.  Falls sie noch nicht existiert, wird die Hilfsgeometriegruppe zuerst erstellt.
+4.  Die Objekte werden zur Hilfsgeometriegruppe hinzugefügt und ihre Farbeigenschaften geändert.
 
 
 

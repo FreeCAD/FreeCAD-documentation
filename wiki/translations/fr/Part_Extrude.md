@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Part Extrude
    Name/fr: Part Extrusion
-   MenuLocation: Part , Extrusion...
+   MenuLocation: Part , Extruder...
    Workbenches: Part_Workbench/fr
    SeeAlso: Draft_Trimex/fr, PartDesign_Pad/fr
 ---
@@ -15,14 +15,14 @@
 
 Dans les scénarios les plus courants, la liste suivante détaille les formes résultantes attendues depuis une forme initiale donnée :
 
--   Extrusion d\'un vertex (point) produit une arête linéaire (ligne)
--   Extrusion d\'une arête ouverte (ligne, arc) produit une face ouverte (par ex. plan)
--   Extrusion d\'une arête fermée (cercle) produit une face fermée (par ex. un cylindre aux extrémités ouvertes) ou si le paramètre \"solid\" est réglé à \"true\" produit un solide (par ex. un cylindre solide)
--   Extrusion d\'une polyligne ouverte (par exemple une Draft polyligne), produira une coque ouverte (plusieurs faces jointes)
--   Extrusion d\'une polyligne fermée (par exemple une Draft polyligne), produira éventuellement une coque (plusieurs faces jointes) ou si le paramètre \"solid\" est réglé à \"true\", cela produira un solide
--   Extrusion d\'une face (ex. plane) produit un solide (par ex. un cube)
--   Extrusion d\'un objet **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Formes à partir texte](Draft_ShapeString/fr.md)** produit un composé de solides (la chaîne de texte est un composé de lettres et chacune d\'elle forme un solide)
--   Extrusion d\'une coque de faces produira un Compsolid.
+-   L\'extrusion d\'un vertex (point) produit une arête linéaire (ligne)
+-   L\'extrusion d\'une arête ouverte (ligne, arc) produit une face ouverte (par ex. plan)
+-   L\'extrusion d\'une arête fermée (cercle) produit une face fermée (par ex. un cylindre aux extrémités ouvertes) ou si le paramètre \"solid\" est réglé à \"true\" produit un solide (par ex. un cylindre solide)
+-   L\'extrusion d\'une polyligne ouverte (par exemple une Draft polyligne), produira une coque ouverte (plusieurs faces jointes)
+-   L\'extrusion d\'une polyligne fermée (par exemple une Draft polyligne), produira éventuellement une coque (plusieurs faces jointes) ou si le paramètre \"solid\" est réglé à \"true\", cela produira un solide
+-   L\'extrusion d\'une face (ex. plane) produit un solide (par ex. un cube)
+-   L\'extrusion d\'un objet **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Forme à partir d'un texte](Draft_ShapeString/fr.md)** produit un composé de solides (la chaîne de texte est un composé de lettres et chacune d\'elle forme un solide)
+-   L\'extrusion d\'une coque de faces produira un Compsolid.
 
 ![600px](images/Part_Extrude_demo.png)
 
@@ -35,12 +35,12 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 ## Utilisation
 
 1.  Sélectionner une ou des formes dans la [vue 3D](3D_view/fr.md) ou dans le modèle de la [vue en arborescence](Tree_view/fr.md).
-2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Extrusion](Part_Extrude/fr.md)
-** dans la barre d\'outils ou aller dans le menu **Part → Extrusion**
+2.  Cliquer sur le bouton **<img src="images/Part_Extrude.svg" width=16px> [Extruder](Part_Extrude/fr.md)
+** dans la barre d\'outils ou aller dans le menu **Part → Extruder...**
 3.  Définir la direction et la longueur et éventuellement d\'autres paramètres (voir la section suivante [Paramètres](#Param.C3.A8tres.md) pour plus de détails).
 4.  Cliquer sur **OK**.
 
-La sélection peut également être faite après le lancement de l\'outil en sélectionnant une ou plusieurs formes dans le [Panneau des tâches](Task_panel/fr.md).
+La sélection peut également être faite après le lancement de l\'outil en sélectionnant une ou plusieurs formes dans le [panneau des tâches](Task_panel/fr.md).
 
 L\'arborescence du modèle contient autant d\'objets Extrude que de formes sélectionnées. Chaque forme initiale est placée sous son objet Extrude.
 
@@ -48,17 +48,17 @@ L\'arborescence du modèle contient autant d\'objets Extrude que de formes séle
 
 ## Paramètres
 
-La forme extrudée est définie par les paramètres suivants qui peuvent être édités après sa création dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+La forme extrudée est définie par les paramètres suivants qui peuvent être édités après sa création dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 -   **Base** : la forme initiale (la forme à partir de laquelle l\'extrusion est appliquée).
 
--   **Dir** : la direction pour étendre la forme. Si **Dir Mode** est sur \'Custom\', vous pouvez éditer **Dir**. Sinon, **Dir** est en lecture seule et est calculé à partir de la forme liée.
+-   **Dir** : la direction pour étendre la forme. Si **Dir Mode** est sur \"Custom\", vous pouvez éditer **Dir**. Sinon, **Dir** est en lecture seule et est calculé à partir de la forme liée.
 
 -   **Dir Link** : lien paramétré sur une arête (ligne) qui définit la direction de l\'extrusion.
 
 -   **Dir Mode** : définit le mode de contrôle de **Dir**. \"Custom\" signifie que **Dir** est éditable. \"Edge\" signifie que Dir est obtenu à partir d\'une arête (ligne) lié par un **Dir Link**. \"Normal\" signifie que Dir est perpendiculaire au plan de la forme de départ.
 
--   **Length Fwd** : longueur d\'extrusion. Si **Length Fwd** et **Length Rev** sont tous deux égaux à zéro, la longueur du vecteur **Dir** est utilisée.
+-   **Length Fwd** : longueur de l\'extrusion. Si **Length Fwd** et **Length Rev** sont tous deux égaux à zéro, la longueur du vecteur **Dir** est utilisée.
 
 -   **Length Rev** : longueur supplémentaire à extruder dans le sens inverse de **Dir**.
 

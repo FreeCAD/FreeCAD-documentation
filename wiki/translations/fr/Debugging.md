@@ -425,6 +425,10 @@ squashfs-root> ./usr/bin/freecad
 
 </div>
 
+### Pyzo
+
+Voir l\'[article principal sur Pyzo (en)](Pyzo.md).
+
 
 
 ## Débogage d\'OpenCasCade 

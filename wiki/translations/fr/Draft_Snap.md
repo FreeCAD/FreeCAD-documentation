@@ -18,35 +18,35 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Aimantation Centre](Draft_Snap_Center/fr.md) : aimante au point central des faces et des arêtes circulaires et au point {{PropertyData/fr|Placement}} de [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Aimantation centre](Draft_Snap_Center/fr.md) : aimante au point central des faces et des arêtes circulaires et au point {{PropertyData/fr|Placement}} de [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 
--   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Aimantation Angle](Draft_Snap_Angle/fr.md) : aimante aux points cardinaux spéciaux des bords circulaires, aux multiples de 30° et 45°.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Aimantation angle](Draft_Snap_Angle/fr.md) : aimante aux points cardinaux spéciaux des bords circulaires, aux multiples de 30° et 45°.
 
--   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Aimantation Intersection](Draft_Snap_Intersection/fr.md): aimante à l\'intersection de deux bords.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Aimantation intersection](Draft_Snap_Intersection/fr.md) : aimante à l\'intersection de deux bords.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation Perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|0.21}}) et les arêtes.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aimantation perpendiculaire](Draft_Snap_Perpendicular/fr.md) : aimante aux points perpendiculaires sur les faces ({{Version/fr|0.21}}) et les arêtes.
 
--   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Aimantation Extension](Draft_Snap_Extension/fr.md) : aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Aimantation extension](Draft_Snap_Extension/fr.md) : aimante à une ligne imaginaire qui s\'étend au-delà des extrémités des bords droits.
 
--   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Aimantation Parallèle](Draft_Snap_Parallel/fr.md) : aimante à une ligne imaginaire parallèle aux bords droits.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Aimantation parallèle](Draft_Snap_Parallel/fr.md) : aimante à une ligne imaginaire parallèle aux bords droits.
 
--   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Aimantation Spécial](Draft_Snap_Special/fr.md) : aimante à des points spéciaux définis par l\'objet.
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Aimantation spécial](Draft_Snap_Special/fr.md) : aimante à des points spéciaux définis par l\'objet.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Aimantation Le plus proche](Draft_Snap_Near/fr.md) : aimante au point le plus proche sur les faces et les bords.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Aimantation Au plus proche](Draft_Snap_Near/fr.md) : aimante au point le plus proche sur les faces et les bords.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Aimantation Orthogonal](Draft_Snap_Ortho/fr.md) : aimante sur des lignes imaginaires qui croisent le point précédent à des multiples de 45°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Aimantation orthogonal](Draft_Snap_Ortho/fr.md) : aimante sur des lignes imaginaires qui croisent le point précédent à des multiples de 45°.
 
--   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Aimantation Grille](Draft_Snap_Grid/fr.md) : aimante aux intersections des lignes de la grille.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Aimantation grille](Draft_Snap_Grid/fr.md) : aimante aux intersections des lignes de la grille.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Aimantation Plan de travail](Draft_Snap_WorkingPlane/fr.md) : projette les points d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Aimantation plan de travail](Draft_Snap_WorkingPlane/fr.md) : projette les points d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
 
--   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) : montre les dimensions X et Y temporaires.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aimantation dimensions](Draft_Snap_Dimensions/fr.md) : montre les dimensions X et Y temporaires.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : active ou désactive la grille.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : modifie la visibilité de la grille.
 
 
 
@@ -68,7 +68,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 ## Remarques
 
 -   Plusieurs options d\'aimantation peuvent être actives en même temps, mais il est conseillé de n\'activer que celles dont vous avez réellement besoin. En activer trop peut ralentir les choses.
--   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
+-   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
 
 
 
@@ -76,18 +76,15 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
-Remarquez qu\'après avoir modifié certaines préférences, vous devez redémarrer FreeCAD.
-
--   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **[** (touche d\'augmentation) ou **]** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
--   Pour effectuer une aimantation uniquement lorsque la touche **Snap mod** est maintenue enfoncée :
-    -   Désélectionner : **Edition → Préférences... → Draft → Grille et aimantation → Aimantation → Toujours aimanté (désactive le mode d'aimantation)**.
-    -   La touche **Snap mod** par défaut, **Ctrl**, peut être modifiée : **Edition → Préférences... → Draft → Grille et aimantation → Aimantation → Mode d'aimantation**.
--   Pour afficher la barre d\'outils Aimantation de Draft uniquement lorsqu\'une commande est active :
-    -   Sélectionnez : **Edition → Préférences... → Draft → Grille et aimantation → Aimantation → Afficher la barre d'outils d'aimantation**.
-    -   Sélectionnez : **Edition → Préférences... → Draft → Grille et aimantation → Aimantation → Masquer la barre d'outils d'aimantation après emploi**.
--   Les symboles d\'aimantation peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Style des symboles d'aimantation**.
--   La couleur des symboles d\'aimantation et les dimensions de [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : **Edition → Préférences... → Draft → Paramètres visuels → Paramètres visuels → Couleur**.
--   Les raccourcis clavier à un seul caractère mentionnés peuvent être modifiés : **Edition → Préférences... → Draft → Paramètres de l'interface utilisateur → Raccourcis des commandes**.
+-   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **P** (touche d\'augmentation) ou **M** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
+-   Pour n\'aimanter que lorsque la **Touche pour l'aimantation** est maintenue enfoncée :
+    -   Désélectionner : **Édition → Préférences... → Draft → Grille et aimantation → Toujours aimanter**.
+    -   La **Touche pour l'aimantation** par défaut, **Ctrl**, peut être modifiée : **Édition → Préférences... → Draft → Grille et accrochage → Touche pour l'aimantation**.
+-   Pour n\'afficher la barre d\'outils d\'aimantation de Draft que lorsqu\'une commande est active, sélectionnez : **Édition → Préférences... → Draft → Interface → Afficher la barre d'outils d'aimantation de Draft uniquement pendant les commandes**. {{Version/fr|0.22}}
+-   Les symboles d\'aimantation peuvent être modifiés : **Édition → Préférences... → Draft → Grille et aimantation → Style des symboles d'aimantation**.
+-   La couleur des symboles d\'aimantation et les [Draft Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) peuvent être modifiées : **Édition → Préférences... → Draft → Grille et aimantation → Couleur des symboles d'aimantation**.
+-   La taille des symboles d\'aimantation dépend de : **Édition → Préférences... → Affichage → Vue 3D → Taille des marqueurs**. {{Version/fr|0.22}}
+-   Les raccourcis clavier mentionnés pour un seul caractère peuvent être modifiés : **Édition → Préférences... → Draft → Interface → Raccourcis des commandes**.
 
 
 

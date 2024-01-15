@@ -6,9 +6,9 @@
 |Author=Yorik
 |Version=01.00
 |FCVersion=All
-|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
+|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png ToolBar Icon]
 |Date=2010-11-17
-|SeeAlso=[Macro_Rotate_View](Macro_Rotate_View.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">
+|SeeAlso=[Macro_Rotate_View](Macro_Rotate_View.md)
 }}
 
 ## Description

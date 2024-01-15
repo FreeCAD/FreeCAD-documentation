@@ -27,7 +27,7 @@ Ceci est la documentation wiki de [FreeCAD](http://www.freecadweb.org/?lang=fr_F
 
 ## Table des matières 
 
-Le tableau suivante liste tous les articles de ce wiki qui constituent l\'ossature de la documentation hors-ligne fournie avec le logiciel FreeCAD. Elle est disponible dans de nombreuses langues :
+La table des matières est disponible en plusieurs langues :
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

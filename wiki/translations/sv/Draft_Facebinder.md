@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 The <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Facebinder** command creates a surface object from selected faces. A Draft Facebinder is parametric, it will update if you modify its source object(s).
@@ -14,11 +16,13 @@ It can be used to create an extrusion from a collection of faces. This extrusion
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Facebinder created from the faces of walls*
 
+
+
 ## Bruk
 
 1.  Select one or more faces.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Facebinder.svg" width=16px> [Draft Facebinder](Draft_Facebinder.md)** button.
+    -   Press the **<img src="images/Draft_Facebinder.svg" width=16px> [Facebinder](Draft_Facebinder.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Facebinder.svg" width=16px> Facebinder** option from the menu.
     -   Use the keyboard shortcut: **F** then **F**.
 

@@ -29,7 +29,7 @@ W przypadku programu FreeCAD 0.14 lub starszego należy zainstalować go ręczni
 
 1.  Wejdź na stronę [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) i pobierz te pliki *(po prawej stronie możesz wybrać \"pobierz jako ZIP\")*.
 2.  Umieść pliki w swoim folderze z makrodefinicjami.
-3.  Jeśli nie jesteś pewien, gdzie znajduje się ten folder, przejdź do **Edycja → Preferencje ... → Ogólne → Makrodefinicje** i sprawdź pole o nazwie **Ścieżka do pliku makrodefinicji**.
+3.  Jeśli nie jesteś pewien, gdzie znajduje się ten folder, przejdź do **Edycja → Preferencje ... → Python → Makropolecenia** i sprawdź pole o nazwie **Ścieżka do pliku makrodefinicji**.
 
 -   W Ubuntu folder z makrami znajduje się w standardowej lokalizacji *(folder jest ukryty, może być konieczne jego celowe wyświetlenie)*:
 
@@ -38,8 +38,6 @@ W przypadku programu FreeCAD 0.14 lub starszego należy zainstalować go ręczni
 -   W systemie Windows folder z makrami znajduje się w standardowej lokalizacji:
 
 C:\Użytkownicy \AppData\Roaming\FreeCAD
-
-Zobacz również: [Instalacja importera Dxf](Dxf_Importer_Install/pl.md)
 
 
 

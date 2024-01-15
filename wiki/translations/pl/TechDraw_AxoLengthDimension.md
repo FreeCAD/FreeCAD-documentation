@@ -39,6 +39,11 @@ Narzędzie **Wstaw wymiar długości w aksonometrii** dodaje wymiar długości d
 Zapoznaj się również z informacjami na stronie [Wstaw wymiar długości](TechDraw_LengthDimension/pl#Wyświetlanie_pomiarów_3D.md)
 
 
+{{VersionPlus/pl|0.22}}
+
+: Podczas wymiarowania krawędzi równoległych do osi globalnego układu współrzędnych wartość rzeczywista *(3D)* jest obliczana automatycznie i wstawiana do etykiety wymiaru jako tekst.
+
+
 
 ### Zmiana właściwości 
 

@@ -2,18 +2,18 @@
 {{Macro
 |Name=Macro Circle
 |Icon=Macro_Circle.png
-|Description=Creates a circle or arc giving radius, diameter, circumference, area, startangle, endangle, arc, anglecenter, cord, arrow, center (point), placemObject on choice (without GUI).  The new circle is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
+|Description=Creates a circle or arc giving radius, diameter, circumference, area, startangle, endangle, arc, anglecenter, cord, arrow, center (point), placemObject on choice (without GUI). The new circle is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
 |Author=mario52
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png Icon]
-|SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md) <img src="images/Macro_CirclePlus.png" width=24px>
+|Download=[https://www.freecadweb.org/wiki/images/9/9d/Macro_Circle.png ToolBar Icon]
+|SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md)
 }}
 
 ## Description
 
-This small macro create a circle or arc giving radius, diameter, circumference, area, startangle, endangle, arc, anglecenter, cord, arrow, center (point), placemObject on choice. The new circle is created in the real coordinate of object, not in the coordinate of the Body.
+This small macro create a circle or arc giving radius, diameter, circumference, area, startangle, end angle, arc, angle center, cord, arrow, center (point), placemObject on choice. The new circle is created in the real coordinate of object, not in the coordinate of the Body.
 {{ColoredText|(Command line, paste this complete macro in the Python console)}}.
 
 The circle is still facing the screen (with getCameraOrientation) (or give the placement)
@@ -44,7 +44,8 @@ Copy the code and paste it in the console Python the FreeCAD the command is used
     -   give **placemObject = pl**
 
 if there is no parameter \"**circle()**\" a list of functions is displayed in the report view
-==Script==
+
+## Script
 
 ToolBar Icon ![](images/Macro_Circle.png )
 

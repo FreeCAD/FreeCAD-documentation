@@ -21,7 +21,7 @@ Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <
 ## Prerequisites
 
 -   FreeCAD using a version that is compatible with the designated version of this Tutorial.
--   [Paraview](https://www.paraview.org) downloaded directly from it\'s [website](https://www.paraview.org/download/) or your preferred package manager.
+-   [Paraview](https://www.paraview.org) downloaded directly from its [website](https://www.paraview.org/download/) or your preferred package manager.
     -   This tutorial is based on version Paraview 5.8.0 for Windows, which was the most recent version at the time of writing the tutorial.
 -   The FreeCAD files used for this tutorial available in [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734) and [this](https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&p=368315#p368315) FC forum thread.
 

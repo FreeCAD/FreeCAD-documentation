@@ -13,14 +13,24 @@
 
 </div>
 
+
+
 ## Описание
 
 В разработке\...
 
+
+
 ## Применение
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

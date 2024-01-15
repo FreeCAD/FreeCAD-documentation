@@ -36,7 +36,7 @@ L\'équation d\'écoulement fournit ces paramètres spéciaux :
 
 -    **Gradp Discretization**: si défini à *true*, les [conditions aux limites de Dirichlet](https://fr.wikipedia.org/wiki/Condition_aux_limites_de_Dirichlet) de la pression peuvent être utilisées. Le flux de masse est également disponible comme condition limite naturelle.
 
--    **Variable**: optionnel uniquement pour les calculs en 2D : vous pouvez changer la valeur par défaut de *3* à *2*.**Remarque** : dans ce cas, aucune des contraintes de vitesse d\'écoulement ne peut avoir une composante z spécifiée.
+-    **Variable**: optionnel uniquement pour les calculs en 2D : vous pouvez changer la valeur par défaut de *3* à *2*.**Remarque** : dans ce cas, aucune des conditions limites de vitesse d\'écoulement ne peut avoir une composante z spécifiée.
 
 Équation :
 
@@ -57,28 +57,28 @@ Si les résultats du solveur ne convergent pas, vous pouvez essayer les choses s
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation électrostatique prend en compte les contraintes suivantes si elles sont définies :
+L\'équation d\'écoulement prend en compte les caractéristiques d\'analyse suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse d\'écoulement](FEM_ConstraintFlowVelocity/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Contrainte de vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) ({{Version/fr|0.21}})
+-   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vitesse d\'écoulement comme condition limite](FEM_ConstraintFlowVelocity/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vitesse initiale d\'écoulement](FEM_ConstraintInitialFlowVelocity/fr.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Charge de pression](FEM_ConstraintPressure/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Pression initiale](FEM_ConstraintInitialPressure/fr.md) ({{Version/fr|0.21}})
 
 
 
 ### Remarques
 
--   Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face ou un corps. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
--   Puisque la <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) ne peut être définie que sur des faces, les contraintes de pression ne peuvent pas être utilisées pour les calculs en 2D.
--   S\'il n\'y a pas de <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Contraintes de pression](FEM_ConstraintPressure/fr.md), la <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) ne sera prise en compte que si **Gradp Discretization** est réglé sur *true*.
+-   Sauf pour les calculs en 2D, pour toutes les conditions limites ci-dessus, il est important qu\'elles agissent sur une face ou un corps. Les conditions aux limites pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur d\'Elmer.
+-   Puisque la <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Charge de pression](FEM_ConstraintPressure/fr.md) ne peut être définie que sur des faces, les charges de pression ne peuvent pas être utilisées pour les calculs en 2D.
+-   S\'il n\'y a pas de <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Charge de pression](FEM_ConstraintPressure/fr.md), la <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Pression initiale](FEM_ConstraintInitialPressure/fr.md) ne sera prise en compte que si **Gradp Discretization** est réglé sur *true*.
 
 
 
 ## Résultats
 
-Les résultats sont la vitesse en $\rm m/s$ et la pression en $\rm Pa$. Si aucune valeur pour la <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Contrainte de pression initiale](FEM_ConstraintInitialPressure/fr.md) et la <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md) n\'ait donnée, la pression résultante sera relative et non absolue. Comme une pression doit agir sur une face, les résultats de pression absolue ne peuvent pas être obtenus dans les simulations 2D.
+Les résultats sont la vitesse en $\rm m/s$ et la pression en $\rm Pa$. S\'il n\'y a pas de <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Pression initiale](FEM_ConstraintInitialPressure/fr.md) et de <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Charge de pression](FEM_ConstraintPressure/fr.md), la pression résultante sera relative et non absolue. Comme une pression doit agir sur une face, les résultats de pression absolue ne peuvent pas être obtenus dans les simulations 2D.
 
 
 

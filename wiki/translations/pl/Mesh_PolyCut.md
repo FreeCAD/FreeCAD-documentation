@@ -22,7 +22,7 @@ Polecenie **Przetnij** wycina z obiektów siatkowych całe ściany.
 1.  Podczas wykonywania polecenia nie można zmienić [widoku 3D](3D_view/pl.md). Wskazane jest, aby najpierw prawidłowo ustawić widok 3D.
 2.  Wybierz jeden lub więcej obiektów siatkowych.
 3.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_PolyCut.svg" width=16px> ''Przetnij siatkę''**.
+    -   Naciśnij przycisk **<img src="images/Mesh_PolyCut.svg" width=16px> '''Przetnij siatkę'''**.
     -   Wybierz z menu opcję **Siatki → Cięcie → <img src="images/Mesh_PolyCut.svg" width=16px> Przetnij siatkę**.
 4.  Zdefiniuj wielokąt wybierając punkty w oknie widoku 3D.
 5.  Wybierz opcję z menu kontekstowego widoku 3D:

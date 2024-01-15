@@ -1,4 +1,7 @@
 # Macro Cut Circle/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png
@@ -10,20 +13,35 @@
 |Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Icon]
 }}
 
+
+</div>
+
+
+
 ## Descrizione
+
+
+<div class="mw-translate-fuzzy">
 
 Questa macro suddivide un cerchio(i) o arco(i) in archi, gli archi possono essere di colori alternati per distinguerli.
 
+
+</div>
+
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *CutCircle*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 Copiare la macro **cutCirle** completa nella console Python di FreeCAD, selezionare il cerchio(i) e/o l\'arco(i) poi digitare nella console:
 
-per vedere i cerchi e gli archi tagliati, come in questo esempio, in 5 archi contigui.
 
-Gli oggetti originali non vengono eliminati.
+</div>
 
 ## Script
 
@@ -37,7 +55,7 @@ ToolBar Icon ![](images/Macro_Cut_Circle.png )
 # selection circle(s) (circles and arcs)
 # give number of cut, biColor 0/1
 # cut the circle to x arcs
-# if biColor is <> 0 the arcs are coloured alternately Red White Red White ....
+# if biColor is <> 0 the arcs are colored alternately Red White Red White ....
 # 
  
 __title__   = "cutCircle"
@@ -93,28 +111,46 @@ def cutCircle(number = 2, biColor = 0):
                 pivot1 += pivot0
     App.ActiveDocument.recompute()
 
-#cutCircle(5, 1)  # here with 5 arcs and coloured
+#cutCircle(5, 1)  # here with 5 arcs and colored
 #cutCircle(4)     #
 
 }}
+
+
 
 ## Esempio
 
 
 ```python
-cutCircle(5, 1)  # here with 5 arcs and coloured
+cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
+
+## Project
+
+
+<div class="mw-translate-fuzzy">
 
 ## In progetto 
 
 Applicare la suddivisione a un cilindro
 
+
+</div>
+
+
+
 ## Versione
 
 ver 00.03 02/07/2019 : aggiunto \"App.ActiveDocument.recompute()\"
 
+
+<div class="mw-translate-fuzzy">
+
 ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White Red White \.... or not
+
+
+</div>
 
 ver 00.01 24/02/2015 :
 

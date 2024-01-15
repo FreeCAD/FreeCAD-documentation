@@ -15,4 +15,4 @@ Znajduje się tam tylko jedna zakładka: Raytracing.
 
 
 ---
-⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Preferences/pl
+⏵ [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Raytracing Preferences/pl

@@ -1004,7 +1004,7 @@ See [FeaturePython methods](FeaturePython_methods.md) for the complete reference
 
 ## Available properties 
 
-Properties are the true building blocks of FeaturePython objects. Through them, the user will be able to interact and modify your object. After creating a new FeaturePython object in your document, you can get a list of the available properties:
+Properties are the true building blocks of FeaturePython objects. Through them, you will be able to interact and modify your object. After creating a new FeaturePython object in your document, you can get a list of the available properties:
 
  
 ```python

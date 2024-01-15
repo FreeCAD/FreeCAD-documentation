@@ -5,143 +5,143 @@ Starsze wersje: [0.12](Release_notes_0.12/pl.md) - [0.11](Release_notes_0.11/pl.
 
 ![800px](images/FreeCAD013.jpg)
 
-*modeled in FreeCAD by psicofil*
+*wymodelowany w FreeCAD przez psicofil*
 
-## General
+## Ogólne
 
--   **Color preferences**: Getting bored of the good old grey-shapes-on-black-lines FreeCAD default aspect? It is now changeable in the user preferences (Display -\> Color), together with several other default colors.
--   **Alignment**: two shapes can be aligned to each other with up to three points with this tool available in the Edit menu.
+-   **Preferencje kolorystyczne**: Znudził Ci się stary, dobry, szary kształt na czarnych liniach FreeCAD? Teraz można go zmienić w preferencjach użytkownika *(Wyświetlanie → Kolor)*, wraz z kilkoma innymi domyślnymi kolorami.
+-   **Wyrównanie**: dwa kształty mogą być wyrównane względem siebie w maksymalnie trzech punktach za pomocą tego narzędzia dostępnego w menu Edycja.
 
-## Drawing module 
+## Moduł Kreślenie 
 
--   **Clip feature**: A new [Drawing Clip](Drawing_Clip.md) object allows to place views of objects inside clipped rectangles on Drawing pages.
--   **Editable titleblocks**: When designing [Drawing templates](Drawing_templates.md), it is now possible to mark texts as editable. Those texts become then directly editable in FreeCAD.
--   **Annotation feature**: A new [Drawing Annotation](Drawing_Annotation.md) object, a simple feature to quickly place text blocks on a Drawing page.
--   **Orthographic Views**: A new [Drawing Orthographic Views](Drawing_Orthoviews.md) tool facilitate creation of multiple views all aligned to each other, according to first-angle or third-angle projection.
--   **Browser preview**: Since all SVG capabilities are not always supported by the internal Qt SVG viewer, this button allows you to check how a page looks like in the webkit browser, which fully supports the SVG format. This is provisory, until we definitely switch our SVG viewer to webkit\...
--   **DXF export**: you can now export a view of a page directly to a DXF file.
--   Some bug fixes now allow printing of pages to scale.
+-   **Funkcja wycinków**: Nowy obiekt [Wycinek](Drawing_Clip/pl.md) umożliwia umieszczanie widoków obiektów wewnątrz przyciętych prostokątów na stronach Rysunku.
+-   **Edytowalne bloki tytułowe**: Podczas projektowania [Szablonów rysunków](Drawing_templates/pl.md) można teraz oznaczać teksty jako edytowalne. Teksty te można następnie edytować bezpośrednio w programie FreeCAD.
+-   **Funkcja adnotacji**: Nowy obiekt [Adnotacja rysunku](Drawing_Annotation/pl.md), prosta funkcja szybkiego umieszczania bloków tekstowych na stronie rysunku.
+-   **Widoki ortogonalne**: Nowe narzędzie [Rysowanie widoków ortograficznych](Drawing_Orthoviews/pl.md) ułatwia tworzenie wielu widoków wyrównanych względem siebie, zgodnie z rzutem pierwszego lub trzeciego kąta.
+-   **Podgląd w przeglądarce**: Ponieważ wszystkie możliwości SVG nie zawsze są obsługiwane przez wewnętrzną przeglądarkę Qt SVG, przycisk ten pozwala sprawdzić, jak strona wygląda w przeglądarce Webkit, która w pełni obsługuje format SVG. Jest to rozwiązanie tymczasowe, dopóki nie przestawimy naszej przeglądarki SVG na Webkit \...
+-   **Eksport DXF**: można teraz eksportować widok strony bezpośrednio do pliku DXF.
+-   Niektóre poprawki błędów umożliwiają teraz drukowanie stron w skali.
 
-## Sketcher module 
+## Moduł Szkicownika 
 
--   **Point Creation**
+-   **Tworzenie punktów**
 
 ![](images/Release-0.13-PointTool.png )
 
-Points can now be added and used as a feature within a sketch
+Punkty mogą być teraz dodawane i używane jako elementy szkicu.
 
--   **Sketch Origin**
+-   **Odniesienie położenia szkicu**
 
 ![](images/Release-0.13-Origin.png )
 
-User can now use the sketch\'s origin to define geometry as well as the sketch axes.
+Użytkownik może teraz używać punktu odniesienia położenia szkicu do definiowania geometrii, a także osi szkicu.
 
--   **Tangency and perpendicularity constraints for arcs and circles.**
--   **Constraints with respect to external (projected) geometry.**
--   **Improved counting of the sketch degrees of freedom.**
--   **Symmetry constraint with respect to a symmetry point** (midpoint constraint).
+-   **Wiązania styczności i prostopadłości dla łuków i okręgów**.
+-   **Wiązania w odniesieniu do zewnętrznej *(rzutowanej)* geometrii.**
+-   **Ulepszone liczenie stopni swobody szkicu.**
+-   **Wiązanie symetrii względem punktu symetrii** *(wiązanie punktu środkowego)*.
 
--   **Improved Datum Label and Constraint Visuals:**
+-   **Ulepszona etykieta układu odniesienia i wizualizacje wiązań:**
 
 ![](images/Release-0.13-SketcherDimensions.png )
 
--   -   Each constraint label (including arrows) will correctly scale to the size of the scene automatically to the 3D viewport
-    -   Datum label text for Distance, Distance X, Distance Y and Radius can be freely positioned now with greater control.
-    -   Small improvements to overlapping constraint icons and fix freezes.
-    -   Datum Label text will reverse when the view is orientated from the opposite side.
+-   -   Każda etykieta wiązania *(w tym strzałki)* będzie poprawnie skalowana automatycznie do rozmiaru sceny w rzutni 3D.
+    -   Tekst etykiety odniesienia dla odległości, odległości X, odległości Y i promienia można teraz dowolnie pozycjonować z większą kontrolą.
+    -   Niewielkie ulepszenia nakładających się ikon wiązań i poprawki stabilności działania.
+    -   Tekst etykiety układu odniesienia zostanie odwrócony, gdy widok zostanie zorientowany z przeciwnej strony.
 
--   **Fully constrained Sketches are now highlighted:**
+-   **W pełni związane szkice są teraz podświetlone:**
 
-![The sketch color turns from white to green to indicate it is fully constrained. These default colors can be customized.](images/Release-0.13-SketcherFullyConstrained.png )
+![Kolor szkicu zmienia się z białego na zielony, aby wskazać, że jest on w pełni związany. Te domyślne kolory można dostosować.](images/Release-0.13-SketcherFullyConstrained.png )
 
--   **Rubber band selection:**
+-   **Wybór zakresu gumowania:**
 
 ![](images/Release-0.13-RubberBandSelection.png )
 
-Geometry (Points, Lines and Curves) may be selected by dragging on the background to create a rectangular selection.
+Geometria *(punkty, linie i krzywe)* może zostać wybrana poprzez przeciągnięcie zaznaczenia na tło w celu utworzenia prostokątnego zaznaczenia.
 
--   **Extended functionality of the polyline tool:** using the m key one can switch between arc and line mode and among free, tangent and perpendicular transitions from the previous segment.
+-   **Rozszerzona funkcjonalność narzędzia polilinii:** za pomocą klawisza m można przełączać się między trybem łuku i linii oraz między przejściami swobodnymi, stycznymi i prostopadłymi z poprzedniego segmentu.
 
--   **Map sketch to face** is a new tool to map (or remap) an existing sketch to the selected face on a solid. This allows the use of this sketch for features such as Pad and Pocket.
+-   **Mapuj szkic na powierzchnię** to nowe narzędzie do mapowania *(lub ponownego mapowania)* istniejącego szkicu na wybraną powierzchnię na bryle. Pozwala to na użycie tego szkicu dla funkcji takich jak Wyciągnięcie i Kieszeń.
 
--   **Small Improvements:**
-    -   When constructing geometry, tool tip with related information is shown next to cursor.
-    -   **Sketch view** which sets the 3D view perpendicular to the sketch plane has now an icon in the Sketcher toolbar.
+-   **Drobne usprawnienia:**
+    -   Podczas konstruowania geometrii obok kursora wyświetlana jest wskazówka narzędzia z powiązanymi informacjami.
+    -   **Widok szkicu**, który ustawia widok 3D prostopadle do płaszczyzny szkicu, ma teraz ikonę na pasku narzędzi Szkicownika.
 
-## Draft module 
+## Moduł Rysunek Roboczy 
 
--   **Taskmode**: The Taskview mode of the Draft module is now default. Fear not, if you liked the toolbar, it is still available in the Draft preferences settings.
--   **DXF importer**: The DXF importer now supports points (translate to [Draft Point](Draft_Point.md)) and leaders (translate to [Draft Wire](Draft_Wire.md))
--   **Brand-new snapping system**: The [snapping system](Draft_Snap.md) of the Draft module has been rewritten almost from scratch. It is now much easier to extend and use in other scripts and modules, has now new visuals with snap cursor icons, and a toolbar that allows to switch on/off individual snap locations or the whole snapping system.
+-   **Tryb zadań**: Tryb widoku zadań modułu Rysunek Roboczy jest teraz trybem domyślnym. Nie obawiaj się, jeśli podobał Ci się pasek narzędzi, jest on nadal dostępny w ustawieniach preferencji tego środowiska pracy.
+-   **Importer DXF**: Importer DXF obsługuje teraz punkty *(translacja na [punkt](Draft_Point/pl.md) środowiska pracy Kreślenie)* i linie odniesienia *(translacja na [polilinie](Draft_Wire/pl.md))*.
+-   **Zupełnie nowy system przyciągania**: [System przyciągania](Draft_Snap/pl.md) modułu Kreślenie został przepisany niemal od zera. Jest teraz znacznie łatwiejszy do rozszerzenia i użycia w innych skryptach i modułach, ma teraz nowe wizualizacje z ikonami kursora przyciągania i paskiem narzędzi, który pozwala włączać / wyłączać poszczególne lokalizacje przyciągania lub cały system przyciągania.
 
 ![800px](images/013-draft-snap.jpg)
 
--   **Better constraining**: When entering 3D points, besides the existing Shift-constraining, you can now constrain the movement in X, Y or Z direction by pressing the **X**, **Y** or **Z** keys. Pressing them again switches constraining off.
--   **Draft \<-\> Sketch conversion**: The Draft workbench now features a new [Draft2Sketch](Draft_Draft2Sketch.md) conversion tool, that converts selected Draft objects (or any flat shape) to Sketches, and vice-versa.
--   **Clone tool**: Make copies of selected objects with this handy tool. When the original changes, the clone gets updated automatically. The clone can be moved, rotated, and also has a scale property that allows you to change the size of the copy.
--   **SVG importer**: The SVG importer now has much better support of bezier curves. Global definition of user units is now respected and the geometry is scaled properly to millimeter. Support for new elements such as ellipses rounded rectangles has been added. The parser has been reworked and now handles paths from Adobe Illustrator.
--   **Curved corners**: Several Draft objects ([Wires](Draft_Wire.md), [Rectangles](Draft_Rectangle.md) and [Polygons](Draft_Polygon.md)) now have a **Fillet Radius** property, which curves their corners by the given radius value.
+-   **Lepsze wiązanie**: Podczas wprowadzania punktów 3D, oprócz istniejącego wiązania Shift, można teraz wiązać ruch w kierunku X, Y lub Z, naciskając klawisze **X**, **Y** lub **Z**. Ponowne ich naciśnięcie wyłącza ograniczanie.
+-   **Konwersja Rysunek Roboczy \<-\> Szkic**: Środowisko pracy Rysunek Roboczy zawiera teraz nowe narzędzie konwersji [Rysunek roboczy na szkic](Draft_Draft2Sketch/pl.md), które konwertuje wybrane obiekty szkicu *(lub dowolny płaski kształt)* na szkice i odwrotnie.
+-   **Narzędzie klonowania**: Tworzy kopie wybranych obiektów za pomocą tego poręcznego narzędzia. Gdy oryginał ulegnie zmianie, klon zostanie automatycznie zaktualizowany. Klon może być przesuwany, obracany, a także posiada właściwość skali, która pozwala na zmianę rozmiaru kopii.
+-   **Importer SVG**: Importer SVG ma teraz znacznie lepszą obsługę krzywych Béziera. Globalna definicja jednostek użytkownika jest teraz przestrzegana, a geometria jest prawidłowo skalowana do milimetra. Dodano obsługę nowych elementów, takich jak elipsy, zaokrąglone prostokąty. Parser został przerobiony i obsługuje teraz ścieżki z programu Adobe Illustrator.
+-   **Zakrzywione narożniki**: Kilka obiektów Rysunku Roboczego *([Polilinia](Draft_Wire/pl.md), [Prostokąt](Draft_Rectangle/pl.md) i [Wielokąt](Draft_Polygon/pl.md))* ma teraz właściwość **Promień zaokrąglenia**, która zaokrągla ich narożniki o podaną wartość.
 
 ![800px](images/013-draft-fillet.jpg)
 
--   **2D view object**: The new [Shape2DView](Draft_Shape2DView.md) tool allows to quickly place a 2D view of a selected object in the document. You can specify the projection vector.
+-   **Obiekt widoku 2D**: Nowe narzędzie [Widok 2D kształtu](Draft_Shape2DView/pl.md) pozwala na szybkie umieszczenie widoku 2D wybranego obiektu w dokumencie. Można określić wektor rzutowania.
 
 ![800px](images/013-draft-shape2dview.jpg)
 
-## Arch module 
+## Moduł Architektura 
 
--   **Draft integration**: The Arch and Draft modules are now tightly integrated. The Arch tools use the [Draft snapping](Draft_Snap.md) system, and all the Draft tools are present in the Arch workbench. In fact, if you like, you can now completely switch off the Draft module (Preferences -\> Draft -\> Hide the Draft workbench)
--   **New wall tool**: The [wall tool](Arch_Wall.md) has been greatly enhanced, and now features a direct drawing mode, that is activated when you press the Wall button with no object selected, that allows you to draw walls like you draw simple lines. In additions, walls now auto-connect when you snap to an existing wall.
+-   **Integracja z Rysunkiem Roboczym**: Moduły Architektura i Rysunek Roboczy są teraz ściśle zintegrowane. Narzędzia Architektury używają systemu [przyciągania](Draft_Snap/pl.md) środowiska Rysunek Roboczy, a wszystkie narzędzia Rysunku Roboczego są obecne w środowisku pracy Architektura. W rzeczywistości, jeśli chcesz, możesz teraz całkowicie wyłączyć moduł Rysunek Roboczy *(Preferencje -\> Rysunek Roboczy -\> Ukryj środowisko pracy Rysunek Roboczy)*.
+-   **Nowe narzędzie do rysowania ścian**: [narzędzie do rysowania ścian](Arch_Wall/pl.md) zostało znacznie ulepszone i posiada teraz tryb rysowania bezpośredniego, który jest aktywowany po naciśnięciu przycisku Ściana bez zaznaczonego obiektu, co pozwala na rysowanie ścian tak, jak rysuje się proste linie. Dodatkowo, ściany są teraz automatycznie łączone po przyciągnięciu do istniejącej ściany.
 
 ![800px](images/013-arch-wall.jpg)
 
--   **New roof tool**: A new [roof tool](Arch_Roof.md) is now available in the Arch module, that allows you to quickly create sloped roofs from a selected face.
--   **New window tool**: [Windows](Arch_Window.md) are now created directly on top of a flat shape that contains one or more wires, such as a rectangle or a sketch. If that shape was drawn directly on a wall face, the window will automatically cut an opening in the wall.
--   **New sections system**: It is now very simple to create 2D plans, sections and elevations from your model: Place a [Section Plane](Arch_SectionPlane.md) object, orient it the way you want, edit it to include the objects it must see, and you are done!
--   **New solid renderer**: In addition to the OpenCasCADe-based wireframe 2D renderer currently used by the [Drawing Workbench](Drawing_Workbench.md), the Arch module now features a new 2D renderer, that is able to render filled faces to a SVG Drawing sheet, giving much nicer 2D views.
+-   **Nowe narzędzie dachu**: Nowe narzędzie [Dach](Arch_Roof/pl.md) jest teraz dostępne w module Architektura, które pozwala na szybkie tworzenie pochyłych dachów z wybranej ściany.
+-   **Nowe narzędzie okna**: [Okna](Arch_Window/pl.md) są teraz tworzone bezpośrednio na płaskim kształcie, który zawiera jeden lub więcej przewodów, takich jak prostokąt lub szkic. Jeśli ten kształt został narysowany bezpośrednio na ścianie, okno automatycznie wytnie otwór w ścianie.
+-   **Nowy system przekrojów**: Tworzenie planów 2D, przekrojów i elewacji z modelu jest teraz bardzo proste: Umieść obiekt [Płaszczyzna przekroju](Arch_SectionPlane/pl.md), zorientuj go tak, jak chcesz, edytuj go, aby zawierał obiekty, które musi widzieć, i gotowe!
+-   **Nowy renderer brył**: Oprócz opartego na OpenCasCADe renderera szkieletowego 2D używanego obecnie przez [środowisko pracy Kreślenie](Drawing_Workbench/pl.md), moduł Architektura posiada teraz nowy renderer 2D, który jest w stanie renderować wypełnione powierzchnie do arkusza rysunku SVG, dając znacznie ładniejsze widoki 2D.
 
 ![800px](images/013-arch-vrm.jpg)
 
--   **IFC import with [IfcOpenShell](http://www.ifcopenshell.org)**: The Arch module can now use [IfcOpenShell](http://www.ifcopenshell.org) if it is installed on your system. This allows for much more powerful IFC import, and all the contents of the IFC file are guaranteed to be imported.
--   **New floor and building objects**: Building and floors are now groups, so you can add and remove objects from them with a simple drag&drop from the tree view.
--   **New axes system**: A new [axes system](Arch_Axis.md) feature has been added, that allows to quickly layout complex axes systems. These axes can then be added to [Structure](Arch_Structure.md) objects, so they spread automatically on the grid nodes.
+-   **Import IFC z [IfcOpenShell](http://www.ifcopenshell.org)**: Moduł Architektura może teraz korzystać z [IfcOpenShell](http://www.ifcopenshell.org), jeśli jest zainstalowany w systemie. Pozwala to na znacznie bardziej wydajny import IFC, a cała zawartość pliku IFC jest gwarantowana do zaimportowania.
+-   **Nowe obiekty pięter i budynków**: Budynki i piętra są teraz grupami, dzięki czemu można dodawać i usuwać z nich obiekty za pomocą prostego przeciągania i upuszczania z widoku drzewa.
+-   **Nowy układ osi**: Dodano nową funkcję [układ osi](Arch_Axis/pl.md), która pozwala na szybkie tworzenie złożonych układów osi. Osie te mogą być następnie dodawane do obiektów [Konstrukcji](Arch_Structure/pl.md), dzięki czemu rozłożą się automatycznie na węzłach siatki.
 
 ![800px](images/013-arch-axes.jpg)
 
--   **Arch objects from meshes**: [Walls](Arch_Wall.md) and [structures](Arch_Structure.md) can now be made directly from a mesh, provided it is closed, solid and all edges are [manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). This allows for very quick transformation of geometry imported from other applications such as [blender](http://www.blender.org) into valid Arch objects.
+-   **Obiekty Architektury z siatek**: [Ściany](Arch_Wall/pl.md) i [Konstrukcja](Arch_Structure/pl.md) mogą być teraz tworzone bezpośrednio z siatki, pod warunkiem, że jest ona zamknięta, bryłowa i wszystkie krawędzie są [typu manifold](http://doc.spatial.com/index.php/Manifold_and_Non-manifold_Objects). Pozwala to na bardzo szybkie przekształcenie geometrii zaimportowanej z innych aplikacji, takich jak [Blender](http://www.blender.org), w prawidłowe obiekty Architektoniczne.
 
-## Part module 
+## Moduł Część 
 
--   **Refine shape** is a new utility that cleans up faces after a few operations on a shape. It can be set to run automatically after boolean operations in the Preferences.
--   **New Loft tool** can extrude a complex set of surfaces or a solid shape through a series of sketches or Draft objects.
--   **New Sweep tool** can extrude a complex set of surfaces or a solid shape through a series of sketches or Draft objects and a trajectory (sketch, edge or Draft object).
--   **New Offset tool** can offset a single surface or a shape.
--   **New Thickness tool** can hollow out a solid shape by setting a wall thickness and opening one or more faces.
--   **Shape Builder** and **Create primitives** are now in the Part toolbar for quick access.
+-   **Udoskonal kształt** to nowe narzędzie, które czyści powierzchnie po kilku operacjach na kształcie. Może być ustawione na automatyczne uruchamianie po operacjach logicznych w Preferencjach.
+-   **Nowe narzędzie Loft** umożliwia wyciągnięcie złożonego zestawu powierzchni lub bryły poprzez serię szkiców lub obiektów Draft.
+-   **Nowe narzędzie Sweep** umożliwia wyciągnięcie złożonego zestawu powierzchni lub bryły poprzez serię szkiców lub obiektów Draft i ścieżkę *(szkic, krawędź lub obiekt Rysunku Roboczego)*.
+-   **Nowe narzędzie Odsunięcie** umożliwia odsunięcie pojedynczej powierzchni lub kształtu.
+-   **Nowe narzędzie Grubość** może wydrążyć bryłę poprzez ustawienie grubości ścianki i otwarcie jednej lub więcej powierzchni.
+-   **Kreator kształtów** i **Tworzenie prymitywów** są teraz dostępne na pasku narzędzi części.
 
-## Part Design module 
+## Moduł Projekt Części 
 
--   **Pad** and **Pocket** are now more powerful thanks to more parameters, such as extrude to first/to last, up to face, 2 dimensions, symmetric to plane.
--   **Chamfer** and **Fillet** got an upgrade: selecting a face is now allowed, all the outer and inner edges of this face will be processed.
--   **Revolution**: a construction line can now be used as a revolution axis.
--   **New Groove tool**: cut matter from your solid by revolving a sketch.
--   **Linear pattern**, **Mirrored**, **Polar pattern** and **Multipattern** tools, that allow you to align and distribute pads and pockets on a feature.
--   A **Shaft Wizard** to help you design shaft objects
+-   **Wyciągnięcie** i **Kieszeń** są teraz bardziej wydajne dzięki większej liczbie parametrów, takich jak wyciągnięcie do pierwszego/ostatniego, do powierzchni, 2 wymiary, symetryczne do płaszczyzny.
+-   **Fazowanie** i **zaokrąglanie** zostały ulepszone: wybór powierzchni jest teraz dozwolony, wszystkie zewnętrzne i wewnętrzne krawędzie tej powierzchni zostaną przetworzone.
+-   **Wyciągnięcie przez obrót**: linia konstrukcyjna może być teraz używana jako oś obrotu.
+-   **Nowe narzędzie rowka**: wycinanie materii z bryły poprzez obracanie szkicu.
+-   Narzędzia **Szyk liniowy**, **Lustrzany**, **Szyk biegunowy** i **Szyk wielokrotny**, które umożliwiają wyrównanie i rozmieszczenie podkładek i kieszeni na elemencie.
+-   Kreator wałów *(Shaft Wizard)* ułatwiający projektowanie obiektów wałów.
 
-## Ship Design module 
+## Moduł projektowania statków 
 
--   New ship module ([tutorial](FreeCAD-Ship_s60_tutorial.md))
+-   Nowy moduł statku *([Przewodnik](FreeCAD-Ship_s60_tutorial/pl.md))*
 
-## 3D mice 
+## Myszy 3D 
 
--   Support for 3D mice (Spaceball, Space Navigator) has been added to the Windows version.
--   A new **Spaceball Motion** tab in the Customize dialog allows for fine tuning your 3D mouse to the settings you want, directly from FreeCAD.
+-   Obsługa myszy 3D *(Spaceball, Space Navigator)* została dodana do wersji Windows.
+-   Nowa zakładka **Spaceball Motion** w oknie dialogowym Dostosuj pozwala na precyzyjne dostrojenie myszy 3D do żądanych ustawień, bezpośrednio z programu FreeCAD.
 
-## OpenSCAD module 
+## Moduł OpenSCAD 
 
--   This brand new (experimental) module brings OpenSCAD files import capability into FreeCAD. This file format is wildly popular in the RepRap community and on digital designs sharing site Thingiverse.
--   OpenSCAD script can be executed from within FreeCAD, by OpenSCAD (if installed on your computer), with the result appearing in your FreeCAD document.
--   For more information see the [OpenSCAD Workbench](OpenSCAD_Workbench.md) page on the FreeCAD wiki
+-   Ten zupełnie nowy *(eksperymentalny)* moduł wprowadza możliwość importowania plików OpenSCAD do FreeCAD. Ten format plików jest niezwykle popularny w społeczności RepRap i na stronie Thingiverse do udostępniania projektów cyfrowych.
+-   Skrypt OpenSCAD może być wykonywany z poziomu FreeCAD, przez OpenSCAD *(jeśli jest zainstalowany na komputerze)*, a wynik pojawia się w dokumencie FreeCAD.
+-   Więcej informacji można znaleźć na stronie środowiska pracy [OpenSCAD](OpenSCAD_Workbench/pl.md) na wiki FreeCAD.
 
 
 

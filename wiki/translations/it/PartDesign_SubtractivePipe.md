@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -31,6 +35,8 @@
 
 
 </div>
+
+
 
 ## Opzioni
 
@@ -60,6 +66,8 @@
 -   Transformed
 -   Right
 -   Rounded
+
+
 
 ## Proprietà
 

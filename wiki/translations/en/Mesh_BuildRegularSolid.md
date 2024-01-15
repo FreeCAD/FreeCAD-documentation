@@ -14,7 +14,7 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
+    -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Regular solid...](Mesh_BuildRegularSolid.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regular solid...** option from the menu.
 2.  The **Regular Solid** dialog box opens.
 3.  First select a mesh object type from the dropdown list:

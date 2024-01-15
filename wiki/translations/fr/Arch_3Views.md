@@ -43,7 +43,7 @@ shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False,
 
 Utilisez `Part.show()` pour afficher la forme plane résultante.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch, Mesh, MeshPart
 

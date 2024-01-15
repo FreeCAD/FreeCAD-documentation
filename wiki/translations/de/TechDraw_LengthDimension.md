@@ -13,70 +13,45 @@
 
 ## Beschreibung
 
+Das Werkzeug **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Punkten, die Länge einer geraden Kante, der senkrechte Abstand zweier Kanten oder der senkrechte Abstand eines Punkte zu einer Kanten sein.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw Längenmaß** fügt einer Ansicht ein lineares Maß hinzu. Das Längenmaß kann der Abstand zwischen zwei Eckpunkten, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Das Maß stellt zunächst den projizierten Abstand dar (wie in der Zeichnung abgebildet). Wenn das Maß auf 3D-Referenzen basiert, kann es auf die tatsächliche Länge geändert werden, indem seine {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt wird.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Längenmaß als Abstand zweier beliebiger Knoten der Ansicht*
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Length_example.png  style="width:220px;"> 
+*Längenmaß, zwischen zwei Punkten gemssen*
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Die Punkte oder die Kante auswählen, die die Messung definieren. Die Geometrie kann in der Zeichnung oder in der [3D-Ansicht](3D_view/de.md) ausgewählt werden.
-2.  Es gibt verschiedene Möglichkeiten das Werkzeug aufzurufen:
+1.  Die Punkte und/oder die Kanten auswählen, die das Maß definieren. Die Geometrie kann in der [3D-Ansicht](3D_view/de.md) ausgewählt werden (die ersten beiden Möglichkeiten) oder in der Zeichnung (alle Möglichkeiten):
+    -   Zwei Punkte auswählen.
+    -   Eine einzelne gerade Kante auswählen.
+    -   Zwei Kanten auswählen. Sind beide Kanten gerade, müssen sie parallel verlaufen. Dies erstellt ein senkrechtes Maß, wenn ein Endpunkt einer Kante senkrecht auf die andere Kante projiziert werden kann (der resultierende Punkt muss wirklich auf der Linie liegen). Sind mehrere Lösungen möglich, wird der Endpunkt verwendet, der sich am nächsten an seinem projizierten Punkt befindet. Gibt es keine gültige senkrechte Projektion, zeigt das Maß den Abstand zwischen den am nächsten zusammenligenden Endpunkten der Kanten an.
+    -   Einen Punkt und eine Kante auswählen. Dies erstellt ein senkrechtes Maß. In {{VersionMinus/de|0.21}} ergibt sich nur dann senkrechte Maß, wenn der Punkt senkrecht auf die Kante projiziert werden kann. Andernfalls zeigt das Maß den Abstand des Punktes zum nächstgelegenen Endpunkt der Kante an.
+2.  Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzugefügt werden.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Längenmaß einfügen](TechDraw_LengthDimension/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_LengthDimension.svg" width=16px> Längenmaß einfügen** auswählen.
-3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
-4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
-
-
-</div>
+4.  Ein Maß wird zur Ansicht hinzugefügt.
+5.  Das Maß kann an die gewünschte Position gezogen werden.
+6.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
 
 
 ### 3D-Abmessungen anzeigen 
 
-The dimension will initially display the projected measurement (i.e. as shown in the drawing). If required, and if the dimension is based on 3D references, it can be changed to the actual 3D measurement by changing its **Measure Type** property to {{Value|True}}. To base a dimension on 3D references select geometry from the [3D view](3D_view.md) at creation time, or use the <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;"> [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) tool to update existing dimensions.
-
-### Change properties 
+Das Maß zeigt anfangs die projizierte Länge an (d.h. wie auf der Zeichnung dargestellt). Wenn gefordert und wenn das Maß auf 3D-Referenzen basiert, kann es auf die Anzeige der wahren 3D-Länge umgestellt werden, indem seine {{PropertyData/de|Measure Type}} auf {{Value|True}} gesetzt wird. Damit ein Maß auf 3D-Referenzen basiert, wird bei seiner Erstellung die Geometrie in der [3D-Ansicht](3D_view/de.md) ausgewählt oder es wird das Werkzeug <img alt="" src=images/TechDraw_DimensionRepair.svg  style="width:16px;"> [TechDraw Maßreparatur](TechDraw_DimensionRepair/de.md) zur Aktualisierung vorhandener Maße verwendet.
 
 
-<div class="mw-translate-fuzzy">
 
-Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog Maßeintrag geöffnet.
+### Eigenschaften anpassen 
 
-
-</div>
+Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der [Dialog Maßeintrag](#Dialog_Maßeintrag.md) geöffnet.
 
 
 
 ## Dialog Maßeintrag 
 
-
-<div class="mw-translate-fuzzy">
-
 ![](images/TechDraw_DimensionDialog.png )
-
-
-</div>
 
 Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
@@ -140,31 +115,19 @@ Der Dialog Maßeintrag ermöglicht die folgenden Einstellungen:
 
 ## Begrenzungen
 
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D-Geometrie die Flächen und Kanten des Modells intern umbenannt werden könnten. Wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß unbrauchbar werden. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Maße mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
 
-<div class="mw-translate-fuzzy">
-
-Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Das bedeutet, dass bei einer Änderung der 3D Geometrie die Flächen und Kanten des Modells intern umbenannt werden können; wenn ein Maß an eine Kante angehängt wird, die dann geändert wird, kann das Maß brechen. Im Allgemeinen ist es nicht möglich, die projizierten 2D-Bemaßungen mit den tatsächlichen 3D-Objekten synchronisiert zu halten.
-
-
-</div>
-
-Es wird daher empfohlen, Bemaßungen hinzuzufügen, wenn das 3D Modell nicht mehr verändert wird.
+Es wird daher empfohlen, Maße hinzuzufügen, wenn das 3D-Modell nicht mehr verändert wird.
 
 
 
 ### Zwischenlösung
 
+Soll eine TechDraw-Ansicht erstellt werden, mit Maßen, die nicht unbrauchbar werden, musst ein Objekt bemaßt werden, das sich nicht ändert:
 
-<div class="mw-translate-fuzzy">
-
-Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brechen, musst du ein Objekt bemaßen, das sich nicht ändert.
-
--   Wähle das zu projizierende Objekt aus, wechsle dann zur <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) und verwende **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Einfache Kopie erstellen](Part_SimpleCopy.md)**. Dadurch wird ein einzelnes Objekt erzeugt, das nicht parametrisch ist, d.h. nicht mehr bearbeitet werden kann.
--   Wähle diese Kopie aus, verwende dann [TechDraw Ansicht](TechDraw_View/de.md) und füge die gewünschten Bemaßungen hinzu.
--   Wenn das ursprüngliche 3D Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Bemaßungen in der TechDraw Ansicht aus.
-
-
-</div>
+-   Eine nicht parametrische Kopie des Objekts erstellen, die mit [Part EinfacheKopie](Part_SimpleCopy/de.md) projiziert werden soll.
+-   Diese Kopie auswählen, dann [TechDraw Ansicht](TechDraw_View/de.md) verwenden und die gewünschten Maße hinzufügen.
+-   Wenn das ursprüngliche 3D-Modell geändert wird, wirken sich die Änderungen weder auf die einfache Kopie noch auf die Maße in der TechDraw-Ansicht aus.
 
 Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des Problems der topologischen Benennung.
 
@@ -376,9 +339,13 @@ Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren An
 :   
 
     :   <img alt="Unterschiede zwischen den unterstützten Normen" src=images/TechDraw_Dimension_standardization.png  style="width:500px;">
+
     :   ISO Oriented - Darstellung nach ISO 129-1; Text wird so gedreht, dass er parallel zur Tangente an die Maßlinie liegt.
+
     :   ISO Referencing - Darstellung nach ISO 129-2; der Text steht immer horizontal, oberhalb einer kürzest möglichen Bezugslinie.
+
     :   ASME Inlined - Darstellung nach ASME Y14.5M, der Text steht horizontal, in einem Ausbruch innerhalb der Maßlinie oder des Bogens eingefügt.
+
     :   ASME Referencing - Darstellung nach ASME Y14.5M, der Text steht horizontal, mittig am Ende einer Bezugslinie.
 
 
@@ -391,10 +358,10 @@ Das Werkzeug Längenmaß kann in [Makros](Macros/de.md) und von der [Python](Pyt
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::DrawViewDimension", "Dimension")
 dim1.Type = "Distance"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
+dim1.References2D=[(view1, "Edge1")]
+page.addView(dim1)
 ```
 
 

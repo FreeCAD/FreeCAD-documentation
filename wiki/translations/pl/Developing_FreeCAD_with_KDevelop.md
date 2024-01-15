@@ -1,22 +1,30 @@
 # Developing FreeCAD with KDevelop/pl
 }
 
+
+
 ## Wprowadzenie
 
-The intention for this page is to help orient users who are inclined toward understanding and reading FreeCAD source code with the possible end goal of contributing eventually to the project.
+Intencją tej strony jest pomoc w zorientowaniu się użytkownikom, którzy są skłonni do zrozumienia i czytania kodu źródłowego FreeCAD, z możliwym celem końcowym, jakim jest wniesienie wkładu w projekt.
 
-## Prerequisites
 
--   (optional) an account on github or gitlab (or another 3rd party source code hosting services). Note: as of this edit, FreeCAD uses Github.
--   An up to date version of [KDevelop](https://www.kdevelop.org/)
--   Some basic understanding about `git` (see [Source code management](Source_code_management.md))
 
-## Usage
+## Wymagania wstępne 
 
-## Related
+-   (opcjonalnie) konto na github lub gitlab *(lub innej usłudze hostingu kodu źródłowego innej firmy)*. Uwaga: od tej edycji FreeCAD korzysta z Github.
+-   Aktualna wersja [KDevelop](https://www.kdevelop.org/)
+-   Pewna podstawowa wiedza na temat `git` *(patrz [Zarządzanie kodem źródłowym](Source_code_management/pl.md))*.
 
--   [Source code management](Source_code_management.md)
--   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
+
+
+## Użycie
+
+
+
+## Powiązane
+
+-   [Zarządzanie kodem źródłowym](Source_code_management/pl.md)
+-   [Rozwój FreeCAD z GitKraken](Developing_FreeCAD_with_GitKraken/pl.md)
 
 
 

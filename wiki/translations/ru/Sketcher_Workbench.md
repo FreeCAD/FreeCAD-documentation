@@ -115,7 +115,13 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Переориентировать эскиз](Sketcher_ReorientSketch/ru.md): Позволяет прикрепить эскиз к одной из основных плоскостей.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Проверить эскиз](Sketcher_ValidateSketch/ru.md): Проверить отклонения различных точек и настроить их.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Объединить эскизы](Sketcher_MergeSketches/ru.md): Объединить два или более эскиза.
 
@@ -151,19 +157,19 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Отрезок](Sketcher_CreateLine/ru.md): Построить отрезок по двум точкам. При применении некоторых ограничений отрезки воспринимаются, как бесконечные линии.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Создать дугу](Sketcher_CompCreateArc/ru.md): Данное меню содержит следующие инструменты:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Дуга](Sketcher_CreateArc/ru.md): Построить сегмент дуги задав центр, радиус, начальный угол и конечный угол.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Дуга по 3 точкам](Sketcher_Create3PointArc/ru.md): Построить сегмент дуги по двум конечным точкам и точке на окружности.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Создать окружность](Sketcher_CompCreateCircle/ru.md): Данное меню содержит следующие инструменты:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Окружность](Sketcher_CreateCircle/ru.md): Построить окружность по центру и радиусу.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Окружность по трём точкам](Sketcher_Create3PointCircle/ru.md): Построить окружность по трём произвольным точкам.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Создать фигуру конического сечения](Sketcher_CompCreateConic/ru.md): Sketcher обеспечивает следующие конические сечения. В отличие от B-сплайнов они могут использоваться со всеми видами ограничений, такими как [Касательные](Sketcher_ConstrainTangent/ru.md), [Точки на объекте](Sketcher_ConstrainPointOnObject/ru.md) или [Перпендикуляры](Sketcher_ConstrainPerpendicular/ru.md).
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md): Построить эллипс по центральной точке, точке большого радиуса и точке малого радиуса.
 
@@ -175,7 +181,7 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
   -<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Парабола](Sketcher_CreateArcOfParabola/ru.md): Построить параболу.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Создать B-сплайн](Sketcher_CompCreateBSpline/ru.md): Данное меню содержит следующие инструменты:
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
 
 <div class="mw-translate-fuzzy">
@@ -199,7 +205,7 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Линия по точкам](Sketcher_CreatePolyline/ru.md): Построить линию (ломанную) по точкам. Нажатие клавиши **M** при построении позволяет переключаться между различными режимами построения.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Создать прямоугольник](Sketcher_CompCreateRectangles/ru.md): Данное меню и содержит следующие инструменты: {{Version/ru|0.20}}
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Прямоугольник](Sketcher_CreateRectangle/ru.md): Рисует прямоугольник по 2-ум противоположным точкам.
 
@@ -207,7 +213,7 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Скруглённый прямоугольник](Sketcher_CreateOblong/ru.md): Построить скруглённый прямоугольник по двум точкам. {{Version/ru|0.20}}
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Создать правильный многоугольник](Sketcher_CompCreateRegularPolygon/ru.md): Данное меню и содержит следующие инструменты:
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Треугольник](Sketcher_CreateTriangle/ru.md): Построить правильный треугольник, вписанный в окружность вспомогательной геометрии.
 
@@ -223,19 +229,49 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Правильный многоугольник](Sketcher_CreateRegularPolygon/ru.md) : Построить правильный многоугольник с определенным количеством сторон, по двум точкам: центральной и крайней.
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Паз](Sketcher_CreateSlot/ru.md): Построить овал, по двум точкам.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Скругление](Sketcher_CompCreateFillets.md): Это меню значков на панели инструментов Sketcher, которое содержит следующие команды:
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Скругление](Sketcher_CreateFillet/ru.md): Создаёт скругление между двумя непараллельными линиями.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Скругление с сохранением ограничений](Sketcher_CreatePointFillet.md): Создает скругление между двумя непараллельными линиями, сохраняя их (виртуальное) пересечение.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Обрезать](Sketcher_Trimming/ru.md): Обрезать линию, окружность или дугу относительно выбранной точки.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Разделить ребро](Sketcher_Split/ru.md): Разделяет ребро на два, сохраняя большинство ограничений. {{Version/ru|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Продлить](Sketcher_Extend/ru.md): Продлить линию или дугу до линии границы, дуги, эллипса, эллиптической дуги или точки в пространстве.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Разделить ребро](Sketcher_Split/ru.md): Разделяет ребро на два, сохраняя большинство ограничений. {{Version/ru|0.20}}
+
+</div>
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Внешняя геометрия](Sketcher_External/ru.md): Создать ребро, связанное с внешней геометрией.
 
@@ -249,19 +285,31 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 Ограничения используются для задания длин, задания правил взаимодействия между элементами эскиза, для блокировки эскиза по вертикальным и горизонтальным осям. Некоторые ограничения требуют использования [Вспомогательных ограничений](Sketcher_helper_constraint/ru.md).
 
-
-
-#### Геометрические ограничения 
-
-Эти ограничения не связаны с числовыми данными.
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Ограничение наложения точек](Sketcher_ConstrainCoincident/ru.md): Прикрепляет точку к одной или нескольким другим точкам (совпадает с ними). Он действует как концентрическое ограничение, если выбраны две или более окружностей, дуг, эллипсов или дуг эллипсов.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Привязать точку к объекту](Sketcher_ConstrainPointOnObject/ru.md): Прикрепляет точку к отрезку, дуге или оси координат.
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Вертикаль](Sketcher_ConstrainVertical/ru.md): Преобразует выбранные отрезки или линии в строго вертикальные. При применении этого ограничения можно выбрать более одного объекта.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Горизонталь](Sketcher_ConstrainHorizontal/ru.md): Преобразует выбранные отрезки или линии в строго горизонтальные. При применении этого ограничения можно выбрать более одного объекта.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Вертикаль](Sketcher_ConstrainVertical/ru.md): Преобразует выбранные отрезки или линии в строго вертикальные. При применении этого ограничения можно выбрать более одного объекта.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Параллельность](Sketcher_ConstrainParallel/ru.md): Ограничивает две или более линии, параллельные друг другу.
 
@@ -275,22 +323,14 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Блокировать](Sketcher_ConstrainBlock/ru.md): Блокирует перемещение ребра, то есть предотвращает изменение текущего положения его вершин. Это может быть очень полезно для фиксации позиций В-сплайнов. Смотрите ветку форума [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
 
-
-#### Ограничения размерности 
-
-Ограничения данного вида, имеют поля с числовыми значениями, для которых вы можете использовать [математические выражения](Expressions/ru.md). Данные также могут быть взяты из [электронных таблиц](Spreadsheet_Workbench/ru.md).
-
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Зафиксировать](Sketcher_ConstrainLock/ru.md): Ограничивает выбранный элемент, устанавливая вертикальные и горизонтальные расстояния относительно начала координат, тем самым фиксируя местоположение этого элемента. Позже эти ограничения расстояния могут быть отредактированы.
-
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Горизонтальное расстояние](Sketcher_ConstrainDistanceX/ru.md): Фиксирует горизонтальное расстояние между двумя точками или конечными точками линии. Если выбран только один элемент, то расстояние устанавливается относительно начала координат.
-
--   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Вертикальное расстояние](Sketcher_ConstrainDistanceY/ru.md): Фиксирует вертикальное расстояние между двумя точками или конечными точками линии. Если выбран только один элемент, то расстояние устанавливается относительно начала координат.
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Расстояние](Sketcher_ConstrainDistance/ru.md): Задает размер выбранной линии, ограничивая ее длину, или задает расстояние между двумя точками, ограничивая по расстоянию между ними.
+-   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Зафиксировать](Sketcher_ConstrainLock/ru.md): Ограничивает выбранный элемент, устанавливая вертикальные и горизонтальные расстояния относительно начала координат, тем самым фиксируя местоположение этого элемента. Позже эти ограничения расстояния могут быть отредактированы.
 
 
 </div>
@@ -298,7 +338,23 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Дуги или окружности](Sketcher_CompConstrainRadDia/ru.md): Данное меню и содержит следующие инструменты:
+-   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Горизонтальное расстояние](Sketcher_ConstrainDistanceX/ru.md): Фиксирует горизонтальное расстояние между двумя точками или конечными точками линии. Если выбран только один элемент, то расстояние устанавливается относительно начала координат.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Вертикальное расстояние](Sketcher_ConstrainDistanceY/ru.md): Фиксирует вертикальное расстояние между двумя точками или конечными точками линии. Если выбран только один элемент, то расстояние устанавливается относительно начала координат.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Расстояние](Sketcher_ConstrainDistance/ru.md): Задает размер выбранной линии, ограничивая ее длину, или задает расстояние между двумя точками, ограничивая по расстоянию между ними.
 
 
 </div>
@@ -327,7 +383,13 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Угол](Sketcher_ConstrainAngle/ru.md): Указать угол между двумя выбранными отрезками.
+
+
+</div>
 
 
 
@@ -379,6 +441,10 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Выбрать вертикальную ось](Sketcher_SelectVerticalAxis/ru.md): Выбирает вертикальную ось (ось ординат) эскиза.
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Симметрия](Sketcher_Symmetry/ru.md): Копирует элемент эскиза симметрично выбранной линии.
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Клонировать](Sketcher_Clone/ru.md): Клонирует элемент эскиза.
@@ -398,46 +464,6 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 
 ### Инструменты эскизов для B-сплайн-ов 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Показать/Скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Показать/Скрыть полигон управления B-сплайном](Sketcher_BSplinePolygon/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Показать/Скрыть кривую B-сплайна](Sketcher_BSplineComb/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Показать/Скрыть узлы сопряжения B-сплайнов](Sketcher_BSplineKnotMultiplicity/ru.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Показть/скрыть контрольную точку веса B-сплайна](Sketcher_BSplinePoleWeight/ru.md), {{Version/ru|0.19}}
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -495,11 +521,51 @@ The tool [Draft2Sketch](Draft_Draft2Sketch.md) converts a Draft object to a Sket
 
 </div>
 
-
-
-### Виртуальное пространство эскиза 
+### Sketcher visual 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Переключение Виртуального Пространства](Sketcher_SwitchVirtualSpace/ru.md): Позволяет скрыть все ограничения эскиза и снова сделать их видимыми.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Показать/Скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Показать/Скрыть полигон управления B-сплайном](Sketcher_BSplinePolygon/ru.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Показать/Скрыть кривую B-сплайна](Sketcher_BSplineComb/ru.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Показать/Скрыть узлы сопряжения B-сплайнов](Sketcher_BSplineKnotMultiplicity/ru.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Показть/скрыть контрольную точку веса B-сплайна](Sketcher_BSplinePoleWeight/ru.md), {{Version/ru|0.19}}
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

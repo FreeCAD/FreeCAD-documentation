@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activo, realizando un barrido de uno o más bocetos (también llamados secciones) a lo largo de una trayectoria abierta o cerrada. Esta forma es entonces sustraída del sólido existente. El barrido sustractivo se usa a menudo en conexión con [Part Hélice](Part_Helix/es.md) y [PartDesign ShapeBinder](PartDesign_ShapeBinder.md) para crear roscas; ver el [Thread for Screw Tutorial](Thread_for_Screw_Tutorial.md) para más detalles.
+
+
 
 ## Uso
 
@@ -33,6 +37,8 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 
 </div>
+
+
 
 ## Opciones
 
@@ -62,6 +68,8 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 -   Transformed
 -   Right
 -   Rounded
+
+
 
 ## Propiedades
 

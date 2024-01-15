@@ -10,14 +10,16 @@
 
 # Draft Downgrade/pl
 
+
+
 ## Opis
 
-Narzędzie **<img src="images/Draft_Downgrade.svg" width=16px> [Rozbij kształt](Draft_Downgrade.md)** obniża stopień szczegółowości wybranych obiektów na różne sposoby. Inaczej mówiąc rozbija obiekty do elementów podstawowych, np bryły do wielokątów, kształty do linii.
-
-Polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Rozbij kształt** spowoduje rozbicie wybranych obiektów. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład zdekomponować bryłę 3D na osobne ściany, a linie łamaną na osobne krawędzie. Jeśli wybrane są dwie ściany, to tworzony jest z nich obiekt środowiska Część - [Wytnij](Part_Cut/pl.md). Zauważ, że nie wszystkie obiekty mogą zostać zdekomponowane. To polecenie jest odpowiednikiem polecenia środowiska Rysunek Roboczy [Ulepsz](Draft_Upgrade/pl.md).
+Polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Rozbij kształt** spowoduje rozbicie wybranych obiektów. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład zdekomponować bryłę 3D na osobne ściany, a linie łamaną na osobne krawędzie. Jeśli wybrane są dwie ściany, to tworzony jest z nich obiekt środowiska Część - [Wytnij](Part_Cut/pl.md). Zauważ, że nie wszystkie obiekty mogą zostać zdekomponowane. To polecenie jest odpowiednikiem polecenia środowiska Rysunek Roboczy [Ulepsz kształt](Draft_Upgrade/pl.md).
 
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Dwie nakładające się powierzchnie są degradowane do obiektu Part Cut, który jest degradowany do powierzchni. Ta ściana jest następnie zdekomponowana do zamkniętej linii łamanej, która jest ostatecznie rozbita do oddzielnych krawędzi.*
+
+
 
 ## Użycie
 
@@ -28,6 +30,8 @@ Polecenie <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Roz
 **
     -   Użyj skrótu klawiszowego **D**, a następnie **N**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

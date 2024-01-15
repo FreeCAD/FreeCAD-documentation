@@ -25,7 +25,7 @@ Der Befehl <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px
 
 1.  Ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft Normal-/Wireframe-Anzeige umschalten](Draft_ToggleDisplayMode/de.md)** drücken.
+    -   Die Schaltfläche **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Normal-/Wireframe-Anzeige umschalten](Draft_ToggleDisplayMode/de.md)** drücken.
     -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** auswählen.
     -   Die Menüoption **Dienstprogramme → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Normal-/Wireframe-Anzeige umschalten** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md).
     -   Das Tastaturkürzel **Shift**+**Space**.

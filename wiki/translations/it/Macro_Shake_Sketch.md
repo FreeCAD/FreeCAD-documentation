@@ -19,6 +19,8 @@
 
 ## Description
 
+Shake a sketch in order to discover its unconstrained parts.
+
 
 <div class="mw-translate-fuzzy">
 

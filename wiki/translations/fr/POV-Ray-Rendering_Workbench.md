@@ -11,7 +11,7 @@ L\'atelier de rendu POV-Ray est un [Atelier externe](External_workbenches/fr.md)
 
 
 
-## Fonctionnalités
+## Fonctions
 
 
 

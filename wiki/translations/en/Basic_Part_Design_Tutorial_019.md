@@ -72,7 +72,7 @@ The master sketch contains the model\'s rectangular base shape and two **named c
     1.  Select **XY_Plane** from the list or select that plane in the [3D view](3D_view.md).
     2.  Click **OK**.
 3.  FreeCAD automatically switches to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
-4.  The sketch is opened in edit mode: you will see something like **Fig: MS2**. The X and Y axis of the sketch are indicated as well as its origin (the red point).
+4.  The sketch is opened in edit mode: you will see something like **Fig: MS2**. The X axis (the red line) and Y axis (the green line) of the sketch are indicated, as well as its origin (the red point).
 
 **Step B: Add geometry**
 
@@ -148,7 +148,7 @@ The main profile is created by [padding](PartDesign_Pad.md) a new sketch.
 **Step C: Assign constraints**
 
 1.  The three vertical and horizontal constraints you see in the image should have been added automatically provided you drew those lines that way. If you didn\'t you need to add them.
-2.  Select the point **P2** and the **Y axis** and apply a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md).
+2.  Select the point **P2** and the **Y axis** of the sketch and apply a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [Point onto object constraint](Sketcher_ConstrainPointOnObject.md). Because the sketch is attached to the YZ_Plane, the Y axis of the sketch does not match the Y axis of the body.
 3.  Select the **origin** and the point **P1** and apply a <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:24px;"> [Horizontal constraint](Sketcher_ConstrainHorizontal.md). Why not a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident constraint](Sketcher_ConstrainCoincident.md)? you might ask. Try it (and undo). The sketch will turn orange and a solver message **Redundant constraints** will appear. Because the line P1 to P2 has already been constrained to be vertical, the only remaining degree of freedom is P1\'s Y coordinate. The coincidence constraint sets both the X and Y coordinates to zero, but the X coordinate is already determined. The horizontal constraint, on the other hand, only sets the Y coordinate to zero, which is sufficient.
 4.  Select the line defined by the points **P2** and **P3**, apply a <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [Horizontal distance constraint](Sketcher_ConstrainDistanceX.md), and assign **Length = 5 mm**.
 5.  Select the line defined by the points **P1** and **P2**, apply a <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [Vertical distance constraint](Sketcher_ConstrainDistanceY.md), and assign **Length = 26 mm**.
@@ -357,7 +357,7 @@ Now it is time for the most challenging part of our modeling, a challenge that a
     2.  Assign **8.5 mm** to **Length** and **2nd length**.
     3.  Click **OK**.
 3.  Select the newly created **Pocket001**.
-4.  Change its **Refine** property to **True**.
+4.  On the Data tab of the [Property editor](Property_editor.md) change its **Refine** property to **True**. The property editor can be found on the Model tab of the [Combo View](Combo_view.md).
 
 **Notes**
 

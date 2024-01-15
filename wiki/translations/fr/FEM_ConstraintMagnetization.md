@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintMagnetization
-   Name/fr: FEM Contrainte de magnétisation
-   MenuLocation: Modèle , Contraintes électromagnétiques , Contrainte de magnétisation
+   Name/fr: FEM Magnétisation
+   MenuLocation: Modèle , Conditions limites électromagnétiques , Condition limite de magnétisation
    Workbenches: FEM_Workbench/fr
    Version: 0.21
    SeeAlso: FEM_EquationMagnetodynamic/fr, FEM_EquationMagnetodynamic2D/fr
@@ -12,14 +12,14 @@
 
 ## Description
 
-Crée une contrainte FEM pour la de magnétisation. A utiliser avec les équations [magnétodynamique](FEM_EquationMagnetodynamic/fr.md), [magnétodynamique 2D](FEM_EquationMagnetodynamic2D/fr.md)
+Crée une condition limite FEM pour la de magnétisation. A utiliser avec les équations [magnétodynamiques](FEM_EquationMagnetodynamic/fr.md) et [magnétodynamiques 2D](FEM_EquationMagnetodynamic2D/fr.md)
 
 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Contrainte de magnétisation](FEM_ConstraintMagnetization/fr.md)** ou utilisez le menu **Modèle → Contraintes électromagnétiques → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Contrainte de magnétisation**.
-2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la contrainte doit être appliquée.
+1.  Appuyer sur le bouton **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Condition limite de magnétisation](FEM_ConstraintMagnetization/fr.md)** ou utiliser **Modèle → Conditions limites électromagnétiques → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Condition limite de magnétisation** du menu.
+2.  Dans la [vue 3D](3D_view/fr.md), sélectionnez l\'objet auquel la condition limite doit être appliquée.
 3.  Appuyez sur le bouton **Ajouter**.
 
 ## Options

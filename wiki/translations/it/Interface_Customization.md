@@ -54,19 +54,15 @@ Puoi cercare i comandi inserendo almeno 3 caratteri del testo del menu o del nom
 
 #### Aggiungere una scorciatoia 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare una categoria di comandi dall\'elenco a discesa **Categoria**.
 2.  Selezionare un comando dal pannello **Comandi**.
+    -   Facoltativamente, fare clic sulle intestazioni di colonna {{Value|Comando}}, {{Value|Scelta rapida}} o {{Value|Predefinito}} per riordinare l\'elenco.
+    -   Facoltativamente, trascinare lo splitter a destra del pannello per ridimensionarlo.
 3.  La casella **Scorciatoia corrente** visualizza la scorciatoia corrente, se disponibile.
-4.  Inserire una nuova scorciatoia nella casella di input **Digita la nuova scorciatoia**. La scorciatoia accetta fino a 4 input. Ogni input è un singolo carattere, una combinazione di uno o più tasti speciali o una combinazione di uno o più tasti speciali e un carattere. Usare **Backspace** per correggere gli errori.
-5.  Se la scorciatoia è già in uso, una finestra di dialogo chiede se si desidera sostituirla e il comando a cui è assegnata la scorciatoia viene visualizzato nel pannello **Attualmente assegnata a**.
+4.  Inserire una nuova scorciatoia nella casella di input **Nuova scorciatoia**. La scorciatoia accetta fino a 4 input. Ogni input è un singolo carattere, una combinazione di uno o più tasti speciali o una combinazione di uno o più tasti speciali e un carattere. Usare **Backspace** per correggere gli errori.
+5.  Altri comandi attivi (vedi le [Note](#Note.md)) che già usano la scorciatoia saranno elencati nella **Lista priorità scorciatoia**.
 6.  Premere il pulsante **Assegna** per assegnare la nuova scorciatoia.
-7.  Premere il pulsante **Cancella** per rimuovere il collegamento immesso. Questo rimuove anche il contenuto della casella **Scorciatoia corrente**. Notare che i collegamenti predefiniti non vengono rimossi in modo permanente. Sono ripristinati al riavvio di FreeCAD.
-
-
-</div>
+7.  Se la **Lista priorità scorciatoia** contiene più di un comando: facoltativamente cambia il suo ordine selezionando i singoli comandi e premendo il pulsante **Su** o il pulsante **Giù**. Se i comandi attivi condividono la stessa scorciatoia, la scorciatoia attiverà quella più in alto nell\'elenco.
 
 
 
@@ -94,7 +90,7 @@ Puoi cercare i comandi inserendo almeno 3 caratteri del testo del menu o del nom
 
 #### Note
 
--   Le scorciatoie funzionano solo per i comandi attivi. I comandi attivi sono comandi che appaiono nel menu standard, o nel menu di un ambiente di lavoro che è stato caricato nella sessione corrente di FreeCAD, o i comandi che appaiono su una barra degli strumenti *visibile*.
+-   Le scorciatoie funzionano solo per i comandi attivi. I comandi attivi sono comandi che appaiono nel menu standard, o nel menu dell\'ambiente attivo, o comandi che appaiono in una barra degli strumenti *visibile*.
 
 
 {{Top}}
@@ -156,18 +152,12 @@ Vedere [Tastiera](#Cercare.md)
 
 #### Aggiungere un comando 
 
-
-<div class="mw-translate-fuzzy">
-
 1.  È richiesta almeno una barra degli strumenti personalizzata. Vedi [Creare una barra degli strumenti](#Creare_una_barra_degli_strumenti.md).
 2.  Selezionare la barra degli strumenti corretta nel pannello a destra. Se non viene selezionata alcuna barra degli strumenti, il comando viene aggiunto alla prima barra degli strumenti nell\'elenco.
-3.  Selezionare una categoria dall\'elenco a discesa a sinistra. I comandi delle macro che sono stati impostati nella scheda [Macro](#Macro.md) vengono visualizzati nella categoria \"Macro\".
-4.  Selezionare un comando dal pannello a sinistra.
-5.  Oppure selezionare \'\' per aggiungere un separatore (una linea tra due pulsanti della barra degli strumenti).
-6.  Premere il pulsante **<img src="images/Button_right.svg" width=16px>**.
-
-
-</div>
+3.  Selezionare una categoria di comando dall\'elenco a discesa **Categoria**. I comandi macro impostati nella scheda [Macro](#Macro.md) vengono visualizzati nella categoria {{Value|Macro}}.
+4.  Selezionare un comando dal pannello **Comandi**, oppure selezionare {{Value|<Separatore>}} per aggiungere un separatore (una linea tra due pulsanti della barra degli strumenti).
+    -   Facoltativamente, trascinare lo splitter a destra del pannello per ridimensionarlo.
+5.  Premere il pulsante **<img src="images/Button_right.svg" width=16px>**.
 
 
 
@@ -190,16 +180,8 @@ Vedere [Tastiera](#Cercare.md)
 
 #### Note 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Le barre degli strumenti appartenenti all\'ambiente corrente vengono aggiornate immediatamente, ma dopo aver disabilitato o riattivato una barra degli strumenti è necessario cambiare ambiente (passare a un ambiente diverso e quindi tornare indietro).
 -   Per aggiornare le barre degli strumenti globali è necessario cambiare ambiente (se i comandi sono stati aggiunti o rimossi) o riavviare (se l\'ordine di una barra degli strumenti è cambiato o una barra degli strumenti è stata rinominata).
-
--   In V0.19 c\'è un problema con alcuni comandi di Draft. Dopo averli aggiunti a una barra degli strumenti personalizzata ed essere usciti dall\'applicazione FreeCAD, il file **user.cfg** deve essere modificato manualmente per questi comandi. Cercare il nome della barra degli strumenti personalizzata e in quella sezione modificare il contenuto degli elementi `FCText` che iniziano con `gui_` in `DraftTools`.
-
-
-</div>
 
 
 {{Top}}
@@ -211,16 +193,13 @@ Vedere [Tastiera](#Cercare.md)
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *La scheda Macro*
 
-On this tab macro commands can be set up. Once set up, they can be added to custom toolbars. Macros installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) are set up automatically, and added to a {{Value|Global}} toolbar (see [Toolbars](#Toolbars.md)), if you confirm the **Add button** popup during the installation process.
+In questa scheda è possibile impostare i comandi macro. Una volta configurati, possono essere aggiunti alle barre degli strumenti personalizzate. Le macro installate con <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md) vengono impostate automaticamente e aggiunte a una barra degli strumenti {{Value|Global}} (vedere [Barre degli strumenti](#Barre_degli_strumenti.md) ), se si conferma il popup **Aggiungi pulsante** durante il processo di installazione.
 
-If you want to use a macro downloaded from a different source you will have to install it manually. See [How to install macros](How_to_install_macros.md) for more information. Note that FreeCAD uses a dedicated folder for macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
+Se si desidera utilizzare una macro scaricata da una fonte diversa, si dovrà installarla manualmente. Vedi [Come installare le macro](How_to_install_macros/it.md) per maggiori informazioni. Si noti che FreeCAD utilizza una cartella dedicata per le macro e solo le macro in quella cartella possono essere impostate. Usare il comando <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macro](Std_DlgMacroExecute/it.md) per trovare questa cartella sul proprio sistema.
 
 
 
 #### Aggiungere un comando macro 
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Nell\'elenco a discesa **Macro** selezionare una macro.
 2.  Immettere un **Testo di menu**. Questo sarà il nome utilizzato per identificare il comando macro e apparirà anche nella barra degli strumenti se non è presente l\'icona.
@@ -230,15 +209,12 @@ If you want to use a macro downloaded from a different source you will have to i
 6.  Facoltativamente, inserire una scorciatoia nella casella d\'immissione **Acceleratore**. Vedere [Tastiera](#Tastiera.md) per maggiori informazioni.
 7.  Per aggiungere un\'icona:
     1.  Premere il pulsante **Pixmap** **...**.
-    2.  Si apre la finestra di dialogo Scegli Icona.
+    2.  Si apre la finestra di dialogo **Scegli Icona**.
     3.  Se necessario, premere il pulsante **Cartella icone...** per aggiungere una cartella di icone.
-    4.  Selezionare un\'icona dal pannello. La finestra di dialogo Scegli Icona si chiude automaticamente.
+    4.  Selezionare un\'icona dal pannello. La finestra di dialogo **Scegli Icona** si chiude automaticamente.
 8.  Premere il pulsante **Aggiungi**.
 9.  Il comando macro appare nel pannello a sinistra.
 10. È ora possibile selezionare il comando macro nella scheda [Barre degli strumenti](#Barre_degli_strumenti.md).
-
-
-</div>
 
 
 
@@ -266,18 +242,7 @@ Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnex
 
 ### Pulsanti Spaceball 
 
-
-<div class="mw-translate-fuzzy">
-
-Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md).
-
-
-</div>
-
-
-{{Top}}
-
-
+Questa scheda è vuota se non viene rilevata alcuna Spaceball. Vedere: [3Dconnexion input devices](3Dconnexion_input_devices/it.md). 
 
 ## Temi
 
@@ -298,17 +263,11 @@ Puoi anche creare il tuo tema se non sei soddisfatto dei temi forniti con FreeCA
 
 ## Componenti aggiuntivi 
 
+I componenti aggiuntivi di <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) offrono un altro modo per personalizzare l\'interfaccia utente. Sono disponibili diversi [Preference Packs](Preference_Packs/it.md) per cambiare il [tema](#Temi.md).
 
-<div class="mw-translate-fuzzy">
+Nella categoria Ambienti di Lavoro dell\'Addon Manager si possono trovare alcuni addons dell\'utente triplus:
 
-I componenti aggiuntivi offrono ancora un altro modo per personalizzare l\'interfaccia utente. Di seguito sono riportati alcuni componenti aggiuntivi creati dagli utenti nella comunità di FreeCAD. Possono essere scaricati tramite <img alt="" src=images/_Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr/it.md) (nota: essi sono elencati nella scheda Ambienti).
-
-
-</div>
-
-In the Workbenches category of the Addon Manager some addons by user triplus can be found:
-
--   <https://github.com/triplus/CubeMenu> (for {{VersionMinus|0.20}})
+-   <https://github.com/triplus/CubeMenu> (per {{VersionMinus/it|0.20}})
 -   <https://github.com/triplus/Glass>.
 -   <https://github.com/triplus/IconThemes>
 -   <https://github.com/triplus/Launcher>

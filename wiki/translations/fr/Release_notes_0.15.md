@@ -11,7 +11,11 @@ Spark Plug Plane par r-frank
 
 </center>
 
+
+
 ## Généralité
+
+
 
 ### Boîte de recherche dans la Vue Sélection 
 
@@ -19,9 +23,13 @@ La fenêtre de sélection permet aux utilisateurs de faire une recherche dans le
 
 ![](images/FeatureSelectionView.jpg )
 
+
+
 ### Le support des unités est déployé 
 
 Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la version 0.14, est maintenant utilisé dans pratiquement tous les modules de freeCAD, dont [Sketcher](Sketcher_Workbench/fr.md), [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md). Quelques zones ne l\'utilisent toujours pas mais en général vous pouvez maintenant compter sur le système d\'unité tout le long de votre processus de modélisation.
+
+
 
 ### Améliorations mineures 
 
@@ -31,9 +39,13 @@ Le nouveau système [d\'unités](Quantity/fr.md) de FreeCAD, introduit dans la v
 -   Support des barre d\'outils globales personnalisées : En plus d\'ajouter une barre d\'outils avec vos propre outils de n\'importe quels ateliers, il est maintenant possible d\'ajouter une barre d\'outils personnalisé qui restera présente dans tout les ateliers.
 -   Nouveau paquets de librairies pour Windows avec la dernière version OCE 0.17.
 
+
+
 ## Atelier Part 
 
 -   Quelques nouveaux éléments géométrique de base ont été ajouté : Parabole, Arc de Parabole, Hyperbole et Arc d\'hyperbole.
+
+
 
 ## Ateliers Part Design & Sketcher 
 
@@ -43,24 +55,34 @@ L\'[Atelier Sketcher](Sketcher_Workbench/fr.md) bénéficie du support des ellip
 
 ![](images/Ellipse-example.png )
 
+
+
 ### Amélioration de l'outil de sélection 
 
 Le Sketcher bénéficie aussi d\'une série de nouveaux outils pour vous aidez dans le diagnostique, l\'optimisation et la réparation de vos esquisses. Vous pouvez maintenant, par exemple, facilement sélectionner les éléments associé à une contrainte, ou inversement, ou trouver les contraintes conflictuelles ou redondantes.
 
 L\'interface graphique bénéficie aussi de nouveaux panneaux, et montre maintenant la liste des éléments sélectionnables de votre esquisse.
 
+
+
 ### Fusionner les esquisses 
 
 Il est maintenant possible de fusionner plusieurs esquisses en une.
+
+
 
 ### Améliorations des propriétés de l\'esquisse 
 
 L\'affichage des propriétés des objets Esquisses a été améliorés et les contraintes dimensionnelles (distances, distances horizontales et verticales) à l'intérieur de l\'esquisse sont éditable directement dans ses propriétés sans avoir à retourner dans le mode édition de l\'esquisse.
 
+
+
 ### Améliorations mineures 
 
 -   Ajout de plus de polygones régulier dans le sketcher
 -   Ajout de novelle contraintes : Contrainte de symétrie perpendiculaire à un axe de symétrie
+
+
 
 ## Atelier Tableur 
 
@@ -68,13 +90,19 @@ L\'[atelier Tableur](Spreadsheet_Workbench/fr.md) a été entièrement recodé. 
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:640px;">
 
+
+
 ## Atelier Draft 
+
+
 
 ### Compatibilité des polices filaire dans Texte Surfacique 
 
-Pour les nostalgique des vieux logiciel CAD, les police filaire (dans lesquels chaque lettre sont faite de simple lignes sans surface) peuvent maintenant être utilisé avec l\'outil [Texte surfacique](Draft_ShapeString/fr.md).
+Pour les nostalgique des vieux logiciel CAD, les police filaire (dans lesquels chaque lettre sont faite de simple lignes sans surface) peuvent maintenant être utilisé avec l\'outil [Forme à partir d\'un texte](Draft_ShapeString/fr.md).
 
 ![](images/Stickyfonts.jpg )
+
+
 
 ### Améliorations mineures 
 
@@ -83,7 +111,11 @@ Pour les nostalgique des vieux logiciel CAD, les police filaire (dans lesquels c
 -   Support des [Ellipses](Sketcher_CompCreateConic/fr.md).
 -   Les objets [Réseaux](Draft_Array/fr.md) peuvent maintenant être fusionnés.
 
+
+
 ## Atelier Mise en plan 
+
+
 
 ### Export de la page en DXF 
 
@@ -93,15 +125,23 @@ Le système utilisé pour exporter les pages de dessin au format DXF jusqu\'à p
 
 Dans le fichier DXF, les différents vues sont placées sous forme de blocs à l\'échelle. Cela permet de restaurer rapidement l\'échelle 1:1
 
+
+
 ### Améliorations mineures 
 
 -   Il est maintenant possible de réutiliser les paramètres de projection d\'une vue existante lors de la création de nouveaux projets de vues.
 
+
+
 ## Atelier Architecture 
+
+
 
 ### Mise à jour de l\'import/export IFC 
 
 FreeCAD deL\' [ importateur IFC](Arch_IFC.md) de FreeCad a reçu beaucoup de travail et d\'essais, et une mise à niveau massive. L\'ancien,importateur basé sur Python, a été désactivé (il est encore utilisable à partir de la console de python, ), et FreeCAD utilise désormais exclusivement et de manière intensive le plus récent,d\'avant garde[Version 5](http://ifcopenshell.org/python.html) ([lire la suite](http://ifcopenshell.org/pythonOCC/example1/) à ce sujet) de [IfcOpenShell](http://ifcopenshell.org/) qui est maintenant disponible sur toutes les plateformes principales (assurez-vous de télécharger la version correspond à la version python utilisé par votre installation de FreeCAD). Nous bénéficions désormais d\'une importation et exportation beaucoup plus rapide et fiable, un code beaucoup plus simple et plus propre (lire: plus facile à étendre), et déjà quelques goodies supplémentaires, comme un meilleur support pour les objets basés sur les courbes et les propriétés IFC.
+
+
 
 ### Nouvelle fonctionnalité: Couper un objet avec un plan 
 
@@ -109,11 +149,15 @@ Cette nouvelle fonctionnalité, [ Arc Plan de Coupe](Arch_CutPlane.md), permet d
 
 ![](images/Arch_CutPlane_example.jpg )
 
+
+
 ### Nouvel outil de toit 
 
 L\'outil [Toit](Arch_Roof.md) a été complètement refait et il est désormais possible de définir des pentes différentes pour chaque côtés du toit, en outre, il est possible de définir une épaisseur de toit, la longueur du débordement.
 
 ![](images/RoofExample.png )
+
+
 
 ### Panneaux
 
@@ -121,17 +165,25 @@ Un nouvel objet [Panneau](Arch_Panel.md) a été ajouté à l\' [Atelier Arch(it
 
 <img alt="" src=images/Arch_Panel_example.jpg  style="width:640px;">
 
+
+
 ### Fourniture
 
 Le nouvel objet \[Arch Equipment\]\[Équipement Arch(itecture) \]est conçu pour ajouter toutes sortes d\'objets autonomes non-structurels pour vos projets architecturaux, tels que les appareils d\'éclairage, des équipements sanitaires ou des meubles.
+
+
 
 ### Améliorations mineures 
 
 -   L\' objet Basepoint de [Structure Arch(itecture)peut](Arch_Frame.md) maintenant être réglé sur un sommet spécifique du profil.
 
+
+
 ## Modules externes 
 
 Il a également été fait un travail très intéressant sur de nouveaux ateliers et macros, qui ne sont pas intégrés dans le code source FreeCAD (encore!), Mais sont faciles à installer sur une installation existante FreeCAD 0,15. Les instructions sont fournies sur les pages liées ci-dessous:
+
+
 
 ### Assemblage 2 
 
@@ -139,11 +191,15 @@ L\' [Atelier Assemblage 2](https://github.com/hamish2014/FreeCAD_assembly2) four
 
 ![](images/Assembly2_example.jpg )
 
+
+
 ### Dessin dimensionnement 
 
 L\'[atelier Dessin dimensionnement](https://github.com/hamish2014/FreeCAD_drawing_dimensioning) ajoute de puissants outils d\'annotation et de dimensionnement à l\'atelier de dessin (voir [fil de discussion](http://forum.freecadweb.org/viewtopic.php?f=10&t=8395)).
 
 ![](images/Drawing_Dimensioning_example.jpg )
+
+
 
 ### Caractéristiques de travail 
 

@@ -23,7 +23,6 @@ Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną brył�
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Utwórz bryłę pierwotną ...**.
 2.  Otworzy się okno dialogowe **Bryła pierwotna**.
 3.  Najpierw wybierz typ obiektu siatkowego z listy rozwijanej:
-4.  First select a mesh object type from the dropdown list:
     -   
         **<img src="images/Mesh_Cube.svg" width=16px> Sześcian
 **
@@ -35,7 +34,7 @@ Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną brył�
         
 
     -   
-        **<img src="images/Mesh_Cone.svg" width=16px> Stośek
+        **<img src="images/Mesh_Cone.svg" width=16px> Stożek
 **
         
 
@@ -45,7 +44,7 @@ Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną brył�
         
 
     -   
-        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Ellipsoida
+        **<img src="images/Mesh_Ellipsoid.svg" width=16px> Elipsoida
 **
         
 
@@ -53,11 +52,11 @@ Polecenie **Utwórz bryłę pierwotną** tworzy regularną parametryczną brył�
         **<img src="images/Mesh_Torus.svg" width=16px> Torus
 **
         
-5.  Określ wymagane ustawienia. Dostępne ustawienia zależą od typu obiektu siatkowego. Zobacz [Właściwości](#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
-6.  Dla siatek z zakrzywionymi powierzchniami: wyższa wartość **Próbkowania** skutkuje drobniejszą siatką.
-7.  Naciśnij przycisk {{button|Utwórz}}, aby utworzyć obiekt siatki.
-8.  Opcjonalnie utwórz więcej obiektów siatki.
-9.  Naciśnij przycisk {{button|Zamknij}}, aby zamknąć okno dialogowe i zakończyć polecenie.
+4.  Określ wymagane ustawienia. Dostępne ustawienia zależą od typu obiektu siatkowego. Zobacz [Właściwości](#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
+5.  Dla siatek z zakrzywionymi powierzchniami: wyższa wartość **Próbkowania** skutkuje drobniejszą siatką.
+6.  Naciśnij przycisk {{button|Utwórz}}, aby utworzyć obiekt siatki.
+7.  Opcjonalnie utwórz więcej obiektów siatki.
+8.  Naciśnij przycisk {{button|Zamknij}}, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 
 

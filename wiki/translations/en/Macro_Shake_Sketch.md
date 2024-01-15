@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
-|Description=Shake a sketch in order to discover its unconstrained parts. Enter edit mode for a sketch and launch the macro. The macro will add a random noise on all sketch points. The sketch is then solved, constrained parts will retain their position, free parts will move {{ColoredText|#ff0000|#ffff00|(Use the Undo (Ctrl+Z) and Redo (Ctrl+Y) button (labelled "Shake Sketch")) or run this macro on a copy of the original sketch.}}
+|Description=Shake a sketch in order to discover its unconstrained parts. Enter edit mode for a sketch and launch the macro. The macro will add a random displacement on all sketch points. The sketch is then solved, constrained parts will retain their position, free parts will move.<br/> {{ColoredText|#ff0000|#ffff00|Use the Undo (Ctrl+Z) and Redo (Ctrl+Y) button (labelled "Shake Sketch") or run this macro on a copy of the original sketch.}}
 |Author=Gaël Ecorchard, heda
 |Version=1.3
 |Date=2022-06-01
@@ -12,7 +12,9 @@
 
 ## Description
 
-Shake a sketch in order to discover its unconstrained parts. Enter edit mode for a sketch and launch the macro. The macro will add a random noise on all sketch points. The sketch is then solved, constrained parts will retain their position, free parts will move. Always run this macro on a copy of the original sketch.
+Shake a sketch in order to discover its unconstrained parts.
+
+Enter edit mode for a sketch and launch the macro. The macro will add a random displacement on all sketch points. The sketch is then solved, constrained parts will retain their position, free parts will move. Always run this macro on a copy of the original sketch.
 
 Restore the original Sketch with the **Undo (Ctrl+Z)** and **Redo (Ctrl+Y)** button (labeled \"Shake Sketch\") **or be careful working on a copy of your file because the macro \"dismantles all\" to display and you may need to start over.**
 

@@ -20,7 +20,7 @@
 
 本教學主要介紹草圖工作台(Sketcher Workbench)的基本工作流程。
 
-[草圖工作台(Sketcher Workbench)是一獨立模組](Sketcher_Workbench.md)，可用於繪製2D(平面)物件。但是，它通常與 <img alt="Workbench_PartDesign.svg" src=images/Workbench_PartDesign.svg  style="width:24px;"> [零件設計工作台(PartDesign Workbench)結合使用](PartDesign_Workbench.md)。一個具有封閉輪廓外型的草圖通常用**[<img src=images/PartDesign_Pad.svg style="width:16px">[填充所選草圖](PartDesign_Pad.md)**來建立[實體物件](PartDesign_Body.md) .
+[草圖工作台(Sketcher Workbench)](Sketcher_Workbench.md)是一獨立模組，可用於繪製2D(平面)物件。但是，它通常與 <img alt="Workbench_PartDesign.svg" src=images/Workbench_PartDesign.svg  style="width:24px;"> [零件設計工作台(PartDesign Workbench)](PartDesign_Workbench.md)結合使用。一個具有封閉輪廓外型的草圖通常用**[<img src=images/PartDesign_Pad.svg style="width:16px">[填充所選草圖](PartDesign_Pad.md)**來建立[實體物件](PartDesign_Body.md) .
 
 讀者將會練習：
 
@@ -46,8 +46,8 @@
 需要記住的一些動作:
 
 -   按滑鼠右鍵，或在鍵盤上按一下 **Esc**，可在編輯模式下取消選擇目前啟用的工具。
--   離開草圖編輯模式，按一下[複合檢視/任務上方的](task_panel.md)**Close**按鈕，或按二次鍵盤的**Esc**按鍵。
--   要再次進入編輯模式，在[樹狀檢視中該草圖名稱上點二下](tree_view.md) ；或點選該草圖，再按一下**[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [編輯所選之草圖](Sketcher_EditSketch.md)**。
+-   離開草圖編輯模式，按一下[複合檢視/任務](task_panel.md)上方的**Close**按鈕，或按二次鍵盤的**Esc**按鍵。
+-   要再次進入編輯模式，在[樹狀檢視](tree_view.md)中該草圖名稱上點二下 ；或點選該草圖，再按一下**[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [編輯所選之草圖](Sketcher_EditSketch.md)**。
 
 
 
@@ -64,7 +64,7 @@
 
 **註:**
 
-[樹狀檢視將會切換至](tree_view.md)[任務面板](task_panel.md); 在此界面中將**「Edit controls」**區塊展開，並確認**「自動拘束」**已勾選。其他選項可以更改，包括網格的大小，以及是否要「格點快選」；本教學中我們將不使用「格點快選」並將格點顯示關閉。 在[任務面板的其他區塊](task_panel.md)，您可看到有哪些圖元及哪種拘束被套用。
+[樹狀檢視](tree_view.md)將會切換至[任務面板](task_panel.md); 在此界面中將**「Edit controls」**區塊展開，並確認**「自動拘束」**已勾選。其他選項可以更改，包括網格的大小，以及是否要「格點快選」；本教學中我們將不使用「格點快選」並將格點顯示關閉。 在[任務面板](task_panel.md)的其他區塊，您可看到有哪些圖元及哪種拘束被套用。
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 

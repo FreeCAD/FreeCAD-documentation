@@ -39,9 +39,9 @@ Se almeno uno dei profili ha un numero di segmenti diverso dagli altri, viene ap
 
 L\'operazione è applicata a tutti i profili, per produrre in ognuno un numero uguale di segmenti. Il numero totale di segmenti in ciascun profilo sarà pari alla somma di tutti i numeri di segmenti di tutti i profili (capita che su un determinato angolo polare non sia disponibile nessun vertice).
 
-   
-  <img alt="Il processo con cui profile2 (la forma simile a una mezzaluna bianca) viene suddiviso per creare le giunzioni corrispondenti ai vertici di profile1 (il pentagono rosso). Le giunzioni inserite sono contrassegnate dalle frecce gialle." src=images/Loft-vertex-insertion.png  style="width:300px;">   <img alt="Il risultato del Loft relativo all\'immagine di sinistra." src=images/Loft_crescent_pentagon.png  style="width:300px;">
-   
++++
+| <img alt="Il processo con cui profile2 (la forma simile a una mezzaluna bianca) viene suddiviso per creare le giunzioni corrispondenti ai vertici di profile1 (il pentagono rosso). Le giunzioni inserite sono contrassegnate dalle frecce gialle." src=images/Loft-vertex-insertion.png  style="width:300px;"> | <img alt="Il risultato del Loft relativo all\'immagine di sinistra." src=images/Loft_crescent_pentagon.png  style="width:300px;"> |
++++
 
 ### Step 2. Establishing correspondence between segments 
 
@@ -113,8 +113,9 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 
 </div>
 
-    
-  <img alt="Non è necessario che i profili siano paralleli." src=images/Loft_nonparallel.png  style="width:300px;">   <img alt="In Loft, i profili possono essere complanari. In questo esempio, due dei tre profili sono complanari." src=images/Loft_Coplanar.png  style="width:300px;">   <img alt="Un esempio di un Loft chiuso tra tre profili pentagonali bianchi. Notare la giunzione non levigata sul profilo più esterno. Questo è il primo profilo nel loft chiuso." src=images/Loft-closed.png  style="width:300px;">
+++++
+| <img alt="Non è necessario che i profili siano paralleli." src=images/Loft_nonparallel.png  style="width:300px;"> | <img alt="In Loft, i profili possono essere complanari. In questo esempio, due dei tre profili sono complanari." src=images/Loft_Coplanar.png  style="width:300px;"> | <img alt="Un esempio di un Loft chiuso tra tre profili pentagonali bianchi. Notare la giunzione non levigata sul profilo più esterno. Questo è il primo profilo nel loft chiuso." src=images/Loft-closed.png  style="width:300px;"> |
+++++
 
 
 

@@ -1,5 +1,5 @@
 # Datum/de
-## Einführung
+## Einleitung
 
 In FreeCAD wird das Wort \"[Bezugsebene](Datum/de.md)\" normalerweise verwendet, um sich auf Hilfsgeometrie im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) zu beziehen. Diese geometrischen Elemente bilden kein Teil der endgültigen [Form](Shape/de.md) des [Körpers](Body/de.md), können aber als Referenzen und als Unterstützung für [Skizzen](Sketch/de.md) und andere Arten von [Formelementen](Feature/de.md) verwendet werden.
 
@@ -15,6 +15,8 @@ Die Folgenden sind direkt abgeleitet von [Part Formelement](Part_Feature/de.md):
 -   [PartDesign FormBinder](PartDesign_ShapeBinder/de.md)
 -   [PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md)
 
+
+
 ## Anwendung
 
 1.  Wechsle zum [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
@@ -28,6 +30,8 @@ Die Folgenden sind direkt abgeleitet von [Part Formelement](Part_Feature/de.md):
 Jetzt kannst du die BezugsEbene beliebig verschieben und drehen, indem du ihre Eigenschaften im [Eigenschaftseditor](property_editor/de.md) änderst, und die Skizze und das Polster folgen deiner neuen [Platzierung](Placement/de.md).
 
 Du kannst andere Arten von Bezugspunkten hinzufügen, die mit anderen Skizzen und Formelementen verwendet werden können.
+
+
 
 ## Hinweise
 

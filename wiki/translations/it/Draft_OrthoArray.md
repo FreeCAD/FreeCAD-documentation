@@ -59,14 +59,6 @@ Il comando può essere utilizzato su oggetti 2D creati con [Draft](Draft_Workben
 
 
 
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
-
-
-
 ## Proprietà
 
 Vedere anche: [Editor delle proprietà](Property_editor/it.md).

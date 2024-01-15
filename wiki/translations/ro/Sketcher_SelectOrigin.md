@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Selectează originea schiței.
+
+
+</div>
 
 
 

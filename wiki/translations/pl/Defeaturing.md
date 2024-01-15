@@ -1,15 +1,15 @@
 # Defeaturing/pl
 ## Wprowadzenie
 
-3D Model Defeaturing got added with Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) and can be used for editing STEP models by removing of the features from the model.
+Usuwanie cech modelu 3D zostało dodane w Open CASCADE 7.3 [1](https://dev.opencascade.org/index.php?q=node/1211) i może być używane do edycji modeli STEP poprzez usuwanie cech z modelu.
 
-It is also possible to direct modeling the model, when the history of operations is unavailable. (This is the case for 3d STEP models). Defeaturing can also useful to remove proprietary details of the model before sharing it.
+Możliwe jest również bezpośrednie modelowanie modelu, gdy historia operacji jest niedostępna. *(Tak jest w przypadku modeli 3D STEP)*. Usuwanie cech może być również przydatne do usuwania zastrzeżonych szczegółów modelu przed jego udostępnieniem.
 
-The easiest way to use defeaturing is by using the [Defeaturing Workbench](Defeaturing_Workbench.md)
+Najprostszym sposobem na użycie usuwania cech jest użycie środowiska pracy [Defeaturing](Defeaturing_Workbench/pl.md).
 
-## Code snippet 
+## Wycinek kodu 
 
-Defeaturing can also be used with python: 
+Środowisko pracy Defeaturing może być również używane w środowisku Python: 
 ```python
 box = Part.makeBox(10,10,10)
 box2 = Part.makeBox(5,5,5,FreeCAD.Vector(5,5,0))
@@ -21,8 +21,8 @@ Part.show(box4) #show defeatured shape
 ```
 
 <img alt="" src=images/box3.PNG  style="width:200px;"> 
-*Box3 shape used in python code, before defeaturing* <img alt="" src=images/box4.PNG  style="width:200px;"> 
-*Box4 shape used in python code, defeatured*
+*Kształt Box3 użyty w kodzie Pythona, przed usunięciem cech* <img alt="" src=images/box4.PNG  style="width:200px;"> 
+*Kształt Box4 używany w kodzie Pythona, zdegradowany*
 
 
 

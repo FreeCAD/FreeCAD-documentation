@@ -23,6 +23,8 @@ Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](S
 
 ## Verfügbare Navigationsstile 
 
+Für alle Navigationsarten gilt: Solange keine Objekte im Sketcher-Bearbeitungsmodus ausgewählt werden, muss immer die **Strg**-Taste (Ctrl-Taste) gedrückt und gehalten werden, um mehrere Objekte auszuwählen.
+
 
 
 ### Blender Navigation 
@@ -60,11 +62,9 @@ Dies ist der Standard Navigationsstil. Er ermöglicht dem Benutzer eine einfache
 |Ctrl=**Strg**
 |Shift=**Shift**
 |Select_text=Drücke die linke Maustaste über einem Objekt das du auswählen möchtest.
-
-**Strg** gedrückt halten, um die Auswahl mehrerer Objekte zu ermöglichen.
-|Pan_text=Halte die mittlere Maustaste gedrückt und bewege den Mauszeiger.
-|Pan_mode_text=Pan Modus: **Strg** gedrückt halten und einmal die rechte Maustaste drücken und dann den Mauszeiger bewegen.
-|Zoom_text=Verwende das Mausrad, um herein- und hinausaus zu zoomen.
+|Pan_text=Die mittlere Maustaste gedrückt halten und den Mauszeiger bewegen.
+|Pan_mode_text=Pan mode: Die **Strg**-Taste gedrückt halten, einmal die rechte Maustaste drücken, dann den Mauszeiger bewegen.
+|Zoom_text=Das Mausrad zum anpassen der Darstellungsgröße (Zoom) verwenden.
 
 Ein Klick auf die mittlere Maustaste zentriert die Sicht wieder auf die Position der Cursors.
 |Zoom_mode_text=Zoom Modus: Halte die **Strg** und **Shift** Tasten gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger.
@@ -112,7 +112,7 @@ Im [Skizzierer](Sketcher_Workbench/de.md) die **Alt**-Taste halten.
 |Tilt_view_text=Die linke und rechte Maustaste halten und den Mauszeiger seitwärts bewegen. 
 |Tilt_view_gesture_text=Die imaginäre Linie rotieren, die durch zwei Berührungspunkte gebildet wird.
 
-In der Version 0.18 ist diese Methode per Voreinstellung deaktiviert. Im **Bearbeiten → Einstellungen → Anzeige**, das Häckchen bei "Deaktiviere die Touchscreen Neige Geste" entfernen, um sie zu aktivieren.
+Diese Methode ist per Voreinstellung deaktiviert. Zum Aktivieren zu den Voreinstellungen unter **Bearbeiten → Einstellungen → Anzeige → Navigation** wechseln und das Häckchen bei "Deaktiviere die Touchscreen-Neige-Geste" entfernen.
 }}
 
 
@@ -199,10 +199,12 @@ Die OpenSCAD Navigation wurde gemäß [OpenSCAD](https://openscad.org/) gestalte
 |Rotate_view_name=Ansicht drehen
 |Shift=**Shift**
 |Select_text=Die linke Maustaste drücken und über das Objekt fahren, das markiert werden soll.
-|Pan_text=Die rechte Maustaste drücken und den Mauszeiger bewegen.
-|Zoom_text=Die mittlere Maustaste drücken und den Mauszeiger bewegen.
-Alternativ **Hochstellen (Shift)** und die rechte Maustaste halten und den Mauszeiger bewegen.
-|Rotate_view_text=Die linke Maustaste drücken und den Mauszeiger bewegen.
+
+**Strg**-Taste (Ctrl) und **Umschalttaste** (Shift) gedrückt halten, wenn die Maustaste gedrückt wird, um ein Objekt im Sketcher-Bearbeitungsmodus zu ziehen.
+|Pan_text=Die rechte Maustaste gedrückt halten und den Mauszeiger bewegen.
+|Zoom_text=Die mittlere Maustaste gedrückt halten und den Mauszeiger bewegen.
+Alternativ **Umschalttaste** (Shift) und die rechte Maustaste gedrückt halten und den Mauszeiger bewegen.
+|Rotate_view_text=Die linke Maustaste gedrückt halten und den Mauszeiger bewegen.
 }}
 
 
@@ -254,7 +256,7 @@ Der TinkerCAD Navigationsstil basiert auf [TinkerCAD](https://en.wikipedia.org/w
 
 ### Touchpad Navigation 
 
-Bei der Navigation mit einer Tastfläche (touchpad) erfordert das Schwenken, Zoomen und Drehen der Ansicht das Drücken einer zusätzlichen Erweiterungstaste.
+Für den Navigationsstil Tastfläche (touchpad) erfordern das Schwenken, Zoomen und Drehen der Ansicht das Drücken einer Erweiterungstaste mit dem Touchpad. Dieser Stil kann auch mit einer Maus verwendet werden
 
 
 {{Touchpad Navigation

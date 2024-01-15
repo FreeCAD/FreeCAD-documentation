@@ -9,6 +9,8 @@
 |FCVersion=All
 }}
 
+
+
 ## Descrizione
 
 This macro exports multiple FEM result objects from a transient analysis to the VTK format and generates a PVU file which can be used to load the results directly into ParaView for post-processing.
@@ -23,7 +25,7 @@ Run the macro on a FreeCAD project that includes several FEM result objects from
 
 ## How to use (step-by-step with example) 
 
-As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → General → Macro.
+As an example, the bending of a aluminium/steel bimetal strip is used. A step-by-step guide to create the sample file is given [here](Transient_FEM_analysis.md), or you can download the file from the [downloads section](#Downloads.md) of this page. Save the FCMacro file in the FreeCAD macro folder, which can be found via Edit → Preferences → Python → Macro.
 
 With the example file opened, we go to Macro → Macros\..., select \"ExportTransientResults_190830.FCMacro\" (or whatever name you saved it as) and execute it. The macro will now create a subfolder \'vtk-export\' besides the .FCStd file. Depending on the number and size of the result objects, this may take some time. In the Report View (View → Report View), we should see \'Macro finished\', if eveything went fine - or some error messages. (Note: Sometimes messages like \'PropertyFloatList NOT exported to vtk\' appear, but I was able to work with the VTK files anyway\...) In the subfolder \'vtk-export\', we will find .vtu files, one for each result set for each timestamp. Additionally, a .pvd file is created, which tells ParaView which result set belongs to which timestamp.
 
@@ -38,6 +40,8 @@ We go one step further and want to visualise the actual bending of the strip. Wi
 <img alt="" src=images/Transient_FEM_Bimetal_ParaView_(1).JPG  style="width:700px;"> 
 
 The post-processing we have just done can be saved as a \'state\' in ParaView, which can be opened any time again and even be applied to a different set of results.
+
+
 
 ## Download
 

@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ArchView
    Name/de: TechDraw ArchAnsicht
-   MenuLocation: TechDraw , Arch Arbeitsbereichsobjekt einfügen
-   Workbenches: TechDraw_Workbench, Arch_Workbench/de
+   MenuLocation: TechDraw, Views From Other Workbenches , Objekt des Arbeitsbereichs Arch einfügen
+   Workbenches: TechDraw_Workbench/de, Arch_Workbench/de
    SeeAlso: Arch_SectionPlane/de
 ---
 
 # TechDraw ArchView/de
-
-
-</div>
 
 
 
@@ -24,16 +21,14 @@ Das Werkzeug **TechDraw ArchAnsicht** fügt eine Ansicht einer **<img src="image
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine Arch Schnittebene in der 3D Ansicht oder im Baum
-2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du die gewünschte Seite im Baum auswählen.
-3.  Drücke die **<img src="images/TechDraw_ArchView.svg" width=24px> [Einfügen Arch Arbeitsbereichsobjekt](TechDraw_ArchView/de.md)** Schaltfläche
-4.  Eine Ansicht der Objekte, die von der Schnittebene gesehen werden, erscheint auf der Seite.
-
-
-</div>
+1.  Eine Arch Schnittebene in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md).
+2.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzufügen.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ArchView.svg" width=16px> [Objekt des Arbeitsbereichs Arch einfügen](TechDraw_ArchView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Views From Other Workbenches → <img src="images/TechDraw_ArchView.svg" width=16px> Objekt des Arbeitsbereichs Arch einfügent** auswählen.
+4.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
 
 
 
@@ -59,7 +54,9 @@ Das Werkzeug **TechDraw ArchAnsicht** fügt eine Ansicht einer **<img src="image
 
 :   ![](images/TechDraw_Arch_piping.jpg )
 
-## Notes
+
+
+## Hinweise
 
 Die ArchView wird innerhalb des [Arch Arbeitsbereichs](Arch_Workbench/de.md) gerendert, daher hat TechDraw nur begrenzte Kontrolle über sein Erscheinungsbild. Möglicherweise musst du Änderungen innerhalb von Arch vornehmen, um die gewünschte Darstellung zu erhalten.
 

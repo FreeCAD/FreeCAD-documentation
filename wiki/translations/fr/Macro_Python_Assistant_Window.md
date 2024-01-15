@@ -63,34 +63,49 @@ La plupart des fonctionnalités du PAW sont fournies par le menu contextuel. Les
 
 -   Copie
     - fournit la fonction de copie standard
+
 -   Copier la sélection sur la console
     - la sélection actuelle est copiée à la fin de la console Python
+
 -   Copier le contenu sur la console
     - l\'intégralité du contenu du PAW est copié à la fin de la console Python
+
 -   Coller
     - fournit la fonction de collage standard
+
 -   Ajouter le contenu de la console Python à PAW
     - les copies de la console Python sont placées à la fin du fichier PAW - notez que le contenu de la console Python peut être un mélange de code Python, sortie du code Python, erreur texte du message, sortie de n\'importe quelle partie de FreeCAD
+
 -   Sélectionner entre les marqueurs
     - les marqueurs sont utilisés pour diviser le texte du PAW en sections, une fois le contenu en sections, une section peut être sélectionnée individuellement et utilisée (par exemple, Copier, Copier dans la console Python, Supprimer ). L'intention de Markers est de permettre aux séquences d'instruction Python distinctes et non liées d'exister dans le PAW, puis d'être gérées et traitées individuellement.
+
 -   Tout sélectionner
     - fournit la fonction standard Tout sélectionner
+
 -   Clearbr
     - fournit la fonction standard Clear où tout le texte du PAW est supprimé
+
 -   Insérer un marqueur
     - insère un marqueur textuel à l'emplacement actuel du curseur
+
 -   Supprimez \"\>\>\>\"
     - une fois la sortie de la console Python copiée dans PAW, toutes les lignes générées à partir de commandes Python exécutées porteront le préfixe \"\>\>\>\". Cette option supprime ces préfixes afin que la sortie être utilisé comme données sans contexte
+
 -   Réduction de plusieurs lignes vides en une seule ligne vide
     - compacte le texte en supprimant plusieurs lignes vides
+
 -   Modifier les paramètres de l\'interface graphique
     - ouvre une fenêtre modale avec trois contrôles:
+
 -   <img alt="" src=images/_PythonAssistantWindowGui2.jpg  style="width:500px;">
+
     -   un curseur pour définir le pourcentage de la largeur de l\'écran dédié au PAW (en gardant à l\'esprit qu\'il y a une certaine largeur que la fenêtre principale de FreeCAD ne passera pas en dessous)
     -   un curseur pour définir le pourcentage de la hauteur de l\'écran dédié au PAW
     -   une paire de boutons radio pour indiquer si le PAW doit être placé en haut ou en bas du côté gauche de l\'écran
+
 -   Enregistrer en tant que fichier
     - le contenu de la fenêtre PAW est écrit dans un fichier sélectionné par l\'utilisateur - le contenu de PAW n\'est pas modifié
+
 -   Fermer la fenêtre
     - la fenêtre PAW est fermée et le contenu est enregistré dans le fichier de stockage persistant
      Remarque : il n\'y a pas de boîte de dialogue demandant de sauvegarder, cela se fait automatiquement

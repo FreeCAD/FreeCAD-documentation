@@ -13,7 +13,7 @@
 
 ## Description
 
-Cet outil créé un arc de parabole par le foyer, le vertex et les points d\'extrémités.
+Cet outil créé un arc de parabole par un foyer, un sommet et des points d\'extrémités.
 
 ![](images/Sketcher_Arc_of_Parabola_01.png )
 

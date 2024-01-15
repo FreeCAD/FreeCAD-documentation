@@ -1,85 +1,94 @@
 ---
  GuiCommand:
    Name: Draft CubicBezCurve
-   MenuLocation: Drafting , Bézier tools , Cubic Bézier curve
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Sześcienna krzywa Bézier'a
+   MenuLocation: Kreślenie , Narzędzia krzywych Bézier'a , Sześcienna krzywa Bézier'a
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Version: 0.19
-   SeeAlso: Draft_BezCurve, Draft_BSpline
+   SeeAlso: Draft_BezCurve/pl, Draft_BSpline/pl
 ---
 
 # Draft CubicBezCurve/pl
 
-## Description
 
-The <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
 
-The Bézier Curve is one of the most commonly used curves in computer graphics. This command allows you to create a continuous spline made up of several 3rd-degree Bézier segments, in a way that is similar to the Bézier tool in [Inkscape](https://inkscape.org/). A general Bézier curve of any degree can be created with the [Draft BezCurve](Draft_BezCurve.md) command.
+## Opis
 
-The [Draft BezCurve](Draft_BezCurve.md) and the Draft CubicBezCurve commands use **control points** to define the position and curvature of the spline. The [Draft BSpline](Draft_BSpline.md) command, on the other hand, specifies the **exact points** through which the curve will pass.
+Polecenie <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Sześcienna krzywa Bézier\'a** tworzy [krzywą Béziera](http://en.wikipedia.org/wiki/Bezier_curve) trzeciego stopnia *(wymagane są cztery punkty)*.
+
+Krzywa Béziera jest jedną z najczęściej używanych krzywych w grafice komputerowej. Polecenie to pozwala utworzyć ciągły splajn składający się z kilku segmentów Béziera trzeciego stopnia, w sposób podobny do narzędzia Bézier\'a w [Inkscape](https://inkscape.org/). Ogólną krzywą Béziera dowolnego stopnia można utworzyć za pomocą polecenia [Krzywa Bezier\'a](Draft_BezCurve/pl.md).
+
+Polecenia [Krzywa Bézier\'a](Draft_BezCurve/pl.md) i Sześcienna krzywa Bézier\'a używają **punktów kontrolnych** do zdefiniowania położenia i krzywizny odcinka krzywej. Z kolei polecenie [Krzywa złożona](Draft_BSpline/pl.md) określa **dokładne punkty**, przez które będzie przechodzić krzywa.
 
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
-*Spline consisting of three cubic Bézier segments. The first segment is defined by four points. Subsequent segments reuse two points from the previous segment and therefore require only two additional points.*
+*Krzywa Spline składająca się z trzech sześciennych segmentów Béziera. Pierwszy segment jest zdefiniowany przez cztery punkty. Kolejne segmenty wykorzystują ponownie dwa punkty z poprzedniego segmentu, a zatem wymagają tylko dwóch dodatkowych punktów.*
 
-## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Draft CubicBezCurve](Draft_CubicBezCurve.md)** button.
-    -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
-2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
-3.  It is not possible the enter points via the task panel.
-4.  For the following [Mouse Navigation Models](Mouse_navigation.md) a keyboard key must to be held down:
-    -   If you are using [OpenInventor Navigation](Mouse_navigation#OpenInventor_Navigation.md) the **Ctrl** key must be held down throughout the command.
-    -   If you are using [Gesture Navigation](Mouse_navigation#Gesture_Navigation.md) the **Alt** key must be held down for each click-hold-release sequence, but is also possible to keep this key held down throughout the command.
-5.  Pick the first point in the [3D view](3D_view.md) and hold the mouse button (1), this is the first endpoint.
-6.  Drag the pointer to another point in the [3D view](3D_view.md) and release the mouse button (2), this is the first control point.
-7.  Move the pointer to another point in the [3D view](3D_view.md), pick this point and hold the mouse button (3), this is the second endpoint.
-8.  Move the pointer to another point in the [3D view](3D_view.md) to adjust the final curvature of the segment and release the mouse button (4), this is the second control point.
-9.  You now have one Bézier curve of the 3rd degree.
-10. Optionally repeat the process of clicking and holding (5), and dragging and releasing (6) to add more segments.
-11. Each subsequent segment will use the second endpoint and second control point of the previous segment as its first endpoint and first control point respectively.
-12. Press **Esc** or the **Close** button to finish the command.
+## Użycie
 
-## Options
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-See [Draft BezCurve](Draft_BezCurve#Options.md).
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_CubicBezCurve.svg" width=16px> '''Sześcienna krzywa Béziera'''**.
+    -   Wybierz z menu **Kreślenie → Narzędzia krzywych Bézier'a → <img src="images/Draft_CubicBezCurve.svg" width=16px> Sześcienna krzywa Béziera** .
+2.  Otworzy się panel zadań **Sześcienna krzywa Béziera**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Nie jest możliwe wprowadzanie punktów za pomocą panelu zadań.
+4.  W przypadku następujących modeli [Profil nawigacji myszką](Mouse_navigation/pl.md) należy przytrzymać klawisz klawiatury:
+    -   W przypadku korzystania z profilu [OpenInventor](Mouse_navigation/pl#OpenInventor.md) klawisz **Ctrl** musi być wciśnięty przez cały czas trwania polecenia.
+    -   Jeśli korzystasz z profilu [Gesture](Mouse_navigation/pl#Gesture.md), klawisz **Alt** musi być wciśnięty dla każdej sekwencji kliknięcia i przytrzymania, ale możliwe jest również trzymanie tego klawisza wciśniętego przez cały czas trwania polecenia.
+5.  Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) i przytrzymaj przycisk myszki *(1)*, jest to pierwszy punkt końcowy.
+6.  Przeciągnij kursor do innego punktu w oknie [widoku 3D](3D_view/pl.md) i zwolnij przycisk myszki *(2)*, jest to pierwszy punkt kontrolny.
+7.  Przesuń kursor do innego punktu w oknie [widoku 3D](3D_view/pl.md), wybierz ten punkt i przytrzymaj przycisk myszki *(3)*, jest to drugi punkt końcowy.
+8.  Przesuń kursor do innego punktu w oknie [widoku 3D](3D_view/pl.md), aby dostosować końcową krzywiznę segmentu i zwolnij przycisk myszki *(4)*, jest to drugi punkt kontrolny.
+9.  Masz teraz jedną krzywą Béziera 3 stopnia.
+10. Opcjonalnie można powtórzyć proces klikania i przytrzymywania *(5)* oraz przeciągania i zwalniania *(6)*, aby dodać więcej segmentów.
+11. Każdy kolejny segment użyje drugiego punktu końcowego i drugiego punktu kontrolnego poprzedniego segmentu jako odpowiednio pierwszego punktu końcowego i pierwszego punktu kontrolnego.
+12. Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
-## Notes
 
--   A Draft CubicBezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
 
-## Preferences
+## Opcje
 
-See [Draft BezCurve](Draft_BezCurve#Preferences.md).
+Zapoznaj się z informacjami na stronie [Krzywa Bezier\'a](Draft_BezCurve/pl#Options.md).
 
-## Properties
 
-See [Draft BezCurve](Draft_BezCurve#Properties.md).
 
-## Scripting
+## Uwagi
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+-   Sześcienną krzywą Béziera środowiska Rysunek Roboczy można edytować za pomocą polecenia [Edycja](Draft_Edit/pl.md).
 
-See [Draft BezCurve](Draft_BezCurve.md) for general information. A cubic Bézier is created by passing the option degree=3 to `makeBezCurve()`.
 
-For each cubic Bézier segment four points must be used, of which the two extreme points indicate where the spline passes through, and the two intermediate points are control points.
 
--   If only 3 points are given, it creates a quadratic Bézier instead, with only one control point.
--   If only 2 points are given, it creates a linear Bézier, that is, a straight line.
--   If 5 points are given, the first 4 create a cubic Bézier segment; the 4th and the 5th points are used to create a straight line.
--   If 6 points are given, the first 4 create a cubic Bézier segment; the 4th and the other two points are used to create a quadratic Bézier segment.
--   If 7 points are given, the first 4 create a cubic Bézier segment; the 4th and the other three points are used to create a second cubic Bézier segment.
--   In general, the last point in a group of four is shared with the following three points maximum to create another Bézier segment.
--   To have smooth curves, with no straight segments, the number of points should be `3n + 1` or `3n`, where `n` is the number of segments, for n >= 1.
+## Właściwości
+
+Zapoznaj się z informacjami na stronie [Krzywa Bézier\'a](Draft_BezCurve/pl#Właściwości.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby uzyskać ogólne informacje, zobacz stronę [Krzywa Bézier\'a](Draft_BezCurve/pl.md). Poprzez przekazanie opcji tworzony jest sześcienna krzywa Bézier\'a degree=3 to `makeBezCurve()`.
+
+Dla każdego segmentu krzywej sześciennej Béziera należy użyć czterech punktów, z których dwa skrajne wskazują miejsce, przez które przechodzi krzywizna, a dwa punkty pośrednie są punktami kontrolnymi.
+
+-   Jeżeli podane są tylko trzy punkty, zamiast tego tworzona jest kwadratowa krzywa Béziera z tylko jednym punktem kontrolnym.
+-   Jeżeli podane są tylko 2 punkty, tworzona jest liniowa krzywa Béziera, czyli linia prosta.
+-   Jeśli podano 5 punktów, pierwsze 4 tworzą sześcienny segment krzywej Béziera, 4. i 5. punkt są używane do utworzenia linii prostej.
+-   Jeśli podano 6 punktów, pierwsze 4 tworzą sześcienny odcinek krzywej Béziera, 4. i pozostałe dwa punkty są używane do utworzenia kwadratowego odcinka Béziera.
+-   Jeśli podano 7 punktów, pierwsze 4 tworzą sześcienny odcinek krzywej Béziera, czwarty i pozostałe trzy punkty są używane do utworzenia drugiego sześciennego odcinka krzywej Béziera.
+-   Ogólnie rzecz biorąc, ostatni punkt w grupie czterech jest dzielony z następującymi maksymalnie trzema punktami, aby utworzyć kolejny segment krzywej Béziera.
+-   Aby uzyskać gładkie krzywe, bez prostych segmentów, liczba punktów powinna wynosić `3n + 1` lub `3n`, gdzie `n` jest liczbą segmentów, dla n >= 1.
 
 <img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
 
-*Examples of Bézier curves produced by using 2, 3, 4, 5, 6, 7, and 8 points. The solid lines indicate cubic Bézier segments; the other lines are quadratic or linear.*
+*Przykłady krzywych Béziera utworzonych przy użyciu 2, 3, 4, 5, 6, 7 i 8 punktów. Linie ciągłe oznaczają sześcienne segmenty Béziera. Pozostałe linie są kwadratowe lub proste.*
 
-Example:
+Przykład:
 
 
 ```python

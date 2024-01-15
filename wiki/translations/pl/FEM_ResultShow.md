@@ -1,41 +1,46 @@
 ---
  GuiCommand:
    Name: FEM ResultShow
-   MenuLocation: Results , Show result
-   Workbenches: FEM_Workbench
+   Name/pl: Pokaż wyniki
+   MenuLocation: Wyniki , Pokaż wyniki
+   Workbenches: FEM_Workbench/pl
    Shortcut: **R** **S**
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_tutorial/pl
 ---
 
 # FEM ResultShow/pl
 
-## Description
 
-The **ResultShow** command opens the dialog for a FEM results object. A Result object is automatically created when a FEM analysis was performed using either the solver [Calculix](FEM_SolverCalculixCxxtools.md) or [Z88](FEM_SolverZ88.md).
 
-A Result object holds the resulting mesh and allows to visualize results. It is designed and therefore limited to thermomechanical results. Except for the [Solver Elmer](FEM_SolverElmer.md), it can be used as alternative to a [result pipeline](FEM_PostPipelineFromResult.md). A result pipeline can be used to visualize any kind of results (also electrical etc.).
+## Opis
 
-The units used for the Result object are those of the set [unit system](Preferences_Editor#Units.md) while for a result pipelines, the units are [SI](https://en.wikipedia.org/wiki/International_System_of_Units).
+To polecenie otwiera okno dialogowe dla obiektu wyników MES. Obiekt wyników jest automatycznie tworzony gdy analiza MES jest przeprowadzana przy użyciu solvera [Calculix](FEM_SolverCalculixCxxtools/pl.md) lub [Z88](FEM_SolverZ88/pl.md).
 
-The visualization of the results is only active when the dialog is open. However, the dialog settings are stored in the FreeCAD model file.
+Obiekt wyników zawiera siatkę wynikową i pozwala na wizualizację wyników. Jest stworzony, a więc i ograniczony do wyników termomechanicznych. Oprócz [solvera Elmer](FEM_SolverElmer/pl.md), może być używany jako alternatywa dla [prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md). Prezentacja graficzna wyników może być używana do wyświetlania dowolnego typu wyników (również elektrycznych itd.).
 
-## Usage
+Jednostki używane przez obiekt wyników to te ustawione w [systemie jednostek](Preferences_Editor/pl#Jednostki.md), podczas gdy dla prezentacji graficznej wyników są to jednostki [SI](https://pl.wikipedia.org/wiki/Uk%C5%82ad_SI).
 
-To show the result dialog, select the result object in the [Tree view](Tree_view.md), then either press the toolbar button **<img src="images/FEM_ResultShow.svg" width=16px> '''Show result'''** or use the menu **Results → <img src="images/FEM_ResultShow.svg" width=16px> Show result** (sortcut **R** then **S**). Alternatively you can also double-click on the result object in the tree view.
+Wizualizacja wyników jest aktywna tylko gdy okno dialogowe jest otwarte. Jednak ustawienia okna dialogowego są przechowywane w pliku z modelem FreeCAD.
 
-When the dialog is open, the result mesh will automatically be shown.
+
+
+## Użycie
+
+Aby pokazać okno dialogowe wyników, zaznacz obiekt wyników w [widoku drzewa](Tree_view/pl.md) a następnie wciśnij przycisk **<img src="images/FEM_ResultShow.svg" width=16px> '''Pokaż wyniki'''** lub wybierz opcję **Wyniki → <img src="images/FEM_ResultShow.svg" width=16px> Pokaż wyniki** (skrót **R** a następnie **S**) z menu. Alternatywnie, możesz również kliknąć dwukrotnie na obiekcie wyników w widoku drzewa.
+
+Gdy okno dialogowe jest otwarte, siatka wynikowa jest automatycznie pokazana.
 
 [left\|framed](File:FEM_Result-Object-Dialog.png.md)
 
-The dialog is shown at the left and offers the following features:
+Okno dialogowe jest zaprezentowane po lewej i oferuje następujące możliwościː
 
--   Select a result type and the minimum and maximum will be displayed in the dialog. The result mesh will be colored accordingly.
+-   Wybierz typ wyniku a wartości minimalna i maksymalna będą wyświetlone w oknie dialogowym. Siatka wynikowa będzie miała odpowiednią mapę kolorów.
 
--   Click on the button **'''Histogram'''** to get a histogram what amount of result mesh nodes have a certain result. The histogram plot can be modified by the buttons in its toolbar. it is also possible to save the histogram as image using the save button from its toolbar.
+-   Wciśnij przycisk **'''Histogram'''** aby uzyskać histogram pokazujący ile węzłów siatki ma dany wynik. Histogram może być modyfikowany przyciskami w jego pasku narzędzi. Możliwe jest też zapisanie histogramu jako obrazu przy pomocy przycisku zapisu w jego pasku narzędzi.
 
--   Check the option **Show** to enables the slider and to visualize the result mesh deformation. The slider value is a factor with which the result *Displacement Magnitude* is multiplied.**Note**: The slider only affects the Displacement Magnitude, not its X, Y, Z components.
+-   Zaznacz opcję **Pokaż** aby aktywować suwak i zwizualizować deformację siatki wynikowej. Wartość suwaka to współczynnik, przez który wynik *Wielkość przemieszczenia* jest mnożony.**Uwaga**: Suwak wpływa tylko na wielkość przemieszczenia (przemieszczenie wypadkowe), nie na jego składowe X, Y, Z.
 
--   With the button After you input an equation press the button and the result will be shown in the fields displaying the minimum and maximum. The result mesh will be colored accordingly.**Note**: The calculation results always have the unit MPa, mm or T, no matter what [unit system](Preferences_Editor#Units.md) you use.
+-   Przy pomocy przycisku Po wprowadzeniu równania wciśnij przycisk a wynik zostanie pokazany w polach pokazujących wartości minimalną i maksymalną. Mapa kolorów na siatce wynikowej zostanie odpowiednio zmieniona.**Uwaga**: Wyniki obliczeń zawsze mają jednostkę MPa, mm lub T, niezależnie od tego jakiego [układu jednostek](Preferences_Editor/pl#Jednostki.md) używasz.
 
 
 

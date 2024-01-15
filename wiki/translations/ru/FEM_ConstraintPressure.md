@@ -12,24 +12,30 @@
 
 </div>
 
+
+
 ## Описание
 
-Applies a pressure constraint to a face.
+Applies a pressure load to a face.
+
+
 
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [FEM ConstraintPressure](FEM_ConstraintPressure.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintPressure.svg" width=16px> Constraint pressure** option from the menu.
-2.  Click on **Add reference** and select face in the [3D view](3D_view.md).
+    -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Pressure load](FEM_ConstraintPressure.md)** button.
+    -   Select the **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintPressure.svg" width=16px> Pressure load** option from the menu.
+2.  Click on **Add** and select face in the [3D view](3D_view.md).
 3.  Edit appropriate window to specify pressure load in MPa.
 4.  Tick box to reverse direction if necessary.
 
+
+
 ## Примечания
 
--   Distribution of pressure on face is always uniform and always perpendicular to face.
+-   Distribution of the pressure on a face is always uniform and always perpendicular to the face.
 
--   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
+-   Pressure on shells: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

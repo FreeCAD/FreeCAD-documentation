@@ -1,7 +1,7 @@
 # Workbenches/zh
 <div class="mw-translate-fuzzy">
 
-FreeCad和许多现代设计应用程序一样，如[Revit或](wikipedia_Revit.md) [CATIA](wikipedia_CATIA.md)，都基于 [工作台的概念](wikipedia_Workbench.md)。工作台可以看作是为某个任务专门归类的一组工具。在一个传统的家具车间里，你会有一张工作台给木材工人，另一张给金属件工人，也许还有第三张给把所有零件组装在一起的工人。
+FreeCad和许多现代设计应用程序一样，如[Revit](wikipedia_Revit.md)或 [CATIA](wikipedia_CATIA.md)，都基于 [工作台](wikipedia_Workbench.md)的概念。工作台可以看作是为某个任务专门归类的一组工具。在一个传统的家具车间里，你会有一张工作台给木材工人，另一张给金属件工人，也许还有第三张给把所有零件组装在一起的工人。
 
 
 </div>
@@ -62,7 +62,7 @@ Freecad安装后具有以下工作台：
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
 
@@ -78,7 +78,7 @@ The following workbenches are no longer included after version 0.20:
 
 -   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> The [Drawing Workbench](Drawing_Workbench.md) was used for producing technical drawings. The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.
 
--   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> The [Image Workbench](Image_Workbench.md) was used for working with bitmap images. It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).
+-   <img alt="" src=images/Workbench_Image.svg  style="width:32px;"> The [Image Workbench](Image_Workbench.md) was used for working with bitmap images. Its functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).
 
 -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> The [Raytracing Workbench](Raytracing_Workbench.md) was used for ray-tracing (rendering). The external [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) should be used instead.
 
@@ -86,12 +86,12 @@ The following workbenches are no longer included after version 0.20:
 
 ## 外部工作台
 
-FreeCAD工作台易于通过[Python进行编程开发](Python.md)，因此FreeCAD主要开发领域之外的很多人自己开发额外的工作台。
+FreeCAD工作台易于通过[Python](Python.md)进行编程开发，因此FreeCAD主要开发领域之外的很多人自己开发额外的工作台。
 
 
 <div class="mw-translate-fuzzy">
 
-[外部工作台页面列出了该社区已知的所有内容](external_workbenches.md)。 大多数功能都可以使用菜单 **工具 → <img src="images/Std_AddonMgr.svg" width=24px> 插件管理器**下的[插件管理器从FreeCAD轻松安装](Std_AddonMgr.md)。
+[外部工作台](external_workbenches.md)页面列出了该社区已知的所有内容。 大多数功能都可以使用菜单 **工具 → <img src="images/Std_AddonMgr.svg" width=24px> 插件管理器**下的[插件管理器](Std_AddonMgr.md)从FreeCAD轻松安装。
 
 
 </div>

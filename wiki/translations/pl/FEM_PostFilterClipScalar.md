@@ -1,36 +1,41 @@
 ---
  GuiCommand:
    Name: FEM PostFilterClipScalar
-   MenuLocation: Results , Scalar clip filter
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   Name/pl: Filtr przycinania skalarnego
+   MenuLocation: Wyniki , Filtr przycinania skalarnego
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_tutorial/pl
 ---
 
 # FEM PostFilterClipScalar/pl
 
-## Description
 
-Clips a field using a specified scalar value.
+
+## Opis
+
+Przycina pole używając podanej wartości skalarnej.
 
 <img alt="" src=images/FEM_Scalar-Clip-Filter-Example.png  style="width:400px;">
 
-*A scalar clip filter result.The original pipeline is the semi-transparent object.*
+*Rezultat filtra przycinania skalarnego.Oryginalny obiekt prezentacji graficznej wyników jest półprzezroczysty.*
 
-A scalar filter can be combined with other filters. Here is for example a scalar filter on a [warp filter](FEM_PostFilterWarp.md) (semi-transparent):
+Filtr przycinania skalarnego może być łączony z innymi filtrami. Przykładowo, filtr przycinania skalarnego na [filtrze wizualizacji deformacji](FEM_PostFilterWarp/pl.md) (półprzezroczysty):
 
 <img alt="" src=images/FEM_Scalar-Clip-Filter-On-Warp-Example.png  style="width:600px;">
 
-## Usage
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another existing filter.
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Scalar clip filter'''**.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Scalar clip filter**.
-3.  Adjust the **Result display options** like for the [result pipeline](FEM_PostPipelineFromResult.md). Hide that pipeline to see the effect of a Scalar Clip Filter.
-4.  Select the **Scalar** type from the expandable list.
-5.  Specify the **Clip scalar** value directly or use the slider.
-6.  By default, all the regions with field values below the specified one will be hidden. Select the **Clip inside out** option to invert the display and hide the regions with values above the specified one.
-7.  Click **OK** button to finish the command.
+
+## Użycie
+
+1.  Zaznacz wcześniej utworzony [obiekt prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md) lub inny dodany filtr.
+2.  Wywołaj polecenie poprzez:
+    -   Wciśnięcie przycisku **<img src="images/FEM_PostFilterClipScalar.svg" width=16px> '''Filtr przycinania skalarnego'''**.
+    -   Wybranie opcji **Wyniki → <img src="images/FEM_PostFilterClipScalar.svg" width=16px> Filtr przycinania skalarnego**.
+3.  Dostosuj **Opcje wyświetlania wyników** jak dla [obiektu prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md). Ukryj obiekt prezentacji graficznej wyników żeby zobaczyć efekt filtra przycinania skalarnego.
+4.  Wybierz typ **Skalar** z listy rozwijanej.
+5.  Zdefiniuj wartość **Skalar do przycinania** bezpośrednio lub przy pomocy suwaka.
+6.  Domyślnie wszystkie obszary z wartościami pola poniżej podanej wartości zostaną ukryte. Zaznacz opcję **Przytnij na drugą stronę** żeby odwrócić wyświetlanie i ukryć obszary z wartościami powyżej podanej.
+7.  Wciśnij przycisk **OK** żeby zakończyć polecenie.
 
 
 

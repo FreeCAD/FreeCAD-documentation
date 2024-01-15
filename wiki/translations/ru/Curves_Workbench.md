@@ -7,38 +7,25 @@
 
 <img alt="Иконка Внешнего верстака Curves" src=images/Curves_workbench_icon.svg  style="width:128px;"> 
 
+Верстак Curves это [Внешний верстак](External_workbenches/ru.md), основанный на Python, с набором инструментов для кривых и поверхностей NURBS. Этот верстак разработан с использованием FreeCAD Master и OCC 7.4.
 
-<div class="mw-translate-fuzzy">
-
-Верстак Curves это [Внешний верстак](external_workbenches/ru.md), основанный на python, с набором инструментов для кривых и поверхностей NURBS. Этот верстак разработан с использованием FreeCAD Master и OCC 7.4. Примечание: Некоторые инструменты могут не работать с более ранними версиями.
-
-
-</div>
-
-Note: Some tools may not work with earlier versions.
+Примечание: Некоторые инструменты могут не работать с более ранними версиями.
 
 
 
 ## Установка
 
-
-<div class="mw-translate-fuzzy">
-
-Загрузите верстак Curves через <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Менеджер Дополнений](Std_AddonMgr/ru.md) 
-**Инструменты → Менеджер дополнений**
-
-
-</div>
+Загрузите верстак Curves через <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Менеджер Дополнений](Std_AddonMgr/ru.md). Выберите из меню опцию **Инструменты → Менеджер дополнений**.
 
 
 
 ## Ссылки
 
--   Developer: \@Chris_G
+-   Разработчик: \@Chris_G
 -   Github: <https://github.com/tomate44/CurvesWB>
--   Discussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=22675>
--   YouTube tutorial using curves workbench: <https://www.youtube.com/watch?v=ZVdbvxmJ3Mo>
--   Dailymotion tutorial, tide bottle, demoing curves workbench: <https://www.dailymotion.com/video/x6bo9a6>
+-   Обсуждение: <https://forum.freecadweb.org/viewtopic.php?f=8&t=22675>
+-   Учебник использования верстака Curves на YouTube: <https://www.youtube.com/watch?v=ZVdbvxmJ3Mo>
+-   Учебник на Dailymotion, приливная бутыль, демонстрация верстака curves: <https://www.dailymotion.com/video/x6bo9a6>
 
 
 

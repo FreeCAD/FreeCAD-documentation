@@ -80,7 +80,7 @@ Narzędzie Pochylenie ścian działa tylko na powierzchniach, które nie są sty
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
@@ -97,7 +97,7 @@ Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Cz
 
 -    **Baza|LinkSub**: Łącze podrzędne do listy wybranych krawędzi i powierzchni elementu nadrzędnego.
 
--    **Wsparcie Przekształcenia|Bool**: \"Uwzględnia podstawowy kształt addytywny/subtraktywny, gdy jest używany w cechach wzoru. Jeśli ta opcja zostanie wyłączona, do tworzenia wzorów będzie używana tylko podstawowa część kształtu\". Wartość domyślna: {{FALSE/pl}}.
+-    **Wsparcie Przekształcenia|Bool**: Uwzględnia podstawowy kształt addytywny / subtraktywny, gdy jest używany w cechach wzoru. Jeśli ta opcja zostanie wyłączona, do tworzenia wzorów będzie używana tylko podstawowa część kształtu\". Wartość domyślna: {{FALSE/pl}}.
 
 -    **Dodaj kształt podrzędny|PartShape|ukryte**
     
@@ -117,7 +117,7 @@ Obiekt Pochylenie ścian środowiska Projekt Części wywodzi się z obiektu [Cz
 
 {{Properties_Title|Projekt Części}}
 
--    **Ulepsz|Bool**: \"Ulepsz kształt (usuń zbędne krawędzie) po operacji dodawania/odejmowania\". Wartość domyślna jest określana przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz [Projekt Części: Ustawienia](PartDesign_Preferences/pl#Og.C3.B3lne.md).
+-    **Ulepsz|Bool**: Ulepsz kształt (usuń zbędne krawędzie) po operacji dodawania/odejmowania. Wartość domyślna jest określana przez preferencję **Automatycznie udoskonal model po wykonaniu operacji opartej na szkicu**. Zobacz [Projekt Części: Ustawienia](PartDesign_Preferences/pl#Og.C3.B3lne.md).
 
 
 

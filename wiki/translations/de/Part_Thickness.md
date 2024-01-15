@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part_Thickness/de.md) Werkzeug bearbeitet eine massive Form und wandelt sie in einen hohlen Gegenstand um, indem es jeder seiner Flächen eine definierte Dicke verleiht. Bei einigen Volumenkörpern erlaubt es dir, die Arbeit erheblich zu beschleunigen und vermeidet die Herstellung von Extrusionen und Taschen.
+Das Werkzeug <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part_Thickness/de.md) bearbeitet eine Festkörper-Form und wandelt sie in ein hohles Objekt um, indem es jeder seiner Flächen eine festgelegte und konstante Wandstärke verleiht. Bei einigen Festkörpern ermöglicht es, die Arbeit erheblich zu beschleunigen und vermeidet die Erstellung von Extrusionen und Taschen.
 
 
 
@@ -30,27 +30,48 @@ Das <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Dicke](Part
 
 ## Optionen
 
--   Dicke: Wanddicke des resultierenden Objekts
-    -   Ein positiver Wert versetzt die Oberflächen nach außen
-    -   Ein negativer Wert versetzt die Oberflächen nach innen
+-    **Dicke**: Wandstärke des resultierenden Objekts.
 
--   Modus
-    -   Oberfläche: Wähle diese Option, wenn Du einen Gegenstand ähnlich einer Vase haben möchtest, oben offen, aber mit einem Boden.
-    -   Rohr: Wähle diese Option, wenn Du ein Objekt ähnlich einem Rohr haben möchtest, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs auszuwählen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
-    -   Recto Verso:
+    -   Ein positiver Wert versetzt die Oberflächen nach außen.
+    -   Ein negativer Wert versetzt die Oberflächen nach innen.
 
--   Verknüpfungstyp
-    -   Kreisbogen: Entfernt die äußeren Kanten und erstellt eine Verrundung mit einem Radius gleich der definierten Dicke
-    -   Tangente:
-    -   Schnitt:
+-    **Modus**-   
+        **Oberfläche**
+        
+        : Diese Option auswählen, wenn ein Gegenstand ähnlich einer Vase entstehen soll, oben offen, aber mit einem Boden.
 
--   Schnitt:
+    -   
+        **Rohr**
+        
+        : Diese Option auswählen, wenn ein Objekt ähnlich einem Rohr entstehen soll, oben und unten offen. In diesem Fall kann es einfacher sein, die zu löschenden Flächen vor dem Aufruf des Werkzeugs auszuwählen. Helfen können die Buttons für die vordefinierten Ansichten oder die numerischen Tasten.
 
--   Selbstdurchdringung: Aktiviert Selbstdurchdringung
+    -   
+        **Hinten-Vorne**
+        
+        :
 
--    **Flächen**: Wählt die zu entfernenden Flächen, klicke dann **Fertig**
+-    **Verknüpfungstyp**-   
+        **Kreisbogen**
+        
+        : Entfernt die äußeren Kanten und erstellt eine Verrundung mit einem Radius gleich der festgelegten Wandstärke.
 
--   Ansicht akutalisieren: Automatisches Aktualisieren in Echtzeit
+    -   
+        **Tangente**
+        
+        :
+
+    -   
+        **Schnitt**
+        
+        :
+
+-    **Schnitt**:
+
+-    **Selbstdurchdringung**: Aktiviert Selbstdurchdringung
+
+-    **Flächen**: Die zu entfernenden Flächen auswählen, dann **Fertig** anklicken.
+
+-    **Ansicht akutalisieren**: Aktualisier die Ansicht automatisch in Echtzeit.
 
 
 
@@ -69,23 +90,22 @@ Ein gutes Beispiel zur Benutzung dieses Werkzeuges gibt es im Forum: [Re: Help d
 
 ## Beispiele
 
-**Hollow cylinder**
+**Hohlzylinder**
 
-1.  Create **<img src="images/Part_Cylinder.svg" width=16px> [Cylinder](Part_Cylinder.md)** with radius 10mm and height 20mm
-2.  Select the top and bottom surface of the cylinder
-3.  Click on the **<img src="images/Part_Thickness.svg" width=16px> Thickness
-** button (no need to change default settings) and press **OK**
+1.  Einen **<img src="images/Part_Cylinder.svg" width=16px> [Zylinder](Part_Cylinder/de.md)** mit 10 mm Radius und 20 mm Höhe.
+2.  Deckel- und Bodenfläche des Zylinders auswählen.
+3.  Die Schaltfläche **<img src="images/Part_Thickness.svg" width=16px> Dicke** drücken (es ist nicht nötig, die Voreinstellungen zu ändern) und dann **OK**.
 
-Notes:
+Hinweise:
 
--   For this shape, consider using **<img src="images/Part_Tube.svg" width=16px> [Tube](Part_Tube.md)** instead.
--   Select the cylinder\'s top surface only to create a receptacle.
+-   Für diese Form sollte man erwägen, **<img src="images/Part_Tube.svg" width=16px> [Hohlzylinder erstellen](Part_Tube/de.md)** zu verwenden.
+-   Nur die Deckfläche des Zylinders auswählen, um eine Buchse zu erstellen.
 
 ![](images/ThicknessEsempio1.png )
 
 ![](images/ThicknessEsempio2.png )
 
-**Box-Enclosure**
+**Gehäuse**
 
 ![](images/ThicknessEsempio3.png )
 

@@ -1,4 +1,7 @@
 # Macro 3D Parametric Curve/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro 3D Parametric Curve
 |Icon=Macro_3D_Parametric_Curve.png
@@ -12,16 +15,37 @@
 |SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/it.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Disegna una funzione descritta da una equazione parametrica x(t), y(t) e z(t). Permette di scegliere il tipo di linea tra b-spline e polilinea.
 
+
+</div>
+
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Esempio di curva epicicloidale‎*
+
+## Original Script 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script originale 
 
 Il codice aggiornato (13/05/2015) è disponibile nel Github repository: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
+
+
+</div>
+
+
 
 ## Script modificato 
 

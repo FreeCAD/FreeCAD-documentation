@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM PostCreateFunctionBox
-   MenuLocation: Results , Filter Functions , Box
+   MenuLocation: Results , Filter functions , Box
    Workbenches: FEM_Workbench
    Version: 0.21
    SeeAlso: FEM_tutorial
@@ -17,7 +17,7 @@ The <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:24px;"> *
 
 ### Create a box function 
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Box](FEM_PostCreateFunctionBox.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Box** option from the menu.
+1.  Press the **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Box](FEM_PostCreateFunctionBox.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Box** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the center and size of the section box.
 4.  Press the **OK** button to finish.

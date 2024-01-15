@@ -1,6 +1,4 @@
 # Manual:Creating and manipulating geometry
-{{Manual:TOC}}
-
 In the previous chapters, we learned about the different workbenches of FreeCAD, and how each of them implement their own tools and geometry types. The same concept applies when working from Python code.
 
 We also saw that the vast majority of FreeCAD workbenches depend on a very fundamental one: the [Part Workbench](Part_Workbench.md). In fact, many other workbenches, such as [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md), do exactly what we will do in this chapter: use Python code to create and manipulate Part geometry.

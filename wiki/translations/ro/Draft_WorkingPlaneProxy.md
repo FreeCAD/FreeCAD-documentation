@@ -46,6 +46,8 @@ For a Draft WorkingPlaneProxy these additional options are available in the [Tre
 
 -   Working plane proxies can be [moved](Draft_Move.md) and [rotated](Draft_Rotate.md) like any other object. Use <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Snap Center](Draft_Snap_Center.md) to snap to their **Placement** point.
 
+
+
 ## Proprietăți
 
 See also: [Property editor](Property_editor.md).
@@ -98,6 +100,8 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 -    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
 
 -    **Display Size|Length**: specifies the length and width of the working plane proxy.
+
+
 
 ## Script-Programare 
 

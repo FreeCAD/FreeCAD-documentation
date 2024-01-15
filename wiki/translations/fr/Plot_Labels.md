@@ -1,18 +1,22 @@
 ---
  GuiCommand:
    Name: Plot Labels
-   Name/fr: Plot Etiquettes
+   Name/fr: Plot Étiquettes
    MenuLocation: Plot , Définir les étiquettes
    Workbenches: Plot_Workbench/fr
 ---
 
 # Plot Labels/fr
 
+
+
 ## Description
 
 Cet outil permet à l\'utilisateur de modifier les étiquettes du titre et des axes, ainsi que leur taille de police.
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+
+
 
 ## Utilisation
 

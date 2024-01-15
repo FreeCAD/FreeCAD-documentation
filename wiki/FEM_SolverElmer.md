@@ -4,7 +4,7 @@
    MenuLocation: Solver , Solver Elmer
    Workbenches: FEM_Workbench
    Shortcut: **S** **E**
-   SeeAlso: FEM_SolverElmer_SolverSettings, FEM_SolverCalculiX, FEM_SolverZ88, FEM_tutorial
+   SeeAlso: FEM_SolverElmer_SolverSettings, FEM_SolverCalculixCxxtools, FEM_SolverZ88, FEM_tutorial
 ---
 
 # FEM SolverElmer
@@ -33,6 +33,7 @@ There are standalone programs for both of these applications but their installat
 3.  In the [FEM preferences](FEM_Preferences#Elmer.md) set the correct path for both `ElmerGrid` and `ElmerSolver`, or <small>(v0.21)</small> : set the path for `ElmerSolver_mpi` instead of `ElmerSolver` to make Elmer use all available CPU cores.
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
+
     :   
         
 *Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS*
@@ -53,6 +54,7 @@ You are ready to use Elmer in FreeCAD.
     -   Note: A successful analysis will require at least a Model (2D or 3D), a Material ([Fluid](FEM_MaterialFluid.md) or [Solid](FEM_MaterialSolid.md)), a [Mesh](FEM_MeshGmshFromShape.md), Equations and Boundary conditions
 
     :   ![](images/Elmer_typical_file_tree.png )
+
     :   
         
 *Example of a [tree view](Tree_view.md) once a Solver for Elmer is activated*
@@ -61,6 +63,7 @@ You are ready to use Elmer in FreeCAD.
 5.  Double-click on the **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** object to prepare an analysis run
 
     :   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width:300px;">
+
     :   
         
 *Dialog box to run an Elmer analysis*
@@ -76,7 +79,7 @@ You are ready to use Elmer in FreeCAD.
 -   One or several equations can be used at once with Elmer by simply adding the equation object under the SolverElmer object, thus performing multi-physics analyses:
 
 1.  Click on the **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** object in the model [tree view](Tree_view.md)
-2.  Select one ore several of the available equations:
+2.  Select one or several of the available equations:
     -   <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md)
     -   <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Elasticity equation](FEM_EquationElasticity.md)
     -   <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:32px;"> [Electricforce equation](FEM_EquationElectricforce.md)

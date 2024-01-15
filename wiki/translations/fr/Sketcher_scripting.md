@@ -22,7 +22,7 @@ sketch.addGeometry(Part.LineSegment(App.Vector(12.2, 1.0, 0),
 doc.recompute()
 ```
 
-Cela ajoute également trois lignes dans l\'esquisse juste créée.
+Cela ajoute également trois [lignes](Topological_data_scripting/fr#Ligne.md) dans l\'esquisse juste créée.
 
 
 

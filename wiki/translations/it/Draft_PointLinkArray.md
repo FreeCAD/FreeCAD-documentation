@@ -10,6 +10,8 @@
 
 # Draft PointLinkArray/it
 
+
+
 ## Descrizione
 
 Lo strumento <img alt="" src=images/Draft_PointLinkArray.svg  style="width:24px;"> **Serie di link su punti** crea una serie di [Link](App_Link/it.md) da un oggetto selezionato posizionando copie sui punti da un [point compound](Draft_PointArray#Point_compound.md). Utilizzare il comando [Serie su punti](Draft_PointArray/it.md) per creare invece un array regolare meno efficiente. Fatta eccezione per il tipo di array creato, serie di [Link](App_Link/it.md) o serie normale, questo comando è identico al comando [Serie su punti](Draft_PointArray/it.md). Vedi lì per maggiori informazioni.

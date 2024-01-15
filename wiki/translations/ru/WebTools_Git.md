@@ -17,15 +17,19 @@
 **Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [Addon manager](WebTools_Workbench]]_that_you_can_install_via_menu_Tools_→_<img_src="images/AddonManager.svg" width=24px> [[Std_AddonMgr.md).
 **
 
-## Description
 
-This command allows to manage the current document with [GIT](https://en.wikipedia.org/wiki/Git_%28software%29). GIT is a powerful file version control system, which can manage different versions of files and keep track of the changes.
 
-Git is a complex tool, consider learning the basics of it before using this tool, to avoid wrong operations that can cause data loss. An abundant literature about GIT is available and easy to find on the internet.
+## Описание
 
-**Prerequisite:** To be able to use this command, the [gitpython](https://github.com/gitpython-developers/GitPython) package must be installed on your system. On most linux distributions, gitpython is available from the standard software repositories as *gitpython* or *python-git*.
+Этот инструмент позволяет вам управлять документом используя [Git](https://ru.wikipedia.org/wiki/Git_%28software%29). Git является мощной системой контроля версий, которая может управлять разными версиями и отслеживать изменения
 
-## Usage
+Git довольно сложный инструмент, вам лучше изучить его основы, перед использованием этого инструмента, чтобы избежать потерь данных. Всеобъемлющая литература о Git легко находится в интернете.
+
+**Необходимое условие:** Чтобы иметь возможность пользоваться данным инструментом, пакет [gitpython](https://github.com/gitpython-developers/GitPython) должен быть установлен в вашей системе. В большинстве linux дистрибутивов, gitpython есть в стандартном репозитории под названием *gitpython* или *python-git*.
+
+
+
+## Применение
 
 1.  Make sure the [Report view](Report_view.md) is open since Git messages will be printed there.
 2.  Save the current active document making sure the saved file is inside an existing git repository. It can be in a subdirectory.

@@ -13,7 +13,7 @@
 
 Ajoute un plan de coupe pour l\'ensemble de la vue du modèle. Tous les objets visibles seront coupés par ce plan, qu\'il s\'agisse de modèles géométriques, de maillages ou de pipelines de résultats.
 
-Le plan de coupe est le même que celui que vous obtenez en utilisant la fonction [Std Basculer le plan de coupe](Std_ToggleClipPlane/fr.md), à la différence que le plan de coupe est persistant. Il partage donc la même fonctionnalité qui consiste à ne fournir que des coupes creuses.
+Le plan de coupe est le même que celui que vous obtenez en utilisant la fonction [Std Couper selon des plans](Std_ToggleClipPlane/fr.md), à la différence que le plan de coupe est persistant. Il partage donc la même fonctionnalité qui consiste à ne fournir que des coupes creuses.
 
 
 

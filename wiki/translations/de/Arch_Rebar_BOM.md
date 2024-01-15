@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Arch Rebar BOM
-   Name/de: Arch Bewehrung Stückliste
+   Name/de: Arch Armierung Stückliste
    MenuLocation: Reinforcement , Stückliste
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
@@ -14,15 +14,9 @@
 
 ## Beschreibung
 
-Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine Stückliste von Bewehrungsstäben zu erstellen.
+Das Werkzeug [Armierung Stückliste](Arch_Rebar_BOM/de.md) ermöglicht dem Benutzer eine Stückliste von Bewehrungsstäben zu erstellen.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
-
-
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Bewehrung](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
@@ -62,7 +56,9 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 8\. Click **Cancel** to exit the dialog box.
 
-## Properties
+
+
+## Eigenschaften
 
 **General:**
 
@@ -104,7 +100,9 @@ Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md
 
 -    **Output File**: BOM SVG Output file.
 
-## Scripting
+
+
+## Skripten
 
 
 **See also:**

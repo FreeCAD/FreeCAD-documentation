@@ -2,14 +2,11 @@
  GuiCommand:
    Name: TechDraw SpreadsheetView
    Name/fr: TechDraw Vue d'un objet Spreadsheet
-   MenuLocation: TechDraw , Insérer une vue de feuille de calcul
+   MenuLocation: TechDraw , Vues des autres ateliers , Insérer une vue de l'atelier Spreadsheet
    Workbenches: TechDraw_Workbench/fr, Spreadsheet_Workbench/fr
 ---
 
 # TechDraw SpreadsheetView/fr
-
-
-</div>
 
 ## Description
 
@@ -22,15 +19,15 @@ L\'outil **TechDraw Vue d\'un objet Spreadsheet** vous permet de placer une vue 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une feuille de calcul dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Appuyez sur le bouton **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Insérer une vue de feuille de calcul](TechDraw_SpreadsheetView/fr.md)
-**
-
-
-</div>
+1.  Sélectionnez une seule feuille de calcul dans la [vue en arborescence](Tree_view/fr.md).
+2.  Si le document contient plusieurs pages de dessin : ajoutez la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> [Insérer une vue de l'atelier Spreadsheet](TechDraw_SpreadsheetView/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_SpreadsheetView.svg" width=16px> Insérer une vue de l'atelier Spreadsheet** du menu.
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+5.  Ajustez la plage de cellules de la vue en modifiant ses propriétés **Cell Start** et **Cell End**.
 
 
 

@@ -69,6 +69,7 @@ Il existe plusieurs façons d\'éditer les outils coupants et la bibliothèque :
 A. En cliquant sur les en-têtes de colonne de la bibliothèque, vous pouvez trier la bibliothèque des outils coupants. La bibliothèque conservera le tri et l\'utilisera dans le dock.
 
 :   ![](images/Librarysort.png )
+
 :   
     
 *Tri de la bibliothèque des outils coupants via les en-têtes de colonne*
@@ -77,6 +78,7 @@ A. En cliquant sur les en-têtes de colonne de la bibliothèque, vous pouvez tri
 B. En double-cliquant dans la première colonne, vous pouvez modifier le numéro de l\'outil coupant. Ce sera le numéro d\'outil par défaut utilisé lors de la création d\'un nouveau contrôleur d\'outils. Il est possible d\'utiliser le même numéro pour plusieurs outils coupants.
 
 :   ![](images/Edittoolnumber.png )
+
 :   
     
 *Double-cliquez sur la première colonne pour modifier le numéro de l'outil coupant*.
@@ -84,6 +86,7 @@ B. En double-cliquant dans la première colonne, vous pouvez modifier le numéro
 C. Double-cliquez n\'importe où ailleurs dans la ligne pour ouvrir le panneau d\'édition de l\'outil coupant. A partir de là, vous pouvez modifier d\'autres propriétés de l\'outil coupant.
 
 :   ![](images/Editingpanel.png )
+
 :   : 
 *Ouverture du panneau d'édition de l'outil coupant en cliquant n'importe où ailleurs dans la rangée.*
 

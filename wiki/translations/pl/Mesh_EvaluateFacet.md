@@ -8,6 +8,8 @@
 
 # Mesh EvaluateFacet/pl
 
+
+
 ## Opis
 
 Polecenie **Informacje o powierzchni** pokazuje informacje o ścianach obiektów siatkowych.
@@ -19,15 +21,17 @@ Triangle: <[1.964574, 0.047063, 0.748046], [1.937166, 0.062461, 0.992797],
 
 *Przykład informacji wyświetlanych w widoku raportu.*
 
+
+
 ## Użycie
 
 1.  Wskazane jest włączenie okna [Widoku raportu](Report_view/pl.md). Polecenie wyświetli tam szczegółowe informacje.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_EvaluateFacet.svg" width=16px> [Informacje o powierzchni](Mesh_EvaluateFacet/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_EvaluateFacet.svg" width=16px> '''Informacje o powierzchni'''**.
     -   Wybierz opcję z menu **Siatki → Analizuj → <img src="images/Mesh_EvaluateFacet.svg" width=16px> Informacje o powierzchni**.
 3.  Kursor zmienia się na ikonę pipety.
 4.  Wybierz ścianę obiektu siatkowego.
-5.  Jej indeks zostanie wyświetlony w oknie [widoku 3D](3D_view.md).
+5.  Jej indeks zostanie wyświetlony w oknie [widoku 3D](3D_view/pl.md).
 6.  W oknie Widoku raportu wyświetlane są dodatkowe informacje:
     -   Wewnętrzna nazwa obiektu siatkowego.
     -   Indeks wybranej ściany.

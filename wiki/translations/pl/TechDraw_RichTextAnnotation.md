@@ -5,13 +5,10 @@
    MenuLocation: Rysunek Techniczny , Adnotacja , Wstaw adnotację w postaci tekstu sformatowanego
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
-   SeeAlso: TechDraw_Templates/pl, Draft_SVG/pl, TechDraw_LeaderLine/pl
+   SeeAlso: TechDraw_Annotation/pl
 ---
 
 # TechDraw RichTextAnnotation/pl
-
-
-</div>
 
 
 
@@ -26,29 +23,25 @@ Narzędzie **Wstaw adnotację w postaci tekstu sformatowanego** dodaje sformatow
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Naciśnij przycisk **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> '''Wstaw adnotację w postaci tekstu sformatowanego'''**.
-2.  Otworzy się okno dialogowe zadania. Okno dialogowe umożliwia szybkie wprowadzanie tekstu.
-3.  Przycisk **Uruchom edytor tekstu sformatowanego** otworzy w pełni funkcjonalny edytor. Naciśnij ikonę Zapisz, aby zapisać zmiany.
-4.  Po utworzeniu bloku można go edytować, klikając dwukrotnie obiekt AdnotacjaTekstuSformatowanego w Widoku drzewa.
-5.  Aby dołączyć blok do [linię odniesienia](TechDraw_LeaderLine/pl.md), wybierz linię przed uruchomieniem narzędzia Adnotacji.
-
-
-</div>
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w [Widoku drzewa](Tree_view.md).
+2.  Aby dołączyć adnotację RichTextAnnotation do [Linii wiodącej](TechDraw_LeaderLine/pl.md), wybierz linię w [Widoku drzewa](Tree_view.md) lub na stronie.
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_RichTextAnnotation.svg" width=16px> '''Wstaw adnotację w postaci tekstu sformatowanego'''**.
+    -   Wybierz opcję **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_RichTextAnnotation.svg" width=16px> Wstaw adnotację w postaci tekstu sformatowanego** z menu.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunkowych, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+5.  Otworzy się panel zadań.
+6.  Panel zadań umożliwia szybkie wprowadzanie tekstu.
+7.  Przycisk **Uruchom edytor tekstu sformatowanego** otwiera w pełni funkcjonalny edytor:
+8.  Po zakończeniu naciśnij przycisk **<img src="images/Document-save.svg" width=16px>**, aby zapisać zmiany i zamknąć edytor.
+9.  Naciśnij przycisk **OK**, aby zamknąć panel zadań.
 
 
 
 ## Uwagi
 
-
-<div class="mw-translate-fuzzy">
-
--   Możesz edytować *Adnotację w postaci tekstu sformatowanego* klikając na niej dwukrotnie w widoku Drzewa. Podwójne kliknięcie w obszarze graficznym nie jest jeszcze obsługiwane.
-
-
-</div>
+-   Możesz edytować *Adnotację w postaci tekstu sformatowanego* klikając na niej dwukrotnie na stronie.
 
 
 

@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Points Convert
-   Name/pl: Punkty: Konwersja
+   Name/pl: Punkty: Konwertuj na punkty
    MenuLocation: Punkty , Konwertuj na punkty ...
    Workbenches: Points_Workbench/pl
 ---
@@ -21,10 +21,12 @@ Obiekt typu kształt oznacza tutaj dowolny obiekt z właściwością **Kształt*
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów.
-2.  Wybierz z menu opcję **Punkty → Konwertuj na punkty ...**.
-3.  Otworzy się okno dialogowe **Odległość**.
-4.  Wprowadź wartość **Największa odległość**. Wartość musi mieścić się w przedziale {{Value|0,05}} - {{Value|10.0}}.
-5.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Points_Convert.svg" width=16px> '''Konwertuj na punkty'''**.
+3.  Wybierz z menu opcję **Punkty → Konwertuj na punkty ...**.
+4.  Otworzy się okno dialogowe **Odległość**.
+5.  Wprowadź wartość **Największa odległość**. Wartość musi mieścić się w przedziale {{Value|0,05}} - {{Value|10.0}}.
+6.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zakończyć polecenie.
 
 
 
@@ -37,22 +39,18 @@ Obiekty chmury punktów są obiektami typu [Cecha geometrii](App_GeoFeature/pl.m
 ### Dane
 
 
-{{TitleProperty|Punkty strukturalne}}
+{{TitleProperty|Podstawa}}
+
+-    **Punkty|PointsKernel|Ukryte**: jądro związane z tym obiektem.
+
+-    **Normalne|NormalList|Ukryte**: lista normalnych. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Konwertuj na punkty](Points_Convert/pl.md) z obiektów siatkowych lub obiektów kształtowych ze ścianami.
+
+
+{{TitleProperty|Punkty strukturalne.}}
 
 -    **Wysokość|Integer**: oznacza unikalną liczbę współrzędnej Y w chmurze punktów. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Uporządkowana chmura punktów](Points_Structure/pl.md).
 
 -    **Szerokość|Integer**: oznacza unikalną liczbę współrzędnej X w chmurze punktów. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Uporządkowana chmura punktów](Points_Structure/pl.md).
-
-
-
-#### Ukryte dane 
-
-
-{{TitleProperty|Podstawa}}
-
--    **Punkty|PointsKernel**: jądro punktów związane z tym obiektem.
-
--    **Normalne|NormalList**: lista normalnych. Ta właściwość jest dostępna tylko dla chmur punktów utworzonych za pomocą polecenia [Konwertuj na punkty](Points_Convert/pl.md) z obiektów siatkowych lub obiektów kształtowych ze ścianami.
 
 
 

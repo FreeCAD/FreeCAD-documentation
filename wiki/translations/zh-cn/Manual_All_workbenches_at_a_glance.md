@@ -1,5 +1,5 @@
 # Manual:All workbenches at a glance/zh-cn
-{{Manual:TOC/zh-cn}}
+{{Manual:TOC}}
 
 对于 FreeCAD 的新用户来说，最大的困难之一是要知道在哪个工作台中找到特定的工具。下表将为您提供最重要的工作台及其工具的概述。请参考 FreeCAD 文档中每个工作台页面以获取更完整的列表。
 
@@ -49,6 +49,9 @@ Draft 工作台提供基本的 2D CAD 绘图工具，如直线、圆等，以及
 
 Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为草图(sketch)。这些草图内的几何形状可以通过使用约束来精确地定位和关联。这些草图(sketch)对象主要是 PartDesign 几何体的构建模块，但在 FreeCAD 各处都有用。
 
+
+<div class="mw-translate-fuzzy">
+
   工具                                                                                                                                                   描述                                                                             工具                                                                                                                                                  描述
      
   <img alt="" src=images/Sketcher_CreatePoint.png  style="width:32px;"> [Point](Sketcher_CreatePoint.md)                                          画出一点                                                                         <img alt="" src=images/Sketcher_Line.png  style="width:32px;"> [Line](Sketcher_CreateLine.md)                                                         以 2 个点绘制线段
@@ -71,6 +74,9 @@ Sketcher 工作台包含用于构建和编辑复杂 2D 对象的工具，称为�
   <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Distance](Sketcher_ConstrainDistance.md)                                       约束所选线的长度，或约束两个点之间的距离。                                       <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [Radius](Sketcher_ConstrainRadius.md)                                          通过约束半径来定义选定圆弧或圆的半径。
   <img alt="" src=images/Constraint_InternalAngle.png  style="width:32px;"> [Internal anglr](Sketcher_ConstrainAngle.md)                      定义两条选定线之间的内角。                                                       <img alt="" src=images/Sketcher_MapSketch.png  style="width:32px;"> [Map sketch](Sketcher_MapSketch.md)                                          将草图映射到先前选定的实体的面
   <img alt="" src=images/Sketcher_MergeSketch.png  style="width:32px;"> [Merge](Sketcher_MergeSketches.md)                                        合并两个或多个草图                                                               <img alt="" src=images/Sketcher_MirrorSketch.png  style="width:32px;"> [Mirror](Sketcher_MirrorSketch.md)                                     镜像某草图中选定的元素
+
+
+</div>
 
 ### Part Design 
 

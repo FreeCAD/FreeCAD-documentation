@@ -1,39 +1,45 @@
 # Macro Toggle Panels Visibility/fr
 {{Macro/fr
-|Icon=Macro_Toggle_Views_Visibility.png
 |Name=Macro Toggle Panels Visibility
 |Name/fr=Macro Toggle Panels Visibility
+|Icon=Macro_Toggle_Views_Visibility.png
 |Description=Cette macro permet de basculer la visibilité des différentes vues de FreeCAD, la fenêtre active (3D ou Python) utilise tout l'espace disponible de l'écran.
 |Author=Piffpoof
 |Version=1.0
 |Date=2015-01-17
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d0/Macro_Toggle_Views_Visibility.png Toolbar icon]
-|SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle_Panels]
+|FCVersion=Toutes
+|Download=[https://wiki.freecad.org/images/d/d0/Macro_Toggle_Views_Visibility.png Icône de la barre d'outils]
+|SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle Panels]
 }}
 
 ## Description
 
-Pendant votre usage de FreeCAD, il arrive souvent que vous avez besoin de plusieurs fenêtres complémentaire (Combo View, Console Python, etc.) . Inversement, vous avez souvent besoin de concentrer sur le contenu principale (votre dessin). Ce macro permets de cacher ou révéler les fenêtres complémentaire avec un clique.
+Lorsque vous travaillez avec FreeCAD, il arrive que vous ayez besoin d\'ouvrir de nombreuses fenêtres de support, telles que la vue combo, vue rapport, etc. Il y a d\'autres moments où vous voulez que toutes ces fenêtres disparaissent afin que tout l\'espace disponible sur l\'écran puisse être utilisé pour visualiser le modèle sur lequel vous travaillez. Cette macro vous permet de masquer toutes les fenêtres auxiliaires (ou de les rendre visibles à nouveau) en un seul clic sur la barre d\'outils.
 
 ## Installation
 
-Pour installer ce Macro, mettez le code dans votre dossier a Macro et lancez le a partir de votre barre à outils ou de votre liste des Macros. Il est préférable de créer une bouton pour le lancer dans votre barre à outils pour le rendre plus accessible.
+Enregistrez le code fourni dans le répertoire Macro approprié et exécutez-le à partir du menu Macro. Il est préférable de l\'ajouter à une barre d\'outils pour en faciliter l\'accès.
 
--   [Comment installer une Macro](How_to_install_macros/fr.md)
--   [Personnaliser la barre d\'outils ](Customize_Toolbars/fr.md)
+-   voir [Comment installer une Macro](How_to_install_macros/fr.md) pour savoir comment installer le code de la macro
+-   voir [Personnaliser la barre d\'outils](Customize_Toolbars/fr.md) pour savoir comment installer un bouton sur une barre d\'outils
 
-## Usage
 
-Cliquez le bouton associé dans votre barre à outils ou exécuter le a partir de votre liste des Macros. Les fenêtres complémentaire de Python console, Report view et Combo view vont changer leur état de visible a caché ou inversement.
 
-## Interface Utilisateur 
+## Utilisation
 
-Sur lancement du macro (par bouton ou a partir du liste des macros) les fenêtres complémentaire vont apparaître ou disparaître.
+Cliquez sur le bouton associé de la barre d\'outils ou lancez la commande à partir du menu Macro. Les fenêtres de support (console Python, vue rapport, vue combo) deviendront toutes visibles ou cachées.
+
+
+
+## Interface utilisateur 
+
+L\'action de l\'utilisateur est immédiatement confirmée par l\'apparition ou la disparition des fenêtres de soutien.
+
+
 
 ## Script
 
-Toolbar icon ![](images/Macro_Toggle_Views_Visibility.png )
+Icône de la barre d\'outils ![](images/Macro_Toggle_Views_Visibility.png )
 
 **Macro_Toggle_Panels_Visibility.FCMacro**
 

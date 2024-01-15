@@ -19,6 +19,8 @@
 
 Ce tutoriel a pour but d\'être utilisé comme une première introduction à l\'[atelier Draft](Draft_Workbench/fr.md) ![](images/Switch_DraftWorkbench.JPG ) dans FreeCAD. Le tutoriel utilise une *forme 2D* pour créer un *solide 3D*, ce dernier étant réalisé par le biais de l\'[atelier Part](Part_Workbench/fr.md). Il est recommandé au lecteur de travailler d\'abord avec le tutoriel frère *[Créer une simple pièce avec l\'atelier Part](Creating_a_simple_part_with_Part_WB/fr.md)*, qui crée le même modèle avec une technique différente, tout en couvrant les bases de l\'interface utilisateur de FreeCAD. Ce tutoriel s\'attend à ce que l\'utilisateur soit familiarisé avec l\'interface utilisateur et certains flux de travail disponibles dans FreeCAD. Le tutoriel est composé de telle sorte que le but n\'est pas nécessairement de montrer la manière la plus efficace d\'utiliser le programme, mais plutôt de faire prendre conscience au lecteur des différentes fonctionnalités disponibles dans FreeCAD, comment les utiliser, et où les trouver.
 
+
+
 ### Le tutoriel couvre 
 
 -   Le modèle à réaliser
@@ -30,11 +32,15 @@ Ce tutoriel a pour but d\'être utilisé comme une première introduction à l\'
 -   Qualité des modèles
 -   Conclusion
 
+
+
 ## Le modèle à réaliser 
 
 <img alt="" src=images/GGTuto1_Vue.PNG  style="width:372px;">
 
 ![](images/T101pwb01-02_dims.png )
+
+
 
 ## Création du profil 2D 
 
@@ -62,6 +68,8 @@ Ensuite, nous allons décomposer le rectangle en ses quatre bords, en sélection
 
 L\'observateur remarquera que l\'icône de l\'objet dans la vue en arborescence pour la polyligne s\'est déjà transformée en une *boîte bleue*. Cette boîte bleue est l\'icône utilisée pour les objets géométriques génériques (les objets géométriques de l\'atelier Part pour être précis, mais cela est pour les lecteurs avancés). Sélectionnez le bord vertical gauche et lancez la commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> [Draft Agréger](Draft_Upgrade/fr.md), l\'ancien *bord* aura maintenant une icône différente et a changé de *label* en *Line*. C\'est maintenant un objet de l**\'atelier Draft** où l\'on peut modifier par exemple le *point de départ* et le *point d\'arrivée* à travers l*\'éditeur de propriétés*, ce qui n\'est pas possible avec les objets *arête*.
 
+
+
 ### Créer le congé 
 
 Commencez par sélectionner les bords du coin supérieur droit, utilisez le menu **Edition → Sélection par boîte**, <img alt="" src=images/Std_BoxSelection.svg  style="width:24px;"> [Sélection par boîte](Std_BoxSelection/fr.md), maintenez le <img alt="" src=images/Mouse_LMB.svg  style="width:24px;"> **bouton gauche de la souris** et faites glisser **de droite à gauche** et relâchez le **bouton gauche de la souris**. Lorsque l\'on fait glisser *de droite à gauche*, la sélection résultante inclut tout ce qui se trouve entièrement ou partiellement dans la zone de sélection. Si l\'on fait glisser *de gauche à droite*, seuls les objets entièrement compris dans la zone de sélection sont inclus dans la sélection résultante. La sélection réelle se produit lorsque le bouton gauche de la souris est relâché, et il n\'y a pas d\'aperçu de ce qui sera sélectionné.
@@ -75,6 +83,8 @@ Avec les bords du coin supérieur droit sélectionnés, lancez la commande <img 
 Le **congé** est créé et votre modèle devrait maintenant ressembler à ce qui suit.
 
 ![](images/T101dwb02-03filletdone.png )
+
+
 
 ### Créer le chanfrein 
 
@@ -108,11 +118,13 @@ Le profil est prêt et montré ci-dessous avec les arêtes organisées dans un <
 
 ![](images/T101dwb03-07_profiledone.png )
 
+
+
 ## Pourquoi l\'extrusion peut échouer 
 
 Enregistrez le document. Nous allons faire des expériences dans ce paragraphe et nous voulons pouvoir revenir au modèle en cours.
 
-Allons-y : sélectionnez toutes les arêtes dans le *groupe* **Profile**, et dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) lancez la commande <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Extrusion](Part_Extrude/fr.md). Un *panneau de tâches* s\'ouvre, acceptez toutes les valeurs par défaut et cliquez sur **OK**.
+Allons-y : sélectionnez toutes les arêtes dans le *groupe* **Profile**, et dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) lancez la commande <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Extruder](Part_Extrude/fr.md). Un *panneau des tâches* s\'ouvre, acceptez toutes les valeurs par défaut et cliquez sur **OK**.
 
 ![](images/T101dwb04-01_extrudelineserror.png )
 
@@ -146,6 +158,8 @@ L\'astuce de l\'outil dit tout, afin d\'extruder dans un solide on a besoin d\'u
 
 Avant de passer au paragraphe suivant : ouvrez la version précédente du document.
 
+
+
 ## Extrusion du profil 
 
 Une autre façon de créer le fil fermé est d\'utiliser la commande <img alt="" src=images/Part_Builder.svg  style="width:24px;"> [Générateur de formes](Part_Builder/fr.md) de l\'atelier Part, qui permet de réaliser une polyligne sans consommer les arêtes individuelles. Le **Part Générateur de formes** est un outil puissant pour créer n\'importe quelle entité géométrique dans FreeCAD qui peut être utilisée plus loin pour créer des solides complexes, l\'exemple le plus simple est la création d\'une ligne entre deux sommets. Cliquez sur **Part Générateur de formes** pour faire apparaître le *panneau des tâches*.
@@ -160,6 +174,8 @@ Sélectionnez la *Face* et lancez **Part Extrusion**, réglez la *longueur* de l
 
 ![](images/T101dwb05-03_extrusiondone.png )
 
+
+
 ## Créer le trou traversant 
 
 Pour réaliser le trou traversant, nous avons besoin d\'un *cylindre* correctement *positionné* pour effectuer une *soustraction* booléenne.
@@ -173,6 +189,8 @@ Il n\'y a pas de mal à rendre la hauteur du cylindre plus longue que nécessair
 Avec une dernière soustraction booléenne, et après avoir modifié l\'apparence de l\'objet résultant, le modèle est terminé.
 
 ![](images/T101dwb05-05_modelcomplete.png )
+
+
 
 ## Faire une esquisse à partir du profil 2D 
 
@@ -192,6 +210,8 @@ Une fois que **l\'esquisse** est fermée et sélectionnée, utilisez Extruder de
 
 ![](images/T101dwb06-03_sketchextruded.png )
 
+
+
 ## Qualité des modèles 
 
 Tôt ou tard, lorsque vous travaillez avec la CAO paramétrique 3D, vous rencontrez un modèle cassé, qu\'il s\'agisse d\'un modèle que vous avez créé vous-même ou d\'un modèle que vous avez importé. Un modèle cassé peut fonctionner pour son objectif, mais le plus souvent, il y a des opérations ultérieures qui ne fonctionneront tout simplement pas. Pour réparer un modèle cassé, il faut savoir ce qu\'il faut réparer, et c\'est là qu\'interviennent les outils de contrôle de qualité intégrés dans FreeCAD.
@@ -202,7 +222,7 @@ Tout d\'abord, vérifions la qualité de la pièce **Extrude001** récemment cr�
 
 Notre modèle est OK, aucune erreur n\'est signalée. Il y a aussi une liste du contenu du modèle, ou dans le jargon de FreeCAD, le contenu de la *forme*, c\'est à dire comment elle est constituée à partir de la base. Ici on peut voir qu\'apparemment pour faire un *solide* il faut aussi une *coque*, et la coque est faite de *faces*, et ainsi de suite. En d\'autres termes, on peut créer n\'importe quel solide en commençant simplement par créer des points, ou *sommets*, à partir desquels on crée des *arêtes*, et à partir de celles-ci on crée des *polylignes*, et à partir des polylignes on crée des *faces* qui sont ensuite assemblées en une *coque*, à partir de laquelle on arrive finalement à un *solide*. Un solide ne peut être fabriqué qu\'à partir d\'une coque étanche. Une coque non étanche est une source fréquente de modèles CAO problématiques, cela peut par exemple se produire lors de l\'importation de géométries créées dans un autre logiciel, surtout si l\'on utilise les formats de fichiers neutres couramment disponibles.
 
-Une autre vérification que l\'on peut faire concerne l\'esquisse. Fermez le *panneau des tâches* pour le contrôle de la géométrie. Sélectionnez l\'esquisse, développez **Extrude001** dans la vue en arborescence si nécessaire afin de voir l\'objet de l\'esquisse. Passez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md), utilisez la commande <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Valider l\'esquisse\...](Sketcher_ValidateSketch/fr.md), un *panneau de tâches* s\'ouvre. Dans le *panneau des tâches*, cliquez sur le bouton **Trouver** les *Coïncidences manquantes*. Il met en évidence et signale *6* d\'entre elles, c\'est-à-dire tous les points où les arêtes se rencontrent.
+Une autre vérification que l\'on peut faire concerne l\'esquisse. Fermez le *panneau des tâches* pour le contrôle de la géométrie. Sélectionnez l\'esquisse, développez **Extrude001** dans la vue en arborescence si nécessaire afin de voir l\'objet de l\'esquisse. Passez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md), utilisez la commande <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:24px;"> [Valider une esquisse\...](Sketcher_ValidateSketch/fr.md), un *panneau de tâches* s\'ouvre. Dans le *panneau des tâches*, cliquez sur le bouton **Trouver** les *Coïncidences manquantes*. Il met en évidence et signale *6* d\'entre elles, c\'est-à-dire tous les points où les arêtes se rencontrent.
 
 ![](images/T101dwb07-02_sketchvalidate.png )
 
@@ -211,6 +231,8 @@ Cliquez sur **OK** dans le dialogue contextuel, puis cliquez sur le bouton **Ré
 Le lecteur attentif remarquera que, lors de l\'utilisation des arêtes de Draft, celles-ci doivent être jointes en une polyligne fermée pour former une extrusion solide, alors que dans Sketcher, cela n\'est apparemment pas nécessaire. La logique ici est que l\'esquisse est un objet, et l\'extrusion d\'un objet est traitée comme s\'il s\'agissait d\'une polyligne fermée (dans ce cas).
 
 Enfin, il convient de souligner que, bien que la création d\'objets ultérieurs à partir d\'esquisses avec des *sommets ouverts* puisse fonctionner, il est préférable de ne pas en avoir, et d\'avoir une *esquisse entièrement contrainte* (par opposition à une esquisse sous-contrainte). La raison pour laquelle cela fonctionne ici est que l*\'esquisse* est créée à partir d\'un Draft profil construit de manière à ce que les points d\'extrémité des arêtes correspondent sans aucun vide. Si vous dessinez à la main dans une esquisse et que vous essayez également de faire correspondre les points d\'extrémité à la main, il est pratiquement garanti que les points d\'extrémité ne correspondront pas, c\'est-à-dire que les écarts (bien qu\'ils ne soient pas vraiment visibles à l\'écran) seront suffisamment importants pour que le noyau géométrique ne puisse pas considérer les arêtes comme étant géométriquement jointes.
+
+
 
 ## Conclusion
 

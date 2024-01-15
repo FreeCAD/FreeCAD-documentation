@@ -25,9 +25,10 @@ The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session
 4.  Optionally change the **Macro path** by pressing the **...** button.
 5.  The **Stop** button does not work at this time.
 6.  Press the **Record** button to close the dialog box and start the recording session.
-7.  Perform the actions you want to record.
-8.  To end the recording session do one of the following:
-    -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std MacroStopRecord](Std_MacroStopRecord.md)** button.
+7.  The button image of the command changes to **<img src="images/Std_MacroStopRecord.svg" width=16px>** and the menu text changes to **Stop macro recording**.
+8.  Perform the actions you want to record.
+9.  To end the recording session do one of the following:
+    -   Press the **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std DlgMacroRecord](Std_DlgMacroRecord.md)** button.
     -   Select the **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Stop macro recording** option from the menu.
 
 ## Options

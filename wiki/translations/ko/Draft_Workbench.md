@@ -1,28 +1,13 @@
-# Draft Workbench/ko
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|[Arch Workbench](Arch_Workbench.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Workbench_Arch.svg|IconR=Workbench_Drawing.svg}}
-
-
-</div>
-
-<img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:128px;">
+# <img alt="Draft workbench icon" src=images/Workbench_Draft.svg  style="width:64px;"> Draft Workbench/ko
 
 
 
 
-## Introduction
 
-
-<div class="mw-translate-fuzzy">
 
 ## 소개
 
-The Draft Workbench allows you to draw simple 2D objects, and offers several tools to modify them afterwards. It also provides tools to define a working plane, a grid, and a snapping system to precisely control the position of your geometry.
-
-
-</div>
+<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **설계도 작업환경** 은 대상물을 프리캐드에서 2D로 생성하고 수정하는 것에 중점을 두었습니다. 그러나 대상물이 일반 좌표계의 XY면에서만 존재하는 구속조건이 아닙니다. 대상물의 3D 공간에서 방향이나 위치를 임의로 정할 수 있고, 설계용 물체는 평면 형식, 비 평면 형식 둘 다 됩니다.
 
 Draft objects can be used for general drafting, similar to what can be done with Inkscape or AutoCAD. But they can also form the base for the creation of 3D objects in other workbenches. A [Draft Wire](Draft_Wire.md) may define the path of an [Arch Wall](Arch_Wall.md), a [Draft Polygon](Draft_Polygon.md) can be extruded with [Part Extrude](Part_Extrude.md), etc. Many of the [Draft modifier tools](#Modification.md) can be applied to 2D and 3D objects created with other workbenches as well. You can, for example, [move](Draft_Move.md) a [Sketch](Sketcher_Workbench.md) or create a [Draft OrthoArray](Draft_OrthoArray.md) from a [Part](Part_Workbench.md) object.
 
@@ -111,11 +96,11 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
   - <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Path array](Draft_PathArray.md): creates an array from a selected object by placing copies along a path.
 
-  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path Link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
 
-  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point Array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
+  - <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
 
-  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point Link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
+  - <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array.
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edit](Draft_Edit.md): puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
 
@@ -131,7 +116,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to Sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
 
@@ -145,7 +130,7 @@ The [Draft Tray](Draft_Tray.md) allows selecting the working plane, defining sty
 
 ![](images/Draft_tray_default.png )
 
--   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane**.
+-   ![](images/Draft_tray_button_plane.png ) [Select plane](Draft_SelectPlane.md): defines the current Draft working plane. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane**.
 
 -   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**.
 
@@ -169,37 +154,37 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 The Draft snap toolbar allows selecting the active snap options. The buttons belonging to active options stay depressed. For general information about snapping see: [Draft Snap](Draft_Snap.md).
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Snap Lock](Draft_Snap_Lock.md): enables or disables snapping globally.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Snap lock](Draft_Snap_Lock.md): enables or disables snapping globally.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
 
--   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
--   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersection](Draft_Snap_Intersection.md): snaps to the intersection of two edges.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap intersection](Draft_Snap_Intersection.md): snaps to the intersection of two edges.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicular](Draft_Snap_Perpendicular.md): snaps to the perpendicular points on faces (<small>(v0.21)</small> ) and edges.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap perpendicular](Draft_Snap_Perpendicular.md): snaps to the perpendicular points on faces (<small>(v0.21)</small> ) and edges.
 
--   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Extension](Draft_Snap_Extension.md): snaps to an imaginary line that extends beyond the endpoints of straight edges.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap extension](Draft_Snap_Extension.md): snaps to an imaginary line that extends beyond the endpoints of straight edges.
 
--   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap Parallel](Draft_Snap_Parallel.md): snaps to an imaginary line parallel to straight edges.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap parallel](Draft_Snap_Parallel.md): snaps to an imaginary line parallel to straight edges.
 
--   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap Special](Draft_Snap_Special.md): snaps to special points defined by the object.
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap special](Draft_Snap_Special.md): snaps to special points defined by the object.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Near](Draft_Snap_Near.md): snaps to the nearest point on faces and edges.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap near](Draft_Snap_Near.md): snaps to the nearest point on faces and edges.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortho](Draft_Snap_Ortho.md): snaps to imaginary lines that cross the previous point at multiples of 45°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap ortho](Draft_Snap_Ortho.md): snaps to imaginary lines that cross the previous point at multiples of 45°.
 
--   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects snap points onto the current [working plane](Draft_SelectPlane.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap working plane](Draft_Snap_WorkingPlane.md): projects snap points onto the current [working plane](Draft_SelectPlane.md).
 
--   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle Grid](Draft_ToggleGrid.md): switches the grid on or off.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Toggle grid](Draft_ToggleGrid.md): changes the visibility of the grid.
 
 ## Draft utility tools toolbar 
 
@@ -211,7 +196,7 @@ The Draft snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select group](Draft_SelectGroup.md): selects the contents of [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
 
@@ -226,8 +211,6 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). Available in the [Draft utility tools toolbar](Draft_Workbench#Draft_utility_tools_toolbar.md) in {{VersionMinus|0.20}}.
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
-
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft snap toolbar](#Draft_snap_toolbar.md).
 
@@ -253,12 +236,6 @@ If there is an active document the context menu contains an additional sub-menu:
 
 -   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
-### Wire options 
-
-For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available:
-
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten: flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
-
 ### Layer container options 
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
@@ -274,6 +251,18 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activate this layer](Draft_AutoGroup.md): activates the selected layer.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select layer contents](Draft_SelectGroup.md): selects the objects inside the selected layer.
+
+### Text options 
+
+For a [Draft Text](Draft_Text.md) and a [Draft Label](Draft_Label.md) that contains one or more hyperlinks, to a local or remote file or an URL, this additional option is available:
+
+-   Open hyperlinks: the hyperlinks are opened in the appropriate application (as defined by the OS). There is a warning in the case of multiple hyperlinks. <small>(v0.22)</small> 
+
+### Wire options 
+
+For a [Draft Line](Draft_Line.md) and a [Draft Wire](Draft_Wire.md) this additional option is available:
+
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Flatten: flattens the wire on the current [Draft working plane](Draft_SelectPlane.md). This option does not work properly in {{VersionMinus|0.19}}.
 
 ### Working plane proxy options 
 
@@ -293,11 +282,17 @@ If there is an active document the context menu contains one additional sub-menu
 
 -   Utilities: a subset of the tools available in the main Draft Utilities menu.
 
+### Text options 
+
+See [above](#Text_options.md).
+
 ## Obsolete tools 
 
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Array](Draft_Array.md): creates an orthogonal array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. Not available in <small>(v0.21)</small> .
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. Not available in <small>(v0.21)</small> .
+
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off. Not available in <small>(v0.22)</small> .
 
 ## Preferences
 
@@ -344,16 +339,8 @@ Inspecting the code of this module can help to understand the programming interf
 
 ## Tutorials
 
-
-<div class="mw-translate-fuzzy">
-
-## 자습서
-
--   [Draft tutorial](Draft_tutorial.md)
--   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)
-
-
-</div>
+-   [설계도 자습서](Draft_tutorial.md)
+-   [Draft ShapeString 자습서](Draft_ShapeString_tutorial.md)
 
 
 <div class="mw-translate-fuzzy">

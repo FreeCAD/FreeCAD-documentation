@@ -1,13 +1,14 @@
 # Macro clone explicit/fr
 {{Macro/fr
 |Name=Macro Clone explicit
+|Name/fr=Macro Clone explicit
 |Icon=Macro_clone_explicit.png
 |Description=Crée une copie de chaque objet sélectionné et définit ses propriétés en fonction d'une expression liée à l'objet original, ce qui en fait un clone explicite et modifiable.
 |Author=Raph82
 |Version=0.1
 |Date=2018-12-15
 |FCVersion=18 et plus
-|Download=[https://www.freecadweb.org/wiki/images/a/ab/Macro_clone_explicit.png Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/a/ab/Macro_clone_explicit.png Icône de la barre d'outils]
 |SeeAlso=[Expressions](Expressions/fr.md)
 }}
 
@@ -17,11 +18,15 @@ Cette macro crée une copie de chaque objet sélectionné et fixe ses propriét�
 
 Ce clone est une copie de l\'objet original, comme dans la commande **Edition → Dupliquer la sélection**, mais ses propriétés sont définies par des expressions.
 
+
+
 ### Comment ce \"clone explicite et modifiable\" diffère-t-il d\'un objet Clone ? 
 
 \"Explicite\" parce que toutes les propriétés de l\'objet original sont visibles. Dans un objet Clone d\'un Cube, pouvez-vous voir sa hauteur par exemple ? Lorsque vous utilisez une expression pour un objet Clone, pouvez-vous accéder facilement aux propriétés de son parent ?
 
 \"Editable\" parce que, contrairement à un objet Clone, vous pouvez modifier l\'expression de n\'importe quelle propriété. Il est donc possible de faire en sorte que l\'objet ne clone que certaines propriétés de son parent, tandis que vous modifiez les autres.
+
+
 
 ## Utilisation
 
@@ -51,7 +56,7 @@ __Date__    = "2018-12-15" #YYYY-MM-DD
 __Comment__ = "This macro creates a copy of the selected objects and sets their properties to an expression linking to the original object, making it an explicit and editable clone"
 __Web__ = "http://www.freecadweb.org/"
 __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_clone_explicit"
-__Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_clone_explicit.png"
+__Icon__  = "https://wiki.freecad.org/images/a/ab/Macro_clone_explicit.png"
 __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_clone_explicit.png"
 __Help__ = "Select at least one object and run the macro to make explicit and editable clone(s)"
 __Status__ = "dev"
@@ -179,29 +184,29 @@ clone_explicit('direct')
 
 ## Options
 
-A mode option was planned. It\'s not yet implemented. It now seems much more complex than initially thought, maybe too complex for me to implement.
+Une option mode était prévue. Elle n\'a pas encore été mise en œuvre. Elle semble maintenant beaucoup plus complexe qu\'initialement prévu, peut-être trop complexe pour moi à mettre en œuvre.
 
-The idea is that one might prefer one of two behaviors:
+L\'idée est que l\'on peut préférer l\'un ou l\'autre comportement :
 
--   the clone keeps mimicking its parent even if the parent properties *expressions* change. It\'s the direct mode,
--   the clone keeps the properties *expressions* the parent had when the clone was created. It\'s the transient mode.
+-   le clone continue à imiter son parent même si les propriétés *expressions* du parent changent. C\'est le mode direct,
+-   le clone conserve les propriétés *expressions* que le parent avait au moment de la création du clone. C\'est le mode transitoire.
 
-Note the emphasis on the word \"expressions\". An expression is one abstraction layer over a value.
+Remarquez l\'accent mis sur le mot \"expressions\". Une expression est une couche d\'abstraction au-dessus d\'une valeur.
 
-Here\'s an example. Imagine the parent object (the one you select before running the macro), has its Height property set to the expression Object**3**.Height * 2.
+Voici un exemple. Imaginons que l\'objet parent (celui que vous sélectionnez avant d\'exécuter la macro) ait sa propriété Height définie par l\'expression Object**3**.Height * 2.
 
--   When run in direct mode:
+-   Lorsque vous êtes en mode direct :
     -   Clone.Height = Parent.Height,
-    -   changes in Object**3**.Height value would affect both the parent and the clone objects,
-    -   changes in Parent.Height *expression* would **also** affect both objects:
-        -   Parent.Height = Object**4**.Height * 2 and
-        -   Clone.Height = Parent.Height still.
--   When run in transient mode:
+    -   devient une valeur Object**3**.Height qui affecterait à la fois l\'objet parent et les objets clones,
+    -   devient une *expression* Parent.Height qui affecterait **aussi** les deux objets :
+        -   Parent.Height = Object**4**.Height * 2 et
+        -   Clone.Height = Parent.Height encore.
+-   Lorsque vous êtes en mode transient :
     -   Clone.Height = Object**3**.Height * 2,
-    -   changes in Object**3**.Height value would affect both the parent and the clone objects,
-    -   changes in Parent.Height *expression* would **only** affect the parent object:
-        -   Parent.Height = Object**4**.Height * 2 and
-        -   Clone.Height = Object**3**.Height * 2 still.
+    -   devient une valeur Object**3**.Height qui affecterait à la fois l\'objet parent et les objets clones,
+    -   devient une *expression* Parent.Height qui affecterait **seulement** l\'objet parent :
+        -   Parent.Height = Object**4**.Height * 2 et
+        -   Clone.Height = Object**3**.Height * 2 encore.
 
 Pour l\'instant, la macro est exécutée avec le paramètre mode réglé sur direct et aucun choix n\'est proposé à l\'utilisateur.
 
@@ -210,6 +215,8 @@ Pour l\'instant, la macro est exécutée avec le paramètre mode réglé sur dir
 -   Ne fonctionne bien qu\'avec les cubes pour le moment. Pour étendre à de nombreux types, je dois :
     -   trouver comment identifier un type d\'objet pour traiter ses différentes propriétés en conséquence ;
     -   trouver comment attraper l\'erreur Property not found.
+
+
 
 ## Historique des versions 
 

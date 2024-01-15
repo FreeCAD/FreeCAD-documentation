@@ -34,24 +34,27 @@ Das Werkzeug **TechDraw GeometrischeSchraffur** füllt einen geschlossenen Berei
 
 ## Hinweise
 
--   Schraffierte Objekte sind anfällig für das \"[topologische Benennungsproblem](Topological_naming_problem/de.md)\". Siehe <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [TechDraw Längenmaß einfügen](TechDraw_LengthDimension/de.md) für weitere Informationen. Es wird empfohlen, das Schraffieren als einen der letzten Schritte der Zeichnungserstellung auszuführen.
+-   Für eine durchgängige Farbfüllung wird [TechDraw Schraffur](TechDraw_Hatch/de.md) verwendet und unter **Datei mit dem Schraffurmuster** **solid.svg** ausgewählt.
+-   Schraffierte Objekte sind anfällig für das \"[Problem der topologischen Benennung](Topological_naming_problem/de.md)\". Siehe <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [TechDraw Längenmaß einfügen](TechDraw_LengthDimension/de.md) für weitere Informationen. Es wird empfohlen, das Schraffieren als einen der letzten Schritte der Zeichnungserstellung auszuführen.
+-   Ein kleiner Satz von Beispielmustern befinden sich unter:
 
-Ein kleiner Satz von Beispielmustern ist verfügbar in:
-
-
+:   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    $INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
+:   wobei `$INSTALL_DIR` das Verzeichnis ist, in dem FreeCAD installiert wurde, zum Beispiel:
 
-`$INSTALL_DIR`
-
-ist das Verzeichnis, in dem FreeCAD installiert wurde, zum Beispiel
-
-
+:   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
 
 

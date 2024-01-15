@@ -6,6 +6,7 @@
    Time: poniżej godziny
    FCVersion: 0.17 lub nowszy
    Files: https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17
+   SeeAlso: Basic_Part_Design_Tutorial_019/pl
 ---
 
 # Basic Part Design Tutorial/pl
@@ -22,17 +23,27 @@ Nagranie wideo przedstawiające całą konstrukcję znajduje się tutaj: <https:
 
 *(każda sekcja ma swój własny podział Wideo poniżej)*
 
+
+
 ## Nim zaczniesz 
+
+
 
 ## Zadanie
 
 W tym poradniku, za pomocą stanowiska roboczego Projekt Części utworzysz trójwymiarowy model bryłowy części pokazanej na [Rysunku](TechDraw_Workbench/pl.md) poniżej. Podane są wszystkie wymiary niezbędne do wykonania tego zadania. Rozpoczniesz od stworzenia kształtu rdzenia z bazowego szkicu, a następnie zbudujesz go na tym kształcie, dodając coś, co jest znane jako Cechy. Cechy te albo dodadzą materiał do bryły, albo usuną materiał z bryły za pomocą dodatkowych szkiców i towarzyszących im operacji na cechach. Przewodnik ten nie będzie wykorzystywał wszystkich funkcji i narzędzi dostępnych w środowisku Part Design, ale powinien wykorzystywać je na tyle, aby dać użytkownikowi tego przewodnika solidne podstawy, na których będzie mógł budować swoją wiedzę i umiejętności.
 
+
+
 ## Model detalu 
 
 ![](images/Tutorial_Drawing_Sheet.png )
 
+
+
 ## Konstruowanie części 
+
+
 
 ### Rozpoczynamy
 
@@ -53,6 +64,8 @@ Wszystkie prace w środowisku Projekt Części rozpoczynają się od stworzenia 
 Po kliknięciu przycisku **OK**, FreeCAD automatycznie przełącza się do środowiska pracy [Szkicownik](Sketcher_Workbench/pl.md) i otwiera szkic w trybie edycji:
 
 ![](images/Tut17_sketcherempty.png )
+
+
 
 ### Tworzenie szkicu 
 
@@ -75,6 +88,8 @@ W tym momencie powinieneś mieć w pełni związany szkic, na co wskazuje zmiana
 Teraz w [widoku połączonym](Combo_view/pl.md), kliknij przycisk **Zamknij**, aby wyjść z trybu edycji szkicu i wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [Wyciągnięcie](PartDesign_Pad/pl.md) z paska narzędzi lub z menu Projekt Części. Dzięki temu zostanie wyświetlone okno dialogowe **Parametry wyciągnięcia** w widoku połączonym. Używając tego okna dialogowego, najpierw z menu rozwijanego **Typ** wybierz opcję **Dwa wymiary**. Rysunek przedstawiony na początku tego poradnika mówi, że część ma 53mm długości. Robimy to przez wyciągnięcie naszego szkicu w obie strony od płaszczyzny środkowej, aby nadrobić tę odległość, czyli uczynić pad symetrycznym w stosunku do płaszczyzny szkicu. Przyczyna tego jest widoczna później przy tworzeniu elementów. Na razie, biorąc pod uwagę, że chcemy, aby miał on w sumie 53mm długości, wprowadzimy 26,5mm dla długości, oraz 26,5mm dla długości drugiej. Alternatywnie, możesz podać pojedynczą długość 53mm i kliknąć pole wyboru **Symetryczne do płaszczyzny**. Gdy to zrobimy, mamy teraz naszą bryłę bazową, na której dodamy dodatkowe funkcje do konstrukcji naszej części.
 
 Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/cUyPnCMeTgg>
+
+
 
 ### Cechy charakterystyczne dla kieszeni i geometrii zewnętrznej 
 
@@ -103,6 +118,8 @@ Aby wykonać kolejną operację, upewnij się, że w widoku drzewa modelu wybran
 ![](images/tut17_profilewithslots.png )
 
 Nagranie wideo z kroków użytych w tej części poradnika dostępne jest tutaj: <https://youtu.be/wiGXV9G7mrM>
+
+
 
 ### Opcje wyciągnięcia i geometrii zewnętrznej 
 
@@ -133,6 +150,8 @@ Jeszcze raz użyj funkcji **Utwórz kopie lustrzana \...**, aby uzyskać drugie 
 ![](images/tut17_profilewithsideblocks.png )
 
 Poniżej znajduje się nagranie wideo z kroków użytych w tej części poradnika: <https://youtu.be/Ido1owp8ubc>
+
+
 
 ### Opcje kieszeni i geometrii zewnętrznej 
 
@@ -191,6 +210,8 @@ W tym momencie zobaczysz kilka linii, które pochodzą z przecinających się el
 Poniżej znajduje się link do nagrania wideo z kroków użytych w tej części poradnika: <https://youtu.be/UYI0gvxCYeI>
 
 Ten poradnik i twój model zostałty ukończone.
+
+
 
 ## Dodatkowe zasoby 
 

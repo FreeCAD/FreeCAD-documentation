@@ -1,14 +1,9 @@
 # Installing on Mac/hr
-FreeCAD can be installed on macOS from a .dmg package which you can drag and drop into your Applications folder:
+FreeCAD can be installed on macOS from a .dmg package which you can drag and drop into your Applications folder, see the [Download](Download.md) page.
 
+If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 
-{{DownloadMacStable}}
-
-and the weekly build can be downloaded from
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD through your bash terminal with
 
 
 ```python
@@ -40,10 +35,15 @@ That\'s it.Just click on the app to launch FreeCAD. If you have this message \"F
 
 There currently isn\'t an uninstaller for FreeCAD installed with dmg package. To completely remove FreeCAD and all installed components, drag the following files and folders to the Trash:
 
--   In /Applications:
-    -   FreeCAD
+-   In the Applications directory:
+    -   /Applications/FreeCAD.app
+-   In the Users Home Library directory
+    -   \$HOME/Library/Application Support/FreeCAD
+    -   \$HOME/Library/Preferences/FreeCAD
+    -   \$HOME/Library/Preferences/com.freecad.FreeCAD.plist
+    -   \$HOME/Library/Caches/FreeCAD
 
-If you installed FreeCAD with homebrew simply use the `brew uninstall freecad` command. That\'s it.
+If you installed FreeCAD with homebrew, then use the `brew uninstall freecad` command to uninstall /Applications/FreeCAD.app. The related files and directories in the user home Library will still need to be removed manually.
 
 
 

@@ -52,25 +52,6 @@ How to install additional workbenches and addons on Windows
 
 <div class="mw-collapsible-content">
 
-### Obsolete
-
-
-**Note:**
-
-using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
-
-
-<div class="mw-translate-fuzzy">
-
-Utilizați [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
-Pe durata Google Summer of Code 2016 studentul Mandeep Singh a început lucrul la o versiune îmbunătățită
-versiunea ([available here](https://github.com/mandeeps708/PluginManager)) dara această vrsiune necesită muncă suplimentară înainte de a fi integrată pe deplin în FreeCAD.
-
-
-</div>
-
-During Google Summer of Code 2016 student Mandeep Singh started work on an improved version ([available here](https://github.com/mandeeps708/PluginManager)) but that version needs further work before it can be fully integrated in FreeCAD.
-
 ### Manual Install 
 
 

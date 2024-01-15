@@ -26,23 +26,21 @@ Eine Draft-Linie ist eigentlich eine [Draft-Polylinie](Draft_Wire/de.md) mit nur
 
 ## Anwendung
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md) und [Draft-Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Draft_Line.svg" width=16px> [Entwurf Linie](Draft_Line/de.md)** Schaltfläche, oder verwende **Entwurf** → **<img src="images/Draft_Line.svg" width=16px> [Linie](Draft_Line/de.md)** aus dem oberen Menü oder verwende die Tastaturkürzel: **L**, dann **I**.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Line.svg" width=16px> [Linie](Draft_Line.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Line.svg" width=16px> Linie** auswählen.
+    -   Das Tastaturkürzel **L** dann **I**.
+2.  Der Aufgaben-Bereich **Linie** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+4.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
 
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -67,23 +65,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Die Linie kann durch doppelklicken des Elements in der Baumansicht geändert werden oder durch drücken der Schaltfläche **<img src="images/Draft_Edit.svg" width=16px> [Bearbeiten](Draft_Edit/de.md)**. Dann kannst Du die Punkte an eine andere Position ziehen.
-
-
-</div>
+-   Eine Draft-Linie kann mit dem Befehl [Draft Bearbeiten](Draft_Edit/de.md) bearbeitet werden.
+-   Draft-Linien und [Draft Polylinien](Draft_Wire/de.md) können mit den Befehlen [Draft Polylinie](Draft_Wire/de.md), [Draft Verbinden](Draft_Join/de.md) oder [Draft Hochstufen](Draft_Upgrade/de.md) verbunden werden.
 
 
 
 ## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft-Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates, lengths and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General settings → Draft tools options → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
+-   To change the initial focus of the task panel to the **Length** input box: **Edit → Preferences... → Draft → General → Set focus on Length instead of X coordinate**. Note that you must move the pointer in the [3D view](3D_view.md) for the change to take effect.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Line](Part_Line.md) instead of a Draft Line.
 
 
 

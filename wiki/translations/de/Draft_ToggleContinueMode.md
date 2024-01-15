@@ -8,9 +8,13 @@
 
 # Draft ToggleContinueMode/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Draft FortsetzungsmodusUmschalten** schaltet den Fortsetzungsmodus ein bzw. aus. Viele Befehle der Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) unterstützen diesen Modus. Wenn der Fortsetzungsmodus aktiviert ist, werden sie erneut gestartet, sobald sie fertig sind. Der Fortsetzungsmodus kann auch im Aufgabenbereich dieser Befehle umgeschaltet werden, sodass dieser Befehl in der Praxis selten genutzt wird.
+
+
 
 ## Anwendung
 

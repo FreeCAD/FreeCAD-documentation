@@ -99,7 +99,7 @@ Tolerancje są tworzone poprzez użycie funkcji środowiska pracy Rysunek techni
 Identyfikatorem tolerancji w GD&T jest ramka, zwana również \"ramką kontrolną właściwości\". Można ją utworzyć za pomocą funkcji [Balonik](TechDraw_Balloon.md) środowiska pracy Rysunek techniczny:
 
 -   po dodaniu balonika, jeśli jego kształt nie jest jeszcze ramką, kliknij na nim dwukrotnie w drzewie modelu kolejnie w wyświetlonym okienku dialogowym ustaw parametr **Kształt** na wartość **Prostokąt**,
--   dodaj odpowiedni znak Unicode dla właściwości, której potrzebujesz do dymku **Tekst** *(możesz skopiować je z tabel referencyjnych [poniżej](TechDraw_Geometric_dimensioning_and_tolerancing/pl#Znaki_specjalne.md))*.
+-   dodaj odpowiedni znak Unicode dla właściwości, której potrzebujesz do dymku **Tekst** *(możesz skopiować je z tabel referencyjnych [poniżej](TechDraw_Geometric_dimensioning_and_tolerancing/pl#Znaki_specjalne.md) lub użyć [Rozszerzenia: Dostosuj format etykiety](TechDraw_ExtensionCustomizeFormat/pl.md))*.
 -   Dodając znak \"\|\" do **Tekstu**, rozpoczynasz nowe pole wskaźnika.
 
 Nie ma reguły, która definiuje czy lub jak wskaźnik tolerancji musi mieć linię wiodącą czy nie, więc możesz albo:

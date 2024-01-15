@@ -68,7 +68,7 @@ Zobacz również stronę [Jak zainstalować dodatkowe środowiska pracy](How_to_
 -   <img alt="" src=images/DefeatWB_Tools_create_copy_listed_edges.png  style="width:32px;"> [Utwórz kopę krawędzi z listy](DefeatWB_Tools_create_copy_listed_edges.md): utwórz kopię krawędzi wymienionej na liście elementów.
 
 -   <img alt="" src=images/DefeatWB_Tools_copy_Faces_listed_faces.png  style="width:32px;"> [Kopiuj ścianę z listy ścian](DefeatWB_Tools_copy_Faces_listed_faces.md): kopiowanie ścian wymienionych na liście ścian.
--   <img alt="" src=images/DefeatWB_Tools_offset_ściana.png  style="width:32px;"> [Odsunięcie ściany](DefeatWB_Tools_offset_face.md): przesunięcie ściany.
+-   <img alt="" src=images/DefeatWB_Tools_offset_face.png  style="width:32px;"> [Odsunięcie ściany](DefeatWB_Tools_offset_face.md): przesunięcie ściany.
 -   <img alt="" src=images/DefeatWB_Tools_offset_edge.png  style="width:32px;"> [Odsunięcie krawędzi](DefeatWB_Tools_offset_edge.md): przesunięcie krawędzi.
 
 -   <img alt="" src=images/DefeatWB_Tools_make_solid_listed_faces.png  style="width:32px;"> [Utwórz bryłę z listy ścian](DefeatWB_Tools_make_solid_listed_faces.md): tworzy bryłę z listy ścian.
@@ -104,15 +104,15 @@ Zobacz również stronę [Jak zainstalować dodatkowe środowiska pracy](How_to_
 
 Usuwanie funkcji przy użyciu nowych narzędzi OCC7.3
 
-[480px\|left\|thumb \|link=[https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4\|Usunięcie](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CUsunięcie) cech - otworów](Image:Defeaturing-WB-@Work_v3.png.md)
+[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CUsunięcie> cech - otworów](Image:Defeaturing-WB-@Work_v3.png.md)
 
 [480px\|left\|thumb \|link=<https://youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-@Work\|Uproszczenie modelu](Image:Defeaturing-WB-@Work_v1.png.md)
 
 [480px\|left\|thumb \|link=<https://youtu.be/vgQwGI6Fk6Q%7CWielokrotny> wybór ścian do operacji upraszczania](Image:Defeaturing-WB-@Work_v2.png.md)
 
-[480px\|left\|thumb \|link=[https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4\|Usunięcie](https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4%7CUsunięcie) zaokrągleń i sfazowań](Image:Defeaturing-WB-@Work_v4.png.md)
+[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4%7CUsunięcie> zaokrągleń i sfazowań](Image:Defeaturing-WB-@Work_v4.png.md)
 
-[480px\|left\|thumb \|link=[https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872\|przegląd](https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872%7Cprzegląd) funkcji *(w języku niemieckim)*](Image:Defeaturing-WB-@Work_v5.png.md)
+[480px\|left\|thumb \|link=<https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872%7Cprzegląd> funkcji *(w języku niemieckim)*](Image:Defeaturing-WB-@Work_v5.png.md)
 
 [480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4%7CUpraszczanie> parametryczne](Image:Defeaturing-WB-@Work_v6.png.md) 
 

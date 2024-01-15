@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁や](Arch_Wall.md)[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
+Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁](Arch_Wall.md)や[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
 
 
 </div>
@@ -54,7 +54,7 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 <div class="mw-translate-fuzzy">
 
-Floorツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
+Floorツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
 
 
 </div>

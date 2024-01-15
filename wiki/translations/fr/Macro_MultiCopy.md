@@ -1,14 +1,15 @@
 # Macro MultiCopy/fr
-{{Macro
+{{Macro/fr
 |Name=Macro MultiCopy
+|Name/fr=Macro MultiCopy
 |Icon=MultiCopy-reduced.png
 |Description=MultiCopy permet la duplication (copier-coller) de plusieurs objets FreeCAD qui peuvent être étiquetés séquentiellement et de manière personnalisée.
 |Author=Melwyncarlo
 |Date=2021-03-18
 |Version=1.0.1
 |FCVersion={{VersionPlus/fr|0.17}}
-|Download=[https://github.com/melwyncarlo/MultiCopy/blob/main/MultiCopy.zip?raw=true MultiCopy.zip]
-|Links=[https://github.com/melwyncarlo/MultiCopy Github personnel- MultiCopy]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion Github FC - MultiCopy]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56753 FC Forum - MultiCopy]
+|Download=[https://wiki.freecad.org/images/7/75/MultiCopy-reduced.png Icône de la barre d'outils]
+|Links=[https://github.com/melwyncarlo/MultiCopy/blob/main/MultiCopy.zip?raw=true MultiCopy.zip]<br>[https://github.com/melwyncarlo/MultiCopy GitHub personnel - MultiCopy]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion Github FreeCAD - MultiCopy]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56753 Forum FreeCAD - MultiCopy]
 }}
 
 ## Description
@@ -17,7 +18,7 @@
 
 ![](images/MultiCopy-reduced.png )    Voici l\'icône **MultiCopy Macro**.
 
-La macro MultiCopy peut être téléchargée en utilisant le [Gestionnaire d\'addons](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
+La macro MultiCopy peut être téléchargée en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
 
 ####  Caractéristiques principales 
 
@@ -54,6 +55,8 @@ Par défaut, le terminal de commande Linux peut être lancé en appuyant simulta
 
 **Control** + **Alt** + **T**
 
+
+
 ####  Windows
 
 MultiCopy peut être installé à l\'aide des deux étapes suivantes :
@@ -64,6 +67,8 @@ MultiCopy peut être installé à l\'aide des deux étapes suivantes :
 Par défaut, le répertoire de la macro utilisateur de FreeCAD doit être situé à :
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
+
+
 
 ##  Utilisation - Méthode GUI 
 
@@ -77,9 +82,13 @@ MultiCopy peut être chargé en effectuant les étapes suivantes :
 
 Avant de charger la macro MultiCopy, sélectionnez d\'abord un ou plusieurs objets dans le doccument FreeCAD actif, puis chargez la macro. Ensuite, suivez les instructions de la boîte de dialogue, remplissez les entrées requises, et cliquez sur le bouton \'Paste\'. En cas d\'erreur ou d\'avertissement, vous en serez automatiquement informé. Si vous rencontrez une erreur inattendue, communiquez-la en mentionnant la version de FreeCAD, en retraçant les étapes suivies et en précisant si un résultat a été généré (et dans quelle mesure).
 
+
+
 ##  Utilisation - Méthode CUI (console Python) 
 
 Avant d\'exécuter l\'opération MultiCopy, sélectionnez d\'abord un ou plusieurs objets dans le document FreeCAD actif.
+
+
 
 ###  Pour lancer la boîte de dialogue GUI: 
 
@@ -89,6 +98,8 @@ import MultiCopy
 
 MultiCopy.Launch()
 ```
+
+
 
 ###  Pour effectuer l\'opération sur le terminal: 
 
@@ -131,6 +142,8 @@ Les paramètres de la commande MultiCopy sont les suivants :
                            or the document object itself.
        Default Value     : FreeCAD.ActiveDocument
 
+
+
 ####  Exemple 1: 
 
 Pour coller les objets sélectionnés dans le document actuellement actif comme une copie standard, et pour ne pas supprimer les sélections après l\'opération.
@@ -143,6 +156,8 @@ some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands)
 ```
 
+
+
 ####  Exemple 2: 
 
 Pour coller les objets sélectionnés dans un autre document comme une simple copie, et pour supprimer les sélections après l\'opération.
@@ -154,6 +169,8 @@ import MultiCopy
 some_paste_code_commands = 'from 1 to 2 :\n\t[1] = SomeName_{n#}'
 MultiCopy.Run(some_paste_code_commands, True, True, 'SomeDocumentLabel')
 ```
+
+
 
 ##  Commandes de collage de code 
 
@@ -180,6 +197,8 @@ Pendant la saisie des Commandes de code de collage dans la zone de texte de sais
 2.  **Rouge** indique que la zone de texte est en dehors de la focalisation, et que les commandes entrées par l\'utilisateur sont SYNTAXIQUEMENT INCORRECTES.
 3.  **Vert** indique que la zone de texte est hors focus et que les commandes saisies par l\'utilisateur sont SYNTAXIQUEMENT CORRECTES.
 
+
+
 ####  Exemple 1 
 
     from 1 to 3 :
@@ -201,12 +220,16 @@ Laissons le nom de l\'étiquette originale du premier objet être **Corps**. Ens
     Body-Something_2
     Body-Something_3
 
+
+
 ####  Représentation de l\'objet 
 
 Soit **i** un i-ème objet arbitraire d\'une liste supposée d\'objets sélectionnés par l\'utilisateur.
 [i] représente le **i-ième objet** sans dépendances (par défaut).
 [i|0] représente le **i-ième objet** sans dépendances (autre forme).
 [i|1] représente le **i-ième objet** AVEC des dépendances incluses.
+
+
 
 ####  Les étiquettes de numérotation 
 
@@ -225,6 +248,8 @@ Dans le cas d\'une affectation de niveau de boucle imbriquée SANS remplissage, 
 
 1.  {n#0|i1} OU
 2.  {n#|i1}
+
+
 
 ####  Exemple 2 
 
@@ -347,6 +372,8 @@ __Files__         = "MultiCopy_UI_Files/MultiCopy_Main_Dialog.ui, "\
 
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/MultiCopy/main/MultiCopy.FCMacro}}
+
+
 
 ## Liens
 

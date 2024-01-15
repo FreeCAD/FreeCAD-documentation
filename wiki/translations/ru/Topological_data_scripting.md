@@ -3,14 +3,18 @@
 
 Здесь мы объясним вам, как управлять [верстаком Part](Part_Workbench/ru.md) непосредственно из интерпретатора Python FreeCAD или из любого внешнего сценария. Основы создания сценариев топологических данных описаны в [объяснение концепции модуля Part](Part_Workbench/ru#Explaining_the_concepts.md). Обязательно просмотрите раздел [Scripting](Scripting/ru.md) и страницы [Основы скриптинга FreeCAD](FreeCAD_Scripting_Basics/ru.md), если вам нужна дополнительная информация о том, как работает python-скриптинг во FreeCAD .
 
+
+
 ### Смотрите также 
 
 -   [Part scripting](Part_scripting.md)
 -   [OpenCASCADE](OpenCASCADE.md)
 
+
+
 ## Диаграмма классов 
 
-Это обзор наиболее важных классов модуля Part через [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language): ![Классы Python, содержащиеся в модуле Part](images/Part_Classes.jpg ) {{Top}}
+Это обзор наиболее важных классов модуля Part через [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language): ![Классы Python, содержащиеся в модуле Part](images/Part_Classes.jpg ) 
 
 ### Геометрия
 
@@ -23,6 +27,8 @@
 
 
 {{Top}}
+
+
 
 ### Топология
 
@@ -47,6 +53,8 @@
 
 {{Top}}
 
+
+
 ## Примеры: Создание простейшей топологии 
 
 ![Wire](images/Wire.png )
@@ -61,6 +69,8 @@
 
 
 {{Top}}
+
+
 
 ### Создание геометрии 
 
@@ -87,6 +97,8 @@ V4 = App.Vector(0, -10, 0)
 
 {{Top}}
 
+
+
 ### Дуга
 
 ![Circle](images/Circel.png )
@@ -104,6 +116,8 @@ C2 = Part.Arc(V2, VC2, V3)
 
 {{Top}}
 
+
+
 ### Линия
 
 ![Line](images/Line.png )
@@ -118,6 +132,8 @@ L2 = Part.LineSegment(V3, V4)
 
 
 {{Top}}
+
+
 
 ### Соединяем все вместе 
 
@@ -137,6 +153,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 {{Top}}
 
+
+
 ### Создание призмы 
 
 Теперь вытягиваем ломанную по направлению и фактически получаем 3D форму:
@@ -150,6 +168,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 
 {{Top}}
 
+
+
 ### Показать всё 
 
 
@@ -159,6 +179,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 ## Создание простых фигур 
 
@@ -193,6 +215,8 @@ Part.show(b)
 
 {{Top}}
 
+
+
 ### Импорт необходимых модулей 
 
 
@@ -211,6 +235,8 @@ import Part
 
 
 {{Top}}
+
+
 
 ### Создание вектора 
 
@@ -244,6 +270,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 ### Создание ребра 
 
@@ -279,6 +307,8 @@ edge.CenterOfMass
 
 {{Top}}
 
+
+
 ### Вывод фигуры на экран 
 
 До сих пор мы создали объект ребро, но не увидели его на экране. Это связано с тем, что 3D-сцена FreeCAD отображает только то, что указано для отображения. Для этого мы используем этот простой метод:
@@ -298,6 +328,8 @@ Part.show(edge)
 
 
 {{Top}}
+
+
 
 ### Создание ломанной кривой 
 
@@ -340,6 +372,8 @@ wire2.isClosed()
 
 {{Top}}
 
+
+
 ### Создание грани 
 
 Только грани, созданные из замкнутых ломаных, будут действительными. В этом примере wire3 является замкнутой ломаной, но wire2 не является замкнутым (см. выше)
@@ -360,7 +394,7 @@ sface.isValid()
 > False
 ```
 
-Только грани имеют поверхность, а ломанные и ребра нет. {{Top}}
+Только грани имеют поверхность, а ломанные и ребра нет. 
 
 ### Создание окружности 
 
@@ -414,6 +448,8 @@ degrees = math.degrees(radians)
 
 {{Top}}
 
+
+
 ### Создать дугу по точкам 
 
 
@@ -448,7 +484,7 @@ circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-Дуги являются действительными ребрами, такими как линии, поэтому их можно использовать и в ломаных линиях. {{Top}}
+Дуги являются действительными ребрами, такими как линии, поэтому их можно использовать и в ломаных линиях. 
 
 ### Создать многоугольник (полигон) 
 
@@ -467,6 +503,8 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -495,6 +533,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 ### Создание плоскости 
 
@@ -534,6 +574,8 @@ BoundBox является параллелепипед вмещающих пло
 
 
 {{Top}}
+
+
 
 ### Создание эллипса 
 
@@ -624,6 +666,8 @@ Part.show(eli.toShape())
 
 {{Top}}
 
+
+
 ### Создание тора 
 
 
@@ -672,6 +716,8 @@ tor=Part.makeTorus(10, 5, App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0, 360, 180)
 
 {{Top}}
 
+
+
 ### Создание параллелепипеда или кубоида 
 
 
@@ -692,6 +738,8 @@ len(box.Vertexes)
 
 {{Top}}
 
+
+
 ### Создание сферы 
 
 
@@ -711,6 +759,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 
 {{Top}}
 
+
+
 ### Создание цилиндра 
 
 
@@ -729,6 +779,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 
 {{Top}}
+
+
 
 ### Cоздание конуса 
 
@@ -828,7 +880,11 @@ myShape=myShape.transformGeometry(myMat)
 
 {{Top}}
 
+
+
 ## Булевы Операции 
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -853,6 +909,8 @@ diff = cylinder.cut(sphere)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Как получить пересечение двух форм? 
@@ -875,6 +933,8 @@ common = cylinder1.common(cylinder2)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Как объединить две формы? 
@@ -895,6 +955,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -923,6 +985,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -959,6 +1023,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -999,6 +1065,8 @@ v.Point
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1043,6 +1111,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1097,6 +1167,8 @@ print("Length of the selected edges: ", length)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Полный пример: бутыль OCC 
@@ -1118,6 +1190,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1181,6 +1255,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 ### Подробные объяснения 
 
@@ -1379,6 +1455,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 ## Загрузка и Сохранение 
 

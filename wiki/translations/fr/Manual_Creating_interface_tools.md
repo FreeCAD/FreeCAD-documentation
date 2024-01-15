@@ -1,5 +1,5 @@
 # Manual:Creating interface tools/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 Dans les deux derniers chapitres, nous avons vu comment créer la géométrie Part ([Création et manipulation de la géométrie](Manual:Creating_and_manipulating_geometry/fr.md)) et créer des objets paramétriques ([Création d\'objets paramétriques](Manual:Creating_parametric_objects/fr.md)). Une dernière pièce manque pour avoir un contrôle total sur FreeCAD: créer des outils qui interagiront avec l\'utilisateur.
 

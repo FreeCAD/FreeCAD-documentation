@@ -17,16 +17,16 @@
 
 ## Описание
 
-Creates a FEM constraint for a prescribed displacement of a selected object for a specified degree of freedom.
+Creates a FEM boundary condition for a prescribed displacement of a selected object for specified degrees of freedom.
 
 
 
 ## Применение
 
-1.  Either press the button **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> '''FEM FEM_ConstraintDisplacement'''** or select the menu **Model → Mechanical Constraints → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Constraint displacement**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a vertex (corner), edge, or face.
+1.  Press the **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Displacement boundary condition](FEM_ConstraintDisplacement.md)** button or select the menu **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Displacement boundary condition**.
+2.  In the [3D view](3D_view.md) select the object the boundary condition should be applied to, which can be a vertex (corner), edge, or face.
 3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for edition.
+4.  Uncheck *Unspecified* to activate the necessary fields for editing.
 5.  Set the values or (<small>(v0.21)</small> ) specify a formula for the displacements.
 
 ## Formulas
@@ -55,7 +55,7 @@ This code has the following syntax:
 
 ### Rotations
 
-Elmer only uses the **Displacement \*** fields of the constraint. To define rotations, we need a formula.
+Elmer only uses the **Displacement \*** fields of the boundary condition. To define rotations, we need a formula.
 
 If for example a face should be rotated according to this condition:
 
@@ -83,7 +83,7 @@ This code has the following syntax:
 
 For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [solver CalculiX](FEM_SolverCalculixCxxtools.md):
 
--   The constraint uses the \*BOUNDARY card.
+-   This tool uses the \*BOUNDARY card.
 -   Fixing a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
 -   Prescribing a displacement for a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 

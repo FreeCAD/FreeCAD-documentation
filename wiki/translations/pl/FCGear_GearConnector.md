@@ -1,35 +1,46 @@
 ---
  GuiCommand:
    Name: FCGear GearConnector
-   MenuLocation: Gear , Combine two gears
-   Workbenches: FCGear_Workbench
-   Shortcut: None
-   Version: 1.0
+   Name/pl: FCGear: Połączenie zębatek
+   MenuLocation: Gear , Połączenie zębatek
+   Workbenches: FCGear_Workbench/pl
+   Shortcut: Brak
+   Version: 0.22
    SeeAlso: 
 ---
 
 # FCGear GearConnector/pl
 
+
+
 ## Opis
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  Select two elements of matching teeth (See [Notes](#Notes.md)):
-    -   The first must be a spur gear or an internal gear.
-    -   The second can be a spur gear, or a rack
-3.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_GearConnector.svg style="width:16px"> [Combine two gears](FCGear_GearConnector.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_GearConnector.svg style="width:16px"> Combine two gears** option from the menu.
-4.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Użycie
 
-## Notes
+1.  Przełącz się do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Wybierz dwa elementy o pasujących zębach *(patrz [Uwagi](#Uwagi.md))*:
+    -   Pierwszy musi być kołem zębatym czołowym lub wewnętrznym.
+    -   Drugi może być kołem zębatym czołowym lub listwą zębatą
+3.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **[<img src=images/FCGear_GearConnector.svg style="width:16px"> '''Połączenie zębatek'''** na pasku narzędzi.
+    -   Wybierz opcję z menu **Gear → [<img src=images/FCGear_GearConnector.svg style="width:16px"> Połączenie zębatek**.
+4.  Zmodyfikuj parametr koła zębatego na wymagane jeśli jest to niezbędne *(patrz [Właściwości](#Właściwości.md))*.
 
-The selection order determines whether the second element can roll around the first element when the property **angle1** is changed.
 
-## Scripting
+
+## Właściwości
+
+
+
+## Uwagi
+
+Kolejność wyboru określa, czy drugi element może obracać się wokół pierwszego elementu, gdy zmieniana jest właściwość **angle1**.
+
+
+
+## Tworzenie skryptów
 
 
 

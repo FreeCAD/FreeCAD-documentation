@@ -1,132 +1,149 @@
 ---
  GuiCommand:
    Name: FEM EquationElasticity
-   MenuLocation: Solve , Mechanical equations , Elasticity equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie elastyczności
+   MenuLocation: Rozwiąż , Równania mechaniczne , Równanie elastyczności
+   Workbenches: FEM_Workbench/pl
    Version: 0.17
-   SeeAlso: FEM_EquationDeformation, FEM_tutorial
+   SeeAlso: FEM_EquationDeformation/pl, FEM_tutorial/pl
 ---
 
 # FEM EquationElasticity/pl
 
-## Description
 
-This equation describes the mechanical properties of rigid bodies.
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Linear Elasticity*.
+## Opis
 
-## Usage
+To równanie opisuje właściwości mechaniczne ciał stałych.
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> or the menu **Solve → Mechanical equations → Elasticity equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Linear Elasticity** *(liniowa sprężystość)*.
 
-**Note**: For analyses of nonlinear deformation you must use the <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md) (<small>(v0.21)</small> ). The Elasticity equation is only for linear deformations.
 
-**Note**: If you use more than one CPU core for the solver (<small>(v0.21)</small> ), you cannot use the default solver settings. However, using just one CPU and the default solver settings is in many cases faster than using several CPUs because the elasticity solver is only fast when **Linear Solver Type** is set to *Direct* (the default, described [here](FEM_SolverElmer_SolverSettings#Linear_System.md)). For multi-CPU solving one can only use the **Linear Direct Method** *MUMPS*. However, MUMPS is not freely available as a direct download.
 
-## Solver Settings 
+## Użycie
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+1.  Po dodaniu solvera ELmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationElasticity.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania mechaniczne → Równanie elastyczności** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-The elasticity equation provides these special settings:
+**Uwaga**: Do analiz z nieliniową sprężystością musisz skorzystać z <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [równania deformacji](FEM_EquationDeformation/pl.md) *({{Version/pl|0.21}})*. Równanie elastyczności służy tylko do liniowej sprężystości.
 
--    **Calculate Pangle**: If the principal angles should be calculated.
+**Uwaga**: Jeśli używasz więcej niż jednego rdzenia procesora dla solvera *({{Version/pl|0.21}})*, nie możesz korzystać z domyślnych ustawień solvera. Używanie tylko jednego rdzenia i domyślnych ustawień solvera jest często szybsze niż używanie wielu rdzeni, ponieważ solver elastyczności jest szybki tylko gdy właściwość **Linear Solver Type** jest ustawiona na *Direct* *(domyślne ustawienie, opisane [tutaj](FEM_SolverElmer_SolverSettings/pl#Układ_liniowy.md))*. Do obliczeń na wielu rdzeniach można używać tylko właściwości **Linear Direct Method** ustawionej na *MUMPS*. Jednak MUMPS nie jest dostępne za darmo do bezpośredniego pobrania.
 
--    **Calculate Principal**: If all stresses should be calculated.
 
--    **Calculate Strains**: If strains will be calculated. This will also calculate the stresses, even if **Calculate Principal** or **Calculate Stresses** is *false*.
 
--    **Calculate Stresses**: If stresses should be calculated. Compared to **Calculate Principal** the Tresca yield criterion and the principal stress will not be calculated.
+## Ustawienia solvera 
 
--    **Constant Bulk System**: See the Elmer manual for more info.
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
--    **Displace Mesh**: If mesh can be deformed. This is by default *true* and must be set to *false* for eigenfrequency analyses.
+Równanie elastyczności posiada następujące specjalne ustawienia:
 
--    **Fix Displacement**: If displacements or forces are set. thereby **Model Lumping** is automatically used.
+-    **Calculate Pangle**: Czy kąty główne mają być wyznaczone.
 
--    **Geometric Stiffness**: Considers the geometric stiffness of the body.
+-    **Calculate Principal**: Czy wszystkie naprężenia mają być wyznaczone.
 
--    **Incompressible**: Computation of incompressible material in connection with viscoelastic Maxwell material and a custom **Variable**.
+-    **Calculate Strains**: Czy odkształcenia mają być wyznaczone. Wyznaczy też naprężenia, nawet jeśli **Calculate Principal** lub **Calculate Stresses** jest ustawione na {{false/pl}}.
 
--    **Maxwell Material**: Compute the viscoelastic material model.
+-    **Calculate Stresses**: Czy naprężenia mają być wyznaczone. W porównaniu z **Calculate Principal**, naprężenia zredukowane wg kryterium Tresci i naprężenia główne nie zostaną wyznaczone.
 
--    **Model Lumping**: Uses [model lumping](https://en.wikipedia.org/wiki/Lumped-element_model).
+-    **Constant Bulk System**: Zobacz instrukcję Elmera aby uzyskać więcej informacji.
 
--    **Model Lumping Filename**: File to save the results from the model lumping.
+-    **Displace Mesh**: Czy siatka może być zdeformowana. Domyślnie jest to ustawione na {{true/pl}} i musi być zmienione na {{false/pl}} do analiz częstotliwości drgań własnych.
 
--    **Stability Analysis**: If *true* **Eigen Analysis** becomes a stability analysis (buckling analysis). Otherwise a modal analysis is performed.
+-    **Fix Displacement**: Czy przemieszczenia lub siły są ustawione. Tym samym **Model Lumping** jest automatycznie używane.
 
--    **Update Transient System**: See the Elmer manual for more info.
+-    **Geometric Stiffness**: Uwzględnia sztywność geometryczną ciała.
 
--    **Variable**: The variable for the elasticity equation. Only change this if **Incompressible** is set to *true* in accordance to the Elmer manual.
+-    **Incompressible**: Obliczanie materiału nieściśliwego w połączeniu z modelem lepkosprężystym Maxwella i niestandardową wartością **Variable**.
 
-Eigenvalues:
+-    **Maxwell Material**: Oblicza lepkosprężysty model materiału.
 
--    **Eigen Analysis**: If an eigen analysis should be performed (calculation of eigenmodes and eigenfrequencies).
+-    **Model Lumping**: Korzysta z [modelu jednowymiarowego](https://en.wikipedia.org/wiki/Lumped-element_model).
 
--    **Eigen System Complex**: Should be *true* if the eigen system is complex. it must be *false* for a damped eigen value analyses.
+-    **Model Lumping Filename**: Plik do zapisu wyników z modelu jednowymiarowego.
 
--    **Eigen System Compute Residuals**: Computes residuals of the eigen value system.
+-    **Stability Analysis**: Jeśli ta właściwość ma wartość {{true/pl}} to **Eigen Analysis** staje się analizą stateczności (wyboczenia). W innym wypadku przeprowadzana jest analiza modalna (częstotliwości drgań własnych).
 
--    **Eigen System Damped**: Set a damped eigen analysis. Can only be used if **[Linear Solver Type](FEM_SolverElmer_SolverSettings#Linear_System.md)** is *Iterative*.
+-    **Update Transient System**: Zobacz instrukcję solvera Elmer aby uzyskać więcej informacji.
 
--    **Eigen System Select**: Selection of which eigenvalues are computed. Note that the selection of *Largest\** cause an infinite run for recent Elmer solver (as of August 2022).
+-    **Variable**: Zmienna dla równania elastyczności. Należy to zmieniać tylko jeśli właściwość **Incompressible** jest ustawiona na {{true/pl}} zgodnie z dokumentacją Elmera.
 
--    **Eigen System Tolerance**: Convergence tolerance for iterative eigensystem solve. The default is 100 times the **[Linear Tolerance](FEM_SolverElmer_SolverSettings#Linear_System.md)**.
+Wartości własne:
 
--    **Eigen System Values**: The number of the highest eigenmode that should be calculated.
+-    **Eigen Analysis**: Czy analiza problemu własnego ma być przeprowadzona (wyznaczanie postaci i częstotliwości drgań własnych).
 
-Equation:
+-    **Eigen System Complex**: Ta właściwość powinna być ustawiona na {{true/pl}} jeśli układ własny jest zespolony. Musi być ustawiona na {{false/pl}} dla analiz drgań własnych z tłumieniem.
 
--    **Plane Stress**: Computes solution according to the plane stress situation. Applies only for 2D geometry.
+-    **Eigen System Compute Residuals**: Oblicza residua układu wartości własnych.
 
-## Constraint Information 
+-    **Eigen System Damped**: Ustawia tłumioną analizę drgań własnych. Może być używane tylko gdy właściwość **[Linear Solver Type](FEM_SolverElmer_SolverSettings/pl#Układ_liniowy.md)** jest ustawiona na *Iterative*.
 
-The elasticity equation takes the following constraints into account if they are set:
+-    **Eigen System Select**: Wybór które wartości własne mają być wyznaczone. Zauważ, że wybór *Largest\** *(najwyższe)* powoduje, że analiza trwa w nieskończoność *(aktualne w sierpniu 2022 r.)*.
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md)
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md)
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md)
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md)
+-    **Eigen System Tolerance**: Tolerancja zbieżności dla solvera iteracyjnego układu własnego. Domyślna wartość to 100 razy **[Linear Tolerance](FEM_SolverElmer_SolverSettings/pl#Układ_liniowy.md)**.
 
-### Note
+-    **Eigen System Values**: Numer najwyższej postaci drgań własnych jaka ma być wyznaczona.
 
--   Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+Równanie:
 
-## Eigenmode Analysis 
+-    **Plane Stress**: Wyznacza rozwiązanie zgodnie z teorią płaskiego stanu naprężeń. Stosowane tylko do geometrii 2D.
 
-To perform an eigenmode analysis (calculation if the eigenmodes and eigenfrequencies), you need to
 
-1.  Set **Eigen Analysis**: to *true*
-2.  Set **Displace Mesh**: to *false*
-3.  Set **Eigen System Values**: to the highest number of eigenmodes you are interested in. The smaller this number the shorter the solver runtime since higher modes can be omitted from computation.
-4.  Add a [constraint fixed](FEM_ConstraintFixed.md) and set at least one face of the body as fixed.
-5.  Run the solver.
 
-It is highly recommended to use **Linear Solver Type** set to *Direct* (the default) because this is much faster and the results are more accurate.
+## Informacje o cechach analizy 
 
-## Buckling Analysis 
+Równanie elastyczności uwzględnia następujące cechy analizy jeśli są zdefiniowane:
 
-To perform a buckling analysis, you need to do the same as for an [Eigenmode Analysis](#Eigenmode_Analysis.md), and additionally:
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md)
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md)
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Obciążenie siłą](FEM_ConstraintForce/pl.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Warunek początkowy temperatury](FEM_ConstraintInitialTemperature/pl.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md)
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Obciążenie grawitacją](FEM_ConstraintSelfWeight/pl.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Sprężyna](FEM_ConstraintSpring/pl.md)
 
--   Set **Stability Analysis** to *true*
 
-## Results
 
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the displacement is calculated. Otherwise also the corresponding results will be available. If **Eigen Analysis** was set to *true* all results will be available for every calculated eigenmode.
+### Uwaga
 
-If **Eigen Analysis** was set to *true*, the eigenfrequencies are output at the end of the solver log in the solver dialog and also in the document **SolverElmerOutput** that will be created in the tree view after the solver has finished.
+-   Oprócz analiz 2D, dla wszystkich cech analizy istotne jest żeby były zdefiniowane dla ścian. Cechy w 3D przypisane do linii i wierzchołków nie są rozpoznawane przez solver Elmer.
 
-**Note:** The eigenmode displacement $\vec{d}$ vector has an arbitrary value since the result is
+
+
+## Analiza drgań własnych 
+
+Aby przeprowadzić analizę drgań własnych *(wyznaczanie postaci i częstotliwości drgań własnych)* należy:
+
+1.  Ustawić **Eigen Analysis** na {{true/pl}}.
+2.  Ustawić **Displace Mesh** na {{false/pl}}.
+3.  Ustawić **Eigen System Values** na najwyższy numer postaci drgań własnych jaką chcesz uzyskać. Im mniejsza ta liczba, tym szybsze obliczenia, ponieważ wyższe postaci drgań własnych mogą być pominięte.
+4.  Dodać [warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md) i ustawić przynajmniej jedną ścianę ciała jako utwierdzoną.
+5.  Uruchomić solver.
+
+Wysoce zalecane jest ustawianie **Linear Solver Type** na *Direct* *(domyślne)*, ponieważ przyspiesza to znacząco obliczenia i zwiększa dokładność wyników.
+
+
+
+## Analiza wyboczenia 
+
+Aby przeprowadzić liniową analizę wyboczeniową należy zrobić to samo co w przypadku [Analizy drgań własnych](#Analiza_drgań_własnych.md) i dodatkowo:
+
+-   Ustawić **Stability Analysis** na {{true/pl}}
+
+
+
+## Wyniki
+
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczone zostaną tylko przemieszczenia. W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki. Jeśli właściwość **Eigen Analysis** została ustawiona na {{true/pl}} to wszystkie wyniki będą dostępne dla każdej obliczonej postaci drgań własnych.
+
+Jeśli właściwość **Eigen Analysis** została ustawiona na {{true/pl}} to częstotliwości drgań własnych będą zapisane na końcu dziennika solvera w jego oknie dialogowym i w dokumencie **SolverElmerOutput**, który zostanie utworzony w widoku drzewa po zakończeniu pracy solvera.
+
+**Uwaga:** Wektor przemieszczenia postaci własnej $\vec{d}$ ma niefizyczną wartość, ponieważ wynik jest
 
 $\quad
 \vec{d} = c\cdot\vec{u}$
 
-whereas $\vec{u}$ is the eigenvector and $c$ is a complex number.
+podczas gdy $\vec{u}$ jest wektorem własnym zaś $c$ jest liczbą zespoloną.
 
 
 

@@ -69,7 +69,7 @@ Si vous testez, placez-le dans votre répertoire de macros. S\'il fonctionne bie
 
 ## Autres post-processeurs existants 
 
-A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fournis avec votre installation de FreeCAD. Ils sont situés dans le répertoire /Mod/Path/PathScripts/post. Les postprocesseurs [linuxcnc](http://linuxcnc.org/) et [grbl](https://github.com/grbl/grbl) sont très utilisés. L\'étude de leur code peut donner des indications utiles.
+A titre de comparaison, vous pouvez regarder les post-processeurs qui sont fournis avec votre installation de FreeCAD. Ils sont situés dans le répertoire /Mod/Path/Path/Post/scripts. Les postprocesseurs [linuxcnc](http://linuxcnc.org/) et [grbl](https://github.com/grbl/grbl) sont très utilisés. L\'étude de leur code peut donner des indications utiles.
 
 
 

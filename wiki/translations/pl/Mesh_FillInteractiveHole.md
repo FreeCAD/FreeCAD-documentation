@@ -9,14 +9,18 @@
 
 # Mesh FillInteractiveHole/pl
 
+
+
 ## Opis
 
 Polecenie **Zamknij otwór** wypełnia wybrane otwory w obiektach siatkowych.
 
+
+
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> [Zamknij otwór](Mesh_FillInteractiveHole/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_FillInteractiveHole.svg" width=16px> '''Zamknij otwór'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Zamknij otwór**.
 2.  Kursor zmienia wygląd na ikonę trójkąta.
 3.  Wybierz ścianę, która ma wspólną krawędź z otworem, który chcesz zamknąć.
@@ -24,6 +28,8 @@ Polecenie **Zamknij otwór** wypełnia wybrane otwory w obiektach siatkowych.
 5.  Opcjonalnie powtórz to, aby zamknąć kolejne otwory.
 6.  W razie potrzeby możesz użyć [Cofnij](Std_Undo/pl.md) aby cofnąć ostatnie działanie polecenia.
 7.  Wybierz opcję **Opuść tryb wypełnienie otworu** z menu kontekstowego okna [widoku 3D](3D_view/pl.md), aby zakończyć polecenie.
+
+
 
 ## Uwagi
 

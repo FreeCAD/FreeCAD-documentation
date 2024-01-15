@@ -14,7 +14,7 @@
 
 ## 설명
 
-**표준 등각투영(Std ViewIsometric)** 명령은 [3D 보기의](3D_view/ko.md) 카메라를 재조정하여 등각투영([isometric](https://en.wikipedia.org/wiki/Isometric_projection)) 보기 각도로 전환합니다. 진정한 등각투영(isometric) 보기를 하려면 3D 보기가 [직교투영(orthographic) 모드이어야](Std_OrthographicCamera/ko.md) 하지만 이 명령은 [원근투영(perspective) 모드일](Std_PerspectiveCamera/ko.md) 때도 작동합니다.
+**표준 등각투영(Std ViewIsometric)** 명령은 [3D 보기](3D_view/ko.md)의 카메라를 재조정하여 등각투영([isometric](https://en.wikipedia.org/wiki/Isometric_projection)) 보기 각도로 전환합니다. 진정한 등각투영(isometric) 보기를 하려면 3D 보기가 [직교투영(orthographic) 모드](Std_OrthographicCamera/ko.md)이어야 하지만 이 명령은 [원근투영(perspective) 모드](Std_PerspectiveCamera/ko.md)일 때도 작동합니다.
 
 ![](images/Std_ViewIsometric_example.svg ) 
 *등각투영(isometric) 일 때 [좌표축](Std_AxisCross/ko.md)과 육면체*
@@ -35,7 +35,7 @@
 
     -   메뉴에서 **보기 → 표준 보기 → Axonometric → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** 옵션을 선택합니다.
 
-    -   [3D 보기의](3D_view/ko.md) 상황에 맞는 메뉴에서 **표준 보기 → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** 옵션을 선택합니다.
+    -   [3D 보기](3D_view/ko.md)의 상황에 맞는 메뉴에서 **표준 보기 → <img src="images/Std_ViewIsometric.svg" width=16px> Isometric** 옵션을 선택합니다.
 
     -   단축키를 사용합니다: **0**.
 

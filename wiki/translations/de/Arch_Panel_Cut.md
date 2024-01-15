@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Panel Cut
-   Name/de: Arch Tafelschnitt
-   MenuLocation: Arch , Panel-Werkzeuge , Tafelschnitt
+   Name/de: Arch Plattenzuschnitt
+   MenuLocation: Arch , Plattenwerkzeuge , Plattenzuschnitt
    Workbenches: Arch_Workbench,Path_Workbench/de
    Shortcut: **P** **C**
    Version: 0.17
@@ -12,78 +12,62 @@
 # Arch Panel Cut/de
 
 
-</div>
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Tafel Platte](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Tafelschnitt-Objekte werden auch durch den [Path-Arbeitsbereich](Path_Workbench/de.md) unterstützt.
+Dieses Werkzeug erstellt im 3D-Dokument eine ebene 2D-Ansicht einer [Arch Platte](Arch_Panel/de.md), die in eine [Arch Plattenzeichnung](Arch_Panel_Sheet/de.md) eingefügt oder direkt nach [DXF](Draft_DXF/de.md) exportiert wird. Die Plattenzuschnitt-Objekte werden auch durch den Arbeitsbereich [Path](Path_Workbench/de.md) unterstützt.
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
+
+
 ## Anwendung
 
-1.  Wähle ein oder mehrere [Arch Tafel](Arch_Panel/de.md) Objekte aus.
-2.  Drücke die **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Tafelschnitt](Arch_Panel_Cut/de.md)** Schaltfläche, oder drücke die **P** dann **C** Tasten.
-3.  Passe die gewünschten Eigenschaften an.
+1.  Ein oder mehrere [Arch Platten](Arch_Panel/de.md)-Objekte auswählen.
+2.  Die Schaltfläche **<img src="images/Arch_Panel_Cut.svg" width=16px> [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md)** drücken, oder das Tastaturkürzel **P** dann **C**.
+3.  Die gewünschten Eigenschaften anpassen.
+
+
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Falls die Platte nicht flach ist (z.B. gewellt), wird die Wölbung nicht im Tafelschnitt erscheinen. Dieses Werkzeug ist hauptsächlich für flache Platten geeignet.
--   Der Tafelschnitt kann eine Markierung anzeigen. Diese Markierung kann ein benutzerdefinierte Textzeile sein oder automatisch Tag, Label oder Description der verbundenen Platte anzeigen.
--   Um nützlich bei CNC-Verarbeitung zu sein, sollte die Markierung in einer einfachen (?,\"sticky\") Schriftart sein, in der Zeichen einfache Polylinien sind, denen die Maschine einfach folgen kann. Bei der Erstellung wird das Tafelschnitt-Objekt automatisch die Schriftart nutzen, die in Bearbeiten → Einstellungen → Draft → Texte und Bemaßungen → Standardschriftart für Textformen angegeben ist
--   Doppelklicken des Tafelschnitts in der Baumansicht nach der Erstellung aktiviert den Änderungsmodus und ermöglicht die Änderung der Position der Markierung
--   Wenn du verschiedene Tafelschnitte anordnen musst, kann Tafelschnitt einen Rand anzeigen, der hilfreich ist, um zu prüfen, ob genug Platz zwischen den einzelnen Schnitten ist
+-   Falls die Platte nicht eben ist (z.B. gewellt), wird die Wölbung nicht im Plattenzuschnitt erscheinen. Dieses Werkzeug ist hauptsächlich für ebene Platten geeignet.
+-   Der Plattenzuschnitt kann eine Beschriftung anzeigen. Diese Beschriftung kann eine benutzerdefinierte Textzeile sein oder automatisch die Beschriftung, Benennung oder Beschreibung seiner verknüpften Platte anzeigen.
+-   Für eine CNC-Verarbeitung sollte die Beschriftung in einer einfachen Linien-Schriftart sein, in der die Zeichen einfache Polylinien sind, denen eine Maschine einfach folgen kann. Bei der Erstellung wird das Plattenzuschnitt-Objekt automatisch die Schriftart nutzen, die in Bearbeiten → Einstellungen → Draft → Texte und Bemaßungen → Standardschriftart für Textformen angegeben ist
+-   Doppelklicken des Plattenzuschnitts in der Baumansicht nach der Erstellung aktiviert den Änderungsmodus und ermöglicht die Änderung der Position der Beschriftung
+-   Sollen verschiedene Plattenzuschnitte angeordnet werden, kann Plattenzuschnitt einen Rand anzeigen, der hilft zu prüfen, ob genug Platz zwischen den einzelnen Zuschnitten ist
 
 
-</div>
 
 ## Eigenschaften
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
--    **Source**: Das von diesem Schnitt gezeigte [Arch Platte](Arch_Panel/de.md)-Objekt
+-    **Source**: Das von diesem Zuschnitt gezeigte [Arch Platten](Arch_Panel/de.md)-Objekt.
 
--    **Tag Text**: Der anzuzeigende Text. Kann %tag%, %label% oder %description% sein, um die entsprechenden Informationen der Platte anzuzeigen
+-    **Tag Text**: Der anzuzeigende Text. Kann %tag%, %label% oder %description% sein, um die entsprechenden Informationen der Platte anzuzeigen.
 
--    **Tag Size**: Die Größe des Markierungstextes
+-    **Tag Size**: Die Größe des Beschriftungstextes.
 
--    **Tag Position**: Die Position des Markierungstextes, (0,0,0) für automatische Mittenposition
+-    **Tag Position**: Die Position des Beschriftungstextes, (0,0,0) für automatische Mittenposition.
 
--    **Tag Rotation**: Die Drehung des Textes
+-    **Tag Rotation**: Die Drehung des Textes.
 
--    **Font File**: Die Schriftart der Markierung
+-    **Font File**: Die Schriftart der Beschriftung.
 
--    **Make Face**: Falls {{Incode|True}} ist die Platte eine Fläche, anderenfalls ein Linienzug
-
-
-</div>
-
-### View
+-    **Make Face**: Falls {{Incode|True}} ist die Platte eine Part-Fläche, anderenfalls ein Part-Linienzug.
 
 
-<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
--    **Margin**: Ein Rand kann außerhalb der Tafelschnittform betrachtet werden
+-    **Margin**: Ein Rand, der um die Form des Plattenzuschnitts herum angezeigt wird.
 
--    **Show Margin**: Schaltet die Anzeige des Rands ein/aus
-
-
-</div>
-
-## Scripting
+-    **Show Margin**: Schaltet die Anzeige des Randes ein bzw. aus
 
 
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -92,14 +76,11 @@ Dieses Werkzeug erstellt im 3D-Dokuemnt eine flache 2D-Ansicht einer [Arch Platt
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-Das Tafelschnittwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden: 
+Das Werkzeug Plattenzuschnitt kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 View = makePanelCut(panel, name="PanelView")```
 
--   Erstellt ein `View`-Objekt (2D-Projektion) aus dem existierenden `panel`.
+-   Erstellt ein `View`-Objekt (2D-Projektion) aus dem existierenden (Plattenobjekt) `panel`.
 
 Beispiel: 
 ```python
@@ -127,6 +108,8 @@ View = Arch.makePanelCut(Panel)
 View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
 
 ## Tutorien
 

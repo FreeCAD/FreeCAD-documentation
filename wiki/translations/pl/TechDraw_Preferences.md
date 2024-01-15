@@ -33,6 +33,9 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 -   **Grupa kąt projekcji**: [Grupa rzutów](TechDraw_ProjectionGroup/pl.md) będzie używać projekcji pierwszego *(standard europejski)* lub trzeciego *(standard amerykański)* kąta. Wyjaśnienie znajduje się na stronie [rzut wielu widoków](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews).
 -   **Ukryta linia**: Styl *(ciągła, przerywana, itp.)* do zastosowania w ukrytych liniach.
+-   **Wybór linii przekroju**: Standard dla linii sekcji, który kontroluje pozycję strzałek i symboli ({{Version/pl|0.22}}). Dostępne opcje to:
+    -   *ANSI*
+    -   *ISO*
 
 
 
@@ -52,6 +55,12 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 -   **Pokaż siatkę**: Domyślne ustawienie pokazywania siatki dla nowych stron. {{Version/pl|0.20}}
 -   **Odstępy między liniami siatki**: Domyślna odległość między liniami siatki dla nowych stron. {{Version/pl|0.20}}
+
+
+
+### Wybieranie
+
+-   **Włącz tryb wielokrotnego wyboru**: Jeśli funkcja ta jest włączona, kliknięcie bez **Ctrl** nie usuwa istniejącego zaznaczenia. {{Version/pl|0.22}}
 
 
 
@@ -111,25 +120,40 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 <img alt="Preferencje adnotacji" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
 
--   **Standard linii przekroju**: Wzorzec używany do rysowania linii przekroju w [widoku przekroju](TechDraw_SectionView/pl.md).
--   **Styl linii przekroju**: Styl dla linii przekroju.
--   **Znaki linii przekrojów złożonych**: Pokaż znaki przy zmianach kierunku na liniach [przekroju złożonego](TechDraw_ComplexSection/pl.md). {{Version/pl|0.21}}
+
+
+### Adnotacja
+
 -   **Powierzchnia cięcia przekroju**: Styl dla powierzchni cięcia przekroju. Dostępne są następujące opcje:
     -   *Ukryj*: Nie ma żadnej widocznej powierzchni.
     -   *Barwa bryły*: Obszar otrzymuje zestaw kolorów dla **Powierzchni przekroju**.
     -   *Kreskowanie SVG*: Powierzchnia jest [zakreskowana](TechDraw_Hatch/pl.md).
     -   *Kreskowanie PAT*: Powierzchnia jest [zakreskowana geometrycznie](TechDraw_GeometricHatch/pl.md).
--   **Grupa szerokości linii**: Narzędzie [LineGroup](TechDraw_LineGroup/pl.md) służy do ustawiania domyślnej szerokości linii.
--   **Kształt konturu widoku szczegółu**: Kształt zarysu dla [widoku szczegółu](TechDraw_DetailView/pl.md).
--   **Styl wybranego detalu**: Styl linii kształtu konturu dla [widoku szczegółów](TechDraw_DetailView/pl.md).
--   **Styl linii osi**: Domyślny styl dla [linii osi obiektu](TechDraw_FaceCenterLine/pl.md).
--   **Kształt dymka**: Styl domyślny dla [adnotacji w dymku](TechDraw_Balloon/pl.md).
+-   **Znaczniki linii przekroju złożonego**: Pokaż znaki przy zmianach kierunku na liniach [przekroju złożonego](TechDraw_ComplexSection/pl.md). {{Version/pl|0.21}}
+-   **Kształt konturu dla widoku szczegółów**: Kształt konturu dla [widoków szczegółów](TechDraw_DetailView.md). Dostępne opcje to:
+    -   *Okrąg*
+    -   *Kwadrat*
+-   **Widok szczegółów pokazuje dopasowanie**: To pole wyboru kontroluje, czy wokół widoku szczegółowego ma być wyświetlany kontur. {{Wersja/pl|0.22}}.
+-   **Pokaż podświetlenie źródła szczegółów**: To pole wyboru określa, czy wokół obszaru szczegółu w widoku źródłowym szczegółu ma być wyświetlane podświetlenie. {{Version/pl|0.22}}.
+-   **Kształt dymka**: Domyślny styl zakończenia linii prowadzącej dymka, patrz [właściwości dymka](TechDraw_Balloon/pl#Właściwości.md).
 -   **Koniec linii prowadzącej balonika**: Domyślny styl końców linii prowadzącej balonika.
--   **Długość zagięcia linii wiodącej balon**: Długość zagięcia linii prowadzącej balon.
+-   **Długość zagięcia linii dymka**: Długość zagięcia linii prowadzącej balon.
 -   **Trójkąt prostokątny balonika**: Jeśli *Zakończenie linii odniesienia balonika* ma postać *wypełnionego trójkąta*, trójkąt może uzyskać kierunek pionowy lub poziomy podczas przesuwania balonika.
 -   **Automatyczne poziomowanie linii wiodącej**: Wymusza, aby ostatni segment [linii wiodącej](TechDraw_LeaderLine/pl.md) był poziomy.
 -   **Pokaż znaki środka**: Umieszczaj znaki środka łuku w widoku.
 -   **Drukuj znaki środka**: Umieszczaj znaki środka łuku na wydruku.
+
+
+
+### Linie
+
+-   **Standard linii**: Standard używany do rysowania linii przekroju w [widoku przekroju](TechDraw_SectionView/pl.md).
+-   **Szerokość linii w grupie**: [LineGroup](TechDraw_LineGroup/pl.md) do ustawiania domyślnych szerokości linii.
+-   **Styl ukrytej linii**: Styl ukrytych linii. {{Version/pl|0.22}}.
+-   **Styl linii przekroju**: Styl linii sekcji.
+-   **Styl podświetlenia szczegółu**: Styl linii kształtu konturu dla [widoki szczegółów](TechDraw_DetailView/pl.md).
+-   **Styl linii środkowej**: Domyślny styl dla [linii środkowych](TechDraw_FaceCenterLine/pl.md).
+-   **Kształt elementu zakończenia linii**: Domyślny *(okrągły)* powinien być prawie zawsze właściwym wyborem. Płaskie lub kwadratowe nakładki są przydatne, jeśli planujesz użyć rysunku jako prowadnicy cięcia 1:1
 
 
 
@@ -147,6 +171,7 @@ Ustawienie domyślnych kolorów dla nowo utworzonych stron:
 -   **Linia środka**: Kolor dla [linii środkowych](TechDraw_FaceCenterLine/pl.md).
 -   **Podświetlenie szczegółu**: Kolor linii dla konturów [widoku szczegółu](TechDraw_DetailView/pl.md).
 -   **Kolor siatki**: Kolor wszystkich siatek na stronie. {{Version/pl|0.20}}
+-   **Szablon podkreślenia**: Kolor podkreślenia oznaczającego edytowalne teksty w szablonach. <small>(v0.22)</small> .
 -   **Ukryta linia**: Kolor ukrytej linii. Kolor ten będzie używany do wszystkich rodzajów [ukrytych linii](#HLR_Parameters.md).
 -   **Powierzchnia przekroju**: Kolor dla powierzchni przecięcia w [widoku przekroju](TechDraw_SectionView/pl.md). Stosuje się tylko wtedy, gdy opcja *Section Cut Surface* jest ustawiona na *Solid Color*.
 -   **Linia przekroju**: Kolor dla linii ciecia w [widoku przekroju](TechDraw_SectionView/pl.md).
@@ -186,10 +211,8 @@ HLR oznacza \"usunięcie ukrytej linii\".
 -   **Automatyczna korekcja odniesień wymiarów**: Jeśli opcja ta jest zaznaczona, po zmianie modelu podejmowana jest próba aktualizacji odniesień wymiarów. {{Version/pl|0.21}}
 -   **Pokaż krawędzie przekroju**: Zaznacza granicę przekroju wyciętego w funkcji [wygląd przekroju](TechDraw_SectionView/pl.md).
 -   *Bezpiecznik przed przekrojem*: Wykonuje operację z użyciem bezpiecznika na kształcie wejściowym przed przetwarzaniem widoku przekroju.
--   **Pokaż luźne Geometrie 2D**: Zawiera obiekty 2D w rzutach, np. luźne szkice.
 -   **Obszar krawędzi**: Rozmiar obszaru zaznaczenia wokół krawędzi. Jednostka rozmycia wynosi około 0,1 mm, w zależności od aktualnego przybliżenia widoku.
 -   **Obszar zaznaczenia**: Obszar zaznaczenia wokół znaczników środków. Jednostka rozmycia wynosi około 0,1 mm, w zależności od aktualnego przybliżenia widoku. Domyślną wartością jest 10. Wartości z zakresu 20-30 znacznie ułatwiają zaznaczanie krawędzi. Duże liczby spowodują nakładanie się z innymi elementami rysunku.
--   **Kształt zakończenia linii**: Ustawienie kształtu zakończenia linii. Wyjaśnienie opcji: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum> kształt zakończenia linii.
 -   **Debugowanie przekroju**: Wyświetla wyniki pośrednie podczas przetwarzania widoków przekroju\'\'.
 -   **Debugowanie szczegółu**: Wyniki pośrednie podczas przetwarzania widoku szczegółów
 -   **Zezwalaj na nieprawidłowe krawędzie**: Zawiera w wynikach krawędzie o nieoczekiwanej geometrii, np. o zerowej długości.

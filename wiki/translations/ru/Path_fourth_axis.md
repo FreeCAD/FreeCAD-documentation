@@ -1,4 +1,7 @@
 # Path fourth axis/ru
+}
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -10,11 +13,15 @@
 
 
 
+
+
 ## Описание
 
 These experimental features allow milling of four axis [faces](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) and [pockets](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
 
 These features are in early development. Bugs may exist. Thank you for your feedback and testing.
+
+
 
 ## Установка
 
@@ -30,11 +37,15 @@ Place them in your FreeCAD/Mod/Path/PathScripts directory, \*after\* renaming yo
 
 Use at your own risk.
 
+
+
 ## Ограничения
 
 Current 4th-axis capable operations do not handle complex/compound rotations: those involving X and Y simultaneously.
 
 There is currently no GUI integration of 4th-axis rotational settings in the release branch. All related settings are in the Data tab of the Properties View section for each individual operation supported.
+
+
 
 ## Применение
 

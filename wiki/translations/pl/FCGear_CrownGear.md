@@ -1,11 +1,12 @@
 ---
  GuiCommand:
    Name: FCGear CrownGear
-   MenuLocation: Gear , Crown Gear
-   Workbenches: FCGear_Workbench
-   Shortcut: None
+   Name/pl: FCGear: Koło zębate koronowe
+   MenuLocation: Gear , Koło zębate koronowe
+   Workbenches: FCGear_Workbench/pl
+   Shortcut: Brak
    Version: v0.16
-   SeeAlso: FCGear_InvoluteGear
+   SeeAlso: FCGear_InvoluteGear/pl
 ---
 
 # FCGear CrownGear/pl
@@ -14,105 +15,117 @@
 
 ## Opis
 
-The crown wheel resembles a ring-shaped curved rack. The pressure angle decreases continuously from the outer to the inner diameter. Thus, the variable peripheral speed at the crown wheel is compensated against the constant peripheral speed of the pinion. The pointed outer teeth and the steep tooth flanks on the inner diameter limit the usable tooth width. Crown gears achieve similar efficiencies as spur gears. One crown gear can drive several pinions.
+Koło koronowe przypomina zakrzywiony pierścień. Kąt nacisku zmniejsza się w sposób ciągły od średnicy zewnętrznej do wewnętrznej. W ten sposób zmienna prędkość obwodowa koła koronowego jest kompensowana stałą prędkością obwodową zębnika. Spiczaste zęby zewnętrzne i strome boki zębów na średnicy wewnętrznej ograniczają użyteczną szerokość zębów. Przekładnie koronowe osiągają podobną sprawność jak przekładnie czołowe. Jedno koło koronowe może napędzać kilka zębników.
 
-Known field of application of crown gears:
+Znany zakres zastosowań przekładni koronowych:
 
--   Rear axle drives for cars and motorcycles
--   Swivel mechanism for operating tables
--   Angular milling heads
--   Powered tool systems with multiple pinions and a crown gear
+-   Napędy tylnej osi samochodów i motocykli.
+-   Mechanizm obrotowy do stołów operacyjnych.
+-   Głowice frezarskie kątowe.
+-   Napędzane systemy narzędziowe z wieloma zębnikami i przekładnią koronową.
 
 ![](images/Crown-Gear_example.png ) 
-*Above: Crown gear*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Crown Gear](FCGear_CrownGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Crown Gear** option from the menu.
-3.  The crown gear is displayed without teeth by default. (<small>(v0.21)</small> )
-4.  Change the gear parameters to the required conditions (see [Properties](#Properties.md)).
-5.  Set the **preview_mode** property to {{false}} to display the teeth (see [Notes](#Notes.md)).
-
-## Properties
-
-An FCGear CrownGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Powyżej: Przekładnia koronowa.*
 
 
-{{Properties_Title|accuracy}}
 
--    **num_profiles|Integer**: Default is {{Value|4}}. Number of profiles used for loft.
+## Użycie
 
--    **preview_mode|Bool**: Default is {{True}}.
-
-
-{{Properties_Title|base}}
-
--    **height|Length**: Default is {{Value|2 mm}}. Value for the tooth width.
-
--    **module|Length**: Default is {{Value|1 mm}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
-
--    **other_teeth|Integer**: Default is {{Value|15}}. Number of teeth of the construction gear (pinion) (see [Notes](#Notes.md)).
-
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
-
--    **thickness|Length**: Default is {{Value|5 mm}}. Height from the tip of tooth to the lower side of the crown wheel.
+1.  Przełącz się na środowisko pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk na pasku narzędzi **[<img src=images/FCGear_CrownGear.svg style="width:16px"> [Koło zębate koronowe](FCGear_CrownGear/pl.md)**.
+    -   Wybierz opcję z menu **Gear → [<img src=images/FCGear_CrownGear.svg style="width:16px"> Koło zębate koronowe**.
+3.  Przekładnia koronowa jest domyślnie wyświetlana bez zębów. ({{Version/pl|0.21}})
+4.  Zmień parametry koła zębatego na wymagane *(zobacz akapit [Właściwości](#Właściwości.md))*.
+5.  Ustaw wartość właściwości **Tryb_podglądu** na {{false/pl}}, aby wyświetlić zęby *(patrz [Uwagi](#Uwagi.md))*.
 
 
-{{Properties_Title|involute}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
+## Właściwości
+
+Obiekt Koło zębate koronowe wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|version}}
 
--    **version|String**:
+### Dane
 
-## Notes
 
--   The **preview_mode** property is set to {{true}} by default and when the gear is created you\'ll find this message in the report view:
+{{Properties_Title|Dokładność}}
 
-    :   *Gear module: Crown gear created, preview_mode = true for improved performance. Set preview_mode property to false when ready to cut teeth.*
+-    **Ilość_profili|Integer**: Wartością domyślną jest {{Value|4}}. Liczba profili używanych dla wyciągnięcia przez profile.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+-    **Tryb_podglądu|Bool**: Wartością domyślną jest {{True/pl}}.
 
--    **other_teeth**: Several pinions with the same number of teeth only can be used on one crown wheel.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
+{{Properties_Title|Podstawowe}}
 
--   The geometry of the crown gear is primarily determined by the spur pinion geometry (**other_teeth**).
+-    **Wysokość|Length**: Wartością domyślną jest {{Value|2 mm}}. Wartość dla szerokości zęba.
 
--   Create spur gear with [Involute gear](FCGear_InvoluteGear.md). The number of teeth must be identical to the parameter **other_teeth** of the crown gear.
+-    **Moduł|Length**: Wartością domyślną jest {{Value|1 mm}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów (patrz [Uwagi](#Uwagi.md)).
 
--   Adjustments for optimal running characteristics can be made with the parameters of involute gear.
+-    **other_teeth|Integer**: Wartością domyślną jest {{Value|15}}. Liczba zębów przekładni konstrukcyjnej *(zębnika)* *(patrz [Uwagi](#Uwagi.md))*.
 
-## Crown and spur gear set overview 
+-    **zęby|Integer**: Wartością domyślną jest {{Value|15}}. Liczba zębów.
+
+-    **grubość|Length**: Wartością domyślną jest {{Value|5 mm}}. Wysokość od wierzchołka zęba do dolnej części koła koronowego.
+
+
+{{Properties_Title|Ewolwenta}}
+
+-    **kąt_natarcia|Angle**: Wartością domyślną jest {{Value|20 °}} *(patrz sekcja [Uwagi](#Uwagi.md))*.
+
+
+{{Properties_Title|Wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+-   Właściwość **tryb_podglądu** jest domyślnie ustawiona na {{true/pl}}, a po utworzeniu koła zębatego w widoku raportu pojawi się ten komunikat:
+
+    :   *Środowisko pracy Gear: Utworzono koło zębate koronowe, tryb podglądu = {{true/pl}} dla lepszej wydajności. Ustaw właściwość tryb podglądu na false, gdy będziesz gotowy do wycięcia zębów.*
+
+-    **moduł**: Korzystając z wytycznych ISO *(Międzynarodowej Organizacji Normalizacyjnej)*, rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów koła zębatego. Moduł (m): m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Jeśli pomnożymy moduł przez Pi, otrzymamy Skok (p). Pitch to odległość między odpowiednimi punktami na sąsiednich zębach.
+
+-    **inne_zęby**: Na jednym kole koronowym można użyć kilku zębników o tej samej liczbie zębów.
+
+-    **pressure_parameter**: Parametr można zmienić tylko wtedy, gdy dostępna jest wystarczająca wiedza na temat geometrii koła zębatego.
+
+-   Geometria koła koronowego jest przede wszystkim określona przez geometrię zębnika czołowego (**inne_zęby**).
+
+-   Utwórz koło zębate czołowe za pomocą narzędzia [Koło zębate ewolwentowe](FCGear_InvoluteGear/pl.md). Liczba zębów musi być identyczna z parametrem **inne_zęby** koła koronowego.
+
+-   Dostosowania optymalnej charakterystyki pracy można dokonać za pomocą parametrów przekładni ewolwentowej.
+
+
+
+## Przegląd zestawu kół zębatych koronowych i czołowych 
 
 ![](images/Crown-spur-gear-set_example.png )
 
--   \(1\) Spur gear
--   \(2\) Crown gear
--   \(3\) Tooth width
--   \(4\) Inner diameter
--   \(5\) Outer diameter
+-   \(1\) Koło zębate czołowe.
+-   \(2\) Koło koronowe.
+-   \(3\) Szerokość zębów.
+-   \(4\) Średnica wewnętrzna.
+-   \(5\) Średnica zewnętrzna.
 
-## Useful formulas 
 
--   **Inner diameter (4)**
+
+## Przydatne wzory 
+
+-   **Średnica wewnętrzna (4)**
     -   
         **inner diamter**
         
-        = **module (spur gear)** \* **teeth (crown gear)** \* **cos pressure_paramter (pinion)** : **cos pressure_parameter (crown gear)**
+        = **moduł (przekładnia czołowa)**. \* **zęby (przekładnia koronowa)** \* **cos pressure_parameter (pinion)** : **cos pressure_parameter (przekładnia koronowa)**
 
--   **Outer diameter (5)**
+-   **Średnica zewnętrzna (5)**
     -   
-        **outer diamter**
+        **średnica zewnętrzna**
         
-        = **inner diameter** + **2x height (tooth width crown gear)**
+        = **średnica wewnętrzna** + **2x wysokość (szerokość zęba koła koronowego)**.
 
 
 

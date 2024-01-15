@@ -1,6 +1,6 @@
 # Drawing Workbench/fr
 **L''''atelier Drawing''' n'est plus inclus après la version 0.20.<br>
-L'[atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus avancé.**
+L'[atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus abouti.**
 
 <img alt="Icône de l\'atelier Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
 

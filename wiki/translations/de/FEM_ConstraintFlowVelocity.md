@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintFlowVelocity
-   Name/de: FEM ConstraintFlowVelocity
-   MenuLocation: Model , Fluid-Randbedingungen , Constraint flow velocity
+   Name/de: FEM RandbedingungStrömungsgeschwindigkeit
+   MenuLocation: Model , Fluid-Randbedingungen , Randbedingung Strömungsgeschwindigkeit
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_ConstraintInitialFlowVelocity/de
 ---
@@ -19,7 +19,7 @@ Ordnet einer Kante in 2D oder einer Fläche in 3D eine Strömungsgeschwindigkeit
 
 ## Anwendung
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> '''FEM ConstraintFlowVelocity'''** or select the menu **Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Constraint flow velocity**.
+1.  Press the **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Flow velocity boundary condition](FEM_ConstraintFlowVelocity.md)** button or select the menu **Model → Fluid boundary conditions → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Flow velocity boundary condition**.
 2.  Select the target Edges or Faces.
 3.  Press the **Add** button.
 4.  Uncheck *Unspecified* to activate the necessary fields for edition.

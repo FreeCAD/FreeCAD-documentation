@@ -153,7 +153,7 @@ Replaces this B-Spline curve by approximating a set of points.
 #### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
-					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
+                    approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
@@ -407,7 +407,7 @@ Computes for this B-Spline curve the parametric tolerance (UTolerance)
 for a given 3D tolerance (Tolerance3D).
 If f(t) is the equation of this B-Spline curve, the parametric tolerance
 ensures that:
-|t1-t0| < UTolerance ===> |f(t1)-f(t0)| < Tolerance3D
+|t1-t0| < UTolerance =""==> |f(t1)-f(t0)| < Tolerance3D
 
 
 
@@ -532,7 +532,7 @@ Replaces this B-Spline curve by interpolating a set of points.
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
-				  arguments: curve/surface (for the intersection), precision (float)
+                  arguments: curve/surface (for the intersection), precision (float)
 
 
 
@@ -804,7 +804,7 @@ Computes the tangent of parameter u on this curve
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
-					toBSpline([Float=First, Float=Last]) -> B-Spline curve
+                    toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
@@ -866,4 +866,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > BSplineCurve API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > BSplineCurve API

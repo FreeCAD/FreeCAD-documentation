@@ -1,62 +1,39 @@
 ---
  GuiCommand:
    Name: Sketcher EditSketch
-   Name/it: Modifica Sketch
-   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch , Modifica schizzo
-   SeeAlso: Sketcher LeaveSketch/it
+   Name/it: Modifica schizzo
+   MenuLocation: Schizzo , Modifica schizzo
+   Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
+   SeeAlso: Sketcher_LeaveSketch/it
 ---
 
 # Sketcher EditSketch/it
 
 
-</div>
-
-
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando permette di modificare uno schizzo esistente. Apr la [Finestra di dialogo di Sketcher](Sketcher_Dialog/it.md).
-
-
-</div>
+Il comando **Modifica schizzo** apre la finestra [Dialogo](Sketcher_Dialog/it.md) per modificare uno schizzo esistente.
 
 
 
 ## Utilizzo
 
+Esistono diversi modi per richiamare il comando:
 
-<div class="mw-translate-fuzzy">
-
--   Cliccare con il pulsante destro del mouse su uno schizzo nella vista ad albero e scegliere \"Modifica lo schizzo\" oppure selezionare uno schizzo nella vista ad albero e scegliere \"Sketch → Modifica lo schizzo\" nel menu principale.
--   Scegliere [Esci](Sketcher_LeaveSketch/it.md) per uscire dalla modalità di modifica.
-
-
-</div>
+-   Fare doppio clic su uno schizzo nella [Vista ad albero](Tree_view/it.md).
+-   Selezionare uno schizzo e premere il pulsante **<img src="images/Sketcher_EditSketch.svg" width=16px> [Modifica schizzo](Sketcher_EditSketch/it.md)**.
+-   Selezionare uno schizzo e scegliere l\'opzione **Schizzo → <img src="images/Sketcher_EditSketch.svg" width=16px> Modifica schizzo** dal menu.
+-   Fare clic con il pulsante destro del mouse su uno schizzo nella [Vista albero](Tree_view/it.md) e scegliere l\'opzione **Modifica schizzo** dal menu contestuale.
 
 
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
--   Scegliendo [Esci](Sketcher_LeaveSketch/it.md) si termina la modalità di modifica..
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Scegliendo [Esci](Sketcher_LeaveSketch/it.md) si termina la modalità di modifica.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

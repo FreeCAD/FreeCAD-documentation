@@ -110,7 +110,6 @@ Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Comman
 | [FCGear InternalInvoluteGear/fr](FCGear_InternalInvoluteGear/fr.md) | [FCGear InvoluteGear/fr](FCGear_InvoluteGear/fr.md) | [FCGear InvoluteRack/fr](FCGear_InvoluteRack/fr.md) |
 | [FCGear LanternGear/fr](FCGear_LanternGear/fr.md) | [FCGear TimingGear/fr](FCGear_TimingGear/fr.md) | [FCGear WormGear/fr](FCGear_WormGear/fr.md) |
 | [FEM Analysis/fr](FEM_Analysis/fr.md) | [FEM ClippingPlaneAdd/fr](FEM_ClippingPlaneAdd/fr.md) | [FEM ClippingPlaneRemoveAll/fr](FEM_ClippingPlaneRemoveAll/fr.md) |
-| [FEM CompEmConstraints/fr](FEM_CompEmConstraints/fr.md) | [FEM CompEmEquations/fr](FEM_CompEmEquations/fr.md) | [FEM CompMechEquations/fr](FEM_CompMechEquations/fr.md) |
 | [FEM ConstantVacuumPermittivity/fr](FEM_ConstantVacuumPermittivity/fr.md) | [FEM ConstraintBearing/fr](FEM_ConstraintBearing/fr.md) | [FEM ConstraintBodyHeatSource/fr](FEM_ConstraintBodyHeatSource/fr.md) |
 | [FEM ConstraintCentrif/fr](FEM_ConstraintCentrif/fr.md) | [FEM ConstraintContact/fr](FEM_ConstraintContact/fr.md) | [FEM ConstraintCurrentDensity/fr](FEM_ConstraintCurrentDensity/fr.md) |
 | [FEM ConstraintDisplacement/fr](FEM_ConstraintDisplacement/fr.md) | [FEM ConstraintElectrostaticPotential/fr](FEM_ConstraintElectrostaticPotential/fr.md) | [FEM ConstraintFixed/fr](FEM_ConstraintFixed/fr.md) |
@@ -130,50 +129,51 @@ Cette catégorie recense les pages d\'aide de chaque commande de FreeCAD [Comman
 | [FEM MeshBoundaryLayer/fr](FEM_MeshBoundaryLayer/fr.md) | [FEM MeshClear/fr](FEM_MeshClear/fr.md) | [FEM MeshDisplayInfo/fr](FEM_MeshDisplayInfo/fr.md) |
 | [FEM MeshGmshFromShape/fr](FEM_MeshGmshFromShape/fr.md) | [FEM MeshGroup/fr](FEM_MeshGroup/fr.md) | [FEM MeshNetgenFromShape/fr](FEM_MeshNetgenFromShape/fr.md) |
 | [FEM MeshRegion/fr](FEM_MeshRegion/fr.md) | [FEM PostApplyChanges/fr](FEM_PostApplyChanges/fr.md) | [FEM PostCreateFunctionBox/fr](FEM_PostCreateFunctionBox/fr.md) |
-| [FEM PostCreateFunctionCylinder/fr](FEM_PostCreateFunctionCylinder/fr.md) | [FEM PostCreateFunctionPlane/fr](FEM_PostCreateFunctionPlane/fr.md) | [FEM PostCreateFunctions/fr](FEM_PostCreateFunctions/fr.md) |
-| [FEM PostCreateFunctionSphere/fr](FEM_PostCreateFunctionSphere/fr.md) | [FEM PostFilterClipRegion/fr](FEM_PostFilterClipRegion/fr.md) | [FEM PostFilterClipScalar/fr](FEM_PostFilterClipScalar/fr.md) |
-| [FEM PostFilterContours/fr](FEM_PostFilterContours/fr.md) | [FEM PostFilterCutFunction/fr](FEM_PostFilterCutFunction/fr.md) | [FEM PostFilterDataAlongLine/fr](FEM_PostFilterDataAlongLine/fr.md) |
-| [FEM PostFilterDataAtPoint/fr](FEM_PostFilterDataAtPoint/fr.md) | [FEM PostFilterLinearizedStresses/fr](FEM_PostFilterLinearizedStresses/fr.md) | [FEM PostFilterWarp/fr](FEM_PostFilterWarp/fr.md) |
-| [FEM PostPipelineFromResult/fr](FEM_PostPipelineFromResult/fr.md) | [FEM ResultShow/fr](FEM_ResultShow/fr.md) | [FEM ResultsPurge/fr](FEM_ResultsPurge/fr.md) |
-| [FEM SolverCalculiX/fr](FEM_SolverCalculiX/fr.md) | [FEM SolverCalculixCxxtools/fr](FEM_SolverCalculixCxxtools/fr.md) | [FEM SolverControl/fr](FEM_SolverControl/fr.md) |
-| [FEM SolverElmer/fr](FEM_SolverElmer/fr.md) | [FEM SolverMystran/fr](FEM_SolverMystran/fr.md) | [FEM SolverRun/fr](FEM_SolverRun/fr.md) |
-| [FEM SolverZ88/fr](FEM_SolverZ88/fr.md) | [GuiCommand model/fr](GuiCommand_model/fr.md) | [Template:GuiCommand/fr](Template_GuiCommand/fr.md) |
-| [Template:GuiCommandAddon/fr](Template_GuiCommandAddon/fr.md) | [Image CreateImagePlane/fr](Image_CreateImagePlane/fr.md) | [Image Open/fr](Image_Open/fr.md) |
-| [Image Scaling/fr](Image_Scaling/fr.md) | [Lattice2 AttachablePlacement/fr](Lattice2_AttachablePlacement/fr.md) | [Mesh AddFacet/fr](Mesh_AddFacet/fr.md) |
-| [Mesh BoundingBox/fr](Mesh_BoundingBox/fr.md) | [Mesh BuildRegularSolid/fr](Mesh_BuildRegularSolid/fr.md) | [Mesh CrossSections/fr](Mesh_CrossSections/fr.md) |
-| [Mesh CurvatureInfo/fr](Mesh_CurvatureInfo/fr.md) | [Mesh Decimating/fr](Mesh_Decimating/fr.md) | [Mesh Difference/fr](Mesh_Difference/fr.md) |
-| [Mesh EvaluateFacet/fr](Mesh_EvaluateFacet/fr.md) | [Mesh EvaluateSolid/fr](Mesh_EvaluateSolid/fr.md) | [Mesh Evaluation/fr](Mesh_Evaluation/fr.md) |
-| [Mesh Export/fr](Mesh_Export/fr.md) | [Mesh FillInteractiveHole/fr](Mesh_FillInteractiveHole/fr.md) | [Mesh FillupHoles/fr](Mesh_FillupHoles/fr.md) |
-| [Mesh FlipNormals/fr](Mesh_FlipNormals/fr.md) | [Mesh FromPartShape/fr](Mesh_FromPartShape/fr.md) | [Mesh HarmonizeNormals/fr](Mesh_HarmonizeNormals/fr.md) |
-| [Mesh Import/fr](Mesh_Import/fr.md) | [Mesh Intersection/fr](Mesh_Intersection/fr.md) | [Mesh Merge/fr](Mesh_Merge/fr.md) |
-| [Mesh PolyCut/fr](Mesh_PolyCut/fr.md) | [Mesh PolyTrim/fr](Mesh_PolyTrim/fr.md) | [Mesh RemeshGmsh/fr](Mesh_RemeshGmsh/fr.md) |
-| [Mesh RemoveCompByHand/fr](Mesh_RemoveCompByHand/fr.md) | [Mesh RemoveComponents/fr](Mesh_RemoveComponents/fr.md) | [Mesh Scale/fr](Mesh_Scale/fr.md) |
-| [Mesh SectionByPlane/fr](Mesh_SectionByPlane/fr.md) | [Mesh Segmentation/fr](Mesh_Segmentation/fr.md) | [Mesh SegmentationBestFit/fr](Mesh_SegmentationBestFit/fr.md) |
-| [Mesh Smoothing/fr](Mesh_Smoothing/fr.md) | [Mesh SplitComponents/fr](Mesh_SplitComponents/fr.md) | [Mesh TrimByPlane/fr](Mesh_TrimByPlane/fr.md) |
-| [Mesh Union/fr](Mesh_Union/fr.md) | [Mesh VertexCurvature/fr](Mesh_VertexCurvature/fr.md) | [MeshPart CreateFlatFace/fr](MeshPart_CreateFlatFace/fr.md) |
-| [MeshPart CreateFlatMesh/fr](MeshPart_CreateFlatMesh/fr.md) | [OpenSCAD AddOpenSCADElement/fr](OpenSCAD_AddOpenSCADElement/fr.md) | [OpenSCAD ColorCodeShape/fr](OpenSCAD_ColorCodeShape/fr.md) |
-| [OpenSCAD Edgestofaces/fr](OpenSCAD_Edgestofaces/fr.md) | [OpenSCAD ExpandPlacements/fr](OpenSCAD_ExpandPlacements/fr.md) | [OpenSCAD ExplodeGroup/fr](OpenSCAD_ExplodeGroup/fr.md) |
-| [OpenSCAD Hull/fr](OpenSCAD_Hull/fr.md) | [OpenSCAD IncreaseToleranceFeature/fr](OpenSCAD_IncreaseToleranceFeature/fr.md) | [OpenSCAD MeshBoolean/fr](OpenSCAD_MeshBoolean/fr.md) |
-| [OpenSCAD Minkowski/fr](OpenSCAD_Minkowski/fr.md) | [OpenSCAD MirrorMeshFeature/fr](OpenSCAD_MirrorMeshFeature/fr.md) | [OpenSCAD RefineShapeFeature/fr](OpenSCAD_RefineShapeFeature/fr.md) |
-| [OpenSCAD RemoveSubtree/fr](OpenSCAD_RemoveSubtree/fr.md) | [OpenSCAD ReplaceObject/fr](OpenSCAD_ReplaceObject/fr.md) | [OpenSCAD ResizeMeshFeature/fr](OpenSCAD_ResizeMeshFeature/fr.md) |
-| [OpenSCAD ScaleMeshFeature/fr](OpenSCAD_ScaleMeshFeature/fr.md) | [Part Boolean/fr](Part_Boolean/fr.md) | [Part BooleanFragments/fr](Part_BooleanFragments/fr.md) |
-| [Part Box/fr](Part_Box/fr.md) | [Part BoxSelection/fr](Part_BoxSelection/fr.md) | [Part Builder/fr](Part_Builder/fr.md) |
-| [Part Chamfer/fr](Part_Chamfer/fr.md) | [Part CheckGeometry/fr](Part_CheckGeometry/fr.md) | [Part Circle/fr](Part_Circle/fr.md) |
-| [Part Common/fr](Part_Common/fr.md) | [Part CompCompoundTools/fr](Part_CompCompoundTools/fr.md) | [Part CompJoinFeatures/fr](Part_CompJoinFeatures/fr.md) |
-| [Part CompOffsetTools/fr](Part_CompOffsetTools/fr.md) | [Part Compound/fr](Part_Compound/fr.md) | [Part CompoundFilter/fr](Part_CompoundFilter/fr.md) |
-| [Part CompSplittingTools/fr](Part_CompSplittingTools/fr.md) | [Part Cone/fr](Part_Cone/fr.md) | [Part CrossSections/fr](Part_CrossSections/fr.md) |
-| [Part Cut/fr](Part_Cut/fr.md) | [Part Cylinder/fr](Part_Cylinder/fr.md) | [Part Defeaturing/fr](Part_Defeaturing/fr.md) |
-| [Part EditAttachment/fr](Part_EditAttachment/fr.md) | [Part ElementCopy/fr](Part_ElementCopy/fr.md) | [Part Ellipse/fr](Part_Ellipse/fr.md) |
-| [Part Ellipsoid/fr](Part_Ellipsoid/fr.md) | [Part ExplodeCompound/fr](Part_ExplodeCompound/fr.md) | [Part Export/fr](Part_Export/fr.md) |
-| [Part Extrude/fr](Part_Extrude/fr.md) | [Part FaceColors/fr](Part_FaceColors/fr.md) | [Part Fillet/fr](Part_Fillet/fr.md) |
-| [Part Fuse/fr](Part_Fuse/fr.md) | [Part Helix/fr](Part_Helix/fr.md) | [Part Import/fr](Part_Import/fr.md) |
-| [Part JoinConnect/fr](Part_JoinConnect/fr.md) | [Part JoinCutout/fr](Part_JoinCutout/fr.md) | [Part JoinEmbed/fr](Part_JoinEmbed/fr.md) |
-| [Part Line/fr](Part_Line/fr.md) | [Part Loft/fr](Part_Loft/fr.md) | [Part MakeFace/fr](Part_MakeFace/fr.md) |
-| [Part MakeSolid/fr](Part_MakeSolid/fr.md) | [Part Measure Angular/fr](Part_Measure_Angular/fr.md) | [Part Measure Clear All/fr](Part_Measure_Clear_All/fr.md) |
-| [Part Measure Linear/fr](Part_Measure_Linear/fr.md) | [Part Measure Refresh/fr](Part_Measure_Refresh/fr.md) | [Part Measure Toggle 3D/fr](Part_Measure_Toggle_3D/fr.md) |
-| [Part Measure Toggle All/fr](Part_Measure_Toggle_All/fr.md) | [Part Measure Toggle Delta/fr](Part_Measure_Toggle_Delta/fr.md) | [Part Mirror/fr](Part_Mirror/fr.md) |
-| [Part Offset/fr](Part_Offset/fr.md) | [Part Offset2D/fr](Part_Offset2D/fr.md) | [Part Plane/fr](Part_Plane/fr.md) |
-| [Part Point/fr](Part_Point/fr.md) | [Part PointsFromMesh/fr](Part_PointsFromMesh/fr.md) |
+| [FEM PostCreateFunctionCylinder/fr](FEM_PostCreateFunctionCylinder/fr.md) | [FEM PostCreateFunctionPlane/fr](FEM_PostCreateFunctionPlane/fr.md) | [FEM PostCreateFunctionSphere/fr](FEM_PostCreateFunctionSphere/fr.md) |
+| [FEM PostFilterClipRegion/fr](FEM_PostFilterClipRegion/fr.md) | [FEM PostFilterClipScalar/fr](FEM_PostFilterClipScalar/fr.md) | [FEM PostFilterContours/fr](FEM_PostFilterContours/fr.md) |
+| [FEM PostFilterCutFunction/fr](FEM_PostFilterCutFunction/fr.md) | [FEM PostFilterDataAlongLine/fr](FEM_PostFilterDataAlongLine/fr.md) | [FEM PostFilterDataAtPoint/fr](FEM_PostFilterDataAtPoint/fr.md) |
+| [FEM PostFilterLinearizedStresses/fr](FEM_PostFilterLinearizedStresses/fr.md) | [FEM PostFilterWarp/fr](FEM_PostFilterWarp/fr.md) | [FEM PostPipelineFromResult/fr](FEM_PostPipelineFromResult/fr.md) |
+| [FEM ResultShow/fr](FEM_ResultShow/fr.md) | [FEM ResultsPurge/fr](FEM_ResultsPurge/fr.md) | [FEM SolverCalculiX/fr](FEM_SolverCalculiX/fr.md) |
+| [FEM SolverCalculixCxxtools/fr](FEM_SolverCalculixCxxtools/fr.md) | [FEM SolverControl/fr](FEM_SolverControl/fr.md) | [FEM SolverElmer/fr](FEM_SolverElmer/fr.md) |
+| [FEM SolverMystran/fr](FEM_SolverMystran/fr.md) | [FEM SolverRun/fr](FEM_SolverRun/fr.md) | [FEM SolverZ88/fr](FEM_SolverZ88/fr.md) |
+| [GuiCommand model/fr](GuiCommand_model/fr.md) | [Template:GuiCommand/fr](Template_GuiCommand/fr.md) | [Template:GuiCommandAddon/fr](Template_GuiCommandAddon/fr.md) |
+| [Image CreateImagePlane/fr](Image_CreateImagePlane/fr.md) | [Image Open/fr](Image_Open/fr.md) | [Image Scaling/fr](Image_Scaling/fr.md) |
+| [Lattice2 AttachablePlacement/fr](Lattice2_AttachablePlacement/fr.md) | [Mesh AddFacet/fr](Mesh_AddFacet/fr.md) | [Mesh BoundingBox/fr](Mesh_BoundingBox/fr.md) |
+| [Mesh BuildRegularSolid/fr](Mesh_BuildRegularSolid/fr.md) | [Mesh CrossSections/fr](Mesh_CrossSections/fr.md) | [Mesh CurvatureInfo/fr](Mesh_CurvatureInfo/fr.md) |
+| [Mesh Decimating/fr](Mesh_Decimating/fr.md) | [Mesh Difference/fr](Mesh_Difference/fr.md) | [Mesh EvaluateFacet/fr](Mesh_EvaluateFacet/fr.md) |
+| [Mesh EvaluateSolid/fr](Mesh_EvaluateSolid/fr.md) | [Mesh Evaluation/fr](Mesh_Evaluation/fr.md) | [Mesh Export/fr](Mesh_Export/fr.md) |
+| [Mesh FillInteractiveHole/fr](Mesh_FillInteractiveHole/fr.md) | [Mesh FillupHoles/fr](Mesh_FillupHoles/fr.md) | [Mesh FlipNormals/fr](Mesh_FlipNormals/fr.md) |
+| [Mesh FromPartShape/fr](Mesh_FromPartShape/fr.md) | [Mesh HarmonizeNormals/fr](Mesh_HarmonizeNormals/fr.md) | [Mesh Import/fr](Mesh_Import/fr.md) |
+| [Mesh Intersection/fr](Mesh_Intersection/fr.md) | [Mesh Merge/fr](Mesh_Merge/fr.md) | [Mesh PolyCut/fr](Mesh_PolyCut/fr.md) |
+| [Mesh PolyTrim/fr](Mesh_PolyTrim/fr.md) | [Mesh RemeshGmsh/fr](Mesh_RemeshGmsh/fr.md) | [Mesh RemoveCompByHand/fr](Mesh_RemoveCompByHand/fr.md) |
+| [Mesh RemoveComponents/fr](Mesh_RemoveComponents/fr.md) | [Mesh Scale/fr](Mesh_Scale/fr.md) | [Mesh SectionByPlane/fr](Mesh_SectionByPlane/fr.md) |
+| [Mesh Segmentation/fr](Mesh_Segmentation/fr.md) | [Mesh SegmentationBestFit/fr](Mesh_SegmentationBestFit/fr.md) | [Mesh Smoothing/fr](Mesh_Smoothing/fr.md) |
+| [Mesh SplitComponents/fr](Mesh_SplitComponents/fr.md) | [Mesh TrimByPlane/fr](Mesh_TrimByPlane/fr.md) | [Mesh Union/fr](Mesh_Union/fr.md) |
+| [Mesh VertexCurvature/fr](Mesh_VertexCurvature/fr.md) | [MeshPart CreateFlatFace/fr](MeshPart_CreateFlatFace/fr.md) | [MeshPart CreateFlatMesh/fr](MeshPart_CreateFlatMesh/fr.md) |
+| [OpenSCAD AddOpenSCADElement/fr](OpenSCAD_AddOpenSCADElement/fr.md) | [OpenSCAD ColorCodeShape/fr](OpenSCAD_ColorCodeShape/fr.md) | [OpenSCAD Edgestofaces/fr](OpenSCAD_Edgestofaces/fr.md) |
+| [OpenSCAD ExpandPlacements/fr](OpenSCAD_ExpandPlacements/fr.md) | [OpenSCAD ExplodeGroup/fr](OpenSCAD_ExplodeGroup/fr.md) | [OpenSCAD Hull/fr](OpenSCAD_Hull/fr.md) |
+| [OpenSCAD IncreaseToleranceFeature/fr](OpenSCAD_IncreaseToleranceFeature/fr.md) | [OpenSCAD MeshBoolean/fr](OpenSCAD_MeshBoolean/fr.md) | [OpenSCAD Minkowski/fr](OpenSCAD_Minkowski/fr.md) |
+| [OpenSCAD MirrorMeshFeature/fr](OpenSCAD_MirrorMeshFeature/fr.md) | [OpenSCAD RefineShapeFeature/fr](OpenSCAD_RefineShapeFeature/fr.md) | [OpenSCAD RemoveSubtree/fr](OpenSCAD_RemoveSubtree/fr.md) |
+| [OpenSCAD ReplaceObject/fr](OpenSCAD_ReplaceObject/fr.md) | [OpenSCAD ResizeMeshFeature/fr](OpenSCAD_ResizeMeshFeature/fr.md) | [OpenSCAD ScaleMeshFeature/fr](OpenSCAD_ScaleMeshFeature/fr.md) |
+| [Part Boolean/fr](Part_Boolean/fr.md) | [Part BooleanFragments/fr](Part_BooleanFragments/fr.md) | [Part Box/fr](Part_Box/fr.md) |
+| [Part BoxSelection/fr](Part_BoxSelection/fr.md) | [Part Builder/fr](Part_Builder/fr.md) | [Part Chamfer/fr](Part_Chamfer/fr.md) |
+| [Part CheckGeometry/fr](Part_CheckGeometry/fr.md) | [Part Circle/fr](Part_Circle/fr.md) | [Part Common/fr](Part_Common/fr.md) |
+| [Part CompCompoundTools/fr](Part_CompCompoundTools/fr.md) | [Part CompJoinFeatures/fr](Part_CompJoinFeatures/fr.md) | [Part CompOffsetTools/fr](Part_CompOffsetTools/fr.md) |
+| [Part Compound/fr](Part_Compound/fr.md) | [Part CompoundFilter/fr](Part_CompoundFilter/fr.md) | [Part CompSplittingTools/fr](Part_CompSplittingTools/fr.md) |
+| [Part Cone/fr](Part_Cone/fr.md) | [Part CrossSections/fr](Part_CrossSections/fr.md) | [Part Cut/fr](Part_Cut/fr.md) |
+| [Part Cylinder/fr](Part_Cylinder/fr.md) | [Part Defeaturing/fr](Part_Defeaturing/fr.md) | [Part EditAttachment/fr](Part_EditAttachment/fr.md) |
+| [Part ElementCopy/fr](Part_ElementCopy/fr.md) | [Part Ellipse/fr](Part_Ellipse/fr.md) | [Part Ellipsoid/fr](Part_Ellipsoid/fr.md) |
+| [Part ExplodeCompound/fr](Part_ExplodeCompound/fr.md) | [Part Export/fr](Part_Export/fr.md) | [Part Extrude/fr](Part_Extrude/fr.md) |
+| [Part FaceColors/fr](Part_FaceColors/fr.md) | [Part Fillet/fr](Part_Fillet/fr.md) | [Part Fuse/fr](Part_Fuse/fr.md) |
+| [Part Helix/fr](Part_Helix/fr.md) | [Part Import/fr](Part_Import/fr.md) | [Part JoinConnect/fr](Part_JoinConnect/fr.md) |
+| [Part JoinCutout/fr](Part_JoinCutout/fr.md) | [Part JoinEmbed/fr](Part_JoinEmbed/fr.md) | [Part Line/fr](Part_Line/fr.md) |
+| [Part Loft/fr](Part_Loft/fr.md) | [Part MakeFace/fr](Part_MakeFace/fr.md) | [Part MakeSolid/fr](Part_MakeSolid/fr.md) |
+| [Part Measure Angular/fr](Part_Measure_Angular/fr.md) | [Part Measure Clear All/fr](Part_Measure_Clear_All/fr.md) | [Part Measure Linear/fr](Part_Measure_Linear/fr.md) |
+| [Part Measure Refresh/fr](Part_Measure_Refresh/fr.md) | [Part Measure Toggle 3D/fr](Part_Measure_Toggle_3D/fr.md) | [Part Measure Toggle All/fr](Part_Measure_Toggle_All/fr.md) |
+| [Part Measure Toggle Delta/fr](Part_Measure_Toggle_Delta/fr.md) | [Part Mirror/fr](Part_Mirror/fr.md) | [Part Offset/fr](Part_Offset/fr.md) |
+| [Part Offset2D/fr](Part_Offset2D/fr.md) | [Part Plane/fr](Part_Plane/fr.md) | [Part Point/fr](Part_Point/fr.md) |
+| [Part PointsFromMesh/fr](Part_PointsFromMesh/fr.md) | [Part Primitives/fr](Part_Primitives/fr.md) | [Part Prism/fr](Part_Prism/fr.md) |
+| [Part ProjectionOnSurface/fr](Part_ProjectionOnSurface/fr.md) | [Part RefineShape/fr](Part_RefineShape/fr.md) |
 
 
 

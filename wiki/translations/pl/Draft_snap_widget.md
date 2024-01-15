@@ -1,23 +1,27 @@
 # Draft snap widget/pl
-## Description
+## Opis
 
-The **Draft snap widget** is an alternative for the Draft snap toolbar. The widget is only available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
+**Widżet Przyciągania** jest alternatywą dla paska narzędzi Przyciągania. Widżet jest dostępny tylko w środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md). Jest to [opcjonalny](#Ustawienia.md) element GUI, który znajduje się w [pasku statusu](Status_bar/pl.md).
 
 ![](images/Draft_snap_widget_button.png ) 
-*The Draft snap widget*
+*Widżet przyciągania.*
 
-## Usage
 
-See [Draft Snap](Draft_Snap.md).
+
+## Użycie
+
+Zapoznaj się również z informacjami na stronie [Przyciąganie](Draft_Snap/pl.md).
 
 ![](images/Draft_snap_widget_menu.png ) 
-*The menu of the widget*
+*Menu widżetu.*
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The Draft snap widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Draft snap widget**.
+## Ustawienia
+
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
+
+-   Widżet przyciągania środowiska Rysunek Roboczy jest opcjonalny: **Edycja → Preferencje ... → Rysunek Roboczy → Interfejs → Pokaż widżet przyciągania w środowisku roboczym Szkic**.
 
 
 

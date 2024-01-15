@@ -12,6 +12,8 @@
 
 Cette commande crée un objet solide à partir d\'un objet forme.
 
+
+
 ## Utilisation
 
 1.  Sélectionner l\'objet forme.

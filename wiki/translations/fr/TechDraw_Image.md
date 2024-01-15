@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw Image
    Name/fr: TechDraw Image
-   MenuLocation: TechDraw , Insérer une image Bitmap
+   MenuLocation: TechDraw , Vues de TechDraw , Insérer une image bitmap
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_Symbol/fr
 ---
 
 # TechDraw Image/fr
-
-
-</div>
 
 ## Description
 
@@ -23,15 +20,18 @@ L\'outil **TechDraw Image** insère une image [bitmap](Bitmap/fr.md) (png, jpeg,
 
 ## Comment faire 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Appuyez sur le bouton**<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image Bitmap](TechDraw_Image/fr.md)
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Image.svg" width=16px> [Insérer une image bitmap](TechDraw_Image/fr.md)
 **
-2.  Une boîte de dialogue de fichier s\'ouvrira. Sélectionnez un emplacement et un nom de fichier.
-
-
-</div>
+    -   Sélectionnez l\'option **TechDraw → Vues de TechDraw → <img src="images/TechDraw_Image.svg" width=16px> Insérer une image bitmap** dans le menu.
+3.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore activé de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+4.  Une boîte de dialogue de fichier s\'ouvre.
+    1.  Sélectionnez un emplacement et un nom de fichier.
+    2.  L\'image est insérée.
+5.  Vous pouvez éventuellement modifier sa propriété **Scale** pour ajuster sa taille.
 
 
 
@@ -61,7 +61,7 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Image}}
 
--    **Crop|Bool**: recadrer l\'image à **Width** x **Height**.
+-    **Crop|Bool**: recadre l\'image selon **Width** x **Height**.
 
 
 

@@ -13,20 +13,26 @@
 
 </div>
 
+
+
 ## Описание
 
 Prints the predefined facial output variables (forces and moments) to the data file.
 
+
+
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''FEM ConstraintSectionPrint'''** button.
-    -   Select the **Model → Geometrical Constraints → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Constraint section print** option from the menu.
+    -   Press the **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [Section print feature](FEM_ConstraintSectionPrint.md)** button.
+    -   Select the **Model → Geometrical analysis features → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Section print feature** option from the menu.
 2.  Press the **Add** button and select the face for which the output will be printed.
+
+
 
 ## Примечания
 
--   The constraint uses the \*SECTION PRINT card in CalculiX.
+-   The feature uses the \*SECTION PRINT card in CalculiX.
 
 
 

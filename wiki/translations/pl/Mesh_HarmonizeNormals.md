@@ -9,16 +9,22 @@
 
 # Mesh HarmonizeNormals/pl
 
+
+
 ## Opis
 
 Polecenie **Porządkuj wektory normalne** ujednolica normalne obiektów siatkowych.
+
+
 
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> [Porządkuj wektory normalnych](Mesh_HarmonizeNormals/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_HarmonizeNormals.svg" width=16px> '''Porządkuj wektory normalnych'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_HarmonizeNormals.svg" width=16px> Porządkuj wektory normalnych**.
+
+
 
 ## Uwagi
 

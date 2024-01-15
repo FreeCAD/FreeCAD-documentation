@@ -24,7 +24,7 @@ La commande **Std Afficher les objets** affiche tous les objets appartenant au d
 ## Remarques
 
 -   L\'action de cette commande ne peut pas être annulée avec [Std Annuler](Std_Undo/fr.md).
--   La visibilité d\'un objet peut également être modifiée via sa propriété {{PropertyData/fr|Visibility}} associée dans l\'[Éditeur de propriétés](Property_editor/fr.md) ou la [Vue Combinée](Combo_view/fr.md).
+-   La visibilité d\'un objet peut également être modifiée via sa propriété **Visibility** associée dans l\'[éditeur de propriétés](Property_editor/fr.md) ou la [vue combinée](Combo_view/fr.md).
 
 
 

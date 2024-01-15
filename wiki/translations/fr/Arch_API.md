@@ -3,7 +3,7 @@
 
 Les fonctions de l\'API font partie de l\'[atelier Arch](Arch_Workbench/fr.md) et peuvent être utilisées dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) une fois que le module `Arch` a été importé. L\'[extension Reinforcement](Reinforcement_Addon/fr.md) a ses propres [Reinforcement API](Reinforcement_API/fr.md).
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 

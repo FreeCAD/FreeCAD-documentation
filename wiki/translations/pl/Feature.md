@@ -1,28 +1,32 @@
 # Feature/pl
-## Introduction
+## Wprowadzenie
 
-In FreeCAD the word \"[Feature](Feature.md)\" is normally used to refer to a [PartDesign Feature](PartDesign_Feature.md) object (`PartDesign::Feature` class) that is defined by the [PartDesign Workbench](PartDesign_Workbench.md). This is an operation or modelling step performed to create or modify a solid [Shape](Shape.md) following the [feature editing](feature_editing.md) paradigm.
+W FreeCAD słowo \"[Cecha](Feature/pl.md)\" jest zwykle używane w odniesieniu do obiektu [Cechy](PartDesign_Feature/pl.md) środowiska Projekt Części *(klasa `PartDesign::Feature`)*, którya jest zdefiniowana przez środowiskoa pracy [Projekt Części](PartDesign_Workbench/pl.md). Jest to operacja lub krok modelowania wykonywany w celu utworzenia lub modyfikacji [Kształtu](Shape/pl.md) bryły zgodnie z paradygmatem [Edycja cech](Feature_editing/pl.md).
 
-See [PartDesign Feature](PartDesign_Feature.md) for more information about this type of object.
+Więcej informacji na temat tego typu obiektów można znaleźć na stronie [Projekt części: Cecha](PartDesign_Feature/pl.md).
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
-2.  Press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** to create a new [Sketch](Sketch.md).
-4.  Create a closed wire, and then use **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)** to extrude the sketch, and create an initial solid. This initial solid is the initial Feature.
-5.  Add more sketches and pads, and use other tools of the [PartDesign Workbench](PartDesign_Workbench.md) to modify and transform the initial solid. Each of these steps correspond to Features of the [Body](Body.md).
-6.  Alternatively, add primitive objects, like **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [PartDesign Additive box](PartDesign_AdditiveBox.md)** and **[<img src=images/PartDesign_SubtractiveCylinder.svg style="width:16px"> [PartDesign Subtractive cylinder](PartDesign_SubtractiveCylinder.md)**. Any number of additive and subtractive steps are Features that are used to create a final volume.
 
-## Notes
+## Użycie
 
-In the general sense, a \"Feature\" can be any modelling step used to create a final [Shape](Shape.md), with any tool of any [workbench](Workbenches.md).
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
+2.  Naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width:16px"> [Utwórz Zawartość](PartDesign_Body/pl.md)**.
+3.  Naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Utwórz szkic](PartDesign_NewSketch/pl.md)**, aby utworzyć nowy [Szkic](Sketch/pl.md).
+4.  Utwórz zamkniętą polilinię, a następnie użyj narzędzia **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Wyciągnij](PartDesign_Pad/pl.md)** do wyciągnięcia szkicu i utworzenia początkowej bryły. Ta początkowa bryła jest początkową Cechą.
+5.  Dodaj więcej szkiców i podkładek oraz użyj innych narzędzi środowiska pracy [Projekt Części](PartDesign_Workbench/pl.md), aby zmodyfikować i przekształcić bryłę początkową. Każdy z tych kroków odpowiada cechom [Zawartości](Body/pl.md).
+6.  Alternatywnie, dodaj obiekty pierwotne, takie jak **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)** i **[<img src=images/PartDesign_SubtractiveCylinder.svg style="width:16px"> [Subtraktywny walec](PartDesign_SubtractiveCylinder/pl.md)**. Dowolna liczba kroków dodawania i odejmowania to funkcje, które są używane do utworzenia ostatecznej objętości.
 
--   For example, in the [Part Workbench](Part_Workbench.md), in the [constructive solid geometry](constructive_solid_geometry.md) workflow, a \"Feature\" could be any boolean operation, like **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuse](Part_Fuse.md)**, **[<img src=images/Part_Cut.svg style="width:16px"> [Part Cut](Part_Cut.md)**, or **[<img src=images/Part_Common.svg style="width:16px"> [Part Common](Part_Common.md)**.
 
-In a more specific sense, a \"Feature\" is a modelling step used inside a [PartDesign Body](PartDesign_Body.md).
 
--   For example, **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)**, **[<img src=images/PartDesign_AdditiveLoft.svg style="width:16px"> [PartDesign Additive loft](PartDesign_AdditiveLoft.md)**, **[<img src=images/PartDesign_Pocket.svg style="width:16px"> [PartDesign Pocket](PartDesign_Pocket.md)**, **[<img src=images/PartDesign_SubtractiveCone.svg style="width:16px"> [PartDesign Subtractive cone](PartDesign_SubtractiveCone.md)**, etc., are all \"Features\".
+## Uwagi
+
+W ogólnym znaczeniu, \"Cecha\" może być dowolnym krokiem modelowania używanym do utworzenia ostatecznego [Kształtu](Shape/pl.md), za pomocą dowolnego narzędzia dowolnego [Środowiska pracy](Workbenches/pl.md).
+
+-   Na przykład, w środowisku [Część](Part_Workbench/pl.md), z przepływem pracy [Konstrukcyjnej geometria bryły](Constructive_solid_geometry/pl.md), \"Cechą\" może być dowolna operacja logiczna, taka jak **[<img src=images/Part_Fuse.svg style="width:16px">. [Połączenie](Part_Fuse/pl.md)**, **[<img src=images/Part_Cut.svg style="width:16px"> [Wycięcie](Part_Cut/pl.md)**, lub **[<img src=images/Part_Common.svg style="width:16px"> [Część wspólna](Part_Common/pl.md)**.
+
+W bardziej szczegółowym znaczeniu, \"Cecha\" jest krokiem modelowania używanym wewnątrz [Zawartości](PartDesign_Body/pl.md).
+
+-   Na przykład **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [Addytywny walec](PartDesign_AdditiveCylinder/pl.md)**, **[<img src=images/PartDesign_AdditiveLoft.svg style="width:16px"> [Uzupełnienie wyciągnięciem przez rofile](PartDesign_AdditiveLoft/pl.md)**, **[<img src=images/PartDesign_Pocket.svg style="width:16px"> [Kieszeń](PartDesign_Pocket/pl.md)**, **[<img src=images/PartDesign_SubtractiveCone.svg style="width:16px">[Subtraktywny stożek](PartDesign_SubtractiveCone/pl.md)**, itp. wszystkie są \"Cechami\".
 
 
 {{PartDesign Tools navi

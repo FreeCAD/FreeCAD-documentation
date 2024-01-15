@@ -36,9 +36,8 @@ Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|co
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To specify a directory with addition SVG patterns: **Edit → Preferences... → Draft → Visual settings → Alternate SVG patterns location**. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path. After changing this preference you must restart FreeCAD.
--   The **Edit → Preferences... → Draft → Visual settings → SVG pattern resolution** preference is not used.
--   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual settings → SVG pattern default size**.
+-   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual → SVG pattern size**.
+-   To specify a directory with addition SVG patterns: **Edit → Preferences... → Draft → Visual → Additional SVG pattern location**.
 
 
 

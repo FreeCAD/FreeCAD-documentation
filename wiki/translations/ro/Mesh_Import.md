@@ -6,6 +6,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introducere
@@ -20,6 +22,8 @@ Acest instrument vă permite să importați un obiect mesh ca fișier [\*.STL](h
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

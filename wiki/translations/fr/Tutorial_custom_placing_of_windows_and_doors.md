@@ -14,7 +14,7 @@
 
 Ce didacticiel montre comment placer des fenêtres Arch et des portes Arch personnalisées dans un modèle de bâtiment. Il utilise l\'atelier Draft, l\'atelier Arch et l\'atelier Sketcher.
 
-Les outils couramment utilisés sont: Draft Grille, Draft Accrochage, Draft Fil, Arch Mur, Arch Fenêtre et Sketcher Esquisse. L\'utilisateur doit être familiarisé avec les esquisses contraignantes.
+Les outils couramment utilisés sont: Draft Grille, Draft Aimantation, Draft Polyligne, Arch Mur, Arch Fenêtre et Sketcher Esquisse. L\'utilisateur doit être familiarisé avec les esquisses contraignantes.
 
 Ce tutoriel est inspiré des tutoriels de jpg87 publiés dans les forums FreeCAD.
 
@@ -59,7 +59,7 @@ Nous sommes maintenant prêts à créer un mur simple sur lequel nous pouvons po
 :   
     **Note:**assurez-vous que la case **Relative** est désactivée si vous donnez des coordonnées absolues.
 :   
-    **Note 2:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils Draft Accrochage et de la méthode Draft Accrochage Grille .
+    **Note 2:**les points peuvent également être définis avec le pointeur de la souris en choisissant les intersections sur la grille, à l\'aide de la barre d\'outils Draft Aimantation et de la méthode Draft Aimantation Grille .
 :   
     **Note 3:**vous pouvez également créer des formes par programmation en créant des scripts dans Python. Attention, la plupart des fonctions attendent leur saisie en millimètres.
 
@@ -230,7 +230,7 @@ w = Draft.makeWire
 15\. Sélectionnez le nouveau `Sketch003`. Accédez à la propriété {{PropertyData/fr|Map Mode}} et cliquez sur les points de suspension à côté de la valeur `FlatFace`. Dans la fenêtre 3D, sélectionnez le côté gauche du mur qui n\'a aucun élément; faites pivoter la [vue standard](Std_View_Menu/fr.md) si nécessaire. Modifiez `Attachment offset` en \[-1 m, 0 m, 0 m\] pour centrer la fenêtre, puis cliquez sur **OK**. L\'esquisse et la fenêtre doivent apparaître dans une nouvelle position.
 
 :   
-    **Note:**[Part Accrochage](Part_EditAttachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu **Pièce → Attachment**.
+    **Note:**[Part Ancrage](Part_EditAttachment/fr.md) peut également être effectuée en passant à [atelier Part](Part_Workbench/fr.md), puis en utilisant le menu **Pièce → Attachment**.
 
 ![](images/13_T02_sketch_attachment_edit.png )
 

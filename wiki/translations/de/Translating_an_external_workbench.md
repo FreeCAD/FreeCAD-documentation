@@ -1,19 +1,25 @@
 # Translating an external workbench/de
-In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder Deines Arbeitsbereichs sein, z.B. `"MySuperAddon"` oder `"DraftPlus"`, oder was auch immer. Groß- und Kleinschreibung wird hier unterschieden: So ist z.B. `"Context"` ist nicht dasselbe wie `"context"`. Dieser Zusammenhang sorgt dafür, dass die gesamte Übersetzung des Codes unter demselben Namen zusammengefasst wird, um von den Übersetzern leichter erkannt werden zu können. Das heißt, sie wissen genau, zu welcher Erweiterung oder welchem Arbeitsbereich eine bestimmte Zeichenkette gehört.
+In den folgenden Beschreibungen steht `"context"` für den Namen deines Addons oder deines Arbeitsbereichs, z.B. `"MeinSuperAddon"` oder `"DraftPlus"` oder was auch immer. Groß- und Kleinschreibung wird hier unterschieden: So ist z.B. `"Context"` ist nicht dasselbe wie `"context"`. Dieser \"context\" sorgt dafür, dass alle Übersetzungen des Codes unter demselben Namen zusammengefasst werden, um von Übersetzern leichter erkannt zu werden. Das heißt, sie wissen genau, zu welchem Addon oder welchem Arbeitsbereich eine bestimmte Zeichenfolge gehört.
 
-**Hinweis**: Hier ist ein Multifunktionsskript, das den kompletten unten beschriebenen Ablauf automatisiert (Es wird trotzdem empfohlen, die Beschreibung zu lesen, um zu wissen, was das Skript erledigen soll): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
+**Hinweis**: Hier gibt es ein Multifunktionsskript, das den kompletten unten beschriebenen Ablauf automatisiert (Es wird trotzdem empfohlen, die Beschreibung zu lesen, um zu wissen, was das Skript erledigen soll): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
-## Vorbereiten der Quellen 
+
+
+## Die Quellen vorbereiten 
+
+
 
 ### Allgemeines
 
--   Einen Ordner `translations/` hinzufügen. Dieser kann auch gänzlich anders benannt werden, aber so ist es einfacher, da er in allen Bereichen von FreeCAD gleich ist. In diesem Ordner werden die `.ts`-Dateien (die \"Quell-\"Übersetzungsdateien) und `.qm`-Dateien (kompilierte Übersetzungsdateien) abgelegt.
--   Es sollte nur der Text übersetzt werden, der dem Benutzer in der FreeCAD-Benutzeroberfläche angezeigt wird. Text, der nur in der Python-Konsole angezeigt wird, sollte nicht übersetzt werden.
+-   Einen Ordner `translations/` hinzufügen. Dieser kann auch gänzlich anders benannt werden, aber mit diesem Namen ist es einfacher, da er so in allen Bereichen von FreeCAD verendet wird. In diesem Ordner werden die `.ts`-Dateien (die \"Quelldateien\" der Übersetzungen) und `.qm`-Dateien (kompilierte Übersetzungsdateien) abgelegt.
+-   Nur der Text, der dem Anwender in der FreeCAD-Benutzeroberfläche angezeigt wird, sollte übersetzt werden. Text, der nur in der Python-Konsole angezeigt wird, sollte nicht übersetzt werden.
 -   Text, der über `FreeCAD.Console` ausgegeben wird, wird im \"Ausgabefenster\" angezeigt und sollte daher übersetzt werden. Das \"Ausgabefenster\" unterscheidet sich von der Python-Konsole.
 
-### In jeder Python .py-Datei 
 
--   In jeder Datei, in der Text übersetzt werden soll, braucht man eine definierte `translate()`-Funktion. Sie muss exakt `translate` benannt werden: Der Zeichenkettenausleser hängt von der exakten Benennung ab. Man kann den vollständigen Namen von Qt verwenden, aber die Verwendung des Folgenden ist etwas sauberer:
+
+### In jeder Python-Datei 
+
+-   In jeder (.py-) Datei, in der Text übersetzt werden soll, muss eine `translate()`-Funktion definiert werden. Sie muss exakt `translate` benannt werden, da der Zeichenkettenausleser die exakte Benennung benötigt. Man kann den vollständigen Namen von Qt verwenden, aber die Verwendung des Folgenden ist etwas sauberer:
 
 :   
     
@@ -56,7 +62,7 @@ In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder D
 
 
 
-:   Man darf nicht vergessen, dass `translate()` nicht nur eine normale Funktion ist, sondern auch als \"Tag\" für das `lupdate` Textverabeitungs-Dienstprogramm dient und deshalb exakt \"translate\" heißen muss. Das Programm `lupdate` ist eine einfache Textverarbeitung; es führt keinen Code aus. Zeichenketteninhalte müssen direkt an die Funktion `translate()` übergeben werden: Es können keine Variablen, Konstanten usw. übergeben werden. Ein Beispiel:
+:   Man darf nicht vergessen, dass `translate()` nicht nur eine normale Funktion ist, sondern auch als \"Tag\" für das Textverabeitungs-Dienstprogramm `lupdate` dient und deshalb exakt \"translate\" heißen muss. Das Programm `lupdate` ist eine einfache Textverarbeitung; es führt keinen Code aus. Zeichenketteninhalte müssen direkt an die Funktion `translate()` übergeben werden: Es können keine Variablen, Konstanten usw. übergeben werden. Ein Beispiel:
 
 
 
@@ -83,7 +89,7 @@ In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder D
 
 
 
-:   Dies kann überall verwendet werden: In `print()`, in `FreeCAD.Console.PrintMessage()`, in Qt-Dialogen, etc. Die `FreeCAD.Console`-Funktionen fügen das Zeichen für den Zeilenumbruch (`\n`) nicht automatisch hinzu, so dass dieses bei Bedarf am Ende hinzugefügt werden muss. Dieses Zeichen benötigt auch keine Übersetzung, so dass es außerhalb der Übersetzungsfunktion liegen kann:
+:   Dies kann überall verwendet werden: In `print()`, in `FreeCAD.Console.PrintMessage()`, in Qt-Dialogen, etc. Die `FreeCAD.Console`-Funktionen fügen das Zeichen für den Zeilenumbruch (`\n`) nicht automatisch hinzu, es muss bei Bedarf am Ende hinzugefügt werden. Dieses Zeichen benötigt auch keine Übersetzung und kann daher außerhalb der Übersetzungsfunktion liegen:
 
 
 
@@ -115,7 +121,9 @@ In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder D
 
 :   Man verwendet in diesem speziellen Fall keinen eigenen `"context"`, sondern behält `"App::Property"` bei.
 
-### In InitGui.py 
+
+
+### In Der Datei InitGui.py 
 
 -   Die folgende Zeile im oberen Bereich der Datei hinzufügen:
 
@@ -165,9 +173,11 @@ Die Datei {`InitGui.py`} hat kein Attribut **file**, so dass es nicht einfach is
 ```
     
 
+
+
 ### Innerhalb jeder FreeCAD-Befehlsklasse 
 
--   Folgende Zeile am Anfang der Datei hinzufügen:
+-   Die folgende Zeile im oberen Bereich der Datei hinzufügen:
 
 :   
     
@@ -178,7 +188,7 @@ Die Datei {`InitGui.py`} hat kein Attribut **file**, so dass es nicht einfach is
 ```
     
 
--    `'MenuText'`und `'Tooltip'` des Befehls übersetzt man wie folgt:
+-    `'MenuText'`und `'Tooltip'` des Befehls werden wie folgt übersetzt:
 
 :   
     
@@ -210,6 +220,8 @@ Die Datei {`InitGui.py`} hat kein Attribut **file**, so dass es nicht einfach is
     
 ```
     
+
+
 
 ## Alle Zeichenketten des eigenen Moduls sammeln 
 
@@ -266,7 +278,9 @@ Die Datei {`InitGui.py`} hat kein Attribut **file**, so dass es nicht einfach is
 ```
     
 
-## Sende die .ts Datei an eine Übersetzungsplattform 
+
+
+## Die .ts-Datei an eine Übersetzungsplattform senden 
 
 Es ist an der Zeit, die {`.ts`}-Datei übersetzen zu lassen. Dafür kann man ein Konto auf einer öffentlichen Übersetzungsplattform wie [Crowdin](https://crowdin.com/) oder [Transifex](https://www.transifex.com/) einrichten, oder unser bestehendes [FreeCAD-Addons-Konto bei Crowdin](https://crowdin.com/project/freecad-addons) nutzen, das bereits viele Benutzer hat und somit eine größere Chance, die Datei schnell übersetzen zu lassen, von Leuten, die FreeCAD kennen.
 
@@ -277,14 +291,18 @@ Soll die Datei auf dem FreeCAD-Crowdin-Konto untergebracht werden, hilft [Yorik]
 
 Einige Plattformen wie Crowdin können sich in GitHub integrieren und den gesamten Prozess von Punkt 2, 3 und 4 automatisch durchführen. Dafür kann das FreeCAD-Crowdin-Konto nicht verwendet werden; Man muss sein eigenes Konto einrichten.
 
-## Übersetzungen zusammenführen 
+
+
+## Die Übersetzungen zusammenführen 
 
 Sobald deine `.ts` Datei übersetzt wurde, wenn auch nur teilweise, kannst du die Übersetzungen von der Internetseite herunterladen:
 
 -   Du wirst normalerweise eine `.zip` Datei herunterladen, die eine `.ts` pro Sprache enthält.
 -   Platziere alle übersetzten `.ts` Dateien zusammen mit Deiner Basisdatei `.ts` im `translations/` Ordner.
 
-## Kompiliere die Übersetzungen 
+
+
+## Die Übersetzungen kompilieren 
 
 Nun wird das Programm `lrelease` auf jede vorhandene Datei angewendet:
 
@@ -309,6 +327,8 @@ Es sollte jetzt eine `.qm`-Datei für jede übersetzte `.ts`-Datei vorhanden sei
 
 Das ist alles, was gebraucht wird. Man beachte, dass bestimmte Teile des eigenen Arbeitsbereichs nicht sofort übersetzt werden können, wenn man sich für einen Wechsel der Sprache entscheidet. In diesem Fall muss FreeCAD neu gestartet werden, damit die neue Sprache verwendet wird.
 
+
+
 ## Übersetzungen testen 
 
 1.  In FreeCAD zu einer Sprache wechseln, die man übersetzt hat (z.B. Deutsch)
@@ -317,19 +337,25 @@ Das ist alles, was gebraucht wird. Man beachte, dass bestimmte Teile des eigenen
 
 Ergebnis: Dies sollte die deutsche Übersetzung liefern. Wenn das funktioniert, ist die Basiseinstellung OK. Dann können wir uns etwas anderes ansehen. Beispielsweise sollten Befehlsnamen einen speziellen Kontext benutzen, das ist der in FreeCAD eingetragene Befehlsname.
 
+
+
 ### Wichtige Hinweise 
 
 -   Stelle sicher, dass du einen \*context\* und \*string\* verwendest, der tatsächlich in der ts/qm-Datei vorhanden ist.
 
-## Convenience script 
 
-Yorik maintains a convenience script for the BIM workbench, that can gather, upload and download ts files. You can just copy and adapt that script for your workbench:
+
+## Ein nützliches Skript 
+
+Yorik unterhält ein nützliches Skript für den Arbeitsbereich BIM, das .ts-Dateien sammeln, hochladen und herunterladen kann. Dieses Skript kann einfach kopiert und für den eigenen Arbeitsbereich angepasst werden:
 
 <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
-## Technical details and advanced usage 
 
-In the above examples there are two separate functions being used: `translate()` and `QT_TRANSLATE_NOOP`. You may also run across `tr()` and `QT_TR_NOOP`, which automatically provide the \"context\" argument based on their calling location. These two pairs of functions are fundamentally different.
+
+## Technische Einzelheiten und erweiterte Anwendung 
+
+In den obigen Beispielen wurden zwei separate Funktionen verwendet: `translate()` und `QT_TRANSLATE_NOOP`. Vielleicht stößt man auch auf `tr()` und `QT_TR_NOOP`, die automatisch das Argument \"context\" basierend auf dem Ort, von wo sie aufgerufen werden, bereitstellen. Diese beiden Paare von Funktionen unterscheiden sich grundlegend.
 
 
 `translate()`
@@ -380,9 +406,13 @@ pylupdate myfile.py -ts outfile.ts
 
 The file `outfile.ts` will contain the set of strings that are uploaded to CrowdIn for translation.
 
+
+
 ## Wichtige Verweise 
 
 -   Warum und wie man `openCommand()` Funktionen übersetzen sollte ([forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55869))
+
+
 
 ## Verwandte Seiten 
 

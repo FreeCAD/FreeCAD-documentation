@@ -10,6 +10,8 @@
 
 # Draft Downgrade/es
 
+
+
 ## Descripción
 
 El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando **Borrador Rebajar** rebaja los objetos seleccionados. El resultado depende del número de objetos seleccionados y de su tipo. El comando puede, por ejemplo, deconstruir un sólido 3D en caras separadas y un hilo en aristas separadas. Si se seleccionan dos caras, se crea un objeto [Pieza Corte](Part_Cut/es.md) a partir de ellas. Tenga en cuenta que no todos los objetos pueden ser rebajados. Este comando es la contraparte del comando [Borrador Elevar](Draft_Upgrade/es.md).
@@ -17,7 +19,12 @@ El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando **Bo
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Dos caras superpuestas se rebajan a un objeto Pieza Corte, que se rebaja a una cara. Esa cara se rebaja a continuación a un hilo cerrado, que finalmente se rebajan a aristas separadas.*
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias vías para invocar el comando:
@@ -25,6 +32,11 @@ El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando **Bo
     -   Seleccione la opción **Modificación → <img src="images/Draft_Downgrade.svg" width=16px> Rebajar** en el menú.
     -   Utilice el atajo de teclado: **D** y luego **N**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
+
+
+</div>
+
+
 
 ## Guión
 

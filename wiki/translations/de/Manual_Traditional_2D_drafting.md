@@ -1,5 +1,5 @@
 # Manual:Traditional 2D drafting/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD). Oder du weist schon etwas über Design oder ziehst es vor, Dinge zu zeichnen, bevor du diese baust. In jedem Fall bietet FreeCAD einen eher herkömmlichen Arbeitsbereich, mit Werkzeugen, die in den meisten 2D CAD Anwendungen zu finden sind: Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
@@ -46,7 +46,7 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_04.jpg )
 
--   Wir können ihre Standardfarbe grau in eine schöne Schraffur ändern, indem beide Wände selektiert, die \"Muster\" Eigenschaft auf **Einfach** und die **Mustergröße** auf beispielsweise **0,005** (oder einen anderen Wert) gesetzt werden.
+-   Wir können den Wänden eine schöne Schraffur geben. Beide Wände auswählen, dabei darauf achten, dass ihre Eigenschaften \"Make Face\" auf **`True`** gesetzt ist, dann ihre Eigenschaften **Pattern** auf **Simple** und **Pattern size** nach Belieben auf z.B. **0,005** setzen.
 
 ![](images/Exercise_cabin_05.jpg )
 

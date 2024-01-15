@@ -8,16 +8,26 @@
 
 # Std ViewStatusBar/ru
 
+
+
 ## Описание
 
 The **Std ViewStatusBar** command toggles the display of the [Status bar](Status_bar.md).
+
+
 
 ## Применение
 
 1.  Select the **View → Status bar** option from the menu.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Std Base navi

@@ -1,9 +1,11 @@
 # Dialog creation setting colors/de
-## Einführung
+## Einleitung
 
 Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide](PySide/de.md).
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, **.ui** Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden.
+
+
 
 ## Benutze QColorDialog, um eine Farbe zu bekommen 
 
@@ -30,6 +32,8 @@ if couleur.isValid():
     print("Blue  color ",blue)                  # color format decimal
 
 ```
+
+
 
 ## Benutzen Sie QColorDialog zum Erstellen einer Farbpalette (Standard und benutzerdefiniert) 
 

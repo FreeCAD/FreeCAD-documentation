@@ -1,29 +1,34 @@
 ---
  GuiCommand:
    Name: Draft ToggleDisplayMode
-   MenuLocation: Utilities , Toggle normal/wireframe display
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe
+   MenuLocation: Narzędzia , Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **Shift**+**Space**
-   SeeAlso: Std_ToggleVisibility
+   SeeAlso: Std_ToggleVisibility/pl
 ---
 
 # Draft ToggleDisplayMode/pl
 
-## Description
 
-The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft ToggleDisplayMode** command switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}. When this property is set to {{Value|Wireframe}} only the vertices and edges of an object are visible making it possible to view and select objects behind it.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Przełącz wyświetlanie --- cieniowany z krawędziami / szkieletowe** przełącza właściwość **Tryb wyświetlania** wybranych obiektów pomiędzy {{Value|Cieniowany z krawędziami}} i {{Value|Szkieletowy}}. Gdy ta właściwość jest ustawiona na {{Value|Szkieletowy}}, widoczne są tylko wierzchołki i krawędzie obiektu, co umożliwia przeglądanie i wybieranie obiektów znajdujących się za obiektem.
 
 <img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
-*On the left the larger cube obstructs the cube behind it. On the right the Display Mode of the larger cube is set to Wireframe making it possible to select a face belonging to the smaller cube.*
+*Po lewej większy sześcian zasłania sześcian znajdujący się za nim. Po prawej stronie tryb wyświetlania większego sześcianu jest ustawiony na szkieletowe, co umożliwia wybranie ściany należącej do mniejszego sześcianu.*
 
-## Usage
 
-1.  Select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft ToggleDisplayMode](Draft_ToggleDisplayMode.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
-    -   Use the keyboard shortcut: **Shift**+**Space**.
+
+## Użycie
+
+1.  Wybierz jeden lub więcej obiektów.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> '''Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe'''**.
+    -   Wybierz opcję z menu **Narzędzia → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe**.
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Przełącz wyświetlanie — cieniowany z krawędziami / szkieletowe** z menu kontekstowego okna [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md).
+    -   Użyj skrótu klawiaturowego: **Shift**+**Spacja**.
 
 
 

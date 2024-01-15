@@ -51,7 +51,7 @@ Besides the tools in the toolbar, the following functions are also available in 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → General → Macro → Macro recording settings**.
+Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → Python → Macro → Macro recording settings**.
 
 Downloaded macros should also be placed in this directory.
 
@@ -489,7 +489,7 @@ FreeCAD may need to be configured so the `print()` function of [Python](Python.m
 ![](images/Macro_Install_HowTo_35.png ) 
 *align=center|Going into the preferences editor*
 
-2\. Go to **General** section, and then **Output window → Python interpreter**.
+2\. Go to **Python** section, and then **Output window → Python interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Output window preferences*

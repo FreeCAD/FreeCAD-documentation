@@ -311,11 +311,11 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 <div class="mw-collapsible-content toccolours">
 
-  - <img alt="" src=images/Assembly_GotoRelation.svg  style="width:32px;"> [Relations](Assembly3_GoToRelation/fr.md) : Révèle le groupe Relations (caché par défaut) et sélectionne un objet relation.
+  - <img alt="" src=images/Assembly_GotoRelation.svg  style="width:32px;"> [Relations](Assembly3_GoToRelation/fr.md) : révèle le groupe Relations (caché par défaut) et sélectionne un objet relation.
 
-  - <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Lien objet lié](Std_LinkSelectLinked/fr.md) : Sélectionne l\'objet lié et passe à son document. {{Version/fr|0.19}}
+  - <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Lien objet lié](Std_LinkSelectLinked/fr.md) : sélectionne l\'objet lié et passe à son document. {{Version/fr|0.19}}
 
-  - <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Lien objet lié primaire](Std_LinkSelectLinkedFinal/fr.md) : Sélectionne l\'objet lié le plus profond et passe à son document. {{Version/fr|0.19}}
+  - <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Objet lié le plus profond](Std_LinkSelectLinkedFinal/fr.md) : sélectionne l\'objet lié le plus profond et passe à son document. {{Version/fr|0.19}}
 
 
 </div>
@@ -474,6 +474,7 @@ Comme l\'AppImage ne fonctionne que pour Linux, pour les utilisateurs de Windows
 Il existe de nombreuses façons de créer un assemblage avec Assembly3. Voici la plus simple que vous puissiez faire.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+
 :   *Résultat final de l\'exemple de mise en route. Dans l\'image, l\'atelier Assembly3 est sélectionné, de sorte que ses multiples barres d\'outils sont visibles. Notez que la \"TabBar\" verticale à gauche de l\'arborescence est une extension qui n\'est pas contenu dans FreeCAD standard (peut être installé avec le Gestionnaire des extensions).*
 
 -   Appuyez sur **<img src="images/Std_New.svg" width=16px> [Nouveau](Std_New/fr.md)** pour créer un nouveau fichier FreeCAD

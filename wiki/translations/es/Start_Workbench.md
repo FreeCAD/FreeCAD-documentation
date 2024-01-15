@@ -2,13 +2,13 @@
 
 El <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Inicio del ambiente de trabajo](Start_Workbench/es.md) no es realmente un ambiente de trabajo, es sólo la página que se presenta cuando abres FreeCAD sin ningún documento cargado.
 
-Desde esta interfaz puedes ver información útil y saltar a los archivos abiertos recientemente, ejemplos, la documentación, y las últimas noticias del mundo de FreeCAD. Puedes cambiar cómo se comporta el ambiente de trabajo de inicio, o cambiar el ambiente de trabajo por defecto, en el [Editor de preferencias](Preferences_Editor/es.md) del menú **Edición → Preferencias → Inicio**.
+Desde esta interfaz puedes crear nuevos archivos, saltar hacia entornos de trabajo usados comúnmente con botones de inico rápido (<small>(v0.22)</small> ), ver información útil y saltar a los archivos abiertos recientemente, ver ejemplos, ver la documentación, y obtener las últimas noticias del mundo de FreeCAD. Puedes cambiar cómo se comporta el ambiente de trabajo de inicio, o cambiar el ambiente de trabajo por defecto, en el [Editor de preferencias](Preferences_Editor/es.md) del menú **Edición → Preferencias → Inicio**.
 
-<img alt="Ambiente de trabajo Inicie, ficha de documentos" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
+<img alt="Entorno de trabajo Inicio, pestaña de documentos" src=images/Start_Documents.png  style="width:500px;">
 
-<img alt="Ambiente de trabajo Inicie, pestaña de ayuda" src=images/FreeCad_Start_0.18_help.png  style="width:500px;">
+<img alt="Entorno de trabajo Inicio, pestaña de ayuda" src=images/Start_Help.png  style="width:500px;">
 
-<img alt="Ambiente de trabajo Inicie, ficha de actividad" src=images/FreeCad_Start_0.18_activity.png  style="width:500px;">
+<img alt="Entorno de trabajo Inicio, pestaña de actividad" src=images/Start_Activity.png  style="width:500px;">
 
 
 

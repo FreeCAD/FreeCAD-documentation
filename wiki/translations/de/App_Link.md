@@ -1,5 +1,5 @@
 # App Link/de
-## Einführung
+## Einleitung
 
 <img alt="" src=images/Link.svg  style="width:32px;">
 

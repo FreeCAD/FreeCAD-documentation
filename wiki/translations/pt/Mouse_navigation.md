@@ -7,6 +7,8 @@ Para mais informação sobre selecção de objectos ver [Métodos de selecção]
 
 Para mais informação sobre manipulação de objectos ver [Std TransformManip](Std_TransformManip/pt.md).
 
+
+
 ## Seleccionar uma forma de navegação 
 
 1.  Escolher de entre os seguintes passos:
@@ -18,7 +20,13 @@ Para mais informação sobre manipulação de objectos ver [Std TransformManip](
 4.  Opcionalmente mudar o **Rotation mode**. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
 5.  Se o **CAD** estilo de navegação está seleccionado: opcionalmente mudar a **Enable animation** definição. Ver [Editor de preferências](Preferences_Editor/pt#Navigation.md).
 
+
+
 ## Estilos de navegação disponíveis 
+
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -45,9 +53,14 @@ Em alternativa mantenha pressionados os botões esquerdo e direito do rato e mov
 |Rotate_view_text=Mantenha pressionado o botão do meio do rato e mova o cursor.
 }}
 
+
+
 ### Navegação CAD 
 
 Este é o estilo de navegação predefinido. Permite ao utilizador um controlo simples da visualização e não requer o uso do teclado excepto para fazer múltiplas seleções.
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{CAD Navigation
@@ -59,11 +72,7 @@ Este é o estilo de navegação predefinido. Permite ao utilizador um controlo s
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Clique com o botão esquerdo do rato no objecto que quer seleccionar.
-
-Mantenha pressionada a tecla **Ctrl** para seleccionar vários objectos.
-|Pan_text=Mantenha pressionado o botão do meio do rato e mova o cursor.
-|Pan_mode_text=Pan mode: Mantenha pressionada a tecla **Ctrl**, clique no botão direito do rato uma veze mova o cursor.
-|Zoom_text=Use a roda do rato para aproximar ou afastar (zoom in/out).
+</div>
 
 Clicando com o botão do meio do rato re-centra a vista onde está localizado o cursor.
 |Zoom_mode_text=Zoom mode: Manter pressionadas as teclas **Ctrl** e **Shift**, clicar uma vez no botão direito do rato e depois mova o cursor.
@@ -79,6 +88,8 @@ Com este método o botão do meio do rato pode ser solto depois do botão direit
 
 Utilizadores que usem o rato com a mão direita podem achar este método mais fácil que o primeiro.
 }}
+
+
 
 ### Navegação por Gestos 
 
@@ -109,8 +120,14 @@ Mantenha pressionada a tecla **Alt** se estiver na [Bancada de trabalho de Esbo�
 |Tilt_view_text=Mantenha os botões esquerdo e direito do rato pressionados e mova o cursor para os lados. 
 |Tilt_view_gesture_text=Rodar dois pontos de toque.
 
+<div class="mw-translate-fuzzy">
 Na versão v0.18 este método está desactivado por defeito. Para o activar vá ao **Edit → Preferences → Display**, e desmarque a caixa "Disable touchscreen tilt gesture".
 }}
+
+
+</div>
+
+
 
 ### Navegação por Gestos no Maya 
 
@@ -192,7 +209,7 @@ This style is not based on Autodesk Inventor.
 |Shift=**Shift**
 |Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -215,6 +232,8 @@ The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
@@ -263,6 +282,8 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 }}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Navegação Touchpad 
@@ -270,7 +291,7 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 
 </div>
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 
 <div class="mw-translate-fuzzy">
@@ -295,6 +316,8 @@ Na Navegação Touchpad, não pode fazer \"pan\", nem zoom, nem rodar a vista, a
 
 
 </div>
+
+
 
 ## Suporte de Hardware 
 

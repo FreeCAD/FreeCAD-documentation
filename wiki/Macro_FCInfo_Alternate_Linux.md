@@ -4,9 +4,10 @@
 |Icon=FCInfo.png
 |Description=Gives a series of information on the form. (only for PyQt4)
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/5/53/FCInfo.png ToolBar Icon]
 |Version=1.12
 |Date=2014-03-05
-|SeeAlso=[[Macro_FCInfo]]
+|SeeAlso=[Macro FCInfo](Macro_FCInfo.md)
 }}
 
 ## Description

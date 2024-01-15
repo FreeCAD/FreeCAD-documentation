@@ -39,7 +39,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Cascade](Std_CascadeWindows.md): Cascades the windows.
 
--   [Windows\...](Std_Windows.md): Opens a dialog box from which a window can be activated.
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Windows\...](Std_Windows.md): Opens a dialog box from which a window can be activated.
 
 
 

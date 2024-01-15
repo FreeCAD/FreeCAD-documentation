@@ -1,19 +1,20 @@
 # Macro Loft/fr
 {{Macro/fr
 |Name=Macro Loft
+|Name/fr=Macro Loft
 |Icon=FCCreaLoft.png
 |Description=Crée un lissage avec les polylignes sélectionnées. Spécialement écrit pour faciliter la création de lissage avec les polylignes générées par la [https://www.freecadweb.org/wiki/Macro_Texture Macro Texture] (mais peut convenir et être utilisé pour les lissages communs).
 |Author=Mario52
 |Version=00.04
 |Date=2019-07-03
-|Download=[https://www.freecadweb.org/wiki/images/2/29/FCCreaLoft.png Icône de la barre d'outils]
-|SeeAlso= [32px|FCTexture](File:FCTexture.png.md) [Macro Texture](Macro_Texture/fr.md)
-|FCVersion=All
+|Download=[https://wiki.freecad.org/images/2/29/FCCreaLoft.png Icône de la barre d'outils]
+|FCVersion=Toutes
+|SeeAlso=[Macro Texture](Macro_Texture/fr.md)
 }}
 
 ## Description
 
-Macro spécialement écrite pour un lissage facile avec des lignes générées par la [Macro Texture](Macro_Texture/fr.md) (mais peut convenir et être utilisé pour les lissages courants)
+Macro spécialement écrite pour un lissage facile avec des lignes générées par la [Macro Texture](Macro_Texture/fr.md) (mais peut convenir et être utilisé pour les lissages courants).
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/c477f892233d6abe02df5e97af828ff4/raw/d633193c577e8257ef458b8c1824d1047c3c6613/Macro_FCCreaLoft.FCMacro}}
 
 <img alt="" src=images/Texture_001_Logo.png  style="width:480px;"> 
@@ -49,7 +50,7 @@ Copiez la macro et son icône dans votre répertoire de macro habituelle.
 
 ## Script
 
-L\'icone pour votre barre d\'outils <img alt="" src=images/FCCreaLoft.png  style="width:64px;">
+Icône de la barre d\'outils <img alt="" src=images/FCCreaLoft.png  style="width:64px;">
 
 Téléchargez la macro sur Gist [**Macro_FCCreaLoft.FCMacro**](https://gist.github.com/mario52a/c477f892233d6abe02df5e97af828ff4)
 

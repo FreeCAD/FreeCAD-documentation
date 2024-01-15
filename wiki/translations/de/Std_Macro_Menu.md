@@ -37,8 +37,6 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;">[Makro aufzeichnen\...](Std_DlgMacroRecord/de.md) Öffnet ein Dialogfeld zum Starten einer Makro Aufzeichnungssitzung.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Makroaufzeichnung beenden](Std_MacroStopRecord/de.md) Beendet eine Makro Aufzeichnungssitzung.
-
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;">[Makros\...](Std_DlgMacroExecute/de.md) Öffnet ein Dialogfeld zum Verwalten und Ausführen von Makros.
 
 -   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Zuletzt verwendete Makros: zeigt eine Liste der zuletzt verwendeten Makros, die mit einer Tastenkombination aufgerufen werden können, z.B. **Strg**+**Umschalt**+**1**. Dies kann in den [Einstellungen](Preferences_Editor/de.md) konfiguriert werden.
@@ -58,6 +56,12 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 -   [Treten Sie ein](Std_MacroStepInto/de.md): Eine Ebene tiefer (z.B. Unterprogramm)
 
 -   [Haltepunkt ein/aus](Std_ToggleBreakpoint/de.md): Haltepunkt ein-/ausschalten.
+
+
+
+## Veraltete Werkzeuge 
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Makroaufzeichnung beenden](Std_MacroStopRecord/de.md) Beendet eine Makro Aufzeichnungssitzung. In [Std DialogMakroAufzeichnen](Std_DlgMacroRecord/de.md) integriert. Steht in {{VersionPlus/de|0.22}} nicht zur Verfügung.
 
 
 

@@ -13,19 +13,23 @@ Il a été développé pour organiser les objets dans la [vue en arborescence](t
 
 *Diagramme simplifié des relations entre les objets principaux du programme. La classe `App::DocumentObjectGroup* a une extension qui lui permet de regrouper tout type d'objet. Le Group lui-même n'a pas beaucoup de propriétés.`
 
+
+
 ## Utilisation
 
 1.  Appuyez sur le bouton **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group/fr.md)** dans la barre d\'outils de structure. Un Group vide est créé.
 2.  Pour ajouter des objets à un Group, sélectionnez-les dans la [vue en arborescence](tree_view/fr.md) puis faites-les glisser et déposez-les sur le Group.
 3.  Pour supprimer des objets d\'un Group, faites-les glisser hors du Group et sur l\'étiquette du document en haut de la [vue en arborescence](tree_view/fr.md).
 
-Voir la page [Std Group](Std_Part/fr.md) pour les informations complètes, y compris son utilisation dans un [Script](Std_Part/fr#Script.md).
+Voir la page [Std Group](Std_Group/fr.md) pour les informations complètes, y compris son utilisation dans un [Script](Std_Group/fr#Script.md).
+
+
 
 ## Propriétés
 
 Un [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`) est dérivé de la base [App DocumentObject](App_DocumentObject/fr.md) (`App::DocumentObject` class), par conséquent, il partage toutes les propriétés de ce dernier.
 
-Voir les propriétés dans la page [Std Group](Std_Part/fr.md).
+Voir les propriétés dans la page [Std Group](Std_Group/fr.md).
 
 
 {{Std Base navi

@@ -1,20 +1,22 @@
 # Macro PartToVRML/fr
 {{Macro/fr
 |Name=Macro Macro PartToVRML
+|Name/fr=Macro Macro PartToVRML
 |Icon=PartToVRML.png
-|Description=Cette macro converti un objet Part en objet VRML meshe.
+|Description=Cette macro convertit les pièces sélectionnées en maillages VRML.
 |Author=Easyw-fc
+|Download=[https://wiki.freecad.org/images/f/f8/PartToVRML.png Icône de la barre d'outils]
 |Version=1.9.2
 |Date=2016-02-22
 }}
 
 ## Description
 
-Cette macro converti un objet Parts en objet VRML meshe pour les petites tailles et un chargement plus rapide utilisez (VRML models Kicad et Blender)
+Cette macro convertit les pièces sélectionnées en maillages VRML pour une taille réduite et un chargement plus rapide (modèles VRML compatibles avec Kicad et Blender).
 
 ## Script
 
-L'icône pour votre barre d\'outils ![PartToVRML](images/PartToVRML.png )
+L'icône ![PartToVRML](images/PartToVRML.png )
 
 **Macro_PartToVRML.FCMacro**
 
@@ -35,7 +37,7 @@ L'icône pour votre barre d\'outils ![PartToVRML](images/PartToVRML.png )
     __Comment__ = "This macro creates VRML model of selected object(s), with colors (for Kicad and Blender compatibility)"
     __Web__ = "http://www.freecadweb.org/"
     __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_PartToVRML"
-    __Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_PartToVRML.png"
+    __Icon__  = "https://wiki.freecad.org/images/f/f8/PartToVRML.png"
     __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_PartToVRML.png"
     __Help__ = "start the macro and follow the instructions"
     __Status__ = "stable"

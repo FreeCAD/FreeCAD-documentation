@@ -27,6 +27,8 @@ Il [pannello delle attivitàzioni](task_panel/it.md) appare nella scheda **Azion
 
 </div>
 
+
+
 ## Lavorare con il pannello delle azioni 
 
 Un pannello delle azioni si apre quando viene attivato uno strumento che richiede l\'input dell\'utente, premendo un pulsante della barra degli strumenti o facendo doppio clic su un oggetto. Se lo strumento non necessita dell\'input dell\'utente, produce il suo risultato o termina, ma non visualizza un pannello delle azioni.

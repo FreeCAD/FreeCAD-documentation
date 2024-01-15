@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher BSplinePoleWeight
    Name/fr: Sketcher Poids des points de contrôle B-spline
-   MenuLocation: Esquisse , Outils d'esquisse des B-splines , Poids des points de contrôle B-spline
+   MenuLocation: Esquisse , Affichage , Afficher/masquer les informations d'une B-spline , Afficher/masquer le poids du point de contrôle d'une B-spline
    Workbenches: Sketcher_Workbench/fr
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/fr
@@ -21,7 +21,7 @@ Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une
 
 ## Utilisation
 
-1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Poids des points de contrôle B-spline](Sketcher_BSplinePoleWeight/fr.md)**.
+1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Afficher/masquer le poids du point de contrôle d'une B-spline](Sketcher_BSplinePoleWeight/fr.md)**.
 
 
 

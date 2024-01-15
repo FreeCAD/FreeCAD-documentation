@@ -12,17 +12,13 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Cliccare su <img alt="" src=images/FEM_ElementFluid1D.png_‎  style="width:32px;"> o scegliere **Modello** → **<img src="images/FEM_ElementFluid1D.png_‎" width=32px> Sezione del fluido per il flusso 1D** dal menu principale.
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Sezione fluido per flusso 1D](FEM_ElementFluid1D/it.md)**.
+    -   Seleziona l\'opzione **Model → Geometria dell'Elemento → <img src="images/FEM_ElementFluid1D.svg" width=16px> Sezione fluido per flusso 1D** dal menu.
 2.  Selezionare il tipo di fluido: liquido, gas o canale aperto
-3.  Selezionare il tipo di sezione: Pipe Manning (coefficiente di scabrezza), Pipe Inlet (tubo di aspirazione)ecc.
+3.  Selezionare il tipo di sezione: Pipe Manning (coefficiente di scabrezza), Pipe Inlet (tubo di aspirazione) ecc.
 4.  Inserire i parametri del tipo di sezione.
 5.  Selezionare e aggiungere un bordo.
-
-
-</div>
 
 
 
@@ -34,23 +30,11 @@ Crea un elemento FEM di sezione del fluido per le reti pneumatiche e idrauliche
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Un esempio di impostazione di una rete idraulica è disponibile in: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
 2.  La scheda \*FLUID SECTION viene utilizzata per modellare elementi fluidi per il flusso 1D. Le informazioni sulla scheda sono disponibili in: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

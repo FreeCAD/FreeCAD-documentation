@@ -37,8 +37,6 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Rejestrowanie makrodefinicji \...](Std_DlgMacroRecord/pl.md): otwiera okno dialogowe do uruchomienia nagrywania nowej sesji makrodefinicji.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md): Zatrzymuje bieżącą sesję nagrywania makrodefinicji.
-
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Makrodefinicje \...](Std_DlgMacroExecute/pl.md): Otwiera okno dialogowe do zarządzania i wykonywania makrodefinicji.
 
 -   Opcja <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Ostatnio użyte makrodefinicje: pokazuje listę ostatnio używanych makrodefinicji, które można wywołać np. za pomocą kombinacji klawiszy, **Ctrl** + **Shift** + **1**. Można to skonfigurować w [Preferencjach](Preferences_Editor/pl.md).
@@ -56,6 +54,12 @@ W tym menu dostępne są następujące narzędzia:
 -   [Wejdź do](Std_MacroStepInto/pl.md): Kroki w kodzie.
 
 -   [Przełącz punkt przerwania](Std_ToggleBreakpoint/pl.md): Przełącza punkt przerwania.
+
+
+
+## Narzędzia przestarzałe 
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md): Zatrzymuje bieżącą sesję nagrywania makrodefinicji. Zintegrowano z [Rejestratorem makrodefinicji](Std_DlgMacroRecord/pl.md). Niedostępne w {{VersionPlus/pl|0.22}}.
 
 
 

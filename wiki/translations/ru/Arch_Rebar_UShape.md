@@ -60,10 +60,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 9.  Click **Cancel** to exit the task panel.
 
-:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/UShapeDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar UShape tool*
 
 

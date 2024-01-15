@@ -61,25 +61,6 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 
 
 
-## Программирование
-
-
-**См. так же:**
-
-[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-The 3-Point Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
-
-
-```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
-dim1.Type = "Angle3Pt"
-dim1.References2D=[(view1, 'Vertex1',(view1, 'Vertex4'),(view1, 'Vertex2'))]
-rc = page.addView(dim1)
-```
-
-
-
 
 
 {{TechDraw Tools navi

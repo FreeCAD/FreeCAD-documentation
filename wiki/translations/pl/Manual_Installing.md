@@ -1,95 +1,107 @@
 # Manual:Installing/pl
 {{Manual:TOC}}
 
-FreeCAD uses the [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license; you may download, install, redistribute and use FreeCAD the way you want, regardless of the type of work you\'ll do with it (commercial or non-commercial). You are not bound to any clause or restriction, and the files you produce with it are fully yours. The only thing that the license prohibits, really, is to claim that you programmed FreeCAD yourself!
+Program FreeCAD korzysta z licencji [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License); możesz pobierać, instalować, redystrybuować i używać FreeCAD w dowolny sposób, niezależnie od rodzaju pracy, jaką będziesz z nim wykonywać *(komercyjnej lub niekomercyjnej)*. Nie jesteś związany żadną klauzulą ani ograniczeniem, a pliki, które z nim tworzysz, są w pełni twoje. Jedyną rzeczą, której licencja zabrania, jest twierdzenie, że sam zaprogramowałeś FreeCAD!
 
-FreeCAD behaves the same on Windows, Mac OS and Linux. However, the way to install it differs slightly depending on your platform. On Windows and Mac, the FreeCAD community provides precompiled packages (installers) ready to download; while on Linux, the source code is made available to Linux distributions maintainers who are then responsible for packaging FreeCAD for their specific distribution. As a result, on Linux, you can usually install FreeCAD right from the software manager application.
+FreeCAD zachowuje się tak samo w systemach Windows, Mac OS i Linux. Jednak sposób instalacji różni się nieznacznie w zależności od używanej platformy. W systemach Windows i Mac społeczność FreeCAD zapewnia wstępnie skompilowane pakiety *(instalatory)* gotowe do pobrania; podczas gdy w systemie Linux kod źródłowy jest udostępniany opiekunom dystrybucji Linuksa, którzy są następnie odpowiedzialni za pakowanie FreeCAD dla ich konkretnej dystrybucji. W rezultacie w systemie Linux FreeCAD można zazwyczaj zainstalować bezpośrednio z aplikacji menedżera oprogramowania.
 
-The official FreeCAD download page for Windows and Mac OS is <https://github.com/FreeCAD/FreeCAD/releases>
+Oficjalna strona pobierania FreeCAD dla systemów Windows i Mac OS znajduje się pod adresem <https://github.com/FreeCAD/FreeCAD/releases>.
 
-**FreeCAD versions**
+**Wersje FreeCAD**
 
-The official releases of FreeCAD, that you can find on the page referenced above and in your distribution\'s software manager, are stable versions. However, the development of FreeCAD is fast! New features and bug fixes are added almost every single day. Since it is often a long time between stable releases, you might be interested in trying a more bleeding-edge version of FreeCAD. These development versions, or pre-releases, are uploaded from time to time to the [download page](https://github.com/FreeCAD/FreeCAD/releases) mentioned above, or, if you are using Ubuntu or Fedora, the FreeCAD community also maintains [PPA](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) (Personal Package Archives) and [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) \'daily builds\' which are regularly updated with the most recent changes.
+Oficjalne wydania FreeCAD, które można znaleźć na stronie wymienionej powyżej oraz w menedżerze oprogramowania dystrybucji, są wersjami stabilnymi. Jednak rozwój FreeCAD jest szybki! Nowe funkcje i poprawki błędów są dodawane niemal każdego dnia. Ponieważ między stabilnymi wydaniami często mija dużo czasu, możesz być zainteresowany wypróbowaniem bardziej zaawansowanej wersji FreeCAD. Te wersje rozwojowe lub wersje wstępne są od czasu do czasu przesyłane do [download page](https://github.com/FreeCAD/FreeCAD/releases) wspomnianej powyżej lub, jeśli używasz Ubuntu lub Fedory, społeczność FreeCAD utrzymuje również [PPA](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) (Personal Package Archives) i [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) \"codzienne kompilacje\", które są regularnie aktualizowane o najnowsze zmiany.
 
-If you are installing FreeCAD in a virtual machine, please be aware that the performance might be poor (in some cases unusable) due to the limits of [OpenGL](https://en.wikipedia.org/wiki/OpenGL) support on most virtual machines.
+Jeśli instalujesz FreeCAD na maszynie wirtualnej, pamiętaj, że wydajność może być niska *(w niektórych przypadkach bezużyteczna)* ze względu na ograniczenia obsługi [OpenGL](https://en.wikipedia.org/wiki/OpenGL) na większości maszyn wirtualnych.
 
-### Installing on Windows 
 
-1.  Download an installer (.exe) package corresponding to your version of Windows (32bit or 64bit) from the [download page](https://github.com/FreeCAD/FreeCAD/releases). The FreeCAD installers should work on any windows version starting from Windows 7.
-2.  Double-click the downloaded installer.
-3.  Accept the terms of the LGPL license, this will be one of the few cases where you can really, safely click the \"accept\" button without reading the text. No hidden clauses: ![](images/Freecad-windows-install-01.jpg )
-4.  You can leave the default path here, or change if you wish: ![](images/Freecad-windows-install-02.jpg )
-5.  No need to set the PYTHONPATH variable, unless you plan to do some advanced python programming, in which case you probably already know what this is for: ![](images/Freecad-windows-install-03.jpg )
-6.  During the installation, a couple of additional components, which are bundled inside the installer, will be installed too: ![](images/Freecad-windows-install-04.jpg )
-7.  That\'s it, FreeCAD is installed. You will find it in your start menu. ![](images/Freecad-windows-install-05.jpg )
 
-**Installing a development version**
+## Instalacja w środowisku Windows 
 
-Packaging FreeCAD and creating an installer takes some time and dedication, so usually development (also called pre-release) versions are provided as .zip (or .7z) archives. These don\'t need to be installed; just unpack them and launch FreeCAD by double-clicking the FreeCAD.exe file that you will find inside. This also allows you to keep both the stable and \"unstable\" versions together on the same computer.
+1.  Pobierz pakiet instalacyjny *(.exe)* odpowiadający twojej wersji systemu Windows *(32bit lub 64bit)* ze strony [download page](https://github.com/FreeCAD/FreeCAD/releases). Instalatory FreeCAD powinny działać w każdej wersji systemu Windows, począwszy od Windows 7.
+2.  Kliknij dwukrotnie pobrany instalator.
+3.  Zaakceptuj warunki licencji LGPL, będzie to jeden z niewielu przypadków, w których możesz naprawdę, bezpiecznie kliknąć przycisk \"akceptuj\" bez czytania tekstu. Brak ukrytych klauzul: ![](images/Freecad-windows-install-01.jpg )
+4.  Możesz pozostawić domyślną ścieżkę tutaj lub zmienić, jeśli chcesz: ![](images/Freecad-windows-install-02.jpg )
+5.  Nie ma potrzeby ustawiania zmiennej PYTHONPATH, chyba że planujesz zaawansowane programowanie w Python, w którym to przypadku prawdopodobnie już wiesz, do czego służy: ![](images/Freecad-windows-install-03.jpg )
+6.  Podczas instalacji zostanie zainstalowanych kilka dodatkowych komponentów, które są dołączone do instalatora: ![](images/Freecad-windows-install-04.jpg )
+7.  To wszystko, FreeCAD jest zainstalowany. Znajdziesz go w menu start. ![](images/Freecad-windows-install-05.jpg )
 
-### Installing on Linux 
+**Instalacja wersji rozwojowej**
 
-On most modern Linux distributions (Ubuntu, Fedora, openSUSE, Debian, Mint, Elementary, etc), FreeCAD can be installed with the click of a button, directly from the software management application provided by your distribution (the aspect of it can differ from the images below, each distribution uses its own tool).
+Pakowanie FreeCAD i tworzenie instalatora wymaga trochę czasu i poświęcenia, więc zazwyczaj wersje rozwojowe *(zwane również przedpremierowymi)* są dostarczane jako archiwa .zip *(lub .7z)*. Nie trzeba ich instalować; wystarczy je rozpakować i uruchomić FreeCAD, klikając dwukrotnie plik FreeCAD.exe, który znajdziesz w środku. Pozwala to również na przechowywanie zarówno stabilnych, jak i \"niestabilnych\" wersji na tym samym komputerze.
 
-1.  Open the software manager and search for \"freecad\":
+
+
+## Instalacja w środowisku Linux 
+
+Na większości nowoczesnych dystrybucji Linuksa *(Ubuntu, Fedora, openSUSE, Debian, Mint, Elementary itp.)*, FreeCAD można zainstalować jednym kliknięciem przycisku, bezpośrednio z aplikacji do zarządzania oprogramowaniem dostarczonej przez daną dystrybucję *(jej wygląd może różnić się od przedstawionego na poniższych obrazkach, każda dystrybucja korzysta z własnego narzędzia)*.
+
+1.  Otwórz menedżera oprogramowania i wyszukaj \"freecad\":
     <img alt="" src=images/Freecad-linux-install-01.jpg  style="width:800px;">
-2.  Click the \"install\" button and that\'s it, FreeCAD gets installed. Don\'t forget to rate it afterwards!
+2.  Kliknij przycisk \"zainstaluj\" i to wszystko, FreeCAD zostanie zainstalowany. Nie zapomnij go później ocenić!
     <img alt="" src=images/Freecad-linux-install-02.jpg  style="width:800px;">
 
-**Alternative ways**
+**Alternatywne sposoby**
 
-One of the big joys of using Linux is the multitude of possibilities to tailor your software, so don\'t restrain yourself. On Ubuntu and derivatives, FreeCAD can also be installed from a [PPA](https://launchpad.net/~freecad-maintainers) maintained by the FreeCAD community (it contains both stable and development versions). On Fedora, recent development versions of FreeCAD can be installed from [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), and because this is open source software, you can also easily [compile FreeCAD yourself](Compiling.md).
+Jedną z największych radości korzystania z Linuksa jest mnogość możliwości dostosowania oprogramowania, więc nie ograniczaj się. Na Ubuntu i pochodnych, FreeCAD może być również zainstalowany z [PPA](https://launchpad.net/~freecad-maintainers) utrzymywanego przez społeczność FreeCAD *(zawiera zarówno wersje stabilne, jak i rozwojowe)*. Na Fedorze najnowsze wersje rozwojowe FreeCAD można zainstalować z [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), a ponieważ jest to oprogramowanie open source, można również łatwo [skompilować FreeCAD samodzielnie](Compiling/pl.md).
 
-### Installing on Mac OS 
 
-Installing FreeCAD on Mac OSX is nowadays as easy as on other platforms. However, since there are fewer people in the community who own a Mac, the available packages sometimes lag a few versions behind the other platforms.
 
-1.  Download a zipped package corresponding to your version from the [download page](https://github.com/FreeCAD/FreeCAD/releases).
-2.  Open the Downloads folder, and expand the downloaded zip file: ![](images/Freecad-mac-01.jpg )
-3.  Drag the FreeCAD application from inside the zip to the Applications folder: ![](images/Freecad-mac-02.jpg )
-4.  That\'s it, FreeCAD is installed! ![](images/Freecad-mac-03.jpg )
+## Instalacja w środowisku Mac OS 
 
-5\. If the system prevents FreeCAD from launching due to restricted permissions for applications not coming from the App store, you will need to enable it in the system settings: ![](images/Freecad-mac-04.jpg )
+Instalacja FreeCAD na Mac OSX jest obecnie równie łatwa jak na innych platformach. Ponieważ jednak w społeczności jest mniej osób posiadających komputery Mac, dostępne pakiety czasami pozostają kilka wersji w tyle za innymi platformami.
 
-### Uninstalling
+1.  Pobierz spakowany pakiet odpowiadający Twojej wersji ze strony [pobierania](https://github.com/FreeCAD/FreeCAD/releases).
+2.  Otwórz folder Pobrane i rozpakuj pobrany plik zip: ![](images/Freecad-mac-01.jpg )
+3.  Przeciągnij aplikację FreeCAD z pliku zip do folderu Aplikacje: ![](images/Freecad-mac-02.jpg )
+4.  To wszystko, FreeCAD jest zainstalowany! ![](images/Freecad-mac-03.jpg )
 
-Hopefully you won\'t want to uninstall FreeCAD, but it is good to know how. On Windows and Linux, uninstalling FreeCAD is very straightforward. On Windows, use the standard \"remove software\" option found in the control panel; on Linux, remove it with the same software manager you used to install it. On Mac OS, simply remove it from the Applications folder.
+5\. Jeśli system uniemożliwia uruchomienie FreeCAD z powodu ograniczonych uprawnień dla aplikacji niepochodzących ze sklepu App Store, należy włączyć je w ustawieniach systemu: ![](images/Freecad-mac-04.jpg )
 
-### Setting basic preferences 
 
-Once FreeCAD is installed, you might want to open it and change some preferences. Preference settings in FreeCAD are located under menu **Edit → Preferences**. Listed below are some basic settings you may wish to change; you can browse through the preference pages to see if there is anything else you want to change.
 
-1.  **Language**: (*General* category, *General* tab) FreeCAD will automatically pick the language of your operating system, but you might want to change that. FreeCAD is almost fully translated into five or six languages; others are currently only partially translated. You can easily [help translating FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Auto-load module**: (*General* category, *General* tab) Normally, FreeCAD will start by showing you the start page. You can skip this and begin a FreeCAD session directly in the workbench of your choice, listed under *Startup*, *Auto load module after startup*. [Workbenches](Workbenches.md) will be explained in detail in the [next chapter](Manual_The_FreeCAD_Interface.md).
-3.  **Create new document at startup**: (*General* category, *Document* tab) Combined with the *Auto-load module* option above, if checked this starts FreeCAD ready for work. ![](images/Freecad-basic-options02.jpg )
-4.  **Storage options**: (*General* category, *Document* tab) As with any complex application, FreeCAD likely contains bugs causing it to crash occasionally. Here you can configure options to help you to recover your work in case of a crash.
-5.  **Authoring and license**: (*General* category, *Document* tab) Here you set the values to be used for new files you create. Consider making your files shareable right from the start, by using a friendlier, [copyleft](https://en.wikipedia.org/wiki/Copyleft) license like [Creative Commons](https://creativecommons.org/).
-6.  **Redirect internal python messages**: (*General* category, *Output window* tab) These two options are always good to check, as they will cause messages from the internal python interpreter to show up in the [Report View](Manual:The_FreeCAD_Interface#Report_view.md) when there\'s a problem running a python script. ![](images/Freecad-basic-options03.jpg )
-7.  **Units**: (*General* category, *Units* tab) Here you can set the default units system you wish to use. ![](images/Freecad-basic-options04.jpg )
-8.  **Zoom at cursor**: (*Display* category, *3D* tab) If set, zoom operations will be focused at the mouse pointer. If unset, the center of the current view is the zoom focus.
-9.  **Invert zoom**: (*Display* category, *3D* tab) Inverts the direction of zooming relative to mouse movement. ![](images/FreeCAD-v0-18-Preferences-Display.png )
+### Deinstalacja
 
-### Installing additional content 
+Miejmy nadzieję, że nie będziesz chciał odinstalować FreeCAD, ale dobrze jest wiedzieć, jak to zrobić. W systemach Windows i Linux odinstalowanie FreeCAD jest bardzo proste. W systemie Windows użyj standardowej opcji \"usuń oprogramowanie\" znajdującej się w panelu sterowania; w systemie Linux usuń go za pomocą tego samego menedżera oprogramowania, którego użyłeś do instalacji. W systemie Mac OS wystarczy usunąć go z folderu Aplikacje
 
-As the FreeCAD project and its community grows quickly, and also because it is easy to extend, external contributions and side-projects made by community members and other enthusiasts begin to appear everywhere on the internet. Most of these external projects are workbenches or macros, and can be easily installed right from within FreeCAD via the [Addon Manager](Std_AddonMgr.md) located under menu **Tools**. The addons manager will allow you to install many interesting components, for example:
 
-1.  A [Parts library](https://github.com/FreeCAD/FreeCAD-library), which contains all kinds of useful models, or pieces of models, created by FreeCAD users that can be freely used in your projects. The library can be used and accessed right from inside your FreeCAD installation.
-2.  [Additional workbenches](https://github.com/FreeCAD/FreeCAD-addons), that extend the functionality of FreeCAD for certain tasks, for example animate parts of your models, or areas, such as sheet metal folding or BIM. Further explanations of each workbench and what tools it contains is given on each addon page, that you can visit by clicking the corresponding link on the addon manager.
-3.  A [collection of macros](https://github.com/FreeCAD/FreeCAD-macros), which are also available [on the FreeCAD wiki](Macros_recipes.md) along with documentation about how to use them.
+
+### Ustawianie podstawowych preferencji 
+
+Po zainstalowaniu FreeCAD możesz go otworzyć i zmienić niektóre preferencje. Ustawienia preferencji w FreeCAD znajdują się w menu **Edycja → Preferencje ...**. Poniżej wymieniono kilka podstawowych ustawień, które możesz chcieć zmienić. Możesz przeglądać strony preferencji, aby sprawdzić, czy jest coś jeszcze, co chcesz zmienić.
+
+1.  *Język*: (kategoria *Ogólne*, zakładka *Ogólne*) FreeCAD automatycznie wybierze język systemu operacyjnego, ale możesz chcieć to zmienić. FreeCAD jest prawie w pełni przetłumaczony na pięć lub sześć języków. Inne tłumaczenia są obecnie tylko częściowe. Możesz łatwo [pomóc w tłumaczeniu FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
+2.  **Moduł automatycznego ładowania**: (kategoria **Ogólne**, zakładka **Ogólne**) Normalnie FreeCAD uruchomi się, pokazując stronę startową. Można to pominąć i rozpocząć sesję FreeCAD bezpośrednio w wybranym środowisku pracy, wymienionym w sekcji *Uruchamianie*, *Automatyczne ładowanie modułu po uruchomieniu*. [Środowiska pracy](Workbenches/pl.md) zostaną szczegółowo wyjaśnione w [następnym rozdziale](Manual:The_FreeCAD_Interface/pl.md).
+3.  **Utwórz nowy dokument przy uruchomieniu**: (kategoria *Ogólne*, zakładka *Dokument*) W połączeniu z powyższą opcją *Automatyczne ładowanie modułu*, jeśli jest zaznaczona, uruchamia FreeCAD gotowy do pracy. ![](images/Freecad-basic-options02.jpg )
+4.  *Opcje przechowywania*: (kategoria *Ogólne*, zakładka *Dokument*) Podobnie jak w przypadku każdej złożonej aplikacji, FreeCAD prawdopodobnie zawiera błędy powodujące sporadyczne awarie. Tutaj można skonfigurować opcje, które pomogą odzyskać pracę w przypadku awarii.
+5.  **Autorstwo i licencja**: (kategoria **Ogólne**, zakładka **Dokument**) Tutaj można ustawić wartości, które będą używane dla nowo tworzonych plików. Rozważ udostępnianie plików od samego początku, używając bardziej przyjaznej licencji [copyleft](https://en.wikipedia.org/wiki/Copyleft), takiej jak [Creative Commons](https://creativecommons.org/).
+6.  **Przekieruj wewnętrzne komunikaty Pythona**: (kategoria *Ogólne*, zakładka *Okno wyjściowe*) Te dwie opcje są zawsze dobre do sprawdzenia, ponieważ spowodują, że komunikaty z wewnętrznego interpretera Python pojawią się w [Widoku raportu](Manual:The_FreeCAD_Interface/pl#Widok_raportu.md), gdy wystąpi problem z uruchomieniem skryptu Python. ![](images/Freecad-basic-options03.jpg )
+7.  **Jednostki**: (kategoria *Ogólne*, zakładka *Jednostki*) Tutaj możesz ustawić domyślny system jednostek, którego chcesz używać. ![](images/Freecad-basic-options04.jpg )
+8.  **Powiększ przy kursorze**: (kategoria **Wyświetlanie**, zakładka **3D**) Jeśli opcja ta jest ustawiona, operacje powiększania będą koncentrować się na kursorze myszki. Jeśli opcja nie jest ustawiona, środek bieżącego widoku jest punktem skupienia zoomu.
+9.  **Odwróć powiększenie**: (kategoria *Wyświetlanie*, zakładka *3D*) Odwraca kierunek powiększania względem ruchu kursora myszki. ![](images/FreeCAD-v0-18-Preferences-Display.png )
+
+
+
+### Instalacja dodatkowej zawartości 
+
+Ponieważ projekt FreeCAD i jego społeczność szybko się rozwijają, a także dlatego, że jest on łatwy do rozszerzenia, zewnętrzne wkłady i projekty poboczne tworzone przez członków społeczności i innych entuzjastów zaczynają pojawiać się wszędzie w Internecie. Większość z tych zewnętrznych projektów to środowiska robocze lub makra, które można łatwo zainstalować bezpośrednio z poziomu FreeCAD poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) znajdujący się w menu **Narzędzia**. Menedżer dodatków pozwoli ci zainstalować wiele interesujących komponentów, na przykład:
+
+1.  Biblioteka [Części](https://github.com/FreeCAD/FreeCAD-library), która zawiera wszelkiego rodzaju przydatne modele lub fragmenty modeli stworzone przez użytkowników FreeCAD, które można swobodnie wykorzystywać w swoich projektach. Biblioteka może być używana i dostępna bezpośrednio z poziomu instalacji FreeCAD.
+2.  [Dodatkowe środowiska pracy](https://github.com/FreeCAD/FreeCAD-addons), które rozszerzają funkcjonalność FreeCAD dla niektórych zadań, na przykład animacji części modeli lub obszarów, takich jak składanie blach lub BIM. Dalsze wyjaśnienia dotyczące każdego stołu warsztatowego i narzędzi, które zawiera, znajdują się na stronie każdego dodatku, którą można odwiedzić, klikając odpowiedni link w menedżerze dodatków.
+3.  [Kolekcja makrodefinicji](https://github.com/FreeCAD/FreeCAD-macros), które są również dostępne [na Wiki dla FreeCAD](Macros_recipes/pl.md) wraz z dokumentacją dotyczącą ich użycia.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
-If you are using the Ubuntu operating system, some of the addons above are also available as packages on the [FreeCAD addons PPA](https://launchpad.net/freecad-extras)
+Jeśli korzystasz z systemu operacyjnego Ubuntu, niektóre z powyższych dodatków są również dostępne jako pakiety w serwisie [dodatki FreeCAD PPA](https://launchpad.net/freecad-extras).
 
-**Read more**
+**Więcej informacji:**
 
--   [More download options](Download.md)
--   [FreeCAD PPA for Ubuntu](https://launchpad.net/~freecad-maintainers)
--   [FreeCAD addons PPA for Ubuntu](https://launchpad.net/freecad-extras)
--   [Compile FreeCAD yourself](Compiling.md)
--   [FreeCAD translations](https://crowdin.com/project/freecad)
--   [FreeCAD github page](https://github.com/FreeCAD)
--   [The FreeCAD addons manager](Std_AddonMgr.md)
+-   [Więcej możliwości pobierania](Download/pl.md)
+-   [FreeCAD PPA dla Ubuntu](https://launchpad.net/~freecad-maintainers)
+-   [dodatki FreeCAD PPA dla Ubuntu](https://launchpad.net/freecad-extras)
+-   [Samodzielna kompilacja FreeCAD](Compiling/pl.md)
+-   [tłumaczenie GUI FreeCAD](https://crowdin.com/project/freecad)
+-   [GitHub dla FreeCAD](https://github.com/FreeCAD)
+-   [Menadżer dodatków](Std_AddonMgr/pl.md)
 
 
 

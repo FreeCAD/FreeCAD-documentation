@@ -378,10 +378,10 @@ Lo strumento Dimensione orizzontale può essere utilizzato nelle [macro](macros/
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::DrawViewDimension", "Dimension")
 dim1.Type = "Distance"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
+dim1.References2D=[(view1, "Edge1")]
+page.addView(dim1)
 ```
 
 

@@ -7,6 +7,8 @@
 
 
 
+
+
 ## Panoramica
 
 La funzione **Navigare col mouse** di FreeCAD comprende i comandi utilizzati per navigare visivamente lo spazio 3D e per interagire con gli oggetti visualizzati. FreeCAD offre diversi stili di navigazione con il mouse. Lo stile di navigazione predefinito, denominato [\"Navigazione CAD​​\"](#Navigazione_CAD.md), è molto semplice e pratico, ma FreeCAD fornisce anche diversi stili di navigazione alternativi tra cui puoi scegliere. Lo stile selezionato sarà utilizzato per tutti gli ambienti di lavoro.
@@ -14,6 +16,8 @@ La funzione **Navigare col mouse** di FreeCAD comprende i comandi utilizzati per
 Per ulteriori informazione riguardo la selezione degli oggetti vedere [modi di selezione](Selection_methods/it.md)
 
 Per ulteriori informazioni riguardo la manipolazione degli oggetti vedere [Std TransformManip](Std_TransformManip/it.md)
+
+
 
 ## Selezionare uno stile di navigazione 
 
@@ -24,7 +28,13 @@ Per ulteriori informazioni riguardo la manipolazione degli oggetti vedere [Std T
 2.  Seleziona uno stile dalla lista.
 3.  Facoltativamente cambiare lo **Stile Orbita**: premere il bottone **[<img src=images/NavigationCAD_dark.svg style="width:16px">** sulla [barra di Stato](Status_bar/it.md) e poi scegliere **Impostazioni → Stile Orbita**. Vedere l\'[Editor delle Preferenze](Preferences_Editor/it#Navigazione.md).
 
+
+
 ## Stili di navigazione disponibili 
+
+Con tutti gli stili di navigazione, a meno che non si selezionino oggetti da uno schizzo in modalità di modifica, è necessario tenere premuto **Ctrl** per selezionare più oggetti.
+
+
 
 ### Navigazione Blender 
 
@@ -45,6 +55,8 @@ In alternativa, tenere premuti i pulsanti sinistro e destro del mouse, quindi sp
 |Rotate_view_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
 }}
 
+
+
 ### Navigazione CAD 
 
 Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice controllo della vista, e non richiede l\'uso dei tasti della tastiera se non per effettuare selezioni multiple.
@@ -59,11 +71,9 @@ Questo è lo stile di navigazione predefinito. Consente all\'utente un semplice 
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Premere il tasto sinistro del mouse su un oggetto che si desidera selezionare.
-
-Tenere premuto **Ctrl** per selezionare più oggetti.
-|Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
-|Pan_mode_text=Modalità Traslazione: tenere premuto il tasto **Ctrl**, premere il tasto destro del mouse una volta, quindi muovere il puntatore.
-|Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
+|Pan_text=Tenere premuto il pulsante centrale del mouse, quindi sposta il puntatore.
+|Pan_mode_text=Modalità Pan: tenere premuto il tasto **Ctrl**, premere una volta il pulsante destro del mouse, quindi spostare il puntatore.
+|Zoom_text=Utilizzare la rotellina del mouse per ingrandire e rimpicciolire.
 
 Facendo clic sul pulsante centrale del mouse, la vista viene nuovamente centrata sulla posizione del cursore.
 |Zoom_mode_text=Modalità zoom: tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore.
@@ -79,6 +89,8 @@ Con questo metodo il pulsante centrale del mouse può essere rilasciato dopo ave
 
 Gli utenti che utilizzano il mouse con la mano destra potrebbero trovare questo metodo più semplice del primo metodo.
 }}
+
+
 
 ### Navigazione Gesture 
 
@@ -109,8 +121,10 @@ Tenere premuto **Alt** quando ci si trova in [Sketcher](Sketcher_Workbench/it.md
 |Tilt_view_text=Tenere premuti i pulsanti sinistro e destro del mouse, quindi spostare il puntatore di lato. 
 |Tilt_view_gesture_text=Ruota la linea immaginaria formata da due punti di contatto.
 
-In v0.18 questo metodo è disabilitato per impostazione predefinita. Per abilitarlo, andare in ** Modifica → Preferenze → Visualizzazione** e deselezionare la casella di controllo "Disabilita l'inclinazione touchscreen".
+Questo metodo è disabilitato per impostazione predefinita. Per abilitarlo, andare in ** Modifica → Preferenze → Visualizzazione → Navigazione** e deselezionare la casella di controllo "Disabilita l'inclinazione touchscreen".
 }}
+
+
 
 ### Navigazione Maya-Gesture 
 
@@ -131,6 +145,8 @@ In alternativa, utilizzare la rotellina del mouse per ingrandire e ridurre.
 |Rotate_view_text=Tenere premuto **Alt** e il tasto sinistro del mouse, quindi spostare il puntatore.
 }}
 
+
+
 ### Navigazione OpenCascade 
 
 La navigazione OpenCascade si basa sul modello [OpenCascade](https://www.opencascade.com/).
@@ -149,6 +165,8 @@ La navigazione OpenCascade si basa sul modello [OpenCascade](https://www.opencas
 In alternativa, tenere premuto **Ctrl** e il tasto sinistro del mouse, quindi spostare il puntatore.
 |Rotate_view_text=Tenere premuto **Ctrl** e il tasto destro del mouse, quindi spostare il puntatore.
 }}
+
+
 
 ### Navigazione OpenInventor 
 
@@ -173,6 +191,8 @@ In alternativa, tenere premuto il pulsante centrale del mouse, quindi premere e 
 |Rotate_view_text=Tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
 }}
 
+
+
 ### Navigazione OpenSCAD 
 
 La Navigazione OpenSCAD si basa sul modello [OpenSCAD](https://openscad.org/).
@@ -188,10 +208,15 @@ La Navigazione OpenSCAD si basa sul modello [OpenSCAD](https://openscad.org/).
 |Rotate_view_name=Rotazione vista
 |Shift=**Shift**
 |Select_text=Premere il pulsante sinistro del mouse su un oggetto che si desidera selezionare.
-|Pan_text=Tenere premuto il tasto destro del mouse, quindi spostare il puntatore.
-|Zoom_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore. In alternativa, tenere premuto **Shift** e il pulsante destro del mouse, quindi spostare il puntatore.
+
+Tenere premuto **Ctrl** e **Shift** quando si preme il pulsante del mouse per trascinare un oggetto in uno schizzo in modalità di modifica.
+|Pan_text=Tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
+|Zoom_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
+In alternativa, tenere premuto **Shift** e il pulsante destro del mouse, quindi spostare il puntatore.
 |Rotate_view_text=Tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
 }}
+
+
 
 ### Navigazione Revit 
 
@@ -215,6 +240,8 @@ In alternativa, tenere premuti i pulsanti sinistro e destro del mouse, quindi sp
 In alternativa, tenere premuto il pulsante centrale del mouse, e tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
 }}
 
+
+
 ### Navigazione TinkerCAD 
 
 La Navigazione TinkerCAD si basa sul modello [TinkerCAD](https://en.wikipedia.org/wiki/Tinkercad).
@@ -234,9 +261,11 @@ La Navigazione TinkerCAD si basa sul modello [TinkerCAD](https://en.wikipedia.or
 |Rotate_view_text=Premere il tasto destro del mouse, quindi spostare il puntatore.
 }}
 
+
+
 ### Navigazione Touchpad 
 
-Nella Navigazione touchpad, lo spostamento, lo zoom e la rotazione della vista richiedono un tasto modificatore insieme al touchpad.
+Con la Navigazione touchpad, lo spostamento, lo zoom e la rotazione della vista richiedono un tasto modificatore insieme al touchpad. Questo stile può essere utilizzato anche con il mouse.
 
 
 {{Touchpad Navigation
@@ -256,9 +285,13 @@ Nella Navigazione touchpad, lo spostamento, lo zoom e la rotazione della vista r
 |Rotate_view_alt_text=In alternativa, tenere premuto **Shift** e il pulsante sinistro, quindi spostare il puntatore.
 }}
 
+
+
 ## Supporto Hardware 
 
 FreeCAD supporta anche i [dispositivi di input 3D](3D_input_devices/it.md).
+
+
 
 ## Navigazione consigliata per macOS 
 
@@ -268,9 +301,11 @@ Sui MacBook con trackpad la navigazione gestuale funziona molto bene, ma i gesti
 -   Ruota: trascina con tre dita.
 -   Panoramica: **Ctrl** + tre dita.
 
+
+
 ## Sviluppo di una navigazione personalizzata 
 
-Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD/it.md) orienta gli sviluppatori che desiderano sviluppare un\'opzione di navigazione del mouse personalizzata. È richiesta la familiarità con la sintassi C++.
+Il tutorial [Aggiunta di una nuova opzione di navigazione del mouse a FreeCAD](Adding_a_new_mouse_navigation_option_to_FreeCAD.md) orienta gli sviluppatori che desiderano sviluppare un\'opzione di navigazione del mouse personalizzata. È richiesta la familiarità con la sintassi C++.
 
 
 {{docnav/it

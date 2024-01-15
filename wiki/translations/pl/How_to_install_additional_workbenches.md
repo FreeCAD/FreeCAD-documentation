@@ -39,19 +39,6 @@ Jak zainstalować dodatkowe środowiska pracy i dodatki w systemie Windows
 
 
 
-### Przestarzałe
-
-
-**Uwaga:**
-
-Używanie {{Incode|addons-installer}} nie jest już zalecane. Zalecanym sposobem jest instalacja przez [Menadżera dodatków](Std_AddonMgr/pl.md) we wszystkich systemach.
-
-Użyj [addons-installer z Github](https://github.com/FreeCAD/FreeCAD-addons).
-
-Podczas Google Summer of Code 2016 student Mandeep Singh rozpoczął pracę nad ulepszoną wersją ([dostępne tutaj](https://github.com/mandeeps708/PluginManager)), ale ta wersja wymaga dalszych prac, zanim będzie mogła zostać w pełni zintegrowana z FreeCAD.
-
-
-
 ### Instalacja samodzielna 
 
 

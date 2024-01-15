@@ -16,6 +16,8 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 -   [OpenCASCADE](OpenCASCADE.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Class Diagram 
@@ -25,7 +27,7 @@ Aceasta [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_M
 
 </div>
 
-This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
+This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) 
 
 
 <div class="mw-translate-fuzzy">
@@ -51,6 +53,8 @@ The geometric objects are the building blocks of all topological objects:
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -91,6 +95,8 @@ The following topological data types are available:
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Exemplul rapid: crearea unei topologii simple 
@@ -110,6 +116,8 @@ Acum vom crea o topologie construind-o din geometrie mai simplă. Ca studiu de c
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +153,8 @@ V4 = App.Vector(0, -10, 0)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Arc
@@ -174,6 +184,8 @@ C2 = Part.Arc(V2, VC2, V3)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Linie
@@ -201,6 +213,8 @@ L2 = Part.LineSegment(V3, V4)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Punem totul laolaltă 
@@ -219,6 +233,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -242,6 +258,8 @@ P = W.extrude(App.Vector(0, 0, 10))
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Afișăm totul 
@@ -256,6 +274,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -299,6 +319,8 @@ Vezi pagina [Part API](Part_API.md) pentru o listă completa a metodelor disponi
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Importare modulelor necesare 
@@ -318,6 +340,8 @@ import Part
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -353,6 +377,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -397,6 +423,8 @@ edge.CenterOfMass
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Afișarea formei pe ecran 
@@ -423,6 +451,8 @@ Un obiect va fi creat în documentul nostru FreeCAD, și forma noastră \"muchie
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -474,6 +504,8 @@ wire2.isClosed()
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unei Fațete 
@@ -511,6 +543,8 @@ Numai fațetele vor avea o arie, poliliniile și muchiile nu posedă așa ceva.
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -579,6 +613,8 @@ degrees = math.degrees(radians)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unui Arc de-a lungul punctelor 
@@ -626,6 +662,8 @@ Arcurile sunt muchii valide, ca liniile. Deci, ele pot fi folosite și în polil
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unui poligon 
@@ -644,6 +682,8 @@ lshape_wire = Part.makePolygon([App.Vector(0, 5, 0), App.Vector(0, 0, 0), App.Ve
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -668,6 +708,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -709,6 +751,8 @@ Notă: makePlane acceptă doar Base.Vector() pentru start_pnt and dir_normal dar
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -814,6 +858,8 @@ pentru constructorul Ellipse de mai sus am trecut centrul, MajorRadius and Minor
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unui Tor 
@@ -868,6 +914,8 @@ Codul de mai sus va crea un semtor, numai ultimul parametru este schimbat adică
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unui paralelipiped sau cuboid 
@@ -888,6 +936,8 @@ len(box.Vertexes)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -911,6 +961,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Crearea unui cilindru 
@@ -930,6 +982,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -953,6 +1007,8 @@ semicone = Part.makeCone(10, 0, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1), 1
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Modificarea Formelor geometrice 
@@ -962,7 +1018,7 @@ Sunt mai multe moduri de a modifica forme. Unele sunt operații simple de transf
 
 </div>
 
-There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. {{Top}}
+There are several ways to modify shapes. Some are simple transformation operations such as moving or rotating shapes, others are more complex, such as unioning and subtracting one shape from another. 
 
 
 <div class="mw-translate-fuzzy">
@@ -971,6 +1027,8 @@ There are several ways to modify shapes. Some are simple transformation operatio
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1002,6 +1060,8 @@ Aceasta va muta forma noastră \"myShape\" 2 unități in direcția x .
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Rotația unei forme 
@@ -1018,7 +1078,7 @@ To rotate a shape, you need to specify the rotation center, the axis, and the ro
 myShape.rotate(App.Vector(0, 0, 0),App.Vector(0, 0, 1), 180)
 ```
 
-Codul de mai sus va roti forma cu 180 degrees în jurul axei Z . {{Top}}
+Codul de mai sus va roti forma cu 180 degrees în jurul axei Z . 
 
 
 <div class="mw-translate-fuzzy">
@@ -1077,6 +1137,8 @@ myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Scalarea unei forme geometrice 
@@ -1099,12 +1161,16 @@ myShape=myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Operații Booleene 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1129,6 +1195,8 @@ diff = cylinder.cut(sphere)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Intersection
@@ -1151,6 +1219,8 @@ common = cylinder1.common(cylinder2)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Union
@@ -1171,6 +1241,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1199,6 +1271,8 @@ section.Edges
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1235,6 +1309,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1275,6 +1351,8 @@ Dacă tastați liniile de mai sus în interpretul python, veți câștiga o bun�
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1319,6 +1397,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1373,6 +1453,8 @@ print("Length of the selected edges: ", length)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Exemplul complet : Sticla OCC (Open CASCADE Technology) 
@@ -1394,6 +1476,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1457,6 +1541,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1627,6 +1713,8 @@ Part.show(el)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Paralelipiped găurit 
@@ -1696,6 +1784,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

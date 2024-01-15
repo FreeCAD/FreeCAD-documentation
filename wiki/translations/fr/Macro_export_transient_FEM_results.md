@@ -13,17 +13,23 @@
 
 Cette macro exporte plusieurs objets de résultats FEM d\'une analyse transitoire au format VTK et génère un fichier PVU qui peut être utilisé pour charger les résultats directement dans ParaView pour le post-traitement.
 
+
+
 ## Contexte
 
 Une analyse transitoire dans FreeCAD se termine par un tas d\'objets résultats FEM, un pour chaque horodatage. Les résultats individuels peuvent être analysés directement dans FreeCAD et être post-traités en utilisant [pipelines](FEM_PostPipelineFromResult/fr.md). Cependant, les possibilités dans FreeCAD sont encore limitées, en particulier pour les analyses transitoires. Un meilleur outil pour le post-traitement et la visualisation est ParaView. Vous pouvez exporter des objets individuels de résultats FEM depuis FreeCAD sous forme de fichier .vtk ou .vtu, qui peuvent ensuite être ouverts avec ParaView. Malheureusement, le Workbench FEM ne supporte pas (encore) l\'exportation de plusieurs fichiers .vtk en même temps. C\'est là que cette macro entre en jeu.
+
+
 
 ## Utilisation (pour utilisateurs expérimentés) 
 
 Exécutez la macro sur un projet FreeCAD qui inclut plusieurs objets de résultat FEM à partir d\'une analyse transitoire. Outre le fichier .FCStd, un nouveau dossier \'vtk-export\' sera créé, contenant les résultats individuels (fichiers .vtu) et un fichier .pvu pouvant être ouvert à partir de ParaView.
 
+
+
 ## Utilisation (pas-à-pas avec exemple) 
 
-A titre d\'exemple, le pliage d\'une bande bimétal aluminium/acier est utilisé. Un pas à pas pour créer l\'exemple de fichier est fourni [ici](Transient_FEM_analysis/fr.md), ou vous pouvez télécharger le fichier à partir de la [section téléchargements](#Téléchargements.md) de cette page. Enregistrez le fichier FCMacro dans le dossier de macros FreeCAD, qui peut être trouvé via Edition → Préférences → Général → Macro.
+A titre d\'exemple, le pliage d\'une bande bimétal aluminium/acier est utilisé. Un pas à pas pour créer l\'exemple de fichier est fourni [ici](Transient_FEM_analysis/fr.md), ou vous pouvez télécharger le fichier à partir de la [section téléchargements](#Téléchargements.md) de cette page. Enregistrez le fichier FCMacro dans le dossier de macros FreeCAD, qui peut être trouvé via Edition → Préférences → Python → Macro.
 
 Avec l\'exemple de fichier ouvert, nous allons dans Macro → Macros \..., sélectionnez \"ExportTransientResults_190830.FCMacro\" (ou le nom sous lequel vous l\'avez enregistré) et exécutons la. La macro va maintenant créer un sous-dossier \'vtk-export\' en plus du fichier .FCStd. Selon le nombre et la taille des objets de résultat, cela peut prendre un certain temps. Dans la vue Rapport (Vue → Vue Rapport), nous devrions voir \'Macro finished\' si tout s\'est bien passé - ou quelques messages d\'erreur. (Remarque: Parfois, des messages comme \'PropertyFloatList NOT exported to vtk\' apparaissent mais j\'ai quand même pu travailler avec les fichiers VTK \...) Dans le sous-dossier \'vtk-export\', nous trouverons des fichiers .vtu, un pour chaque résultat défini pour chaque horodatage. De plus, un fichier .pvd est créé, qui indique à ParaView quel jeu de résultats appartient à quel horodatage.
 
@@ -38,6 +44,8 @@ Nous allons plus loin et souhaitons visualiser le pliage réel de la bande. Avec
 <img alt="" src=images/Transient_FEM_Bimetal_ParaView_(1).JPG  style="width:700px;"> 
 
 Le post-traitement que nous venons de faire peut être enregistré comme un \'state\' dans ParaView, qui peut être ouvert à tout moment et même appliqué à un ensemble de résultats différent.
+
+
 
 ## Téléchargements
 
@@ -128,6 +136,8 @@ else:
 
 FreeCAD.Console.PrintMessage('\n<<<Macro finished\n')
 }}
+
+
 
 ## Liens
 

@@ -46,7 +46,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Optionally select an object or a sub-element (vertex, edge or face) that you want to display attributes of.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Label.svg" width=16px> [Draft Label](Draft_Label.md)** button.
+    -   Press the **<img src="images/Draft_Label.svg" width=16px> [Label](Draft_Label.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Label.svg" width=16px> Label** option from the menu.
     -   Use the keyboard shortcut: **D** then **L**.
 3.  The **Label** task panel opens. See [Options](#Options.md) for more information.

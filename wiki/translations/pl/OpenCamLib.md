@@ -1,50 +1,58 @@
 # OpenCamLib/pl
 ## Opis
 
-OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
+OpenCamLib *(OCL)* to biblioteka open source, której celem jest dostarczanie algorytmów komputerowego wspomagania wytwarzania *(CAM)*. FreeCAD wykorzystuje OCL w eksperymentalnie w narzędziu **<img src="images/Path_Surface.svg" width=24px> [Powierzchnia 3D](Path_Surface/pl.md)** i innych funkcjach.
 
-Github: <https://github.com/aewallin/opencamlib>
+GitHub: <https://github.com/aewallin/opencamlib>
 
-Website: <http://www.anderswallin.net/CAM/>
+Strona domowa: <http://www.anderswallin.net/CAM/>
 
-## Installing
+
+
+## Instalacja
+
+
 
 ### Windows
 
-**Note:** Beginning with FreeCAD version 0.19, OCL should be included with all Windows distribution packages.
+**Uwaga:** Począwszy od FreeCAD w wersji 0.19, OCL powinien być dołączony do wszystkich pakietów dystrybucyjnych Windows.
 
-To install OCL on Windows, follow these instructions.
+Aby zainstalować OCL w systemie Windows, postępuj zgodnie z poniższymi instrukcjami.
 
-1.  Obtain the Python version of OpenCamLib (OCL).
-    -   Build from [source](https://github.com/aewallin/opencamlib) using the Python version used by your FreeCAD version. Peter Lama\'s [fork of the same](https://github.com/peterlama/opencamlib) source has project files for a MSVC build.
-    -   Download the Python 2.7 x86/x64 [binary](https://github.com/sgrogan/opencamlib/releases) by sgrogan on GitHub.
-    -   Download the Python 3.6 x64 [binary](https://github.com/sgrogan/opencamlib/releases) by sgrogan on GitHub.
-2.  Navigate to your OCL build *or* binary folder
-3.  Copy the **ocl.pyd** library file
-4.  Proceed with one of the following four(4) options:
-    -   Navigate to your **FreeCAD\\lib** folder, and paste the **ocl.pyd** file there. {{ColoredText||red|(''This is the preferred option.'')}}
-    -   Navigate to your **FreeCAD\\bin** folder, and paste the **ocl.pyd** file there.
-    -   Navigate to your **FreeCAD\\Mod** folder. Create a new folder, **OCL**. Enter the **OCL** folder and paste the **ocl.pyd** file.
-    -   Navigate to your **%USERPROFILE%\\AppData\\Roaming\\FreeCAD** folder. Create a new folder, **Mod**. Enter the **Mod** folder. Create a new **OCL** folder. Enter the **OCL** folder and paste the **ocl.pyd** file. {{ColoredText||red|(''This is the least preferred option.'')}}
-5.  Restart FreeCAD
-6.  Verify proper installation
-    1.  Click **View** → **Panels** → **Python console**.
-    2.  Type \"**import ocl**\" into the Python console and press the **enter** key.
-    3.  If no error appears, you have correctly installed OCL
-        -   If you receive an error:
-            -   Check the placement and name of the **ocl.pyd** file as instructed above
-            -   Verify the correct architecture type of the OCL library you installed - x86 or x64
-            -   Verify the Python version used to build the OCL library is the same as that of your FreeCAD software - 2.7 or 3.6 currently
+1.  Uzyskaj wersję Python OpenCamLib (OCL).
+    -   Zbuduj ze źródła [1](https://github.com/aewallin/opencamlib) używając wersji Python używanej przez twoją wersję FreeCAD. Źródło Petera Lamy [fork of the same](https://github.com/peterlama/opencamlib) zawiera pliki projektu dla kompilacji MSVC.
+    -   Pobierz Python 2.7 x86/x64 [binary](https://github.com/sgrogan/opencamlib/releases) przez sgrogan na GitHub.
+    -   Pobierz Python 3.6 x64 [binarny](https://github.com/sgrogan/opencamlib/releases) przez sgrogan na GitHub.
+2.  Przejdź do folderu binarnego \"or\" kompilacji OCL.
+3.  Skopiuj plik biblioteki **ocl.pyd**.
+4.  Postępuj zgodnie z jedną z następujących czterech(4) opcji:
+    -   Przejdź do folderu **FreeCAD\\lib** i wklej tam plik **ocl.pyd**, {{ColoredText||red||(''To jest preferowana opcja'')}},
+    -   Przejdź do folderu **FreeCAD\\bin** i wklej tam plik **ocl.pyd**,
+    -   Przejdź do folderu **FreeCAD\\Mod**. Utwórz nowy folder **OCL**. Wejdź do folderu **OCL** i wklej plik **ocl.pyd**,
+    -   Przejdź do folderu *%USERPROFILE%\\AppData\\Roaming\\FreeCAD*. Utwórz nowy folder **Mod**. Wejdź do folderu \"Mod\". Utwórz nowy folder \"OCL\". Wejdź do folderu **OCL** i wklej plik **ocl.pyd**. {{ColoredText||red|''(To jest najmniej preferowana opcja)''}}
+5.  Uruchom ponownie FreeCAD.
+6.  Zweryfikuj poprawność instalacji.
+    1.  Kliknij **Widok → Panele → Konsola Python**.
+    2.  Wpisz \"**import ocl**\' w konsoli Python i naciśnij klawisz **enter**.
+    3.  Jeśli nie pojawi się żaden błąd, OCL został poprawnie zainstalowany
+        -   Jeśli pojawi się błąd:
+            -   Sprawdź umiejscowienie i nazwę pliku **ocl.pyd** zgodnie z powyższą instrukcją,
+            -   Sprawdź poprawność typu architektury zainstalowanej biblioteki OCL - x86 lub x64,
+            -   Sprawdź, czy wersja Pythona użyta do zbudowania biblioteki OCL jest taka sama jak wersja oprogramowania FreeCAD - 2.7 lub 3.6.
+
+
 
 ### Linux
 
-The repository is [here](https://github.com/aewallin/opencamlib) and contains basic installation instructions.
+Repozytorium znajduje się [w serwisie GitHub](https://github.com/aewallin/opencamlib) i zawiera podstawowe instrukcje instalacji.
 
-Before beginning installation, or during the installation process, you will probably find you need to install some additional packages:
+Przed rozpoczęciem instalacji lub w jej trakcie, prawdopodobnie konieczne będzie zainstalowanie dodatkowych pakietów:
 
-#### Ubuntu/Debian
 
-For example: {{Code|lang=bash|code=
+
+#### Debian/Ubuntu
+
+Dla przykładu: {{Code|lang=bash|code=
 sudo apt install cmake
 sudo apt install libboost-program-options-dev
 # Optional, for documentation:
@@ -52,14 +60,16 @@ sudo apt-get install doxygen
 sudo apt-get install texlive-full
 }}
 
-Note: the \"libboost-program-options-dev\" may be substituted with \"libboost-all-dev\".
+Uwaga: \"libboost-program-options-dev\" może być zastąpione przez \"libboost-all-dev\".
 
-If you are struggling, carefully review any error messages you get during the cmake and make phases as you may need to install additional packages.
+Jeśli masz trudności, dokładnie przejrzyj wszystkie komunikaty o błędach, które otrzymujesz podczas faz `cmake` i `make`, ponieważ może być konieczne zainstalowanie dodatkowych pakietów.
 
-#### Archlinux
 
-1.  Install OpenCamLib from the [AUR package](https://aur.archlinux.org/packages/opencamlib-git).
-2.  Then run the following code snippet inside FreeCAD\'s [Python console](Python_console.md)
+
+#### Arch Linux 
+
+1.  Zainstaluj OpenCamLib z pakietu [AUR](https://aur.archlinux.org/packages/opencamlib-git).
+2.  Następnie uruchom następujący fragment kodu w [konsoli Python](Python_console/pl.md) programu FreeCAD.
 
 
 {{Code|lang=bash|code=
@@ -68,18 +78,20 @@ sys.path.append('/usr/opencamlib/')
 import ocl
 }}
 
+
+
 #### Python 3 
 
-Identify the version of cmake you have installed with cmake --version
+Zidentyfikuj zainstalowaną wersję cmake za pomocą instrukcji cmake --version
 
-For cmake \>= 3.12, add these flags:
+Dla wersji cmake \>= 3.12 należy dodać te flagi:
 
 
 {{Code|lang=bash|code=
 cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
 }}
 
-For cmake \< 3.12 (like in Ubuntu 18.04, which has 3.10), first you\'ll need to edit src/pythonlib/pythonlib.cmake, and apply this patch:
+Dla wersji cmake \< 3.12 *(jak w Ubuntu 18.04, który ma 3.10)*, najpierw musisz edytować src/pythonlib/pythonlib.cmake i zastosować tę poprawkę:
 
 Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
 ===================================================================
@@ -102,14 +114,16 @@ Index: opencamlib-2019.07/src/pythonlib/pythonlib.cmake
      OUTPUT_STRIP_TRAILING_WHITESPACE
    )
 
-Then, in order for Python 3 to be detected correctly you\'ll need to add 2 more flags to the cmake line:
+Następnie, aby Python 3 był poprawnie wykrywany, należy dodać 2 dodatkowe flagi do linii cmake:
 
 
 {{Code|lang=bash|code=
 cmake -DBUILD_PY_LIB=ON -DUSE_PY_3=ON -DPYTHON_EXECUTABLE="$(which python3)" -DPYTHON_VERSION_SUFFIX=3 -DCMAKE_BUILD_TYPE=Release ../src -Wno-dev
 }}
 
-See the FreeCAD forum at [Re: How to activate openCamLib after compiling it](https://forum.freecadweb.org/viewtopic.php?p=316970#p316988), and a few posts following.
+Zobacz forum FreeCAD pod adresem [Re: Jak aktywować openCamLib po kompilacji](https://forum.freecadweb.org/viewtopic.php?p=316970#p316988) i kilka postów po nim.
+
+
 
 ### Mac
 
@@ -124,7 +138,7 @@ make -j4
 make install
 }}
 
-To test the build enter the following in the [Python console](Python_console.md):
+Aby przetestować kompilację, wprowadź następujące polecenie w [konsoli Python](Python_console/pl.md):
 
 
 ```python
@@ -133,32 +147,36 @@ import ocl
 dir(ocl)
 ```
 
-The return value should be:
+Wartością zwracaną powinna być:
 
 
 ```python
 ['AdaptivePathDropCutter', 'AdaptivePathDropCutter_base', 'AdaptiveWaterline', 'AdaptiveWaterline_base', 'Arc', 'ArcSpanType', 'BallConeCutter', 'BallCutter', 'BatchDropCutter', 'BatchDropCutter_base', 'BatchPushCutter', 'BatchPushCutter_base', 'Bbox', 'BullConeCutter', 'BullCutter', 'CCPoint', 'CCType', 'CLPoint', 'CompBallCutter', 'CompCylCutter', 'ConeConeCutter', 'ConeCutter', 'CutterLocationSurface', 'CylConeCutter', 'CylCutter', 'Ellipse', 'EllipsePosition', 'Fiber', 'Fiber_base', 'Interval', 'Line', 'LineCLFilter', 'LineCLFilter_base', 'LineSpanType', 'MillingCutter', 'Path', 'PathDropCutter', 'PathDropCutter_base', 'Path_base', 'Point', 'STLReader', 'STLSurf', 'STLSurf_base', 'SpanType', 'Triangle', 'Triangle_base', 'Waterline', 'Waterline_base', 'WeaveVertexType', 'ZigZag', 'ZigZag_base', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'eps', 'epsD', 'epsF', 'version']
 ```
 
-In case of an error the return value will be:
+W przypadku błędu, zwracaną wartością będzie:
 
 
 ```python
 ['__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__']
 ```
 
-For cmake the Release option is very important, when using Debug area and ocl will collide and either library will not load (depending on what what was loaded first).
+Dla cmake opcja Release jest bardzo ważna, gdy używasz Debug area i ocl będą kolidować i jedna z bibliotek nie zostanie załadowana *(w zależności od tego, co zostało załadowane jako pierwsze)*.
 
-## More help 
 
-In case you run into difficulties, you may find additional help at these forum posts:
 
--   [Windows](https://forum.freecadweb.org/viewtopic.php?t=19205)
+## Więcej pomocy 
+
+Jeśli napotkasz trudności, możesz znaleźć dodatkową pomoc w tych postach na forum:
+
 -   [Linux](https://forum.freecadweb.org/viewtopic.php?t=18017)
+-   [Windows](https://forum.freecadweb.org/viewtopic.php?t=19205)
 
-## Acknowledgments
 
-Thank you to [Dr. Anders Wallin](http://www.anderswallin.net/about/) for providing OCL to the public.
+
+## Podziękowania
+
+Dziękujemy [Dr Anders Wallin](http://www.anderswallin.net/about/) za udostępnienie OCL do życia publicznego.
 
 
 

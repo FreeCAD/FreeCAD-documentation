@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**표준 인쇄(Std Print)** 명령은 주로 [기술 도면 작업대](TechDraw_Workbench/ko.md) 페이지를 인쇄하기 위한 것이지만 [3D 보기에](3D_view/ko.md) 현재 보이는 것이라면 무엇이든 인쇄할 수 있습니다.
+**표준 인쇄(Std Print)** 명령은 주로 [기술 도면 작업대](TechDraw_Workbench/ko.md) 페이지를 인쇄하기 위한 것이지만 [3D 보기](3D_view/ko.md)에 현재 보이는 것이라면 무엇이든 인쇄할 수 있습니다.
 
 
 </div>

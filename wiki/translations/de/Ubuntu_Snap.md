@@ -1,44 +1,22 @@
 # Ubuntu Snap/de
 ## Einführung
 
-
-<div class="mw-translate-fuzzy">
-
-Ein [Ubuntu Snap](Ubuntu_Snap/de.md) Paket oder einfach nur [Snap](Ubuntu_Snap/de.md) ist ein Distributionsformat, das dem [AppImage](AppImage/de.md) insofern ähnelt, als es als \"universell installierbares Paket\" für die Bereitstellung von Software in Linux Systemen gedacht ist. Snaps wurden von Ubuntu eingeführt, aber sie sollen in allen Linux Distributionen laufen, solange der Snap Daemon, oder `snapd`, im Zielsystem verfügbar ist.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ein [Ubuntu Snap](Ubuntu_Snap/de.md)-Paket oder einfach nur [Snap](Ubuntu_Snap/de.md) ist ein Distributionsformat, das dem [AppImage](AppImage/de.md) insofern ähnelt, als es als \"universell installierbares Paket\" für die Bereitstellung von Software auf Linux Systemen gedacht ist. Snaps wurden von Ubuntu eingeführt, aber sie sollen auf allen Linux-Distributionen laufen, solange der Snap-Daemon, oder `snapd`, auf dem Zielsystem verfügbar ist.
 
 Ein Snap Paket hat zwei Hauptmerkmale:
 
--   Programme sind in einem Sandkasten untergebracht, so dass sie den Rest Ihres Betriebssystems nicht stören.
+-   Programme sind in einem Sandkasten untergebracht, so dass sie den Rest des Betriebssystems nicht stören.
 -   Programme werden automatisch im Hintergrund aktualisiert, um die neueste Version der Anwendung zu erhalten.
-
-
-</div>
 
 Weitere Möglichkeiten zur Installation der Software siehe [Installation unter Linux](Installing_on_Linux/de.md).
 
+
+
 ## Einrichtung
 
+Die Verwendung von Snaps ist experimentell. Die aktuellen Snaps werden von Freiwilligen generiert und bereitgestellt.
 
-<div class="mw-translate-fuzzy">
-
-Ab v0.19 ist die Verwendung von Snaps experimentell. Die aktuellen Snaps werden von Freiwilligen generiert und bereitgestellt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-In allen Systemen, in denen Snaps installiert werden sollen, muss zuerst der Snap Daemon installiert werden. Das Paket heißt normalerweise `snapd`.
-
-
-</div>
+Auf allen Systemen, in denen Snaps installiert werden sollen, muss zuerst der Snap-Daemon installiert werden. Das Paket heißt normalerweise `snapd`.
 
 ### Debian/Ubuntu
 
@@ -159,18 +137,14 @@ xargs -I{} git log --oneline --ancestry-path {}..HEAD
 
 **Note:** The output will indicate what commits **are not** in the current \'edge\' (but will be on the next nightly update).
 
+
+
 ## Verweise
 
+Weitere Informationen über die aktuellen Bemühungen, mit Snaps umzugehen:
 
-<div class="mw-translate-fuzzy">
-
-Weitere Informationen über die aktuellen Bemühungen, mit Snaps umzugehen.
-
--   [0.19 Snap Vorschau benötigt \"Tester\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), ältere Snap von **vejmarie**
--   [Diskussion: Zustand des Snap (Snap Pakete)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), neuere Version des Snap von **ppd**
-
-
-</div>
+-   [0.19 Snap-Vorschau benötigt \"Tester\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), ältere Snap von **vejmarie**. (veraltet)
+-   [Diskussion: Zustand des Snap (Snap Pakete)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), neuere Version des Snap von **ppd**. (veraltet)
 
 ### Repositories
 

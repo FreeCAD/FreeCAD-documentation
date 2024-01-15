@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw Annotation
    Name/pl: Rysunek Techniczny: Wstaw adnotację
-   MenuLocation: TechDraw , Adnotacje , Wstaw adnotację
+   MenuLocation: Rysunek Techniczny , Adnotacje , Wstaw adnotację
    Workbenches: TechDraw_Workbench/pl
-   SeeAlso: Draft_Text/pl, Draft_ShapeString/pl
+   SeeAlso: TechDraw_RichTextAnnotation/pl
 ---
 
 # TechDraw Annotation/pl
-
-
-</div>
 
 
 
@@ -25,43 +22,25 @@ Narzędzie *Wstaw adnotację* dodaje blok tekstu do strony rysunku.
 
 ## Użycie
 
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj wymaganą stronę, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+3.  Naciśnij przycisk **<img src="images/TechDraw_Annotation.svg" width=24px> '''Wstaw adnotację'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Adnotacje → <img src="images/TechDraw_Annotation.svg" width=16px> Wstaw adnotację**.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+5.  Na stronie pojawi się blok tekstowy zawierający *Tekst domyślny*.
+6.  Użyj [Edytora właściwości](Property_editor/pl.md), aby zmienić jego wygląd.
+7.  Opcjonalnie przeciągnij adnotację w inne miejsce.
 
-<div class="mw-translate-fuzzy">
-
-1.  Jeśli w dokumencie znajduje się wiele stron rysunku, należy wybrać żądaną stronę w oknie drzewa.
-2.  Naciśnij przycisk **<img src="images/TechDraw_Annotation.svg" width=24px> '''Wstaw adnotację'''**.
-3.  Na stronie pojawi się blok tekstowy zawierający *Tekst domyślny*. Użyj edytora właściwości, aby dostosować tekst. Przeciągnij adnotację do wymaganej pozycji.
-4.  Może być konieczne naciśnięcie przycisku **<img src="images/Std_Refresh.svg" width=16px> [Odśwież](Std_Refresh/pl.md)** i/lub **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Przerysuj stronę](TechDraw_RedrawPage.md)**, aby zobaczyć zmianę tekstu.
-
-
-</div>
-
-![](images/UpdateAnnotation.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/UpdateAnnotation.png ) 
 *Modyfikowanie adnotacji za pomocą edytora właściwości.*
-
-
-</div>
 
 
 
 ## Uwagi
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Uwaga:**
-
 Niektóre znaki zakłócają wewnętrzną reprezentację tekstu adnotacji. W szczególności są to symbole cudzysłowu `"`, mniejszy niż `<` i większy niż `>`; muszą one zostać zastąpione tagami HTML, odpowiednio `&amp;quot;`, `&amp;lt;` i `&amp;gt;`. Aby uzyskać szczegółowe informacje, zobacz informacje o [Kodowaniu znaków w HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references).
-
-
-</div>
 
 
 

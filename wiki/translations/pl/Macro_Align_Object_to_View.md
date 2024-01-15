@@ -1,26 +1,28 @@
 # Macro Align Object to View/pl
-{{Macro
+{{Macro/pl
 |Name=Macro Align Object to View
 |Icon=Macro_Align_Object_to_View.png
-|Description=This macro aligns the selected object to the current View.
+|Description=Makrodefinicja ta ustawia wybrany obiekt względem bieżącego widoku.
 |Author=Mario52
 |Version=0.1
 |Date=2015-01-16
-|FCVersion=All
+|FCVersion=Wszystkie
 |Download=[https://www.freecadweb.org/wiki/images/f/f4/Macro_Align_Object_to_View.png ToolBar Icon]
-|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Macro_FCCamera](Macro_FCCamera.md)
+|SeeAlso=[32px|FCCamera](File:FCCamera_00.png.md) [Makro FCCamera](Macro_FCCamera/pl.md)
 }}
 
-## Description
+## Opis
 
-This macro aligns and Position the selected object to the current View.
+Makrodefinicja ta wyrównuje i pozycjonuje wybrany obiekt względem bieżącego widoku.
 
-## Usage
+## Użycie
 
--   Direct your view, select your object and run the macro
--   Your object will be the placement of the camera coordinates
+-   Skieruj widok, wybierz obiekt i uruchom makrodefinicję.
+-   Twój obiekt zostanie umieszczony we wskazanym miejscu przez współrzędne ujęcia widoku *(kamery)*.
 
-## Script
+
+
+## Tworzenie skryptów 
 
 ToolBar Icon ![](images/Macro_Align_Object_to_View.png )
 
@@ -52,12 +54,14 @@ App.ActiveDocument.getObject(Nameelement).Placement=pl
 
 }}
 
-## Example
+
+
+## Przykład
 
 
 <center>
 
-Image:Macro Align Object to View 01.png\|Your object in its original position XY. Image:Macro Align Object to View 02.png\|Rotate the screen X? Y? Z? or use this macro [Macro_Rotate_View](Macro_Rotate_View.md) for precise rotation.
+Image:Macro Align Object to View 01.png\|Obiekt w pierwotnym położeniu XY. Image:Macro Align Object to View 02.png\|Obrócić ekran X? Y? Z? lub użyj tej makrodefinicji [Makro Rotate View](Macro_Rotate_View/pl.md) do precyzyjnego obracania.
 
 
 </center>
@@ -65,14 +69,14 @@ Image:Macro Align Object to View 01.png\|Your object in its original position XY
 
 <center>
 
-Image:Macro Align Object to View 03.png\|Select the object and run the macro (the object face the screen). Image:Macro Align Object to View 04.png\|Your object return in the XY display and in its new coordinates position (Placement,Angle)
+Image:Macro Align Object to View 03.png\|Wybierz obiekt i uruchom makro *(obiekt zwrócony w stronę ekranu)*. Image:Macro Align Object to View 04.png\|Twój obiekt powróci na płaszczyźnie XY i w nowej pozycji współrzędnych *(Umiejscowienie, Kąt)*.
 
 
 </center>
 
-## Credits
+## Uznania
 
-Tanks Simplified code to rentlau_64
+Zbiorniki Uproszczony kod do rentlau_64
 
 
 

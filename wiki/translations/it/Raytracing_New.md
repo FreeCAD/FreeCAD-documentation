@@ -70,4 +70,4 @@ Ulteriori configurazioni di progetto richiedono la definizione di modelli aggiun
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/it
+⏵ [documentation index](../README.md) > Raytracing New/it

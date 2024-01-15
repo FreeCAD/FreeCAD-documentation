@@ -1,17 +1,19 @@
 ---
  GuiCommand:
    Name: SheetMetal Forming
-   Name/pl: Formowanie blach
-   MenuLocation: SheetMetal , Wykonaj formowanie na ścianie
+   Name/pl: Arkusz Blachy: Wykonaj formowanie w ściance
+   MenuLocation: SheetMetal , Wykonaj formowanie w ściance
    Workbenches: SheetMetal_Workbench/pl
    Shortcut: **M** **F**
 ---
 
 # SheetMetal Forming/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **Formowanie blach** tworzy wytłoczenie w powierzchni blachy przy użyciu oddzielnego obiektu bryłowego.
+Narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **Wykonaj formowanie w ściance** tworzy wytłoczenie w powierzchni blachy przy użyciu oddzielnego obiektu bryły.
 
 Tylna ściana bryły definiującej kształt oraz ściana, która ma zostać wytłoczona, są używane do pozycjonowania i orientowania bryły, tzn. ich lokalne układy współrzędnych będą miały domyślnie ten sam początek i tę samą orientację. Kąt wokół osi Z oraz przesunięcia w kierunku X, Y i Z można zmienić, zmieniając ich wartości w [Edytorze właściwości](Property_editor/pl.md).
 
@@ -22,9 +24,13 @@ Mały prezentacja mozliwości, które mogą być tworzone:
 <img alt="" src=images/SheetMetal_Forming-08.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-09.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-10.png  style="width:200px;"> <img alt="" src=images/SheetMetal_Forming-11.png  style="width:200px;"> 
 *wgłębienia, żaluzje, rysowane wycięcia, mostki*
 
+
+
 ## Użycie
 
 Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jest aktywną bryłą. W razie potrzeby kliknij na nią dwukrotnie w [Widoku drzewa](Tree_view/pl.md).
+
+
 
 ### Wgłębienia
 
@@ -37,6 +43,8 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
     -   W menu należy wybrać **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=24px> Wykonaj formowanie w ścianie**.
     -   Skrót klawiaturowy: **M** a następnie **F**.
 
+
+
 ### Żaluzje
 
 1.  Wybierz powierzchnię obiektu Arkusz blachy, która ma zostać wytłoczona.
@@ -45,6 +53,8 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 4.  Dodaj do zaznaczenia \"boczną ścianę\" przylegającą do dolnej ściany, aby wskazać miejsce cięcia.
 5.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
 6.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Formowanie blach](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
+
+
 
 ### Mostki
 
@@ -56,6 +66,8 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 6.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
 7.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> [Formowanie blach](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
 
+
+
 ### Rysowane wycięcia 
 
 1.  Wybierz powierzchnię obiektu Arkusz blachy, który ma zostać wytłoczony.
@@ -65,6 +77,8 @@ Upewnij się, że bryła zawierająca obiekt, który ma zostać wytłoczony, jes
 5.  Zwolnij klawisz **Ctrl** *(lub klawisz **Command**)*.
 6.  Aktywuj narzędzie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;">. [Formowanie blachy](SheetMetal_Forming/pl.md) *(patrz wyżej)*.
 
+
+
 ### Powielanie i tworzenie wzoru 
 
 Aby powielić i nadać wzór wytłoczonemu elementowi, można dodać **szkic** zawierający okręgi i łuki do właściwości obiektu **Formowanie Ściany** **Szkic**. Szkic wzoru musi być *współpłaszczyznowy* z powierzchnią, która ma podlegać wytłoczeniu.
@@ -72,6 +86,8 @@ Aby powielić i nadać wzór wytłoczonemu elementowi, można dodać **szkic** z
 Punkty środkowe okręgów lub łuków są używane do zapewnienia pozycji do umieszczenia wystąpień wytłoczonego elementu, nie mają one wpływu na orientację wystąpień.
 
 Orientacja nadal zależy od orientacji pierwszej wybranej ściany.
+
+
 
 ### Dodawanie zaokrągleń 
 
@@ -84,6 +100,8 @@ Orientacja nadal zależy od orientacji pierwszej wybranej ściany.
 5.  Wybierz krawędź w dolnej części obiektu Arkusz blachy, która ma zostać zaokrąglona.
 6.  Aktywuj <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Zaokrąglenie](PartDesign_Fillet/pl.md) *(patrz wyżej)*.
 
+
+
 ## Uwagi
 
 Geometria wytłoczona nie ogranicza się do ścian planarnych i połączeń cylindrycznych, dlatego po zastosowaniu takiej geometrii na obiekcie typu Arkusz blachy **obiekt nie będzie już rozkładalny**.
@@ -92,11 +110,15 @@ Formowanie można wyłączyć *(ustawiając właściwość **Pomiń cechę** na 
 
 Formowanie i zaokrąglenia powinny być ostatnimi krokami przy tworzeniu obiektu typu arkusz blachy.
 
+
+
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Formowanie blach wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
@@ -131,6 +153,8 @@ Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg zn
 
 -    **Szkic|Link**: \"Szkic punktu na blasze\". Link do szkicu zawierającego informacje jak zwielokrotnić i rozmieścić wystąpienia narzędzia formującego. *(Punkty środkowe okręgów i łuków są używane do tworzenia i pozycjonowania tych wystąpień)*.
 
+
+
 ## Przykład
 
 <img alt="" src=images/SheetMetal_Forming-01.png  style="width:300px;"> <img alt="" src=images/SheetMetal_Forming-02.png  style="width:300px;"> 
@@ -150,6 +174,8 @@ Tutaj nie ma potrzeby pracy z szkicami współplanarnymi.
 
 <img alt="" src=images/SheetMetal_Forming-03.png  style="width:200px;"> 
 *Arkusz blachy metalowej miski i obiekt do wytłaczania*
+
+
 
 ### Przepływ pracy 
 

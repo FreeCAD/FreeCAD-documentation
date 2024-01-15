@@ -98,13 +98,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md).
-
-
-</div>
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Path-Auftrag auf typische Fehler überprüfen](Path_Sanity/de.md): Überprüft den ausgewählten Auftrag auf fehlende Werte.
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren.
 
@@ -112,13 +106,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 ### Werkzeugbefehle
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [G-Code untersuchen](Path_Inspect/de.md): Zeigt den G-code zur Überprüfung.
-
-
-</div>
+-   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path-Befehle untersuchen](Path_Inspect/de.md): Zeigt den G-code zur Überprüfung an.
 
 -   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator/de.md): Zeigt die Fräsbearbeitung wie sie auf der Maschine durchgeführt wird.
 
@@ -140,13 +128,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Bohren](Path_Drilling/de.md): Führt einen Bohrzyklus durch.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Fläche](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
-
-
-</div>
+-   <img alt="" src=images/Path_MillFace.svg  style="width:32px;"> [Fläche](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
 
 -   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/de.md): Erzeugt eine spiralförmige Bahn.
 
@@ -164,13 +146,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 ### 3D-Bearbeitungen 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D-Tasche.
-
-
-</div>
+-   <img alt="" src=images/Path_Pocket_3D.svg  style="width:32px;"> [3D-Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D-Tasche.
 
 -   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Oberfläche](Path_Surface/de.md): Erstellt einen Pfad für eine 3D-Oberfläche. [**Experimentell**](Path_experimental/de.md).
 
@@ -182,53 +158,17 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_DressupAxisMap.svg  style="width:32px;"> [Axis Map](Path_DressupAxisMap.md): Remaps one axis to another.
 
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Begrenzung](Path_DressupPathBoundary/de.md): Fügt eine Randaufbereitungsänderung einem ausgewählten Pfad hinzu.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Hundeknochen](Path_DressupDogbone/de.md): Fügt eine Hundeknochen-Aufbereitungsänderung einem ausgewählten Pfad hinzu.
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Randaufbereitung](Path_DressupPathBoundary/de.md): Fügt eine Randaufbereitungsänderung einem ausgewählten Pfad hinzu.
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Schleppmesser](Path_DressupDragKnife/de.md): Fügt eine Schleppmesser-Aufbereitungsänderung einem ausgewählten Pfad hinzu.
 
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [An/Abfahren](Path_DressupLeadInOut/de.md): Fügt einen Anfahr- und/oder Abfahrpunkt einem ausgewählten Pfad hinzu.
 
-</div>
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Eingangsrampe](Path_DressupRampEntry/de.md): Fügt dem ausgewählten Pfad eine vertikale Anfahrrampe hinzu.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Hundeknochen Aufbereitung](Path_DressupDogbone/de.md): Fügt eine Hundeknochen Aufbereitungsänderung einem ausgewählten Pfad hinzu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Ziehmesser Aufbereitung](Path_DressupDragKnife/de.md): Fügt eine Ziehmesser Aufbereitungsänderung einem ausgewählten Pfad hinzu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [EinAusAusführung Aufbereitung](Path_DressupLeadInOut/de.md): Fügt einen Einführungs- und/oder Ausführungspunkt einem ausgewählten Pfad hinzu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Anfahrrampen Aufbereitung](Path_DressupRampEntry/de.md): Fügt dem ausgewählten Pfad eine vertikale Anfahrrampe hinzu.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Aufbereitung](Path_DressupTag/de.md): Fügt dem ausgewählten Pfad eine Erweiterung für Haltestege zu.
-
-
-</div>
+-   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Haltesteg](Path_DressupTag/de.md): Fügt dem ausgewählten Pfad eine Erweiterung für Haltestege zu.
 
 -   <img alt="" src=images/Path_DressupZCorrect.svg  style="width:32px;"> [Z Depth Correction](Path_DressupZCorrect.md): Corrects the Z depth using Probe Map.
 

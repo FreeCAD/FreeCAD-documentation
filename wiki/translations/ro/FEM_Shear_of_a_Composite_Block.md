@@ -20,6 +20,8 @@
 
 </div>
 
+## Introduction
+
 
 <div class="mw-translate-fuzzy">
 
@@ -29,6 +31,8 @@
 
 
 </div>
+
+## Geometry
 
 
 <div class="mw-translate-fuzzy">
@@ -52,6 +56,8 @@ Apoi evidențiați cele două blocuri ale arborelui și creați un obiect Boolea
 
 <img alt="" src=images/Pic2.png  style="width:700px;">
 
+## Mesh and Mesh Regions 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -72,7 +78,13 @@ Acum este creat un obiect Mesh în Arborele Obiect. Evidențiați acest obiect �
 
 <img alt="" src=images/Pic3.png  style="width:700px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Apoi, creați un obiect Mesh nou ca mai sus și utilizați macrocomanda de selecție (comanda rapidă S, E) pentru a selecta obiectul Cube_Core din fereastra grafică. De această dată lista de referințe ar trebui să afișeze \"CompoundFilter: Solid2\", după cum urmează. Am ales o dimensiune maximă a elementului de 1mm.
+
+
+</div>
 
 Notă1: Selecția \"CompoundFilter: Solid2\" necesită selectarea uneia dintre fețele sale.
 
@@ -102,7 +114,13 @@ Materialul este alocat regiunilor Mesh printr-un obiect SolidMaterial. În acest
 
 <img alt="" src=images/Pic5.png  style="width:700px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Repetați procedura de mai sus pentru Core (\"CompoundFilter: Solid2\") cu ajutorul macrocomenzii de selecție. De data aceasta atribuim CalciX-Steel, care este mult mai rigid decât materialul ABS pentru Matrix.
+
+
+</div>
 
 
 
@@ -137,6 +155,8 @@ Pentru a crea o condiție \"Shear Simple\" pentru blocul compozit, deformările 
 Pentru a preveni mișcarea rigidă a corpului în planul de alunecare, trebuie eliminate trei grade independente de libertate. Pentru a realiza acest lucru, un vârf în planul de alunecare este constrâns în direcțiile x și y (eliminând 2 grade de libertate) și un vârf este fixat în direcția x (eliminând ultimul grad de libertate). În acest scop sunt create două obiecte suplimentare FemConstraintDisplacement și rezultatul este prezentat mai jos.
 
 <img alt="" src=images/Pic7.png  style="width:700px;">
+
+## Shear Forces 
 
 
 <div class="mw-translate-fuzzy">

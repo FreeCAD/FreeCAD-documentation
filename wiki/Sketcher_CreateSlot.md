@@ -4,6 +4,7 @@
    MenuLocation: Sketch , Sketcher geometries , Create slot
    Workbenches: Sketcher_Workbench
    Shortcut: **G** **S**
+   SeeAlso: Sketcher_CreateArcSlot
 ---
 
 # Sketcher CreateSlot

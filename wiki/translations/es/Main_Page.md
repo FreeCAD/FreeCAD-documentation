@@ -36,7 +36,13 @@ Este es la documentación wiki de [FreeCAD](http://www.freecadweb.org). Hay vari
 
 ## Tabla de contenidos 
 
+
+<div class="mw-translate-fuzzy">
+
 La siguiente tabla lista todos los artículos de esta wiki, esa forma el respaldo de la documentación fuera de linea enviada con la aplicación FreeCAD, esta disponible en varios idiomas.
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

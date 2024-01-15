@@ -11,19 +11,25 @@
 
 # Draft Hatch/de
 
+
+
 ## Beschreibung
 
 The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch** command creates hatches on the planar faces of a selected object.
+
+
 
 ## Anwendung
 
 1.  Select an object with faces. Only the planar faces of the object will be hatched.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Draft Hatch](Draft_Hatch.md)** button.
+    -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Hatch](Draft_Hatch.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
     -   Use the keyboard shortcut: **H** then **A**.
 3.  The **Hatch** task panel opens. See [Options](#Options.md) for more information.
 4.  Press the **OK** button to finish the command.
+
+
 
 ## Optionen
 
@@ -32,6 +38,8 @@ The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch**
 -   Specify a **Scale** for the pattern.
 -   Specify a **Rotation** for the pattern.
 -   Press **Esc** or the **Cancel** button to abort the command.
+
+
 
 ## Schraffurausrichtung
 
@@ -47,6 +55,8 @@ For the Draft Hatch on the left the Translate property is set to false.<br>
 For the Draft Hatch on the right it is set to true.
 *
 
+
+
 ## Hinweise
 
 -   For now the advice is to download a PAT file. Many can be found online. You can for example do a web search for **acad.pat** or **acadiso.pat**.
@@ -54,6 +64,8 @@ For the Draft Hatch on the right it is set to true.
     -   On Linux it is usually **/usr/share/freecad**.
     -   On Windows it is usually **C:\Program Files\FreeCAD**.
     -   On macOS it is usually **/Applications/FreeCAD**.
+
+
 
 ## Einstellungen
 
@@ -66,11 +78,15 @@ The following preferences are involved:
 -   Scale: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternScale**.
 -   Rotation: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → HatchPatternRotation**.
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Daten
 
@@ -88,6 +104,8 @@ A Draft Hatch object is derived from a [Part Feature](Part_Feature.md) object an
 -    **Scale|Float**: specifies the scale of the pattern.
 
 -    **Translate|Bool**: specifies if the faces are temporarily translated to the global XY plane during the hatching process. Setting it to `False` may give wrong results for non-XY faces.
+
+
 
 ## Skripten
 

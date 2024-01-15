@@ -30,7 +30,7 @@ La commande **Std Bascule mode édition** active ou désactive le mode d\'éditi
 -   Certains outils seront désactivés (grisés) dans l\'interface utilisateur lorsque le mode d\'édition d\'un objet est actif.
 -   Tous les types d\'objets n\'ont pas de mode d\'édition.
 -   La fonctionnalité disponible en mode édition dépend du type d\'objet.
--   Le mode d\'édition d\'un objet peut également être activé en double-cliquant sur l\'objet dans la [Vue en arborescence](Tree_view/fr.md). Dans ce cas, le mode d\'édition utilisé peut être défini avec la commande [Std Mode d\'édition](Std_UserEditMode/fr.md).
+-   Le mode d\'édition d\'un objet peut également être activé en double-cliquant sur l\'objet dans la [vue en arborescence](Tree_view/fr.md). Dans ce cas, le mode d\'édition utilisé peut être défini avec la commande [Std Mode d\'édition](Std_UserEditMode/fr.md).
 
 
 

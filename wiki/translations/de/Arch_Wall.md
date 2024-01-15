@@ -36,40 +36,45 @@ Wenn sich mehrere Wände überschneiden sollen, musst du diese in eine [Etage](A
 
 ### Zeichnen einer neuen Wand 
 
-1.  Drücke die **<img src="images/Arch_Wall.svg" width=16px> [Arch Wand](Arch_Wall/de.md)**Schltfläche oder drücke die **W**- und **A**-Tasten
-2.  Klicke einen ersten Punkt in der 3D-Ansicht oder gib eine Koordinate ein.
-3.  Klicke einen zweiten Punkt in der 3D-Ansicht oder gib eine weitere Koordinate ein.
+1.  Die Schaltfläche **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** drücken oder die Tasten **W** und dann **A**.
+2.  Einen ersten Punkt in der 3D-Ansicht anklicken oder die Koordinaten eingeben.
+3.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder die Koordinaten eingeben.
 
 
 
 ### Zeichnen einer Wand auf einem ausgewählten Objekt 
 
-1.  Wähle ein oder mehrere Basisgeometrieobjekte (Entwurfsobjekt, Skizze, usw.)
-2.  Drücke die **<img src="images/Arch_Wall.svg" width=16px> [Architektur Wand](Arch_Wall/de.md)** Schaltfläche, oder drücke die **W** und dann **A** Tasten
-3.  Passe die benötigten Eigenschaften wie Höhe oder Breite an.
+1.  Ein oder mehrere Basisgeometrieobjekte (Draft-Objekt, Skizze, usw.) auswählen.
+2.  Die Schaltfläche **<img src="images/Arch_Wall.svg" width=16px> [Wand](Arch_Wall/de.md)** drücken oder die Tasten **W** und dann **A**.
+3.  Die benötigten Eigenschaften wie Höhe oder Breite anpassen.
 
 
 
 ## Optionen
 
+-   Wände haben die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch-Komponenten](Arch_Component/de.md).
 
-<div class="mw-translate-fuzzy">
+-   Die Höhe, Dicke und Ausrichtung einer Wand können während des Zeichnens über den Aufgaben-Bereich festgelegt werden.
 
--   Wände haben die gemeinsamen Eigenschaften und Verhaltensweisen aller [Architektur Komponenten](Arch_Component/de.md).
--   Die Höhe, Dicke und Ausrichtung einer Wand können während des Zeichnens über das Aufgabenpaneel festgelegt werden.
--   Wenn eine Wand an eine bestehende Wand gefangen wird, werden beide Wände zu einer Wand verbunden. Die Art und Weise, wie die beiden Wände miteinander verbunden werden, hängt von ihren Eigenschaften ab: Wenn sie die gleiche Breite, Höhe und Ausrichtung haben und wenn die Option \"Basisskizzen verbinden\" in den Architektur Voreinstellungen aktiviert ist, wird die resultierende Wand ein einziges Objekt sein, das auf einer Skizze basiert, die aus mehreren Segmenten besteht. Andernfalls wird die letztere Wand der ersten als Zusatz hinzugefügt.
--   Drücke **X**, **Y** oder **Z** nach dem ersten Punkt, um den zweiten Punkt auf der gegebenen Achse zu beschränken.
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen und drücke dann **Eingabe** zwischen jeder X, Y und Z Komponente.
--   Drücke **R** oder klicken das Kontrollkästchen, um die **Relativ** Schaltfläche zu aktivieren/deaktivieren. Wenn der Relativ Modus eingeschaltet ist, sind die Koordinaten des zweiten Punktes relativ zum ersten Punkt. Wenn nicht, sind sie absolut, ausgehend vom (0,0,0) Ursprungspunkt.
--   Drücke **Umschalten**, während des Zeichnens [beschränken](Draft_Constrain/de.md) des zweiten Punkts horizontal oder vertikal in Bezug zum ersten.
--   Drücke **Esc** oder die **Abbrechen**Schaltfläche, um den aktuellen Befehl abzubrechen.
+-   Wenn eine Wand an einer bestehende Wand einrastet, werden beide Wände zu einer Wand verbunden. Die Art und Weise, wie die beiden Wände miteinander verbunden werden, hängt von ihren Eigenschaften ab: Wenn sie die gleiche Breite, Höhe und Ausrichtung haben und wenn die Option \"Basisskizzen verbinden\" in den Arch-Voreinstellungen aktiviert ist, wird die resultierende Wand ein einziges Objekt sein, das auf einer Skizze basiert, die aus mehreren Segmenten besteht. Andernfalls wird die letztere Wand der ersten als Zusatz hinzugefügt.
+
+-   Nach dem ersten Punkt **X**, **Y** oder **Z** drücken, um den zweiten Punkt auf die eingegebene Achse festzulegen.
+
+-   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke jeweils **Eingabe** zwischen den X-, Y- und Z-Komponenten.
+
+-    **R**drücken oder auf das Kontrollkästchen klicken, um die Schaltfläche **Relativ** zu aktivieren/deaktivieren. Wenn der Relativ-Modus eingeschaltet ist, sind die Koordinaten des zweiten Punktes relativ zum ersten Punkt. Wenn nicht, sind sie absolut, ausgehend vom (0,0,0) Ursprungspunkt.
+
+-    **Umschalten**während des Zeichnens drücken, um den zweiten Punkt horizontal oder vertikal in Bezug zum ersten [festzulegen](Draft_Constrain/de.md).
+
+-    **Esc**oder die Schaltfläche **Abbrechen** drücken, um den aktuellen Befehl abzubrechen.
+
 -   Doppelklicken auf die Wand in der Baumansicht nach ihrer Erstellung erlaubt dir in den Bearbeitungsmodus wechseln und auf deine Additionen und Subtraktionen zuzugreifen und sie zu ändern.
--   Mehrschichtige Wände können leicht erstellt werden, indem mehrere Wände von derselben Grundlinie aus gebaut werden. Durch setzen ihrer Ausrichtungseigenschaft entweder auf links oder rechts und Angae eines Versatz Wertes, kannst du effektiv mehrere Wandschichten konstruieren. Platzieren eines Fensters in einer solchen Wandschicht, wird die Öffnung auf die anderen Wandschichten auf der gleichen Grundlinie übertragen.
+
+-   Mehrschichtige Wände können leicht erstellt werden, indem mehrere Wände von derselben Grundlinie aus gebaut werden. Durch setzen ihrer Ausrichtungseigenschaft entweder auf links oder rechts und Angabe eines Versatzwertes, kannst du effektiv mehrere Wandschichten konstruieren. Wird ein Fenster in einer solchen Wandschicht plaziert, wird die Öffnung auch auf die anderen Wandschichten übertragen, die auf derselben Grundlinie basieren.
+
 -   Wände können auch [Multimaterialien](Arch_MultiMaterial/de.md) verwenden. Wenn ein Multimaterial verwendet wird, wird die Wand mehrschichtig, wobei die durch das Multimaterial vorgegebenen Dicken verwendet werden. Bei jeder Schicht mit einer Dicke von Null wird die Dicke automatisch durch den verbleibenden Raum definiert, der durch den Wert für die Wandbreite definiert ist, nachdem die anderen Schichten abgezogen wurden.
--   Wände können zur Anzeige von Blöcken anstelle eines einzelnen Festkörpers gemacht werden, indem ihre Eigenschaft **Blöcke machen** eingeschaltet wird. Die Größe und der Versatz von Blöcken kann mit verschiedenen Eigenschaften konfiguriert werden, und die Anzahl der Blöcke wird automatisch berechnet. <small>(v0.18)</small> 
 
-
-</div>
+-   Wände können für die Anzeige von Blöcken anstelle eines einzelnen Festkörpers eingestellt werden, indem ihre {{PropertyData/de|Make Blocks}} eingeschaltet wird. Die Größe und der Versatz von Blöcken kann mit verschiedenen Eigenschaften konfiguriert werden, und die Anzahl der Blöcke wird automatisch berechnet.
 
 
 
@@ -84,68 +89,58 @@ Fangen funktioniert etwas anders mit Architektur Wänden als andere Architektur 
 
 ## Eigenschaften
 
-Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+Wände (Wall-Objekte) erben die Eigenschaften von [Part](Part_Workbench.md)-Objekten und besitzen die folgenden zusätzlichen Eigenschaften:
 
-### Data
+
+
+### Daten
 
 
 {{TitleProperty|Blocks}}
 
+-    {{PropertyData/de|Block Height}}: Die Höhe jedes Bausteins.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Block Length}}: Die Länge jedes Bausteins.
+
+-    {{PropertyData/de|Count Broken}}: Die Anzahl von geschnittenen (broken) Bausteinen (schreibgeschützt).
+
+-    {{PropertyData/de|Count Entire}}: Die Anzahl von ganzen Bausteinen (schreibgeschützt).
+
+-    {{PropertyData/de|Joint}}: Die Breite der Fugen zwischen den Bausteinen.
 
 -    {{PropertyData/de|Make Blocks}}: Aktiviere dies, damit die Wand aus Bausteinen (blocks) erzeugt wird
-
--    {{PropertyData/de|Block Length}}: Die Länge jedes Bausteins
-
--    {{PropertyData/de|Block Height}}: Die Höhe jedes Bausteins
 
 -    {{PropertyData/de|Offset First}}: Der horizontale Abstand der erste Reihe von Bausteinen
 
 -    {{PropertyData/de|Offset Second}}: Der horizontale Abstand der zweiten Reihe von Bausteinen
 
--    {{PropertyData/de|Joint}}: Die Größe der Fugen zwischen jedem Baustein
-
--    {{PropertyData/de|Count Entire}}: Die Anzahl von ganzen Bausteinen (read-only)
-
--    {{PropertyData/de|Count Broken}}: Die Anzahl von geschnittenen (broken) Bausteinen (read-only)
-
-
-</div>
-
 
 {{TitleProperty|Component}}
 
--    **Base**: The base object this wall is built on
+-    {{PropertyData/de|Basis}}: Das Basisobjekt, auf dem diese Wand aufgebaut ist.
 
 
 {{TitleProperty|Wall}}
 
-
-<div class="mw-translate-fuzzy">
-
-Wand-Objekte erben die Eigenschaften von [Part](Part_Workbench/de.md)-Objekten und haben außerdem die folgenden zusätzlichen Eigenschaften:
-
 -    {{PropertyData/de|Align}}: Die Ausrichtung der Wand an ihrer Basislinie: Left, Right oder Center (links, rechts oder mittig)
 
--    {{PropertyData/de|Base}}: Das Basisobjekt, auf dem diese Wand gebaut wurde
+-    {{PropertyData/de|Area}}:
 
--    {{PropertyData/de|Face}}: Der Index der Fläche des zu benutzenden Basisobjekts. Falls der Wert nicht gesetzt wurde oder 0 ist, wird das gesamt Objekt benutzt
+-    {{PropertyData/de|Face}}: Der Index der Fläche des zu benutzenden Basisobjekts. Falls der Wert nicht gesetzt wurde oder 0 ist, wird das gesamt Objekt benutzt.
 
--    {{PropertyData/de|Force Wire}}: Falls True, und die Wand auf einer Fläche basiert, wird nur die Grenzlinie (border wire) der Fläche benutzt, so dass die Wand die Fläche begrenzt
+-    {{PropertyData/de|Height}}: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert).
 
--    {{PropertyData/de|Length}}: Die Länge der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
+-    {{PropertyData/de|Length}}: Die Länge der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert).
+
+-    {{PropertyData/de|Normal}}: Eine Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, wird die Extrusionsrichtung automatisch gesetzt.
+
+-    {{PropertyData/de|Offset}}: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Eigenschaft Align auf Right (rechts) oder Left (links) gesetzt ist.
+
+-    {{PropertyData/de|Override Align}}:
+
+-    {{PropertyData/de|Override Width}}:
 
 -    {{PropertyData/de|Width}}: Die Breite der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
-
--    {{PropertyData/de|Height}}: Die Höhe der Wand (wird nicht benutzt, wenn die Wand auf einer Fläche basiert)
-
--    {{PropertyData/de|Normal}}: Eine Extrusionsrichtung für die Wand. Wenn auf (0,0,0) gesetzt, ist die Extrusionsrichtung automatisch
-
--    {{PropertyData/de|Offset}}: Dies legt den Abstand zwischen der Wand und ihrer Basislinie fest. Das funktioniert nur, wenn die Align-Eigenschaft auf Right (rechts) oder Left (links) gesetzt ist.
-
-
-</div>
 
 
 

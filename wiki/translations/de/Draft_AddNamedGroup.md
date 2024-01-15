@@ -23,7 +23,7 @@ The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> **Draft
 
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Draft AddNamedGroup](Draft_AddNamedGroup.md)** button.
+    -   Press the **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Add a new named group](Draft_AddNamedGroup.md)** button.
     -   Select the **Utilities → <img src="images/Draft_AddNamedGroup.svg" width=16px> Add a new named group** option from the menu.
 3.  The **Add group** task panel opens.
 4.  Enter a **Group name**.

@@ -23,26 +23,20 @@ Das Werkzeug <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Dra
 
 ## Anwendung
 
-Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Ein Objekt auswählen. Das Objekt muß auf der aktuellen [EntwurfWähleEbene](Draft_SelectPlane/de.md) liegen.
-2.  Es gibt mehrere Wege die Anweisung zu geben:
-    -   Die **<img src="images/Draft_Offset.svg" width=16px> [Entwurf Versetzen](Draft_Offset/de.md)** Schaltfläche anklicken oder die Taste **O** und dann die Taste**S** drücken.
-
-    -   
-        **Änderung → <img src="images/Draft_Offset.svg" width=16px> Versetzen
-**
-        
-        aus dem Menü wählen.
-
-    -   Tastenkürzel: **O** dann **S** drücken.
-3.  Wenn kein Objekt ausgewählt ist: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
-4.  Die **Offset** Aufgabenansicht öffnet sich. Siehe auch [Options](#Options.md).
-5.  Der Versatz wird wie folgt angegeben:
-    -   Einen Punkt in der [3D-Ansicht](3D_view/de.md) wählen
+1.  Wahlweise ein Objekt auswählen. Das Objekt muß auf der aktuellen [Draft Arbeitsebene](Draft_SelectPlane/de.md) liegen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Offset.svg" width=16px> [Versetzen](Draft_Offset/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Offset.svg" width=16px> Versetzen** auswählen.
+    -   Das Tastaturkürzel **O** dann **S**.
+3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Der Aufgaben-Bereich **Versatz** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informtionen.
+5.  Zum Festlegen des Versatzabstands gibt es folgende Möglichkeiten:
+    -   Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen.
     -   Eine Zahl eingeben:
-        1.  Der Zeiger muß auf die richtigen Seite des Objektes in der [3D-Ansicht](3D_view/de.md) zeigen.
-        2.  Der Zeiger darf nicht aus der [3D-Ansicht](3D_view/de.md) bewegt werden.
+        1.  Der Zeiger muß sich auf der richtigen Seite des Objektes in der [3D-Ansicht](3D_view/de.md) befinden.
+        2.  Der Zeiger darf nicht aus der [3D-Ansicht](3D_view/de.md) heraus bewegt werden.
         3.  Einen **Abstand** eingeben.
         4.  Die Taste **Enter** drücken, um die Anweisung abzuschließen.
 
@@ -50,75 +44,57 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 
 ## Optionen
 
-Die hier genannten Tastaturkürzel für einzelne Zeichen und die hier beschriebenen Auswahltasten können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
+-   Ist die Checkbox **OCC-style offset** aktiviert, wird ein besonderer Versatzstil verwendet: Offene [Draft Polylinien](Draft_Wire/de.md) werden zu beiden Seiten versetzt und die neuen Kanten werden mit gerundeten Ecken verbunden. Dies funktioniert nur mit ebenen Objekten mit mindestens zwei Kanten. Dabei ist zu beachten, dass mit diesem Stil ein neues nicht parametrisches Objekt erstellt wird und, wenn der Modus Kopieren deaktiviert ist, das Originalobjekt entfernt wird.
 
-<div class="mw-translate-fuzzy">
+-    **C**drücken oder die Checkbox **Kopieren** aktivieren, um den Kopieren-Modus umzuschalten. Ist der Kopieren-Modus aktiviert, erstellt der Befehl eine versetzte Kopie anstatt das Originalobjekt zu (v)ersetzen.
 
--   Drücke **P** oder klicke auf das Kontrollkästchen, um den Kopiermodus umzuschalten. Wenn der Kopiermodus eingeschaltet ist, behält das Versatzwerkzeug die ursprüngliche Form an ihrer Stelle, erstellt aber eine skalierte Kopie an der gewählten Stelle.
--   Halte **Alt** gedrückt, während du den Punkt auswählst, um ebenfalls den Kopiermodus umzuschalten. Die **Alt** gedrückt halten, erlaubt dir versetzte Kopien platzieren; loslassen **Alt**, um den Vorgang abzuschließen und alle versetzten Formen zu sehen.
--   Klicke auf das \"OCC-Stil\" Kontrollkästchen, um den Modus \"OCC\" umzuschalten. Dadurch wird ein Versatz von beiden Seiten eines Liniensegments erzeugt, wodurch eine besonders geschlossene Form mit abgerundeten Kanten an den Enden der Segmente entsteht.
+-   Wird **Alt** gedrückt gehalten, bevor Punkte in der [3D-Ansicht](3D_view/de.md) ausgewählt werden, wird auch der Kopieren-Modus umgeschaltet. Während **Alt** gedrückt gehalten wird, können mehrere Versatzpunkte ausgewählt werden. **Alt** loslassen, um den Befehl zu beenden und die erstellten Kopien anzuzeigen.
 
-:   
-    **Hinweis:**Bei diesem Stil werden die Originalsegmente entfernt, verwende also den Kopiermodus, um die Originalkanten zu erhalten.
+-    **Shift**gedrückt halten, um den Versatzabstand mit dem aktuellen Abschnitt verknüpft zu lassen.
 
--   Halte **Ctrl** während des Versatzes gedrückt, um [Fangen](Draft_Snap/de.md) deinen Punkt unabhängig vom Abstand an die nächstgelegene Fangposition zu zwingen.
--   Halte **Shift** gedrückt, um den Versatzabstand in Bezug auf das aktuelle Segment beizubehalten und zu vermeiden, dass ein anderer Bezug gewählt wird.
--   Drücke **Esc** oder die {{button|Close}} Schaltfläche , um den aktuellen Befehl abzubrechen; bereits platzierte Offset-Kopien bleiben erhalten.
+-    **S**Drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
-
-</div>
+-    **Esc**oder die Schaltfläche **Close** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
--   To create an offset version of a [Draft BSpline](Draft_BSpline.md) its points are offset individually, and from the new points a new spline is calculated. This new spline is not parallel to the original spline. For an exact parallel offset of a [Draft BSpline](Draft_BSpline.md) the [Part Offset2D](Part_Offset2D.md) command should be used.
--   The Draft Offset command cannot handle [Draft BezCurves](Draft_BezCurve.md). Use the [Part Offset2D](Part_Offset2D.md) command instead.
-
-
-
-## Einstellungen
-
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
-
--   Um die Anzahl der Dezimalstellen für die Eingabe des Abstands zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
+-   Zum Erstellen einer Versetzte Version eines [Draft B-Splines](Draft_BSpline/de.md) werden seine Punkte einzeln versetzt und durch die neuen Punkte wird ein neuer Spline berechnet. Dieser neue Spline ist nicht parallel zum originalen Spline. Für eine exakt parallele Versatzkurve eines [Draft B-Splines](Draft_BSpline/de.md) sollte der Befehl [Part 2DVersatz](Part_Offset2D/de.md) eingesetzt werden.
+-   Der Befehl Draft Offset kann [Draft Bézierkurve](Draft_BezCurve/de.md) nicht bearbeiten. Dafür kann der Befehl [Part 2DVersatz](Part_Offset2D/de.md) verwendet werden.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird:
-
-
-</div>
+Zum Versetzen von Objekten wird die Methode `offset` des Draft-Moduls verwendet. Die Methode kann nur [Draft Wires](Draft_Wire/de.md), [Draft Circles](Draft_Circle/de.md), [Draft Rectangles](Draft_Rectangle/de.md), [Draft Polygons](Draft_Polygon/de.md) und [Draft BSplines](Draft_BSpline/de.md) verarbeiten.
 
 
 ```python
 offset_obj = offset(obj, delta, copy=False, bind=False, sym=False, occ=False)
 ```
 
+-    `obj`ist das zu versetzende Objekt.
 
-<div class="mw-translate-fuzzy">
+-    `delta`enthält die Versatzinformationen:
 
--   Versetzt den gegebenen `obj` Draht durch Anwendung des gegebenen `delta`, definiert als Vektor, auf seinen ersten Knoten.
+    -   Für [Draft-Polylinien](Draft_Wire/de.md), [Draft-Rechtecke](Draft_Rectangle/de.md) und [Draft-Vielecke](Draft_Polygon/de.md) ist es ein Versatzvektor, der rechtwinklig auf dem ersten Abschnitt des Objekts steht.
+    -   Für [Draft Circles](Draft_Circle/de.md) ist es der neue Radius.
+    -   Für [Draft BSplines](Draft_BSpline/de.md) ist es eine Liste von neuen Punkten.
 
--   Wenn `copy` `True` ist, wird ein anderes Objekt erzeugt, anstatt das ursprüngliche Objekt zu versetzen.
+-   Ist `copy` auf `True` gesetzt, wird das Originalobjekt behalten und ein neues Objekt erstellt.
 
--   Wenn `bind` gleich `True` ist und vorausgesetzt, das Drahtobjekt ist offen, werden der ursprüngliche und der versetzte Draht an ihren Endpunkten miteinander verbunden und bilden eine Fläche.
-    -   Wenn `sym` `True` ist, muss `bind` ebenfalls `True` sein, und der Versatz wird auf beiden Seiten des Drahtes vorgenommen, wobei die Gesamtbreite die Länge des gegebenen Vektors ist.
+-   Ist `bind` auf `True` gesetzt, wird eine Fläche erstellt, indem die Form des Originalobjekts mit der Form seines Versatzobjekts verbunden wird. Dies funktioniert nur mit offenen [Draft-Polylinien](Draft_Wire/de.md).
 
--   Wenn `occ` `True` ist, wird ein Versatz im OCC-Stil verwendet: es wird von beiden Seiten versetzt, dann werden die neuen Drähte zusammengebunden und die Ecken abgerundet.
+-   Sind `sym` auf `True` und auch `bind` auf `True` gesetzt, wird das Originalobjekt zu beiden Seiten versetzt; die Gesamtbreite entspricht der Länge des gegebenen Vektors. Dies funktioniert nur mit offenen [Draft-Polylinien](Draft_Wire/de.md).
 
--    `Offsetobj`wird mit dem ursprünglichen Versatzobjekt oder mit der neuen Kopie zurückgegeben.
+-   Ist `occ` auf `True` gesetzt, wird ein OCC-Style-Versatz verwendet. Siehe [Optionen](#Optionen.md). Ist `occ` auf `True` gesetzt, werden die Argumente `bind` und `sym` ignoriert.
 
-
-</div>
+-    `offset_obj`wird mit dem originalen versetzten Objekt zurückgegeben oder mit dem neuen Objekt. Ist `bind` auf `True` gesetzt oder `occ` auf `True` gesetzt, wird das neue Objekt ein `[Part::Feature](Part_Feature.md)`-Object.
 
 Beispiel:
 

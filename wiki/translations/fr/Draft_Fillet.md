@@ -18,22 +18,26 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 <img alt="" src=images/Draft_Fillet_example.png  style="width:400px;"> 
 *Plusieurs congés et chanfreins créés entre deux lignes*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
+1.  Sélectionner deux [Draft Lignes](Draft_Line/fr.md) qui se rejoignent en un seul point.
 2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Fillet.svg" width=16px> Congé** dans le menu.
-    -   Utilisez le raccourci clavier : **F** puis **I**.
-3.  Saisissez le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
-4.  Vérifiez éventuellement l\'option **Supprimer les objets originaux**.
-5.  Vérifiez éventuellement l\'option **Créer un chanfrein**.
-6.  Si vous avez sélectionné l\'une des deux options précédentes : Cliquez dans le champ de saisie **Rayon du congé**.
-7.  Appuyez sur **Entrée**.
+    -   Appuyer sur le **<img src="images/Draft_Fillet.svg" width=16px> [Congé](Draft_Fillet/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Fillet.svg" width=16px> Congé** du menu.
+    -   Utiliser le raccourci clavier : **F** puis **I**.
+3.  Saisir le **Rayon du congé**. Si l\'option **Créer un chanfrein** est sélectionnée, ce sera la taille du chanfrein (la longueur de la règle). Notez que la commande n\'aboutira pas si le rayon ou la taille du chanfrein est trop grand pour les lignes sélectionnées.
+4.  Vous pouvez vérifier l\'option **Supprimer les objets originaux**.
+5.  Vous pouvez vérifier l\'option **Créer un chanfrein**.
+6.  Si vous avez sélectionné l\'une des deux options précédentes : cliquer dans le champ de saisie **Rayon du congé**.
+7.  Appuyer sur **Entrée**.
 
 ## Options
 
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour annuler la commande.
+
+
 
 ## Remarques
 
@@ -41,11 +45,15 @@ La commande <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draf
 -   Seules les Draft Lignes, c\'est-à-dire les [Draft Polylignes](Draft_Wire/fr.md) avec seulement deux points sont supportés pour le moment.
 -   Une [Draft Polyligne](Draft_Wire/fr.md) qui a au moins trois points peut recevoir un congé ou être chanfreinée en modifiant respectivement sa **Fillet Radius** ou **Chamfer Size**. Le fait que les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) puissent être jointes avec les commandes [Draft Polylignes](Draft_Wire/fr.md), [Draft Joindre](Draft_Join/fr.md) ou [Draft Agréger](Draft_Upgrade/fr.md), nous avons ici une méthode alternative pour créer des filets et des chanfreins.
 
+
+
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -59,6 +67,8 @@ Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/f
 -    **Length|Length**: (en lecture seule) spécifie la longueur totale du congé.
 
 -    **Start|VectorDistance**: (lecture seule) spécifie le point de départ du congé.
+
+
 
 ### Vue
 
@@ -74,6 +84,8 @@ Un objet Draft Congé est dérivé d\'un [Part Part2DObject](Part_Part2DObject/f
 -    **Pattern|Enumeration**: non utilisé.
 
 -    **Pattern Size|Float**: non utilisé.
+
+
 
 ## Script
 

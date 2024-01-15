@@ -1,85 +1,102 @@
 ---
  GuiCommand:
    Name: Part Tube
-   MenuLocation: Part , Primitives , Create tube
-   Workbenches: Part_Workbench
+   Name/it: Part Tubo
+   MenuLocation: Parte , Primitive , Crea tubo
+   Workbenches: Part_Workbench/it
    Version: 0.19
-   SeeAlso: Part_Primitives
+   SeeAlso: Part_Primitives/it
 ---
 
 # Part Tube/it
 
-## Description
 
-The <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Tube** command creates a parametric tube solid. In the coordinate system defined by its **Placement** property, the bottom face of the tube lies on the XY plane with its center at the origin.
+
+## Descrizione
+
+Il comando <img alt="" src=images/Part_Tube.svg  style="width:24px;"> **Part Tubo** crea un tubo parametrico solido. Nel sistema di coordinate definito dalla sua proprietà **Placement**, la faccia inferiore del tubo si trova sul piano XY con il centro nell\'origine.
 
 <img alt="" src=images/Part_Tube_Example.png  style="width:400px;">
 
-## Usage
 
-### Create
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Part_Tube.svg" width=16px> [Part Tube](Part_Tube.md)** button.
-    -   Select the **Part → Primitives → <img src="images/Part_Tube.svg" width=16px> Create tube** option from the menu.
-2.  The **Tube** task panel opens and a preview of the tube is displayed in the [3D view](3D_view.md).
-3.  Specify the dimensions.
-4.  The preview is dynamically updated.
-5.  Press the **OK** button.
-6.  The tube is created.
-7.  Optionally change the **Placement** of the tube in the [Property editor](Property_editor.md), or with the <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Std TransformManip](Std_TransformManip.md) command.
+## Utilizzo
 
-### Edit
 
-1.  Double-click the tube in the [Tree view](Tree_view.md)
-2.  The **Tube** task panel opens.
-3.  Change one or more dimensions.
-4.  The tube is dynamically updated in the [3D view](3D_view.md).
-5.  Press the **OK** button.
 
-## Example
+### Crea
 
-![Part Tube from the scripting example](images/Part_Tube_Scripting_Example.png )
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Tube.svg" width=16px> [Crea tubo](Part_Tube/it.md)**.
+    -   Selezionare l\'opzione **Parte → Primitive → <img src="images/Part_Tube.svg" width=16px> Crea tubo** dal menu.
+2.  Si apre il pannello delle attività **Tubo** e un\'anteprima del tubo viene visualizzata nella [Vista 3D](3D_view/it.md).
+3.  Specificare le dimensioni.
+4.  L\'anteprima viene aggiornata dinamicamente.
+5.  Premere il pulsante **OK**.
+6.  Il tubo viene creato.
+7.  Facoltativamente, modificare il **Placement** del tubo nel [Editor delle proprietà](Property_editor/it.md) o con il comando <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Trasforma](Std_TransformManip/it.md).
 
-A Part Tube object created with the [scripting example](#Scripting.md) below is shown here.
 
-## Properties
 
-See also: [Property editor](Property_editor.md).
+### Modifica
 
-A Part Tube object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+1.  Fare doppio clic sul tubo nella [Vista ad albero](Tree_view/it.md)
+2.  Si apre il pannello delle azioni **Tubo**.
+3.  Modificare una o più dimensioni.
+4.  Il tubo viene aggiornato dinamicamente nella [vista 3D](3D_view/it.md).
+5.  Premere il pulsante **OK**.
 
-### Data
+
+
+## Esempio
+
+![Part Tubo dall\'esempio di scripting](images/Part_Tube_Scripting_Example.png )
+
+Qui viene mostrato un oggetto Part Tubo creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
+
+
+
+## Proprietà
+
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
+
+Un oggetto Part Tubo deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Tube}}
 
--    **Height|Length**: The height of the tube. The default is {{Value|10mm}}.
+-    **Height|Length**: l\'altezza del tubo. Il valore predefinito è {{Value|10mm}}.
 
--    **Inner Radius|Length**: The inner radius of the tube. Must be smaller than **Outer Radius**. Can be {{Value|0}}. The default is {{Value|2mm}}.
+-    **Inner Radius|Length**: il raggio interno del tubo. Deve essere inferiore a **Outer Radius**. Può essere {{Value|0}}. Il valore predefinito è {{Value|2mm}}.
 
--    **Outer Radius|Length**: The outer radius of the tube. Must be larger than **Inner Radius**. The default is {{Value|5mm}}.
+-    **Outer Radius|Length**: il raggio esterno del tubo. Deve essere maggiore di **Inner Radius**. Il valore predefinito è {{Value|5mm}}.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Tube can be created with the {{Incode|addTube()}} method (<small>(v0.20)</small> ) of the Shapes module:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+Un Part Tubo può essere creato con il metodo {{Incode|addTube()}} ({{Version/it|0.20}}) del modulo Shapes:
 
 
 ```python
 tube = Shapes.addTube(FreeCAD.ActiveDocument, "myTube")
 ```
 
--   Where {{Incode|"myTube"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myTube"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

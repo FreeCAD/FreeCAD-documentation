@@ -74,7 +74,7 @@ Questa implementazione è un\'implementazione veloce, ma ignora le funzioni che 
 
 <div class="mw-translate-fuzzy">
 
-Questo importatore deve essere scaricato e installato prima di poter essere utilizzato. Vedere [Installare l\'importatore DXF](Dxf_Importer_Install/it.md), oppure usare l\'opzione \"\[\] Consenti a FreeCAD di scaricare e aggiornare automaticamente le librerie DXF\".
+Questo importatore deve essere scaricato e installato prima di poter essere utilizzato. Usare l\'opzione \"\[\] Consenti a FreeCAD di scaricare e aggiornare automaticamente le librerie DXF\".
 
 
 </div>

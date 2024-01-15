@@ -4,13 +4,7 @@
 
 ## Einleitung
 
-
-<div class="mw-translate-fuzzy">
-
-Der Arbeitsbereich <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Inspection](Inspection_Workbench/de.md) ist ausgelegt um dir Werkzeuge zur Untersuchung von Formen zur Verfügung zu stellen. Er befindet sich noch in der Entwicklung.
-
-
-</div>
+Der Arbeitsbereich <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Inspection](Inspection_Workbench/de.md) ist ausgelegt um dir Werkzeuge zur Untersuchung von Formen zur Verfügung zu stellen. Er befindet sich noch in einer frühen Phase der Entwicklung.
 
 <img alt="Bildschirmfoto" src=images/InspectionEx.png  style="width:500px;">
 

@@ -12,15 +12,17 @@
 
 ## Description
 
-Sélectionne l\'axe horizontal d\'une esquisse.
+La commande <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:24px;"> **Axe horizontal** sélectionne l\'axe horizontal d\'une esquisse.
 
 
 
 ## Utilisation
 
-1.  Entrez dans le mode d\'édition d\'esquisse.
-2.  Choisissez **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Sélectionner l'axe horizontal** dans le menu principal.
-3.  L\'axe horizontal de l\'esquisse sera sélectionnée.
+1.  Si ce n\'est pas encore fait : ouvrir une esquisse en mode édition.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectHorizontalAxis.svg style="width:16px"> Sélectionner l'axe horizontal** du menu.
+    -   Raccourci clavier : **Z** puis **H**.
+3.  L\'axe horizontal de l\'esquisse sera sélectionné.
 
 
 

@@ -1,7 +1,7 @@
 # Artwork Tux/de
 Diese Symbole befinden sich im angegebenen Quellpfad.
 
-Alle Symbole im Quellbaum findest Du unter [Artwork](Artwork/de.md).
+Alle Symbole im Quellbaum findest Du unter [Grafik](Artwork/de.md).
 
 ## src/Mod/Tux/
 

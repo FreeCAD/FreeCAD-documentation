@@ -1,29 +1,30 @@
 # Macro Cut Circle/pl
 {{Macro
 |Name=Macro Cut Circle
-|Icon=Macro_Cut_Circle.png
-|Description=Cut a circle(s) or arc(s) in multiple arcs, the arcs created can be coloured alternately to distinguish. The new circle is created in the real coordinate of object, not in the coordinate of the Body.<br/>{{ColoredText|(Command line, paste this complete macro in the Python console)}}.
+|Description=Cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.<br/>{{ColoredText|(Command line, paste the complete macro in the Python console)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019-07-02
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Icon]
+|Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png ToolBar Icon]
 }}
 
 ## Description
 
-This macro cut a circle(s) or arc(s) in multiple arcs, the arcs can be coloured alternately to distinguish.
+This macro cuts circles or arcs into multiple arcs. The created arcs can be colored alternately to distinguish them.
 
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *CutCircle*
 
 ## Usage
 
-Copy the macro **cutCirle** complete in the Python console FreeCAD select the circle(s) and (or) arc(s) type in the console:
-
-to see the circles and arcs cut here in the example 5 contiguous arcs.
-
-The original object is not deleted.
+1.  Paste the macro **cutCirle** in the [Python console](Python_console.md).
+2.  Press **Enter** (the code is now in memory).
+3.  Select one or more circles or arcs.
+4.  Invoke the {{Incode|cutCircle()}} function with 1 or 2 arguments from the Python console:
+    -   Example with 1 argument: {{Incode|cutCircle(4)}}. This will create 4 new arcs for each selected circle or arc and stop there (no coloring).
+    -   Example with 2 arguments: {{Incode|cutCircle(6, 1)}}. This will create 6 new arcs for each selected circle or arc, colored alternately in red and white as shown in the image.
+5.  The original object is not deleted.
 
 ## Script
 
@@ -37,7 +38,7 @@ ToolBar Icon ![](images/Macro_Cut_Circle.png )
 # selection circle(s) (circles and arcs)
 # give number of cut, biColor 0/1
 # cut the circle to x arcs
-# if biColor is <> 0 the arcs are coloured alternately Red White Red White ....
+# if biColor is <> 0 the arcs are colored alternately Red White Red White ....
 # 
  
 __title__   = "cutCircle"
@@ -93,7 +94,7 @@ def cutCircle(number = 2, biColor = 0):
                 pivot1 += pivot0
     App.ActiveDocument.recompute()
 
-#cutCircle(5, 1)  # here with 5 arcs and coloured
+#cutCircle(5, 1)  # here with 5 arcs and colored
 #cutCircle(4)     #
 
 }}
@@ -102,7 +103,7 @@ def cutCircle(number = 2, biColor = 0):
 
 
 ```python
-cutCircle(5, 1)  # here with 5 arcs and coloured
+cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
 
@@ -114,7 +115,7 @@ Cut circle to cylinder
 
 ver 00.03 02/07/2019 : add \"App.ActiveDocument.recompute()\"
 
-ver 00.02 09/03/2015 : adding create arcs coloured altenat alternately Red White Red White \.... or not
+ver 00.02 09/03/2015 : adding create arcs colored alternately Red White Red White \.... or not
 
 ver 00.01 24/02/2015 :
 

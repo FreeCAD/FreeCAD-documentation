@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Mesh_Decimating
-   Name/it: Decima
-   MenuLocation: Mesh , Decima...
+   Name/it: Decimazione
+   MenuLocation: Mesh , Decimazione...
    Workbenches: Mesh_Workbench/it
    Version: 0.19
 ---
@@ -13,7 +13,7 @@
 
 ## Descrizione
 
-Il comando **Decima** riduce il numero di facce negli oggetti mesh.
+Il comando **Decimazione** riduce il numero di facce negli oggetti mesh.
 
 
 
@@ -21,8 +21,8 @@ Il comando **Decima** riduce il numero di facce negli oggetti mesh.
 
 1.  Selezionare uno o più oggetti mesh.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il bottone **<img src="images/Mesh_Decimating.svg" width=16px> [Mesh Decimating](Mesh_Decimating/it.md)**.
-    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Decimating.svg" width=16px> Decima...** dal menu.
+    -   Premere il bottone **<img src="images/Mesh_Decimating.svg" width=16px> [Decimazione...](Mesh_Decimating/it.md)**.
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Decimating.svg" width=16px> Decimazione...** dal menu.
 3.  Si apre il pannello delle azioni **Decimazione**.
 4.  Specificare la **Riduzione**:
     -   Se è stato selezionato un solo oggetto mesh e si sceglie l\'opzione **Valore assoluto**:

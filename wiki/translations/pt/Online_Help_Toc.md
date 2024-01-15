@@ -1,5 +1,10 @@
 # Online Help Toc/pt
+<div class="mw-translate-fuzzy">
+
 Este é o índice utilizado para a construção do sistema automático da *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
+
+
+</div>
 
 Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 

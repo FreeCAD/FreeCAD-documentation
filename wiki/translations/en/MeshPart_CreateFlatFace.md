@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: MeshPart CreateFlatFace
-   MenuLocation: Meshes , Unwrap Face
+   MenuLocation: Meshes , Unwrap face
    Workbenches: Mesh_Workbench
    Version: 0.19
    SeeAlso: MeshPart_CreateFlatMesh
@@ -16,7 +16,7 @@ The **MeshPart CreateFlatFace** command creates a flat representation of a face 
 ## Usage
 
 1.  Select a single face of a shape object in the [3D view](3D_view.md).
-2.  Select the **Meshes → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Unwrap Face** option from the menu.
+2.  Select the **Meshes → <img src="images/MeshPart_CreateFlatFace.svg" width=16px> Unwrap face** option from the menu.
 
 ## Properties
 

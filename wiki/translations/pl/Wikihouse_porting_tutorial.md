@@ -1,11 +1,11 @@
 ---
- TutorialInfo:
-   Topic: Wikihouse porting tutorial
-   Level: Intermediate/Advanced
-   Time: 60 minutes
-   Author: 
-   FCVersion: 
-   Files: 
+ TutorialInfo:l
+   Topic: Poradnik jak przenieść Wikihouse
+   Level: średnio zaawansowany / zaawansowany
+   Time: 60 minut
+   Author: -
+   FCVersion: -
+   Files: nie dołączono
 ---
 
 # Wikihouse porting tutorial/pl
@@ -14,83 +14,93 @@
 
 
 
-## Introduction
 
-This tutorial will show you how to convert [SketchUp](http://www.sketchup.com/) files used by the [Wikihouse](http://wikihouse.cc/) project to FreeCAD, making use of the [Arch Panel](Arch_Panel.md) tools in FreeCAD. The result is a full copy of the original SketchUp file, except that it has become fully parametric. The level of parametricism of the final file depends on the work you spend on it, as explained below. But it is totally possible to do things step by step, and rebuild the Wikihouse file rather quickly, and leave the more lengthy conversion of base profiles to sketches for later.
 
-This tutorial will require intermediate knowledge of FreeCAD, that is, you are able to find your way between the different workbenches and tools, are already able to model simple objects, and, above all, are comfortable with [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md). It will use mostly [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) tools, but knowledge of the [Sketcher Workbench](Sketcher_Workbench.md) will become necessary when converting the base profiles to sketches.
+## Wprowadzenie
 
-Since the Wikihouse project is open by nature, files are easy to find on the project website, but also on the [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) or in the project\'s [github repositories](https://github.com/wikihouseproject). The preferred format used by the project is Sketchup, so most of the files you\'ll find are in that format.
+Ten samouczek pokaże ci, jak przekonwertować pliki [SketchUp](http://www.sketchup.com/) używane przez projekt [Wikihouse](http://wikihouse.cc/) do FreeCAD, korzystając z narzędzi [Arch Panel](Arch_Panel.md) w FreeCAD. Rezultatem jest pełna kopia oryginalnego pliku SketchUp, z wyjątkiem tego, że stał się on w pełni parametryczny. Poziom parametryczności ostatecznego pliku zależy od włożonej w niego pracy, jak wyjaśniono poniżej. Możliwe jest jednak robienie rzeczy krok po kroku i przebudowanie pliku Wikihouse dość szybko, pozostawiając bardziej długotrwałą konwersję profili bazowych na szkice, na później.
 
-In the following tutorial we used the [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) file from Wikihouse\'s Microhouse subproject.
+Ten samouczek będzie wymagał średnio zaawansowanej znajomości FreeCAD, to znaczy, że jesteś w stanie znaleźć drogę między różnymi środowiskami pracy i narzędziami, jesteś już w stanie modelować proste obiekty, a przede wszystkim czujesz się komfortowo używając narzędzi [Przesuń](Draft_Move/pl.md) i [Obróć](Draft_Rotate/pl.md). Będziemy używać głównie narzędzi środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md), ale znajomość [Szkicownika](Sketcher_Workbench/pl.md) będzie niezbędna podczas konwertowania profili bazowych na szkice.
 
-## Preparing the Sketchup file 
+Ponieważ projekt Wikihouse jest z natury otwarty, pliki można łatwo znaleźć na stronie internetowej projektu, ale także na [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) lub w repozytoriach projektu [github](https://github.com/wikihouseproject). Preferowanym formatem używanym przez projekt jest Sketchup, więc większość plików, które tam znajdziesz, jest w tym formacie.
 
-The first thing you will need to do is to open the file in SketchUp and delete everything you don\'t want to export. We will only export one section of the Microhouse, so everything else must be deleted.
+W poniższym samouczku wykorzystaliśmy plik [Chassis](https://github.com/wikihouseproject/Microhouse/blob/master/microhouse_0.5_chassis.skp) z podprojektu Wikihouse Microhouse.
+
+
+
+## Przygotowanie pliku Sketchup 
+
+Pierwszą rzeczą, którą musisz zrobić, jest otwarcie pliku w SketchUp i usunięcie wszystkiego, czego nie chcesz eksportować. Wyeksportujemy tylko jedną sekcję mikrodomu, więc wszystko inne musi zostać usunięte.
 
 ![](images/Arch_Wikihouse_05.jpg )
 
-The Wikihouse elements, in SketchUp, are made in a specific way: By adding small \"pieces\" together in order to create the different components:
+Elementy Wikihouse w SketchUp są tworzone w specyficzny sposób: Poprzez dodawanie małych \"kawałków\" w celu stworzenia różnych komponentów:
 
 ![](images/Arch_Wikihouse_06.jpg )
 
-This is not how we will proceed in FreeCAD. Since one of the most powerful features of FreeCAD is [Constrained Sketches](Sketcher_Workbench.md), we\'d better take advantage of this, and base all our Wikihouse elements on Sketches. That way, modifying any part can be done in the [Sketcher Workbench](Sketcher_Workbench.md), which is much more comfortable.
+Nie tak będziemy postępować w FreeCAD. Ponieważ jedną z najpotężniejszych funkcji FreeCAD są [wiązania szkicownika](Sketcher_Workbench/pl.md), lepiej skorzystajmy z tego i oprzyjmy wszystkie nasze elementy Wikihouse na Szkicach. W ten sposób modyfikacja dowolnej części może być wykonana w środowisku pracy [Szkicownik](Sketcher_Workbench/pl.md), co jest znacznie wygodniejsze.
 
-In order to turn our SketchUp objects into FreeCAD sketches, which can then be used to create [Arch Panel](Arch_Panel.md) objects, we need to extract one, flat face from each Wikihouse piece. The thickness will be re-added later, in FreeCAD, directly in the Arch Panel properties. This way, we will keep it parametric as well. To turn each Wikihouse component into a single, flat face, enter each component by double-clicking it, then select each sub-component, and right-click → Explode, until all sub-components are exploded, and your component is composed only of faces and edges:
+Aby przekształcić nasze obiekty SketchUp w szkice FreeCAD, które można następnie wykorzystać do stworzenia obiektów [Panel](Arch_Panel/pl.md) środowiska pracy Architektura, musimy wyodrębnić jedną, płaską powierzchnię z każdego elementu Wikihouse. Grubość zostanie ponownie dodana później, we FreeCAD, bezpośrednio we właściwościach Arch Panel. W ten sposób zachowamy również parametryczność. Aby przekształcić każdy komponent Wikihouse w pojedynczą, płaską powierzchnię, wejdź do każdego komponentu, klikając go dwukrotnie, a następnie wybierz każdy podkomponent i kliknij prawym przyciskiem myszy → Rozbij, aż wszystkie podkomponenty zostaną rozbite, a komponent będzie składał się tylko z powierzchni i krawędzi:
 
 ![](images/Arch_Wikihouse_08.jpg )
 
-Once this is done, select everything in your component, and unselect, by Shift + double-clicking them, each frontal face of your component. Be sure to double-click instead of single-click, because otherwise you will only unselect the face and not its border edges (which we will need to keep as well). After that, we will have unselected everything we want to keep, so we only need to press the delete key. Now our component is only one big flat face.
+Gdy to zrobisz, zaznacz wszystko w komponencie i odznacz, naciskając **Shift** + dwukrotnie kliknięcie myszką, każdą przednią ścianę komponentu. Upewnij się, że kliknąłeś dwukrotnie, a nie pojedynczo, ponieważ w przeciwnym razie odznaczysz tylko powierzchnię, a nie jej krawędzie *(które również będziemy musieli zachować)*. Następnie odznaczyliśmy już wszystko, co chcieliśmy zachować, więc wystarczy nacisnąć klawisz usuwania. Teraz nasz komponent jest tylko jedną dużą płaską powierzchnią.
 
 ![](images/Arch_Wikihouse_07.jpg )
 
-Repeat this for each component. Since many are duplicated, this is not as huge a task as it looks. Besides, if you are not familiar with the Wikihouse system, this step will give you a pretty good understanding of how it works.
+Powtórz tę czynność dla każdego komponentu. Ponieważ wiele z nich jest zduplikowanych, nie jest to tak duże zadanie, na jakie wygląda. Poza tym, jeśli nie jesteś zaznajomiony z systemem Wikihouse, ten krok pozwoli ci całkiem dobrze zrozumieć, jak to działa.
 
-When our piece of house is fully made of flat elements, we can select everything and export it to a .dae file, and then import this file into FreeCAD. Be sure to mark the \"triangulate all\"
+Gdy nasz dom jest w pełni zbudowany z płaskich elementów, możemy zaznaczyć wszystko i wyeksportować do pliku .dae, a następnie zaimportować ten plik do FreeCAD. Pamiętaj, aby zaznaczyć opcję \"trianguluj wszystko\"
 
-## Solving the double faces bug 
 
-There is a nasty problem for which I haven\'t found a better solution: Meshes exported from SketchUp to the .dae format have their faces duplicated. Each face becomes actually two faces. The easiest way I have found so far is to open the exported file in [Blender](http://www.blender.org) for repair:
 
-1.  Open the dae file in Blender (**File → Import → Collada**)
-2.  Select a component, and hit **TAB** to enter edit mode
-3.  Press **A** to deselect everything, then **A** again to select everything
-4.  Press **W** → Remove doubles
-5.  Press **TAB** to exit edit mode
-6.  Repeat for all the components
-7.  Save a new [DAE](Arch_DAE.md) file (**File → Export → Collada**)
+## Rozwiązanie błędu podwójnych ścian 
 
-Normally the above operation shouldn\'t change the scale, but it is always wise to verify, using the measuring tools, that the imported geometry is at correct scale before going further. You might need to tweak Blender\'s Collada export settings if needed.
+Jest pewien nieprzyjemny problem, na który nie znalazłem lepszego rozwiązania: Siatki wyeksportowane ze SketchUp do formatu .dae mają zduplikowane ściany. Każda ściana staje się w rzeczywistości dwiema ścianami. Najprostszym sposobem, jaki do tej pory znalazłem, jest otwarcie wyeksportowanego pliku w [Blender](http://www.blender.org) w celu naprawy:
 
-## Importing and converting to wires 
+1.  Otwórz plik dae w Blenderze (**File → Import → Collada**)
+2.  Wybierz komponent i naciśnij **TAB**, aby przejść do trybu edycji.
+3.  Naciśnij **A**, aby odznaczyć wszystko, a następnie **A** ponownie, aby zaznaczyć wszystko.
+4.  Naciśnij **W** → Usuń podwójnie
+5.  Naciśnij **TAB**, aby wyjść z trybu edycji.
+6.  Powtórz dla wszystkich komponentów
+7.  Zapisz nowy plik [DAE](Arch_DAE.md) (**File → Export → Collada**).
 
-Note that it might be easier to go by parts and treat + export objects group by group, as we did below, we exported only the first layer, made of yellow elements in SketchUp. These elements will come into FreeCAD as [Mesh](Mesh_Workbench.md) objects:
+Zwykle powyższa operacja nie powinna zmienić skali, ale zawsze dobrze jest sprawdzić, używając narzędzi pomiarowych, czy zaimportowana geometria ma prawidłową skalę przed przejściem dalej. W razie potrzeby konieczne może być dostosowanie ustawień eksportu Collada w Blenderze.
+
+
+
+## Import i konwersja do polilinii 
+
+Należy pamiętać, że może być łatwiej przejść przez części i traktować + eksportować obiekty grupa po grupie, tak jak to zrobiliśmy poniżej, wyeksportowaliśmy tylko pierwszą warstwę, wykonaną z żółtych elementów w SketchUp. Elementy te pojawią się w FreeCAD jako obiekty [siatkowe](Mesh_Workbench/pl.md):
 
 ![](images/Arch_Wikihouse_09.jpg )
 
-The next step is to create wires from each of our meshes. There is a convenient Macro named [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh.md) that does just that. Install it (Refer to the [Macros](Macros.md) page for instructions), then one by one (you can do them all at once, but this macro takes some time), convert all our meshes to wire objects:
+Następnym krokiem jest utworzenie polilinii z każdej z naszych siatek. Istnieje wygodna makrodefinicja o nazwie [Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh/pl.md), które właśnie to robi. Zainstaluj je *(instrukcje znajdziesz na stronie [Makrodefinicje](Macros/pl.md))*, a następnie po kolei *(możesz zrobić wszystkie naraz, ale to makro zajmuje trochę czasu)* przekonwertuj wszystkie nasze siatki na obiekty polilinii:
 
 ![](images/Arch_Wikihouse_10.jpg )
 
-We could now already make [Arch Panel](Arch_Panel.md) objects from each of these wire-like objects, simply by selecting them and pressing the [Arch Panel](Arch_Panel.md) button. However, their base shape wouldn\'t be parametric. We now have several options: We could turn each component into a sketch, using the [Draft Draft2Sketch](Draft_Draft2Sketch.md) tool, but these will be rather heavy sketches, and might not be very manageable on a slow machine, or we could turn each individual wire (the outline and each hole) of the sketch into a separate sketch. This would allow us, for example, to reuse a typical hole, make it only once, then duplicate it with [Draft Clone](Draft_Clone.md) to make the other holes. This way, you would only need to edit one to edit them all.
+Moglibyśmy teraz tworzyć obiekty typu [Panel](Arch_Panel/pl.md) z każdego z tych obiektów przypominających polilinię, po prostu wybierając je i naciskając przycisk [Panel](Arch_Panel/pl.md). Jednak ich podstawowy kształt nie byłby parametryczny. Mamy teraz kilka opcji: Możemy przekształcić każdy komponent w szkic, używając narzędzia [Rysunek roboczy do szkicu](Draft_Draft2Sketch/pl.md), ale będą to raczej dość złożone szkice i mogą nie być zbyt łatwe w zarządzaniu na wolnej maszynie, lub możemy przekształcić każdą pojedynczą polilinię *(kontur i każdy otwór)* szkicu w osobny szkic. Pozwoliłoby nam to na przykład na ponowne wykorzystanie typowego otworu, wykonanie go tylko raz, a następnie powielenie go za pomocą narzędzia [Klonuj](Draft_Clone/pl.md) w celu wykonania innych otworów. W ten sposób wystarczy edytować jeden otwór, aby edytować wszystkie.
 
-The [Macro Extract Wires from Mesh](Macro_Extract_Wires_from_Mesh.md) also sometimes fails in finding closed wires inside a mesh, which will not produce correct Panels. An easy procedure to recompose the wires of a component is this:
+Makrodefinicja [Wyodrębnij linie z siatki](Macro_Extract_Wires_from_Mesh/pl.md) również czasami zawodzi w znajdowaniu zamkniętych polilinii wewnątrz siatki, co nie daje poprawnych paneli. Prostym sposobem na ponowne skomponowanie polilinii komponentu jest następująca procedura:
 
-1.  Select the component, optionally hide everything else to see better
-2.  [Draft Downgrade](Draft_Downgrade.md) it. It will be exploded into a series of individual edges
-3.  Start selecting the holes with Ctrl or by using Shift + B to box-select
-4.  Press [Draft Upgrade](Draft_Upgrade.md) to turn back each hole into an individual wire
-5.  Finally select all the remaining individual edges in the tree, which form the outline, and [Draft Upgrade](Draft_Upgrade.md) them
-6.  Select **Part → make Compound** to join back all these wires into one object
-7.  Select the compound and press the [Arch Panel](Arch_Panel.md) button
+1.  Wybierz komponent, opcjonalnie ukryj wszystko inne, aby był lepiej widoczny
+2.  Użyj narzędzia [Rozbij](Draft_Downgrade/pl.md). Zostanie on przekształcony w serię pojedynczych krawędzi
+3.  Rozpocznij zaznaczanie otworów z **Ctrl** lub używając **Shift** + **B**, aby zaznaczyć obszar.
+4.  Naciśnij [Ulepsz](Draft_Upgrade/pl.md), aby przekształcić każdy otwór w pojedynczą krawędź.
+5.  Na koniec zaznacz wszystkie pozostałe pojedyncze krawędzie w drzewie, które tworzą kontur, i wybierz [Rozbij](Draft_Upgrade/pl.md).
+6.  Wybierz z menu **Część → Kształt złożony → Utwórz kształt złożony**\'\', aby połączyć wszystkie polilinie w jeden obiekt.
+7.  Wybierz związek i naciśnij przycisk [Arch Panel](Arch_Panel/pl.md).
 
 ![](images/Arch_Wikihouse_11.jpg )
 
-There are many possible strategies here, depending on how editable and precise you need the result. The [Arch Panel](Arch_Panel.md) object needs a base object made of wires. It doesn\'t matter how this object is made, if it is a single sketch, or, like in the example above, a compound of different sketches or Draft object.
+Istnieje wiele możliwych strategii, w zależności od tego, jak edytowalny i precyzyjny ma być rezultat. Obiekt [Panel](Arch_Panel/pl.md) potrzebuje obiektu bazowego wykonanego z polilinii. Nie ma znaczenia, w jaki sposób obiekt ten jest tworzony, czy jest to pojedynczy szkic, czy, jak w powyższym przykładzie, połączenie różnych szkiców lub obiektu środowiska Rysunek Roboczy.
 
-## Converting to Sketches 
 
-It is also possible to do that part later, you could already create Panels from each of the component, but let\'s see already how to to convert a wire-like object to a sketch:
+
+## Konwersja do szkicu 
+
+Tę część można również wykonać później, można już utworzyć panele z każdego z komponentów, ale zobaczmy już teraz, jak przekonwertować obiekt podobny do polilinii na szkic:
 
 1.  Create a copy of your wire-like object with **Ctrl**+**C**, **Ctrl**+**V**. This is so we can modify it but still keep one in its correct location
 2.  Move and rotate it so it lies in the XY plane, using [Draft Move](Draft_Move.md) and [Draft Rotate](Draft_Rotate.md). This is not indispensable, but the next point sometimes fails otherwise
@@ -103,11 +113,13 @@ It is also possible to do that part later, you could already create Panels from 
 
 ![](images/Arch_Wikihouse_12.jpg )
 
-## Rebuilding the Wikihouse and exporting cut sheets 
+
+
+## Przebudowa Wikihouse i eksportowanie wyciętych arkuszy 
 
 Also, make sure you don\'t redo any duplicated part. Instead, select the [Draft Clone](Draft_Clone.md) tool to duplicate parts based on the same profile, so they will all share one same profile object. Then, since we have the outline at the correct place to use as a guide, it is fairly easy to rotate and move the clone into its correct position with [Draft Rotate](Draft_Rotate.md) and [Draft Move](Draft_Move.md).
 
-After a while, all our Microhouse section is done.
+Po chwili cała sekcja Microhouse jest gotowa.
 
 ![](images/Arch_Wikihouse_01.jpg )
 

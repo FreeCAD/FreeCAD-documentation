@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft ShowSnapBar
-   Name/it: Barra Snap
-   MenuLocation: Draft , Utilità , Mostra barra Snap
+   Name/it: Mostra barra degli agganci
+   MenuLocation: Draft , Utilità , Mostra barra degli agganci
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it
 ---
@@ -10,38 +10,24 @@
 # Draft ShowSnapBar/it
 
 
-</div>
 
 ## Descrizione
 
-The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
+Il comando <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft Mostra barra degli agganci** mostra la barra degli strumenti Draft Aggancio. Alcuni utenti desiderano vedere questa barra degli strumenti solo quando un comando è attivo e hanno modificato le loro [preferenze](Draft_Snap/it#Preferenze.md). Per loro questo comando è un modo per mostrare la barra degli strumenti per ispezionare e, facoltativamente, modificare le [opzioni di aggancio](Draft_Snap/it.md).
+
+
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
--   Fare clic con il tasto destro su un oggetto Draft e selezionare **Utilità → <img src="images/Draft_Snap.svg" width=16px> [Mostra/nascondi la barra Snap](Draft_ShowSnapBar/it.md)**.
--   Oppure fai clic con il pulsante destro su uno spazio vuoto su una barra degli strumenti e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
--   Oppure andare al menu al menu **Visualizza → Barre degli strumenti**, e fare clic sulla casella [Snap Draft](Draft_Snap/it.md).
-
-
-</div>
-
-## Notes
-
--   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
-    -   Select the **View → Toolbars → Draft Snap** option from the menu.
-    -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
-
-
-<div class="mw-translate-fuzzy">
+1.  Seleziona l\'opzione **Utilità → <img src="images/Draft_ShowSnapBar.svg" width=16px> Mostra barra degli agganci** dal menu.
 
 
 
+## Note
 
-
-</div>
+-   Come qualsiasi barra degli strumenti, la barra degli strumenti di aggancio Draft può essere attivata utilizzando questi metodi:
+    -   Selezionare l\'opzione **Visualizza → Barre degli strumenti → Draft aggancio** dal menu.
+    -   Fare clic con il pulsante destro del mouse su uno spazio vuoto nell\'[area della barra strumenti](Interface/it.md) e selezionare l\'opzione **Draft aggancio** dal menu visualizzato.
 
 
 

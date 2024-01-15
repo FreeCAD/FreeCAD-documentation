@@ -1,25 +1,27 @@
 ---
- TutorialInfo:
-   Topic: Arch Workbench
-   Level: Advanced
-   Time: 120 minutes
+ TutorialInfo:l
+   Topic: środowisko pracy Architektura
+   Level: zaawansowany
+   Time: 120 minut
    Author: Pablo Gil
    FCVersion: 0.19.x
-   Files: 
+   Files: brak
 }}
 
-## Introduction
+## Wprowadzenie
 
-It was a such a hard investigation on how to get a working copy of IfcOpenShell-python on OSX/macOS in order to import/export IFC files that I\'m sharing this tutorial in case it helps more people. My system is OSX 10.11.6, 64bits with Python 2.7.11, it might work for you if you have also OSX as they are often 64bits but may differ from mine. The procedure might be very similar if you run Linux or Windows but it probably have some differences.
+To było tak trudne dochodzenie, jak uzyskać działającą kopię IfcOpenShell-python na OSX/macOS w celu importowania/eksportowania plików IFC, że dzielę się tym poradnikiem na wypadek, gdyby pomógł większej liczbie osób. Mój system to OSX 10.11.6, 64bity z środowiskiem Python 2.7.11, może to zadziałać, jeśli masz również OSX, ponieważ często są one 64-bitowe, ale mogą się różnić od mojego. Procedura może być bardzo podobna, jeśli używasz Linuksa lub Windowsa, ale prawdopodobnie ma pewne różnice.
 
-## Requirements
+
+
+## Wymagania
 
 -   IfcOpenShell
--   FreeCAD v0.19 or higher
+-   FreeCAD w wersji 0.19 lub nowszej
 
-## Steps
+## Kroki
 
-1\. Download or clone the full GitHub project at <https://github.com/IfcOpenShell/IfcOpenShell> 
+1\. Pobierz lub sklonuj pełny projekt GitHub pod adresem <https://github.com/IfcOpenShell/IfcOpenShell> **
 
 :   
     `git clone https://github.com/IfcOpenShell/IfcOpenShell
@@ -29,29 +31,28 @@ It was a such a hard investigation on how to get a working copy of IfcOpenShell-
 
      
 
-2\. From a terminal go to **/nix/** folder and launch the script. In OSX it is executed with: 
+2\. Z terminala przejdź do folderu **/nix/** i uruchom skrypt. W systemie OSX jest on wykonywany za pomocą: 
 ```python
 cd nix/
 ./build-all.sh
-``` It will take from 30 up to 120 minutes to compile everything. It\'s not the smarter way of compiling [IfcOpenShell](IfcOpenShell.md) but this simple script will compile all dependencies, Python versions, etc.
+``` Kompilacja zajmie od 30 do 120 minut. Nie jest to najmądrzejszy sposób kompilacji [IfcOpenShell](IfcOpenShell/pl.md), ale ten prosty skrypt skompiluje wszystkie zależności, wersje Python itp.
 
-3\. Once it finishes (I don\'t remember now but it will be printed something like \"Built IfcOpenShell\...\" and it will return to your prompt) you will have a new folder **/IfcOpenShell/build/** full of files and folders. From my personal experience, two weeks ago the nix \"build-all.sh\" script didn\'t finished successfully but after trying it yesterday with the newest updates it worked fine so I guess you might experience something similar in case the development goes further\... So now you have everything you need but you have to do some manual work in order to get it working:
+3\. Po zakończeniu *(nie pamiętam teraz, ale zostanie wypisane coś w stylu \"Built IfcOpenShell\...\" i powróci do monitu)* będziesz miał nowy folder **/IfcOpenShell/build/** pełen plików i folderów. Z mojego osobistego doświadczenia wynika, że dwa tygodnie temu skrypt nix \"build-all.sh\" nie zakończył się pomyślnie, ale po wypróbowaniu go wczoraj z najnowszymi aktualizacjami działał dobrze, więc przypuszczam, że możesz doświadczyć czegoś podobnego w przypadku dalszego rozwoju\... Więc teraz masz wszystko, czego potrzebujesz, ale musisz wykonać trochę samodzielnej pracy, aby to zadziałało:
 
-4\. Open FreeCAD and open the [Python console](Python_console.md) and [Report view](Report_view.md). Then write into the Python console the following: 
+4\. Otwórz FreeCAD i otwórz okna [konsola Python](Python_console/pl.md) i [Widok raportu](Report_view/pl.md). Następnie wpisz w konsoli Python następujące polecenie: 
 ```python
 import sys
 print sys.path
-``` You will get a looooong line with all the paths that FreeCAD reads. You may be able to install IfcOpenShell in any of them but I suggest you to place it inside one where you find a **/site-packages/** after a **/Python/** or **/python-something/**. In my case it was **/Library/Python/2.7/site-packages**. (Note: you will find paths inside your app directory but I suggest you to not use them because then IfcOpenShell will only be available for this app)
+``` Otrzymasz długą linię ze wszystkimi ścieżkami, które odczytuje FreeCAD. Możesz być w stanie zainstalować IfcOpenShell w dowolnej z nich, ale sugeruję umieszczenie go w takiej, w której znajdziesz **/site-packages/** po **/Python/** lub **/python-something/**. W moim przypadku był to **/Library/Python/2.7/site-packages**. *(Uwaga: znajdziesz ścieżki wewnątrz katalogu aplikacji, ale sugeruję ich nie używać, ponieważ wtedy IfcOpenShell będzie dostępny tylko dla tej aplikacji)*.
 
-5\. Once located where you want/have to install it, go there with your file browser (Finder in OSX). That is, go inside **/site-packages/** folder
+5\. Po zlokalizowaniu miejsca, w którym chcesz / musisz go zainstalować, przejdź tam za pomocą przeglądarki plików *(Finder w OSX)*. To znaczy, przejdź do folderu **/site-packages/**
 
 :   
-    {{incode|cd site-packages/`
-    
+    {{incode|cd site-packages/`.
 
-6\. Open a new file browser window and navigate to your downloaded GitHub project: **/IfcOpenShell/src/ifcopenshell-python/** and copy the full **/ifcopenshell/** folder
+6\. Otwórz nowe okno przeglądarki plików i przejdź do pobranego projektu GitHub: **/IfcOpenShell/src/ifcopenshell-python/** i skopiuj cały folder **/ifcopenshell/**.
 
-7\. Paste it inside **/site-packages/** folder. Now you should have something like: 
+7\. Wklej go do folderu **/site-packages/**. Teraz powinieneś mieć coś takiego: 
 ```python
 /site-packages/ifcopenshell/__init__.py
 /site-packages/ifcopenshell/entity_instance.py
@@ -63,20 +64,20 @@ print sys.path
 /site-packages/ifcopenshell/guid.py
 ```
 
-8\. Now we have to pick to files inside the /build/ folder, they are: 
+8\. Teraz musimy wybrać dwa pliki wewnątrz folderu /build/, są to: 
 ```python
 _ifcopenshell_wrapper.so
 ifcopenshell_wrapper.py
-``` but as we have compiled everything you will have to pick the one that matches with your FreeCAD Python version. Check it easily reading the first line inside your FreeCAD [Python console](Python_console.md) view. In my case it was Python 2.7.11.
+``` ale ponieważ skompilowaliśmy wszystko, będziesz musiał wybrać ten, który pasuje do twojej wersji Python FreeCAD. Sprawdź to łatwo czytając pierwszą linię w widoku [konsoli Python](Python_console/pl.md) FreeCAD. W moim przypadku był to Python 2.7.11.
 
-9\. Now go let\'s copy the files inside the place it corresponds to your Python version. In my case it was: 
+9\. Teraz skopiujmy pliki do miejsca odpowiadającego wersji Python. W moim przypadku było to: 
 ```python
 /IfcOpenShell/build/Darwin/x86_64/build/ifcopenshell/[b]python-2.7[/b].10/ifcwrap/
 ```
 
-10\. Paste them inside **/site-packages/ifcopenshell/**
+10\. Wklej je wewnątrz **/site-packages/ifcopenshell/**
 
-11\. Check everything is in place: 
+11\. Sprawdź, czy wszystko jest na swoim miejscu: 
 ```python
 /site-packages/ifcopenshell/__init__.py                  (1)
 /site-packages/ifcopenshell/entity_instance.py           (1)
@@ -90,45 +91,47 @@ ifcopenshell_wrapper.py
 /site-packages/ifcopenshell/ifcopenshell_wrapper.py      (2)
 ```
 
-\(1\) from GitHub project
-(2) from /build/ folder
+*(1)* z projektu GitHub
+*(2)* z folderu /build/
 
-12\. Close and reopen FreeCAD
+12\. Zamknij i ponownie otwórz program FreeCAD.
 
-## Testing
+## Testowanie
 
-Now that it is installed, let\'s check if everything works as expected:
+Po zainstalowaniu sprawdźmy, czy wszystko działa zgodnie z oczekiwaniami:
 
-12.1 in the Python console write: 
+12.1 w konsoli Python: 
 ```python
 import ifcopenshell
 from ifcopenshell import geom
-``` if it doesn\'t throw any error it means it may be correctly installed
+``` jeśli nie wyrzuci żadnego błędu, oznacza to, że może być poprawnie zainstalowany.
 
-12.2 Go to [Yorik\'s FreeCAD manual](Manual_BIM_modeling.md), navigate to the lower part of the page and download the following files to test: 
+12.2 Przejdź do [poradnika FreeCAD użytkownika Yorik](Manual:BIM_modeling/pl.md), nawigacji do dolnej części strony i pobierz następujące pliki do przetestowania: 
 ```python
 house.FCStd
 house.ifc
 ```
 
-12.3 Open **house.FCStd**, select the root \"Building\" object and export it (**File → Export**) setting the File type to \"Industry Foundation Classes (\*.ifc)\". Press **Save** and if it works and it doesn\'t throw an error in the [Report view](Report_view.md) then it\'s working.
+12.3 Otwórz **house.FCStd**, wybierz główny obiekt \"Building\" i wyeksportuj go (**Plik → Eksport**) ustawiając typ pliku na \"Industry Foundation Classes (\*.ifc)\". Naciśnij **Zapisz** i jeśli to zadziała i nie wyrzuci błędu w oknie [Widoku raportu](Report_view/pl.md), to znaczy, że działa.
 
-12.4 Final test, import **house.ifc** into a new file so open a new file and import that file\... it will take a while.
+12.4 Test końcowy, import **house.ifc** do nowego pliku, więc otwórz nowy plik i zaimportuj go \... to trochę potrwa.
 
-13\. Enjoy BIM with FreeCAD!
+13\. Ciesz się BIM dzięki FreeCAD!
 
-## Final thoughts 
+## Przemyślenia końcowe 
 
-My opinion is that FreeCAD itself should have precompiled versions of IfcOpenShell bundled with the distribution because building it by yourself is a total pain and average user won\'t do it (they don\'t know how to compile, manage GitHub, etc), but well, maybe in the future.
+Moim zdaniem sam FreeCAD powinien mieć prekompilowane wersje IfcOpenShell dołączone do dystrybucji, ponieważ samodzielne budowanie go jest totalnym bólem i przeciętny użytkownik tego nie zrobi *(nie wie, jak kompilować, zarządzać GitHubem itp.)*, ale cóż, może w przyszłości.
 
-I hope it helps you.
+Mam nadzieję, że to ci pomoże.
 
-Cheers
+Dzięki.
 
-## Links
 
--   Related forum thread [discussion](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
--   [IfcOpenShell](IfcOpenShell.md)
+
+## Odnośniki internetowe 
+
+-   Powiązany wątek na forum [dyskusyjnym](http://forum.freecadweb.org/viewtopic.php?f=23&t=17536)
+-   [IfcOpenShell](IfcOpenShell/pl.md)
 
 
 {{Userdocnavi

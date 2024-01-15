@@ -1,14 +1,15 @@
 # Macro Pyramid/fr
 {{Macro/fr
 |Name=Macro Pyramid
+|Name/fr=Macro Pyramid
 |Icon=Pyramidicon.svg
-|Description=Cette macro crée un pyramide paramétrique. Le rayon et la hauteur seront définis au moment de la création, comme pour le cône partiel..
+|Description=Cette macro crée une pyramide paramétrique. Les rayons et la hauteur sont définis au moment de la création, comme dans le cas de Part Cone. Tous les paramètres peuvent être ajustés. Il est possible de créer des pyramides avec une pointe parfaite.
 |Author=Eddy Verlinden, Genk, Belgium
 |Version=01.01
 |Date=2019-11-10
-|FCVersion=All
-|Download=[https://raw.githubusercontent.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons/master/icons/pyramid.svg Icon ToolBar]
-|SeeAlso=[Macro Polyhedrons](Macro_Polyhedrons/fr.md) <img src="images/Dodecahedron.svg" width=24px>
+|FCVersion=Toutes
+|Download=[https://wiki.freecad.org/images/4/46/Pyramidicon.svg Icône de la barre d'outils]
+|SeeAlso=[Macro Polyhedrons](Macro_Polyhedrons/fr.md)
 }}
 
 ## Description
@@ -19,28 +20,30 @@ Cette macro crée une pyramide paramétrique.
 -   Tous les paramètres peuvent être ajustés.
 -   Il est possible de créer des pyramides avec une pointe parfaite.
 
-Note:
+Remarque :
 
 Si vous êtes également intéressé par les polyèdres, vous pouvez également utiliser Macro Polyhedrons.
-Vous pouvez également utiliser l\'atelier externe [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient la même fonction.
+Vous pouvez également utiliser l\'atelier externe [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) qui contient la même fonction.
 
 ![](images/Polyhedrons.png )
 
 
 
-*Exemple création si vous êtes également intéressé par les polyèdres, vous pouvez également utiliser le workbench externe [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (lien github) qui contient la même fonction..*
+*Exemple de création avec l'atelier externe [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] qui contient la même fonction.*
+
+
 
 ## Utilisation
 
--   Installation: Utiliser Outils / Gestionnaire des extensions / Macro\'s <img alt="" src=images/AddonManager.svg  style="width:24px;"> pour installer la macro.
+-   Installation : utiliser <img alt="" src=images/AddonManager.svg  style="width:24px;"> [gestionnaire des extensions](Std_AddonMgr/fr.md) pour installer la macro.
 -   Une fois installé, ouvrez Menu → Macro → Macros. Cliquez sur pyramid.py puis sur le bouton {{button|Executer}}.
--   Une pyramide nouée apparaîtra, semblable à la partie cône
+-   Une pyramide nouée apparaîtra, semblable à Part Cone.
 -   Modifiez les paramètres comme avec Part Cone.
--   Allez sur [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README) pour plus d\'informations.
+-   Allez sur [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) pour plus d\'informations.
 
 ## Script
 
-Icon ToolBar <img alt="" src=images/Pyramidicon.svg  style="width:64px;">
+Icône de la barre d\'outils <img alt="" src=images/Pyramidicon.svg  style="width:64px;">
 
 **pyramid.py**
 
@@ -291,6 +294,8 @@ create ("Pyramid")
 FreeCADGui.SendMsgToActiveView("ViewFit")
 
 }}
+
+
 
 ## Lien
 

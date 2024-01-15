@@ -54,21 +54,14 @@ Puteți utiliza propriul fișier FreeCAD, dar puteți crea, de asemenea, un fiș
 
 ## Export Method 1: Using \"File → Export\" 
 
-
-<div class="mw-translate-fuzzy">
-
-## metoda 1 de Export: folosirea căii \"File \> Export\" 
-
--   Comutați pe Atelierul Mesh workbench sau workbench complet
--   Choose ** Edit** → ** Preferences** → ** Import-Export** → ** Mesh Formats** from the top menu
--   Here you can specify the maximum mesh deviation (0,1 mm is default) which controls how \"fine\" your mesh will get
--   Close dialogue with ** OK**
--   Select the solid to be exported in the tree view
--   Choose ** File** → ** Export...** and set file type to for example \"STL mesh (\*.stl \*.ast)\"
--   Introduceți numele fișierului dvs. și nu uitați extensia, alegeți** Save**
-
-
-</div>
+1.  With the default settings, this method creates a mesh with noticeably jagged curves. To get a smoother finish when e.g. 3D printing, the mesh resolution should be configured:
+    1.  Make sure the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) has been loaded (it is not loaded by default).
+    2.  Go to **Edit → Preferences... → Import-Export → Mesh Formats**.
+    3.  Change **Maximum mesh deviation**. A lower value will produce a mesh with a higher resolution.
+2.  Select the solid to be exported in the tree view.
+3.  Choose **File → Export...** and set the file type to **STL mesh (*.stl *.ast)**.
+4.  Enter your file name. The default extension is **.stl**. You must include the extension **.ast** to produce an **.ast** file.
+5.  Choose **Save**.
 
 ## Export Method 2: Using the Mesh Workbench in FreeCAD 
 

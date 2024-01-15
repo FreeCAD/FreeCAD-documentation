@@ -13,6 +13,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -109,8 +111,10 @@ Instrumentul Spațiu vă permite să definiți un volum gol, fie bazându-l pe o
 
 ## Options
 
--   To create zones that group several spaces, use a [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\"
--   The space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
+-   To create zones that group several spaces, use an [Arch BuildingPart](Arch_BuildingPart.md) and set its IFC type to \"Spatial Zone\".
+-   The Space object has the same display modes as other Arch and Part objects, with one more, called **Footprint**, that displays only the bottom face of the space.
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -143,7 +147,9 @@ Space = makeSpace(objects=None, baseobj=None, name="Space")
 
 </div>
 
-Exempluː 
+Exempluː
+
+
 ```python
 import FreeCAD, Arch
 

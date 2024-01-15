@@ -1,11 +1,13 @@
 # TechDraw API/de
-**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die letzte API siehe die [https://www.freecadweb.org/api autogenerierte API Dokumentation].** Diese Funktionen sind Teil des [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) und können in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, sobald das `TechDraw` Modul importiert wurde.
+**(November 2018) Diese Information kann unvollständig und veraltet sein. Für die neueste API siehe die [https://www.freecadweb.org/api autogenerierte API-Dokumentation].** Diese Funktionen sind Teil des Arbeitsbereichs [TechDraw](TechDraw_Workbench/de.md) und können in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus verwendet werden, sobald das `TechDraw`-Modul importiert wurde.
 
 Gute Beispiele für grundlegendes TechDraw Skripten findest Du in den [unit test scripts](https://github.com/FreeCAD/FreeCAD/tree/master/src/Mod/TechDraw/TDTest).
 
 Siehe die [TechDrawGui API](TechDrawGui_API/de.md) für weitere Funktionen.
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD
 import TechDraw
@@ -20,18 +22,20 @@ rc = page.addView(view)
 ```
 
 
-{{APIFunction|EdgeWalker|listOfEdges, [bool]|Erzeugt Drähte aus Kanten in der Eingabe durch planare Graphenquerung.  Schließe den ÄußerenDraht optional aus, indem Du den optionalen Parameter auf false setzen. |Liste der Drähte sortiert nach Größe (absteigend)}}
+{{APIFunction|EdgeWalker|listOfEdges, [bool]|Erzeugt Kantenzüge aus Kanten in der Eingabe durch planare Graphenquerung. Wahlweise den äußeren Draht (OuterWire) ausschließen, indem der optionale Parameter auf false gesetzt wird.|Liste der Kantenzüge sortiert nach Größe (absteigend)}}
 
 
-{{APIFunction|findOuterWire|listOfEdges|Findet den ÄußerenDraht (größten) einer Liste von Kanten (die einen planaren Graphen bilden).|Outer wire}}
+{{APIFunction|findOuterWire|listOfEdges|Findet den äußeren Draht (OuterWire) (den größten) einer Liste von Kanten (die einen planaren Graphen bilden).|Outer wire}}
 
 
-{{APIFunction|findShapeOutline|TopoShape, Maßstab, Richtung|Projektform in Richtung und finde den äußeren Draht des Ergebnisses.|Outline Draht}}
+{{APIFunction|findShapeOutline|TopoShape, Maßstab, Richtung|Form in Richtung projizieren und den äußeren Draht des Ergebnisses finden.|Outline wire}}
 
 
 {{APIFunction|viewPartAsDxf|DrawViewPart|Return the edges of a DrawViewPart in Dxf format.|String}}
 
-Example: 
+Beispiel:
+
+
 ```python
 fileSpecDxf = "fcOut.dxf"
 v = App.ActiveDocument.View
@@ -46,7 +50,9 @@ dxfFile.close()
 
 {{APIFunction|viewPartAsSvg|DrawViewPart|Return the edges of a DrawViewPart in Svg format.|String}}
 
-Example: 
+Beispiel:
+
+
 ```python
 fileSpecSvg = "fcOut.svg"
 v = App.ActiveDocument.View
@@ -65,7 +71,9 @@ svgFile.close()
 
 {{APIFunction|writeDXFView|DrawViewPart, FileName|Save the DrawViewPart in Dxf.|File}}
 
-Example: 
+Beispiel:
+
+
 ```python
 import TechDraw
 TechDraw.writeDXFView(myPart,myFileName)
@@ -74,33 +82,39 @@ TechDraw.writeDXFView(myPart,myFileName)
 
 {{APIFunction|writeDXFPage|DrawPage, FileName|Save the DrawPage in Dxf.|File}}
 
-Example: 
+Beispiel:
+
+
 ```python
 import TechDraw
 TechDraw.writeDXFPage(myPage,myFileName)
 ```
 
-### ZeichneAnsichtPart Kosmetik 
 
-#### CosmeticVertex (CV) Routinen, die von Python aus zugänglich sind 
 
-dvp = App.ActiveDocument.View #CV\'s gehören zu Ansichten
-füge einen KosmetikKnoten bei p1 (Ansichtskoordinaten) hinzu. Gibt einen eindeutigen Tag zurück.
+### DrawViewPart-Hilfselemente 
+
+
+
+#### Hilfspunkt- (CosmeticVertex, CV) Routinen, auf die mit Python zugegriffen werden kann 
+
+dvp = App.ActiveDocument.View #Hilfspunkte gehören zu Ansichten.
+Fügt einen Hilfspunkt bei p1 (Ansichtskoordinaten) hinzu. Gibt einen eindeutigen Tag zurück.
 tag = dvp.makeCosmeticVertex(vector p1)
 
-füge einen Kosmetikknoten bei p1 (3D Modellkoordinaten) hinzu. Gibt ein eindeutiges Tag zurück.
+fFügt einen Hilfspunkt bei p1 (3D-Modellkoordinaten) hinzu. Gibt ein eindeutiges Tag zurück.
 tag = dvp.makeCosmeticVertex3d(vector p1)
 
-gibt Kosmetikknoten mit eindeutiger ID zurück.
+Gibt einen Hilfspunkt mit eindeutiger ID zurück.
 cv = dvp.getCosmeticVertex(string id)
 
-gibt KosmetikKnoten mit Namen zurück (Vertex6). In Auswahlen verwendet.
+Gibt einen Hilfspunkt mit Namen zurück (Vertex6). In Auswahlen verwendet.
 cv = dvp.getCosmeticVertexBySelection(Zeichenfolgennamen)
 
-KosmetikKnoten aus der Ansicht entfernen. Gibt nichts zurück.
+Entfernt einen Hilfspunkt aus der Ansicht. Gibt None zurück.
 dvp.removeCosmeticVertex(object cv)
 
-alle KosmetikKnoten aus der Ansicht entfernen. Gibt nichts zurück.
+Entfernt alle Hilfspunkte aus der Ansicht. Gibt None zurück.
 dvp.clearCosmeticVertices()
 
 KosmetikAnsicht Merkmale
@@ -114,16 +128,20 @@ Punkt: Standort innerhalb der Ansicht. Vektor.
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 # Py CosmeticVertex demo
 import FreeCAD
 import TechDraw
 
+
 v = App.ActiveDocument.View
 p = App.Vector(-3.0, -3.0, 0.0)
+
 
 #make CV
 tag = v.makeCosmeticVertex(p)
 print("t: {}".format(tag))
+
 
 #retrieve CV
 cv = v.getCosmeticVertex(tag)
@@ -131,8 +149,10 @@ print("cv: {}".format(cv))
 print("Tag: {}".format(cv.Tag))
 
 
+
 cv2 = v.getCosmeticVertexBySelection("Vertex4")
 print("New Point: {}".format(cv2.Point))
+
 
 #make CV from 3d
 p3d = App.Vector(2.0, 2.0, 2.0)
@@ -142,9 +162,11 @@ cv3 = v.getCosmeticVertex(tag3d)
 print("3d point out: {}".format(cv3.Point))
 ```
 
-#### CosmeticEdge (CE) Routinen, die von Python aus zugänglich sind 
 
-dvp = App.ActiveDocument.View #CE\'s gehören zu Ansichten
+
+#### Hilfslinie- (CosmeticEdge, CE) Routinen, auf die mit Python zugegriffen werden kann 
+
+dvp = App.ActiveDocument.View #Hilfslinien gehören zu Ansichten.
 Erzeuge ein CosmeticEdge von p1 nach p2(Ansicht Koordinaten). Gibt eine Kennung zurück.
 tag = dvp.makeCosmeticLine(p1, p2)
 
@@ -154,16 +176,16 @@ tag = dvp.makeCosmeticCircle(center, radius)
 Erzeuge ein CosmeticEdge bei center mit dem Radius radius (Ansicht Koordinaten) vom Startwinkel start zum Endwinkel end. Gibt eine Kennung zurück.
 tag = dvp.makeCosmeticCircleArc(center, radius, start, end)
 
-Gibt das CosmeticEdge mit der Identitätsnummer id zurück.
+Gibt eine Hilfslinie mit eindeutiger ID zurück.
 ce = dvp.getCosmeticEdge(id)
 
-Gibt das CosmeticEdge mit dem Namen (\'Edge25\') zurück. Wird in Auswahlen verwendet.
+Gibt eine Hilfslinie mit dem Namen (\'Edge25\') zurück. Wird in Auswahlen verwendet.
 ce = dvp.getCosmeticEdgeBySelection(\'Edge25\')
 
-Löscht das CosmeticEdge ce aus der Ansicht. Hat keine Rückgabe.
+Löscht eine Hilfslinie ce aus der Ansicht. Gibt None zurück.
 dvp.removeCosmeticEdge(ce)
 
-Löscht alle CosmeticLines aus der Ansicht. Hat keine Rückgabe.
+Löscht alle Hilfslinien aus der Ansicht. Gibt None zurück.
 dvp.clearCosmeticEdges()
 
 CosmeticEdge Attribute
@@ -177,9 +199,11 @@ Format: Darstellung Attribute (Stil, Farbe, Linienbreite, Durchsichtigkeit). Tup
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 # Py CosmeticEdge demo
 import FreeCAD
 import TechDraw
+
 
 #points
 org = App.Vector(0.0, 0.0, 0.0)
@@ -192,9 +216,11 @@ vPt = FreeCAD.Vector(-3.0, 3.0, 0.0)
 topRight = FreeCAD.Vector(5.0, 5.0, 0.0)
 bottomLeft = FreeCAD.Vector(-5.0, -5.0, 0.0)
 
+
 #angles
 arcStart = -45
 arcEnd = 45
+
 
 #styles
 solid = 1 
@@ -210,28 +236,36 @@ pyGreen = (0.0, 0.0, 1.0, 0.0)
 pyBlack = (0.0, 0.0, 0.0, 0.0)
 shadow = (0.1, 0.1, 0.1, 0.0)
 
+
 radius = 5.0
 style = dashed
 weight = weight75
 
+
 dvp = App.ActiveDocument.View
 
+
 print(dvp)
+
 
 print("making line")
 tag = dvp.makeCosmeticLine(midTop,midBot,style, weight, pyBlue)
 ce = dvp.getCosmeticEdge(tag)
 print("line tag: {}".format(tag))
 
+
 print("making diagonal")
 dvp.makeCosmeticLine(bottomLeft,topRight,solid, weight, pyGreen)
+
 
 print("making circle")
 tag2 = dvp.makeCosmeticCircle(center, radius, style, weight, pyRed)
 ce2 = dvp.getCosmeticEdge(tag2)
 
+
 print("making circleArc")
 dvp.makeCosmeticCircleArc(arcCenter, radius, arcStart, arcEnd, style, weight, shadow)
+
 
 #replace
 print("making new format")
@@ -239,23 +273,27 @@ oldFormat = ce.Format
 newFormat = (dotted,oldFormat[1], pyRed, True)
 ce.Format = newFormat
 
+
 print("removing CE with tag: {}".format(tag2))
 dvp.removeCosmeticEdge(tag2)
+
 
 print("finished")
 ```
 
-#### MittelLinien (ML) Routinen, die über Python zugänglich sind 
 
-Erzeuge eine neue CenterLine
+
+#### Mittellinie- (CenterLine, CL) Routinen, auf die mit Python zugegriffen werden kann 
+
+Erstellt eine neue Mittellinie
 tag = dvp.makeCenterLine(subObjs, mode)
-Abrufen einer CenterLine mit der Kennung tag.
+Abrufen einer Mittellinie mit der eindeutigen Kennung tag.
 cl = dvp.getCenterLine(tag)
 
-Abrufen einer CenterLine mit ihrem Namen. Wird in Auswahlen verwendet.
+Abrufen einer Mittellinie mit ihrem Unterobjekt-Namen. Wird in Auswahlen verwendet.
 cl = dvp.getCenterLine(\"Edge5\")
 
-Lösche die CenterLine cl aus der Ansicht. Hat keine Rückgabe.
+Löscht eine Mittellinie cl aus der Ansicht. Gibt None zurück.
 dvp.removeCenterLine(cl)
 
 CenterLine Attribute
@@ -279,10 +317,12 @@ Points: Namen der Quellpunkte (Vertices). List of string.
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
 # Py CenterLine demo
 import FreeCAD
 import Part
 import TechDraw
+
 
 start = FreeCAD.Vector (1.0, 5.0, 0.0)   # middle, top
 end = FreeCAD.Vector(1.0, -5.0, 0.0)      # middle, bottom
@@ -310,12 +350,15 @@ extend = 4.0
 rotate = 30.0
 flip = False;
 
+
 dvp = App.ActiveDocument.View
+
 
 print("making face CenterLine")
 tag = dvp.makeCenterLine(faceNames,vMode)
 cline = dvp.getCenterLine(tag)
 print("cline tag: {}".format(tag))
+
 
 #replace
 print("making new format")
@@ -324,16 +367,21 @@ newFormat = (dotted,oldFormat[1], pyRed, True)
 cline.Format = newFormat
 cline.Extension = 10.0
 
+
 print("making edgeCenterLine")
 cline2 = dvp.makeCenterLine(edgeNames,hMode)
+
 
 print("making vertexCenterLine")
 cline3 = dvp.makeCenterLine(vertNames,aMode)
 
+
 print("finished")
 ```
 
-### DrawViewPart Geometry 
+
+
+### DrawViewPart-Geometrie 
 
 \[topoShapeEdge\] = dvp.getVisibleEdges()
 
@@ -345,7 +393,8 @@ topoShapeEdge = dvp.getEdgeBySelection(\"Edge1\")
 topoShapeVertex = dvp.getVertexByIndex(i)
 topoShapeVertex = dvp.getVertexBySelection(\"Vertex1\")
 
-dvp.requestPaint() Neu zeichnen der Graphik für diese Ansicht.
+Zeichnet die Graphik für diese Ansicht neu.
+dvp.requestPaint()
 
 
 {{TechDraw Tools navi

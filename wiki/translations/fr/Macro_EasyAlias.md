@@ -4,9 +4,9 @@
 |Icon=easy-alias-icon.png
 |Description=Utilisez cette fonction pour créer rapidement et facilement des alias pour les cellules de vos feuilles de calcul. Elle prend les étiquettes de texte que vous avez déjà créées dans une colonne et les utilise comme alias dans la colonne suivante.
 |Author=TheMarkster
-|Version=2022.04.27
-|Date=2023-04-27
-|FCVersion=0.20
+|Version=2023.11.06
+|Date=2023-11-06
+|FCVersion=0.21
 |Download=[https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png Icône de la barre d'outils]
 }}
 
@@ -84,8 +84,9 @@ __title__ = "EasyAlias"
 __author__ = "TheMarkster and rosta"
 __url__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
 __Wiki__ = "https://wiki.freecadweb.org/Macro_EasyAlias"
-__date__ = "2023.04.27" #year.month.date
+__date__ = "2023.11.06" #year.month.date
 __version__ = __date__
+__icon__ = "https://www.freecadweb.org/wiki/images/5/5e/Easy-alias-icon.png"
 
 CELL_ADDR_RE = re.compile(r"([A-Za-z]+)([1-9]\d*)")
 CUSTOM_ALIAS_RE = re.compile(r".*\((.*)\)")
@@ -99,7 +100,8 @@ REPLACEMENTS = {
     "Ä": "Ae",
     "Ö": "Oe",
     "Ü": "Ue",
-    "ß": "ss"
+    "ß": "ss",
+    "'": ""
 }
 
 def getSpreadsheets():
@@ -189,8 +191,9 @@ def main():
         return
     for spreadsheet in spreadsheets:
         for selectedCell in spreadsheet.ViewObject.getView().selectedCells():
-            contents = spreadsheet.getContents(selectedCell)
+            contents = spreadsheet.getContents(selectedCell) #get() throws exception on empty cell
             if contents:
+                contents = spreadsheet.get(selectedCell)
                 alias = textToAlias(contents)
                 row, column = a1_to_rowcol(selectedCell)
                 nextCell = rowcol_to_a1(row, column + 1)

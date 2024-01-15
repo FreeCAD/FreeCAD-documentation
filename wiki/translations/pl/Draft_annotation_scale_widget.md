@@ -1,34 +1,40 @@
 # Draft annotation scale widget/pl
-## Description
+## Opis
 
-The **Draft annotation scale widget** can be used to specify the Draft annotation scale. This scale determines the **Scale Multiplier** of new [Draft Texts](Draft_Text.md), [Draft Dimensions](Draft_Dimension.md) and [Draft Labels](Draft_Label.md). The widget is only available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
+**Widżet skalowania adnotacji** może być użyty do określenia skali adnotacji wersji roboczej. Skala ta określa mnożnik **Mnożnik skali** nowego obiektu [Adnotacja wieloliniowa](Draft_Text/pl.md), [Wymiar](Draft_Dimension/pl.md) i [Etykieta](Draft_Label/pl.md). Widżet jest dostępny tylko w środowiska <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md). Jest to [opcjonalny](##Ustawienia.md) element GUI, który znajduje się w [pasku statusu](Status_bar/pl.md).
 
 ![](images/Draft_annotation_scale_widget_button.png ) 
-*The Draft annotation scale widget*
+*Widżet skali adnotacji środowiska Rysunek Roboczy.*
 
-## Usage
 
-1.  Press the **x:x** button in the [Status bar](Status_bar.md). The button displays the current annotation scale.
-2.  The scale menu opens.
-3.  Do one of the following:
-    -   Select one of the standard scales.
-    -   Select the **custom** option:
-        -   In the dialog box that opens enter a custom scale using the {{Value|x:x}} or the {{Value|x<nowiki>=</nowiki>x}} format.
-        -   Press **Enter** or the **OK** button.
+
+## Użycie
+
+1.  Naciśnij przycisk **x:x** na [pasku statusu](Status_bar/pl.md). Przycisk wyświetla bieżącą skalę adnotacji.
+2.  Otworzy się menu skali.
+3.  Wykonaj jedną z następujących czynności:
+    -   Wybierz jedną ze standardowych skal.
+    -   Wybierz opcję **Użytkownika**:
+        -   W otwartym oknie dialogowym wprowadź skalę niestandardową, używając formatu {{Value|x:x}} lub {{Value|x<nowiki>=</nowiki>x}}.
+        -   Naciśnij **Enter** lub przycisk **OK**.
 
 ![](images/Draft_annotation_scale_widget_menu.png ) 
-*The menu of the widget*
+*Menu widżetu.*
 
-## Preferences
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The Draft annotation scale widget is optional: **Edit → Preferences... → Draft → User interface settings → Draft Statusbar → Annotation scale widget**.
--   To change the annotation scale without the widget: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → DraftAnnotationScale**. The scale is defined by a single number. For a scale of {{Value|1:50}} enter {{Value|0.02}}.
+## Ustawienia
 
-## Notes
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
--   See also: [Draft SetStyle](Draft_SetStyle.md) and [Draft ApplyStyle](Draft_ApplyStyle.md).
+-   Widżet skali adnotacji Rysunku Roboczego jest opcjonalny: **Edycja → Preferencje ... → Rysunek Roboczy → Interfejs → Pokaż widżet skali adnotacji środowiska Rysunek Roboczy**.
+-   Aby zmienić skalę adnotacji bez widżetu: **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Mod → Draft → DraftAnnotationScale**. Skala jest definiowana przez pojedynczą liczbę. Dla skali {{Value|1:50}} wpisz {{Value|0.02}}.
+
+
+
+## Uwagi
+
+-   Zobacz także: [Ustaw style](Draft_SetStyle/pl.md) i [Zastosuj bieżący styl](Draft_ApplyStyle/pl.md)
 
 
 

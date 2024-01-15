@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -17,6 +19,8 @@ Tento nástroj degraduje vybrané objekty různými způsoby. Není-li vybrán �
 
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Two overlapping faces are downgraded to a Part Cut object, which is downgraded to a face. That face is then downgraded to a closed wire, which is finally downgraded to separate edges.*
+
+
 
 
 <div class="mw-translate-fuzzy">

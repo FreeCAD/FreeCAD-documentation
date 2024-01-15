@@ -52,14 +52,15 @@ The CalculiX interface supports the following objects:
 
 ### Analysis
 
--   Linear static analysis
+-   Linear and nonlinear static analysis
 -   Frequency analysis
+-   Linear buckling analysis
 -   Coupled thermal-structural analysis
 
 ### Materials
 
--   One linear elastic isotropic material (uniformity in all directions)
--   Multiple material use is in development
+-   Linear elastic isotropic materials (uniformity in all directions)
+-   Plasticity with isotropic hardening
 
 ## Postprocessing interface 
 
@@ -73,7 +74,7 @@ citiți stresul rezultat (Von Mises) și toate deplasările
 
 </div>
 
-Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each Constraint fixed and for each Constraint displacement which constrains translation degrees of freedom.
+Reaction forces can be found in ccx_dat_file which contains reaction force components (fx, fy, fz) for each fixed boundary condition and for each displacement boundary condition which constrains translation degrees of freedom.
 
 ## Related
 

@@ -1,66 +1,66 @@
 # ANSI templates/de
-**The templates on this page are for the old [Drawing Workbench](Drawing_Workbench.md).<br>
- There will be issues when using them with the [TechDraw Workbench](TechDraw_Workbench.md).**
+**Die Vorlagen auf dieser Seite sind für den alten Arbeitsbereich [Drawing](Drawing_Workbench/de.md) gedacht.<br>
+Sie werden zu Problemen führen, wenn sie im Arbeitsbereich [TechDraw](TechDraw_Workbench.md) eingesetzt werden.**
 
 Dieses Seite zeigt die Vorlagen entsprechend der [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Norm des American National Standards Institute
 
 ### ANSI A 
 
-#### ANSI_A\_Querformat
+#### ANSI_A_Querformat
 
 <img alt="" src=images/ANSI_A_Landscape.svg  style="width:800px;">
 
 
 
-#### ANSI_A\_Hochformat
+#### ANSI_A_Hochformat
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
 ### ANSI B 
 
-#### ANSI_B\_Querformat
+#### ANSI_B_Querformat
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
 
 
 
-#### ANSI_B\_Hochformat
+#### ANSI_B_Hochformat
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
 ### ANSI C 
 
-#### ANSI_C\_Querformat
+#### ANSI_C_Querformat
 
 <img alt="" src=images/ANSI_C_Landscape.svg  style="width:800px;">
 
 
 
-#### ANSI_C\_Hochformat
+#### ANSI_C_Hochformat
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
 ### ANSI D 
 
-#### ANSI_D\_Querformat
+#### ANSI_D_Querformat
 
 <img alt="" src=images/ANSI_D_Landscape.svg  style="width:800px;">
 
 
 
-#### ANSI_D\_Hochformat
+#### ANSI_D_Hochformat
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
 ### ANSI E 
 
-#### ANSI_E\_Querformat
+#### ANSI_E_Querformat
 
 <img alt="" src=images/ANSI_E_Landscape.svg  style="width:800px;">
 
 
 
-#### ANSI_E\_Hochformat
+#### ANSI_E_Hochformat
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 

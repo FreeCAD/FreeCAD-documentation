@@ -2,16 +2,13 @@
  GuiCommand:
    Name: TechDraw WeldSymbol
    Name/pl: Rysunek Techniczny: Dodaj informacje spawalnicze do linii odniesienia
-   MenuLocation: TechDraw , Dodaj informacje spawalnicze do linii odniesienia
+   MenuLocation: TechDraw , Symbole , Dodaj informacje spawalnicze do linii odniesienia
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_LeaderLine/pl
 ---
 
 # TechDraw WeldSymbol/pl
-
-
-</div>
 
 
 
@@ -26,22 +23,20 @@ Narzędzie **Dodaj informacje spawalnicze do linii odniesienia** dodaje specyfik
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz istniejącą [linię odniesienia](TechDraw_LeaderLine/pl.md).
-2.  Naciśnij przycisk **<img src="images/TechDraw_WeldSymbol.svg" width=16px> '''Dodaj informacje spawalnicze do linii odniesienia'''**.
-3.  Otworzy się panel zadań. Umożliwia on ustawienie poszczególnych symboli spawania i towarzyszącego im tekstu, które mają zostać dodane do linii odniesienia.
-4.  Naciśnij przycisk **OK**, aby zamknąć okno dialogowe i zapisać zmiany.
-5.  Po utworzeniu symbolu spawania można go edytować, klikając dwukrotnie symbol spawania w drzewie.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_WeldSymbol.svg" width=16px> '''Dodaj informacje spawalnicze do linii odniesienia'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Symbole → <img src="images/TechDraw_WeldSymbol.svg" width=16px> Dodaj informacje spawalnicze do linii odniesienia**.
+3.  Otworzy się panel zadań.
+4.  Określ symbole spawania i towarzyszący im tekst, które mają zostać dodane do linii prowadzącej.
+5.  Naciśnij przycisk **OK**.
 
 
-</div>
 
-## Notes
+## Uwagi
 
--   After creation a welding symbol can be edited by double clicking it in the [Tree view](Tree_view.md).
--   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
+-   Po utworzeniu symbolu spawania można go edytować, klikając go dwukrotnie w oknie [Widoku drzewa](Tree_view.md).
+-   Istnieje [parametr preferencji](TechDraw_Preferences/pl.md) dla domyślnego katalogu symboli spawalniczych. Można dodawać własne symbole w katalogu osobistym.
 
 
 

@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrizione
 
 This command is used to easily trigger the FEM solver. It is a simplified version of the <img alt="" src=images/FEM_SolverControl.svg  style="width:24px;"> [Solver job control](FEM_SolverControl.md) which enables more settings.
+
+
 
 ## Utilizzo
 

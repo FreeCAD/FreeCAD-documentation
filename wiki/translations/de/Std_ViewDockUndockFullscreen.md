@@ -1,12 +1,11 @@
 ---
  GuiCommand:
-
-   Name: Std AuswahlDokumentfenster
+   Name: Std ViewDockUndockFullscreen
    Name/de: Std AuswahlDokumentfenster
-   Empty: 1
    MenuLocation: Ansicht , Dokumentfenster , Angedockt/Abgedockt/Vollbild
    Workbenches: Alle
-   SeeAlso: Std ViewCreate/de, Std ViewScreenShot/de, Std_FreezeViews/de, Std_Windows_Menu/de
+   Shortcut: **V** **D** / **V** **U**
+   SeeAlso: Std_ViewFullscreen, Std_MainFullscreen
 ---
 
 # Std ViewDockUndockFullscreen/de
@@ -17,7 +16,7 @@
 
 [3D-Ansichten](3D_view/de.md) können vom Hauptansichtsbereich der [FreeCAD-Oberfläche](Interface/de.md) abgedockt und beispielsweise auf einen anderen Bildschirm verschoben werden.
 
-![](images/FinestraNonAgganciata.png ) 
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
 *Eine abgedockte 3D-Ansicht*
 
 

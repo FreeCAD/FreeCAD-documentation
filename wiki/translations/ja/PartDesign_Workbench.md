@@ -10,7 +10,7 @@
 
 ## はじめに
 
-[PartDesign Workbenchは](PartDesign_Workbench.md)、複雑なソリッドパーツをモデリングする高度なツールを提供します。 これは主に、完成品に製造して組み立てることができる機械部品の製造に重点を置いています。 それにもかかわらず、作成されたソリッドは、[architectural design](Arch_Workbench.md), [FE analysis](FEM_Workbench.md)、3D印刷などの一般的な目的に使用できます。
+[PartDesign Workbench](PartDesign_Workbench.md)は、複雑なソリッドパーツをモデリングする高度なツールを提供します。 これは主に、完成品に製造して組み立てることができる機械部品の製造に重点を置いています。 それにもかかわらず、作成されたソリッドは、[architectural design](Arch_Workbench.md), [FE analysis](FEM_Workbench.md)、3D印刷などの一般的な目的に使用できます。
 
 
 </div>

@@ -1,11 +1,11 @@
 ---
- TutorialInfo:
-   Topic:  Modeling an architectural panel
-   Level:  Beginner
-   Time:  60 minutes
+ TutorialInfo:l
+   Topic:  Modelowanie panelami architektonicznymi
+   Level:  początkujący
+   Time:  60 minut
    Author:  Yorik
-   FCVersion: 
-   Files: 
+   FCVersion:  dowolna
+   Files: nie dołączono
 ---
 
 # Arch panel tutorial/pl
@@ -14,7 +14,7 @@
 
 
 
-This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) originally written for [Open-Source Ecology](http://opensourceecology.org).
+To jest kopia postu [poradnika](http://opensourceecology.org/wiki/FreeCAD_Architecture_Tutorial) oryginalnie napisanego dla [Open-Source Ecology](http://opensourceecology.org).
 
 
 
@@ -22,179 +22,219 @@ This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_A
 
 <img alt="" src=images/Arch_panel_tutorial_01.jpg  style="width:800px;">
 
-FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and very modular, allowing for very advanced extension and customization, specially thanks to its intensive use of the Python language.
+FreeCAD to parametryczny modeler 3D. Modelowanie parametryczne pozwala na łatwą modyfikację projektu poprzez powrót do historii modelu i zmianę jego parametrów. FreeCAD jest programem typu open source *(licencja LGPL)* i bardzo modułowym, pozwalającym na bardzo zaawansowane rozszerzenia i dostosowywanie, szczególnie dzięki intensywnemu wykorzystaniu języka Python.
 
--   FreeCAD website: <http://www.freecadweb.org/>
--   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
--   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
--   FreeCAD forum: <http://forum.freecadweb.org/>
--   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
--   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+-   Strona internetowa FreeCAD: <http://www.freecad.org/>
+-   Wiki dokumentacji FreeCAD: <http://www.freecad.org/wiki/index.php?title=Main_Page>
+-   Środowiska pracy FreeCAD: <http://www.freecad.org/wiki/index.php?title=Workbench_Concept>
+-   Forum FreeCAD: <http://forum.freecad.org/>
+-   Rozpoczęcie pracy z FreeCAD: <http://www.freecad.org/wiki/index.php?title=Getting_started>
+-   Przewodnik po architekturze: <http://www.freecad.org/wiki/index.php?title=Arch_tutorial>
 
-## Installing FreeCAD 
 
-You have the choice to install the latest stable version (as of today, may 2015: version 0.15) or a development version (currently 0.16). In fact, development versions of FreeCAD are usually pretty stable, and you are strongly encouraged to try a development version, unless you have a specific reason not to do so. Since FreeCAD development is quite fast, be sure, if you are downloading manually, to check back from time to time and reinstall/update to benefit from latest improvements.
 
--   On Windows: Download the most recent version for your windows version (32 or 64bits) from <https://github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
--   On Mac OS: Download the most recent version from <https://github.com/FreeCAD/FreeCAD/releases>. Double-click the file to install.
--   On Ubuntu: The version of FreeCAD provided by Ubuntu is usually out of date, so you are advised to use the PPA maintained by the FreeCAD community instead. To install, open the "Software Sources" application of Ubuntu, and add either ppa:freecad-maintainers/freecad-stable for the stable version, or ppa:freecad-maintainers/freecad-daily for the development version to the software sources.
--   On other platforms: On most mainstream Linux distributions (Debian, Fedora, etc), FreeCAD is included in the official software repositories. It might not always be the most up-to-date version, though. If the version you need is not available, your only option is to compile FreeCAD yourself (instructions on the FreeCAD website)
+## Instalacja FreeCAD 
 
-## Additional optional contents 
+Masz możliwość zainstalowania najnowszej stabilnej wersji *(na dzień dzisiejszy, maj 2015: wersja 0.15)* lub wersji rozwojowej *(obecnie 0.16)*. W rzeczywistości wersje rozwojowe FreeCAD są zazwyczaj dość stabilne i zdecydowanie zachęcamy do wypróbowania wersji rozwojowej, chyba że masz konkretny powód, aby tego nie robić. Ponieważ rozwój FreeCAD jest dość szybki, upewnij się, że jeśli pobierasz ręcznie, sprawdzaj od czasu do czasu i ponownie zainstaluj / zaktualizuj, aby skorzystać z najnowszych ulepszeń.
 
--   Enabling IFC import/export: To import and export projects to/from the IFC file format, FreeCAD relies on the IfcOpenShell importer, that you must install separately from <http://ifcopenshell.org/python.html>. Be sure to choose a python2.7-based version, which is the same python version used by FreeCAD.
--   Drawing dimensioning workbench: An additional workbench for FreeCAD, that offer many convenient tools to add dimensions and annotations to FreeCAD\'s 2D drawing sheets: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (Install instructions on the web page)
--   Assembly2 workbench: An additional workbench for FreeCAD, that offers a series of basic assembly tools: <https://github.com/hamish2014/FreeCAD_assembly2> (Install instructions on the web page)
+-   W systemie Windows: Pobierz najnowszą wersję dla swojej wersji systemu Windows *(32- lub 64-bitowej)* ze strony <https://github.com/FreeCAD/FreeCAD/releases>. Kliknij dwukrotnie plik, aby zainstalować.
+-   W systemie Mac OS: Pobierz najnowszą wersję ze strony <https://github.com/FreeCAD/FreeCAD/releases>. Kliknij dwukrotnie plik, aby zainstalować.
+-   Na Ubuntu: Wersja FreeCAD dostarczana przez Ubuntu jest zwykle nieaktualna, więc zamiast tego zaleca się korzystanie z PPA utrzymywanego przez społeczność FreeCAD. Aby zainstalować, otwórz aplikację \"Źródła oprogramowania\" Ubuntu i dodaj ppa:freecad-maintainers/freecad-stable dla wersji stabilnej lub ppa:freecad-maintainers/freecad-daily dla wersji rozwojowej do źródeł oprogramowania.
+-   Na innych platformach: Na większości głównych dystrybucji Linuksa *(Debian, Fedora itp.)* FreeCAD znajduje się w oficjalnych repozytoriach oprogramowania. Nie zawsze jest to jednak najbardziej aktualna wersja. Jeśli potrzebna wersja nie jest dostępna, jedyną opcją jest samodzielna kompilacja FreeCAD *(instrukcje na stronie FreeCAD)*.
 
-## Quick startup tips 
 
-The collection of tutorials available on the FreeCAD wiki is still very sparse. However, many members of the FreeCAD community use youtube to publish video tutorials. Be sure to search for FreeCAD-related contents on youtube, that is certainly the best source of learning material.
 
-FreeCAD is a very technical application, and its learning curve can be steep. Be sure to rely on tutorials, the documentation wiki and don\'t hesitate to ask questions on the forum if you meet a specific problem. Questions that are clearly enunciated usually receive very fast and extensive replies.
+## Dodatkowa opcjonalna zawartość 
 
-### A very rough list of things you must know 
+-   Włączenie importu/eksportu IFC: Aby importować i eksportować projekty do/z formatu pliku IFC, FreeCAD opiera się na importerze IfcOpenShell, który należy zainstalować oddzielnie od <http://ifcopenshell.org/python.html>. Upewnij się, że wybrałeś wersję opartą na Python2.7, która jest tą samą wersją Pythona, z której korzysta FreeCAD.
+-   Środowisko pracy do wymiarowania rysunków: Dodatkowe środowisko pracy dla FreeCAD, które oferuje wiele wygodnych narzędzi do dodawania wymiarów i adnotacji do arkuszy rysunkowych 2D FreeCAD: <https://github.com/hamish2014/FreeCAD_drawing_dimensioning> (instrukcje instalacji na stronie internetowej)
+-   Środowisko pracy Złożenie 2: Dodatkowe środowisko pracy dla FreeCAD, które oferuje szereg podstawowych narzędzi montażowych: <https://github.com/hamish2014/FreeCAD_assembly2> *(Instrukcje instalacji na stronie internetowej)*.
 
--   The FreeCAD interface is divided into workbenches. Workbenches are simply collections of tools (toolbar buttons and menus) that are grouped together, usually for a certain task. When you switch to another workbench, the interface shows you the tools from that workbench. But the contents of your 3D document don\'t change. You are still working on the same document, and on the same objects.
 
--   FreeCAD is still in development, there are still many bugs, and the application might crash sometimes. Save often, and enable backup files in Edit → Preferences → Document
 
--   Most objects in FreeCAD are parametric. It means their geometry is created automatically from a series of parameters. These parameters are always editable in the Properties View. They are always divided between the parameters that affect the geometry itself (Data tab) and the parameters that only affect the display of the object (View tab). However, objects created with other applications, and imported into FreeCAD, will usually not be defined by parameters, and are therefore uneditable.
+## Wskazówki dotyczące szybkiego uruchamiania 
 
--   Several workbenches (PartDesign and Arch) are made to work only with solid objects, and will refuse to work on objects that are not solid. A good rule of thumb is always try to work with solid objects.
+Kolekcja poradników dostępnych na wiki FreeCAD jest wciąż bardzo skąpa. Jednak wielu członków społeczności FreeCAD korzysta z youtube do publikowania filmów instruktażowych. Pamiętaj, aby szukać treści związanych z FreeCAD na youtube, to z pewnością najlepsze źródło materiałów do nauki.
 
--   Although FreeCAD can import and work with mesh objects (Mesh workbench), it is primarily designed to work with a more advanced object type called brep, that is used by most of its workbenches (Part, PartDesign, Draft, Sketcher, Arch). When importing mesh-based files (.dae, .orb, .stl\...) you will usually need to convert these objects to brep before being able to do something interesting with them. Solid-based file formats however (.step, .iges), when imported into FreeCAD, directly produce brep objects. 2D formats (.dxf, .svg) also produce brep contents.
+FreeCAD jest aplikacją bardzo techniczną, a jego krzywa uczenia się może być stroma. Pamiętaj, aby polegać na samouczkach, wiki dokumentacji i nie wahaj się zadawać pytań na forum, jeśli napotkasz konkretny problem. Pytania, które są jasno sformułowane, zazwyczaj otrzymują bardzo szybkie i wyczerpujące odpowiedzi.
 
--   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. The best suited modes for CAD work are CAD or Gestures.
 
-## Exercise: modeling a roof panel 
 
-To showcase a typical workflow in FreeCAD, let\'s model a roof panel as described on <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. To do that,we will start from drawing the different pieces in a 2D constrained sketch, then we will take advantage of the special Arch Window object, which is able to build complex 3D objects from a 2D sketch containing the contours of several pieces. Finally, since what we need is not a window but a roof panel, we will simply convert our window object to another Arch type.
+### Bardzo zgrubna lista rzeczy, które musisz wiedzieć 
 
-### 1. Open FreeCAD, then set your preferred units to "imperial" 
+-   Interfejs FreeCAD jest podzielony na środowiska pracy. Środowiska pracy to po prostu zbiory narzędzi *(przycisków paska narzędzi i menu)*, które są zgrupowane razem, zwykle dla określonego zadania. Po przełączeniu na inne środowisko pracy, interfejs pokazuje narzędzia z tego środowiska. Zawartość dokumentu 3D nie ulega jednak zmianie. Nadal pracujesz na tym samym dokumencie i na tych samych obiektach.
 
-In menu Edit → Preferences → General → Units
+-   FreeCAD jest wciąż w fazie rozwoju, nadal istnieje wiele błędów, a aplikacja może się czasem zawiesić. Zapisuj często i włącz tworzenie kopii zapasowych plików w **Edycja → Preferencje ... → Ogólne → Dokument**
 
-### 2. Switch to the sketcher workbench and create a new sketch in the XY plane. 
+-   Większość obiektów w FreeCAD jest parametryczna. Oznacza to, że ich geometria jest tworzona automatycznie na podstawie szeregu parametrów. Parametry te są zawsze edytowalne w widoku właściwości. Są one zawsze podzielone na parametry, które wpływają na samą geometrię *(zakładka Dane)* i parametry, które wpływają tylko na wyświetlanie obiektu *(zakładka Widok)*. Jednak obiekty utworzone w innych aplikacjach i zaimportowane do FreeCAD zwykle nie są definiowane przez parametry, a zatem nie można ich edytować.
+
+-   Niektóre środowiska pracy *(takie jak Projekt Części, Architektura)* są przeznaczone do pracy tylko z obiektami bryłowymi i odmawiają pracy z obiektami, które nie są bryłowe. Dobrą zasadą jest zawsze praca z obiektami bryłowymi.
+
+-   Chociaż FreeCAD może importować i pracować z obiektami siatkowymi *(środowisko pracy Siatka)*, jest on przeznaczony przede wszystkim do pracy z bardziej zaawansowanym typem obiektu o nazwie brep, który jest używany przez większość jego środowisk pracy *(Część, Projekt Części, Rysunek Roboczy, Szkicownik, Architektura)*. Podczas importowania plików opartych na siatce *(.dae, .orb, .stl \...)* zwykle trzeba przekonwertować te obiekty na brep, zanim będzie można zrobić z nimi coś interesującego. Jednak formaty plików bryłowych *(.step, .iges)*, po zaimportowaniu do FreeCAD, bezpośrednio tworzą obiekty brep. Formaty 2D *(.dxf, .svg)* również tworzą zawartość brep.
+
+-   FreeCAD ma różne sposoby lub tryby korzystania z przycisków myszki. Tryby te można ustawić w preferencjach lub zmienić w locie, klikając prawym przyciskiem myszki na tle okna widoku 3D. Są one opisane na stronie [Profil nawigacji myszką](Mouse_navigation/pl.md). Tryby najlepiej nadające się do pracy CAD to CAD lub Gestures.
+
+
+
+## Ćwiczenie: modelowanie panelu dachowego 
+
+Aby zaprezentować typowy przepływ pracy w programie FreeCAD, zamodelujmy panel dachowy zgodnie z opisem na stronie <http://opensourceecology.org/wiki/MicroHouse_4_Roof_-_Module_-_Build_Instructions>. Aby to zrobić, zaczniemy od narysowania różnych elementów w szkicu 2D z wiązaniami, a następnie skorzystamy ze specjalnego obiektu Okno ze środowiska Architektura, który jest w stanie budować złożone obiekty 3D ze szkicu 2D zawierającego kontury kilku elementów. Wreszcie, ponieważ nie potrzebujemy okna, ale panelu dachowego, po prostu przekonwertujemy nasz obiekt okna na inny typ obiektu środowiska Architektura.
+
+
+
+### 1. Otwórz FreeCAD, a następnie ustaw preferowane jednostki na \"calowe\" 
+
+W menu **Edycja → Preferencje ... → Ogólne → Jednostki**
+
+
+
+### 2. Przełącz się na środowisko pracy szkicownika i utwórz nowy szkic w płaszczyźnie XY 
 
 ![](images/Arch_panel_tutorial_02.jpg )
 
-Usually, unless there is a specific reason not to do so,you\'ll always want to start drawing your 2D sketches on the ground plane, around the (0,0) origin point. Then, it is the 3D object generated from that, that will be moved/rotated into position.
+Zwykle, o ile nie ma konkretnego powodu, aby tego nie robić, zawsze będziesz chciał rozpocząć rysowanie szkiców 2D na płaszczyźnie podłoża, wokół punktu odniesienie położenia (0,0). Następnie wygenerowany na tej podstawie obiekt 3D zostanie przesunięty / obrócony do odpowiedniej pozycji.
 
-### 3. Draw two rectangles. On each of them, place a vertical constraint of 16 ft and an horizontal constraint of 2 in. 
+
+
+### 3. Narysuj dwa prostokąty. Na każdym z nich umieść pionowe wiązanie 16 stóp i poziome wiązanie 2 cale 
 
 ![](images/Arch_panel_tutorial_03.jpg )
 
-Don\'t worry about the dimensions your pieces have when you draw them, the constraints will resize them accordingly. To add a dimension constraint (vertical or horizontal), you can either select a line, or two points (with CTRL pressed).
+Nie martw się o wymiary elementów podczas ich rysowania, wiązania odpowiednio zmienią ich rozmiar. Aby dodać wiązanie wymiarowe *(pionowe lub poziome)*, możesz wybrać linię lub dwa punkty *(z wciśniętym klawiszem **CTRL**)*.
 
-### 4. Once your two rectangles have the correct size, place a vertical constraint of 0 in between their corner points, and a horizontal constraint of 4 ft. 
+
+
+### 4. Gdy dwa prostokąty będą miały prawidłowy rozmiar, umieść pionowe wiązanie o wartości 0 między ich punktami narożnymi i poziome wiązanie o wartości 4 stóp 
 
 ![](images/Arch_panel_tutorial_04.jpg )
 
-This ensures that our two rectangles are correctly positioned in relation to each other.
+Dzięki temu nasze dwa prostokąty są prawidłowo ustawione względem siebie.
 
-### 5. Add the two additional 2 in x 6 in pieces 
+
+
+### 5. Dodaj dwa dodatkowe elementy 2 cale x 6 cali 
 
 ![](images/Arch_panel_tutorial_05.jpg )
 
-Add two more rectangles and repeat the process. Note that in the example above, we didn\'t specify the length of these pieces, but rather placed a distance constraint between their extremities and the long vertical pieces, and we let a small gap of 0.05 inches between them. This is because if we make the rectangles touch each other, FreeCAD might deduce the loops wrongly, and we might get strange results with the Arch window tool. This little trick ensures that each rectangle will be recognized as an independent loop by the Arch window tool.
+Dodaj dwa kolejne prostokąty i powtórz proces. Zauważ, że w powyższym przykładzie nie określiliśmy długości tych elementów, ale raczej umieściliśmy wiązanie odległości między ich końcami a długimi pionowymi elementami i pozostawiliśmy między nimi niewielką przerwę 0,05 cala. Dzieje się tak, ponieważ jeśli sprawimy, że prostokąty zetkną się ze sobą, FreeCAD może błędnie wydedukować pętle i możemy uzyskać dziwne wyniki za pomocą narzędzia Okno środowiska Architektura. Ta mała sztuczka gwarantuje, że każdy prostokąt zostanie rozpoznany jako niezależna pętla przez narzędzie okna środowiska Architektura.
 
-### 6. Add the corner reinforcement pieces 
+
+
+### 6. Dodaj narożne elementy wzmacniające 
 
 ![](images/Arch_panel_tutorial_06.jpg )
 
-Same thing. Make them 6 inches wide, and separated them from other rectangles by 0.05 inches.
+To samo. Ustaw je na szerokość 6 cali i oddziel je od innych prostokątów o 0,05 cala.
 
-### 7. Draw 7 intermediary reinforcement pieces, set their width to 2 inches, and constrain their left and right endpoints at 0.05 inches of the vertical rectangles (or at 0 inch of the endpoints of the other horizontal rectangles) 
+
+
+### 7. Narysuj 7 pomocnicznych elementów wzmacniających, ustaw ich szerokość na 2 cale i zwiąż ich lewy i prawy punkt końcowy w odległości 0,05 cala od pionowych prostokątów *(lub w odległości 0 cala od punktów końcowych innych poziomych prostokątów)* 
 
 ![](images/Arch_panel_tutorial_07.jpg )
 
-Depending on your system, FreeCAD might begin to be slow to process new constraints. This is the disadvantage of using constrained objects, they quickly swallow up a lot of system resources. You must always consider if you absolutely need them. You can also delete constraints when they have done their job. These dimensions won\'t be fixed anymore, but unless you move the pieces around, they won\'t change. If needed, you can also always re-add constraints later.
+W zależności od systemu, FreeCAD może zacząć wolno przetwarzać nowe wiązania. Jest to wada korzystania z obiektów z wiązaniami, które szybko pochłaniają wiele zasobów systemowych. Należy zawsze rozważyć, czy są one absolutnie potrzebne. Można również usunąć wiązania, gdy spełnią one swoje zadanie. Wymiary te nie będą już stałe, ale jeśli nie będziesz przesuwać elementów, nie ulegną one zmianie. W razie potrzeby zawsze można też dodać wiązania później.
 
-### 8. Calculate the spacing between the 7 reinforcement pieces and set vertical constraints between them. 
 
-In our case, our total length is 192 inches, minus the two end pieces (2 x 2 inches) and the two corner reinforcements (2 x 6 inches), = 192 -- (4 + 12) = 176. Removing the 7 reinforcement pieces ( 7 x 2 ) = 162. Dividing this by 8 gives us the space between each reinforcement: 20.25.
+
+### 8. Oblicz odstępy między 7 elementami wzmacniającymi i ustaw pionowe ograniczenia między nimi 
+
+W naszym przypadku całkowita długość wynosi {{Value|192 cale}}, minus dwa elementy końcowe *(2 x 2 cale)* i dwa wzmocnienia narożne *(2 x 6 cali)*, = 192 - (4 + 12) = 176. Po odjęciu 7 elementów wzmacniających (7 x 2) = 162. Dzieląc to przez 8, otrzymujemy odstęp między każdym wzmocnieniem: {{Value|20,25}}.
 
 ![](images/Arch_panel_tutorial_08.jpg )
 
-### 9. Obtaining a fully constrained sketcher 
 
-On the right panel (Tasks tab in the Combo View -\> Solver messages), you can see the message "\... 2 degrees of freedom". This means that our sketch is not fully constrained (it still has two "ways" of being deformed). This is because, although no piece of it can now move in relation to the others, the whole sketch can still move vertically and horizontally. To prevent this, we can simply take one of its corner points, select the origin point of the grid (where the green and red axes intersect) and press the Point Constraint button. This turns our sketch green, meaning it is fully constrained, no part of it can move anymore.
+
+### 9. Uzyskanie w pełni związanego szkicu 
+
+W prawym panelu *(zakładka Zadania w widoku Połączonym -\> Komunikaty Solvera)* widoczny jest komunikat \"\... 2 stopnie swobody\". Oznacza to, że nasz szkic nie jest w pełni związany *(nadal ma dwa \"sposoby\" deformacji)*. Dzieje się tak dlatego, że chociaż żaden jego element nie może teraz poruszać się względem innych, cały szkic może nadal poruszać się w pionie i poziomie. Aby temu zapobiec, możemy po prostu wziąć jeden z jego punktów narożnych, wybrać punkt początkowy siatki (gdzie przecinają się osie zielona i czerwona) i nacisnąć przycisk **Wiązanie zbieżności**. Spowoduje to zmianę koloru naszego szkicu na zielony, co oznacza, że jest on w pełni związany i żadna jego część nie może się już poruszać.
 
 ![](images/Arch_panel_tutorial_09.jpg )
 
-This is actually not absolutely necessary. But it is always better to keep track of the exact position of objects (we are now certain that our corner is at the (0,0) point). In case something goes wrong later, or we need to figure out the position of an object built upon this sketch, this will be useful.
+W rzeczywistości nie jest to absolutnie konieczne. Ale zawsze lepiej jest śledzić dokładną pozycję obiektów *(jesteśmy teraz pewni, że nasz narożnik znajduje się w punkcie (0,0))*. Informacja ta przyda się na wypadek, gdyby później coś poszło nie tak lub gdybyśmy musieli ustalić położenie obiektu zbudowanego na podstawie tego szkicu.
 
-We can now press the "close" button and our base sketch is built:
+Możemy teraz nacisnąć przycisk \"zamknij\" i nasz szkic bazowy został utworzony:
 
 ![](images/Arch_panel_tutorial_10.jpg )
 
-### 10. Switch to the Arch workbench and, with the sketch selected, press the "window" button 
 
-Our sketch has now vanished and one of its rectangles has been extruded slightly into a solid piece:
+
+### 10. Przełącz się na środowisko pracy Architektury i po wybraniu szkicu naciśnij przycisk **Okno** 
+
+Nasz szkic zniknął, a jeden z jego prostokątów został lekko wyciągnięty w bryłę:
 
 ![](images/Arch_panel_tutorial_11.jpg )
 
-Although this seems wrong, it is simply because the Arch Window tool has created a default piece from the biggest loop it could find in the base sketch. We will fix that soon. Also, notice take note that the sketch has not disappeared, it has simply been turned off and "swallowed" by its new parent object. You can still find it in the tree view, by expanding the window object, and turn its display on/off by pressing the SPACE key.
+Chociaż wydaje się to błędne, jest tak po prostu dlatego, że narzędzie Okno Architektury utworzyło domyślny element z największej pętli, jaką mogło znaleźć w szkicu bazowym. Wkrótce to naprawimy. Zwróć też uwagę, że szkic nie zniknął, został po prostu wyłączony i \"połknięty\" przez nowy obiekt nadrzędny. Nadal można go znaleźć w widoku drzewa, rozwijając obiekt okna i włączając/wyłączając jego wyświetlanie, naciskając klawisz **Spacja**.
 
-### 11. Edit the window components by double-clicking it in the tree view 
+
+
+### 11. Edytuj komponenty okna, klikając je dwukrotnie w widoku drzewa 
 
 ![](images/Arch_panel_tutorial_12.jpg )
 
-When double-clicking the window, its base sketch becomes visible again, and we get its edit interface: At the left, a list of the loops found in the base sketch, at the right the solid pieces built on it.
+Po dwukrotnym kliknięciu okna jego szkic bazowy staje się ponownie widoczny, a my otrzymujemy jego interfejs edycji: Po lewej lista pętli znalezionych w szkicu bazowym, po prawej elementy bryłowe zbudowane na jego podstawie.
 
-Begin with removing the "Default" piece.
+Zacznij od usunięcia elementu \"Domyślny\".
 
-Then, select the first loop (Wire0). It will highlight in the 3D view. Press the "Add" button to create a new piece from it. Give it a name, make sure the correct wire is set, and give it a 6 inches extrusion. The offset should stay 0 since we want it placed "on the ground".
+Następnie wybierz pierwszą pętlę (Wire0). Zostanie ona podświetlona w oknie widoku 3D. Naciśnij przycisk \"Dodaj\", aby utworzyć z niej nowy element. Nadaj mu nazwę, upewnij się, że ustawiony jest prawidłowa polilinia i nadaj wiciągnięciu długość 6 cali. Przesunięcie powinno pozostać równe 0, ponieważ chcemy umieścić go \"na ziemi\".
 
-The "Type" value will be used to attribute materials to the window (not implemented yet), so you can currently leave to "Frame".
+Wartość \"Typ\" będzie używana do przypisywania materiałów do okna *(nie została jeszcze zaimplementowana)*, więc obecnie można pozostawić wartość \"Rama\".
 
 ![](images/Arch_panel_tutorial_13.jpg )
 
-Then press the "Create component" button. Sometimes FreeCAD fails to guess correctly the direction of the extrusion, and you must therefore edit your component and change the 6 inches value by -6 inches.
+Następnie naciśnij przycisk \"Utwórz komponent\". Czasami FreeCAD nie odgaduje poprawnie kierunku wytłaczania, dlatego należy edytować komponent i zmienić wartość {{Value|6 cali}} na {{Value|-6 cali}}.
 
-Repeat this for all the needed pieces:
+Powtórz tę czynność dla wszystkich potrzebnych elementów:
 
 ![](images/Arch_panel_tutorial_14.jpg )
 
-When closing the edit panel we obtain the object above. Note that by default, window objects are represented semi-transparent. Since this will actually not be a window, we can just turn that off by setting its Transparency value to 0 in its View properties.
+Po zamknięciu panelu edycji otrzymujemy powyższy obiekt. Zauważ, że domyślnie obiekty okien są reprezentowane jako półprzezroczyste. Ponieważ w rzeczywistości nie będzie to okno, możemy to po prostu wyłączyć, ustawiając wartość przezroczystości na 0 we właściwościach widoku.
 
-### 12. Add the cover panel 
 
-We now have our panel frame, but not the base panel itself. To do that, the best way is to open our base sketch, and add a new rectangle. Remember though to not make any of the corners of that rectangle coincident to corners of other rectangles, in order not to confuse our window object, which might require us to redo the whole series of components if the order of the loops would change.
 
-We can therefore constrain this new rectangle 0.05 inches inside the perimeter. This will require us to place 4 new constraints.
+### 12. Dodaj panel pokrywy 
 
-We can then edit our window again, and add new components. We can see that a new Wire has been found. This time, we will use it to add a 8mm polycarbonate panel (note that you can mix units without problems in FreeCAD, and write "8mm" as the thickness, even if you are working in inches). We will also give it an offset of 0.05 inches, so it is slightly offsetted from the frame, just for consistency, as all the parts of our object have that offest between them.
+Mamy teraz ramkę panelu, ale nie sam panel bazowy. Aby to zrobić, najlepiej jest otworzyć nasz szkic bazowy i dodać nowy prostokąt. Pamiętaj jednak, aby żaden z rogów tego prostokąta nie pokrywał się z rogami innych prostokątów, aby nie pomylić naszego obiektu okna, co może wymagać od nas ponownego wykonania całej serii komponentów, jeśli zmieni się kolejność pętli.
+
+Możemy zatem związać ten nowy prostokąt 0,05 cala wewnątrz obwodu. Będzie to wymagało umieszczenia 4 nowych wiązań.
+
+Następnie możemy ponownie edytować nasze okno i dodać nowe komponenty. Widzimy, że znaleziono nowy przewód. Tym razem użyjemy go do dodania panelu z poliwęglanu o grubości {{Value|8 mm}} *(należy pamiętać, że we FreeCAD można bez problemu mieszać jednostki i zapisywać {{Value|8 mm}} jako grubość, nawet jeśli pracujemy w calach)*. Nadamy mu również przesunięcie o 0,05 cala, aby był nieco przesunięty względem ramy, tylko dla zachowania spójności, ponieważ wszystkie części naszego obiektu mają takie przesunięcie między sobą.
 
 ![](images/Arch_panel_tutorial_15.jpg )
 
-We can now create another component based on the same Wire, in order to place another panel on top of our frame. This time, we will give it an offset of 6.05 inches. Our panel is finally complete:
+Możemy teraz utworzyć kolejny komponent w oparciu o tę samą polilinię, aby umieścić kolejny panel na górze naszej ramy. Tym razem nadamy mu odsunięcie 6,05 cala. Nasz panel jest wreszcie gotowy:
 
 ![](images/Arch_panel_tutorial_16.jpg )
 
-### 13. Turn the window into another type of Arch component 
 
-This is not really necessary at the moment, but it might become important later when we export or work to other construction-oriented applications, for example via IFC, we don\'t want our panel to be identified as a window.
 
-The Arch workbench of FreeCAD provides an easy way to handle that, which is that any object type can always become another, by being the base of another type. In this case, let\'s turn our window into a Panel object, simply by selecting the window and pressing the Panel tool.
+### 13. Przekształć okno w inny typ komponentu środowiska Architektura 
+
+W tej chwili nie jest to naprawdę konieczne, ale może stać się ważne później, gdy będziemy eksportować lub pracować w innych aplikacjach zorientowanych na konstrukcję, na przykład za pośrednictwem IFC, nie chcemy, aby nasz panel był identyfikowany jako okno.
+
+Środowisko pracy Architektura FreeCAD zapewnia łatwy sposób radzenia sobie z tym, polegający na tym, że każdy typ obiektu może zawsze stać się innym, będąc podstawą innego typu. W tym przypadku zmieńmy nasze okno w obiekt Panel, po prostu wybierając okno i naciskając narzędzie **Panel**.
 
 ![](images/Arch_panel_tutorial_17.jpg )
 
-Notice that the color of the resulting panel has changed, that is because materials support in FreeCAD and the Arch module is still incomplete. When it is finished, this will be properly handled.
+Zauważ, że kolor wynikowego panelu zmienił się, ponieważ obsługa materiałów w FreeCAD i module Architektura jest nadal niekompletna. Kiedy zostanie ukończony, będzie to poprawnie obsługiwane.
 
-### 14. Duplicating the panel 
 
-Our panel can then be duplicated and copied over in several ways, for example by using copy/paste. But a more interesting way is to use the Draft Clone tool (also present on the Arch workbench, like all other Draft tools). The Clone tool keeps the relationship between the base object and its clone, so any modification to the base object will reflect in all its clones.
+
+### 14. Powielanie panelu 
+
+Nasz panel można następnie powielić i skopiować na kilka sposobów, na przykład za pomocą funkcji kopiuj / wklej. Ale bardziej interesującym sposobem jest użycie narzędzia Klon środowiska Rysunek roboczy *(obecnego również w środowisku pracy Architektury, podobnie jak wszystkie inne narzędzia Rysunku Roboczego)*. Narzędzie Klon zachowuje relację między obiektem bazowym a jego klonem, więc każda modyfikacja obiektu bazowego zostanie odzwierciedlona we wszystkich jego klonach.
 
 ![](images/Arch_panel_tutorial_18.jpg )
 
-In the current development version of FreeCAD, clones of Arch objects are now Arch objects themselves too.
+W obecnej wersji rozwojowej FreeCAD klony obiektów Architektury są teraz również obiektami Architektury.
 
-### 15. Rotating and positioning the panels. 
 
-While the assembly workbench of FreeCAD is not ready yet, we need to position our pieces manually, either by manipulating their Placement property, or by using the Draft Move and Rotate tools, which are actually only visual ways to modify the Placement of objects.
 
-Both Draft Rotate and Move tools make use of the Draft Snapping system. Different snapping positions (endpoints, midpoints, etc) are available, that can be switched on/off, allowing to perform very precise positionning and rotations.
+### 15. Obracanie i pozycjonowanie paneli 
+
+Podczas gdy środowisko pracy Złożenie FreeCAD nie jest jeszcze gotowe, musimy ręcznie pozycjonować nasze elementy, manipulując ich właściwością Umiejscowienie lub używając narzędzi Przesuń i Obróć środowiska Rysunek Roboczy, które są w rzeczywistości tylko wizualnymi sposobami modyfikowania umiejscowienia obiektów.
+
+Zarówno narzędzia Obróć, jak i Przesuń korzystają z systemu przyciągania środowiska Rysunek Roboczy. Dostępne są różne pozycje przyciągania *(punkty końcowe, środkowe itp.)*, które można włączać i wyłączać, co pozwala na bardzo precyzyjne pozycjonowanie i obracanie.
 
 ![](images/Arch_panel_tutorial_19.jpg )
 

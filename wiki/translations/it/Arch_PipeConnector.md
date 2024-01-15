@@ -2,89 +2,56 @@
  GuiCommand:
    Name: Arch PipeConnector
    Name/it: Raccordo
-   MenuLocation: Arch , Tubazioni , Raccordo
+   MenuLocation: Arch , Strumenti di Tubo , Raccordo
    Workbenches: Arch_Workbench/it
    Shortcut: **P** **C**
    Version: 0.17
-   SeeAlso: Arch Pipe/it, Arch Equipment/it
+   SeeAlso: Arch_Pipe/it, Arch_Equipment/it
 ---
 
 # Arch PipeConnector/it
 
 
-</div>
 
 ## Descrizione
-
-
-<div class="mw-translate-fuzzy">
 
 Questo strumento crea una connessione a angolo o un tee (raccordo) tra 2 o 3 [Tubi](Arch_Pipe/it.md) selezionati .
 
 
-</div>
 
-## Uso
+## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare 2 o 3 [Tubi Arch](Arch_Pipe/it.md). Se si selezionano 3 tubi, due di loro devono essere perfettamente allineati.
+1.  Selezionare 2 o 3 [Tubi](Arch_Pipe/it.md). Se si selezionano 3 tubi, due di loro devono essere perfettamente allineati.
 2.  Premere il pulsante **<img src="images/Arch_PipeConnector.svg" width=16px> [Raccordo](Arch_PipeConnector/it.md)**, o premere **P** e poi **C**.
 
 
-</div>
 
 ## Proprietà
 
 -    {{PropertyData/it|Radius}}: Il raggio di curvatura del raccordo
 
+
+
 ## Flusso di lavoro tipico 
-
-
-<div class="mw-translate-fuzzy">
 
 Vedere in [Tubo](Arch_Pipe/it.md) le informazioni per il flusso di lavoro sull\'uso dei tubi e la creazione di raccordi.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Pipe Connector può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Pipe Connector può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione: 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 -   Crea un oggetto `Connector` dai `pipes` dati, che sono una lista di [Tubi](Arch_Pipe/it.md), e facoltativamente un `radius` di curvatura.
     -   Gli oggetti di base [Wire](Draft_Wire/it.md) dei [Tubi](Arch_Pipe/it.md) dovrebbero condividere un punto finale per creare un raccordo corretto e regolare.
-
-
-</div>
 
 Esempio: 
 ```python
@@ -118,22 +85,6 @@ FreeCAD.ActiveDocument.recompute()
 Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it
-|[Tubo](Arch_Pipe/it.md)
-|[Materiali](Arch_CompSetMaterial/it.md)
-|[Arch](Arch_Workbench/it.md)
-|IconL=Arch_Pipe.svg
-|IconC=Workbench_Arch.svg
-|IconR=Arch_CompSetMaterial.png
-}}
-
-
-</div>
 
 
 

@@ -8,10 +8,11 @@
 
 FreeCAD je opravdu multiplatformní aplikace, která je vyvíjena pomocí světově známého frameworku [Qt](http://en.wikipedia.org/wiki/Qt_(framework)). Znamená to, že FreeCAD vypadá a chová se stejně ve Windows, Linuxu i Macu. Nicméně instalční procedura se trochu liší v každém operačním systému. Dále si vyberte Váš operační systém pro podrobnější popis jak na něm instalovat FreeCAD.
 
-    
-   ![ alt=\'Windows\' \| link= Install on Windows/cs](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Unix/cs](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac/cs](images/Mac.png )
-                              [Instalace na Windows](Install_on_Windows/cs.md)                                                   [Instalace na Linux/Unix](Install_on_Unix/cs.md)                                             [Instalace na Mac](Install_on_Mac/cs.md)
-    
++::+::+::+
+| ![ alt=\'Windows\' \| link= Install on Windows/cs](images/Windows.png ) | ![ alt=\'Linux\' \| link= Install on Unix/cs](images/Linux.png ) | ![ alt=\'Mac\' \| link= Install on Mac/cs](images/Mac.png ) |
+++++
+| [Instalace na Windows](Install_on_Windows/cs.md)                                                       | [Instalace na Linux/Unix](Install_on_Unix/cs.md)                                           | [Instalace na Mac](Install_on_Mac/cs.md)                                           |
+++++
 
 
 </div>
@@ -98,7 +99,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 

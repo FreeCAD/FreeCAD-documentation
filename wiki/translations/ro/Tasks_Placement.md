@@ -9,6 +9,8 @@ Comanda pentru a modifica **Placement**. Aceste opțiuni afectează numai poziț
 
 </div>
 
+
+
 ## Folosire
 
 
@@ -28,6 +30,8 @@ Funcția **Placement** poate fi accesată în mai multe feluri:
 
 
 </div>
+
+
 
 ### Activarea Placement în fereastra de afișare 
 
@@ -221,6 +225,8 @@ Girația, tangajul și ruliu se referă la atitudinea unui obiect într-un spaț
 
 
 </div>
+
+
 
 ## Legături și Exemple 
 

@@ -107,7 +107,7 @@
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Плоскость сечения](Std_ToggleClipPlane/ru.md): Позволяет просмотреть объект в разрезе.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Persistent section cut](Part_SectionCut.md): Creates persistent cuts of objects and assemblies. **-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.** <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Текстурирование\...](Std_TextureMapping/ru.md): Временно накладывает текстуру поверх всех объектов.
 
@@ -162,6 +162,9 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Панели **-- Каждую панель можно включить или выключить в этом подменю.**
     -   [Отчёт](Report_view/ru.md)
     -   [Дерево документа](Tree_view/ru.md)
@@ -170,6 +173,27 @@
     -   [Комбо панель](Combo_view/ru.md)
     -   [Консоль Python](Python_console/ru.md)
     -   [Просмотр DAG](DAG_view/ru.md)
+
+
+</div>
+
+-   Dock window overlay <small>(v0.22)</small> 
+    -   [Toggle overlay for all](Std_DockOverlayAll.md): Toggles overlay mode for all docked windows.
+    -   [Toggle transparent for all](Std_DockOverlayTransparentAll.md): Toggles transparent mode for all docked overlay windows. This makes the docked windows stay transparent at all times.
+    -   [Toggle overlay](Std_DockOverlayToggle.md): Toggles overlay mode for the docked window under the cursor.
+    -   [Toggle transparent](Std_DockOverlayToggleTransparent.md): Toggles transparent mode for the docked window under cursor. This makes the docked window stay transparent at all times.
+    -   [Bypass mouse events in docked overlay windows](Std_DockOverlayMouseTransparent.md): Bypasses all mouse events in docked overlay windows.
+    -   [Toggle left](Std_DockOverlayToggleLeft.md): Shows/hides the left overlay panel.
+    -   [Toggle right](Std_DockOverlayToggleRight.md): Shows/hides the right overlay panel.
+    -   [Toggle top](Std_DockOverlayToggleTop.md): Shows/hides the top overlay panel.
+    -   [Toggle bottom](Std_DockOverlayToggleBottom.md): Shows/hides the bottom overlay panel.
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
+
+-   Link navigation
+    -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Go to linked object](Std_LinkSelectLinked.md): Selects the linked object and switches to its document.
+    -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Go to the deepest linked object](Std_LinkSelectLinkedFinal.md): Selects the deepest linked object and switches to its document.
+    -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Select all links](Std_LinkSelectAllLinks.md): Selects all links to an object.
 
 -   Tree view actions
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode.
@@ -182,6 +206,8 @@
     -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Collapse/Expand](Std_TreeCollapseDocument.md): Switches the Tree view to CollapseDocument mode.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection.
+    -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Selection back](Std_SelBack.md): Restores the previous Tree view selection.
+    -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Selection forward](Std_SelForward.md): Restores the next Tree view selection.
 
 [Строка состояния](Std_ViewStatusBar/ru.md): Переключает видимость [строки состояния](Status_bar/ru.md).
 

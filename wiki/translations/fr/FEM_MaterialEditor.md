@@ -16,6 +16,8 @@ L**\'Éditeur de matériaux** vous permet de modifier et de sauvegarder les info
 
 ![](images/Material_editor.png )
 
+
+
 ## Utilisation
 
 L\'éditeur de matériau est accessible soit par :
@@ -31,7 +33,7 @@ L\'éditeur de matériau est accessible soit par :
 
 -   **Bouton du navigateur** : ouvre le contenu de la propriété URL dans un navigateur.
 
--   **Carte de matériau** : permet de choisir un préréglage pour remplir les champs.
+-   **Jeu de paramètres du matériau** : permet de choisir un préréglage pour remplir les champs.
 
 -    **Ouvrir**: ouvre un fichier .FCMat.
 
@@ -44,6 +46,8 @@ L\'éditeur de matériau est accessible soit par :
 -    **Ajouter une propriété**: permet d\'ajouter une nouvelle propriété personnalisée.
 
 -    **Supprimer la propriété**: supprime une propriété sélectionnée. Seules les propriétés personnalisées peuvent être supprimées.
+
+
 
 ## Remarques
 

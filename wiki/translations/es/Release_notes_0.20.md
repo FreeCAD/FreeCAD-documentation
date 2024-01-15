@@ -3,9 +3,9 @@
 
 Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar en la [Lista de características](Feature_list/es#Notas_de_lanzamiento.md).
 
-   
-  ![](images/FreeCAD_highlight_relnotes_0.20.gif )   *Modelo de un motor CD 775 por el usuario \"jimmihenry\", ver [Users Showcase](https://forum.freecadweb.org/viewtopic.php?p=551765#p551765).El modelo fue hecho completamente con las [versiones de desarrollo](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) de FreeCAD 0.20. Las imágenes para el gráfico animado fueron hechas con la macro de FreeCAD [ Screen Wiki](Macro_Screen_Wiki.md). El GIF animado en sí fue creado usando [GIMP](https://en.wikipedia.org/wiki/GIMP). Para las notas de lanzamiento fue redimensionado usando [ezgif](https://ezgif.com/crop).*
-   
++++
+| ![](images/FreeCAD_highlight_relnotes_0.20.gif ) | *Modelo de un motor CD 775 por el usuario \"jimmihenry\", ver [Users Showcase](https://forum.freecadweb.org/viewtopic.php?p=551765#p551765).El modelo fue hecho completamente con las [versiones de desarrollo](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) de FreeCAD 0.20. Las imágenes para el gráfico animado fueron hechas con la macro de FreeCAD [ Screen Wiki](Macro_Screen_Wiki.md). El GIF animado en sí fue creado usando [GIMP](https://en.wikipedia.org/wiki/GIMP). Para las notas de lanzamiento fue redimensionado usando [ezgif](https://ezgif.com/crop).* |
++++
 
 ## General
 
@@ -13,15 +13,21 @@ Las notas de lanzamiento de versiones anteriores de FreeCAD se pueden encontrar 
 
 Estamos contentos de que el proyecto [KiCad](https://www.kicad.org/), a través de [KiCad Services Corp.](https://www.kipro-pcb.com/), nos patrocinó el dominio freecad.org. Ahora todos los sitios web de FreeCAD están disponibles en [freecadweb.org](https://freecadweb.org) y [freecad.org](https://freecad.org).
 
+
+
 ### Seguimiento de problemas/bugs 
 
 El seguimiento de problemas de FreeCAD se ha movido a GitHub: <https://github.com/FreeCAD/FreeCAD/issues>
 
 **Nota:** Solo se considerarán los informes de errores con una discusión del foro anterior. Los informes sin esto serán cerrados.
 
+
+
 ### Nuevo sistema de ayuda 
 
 El sistema de ayuda ha sido reescrito y actualizado para mostrar información directamente de nuestra [Wiki](User_hub.md). El sistema ahora confía en el [Complemento de Ayuda](https://github.com/FreeCAD/FreeCAD-Help). Cuando usas por primera vez la herramienta de [Ayuda](Std_Help.md) o la herramienta de [¿Qué es esto?](Std_WhatsThis.md) se le pedirá instalarlo.
+
+
 
 ## Interfaz de usuario 
 
@@ -36,13 +42,13 @@ El sistema de ayuda ha sido reescrito y actualizado para mostrar información di
 |                                                                | [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=3&t=52118), [Pull request #4502](https://github.com/FreeCAD/FreeCAD/pull/4502).                                                                                                                                                                                                                                                                                                                                            |
 +++
 
-   
-  ![](images/Improved_tooltips_relnotes_0.20.gif )   La información sobre herramientas ahora muestra el nombre del comando en el título, lo que facilita que los nuevos usuarios busquen ayuda. Al final de la información sobre herramientas, el nombre del comando \"interno\" se agrega entre paréntesis: *(Std_WhatsThis)*. Este es también el nombre de la página que documenta el comando en la Wiki. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=34&t=58747), [Pull request #4978](https://github.com/FreeCAD/FreeCAD/pull/4978).
-   
++++
+| ![](images/Improved_tooltips_relnotes_0.20.gif ) | La información sobre herramientas ahora muestra el nombre del comando en el título, lo que facilita que los nuevos usuarios busquen ayuda. Al final de la información sobre herramientas, el nombre del comando \"interno\" se agrega entre paréntesis: *(Std_WhatsThis)*. Este es también el nombre de la página que documenta el comando en la Wiki. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=34&t=58747), [Pull request #4978](https://github.com/FreeCAD/FreeCAD/pull/4978). |
++++
 
-   
-  <img alt="" src=images/Std_UserEditMode_relnotes_0.20.gif  style="width:384px;">   El nuevo comando [Std UserEditMode](Std_UserEditMode.md) permite al usuario elegir un modo de edición que será usado al dar doble clic a un objeto en la [vista de árbol](Tree_view.md). Dé clic en la imagen de la izquierda para ver una animación de la selección. Si un modo de edición no es aplicable, el modo de edición por defecto de del objeto es usado en su lugar. [Pull request #5110](https://github.com/FreeCAD/FreeCAD/pull/5110).
-   
++++
+| <img alt="" src=images/Std_UserEditMode_relnotes_0.20.gif  style="width:384px;"> | El nuevo comando [Std UserEditMode](Std_UserEditMode.md) permite al usuario elegir un modo de edición que será usado al dar doble clic a un objeto en la [vista de árbol](Tree_view.md). Dé clic en la imagen de la izquierda para ver una animación de la selección. Si un modo de edición no es aplicable, el modo de edición por defecto de del objeto es usado en su lugar. [Pull request #5110](https://github.com/FreeCAD/FreeCAD/pull/5110). |
++++
 
 +++
 | ![](images/Dependencies-selection_relnotes_0.20.png ) | El menú contextual de la [vista de árbol](Tree_view.md) tiene la nueva entrada **Añadir objetos dependientes a la selección**. |
@@ -57,6 +63,8 @@ El sistema de ayuda ha sido reescrito y actualizado para mostrar información di
 |                                                                                                         | [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=27&t=52441), [Pull request #4118](https://github.com/FreeCAD/FreeCAD/pull/4118). |
 +++
 
+
+
 ### Otras mejoras de la interfaz de usuario 
 
 -   Ahora es posible utilizar el separador decimal perteneciente al idioma especificado para la interfaz de FreeCAD. Por ejemplo, en un Windows alemán, cuando establece el idioma de la interfaz en **Inglés** y selecciona la nueva opción **Usar formato de número de idioma seleccionado**, el punto se utilizará como separador decimal. Consulte [Preferencias](Preferences_Editor#General.md). [Pull request #6364](https://github.com/FreeCAD/FreeCAD/pull/6364)**Nota**: Para simulaciones [FEM](FEM_Workbench.md), usar el punto como separador decimal es muy recomendado para obtener resultados correctos.
@@ -67,35 +75,33 @@ El sistema de ayuda ha sido reescrito y actualizado para mostrar información di
 -   Una nueva configuración en [Preferencias → General](Preferences_Editor#General.md) permite sustituir el separador decimal del teclado numérico con el separador local apropiado si son diferentes. [Pull request #3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull request #5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull request #5203](https://github.com/FreeCAD/FreeCAD/pull/5203)
 -   Ahora es posible configurar la tecla **Retroceso** como un atajo de tecla independiente sin necesidad de especificar una tecla modificadora adicional. [Pull request #5428](https://github.com/FreeCAD/FreeCAD/pull/5428)
 
+
+
 ## Núcleo del sistema y API 
+
+
 
 ### Núcleo
 
-   
-  <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width:384px;">   Cuando se utiliza **Editar → Copiar** o **Editar → Duplicar selección** para un objeto con dependencias hay un botón nuevo **Usar selecciones originales** en el diálogo de selección de objetos. Haga clic en este botón para copiar/duplicar únicamente los objetos que seleccionó originalmente antes de abrir el cuadro de diálogo, ignorando las dependencias e ignorando cualquier acción que pudiera haber sido realizada mientras el cuadro de diálogo estaba abierto, como marcar o desmarcar algunas de las casillas de verificación. El efecto es el mismo a que si hubiera desmarcado todas las casillas de verificación junto a los objetos que no seleccionó originalmente y hubiera pulsado OK. Nota: hay que tener especial cuidado al copiar/duplicar las páginas de TechDraw. Se recomienda copiar/duplicar también todos los hijos de la página (plantillas, vistas, dimensiones, etc.). De lo contrario, los cambios en una página afectarán a las otras. Por ejemplo, al eliminar la Vista de una página también se eliminará de la otra, o eliminar una página también eliminará todo el contenido de la otra página.
-   
++++
+| <img alt="" src=images/Object_selection_relnotes_0.20.png  style="width:384px;"> | Cuando se utiliza **Editar → Copiar** o **Editar → Duplicar selección** para un objeto con dependencias hay un botón nuevo **Usar selecciones originales** en el diálogo de selección de objetos. Haga clic en este botón para copiar/duplicar únicamente los objetos que seleccionó originalmente antes de abrir el cuadro de diálogo, ignorando las dependencias e ignorando cualquier acción que pudiera haber sido realizada mientras el cuadro de diálogo estaba abierto, como marcar o desmarcar algunas de las casillas de verificación. El efecto es el mismo a que si hubiera desmarcado todas las casillas de verificación junto a los objetos que no seleccionó originalmente y hubiera pulsado OK. Nota: hay que tener especial cuidado al copiar/duplicar las páginas de TechDraw. Se recomienda copiar/duplicar también todos los hijos de la página (plantillas, vistas, dimensiones, etc.). De lo contrario, los cambios en una página afectarán a las otras. Por ejemplo, al eliminar la Vista de una página también se eliminará de la otra, o eliminar una página también eliminará todo el contenido de la otra página. |
++++
 
-   
-  <img alt="" src=images/PrefPacks_relnotes_0.20.png  style="width:384px;">   Se agregó un nuevo tipo de complemento llamado [Paquete de preferencias](Preference_Packs.md), que permite a un subconjunto de las preferencias de un usuario (user.cfg) ser guardadas, distribuidas y aplicadas fácilmente por otros usuarios. Los paquetes de preferencias se pueden usar para distribuir \"Temas\", por ejemplo, al permitir que un desarrollador incluya tanto una hoja de estilo Qt para widgets así como un conjunto de otros colores y estilos para elementos en la interfaz de usuario que no se pueden configurar usando una hoja de estilo ( por ejemplo, colores de texto en el editor de Python o en la vista de informe, etc.). Todo lo que se puede configurar a través de un archivo user.cfg se puede configurar mediante un paquete de preferencias. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=62477)
-   
++++
+| <img alt="" src=images/PrefPacks_relnotes_0.20.png  style="width:384px;"> | Se agregó un nuevo tipo de complemento llamado [Paquete de preferencias](Preference_Packs.md), que permite a un subconjunto de las preferencias de un usuario (user.cfg) ser guardadas, distribuidas y aplicadas fácilmente por otros usuarios. Los paquetes de preferencias se pueden usar para distribuir \"Temas\", por ejemplo, al permitir que un desarrollador incluya tanto una hoja de estilo Qt para widgets así como un conjunto de otros colores y estilos para elementos en la interfaz de usuario que no se pueden configurar usando una hoja de estilo ( por ejemplo, colores de texto en el editor de Python o en la vista de informe, etc.). Todo lo que se puede configurar a través de un archivo user.cfg se puede configurar mediante un paquete de preferencias. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=62477) |
++++
 
-   
-  <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;">   El panel de preferencias de los \"Entornos de trabajo\" fue modificado para permitir cargar automáticamente los entornos de trabajo mientras FreeCAD inicia.
-   
++++
+| <img alt="" src=images/Autoload_relnotes_0.20.png  style="width:384px;"> | El panel de preferencias de los \"Entornos de trabajo\" fue modificado para permitir cargar automáticamente los entornos de trabajo mientras FreeCAD inicia. |
++++
 
-
-<div class="mw-translate-fuzzy">
-
-En Linux, la ubicación por defecto de los archivos de configuración de FreeCAD, datos y caché fue cambiada para seguir la [Especificación de Directorios Base XDG](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). Aquí hay una comparación de las ubicaciones anteriores y nuevas:
+En Linux, la ubicación por defecto de los archivos de configuración de FreeCAD, datos y caché fue cambiada para seguir la [Especificación de Directorios Base XDG](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). [Discusión del foro](https://forum.freecadweb.org/viewtopic.php?f=9&t=63648). Aquí hay una comparación de las ubicaciones anteriores y nuevas:
 
   Descripción                 Ubicación anterior   Ubicación nueva             Por defecto a
      
   Archivos de configuración   \$HOME/.FreeCAD      \$XDG_CONFIG_HOME/FreeCAD   \$HOME/.config/FreeCAD
   Archivos de datos           \$HOME/.FreeCAD      \$XDG_DATA_HOME/FreeCAD     \$HOME/.local/share/FreeCAD
   Archivos de caché           /tmp                 \$XDG_CACHE_HOME/FreeCAD    \$HOME/.cache/FreeCAD
-
-
-</div>
 
 Si desea seguir utilizando las ubicaciones anteriores, puede iniciar FreeCAD con la opción `--keep-deprecated-paths`.
 
@@ -105,6 +111,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
+
+
 
 #### Nueva API de Python 
 
@@ -178,6 +186,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 
 </div>
 
+
+
 #### API de Python cambiada 
 
 -   *MeshObject::trim(base, normal)* fue cambiado a *MeshPy::trimByPlane(base, normal)*: Recorta la malla con un plano dado. [commit 837de28e](https://github.com/FreeCAD/FreeCAD/commit/837de28e)
@@ -185,11 +195,15 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 
 </div>
 
+
+
 ## Gestor de complementos 
 
-   
-  <img alt="" src=images/AddonManagerExpanded_relnotes_0.20.png  style="width:400px;">   El [Gestor de complementos](Std_AddonMgr.md) se modificó para permitir la distribución de paquetes de preferencias y para mostrar la información que se encuentra en los metadatos de los complementos. El gestor de complementos también incluye soporte mejorado para complementos cuyo código fuente se encuentra en varias ubicaciones de alojamiento git diferentes. Se mejoró el soporte de redes para proporcionar un manejo más sólido de las conexiones SSL y soporte para proxies que requieren autenticación. Se agregó soporte para agregar automáticamente botones de macro a la barra de herramientas después de la instalación, para deshabilitar complementos sin eliminarlos y para cambiar qué rama de git de un complemento es checada. Finalmente, se modificó la interfaz de usuario para mejorar la búsqueda y visualización de diferentes filtros de lista.
-   
++++
+| <img alt="" src=images/AddonManagerExpanded_relnotes_0.20.png  style="width:400px;"> | El [Gestor de complementos](Std_AddonMgr.md) se modificó para permitir la distribución de paquetes de preferencias y para mostrar la información que se encuentra en los metadatos de los complementos. El gestor de complementos también incluye soporte mejorado para complementos cuyo código fuente se encuentra en varias ubicaciones de alojamiento git diferentes. Se mejoró el soporte de redes para proporcionar un manejo más sólido de las conexiones SSL y soporte para proxies que requieren autenticación. Se agregó soporte para agregar automáticamente botones de macro a la barra de herramientas después de la instalación, para deshabilitar complementos sin eliminarlos y para cambiar qué rama de git de un complemento es checada. Finalmente, se modificó la interfaz de usuario para mejorar la búsqueda y visualización de diferentes filtros de lista. |
++++
+
+
 
 ## Ambiente de Trabajo Arquitectura 
 
@@ -233,6 +247,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 |                                                                                                               | [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=23&t=43228&start=60), [Pull request #3229](https://github.com/FreeCAD/FreeCAD/pull/3229)                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 +++
 
+
+
 ## Ambiente de Trabajo Draft 
 
 -   Se agregó una casilla de verificación **Global** al panel de tareas de muchos comandos de dibujo. Marcarla permite introducir coordenadas en el sistema global de coordenadas incluso si el [plano de trabajo](Draft_SelectPlane.md) no está alineado con el plano global XY.
@@ -251,6 +267,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 
 -   Ahora es posible revertir un [Draft Wire](Draft_Wire.md) a través del menú contextual <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> [Draft Edit](Draft_Edit.md). [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request #4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
+
+
 ### Otras mejoras de Draft 
 
 -   Se arregló [Draft Snap Grid](Draft_Snap_Grid.md) cuando el cursor está sobre una cara. [Discusión en el foro](https://forum.freecad.org/viewtopic.php?f=23&t=62274). [Git commit](https://github.com/FreeCAD/FreeCAD/commit/1761eb8ce).
@@ -258,6 +276,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 -   Los nuevos [Textos de Draft](Draft_Text.md) ahora son alineados con el [plano de trabajo](Draft_SelectPlane.md), [Pull request #5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
 
 -   Se ha añadido soporte para dos convertidores DWG: [LibreDWG](https://www.gnu.org/software/libredwg) y [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg). Vea [Preferencias de importación y exportación](Import_Export_Preferences#DWG.md) y [FreeCAD y la importación de DWG](FreeCAD_and_DWG_Import.md) para más información.
+
+
 
 ## Ambiente de Trabajo FEM 
 
@@ -267,6 +287,8 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
   <img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature_relnotes_0.20.png  style="width:384px;">Efecto de *Tamaño de malla desde curvatura*; izquierda: puesto a 12, derecha: desactivado                 Hay una nueva propiedad para el creador de mallas [Gmsh](FEM_MeshGmshFromShape.md). Se puede especificar el número de elementos de malla por $2\pi$ veces el radio de la curvatura. El valor por defecto es 12 y para obtener una malla más fina en las esquinas o agujeros pequeños, este valor se puede aumentar para obtener mejores resultados. Esta característica requiere Gmsh 4.8 o más reciente. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=18&t=56401), [Pull request #4596](https://github.com/FreeCAD/FreeCAD/pull/4596)
   <img alt="" src=images/FEM_Gmsh-RecombinationAlgorithm_relnotes_0.20.png  style="width:384px;">Efecto del algoritmo de recombinación; izquierda: usando *Simple*, derecha: usando *Simple full-quad*   FreeCAD permite ahora seleccionar un algoritmo así como la recombinación de mallas 3D para el creador de mallas [Gmsh](FEM_MeshGmshFromShape.md). Para más detalles acerca de la recombinación de elementos de malla vea [FEM MeshGmshFromShape](FEM_MeshGmshFromShape#Element_Recombination.md). [Pull request #4706](https://github.com/FreeCAD/FreeCAD/pull/4706)
    
+
+
 
 ### Otras mejoras de FEM 
 
@@ -288,19 +310,29 @@ FreeCAD recibió muchas nuevas funciones de la API de Python:
 -   Permitir la adición/eliminación modal de entidades geométricas a las restricciones que actúan sobre los límites. [Pull request #5117](https://github.com/FreeCAD/FreeCAD/pull/5117)
 -   La mayoría de los cuadros de diálogo de restricciones FEM ahora se comportan de manera uniforme y brindan las mismas funciones de selección de objetos 3D. [Pull request #5391](https://github.com/FreeCAD/FreeCAD/pull/5391)
 
+
+
 ## Exportar
 
 -   DXF: El bloque de unidad faltante se agregó al archivo header14.rub. [Pull request #5793](https://github.com/FreeCAD/FreeCAD/issues/5793)
 
+
+
 ## Malla
+
+
 
 ### Compatibilidad mejorada con los elementos NASTRAN GRID 
 
 La herramienta de importación de malla ahora es compatible con el elemento \"GRID\*\" de alta precisión. También se mejoró el elemento \"GRID\" de precisión estándar, que ahora admite tanto la entrada numérica delimitada por el espacio como la entrada de ancho de campo fijo, según la documentación del formato NASTRAN95.
 
+
+
 ### Otras mejoras de Mesh 
 
 Se corrigieron falsos negativos durante las pruebas de autointersección cuando las caras son coplanares: [Pull request #5002](https://github.com/FreeCAD/FreeCAD/pull/5002).
+
+
 
 ## Ambiente de Trabajo OpenSCAD 
 
@@ -319,17 +351,29 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 |                                                                                                 | Una nueva caja de texto da retroalimentación de los erroes de OpenSCAD.                                                                              |
 +++
 
+
+
 ## Ambiente de Trabajo Part 
 
    
   <img alt="" src=images/Part_Extrusion-inner-structures_relnotes_0.20.png  style="width:384px;">Extrusión cónica de un croquis con una estructura interna.   La [extrusión](Part_Extrude.md) cónica de estructuras internas ahora crea resultados utilizables. Anteriormente, las estructuras internas se extruían como si fueran independientes y no fueran parte de una estructura.. [Pull request #5367](https://github.com/FreeCAD/FreeCAD/pull/5367)
    
 
+
+
 ### Otras mejoras de Part 
+
+
+<div class="mw-translate-fuzzy">
 
 -   El diálogo para editar [Cilindros](Part_Cylinder.md) ahora permite especificar un ángulo relativo a la normal de el plano seleccionado. De esta manera se pueden crear cilindros oblicuos. [Pull request #4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
 -   La herramienta [Face Colors](Part_FaceColors.md) ahora permite establecer una transparencia (*Canal alfa*) a las caras. Esta transparencia puede ser [exportada](Import_Export.md), haciendo, por ejemplo, crear archivos STEP con partes transparentes posible.
--   Los siguientes comandos ahora soportan App::Links: [Puente](Part_Loft.md), [Barrido](Part_Sweep.md), [Extruir](Part_Extrude.md), [Revolución](Part_Revolve.md), [Invertir formas](Part_ReverseShapes.md), [Espejo](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Comprobar geometría](Part_CheckGeometry.md), [Superficie reglada](Part_RuledSurface.md), [Cortes transversales](Part_CrossSections.md), y [Espesor](Part_Thickness.md). [Pull request #6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
+-   Los siguientes comandos ahora soportan App::Links: [Puente](Part_Loft.md), [Barrido](Part_Sweep.md), [Extruir](Part_Extrude.md), [Revolución](Part_Revolve.md), [Invertir formas](Part_ReverseShape.md), [Espejo](Part_Mirror.md), [Offset2D](Part_Offset2D.md), [Offset3D](Part_Offset.md), [Comprobar geometría](Part_CheckGeometry.md), [Superficie reglada](Part_RuledSurface.md), [Cortes transversales](Part_CrossSections.md), y [Espesor](Part_Thickness.md). [Pull request #6478](https://github.com/FreeCAD/FreeCAD/pull/6478)
+
+
+</div>
+
+
 
 ## Ambiente de Trabajo PartDesign 
 
@@ -358,6 +402,8 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 |                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 +++
 
+
+
 ### Otras mejoras de PartDesign 
 
 -   En la característica [Hélice](PartDesign_AdditiveHelix.md) ahora también se puede utilizar la normal del croquis como eje. [Pull request #5199](https://github.com/FreeCAD/FreeCAD/pull/5199)
@@ -373,6 +419,8 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 -   Cuando una herrramienta de PartDesign se ejecuta sin un cuerpo activo, ahora FreeCAD ofrece activar un cuerpo o crear uno nuevo. [Pull request #4949](https://github.com/FreeCAD/FreeCAD/pull/4949)
 -   La herramienta [Colores de cara](Part_FaceColors.md) está ahora disponible en el entorno de trabajo PartDesign.
 
+
+
 ## Ambiente de Trabajo Path 
 
 -   La característica Extensiones fue agregada a la operación [Adaptive](Path_Adaptive.md). [Pull request #4388](https://github.com/FreeCAD/FreeCAD/pull/4388)
@@ -382,21 +430,33 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 -   Se mejoró la estabilidad del grabado en croquis. [Pull request #6394](https://github.com/FreeCAD/FreeCAD/pull/6394)
 -   La visibilidad de objetos path se hizo más natural. [Pull request #4911](https://github.com/FreeCAD/FreeCAD/pull/4911)
 
+
+
 ## Módulo Plot 
 
 -   FreeCAD ahora proporciona el módulo Plot de forma predeterminada, por lo que cualquier otro módulo/entorno de trabajo puede crear gráficas sin necesidad de herramientas externas. [Pull request #4971](https://github.com/FreeCAD/FreeCAD/pull/4971).
 
+
+
 ## Ambiente de Trabajo Sketcher 
 
-   
-  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  La nueva función ![](images/Sketcher_Split.svg  style="width:24px;"> [Dividir](Sketcher_Split.md) divide líneas o arcos existentes. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request #4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
-  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  La nueva herramienta ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Rectángulo redondeado](Sketcher_CreateOblong.md) crea un rectángulo con esquinas redondeadas. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request #4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
-  <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width:384px;">   La nueva herramienta <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Rectángulo centrado](Sketcher_CreateRectangle_Center.md) crea un rectángulos a partir del centro. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
-  <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      La nueva función ![](images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam.md) para asignar automáticamente el peso en el polo en una B-spline, el diámetro en el círculo completo o el radio en el arco. Admite selección múltiple como herramientas de diámetro/radio. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request #4855](https://github.com/FreeCAD/FreeCAD/pull/4855)
-  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          La nueva herramienta de restricción ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Eliminar Alineación de Ejes](Sketcher_RemoveAxesAlignment.md) elimina la alineación de los ejes mientras trata de preservar las relaciones de restricciones de la selección. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
-  ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                            Las [Ranuras](Sketcher_CreateSlot.md) pueden ser restringidas horizontalmente o verticalementeya ya sea ajustándolo manualmente con la tecla **Ctrl**, o usando la opción **Restricciones automáticas** de Sketcher. [Pull request #5200](https://github.com/FreeCAD/FreeCAD/pull/5200)
-  <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                          La nueva herramienta ![](images/Sketcher_BSplineInsertKnot.svg  style="width:24px;"> [Insertar Nodo](Sketcher_BSplineInsertKnot.md) inserta un nodo en una B-splina ya existente. [Pull request #5311](https://github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request #6356](https://github.com/FreeCAD/FreeCAD/pull/6356)
-   
++++
+| <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                | La nueva función ![](images/Sketcher_Split.svg  style="width:24px;"> [Dividir](Sketcher_Split.md) divide líneas o arcos existentes. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request #4420](https://github.com/FreeCAD/FreeCAD/pull/4420)                                                                                                                                                                                                            |
++++
+| <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                | La nueva herramienta ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Rectángulo redondeado](Sketcher_CreateOblong.md) crea un rectángulo con esquinas redondeadas. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request #4835](https://github.com/FreeCAD/FreeCAD/pull/4835)                                                                                                                                                    |
++++
+| <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width:384px;"> | La nueva herramienta <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Rectángulo centrado](Sketcher_CreateRectangle_Center.md) crea un rectángulos a partir del centro. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)                                                                                                                                                                                  |
++++
+| <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                    | La nueva función ![](images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam.md) para asignar automáticamente el peso en el polo en una B-spline, el diámetro en el círculo completo o el radio en el arco. Admite selección múltiple como herramientas de diámetro/radio. [Discusión en el foro](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request #4855](https://github.com/FreeCAD/FreeCAD/pull/4855) |
++++
+| <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                        | La nueva herramienta de restricción ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Eliminar Alineación de Ejes](Sketcher_RemoveAxesAlignment.md) elimina la alineación de los ejes mientras trata de preservar las relaciones de restricciones de la selección. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)                                                                                              |
++++
+| ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                          | Las [Ranuras](Sketcher_CreateSlot.md) pueden ser restringidas horizontalmente o verticalementeya ya sea ajustándolo manualmente con la tecla **Ctrl**, o usando la opción **Restricciones automáticas** de Sketcher. [Pull request #5200](https://github.com/FreeCAD/FreeCAD/pull/5200)                                                                                                                                                                                             |
++++
+| <img alt="" src=images/SketcherBSplineInsertKnot_relnotes_0.20.gif )                                        | La nueva herramienta ![](images/Sketcher_BSplineInsertKnot.svg  style="width:24px;"> [Insertar Nodo](Sketcher_BSplineInsertKnot.md) inserta un nodo en una B-splina ya existente. [Pull request #5311](https://github.com/FreeCAD/FreeCAD/pull/5311) and [Pull request #6356](https://github.com/FreeCAD/FreeCAD/pull/6356)                                                                                                                                                          |
++++
+
+
 
 ### Otras mejoras de Sketcher 
 
@@ -415,13 +475,19 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 -   Ahora es posible establecer el grado de una B-Spline ([Pull request #6463](https://github.com/FreeCAD/FreeCAD/pull/6463)) y deshacer el último punto de control definido ([Pull request #6476](https://github.com/FreeCAD/FreeCAD/pull/6476)) en el momento de la creación.
 -   Se revisó los atajos de teclado por defecto para eliminar los atajos conflictivos y hacer atajos fáciles de recordar. [Discusión enm el foro](https://forum.freecadweb.org/viewtopic.php?f=3&t=41272); Capturas de pantalla de los atajos para [restricciones](https://wiki.freecadweb.org/images/0/0c/Sketcher_Shortcuts_v0.20_Screenshot_Constraints.png), [geometría](https://wiki.freecadweb.org/images/4/48/Sketcher_Shortcuts_v0.20_Screenshot_Geometry.png) y [herramientas varias](https://wiki.freecadweb.org/images/9/90/Sketcher_Shortcuts_v0.20_Screenshot_variousTools.png)
 
+
+
 ## Ambiente de Trabajo Spreadsheet 
 
-   
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )        El entorno de trabajo ahora tiene ![](images/Std_DlgPreferences.svg  style="width:24px;"> [Preferencias](Spreadsheet_Preferences.md). Son usadas por los comandos <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> [Spreadsheet Importar](Spreadsheet_Import.md) y <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;"> [Spreadsheet Exportar](Spreadsheet_Export.md). [Pull request #5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
-  <img alt="" src=images/Spreadsheet_configuration_table_relnotes_0.20.png  style="width:384px;">   Ahora es posible configurar [tablas de configuración](Spreadsheet_Workbench#Configuration_tables.md). De esta forma se puede definir diferentes conjuntos de parámetros para la misma pieza. Parte de [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
-  ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                          Las celdas ahora pueden ser [enlazadas a otras celdas](Spreadsheet_Workbench#Cell_binding.md) de la misma o diferente hoja de cálculo. Parte de [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
-   
++++
+| <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )      | El entorno de trabajo ahora tiene ![](images/Std_DlgPreferences.svg  style="width:24px;"> [Preferencias](Spreadsheet_Preferences.md). Son usadas por los comandos <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> [Spreadsheet Importar](Spreadsheet_Import.md) y <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;"> [Spreadsheet Exportar](Spreadsheet_Export.md). [Pull request #5073](https://github.com/FreeCAD/FreeCAD/pull/5073) |
++++
+| <img alt="" src=images/Spreadsheet_configuration_table_relnotes_0.20.png  style="width:384px;"> | Ahora es posible configurar [tablas de configuración](Spreadsheet_Workbench#Configuration_tables.md). De esta forma se puede definir diferentes conjuntos de parámetros para la misma pieza. Parte de [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).                                                                                                                                                                                                                      |
++++
+| ![](images/Spreadsheet_binding-dialog_relnotes_0.20.png )                        | Las celdas ahora pueden ser [enlazadas a otras celdas](Spreadsheet_Workbench#Cell_binding.md) de la misma o diferente hoja de cálculo. Parte de [Pull request #2862](https://github.com/FreeCAD/FreeCAD/pull/2862).                                                                                                                                                                                                                                                                            |
++++
+
+
 
 ### Otras mejoras de Spreadsheet 
 
@@ -430,11 +496,15 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 -   Navegación mejorada usando las teclas **Tab** y **Enter**.
 -   Interfaz mejorada para cortar y pegar bloques de celdas.
 
+
+
 ## Ambiente de Trabajo TechDraw 
 
-   
-  <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:400px;">   Más de 30 nuevas herramientas, llamadas [Extensiones](TechDraw_Workbench#Extensions.md), ahora están disponibles. Ofrecen nuevas funciones cosméticas para mejorar los dibujos.
-   
++++
+| <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:400px;"> | Más de 30 nuevas herramientas, llamadas [Extensiones](TechDraw_Workbench#Extensions.md), ahora están disponibles. Ofrecen nuevas funciones cosméticas para mejorar los dibujos. |
++++
+
+
 
 ### Otras mejoras de TechDraw 
 
@@ -449,6 +519,8 @@ Se agregaron nuevas opciones para soportar la ejecución de FreeCAD, OpenSCAD o 
 ## Web
 
 Qt WebEngine es ahora considerado la opción por defecto en lugar de Qt WebKit.
+
+
 
 ## Entornos de trabajo externos 
 
@@ -511,6 +583,8 @@ El [entorno de trabajo FCGear](FCGear_Workbench.md) recibió un par de mejoras:
 -   Una nueva herramienta para calcular el [hudimiento estático y recorte](https://github.com/FreeCAD/freecad.ship#static-sink-and-trim) ha sido añadida.
 -   Una nueva herramienta para calcular los [operadores de amplitud de respuesta](https://github.com/FreeCAD/freecad.ship#raos) ha sido añadida encima de [capytaine](https://github.com/mancellin/capytaine).
 
+
+
 ## Compilación
 
 Desde esta versión de FreeCAD solo puede ser compilado usando Qt 5.x y Python 3.x. La versión más baja soportada es Python 3.6.9 de acuerdo a [este hilo del foro](https://forum.freecadweb.org/viewtopic.php?f=10&t=62701).
@@ -523,11 +597,17 @@ Los sistemas operativos soportados:
 -   Linux Ubuntu Bionic Beaver (18.04) y Focal Fossa (20.04)
 -   MacOS: 10.12 Sierra o más nuevo
 
+
+
 ## Limitaciones conocidas 
+
+
 
 #### Windows de 32 bits 
 
 Desde FreeCAD 0.19 no soportamos oficialmente Windows de 32 bits. FreeCAD podría funcionar en estos sistemas pero no se brinda soporte.
+
+
 
 #### Escritorio remoto en Windows 
 
@@ -535,6 +615,8 @@ Dependiendo de las capacidades gráficas OpenGL de una computadora, podría ser 
 
 -   Descargar [esta](https://downloads.fdossena.com/geth.php?r=mesa64-latest) biblioteca OpenGL para Windows de 64 bits y extraerla.
 -   Cambie el nombre del archivo DLL a *OpenGL32SW.DLL* y cópielo a la subcarpeta *bin* de la carpeta de instalación de FreeCAD (sobrescriba el DLL existente allí).
+
+
 
 ### MacOS: Entorno de trabajo Start Workbench muestra una página en blanco 
 

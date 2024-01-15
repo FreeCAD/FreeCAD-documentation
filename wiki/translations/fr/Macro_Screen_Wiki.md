@@ -1,14 +1,15 @@
 # Macro Screen Wiki/fr
 {{Macro/fr
 |Name=Macro Screen Wiki
+|Name/fr=Macro Screen Wiki
 |Icon=Macro_Screen_Wiki.png
 |Description=Macro spéciale pour l'utilisateur du wiki. Cette macro permet de sauvegarder la vue 3D dans le format souhaité. La vue 3D ou la fenêtre 3D complète de FreeCAD prend les dimensions souhaitées. Une rotation de l'objet sélectionné ou de la vue 3D est possible; pour donner un angle de rotation, le nombre d'images est calculé automatiquement. Il est possible de donner un angle de départ et un angle d'arrivée. Vous devez utiliser un autre programme d'exemple Gimp pour assembler les images et créer le fichier animé.
 |Author=Mario52
 |Version=00.06b
 |Date=2023/06/26
 |FCVersion=0.19 et plus
-|Download=Téléchargez [https://wiki.freecadweb.org/images/f/f5/Macro_Screen_Wiki.png Macro_Screen_Wiki.png] et copiez la dans la même répertoire que la macro
-|SeeAlso= <img src="images/Macro_Copy3DViewToClipboard.png" width=24px>[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md)<br/><img src="images/Snip.png" width=24px> [Macro Snip](Macro_Snip/fr.md)
+|Download=[https://wiki.freecad.org/images/f/f5/Macro_Screen_Wiki.png Icône de la barre d'outils]
+|SeeAlso=[Macro Copy3DViewToClipboard](Macro_Copy3DViewToClipboard/fr.md), [Macro Snip](Macro_Snip/fr.md)
 }}
 
 ## Description

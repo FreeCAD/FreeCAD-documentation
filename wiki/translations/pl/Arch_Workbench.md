@@ -125,8 +125,6 @@ Są to narzędzia służące do modyfikowania obiektów architektonicznych.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Płaszczyzna cięcia](Arch_CutPlane/pl.md): Przycina obiekt według płaszczyzny.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Dodaj komponent](Arch_Add/pl.md): Dodaje obiekty do komponentu.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Usuń komponent](Arch_Remove/pl.md): Odejmuje lub usuwa obiekty z komponentu.
@@ -164,6 +162,12 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Arkusz kalkulacyjny IFC](Arch_IfcSpreadsheet/pl.md): Tworzy arkusz kalkulacyjny do przechowywania właściwości [IFC](Arch_IFC/pl.md) obiektu.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Przełącz widoczność elementów podrzędnych](Arch_ToggleSubs/pl.md): Pokazuje lub ukrywa elementy podrzędne obiektu architektury.
+
+
+
+## Narzędzia przestarzałe 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Linia cięcia](Arch_CutLine/pl.md): Przycina obiekt zgodnie z linią. Nie dostępne dla {{VersionPlus/pl|0.22}}
 
 
 

@@ -22,7 +22,7 @@ sketch.addGeometry(Part.LineSegment(App.Vector(12.2, 1.0, 0),
 doc.recompute()
 ```
 
-Dodaje również trzy linie w nowo utworzonym Szkicu.
+Dodaje również trzy [linie](Topological_data_scripting/pl#Linia.md) w nowo utworzonym Szkicu.
 
 
 

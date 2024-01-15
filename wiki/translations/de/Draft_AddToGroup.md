@@ -13,31 +13,29 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup**-Befehl verschiebt Objekte in eine[Std Gruppe](Std_Group/de.md). Damit können auch Objekte von der aktuellen Gruppe entfernt werden.
-
-In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.md)-Objekte handhaben.
+Der Befehl <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft ZuGruppeHinzufügen** verschiebt Objekte in eine [Std Gruppe](Std_Group/de.md) oder ein gruppenartiges [Arch](Arch_Workbench/de.md)-Objekt. Damit können auch Objekte aus einer Gruppe entfernt werden.
 
 
 
 ## Anwendung
 
 1.  Ein oder mehrere Objekte auswählen.
-2.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_AddToGroup.svg" width=16px> [In Gruppe verschhieben...](Draft_AddToGroup/de.md)** drücken.
-    -   Den Menüeintrag **Utilities → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschhieben...** auswählen.
-    -   Den Eintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschhieben...** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
-3.  Ein Menü wird neben dem Cursor angezeigt. Tue eins der folgenden Dinge:
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_AddToGroup.svg" width=16px> [In Gruppe verschieben...](Draft_AddToGroup/de.md)** drücken.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschieben...** auswählen.
+    -   Den Eintrag **Dienstprogramme → <img src="images/Draft_AddToGroup.svg" width=16px> In Gruppe verschieben...** im Kontextmenü der [Baumansicht](Tree_view/de.md) oder der [3D-Ansicht](3D_view/de.md) auswählen.
+3.  Ein Menü wird neben dem Cursor angezeigt. Eine der folgenden Möglichkeiten auswäheln:
     -   
-        **Ungroup**
+        **Gruppierung aufheben**
         
-        auswählen, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
+        auswählen, um die Objekte aus den Gruppen, in denen sie sich befinden, heraus zu bewegen.
 
     -   Die Gruppe auswählen, in die die Objekte verschoben werden sollen.
 
     -   
         **+ Neue Gruppe hinzufügen**
         
-        auswählen, um die Objekte in eine neue Gruppe zu bewegen: {{Version/de|0.20}}
+        auswählen, um die Objekte in eine neue Gruppe zu bewegen:
 
         1.  Der Aufgaben-Bereich **Gruppe hinzufügen** wird geöffnet.
         2.  Einen **Gruppennamen** eingeben.

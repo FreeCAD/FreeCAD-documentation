@@ -20,6 +20,8 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ## Available navigation styles 
 
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
 ### Blender navigation 
 
 The Blender navigation style was modeled after [Blender](https://www.blender.org).
@@ -54,9 +56,6 @@ This is the default navigation style. It allows the user a simple control of the
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
-
-
-Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
@@ -114,7 +113,7 @@ Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md).
 |Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
 
-On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick "Disable touchscreen tilt gesture" checkbox.
+This method is disabled by default. To enable, go to **Edit → Preferences → Display → Navigation**, and uncheck the "Disable touchscreen tilt gesture" checkbox.
 }}
 
 ### Maya-Gesture navigation 
@@ -159,7 +158,7 @@ Alternatively, hold **Ctrl** and the left mouse button, then move the pointer.
 
 ### OpenInventor navigation 
 
-OpenInventor navigation (formerly Inventor) was modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). In order to select objects, you must hold down the **Shift** or **Ctrl** key.
+OpenInventor navigation (formerly Inventor) was modeled after [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). In order to select objects, you must hold the **Shift** or **Ctrl** key.
 
 This style is not based on Autodesk Inventor.
 
@@ -173,7 +172,7 @@ This style is not based on Autodesk Inventor.
 |Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
 
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -197,6 +196,9 @@ The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
@@ -249,7 +251,7 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 
 ### Touchpad navigation 
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 
 {{Touchpad Navigation

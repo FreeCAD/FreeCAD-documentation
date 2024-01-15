@@ -4,9 +4,9 @@
 
 
 
-[IfcOpenShell](IfcOpenShell.md) is an open source (LGPL 3) software library that helps developers work with the [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC.md)) file format. The IFC file format can be used to describe building and construction data. The format is commonly used for [building information modelling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM), for example, mechanical loading analysis, and thermal and energy efficiency studies. IfcOpenShell is primarily a collection of C++ libraries, however, as it has [Python](Python.md) bindings, it can be integrated with programs like FreeCAD and Blender.
+**IfcOpenShell** to biblioteka oprogramowania typu open source *(LGPL 3)*, która pomaga programistom pracować z formatem plików [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) *([IFC](Arch_IFC/pl.md))*. Format pliku IFC może być używany do opisywania danych budowlanych. Format ten jest powszechnie używany do [modelowania informacji o budynku](https://en.wikipedia.org/wiki/Building_information_modeling) *(BIM)*, na przykład do analizy obciążeń mechanicznych oraz badań termicznych i efektywności energetycznej. IfcOpenShell jest przede wszystkim zbiorem bibliotek C++, jednak ponieważ posiada powiązania ze środowiskiem [Python](Python/pl.md), może być zintegrowany z programami takimi jak FreeCAD i Blender.
 
-IfcOpenShell uses [OpenCASCADE](OpenCASCADE.md) internally to convert the implicit geometry in IFC files into explicit geometry that other CAD packages can understand, for example, STEP, [OBJ](Arch_OBJ.md), and [DAE](Arch_DAE.md).
+IfcOpenShell używa [OpenCASCADE](OpenCASCADE/pl.md) wewnętrznie do konwersji niejawnej geometrii w plikach IFC na geometrię jawną, którą mogą zrozumieć inne pakiety CAD, na przykład STEP, [OBJ](Arch_OBJ/pl.md) i [DAE](Arch_DAE/pl.md).
 
 As of v0.19, FreeCAD is able to import IFC files as long as the `ifcopenshell` [Python](Python.md) module is available in the system. Likewise, the [Arch](Arch_Workbench.md) and [BIM Workbenches](BIM_Workbench.md) can export a building model to the IFC format so that it can be used in other applications.
 
@@ -37,6 +37,8 @@ The easiest way to install IfcOpenShell is using [pip](https://pypi.org/project/
 ```python
 pip install ifcopenshell
 ```
+
+
 
 ### Conda
 

@@ -1,46 +1,34 @@
 # Macro FC element selector/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro FC element selector
 |Icon=Macro_FC_element_selector.png
 |Translate=Macro FC element selector
-|Description= Questa macro mostra tutti gli elementi di sotto il mouse.
+|Description= Questa macro mostra tutti gli elementi sotto il mouse.
 |Author=HoWil
 |Version=01.00
 |Date=2016-12-26
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/0/07/Macro_FC_element_selector.png ToolBar Icon]
-|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb.md) [<img src=images/Macro_Mouse_over_cb.png style="width:24px">
+|SeeAlso=[Macro Mouse over cb](Macro_Mouse_over_cb/it.md) [<img src=images/Macro_Mouse_over_cb.png style="width:24px">
 }}
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questa macro mostra tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi)
+Questa macro mostra tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi).
 
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-
-</div>
-
 Lanciare la macro
+
+
 
 ## Codice
 
-ToolBar Icon ![](images/Macro_FC_element_selector.png )
+Icona della barra strumenti ![](images/Macro_FC_element_selector.png )
 
 **Macro FC element selector.FCMacro**
 
@@ -219,17 +207,13 @@ class element_selector():
 element_selector()
 }}
 
+
+
 ## Vincolo
 
 Discussione sul foro [Selecting internal faces of a pressure vessel](https://forum.freecadweb.org/viewtopic.php?f=18&t=12381&p=151950#p151950)
 
-
-<div class="mw-translate-fuzzy">
-
-Altra similare macro [Macro Mouse over cb](Macro_Mouse_over_cb.md)
-
-
-</div>
+Altra macro similare [Macro Mouse over cb](Macro_Mouse_over_cb/it.md)
 
 
 

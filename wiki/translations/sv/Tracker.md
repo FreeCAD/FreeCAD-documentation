@@ -11,6 +11,8 @@ The [FreeCAD BugTracker](https://www.freecadweb.org/tracker) is the place toː r
 
 As shown in the above flowchart, before creating tickets, please always first search the forums and bugtracker to discover if your issue is a known issue. This saves a lot of time/work for developers and volunteers that could be spending said time making FreeCAD even more awesome.
 
+
+
 ## Rapportera buggar 
 
 
@@ -34,6 +36,8 @@ Om du tror att du funnit en bugg, så är du välkommen att rapportera den där.
 
 </div>
 
+
+
 ## Begära funktioner 
 
 
@@ -52,6 +56,8 @@ Om du vill ha något i FreeCAD som inte finns ännu, så är detta inte en bugg 
 -   **NOTE #2** Keep in mind there are no guarantees that your wish will be fulfilled.
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
+
+
 
 ## Skicka patchar 
 
@@ -177,10 +183,14 @@ The format MantisBT will recognize:
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-## Related
 
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

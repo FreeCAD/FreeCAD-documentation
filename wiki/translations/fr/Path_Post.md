@@ -108,7 +108,7 @@ Les sections de configuration typiques incluent:
 
 → **Préférences...** → **Path** → **Préférences des tâches** → **Valeurs par défaut** → **Parcours** permet de définir le post-processeur par défaut sélectionné lors de la création de la tâche. Ceci permet à l\'atelier Path d\'être configuré pour n\'afficher que les post-processeurs souhaités et de définir une valeur par défaut.
 
-Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path.Pathscripts.Post** par défaut:
+Les post-processeurs inclus sont enregistrés dans **FreeCAD/Mod/Path/Path/Post/scripts** par défaut :
 
 -   centroid
 -   comparams
@@ -121,6 +121,7 @@ Les post-processeurs inclus sont enregistrés dans le fichier **FreeCAD.Mod.Path
 -   nccad
 -   opensbp
 -   phillips
+-   refactorisé\* (Ces post-processeurs sont en cours d\'élaboration et vont beaucoup évoluer)
 -   rml
 -   smoothie
 -   uccnc

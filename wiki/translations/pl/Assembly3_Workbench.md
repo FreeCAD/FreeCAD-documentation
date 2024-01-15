@@ -482,6 +482,7 @@ Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows *(któr
 Istnieje wiele sposobów na stworzenie złożenia za pomocą środowiska Złożenie 3. Oto najprostszy z nich, który możesz zastosować.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
+
 :   *Wynik końcowy przykładu wprowadzającego. Na obrazku zaznaczono środowisko pracy Złożenie 3, więc widoczne są jego liczne paski narzędzi. Zwróć uwagę, że pionowy \"Pasek zakładek\" po lewej stronie widoku drzewa jest dodatkiem, który nie jest zawarty w standardowym FreeCAD (ale może być zainstalowany za pomocą Menadżera dodatków).*
 
 -   Naciśnij przycisk **<img src="images/Std_New.svg" width=16px> [Nowy](Std_New/pl.md)**, aby utworzyć nowy plik FreeCAD.

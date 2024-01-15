@@ -16,7 +16,7 @@ The <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **D
 
 1.  Select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Draft ToggleDisplayMode](Draft_ToggleDisplayMode.md)** button.
+    -   Press the **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md)** button.
     -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the menu.
     -   Select the **Utilities → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Toggle normal/wireframe display** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Shift**+**Space**.

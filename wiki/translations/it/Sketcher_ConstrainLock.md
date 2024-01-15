@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Il vincolo **Blocca** applica un vincolo <img alt="" src=images/Constraint_Horiz
 
 
 </div>
+
+
 
 ## Utilizzo
 

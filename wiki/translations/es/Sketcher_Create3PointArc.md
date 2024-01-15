@@ -35,7 +35,13 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

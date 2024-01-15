@@ -17,7 +17,7 @@ La commande **Section** crée une coupe transversale à travers un objet maillé
 
 ## Utilisation
 
-1.  Sélectionnez un seul objet maillage et un seul [Part Plan](Part_Primitives/fr.md). Le plan (étendu) doit croiser l\'objet maillé.
+1.  Sélectionnez un seul objet maillage et un seul [Part Plan](Part_Primitives/fr.md). Le plan (étendu) doit couper l\'objet maillé.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_SectionByPlane.svg" width=16px> [Créer une section à partir d'un maillage et d'un plan](Mesh_SectionByPlane/fr.md)**.
     -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_SectionByPlane.svg" width=16px> Créer une section à partir d'un maillage etd'un plan** du menu.

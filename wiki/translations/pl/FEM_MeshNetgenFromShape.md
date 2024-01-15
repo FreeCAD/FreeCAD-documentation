@@ -1,48 +1,68 @@
 ---
  GuiCommand:
    Name: FEM MeshNetgenFromShape
-   MenuLocation: Mesh , FEM mesh from shape by Netgen
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Siatka MES z kształtu przy pomocy generatora Netgen
+   MenuLocation: Siatka , Siatka MES z kształtu przy pomocy generatora Netgen
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MeshNetgenFromShape/pl
 
-## Description
 
-For a finite element analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses Netgen (which needs to be installed on the system) for calculating the mesh.
 
-Depending on your operating system and your installation package Netgen might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+## Opis
 
-## Usage
+Do analizy metodą elementów skończonych konieczna jest dyskretyzacja geometrii do [siatki MES](FEM_Mesh/pl.md). To narzędzie korzysta z programu Netgen *(który musi być zainstalowany w systemie)* do tworzenia siatki.
 
-1.  Select the shape you want to analyze. For a volume, this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [Part BooleanFragments](Part_BooleanFragments.md) command.)
-    -   Press the **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [FEM MeshNetgenFromShape](FEM_MeshNetgenFromShape.md)** button, or
-    -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Netgen** option from the menu.
-2.  Optionally, edit the parameters.
-3.  Click the **Apply** button to make a mesh, or **OK** button to make a mesh and close the dialogue.
+W zależności od Twojego systemu operacyjnego i pakietu instalacyjnego, Netgen może być dołączony do programu FreeCAD lub nie. Więcej informacji można znaleźć na stronie [Instalacja środowiska MES](FEM_Install/pl.md).
 
-## Properties
 
--    **Max. Size**: Maximum size of the element in mm.
 
--    **Second order**: Second order elements contain more nodes per element. Usually, it is enough to use rougher mesh to obtain same solution precision as with the first order elements,
+## Użycie
 
-    -   true (default); second order elements,
-    -   false; first order elements.
+1.  Wybierz kształt, których chesz analizować. Dla objętości, musi to być bryła pojedyncza lub złożona. To drugie jest konieczne jeśli część jest wykonana z różnych materiałów *(bryłę złożoną można utworzyć przy pomocy narzędzia [Fragmentacja funkcją logiczną](Part_BooleanFragments/pl.md))*.
+    -   Wciśnij przycisk **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> '''Siatka MES z kształtu przy pomocy generatora Netgen'''** lub
+    -   Wybierz opcję **Siatka → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> Siatka MES z kształtu przy pomocy generatora Netgen** z menu.
+2.  Opcjonalnie, edytuj parametry.
+3.  Wciśnij przycisk **Zastosuj**, aby utworzyć siatkę lub **OK**, aby utworzyć siatkę i zamknąć okno dialogowe.
 
--    **Fineness**: Defines how fine the mesh should be.
 
--    **Growth Rate**: Defines how much adjacent elements can differ in size.
 
--    **Nb. Segs per Edge**: Defines the minimum number of mesh segments per edge.
+## Właściwości
 
--    **Nb. Segs per Radius**: Defines the minimum number of mesh segments per radius.
+-    **Max. Size**: Maksymalny rozmiar elementu w mm.
+
+-    **Second order**: Elementy drugiego rzędu - mają więcej węzłów. Zwykle wystarczy użycie rzadszej siatki aby uzyskać taką samą dokładność jak przy pomocy elementów pierwszego rzędu,
+
+    -   
+        {{true/pl}}
+        
+        *(domyślnie)* elementy drugiego rzędu *(kwadratowe)*,
+
+    -   
+        {{false/pl}}
+        
+        elementy pierwszego rzędu *(liniowe)*.
+
+-    **Fineness**: Predefiniowane poziomy gęstości siatki.
+
+-    **Growth Rate**: Definiuje jak bardzo sąsiednie elementy będzie się różniły rozmiarem.
+
+-    **Nb. Segs per Edge**: Definiuje minimalną liczbę segmentów siatki na krawędź.
+
+-    **Nb. Segs per Radius**: Definiuje minimalną liczbę segmentów siatki na promień.
 
 -    **Optimize**:
 
-    -   true (default); applies optimization algorithm to improve mesh quality,
-    -   false;
+    -   
+        {{true/pl}}
+        
+        *(domyślnie)* stosuje algorytm optymalizacji do poprawy jakości siatki,
+
+    -   
+        {{false/pl}}
+        
 
 
 

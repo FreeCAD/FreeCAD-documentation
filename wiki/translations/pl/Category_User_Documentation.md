@@ -5,7 +5,9 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
 
 |     |     |     |
 | --- | --- | --- |
-| [BIM Clone/pl](BIM_Clone/pl.md) | [BIM Copy/pl](BIM_Copy/pl.md) | [BIM Setup/pl](BIM_Setup/pl.md) |
+| [BIM Box/pl](BIM_Box/pl.md) | [BIM Classification/pl](BIM_Classification/pl.md) | [BIM Clone/pl](BIM_Clone/pl.md) |
+| [BIM Copy/pl](BIM_Copy/pl.md) | [BIM IfcQuantities/pl](BIM_IfcQuantities/pl.md) | [BIM Preflight/pl](BIM_Preflight/pl.md) |
+| [BIM Project/pl](BIM_Project/pl.md) | [BIM Setup/pl](BIM_Setup/pl.md) | [BIM Views/pl](BIM_Views/pl.md) |
 | [BIM Windows/pl](BIM_Windows/pl.md) | [3D view/pl](3D_view/pl.md) | [3Dconnexion input devices/pl](3Dconnexion_input_devices/pl.md) |
 | [A2plus Workbench/pl](A2plus_Workbench/pl.md) | [About FreeCAD/pl](About_FreeCAD/pl.md) | [Addon/pl](Addon/pl.md) |
 | [Advanced TechDraw Tutorial/pl](Advanced_TechDraw_Tutorial/pl.md) | [Aeroplane/pl](Aeroplane/pl.md) | [Analysis of reinforced concrete with FEM/pl](Analysis_of_reinforced_concrete_with_FEM/pl.md) |
@@ -68,110 +70,108 @@ Ta kategoria zawiera artykuły na temat sposobu używania FreeCAD. Jest to równ
 | [Assembly3 TracePartMove/pl](Assembly3_TracePartMove/pl.md) | [Assembly3 Workbench/pl](Assembly3_Workbench/pl.md) | [Assembly4 Workbench/pl](Assembly4_Workbench/pl.md) |
 | [Asymptote/pl](Asymptote/pl.md) | [Base API/pl](Base_API/pl.md) | [Basic Attachment Tutorial/pl](Basic_Attachment_Tutorial/pl.md) |
 | [Basic modeling tutorial/pl](Basic_modeling_tutorial/pl.md) | [Basic Part Design Tutorial 019/pl](Basic_Part_Design_Tutorial_019/pl.md) | [Basic Part Design Tutorial/pl](Basic_Part_Design_Tutorial/pl.md) |
-| [Basic Sketcher Tutorial/pl](Basic_Sketcher_Tutorial/pl.md) | [Basic TechDraw Tutorial/pl](Basic_TechDraw_Tutorial/pl.md) | [BIM Box/pl](BIM_Box/pl.md) |
-| [BIM Classification/pl](BIM_Classification/pl.md) | [BIM IfcElements/pl](BIM_IfcElements/pl.md) | [BIM IfcProperties/pl](BIM_IfcProperties/pl.md) |
-| [BIM IfcQuantities/pl](BIM_IfcQuantities/pl.md) | [BIM Layers/pl](BIM_Layers/pl.md) | [BIM Library/pl](BIM_Library/pl.md) |
-| [BIM Preflight/pl](BIM_Preflight/pl.md) | [BIM Project/pl](BIM_Project/pl.md) | [BIM Views/pl](BIM_Views/pl.md) |
+| [Basic Sketcher Tutorial/pl](Basic_Sketcher_Tutorial/pl.md) | [Basic TechDraw Tutorial/pl](Basic_TechDraw_Tutorial/pl.md) | [BIM IfcElements/pl](BIM_IfcElements/pl.md) |
+| [BIM IfcProperties/pl](BIM_IfcProperties/pl.md) | [BIM Layers/pl](BIM_Layers/pl.md) | [BIM Library/pl](BIM_Library/pl.md) |
 | [BIM Workbench/pl](BIM_Workbench/pl.md) | [Bitmap/pl](Bitmap/pl.md) | [Body/pl](Body/pl.md) |
-| [BOLTSFC Workbench/pl](BOLTSFC_Workbench/pl.md) | [Branding/pl](Branding/pl.md) | [Bug Triage/pl](Bug_Triage/pl.md) |
-| [CadQuery Workbench/pl](CadQuery_Workbench/pl.md) | [Cfd Workbench/pl](Cfd_Workbench/pl.md) | [Civil Engineering Workbench/pl](Civil_Engineering_Workbench/pl.md) |
-| [Combo view/pl](Combo_view/pl.md) | [Common Airfoil Data Import/pl](Common_Airfoil_Data_Import/pl.md) | [Compile on Docker/pl](Compile_on_Docker/pl.md) |
-| [Compile on Linux/pl](Compile_on_Linux/pl.md) | [Compile on MacOS/pl](Compile_on_MacOS/pl.md) | [Compile on MinGW/pl](Compile_on_MinGW/pl.md) |
-| [Compile on Windows/pl](Compile_on_Windows/pl.md) | [Compiling (Speeding up)/pl](Compiling_(Speeding_up)/pl.md) | [Compiling/pl](Compiling/pl.md) |
-| [Console API/pl](Console_API/pl.md) | [Constraint/pl](Constraint/pl.md) | [Constructive solid geometry/pl](Constructive_solid_geometry/pl.md) |
-| [Continuous Integration/pl](Continuous_Integration/pl.md) | [Contributors/pl](Contributors/pl.md) | [Copying Objects/pl](Copying_Objects/pl.md) |
-| [Creating a simple part with PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md) | [Crowdin Administration/pl](Crowdin_Administration/pl.md) | [Crowdin Scripts/pl](Crowdin_Scripts/pl.md) |
-| [CurvedShapes CurvedArray/pl](CurvedShapes_CurvedArray/pl.md) | [CurvedShapes Workbench/pl](CurvedShapes_Workbench/pl.md) | [Curves CompressionSpring/pl](Curves_CompressionSpring/pl.md) |
-| [Curves Discretize/pl](Curves_Discretize/pl.md) | [Curves EditableSpline/pl](Curves_EditableSpline/pl.md) | [Curves ExtendCurve/pl](Curves_ExtendCurve/pl.md) |
-| [Curves GordonSurface/pl](Curves_GordonSurface/pl.md) | [Curves Interpolate/pl](Curves_Interpolate/pl.md) | [Curves IsoCurve/pl](Curves_IsoCurve/pl.md) |
-| [Curves JoinCurve/pl](Curves_JoinCurve/pl.md) | [Curves Line/pl](Curves_Line/pl.md) | [Curves MultiLoft/pl](Curves_MultiLoft/pl.md) |
-| [Curves ParametricComb/pl](Curves_ParametricComb/pl.md) | [Curves ParametricSolid/pl](Curves_ParametricSolid/pl.md) | [Curves PasteSVG/pl](Curves_PasteSVG/pl.md) |
-| [Curves Pipeshell/pl](Curves_Pipeshell/pl.md) | [Curves PipeshellProfile/pl](Curves_PipeshellProfile/pl.md) | [Curves ProfileSupport/pl](Curves_ProfileSupport/pl.md) |
-| [Curves ReflectLines/pl](Curves_ReflectLines/pl.md) | [Curves SegmentSurface/pl](Curves_SegmentSurface/pl.md) | [Curves SketchOnSurface/pl](Curves_SketchOnSurface/pl.md) |
-| [Curves SplitCurve/pl](Curves_SplitCurve/pl.md) | [Curves ToConsole/pl](Curves_ToConsole/pl.md) | [Curves Workbench/pl](Curves_Workbench/pl.md) |
-| [Curves ZebraTool/pl](Curves_ZebraTool/pl.md) | [Custom Spacing/pl](Custom_Spacing/pl.md) | [DAG view/pl](DAG_view/pl.md) |
-| [Datum/pl](Datum/pl.md) | [Debian development/pl](Debian_development/pl.md) | [Debian Unstable/pl](Debian_Unstable/pl.md) |
-| [Defeaturing Workbench/pl](Defeaturing_Workbench/pl.md) | [Defeaturing/pl](Defeaturing/pl.md) | [Developer hub/pl](Developer_hub/pl.md) |
-| [Developing FreeCAD with GitKraken/pl](Developing_FreeCAD_with_GitKraken/pl.md) | [Document structure/pl](Document_structure/pl.md) | [Donate/pl](Donate/pl.md) |
-| [Download/pl](Download/pl.md) | [Draft AddConstruction/pl](Draft_AddConstruction/pl.md) | [Draft AddNamedGroup/pl](Draft_AddNamedGroup/pl.md) |
-| [Draft AddToGroup/pl](Draft_AddToGroup/pl.md) | [Draft annotation scale widget/pl](Draft_annotation_scale_widget/pl.md) | [Draft AnnotationStyleEditor/pl](Draft_AnnotationStyleEditor/pl.md) |
-| [Draft API/pl](Draft_API/pl.md) | [Draft ApplyStyle/pl](Draft_ApplyStyle/pl.md) | [Draft Arc 3Points/pl](Draft_Arc_3Points/pl.md) |
-| [Draft Arc/pl](Draft_Arc/pl.md) | [Draft Array/pl](Draft_Array/pl.md) | [Draft AutoGroup/pl](Draft_AutoGroup/pl.md) |
-| [Draft BezCurve/pl](Draft_BezCurve/pl.md) | [Draft BSpline/pl](Draft_BSpline/pl.md) | [Draft Circle/pl](Draft_Circle/pl.md) |
-| [Draft CircularArray/pl](Draft_CircularArray/pl.md) | [Draft Clone/pl](Draft_Clone/pl.md) | [Draft Constrain/pl](Draft_Constrain/pl.md) |
-| [Draft CubicBezCurve/pl](Draft_CubicBezCurve/pl.md) | [Draft DAT/pl](Draft_DAT/pl.md) | [Draft Dimension/pl](Draft_Dimension/pl.md) |
-| [Draft Downgrade/pl](Draft_Downgrade/pl.md) | [Draft Draft2Sketch/pl](Draft_Draft2Sketch/pl.md) | [Draft Drawing/pl](Draft_Drawing/pl.md) |
-| [Draft DXF/pl](Draft_DXF/pl.md) | [Draft Edit/pl](Draft_Edit/pl.md) | [Draft Ellipse/pl](Draft_Ellipse/pl.md) |
-| [Draft Facebinder/pl](Draft_Facebinder/pl.md) | [Draft Fillet/pl](Draft_Fillet/pl.md) | [Draft FlipDimension/pl](Draft_FlipDimension/pl.md) |
-| [Draft Hatch/pl](Draft_Hatch/pl.md) | [Draft Heal/pl](Draft_Heal/pl.md) | [Draft Join/pl](Draft_Join/pl.md) |
-| [Draft Label/pl](Draft_Label/pl.md) | [Draft Layer/pl](Draft_Layer/pl.md) | [Draft LayerManager/pl](Draft_LayerManager/pl.md) |
-| [Draft Line/pl](Draft_Line/pl.md) | [Draft Mirror/pl](Draft_Mirror/pl.md) | [Draft Move/pl](Draft_Move/pl.md) |
-| [Draft OCA/pl](Draft_OCA/pl.md) | [Draft Offset/pl](Draft_Offset/pl.md) | [Draft OrthoArray/pl](Draft_OrthoArray/pl.md) |
-| [Draft PathArray/pl](Draft_PathArray/pl.md) | [Draft PathLinkArray/pl](Draft_PathLinkArray/pl.md) | [Draft Pattern/pl](Draft_Pattern/pl.md) |
-| [Draft Point/pl](Draft_Point/pl.md) | [Draft PointArray/pl](Draft_PointArray/pl.md) | [Draft PointLinkArray/pl](Draft_PointLinkArray/pl.md) |
-| [Draft PolarArray/pl](Draft_PolarArray/pl.md) | [Draft Polygon/pl](Draft_Polygon/pl.md) | [Draft Preferences/pl](Draft_Preferences/pl.md) |
-| [Draft Rectangle/pl](Draft_Rectangle/pl.md) | [Draft Rotate/pl](Draft_Rotate/pl.md) | [Draft Scale/pl](Draft_Scale/pl.md) |
-| [Draft SelectGroup/pl](Draft_SelectGroup/pl.md) | [Draft SelectPlane/pl](Draft_SelectPlane/pl.md) | [Draft SetStyle/pl](Draft_SetStyle/pl.md) |
-| [Draft Shape2DView/pl](Draft_Shape2DView/pl.md) | [Draft ShapeString tutorial/pl](Draft_ShapeString_tutorial/pl.md) | [Draft ShapeString/pl](Draft_ShapeString/pl.md) |
-| [Draft ShowSnapBar/pl](Draft_ShowSnapBar/pl.md) | [Draft Slope/pl](Draft_Slope/pl.md) | [Draft Snap Angle/pl](Draft_Snap_Angle/pl.md) |
-| [Draft Snap Center/pl](Draft_Snap_Center/pl.md) | [Draft Snap Dimensions/pl](Draft_Snap_Dimensions/pl.md) | [Draft Snap Endpoint/pl](Draft_Snap_Endpoint/pl.md) |
-| [Draft Snap Extension/pl](Draft_Snap_Extension/pl.md) | [Draft Snap Grid/pl](Draft_Snap_Grid/pl.md) | [Draft Snap Intersection/pl](Draft_Snap_Intersection/pl.md) |
-| [Draft Snap Lock/pl](Draft_Snap_Lock/pl.md) | [Draft Snap Midpoint/pl](Draft_Snap_Midpoint/pl.md) | [Draft Snap Near/pl](Draft_Snap_Near/pl.md) |
-| [Draft Snap Ortho/pl](Draft_Snap_Ortho/pl.md) | [Draft Snap Parallel/pl](Draft_Snap_Parallel/pl.md) | [Draft Snap Perpendicular/pl](Draft_Snap_Perpendicular/pl.md) |
-| [Draft Snap Special/pl](Draft_Snap_Special/pl.md) | [Draft snap widget/pl](Draft_snap_widget/pl.md) | [Draft Snap WorkingPlane/pl](Draft_Snap_WorkingPlane/pl.md) |
-| [Draft Snap/pl](Draft_Snap/pl.md) | [Draft Split/pl](Draft_Split/pl.md) | [Draft Stretch/pl](Draft_Stretch/pl.md) |
-| [Draft SubelementHighlight/pl](Draft_SubelementHighlight/pl.md) | [Draft SVG/pl](Draft_SVG/pl.md) | [Draft Text/pl](Draft_Text/pl.md) |
-| [Draft ToggleConstructionMode/pl](Draft_ToggleConstructionMode/pl.md) | [Draft ToggleContinueMode/pl](Draft_ToggleContinueMode/pl.md) | [Draft ToggleDisplayMode/pl](Draft_ToggleDisplayMode/pl.md) |
-| [Draft ToggleGrid/pl](Draft_ToggleGrid/pl.md) | [Draft Tray/pl](Draft_Tray/pl.md) | [Draft Trimex/pl](Draft_Trimex/pl.md) |
-| [Draft tutorial/pl](Draft_tutorial/pl.md) | [Draft Upgrade/pl](Draft_Upgrade/pl.md) | [Draft Wire/pl](Draft_Wire/pl.md) |
-| [Draft WireToBSpline/pl](Draft_WireToBSpline/pl.md) | [Draft Workbench/pl](Draft_Workbench/pl.md) | [Draft WorkingPlaneProxy/pl](Draft_WorkingPlaneProxy/pl.md) |
-| [Drawing Annotation/pl](Drawing_Annotation/pl.md) | [Drawing Clip/pl](Drawing_Clip/pl.md) | [Drawing Dimensioning Addon/pl](Drawing_Dimensioning_Addon/pl.md) |
-| [Drawing Landscape A3/pl](Drawing_Landscape_A3/pl.md) | [Drawing Open SVG/pl](Drawing_Open_SVG/pl.md) | [Drawing Openbrowser/pl](Drawing_Openbrowser/pl.md) |
-| [Drawing Orthoviews/pl](Drawing_Orthoviews/pl.md) | [Drawing ProjectShape/pl](Drawing_ProjectShape/pl.md) | [Drawing Save/pl](Drawing_Save/pl.md) |
-| [Drawing SpreadsheetView/pl](Drawing_SpreadsheetView/pl.md) | [Drawing Symbol/pl](Drawing_Symbol/pl.md) | [Drawing Template HowTo/pl](Drawing_Template_HowTo/pl.md) |
-| [Drawing templates/pl](Drawing_templates/pl.md) | [Drawing tutorial/pl](Drawing_tutorial/pl.md) | [Drawing View/pl](Drawing_View/pl.md) |
-| [Drawing Workbench/pl](Drawing_Workbench/pl.md) | [Drawing/pl](Drawing/pl.md) | [DXF/pl](DXF/pl.md) |
-| [DynamicData Workbench/pl](DynamicData_Workbench/pl.md) | [EM FHEquiv/pl](EM_FHEquiv/pl.md) | [EM FHInputFile/pl](EM_FHInputFile/pl.md) |
-| [EM FHNode/pl](EM_FHNode/pl.md) | [EM FHPath/pl](EM_FHPath/pl.md) | [EM FHPlane/pl](EM_FHPlane/pl.md) |
-| [EM FHPlaneAddRemoveNodeHole/pl](EM_FHPlaneAddRemoveNodeHole/pl.md) | [EM FHPlaneHole/pl](EM_FHPlaneHole/pl.md) | [EM FHPort/pl](EM_FHPort/pl.md) |
-| [EM FHSegment/pl](EM_FHSegment/pl.md) | [EM FHSolver/pl](EM_FHSolver/pl.md) | [EM Workbench/pl](EM_Workbench/pl.md) |
-| [Example Combined Footing/pl](Example_Combined_Footing/pl.md) | [Example Slab Having LShape Rebars Reinforcement Mesh/pl](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/pl.md) | [Example Slab Having Mesh Of Straight Rebars/pl](Example_Slab_Having_Mesh_Of_Straight_Rebars/pl.md) |
-| [Example Slab Having UShape Rebars Reinforcement Mesh/pl](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/pl.md) | [Example Slab Spanning in One Direction/pl](Example_Slab_Spanning_in_One_Direction/pl.md) | [Example Slab Spanning in Two Directions/pl](Example_Slab_Spanning_in_Two_Directions/pl.md) |
-| [ExplodedAssembly Workbench/pl](ExplodedAssembly_Workbench/pl.md) | [Export to STL or OBJ/pl](Export_to_STL_or_OBJ/pl.md) | [External workbenches/pl](External_workbenches/pl.md) |
-| [Extra python modules/pl](Extra_python_modules/pl.md) | [Fasteners BOM/pl](Fasteners_BOM/pl.md) | [Fasteners ChamferHole/pl](Fasteners_ChamferHole/pl.md) |
-| [Fasteners ChangeParameters/pl](Fasteners_ChangeParameters/pl.md) | [Fasteners Flip/pl](Fasteners_Flip/pl.md) | [Fasteners MatchTypeInner/pl](Fasteners_MatchTypeInner/pl.md) |
-| [Fasteners MatchTypeOuter/pl](Fasteners_MatchTypeOuter/pl.md) | [Fasteners Move/pl](Fasteners_Move/pl.md) | [Fasteners ScrewCalculator/pl](Fasteners_ScrewCalculator/pl.md) |
-| [Fasteners Shape/pl](Fasteners_Shape/pl.md) | [Fasteners Workbench/pl](Fasteners_Workbench/pl.md) | [FCGear BevelGear/pl](FCGear_BevelGear/pl.md) |
-| [FCGear CrownGear/pl](FCGear_CrownGear/pl.md) | [FCGear CycloidGear/pl](FCGear_CycloidGear/pl.md) | [FCGear CycloidRack/pl](FCGear_CycloidRack/pl.md) |
-| [FCGear GearConnector/pl](FCGear_GearConnector/pl.md) | [FCGear HypoCycloidGear/pl](FCGear_HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](FCGear_InternalInvoluteGear/pl.md) |
-| [FCGear InvoluteGear/pl](FCGear_InvoluteGear/pl.md) | [FCGear InvoluteRack/pl](FCGear_InvoluteRack/pl.md) | [FCGear LanternGear/pl](FCGear_LanternGear/pl.md) |
-| [FCGear TimingGear/pl](FCGear_TimingGear/pl.md) | [FCGear Workbench/pl](FCGear_Workbench/pl.md) | [FCGear WormGear/pl](FCGear_WormGear/pl.md) |
-| [Fcmcua Workbench/pl](Fcmcua_Workbench/pl.md) | [Feature editing/pl](Feature_editing/pl.md) | [Feature list/pl](Feature_list/pl.md) |
-| [Feature/pl](Feature/pl.md) | [FeaturePython Custom Properties/pl](FeaturePython_Custom_Properties/pl.md) | [FEM Analysis/pl](FEM_Analysis/pl.md) |
-| [FEM CalculiX Cantilever 3D/pl](FEM_CalculiX_Cantilever_3D/pl.md) | [FEM ClippingPlaneAdd/pl](FEM_ClippingPlaneAdd/pl.md) | [FEM ClippingPlaneRemoveAll/pl](FEM_ClippingPlaneRemoveAll/pl.md) |
-| [FEM CompEmConstraints/pl](FEM_CompEmConstraints/pl.md) | [FEM CompEmEquations/pl](FEM_CompEmEquations/pl.md) | [FEM CompMechEquations/pl](FEM_CompMechEquations/pl.md) |
-| [FEM Concrete/pl](FEM_Concrete/pl.md) | [FEM ConstantVacuumPermittivity/pl](FEM_ConstantVacuumPermittivity/pl.md) | [FEM ConstraintBearing/pl](FEM_ConstraintBearing/pl.md) |
-| [FEM ConstraintBodyHeatSource/pl](FEM_ConstraintBodyHeatSource/pl.md) | [FEM ConstraintCentrif/pl](FEM_ConstraintCentrif/pl.md) | [FEM ConstraintContact/pl](FEM_ConstraintContact/pl.md) |
-| [FEM ConstraintCurrentDensity/pl](FEM_ConstraintCurrentDensity/pl.md) | [FEM ConstraintDisplacement/pl](FEM_ConstraintDisplacement/pl.md) | [FEM ConstraintElectrostaticPotential/pl](FEM_ConstraintElectrostaticPotential/pl.md) |
-| [FEM ConstraintFixed/pl](FEM_ConstraintFixed/pl.md) | [FEM ConstraintFlowVelocity/pl](FEM_ConstraintFlowVelocity/pl.md) | [FEM ConstraintFluidBoundary/pl](FEM_ConstraintFluidBoundary/pl.md) |
-| [FEM ConstraintForce/pl](FEM_ConstraintForce/pl.md) | [FEM ConstraintGear/pl](FEM_ConstraintGear/pl.md) | [FEM ConstraintHeatflux/pl](FEM_ConstraintHeatflux/pl.md) |
-| [FEM ConstraintInitialFlowVelocity/pl](FEM_ConstraintInitialFlowVelocity/pl.md) | [FEM ConstraintInitialPressure/pl](FEM_ConstraintInitialPressure/pl.md) | [FEM ConstraintInitialTemperature/pl](FEM_ConstraintInitialTemperature/pl.md) |
-| [FEM ConstraintMagnetization/pl](FEM_ConstraintMagnetization/pl.md) | [FEM ConstraintPlaneRotation/pl](FEM_ConstraintPlaneRotation/pl.md) | [FEM ConstraintPressure/pl](FEM_ConstraintPressure/pl.md) |
-| [FEM ConstraintPulley/pl](FEM_ConstraintPulley/pl.md) | [FEM ConstraintSectionPrint/pl](FEM_ConstraintSectionPrint/pl.md) | [FEM ConstraintSelfWeight/pl](FEM_ConstraintSelfWeight/pl.md) |
-| [FEM ConstraintSpring/pl](FEM_ConstraintSpring/pl.md) | [FEM ConstraintTemperature/pl](FEM_ConstraintTemperature/pl.md) | [FEM ConstraintTie/pl](FEM_ConstraintTie/pl.md) |
-| [FEM ConstraintTransform/pl](FEM_ConstraintTransform/pl.md) | [FEM CreateNodesSet/pl](FEM_CreateNodesSet/pl.md) | [FEM Element Types/pl](FEM_Element_Types/pl.md) |
-| [FEM ElementFluid1D/pl](FEM_ElementFluid1D/pl.md) | [FEM ElementGeometry1D/pl](FEM_ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](FEM_ElementGeometry2D/pl.md) |
-| [FEM ElementRotation1D/pl](FEM_ElementRotation1D/pl.md) | [FEM EquationDeformation/pl](FEM_EquationDeformation/pl.md) | [FEM EquationElasticity/pl](FEM_EquationElasticity/pl.md) |
-| [FEM EquationElectricforce/pl](FEM_EquationElectricforce/pl.md) | [FEM EquationElectrostatic/pl](FEM_EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](FEM_EquationFlow/pl.md) |
-| [FEM EquationFlux/pl](FEM_EquationFlux/pl.md) | [FEM EquationHeat/pl](FEM_EquationHeat/pl.md) | [FEM EquationMagnetodynamic/pl](FEM_EquationMagnetodynamic/pl.md) |
-| [FEM EquationMagnetodynamic2D/pl](FEM_EquationMagnetodynamic2D/pl.md) | [FEM Example Capacitance Two Balls/pl](FEM_Example_Capacitance_Two_Balls/pl.md) | [FEM Examples/pl](FEM_Examples/pl.md) |
-| [FEM FemMesh2Mesh/pl](FEM_FemMesh2Mesh/pl.md) | [FEM FrontISTR Workbench/pl](FEM_FrontISTR_Workbench/pl.md) | [FEM Install/pl](FEM_Install/pl.md) |
+| [BOLTSFC Workbench/pl](BOLTSFC_Workbench/pl.md) | [Branding/pl](Branding/pl.md) | [CadQuery Workbench/pl](CadQuery_Workbench/pl.md) |
+| [Cfd Workbench/pl](Cfd_Workbench/pl.md) | [Civil Engineering Workbench/pl](Civil_Engineering_Workbench/pl.md) | [Combo view/pl](Combo_view/pl.md) |
+| [Common Airfoil Data Import/pl](Common_Airfoil_Data_Import/pl.md) | [Compile on Docker/pl](Compile_on_Docker/pl.md) | [Compile on Linux/pl](Compile_on_Linux/pl.md) |
+| [Compile on MacOS/pl](Compile_on_MacOS/pl.md) | [Compile on MinGW/pl](Compile_on_MinGW/pl.md) | [Compile on Windows/pl](Compile_on_Windows/pl.md) |
+| [Compiling (Speeding up)/pl](Compiling_(Speeding_up)/pl.md) | [Compiling/pl](Compiling/pl.md) | [Console API/pl](Console_API/pl.md) |
+| [Constraint/pl](Constraint/pl.md) | [Constructive solid geometry/pl](Constructive_solid_geometry/pl.md) | [Continuous Integration/pl](Continuous_Integration/pl.md) |
+| [Contributors/pl](Contributors/pl.md) | [Copying Objects/pl](Copying_Objects/pl.md) | [Creating a simple part with PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md) |
+| [Crowdin Administration/pl](Crowdin_Administration/pl.md) | [Crowdin Scripts/pl](Crowdin_Scripts/pl.md) | [CurvedShapes CurvedArray/pl](CurvedShapes_CurvedArray/pl.md) |
+| [CurvedShapes Workbench/pl](CurvedShapes_Workbench/pl.md) | [Curves CompressionSpring/pl](Curves_CompressionSpring/pl.md) | [Curves Discretize/pl](Curves_Discretize/pl.md) |
+| [Curves EditableSpline/pl](Curves_EditableSpline/pl.md) | [Curves ExtendCurve/pl](Curves_ExtendCurve/pl.md) | [Curves GordonSurface/pl](Curves_GordonSurface/pl.md) |
+| [Curves Interpolate/pl](Curves_Interpolate/pl.md) | [Curves IsoCurve/pl](Curves_IsoCurve/pl.md) | [Curves JoinCurve/pl](Curves_JoinCurve/pl.md) |
+| [Curves Line/pl](Curves_Line/pl.md) | [Curves MultiLoft/pl](Curves_MultiLoft/pl.md) | [Curves ParametricComb/pl](Curves_ParametricComb/pl.md) |
+| [Curves ParametricSolid/pl](Curves_ParametricSolid/pl.md) | [Curves PasteSVG/pl](Curves_PasteSVG/pl.md) | [Curves Pipeshell/pl](Curves_Pipeshell/pl.md) |
+| [Curves PipeshellProfile/pl](Curves_PipeshellProfile/pl.md) | [Curves ProfileSupport/pl](Curves_ProfileSupport/pl.md) | [Curves ReflectLines/pl](Curves_ReflectLines/pl.md) |
+| [Curves SegmentSurface/pl](Curves_SegmentSurface/pl.md) | [Curves SketchOnSurface/pl](Curves_SketchOnSurface/pl.md) | [Curves SplitCurve/pl](Curves_SplitCurve/pl.md) |
+| [Curves ToConsole/pl](Curves_ToConsole/pl.md) | [Curves Workbench/pl](Curves_Workbench/pl.md) | [Curves ZebraTool/pl](Curves_ZebraTool/pl.md) |
+| [Custom Spacing/pl](Custom_Spacing/pl.md) | [DAG view/pl](DAG_view/pl.md) | [Datum/pl](Datum/pl.md) |
+| [Debian development/pl](Debian_development/pl.md) | [Debian Unstable/pl](Debian_Unstable/pl.md) | [Defeaturing Workbench/pl](Defeaturing_Workbench/pl.md) |
+| [Defeaturing/pl](Defeaturing/pl.md) | [Developer hub/pl](Developer_hub/pl.md) | [Developing FreeCAD with GitKraken/pl](Developing_FreeCAD_with_GitKraken/pl.md) |
+| [Document structure/pl](Document_structure/pl.md) | [Donate/pl](Donate/pl.md) | [Download/pl](Download/pl.md) |
+| [Draft AddConstruction/pl](Draft_AddConstruction/pl.md) | [Draft AddNamedGroup/pl](Draft_AddNamedGroup/pl.md) | [Draft AddToGroup/pl](Draft_AddToGroup/pl.md) |
+| [Draft annotation scale widget/pl](Draft_annotation_scale_widget/pl.md) | [Draft AnnotationStyleEditor/pl](Draft_AnnotationStyleEditor/pl.md) | [Draft API/pl](Draft_API/pl.md) |
+| [Draft ApplyStyle/pl](Draft_ApplyStyle/pl.md) | [Draft Arc 3Points/pl](Draft_Arc_3Points/pl.md) | [Draft Arc/pl](Draft_Arc/pl.md) |
+| [Draft Array/pl](Draft_Array/pl.md) | [Draft AutoGroup/pl](Draft_AutoGroup/pl.md) | [Draft BezCurve/pl](Draft_BezCurve/pl.md) |
+| [Draft BSpline/pl](Draft_BSpline/pl.md) | [Draft Circle/pl](Draft_Circle/pl.md) | [Draft CircularArray/pl](Draft_CircularArray/pl.md) |
+| [Draft Clone/pl](Draft_Clone/pl.md) | [Draft Constrain/pl](Draft_Constrain/pl.md) | [Draft CubicBezCurve/pl](Draft_CubicBezCurve/pl.md) |
+| [Draft DAT/pl](Draft_DAT/pl.md) | [Draft Dimension/pl](Draft_Dimension/pl.md) | [Draft Downgrade/pl](Draft_Downgrade/pl.md) |
+| [Draft Draft2Sketch/pl](Draft_Draft2Sketch/pl.md) | [Draft Drawing/pl](Draft_Drawing/pl.md) | [Draft DXF/pl](Draft_DXF/pl.md) |
+| [Draft Edit/pl](Draft_Edit/pl.md) | [Draft Ellipse/pl](Draft_Ellipse/pl.md) | [Draft Facebinder/pl](Draft_Facebinder/pl.md) |
+| [Draft Fillet/pl](Draft_Fillet/pl.md) | [Draft FlipDimension/pl](Draft_FlipDimension/pl.md) | [Draft Hatch/pl](Draft_Hatch/pl.md) |
+| [Draft Heal/pl](Draft_Heal/pl.md) | [Draft Join/pl](Draft_Join/pl.md) | [Draft Label/pl](Draft_Label/pl.md) |
+| [Draft Layer/pl](Draft_Layer/pl.md) | [Draft LayerManager/pl](Draft_LayerManager/pl.md) | [Draft Line/pl](Draft_Line/pl.md) |
+| [Draft Mirror/pl](Draft_Mirror/pl.md) | [Draft Move/pl](Draft_Move/pl.md) | [Draft OCA/pl](Draft_OCA/pl.md) |
+| [Draft Offset/pl](Draft_Offset/pl.md) | [Draft OrthoArray/pl](Draft_OrthoArray/pl.md) | [Draft PathArray/pl](Draft_PathArray/pl.md) |
+| [Draft PathLinkArray/pl](Draft_PathLinkArray/pl.md) | [Draft Pattern/pl](Draft_Pattern/pl.md) | [Draft Point/pl](Draft_Point/pl.md) |
+| [Draft PointArray/pl](Draft_PointArray/pl.md) | [Draft PointLinkArray/pl](Draft_PointLinkArray/pl.md) | [Draft PolarArray/pl](Draft_PolarArray/pl.md) |
+| [Draft Polygon/pl](Draft_Polygon/pl.md) | [Draft Preferences/pl](Draft_Preferences/pl.md) | [Draft Rectangle/pl](Draft_Rectangle/pl.md) |
+| [Draft Rotate/pl](Draft_Rotate/pl.md) | [Draft Scale/pl](Draft_Scale/pl.md) | [Draft SelectGroup/pl](Draft_SelectGroup/pl.md) |
+| [Draft SelectPlane/pl](Draft_SelectPlane/pl.md) | [Draft SetStyle/pl](Draft_SetStyle/pl.md) | [Draft Shape2DView/pl](Draft_Shape2DView/pl.md) |
+| [Draft ShapeString tutorial/pl](Draft_ShapeString_tutorial/pl.md) | [Draft ShapeString/pl](Draft_ShapeString/pl.md) | [Draft ShowSnapBar/pl](Draft_ShowSnapBar/pl.md) |
+| [Draft Slope/pl](Draft_Slope/pl.md) | [Draft Snap Angle/pl](Draft_Snap_Angle/pl.md) | [Draft Snap Center/pl](Draft_Snap_Center/pl.md) |
+| [Draft Snap Dimensions/pl](Draft_Snap_Dimensions/pl.md) | [Draft Snap Endpoint/pl](Draft_Snap_Endpoint/pl.md) | [Draft Snap Extension/pl](Draft_Snap_Extension/pl.md) |
+| [Draft Snap Grid/pl](Draft_Snap_Grid/pl.md) | [Draft Snap Intersection/pl](Draft_Snap_Intersection/pl.md) | [Draft Snap Lock/pl](Draft_Snap_Lock/pl.md) |
+| [Draft Snap Midpoint/pl](Draft_Snap_Midpoint/pl.md) | [Draft Snap Near/pl](Draft_Snap_Near/pl.md) | [Draft Snap Ortho/pl](Draft_Snap_Ortho/pl.md) |
+| [Draft Snap Parallel/pl](Draft_Snap_Parallel/pl.md) | [Draft Snap Perpendicular/pl](Draft_Snap_Perpendicular/pl.md) | [Draft Snap Special/pl](Draft_Snap_Special/pl.md) |
+| [Draft snap widget/pl](Draft_snap_widget/pl.md) | [Draft Snap WorkingPlane/pl](Draft_Snap_WorkingPlane/pl.md) | [Draft Snap/pl](Draft_Snap/pl.md) |
+| [Draft Split/pl](Draft_Split/pl.md) | [Draft Stretch/pl](Draft_Stretch/pl.md) | [Draft SubelementHighlight/pl](Draft_SubelementHighlight/pl.md) |
+| [Draft SVG/pl](Draft_SVG/pl.md) | [Draft Text/pl](Draft_Text/pl.md) | [Draft ToggleConstructionMode/pl](Draft_ToggleConstructionMode/pl.md) |
+| [Draft ToggleContinueMode/pl](Draft_ToggleContinueMode/pl.md) | [Draft ToggleDisplayMode/pl](Draft_ToggleDisplayMode/pl.md) | [Draft ToggleGrid/pl](Draft_ToggleGrid/pl.md) |
+| [Draft Tray/pl](Draft_Tray/pl.md) | [Draft Trimex/pl](Draft_Trimex/pl.md) | [Draft tutorial/pl](Draft_tutorial/pl.md) |
+| [Draft Upgrade/pl](Draft_Upgrade/pl.md) | [Draft Wire/pl](Draft_Wire/pl.md) | [Draft WireToBSpline/pl](Draft_WireToBSpline/pl.md) |
+| [Draft Workbench/pl](Draft_Workbench/pl.md) | [Draft WorkingPlaneProxy/pl](Draft_WorkingPlaneProxy/pl.md) | [Drawing Annotation/pl](Drawing_Annotation/pl.md) |
+| [Drawing Clip/pl](Drawing_Clip/pl.md) | [Drawing Dimensioning Addon/pl](Drawing_Dimensioning_Addon/pl.md) | [Drawing Landscape A3/pl](Drawing_Landscape_A3/pl.md) |
+| [Drawing Open SVG/pl](Drawing_Open_SVG/pl.md) | [Drawing Openbrowser/pl](Drawing_Openbrowser/pl.md) | [Drawing Orthoviews/pl](Drawing_Orthoviews/pl.md) |
+| [Drawing ProjectShape/pl](Drawing_ProjectShape/pl.md) | [Drawing Save/pl](Drawing_Save/pl.md) | [Drawing SpreadsheetView/pl](Drawing_SpreadsheetView/pl.md) |
+| [Drawing Symbol/pl](Drawing_Symbol/pl.md) | [Drawing Template HowTo/pl](Drawing_Template_HowTo/pl.md) | [Drawing templates/pl](Drawing_templates/pl.md) |
+| [Drawing tutorial/pl](Drawing_tutorial/pl.md) | [Drawing View/pl](Drawing_View/pl.md) | [Drawing Workbench/pl](Drawing_Workbench/pl.md) |
+| [Drawing/pl](Drawing/pl.md) | [DXF/pl](DXF/pl.md) | [DynamicData Workbench/pl](DynamicData_Workbench/pl.md) |
+| [EM FHEquiv/pl](EM_FHEquiv/pl.md) | [EM FHInputFile/pl](EM_FHInputFile/pl.md) | [EM FHNode/pl](EM_FHNode/pl.md) |
+| [EM FHPath/pl](EM_FHPath/pl.md) | [EM FHPlane/pl](EM_FHPlane/pl.md) | [EM FHPlaneAddRemoveNodeHole/pl](EM_FHPlaneAddRemoveNodeHole/pl.md) |
+| [EM FHPlaneHole/pl](EM_FHPlaneHole/pl.md) | [EM FHPort/pl](EM_FHPort/pl.md) | [EM FHSegment/pl](EM_FHSegment/pl.md) |
+| [EM FHSolver/pl](EM_FHSolver/pl.md) | [EM Workbench/pl](EM_Workbench/pl.md) | [Example Combined Footing/pl](Example_Combined_Footing/pl.md) |
+| [Example Slab Having LShape Rebars Reinforcement Mesh/pl](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/pl.md) | [Example Slab Having Mesh Of Straight Rebars/pl](Example_Slab_Having_Mesh_Of_Straight_Rebars/pl.md) | [Example Slab Having UShape Rebars Reinforcement Mesh/pl](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/pl.md) |
+| [Example Slab Spanning in One Direction/pl](Example_Slab_Spanning_in_One_Direction/pl.md) | [Example Slab Spanning in Two Directions/pl](Example_Slab_Spanning_in_Two_Directions/pl.md) | [ExplodedAssembly Workbench/pl](ExplodedAssembly_Workbench/pl.md) |
+| [Export to STL or OBJ/pl](Export_to_STL_or_OBJ/pl.md) | [External workbenches/pl](External_workbenches/pl.md) | [Extra python modules/pl](Extra_python_modules/pl.md) |
+| [Fasteners BOM/pl](Fasteners_BOM/pl.md) | [Fasteners ChamferHole/pl](Fasteners_ChamferHole/pl.md) | [Fasteners ChangeParameters/pl](Fasteners_ChangeParameters/pl.md) |
+| [Fasteners Flip/pl](Fasteners_Flip/pl.md) | [Fasteners MatchTypeInner/pl](Fasteners_MatchTypeInner/pl.md) | [Fasteners MatchTypeOuter/pl](Fasteners_MatchTypeOuter/pl.md) |
+| [Fasteners Move/pl](Fasteners_Move/pl.md) | [Fasteners ScrewCalculator/pl](Fasteners_ScrewCalculator/pl.md) | [Fasteners Shape/pl](Fasteners_Shape/pl.md) |
+| [Fasteners Workbench/pl](Fasteners_Workbench/pl.md) | [FCGear BevelGear/pl](FCGear_BevelGear/pl.md) | [FCGear CrownGear/pl](FCGear_CrownGear/pl.md) |
+| [FCGear CycloidGear/pl](FCGear_CycloidGear/pl.md) | [FCGear CycloidRack/pl](FCGear_CycloidRack/pl.md) | [FCGear GearConnector/pl](FCGear_GearConnector/pl.md) |
+| [FCGear HypoCycloidGear/pl](FCGear_HypoCycloidGear/pl.md) | [FCGear InternalInvoluteGear/pl](FCGear_InternalInvoluteGear/pl.md) | [FCGear InvoluteGear/pl](FCGear_InvoluteGear/pl.md) |
+| [FCGear InvoluteRack/pl](FCGear_InvoluteRack/pl.md) | [FCGear LanternGear/pl](FCGear_LanternGear/pl.md) | [FCGear TimingGear/pl](FCGear_TimingGear/pl.md) |
+| [FCGear Workbench/pl](FCGear_Workbench/pl.md) | [FCGear WormGear/pl](FCGear_WormGear/pl.md) | [Fcmcua Workbench/pl](Fcmcua_Workbench/pl.md) |
+| [Feature editing/pl](Feature_editing/pl.md) | [Feature list/pl](Feature_list/pl.md) | [Feature/pl](Feature/pl.md) |
+| [FeaturePython Custom Properties/pl](FeaturePython_Custom_Properties/pl.md) | [FEM Analysis/pl](FEM_Analysis/pl.md) | [FEM CalculiX Cantilever 3D/pl](FEM_CalculiX_Cantilever_3D/pl.md) |
+| [FEM ClippingPlaneAdd/pl](FEM_ClippingPlaneAdd/pl.md) | [FEM ClippingPlaneRemoveAll/pl](FEM_ClippingPlaneRemoveAll/pl.md) | [FEM Concrete/pl](FEM_Concrete/pl.md) |
+| [FEM ConstantVacuumPermittivity/pl](FEM_ConstantVacuumPermittivity/pl.md) | [FEM ConstraintBearing/pl](FEM_ConstraintBearing/pl.md) | [FEM ConstraintBodyHeatSource/pl](FEM_ConstraintBodyHeatSource/pl.md) |
+| [FEM ConstraintCentrif/pl](FEM_ConstraintCentrif/pl.md) | [FEM ConstraintContact/pl](FEM_ConstraintContact/pl.md) | [FEM ConstraintCurrentDensity/pl](FEM_ConstraintCurrentDensity/pl.md) |
+| [FEM ConstraintDisplacement/pl](FEM_ConstraintDisplacement/pl.md) | [FEM ConstraintElectrostaticPotential/pl](FEM_ConstraintElectrostaticPotential/pl.md) | [FEM ConstraintFixed/pl](FEM_ConstraintFixed/pl.md) |
+| [FEM ConstraintFlowVelocity/pl](FEM_ConstraintFlowVelocity/pl.md) | [FEM ConstraintFluidBoundary/pl](FEM_ConstraintFluidBoundary/pl.md) | [FEM ConstraintForce/pl](FEM_ConstraintForce/pl.md) |
+| [FEM ConstraintGear/pl](FEM_ConstraintGear/pl.md) | [FEM ConstraintHeatflux/pl](FEM_ConstraintHeatflux/pl.md) | [FEM ConstraintInitialFlowVelocity/pl](FEM_ConstraintInitialFlowVelocity/pl.md) |
+| [FEM ConstraintInitialPressure/pl](FEM_ConstraintInitialPressure/pl.md) | [FEM ConstraintInitialTemperature/pl](FEM_ConstraintInitialTemperature/pl.md) | [FEM ConstraintMagnetization/pl](FEM_ConstraintMagnetization/pl.md) |
+| [FEM ConstraintPlaneRotation/pl](FEM_ConstraintPlaneRotation/pl.md) | [FEM ConstraintPressure/pl](FEM_ConstraintPressure/pl.md) | [FEM ConstraintPulley/pl](FEM_ConstraintPulley/pl.md) |
+| [FEM ConstraintSectionPrint/pl](FEM_ConstraintSectionPrint/pl.md) | [FEM ConstraintSelfWeight/pl](FEM_ConstraintSelfWeight/pl.md) | [FEM ConstraintSpring/pl](FEM_ConstraintSpring/pl.md) |
+| [FEM ConstraintTemperature/pl](FEM_ConstraintTemperature/pl.md) | [FEM ConstraintTie/pl](FEM_ConstraintTie/pl.md) | [FEM ConstraintTransform/pl](FEM_ConstraintTransform/pl.md) |
+| [FEM CreateNodesSet/pl](FEM_CreateNodesSet/pl.md) | [FEM Element Types/pl](FEM_Element_Types/pl.md) | [FEM ElementFluid1D/pl](FEM_ElementFluid1D/pl.md) |
+| [FEM ElementGeometry1D/pl](FEM_ElementGeometry1D/pl.md) | [FEM ElementGeometry2D/pl](FEM_ElementGeometry2D/pl.md) | [FEM ElementRotation1D/pl](FEM_ElementRotation1D/pl.md) |
+| [FEM EquationDeformation/pl](FEM_EquationDeformation/pl.md) | [FEM EquationElasticity/pl](FEM_EquationElasticity/pl.md) | [FEM EquationElectricforce/pl](FEM_EquationElectricforce/pl.md) |
+| [FEM EquationElectrostatic/pl](FEM_EquationElectrostatic/pl.md) | [FEM EquationFlow/pl](FEM_EquationFlow/pl.md) | [FEM EquationFlux/pl](FEM_EquationFlux/pl.md) |
+| [FEM EquationHeat/pl](FEM_EquationHeat/pl.md) | [FEM EquationMagnetodynamic/pl](FEM_EquationMagnetodynamic/pl.md) | [FEM EquationMagnetodynamic2D/pl](FEM_EquationMagnetodynamic2D/pl.md) |
+| [FEM Example Capacitance Two Balls/pl](FEM_Example_Capacitance_Two_Balls/pl.md) | [FEM Examples/pl](FEM_Examples/pl.md) | [FEM FemMesh2Mesh/pl](FEM_FemMesh2Mesh/pl.md) |
+| [FEM FrontISTR Workbench/pl](FEM_FrontISTR_Workbench/pl.md) | [FEM Geometry Preparation and Meshing/pl](FEM_Geometry_Preparation_and_Meshing/pl.md) | [FEM Install/pl](FEM_Install/pl.md) |
 | [FEM MaterialEditor/pl](FEM_MaterialEditor/pl.md) | [FEM MaterialFluid/pl](FEM_MaterialFluid/pl.md) | [FEM MaterialMechanicalNonlinear/pl](FEM_MaterialMechanicalNonlinear/pl.md) |
 | [FEM MaterialReinforced/pl](FEM_MaterialReinforced/pl.md) | [FEM MaterialSolid/pl](FEM_MaterialSolid/pl.md) | [FEM Mesh CalculiX/pl](FEM_Mesh_CalculiX/pl.md) |
 | [FEM Mesh/pl](FEM_Mesh/pl.md) | [FEM MeshBoundaryLayer/pl](FEM_MeshBoundaryLayer/pl.md) | [FEM MeshClear/pl](FEM_MeshClear/pl.md) |
 | [FEM MeshDisplayInfo/pl](FEM_MeshDisplayInfo/pl.md) | [FEM MeshGmshFromShape/pl](FEM_MeshGmshFromShape/pl.md) | [FEM MeshGroup/pl](FEM_MeshGroup/pl.md) |
 | [FEM MeshNetgenFromShape/pl](FEM_MeshNetgenFromShape/pl.md) | [FEM MeshRegion/pl](FEM_MeshRegion/pl.md) | [FEM PostApplyChanges/pl](FEM_PostApplyChanges/pl.md) |
-| [FEM PostCreateFunctionBox/pl](FEM_PostCreateFunctionBox/pl.md) | [FEM PostCreateFunctionCylinder/pl](FEM_PostCreateFunctionCylinder/pl.md) |
+| [FEM PostCreateFunctionBox/pl](FEM_PostCreateFunctionBox/pl.md) | [FEM PostCreateFunctionCylinder/pl](FEM_PostCreateFunctionCylinder/pl.md) | [FEM PostCreateFunctionPlane/pl](FEM_PostCreateFunctionPlane/pl.md) |
+| [FEM PostCreateFunctionSphere/pl](FEM_PostCreateFunctionSphere/pl.md) | [FEM PostFilterClipRegion/pl](FEM_PostFilterClipRegion/pl.md) |
 
 
 

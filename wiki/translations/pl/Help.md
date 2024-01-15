@@ -1,13 +1,19 @@
 # Help/pl
-## Forum
-
-Pierwszym miejscem, w którym możesz poprosić o pomoc, jest [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3). Przeczytaj [ten post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) przed zadaniem jakiegokolwiek pytania. Pamiętaj, że [ważne informacje](Important_information/pl.md) o twoim systemie są niezbędne, gdy prosisz o pomoc.
-
-Istnieją różne fora dla użytkowników i programistów FreeCAD. Upewnij się, że przeszukałeś Internet i przeczytałeś istniejące pytania, zanim poprosisz o pomoc. Istnieją różne fora, na których można omówić bardziej szczegółowe tematy, podzielić się wrażeniami z FreeCAD, omówić nowe pomysły itp. Fora są bardzo aktywne i powinieneś otrzymać odpowiedź bardzo szybko.
-
 ## Wiki
 
-Jeśli potrzebujesz pomocy lub masz pytania związane z konkretną stroną tej dokumentacji wiki, zawsze możesz zostawić pomysły lub komentarze w zakładce \"dyskusja\" na każdej stronie. Aby przesłać pliki do Wiki, użyj [tej strony](https://www.freecadweb.org/wiki/Special:Upload).
+Jeśli szukasz odpowiedzi w Wiki, szybko zauważysz, że jej funkcja wyszukiwania nie jest zbyt zaawansowana. Lepsze wyniki uzyskasz korzystając z wyszukiwarki internetowej. Wystarczy dodać {{Value|site:wiki.freecad.org}} do zapytania, aby ograniczyć wyszukiwanie do Wiki dla FreeCAD.
+
+
+
+### Najczęściej zadawane pytania 
+
+Odpowiedzi na niektóre z twoich pytań mogły już zostać udzielone na stronie [Najczęściej zadawane pytania](Frequently_asked_questions/pl.md).
+
+## Forum
+
+Innym miejscem, w którym można znaleźć pomoc, jest [forum FreeCAD](https://forum.freecad.org/viewforum.php?f=3). Przeczytaj [ten post](https://forum.freecad.org/viewtopic.php?f=3&t=2264) przed zadaniem jakiegokolwiek pytania. Pamiętaj, że [ważne informacje](Important_information/pl.md) o twoim systemie są niezbędne, gdy prosisz o pomoc.
+
+Istnieją różne fora dla użytkowników i programistów FreeCAD. Upewnij się, że przeszukałeś Internet i przeczytałeś istniejące pytania, zanim poprosisz o pomoc. Istnieją różne fora, na których można omówić bardziej szczegółowe tematy, podzielić się wrażeniami z FreeCAD, omówić nowe pomysły itp. Fora są bardzo aktywne i powinieneś otrzymać odpowiedź bardzo szybko.
 
 
 

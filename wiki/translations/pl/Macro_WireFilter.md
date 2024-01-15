@@ -4,8 +4,8 @@
 |Icon=Wirefilter.svg
 |Description=Filter wires from sketches, 2D offsets, scales, rearranges wire order
 |Author=TheMarkster
-|Version=0.2022.02.09
-|Date=2022-02-09
+|Version=0.2023.10.19
+|Date=2022-10-19
 |FCVersion=python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Wirefilter.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/wirefilter Full Documentation on Github]
@@ -29,7 +29,7 @@ Sometimes Pad cannot find the correct normal and the WireFilter is padded off in
 ## Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/e9d282440f8ae58817df8fad1c4995861c7cc949/wirefilter.FCMacro|wirefilter.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/28575fbb2042790d779bcd293c048a4123f4a771/wirefilter.FCMacro|wirefilter.FCMacro}}
 
 ToolBar Icon ![](images/Wirefilter.svg )
 

@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**표준 PDF로 내보내기(Std PrintPdf)** 명령은 주로 [기술 도면 작업대](TechDraw_Workbench/ko.md) 페이지로부터 [PDF](PDF/ko.md) 파일을 만들기 위한 것이지만 [3D 보기에](3D_view/ko.md) 현재 보이는 것이라면 무엇이든 PDF로 만들 수 있습니다.
+**표준 PDF로 내보내기(Std PrintPdf)** 명령은 주로 [기술 도면 작업대](TechDraw_Workbench/ko.md) 페이지로부터 [PDF](PDF/ko.md) 파일을 만들기 위한 것이지만 [3D 보기](3D_view/ko.md)에 현재 보이는 것이라면 무엇이든 PDF로 만들 수 있습니다.
 
 
 </div>
@@ -36,9 +36,9 @@
 
 ## 비고
 
--    **파일 → 내보내기 → Technical Drawing (*.svg *.dxf *.pdf)**메뉴 옵션을 이용하여 기술 도면 페이지로부터 PDF를 만들 수도 있습니다. 또는 [주 보기 영역에서](Main_view_area/ko.md) 기술 도면 페이지를 오른쪽 클릭하면 나오는 메뉴에서 **PDF로 내보내기**를 선택할 수도 있습니다.
+-    **파일 → 내보내기 → Technical Drawing (*.svg *.dxf *.pdf)**메뉴 옵션을 이용하여 기술 도면 페이지로부터 PDF를 만들 수도 있습니다. 또는 [주 보기 영역](Main_view_area/ko.md)에서 기술 도면 페이지를 오른쪽 클릭하면 나오는 메뉴에서 **PDF로 내보내기**를 선택할 수도 있습니다.
 
--   [3D 보기로부터](3D_view/ko.md) 만들어진 PDF 파일에는 비트맵 이미지 즉 스크린샷이 포함됩니다.
+-   [3D 보기](3D_view/ko.md)로부터 만들어진 PDF 파일에는 비트맵 이미지 즉 스크린샷이 포함됩니다.
 
 ## 환경 설정 
 

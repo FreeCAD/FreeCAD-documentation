@@ -19,6 +19,8 @@ Un autre type de classe est celui de [mesh](Mesh/fr.md). Cette classe n\'est pas
 
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `Part::TopoShape* est incorporée dans l'objet {{incode|Part::Feature` et à partir de là, elle est propagée à tous les objets qui en sont dérivés.}}
 
+
+
 ## Utilisation
 
 Part TopoShape est un objet attribué à certains [App DocumentObjects](App_DocumentObject/fr.md).
@@ -28,10 +30,12 @@ En particulier, l\'objet de base qui gère ces types d\'attributs est la classe 
 Certains des objets les plus importants avec Part TopoShape sont les suivants:
 
 -   Tout solide primitif créé avec l\'[Atelier Part](Part_Workbench/fr.md).
--   Tout [PartDesign Corps](PartDesign_Body/fr.md) et [PartDesign Feature](PartDesign_Feature/fr.md) créés avec l\'[Atelier Part](Part_Workbench/fr.md).
+-   Tout [PartDesign Corps](PartDesign_Body/fr.md) et [PartDesign Feature](PartDesign_Feature/fr.md) créés avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
 -   Tout objet dérivé de [Part Part2DObject](Part_Part2DObject/fr.md), comme la plupart des objets créés avec l\'[Atelier Draft](Draft_Workbench/fr.md).
 -   Toute [Esquisse](Sketch/fr.md), c\'est-à-dire [Sketcher SketchObject](Sketcher_SketchObject/fr.md), créé avec l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
 -   Tout objet créé en important un fichier STEP, BREP et des fichiers au format solide similaires.
+
+
 
 ## Script
 

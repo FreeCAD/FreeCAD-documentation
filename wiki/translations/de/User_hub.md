@@ -85,7 +85,7 @@ Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Ge
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> Der [Arbeitsbereich Spreadsheet](Spreadsheet_Workbench/de.md) zur Erstellung und Bearbeitung von Tabellenkalkulationsdaten.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der [ Arbeitsbereich Start](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der Arbeitsbereich [Start](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der [Arbeitsbereich Surface](Surface_Workbench/de.md) bietet Werkzeuge zum Erstellen und Ändern von Oberflächen. Er ist ähnlich wie die [Part Form Erbauer](Part_Builder/de.md) Fläche aus Kanten-Option.
 

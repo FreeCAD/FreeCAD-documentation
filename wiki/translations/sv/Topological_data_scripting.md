@@ -20,6 +20,8 @@ Here we will explain to you how to control the [Part](Part_Workbench.md) module 
 -   [OpenCASCADE](OpenCASCADE.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Klass Diagram 
@@ -31,7 +33,7 @@ Detta är en UML översikt över de viktigaste klasserna i Del modulen:
 
 </div>
 
-This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) {{Top}}
+This is a [Unified Modeling Language (UML)](http://en.wikipedia.org/wiki/Unified_Modeling_Language) overview of the most important classes of the Part module: ![Python classes of the Part module](images/Part_Classes.jpg ) 
 
 
 <div class="mw-translate-fuzzy">
@@ -60,6 +62,8 @@ The geometric objects are the building blocks of all topological objects:
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -97,6 +101,8 @@ The following topological data types are available:
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Exempel
@@ -124,6 +130,8 @@ Vi ska nu skapa en topologi genom att konstruera den utifrån enklare geometri. 
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -157,6 +165,8 @@ V4 = App.Vector(0, -10, 0)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -194,6 +204,8 @@ C2 = Part.Arc(V2, VC2, V3)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Linje
@@ -227,6 +239,8 @@ L2 = Part.LineSegment(V3, V4)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Sätta ihop allt 
@@ -245,6 +259,8 @@ S1 = Part.Shape([C1, L1, C2, L2])
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -276,6 +292,8 @@ Part.show(P)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -322,6 +340,8 @@ See the [Part API](Part_API.md) page for a complete list of available methods of
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Detaljerade förklaringar 
@@ -362,6 +382,8 @@ print(myVertex.Point)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -414,7 +436,7 @@ So far we created an edge object, but it doesn\'t appear anywhere on the screen.
 Part.show(edge)
 ```
 
-The show function creates an object in our FreeCAD document and assigns our \"edge\" shape to it. Use this whenever it is time to display your creation on screen. {{Top}}
+The show function creates an object in our FreeCAD document and assigns our \"edge\" shape to it. Use this whenever it is time to display your creation on screen. 
 
 
 <div class="mw-translate-fuzzy">
@@ -466,6 +488,8 @@ wire2.isClosed()
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur skapar man en yta? 
@@ -505,6 +529,8 @@ Endast ytor har en area, inte trådar eller kanter.
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -589,6 +615,8 @@ degrees = math.degrees(radians)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur skapar man en cirkelbåge längs punkter? 
@@ -634,7 +662,7 @@ circle = Part.Circle(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 10)
 arc = Part.Arc(circle,0,pi)
 ```
 
-Arcs are valid edges like lines, so they can be used in wires also. {{Top}}
+Arcs are valid edges like lines, so they can be used in wires also. 
 
 
 <div class="mw-translate-fuzzy">
@@ -673,6 +701,8 @@ def makeBCurveEdge(Points):
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -724,6 +754,8 @@ Notera: makePlane accepterar endast Base.Vector() för start_pnt och dir_normal 
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -831,6 +863,8 @@ För Ellipse konstruktören ovan så har vi gett center, MajorRadius och MinorRa
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur skapar man en Torus? 
@@ -893,6 +927,8 @@ Genom att ge vinkeln 180 så kommer en halvtorus att skapas
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur skapar man en låda eller en kub? 
@@ -915,6 +951,8 @@ len(box.Vertexes)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -944,6 +982,8 @@ hemisphere = Part.makeSphere(10, App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90, 
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur skapar men en Cylinder? 
@@ -965,6 +1005,8 @@ partCylinder = Part.makeCylinder(5, 20, App.Vector(20, 0, 0), App.Vector(0, 0, 1
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1069,12 +1111,16 @@ myShape=myShape.transformGeometry(myMat)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Booleska Operationer 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1101,6 +1147,8 @@ diff = cylinder.cut(sphere)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur får man det gemensamma mellan två former? 
@@ -1125,6 +1173,8 @@ common = cylinder1.common(cylinder2)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Hur förenar man två former? 
@@ -1147,6 +1197,8 @@ fuse = cylinder1.fuse(cylinder2)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1203,6 +1255,8 @@ cylinder = disc.extrude(App.Vector(0, 0, 2))
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utforska former 
@@ -1241,6 +1295,8 @@ Genom att skriva in ovanstående rader i python tolken, kommer du att få en god
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1287,6 +1343,8 @@ anEdge.normalAt(50)            # normal vector at that position (if defined)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1345,6 +1403,8 @@ print("Length of the selected edges: ", length)
 {{Top}}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### OCC flaskan 
@@ -1370,6 +1430,8 @@ Part.show(bottle)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1433,6 +1495,8 @@ Part.show(el)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -1664,6 +1728,8 @@ Part.show(cut_part)
 
 
 {{Top}}
+
+
 
 
 <div class="mw-translate-fuzzy">

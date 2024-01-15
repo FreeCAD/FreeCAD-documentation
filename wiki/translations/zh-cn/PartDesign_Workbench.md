@@ -8,7 +8,7 @@
 
 <div class="mw-translate-fuzzy">
 
-零件设计工作台提供了一些高级工具，基于[属性编辑方法](#Feature_Editing_Methodology.md)，来建模复杂实体零件。它主要用于创建机械零件，但是也不局限于机械件。它与[草图工作台复杂而紧密地联系在一起](Sketcher_Workbench.md)。
+零件设计工作台提供了一些高级工具，基于[属性编辑方法](#Feature_Editing_Methodology.md)，来建模复杂实体零件。它主要用于创建机械零件，但是也不局限于机械件。它与[草图工作台](Sketcher_Workbench.md)复杂而紧密地联系在一起。
 
 
 </div>

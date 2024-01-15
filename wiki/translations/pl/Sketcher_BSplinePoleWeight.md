@@ -2,9 +2,9 @@
  GuiCommand:
    Name: Sketcher BSplinePoleWeight
    Name/pl: Szkicownik: Pokaż / ukryj wagę punktu kontrolnego krzywej złożonej
-   MenuLocation: Szkic , Narzędzia szkicownika krzywej złożonej , Pokaż / ukryj wagę punktu kontrolnego krzywej złożonej
+   MenuLocation: Szkic , Wygląd w szkicowniku , Pokaż / ukryj wagę punktu kontrolnego krzywej złożonej
    Workbenches: Sketcher_Workbench/pl
-   Version: 0.19
+   Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/pl
 ---
 

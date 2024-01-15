@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md)** permet de créer un toit en pente à partir d\'un fil sélectionné. L\'objet Toiture créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque bord se voit attribuer un profil de toiture (pente, largeur, surplomb, épaisseur).
+L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Arch Toiture](Arch_Roof/fr.md)** permet de créer un toit en pente à partir d\'une polyligne sélectionnée. L\'objet Toiture créé est paramétrique et garde sa relation avec l\'objet de base. Le principe est que chaque arête se voit attribuer un profil de toiture (pente, largeur, surplomb, épaisseur).
 
 **Remarque :** cet outil est encore en développement et peut échouer avec des formes très complexes.
 
@@ -31,7 +31,7 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md
 
 3.  L\'objet Toiture par défaut a l\'air étrange car l\'outil manque de certaines informations nécessaires.
 
-4.  Après la création de la par défaut, double cliquez sur l\'objet dans la [vue par arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
+4.  Après la création de la par défaut, double cliquez sur l\'objet dans la [vue en arborescence](Tree_view/fr.md) pour accéder à son édition et ses propriétés. Les angles doivent être compris entre 0 et 90 degrés.
 
     :   ![](images/RoofTable.png )
 
@@ -52,23 +52,38 @@ L\'outil **<img src="images/Arch_Roof.svg" width=16px> [Toiture](Arch_Roof/fr.md
 
 ## Options
 
--   L\'objet Roof partage les propriétés communes et le comportement de tous les objet [Arch Composants](Arch_Component/fr.md)
+-   L\'objet Toiture partage les propriétés communes et le comportement de tous les [Arch Composants](Arch_Component/fr.md).
 
 
 
 ## Propriétés
 
--    **Angles**: liste les angles des pans de la toiture (un angle pour chaque pan) de la pente.
 
--    **Runs**: liste de la largeur du pan de la toiture (une pour chaque bord).
 
--    **IdRel**: liste des relations Id de l\'angle de pente du toit.
+### Données
 
--    **Thickness**: liste de l\'épaisseur du pan de la toiture. (Une épaisseur pour chaque bord).
 
--    **Overhang**: liste de la saillie du pan de la toiture (un surplomb pour chaque bord).
+{{TitleProperty|Roof}}
 
--    **Face**: indice de la face de l\'objet de base utilisée (pas vraiment utilisé).
+-    **Angles|FloatList**: liste des angles des segments de toit.
+
+-    **Border Length|Length**: longueur totale des bordures de la toiture.
+
+-    **Face|Integer**: numéro de la face de l\'objet de base utilisé pour construire le toit (non utilisé).
+
+-    **Flip|Bool**: indique si la direction du toit doit être inversée.
+
+-    **Heights|FloatList**: liste des hauteurs calculées des segments de toit.
+
+-    **Id Rel|IntegerList**: liste des identifiants des profils correspondants aux segments de toit.
+
+-    **Overhang|FloatList**: liste des porte-à-faux des segments de toit.
+
+-    **Ridge Length|Length**: longueur totale des crêtes et des arêtiers de la toiture.
+
+-    **Runs|FloatList**: liste des projections horizontales des segments de toit.
+
+-    **Thickness|FloatList**: liste des épaisseurs des segments de toit.
 
 
 

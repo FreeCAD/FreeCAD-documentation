@@ -1,122 +1,136 @@
 # App GeoFeature/pl
-## Introduction
+## Wprowadzenie
 
 <img alt="" src=images/Feature.svg  style="width:32px;">
 
-An [App GeoFeature](App_GeoFeature.md) object, or formally an `App::GeoFeature`, is the base class of most objects that will display geometrical elements in the [3D view](3D_view.md) because it includes a **Placement** property.
+Obiekt **App: Cechy geometrii**, lub formalnie `App::GeoFeature`, jest klasą bazową większości obiektów wyświetlających elementy geometryczne w oknie [widoku 3D](3D_view/pl.md), ponieważ zawiera właściwość **Umiejscowienie**.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
-*Simplified diagram of the relationships between the core objects in FreeCAD*
-
-## Usage
-
-The [App GeoFeature](App_GeoFeature.md) is an internal object, so it cannot be created from the graphical interface. It is generally not meant to be used directly, rather it can be sub-classed to get a bare-bones object that only has a basic **Placement** property to define its position in the [3D view](3D_view.md).
-
-Some of the most important derived objects are the following:
-
--   The [Part Feature](Part_Feature.md) class, the parent of most objects with 2D and 3D [topological shapes](Part_TopoShape.md).
--   The [Mesh Feature](Mesh_Feature.md) class, the parent of most objects made from [meshes](Mesh_MeshObject.md), not solids.
--   The [Fem FemMeshObject](FEM_Mesh.md) class, the parent of finite element meshes created with the [FEM Workbench](FEM_Workbench.md).
--   The [Path Feature](Path_Feature.md) class, the parent of paths created with the [Path Workbench](Path_Workbench.md) for use in CNC machining.
--   The [App Part](App_Part.md) class, which defines [Std Parts](Std_Part.md) that can be used as containers of bodies to perform assemblies.
-
-When creating this object in [Python](Python.md), instead of sub-classing `App::GeoFeature`, you should sub-class `App::GeometryPython` because the latter includes a default view provider, and `Proxy` attributes for the object itself, and its view provider. See [Scripting](App_GeoFeature#Scripting.md).
-
-## Properties App GeoFeature 
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-The [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties. In addition it has a **Placement** property, which controls its position in the [3D view](3D_view.md).
-
-## Properties App GeometryPython 
-
-See [Property](Property.md) for all property types that scripted objects can have.
-
-The [App GeometryPython](App_GeoFeature.md) (`App::GeometryPython` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class) and inherits all its properties. It also has several additional properties.
-
-These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](Property_editor.md).
-
-### Data
+*Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie FreeCAD.*
 
 
-{{TitleProperty|Base}}
 
--    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
+## Użycie
 
--    **Placement|Placement**: the position of the object in the [3D view](3D_view.md). The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
+App: Cechy geometrii jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego. Zasadniczo nie jest on przeznaczony do bezpośredniego użycia, a raczej może być podklasowany, aby uzyskać obiekt typu bare-bones, który ma tylko podstawową właściwość **Umiejscowienie** do zdefiniowania jego pozycji w oknie [Widoku 3D](3D_view/pl.md).
 
-    -   
-        **Angle**
-        
-        : the angle of rotation around the **Axis**. By default, it is {{value|0°}} (zero degrees).
+Niektóre z najważniejszych obiektów pochodnych są następujące:
 
-    -   
-        **Axis**
-        
-        : the unit vector that defines the axis of rotation for the placement. Each component is a floating point value between {{value|0}} and {{value|1}}. If any value is above {{value|1}}, the vector is normalized so that the magnitude of the vector is {{value|1}}. By default, it is the positive Z axis, {{value|(0, 0, 1)}}.
+-   Klasa [Część: Cecha](Part_Feature/pl.md), rodzic większości obiektów o kształtach [topologicznych](Part_TopoShape/pl.md) 2D i 3D.
+-   Klasa [Siatka: Cecha](Mesh_Feature/pl.md), rodzic większości obiektów wykonanych z [Siatka](Mesh_MeshObject/pl.md), a nie brył.
+-   Klasa [MES: FemMeshObject](FEM_Mesh/pl.md), rodzic siatek elementów skończonych utworzonych za pomocą [środowiska pracy MES](FEM_Workbench/pl.md).
+-   Klasa [CAM: Cecha](Path_Feature/pl.md), rodzic ścieżek utworzonych za pomocą [środowiska pracy Część](Path_Workbench/pl.md) do użytku w obróbce CNC.
+-   Klasa [App: Część](App_Part/pl.md), która definiuje [Std: Część](Std_Part/pl.md), które mogą być używane jako kontenery korpusów do wykonywania złożeń.
+
+Podczas tworzenia tego obiektu w środowisku [Python](Python/pl.md), zamiast klasy podrzędnej `App::GeoFeature`, należy utworzyć klasę podrzędną `App::GeometryPython`, ponieważ ta ostatnia zawiera domyślnego dostawcę widoku oraz atrybuty `Proxy` dla samego obiektu i jego dostawcy widoku. Zobacz także sekcję [tworzenie skryptów](App_GeoFeature/pl#Tworzenie_skryptów.md).
+
+
+
+## Właściwości App GeoFeature 
+
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
+
+App: Cechy geometrii *(klasa`App::GeoFeature`)* jest pochodną podstawowego obiektu [App DocumentObject](App_DocumentObject/pl.md) *(klasa `App::DocumentObject`)* i dziedziczy wszystkie jego właściwości. Dodatkowo posiada właściwość **Umiejscowienie**, która kontroluje jego pozycję w oknie [Widoku 3D](3D_view/pl.md).
+
+
+
+## Właściwości App GeometryPython 
+
+Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
+
+Obiekt **App: Cechy geometrii Python** *(klasa `App::GeometryPython`)* jest pochodną podstawowego obiektu [App: Cechy geometrii](App_GeoFeature/pl.md) *(klasa `App::GeoFeature`)* i dziedziczy wszystkie jego właściwości. Posiada również kilka dodatkowych właściwości.
+
+Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Proxy|PythonObject|Ukryte**: niestandardowa klasa powiązana z tym obiektem.
+
+-    **Umiejscowienie|Placement**: pozycja obiektu w [widoku 3D](3D_view/pl.md). Umiejscowienie jest definiowane przez punkt `Bazowy` *(wektor)* i `Obrót` *(oś i kąt)*. Zobacz informacje na stronie [Umiejscowienie](Placement/pl.md).
 
     -   
-        **Position**
+        **Kąt**
         
-        : a vector with the 3D coordinates of the base point. By default, it is the origin {{value|(0, 0, 0)}}.
+        : kąt obrotu wokół **Osi**. Domyślnie jest to {{value|0°}} *(zero stopni)*.
 
--    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
+    -   
+        **Oś**
+        
+        : wektor jednostkowy definiujący oś obrotu dla umiejscowienia. Każdy element jest wartością zmiennoprzecinkową pomiędzy {{value|0}} i {{value|1}}. Jeśli jakakolwiek wartość znajduje się powyżej {{value|1}}, wektor jest normalizowany tak, aby jego wielkość wynosiła {{value|1}}. Domyślnie jest to dodatnia oś Z, {{value|(0, 0, 1)}}.
 
--    **Label2|String|Hidden**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
+    -   
+        **Pozycja**
+        
+        : wektor ze współrzędnymi 3D punktu bazowego. Domyślnie jest to punkt odniesienia połażenia {{value|(0, 0, 0)}}.
 
--    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
+-    **Etykieta|String**: edytowalna przez użytkownika nazwa tego obiektu, jest to dowolny ciąg UTF8.
 
--    **Visibility|Bool|Hidden**: whether to display the object or not.
+-    **Etykieta2|String|Ukryte**: dłuższy, edytowalny przez użytkownika opis tego obiektu, jest to dowolny ciąg UTF8, który może zawierać nowe linie. Domyślnie jest to pusty ciąg {{value|""}}.
 
-### View
+-    **SilnikWyrażeń|Ukryte**: lista wyrażeń. Domyślnie jest pusta {{value|[]}}.
 
-
-{{TitleProperty|Base}}
-
--    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
-
-
-{{TitleProperty|Display Options}}
-
--    **Bounding Box|Bool**: if it is `True`, the object will show the bounding box in the [3D view](3D_view.md).
-
--    **Display Mode|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
-
--    **Show In Tree|Bool**: see the information in [App FeaturePython](App_FeaturePython.md).
-
--    **Visibility|Bool**: see the information in [App FeaturePython](App_FeaturePython.md).
+-    **Widoczność|Bool|Ukryte**: określa czy obiekt ma być wyświetlany czy nie.
 
 
-{{TitleProperty|Object Style}}
 
--    **Shape Color|Color**: a tuple of three floating point RGB values  light gray .
-
--    **Shape Material|Material|Hidden**: an [App Material](App_Material.md) associated with this object. By default it is empty.
-
--    **Transparency|Percent**: an integer from {{value|0}} to {{value|100}} that determines the level of transparency of the faces in the [3D view](3D_view.md). A value of {{value|100}} indicates completely invisible faces; the faces are invisible but they can still be picked as long as **Selectable** is `True`.
+### Widok
 
 
-{{TitleProperty|Selection}}
+{{TitleProperty|Baza}}
 
--    **On Top When Selected|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
-
--    **Selectable|Bool**: if it is `True`, the object can be picked with the pointer in the [3D view](3D_view.md). Otherwise, the object cannot be selected until this option is set to `True`.
-
--    **Selection Style|Enumeration**: see the information in [App FeaturePython](App_FeaturePython.md).
-
-## Scripting
+-    **Proxy|PythonObject|Ukryte**: niestandardowa klasa [dostawcy widoku](Viewprovider/pl.md) powiązana z tym obiektem.
 
 
-**See also:**
+{{TitleProperty|Opcje wyświetlania}}
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) and [scripted objects](Scripted_objects.md).
+.
 
-See [Part Feature](Part_Feature.md) for the general information on adding objects to the document.
+-    **Ramka otaczająca|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt wyświetli obwiednię w oknie [widoku 3D](3D_view/pl.md).
 
-A GeoFeature is created with the `addObject()` method of the document. If you would like to create an object with a 2D or 3D [topological shape](Part_TopoShape.md), it may be better to create one of the sub-classes specialized for handling shapes, for example [Part Feature](Part_Feature.md) or [Part Part2DObject](Part_Part2DObject.md).
+-    **Tryb wyświetlania|Enumeration**: zobacz informacje w [App: Właściwości Python](App_FeaturePython/pl.md).
+
+-    **Pokaż w drzewie|Bool**: zobacz informacje w [App: Właściwości Python](App_FeaturePython/pl.md).
+
+-    **Widoczność|Bool**: zobacz informacje w [App: Właściwości Python](App_FeaturePython/pl.md).
+
+
+{{TitleProperty|Styl obiektu}}
+
+-    **Kolor kształtu|Color**: krotka trzech zmiennoprzecinkowych wartości RGB  jasnoszary .
+
+-    **Materiał kształtu|Material|ukryte**: powiązany z tym obiektem [Materiał](App_Material/pl.md). Domyślnie włąściwość jest pusta.
+
+-    **Przeźroczystość|Percent**: wartość całkowita od {{value|0}} do {{value|100}}, która określa poziom przeźroczystości ścian w [widoku 3D](3D_view.md). Wartość {{value|100}} oznacza całkowicie niewidoczne ściany, ściany są niewidoczne, ale nadal można je wybrać, o ile właściwość **Wybieralny** ma wartość {{TRUE/pl}}.
+
+
+{{TitleProperty|Wybór}}
+
+-    **Na górze po wybraniu|Enumeration**: zobacz informacje na stronie [App: Właściwości Python](App_FeaturePython/pl.md).
+
+-    **Wybieralny|Bool**: jeśli ma wartość {{TRUE/pl}}, obiekt może zostać wybrany za pomocą kursora w oknie [widoku 3D](3D_view/pl.md). W przeciwnym razie obiekt nie może zostać wybrany, dopóki ta właściwość nie zostanie ustawiona na {{TRUE/pl}}.
+
+-    **Styl wyboru|Enumeration**: zobacz informacje na ten temat zawarte na stronie [App: Właściwości Python](App_FeaturePython/pl.md).
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Ogólne informacje na temat dodawania obiektów do dokumentu można znaleźć na stronie [Część: właściwość](Part_Feature/pl.md).
+
+Obiekt Cechy geometrii jest tworzony za pomocą metody `addObject()` dokumentu. Jeśli chcesz utworzyć obiekt o kształcie 2D lub 3D [kształt topologiczny](Part_TopoShape/pl.md), lepszym rozwiązaniem może być utworzenie jednej z klas podrzędnych wyspecjalizowanych do obsługi kształtów, na przykład [Część: Cecha](Part_Feature/pl.md) lub [Część: Część na obiekt 2D](Part_Part2DObject/pl.md).
 
 
 ```python
@@ -127,7 +141,7 @@ obj = App.ActiveDocument.addObject("App::GeoFeature", "Name")
 obj.Label = "Custom label"
 ```
 
-For [Python](Python.md) subclassing you should create the `App::GeometryPython` object.
+Dlatego też, dla klasy podrzędnej [Python](Python/pl.md), powinieneś stworzyć obiekt `App::GeometryPython`.
 
 
 ```python

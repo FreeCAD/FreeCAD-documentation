@@ -14,6 +14,8 @@
 
 La commande *\'Std Fermer*\' ferme la fenêtre active. Pour fermer un document, toutes ses fenêtres doivent être fermées.
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
@@ -28,14 +30,20 @@ La commande *\'Std Fermer*\' ferme la fenêtre active. Pour fermer un document, 
 
 -   Lorsque la boîte de dialogue s\'affiche: appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
 
+
+
 ## Remarques
 
--   La commande ne peut fermer que les fenêtres [dockée](Std_ViewDockUndockFullscreen/fr.md).
--   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](tree_view/fr.md) et en sélectionnant **Fermer le document** dans le menu contextuel.
+-   La commande ne peut fermer que les fenêtres [ancrées](Std_ViewDockUndockFullscreen/fr.md).
+-   Un document peut également être fermé en cliquant dessus avec le bouton droit de la souris dans la [vue en arborescence](Tree_view/fr.md) et en sélectionnant **Fermer le document** dans le menu contextuel.
+
+
 
 ## Préférences
 
 -   Le dernier emplacement de fichier utilisé est stocké: **Outils → Editer les paramètres... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Script
 

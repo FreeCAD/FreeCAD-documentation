@@ -8,10 +8,11 @@
 
 FreeCAD adalah benar - benar aplikasi yang multi-platform, dikembangkan dengan kerangka (framework) [Qt](http://en.wikipedia.org/wiki/Qt_(framework)) yang terkenal di dunia. Yang berarti bahwa FreeCAD terlihat dan beraksi sama di sistem windows, Linux maupun Mac. Akan tetapi, prosedur penginstalasianya sedikit berbeda untuk masing - masing sistem. Untuk lebih jelasnya tentang bagaimana cara instalasinya, pilih Sistem Operasi di bawah.
 
-    
-   ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
-                             [Install on Windows](Install_on_Windows.md)                                                     [ Install on Linux](Install_on_Linux.md)                                              [Install on Mac](Install_on_Mac.md)
-    
++::+::+::+
+| ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png ) | ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png ) | ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png ) |
+++++
+| [Install on Windows](Install_on_Windows.md)                                                      | [ Install on Linux](Install_on_Linux.md)                                               | [Install on Mac](Install_on_Mac.md)                                          |
+++++
 
 
 </div>
@@ -98,7 +99,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 

@@ -61,4 +61,4 @@ Randează proiectul selectat folosind un renderer extern.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Render/ro
+⏵ [documentation index](../README.md) > Raytracing Render/ro

@@ -1,13 +1,19 @@
 # Help/it
-## Forum
-
-Il primo posto in cui è possibile chiedere aiuto è il [Forum di FreeCAD](https://forum.freecadweb.org/viewforum.php?f=3) (leggere [questo post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) prima di porre delle domande). Quando si chiede un aiuto, ricordarsi che è necessario fornire le [informazioni importanti](Important_information/it.md) sul proprio sistema.
-
-Esistono diversi forum secondari per utenti e sviluppatori di FreeCAD. Assicurarsi di cercare in Internet e di leggere le domande esistenti prima di chiedere aiuto. Ci sono sottoforum in cui è possibile discutere argomenti più specifici, dare le proprie impressioni su FreeCAD, discutere nuove idee, ecc. I forum sono molto attivi e si dovrebbe ricevere una risposta molto velocemente.
-
 ## Wiki
 
-Se serve un aiuto o si hanno domande relative a una determinata pagina di questa documentazione wiki, si può sempre lasciare le proprie idee o commenti nella scheda \"discussione\" di ogni pagina. Per caricare un file per il Wiki, utilizzare [questa pagina](https://www.freecadweb.org/wiki/Special:Upload).
+Se state cercando risposte nel Wiki noterete presto che la sua funzione di ricerca non è molto sofisticata. Si ottengono risultati migliori utilizzando un motore di ricerca Internet. Basta aggiungere {{Value|site:wiki.freecad.org}} alla propria richiesta per limitare la ricerca al Wiki di FreeCAD.
+
+## FAQ
+
+Ad alcune delle vostre domande potrebbe già essere stata data risposta nella pagina [FAQ](Frequently_asked_questions.md).
+
+
+
+## Forum
+
+Un altro posto dove trovare aiuto è il [Forum di FreeCAD](https://forum.freecad.org/viewforum.php?f=3) (leggere [questo post](https://forum.freecad.org/viewtopic.php?f=3&t=2264) prima di porre delle domande). Quando si chiede un aiuto, ricordarsi che è necessario fornire le [informazioni importanti](Important_information/it.md) sul proprio sistema.
+
+Esistono diversi forum secondari per utenti e sviluppatori di FreeCAD. Assicurarsi di cercare in Internet e di leggere le domande esistenti prima di chiedere aiuto. Ci sono sottoforum in cui è possibile discutere argomenti più specifici, dare le proprie impressioni su FreeCAD, discutere nuove idee, ecc. I forum sono molto attivi e si dovrebbe ricevere una risposta molto velocemente.
 
 ## Internet Relay Chat (IRC) 
 

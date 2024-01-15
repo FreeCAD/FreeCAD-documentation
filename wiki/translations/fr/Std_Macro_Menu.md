@@ -35,9 +35,7 @@ Le menu des macro fournit des outils pour enregistrer et executer des [macros](M
 
 Les outils suivants sont disponibles dans ce menu :
 
--   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Enregistrement d\'une macro](Std_DlgMacroRecord/fr.md) : ouvre une boîte de dialogue pour démarrer une session d\'enregistrement de macro.
-
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Arrêter l\'enregistrement de la macro](Std_MacroStopRecord/fr.md): arrête l\'enregistrement de la macro en cours.
+-   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Enregistrer une macro](Std_DlgMacroRecord/fr.md) : ouvre une boîte de dialogue pour démarrer une session d\'enregistrement de macro.
 
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macros\...](Std_DlgMacroExecute/fr.md) : ouvre une boîte de dialogue pour gérer et exécuter des macros.
 
@@ -56,6 +54,12 @@ Les outils suivants sont disponibles dans ce menu :
 -   [Rentrer dedans](Std_MacroStepInto/fr.md) : rentrer dans le code.
 
 -   [Basculer le point d\'arrêt](Std_ToggleBreakpoint/fr.md) : permet de basculer un point d\'arrêt.
+
+
+
+## Outils obsolètes 
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Arrêt enregistrement macro](Std_MacroStopRecord/fr.md): arrête l\'enregistrement de la macro en cours. Intégré dans [Std Enregistrer une macro](Std_DlgMacroRecord/fr.md). Non disponible dans la {{VersionPlus/fr|0.22}}.
 
 
 

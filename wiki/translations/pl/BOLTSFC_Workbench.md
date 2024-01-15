@@ -1,72 +1,88 @@
 # BOLTSFC Workbench/pl
-} <img alt="The FreeCAD BOLTS External Workbench Icon" src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
-
-## Introduction
+} <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy BOLTS." src=images/BOLTSFC_workbench_icon.svg  style="width:128px;">
 
 
 
+## Wprowadzenie
 
-BOLTS is an Open Library for Technical Specifications.
 
-## References
 
--   Author: jreinhardt Johannes Reinhardt
--   Maintainer: \@bernd
--   Home page: [BOLTS](https://boltsparts.github.io)
--   Source code on github: <https://github.com/boltsparts/BOLTSFC>
 
-## Tools
+BOLTS to otwarta biblioteka specyfikacji technicznych.
 
-Detailed description [here](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
 
-Standard Parts Selector
+
+## Bibliografia
+
+-   Autor: jreinhardt Johannes Reinhardt
+-   Opiekun: \@bernd
+-   Strona główna: [BOLTS](https://boltsparts.github.io)
+-   Kod źródłowy w serwisie GitHub: <https://github.com/boltsparts/BOLTSFC>
+
+
+
+## Przybory
+
+Szczegółowy opis [tutaj](http://www.bolts-library.org/en/docs/0.3/freecad/usage.html)
+
+Wybór części standardowych:
 
 ![](images/BOLTS-selector.png )
 
-## Installation
 
-### Automatic installation 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
+## Instalacja
 
-### From GitHub 
 
-How to [here](https://github.com/boltsparts/BOLTSFC#readme)
 
-## Prerequisites
+### Instalacja automatyczna 
 
-To use BOLTS for FreeCAD
+To środowisko pracy można zainstalować za pomocą [Menadżera dodatków](Std_AddonMgr/pl.md).
 
--   FreeCAD (http://freecadweb.org/)
+
+
+### Z repozytorium GitHub 
+
+Opis instalacji znajduje się w [serwisie GitHub](https://github.com/boltsparts/BOLTSFC#readme)
+
+
+
+## Wymagania wstępne 
+
+Aby korzystać z BOLTS dla FreeCAD wymagane są:
+
+-   FreeCAD *(http://freecadweb.org/)*
 -   python 3.x
--   pyyaml (http://pyyaml.org/)
--   importlib (https://pypi.python.org/pypi/importlib/1.0.2) (only for python 2.6)
+-   pyyaml *(http://pyyaml.org/)*
+-   importlib *(https://pypi.python.org/pypi/importlib/1.0.2)* *(tylko dla python 2.6)*.
 
-is required.
+**Instrukcja instalacji dla systemu Linux** *(z GitHub)*
 
-**Linux Installation Instructions** (From GitHub)
+**Instrukcja instalacji dla systemu Windows** *(z GitHub)*
 
-**Windows Installation Instructions** (From GitHub)
+**Instrukcja instalacji dla systemu MacOS** *(z GitHub)*
 
-**Mac Installation Instructions** (From GitHub)
 
-## Links to BOLTS workbench 
 
--   Workbench Wiki: <http://www.bolts-library.org/en/docs/0.3/index.html>
--   FreeCAD Wiki:
--   FreeCAD Forum: [4549](http://forum.freecadweb.org/viewtopic.php?f=8&t=4549)
--   Tutorials: <http://www.bolts-library.org/en/docs/0.3/freecad/usage.html>
--   Videos:
--   Files:
--   Parts list, Author and Standardisation bodies: [Parts list](http://www.bolts-library.org/en/parts/index.html)
--   Report bugs: Please report bugs at <https://github.com/jreinhardt/BOLTS/issues>
+## Linki do środowiska pracy BOLTS 
 
-## Related
+-   Wiki środowiska pracy: <http://www.bolts-library.org/en/docs/0.3/index.html>
+-   Wiki FreeCAD:
+-   Forum FreeCAD: [4549](http://forum.freecadweb.org/viewtopic.php?f=8&t=4549)
+-   Poradniki: <http://www.bolts-library.org/en/docs/0.3/freecad/usage.html>
+-   Filmy:
+-   Pliki:
+-   Lista części, autor i organy normalizacyjne: [Lista części](http://www.bolts-library.org/en/parts/index.html)
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na stronie <https://github.com/jreinhardt/BOLTS/issues>
 
--   [Parts Library Workbench](Parts_Library_Workbench.md)
--   [Fasteners Workbench](Fasteners_Workbench.md)
--   [External workbenches](External_workbenches.md)
--   [Macros recipes](Macros_recipes.md)
+
+
+## Powiązane
+
+-   [Środowisko pracy biblioteka podzespołów](Parts_Library_Workbench/pl.md)
+-   [Środowisko pracy Elementy złączne](Fasteners_Workbench/pl.md)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Przepisy na makropolecenia](Macros_recipes/pl.md)
 
 
 

@@ -1,9 +1,9 @@
 # Manual:Traditional modeling, the CSG way/zh-cn
-{{Manual:TOC/zh-cn}}
+{{Manual:TOC}}
 
 CSG 代表[Constructive_solid_geometry_构造实体几何](https://en.wikipedia.org/wiki/Constructive_solid_geometry)，描述了处理实体 3D 几何的最基本方法，即通过使用布尔运算（如并集、差集或交集）向/从实体中添加和删除一块来创建复杂对象。
 
-正如我们在本手册中早些时候看到的那样，FreeCAD 可以处理许多类型的几何图形，但对于我们想要使用FreeCAD 设计的那种 3D 物体（即现实世界的物体），首选和最有用的类型无疑是实体 [BREP](https://en.wikipedia.org/wiki/Boundary_representation) 几何图形，主要由[Part 工作台处理](Part_Workbench.md)。与[多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)不同，BREP 对象的面由数学曲线定义，这实现了在任何尺度下的绝对精度。
+正如我们在本手册中早些时候看到的那样，FreeCAD 可以处理许多类型的几何图形，但对于我们想要使用FreeCAD 设计的那种 3D 物体（即现实世界的物体），首选和最有用的类型无疑是实体 [BREP](https://en.wikipedia.org/wiki/Boundary_representation) 几何图形，主要由[Part 工作台](Part_Workbench.md)处理。与[多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)不同，BREP 对象的面由数学曲线定义，这实现了在任何尺度下的绝对精度。
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -88,7 +88,7 @@ FreeCAD 的另一个特点是，3D 对象的概念和 3D 操作的概念往往�
 
 现在我们的五个零件都完成了，是一个好时机给它们取比"Cut015"更恰当的名称。通过在树形视图中右键单击对象（或按下"F2"键），您可以将它们重命名为对您自己或稍后打开文件的其他人更有意义的名称。人们常说，为对象命名比建模的方式还重要。
 
--   我们现在将安装一些螺丝。FreeCAD 社区的一位成员开发了一个非常有用的插件，名为"Fasteners"，您可以在[FreeCAD 插件](https://github.com/FreeCAD/FreeCAD-addons)仓库中找到它。它能够使螺丝的插入变得非常容易。安装附加的工作台很容易，可以在[插件页面上找到说明](Std_AddonMgr.md)。
+-   我们现在将安装一些螺丝。FreeCAD 社区的一位成员开发了一个非常有用的插件，名为"Fasteners"，您可以在[FreeCAD 插件](https://github.com/FreeCAD/FreeCAD-addons)仓库中找到它。它能够使螺丝的插入变得非常容易。安装附加的工作台很容易，可以在[插件页面](Std_AddonMgr.md)上找到说明。
 
 -   安装完"Fasteners"工作台并重新启动 FreeCAD 后，它将出现在工作台列表中，我们可以切换到它。将螺丝添加到我们的孔中是通过首先选择我们孔的圆形边缘来完成的：
 

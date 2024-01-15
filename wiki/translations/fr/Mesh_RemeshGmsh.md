@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Mesh RemeshGmsh
-   Name/fr: Mesh Affiner
-   MenuLocation: Maillages , Affiner...
+   Name/fr: Mesh Remailler avec Gmsh
+   MenuLocation: Maillages , Remailler...
    Workbenches: Mesh_Workbench/fr
    Version: 0.19
    SeeAlso: Mesh_FromPartShape/fr
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Affiner** remaille un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
+La commande **Remailler avec Gmsh** remaille un objet maillé en utilisant le mailleur [Gmsh](https://gmsh.info/). Le nouveau maillage peut être plus fin ou plus grossier.
 
 
 
@@ -20,9 +20,9 @@ La commande **Affiner** remaille un objet maillé en utilisant le mailleur [Gmsh
 
 1.  Sélectionnez un seul objet maillé.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Affiner...](Mesh_RemeshGmsh/fr.md)
+    -   Appuyez sur le bouton **<img src="images/Mesh_RemeshGmsh.svg" width=16px> [Remailler...](Mesh_RemeshGmsh/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Affiner...** du menu.
+    -   Sélectionnez l\'option **Maillages → <img src="images/Mesh_RemeshGmsh.svg" width=16px> Remailler...** du menu.
 3.  Le panneau des tâches **Remaillage par Gmsh** s\'ouvre.
 4.  Spécifiez les paramètres requis. Voir la [configuration du mailleur Gmsh](Mesh_FromPartShape/fr#Mailleur_Gmsh.md) de la commande [Mesh Créer un maillage](Mesh_FromPartShape/fr.md).
 5.  Appuyez sur le bouton **Appliquer** pour remailler l\'objet maillé.

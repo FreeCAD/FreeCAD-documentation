@@ -10,11 +10,11 @@
 
 ## 简介
 
-建筑工作台在Freecad中提供了一个现代[建筑信息建模技术](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) 工作流，它支持特征参数建筑实体，如墙壁，结构元件，屋顶，窗户，楼梯，管道和家具等功能。它支持[建筑业国际工业标准](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据, 同时可以结合[技术制图工作台生成平面图](TechDraw_Workbench.md)。
+建筑工作台在Freecad中提供了一个现代[建筑信息建模技术](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) 工作流，它支持特征参数建筑实体，如墙壁，结构元件，屋顶，窗户，楼梯，管道和家具等功能。它支持[建筑业国际工业标准](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) 数据, 同时可以结合[技术制图工作台](TechDraw_Workbench.md)生成平面图。
 
 The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md) provides a modern [**B**uilding **I**nformation **M**odelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) workflow to FreeCAD, with support for features like fully parametric architectural entities such as walls, beams, roofs, windows, stairs, pipes, and furniture. It supports [**I**ndustry **F**oundation **C**lasses](Arch_IFC.md) (IFC) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
-建筑工作台导入来自[草图工作台的所有工具](Draft_Workbench.md)，因为它使用2D对象来构建其建筑对象。然而，建筑工作台还可以使用其他如[零件工作台和](Part_Workbench.md)[零件设计工作台的其他工作台上创建的实体对象](PartDesign_Workbench.md)。
+建筑工作台导入来自[草图工作台](Draft_Workbench.md)的所有工具，因为它使用2D对象来构建其建筑对象。然而，建筑工作台还可以使用其他如[零件工作台](Part_Workbench.md)和[零件设计工作台](PartDesign_Workbench.md)的其他工作台上创建的实体对象。
 
 FreeCAD的[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)功能在逐步融入具有所有基础BIM工具和[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)插件的建筑工作台。你可以通过工具→插件管理器, 在建筑工具之上添加一个新的界面层，其目的是使得Freecad中的BIM工作流更加直观和用户友好。
 
@@ -126,8 +126,6 @@ These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -163,6 +161,10 @@ These are additional tools to help you in specific tasks.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 ### Preferences
 

@@ -5,7 +5,26 @@
 
 </div>
 
-## Overview
+## Description
+
+The <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) command creates a face, a shell, or a solid shape from two or more profiles (cross-sections).
+
+<img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
+*Loft from three profiles which are two [Part Circles](Part_Circle.md) and one [Part Ellipse](Part_Ellipse.md). Parameters are Solid "True" and Ruled "True".*
+
+## Usage
+
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Part_Loft.svg" width=16px> [Loft...](Part_Loft.md)** button.
+    -   Select the **Part → <img src="images/Part_Loft.svg" width=16px> Loft...** option from the menu.
+2.  The Loft [task panel](Task_panel.md) opens.
+3.  In the *Available Profiles* list on the left select the first profile and click on the right arrow to place it in the *Selected profiles* list on the right.
+4.  Repeat for the second profile and again if more than two profiles are desired.
+5.  Optionally use the up and down arrows to reorder the selected profiles.
+6.  Define options [Create solid](#Data.md), [Ruled surface](#Data.md), and [Closed](#Data.md).
+7.  Click **OK**.
+
+### Accepted geometry 
 
 
 <div class="mw-translate-fuzzy">
@@ -17,13 +36,11 @@ Lo strumento Loft di FreeCAD (dell\'ambiente Parte), viene utilizzato per creare
 
 </div>
 
+-   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles. <small>(v0.20)</small> 
 
-<div class="mw-translate-fuzzy">
+## Options
 
-Loft dispone di tre parametri, \"Ruled\", \"Solid\" e \"Closed\" ciascuno con il valore di \"vero\" o \"falso\".
-
-
-</div>
+#### Create solid 
 
 
 <div class="mw-translate-fuzzy">
@@ -33,6 +50,8 @@ Se \"Solid\" è \"true\" FreeCAD crea un solido se i profili sono una geometria 
 
 </div>
 
+#### Ruled surface 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -41,7 +60,15 @@ Se \"Ruled\" è \"true\" FreeCAD crea una faccia, oppure delle facce o un solido
 
 </div>
 
+#### Closed
+
+
+<div class="mw-translate-fuzzy">
+
 Se \"Closed\" è \"true\" FreeCAD tenta di collegare l\'ultimo profilo al primo profilo per creare una figura chiusa.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -51,175 +78,38 @@ Per ulteriori informazioni su come sono uniti i profili, fare riferimento alla p
 
 </div>
 
+## Properties
 
-<div class="mw-translate-fuzzy">
+See also: [Property editor](Property_editor.md).
 
-![centre\|Part_Loft. Da tre profili di cui due sono Part_Circles e uno è Part_Ellipse. I parametri sono Solid \"True\" e Ruled \"True\"](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+A Part Loft object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-
-</div>
-
-## Notes
-
--   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
-
-## Limitations and complications 
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Loft}}
 
-## Limitazioni e complicazioni 
+-    **Sections|LinkList**: lists the sections used.
 
--   Un vertice o un punto
-    -   vertice o punto possono essere utilizzati solo come primo e/o ultimo profilo nella lista dei profili.
-        -   Per esempio
-            -   non si può realizzare un Loft da un cerchio ad un punto,e poi ad una ellisse.
-            -   Tuttavia si può realizzare un Loft da un punto a un cerchio a un\'ellisse a un altro punto.
--   Profili geometrici aperti o chiusi non possono essere mischiati in un unico Loft
-    -   In un Loft, tutti i profili usati (wire, linee ecc) devono essere dello stesso tipo, aperto o chiuso.
-        -   Per esempio
-            -   FreeCAD non può creare un Loft tra un cerchio di Parte e una linea di default di Parte.
--   Funzioni di Draft
-    -   Le funzioni di Draft possono essere utilizzate direttamente come profilo in FreeCAD 0.14 o versioni successive.
-        -   Ad esempio, le seguent funzioni di Draft possono essere utilizzate come profili in un Loft di Part
-            -   Poligono.
-            -   Punto, Linea, Wire (polilinea)
-            -   B-spline, Curva di Bezier
-            -   Cerchio, Ellisse, Rettangolo
--   Schizzi e PartDesign
-    -   Il profilo può essere creato con uno schizzo. Tuttavia solo gli schizzi validi verranno visualizzati nell\'elenco di quelli disponibili per la selezione.
-    -   Lo schizzo deve contenere un solo wire o linea aperta o chiusa (può essere composto da più segmenti, in quanto se questi segmenti sono tutti collegati costituiscono un unico wire)
--   Part
-    -   il profilo può essere una primitiva geometrica valida di Part che può essere creata con lo strumento [Crea Primitive](Part_CreatePrimitives/it.md)
-        -   Per esempio le seguenti primitive geometriche di Part possono essere un profilo valido
-            -   Punto o vertice (Vertex), Linea o bordo (Edge)
-            -   Elica, Spirale
-            -   Cerchio, Ellisse
-            -   Poligono regolare
-            -   Piano o facce (Face)
+-    **Solid|Bool**: true or false (default). True creates a solid.
 
+-    **Ruled|Bool**: true or false (default). True creates a ruled surface.
 
-</div>
+-    **Closed|Bool**: rue or false (default). True creates a closed loft by connecting last to first profile.
+
+-    **Max Degree|IntegerConstraint**: Maximum degree.
+
+## Limitations
+
+A Part Loft has the same limitations as a [Part Sweep](Part_Sweep#Limitations.md).
+
+### Closed Lofts 
 
 
 <div class="mw-translate-fuzzy">
 
 -   Loft chiusi
     -   I risultati dei loft chiusi possono essere inaspettati - il loft può produrre torsioni o piegature. L\'operazione Loft è molto sensibile al posizionamento dei profili e per collegare i corrispondenti vertici in tutti i profili servono curve molto complesse.
-
-
-</div>
-
-## An example Loft 
-
-
-<div class="mw-translate-fuzzy">
-
-## Un esempio di Loft 
-
-Lo strumento Loft si trova nell\'ambiente Parte, menu Parte -\> Loft \... o tramite l\'icona nella barra degli strumenti.
-
-
-</div>
-
-![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Nella sezione \"Azioni\" della \"Vista Combinata\" ci sono due liste: \"Vertice/Spigolo/Wire/Faccia\" e \"Loft\".
-
-
-</div>
-
-![](images/Loft_it_2.png )
-
-
-<div class="mw-translate-fuzzy">
-
-### Selezione delle sezioni 
-
-In \"Vertice/Spigolo/\...\" vengono visualizzati tutti gli oggetti disponibili. In questo elenco devono essere selezionati due elementi, uno dopo l\'altro.
-
-
-</div>
-
-![](images/Loft_it_3.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Successivamente, con la freccia blu l\'elemento deve essere aggiunto alla lista di \"Loft\".
-
-
-</div>
-
-![](images/Loft_it_4.png )
-
-Gli elementi selezionati devono essere dello stesso tipo, come nella figura.
-
-
-<div class="mw-translate-fuzzy">
-
-Suggerimento: le voci attive o selezionate nell\'elenco vengono visualizzati nell\'area 3D come attive o selezionate.
-
-
-</div>
-
-### Command complete 
-
-
-<div class="mw-translate-fuzzy">
-
-### Completare il comando 
-
-Se sono state selezionate entrambe le sezioni, il comando può essere completato cliccando su \"OK\".
-
-
-</div>
-
-![](images/Loft_it_5.png )
-
-### Result
-
-
-<div class="mw-translate-fuzzy">
-
-## Risultato
-
-Dalle linee chiuse sono sorte delle superfici che al primo sguardo potrebbero essere considerate superfici di solidi.
-
-
-</div>
-
-![](images/Loft_it_6.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Se invece si vuole effettivamente creare un solido, questo si può fare utilizzando il pulsante \"Crea Solid\" quando si crea oppure, dopo aver creato, utilizzando il campo \"Solid\" delle proprietà nella scheda *Dati*.
-
-
-</div>
-
-La procedura è analoga a quella descritta per le polilinee aperte.
-
-### Changing the selection of sections 
-
-
-<div class="mw-translate-fuzzy">
-
-### Modifica della selezione delle sezioni 
-
-Se si desidera modificare la selezione delle sezioni dopo la creazione del loft, è possibile selezionare il campo Sezioni nella scheda Dati e fare clic sul pulsante con i puntini di sospensione. Appare l\'elenco di tutte le sezioni selezionabili, e la selezione corrente viene evidenziata. Si può rimuovere o aggiungere ulteriori sezioni.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La sequenza delle sezioni dipende dalla sequenza di selezione nell\'elenco. Se si desidera apportare modifiche sostanziali, si consiglia di deselezionare tutto e quindi avviare la selezione nell\'ordine corretto.
 
 
 </div>

@@ -1,5 +1,5 @@
 # Manual:Navigating in the 3D view/zh-cn
-{{Manual:TOC/zh-cn}}
+{{Manual:TOC}}
 
 
 
@@ -71,7 +71,7 @@ FreeCAD 的 3D 空间是一个 [欧几里德空间](https://en.wikipedia.org/wik
 
 -    **Ctrl**允许你选择多个对象或元素。
 
-这些控制项也可以通过[视图菜单和一些通过视图工具栏访问](Std_View_Menu.md)。
+这些控制项也可以通过[视图菜单](Std_View_Menu.md)和一些通过视图工具栏访问。
 
 #### 使用导航聚焦区
 

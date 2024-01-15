@@ -11,7 +11,7 @@
 
 ## 설명
 
-**표준 모두 선택(Std SelectAll)** 명령은 [트리 보기의](Tree_view/ko.md) 모든 개체를 선택합니다.
+**표준 모두 선택(Std SelectAll)** 명령은 [트리 보기](Tree_view/ko.md)의 모든 개체를 선택합니다.
 
 ## 용법
 

@@ -17,6 +17,8 @@ La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Dra
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Une polyligne ouverte non modifiable est transformée en polyligne fermée, puis en une face. Une polyligne carrée fermée non modifiable est également promue vers une face. Les deux faces sont ensuite promues pour créer un composé, qui est finalement promu vers une polyligne Draft modifiable.*
 
+
+
 ## Utilisation
 
 1.  En option, sélectionnez un ou plusieurs objets.
@@ -26,9 +28,13 @@ La commande <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Dra
     -   Utilisez le raccourci clavier : **U** puis **P**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 
+
+
 ## Remarques
 
 -   Les [Draft Lignes](Draft_Line/fr.md) et [Draft Polylignes](Draft_Wire/fr.md) peuvent être jointes avec cette commande, mais aussi avec la commande [Draft Joindre](Draft_Join/fr.md) ou la commande [Draft Polylignes](Draft_Wire/fr.md) .
+
+
 
 ## Script
 

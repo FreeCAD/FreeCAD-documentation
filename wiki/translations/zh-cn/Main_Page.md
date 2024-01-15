@@ -26,7 +26,13 @@
 
 ## 目录入口
 
+
+<div class="mw-translate-fuzzy">
+
 目录中列出了本维基中的所有文章，它们构成了随 FreeCAD 应用程序发行的脱机帮助文档的主体。它已经有多种语言可用：
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

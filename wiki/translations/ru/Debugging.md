@@ -1,4 +1,17 @@
 # Debugging/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+
+
+
+
 ## Певые испытания 
 
 Перед тем как пройти через боль от процесса отладки , используйте [фреймворк для тестирования](Testing/ru.md) , чтобы проверить будут ли работать стандартные тесты должным образом. Если они не будут пройдены полностью, то возможно дело, в сбоях при установке программы.
@@ -425,11 +438,24 @@ squashfs-root> ./usr/bin/freecad
 
 </div>
 
+### Pyzo
+
+See the [main article about Pyzo](Pyzo.md).
+
 
 
 ## Отладка OpenCasCade 
 
 For developers needing to dig deeper in to the OpenCasCade kernel, user \@abdullah has created a [thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=47017) orientation discussing how to do so.
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

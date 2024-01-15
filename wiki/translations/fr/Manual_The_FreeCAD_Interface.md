@@ -1,5 +1,5 @@
 # Manual:The FreeCAD Interface/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 FreeCAD utilise le [framework Qt](https://fr.wikipedia.org/wiki/Qt) pour dessiner et gérer son interface. Ce framework est utilisé par un large éventail d\'applications. Ainsi l\'interface FreeCAD est alors très classique et ne présente pas de difficulté particulière à comprendre. La plupart des boutons sont standards et vous les trouverez où vous les attendez **Fichier → Ouvrir, Modifier → Coller, etc.** Voici l\'apparence de FreeCAD lorsque vous l'ouvrez pour la première fois, juste après l\'installation :
 
@@ -10,6 +10,8 @@ L\'écran de démarrage est un « écran de bienvenue » qui présente des infor
 Après quelques temps, lorsque vous vous serez familiarisés avec FreeCAD, vous pourrez peut-être modifier les préférences afin qu'au démarrage de FreeCAD vous vous trouviez directement dans l'un des ateliers avec un nouveau document ouvert. Ou, fermez simplement l\'onglet de la page de démarrage et créez un nouveau document :
 
 ![](images/FreeCAD-v0-18-NewProject.png )
+
+
 
 ### Les ateliers 
 
@@ -24,6 +26,8 @@ Le contrôle le plus important de l\'interface FreeCAD est le sélecteur d'ateli
 Les ateliers perturbent souvent les nouveaux utilisateurs car il n\'est pas toujours facile de savoir dans quel atelier rechercher un outil spécifique. Mais après un certain temps, ces utilisateurs ont une meilleure perception des outils qu\'offre FreeCAD et s\'adaptent. Les ateliers sont également entièrement personnalisables (voir ci-dessous). Le même outil peut apparaître dans plusieurs ateliers. L\'icône du bouton d\'un outil particulier sera toujours le même quel que soit l\'atelier dans lequel il apparaît.
 
 Plus loin dans ce manuel, vous trouverez également un tableau montrant le contenu de tous les ateliers.
+
+
 
 ### L\'interface
 
@@ -49,6 +53,8 @@ Outre le panneau de la vue 3D, les panneaux d'informations suivants sont disponi
 -    **La vue afficher sélection** affiche les noms des objets couramment sélectionnés. Ce sont les objets sur lesquels les opérations de l\'atelier seront effectives. Elle peut être utilisée pour affiner la sélection en désélectionnant certains objets avant l\'application d\'une opération de l\'atelier. La vue de sélection peut également être utilisée pour rechercher des objets par nom, puis de les sélectionner. Par défaut, la vue de sélection est masquée. Bien que vous puissiez souvent déterminer le ou les objets couramment sélectionnés en consultant l'arborescence des objets dans l'onglet Modèle de la vue combinée, pour les opérations complexes nécessitant plusieurs sélections et où la sélection est difficile, il est utile de rendre cette vue visible afin que vous puissiez voir à la fois les étiquettes et compter les objets sélectionnés.
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
+
+
 
 ### Personnalisation de l\'interface 
 

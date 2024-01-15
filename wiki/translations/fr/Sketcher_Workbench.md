@@ -90,15 +90,15 @@ Les outils de l\'atelier Sketcher se trouvent dans le menu Esquisse et/ou dans p
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Créer une esquisse](Sketcher_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, un dialogue pop up invitera l\'utilisateur à sélectionner un plan.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Éditer l\'esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée. Cela ouvrira la [Sketcher Boite de dialogue](Sketcher_Dialog/fr.md).
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifier une esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée. Cela ouvrira la [Sketcher Boite de dialogue](Sketcher_Dialog/fr.md).
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg  style="width:32px;"> [Esquisse sur une face](Sketcher_MapSketch/fr.md) : applique une esquisse sur une face ou un solide sélectionné.
 
--   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Réorienter l\'esquisse](Sketcher_ReorientSketch/fr.md) : permet d\'attacher l\'esquisse à l\'un des plans principaux.
+-   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Réorienter une esquisse](Sketcher_ReorientSketch/fr.md) : permet d\'attacher une esquisse à l\'un des plans principaux.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider l\'esquisse\...](Sketcher_ValidateSketch/fr.md) : vérifier la tolérance des différents points et les faire correspondre entre eux.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Valider une esquisse\...](Sketcher_ValidateSketch/fr.md) : analyse et répare une esquisse qui n\'est plus modifiable, dont les contraintes ne sont pas valides ou auxquelles il manque des contraintes coïncidentes.
 
--   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Fusionner les esquisses](Sketcher_MergeSketches/fr.md) : fusionner deux ou plusieurs esquisses.
+-   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Fusionner des esquisses](Sketcher_MergeSketches/fr.md) : fusionne deux ou plusieurs esquisses.
 
 -   <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md) : crée une esquisse miroir selon l\'axe X, l\'axe Y ou l\'origine.
 
@@ -106,7 +106,7 @@ Les outils de l\'atelier Sketcher se trouvent dans le menu Esquisse et/ou dans p
 
 #### Barre d\'outils du mode édition de Sketcher 
 
--   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) : quitte le mode d\'édition de l\'esquisse actuelle.
+-   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) : quitte le mode d\'édition de l\'esquisse en cours.
 
 -   <img alt="" src=images/Sketcher_ViewSketch.svg  style="width:32px;"> [Vue de l\'esquisse](Sketcher_ViewSketch/fr.md) : définit l\'affichage de l\'objet perpendiculairement au plan de l\'esquisse.
 
@@ -138,19 +138,19 @@ Ces outils permettent de créer des objets.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Ligne](Sketcher_CreateLine/fr.md) : dessine une ligne entre 2 points. Les lignes sont considérées comme infinies par certaines contraintes.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Arcs](Sketcher_CompCreateArc/fr.md) : menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un arc :
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Arc](Sketcher_CreateArc/fr.md) : dessine un segment d\'arc à partir du centre, rayon, angle de départ et angle d\'arrivée.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arc par 3 points](Sketcher_Create3PointArc/fr.md) : dessine un arc de cercle entre deux points d\'extrémité et un troisième point pour la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Cercles](Sketcher_CompCreateCircle/fr.md) : menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un cercle :
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Cercle](Sketcher_CreateCircle/fr.md) : dessine un cercle à partir de son centre et du rayon.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md) : dessine un cercle à partir de trois points sur la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Coniques](Sketcher_CompCreateConic/fr.md) : Sketcher fournit les sections coniques suivantes. Contrairement aux B-splines, elles peuvent être utilisées avec toutes sortes de contraintes telles que [Contrainte tangente](Sketcher_ConstrainTangent/fr.md), des [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md) ou [Contrainte perpendiculaire](Sketcher_ConstrainPerpendicular/fr.md).
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer une conique :
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse par son centre](Sketcher_CreateEllipseByCenter/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon et d\'un point sur le petit rayon.
 
@@ -162,7 +162,7 @@ Ces outils permettent de créer des objets.
 
   -<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc de parabole](Sketcher_CreateArcOfParabola/fr.md) : dessine un arc de parabole.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [B-splines](Sketcher_CompCreateBSpline/fr.md) : menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline :
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline simple](Sketcher_CreateBSpline/fr.md) : dessine une courbe B-spline par ses points de contrôle.
 
@@ -174,7 +174,7 @@ Ces outils permettent de créer des objets.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) : dessine une ligne composée de plusieurs segments connectés entre eux. Appuyer sur la touche **M** pendant que la commande est active active/désactive entre plusieurs modes de polylignes.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Rectangles](Sketcher_CompCreateRectangles/fr.md) : menu d\'icônes dans la barre d\'outils de Sketcher qui contient les commandes suivantes : {{Version/fr|0.20}}
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un rectangle :
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rectangle](Sketcher_CreateRectangle/fr.md) : dessine un rectangle à partir de 2 points opposés.
 
@@ -182,7 +182,7 @@ Ces outils permettent de créer des objets.
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rectangle arrondi](Sketcher_CreateOblong/fr.md) : dessine un rectangle arrondi à partir de 2 points opposés. {{Version/fr|0.20}}
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Polygones réguliers](Sketcher_CompCreateRegularPolygon/fr.md) : menu d\'icônes dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un polygone régulier :
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangle équilatéral](Sketcher_CreateTriangle/fr.md) : dessine un triangle équilatéral inscrit dans un cercle.
 
@@ -198,19 +198,25 @@ Ces outils permettent de créer des objets.
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Polygone régulier](Sketcher_CompCreateRegularPolygon/fr.md) : dessine un polygone régulier en sélectionnant le nombre de côtés et en choisissant deux points: le centre et un coin.
 
--   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Contour oblong](Sketcher_CreateSlot/fr.md) : dessine un contour oblong (ex : clavette de type A) en entrant le centre du demi-cercle, le centre d\'un rayon et le point final du deuxième demi-cercle.
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un contour oblong :
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Congés](Sketcher_CompCreateFillets/fr.md) : menu d\'icônes dans la barre d\'outils des contraintes de Sketcher qui contient les commandes suivantes :
+  - <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Contour oblong](Sketcher_CreateSlot/fr.md) : dessine un ovale en sélectionnant le centre d\'un demi-cercle et une extrémité de l\'autre demi-cercle.
+
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Rainure en arc](Sketcher_CreateArcSlot/fr.md) : à faire. {{Version/fr|0.22}}
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Créer un congé :
 
   - <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Congé](Sketcher_CreateFillet/fr.md) : crée un congé entre deux lignes non parallèles.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Congé avec contrainte](Sketcher_CreatePointFillet/fr.md) : crée un congé entre deux lignes non parallèles tout en préservant leur intersection (virtuelle).
 
--   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Ajuster](Sketcher_Trimming/fr.md) : ajuste une ligne, un cercle ou un arc par rapport à l\'emplacement du clic.
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Ajuster une arête :
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Prolonger](Sketcher_Extend/fr.md) : prolonge une ligne ou un arc jusqu\'à une limite définie par un arc, une ellipse, un arc d\'ellipse ou un point dans l\'espace.
+  - <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Ajuster](Sketcher_Trimming/fr.md) : ajuste une ligne, un cercle ou un arc par rapport à l\'emplacement du clic.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser](Sketcher_Split/fr.md) : divise une arête en deux tout en conservant la plupart des contraintes. {{Version/fr|0.20}}
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Diviser](Sketcher_Split/fr.md) : divise une arête en deux tout en conservant la plupart des contraintes. {{Version/fr|0.20}}
+
+  - <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Prolonger](Sketcher_Extend/fr.md) : prolonge une ligne ou un arc jusqu\'à une limite définie par un arc, une ellipse, un arc d\'ellipse ou un point dans l\'espace.
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Géométrie externe](Sketcher_External/fr.md) : crée une arête liée à une géométrie externe.
 
@@ -224,19 +230,19 @@ Ces outils permettent de créer des objets.
 
 Les contraintes sont utilisées pour définir des règles entre les éléments d\'esquisse et pour verrouiller l\'esquisse le long des axes vertical et horizontal. Certaines contraintes requièrent l\'utilisation de [contraintes d\'assistance](Sketcher_helper_constraint/fr.md).
 
-
-
-#### Contraintes géométriques 
-
-Ces contraintes ne sont pas associées à des données numériques.
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coïncidence (unifiée)](Sketcher_ConstrainCoincidentUnified/fr.md) : à faire. {{Version/fr|0.22}}
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coïncidence](Sketcher_ConstrainCoincident/fr.md) : affecte un point à (coïncider avec) un ou plusieurs autres points. Elle agit comme une contrainte concentrique si deux ou plusieurs cercles, arcs, ellipses ou arcs d\'ellipses sont sélectionnés.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Point sur objet](Sketcher_ConstrainPointOnObject/fr.md) : fixe un point sur un autre objet tel qu\'une ligne, un arc ou un axe.
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical/fr.md) : crée une contrainte de verticalité sur les lignes ou segments de polylignes sélectionnés. Il est possible de sélectionner plus d\'un objet avant d\'appliquer cette contrainte.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Contrainte horizontale/verticale :
 
--   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md) : crée une contrainte d\'horizontalité sur les lignes ou segments de polylignes sélectionnés. Il est possible de sélectionner plus d\'un objet avant d\'appliquer cette contrainte.
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/vertical](Sketcher_ConstrainHorVer/fr.md) :à faire. {{Version/fr|0.22}}
+
+  - <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md) : crée une contrainte d\'horizontalité sur les lignes ou segments de polylignes sélectionnés. Il est possible de sélectionner plus d\'un objet avant d\'appliquer cette contrainte.
+
+  - <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical/fr.md) : crée une contrainte de verticalité sur les lignes ou segments de polylignes sélectionnés. Il est possible de sélectionner plus d\'un objet avant d\'appliquer cette contrainte.
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Parallèle](Sketcher_ConstrainParallel/fr.md) : contraint deux ou plusieurs lignes parallèles les unes aux autres.
 
@@ -248,23 +254,19 @@ Ces contraintes ne sont pas associées à des données numériques.
 
 -   <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:32px;"> [Symétrie](Sketcher_ConstrainSymmetric/fr.md) : contraint deux points symétriquement autour d\'une ligne, ou contraint les deux premiers points sélectionnés symétriquement autour d\'un troisième point sélectionné.
 
--   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blocage](Sketcher_ConstrainBlock/fr.md) : empêche une arête de se déplacer, c\'est-à-dire qu\'il empêche ses sommets de changer leur position en cours. Particulièrement utile de fixer la position des B-Splines. Voir la [discussion «Block Constraint» (en) sur le forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
+-   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blocage](Sketcher_ConstrainBlock/fr.md) : empêche une arête de se déplacer, empêche ses sommets de changer de position. La fonction est particulièrement utile pour fixer la position des B-Splines. Voir le sujet du forum [Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Contraintes de dimension :
 
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension/fr.md): à faire. {{Version/fr|0.22}}
 
-#### Contraintes dimensionnelles 
+  - <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Fixe](Sketcher_ConstrainLock/fr.md) : contraint l\'élément sélectionné en définissant des distances verticales et horizontales par rapport à l\'origine, verrouillant ainsi l\'emplacement de cet élément. Ces contraintes dimensionnelles peuvent être éditées par la suite.
 
-Ces contraintes sont associées à des données numériques, pour lesquelles vous pouvez utiliser des [expressions](Expressions/fr.md). Les données peuvent être tirées d\'un [tableur](Spreadsheet_Workbench/fr.md).
+  - <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Distance horizontale](Sketcher_ConstrainDistanceX/fr.md) : fixe la distance horizontale entre deux points ou extrémités de ligne. Si un seul élément est sélectionné, la distance sera relative à l\'origine.
 
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Fixe](Sketcher_ConstrainLock/fr.md) : contraint l\'élément sélectionné en définissant des distances verticales et horizontales par rapport à l\'origine, verrouillant ainsi l\'emplacement de cet élément. Ces contraintes dimensionnelles peuvent être éditées par la suite.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Distance verticale](Sketcher_ConstrainDistanceY/fr.md) : fixe la distance verticale entre deux points ou extrémités de ligne. Si un seul élément est sélectionné, la distance sera relative à l\'origine.
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Distance horizontale](Sketcher_ConstrainDistanceX/fr.md) : fixe la distance horizontale entre deux points ou extrémités de ligne. Si un seul élément est sélectionné, la distance sera relative à l\'origine.
-
--   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Distance verticale](Sketcher_ConstrainDistanceY/fr.md) : fixe la distance verticale entre deux points ou extrémités de ligne. Si un seul élément est sélectionné, la distance sera relative à l\'origine.
-
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Dimensionnelle](Sketcher_ConstrainDistance/fr.md) : définit la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, la distance entre deux points ou, {{Version/fr|0.21}}, la distance entre les bords de deux cercles.
-
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Rayon ou diamètre](Sketcher_CompConstrainRadDia/fr.md) : menu d\'icônes dans la barre d\'outils des contraintes de Sketcher qui contient les commandes suivantes :
+  - <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Distance](Sketcher_ConstrainDistance/fr.md) : définit la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, la distance entre deux points ou, {{Version/fr|0.21}}, la distance entre les bords de deux cercles.
 
   - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Rayon ou poids](Sketcher_ConstrainRadius/fr.md) : définit le rayon d\'un arc ou d\'un cercle ou le poids d\'un pôle d\'une B-spline.
 
@@ -272,7 +274,7 @@ Ces contraintes sont associées à des données numériques, pour lesquelles vou
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Rayon automatique](Sketcher_ConstrainRadiam/fr.md) : définit le rayon d\'un arc, le diamètre d\'un cercle ou le poids d\'un pôle d\'une B-spline. {{Version/fr|0.20}}
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle/fr.md) : crée une contrainte d\'angle interne entre deux lignes sélectionnées.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle/fr.md) : crée une contrainte d\'angle interne entre deux lignes sélectionnées.
 
 
 
@@ -306,21 +308,25 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_RestoreInternalAlignmentGeometry.svg  style="width:32px;"> [Géométrie interne](Sketcher_RestoreInternalAlignmentGeometry/fr.md) : recrée la géométrie interne manquante/supprimée d\'une ellipse sélectionnée, d\'un arc d\'ellipse/hyperbole/parabole ou d\'une B-spline.
 
--   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Origine](Sketcher_SelectOrigin/fr.md) : sélectionne l\'origine de l\'esquisse.
+-   <img alt="" src=images/Sketcher_SelectOrigin.svg  style="width:32px;"> [Selectionner l\'origine](Sketcher_SelectOrigin/fr.md) : sélectionne l\'origine de l\'esquisse.
 
 -   <img alt="" src=images/Sketcher_SelectHorizontalAxis.svg  style="width:32px;"> [Axe horizontal](Sketcher_SelectHorizontalAxis/fr.md) : sélectionne l\'axe horizontal de l\'esquisse.
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Axe vertical](Sketcher_SelectVerticalAxis/fr.md) : sélectionne l\'axe vertical de l\'esquisse.
 
--   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symétrie](Sketcher_Symmetry/fr.md) : crée une copie symétrique par rapport à une ligne donnée.
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Décaler une géométrie](Sketcher_Offset/fr.md) : ajoute un contour équidistant autour de bords sélectionnés. {{Version/fr|0.22}}
 
--   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Clone](Sketcher_Clone/fr.md) : clone un élément de l\'esquisse.
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Pivoter](Sketcher_Rotate/fr.md) : à faire. {{Version/fr|0.22}}
 
--   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copie](Sketcher_Copy/fr.md) : copie un élément de l\'esquisse.
+-   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symétriser](Sketcher_Symmetry/fr.md) : crée une copie symétrique par rapport à une ligne donnée.
+
+-   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Cloner](Sketcher_Clone/fr.md) : clone un élément de l\'esquisse.
+
+-   <img alt="" src=images/Sketcher_Copy.svg  style="width:32px;"> [Copier](Sketcher_Copy/fr.md) : copie un élément de l\'esquisse.
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Déplacer](Sketcher_Move/fr.md) : déplace la géométrie sélectionnée en prenant comme référence le dernier point sélectionné.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Réseau rectangulaire](Sketcher_RectangularArray/fr.md) : crée une réseau à partir des éléments sélectionnés.
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Répétition linéaire](Sketcher_RectangularArray/fr.md) : crée une répétition à partir d\'éléments sélectionnés.
 
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) : supprime l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. {{Version/fr|0.20}}.
 
@@ -331,16 +337,6 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 
 ### Outils d\'esquisse des B-splines 
-
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Degré de la B-spline](Sketcher_BSplineDegree/fr.md) : affiche ou masque l\'affichage du degré d\'une B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Polygone de contrôle](Sketcher_BSplinePolygon/fr.md) : affiche ou masque l\'affichage du polygone de définition d\'une B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Peigne de courbure](Sketcher_BSplineComb/fr.md) : affiche ou masque l\'affichage du peigne de courbure d\'une B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Multiplicité des nœuds](Sketcher_BSplineKnotMultiplicity/fr.md) : affiche ou masque l\'affichage de la multiplicité des nœuds d\'une B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Poids des points de contrôle](Sketcher_BSplinePoleWeight/fr.md) : affiche ou masque l\'affichage des poids des points de contrôle d\'une B-spline.
 
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convertir une géométrie en B-spline](Sketcher_BSplineApproximate/fr.md) : convertit la géométrie compatible, les arêtes et les courbes, en une B-spline.
 
@@ -358,9 +354,21 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 
 
-### Espace virtuel de l\'esquisse 
+### Affichage
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Espace virtuel](Sketcher_SwitchVirtualSpace/fr.md) : permet de masquer toutes les contraintes d\'une esquisse et de les rendre à nouveau visibles.
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Degré de la B-spline](Sketcher_BSplineDegree/fr.md) : affiche ou masque l\'affichage du degré d\'une B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Polygone de contrôle](Sketcher_BSplinePolygon/fr.md) : affiche ou masque l\'affichage du polygone de définition d\'une B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Peigne de courbure](Sketcher_BSplineComb/fr.md) : affiche ou masque l\'affichage du peigne de courbure d\'une B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Multiplicité des nœuds](Sketcher_BSplineKnotMultiplicity/fr.md) : affiche ou masque l\'affichage de la multiplicité des nœuds d\'une B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Poids des points de contrôle](Sketcher_BSplinePoleWeight/fr.md) : affiche ou masque l\'affichage des poids des points de contrôle d\'une B-spline.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Cercle auxiliaire pour les arcs](Sketcher_ArcOverlay/fr.md) : à faire. {{Version/fr|0.22}}
 
 
 

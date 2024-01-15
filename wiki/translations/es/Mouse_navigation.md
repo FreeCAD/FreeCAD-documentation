@@ -28,6 +28,10 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 ## Available navigation styles 
 
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
+
+
 
 <div class="mw-translate-fuzzy">
 
@@ -85,8 +89,6 @@ Este es el estilo de navegación por defecto y permite al usuario un control sim
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
-
-Hold down **Ctrl** to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
@@ -105,6 +107,8 @@ With this method the middle mouse button may be released after the right mouse b
 
 Users who use the mouse with their right hand may find this method easier than the first method.
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -155,7 +159,9 @@ To set the camera\'s focus point for rotation, click a point with the middle mou
 
 Hold **Alt** when in the [Sketcher](Sketcher_Workbench.md). \|Tilt_view_text=Hold both left and right mouse buttons, then move the pointer sideways. \|Tilt_view_gesture_text=Rotate the imaginary line formed by two touch points.
 
-On v0.18 this method is disabled by default. To enable, go to **Edit → Preferences → Display**, and untick \"Disable touchscreen tilt gesture\" checkbox. }}
+This method is disabled by default. To enable, go to **Edit → Preferences → Display → Navigation**, and uncheck the \"Disable touchscreen tilt gesture\" checkbox. }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -184,6 +190,8 @@ In Maya-Gesture Navigation, panning, zooming, and rotating the view require the 
 </div>
 
 Alternatively, use the mouse wheel to zoom in and out. \|Rotate_view_text=Hold **Alt** and the left mouse button, then move the pointer. }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -239,7 +247,7 @@ Este modo no está basado en el Autodesk Inventor.
 |Shift=**Shift**
 |Select_text=Hold **Shift**, then press the left mouse button over an object you want to select.
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -262,11 +270,15 @@ The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -316,6 +328,8 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 }}
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Navegación Touchpad 
@@ -323,7 +337,7 @@ The TinkerCAD navigation style was modeled after [TinkerCAD](https://en.wikipedi
 
 </div>
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 
 <div class="mw-translate-fuzzy">
@@ -352,6 +366,8 @@ En la Navegación Touchpad, ni el barrido, ni el acercamiento, ni la rotación d
 
 </div>
 
+
+
 ## Soporte de Hardware 
 
 
@@ -361,6 +377,8 @@ FreeCAD también soporta algún [Dispositivo de entrada 3D](3D_input_devices/es.
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

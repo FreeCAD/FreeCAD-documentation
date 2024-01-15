@@ -11,56 +11,46 @@
 # TechDraw 2LineCenterLine/pl
 
 
-</div>
-
-
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
 Narzędzie **Dodaj oś pomiędzy dwiema liniami** dodaje linię środkową między dwiema krawędziami.
 
-
-</div>
-
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
-
-
-<div class="mw-translate-fuzzy">
 
 
 
 *Wyrównana linia środkowa między dwiema krawędziami*
 
 
-</div>
 
-## Usage create 
-
-
-<div class="mw-translate-fuzzy">
+## Użycie
 
 1.  Wybierz 2 krawędzie w widoku. Zaznaczone krawędzie powinny być mniej więcej równoległe.
-2.  Naciśnij przycisk **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Dodaj oś pomiędzy dwiema liniami**.
-3.  Otworzy się okno dialogowe, w którym można określić atrybuty nowej linii środkowej.
-4.  Linia środkowa zostanie dodana pomiędzy dwiema wybranymi krawędziami.**Jeśli wygenerowana linia wygląda dziwnie lub w ogóle się nie wygenerowała, może być konieczne użycie opcji** [**Odwróć końce**](#Odwróć_końce.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+3.  Naciśnij przycisk **<img src="images/TechDraw_2LineCenterLine.svg" width=16px> Dodaj oś pomiędzy dwiema liniami**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj linie → <img src="images/TechDraw_2LineCenterLine.svg" width=16px> Dodaj oś pomiędzy dwiema liniami**.
+4.  Otworzy się panel zadań. Więcej informacji można znaleźć na stronie [Dodaj oś ściany](TechDraw_FaceCenterLine/pl#Opcje.md).
+5.  Naciśnij przycisk **OK**, aby potwierdzić.
+6.  Linia środkowa zostanie dodana między wybranymi krawędziami.
 
 
-</div>
 
-## Usage edit 
+## Edycja
 
-See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
+Zapoznaj się z informacjami na stronie [Dodaj oś ściany](TechDraw_FaceCenterLine/pl#Edycja.md).
 
-## Notes
 
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
-## Properties
+## Uwagi
 
-Centerlines have no properties of their own, as they are not document objects.
+Aby usunąć linię środka należy użyć narzędzia **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
+
+
+
+## Właściwości
+
+Linie środka nie mają własnych właściwości, ponieważ nie są obiektami dokumentu.
 
 
 

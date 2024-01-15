@@ -92,7 +92,13 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> El [Banco de Trabajo de Hojas de Cálculo](Spreadsheet_Workbench/es.md) para crear y manipular datos de hojas de cálculo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> El [Centro de Trabajo Inicio](Start_Workbench/es.md) te permite saltar rápidamente a uno de los bancos de trabajo más comunes.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

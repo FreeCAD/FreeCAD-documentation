@@ -1,9 +1,11 @@
 # Macro TNP Solution/fr
 {{Macro/fr
 |Name=Macro TNP solution
+|Name/fr=Macro TNP solution
 |Icon=TNP_solution.png
 |Description=Il s'agit d'une solution pour le problème de dénomination topologique
 |Author=Dprojects
+|Download=[https://wiki.freecad.org/images/e/e4/TNP_solution.png Icône de la barre d'outils]
 |Date=2022-08-16
 |Version=1.0
 }}
@@ -57,6 +59,8 @@ def getFaceIndex(iObj, iBB):index = 0
 
 À la fin, j\'assigne la nouvelle face à l\'esquisse et je recalcule. Pour être honnête, la partie la plus difficile a été d\'assigner la face à Sketch.Support, pour moi la syntaxe est époustouflante ;-)
 
+
+
 ## Code pour l\'exemple 
 
 Le fichier de test a été téléchargé sur le forum FreeCAD : [TNP.FCStd](https://forum.freecadweb.org/download/file.php?id=198537).
@@ -71,8 +75,8 @@ __Date__    = "2022-08-16"
 __Comment__ = ""
 __Web__ = "https://github.com/dprojects/Woodworking"
 __Wiki__ = "https://wiki.freecadweb.org/TNP_solution"
-__Icon__  = "TNP_solution.png"
-__IconW__  = "TNP_solution.png"
+__Icon__  = "https://wiki.freecad.org/images/e/e4/TNP_solution.png"
+__IconW__  = "https://wiki.freecad.org/images/e/e4/TNP_solution.png"
 __Help__ = "solution for Topological Naming Problem"
 __Status__ = "stable"
 __Requires__ = ""
@@ -189,6 +193,8 @@ makeTNP()
 # ####################################################################
 
 }}
+
+
 
 ## LA solution 
 

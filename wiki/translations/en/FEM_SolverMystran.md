@@ -14,9 +14,30 @@
 
 The [SolverMystran](FEM_SolverMystran.md) command enables usage of the [MYSTRAN](https://www.mystran.com) solver. It may be used for:
 
-1.  Setting analysis parameters
-2.  Selecting working directory
-3.  Running the MYSTRAN solver
+1.  Setting analysis parameters.
+2.  Selecting working directory.
+3.  Running the MYSTRAN solver.
+
+## Installation
+
+You can get the Mystran Windows executable [here](https://github.com/MYSTRANsolver/MYSTRAN%20Releases). Put the folder where you place **Mystran.exe** in the Windows\'s PATH variable.
+
+The [SolverMystran](FEM_SolverMystran.md) also needs two other packages:
+
+-   [pyNastran](https://github.com/SteveDoyle2/pyNastran) - to write out case file.
+-   [hfcMystran](https://github.com/ceanwang/hfcMystran) - to read in Mystran\'s NEU result file.
+
+pyNastran can be installed through pip:
+
+1.  Open a Command terminal in your **FreeCAD\bin** folder.
+2.  Enter: {{Incode|python -m pip install pyNastran}}
+3.  It will be installed in the **FreeCAD\bin\lib\site-packages** folder.
+
+hfcMystran can be downloaded from its github site as a zip file. Unzip it and place it in the **FreeCAD\Mod** folder.
+
+## Quick test 
+
+After installation you can select **Utilities → Open FEM examples** in the FEM Workbench. Under **Solver → Mystran** you can find some working Mystran examples.
 
 ## Usage
 

@@ -3,7 +3,7 @@
 
 FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの印刷用バージョンも利用できます。
 
-これはFreeCADのオンラインヘルプシステムの自動ビルドに使用される目次です。 このマニュアルの印刷版は、\[[https://github.com/FreeCAD/FreeCAD/Releasesリリース\]ページでも利用できます](https://github.com/FreeCAD/FreeCAD/Releasesリリース%5Dページでも利用できます)。
+これはFreeCADのオンラインヘルプシステムの自動ビルドに使用される目次です。 このマニュアルの印刷版は、\[<https://github.com/FreeCAD/FreeCAD/Releasesリリース%5Dページでも利用できます>。
 
 
 </div>

@@ -63,6 +63,8 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
 
 *Exemple de sortie : un bord, une face et un sommet d'un [Lien](Std_LinkMake/fr.md) vers un [Part Cube](Part_Box/fr.md) ont été sélectionnés*
 
+
+
 ## Utilisation
 
 1.  Sélectionnez un seul objet ou une ou plusieurs sous-formes appartenant à un seul objet.
@@ -72,6 +74,8 @@ Les variables suivantes sont créées en fonction de l\'objet sélectionné et d
     -   Utilisez le raccourci clavier : **Ctrl**+**Shift**+**P**.
 3.  Si nécessaire, la [console Python](Python_console/fr.md) s\'ouvre.
 4.  La [console Python](Python_console/fr.md) reçoit le focus du clavier.
+
+
 
 ## Remarques
 

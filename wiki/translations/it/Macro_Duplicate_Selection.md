@@ -1,4 +1,7 @@
 # Macro Duplicate Selection/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Duplicate Selection
 |Translate=Duplica selezione
@@ -10,19 +13,50 @@
 |Download= [https://www.freecadweb.org/wiki/images/5/54/Macro_Duplicate_Selection.png Icon ToolBar]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro testa se una selezione è duplicabile. Selezionare gli oggetti nella **vista 3D**, se una selezione è duplicabile il mouse rimane bloccato su \"ForbiddenCursor\" fino a duplicazione avvenuta.
+
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 Avviare la macro, essa rimane residente in memoria.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Selezionare gli oggetti da duplicare. Mentre gli oggetti vengono duplicati il cursore del mouse viene bloccato su \"ForbiddenCursor\"
+
+
+</div>
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 Icona per barra degli strumenti ![](images/Macro_Duplicate_Selection.png )
+
+
+</div>
 
 **Macro_Duplicate_Selection.FCMacro**
 
@@ -79,6 +113,8 @@ s=SelObserver()
 FreeCADGui.Selection.addObserver(s)    # installe la fonction en mode resident
 
 }}
+
+
 
 ## Link
 

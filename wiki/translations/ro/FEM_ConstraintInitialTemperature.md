@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o constrângerea de temperatură inițială pentru o analiză thermo-mechanical .
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -26,6 +36,8 @@ Creează o constrângerea de temperatură inițială pentru o analiză thermo-me
 
 </div>
 
+
+
 ## Limite
 
 
@@ -35,6 +47,8 @@ The constraint applies the initial temperature to all nodes in the FEA model
 
 
 </div>
+
+
 
 ## Notă
 

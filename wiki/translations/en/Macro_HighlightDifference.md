@@ -3,6 +3,7 @@
 |Name=HighlightDifference
 |Description=Compute the difference between two shapes. Additions are marked red, removals are marked green. Both original parts will be half transparent. The volume of the additions and removals are printed in the console.
 |Author=Gaël Ecorchard
+|Download=[https://wiki.freecad.org/images/2/2e/HighlightDifference.png ToolBar Icon]
 |Version=1.0
 |Date=2015-09-24
 }}

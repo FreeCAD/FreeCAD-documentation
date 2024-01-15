@@ -92,7 +92,7 @@ It is also possible to search for shortcuts:
 
 #### Notes
 
--   Shortcuts only work for active commands. Active commands are commands that appear in the standard menu, or in the menu of a workbench that has been loaded in the current FreeCAD session, or commands that appear on a *visible* toolbar.
+-   Shortcuts only work for active commands. Active commands are commands that appear in the standard menu, or in the menu of the active workbench, or commands that appear in a *visible* toolbar.
 
 
 {{Top}}

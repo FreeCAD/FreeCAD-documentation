@@ -1,5 +1,5 @@
 # Manual:Preparing models for 3D printing/pl
-{{Manual:TOC/pl}}
+{{Manual:TOC}}
 
 Jednym z głównych zastosowań programu FreeCAD jest produkcja rzeczywistych obiektów. Mogą one być zaprojektowane w FreeCAD, a następnie urzeczywistnione na różne sposoby, takie jak przekazanie ich innym ludziom, którzy następnie je zbudują, lub, coraz częściej, przesłanie ich bezpośrednio do [drukarki 3D](https://en.wikipedia.org/wiki/3D_printing) lub [frezarki CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). W tym rozdziale dowiesz się, jak przygotować swoje modele do przesłania do tych maszyn.
 
@@ -11,11 +11,15 @@ Jeśli byłeś ostrożny podczas modelowania, większość trudności, które mo
 
 Poniżej założymy, że pierwsze dwa kryteria są spełnione i że jesteś już w stanie tworzyć obiekty bryłowe o prawidłowych wymiarach. Zobaczymy teraz, jak rozwiązać trzeci punkt.
 
+
+
 ### Eksport do krajalnicy 
 
 Jest to technika najczęściej stosowana w druku 3D. Obiekt 3D jest eksportowany do innego programu *(slicera)*, który wygeneruje G-kod z obiektu, poprzez pocięcie go na cienkie warstwy (stąd nazwa), które będą odtwarzać ruchy, jakie wykona drukarka 3D. Ponieważ wiele z tych drukarek jest budowanych domowym sposobem, często występują niewielkie różnice pomiędzy nimi. Programy te zazwyczaj oferują zaawansowane możliwości konfiguracyjne, które pozwalają na dostosowanie wydruku dokładnie do możliwości Twojej drukarki 3D.
 
 Rzeczywiste drukowanie 3D jest jednak zbyt obszernym tematem dla tego podręcznika. Zobaczymy jednak jak wyeksportować i użyć tych slicerów, aby sprawdzić czy dane wyjściowe są poprawne.
+
+
 
 ### Konwersja obiektów do siatek 
 
@@ -45,6 +49,8 @@ Niemniej jednak w większości przypadków wartości domyślne dadzą zadowalaj�
 
 Jeśli nie posiadasz drukarki 3D, zazwyczaj bardzo łatwo jest znaleźć komercyjne serwisy, które wydrukują i wyślą Ci wydrukowane obiekty pocztą. Do najbardziej znanych należą [Shapeways](http://www.shapeways.com/) i [Sculpteo](http://www.sculpteo.com/), ale zazwyczaj znajdziesz wiele innych w swoim mieście. We wszystkich większych miastach można obecnie znaleźć [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), czyli warsztaty wyposażone w szereg maszyn do produkcji 3D, w tym prawie zawsze w co najmniej jedną drukarkę 3D. Fab laboratoria są zazwyczaj przestrzeniami społecznymi, które pozwolą Ci korzystać z ich maszyn, za opłatą lub za darmo, w zależności od Fab laboratorium, ale także nauczą Cię jak z nich korzystać i będą promować inne działania wokół produkcji 3D.
 
+
+
 ### Użycie Slic3r 
 
 [Slic3r](http://slic3r.org/) to aplikacja, która konwertuje obiekty STL na G-code, który może być wysłany bezpośrednio do drukarek 3D. Podobnie jak FreeCAD, jest darmowy, open source\'owy i działa na systemach Linux, Mac OS i Windows. Poprawne skonfigurowanie rzeczy do druku 3D jest skomplikowanym procesem, w którym musisz mieć dobrą znajomość swojej drukarki 3D, więc generowanie G-kodu przed faktycznym wydrukiem nie jest zbyt użyteczne *(Twój plik G-code może nie działać dobrze na innej drukarce)*, ale i tak jest to dla nas użyteczne, aby sprawdzić czy nasz plik STL będzie można bez problemu wydrukować.
@@ -52,6 +58,8 @@ Jeśli nie posiadasz drukarki 3D, zazwyczaj bardzo łatwo jest znaleźć komercy
 To jest nasz wyeksportowany plik STL otwarty w programie Slic3r. Używając zakładki **podgląd** i przesuwając prawy suwak, możemy zwizualizować ścieżkę, którą będzie podążać głowica drukarki 3D, aby zbudować nasz obiekt.
 
 ![](images/Exercise_meshing_03.jpg )
+
+
 
 ### Używanie dodatku Cura 
 
@@ -115,7 +123,7 @@ Istnieje wiele aplikacji do symulacji realnej obróbki skrawaniem, jedną z nich
 -   Plik projektu wygenerowany w tym ćwiczeniu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/path.FCStd>
 -   Plik G-code wygenerowany w tym ćwiczeniu: <https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/lego.gcode>
 
-**Więcej informacji**
+**Więcej informacji:**
 
 -   Środowisko pracy [Siatka](Mesh_Workbench/pl.md)
 -   [format plików STL](https://en.wikipedia.org/wiki/STL_%28file_format%29)
@@ -124,6 +132,8 @@ Istnieje wiele aplikacji do symulacji realnej obróbki skrawaniem, jedną z nich
 -   Środowisko pracy [Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Środowisko pracy [Path](Path_Workbench/pl.md)
 -   [Camotics](http://camotics.org/)
+
+
 
 ### Filmy
 

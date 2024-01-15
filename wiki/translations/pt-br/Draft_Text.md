@@ -28,7 +28,7 @@ To create a text element with an arrow use the [Draft Label](Draft_Label.md) com
 See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Text.svg" width=16px> [Draft Text](Draft_Text.md)** button.
+    -   Press the **<img src="images/Draft_Text.svg" width=16px> [Text](Draft_Text.md)** button.
     -   Select the **Annotation → <img src="images/Draft_Text.svg" width=16px> Text** option from the menu.
     -   Use the keyboard shortcut: **T** then **E**.
 2.  The **Text** task panel opens. See [Options](#Options.md) for more information.
@@ -40,11 +40,11 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 ## Opções
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts. The shortcut does not work in the second task panel. This option is not available in the first task panel in FreeCAD version 0.19 and earlier.
+-   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts. The shortcut does not work in the second task panel. This option is not available in the first task panel in FreeCAD version 0.19 and earlier.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

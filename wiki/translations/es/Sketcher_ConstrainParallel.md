@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descripción
 
 La Restricción Paralela fuerza que dos líneas rectas o aristas sean paralelas entre sí.
+
+
 
 ## Operación
 
@@ -64,7 +68,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

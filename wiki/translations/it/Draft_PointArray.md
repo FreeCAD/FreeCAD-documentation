@@ -30,7 +30,7 @@ In {{VersionMinus/it|0.20}} sono supportati solo tre tipi di oggetto punto, vede
 ## Utilizzo
 
 1.  Selezionare l\'oggetto che si desidera allineare.
-2.  Aggiungere l\'oggetto [composto di punti](#Point_compound/it.md) alla selezione.
+2.  Aggiungere l\'oggetto punto alla selezione.
 3.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_PointArray.svg" width=16px> [Serie su punti](Draft_PointArray/it.md)**.
     -   Selezionare l\'opzione **Modifiche → Strumenti serie→ <img src="images/Draft_PointArray.svg" width=16px> Serie su punti** dal menu.

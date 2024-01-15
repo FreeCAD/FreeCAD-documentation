@@ -1,41 +1,47 @@
 ---
  GuiCommand:
    Name: Draft Snap Grid
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap, Draft_Snap_Lock, Draft_ToggleGrid, Draft_SelectPlane
+   Name/pl: Rysunek Roboczy: Przyciągnij do siatki
+   Workbenches:    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl, Draft_ToggleGrid/pl, Draft_SelectPlane/pl
 ---
 
 # Draft Snap Grid/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Snap Grid** option snaps to the intersections of grid lines. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Przyciągnij do siatki** przyciąga do przecięć linii siatki.
 
 ![](images/Draft_Snap_Grid_example.png ) 
-*Snapping the second point of a line to the grid*
+*Przyciąganie drugiego punktu linii do siatki.*
 
-## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Optionally change the [working plane and/or the grid](Draft_SelectPlane.md).
-2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-3.  If **Draft Snap Grid** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Grid.svg" width=16px>** button in the Draft snap toolbar.
-    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Grid.svg" width=16px> Snap Grid** option.
-4.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-5.  Note that you can also change snap options while a command is active.
-6.  The grid is now displayed if it was not yet visible.
-7.  Move the cursor near the intersection of two grid lines.
-8.  If an intersection is found the point is marked and the <img alt="" src=images/Draft_Snap_Grid.svg  style="width:16px;"> icon is displayed near the cursor.
-9.  Click to confirm the point.
+## Użycie
 
-## Preferences
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+1.  Opcjonalnie zmień [płaszczyznę roboczą i / lub wyświetlanie siatki](Draft_SelectPlane/pl.md).
+2.  Upewnij się, że przyciąganie jest włączone. Zapoznaj się z informacjami na sronie <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+3.  Jeśli opcja **Przyciągnij do siatki** nie jest aktywna, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Grid.svg" width=16px>** na pasku narzędzi przyciągania.
+    -   Przytrzymaj wciśnięty przycisk **<img src="images/Draft_Snap_Lock.svg" width=16px>** w [widżecie przyciągania](Draft_snap_widget/pl.md) i w otwartym menu wybierz opcję **<img src="images/Draft_Snap_Grid.svg" width=16px> Przyciągnij do siatki**.
+4.  Wybierz polecenie [Rysunku Roboczego](Draft_Workbench/pl.md) lub [Architektury](Arch_Workbench/pl.md), aby utworzyć geometrię.
+5.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
+6.  W razie potrzeby użyj polecenia [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md), aby wyświetlić siatkę. Siatka musi być widoczna, aby ta opcja przyciągania działała.
+7.  Przesuń kursor w pobliże przecięcia dwóch linii siatki.
+8.  Jeśli punkt przecięcia zostanie znaleziony, zostanie on zaznaczony, a ikona <img alt="" src=images/Draft_Snap_Grid.svg  style="width:16px;"> zostanie wyświetlona w pobliżu kursora.
+9.  Kliknij, aby potwierdzić punkt.
 
--   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
--   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
+
+
+## Ustawienia
+
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
+
+-   Dostępnych jest kilka preferencji siatki: **Edycja → Preferencje... → Rysunek Roboczy → Siatka i przyciąganie**.
 
 
 

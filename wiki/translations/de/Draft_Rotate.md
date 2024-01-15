@@ -34,7 +34,7 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
     -   Den Menüeintrag **Änderung → <img src="images/Draft_Rotate.svg" width=16px> Drehen** wählen.
     -   Das Tastenkürzel **R** dann **O**.
 3.  Wenn noch kein Objekt ausgewählt wurde: ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
-4.  Der Aufgabenbereich **Drehen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+4.  Der Aufgaben-Bereich **Drehen** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 5.  Wenn Unterelemente ausgewählt wurden: die Check-Box **Unterelemente ändern** aktivieren, um in den Unterelemente-Modus umzuschalten.
 6.  Den ersten Punkt, das Zentrum der Drehung, in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** anklicken.
 7.  Den zweiten Punkt in the [3D-Ansicht](3D_view/de.md) wählen oder einen **Basiswinkel** eingeben.
@@ -44,17 +44,25 @@ Siehe auch: [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Cons
 
 ## Optionen
 
-Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikatortaste können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md).
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
--   Zur manuellen Eingabe der Koordinaten des Zentrums der Drehung die X-, Y- und Z-Komponente eingeben und jeweils **Enter** drücken. Oder die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind. Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger außerhalb der [3D-Ansicht](3D_view/de.md) zu setzen.
--   Drücke **G** oder setze das **Global**-Auswahlkästchen, um in den globalen Modus zu schalten. Ist der globale Modus gesetzt, werden die Koordinaten relativ zum globalen Koordinatensystem verwendet. Umgekehrt werden sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md) verwendet. {{Version/de|0.20}}
--   Die **T**-Taste betätigen oder das **Continue**-Auswahlkästchen setzen, um in den \"Nächstes-Modus\" zu schalten. Ist der Nächstes_Modus gesetzt, wird die Anweisung nach dem Beenden wieder aufgerufen. Dieser Modus ist nur bei einem aktiven Kopiermodus sinnvoll. Abhängig von der **Select base objects after copying / Wähle grundlegende Objekte nach dem Kopieren**-Einstellung werden entweder die grundlegenden Objekte oder die zuletzt erstellten Kopien für den nächsten Aufruf der Anweisung gewählt. Siehe [Einstellungen](#Preferences.md).
--   Die **P**-Taste betätigen oder das **Copy**-Auswahlkästchen setzen, um in den Kopiermodus zu schalten. Ist der Kopiermodus gesetzt, werden gedrehte Kopien anstelle gedrehter Originalobjekte erstellt.
--   Die **D**-Taste betätigen oder das **Modify subelements / Unterelemente anpassen**-Auswahlkästchen setzen, um in den Unterelementemodus zu schalten. Ist der Modus Einzelelemente gesetzt, werden die gewählten Elemente anstatt des ganzen Objektes verwendet. Die Unterelemente müssen [Linien](Draft_Line/de.md) oder [Drähte](Draft_Wire/de.md) sein.
--   Wenn der Kopiermodus und der Unterelementemodus aktiv sind, werden die [Drähte](Draft_Wire/de.md) ausgewählt. Neue Drähte werden aus diesen Drähten erstellt.
--   Durch Halten der **ALT**-Taste nach der Eingabe des **Base angle / grundlegenden Winkels** wird ebenfalls in den Kopiermodus geschalten. Wenn die **ALT**-Taste gehalten wird, können mehrere Punkte für die **Rotation / Drehung** gewählt werden. Nach dem Lösen der **ALT**-Taste wird die Anweisung abgeschlossen und die erstellten Kopien werden angezeigt.
--   Drücken der **S**-Taste schaltet das [Fangen](Draft_Snap/de.md) ein oder aus.
--   Drücken der **ESC**-Taste oder durch Klicken auf die **Schließen**-Schaltfläche wird die aktuelle Anweisung abgebrochen.
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
+
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+
+-    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet. Dieser Modus ist nur sinnvoll, wenn der Kopieren-Modus aktiviert ist. Abhängig von der Einstellung **Select base objects after copying** werden entweder die Originalobjekte für den nächsten Befehlsaufruf ausgewählt oder die zuletzt erstellten Kopien. Siehe [Einstellungen](#Einstellungen.md).
+
+-    **C**drücken oder die Checkbox **Kopieren** aktivieren, um den Kopieren-Modus umzuschalten. Ist der Kopieren-Modus aktiviert, werden gedrehte Kopien erstellt, anstatt die Originalobjekte zu drehen.
+
+-    **B**drücken oder die Checkbox **Unterelemente anpassen** aktivieren, um den Unterelemente-Modus umzuschalten. Ist der Unterelemente-Modus aktiviert, werden die ausgewählten Unterelemente anstatt der ganzen Objekte verwendet. Die Unterelemente müssen [Draft-Linien](Draft_Line/de.md) oder [Draft-Polylinien](Draft_Wire/de.md) sein.
+
+-   Sind sowohl der Kopieren-Modus als auch der Unterelemente-Modus aktiviert und Kanten von [Draft-Polylinien](Draft_Wire/de.md) ausgewählt, werden neue Polylinien aus diesen Kanten erstellt.
+
+-   Wird **ALT** nach der Eingabe des **Basiswinkel**s gedrückt gehalten, wird ebenfalls der Kopieren-Modus umgeschaltet. Während **ALT** gedrückt gehalten wird, können mehrere Punkte für **Drehung** ausgewählt werden. Sobald **ALT** losgelassen wird, wird der Befehl abgeschlossen und die erstellten Kopien werden angezeigt.
+
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
+
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl fertigzustellen.
 
 
 
@@ -68,9 +76,7 @@ Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikato
 
 Siehe auch: [Editor Einstellungen](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
--   Ändern der Anzahl der Nachkommastellen für die Eingabe der Koordinaten und Winkel: **Bearbeiten → Einstellungen... → Allgemein → Einheiten → Anzahl der Nachkommastellen**.
--   Speichern und Wiederverwenden der gleichen Kopiermoduseinstellungen in den Anweisungen: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Entwurfswerkzeuge Optionen → Globaler Kopiermodus**.
--   Auswählen der Originalobjekte nach dem Kopieren: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Entwurfswerkzeuge Optionen → Wähle ursprüngliche Objekte nach dem Kopieren aus**.
+-   Auswählen der Originalobjekte nach dem Kopieren: **Bearbeiten → Einstellungen... → Draft → Allgemein → Wähle ursprüngliche Objekte nach dem Kopieren aus**.
 
 
 

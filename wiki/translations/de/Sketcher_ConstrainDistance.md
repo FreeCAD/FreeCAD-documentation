@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher ConstrainDistance
    Name/de: Sketcher AbstandFestlegen
-   MenuLocation: Sketch , Skizzen-Beschränkungen , Distanz festlegen
+   MenuLocation: Skizze , Sketcher-Randbedingungen , Abstand festlegen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **K** **D**
    SeeAlso: Sketcher_ConstrainDistanceX/de, Sketcher_ConstrainDistanceY/de
@@ -66,7 +66,7 @@ Abstand zwischen den Kanten zweier Kreise:
 
 ```pythonSketch.addConstraint(Sketcher.Constraint('Distance', Circle1, 0, Circle2, 0, App.Units.Quantity('123.0 mm')))```
 
-Die Seite [Sketcher Skripten](Sketcher_scripting.md) erklärt die Werte, die für `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, `PointOfEdge1`, `PointOfEdge2`, `Line`, `Circle1` und `Circle2` verwendet werden können, und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
+Die Seite [Sketcher Skripterstellung](Sketcher_scripting/de.md) erklärt die Werte, die für `Edge`, `Edge1`, `Edge2`, `PointOfEdge`, `PointOfEdge1`, `PointOfEdge2`, `Line`, `Circle1` und `Circle2` verwendet werden können, und enthält weitere Beispiele, wie man Randbedingungen mit Python-Skripten erstellt.
 
 
 

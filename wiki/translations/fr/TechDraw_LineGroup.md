@@ -7,7 +7,7 @@
 
 ## Utilisation
 
-1.  Allez dans l\'onglet des préférences *[Annotation](TechDraw_Preferences/fr#Annotation.md)*.
+1.  Allez dans l\'onglet des préférences *[Annotations](TechDraw_Preferences/fr#Annotations.md)*.
 2.  Sélectionnez dans le champ **Epaisseur de la ligne dans le groupe** un groupe de lignes (LineGroup). Ce sont les groupes définis dans le fichier csv de définition des groupes de lignes.
 
 Pour modifier le fichier de définition LineGroups

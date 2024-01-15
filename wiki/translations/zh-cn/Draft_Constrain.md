@@ -6,7 +6,7 @@
 
 ## 描述
 
-在[底图工作台工具中](Draft_Workbench/zh-cn.md)，您可以通过指针单击3D视图来拾取图形中的点、距离、半径与角度。
+在[底图工作台](Draft_Workbench/zh-cn.md)工具中，您可以通过指针单击3D视图来拾取图形中的点、距离、半径与角度。
 
 
 </div>
@@ -15,6 +15,8 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 ![](images/Draft_Constrain_taskpanel_example.png ) 
 *While the cursor is constrained the task panel locks the values that are not being modified*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -53,8 +55,8 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
--   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
+-   The default **Constrain modifier** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Constrain modifier**.
+-   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → Interface → In-command shortcuts**.
 
 
 

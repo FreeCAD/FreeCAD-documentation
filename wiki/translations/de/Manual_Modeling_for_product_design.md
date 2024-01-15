@@ -1,5 +1,5 @@
 # Manual:Modeling for product design/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 [Produktdesign](https://de.wikipedia.org/wiki/Produktdesign) ist ursprünglich ein kommerzieller Begriff, aber in der 3D-Welt bedeutet er oft, etwas zu modellieren mit der Idee, es per [3D-Druck](https://de.wikipedia.org/wiki/3D-Druck), oder allgemeiner, maschinell herzustellen, z.B. mit einem 3D-Drucker oder einer [CNC-Maschine](https://de.wikipedia.org/wiki/CNC-Maschine).
 

@@ -6,14 +6,9 @@ FreeCAD, Mac OS X \'te Yükleyici kullanılarak tek adımda kurulabilir.
 
 </div>
 
+If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 
-{{DownloadMacStable}}
-
-and the weekly build can be downloaded from
-
-<img alt="" src=images/Nightly.png  style="width:30px;">[Weekly](https://github.com/FreeCAD/FreeCAD-AppImage/releases/tag/weekly-builds)
-
-You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD 0.18.4 through your bash terminal with
+You can also use a package manager such as HomeBrew to keep your software updated. Instructions to install HomeBrew can be seen [here](https://brew.sh/). When HomeBrew installed you can simply install FreeCAD through your bash terminal with
 
 
 ```python
@@ -45,7 +40,7 @@ FreeCAD yükleyici, bir disk imaj dosyasına eklenmiş bir uygulama paketi (.app
 
 The FreeCAD installer is provided as a app package (.app) enclosed in a disk image file.
 
-Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebilirsiniz. Dosyayı indirdikten sonra, sadece disk imaj dosyasını monte edin, ardından Uygulama klasörüne veya seçtiğiniz bir klasöre sürükleyin.
+Son sürüm yükleme dosyasını [İndirme sayfas](Download.md)ından indirebilirsiniz. Dosyayı indirdikten sonra, sadece disk imaj dosyasını monte edin, ardından Uygulama klasörüne veya seçtiğiniz bir klasöre sürükleyin.
 
 ![](images/mac_installer_1.png )
 
@@ -63,8 +58,14 @@ Son sürüm yükleme dosyasını [İndirme sayfasından](Download.md) indirebili
 
 Şu anda FreeCAD için bir kaldırıcı yok. FreeCAD\'i ve tüm yüklü bileşenleri tamamen kaldırmak için, aşağıdaki dosyaları ve klasörleri Çöp Kutusu\'na sürükleyin:
 
+
+<div class="mw-translate-fuzzy">
+
 -   /Uygulamalar:
     -   FreeCAD
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -90,7 +90,7 @@ Możliwe jest również wyszukiwanie skrótów:
 
 #### Uwagi
 
--   Skróty działają tylko dla aktywnych poleceń. Aktywne polecenia to polecenia, które pojawiają się w standardowym menu lub w menu środowiska pracy, które zostało załadowane w bieżącej sesji FreeCAD, lub polecenia, które pojawiają się na *widocznym* pasku narzędzi.
+-   Skróty działają tylko dla aktywnych poleceń. Aktywne polecenia to polecenia, które pojawiają się w standardowym menu lub w menu środowiska pracy, które zostało załadowane w bieżącym środowisku pracy, lub polecenia, które pojawiają się na *widocznym* pasku narzędzi.
 
 
 {{Top}}

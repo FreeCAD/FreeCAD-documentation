@@ -39,19 +39,19 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_FreeCADWebsite.svg  style="width:32px;"> [FreeCAD Webseite](Std_FreeCADWebsite/de.md). Öffnet die Haupt-Webseite des FreeCAD-Projekts.
 
--   <img alt="" src=images/Std_FreeCADDonation.svg  style="width:32px;"> [Donate](Std_FreeCADDonation.md): Opens the FreeCAD Donate wiki page.
+-   <img alt="" src=images/Std_FreeCADDonation.svg  style="width:32px;"> [Spenden](Std_FreeCADDonation/de.md): Öffnet FreeCADs Spendenseite im Wiki.
 
 -   <img alt="" src=images/Std_FreeCADUserHub.svg  style="width:32px;"> [Benutzerdokumentation](Std_FreeCADUserHub/de.md). Öffnet die Wiki-Seite der FreeCAD-Benutzerdokumentation.
 
 -   <img alt="" src=images/Std_FreeCADPowerUserHub.svg  style="width:32px;"> [Python scripting documentation](Std_FreeCADPowerUserHub/de.md). Öffnet die Wiki-Seite Hauptanwenderzentrum.
 
--   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatische Python-Modul-Dokumentation](Std_PythonHelp/de.md). Öffnet \"python: index of modules\" im voreingestellten Internet-Browser.
+-   <img alt="" src=images/Std_PythonHelp.svg  style="width:32px;"> [Automatische Python-Modul-Dokumentation](Std_PythonHelp/de.md). Öffnet \"Python index of modules\" im voreingestellten Internet-Browser.
 
 -   <img alt="" src=images/Std_FreeCADForum.svg  style="width:32px;"> [FreeCAD-Forum](Std_FreeCADForum/de.md): Öffnet das FreeCAD-Forum.
 
 -   <img alt="" src=images/Std_FreeCADFAQ.svg  style="width:32px;"> [FreeCAD FAQ](Std_FreeCADFAQ/de.md). Öffnet die Wiki-Seite \"Häufig gestellte Fragen\".
 
--   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Report a bug](Std_ReportBug.md): Opens the FreeCAD GitHub issues page.
+-   <img alt="" src=images/Std_ReportBug.svg  style="width:32px;"> [Einen Fehler melden](Std_ReportBug/de.md): Öffnet FreeCADs Fehlerseite auf GitHub.
 
 -   <img alt="" src=images/Std_About.svg  style="width:32px;"> [Über FreeCAD](Std_About/de.md). Öffnet ein Dialogfenster mit informationen über FreeCAD.
 

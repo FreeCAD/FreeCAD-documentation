@@ -12,15 +12,17 @@
 
 ## Description
 
-Sélectionne l\'axe vertical d\'une esquisse.
+La commande <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:24px;"> **Axe vertical** sélectionne l\'axe vertical d\'une esquisse.
 
 
 
 ## Utilisation
 
-1.  Entrez dans le mode d\'édition de l\'esquisse.
-2.  Choisissez **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Sélectionner l'axe vertical** dans le menu principal.
-3.  L\'axe vertical de l\'esquisse sera sélectionnée.
+1.  Si ce n\'est pas encore fait : ouvrir une esquisse en mode édition.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Sélectionnez l\'option **Esquisse → Outils d'esquisse → [<img src=images/Sketcher_SelectVerticalAxis.svg style="width:16px"> Sélectionner l'axe vertical** du menu.
+    -   Raccourci clavier : **Z** then **V**.
+3.  L\'axe vertical de l\'esquisse sera sélectionné.
 
 
 

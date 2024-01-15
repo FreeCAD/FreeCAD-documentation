@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Arc 3Points
    Name/de: Draft Bogen 3Punkte
-   MenuLocation: Entwurf , Bogenwerkzeuge , Bogen aus 3 Punkten
+   MenuLocation: Zeichnen , Bogenwerkzeuge , Bogen aus 3 Punkten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **A** **T**
    Version: 0.19
@@ -26,38 +26,40 @@ Ein Draft-Bogen ist eigentlich ein [Draft-Kreis](Draft_Circle/de.md) mit einer {
 
 ## Anwendung
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md) und [Draft-Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die Taste **<img src="images/Draft_Arc_3Points.svg" width=16px> [Draft Arc 3Points](Draft_Arc_3Points/de.md)** Taste, oder drücke **A** dann **T** Tasten.
-2.  Klicke auf einen ersten Punkt in der 3D-Ansicht, oder gib eine Koordinate and press the **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-3.  Klicke auf einen zweiten Punkt in der 3D-Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-4.  Klicke auf einen dritten Punkt in der 3D-Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
-5.  Der Bogen wird erstellt, nachdem der dritte Punkt angegeben wurde.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Arc_3Points.svg" width=16px> [Bogen aus 3 Punkten](Draft_Arc_3Points/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → Bogenwerkzeuge → <img src="images/Draft_Arc_3Points.svg" width=16px> Bogen aus 3 Punkten** auswählen.
+    -   Das Tastaturkürzel **A** dann **T**. {{Version/de|0.20}}
+2.  Der Aufgaben-Bereich **Bogen aus 3 Punkten** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+4.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+5.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
 
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
+-   Zum manuellen Eingeben der Koordinaten des Mittelpunktes werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view.md) heraus zu bewegen, bevor die Koordinaten eingegeben werden.
+
+-    **R**drücken oder die Checkbox **Relative** aktivieren, um den Relativ-Modus umzuschalten. Wenn der Relativ-Modus aktiviert ist, beziehen sich Koordinaten auf den zuletzt eingegebenen Punkt, falls vorhanden, andernfalls auf den Ursprung des Koordinatensystems.
+
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
+
+-    **N**drücken oder die Checkbox **Continue** aktivieren, um den Fortsetzen-Modus umzuschalten. Wenn der Fortsetzen-Modus aktiviert ist, wird der Befehl nach dem Beenden erneut gestartet, und ermöglicht so mit dem Erstellen von Bögen fortzufahren.
+
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
+
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
--   A Draft Arc can be edited with the [Draft Edit](Draft_Edit.md) command.
+-   Ein Draft-Bogen kann mit dem Befehl [Draft-Bearbeiten](Draft_Edit/de.md) geändert werden.
 
 
 
@@ -65,8 +67,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a non-editable [Part Feature](Part_Feature.md) instead of a Draft Circle.
+-   Wenn die Option **Bearbeiten → Einstellungen... → Draft → Allgemein → Create Part primitives if possible** aktiviert ist, erstellt der Befehl ein nicht editierbares [Part-Formelement](Part_Feature/de.md) anstelle eines Draft-Kreises.
 
 
 
@@ -87,15 +88,15 @@ Zum Erstellen eines Draft-Bogens durch 3 Punkte wird die Methode `make_arc_3poin
 arc = make_arc_3points(points, placement=None, face=False, support=None, map_mode="Deactivated", primitive=False)
 ```
 
--   Creates an `arc` object from the given `points` list.
--   If a `placement` is given, the center of the circular arc will be moved to this place. See [Placement](Placement.md) for more information.
--   If `face` is `True`, the arc will make a face, that is, it will appear filled.
--   If `support` is given, it is a `LinkSubList`, that is, a list indicating an object and a subelement of that object. This is used so that the object appears referenced to this support.
+-   Erstellt ein `arc`-Objekt aus der gegebenen `points`-Liste.
+-   Ist ein `placement` angegeben, wird der Mittelpunkt eines Kreisbogens auf diese Position verschoben. Siehe [Positionierung](Placement/de.md) für weitere Informationen.
+-   Ist `face` auf `True` gesetzt, wird aus dem Kreisbogen eine Fläche erstellt, d.h. er wird gefüllt dargestellt.
+-   Ist ein `support` angegeben, handelt es sich um eine `LinkSubList`, d.h. eine Liste, die ein Objekt und ein Unterelement dieses Objekts enthält. Dies wird verwendet, um das Objekt auf diesen Support zu referenzieren.
 
-:   For example: support=[(obj, ("Face1"))].
+:   Zum Beispiel: support=[(obj, ("Face1"))].
 
--   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part EditAttachment](Part_EditAttachment.md) for more information.
--   If `primitive` is `True`, the arc created will be a simple [Part Feature](Part_Feature.md), not a complex Draft object.
+-   Ist ein `map_mode` angegeben, handelt es sich um eine Zeichenkette, die die Art der Zuordnung festlegen, z.B.: map_mode='FlatFace', map_mode='ThreePointsPlane', usw. Siehe [Part-Befestigen](Part_EditAttachment/de.md) für weitere Informationen.
+-   Ist `primitive` auf `True` gesetzt, wird der Bogen als einfaches [Part-Formelement](Part_Feature/de.md) erstellt, nicht als komplexes Draft-Objekt.
 
 Beispiel:
 

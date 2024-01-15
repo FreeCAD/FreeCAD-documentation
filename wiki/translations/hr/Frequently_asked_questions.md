@@ -1,6 +1,8 @@
 # Frequently asked questions/hr
 This page attempts to answer the most common questions asked on the FreeCAD forums. If you have a problem or question regarding FreeCAD, check below first. Then, if you cannot find an answer for your specific question, head to the [FreeCAD forum](http://forum.freecadweb.org/viewforum.php?f=3)!
 
+
+
 ## Instalacija
 
 ### What is the easiest way to install FreeCAD on my system? 
@@ -30,6 +32,10 @@ FreeCAD depends on a lot of things to offer all its functionality. All the main 
 All those components and the appropriate way to install them are listed on the [Extra python modules](Extra_python_modules.md) page.
 
 ## Troubleshooting
+
+### Known OS-specific issues 
+
+Find known OS-specific issues on this [forum thread](https://forum.freecad.org/viewtopic.php?t=30573)
 
 ### FreeCAD doesn\'t start at all 
 

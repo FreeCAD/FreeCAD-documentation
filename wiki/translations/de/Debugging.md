@@ -421,6 +421,10 @@ squashfs-root> ./usr/bin/freecad
 
 </div>
 
+### Pyzo
+
+See the [main article about Pyzo](Pyzo.md).
+
 
 
 ## Fehlerdiagnose OpenCasCade 

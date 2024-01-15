@@ -27,7 +27,7 @@ The tool has three modes: \"Standard\", \"Split\", and \"CompSolid\".
 
 Compounding structure in \"Standard\" and \"Split\" modes follows the compounding structure of inputs. That is, if you feed in two compounds, each containing a sphere like on example above, the result will also contain two compounds, each containing the pieces of the originally contained sphere. That means, the common piece will be repeated twice in the result. Only if the input spheres are both not in compounds, the result will contain the common piece once.
 
-In \"CompSolid\" mode, the solids are joined into a compsolid (compsolid is a set of solids connected by faces; they are related to solids like wires are related to edges, and shells are related to faces; the name is probably a shortened phrase \"composite solid\"). The output is a non-nested compound of compsolids
+In \"CompSolid\" mode, the solids are joined into a compsolid (compsolid is a set of solids connected by faces; they are related to solids like wires are related to edges, and shells are related to faces; the name is probably a shortened phrase \"composite solid\"). The output is a non-nested compound of compsolids.
 
 ## Usage
 

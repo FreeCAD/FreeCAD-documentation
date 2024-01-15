@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM ConstraintPressure
-   MenuLocation: Model , Mechanical Constraints , Constraint pressure
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintForce
+|NaməMES Obciążenie ciśnieniem
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie ciśnieniem
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintForce/pl
 ---
 
 # FEM ConstraintPressure/pl
@@ -12,24 +13,26 @@
 
 ## Opis
 
-Nakłada na ścianę warunek nacisku ciśnieniem.
+Nakłada na ścianę obciążenie ciśnieniem.
 
 
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintPressure.svg" width=16px> [FEM ConstraintPressure](FEM_ConstraintPressure.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintPressure.svg" width=16px> Constraint pressure** option from the menu.
-2.  Click on **Add reference** and select face in the [3D view](3D_view.md).
-3.  Edit appropriate window to specify pressure load in MPa.
-4.  Tick box to reverse direction if necessary.
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintPressure.svg" width=16px> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintPressure.svg" width=16px> Obciążenie ciśnieniem** z menu.
+2.  Wciśnij przycisk **Dodaj** i wybierz ścianę w [widoku 3D](3D_view/pl.md).
+3.  Edytuj odpowiednie pole aby wprowadzić wartość ciśnienia w MPa.
+4.  Zaznacz pole do odwrócenia kierunku działania ciśnienia, jeśli to konieczne.
 
-## Notes
 
--   Distribution of pressure on face is always uniform and always perpendicular to face.
 
--   Pressure on faces: <https://github.com/FreeCAD/FreeCAD/issues/5699>
+## Uwagi
+
+-   Rozkład ciśnienia na powierzchni jest zawsze jednorodny i prostopadły do niej.
+
+-   Ciśnienie na powłokach: <https://github.com/FreeCAD/FreeCAD/issues/5699>
 
 
 

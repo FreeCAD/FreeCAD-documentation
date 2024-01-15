@@ -106,10 +106,16 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 -    **Eigenmodes Count**: numărul de moduri proprii minime care urmează a fi calculate
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Geometric Nonlinearity**:
 
     -   linear - o analiză liniară va fi efectuată dacă modelul nu conține material neliniar
     -   neliniare - se va efectua o analiză neliniară
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -135,7 +141,13 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Iterations Thermo Mech Maximum**: numărul maxim de creșteri în analizele termomecanice după care lucrarea va fi oprită.
+
+
+</div>
 
 -    **Iterations User Defined Incrementations**:
 
@@ -184,10 +196,16 @@ Default values can be set in the menu **Edit** → **Preferences** → **FEM** �
     -   false - scrie intrări întregi într-un fișier \* .inp pentru a fi utilizat de CalculiX solver
     -   adevărat - split solver intrări în mai multe fișiere \* .inp, care pot clarifica editare manuală
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Thermo Mechanical Steady State**:
 
     -   adevărată - analiză termo-mecanică la starea de echilibru
     -   fals - analiză termo-mecanică tranzitorie
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

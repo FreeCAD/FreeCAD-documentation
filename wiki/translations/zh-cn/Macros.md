@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-宏是一种在FreeCAD中生成一系列复杂动作的简便方式。您可以借助此功能方便地将多个动作记录下来，将其保存在所取名下，在需要的时候反复执行。由于宏是一系列[Python命令](Python.md)，所以可以对它们进行编辑，并创建出非常复杂的脚本。
+宏是一种在FreeCAD中生成一系列复杂动作的简便方式。您可以借助此功能方便地将多个动作记录下来，将其保存在所取名下，在需要的时候反复执行。由于宏是一系列[Python](Python.md)命令，所以可以对它们进行编辑，并创建出非常复杂的脚本。
 
 
 </div>
@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`作为扩展名。由经验丰富者所编写的宏的合集可从[macros recipes页面找到](macros_recipes.md)。
+Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`作为扩展名。由经验丰富者所编写的宏的合集可从[macros recipes](macros_recipes.md)页面找到。
 
 
 </div>
@@ -20,10 +20,12 @@ Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`�
 
 <div class="mw-translate-fuzzy">
 
-参考[Introduction to Python来学习Python编程语言](Introduction_to_Python.md)，再阅读[Python scripting tutorial与](Python_scripting_tutorial.md)[FreeCAD Scripting Basics来学习如何编写宏](FreeCAD_Scripting_Basics.md)。
+参考[Introduction to Python](Introduction_to_Python.md)来学习Python编程语言，再阅读[Python scripting tutorial](Python_scripting_tutorial.md)与[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)来学习如何编写宏。
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -35,7 +37,7 @@ Python脚本通常以`.py`作为扩展名，而FreeCAD中的宏则以`.FCMacro`�
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 这个工具使用起来也十分方便：按下记录按钮，系统会让您给宏起个名，接下来让您来执行一些动作。待记录的动作执行完毕后，点击停止记录按钮，之前的动作就会被保存下来。随后即可利用编辑按钮来访问宏对话框。
 
@@ -51,16 +53,20 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 示例
 
-按下记录按钮，指定宏的名称，这里设置为\"cylinder 10x10\"，接下来，在[零件工作台中创建一个半径为](Part_Workbench.md)10且高为10的圆柱体。随后按下\"stop recording（停止记录）\"按钮。在编辑宏对话框中，您可以看到刚刚记录的python代码，如有需要就对代码进行调整。要执行编辑器中的宏的时候，只需简单地按下工具栏中的执行按钮即可。您制作的宏将一直存于硬盘，因此，您做的任意更改、或所创的新宏总能在下次开启FreeCAD时继续使用。
+按下记录按钮，指定宏的名称，这里设置为\"cylinder 10x10\"，接下来，在[零件工作台](Part_Workbench.md)中创建一个半径为10且高为10的圆柱体。随后按下\"stop recording（停止记录）\"按钮。在编辑宏对话框中，您可以看到刚刚记录的python代码，如有需要就对代码进行调整。要执行编辑器中的宏的时候，只需简单地按下工具栏中的执行按钮即可。您制作的宏将一直存于硬盘，因此，您做的任意更改、或所创的新宏总能在下次开启FreeCAD时继续使用。
 
 
 </div>
 
 Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in the [Part Workbench](Part_Workbench.md), create a cylinder with radius = 10 and height = 10. Then, press the \"stop recording\" button. In the edit macros dialog, you can see the python code that has been recorded, and, if you want, make alterations to it. To execute your macro, simply press the execute button on the toolbar while your macro is in the editor. You macro is always saved to disk, so any change you make, or any new macro you create, will always be available next time you start FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -79,12 +85,14 @@ Of course it is not practical to load a macro in the editor in order to use it. 
 
 <div class="mw-translate-fuzzy">
 
-借助[自定义工具栏可使您的宏成为像其他FreeCAD标准工具那样的实体工具](Customize_Toolbars.md)。这样，既可将python脚本强大的功能添加至FreeCAD中，又能令您方便地把自己制作的工具加入到界面中。如果您希望了解更多关于[Python脚本的信息](Python.md)，请阅读[Scripting页面](Scripting.md)。
+借助[自定义工具栏](Customize_Toolbars.md)可使您的宏成为像其他FreeCAD标准工具那样的实体工具。这样，既可将python脚本强大的功能添加至FreeCAD中，又能令您方便地把自己制作的工具加入到界面中。如果您希望了解更多关于[Python](Python.md)脚本的信息，请阅读[Scripting](Scripting.md)页面。
 
 
 </div>
 
 See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -101,16 +109,20 @@ You can also directly copy/paste python code into a macro, without recording GUI
 See [How to install macros](How_to_install_macros.md) for a more detailed description.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## 众宏之库
 
-您可以光临[Macros recipes页面来挑选需要的宏](Macros_recipes.md)，并将它添加至FreeCAD中进行安装。
+您可以光临[Macros recipes](Macros_recipes.md)页面来挑选需要的宏，并将它添加至FreeCAD中进行安装。
 
 
 </div>
 
 There are two main places for macros. The first one is the official peer-reviewed macro repository on [GitHub](https://github.com/FreeCAD/FreeCAD-macros). The second one is the [Macros recipes](Macros_recipes.md) page from which you can pick some useful macros to add to your FreeCAD installation. Macros from both repositories can be installed via the [Addon Manager](Std_AddonMgr.md) directly from FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -124,6 +136,8 @@ There are two main places for macros. The first one is the official peer-reviewe
 
 -   [Automatically run macro at startup](Macro_at_Startup.md)
 -   [Installing more workbenches](Installing_more_workbenches.md)
+
+
 
 
 <div class="mw-translate-fuzzy">

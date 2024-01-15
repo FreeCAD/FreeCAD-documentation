@@ -13,16 +13,20 @@
 
 </div>
 
+
+
 ## Descrizione
 
 For a finite element analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses Netgen (which needs to be installed on the system) for calculating the mesh.
 
 Depending on your operating system and your installation package Netgen might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
 
+
+
 ## Utilizzo
 
 1.  Select the shape you want to analyze. For a volume, this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [Part BooleanFragments](Part_BooleanFragments.md) command.)
-    -   Press the **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [FEM MeshNetgenFromShape](FEM_MeshNetgenFromShape.md)** button, or
+    -   Press the **<img src="images/FEM_MeshNetgenFromShape.svg" width=16px> [FEM mesh from shape by Netgen](FEM_MeshNetgenFromShape.md)** button, or
     -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Netgen** option from the menu.
 2.  Optionally, edit the parameters.
 3.  Click the **Apply** button to make a mesh, or **OK** button to make a mesh and close the dialogue.
@@ -36,7 +40,7 @@ Depending on your operating system and your installation package Netgen might be
     -   true (default); second order elements,
     -   false; first order elements.
 
--    **Fineness**: Defines how fine the mesh should be.
+-    **Fineness**: Offers predefined levels of mesh density.
 
 -    **Growth Rate**: Defines how much adjacent elements can differ in size.
 
@@ -46,8 +50,8 @@ Depending on your operating system and your installation package Netgen might be
 
 -    **Optimize**:
 
-    -   true (default); applies optimization algorithm to improve mesh quality,
-    -   false;
+    -   true (default): applies optimization algorithm to improve mesh quality
+    -   false
 
 
 <div class="mw-translate-fuzzy">

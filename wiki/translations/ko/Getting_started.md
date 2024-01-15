@@ -1,34 +1,9 @@
 # Getting started/ko
-<div class="mw-translate-fuzzy">
-
-
-{{docnav|Install on Mac|Mouse Model}}
-
-
-</div>
-
-
-
-
-
-
 ## 머리말
 
+FreeCAD는 3D CAD/CAE 중 [변수 기반형 모델링 프로그램](About_FreeCAD.md) 입니다. 이것은 주로 기계 설계를 위해 만들어 졌지만, 변수에 치수를 입력하여 정밀하게 조절 하면서 모델링 된 이력을 가진 3D 개체의 모델링이 필요한 다른 분야들에도 이용 됩니다.
 
-<div class="mw-translate-fuzzy">
-
-FreeCAD는 3D CAD/CAE [parametric modeling application입니다](About_FreeCAD.md). 이것은 주로 기계 설계를 위해 만들어졌지만, 모델링 이력을 정밀하게 제어할 수 있는 3D 개체를 모델링해야하는 다른 모든 용도에도 쓰입니다.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD는 현재 개발 중에 있으며 많은 [features](Feature_list.md) 목록을 제공합니다. 기능은 아직 상업용 솔루션에 비해 모자라며 대부분의 프로덕션 환경에서 사용하기에는 부족할 수 있지만, 대부분의 애호가 및 많은 소규모 워크샵에는 충분히 강력합니다. [FreeCAD 포럼](http://forum.freecadweb.org/index.php)에 참여하는 열정적인 사용자 커뮤니티가 급성장하고 있습니다. [많은 예제들](https://forum.freecadweb.org/viewforum.php?f=24)이 FreeCAD로 개발된 품질 프로젝트입니다.
-
-
-</div>
+FreeCAD는 2002년에 시작하여 발전되어 왔으며, [features](Feature_list.md) 목록에 수록된 많은 기능들을 제공합니다. 아직 미비된 성능들이 있지만 취미 용도나 소규모 업무 등 에는 충분한 상태입니다. 급성장 하고 있는 [FreeCAD 포럼](http://forum.freecadweb.org/index.php)에 참여하는 열정적인 사용자 커뮤니티가 있고, 품질 관리를 위해, FreeCAD 로 만들어진 것을 [많은 예제들](https://forum.freecadweb.org/viewforum.php?f=24) 에서 찾아 볼 수 있습니다. 그리고 [프리캐드를 사용한 생산품](FreeCAD_used_in_production.md) 도 읽어 보세요.
 
 
 <div class="mw-translate-fuzzy">
@@ -81,8 +56,8 @@ See also:
 <div class="mw-translate-fuzzy">
 
 1.  3D view는 문서의 내용을 보여줌
-2.  [tree view는](Document_structure.md) 문서 안의 모든 계체의 계층과 구조 역사를 보여줌
-3.  [property editor는](property_editor.md) 선택한 개체의 properties를 보고 바꾸는 것을 허용
+2.  [tree view](Document_structure.md)는 문서 안의 모든 계체의 계층과 구조 역사를 보여줌
+3.  [property editor](property_editor.md)는 선택한 개체의 properties를 보고 바꾸는 것을 허용
 4.  report view(즉 output window)는 FreeCAD 가 메시지, 경고, 에러를 보여주는 곳
 5.  The Python console, FreeCAD가 실행하는 모든 명령이 출력되고, python 코드를 입력하는 곳
 6.  The [workbench selector](Workbenches.md), where you select the active workbench
@@ -93,7 +68,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD 인터페이스의 기본 개념은 [workbenches로](workbenches.md) 분리된다는 것입니다. A workbench is a collection of tools suited for a specific task, such as working with [meshes](Mesh_Workbench.md), or drawing [2D objects](Draft_Workbench.md), or [constrained sketches](Sketcher_Workbench.md). You can switch the current workbench with the workbench selector (6). You can [customize](Interface_Customization.md) the tools included in each workbench, add tools from other workbenches or even self-created tools, that we call [macros](macros.md). Widely used starting points are the [PartDesign Workbench](PartDesign_Workbench.md) and [Part Workbench](Part_Workbench.md).
+FreeCAD 인터페이스의 기본 개념은 [workbenches](workbenches.md)로 분리된다는 것입니다. A workbench is a collection of tools suited for a specific task, such as working with [meshes](Mesh_Workbench.md), or drawing [2D objects](Draft_Workbench.md), or [constrained sketches](Sketcher_Workbench.md). You can switch the current workbench with the workbench selector (6). You can [customize](Interface_Customization.md) the tools included in each workbench, add tools from other workbenches or even self-created tools, that we call [macros](macros.md). Widely used starting points are the [PartDesign Workbench](PartDesign_Workbench.md) and [Part Workbench](Part_Workbench.md).
 
 
 </div>
@@ -223,7 +198,7 @@ There are two types of addons:
 
 ## 새로운 점 
 
--   자세한 특징 목록은 [release notes를](Feature_list#Release_notes.md) 보세요.
+-   자세한 특징 목록은 [release notes](Feature_list#Release_notes.md)를 보세요.
 
 
 <div class="mw-translate-fuzzy">

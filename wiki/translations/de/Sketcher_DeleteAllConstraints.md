@@ -10,9 +10,13 @@
 
 # Sketcher DeleteAllConstraints/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug löscht alle Beschränkungen aus der zu bearbeitenden Skizze und lässt die Geometrie unverändert.
+Dieses Werkzeug löscht alle Randbedingungen aus der zu bearbeitenden Skizze und lässt die Geometrie unverändert.
+
+
 
 ## Anwendung
 

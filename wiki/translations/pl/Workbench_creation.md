@@ -7,15 +7,15 @@ Ta strona pokaże Ci, jak dodać nowe środowisko pracy do interfejsu programu F
 
 ## Struktura środowiska pracy 
 
-You need a folder, with any name you like, placed in the user Mod directory, with an `Init.py` file, and, optionally an `InitGui.py` file. The Init file is executed when FreeCAD starts, and the `InitGui.py` file is executed immediately after, but only when FreeCAD starts in GUI mode. That\'s all it needs for FreeCAD to find your workbench at startup and add it to its interface.
+Potrzebny jest folder o dowolnej nazwie, umieszczony w katalogu Mod użytkownika, z plikiem `Init.py` i opcjonalnie plikiem `InitGui.py`. Plik Init jest wykonywany podczas uruchamiania FreeCAD, a plik `InitGui.py` jest wykonywany natychmiast po nim, ale tylko wtedy, gdy FreeCAD uruchamia się w trybie GUI. To wszystko, czego potrzebuje FreeCAD, aby znaleźć środowisko pracy podczas uruchamiania i dodać je do swojego interfejsu.
 
-The user Mod directory is a sub-directory of the user application data directory (you can find the latter by typing `App.getUserAppDataDir()` in the [Python console](Python_console.md)):
+Katalog Mod użytkownika jest podkatalogiem katalogu danych aplikacji użytkownika (można go znaleźć wpisując `App.getUserAppDataDir()` w [konsoli Python](Python_console/pl.md)):
 
--   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
--   On Windows it is **%APPDATA%\FreeCAD\Mod\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
+-   W systemie Linux jest to zazwyczaj **/home/<nazwa użytkownika>/.local/share/FreeCAD/Mod/** ({{VersionPlus/pl|0.20}}) lub **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/pl|0.19}}).
+-   W systemie Windows jest to **%APPDATA%\FreeCAD\Mod\**, który zwykle jest **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
+-   Na macOS jest to zazwyczaj **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
 
-The Mod directory should look like this:
+Katalog Mod powinien wyglądać następująco:
 
 
 ```python
@@ -25,17 +25,19 @@ The Mod directory should look like this:
      +-- InitGui.py
 ```
 
-Inside those files you can do whatever you want. Usually they are used like this:
+Wewnątrz tych plików można robić, co się chce. Zazwyczaj są one używane w ten sposób:
 
--   In the Init.py file you just add a couple of things used even when FreeCAD works in console mode, for example the file importers and exporters
+-   W pliku Init.py wystarczy dodać kilka rzeczy używanych nawet wtedy, gdy FreeCAD działa w trybie konsoli, na przykład importerów i eksporterów plików.
 
--   In the InitGui.py file you usually define a workbench, which contains a name, an icon, and a series of FreeCAD commands (see below). That python file also defines functions that are executed when FreeCAD loads (you try to do as little as possible there, so you don\'t slow down the startup), another that gets executed when the workbench is activated (that\'s where you\'ll do most of the work), and a third one when the workbench is deactivated (so you can remove things if needed).
+-   W pliku InitGui.py zazwyczaj definiuje się środowisko pracy, które zawiera nazwę, ikonę i serię poleceń FreeCAD *(patrz poniżej)*. Ten plik Pythona definiuje również funkcje, które są wykonywane podczas ładowania FreeCAD *(starasz się robić tam jak najmniej, aby nie spowalniać uruchamiania)*, kolejną, która jest wykonywana, gdy środowisko pracy jest aktywowane *(to tam będziesz wykonywał większość pracy)*, a trzecią, gdy środowisko pracy jest dezaktywowane *(dzięki czemu możesz usuwać rzeczy w razie potrzeby)*.
 
-The structure and file content for a workbench described here is the classic way of creating a new workbench. One can use a slight variation in the structure of files when making a new Python workbench, that alternative way is best described as a \"namespaced workbench\", opening up the possibility to use pip to install the workbench. Both structures work, so it is more a question of preference when creating a new workbench. The style and structure for workbenches presented here are available in the global namespace of FreeCAD, whereas for the alternative style and structure the workbench resides in a dedicated namespace. For further readings on the topic see [Related](Workbench_creation#Related.md).
+Opisana tutaj struktura i zawartość plików środowiska pracy jest klasycznym sposobem tworzenia nowego środowiska pracy. Można użyć niewielkiej odmiany w strukturze plików podczas tworzenia nowego środowiska pracy w Pythonie, ten alternatywny sposób najlepiej opisać jako \"środowisko pracy z przestrzenią nazw\", otwierając możliwość użycia narzędzia pip do zainstalowania środowiska pracy. Obie struktury działają, więc jest to bardziej kwestia preferencji podczas tworzenia nowego środowiska roboczego. Przedstawiony tutaj styl i struktura środowiska roboczego są dostępne w globalnej przestrzeni nazw FreeCAD, podczas gdy w przypadku alternatywnego stylu i struktury środowisko robocze znajduje się w dedykowanej przestrzeni nazw. Więcej informacji na ten temat można znaleźć w sekcji [Powiązane](Workbench_creation#Powiązane.md).
 
-### C++ workbench structure 
 
-If you are going to code your workbench in python, you don\'t need to take special care, and can simply place your other python files together with your Init.py and InitGui.py files. When working with C++, however, you should take greater care, and start with respecting one fundamental rule of FreeCAD: The separation of your workbench between an App part (that can run in console mode, without any GUI element), and a Gui part, which will only be loaded when FreeCAD runs with its full GUI environment. So when developing a C++ workbench, you will actually most likely create two modules, an App and a Gui. These two modules must of course be callable from python. Any FreeCAD module (App or Gui) consists, at the very least, of a module init file. This is a typical AppMyModuleGui.cpp file:
+
+## C++ struktura środowiska pracy 
+
+Jeśli zamierzasz zakodować swoje środowisko pracy w Pythonie, nie musisz zachować szczególnej ostrożności i możesz po prostu umieścić inne pliki Python razem z plikami Init.py i InitGui.py. Podczas pracy z C++ należy jednak zachować większą ostrożność i zacząć od przestrzegania jednej podstawowej zasady FreeCAD: Rozdzielenie środowiska pracy na część aplikacji *(która może działać w trybie konsoli, bez żadnego elementu GUI)* i część Gui, która zostanie załadowana tylko wtedy, gdy FreeCAD działa z pełnym środowiskiem GUI. Tak więc podczas tworzenia środowiska pracy C++, najprawdopodobniej utworzysz dwa moduły, App i Gui. Te dwa moduły muszą być oczywiście wywoływalne z Pythona. Każdy moduł FreeCAD (App lub Gui) składa się co najmniej z pliku inicjującego moduł. Jest to typowy plik AppMyModuleGui.cpp:
 
 
 ```python
@@ -66,7 +68,9 @@ extern "C" {
 }
 ```
 
-### The Init.py file 
+
+
+### Plik Init.py 
 
 
 {{code|code=
@@ -96,17 +100,19 @@ extern "C" {
 # ***************************************************************************/
 
 FreeCAD.addImportType("My own format (*.own)", "importOwn")
-FreeCAD.addExportType("My own format (*.own)", "importOwn")
+FreeCAD.addExportType("My own format (*.own)", "exportOwn")
 print("I am executing some stuff here when FreeCAD starts!")
 }}
 
-You can choose any license you like for your workbench, but be aware that if you wish to see your workbench integrated into and distributed with the FreeCAD source code at some point, it needs to be LGPL2+ like the example above. See [Licence](Licence.md).
+Możesz wybrać dowolną licencję dla swojego środowiska pracy, ale pamiętaj, że jeśli chcesz, aby Twoje środowisko pracy było w pewnym momencie zintegrowane z kodem źródłowym FreeCAD i rozpowszechniane z nim, musi to być LGPL2+, jak w powyższym przykładzie. Zobacz stronę wyjaśniającą zagadnienia [Licencji](Licence/pl.md).
 
-The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
+Funkcje `FreeCAD.addImportType()` i `addEXportType()` pozwalają na podanie nazwy i rozszerzenia typu pliku oraz modułu Python odpowiedzialnego za jego import. W powyższym przykładzie moduł `importOwn.py` będzie obsługiwał pliki `.own`. Więcej przykładów można znaleźć na stronie [Wycinki kodów](Code_snippets/pl.md).
 
-### Python workbenches 
 
-This is the InitGui.py file:
+
+### Środowiska pracy w Python 
+
+To jest plik InitGui.py:
 
 
 ```python
@@ -147,45 +153,47 @@ class MyWorkbench (Workbench):
 Gui.addWorkbench(MyWorkbench())
 ```
 
-Other than that, you can do anything you want: you could put your whole workbench code inside the InitGui.py if you want, but it is usually more convenient to place the different functions of your workbench in separate files. So those files are smaller and easier to read. Then you import those files into your InitGui.py file. You can organize those files the way you want, a good example is one for each FreeCAD command you add.
+Poza tym możesz zrobić co chcesz: możesz umieścić cały kod workbencha w InitGui.py, jeśli chcesz, ale zwykle wygodniej jest umieścić różne funkcje workbencha w osobnych plikach. Dzięki temu pliki te są mniejsze i łatwiejsze do przeglądania. Następnie importujesz te pliki do pliku InitGui.py. Możesz zorganizować te pliki w dowolny sposób, dobrym przykładem jest jeden dla każdego dodawanego polecenia FreeCAD.
 
-#### Preferences
 
-You can add a Preferences page for your Python workbench. The Preferences pages look for a preference icon with a specific name in the Qt Resource system. If your icon isn\'t in the resource system or doesn\'t have the correct name, your icon won\'t appear on the Preferences page.
 
-Adding your workbench icon:
+#### Ustawienia
 
--   the preferences icon needs to be named \"preferences-\" + \"modulename\" + \".svg\" (all lowercase)
--   make a qrc file containing all icon names
--   in the main \*.py directory, run pyside-rcc -o myResources.py myqrc.qrc
--   in InitGui.py, add import myResource(.py)
--   update your repository(git) with myResources.py and myqrc.qrc
+Można dodać stronę preferencji dla środowiska pracy Python. Strony preferencji szukają ikony preferencji o określonej nazwie w systemie zasobów Qt. Jeśli ikony nie ma w systemie zasobów lub nie ma poprawnej nazwy, ikona nie pojawi się na stronie preferencji.
 
-You\'ll need to redo the steps if you add/change icons.
+Dodawanie ikony środowiska pracy:
 
-\@kbwbe has created a nice script to compile resources for the A2Plus workbench. See below.
+-   ikona preferencji musi mieć nazwę \"preferences-\" + \"modulename\" + \".svg\" *(wszystkie małe litery)*,
+-   utwórz plik qrc zawierający wszystkie nazwy ikon,
+-   w głównym katalogu \*.py, uruchom pyside-rcc -o myResources.py myqrc.qrc
+-   w InitGui.py, dodaj import myResource(.py)
+-   zaktualizuj swoje repozytorium *(git)* za pomocą myResources.py i myqrc.qrc
 
-Adding your preference page(s):
+Będziesz musiał powtórzyć te kroki, jeśli dodasz / zmienisz ikony.
 
--   You need to compile the Qt designer plugin that allows you to add preference settings with [Qt Designer](Compile_on_Linux#Qt_designer_plugin.md)
--   Create a blank widget in Qt Designer (no buttons or anything)
--   Design your preference page, any setting that must be saved (preferences) must be one of the Gui::Pref\* widgets that were added by the plugin)
--   In any of those, make sure you fill the PrefName (the name of your preference value) and PrefPath (ex: Mod/MyWorkbenchName), which will save your value under BaseApp/Preferences/Mod/MyWorkbenchName
--   Save the ui file in your workbench, make sure it\'s handled by cmake
--   In your workbench, for ex. inside the InitGui file, inside the Initialize method (but any other place works too), add: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\",\"MyGroup\"), \"MyGroup\" being one of the preferences groups on the left. FreeCAD will automatically look for a \"preferences-mygroup.svg\" file in its known locations (which you can extend with FreeCADGui.addIconPath())
--   Make sure the addPreferencePage() method is called only once, otherwise your pref page will be added several times
+\@kbwbe stworzył fajny skrypt do kompilacji zasobów dla środowiska A2Plus. Zobacz poniżej.
+
+Dodawanie stron preferencji:
+
+-   Musisz skompilować wtyczkę Qt Designer, która umożliwia dodawanie ustawień preferencji za pomocą [Qt Designer](Compile_on_Linux/pl#Qt_designer_plugin.md)
+-   Utwórz pusty widżet w Qt Designer *(bez przycisków ani niczego)*
+-   Zaprojektuj swoją stronę preferencji, każde ustawienie, które musi zostać zapisane *(preferencje)* musi być jednym z widżetów Gui::Pref\*, które zostały dodane przez wtyczkę.
+-   W każdym z nich upewnij się, że wypełniłeś PrefName *(nazwa wartości preferencji)* i PrefPath *(np. Mod/MyWorkbenchName)*, co spowoduje zapisanie wartości w BaseApp/Preferences/Mod/MyWorkbenchName.
+-   Zapisz plik UI w swoim środowisku pracy, upewnij się, że jest on obsługiwany przez cmake.
+-   W swoim środowisku pracy, np. wewnątrz pliku InitGui, wewnątrz metody Initialize *(ale każde inne miejsce też działa)*, dodaj: FreeCADGui.addPreferencePage(\"/path/to/myUiFile.ui\", \"MyGroup\"), przy czym \"MyGroup\" jest jedną z grup preferencji po lewej stronie. FreeCAD automatycznie wyszuka plik \"preferences-mygroup.svg\" w swoich znanych lokalizacjach *(które można rozszerzyć za pomocą FreeCADGui.addIconPath())*.
+-   Upewnij się, że metoda addPreferencePage() jest wywoływana tylko raz, w przeciwnym razie strona preferencji zostanie dodana kilka razy.
 
 
 
 #### Dystrybucja
 
-To distribute your Python workbench, you may either simply host the files in some location and instruct your users to download them and place them in their Mod directory manually, or you may host them in an online git repository (GitHub, GitLab, Framagit, and Debian Salsa are currently supported locations) and configure them for the [Addon Manager](Std_AddonMgr.md) to install. Instructions for inclusion on FreeCAD\'s official Addons list can be found on the [FreeCAD Addons GitHub repository](https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). To use the Addon Manager, a [package.xml metadata file](Package_Metadata.md) should be included, which instructs the Addon Manager how to find your workbench\'s icon, and allows display of a description, version number, etc. It can also be used to specify other workbenches or Python packages that your Workbench either depends on, is blocked by, or is intended to replace.
+Aby rozpowszechniać swoje środowisko pracy Python, możesz po prostu hostować pliki w jakiejś lokalizacji i poinstruować użytkowników, aby pobrali je i umieścili w swoim katalogu Mod samodzielnie, lub możesz hostować je w internetowym repozytorium git *(GitHub, GitLab, Framagit i Debian Salsa są obecnie obsługiwanymi lokalizacjami)* i skonfigurować je do zainstalowania przez [Menedżer dodatków](Std_AddonMgr/pl.md). Instrukcje dotyczące włączenia do oficjalnej listy dodatków FreeCAD można znaleźć na stronie [FreeCAD Addons GitHub repozytorium](https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). Aby korzystać z Menedżera dodatków, należy dołączyć plik metadanych [package.xml](Package_Metadata/pl.md), który instruuje Menedżera dodatków, jak znaleźć ikonę środowiska pracy i umożliwia wyświetlanie opisu, numeru wersji itp. Może on być również użyty do określenia innych środowisk pracy lub pakietów Python, od których zależy, przez które jest blokowany lub które ma zastąpić.
 
-For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon Manager](Add_Workbench_to_Addon_Manager.md).
+Aby uzyskać krótki przewodnik na temat tworzenia podstawowego pliku package.xml i dodawania środowiska roboczego do [Menedżera dodatków](Std_AddonMgr/pl.md), zobacz stronę [Dodaj środowisko pracy do Menadżera dodatków](Add_Workbench_to_Addon_Manager/pl.md).
 
-Optionally, you can include a separate metadata file describing your Python dependencies. This may be either a file called metadata.txt describing your workbench\'s external dependencies (on either other Addons, Workbenches, or Python modules), or a [requirements.txt](https://pip.pypa.io/en/latest/reference/requirements-file-format/) describing your Python dependencies. Note that if using a requirements.txt file, only the names of the specified packages are used for dependency resolution: pip command options, include options and version information are not supported by the Addon Manager. Users may manually run the requirements file using pip if those features are required.
+Opcjonalnie można dołączyć oddzielny plik metadanych opisujący zależności środowiska Python. Może to być albo plik o nazwie metadata.txt opisujący zewnętrzne zależności środowiska roboczego *(od innych dodatków, środowisk roboczych lub modułów Pythona)*, albo plik [requirements.txt](https://pip.pypa.io/en/latest/reference/requirements-file-format/) opisujący zależności Python. Należy pamiętać, że w przypadku korzystania z pliku requirements.txt tylko nazwy określonych pakietów są używane do rozwiązywania zależności: opcje polecenia programu, opcje dołączania i informacje o wersji nie są obsługiwane przez Menedżera dodatków. Użytkownicy mogą ręcznie uruchomić plik wymagań za pomocą programu, jeśli te funkcje są wymagane.
 
-The format of the metadata.txt file is plain text, with three optional lines:
+Format pliku metadata.txt to zwykły tekst z trzema opcjonalnymi wierszami:
 
 
 ```python
@@ -194,7 +202,7 @@ pylibs=
 optionalpylibs=
 ```
 
-Each line should consist of a comma-separated list of items your Workbench depends on. Workbenches may be either an internal FreeCAD Workbench, e.g. \"FEM\", or an external Addon, for example \"Curves\". The required and optional Python libraries should be specified with their canonical Python names, such as you would use with `pip install`. For example:
+Każdy wiersz powinien składać się z oddzielonej przecinkami listy elementów, od których zależy środowisko pracy. Środowiska te mogą być albo wewnętrznym środowiskiem pracy FreeCAD, np. \"MES\", albo zewnętrznym dodatkiem, na przykład \"Krzywe\". Wymagane i opcjonalne biblioteki Python powinny być określone za pomocą ich kanonicznych nazw Python, takich jak `pip install`. Na przykład:
 
 
 ```python
@@ -203,20 +211,22 @@ pylibs=ezdxf
 optionalpylibs=metadata,git
 ```
 
-You may also include a script that is run when your package is uninstalled. This is a file called \"uninstall.py\" located at the top level of your Addon. It is executed when a user uninstalls your Addon using the Addon Manager. Use it to clean up anything your Addon may have done to the users system that should not persist when the Addon is gone (e.g. removing cache files, etc.).
+Możesz również dołączyć skrypt, który jest uruchamiany po odinstalowaniu pakietu. Jest to plik o nazwie \"uninstall.py\" znajdujący się na najwyższym poziomie dodatku. Jest on wykonywany, gdy użytkownik odinstalowuje dodatek za pomocą Menedżera dodatków. Użyj go, aby wyczyścić wszystko, co dodatek mógł zrobić w systemie użytkownika, a co nie powinno przetrwać po usunięciu dodatku *(np. usunięcie plików pamięci podręcznej itp.)*.
 
-To ensure that your addon is being read correctly by the Addon Manager, you can enable a \"developer mode\" in which the Addon Manager examines all available addons and ensures their metadata contains the required elements. To enable this mode select: **Edit → Preferences... → Addon Manager → Addon manager options → Addon developer mode**, see [Preferences Editor](Preferences_Editor#Addon_manager_options.md).
+Aby upewnić się, że dodatek jest poprawnie odczytywany przez Menedżera dodatków, można włączyć \"tryb deweloperski\", w którym Menedżer dodatków sprawdza wszystkie dostępne dodatki i upewnia się, że ich metadane zawierają wymagane elementy. Aby włączyć ten tryb, wybierz: **Edycja → Preferencje ... → Menadżer dodatków → Opcje Menedżera dodatków → Tryb dewelopera dodatków**, zobacz stronę [Edytor ustawień](Preferences_Editor/pl#Opcje_Menadżera_dodatków.md) aby uzyskać szczegółowe informacje.
 
-### C++ workbenches 
 
-If you are going to code your workbench in C++, you will probably want to code the workbench definition itself in C++ too (although it is not necessary: you could also code only the tools in C++, and leave the workbench definition in Python). In that case, the InitGui.py file becomes very simple: It might contain just one line:
+
+### Środowiska pracy w C++ 
+
+Jeśli zamierzasz zakodować swoje środowisko pracy w C++, prawdopodobnie będziesz chciał również zakodować samą definicję środowiska pracy w C++ *(choć nie jest to konieczne: możesz również zakodować tylko narzędzia w C++, a definicję środowiska pracy pozostawić w Pythonie)*. W takim przypadku plik InitGui.py staje się bardzo prosty: Może zawierać tylko jedną linię:
 
 
 ```pythonimport MyModuleGui```
 
-where MyModule is your complete C++ workbench, including the commands and workbench definition.
+gdzie MyModule jest kompletnym środowiskiem pracy C++, w tym poleceniami i definicją środowiska pracy.
 
-Coding C++ workbenches works in a pretty similar way. This is a typical Workbench.cpp file to include in the Gui part of your module:
+Kodowanie środowisk pracy C++ działa w dość podobny sposób. Jest to typowy plik Workbench.cpp, który należy dołączyć do części Gui modułu:
 
 
 ```python
@@ -239,21 +249,27 @@ namespace MyModuleGui {
 }
 ```
 
-#### Preferences 
 
-You can add a Preferences page for C++ workbenches too. The steps are similar to those for Python.
+
+#### Ustawienia 
+
+Można również dodać stronę preferencji dla środowiska pracy języka C++. Kroki są podobne do tych w Pythonie.
 
 
 
 #### Dystrybucja 
 
-There are two options to distribute a C++ workbench, you can either host precompiled versions for the different operating systems yourself, or you can request for your code to be merged into the FreeCAD source code. As mentioned above this requires a LGPL2+ license, and you must first present your workbench to the community in the [FreeCAD forum](https://forum.freecad.org) for review.
+Istnieją dwie opcje dystrybucji środowiska pracy C++, można albo samodzielnie hostować wstępnie skompilowane wersje dla różnych systemów operacyjnych, albo poprosić o scalenie kodu z kodem źródłowym FreeCAD. Jak wspomniano powyżej, wymaga to licencji LGPL2+ i należy najpierw przedstawić swoje środowisko pracy społeczności do przeglądu na [forum FreeCAD](https://forum.freecad.org).
 
-## FreeCAD commands 
 
-FreeCAD commands are the basic building block of the FreeCAD interface. They can appear as a button on toolbars, and as a menu entry in menus. But it is the same command. A command is a simple Python class, that must contain a couple of predefined attributes and functions, that define the name of the command, its icon, and what to do when the command is activated.
 
-### Python command definition 
+## Polecenia FreeCAD 
+
+Polecenia FreeCAD są podstawowym elementem składowym interfejsu FreeCAD. Mogą pojawiać się jako przycisk na paskach narzędzi i jako pozycja w menu. Ale to jest to samo polecenie. Polecenie jest prostą klasą Python, która musi zawierać kilka predefiniowanych atrybutów i funkcji, które definiują nazwę polecenia, jego ikonę i co należy zrobić, gdy polecenie jest aktywowane.
+
+
+
+### Definicja polecenia w Python 
 
 
 ```python
@@ -278,9 +294,11 @@ class My_Command_Class():
 FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
-### C++ command definition 
 
-Similarly, you can code your commands in C++, typically in a Commands.cpp file in your Gui module. This is a typical Commands.cpp file:
+
+### Definicja polecenia w C++ 
+
+Podobnie, można kodować polecenia w C++, zazwyczaj w pliku Commands.cpp w module Gui. To jest typowy plik Commands.cpp:
 
 
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
@@ -320,9 +338,11 @@ void CreateMyModuleCommands(void)
 }
 ```
 
-## \"Compiling\" your resource file 
 
-compileA2pResources.py from the A2Plus workbench:
+
+## \"Kompilacja\" pliku zasobów 
+
+compileA2pResources.py ze środowiska roboczego A2Plus:
 
 
 ```python#!/usr/bin/env python
@@ -383,10 +403,12 @@ os.system(
 os.remove(qrc_filename)
 ```
 
-## Related
 
--   [Translating an external workbench](Translating_an_external_workbench.md)
--   [Forum discussion: Namespaced Workbenches](https://forum.freecadweb.org/viewtopic.php?t=47460)
+
+## Powiązane
+
+-   [Tłumaczenie interfejsu zewnętrznych środowisk pracyh](Translating_an_external_workbench/pl.md)
+-   [Dyskusja na forum: Namespaced Workbenches](https://forum.freecadweb.org/viewtopic.php?t=47460)
 -   [freecad.workbench_starterkit](https://github.com/FreeCAD/freecad.workbench_starterkit)
 
 

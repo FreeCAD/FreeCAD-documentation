@@ -4,16 +4,18 @@
 |Name/fr=GenerateViews
 |Description=Macro pour la génération automatique de vues 2D avec 6 projections normales et une isométrique.
 |Author=PR-DC
-|Download=[https://wiki.freecadweb.org/File:GenerateViews.svg Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/2/21/GenerateViews.svg Icône de la barre d'outils]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 et au-dessus
-|SeeAlso=[https://github.com/PR-DC/PRDC_GenerateViews_FC Dépôt Github]
+|SeeAlso=[https://github.com/PR-DC/PRDC_GenerateViews_FC Dépôt GitHub]
 }}
 
 ## Description
 
 Macro pour la génération automatique de vues 2D avec 6 projections normales et une isométrique.
+
+
 
 ## Utilisation
 
@@ -65,7 +67,7 @@ __Date__ = '2022-01-07'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = 'https://github.com/PR-DC/PRDC_GenerateViews_FC'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_GenerateViews'
-__Icon__ = 'GenerateViews.svg'
+__Icon__ = 'https://wiki.freecad.org/images/2/21/GenerateViews.svg'
 __Help__ = 'Open model and run the macro program!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.18'
@@ -173,6 +175,8 @@ else:
     msgBox.exec_()
     App.Console.PrintError("\nError: No active document!\n")
 }}
+
+
 
 ## Liens
 

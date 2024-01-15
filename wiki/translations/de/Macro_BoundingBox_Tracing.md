@@ -13,17 +13,9 @@
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Beschreibung
 
-Diese Makro-rote Spur (editierbar) um die BoundingBox 6 Faces mit 6 Rechtecken.
-
-
-</div>
-
-This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
+Dieses Makro erstellt eine rote Umrandung des Begrenzungsrahmens (BoundingBox - 6 Flächen aus 6 Rechtecken) eines Objekts, zeigt die Seitenlängen der Kanten an und das Volumen des Begrenzungsrahmens.
 
 <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;"> 
 *BoundingBox Tracing macro in action*
@@ -48,17 +40,9 @@ Konfiguration: siehe Zeile 61 to 84
 
 
 
+## Symbol
 
-<div class="mw-translate-fuzzy">
-
-## Icon
-
-Laden Sie das Dateibild herunter und kopieren Sie es in Ihr Makro-Repertorium.
-
-
-</div>
-
-Download the file image and copy in to your macro directory.
+Das Dateisymbol herunterladen und in das Makroverzeichnis kopieren.
 
 Klicken Sie auf das Bild, positionieren Sie im neuen Fenster die Maus über dem Bild, klicken Sie mit der rechten Maustaste und wählen Sie \"Ziel speichern unter \...\".
 
@@ -441,13 +425,7 @@ else:
 
 ## Version
 
-
-<div class="mw-translate-fuzzy">
-
-Version: 0.12 Date 2021/07/10: upgrade by edwilliams16 to handle objects in nested part containers [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) corrected the global placement, thanks edwilliams16
-
-
-</div>
+Version: 0.12 Date 2021/07/10: upgrade by edwilliams16, um Objekte zu verarbeiten, die in Part-Containern eingebettet sind. [FCInfo CG of assemblies](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) korrigierte die globale Positionierung, danke edwilliams16
 
 
 ```python
@@ -465,31 +443,11 @@ def adjustedGlobalPlacement(obj, locVector):
 
 ```
 
+Version: 0.11 Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
 
-<div class="mw-translate-fuzzy">
+Version 0.10 Datum: 2019/05/23 upgrade \> 0.19 and supp the \"éçà..\" with def() not encode()\....
 
-Version: 0.11 le Date: 2019/05/29: \"nameLabel = str(unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\'))\" instead \"def()\"
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.10 le 2019/05/23 upgrade \> 0.19 and supp the \"éçà..\" with def() not encode()\....
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.9 le 2018-10-12: add test \> 17
-
-
-</div>
-
-
+Version 0.9 Datum: 2018-10-12: add test \> 17 
 ```python
 if int(FreeCAD.Version()[1]) > 17:      # Version de FreeCAD
     DisplayModeText   = str(u"2D text") # available : u"2D text" or u"3D text" 
@@ -497,45 +455,15 @@ else:
     DisplayModeText   = str(u"Screen")  # available : u"Screen" or u"World" 
 ```
 
+Version 0.8 Datum: 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
 
-<div class="mw-translate-fuzzy">
+Version 0.7 Datum: 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
 
-ver 0.8 le 05/10/2018: upgrade the ver 0.8 compatible with FC 0.17 (getGlobalPlacement)
+Version 0.6 Datum: 08/08/2017: Textinformationsdimension hinzufügen, Container für Rechtecke, Inforechtecke, Infovolumen, Abschnittskonfigurationsfarbe hinzufügen, Beschriftungsobjekt ausgewählt
 
+Version 0.5 Datum: 08/05/2017 : nimm jetzt das \"mesh\" und \"points\" danke wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.7 le 28/01/2018: correct error with label accent \"nameLabel = unicodedata.normalize(\'NFKD\', nameLabel).encode(\'ascii\',\'ignore\')\"
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.6 le 08/08/2017: Textinformationsdimension hinzufügen, Container für Rechtecke, Inforechtecke, Infovolumen, Abschnittskonfigurationsfarbe hinzufügen, Beschriftungsobjekt ausgewählt
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.5 le 08/05/2017 : nimm jetzt das \"mesh\" und \"points\" danke wmayer [Makro Bounding-Box für STL importierte Teile und für Punktewolken](http://forum.freecadweb.org/viewtopic.php?f=13&t=22331)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-ver 0.4 le 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
-
-
-</div>
+Version 0.4 Datum: 04/06/2016 : test if value = 0 then not create boundbox (ex: object Draft)
 
 
 

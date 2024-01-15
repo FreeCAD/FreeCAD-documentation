@@ -33,7 +33,7 @@ sudo yum install spacenavd
 apt-get install spacenavd libspnav-dev
 ```
 
-:   spacenav needs these permissions:
+Spacenav needs these permissions:
 
 
 
@@ -47,7 +47,7 @@ apt-get install spacenavd libspnav-dev
 
 
 
-:   Restart spnavd and FreeCAD
+Restart spnavd and FreeCAD
 
 
 
@@ -154,7 +154,7 @@ This is recommended if your distribution might provide an outdated version.
     
 ```
     
--   \... then you need to install libgtkmm-2.4-dev. Under Ubuntu, this is done like this:
+-   \... then you need to install **libgtkmm-2.4-dev**. Under Ubuntu, this is done like this:
 
 
 
@@ -178,7 +178,7 @@ This is recommended if your distribution might provide an outdated version.
     
 -   Look in the directory libspnav-x.x.x/examples/. If you want to test your device, compile and run either one of the two examples.
 
--   Follow the same pattern to compile and install spnavcfg. Make sure to run spnavcfg as root, or no settings will be saved!
+-   Follow the same pattern to compile and install **spnavcfg**. Make sure to run spnavcfg as root, or no settings will be saved!
 
 #### Starting spacenavd as a systemd service at boot 
 
@@ -193,7 +193,7 @@ This is only necessary for the installation from source.
 
 #### Restarting spacenavd 
 
-If sometimes navigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
+If sometimes SpaceNavigator stops working, it is good to restart driver. To restart it, go to Terminal and execute:
 
  
 ```python
@@ -246,7 +246,7 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 ## Setting up FreeCAD 
 
-3D mouse support was made with spnav project on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
+3D mouse support was made with *spnav project* on Linux, and on a very low level on Windows. This means there was no support for any settings for a device, since on Linux there is no good support for this, and on Windows it is overridden. This is why two additional pages were added to \"Customize\" dialog.
 
  <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;"> 
 
@@ -288,7 +288,7 @@ If none of them appears then your FreeCAD build doesn\'t link to the spacenav li
 
 ## Related
 
--   Forum thread [spacenav on windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
+-   Forum thread [spacenav on Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
 -   Forum thread [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188)
 
 

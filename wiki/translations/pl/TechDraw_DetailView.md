@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw DetailView
    Name/pl: Rysunek Techniczny: Wstaw widok szczegółu
-   MenuLocation: Rysunek Techniczny , Wstaw widok szczegółu
+   MenuLocation: Rysunek Techniczny , Widoki  , Wstaw widok szczegółu
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_View/pl, TechDraw_ProjectionGroup/pl
 ---
@@ -16,19 +16,37 @@
 Narzędzie **Wstaw widok szczegółu** tworzy widok małego obszaru istniejącego widoku.
 
 ![](images/ViewDetail.png ) 
-*Widok szczegółu z okrągłym polem widoku istniejącego widoku*
+*Widok szczegółu z okrągłym obrysem.*
 
 
 
 ## Użycie
 
--   Wybierz widok na stronie lub w drzewie.
--   Naciśnij przycisk **<img src="images/TechDraw_DetailView.svg" width=16px> '''Wstaw widok szczegółu'''**, aby utworzyć widok szczegółu.
--   W pojawiającym się oknie dialogowym zadania można zdefiniować promień pola widoku, skalę i pozycję widoku. W przypadku tego ostatniego można to zrobić
-    -   zmieniając współrzędne
-    -   lub naciskając przycisk **Podświetlenie szczegółu**. W tym przypadku granica początku szczegółu jest podświetlona pogrubioną czcionką i etykietą \"przeciągnij\". Kliknij granicę lub etykietę, przytrzymaj przycisk myszy i przeciągnij ją do żądanej pozycji. Na koniec zwolnij przycisk myszy, aby zaakceptować zmianę.
+1.  Wybierz widok podstawowy dla widoku szczegółu.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_DetailView.svg" width=16px> '''Wstaw widok szczegółu'''**, aby utworzyć widok szczegółu.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki Rysunku Technicznego → <img src="images/TechDraw_DetailView.svg" width=16px> Wstaw widok szczegółu**.
+3.  Do widoku podstawowego dodawany jest kontur podświetlenia, do strony dodawany jest widok szczegółu i otwierany jest panel zadań.
+4.  Dla przejrzystości najlepiej jest przesunąć widok szczegółu tak, aby nie nakładał się już na widok podstawowy: przytrzymaj lewy przycisk myszy na jego ramce lub etykiecie i przeciągnij go do nowej pozycji.
+5.  Aby zmienić położenie konturu zaznaczenia, wykonaj jedną z poniższych czynności:
+    -   Przesuń kontur, przeciągając go:
+        1.  Naciśnij przycisk **Podświetlenie szczegółu**.
+        2.  Kontur zostanie zaznaczony na stronie i dodana zostanie tymczasowa etykieta \"przeciągnij\".
+        3.  Przytrzymaj lewy przycisk myszy na samym obrysie lub na tej etykiecie i przeciągnij obrys do nowej pozycji.
+    -   Przesuwanie obrysu za pomocą współrzędnych:
+        1.  Zmień współrzędne X i Y w panelu zadań. Współrzędne są względne w stosunku do środka widoku podstawowego.
+6.  Opcjonalnie zmień *Promień* widoku szczegółu.
+7.  Opcjonalnie zmień *Typ skali* i *Współczynnik skali* widoku szczegółu. Więcej informacji można znaleźć w na stronie [Wstaw widok](TechDraw_View/pl#Właściwości.md).
+8.  Określ etykietę **Odniesienie**. Etykieta ta będzie wyświetlana w pobliżu konturu zaznaczenia.
+9.  Naciśnij przycisk **OK**.
 
-Widok szczegółów może być wyświetlany w okrągłym lub kwadratowym polu widoku. Jest to kontrolowane przez ustawienie [ustawienie](TechDraw_Preferences/pl#Adnotacje.md) **Kształt konturu widoku szczegółu**.
+
+
+## Uwagi
+
+-   Aby edytować widok szczegółu, kliknij go dwukrotnie w oknie [Widok drzewa](Tree_view/pl.md).
+-   Kontury widoków szczegółu mogą być okrągłe lub kwadratowe. Jest to kontrolowane przez [ustawienia](TechDraw_Preferences/pl#Adnotacje.md) **Kształt konturu widoku szczegółu** .
+-   [Temat na forum z dobrą dyskusją na temat ustawiania kotwicy](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281).
 
 
 
@@ -57,31 +75,18 @@ Zapoznaj się również informacjami na stronie [właściwości widoku](TechDraw
 
 Obiekt **Widok szczegółu** dziedziczy wszystkie odpowiednie właściwości widoku określonego jako **Widok bazowy**. We właściwościach tego widoku można zmienić wygląd linii przekroju:
 
--    **Podświetlenie szczegółu**: Kąt obrotu widoku szczegółowego zgodnie z ruchem wskazówek zegara.
-
--    **Kolor linii podświetlenia**: Kolor linii dla kształtu konturu. Domyślnym ustawieniem jest ustawienie **Podświetlenie szczegółu** w [TechDraw preferences](TechDraw_Preferences.md).
-
--    **Styl linii podświetlenia**: Styl linii dla kształtu konturu. Wartość domyślna to **Styl podświetlenia szczegółu** w [ustawieniach](TechDraw_Preferences/pl.md).
 
 
-
-## Uwagi
-
--   [Dobra dyskusja na temat ustawiania kotwicy](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281).
+### Widok
 
 
+{{TitleProperty|Podświetlenie}}
 
-## Tworzenie skryptów 
+-    **Podświetlenie szczegółu|Float**: Zobacz więcej informacji na stronie [Wstaw widok](TechDraw_View/pl#Widok.md)
 
-Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+-    **Kolor linii podświetlenia|Color**: jak wyżej.
 
-Narzędzie **Widok szczegółu** może być używane w [makrodefinicjach](Macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
-
-
-```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
-...TBA
-```
+-    **Styl linii podświetlenia**: jak wyżej.
 
 
 

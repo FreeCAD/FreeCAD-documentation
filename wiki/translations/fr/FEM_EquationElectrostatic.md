@@ -48,18 +48,18 @@ L\'équation électrostatique fournit ces paramètres spéciaux :
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation électrostatique prend en compte les contraintes suivantes si elles sont définies :
+L\'équation électrostatique prend en compte les caractéristiques d\'analyse suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Contrainte de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md)
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constante de permittivité du vide](FEM_ConstantVacuumPermittivity/fr.md)
 
 
 
 ### Remarque
 
-Sauf pour les calculs en 2D, pour les <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Contraintes de potentiel électrostatique](FEM_ConstraintElectrostaticPotential/fr.md), il est important qu\'elles agissent sur une face ou un corps. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+Sauf pour les calculs en 2D, pour les <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [potentiels électrostatiques](FEM_ConstraintElectrostaticPotential/fr.md), il est important qu\'il agissent sur une face ou un corps. Les conditions limites en 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 
 

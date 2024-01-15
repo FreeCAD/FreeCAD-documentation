@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher ConstrainRadiam
    Name/fr: Sketcher Contrainte automatique rayon/diamètre
-   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte automatique rayon/diamètre
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte automatique du rayon/diamètre
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **S**
    Version: 0.20
@@ -33,7 +33,7 @@ NB : les pôles des B-splines ne peuvent pas être mélangés avec d\'autres typ
 ## Utilisation
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
-2.  Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Contrainte automatique rayon/diamètre](Sketcher_ConstrainRadiam/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Contrainte automatique du rayon/diamètre](Sketcher_ConstrainRadiam/fr.md)**.
 3.  Une boîte de dialogue s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 4.  Il est possible de déplacer et de faire pivoter l\'étiquette et la ligne de dimension dans la vue 3D en cliquant sur la valeur et en la faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 

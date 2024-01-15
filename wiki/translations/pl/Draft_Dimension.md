@@ -15,243 +15,258 @@
 
 ## Opis
 
-The <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** command [creates](#Create.md) a [linear dimension](#Usage_linear_dimension.md), a [radial dimension](#Usage_radial_dimension.md) or an [angular dimension](#Usage_angular_dimension.md). The command can also be used to [convert](#Convert.md) [Std MeasureDistance](Std_MeasureDistance.md) objects.
+Polecenie <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> **Draft Dimension** [tworzy](#Tworzenie.md) [Wymiar liniowy](#Zastosowanie_wymiaru_liniowego.md), [Wymiar promieniowy](#Zastosowanie_wymiaru_promieniowego.md) lub [Wymiar kątowy](#Zastosowanie_wymiaru_kątowego.md). Polecenie może być również użyte do [konwersji](#Konwersja.md) obiektów [Std: Pomiar](Std_MeasureDistance/pl.md).
 
-Linear dimensions based on edges and radial dimensions are parametric. This means that they will update if the measured edge is modified. Measured edges can belong to Draft objects but also to solid bodies. Angular dimensions are not parametric.
+Wymiary liniowe oparte na krawędziach i wymiary promieniowe są parametryczne. Oznacza to, że będą one aktualizowane, jeśli zmierzona krawędź zostanie zmodyfikowana. Zmierzone krawędzie mogą należeć do obiektów środowiska Rysunek Roboczy, ale także do brył. Wymiary kątowe nie są parametryczne.
 
-Draft Dimensions can be displayed on a [TechDraw Workbench](TechDraw_Workbench.md) page using the [TechDraw DraftView](TechDraw_DraftView.md) or [TechDraw ArchView](TechDraw_ArchView.md) commands. Alternatively the [TechDraw Workbench](TechDraw_Workbench.md) offer its own dimension commands. But these create dimensions that are only displayed on the drawing page and not in the [3D view](3D_view.md).
+Wymiary środowiska pracy Rysunek Techniczny mogą być wyświetlane na stronie [Rysunku Technicznego](TechDraw_Workbench/pl.md) za pomocą poleceń [Wstaw widok rysunku](TechDraw_DraftView/pl.md) lub [Wstaw obiekt środowiska Architektura](TechDraw_ArchView/pl.md). środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md) oferuje swoje własne narzędzia wymiarowania. Tworzą one jednak wymiary, które są wyświetlane tylko na stronie rysunku, a nie w oknie [widoku 3D](3D_view/pl.md).
 
 <img alt="" src=images/Screenshot_Draft_Dimension.jpg  style="width:400px;"> 
 *Wymiar określony przez trzy punkty*
 
-## Create
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-### Usage linear dimension 
+## Tworzenie
 
-1.  Optionally select a straight edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an edge do one of the following:
-    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a straight edge in the [3D view](3D_view.md).
-    -   Hold down the **Alt** key, select a straight edge in the [3D view](3D_view.md) and release the **Alt** key.
-    -   Define the measured distance by picking points:
-        -   Pick a first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-        -   Pick a second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-5.  To position the dimension line do one of the following:
-    -   For an aligned dimension:
-        -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   For a horizontal dimension:
-        -   Move the pointer above or below the edge or points.
-        -   Hold down the **Shift** key, move the pointer and pick a point in the [3D view](3D_view.md).
-    -   For a vertical dimension:
-        -   Move the pointer to the left or right of the edge or points.
-        -   Hold down the **Shift** key, move the pointer and pick a point in the [3D view](3D_view.md).
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-### Usage radial dimension 
 
-1.  Optionally select a circular edge in the [3D view](3D_view.md).
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-3.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have not yet selected an edge do one of the following:
-    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a circular edge in the [3D view](3D_view.md).
-    -   Hold down the **Alt** key, select a circular edge in the [3D view](3D_view.md) and release the **Alt** key.
-5.  To position the dimension line do one of the following:
-    -   For a diameter dimension:
-        -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-    -   For a radial dimension:
-        -   Hold down the **Shift** key and pick a point in the [3D view](3D_view.md).
 
-### Usage angular dimension 
+### Zastosowanie wymiaru liniowego 
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following:
-    -   Press **E** or the **<img src="images/view-select.svg" width=16px> Select edge** button and select a first straight edge in the [3D view](3D_view.md). Repeat this to select a second straight edge.
-    -   Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
-4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  The displayed angle depends on the edges and the picked point.
+1.  Opcjonalnie wybierz prostą krawędź w oknie [widoku 3D](3D_view/pl.md).
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
+    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
+    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+3.  Otworzy się panel zadań **Wymiar**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Jeśli krawędź nie została jeszcze wybrana, wykonaj jedną z poniższych czynności:
+    -   Naciśnij **E** lub przycisk **<img src="images/view-select.svg" width=16px> Wybierz krawędź** i wybierz prostą krawędź w [3D view](3D_view/pl.md).
+    -   Przytrzymaj klawisz **Alt**, wybierz prostą krawędź w oknie [widoku 3Di](3D_view/pl.md) zwolnij klawisz **Alt**.
+    -   Zdefiniuj zmierzoną odległość, wybierając punkty:
+        -   Wybierz pierwszy punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+        -   Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px>. Wprowadź punkt**.
+5.  Aby ustawić linię wymiarową, wykonaj jedną z poniższych czynności:
+    -   Dla wymiaru wyrównanego:
+        -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+    -   Dla wymiaru poziomego:
+        -   Przesuń wskaźnik powyżej lub poniżej krawędzi lub punktów.
+        -   Przytrzymaj klawisz **Shift**, przesuń wskaźnik i wybierz punkt w oknie [widoku 3D](3D_view/pl.md).
+    -   Dla wymiaru pionowego:
+        -   Przesuń wskaźnik w lewo lub w prawo od krawędzi lub punktów.
+        -   Przytrzymaj klawisz **Shift**, przesuń wskaźnik i wybierz punkt w oknie [widoku 3D](3D_view/pl.md).
+
+
+
+### Zastosowanie wymiaru promieniowego 
+
+1.  Opcjonalnie wybierz okrągłą krawędź w oknie [widoku 3D](3D_view/pl.md).
+2.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
+    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
+    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+3.  Otworzy się panel zadań **Wymiar**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+4.  Jeśli krawędź nie została jeszcze wybrana, wykonaj jedną z poniższych czynności:
+    -   Naciśnij **E** lub przycisk **<img src="images/view-select.svg" width=16px> Wybierz krawędź** i wybierz okrągłą krawędź w oknie [widoku 3D](3D_view/pl.md).
+    -   Przytrzymaj klawisz **Alt**, wybierz okrągłą krawędź w oknie [widoku 3D](3D_view/pl.md) i zwolnij klawisz **Alt**.
+5.  Aby ustawić linię wymiarową, wykonaj jedną z poniższych czynności:
+    -   Dla wymiaru średnicy:
+        -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+    -   Dla wymiaru radialnego:
+        -   Przytrzymaj klawisz **Shift** i wybierz punkt w oknie [widoku 3D](3D_view/pl.md).
+
+
+
+### Zastosowanie wymiaru kątowego 
+
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
+    -   Wybierz z menu opcję **Opisy → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
+    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+2.  Otworzy się panel zadań **Wymiar**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+3.  Wykonaj jedną z następujących czynności:
+    -   Naciśnij **E** lub przycisk **<img src="images/view-select.svg" width=16px> Wybierz krawędź** i wybierz pierwszą prostą krawędź w oknie [widoku 3D](3D_view/pl.md). Powtórz tę czynność, aby wybrać drugą prostą krawędź.
+    -   Przytrzymaj klawisz **Alt**, wybierz dwie proste krawędzie w oknie [widoku 3D](3D_view/pl.md) i zwolnij klawisz **Alt**.
+4.  Aby ustawić łuk wymiarowy, wybierz punkt w oknie [widoku 3D](3D_view/pl.md).
+5.  Wyświetlany kąt zależy od krawędzi i wybranego punktu.
 
 
 
 ### Opcje
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. This mode only works for linear dimensions. If continue mode is on, the command will restart after finishing, allowing you to continue creating dimensions. All subsequent dimensions will start from the final point of the previous dimension, and will use the same baseline as the first dimension. Note that edge selection is not possible for subsequent dimensions.
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to finish the command.
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są względne do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Tryb ten działa tylko dla wymiarów liniowych. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie wymiarów. Wszystkie kolejne wymiary będą rozpoczynać się od ostatniego punktu poprzedniego wymiaru i będą używać tej samej linii bazowej co pierwszy wymiar. Należy pamiętać, że wybór krawędzi nie jest możliwy dla kolejnych wymiarów.
+-   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby zakończyć polecenie.
 
-## Convert
+
+
+## Konwersja
 
 
 
 ### Użycie
 
-1.  Select one or more [Std MeasureDistance](Std_MeasureDistance.md) objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Dimension.svg" width=16px> [Draft Dimension](Draft_Dimension.md)** button.
-    -   Select the **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** option from the menu.
-    -   Use the keyboard shortcut: **D** then **I**.
-3.  Each selected object is replaced by a non-parametric linear Draft Dimension.
+1.  Wybierz jeden lub więcej obiektów [Wymiarowanie odległości](Std_MeasureDistance/pl.md).
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Dimension.svg" width=16px> '''Wymiar'''**.
+    -   Wybierz z menu opcję **Adnotacja → <img src="images/Draft_Dimension.svg" width=16px> Wymiar**.
+    -   Użyj skrótu klawiaturowego: **D**, a następnie **I**.
+3.  Każdy wybrany obiekt zostanie zastąpiony nieparametrycznym liniowym wymiarem Draft Dimension.
 
 
 
 ## Uwagi
 
--   Linear and radial Draft Dimensions can be edited with the [Draft Edit](Draft_Edit.md) command.
--   Draft Dimensions created or saved with [FreeCAD version 0.21](Release_notes_0.21.md) are not backward compatible.
+Liniowe i promieniowe wymiary środowiska Rysunek Roboczy można edytować za pomocą polecenia [Edytuj](Draft_Edit/pl.md).
+
+-   Wymiary szkicu utworzone lub zapisane w [wersji FreeCAD 0.21](Release_notes_0.21/pl.md) nie są kompatybilne wstecz.
 
 
 
 ## Właściwości
 
-See also: [Property editor](Property_editor.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. The following properties are additional unless otherwise stated:
-
-### Data linear and radial dimension 
+Obiekt Wymiar środowiska pracy Rysunek Roboczy wywodzi się z obiektu [App: FeaturePython](App_FeaturePython/pl.md) i dziedziczy wszystkie jego właściwości. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej.
 
 
-{{TitleProperty|Dimension}}
 
--    **Dimline|VectorDistance**: specifies the point through which the dimension line passes.
-
--    **Linked Geometry|LinkSubList**: specifies the object and its subelement(s) the dimension is linked to.
-
--    **Normal|Vector**: specifies the normal of the plane of the text.
-
--    **Support|Link|hidden**: specifies the measured object.
+### Dane w wymiarze liniowym i promieniowym 
 
 
-{{TitleProperty|Linear/radial dimension}}
+{{TitleProperty|Wymiar}}
 
--    **Direction|Vector**: specifies the direction of the measurement.
+-    **Dimline|VectorDistance**: określa punkt, przez który przechodzi linia wymiaru.
 
--    **Distance|Length**: (read-only) specifies the value of the measurement.
+-    **Połączona geometria|LinkSubList**: określa obiekt i jego elementy podrzędne, z którymi powiązany jest wymiar.
 
--    **End|VectorDistance**: specifies the end point of the measurement.
+-    **Normalna|Vector**: określa normalną płaszczyzny tekstu.
 
--    **Start|VectorDistance**: specifies the start point of the measurement.
-
-
-{{TitleProperty|Radial dimension}}
-
--    **Diameter|Bool**: specifies if a radial dimension is displayed as a diameter dimension. If it changed the symbol used in **Override** must be updated manually (from {{Value|Ø}} to {{Value|R}} or vice versa). Not used for linear dimensions.
-
-### Data angular dimension 
+-    **Podparcie|Link|hidden**: określa mierzony obiekt.
 
 
-{{TitleProperty|Angular dimension}}
+{{TitleProperty|Wymiar liniowy / promieniowy}}
 
--    **Angle|Angle**: (read-only) specifies the value of the measurement.
+-    **Kierunek|Vector**: określa kierunek pomiaru.
 
--    **Center|VectorDistance**: specifies the center of the measurement.
+-    **Odległość|Length**: *(tylko do odczytu)* określa wartość pomiaru.
 
--    **First Angle|Angle**: specifies the start angle of the measurement.
+-    **Koniec|VectorDistance**: określa punkt końcowy pomiaru.
 
--    **Last Angle|Angle**: specifies the end angle of the measurement.
+-    **Początek|VectorDistance**: określa punkt początkowy pomiaru.
 
 
-{{TitleProperty|Dimension}}
+{{TitleProperty|Wymiar promieniowy}}
 
--    **Dimline|VectorDistance**: specifies the point through which the dimension arc passes.
+-    **Średnica|Bool**: określa, czy wymiar promieniowy jest wyświetlany jako wymiar średnicy. Nie jest używane w przypadku wymiarów liniowych.
 
--    **Linked Geometry|LinkSubList|hidden**: not used.
 
--    **Normal|Vector|hidden**: specifies the normal of the plane of the dimension.
 
--    **Support|Link|hidden**: not used.
+### Dane wymiaru kątowego 
+
+
+{{TitleProperty|Wymiar kątowy}}
+
+-    **Kąt|Angle**: (tylko do odczytu) określa wartość pomiaru.
+
+-    **Środek|VectorDistance**: określa środek pomiaru.
+
+-    **Kąt pierwszy|Angle**: określa kąt początkowy pomiaru.
+
+-    **Kąt drugi|Angle**: określa kąt końcowy pomiaru.
+
+
+{{TitleProperty|Wymiar}}
+
+-    **Dimline|VectorDistance**: określa punkt, przez który przechodzi łuk wymiaru.
+
+-    **Połączona geometria|LinkSubList|hidden**: nieużywane.
+
+-    **Normalna|Vector|hidden**: określa normalną płaszczyzny wymiaru.
+
+-    **Podparcie|Link|hidden**: nieużywane.
 
 
 
 ### Widok
 
 
-{{TitleProperty|Annotation}}
+{{TitleProperty|Adnotacja}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the dimension. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    **Styl adnotacji|Enumeration**: określa styl adnotacji zastosowany do wymiaru. Zobacz stronę [Edytor stylów adnotacji](Draft_AnnotationStyleEditor/pl.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the dimension.
-
-
-{{TitleProperty|Display Options}}
-
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Normal** of the measurement. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
+-    **Mnożnik skali|Float**: określa ogólny współczynnik skalowania zastosowany do tekstu.
 
 
-{{TitleProperty|Graphics}}
+{{TitleProperty|Opcje wyświetlania}}
 
--    **Arrow Size|Length**: specifies the size of the symbols displayed at the ends of the dimension line or arc.
-
--    **Arrow Type|Enumeration**: specifies the type of symbol displayed at the ends of the dimension line or arc, which can be {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} or {{value|Tick-2}}.
-
--    **Dim Overshoot|Distance**: specifies the additional length added to the dimension line. Not used for angular dimensions.
-
--    **Ext Lines|Distance**: specifies the length of the extension lines that go from the dimension line to the measured points. Use {{Value|0}} for full extension lines. A negative value defines the gap between the ends of the extension lines and the measured points. A positive value defines the maximum length of the extension lines. Only used for linear dimensions.
-
--    **Ext Overshoot|Distance**: specifies the additional length of the extension lines beyond the dimension line. Not used for angular dimensions.
-
--    **Flip Arrows|Bool**: specifies whether to flip the orientation of the symbols at the ends of the dimension line or arc. Only works if the symbols are arrows.
-
--    **Line Color|Color**: specifies the color of the dimension line or arc, and the arrows.
-
--    **Line Width|Float**: specifies the width of the lines or arc belonging to the dimension.
-
--    **Show Line|Bool**: specifies whether to display the dimension line. Does not affect the display of extension lines and overshoots. Not used for angular dimensions.
+-    **Tryb wyświetlania|Enumeration**: określa sposób wyświetlania tekstu. Jeśli wartością jest {{value|World}}, tekst będzie wyświetlany na płaszczyźnie zdefiniowanej przez **Normalną** pomiaru. Jeśli jest to {{value|Ekran}}, tekst będzie zawsze skierowany w stronę ekranu. To jest dziedziczona własność. Wspomniane opcje to opcje o zmienionych nazwach *({{Version/pl|0.21}})*.
 
 
-{{TitleProperty|Text}}
+{{TitleProperty|Grafika}}
 
--    **Flip Text|Bool**: specifies whether to flip the orientation of the text.
+-    **Rozmiar strzałki|Length**: określa rozmiar symbolu wyświetlanego na końcu krzywej.
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead.
+-    **Typ strzałki|Enumeration**: określa typ symbolu wyświetlanego na końcu krzywej, którym może być {{value|Punkt}}, {{value|Okrąg}}, {{value|Strzałka}}, {{value|Grot}} lub {{value|Grot-2}}.
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small.
+-    **Przekroczenie wymiaru|Distance**: określa dodatkową długość dodaną do linii wymiarowej. Nie używane dla wymiarów kątowych.
 
--    **Override|String**: specifies a custom text to display instead of the actual measurement. Use the string {{value|$dim}} inside the text to include the measurement.
+-    **Przedłużenie linii|Distance**: określa długość linii przedłużających, które biegną od linii wymiarowej do mierzonych punktów. Użyj {{Value|0}} dla pełnych linii przedłużających. Wartość ujemna określa odstęp między końcami linii przedłużających a punktami pomiarowymi. Wartość dodatnia określa maksymalną długość linii przedłużających. Używane tylko dla wymiarów liniowych.
 
--    **Text Color|Color**: specifies the color of the text. <small>(v0.21)</small> 
+-    **Przekroczenie przedłużenia|Distance**: określa dodatkową długość linii przedłużających poza linią wymiarową. Nieużywane w przypadku wymiarów kątowych.
 
--    **Text Position|VectorDistance**: specifies the position of the text in absolute coordinates. {{Value|[0, 0, 0]}} will display the text in its default position near the dimension line or arc.
+-    **Odwróć strzałki|Bool**: określa, czy odwrócić orientację symboli na końcach linii wymiarowej lub łuku. Działa tylko wtedy, gdy symbole są strzałkami.
 
--    **Text Spacing|Length**: specifies the space between the text and the dimension line or arc.
+-    **Kolor linii|Color**: określa kolor linii wymiarowej lub łuku oraz strzałek.
+
+-    **Szerokość linii|Float**: określa szerokość linii lub łuku należącego do wymiaru.
+
+-    **Pokaż linię|Bool**: określa, czy wyświetlać linię wymiaru. Nie ma wpływu na wyświetlanie linii przedłużających i przekroczeń. Nieużywane w przypadku wymiarów kątowych.
 
 
-{{TitleProperty|Units}}
+{{TitleProperty|Tekst}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
+-    **Odwróć tekst|Bool**: określa, czy odwrócić orientację tekstu.
 
--    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
+-    **Nazwa czcionki|Font**: określa czcionkę używaną do rysowania tekstu. Może to być nazwa czcionki, taka jak {{value|Arial}}, domyślny styl, taki jak {{value|sans}}, {{value|serif}} lub {{value|mono}}, rodzina, taka jak {{value|Arial,Helvetica,sans}}, lub nazwa ze stylem, takim jak {{value|Arial:Bold}}. Jeśli podana czcionka nie zostanie znaleziona w systemie, zamiast niej zostanie użyta czcionka domyślna.
 
--    **Unit Override|String**: specifies the unit in which to express the measurement, for example, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} or {{value|arch}} for arch units. Leave this blank to use the default unit. Not used for angular dimensions.
+-    **Rozmiar czcionki|Length**: określa rozmiar liter. Tekst może być niewidoczny w oknie[widoku 3D](3D_view.md), jeśli ta wartość jest bardzo mała.
+
+-    **Nadpisz|String**: określa niestandardowy tekst do wyświetlenia zamiast rzeczywistego pomiaru. Użyj ciągu {{value|$dim}} wewnątrz tekstu, aby dołączyć pomiar.
+
+-    **Kolor tekstu|Color**: określa kolor tekstu. <small>(v0.21)</small> .
+
+-    **Pozycja tekstu|VectorDistance**: określa położenie tekstu we współrzędnych bezwzględnych. {{Value|[0, 0, 0]}} wyświetli tekst w domyślnej pozycji w pobliżu linii wymiarowej lub łuku.
+
+-    **Odstępy tekstu|Length**: określa odstęp między tekstem a linią wymiarową lub łukiem.
+
+
+{{TitleProperty|Jednostki}}
+
+-    **Miejsca dziesiętne|Integer**: określa liczbę miejsc dziesiętnych wyświetlanych dla pomiaru.
+
+-    **Pokaż jednostki|Bool**: określa, czy jednostka ma być wyświetlana obok wartości liczbowej pomiaru. Nie używane dla wymiarów kątowych.
+
+-    **Nadpisanie jednostki|String**: określa jednostkę, w której ma być wyrażony pomiar, na przykład {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} lub {{value|arch}} dla jednostek łukowych. Pozostaw to pole puste, aby użyć jednostki domyślnej. Nie używane dla wymiarów kątowych.
 
 
 
 ## Tworzenie skryptów 
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-To create a Draft Dimension use the `make_dimension` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeDimension` method.
+Aby utworzyć **Wymiar** środowiska Rysunek Roboczy użyj metody `make_dimension` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeDimension`.
 
 
 ```python
 dimension = make_dimension(p1, p2, p3=None, p4=None)```
 
-There are various ways to invoke this method, depending on the arguments passed to it:
+Istnieją różne sposoby wywołania tej metody, w zależności od przekazanych do niej argumentów:
 
 
 ```python
@@ -260,17 +275,17 @@ dimension = make_dimension(object, i1, i2, p4=None)
 dimension = make_dimension(object, i1, mode, p4=None)
 ```
 
--   Creates a linear `dimension` by measuring the distance between points `p1` and `p2`.
--   Creates a linear `dimension` linked to `object`, measuring the distance between its vertices indexed `i1` and `i2`.
--   Creates a circular `dimension` linked to `object`, with `i1` being the index of the curved edge to measure, and `mode` being either `"radius"` or `"diameter"` to specify the type of dimension.
+-   Tworzy `wymiar` liniowy, mierząc odległość między punktami `p1` i `p2`.
+-   Tworzy liniowy `wymiar` powiązany z `obiektem`, mierząc odległość między jego wierzchołkami indeksowanymi `i1` i `i2`.
+-   Tworzy `wymiar` kołowy powiązany z `obiektem`, z `i1` będącym indeksem zakrzywionej krawędzi do zmierzenia i `trybem` będącym `"promieniem"` lub `"średnicą"` określającym typ wymiaru.
     -   
         `p3`
         
-        in the first call, and `p4` in the other two, specify an optional point through which the dimension line should go.
+        w pierwszym wywołaniu i `p4` w pozostałych dwóch, określają opcjonalny punkt, przez który powinna przechodzić linia wymiarowa.
 
-    -   All points are defined by their `FreeCAD.Vector`.
+    -   Wszystkie punkty są zdefiniowane przez ich `FreeCAD.Vector`.
 
-To create an angular dimension use the following method:
+Aby utworzyć wymiar kątowy, użyj następującej metody:
 
 
 ```python
@@ -278,11 +293,11 @@ dimension = make_angular_dimension(center, angles, p3, normal=None)
 dimension = make_angular_dimension(center, [angle1, angle2], p3, normal=None)
 ```
 
--   Creates an angular `dimension` from the given `center` point, the `angles` list with two elements, and the point `p3` through which the arc should go.
-    -   If `angle1 > angle2`, the displayed angle is the difference `angle1 - angle2`; otherwise, the explementary angle is displayed, `360 - (angle2 - angle1)`.
-    -   The angles should be given in degrees.
+-   Tworzy `wymiar` kąta z podanego punktu `środka`, listy `kątów` z dwoma elementami i punktu `p3`, przez który ma przechodzić łuk.
+    -   Jeśli `angle1 > angle2`, wyświetlany kąt jest różnicą `angle1 - angle2`; w przeciwnym razie wyświetlany jest kąt dopełniający, `360 - (angle2 - angle1)`.
+    -   Kąty powinny być podane w stopniach.
 
-The view properties of `dimension` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
+Właściwości widoku `wymiaru` można zmienić poprzez nadpisanie jego atrybutów. Na przykład, nadpisać `ViewObject.FontSize` nowym rozmiarem w milimetrach.
 
 Przykład:
 

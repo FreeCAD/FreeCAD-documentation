@@ -1,9 +1,11 @@
 # Macro FCInfoToMouse/fr
 {{Macro/fr
 |Name=Macro FCInfoToMouse
+|Name/fr=Macro FCInfoToMouse
 |Icon=FCInfoToMouse.png
 |Description=Fournit des informations sur les coordonnées, la longueur et les angles en temps réel à côté du pointeur de la souris.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/1/10/FCInfoToMouse.png Icône de la barre d'outils]
 |Version=00.04
 |Date=2018-03-27
 }}
@@ -17,6 +19,8 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
 <img alt="" src=images/Macro_FCInfoToMouse_00.png style="width:480px;"> 
 *La macro FCInfoToMouse en action*
+
+
 
 ## Utilisation
 
@@ -32,6 +36,7 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 :   
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_01.png  style="width:240px;">
+
     :   
         
 *Figure 1*
@@ -50,6 +55,7 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 :   
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_02.png  style="width:240px;">
+
     :   
         
 *Figure 2*
@@ -79,6 +85,8 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 :   
 
     :   Si la souris survole un objet, le nom de l\'objet apparaît en haut de l\'annotation (voir Figure 3).
+
+
 
 
 
@@ -472,6 +480,8 @@ Il est possible que la macro ne reconnaisse pas certaines touches du clavier.
 La discussion sur le forum [From autocad to freecad](http://forum.freecadweb.org/viewtopic.php?f=3&t=13592)
 
 Mes macros sur [mario52a](https://gist.github.com/mario52a) Gists
+
+
 
 ## Versions
 

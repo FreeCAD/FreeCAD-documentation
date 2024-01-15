@@ -10,11 +10,11 @@
 
 ## はじめに
 
-<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Archワークベンチにより](Arch_Workbench/ja.md)、壁・梁・屋根・窓・階段・配管・家具等の建築的存在物をパラメトリックに操作可能な機能等を用いて、FreeCADにて現代的な[building information modelling](http://ja.wikipedia.org/wiki/BIM) (BIM)の作業工程が可能です。本ワークベンチは、industry foundation classes ([IFC](Arch_IFC.md))のファイルに対応しており、<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw ワークベンチと組み合わせて](TechDraw_Workbench/ja.md)2次元の平面図の作成も可能です。
+<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Archワークベンチ](Arch_Workbench/ja.md)により、壁・梁・屋根・窓・階段・配管・家具等の建築的存在物をパラメトリックに操作可能な機能等を用いて、FreeCADにて現代的な[building information modelling](http://ja.wikipedia.org/wiki/BIM) (BIM)の作業工程が可能です。本ワークベンチは、industry foundation classes ([IFC](Arch_IFC.md))のファイルに対応しており、<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw ワークベンチ](TechDraw_Workbench/ja.md)と組み合わせて2次元の平面図の作成も可能です。
 
-Archワークベンチは<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draftワークベンチのすべてのツールを受け継いでおり](Draft_Workbench/ja.md)、2次元のオブジェクトから3次元のパラメトリックな建築用オブジェクトを作成することが可能です。しかしそれだけではなく<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Partや](Part_Workbench/ja.md)<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesignといった他のワークベンチにより作成されたソリッドの図形を使うことも可能です](PartDesign_Workbench/ja.md)。
+Archワークベンチは<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draftワークベンチ](Draft_Workbench/ja.md)のすべてのツールを受け継いでおり、2次元のオブジェクトから3次元のパラメトリックな建築用オブジェクトを作成することが可能です。しかしそれだけではなく<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/ja.md)や<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ja.md)といった他のワークベンチにより作成されたソリッドの図形を使うことも可能です。
 
-FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIMワークベンチ](BIM_Workbench/ja.md)（<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Managerから導入可能](Std_AddonMgr.md)）に分担されるように実装していっています。前者が基本的な建築ツールを担い、後者はより直接的なBIMの作業工程を担っており、直感的かつ使いやすいようArchのツール群の上に新たなインターフェースを追加して成り立っているものです。詳しくは[FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)をご覧ください。
+FreeCADのBIM関連機能は徐々にこのArchワークベンチと<img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIMワークベンチ](BIM_Workbench/ja.md)（<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)から導入可能）に分担されるように実装していっています。前者が基本的な建築ツールを担い、後者はより直接的なBIMの作業工程を担っており、直感的かつ使いやすいようArchのツール群の上に新たなインターフェースを追加して成り立っているものです。詳しくは[FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide)をご覧ください。
 
 Draft、Arch及びBIMの各ワークベンチの開発者達はより大きな[OSArchコミュニティー](https://osarch.org)とも連携しており、共に建築土木の設計をフリーソフトのみを用いて改良するという究極の目標に向かって努力しています。
 
@@ -128,8 +128,6 @@ These are tools for modifying architectural objects.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -167,6 +165,10 @@ These are tools for modifying architectural objects.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 ### Preferences
 

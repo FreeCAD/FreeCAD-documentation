@@ -17,7 +17,7 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_ElementFluid1D.svg" width=16px> [Section de fluide pour un écoulement 1D](FEM_ElementFluid1D/fr.md)**.
     -   Sélectionnez l\'option **Modèle → Géométrie de l'élement → <img src="images/FEM_ElementFluid1D.svg" width=16px> Section de fluide pour un écoulement 1D** dans le menu.
 2.  Sélectionnez le type de fluide : Liquid, Gas ou Open Channel
@@ -27,7 +27,7 @@ Crée un élément FEM de section de fluide pour les réseaux pneumatiques et hy
 
 ## Limitations
 
-1.  La carte ne fonctionne qu\'avec un type d\'élément de réseau à 3 nœuds. Les informations peuvent être trouvées ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+1.  Le jeu de paramètres ne fonctionne qu\'avec un type d\'élément de réseau à 3 nœuds. Les informations peuvent être trouvées ici : <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
 
 
 

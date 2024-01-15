@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Arch SelectNonSolidMeshes
-   Name/de: Arch WähleNNichtFesteNetze
+   Name/de: Arch NichtmannigfaltigeNetzeFinden
    Icon: Arch SelectNonManifold.svg
-   MenuLocation: Arch , Utilities , Wähle nicht feste
+   MenuLocation: Arch , Dienstprogramme , Nicht-wasserdichte Netze auswählen
    Workbenches: Arch_Workbench/de
    SeeAlso: Arch_SplitMesh/de, Arch_MeshToShape/de
 ---
@@ -11,29 +11,17 @@
 # Arch SelectNonSolidMeshes/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Dieses Werkzeug identifiziert und wählt die nicht-festen (nicht-[1](https://de.wikipedia.org/wiki/Mannigfaltigkeit)) Netze in einer ausgewählten Gruppe von ausgewählten <img alt="Mesh Workbench" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz](Mesh_Workbench/de.md) Objekten.
+Dieses Werkzeug findet in einer ausgewählten Gruppe von <img alt="Mesh Workbench/de" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz](Mesh_Workbench/de.md)-Objekten die für Festkörper nicht geeigneten (da nicht-[mannigfaltigen](https://de.wikipedia.org/wiki/Mannigfaltigkeit)) Netze und wählt sie aus.
 
 
 
 ## Anwendung
 
-1.  Wähle ein Netzobjekt
-2.  Drücke den **<img src="images/Arch_SelectNonManifold.svg" width=24px>[Wähle nicht feste](Arch_SelectNonSolidMeshes/de.md)** Eintrag in **Arch → Dienstprogramme → Wähle nicht fest**.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Ein Netzobjekt auswählen
+2.  Den Menüeintrag **Arch → Dienstprogramme → <img src="images/Arch_SelectNonManifold.svg" width=24px> [Nicht-wasserdichte Netze auswählen](Arch_SelectNonSolidMeshes/de.md)** auswählen.
 
 
 

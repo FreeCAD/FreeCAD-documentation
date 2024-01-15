@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページがあなたの手助けになってくれます](Help_Editing.md)。
+それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページ](Help_Editing.md)があなたの手助けになってくれます。
 
 
 </div>
@@ -29,7 +29,7 @@
 
 <div class="mw-translate-fuzzy">
 
-それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページがあなたの手助けになってくれます](Help_Editing.md)。
+それから、あなたがここに乗せたい情報を持っているとしたら、何故それをここに追加してマニュアルの成長を手伝ってくれないんですか？wikiページの編集は簡単です。この[ページ](Help_Editing.md)があなたの手助けになってくれます。
 
 
 </div>
@@ -139,7 +139,7 @@
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> The [Spreadsheet Workbench](Spreadsheet_Workbench.md) for creating and manipulating spreadsheet data.
 
--   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
+-   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
 
@@ -204,10 +204,10 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 <div class="mw-translate-fuzzy">
 
--   [パワーユーザーハブではFreeCADのより高度な使用方法を見ることができます](Power_users_hub.md)
+-   [パワーユーザーハブ](Power_users_hub.md)ではFreeCADのより高度な使用方法を見ることができます
 -   [アーキテクチャワークフロー](http://yorik.uncreated.net/guestblog.php?tag=freecad):アーキテクチャフローでの、予備的な配置をFreeCADで行う方法の例です。
 -   もしあなたがFreeCADを手助けしてくれるなら、FreeCADを手伝うを参照してください。
--   FreeCADメンバーのコミュニティによって行われたプロジェクトの一覧[FreeCADコミュニティポータルです](FreeCAD_Community_Portal.md)。
+-   FreeCADメンバーのコミュニティによって行われたプロジェクトの一覧[FreeCADコミュニティポータル](FreeCAD_Community_Portal.md)です。
 -   Don\'t understand a term or phrase as used in FreeCAD? Try the [Glossary](Glossary.md) page.
 
 

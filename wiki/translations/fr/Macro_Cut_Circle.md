@@ -3,31 +3,36 @@
 |Name=Macro Cut Circle
 |Name/fr=Macro Cut Circle
 |Icon=Macro_Cut_Circle.png
-|Description=Coupe un cercle(s) ou un arc(s) sélectionné(s) en plusieurs arcs contigus, les arcs créés sont colorés alternativement en rouge et blanc pour distinguer les différents arcs. Le nouveau cercle est créé dans la coordonnée réelle de l'objet, et non dans celle du corps. <br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
+|Description=Découpe les cercles ou les arcs en plusieurs arcs. Les arcs créés peuvent être colorés alternativement pour les distinguer.<br/>{{ColoredText|(Ligne de commande, coller la macro complète dans la console Python)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019-07-02
-|Download=[https://www.freecadweb.org/wiki/images/9/93/Macro_Cut_Circle.png Icon]
+|FCVersion=Toutes
+|Download=[https://wiki.freecad.org/images/9/93/Macro_Cut_Circle.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro coupe un cercle(s) ou un arc(s) sélectionné(s) en plusieurs arcs contigus, les arcs sont colorés alternativement en rouge et blanc pour distinguer les différents arcs.
+Cette macro découpe les cercles ou les arcs en plusieurs arcs. Les arcs créés peuvent être colorés alternativement pour les distinguer.
 
 <img alt="" src=images/Macro_CutCircle_00.png  style="width:400px;"> 
 *CutCircle*
 
+
+
 ## Utilisation
 
-Copiez la macro **cutCirle** dans la console Python FreeCAD, sélectionnez le type de cercle(s) et (ou) arc(s) dans la console:
-
-pour voir les cercles et arcs découpés dans cet exemple cinq arcs contigus.
-
-l\'objet(s) original(aux) n\'est pas éffacé.
+1.  Collez la macro **cutCirle** dans la [console Python](Python_console/fr.md).
+2.  Appuyez sur **Entrée** (le code est maintenant en mémoire).
+3.  Sélectionnez un ou plusieurs cercles ou arcs.
+4.  Lancez la fonction {{Incode|cutCircle()}} avec 1 ou 2 arguments depuis la console Python :
+    -   Exemple avec 1 argument : {{Incode|cutCircle(4)}}. Ceci créera 4 nouveaux arcs pour chaque cercle ou arc sélectionné et s\'arrêtera là (pas de coloration).
+    -   Exemple avec 2 arguments : {{Incode|cutCircle(6, 1)}}. Ceci créera 6 nouveaux arcs pour chaque cercle ou arc sélectionné, colorés alternativement en rouge et blanc comme indiqué dans l\'image.
+5.  L\'objet original n\'est pas supprimé.
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Cut_Circle.png )
+Icône de la barre d\'outils ![](images/Macro_Cut_Circle.png )
 
 **Macro_Cut_Circle.FCMacro**
 
@@ -37,7 +42,7 @@ ToolBar Icon ![](images/Macro_Cut_Circle.png )
 # selection circle(s) (circles and arcs)
 # give number of cut, biColor 0/1
 # cut the circle to x arcs
-# if biColor is <> 0 the arcs are coloured alternately Red White Red White ....
+# if biColor is <> 0 the arcs are colored alternately Red White Red White ....
 # 
  
 __title__   = "cutCircle"
@@ -93,22 +98,26 @@ def cutCircle(number = 2, biColor = 0):
                 pivot1 += pivot0
     App.ActiveDocument.recompute()
 
-#cutCircle(5, 1)  # here with 5 arcs and coloured
+#cutCircle(5, 1)  # here with 5 arcs and colored
 #cutCircle(4)     #
 
 }}
+
+
 
 ## Exemple
 
 
 ```python
-cutCircle(5, 1)  # here with 5 arcs and coloured
+cutCircle(5, 1)  # here with 5 arcs and colored
 cutCircle(4)     #
 ```
 
+
+
 ## Projet
 
-Couper les cercles d\'un cylindre.
+Couper des cercles d\'un cylindre.
 
 ## Version
 

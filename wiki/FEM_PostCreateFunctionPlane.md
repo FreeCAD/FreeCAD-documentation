@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM PostCreateFunctionPlane
-   MenuLocation: Results , Filter Functions , Plane
+   MenuLocation: Results , Filter functions , Plane
    Workbenches: FEM_Workbench
    SeeAlso: FEM_tutorial
 ---
@@ -16,7 +16,7 @@ The <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;">
 
 ### Create a plane function 
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
+1.  Press the **<img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> [Plane](FEM_PostCreateFunctionPlane.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionPlane.svg" width=16px> Plane** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the origin and the direction of the section plane.
 4.  Press the **OK** button to finish.

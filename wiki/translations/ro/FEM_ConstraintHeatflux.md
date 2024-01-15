@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -14,6 +16,8 @@ Această constrângere specifică schimbul de căldură (transferul de căldură
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -32,6 +36,12 @@ Această constrângere specifică schimbul de căldură (transferul de căldură
 
 
 </div>
+
+### Option
+
+By default, this feature defines a convective heat flux. By using the option **Surface heat flux**, one can specify a heat flux value in Watts per surface area (W/m\^2).
+
+
 
 ## Notă
 

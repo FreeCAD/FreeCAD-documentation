@@ -1,94 +1,107 @@
 ---
  GuiCommand:
    Name: SheetMetal AddFoldWall
-   MenuLocation: SheetMetal , Fold a Wall
-   Workbenches: SheetMetal_Workbench
+   Name/pl: Arkusz Blachy: Składanie ścianek
+   MenuLocation: SheetMetal , Składanie ścianek
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **C** **F**
 ---
 
 # SheetMetal AddFoldWall/pl
 
-## Description
 
-The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** command folds a sheet metal plate (blank) at a chosen line.
 
-It can be used with a pre-cut blank to
+## Opis
 
--   create a perforated bend zone
--   leave planar sections within the bend area and beyond e.g. tabs. (needs gaps in the bend line)
+Polecenie <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **Składanie ścianek** składa blachę *(pustą)* na wybranej linii.
+
+Może być używany z wstępnie wyciętym półfabrykatem do
+
+-   utworzenia perforowanej strefy gięcia
+-   pozostawienia płaskich sekcji w obszarze gięcia i poza nim, np. zakładek. *(wymaga przerw w linii gięcia)*.
 
 <img alt="" src=images/SheetMetal_AddFoldWall-13.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
 
 
 
-*Pre-cut blank and bend line with two gaps → perforated bend zone with some still planar geometry*
+*Wstępnie wycięty półfabrykat i linia gięcia z dwiema szczelinami → perforowana strefa gięcia o wciąż płaskiej geometrii.*
 
-## Usage
 
-1.  Select the face to be bent.
-2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
-3.  Select the coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) containing the **bend line (segments)** (preferably from the [tree view](Tree_view.md)).
-4.  Release the **Ctrl** key (or the **Command** key).
-5.  Activate the <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **SheetMetal AddFoldWall** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Fold a Wall](SheetMetal_AddFoldWall.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Fold a Wall** menu option.
-    -   The keyboard shortcut: **C** Then **F**.
-6.  Change the value of the property **Position** to adjust the position of the bend according to the bend line.
+
+## Użycie
+
+1.  Wybierz ścianę, która ma zostać wygięta.
+2.  Przytrzymaj klawisz **Ctrl** *(lub **Command** na macOS)*.
+3.  Wybierz współpłaszczyznowy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;">. [szkic](Sketcher_Workbench/pl.md) *(tj. leżący na tej samej płaszczyźnie)* zawierający **linię *(segmenty)* zgięcia** (najlepiej z [Widoku drzewa](Tree_view/pl.md)).
+4.  Puść klawisz **Ctrl** (lub **Command**).
+5.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **Składanie ścianek** używając jednej z poniższych opcji:
+    -   Przycisk **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> Składanie ścianek**.
+    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Składanie ścianekl**.
+    -   Skrót klawiaturowy: **C** następnie **F**.
+6.  Zmień wartość właściwości **Pozycja**, aby dostosować pozycję zagięcia zgodnie z linią zagięcia.
 
 <img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
 
 
 
-*The bend line(s) lying in the middle of the perforation → to keep the bend centred the same way the property **Position* has to be set to {{value|middle**}}
-
-### Notes
-
--   The bend line sketch has to be **coplanar** to the selected face.
-
--   The bend line segments have to be **colinear** to each other.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Linia zgięcia ''(linie zgięcia)'' leżąca w środku perforacji → aby zgięcie było wyśrodkowane w ten sam sposób, właściwość **Pozycja* musi być ustawiona na {{value|środek**.}}
 
 
-{{Properties_Title|Base}}
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+## Uwagi
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+-   Szkic linii zgięcia musi być **współpłaszczyznowy** do wybranej ściany.
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+-   Segmenty linii zgięcia muszą być **współliniowe** względem siebie.
 
 
-{{Properties_Title|Parameters}}
 
--    **Bend Line|Link**: \"Bend Reference Line List\". Links to the bend line objects.
+## Właściwości
 
--    **Position|Enumeration**: \"Bend Line Position\". {{value|forward}} (default), {{value|middle}}, {{value|backward}}.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
--    **angle|Angle**: \"Bend Angle\". Default angle: {{value|90,00°}}.
+Obiekt Składania ścianki środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
--    **base Object|LinkSub**: \"Base Object\". Link to the planar face to be bent.
 
--    **invert|Bool**: \"Invert Bend Direction\". Default: `False`
 
--    **invertbend|Bool**: \"Invert Solid Bend Direction\". Default:  `True` swaps the side of the line to be bent.
+### Dane
 
--    **kfactor|FloatConstraint**: \"Neutral Axis Position\". Default: {{value|0,50}}.
 
--    **radius|Length**: \"Bend Radius\". Default: {{value|1,00 mm}}.
+{{Properties_Title|Podstawowe}}
 
--    **unfold|Bool**: \"Unfold Bend\". Default: `False`
+-    **Etykieta|String**: Wartość domyślna: {{value|Fold}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
 
-## Example
+-    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Łącze do cechy nadrzędnej.
+
+-    **_Body|LinkHidden|ukryte**: Łącze ukryte do zawartości nadrzędnej.
+
+
+{{Properties_Title|Parametry}}
+
+-    **Linia gięcia|Link**: *Lista linii referencyjnych zgięć*. Łącza do obiektów linii zagięcia.
+
+-    **Pozycja|Enumeration**: *Pozycja linii gięcia*. {{value|w przód}} *(domyślnie)*, {{value|środek}}, {{value|wstecz}}.
+
+-    **Kąt|Angle**: *Kąt zgięcia*. Domyślna wartość kąta: {{value|90,00°}}.
+
+-    **Obiekt bazowy|LinkSub**: *Obiekt bazowy*. Łącze do płaskiej powierzchni, która ma zostać wygięta.
+
+-    **Odwróć|Bool**: *Odwróć kierunek zgięcia*. Wartość domyślna: {{FALSE/pl}}.
+
+-    **OderóćZgięcie|Bool**: *Odwróć kierunek zgięcia bryły*. Wartość domyślna:  Wartość {{TRUE/pl}} zamienia stronę linii, która ma zostać wygięta.
+
+-    **WspółczynnikK|FloatConstraint**: *Pozycja osi neutralnej*. Wartość domyślna: {{value|0,50}}.
+
+-    **Promień|Length**: *Promień zgięcia*. Wartość domyślna: {{value|1,00 mm}}.
+
+-    **Rozwiń|Bool**: *Rozwiń zagięcie*. Wartość domyślna: {{FALSE/pl}}.
+
+
+
+## Przykład
 
 <img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;"> 
-*A simple clip*
+*Prosty klips*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -96,49 +109,60 @@ A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) objec
 
 <div class="mw-collapsible-content">
 
-### Preparation
 
-This clip is made of a blank that receives three folds and so we need four sketches prepared in advance:
 
-:   \- one for the outline plus slot (blank)
-:   \- one for the bend at the tip
-:   \- one for the upward bend
-:   \- one for the downward bend
+### Przygotowania
 
-Easiest way to guarantee that one face of the blank and all folding lines are coplanar is to create all sketches on the same plane - the **XY_Plane** in this case.
+Ten klips jest wykonany z półfabrykatu, który otrzymuje trzy zagięcia, więc potrzebujemy czterech szkiców przygotowanych wcześniej:
 
-The folding lines could be created with other tools but hey, we have a <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md)!
+:   \- jeden dla obrysu plus szczelina *(półfabrykat)*,
+:   \- jeden dla zagięcia na końcu,
+:   \- jeden dla zagięcia w górę ,
+:   \- jeden dla zagięcia w dół.
+
+Najprostszym sposobem zagwarantowania, że jedna powierzchnia półfabrykatu i wszystkie linie zagięcia są współpłaszczyznowe, jest utworzenie wszystkich szkiców na tej samej płaszczyźnie - w tym przypadku **Płaszczyzna_XY**.
+
+Linie zagięcia można stworzyć za pomocą innych narzędzi, ale hej, mamy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench.md)!
 
 <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
-*Sketches on their common plane and their representation in the design tree*
+*Szkice na wspólnej płaszczyźnie i ich reprezentacja w drzewie projektu.*
 
-### Workflow
 
-1.  Create a blank
-    1.  Select the outline sketch
-    2.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_AddFoldWall-02.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-03.png  style="width:280px;"> 
-2.  Fold the tip
-    1.  Select the blank\'s **bottom face**
-    2.  Select the **sketch** named ***Tip Fold line*** (preferably from the tree view)  (and don\'t forget the control/command key )
-    3.  Press the  or use the keyboard shortcut: <img alt="" src=images/SheetMetal_AddFoldWall-10.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-04.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-05.png  style="width:280px;">
-    4.  The fold should be 90° down and so some values in the properties window need to be set e.g.:  - the **angle** value to 60°  - the **invert** value to true for an upward bend  
-3.  Create the downward fold
-    1.  Select the blank\'s **bottom face**
-    2.  And then the **sketch** named ***Down-Fold line***
-    3.  Press the  or use the keyboard shortcut: <img alt="" src=images/SheetMetal_AddFoldWall-11.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-06.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-07.png  style="width:280px;">
-    4.  Set the **angle** value to 92°
-    5.  If the wrong section of the part moved set the **invertbend** value to true  
-4.  To create the upward fold
-    1.  select the blank\'s **bottom face**
-    2.  and then the **sketch** named ***Up-Fold line***
-    3.  Press the  or use the keyboard shortcut: <img alt="" src=images/SheetMetal_AddFoldWall-12.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-08.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-09.png  style="width:280px;">
-    4.  Set the **angle** value to 80°
-    5.  If the fold is downward set the **invert** value to true
-    6.  If needed set the **invertbend** value to true  
 
-Done!
+### Przepływ pracy 
 
-Note!: In real life the upward fold must be done before the downward fold. Only the virtual world of CAD allows us to bend through solid material. This way the orientation of the static section doesn\'t change.  All sketches lie on the same plane to avoid sketches attached to moveable faces.
+1.  Utwórz półfabrykat
+    1.  Wybierz szkic konturu
+    2.  Naciśnij przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px>'''Wykonaj składanie ścianek'''
+**
+
+ lub użyj skrótu klawiaturowego:  <img alt="" src=images/SheetMetal_AddFoldWall-02.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-03.png  style="width:280px;"> 
+
+1.  Złóż końcówkę
+    1.  Wybierz **dolną powierzchnię** półfabrykatu
+    2.  Wybierz **szkic** o nazwie ***Tip Fold line*** *(najlepiej z widoku drzewa)*  *(i nie zapomnij o klawiszu **Ctr** / **Command**)*
+    3.  Naciśnij przycisk  lub użyj skrótu klawiaturowego: <img alt="" src=images/SheetMetal_AddFoldWall-10.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-04.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-05.png  style="width:280px;">
+    4.  Zagięcie powinno być skierowane w dół pod kątem 90°, dlatego należy ustawić niektóre wartości w oknie właściwości, np.:  - wartość **kąta** na 60°  - **odwróć** na {{true/pl}} dla zagięcia w górę
+
+ 
+
+1.  Utwórz zagięcie w dół
+    1.  Wybierz **dolną powierzchnię** półfabrykatu.
+    2.  Następnie *szkic* o nazwie ***Down-Fold line***.
+    3.  Naciśnij przycisk  lub użyj skrótu klawiaturowego: <img alt="" src=images/SheetMetal_AddFoldWall-11.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-06.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-07.png  style="width:280px;">
+    4.  Ustaw wartość **kąta** na {{Value|92°}}.
+    5.  Jeśli przesunęła się niewłaściwa sekcja części, ustaw wartość **OdwróćGięcie** na  
+2.  Aby utworzyć zagięcie w górę:
+    1.  Wybierz **dolną powierzchnię** półfabrykatu.
+    2.  I następnie **szkic** o nazwie ***Up-Fold line***
+    3.  Naciśnij przycisk  lub użyj skrótu klawiaturowego: <img alt="" src=images/SheetMetal_AddFoldWall-12.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-08.png  style="width:120px;"> <img alt="" src=images/SheetMetal_AddFoldWall-09.png  style="width:280px;">
+    4.  Ustaw wartość **kąta** na {{Value|80°}}.
+    5.  Jeśli zagięcie zostało wykonane w dół, ustaw wartość *Odwróć* na {{true/pl}}
+    6.  Jeśli to konieczne, ustaw wartość **OdwróćGięcie** na true  
+
+Gotowe!
+
+Uwaga!: W rzeczywistości zagięcie w górę musi być wykonane przed zagięciem w dół. Jedynie wirtualny świat CAD pozwala nam na zginanie przez stały materiał. Dzięki temu orientacja sekcji statycznej nie ulega zmianie.  Wszystkie szkice leżą na tej samej płaszczyźnie, aby uniknąć szkiców dołączonych do ruchomych powierzchni.
 
 
 </div>

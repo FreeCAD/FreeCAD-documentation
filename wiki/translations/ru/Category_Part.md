@@ -26,7 +26,7 @@ This category lists pages related to the [Part Workbench/ru](Part_Workbench/ru.m
 | [Part Module/ru](Part_Module/ru.md) | [Part Offset/ru](Part_Offset/ru.md) | [Part Offset2D/ru](Part_Offset2D/ru.md) |
 | [Part Plane/ru](Part_Plane/ru.md) | [Part Point/ru](Part_Point/ru.md) | [Part PointsFromMesh/ru](Part_PointsFromMesh/ru.md) |
 | [Part Primitives/ru](Part_Primitives/ru.md) | [Part Prism/ru](Part_Prism/ru.md) | [Part ProjectionOnSurface/ru](Part_ProjectionOnSurface/ru.md) |
-| [Part RefineShape/ru](Part_RefineShape/ru.md) | [Part RegularPolygon/ru](Part_RegularPolygon/ru.md) | [Part ReverseShapes/ru](Part_ReverseShapes/ru.md) |
+| [Part RefineShape/ru](Part_RefineShape/ru.md) | [Part RegularPolygon/ru](Part_RegularPolygon/ru.md) | [Part ReverseShape/ru](Part_ReverseShape/ru.md) |
 | [Part Revolve/ru](Part_Revolve/ru.md) | [Part RuledSurface/ru](Part_RuledSurface/ru.md) | [Part scripting/ru](Part_scripting/ru.md) |
 | [Part Section/ru](Part_Section/ru.md) | [Part ShapeFromMesh/ru](Part_ShapeFromMesh/ru.md) | [Part SimpleCopy/ru](Part_SimpleCopy/ru.md) |
 | [Part Slice/ru](Part_Slice/ru.md) | [Part SliceApart/ru](Part_SliceApart/ru.md) | [Part Sphere/ru](Part_Sphere/ru.md) |

@@ -1,40 +1,57 @@
 # Draft Pattern/pl
 ## Opis
 
-[Draft](Draft_Workbench.md) objects with a **Make Face** property can display an SVG pattern instead of a solid face color.
+Obiekty środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) z właściwością **Utwórz ścianę** mogą wyświetlać wzór SVG zamiast jednolitego koloru ściany.
 
 ![](images/DraftPatternSample.png ) 
-*An ellipse and a polygon with an SVG pattern*
+*Elipsa i wielokąt z wzorem SVG.*
 
-## Usage
 
-1.  Make sure the objects are closed and planar, and do not self-intersect.
-2.  To close a [Draft Wire](Draft_Wire.md), a [Draft BSpline](Draft_BSpline.md), a [Draft CubicBezCurve](Draft_CubicBezCurve.md) or a [Draft BezCurve](Draft_BezCurve.md) set its **Closed** property to `True`.
-3.  To close a [Draft Circle](Draft_Circle.md) or a [Draft Ellipse](Draft_Ellipse.md) set its **First Angle** and **Last Angle** properties to the same value.
-4.  Select the objects.
-5.  Switch to the **View** tab of the [Property editor](Property_editor.md).
-6.  The **Display Mode** must be set to {{Value|Flat Lines}}.
-7.  Select a **Pattern**.
-8.  Optionally change the **Pattern Size**. Note that a higher value results in a denser pattern.
-9.  The pattern is not displayed when the objects are selected. Deselect them to check the result.
-10. Optionally reselect the objects to change the pattern properties.
 
-## Available patterns 
+## Użycie
+
+1.  Upewnij się, że obiekty są zamknięte, płaskie i nie przecinają się.
+
+2.  Aby zamknąć [polilinię](Draft_Wire/pl.md), [krzywa złożoną](Draft_BSpline/pl.md), [Sześcienną krzywą Béziera](Draft_CubicBezCurve/pl.md) lub [Krzywą Bézier\'a](Draft_BezCurve/pl.md) ustaw ich właściwość **Zamknięty** na {{TRUE/pl}}.
+
+3.  Aby zamknąć [okrąg](Draft_Circle/pl.md) lub [elipsę](Draft_Ellipse/pl.md) ustaw ich właściwości **kąt pierwszy** i **kąt drugi** na tę samą wartość.
+
+4.  Wybierz obiekty.
+
+5.  Przejdź do zakładki **Widok** w [Edytorze właściwości](Property_editor.md).
+
+6.  
+    **Tryb wyświetlania**musi być ustawiony na {{Value|Cieniowany z krawędziami}}.
+
+7.  Wybierz **Wzór**.
+
+8.  Opcjonalnie zmień rozmiar **Rozmiar wzoru**. Należy pamiętać, że większa wartość skutkuje gęstszym wzorem.
+
+9.  Wzór nie jest wyświetlany, gdy obiekty są zaznaczone. Usuń ich zaznaczenie, aby sprawdzić wynik.
+
+10. Opcjonalnie można ponownie wybrać obiekty, aby zmienić właściwości wzoru.
+
+
+
+## Dostępne wzory 
 
 Image:Aluminium.svg\|aluminium Image:Brick01.svg\|brick01 Image:Concrete.svg\|concrete Image:Cross.svg\|cross Image:Cuprous.svg\|cuprous Image:Diagonal1.svg\|diagonal1 Image:Diagonal2.svg\|diagonal2 Image:Earth.svg\|earth Image:General_steel.svg\|general_steel Image:Glass.svg\|glass Image:Hatch45L.svg\|hatch45L Image:Hatch45R.svg\|hatch45R Image:Hbone.svg\|hbone Image:Line.svg\|line Image:Plastic.svg\|plastic Image:Plus.svg\|plus Image:Simple.svg\|simple Image:Solid.svg\|solid Image:Square.svg\|square Image:Steel.svg\|steel Image:Titanium.svg\|titanium Image:Wood.svg\|wood Image:Woodgrain.svg\|woodgrain Image:Zinc.svg\|zinc
 
-## Notes
 
--   SVG patterns are stored in **.SVG** files. It is possible to use your own custom patterns. See [Preferences](#Preferences.md).
--   The patterns themselves are not saved in the FreeCAD document. Objects whose **Pattern** cannot be found are displayed with a solid face color instead.
 
-## Preferences
+## Uwagi
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   Wzory SVG są przechowywane w plikach **.SVG**. Możliwe jest użycie własnych niestandardowych wzorców. Zobacz [Ustawienia](#Ustawienia.md).
+-   Same wzory nie są zapisywane w dokumencie FreeCAD. Obiekty, których **Wzór** nie zostanie znaleziony, są wyświetlane z jednolitym kolorem powierzchni.
 
--   To specify a directory with addition SVG patterns: **Edit → Preferences... → Draft → Visual settings → Alternate SVG patterns location**. Select a file in the directory and then remove the filename in the preferences input box, leaving only the path. After changing this preference you must restart FreeCAD.
--   The **Edit → Preferences... → Draft → Visual settings → SVG pattern resolution** preference is not used.
--   To change the **Pattern Size** used for new objects: **Edit → Preferences... → Draft → Visual settings → SVG pattern default size**.
+
+
+## Ustawienia
+
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
+
+-   Aby zmienić **Rozmiar wzoru** używany dla nowych obiektów: **Edycja → Preferencje ... → Rysunek Roboczy → Wygląd → Rozmiar wzoru SVG**.
+-   Aby określić katalog z dodatkowymi wzorcami SVG: **Edycja → Preferencje ... → Rysunek Roboczy → Wygląd → Dodatkowa lokalizacja wzorów SVG**.
 
 
 

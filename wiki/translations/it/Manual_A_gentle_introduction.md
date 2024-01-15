@@ -1,5 +1,5 @@
 # Manual:A gentle introduction/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) è un linguaggio di programmazione open source, ampiamente popolare, molto spesso incorporato in una applicazione come script, come nel caso di FreeCAD. Esso ha una serie di caratteristiche che lo rendono particolarmente interessante per gli utenti di FreeCAD: È molto facile da imparare, specialmente per le persone che non hanno mai programmato prima, ed è incorporato in molte altre applicazioni, il che lo rende un prezioso strumento da conoscere, e poi essere in grado di usarlo in molte altre applicazioni, come ad esempio [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) o [GRASS](http://grass.osgeo.org/).
 
@@ -7,7 +7,7 @@ FreeCAD fa un ampio uso di Python. Con esso, è possibile accedere e controllare
 
 ![](images/Exercise_python_01.jpg )
 
-Ma la console Python ha anche un altro uso molto importante: Ogni volta che si preme un pulsante della barra degli strumenti, o si eseguono altre operazioni in FreeCAD, un po\' di codice Python viene stampato nella console (se l\'opzione **Mostra comandi script nella console Python** è abilitata in **Modifica → Preferenze → Generale → Macro**) ed eseguito. Lasciando la console Python aperta, è possibile letteralmente vedere il codice python svolgersi mentre si lavora, e in poco tempo, quasi inconsapevolmente, si impara un po\' di linguaggio Python.
+Ma la console Python ha anche un altro uso molto importante: Ogni volta che si preme un pulsante della barra degli strumenti, o si eseguono altre operazioni in FreeCAD, un po\' di codice Python viene stampato nella console (se l\'opzione **Mostra comandi script nella console Python** è abilitata in **Modifica → Preferenze → Python → Macro**) ed eseguito. Lasciando la console Python aperta, è possibile letteralmente vedere il codice python svolgersi mentre si lavora, e in poco tempo, quasi inconsapevolmente, si impara un po\' di linguaggio Python.
 
 FreeCAD ha anche un [sistema di macro](Macros/it.md), che permette di registrare le azioni per poterle riprodurre in un momento successivo. Anche questo sistema utilizza la console Python, registrando semplicemente in essa tutto ciò che viene fatto.
 

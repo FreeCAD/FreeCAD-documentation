@@ -149,8 +149,6 @@
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Обрезать плоскостью](Arch_CutPlane/ru.md): Обрезает объект по указанной плоскости.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.png  style="width:32px;"> [Добавить компонент](Arch_Add/ru.md): Добавляет объекты к компоненту.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Удалить компонент](Arch_Remove/ru.md): Вычитает или удаляет объекты из компонента.
@@ -188,6 +186,10 @@
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 
 

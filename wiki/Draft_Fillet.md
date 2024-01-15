@@ -21,7 +21,7 @@ The <img alt="" src=images/Draft_Fillet.svg  style="width:24px;"> **Draft Fillet
 
 1.  Select two [Draft Lines](Draft_Line.md) that meet in a single point.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Fillet.svg" width=16px> [Draft Fillet](Draft_Fillet.md)** button.
+    -   Press the **<img src="images/Draft_Fillet.svg" width=16px> [Fillet](Draft_Fillet.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Fillet.svg" width=16px> Fillet** option from the menu.
     -   Use the keyboard shortcut: **F** then **I**.
 3.  Enter the **Fillet radius**. If the **Create chamfer** option is selected this will be the size of the chamfer (the length of the straight edge). Note that the command will not succeed if the radius or the chamfer size is too large for the selected lines.

@@ -3,7 +3,7 @@
 
 La [Vista report](Report_view/it.md) è un pannello che mostra i messaggi di testo dei processi e degli strumenti di FreeCAD. È disponibile nel menu **{{StdMenu|[Visualizza](Std_View_Menu/it.md)** → Pannelli → Vista report}}.
 
-Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generali → Output** nell\'[editor delle preferenze](Preferences_Editor/it#Finestra_di_output/it.md).
+Alcune proprietà di questo pannello, come il colore del testo e se visualizzarlo automaticamente in caso di avvisi o di errori, possono essere configurate nella scheda **Generale → Report** nell\'[editor delle preferenze](Preferences_Editor/it#Report/it.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
@@ -49,7 +49,7 @@ Facendo clic con il pulsante destro del mouse sulla vista del report si apre un 
     -   
         **Visualizza tipi di messaggi**
         
-        : see [Editor Preferenze](Preferences_Editor/it#Finestra_di_output.md).
+        : vedere [Editor Preferenze](Preferences_Editor/it#Finestra_di_output.md).
 
     -   
         **Mostra la Vista Report in caso di**

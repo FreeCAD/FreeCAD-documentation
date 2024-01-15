@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Il vincolo peso proprio definisce l\'accelerazione di gravità di 9,81 m/s\^2 che agisce su tutto il modello nella direzione prescritta.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -27,6 +37,8 @@ Il vincolo peso proprio definisce l\'accelerazione di gravità di 9,81 m/s\^2 ch
 
 
 </div>
+
+
 
 ## Script
 
@@ -119,7 +131,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 Eall,GRAV,9810,0.0,0.0,-1.0
 ```
 
-where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+where 9810 is a gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is the direction vector. The value can be set as a multiple of standard gravity acceleration to simulate loading of e.g. 4g.
 
 ## Solver Z88 
 

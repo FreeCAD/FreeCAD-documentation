@@ -1,10 +1,90 @@
 # Svg Namespace/pl
-**Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
+**Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''' do '''0.21''', ale środowisko pracy Kreślenie nie jest już dołączane od wersji '''0.21'''.**
+
+
+{{Message|Obecnie środowisko pracy Rysunek Techniczny nadal wykorzystuje atrybut '''freecad:EditableText''' i związaną z nim deklarację przestrzeni nazw w swoich aktualnych szablonach.}}
 
 
 
 
-W dokumentach [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) eksportowanych przez środowisko [Kreślenie](Drawing_Workbench/pl.md) i używanych jako strony [szablonów](Drawing_templates.md), może zostac użytych kilka niestandardowych [atrybutów](http://www.w3schools.com/xml/xml_attributes.asp). Pierwotnie do użytku wewnętrznego programu FreeCAD, ale mogą być również używane przez inne aplikacje obsługujące FreeCAD w przyszłości. Wszystkie te atrybuty używają prefiksu **freecad:** [przestrzeni nazw](http://www.w3schools.com/xml/xml_namespaces.asp). URL przestrzeni nazw zdefiniowany w tych dokumentach SVG odnosi się do tej strony.
+
+
+## Wprowadzenie
+
+FreeCAD może importować i eksportować dokumenty [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) zawierające kod należący do określonej \"przestrzeni nazw\", która jest podzbiorem instrukcji XML.
+
+Jak każdy dokument XML, dokument SVG składa się z dwóch sekcji:
+
+-   Nagłówka: to zaledwie jeden wiersz deklarujący, która wersja języka XML jest używana dla instrukcji w treści tego dokumentu.
+-   Treść: lista instrukcji. Dokumenty SVG zawierają wszystkie instrukcje w znacznikach<svg>.
+
+:   Znacznik otwierający zawiera informacje o rozmiarze i używanych przestrzeniach nazw SVG.
+
+
+
+## Domyślna przestrzeń nazw 
+
+Domyślna przestrzeń nazw SVG używana przez FreeCAD jest zadeklarowana w tym wierszu:
+
+
+{{Code|lang=xml|code=
+xmlns="http://www.w3.org/2000/svg" version="1.1"
+}}
+
+Zewnętrzny link prowadzi do strony internetowej zawierającej informacje o przestrzeni nazw i jej zestawie instrukcji. Atrybuty tej przestrzeni nazw są używane bez przedrostka.
+
+
+
+## Rozszerzenie przestrzeni nazw 
+
+Atrybuty brakujące w przestrzeni nazw SVG mogą być dodawane przez rozszerzenia przestrzeni nazw. FreeCAD używa takiego rozszerzenia dla szablonów rysunkowych. Szablony dla Drawing workbench używają czterech niestandardowych atrybutów, które są oznaczone prefiksem \"freecad:\":
+
+-   [freecad:EditableText](#freecad_EditableText.md), jest on nadal używany z szablonami dla środowiska pracy TechDraw.
+-   [freecad:basepoint1](#freecad_basepoint1.md).
+-   [freecad:basepoint2](#freecad_basepoint2.md)
+-   [freecad:dimpoint](#freecad_dimpoint.md)
+
+Deklaracja przestrzeni nazw jest używana do wprowadzenia prefiksu i linku do powiązanej strony internetowej, **tej strony**:
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+Link nie jest używany do pobierania informacji lub wartości w czasie wykonywania, ale jest kluczem do aktywacji niestandardowych atrybutów.
+
+
+
+### Szablony rysunków 
+
+W dokumentach [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) eksportowanych przez środowisko pracy [Kreślenie](Drawing_Workbench/pl.md) programu FreeCAD i używanych jako *(rysunkowe)* [szablony](Drawing_templates/pl.md) stron, mogą być używane niestandardowe [atrybuty](http://www.w3schools.com/xml/xml_attributes.asp), pierwotnie do użytku wewnętrznego FreeCAD, ale mogą być również używane przez inne aplikacje obsługujące FreeCAD w przyszłości. Wszystkie te atrybuty używają prefiksu **freecad:** [przestrzeni nazw](http://www.w3schools.com/xml/xml_namespaces.asp). Adres URL przestrzeni nazw zdefiniowany w tych dokumentach SVG odnosi się do tej strony.
+
+:   środowisko pracy Kreślenie nie jest już zawarte w podstawowym pakiecie FreeCAD {{VersionPlus/pl|0.21}}, więc te szablony Rysunku są już nieaktualne.
+
+
+
+### Szablony Rysunku Technicznego 
+
+Środowisko pracy Rysunek Techniczny również używa szablonów SVG, ale nie może tworzyć i eksportować szablonów. Opiera się na [freecad:EditableText](#freecad_EditableText.md) dla wpisów w blokach tytułowych.
+
+
+
+### Migracja do freecad.org 
+
+Ponieważ wiki FreeCAD, w tym **ta strona**, została przeniesiona z **freecadweb.org** do **freecad.org** w wersji 0.21, link musi zostać odpowiednio zaktualizowany:
+
+
+{{Code|lang=xml|code=
+xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
+}}
+
+Zaktualizowane szablony Rysunku Technicznego zawierają teraz klucz, który nie może aktywować niestandardowych atrybutów, gdy są używane z FreeCAD {{VersionMinus/pl|0.20}}, w wyniku czego edytowalne teksty ostatnich szablonów nie są rozpoznawane i są traktowane jako zwykły tekst.
+
+:   W takich przypadkach \"web\" musi zostać ręcznie ponownie wstawiony do deklaracji przestrzeni nazw szablonu.
+
+Wygląda na to, że {{VersionPlus/pl|0.21}} może obsługiwać oba adresy linków.
+
+
 
 ## Użycie
 
@@ -42,7 +122,11 @@ viewBox="0 0 xxx yyy"
 
 Dodatkowe informacje dotyczące przestrzeni roboczej i bloku tytułu mogą zostać dodane i są zdefiniowane na stronie [Szablony rysunków](Drawing_templates/pl.md).
 
+
+
 ## Atrybuty
+
+
 
 ### [freecad:EditableText](#Przykład_kodu_freecad_EditableText.md)
 
@@ -85,9 +169,13 @@ Określa punkt obiektu [Wymiarowanie](Draft_Dimension/pl.md), przez który przec
 
 Przykład: zobacz [freecad:basepoint1](#freecad_basepoint1.md)
 
+
+
 ### Przykład kodu freecad:EditableText 
 
 Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_templates/pl#A3_Poziomy_tekst_US.2C_kompletny_z_konwencj.C4.85_US.md)
+
+
 
 #### 1 : Tytuł bez pola textedit 
 
@@ -107,6 +195,8 @@ Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_template
          x="220.8476"
          id="tspan3484"
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
+
+
 
 
 #### 2 : Tytuł z polem textedit 
@@ -137,6 +227,8 @@ Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_template
     ... </text>
   
   </g>
+
+
 
 
 #### Objaśnienia
@@ -211,6 +303,8 @@ Przykład:
 
 -   **editable** = \"AuthorName\"
 -   zastąpiony przez **freecad:editable** = \"AuthorName\"
+
+
 
 ## Inne dostępne atrybuty 
 

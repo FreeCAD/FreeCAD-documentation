@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft Scale
    Name/pl: Rysunek Roboczy: Skaluj
-   MenuLocation: Modyfikacja , Skala
+   MenuLocation: Modyfikacja , Skaluj
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **S** **C**
    SeeAlso: Draft_SubelementHighlight/pl, Draft_Clone/pl
@@ -10,14 +10,18 @@
 
 # Draft Scale/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Skaluj** - skaluje lub kopiuje wybrane obiekty wokół punktu bazowego. W trybie elementu podrzędnego polecenie zmienia skalę wybranych krawędzi, [Linii](Draft_Line/pl.md) i [Polilinii](Draft_Wire/pl.md).
+Polecenie <img alt="" src=images/Draft_Scale.svg  style="width:24px;"> **Skaluj** - skaluje lub kopiuje wybrane obiekty wokół punktu bazowego. W trybie elementu podrzędnego polecenie zmienia skalę wybranych krawędzi, [linii](Draft_Line/pl.md) i [polilinii](Draft_Wire/pl.md).
 
 Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Scale_example.png  style="width:400px;"> 
 *Skalowanie obiektu przy użyciu punktu środkowego.*
+
+
 
 ## Użycie
 
@@ -25,7 +29,7 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych [linii](Draft_Line/pl.md) lub [polilinii](Draft_Wire/pl.md).
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Scale.svg" width=16px> [Skaluj](Draft_Scale/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Scale.svg" width=16px> '''Skaluj'''**.
     -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Scale.svg" width=16px> Skala**.
     -   Użyj skrótu klawiaturowego: **S**, a następnie **C**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
@@ -35,16 +39,22 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 7.  Wprowadź współczynniki skali X, Y i Z.
 8.  Naciśnij przycisk **Enter** lub przycisk **OK**, aby zakończyć działanie polecenia.
 
+
+
 ## Opcje
+
+
 
 ### Pierwszy panel zadań 
 
-Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne punktu bazowego, wprowadź składowe X, Y i Z, a następnie naciśnij klawisz **Enter** po każdej z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy masz już żądane wartości. Wskazane jest, aby przed wprowadzeniem współrzędnych wysunąć kursor myszki poza okno [widoku 3D](3D_view.md).
 -   Naciśnij klawisz **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są odniesione do globalnego układu współrzędnych, w przeciwnym razie są one odniesione do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
 -   Naciśnij klawisz **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
+
+
 
 ### Drugi panel zadań 
 
@@ -57,16 +67,21 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 -   Naciśnij przycisk **Wybierz z / do punktów** i wybierz dwa dodatkowe punkty w oknie [widoku 3D](3D_view/pl.md), aby obliczyć współczynniki skali. Spowoduje to automatyczne zaznaczenie pola wyboru **Jednolite skalowanie**. Współczynniki skali X, Y i Z będą zatem równe i zostaną ustawione jako odległość między punktem bazowym a punktem *od*, podzielona przez odległość między punktem bazowym a punktem *do*.
 -   Naciśnij przycisk **Esc** lub przycisk **Anuluj**, aby przerwać wykonywanie polecenia.
 
+
+
 ## Uwagi
 
 -   Polecenie może również skalować [Płaszczyznę obrazu](Image_CreateImagePlane/pl.md), ale nie w trybie klonowania.
 
+
+
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
--   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współczynników skali i współrzędnych *({{Version/pl|0.20}})*: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
--   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: **Edycja → Preferencje → Kreślenie → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
+-   Aby ponownie wybrać obiekty bazowe po skopiowaniu obiektów: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Zaznacz obiekty bazowe po skopiowaniu**.
+
+
 
 ## Tworzenie skryptów 
 
@@ -85,7 +100,7 @@ scaled_list = scale(objectslist, scale=Vector(1,1,1), center=Vector(0,0,0), copy
 
 -    `środek`to punkt środkowy operacji skalowania.
 
--   Jeśli `kopia` ma wartość `True`, to zamiast skalowania oryginalnych obiektów tworzone są ich kopie.
+-   Jeśli `kopia` ma wartość {{True/pl}}, to zamiast skalowania oryginalnych obiektów tworzone są ich kopie.
 
 -   Lista `lista_skalowana` jest zwracana z oryginalnymi przeskalowanymi obiektami lub z nowymi kopiami. Jest to albo pojedynczy obiekt, albo lista obiektów, w zależności od właściwości `lista obiektów`.
 

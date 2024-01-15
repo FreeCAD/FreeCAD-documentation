@@ -1,5 +1,10 @@
 # Online Help Toc/ru
+<div class="mw-translate-fuzzy">
+
 Это оглавление, используемое для автоматического построения системы \"Онлайн Справка\" во FreeCAD. Версия для печати этого руководства также доступна на [странице релизов](https://github.com/FreeCAD/FreeCAD/releases). Если у Вас есть вопросы или нужна помощь с FreeCAD, пожалуйста, обратитесь к [странице помощи](Help/ru.md), включая форумы и группы чатов.
+
+
+</div>
 
 Вы можете так же ознакомиться с еще одним [Руководством по FreeCAD](Manual:Introduction/ru.md).
 
@@ -85,6 +90,9 @@
     -   [Разработка графических интерфейсов](Interface_creation/ru.md)
     -   [Разработка диалогов](Dialog_creation/ru.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   Разработка
     -   [Лиценция](Licence/ru.md)
     -   Компиляция FreeCAD
@@ -98,7 +106,6 @@
         -   [Инструменты сторонних разработчиков](Third_Party_Tools/ru.md)
     -   Инструменты поддержки сборки
         -   [Система отслеживания Багов](Tracker.md)
-        -   [Отслеживание Багов](Bug_Triage.md)
         -   [Отладка](Debugging/ru.md)
         -   [Тестирование](Testing/ru.md)
         -   [Непрерывная Интеграция](Continuous_Integration/ru.md)
@@ -110,6 +117,9 @@
         -   [Установка дополнительных модулей Python](Extra_python_modules/ru.md)
     -   [Документация из исходных кодов](Source_documentation/ru.md)
     -   [API](https://www.freecadweb.org/api/)
+
+
+</div>
 
 -   Авторы
     -   [Участники проекта](Contributors/ru.md)

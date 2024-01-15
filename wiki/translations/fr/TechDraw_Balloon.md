@@ -20,23 +20,17 @@ L\'outil **TechDraw Infobulle** peut ajouter des infobulles avec une ligne de r�
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez l\'un des éléments suivants :
     -   Une vue (sur la page ou dans la [Vue en arborescence](Tree_view/fr.md)).
     -   Un sommet dans une vue. {{Version/fr|0.20}}
     -   Une arête dans une vue. {{Version/fr|0.20}}
     -   Une région fermée dans une vue. {{Version/fr|0.20}}
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le **<img src="images/TechDraw_Balloon.svg" width=16px> [Insérer une infobulle](TechDraw_Balloon/fr.md)**.
-    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insérer une infobulle** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Balloon.svg" width=16px> [Insérer une infobulle](TechDraw_Balloon/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insérer une infobulle** du menu.
 3.  Si une vue ou une région a été sélectionnée :
     1.  Le curseur se transforme en une icône infobulle.
     2.  Cliquez sur un point de la page pour l\'origine de l\'infobulle.
-
-
-</div>
 
 Pour déplacer la bulle de l\'infobulle, appuyez et maintenez le bouton gauche de la souris sur son centre et faites glisser la souris.
 
@@ -60,9 +54,6 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 
 ### Données
 
-
-<div class="mw-translate-fuzzy">
-
 -    **Text**: texte à afficher.
 
 -    **Source View**: vue source de l\'infobulle.
@@ -71,11 +62,11 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 
 -    **Origin Y**: position y de l\'origine de l\'infobulle par rapport à la vue.
 
--    **End Type**: symbole de fin pour la ligne de l\'infobulle. Options : <img alt="" src=images/Arrownone.svg  style="width:20px;"> Rien, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
+-    **End Type**: symbole de fin pour la ligne de l\'infobulle. Options : <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli, Rien.
 
 -    **End Type Scale**: facteur d\'échelle pour le **Type d\'extrémité**.
 
--    **Bubble Shape**: forme de l\'infobulle. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circulaire, Rien, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagone, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Carré, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle
+-    **Bubble Shape**: forme de l\'infobulle. Options: <img alt="" src=images/Circular.svg  style="width:20px;"> Circulaire, Rien, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangle, <img alt="" src=images/Inspection.svg  style="width:20px;"> Inspection, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagone, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Carré, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rectangle.
 
 -    **Shape Scale**: facteur d\'échelle pour la **Forme**.
 
@@ -84,9 +75,6 @@ Lorsque vous utilisez une forme de rectangle, vous pouvez ajouter des séparateu
 -    **Kink Length**: distance entre la **forme** et le pli de la ligne de repère.
 
 -    **X**: position horizontale de l\'infobulle par rapport à la vue.
-
-
-</div>
 
 
 

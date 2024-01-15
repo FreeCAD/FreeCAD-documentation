@@ -1,32 +1,42 @@
 ---
  GuiCommand:
    Name: FEM ConstraintTemperature
-   MenuLocation: Model , Thermal Constraints , Constraint temperature
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: MES: Warunek brzegowy temperatury
+   MenuLocation: Model , Warunki brzegowe i obciążenia termiczne , Warunek brzegowy temperatury
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintTemperature/pl
 
-## Description
 
-Creates a FEM constraint for a temperature boundary condition.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [FEM ConstraintTemperature](FEM_ConstraintTemperature.md)** button.
-    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature** option from the menu.
-2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
-3.  Enter a temperature to apply to the objects.
+Definiuje warunek brzegowy temperatury lub, opcjonalnie, skupiony strumień ciepła.
 
-### Option
 
-By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
 
-## Notes
+## Użycie
 
--   The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Warunek brzegowy temperatury](FEM_ConstraintTemperature/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia termiczne → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Warunek brzegowy temperatury** z menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz obiekty, do których warunek brzegowy ma być przypisany. Mogą to być wierzchołki, krawędzie lub ściany.
+3.  Wprowadź wartość temperatury przykładanej do obiektu.
+
+
+
+### Opcje
+
+Domyślnie to narzędzie definiuje warunek brzegowy temperatury. Korzystając z opcji **Skupiony strumień ciepła**, można wprowadzić wartość strumienia ciepła (w mW) dla każdego węzła należącego do wybranego obiektu geometrycznego.
+
+
+
+## Uwagi
+
+-   Warunek brzegowy temperatury korzysta ze słowa kluczowego \*BOUNDARY w CalculiX. Jest to opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+-   Opcja **Skupiony strumień ciepła** korzysta ze słowa kluczowego \*CFLUX w CalculiX: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node168.html>
 
 
 

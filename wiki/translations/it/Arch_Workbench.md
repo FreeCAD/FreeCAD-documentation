@@ -29,7 +29,7 @@ Strumenti per creare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [Strumenti armatura](Arch_CompRebarStraight/it.md): Questi strumenti sono disponibili solo se è stato installato l\'[Ambiente Rinforzi](Reinforcement_Workbench/it.md).
 
-  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md): Crea una barra d\'armatura diritta in un elemento strutturale selezionato.
+  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura diritta](Arch_Rebar_Straight/it.md): Crea una barra d\'armatura diritta in un elemento strutturale selezionato.
 
   - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armatura a U](Arch_Rebar_UShape/it.md): Crea una barra d\'armatura a forma di U in un elemento strutturale selezionato.
 
@@ -41,11 +41,11 @@ Strumenti per creare gli oggetti architettonici.
 
   - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md): Crea una barra d\'armatura elicoidale in un elemento strutturale selezionato.
 
-  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armatura Pilastro](Arch_Rebar_ColumnReinforcement/it.md): Crea barre d\'armatura in un pilastro rettangolare selezionato.
+  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Armatura pilastro](Arch_Rebar_ColumnReinforcement/it.md): Crea barre d\'armatura in un pilastro rettangolare selezionato.
 
   - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Armatura trave](Arch_Rebar_BeamReinforcement/it.md): Crea barre d\'armatura in una trave selezionata.
 
-  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Armatura solaio](Arch_Rebar_Slab_Reinforcement/it.md): Crea barre d\'armatura in una solaio selezionato.
+  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Armatura soletta](Arch_Rebar_Slab_Reinforcement/it.md): Crea barre d\'armatura in una soletta selezionata.
 
   - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Armatura fondamenta](Arch_Rebar_Footing_Reinforcement/it.md): Crea barre d\'armatura all\'interno di una fondamenta selezionata.
 
@@ -69,7 +69,7 @@ Strumenti per creare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Tetto](Arch_Roof/it.md): Crea un tetto inclinato da un filo selezionato.
 
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Assi](Arch_CompAxis/it.md)
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Strumenti Assi](Arch_CompAxis/it.md)
 
   - <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Asse](Arch_Axis/it.md): Aggiunge una matrice di assi a 1 direzione.
 
@@ -125,8 +125,6 @@ Strumenti per modificare gli oggetti architettonici.
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Taglio con piano](Arch_CutPlane/it.md): Taglia un oggetto secondo un piano.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Aggiungi componente](Arch_Add/it.md): Aggiunge oggetti a un componente.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente.
@@ -149,7 +147,7 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 -   <img alt="" src=images/Arch_SelectNonSolidMeshes.svg  style="width:32px;"> [Seleziona le mesh non-manifold](Arch_SelectNonSolidMeshes/it.md): Seleziona tutte le mesh non-manifold dalla selezione corrente o dal documento.
 
--   <img alt="" src=images/Arch_RemoveShape.svg  style="width:32px;"> [Rimuovi Forma da Arch](Arch_RemoveShape/it.md): Trasforma l\'oggetto Arch basato sulla forma cubica in un oggetto completamente parametrico.
+-   <img alt="" src=images/Arch_RemoveShape.svg  style="width:32px;"> [Rimuovi forma](Arch_RemoveShape/it.md): Trasforma l\'oggetto Arch basato sulla forma cubica in un oggetto completamente parametrico.
 
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Chiudi fori](Arch_CloseHoles/it.md): Chiude i fori in un oggetto basato sulla forma selezionato.
 
@@ -164,6 +162,16 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Crea un foglio di calcolo Ifc\...](Arch_IfcSpreadsheet/it.md): Crea un foglio di calcolo per archiviare le proprietà di un oggetto [IFC](Arch_IFC/it.md).
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Attiva o disattiva i sottocomponenti](Arch_ToggleSubs/it.md): Attiva o Disattiva i sottocomponenti di un oggetto Arch.
+
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Taglio con una linea](Arch_CutLine/it.md): Taglia un oggetto secondo una linea.
+
+
+</div>
 
 ### Preferences
 

@@ -13,19 +13,13 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Der Befehl **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop/de.md)** vervollständigt eine Auswahl von Kanten, die eine Schleife bilden.
-
-
-</div>
+Das Werkzeug **<img src="images/Path_SelectLoop.svg" width=16px> [Path AuswahlSchleife](Path_SelectLoop/de.md)** vervollständigt eine Auswahl von Kanten, die eine Schleife bilden.
 
 
 
 ## Anwendung
 
-1.  Select two edges that share a common vertex.
+1.  Select an edge.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** button.
     -   Select the **Path → <img src="images/Path_SelectLoop.svg" width=16px> Finish Selecting Loop** option from the menu.

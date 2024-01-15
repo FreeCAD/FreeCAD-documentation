@@ -1,5 +1,5 @@
 # Manual:Traditional modeling, the CSG way/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 CSG sta per [Geometria solida costruttiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) e rappresenta il modo più semplice per lavorare con la geometria solida 3D, con cui si creano oggetti complessi con l\'aggiunta e la rimozione di pezzi a o da solidi usando le operazioni booleane, come unione, sottrazione o intersezione.
 

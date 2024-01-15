@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo FEM di contatto tra 2 superfici.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -30,6 +40,8 @@ Crea un vincolo FEM di contatto tra 2 superfici.
 
 
 </div>
+
+
 
 ## Limitazioni
 
@@ -86,7 +98,13 @@ Crea un vincolo FEM di contatto tra 2 superfici.
 
 -   Un esempio molto dettagliato di contatto CalculiX. ([link](http://dip28p.web.fc2.com/calculix/netgen2calculix/index.html))
 
+
+<div class="mw-translate-fuzzy">
+
 -   Un esempio molto interessante nel subforum tedesco. ([link](https://forum.freecadweb.org/viewtopic.php?f=13&t=39663&start=10#p337254))
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

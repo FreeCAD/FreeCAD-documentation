@@ -52,4 +52,4 @@ Exportă proprietățile de vizualizare curente într-un fișier pov pentru util
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteView/ro
+⏵ [documentation index](../README.md) > Raytracing WriteView/ro

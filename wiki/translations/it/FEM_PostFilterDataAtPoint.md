@@ -5,8 +5,7 @@
 
 </div>
 
-
-{{FEM Tools navi/it}}
+ {{FEM Tools navi/it}}
 
 
 <div class="mw-translate-fuzzy">
@@ -16,8 +15,7 @@ Da fare
 
 </div>
 
-
-{{Userdocnavi/it}}
+ {{Userdocnavi/it}}
 
 
 <div class="mw-translate-fuzzy">
@@ -29,7 +27,13 @@ Da fare
 The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

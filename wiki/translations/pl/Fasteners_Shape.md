@@ -1,25 +1,30 @@
 ---
  GuiCommand:
    Name: Fasteners Shape
-   MenuLocation: Fasteners , Simplify shape
-   Workbenches: Fasteners_Workbench
+   Name/pl: Elementy Złączne: Uprość kształt
+   MenuLocation: Elementy Złączne , Uprość kształt
+   Workbenches: Fasteners_Workbench/pl
 ---
 
 # Fasteners Shape/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners Shape** command creates non-parametric copies of fasteners. This can be useful if you want to share a document containing fasteners with users who do not have the [Fasteners Workbench](Fasteners_Workbench.md) installed.
 
-## Usage
+## Opis
 
-1.  Select one or more fasteners.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_Shape.svg" width=16px> [Simplify shape](Fasteners_Shape.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_Shape.svg" width=16px> Simplify shape** option from the menu.
-3.  For each fastener a simplified copy is created.
-4.  The **Visibility** property of the original fasteners is set to `False`.
-5.  Optionally delete the original fasteners.
+Polecenie <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Uprość kształt** tworzy nieparametryczne kopie elementów łącznych. Może to być przydatne, jeśli chcesz udostępnić dokument zawierający elementy złączne użytkownikom, którzy nie mają zainstalowanego środowiska pracy [Elementy Złączne](Fasteners_Workbench/pl.md).
+
+
+
+## Użycie
+
+1.  Wybierz jeden lub więcej elementów złącznych.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk z menu **<img src="images/Fasteners_Shape.svg" width=16px> '''Uprość kształt'''**.
+    -   Wybierz opcję **Elementy złączne → <img src="images/Fasteners_Shape.svg" width=16px> Uprość kształt**.
+3.  Dla każdego elementu złącznego tworzona jest uproszczona kopia.
+4.  Właściwość **Widoczność** oryginalnych elementów złącznych zostaje ustawiona na {{FALSE/pl}}.
+5.  Opcjonalnie można usunąć oryginalne elementy złączne.
 
 
 

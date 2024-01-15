@@ -10,6 +10,8 @@
 
 # Assembly3 GoToRelation/fr
 
+
+
 ## Description
 
 La commande **Assembly3 Relations** peut aider à trouver des relations dans l\'arbre d\'assemblage. Elle révèle le groupe Relations à la première utilisation.
@@ -21,6 +23,8 @@ Le résultat (objets en surbrillance) dépend de l\'objet sélectionné.
 :   Sélectionnez une partie pour trouver l\'objet de la relation et ses contraintes.
 :   Sélectionnez un élément pour trouver la partie à laquelle il appartient.
 :   Sélectionnez une contrainte pour trouver les parties liées.
+
+
 
 ## Utilisation
 

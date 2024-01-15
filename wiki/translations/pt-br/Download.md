@@ -26,12 +26,16 @@ Versões anteriores podem ser baixadas a partir da página [releases](https://gi
 </div>
 
 +::+::+::+
-| ![](images/Windows.png )                                                                                         | ![](images/Mac.png )                                                                                                             | ![](images/Linux_with_text.png )     |
-|                                                                                                                        |                                                                                                                                    |                                                    |
-| [Install on Windows](Installing_on_Windows.md)                                                                 | [Install on Mac](Installing_on_Mac.md)                                                                                     | [Install on Linux](Installing_on_Linux.md) |
-|                                                                                                                        |                                                                                                                                    |                                                    |
-| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer-3.exe) | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD_0.20.2-2022-12-27-conda-macOS-x86_64-py310.dmg) | [AppImage 64-bit](AppImage.md)             |
+| ![](images/Windows.png )                                                                                                | ![](images/Mac.png )                                                                                                | ![](images/Linux_with_text.png )                                                                        |
+|                                                                                                                               |                                                                                                                       |                                                                                                                       |
+| [Install instructions](Installing_on_Windows.md)                                                                      | [Install instructions](Installing_on_Mac.md)                                                                  | [Install instructions](Installing_on_Linux.md)                                                                |
+|                                                                                                                               |                                                                                                                       |                                                                                                                       |
+| [64-bit installer](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-WIN-x64-installer-1.exe)        | [ARM (M1/M2) disk image](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-arm64.dmg)  | [x86_64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-x86_64.AppImage)   |
+|                                                                                                                               |                                                                                                                       |                                                                                                                       |
+| [64-bit portable version (.7z)](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Windows-x86_64.7z) | [Intel disk image](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-macOS-intel-x86_64.dmg) | [aarch64 AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.21.2/FreeCAD-0.21.2-Linux-aarch64.AppImage) |
 ++++
+
+### Notes for Windows users 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,6 +48,8 @@ Versões anteriores podem ser baixadas a partir da página [releases](https://gi
 
 
 </div>
+
+### Notes for macOS users 
 
 
 <div class="mw-translate-fuzzy">
@@ -84,6 +90,8 @@ HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./name_of_AppImage_file.A
 }}
 
 Mais informações sobre as variáveis de ambiente do FreeCAD podem ser encontradas na página [página de configuração](Start_up_and_Configuration/pt-br#Variáveis_de_ambiente.md).
+
+## Development versions 
 
 
 <div class="mw-translate-fuzzy">

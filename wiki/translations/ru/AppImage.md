@@ -1,11 +1,4 @@
 # AppImage/ru
-**По состоянию на 7 июля 2019 года сообщество FreeCAD отмечает, что загрузка AppImages из Github, похоже, истекает по таймауту до завершения. Мы не знаем, почему это происходит. Если это произойдет с вами, попробуйте загрузить ещё раз. На это может понадобиться несколько попыток. Рекомендуется использовать [функцию автоматического обновления](#Автообновление/ru.md) AppImage, которая восстановит загрузку с того места, где произошла ошибка.**
-
-
-
-
-
-
 ## Что такое AppImage? 
 
 ![](images/AppImage-logo.png ) **Упакуйте один раз и запускайте везде. Охватите пользователей всех основных дистрибутивов Linux на настольных ПК.**
@@ -28,7 +21,7 @@ chmod +x FreeCAD_xxx-x86_64.AppImage
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.21.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.21.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 

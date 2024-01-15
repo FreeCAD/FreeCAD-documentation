@@ -5,32 +5,37 @@
 
 </div>
 
+
+
 ## Описание
 
-This command applies a force of given value \[N\] to selected target geometry.
+Applies a force of a given value \[N\] to the selected geometry.
+
+
 
 ## Применение
 
-1.  There are several ways to invoke the command to apply a force to a face, line or point:
-    -   Click on **<img src="images/FEM_ConstraintForce.svg" width=16px> [FEM Constraint force](FEM_ConstraintForce.md)** button
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintForce.svg" width=16px> Constraint force** option from the menu.
-
-2.  If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right-click and select **Hide item**) and show the original model.
-
-3.  Click on a *face*, *line* or *point* to which a force should be applied. The object will appear in the list of geometrical objects.
-
-4.  Fill in **Load [N]** with a force value in \[N\].
-
-5.  
-    **Direction**: In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
-
-6.  Click **OK** to finish and create the **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/FEM_ConstraintForce.svg" width=16px> [Force load](FEM_ConstraintForce.md)** button
+    -   Select the **Model → Mechanical boundary conditions and loads → <img src="images/FEM_ConstraintForce.svg" width=16px> Force load** option from the menu.
+2.  The Mesh object will be hidden automatically and reveal the original model. If the Mesh object is still visible, do one of the following to hide it:
+    -   Select the Mesh object in the [Tree view](Tree_view.md) and press **spacebar**.
+    -   Right-click on the Mesh object in the [Tree view](Tree_view.md) and select **Hide selection** from its context menu.
+3.  The **Analysis feature parameters** dialog in the [Task panel](Task_panel.md) has also been opened.
+4.  Press the **Add** button and select one or more of either *faces*, *edges* or *vertices* in the [3D view](3D_view.md) to apply the force to. The selected items will appear in the list of geometrical objects.
+5.  Optionally press the **Remove** button and deselect one or more of the selected items in the [3D view](3D_view.md). The deselected items will be removed from the list of geometrical objects.
+6.  Optionally edit the **Load [N]** value.
+7.  Optionally select a face or an edge and press the **Direction** button to change the force direction. In a typical case, you\'ll leave this field empty to apply the force in the normal direction.
+8.  Optionally check the **Reverse direction** checkbox to reverse the force direction.
+9.  Click **OK** to finish.
 
 ![](images/FEM_ConstraintForce_example.JPG )
 
+
+
 ## Примечания
 
--   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   The defined force is applied uniformly to the selected objects. For example, if you define one force load with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 

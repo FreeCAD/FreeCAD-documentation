@@ -1,7 +1,7 @@
 # Crowdin Scripts/pl
 ## Zarządzanie Tłumaczeniami w programie FreeCAD 
 
-FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu nazywanego [Crowdin.](https://crowdin.com/project/freecad)
+FreeCAD do zarządzania tłumaczeniami używa zewnętrznego serwisu o nazwie [Crowdin.](https://crowdin.com/project/freecad)
 
 W FreeCAD/src/Tools znajdują się 3 skrypty, które służą do zarządzania plikami tłumaczeń:
 
@@ -9,21 +9,23 @@ W FreeCAD/src/Tools znajdują się 3 skrypty, które służą do zarządzania pl
 2.  updatecrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatecrowdin.py)
 3.  updatefromcrowdin.py [(github source)](https://github.com/FreeCAD/FreeCAD/blob/master/src/Tools/updatefromcrowdin.py)
 
+
+
 ### Uwagi
 
 -   Skrypty te uruchamiane są z głównego katalogu FreeCAD/.
--   By umożliwić działanie tych skryptów musisz mieć prawidłowy klucz FreeCAD Crowdin API umieszczony w swoim pliku key ~/.crowdin-freecad. (Z powodów bezpieczeństwa jest tylko dostępny dla ludzi z prawami administratora na stronie Crowdin FreeCAD)
+-   By umożliwić działanie tych skryptów musisz mieć prawidłowy klucz FreeCAD Crowdin API umieszczony w swoim pliku key ~/.crowdin-freecad. *(Z powodów bezpieczeństwa jest tylko dostępny dla ludzi z prawami administratora na stronie Crowdin FreeCAD)*
 -   Obecnie te narzędzia są kompatybilne z Pythonem 2.
 
 ### updatets.py
 
-Skrypt updatets.py utworzy pliki .ts w twoim lokalnym katologu FreeCAD/. Generuje on pliki .ts (Plik Źródłowy Tłumaczenia Qt).
+Skrypt updatets.py utworzy pliki .ts w twoim lokalnym katalogu FreeCAD/. Generuje on pliki .ts *(Plik Źródłowy Tłumaczenia Qt)*.
 
 Jest wywoływany przez: python2 updatets.py
 
 ### updatecrowdin.py
 
-Skrypt updatecrowdin.py ładuje zmiany do Crowdin (zewnętrznego serwisu tłumaczeń społecznościowych) z twojego lokalnego katalogu FreeCAD/. Obecnie skrypt obsługuje 4 argumenty:
+Skrypt updatecrowdin.py ładuje zmiany do Crowdin *(zewnętrznego serwisu tłumaczeń społecznościowych)* z twojego lokalnego katalogu FreeCAD/. Obecnie skrypt obsługuje 4 argumenty:
 
 -   updatecrowdin.py status wypisuje stan tłumaczeń
 -   updatecrowdin.py update aktualizuje Crowdin aktualną wersją plików .ts znalezioną w kodzie źródłowym
@@ -34,16 +36,20 @@ Skrypt updatecrowdin.py ładuje zmiany do Crowdin (zewnętrznego serwisu tłumac
 
 Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katalogu FreeCAD/.
 
+
+
 ## By wysłać najnowsze zwroty do Crowdin 
 
 -   Przetestowane tylko na Linuksie
 -   Potrzebujesz pliku .credentials w twoim katalogu /home/TwójUżytkownik. Plik ten jest prostym plikiem tekstowym zawierającym tylko jedną linię, którą jest klucz API otrzymywany na <https://crowdin.com/project/freecad/settings#api> (tylko dla administratorów)
--   Upewnij się, że twoje repozytorium jest czyste (git pull, git stash jeśli to konieczne)
+-   Upewnij się, że twoje repozytorium jest czyste *(git pull, git stash jeśli to konieczne)*
 -   cd /path/to/freecad-source-code/src/Tools
--   python updatets.py (wypełni najnowszymi ciągami tekstowymi wszystkie pliki .ts znalezione w źródłach)
--   python updatecrowdin.py update (wyśle pliki .ts do Crowdin. Crowdin zaktualizuje tylko nowe ciągi tekstowe)
--   cd ../.. (idź z powrotem go głównego katalogu źródeł)
--   git checkout . (cofnij wszystkie zmiany w plikach .ts, nie ma powodu by wprowadzać je już teraz gdy są wciąż nieprzetłumaczone)
+-   python updatets.py *(wypełni najnowszymi ciągami tekstowymi wszystkie pliki .ts znalezione w źródłach)*
+-   python updatecrowdin.py update *(wyśle pliki .ts do Crowdin. Crowdin zaktualizuje tylko nowe ciągi tekstowe)*
+-   cd ../.. *(idź z powrotem go głównego katalogu źródeł)*
+-   git checkout . *(cofnij wszystkie zmiany w plikach .ts, nie ma powodu by wprowadzać je już teraz gdy są wciąż nieprzetłumaczone)*
+
+
 
 ## By scalić najnowsze tłumaczenia z Crowdin 
 
@@ -61,12 +67,16 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   jeśli wszystko wygląda w porządku *(git status)*, wprowadź zmiany używając git add . && git commit,
 -   Utwórz prośbę o połączenie *(PR)* dla FreeCAD.
 
+
+
 ## By utworzyć plik tłumaczenia ze strony internetowej 
 
 -   Sklonuj stronę domową
 -   cd /path/to/FreeCAD-homepage
 -   xgettext \--from-code=UTF-8 -o lang/homepage.pot \*.php
 -   Zaktualizuj ręcznie \"homepage.po\" na stronie internetowej Crowdin, korzystając z pliku lang/homepage.pot
+
+
 
 ## By zaktualizować tłumaczenia na stronie internetowej 
 
@@ -79,11 +89,13 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 -   Utwórz prośbę o połączenie *(PR)* dla FreeCAD-Homepage,
 -   Po wykonaniu połączenia, jeden z administratorów załaduje ftp serwera Web,
 
+
+
 ## Powiązane
 
--   [Lokalizacja](Localisation/pl.md)
--   [Skrypty Crowdin](Crowdin_Scripts/pl.md)
--   [Proces wydania](Release_process.md)
+-   [Lokalizacja - tłumaczenie interfejsu i dokumentacji](Localisation/pl.md)
+-   [Skrypty środowiska Crowdin](Crowdin_Scripts/pl.md)
+-   [Proces wydania](Release_process/pl.md)
 
 
 

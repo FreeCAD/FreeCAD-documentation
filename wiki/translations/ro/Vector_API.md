@@ -19,6 +19,9 @@ print v3.Length
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{APIProperty|Length|returnează lungimea vectorului.}}
 
 
@@ -68,6 +71,9 @@ print v3.Length
 
 
 {{APIProperty|z|coordonata z a vectorului}}
+
+
+</div>
 
 
 

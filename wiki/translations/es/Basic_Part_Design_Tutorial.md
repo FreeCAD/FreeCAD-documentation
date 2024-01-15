@@ -34,6 +34,8 @@ Un video de todo el proceso esta aquí: <https://youtu.be/geIrH1cOCzc>
 
 </div>
 
+
+
 ## Antes de comenzar 
 
 ## The Task 
@@ -47,6 +49,8 @@ En este tutorial, utilizará el Ambiente de trabajo Part Design para crear un mo
 
 
 </div>
+
+
 
 ## La Pieza 
 
@@ -341,6 +345,8 @@ En este punto, verá algunas líneas que provienen de las características de in
 Un video de estos pasos del tutorial está aquí: <https://youtu.be/UYI0gvxCYeI>
 
 Este tutorial y tu modelo están completos.
+
+
 
 ## Recursos Adicionales 
 

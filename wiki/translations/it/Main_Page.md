@@ -31,7 +31,7 @@ Questo è il wiki della documentazione di [FreeCAD](http://www.freecadweb.org). 
 
 ## Sommario
 
-La seguente tabella elenca tutti gli articoli di questo wiki che costituiscono l\'ossatura della documentazione non in linea fornita con FreeCAD. È già disponibile in diverse lingue:
+Il Sommario è disponibile in diverse lingue:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

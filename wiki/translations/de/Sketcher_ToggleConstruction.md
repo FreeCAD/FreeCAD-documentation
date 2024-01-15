@@ -46,7 +46,13 @@ Dieses Werkzeug kann auf zwei Arten verwendet werden:
 -    **[<img src=images/Sketcher_CreatePoint.svg style="width:16px"> [Punkt erstellen](Sketcher_CreatePoint/de.md)**wird immer Punkte im Konstruktionsmodus erstellen unabhängig von der Einstellung des Umschalters in der Symbolleiste. Sollen Punkte in normale Geometrie gewandelt werden, wählt man sie nach der Erstellung in der [3D-Ansicht](3D_view/de.md) aus und klickt dann auf die Schaltfläche **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Hilfsgeometrie umschalten](Sketcher_ToggleConstruction.md)**.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

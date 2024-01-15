@@ -34,4 +34,4 @@ Eksport aktualnego ujęcia widoku do pliku typu .pov do wykorzystania w projekci
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WriteCamera/pl
+⏵ [documentation index](../README.md) > Raytracing WriteCamera/pl

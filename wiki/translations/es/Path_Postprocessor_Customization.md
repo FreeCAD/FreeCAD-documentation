@@ -7,6 +7,8 @@
 
 
 
+
+
 ## Introducción
 
 
@@ -16,6 +18,8 @@ FreeCAD utiliza como representación interna para las trayectorias generadas, lo
 
 
 </div>
+
+
 
 ## Lo que el postprocesador puede hacer por ti 
 
@@ -42,6 +46,8 @@ Además, existen otros lenguajes para controlar un fresadora, como HPGL, DXF u o
 
 El postprocesador es un programa que traduce los códigos internos en un archivo completo, que puede ser cargado en su máquina.
 
+
+
 ## Preparación para escribir su propio postprocesador 
 
 Puede empezar con un modelo muy sencillo que muestre cómo su máquina lee las líneas rectas y los arcos. Prepárelo con cualquier programa adecuado para su máquina.
@@ -62,6 +68,8 @@ A continuación, puede echar un vistazo al archivo y compararlo con la salida de
 
 </div>
 
+
+
 ## Convención de denominación 
 
 
@@ -81,6 +89,8 @@ parser = argparse.ArgumentParser(prog="grbl", add_help=False)
 
 Si estás probando, colócalo en tu directorio de macros. Si funciona bien, por favor, considera proporcionarla para que otros se beneficien (publícala en el FreeCAD Path foro) para que pueda ser incluida en la distribución de FreeCAD en el futuro.
 
+
+
 ## Otros postprocesadores existentes 
 
 
@@ -92,6 +102,8 @@ Para comparar puedes mirar los postprocesadores que vienen con tu instalación d
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -143,6 +155,8 @@ Reconoce los diferentes códigos G, M, F, S y otros G-codes. Recordando el últi
 Tanto el parse como el export se limitan a formatear cadenas y concatenarlas en lo que será la salida final.
 
 Verá que ambas funciones también llaman a la función \"linenumber()\". Si el usuario quiere números de línea, la función linenumber devuelve la cadena para pegar en el lugar apropiado, de lo contrario devuelve una cadena vacía para que no se añada nada.
+
+
 
 ## Relacionados
 

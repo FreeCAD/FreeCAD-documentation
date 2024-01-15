@@ -18,6 +18,8 @@ See the [Power users hub](Power_users_hub.md) to learn more about the [Python](P
 -   [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Hur det fungerar 
@@ -27,7 +29,7 @@ Om du aktiverar konsolutmatning(Meny Redigera -\> Alternativ -\> Allmänt -\> Ma
 
 </div>
 
-Enable the console output in the menu **Edit → Preferences → General → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+Enable the console output in the menu **Edit → Preferences → Python → Macro → Show scripts commands in python console**. You will see that in FreeCAD, every action you do, such as pressing a button, outputs a Python command. Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar: ![](images/Macros_toolbar.jpg ). On it you have 4 buttons: Record, stop recording, edit and play the current macro.
 
 
 <div class="mw-translate-fuzzy">
@@ -54,6 +56,8 @@ Där kan du hantera dina makron, radera, redigera eller skapa nya från scratch.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Exempel
@@ -64,6 +68,8 @@ Klicka på inspelningsknappen, ge den ett namn, låt oss säga \"cylinder 10x10\
 </div>
 
 Press the record button, give a name, let\'s say \"cylinder 10x10\", then, in the [Part Workbench](Part_Workbench.md), create a cylinder with radius = 10 and height = 10. Then, press the \"stop recording\" button. In the edit macros dialog, you can see the python code that has been recorded, and, if you want, make alterations to it. To execute your macro, simply press the execute button on the toolbar while your macro is in the editor. You macro is always saved to disk, so any change you make, or any new macro you create, will always be available next time you start FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -90,6 +96,8 @@ Pä detta sätt så kan du göra ditt makro till ett riktigt verktyg, precis som
 See [Customize Toolbars](Customize_Toolbars.md) for a more detailed description.
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Skapa makron utan inspelning 
@@ -102,6 +110,8 @@ Du kan också direkt kopiera/klistra in python kod till ett makro, utan att beh�
 You can also directly copy/paste python code into a macro, without recording GUI action. Simply create a new macro, edit it, and paste your code. You can then save your macro the same way as you save a FreeCAD document. Next time you start FreeCAD, the macro will appear under the \"Installed Macros\" item of the Macro menu.
 
 See [How to install macros](How_to_install_macros.md) for a more detailed description.
+
+
 
 
 <div class="mw-translate-fuzzy">

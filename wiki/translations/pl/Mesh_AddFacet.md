@@ -9,9 +9,13 @@
 
 # Mesh AddFacet/pl
 
+
+
 ## Opis
 
 Polecenie Dodaj trójkąt środowiska Siatka dodaje powierzchnie wzdłuż granicy otwartego obiektu siatkowego. Można go użyć do wypełnienia otworów.
+
+
 
 ## Użycie
 
@@ -39,6 +43,8 @@ Polecenie Dodaj trójkąt środowiska Siatka dodaje powierzchnie wzdłuż granic
         : usuwa zaznaczone punkty.
 7.  Opcjonalnie dodaj więcej ścian.
 8.  Wybierz **Zakończ** z menu kontekstowego w oknie widoku 3D, aby zakończyć polecenie.
+
+
 
 ## Uwagi
 

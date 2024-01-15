@@ -34,24 +34,27 @@ Narzędzie **TechDraw GeometricHatch** wypełnia zamknięty obszar w widoku wzor
 
 ## Uwagi
 
+Dla wypełnienia jednolitym kolorem użyj narzędzia [kreskowanie](TechDraw_Hatch/pl.md) i wybierz **solid.svg** jako **plik wzorca**.
+
 -   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny: Wymiar długości](TechDraw_LengthDimension/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
 
-Niewielki zestaw przykładowych wzorów jest dostępny w prezentowanych lokalizacjach:
-
-
+:   
+    
 ```python
-$INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    $INSTALL_DIR/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
+:   Gdzie `$INSTALL_DIR` to katalog, w którym zainstalowano FreeCAD, na przykład:
 
-`$INSTALL_DIR`
-
-to katalog, w którym zainstalowano FreeCAD, na przykład:
-
-
+:   
+    
 ```python
-/usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    /usr/share/freecad/data/Mod/TechDraw/PAT/FCPAT.pat
+    
 ```
+    
 
 
 

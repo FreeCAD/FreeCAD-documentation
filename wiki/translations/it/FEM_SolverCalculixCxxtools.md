@@ -96,10 +96,16 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 -    **Eigenmodes Count**: numero di eigenmodes più bassi da calcolare
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Geometric Nonlinearity**:
 
     -   lineare - l\'analisi lineare verrà eseguita se il modello non contiene materiale non lineare
     -   non lineare - verrà eseguita l\'analisi non lineare
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -125,7 +131,13 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Iterations Thermo Mech Maximum**:numero massimo di incrementi nell\'analisi termomeccanica dopo la quale il lavoro sarà interrotto.
+
+
+</div>
 
 -    **Iterations User Defined Incrementations**:
 
@@ -172,10 +184,16 @@ I valori predefiniti possono essere impostati nel menu **Modifica** → **Prefer
     -   false - scrive l\'intero input in un file \* .inp da utilizzare con il risolutore CalculiX
     -   true - split solver input in più \* file .inp, che possono chiarire la modifica della mano
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Thermo Mechanical Steady State**:
 
     -   vero - analisi termo meccanica allo steady state
     -   falso - analisi termo meccanica temporanea
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

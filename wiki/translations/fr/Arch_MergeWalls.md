@@ -40,7 +40,7 @@ Cet outil peut être utilisé dans une [macro](Macros/fr.md) et utilisé dans la
 base = joinWalls(walls, delete=False)
 ```
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 

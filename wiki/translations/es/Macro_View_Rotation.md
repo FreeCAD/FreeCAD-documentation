@@ -1,4 +1,7 @@
 # Macro View Rotation/es
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/es
 |Name=View Rotation
 |Icon=Macro_View_Rotation.png
@@ -11,17 +14,42 @@
 |SeeAlso=[Macro Rotate View](Macro_Rotate_View/es.md)<br />[Macro FCCamera](Macro_FCCamera/es.md)
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 Esta GUI permite girar la vista con mayor precisión que el ratón. La rotación es de acuerdo a los ejes fijados con respecto al usuario y no los objetos, aunque la intención es que los objetos giren aproximadamente sobre sus centros en lugar del centro de la vista.
 La GUI se muestra en la parte superior derecha de la pantalla, este comportamiento se puede modificar editando
 
 
+</div>
+
+The GUI defaults to the top right of the screen, this behaviour can be changed by editing.
+
+
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/PureGui/ViewRotation.FCMacro}}
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="Rotate view" src=images/Macro_View_Rotation_00.png  style="width:480px;">  Se hace referencia a tres iconos para simbolizar las direcciones de rotación. Se puede encontrar un archivo zip que contiene estos iconos [here](http://forum.freecadweb.org/download/file.php?id=453), the images should be placed in the folder containing your macros. Por favor, siéntase libre de contribuir mejores!
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -285,17 +313,32 @@ if __name__ == '__main__':
 
 ## Option
 
+
+<div class="mw-translate-fuzzy">
+
+## Option 
+
 al final de la función \'initUI\'. Los dos primeros argumentos (derecha-300, 0) proporcionan la posición de la esquina superior izquierda de la ventana - mi experiencia es que el comportamiento es intencionado en Ubuntu pero Vista posiciona la ventana demasiado alta y el 0 necesita cambiarse a \~30.
 
 
-```python
+</div>
 
+
+```python
         self.setGeometry(right-300, 0, 300, 150)
 ```
+
+## Forum
+
+
+<div class="mw-translate-fuzzy">
 
 ## Página de discusión 
 
 [View+Rotation](http://forum.freecadweb.org/viewtopic.php?f=3&t=1784&hilit=View+Rotation#p12012)
+
+
+</div>
 
 
 

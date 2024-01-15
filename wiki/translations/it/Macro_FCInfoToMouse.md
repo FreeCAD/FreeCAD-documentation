@@ -15,6 +15,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -28,7 +30,7 @@ Fornisce in tempo reale informazioni sulle coordinate, lunghezza e angoli del mo
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/974214c4b83beaa41495/raw/7789c1995dba2af74a14d549638267f7740c036c/Macro_FCInfoToMouse.FCMacro}}
 
-<img alt="" src=images/Macro_FCInfoToMouse_00.png style="width:480px;">
+<img alt="image" src=images/Macro_FCInfoToMouse_00.png style="width:480px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -39,6 +41,8 @@ Fornisce in tempo reale informazioni sulle coordinate, lunghezza e angoli del mo
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -116,6 +120,8 @@ se il mouse si trova sopra un oggetto, il nome dell\'oggetto appare nella parte 
 
 
 </div>
+
+
 
 
 
@@ -513,6 +519,8 @@ except Exception:
 
 or to Gists [Macro_FCInfoToMouse.FCMacro](https://gist.github.com/mario52a/974214c4b83beaa41495) or the zip [Macro_FCInfoToMouse.FCMacro.zip](https://gist.github.com/mario52a/974214c4b83beaa41495/archive/d62630049d4663369fc80519a7655ee4c32c8711.zip)
 
+
+
 ## Limitazioni
 
 È possibile che la macro non riconosca alcuni tasti
@@ -522,6 +530,8 @@ or to Gists [Macro_FCInfoToMouse.FCMacro](https://gist.github.com/mario52a/97421
 La discussione nel forum [From autocad to freecad](http://forum.freecadweb.org/viewtopic.php?f=3&t=13592)
 
 Le mie macro in [mario52a](https://gist.github.com/mario52a) gists
+
+
 
 ## Versione
 

@@ -133,7 +133,13 @@ Ver también:
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> El [Ambiente de Trabajo de Hojas de Cálculo](Spreadsheet_Workbench/es.md) para crear y manipular datos de hojas de cálculo.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> El [Centro de Trabajo Inicio](Start_Workbench/es.md) te permite saltar rápidamente a uno de los ambientes de trabajo más comunes.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> El [Ambiente de Trabajo de Superficies](Surface_Workbench/es.md) proporciona herramientas para crear y modificar superficies. Es similar a la opción [Pieza Constructor](Part_Builder/es.md) Opción de cara desde las aristas.
 

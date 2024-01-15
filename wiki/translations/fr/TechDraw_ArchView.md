@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ArchView
    Name/fr: TechDraw Vue d'un objet Arch
-   MenuLocation: TechDraw , Insérer un objet de l'atelier Arch
+   MenuLocation: TechDraw , Vues des autres ateliers , Insérer un objet de l'atelier Arch
    Workbenches: TechDraw_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Arch_SectionPlane/fr
 ---
 
 # TechDraw ArchView/fr
-
-
-</div>
 
 ## Description
 
@@ -22,17 +19,14 @@ L\'outil **TechDraw Vue d\'un objet Arch** insère une vue d\'un **<img src="ima
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez un plan de coupe Arch dans la vue 3D ou dans l\'arborescence
-2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez sélectionner la page désirée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_ArchView.svg" width=24px> [Insérer un objet de l'atelier Arch](TechDraw_ArchView/fr.md)
-**
-4.  Une vue des objets vus par le plan de coupe apparaîtra sur la page.
-
-
-</div>
+1.  Sélectionnez un seul plan de coupe Arch dans la [vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
+2.  S\'il y a plusieurs pages de dessin dans le document : ajoutez la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+3.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ArchView.svg" width=16px> [Insérer un objet de l'atelier Arch](TechDraw_ArchView/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_ArchView.svg" width=16px> Insérer un objet de l'atelier Arch** du menu.
+4.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
 
 ## Options
 
@@ -56,7 +50,9 @@ L\'outil **TechDraw Vue d\'un objet Arch** insère une vue d\'un **<img src="ima
 
 :   ![](images/TechDraw_Arch_piping.jpg )
 
-## Notes
+
+
+## Remarques
 
 La Vue d\'un objet Arch est générée dans l\'[atelier Arch](Arch_Workbench/fr.md) et donc TechDraw a un contrôle limité sur son apparence. Vous devrez peut-être apporter des modifications dans Arch pour obtenir la représentation souhaitée.
 

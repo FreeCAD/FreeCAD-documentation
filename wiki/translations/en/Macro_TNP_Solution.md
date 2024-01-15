@@ -4,6 +4,7 @@
 |Icon=TNP_solution.png
 |Description=This is a solution for Topological Naming Problem.
 |Author=Dprojects
+|Download=[https://wiki.freecad.org/images/e/e4/TNP_solution.png ToolBar Icon]
 |Date=2022-08-16
 |Version=1.0
 }}
@@ -71,8 +72,8 @@ __Date__    = "2022-08-16"
 __Comment__ = ""
 __Web__ = "https://github.com/dprojects/Woodworking"
 __Wiki__ = "https://wiki.freecadweb.org/TNP_solution"
-__Icon__  = "TNP_solution.png"
-__IconW__  = "TNP_solution.png"
+__Icon__  = "https://wiki.freecad.org/images/e/e4/TNP_solution.png"
+__IconW__  = "https://wiki.freecad.org/images/e/e4/TNP_solution.png"
 __Help__ = "solution for Topological Naming Problem"
 __Status__ = "stable"
 __Requires__ = ""

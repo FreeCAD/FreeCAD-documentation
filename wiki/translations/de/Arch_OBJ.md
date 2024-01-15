@@ -1,30 +1,7 @@
 # Arch OBJ/de
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[DAE](Arch_DAE/de.md)
-|[JSON](Arch_JSON/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-}}
-
-
-</div>
-
-
-
-
-
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Zusätzlich zur Standard-FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat das [Arch-Modul](Arch_Workbench/de.md) eine alternative Exportfunktion, die nebeneinander liegende Flächen als vollständige (whole) Flächen exportiert, anstatt als dreiecksbasierte [Formteil](Shape/de.md)-Objekte, wie es die Standard-Exportfunktion tut.
-
-
-</div>
+Zusätzlich zu FreeCADs Standard-[OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file)-Exportfunktion hat derArbeitsbereich [Arch](Arch_Workbench/de.md) eine alternative Exportfunktion, die komplanare Flächen als eine einzige OBJ-Fläche exportiert, anstatt sie als [Form](Shape/de.md)-basierte Objekte zu triangulieren, wie es die Standard-Exportfunktion tut.
 
 
 
@@ -61,33 +38,14 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
 ## Weitere Informationen 
 
--   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452)
-
-## Tutorials
+-   [Convert STEP to Wavefront OBJ with colors of faces](https://forum.freecadweb.org/viewtopic.php?f=8&t=37452) STEP zu OBJ umwandeln, mit den Farben von Flächen
 
 
-<div class="mw-translate-fuzzy">
 
-## Übungen
+## Anleitungen
 
 -   [Import von STL oder OBJ](Import_from_STL_or_OBJ/de.md)
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[DAE](Arch_DAE/de.md)
-|[JSON](Arch_JSON/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-}}
-
-
-</div>
 
 
 

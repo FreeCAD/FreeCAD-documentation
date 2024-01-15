@@ -1,13 +1,14 @@
 # Macro ObjectInfo/fr
 {{Macro/fr
 |Name=Macro ObjectInfo
-|Description=Cet atelier vous permet de connaître la surface, le volume, le centre de masse et le moment d’inertie de l’objet sélectionné.
+|Name/fr=Macro ObjectInfo
+|Description=Cet atelier vous permet de connaître la surface, le volume, le centre de masse et le moment d’inertie de l’objet sélectionné.<br><br>Ce n'est pas une macro mais un atelier, décompressez le fichier .zip et collez le répertoire complet dans le répertoire utilisateur Mod [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
 |Author=keithsloan52
 |Version=1.0
 |Date=2012-11-09
-|FCVersion=Until 0.17 '''and PyQt4'''
-|Download=Ce n'est pas une macro mais un atelier, décompressez le fichier .zip et collez le répertoire complet dans le répertoire utilisateur Mod [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/fr.md)
+|FCVersion=Jusqu'à 0.17 '''et PyQt4'''
+|Download=[https://wiki.freecad.org/images/2/29/Macro_ObjectInfo.png Icône de la barre d'outils]
+|SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md)
 }}
 
 ## Description
@@ -19,6 +20,8 @@ Cet atelier vous permet de connaître les informations de volume, surface, centr
 ## Installation
 
 Si vous êtes sous Linux, vous devez créer un dossier nommé \"Mod\" dans le dossier caché **.FreeCAD** qui se trouve dans votre dossier personnel. Ensuite, créez un dossier nommé \"Info\" dans le dossier \"Mod\", et extraire le contenu de l\'archive dans le dossier \"Info\". Sous Windows faites la même procédure dans le répertoire C:\\Program Files\\FreeCAD\\Mod.
+
+
 
 ## Utilisation
 
@@ -40,6 +43,8 @@ FreeCAD.Console.PrintMessage("http://keithsloan.dynu.com/Keith&Jenny/" + "\n")
 webbrowser.open("https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip")
 
 }}
+
+
 
 ## Liens
 

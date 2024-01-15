@@ -1,6 +1,6 @@
 # Drawing Workbench/de
-**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
-The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
+**Der Arbeitsbereich '''Drawing''' ist nach Version 0.20 nicht länger Bestandteil von FreeCAD.<br>
+Der Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) ist sein fortschrittlicherer Ersatz.**
 
 <img alt="Drawing workbench icon" src=images/Workbench_Drawing.svg  style="width:128px;">
 
@@ -76,7 +76,9 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 -   [Zeichnung Tutorium](Drawing_tutorial/de.md)
 -   [Drawing Template HowTo](Drawing_Template_HowTo.md)
 
-## Macros
+
+
+## Makros
 
 -    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
 
@@ -90,15 +92,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 ## External links 
 
-
-<div class="mw-translate-fuzzy">
-
-## Externe Verweise 
-
 -   [Einführung in technische Zeichnung auf Youtube - von Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
-
-
-</div>
 
 
 

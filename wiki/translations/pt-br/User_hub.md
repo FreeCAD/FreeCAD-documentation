@@ -139,7 +139,13 @@ Veja também:
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> A [bancada de trabalho Spreadsheet](Spreadsheet_Workbench/pt-br.md) para a criação e manipulação de dados de planilhas.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> A [bancada de trabalho Start Center](Start_Workbench/pt-br.md) permite saltar rapidamente para uma das bancadas de trabalho mais comuns.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> A [bancada de trabalho Surface](Surface_Workbench/pt-br.md) fornece ferramentas para criar e modificar superfícies. É similar ao [Construtor de formas](Part_Builder/pt-br.md) opção de face a partir das bordas.
 

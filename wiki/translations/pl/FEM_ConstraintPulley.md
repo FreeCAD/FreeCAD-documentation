@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: FEM ConstraintPulley
-   MenuLocation: Model , Constraints without solver , Constraint pulley
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintBearing, FEM_ConstraintGear
+   Name: FEM ConstraintGear
+   Name/pl: MES: Wiązanie koła pasowego
+   MenuLocation: Model , Wiązania bez solvera , Wiązanie koła pasowego
+   Workbenches: FEM_Workbench/pl
 ---
 
 # FEM ConstraintPulley/pl

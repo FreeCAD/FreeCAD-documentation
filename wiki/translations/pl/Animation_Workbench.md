@@ -1,48 +1,53 @@
 # Animation Workbench/pl
-## Introduction
+## Wprowadzenie
 
-Animation Toolkit for FreeCAD
+Zestaw narzędzi do animacji dla FreeCAD.
 
-This Workbench can be used to create sequences of pictures.
+To środowisko pracy może być używane do tworzenia sekwencji obrazów.
 
-**It is still under construction - all contributions welcomed \...**
+**Wciąż jest w budowie - wszelkie uwagi mile widziane \...**
 
-## References
 
--   Author: [microelly2](https://github.com/microelly2)
--   Home page: [Animation](https://github.com/microelly2/Animation)
--   Source code on github: [Animation](https://github.com/microelly2/Animation)
 
-## Installation
+## Bibliografia
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+-   Autor: [microelly2](https://github.com/microelly2)
+-   Strona domowa: [Animation](https://github.com/microelly2/Animation)
+-   Kod źródłowy na GitHub: [Animacja](https://github.com/microelly2/Animation)
 
-## Tools
 
-Detailed description [here](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#the_toolset)
 
-Toolbar
+## Instalacja
+
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
+
+
+
+## Przybory
+
+Szczegółowy opis można znaleźć na tej [stronie](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#the_toolset)
+
+Pasek narzędzi
 
 ![](images/Animation-menu-orizz.png )
 
-Drop down menu
+Menu rozwijane
 
--   <img alt="" src=images/Animation_Mover.png  style="width:32px;"> **Mover**: moves objects during a time intervall along the motion Vector.
--   <img alt="" src=images/Animation_Rotator.png  style="width:32px;"> **Rotator**: rotates objects during a time intervall. Further parameters are Rotation Axis/Direction, Center of Rotation and Angle.
--   <img alt="" src=images/Animation_Tranquillizer.png  style="width:32px;"> **Tranquillizer**: slows the render process if the animation runs to fast.
--   <img alt="" src=images/Animation_Photographer.png  style="width:32px;"> **Photographer**: creates a picture of a given format and size to a render directory for every time step.
--   <img alt="" src=images/Animation_Plugger.png  style="width:32px;"> **Plugger**: connects a newly created object to an already animated shuttle object or to a vertex of an animated sketch to enable using sketcher to calculate complex transformations with some constraints by means of the shuttle object.
--   <img alt="" src=images/Animation_Adjuster.png  style="width:32px;"> **Adjuster**: enables to calculate a value by a basic linear function. Now sketches can become animated by changing values in constraints.
--   <img alt="" src=images/Animation_Styler.png  style="width:32px;"> **Styler**: controls the Gui-object. Visibility, Transparency and Shape Color can be changed on the fly.
--   <img alt="" src=images/Animation_Billboard.png  style="width:32px;"> **Billboard**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
--   <img alt="" src=images/Animation_Moviescreen.png  style="width:32px;"> **Moviescreen**: Billboard and Moviescreen are features to display extra information like texts or images during the animation.
--   <img alt="" src=images/Animation_Extruder.png  style="width:32px;"> **Extruder**: can be used to demonstrate the functionality of a miller or a 3D printer.
--   <img alt="" src=images/Animation_Viewpoint.png  style="width:32px;"> **Viewpoint**:
+-   <img alt="" src=images/Animation_Mover.png  style="width:32px;"> **Mover**: przesuwa obiekty podczas interwału czasowego wzdłuż wektora ruchu.
+-   <img alt="" src=images/Animation_Rotator.png  style="width:32px;"> **Rotator**: obraca obiekty podczas interwału czasowego. Dalsze parametry to oś/kierunek obrotu, środek obrotu i kąt.
+-   <img alt="" src=images/Animation_Tranquillizer.png  style="width:32px;"> **Tranquillizer**: spowalnia proces renderowania, jeśli animacja działa zbyt szybko.
+-   <img alt="" src=images/Animation_Photographer.png  style="width:32px;"> **Photographer**: tworzy obraz o określonym formacie i rozmiarze w katalogu renderowania dla każdego kroku czasowego.
+-   <img alt="" src=images/Animation_Plugger.png  style="width:32px;"> **Plugger**: łączy nowo utworzony obiekt z już animowanym obiektem wahadłowym lub z wierzchołkiem animowanego szkicu, aby umożliwić szkicownikowi obliczanie złożonych transformacji z pewnymi wiązaniami za pomocą obiektu wahadłowego.
+-   <img alt="" src=images/Animation_Adjuster.png  style="width:32px;"> **Adjuster**: umożliwia obliczenie wartości za pomocą podstawowej funkcji liniowej. Teraz szkice mogą być animowane poprzez zmianę wartości w wiązaniach.
+-   <img alt="" src=images/Animation_Styler.png  style="width:32px;"> **Styler**: kontroluje obiekt Gui. Widoczność, przezroczystość i kolor kształtu mogą być zmieniane na bieżąco.
+-   <img alt="" src=images/Animation_Moviescreen.png  style="width:32px;"> **Moviescreen**: Billboard i Moviescreen to funkcje umożliwiające wyświetlanie dodatkowych informacji, takich jak teksty lub obrazy podczas animacji.
+-   <img alt="" src=images/Animation_Extruder.png  style="width:32px;"> **Extruder**: może być użyty do zademonstrowania funkcjonalności frezarki lub drukarki 3D.
+-   <img alt="" src=images/Animation_Viewpoint.png  style="width:32px;"> **Punkt widzenia**:
 -   <img alt="" src=images/Animation_Manager.png  style="width:32px;"> **Manager**:
--   <img alt="" src=images/Animation_Bounder.png  style="width:32px;"> **Bounder**: limits the values of the Placement to an intervall. It is the projection of a motion to a min/max limited space.
--   <img alt="" src=images/Animation_Filler.png  style="width:32px;"> **Filler**: can be used to fill the volume of a part from bottom to top like to fill a bottle with wine. It can work as running slice trough the part like a ct scan.
--   <img alt="" src=images/Animation_Gearing.png  style="width:32px;"> **Gearing**: animates the rotation of 2 or 3 gears or a star-planet-moon system.
--   <img alt="" src=images/Animation_Kartan.png  style="width:32px;"> **Kartan**: animates a Kardan joint.
+-   <img alt="" src=images/Animation_Bounder.png  style="width:32px;"> **Bounder**: ogranicza wartości Umiejscowienia do interwału. Jest to projekcja ruchu do przestrzeni ograniczonej min/max.
+-   <img alt="" src=images/Animation_Filler.png  style="width:32px;"> **Wypełniacz**: może być użyty do wypełnienia objętości części od dołu do góry, podobnie jak do napełnienia butelki winem.
+-   <img alt="" src=images/Animation_Gearing.png  style="width:32px;"> **Gearing**: animuje obrót 2 lub 3 kół zębatych lub układu gwiazda-planeta-księżyc.
+-   <img alt="" src=images/Animation_Kartan.png  style="width:32px;"> **Kartan**: animuje przegub Kardana.
 -   <img alt="" src=images/Animation_Scaler.png  style="width:32px;"> **Scaler**:
 -   <img alt="" src=images/Animation_Placer.png  style="width:32px;"> **Placer**:
 -   <img alt="" src=images/Animation_Diagram.png  style="width:32px;"> **Diagram**:
@@ -62,7 +67,7 @@ Drop down menu
 -   <img alt="" src=images/Animation_Assembly2Controller.png  style="width:32px;"> **Assembly2Controller**:
 -   <img alt="" src=images/Animation_Connector.png  style="width:32px;"> **Connector**:
 
-Other
+Pozostałe:
 
 -   <img alt="" src=images/Animation_Animation.png  style="width:32px;"> **Animation**:
 -   <img alt="" src=images/Animation_CaseAction.png  style="width:32px;"> **Case action**:
@@ -79,22 +84,26 @@ Other
 -   <img alt="" src=images/Animation_Icon2.png  style="width:32px;"> **Icon2**:
 -   <img alt="" src=images/Animation_Icon3.png  style="width:32px;"> **Icon3**:
 
-## Links to Animation WB 
 
--   Workbench Wiki: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
+
+## Linki do środowiska pracy Animacja 
+
+-   Wiki środowiska pracy: [www.freecadbuch.de](http://freecadbuch.de/doku.php?id=Animation%20Wokbench)
 -   FreeCAD Wiki:
 -   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?t=8976&start=10>
--   Tutorials: [Toolset](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#abroller)
--   Videos: [Animation videos](http://freecadbuch.de/doku.php?id=animation:videos)
--   Files: [Examples](https://github.com/microelly2/Animation-WB-Examples)
--   Test cases: [Test cases](https://github.com/microelly2/Animation/tree/master/testcases)
--   Report bugs: Please report bugs at [FreeCAD forum](http://forum.freecadweb.org/index.php), or at [Animation issues](https://github.com/microelly2/Animation/issues)
+-   Poradniki: [Toolset](http://freecadbuch.de/doku.php?id=Animation%20Wokbench#abroller)
+-   Filmy: [Filmy animowane](http://freecadbuch.de/doku.php?id=animation:videos)
+-   Pliki: [Przykłady](https://github.com/microelly2/Animation-WB-Examples)
+-   Przypadki testowe: [Przypadki testowe](https://github.com/microelly2/Animation/tree/master/testcases)
+-   Zgłaszanie błędów: Prosimy o zgłaszanie błędów na [forum FreeCAD](http://forum.freecadweb.org/index.php), lub w serwisie GitHub [Animation](https://github.com/microelly2/Animation/issues)
 
-## Other useful links 
 
--   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD workbench to create exploded views and animations of assemblies.
--   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Assembly workbench for FreeCAD with support for importing parts from external files.
--   [External workbenches](External_workbenches.md)
+
+## Inne użyteczne odnośniki 
+
+-   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): Środowisko pracy FreeCAD do tworzenia widoków eksplodowanych i animacji złożeń.
+-   [Assembly2](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Assembly2): Środowisko pracy do złożeń dla FreeCAD z obsługą importowania części z plików zewnętrznych.
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md).
 
 
 

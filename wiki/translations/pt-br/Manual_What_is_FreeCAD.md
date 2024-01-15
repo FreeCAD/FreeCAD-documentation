@@ -11,7 +11,13 @@ O FreeCAD também é multiplataforma (funciona exatamente da mesma forma nas pla
 
 O FreeCAD se beneficia da enorme experiência acumulada no mundo do código aberto. Internamente, inclui vários outros componentes de código aberto, e o próprio FreeCAD pode ser usado como componente em outras aplicações. Ele possui muitos recursos que se tornaram padrão no mundo do código aberto, como suporte a uma ampla variedade de formatos de arquivo e capacidade de script, personalizações e modificações. Tudo possível graças a uma comunidade dinâmica e entusiástica de usuários.
 
+
+<div class="mw-translate-fuzzy">
+
 O site oficial do FreeCAD é <http://www.freecadweb.org>
+
+
+</div>
 
 **Leia mais:**
 

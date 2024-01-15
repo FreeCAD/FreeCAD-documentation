@@ -17,7 +17,7 @@ The inverse operation is [Part ShapeFromMesh](Part_ShapeFromMesh.md) from the <i
 
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_FromPartShape.svg" width=16px> [Mesh FromPartShape](Mesh_FromPartShape.md)** button.
+    -   Press the **<img src="images/Mesh_FromPartShape.svg" width=16px> [Create mesh from shape...](Mesh_FromPartShape.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_FromPartShape.svg" width=16px> Create mesh from shape...** option from the menu.
 3.  The **Tessellation** task panel opens.
 4.  While the task panel is open you can create a new selection or change an existing selection.

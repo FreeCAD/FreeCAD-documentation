@@ -3,7 +3,7 @@
 |Name=ImportAirfoil
 |Description=Macro for Airfoil coordinates import.
 |Author=Miloš Petrašinović
-|Download=[https://wiki.freecadweb.org/File:ImportAirfoil.svg ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/3/37/ImportAirfoil.svg ToolBar Icon]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 and above
@@ -77,7 +77,7 @@ __Date__ = '2022-01-06'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = 'https://github.com/VAZMFB/FreeCAD-ImportAirfoil'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_ImportAirfoil'
-__Icon__ = 'ImportAirfoil.svg'
+__Icon__ = 'https://wiki.freecad.org/images/3/37/ImportAirfoil.svg'
 __Help__ = 'Run the macro program and follow the instructions!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.19'

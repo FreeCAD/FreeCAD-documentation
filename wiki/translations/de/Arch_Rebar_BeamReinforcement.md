@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch_Rebar_BeamReinforcement
-   Name/de: Architektur Bewehrung BalkenVerstärkung
-   MenuLocation: Arch , Bewehrungswerkzeuge oder 3D/BIM , Reinforcement , BalkenVerstärkung
+   Name/de: Arch Armierung Balkenbewehrung
+   MenuLocation: Arch , Bewehrungswerkzeuge , Beam Reinforcement<br>3D/BIM , Reinforcement tools , Beam Reinforcement
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de, Arch_Rebar/de
@@ -11,29 +11,20 @@
 # Arch Rebar BeamReinforcement/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Das [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md) Werkzeug erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balken [Architektur Struktur](Arch_Structure/de.md) Objekts erzeugen.
+Das Werkzeug [Armierung Balkenbewehrung](Arch_Rebar_BeamReinforcement/de.md) erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balkenobjekts ([Struktur](Arch_Structure/de.md)-Objekt) zu erzeugen.
 
-Das [Arch Balkenverstärkung](Arch_Rebar_BeamReinforcement/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das Werkzeug [Armierung Balkenbewehrung](Arch_Rebar_BeamReinforcement/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das **Werkzeuge → Erweiterungsverwalter → Bewehrung**-Menü installiert werden kann.
-
-
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
 
 
-*Balkenbewehrung innerhalb eines Balkenss [Architektur Struktur](Arch_Structure/de.md)*
+*Balkenbewehrung innerhalb eines Balkens ([Arch Struktur](Arch_Structure/de.md))*
 
 
 
@@ -384,15 +375,6 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
     facename="Face6",
 )
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

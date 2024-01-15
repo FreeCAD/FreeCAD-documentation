@@ -3,8 +3,8 @@
 |Name=Macro TemplateHelper
 |Description=This macro generates a template to use with the TechDraw workbench and adds a new page with a new template object to the active dokument, ready to place views on it. And it can supply a bill of material (BOM), if wanted.
 |Author=FBXL5
-|Date=2023-06-13
-|Version=00.01
+|Date=2023-12-26
+|Version=00.02
 |SeeAlso=[TechDraw TemplateGenerator](TechDraw_TemplateGenerator.md)
 }}
 
@@ -45,7 +45,7 @@ If you wish, you can fill the space between the title block and the upper border
 English is default and just one version, but maybe someone likes to distinguish \'merican and bri\'ish English in the future\... :-D
 
 <img alt="" src=images/Macro_TemplateHelper_DiaSize.png  style="width:240px;"> 
-*Format options*
+*Format options, yet without A4- (landscape)*
 
 <img alt="" src=images/Macro_TemplateHelper_DiaBOM.png  style="width:240px;"> 
 *BOM options*
@@ -135,8 +135,8 @@ I have tried to follow this naming rule:
 __Name__= "Template Helper"
 __Comment__ = "Template generator, Page adder, BOM provider"
 __Author__ = "FBXL5"
-__Version__ = "00.01.02"
-__Date__    = "2023-06-13"
+__Version__ = "00.02"
+__Date__    = "2023-12-26"
 __License__ = "LGPL-2.0-or-later as FreeCAD"
 __Web__ = ""
 __Wiki__ = "http://www.freecad.org/wiki/index.php?title=Macro_TemplateHelper"
@@ -168,7 +168,7 @@ owner_data = ToteBag()   #- one bag for owner's data and copyright info
 
 class InputWindow(QDialog):
     """
-    docstring for InputWindow.
+    This provides a user interface to set some properties.
     """
     def __init__(self):
         super(InputWindow, self).__init__()
@@ -239,7 +239,7 @@ class InputWindow(QDialog):
             self.label_warning = QLabel(self.text_warning, self)
             self.label_warning.move(20, 260)
             # set up lists for pop-ups
-            self.format_list = ("ISO A0","ISO A1","ISO A2","ISO A3","ISO A4",\
+            self.format_list = ("ISO A0","ISO A1","ISO A2","ISO A3","ISO A4","ISO A4-",\
                 "ANSI A","ANSI B","ANSI C","ANSI D","ANSI E",\
                 "Arch A","Arch B","Arch C","Arch D","Arch E","Arch E1")
             self.language_list = ("DE","FR","IT","UK","US")
@@ -365,8 +365,10 @@ class InputWindow(QDialog):
         self.result_format = selected_text
         # WRS suggestion:
         max_row = 0
-        #print("Format: ", selected_text)
-        if selected_text == "ISO A4":
+        # Set the maximum number of rows for the chosen format
+        if selected_text == "ISO A4-":
+            max_row = 18
+        elif selected_text == "ISO A4":
             max_row = 34
         elif selected_text =="ISO A3":
             max_row = 34
@@ -412,6 +414,7 @@ class InputWindow(QDialog):
     def onBOMAction1(self):
         # no bill of material
         self.input_BOM_rows.setValue(0)
+
     def onBOMAction2(self):
         # max. rows for selected format
         self.input_BOM_rows.setValue(self.input_BOM_rows.maximum())
@@ -419,6 +422,7 @@ class InputWindow(QDialog):
     def onCancel(self):
         self.result = "Cancelled"
         self.close()
+
     def onOk(self):
         self.result = "OK"
         self.close()
@@ -441,6 +445,15 @@ def setBorderValues(format):
         borders.drawing_area_top    = 10 # distance from page boundary
         borders.drawing_area_bottom = 10
         borders.drawing_area_left   = 20
+        borders.drawing_area_right  = 10
+        borders.sheet_frame_top     = 5  # distance from drawing area border
+        borders.sheet_frame_bottom  = 5
+        borders.sheet_frame_left    = 5
+        borders.sheet_frame_right   = 5
+    elif format == "ISO A4-":
+        borders.drawing_area_top    = 20 # distance from page boundary
+        borders.drawing_area_bottom = 10
+        borders.drawing_area_left   = 10
         borders.drawing_area_right  = 10
         borders.sheet_frame_top     = 5  # distance from drawing area border
         borders.sheet_frame_bottom  = 5
@@ -493,7 +506,10 @@ def setSheetDimensions(format):
             sheet_format.width  = "1067"
             sheet_format.height = "762"
     else: # ISO
-        if format[-1:] == "4":
+        if format[-2:] == "4-":
+            sheet_format.width  = "297"
+            sheet_format.height = "210"
+        elif format[-1:] == "4":
             sheet_format.width  = "210"
             sheet_format.height = "297"
         elif format[-1:] == "3":
@@ -570,7 +586,7 @@ def setBillOfMaterialTexts(language):
         bom_list.remark   = "Bemerkung"
     else:
         bom_list.position = "Pos."
-        bom_list.amount   = "Amount"
+        bom_list.amount   = "Qty."
         bom_list.unit     = "Unit"
         bom_list.title    = "Title"
         bom_list.number   = "Part number"
@@ -617,7 +633,7 @@ def startSvg(file_path):
     t.write("\n"+"\n")
     t.write("<svg\n")
     t.write("  xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\"\n")
-    t.write("  xmlns:freecad=\"http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace\"\n")
+    t.write("  xmlns:freecad=\"http://www.freecad.org/wiki/index.php?title=Svg_Namespace\"\n")
     t.close
 #   Sheet size section
 def createSheet(file_path):
@@ -720,6 +736,9 @@ stroke-linecap:round\">\n")
     if sWidth=="210": # format=="DIN-A4":
         indexLeft=str(dAL)
         t.write("        "+svgpath(indexLeft,indexMiddle,"h","-15")+"\n")
+    elif sWidth == "297": # format=="DIN-A4-":
+        indexUpper = str(dAT)
+        t.write("        "+svgpath(indexCenter,indexUpper,"v","-15")+"\n")
     elif sWidth=="420": # format=="DIN-A3":
         indexLeft=str(dAL+5)
         t.write("        "+svgpath(indexCenter,indexUpper,"v","-10")+"\n")
@@ -906,7 +925,8 @@ def createTitleBlock(file_path):
     t.write("      <g id=\"titleblock-frame\"\n")
     t.write("        style=\"fill:none;stroke:#000000;stroke-width:0.35;\
 stroke-linecap:miter;stroke-miterlimit:4\">\n")
-    t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
+    if sWidth != "210": # DIN-A4
+        t.write("        "+svgpath("  0","  0","  0","-63")+"\n")
     t.write("        "+svgpath("  0","-63","180","  0")+"\n")
     t.write("        "+svgpath("  0"," -4","h","155")+"\n")
     t.write("        "+svgpath("  0","-16","h","155")+"\n")
@@ -1075,7 +1095,7 @@ m-0.5715 1.2244 0.23576 0.13679 0.20426 0.18519 0.16353 0.22101 0.11763 0.24572 
     t.write("    </g>\n\n")
     t.close
 
-#- Symbol for first angle projection
+#- Symbol for projection method
 def createProjectionSymbol(file_path):
     #- set sheet dimensions
     sWidth  = sheet_format.width
@@ -1254,7 +1274,7 @@ def updateSheetTotal(total_pages, document):
 def setOwnerData():
     owner_data.company   = "Owner / Company"
     owner_data.address1  = "Address-1"
-    owner_data.address2  = "Address-1"
+    owner_data.address2  = "Address-2"
     owner_data.mailTo    = "Info@theCompany.com"
     owner_data.copyright = "All rights reserved"
 
@@ -1265,6 +1285,19 @@ def getAuthor():
     if author_name == "":
         author_name = "not set yet"
     return author_name
+
+def getDate():
+    today = time.strftime("%Y-%m-%d") # %Y: YYYY, %y: YY
+    return today
+
+def getVersion():
+    # Reads the FreeCAD version from the running application
+    av = App.Version()
+    if av[2] == "0":
+        app_version = ("FreeCAD v. " + av[0] + "." + av[1] + "." + av[2] + " - " + av[3])
+    else:
+        app_version = ("FreeCAD v. " + av[0] + "." + av[1] + "." + av[2])
+    return app_version
 
 def projectionGroupAngle():
     # Reads the projection convention from the preferences settings
@@ -1324,9 +1357,11 @@ def main():
         # add the template object to the page's object list
         active_doc.getObject(new_page).Template = active_doc.getObject(new_template)
         #create entries on first page or copy from first page
-        #- check for arch formats
+        #- check for arch formats and A4 landscape
         if form.result_format[:4] == "Arch":
             sheet_format = form.result_format
+        elif form.result_format == "ISO A4-":
+            sheet_format = "A4"
         else:
             sheet_format = form.result_format[-2:]
 
@@ -1342,11 +1377,11 @@ def main():
             editable_texts["MailTo"]     = owner_data.mailTo
             editable_texts["Copyright"]  = owner_data.copyright
             editable_texts["Author"]     = getAuthor()
-            editable_texts["AuDate"]     = time.strftime("%y/%m/%d")
+            editable_texts["AuDate"]     = getDate()
             #editable_texts["Supervisor"] = "Supervisor"
             #editable_texts["SvDate"]     = "YYYY/MM/DD"
             #editable_texts["SubTitle"]   = "Sub-title"
-            editable_texts["Version"]    = "FreeCAD 0.19"
+            editable_texts["Version"]    = getVersion()
             #editable_texts["Revision-A"] = "______"
             #editable_texts["Revision-B"] = "______"
             #editable_texts["Revision-C"] = "______"
@@ -1374,11 +1409,11 @@ def main():
             editable_texts["MailTo"]     = existing_texts["MailTo"]
             editable_texts["Copyright"]  = existing_texts["Copyright"]
             editable_texts["Author"]     = getAuthor()
-            editable_texts["AuDate"]     = time.strftime("%y/%m/%d")
+            editable_texts["AuDate"]     = getDate()
             #editable_texts["Supervisor"] = existing_texts["Supervisor"]
             #editable_texts["SvDate"]     = existing_texts["SvDate"]
             editable_texts["SubTitle"]   = existing_texts["SubTitle"]
-            editable_texts["Version"]    =  "FreeCAD 0.19" #existing_texts["Version"]
+            editable_texts["Version"]    = getVersion()
             #editable_texts["Revision-A"] = existing_texts["______"]
             #editable_texts["Revision-B"] = existing_texts["______"]
             #editable_texts["Revision-C"] = existing_texts["______"]
@@ -1404,7 +1439,10 @@ def main():
         active_doc.getObject(new_page).ViewObject.doubleClicked()
 
 
-main()
+if __name__ == '__main__':
+    # This will be true only if the file is "executed"
+    # but not if imported as module
+    main()
 }}
 
 

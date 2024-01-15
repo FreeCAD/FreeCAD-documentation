@@ -11,29 +11,38 @@
 
 ## Description
 
-The **TechDraw LandmarkDimension** tool adds a linear dimension to a View. The dimension is based on two Point **feature** (Draft.Point or Part.Vertex) from the 3D model. Note that the points must be **feature** objects that appear in the model [tree view](Tree_view.md). Random vertexes from a shape will not work.
+The **TechDraw LandmarkDimension** tool adds a linear dimension to a View. The dimension is based on two point objects ([Draft Point](Draft_Point.md), [Part Point](Part_Point.md) or [PartDesign Point](PartDesign_Point.md) objects) from the 3D model.
 
-The purpose of this tool is to provide a workaround to the corruption of dimension caused by \"[topological naming](Topological_naming_problem.md)\" issues. The source points should use [Expressions](Expressions.md) or other containing mechanism to establish their position. Since the points are [Document Objects](App_DocumentObject.md), and not shape components, their name does not change with recomputes, and hence they are easily found.
+The purpose of this tool is to provide a workaround to the corruption of dimensions caused by the \"[topological naming](Topological_naming_problem.md)\" issues. The source points should use [Expressions](Expressions.md) or other containing mechanisms to establish their position. Since the points are [Document Objects](App_DocumentObject.md), and not shape components, their name does not change with recomputes, and hence they are easily found.
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Limitation.md) for more on dimensions and topological naming.
 
-The Landmark Dimension generally behaves like any other Dimension.
-
 ## Usage
 
-1.  Select 2 Point objects in the [tree view](Tree_view.md) or the [3D view](3D_view.md).
-2.  Select also the View to which the dimension is to be added.
-3.  Press the **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Insert Landmark Dimension  - EXPERIMENTAL](TechDraw_LandmarkDimension.md)
-** button or **TechDraw → Insert Landmark Dimension  - EXPERIMENTAL**
-4.  A dimension will be added to the View. The dimension text may be dragged to the desired position.
+1.  Select two point objects in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+2.  Add the correct TechDraw View to the selection by selecting it in the [Tree view](Tree_view.md).
+3.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Insert Landmark Dimension  - EXPERIMENTAL](TechDraw_LandmarkDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_LandmarkDimension.svg" width=16px> Insert Landmark Dimension  - EXPERIMENTAL** option from the menu.
+4.  A dimension is added to the View.
+5.  The dimension may be dragged to the desired position.
+6.  If needed, add tolerances as described on [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
 
 ## Limitations
 
 The Landmark Dimension tool is initially limited to \"Distance\" dimensions. Other types may be added if demand warrants.
 
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+
 ## Properties
 
-Landmark Dimension does not introduce any new properties.
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 
 ## Scripting
 
@@ -43,12 +52,12 @@ The Landmark Dimension tool can be used in [macros](Macros.md) and from the [Pyt
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::LandmarkDimension", "Landmark")
 dim1.Type = "Distance"
-dim1.References2D=[(TDView, 'Vertex1')]
-dim1.References3D=[(Point3d1, 'Vertex1')]
-dim1.References3D=[(Point3d2, 'Vertex1')]
-rc = page.addView(dim1)
+dim1.References2D = [(TDView, "Vertex1")]
+dim1.References3D = [(Point3d1, "Vertex1")]
+dim1.References3D = [(Point3d2, "Vertex1")]
+page.addView(dim1)
 ```
 
 

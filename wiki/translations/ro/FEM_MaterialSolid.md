@@ -5,12 +5,22 @@
 
 </div>
 
+
+
 ## Descriere
+
+
+<div class="mw-translate-fuzzy">
 
 Adaugă proprietăți materiale la o piesă.
 
+
+</div>
+
 ![](images/FEMMaterialSolidProperties.png ) 
 *The FEM material task panel*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -38,6 +48,8 @@ Adaugă proprietăți materiale la o piesă.
 
 
 </div>
+
+
 
 ## Notă
 

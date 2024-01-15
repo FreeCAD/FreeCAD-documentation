@@ -70,7 +70,7 @@ C\'è solo una scheda: *Opzioni della pagina iniziale* nella sezione **Start**. 
 | **Use gradient for New File icon**   |                                                                                                                                                                                                                                        |
 |                                               |                                                                                                                                                                                                                                        |
 +++
-|                                   | Not used. This is specified in the [General preferences](Preferences_Editor#General_2.md) instead.                                                                                                                             |
+|                                   | Workbench to switch to after loading a file from the Start page, only used if Start is the [start up workbench](Preferences_Editor#Available_Workbenches.md).                                                                  |
 | **Switch workbench after loading**   |                                                                                                                                                                                                                                        |
 |                                               |                                                                                                                                                                                                                                        |
 +++
@@ -84,7 +84,7 @@ C\'è solo una scheda: *Opzioni della pagina iniziale* nella sezione **Start**. 
 +++
 
 ![](images/Preferences_Start_Tab_Start_page_options.png ) 
-*The Start page options tab*
+*La scheda Opzioni della pagina iniziale*
 
 
 {{Start Tools navi

@@ -1,38 +1,50 @@
 # Object name/pl
-## Introduction
+## Wprowadzenie
 
 
 
 
-All objects in the program have an [object name](Object_name.md) that uniquely identifies them in a given document.
+Wszystkie obiekty w programie mają [nazwę obiektu](Object_name/pl.md), która jednoznacznie identyfikuje je w obrębie danego dokumentu.
 
-This information applies to all objects derived from [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), which essentially comprises all objects that are possible to create in a document.
+Informacje te dotyczą wszystkich obiektów pochodnych od [App: Obiektu dokumentu](App_DocumentObject/pl.md) *(klasa `App::DocumentObject`)*, która zasadniczo obejmuje wszystkie obiekty, które można utworzyć w dokumencie.
 
-## Names
 
-There are various properties for Names:
 
--   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`.
--   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`.
--   The `Name` is assigned at the creation time of the object; afterwards it is no longer editable. The object can never be renamed.
--   The `Name` must be unique in the entire document. It doesn\'t matter if two objects are of completely different types, for example, one is a [PartDesign Pocket](PartDesign_Pocket.md) and the other is an [Arch Wall](Arch_Wall.md). They must have different names.
--   When creating an object of the same type, normally the name is increased with a sequential number, thus `Box`, `Box001`, `Box002`, etc. This prevents naming collision.
--   Once the object is deleted, its `Name` becomes available to be used by a newly created object. This means that if `Box`, `Box001`, and `Box002` exist, and we delete the first item, the next box created with [Part Box](Part_Box.md) will not be `Box003`, it will be `Box` again, because this string is available to be used once more. Notice that it is not possible to rename `Box001` or `Box002` to `Box` since their names are fixed.
+## Nazwy
 
-In summary, the `Name` essentially acts like a unique identifier (UID) for an object. Since a unique `Name` is very restrictive, all objects also have a `Label` property which allows \"renaming\" the object to something more descriptive. The internal `Name` actually remains fixed, but the user editable `Label` can be used in most situations where the `Name` would be used. In common usage in the program and the documentation, \"renaming\" means changing the `Label` and not the actual `Name` of the object.
+Nazwy mają różne właściwości:
+
+-    {{Incode|Nazwa}}może zawierać tylko proste znaki alfanumeryczne i znak podkreślenia, {{Incode|[_0-9a-zA-Z]}}.
+
+-    {{Incode|Nazwa}}nie może zaczynać się od cyfry, musi zaczynać się od litery lub podkreślenia, {{Incode|[_a-zA-Z]}}.
+
+-    {{Incode|Nazwa}}jest przypisywana w czasie tworzenia obiektu, później nie można jej już edytować. Nigdy nie można zmienić nazwy obiektu.
+
+-    {{Incode|Nazwa}}musi być unikalna w całym dokumencie. Nie ma znaczenia, czy dwa obiekty są zupełnie różnych typów, na przykład jeden to [kieszeń](PartDesign_Pocket/pl.md) środowiska Projekt Części, a drugi to [ściana](Arch_Wall/pl.md) środowiska Architektura. Muszą one mieć różne nazwy.
+
+-   Podczas tworzenia obiektu tego samego typu, zwykle nazwa jest zwiększana o kolejny numer, a więc `Sześcian`, `Sześcian001`, `Sześcian002` itd. Zapobiega to kolizji nazw.
+
+-   Po usunięciu obiektu, jego `Nazwa` staje się dostępna do użycia przez nowo utworzony obiekt. Oznacza to, że jeśli istnieją obiekty `Sześcian`, `Sześcian001` i `Sześcian002`, a my usuniemy pierwszy z nich, to następnym obiektem utworzonym za pomocą [Part Box](Part_Box.md) nie będzie `Sześcian003`, lecz `Sześcian`, ponieważ ciąg ten jest dostępny do ponownego użycia. Zauważ, że nie jest możliwa zmiana nazwy obiektu `Sześcian001` lub `Sześcian002` na `Sześcian`, ponieważ ich nazwy są niezmienne.
+
+Podsumowując, `Nazwa` zasadniczo działa jak unikalny identyfikator (UID) dla obiektu. Ponieważ unikalna `Nazwa` jest bardzo restrykcyjna, wszystkie obiekty mają również właściwość `Etykieta`, która umożliwia \"zmianę nazwy\" obiektu na coś bardziej opisowego. Wewnętrzna {{Incode|Nazwa}} faktycznie pozostaje stała, ale edytowalna przez użytkownika {{Incode|Etykieta}} może być używana w większości sytuacji, w których użyto by {{Incode|Nazwy}}. W powszechnym użyciu w programie i dokumentacji \"zmiana nazwy\" oznacza zmianę `Etykiety`, a nie rzeczywistej `Nazwy` obiektu.
 
 
 
 ## Etykiety
 
-There are various properties for Labels:
+Istnieją różne właściwości etykiet:
 
--   The `Label` can accept any UTF8 string, including accents and spaces.
--   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2** (or rather **Return** on macOS), or open the context menu (right-click) and choose **Rename**.
--   Even after an object was renamed (relabelled), the internal `Name` will still be reported in many places, for example, in the [status bar](Status_bar.md) or in the [selection view](Selection_view.md), when the object is selected.
--   Since the internal functions of the program refer to the objects by `Name`, many dialogs will display the `Name` first, followed by the user editable `Label` in parentheses, for example, `Box (Extruded piece)`.
--   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` is not unique in the document, and may actually be repeated. However, the recommendation is to keep the `Label` unique, as this is probably what is most useful to identify different objects. When writing custom functions that manipulate objects, the methods should use the `Name` of the object rather than its `Label` to guarantee that the correct object is used.
--   When using [expressions](Expressions.md), for example, in the [property editor](Property_editor.md) or in a [spreadsheet](Spreadsheet.md), the Label can be referenced using double brackets made of the less than and greater than symbols.
+-    {{Incode|Etykieta}}może akceptować dowolny ciąg UTF8, w tym znaki akcentu i spacji.
+
+-   W oknie [widoku drzewa](Tree_view/pl.md) wyświetlana jest `Etykieta` obiektu, a nie jego `Nazwa`. Dlatego za każdym razem, gdy tworzony jest nowy obiekt, dobrą praktyką jest zmiana `Etykiety` na bardziej opisowy ciąg znaków. Aby zmienić nazwę *(etykietę)* obiektu, wybierz ją w widoku drzewa i naciśnij **F2** *(lub raczej **Return** na macOS)* lub otwórz menu podręczne *(kliknij prawym przyciskiem myszy)* i wybierz **Zmień nazę**.
+
+-   Nawet po zmianie nazwy obiektu, wewnętrzny {{Incode|NamNazwae}} będzie nadal wyświetlana w wielu miejscach, na przykład na pasku [pasek stanu](Status_bar.md) lub w oknie [widok wyboru](Selection_view/pl.md), gdy obiekt jest zaznaczony.
+
+-   Ponieważ wewnętrzne funkcje programu odnoszą się do obiektów za pomocą {{Incode|Nazwy}}, wiele okien dialogowych wyświetli najpierw {{Incode|Nazwę}}, a następnie edytowalną przez użytkownika {{Incode|Etykietę}} w nawiasach, na przykład {{Incode|Sześcian ''(Element wyciągany)''}}.
+
+-   Domyślnie {{Incode|Etykieta}} jest unikalna, podobnie jak {{Incode|Nazwa}}. Zachowanie to można jednak zmienić w [edytorze preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje ... → Ogólne → Dokument → Zezwalaj na umieszczanie duplikatów etykiet obiektów w obrębie jednego dokumentu**. Oznacza to, że generalnie {{Incode|Etykieta}} nie jest unikalna w dokumencie i może się powtarzać. Zaleca się jednak zachowanie unikalności `Etykiet`, ponieważ jest to prawdopodobnie najbardziej przydatne do identyfikacji różnych obiektów. Podczas pisania niestandardowych funkcji, które manipulują obiektami, metody powinny używać `Nazwy` obiektu, a nie jego `Etykiety`, aby zagwarantować, że używany jest właściwy obiekt.
+
+-   Podczas korzystania z [wyrażeń](Expressions/pl.md), na przykład w [edytorze właściwości](Property_editor/pl.md) lub w [arkuszu kalkulacyjnym](Spreadsheet/pl.md), Etykieta może być przywoływana za pomocą podwójnych nawiasów utworzonych z symboli \"mniej niż\" i \"więcej niż\".
 
 
 ```python
@@ -40,22 +52,26 @@ There are various properties for Labels:
 <<Label may use UTF8 characters>>.Width
 ```
 
-### Label2
-
-It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
-
--   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
--   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
--   The **Label2** attribute is normally hidden in the [property editor](Property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
-
-## Scripting
 
 
-**See also:**
+### Etykieta2
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md).
+Jest to prosty ciąg znaków, który może zawierać dowolny tekst, a zatem może być używany do dokumentowania *(opisywania z większą ilością szczegółów)* utworzonego obiektu.
 
-Any object in the software is internally created with the `addObject()` method of the document. The majority of 2D and 3D objects that the user will see in the [3D view](3D_view.md) are derived from a [Part Feature](Part_Feature.md). In the following example, the object created is a [Part Box](Part_Box.md).
+-   W oknie [widoku drzewa](Tree_view/pl.md) edytuj pole obok ikony, w kolumnie \"Opis\", klikając je i naciskając **F2** *(lub raczej **Entern** na macOS)*.
+-   Można również zmienić tę właściwość, modyfikując atrybut `Etykieta2` z poziomu [Konsoli Python](Python_console/pl.md).
+-   Atrybut **Etykieta2** jest normalnie ukryty w [edytorze właściwości](Property_editor/pl.md), ale może być uwidoczniony poprzez otwarcie menu podręcznego *(kliknięcie prawym przyciskiem myszy)* i wybranie **Wyświetl wszystko**.
+
+
+
+## Tworzenie skryptów 
+
+
+**Zobacz również:**
+
+[Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md), oraz [Obiekty skryptowe](Scripted_objects/pl.md).
+
+Każdy obiekt w oprogramowaniu jest tworzony wewnętrznie za pomocą metody `addObject()` dokumentu. Większość obiektów 2D i 3D, które użytkownik zobaczy w oknie [widoku 3D](3D_view/pl.md) pochodzi z [Część: Cecha](Part_Feature/pl.md). W poniższym przykładzie utworzony obiekt to [Sześcian](Part_Box/pl.md) środowiska pracy Część.
 
 
 ```python
@@ -66,30 +82,43 @@ obj = doc.addObject("Part::Box", "Name")
 obj.Label = "Custom label"
 ```
 
-### Name
 
-The `addObject` function has two basic string arguments.
 
--   The first argument indicates the type of object, in this case, `"Part::Box"`.
--   The second argument is a string that defines the `Name` attribute. If it is not provided, it defaults to the same name as the class of the object, that is, `"Part__Box"`, where the two invalid symbols, the colons `::`, are replaced by two underscores `__`.
-    -   The `Name` can only include simple alphanumeric characters, and the underscore, `[_0-9a-zA-Z]`. If other symbols are given, these will be converted to underscores; for example, `"A+B:C*"` is converted to `"A_B_C_"`.
-    -   The `Name` cannot start with a number; it must start with a letter or the underscore, `[_a-zA-Z]`. For example, `"123ABC"` is converted to `"_23ABC"`.
-    -   The `Name` is fixed at creation time; it cannot be modified afterwards.
-    -   The `Name` must be unique in the entire document. If the same `"Name"` is used, a sequential number will be appended automatically so that the resulting names are unique; for example, if `"Name"` already exists, then new objects will be called `"Name001"`, `"Name002"`, `"Name003"`, etc.
+### Nazwa
+
+Funkcja `addObject` posiada dwa podstawowe argumenty typu string.
+
+-   Pierwszy argument wskazuje typ obiektu, w tym przypadku `"Part::Box"`.
+-   Drugi argument to ciąg znaków definiujący atrybut `Name`. Jeśli nie zostanie on podany, domyślnie przyjmuje taką samą nazwę jak klasa obiektu, czyli `"Part__Box"`, gdzie dwa nieprawidłowe symbole, dwukropki `::`, są zastąpione dwoma podkreśleniami `__`.
+    -   
+        `Name`
+        
+        może zawierać tylko podstawowe znaki alfanumeryczne i znak podkreślenia, `[_0-9a-zA-Z]`. Jeśli podane zostaną inne symbole, zostaną one przekonwertowane na znak podkreślenia. Na przykład `"A+B:C*"` zostanie przekonwertowane na `"A_B_C_"`.
+
+    -   
+        {{Incode|Name}}
+        
+        nie może zaczynać się od liczby, musi zaczynać się od litery lub podkreślenia, {{Incode|[_a-zA-Z]}}. Na przykład `"123ABC"` jest konwertowany na `"_23ABC"`.
+
+    -   Obiekt `Name` jest ustalany w momencie utworzenia, nie można go później zmodyfikować.
+
+    -   Obiekt `Name` musi być unikalny w całym dokumencie. Jeśli użyty zostanie ten sam obiekt {{Incode|"Name"}}, automatycznie dołączony zostanie kolejny numer, tak aby wynikowe nazwy były unikalne; na przykład, jeśli {{Incode|"Name"}} już istnieje, nowe obiekty zostaną nazwane {{Incode|"Name001"}}, {{Incode|"Name002"}}, {{Incode|"Name003"}} itd.
 
 
 
 ### Etykieta
 
-The `Label` is a property of the created object and can be changed to a more meaningful text.
+Obiekt `Label` jest właściwością utworzonego obiektu i może zostać zmieniony na bardziej znaczący tekst.
 
--   Upon creating the object, the `Label` is the same as the `Name`.
--   However, unlike the `Name`, the `Label` can accept any UTF8 string, including accents and spaces.
--   The `Label` can be changed at any point in time just by assigning the desired string, obj.Label = "New label"
+-   Podczas tworzenia obiektu, `Label` ma taką samą wartość jak `Name`.
+-   Jednak w przeciwieństwie do `Name`, `Label` może akceptować dowolny ciąg UTF8, łącznie ze znakami akcentówi i spacji.
+-   Obiekt `Label` można zmienić w dowolnym momencie, po prostu przypisując żądany ciąg znaków, obj.Label = "New label".
 
-### Getting an object by Name or Label 
 
-All objects in a document are data attributes of the corresponding [Document](App_DocumentObject.md) object. The attribute\'s name correspond to the internal `Name` of the object.
+
+### Pobieranie obiektu przez nazwę lub etykietę 
+
+Wszystkie obiekty w dokumencie są atrybutami danych odpowiedniego obiektu [Dokument](App_DocumentObject/pl.md). Nazwa atrybutu odpowiada wewnętrznej `Nazwie` obiektu.
 
 
 ```python
@@ -100,7 +129,7 @@ obj2 = App.ActiveDocument.Box001
 obj3 = App.ActiveDocument.Box002
 ```
 
-This is equivalent to using the `getObject` method of the Document. 
+Jest to równoważne użyciu metody `getObject` dokumentu. 
 ```python
 import FreeCAD as App
 
@@ -109,7 +138,7 @@ obj2 = App.ActiveDocument.getObject('Box001')
 obj3 = App.ActiveDocument.getObject('Box002')
 ```
 
-However, it is also possible to get the object by the more descriptive `Label`. 
+Możliwe jest jednak również pobranie obiektu za pomocą bardziej opisowego identyfikatora `Label`. 
 ```python
 import FreeCAD as App
 
@@ -118,7 +147,7 @@ obj2 = App.ActiveDocument.getObjectsByLabel("Custom parallelepiped")[0]
 obj3 = App.ActiveDocument.getObjectsByLabel("Some special name for this cube__002")[0]
 ```
 
-Given that the `Label` is in general not unique, the `getObjectsByLabel` method returns a list with all objects found with that `Label`. However, if the `Label` is unique in the document then the first element in that list should be the desired object.
+Biorąc pod uwagę, że obiekt `Label` nie jest unikalny, metoda `getObjectsByLabel` zwraca listę wszystkich obiektów znalezionych z tym obiektem `Label`. Jeśli jednak `Label` jest unikalny w dokumencie, to pierwszym elementem tej listy powinien być żądany obiekt.
 
 
 

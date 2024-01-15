@@ -4,22 +4,14 @@
    Name/it: 3 Viste da mesh
    MenuLocation: Arch , Utilità , 3 Viste da mesh
    Workbenches: Arch_Workbench/it
-   SeeAlso: Arch SplitMesh/it, Arch MeshToShape/it
+   SeeAlso: Arch_SplitMesh/it, Arch_MeshToShape/it
 ---
 
 # Arch 3Views/it
 
 
-</div>
-
-
 
 ## Descrizione
-
-Crea le classiche tre viste in proiezioni ortogonali di un oggetto mesh selezionato.
-
-
-<div class="mw-translate-fuzzy">
 
 
 **Questo comando non è attualmente in uso.**
@@ -27,55 +19,22 @@ Crea le classiche tre viste in proiezioni ortogonali di un oggetto mesh selezion
 Esso servirà a generare delle viste piatte, di un oggetto [Mesh](Mesh_Workbench/it.md), da usare con lo strumento **<img src="images/Arch_Equipment.svg" width=24px> [Arredo](Arch_Equipment/it.md)**.
 
 
-</div>
-
-
 
 ## Utilizzo
-
--   Selezionare un oggetto mesh
--   Attivare il comando
-
-Notare che le viste prodotte sono degli oggetti indipendenti, non hanno legami tra di loro e neppure con l\'oggetto mesh da cui derivano.
-
-
-<div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto Mesh
 2.  Selezionare il pulsante **<img src="images/Arch_3Views.svg" width=16px>**, o **Arch** → **Utilità** → **<img src="images/Arch_3Views.svg" width=16px> [3 viste](Arch_3Views/it.md)** dal menu principale.
 
 
-</div>
-
-
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Questo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```
@@ -117,15 +76,6 @@ Part.show(s3)
 Wall.ViewObject.Visibility = False
 mesh_obj.ViewObject.Visibility = False
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

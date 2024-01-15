@@ -21,6 +21,7 @@
 
 1.  A <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object is created automatically with the creation of an <img alt="" src=images/FEM_Analysis.svg  style="width:16px;"> [Analysis container](FEM_Analysis.md).
     To create it manually, use one of the following alternatives:
+    -   Press the **<img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> [Solver CalculiX Standard](FEM_SolverCalculixCxxtools.md)** button.
     -   Select **Solve → <img src="images/FEM_SolverCalculixCxxtools.svg" width=16px> Solver CalculiX Standard** from the menu.
     -   Press the **S** then **X** shortcut keys.
 2.  Optionally change the properties of the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> CalculiXcxxTools solver object in the [Property editor](Property_editor.md).
@@ -39,11 +40,11 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 
 -    **Analysis Type**:
 
-    -   static
-    -   frequency
-    -   thermomech - for mechanical and thermal loads
-    -   check - to check only the mesh
-    -   buckling - for buckling analyses <small>(v0.20)</small> 
+    -   static - static stress analysis
+    -   frequency - modal (natural frequency) analysis
+    -   thermomech - thermo-mechanical analysis
+    -   check - no calculation, performs input deck checks
+    -   buckling - linear buckling analysis <small>(v0.20)</small> 
 
 -    **Beam Shell Result Output 3D**: note that CalculiX internally expands 1D and 2D elements into 3D elements to accomplish FE analysis
 
@@ -58,7 +59,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 
 -    **Geometric Nonlinearity**:
 
-    -   linear - linear analysis will be performed if model does not contain nonlinear material
+    -   linear - linear analysis will be performed if the model does not contain nonlinear material
     -   nonlinear - nonlinear analysis will be performed
 
 -    **Iterations Control parameter Cutb**: defines the second line of [CalculiX\' advanced iteration parameters](http://www.dhondt.de/ccx_2.17.pdf#subsection.8.24). Used if **Iterations Control Parameter Time Use** is set to *true*.
@@ -68,7 +69,7 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 -    **Iterations Control Parameter Time Use**-   true - activates **Iterations Control parameter Cutb** and **Iterations Control Parameter Iter**
     -   false
 
--    **Iterations Thermo Mech Maximum**: maximum number of increments in thermomechanical analysis after which the job will be stopped.
+-    **Iterations Thermo Mech Maximum**: maximum number of increments in thermo-mechanical analysis after which the job will be stopped.
 
 -    **Iterations User Defined Incrementations**:
 
@@ -87,10 +88,10 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 
 -    **Matrix Solver Type**: type of the solver to solve equation system inside FE analysis. It may significantly affect calculation speed and memory demands. Suitability depends on your FE model and available hardware
 
-    -   default - automatically selects matrix solver depending on available solvers (probably it will be Spooles)
-    -   spooles - direct solver with support of multiple CPUs. Number of CPUs need to be set in the [preferences](FEM_Preferences#CalculiX.md) at *Solver defaults → Number of CPU\'s to use*.
-    -   iterativescaling - iterative solver with least memory demands, suitable if model contains mostly 3D elements
-    -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if model contains mostly 3D elements
+    -   default - automatically selects matrix solver depending on the available solvers (typically it is Spooles)
+    -   spooles - direct solver with the support of multiple CPUs. The number of CPUs needs to be set in the [preferences](FEM_Preferences#CalculiX.md) at *Solver defaults → Number of CPU\'s to use*.
+    -   iterativescaling - iterative solver with the lowest memory demands, suitable if the model contains mostly 3D elements
+    -   iterativecholesky - iterative solver with preconditioning with and with low memory demands, suitable if the model contains mostly 3D elements
 
 -    **Split Input Writer**:
 
@@ -99,8 +100,8 @@ Default values can be set in the menu **Edit → Preferences → FEM → Calculi
 
 -    **Thermo Mechanical Steady State**:
 
-    -   true - steady state thermo mechanical analysis
-    -   false - transient thermo mechanical analysis
+    -   true - steady state thermo-mechanical analysis
+    -   false - transient thermo-mechanical analysis
 
 -    **Time End**: time period of the step, used when parameter **Iterations User Defined Incrementations** or **Iterations User Defined Time Step Length** is *true*
 

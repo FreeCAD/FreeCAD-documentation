@@ -18,7 +18,7 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 
 <div class="mw-translate-fuzzy">
 
--   在[首选项编辑器中](Preferences_Editor.md)，选择的 **编辑 → 首选项 → 显示 → 3D视图 → 3D导航**
+-   在[首选项编辑器](Preferences_Editor.md)中，选择的 **编辑 → 首选项 → 显示 → 3D视图 → 3D导航**
 
 在三维视图区域的空白处单击鼠标右键，然后在弹出菜单中选择**导航样式 →...**"。
 
@@ -26,6 +26,10 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 </div>
 
 ## Available navigation styles 
+
+With all navigation styles, unless selecting objects from a sketch in edit mode, you must hold **Ctrl** to select multiple objects.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -68,6 +72,9 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{CAD Navigation
 |Select_name=选择
 |Pan_name=平移
@@ -77,12 +84,6 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 |Ctrl=**Ctrl**
 |Shift=**Shift**
 |Select_text=在要选择的对象上按鼠标左键。按住**Ctrl**可以选择多个对象。
-
-<div class="mw-translate-fuzzy">
-按住**Ctrl**可以选择多个对象。
-|Pan_text=按住鼠标中键，然后移动鼠标。
-|Pan_mode_text=平移模式：按住**Ctrl**键，按下鼠标右键一次，然后移动鼠标。
-|Zoom_text=使用鼠标滚轮放大和缩小。单击鼠标中键可将视图重新置于光标位置的中心。 <small>(v0.17)</small> 
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -104,6 +105,8 @@ Blender导航样式参照[Blender](http://www.blender.org)的操作。以前一�
 该方法下鼠标中键可以在鼠标右键按下后放开。
 
 习惯用右手的用户可能会觉得这种方法比第一种方法要容易些。}}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -143,7 +146,13 @@ This style was tailored for use with a touchscreen and pen. Nevertheless, it can
 |Tilt_view_text=按住鼠标左键和右键，然后将鼠标移到一边。 
 |Tilt_view_gesture_text=旋转由两个触摸点组成的假想线。
 
+<div class="mw-translate-fuzzy">
 在v0.18上，默认情况下禁用此方法。要启用，请转到**编辑→首选项→显示**，然后取消选中“禁用触摸屏倾斜手势”复选框。}}
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -172,6 +181,8 @@ In Maya-Gesture Navigation, panning, zooming, and rotating the view require the 
 或者，使用鼠标滚轮放大和缩小。 
 |Rotate_view_text=按住**Alt**和鼠标左键，然后移动鼠标。 
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -233,7 +244,7 @@ The OpenCascade navigation style was modeled after [OpenCascade](https://www.ope
 |Zoom_text=使用鼠标滚轮放大和缩小。
 </div>
 
-Hold down **Ctrl** instead to select multiple objects.
+Hold **Ctrl** instead to select multiple objects.
 |Pan_text=Hold the middle mouse button, then move the pointer.
 |Zoom_text=Use the mouse wheel to zoom in and out.
 
@@ -256,11 +267,15 @@ The OpenSCAD navigation style was modeled after [OpenSCAD](https://openscad.org/
 |Rotate_view_name=Rotate view
 |Shift=**Shift**
 |Select_text=Press the left mouse button over an object you want to select.
+
+Hold **Ctrl** and **Shift** when pressing the mouse button to drag an object in a sketch in edit mode.
 |Pan_text=Hold the right mouse button, then move the pointer.
 |Zoom_text=Hold the middle mouse button, then move the pointer.
 Alternatively, hold **Shift** and the right mouse button, then move the pointer.
 |Rotate_view_text=Hold the left mouse button, then move the pointer.
 }}
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -301,11 +316,12 @@ The TinkerCAD navigation style was modeled after [https://en.wikipedia.org/wiki/
 |Rotate_view_text=Press the right mouse button, then move the pointer.
 }}
 
+<span id="Touchpad_navigation"></span>
 <div class="mw-translate-fuzzy">
 ===触控板导航===
 </div>
 
-In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
+With the Touchpad navigation style, panning, zooming, and rotating the view require a modifier key together with the touchpad. This style can also be used with a mouse.
 
 <div class="mw-translate-fuzzy">
 触控板导航中,平移、缩放或视图旋转操作都需要一个辅助按键和触控板一起配合。
@@ -328,12 +344,14 @@ In Touchpad Navigation, panning, zooming, and rotating the view require a modifi
 }}
 </div>
 
+<span id="Hardware_support"></span>
 ==硬件支持==
 
 <div class="mw-translate-fuzzy">
 FreeCAD 也支持一些[3D输入设备](3D_input_devices.md).
 </div>
 
+<span id="Recommended_navigation_for_macOS"></span>
 <div class="mw-translate-fuzzy">
 == Mac OS X问题==
 </div>

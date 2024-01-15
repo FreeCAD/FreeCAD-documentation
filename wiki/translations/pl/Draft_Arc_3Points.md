@@ -1,85 +1,99 @@
 ---
  GuiCommand:
    Name: Draft Arc 3Points
-   MenuLocation: Drafting , Arc tools , Arc by 3 points
-   Workbenches: Draft_Workbench, Arch_Workbench
-   Shortcut: **A** **T**
-   Version: 0.19
-   SeeAlso: Draft_Arc, Draft_Circle
+   Name/pl: Rysunek Roboczy: Łuk przez trzy punkty
+   MenuLocation: Kreślenie , Narzędzia łuku , Łuk przez trzy punkty
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   Shortcut: **A** **R**
+   Version: 0.7
+   SeeAlso: Draft_Arc/pl, Draft_Circle/pl
 ---
 
 # Draft Arc 3Points/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Draft Arc 3Points** command creates a circular arc in the current [working plane](Draft_SelectPlane.md) from three points that define its circumference. The center and radius are calculated from these points.
 
-A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** that is not the same as its **Last Angle**.
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> **Łuk przez trzy punkty** tworzy łuk kołowy w bieżącej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md) z trzech punktów, które definiują jego obwód. Środek i promień są obliczane na podstawie tych punktów.
+
+Łuk jest w rzeczywistości obiektem typu [okrąg](Draft_Circle/pl.md) z {{PropertyData/pl|kątem pierwszym}}, który nie jest taki sam jak jego {{PropertyData/pl|kąt drugi}}.
 
 <img alt="" src=images/Draft_Arc_3Points_example.png  style="width:400px;"> 
-*Arc defined by three points on its circumference*
+*Łuk zdefiniowany przez trzy punkty na jego obwodzie.*
 
-## Usage
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Arc_3Points.svg" width=16px> [Draft Arc 3Points](Draft_Arc_3Points.md)** button.
-    -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc by 3 points** option from the menu.
-    -   Use the keyboard shortcut: **A** then **T**. <small>(v0.20)</small> 
-2.  The **Arc by 3 points** task panel opens. See [Options](#Options.md) for more information.
-3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-4.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-5.  Pick the third point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
+## Użycie
 
-## Options
+Zapoznaj się również z informacjami na stronie: [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_Snap/pl.md) oraz [Wiązania](Draft_Constrain/pl.md).
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Arc_3Points.svg" width=16px> '''Łuk przez trzy punkty'''**.
+    -   Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc_3Points.svg" width=16px> Łuk przez trzy punkty**.
+    -   Użyj skrótu klawiaturowego: **A**, a następnie **T**. {{Version/pl|0.20}}.
+2.  Zostanie otwarty panel zadań **Łuk przez trzy punkty**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  W oknie [widoku 3D](3D_view/pl.md) wybierz pierwszy punkt lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+4.  Wybierz drugi punkt w okine [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+5.  Wybierz trzeci punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
 
-## Notes
 
--   A Draft Arc can be edited with the [Draft Edit](Draft_Edit.md) command.
+## Opcje
 
-## Preferences
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne są odniesione do ostatniego punktu, jeśli jest dostępny, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalne**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **N** lub kliknij pole wyboru **Kontynuuj**, aby włączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie uruchomi się ponownie po zakończeniu, umożliwiając dalsze tworzenie łuków. {{Version/pl|0.20}}
+-   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a non-editable [Part Feature](Part_Feature.md) instead of a Draft Circle.
 
-## Properties
 
-See [Draft Circle](Draft_Circle#Properties.md).
+## Uwagi
 
-## Scripting
+-   Szkic łuku można edytować za pomocą polecenia [Edycja](Draft_Edit/pl.md).
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a Draft Arc by 3 points use the `make_arc_3points` method of the Draft module:
+
+## Ustawienia
+
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
+
+-   Jeśli w oknie ustawień opcja **Edycja → Preferencje ... → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy nieedytowalną [cechę](Part_Feature/pl.md) środowiska Część, zamiast okręgu środowiska Rysunek Roboczy.
+
+
+
+## Właściwości
+
+Zobacz stronę [Rysunek Roboczy: Okrąg](Draft_Circle/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć **Łuk przez trzy punkty**, użyj metody `make_arc_3points` modułu Rysunek Roboczy:
 
 
 ```python
 arc = make_arc_3points(points, placement=None, face=False, support=None, map_mode="Deactivated", primitive=False)
 ```
 
--   Creates an `arc` object from the given `points` list.
--   If a `placement` is given, the center of the circular arc will be moved to this place. See [Placement](Placement.md) for more information.
--   If `face` is `True`, the arc will make a face, that is, it will appear filled.
--   If `support` is given, it is a `LinkSubList`, that is, a list indicating an object and a subelement of that object. This is used so that the object appears referenced to this support.
+-   Tworzy obiekt `łuk` z podanej listy `punktów`.
+-   Jeśli podano `umiejscowienie`, środek łuku kołowego zostanie przeniesiony do tego miejsca. Więcej informacji można znaleźć na stronie [Umiejscowienie](Placement/pl.md).
+-   Jeśli parametr `ściana` ma wartość {{True/pl}}, łuk utworzy twarz, czyli będzie wyglądał na wypełniony.
+-   Jeśli podano `podparcie`, jest to `LinkSubList`, czyli lista wskazująca obiekt i element podrzędny tego obiektu. Jest to używane w celu wyświetlenia obiektu z odniesieniem do tego wsparcia.
 
-:   For example: support=[(obj, ("Face1"))].
+:   Na przykład: support=[(obj, („Face1”))].
 
--   If `map_mode` is given, it is a string defining a type of mapping, for example: map_mode='FlatFace', map_mode='ThreePointsPlane', etc. See [Part EditAttachment](Part_EditAttachment.md) for more information.
--   If `primitive` is `True`, the arc created will be a simple [Part Feature](Part_Feature.md), not a complex Draft object.
+-   Jeżeli podano `map_mode`, jest to ciąg znaków określający rodzaj mapowania, na przykład: map_mode='FlatFace', map_mode='ThreePointsPlane' itp. Zobacz [Edycja dołaczenia](Part_EditAttachment/pl.md), aby uzyskać więcej informacji.
+-   Jeśli parametr `primitive` ma wartość {{True/pl}}, utworzony łuk będzie zwykłą [cechą](Part_Feature/pl.md) środowiska Część, a nie złożonym obiektem środowiska Rysunek Roboczy.
 
-Example:
+Przykład:
 
 
 ```python

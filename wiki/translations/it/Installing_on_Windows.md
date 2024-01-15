@@ -7,18 +7,19 @@
 
 
 
+
+
 ## Installazione Standard 
 
-Il modo più semplice per installare l\'ultima versione stabile di FreeCAD è di utilizzare l\'installer.
-
-
-{{DownloadWindowsStable}}
+Il modo più semplice per installare l\'ultima versione stabile di FreeCAD è di utilizzare l\'installer, vedere la pagina di [Download](Download/it.md).
 
 Se si desidera scaricare una versione di sviluppo, che potrebbe essere instabile, vedere la pagina [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
 Dopo aver scaricato l\'installer, fare doppio clic su di esso per avviare il processo di installazione.
 
 Più avanti sono riportate ulteriori informazioni sul alcune opzioni tecniche. Ma la maggior parte degli utenti necessita solo dell\'installer. Al termine dell\'installazione leggere la pagina [Per iniziare](Getting_started/it.md).
+
+
 
 ## Installazione per tutti gli utenti in ambiente Windows 
 
@@ -35,6 +36,8 @@ Se installato per tutti gli utenti, il percorso di default è:
 :   
     **C:\Program Files\FreeCAD X.YY**
     
+
+
 
 ## Installazione in modalità silente 
 
@@ -78,6 +81,8 @@ choco upgrade freecad
 }}
 
 Questo otterrà l\'ultima versione disponibile dal repository Chocolatey. In caso di problemi con il pacchetto Chocolatey, è possibile contattare i manutentori su [questa pagina](https://chocolatey.org/packages/freecad).
+
+
 
 ## Disinstallazione
 

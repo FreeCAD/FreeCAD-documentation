@@ -94,8 +94,12 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 ### Grid
 
--   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
--   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+-   **Show Grid**: Default Show Grid setting for new pages.
+-   **Grid Spacing**: Default distance between grid lines for new pages.
+
+### Selection
+
+-   **Enable Multiselection Mode**: If enabled, clicking without **Ctrl** does not clear the existing selection. <small>(v0.22)</small> 
 
 
 
@@ -161,6 +165,8 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <img alt="Preferenze per le annotazioni" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
 
+### Annotation
+
 
 <div class="mw-translate-fuzzy">
 
@@ -185,6 +191,16 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 
 </div>
+
+### Lines
+
+-   **Line Standard**: Standard to be used to draw section lines in [section views](TechDraw_SectionView.md).
+-   **Line Width Group**: A [LineGroup](TechDraw_LineGroup.md) to set the default line widths.
+-   **Hidden Line Style**: Style of hidden lines. <small>(v0.22)</small> 
+-   **Section Line Style**: Style for section lines.
+-   **Detail Highlight Style**: Line style of the outline shape for [detail views](TechDraw_DetailView.md).
+-   **Center Line Style**: Default style for [centerlines](TechDraw_FaceCenterLine.md).
+-   **Line End Cap Shape**: The default (round) should almost always be the right choice. Flat or square caps are useful if you are planning to use a drawing as a 1:1 cutting guide.
 
 
 

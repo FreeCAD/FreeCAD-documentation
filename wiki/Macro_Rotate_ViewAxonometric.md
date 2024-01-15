@@ -6,9 +6,9 @@
 |Author=Yorik
 |Version=01.00
 |FCVersion=All
-|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
+|Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png ToolBar Icon]
 |Date=2010-11-17
-|SeeAlso=[Macro_Rotate_View](Macro_Rotate_View.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">
+|SeeAlso=[Macro_Rotate_View](Macro_Rotate_View.md)
 }}
 
 ## Description
@@ -26,25 +26,23 @@ For use the two macros, copy the first macro and name it \"**Macro_Rotate_ViewAx
 
 Copy the second macro and name it \"**Macro_Rotate_ViewAxonometric_Z**\" (mode 2) and:
 
-comment the line 
+comment the line
 
+ 
 
-{{ColoredText|'''11''' **#rot.setValue(coin.SbVec3f(1,0,0),-math.pi/2) # Y pointing upwards (mode 1)** }}
-
- and uncomment the line 
+and uncomment the line
 
 
 {{ColoredText|'''12''' **rot.setValue(coin.SbVec3f(0,0,1),math.pi/2) # Z pointing upwards (mode 2 uncomment for use)** }}
 
 and use this icon ![axonometric view with Z pointing upwards](images/Macro_Rotate_View_with_Z_pointing_upwards_.png )
 
-
-
 ## Script
+
 -   mode 1 : ToolBar Icon ![](images/Macro_Rotate_View_with_Y_pointing_upwards_.png )
 -   mode 2 : ToolBar Icon ![](images/Macro_Rotate_View_with_Z_pointing_upwards_.png ) (uncomment for use)
 
-**Macro_Rotate_ViewAxonometric.FCMacro**
+ **Macro_Rotate_ViewAxonometric.FCMacro**
 
 
 {{MacroCode|code=

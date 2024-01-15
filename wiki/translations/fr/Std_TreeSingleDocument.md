@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std TreeSingleDocument
    Name/fr: Std Arborescence Document unique
-   MenuLocation: Affichage , Vue en arborescence , Document unique
+   MenuLocation: Affichage , Actions dans la vue en arborescence , Document unique
    Workbenches: Tous
    Version: 0.19
    SeeAlso: Std_TreeMultiDocument/fr, Std_TreeCollapseDocument/fr
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande **Std Document unique** bascule la [vue en arborescence](tree_view/fr.md) du mode Document (DocumentMode) au mode Document unique (SingleDocument). Dans ce mode, un seul document est visible dans l\'arborescence. Les autres modes sont [Arborescence Document multiple](Std_TreeMultiDocument/fr.md) et [Arborescence Réduire développer](Std_TreeCollapseDocument/fr.md).
+La commande **Std Document unique** bascule le mode Document de la [vue en arborescence](Tree_view/fr.md) au mode Document unique. Dans ce mode, un seul document est visible dans l\'arborescence. Les autres modes sont [Arborescence Tous les documents](Std_TreeMultiDocument/fr.md) et [Arborescence Réduire/développer](Std_TreeCollapseDocument/fr.md).
 
 En mode Document unique, vous pouvez basculer vers un autre document en activant une vue 3D appartenant à ce document. Vous pouvez le faire dans [Zone de vue principale](Main_view_area/fr.md) ou via le menu **Fenêtre** .
 
@@ -20,9 +20,9 @@ En mode Document unique, vous pouvez basculer vers un autre document en activant
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
+1.  Il existe plusieurs façons de lancer la commande :
     -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Document unique** dans le menu déroulant. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option **Affichage → Vue en arborescence → <img src="images/Std_TreeSingleDocument.svg" width=16px> Document unique** dans le menu.
+    -   Sélectionnez l\'option **Affichage → Actions dans la vue en arborescence → <img src="images/Std_TreeSingleDocument.svg" width=16px> Document unique** du menu.
 
 
 

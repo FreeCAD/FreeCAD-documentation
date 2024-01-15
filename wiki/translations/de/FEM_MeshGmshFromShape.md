@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM MeshGmshFromShape
    Name/de: FEM NetzGmshAusForm
-   MenuLocation: Netz , FEM Netz aus Form durch Gmsh
+   MenuLocation: Netz , FEM-Netz aus Form - Gmsh
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Für eine Finite-Elemente-Analyse muss die Geometrie in ein [FEM-Netz](FEM_Mesh/de.md) diskretisiert werden. Dieser Befehl verwendet das Programm [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (das auf dem System installiert sein muss) zur Berechnung des Netzes.
+Für eine Finite-Elemente-Analyse muss die Geometrie in ein [FEM-Netz](FEM_Mesh/de.md) diskretisiert werden. Dieser Befehl verwendet die Software [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (die auf dem System installiert sein muss) zum Erstellen des Netzes.
 
 Abhängig vom Betriebssystem und dem Installationspaket kann Gmsh in FreeCAD enthalten sein oder auch nicht. Für weitere Informationen siehe [FEM Installation](FEM_Install/de.md).
 
@@ -21,16 +21,18 @@ Abhängig vom Betriebssystem und dem Installationspaket kann Gmsh in FreeCAD ent
 
 ## Anwendung
 
-1.  Wähle die Form, die du analysieren möchtest. Bei der Volumen FEM muss es sich um einen Festkörper oder Compsolid (zusammengesetzten Festkörper) handeln. Ein Compsolid ist erforderlich, wenn dein Teil aus mehreren Materialien besteht. (Ein Compsolid kann mit dem Befehl [BoolescheFragmente](Part_BooleanFragments/de.md) erstellt werden).
-    -   Die Schaltfläche **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape/de.md)** drücken.
-    -   Den Menüeintrag **Netz → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** auswählen.
-2.  Bei Bedarf minimale und maximale Elementgröße anpassen. (Automatische Erkennung funktioniert gut, es sei denn, du wendest komplizierte Randbedingungen an).
-3.  Die Schaltfläche **Anwenden** anklicken und warten, bis die Berechnung des Netzes abgeschlossen ist.
+1.  Die Form auswählen, die analysiert werden soll. Bei der Volumen-FEM muss es sich um einen Festkörper oder Compsolid (zusammengesetzten Festkörper) handeln. Ein Compsolid ist erforderlich, wenn dein Teil aus mehreren Materialien besteht. (Ein Compsolid kann mit dem Befehl [BoolescheFragmente](Part_BooleanFragments/de.md) erstellt werden).
+    -   Die Schaltfläche **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM-Netz aus Form - Gmsh](FEM_MeshGmshFromShape/de.md)** drücken.
+    -   Den Menüeintrag **Netz → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM-Netz aus Form - Gmsh** auswählen.
+2.  Bei Bedarf minimale und maximale Elementgröße anpassen. (Automatische Erkennung erstellt oft Netze, die zu grob sind).
+3.  Die Schaltfläche **Anwenden** anklicken und warten, bis die Erstellung des Netzes abgeschlossen ist.
 4.  Die Aufgabe abschließen. Jetzt sollte sich ein neues FEMMeshGMSH-Objekt im aktiven Analysebehälter befinden.
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
+After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
 
-## Properties
+
+
+## Eigenschaften
 
 -    **Algorithm2D**: The algorithm to create 2D meshes. The different algorithms are [explained here](https://gmsh.info/doc/texinfo/gmsh.html#Choosing-the-right-unstructured-algorithm). For Delaunay, see [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation).
 
@@ -83,16 +85,18 @@ After the mesh has been crated you can change its properties using the [property
     -   true; linear interpolation is used
     -   false (default); curvilinear interpolation is used
 
-## Notes
+
+
+## Hinweise
 
 ### Nonpositive Jacobians 
 
-When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
+When you get a meshing error about nonpositive Jacobians, you can try out the following strategies:
 
 -   Set **Second Order Linear** to *true* but keep **Element Order** at *2nd*.
 -   Set **Element Order** to *1st*.
 -   Use a smaller element size by reducing the **Characteristic Length Max**.
--   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
+-   If solver ccxtools is used and the run button is used (not the task panel) the nodes of nonpositive jacobian elements will be green.
 
 ### Mesh Growth 
 
@@ -104,7 +108,7 @@ At edges and small geometric entities, the mesh has to be smaller than in areas 
 To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
-*Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
+*Sensible mesh growing due to the additional edge in the middle of the cylindrical area*
 
 ### Element Recombination 
 

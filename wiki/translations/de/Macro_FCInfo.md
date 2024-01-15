@@ -3,64 +3,41 @@
 |Name=Macro FCInfo
 |Icon=FCInfo.png
 |Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
-<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/ddfd2254616b8f3127e0d930abe0b322fa99ee6a/FCInfo_fr_Ver_1-27-rmu_Docked.FCMacro Version française]
+<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/da448b70d27ee82c496b04ffb68f5224c653bed1/FCInfo_fr_Ver_1-28c-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.27
-|Date=2023/06/30
+|Download=[https://wiki.freecad.org/images/5/53/FCInfo.png ToolBar Icon]
+|Version=1.28c
+|Date=2023/10/30
 |FCVersion=All
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br /> [Macro_SimpleProperties|<img src=images/Macro_SimpleProperties.png style="width:24px"> [Macro SimpleProperties](Macro_SimpleProperties.md)<br /> [<img src=images/Macro_FCInfoGlass.png style="width:24px"> [Macro FCInfoGlass](Macro_FCInfoGlass.md)
+|SeeAlso=[Arch Survey](Arch_Survey.md), [Macro SimpleProperties](Macro_SimpleProperties.md), [Macro FCInfoGlass](Macro_FCInfoGlass.md)
 }}
 
-## Description
 
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Gibt eine Reihe von Informationen über die ausgewählte Form und kann eine Umwandlung von Länge, Neigung (Grad, Bogenmaß, Neigung, Fließvermögen), Form, Oberfläche, Volumen und Gewicht der Form in der ausgewählten Dichte in verschiedenen Mengeneinheiten international und englisch anzeigen-Saxon.
+Gibt Informationen über die ausgewählte Form und kann eine Umwandlung von Länge, Neigung (Grad, Bogenmaß, Neigung, Prozent), Flächeninhalt, Volumen und Gewicht in unterschiedliche Einheiten (metrisch oder imperial) anzeigen. Das Makro arbeitet jetzt auch mit den Elementen einer Skizze im Bearbeitungsmodus.
 
 
-</div>
-
-
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/93362d69fe505714b80655756b2a3ba752767975/FCInfo_en_Ver_1-27-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/c18679d096d168133e6f9e914774b3ba06ff6dc9/FCInfo_en_Ver_1-28c-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
-## Use
 
 
-<div class="mw-translate-fuzzy">
+## Anwendung
 
-## Nutzung
-
-Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Objekt aus. Eine Reihe von Informationen wird angezeigt. Seine Berechnungen basieren auf der Einheit \"FreeCAD\", also \"mm\" für jede neue Auswahl. Die Längeneinheit wird immer auf \"mm\" und der Winkel auf Dezimalgrad zurückgesetzt. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width:200px;">
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Ein Objekt auswählen und die Anwendung starten oder zuerst die Anwendung starten und dann ein Objekt auswählen. Das Objekt wird analysiert und ein Dialog wird geöffnet, der die gesammelten Informationen anzeigt. Mit jeder neuen Auswahl wird die Längeneinheit auf **mm** zurückgesetzt und die Winkeleinheit auf **Dezimalgrad**. <img alt="window" src=images/Macro_FCInfo_06.png  style="width:900px;">
 
 
 
 
-**Sector 1: Document**
-
--   Dokumentname
--   Beschriftung des Objekts
--   Interner Name des Objekts
--   Unterelementname des Objekts
--   Typ des Objekts
 
 
-</div>
+### Abschnitt 1: Dokument 
 
-### Sector 1: Document 
-
-![FCInfo Document](images/Macro_FCInfo_Document_00.png )
+![FCInfo Dokument](images/Macro_FCInfo_Document_00.png )
 
 -   Document name
 -   Label and internal name of the object
@@ -68,23 +45,18 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 -   Sub element name and type of the object
 -   Type of the object
 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_001_Document** for hidden the Box)*
 
 
 
-<div class="mw-translate-fuzzy">
+### Abschnitt 2: Coordinates click mouse 
 
-**Sector 2: Coordinates click mouse**
-
--   Koordinaten X, Y und Z klicken Sie mit der Maus
--   Die Schaltfläche Erstellen auf Punkt, Achse, Ebene, Vektorachse erstellen *\'FreeCAD.Vector (-24.0, 240.0, 7.0)\'*
-
-
-</div>
-
-![FCInfo Coordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
+![FCInfo Koordinate](images/Macro_FCInfo_Coordinate_click_mouse_00.png )
 
 -   Coordinates X,Y and Z click to mouse
 -   The **button** creates point, axis, plane, copy vector axis from **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_002_Coordinate_Mouse** for hidden the Box)*
 
 ### Sector 3: Color on point 
 
@@ -102,7 +74,19 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 
 </div>
 
-### Sector 4: Units 
+### Sector 4: Components Mesh 
+
+![FCInfo Component Mesh](images/Componant_Mesh_v_1-28.png )
+
+If the selection is a mesh object one new window ***\"Components\"*** is displayed and gives:
+
+-   Edges : number of edges {{LineEdit|9561}}.
+-   Faces : number of faces {{LineEdit|6374}}.
+-   Points : number of points {{LineEdit|3189}}.
+
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_004_Object_Mesh** for hidden the Box)*
+
+### Sector 5: Units 
 
 ![FCInfo Units](images/Macro_FCInfo_Units_00.png )
 
@@ -115,7 +99,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 
 -   Perimeter of the shape (12). Perimeter of the object and number of subObject (Edges) contained in the object {{LineEdit|120.0 mm}}.
 
-### Sector 5: Inclination 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_005_Value_Unit** for hidden the Box)*
+
+### Sector 6: Inclination 
 
 ![FCInfo Inclination](images/Macro_FCInfo_Inclination_00.png )
 
@@ -124,7 +110,7 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
     -   degree minute seconde, ex: {{LineEdit|174° 49' 54.741401''}}
     -   radian, ex: {{LineEdit|3.05139181449 rad}}
     -   grade, ex: {{LineEdit|194.257636235 gon}}
-    -   pourcent, ex: 30° = {{LineEdit|57.74%}}
+    -   percent, ex: 30° = {{LineEdit|57.74%}}
 -   **Inclinations in planes XY, YZ, ZX** and their coordinates
 -   **Direction object**, {{LineEdit|Vector (0.0, 0.0, -10.0)}} give the direction of object. The calculate is : coord_1 - coord_2 = direction (or reverse)
     -   
@@ -142,7 +128,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
         
         this button create a line in NormalAt direction of the object.
 
-### Sector 6: Surface and Volume 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_006_Inclination** for hidden the Box)*
+
+### Sector 7: Surface and Volume 
 
 ![FCInfo Surface and Volume](images/Macro_FCInfo_Surface_and_Volume_00.png )
 
@@ -203,7 +191,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
         
         : save the modification or the new material
 
-### Sector 7: Cost 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_007_Surface_and_Volume** for hidden the Box)*
+
+### Sector 8: Cost 
 
 ![FCInfo Cost](images/Macro_FCInfo_Cost_00.png )
 
@@ -217,7 +207,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 
 {{SpinBox|10,0000 Eu (by Kg)}}
 
-### Sector 8: BoundBox 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_008_Cost_And_Price** for hidden the Box)*
+
+### Sector 9: BoundBox 
 
 ![FCInfo BoundBox](images/Macro_FCInfo_BoundBox_00.png )
 
@@ -247,7 +239,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 
     -   If the {{CheckBox|TRUE|Text Dim.}} is checked, the spinbox dimension of text {{SpinBox|3,000}} is operational for give your value *(3.0 by default)*
 
-### Sector 9: Center of: 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_009_BoundBox** for hidden the Box)*
+
+### Sector 10: Center of: 
 
 ![FCInfo Center of\...](images/Macro_FCInfo_Center_of_00.png )
 
@@ -255,7 +249,9 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 -   Center of mass and these coordinates XYZ
 -   The **buttons** creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)** *(see Sector 13)*
 
-### Sector 10: Inertia 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_010_Center_Mass** for hidden the Box)*
+
+### Sector 11: Inertia 
 
 ![FCInfo Inertia](images/Macro_FCInfo_Inertia_00.png )
 
@@ -271,20 +267,35 @@ same for length and weigth
 -   Determinant 1 : {{LineEdit|4629629629629.633}} computes the determinant of the matrix, in [scientific value](https://en.wikipedia.org/wiki/Scientific_notation)
 -   Determinant 2 : {{LineEdit|4629629629629.6328125}} computes the determinant of the matrix, in decimal value
 
-### Sector 11: Vertexes and details 
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_011_Inertia** for hidden the Box)*
+
+### Sector 12: SpreadSheet 
 
 ![FCInfo Disabled](images/Macro_FCInfo_Disabled_module_00.png )
 
 -    {{CheckBox|Disabled module}}CheckBox for search or not all details of the object. If it is not checked, only the principal value is displayed.
 
 -   Vertexes and details of the shape (compt_Edge), (compt_Faces), (compt_Vector of the Face)
-    max 200 lines in the table, if there are more than 200 lines it appears **(!+ 200)** and the number of lines
-    If the object is complicated with many objects, the time is long and the search is repeated with every mouse click. The write function in the spreadSheet included, decreases the display time for this it is disabled by default
-    (full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
 
-### Sector 12: SpreadSheet 
+-   Max 200 lines in the table, if there are more than 200 lines it appears **(!+ 200)** and the number of lines
+
+-   If the object is complicated with many objects, the time is long and the search is repeated with every mouse click. The write function in the spreadSheet included, decreases the display time for this it is disabled by default
+
+-   Full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other
+
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_012_SpreadSheet** for hidden the Box)*
+
+### Sector 13: SpreadSheet creation 
 
 ![FCInfo SpreedSheet](images/Macro_FCInfo_SpreedSheet_00.png )
+
+-    **SpreadSheet**: create a new spreadsheet in a document
+
+-    {{LineEdit|SpreadSheet}}: the current spreadsheet. if the spreadsheet does not exist one spreadsheet is created
+
+-    **Refresh**: refresh the list of spreadsheet in document
+
+-    {{ComboBox|-}}: the spreadsheet(s) present in document
 
 -    **Read**: read the data in a spreadsheet saved **.FCInfo** or txt, asc, csv
 
@@ -311,7 +322,7 @@ Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie
 
 </div>
 
-### Sector 13: Main 
+### Sector 14: Main tools 
 
 ![FCInfo Main](images/Macro_FCInfo_Main_00.png )
 
@@ -338,9 +349,15 @@ Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie
 
 -    {{SpinBox|12 (Dim. texte)}}: give the dimensionof text in the macro
 
+-    **Forum**: direction FCInfo forum tread *(you must to be connected to internet)*
+
+-    **Wiki**: direction Wiki FCInfo *(you must to be connected to internet)*
+
 -    **Ref**: refresh the display of data in report view
 
--    **Exit**: exit properly the macro
+-    **Exit**: exit properly the macro *(not use the red cross of the window)*
+
+*(you can checked to {{false}} the variable **switch_setVisible_GBox_014_Main_Tools** for hidden the Box)*
 
 
 <div class="mw-translate-fuzzy">
@@ -428,7 +445,7 @@ click twice to see the animation (the image must be in full screen)
 
 <center>
 
-Image:Macro FCInfo 02.png\|Understanding of angles in FCInfo display Image:Macro FCInfo 03.gif\|Understanding of angles in pourcent in FCInfo display
+Image:Macro FCInfo 02.png\|Understanding of angles in FCInfo display Image:Macro FCInfo 03.gif\|Understanding of angles in percent in FCInfo display
 click twice to see the animation (the image must be in full screen)
 
 
@@ -547,6 +564,27 @@ the \"spinBox\" is set to **7,5** kg, average density of steel. Wenn Sie einen a
     -   Create the Line info on point (0,0,0) or on point mouse clicked (x,y,z) if it is {{true}}
     -   If it is {{true}} one \'\*\' is displayed in front of text. EX: \'\*Direction\'
 
+This switch *(section GroupBox)* allows you to view only the desired section(s) (just visual) {{False}} or {{True}}.
+
+All calculations are done without taking account of this option
+
+-   section GroupBox begin
+    -   **switch_setVisible_GBox_001_Document** = True (1)
+    -   **switch_setVisible_GBox_002_Coordinate_Mouse** = True (1)
+    -   **switch_setVisible_GBox_003_Color** = True (1)
+    -   **switch_setVisible_GBox_004_Object_Mesh** = True (1)
+    -   **switch_setVisible_GBox_005_Value_Unit** = True (1)
+    -   **switch_setVisible_GBox_006_Inclination** = True (1)
+    -   **switch_setVisible_GBox_007_Surface_and_Volume** = True (1)
+    -   **switch_setVisible_GBox_008_Cost_And_Price** = True (1)
+    -   **switch_setVisible_GBox_009_BoundBox** = True (1)
+    -   **switch_setVisible_GBox_010_Center_Mass** = True (1)
+    -   **switch_setVisible_GBox_011_Inertia** = True (1)
+    -   **switch_setVisible_GBox_012_SpreadSheet** = True (1)
+    -   **switch_setVisible_GBox_013_SpreadSheet_Creation** = True (1)
+    -   **switch_setVisible_GBox_014_Main_Tools** = True (1)
+-   section GroupBox end
+
 
 
 
@@ -650,6 +688,10 @@ Zuordnung eines Stoffes zu seiner Dichte ~~Neigung auf das Element und nicht auf
 
 ## Version
 
+ver 1.28b 1.28c 2023/10/30 orthographe
+
+ver 1.28 01/09/2023 modify variable name, possibility hidden each sector, save data spreadSheet in document, surface radius, add button webWiki and webForum
+
 ver 1.27 2023/06/30 optimize the styleSheet, correct the left/right position and restore view after edition sketcher 
 ```python
             self.PB_00_Decrement.setStyleSheet("background-color: white; border:2px solid rgb(215, 10, 22);")      # bord white and red
@@ -709,7 +751,12 @@ self.window.hide()
 ``` and i adding the possibility display or not the \"Error Message\" window \"False\" by default, if you wand activate the warning window go to : 
 ```python
 FreeCAD >Menu >Tools >Edit parameters... >BaseApp/Preferences/Macros/FCMmacros/FCInfo > switchWarning
-``` currently:
+```
+
+
+<div class="mw-translate-fuzzy">
+
+currently:
 \*ver 1.21-3.01 , 07/11/2019 \# 07/11/2019 ver \"01.21-3-rmu\" replace character micro = \"U\", square = \"2\", cube = \"3\", degrees = \" deg\" see \"<https://forum.freecadweb.org/viewtopic.php?f=3&t=6005&start=70#p345819>\"
 
 -   ver 1.21.01 (1.21-rmu) 30/05/2019 rmu change fixed positions to qt layouts grid.addWidget() by rmu75 see the rmu75 fork \"<https://gist.github.com/rmu75/b165147bd1c2f2659c014103793ae1d8>\"
@@ -739,6 +786,10 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 \*ver 1.03 , 09/09/2013: clearer display in view report and replacement by \"typeObject = sel\[0\].Shape.ShapeType\"
 \*ver 1.02 , 7/09/2013 : small updates
 \*ver 1.00 , 6/09/2013
+
+
+</div>
+
 
 
 

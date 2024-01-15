@@ -11,19 +11,10 @@
 # TechDraw Quadrants/pl
 
 
-</div>
-
-
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Dodaj wierzchołki kwadrantu** dodaje trzy [wierzchołki kosmetyczne](TechDraw_CosmeticVertex/pl.md) wzdłuż jednej lub więcej wybranych krawędzi. Wierzchołki są umieszczane na 25%, 50% i 75% długości. Dla okrągłej krawędzi daje to kosmetyczne wierzchołki pod kątem 90°, 180° i 270°, oprócz geometrycznego wierzchołka pod kątem 0°.
-
-
-</div>
+Narzędzie **Dodaj wierzchołki kwadrantu** dodaje trzy [wierzchołki kosmetyczne](TechDraw_CosmeticVertex/pl.md) wzdłuż jednej lub więcej wybranych krawędzi. Wierzchołki są umieszczane na 25%, 50% i 75% długości krawędzi. Dla okrągłej krawędzi daje to kosmetyczne wierzchołki pod kątem 90°, 180° i 270°, oprócz geometrycznego wierzchołka pod kątem 0°.
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Wierzchołki pomocnicze w punktach ćwiartki okręgu.*
@@ -32,20 +23,17 @@ Narzędzie **Dodaj wierzchołki kwadrantu** dodaje trzy [wierzchołki kosmetyczn
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz jedną lub więcej krawędzi w widoku. Można wybrać dowolną krawędź, nie tylko okręgi.
-2.  Naciśnij przycisk **<img src="images/TechDraw_Quadrants.svg" width=16px> Dodaj wierzchołki kwadrantu**.
-3.  Kosmetyczne wierzchołki zostaną dodane w ćwiartkach krawędzi.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_Quadrants.svg" width=16px> '''Dodaj wierzchołki kwadrantu'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj wierzchołki → <img src="images/TechDraw_Quadrants.svg" width=16px> Dodaj wierzchołki kwadrantu**.
 
 
-</div>
 
-## Notes
+## Uwagi
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Utworzone wierzchołki kosmetyczne nie są parametrycznie powiązane z wybranymi krawędziami.
+-   Aby usunąć wierzchołek kosmetyczny należy użyć narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
 
 
 

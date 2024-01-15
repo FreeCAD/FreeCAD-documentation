@@ -1,29 +1,35 @@
 ---
  GuiCommand:
-   Name/de: Netz FülleInteraktivesLoch
-   MenuLocation: Polygonnetze , Schließe Loch
+   Name: Mesh FillInteractiveHole
+   Name/de: Mesh LochInteraktivSchließen
+   MenuLocation: Netze , Loch schließen
    Workbenches: Mesh_Workbench/de
    SeeAlso: Mesh_FillupHoles/de, Mesh_AddFacet/de
 ---
 
 # Mesh FillInteractiveHole/de
 
+
+
 ## Beschreibung
 
-Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in Polygonnetzobjekten.
+Der Befehl **Mesh LochInteraktivFüllen** füllt ausgewählte Löcher in Netzobjekten.
+
+
 
 ## Anwendung
 
-1.  Es gibt verschiedene Wege zum Aufruf des Befehls:
-    -   Drücke die Schaltfläche **<img src="images/Mesh_FillInteractiveHole.svg" width=16px>.[Mesh FülleInteraktivesLoch](Mesh_FillInteractiveHole/de.md)
-**
-    -   Wähle die **Netze → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Loch schließen** Option aus dem Menü.
-2.  Der Cursor ändert sich in ein Dreieckssymbol.
-3.  Wähle eine Fläche aus, die eine Kante mit dem Loch teilt, das du schließen möchtest.
-4.  Die Bohrung wird geschlossen.
-5.  Wiederhole dies optional, um weitere Löcher zu schließen.
-6.  Bei Bedarf kannst du [Std Rückgängig](Std_Undo/de.md) verwenden um die letzte Handlung des Befehls rückgängig zu machen.
-7.  Wähle die **Lochfüllungsmodus verlassen** Option aus dem [3D Ansicht](3D_view/de.md) Kontextmenü, um den Befehl zu beenden.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_FillInteractiveHole.svg" width=16px>.[Loch schließen](Mesh_FillInteractiveHole/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Loch schließen** auswählen.
+2.  Der Mauszeiger ändert sich in ein Dreieckssymbol.
+3.  Eine Fläche auswählen, die eine Kante mit dem Loch teilt, das geschlossen werden soll.
+4.  Das Loch wird geschlossen.
+5.  Wahlweise wiederholen, um weitere Löcher zu schließen.
+6.  Bei Bedarf [Std Rückgängig](Std_Undo/de.md) verwenden, um die letzte Aktion des Befehls rückgängig zu machen.
+7.  Die Option **Löcher-Schließen-Modus verlassen** aus dem Kontextmenü der [3D-Ansicht](3D_view/de.md) auswählen, um den Befehl zu beenden.
+
+
 
 ## Hinweise
 

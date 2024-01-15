@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -24,6 +26,8 @@ Este comando colocará un objeto Proxy de Plano alineado con el actual [Plano tr
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
 *Tres proxies de planos de trabajo que muestran diferentes orientaciones y rellenos*
+
+
 
 ## Utilización
 
@@ -58,6 +62,8 @@ For a Draft WorkingPlaneProxy these additional options are available in the [Tre
 
 
 </div>
+
+
 
 ## Propiedades
 
@@ -99,6 +105,8 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 -    **Arrow Size|Length**: specifies the size of the arrow symbols displayed at the tip of the three axes.
 
 -    **Display Size|Length**: specifies the length and width of the working plane proxy.
+
+
 
 ## Guión
 

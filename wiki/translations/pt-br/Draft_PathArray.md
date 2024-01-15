@@ -27,7 +27,7 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 1.  Select the object you wish to array.
 2.  Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_PathArray.svg" width=16px> [Draft PathArray](Draft_PathArray.md)** button.
+    -   Press the **<img src="images/Draft_PathArray.svg" width=16px> [Path array](Draft_PathArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
 4.  The array is created.
 5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).

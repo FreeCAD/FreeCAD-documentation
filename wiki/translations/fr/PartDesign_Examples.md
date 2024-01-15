@@ -38,8 +38,7 @@ Par défaut, il s\'agit de la direction normale du plan contenant le contour (pl
 ++++
 | **Prisme régulier**   | <img alt="Regular Prism/fr" src=images/PartDesign_ExamplePad-04.png  style="width:200px;"> | -   Contour : **hexagone**.                                       |
 ++++
-| **‎Pyramide            | <img alt="Wedge/fr" src=images/PartDesign_ExamplePad-05.png  style="width:200px;">                 | -   Contour : **triangle**.                                       |
-| tronquée**            |                                                                                   |                                                                   |
+| **‎Pyramide tronquée** | <img alt="Wedge/fr" src=images/PartDesign_ExamplePad-05.png  style="width:200px;">                 | -   Contour : **triangle**.                                       |
 ++++
 
 
@@ -250,23 +249,25 @@ La transformation nécessite une attention particulière car elle peut produire 
 #### Mode d\'orientation 
 
 ++++
-| Paramètre      | Vue iso                                                                                                          | Vue de dessus                                                                                                           |
-+================+==================================================================================================================+=========================================================================================================================+
-| **Standard**   | <img alt="Vue iso standard" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                           | <img alt="Vue de dessus standard" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                      |
-|                |                                                                                                                  |                                                                                                                         |
-|                | :   L\'emplacement et l\'orientation suivent la trajectoire.                                                     | :   (Si l\'objet est tordu d\'une manière inattendue, essayez Frenet)                                                   |
+| Paramètre      | Vue iso                                                                                                                            | Vue de dessus                                                                                                                                           |
++================+====================================================================================================================================+=========================================================================================================================================================+
+| **Standard**   | <img alt="Vue iso standard" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                                             | <img alt="Vue de dessus standard" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                                      |
+|                |                                                                                                                                    |                                                                                                                                                         |
+|                | :   L\'emplacement et l\'orientation suivent la trajectoire.                                                                       | :   (Si l\'objet est tordu d\'une manière inattendue, essayez Frenet)                                                                                   |
 ++++
-| **Figé**       | <img alt="Vue iso figée" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">                                 | <img alt="Vue de dessus figée" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                            |
-|                |                                                                                                                  |                                                                                                                         |
-|                | :   L\'emplacement suit la trajectoire et l\'orientation reste la même que la forme de base.                     | :   Cela a tendance à provoquer des auto-intersections qui entraînent d\'autres erreurs : une face fantôme dans ce cas. |
+| **Figé**       | <img alt="Vue iso figée" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">                                                   | <img alt="Vue de dessus figée" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                                                            |
+|                |                                                                                                                                    |                                                                                                                                                         |
+|                | :   L\'emplacement suit la trajectoire et l\'orientation reste la même que la forme de base.                                       | :   Cela a tendance à provoquer des auto-intersections qui entraînent d\'autres erreurs : une face fantôme dans ce cas.                                 |
 ++++
-| **Frenet**     | <img alt="Vue iso de Frenet" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                         | <img alt="Vue de dessus de Frenet" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                    |
-|                |                                                                                                                  |                                                                                                                         |
-|                | :   L\'emplacement et l\'orientation suivent la trajectoire, sur la base d\'un algorithme différent du standard. | :   La forme de base suit l\'orientation de la ligne.                                                                   |
+| **Frenet**     | <img alt="Vue iso de Frenet" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                                           | <img alt="Vue de dessus de Frenet" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                                    |
+|                |                                                                                                                                    |                                                                                                                                                         |
+|                | :   L\'emplacement et l\'orientation suivent la trajectoire, sur la base d\'un algorithme différent du standard.                   | :   La forme de base suit l\'orientation de la ligne.                                                                                                   |
 ++++
-| **Auxiliaire** |                                                                                                                  |                                                                                                                         |
+| **Auxiliaire** | <img alt="Auxiliary iso view" src=images/PartDesign_ExampleProperty-11.png  style="width:200px;">                                         | <img alt="Auxiliary top view" src=images/PartDesign_ExampleProperty-12.png  style="width:200px;">                                                              |
+|                |                                                                                                                                    |                                                                                                                                                         |
+|                | :   L\'emplacement suit la trajectoire avec une torsion autour de celle-ci qui est contrôlée par une courbe auxiliaire (en bleue). | :   (Il est difficile à reconnaître, mais il y a un angle entre les plans de la courbe auxiliaire et la trajectoire qui est responsable de la torsion.) |
 ++++
-| **Binormale**  |                                                                                                                  |                                                                                                                         |
+| **Binormale**  |                                                                                                                                    |                                                                                                                                                         |
 ++++
 
 

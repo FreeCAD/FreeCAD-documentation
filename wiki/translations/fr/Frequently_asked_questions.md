@@ -47,6 +47,12 @@ Tous ces composants et la manière appropriée de les installer sont listés sur
 
 
 
+### Problèmes connus spécifiques aux systèmes d\'exploitation 
+
+Vous trouverez les problèmes connus spécifiques aux systèmes d\'exploitation sur ce [fil de forum (en)](https://forum.freecad.org/viewtopic.php?t=30573).
+
+
+
 ### FreeCAD ne démarre pas du tout 
 
 Il peut y avoir de nombreuses raisons à cela, la plus probable est que certaines bibliothèques sont manquantes. Essayez de démarrer FreeCAD à partir d\'un terminal (saisir {{SystemInput|freecad}} après le prompt, {{SystemInput|FreeCAD}} sur certains systèmes) pour voir si un message d\'erreur apparaît. Lisez aussi le reste de cette FAQ car cela peut vous donner divers indices pour détecter la cause du problème. Si rien n\'y fait, parlez en sur le [forum](http://forum.freecadweb.org/), il y aura sûrement quelqu\'un qui pourra vous aider.
@@ -269,7 +275,7 @@ C\'est un problème très difficile à surmonter ([Topological Naming Project](T
 
 Il existe de nombreuses façons d\'aider, même si vous n\'êtes pas programmeur. Voici quelques actions que vous pouvez effectuer:
 
--   Donner des commentaires aux développeurs FreeCAD: il est toujours utile de savoir ce que les gens pensent, ce qu\'ils ont trouvé bon, ce qu\'ils manquent, etc. Déposez une note sur le [forum](https://forum.freecadweb.org/) donnant votre opinion ou faites une demande sur notre [issue tracker](https://tracker.freecadweb.org/main_page.php)!
+-   Donner des commentaires aux développeurs FreeCAD: il est toujours utile de savoir ce que les gens pensent, ce qu\'ils ont trouvé bon, ce qu\'il leur manque, etc. Déposez une note sur le [forum](https://forum.freecadweb.org/) donnant votre opinion ou faites une demande sur notre [issue tracker](https://tracker.freecadweb.org/main_page.php)!
 -   Aider à la rédaction de la documentation: la documentation que nous avons ici sur ce site est parfois très limitée. Si vous avez découvert quelque chose qui n\'est pas bien documenté, ajoutez-y vos connaissances!
 -   Aider les autres nouveaux arrivants: traînez sur le forum et aidez de nouvelles personnes à résoudre des questions de base, comme comment installer, comment ajouter un cube, etc.
 -   [Traduire la documentation](Help_FreeCAD/fr#Traduire_la_documentation.md) dans votre propre langue

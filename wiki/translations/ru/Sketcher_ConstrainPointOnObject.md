@@ -11,6 +11,9 @@
 # Sketcher ConstrainPointOnObject/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -52,10 +55,16 @@
 Страница [Sketcher scripting](Sketcher_scripting/ru.md) показывает, как узнать номер, определяющий линии и точки?
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

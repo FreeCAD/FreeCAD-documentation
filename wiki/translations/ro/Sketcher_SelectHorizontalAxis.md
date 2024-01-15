@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Selectează axa orizontală a schiței.
+
+
+</div>
 
 
 

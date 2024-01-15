@@ -65,8 +65,8 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> a solver
 2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:24px;"> a material
-3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> a fixed constraint
-4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> a force constraint
+3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:24px;"> a fixed boundary condition
+4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:24px;"> a force load
 5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:24px;"> a FEM mesh
 
 -   In this example, results <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;"> are already included as well.
@@ -98,7 +98,7 @@ This example is meant to show how a simple Finite Element Analysis (**FEA**) in 
 
 -   In the [tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;">.
 -   In the [task panel](Task_panel.md) of the solver object make sure static analysis is selected.
--   Click on **write .inp file** in the same task window. Watch the log window until it prints \"write completed.\"
+-   Click on **Write .inp file** in the same task window. Watch the log window until it prints \"write completed.\"
 -   Click on **Run CalculiX**. Since this is a very small analysis it should take less than a second to run.
 -   In the text window it should print in green letters \"CalculiX done without error!\" and in the next line \"loading result sets \...\"
 -   You just have finished your first FEA in FreeCAD if there has not been any error message.

@@ -1,63 +1,45 @@
 ---
  GuiCommand:
    Name: Draft Snap WorkingPlane
-   Name/it:  Limita al piano di lavoro
-   MenuLocation: Draft , Draft Snap/it ,  Piano di lavoro
+   Name/it:  Aggancia Piano di lavoro
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: 
    SeeAlso: Draft Snap/it, Draft SelectPlane/it
 ---
 
 # Draft Snap WorkingPlane/it
 
 
-</div>
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px;"> **Draft Aggancia Piano di lavoro** proietta i punti di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente. Può essere utilizzato solo in combinazione con un\'altra opzione di aggancio.
 
-<div class="mw-translate-fuzzy">
-
-Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Draft_SelectPlane/it.md), anche se si utilizza anche un altro metodo di aggancio e si seleziona un punto al di fuori di questo piano di lavoro.
-
-
-</div>
-
-![](images/Draft_Snap_WorkingPlane_example.png )
+![](images/Draft_Snap_WorkingPlane_example.png ) 
+*Aggancio del secondo punto di una linea all'estremità proiettata di un bordo*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio del secondo punto di una linea a un estremo di un bordo di un corpo, che viene poi proiettato sul piano di lavoro XY*
-
-
-</div>
 
 ## Utilizzo
 
 
 {{Draft Tools navi/it}}
 
+1.  Facoltativamente modificare il [piano di lavoro](Draft_SelectPlane/it.md).
+2.  Assicurarsi che l\'aggancio sia abilitato. Vedi <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+3.  Se **Draft Aggandio Piano di lavoro** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** nella barra degli strumenti di aggancio di Draft.
+    -   Premere il pulsante **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px>** nel [Draft snap widget](Draft_snap_widget/it.md).
+4.  Assicurarsi che almeno un\'altra opzione di aggancio sia attiva.
+5.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+6.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+7.  Spostare il cursore sull\'oggetto a cui ci si vuole agganciare.
+8.  L\'oggetto viene evidenziato.
+9.  Se viene trovato un punto di aggancio, viene proiettato sul [piano di lavoro](Draft_SelectPlane/it.md) dove viene contrassegnato.
+10. Fare clic per confermare il punto.
 
-<div class="mw-translate-fuzzy">
+ {{Userdocnavi/it}}
 
-1.  Accertarsi che il piano di lavoro sia impostato con **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano di lavoro](Draft_SelectPlane/it.md)**.
-2.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Piano di lavoro](Draft_Snap_WorkingPlane/it.md)** siano attivati.
-3.  Facoltativamente, attivare qualsiasi altro metodo di [Aggancio](Draft_Snap/it.md).
-4.  Scegliere uno strumento Draft per disegnare una forma.
-5.  Spostare il cursore su qualsiasi linea, bordo, vertice o oggetto, come si farebbe con altri metodi di aggancio.
-6.  Un piccolo cerchio bianco indica il punto sul piano di lavoro a cui sarà collegato il nuovo punto.
-7.  Cliccare per agganciare e attaccare il nuovo punto.
-
-
-</div>
-
-
-{{Userdocnavi/it}}
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

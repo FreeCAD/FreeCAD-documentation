@@ -1,23 +1,28 @@
 ---
  GuiCommand:
    Name: Fasteners MatchTypeOuter
-   MenuLocation: Fasteners , Match for pass hole
-   Workbenches: Fasteners_Workbench
-   SeeAlso: Fasteners_MatchTypeInner
+   Name/pl: Elementy złączne: Dopasowanie otworu jako przelotowego
+   MenuLocation: Elementy złączne , Match for pass hole
+   Workbenches: Fasteners_Workbench/pl
+   SeeAlso: Fasteners_MatchTypeInner/pl
 ---
 
 # Fasteners MatchTypeOuter/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Fasteners MatchTypeOuter** command behaves as a toggle with the [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) command. When **Fasteners MatchTypeOuter** is selected, circular edges are considered to be pass holes when new fasteners are attached to them. This determines the default dimensions of those fasteners. This setting is not used for countersunk screws.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Match for pass hole](Fasteners_MatchTypeOuter.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match for pass hole** option from the menu.
-2.  The button stays depressed to indicate the selected option.
+Polecenie <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Dopasowanie otworu jako przelotowego** zachowuje się jak przełącznik z poleceniem [Dopasowanie otworu pod gwint](Fasteners_MatchTypeInner/pl.md). Gdy wybrane jest polecenie **Dopasowanie otworu jako przelotowego**, okrągłe krawędzie są uważane za otwory przelotowe, gdy dołączane są do nich nowe elementy złączne. Określa to domyślne wymiary tych elementów złącznych. To ustawienie nie jest używane dla śrub z łbem stożkowym.
+
+
+
+## Użycie
+
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> '''Dopasowanie otworu jako przelotowego'''**.
+    -   Wybierz opcję z menu **Elementy złączne → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Dopasowanie otworu jako przelotowego**.
+2.  Przycisk pozostanie wciśnięty, aby wskazać wybraną opcję.
 
 
 

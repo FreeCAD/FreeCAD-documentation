@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_DressupTag.svg  style="width:24px;"> [Attaches](Path_DressupTag/fr.md) ajoute au parcours existant (généralement un parcours de découpe de contour 2D) un certains nombres d\'attaches qui maintiennent la pièce en place. Sans elles, une partie (qui n\'est pas fixée à la base) risque de s\'envoler de manière incontrôlable lors de la coupe finale. Les attaches sont destinées à être cassées à la main (ou à l'aide d'un ciseau) puis ébarbées à la lime.
+L\'outil <img alt="" src=images/Path_DressupTag.svg  style="width:24px;"> [Attache](Path_DressupTag/fr.md) ajoute au parcours existant (généralement un parcours de découpe de contour 2D) un certains nombres d\'attaches qui maintiennent la pièce en place. Sans elles, une partie (qui n\'est pas fixée à la base) risque de s\'envoler de manière incontrôlable lors de la coupe finale. Les attaches sont destinées à être cassées à la main (ou à l'aide d'un ciseau) puis ébarbées à la lime.
 
 Une vidéo expliquant cette fonctionnalité est disponible à l\'adresse suivante : <https://www.youtube.com/watch?v=JZ4prlR6sps>
 

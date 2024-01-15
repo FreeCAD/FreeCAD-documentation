@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -14,6 +16,8 @@ Definisce un calore generato internamente e ceduto in W/kg (non J/m³). Per magg
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -35,11 +39,18 @@ Definisce un calore generato internamente e ceduto in W/kg (non J/m³). Per magg
 
 ## Notes
 
--   This constraint works only with the Elmer solver.
+-   This feature works only with the Elmer solver.
 -   For more information see [this forum thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=44705&start=490#p422539) and following posts. [This thread](https://forum.freecadweb.org/viewtopic.php?f=18&t=28926) may also be useful.
 -   Elmer examples can also be found in [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf).
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

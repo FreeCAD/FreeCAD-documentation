@@ -20,11 +20,11 @@ In questo tutorial aggiungeremo a FreeCAD l\'equazione di flusso e implementerem
 
 The task can be split into five parts:
 
--   **New equation type**. This step must only be done if the equation doesn\'t exist in FreeCAD yet (as opposed to a equation that is already in FreeCAD but not supported by the target solver).
--   **New equation object**. Adding a concrete document object representing the elmer specific equation.
--   **Extend solver object**. Adding support for the new equation to the solver object of elmer.
--   **Extend writer object**. Extending the analysis export of elmer to support the new equation type.
--   **Gui tool to create a equation**. Access the new equation function through workbench Gui.
+-   **New equation type**. This step must only be done if the equation doesn\'t exist in FreeCAD yet (as opposed to an equation that is already in FreeCAD but not supported by the target solver).
+-   **New equation object**. Adding a concrete document object representing the Elmer-specific equation.
+-   **Extend solver object**. Adding support for the new equation to the solver object of Elmer.
+-   **Extend writer object**. Extending the analysis export of Elmer to support the new equation type.
+-   **Gui tool to create an equation**. Access the new equation function through workbench Gui.
 
 ## New equation type 
 
@@ -33,9 +33,9 @@ In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
 
-The equation type is shared among all equation objects of the different solver. Each type has a string specifier (e.g. \"Heat\") and a dedicated command that adds the equation to the selected solver. This allows for a simpler GUI where we have only one button for the heat equation which is used for all supported solver.
+The equation type is shared among all equation objects of the different solvers. Each type has a string specifier (e.g. \"Heat\") and a dedicated command that adds the equation to the selected solver. This allows for a simpler GUI where we have only one button for the heat equation which is used for all supported solver.
 
-First add the new equation to the {{Incode|equationbase.py}} module. Each equation requires two classes. A document proxy and a view proxy. Those two classes will later be used as base classes for the Elmer specific equation classes. Just copy-paste them from an existing equation type and adjust the icon path inside {{Incode|getIcon(self)}} of the view proxy.
+First, add the new equation to the {{Incode|equationbase.py}} module. Each equation requires two classes. A document proxy and a view proxy. Those two classes will later be used as base classes for the Elmer-specific equation classes. Just copy-paste them from an existing equation type and adjust the icon path inside {{Incode|getIcon(self)}} of the view proxy.
 
 
 ```python
@@ -49,7 +49,7 @@ class FlowViewProxy(BaseViewProxy):
 
 ## New Elmer\'s equation object 
 
-In this step we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at:
+In this step, we are going to implement the document object. We need to add a new {{Incode|flow.py}} file at:
 
 -    **src/Mod/Fem/femsolver/elmer/equations/flow.py**
     
@@ -100,11 +100,11 @@ class ViewProxy(nonlinear.ViewProxy, equationbase.'''Flow'''ViewProxy):
 
 Then you need to change the properties added via the {{Incode|obj.addProperty(..)}} function to those needed by the equation.
 
-At the moment of writing this tutorial Elmer flow equation doesn\'t have any special properties. See Elmer elasticity equation for an example with properties.
+At the moment of writing this tutorial Elmer flow equation doesn\'t have any special properties. See the Elmer elasticity equation for an example with properties.
 
 Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mod/Fem/ObjectsFem.py}} by duplicating an available entry.
 
-FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation modules files of Elmer.
+FreeCAD uses **make** to build the program. So we need to register the new module file ({{Incode|flow.py}}) in {{Incode|src/Mod/Fem/CMakeLists.txt}} the way described in [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). The suitable lists can be easily found by searching for existing equation module files of Elmer.
 
 ## Extend Solver Object 
 
@@ -113,7 +113,7 @@ In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/elmer/solver.py**
     
 
-Right now we made FreeCAD aware that there is a new type of equation and even added a command that adds this equation to the selected solver object. We also implemented a concrete equation object for Elmer. Whats left to do now is to make the connection between Elmer and the flow equation. This must be done directly in Elmer solver object.
+Right now we made FreeCAD aware that there is a new type of equation and even added a command that adds this equation to the selected solver object. We also implemented a concrete equation object for Elmer. What\'s left to do now is to make the connection between Elmer and the flow equation. This must be done directly in the Elmer solver object.
 
 Register the module in which we just implemented our new equation object ({{Incode|flow.py}}) with the equation specifier from step 1 (\"Flow\") in the {{Incode|_EQUATIONS}} list in {{Incode|elmer/solver.py}}.
 
@@ -140,7 +140,7 @@ In this step we are going to modify the following file:
 
 This file contains the {{Incode|Writer}} class which exports the analysis into Elmer SIF format.
 
-For every supported equation there are two main methods handling the export of the respective equation. Just copy all of them from an existing equation and adjust them to your needs.
+For every supported equation, there are two main methods handling the export of the respective equation. Just copy all of them from an existing equation and adjust them to your needs.
 
 -    {{Incode|_getFlowSolver}}
     
@@ -182,7 +182,7 @@ can control a series of other detailed methods. Our flow equation uses the follo
 -    {{Incode|_handleFlowEquation}}
     
 
-We now finished the function part of the new equation. Next we\'ll connect the new equation through the GUI.
+We now finished the function part of the new equation. Next, we\'ll connect the new equation through the GUI.
 
 ## Gui tool to create an equation 
 

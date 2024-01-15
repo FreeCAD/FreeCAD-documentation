@@ -1,5 +1,5 @@
 # Manual:Creating renderings/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 In der Computersprache wird das Wort [Bildsynthese](https://de.wikipedia.org/wiki/Bildsynthese) (engl.: rendering) verwendet, um ein schönes Bild zu beschreiben, das aus einem 3D Modell erzeugt wurde. Natürlich könnten wir sagen, dass das, was wir in der FreeCAD 3D Ansicht sehen, bereits schön ist. Jeder, der kürzlich einen Hollywoodfilm gesehen hat, weiß jedoch, dass es möglich ist, mit einem Computer Bilder zu erzeugen, die von einem Foto fast nicht zu unterscheiden sind.
 

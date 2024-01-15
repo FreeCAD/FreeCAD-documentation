@@ -60,7 +60,7 @@ Neben den Werkzeugen in der Symbolleiste sind auch die folgenden Funktionen im M
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Makros werden in einem bestimmten Ordner unter dem FreeCAD Benutzerverzeichnis erstellt. Dieses Verzeichnis kann im [Makrodialog ausführen](Std_DlgMacroExecute/de.md), oder im [Einstellungseditor](Preferences_Editor/de.md), über das Menü **Bearbeiten → Einstellungen → Allgemein →  Makro → Makro Aufnahme Einstellungen**.
+Makros werden in einem bestimmten Ordner im FreeCAD-Verzeichnis des Benutzers erstellt. Dieses Verzeichnis kann im Dialogfenster [Makro ausführen](Std_DlgMacroExecute/de.md) oder im [Voreinstellungseditor](Preferences_Editor/de.md) über das Menü **Bearbeiten → Einstellungen → Python →  Makro → Einstellungen für Makroaufzeichnung** angepasst werden.
 
 Heruntergeladene Makros sollten ebenfalls in diesem Verzeichnis abgelegt werden.
 
@@ -542,7 +542,7 @@ FreeCAD muss möglicherweise so konfiguriert werden, dass die Ausgabe der [Pytho
 ![](images/Macro_Install_HowTo_35.png ) 
 *align=center|In den Voreinstellungseditor wechseln*
 
-2\. Zum Abschnitt **Allgemein** wechseln, und dann zu **Ausgabefenster → Python Interpreter**.
+2\. Zum Abschnitt **Python** wechseln, und dann zu **Ausgabefenster → Python Interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Einstellungen des Ausgabefensters*

@@ -45,10 +45,7 @@ Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench
 
 9.  Cliquez sur **Annuler** pour quitter le panneau de tâches.
 
-:   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/StirrupDialog.png  style="width:250px;"> 
 *Panneau d'affichage des tâches de l'outil Armature en étrier*
 
 

@@ -5,7 +5,9 @@ In FreeCAD wird das Wort \"[Körper](Body/de.md)\" normalerweise verwendet, um s
 
 Siehe [PartDesign Körper](PartDesign_Body/de.md) für weitere Informationen über diesen Objekttyp.
 
-## Verwendung
+
+
+## Anwendung
 
 1.  Wechsle zum [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
 2.  Drücke **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
@@ -14,6 +16,8 @@ Siehe [PartDesign Körper](PartDesign_Body/de.md) für weitere Informationen üb
 5.  Füge weitere Skizzen und Polster hinzu, und verwende andere Werkzeuge des [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um den ersten Volumenkörper zu ändern und umzuwandeln.
 
 Alternativ kannst Du statt [Skizzen](Sketch/de.md) auch primitive [PartDesign Formelemente](PartDesign_Feature/de.md) hinzufügen, zum Beispiel eine **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [PartDesign HinzuzufügenderQuader](PartDesign_AdditiveBox/de.md)**. Eine beliebige Anzahl hinzuzufügender und abzuziehender Funktionselemente kann zur Erstellung eines Endvolumens verwendet werden.
+
+
 
 ## Hinweise
 

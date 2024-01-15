@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 **Sweep additivo** crea un solido nel corpo attivo spazzando uno o più schizzi (detti anche sezioni trasversali) lungo un percorso aperto o chiuso. Se il corpo contiene già delle funzionalità, lo sweep additivo viene unito a loro.
@@ -26,6 +28,8 @@
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -96,27 +100,65 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 </div>
 
+
+
 ## Proprietà
 
--    {{PropertyData/it|Label}}: nome dato all\'operazione, questo nome può essere cambiato a piacere.
+See also: [Property editor](Property_editor.md).
 
--    {{PropertyData/it|Refine}}: vero o falso. Se impostato su true, pulisce il solido dai bordi residui lasciati dalle operazioni. Per maggiori dettagli vedere [Affina forma](Part_RefineShape/it.md).
+A PartDesign AdditivePipe object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
--    {{PropertyData/it|Sections}}: elenca le sezioni utilizzate.
+### Data
 
--    {{PropertyData/it|Spine Tangent}}: vero o falso (predefinito). True estende il percorso per includere i bordi tangenti.
 
--    {{PropertyData/it|Auxiliary Spine Tangent}}: vero o falso (predefinito). Vero estende il percorso ausiliario per includere i bordi tangenti.
+{{TitleProperty|Base}}
 
--    {{PropertyData/it|Auxiliary Curvelinear}}: vero o falso (predefinito). True calcola la normale tra i punti equidistanti su entrambe le dorsali.
+-    **Add Sub Shape|PartShape|Hidden**:
 
--    {{PropertyData/it|Mode}}: modalità di profilo. vedere [Opzioni](#Opzioni.md).
+-    **Base Feature|Link|Hidden**:
 
--    {{PropertyData/it|Binormal}}: vettore binomiale per la modalità di orientamento corrispondente.
+-    **_Body|LinkHidden|Hidden**:
 
--    {{PropertyData/it|Transition}}: modalità di transizione. Le opzioni sono \"Trasformato\", \"Angolo retto\" o \"Angolo rotondo\".
 
--    {{PropertyData/it|Transformation}}: \"Costante\" usa una singola sezione trasversale. \"Multisezione\" utilizza due o più sezioni trasversali. \"Linear\", \"S-shape\" e \"Interpolation\" non sono al momento funzionanti.
+{{TitleProperty|Part Design}}
+
+-    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+
+
+{{TitleProperty|Sketch Based}}
+
+-    **Profile|LinkSub**: reference to sketch.
+
+-    **Midplane|Bool**: extrude symmetrically to sketch face.
+
+-    **Reversed|Bool**: reverses extrusion direction.
+
+-    **Up To Face|LinkSub**: face where feature will end.
+
+-    **Allow Multi Face|Bool**: allow multiple faces in profile.
+
+
+{{TitleProperty|Sweep}}
+
+-    **Sections|LinkSubList**: lists the sections used.
+
+-    **Spine|LinkSub**: spine (path) to sweep along.
+
+-    **Spine Tangent|Bool**: true or false (default). True extends the spine to include tangent edges.
+
+-    **Auxiliary Spine|LinkSub|Hidden**: secondary spine (path) to orient the Sweep.
+
+-    **Auxiliary Spine Tangent|Bool**: true or false (default). True extends the auxiliary spine to include tangent edges.
+
+-    **Auxiliary Curvelinear|Bool**: true or false (default). True calculates the normal between equidistant points on both spines.
+
+-    **Mode|Enumeration**: profile mode. Options are *Fixed*, *Frenet*, *Auxiliary* or *Binormal*. See [Options](#Options.md).
+
+-    **Binormal|Vector**: binormal vector for corresponding orientation mode.
+
+-    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right Corner* or *Round Corner*.
+
+-    **Transformation|Enumeration**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
 ## Notes
 

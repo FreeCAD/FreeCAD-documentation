@@ -26,7 +26,7 @@ The **Mesh Intersection** command creates a new non-parametric mesh object, a [M
 
 1.  Select two mesh objects that partially overlap.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Intersection.svg" width=16px> [Mesh Intersection](Mesh_Intersection.md)** button.
+    -   Press the **<img src="images/Mesh_Intersection.svg" width=16px> [Intersection](Mesh_Intersection.md)** button.
     -   Select the **Meshes → Boolean → <img src="images/Mesh_Intersection.svg" width=16px> Intersection** option from the menu.
 
 ## Properties

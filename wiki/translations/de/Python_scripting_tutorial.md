@@ -18,15 +18,15 @@ Es gibt mehrere Möglichkeiten, Python in FreeCAD zu verwenden:
 
 In diesem Tutorial werden wir an ein paar einfachen Beispielen arbeiten, um dir den Einstieg zu erleichtern, aber es gibt auch viel mehr [Dokumentation über Python Skripten](Power_users_hub/de.md) auf diesem Wiki. Wenn du völlig neu in Python bist und verstehen willst, wie es funktioniert, haben wir auch eine grundlegende [Einführung in Python](introduction_to_Python/de.md).
 
-Bevor Du mit dem Python Skripting fortfährst, gehe zum **Bearbeiten → Einstellungen → Allgemein → Ausgabefenster** und hake 2 Kästchen an:
+Bevor Wir mit dem Python-Skripten fortfahren, öffne **Bearbeiten → Einstellungen → Allgemein → Ausgabefenster** und aktiviere folgende Optionen:
 
--    **Interne Python Ausgabe auf Berichtsansicht umleiten**.
+-    **Interne Python-Meldungen auf Ausgabefenster umleiten**.
 
--    **Interne Python Fehler auf Berichtsansicht umleiten**.
+-    **Interne Python-Fehlermeldungen auf Ausgabefenster umleiten**.
 
-Dann gehe zu **Ansicht → Paneele** und hake an:
+Danach unter **Ansicht → Paneele** folgende Option aktivieren:
 
--    **Berichtsansicht**
+-    **Ausgabefenster**
     
 
 
@@ -54,7 +54,7 @@ Wenn du dies in der FreeCAD Python Konsole eingibst, wirst du feststellen, dass 
 ![](images/Screenshot_classbrowser.jpg ) 
 *Autovervollständigungsmechanismus der FreeCAD Pythonkonsole*
 
-Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python-Code auszuführen. Noch besser, du kannst die Option **Skript-Befehle in der Python-Konsole anzeigen** unter **Bearbeiten → Einstellungen → Allgemein → Makro** aktivieren. Dadurch wird in der Konsole der gesamte Python-Code ausgegeben, der ausgeführt wird, wenn du Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
+Nun wird unser neues Dokument erstellt. Dies entspricht dem Drücken der Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** in der Symbolleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python-Code auszuführen. Noch besser, du kannst die Option **Skript-Befehle in der Python-Konsole anzeigen** unter **Bearbeiten → Einstellungen → Python → Makro** aktivieren. Dadurch wird in der Konsole der gesamte Python-Code ausgegeben, der ausgeführt wird, wenn du Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
 
 Lass uns nun zu unserem Dokument zurückkehren und sehen, was wir mit ihm machen können:
 
@@ -273,11 +273,11 @@ Nun, da Du ein gutes Verständnis der Grundlagen hast, wo werden wir unsere Pyth
 
 ## Externe Skripte 
 
-An alternative method for creating, saving, and running your own Python scripts is to create them outside FreeCAD, using an editor of your choice (for example, Vim). To run your Python script inside FreeCAD, be sure to save it with the **.py** extension.
+Eine alternative Methode zum erstellen, sichern und ausführen der eigenen Python-Skripte ist das Erstellen außerhalb von FreeCAD, mit einem selbst gewählten Editor (z.B. Vim). Um ein eigenes Python-Skript innerhalb von FreeCAD auszuführen, sollte man darauf achten, dass es mit der Endung **.py** gespeichert wird.
 
-Then use **File → Open** to open your script. It will load into a new tab in the [Main view area](Main_view_area.md). You can run your script by clicking the **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Execute macro](Std_DlgMacroExecuteDirect.md)** button. Any errors or script output will be shown in the [Report view](Report_view.md).
+Dann wird **Datei → Öffnen** zum Öffnen des Skripts verwendet; es wird in einen neuen Reiter des [Hauptansichtsbereiches](Main_view_area/de.md) geladen. Das Skript kann durch Drücken der Schaltfläche **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecuteDirect/de.md)** ausgeführt werden. Alle Fehlermeldungen und Skript-Ausgaben werden im [Ausgabefenster](Report_view/de.md) angezeigt.
 
-When you make and save any modifications to your already-loaded script, a dialog box will appear asking whether you want to reload the modified script into FreeCAD.
+Wird das schon geladene Skript bearbeitet und gespeichert, öffnet sich ein Dialogfenster, und erfragt, ob das geänderte Skript wieder in FreeCAD geladen werden soll.
 
 Jetzt kannst Du zur Seite [FreeCAD Grundlagen der Skripterstellung](FreeCAD_Scripting_Basics/de.md) fortfahren, oder Du kannst diese und andere zugehörige Seiten über das [Hauptanwenderzentrum](Power_users_hub/de.md) erreichen. {{Top}}
 

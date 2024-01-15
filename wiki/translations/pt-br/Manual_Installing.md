@@ -14,6 +14,8 @@ The official releases of FreeCAD, that you can find on the page referenced above
 
 **O desenvolvimento do [Robot Workbench](Robot_Workbench.md) está atualmente abandonado. Por favor, informe-se em nosso fórum sobre qualquer notícia ou workbenches alternativos.**
 
+
+
 ### Instalando no Windows 
 
 1.  Download an installer (.exe) package corresponding to your version of Windows (32bit or 64bit) from the [download page](https://github.com/FreeCAD/FreeCAD/releases). The FreeCAD installers should work on any windows version starting from Windows 7.

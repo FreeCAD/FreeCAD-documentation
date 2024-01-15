@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintTemperature
    Name/de: FEM RandbedingungTemperatur
-   MenuLocation: Modell , Thermische Randbedingungen , Randbedingung Temperatur 
+   MenuLocation: Modell , Thermische Randbedingungen und Belastungen, Randbedingung Temperatur 
    Workbenches: FEM_Workbench/de
    Shortcut: 
    SeeAlso: FEM_tutorial/de
@@ -10,25 +10,34 @@
 
 # FEM ConstraintTemperature/de
 
+
+
 ## Beschreibung
 
-Creates a FEM constraint for a temperature boundary condition.
+Legt eine Randbedingung Temperatur fest oder wahlweise eine konzentrierte Wärmestrombelastung.
+
+
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Randbedingung Temperatur](FEM_ConstraintTemperature/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Thermische Randbedingungen → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Randbedingung Temperatur** auswählen.
+    -   Den Menüeintrag **Modell → Thermische Randbedingungen und Belastungen → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Randbedingung Temperatur** auswählen.
 2.  In der [3D-Ansicht](3D_view/de.md) die Objekte auswählen, auf die die Randbedingung angewendet werden soll; diese können Knoten (Ecken), Kanten oder Flächen sein.
 3.  Einen Wert für die Temperatur eingeben, die den Objekten zugeordnet werden soll.
 
+
+
 ### Optionen
 
-By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+Standardmäßig legt diese Funktion eine Temperatur fest. Wird die Option **CFlux** verwendet, kann ein Wärmestromwert (in mW) in jedem Knoten angegeben werden, der zur ausgewählten geometrischen Einheit gehört.
+
+
 
 ## Hinweise
 
--   The temperature constraint uses the \*BOUNDARY card in CalculiX. the temperature constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html>
+-   Die Randbedingung Temperatur verwendet die \*BOUNDARY-Karte in CalculiX. Sie wird unter <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node163.html> erklärt (engl.)
+-   Die Option **CFlux** verwendet die \*CFLUX-Karte in CalculiX: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node168.html>
 
 
 

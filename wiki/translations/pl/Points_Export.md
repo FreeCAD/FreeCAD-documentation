@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Points Export
-   Name/pl: Punkty: Eksport
+   Name/pl: Punkty: Eksport punktów
    MenuLocation: Punkty , Eksport punktów ...
    Workbenches: Points_Workbench/pl
    SeeAlso: Import_Export/pl
@@ -9,9 +9,13 @@
 
 # Points Export/pl
 
+
+
 ## Opis
 
 Polecenie **Eksport punktów** eksportuje chmurę punktów do pliku.
+
+
 
 ## Użycie
 

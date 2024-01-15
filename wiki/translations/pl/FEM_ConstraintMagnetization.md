@@ -1,78 +1,40 @@
 ---
  GuiCommand:
    Name: FEM ConstraintMagnetization
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint magnetization
-   Workbenches: FEM_Workbench
+   Name/pl: MES: Warunek brzegowy magnetyzacji
+   MenuLocation: Model , Warunki brzegowe elektromagnetyczne , Warunek brzegowy magnetyzacji
+   Workbenches: FEM_Workbench/pl
    Version: 0.21
-   SeeAlso: FEM_EquationMagnetodynamic, FEM_EquationMagnetodynamic2D
+   SeeAlso: FEM_EquationMagnetodynamic/pl, FEM_EquationMagnetodynamic2D/pl
 ---
 
 # FEM ConstraintMagnetization/pl
 
 
-</div>
 
+## Opis
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Description
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Creates a FEM constraint for the magnetization. To be used together with the [Magnetodynamic](FEM_EquationMagnetodynamic.md) and [Magnetodynamic 2D](FEM_EquationMagnetodynamic2D.md) equations.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Usage
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-1.  Press the **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [FEM ConstraintMagnetization](FEM_ConstraintMagnetization.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Constraint magnetization**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
-3.  Press the **Add** button.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Options
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   **Magnetization\_\*\_1**: The real/imaginary part of the magnetization in x-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the first coordinate of the system instead of x.
--   **Magnetization\_\*\_2**: The real/imaginary part of the magnetization in y-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the second coordinate of the system instead of y.
--   **Magnetization\_\*\_3**: The real/imaginary part of the magnetization in z-direction in A/m. For other coordinate systems than Cartesian 3D, this will be the third coordinate of the system instead of z. If the coordinate system has no third coordinate, this setting will be ignored.
--   **Magnetization\_\*\_\*\_Disabled**: Whether the corresponding parameter is disabled (assumed as unknown by the solver).
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Tworzy warunek brzegowy MES magnetyzacji. Używane z równaniem [magnetodynamicznym](FEM_EquationMagnetodynamic/pl.md) i [magnetodynamicznym 2D](FEM_EquationMagnetodynamic2D/pl.md).
 
 
 
+## Użycie
+
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintMagnetization.svg" width=16px> [Warunek brzegowy magnetyzacji](FEM_ConstraintMagnetization/pl.md)** lub użyj opcji **Model → Warunki brzegowe elektromagnetyczne → <img src="images/FEM_ConstraintMagnetization.svg" width=16px> Warunek brzegowy magnetyzacji** z menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przypisany warunek brzegowy.
+3.  Wciśnij przycisk **Dodaj**.
 
 
-</div>
+
+## Opcje
+
+-   **Magnetyzacja\*\_1**: Część rzeczywista/urojona magnetyzacji w kierunku x w A/m. Dla układów współrzędnych innych niż kartezjański 3D, będzie to pierwsza współrzędna układu zamiast x.
+-   **Magnetyzacja\*\_2**: Część rzeczywista/urojona magnetyzacji w kierunku y w A/m. Dla układów współrzędnych innych niż kartezjański 3D, będzie to druga współrzędna układu zamiast y.
+-   **Magnetyzacja\*\_3**: Część rzeczywista/urojona magnetyzacji w kierunku z w A/m. Dla układów współrzędnych innych niż kartezjański 3D, będzie to trzecia współrzędna układu zamiast z. Jeśli układ współrzędnych nie ma trzeciej współrzędnej, to ustawienie zostanie zignorowane.
+-   **Magnetyzacja\*\_\*\_nieokreślona**: Czy dany parametr ma być wyłączony (traktowany jako niewiadoma przez solver).
+
+
+
 
 
 {{FEM Tools navi

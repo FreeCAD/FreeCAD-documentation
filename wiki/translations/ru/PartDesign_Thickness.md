@@ -10,14 +10,20 @@
 
 # PartDesign Thickness/ru
 
+
+
 ## Описание
 
 The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **PartDesign Thickness** tool transforms a solid body into a hollow object with at least one open face, giving to each of its remaining faces a uniform thickness. It adds a **Thickness** object to the document with its corresponding representation in the [Tree view](Tree_view.md).
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:400px;"> 
 *Base solid (A) →  Solid with selected face to be opened (B) →  Resulting hollow object (C)*
 
+
+
 ## Применение
+
+
 
 ### Преобразование в полое тело 
 
@@ -33,6 +39,8 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
 :   *Remember*:
     -   Since there must be at least one face for the feature, the last remaining face in the list cannot be removed.
 
+
+
 ### Изменение параметров преобразования 
 
 1.  Do one of the following:
@@ -40,6 +48,8 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
     -   Right-click the Thickness object in the [Tree view](Tree_view.md) and select **Edit Thickness** from the context menu.
 2.  The **Thickness parameters** [task panel](Task_panel.md) opens. See [Options](#Options.md) for more information.
 3.  Press the **OK** button to finish.
+
+
 
 ## Параметры
 
@@ -85,6 +95,8 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
 
 -    **Make thickness inwards**: When checked, faces are offset inward.
 
+
+
 ## Примечания
 
 -   If thickness goes inwards, the value must be smaller than the smallest height of the Body.
@@ -94,11 +106,15 @@ The <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **Part
     -   BRep_Tool: no parameter on edge.
     -   Silently fails.
 
+
+
 ## Свойства
 
 See also: [Property editor](Property_editor.md).
 
 A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+
 
 ### Данные
 
@@ -107,7 +123,7 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 -    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
+-    **Support Transform|Bool**: Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning. Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
@@ -119,20 +135,20 @@ A PartDesign Thickness object is derived from a [Part Feature](Part_Feature.md) 
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: Refine shape (clean up redundant edges) after adding/subtracting. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**: \"Thickness value\". Default: {{value|1 mm}}.
+-    **Value|Length**: Thickness value. Default: {{value|1 mm}}.
 
--    **Mode|Enumeration**: \"Mode\". {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
+-    **Mode|Enumeration**: Mode. {{value|Skin}} (default), {{value|Pipe}} or {{Value|Recto verso}}. Only {{value|Skin}} is implemented.
 
--    **Join|Enumeration**: \"Join type\". {{value|Arc}} (default) or {{Value|Intersection}}.
+-    **Join|Enumeration**: Join type. {{value|Arc}} (default) or {{Value|Intersection}}.
 
--    **Reversed|Bool**: \"Apply the thickness towards the solids interior\". Default: `False`.
+-    **Reversed|Bool**: Apply the thickness towards the solids interior. Default: `False`.
 
--    **Intersection|Bool**: \"Enable intersection-handling\". Default: `False`.
+-    **Intersection|Bool**: Enable intersection-handling. Default: `False`.
 
 
 

@@ -196,7 +196,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **内建[脚本框架](Scripting/zh-cn.md)**: FreeCAD 内建 [Python](http://www.python.org/) 脚本解释器和几乎覆盖整个应用程序，接口，几何和显示 3D 视图的 API。解释器可以单独运行复杂的脚本。实际上，整个模块都可以使用 Python 编程。
+-   **内建[脚本](Scripting/zh-cn.md)框架**: FreeCAD 内建 [Python](http://www.python.org/) 脚本解释器和几乎覆盖整个应用程序，接口，几何和显示 3D 视图的 API。解释器可以单独运行复杂的脚本。实际上，整个模块都可以使用 Python 编程。
 
 
 </div>

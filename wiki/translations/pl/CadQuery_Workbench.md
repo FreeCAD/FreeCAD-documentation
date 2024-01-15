@@ -1,58 +1,72 @@
-# <img alt="CadQuery workbench icon" src=images/Cadquery_module_workbench_icon.svg  style="width:64px;"> CadQuery Workbench/pl
+# <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy CadQuery" src=images/Cadquery_module_workbench_icon.svg  style="width:64px;"> CadQuery Workbench/pl
 
 
-**(January 2021) 
-The active development of CadQuery has moved away from FreeCAD [https://github.com/CadQuery/cadquery#why-this-fork], offering now a stand-alone GUI with the CQ-editor [https://github.com/CadQuery/CQ-editor].
-The CadQuery workbench is '''no longer actively maintained''', but may receive sporadic fixes by its author.
+**(Styczeń 2021) 
+Aktywny rozwój CadQuery został przeniesiony z [https://github.com/CadQuery/cadquery#why-this-fork GitHub] FreeCAD, oferując teraz samodzielny graficzny interfejs użytkownika z edytorem CQ [https://github.com/CadQuery/CQ-editor].
+Środowisko pracy CadQuery nie jest już aktywnie utrzymywane, ale może otrzymywać sporadyczne poprawki od autora.
 **
 
-## Introduction
+
+
+## Wprowadzenie
 
 
 
 
-A module-workbench combo that adds a CadQuery editor to FreeCAD. Please see the [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki) for more detailed information on getting started.
+Kombinacja modułu i środowiska pracy, która dodaje edytor CadQuery do FreeCAD. Więcej szczegółowych informacji na temat rozpoczęcia pracy można znaleźć na stronie [wiki](https://github.com/jmwright/cadquery-freecad-module/wiki).
 
-## References
 
--   Author: Jeremy Wright
--   Home page: <https://github.com/jmwright/cadquery-freecad-module>
 
-## Tools
+## Bibliografia
+
+-   Autor: Jeremy Wright
+-   Strona domowa: <https://github.com/jmwright/cadquery-freecad-module>
+
+
+
+## Przybory
 
 ![](images/CadQuery-menu-vert.png )
 
-## Installation
 
-Install with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
-## Links
+## Instalacja
 
--   Workbench Wiki: <https://github.com/jmwright/cadquery-freecad-module/wiki>
+Instalację wykonaj za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
+
+
+
+## Odnośniki internetowe 
+
+-   Wiki środowiska pracy: <https://github.com/jmwright/cadquery-freecad-module/wiki>
 -   FreeCAD Wiki:
 -   FreeCAD Forum:
--   Tutorials:
--   Videos:
-    -   [Getting Started with CadQuery Scripting (YouTube)](https://www.youtube.com/watch?v=lxhBNOE7GVs)
--   Files:
--   Report bugs: <https://github.com/jmwright/cadquery-freecad-module/issues>
+-   Poradniki:
+-   Filmy:
+    -   [Pierwsze kroki ze skryptami CadQuery (YouTube)](https://www.youtube.com/watch?v=lxhBNOE7GVs)
+-   Pliki:
+-   Zgłoś błędy: <https://github.com/jmwright/cadquery-freecad-module/issues>
 
-## Examples
+## Przykłady
 
-The CadQuery workbench includes sample scripts that are available at **CadQuery → Examples → ...** entries from the top menu.
+Środowisko pracy CadQuery zawiera przykładowe skrypty, które są dostępne w menu **CadQuery → Examples → ...**.
 
-Other examples:
+Inne przykłady:
 
--   Prusa i3 extruder support (directly available as workbench sample script **Ex032_3D_Printer_Extruder_Support**): <https://github.com/adam-urbanczyk/cadquery-models>
+-   Obsługa ekstrudera Prusa i3 *(dostępna bezpośrednio jako przykładowy skrypt środowiska pracy **Ex032_3D_Printer_Extruder_Support**)*: <https://github.com/adam-urbanczyk/cadquery-models>
 
-## Latest CadQuery 
 
-The latest version of CadQuery is no longer using FreeCAD and is not compatible with the CadQuery workbench. If you are interested in the latest version have a look at the [CadQuery Python module](https://github.com/CadQuery/cadquery) and the [CadQuery graphical editor](https://github.com/CadQuery/CQ-editor).
 
-## Other useful links 
+## Najnowszy CadQuery 
+
+Najnowsza wersja CadQuery nie korzysta już z FreeCAD i nie jest kompatybilna ze środowiskiem roboczym CadQuery. Jeśli jesteś zainteresowany najnowszą wersją, zapoznaj się z informacjami na stronie [CadQuery Python module](https://github.com/CadQuery/cadquery) i [edytor graficzny CadQuery](https://github.com/CadQuery/CQ-editor).
+
+
+
+## Inne użyteczne odnośniki 
 
 -   <https://github.com/easyw/kicad-3d-models-in-freecad>
--   [Macros recipes](Macros_recipes.md)
+-   [Przepisy na makrodefinicje](Macros_recipes/pl.md)
 
 
 

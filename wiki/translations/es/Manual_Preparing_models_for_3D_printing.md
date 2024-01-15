@@ -1,5 +1,5 @@
 # Manual:Preparing models for 3D printing/es
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 Uno de los principales usos de FreeCAD es producir objetos del mundo real. Estos pueden ser diseñados en FreeCAD, y luego hacerse realidad de diferentes maneras, como comunicándolos a otras personas que luego los construirán, o, cada vez más frecuentemente, enviándolos directamente a una [impresora 3D](https://en.wikipedia.org/wiki/3D_printing) o a una [fresadora CNC](https://en.wikipedia.org/wiki/Milling_%28machining%29). Este capítulo le mostrará cómo preparar sus modelos para enviarlos a estas máquinas.
 
@@ -13,11 +13,15 @@ Cuando se imprime en 3D, siempre hay que asegurarse de que esta pérdida de cali
 
 Abajo, supondremos que se cumplen los dos primeros criterios y que, a estas alturas, usted es capaz de producir objetos sólidos con dimensiones correctas. Ahora veremos cómo abordar el tercer punto.
 
+
+
 ### Exportación a slicers 
 
 Esta es la técnica más utilizada para impresión 3D. El objeto 3D se exporta a otro programa (el slicer) que generará el G-code del objeto, cortándolo en finas capas (de ahí el nombre), que reproducirán los movimientos que hará la impresora 3D. Como muchas de esas impresoras son de fabricación casera, suele haber pequeñas diferencias entre unas y otras. Estos programas suelen ofrecer posibilidades de configuración avanzadas que permiten adaptar la salida exactamente a las características de su impresora 3D.
 
 La impresión 3D real, sin embargo, es un tema demasiado amplio para este manual. Pero veremos cómo exportar y utilizar estos cortadores para comprobar que la salida es correcta.
+
+
 
 ### Convertir objetos en mallas 
 
@@ -47,6 +51,8 @@ Sin embargo, en la mayoría de los casos, los valores por defecto darán un resu
 
 Si no tienes una impresora 3D, suele ser muy fácil encontrar servicios comerciales que imprimen y te envían los objetos impresos por correo. Entre los más famosos están [Shapeways](http://www.shapeways.com/) y [Sculpteo](http://www.sculpteo.com/), pero normalmente encontrarás muchos otros en tu propia ciudad. En todas las ciudades importantes, hoy en día se encuentran [Fablaboratorio](https://es.wikipedia.org/wiki/Fab_lab)s, que son talleres equipados con una serie de máquinas de fabricación en 3D, que casi siempre incluyen al menos una impresora 3D. Los Fab labs suelen ser espacios comunitarios, que te permitirán utilizar sus máquinas, de forma gratuita o de pago, dependiendo del Fab lab, pero también te enseñarán a utilizarlas y promoverán otras actividades en torno a la fabricación 3D.
 
+
+
 ### Usando Slic3r 
 
 [Slic3r](http://slic3r.org/) es una aplicación que convierte objetos STL en G-code que puede enviarse directamente a las impresoras 3D. Al igual que FreeCAD, es gratuito, de código abierto y funciona en Windows, Mac OS y Linux. Configurar correctamente las cosas para la impresión 3D es un proceso complicado, en el que debes tener un buen conocimiento de tu impresora 3D, por lo que no es muy útil generar el G-code antes de ir a imprimir (tu archivo de G-code podría no funcionar bien en otra impresora), pero de todos modos nos es útil para comprobar que nuestro archivo STL será imprimible sin problemas.
@@ -54,6 +60,8 @@ Si no tienes una impresora 3D, suele ser muy fácil encontrar servicios comercia
 Este es nuestro archivo STL exportado abierto en Slic3r. Usando la pestaña **vista previa**, y moviendo el deslizador de la derecha, podemos visualizar la trayectoria que seguirá el cabezal de la impresora 3D para construir nuestro objeto.
 
 ![](images/Exercise_meshing_03.jpg )
+
+
 
 ### Usando el complemento Cura 
 

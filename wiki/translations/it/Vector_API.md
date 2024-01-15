@@ -17,43 +17,55 @@ print v3.Length
 {{APIProperty|Length|restituisce la lunghezza del vettore.}}
 
 
-{{APIFunction|add|Vector|aggiunge un altro vettore a questo | vettore.}}
+{{APIFunction|add|Vector|aggiunge un altro vettore a questo.| vector}}
 
 
-{{APIFunction|cross|Vector| |il prodotto vettoriale tra questo vettore e u altro|vettore.}}
+{{APIFunction|cross|Vector| |il prodotto vettoriale tra questo vettore e u altro.|vector}}
 
 
-{{APIFunction|distanceToLine|Vector1,Vector2| |la distanza tra il vettore e una linea tra Vettore1 e Vettore2 attraverso Vettore1 e in direzione di Vettore2|float.}}
+{{APIFunction|distanceToLine|Vector1,Vector2| |la distanza tra il vettore e una linea tra Vettore1 e Vettore2 attraverso Vettore1 e in direzione di Vettore2.|float}}
 
 
-{{APIFunction|distanceToLineSegment|Vector1,Vector2|un vettore dal punto più vicino su un segmento di linea da Vettore1 a Vettore2.|vettore}}
+{{APIFunction|distanceToPoint|Vector|la distanza tra questo vettore e un altro.|float}}
 
 
-{{APIFunction|distanceToPlane|Vector1,Vector2| |la distanza tra il vettore e un piano definito da un punto e una normale|float.}}
+{{APIFunction|distanceToLineSegment|Vector1,Vector2|un vettore dal punto più vicino su un segmento di linea da Vettore1 a Vettore2.|vector}}
 
 
-{{APIFunction|dot|Vector| |il prodotto scalare tra due vettori.}}
+{{APIFunction|distanceToPlane|Vector1,Vector2| |la distanza tra il vettore e un piano definito da un punto e una normale.|float}}
 
 
-{{APIFunction|getAngle|Vector| |l'angolo in radianti tra 2 vettori|float.}}
+{{APIFunction|dot|Vector|il prodotto scalare tra due vettori.}}
 
 
-{{APIFunction|multiply|Float|Moltiplica (scala uniforme) un vettore del fattore passato. | niente.}}
+{{APIFunction|getAngle|Vector|l'angolo in radianti tra 2 vettori.|float}}
 
 
-{{APIFunction|normalize| |normalizza un vettore (imposta la sua lunghezza a 1,0). | niente.}}
+{{APIFunction|isEqual|Vector|Controlla se la distanza tra i punti rappresentati da questo Vettore e Vettore2 è inferiore o uguale alla tolleranza specificata.|float}}
 
 
-{{APIFunction|projectToLine|Vector1,Vector2|proietta il vettore su una linea attraverso Vettore1 in direzione Vettore2. | niente.}}
+{{APIFunction|isOnLineSegment|Vector1,Vector2|Verifica se questo vettore si trova sul segmento di linea generato da Vettore1 e Vettore2.|vector}}
 
 
-{{APIFunction|projectToPlane|Vector1,Vector2|proietta il vettore su un piano definito da un punto (Vettore1) e una normale (Vettore2). | nulla.}}
+{{APIFunction|multiply|Float|Moltiplica (scala uniforme) un vettore del fattore passato.|nothing}}
 
 
-{{APIFunction|scale|Float,Float,Float|Uguale a moltiplicare, ma consente di specificare valori diversi per le direzioni x, y e z (scala non uniforme) .| Nulla.}}
+{{APIFunction|negative|Vector|Restituisce il negativo (opposto) di questo vettore.|vector}}
 
 
-{{APIFunction|sub|Vector|sottrae un altro vettore dal primo. | il vettore risultante.|vettore}}
+{{APIFunction|normalize| |normalizza un vettore (imposta la sua lunghezza a 1,0).|nothing}}
+
+
+{{APIFunction|projectToLine|Vector1,Vector2|proietta il vettore su una linea attraverso Vettore1 in direzione Vettore2.|nothing}}
+
+
+{{APIFunction|projectToPlane|Vector1,Vector2|proietta il vettore su un piano definito da un punto (Vettore1) e una normale (Vettore2).|nothing}}
+
+
+{{APIFunction|scale|Float,Float,Float|Uguale a moltiplicare, ma consente di specificare valori diversi per le direzioni x, y e z (scala non uniforme).|nothing}}
+
+
+{{APIFunction|sub|Vector|sottrae un altro vettore dal primo.|vector}}
 
 
 {{APIProperty|x|la coordinata x di un vettore.}}

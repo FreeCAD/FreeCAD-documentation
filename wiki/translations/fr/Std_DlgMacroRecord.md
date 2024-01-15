@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Std_DlgMacroRecord
-   Name/fr: Std Enregistrement de macro
+   Name/fr: Std Enregistrer une macro
    MenuLocation: Macro , Enregistrement de macro...
    Workbenches: Tous
    SeeAlso: Std_MacroStopRecord/fr
@@ -13,44 +13,45 @@
 
 ## Description
 
-La commande **Std Enregistrement de macro** démarre une session d\'enregistrement de [macro](Macros/fr.md) pendant laquelle les actions de l\'utilisateur sont stockées dans une macro FreeCAD, un fichier avec l\'extension **.FCMacro**. Une macro peut ensuite être rejouée, exécutée, pour répéter les actions enregistrées.
+La commande **Std Enregistrer une macro** démarre une session d\'enregistrement d\'une [macro](Macros/fr.md) pendant laquelle les actions de l\'utilisateur sont enregistrées dans une macro FreeCAD, un fichier avec l\'extension **.FCMacro**. Une macro peut ensuite être rejouée, exécutée, pour répéter les actions enregistrées.
 
 ![](images/Std_DlgMacroRecord_dialog.png ) 
-*La boîte de dialogue d'enregistrement de macro*
+*La boîte de dialogue d'enregistrement d'une macro*
 
 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Appuyez sur le bouton **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Std Enregistrement de macro...](Std_DlgMacroRecord/fr.md)**.
-    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Enregistrement de macro...** dans le menu.
-2.  La boîte de dialogue Enregistrement de macro s\'ouvre.
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Std_DlgMacroRecord.svg" width=16px> [Enregistrer une macro...](Std_DlgMacroRecord/fr.md)**.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroRecord.svg" width=16px> Enregistrer une macro...** du menu.
+2.  La boîte de dialogue Enregistrement d\'une macro s\'ouvre.
 3.  Saisissez un nom pour la macro dans la zone de saisie **Nom de la macro**.
-4.  Modifiez éventuellement le **Chemin de la macro** en appuyant sur le bouton **...**.
+4.  Vous pouvez modifiez le **Chemin d\'accès de la macro** en appuyant sur le bouton **...**.
 5.  Le bouton **Arrêter** ne fonctionne pas pour le moment.
 6.  Appuyez sur le bouton **Enregistrer** pour fermer la boîte de dialogue et démarrer la session d\'enregistrement.
-7.  Effectuez les actions que vous souhaitez enregistrer.
-8.  Pour terminer la session d\'enregistrement, effectuez l\'une des opérations suivantes:
-    -   Appuyez sur le bouton **<img src="images/Std_MacroStopRecord.svg" width=16px> [Std Arrêter l'enregistrement de la macro](Std_MacroStopRecord/fr.md)**.
-    -   Sélectionnez l\'option **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Arrêter l'enregistrement de la macro** dans le menu.
+7.  L\'image du bouton de la commande devient **<img src="images/Std_MacroStopRecord.svg" width=16px>** et le texte du menu devient **Arrêter l'enregistrement de la macro**.
+8.  Effectuez les actions que vous souhaitez enregistrer.
+9.  Pour terminer la session d\'enregistrement, effectuez l\'une des opérations suivantes :
+    -   Appuyez sur le bouton **<img src="images/Std_MacroStopRecord.svg" width=16px> [Arrêter l'enregistrement de la macro](Std_DlgMacroRecord/fr.md)**.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Arrêter l'enregistrement de la macro** du menu.
 
 ## Options
 
--   Lorsque la boîte de dialogue des macros s\'affiche: appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+-   Lorsque la boîte de dialogue des macros s\'affiche : appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 
 
 ## Remarques
 
--   Pour exécuter la macro enregistrée, utilisez la commande [Std Exécuter une macro](Std_DlgMacroExecute/fr.md).
+-   Pour exécuter la macro enregistrée, utilisez la commande [Lancer la macro](Std_DlgMacroExecute/fr.md).
 -   Pour en savoir plus sur les macros, consultez la page [Macro](Macros/fr.md).
 
 
 
 ## Préférences
 
--   Le chemin de la macro peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin de la macro**. Voir l\'[Éditeur de préférences](Preferences_Editor/fr#Macro.md).
+-   Le chemin de la macro peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin d'accès aux macros**. Voir l\'[Éditeur de préférences](Preferences_Editor/fr#Macro.md).
 -   Dans la plupart des cas, il n\'est pas souhaitable d\'enregistrer des actions qui ne modifient pas le modèle : sous **Edition → Préférences... → Python → Macro → Commandes de l'interface graphique**, effectuez l\'une des actions suivantes :
     -   Pour exclure ces actions, décochez la case {{CheckBox|FALSE|Enregistrer les commandes de l'interface graphique}}.
     -   Pour les inclure en tant que commentaires, cochez les cases {{CheckBox|TRUE|Enregistrer les commandes de l'interface graphique}} et {{CheckBox|TRUE|Enregistrer comme un commentaire}}.

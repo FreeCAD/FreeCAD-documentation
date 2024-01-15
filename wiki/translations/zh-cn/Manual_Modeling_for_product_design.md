@@ -1,5 +1,5 @@
 # Manual:Modeling for product design/zh-cn
-{{Manual:TOC/zh-cn}}
+{{Manual:TOC}}
 
 [产品设计](https://en.wikipedia.org/wiki/Product_design) 原本是商业术语，但在 3D 领域，通常意味着建模的时候，心里想着将来 [3D 打印](https://en.wikipedia.org/wiki/3D_printing)，或更一般地说，由机器（例如 3D 打印机或 [CNC 机床](https://en.wikipedia.org/wiki/Numerical_control)）制造出来。
 
@@ -11,85 +11,83 @@
 
 乐高积木有个很酷的特色容易在互联网上获得零件的尺寸，至少对于标准件而言是这样。建模之后，在 3D 打印机上打印，都很容易。带着点耐心（3D 打印通常需要大量的调整和微调），可以制作出完全兼容的部件，完美地匹配原始乐高积木。下面的示例将制作比原始尺寸大 1.5 倍的零件。
 
-
-<div class="mw-translate-fuzzy">
-
 这里专门使用 [Sketcher](Sketcher_Workbench.md) 和 [PartDesign](PartDesign_Workbench.md) 工具。由于Sketcher 工作台中的所有工具都包含在 PartDesign 工作台里了，我们可以就在 PartDesign 中工作，不需要在两者之间来回切换。
-
-
-</div>
 
 PartDesign 对象完全基于 **Sketches**。Sketch 是一个 2D 对象，由线段（线，圆弧或椭圆弧）和约束组成。这些约束可以应用于线段，或其端点和中心点，并强制几何元素满足某些规则。例如，可以在线段上施加垂直约束以强制它保持垂直，或者在端点上施加位置（锁定）约束以禁止它移动。当草图的约束数量刚好时，草图的任何点都无法再移动了，称为完全约束的草图。当存在冗余约束时，移除某些约束也不会令几何体允许移动，称为过度约束。这应该避免，如果出现这种情况，FreeCAD 会通知你。
 
-Sketches have an edit mode, where their geometry and constraints can be changed. When you are done with editing, and leave edit mode, sketches behave like any other FreeCAD object, and can be used as building blocks for all the Part Design tools, but also in other workbenches, such as [Part](Part_Workbench.md) or [Arch](Arch_Workbench.md). The [Draft workbench](Draft_Workbench.md) also has a tool that converts Draft objects to Sketches, and vice-versa.
+草图具有一个编辑模式，你可以在其中更改其几何形状和约束。完成编辑并退出编辑模式后，草图就会像 FreeCAD 中的任何其他对象一样运行，它们可以作为所有零件设计工具的构建块，也可以在其他如 [Part](Part_Workbench.md) 或 [Arch](Arch_Workbench.md) 工作台中使用。 [Draft workbench](Draft_Workbench.md) 还有一个工具可以将 Draft 对象转换为草图，反之亦然。
 
--   Let\'s start by modeling a cubic shape that will be the base of our Lego brick. Later on we will carve the insides, and add the 8 dots on top of it. So let\'s start this by making a rectangular sketch that we will then extrude:
--   Switch to the [PartDesign Workbench](PartDesign_Workbench.md)
--   Click on the <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [New Sketch](Sketcher_NewSketch.md) button. A dialog will appear asking where you want to lie the sketch, choose the **XY** plane, which is the \"ground\" plane. The sketch will be created and will immediately be switched to edit mode, and the view will be rotated to look at your sketch orthogonally.
--   Now we can draw a rectangle, by selecting the <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:16px;"> [Rectangle](Sketcher_CreateRectangle.md) tool and clicking 2 corner points. You can place the two points anywhere, since their correct location will be set in the next step.
--   You will notice that a couple of constraints have automatically been added to our rectangle: the vertical segments have received a vertical constraint, the horizontal ones a horizontal constraint, and each corner a point-on-point constraint that glues the segments together. You can experiment moving the rectangle around by dragging its lines with the mouse, all the geometry will keep obeying the constraints.
+-   我们首先建模一个立方体形状，它将成为我们乐高积木的基础。稍后我们将雕刻内部，并在其顶部添加8个点。所以，让我们首先制作一个矩形草图，然后对其进行拉伸：
+-   切换到 [PartDesign Workbench](PartDesign_Workbench.md)
+-   点击 <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [New Sketch](Sketcher_NewSketch.md) 按钮。将出现一个对话框，询问你想在何处创建草图，选择 **XY** 平面，即 \"地面\" 平面。草图将被创建并立即切换到编辑模式，视图将旋转以正交看向你的草图。
+-   现在我们可以绘制一个矩形，通过选择 <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:16px;"> [Rectangle](Sketcher_CreateRectangle.md) 工具并点击两个角点。你可以在任何地方放置这两点，因为他们的正确位置将在下一步中设置。
+-   你会注意到，我们的矩形自动添加了一些约束：垂直段收到了垂直约束，水平段收到了水平约束，每个角点都收到了点对点约束，将各段粘合在一起。你可以尝试通过用鼠标拖动其线条来移动矩形，所有的几何形状都会遵守这些约束。
 
 ![](images/Exercise_lego_02.jpg )
 
--   Now, let\'s add three more constraints:
-    -   Select one of the vertical segments and add a <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [Vertical Distance Constraint](Sketcher_ConstrainDistanceY.md). Give it a size of 23.7mm.
-    -   Select one of the horizontal segments and add a <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [Horizontal Distance Constraint](Sketcher_ConstrainDistanceX.md). Make it 47.7mm.
-    -   Finally, select one of the corner points, then the origin point (which is the dot at the crossing of the red and green axes), then add a <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:16px;"> [Coincident Constraint](Sketcher_ConstrainCoincident.md). The rectangle will then jump to the origin point, and your sketch will turn green, meaning it is now fully constrained. You can try moving its lines or points, nothing will move anymore.
+-   现在，让我们添加三个额外的约束：
+    -   选中垂直段中的一个，然后添加一个 <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [垂直距离约束](Sketcher_ConstrainDistanceY.md)。将其设定为 23.7 毫米。
+    -   选中水平段中的一个，然后添加一个 <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [水平距离约束](Sketcher_ConstrainDistanceX.md)。将其设定为 47.7 毫米。
+    -   最后，选中角点中的一个，然后选择原点（就是红色和绿色轴线交叉处的点），然后添加一个 <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:16px;"> [重合约束](Sketcher_ConstrainCoincident.md)。矩形将会跳至原点，你的草图会变成绿色，这意味着它现在已经完全被约束了。你可以尝试移动其线条或点，但它们不会再移动。
 
 ![](images/Exercise_lego_03.jpg )
 
-Note that the last point-on-point constraint was not absolutely necessary. You are never forced to work with fully constrained sketches. However, if we are going to print this block in 3D, it will be necessary to maintain our piece close to the origin point (which will be the center of the space where the printer head can move). By adding that constraint we are making sure that our piece will always stay \"anchored\" to that origin point.
+请注意，最后一个点对点的约束并非绝对必要。你并不一定要使用完全约束的草图进行工作。然而，如果我们打算将这个块进行3D打印，那么将我们的部件保持在原点附近将是必要的（原点将是打印机头可以移动的空间的中心）。通过添加这个约束，我们确保了我们的部件始终会\"锚定\"在那个原点。
 
--   Our base sketch is now ready, we can leave edit mode by pressing the **Close** button on top of its task panel, or simply by pressing the **Escape** key. If needed later on, we can reenter edit mode anytime by double-clicking the sketch in the tree view.
--   Let\'s extrude it by using the <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad.md) tool, and giving it a distance of 14.4mm. The other options can be left at their default values:
+Share
+
+-   现在我们的基础草图已经准备好了，我们可以通过点击任务面板顶部的 **关闭** 按钮或简单地按 **Escape** 键来退出编辑模式。如果后续有需要，我们可以在树状视图中双击草图随时重新进入编辑模式。
+-   我们来通过使用 <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad.md) 工具并设定距离为 14.4 毫米来将其拉伸。其他选项可以保持默认值：
 
 ![](images/Exercise_lego_04.jpg )
 
-The **Pad** behaves very much like the [Extrude](Part_Extrude.md) tool that we used in the previous chapter. There are a couple of differences, though, the main one being that a pad cannot be moved. It is attached forever to its sketch. If you want to change the position of the pad, you must move the base sketch. In the current context, where we want to be sure nothing will move out of position, this is an additional security.
+**Pad** 的行为很像我们在上一章中使用的 [Extrude](Part_Extrude.md) 工具。然而，它们之间还是有一些差异的，主要的差异在于，Pad 不能被移动。它永远附着在它的草图上。如果你想改变 Pad 的位置，你必须移动基础草图。在当前的上下文中，我们希望确保没有任何东西会移出位置，这是一种额外的安全保障。
 
--   We will now carve the inside of the block, using the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Pocket](PartDesign_Pocket.md) tool, which is the PartDesign version of [Part Cut](Part_Cut.md). To make a pocket, we will create a sketch on the bottom face of our block, which will be used to remove a part of the block.
--   With the bottom face selected, press the <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [New sketch](Sketcher_NewSketch.md) button.
--   Draw a rectangle on the face.
+-   现在，我们将使用 <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Pocket](PartDesign_Pocket.md) 工具来挖掘块的内部，这是 PartDesign 版本的 [Part Cut](Part_Cut.md)。为了创建一个口袋，我们将在块的底部面创建一个草图，这将用于移除块的一部分。
+-   在选中底部面的情况下，按下 <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [新建草图](Sketcher_NewSketch.md) 按钮。
+-   在面上画一个矩形。
 
 ![](images/Exercise_lego_05.jpg )
 
--   We will now constrain the rectangle in relation to the bottom face. To do this, we need to \"import\" some edges of the face with the <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [External geometry](Sketcher_External.md) tool. Use this tool on the two vertical lines of the bottom face:
+-   我们现在将根据底面约束矩形。为了做到这一点，我们需要使用 <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [外部几何](Sketcher_External.md) 工具 \"导入\" 面的一些边缘。在底面的两条垂直线上使用此工具：
 
 ![](images/Exercise_lego_06.jpg )
 
-You will notice that only edges from the base face can be added by this tool. When you create a sketch with a face selected, a relation is created between that face and the sketch, which is important for further operations. You can always remap a sketch to another face later with the <img alt="" src=images/Sketcher_MapSketch.svg  style="width:16px;"> [Map sketch](Sketcher_MapSketch.md) tool.
+你会注意到，只有基面的边缘才能通过这个工具添加。当你创建一个带参考面的草图时，会在该面和草图之间创建一个关系，这对于后续操作很重要。你总是可以稍后用 <img alt="" src=images/Sketcher_MapSketch.svg  style="width:16px;"> [映射草图](Sketcher_MapSketch.md) 工具将草图重新映射到另一个面。
 
--   The external geometry is not \"real\", it will be hidden when we leave edit mode. But we can use it to place constraints. Place the 4 following constraints:
-    -   Select the top left point of the rectangle and the top point of the imported line and add a <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [Horizontal Distance Constraint](Sketcher_ConstrainDistanceX.md) of 1.8mm
-    -   Select again the top left point of the rectangle and the top point of the imported line and add a <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [Vertical Distance Constraint](Sketcher_ConstrainDistanceY.md) of 1.8mm
-    -   Select the bottom right point of the rectangle and the bottom point of the right imported line and add a <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [Horizontal Distance Constraint](Sketcher_ConstrainDistanceX.md) of 1.8mm
-    -   Select again the bottom right point of the rectangle and the bottom point of the right imported line and add a <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [Vertical Distance Constraint](Sketcher_ConstrainDistanceY.md) of 1.8mm
+-   外部几何并不是 \"真实\" 的，当我们离开编辑模式时，它将被隐藏。但是我们可以用它来放置约束。放置以下 4 个约束：
+    -   选择矩形的左上点和导入线的顶点，添加一个 <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [水平距离约束](Sketcher_ConstrainDistanceX.md)，距离为 1.8 毫米
+    -   再次选择矩形的左上点和导入线的顶点，添加一个 <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [垂直距离约束](Sketcher_ConstrainDistanceY.md)，距离为 1.8 毫米
+    -   选择矩形的右下点和右导入线的底点，添加一个 <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:16px;"> [水平距离约束](Sketcher_ConstrainDistanceX.md)，距离为 1.8 毫米
+    -   再次选择矩形的右下点和右导入线的底点，添加一个 <img alt="" src=images/Constraint_VerticalDistance.svg  style="width:16px;"> [垂直距离约束](Sketcher_ConstrainDistanceY.md)，距离为 1.8 毫米
 
 ![](images/Exercise_lego_07.jpg )
 
--   Leave edit mode and we can now perform the pocket operation: With the sketch selected, press the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Pocket](PartDesign_Pocket.md) button. Give it a length of 12.6mm, which will leave the upper face of our pad with a thickness of 1.8mm (remember, the total height of our pad was 14.4mm).
+-   退出编辑模式，我们现在可以进行口袋操作：在选中草图的情况下，按 <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Pocket](PartDesign_Pocket.md) 按钮。设置长度为 12.6 毫米，这将使我们垫的上面保持 1.8 毫米的厚度（记住，我们垫的总高度是 14.4 毫米）。
 
 ![](images/Exercise_lego_08.jpg )
 
--   We will now attack the 8 dots on the top face. To do this, since they are a repetition of a same feature, we will use the handy <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Linear pattern](PartDesign_LinearPattern.md) tool of the Part Design Workbench, which allows to model once and repeat the shape.
--   Start by selecting the top face of our block
--   Create a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [New sketch](Sketcher_NewSketch.md).
--   Create two <img alt="" src=images/Sketcher_Circle.svg  style="width:16px;"> [circles](Sketcher_CreateCircle.md).
--   For each circle, select it and add a <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> [Radius Constraint](Sketcher_ConstrainRadius.md) of 3.6mm to each of them
--   Import the left edge of the base face with the <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [External geometry](Sketcher_External.md) tool.
--   Place two vertical constraints and two horizontal constraints of 6mm between the center point of each circle and the corner points of the imported edge, so each circle has its center at 6mm from the border of the face:
+-   我们现在将对顶面的 8 个点进行处理。为了做到这一点，由于它们是同一特性的重复，我们将使用 Part Design Workbench 的便捷工具 <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [线性模式](PartDesign_LinearPattern.md)，它可以建模一次，然后重复形状。
+-   首先，选择我们块的顶面
+
+创建一个 <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [新草图](Sketcher_NewSketch.md)。
+
+-   创建两个 <img alt="" src=images/Sketcher_Circle.svg  style="width:16px;"> [圆](Sketcher_CreateCircle.md)。
+-   对于每个圆，选择它并添加一个半径约束 <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:16px;"> [Radius Constraint](Sketcher_ConstrainRadius.md)，每个半径为 3.6 毫米
+-   使用 <img alt="" src=images/Sketcher_External.svg  style="width:16px;"> [外部几何](Sketcher_External.md) 工具导入基面的左边缘。
+-   在每个圆的中心点和导入边缘的角点之间放置两个垂直约束和两个水平约束，每个约束为 6 毫米，这样每个圆的中心就离面的边界 6 毫米：
 
 ![](images/Exercise_lego_09.jpg )
 
--   Notice how, once again, when you lock the position and dimension of everything in your sketch, it becomes fully constrained. This always keeps you on the safe side. You could change the first sketch now, everything we did afterwards would keep tight.
--   Leave edit mode, select this new sketch, and create a <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad.md) of 2.7mm:
+-   注意，当你锁定草图中所有物体的位置和尺寸时，它就会变得完全约束。这总是让你呆在安全的一面。你现在可以改变第一个草图，我们之后做的所有事情都会保持严密。
+-   退出编辑模式，选择这个新的草图，创建一个厚度为 2.7 毫米的 <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [垫](PartDesign_Pad.md)：
 
 ![](images/Exercise_lego_10.jpg )
 
--   Notice that, as earlier with the pocket, since we used the top face of our base block as a base for this latest sketch, any PartDesign operation we do with this sketch will correctly be built on top of the base shape: The two dots are not independent objects, they have been extruded directly from our brick. This is the great advantage of working with the Part Design Workbench, as long as you take care of always building one step on top of the previous one, you are actually building one final solid object.
--   We can now duplicate our two dots four times, so we get eight. Select the latest Pad we just created.
--   Press the <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [Linear pattern](PartDesign_LinearPattern.md) button.
--   Give it a length of 36mm (which is the total \"span\" we want our copies to fit in), in the \"horizontal sketch axis\" direction, and make it 4 occurrences:
+-   注意，和之前的口袋一样，由于我们使用了基块的顶面作为这个最新草图的基础，所以我们用这个草图做的任何 PartDesign 操作都会正确地建立在基础形状的顶部：这两个点并不是独立的对象，它们已经直接从我们的砖块中挤出来了。这就是使用 Part Design Workbench 的巨大优势，只要你注意始终在前一步的基础上建立一步，你实际上就在建立一个最终的实体对象。
+-   我们现在可以将我们的两个点复制四次，这样我们就得到了八个。选择我们刚刚创建的最新的垫。
+-   按下 <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:16px;"> [线性模式](PartDesign_LinearPattern.md) 按钮。
+-   在 \"水平草图轴\" 方向上，给出 36 毫米的长度（这是我们希望我们的副本适应的总 \"跨度\"），并使其成为 4 个实例：
 
 ![](images/Exercise_lego_11.jpg )
 

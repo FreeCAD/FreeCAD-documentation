@@ -1,6 +1,10 @@
 # Artwork Splash screen/de
 Dieses sind die Splash-Screens, die für die jeweilige Programmversion verwendet wurden.
 
+## FreeCAD 0.21 
+
+![](images/Freecadsplash021.png )
+
 ## FreeCAD 0.20 
 
 ![](images/Freecadsplash020.png )

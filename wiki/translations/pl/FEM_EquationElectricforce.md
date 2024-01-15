@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM EquationElectricforce
-   Name/pl: MES: Równanie siły elektrostatycznej
+   Name/pl: Równanie siły elektrostatycznej
    MenuLocation: Rozwiąż , Równania elektromagnetyczne , Równanie siły elektrostatycznej
    Workbenches: FEM_Workbench/pl
    Version: 0.19
@@ -14,34 +14,42 @@
 
 ## Opis
 
-This equation describes the electrostatic force acting on a surface.
+To równanie opisuje siłę elektrostatyczną działającą na powierzchni.
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Electrostatic force*.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Electrostatic force** *(siła elektrostatyczna)*.
 
-## Usage
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Either use the toolbar button <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → Electricforce equation**.
-3.  Now either use the toolbar button <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> or the menu **Solve → Electromagnetic Equations → [Electrostatic equation](FEM_EquationElectrostatic.md)**. This is important because the electricforce equation needs the potential field calculated by the Electrostatic equation.
-4.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
-The electricforce equation only calculates the force for faces with a <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md) if the constraint\'s option **Calculate Electric Force** is used.
+## Użycie
 
-## Solver Settings 
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Wciśnij przycisk <img alt="" src=images/FEM_EquationElectricforce.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania elektromagnetyczne → Równanie siły elektrostatycznej**.
+3.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania elektromagnetyczne → [Równanie elektrostatyczne](FEM_EquationElectrostatic/pl.md)**. Jest to istotne, ponieważ równanie siły elektrostatycznej potrzebuje pola potencjału wyznaczonego przez równanie elektrostatyczne.
+4.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
+Równanie siły elektrostatycznej oblicza siłę tylko dla powierzchni z <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [warunkiem brzegowym potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md) jeśli w opcjach warunku brzegowego jest używane **Calculate Electric Force**.
 
-The electricforce equation provides this special setting:
 
--    **Exec Solver**: By default the equation is only solved after a timestep passed. This means it is first solved after the solution of other equations converged. When the setting is *Always* the equation is solved after every iteration within a time step. (For [steady-state](FEM_SolverElmer_SolverSettings#Type.md) simulations the whole simulation is one time step.)
 
-## Constraint Information 
+## Ustawienia solvera 
 
-The electricforce equation does not have own constraints. It takes the <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md) from the <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [Electrostatic equation](FEM_EquationElectrostatic.md). In the constraint it is important to use the option **Calculate Electric Force**.
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
-## Result
+Równanie siły elektrostatycznej posiada to specjalne ustawienieː
 
-The result is the electric force density in $\rm N/m^2$.
+-    **Exec Solver**: Domyślnie równanie jest rozwiązywane tylko po zakończeniu kroku czasowego. Oznacza to, że jest po raz pierwszy rozwiązywane po osiągnięciu zbieżności rozwiązania innych równań. Gdy ustawione jest *Always*, równanie jest rozwiązywane po każdej iteracji w obrębie kroku czasowego (dla symulacji [stanu ustalonego](FEM_SolverElmer_SolverSettings/pl#Typ.md) cała symulacja jest jednym krokiem czasowym).
+
+
+
+## Informacje o cechach analizy 
+
+Równanie siły elektrostatycznej nie ma własnych cech analizy. Korzysta z <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [warunku brzegowego potencjału elektrostatycznego](FEM_ConstraintElectrostaticPotential/pl.md) z <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> [równania elektrostatycznego](FEM_EquationElectrostatic/pl.md). Ważne jest aby w warunku brzegowym użyć opcji **Calculate Electric Force**.
+
+
+
+## Wyniki
+
+Wynikiem jest gęstość siły elektrycznej w $\rm N/m^2$.
 
 
 

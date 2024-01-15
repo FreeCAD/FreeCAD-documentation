@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 [Python](https://es.wikipedia.org/wiki/Python) es un popular lenguaje de programación de código abierto, muy a menudo incrustado en aplicaciones como lenguaje de guionización, como es el caso de FreeCAD. Tiene una serie de características que lo hacen adecuado para nosotros los usuarios de FreeCAD: Es muy fácil de aprender, especialmente para la gente que nunca ha programado antes, y está incrustado en muchas otras aplicaciones. Esto hace que sea una herramienta valiosa para aprender, ya que podrás utilizarla en otros programas, como [Blender](http://www.blender.org), [Inkscape](http://www.inkscape.org) o [GRASS](http://grass.osgeo.org/).
 
@@ -16,7 +16,7 @@ FreeCAD makes extensive use of Python. With it, you can access and control almos
 
 ![](images/Exercise_python_01.jpg )
 
-But the Python console has another very important use: Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console (if the option to **Show script commands in Python console** is enabled in **Edit → Preferences → General → Macro**) and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will find yourself learning some of the Python language.
+But the Python console has another very important use: Every time you press a toolbar button, or perform other operations in FreeCAD, some Python code is printed in the console (if the option to **Show script commands in Python console** is enabled in **Edit → Preferences → Python → Macro**) and executed. By leaving the Python console open, you can literally see the Python code unfold as you work, and in no time, almost without knowing it, you will find yourself learning some of the Python language.
 
 FreeCAD also has a [macros system](Macros.md), which allows you to record actions to be replayed later. This system also uses the Python console, by simply recording everything that is done in it.
 
@@ -81,6 +81,8 @@ View properties are stored inside a **ViewObject**. Each FreeCAD object possesse
 Try the following example to access the line color of our box:
 
 box.ViewObject.LineColor 
+
+
 
 ### Vectores y Colocaciones 
 

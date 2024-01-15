@@ -21,7 +21,7 @@ For FreeCAD 0.14 or older you have to install manually:
 
 1.  Go to [Yorik\'s Github account](https://github.com/yorikvanhavre/Draft-dxf-importer) and download these files (on the right side you can choose \"download as ZIP\").
 2.  Put the files in your macro folder.
-3.  If you are unsure where this folder is, go to **Edit → Preferences → General → Macro** and check the field named **Macro Path**.
+3.  If you are unsure where this folder is, go to **Edit → Preferences → Python → Macro** and check the field named **Macro Path**.
 
 -   In Ubuntu your macro folder is normally (the folder is hidden, you may need to unhide it):
 
@@ -30,8 +30,6 @@ For FreeCAD 0.14 or older you have to install manually:
 -   In Windows your macro folder is normally:
 
 C:\Users\your_user_name\AppData\Roaming\FreeCAD
-
-See also: [Dxf Importer Install](Dxf_Importer_Install.md)
 
 ## Tips and Tricks 
 

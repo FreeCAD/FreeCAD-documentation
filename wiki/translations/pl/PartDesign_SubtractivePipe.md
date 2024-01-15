@@ -20,12 +20,14 @@ Funkcja **Odejmowanie wyciągnięciem wzdłuż ścieżki** tworzy bryłę odejmu
 
 ## Użycie
 
-1.  Naciśnij przycisk **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Odejmowanie wyciągnięciem wzdłuż ścieżki'''**.
-2.  W oknie dialogowym **Wybierz cechę** wybierz szkic, który ma zostać użyty jako pierwszy przekrój i kliknij przycisk **OK**.
+1.  Istnieje kilka sposobów wywołania narzędzia:
+2.  Naciśnij przycisk **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Odejmowanie wyciągnięciem wzdłuż ścieżki'''**.
+    -   Wybierz opcję z menu **Projekt Części → Utwórz cechę przez dodanie → <img src="images/PartDesign_SubtractivePipe.svg" width=16px> Subtractive pipe**.
+    -   W oknie dialogowym **Wybierz cechę** wybierz szkic, który ma zostać użyty jako pierwszy przekrój i kliknij przycisk **OK**.
     -   Alternatywnie, szkic lub ścianę obiektu 3D *({{Version/pl|0.20}})* można wybrać przed naciśnięciem przycisku Odejmowanie wyciągnięciem wzdłuż ścieżki.
 3.  W oknie **Parametrach wyciągnięcia** w sekcji *Profil* naciśnij przycisk **Obiekt**.
 4.  Wybierz szkic, który ma zostać użyty jako ścieżka w oknie widoku 3D:
-    -   Alternatywnie można wybrać krawędzie bryły, naciskając przycisk **Dodaj krawędź** i wybierając krawędzie w widoku 3D.
+    -   Alternatywnie, przed uruchomieniem narzędzia można wybrać szkic lub twarz obiektu 3D ({{Version/pl|0.20}}). Wówczas nie pojawi się to okno dialogowe.
 5.  Aby użyć więcej niż jednego przekroju, w sekcji *Przekształcenie sekcji* ustaw tryb przekształcenia na *Przekrój wielokrotny*. Naciśnij **Dodaj sekcję**, a następnie wybierz szkic w oknie widoku 3D. Powtórz dla każdego dodatkowego przekroju.
 6.  W razie potrzeby ustaw opcje i kliknij **OK**.
 

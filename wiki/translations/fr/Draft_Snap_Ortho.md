@@ -15,6 +15,8 @@ L\'option <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Dr
 ![](images/Draft_Snap_Ortho_example.png ) 
 *Aimantation du deuxième point d'une ligne à une ligne imaginaire qui fait un angle de 45° avec l'axe X. Les petits cercles magenta indiquent toutes les directions possibles.*
 
+
+
 ## Utilisation
 
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
@@ -29,6 +31,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 6.  Si vous déplacez le curseur autour du point précédent, vous remarquerez un effet \"magnétique\" lorsque le curseur se trouve sur une ligne imaginaire infinie traversant ce point à un angle de 0°, 45°, 90° ou 135°.
 7.  Le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:16px;"> s\'affiche près du curseur.
 8.  Cliquez pour confirmer le point.
+
+
 
 ## Préférences
 

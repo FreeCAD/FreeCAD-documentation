@@ -12,116 +12,102 @@
 
 
 
-## Übersicht
+## Beschreibung
 
-Das Werkzeug **Part Ausformung** (Loft) wird verwendet, um aus zwei oder mehr Konturen eine Fläche, Schale oder eine Festkörper-Form zu erstellen. Die Konturen können ein Punkt (Knoten), eine Linie (Kante), ein Draht oder eine Fläche sein. Kanten und Drähte können entweder offen oder geschlossen sein. Es gibt verschiedene [Einschränkungen und Schwierigkeiten](Part_Loft/de#Einschränkungen_und_Schwierigkeiten.md), siehe unten, jedoch können die Konturen aus den Grundkörpern des Arbeitsbereichs [Part](Part_Workbench/de.md), den Objekten des Arbeitsbereichs [Draft](Draft_Workbench/de.md) und aus [Skizzen](Sketcher_Workbench/de.md) stammen.
+Der Befel <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) erstellt eine Fläche, ein Schalenobjekt oder eine Festkörper-Form aus zwei oder mehr Profilen (Querschnitten).
 
-Die Ausformung hat drei Parameter, \"Regelfläche\", \"Erzeuge Volumenkörper\" und \"Geschlossen\", jeweils mit einem Wert von \"wahr\" oder \"falsch\".
-
-Wenn \"Erzeuge Volumenkörper\" auf \"wahr\" gesetzt ist, erstellt FreeCAD einen Festkörper, wenn die Konturen geschlossenen Geometrien sind, wenn auf \"falsch\" gesetzt, erzeugt FreeCAD eine Fläche oder (aus mehreren Flächen) eine Hülle für offene oder geschlossene Profile.
-
-Wenn \"Regelfläche auf \" \"wahr\" gesetzt ist, erstellt FreeCAD eine Fläche, Flächen oder einen Festkörper aus Regelflächen. [Regelfläche auf Wikipedia.](https://de.wikipedia.org/wiki/Regelfl%C3%A4che)
-
-Wenn \"Geschlossen\" \"wahr\" ist, versucht FreeCAD, das letzte Profil in das erste Profil auszuformen, um eine geschlossene Figur zu erzeugen.
-
-Weitere Informationen, wie Profile miteinander verbunden werden, entnehme bitte der Seite [Part Ausformung Technische Details](Part_Loft_Technical_Details/de.md).
-
-![centre\|Part Loft. Aus drei Profilen, die zwei Part Kreise und eine Part Ellipse sind. Die Parameter sind Festkörper \"wahr\" und Regelfläche \"wahr\".](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+<img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
+*Loft-Objekt über drei Profile, zwei [Part Kreisen](Part_Circle.md) und einer [Part Ellipse](Part_Ellipse/de.md). Die Eigenschaften Solid und Ruled sind auf "True" gesetzt.*
 
 
 
-## Hinweise
+## Anwendung
 
--   [App-Link](App_Link/de.md)-Objekte, die auf geeignete Objektarten verweisen und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Profile und Pfade verwendet werden. {{Version/de|0.20}}
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Part_Loft.svg" width=16px> [Ausformung...](Part_Loft/de.md)** drücken.
+    -   Den Menüeintrag **Part → <img src="images/Part_Loft.svg" width=16px> Ausformung...** auswählen.
 
+2.  Der [Aufgaben-Bereich](Task_panel/de.md) Ausformung (Loft) wird geöffnet.
 
+3.  In der linken Liste *Verfügbare Profiles* das erste Profil auswählen und es dann mit dem Pfeil nach rechts in die rechte Liste *Ausgewählte Profile* verschieben.
 
-## Einschränkungen und Schwierigkeiten 
+4.  Den letzten Schritt wiederholen für das zweite Profil und nochmals für jedes weitere Profil, wenn mehr als zwei Profile verwendet werden sollen.
 
--   Ein Knoten oder Punkt
-    -   Knoten oder Punkt darf nur als erstes und/oder letztes Profil in der Liste der Profile verwendet werden.
-        -   Zum Beispiel
-            -   Du kannst nicht von einem Kreis zu einem Punkt, zu einer Ellipse ausformen.
-            -   Allerdings kannst Du von einem Punkt zu einem Kreis zu einer Ellipse zu einem anderen Punkt ausformen.
--   Offene oder geschlossene Geometrieprofile können nicht in einer einzigen Loft gemischt werden.
-    -   In einer Ausformung müssen alle Profile (Linienzüge usw.) entweder offen oder geschlossen sein.
-        -   Zum Beispiel
-            -   FreeCAD kann nicht zwischen einem Teilkreis und einer Standard-Bauteillinie ausgeformt werden.
--   Funktionen des Arbeitsbereichs Draft
-    -   Funktionen des Arbeitsbereichs Draft können direkt als Profil in FreeCAD 0.14 oder später verwendet werden.
-        -   Beispielsweise können die folgenden Draft-Funktionen als Profile in einer Part-Ausformung verwendet werden.
-            -   Draft Polygon.
-            -   Draft Punkt, Linie, Draht,
-            -   Draft B-Spline, Bezierkurve
-            -   Draft Kreis, Ellipse, Rechteck
--   PartDesign Skizzen
-    -   Das Profil kann mit einer Skizze erstellt werden. Allerdings wird nur eine gültige Skizze in der zur Verfügung stehenden Liste angezeigt.
-    -   Die Skizze darf nur einen offenen oder geschlossenen Draht oder eine Linie enthalten (es können mehrere Linien sein, wenn diese Linien alle verbunden sind und so einen einzigen Draht bilden)
--   Arbeitsbereich Part
-    -   das Profil kann ein gültiger geometrischer Part-Grundkörper sein, der mit dem Werkzeug [Part Grundkörper erstellen](Part_Primitives/de.md) erstellt werden kann.
-        -   Zum Beispiel können die folgenden geometrischen Part-Grundkörper ein gültiges Profil sein.
-            -   Punkt (Knoten), Linie (Kante)
-            -   Wendel (Helix), Spirale
-            -   Kreis, Ellipse
-            -   Regelmäßiges Polygon
-            -   Ebene (Fläche)
+5.  Wahlweise die Pfeile nach oben und nach unten drücken, um die Reihenfolge der Profile zu ändern.
 
--   Geschlossene Ausformungen
-    -   Die Ergebnisse geschlossener Ausformungen können unerwartet sein - die Ausformung kann Verdrehungen oder Knicke entwickeln. Ausformen ist sehr empfindlich auf die Platzierung der Profile und die Komplexität der Kurven, die erforderlich sind, um die zugehörigen Knoten in allen Profilen zu verbinden.
+6.  Die Optionen [Festkörper](#Data.md), [Regelfläche](#Data.md) und [Geschlossen](#Data.md) festlegen.
+
+7.  
+    **OK**drücken.
 
 
 
-## Eine Beispiel-Ausformung 
+### Akzeptierte Geometrie 
 
-Das Werkzeug Ausformung befindet sich im Arbeitsbereich Part, Menü Part -\> Ausformung\... oder über das Symbol in der Werkzeugleiste.
+**Profile** können ein Punkt (Knoten), eine Linie (Kante), ein Kantenzug oder eine Fläche sein. Kanten und Kantenzüge können entweder offen oder geschlossen sein. Es gibt verschiedene [Einschränkungen](#Einschränkungen.md), siehe unten.
 
-![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
-
-In den \"Aufgaben\" befinden sich zwei Listen: \"Vorhanden\" und \"Ausgewählt\".
-
-![](images/Part_Loft_Liste3.png )
-
-### Auswahl der Schnittkonturen 
-
-Unter \"Verfügbare Profile\" werden die verfügbaren Elemente angezeigt. Zwei (Quer-) Schnitte müssen ausgewählt werden, einer nach dem ersten in dieser Liste .
-
-![](images/Part_Loft_Liste_Auswahl_3b.png )
-
-Danach wird dieser Eintrag mit dem blauen Pfeil zur Liste \"Ausgewählte Profile\" hinzugefügt.
-
-![](images/Part_Loft_Liste_Auswahl_3c.png )
-
-Die ausgewählten Einträge müssen vom gleichen Typ sein.
-
-Hinweis: Die aktiven/ausgewählten Einträge in der Liste werden im 3D-Bereich als aktiv/ausgewählt angezeigt.
+-   [App-Link](App_Link/de.md)-Objekte, die auf geeignete Objektarten verweisen und [App-Part](App_Part/de.md)-Container, die geeignete sichtbare Objekte enthalten, können auch als Profile verwendet werden. {{Version/de|0.20}}
 
 
 
-### Befehl vollständig 
-
-Wenn beide Schnitte ausgewählt sind, kann der Befehl mit \"OK\" abgeschlossen werden.
-
-![](images/Part_Loft_Liste_Auswahl_3d.png )
+## Optionen
 
 
 
-### Ergebnis
+#### Festkörper erstellen 
 
-Aus geschlossenen Linien erhalten wir Oberflächen, die bei oberflächlicher Betrachtung als Festkörper angesehen werden könnten.
-
-![](images/Part_Loft_geschlossen.png )
-
-Wenn tatsächlich ein Festkörper erstellt werden muss, verwendet man die Schaltfläche \"Festkörper erstellen\" oder wechselt, nachdem die Ausformung erzeugt wurde, zum Reiter *Daten* in ihren \'\'Eigenschaften und setzt den Schalter \"Solid\" auf true.
-
-Bei offenen Polylinien ist die Vorgehensweise die gleiche wie oben beschrieben.
+Wenn \"Festkörper erstellen\" auf \"wahr\" gesetzt ist, erstellt FreeCAD einen Festkörper, vorausgesetzt, dass die Profile geschlossen sind; wenn auf \"falsch\" gesetzt, erzeugt FreeCAD stets eine Fläche oder eine Hülle, sowohl aus offenen als auch aus geschlossenen Profilen.
 
 
 
-### Auswahl der Querschnitte ändern 
+#### Regelfläche
 
-Soll die Auswahl der Querschnitte nach der Erstellung der Ausformung geändert werden, kann das Feld Sections auf der Registerkarte Daten markiert und die erscheinende Schaltfläche **...** (Ellipse) angeklickt werden. Die Liste aller auswählbaren Querschnitte erscheint und die aktuelle Auswahl wird hervorgehoben. Es können zusätzliche Abschnitte entfernt oder hinzugefügt werden.
+Wenn \"Regelfläche\" auf \"wahr\" gesetzt ist, erstellt FreeCAD eine Fläche, eine Hülle oder einen Festkörper aus [Regelflächen.](https://de.wikipedia.org/wiki/Regelfl%C3%A4che)
 
-Die Reihenfolge der Abschnitte hängt von der Reihenfolge der Klicks in der Liste ab. Wenn Du wesentliche Änderungen vornehmen möchtest, empfiehlt es sich, zuerst alle zu deselektieren und dann die Auswahl in der richtigen Reihenfolge zu starten.
+
+
+#### Geschlossen
+
+Wenn \"Close\" \"true\" ist, versucht FreeCAD, das letzte Profil mit dem ersten Profil zu verbinden, um eine geschlossene Figur zu erzeugen.
+
+Weitere Informationen, wie Profile miteinander verbunden werden, befinden sich auf der Seite [Part Ausformung Technische Details](Part_Loft_Technical_Details/de.md).
+
+
+
+## Eigenschaften
+
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
+
+Ein Part-Loft-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
+
+### Daten
+
+
+{{TitleProperty|Loft}}
+
+-    {{PropertyData/de|Sections|LinkList}}: listet die verwendeten Querschnitte.
+
+-    {{PropertyData/de|Solid|Bool}}: true oder false (Standardwert). True bewirkt, dass ein Festkörper (Solid) erstellt wird.
+
+-    {{PropertyData/de|Ruled|Bool}}: true oder false (Standardwert). True bewirkt, dass Regelflächen erstellt werden.
+
+-    {{PropertyData/de|Closed|Bool}}: true oder false (Standardwert). True bewirkt, dass ein geschlossenes Loft-Objekt durch Verbinden des letzten mit dem ersten Profil erstellt wird.
+
+-    {{PropertyData/de|Max Degree|IntegerConstraint}}: Größtmöglicher Grad.
+
+
+
+## Einschränkungen
+
+Ein Part-Loft-Objekt hat dieselben Einschränkungen, wie ein [Part-Sweep-Objekt](Part_Sweep/de#Einschränkungen.md).
+
+
+
+### Geschlossene Loft-Objekte 
+
+-   Die Ergebnisse eines geschlossenen Loft-Objekts sind nicht immer wie erwartet, das Loft-Objekt kann Verdrehungen oder Knicke entwickeln. Das Austragen von Loft-Objekten reagiert sehr empfindlich auf die Positionierung der Profile und die Komplexität der Kurven, die erforderlich sind, um die zusammengehörigen Knoten in allen Profilen zu verbinden.
 
 
 

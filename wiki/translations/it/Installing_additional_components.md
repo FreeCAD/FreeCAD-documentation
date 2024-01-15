@@ -3,17 +3,25 @@
 
 Dopo aver installato FreeCAD sul tuo sistema operativo ([Windows](Installing_on_Windows/it.md), [Linux](Installing_on_Linux/it.md) o [Mac](Installing_on_Mac/it.md)), si può prendere in considerazione l\'installazione di uno o più dei seguenti componenti aggiuntivi.
 
+
+
 # File di aiuto 
 
 Vedere [Installazione del file della Guida](Installing_Helpfile/it.md).
+
+
 
 # Ambienti di lavoro esterni 
 
 Oltre ai pacchetti degli [ambienti di lavoro](workbenches/it.md) forniti di default con FreeCAD, vi è un\'ampia collezione di utili [ambienti complementari](External_workbenches/it.md) realizzati dai membri della comunità.
 
+
+
 ## Software di terze parti 
 
 FreeCAD supporta molti pacchetti software di terze parti pronti all\'uso. In molti casi l\'unica cosa da fare è installare il software e quando FreeCAD viene riavviato lo troverà automaticamente e sarà in grado di usarlo. Questa sezione intende fornire un elenco di tali pacchetti software, insieme ad alcune informazioni su dove vengono utilizzati in FreeCAD e da dove possono essere scaricati.
+
+
 
 ## Supporti
 
@@ -33,6 +41,8 @@ FreeCAD supporta molti pacchetti software di terze parti pronti all\'uso. In mol
 
 [OpenSCAD](https://www.openscad.org) è un modellatore solido 3D. L\'ambiente [OpenSCAD](OpenSCAD_Workbench/it.md) dipende da questo software e [Mesh Workbench](Mesh_Workbench/it.md) lo utilizza per i suoi strumenti booleani. È richiesto anche per l\'importazione di file SCAD con lo strumento [Std Import](Std_Import/it.md).
 
+
+
 ## Formati file 
 
 Tutto il software in questa sezione viene utilizzato dagli strumenti [Importa](Std_Import/it.md) o [Esporta](Std_Export/it.md).
@@ -44,6 +54,8 @@ Tutto il software in questa sezione viene utilizzato dagli strumenti [Importa](S
 ### DXF Importer 
 
 FreeCAD ha un importatore ed esportatore nativo per file DXF, programmato in C++. Attualmente non implementa tutte le funzionalità del formato DXF. Per queste funzionalità sono ancora disponibili l\'importatore ed esportatore Python legacy. Questi richiedono la libreria Python [Draft-dxf-importer](https://github.com/yorikvanhavre/Draft-dxf-importer). Vedere la pagina [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md) per maggiori informazioni.
+
+
 
 ### Convertitori DWG 
 
@@ -81,11 +93,13 @@ Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [I
 
 [POV-Ray](https://www.povray.org) è un noto ray-tracer che può rendere immagini fotorealistiche. È uno dei due motori di rendering attualmente supportati dall\'ambiente [Raytracing](Raytracing_Workbench/it.md). Consulta la pagina [POV-Ray](POV-Ray/it.md) per ulteriori informazioni e istruzioni di installazione.
 
+
+
 ## Elementi finiti 
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) è una suite di due pacchetti di elementi finiti: CalculiX CrunchiX, un risolutore FEM, e CalculiX GraphiX, un frontend GUI. Solo il risolutore è supportato da FreeCAD. Viene utilizzato dallo strumento [Risolutore CalculiX](FEM_SolverCalculiX/it.md).
+[CalculiX](http://calculix.de) è una suite di due pacchetti di elementi finiti: CalculiX CrunchiX, un risolutore FEM, e CalculiX GraphiX, un frontend GUI. Solo il risolutore è supportato da FreeCAD. Viene utilizzato dallo strumento [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md).
 
 ### Gmsh
 
@@ -106,6 +120,8 @@ Vedere [Preferenze di Importa/Esporta](Import_Export_Preferences/it#DWG.md) e [I
 ### OpenFOAM
 
 [OpenFOAM](https://openfoam.org) è una vasta raccolta di librerie per simulazioni di fluidodinamica computazionale (CFD). OpenFOAM è utilizzato dall\'ambiente [Cfd](Cfd_Workbench/it.md) e [CfdOF](https://github.com/jaheyns/CfdOF) [external_workbench](external_workbench.md).
+
+
 
 # Pagine correlate 
 

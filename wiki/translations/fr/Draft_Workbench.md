@@ -9,7 +9,7 @@ L\'<img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> **atelier Dr
 
 Les objets Draft peuvent être utilisés pour le dessin général, de manière similaire à ce que l\'on peut faire avec Inkscape ou AutoCAD. Mais ils peuvent également servir de base à la création d\'objets 3D dans d\'autres environnements de travail. Une [Draft Polyligne](Draft_Wire/fr.md) peut définir le tracé d\'un [Arch Mur](Arch_Wall/fr.md), un [Draft Polygone](Draft_Polygon/fr.md) peut être extrudé avec [Part Extrusion](Part_Extrude/fr.md), etc. La plupart des [outils de modification de Draft](#Modification.md) peuvent être appliqués à des objets 2D et 3D créés avec d\'autres ateliers. Vous pouvez, par exemple, [déplacer](Draft_Move/fr.md) une [esquisse](Sketcher_Workbench/fr.md) ou créer un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à partir d\'un objet [Part](Part_Workbench/fr.md).
 
-L\'atelier Draft fournit également des outils pour définir un [plan de travail](Draft_SelectPlane/fr.md), une [grille](Draft_Snap_Grid/fr.md) et un [système d\'aimantaion](Draft_Snap/fr.md) pour contrôler précisément la position de la géométrie.
+L\'atelier Draft fournit également des outils pour définir un [plan de travail](Draft_SelectPlane/fr.md), une [grille](Draft_Snap_Grid/fr.md) et un [système d\'aimantation](Draft_Snap/fr.md) pour contrôler précisément la position de la géométrie.
 
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
@@ -54,7 +54,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Surfaces liées](Draft_Facebinder/fr.md) : crée un objet surface à partir des faces sélectionnées.
 
--   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Formes à partir de texte](Draft_ShapeString/fr.md) : crée une forme composée qui représente une chaîne de texte.
+-   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Forme à partir d\'un texte](Draft_ShapeString/fr.md) : crée une forme composée qui représente une chaîne de texte.
 
 -   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachure](Draft_Hatch/fr.md) : crée des hachures sur les faces planes d\'un objet sélectionné. {{Version/fr|0.20}}
 
@@ -78,7 +78,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_Mirror.svg  style="width:32px;"> [Miroir](Draft_Mirror/fr.md) : crée des copies miroir à partir des objets sélectionnés.
 
--   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Décalage](Draft_Offset/fr.md) : décale chaque segment d\'un objet sélectionné sur une distance donnée ou crée une copie décalée de l\'objet sélectionné.
+-   <img alt="" src=images/Draft_Offset.svg  style="width:32px;"> [Décaler](Draft_Offset/fr.md) : décale chaque segment d\'un objet sélectionné sur une distance donnée ou crée une copie décalée de l\'objet sélectionné.
 
 -   <img alt="" src=images/Draft_Trimex.svg  style="width:32px;"> [Ajuster ou prolonger](Draft_Trimex/fr.md) : coupe ou étend un objet sélectionné.
 
@@ -116,7 +116,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polyligne vers B-spline](Draft_WireToBSpline/fr.md) : convertit des [Draft Polylignes](Draft_Wire/fr.md) en [Draft B-splines](Draft_BSpline/fr.md) et vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft vers Esquisse](Draft_Draft2Sketch/fr.md): convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft vers esquisse](Draft_Draft2Sketch/fr.md) : convertit les objets [Draft](Draft_Workbench/fr.md) en [Sketcher Esquisses](Sketcher_NewSketch/fr.md) et vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Pente](Draft_Slope/fr.md) : incline les [Draft Lignes](Draft_Line/fr.md) ou les [Draft Polylignes](Draft_Wire.md) sélectionnés en augmentant ou en diminuant, la coordonnée Z de tous les points après le premier.
 
@@ -132,7 +132,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 ![](images/Draft_tray_default.png )
 
--   ![](images/Draft_tray_button_plane.png ) [Plan de travail](Draft_SelectPlane/fr.md) : sélectionne le plan de travail Draft en cours. Egalement disponible dans le menu : **Draft → Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionnez un plan**.
+-   ![](images/Draft_tray_button_plane.png ) [Plan de travail](Draft_SelectPlane/fr.md) : définit le plan de travail Draft en cours. Egalement disponible dans le menu : **Draft → Utilitaires → <img src="images/Draft_SelectPlane.svg" width=16px> Sélectionner un plan**.
 
 -   ![](images/Draft_tray_button_style.png ) [Définir le style](Draft_SetStyle/fr.md) : définit le style par défaut pour les nouveaux objets. Egalement disponible dans le menu : **Draft → Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style**.
 
@@ -164,7 +164,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md) : active ou désactive l\'aimantation de manière globale.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md) : aimante aux extrémités des segments.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
@@ -182,7 +182,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Aimantation Spécial](Draft_Snap_Special/fr.md) : aimante à des points spéciaux définis par l\'objet.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Aimantation Le plus proche](Draft_Snap_Near/fr.md) : aimante au point le plus proche sur les faces et les bords.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Aimantation Au plus proche](Draft_Snap_Near/fr.md) : aimante au point le plus proche sur les faces et les bords.
 
 -   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Aimantation Orthogonal](Draft_Snap_Ortho/fr.md) : aimante sur des lignes imaginaires qui croisent le point précédent à des multiples de 45°.
 
@@ -192,7 +192,7 @@ La barre d\'outils Draft Aimantation permet de sélectionner les options actives
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) : montre les dimensions X et Y temporaires.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : active ou désactive la grille.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Basculer la grille](Draft_ToggleGrid/fr.md) : modifie la visibilité de la grille.
 
 
 
@@ -224,8 +224,6 @@ Le menu **Draft → Utilitaires** contient plusieurs outils. La plupart d\'entre
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Réparer](Draft_Heal/fr.md) : répare les objets Draft problématiques trouvés dans de très vieux fichiers.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Basculer en mode continu](Draft_ToggleContinueMode/fr.md) : active ou désactive le mode continu.
-
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Barre d\'aimantation](Draft_ShowSnapBar/fr.md) : montre la [Draft Barre d\'aimantation](#Barre_d.27outils_d.27aimantation_de_Draft.md).
 
 
@@ -250,19 +248,11 @@ Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue
 
 Pour la plupart des objets Draft, l\'option suivante est disponible :
 
--   Editer : édite l\'objet. Selon le type d\'objet, on utilise soit [Draft Editer](Draft_Edit/fr.md) soit une solution d\'édition dédiée. {{Version/fr|0.21}}
+-   Éditer : édite l\'objet. Selon le type d\'objet, on utilise soit [Draft Éditer](Draft_Edit/fr.md) soit une solution d\'édition dédiée. {{Version/fr|0.21}}
 
 S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
 -   Utilitaires : un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
-
-
-
-### Options des lignes 
-
-Pour une [Draft Ligne](Draft_Line/fr.md) et une [Draft Polyligne](Draft_Wire/fr.md), cette option supplémentaire est disponible :
-
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Aplatir : aplatit la polyligne sur le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Cette option ne fonctionne pas correctement pour la {{VersionMinus/fr|0.19}}.
 
 
 
@@ -283,6 +273,22 @@ Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont dis
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Activer ce calque](Draft_AutoGroup/fr.md) : active le calque sélectionné.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Sélectionner le contenu du calque](Draft_SelectGroup/fr.md) : sélectionne les objets à l\'intérieur du calque sélectionné.
+
+
+
+### Options du texte 
+
+Pour un [Draft Texte](Draft_Text/fr.md) et une [Draft Étiquette](Draft_Label/fr.md) qui contient un ou plusieurs hyperliens, vers un fichier local ou distant ou vers une URL, cette option supplémentaire est disponible :
+
+-   Ouvrir les hyperliens : les hyperliens sont ouverts dans l\'application appropriée (telle que définie par le système d\'exploitation). Il y a un avertissement dans le cas d\'hyperliens multiples. {{Version/fr|0.22}}
+
+
+
+### Options des lignes 
+
+Pour une [Draft Ligne](Draft_Line/fr.md) et une [Draft Polyligne](Draft_Wire/fr.md), cette option supplémentaire est disponible :
+
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Aplatir : aplatit la polyligne sur le [Draft Plan de travail](Draft_SelectPlane/fr.md) en cours. Cette option ne fonctionne pas correctement pour la {{VersionMinus/fr|0.19}}.
 
 
 
@@ -310,11 +316,19 @@ S\'il y a un document actif, le menu contextuel contient un sous-menu supplémen
 
 
 
+### Options du texte 
+
+Voir [au dessus](#Text_options.md).
+
+
+
 ## Outils obsolète 
 
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Réseau](Draft_Array/fr.md) : crée un réseau orthogonal à partir d\'un objet sélectionné. Le réseau créé peut être transformé en un [réseau polaire](Draft_PolarArray/fr.md) ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété **Array Type**. Elle n\'est plus disponible dans la {{VersionPlus/fr|0.21}}.
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Dessin](Draft_Drawing/fr.md) : insère des vues des objets sélectionnés dans une page [Drawing](Drawing_Workbench/fr.md). Elle n\'est plus disponible dans la {{VersionPlus/fr|0.21}}.
+
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Basculer en mode continu](Draft_ToggleContinueMode/fr.md) : active ou désactive le mode continu. Cela n\'est plus disponible avec la {{VersionPlus/fr|0.22}}.
 
 
 

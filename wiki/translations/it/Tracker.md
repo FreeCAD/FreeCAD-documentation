@@ -177,12 +177,6 @@ Il formato MantisBT riconoscerà:
 Per i curiosi ecco la regex che MantisBT utilizza per questa operazione:
 
 
-## Pagine correlate 
-
--   [Smistamento dei bug](Bug_Triage/it.md)
--   [Gestione del codice sorgente](Source_code_management/it.md)
-
-
 
 ---
 ⏵ [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Administration](Category_Administration.md) > Tracker/it

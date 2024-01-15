@@ -1,33 +1,38 @@
 ---
- GuiCommand:Addon
+ GuiCommand:Addon/pl
    Name: BIM Project
-   Workbenches: BIM Workbench
+   Name/pl: BIM: Projekt
+   Workbenches: BIM_Workbench/pl
    Addon: BIM
    MenuLocation: Manage , Manage project...
 ---
 
 # BIM Project/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_project_screenshot.png  style="width:1024px;">
 
-The project setup dialog is a wizard dialog that allows you to create a basic set of guide objects in the current document or in a new document, that will help you to start modeling a BIM project.
+Okno dialogowe konfiguracji projektu to okno kreatora, które umożliwia utworzenie podstawowego zestawu obiektów przewodnika w bieżącym dokumencie lub w nowym dokumencie, który pomoże rozpocząć modelowanie projektu BIM.
 
-The project setup dialog can create:
+Można utworzyć okno dialogowe konfiguracji projektu:
 
--   A new [document](Document_structure.md). Alternatively, the other objects will be created in the currently opened document.
--   A [site](Arch_Site.md). The Site object represents a piece of terrain, where your project will be located. You can give it a number of useful properties, such as street address and earth coordinates. Upon creation, the site is just an empty container for other BIM objects, but a 3D object representing the actual terrain can be attached to it later on.
--   A [building](Arch_Building.md). The Building object is a container for all the BIM objects that will belong to a same building. You can define a building type, and give it gross rectangular dimensions, that will be represented as a rectangle drawn on the ground (X,Y) plane.
--   A set of [axes](Arch_Axis.md), by defining their number and spacing. Axes are used as guidelines to align 2D and 3D objects. These axes can be modified or new axes introduced later on.
--   A set of [BuildingParts](Arch_BuildingPart.md) to represent levels. BuildingParts are generic BIM container objects that can be used to group other BIM objects in a number of meaningful ways, such as repeatable components or building levels.
--   A set of default [groups](Std_Group.md) inside each level. Groups can be used to organize your BIM objects in clearer categories, such as \"Walls\" or \"Columns\". They have no impact on the model itself, but often help to make your model structure clearer when it contains a lot of objects.
+-   Nowa [struktura dokumentu](Document_structure/pl.md). Alternatywnie, inne obiekty zostaną utworzone w aktualnie otwartym dokumencie.
+-   [teren](Arch_Site/pl.md). Obiekt Teren reprezentuje kawałek terenu, na którym będzie zlokalizowany projekt. Możesz nadać mu wiele przydatnych właściwości, takich jak adres ulicy i współrzędne globalne. Po utworzeniu, plac budowy jest tylko pustym pojemnikiem dla innych obiektów BIM, ale obiekt 3D reprezentujący rzeczywisty teren może być dołączony do niego później.
+-   [Budowla](Arch_Building/pl.md). Obiekt Budowli jest kontenerem dla wszystkich obiektów BIM, które będą należeć do tego samego budynku. Możesz zdefiniować typ budynku i nadać mu prostokątne wymiary brutto, które będą reprezentowane jako prostokąt narysowany na płaszczyźnie gruntu *(X,Y)*.
+-   Zestaw [Osie](Arch_Axis/pl.md), definiując ich liczbę i odstępy. Osie są używane jako wytyczne do wyrównywania obiektów 2D i 3D. Osie te można później modyfikować lub wprowadzać nowe.
+-   Zestaw [Część budowli](Arch_BuildingPart/pl.md) do reprezentowania poziomów. Część budowli to ogólne obiekty kontenerowe BIM, które mogą być używane do grupowania innych obiektów BIM na wiele znaczących sposobów, takich jak powtarzalne komponenty lub poziomy budynku.
+-   Zestaw domyślnych [grup](Std_Group/pl.md) wewnątrz każdego poziomu. Grupy mogą być używane do organizowania obiektów BIM w bardziej przejrzyste kategorie, takie jak \"Ściany\" lub \"Kolumny\". Nie mają one wpływu na sam model, ale często pomagają uczynić strukturę modelu bardziej przejrzystą, gdy zawiera on wiele obiektów.
 
-### Templates
 
-The Project tool supports two kinds of templates: Once you have filled the different options, the contents of the BIM project setup wizard can be **saved** as a template. These templates can be **restored** and adapted at a later time. Project templates are stored as plain text files in your FreeCAD user folder.
 
-Alternatively, you can also save the contents of the current document as a template. This will save the currently opened document as a standard **.FCStd** file, but also include additional BIM settings like the current working plane, or current units. By using the **restore** option anytime, the contents of that template file will be merged into the active document and all settings found in it applied.
+### Szablony
+
+Narzędzie Projekt obsługuje dwa rodzaje szablonów: Po wypełnieniu różnych opcji zawartość kreatora konfiguracji projektu BIM można *zapisać* jako szablon. Szablony te można *przywrócić* i dostosować w późniejszym czasie. Szablony projektów są przechowywane jako zwykłe pliki tekstowe w folderze użytkownika FreeCAD.
+
+Alternatywnie można również zapisać zawartość bieżącego dokumentu jako szablon. Spowoduje to zapisanie aktualnie otwartego dokumentu jako standardowego pliku *.FCStd*, ale także uwzględni dodatkowe ustawienia BIM, takie jak bieżąca płaszczyzna robocza lub bieżące jednostki. Używając opcji *przywróć* w dowolnym momencie, zawartość tego pliku szablonu zostanie scalona z aktywnym dokumentem i zastosowane zostaną wszystkie znalezione w nim ustawienia.
 
 
 

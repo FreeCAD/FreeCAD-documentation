@@ -20,7 +20,7 @@ extrapole une face ou une surface existante à ses limites avec ses paramètres 
 
 
 
-*À gauche: surface d'origine. À droite: surface étendu.*
+*À gauche : surface d'origine. À droite : surface étendu.*
 
 
 
@@ -49,7 +49,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Face|LinkSub}}: le sous-élément d\'un objet qui sera étendu; ce doit être une face.
+-    {{PropertyData/fr|Face|LinkSub}}: le sous-élément d\'un objet qui sera étendu ; ce doit être une face.
 
 -    {{PropertyData/fr|Tolerance|FloatConstraint}}: la valeur par défaut est {{Value|0.1}}.
 
@@ -83,7 +83,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 

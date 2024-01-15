@@ -10,11 +10,15 @@
 
 # Arch Reference/de
 
+
+
 ## Beschreibung
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
 Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren, das die Form und Farben eines in einer anderen Datei gespeicherten [Part](Part_Workbench/de.md) basierten Objekts (einschließlich [Arch Gebäudeteil](Arch_BuildingPart/de.md)) kopiert. Wenn sich die FreeCAD Datei ändert, wird das Objekt für eine Aktualisierung vorgemerkt.
+
+
 
 ## Anwendung
 
@@ -24,6 +28,8 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 3.  Wähle eins der enthaltenen Part-basierten Objekte aus der Aufklappliste
 4.  Drücke **OK**
 
+
+
 ## Optionen
 
 -   Das Referenz-Objekt kann bewegt und gedreht werden, die aktuelle Position wird bei einem Neuladen des Objekts beibehalten.
@@ -31,6 +37,8 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 -   Bei Rechtsklick eines Referenz-Objekts in der Baumansicht hast du die Optionen, das Original-Objekt neuzuladen oder die externe Datei zu öffnen.
 -   Um mehrere Objekte auf einmal zu referenzieren, platziere sie in einem [Arch Gebäudeteil](Arch_BuildingPart/de.md).
 -   Beim Ausschalten der **Update Colors**-Eigenschaft der Referenz werden die Originalfarben nicht mehr neugeladen, so dass du sie gefahrlos ändern kannst.
+
+
 
 ## Eigenschaften
 
@@ -40,7 +48,9 @@ Das Referenz Werkzeug erlaubt es, im aktuellen Dokument ein Objekt zu platzieren
 
 -    {{PropertyView/de|Update Colors}}: Falls `True`, werden die Farben auf Basis der verbundenen Datei aktualisiert
 
-## Programmierung
+
+
+## Skripten
 
 Das Referenz-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus mit folgender Funktion angesprochen werden: 
 ```python

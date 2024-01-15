@@ -1,4 +1,7 @@
 # Macro CenterFace/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro CenterFace
 |Translate=Centro faccia
@@ -9,16 +12,35 @@
 |Date=2018-10-07
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro marca con un punto rosso (modificabile) il centro della faccia (massa) e stampa le sue coordinate
 
+
+</div>
+
 <img alt="" src=images/Macro_CenterFace_00.png  style="width:480px;"> 
 *Centro della faccia*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 Selezionare una faccia ed avviare la macro. Sulla faccia appare un punto di colore rosso (il colore può essere modificato).
+
+
+</div>
 
 Per cambiare il colore del punto modificare le righe 36, 37, 38
 
@@ -30,9 +52,17 @@ blue = 0.0 \#
 
 Il centro della superficie della faccia (massa) e le sue coordinate XYZ vengono visualizzati nella vista report.
 
+## Icon
+
+
+<div class="mw-translate-fuzzy">
+
 ## Icone
 
 Scaricare le immagini e copiarle nel repertorio delle macro.
+
+
+</div>
 
 Cliccare sull\'immagine con il tasto destro del mouse e salvarla nella nuova posizione selezionando \"Salva oggetto con nome \...\"
 
@@ -136,6 +166,8 @@ App.Console.PrintMessage( "__End____________"+"\n")
 
 
 }}
+
+
 
 ## Versione
 

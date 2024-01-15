@@ -9,7 +9,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o constrângere MEF pentru a o deplasare prescrisă a unui obiect selectat pentru un număr specificat de grade de libertate.
+
+
+</div>
 
 
 
@@ -60,7 +66,7 @@ This code has the following syntax:
 
 ### Rotations
 
-Elmer only uses the **Displacement \*** fields of the constraint. To define rotations, we need a formula.
+Elmer only uses the **Displacement \*** fields of the boundary condition. To define rotations, we need a formula.
 
 If for example a face should be rotated according to this condition:
 

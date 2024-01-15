@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft PathArray
    Name/de: Draft PfadAnordnung
-   MenuLocation: Änderung , Array tools , Pfad-Anordnung
+   MenuLocation: Änderung , Anordnungswerkzeuge , Pfad-Anordnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.14
    SeeAlso: Draft_OrthoArray/de, Draft_PolarArray/de, Draft_CircularArray/de, Draft_PathLinkArray/de, Draft_PointArray/de, Draft_PointLinkArray/de
@@ -29,7 +29,7 @@ Beide Befehle können für 2D-Objekte verwendet werden, die mit den Arbeitsberei
 2.  Ein Pfadobjekt zur Auswahl hinzufügen. Es ist auch möglich stattdessen Kanten auszuwählen. Die Kanten müssen zu demselben Objekt gehören und miteinander verbunden sein.
 3.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_PathArray.svg" width=16px> [Pfad-Anordnung](Draft_PathArray.md)** drücken.
-    -   Den Menüeintrag **Änderung → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Pfad-Anordnung** auswählen.
+    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PathArray.svg" width=16px> Pfad-Anordnung** auswählen.
 4.  Die Anordnung wird erstellt.
 5.  Wahlweise die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschafteneditor](property_editor/de.md) ändern.
 
@@ -116,29 +116,21 @@ Die Eigenschaften dieser Gruppe stehen nur für Verknüpfungsanordnungen zur Ver
 
 {{TitleProperty|Alignment}}
 
+-    {{PropertyData/de|Align|Bool}}: Legt fest, ob die Elemente der Anordnung entlang des Pfades ausgerichtet werden oder nicht. Ist sie `False`, sind alle anderen Eigenschaften in dieser Gruppe, außer {{PropertyData/de|Extra Translation}} nicht anwendbar und werden ausgeblendet.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|Align Mode|Enumeration}}: Legt das Ausrichtungsverfahren fest; zur Auswahl stehen {{Value|Original}}, {{Value|Frenet}} oder {{Value|Tangent}}.
 
+-    {{PropertyData/de|End Offset|Length}}: Legt die Länge vom Ende des Pfades bis zur letzten Kopie fest. Muss kleiner sein als die Länge des Pfades abzüglich der {{PropertyData/de|Start Offset}}. {{Version/de|0.21}}
 
-{{TitleProperty|Ausrichtung}}
+-    {{PropertyData/de|Extra Translation|VectorDistance}}: Legt einen zusätzlichen Versatz für jedes Element entlang des Pfades fest.
 
--    **Ausrichten|Bool**: wenn es `True` ist, werden die Kopien am Pfad ausgerichtet; andernfalls werden sie in ihrer Standardausrichtung belassen.
+-    {{PropertyData/de|Force Vertical|Bool}}: Legt fest, ob die vorgegebene Ausrichtung der Normale mit dem Wert der {{PropertyData/de|Vertical Vector}} überschrieben wird. Wird nur verwendet, wenn die {{PropertyData/de|Align Mode}} auf {{Value|Original}} oder {{Value|Tangent}} gesetzt ist.
 
-:   
-    **Hinweis:**in bestimmten Fällen wird die Form flach erscheinen, in Wirklichkeit kann sie sich im 3D Raum bewegt haben, ändere also statt einer flachen Ansicht die Ansicht auf axonometrisch.
+-    {{PropertyData/de|Start Offset|Length}}: Legt die Länge vom Startpunkt des Pfades bis zur ersten Kopie fest. Muss kleiner als die Länge des Pfades sein. {{Version/de|0.21}}
 
--    **Ausrichtungsmodus|Aufzählung**: drei Modi, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
+-    {{PropertyData/de|Tangent Vector|Vector}}: Legt den Ausrichtungsvektor fest. Wird nur verwendet, wenn die {{PropertyData/de|Align Mode}} auf {{Value|Tangent}} gesetzt ist.
 
--    **Zusätzliche Translation|VektorAbstand**: zusätzlicher Verschiebungsvektor {{Value|(x, y, z)}}, der auf jede Kopie entlang des Pfades angewendet wird. Dies ist nützlich, um kleine Anpassungen in der Position der Kopien vorzunehmen, z.B. wenn ihr Referenzpunkt nicht mit dem Mittelpunkt ihrer Form übereinstimmt.
-
--    **Force Vertical|Bool**: Wenn er `True` ist, wird der Wert von **Vertikal Vektor** als lokale Z Richtung verwendet, wenn **Ausrichtungsmodus** {{Value|Original}} oder {{Value|Tangente}} ist. <small>(v0.19)</small> 
-
--    **Tangentenvektor|Vektor**: die Standardeinstellung ist {{Value|(1, 0, 0)}}; Ausrichtungseinheitsvektor, der verwendet wird, wenn **Ausrichtungsmodus** {{Value|Tangente}} ist. <small>(v0.19)</small> 
-
--    **Vertikal Vektor|Vektor**}: Standardeinstellung ist {{Value|(0, 0, 1)}}; Einheitsvektor der lokalen Z Richtung, der verwendet wird, wenn **VertiKal Vektor** `True` ist. <small>(v0.19)</small> 
-
-
-</div>
+-    {{PropertyData/de|Vertical Vector|Vector}}: Legt den Vektor zum Überschreiben der Richtung der Normale fest. Wird nur verwendet, wenn die {{PropertyData/de|Vertical Vector}} auf `True` gesetzt ist.
 
 
 {{TitleProperty|Objects}}
@@ -242,16 +234,25 @@ path_array = make_path_array(base_object, path_object,
                              use_link=True)
 ```
 
+-    `base_object`ist das Objekt, das angeordnet werden soll. Es kann auch die Benennung (die Zeichenkette `Label`) eines Objekts im aktuellen Dokument sein.
 
-<div class="mw-translate-fuzzy">
+-    `path_object`: Ist das Pfadobjekt (path object). Es kann auch die Benennung (die Zeichenkette `Label`) eines Objekts im aktuellen Dokument sein.
 
--   Erstellt eine `Pfad Anordnungs` Objekt aus dem `baseobject`, indem bis zu `Anzahl` Kopien entlang des `Pfadobjekt` platziert werden.
-    -   Wenn `Pfadobjektunter` angegeben wird, handelt es sich um eine Liste von Unterobjekten von `Pfadobjekt`, und die Kopien werden entlang dieses kürzeren Pfades erstellt.
--   Wenn `xlate` angegeben wird, handelt es sich um einen `FreeCAD.Vector`, der eine zusätzliche Verschiebung anzeigt, um den Basispunkt der Kopien zu verschieben.
--   Wenn `align` `True` ist, werden die Kopien an der Tangente, der Normalen oder dem Binormalen des `Pfadobjekt` an dem Punkt ausgerichtet, an dem die Kopie platziert wird.
+-    `count`ist die Anzahl der Elemente einer Anordnung.
 
+-    `extra`ist ein Vektor, der jedes Element versetzt.
 
-</div>
+-    `subelements`ist eine Liste von Kanten im `path_object`, z.B. `["Edge1", "Edge2"]`. Wenn vorhanden, werden nur diese Kanten für den Pfad verwendet.
+
+-   Ist `align` auf `True` gestzt, werden die Elemente abhängig von der Eigenschaft `align_mode`, die die Werte `"Original"`, `"Frenet"` oder `"Tangent"` annehmen kann, entlang des Pfades ausgerichtet.
+
+-    `tan_vector`ist ein Einheitsvektor, der die örtliche Tangentenrichtung der Elemente entlang des Pfades festlegt. Er wird verwendet, wenn `align_mode` auf `"Tangent"` gesetzt ist.
+
+-   Ist `force_vertical` auf `True` gsetzt, wird `vertical_vector` für die lokale Z-Achse der Elemente entlang des Pfades verwendet. Es wird verwendet, wenn `align_mode` auf `"Original"` oder `"Tangent"` gesetzt ist.
+
+-   Ist `use_link` auf `True` gesetzt, werden [App-Links](App_Link/de.md) anstatt normaler Kopien erstellt.
+
+-    `path_array`wird mit der erstellten Anordnung zurückgegeben.
 
 Beispiel:
 

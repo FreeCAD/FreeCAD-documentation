@@ -22,16 +22,22 @@ Les outils [Gmsh](FEM_MeshGmshFromShape/fr.md) et [Netgen](FEM_MeshNetgenFromSha
 
 Auparavant, Netgen était inclus dans FreeCAD et pouvait être utilisé immédiatement. Maintenant, Netgen et Gmsh doivent être installés avant de pouvoir être utilisés par l\'[atelier FEM](FEM_Workbench/fr.md). Reportez-vous à [Installation FEM](FEM_Install/fr.md) pour les instructions.
 
+
+
 ## Logiciels de maillage 
 
 Les logiciels de maillage opèrent sur des corps solides qui peuvent être dans différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD, et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
 
 L\'[atelier FEM](FEM_Workbench/fr.md) a développé des interfaces de communication simples pour utiliser Gmsh et Netgen directement dans FreeCAD. D\'autres programmes n\'ont pas d\'interface, mais cela pourrait changer à l\'avenir si la communauté suscite de l\'intérêt et si ces applications sont faciles à intégrer. Le logiciel de maillage peut être compilé et distribué avec FreeCAD seulement si sa licence est compatible avec les licences GPL2 ou LGPL2 ; sinon le programme doit être utilisé comme un binaire externe, comme Gmsh (GPL2).
 
+
+
 ### Interface implémenté dans FreeCAD 
 
 -   Gmsh : [site web principal](http://gmsh.info/), [dépôt du code](https://gitlab.onelab.info/gmsh/gmsh)
 -   Netgen : [site web principal](https://ngsolve.org/), [dépôt du code](https://github.com/NGSolve/netgen)
+
+
 
 ### Sans interface dans FreeCAD 
 
@@ -40,6 +46,8 @@ L\'[atelier FEM](FEM_Workbench/fr.md) a développé des interfaces de communicat
 -   PythonOCC, [site web principal](http://www.pythonocc.org/)
 -   SnappyHexMesh, [site web principal](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [site web principal](http://wias-berlin.de/software/tetgen/)
+
+
 
 ## Éléments de maillage dans FreeCAD 
 
@@ -90,317 +98,317 @@ FreeCAD supporte différents types d\'éléments. L\'article suivant explique la
 <td><p>seg 2</p></td>
 <td><p>B31</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>seg 3</p></td>
 <td><p>B32</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><p>NI</p></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>tria 3</p></td>
 <td><p>S3</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>tria 6</p></td>
 <td><p>S6</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>quad 4</p></td>
 <td><p>S4</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>quad 8</p></td>
 <td><p>S8</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>tetra 4</p></td>
 <td><p>C3D4</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>tetra 10</p></td>
 <td><p>C3D10</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>hexa 8</p></td>
 <td><p>C3D8</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><p>(<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />) le format le permet,<br />
 mais il n'est pas lisible<br />
@@ -410,180 +418,180 @@ ou modifiable par FEniCS.</p></td>
 <td><p>hexa 20</p></td>
 <td><p>C3D20</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>penta 6</p></td>
 <td><p>C3D6</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><p>?</p></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>penta 15</p></td>
 <td><p>C3D15</p></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><p>?</p></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
 <td><p>pyra 5</p></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
 <td><p>pyra 13</p></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="Edit_OK.svg" />
-<figcaption aria-hidden="true">Edit_OK.svg</figcaption>
+<img src="Edit_OK.svg" title="Edit_OK.svg" width="20" />
+<figcaption>Edit_OK.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 <td><figure>
-<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />
-<figcaption aria-hidden="true">Edit_Cancel.svg</figcaption>
+<img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" />
+<figcaption>Edit_Cancel.svg</figcaption>
 </figure></td>
 </tr>
 </tbody>
@@ -595,44 +603,64 @@ ou modifiable par FEniCS.</p></td>
 -   <img alt="" src=images/Edit_Cancel.svg  style="width:20px;"> signifie que la spécification de format ne supporte pas ce type d\'élément, et qu\'il ne sera pas accepté par FreeCAD.
 -   \"?\" signifie qu\'on ne sait pas si ce type d\'élément est supporté.
 
+
+
 ## Types d\'éléments FEM 
 
 Vous trouverez plus d\'informations sur les éléments et leur structure de données dans FreeCAD dans [Types d\'élément FEM](FEM_Element_Types/fr.md).
+
+
 
 ### Les segments 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
 
+
+
 ### Les triangles 
 
 <img alt="" src=images/FEM_mesh_elements_2_triangle.svg  style="width:600px;">
+
+
 
 ### Les quadrangles 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
 
+
+
 ### Les tétraèdres 
 
 <img alt="" src=images/FEM_mesh_elements_4_tetrahedron.svg  style="width:600px;">
+
+
 
 ### Les hexaèdres 
 
 <img alt="" src=images/FEM_mesh_elements_5_hexahedron.svg  style="width:600px;">
 
+
+
 ### Les pentaèdres (prismes) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
+
+
 
 ### Les pyramides 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
+
+
 ## Script
+
+
 
 ### Créez un maillage FEM entièrement en Python 
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
@@ -647,6 +675,8 @@ App.ActiveDocument.Mesh_object.TypeId = Fem::FemMeshObject
                               .
                               .FemMesh.TypeId = Fem::FemMesh
 ```
+
+
 
 #### Création d\'un maillage avec un élément Tet-10 
 
@@ -699,6 +729,8 @@ obj_2.Placement.Base = FreeCAD.Vector(2, 0, 0)
 obj_2.FemMesh = a
 ```
 
+
+
 #### Propriétés visuelles 
 
 Une fois qu\'un objet FemMesh a été créé avec `Fem.show()` , certaines de ses propriétés visuelles peuvent être modifiées en modifiant les différents attributs de son `ViewObject`. Cela peut être utile pour post-traiter le maillage après avoir obtenu une solution d\'éléments finis.
@@ -741,7 +773,11 @@ Doubler le facteur de déplacement indiqué. (**Note aux éditeurs : supprimé d
 obj.ViewObject.animate(2.0)
 ```
 
+
+
 ## Exemples de script de chaque type d\'élément supporté 
+
+
 
 ### Poutre, ligne à 2 nœuds, seg2 (linéaire) 
 
@@ -761,6 +797,8 @@ obj.Placement.Base = FreeCAD.Vector(0, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
+
+
 ### Poutre, ligne à 3 nœuds, seg3 (quadratique) 
 
 
@@ -779,6 +817,8 @@ obj.FemMesh = seg3
 obj.Placement.Base = FreeCAD.Vector(30, 110, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
+
+
 
 ### Coque, triangle à 3 nœuds, tria3 (linéaire) 
 
@@ -818,6 +858,8 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 print(elemtria3.Faces)
 ```
+
+
 
 ### Coque, triangle à 6 nœuds, tria6 (quadratique) 
 
@@ -860,6 +902,8 @@ obj.ViewObject.BackfaceCulling = False
 print(elemtria6.Faces)
 ```
 
+
+
 ### Coque, quadrilatère à 4 nœuds, quad4 (linéaire) 
 
 
@@ -898,6 +942,8 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 print(elemquad4.Faces)
 ```
+
+
 
 ### Coque, quadrilatère à 8 nœuds, quad8 (quadratique) 
 
@@ -942,6 +988,8 @@ obj.ViewObject.BackfaceCulling = False
 print(elemquad8.Faces)
 ```
 
+
+
 ### Volume, tétraèdre à 4 nœuds, tétra4 (linéaire) 
 
 
@@ -978,6 +1026,8 @@ obj.Placement.Base = FreeCAD.Vector(200, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemtetra4.Volumes)
 ```
+
+
 
 ### Volume, tétraèdre à 10 nœuds, tétra10 (quadratique) 
 
@@ -1024,6 +1074,8 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemtetra10.Volumes)
 ```
 
+
+
 ### Volume, hexaèdre à 8 nœuds, hexa8 (linéaire) 
 
 
@@ -1064,6 +1116,8 @@ obj.Placement.Base = FreeCAD.Vector(260, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemhexa8.Volumes)
 ```
+
+
 
 ### Volume, hexaèdre à 20 noeuds, hexa20 (quadratique) 
 
@@ -1121,6 +1175,8 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elemhexa20.Volumes)
 ```
 
+
+
 ### Volume, pentaèdre à 6 nœuds, penta6 (linéaire) 
 
 
@@ -1159,6 +1215,8 @@ obj.Placement.Base = FreeCAD.Vector(200, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempenta6.Volumes)
 ```
+
+
 
 ### Volume, pentaèdre à 15 noeuds, penta15 (quadratique) 
 
@@ -1211,6 +1269,8 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempenta15.Volumes)
 ```
 
+
+
 ### Volume, pyramide à 5 nœuds, pyra5 (linéaire) 
 
 
@@ -1248,6 +1308,8 @@ obj.Placement.Base = FreeCAD.Vector(280, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempyra5.Volumes)
 ```
+
+
 
 ### Volume, pyramide à 13 nœuds, pyra13 (quadratique) 
 
@@ -1296,6 +1358,8 @@ obj.Placement.Base = FreeCAD.Vector(320, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempyra13.Volumes)
 ```
+
+
 
 ## Exemples de script pour les groupes 
 

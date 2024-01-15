@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Această comandă aplică o forță de valoare dată \[N\] la geometria țintei selectată.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -46,7 +56,7 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 
 ## Notes
 
--   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   The defined force is applied uniformly to the selected objects. For example, if you define one force load with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 

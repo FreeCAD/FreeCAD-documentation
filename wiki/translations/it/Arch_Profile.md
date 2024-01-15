@@ -2,15 +2,14 @@
  GuiCommand:
    Name: Arch Profile
    Name/it: Profilo
-   Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Profilo
+   Workbenches: Arch_Workbench/it
    Version: 0.19
 ---
 
 # Arch Profile/it
 
 
-</div>
 
 ## Descrizione
 
@@ -20,13 +19,19 @@ Vedere [l\'elenco dei preset disponibili](https://github.com/FreeCAD/FreeCAD/blo
 
 Lo strumento profilo è anche integrato nello strumento [Struttura](Arch_Structure/it.md), tutti i profili preimpostati sono disponibili anche lì.
 
+
+
 ## Utilizzo
 
 1.  Premere il pulsante **<img src="images/Arch_Profile.svg" width=16px> [Profilo](Arch_Profile/it.md)**.
 2.  Selezionare un profilo preimpostato nel pannello delle azioni dello strumento.
 3.  Fare clic su un punto nella vista 3D per posizionare il profilo.
 
+
+
 ## Proprietà
+
+
 
 ### Dati
 
@@ -42,6 +47,8 @@ Lo strumento profilo è anche integrato nello strumento [Struttura](Arch_Structu
 
 -    **Flange Thickness**: Lo spessore della flangia o ala del profilo (solo per i profili H e I)
 
+
+
 ## Aggiungere dei profili personalizzati 
 
 L\'utente può creare un file CSV aggiuntivo, contenente le definizioni del profilo personalizzato. Deve essere denominato `profiles.csv` e inserito in {{Code|lang=bash|code=
@@ -56,32 +63,24 @@ Il contenuto del file `profiles.csv` personalizzato deve essere modellato con le
 
 Il file CSV deve contenere una riga per ogni profilo disponibile, formattata come segue:
 
-
-<div class="mw-translate-fuzzy">
-
 -   Per profili a C: Category, Name, Class, Diameter, Thickness
--   Per i profili H e U: Category, Name, Class, Width, Height, Web thickness, Flange thickness
+-   Per i profili H, U e T: Category, Name, Class, Width, Height, Web thickness, Flange thickness
 -   Per profili R: Category, Name, Class, Width, Height
 -   Per profili RH: Category, Name, Class, Width, Height, Thickness
 
-
-</div>
-
 Tutte le misure devono essere in millimetri. Le possibili classi di profilo sono:
-
-
-<div class="mw-translate-fuzzy">
 
 -   C: Tubo circolare
 -   H: Profilo H o I
 -   R: Rettangolare
 -   RH: Rettangolare pieno
 -   U: Profilo a U
-
-
-</div>
+-   L: Profilo a L
+-   T: Profilo a T
 
 È possibile creare tipi di profilo aggiuntivi, ma è necessario prima definire una classe corrispondente in [ArchProfile.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Arch/ArchProfile.py).
+
+
 
 ## Script
 

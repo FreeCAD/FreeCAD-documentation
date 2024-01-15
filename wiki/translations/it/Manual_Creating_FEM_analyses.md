@@ -1,5 +1,5 @@
 # Manual:Creating FEM analyses/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 FEM sta per [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method) (metodo degli elementi finiti). Si tratta di un vasto argomento di matematica, ma in FreeCAD possiamo riassumerlo come un modo per calcolare le propagazioni all\'interno di un oggetto 3D, tagliandolo in piccoli pezzi, e analizzando l\'impatto di ogni piccolo pezzo rispetto a quelli vicini. Questo ha diversi utilizzi nei campi dell\'ingegneria e dell\'elettromagnetismo, ma qui vedremo in modo più approfondito il suo utilizzo già ben sviluppato in FreeCAD, per simulare le deformazioni negli oggetti che sono sottoposti a forze e pesi.
 

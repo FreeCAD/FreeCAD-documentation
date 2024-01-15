@@ -11,19 +11,21 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/fr.md)** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer colonnes et lignes, définissent leur taille et fusionnent les cellules.
+L\'outil **<img src="images/Arch_Grid.svg" width=16px> [Arch Grille](Arch_Grid/fr.md)** vous permet de placer un objet de type grille dans le document. Cet objet est destiné à servir de base pour construire des objets Arch nécessitant un cadre régulier mais complexe, comme des fenêtres, des murs-rideaux, des grilles de colonnes, des garde-corps, etc. L\'objet Grille est modifiable comme une feuille de calcul où vous pouvez ajouter ou supprimer des colonnes et des lignes, définir leur taille et fusionner des cellules.
 
-La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [Dessin](Draft_Workbench/fr.md) ou une [Esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
+La grille est un objet 2D et peut donc être utilisée partout où une forme 2D, tel qu\'un [dessin](Draft_Workbench/fr.md) ou une [esquisse](Sketcher_Workbench/fr.md) sont nécessaires, mais elle peut aussi se comporter comme un [Arch Système d\'axes](Arch_AxisSystem/fr.md) et être utilisée pour propager le placement d\'autres objets Arch.
 
 <img alt="" src=images/Arch_Grid_example.jpg  style="width:600px;"> 
 *Un tableau de colonnes, un système de garde-corps et une fenêtre, chacun basé sur un objet [Grille](Arch_Grid/fr.md).*
+
+
 
 ## Utilisation
 
 1.  Appuyez sur le bouton **<img src="images/Arch_Grid.svg" width=16px> [Grille](Arch_Grid/fr.md)**.
 2.  Définissez la **Largeur** et la **Hauteur** de la grille dans les propriétés.
 3.  Entrez en mode d\'édition en double-cliquant sur l\'objet de grille dans l\'arborescence.
-4.  Ajouter des lignes et des colonnes.
+4.  Ajoutez des lignes et des colonnes.
 5.  Définissez la largeur et la hauteur souhaitées des lignes et des colonnes en double-cliquant sur les en-têtes de ligne ou de colonne.
 
 ## Options
@@ -33,17 +35,19 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 -   Lorsqu\'elle est utilisée comme propriété **Axis** des autres objets Arch, la grille pilotera le positionnement de ces objets. La propriété **Points Output** définit la manière dont les autres objets sont placés sur la grille : au niveau des sommets, des points médians ou des centres de faces.
 -   En définissant les propriétés **Auto Height** ou **Auto Width** sur une valeur différente de zéro, le nombre total de lignes/colonnes et leurs hauteurs/largeurs individuelles est ignoré. Au lieu de cela, le nombre maximal de colonnes ou de lignes de la largeur/hauteur automatique donnée est automatiquement créé.
 
+
+
 ## Propriétés
 
 -    **Rows**: nombre de lignes
 
 -    **Columns**: nombre de colonnes
 
--    **Row Size**: tailles pour les lignes
+-    **Row Size**: taille des lignes
 
--    **Column Size**: tailles des colonnes
+-    **Column Size**: taille des colonnes
 
--    **Points Output**: type de points 3D produits par cet objet de grille
+-    **Points Output**: type de points 3D produits par cet objet grille
 
 -    **Width**: largeur totale de cette grille
 
@@ -53,11 +57,11 @@ La grille est un objet 2D et peut donc être utilisée partout où une forme 2D,
 
 -    **Auto Height**: crée des divisions de ligne automatiques (définie sur 0 pour désactiver)
 
--    **Reorient**: en mode point central, si la grille doit réorienter ses doublures le long de la normales des bords ou non
-
-En mode Point centre d\'arête, si la grille doit réorienter ses doublures le long des normales aux arêtes ou non
+-    **Reorient**: en mode point médian, si cette grille doit ou non réorienter ses enfants le long des normales des bords
 
 -    **Hidden Faces**: les indices des faces à cacher
+
+
 
 ## Script
 

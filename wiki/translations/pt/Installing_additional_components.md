@@ -8,10 +8,11 @@
 
 O FreeCAD é um software verdadeiramente multi-plataforma, desenvolvido usando a conhecida arquitetura [Qt](http://pt.wikipedia.org/wiki/Qt). Isso significa que o FreeCAD funciona e tem o mesmo aspeto no Windows, Linux e Mac. No entanto, o procedimento de instalação é um pouco diferente para cada sistema operativo. Escolha o seu sistema operativo em baixo para mais detalhes sobre a instalação do FreeCAD.
 
-    
-   ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png )
-                          [Instalação em Windows](Install_on_Windows/pt.md)                                               [Instalação em Linux](Install_on_Linux/pt.md)                                         [Instalação em Mac](Install_on_Mac/pt.md)
-    
++::+::+::+
+| ![ alt=\'Windows\' \| link= Install on Windows](images/Windows.png ) | ![ alt=\'Linux\' \| link= Install on Linux](images/Linux.png ) | ![ alt=\'Mac\' \| link= Install on Mac](images/Mac.png ) |
+++++
+| [Instalação em Windows](Install_on_Windows/pt.md)                                                | [Instalação em Linux](Install_on_Linux/pt.md)                                          | [Instalação em Mac](Install_on_Mac/pt.md)                                    |
+++++
 
 
 </div>
@@ -98,7 +99,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### CalculiX
 
-[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [Solver CalculiX](FEM_SolverCalculiX.md) tool.
+[CalculiX](http://calculix.de) is a suite of two finite element packages: CalculiX CrunchiX, a FEM solver, and CalculiX GraphiX, a GUI frontend. Only the solver is supported by FreeCAD. It is used by the [FEM SolverCalculixCxxtools](FEM_SolverCalculixCxxtools.md) tool.
 
 ### Gmsh
 

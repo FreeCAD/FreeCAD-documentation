@@ -58,6 +58,8 @@ Une description détaillée (en anglais) des outils peut être trouvée [sur le 
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): emboutit des formes avec ou sans trous dans une plaque de tôle.
 
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Forme de base](SheetMetal_BaseShape/fr.md) : ajoute un objet de base en tôle à partir de paramètres.
+
 
 
 ## Description sommaire 
@@ -93,7 +95,7 @@ Cette section est destinée à donner une idée générale de la façon d\'utili
 
 1.  Créez une polyligne fermée (de préférence avec le sketcher)
 2.  Utilisez la commande <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour créer un corps prismatique.
-3.  La commande <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Épaisseur](PartDesign_Thickness/fr.md) en fera un objet d\'épaisseur constante.
+3.  La commande <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Évidement](PartDesign_Thickness/fr.md) en fera un objet d\'épaisseur constante.
 4.  Pour le rendre dépliable, il a besoin de quelques espaces ou connexions entre les parois :
     1.  La commande <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief/fr.md) coupera les coins sélectionnés.
     2.  La commande <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction/fr.md) créera des jonctions avec des espaces entre des côtés adjacents qui doivent être disjoints.

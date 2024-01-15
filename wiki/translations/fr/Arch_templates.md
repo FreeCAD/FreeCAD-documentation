@@ -3,51 +3,51 @@ Cette page répertorie les modèles selon le standard American National Standard
 
 ### Arch A 
 
-#### Arch_A\_Paysage
+#### Arch_A_Paysage
 
 <img alt="" src=images/Arch_A_Landscape.svg  style="width:800px;">
 
-#### Arch_A\_Portrait
+#### Arch_A_Portrait
 
 <img alt="" src=images/Arch_A_Portrait.svg  style="width:800px;">
 
 ### Arch B 
 
-#### Arch_B\_Paysage
+#### Arch_B_Paysage
 
 <img alt="" src=images/Arch_B_Landscape.svg  style="width:800px;">
 
-#### Arch_B\_Portrait
+#### Arch_B_Portrait
 
 <img alt="" src=images/Arch_B_Portrait.svg  style="width:800px;">
 
 ### Arch C 
 
-#### Arch_C\_Paysage
+#### Arch_C_Paysage
 
 <img alt="" src=images/Arch_C_Landscape.svg  style="width:800px;">
 
-#### Arch_C\_Portrait
+#### Arch_C_Portrait
 
 <img alt="" src=images/Arch_C_Portrait.svg  style="width:800px;">
 
 ### Arch D 
 
-#### Arch_D\_Paysage
+#### Arch_D_Paysage
 
 <img alt="" src=images/Arch_D_Landscape.svg  style="width:800px;">
 
-#### Arch_D\_Portrait
+#### Arch_D_Portrait
 
 <img alt="" src=images/Arch_D_Portrait.svg  style="width:800px;">
 
 ### Arch E 
 
-#### Arch_E\_Paysage
+#### Arch_E_Paysage
 
 <img alt="" src=images/Arch_E_Landscape.svg  style="width:800px;">
 
-#### Arch_E\_Portrait
+#### Arch_E_Portrait
 
 <img alt="" src=images/Arch_E_Portrait.svg  style="width:800px;">
 

@@ -2,44 +2,29 @@
 ---
  GuiCommand:   Name: Mesh_FlipNormals‏‎   Name/it: Inverti le normali‏‎   MenuLocation: Mesh , Inverti le normali   Workbenches: Mesh Workbench/it   Mesh---
 
+
+
 ## Descrizione
 
 Il comando **Inverti le normali** inverte, capovolge, le normali degli oggetti mesh.
 
+
+
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare uno o più oggetti mesh.
-2.  Scegliere l\'opzione **Meshes → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverti le normali** nel menu principale.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_FlipNormals.svg" width=16px> [Inverti le normali](Mesh_FlipNormals/it.md)** .
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_FlipNormals.svg" width=16px> Inverti le normali** dal menu.
 
 
-</div>
 
 ## Note
 
-
-<div class="mw-translate-fuzzy">
-
-Per verificare questa azione:
-
--   selezionare la mesh nella vista ad albero
--   passare alla scheda vista
--   impostare Lighting su \"one side\" (illuminazione da un solo lato)
--   il lato delle facce con le normali che si allontanano dallo schermo diventa nero.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Per un\'indicazione chiara dell\'orientamento delle facce degli oggetti mesh assicurati che la proprietà **Lighting** degli oggetti mesh sia impostata su {{Value|One side}}. Il colore del lato posteriore delle loro facce dipenderà quindi dalle impostazioni della retroilluminazione: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Colore di retroilluminazione - Intensità**. Vedere: [Editor preferenze](Preferences_Editor/it#Vista_3D.md).
 
 
 
-
-
-</div>
 
 
 {{Mesh Tools navi

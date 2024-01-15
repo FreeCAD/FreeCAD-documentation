@@ -1,6 +1,6 @@
 # Raytracing Workbench/de
-**The '''Raytracing Workbench''' is no longer included after version 0.20.<br>
- The external [https://github.com/FreeCAD/FreeCAD-render Render Workbench] should be used instead.**
+**Der Arbeitsbereich '''Raytracing''' ist nach der Version 0.20 nicht mehr enthalten.<br>
+ Der externe Arbeitsbereich [https://github.com/FreeCAD/FreeCAD-render Render] sollte stattdessen eingesetzt werden.**
 
 <img alt="Arbeitsbereichssymbol Strahlverfolgung" src=images/Workbench_Raytracing.svg  style="width:128px;">
 

@@ -115,6 +115,7 @@ See [PartDesign SubShapeBinder](PartDesign_SubShapeBinder#PartDesign_SubShapeBin
 :   
 
     :   ![](images/ShapeBinderThroughHole.png )
+
     :   *Esempio di configurazione per mostrare come eseguire fori attraverso corpi diversi. Il cerchio bianco mostra che copiare gli schizzi non è sufficiente*
 
 

@@ -5,7 +5,7 @@ This category groups all of the FreeCAD documentation
 
 |     |     |     |
 | --- | --- | --- |
-|
+| [Help FreeCAD/fi](Help_FreeCAD/fi.md) |
 
 
 

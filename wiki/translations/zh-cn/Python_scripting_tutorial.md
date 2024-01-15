@@ -40,8 +40,8 @@
 
 在FreeCAD中有以下几种使用python的不同方式：
 
--   在[FreeCAD的python解释器中使用脚本](FreeCAD_Scripting_Basics.md)。在此，您可以通过类似于"命令行"样式的界面来发出简单的命令
--   在[宏中使用脚本](macros.md)。这是一种将缺失的工具快速添加至FreeCAD界面的便捷方法
+-   在[FreeCAD的python解释器](FreeCAD_Scripting_Basics.md)中使用脚本。在此，您可以通过类似于"命令行"样式的界面来发出简单的命令
+-   在[宏](macros.md)中使用脚本。这是一种将缺失的工具快速添加至FreeCAD界面的便捷方法
 -   借助外部脚本。这可用来编写更复杂的程序。比如编写整个[工作台](Workbenches.md)。
 
 
@@ -332,7 +332,7 @@ vo.show()
 
 ## 模块
 
-现在，您一定在想，若没有\"Part::Box\"我还能做什么呢？FreeCAD的基本应用程序或多或少来只讲是一个空容器。若没有它的各种模块，充其量也就只能创建新的空文档而已。令FreeCAD真正强大的其实是其各种可靠的模块。它们不止是为界面增添新的工作台那么简单，还有新的python命令以及新的对象类型。其结果是，令多种不同的、甚至完全不兼容的对象类型可以共存于同一文档之中。我们将在本教程中检阅FreeCAD中最重要的几种模块，它们是[零件模块](Part_Workbench.md), [网格模块](Mesh_Workbench.md), [草图模块](Sketcher_Workbench.md) 与 [底图模块](Draft_Workbench.md)。
+现在，您一定在想，若没有\"Part::Box\"我还能做什么呢？FreeCAD的基本应用程序或多或少来只讲是一个空容器。若没有它的各种模块，充其量也就只能创建新的空文档而已。令FreeCAD真正强大的其实是其各种可靠的模块。它们不止是为界面增添新的工作台那么简单，还有新的python命令以及新的对象类型。其结果是，令多种不同的、甚至完全不兼容的对象类型可以共存于同一文档之中。我们将在本教程中检阅FreeCAD中最重要的几种模块，它们是[零件](Part_Workbench.md)模块, [网格](Mesh_Workbench.md)模块, [草图](Sketcher_Workbench.md)模块 与 [底图](Draft_Workbench.md)模块。
 
 
 </div>
@@ -342,7 +342,7 @@ The true power of FreeCAD lies in its faithful modules, with their respective wo
 
 <div class="mw-translate-fuzzy">
 
-[草图模块与](Sketcher_Workbench.md)[底图模块均用](Draft_Workbench.md)[零件模块来创建并处理它们的几何体](Part_Workbench.md)，它们都采用BRep（边界表示法）且[网格是完全独立的](Mesh_Workbench.md)，另外，它们总是处理各自的对象。更多细节请参考下文。
+[草图](Sketcher_Workbench.md)模块与[底图](Draft_Workbench.md)模块均用[零件](Part_Workbench.md)模块来创建并处理它们的几何体，它们都采用BRep（边界表示法）且[网格](Mesh_Workbench.md)是完全独立的，另外，它们总是处理各自的对象。更多细节请参考下文。
 
 
 </div>
@@ -423,7 +423,7 @@ doc.recompute()
 
 ## 零件
 
-[零件模块（Part Module）是整个FreeCAD中最强大的模块](Part_Workbench.md)。通过它可创建并操纵[BRep](http://en.wikipedia.org/wiki/Boundary_representation)对象。这种对象并不像网格那样，它可以附有大量不同的组件。Brep即边界表示（Boundary Representation），意思是Brep对象都由其表面定义而成；这些表面围起并定义了一个内体积。而一个表面可以是多种不同的东西，如平面或非常复杂的NURBS表面。
+[零件模块（Part Module）](Part_Workbench.md)是整个FreeCAD中最强大的模块。通过它可创建并操纵[BRep](http://en.wikipedia.org/wiki/Boundary_representation)对象。这种对象并不像网格那样，它可以附有大量不同的组件。Brep即边界表示（Boundary Representation），意思是Brep对象都由其表面定义而成；这些表面围起并定义了一个内体积。而一个表面可以是多种不同的东西，如平面或非常复杂的NURBS表面。
 
 
 </div>
@@ -468,7 +468,7 @@ Part.show(myshape)
 
 <div class="mw-translate-fuzzy">
 
-通过浏览myshape的内容，您将发现许多有趣的子组件，如表面（Faces）、边（Edges）、顶点（Vertexes）、实体（Solids）与壳体（Shells），以及大量各种不同的几何运算，如裁剪(差集)、 求公共部分(交集)或融合(并集)等操作。[拓扑数据脚本页面详述了有关细节](Topological_data_scripting.md)。
+通过浏览myshape的内容，您将发现许多有趣的子组件，如表面（Faces）、边（Edges）、顶点（Vertexes）、实体（Solids）与壳体（Shells），以及大量各种不同的几何运算，如裁剪(差集)、 求公共部分(交集)或融合(并集)等操作。[拓扑数据脚本](Topological_data_scripting.md)页面详述了有关细节。
 
 
 </div>
@@ -491,7 +491,7 @@ Part.show(myshape)
 
 ## 底图
 
-FreeCAD中有许多模块如[草图模块与](Sketcher_Workbench.md)[底图模块也能创建零件对象](Draft_Workbench.md)。这些模块为创建对象的方法添加了额外的参数，或者甚至重新实现了各自处理零件几何图形的整套流程。我们此前的立方体示例就是一个参数化对象的完美范例。您要定义一个立方体只需指定其长宽高参数。系统便会基于这些参数自动为对象计算其零件形状。FreeCAD允许您[以python来创建这些对象](Scripted_objects.md)。
+FreeCAD中有许多模块如[草图模块](Sketcher_Workbench.md)与[底图模块](Draft_Workbench.md)也能创建零件对象。这些模块为创建对象的方法添加了额外的参数，或者甚至重新实现了各自处理零件几何图形的整套流程。我们此前的立方体示例就是一个参数化对象的完美范例。您要定义一个立方体只需指定其长宽高参数。系统便会基于这些参数自动为对象计算其零件形状。FreeCAD允许您[以python来创建这些对象](Scripted_objects.md)。
 
 
 </div>
@@ -501,7 +501,7 @@ FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) an
 
 <div class="mw-translate-fuzzy">
 
-[底图模块（Draft Workbench）还加入了多种](Draft_Workbench.md)2D参数化对象类型（全都是零件对象），例如线段与圆形，还提供了一些不仅用于制作底图对象还可用于任意零件对象的通用函数。为了探索有哪些可用功能，可以简单地这样做：
+[底图模块（Draft Workbench）](Draft_Workbench.md)还加入了多种2D参数化对象类型（全都是零件对象），例如线段与圆形，还提供了一些不仅用于制作底图对象还可用于任意零件对象的通用函数。为了探索有哪些可用功能，可以简单地这样做：
 
 
 </div>
@@ -561,7 +561,7 @@ Qt确实是一款非常强大的界面系统，您可以利用它实现非常复
 
 ## 宏
 
-您现在已经对基础知识有了较细致的理解，但是，我们应该在哪里保存自己编写的python脚本？又如何从FreeCAD中方便地执行它们呢？对此，FreeCAD给出了一种名为[宏（Macros）的简易机制](Macros.md)。宏是一种可添加至工具栏且通过点击鼠标即可执行的简单python脚本。FreeCAD为您提供了简单的文本编辑器(Macro → Macros → Create)，在此，您可以编写或粘贴脚本代码。写完脚本后，通过Tools → Customiz → Macros即可定义出添加至工具栏的对应脚本按钮。
+您现在已经对基础知识有了较细致的理解，但是，我们应该在哪里保存自己编写的python脚本？又如何从FreeCAD中方便地执行它们呢？对此，FreeCAD给出了一种名为[宏（Macros）](Macros.md)的简易机制。宏是一种可添加至工具栏且通过点击鼠标即可执行的简单python脚本。FreeCAD为您提供了简单的文本编辑器(Macro → Macros → Create)，在此，您可以编写或粘贴脚本代码。写完脚本后，通过Tools → Customiz → Macros即可定义出添加至工具栏的对应脚本按钮。
 
 
 </div>
@@ -579,7 +579,7 @@ When you make and save any modifications to your already-loaded script, a dialog
 
 <div class="mw-translate-fuzzy">
 
-恭喜，您已经对FreeCAD脚本有了深入的理解！请前往[发烧友中心进一步深造](Power_users_hub.md)！
+恭喜，您已经对FreeCAD脚本有了深入的理解！请前往[发烧友中心](Power_users_hub.md)进一步深造！
 
 
 </div>

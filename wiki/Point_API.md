@@ -200,4 +200,4 @@ Translates this geometric object
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Point API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Point API

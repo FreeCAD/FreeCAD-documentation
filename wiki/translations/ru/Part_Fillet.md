@@ -82,6 +82,15 @@ Part(Деталь) Скругление может ничего не сдела�
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 
 ---
 ⏵ [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/ru

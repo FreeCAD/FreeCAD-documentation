@@ -19,19 +19,25 @@ Elle peut être utilisée pour créer une extrusion à partir d\'une combinaison
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Surfaces liées créées à partir des faces de murs*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez une ou plusieurs faces.
+1.  Sélectionner une ou plusieurs faces.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surfaces liées](Draft_Facebinder/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** dans le menu.
-    -   Utilisez le raccourci clavier : **F** puis **F**.
+    -   Appuyer sur le bouton **<img src="images/Draft_Facebinder.svg" width=16px> [Surfaces liées](Draft_Facebinder/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Facebinder.svg" width=16px> Surfaces liées** du menu.
+    -   Utiliser le raccourci clavier : **F** puis **F**.
+
+
 
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Surfaces liées est dérivé de [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -50,6 +56,8 @@ Un objet Draft Surfaces liées est dérivé de [Part Feature](Part_Feature/fr.md
 
 -    **Sew|Bool**: spécifie s\'il faut effectuer une opération de couture topologique sur la surface liée.
 
+
+
 ### Vue
 
 
@@ -58,6 +66,8 @@ Un objet Draft Surfaces liées est dérivé de [Part Feature](Part_Feature/fr.md
 -    **Pattern|Enumeration**: spécifie le [Draft Motif](Draft_Pattern/fr.md) avec lequel remplir les surfaces liées. Cette propriété ne fonctionne que si **Display Mode** est {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+
+
 
 ## Script
 

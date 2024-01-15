@@ -10,6 +10,8 @@
 
 # Std Part/it
 
+
+
 ## Descrizione
 
 Una <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md) (internamente chiamata [App Part](App_Part/it.md)) è un contenitore per scopi generali che contiene un gruppo di oggetti in modo che essi possano essere spostati in blocco come una singola unità nella vista 3D.
@@ -20,84 +22,55 @@ Sebbene sia destinato principalmente a corpi solidi, Parte può essere utilizzat
 
 Non confondere il <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo di PartDesign](PartDesign_Body/it.md) con la <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md). Il primo è un oggetto specifico utilizzato in <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), destinato a modellare un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md) mediante le [ funzioni di PartDesign](PartDesign_Feature/it.md). Invece, la [Parte](Std_Part/it.md) non viene utilizzata per la modellazione, ma solo per disporre diversi oggetti nello spazio, per creare degli [assemblaggi](assembly/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). Per raggruppare gli oggetti arbitrariamente senza considerare la loro posizione, utilizzare <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppo](Std_Group/it.md); questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](tree_view/it.md).
-
-
-</div>
+Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal sistema base; di conseguenza lo si trova nella **barra degli strumenti struttura**, che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). Per raggruppare gli oggetti arbitrariamente senza considerare la loro posizione, utilizzare <img alt="" src=images/Std_Group.svg  style="width:16px;"> [Gruppo](Std_Group/it.md); questo oggetto non influenza i posizionamenti degli elementi che contiene, è essenzialmente solo una cartella che viene utilizzata per mantenere organizzata la [vista ad albero](Tree_view/it.md).
 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
-<div class="mw-translate-fuzzy">
+
+*A sinistra: elementi all'interno di una Parte nella [Vista ad albero](Tree_view/it.md). A destra: oggetti posizionati nello spazio, riferiti all'Origine della Parte.*
 
 
-
-*A sinistra: elementi all'interno di una Parte nella vista ad albero. A destra: oggetti posizionati nello spazio, riferiti all'Origine della Parte.*
-
-
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)**. Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
-2.  Per aggiungere oggetti a una parte, trascinarli e rilasciarli sulla parte nella [vista ad albero](tree_view/it.md).
-3.  Per rimuovere oggetti da una parte, trascinarli fuori dalla parte e sull\'etichetta del documento nella parte superiore della [vista ad albero](tree_view/it.md).
-
-
-</div>
+1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Crea una parte](Std_Part/it.md)**.
+2.  Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Active_status.md)*.
+3.  Per aggiungere oggetti alla parte, selezionarli nella [Vista ad albero](Tree_view/it.md) e trascinarli e rilasciarli sulla parte.
+4.  Per rimuovere oggetti dalla parte, trascinarli fuori dalla parte e sull\'etichetta del documento nella parte superiore della [Vista ad albero](Tree_view/it.md).
+5.  Gli oggetti possono anche essere aggiunti e rimossi modificando la proprietà **Group** della Parte.
 
 
-<div class="mw-translate-fuzzy">
 
-### Note
+## Note
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   A partire dalla v0.19, un dato oggetto può appartenere solo ad una singola Parte.
--   Fare doppio clic sulla Parte nella [vista ad albero](tree_view/it.md) o aprire il menu contestuale (tasto destro del mouse) e selezionare **Attiva/disattiva la parte** per attivare o disattivare la Parte. Se un\'altra Parte è attiva, sarà disattivata. Vedere [Stato attivo](Std_Part/it#Stato_attivo.md) per maggiori informazioni.
+-   Un oggetto può appartenere solo ad una singola Parte.
+-   Le operazioni 3D come [Part Boolean](Part_Boolean/it.md) non possono essere applicate alle parti. Ad esempio, non è possibile selezionare due parti ed eseguire una [Part Fusione](Part_Fuse/it.md) o un [Part Sottrazione](Part_Cut.md).
 
 
-</div>
 
 ## Proprietà
 
+La [Parte](Std_Part/it.md), chiamata internamente [App Part](App_Part/it.md) (classe `App::Part`), è derivata dalla [App GeoFeature](App_GeoFeature/it.md) ({{incode |App::GeoFeature}}) ed eredita tutte le sue proprietà. Ha anche diverse proprietà aggiuntive. In particolare le proprietà che l\'aiutano a gestire le informazioni nel contesto di un assieme, ad esempio, **Type**, **Id**, **License**, **LicenseURL** e { {DatiProprietà\|Group}}.
 
-<div class="mw-translate-fuzzy">
-
-Una [Parte](Std_Part/it.md) è internamente chiamata [App Part](App_Part/it.md) (`App::Part` class), e deriva da un [App GeoFeature](App_GeoFeature/it.md) (`App::GeoFeature` class), quindi condivide la maggior parte delle proprietà di quest\'ultimo.
-
-
-</div>
+Queste sono le proprietà disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
 
 
-<div class="mw-translate-fuzzy">
-
-Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_editor/it.md). Le proprietà nascoste possono essere mostrate usando il comando **Mostra tutto** nel menu contestuale dell\'[editore delle proprietà](property_editor/it.md).
-
-
-</div>
 
 ### Dati
 
 
 {{TitleProperty|Base}}
 
-
-<div class="mw-translate-fuzzy">
-
 -    **Type|String**: una descrizione per questo oggetto. Per impostazione predefinita, è una stringa vuota {{value|""}}.
 
+-    **Material|Link**: il materiale per questo oggetto.
+
+-    **Meta|Map|Hidden**: mappa con metainformazioni aggiuntive. Per impostazione predefinita, {} è vuoto.
+
 -    **Id|String**: un numero di identificazione o un numero di parte per questo oggetto. Per impostazione predefinita, è una stringa vuota {{value|""}}.
+
+-    **Uid|UUID|Hidden**: l\'[identificatore univoco universale](https://en.wikipedia.org/wiki/Universally_unique_identifier) (UUID) (numero a 128 bit) dell\'oggetto. Questo viene assegnato al momento della creazione.
 
 -    **License|String**: un campo per specificare la licenza per questo oggetto. Per impostazione predefinita, è una stringa vuota {{value|""}}.
 
@@ -124,10 +97,19 @@ Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_
 
 -    **Label|String**: il nome modificabile dall\'utente di questo oggetto, è una stringa arbitraria UTF8.
 
+-    **Label2|String|Hidden**: una descrizione più lunga e modificabile dall\'utente di questo oggetto, è una stringa UTF8 arbitraria che può includere ritorni a capo. Per impostazione predefinita, è una stringa vuota {{value|""}}.
+
+-    **Expression Engine|ExpressionEngine|Hidden**: un elenco di espressioni. Per impostazione predefinita, è vuoto {{value|[]}}.
+
+-    **Visibility|Bool|Hidden**: se visualizzare o meno l\'oggetto.
+
+-    **Origin|Link|Hidden**: l\'oggetto [App Origin](App_OriginGroupExtension/it.md) che è il riferimento posizionale per tutti gli elementi elencati in **Group**.
+
 -    **Group|LinkList**: un elenco di oggetti di riferimento. Per impostazione predefinita, è vuoto {{value|[]}}.
 
+-    **_ Group Touched|Bool|Hidden**: se il gruppo viene toccato o meno.
 
-</div>
+
 
 ### Vista
 
@@ -136,45 +118,39 @@ Queste sono le proprietà disponibili nell\'[editore delle proprietà](property_
 
 -    **Display Mode|Enumeration**: {{value|Group}}.
 
--    **Show In Tree|Bool**: if it is `True`, the object appears in the [Tree view](Tree_view.md). Otherwise, it is set as invisible.
+-    **Show In Tree|Bool**: se è `True`, l\'oggetto appare nella [Vista ad albero](Tree_view/it.md). Altrimenti viene impostato come invisibile.
 
--    **Visibility|Bool**: if it is `True`, the object appears in the [3D view](3D_view.md); otherwise it is invisible. By default this property can be toggled on and off by pressing the **Space** bar in the keyboard.
+-    **Visibility|Bool**: se è `True`, l\'oggetto appare nella [vista 3D](3D_view/it.md); altrimenti è invisibile. Per impostazione predefinita, questa proprietà può essere attivata e disattivata premendo la barra **Space** sulla tastiera.
 
 
 {{TitleProperty|Selection}}
 
 -    **On Top When Selected|Enumeration**: {{value|Disabled}} (default), {{value|Enabled}}, {{value|Object}}, {{value|Element}}.
 
--    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. If the option is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} only the bounding box will be highlighted.
+-    **Selection Style|Enumeration**: {{value|Shape}} (default), {{value|BoundBox}}. Se l\'opzione è {{value|Shape}}, l\'intera forma (vertici, bordi e facce) verrà evidenziata nella [vista 3D](3D_view/it.md); se è {{value|BoundBox}} verrà evidenziato solo il riquadro di delimitazione.
+
+
 
 ### Spiegazione dettagliata 
 
+
+
 ### Stato attivo 
 
-
-<div class="mw-translate-fuzzy">
-
-Un documento aperto può contenere più Parti. Una parte attiva verrà visualizzata nella [vista ad albero](Tree_view/it.md) con il colore di sfondo specificato per il **Contenitore attivo**, per impostazione predefinita il colore in [editor delle preferenze](Preferences_Editor/it#Colori.md) è azzurro. Una parte attiva sarà anche mostrata in grassetto.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Un documento aperto può contenere più Parti. Ma solo una Parte può essere attiva. Viene visualizzata la parte attiva nella [vista ad albero](Tree_view/it.md) con il colore di sfondo specificato per il **Contenitore attivo**, per impostazione predefinita il colore in [editor delle preferenze](Preferences_Editor/it#Colori.md) è azzurro. Essa sarà anche mostrata con testo in grassetto.
 
 Per attivare o disattivare un Parte:
 
 -   Doppio click nella [vista ad albero](Tree_view/it.md), oppure
 -   Aprire il menu contestuale (click tasto destro) e selezionare **Attivare la parte**.
 
-
-</div>
-
 ![](images/Std_Part_active.png )
 
 
 
 *Documento con due Parti, di cui la seconda è attiva.*
+
+
 
 ### Origine
 
@@ -183,30 +159,20 @@ L\'Origine è costituita dai tre assi standard (X, Y, Z) e da tre piani standard
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-*A sinistra: Origine di Part nella [vista ad albero](tree_view/it.md).</br> A destra: rappresentazione degli elementi Origine nella [vista 3D](3D_view/it.md).*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+*A sinistra: Origine di Part nella [vista ad albero](Tree_view/it.md). A destra: rappresentazione degli elementi Origine nella [vista 3D](3D_view/it.md).*
 
 
 **Nota:**
 
-l\'origine è un oggetto [App Origin](App_Origin/it.md)(`App::Origin` class), mentre gli assi e i piani sono rispettivamente oggetti di tipo `App::Linea` e `App::Piano`. Ognuno di questi elementi può essere nascosto e non nascosto singolarmente con la barra **Spazio**; questo è utile per scegliere il riferimento corretto quando si creano altri oggetti.
-
-
-</div>
+l\'origine è un oggetto [App Origin](App_OriginGroupExtension/it.md)(`App::Origin` class), mentre gli assi e i piani sono rispettivamente oggetti di tipo `App::Linea` e `App::Piano`. Ognuno di questi elementi può essere nascosto e non nascosto singolarmente con la barra **Spazio**; questo è utile per scegliere il riferimento corretto quando si creano altri oggetti.
 
 
 **Nota 2:**
 
 tutti gli elementi all\'interno della Parte sono riferiti all\'Origine della Parte, il che significa che la Parte può essere spostata e ruotata in riferimento al sistema globale di coordinate senza influenzare il posizionamento degli elementi all\'interno.
+
+
 
 ### Gestione della visibilità 
 
@@ -215,28 +181,18 @@ La visibilità della Parte sostituisce la visibilità di qualsiasi oggetto in es
 ![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
 *La visibilità della parte Std determina se gli oggetti raggruppati sotto di essa sono mostrati o meno nella [vista 3D ](3D_view/it.md).</br>A sinistra: la Parte è nascosta, quindi nessuno degli oggetti sarà mostrato nella [vista 3D](3D_view/it.md).</br>Destra: la Parte è visibile, quindi ogni oggetto controlla la propria visibilità.*
 
+
+
 ## Script
-
-
-<div class="mw-translate-fuzzy">
 
 
 **Vedere anche:**
 
-[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
-
-
-</div>
+[Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](Scripted_objects/it.md).
 
 Vedere [Funzione Part](Part_Feature/it.md) per le informazioni generali sull\'aggiunta di oggetti al documento.
 
-
-<div class="mw-translate-fuzzy">
-
 Una Parte ([App Part](App_Part/it.md)) viene creata con il metodo del documento `addObject()`. Una volta che una Parte esiste, altri oggetti possono essere aggiunti ad essa con i metodi di questa Parte `addObject()` o `addObjects()`.
-
-
-</div>
 
 
 ```python
@@ -252,13 +208,7 @@ part.addObjects([obj1, obj2])
 App.ActiveDocument.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Non si può creare uno script `App::Part`. Tuttavia, è possibile aggiungere un ruolo `App::Part` a uno script `Part::FeaturePython` usando il seguente codice:
-
-
-</div>
+Non si può creare uno script `App::Part`. Tuttavia, è possibile aggiungere un comportamento `App::Part` a uno script `Part::FeaturePython` usando il seguente codice:
 
 
 ```python

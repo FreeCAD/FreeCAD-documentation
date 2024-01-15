@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintSectionPrint
-   Name/fr: FEM Contrainte d'empreinte de section
-   MenuLocation: Modèle , Contraintes géométriques , Contrainte d'empreinte de section
+   Name/fr: FEM Affichage des variables de sortie
+   MenuLocation: Modèle , Fonctions d'analyse géométrique , Affichage des variables de sortie
    Workbenches: FEM_Workbench/fr
    Version: 0.19
    SeeAlso: 
@@ -12,22 +12,22 @@
 
 ## Description
 
-Affiche les variables de sortie prédéfinies du modèle (forces et moments) dans un fichier de données.
+Affiche les variables de sortie prédéfinies (forces et moments) dans le fichier de données.
 
 
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> '''Contrainte d'empreinte de section'''**.
-    -   Sélectionnez l\'option **Modèle → Contraintes géométriques → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Contrainte d'empreinte de section** depuis le menu.
-2.  Appuyez sur le bouton **Ajouter** et sélectionnez la face pour laquelle la sortie sera imprimée.
+    -   Appuyer sur le bouton **<img src="images/FEM_ConstraintSectionPrint.svg" width=16px> [Affichage des variables de sortie](FEM_ConstraintSectionPrint/fr.md)**.
+    -   Sélectionner l\'option **Modèle → Fonctions d'analyse géométrique → <img src="images/FEM_ConstraintSectionPrint.svg" width=16px> Affichage des variables de sortie** du menu.
+2.  Appuyer sur le bouton **Ajouter** et sélectionner la face pour laquelle la sortie sera affichée.
 
 
 
 ## Remarques
 
--   La contrainte utilise la carte \*SECTION PRINT de CalculiX.
+-   La fonction utilise le jeu de paramètres \*SECTION PRINT de CalculiX.
 
 
 

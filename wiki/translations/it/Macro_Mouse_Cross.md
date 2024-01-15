@@ -1,4 +1,7 @@
 # Macro Mouse Cross/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro_Mouse_Cross
 |Icon=Macro_Mouse_Cross.png
@@ -12,14 +15,30 @@
 |Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro cambia la forma del mouse in una croce di precisione.
+
+
+</div>
 
 <img alt="Macro_Mouse_Cross" src=images/Macro_Mouse_Cross_00.png  style="width:480px;">
 
 
 *Breve esempio di utilizzo della classe '''ViewObserver()''' e della procedura d'uso. '''[SoKeyboardEvent](Code_snippets/it#Controllare_gli_eventi_del_mouse_nel_visualizzatore_3D_tramite_Python.md)'''*
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
@@ -28,6 +47,9 @@ Questa macro cambia la forma del mouse in una croce di precisione.
 3.  Premere **G** per attivare la griglia.
 4.  Premere **X** per scorrere tutti i cursori.
 5.  Premere **Q** per uscire dalla macro.
+
+
+</div>
 
 ## Script
 
@@ -209,11 +231,19 @@ except Exception:
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ## Limiti
 
 Il cursore può cambiare aspetto a seconda dell\'ambiente di lavoro usato, quindi ripetere l\'operazione.
 Il cursore può essere sostituito con altri cursori (es: durante l\'espansione di una finestra, gli angoli\...).
 La griglia resta permanante.
+
+
+</div>
 
 
 

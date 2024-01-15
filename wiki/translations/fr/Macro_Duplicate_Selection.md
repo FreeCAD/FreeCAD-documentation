@@ -1,31 +1,30 @@
 # Macro Duplicate Selection/fr
 {{Macro/fr
 |Name=Macro_Duplicate_Selection
-|Description= Cette macro change le curseur de la souris en "ForbiddenCursor" si une sélection est dupliquée.
+|Name/fr=Macro_Duplicate_Selection
+|Description=Cette macro change le curseur de la souris en "ForbiddenCursor" si une sélection est dupliquée.
 |Author=Mario52
 |Version=00.00
 |Date=2016-06-06
 |FCVersion=0.16
-|Download= [https://www.freecadweb.org/wiki/images/5/54/Macro_Duplicate_Selection.png Icon ToolBar]
+|Download=[https://wiki.freecad.org/images/5/54/Macro_Duplicate_Selection.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro change le curseur de la souris si une sélection est dupliquée. Sélectionnez vos objets dans la vue 3D , si une sélection est dupliquée le curseur de la souris change en \"ForbiddenCursor\" et reste dans cet état tan que la sélection est dupliquée.
+Cette macro change le curseur de la souris en \"ForbiddenCursor\" si une sélection est dupliquée.
 
-Cette macro reste résidente.
+
 
 ## Utilisation
 
 Lancez la macro , elle reste résidente en mémoire et active.
 
-Sélectionnez vos objets dans la vue 3D , si une sélection est dupliquée le curseur de la souris change en \"ForbiddenCursor\" et reste dans cet état tan que la sélection est dupliquée.
+Sélectionnez vos objets. Si un objet sélectionné est un doublon, le curseur de souris \"ForbiddenCursor\" (curseur interdit) s\'affiche.
 
 ## Script
 
-**Macro_Duplicate_Selection.FCMacro**
-
-Icon for the toolBar ![](images/Macro_Duplicate_Selection.png )
+Icône de la barre d\'outils ![](images/Macro_Duplicate_Selection.png )
 
 **Macro_Duplicate_Selection.FCMacro**
 
@@ -82,6 +81,8 @@ s=SelObserver()
 FreeCADGui.Selection.addObserver(s)    # installe la fonction en mode resident
 
 }}
+
+
 
 ## Liens
 

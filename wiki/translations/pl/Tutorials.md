@@ -30,13 +30,13 @@ FreeCAD zapewnia dwa główne cykle robocze dla modelowania części:
 
 Należy pamiętać, że tok pracy [PartDesign](PartDesign_Workbench/pl.md) został znacznie zmieniony w stosunku do FreeCAD **0.17**. Niektóre poradniki nie zostały zaktualizowane i mogą odnosić się do wersji **0.16**.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Part_WB/pl](Creating_a_simple_part_with_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowiska Część](Creating_a_simple_part_with_Part_WB/pl.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Part_WB/pl](Creating_a_simple_part_with_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowiska Część](Creating_a_simple_part_with_Part_WB/pl.md)
 Wprowadzenie do programu FreeCAD i środowiska Część z wykorzystaniem brył pierwotnych.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_Draft_and_Part_WB/pl](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowisk Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_Draft_and_Part_WB/pl](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)\|[Tworzenie prostej części za pomocą środowisk Rysunek Roboczy i Część](Creating_a_simple_part_with_Draft_and_Part_WB/pl.md)
 Wprowadzenie do modelowania brył za pomocą środowisk Rysunek Roboczy poprzez tworzenie profilu 2d w środowisku Część.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating_a\_simple_part_with_PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)\|[Tworzenie podstawowych elementów z PartDesign](Creating_a_simple_part_with_PartDesign/pl.md) *(v0.17)*
+<File:GGTuto1> Vue.PNG\|link=[Creating_a_simple_part_with_PartDesign/pl](Creating_a_simple_part_with_PartDesign/pl.md)\|[Tworzenie podstawowych elementów z PartDesign](Creating_a_simple_part_with_PartDesign/pl.md) *(v0.17)*
 Wprowadzenie do cyklu pracy w środowisku Projekt Części, analiza szkicu, używanie wyciągnięcia, kieszeni i przesuwanie obiektu. Pd_tut_final_solid.png\|link=[Basic_Part_Design_Tutorial/pl](Basic_Part_Design_Tutorial/pl.md)\|[Podstawy dla Środowiska pracy Projekt części](Basic_Part_Design_Tutorial/pl.md) *(v0.17)*
 Wymodeluj prostą część przy użyciu metody edytora funkcji, tworzenie szkicu, z wykorzystaniem wyciągnięcia, zewnętrznych odniesień, kieszeni i lustra.
 
@@ -107,7 +107,7 @@ Jest to przykład dołączony do każdej instalacji FreeCAD; demonstruje on pods
 FEM tutorial result.png\|link=[FEM_tutorial/pl](FEM_tutorial/pl.md)\|[Simple FEM introduction](FEM_tutorial/pl.md) *(v0.20)*
 Jest to krótkie wprowadzenie do działań wymaganych do przeprowadzenia analizy w środowisku pracy MES : modelowanie obiektu, tworzenie siatki, dodawanie wiązań i sił, dodawanie materiału, uruchamianie solvera i wizualizacja wyników.
 
-Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a\_Composite_Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
+Figure 11 Deformed Mesh.png\|link=[FEM_Shear_of_a_Composite_Block](FEM_Shear_of_a_Composite_Block.md)\|[FEM shear analysis of a composite block](FEM_Shear_of_a_Composite_Block.md) *(v0.17)*
 Zbadaj deformację bloku wykonanego z twardego jądra otoczonego miękkim materiałem: utwórz obszary siatki, dodaj materiały, ustaw ograniczenia ślizgowe, dodaj obciążenia ścinające, uruchom solver i wizualizuj wyniki za pomocą płaszczyzny zaciskowej.
 
 Femconcrete_Wall_3D_rx_PSS.png\|link=[Analysis_of_reinforced_concrete_with_FEM](Analysis_of_reinforced_concrete_with_FEM.md)\|[Analysis of reinforced concrete with FEM](Analysis_of_reinforced_concrete_with_FEM.md) *(v0.19)*
@@ -217,8 +217,6 @@ Poniżej wymienione są wszystkie poradniki, które nie znajdują się w podręc
 | [Poradnik: Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md)                                                                   | Projekt produktu                     | Początkujący                       | 0:30                 | r-frank and vocx                                                                                 | 0.17 lub nowsze       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Poradnik dla środowiska pracy Rysunek roboczy](Draft_tutorial/pl.md)                                                                            | Środowisko pracy Rysunek Roboczy     | Początkujący                       | 0:30                 | [Drei](User_Drei.md) oraz vocx                                                           | 0.19                  | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Instalacja importera DXF](Dxf_Importer_Install/pl.md)                                                                                           | Import                               | Średniozaawansowany                | 0:05                 | [Mario52](User_Mario52.md)                                                               | wszystkie             | Nie dołączono                                                                                                                                                                                                                                                                                                                 |
 ++++++++
 | [Instalacja importera DXF](Engine_Block_Tutorial/pl.md)                                                                                          | Środowisko pracy Część               | Początkujący                       | 1:00                 | Andrewbuck40                                                                                     | 0.14.3700             |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

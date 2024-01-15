@@ -30,21 +30,52 @@ Narzędzie <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Grub
 
 ## Opcje
 
--   **Grubość**: Grubość ścianki obiektu wynikowego, należy ustawić żądaną wartość.
+-    **Grubość**: Grubość ścianki obiektu wynikowego, należy ustawić żądaną wartość.
+
     -   Dodatnia wartość spowoduje przesunięcie ścianek na zewnątrz.
     -   Ujemna wartość przesunie ściany do wewnątrz.
--   **Tryb pracy**.
-    -   *Powłoka*: Wybierz tę opcję, jeśli chcesz dostać przedmiot jak wazon, bez głowy, ale z dnem.
-    -   *Rura*: Wybierz tę opcję, jeśli chcesz uzyskać obiekt taki jak rura, bez głowy i bez dna. W tym przypadku wygodne może być wybranie ścian, które mają zostać usunięte przed uruchomieniem narzędzia. Pomocne mogą być przyciski z predefiniowanymi widokami lub klawisze numeryczne.
-    -   *Obie strony*:
--   **Typ dołączenia**.
-    -   *Wzdłuż łuku*: usuwa zewnętrzne krawędzie i tworzy zaokrąglenie o promieniu równym zdefiniowanej grubości
-    -   *Stycznie*:
-    -   *Przecięcie*:
--   **Przecięcie**:
--   **Samoprzecięcie**: Włącza autoprzecięcie.
--   ****Ściany****: Wybierz ściany, które mają zostać usunięte, a następnie kliknij przycisk **Gotowe**.
--   **Aktualizuj widok**: Automatyczna aktualizacja widoku w czasie zmiany parametrów.
+
+-    **Tryb pracy**.
+
+    -   
+        **Powłoka**
+        
+        : Wybierz tę opcję, jeśli chcesz dostać przedmiot jak wazon, bez głowy, ale z dnem.
+
+    -   
+        **Rura**
+        
+        : Wybierz tę opcję, jeśli chcesz uzyskać obiekt taki jak rura, bez głowy i bez dna. W tym przypadku wygodne może być wybranie ścian, które mają zostać usunięte przed uruchomieniem narzędzia. Pomocne mogą być przyciski z predefiniowanymi widokami lub klawisze numeryczne.
+
+    -   
+        **Obie strony**
+        
+        :
+
+-    **Typ dołączenia**.
+
+    -   
+        **Wzdłuż łuku**
+        
+        : usuwa zewnętrzne krawędzie i tworzy zaokrąglenie o promieniu równym zdefiniowanej grubości
+
+    -   
+        **Stycznie**
+        
+        :
+
+    -   
+        **Przecięcie**
+        
+        :
+
+-    **Przecięcie**:
+
+-    **Samoprzecięcie**: Włącza autoprzecięcie.
+
+-    **Ściany**: Wybierz ściany, które mają zostać usunięte, a następnie kliknij przycisk **Gotowe**.
+
+-    **Aktualizuj widok**: Automatyczna aktualizacja widoku w czasie zmiany parametrów.
 
 
 

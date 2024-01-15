@@ -1,8 +1,10 @@
 # Macro FCInfoGlass/fr
 {{Macro/fr
 |Name=Macro FCInfoGlass
+|Name/fr=Macro FCInfoGlass
 |Description=Donne une série d'informations sur l'objet avec affichage dans la vue 3D.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/6/6b/Macro_FCInfoGlass.png Icône de la barre d'outils]
 |Version=00.05
 |Date=2016-08-28
 |SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md)
@@ -41,7 +43,9 @@ global colorize              ; colorize                      ="black" # colorize
 
 ```
 
-## Exemples:
+
+
+## Exemples
 
 Availlable : **\"black\" \"white\" \"red\" \"green\" \"blue\" \"yellow\" \"magenta\" \"cyan\"**
 
@@ -191,7 +195,7 @@ Il n\'est pas possible pour le moment de quitter la macro.
 
 Un clic de la souris sur un objet affiche les informations de cet objet, le nombre d\'informations affichées varie si la pièce complète est sélectionnée.
 
-**PS:** Il est possible aussi que dans l\'environnement Linux il n\'est pas possible de cliquer ou avoir accès à l\'objet à l'intérieur de la fenêtre affichant les informations
+**PS :** il est possible aussi que dans l\'environnement Linux il n\'est pas possible de cliquer ou avoir accès à l\'objet à l'intérieur de la fenêtre affichant les informations
 
 Il n\'y a aucun problèmes dans l\'environnement Windows vous pouvez cliquer à l\'intérieur de la fenêtre et avoir accès à l\'objet sauf sur les caractères affichés
 
@@ -205,15 +209,19 @@ les **lignes 87 et 88 SizeX et SizeY** pour les dimensions de la fenêtre
 
 L\'icône **Macro_FCInfoGlass.FCMacro** <img alt="FCInfoGlass" src=images/Macro_FCInfoGlass.png  style="width:64px;">
 
-Copiez le script Gits [**Macro_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
+Copiez le script depuis Gits [**Macro_FCInfoGlass.FCMacro**](https://gist.github.com/mario52a/553b1fc7a8ca5bfa44c6)
 
 et copiez la macro Macro_FCInfoGlass.FCMacro et l\'icône dans votre répertoire de macros.
+
+
 
 ## Liens
 
 La discussion sur le forum [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)
 
-Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
+Mes macros sur [gists de mario52a](https://gist.github.com/mario52a)
+
+
 
 ## Versions
 

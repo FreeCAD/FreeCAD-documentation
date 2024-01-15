@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Part Offset2D
-   Name/fr: Part Décalage 2D
-   MenuLocation: Part , Décalage 2D...
+   Name/fr: Part Décaler en 2D
+   MenuLocation: Part , Décaler en 2D...
    Workbenches: Part_Workbench/fr
    Version: 0.17
    SeeAlso: Part_Offset/fr, Part_Thickness/fr, Draft_Offset/fr
@@ -12,22 +12,28 @@
 
 ## Description
 
-Le <img alt="" src=images/Part_Offset2D.svg  style="width:24px;"> **Part Décalage 2D** génère une polyligne parallèle à la polyligne d\'origine, à une distance définie de celle-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
+L\'outil <img alt="" src=images/Part_Offset2D.svg  style="width:24px;"> **Part Décaler en 2D** génère une polyligne parallèle à la polyligne d\'origine, à une distance définie de celle-ci. Il est également possible de d\'agrandir/réduire une face plane de la même façon.
 
 La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un même objet, pas nécessairement coplanaires.
 
 ![600px](images/Part_Offset2D_Demo.png)
 
+
+
 ## Utilisation
 
 1.  Sélectionner un objet à décaler.
-2.  Appuyer sur le bouton **<img src="images/Part_Offset2D.svg" width=16px> [Décalage 2D](Part_Offset2D/fr.md)**.
+2.  Appuyer sur le bouton **<img src="images/Part_Offset2D.svg" width=16px> [Décaler en 2D](Part_Offset2D/fr.md)**.
 3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_panel/fr.md) puis valider.
 4.  Appuyer sur **OK**.
+
+
 
 ## Remarques
 
 -   Les objets [App Link](App_Link/fr.md) liés aux types d\'objets appropriés et les conteneurs [App Part](App_Part/fr.md) contenant les objets visibles appropriés peuvent également être utilisés comme objets sources. {{Version/fr|0.20}}
+
+
 
 ## Problèmes connus 
 
@@ -47,21 +53,23 @@ La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un 
 
 -   Le décalage des polylignes constituées d\'un seul segment de ligne n\'est pas pris en charge (car le segment de ligne ne définit pas un plan). Les segments de ligne simples ne peuvent pas non plus participer à un décalage groupé.
 
+
+
 ## Propriétés
 
--    **Source**: Lien vers la forme d\'origine
+-    **Source**: lien vers la forme d\'origine
 
--    **Value**: Valeur d\'agrandissement de la polyligne/face. Si négative, la dimension de la face ou de la polyligne est rétrécie à la place.
+-    **Value**: valeur d\'agrandissement de la polyligne/face. Si négative, la dimension de la face ou de la polyligne est rétrécie à la place.
 
--    **Mode**(\"Pipe\" ou \"Skin\") : Définit le traitement des polylignes non fermées. Si \"Pipe\" est selectionné, la polyligne est décalée comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, une polyligne ouverte est créée.
+-    **Mode**(\"Pipe\" ou \"Skin\") : définit le traitement des polylignes non fermées. Si \"Pipe\" est selectionné, la polyligne est décalée comme un contour fermé extrêmement petit. Si \"Skin\" est sélectionné, une polyligne ouverte est créée.
 
 :   ![600px](images/Part_Offset2D_Mode.png)
 
--    **Join**(\"Arc\", \"Tangent\", \"Intersection\") : Définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\" : les segments décalés sont prolongés jusqu\'à ce qu\'ils se croisent.
+-    **Join**(\"Arc\", \"Tangent\", \"Intersection\") : définit le traitement des coins. Avec \"Arc\", les segments décalés sont joints par des arcs de cercle dont le centre est le sommet d\'origine. \"Tangent\" n\'est pas supporté pour OCC7.0.0. \"Intersection\" : les segments décalés sont prolongés jusqu\'à ce qu\'ils se croisent.
 
 :   ![600px](images/Part_Offset2D_Join.png)
 
--    **Intersection**(\"false\", \"true\") : Définit si les polylignes multiples sont traitées collectivement ou indépendamment. Avec \"false\", les polylignes sont traitées indépendamment les unes des autres, les intersections entre les polylignes résultantes sont ignorées. Avec \"true\", les polylignes sont gérées de façon collective.
+-    **Intersection**(\"false\", \"true\") : définit si les polylignes multiples sont traitées collectivement ou indépendamment. Avec \"false\", les polylignes sont traitées indépendamment les unes des autres, les intersections entre les polylignes résultantes sont ignorées. Avec \"true\", les polylignes sont gérées de façon collective.
 
 :   ![600px](images/Part_Offset2D_Intersection.png)
 
@@ -83,9 +91,11 @@ La polyligne/face doit être plan. Il peut y avoir plusieurs polylignes dans un 
 
 :   Les polylignes traitées collectivement doivent être coplanaires. Les polylignes devant être décalées indépendamment n\'ont pas besoin d\'être coplanaires.
 
--    **Fill**(\"false\", \"true\") : Si \"true\", l\'espace entre la polyligne/face d\'origine et le décalage forme une face.
+-    **Fill**(\"false\", \"true\") : si \"true\", l\'espace entre la polyligne/face d\'origine et le décalage forme une face.
 
 :   ![600px](images/Part_Offset2D_Fill.png)
+
+
 
 ## Script
 

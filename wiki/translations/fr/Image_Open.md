@@ -31,4 +31,4 @@ L\'image est placée dans une nouvelle fenêtre, pas dans la vue 3D.
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/fr
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Open/fr

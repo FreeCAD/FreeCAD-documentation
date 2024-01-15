@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 Creates a vertical constraint to the selected lines or polyline elements. As of <small>(v0.17)</small>  it can also constrain vertices vertically. More than one object can be selected.
+
+
 
 
 <div class="mw-translate-fuzzy">

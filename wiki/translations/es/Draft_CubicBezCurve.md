@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 
@@ -36,12 +38,14 @@ Los comandos [Borrador de BezCurva](Draft_BezCurve/es.md) y Borrador de CubicBez
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
 *Spline formada por tres segmentos cúbicos de Bézier. El primer segmento está definido por cuatro puntos. Los segmentos posteriores reutilizan dos puntos del segmento anterior y, por tanto, sólo requieren dos puntos adicionales.*
 
+
+
 ## Utilización
 
 Ver también: [Bandeja de borrador](Draft_Tray/es.md), [Borrador Snap](Draft_Snap/es.md) y [Borrador Constreñido](Draft_Constrain/es.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Draft CubicBezCurve](Draft_CubicBezCurve.md)** button.
+    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Cubic Bézier curve](Draft_CubicBezCurve.md)** button.
     -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
 2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  It is not possible the enter points via the task panel.
@@ -57,21 +61,25 @@ Ver también: [Bandeja de borrador](Draft_Tray/es.md), [Borrador Snap](Draft_Sna
 11. Each subsequent segment will use the second endpoint and second control point of the previous segment as its first endpoint and first control point respectively.
 12. Press **Esc** or the **Close** button to finish the command.
 
+
+
 ## Opciones
 
 See [Draft BezCurve](Draft_BezCurve#Options.md).
+
+
 
 ## Notas
 
 -   A Draft CubicBezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
 
-## Preferences
 
-See [Draft BezCurve](Draft_BezCurve#Preferences.md).
 
 ## Propiedades
 
 See [Draft BezCurve](Draft_BezCurve#Properties.md).
+
+
 
 ## Archivos de guión 
 

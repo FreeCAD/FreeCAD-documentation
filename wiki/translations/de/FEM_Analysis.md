@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM Analysis
    Name/de: FEM Analyse
-   MenuLocation: Modell , Analyse-Container‏‎
+   MenuLocation: Modell , Analysebehälter
    Workbenches: FEM_Workbench/de
    Shortcut: **S** **A**
    SeeAlso: FEM_tutorial/de
@@ -10,31 +10,40 @@
 
 # FEM Analysis/de
 
+
+
 ## Beschreibung
 
-Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite Element Analyse aufnimmt. Es ist obligatorisch, einen Analysecontainer zu haben, der alle benötigten Objekte enthält. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt:
+Das FEM Analysis(-Objekt) könnte als ein Behälter gesehen werden, der alle Objekte einer Finite-Elemente-Analyse aufnimmt. Es muss eine Analysebehälter vorhanden sein, der alle benötigten Objekte aufnehmen kann. Mindestens eines der folgenden Objekte wird für eine mechanische Analyse benötigt:
 
--   Ein [Material](FEM_MaterialSolid/de.md)
--   Randbedingungen zur [Befestigung](FEM_ConstraintFixed/de.md) (Einspannung)
--   Randbedingungen zur [Krafteinleitung](FEM_ConstraintForce/de.md) oder [Druckbeaufschlagung](FEM_ConstraintPressure/de.md)
+-   Ein [Festkörper-Material](FEM_MaterialSolid/de.md)
+-   Eine Randbedingung zur [Befestigung](FEM_ConstraintFixed/de.md) (Einspannung) oder [Auslenkung](FEM_ConstraintDisplacement/de.md) (Verschiebung).
+
+
 
 ## Anwendung
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_Analysis.svg" width=16px> [Analyse-Container](FEM_Analysis/de.md)** drücken.
-    -   Den Menüeintrag **Modell → <img src="images/FEM_Analysis.svg" width=16px> Analyse-Container‏‎** auswählen.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/FEM_Analysis.svg" width=16px> [Analysebehälter](FEM_Analysis/de.md)** drücken.
+    -   Den Menüeintrag **Modell → <img src="images/FEM_Analysis.svg" width=16px> Analysebehälter** auswählen.
     -   Das Tastaturkürzel **S** dann **A**.
 2.  Eine neue Analyse (ein Analysis-Objekt) wird erstellt und aktiviert.
-3.  Andere Objekte können dem Analysecontainer durch Ziehen und Ablegen hinzugefügt oder entfernt werden.
+3.  Andere Objekte können dem Analysebehälter durch Ziehen und Ablegen hinzugefügt oder entfernt werden.
 4.  Um dem Dokument neue FEM-Objekte hinzuzufügen, muss die Analyse aktiv sein. Ein Doppelklick auf das Analysis-Objekt aktiviert die Analyse.
+
+
 
 ## Optionen
 
 -   Bislang gibt es keine Option zur Auswahl.
 
+
+
 ## Eigenschaften
 
 -    **OutpuDir**: Gibt das Arbeitsverzeichnis der Analyse an
+
+
 
 ## Skripten
 

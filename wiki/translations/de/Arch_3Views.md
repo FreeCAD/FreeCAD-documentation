@@ -27,9 +27,6 @@ Er dient dazu, flache, formbasierte Ansichten aus einem [Mesh](Mesh_Workbench/de
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
 
@@ -37,23 +34,7 @@ Er dient dazu, flache, formbasierte Ansichten aus einem [Mesh](Mesh_Workbench/de
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
 ```python
 shape = createMeshView(obj, direction=FreeCAD.Vector(0, 0, -1), outeronly=False, largestonly=False)
 ```

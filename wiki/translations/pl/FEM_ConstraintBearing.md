@@ -1,9 +1,9 @@
 ---
  GuiCommand:
-   Name: FEM ConstraintBearing
-   MenuLocation: Model , Constraints without solver , Constraint bearing
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintGear, FEM_ConstraintPulley
+   Name: FEM ConstraintGear
+   Name/pl: MES: Wiązanie łożyska
+   MenuLocation: Model , Wiązania bez solvera , Wiązanie łożyska
+   Workbenches: FEM_Workbench/pl
 ---
 
 # FEM ConstraintBearing/pl

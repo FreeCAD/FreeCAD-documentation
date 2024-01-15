@@ -1,61 +1,49 @@
 ---
  GuiCommand:
    Name: Draft Snap Intersection
-   Name/it: Intersezione
-   MenuLocation: Draft , Draft_Snap/it , Intersezione
+   Name/it: Draft Aggancia Intersezione
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Intersection/it
 
 
-</div>
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:24px;"> **Draft Aggancia Intersezione** esegue l\'aggancio all\'intersezione di due bordi. I bordi possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
-<div class="mw-translate-fuzzy">
+Questa opzione di aggancio troverà anche le intersezioni apparenti dei bordi (estesi) rettilinei se anche <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [Draft Aggancia Piano di lavoro](Draft_Snap_WorkingPlane/it.md) è attivo.
 
-Questa modalità di aggancio consente di selezionare il punto di intersezione di due segmenti di linea o di due archi.
-
-
-</div>
-
-This snap option will also find apparent intersections of (extended) straight edges if <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [Draft Snap WorkingPlane](Draft_Snap_WorkingPlane.md) is active as well.
-
-![](images/Draft_Snap_Intersection_example.png )
+![](images/Draft_Snap_Intersection_example.png ) 
+*Aggancio del secondo punto di una linea all'intersezione di due bordi*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio del secondo punto di una linea a un'intersezione di altre due linee*
-
-
-</div>
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Intersezione** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Intersection.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Intersection.svg" width=16px> Aggancia Intersezione**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Spostare il cursore su uno dei bordi che si intersecano.
+6.  Il bordo viene evidenziato.
+7.  Spostare il cursore sull\'altro bordo.
+8.  Il bordo viene evidenziato.
+9.  Se viene trovata un\'intersezione, il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+10. Se i bordi hanno più intersezioni: opzionalmente spostare il cursore più vicino a un\'altra intersezione.
+11. Fare clic per confermare il punto.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Intersection.svg" width=16px> [Intersezione](Draft_Snap_Intersection/it.md)** siano attivati.
-2.  Scegliere uno strumento Draft per disegnare una forma.
-3.  Spostare il cursore su una delle due linee che si incrociano.
-4.  Una delle linee si evidenzia in giallo, e un piccolo cerchio bianco indica il punto di intersezione a cui collegare il nuovo punto.
-5.  Cliccare per agganciare il nuovo punto.
+## Preferenze
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

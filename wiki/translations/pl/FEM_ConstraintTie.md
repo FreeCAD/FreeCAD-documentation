@@ -1,25 +1,30 @@
 ---
  GuiCommand:
    Name: FEM ConstraintTie
-   MenuLocation: Model , Mechanical Constraints , Constraint tie
-   Workbenches: FEM_Workbench
+|Name/pɬMES Wiązanie tie
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Wiązanie tie
+   Workbenches: FEM_Workbench/pl
    Version: 0.19
-   SeeAlso: FEM_ConstraintPressure
+   SeeAlso: FEM_ConstraintPressure/pl
 ---
 
 # FEM ConstraintTie/pl
 
-## Description
 
-Defines a tie constraint that connects the two selected surfaces in such a way that (as opposed to how contact works) they can\'t separate or slide on each other throughout the analysis. Thus, the surfaces remain permanently bonded all the time.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintTie.svg" width=16px> [FEM ConstraintTie](FEM_ConstraintTie.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintTie.svg" width=16px> Constraint tie** option from the menu.
-2.  Press the **Add** button in the task panel and then click on the face you want to add to tie constraint definition. Exactly two faces have to be added, one after the other.
-3.  Optionally, define Tolerance - tie constraint will be applied only to nodes separated from the opposite surface by the distance not larger than the one specified here.
+Definiuje wiązanie tie łączące dwie wybrane powierzchnie w taki sposób, że (w przeciwieństwie do tego jak działa kontakt) nie mogą się rozdzielić ani ślizgać po sobie podczas analizy. Są więc trwale połączone.
+
+
+
+## Użycie
+
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintTie.svg" width=16px> [Wiązanie tie](FEM_ConstraintTie/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintTie.svg" width=16px> Wiązanie tie** z menu.
+2.  Wciśnij przycisk **Dodaj** w panelu zadań a następnie kliknij na ścianie, którą chcesz dodać do definicji wiązania tie. Dokładnie dwie powierzchnie muszą być dodane, jedna po drugiej.
+3.  Opcjonalnie, zdefiniuj Tolerancję - wiązanie tie będzie zadane tylko na węzły oddalone od przeciwległej powierzchni o odległość nie większą niż ta podana jako tolerancja.
 
 
 

@@ -10,6 +10,8 @@
 
 # Arch Axis/de
 
+
+
 ## Beschreibung
 
 Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)** Werkzeug ermöglicht es dir, eine Reihe von Achsen im aktuellen Dokument zu platzieren. Der Abstand und der Winkel zwischen den Achsen ist anpassbar, ebenso wie der Nummerierungsstil. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte gefangen werden, können aber auch zusammen mit **<img src="images/Arch_Axis_System.svg" width=16px> [Arch Achsensystem](Arch_AxisSystem.md)** verwendet werden. Sie können auch von anderen Architekturobjekten referenziert werden, um parametrische Anordnungen, z.B. von Trägern oder Stützen, zu erstellen. **<img src="images/Arch_Grid.svg" width=16px> [Arch Gitter](Arch_Grid/de.md)** können auch an Stellen von Achsen verwendet werden.
@@ -17,11 +19,15 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)*
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Zwei Achsenobjekte, die rechtwinklig zueinander ausgerichtet sind, um ein Raster zu erzeugen*
 
+
+
 ## Anwendung
 
 1.  Drücke die **<img src="images/Arch_Axis.svg" width=16px>[Architektur Achsen](Arch_Axis/de.md)** Taste oder drücke **A** dann **X** Tasten.
 2.  [Bewegen](Draft_Move/de.md)/[Drehen](Draft_Rotate/de.md) das Achsensystem in die gewünschte Position.
 3.  Rufe den Bearbeitungsmodus durch doppelklicken des Achsensystems in der Baumansicht auf, um dessen Einstellungen wie Anzahl der Achsen, Abstände und Winkel zwischen den Achsen anzupassen.
+
+
 
 ## Optionen
 
@@ -29,6 +35,8 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)*
 -   Durch Doppelklicken auf die Achse in der Baumansicht erlaubt das bearbeiten der Abstände, Winkel und Beschriftungen jeder Achse.
 -   Achslänge, Größe der Blasen und Nummerierungsstile sind direkt über die Eigenschaften des Achsensystems anpassbar.
 -   Jede Achse kann auch eine Beschriftung anzeigen, die über den Dialog des Aufgabenbereichs bearbeitet werden kann.
+
+
 
 ## Eigenschaften
 
@@ -48,9 +56,13 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Arch Achse](Arch_Axis/de.md)*
 
 -    {{PropertyView/de|Beschriftung anzeigen}}: Schaltet die Anzeige der Etikettentexte ein/aus
 
+
+
 ## Verwendung als Abschnittsmarkierung 
 
-Durch setzen der **Blasenposition**-Eigenschaft auf **Pfeil links/rechts** oder **Strich links/rechts** wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als eine Abschnittsmarkierung genutzt werden kann <small>(v0.20)</small> 
+Durch setzen der Eigenschaft **Bubble Position** auf **Arrow left/right** oder **Bar left/right** wird die Achse einen gefüllten Pfeil oder einen Strich anstatt der Blase anzeigen, so dass sie als Schnittmarkierung genutzt werden kann {{Version/de|0.20}}
+
+
 
 ## Skripten
 
@@ -59,7 +71,9 @@ Durch setzen der **Blasenposition**-Eigenschaft auf **Pfeil links/rechts** oder 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Achsenwerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion angesprochen werden: 
+Das Werkzeug Achse kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```

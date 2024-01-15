@@ -1,71 +1,43 @@
 ---
  GuiCommand:
-   Name: Mesh Difference   Name/de: Netze Differenz
-   MenuLocation: Netze , Boolean , Differenz
-   Workbenches: Mesh Workbench/de
-   SeeAlso: 
+   Name: Mesh Difference
+   Name/de: Mesh Differenz
+   MenuLocation: Netze , Boolesche Verknüpfung , Differenz
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Mesh_Union/de, Mesh_Intersection/de
 ---
 
 # Mesh Difference/de
 
 
-</div>
 
-## Description
+## Beschreibung
 
+Der Befehl **Mesh Differenz** erstellt ein neues, nicht parametrisches Netzobjekt, ein [Mesh Formelement](Mesh_Feature/de.md), das die Differenz zweier Netzobjekte darstellt: ein Netzobjekt wird aus dem anderen herausgeschnitten.
 
-<div class="mw-translate-fuzzy">
+[OpenSCAD](http://www.openscad.org/) muss installiert sein, um diesen Befehl zu verwenden und der Pfad zu seiner ausführbaren Datei muss in den Einstellungen von [OpenSCAD](OpenSCAD_Preferences/de.md) eingetragen sein.
 
-## Einleitung
-
-Erstellt eine Differenz (Schnitt) von zwei ausgewählten Netzen.
-
-
-</div>
+![](images/Mesh_Difference_example.png ) 
+*Links: zwei Netzobjekte. Rechts: das Differenzobjekt beider Objekte; der Würfel ist hier als Hauptobjekt ausgewählt, aus dem der Zylinder (das als zweites ausgewählte Abzugsobjekt) herausgeschnitten wird*
 
 
-<div class="mw-translate-fuzzy">
-
-Das Ergebnis wird als neues separates Netz erstellt.
-
-
-</div>
-
-![](images/Mesh_Difference_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-Beispiel: Würfel geschnitten mit einer Kugel
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
-1.  Wähle in der Baumansicht oder der 3D Ansicht die zu schneidenden Netze.
-2.  Wähle **Netze** → **Boolean** → **Differenz**
-
-
-</div>
-
-## Properties
-
-See: [Mesh Feature](Mesh_Feature.md).
-
-
-<div class="mw-translate-fuzzy">
+1.  Das Haupt-Netzobjekt auswählen.
+2.  Das vom Hauptobjekt abzuziehende Netzobjekt zur Auswahl hinzufügen. Die Netzobjekte müssen sich überlappen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_Difference.svg" width=16px> [Differenz](Mesh_Difference/de.md)** drücken.
+    -   Den Menüeintrag **Netze → Boolesche Verknüpfung → <img src="images/Mesh_Difference.svg" width=16px> Differenz** auswählen.
 
 
 
+## Eigenschaften
+
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
-</div>
+
 
 
 {{Mesh Tools navi

@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ClipGroupAdd
    Name/de: TechDraw AusschnittsgruppeHinzufügen
-   MenuLocation: TechDraw , Ansicht zu Ausschnittsgruppe hinzufügen
+   MenuLocation: TechDraw, Clipped Views , Ansicht zu Ausschnittsgruppe hinzufügen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: TechDraw_ClipGroupAdd/de, TechDraw_ClipGroupRemove/de
+   SeeAlso: TechDraw_ClipGroup/de, TechDraw_ClipGroupRemove/de
 ---
 
 # TechDraw ClipGroupAdd/de
-
-
-</div>
 
 
 
@@ -25,13 +22,10 @@ Das Werkzeug **TechDraw AusschnittsgruppeHinzufügen** fügt eine Ansicht zu ein
 
 ## Verwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Wähle einen Ausschnitt und eine Ansicht und drücke die Schaltfläche **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Ansicht zu Ausschnittsgruppe hinzufügen](TechDraw_ClipGroupAdd/de.md)**, um die Ansicht hinzuzufügen.
-
-
-</div>
+1.  Einen Ausschnitt und eine Ansicht in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ClipGroupAdd.svg" width=16px> [Ansicht zu Ausschnittsgruppe hinzufügen](TechDraw_ClipGroupAdd/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Clipped Views → <img src="images/TechDraw_ClipGroupAdd.svg" width=16px> Ansicht zu Ausschnittsgruppe hinzufügen** auswählen.
 
 
 

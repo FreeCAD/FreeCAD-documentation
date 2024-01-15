@@ -1,13 +1,25 @@
 # Help/ru
+## Wiki
+
+If you are looking for answers in the Wiki you will soon notice that its search feature is not very sophisticated. You will get better results using an internet search engine. Just add {{Value|site:wiki.freecad.org}} to your request to limit the search to the FreeCAD Wiki.
+
+## FAQ
+
+Some of your questions may already have been answered on the [FAQ](Frequently_asked_questions.md) page.
+
+
+
 ## Форум
+
+
+<div class="mw-translate-fuzzy">
 
 Первое место, куда вы можете обратиться за помощью, это [FreeCAD форум](https://forum.freecadweb.org/viewforum.php?f=3). Прочитайте [этот пост](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) перед тем как задать вопросы. Помните, что [важная информация](Important_information/ru.md) о Вашей системе необходима для помощи.
 
+
+</div>
+
 There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
-
-## Wiki
-
-If you need help or have questions related to a particular page of this wiki documentation, you can always leave ideas or comments on the \"discussion\" tab of each page. To upload files for Wiki please use [this page](https://www.freecadweb.org/wiki/Special:Upload).
 
 ## Internet Relay Chat (IRC) 
 

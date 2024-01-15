@@ -3,7 +3,6 @@
    Name: FEM ConstraintFluidBoundary
    MenuLocation: Model , Constraints without solver , Fluid boundary condition
    Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
 ---
 
 # FEM ConstraintFluidBoundary/en

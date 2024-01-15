@@ -9,6 +9,8 @@
 
 # Draft CubicBezCurve/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft CubicBezCurve** command creates a [Bézier curve](http://en.wikipedia.org/wiki/Bezier_curve) of the third degree (four points required).
@@ -20,12 +22,14 @@ The [Draft BezCurve](Draft_BezCurve.md) and the Draft CubicBezCurve commands use
 <img alt="" src=images/Draft_CubicBezCurve_example.png  style="width:500px;"> 
 *Spline consisting of three cubic Bézier segments. The first segment is defined by four points. Subsequent segments reuse two points from the previous segment and therefore require only two additional points.*
 
+
+
 ## Utilização
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Draft CubicBezCurve](Draft_CubicBezCurve.md)** button.
+    -   Press the **<img src="images/Draft_CubicBezCurve.svg" width=16px> [Cubic Bézier curve](Draft_CubicBezCurve.md)** button.
     -   Select the **Drafting → Bézier tools → <img src="images/Draft_CubicBezCurve.svg" width=16px> Cubic Bézier curve** option from the menu.
 2.  The **Cubic Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  It is not possible the enter points via the task panel.
@@ -41,17 +45,19 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 11. Each subsequent segment will use the second endpoint and second control point of the previous segment as its first endpoint and first control point respectively.
 12. Press **Esc** or the **Close** button to finish the command.
 
+
+
 ## Opções
 
 See [Draft BezCurve](Draft_BezCurve#Options.md).
+
+
 
 ## Notas
 
 -   A Draft CubicBezCurve can be edited with the [Draft Edit](Draft_Edit.md) command.
 
-## Preferências
 
-See [Draft BezCurve](Draft_BezCurve#Preferences.md).
 
 ## Propriedades
 

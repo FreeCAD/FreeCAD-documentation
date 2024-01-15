@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Creează o Constrângere prin MEF pentru o intrare geometrică fixă prin blocarea tuturor celor 6 grade libertate a obiectului selectat.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -29,11 +39,17 @@ Creează o Constrângere prin MEF pentru o intrare geometrică fixă prin blocar
 
 </div>
 
+
+
 ## Limite
+
+
+<div class="mw-translate-fuzzy">
 
 Nu puteți amesteca tipuri diferite de obiecte în aceeași constrângere. Utlizați o constrângere fixă pentru fiecare tip e obiect.
 
-## Note
+
+</div>
 
 
 

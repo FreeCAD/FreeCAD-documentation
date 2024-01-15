@@ -12,22 +12,22 @@
 
 ## Descrição
 
-For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the program [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) for calculating the mesh.
+For a finite elements analysis the geometry needs to be discretized into a [FEM Mesh](FEM_Mesh.md). This command uses the software [Gmsh](https://en.wikipedia.org/wiki/Gmsh) (which needs to be installed on the system) to generate the mesh.
 
-Depending on your operating system and your installation package Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
+Depending on your operating system and your installation package, Gmsh might be bundled with FreeCAD or not. For further information see [FEM Install](FEM_Install.md).
 
 
 
 ## Utilização
 
 1.  Select the shape you want to analyze. For volume FEM this needs to be a solid or compsolid. A compsolid is necessary if your part is made from multiple materials. (A compsolid can be created with the [BooleanFragments](Part_BooleanFragments.md) command.)
-    -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM MeshGmshFromShape](FEM_MeshGmshFromShape.md)** button.
+    -   Press the **<img src="images/FEM_MeshGmshFromShape.svg" width=16px> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md)** button.
     -   Select the **Mesh → <img src="images/FEM_MeshGmshFromShape.svg" width=16px> FEM mesh from shape by Gmsh** option from the menu.
-2.  Optionally edit the minimal and maximal element size. (Autodetection works fine unless you apply complicated boundary conditions.)
-3.  Click the **Apply** button and wait for the computation of the mesh to complete
+2.  Optionally edit the minimal and maximal element size (autodetection often creates meshes that are too coarse).
+3.  Click the **Apply** button and wait for the generation of the mesh to complete.
 4.  Close the task. You now should see a new FEMMeshGMSH object in your active analysis container.
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
+After the mesh has been created, you can change its properties using the [property editor](Property_editor.md). After you change a property, you must reopen the Gmsh dialog again and click the **Apply** button (you can leave the dialog open while changing properties).
 
 
 
@@ -90,12 +90,12 @@ After the mesh has been crated you can change its properties using the [property
 
 ### Nonpositive Jacobians 
 
-When you get a meshing erro about nonpositive Jacobians, you can try out the following strategies:
+When you get a meshing error about nonpositive Jacobians, you can try out the following strategies:
 
 -   Set **Second Order Linear** to *true* but keep **Element Order** at *2nd*.
 -   Set **Element Order** to *1st*.
 -   Use a smaller element size by reducing the **Characteristic Length Max**.
--   If solver ccxtools is used and the run button is used (not the task panel) the nodes of non positive jacobian elements will be green.
+-   If solver ccxtools is used and the run button is used (not the task panel) the nodes of nonpositive jacobian elements will be green.
 
 ### Mesh Growth 
 
@@ -107,7 +107,7 @@ At edges and small geometric entities, the mesh has to be smaller than in areas 
 To enable a sensible mesh growing, you must in this case add an edge to the area. In the example, this would be a circle in the middle of the cylinder. The circle is added as part of a [BooleanFragments](Part_BooleanFragments.md) compound (to form a CompSolid), see [the project file](https://forum.freecadweb.org/download/file.php?id=146255) of the example.
 
 <img alt="" src=images/FEM_Gmsh-MeshGrowth-success.png  style="width:400px;"> 
-*Sensible mesh growing due to the additional edge in the middle of the cylindrical aread*
+*Sensible mesh growing due to the additional edge in the middle of the cylindrical area*
 
 ### Element Recombination 
 

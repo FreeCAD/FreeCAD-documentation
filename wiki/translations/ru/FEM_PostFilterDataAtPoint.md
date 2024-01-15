@@ -14,9 +14,13 @@
 
 </div>
 
+
+
 ## Описание
 
 Displays the value of a selected field at a picked point.
+
+
 
 ## Применение
 
@@ -32,7 +36,13 @@ Displays the value of a selected field at a picked point.
 The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{FEM Tools navi

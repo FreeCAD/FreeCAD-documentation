@@ -34,7 +34,7 @@ The **TechDraw ComplexSection** tool inserts a cross-section view based on an ex
 
 ## Properties ComplexSection 
 
-See also [TechDraw SectionView](TechDraw_SectionView#Properties.md).
+See also [TechDraw SectionView](TechDraw_SectionView#Properties_Section_View.md).
 
 ### Data
 

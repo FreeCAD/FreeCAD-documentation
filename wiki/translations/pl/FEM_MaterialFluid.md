@@ -1,33 +1,38 @@
 ---
  GuiCommand:
    Name: FEM MaterialFluid
-   MenuLocation: Model , Materials , Material for fluid
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Materiał dla płynu
+   MenuLocation: Model , Materiały , Materiał dla płynu
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MaterialFluid/pl
 
-## Description
 
-Adds fluid properties to a part.
+
+## Opis
+
+Tworzy materiał dla płynu.
 
 ![](images/FEMMaterialFluidProperties.png ) 
-*The FEM material task panel*
+*Okno dialogowe materiału MES.*
 
-## Usage
 
-1.  To create a new MaterialFluid object do one of the following:
-    -   Press the **<img src="images/FEM_MaterialFluid.svg" width=16px> [FEM MaterialFluid](FEM_MaterialFluid.md)** button.
-    -   Select the **Model → Materials → <img src="images/FEM_MaterialFluid.svg" width=16px> Material for fluid‏‎** option from the menu.
-2.  To edit an existing MaterialFluid object:
-    -   Double-click it in the [Tree view](Tree_view.md).
-3.  The FEM material task panel opens.
-4.  Select a fluid type. For Computational Fluid Dynamics (CFD), **Air** or **Water** are typical options.
-5.  Provided that you are applying fluid to the whole object, don\'t select any geometrical entities (leave reference list empty). Fluid will be applied to the whole model. Otherwise assign fluid to particular model domains manually by selecting some of them for each inserted material, if you do that, do not leave any domain of your model without fluid assigned.
-6.  You can adjust fluid properties such as density, kinematic viscosity, thermal conductivity, etc., a few key fluids are already assigned in the list and they don\'t need any tweaking.
-7.  If you make modifications, you can save your customized material.
-8.  Press the **Close** button to close the task panel.
+
+## Użycie
+
+1.  Aby utworzyć nowy obiekt MaterialFluid, skorzystaj z jednego z następujących podejść:
+    -   Wciśnij przycisk **<img src="images/FEM_MaterialFluid.svg" width=16px> '''Materiał dla płynu'''**.
+    -   Wybierz opcję **Model → Materiały → <img src="images/FEM_MaterialFluid.svg" width=16px> Materiał dla płynu‏‎** z menu.
+2.  Aby edytować istniejący obiekt MaterialFluid:
+    -   Dwukrotnie kliknij na nim w [widoku drzewa](Tree_view/pl.md).
+3.  Zostanie otwarte okno dialogowe materiału MES.
+4.  Wybierz typ płynu. Do analiz CFD *(Computational Fluid Dynamics)* najczęściej wykorzystywane są materiały **Air** i **Water**.
+5.  Jeśli definiujesz materiał płynu dla całego modelu, nie wybieraj żadnych obiektów geometrycznych *(zostaw pustą listę odniesień)*. Materiał płynu zostanie automatycznie przypisany do całego modelu. W innym wypadku, przypisz materiały płynu do wybranych części ręcznie, poprzez wybieranie ich do poszczególnych definicji materiału, ale nie zostawiaj żadnej części modelu bez definicji materiału płynu.
+6.  Możesz dostosować właściwości płynu, takie jak gęstość, lepkość kinematyczna, przewodność cieplna itd. Kilka najczęściej spotykanych płynów jest już na liście i nie wymaga edycji.
+7.  Jeśli wprowadzisz modyfikacje, możesz zapisać zmieniony materiał.
+8.  Wciśnij przycisk **Zamknij** aby zamknąć okno dialogowe.
 
 
 

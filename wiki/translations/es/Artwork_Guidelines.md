@@ -25,11 +25,13 @@ Las siguientes secciones explican estos elementos con más detalle.
 
 Este icono se muestra de la siguiente manera:
 
-   
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;">   64 px, tamaño original, botones grandes.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;">   32 px, tamaño medio, botones regulares.
-  <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;">   16 px, pequeño tamaño, como aparece en el [vista árbol](Tree_view/es.md).
-   
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:64px;"> | 64 px, tamaño original, botones grandes.                                          |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:32px;"> | 32 px, tamaño medio, botones regulares.                                           |
++++
+| <img alt="" src=images/FreeCAD_icon_example.svg  style="width:16px;"> | 16 px, pequeño tamaño, como aparece en el [vista árbol](Tree_view/es.md). |
++++
 
 ## Colores
 

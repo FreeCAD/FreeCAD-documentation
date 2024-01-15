@@ -49,6 +49,7 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 
 ## Notas
 
+-   For a solid color fill select **solid.svg** as the **Pattern File**.
 -   Hatching objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information. It is recommended that hatching be one of the last steps in your drawing process.
 -   Sample [SVG](SVG.md) patterns are available locally in:
 

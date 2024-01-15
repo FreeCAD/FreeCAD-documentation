@@ -12,15 +12,9 @@
 
 L\'ambiente <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/it.md) è un [ambiente esterno](External_workbenches/it.md) finalizzato all\'implementazione completa in FreeCAD degli strumenti e del flusso di lavoro[Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM). Può essere installato da <img alt="" src=images/_Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md).
 
+L\'ambiente BIM si basa sull\'ambiente interno <img alt="" src=images/_Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) ed entrambi saranno probabilmente uniti in futuro. BIM è un \"meta ambiente\", inteso a raccogliere molti strumenti utili da altri ambienti in un unico luogo e creare un flusso di lavoro più comodo e intuitivo sia per gli utenti BIM esperti che per i principianti. L\'ambiente BIM presenta anche alcuni strumenti specifici, per lo più procedure guidate e strumenti di gestione, che si trovano nel menu **Gestione**.
 
-<div class="mw-translate-fuzzy">
-
-L\'ambiente BIM si basa sull\'ambiente interno <img alt="" src=images/_Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) ed entrambi saranno probabilmente uniti in futuro. BIM è un \"meta ambiente\", inteso a raccogliere molti strumenti utili da altri ambienti in un unico luogo e creare un flusso di lavoro più conveniente e intuitivo sia per gli utenti BIM esperti che per i principianti. L\'ambiente BIM presenta anche alcuni strumenti specifici, per lo più procedure guidate e strumenti di gestione, che si trovano nel menu **Gestione**.
-
-
-</div>
-
-See [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide) for a quick overview if you are already a user of another BIM application.
+Vedere [FreeCAD BIM migration guide](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide) per una rapida panoramica se si è già utente di un\'altra applicazione BIM.
 
 Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comunità OSArch](https://osarch.org), con l\'obiettivo finale di migliorare la progettazione degli edifici utilizzando software completamente gratuito.
 
@@ -30,13 +24,7 @@ Gli sviluppatori di Draft, Arch e BIM collaborano anche con la più ampia [comun
 
 ## Installazione
 
-
-<div class="mw-translate-fuzzy">
-
-Il workbench BIM non è in bundle con il pacchetto FreeCAD predefinito, ma può essere facilmente installato tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Richiamarlo da **Strumenti → [Addons Manager](Std_AddonMgr/it.md)**. Il codice del workbench BIM è [ospitato e sviluppato su github](https://github.com/yorikvanhavre/BIM_Workbench) e può anche essere installato manualmente copiandolo nella directory **MOD** di FreeCAD.
-
-
-</div>
+Il workbench BIM non è in bundle con il pacchetto FreeCAD predefinito, ma può essere facilmente installato tramite il <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Richiamarlo da **Strumenti → Addon Manager**. Il codice del workbench BIM è [ospitato e sviluppato su github](https://github.com/yorikvanhavre/BIM_Workbench) e può anche essere installato manualmente copiandolo nella directory **MOD** di FreeCAD.
 
 **Note**
 
@@ -50,53 +38,23 @@ Se la propria versione di FreeCAD non è completamente aggiornata gli strumenti 
 
 <img alt="" src=images/BIM_welcome_screen.png  style="width:800px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Al primo avvio di BIM viene visualizzata una finestra di benvenuto, che fornisce una rapida panoramica di come funziona questo ambiente e consente all\'utente di avviare il [tutorial in-game](BIM_ingame_tutorial/it.md). La finestra di benvenuto è disponibile anche dal menu **Aiuto**. Quando la schermata di benvenuto viene chiusa facendo clic su OK, viene visualizzata la [finestra di dialogo di configurazione BIM](BIM_Setup/it.md), che consente all\'utente di impostare rapidamente alcune delle più comuni preferenze relative al BIM di FreeCAD senza la necessità di sfogliare tutte le pagine delle preferenze di FreeCAD.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Al primo avvio di BIM viene visualizzata una finestra di benvenuto, che fornisce una rapida panoramica di come funziona questo ambiente e consente all\'utente di avviare un [divertente tutorial di BIM](BIM_ingame_tutorial/it.md). La finestra di benvenuto è disponibile anche dal menu **Aiuto**. Quando la schermata di benvenuto viene chiusa facendo clic su OK, viene visualizzata la [finestra di dialogo di configurazione BIM](BIM_Setup/it.md), che consente all\'utente di impostare rapidamente alcune delle più comuni preferenze relative al BIM di FreeCAD senza la necessità di sfogliare tutte le pagine delle preferenze di FreeCAD.
 
 Lo strumento [Configurazione del progetto BIM](BIM_Project/it.md) consente di configurare rapidamente un progetto BIM riempiendo alcune informazioni di base sul progetto. È quindi possibile, ad esempio, utilizzare i diversi strumenti di disegno 2D per tracciare linee guida e linee di base, quindi utilizzare i diversi strumenti di modellazione 3D per creare automaticamente gli oggetti BIM 3D. Una linea, ad esempio, può diventare un muro semplicemente selezionandola e premendo il pulsante [Wall](Arch_Wall/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Se si è abituati a lavorare con un\'altra applicazione BIM, controllare la nostra [Tabella di compatibilità dell\'applicazione BIM](BIM_application_compatibility_table/it.md) quando si inizia a lavorare con FreeCAD.
-
-
-</div>
 
 <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:800px;">
 
-The [in-game tutorial](BIM_ingame_tutorial.md) is an easy way to quickly get on track with the BIM workbench.
+Il [tutorial divertente di BIM](BIM_ingame_tutorial/it.md) è un modo semplice per iniziare rapidamente a usare l\'ambiente BIM.
 
 
 
 ## Strumenti
 
-
-<div class="mw-translate-fuzzy">
-
 Il workbench BIM riunisce strumenti da diversi altri workbench di FreeCAD, principalmente [Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md) e [Part](Part_Workbench/it.md), riorganizzati approssimativamente in categorie logiche di strumenti: **disegno 2D**, **modellazione 3D**, **annotazione** e **modifica**. La categoria **gestione** contiene strumenti specifici per il workbench BIM.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 Inoltre, se sono installati degli [addon](External_workbenches/it.md), gli strumenti di [Armatura](Arch_Rebar/it.md) (strumenti supplementari per le armature), [Fasteners](Fasteners_Workbench/it.md) (bulloni e viti), [Flamingo/Dodo](Flamingo_Workbench/it.md) (struttura metallica e strumenti di piping) e [Libreria di parti](Parts_Library/it.md) sono automaticamente inclusi nel workbench BIM.
-
-
-</div>
 
 L\'ambiente BIM aggiunge anche una serie di elementi nella **barra di stato** di FreeCAD e un paio di **voci nel menu contestuale**, accessibili facendo clic con il tasto destro nella vista 3D o nella vista ad albero .
 
@@ -104,13 +62,7 @@ L\'ambiente BIM aggiunge anche una serie di elementi nella **barra di stato** di
 
 ### Disegni 2D 
 
-
-<div class="mw-translate-fuzzy">
-
 Gli oggetti 2D sono comunemente usati come strumenti di disegno o per disegnare linee di base e profili per costruire oggetti BIM. Possono anche essere utilizzati per disegnare simboli e annotazioni nel modello. Oltre agli schizzi, che utilizzano il proprio sistema di coordinate, gli oggetti 2D verranno disegnati sul corrente [piano di lavoro](Draft_SelectPlane/it.md).
-
-
-</div>
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Schizzo](Sketcher_NewSketch/it.md): Crea un nuovo schizzo ed entra nello schizzo.
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Linea](Draft_Line/it.md): Disegna un segmento delimitato da due punti.
@@ -130,28 +82,16 @@ Gli oggetti 2D sono comunemente usati come strumenti di disegno o per disegnare 
 
 ### Annotazioni
 
-
-<div class="mw-translate-fuzzy">
-
 Le annotazioni sono oggetti di aiuto visivo che possono essere inseriti all\'interno del modello. Possono essere utilizzati per esportare il modello direttamente in un formato 2D come [DXF](Draft_DXF/it.md), o riutilizzati durante la creazione di viste 2D del modello con [TechDraw](TechDraw_Workbench/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Testo](Draft_Text/it.md): Disegna delle annotazioni multilinea.
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString/it.md): Disegna una riga di testo come geometria.
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Quota](Draft_Dimension/it.md): Disegna una dimensione lineare, angolare, radiale o di diametro.
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etichetta](Draft_Label/it.md): Posiziona un\'etichetta con una freccia che punta a un elemento selezionato. {{Version/it|0.17}}
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Asse](Arch_Axis/it.md): Crea un singolo asse o una seie di assi in una direzione nel documento
--   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema di assi](Arch_AxisSystem/it.md): Crea un sistema di assi composto da un massimo di 3 serie di assi
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Sistema di assi](Arch_AxisSystem/it.md): Crea un sistema di assi composto da un massimo di 3 serie di assi
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Griglia](Arch_Grid/it.md): Crea un oggetto simile a una griglia nel documento
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Piano di sezione](Arch_SectionPlane/it.md): Aggiunge un oggetto *Piano di sezione* al documento. I piani di sezione definiscono le viste 2D di sezioni e prospetti come piani.
-
-
-</div>
 
 
 
@@ -169,9 +109,6 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 -   <img alt="" src=images/Arch_Reference.svg  style="width:32px;"> [Referimento](Arch_Reference/it.md): Collega oggetti di un altro file di FreeCAD in questo documento.
 
 **Strumenti BIM**: Questi strumenti creano componenti BIM
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Muro](Arch_Wall/it.md): Crea un muro da zero o utilizzando un oggetto selezionato come base
 -   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Facciata continua](Arch_CurtainWall/it.md): Crea una facciata continua da zero o utilizzando un oggetto selezionato come base
@@ -191,28 +128,16 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 -   <img alt="" src=images/BIM_Library.png  style="width:32px;"> [Libreria](BIM_Library/it.md): Inserisce un apparecchio o un mobile. Richiede l\'addon [Parts Library](Parts_Library/it.md)
 -   <img alt="" src=images/Arch_Component.png  style="width:32px;"> [Componente BIM](Arch_Component/it.md): Trasforma qualsiasi oggetto selezionato in un oggetto BIM, con supporto IFC completo
 
-
-</div>
-
 **Strumenti 3D generici**: Questi strumenti costruiscono oggetti 3D generici che possono essere trasformati o utilizzati in componenti BIM
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Arch_Profile.svg  style="width:32px;"> [Profilo](Arch_Profile/it.md): Crea un profilo 2D parametrico da utilizzare ad esempio nelle estrusioni
 -   <img alt="" src=images/BIM_Box.png  style="width:32px;"> [Box](BIM_Box/it.md): Disegna un cuboide specificandone le dimensioni graficamente
--   <img alt="" src=images/Part_Shapebuilder.svg  style="width:32px;"> [Crea forme](Part_Builder/it.md): Uno strumento per creare forme più complesse da varie primitive geometriche parametriche
+-   <img alt="" src=images/Part_Builder.svg  style="width:32px;"> [Crea forme](Part_Builder/it.md): Uno strumento per creare forme più complesse da varie primitive geometriche parametriche
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Lega facce](Draft_Facebinder/it.md): Crea un nuovo oggetto dalle facce selezionate sugli oggetti esistenti
-
-
-</div>
 
 
 
 ### Strumenti di modifica 
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Draft_Move.svg  style="width:32px;"> [Sposta](Draft_Move/it.md): Sposta uno o più oggetti da una posizione a un\'altra
 -   <img alt="" src=images/BIM_Copy.png  style="width:32px;"> [Copia](BIM_Copy/it.md): Copia gli oggetti da una posizione a un\'altra
@@ -231,7 +156,7 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 -   <img alt="" src=images/Part_Fuse.svg  style="width:32px;"> [Unione](Part_Union/it.md): Unisce (fonde) due oggetti
 -   <img alt="" src=images/Part_Common.svg  style="width:32px;"> [Interseca](Part_Common/it.md): Estrae la parte comune (intersezione) di due oggetti
 -   <img alt="" src=images/Part_Compound.svg  style="width:32px;"> [Crea un composto](Part_Compound/it.md): Crea un composto dagli oggetti selezionati.
--   <img alt="" src=images/Tree_Part.svg  style="width:32px;"> [Copia semplice](Part_SimpleCopy/it.md): Crea una copia non parametrica di un oggetto selezionato
+-   <img alt="" src=images/Part_SimpleCopy.svg  style="width:32px;"> [Copia semplice](Part_SimpleCopy/it.md): Crea una copia non parametrica di un oggetto selezionato
 -   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Promuovi](Draft_Upgrade/it.md): Unisce gli oggetti in un oggetto di livello superiore
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Declassa](Draft_Downgrade/it.md): Scompone gli oggetti in oggetti di livello inferiore
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Vista 2D](Draft_Shape2DView/it.md): Crea un oggetto 2D quale proiezione di un oggetto 3D
@@ -241,14 +166,8 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Rimuovi componente](Arch_Remove/it.md): Sottrae o rimuove oggetti da un componente
 
 
-</div>
-
-
 
 ### Strumenti di gestione 
-
-
-<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [Configurazione BIM](BIM_Setup/it.md): Configura alcune delle preferenze di FreeCAD più comunemente utilizzate per BIM
 -   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Configurazione progetto](BIM_Project/it.md): Permette di creare alcuni oggetti di base come [Sito](Arch_Site/it.md), [Edificio](Arch_Building/it.md) e [Assi](Arch_Axis/it.md) riempiendo le informazioni di base del progetto.
@@ -264,22 +183,14 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Controlli di verifica preliminare](BIM_Preflight/it.md): Esegue diversi controlli sul modello prima di esportarlo in IFC
 
 
-</div>
-
-
 
 ## Tutorial e apprendimento 
 
-
-<div class="mw-translate-fuzzy">
-
+-   [Migrazione a FreeCAD da Revit](Migrating_to_FreeCAD_from_Revit/it.md)
 -   [Tutorial Architettura e BIM in questo wiki](Tutorials/it#Architettura_e_BIM.md)
 -   [\"BIM with FreeCAD\" video series by Yorik](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU)
 -   [\"FreeCAD tutorials\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye)
 -   [\"Quinta Monroy\" video series by Regis](https://www.youtube.com/playlist?list=PLDd21g-eSHwnAYyutuKhrPY51skaBhrVU)
-
-
-</div>
 
 
 
@@ -287,13 +198,7 @@ Gli oggetti 3D e BIM sono gli elementi del mondo reale che compongono il progett
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori del codice di base di FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
 La pagina [Ambienti complementari](external_workbenches/it.md) contiene alcune informazioni e tutorial su alcuni di loro, e il progetto [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) mira a raccoglierli e renderli facilmente installabili dall\'interno di FreeCAD.
-
-
-</div>
 
 Sono in fase di sviluppo ulteriori nuovi ambienti.
 

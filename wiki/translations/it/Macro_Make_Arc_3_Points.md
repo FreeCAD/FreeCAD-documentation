@@ -25,7 +25,7 @@ Nota:non è necessario tenere premuto il tasto Ctrl
 
 L\'icona per la barra degli strumenti: <img alt="" src=images/Macro_Make_Arc_3_Points.png  style="width:36px;">
 
-**Macro_Make_Arc_3\_Points.FCMacro**
+**Macro_Make_Arc_3_Points.FCMacro**
 
 
 {{MacroCode|code=

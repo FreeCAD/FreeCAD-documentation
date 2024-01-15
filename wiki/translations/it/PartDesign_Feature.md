@@ -10,30 +10,34 @@ Esistono molti tipi di funzioni che possono aggiungere o rimuovere del volume da
 
 Per ulteriori informazioni sulla creazione di oggetti solidi con [PartDesign](PartDesign_Workbench/it.md) vedere [editazione delle funzioni](feature_editing/it.md).
 
+
+
 ## Utilizzo
 
 Quasi tutti gli strumenti di PartDesign hanno lo scopo di aggiungere funzioni a un Corpo. È possibile accedere a questi strumenti dal menu e dai pulsanti della barra degli strumenti mentre è selezionato un oggetto o un sottoelemento (vertice, bordo, faccia).
 
-The features can be placed in different categories:
+Le funzioni possono essere inserite in diverse categorie:
 
--   Feature base: refers to the Base Feature object that can be created in a [PartDesign Body](PartDesign_Body.md).
--   Additive and subtractive
-    -   Primitive shapes: [Box](PartDesign_AdditiveBox.md), [Cone](PartDesign_AdditiveCone.md), [Cylinder](PartDesign_AdditiveCylinder.md), [Ellipsoid](PartDesign_AdditiveEllipsoid.md), [Prism](PartDesign_AdditivePrism.md), [Sphere](PartDesign_AdditiveSphere.md), [Torus](PartDesign_AdditiveTorus.md), and [Wedge](PartDesign_AdditiveWedge.md).
-    -   Primitive shapes subtractive: [Subtractive Box](PartDesign_SubtractiveBox.md), [Subtractive Cone](PartDesign_SubtractiveCone.md), [Subtractive Cylinder](PartDesign_SubtractiveCylinder.md), [Subtractive Ellipsoid](PartDesign_SubtractiveEllipsoid.md), [Subtractive Prism](PartDesign_SubtractivePrism.md), [Subtractive Sphere](PartDesign_SubtractiveSphere.md), [Subtractive Torus](PartDesign_SubtractiveTorus.md), and [Subtractive Wedge](PartDesign_SubtractiveWedge.md).
-    -   Profile based: [Pad](PartDesign_Pad.md), [Revolution](PartDesign_Revolution.md), [Loft](PartDesign_AdditiveLoft.md), [Pipe](PartDesign_AdditivePipe.md).
-    -   Profile based subtractive: [Pocket](PartDesign_Pocket.md), [Hole](PartDesign_Hole.md), [Groove](PartDesign_Groove.md), [Subtractive Loft](PartDesign_SubtractiveLoft.md), [Subtractive Pipe](PartDesign_SubtractivePipe.md).
--   [Boolean](PartDesign_Boolean.md), including fuse, cut, and common.
--   Dress up
-    -   [Chamfer](PartDesign_Chamfer.md)
-    -   [Draft](PartDesign_Draft.md)
-    -   [Fillet](PartDesign_Fillet.md)
-    -   [Thickness](PartDesign_Thickness.md)
--   Transform
-    -   [Linear pattern](PartDesign_LinearPattern.md)
-    -   [Mirrored](PartDesign_Mirrored.md)
-    -   [Multi-transformed](PartDesign_MultiTransform.md)
-    -   [Polar pattern](PartDesign_PolarPattern.md)
-    -   [Scaled](PartDesign_Scaled.md)
+-   Funzione base: si riferisce all\'oggetto Funzione Base che può essere creato in un [Corpo di Part Design](PartDesign_Body/it.md).
+-   Additive e sottrattive
+    -   Forme primitive additive: [Cubo](PartDesign_AdditiveBox/it.md), [Cono](PartDesign_AdditiveCone/it.md), [Cilindro](PartDesign_AdditiveCylinder/it.md), [Elissoide](PartDesign_AdditiveEllipsoid/it.md), [Prisma](PartDesign_AdditivePrism/it.md), [Sfera](PartDesign_AdditiveSphere/it.md), [Toro](PartDesign_AdditiveTorus/it.md), e [Cuneo](PartDesign_AdditiveWedge/it.md).
+    -   Forme primitive sottrattive: [Cubo sottrattivo](PartDesign_SubtractiveBox/it.md), [Cono sottrattivo](PartDesign_SubtractiveCone/it.md), [Cilindro sottrattivo](PartDesign_SubtractiveCylinder/it.md), [Elissoide sottrattivo](PartDesign_SubtractiveEllipsoid/it.md), [Prisma sottrattivo](PartDesign_SubtractivePrism/it.md) [Sfera sottrattiva](PartDesign_SubtractiveSphere/it.md), [Toro sottrattivo](PartDesign_SubtractiveTorus/it.md), e [Cuneo sottrattivo](PartDesign_SubtractiveWedge/it.md).
+    -   Additive basate sul profilo: [Estrusione](PartDesign_Pad/it.md), [Rivoluzione](PartDesign_Revolution/it.md), [Loft](PartDesign_AdditiveLoft/it.md), [Sweep](PartDesign_AdditivePipe/it.md).
+    -   Sottrattive basate sul profilo: [Tasca](PartDesign_Pocket/it.md), [Foro](PartDesign_Hole/it.md), [Gola](PartDesign_Groove/it.md), [Loft sottrattivo](PartDesign_SubtractiveLoft/it.md), [Sweep sottrattivo](PartDesign_SubtractivePipe/it.md).
+-   [Booleane](PartDesign_Boolean/it.md), compreso fusione, taglio e intersezione.
+-   Spoglia
+    -   [Smusso](PartDesign_Chamfer/it.md)
+    -   [Sformo](PartDesign_Draft/it.md)
+    -   [Raccordo](PartDesign_Fillet/it.md)
+    -   [Spessore](PartDesign_Thickness/it.md)
+-   Trasformazione
+    -   [Serie rettangolare](PartDesign_LinearPattern/it.md)
+    -   [Specchiato](PartDesign_Mirrored/it.md)
+    -   [Multi-trasformazione](PartDesign_MultiTransform/it.md)
+    -   [Serie Polare](PartDesign_PolarPattern/it.md)
+    -   [Scala](PartDesign_Scaled/it.md)
+
+
 
 ## Eredità
 
@@ -42,6 +46,8 @@ The features can be placed in different categories:
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. Gli oggetti `PartDesign::Feature* sono usati per costruire solidi 3D parametrici e quindi sono derivati dall'oggetto base {{incode|Part::Feature`.}}
+
+
 
 ## Script
 

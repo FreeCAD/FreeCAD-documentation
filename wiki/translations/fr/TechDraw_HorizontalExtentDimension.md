@@ -12,23 +12,39 @@
 
 ## Description
 
-L\'outil **TechDraw Cote étendue horizontale** ajoute une cote linéaire à une vue. La cote s\'étend du point le plus à gauche sur les objets sélectionnés au point le plus à droite. Un CosmeticVertex (point cosmétique) sera placé à chaque point.
+L\'outil **TechDraw Cote étendue horizontale** ajoute une cote linéaire à une vue. La cote s\'étend du point le plus à gauche des objets sélectionnés jusqu\'au point le plus à droite.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
-*Cote étendue horizontale d'une surface B-spline*
+*Cotes étendues horizontale et verticale d'une surface B-spline*
 
 
 
 ## Utilisation
 
 1.  Sélectionnez une vue ou une collection d\'arêtes dans une vue.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insérer une cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insérer une cote étendue horizontale](TechDraw_HorizontalExtentDimension/fr.md)
 **
-3.  Une cote sera ajoutée à la vue. La cote peut être déplacée à la position souhaitée.
+    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Insérer une cote étendue horizontale** du menu.
+3.  Une cote est ajoutée à la vue.
+4.  La cote peut être déplacée jusqu\'à la position souhaitée.
+5.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tolérances.md).
+
+
+
+### Changer les propriétés 
+
+Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [boîte de dialogue Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
 
 ## Limitations
 
-Les objets Cote sont vulnérables au \"[problèmes de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md) pour plus d\'informations.
+Les objets Cote sont vulnérables au \"[problème de nommage topologique](Topological_naming_problem/fr.md)\". Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr.md).
+
+
+
+## Remarques
+
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Remarques/fr.md).
 
 
 
@@ -40,7 +56,10 @@ Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9
 
 ### Données
 
--    **MeasureType**: `True` - basé sur la géométrie 3D ou \"projeté\" - basé sur le dessin. Normalement pas manipulé directement par l\'utilisateur final. Pas encore implémenté pour Cote étendue horizontale.
+
+{{Properties_Title|Base}}
+
+-    **Measure Type|Enumeration**: pas encore implémenté pour les cotes étendues.
 
 
 

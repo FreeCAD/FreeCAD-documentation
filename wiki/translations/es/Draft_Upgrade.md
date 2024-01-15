@@ -10,6 +10,8 @@
 
 # Draft Upgrade/es
 
+
+
 ## Descripción
 
 
@@ -23,7 +25,12 @@ El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borr
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Un hilo abierto no editable se elevar en un hilo cerrado y luego en una cara. Un hilo cuadrado cerrado no editable también se elevar en una cara. Las dos caras se actualizan para crear un compuesto, que finalmente se elevado a un único borrador de hilo editable.*
 
+
+
 ## Utilización
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente selecciona uno o más objetos.
 2.  Hay varias vías para invocar el comando:
@@ -32,9 +39,16 @@ El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borr
     -   Utilice el atajo de teclado: **U** y luego **P**.
 3.  Si aún no ha seleccionado un objeto: seleccione un objeto en la [Vista 3D](3D_view/es.md).
 
+
+</div>
+
+
+
 ## Notas
 
 -   [Líneas de Borrador](Draft_Line/es.md) y [Hilos de Borrador](Draft_Wire/es.md) se pueden unir con este comando, pero también con el comando [Unir Borrador](Draft_Join/es.md) o el comando [Hilo de Borrador](Draft_Wire/es.md).
+
+
 
 ## Guión
 

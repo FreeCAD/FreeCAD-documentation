@@ -9,12 +9,16 @@
 
 # Curves IsoCurve/de
 
+
+
 ## Beschreibung
 
-Das Werkzeug <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves IsoKurve](Curves_IsoCurve/de.md) überspannt eine ausgewählte Fläche mit einem Gitter in UV-Ausrichtung. Dieses Werkzeug ist Teil des [Externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
+Das Werkzeug <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves IsoKurve](Curves_IsoCurve/de.md) überspannt eine ausgewählte Fläche mit einem Gitter in UV-Ausrichtung. Dieses Werkzeug ist Teil des [externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
 <img alt="" src=images/Curves_IsoCurve_Demo.jpg  style="width:600" height="400px;"> 
 *Eine Fläche vor (links) und nach (rechts) der Anwendung von IsoKurve*
+
+
 
 ## Anwendung
 
@@ -26,13 +30,21 @@ Das Werkzeug <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [C
 4.  Ein Gitter in UV-Ausrichtung wird auf der Fläche erstellt.
 5.  Die Werte für `NumberU` und/oder `NumberV` ändern, um mehr Kurven zu erhalten.
 
+
+
 ## Hinweise
 
 -   Einzelne Kurven können für andere Anwendungen extrahiert werden (z.B. mit [Curves KurvenVerbinden](Curves_JoinCurve/de.md)) oder nur zur Darstellung der Form dienen.
 
+
+
 ## Einschränkungen
 
+
+
 ## Eigenschaften
+
+
 
 ## Skripten
 

@@ -7,8 +7,8 @@
 |Date=2021-03-10
 |Version=2.0.1
 |FCVersion=<small>(v0.17)</small> 
-|Download=[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
-|Links=[https://github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
+|Download=[https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png ToolBar Icon]
+|Links=[https://github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
 }}
 
 ## Description
@@ -162,7 +162,7 @@ __Date__          = "2021-03-09"
 __Comment__       = "AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, and DAT or CSV Files"
 __Web__           = "https://github.com/melwyncarlo/AeroFoil"
 __Wiki__          = "http://www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
-__Icon__          = "AeroFoil_UI_Files/AeroFoil.svg"
+__Icon__          = "https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png"
 __Help__          = "Click on the AeroFoil button/macro, and follow the instructions in the subsequent dialog boxes."
 __Status__        = "stable"
 __Requires__      = "Freecad >= v0.17"

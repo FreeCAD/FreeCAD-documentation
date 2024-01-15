@@ -16,11 +16,24 @@
 
 </div>
 
+
+
 ## Opis
 
-Daje ukupnu masu i mjesto središta mase koje proizlazi iz odabranih više objekata. Za svaki objekt mogu se odabrati različite gustoće. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/CenterOfMass.FCMacro}}
 
-![](images/CenterOfMass_exemple.png )
+<div class="mw-translate-fuzzy">
+
+Daje ukupnu masu i mjesto središta mase koje proizlazi iz odabranih više objekata. Za svaki objekt mogu se odabrati različite gustoće.
+
+
+</div>
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/CenterOfMass.FCMacro}}
+
+<img alt="" src=images/CenterOfMass_exemple.png  style="width:600px;">
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -30,9 +43,23 @@ Daje ukupnu masu i mjesto središta mase koje proizlazi iz odabranih više objek
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Odaberite objekte
 
-Pokrenite makronaredbu
+
+</div>
+
+### Available Options 
+
+-   Color the solids according to density.
+-   Display the location of the center of mass.
+-   Export and import *masses*, *materials* and *densities* (even if it\'s not a **.csv** file from the macro, but columns must be named accordingly).
+-   Save densities in the document (remove them again when setting material to {{ComboBox|default}}).
+-   You can change some preferences at **Tools → Edit parameters → Preferences → Macros**.
+
+
 
 ## Skripta
 
@@ -54,15 +81,60 @@ preuzmite datoteku s ikonom i zalijepite ju u podmapu pod nazivom CenterOfMass u
 
 </div>
 
-![](images/Macro_CenterOfMass.png )
+![](images/Macro_CenterOfMass.svg )
+
+
 
 ## Poveznice
 
+
+<div class="mw-translate-fuzzy">
+
 Raspravu na forumu [Macro to compute center of mass](https://forum.freecadweb.org/viewtopic.php?f=24&t=31883)
+
+
+</div>
+
+
 
 ## Verzija
 
-0.5.0 / 2022-04-06: complete rewrite by s-quirin (SyProLei project (Saarland University))
+Version / Date of merge
+
+0.7.3 / 2023-09-11:
+
+-   New: Added buttons for Copy to clipboard
+-   New: Scalable Vector Graphics icon
+-   Fix: Compatibility for FreeCAD versions and web
+
+0.7.0 / 2023-02-13:
+
+-   New: Searchbar for solids
+-   New: Reworked import function to improve external bill of materials (BOM) import with better input tolerance. Caption \"weight\" has to be changed to \"mass\" if you want to import mass from an old file export of the macro.
+-   New: Mass can be set zero to exclude solid from calculation and visualization
+-   Fix: Behaviour of default value spin and \"Apply to all\"
+-   Fix: Preserve original solids color when \"New\" button pressed
+
+0.6.0 / 2022-08-27:
+
+-   New: Masses are editable (a highly requested feature)
+-   New: Highlights the solid you are working on
+-   New: No duplicate entries when container and content selected concurrently
+-   New: Pie charts show density relation in combo box
+-   New: Legibility of text on colored combo box with WCAG21 1.4.6 Contrast (Enhanced) conformity
+-   Fix: A Part used as a container for meshes (e.g. .stl\'s) is recognized correctly
+-   Fix: Fixes for error and language handling, material editing, combo box and GUI size adjustment
+
+0.5.8 / 2022-05-31:
+
+-   Reinserted: Bounding Box
+-   New: Setting to color spheres
+-   New: Setting to change color maps
+-   Rearranged GUI: Update calculation added, Total density added
+-   Fix: Message Boxes could not be used when not running FreeCAD on primary screen in a multimonitor setup
+-   Fix: More than one Mesh was not calculated correctly
+
+0.5.0 / 2022-04-07: complete rewrite by s-quirin (SyProLei project at Saarland University)
 
 -   New: Code base, Requirement raised to Qt5.12+ and Python3 (FreeCAD 0.19).
 -   New: Show mass of each solid.
@@ -77,41 +149,9 @@ Raspravu na forumu [Macro to compute center of mass](https://forum.freecadweb.or
 -   Fix: Handling of App::Link.
 -   Fix: Replaced deprecated Qt class.
 
-0.4.2 / 2019-06-09:
+0.4.1 / 2019-05-25: Last update with old requirements and GUI available in official repository
 
--   Check last version number on github and popup if not last version.
--   Automatic update of show CdG (if it exists) when densities are changed.
--   Bug correction when changing radius.
-
-0.4.1 / 2019-05-25: Add default density button, sphere cursor, change window behavior, correct a container part issue.
-
-
-<div class="mw-translate-fuzzy">
-
-0.2.3 / 2018-11-22 : new icon name
-
-
-</div>
-
-0.3.5 / 2019-05-21: Arrays and clone correction.
-
-0.3.4 / 2019-03-18: Minor.
-
-0.3.3 / 2019-03-17: Loading .csv corrections.
-
-0.3.2 / 2019-03-14: Add a colorify push button to add color to shapes depending on their density.
-
-0.3.0 / 2019-03-03: Python 3 compatibility.
-
-
-<div class="mw-translate-fuzzy">
-
-0.1.2 / 2018-11-10 : xx
-
-
-</div>
-
-0.1.2 / 2018-11-10:
+0.1.2 / 2018-11-10: Initial version from chupins merged in official repository
 
 
 

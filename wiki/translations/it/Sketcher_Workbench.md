@@ -7,7 +7,7 @@
 
 ## Introduzione
 
-L\'[Ambiente Sketcher](Sketcher_Workbench/it.md) <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> di FreeCAD serve a creare degli schizzi 2D destinati ad essere utilizzati negli ambienti <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) o altri. In genere, un disegno 2D è il punto di partenza per la maggior parte dei modelli CAD. Un semplice schizzo 2D può essere \"estruso\" per creare una forma 3D; successivamente degli schizzi 2D possono essere usati per creare altre funzioni quali tasche, o estrusioni sulla superficie dell\'oggetto 3D precedentemente costruito. Insieme alle operazioni booleane definite nell\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Part](Part_Workbench/it.md), lo Sketcher costituisce la base del metodo [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG) per la costruzione di solidi. Inoltre, insieme alle operazioni dell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente PartDesign](PartDesign_Workbench/it.md), lo Sketcher costituisce anche la base della metodologia per la creazione di solidi nota come [Editazione delle funzioni](feature_editing/it.md).
+L\'[Ambiente Sketcher](Sketcher_Workbench/it.md) <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> di FreeCAD serve per creare degli schizzi 2D destinati ad essere utilizzati negli ambienti <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/it.md) o altri. In genere, un disegno 2D è il punto di partenza per la maggior parte dei modelli CAD. Un semplice schizzo 2D può essere \"estruso\" per creare una forma 3D; successivamente degli schizzi 2D possono essere usati per creare altre funzioni quali tasche, o estrusioni sulla superficie dell\'oggetto 3D precedentemente costruito. Insieme alle operazioni booleane definite nell\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Part](Part_Workbench/it.md), lo Sketcher costituisce la base del metodo [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG) per la costruzione di solidi. Inoltre, insieme alle operazioni dell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md), lo Sketcher costituisce anche la base della metodologia per la creazione di solidi nota come [Editazione delle funzioni](feature_editing/it.md).
 
 L\'ambiente Sketcher mette a disposizione i **vincoli**. Consente di vincolare le forme 2D a precise definizioni geometriche in termini di lunghezza, angoli e relazioni (orizzontalità, verticalità, perpendicolarità, ecc.).
 Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria 2D e permette l\'esplorazione interattiva dei gradi di libertà dello schizzo.
@@ -90,15 +90,15 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu Sketch e/o in diverse 
 
 #### Barra degli strumenti di Sketcher 
 
--   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md): Crea un nuovo schizzo su una faccia selezionata o in un piano. Se non si esegue nessuna selezione, di default, viene utilizzato il piano XY.
+-   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Crea schizzo](Sketcher_NewSketch/it.md): Crea un nuovo schizzo su una faccia selezionata o in un piano. Se non si esegue nessuna selezione, di default, viene utilizzato il piano XY.
 
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edita schizzo](Sketcher_EditSketch/it.md): Modifica lo schizzo selezionato. Apre la finestra [Dialogo di Sketcher](Sketcher_Dialog/it.md)
+-   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Modifica schizzo](Sketcher_EditSketch/it.md): Modifica lo schizzo selezionato. Apre la finestra [Dialogo di Sketcher](Sketcher_Dialog/it.md)
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎‎‎  style="width:32px;"> [Mappa schizzo su faccia](Sketcher_MapSketch/it.md): Mappa uno schizzo sulla faccia di un solido selezionata in precedenza.
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Riposiziona lo schizzo](Sketcher_ReorientSketch/it.md): Permette di modificare la posizione di uno schizzo
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Convalida lo schizzo](Sketcher_ValidateSketch/it.md): controlla se nell\'area di tolleranza ci sono dei punti distinti e li fa coincidere.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Convalida lo schizzo](Sketcher_ValidateSketch/it.md): Analizza e ripara uno schizzo che non è più modificabile, ha vincoli non validi o mancano vincoli coincidenti.
 
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Unisci schizzi](Sketcher_MergeSketches/it.md): Unisce due o più schizzi.
 
@@ -112,7 +112,7 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu Sketch e/o in diverse 
 
 -   <img alt="" src=images/Sketcher_ViewSketch.svg‎‎‎  style="width:32px;"> [Vista schizzo](Sketcher_ViewSketch/it.md): Imposta la vista del modello in modo perpendicolare al piano dello schizzo.
 
--   <img alt="" src=images/Sketcher_ViewSection.svg‎‎  style="width:32px;"> [Vista sezione](Sketcher_ViewSection/it.md): Crea un piano di sezione che nasconde temporaneamente qualsiasi materia davanti al piano dello schizzo.
+-   <img alt="" src=images/Sketcher_ViewSection.svg‎‎  style="width:32px;"> [Vista in sezione](Sketcher_ViewSection/it.md): Crea un piano di sezione che nasconde temporaneamente qualsiasi materia davanti al piano dello schizzo.
 
 
 
@@ -128,7 +128,7 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu Sketch e/o in diverse 
 
 #### Altro
 
--   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Ferma operazione](Sketcher_StopOperation/it.md): Quando è in modalità di modifica, ferma l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
+-   <img alt="" src=images/Sketcher_StopOperation.svg  style="width:32px;"> [Interrompi l\'operazione](Sketcher_StopOperation/it.md): Quando si è in modalità di modifica, interrompe l\'operazione corrente, sia che si tratti di disegnare, impostare vincoli, ecc.
 
 
 
@@ -140,19 +140,19 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg‎‎  style="width:32px;"> [Linea tra due punti](Sketcher_CreateLine/it.md): Disegna un segmento delimitato da due punti. Per quanto riguarda alcuni vincoli le linee sono infinite.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Archi](Sketcher_CompCreateArc/it.md): Questo è un menu icona nella barra degli strumenti di Sketcher che contiene i seguenti comandi:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg‎‎  style="width:32px;"> [Arco](Sketcher_CreateArc/it.md): Disegna un arco di circonferenza specificando il centro, il raggio, l\'angolo iniziale e l\'angolo finale.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Arco da tre punti](Sketcher_Create3PointArc/it.md): Disegna un arco da due punti finali e un punto della circonferenza.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Cerchi](Sketcher_CompCreateCircle/it.md): Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Circonferenza](Sketcher_CreateCircle/it.md): Disegna una circonferenza prendendo in input il centro e il raggio.
 
   -<img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circonferenza da tre punti](Sketcher_Create3PointCircle/it.md) : Disegna un cerchio da tre punti sulla circonferenza.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Sezioni di coni](Sketcher_CompCreateConic/it.md): L\'ambiente Schizzo fornisce le seguenti sezioni coniche. A differenza delle B-spline, possono essere usate con tutti i tipi di vincoli come [tangenti](Sketcher_ConstrainTangent/it.md), [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellisse](Sketcher_CreateEllipseByCenter/it.md): Disegna un\'ellisse dal centro, raggio maggiore e raggio minore.
 
@@ -164,7 +164,7 @@ Gli strumenti per creare gli oggetti.
 
   -<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arco di parabola](Sketcher_CreateArcOfParabola/it.md): Disegna un arco di parabola.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Crea una B-spline](Sketcher_CompCreateBSpline/it.md): Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi:
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline dai punti di controllo](Sketcher_CreateBSpline/it.md) : Disegna una curva B-spline dai suoi punti di controllo.
 
@@ -176,7 +176,7 @@ Gli strumenti per creare gli oggetti.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polilinea ](Sketcher_CreatePolyline/it.md): Disegna una linea composta da segmenti definiti da punti. Premendo il tasto **M** mentre si disegna una polilinea si alternano le diverse modalità della polilinea.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Crea un rettangolo](Sketcher_CompCreateRectangles/it.md): Questo è un menu icona nella barra degli strumenti Sketcher che contiene i seguenti comandi: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
 -   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rettangolo](Sketcher_CreateRectangle/it.md): Disegna un rettangolo specificando gli angoli opposti.
 
@@ -184,7 +184,7 @@ Gli strumenti per creare gli oggetti.
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rettangolo arrotondato](Sketcher_CreateOblong/it.md): Disegna un rettangolo arrotondato da 2 punti opposti. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Crea un Poligono regolare](Sketcher_CompCreateRegularPolygon/it.md): Questo è una icona menu nella barra degli strumenti Sketcher che contiene i seguenti comandi:
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Triangolo equilatero](Sketcher_CreateTriangle/it.md): Disegna un triangolo equilatero inscritto in una circonferenza di costruzione.
 
@@ -200,19 +200,37 @@ Gli strumenti per creare gli oggetti.
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Poligono regolare](Sketcher_CreateRegularPolygon/it.md) : Disegna un poligono regolare selezionando il numero di lati e selezionando due punti: il centro e un angolo.
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Asola](Sketcher_CreateSlot/it.md): Disegna un rettangolo con due lati opposti raccordati con un semicerchio, un\'asola.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Crea un raccordo](Sketcher_CompCreateFillets.md): Questo è un menu di icone nella barra degli strumenti di Sketcher che contiene i seguenti comandi:
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot/it.md): TBD.
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Raccorda](Sketcher_CreateFillet/it.md): Crea un raccordo tra due linee non parallele.
 
-  - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Filetto salva angolo](Sketcher_CreatePointFillet.md): Crea un raccordo tra due linee non parallele preservandone l\'intersezione (virtuale).
+  - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Filetto salva angolo](Sketcher_CreatePointFillet/it.md): Crea un raccordo tra due linee non parallele preservandone l\'intersezione (virtuale).
 
--   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Rifila](Sketcher_Trimming/it.md): Accorcia una linea, un cerchio o un arco fino al primo nodo, punto di intersezione.
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Estendi](Sketcher_Extend/it.md): Estende una linea o un arco fino ad una linea di un bordo, arco, ellisse, arco di ellisse o un punto nello spazio.
+  - <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Rifila](Sketcher_Trimming/it.md): Accorcia una linea, un cerchio o un arco fino al primo nodo, punto di intersezione.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea in due, mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Dividi](Sketcher_Split/it.md): Divide una linea in due, mantenendo la maggior parte dei vincoli. <small>(v0.20)</small> 
+
+  - <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Estendi](Sketcher_Extend/it.md): Estende una linea o un arco fino ad una linea di un bordo, arco, ellisse, arco di ellisse o un punto nello spazio.
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria esterna](Sketcher_External/it.md): Crea un segmento collegato a una geometria esterna.
 
@@ -226,11 +244,7 @@ Gli strumenti per creare gli oggetti.
 
 I vincoli sono utilizzati per stabilire le relazioni tra gli elementi del disegno, e per bloccare il disegno lungo l\'asse verticale e l\'asse orizzontale. Alcuni vincoli richiedono dei [Vincoli di supporto](Sketcher_helper_constraint/it.md).
 
-
-
-#### Vincoli geometrici 
-
-Questi vincoli non sono associati a valori numerici.
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Coincidente](Sketcher_ConstrainCoincident/it.md): Crea un vincolo di coincidenza (punto-con-punto) tra due punti selezionati.
 
@@ -238,9 +252,25 @@ Funge da vincolo concentrico se sono selezionati due o più cerchi, archi, ellis
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punto su oggetto](Sketcher_ConstrainPointOnObject/it.md): Crea un vincolo (fissa) un punto-su-un-oggetto sull\'elemento selezionato.
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Verticale](Sketcher_ConstrainVertical/it.md): Crea un vincolo verticale per le linee o le polilinee selezionate. Si può selezionare più oggetti.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Orizzontale](Sketcher_ConstrainHorizontal/it.md): Crea un vincolo orizzontale per le linee o le polilinee selezionate. Si può selezionare più oggetti.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Verticale](Sketcher_ConstrainVertical/it.md): Crea un vincolo verticale per le linee o le polilinee selezionate. Si può selezionare più oggetti.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Parallela](Sketcher_ConstrainParallel/it.md): Crea un vincolo di parallelismo tra due linee selezionate.
 
@@ -254,29 +284,61 @@ Funge da vincolo concentrico se sono selezionati due o più cerchi, archi, ellis
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fissa](Sketcher_ConstrainBlock/it.md): blocca il movimento di un bordo, ovvero impedisce ai suoi vertici di cambiare la loro posizione corrente. Dovrebbe essere particolarmente utile per fissare la posizione delle B-Splines. Vedere la [discussione su Block Constraint nel forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
+
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
-#### Vincoli dimensionali 
-
-Questi vincoli sono associati a dati numerici, per i quali vincoli si possono usare le [espressioni](Expressions/it.md). I dati possono essere prelevati da un [foglio di calcolo](Spreadsheet_Workbench/it.md).
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Bloccato](Sketcher_ConstrainLock/it.md): Crea un vincolo che blocca l\'elemento selezionato fissando le sue dimensioni verticali e orizzontali rispetto all\'origine (le dimensioni si possono modificare in seguito).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md): Fissa la distanza orizzontale tra 2 punti o tra gli estremi di una linea. Se viene selezionato un solo elemento, la distanza viene impostata a partire dall\'origine.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> <img alt="" src=images/Constraint_VerticalDistance_Driven.png  style="width:18px;"> [Distanza verticale](Sketcher_ConstrainDistanceY/it.md): Fissa la distanza verticale tra 2 punti o tra gli estremi di una linea. Se viene selezionato un solo elemento, la distanza viene impostata a partire dall\'origine.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Distanza](Sketcher_ConstrainDistance/it.md): definisce la lunghezza di una linea, la distanza perpendicolare tra un punto e una linea, la distanza tra due punti o, {{Version/it|0.21}}, la distanza tra i bordi di due cerchi.
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Vincola il raggio o il diametro](Sketcher_CompConstrainRadDia/it.md): Questo è un menu a icone nella barra degli strumenti dei vincoli di Sketcher che contiene i seguenti comandi:
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Raggio o peso](Sketcher_ConstrainRadius/it.md): Definisce il raggio di un arco o di un cerchio o il peso di un polo di una B-spline.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Diametro](Sketcher_ConstrainDiameter/it.md): Definisce il diametro di un arco o di un cerchio.
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto raggio/diametro](Sketcher_ConstrainRadiam/it.md): Definisce il raggio di un arco, il diametro di un cerchio o il peso di un polo B-spline. {{Version/it|0.20}}
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angolo](Sketcher_ConstrainAngle/it.md): definisce l\'angolo interno tra due linee selezionate.
+
+
+</div>
 
 
 
@@ -316,6 +378,10 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg‎  style="width:32px;"> [Seleziona l\'asse verticale](Sketcher_SelectVerticalAxis/it.md): Seleziona l\'asse verticale di uno schizzo.
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometria](Sketcher_Offset/it.md): aggiunge un contorno equidistante attorno ai bordi selezionati. {{Version/it|0.22}}
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg‎  style="width:32px;"> [Simmetria](Sketcher_Symmetry/it.md): Copia un elemento dello schizzo in modo simmetrico rispetto ad una linea a scelta.
 
 -   <img alt="" src=images/Sketcher_Clone.svg‎  style="width:32px;"> [Clona](Sketcher_Clone/it.md): Clona un elemento dello schizzo.
@@ -336,16 +402,6 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 ### Strumenti Sketcher B-spline 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/nascondi i gradi della B-spline](Sketcher_BSplineDegree/it.md): Mostra o nasconde la visualizzazione del grado di una B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Mostra/nascondi i poligoni di controllo della B-spline](Sketcher_BSplinePolygon/it.md): Mostra o nasconde la visualizzazione del poligono che definisce una B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Mostra/nascondi il pettine di curvatura](Sketcher_BSplineComb/it.md): Mostra o nasconde la visualizzazione del pettine di curvatura di una B-spline.
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Mostra/nascondi le molteplicità di nodo B-spline](Sketcher_BSplineKnotMultiplicity/it.md): Mostra o nasconde la visualizzazione della molteplicità dei nodi di una B-spline.
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [ Mostra/nascondi il valore dei punti di controllo delle B-spline ](Sketcher_BSplinePoleWeight/it.md): Mostra o nasconde la visualizzazione dei pesi per i punti di controllo di una B-spline.
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Converti la geometria in B-spline](Sketcher_BSplineApproximate/it.md): Converte una geometria, i bordi e le curve compatibili in una B-spline.
 
 -   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Aumenta il grado della B-spline](Sketcher_BSplineIncreaseDegree/it.md): Aumenta il grado (ordine) di una B-spline.
@@ -360,11 +416,21 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Unisci curve](Sketcher_JoinCurves/it.md): Unisce due curve nei punti finali selezionati. {{Version/it|0.21}}
 
-
-
-### Spazio virtuale dello Sketcher 
+### Sketcher visual 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg‎  style="width:32px;"> [Cambia spazio virtuale](Sketcher_SwitchVirtualSpace/it.md): Permette di nascondere i vincoli e renderli nuovamente visibili.
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Mostra/nascondi i gradi della B-spline](Sketcher_BSplineDegree/it.md): Mostra o nasconde la visualizzazione del grado di una B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Mostra/nascondi i poligoni di controllo della B-spline](Sketcher_BSplinePolygon/it.md): Mostra o nasconde la visualizzazione del poligono che definisce una B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Mostra/nascondi il pettine di curvatura](Sketcher_BSplineComb/it.md): Mostra o nasconde la visualizzazione del pettine di curvatura di una B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Mostra/nascondi le molteplicità di nodo B-spline](Sketcher_BSplineKnotMultiplicity/it.md): Mostra o nasconde la visualizzazione della molteplicità dei nodi di una B-spline.
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [ Mostra/nascondi il valore dei punti di controllo delle B-spline ](Sketcher_BSplinePoleWeight/it.md): Mostra o nasconde la visualizzazione dei pesi per i punti di controllo di una B-spline.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 
 

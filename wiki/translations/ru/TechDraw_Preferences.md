@@ -26,7 +26,9 @@ All preferences settings with *italic* labels are default values for new drawing
 ### Conventions
 
 -   **Projection Group Angle**: If [projection groups](TechDraw_ProjectionGroup.md) will use either first-angle (European) projection or third-angle (American) projection. See [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) for an explanation.
--   **Hidden Line Style**: The style to be used for hidden lines.
+-   **Section Line Convention**: Standard for section lines that controls the position of arrows and symbol (<small>(v0.22)</small> ). The options are:
+    -   *ANSI*
+    -   *ISO*
 
 ### Files
 
@@ -40,8 +42,12 @@ All preferences settings with *italic* labels are default values for new drawing
 
 ### Grid
 
--   **Show Grid**: Default Show Grid setting for new pages. <small>(v0.20)</small> 
--   **Grid Spacing**: Default distance between grid lines for new pages. <small>(v0.20)</small> 
+-   **Show Grid**: Default Show Grid setting for new pages.
+-   **Grid Spacing**: Default distance between grid lines for new pages.
+
+### Selection
+
+-   **Enable Multiselection Mode**: If enabled, clicking without **Ctrl** does not clear the existing selection. <small>(v0.22)</small> 
 
 ## Scale
 
@@ -66,7 +72,7 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="Dimensions preferences" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
--   **Standard and Style**: The standard to be used for dimensional values. The difference between the standards are shown in the image: <img alt="Differences between the supported standards. ([Image source" src=images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png  style="width:500px;">
+-   **Standard and Style**: The standard to be used for dimensional values. The differences between the standards are shown in the image: <img alt="Differences between the supported standards. ([Image source" src=images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png  style="width:500px;">
 
 :   
 
@@ -92,25 +98,36 @@ All preferences settings with *italic* labels are default values for new drawing
 
 <img alt="Annotation preferences" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
 
--   **Section Line Standard**: Standard to be used to draw section lines in [section views](TechDraw_SectionView.md).
--   **Section Line Style**: Style for section lines.
--   **Complex Section Line Marks**: Show marks at direction changes on [ComplexSection](TechDraw_ComplexSection.md) lines. <small>(v0.21)</small> 
+### Annotation 
+
 -   **Section Cut Surface**: Style for section cut surface. The options are:
     -   *Hide*: There is no visible surface.
     -   *Solid Color*: The surface gets the color set for **Section Face**
     -   *SVG Hatch*: The surface is [hatched](TechDraw_Hatch.md).
     -   *PAT Hatch*: The surface is [geometrically hatched](TechDraw_GeometricHatch.md).
--   **Line Width Group**: A [LineGroup](TechDraw_LineGroup.md) to set the default line widths.
--   **Detail View Outline Shape**: Outline shape for [detail views](TechDraw_DetailView.md).
--   **Detail Highlight Style**: Line style of the outline shape for [detail views](TechDraw_DetailView.md).
--   **Center Line Style**: Default style for [centerlines](TechDraw_FaceCenterLine.md).
+-   **Complex Section Line Marks**: Show marks at direction changes on [ComplexSection](TechDraw_ComplexSection.md) lines. <small>(v0.21)</small> 
+-   **Detail View Outline Shape**: Outline shape for [detail views](TechDraw_DetailView.md). The options are:
+    -   *Circle*
+    -   *Square*
+-   **Detail View Show Matting**: This checkbox controls whether or not to display the outline around a detail view. <small>(v0.22)</small> 
+-   **Detail Source Show Highlight**: This checkbox controls whether or not to display a highlight around the detail area in the detail\'s source view. <small>(v0.22)</small> 
 -   **Balloon Shape**: Shape of [balloon annotations](TechDraw_Balloon.md).
--   **Balloon Leader End**: Default style for balloon leader line ends.
+-   **Balloon Leader End**: Default style for balloon leader line ends, see [balloon properties](TechDraw_Balloon#Properties.md).
 -   **Balloon Leader Kink Length**: Length of balloon leader line kink.
 -   **Balloon Orthogonal Triangle**: If **Balloon Leader End** is *Filled Triangle*, the triangle can only get a vertical or horizontal direction when the balloon is moved.
 -   **Leader Line Auto Horizontal**: Forces last [leader line](TechDraw_LeaderLine.md) segment to be horizontal.
 -   **Show Center Marks**: Show arc center marks in views.
 -   **Print Center Marks**: Show arc centers in printed output.
+
+### Lines
+
+-   **Line Standard**: Standard to be used to draw section lines in [section views](TechDraw_SectionView.md).
+-   **Line Width Group**: A [LineGroup](TechDraw_LineGroup.md) to set the default line widths.
+-   **Hidden Line Style**: Style of hidden lines. <small>(v0.22)</small> 
+-   **Section Line Style**: Style for section lines.
+-   **Detail Highlight Style**: Line style of the outline shape for [detail views](TechDraw_DetailView.md).
+-   **Center Line Style**: Default style for [centerlines](TechDraw_FaceCenterLine.md).
+-   **Line End Cap Shape**: The default (round) should almost always be the right choice. Flat or square caps are useful if you are planning to use a drawing as a 1:1 cutting guide.
 
 ## Colors
 
@@ -125,7 +142,8 @@ Setup of the default colors for new pages:
 -   **Dimension**: Color of dimension lines and text.
 -   **Centerline**: Color for [centerlines](TechDraw_FaceCenterLine.md).
 -   **Detail Highlight**: Line color for the outline shape of [detail views](TechDraw_DetailView.md).
--   **Grid Color**: Color for all page grids. <small>(v0.20)</small> 
+-   **Grid Color**: Color for all page grids.
+-   **Template Underline**: Color for the underline that marks editable texts in templates. <small>(v0.22)</small> 
 -   **Hidden Line**: Hidden line color. This color will be used for all kinds of [hidden lines](#HLR_Parameters.md).
 -   **Section Face**: Color of the [section view](TechDraw_SectionView.md) cut surface. Only used if the setting **Section Cut Surface** is set to *Solid Color*.
 -   **Section Line**: Color of the [section view](TechDraw_SectionView.md) cut line.
@@ -161,14 +179,12 @@ HLR stands for *hidden line removal*.
 -   **Auto Correct Dimension Refs**: If checked, an attempt is made to update dimension references when the model changes. <small>(v0.21)</small> 
 -   **Show Section Edges**: Highlights the border of the section cut in [section views](TechDraw_SectionView.md).
 -   **Fuse Before Section**: Performs a fuse operation on the input shape(s) before Section view processing
--   **Show Loose 2D Geom**: Includes 2D Objects in projections, e.g. loose sketches
 -   **Allow Crazy Edges**: Includes edges with unexpected geometry in results, e.g. zero lengths
 -   **Debug Section**: Dumps intermediate results during a Section view processing
 -   **Debug Detail**: Dumps intermediate results during a Detail view processing
 -   **Overlap Edges Scrub Passes**: The number of attempts to remove overlapping edges returned by the Hidden Line Removal algorithm. A value of 0 indicates no scrubbing. Values above 2 are generally not productive. Each attempt adds to the time required to produce the drawing. <small>(v0.21)</small> 
 -   **Edge Fuzz**: Size of selection area around edges. The fuzz unit is approximately 0.1 mm, depending on your current zoom. The default is 10. Values in the 20-30 range will make it noticeably easier to select edges. Large numbers will cause overlaps with other drawing elements.
 -   **Mark Fuzz**: Selection area around center marks. The fuzz unit is approximately 0.1 mm, depending on your current zoom.
--   **Line End Cap Shape**: Setting of the line end cap shape. Explanation of the options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Max SVG Hatch Tiles**: The limit of SVG tiles with a size of 64x64 pixels used to hatch a single face. For large scalings one might get an error about to many SVG tiles, then one needs to increase the tile limit.
 -   **Max PAT Hatch Segments**: The maximum hatch line segments used when hatching a face with a PAT pattern.
 

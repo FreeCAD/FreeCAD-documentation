@@ -14,24 +14,40 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw MaßHorizontaleAusdehnung** fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt. An beiden Stellen wird ein Hilfspunkt gesetzt.
+Das Werkzeug **TechDraw MaßHorizontaleAusdehnung** fügt einer Ansicht ein lineares Maß hinzu. Das Maß erstreckt sich vom äußersten linken Punkt der ausgewählten Objekte bis zum äußersten rechten Punkt.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
-*Maß für die horizontale Ausdehnung einer B-Spline-Fläche (292,50)*
+*Maße für die horizontale und die vertikale Ausdehnung eines B-Splines*
 
 
 
 ## Anwendung
 
 1.  Eine Ansicht oder mehrere Kanten in einer Ansicht auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** drücken.
-3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Page  → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Horizontale Ausdehnung** auswählen.
+3.  Ein Maß wird zur Ansicht hinzugefügt.
+4.  Das Maß kann an die gewünschte Position gezogen werden.
+5.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
+
+
+
+### Eigenschaften anpassen 
+
+Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog [Maßeintrag](TechDraw_LengthDimension/de#Dialog_Maßeintrag.md) geöffnet.
 
 
 
 ## Einschränkungen
 
-Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md).
+
+
+
+## Hinweise
+
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Hinweise.md).
 
 
 
@@ -43,7 +59,10 @@ Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md). Ausn
 
 ### Daten
 
--    {{PropertyData/de|MeasureType}}: `True` - basierend auf 3D-Geometrie oder \"Projected\" (Projiziert) basierend auf der Zeichnung. Normalerweise nicht direkt vom Endbenutzer beeinflusst. Noch nicht implementiert für MaßHorizontaleAusdehnung.
+
+{{Properties_Title/de|Basis}}
+
+-    {{PropertyData/de|Measure Type|Enumeration}}: Noch nicht implementiert für Ausdehnungsmaße.
 
 
 

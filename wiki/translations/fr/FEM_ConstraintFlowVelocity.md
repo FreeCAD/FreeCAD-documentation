@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintFlowVelocity
-   Name/fr: FEM Contrainte de vitesse d'écoulement
-   MenuLocation: Modèle , Contraintes du fluide , Contrainte de vitesse d'écoulement
+   Name/fr: FEM Vitesse d'écoulement comme condition limite
+   MenuLocation: Modèle , Conditions limites de fluide , Vitesse d'écoulement comme condition limite
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_ConstraintInitialFlowVelocity/fr
 ---
@@ -19,9 +19,9 @@ Applique une vitesse d\'écoulement comme condition limite à un bord en 2D ou �
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> '''Contrainte de vitesse d'écoulement'''** ou sélectionnez le menu **Modèle → Contraintes du fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Contrainte de vitesse d'écoulement**.
-2.  Sélectionnez les arêtes ou les faces cibles.
-3.  Appuyez sur le bouton **Ajouter**.
+1.  Appuyer sur le bouton **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Vitesse d'écoulement comme condition limite](FEM_ConstraintFlowVelocity/fr.md)** ou sélectionner le menu **Modèle → Conditions limites de fluide → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Vitesse d'écoulement comme condition limite**.
+2.  Sélectionner les arêtes ou les faces cibles.
+3.  Appuyer sur le bouton **Ajouter**.
 4.  Décocher *non spécifié* pour activer les champs nécessaires à l\'édition.
 5.  Définir les valeurs de vitesse ou ({{Version/fr|0.21}}) spécifier une formule.
 
@@ -53,7 +53,7 @@ Ce code a la syntaxe suivante :
 
 Le fait que *y* ne soit compris que dans l\'intervalle $y\in[1;2]$ est dû au fait que *MATC* n\'évalue que l\'intervalle *tx* où le résultat est positif. Ce comportement est un peu spécial mais présente l\'avantage de ne pas avoir à spécifier l\'intervalle manuellement.
 
-Il est également possible d\'utiliser plus d\'une variable. Voir par exemple la définition des rotations dans la [contrainte de déplacement](FEM_ConstraintDisplacement/fr#Rotations.md).
+Il est également possible d\'utiliser plus d\'une variable. Voir par exemple la définition des rotations dans la [condition limite de déplacement](FEM_ConstraintDisplacement/fr#Rotations.md).
 
 
 

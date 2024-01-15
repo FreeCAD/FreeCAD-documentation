@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM ConstraintFixed
-   MenuLocation: Model , Mechanical Constraints , Constraint fixed
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintContact
+   Name/pl: MES Warunek brzegowy utwierdzenia
+   MenuLocation:  Model , Warunki brzegowe i obciążenia mechaniczne , Warunek brzegowy utwierdzenia
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintContact/pl
 ---
 
 # FEM ConstraintFixed/pl
@@ -12,22 +13,22 @@
 
 ## Opis
 
-Tworzy wiązanie MES dla pozycji nieruchomej geometrii poprzez zablokowanie wszystkich 6 stopni swobody wybranego obiektu.
+Tworzy warunek brzegowy MES dla utwierdzonego obiektu geometrycznego poprzez zablokowanie wszystkich dostępnych stopni swobody węzłów leżących u podstaw wybranego obiektu geometrycznego *(6 stopni swobody dla elementów belkowych i powłokowych, 3 dla elementów bryłowych)*.
 
 
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintFixed.svg" width=16px> [FEM ConstraintFixed](FEM_ConstraintFixed.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintFixed.svg" width=16px> Constraint fixed** option from the menu.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a vertex (corner), edge, or face.
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintFixed.svg" width=16px> [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintFixed.svg" width=16px> Warunek brzegowy utwierdzenia** z menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przypisany warunek brzegowy. Może to być wierzchołek, krawędź lub ściana.
 
-## Limitations
 
-You cannot mix object-types within the same constraint. Use one fixed constraint for each object type.
 
-## Notes
+## Ograniczenia
+
+Nie możesz mieszać typów obiektów geometrycznych w obrębie tego samego warunku brzegowego. Użyj osobnego warunku utwierdzenia do każdego typu obiektu.
 
 
 

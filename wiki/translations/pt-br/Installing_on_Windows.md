@@ -10,9 +10,6 @@ A maneira mais fácil de **instalar o FreeCAD no Windows** é usando o arquivo d
 </div>
 
 
-{{DownloadWindowsStable}}
-
-
 <div class="mw-translate-fuzzy">
 
 Se você quiser baixar a versão de desenvolvimento (que pode ser instável), veja a página [Download](Download/pt-br.md).
@@ -112,6 +109,8 @@ para obter a última versão disponível no repositório Chocolatey. Se houver a
 
 
 </div>
+
+
 
 ## Desinstalação
 

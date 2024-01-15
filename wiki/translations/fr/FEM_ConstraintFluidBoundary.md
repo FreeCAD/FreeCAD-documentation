@@ -4,7 +4,7 @@
    Name/fr: FEM Contrainte de limite du fluide
    MenuLocation: Modèle , Contraintes sans solveur , Contrainte de limite du fluide
    Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial/fr
+   SeeAlso: 
 ---
 
 # FEM ConstraintFluidBoundary/fr
@@ -12,6 +12,8 @@
 ## Description
 
 A faire
+
+
 
 ## Utilisation
 

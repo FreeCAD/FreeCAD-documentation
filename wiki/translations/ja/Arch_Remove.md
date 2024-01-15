@@ -17,8 +17,8 @@
 
 Removeツールは2種類の操作を提供します：
 
--   Archオブジェクトからサブコンポーネントを取り除きます。例えば[Arch Addの例のような壁に追加されていた直方体を壁から取り除きます](Arch_Add/jp.md)。
--   [シェイプベースのオブジェクトを](Part_Module/jp.md)[壁や](Arch_Wall/jp.md)[骨組みといった](Arch_Structure/jp.md) Archコンポーネントから減算します。
+-   Archオブジェクトからサブコンポーネントを取り除きます。例えば[Arch Add](Arch_Add/jp.md)の例のような壁に追加されていた直方体を壁から取り除きます。
+-   [シェイプ](Part_Module/jp.md)ベースのオブジェクトを[壁](Arch_Wall/jp.md)や[骨組み](Arch_Structure/jp.md)といった Archコンポーネントから減算します。
 
 
 </div>

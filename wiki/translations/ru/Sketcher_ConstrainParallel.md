@@ -10,9 +10,13 @@
 
 # Sketcher ConstrainParallel/ru
 
+
+
 ## Описание
 
 The Constrain Parallel constraint forces two selected straight lines or edges to be parallel to each other.
+
+
 
 ## Oперация
 
@@ -38,6 +42,8 @@ Apply the Constrain Parallel constraint by either:
 
 *Result: The selected lines are forced to be parallel to each other. Changing the orientation of one line will change the orientation of the other to be the same.*
 
+
+
 ## Программирование
 
 
@@ -46,10 +52,16 @@ Apply the Constrain Parallel constraint by either:
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line1` and `Line2` and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

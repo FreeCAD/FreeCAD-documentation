@@ -43,7 +43,7 @@ Poniższe polecenie umieści kopię najnowszej wersji kodu źródłowego program
 
 
 {{Code|lang=bash|code=
-git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
 }}
 
 Więcej informacji na temat używania środowiska Git i wnoszenia kodu do projektu można znaleźć na stronie [Zarządzanie kodem źródłowym](Source_code_management/pl.md).
@@ -170,6 +170,9 @@ Kilka bibliotek zajmujących się matematyką, powierzchniami triangulowanymi, s
     
 
 -    `libxerces-c-dev`
+    
+
+-    `libyaml-cpp-dev`
     
 
 -    `libzipios++-dev`
@@ -410,7 +413,7 @@ Wymaga Pyside2 dostępnego w Debian buster oraz [freecad-stable/freecad-daily PP
 
 
 {{Code|lang=bash|code=
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev qtwebengine5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev qtwebengine5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-packaging python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-pyside2.qtwebengine python3-pyside2.qtwebenginecore python3-pyside2.qtwebenginewidgets python3-pyside2.qtwebchannel python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig libyaml-cpp-dev
 }}
 
 UWAGA: W niektórych wersjach Ubuntu i niektórych wersjach Qt pojawi się błąd, że nie udało się znaleźć pakietu python3-pyside2uic - w tych systemach można go bezpiecznie pominąć. W Ubuntu 20.04 trzeba będzie dodać `pyqt5-dev-tools`. Więcej informacji można znaleźć na stronie [this dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?t=51324).
@@ -522,62 +525,145 @@ Tę trywialną zmianę należy wprowadzić w katalogu kompilacji po uruchomieniu
 
 Potrzebne są następujące pakiety:
 
--   gcc-c++ (or possibly another C++ compiler?)
--   cmake
--   doxygen
--   swig
--   gettext
--   dos2unix
--   desktop-file-utils
--   libXmu-devel
--   freeimage-devel
--   mesa-libGLU-devel
--   opencascade-devel
--   openmpi-devel
--   python3
--   python3-devel
--   python3-pyside2
--   python3-pyside2-devel
--   pyside2-tools
--   boost-devel
--   tbb-devel
--   eigen3-devel
--   qt-devel
--   qt5-qtwebengine-devel
--   qt5-qtxmlpatterns
--   qt5-qtxmlpatterns-devel
--   qt5-qtsvg-devel
--   qt5-qttools-static
--   ode-devel
--   xerces-c
--   xerces-c-devel
--   opencv-devel
--   smesh-devel
--   Coin3
--   Coin3-devel
+-    {{Incode|gcc-c++}}(or possibly another C++ compiler?)
+
+-    {{Incode|cmake}}
+    
+
+-    {{Incode|doxygen}}
+    
+
+-    {{Incode|swig}}
+    
+
+-    {{Incode|gettext}}
+    
+
+-    {{Incode|dos2unix}}
+    
+
+-    {{Incode|desktop-file-utils}}
+    
+
+-    {{Incode|libXmu-devel}}
+    
+
+-    {{Incode|freeimage-devel}}
+    
+
+-    {{Incode|mesa-libGLU-devel}}
+    
+
+-    {{Incode|opencascade-devel}}
+    
+
+-    {{Incode|openmpi-devel}}
+    
+
+-    {{Incode|python3}}
+    
+
+-    {{Incode|python3-devel}}
+    
+
+-    {{Incode|python3-pyside2}}
+    
+
+-    {{Incode|python3-pyside2-devel}}
+    
+
+-    {{Incode|pyside2-tools}}
+    
+
+-    {{Incode|boost-devel}}
+    
+
+-    {{Incode|tbb-devel}}
+    
+
+-    {{Incode|eigen3-devel}}
+    
+
+-    {{Incode|qt-devel}}
+    
+
+-    {{Incode|qt5-qtwebengine-devel}}
+    
+
+-    {{Incode|qt5-qtxmlpatterns}}
+    
+
+-    {{Incode|qt5-qtxmlpatterns-devel}}
+    
+
+-    {{Incode|qt5-qtsvg-devel}}
+    
+
+-    {{Incode|qt5-qttools-static}}
+    
+
+-    {{Incode|ode-devel}}
+    
+
+-    {{Incode|xerces-c}}
+    
+
+-    {{Incode|xerces-c-devel}}
+    
+
+-    {{Incode|opencv-devel}}
+    
+
+-    {{Incode|smesh-devel}}
+    
+
+-    {{Incode|Coin3}}
+    
+
+-    {{Incode|Coin3-devel}}
+    
+
+-    {{Incode|yaml-cpp}}
+    
 
 *(kwiecień 2021, Coin4 i Coin4-devel są dostępne)* *(jeśli coin2 jest najnowszą dostępną wersją dla twojej wersji Fedory, użyj pakietów z <http://www.zultron.com/rpm-repo/>)*
 
--   SoQt-devel
--   freetype
--   freetype-devel
--   vtk
--   vtk-devel
--   med
--   med-devel
+-    {{Incode|SoQt-devel}}
+    
+
+-    {{Incode|freetype}}
+    
+
+-    {{Incode|freetype-devel}}
+    
+
+-    {{Incode|vtk}}
+    
+
+-    {{Incode|vtk-devel}}
+    
+
+-    {{Incode|med}}
+    
+
+-    {{Incode|med-devel}}
+    
 
 I opcjonalnie:
 
--   libspnav-devel *(do obsługi urządzeń 3Dconnexion, takich jak Space Navigator czy Space Pilot)*,
--   python3-pivy *(https://bugzilla.redhat.com/show_bug.cgi?id=458975 Pivy nie jest obowiązkowy, ale jest wymagany dla środowiska Rysunek Roboczy)*,
--   python3-markdown *(aby Menadżer dodatków natywny markdown)*,
--   python3-GitPython *(aby Menadżer dodatków używał repozytorium Git do sprawdzania i aktualizowania środowisk pracy i makrodefinicji)*.
+-    {{Incode|libspnav-devel}}*(do obsługi urządzeń 3Dconnexion, takich jak Space Navigator czy Space Pilot)*,
+
+-    {{Incode|python3-pivy}}*(https://bugzilla.redhat.com/show_bug.cgi?id=458975 Pivy nie jest obowiązkowy, ale jest wymagany dla środowiska Rysunek Roboczy)*,
+
+-    {{Incode|python3-markdown}}*(aby Menadżer dodatków natywny markdown)*,
+
+-    {{Incode|python3-GitPython}}*(aby Menadżer dodatków używał repozytorium Git do sprawdzania i aktualizowania środowisk pracy i makrodefinicji)*.
 
 Aby zainstalować wszystkie zależności naraz *(testowane w systemie Fedorze 36 oraz 37)*:
 
 
 {{Code|lang=bash|code=
-sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt5-qtwebengine-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython
+sudo dnf install gcc-c++ cmake doxygen swig gettext dos2unix desktop-file-utils libXmu-devel freeimage-devel mesa-libGLU-devel opencascade-devel openmpi-devel python3 python3-devel python3-pyside2 python3-pyside2-devel pyside2-tools boost-devel tbb-devel eigen3-devel qt-devel qt5-qtwebengine-devel qt5-qtxmlpatterns qt5-qtxmlpatterns-devel qt5-qtsvg-devel qt5-qttools-static ode-devel xerces-c xerces-c-devel opencv-devel smesh-devel Coin3 Coin3-devel SoQt-devel freetype freetype-devel vtk vtk-devel med med-devel libspnav-devel python3-pivy python3-markdown python3-GitPython yaml-cpp
 }}
 
 
@@ -632,7 +718,7 @@ Następujące polecenia zainstalują pakiety wymagane do zbudowania FreeCAD z Qt
 ```python
 zypper in --no-recommends -t pattern devel_C_C++ devel_qt5
 
-zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-devel swig libboost_program_options-devel libboost_mpi_python3-devel libboost_system-devel libboost_program_options-devel libboost_regex-devel libboost_python3-devel libboost_thread-devel libboost_system-devel libboost_headers-devel libboost_graph-devel python3 python3-devel python3-matplotlib python3-matplotlib-qt5 python3-pyside2 python3-pyside2-devel python3-pivy gcc gcc-fortran cmake occt-devel libXi-devel opencv-devel libxerces-c-devel Coin-devel SoQt-devel freetype2-devel eigen3-devel libode6 vtk-devel libmed-devel hdf5-openmpi-devel openmpi2-devel netgen-devel freeglut-devel libspnav-devel f2c doxygen dos2unix glew-devel
+zypper in libqt5-qtbase-devel libqt5-qtsvg-devel libqt5-qttools-devel boost-devel swig libboost_program_options-devel libboost_mpi_python3-devel libboost_system-devel libboost_program_options-devel libboost_regex-devel libboost_python3-devel libboost_thread-devel libboost_system-devel libboost_headers-devel libboost_graph-devel python3 python3-devel python3-matplotlib python3-matplotlib-qt5 python3-pyside2 python3-pyside2-devel python3-pivy gcc gcc-fortran cmake occt-devel libXi-devel opencv-devel libxerces-c-devel Coin-devel SoQt-devel freetype2-devel eigen3-devel libode6 vtk-devel libmed-devel hdf5-openmpi-devel openmpi2-devel netgen-devel freeglut-devel libspnav-devel f2c doxygen dos2unix glew-devel yaml-cpp
 ```
 
 Następujące polecenie zainstaluje program Qt Creator i GNU Project Debugger.
@@ -670,37 +756,99 @@ Zobacz poradnik [piano_jonas unnofficial \"Compile On openSUSE\"](https://forum.
 
 Potrzebne będą następujące biblioteki z oficjalnych repozytoriów:
 
--   boost
--   curl
--   desktop-file-utils
--   glew
--   hicolor-icon-theme
--   jsoncpp
--   libspnav
--   opencascade
--   shiboken2
--   xerces-c
--   pyside2
--   python-matplotlib
--   python-netcdf4
--   python-packaging
--   qt5-svg
--   qt5-webengine
--   cmake
--   eigen
--   git
--   gcc-fortran
--   pyside2-tools
--   swig
--   qt5-tools
--   shared-mime-info
--   coin
--   python-pivy
--   med
+-    `boost`
+    
+
+-    `cmake`
+    
+
+-    `coin`
+    
+
+-    `curl`
+    
+
+-    `desktop-file-utils`
+    
+
+-    `eigen`
+    
+
+-    `gcc-fortran`
+    
+
+-    `git`
+    
+
+-    `glew`
+    
+
+-    `hicolor-icon-theme`
+    
+
+-    `jsoncpp`
+    
+
+-    `libspnav`
+    
+
+-    `med`
+    
+
+-    `nlohmann-json`
+    
+
+-    `opencascade`
+    
+
+-    `pyside2-tools`
+    
+
+-    `pyside2`
+    
+
+-    `python-matplotlib`
+    
+
+-    `python-netcdf4`
+    
+
+-    `python-packaging`
+    
+
+-    `python-pivy`
+    
+
+-    `qt5-svg`
+    
+
+-    `qt5-tools`
+    
+
+-    `qt5-webengine`
+    
+
+-    `shared-mime-info`
+    
+
+-    `shiboken2`
+    
+
+-    `swig`
+    
+
+-    `utf8cpp`
+    
+
+-    `xerces-c`
+    
+
+-    `yaml-cpp`
+    
 
 
 ```python
-sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp libspnav opencascade shiboken2 xerces-c pyside2 python-matplotlib python-netcdf4 python-packaging qt5-svg qt5-webengine cmake eigen git gcc-fortran pyside2-tools swig qt5-tools shared-mime-info coin python-pivy med
+sudo pacman -S --needed boost cmake coin curl desktop-file-utils eigen gcc-fortran git glew hicolor-icon-theme jsoncpp libspnav med nlohmann-json opencascade pyside2-tools pyside2 python-matplotlib python-netcdf4 python-packaging python-pivy qt5-svg qt5-tools qt5-webengine shared-mime-info shiboken2 swig utf8cpp xerces-c yaml-cpp 
 ```
 
 
@@ -752,7 +900,7 @@ Dla Ubuntu, może być konieczne włączenie specjalnych repozytoriów, aby móc
 ## Kompilacja programu 
 
 
-**Kompilacja z użyciem środowiska Python 2 i Qt4 nie jest już dobrze wspierana, a od wersji 0.20 nie jest już w ogóle wspierana. Powinieneś przeprowadzić kompilację w środowisku Python 3 i Qt5. Wersja 0.20 wymaga środowiska Python w wersji co najmniej 3.6 i Qt w wersji 5.9.**
+**Kompilacja FreeCAD 0.20 wymaga co najmniej Python 3.6 i Qt 5.9.**
 
 FreeCAD używa CMake jako głównego systemu kompilacji, ponieważ jest on dostępny we wszystkich głównych systemach operacyjnych. Kompilacja za pomocą CMake jest zazwyczaj bardzo prosta i przebiega w dwóch krokach.
 
@@ -761,35 +909,28 @@ FreeCAD używa CMake jako głównego systemu kompilacji, ponieważ jest on dost�
 
 Ponieważ FreeCAD jest dużą aplikacją, kompilacja całego kodu źródłowego może zająć od 10 minut do godziny, w zależności od wydajności Twojego procesora i liczby rdzeni procesora użytych do kompilacji.
 
-Kod można budować zarówno w katalogu źródłowym, jak i poza nim. Generalnie najlepszym rozwiązaniem jest budowanie poza katalogiem źródłowym.
 
 
+### Kompilacja
 
-### Kompilacja poza źródłami 
-
-Budowanie w osobnym folderze jest wygodniejsze niż budowanie w tym samym katalogu, w którym znajduje się kod źródłowy, ponieważ za każdym razem, gdy aktualizujesz kod źródłowy, CMake może inteligentnie określić, które pliki uległy zmianie, i przekompilować tylko to, co jest potrzebne. Jest to bardzo przydatne podczas testowania różnych gałęzi Git, ponieważ nie trzeba dezorientować systemu kompilacji.
-
-Aby budować poza źródłem, po prostu utwórz katalog budowania, `freecad-build`, oddzielny od folderu źródłowego FreeCAD, `freecad-source`. Następnie z tego katalogu wskaż `cmake` właściwy folder źródłowy. W poniższych instrukcjach możesz również użyć `cmake-gui` lub `ccmake` zamiast `cmake`. Gdy `cmake` zakończy konfigurowanie środowiska, użyj `make`, aby rozpocząć właściwą kompilację.
+Do kompilacji wystarczy utworzyć katalog kompilacji `build`. Następnie z tego katalogu kompilacji wskaż `cmake` do odpowiedniego folderu źródłowego. Możesz użyć `cmake-gui` lub `ccmake` zamiast `cmake` w poniższych instrukcjach. Gdy `cmake` zakończy konfigurację środowiska, użyj `make` by rozpocząć właściwą kompilację.
 
 
 {{Code|lang=bash|code=
-mkdir freecad-build
-cd freecad-build
-cmake ../freecad-source
+# from the base of your freecad source folder:
+mkdir build
+cd build
+cmake ../
 make -j$(nproc --ignore=2)
 }}
 
-Uwaga: jeśli kompilujesz gałąź wydania 0.19, musisz jawnie określić, że kompilujesz z użyciem pakietów Qt5 i Python 3 \-- zamień powyższe polecenie cMake na: {{Code|lang=bash|code=
-cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
-}}
-
-Opcja `-j` programu `make` kontroluje, ile zadań (plików) jest kompilowanych równolegle. Program `nproc` wypisuje liczbę rdzeni procesora w twoim systemie. Używając go razem z opcją `-j` możesz wybrać przetwarzanie tylu plików, ile masz rdzeni, aby przyspieszyć ogólną kompilację programu. W powyższym przykładzie, użyje on wszystkich rdzeni w systemie z wyjątkiem dwóch. Dzięki temu Twój komputer będzie mógł być wykorzystany do innych celów, podczas gdy kompilacja będzie przebiegać w tle. Plik wykonywalny programu FreeCAD pojawi się ostatecznie w katalogu `freecad-build/bin`. Zobacz także stronę [Kompilacja *(przyspieszamy)*](Compiling_(Speeding_up)/pl.md), aby poprawić szybkość kompilacji.
+Opcja `-j` programu `make` kontroluje, ile zadań (plików) jest kompilowanych równolegle. Program `nproc` wypisuje liczbę rdzeni procesora w twoim systemie. Używając go razem z opcją `-j` możesz wybrać przetwarzanie tylu plików, ile masz rdzeni, aby przyspieszyć ogólną kompilację programu. W powyższym przykładzie, użyje on wszystkich rdzeni w systemie z wyjątkiem dwóch. Dzięki temu Twój komputer będzie mógł być wykorzystany do innych celów, podczas gdy kompilacja będzie przebiegać w tle. Plik wykonywalny programu FreeCAD pojawi się ostatecznie w katalogu `build/bin`. Zobacz także stronę [Kompilacja *(przyspieszamy)*](Compiling_(Speeding_up)/pl.md), aby poprawić szybkość kompilacji.
 
 
 
 ### Rozwiązywanie problemów z cmake 
 
-Jeśli już wcześniej wykonałeś kompilację poza źródłem i utknąłeś na zależności, która nie została rozpoznana lub nie można jej rozwiązać, spróbuj wykonać następujące czynności:
+Jeśli już wcześniej wykonałeś kompilacjęi utknąłeś na zależności, która nie została rozpoznana lub nie można jej rozwiązać, spróbuj wykonać następujące czynności:
 
 -   Usuń zawartość katalogu kompilacji przed ponownym uruchomieniem cmake. FreeCAD jest szybko zmieniającym się celem, możesz natknąć się na zbuforowane informacje cmake, które wskazują na starszą wersję niż ta, której może użyć nowy serwer repozytorium. Wyczyszczenie pamięci podręcznej może pozwolić cmake odzyskać i rozpoznać wersję, której rzeczywiście potrzebujesz.
 
@@ -814,23 +955,6 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libdl.so.2 /usr/lib/x86_64-linux-gnu/libdl.
 }}
 
 Dostosuj to polecenie do struktury swojego systemu, wyszukując libdl.so\* i umieszczając je w odpowiedniej lokalizacji.
-
-
-
-### Kompilacja na bazie źródeł 
-
-Kompilacje źródłowe są dobre, jeśli chcesz szybko skompilować wersję FreeCAD i nie zamierzasz często aktualizować kodu źródłowego. W takim przypadku możesz usunąć skompilowany program i źródło, usuwając tylko jeden folder.
-
-Zmień katalog na źródłowy i wskaż `cmake` na obecny katalog *(oznaczony pojedynczym punktem)*:
-
-
-{{Code|lang=bash|code=
-cd freecad-source
-cmake . -DPYTHON_EXECUTABLE=/usr/bin/python3
-make -j$(nproc --ignore=2)
-}}
-
-Plik wykonywalny programu FreeCAD będzie wtedy znajdował się w katalogu `freecad-source/bin`.
 
 
 
@@ -968,7 +1092,7 @@ Niektóre komponenty FreeCAD, takie jak PySide, próbują automatycznie wykryć 
 
 4\. Wybranie pliku spowoduje automatyczne uruchomienie na nim programu `cmake`, ale może się to nie powieść, jeśli odpowiednie opcje nie zostaną poprawnie ustawione.
 
-5\. Przejdź do **Projects → Build & Run → Imported Kit → Build → Build Settings → CMake**. Ustaw odpowiedni katalog kompilacji, `freecad-build/`.
+5\. Przejdź do **Projects → Build & Run → Imported Kit → Build → Build Settings → CMake**. Ustaw odpowiedni katalog kompilacji, `build/`.
 
 6\. Ustaw odpowiednie zmienne w oknie dialogowym Key-Value, typu `String` i `Bool`. 
 ```python
@@ -1089,22 +1213,22 @@ Przykład:
 
 
 {{Code|lang=bash|code=
-cd freecad-source/freecad-build
+cd freecad-source/build
 cmake ..
 make
 sudo checkinstall                                  # e.g. name=freecad-test1
 }}
 
-Wynikiem jest plik \*.deb w folderze freecad-build. Skrypt `checkinstall` domyślnie zainstaluje ten build. W ten sposób można go zainstalować lub odinstalować:
+Wynikiem jest plik \*.deb w folderze build. Skrypt `checkinstall` domyślnie zainstaluje ten build. W ten sposób można go zainstalować lub odinstalować:
 
 
 {{Code|lang=bash|code=
-cd freecad-source/freecad-build
- ls <nowiki>|</nowiki>grep freecad
+cd freecad-source/build
+ls <nowiki>|</nowiki> grep freecad
         freecad-test1_20220814-1_amd64.deb
- sudo dpkg -i freecad-test1_20220814-1_amd64.deb   # install
- dkpg -l <nowiki>|</nowiki>grep freecad                             # find by name
- sudo dpkg -r freecad-test1                        # uninstall by name
+sudo dpkg -i freecad-test1_20220814-1_amd64.deb   # install
+dkpg -l <nowiki>|</nowiki> grep freecad                            # find by name
+sudo dpkg -r freecad-test1                        # uninstall by name
 }}
 
 
@@ -1188,7 +1312,7 @@ sudo add-apt-repository --enable-source ppa:freecad-maintainers/freecad-daily &&
 sudo apt-get build-dep freecad-daily
 sudo apt-get install freecad-daily
 
-git clone https://github.com/FreeCAD/FreeCAD.git freecad-source
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad-source
 mkdir freecad-build
 cd freecad-build
 cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 -DFREECAD_USE_PYBIND11=ON ../freecad-source
@@ -1240,7 +1364,7 @@ mkdir FreeCAD-Compiled
 cd FreeCAD-Compiled
  
 # get the source
-git clone https://github.com/FreeCAD/FreeCAD.git free-cad
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git free-cad
  
 # Now you will have a subfolder in this location called free-cad. It contains the source
  
@@ -1319,7 +1443,7 @@ libsoqt4-dev libode-dev subversion cmake libeigen2-dev python-pivy \
 libtool autotools-dev automake gfortran
  
 # checkout the latest source
-git clone https://github.com/FreeCAD/FreeCAD.git freecad
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git freecad
  
 # go to source dir
 cd freecad
@@ -1383,7 +1507,7 @@ sudo dnf -y install $PACKAGES
 cd ~
 mkdir $MAIN_DIR <nowiki>||</nowiki> { echo "~/$MAIN_DIR already exist. Quitting.."; exit; }
 cd $MAIN_DIR
-git clone https://github.com/FreeCAD/FreeCAD.git
+git clone --recurse-submodules https://github.com/FreeCAD/FreeCAD.git
 mkdir $BUILD_DIR <nowiki>||</nowiki> { echo "~/$BUILD_DIR already exist. Quitting.."; exit; }
 cd $BUILD_DIR
 cmake ../FreeCAD 

@@ -37,26 +37,6 @@ Come installare ulteriori ambienti e componenti aggiuntivi su Windows
 
 <div class="mw-collapsible-content">
 
-
-
-### Obsoleto
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Note:**
-
-l\'uso di \"addons-installer\" non è più consigliato. Si consiglia di utilizzare [Addon Manager](Std_AddonMgr/it.md) in tutti i sistemi.
-
-
-</div>
-
-Usare [addons-installer da Github](https://github.com/FreeCAD/FreeCAD-addons).
-
-Durante il Google Summer of Code 2016 lo studente Mandeep Singh ha iniziato a lavorare su una versione migliore
-([disponibile qui](https://github.com/mandeeps708/PluginManager)) ma tale versione necessita di ulteriori lavori prima di poter essere completamente integrata in FreeCAD.
-
 ### Manual Install 
 
 
@@ -72,6 +52,9 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Scaricare il workbench da github cliccando sul pulsante **Clone** o **Download** sulla pagina GitHub (in alto a destra) e scegliendo \"Download ZIP\"
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
 -   All\'interno di FreeCAD, individuare il percorso delle macro scegliendo **Modifica > Preferenze > Generale > Macro** e vedere quale è il "Percorso Macro"
@@ -80,6 +63,9 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 -   All\'interno della cartella Mod creare una cartella con il nome dell\'ambiente, ad esempio "Curves"
 -   Ora spostare i file decompressi e le sottocartelle del Workbench nella cartella dell\'ambiente appena creato
 -   Dopo il riavvio di FreeCAD si dovrebbe avere una nuova voce nel menu a discesa [selettore degli ambienti](Std_Workbench/it.md)
+
+
+</div>
 
 **Raccomandazioni aggiuntive per l\'aggiornamento degli ambienti**
 
@@ -148,6 +134,9 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Scaricare il workbench da github cliccando sul pulsante **Clone** o **Download** sulla pagina GitHub (in alto a destra) e scegliendo \"Download ZIP\"
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
 -   All\'interno di FreeCAD, individuare il percorso delle macro scegliendo **Modifica > Preferenze > Generale > Macro** e vedere quale è il "Percorso Macro"
@@ -156,6 +145,9 @@ Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è pos
 -   All\'interno della cartella Mod/ creare una cartella con il nome dell\'ambiente, ad esempio "Curves"
 -   Ora spostare i file decompressi e le sottocartelle del Workbench nella cartella dell\'ambiente appena creato
 -   Dopo il riavvio di FreeCAD si dovrebbe avere una nuova voce nel menu a discesa nel [selettore degli ambienti](Std_Workbench/it.md)
+
+
+</div>
 
 
 </div>
@@ -219,12 +211,18 @@ Per questo esempio, supponiamo di aver scelto [Curves](Curves_Workbench/it.md) c
 
 ## Risoluzione dei problemi generali 
 
+
+<div class="mw-translate-fuzzy">
+
 -   In Windows non utilizzare i caratteri speciali (ad esempio dieresi tedesca) per il nome utente, altrimenti FreeCAD non riconosce i file e le cartelle nel percorso delle macro.
 -   Se è già stato impostato un nome utente con caratteri speciali, creare un nuovo nome utente o puntare il percorso macro a una directory che non utilizzi caratteri speciali.
 -   Andare in **Strumenti → Personalizza → Ambienti** e assicurarsi che l\'ambiente non sia impostato su invisibile.
 -   Per i sistemi 32-bit e FreeCAD 0.16.6706, dopo un tentativo di installazione, gli ambienti aggiuntivi potrebbero non essere disponibili. In questo caso
     -   tenere aperto il [pannello Report](report_view/it.md) mentre si avvia FreeCAD, e leggere l\'errore,
     -   vedere nel forum questa discussione: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
+
+
+</div>
 
 
 

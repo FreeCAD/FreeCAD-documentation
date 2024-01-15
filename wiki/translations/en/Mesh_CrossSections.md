@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Mesh CrossSections
-   MenuLocation: Meshes , Cutting , Cross-sections..
+   MenuLocation: Meshes , Cutting , Cross-sections...
    Workbenches: Mesh_Workbench
    Version: 0.19
    SeeAlso: Mesh_SectionByPlane
@@ -17,8 +17,8 @@ The **Mesh CrossSections** command creates multiple cross sections across mesh o
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_CrossSections.svg" width=16px> [Mesh CrossSections](Mesh_CrossSections.md)** button.
-    -   Select the **Meshes → Cutting → <img src="images/Mesh_CrossSections.svg" width=16px> Cross-sections..** option from the menu.
+    -   Press the **<img src="images/Mesh_CrossSections.svg" width=16px> [Cross-sections...](Mesh_CrossSections.md)** button.
+    -   Select the **Meshes → Cutting → <img src="images/Mesh_CrossSections.svg" width=16px> Cross-sections...** option from the menu.
 3.  The **Cross sections** task panel opens.
 4.  The planes that will be used to create the cross sections are indicated in the [3D view](3D_view.md), and will be updated based on the task panel inputs.
 5.  Select the **Guiding plane**:

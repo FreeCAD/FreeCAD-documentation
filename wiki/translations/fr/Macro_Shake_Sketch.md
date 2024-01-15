@@ -2,7 +2,8 @@
 {{Macro/fr
 |Name=Macro Shake Sketch
 |Icon=Macro_Shake_Sketch.png
-|Description=Secoue une esquisse afin de découvrir ses parties non contraintes. Entrez en mode édition pour une esquisse et lancez la macro. La macro ajoute un bruit aléatoire sur tous les points de l'esquisse. L'esquisse est ensuite résolue, les parties contraintes conservent leur position, les parties libres se déplacent {{ColoredText|#ff0000|#ffff00|(Utiliser les boutons Undo (Ctrl+Z) et Redo (Ctrl+Y) (labelled "Shake Sketch") ou travaillez sur une copie de votre fichier car la macro "démonte tout" pour afficher et vous devrez peut-être recommencer).}}
+|Description=Secoue une esquisse afin de découvrir ses parties non contraintes. Mettez vous en mode édition dans une esquisse et lancez la macro. La macro ajoute un déplacement aléatoire sur tous les points de l'esquisse. Les contraintes de l'esquisse sont alors résolues, les parties contraintes conservent leur position, les parties libres se déplacent.<br/>
+{{ColoredText|#ff0000|#ffff00|(Utilisez les boutons Undo (Ctrl+Z) et Redo (Ctrl+Y) (étiqueté "Shake Sketch") ou travaillez sur une copie de votre fichier car la macro "démonte tout" pour afficher et vous devrez peut-être recommencer).}}
 |Author=Gaël Ecorchard, heda
 |Version=1.3
 |Date=2022-06-01
@@ -12,13 +13,17 @@
 
 ## Description
 
-Secoue une esquisse pour révéler ses parties non-contraintes. Entrez en mode édition d\'une esquisse et lancez la macro. Cette macro ajoute un bruit aléatoire dans tous les points de l\'esquisse. Les contraintes de l\'esquisse sont alors résolues, les parties contraintes gardent leur position et les parties libres bougent. Exécutez toujours cette macro sur une copie de l\'esquisse originale.
+Secoue une esquisse pour révéler ses parties non-contraintes.
 
-Restaure l\'original Sketch avec les boutons **Undo (Ctrl+Z)** et **Redo (Ctrl+Y)** (labeled \"Shake Sketch\") **ou travaillez sur une copie de votre fichier car la macro \"démantèle tout\" pour la visualisation et vous devrez peut-être recommencer à zéro.**
+Entrez en mode édition d\'une esquisse et lancez la macro. Cette macro ajoute un déplacement aléatoire à tous les points de l\'esquisse. Les contraintes de l\'esquisse sont alors résolues, les parties contraintes gardent leur position et les parties libres bougent. Exécutez toujours cette macro sur une copie de l\'esquisse originale.
+
+Rétablissez l\'esquisse origine à l\'aide des boutons **Undo (Ctrl+Z)** et **Redo (Ctrl+Y)** (intitulés \"Shake Sketch\") ou **faites attention en travaillant sur une copie de votre fichier car la macro**démonte tout**pour la visualisation et vous devrez peut-être recommencer.**
+
+
 
 ## Installation
 
-Disponible dans le gestionnaire d\'addons, ou par installation manuelle.
+Disponible dans le gestionnaire des extensions ou par installation manuelle.
 
 ## Script
 

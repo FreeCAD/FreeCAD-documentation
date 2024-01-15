@@ -1,27 +1,34 @@
 ---
  GuiCommand:
    Name: FEM ConstraintInitialPressure
-   MenuLocation: Model , Fluid Constraints , Constraint initial pressure
-   Workbenches: FEM_Workbench
+   Name/pl: MES: Warunek początkowy ciśnienia
+   MenuLocation: Model , Warunki brzegowe dla płynu , Warunek początkowy ciśnienia
+   Workbenches: FEM_Workbench/pl
    Version: 0.21
-   SeeAlso: FEM_ConstraintInitialFlowVelocity
+   SeeAlso: FEM_ConstraintInitialFlowVelocity/pl
 ---
 
 # FEM ConstraintInitialPressure/pl
 
-## Description
 
-Creates an initial pressure constraint for a fluid flow analysis.
 
-## Usage
+## Opis
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> '''FEM ConstraintInitialPressure'''** or select the menu **Model →  <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Fluid Constraints → Constraint initial pressure**.
-2.  Enter an initial pressure value.
-3.  For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face.
+Tworzy warunek początkowy ciśnienia dla analizy przepływu płynu.
 
-## Notes
 
-For simple analyses, it is not necessary to specify the initial pressure, however also in these cases it is recommended as best practice.
+
+## Użycie
+
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintInitialPressure.svg" width=16px> [Warunek początkowy ciśnienia](FEM_ConstraintInitialPressure/pl.md)** lub wybierz opcję **Model → Warunki brzegowe dla płynu → <img src="images/FEM_ConstraintInitialPressure.svg" width=16px> Warunek początkowy ciśnienia**.
+2.  Wprowadź początkową wartość ciśnienia.
+3.  Do analizy 3D wybierz bryłę z modelu, do analizy 2D wybierz powierzchnię.
+
+
+
+## Uwagi
+
+W przypadku prostych analiz, nie ma konieczności definiowania ciśnienia początkowego, ale jest to zalecane.
 
 
 

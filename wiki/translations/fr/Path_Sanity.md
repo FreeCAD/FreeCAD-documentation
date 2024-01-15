@@ -34,35 +34,49 @@ Les entreprises commerciales créent souvent un \"livre des configurations\" qui
 
 Autant que possible, le contenu est indépendant de FreeCAD. L\'opérateur CNC ne peut jamais utiliser FreeCAD, donc la terminologie propre à FreeCAD/Path prête à confusion. Le rapport comporte des sections distinctes et est formaté pour rendre la recherche des choses facile et prévisible.
 
-### Part Information 
+
+
+### Informations sur les pièces 
 
 Cette section donne un aperçu de ce qui est fait. Idéalement, l\'image doit montrer les objets de base. S\'il existe plusieurs objets de base, l\'image doit montrer comment ils s\'imbriquent.
 
-### Run Summary 
+
+
+### Résumé de l\'exécution 
 
 Donne une vue rapide des hauteurs minimales et maximales et des temps de fonctionnement.
 
-### Rough Stock 
 
-Détaille l\'objet Stock de la Tâche (Job). C\'est un domaine dans lequel Path bénéficierait d\'une certaine amélioration. Une propriété matérielle rudimentaire pour le stock serait utile ici et pourrait également être utilisée pour aider à suggérer des alimentations/vitesses.
 
-### Tool Data 
+### Brut grossier 
+
+Détaille l\'objet Brut de la tâche. C\'est un domaine dans lequel Path bénéficierait d\'une certaine amélioration. Une propriété matérielle rudimentaire pour le brut serait utile ici et pourrait également être utilisée pour aider à suggérer des alimentations/vitesses.
+
+
+
+### Données de l\'outil 
 
 Comporte des sous-sections pour chaque numéro d\'outil utilisé dans la tâche. Elle détaille ce que le programmeur suppose être l\'outil et quelles opérations l\'utilisent. Cette section ne fonctionne qu\'avec le nouveau système Toolbit. Il s\'agit d\'un autre domaine dans lequel Path doit être amélioré. Plus précisément, les Toolbits ont besoin d\'attributs supplémentaires concernant l\'outil, comme le fabricant, l\'adresse et le numéro de pièce.
 
 ### Output
 
-Donne des détails sur où et quand le G-code a été post-traité. Il indique également si le travail comporte des arrêts facultatifs/obligatoires afin que l\'opérateur sache s\'il peut s\'éloigner de la machine en toute sécurité pendant une course.
+Donne des détails sur l\'endroit et le moment où le code G a été post-traité. Il indique également si la tâche contient des arrêts facultatifs/obligatoires afin que l\'opérateur sache s\'il peut s\'éloigner de la machine en toute sécurité au cours d\'une opération.
 
-### Coolant
+
+
+### Liquide de refroidissement 
 
 Le type de liquide de refroidissement nécessaire, le cas échéant.
 
-### Fixtures and Work-holding 
+
+
+### Fixations et maintien au travail 
 
 Affiche les pièces dans le contexte de l\'enveloppe du stock et montre également l\'origine de la pièce.
 
-### Squawks
+
+
+### Avertissements
 
 Les avertissements et les erreurs détectés par [Path Rechercher des erreurs](Path_Sanity/fr.md). Il peut s\'agir ou non de problèmes, mais ils sont signalés pour attirer l\'attention. Par exemple, si le même numéro d\'outil est utilisé pour différentes unités d\'usinage, il s\'agit d\'une erreur. Si un contrôleur d\'outil n\'a pas d\'avance/vitesse configurée, cela apparaîtra comme un avertissement. Il détectera également les contrôleurs d\'outils inutilisés et émettra un avertissement à leur sujet. Path bénéficierait ici de la possibilité d\'ajouter des notes ou des avertissements arbitraires.
 
@@ -70,7 +84,7 @@ Les avertissements et les erreurs détectés par [Path Rechercher des erreurs](P
 
 ## Utilisation
 
-1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Tâche](Path_Job/fr.md) dans la [vue en arborescence](Tree_view/fr.md).
+1.  Sélectionnez une <img alt="" src=images/Path_Job.svg  style="width:16px;"> [tâche](Path_Job/fr.md) dans la [vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Path_Sanity.svg" width=16px> [Vérifier les erreurs courantes dans la tâche du parcours](Path_Sanity/fr.md)**.
     -   Sélectionnez **Path → <img src="images/Path_Sanity.svg" width=16px> Vérifier les erreurs courantes dans la tâche du parcours** du menu.

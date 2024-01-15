@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: Mesh SplitComponents
-   MenuLocation: Meshes , Split by components
-   Workbenches: Mesh_Workbench
+   Name/de: Mesh KomponentenTrennen
+   MenuLocation: Netze , Nach Komponenten teilen
+   Workbenches: Mesh_Workbench/de
    Version: 0.19
-   SeeAlso: Mesh_Merge
+   SeeAlso: Mesh_Merge/de
 ---
 
 # Mesh SplitComponents/de
@@ -13,16 +14,16 @@
 
 ## Beschreibung
 
-The **Mesh SplitComponents** command splits a mesh object into its components. A mesh component is a complete group of connected faces. For each component a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), is created. If the original mesh object contains only one component, and this is usually the case, a single new mesh object, effectively a copy, is created. This command is the counterpart of the [Mesh Merge](Mesh_Merge.md) command.
+Der Befehl **Mesh KomponentenTrennen** trennt ein Netzobjekt in seine Bestandteile auf. Eine Netzkomponente ist eine komplette Gruppe verbundener Flächen. Für jede Komponente wird ein neues, nicht parametrisches Netzobjekt, ein [Mesh-Formelement](Mesh_Feature/de.md) erstellt. Enthält das originale Netzobjekt nur eine Komponente, wie es meistens der Fall ist, wird nur ein einziges Netzobjekt, eigentlich eine Kopie, erstellt. Dieser Befehl ist das Gegenstück zu [Mesh Zusammenführen](Mesh_Merge/de.md).
 
 
 
 ## Anwendung
 
-1.  Select a single mesh object.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_SplitComponents.svg" width=16px> [Mesh SplitComponents](Mesh_SplitComponents.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_SplitComponents.svg" width=16px> Split by components** option from the menu.
+1.  Ein einzelnes Netzobjekt auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_SplitComponents.svg" width=16px> [In Komponenten auftrennen](Mesh_SplitComponents/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_SplitComponents.svg" width=16px> In Komponenten auftrennen** auswählen.
 
 
 

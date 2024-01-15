@@ -18,6 +18,8 @@
 
 </div>
 
+
+
 ## Opis
 
 
@@ -29,6 +31,8 @@ Ovaj prikaz makronaredbe u izvješću prikazuje sve elemente ispod pokazivača (
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Kako koristiti 
@@ -37,6 +41,8 @@ Ovaj prikaz makronaredbe u izvješću prikazuje sve elemente ispod pokazivača (
 </div>
 
 Pokrenite makro, makro ostaje u memoriji.
+
+
 
 ## skripta
 
@@ -71,6 +77,8 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 #view.removeEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), mouse_over_cb)
 
 }}
+
+
 
 ## Poveznice
 

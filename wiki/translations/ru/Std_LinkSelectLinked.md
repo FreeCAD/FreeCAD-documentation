@@ -11,6 +11,9 @@
 # Std LinkSelectLinked/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -21,12 +24,21 @@ The **Std LinkSelectLinked** command selects the **Linked Object**, the source o
 ## Применение
 
 1.  Select a link.
-2.  Select the **Link actions → <img src="images/Std_LinkSelectLinked.svg" width=16px> Go to linked object** option from the [Tree view](Tree_view.md) context menu.
+2.  There are several ways to invoke the command:
+    -   Select the **View → Link navigation → <img src="images/Std_LinkSelectLinked.svg" width=16px> Go to linked object** option from the menu.
+    -   Select the **Link actions → <img src="images/Std_LinkSelectLinked.svg" width=16px> Go to linked object** option from the [Tree view](Tree_view.md) context menu.
+    -   Use the keyboard shortcut: **S** then **G**.
 3.  The linked object is selected. If this object belongs to an external document that document is activated.
-4.  Optionally use **<img src="images/Std_SelBack.svg" width=16px> [Std SelBack](Std_SelBack.md)** to reselect the link.
+4.  Optionally use <img alt="" src=images/Std_SelBack.svg  style="width:16px;"> [Std SelBack](Std_SelBack.md) to reselect the link.
+
+
+<div class="mw-translate-fuzzy">
 
 
 
+
+
+</div>
 
 
 {{Std Base navi

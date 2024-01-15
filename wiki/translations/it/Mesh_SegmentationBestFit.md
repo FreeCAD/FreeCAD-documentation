@@ -9,54 +9,52 @@
 
 # Mesh SegmentationBestFit/it
 
+
+
 ## Descrizione
 
 Il comando **Adatta i segmenti** crea segmenti di mesh separati per i tipi di superficie specificati di un oggetto mesh. Il comando può anche identificare i loro parametri che possono essere utili quando si riprogetta un oggetto mesh.
 
+
+
 ## Utilizzo
 
-1.  If you plan to identify the parameters of a surface type, note that the command uses the color red to mark the faces selected for this option. To see them properly:
-    -   The **Display Mode** of the mesh object ideally should be {{Value|Flat lines}}, but should at least show faces. If necessary use the [Std DrawStyle](Std_DrawStyle.md) command to override this property.
-    -   The **Shape Color** of the mesh object should not be red.
-2.  Select a single mesh object.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Mesh SegmentationBestFit](Mesh_SegmentationBestFit.md)** button.
-    -   Select the **Meshes → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Create mesh segments from best-fit surfaces...** option from the menu.
-4.  The **Mesh segmentation** task panel opens.
-5.  Optionally press one of the **Parameters...** buttons to identify the parameters of a surface:
-    -   The **Surface fit** dialog box opens.
-    -   Select one or more faces belonging to the surface:
-        -   Press the **Region** button and while holding down the left mouse button draw a region, a closed spline, in the [3D view](3D_view.md). Faces that (partially) fall inside the region will be selected.
-        -   Press the **Triangle** button to select individual faces.
-        -   Optionally press the **Clear** button to clear the selection.
-    -   Press the **Compute** button to calculate the parameters.
-    -   Press the **OK** or **Cancel** button to close the dialog box.
-6.  Select the surface type(s) you wish to create mesh segments for:
+1.  Se si intende identificare i parametri di un tipo di superficie, tenere presente che il comando utilizza il colore rosso per contrassegnare le facce selezionate per questa opzione. Per vederli correttamente:
+    -   La proprietà **Display Mode** dell\'oggetto mesh idealmente dovrebbe essere {{Value|Flat lines}}, ma dovrebbe mostrare almeno le facce. Se necessario, utilizzare il comando [Stile di disegno](Std_DrawStyle.md) per sovrascrivere questa proprietà.
+    -   La proprietà **Shape Color** dell\'oggetto mesh non deve essere rosso.
+2.  Selezionare un singolo oggetto mesh.
+3.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Mesh_SegmentationBestFit.svg" width=16px> [Adatta i segmenti...](Mesh_SegmentationBestFit/it.md)**.
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_SegmentationBestFit.svg" width=16px> Adatta i segmenti...** dal menu.
+4.  Si apre il pannello **Segmentazione della mesh**.
+5.  Facoltativamente, premere uno dei pulsanti **Parametri...** per identificare i parametri di una superficie:
+    -   Si apre la finestra di dialogo **Adattamento della superficie**.
+    -   Selezionare una o più facce appartenenti alla superficie:
+        -   Premere il pulsante **Regione** e mentre si tiene premuto il pulsante sinistro del mouse disegnare una regione con una spline chiusa nella [vista 3D](3D_view/it.md). Verranno selezionate le facce che (parzialmente) rientrano nella regione.
+        -   Premere il pulsante **Triangolo** per selezionare le singole facce.
+        -   Facoltativamente, premere il pulsante **Pulisci** per cancellare la selezione.
+    -   Premere il pulsante **Calcola** per calcolare i parametri.
+    -   Premere il pulsante **OK** o **Annulla** per chiudere la finestra di dialogo.
+6.  Selezionare il/i tipo/i di superficie per cui si desidera creare segmenti mesh:
     -   
-        **Plane**
+        **PIano**
         
 
     -   
-        **Cylinder**
+        **Cilindro**
         
 
     -   
-        **Sphere**
+        **Sfera**
         
-7.  Specify the **Tolerance** values.
-8.  Specify the **Minimum number of faces** values.
-9.  Press the **OK** button.
-10. The command will create a [group](Std_Group.md) containing separate mesh objects, each a segment of the original mesh object.
-11. If the created group is empty try using the command again with modified settings.
-
-
-<div class="mw-translate-fuzzy">
+7.  Specificare i valori di **Tolleranza**.
+8.  Specificare i valori di **Numero minimo di facce**.
+9.  Premere il pulsante **OK**.
+10. Il comando creerà un [gruppo](Std_Group/it.md) contenente oggetti mesh separati, uno per ogni segmento dell\'oggetto mesh originale.
+11. Se il gruppo creato è vuoto provare a utilizzare nuovamente il comando modificando le impostazioni.
 
 
 
-
-
-</div>
 
 
 {{Mesh Tools navi

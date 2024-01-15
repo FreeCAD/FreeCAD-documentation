@@ -13,35 +13,83 @@
 
 ## Description
 
-La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro. À partir de cette boîte de dialogue, les macros peuvent être exécutées, modifiées et gérées.
+La commande **Std Exécuter une macro** ouvre la boîte de dialogue Exécuter une macro. À partir de cette boîte de dialogue, des macros peuvent être exécutées, modifiées et gérées.
 
-![](images/Std_DlgMacroExecute_dialog.png ) 
-*La boîte de dialogue Execute macro*
+<img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
+*La boîte de dialogue Exécuter une macro*
 
 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
-    -   Appuyez sur le bouton **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Std Macro](Std_DlgMacroExecute/fr.md)**.
-    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** dans le menu.
-2.  La boîte de dialogue Exécuter la macro s\'ouvre. Voir [Options](#Options.md).
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Std_DlgMacroExecute.svg" width=16px> [Macro](Std_DlgMacroExecute/fr.md)**.
+    -   Sélectionnez l\'option **Macro → <img src="images/Std_DlgMacroExecute.svg" width=16px> Macros...** du menu.
+2.  La boîte de dialogue **Exécuter une macro** s\'ouvre. Voir [Options](#Options.md).
 
 ## Options
 
 
 
-### Macros utilisateur 
+### Rechercher un fichier/Rechercher dans les fichiers 
 
-1.  L\'onglet **User macros** répertorie les macros disponibles dans **User macros location**.
-2.  Cliquez sur une macro pour la sélectionner.
-3.  Le nom de la macro sélectionnée apparaîtra dans la case **Macro name**.
+:   
+    {{Version/fr|0.22}}
+    
+
+
+
+
+
+:   Ces deux champs de saisie peuvent être utilisés pour filtrer les macros de la liste des fichiers de l\'onglet **Macros de l\'utilisateur** ou de l\'onglet **Macros du système**. Vous pouvez utiliser des expressions régulières ou simplement saisir du texte. Toutes les correspondances sont insensibles à la casse.
+
+
+
+
+
+:   **Rechercher un fichier** filtre la liste par nom de fichier. Seuls les noms de fichiers qui correspondent au texte saisi apparaîtront dans la liste. **Rechercher dans les fichiers** filtre la liste par le contenu du fichier. Seuls les fichiers dont le contenu correspond au texte saisi apparaîtront dans la liste.
+
+
+
+
+
+:   Supprimer tout le texte de la zone de saisie d\'un filtre pour le désactiver. Si les deux champs de saisie contiennent du texte, les deux filtres sont appliqués. Le filtrage peut aboutir à une liste vide.
+
+
+
+### Macros de l\'utilisateur 
+
+:   L\'onglet **Macros de l\'utilisateur** liste les macros disponibles dans l**\'emplacement des macros de l\'utilisateur**.
+
+1.  Cliquez sur une macro dans la liste pour la sélectionner.
+2.  Le nom de la macro sélectionnée apparaîtra dans la case **Nom de la macro**.
 
 
 
 ### Macros du système 
 
-:   L\'onglet **System macros** n\'est pas utilisé pour le moment.
+:   Pour utiliser l\'onglet **Macros du système**, vous devez créer un dossier nommé **Macro** comme un dossier apparenté au dossier **bin** où FreeCAD est installé et y placer quelques macros.
+
+
+
+
+
+:   Pour trouver le dossier **bin**, entrez ceci dans la [console Python](Python_console/fr.md) :
+
+
+
+
+
+:   
+    
+```python
+    App.getHomePath()
+    
+```
+    
+
+1.  Cliquez sur une macro dans la liste pour la sélectionner.
+2.  Le nom de la macro sélectionnée apparaîtra dans la case **Nom de la macro**.
 
 
 
@@ -52,10 +100,10 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 
 
-### Lancer
+### Exécuter
 
 1.  Pour exécuter une macro, effectuez l\'une des opérations suivantes :
-    -   Sélectionnez la macro dans la liste et appuyez sur le bouton **Lancer**.
+    -   Sélectionnez la macro dans la liste et appuyez sur le bouton **Exécuter**.
     -   Double-cliquez sur la macro dans la liste.
 2.  La boîte de dialogue se ferme.
 3.  La macro est exécutée.
@@ -86,10 +134,10 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 
 
-### Editer
+### Éditer
 
 1.  Sélectionnez la macro que vous souhaitez modifier dans la liste.
-2.  Appuyez sur le bouton **Editer**.
+2.  Appuyez sur le bouton **Éditer**.
 3.  La boîte de dialogue se ferme.
 4.  Le fichier sélectionné est ouvert dans l\'éditeur de macros.
 
@@ -104,10 +152,10 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 
 
-### Doublon
+### Dupliquer
 
 1.  Sélectionnez la macro que vous souhaitez dupliquer dans la liste.
-2.  Appuyez sur le bouton **Doublon**.
+2.  Appuyez sur le bouton **Dupliquer**.
 3.  Entrez un nouveau nom dans la boîte de dialogue qui apparaît. Il n\'est pas nécessaire d\'inclure l\'extension **.FCMacro**.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK**.
 
@@ -135,7 +183,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ## Préférences
 
--   L\'emplacement des macros de l\'utilisateur peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin de la macro**. Voir l\'[Editeur de préférences](Preferences_Editor/fr#Macro.md).
+-   L\'emplacement des macros de l\'utilisateur peut également être modifié dans les préférences : **Édition → Préférences... → Python → Macro → Chemin d'accès aux macros**. Voir l\'[Editeur de préférences](Preferences_Editor/fr#Macro.md).
 
 
 

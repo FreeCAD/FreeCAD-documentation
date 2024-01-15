@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionPosObliqueChainDimension
    Name/de: TechDraw ErgänzungSchrägeKettenmaßeAnordnen
-   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Oblique Chain Dimensions
+   MenuLocation: TechDraw , Ergänzungen: Merkmale/Änderungen , Schräge Kettenmaße anordnen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:24px;"> **TechDraw ErgänzungSchrägeKettenmaßeAnordnen** verbindet schräge Maße zu einer Maßkette.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungSchrägeKettenmaßeAnordnen** verbindet schräge Maße zu einer Maßkette.
 
 <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimensionExample.png  style="width:400px;"> 
 *Rechts die als Kette angeordneten Maße*
@@ -30,18 +24,12 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.s
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle zwei oder mehr parallele schräge Maße.
+1.  Zwei oder mehr parallele schräge Maße auswählen.
 2.  Das erste Maß legt die Position fest. Dieses Maß wird nicht bewegt.
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [TechDraw ExtensionPosObliqueChainDimension](TechDraw_ExtensionPosObliqueChainDimension.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Position Oblique Chain Dimensions** Option aus dem menü.
-4.  Die Maße werden fluchtend ausgerichtet, die Maßzahlen werden zentriert.
-
-
-</div>
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionPosObliqueChainDimension.svg" width=16px> [Schräge Kettenmaße anordnen](TechDraw_ExtensionPosObliqueChainDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionPosHorizChainDimension.svg" width=16px> Schräge Kettenmaße anordnen** auswählen.
+4.  Die Maße werden fluchtend ausgerichtet.
 
 
 

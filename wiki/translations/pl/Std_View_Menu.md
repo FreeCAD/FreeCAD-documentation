@@ -101,7 +101,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Przełącz płaszczyznę tnącą](Std_ToggleClipPlane/pl.md): Tymczasowo ukrywa obiekty po jednej stronie wirtualnej płaszczyzny w aktywnym widoku 3D.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Wycinek przekroju](Part_SectionCut/pl.md): Tworzenie trwałych wycinków obiektów i zespołów. {{Version/pl|0.20}}
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Wycinek przekroju](Part_SectionCut/pl.md): Tworzenie trwałych wycinków obiektów i zespołów. **-- Dostępne, jeśli załadowano środowisko pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md).** {{Version/pl|0.20}}
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Odwzorowanie tekstury](Std_TextureMapping/pl.md): Tymczasowo umieszcza teksturę na wszystkich obiektach.
 
@@ -125,21 +125,42 @@ W tym menu dostępne są następujące narzędzia:
 
 -   [Środowisko pracy](Std_Workbench/pl.md): **-- Wybierz jedno ze środowisk pracy w menu.**
 
--   Paski narzędzi **-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym. Niektóre Środowiska pracy dodają swoje własne paski narzędziowe.**
+-   Paski narzędzi **-- Każdy pasek narzędzi można włączyć lub wyłączyć w menu podrzędnym.**
     -   Plik.
     -   Środowisko pracy.
     -   Makrodefinicje.
     -   Widok.
     -   Struktura.
+    -   \... Jeśli bieżące środowisko pracy ma paski narzędzi, pojawiają się one tutaj
+    -   [Zablokuj paski narzędzi](Std_ToggleToolBarLock/pl.md): Jeśli funkcja jest włączona, paski narzędzi nie są ruchome. {{Version/pl|0.22}}
 
 -   Panele **-- Każdy panel można włączyć lub wyłączyć w menu podrzędnym.**
-    -   [Widok raportu](Report_view/pl.md).
-    -   [Widok drzewa](Tree_view/pl.md).
-    -   [Właściwości widoku](Property_editor/pl.md).
+    -   [Widok drzewa](Tree_view/pl.md) **-- Dostępne, jeśli opcja [Tryb widoku drzewa](Preferences_Editor/pl#Ogólne_2.md) jest ustawiona na {{Value|Widok drzewa i widok właściwości**.}}
+    -   [Widok właściwości](Property_editor/pl.md) **-- Analogicznie.**
     -   [Wybór widoku](Selection_view/pl.md).
-    -   [Widok połączony](Combo_view/pl.md).
+    -   [Panel zadań](Task_panel/pl.md)
     -   [Konsola Python](Python_console/pl.md).
-    -   [Widok DAG](DAG_view/pl.md), funkcja eksperymentalna dla programistów.
+    -   [Widok DAG](DAG_view/pl.md), **-- Niedostępne domyślnie, zobacz stronę [Widok DAG](DAG_view/pl.md).**
+    -   [Model](Combo_view.md) **-- Dostępne, jeśli opcja [Tryb widoku drzewa](Preferences_Editor/pl#Ogólne_2.md) ma wartość {{Value|Widok złożony**.}}
+    -   [Widok raportu](Report_view/pl.md)
+
+-   Nakładka okna Docka {{Version/pl|0.22}}.
+    -   [Przełącz nakładkę dla wszystkich](Std_DockOverlayAll/pl.md): Przełącza tryb nakładki dla wszystkich zadokowanych okien.
+    -   [Przełącz przezroczystość dla wszystkich](Std_DockOverlayTransparentAll/pl.md): Włącza tryb przezroczystości dla wszystkich zadokowanych okien nakładki. Dzięki temu zadokowane okna pozostaną przezroczyste przez cały czas.
+    -   [Przełącz nakładkę](Std_DockOverlayToggle/pl.md): Przełącza tryb nakładki dla okna zadokowanego pod kursorem.
+    -   [Przełącz przezroczystość](Std_DockOverlayToggleTransparent/pl.md): Przełącza tryb przezroczysty dla okna zadokowanego pod kursorem. Sprawia, że zadokowane okno pozostaje przezroczyste przez cały czas.
+    -   [Pomijanie zdarzeń myszy w zadokowanych oknach nakładki](Std_DockOverlayMouseTransparent/pl.md): Pomija wszystkie zdarzenia myszy w zadokowanych oknach nakładki.
+    -   [Przełącz z lewej](Std_DockOverlayToggleLeft/pl.md): Pokazuje / ukrywa lewy panel nakładki.
+    -   [Przełącz z prawej](Std_DockOverlayToggleRight/pl.md): Pokazuje / ukrywa prawy panel nakładki.
+    -   [Przełącz u góry](Std_DockOverlayToggleTop/pl.md): Pokazuje / ukrywa górny panel nakładki.
+    -   [Przełącz u dołu](Std_DockOverlayToggleBottom/pl.md): Pokazuje / ukrywa dolny panel nakładki.
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Włącz / wyłącz przezroczystość](Std_ToggleTransparency/pl.md):
+
+-   Nawigacja przy użyciu łączy
+    -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Przejdź do połączonego obiektu](Std_LinkSelectLinked/pl.md): Wybiera połączony obiekt i przełącza do jego dokumentu.
+    -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Przejdź do najgłębiej połączonego obiektu](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej połączony obiekt i przełącza do jego dokumentu.
+    -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;">. [Zaznacz wszystkie łącza](Std_LinkSelectAllLinks/pl.md): Wybiera wszystkie łącza do obiektu.
 
 -   Działania w zakresie widoku drzewa.
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Widok synchroniczny](Std_TreeSyncView/pl.md): Przełącza [TWidok drzewa](Tree_view/pl.md) w tryb Widok synchroniczny.
@@ -152,6 +173,8 @@ W tym menu dostępne są następujące narzędzia:
     -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Zwiń / rozwiń](Std_TreeCollapseDocument/pl.md): Przełącza widok drzewa Zwiń / rozwiń.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Rozpocznij przeciąganie](Std_TreeDrag/pl.md): Inicjuje operację przeciągania dla wybranych obiektów w widoku drzewa.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Przejdź do wyboru](Std_TreeSelection/pl.md): Przewija widok drzewa do pierwszego utworzonego obiektu wybranego w widoku 3D.
+    -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Cofnij zaznaczenie](Std_SelBack/pl.md): Przywraca poprzedni wybór widoku drzewa.
+    -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Ponów zaznaczenie](Std_SelForward/pl.md): Odtwarza następny wybór widoku drzewa.
 
 -   [Pasek stanu](Std_ViewStatusBar/pl.md): Przełącza wyświetlenie [paska statusu](Status_bar/pl.md).
 

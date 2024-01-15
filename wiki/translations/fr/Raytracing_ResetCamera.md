@@ -38,4 +38,4 @@ Définit la caméra du projet raytracing sélectionné pour correspondre à la v
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ResetCamera/fr
+⏵ [documentation index](../README.md) > Raytracing ResetCamera/fr

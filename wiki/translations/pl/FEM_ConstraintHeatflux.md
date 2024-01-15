@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM ConstraintHeatflux
-   MenuLocation: Model , Thermal Constraints , Constraint heatflux
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: MES: Obciążenie strumieniem ciepła
+   MenuLocation: Model , Warunki brzegowe i obciążenia termiczne , Obciążenie strumieniem ciepła
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintHeatflux/pl
@@ -12,19 +13,30 @@
 
 ## Opis
 
-This constraint specifies film heat transfer of a surface at temperature *T* and with a film coefficient *h* to the environment or sink at temperature *T~0~*. The convective heat flux *q* will satisfy: ***q = h(T -T~0~)***
+Definiuje konwekcyjny strumień ciepła na powierzchni o temperaturze *T* ze współczynnikiem przejmowania ciepła *h* i z temperaturą otoczenia *T~0~*. Konwekcyjny strumień ciepła *q* będzie spełniał zależność: ***q = h(T -T~0~)***. Opcjonalne, może również definiować zwykły strumień ciepła na powierzchni.
 
-## Usage
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [FEM ConstraintHeatflux](FEM_ConstraintHeatflux.md)** button.
-    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Constraint heatflux** option from the menu.
-2.  In the [3D view](3D_view.md) select the face(s) the constraint should be applied to.
-3.  Enter the desired surface temperature, heat transfer coefficient and environment temperature.
 
-## Notes
+## Użycie
 
--   The constraint uses the \*FILM card in CalculiX. The heatflux constraint is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintHeatflux.svg" width=16px> [Obciążenie strumieniem ciepła](FEM_ConstraintHeatflux/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia termiczne → <img src="images/FEM_ConstraintHeatflux.svg" width=16px> Obciążenie strumieniem ciepła** z menu.
+2.  W [widoku 3D](3D_view/pl.md) wybierz powierzchnie, do których to obciążenie ma być przypisane.
+3.  Wprowadź wartość współczynnika przejmowania ciepła i temperatury otoczenia.
+
+
+
+### Opcje
+
+Domyślnie to narzędzie definiuje konwekcyjny strumień ciepła. Korzystając z opcji **Strumień ciepła na powierzchni** można zdefiniować wartość strumienia ciepła w Watach na jednostkę powierzchni (W/m\^2).
+
+
+
+## Uwagi
+
+-   Obciążenie strumieniem ciepła korzysta ze słowa kluczowego \*FILM w CalculiX. Jest to opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node203.html>
+-   Opcja **Strumień ciepła na powierzchni** korzysta ze słowa kluczowego \*DFLUX w CalculiX: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node188.html>
 
 
 

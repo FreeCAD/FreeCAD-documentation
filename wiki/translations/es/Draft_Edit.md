@@ -64,7 +64,13 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restringir](Draft
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiados. Véase [Borrador Preferencias](Draft_Preferences/es.md).
+
+
+</div>
 
 
 
@@ -182,7 +188,7 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v0.21)</small> ) and {{Value|Reverse curve}} (<small>(v0.21)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse curve}} (<small>(v0.21)</small> ).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) 
 
@@ -252,7 +258,13 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 -   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: **Edición → Preferencias... → Borrador → Ajustes visuales → Color**. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Draft_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
+
+
+</div>
 
 
 

@@ -28,9 +28,11 @@ Gui.addWorkbench(ScriptWorkbench())
 
 {{Top}}
 
-### A typical module file 
 
-This is an example of a main module file, containing everything your module does. It is the Scripts.py file invoked by the previous example. You can have all your custom commands here.
+
+### Typowy plik modułu 
+
+To jest przykład głównego pliku modułu, zawierającego wszystko, co robi moduł. Jest to plik Scripts.py wywołany przez poprzedni przykład. Można tu umieścić wszystkie niestandardowe polecenia.
 
 
 ```python
@@ -49,11 +51,13 @@ FreeCADGui.addCommand('Script_Cmd', ScriptCmd())
 
 {{Top}}
 
-### Import a new filetype 
 
-Making an importer for a new filetype in FreeCAD is easy. FreeCAD doesn\'t consider that you import data in an opened document, but rather that you simply can directly open the new filetype. So what you need to do is to add the new file extension to FreeCAD\'s list of known extensions, and write the code that will read the file and create the FreeCAD objects you want:
 
-This line must be added to the InitGui.py file to add the new file extension to the list:
+### Import nowego typu pliku 
+
+Tworzenie importera dla nowego typu pliku w FreeCAD jest łatwe. FreeCAD nie uważa, że importujesz dane w otwartym dokumencie, ale raczej, że możesz po prostu bezpośrednio otworzyć nowy typ pliku. To, co musisz zrobić, to dodać nowe rozszerzenie pliku do listy znanych rozszerzeń FreeCAD i napisać kod, który odczyta plik i utworzy żądane obiekty FreeCAD:
+
+Ten wiersz musi zostać dodany do pliku InitGui.py, aby dodać nowe rozszerzenie pliku do listy:
 
 
 ```python
@@ -61,7 +65,7 @@ This line must be added to the InitGui.py file to add the new file extension to 
 FreeCAD.addImportType("Your new File Type (*.ext)","Import_Ext") 
 ```
 
-Then in the Import_Ext.py file:
+Następnie w pliku Import_Ext.py:
 
 
 ```python
@@ -71,16 +75,18 @@ def open(filename):
    doc.recompute()
 ```
 
-To export your document to some new filetype works the same way, except that you use:
+Eksportowanie dokumentu do nowego typu pliku działa w ten sam sposób, z wyjątkiem tego, że używasz:
 
-FreeCAD.addExportType("Your new File Type (*.ext)","Export_Ext")
+FreeCAD.addExportType("Twój nowy typ pliku (*.ext)", "Export_Ext")
 
 
 {{Top}}
 
-### Add a line 
 
-A line simply has 2 points.
+
+### Dodanie linii 
+
+Linia ma po prostu 2 punkty.
 
 
 ```python
@@ -98,9 +104,11 @@ doc.recompute()
 
 {{Top}}
 
-### Add a polygon 
 
-A polygon is simply a set of connected line segments (a polyline in AutoCAD). It doesn\'t need to be closed.
+
+### Dodanie wielokąta 
+
+Wielokąt to po prostu zestaw połączonych segmentów linii *(polilinia w programie AutoCAD)*. Nie musi on być zamknięty.
 
 
 ```python
@@ -124,7 +132,9 @@ doc.recompute()
 
 {{Top}}
 
-### Add and remove an object to/from a group 
+
+
+### Dodawanie i usuwanie obiektu z grupy 
 
 
 ```python
@@ -135,9 +145,9 @@ grp.addObject(lin) # adds the lin object to the group grp
 grp.removeObject(lin) # removes the lin object from the group grp
 ```
 
-Note: You can even add other groups to a group\... {{Top}}
+Uwaga: Możesz nawet dodać inne grupy do grupy\... 
 
-### Add a Mesh 
+### Dodanie siatki 
 
 
 ```python
@@ -168,7 +178,9 @@ me.Mesh=m
 
 {{Top}}
 
-### Add an arc or a circle 
+
+
+### Dodanie łuku lub okręgu 
 
 
 ```python
@@ -184,9 +196,11 @@ doc.recompute()
 
 {{Top}}
 
-### Access and change the representation of an object 
 
-Each object in a FreeCAD document has an associated view representation object that stores all the parameters that define how that object appears: i.e. color, linewidth, etc\... See also [List the components of an object](#List_the_components_of_an_object.md) snippet below
+
+### Uzyskanie dostępu i zmiana reprezentację obiektu 
+
+Każdy obiekt w dokumencie FreeCAD ma powiązany obiekt reprezentacji widoku, który przechowuje wszystkie parametry definiujące sposób wyświetlania tego obiektu: tj. kolor, szerokość linii itp. Zobacz także fragment poniżej [Lista komponentów obiektu](#Lista_komponentów_obiektu.md).
 
 
 ```python
@@ -202,7 +216,9 @@ v.ShapeColor=(1.0,1.0,1.0) # sets the shape color to white
 
 {{Top}}
 
-### Replace the form of mouse with one image 
+
+
+### Zamień formę myszy na jeden obraz 
 
 
 ```python
@@ -221,9 +237,11 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Replace the form of mouse with one image (cross) include 
 
-The image is created by Gimp exported in a .XPM file. Copy and use the code between the bracket **\"{\"** code to copy **\"}\"**
+
+### Zastąp formę myszy jednym obrazem *(krzyżykiem)* 
+
+Obraz jest tworzony przez program Gimp i eksportowany do pliku .XPM. Skopiuj i użyj kodu między nawiasami klamrowymi **\"{\"**, aby skopiować **\"}\"**\'.
 
 
 ```python
@@ -280,9 +298,11 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 {{Top}}
 
-### Observe camera change in the 3D viewer via Python 
 
-This can be done adding a Node sensor to the camera.
+
+### Obserwowanie zmiany kamery w przeglądarce 3D dzięki Python 
+
+Można to zrobić, dodając do kamery czujnik [Node Sensor](https://www.coin3d.org/Coin/html/classSoNodeSensor.html):
 
 
 ```python
@@ -304,7 +324,7 @@ node_sensor.attach(camera_node)```
 
 ### Obserwowanie zdarzeń myszy w przeglądarce 3D za pomocą środowiska Python 
 
-The Inventor framework allows to add one or more callback nodes to the scenegraph of the viewer. By default in FreeCAD one callback node is installed per viewer which allows to add global or static C++ functions. In the appropriate Python binding some methods are provided to make use of this technique from within Python code.
+Framework Inventor pozwala na dodanie jednego lub więcej węzłów wywołania zwrotnego do scenorysu przeglądarki. Domyślnie w FreeCAD jeden węzeł wywołania zwrotnego jest zainstalowany na przeglądarkę, co pozwala na dodanie globalnych lub statycznych funkcji C++. W odpowiednim wiązaniu Python dostępne są pewne metody umożliwiające wykorzystanie tej techniki z poziomu kodu Python.
 
 
 ```python
@@ -324,61 +344,63 @@ o = ViewObserver()
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 ```
 
-Now, pick somewhere on the area in the 3D viewer and observe the messages in the output window. To finish the observation just call
+Teraz wybierz miejsce na powierzchni w przeglądarce 3D i obserwuj komunikaty w oknie wyjściowym. Aby zakończyć obserwację wystarczy wywołać:
 
 
 ```python
 v.removeEventCallback("SoMouseButtonEvent",c)
 ```
 
-The following event types are supported
+Obsługiwane są następujące typy zdarzeń:
 
--   SoEvent \-- all kind of events
--   SoButtonEvent \-- all mouse button and key events
--   SoLocation2Event \-- 2D movement events (normally mouse movements)
--   SoMotion3Event \-- 3D movement events (normally spaceball)
--   SoKeyboardEvent \-- key down and up events
--   SoMouseButtonEvent \-- mouse button down and up events
--   SoSpaceballButtonEvent \-- spaceball button down and up events
+-   SoEvent \-- wszystkie rodzaje zdarzeń,
+-   SoButtonEvent \-- wszystkie zdarzenia przycisków myszy i klawiszy,
+-   SoLocation2Event \-- zdarzenia ruchu 2D *(zwykle ruchy myszą)*,
+-   SoMotion3Event - zdarzenia ruchu 3D *(zwykle ruchy spaceball)*,
+-   SoKeyboardEvent \-- zdarzenia klawiszy w dół i w górę,
+-   SoMouseButtonEvent \-- zdarzenia przycisków myszy w dół i w górę,
+-   SoSpaceballButtonEvent \-- zdarzenia w dół i w górę przycisku spaceball.
 
-The Python function that can be registered with addEventCallback() expects a dictionary. Depending on the watched event the dictionary can contain different keys.
+Funkcja Python, którą można zarejestrować za pomocą addEventCallback(), oczekuje słownika. W zależności od obserwowanego zdarzenia słownik może zawierać różne klucze.
 
-For all events it has the keys:
+Dla wszystkich zdarzeń zawiera klucze:
 
--   Type \-- the name of the event type i.e. SoMouseEvent, SoLocation2Event, \...
--   Time \-- the current time as string
--   Position \-- a tuple of two integers, mouse position
--   ShiftDown \-- a boolean, true if Shift was pressed otherwise false
--   CtrlDown \-- a boolean, true if Ctrl was pressed otherwise false
--   AltDown \-- a boolean, true if Alt was pressed otherwise false
+-   Type \-- nazwa typu zdarzenia tj. SoMouseEvent, SoLocation2Event, \...
+-   Time \-- aktualny czas jako ciąg znaków,
+-   Position \-- krotka dwóch liczb całkowitych, pozycja kursora myszki,
+-   ShiftDown \-- wartość logiczna, {{true/pl}} jeśli wciśnięto Shift, w przeciwnym razie {{false/pl}},
+-   CtrlDown \-- wartość logiczna, {{true/pl}} jeśli wciśnięto Ctrl, w przeciwnym wypadku {{false/pl}},
+-   AltDown \-- wartość logiczna, {{true/pl}} jeśli naciśnięto Alt, w przeciwnym razie {{false/pl}}.
 
-For all button events, i.e. keyboard, mouse or spaceball events
+Dla wszystkich zdarzeń przycisków, tj. zdarzeń klawiatury, myszki lub spaceball
 
--   State \-- A string \'UP\' if the button was up, \'DOWN\' if it was down or \'UNKNOWN\' for all other cases
+-   State - Ciąg znaków \"UP\", jeśli przycisk był w górze, \"DOWN\", jeśli był w dół lub \"UNKNOWN\" dla wszystkich innych przypadków.
 
-For keyboard events:
+Dla zdarzeń klawiatury:
 
--   Key \-- a character of the pressed key
+-   Key \-- znak naciśniętego klawisza
 
-For mouse button event
+Dla zdarzeń przycisku myszki
 
--   Button \-- The pressed button, could be BUTTON1, \..., BUTTON5 or ANY
+-   Button - naciśnięty przycisk, może być BUTTON1, \..., BUTTON5 lub DOWOLNY
 
-For spaceball events:
+Dla zdarzeń spaceball:
 
--   Button \-- The pressed button, could be BUTTON1, \..., BUTTON7 or ANY
+-   Button \-- Naciśnięty przycisk, może być BUTTON1, \..., BUTTON7 lub ANY
 
-And finally motion events:
+I wreszcie zdarzenia ruchu:
 
--   Translation \-- a tuple of three floats
--   Rotation \-- a quaternion for the rotation, i.e. a tuple of four floats
+-   Translation - krotka trzech liczb zmiennoprzecinkowych
+-   Rotation - kwaternion dla obrotu, tj. krotka czterech zmiennych.
 
 
 {{Top}}
 
-### Display keys pressed and Events command 
 
-This macro displays in the report view the keys pressed and all events command
+
+## Wyświetlanie naciśniętych klawiszy i poleceń zdarzeń 
+
+Makrodefinicja ta wyświetla w widoku raportu naciśnięte klawisze i wszystkie polecenia zdarzeń:
 
 
 ```python
@@ -403,9 +425,11 @@ c = v.addEventCallback("SoEvent",o.logPosition)
 
 {{Top}}
 
-### Manipulate the scenegraph in Python 
 
-It is also possible to get and change the scenegraph in Python, with the \'pivy\' module \-- a Python binding for Coin.
+
+### Manipulowanie scenografem w Python 
+
+Możliwe jest również pobieranie i zmienianie scenegrafu w środowisku Python, za pomocą modułu \"pivy\" - powiązania Python dla Coin.
 
 
 ```python
@@ -416,7 +440,7 @@ root.addChild(SoCube())
 view.fitAll()
 ```
 
-The Python API of pivy is created by using the tool SWIG. As we use in FreeCAD some self-written nodes you cannot create them directly in Python. However, it is possible to create a node by its internal name. An instance of the type \'SoFCSelection\' can be created with
+Python API pivy jest tworzone za pomocą narzędzia SWIG. Ponieważ we FreeCAD używamy samodzielnie napisanych węzłów, nie można ich tworzyć bezpośrednio w Python. Możliwe jest jednak utworzenie węzła według jego wewnętrznej nazwy. Instancję typu \"SoFCSelection\" można utworzyć za pomocą:
 
 
 ```python
@@ -427,9 +451,11 @@ node = type.createInstance()
 
 {{Top}}
 
-### Add and remove objects to/from the scenegraph 
 
-Adding new nodes to the scenegraph can be done this way. Take care of always adding a SoSeparator to contain the geometry, coordinates and material info of a same object. The following example adds a red line from (0,0,0) to (10,0,0):
+
+### Dodawanie i usuwanie obiektów do / z scenografu 
+
+W ten sposób można dodawać nowe węzły do scenografu. Należy zawsze dodawać SoSeparator, aby zawierał geometrię, współrzędne i informacje o materiale tego samego obiektu. Poniższy przykład dodaje czerwoną linię od (0,0,0) do (10,0,0):
 
 
 ```python
@@ -449,7 +475,7 @@ no.addChild(li)
 sg.addChild(no)
 ```
 
-To remove it, simply issue: 
+Aby go usunąć, wystarczy wydać polecenie: 
 ```python
 sg.removeChild(no)
 ``` {{Top}}
@@ -457,9 +483,13 @@ sg.removeChild(no)
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Save the sceneGraph in 3 series of 36 files 
 
-View the code snippet by expanding this section
+
+### Zapisz sceneGraph w 3 seriach po 36 plików 
+
+.
+
+Wyświetl fragment kodu, rozwijając tę sekcję:
 
 
 <div class="mw-collapsible-content">
@@ -549,11 +579,13 @@ for i in range(steps):
 
 {{Top}}
 
-### Add custom widgets to the interface 
 
-You can create custom widgets with Qt designer, transform them into a python script, and then load them into the FreeCAD interface with PySide.
 
-The python code produced by the Ui python compiler (the tool that converts qt-designer .ui files into python code) generally looks like this (it is simple, you can also code it directly in python):
+### Dodaj niestandardowe widżety do interfejsu 
+
+Możesz tworzyć niestandardowe widżety za pomocą Qt Designer, przekształcać je w skrypt Python, a następnie ładować je do interfejsu FreeCAD za pomocą PySide.
+
+Kod Python wygenerowany przez kompilator Ui Python *(narzędzie, które konwertuje pliki qt-designer .ui na kod Pythona)* generalnie wygląda tak *(jest prosty, można go również zakodować bezpośrednio w Python)*:
 
 
 ```python
@@ -571,7 +603,7 @@ class myWidget_Ui(object):
         self.label.setText(QtGui.QApplication.translate("myWidget", "Welcome to my new widget!", None, QtGui.QApplication.UnicodeUTF8))             
 ```
 
-Then, all you need to do is to create a reference to the FreeCAD Qt window, insert a custom widget into it, and \"transform\" this widget into yours with the Ui code we just made:
+Następnie wystarczy utworzyć odniesienie do okna FreeCAD Qt, wstawić do niego niestandardowy widżet i \"przekształcić\" ten widżet w swój za pomocą kodu interfejsu użytkownika, który właśnie utworzyliśmy:
 
 
 ```python
@@ -587,9 +619,11 @@ FCmw.addDockWidget(QtCore.Qt.RightDockWidgetArea,myNewFreeCADWidget) # add the w
 
 {{Top}}
 
-### Add a Tab to the Combo View 
 
-The following code allows you to add a tab to the [Combo view](Combo_view.md), separate from the preexisting \"Model\" and \"Tasks\" tabs. It also uses the `uic` module to load an UI file directly in that tab.
+
+### Dodaj zakładkę do widoku Złożonego 
+
+Poniższy kod umożliwia dodanie zakładki do widoku [Złozonego](Combo/pl.md), oddzielnej od istniejących wcześniej zakładek \"Model\" i \"Zadania\". Wykorzystuje on również moduł `uic` do załadowania pliku interfejsu użytkownika bezpośrednio w tej zakładce.
 
 
 ```python
@@ -631,16 +665,18 @@ tab2.show()
 
 {{Top}}
 
-### Enable or disable a window 
 
-This script give the ability to manipulate the UI from the [Python console](Python_console.md) to show/hide different components in the FreeCAD [interface](interface.md) such as:
 
--   [Report view](Report_view.md)
--   [Tree view](Tree_view.md)
--   [Property view](Property_editor.md)
--   [Selection view](Selection_view.md)
--   [Combo view](Combo_view.md)
--   [Python console](Python_console.md)
+### Włącz lub wyłącz okno 
+
+Skrypt ten daje możliwość manipulowania interfejsem użytkownika z [konsoli Python](Python_console/pl.md), aby pokazać/ukryć różne komponenty w [interfejsie](Interface/pl.md) FreeCAD, takie jak:
+
+-   [Widok raportu](Report_view/pl.md)
+-   [Widok drzewa](Widok_drzewa/pl.md)
+-   [Widok właściwości](Property_editor/pl.md)
+-   [Widok wyboru](Selection_view/pl.md)
+-   [Widok złożony](Combo_view/pl.md)
+-   [Konsola Python](Python_console/pl.md)
 -   draftToolbar
 
 
@@ -671,7 +707,9 @@ dw.setVisible(True)        # True or False
 
 {{Top}}
 
-### Open a custom webpage 
+
+
+### Otwórz niestandardową stronę internetową 
 
 
 ```python
@@ -682,7 +720,9 @@ WebGui.openBrowser("http://www.example.com")
 
 {{Top}}
 
-### Get the HTML contents of an opened webpage 
+
+
+### Pobierz zawartość HTML otwartej strony internetowej 
 
 
 ```python
@@ -697,7 +737,9 @@ print( html)
 
 {{Top}}
 
-### Retrieve the coordinates of 3 selected points or objects 
+
+
+### Pobieranie współrzędnych 3 wybranych punktów lub obiektów 
 
 
 ```python
@@ -729,7 +771,9 @@ else :
 
 {{Top}}
 
-### List all objects 
+
+
+### Lista wszystkich obiektów 
 
 
 ```python
@@ -756,7 +800,11 @@ for obj in objs:
 
 {{Top}}
 
-### List the dimensions of an object, given its name 
+
+
+### Lista wymiarów obiektu, biorąc pod uwagę jego nazwę 
+
+=
 
 
 ```python
@@ -767,9 +815,11 @@ for edge in FreeCAD.ActiveDocument.MyObjectName.Shape.Edges: # replace "MyObject
 
 {{Top}}
 
-### Function resident with the mouse click action 
 
-Here with **SelObserver** on a object select
+
+### Funkcja rezydentna z akcją kliknięcia myszką 
+
+Tutaj z **SelObserver** na wybranym obiekcie:
 
 
 ```python
@@ -802,7 +852,7 @@ FreeCADGui.Selection.addObserver(s)                       # install the function
 #FreeCADGui.Selection.removeObserver(s)                   # Uninstall the resident function
 ```
 
-Other example with **ViewObserver** on a object select or view
+Inny przykład z **ViewObserver** na wybranym obiekcie lub widoku:
 
 
 ```python
@@ -833,7 +883,33 @@ c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
 {{Top}}
 
-### Find/select all elements below the cursor 
+
+
+## Wyświetlanie aktywnego dokumentu 
+
+
+```python
+class DocObserver:                      # document Observer
+    def slotActivateDocument(self,doc):
+        print(doc.Name)
+
+obs=DocObserver()
+App.addDocumentObserver(obs)
+#App.removeDocumentObserver(obs)                 # desinstalle la fonction residente
+```
+
+Aby usunąć obserwatora należy wywołać:
+
+
+```pythonApp.removeDocumentObserver(obs)                 # desinstalle la fonction residente
+```
+
+
+{{Top}}
+
+
+
+### Znajdź / wybierz wszystkie elementy poniżej kursora 
 
 
 ```python
@@ -880,14 +956,16 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### List the components of an object 
 
-This function list the components of an object and extracts:
 
--   this object its XYZ coordinates,
--   its edges and their lengths center of mass and coordinates
--   its faces and their center of mass
--   its faces and their surfaces and coordinates
+### Lista komponentów obiektu 
+
+Ta funkcja wyświetla listę składników obiektu i wyodrębnia:
+
+-   ten obiekt jego współrzędne XYZ,
+-   jego krawędzie i ich długości, środek masy i współrzędne,
+-   jego powierzchnie i ich środek masy,
+-   jego ściany i ich powierzchnie oraz współrzędne.
 
 
 <div class="mw-collapsible-content">
@@ -1000,7 +1078,9 @@ detail()
 
 {{Top}}
 
-### List the PropertiesList 
+
+
+### Lista właściwości PropertiesList 
 
 
 ```python
@@ -1015,7 +1095,9 @@ for p in op:
 
 {{Top}}
 
-### Add a single Property Comment 
+
+
+### Dodaj pojedynczy komentarz właściwości 
 
 
 ```python
@@ -1031,13 +1113,15 @@ App.activeDocument().recompute()
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Search and data extraction 
 
-Examples of research and decoding information on an object.
 
-Each section is independently and is separated by \"############\" can be copied directly into the Python console, or in a macro or use this macro. The description of the macro in the commentary.
+### Wyszukiwanie i ekstrakcja danych 
 
-Displaying it in the \"Report View\" window (View \> Views \> Report view)
+Przykłady badania i dekodowania informacji o obiekcie.
+
+Każda sekcja jest niezależnie i jest oddzielona przez ciąg znaków \"############\" może być skopiowana bezpośrednio do konsoli Python, makrodefinicji lub używać tą makrodefinicją. Opis makrodefinicji w komentarzu.
+
+Wyświetlanie w oknie \"Widok raportu\" *(Widok → Panele → Widok raportu)*.
 
 
 <div class="mw-collapsible-content">
@@ -1352,7 +1436,9 @@ Draft.makePoint(vecteur)
 
 {{Top}}
 
-### Manual search of an element with label 
+
+
+### Samodzielne wyszukiwanie elementu z etykietą 
 
 
 ```python
@@ -1365,23 +1451,25 @@ App.Console.PrintMessage("Base.Angle   : "+str(FreeCAD.ActiveDocument.getObjects
 
 ```
 
-**Note:** Usually the angles are given in Radian. To convert them:
+**Uwaga:** Zazwyczaj kąty są podawane w radianach. Aby je przekonwertować można użyć formuł:
 
-1.  angle in Degrees to Radians :
-    -   Angle in radian = **pi \* (angle in degree) / 180**
-    -   Angle in radian = math.radians(angle in degree)
-2.  angle in Radians to Degrees :
-    -   Angle in degree = **180 \* (angle in radian) / pi**
-    -   Angle in degree = math.degrees(angle in radian)
+1.  kąt w stopniach na radiany:
+    -   Kąt w radianach = *pi \* (kąt w stopniach) / 180*
+    -   Kąt w radianach = math.radians(kąt w stopniach)
+2.  kąt w radianach na stopnie:
+    -   Kąt w stopniach = *180 \* (kąt w radianach) / pi*
+    -   Kąt w stopniach = math.degrees(kąt w radianach)
 
 
 {{Top}}
 
-### Cartesian coordinates 
 
-This code displays the Cartesian coordinates of the selected item.
 
-Change the value of \"numberOfPoints\" if you want a different number of points (precision)
+### Współrzędne kartezjańskie 
+
+Ten kod wyświetla współrzędne kartezjańskie wybranego elementu.
+
+Zmień wartość \"numberOfPoints\", jeśli chcesz uzyskać inną liczbę punktów *(precyzję)*.
 
 
 ```python
@@ -1394,7 +1482,7 @@ for p in points:                                                             # l
     print( i, " X", p.x, " Y", p.y, " Z", p.z)
 ```
 
-Other method display on \"Int\" and \"Float\"
+Inna metoda wyświetlania na \"Int\" i \"Float\"
 
 
 ```python
@@ -1456,7 +1544,9 @@ Draft.makeWire(p2,closed=False,face=False,support=None)  # to see the difference
 
 {{Top}}
 
-### Select all objects in the document 
+
+
+### Wybierz wszystkie obiekty w dokumencie 
 
 
 ```python
@@ -1471,7 +1561,9 @@ for obj in FreeCAD.ActiveDocument.Objects:
 
 {{Top}}
 
-### Select a face of an object by Name object and Face number 
+
+
+### Wybierz ścianę obiektu według nazwy obiektu i numeru ściany 
 
 
 ```python
@@ -1490,7 +1582,9 @@ s = Gui.Selection.getSelectionEx()
 
 {{Top}}
 
-### Get the normal vector of a face of an object by Name object and number Face (r.Q) 
+
+
+### Uzyskaj wektor normalny powierzchni obiektu przez Nazwa obiektu i numer Ściany (r.Q) 
 
 
 ```python
@@ -1516,7 +1610,9 @@ print("Rotation Q : ", r.Q)
 
 {{Top}}
 
-### Get the normal vector of a face of an object by Name object and number of Face 
+
+
+### Pobierz normalny wektor ściany obiektu według nazwy obiektu i numeru ściany 
 
 
 ```python
@@ -1530,7 +1626,9 @@ print("Face"+str(numero_Face), " : ", normal)
 
 {{Top}}
 
-### Get the normal vector of an object selected and number of Face 
+
+
+### Pobierz wektor normalny wybranego obiektu i numer ściany 
 
 
 ```python
@@ -1547,9 +1645,11 @@ Gui.Selection.addSelection(selectionObjects[0],"Face"+str(numero_Face))
 
 {{Top}}
 
-### Get the normal vector on the surface 
 
-This example show how to find normal vector on the surface by find the u,v parameters of one point on the surface and use u,v parameters to find normal vector
+
+### Pobierz wektor normalny na powierzchni 
+
+Ten przykład pokazuje, jak znaleźć wektor normalny na powierzchni, znajdując parametry u, v jednego punktu na powierzchni i używając parametrów u, v do znalezienia wektora normalnego.
 
 
 ```python
@@ -1573,7 +1673,9 @@ def normal(self):
 
 {{Top}}
 
-### Get the normal vector of the face and create a line at the point mouse clicked 
+
+
+### Pobierz wektor normalny ściany i utwórz linię w punkcie kliknięcia myszką 
 
 
 ```python
@@ -1605,7 +1707,9 @@ print( "Direction (radian) : ",direction )    # direction in radian
 
 {{Top}}
 
-### Get the normal vector of a surface from a STL file 
+
+
+### Pobieranie wektora normalnego powierzchni z pliku STL 
 
 
 ```python
@@ -1621,7 +1725,7 @@ from pivy import coin
 meth=Gui.ActiveDocument.ActiveView.addEventCallbackPivy(coin.SoMouseButtonEvent.getClassTypeId(), getNormal)
 ```
 
-you are done then run for quit:
+Jeśli skończyłeś, uciekaj do wyjścia:
 
 
 ```python
@@ -1631,7 +1735,9 @@ Gui.ActiveDocument.ActiveView.removeEventCallbackPivy(coin.SoMouseButtonEvent.ge
 
 {{Top}}
 
-### Create one object to the position of the Camera 
+
+
+### Utwórz jeden obiekt w pozycji ujęcia widoku 
 
 
 ```python
@@ -1669,7 +1775,7 @@ rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,suppor
 print( rec.Name)
 ```
 
-here same code simplified
+tutaj ten sam kod uproszczony:
 
 
 ```python
@@ -1683,7 +1789,9 @@ rec = Draft.makeRectangle(length=10.0,height=10.0,placement=pl,face=False,suppor
 
 {{Top}}
 
-### Read And write one Expression 
+
+
+### Odczyt i zapis jednego wyrażenia 
 
 
 ```python
@@ -1713,9 +1821,11 @@ for i in expressions:                                                      # lis
 
 {{Top}}
 
-### Create a Sketch on a Surface in PartDesign 
 
-This snippet can be useful, if you want to create a sketch on a surface in PartDesign from inside a macro. Note, that body might be None, if no active body is selected and that the Selection might be empty.
+
+### Tworzenie szkicu na powierzchni w środowisku Projekt Części 
+
+Ten fragment kodu może być przydatny, jeśli chcesz utworzyć szkic na powierzchni w środowisku pracy Projekt Części z poziomu makrodefinicji. Zwróć uwagę, że `body` może mieć wartość `Brak`, jeśli nie wybrano żadnej aktywnej bryły, a obiekt `Selection` może być pusty.
 
 
 ```python
@@ -1736,9 +1846,11 @@ App.ActiveDocument.recompute()
 
 {{Top}}
 
-### How to Simulate a Mouse Click at a given Coordinate 
 
-The position is relative to the GL widget. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
+
+### Jak symulować kliknięcie myszką w danej współrzędnej 
+
+Pozycja jest względna w stosunku do widżetu GL. Zobacz ten [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44008).
 
 
 ```python
@@ -1754,7 +1866,7 @@ app = QtWidgets.QApplication.instance()
 app.sendEvent(gl, me)
 ```
 
-If you have a 3d point and want to get the 2d point on the opengl widget then use this:
+Jeśli masz punkt 3d i chcesz uzyskać punkt 2d na widżecie opengl, użyj tego:
 
 
 ```python
@@ -1778,9 +1890,11 @@ me = QtGui.QMouseEvent(QtCore.QEvent.MouseButtonRelease, QtCore.QPoint(coordX,co
 
 {{Top}}
 
-### How to create a face with holes using Python API 
 
-This snippet demonstrates how to create a face with internal holes through the Python API. See [forum thread](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
+
+### Jak utworzyć ścianę z otworami przy użyciu Python API 
+
+Ten fragment pokazuje, jak utworzyć ścianę z wewnętrznymi otworami za pomocą interfejsu API Python. Zobacz ten [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=56308).
 
 
 ```python
@@ -1822,7 +1936,9 @@ Part.show(myFace)
 
 {{Top}}
 
-### Close and restart FreeCAD 
+
+
+### Zamknij i uruchom ponownie FreeCAD 
 
 
 ```python
@@ -1844,13 +1960,13 @@ def restart_freecad():
 
 ## Coin3D
 
-See [Coin3d snippets](Coin3d_snippets.md) {{Top}}
+Zapoznaj się z artykułem [wycinki Coin3d](Coin3d_snippets/pl.md). 
 
-## Related
+## Powiązane
 
--   [Scripted objects](Scripted_objects.md)
--   [Macros](Macros.md)
--   [Topological_data_scripting](Topological_data_scripting.md)
+-   [Obiekty tworzone skryptami](Scripted_objects/pl.md)
+-   [Makrodefinicje](Macros/pl.md)
+-   [Skrypty danych topologicznych](Topological_data_scripting/pl.md)
 
 
 {{Top}}

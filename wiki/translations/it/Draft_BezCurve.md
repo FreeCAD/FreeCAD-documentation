@@ -43,13 +43,13 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
 -   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
--   Premere **L** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la curva creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si autointersechi. Nota che una curva autointersecante con una faccia non verrà visualizzata correttamente, per tale curva **Make Face** deve essere impostata su `False`.
--   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una curva chiusa eseguendo lo snap al primo punto della curva, consentendo di continuare a creare curve.
+-   Premere **F** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la curva creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si autointersechi. Nota che una curva autointersecante con una faccia non verrà visualizzata correttamente, per tale curva **Make Face** deve essere impostata su `False`.
+-   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una curva chiusa eseguendo lo snap al primo punto della curva, consentendo di continuare a creare curve.
 -   Premere **/** o il pulsante **<img src="images/Draft_UndoLine.svg" width=16px> Annulla** per annullare l\'ultimo punto.
 -   Premere **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=16px> Fine** per terminare il comando e lasciare aperta la curva.
 -   Premere **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi** per terminare il comando e chiudere la curva. È inoltre possibile creare una curva chiusa eseguendo lo snap al primo punto della curva.
@@ -64,15 +64,6 @@ Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle at
 
 -   Una Curva di Bézier può essere modificata con il comando [Modifica](Draft_Edit/it.md).
 -   OpenCascade, e quindi FreeCAD, non supporta le curve di Bézier di gradi maggiori a 25. Questo non dovrebbe essere un problema in pratica, poiché la maggior parte degli utenti usa tipicamente curve di Bézier di gradi da 3 a 5.
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
--   Per modificare il valore iniziale della modalità riempimento: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Riempi gli oggetti con le facce quando possibile**. La modifica della modalità di riempimento in un pannello delle attività sovrascriverà questa preferenza per la sessione corrente di FreeCAD.
 
 
 

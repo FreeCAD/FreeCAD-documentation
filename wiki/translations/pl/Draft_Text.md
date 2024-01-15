@@ -29,7 +29,7 @@ Aby wstawić element tekstowy ze strzałką, użyj przycisku [Rysunek roboczy: E
 Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [Rysunek roboczy: Przyciąganie](Draft_Snap/pl.md).
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Text.svg" width=16px> [Adnotacja wieloliniowa](Draft_Text/pl.md)**,
+    -   Naciśnij przycisk **<img src="images/Draft_Text.svg" width=16px> '''Adnotacja wieloliniowa'''**,
     -   Wybierz opcję z menu **Adnotacje → <img src="images/Draft_Text.svg" width=16px> Tekst**,
     -   Użyj skrótu klawiaturowego: **T** a następnie **E**.
 2.  Otwiera się panel zadań **Tekst**. Zobacz sekcję [Opcje](#Opcje.md), aby uzyskać więcej informacji.
@@ -41,11 +41,11 @@ Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [
 
 ## Opcje
 
-Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi *(w wersji 0.22)*.
 
 -   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
 -   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Naciśnij klawisz **T** lub zaznacz pole wyboru **Kontynuuj** aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu pracy, umożliwiając kontynuowanie tworzenia tekstów. Skrót ten nie działa w drugim panelu zadań. Opcja ta nie jest dostępna w pierwszym panelu zadań w programie FreeCAD w wersji 0.19 i wcześniejszych.
+-   Naciśnij klawisz **N** lub zaznacz pole wyboru **Kontynuuj** aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu pracy, umożliwiając kontynuowanie tworzenia tekstów. Skrót ten nie działa w drugim panelu zadań. Opcja ta nie jest dostępna w pierwszym panelu zadań w programie FreeCAD w wersji 0.19 i wcześniejszych.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać bieżące polecenie.
 
@@ -60,7 +60,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_FeaturePython/pl.md) i dziedziczy wszystkie jego właściwości. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej.
 

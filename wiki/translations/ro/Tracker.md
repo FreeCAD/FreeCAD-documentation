@@ -29,6 +29,8 @@ Tracker este locul pentru aː raporta bug-uri (eroare sau disfuncționalitate ne
 
 După cum se arată în diagrama de mai sus, înainte de a crea tichete, vă rugăm să căutați mereu în forumurile și bugtracker pentru a afla dacă problema dvs. este o problemă cunoscută. Acest lucru economisește o mulțime de timp / muncă pentru dezvoltatori și voluntari care ar putea petrece timpul respectiv, făcând chiar mai minunat acest FreeCAD.
 
+
+
 ## Raportarea erorilor 
 
 Dacă credeți că ați găsit un bug (disfuncționalitate sau eroare), sunteți binevenit să îl raportați atâta timp cât ați urmat pas cu pas următoarele elemente:
@@ -48,6 +50,8 @@ Dacă credeți că ați găsit un bug (disfuncționalitate sau eroare), sunteți
 -   Vă rugăm completați un raport separat pentru fiecare bug.
 -   Dacă eroarea dvs cauzează un crash in FreeCAD și sunteți pe un sistem care permite aceasta,încercați să rulați un **debug backtrace** și să atașați said trace la ticket. Aceasta poate salva devs foarte mult timp pentru a ținti sursa prăbușirii/crash-ului. Vezi [Debugging](Debugging.md) pentru mai multe detalii.
 
+
+
 ## Solicitarea de funcționalități 
 
 Dacă doriți să apară ceva în FreeCAD, care încă nu este implementat, it nu este un bug și o solicitarea de funcționalitate.
@@ -61,6 +65,8 @@ Dacă doriți să apară ceva în FreeCAD, care încă nu este implementat, it n
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Propunerea de îmbunătățiri 
 
 
@@ -71,11 +77,15 @@ In cazul în care ați realizat un program de corectare a unei erori/disfuncțio
 
 </div>
 
+
+
 ## Solicitarea fuzionare 
 
 (Same guidelines as [Submiting patches](https://www.freecadweb.org/wiki/Tracker#Submitting_patches))
 
 Dacă ați creat o modificarea (git branch) conținând schimbări pe care le-ați dori să fie topite/fuzionate în codul FreeCAD, puteți solicita ca ramura dvs. să fie revizuită și integrată în cazul în care dezvoltatorii FreeCAD sunt de acord cu aceasta. Mai întâi trebuie să vă publicați modificarea într-un depozit public git (github, gitlab, bitbucket, sourceforge etc \...) și apoi să dați URL-ul modificării dvs în cererea dvs. de fuziune.
+
+
 
 ## MantisBT sfaturi și Trucuri 
 
@@ -196,17 +206,6 @@ Formatul MantisBT va recunoaște:
 
 For the inquisitive here is the regex MantisBT uses for this operation:
 
-
-
-<div class="mw-translate-fuzzy">
-
-## Înrudite
-
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

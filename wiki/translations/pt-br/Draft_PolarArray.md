@@ -9,6 +9,8 @@
 
 # Draft PolarArray/pt-br
 
+
+
 ## Descrição
 
 The <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> **Draft PolarArray** command creates an array from a selected object by placing copies along a circumference. The command can optionally create a [Link](App_Link.md) array, which is more efficient than a regular array.
@@ -18,13 +20,15 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Draft PolarArray*
 
+
+
 ## Utilização
 
 See also: [Draft Snap](Draft_Snap.md).
 
 1.  Optionally select one object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_PolarArray.svg" width=16px> [Draft PolarArray](Draft_PolarArray.md)** button.
+    -   Press the **<img src="images/Draft_PolarArray.svg" width=16px> [Polar array](Draft_PolarArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_PolarArray.svg" width=16px> Polar array** option from the menu.
 3.  The **Polar array** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an object: select one object.
@@ -33,6 +37,8 @@ See also: [Draft Snap](Draft_Snap.md).
     -   Pick a point in the [3D view](3D_view.md) for the **Center of rotation**.
     -   Press **Enter**.
     -   Press the **OK** button.
+
+
 
 ## Opções
 
@@ -44,17 +50,15 @@ See also: [Draft Snap](Draft_Snap.md).
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
+
+
 ## Notas
 
 -   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
 -   A Draft PolarArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferências
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Propriedades
 

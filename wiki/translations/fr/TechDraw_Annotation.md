@@ -4,13 +4,10 @@
    Name/fr: TechDraw Annotation
    MenuLocation: TechDraw , Annotations , Insérer une annotation
    Workbenches: TechDraw_Workbench/fr
-   SeeAlso: Draft_Text/fr, Draft_ShapeString/fr
+   SeeAlso: TechDraw_RichTextAnnotation/fr
 ---
 
 # TechDraw Annotation/fr
-
-
-</div>
 
 ## Description
 
@@ -23,44 +20,25 @@ L\'outil **TechDraw Annotation** ajoute un bloc de texte à une page de dessin.
 
 ## Utilisation
 
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/TechDraw_Annotation.svg" width=16px> [Insérer une annotation](TechDraw_Annotation/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Annotation.svg" width=16px> Insérer une annotation** du menu.
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+    3.  Un bloc de texte contenant le *Texte par défaut* apparaît sur la page.
+4.  Utilisez l\'[éditeur de propriétés](Property_editor/fr.md) pour modifier le texte.
+5.  Vous pouvez faire glisser l\'annotation vers une autre position.
 
-<div class="mw-translate-fuzzy">
-
-1.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez sélectionner la page souhaitée dans l\'arborescence.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_Annotation.svg" width=24px> [Insérer une annotation](TechDraw_Annotation/fr.md)
-**
-3.  Un bloc de texte contenant *Texte par défaut* apparaîtra sur la page. Utilisez l\'éditeur de propriétés pour modifier le texte. Faites glisser l\'annotation vers la position souhaitée.
-4.  Vous devrez peut-être appuyer sur **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** et/ou **<img src="images/TechDraw_RedrawPage.svg" width=16px> [TechDraw Redessiner](TechDraw_RedrawPage/fr.md)** pour que votre texte change.
-
-
-</div>
-
-![](images/UpdateAnnotation.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/UpdateAnnotation.png ) 
 *Modification de l'annotation via l'éditeur de propriétés*
-
-
-</div>
 
 
 
 ## Remarques
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Remarque:**
-
-certains caractères interfèrent avec la représentation interne d\'annotation du texte. Plus précisément, ce sont la double citation des symboles `"`, plus petit que `<` et plus grand que `>`. Elles doivent être remplacées par des caractères d\'échappement HTML, `&amp;quot;`, `&amp;lt;`, et `&amp;gt;` respectivement. Voir [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) pour plus de détails.
-
-
-</div>
+-   Certains caractères interfèrent avec la représentation interne du texte de l\'annotation. Il s\'agit en particulier des guillemets doubles `"`, des symboles inférieur à `<` et supérieur à `>` ; ils doivent être remplacés par des caractères d\'échappement HTML, `&amp;quot;`, `&amp;lt;` et `&amp;gt;` respectivement. Voir [Character encodings in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) pour plus de détails.
 
 
 

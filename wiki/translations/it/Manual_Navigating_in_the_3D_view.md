@@ -1,5 +1,5 @@
 # Manual:Navigating in the 3D view/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 
 

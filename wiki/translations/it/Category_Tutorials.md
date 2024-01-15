@@ -7,14 +7,14 @@ See also [Tutorials](Tutorials.md) and [video tutorials](video_tutorials.md)
 
 |     |     |     |
 | --- | --- | --- |
-| [Add FEM Constraint Tutorial/it](Add_FEM_Constraint_Tutorial/it.md) | [Add FEM Equation Tutorial/it](Add_FEM_Equation_Tutorial/it.md) | [Advanced TechDraw Tutorial/it](Advanced_TechDraw_Tutorial/it.md) |
-| [Aeroplane/it](Aeroplane/it.md) | [Analysis of reinforced concrete with FEM/it](Analysis_of_reinforced_concrete_with_FEM/it.md) | [Arch panel tutorial/it](Arch_panel_tutorial/it.md) |
-| [Arch tutorial/it](Arch_tutorial/it.md) | [Basic Attachment Tutorial/it](Basic_Attachment_Tutorial/it.md) | [Basic modeling tutorial/it](Basic_modeling_tutorial/it.md) |
-| [Basic Part Design Tutorial/it](Basic_Part_Design_Tutorial/it.md) | [Basic Sketcher Tutorial/it](Basic_Sketcher_Tutorial/it.md) | [Basic TechDraw Tutorial/it](Basic_TechDraw_Tutorial/it.md) |
-| [BIM ingame tutorial/it](BIM_ingame_tutorial/it.md) | [Creating a simple part with Draft and Part WB/it](Creating_a_simple_part_with_Draft_and_Part_WB/it.md) | [Creating a simple part with Part WB/it](Creating_a_simple_part_with_Part_WB/it.md) |
-| [Creating a simple part with PartDesign/it](Creating_a_simple_part_with_PartDesign/it.md) | [Customize Toolbars/it](Customize_Toolbars/it.md) | [Draft ShapeString tutorial/it](Draft_ShapeString_tutorial/it.md) |
-| [Draft tutorial/it](Draft_tutorial/it.md) | [Drawing Template HowTo/it](Drawing_Template_HowTo/it.md) | [Drawing tutorial/it](Drawing_tutorial/it.md) |
-| [Dxf Importer Install/it](Dxf_Importer_Install/it.md) | [Engine Block Tutorial/it](Engine_Block_Tutorial/it.md) | [Export to STL or OBJ/it](Export_to_STL_or_OBJ/it.md) |
+| [Add Button to FEM Toolbar Tutorial/it](Add_Button_to_FEM_Toolbar_Tutorial/it.md) | [Add FEM Constraint Tutorial/it](Add_FEM_Constraint_Tutorial/it.md) | [Add FEM Equation Tutorial/it](Add_FEM_Equation_Tutorial/it.md) |
+| [Advanced TechDraw Tutorial/it](Advanced_TechDraw_Tutorial/it.md) | [Aeroplane/it](Aeroplane/it.md) | [Analysis of reinforced concrete with FEM/it](Analysis_of_reinforced_concrete_with_FEM/it.md) |
+| [Arch panel tutorial/it](Arch_panel_tutorial/it.md) | [Arch tutorial/it](Arch_tutorial/it.md) | [Basic Attachment Tutorial/it](Basic_Attachment_Tutorial/it.md) |
+| [Basic modeling tutorial/it](Basic_modeling_tutorial/it.md) | [Basic Part Design Tutorial/it](Basic_Part_Design_Tutorial/it.md) | [Basic Sketcher Tutorial/it](Basic_Sketcher_Tutorial/it.md) |
+| [Basic TechDraw Tutorial/it](Basic_TechDraw_Tutorial/it.md) | [BIM ingame tutorial/it](BIM_ingame_tutorial/it.md) | [Creating a simple part with Draft and Part WB/it](Creating_a_simple_part_with_Draft_and_Part_WB/it.md) |
+| [Creating a simple part with Part WB/it](Creating_a_simple_part_with_Part_WB/it.md) | [Creating a simple part with PartDesign/it](Creating_a_simple_part_with_PartDesign/it.md) | [Customize Toolbars/it](Customize_Toolbars/it.md) |
+| [Draft ShapeString tutorial/it](Draft_ShapeString_tutorial/it.md) | [Draft tutorial/it](Draft_tutorial/it.md) | [Drawing Template HowTo/it](Drawing_Template_HowTo/it.md) |
+| [Drawing tutorial/it](Drawing_tutorial/it.md) | [Engine Block Tutorial/it](Engine_Block_Tutorial/it.md) | [Export to STL or OBJ/it](Export_to_STL_or_OBJ/it.md) |
 | [Extend FEM Module/it](Extend_FEM_Module/it.md) | [FEM CalculiX Cantilever 3D/it](FEM_CalculiX_Cantilever_3D/it.md) | [FEM Example Capacitance Two Balls/it](FEM_Example_Capacitance_Two_Balls/it.md) |
 | [FEM Shear of a Composite Block/it](FEM_Shear_of_a_Composite_Block/it.md) | [FEM Tutorial Python/it](FEM_Tutorial_Python/it.md) | [FEM tutorial/it](FEM_tutorial/it.md) |
 | [FreeCAD-Ship s60 tutorial (II)/it](FreeCAD-Ship_s60_tutorial_(II)/it.md) | [FreeCAD-Ship s60 tutorial/it](FreeCAD-Ship_s60_tutorial/it.md) | [How to install additional workbenches/it](How_to_install_additional_workbenches/it.md) |

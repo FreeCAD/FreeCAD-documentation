@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintElectrostaticPotential
    Name/de: FEM RandbedingungElektrostatischesPotential
-   MenuLocation:  Model , Electromagnetic Constraints , Constraint Electrostatic Potential
+   MenuLocation:  Modell , Elektromagnetische Randbedingungen , Randbedingung elektrostatisches Potential
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_Example_Capacitance_Two_Balls/de, FEM_tutorial/de
 ---
@@ -13,22 +13,21 @@
 
 ## Beschreibung
 
-Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [ElektrostatischenGleichung](FEM_EquationElectrostatic/de.md) oder der [ElectricforceGleichung](FEM_EquationElectricforce/de.md).
+Erstellt eine FEM-Randbedingung für das elektrostatische Potential, zur Verwendung mit der [Elektrostatik-Gleichung](FEM_EquationElectrostatic/de.md) oder der [Gleichung für die elektrische Kraft](FEM_EquationElectricforce/de.md).
 
 
 
 ## Anwendung
 
-#\* Either press the **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [FEM ConstraintElectrostaticPotential](FEM_ConstraintElectrostaticPotential.md)** button or use the menu **Model → Electromagnetic Constraints → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Constraint electrostatic potential**.
-
-1.  In the [3D view](3D_view.md) select the object the constraint should be applied to.
-2.  Press the **Add** button.
+1.  Die Schaltfläche **<img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> [Randbedingung elektrostatisches Potential](FEM_ConstraintElectrostaticPotential/de.md)** drücken oder den Menüeintrag **Modell → Elektromagnetische Randbedingungen → <img src="images/FEM_ConstraintElectrostaticPotential.svg" width=16px> Randbedingung elektrostatisches Potential** auswählen.
+2.  In der [3D-Ansicht](3D_view/de.md) das Objekt auswählen, dem die Randbedingung zugeordnet werden soll.
+3.  Die Schaltfläche **Hinzufügen** Drücken.
 
 
 
 ## Optionen
 
-The dialog offers the following settings:
+Der Dialog Eigenschaften der Analyseelemente ermöglicht die folgenden Einstellungen:
 
 ![](images/FEM_ElectrostaticPotential_dialog.png )
 
@@ -41,7 +40,7 @@ The dialog offers the following settings:
 -   **x, y, z checkboxes**: To declare the corresponding potential as unknown for the solver.
 -   **Potential Constant**: Option to set a constant potential.
 -   **Farfield / Electric infinity**: Option to make spherical approximation that the volume above the face extends to infinity.
--   **Calculate Electric Force**: Option to trigger the calculation of the electric for using the [Electricforce](FEM_EquationElectricforce.md) equation.
+-   **Calculate Electric Force**: Option to trigger the calculation of the electric force using the [Electricforce](FEM_EquationElectricforce.md) equation.
 -   **Capacity Body:**: Counter of the body (or face) with a capacitance.
 
 

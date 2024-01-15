@@ -6,51 +6,51 @@ This page lists the templates according to American National Standards Institute
 
 ### ANSI A 
 
-#### ANSI_A\_Landscape
+#### ANSI_A_Landscape
 
 <img alt="" src=images/ANSI_A_Landscape.svg  style="width:800px;">
 
-#### ANSI_A\_Portrait
+#### ANSI_A_Portrait
 
 <img alt="" src=images/ANSI_A_Portrait.svg  style="width:800px;">
 
 ### ANSI B 
 
-#### ANSI_B\_Landscape
+#### ANSI_B_Landscape
 
 <img alt="" src=images/ANSI_B_Landscape.svg  style="width:800px;">
 
-#### ANSI_B\_Portrait
+#### ANSI_B_Portrait
 
 <img alt="" src=images/ANSI_B_Portrait.svg  style="width:800px;">
 
 ### ANSI C 
 
-#### ANSI_C\_Landscape
+#### ANSI_C_Landscape
 
 <img alt="" src=images/ANSI_C_Landscape.svg  style="width:800px;">
 
-#### ANSI_C\_Portrait
+#### ANSI_C_Portrait
 
 <img alt="" src=images/ANSI_C_Portrait.svg  style="width:800px;">
 
 ### ANSI D 
 
-#### ANSI_D\_Landscape
+#### ANSI_D_Landscape
 
 <img alt="" src=images/ANSI_D_Landscape.svg  style="width:800px;">
 
-#### ANSI_D\_Portrait
+#### ANSI_D_Portrait
 
 <img alt="" src=images/ANSI_D_Portrait.svg  style="width:800px;">
 
 ### ANSI E 
 
-#### ANSI_E\_Landscape
+#### ANSI_E_Landscape
 
 <img alt="" src=images/ANSI_E_Landscape.svg  style="width:800px;">
 
-#### ANSI_E\_Portrait
+#### ANSI_E_Portrait
 
 <img alt="" src=images/ANSI_E_Portrait.svg  style="width:800px;">
 

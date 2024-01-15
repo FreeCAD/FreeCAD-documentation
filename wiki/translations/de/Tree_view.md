@@ -19,29 +19,32 @@ Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der L
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Aus- und Einklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die sich (eingerückt) unter anderen befinden, sind älter, während Objekte, die sich nicht eingerückt darunter (außerhalb) befinden, neuer sind und von den älteren Objekten abgeleitet werden. Modifikationen an den älteren Objekten setzen sich über die parametrischen Operationen bis zu den neuesten fort und erzeugen ein neues Ergebnis.
 
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
-
-<img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+<img alt="" src=images/FreeCAD_Tree_view_parametric_history.png  style="width:" height="300px;">
 
 
 
-*Das oberste Objekt wird durch parametrische Operationen an Objekten erzeugt, die ihrerseits durch frühere Operationen erzeugt wurden. Wenn man den Baum um viele Ebenen erweitert, erhält man die ursprünglichen Elemente, die zur Erzeugung der Teilkörper verwendet wurden.*
+*Das oberste Objekt wird durch parametrische Operationen an Objekten erzeugt, die ihrerseits durch frühere Operationen erzeugt wurden.<br>
+Wird der Baum vollständig erweitert, erhält man die ursprünglichen Elemente, die zur Erzeugung der Teilkörper verwendet wurden.*
 
 
 
-### Bezeichnungen & Eigenschaften 
+### Spalten der Baumansicht 
 
-In der Spalte Bezeichnungen & Eigenschaften werden die Symbole und die Bezeichnungen (Labels) der Objekte angezeigt.
+Standardmäßig zeigt die Baumansicht nur eine einzige Spalte mit den Benennungen (Labels) der Objekte an. Wahlweise kann eine zweite Spalte mit Beschreibungen angezeigt werden; dann werden auch die Spaltenüberschriften hinzugefügt.
 
-Ein Objekt in dieser Spalte auswählen und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) drücken erlaubt die {{PropertyData/de|Label}} vor Ort ohne Umweg über die Aktionen des Kontextmenüs oder den [Eigenschafteneditor](Property_editor.md) zu bearbeiten.
+Zum Aktivieren der Beschreibungen wird das Kontextmenü durch einen Rectsklick auf die Baumansicht geöffnet und darin die Menüoption **Baumeinstellungen → Spalte Beschreibung anzeigen** ausgewählt. {{Version/de|0.21}}
 
 
 
-### Beschreibung
+### Objektbenennung bearbeiten 
 
-Die Spalte Beschreibung zeigt weitere Informationen über Objekte an, wenn vorhanden.
+Ein Objekt in der ersten Spalte auswählen und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) drücken, um seine Eigenschaft {{PropertyData/de|Label}} zu bearbeiten. Diese Eigenschaft kann auch über die Aktionen des Kontextmenüs (siehe unten) oder im [Eigenschafteneditor](Property_editor.md) bearbeitet werden.
 
-Diese Informationen sind in der {{PropertyData/de|Label2}} des Objekts gespeichert und können vor Ort bearbeitet werden, indem das Objekt in dieser Spalte ausgewählt und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) gedrückt wird oder mit Hilfe des [Eigenschafteneditors](Property_editor.md).
+
+
+### Objektbeschreibung bearbeiten 
+
+Ein Objekt kann wahlweise eine Beschreibung besitzen. Diese Informationen sind in seiner Eigenschaft {{PropertyData/de|Label2}} gespeichert. Wird die Spalte Beschreibung angezeigt, kann diese Eigenschaft bearbeitet werde, indem das Objekt in dieser Spalte ausgewählt und **F2** (unter Windows und Linux) oder **Enter** (unter macOS) gedrückt wird. Diese Eigenschaft kann auch im [Eigenschafteneditor](Property_editor.md) geändert werden.
 
 
 

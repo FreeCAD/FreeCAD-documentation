@@ -46,52 +46,34 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 
 #### Zusätzliche Voreinstellungen 
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Hinweis:**
-
-Falls du die \"Parts Library\" über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installierst, wird das Fenster-Werkzeug diese Bibliothek nach weiteren Voreinstellungen durchsuchen. Diese Voreinstellungen sind FreeCAD-Dateien, die jeweils ein einzelnes Fenster basierend auf einer parametrisierten Skizze mit benannten Beschränkungen enthalten. Du kannst zusätzliche Voreinstellungen im `parts_library`-Verzeichnis platzieren, so dass sie vom Fenster-Werkzeug gefunden werden.
-
-
-</div>
+Falls die [Parts Library](Parts_Library_Workbench/de.md) mit dem [Addon-Manager](Std_AddonMgr/de.md) installiert wurde, wird das Werkzeug Fenster diese Bibliothek nach weiteren Voreinstellungen durchsuchen. Diese Voreinstellungen sind FreeCAD-Dateien, die jeweils ein einzelnes Fenster basierend auf einer parametrisierten Skizze mit benannten Randbedingungen enthalten. Es können zusätzliche Voreinstellungen im **parts_library**-Verzeichnis abgelegt werden, so dass sie vom Werkzeug Fenster gefunden werden.
 
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Doors/Custom/**
 
 **$ROOT_DIR/Mod/parts_library/Architectural Parts/Windows/Custom/**
 
+-    **$ROOT_DIR**ist das Benutzerverzeichnis in dem FreeCADs Konfigurationsdateien, Makros und externe Arbeitsbereiche gespeichert werden. Es wird gefunden, wenn man `FreeCAD.getUserAppDataDir()` in der [Python-Konsole](Python_console/de.md) eingibt.
 
-<div class="mw-translate-fuzzy">
+    -   Unter Linux ist es normalerweise **/home/username/.local/share/FreeCAD/** ({{VersionPlus/de|0.20}}) oder **/home/username/.FreeCAD/** ({{VersionMinus/de|0.19}})
+    -   Unter Windows ist es normalerweise **C:\Users\username\Application Data\FreeCAD\**
+    -   Unter Mac OSX ist es normalerweise **/Users/username/Library/Preferences/FreeCAD/**
 
-Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makros und externe Arbeitsbereiche gespeichert werden.
-
--   Unter Linux ist es normalerweise `/home/username/.FreeCAD/`
--   Unter Windows ist es normalerweise `C:\users\Benutzername\Anwendungsdaten\FreeCAD\`
--   Unter Mac OSX ist es normalerweise `/Benutzer/Benutzername/Bibliothek/Einstellungen/FreeCAD/`
-
-
-</div>
+-   Der Name des Unterverzeichnisses **Custom** ist nur ein Vorschlag; jeder beliebige Name kann verwendet werden, aber die Dateien müssen in einem oder mehreren Unterverzeichnissen innerhalb der Verzeichnisse **Doors** oder **Windows** abgelegt werden.
 
 
 
 ### Erzeugung von Anfang an 
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wählen Sie (optional) eine Fläche des Arch-Objekts, wo Sie das Fenster einfügen möchten.
-2.  Wechseln Sie zum [Sketcher-Arbeitsbereich](Sketcher_Workbench/de.md).
-3.  Erzeugen Sie eine neue Skizze.
-4.  Zeichnen Sie ein oder mehrere geschlossene Linienzüge (Schleifen).
-5.  Schließen Sie die Skizze.
-6.  Wechseln Sie zurück zum [Arch-Arbeitsbereich](Arch_Workbench/de.md).
-7.  Drücken Sie den **<img src="images/Arch_Window.png" width=16px> [Fenster](Arch_Window/de.md)**-Button oder drücken Sie **W**, dann **I**.
-8.  Um die Fensterkomponenten und verschiedene Eigenschaften anzupassen, aktivieren Sie das [Aufgaben-Paneel](Task_panel/de.md) durch Doppelklick auf das erstellte Objekt in der [Baumansicht](Tree_view/de.md).
-
-
-</div>
+1.  (Wahlweise) eine Fläche des Arch-Objekts auswählen, wo das Fenster eingefügt werden soll.
+2.  Zum Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) wechseln.
+3.  Eine neue Skizze erstellen.
+4.  Einen oder mehrere geschlossene Linienzüge (Schleifen) zeichnen. Man sollte genau auf die Auswahlreihenfolge dieser Schleifen achten, die Nummerierung von Linienzügen im [Aufgaben-Bereich](task_panel/de.md) (\"Window elements\") hängt davon ab.
+5.  Die Skizze schließen.
+6.  Zurück zum Arbeitsbereich [Arch](Arch_Workbench/de.md) wechseln.
+7.  Die Schaltfläche **<img src="images/Arch_Window.png" width=16px> [Fenster](Arch_Window/de.md)** drücken oder das Tastaturkürzel **W** dann **I**.
+8.  Um die Fensterkomponenten und verschiedene Eigenschaften anzupassen, wird der [Aufgaben-Bereich](Task_panel/de.md) Fenster durch Doppelklick auf das erstellte Objekt in der [Baumansicht](Tree_view/de.md) geöffnet.
+9.  Es ist zu beachten, dass alle unbeweglichen Komponenten zuerst erstellt werden müssen, da Komponenten die einer drehbaren Komponente folgen auch drehbar sind.
 
 
 
@@ -99,25 +81,13 @@ Das `$ROOT_DIR` ist das Benutzerverzeichnis, wo die FreeCAD-Konfiguration, Makro
 
 Die folgenden Voreinstellungen sind verfügbar:
 
-
-<div class="mw-translate-fuzzy">
-
-Image:ParametersDoorGlass.svg\|Glastür Image:ParametersDoorSimple.svg\|Einfache Tür Image:ParametersWindowDouble.svg\|Doppelfenster Image:ParametersWindowFixed.svg\|Festes Fenster Image:ParametersWindowSimple.svg\|Einzelfenster Image:ParametersWindowStash.svg\|Schiebefenster
-
-
-</div>
+Image:ParametersWindowFixed.svg\|Feststehendes Fenster Image:ParametersWindowSimple.svg\|Einzelfenster Image:ParametersWindowDouble.svg\|Doppelfenster Image:ParametersWindowStash.svg\|Schiebefenster Image:ParametersWindowDouble.svg\|Schiebefenster, seitwärts Image:ParametersDoorSimple.svg\|Einfache Tür Image:ParametersDoorGlass.svg\|Glastür Image:ParametersWindowDouble.svg\|Doppelfenster Image:ParametersWindowSimple.svg\|Einzelfenster
 
 
 
 ## Teilkomponenten
 
-
-<div class="mw-translate-fuzzy">
-
-Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lüftungsschlitze. Füllungen und Lüftungsschlitze werden aus einer geschlossenen Linie extrudiert, während Rahmen aus zwei oder mehr geschlossenen Kantenzügen bestehen, welche jeder extrudiert und anschließend die kleineren vom größten subtrahiert werden. Im Editiermodus (Doppelklick auf die Baumansicht) können Fensterkomponenten erzeugt, geändert und gelöscht werden. Die Komponenten besitzen folgende Eigenschaften:
-
-
-</div>
+Fenster können vier Arten von Komponenten enthalten: Rahmen, opake Füllungen Glasfüllungen und Lüftungsschlitze. Füllungen und Lüftungsschlitze werden aus einem geschlossenen Linienzug extrudiert, während Rahmen aus zwei oder mehr geschlossenen Linienzügen bestehen, die jeweils für sich extrudiert werden und anschließend die kleineren vom größten subtrahiert werden. Im Bearbeitungsmodus (Doppelklick in der Baumansicht) können Fensterkomponenten erzeugt, geändert und gelöscht werden. Die Komponenten besitzen folgende Eigenschaften:
 
 -   **Name**: der Komponentenname
 -   **Type**: der Komponententyp. Dies kann \"Frame\" (Rahmen), \"Glass panel\" (Glasfüllung), \"Solid panel\" (massive Füllung) oder \"Louvres\" (Lüftungsschlitz) sein.
@@ -150,13 +120,7 @@ Fenster können drei Arten von Komponenten enthalten: Rahmen, Füllungen und Lü
 
 [Tutorium für offene Fenster](Tutorial_for_open_windows/de.md)
 
-
-<div class="mw-translate-fuzzy">
-
-Türen und Fenster können im 3D-Modell teilweise oder vollständig geöffnet erscheinen oder mit \"zu öffnend\"-Symbolen sowohl in Drauf- und/oder Seitenansichten dargestellt werden. Deshalb werden diese auch in \"extrahierten\" 2D-Ansichten angezeigt, die durch [Form in 2D-Ansicht](Draft_Shape2DView/de.md) oder [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) oder [Zeichnung-Arbeitsbereich](Drawing_Workbench/de.md) generiert werden. Um dies zu erreichen, muss für wenigstens eine der Fensterkomponenten ein Scharnier und ein Öffnungsmodus definiert sein (siehe [Teilkomponenten](#Building_components/de.md) oben). Dann kann mit Hilfe der **Opening**-, **Symbol Plan**- oder **Symbol Elevation**-Eigenschaften das Aussehen des Fensters konfiguriert werden.
-
-
-</div>
+Türen und Fenster können im 3D-Modell teilweise oder vollständig geöffnet erscheinen oder mit \"zu öffnen\"-Symbolen sowohl in Drauf- und/oder Seitenansichten dargestellt werden. Deshalb werden diese auch in \"extrahierten\" 2D-Ansichten angezeigt, die mit [Form2DAnsicht](Draft_Shape2DView/de.md) oder im Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) generiert werden. Um dies zu erreichen, muss für wenigstens eine der Fensterkomponenten ein Scharnier und ein Öffnungsmodus definiert sein (siehe [Teilkomponenten](#Building_components/de.md) oben). Dann kann mit Hilfe der {{PropertyData/de|Opening}}, der {{PropertyData/de|Symbol Plan}} oder der {{PropertyData/de|Symbol Elevation}} das Aussehen des Fensters konfiguriert werden.
 
 <img alt="" src=images/Arch_window_openings.png  style="width:600px;"> 
 *Eine Tür, die den Symbolplan, die Symbolhöhe und die Öffnungseigenschaften bei der Arbeit zeigt*
@@ -244,15 +208,9 @@ Das Fensterwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/d
 Window = makeWindow(baseobj=None, width=None, height=None, parts=None, name="Window")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 -   Erzeugt ein `Window`-Objekt basierend auf einem `baseobj`, das ein(e) wohlgeformte(r), geschlossene(r) [Linienzug](Draft_Wire/de.md) oder [Skizze](Sketcher_Workbench/de.md) sein sollte.
 -   Falls verfügbar, sollten `width`, `height` und `name` des Fensters gesetzt werden.
--   Falls `baseobj` keine geschlossene Form ist, kann das Werkzeug keinen korrekten Volumenkörper erzeugen.
-
-
-</div>
+-   Falls `baseobj` keine geschlossene Form ist, kann das Werkzeug keinen korrekten Festkörper erzeugen.
 
 Beispiel: 
 ```python

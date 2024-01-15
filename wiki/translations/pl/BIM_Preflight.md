@@ -1,73 +1,90 @@
 ---
- GuiCommand:Addon
+ GuiCommand:Addon/pl
    Name: BIM Preflight
-   Workbenches: Image:IFC.svg BIM Workbench
+   Name/pl: BIM: Kontrola wstępna
+   Workbenches: Image:IFC.svg BIM_Workbench/pl
    Addon: BIM
    MenuLocation: Manage , Preflight check
 ---
 
 # BIM Preflight/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_preflight_screenshot.png  style="width:1024px;">
 
-As FreeCAD is a very loose and free-style modelling platform, the requirements are very low. You can basically model and organize your BIM model the way you like, using all the tools that FreeCAD offers, both from the BIM workbench and other workbenches. The IFC format, however, has some strict requirements, and other BIM applications that can read IFC files often bring additional limitations as they more than often have difficulties with certain entities or the way certain objects are modeled.
+Ponieważ FreeCAD jest bardzo swobodną platformą do modelowania, wymagania są bardzo niskie. Zasadniczo można modelować i organizować model BIM w dowolny sposób, korzystając ze wszystkich narzędzi oferowanych przez FreeCAD, zarówno ze środowiska pracy BIM, jak i innych środowisk pracy. Format IFC ma jednak pewne surowe wymagania, a inne aplikacje BIM, które mogą odczytywać pliki IFC, często wprowadzają dodatkowe ograniczenia, ponieważ często mają trudności z niektórymi jednostkami lub sposobem modelowania niektórych obiektów.
 
-The BIM Preflight tool allows you to perform several tests on your model to verify its compatibility with IFC standards and best practices, and help you to detect possible issues you might want to fix.
+Narzędzie Kontrola wstępna umożliwia przeprowadzenie kilku testów modelu w celu zweryfikowania jego zgodności ze standardami IFC i najlepszymi praktykami, a także pomaga wykryć ewentualne problemy, które warto naprawić.
 
-The results of most of the tests provided by this tool are optional, which means you can choose to export your model even if they fail. You are the one to assess if you need the test to pass or not. We tried our best to give sound information to help you decide.
+Wyniki większości testów dostarczanych przez to narzędzie są opcjonalne, co oznacza, że możesz wyeksportować swój model, nawet jeśli zakończą się one niepowodzeniem. To Ty musisz ocenić, czy potrzebujesz testu, aby go zdać, czy nie. Dołożyliśmy wszelkich starań, aby dostarczyć rzetelnych informacji, które pomogą Ci podjąć decyzję.
 
-## Usage
 
--   Have a model opened in FreeCAD, with at least some objects
--   You can select objects before launching the tests, in which case you have the option to perform the test only on the selected objects
--   Press the **Test All** button to perform all the tests, or only buttons corresponding to individual tests.
--   When the tests have finished, pressing a **Failed** button will give you additional information to help you decide if this is relevant to you or not.
 
-## Builtin tests 
+## Użycie
 
--   **Run all tests**: Runs all the tests one after the other
+-   Mieć otwarty model w programie FreeCAD, z co najmniej kilkoma obiektami.
+-   Możesz wybrać obiekty przed uruchomieniem testów, w którym to przypadku masz możliwość wykonania testu tylko na wybranych obiektach.
+-   Naciśnij przycisk **Testuj wszystko**, aby wykonać wszystkie testy, lub tylko przyciski odpowiadające poszczególnym testom.
+-   Po zakończeniu testów naciśnięcie przycisku **Niepowodzenie** spowoduje wyświetlenie dodatkowych informacji, które pomogą ci zdecydować, czy jest to dla ciebie istotne, czy nie.
 
-### FreeCAD setup tests 
 
--   **IFC4 support**: Tests if the IFC import/export system of FreeCAD is working correctly, and if the IFC4 format is available (which requires an up-to-date version of [IfcOpenShell](Arch_IFC.md) and enabled in the preferences.
 
-### Project organization tests 
+## Testy wbudowane 
 
--   **Project hierarchy**: The IFC format requires at least one [building](Arch_Building.md) and it is also a common practice to have one [site](Arch_Site.md) and at least one [level (storey)](Arch_BuildingPart.md). This test checks if these are present in the model
--   **Buildings**: Checks that all buildings found in the model are part of a [site](Arch_Site.md)
--   **Levels**: Checks that all [levels](Arch_BuildingPart.md) (building storeys) found in the model are prt of a building
--   **Objects structure**: Checks that all objects found in the model are part of a level
+-   **Uruchom wszystkie testy**: uruchamia wszystkie testy jeden po drugim.
 
-### Objects & property tests 
 
--   **Undefined objects**: Checks if there are objects in the model that are not BIM objects, and will therefore be exported without full BIM properties
--   **Solids**: Checks that all objects in the model have valid solid geometry
--   **Explicit quantities**: Checks that all objects with length, width or height properties are [marked for explicit export](BIM_IfcQuantities.md) of these quantities
--   **Common Properties sets**: Checks that all BIM objects of common types (wall, door, etc\...) have the corresponding \"common\" properry set applied (Pset_WallCommon, Pset_DoorCommon, etc)
--   **Property sets integrity**: Checks that all common Psets (Pset_WallCommon, Pset_DoorCommon, etc) found in the model include all and only the properties defined by the IFC standards
--   **Materials**: Checks that all BIM objects have a material
--   **Standards**: Checks that all BIM objects have a [standard code](BIM_Classification.md)
 
-### Compatibility tests 
+### Testy konfiguracji programu FreeCAD 
 
--   **Extrusions**: Checks that all BIM objects are linear extrusions
--   **Standard cases**: Checks that all [walls](Arch_Wall.md) and [structural elements](Arch_Structure.md) are standard cases, as defined by the IFC schema
--   **Tiny lines**: Checks that no line segment in the model is smaller than 1/32\", the minimum length that Revit is able to manage\...
--   **IfcRectangleProfileDef**: Checks that the option to export rectangular profiles as IfcRectangleProfileDef is disabled, because Revit (yes, them again) is unable to import that entity.
+-   **Obsługa IFC4**: Sprawdza, czy system importu / eksportu IFC FreeCAD działa poprawnie i czy format IFC4 jest dostępny *(co wymaga aktualnej i włączonej w preferencjach wersji [IfcOpenShell](Arch_IFC/pl.md))*.
 
-## Custom tests 
 
-The Preflight tool also allows you to write custom tests, that will be appended after the built-in tools in the Preflight dialog, and run when using the **Run all tests** button. These tests are written in Python. They consists of simple functions inside one or more Python files. You can perform any operation you want inside those functions, they must just pass or fail, and in case they fail, show a message informing the user of what failed.
 
-You can write several tests in one single Python file, or divide in several files, as you prefer. These files must be placed in \$USERAPPDATA/BIM/Preflight and can be given any name (Be sure to use very unique names as to not conflict with any built-in Python module. The \$USERAPPDATA folder depends on your platform/operating system (usually \$HOME/.FreeCAD on linux/mac, /users/YOUR USER/Application Data/roaming/FreeCAD on windows), and can also be found by entering this in the FreeCAD Python console:
+### Testy dotyczące organizacji projektu 
+
+-   **Hierarchia projektu**: Format IFC wymaga co najmniej jednego obiektu [budynku](Arch_Building/pl.md), a powszechną praktyką jest również posiadanie jednego [terenu](Arch_Site/pl.md) i co najmniej jednego [poziomu (kondygnacji)](Arch_BuildingPart/pl.md). Ten test sprawdza, czy są one obecne w modelu
+-   **Budynki**: Sprawdza, czy wszystkie budynki znalezione w modelu są częścią [terenu](Arch_Site/pl.md).
+-   **Poziomy**: Sprawdza, czy wszystkie [poziomy](Arch_BuildingPart/pl.md) *(kondygnacje budynku)* znalezione w modelu są częścią budynku.
+-   **Struktura obiektów**: Sprawdza, czy wszystkie obiekty znalezione w modelu są częścią poziomu.
+
+
+
+### Test obiektów i właściwościs 
+
+-   **Niezdefiniowane obiekty**: Sprawdza, czy w modelu znajdują się obiekty, które nie są obiektami BIM i dlatego zostaną wyeksportowane bez pełnych właściwości BIM.
+-   **Bryły**: Sprawdza, czy wszystkie obiekty w modelu mają prawidłową geometrię bryłową.
+-   **Ilości jawne**: Sprawdza, czy wszystkie obiekty z właściwościami długości, szerokości lub wysokości są [oznaczone do wyraźnego eksportu](BIM_IfcQuantities.md) tych wielkości.
+-   **Zestawy wspólnych właściwości**: Sprawdza, czy wszystkie obiekty BIM wspólnych typów *(ściana, drzwi itp.)* mają zastosowany odpowiedni \"wspólny\" zestaw właściwości *(Pset_WallCommon, Pset_DoorCommon itp.)*.
+-   **Integralność zestawów właściwości**: Sprawdza, czy wszystkie wspólne zestawy właściwości *(Pset_WallCommon, Pset_DoorCommon itp.)* znalezione w modelu zawierają wszystkie i tylko właściwości zdefiniowane przez standardy IFC.
+-   **Materiały**: Sprawdza, czy wszystkie obiekty BIM mają materiał.
+-   **Standardy**: Sprawdza, czy wszystkie obiekty BIM mają [kod standardu](BIM_Classification/pl.md).
+
+
+
+### Testy kompatybilności 
+
+-   **Wyciągnięcia**: Sprawdza, czy wszystkie obiekty BIM są wyciągnięciami liniowymi.
+-   **Przypadki standardowe**: Sprawdza, czy wszystkie elementy [ściany](Arch_Wall/pl.md) i [elementy konstrukcyjne](Arch_Structure/pl.md) są przypadkami standardowymi, zgodnie ze schematem IFC.
+-   **Drobne linie**: Sprawdza, czy żaden segment linii w modelu nie jest mniejszy niż 1/32\", minimalna długość, z którą Revit jest w stanie sobie poradzić\...
+-   **IfcRectangleProfileDef**: Sprawdza, czy opcja eksportu profili prostokątnych jako IfcRectangleProfileDef jest wyłączona, ponieważ Revit *(tak, znowu oni)* nie jest w stanie zaimportować tego elementu.
+
+
+
+## Testy niestandardowe 
+
+Narzędzie **Kontrola wstępna** umożliwia również pisanie niestandardowych testów, które będą dołączane po wbudowanych narzędziach w oknie dialogowym Kontrola wstępna i uruchamiane po użyciu przycisku *Uruchom wszystkie testy*. Testy te są napisane w języku Python. Składają się one z prostych funkcji wewnątrz jednego lub więcej plików Python. Możesz wykonać dowolną operację wewnątrz tych funkcji, muszą one po prostu przejść lub zakończyć się niepowodzeniem, a w przypadku niepowodzenia wyświetlić komunikat informujący użytkownika o niepowodzeniu.
+
+Możesz napisać kilka testów w jednym pliku Python lub podzielić je na kilka plików, jak wolisz. Pliki te muszą być umieszczone w \$USERAPPDATA/BIM/Preflight i mogą mieć dowolną nazwę *(Upewnij się, że używasz bardzo unikalnych nazw, aby nie kolidować z żadnym wbudowanym modułem Pythona)*. Folder \$USERAPPDATA zależy od platformy/systemu operacyjnego *(zazwyczaj \$HOME/.FreeCAD na linux/mac, /users/YOUR USER/Application Data/roaming/FreeCAD na windows)* i można go również znaleźć wpisując go w konsoli FreeCAD Python:
 
 FreeCAD.getUserAppDataDir()
 
-Inside each Python file, tests are simple functions that take no argument, and return either True if the test passed, or a string of text that will be shown to the user if the test failed.
+Wewnątrz każdego pliku Python testy są prostymi funkcjami, które nie przyjmują żadnych argumentów i zwracają albo wartość {{True/pl}}, jeśli test się powiódł, albo ciąg tekstu, który zostanie wyświetlony użytkownikowi, jeśli test się nie powiódł.
 
-A typical test file would be like this, that should be named something like \"myCustomTest.py\" and placed inside \$USERAPPDATA/BIM/Preflight:
+Typowy plik testowy powinien mieć nazwę \"myCustomTest.py\" i być umieszczony w \$USERAPPDATA/BIM/Preflight:
 
 import FreeCAD
 # The name of your test. You can give the functions any name

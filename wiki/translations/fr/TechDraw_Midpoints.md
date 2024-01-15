@@ -10,9 +10,6 @@
 
 # TechDraw Midpoints/fr
 
-
-</div>
-
 ## Description
 
 L\'outil **TechDraw Points médians** ajoute des [points cosmétiques](TechDraw_CosmeticVertex/fr.md) au point médian d\'une ou plusieurs arêtes sélectionnées.
@@ -24,20 +21,17 @@ L\'outil **TechDraw Points médians** ajoute des [points cosmétiques](TechDraw_
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une ou plusieurs arêtes dans une vue.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_Midpoints.svg" width=16px> Ajouter des sommets de points médians**.
-3.  Les sommets cosmétiques seront ajoutés au point milieu du ou des bords.
+1.  Sélectionner une ou plusieurs arêtes dans une vue.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Midpoints.svg" width=16px> [Ajouter des sommets de points médians](TechDraw_Midpoints/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des sommets → <img src="images/TechDraw_Midpoints.svg" width=16px> Ajouter des sommets de points médians** du menu.
 
 
-</div>
 
-## Notes
+## Remarques
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Les sommets cosmétiques créés ne sont pas paramétriquement liés aux arêtes sélectionnées.
+-   Pour supprimer un sommet cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser.md).
 
 
 

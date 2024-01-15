@@ -49,7 +49,13 @@
 
 ## Съдържание
 
+
+<div class="mw-translate-fuzzy">
+
 Следващата таблица съдържа всички статии в тази документация които формират гръбнака на документацията доставена с FreeCAD програмата. Тя е на разположение на няколко езика:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

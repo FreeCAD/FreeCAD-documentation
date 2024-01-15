@@ -5,14 +5,18 @@
    MenuLocation: Outils , Ajouter un document texte
    Workbenches: Tous
    Version: 0.19
-   SeeAlso: Draft_ShapeString/fr, Draft_Text
+   SeeAlso: Draft_ShapeString/fr, Draft_Text/fr
 ---
 
 # Std TextDocument/fr
 
+
+
 ## Description
 
 La commande **Std Ajouter un document texte** crée un objet capable de contenir du texte arbitraire. Cet élément peut être utilisé pour écrire des informations générales ou de la documentation sur le modèle.
+
+
 
 ## Utilisation
 
@@ -21,7 +25,11 @@ La commande **Std Ajouter un document texte** crée un objet capable de contenir
 3.  Ajouter du texte.
 4.  Fermez l\'onglet et enregistrez le fichier lorsque vous y êtes invité.
 
+
+
 ## Propriétés
+
+
 
 ### Vue
 
@@ -36,6 +44,8 @@ La commande **Std Ajouter un document texte** crée un objet capable de contenir
 
 -    {{PropertyView/fr|Syntax Highlighter|Enumeration}}: il est par défaut {{Value|None}}. S\'il est défini sur {{Value|Python}}, il mettra en surbrillance le texte comme la [console Python](Python_console/fr.md).
 
+
+
 ## Script
 
 
@@ -45,7 +55,7 @@ La commande **Std Ajouter un document texte** crée un objet capable de contenir
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au document.
 
-Un objet `App::TextDocument` est créé avec la méthode `addObject()` du document. Une fois qu\'un TextDocument existe, ses informations textuelles sont stockées dans son attribut `Text`. Cet attribut peut être utilisé dans d\'autres objets, par exemple, comme chaîne dans une **<img src="images/Draft_ShapeString.svg" width=16px> [Draft Formes à partir de texte](Draft_ShapeString/fr.md)**.
+Un objet `App::TextDocument` est créé avec la méthode `addObject()` du document. Une fois qu\'un TextDocument existe, ses informations textuelles sont stockées dans son attribut `Text`. Cet attribut peut être utilisé dans d\'autres objets, par exemple, comme chaîne dans une **<img src="images/Draft_ShapeString.svg" width=16px> [Draft Forme à partir d'un texte](Draft_ShapeString/fr.md)**.
 
 
 ```python

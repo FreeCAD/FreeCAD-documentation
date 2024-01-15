@@ -8,7 +8,7 @@
 </div>
 
 
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 FreeCAD utiliza el [Qt framework](https://en.wikipedia.org/wiki/Qt_(software)) para dibujar y gestionar su interfaz. Este framework se utiliza en una amplia gama de aplicaciones, por lo que la interfaz de FreeCAD es muy clásica y no presenta ninguna dificultad especial para su comprensión. La mayoría de los botones son estándar y se encontrarán donde los esperas **Archivo → Abrir, Editar → Pegar, etc**. Este es el aspecto de FreeCAD cuando lo abres por primera vez, justo después de la instalación, mostrando el centro de inicio:
 
@@ -19,6 +19,8 @@ El centro de inicio es una conveniente \"pantalla de bienvenida\", que muestra i
 Después de un tiempo, cuando estés más familiarizado con FreeCAD, puede que hayas hecho cambios en las preferencias para que cuando FreeCAD se inicie te encuentres directamente en uno de los bancos de trabajo con un nuevo documento abierto. O, simplemente cierra la pestaña de la página de inicio y crea un nuevo documento:
 
 ![](images/FreeCAD-v0-18-NewProject.png )
+
+
 
 ### Ambientes de trabajo 
 
@@ -33,6 +35,8 @@ El control más importante de la interfaz de FreeCAD es el selector de Ambiente 
 Las ambientes de trabajo a menudo confunden a los nuevos usuarios, ya que no siempre es fácil saber en qué ambiente de trabajo buscar una herramienta específica. Pero son rápidos de aprender, y después de un corto tiempo se sentirá natural \-- dándose cuenta de que es una manera conveniente de organizar la multitud de herramientas que FreeCAD tiene para ofrecer. Las ambientes de trabajo también son totalmente personalizables (ver más abajo). La misma herramienta puede aparecer en más de un ambiente de trabajo. El icono del botón para una herramienta en particular siempre será el mismo sin importar en qué ambiente de trabajo aparezca.
 
 Más adelante en este manual, también encontrará una tabla que muestra el contenido de todos las ambientes de trabajo.
+
+
 
 ### La interfaz 
 
@@ -58,6 +62,8 @@ Además del panel de vista 3D, están disponibles los siguientes paneles de info
 -   La vista de selección muestra los nombres de los objetos que están seleccionados en ese momento. Estos son los objetos a los que se aplicará una operación del banco de trabajo. Puede utilizarse para refinar la selección deseleccionando algunos de esos objetos antes de aplicar una operación del banco de trabajo. La vista de selección también puede utilizarse para buscar objetos por su nombre y luego seleccionarlos. Por defecto, la vista de selección está oculta. Aunque a menudo se puede determinar el objeto(s) actualmente seleccionado(s) mirando el árbol de objetos en la pestaña Modelo de la vista combinada, para las operaciones complejas que requieren múltiples selecciones y en las que la selección es difícil, es útil hacer visible esta vista para poder ver las etiquetas y contar los objetos seleccionados.
 
 ![](images/FreeCAD-v0-18-ExtrudeTask.png )
+
+
 
 ### Personalización de la interfaz 
 

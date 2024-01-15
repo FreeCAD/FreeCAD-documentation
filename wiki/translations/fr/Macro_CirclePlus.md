@@ -1,20 +1,23 @@
 # Macro CirclePlus/fr
 {{Macro/fr
 |Name=Macro CirclePlus
+|Name/fr=Macro CirclePlus
 |Icon=Macro_CirclePlus.png
-|Description=Crée un cercle ou un arc en indiquant le rayon, le diamètre, la circonférence, la surface, l'angle de départ, l'angle final, l'arc, le centre de l'angle, la corde, la flèche, le centre (point), l'objet de placement au choix (avec interface graphique).
-|Download=[https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png Macro_CirclePlus].
+|Description=Crée un cercle ou un arc en indiquant le rayon, le diamètre, la circonférence, la surface, l'angle de départ, l'angle final, l'arc, le centre de l'angle, la corde, la flèche, le centre (point), l'objet de placement au choix (par l'interface graphique).
+|Download=[https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png Icône de la barre d'outils].
 |Author=mario52
-|FCVersion=Tous
+|FCVersion=Toutes
 |Version=0.4
 |Date=2019/04/07
 }}
 
 ## Description
 
-Cette macro crée un cercle ou un arc et permet à l\'utilisateur, à l\'aide de l\'option suivante (via une boîte de dialogue), de personnaliser le: \"rayon, diamètre, circonférence, surface, angle de départ, angle, arc, angle, centre, cordon, flèche, centre (point),\" et \"de placement\".
+Cette macro crée un cercle ou un arc et permet à l\'utilisateur, à l\'aide de l\'option suivante (via une boîte de dialogue), de personnaliser : *rayon, diamètre, circonférence, surface, angle de départ, angle, arc, angle, centre, cordon, flèche, centre (point)* et *placement de l\'objet*.
 
 Le cercle par défaut fera face à l\'écran (il fait référence à la fonction getCameraOrientation pour obtenir son orientation). Il est possible de modifier manuellement cette fonction pour personnaliser l\'emplacement de la forme.
+
+
 
 ### Légende
 
@@ -23,16 +26,17 @@ Dans la boîte de dialogue CirclePlus, certaines boîtes de sélection changeron
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7/raw/3f810ac142dd0d9245c5ccc964b8b2d7d750b276/Macro%2520CirclePlus.FCMacro}}
 
+
+
 ## Utilisation
 
 Copiez le code et l\'icône dans votre répertoire de macros
 
-![](images/Macro_CirclePlus_00.png )
+![Interface](images/Macro_CirclePlus_00.png )
 
 -   **X Y Z** : coordonnées du cercle s\'il n\'y a pas de coordonnées, le cercle est créé aux coordonnées 0,0,0
 -   **Radius** : rayon du cercle
 -   **Diameter** : diamètre du cercle
-
 -   ****Reset**** : reset les valeurs des coordonnées
 -   ****Equal**** : copie la valeur X dans les champs Y et Z
 -   **CheckBox :**
@@ -70,22 +74,26 @@ Copiez le code et l\'icône dans votre répertoire de macros
 
 ## Script
 
-Téléchargez l\'icône et mettez le dans la même répertoire que la macro <img alt="" src=images/Macro_CirclePlus.png  style="width:64px;">
+Téléchargez l\'icône et mettez la dans la même répertoire que la macro <img alt="" src=images/Macro_CirclePlus.png  style="width:64px;">
 
 
-{{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Dernière version de Macro_CirclePlus <br /> l'icône se trouve en fin de page}}
+{{CodeDownload|https://gist.github.com/mario52a/0ed8129bacbe9124a41e3ae1d378d5b7|Dernière version de Macro_CirclePlus <br />l'icône se trouve en fin de page}}
 
-## Memo of circle 
+
+
+## Memo sur le cercle 
+
+**Exemples de codes**
 
 <img alt="examples 1, 2, 3" src=images/Macro_Circle_01.png  style="width:640px;">  <img alt="examples" src=images/Macro_Circle_02.png  style="width:640px;"> 
 
 ## Version
 
-ver 04 , 07-04-2019 : remplacé setStyleSheet DoubleSpinBox par setStyleSheet Label cause: l\'increment dans le Dspinbox ne fonctionne pas ??!
+ver 04 , 07-04-2019 : remplacé setStyleSheet DoubleSpinBox par setStyleSheet Label cause : l\'increment dans le Dspinbox ne fonctionne pas ??!
 
-ver 03 , 06-04-2019 : supprimé tous les \"(QtGui.QApplication.translate(\"MainWindow\", \"Diameter\", None, QtGui.QApplication.UnicodeUTF8))\" donne ue erreur dans 0.18.16093 (Git) Hash: 690774c0effe4fd7b8d2b5e2fb2b8c8d145e21ce Python version: 3.6.6 Qt version: 5.6.2
+ver 03 , 06-04-2019 : supprimé tous les \"(QtGui.QApplication.translate(\"MainWindow\", \"Diameter\", None, QtGui.QApplication.UnicodeUTF8))\" donne ue erreur dans 0.18.16093 (Git) Hash: 690774c0effe4fd7b8d2b5e2fb2b8c8d145e21ce. Python version: 3.6.6. Qt version: 5.6.2
 
-ver 0.2 , 05-04-2019 : ajout du DSpinbox \"increment\" pas de 1.0 à 0.1 (DoubleSpinbox)
+ver 0.2 , 05-04-2019 : ajout incrémentation du pas de 1.0 à 0.1 (DoubleSpinbox)
 
 ver 0.1 , 2018-07-14 : ajout création segment
 

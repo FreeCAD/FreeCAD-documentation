@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionShortenLine
    Name/de: TechDraw ErgänzungLinieKürzen
-   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Shorten Line
+   MenuLocation: TechDraw , Ergänzungen: Merkmale/Änderungen , Linie kürzen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;"> **TechDraw ErgänzungLinieKürzen** Werkzeug verkürzt eine Hilfslinie oder Mittellinie an beiden Enden.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungLinieKürzen** verkürzt eine Hilfslinie oder Mittellinie an beiden Enden.
 
 <img alt="" src=images/TechDraw_ExtensionShortenLineExample.png  style="width:300px;"> 
 *Rechte eine an beiden Enden verkürzte Mittelline*
@@ -30,18 +24,12 @@ Das <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:24px;
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional: lege die Verkürzung mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug fest.
-2.  Wähle eine einzelne Hilfslinie oder Mittellinie.
+1.  Wahlweise die Längendifferenz mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) fest.
+2.  Eine einzelne Hilfslinie oder Mittellinie auswählen.
 3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionShortenLine.svg" width=16px> [TechDraw ExtensionShortenLine](TechDraw_ExtensionShortenLine.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionShortenLine.svg" width=16px> Shorten Line** Option aus dem Menü.
-4.  Die Linie wird an beiden Enden verkürzt.
-
-
-</div>
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionShortenLine.svg" width=16px> [Linie kürzen](TechDraw_ExtensionShortenLine/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionShortenLine.svg" width=16px> Linie kürzen** auswählen.
+4.  Die Linie wird an beiden Enden gerkürzt.
 
 
 

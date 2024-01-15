@@ -199,27 +199,27 @@ obj.ThePropertyName.Value # returns 500.0
 ## App::PropertyDynamicViscosity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricalCapacitance
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricalConductance
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricalConductivity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricalInductance
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyElectricalResistance
 
@@ -396,7 +396,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyHeatFlux
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyInteger
 
@@ -453,22 +453,22 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyInverseArea
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyInverseLength
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyInverseVolume
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyKinematicViscosity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyLength
 
@@ -702,27 +702,27 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyLuminousIntensity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMagneticFieldStrength
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMagneticFlux
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMagneticFluxDensity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMagnetization
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMap
 
@@ -740,7 +740,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyMass
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyMaterial
 
@@ -881,7 +881,7 @@ Identical to [App::PropertyVectorDistance](#App:_PropertyVectorDistance.md).
 ## App::PropertyPower
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyPrecision
 
@@ -953,17 +953,17 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyShearModulus
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertySpecificEnergy
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertySpecificHeat
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertySpeed
 
@@ -983,7 +983,7 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyStress
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyString
 
@@ -1014,27 +1014,27 @@ obj.ThePropertyName # returns {{TODO}}"example value for getter"
 ## App::PropertyTemperature
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyThermalConductivity
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyThermalExpansionCoefficient
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyThermalTransferCoefficient
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyTime
 
 
-<small>(v0.21)</small> 
+{{Version/pl|0.21}}
 
 ## App::PropertyUltimateTensileStrength
 

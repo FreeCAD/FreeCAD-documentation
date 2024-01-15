@@ -33,12 +33,16 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 ## Utilizare
 
 1.  Selectați piesa de exportat în vizualizare arborescentă
-2.  Alegeți ** Raytracing** → ** Utilities** →**<img src="images/Raytracing_Part.png" width=32px> Export part to POV-Ray** din meniul principal.
+2.  Alegeți ** Raytracing** → ** Utilities** →**<img src="images/Raytracing_WritePart.svg" width=32px> Export part to POV-Ray** din meniul principal.
 
 
 </div>
 
+
+
 ## Limitări
+
+
 
 ## Note
 
@@ -53,4 +57,4 @@ Exportă piesa selectată către un fișier tip pov pentru a fi utilizat într-u
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing WritePart/ro
+⏵ [documentation index](../README.md) > Raytracing WritePart/ro

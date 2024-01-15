@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft AutoGroup
-   Name/it: AutoGruppo
-   MenuLocation: Draft , Utilità , AutoGruppo
+   Name/it: Gruppo automatico
+   Empty: 1
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Version: 0.17
    SeeAlso: Draft_Layer/it, Std Group/it
@@ -11,87 +11,52 @@
 # Draft AutoGroup/it
 
 
-</div>
 
 ## Descrizione
 
+Il comando **Draft Gruppo automatico** modifica il [Draft Livello](Draft_Layer/it.md) (layer) attivo o, [opzionalmente](#Preferenze.md), il [ Gruppo](Std_Group/it.md) attivo o l\'oggetto simil-gruppo [Arch](Arch_Workbench/it.md). I nuovi oggetti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md) vengono automaticamente posizionati in questo livello attivo o gruppo.
 
-<div class="mw-translate-fuzzy">
+Questo comando era originariamente destinato ai gruppi, da cui il nome, ma è stato riprogettato nella versione 0.19 di FreeCAD quando è stato introdotto un sistema a livelli (layer). Poiché la gestione dei livelli è ora l\'impostazione predefinita per il comando, il resto di questa pagina si concentrerà principalmente su di essi
 
-Lo strumento Gruppo Automatico imposta un [Gruppo](Std_Group/it.md) standard selezionato, o un elemento correlato come un [Draft Layer](Draft_Layer/it.md), un [Sito](Arch_Site/it.md), un [Edificio](Arch_Building/it.md) o una [Parte di edificio](Arch_BuildingPart/it.md), come gruppo automatico attivo. Quando viene impostato un gruppo automatico, i nuovi oggetti vengono automaticamente spostati nel gruppo indicato al momento della creazione.
-
-
-</div>
-
-This command was originally intended for groups, hence its name, but was redesigned in FreeCAD version 0.19 when a layer system was introduced. Because handling layers is now the default for the command the rest of this page will primarily focus on layers.
-
-![](images/Draft_tray_menu.png )
+![](images/Draft_tray_menu.png ) 
+*Il menu dei livelli della barra di Draft*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Il vassoio di Draft che imposta il gruppo automatico attivo facendo clic sull'icona della cartella e scegliendo un gruppo
-*
-
-
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer/it.md)** nella vista ad albero.
-2.  Premere il pulsante **<img src="images/Draft_AutoGroup_off.svg" width=16px> None**, o andare nel menu **Draft → Utilità → <img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)**. Se non è selezionato nessun gruppo, un menu a discesa mostra i gruppi idonei da usare, o \"None\".
-3.  Il pulsante cambia e appare il nome del gruppo automatico attivo, ad esempio, **<img src="images/Draft_AutoGroup_on.svg" width=16px> Gruppo**.
-
-
-</div>
-
-## Notes
+1.  Facoltativamente selezionare il livello che si vuole rendere attivo nella [Vista ad albero](Tree_view/it.md).
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante ![](images/Draft_tray_button_layer.png ) nella [Barra di Draft](Draft_Tray/it.md). Questo pulsante può avere un aspetto diverso. Se è presente un livello attivo, verrà visualizzato il nome del livello e un\'icona del livello con il **Line Color** e il **Shape Color** del livello.
+    -   Se si ha selezionato un livello: seleziona l\'opzione **<img src="images/button_right.svg" width=16px> Attiva questo livello** dal menu contestuale [Vista ad albero](Tree_view/it.md).
+3.  Se non si ha ancora selezionato un livello, si apre il menu dei livelli. Effettuare una delle seguenti operazioni:
+    -   Selezionare **Nessuno** per lavorare senza un livello attivo.
+    -   Selezionare un livello esistente da rendere attivo.
+    -   Selezionare **Aggiungi nuovo livello** per creare un nuovo livello. La selezione di questa opzione non modificherà il livello attivo.
+4.  Se il livello attivo è stato modificato, il pulsante nella [Barra di Draft](Draft_Tray/it.md) viene aggiornato.
 
 
-<div class="mw-translate-fuzzy">
 
-Note:
+## Note
 
--   Il pulsante **<img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)** è presente nella [barra di Draft](Draft_Tray/it.md), che appare solo negli ambienti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
--   Prima di utilizzare questo strumento deve esistere almeno un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer/it.md)**.
--   Per cambiare il gruppo automatico, selezionare un altro gruppo nella vista ad albero e fare clic su **<img src="images/Draft_AutoGroup_on.svg" width=16px> Gruppo**. Se nessun gruppo è selezionato, si può scegliere \"None\" per disattivare il raggruppamento automatico.
--   Quando il raggruppamento automatico è attivo, i nuovi oggetti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md) sono posizionati in quel gruppo tranne quando la **<img src="images/Draft_Construction.svg" width=16px> [Modalità costruzione](Draft_ToggleConstructionMode/it.md)**è attiva, nel qual caso la nuova geometria verrà posizionata nel gruppo Costruzione.
--   Il raggruppamento automatico funziona solo per gli oggetti creati dall\'interfaccia utente grafica; gli oggetti creati a livello di programmazione da [macro](macros/it.md) o dalla console [Python](Python/it.md) non vengono posizionati automaticamente nei gruppi. L\'utente ha sempre la possibilità di eseguire il raggruppamento a livello di programmazione, indipendentemente dalle impostazioni di raggruppamento automatico.
+-   È anche possibile creare un nuovo [livello](Draft_Layer/it.md) facendo clic con il pulsante destro del mouse sul contenitore del livello nella [Vista ad albero](Tree_view/it.md) e selezionando **<img src="images/Draft_NewLayer.svg" width=16px> Aggiungi nuovo livello** opzione dal menu contestuale.
+-   Se la [Modalità di costruzione Draft](Draft_ToggleConstructionMode/it.md) è attivata, il [livello](Draft_Layer/it.md) attivo viene ignorato.
 
 
-</div>
 
-## Preferences
+## Preferenze
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   This command can optionally also handle groups: **Edit → Preferences... → Draft → General settings → General Draft Settings → Show groups in layers list drop-down button**.
+-   Questo comando può opzionalmente gestire anche i gruppi: **Modifica → Preferenze... → Draft → Generale → Includi gruppi nell'elenco dei livelli**.
+
+
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
-
-
-**Vedere anche:**
-
-[API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'aggiunta di oggetti al gruppo automatico attivo può essere eseguita in [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Se [Draft](Draft_Workbench/it.md) è attivo, l\'oggetto dell\'applicazione FreeCADGui ha una proprietà `draftToolBar`. Questo oggetto `draftToolBar` ha una proprietà `autogroup`, che contiene il nome dell\'autogroup attivo, o è `None` se nessun autogroup è attivo. Per modificare il gruppo automatico attivo utilizza il metodo `setAutoGroup` dell\'oggetto `draftToolBar`. Per inserire gli oggetti nell\'autogroup attivo utilizza il metodo `autogroup` del modulo Draft.
 
 
 ```python
@@ -116,15 +81,6 @@ Draft.autogroup(polygon3)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

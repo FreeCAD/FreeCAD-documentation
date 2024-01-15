@@ -1,90 +1,94 @@
 # Dialog creation/pl
-## Introduction
+## Wprowadzenie
 
-In this page we will show how to build a simple graphical interface with [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s official tool for designing interfaces; the dialog will be converted to [Python](Python.md) code, then it will be used inside FreeCAD. We\'ll assume that the user knows how to edit and run [Python](Python.md) generally.
+Na tej stronie pokażemy, jak zbudować prosty interfejs graficzny za pomocą [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), oficjalnego narzędzia Qt do projektowania interfejsów. Przekonwertujemy okno dialogowe na kod [Python](Python/pl.md), a następnie będzie używane wewnątrz FreeCAD. Zakładamy, że użytkownik wie, jak edytować i uruchamiać [Python](Python/pl.md).
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created **.ui** files directly into the program.
+W tym przykładzie cały interfejs jest zdefiniowany w środowisku [Python](Python.md). Chociaż jest to możliwe w przypadku małych interfejsów, w przypadku większych interfejsów zaleca się ładowanie utworzonych plików **.ui** bezpośrednio do programu.
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
-*Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
+*Dwie ogólne metody tworzenia interfejsów, poprzez włączenie interfejsu do pliku Python lub poprzez użycie plików `.ui*.`
 
-## Designing the dialog 
 
-In CAD applications, designing a good UI (User Interface) is very important. About everything the user will do will be through some piece of interface: reading dialog boxes, pressing buttons, choosing between icons, etc. So it is very important to think carefully to what you want to do, how you want the user to behave, and how will be the workflow of your action.
 
-There are a couple of concepts to know when designing interface:
+## Projektujemy okno dialogowe 
 
--   [Modal/non-modal dialogs](http://en.wikipedia.org/wiki/Modal_window): A modal dialog appears in front of your screen, stopping the action of the main window, forcing the user to respond to the dialog, while a non-modal dialog doesn\'t stop you from working on the main window. In some case the first is better, in other cases not.
--   Identifying what is required and what is optional: Make sure the user knows what he must do. Label everything with proper description, use tooltips, etc.
--   Separating commands from parameters: This is usually done with buttons and text input fields. The user knows that clicking a button will produce an action while changing a value inside a text field will change a parameter somewhere. Nowadays, though, users usually know well what is a button, what is an input field, etc. The interface toolkit we are using, Qt, is a state-of-the-art toolkit, and we won\'t have to worry much about making things clear, since they will already be very clear by themselves.
+W aplikacjach CAD zaprojektowanie dobrego interfejsu użytkownika *(UI)* jest bardzo ważne. Prawie wszystko, co użytkownik będzie robił, będzie odbywało się za pośrednictwem jakiegoś elementu interfejsu: czytanie okien dialogowych, naciskanie przycisków, wybieranie między ikonami itp. Dlatego bardzo ważne jest, aby dokładnie przemyśleć co chcesz zrobić, jak chcesz aby użytkownik postępował i jaki będzie przepływ pracy.
 
-So, now that we have well defined what we will do, it\'s time to open the qt designer. Let\'s design a very simple dialog, like this:
+Istnieje kilka pojęć, które należy znać podczas projektowania interfejsu:
+
+-   [Modalne/niemodalne okna dialogowe](http://en.wikipedia.org/wiki/Modal_window): Modalne okno dialogowe pojawia się przed ekranem, zatrzymując działanie głównego okna, zmuszając użytkownika do odpowiedzi na okno dialogowe, podczas gdy niemodalne okno dialogowe nie przerywa pracy w głównym oknie. W niektórych przypadkach pierwsze rozwiązanie jest lepsze, w innych nie.
+-   Określenie, co jest wymagane, a co opcjonalne: Upewnij się, że użytkownik wie, co musi zrobić. Oznacz wszystko odpowiednim opisem, użyj podpowiedzi itp.
+-   Oddzielanie poleceń od parametrów: Zazwyczaj robi się to za pomocą przycisków i pól wprowadzania tekstu. Użytkownik wie, że kliknięcie przycisku spowoduje akcję, podczas gdy zmiana wartości w polu tekstowym zmieni gdzieś parametr. Jednak w dzisiejszych czasach użytkownicy zwykle dobrze wiedzą, co jest przyciskiem, co jest polem wejściowym itp. Zestaw narzędzi interfejsu, którego używamy, Qt, jest najnowocześniejszym zestawem narzędzi i nie będziemy musieli się zbytnio martwić o wyjaśnianie rzeczy, ponieważ będą one już bardzo zrozumiałe same w sobie.
+
+Tak więc, teraz, gdy dobrze zdefiniowaliśmy, co będziemy robić, nadszedł czas, aby otworzyć projektanta QT. Zaprojektujmy bardzo proste okno dialogowe, takie jak to:
 
 ![](images/Qttestdialog.jpg )
 
-We will then use this dialog in FreeCAD to produce a nice rectangular plane. You might find it not very useful to produce nice rectangular planes, but it will be easy to change it later to do more complex things. When you open it, Qt Designer looks like this:
+Następnie użyjemy tego okna dialogowego w programie FreeCAD, aby utworzyć ładną prostokątną płaszczyznę. Może się okazać, że nie jest to zbyt przydatne do tworzenia ładnych prostokątnych płaszczyzn, ale łatwo będzie je później zmienić, aby robić bardziej złożone rzeczy. Po otwarciu Qt Designer wygląda następująco:
 
 ![](images/Qtdesigner-screenshot.jpg )
 
-## Creating the dialog 
+## Tworzymy okno dialogowe 
 
-Qt Designer is very simple to use. On the left bar you have elements that can be dragged on your widget. On the right side you have properties panels displaying all kinds of editable properties of selected elements. So, begin with creating a new widget.
+Qt Designer jest bardzo prosty w użyciu. Na lewym pasku znajdują się elementy, które można przeciągnąć na widżet. Po prawej stronie znajdują się panele właściwości wyświetlające wszystkie rodzaje edytowalnych właściwości wybranych elementów. Zacznijmy więc od utworzenia nowego widżetu.
 
-1.  Select \"Dialog without buttons\", since we don\'t want the default **OK**/**Cancel** buttons.
-2.  We need *\'Labels*. Labels are simple text strings that appear on your widget to inform the end user. If you select a label, notice that on the right side there will appear several properties that you can modify such as: font style, height, etc\... So lets drag 3 separate labels on to our widget:
-    -   One label for the title
-    -   Another label for writing \"**Height**\"
-    -   Another label for writing \"**Width**\"
-3.  We now need LineEdits (2 of them actually). Drag two of them on to the widget. **LineEdits** are text fields that the end user can fill in. So we need one LineEdit for the *Height* and one for the *Width*. Here too, we can edit properties. For example, why not set a default value say for example: 1.00 for each. This way, when the user will see the dialog, both values will be filled already. If the end user is satisfied, they can directly press the button, saving precious time.
-4.  Next lets add a **PushButton**. This is the button the end user will need to press after they\'ve filled both fields.
+1.  Wybieramy \"Dialog bez przycisków\", ponieważ nie chcemy domyślnych przycisków **OK**/**Cancel**.
+2.  Potrzebujemy **Etykiety**. Etykiety to proste ciągi tekstowe, które pojawiają się na widżecie, aby poinformować użytkownika końcowego. Jeśli wybierzesz etykietę, zauważysz, że po prawej stronie pojawi się kilka właściwości, które możesz modyfikować, takich jak: styl czcionki, wysokość itp. Przeciągnijmy więc 3 oddzielne etykiety na nasz widżet:
+    -   Jedna etykieta dla tytułu
+    -   Kolejna etykieta do napisania \"**Wysokość**\"
+    -   Kolejna etykieta do napisania \"**Szerokość**\"
+3.  Potrzebujemy teraz LineEdits *(a właściwie 2 z nich)*. Przeciągnij dwa z nich na widżet. **LineEdits** to pola tekstowe, które użytkownik końcowy może wypełnić. Potrzebujemy więc jednego LineEdit dla \"Wysokość\" i jednego dla \"Szerokość\". Tutaj również możemy edytować właściwości. Na przykład, dlaczego nie ustawić wartości domyślnej, powiedzmy na przykład: 1.00 dla każdego. W ten sposób, gdy użytkownik zobaczy okno dialogowe, obie wartości będą już wypełnione. Jeśli użytkownik będzie zadowolony, może bezpośrednio nacisnąć przycisk, oszczędzając cenny czas.
+4.  Następnie dodajmy przycisk **PushButton**. Jest to przycisk, który użytkownik końcowy będzie musiał nacisnąć po wypełnieniu obu pól.
 
-**Note:** that we chose very simple controls here. Qt has many more options, for example one could use **Spinboxes** instead of **LineEdits**, etc\... Have a look at what is available, explore\...you will surely have other ideas.
+**Uwaga:** wybraliśmy tutaj bardzo proste kontrolki. Qt ma o wiele więcej opcji, na przykład można użyć **Spinboxes** zamiast **LineEdits** itp. Przyjrzyj się temu, co jest dostępne, zbadaj\... na pewno będziesz miał inne pomysły.
 
-That\'s about all we need to do in Qt Designer. One last thing, though, let\'s rename all our elements with simpler names, so it will be easier to identify them in our scripts:
+To wszystko, co musimy zrobić w Qt Designer. Na koniec zmieńmy nazwy wszystkich elementów na prostsze, aby łatwiej było je zidentyfikować w naszych skryptach:
 
 ![](images/Qtpropeditor.jpg )
 
-## Converting our dialog to python 
 
-Now, let\'s save our widget somewhere. It will be saved as an .ui file, that we will easily convert to python script with pyuic. On windows, the pyuic program is bundled with pyqt (to be verified), on linux you probably will need to install it separately from your package manager (on debian-based systems, it is part of the pyqt4-dev-tools package). To do the conversion, you\'ll need to open a terminal window (or a command prompt window on windows), navigate to where you saved your .ui file, and issue: 
+
+## Konwersja naszego okna dialogowego do środowiska Python 
+
+Teraz zapiszmy gdzieś nasz widget. Zostanie on zapisany jako plik .ui, który z łatwością przekonwertujemy na skrypt Pythona za pomocą pyuic. Na Windowsie program pyuic jest dołączony do pyqt *(do sprawdzenia)*, na linuksie prawdopodobnie będziesz musiał zainstalować go osobno z menedżera pakietów *(na systemach opartych na debianie jest on częścią pakietu pyqt4-dev-tools)*. Aby dokonać konwersji, należy otworzyć okno terminala (lub okno wiersza polecenia w systemie Windows), przejść do miejsca, w którym zapisano plik .ui i wydać polecenie: 
 ```python
 pyuic mywidget.ui > mywidget.py
-``` In Windows pyuic.py is located in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" For conversion create a batch file called \"compQt4.bat: 
+``` W systemie Windows pyuic.py znajduje się w \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\". Do konwersji należy utworzyć plik wsadowy o nazwie \"compQt4.bat\": 
 ```python
 @"C:\Python27\python" "C:\Python27\Lib\site-packages\PyQt4\uic\pyuic.py" -x %1.ui > %1.py
-``` In the DOS console type without extension 
+``` W konsoli DOS wpisz bez rozszerzenia 
 ```python
 compQt4 myUiFile
 ```
 
-In macOS, you can retrieve the appropriate version (the same that is used internally in FreeCAD 0.19) of QT and Pyside with these commands (pip required) 
+W systemie macOS można pobrać odpowiednią wersję *(tę samą, która jest używana wewnętrznie w FreeCAD 0.19)* QT i Pyside za pomocą następujących poleceń *(wymagany program)*: 
 ```python
 python3 -m pip install pyqt5
 python3 -m pip install pySide2
-``` This will install uic in the folder \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic\", and Designer in \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app\". For convenience you can create a link of uic in /usr/local/bin to be able to call it simply with uic -g python \... instead of typing the whole path of the program, and a link to Designer to retrieve it in the mac\'s Applications folder with 
+``` Spowoduje to zainstalowanie uic w folderze \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic\", a Designer w \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app\". Dla wygody można utworzyć link do uic w /usr/local/bin, aby móc go wywołać po prostu za pomocą uic -g python \... zamiast wpisywania całej ścieżki programu, oraz link do Designera, aby pobrać go w folderze Aplikacje na komputerze Mac za pomocą: 
 ```python
 sudo ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/uic /usr/local/bin
 ln -s /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PySide2/Designer.app /Applications
 ```
 
-Into Linux : to do
+W Linuksie: do zrobienia.
 
-Since FreeCAD progressively moved away from PyQt after version 0.13, in favour of [PySide](http://qt-project.org/wiki/PySide) (Choose your PySide install [building PySide](http://pyside.readthedocs.org/en/latest/building/)), to make the file based on PySide now you have to use:
+Ponieważ FreeCAD stopniowo odchodził od PyQt po wersji 0.13, na rzecz [PySide](http://qt-project.org/wiki/PySide) *(Wybierz instalację PySide [budowanie PySide](http://pyside.readthedocs.org/en/latest/building/))*, aby plik był oparty na PySide, musisz teraz użyć:
 
 
 ```python
 pyside-uic mywidget.ui -o mywidget.py
 ```
 
-In Windows uic.py are located in \"C:\\Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\" For create batch file \"compSide.bat\": 
+W systemie Windows plik uic.py znajduje się w katalogu \"C:\\Python27\\Lib\\site-packages\\PySide\\scripts\\uic.py\". Aby utworzyć plik wsadowy \"compSide.bat\": 
 ```python
 @"C:\Python27\python" "C:\Python27\Lib\site-packages\PySide\scripts\uic.py" %1.ui > %1.py
-``` In the DOS console type without extension 
+``` W konsoli DOS wpisz bez rozszerzenia: 
 ```python
 compSide myUiFile
-``` Into Linux : to do
+``` W Linuksie: do zrobienia.
 
-On some systems the program is called pyuic4 instead of pyuic. This will simply convert the .ui file into a python script. If we open the mywidget.py file, its contents is very easy to understand: 
+W niektórych systemach program nazywa się pyuic4 zamiast pyuic. Spowoduje to po prostu konwersję pliku .ui na skrypt Pythona. Jeśli otworzymy plik mywidget.py, jego zawartość jest bardzo przejrzysta: 
 ```python
 from PySide import QtCore, QtGui
 
@@ -105,9 +109,9 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Dialog", None, QtGui.QApplication.UnicodeUTF8))
         self.title.setText(QtGui.QApplication.translate("Dialog", "Plane-O-Matic", None, QtGui.QApplication.UnicodeUTF8))
         ...
-``` As you see it has a very simple structure: a class named Ui_Dialog is created, that stores the interface elements of our widget. That class has two methods, one for setting up the widget, and one for translating its contents, which is part of the general Qt mechanism for translating interface elements. The setup method simply creates, one by one, the widgets as we defined them in Qt Designer, and sets their options as we decided earlier. Then, the whole interface gets translated, and finally, the slots get connected (we\'ll talk about that later).
+``` Jak widać, ma on bardzo prostą strukturę: tworzona jest klasa o nazwie Ui_Dialog, która przechowuje elementy interfejsu naszego widżetu. Ta klasa ma dwie metody, jedną do konfiguracji widżetu, a drugą do tłumaczenia jego zawartości, co jest częścią ogólnego mechanizmu Qt do tłumaczenia elementów interfejsu. Metoda konfiguracji po prostu tworzy, jeden po drugim, widżety tak, jak zdefiniowaliśmy je w Qt Designer i ustawia ich opcje tak, jak zdecydowaliśmy wcześniej. Następnie cały interfejs zostaje przetłumaczony, a na koniec sloty zostają połączone *(o tym powiem później)*.
 
-We can now create a new widget and use this class to create its interface. We can already see our widget in action, by putting our mywidget.py file in a place where FreeCAD will find it (in the FreeCAD bin directory, or in any of the Mod subdirectories), and, in the FreeCAD python interpreter, issue: 
+Możemy teraz utworzyć nowy widżet i użyć tej klasy do stworzenia jego interfejsu. Możemy już zobaczyć nasz widżet w akcji, umieszczając nasz plik mywidget.py w miejscu, w którym FreeCAD go znajdzie (w katalogu bin FreeCAD lub w dowolnym z podkatalogów Mod), a następnie w interpreterze python FreeCAD wydać polecenie: 
 ```python
 from PySide import QtGui
 import mywidget
@@ -115,19 +119,19 @@ d = QtGui.QWidget()
 d.ui = mywidget.Ui_Dialog()
 d.ui.setupUi(d)
 d.show()
-``` And our dialog will appear! Note that our Python interpreter is still working, we have a non-modal dialog. So, to close it, we can (apart from clicking its close icon, of course) issue: 
+``` I pojawi się nasze okno dialogowe! Zauważ, że nasz interpreter Python nadal działa, mamy niemodalne okno dialogowe. Tak więc, aby je zamknąć, możemy *(oprócz kliknięcia ikony zamknięcia, oczywiście)* wydać polecenie: 
 ```python
 d.hide()
 ```
 
-## Making our dialog do something 
+## Sprawiamy, by nasze okno dialogowe robiło coś 
 
-Now that we can show and hide our dialog, we just need to add one last part: To make it do something! If you play a bit with Qt designer, you\'ll quickly discover a whole section called \"signals and slots\". Basically, it works like this: elements on your widgets (in Qt terminology, those elements are themselves widgets) can send signals. Those signals differ according to the widget type. For example, a button can send a signal when it is pressed and when it is released. Those signals can be connected to slots, which can be special functionality of other widgets (for example a dialog has a \"close\" slot to which you can connect the signal from a close button), or can be custom functions. The [PyQt Reference Documentation](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) lists all the qt widgets, what they can do, what signals they can send, etc\...
+Teraz, gdy możemy pokazywać i ukrywać nasze okno dialogowe, musimy tylko dodać ostatnią część: Sprawić, by coś robiło! Jeśli pobawisz się trochę Qt Designerem, szybko odkryjesz całą sekcję o nazwie \"sygnały i sloty\". Zasadniczo działa to w następujący sposób: elementy na widżetach *(w terminologii Qt te elementy są same w sobie widżetami)* mogą wysyłać sygnały. Sygnały te różnią się w zależności od typu widżetu. Na przykład przycisk może wysyłać sygnał po naciśnięciu i zwolnieniu. Sygnały te mogą być podłączone do slotów, które mogą być specjalnymi funkcjami innych widżetów *(na przykład okno dialogowe ma slot \"zamknij\", do którego można podłączyć sygnał z przycisku zamykania)* lub mogą być funkcjami niestandardowymi. Dokumentacja [PyQt Reference](http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html) zawiera listę wszystkich widżetów qt, co mogą robić, jakie sygnały mogą wysyłać itd.
 
-What we will do here, is to create a new function that will create a plane based on height and width, and to connect that function to the pressed signal emitted by our \"Create!\" button. So, let\'s begin with importing our FreeCAD modules, by putting the following line at the top of the script, where we already import QtCore and QtGui: 
+To, co tutaj zrobimy, to utworzenie nowej funkcji, która utworzy płaszczyznę na podstawie wysokości i szerokości oraz podłączenie tej funkcji do sygnału naciśnięcia emitowanego przez nasz przycisk \"Utwórz!\". Zacznijmy więc od zaimportowania naszych modułów FreeCAD, umieszczając następującą linię na górze skryptu, gdzie już zaimportowaliśmy QtCore i QtGui: 
 ```python
 import FreeCAD, Part
-``` Then, let\'s add a new function to our Ui_Dialog class: 
+``` Następnie dodajmy nową funkcję do naszej klasy Ui_Dialog: 
 ```python
 def createPlane(self):
     try:
@@ -147,10 +151,10 @@ def createPlane(self):
         myface = Part.Face(mywire)
         Part.show(myface)
         self.hide()
-``` Then, we need to inform Qt to connect the button to the function, by placing the following line just before QtCore.QMetaObject.connectSlotsByName(Dialog): 
+``` Następnie musimy poinformować Qt, aby podłączył przycisk do funkcji, umieszczając następującą linię tuż przed QtCore.QMetaObject.connectSlotsByName(Dialog): 
 ```python
 QtCore.QObject.connect(self.create,QtCore.SIGNAL("pressed()"),self.createPlane)
-``` This, as you see, connects the pressed() signal of our create object (the \"Create!\" button), to a slot named createPlane, which we just defined. That\'s it! Now, as a final touch, we can add a little function to create the dialog, it will be easier to call. Outside the Ui_Dialog class, let\'s add this code: 
+``` To, jak widać, łączy sygnał pressed() naszego obiektu create *(przycisk \"Create!\")* ze slotem o nazwie createPlane, który właśnie zdefiniowaliśmy. To wszystko! Teraz, jako ostatni akcent, możemy dodać małą funkcję do tworzenia okna dialogowego, która będzie łatwiejsza do wywołania. Dodajmy ten kod poza klasą Ui_Dialog: 
 ```python
 class plane():
    def __init__(self):
@@ -158,15 +162,15 @@ class plane():
        self.ui = Ui_Dialog()
        self.ui.setupUi(self.d)
        self.d.show()
-``` (Python reminder: the \_\_init\_\_ method of a class is automatically executed whenever a new object is created!) Then, from FreeCAD, we only need to do: 
+``` *(Przypomnienie Pythona: metoda \_\_init\_\_ klasy jest automatycznie wykonywana za każdym razem, gdy tworzony jest nowy obiekt)*! Następnie, z FreeCAD, musimy tylko zrobić: 
 ```python
 import mywidget
 myDialog = mywidget.plane()
-``` That\'s all Folks\... Now you can try all kinds of things, like for example inserting your widget in the FreeCAD interface (see the [Code snippets](Code_snippets.md) page), or making much more advanced custom tools, by using other elements on your widget.
+``` To wszystko\... Teraz możesz spróbować różnych rzeczy, takich jak na przykład wstawianie widżetu do interfejsu FreeCAD *(zobacz stronę [wycinki kodu](Code_snippets/pl.md))* lub tworzenie znacznie bardziej zaawansowanych narzędzi niestandardowych, używając innych elementów na widżecie.
 
-## The complete script 
+## Kompletny skrypt 
 
-This is the complete script, for reference: 
+To jest kompletny skrypt, dla porównania: 
 ```python
 # Form implementation generated from reading ui file 'mywidget.ui'
 #
@@ -239,18 +243,22 @@ class plane():
 
 ```
 
-## More examples 
 
--   [Dialog creation with various widgets](Dialog_creation_with_various_widgets.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
--   [Dialog creation reading and writing files](Dialog_creation_reading_and_writing_files.md) with `QFileDialog`.
--   [Dialog creation setting colors](Dialog_creation_setting_colors.md) with `QColorDialog`.
--   [Dialog creation image and animated GIF](Dialog_creation_image_and_animated_GIF.md) with `QLabel` and `QMovie`.
--   [PySide usage snippets](PySide_usage_snippets.md).
--   [Qt Example](Qt_Example.md)
 
-## Relevant links 
+## Więcej przykładów 
 
--   [Manual:Creating interface tools](Manual_Creating_interface_tools.md)
+-   [Tworzenie dialogów z różnymi widżetami](Dialog_creation_with_various_widgets/pl.md) with `QPushButton`, `QLineEdit`, `QCheckBox`, `QRadioButton`, and others.
+-   [Tworzenie dialogów odczyt i zapis plików](Dialog_creation_reading_and_writing_files/pl.md) with `QFileDialog`.
+-   [Tworzenie okna dialogowego ustawienie kolorów](Dialog_creation_setting_colors/pl.md) with `QColorDialog`.
+-   [Tworzenie dialogu grafika i animowany GIF](Dialog_creation_image_and_animated_GIF/pl.md) with `QLabel` and `QMovie`.
+-   [PySide przydatne wycinki](PySide_usage_snippets/pl.md).
+-   [Przykłady Qt](Qt_Example/pl.md)
+
+
+
+## Istotne odnośniki internetowe 
+
+-   [Podręcznik:Tworzenie narzędzi interfejsu](Manual:Creating_interface_tools/pl.md)
 
 
 

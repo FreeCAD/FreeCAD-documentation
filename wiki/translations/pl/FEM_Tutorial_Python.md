@@ -1,11 +1,11 @@
 ---
- TutorialInfo:
-   Topic:  Finite Element Analysis
-   Level:  Intermediate
-   Time:  30 minutes
+ TutorialInfo:l
+   Topic:  Analiza metodą elementów skończonych
+   Level:  Średnio zaawansowany
+   Time:  30 minut
    Author: http://www.freecadweb.org/wiki/index.php?title=User:Berndhahnebach Bernd
-   FCVersion: 0.18.15985 or above
-   Files: 
+   FCVersion: 0.18.15985 lub nowszy
+   Files: nie dołączono
 ---
 
 # FEM Tutorial Python/pl
@@ -14,23 +14,31 @@
 
 
 
-## Introduction
 
-This tutorial is meant to show how a simple Finite Element Analysis (**FEA**) in FreeCAD\'s <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Workbench](FEM_Workbench.md) is done using Python. The model from the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) tutorial will be used for this example.
+
+## Wprowadzenie
+
+Ten poradnik ma na celu pokazanie, jak wykonać prostą analizę metodą elementów skończonych *(**FEA**)* w środowisku <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench/pl.md) programu FreeCAD przy użyciu Pythona. W tym przykładzie wykorzystany zostanie model z poradnika [CalculiX wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md).
 
 <img alt="" src=images/FEM_example01_pic00.jpg  style="width:700px;">
 
-### Requirements
 
--   The compatible version of FreeCAD as designated in the tutorial overview.
 
-    :   Use the **Help → About FreeCAD** to see the version of FreeCAD that is installed.
--   **Impotant Note:** Due to the continuous development of the <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Workbench](FEM_Workbench.md) it is recommended to use the latest development snapshot of FreeCAD especially for Python scripted FEM analyses.
--   A working FEM workbench. Run the [FEM CalculiX Cantilever 3D](FEM_CalculiX_Cantilever_3D.md) analysis to ascertain this.
+### Wymagania
 
-## Let\'s start 
+-   Kompatybilna wersja FreeCAD wskazana w opisie poradnika.
 
-### New document and the part to analyze 
+    :   Użyj **Pomoc → O FreeCAD**, aby zobaczyć wersję FreeCAD, która jest zainstalowana.
+-   **Ważna uwaga:** Ze względu na ciągły rozwój środowiska <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [MES](FEM_Workbench.md) zaleca się korzystanie z najnowszego snapshota rozwojowego FreeCAD, szczególnie w przypadku analiz MES opartych na skryptach Python.
+-   Działające środowisko pracy MES. Uruchom analizę [CalculiX wspornik 3D](FEM_CalculiX_Cantilever_3D/pl.md), aby upewnić się, że tak jest.
+
+
+
+## Zaczynajmy
+
+
+
+### Nowy dokument i część do analizy 
 
 
 ```python
@@ -51,7 +59,9 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
 #
 ```
 
-### Analysis and analysis objects 
+
+
+### Analiza i obiekty analizy 
 
 
 ```python
@@ -99,11 +109,13 @@ analysis_object.addObject(force_constraint)
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:750px ">
 
-### FEM mesh (manual) 
 
-This section contains the FEM mesh code. Please expand it to view the contents.
 
-**Note:** Check out the [Additional Information](#Additional_Information.md) section below for how to script mesh generation with GMSH or Netgen mesh object.
+### Siatka MES *(ręcznie)* 
+
+Ta sekcja zawiera kod siatki MES. Rozwiń ją, aby wyświetlić zawartość.
+
+**Uwaga:** Zapoznaj się z sekcją [Informacje dodatkowe](#Informacje_dodatkowe.md) poniżej, aby dowiedzieć się, jak tworzyć skrypty generowania siatki za pomocą obiektu siatki GMSH lub Netgen.
 
 
 <div class="mw-collapsible-content">
@@ -437,7 +449,9 @@ analysis_object.addObject(femmesh_obj)
 
 </div>
 
-### FEM mesh (gmsh) 
+
+
+### Siatka MES *(gmsh)* 
 
 
 ```python
@@ -454,7 +468,9 @@ print(error)
 analysis_object.addObject(femmesh_obj)
 ```
 
-### FEM mesh (netgen) 
+
+
+### Siatka MES *(netgen)* 
 
 
 ```python
@@ -469,7 +485,9 @@ doc.recompute()
 analysis_object.addObject(mesh)
 ```
 
-### Recompute
+
+
+### Ponowne obliczanie 
 
 
 ```python
@@ -479,16 +497,18 @@ doc.recompute()
 ###
 ```
 
-## Run the analysis 
 
-To run the analysis using Python, an instance of the `ccxtools` module class `FemToolsCcx` needs to be created. Once this instance has been created, we have two choices when running the analysis:
 
-1.  Run all processes together at once (see [\"All in one\"](#All_in_one.md) section below)
-2.  Run processes one after the other (see [\"Step by step\"](#Step_by_step.md) section below)
+## Uruchomienie analizy 
 
-If there is only one analysis in the document and only one solver in the analysis, then no objects need to be passed on `fea init`. The `init` method of the `fea` class will activate the analysis **if the GUI is up**.
+Aby uruchomić analizę za pomocą środowiska Python, należy utworzyć instancję modułu `ccxtools` klasy `FemToolsCcx`. Po utworzeniu tej instancji mamy dwie możliwości uruchomienia analizy:
 
-Activating an analysis using Python works a follows:
+1.  Uruchomić wszystkie procesy jednocześnie *(patrz sekcja [\"Wszystko w jednym\"](#Wszystko_w_jednym.md))*.
+2.  Uruchomić procesy jeden po drugim *(patrz sekcja [\"Krok po kroku\"](#Krok_po_kroku.md))*.
+
+Jeśli w dokumencie jest tylko jedna analiza i tylko jeden solver w analizie, to nie trzeba przekazywać żadnych obiektów do `fea init`. Metoda `init` klasy `fea` aktywuje analizę **jeśli GUI działa**.
+
+Aktywacja analizy przy użyciu Python działa w następujący sposób:
 
 
 ```python
@@ -499,7 +519,9 @@ FemGui.setActiveAnalysis(doc.Analysis)
 ###
 ```
 
-#### All in one 
+
+
+#### Wszystko w jednym 
 
 
 ```python
@@ -512,7 +534,9 @@ fea.run()
 ###
 ```
 
-#### Step by step 
+
+
+#### Krok po kroku 
 
 
 ```python
@@ -538,7 +562,9 @@ else:
 ###
 ```
 
-## Show the results 
+
+
+## Wyświetlenie wyników 
 
 
 ```python
@@ -554,51 +580,71 @@ femmesh_obj.ViewObject.applyDisplacement(10)
 ###
 ```
 
-### Additional Information 
 
-#### Scripting FEM mesh objects 
+
+### Informacje dodatkowe 
+
+
+
+#### Tworzenie obiektów siatki FEM skryptami 
+
+
 
 ##### Netgen
 
-Scripting the Netgen mesh object was attempted in the [\"Parametrized FEM study\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519) (FreeCAD FEM subforum thread), but has some limitations.
+Tworzenie obiektów siatki Netgen skryptami było próbowane w *(wątek forum FreeCAD FEM)* [\"Sparametryzowane badanie MES\"](http://forum.freecadweb.org/viewtopic.php?f=18&t=16944#p134519), ale ma pewne ograniczenia.
+
+
 
 ##### GMSH
 
-On the contrary, the GMSH mesh object fully supports Python scripting. See the following forum posts:
+Przeciwnie, obiekt siatki GMSH w pełni obsługuje skrypty Pythona. Zobacz następujące posty na forum:
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=22&t=42922#p365042>
--   forum topic <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
+-   temat na forum <http://forum.freecadweb.org/viewtopic.php?f=18&t=20087>
 
-#### Scripting multiple analysis 
 
-See forum post: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-#### Scripting results 
+#### Tworzenie skryptów do wielu analiz 
 
-##### Standard FreeCAD result object 
+Zobacz temat na forum: <http://forum.freecadweb.org/viewtopic.php?f=18&t=19549#p151385>
 
-See forum posts:
 
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → scale factor in standard result object
+
+#### Tworzenie skryptu wyników 
+
+
+
+##### Standardowy obiekt wyników FreeCAD 
+
+Zobacz posty na forum:
+
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=34048&p=289519#p289519> → współczynnik skali w standardowym obiekcie wynikowym.
 -   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=20#p148982>
 -   <http://forum.freecadweb.org/viewtopic.php?f=18&t=4677&start=30#p149043>
 -   <http://forum.freecadweb.org/viewtopic.php?t=18415#p144028>
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → coloring just one element
--   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → reset all result mesh, show colored displacement magnitude
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=31123&p=258761#p258761> → kolorowanie tylko jednego elementu.
+-   <https://forum.freecadweb.org/viewtopic.php?f=18&t=41951&p=357687#p357685> → zresetuj całą siatkę wynikową, pokaż pokolorowaną wielkość przemieszczenia.
 
-##### Vtk result object 
 
-See forum posts:
+
+##### Obiekt wyników Vtk 
+
+Zobacz temat na forum:
 
 -   <https://forum.freecadweb.org/viewtopic.php?f=18&t=47227#p405406>
 
-#### Console mode 
 
-Writing the input file in FreeCAD console mode (no Gui) could be done in test mode. See this relevant [forum post](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897) for more details and experimentation.
 
-## Appendix
+#### Tryb konsoli 
 
-Have Fun! Also if you have feedback or any refinements, feel free to participate on the [FreeCAD FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18).
+Zapis pliku wejściowego w trybie konsoli FreeCAD *(bez Gui)* można wykonać w trybie testowym. Zobacz ten odpowiedni [post na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=25852&p=208897#p208897), aby uzyskać więcej informacji i poeksperymentować.
+
+
+
+## Dodatek
+
+Miłej zabawy! Również jeśli masz opinie lub jakiekolwiek poprawki, nie krępuj się uczestniczyć w rozmowach [forum MES dla FreeCAD](https://forum.freecadweb.org/viewforum.php?f=18).
 
 
 {{FEM Tools navi

@@ -11,9 +11,6 @@
 # TechDraw Midpoints/pl
 
 
-</div>
-
-
 
 ## Opis
 
@@ -26,21 +23,18 @@ Narzędzie **Dodaj wierzchołek punktu środkowego** dodaje [Wierzchołek pomocn
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Wybierz jedną lub więcej krawędzi w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_Midpoints.svg" width=16px> Dodaj wierzchołek punktu środkowego
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_Midpoints.svg" width=16px> '''Dodaj wierzchołek punktu środkowego'''
 **
-3.  Wierzchołki pomocnicze zostaną dodane w punktach środkowych krawędzi.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj wierzchołki → <img src="images/TechDraw_Midpoints.svg" width=16px> Dodaj wierzchołek punktu środkowego**.
 
 
-</div>
 
-## Notes
+## Uwagi
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Utworzone wierzchołki kosmetyczne nie są parametrycznie powiązane z wybranymi krawędziami.
+-   Aby usunąć wierzchołek kosmetyczny należy użyć narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [Usuń geometrie pomocnicze](TechDraw_CosmeticEraser/pl.md).
 
 
 

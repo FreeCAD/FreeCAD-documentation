@@ -10,12 +10,14 @@
 
 # Draft Arc 3Points/zh-cn
 
+
+
 ## 描述
 
 
 <div class="mw-translate-fuzzy">
 
-[底图三圆周点绘弧工具通过输入](Draft_Arc_3Points.md)4个点：中点、半径、第一个点、最后一点，或拾取的切线，或上述若干组合，在当前的[工作平面上创建一条圆弧](Draft_SelectPlane.md)。它将根据[Draft Tray中的](Draft_Tray.md)[Draft Linestyle设置来创建对应圆弧](Draft_Linestyle.md)。
+[底图三圆周点绘弧](Draft_Arc_3Points.md)工具通过输入4个点：中点、半径、第一个点、最后一点，或拾取的切线，或上述若干组合，在当前的[工作平面](Draft_SelectPlane.md)上创建一条圆弧。它将根据[Draft Tray](Draft_Tray.md)中的[Draft Linestyle](Draft_Linestyle.md)设置来创建对应圆弧。
 
 
 </div>
@@ -33,6 +35,8 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -55,14 +59,16 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 </div>
 
+
+
 ## 选项
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
+-   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -74,8 +80,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a non-editable [Part Feature](Part_Feature.md) instead of a Draft Circle.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a non-editable [Part Feature](Part_Feature.md) instead of a Draft Circle.
+
+
 
 ## 属性
 
@@ -84,10 +91,12 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## 属性 
 
-弧对象享有[Draft Circle中的所有属性](Draft_Circle.md)，但是有些属性仅对圆形而言才有意义。
+弧对象享有[Draft Circle](Draft_Circle.md)中的所有属性，但是有些属性仅对圆形而言才有意义。
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

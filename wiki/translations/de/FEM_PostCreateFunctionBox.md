@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM PostCreateFunctionBox
    Name/de: FEM NachbereitungFunktionQuader
-   MenuLocation: Ergebnisse , Filterfunktionen , Box
+   MenuLocation: Ergebnisse , Filterfunktionen , Quader
    Workbenches: FEM_Workbench/de
    Version: 0.21
    SeeAlso: FEM_tutorial/de
@@ -27,7 +27,7 @@ Die Funktion <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 
-1.  Either press the **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Box](FEM_PostCreateFunctionBox.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Box** option from the menu.
+1.  Press the **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Box](FEM_PostCreateFunctionBox.md)** button or select the **Results → Filter functions → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Box** option from the menu.
 2.  The Implicit function [task panel](Task_panel.md) is opened.
 3.  Optionally set the values for the center and size of the section box.
 4.  Press the **OK** button to finish.

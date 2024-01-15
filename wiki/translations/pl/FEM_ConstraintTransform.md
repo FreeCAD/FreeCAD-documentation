@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ConstraintTransform
-   Name/pl: MES: Zdefiniuj odkształcenie
-   MenuLocation: Model , Wiązania Geometryczne , Zdefiniuj odkształcenie
+   Name/pl: MES: Wiązanie MPC typu płaszczyzna
+   MenuLocation: Model , Cechy geometryczne analizy , Lokalny układ współrzędnych
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintPlaneRotation/pl
 ---
@@ -19,13 +19,13 @@ Przekształca układ współrzędnych powierzchni na określony układ współrz
 
 ## Użycie
 
-1.  Najpierw [zdefiniuj przemieszczenie](FEM_ConstraintDisplacement/pl.md) do powierzchni.
+1.  Najpierw zdefiniuj [warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md) dla powierzchni.
 2.  Istnieje kilka sposobów na wywołanie tego polecenia:
-    -   Naciśnij przycisk **<img src="images/FEM_ConstraintTransform.svg" width=16px> [Zdefiniuj odkształcenie](FEM_ConstraintTransform/pl.md)**.
-    -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintTransform.svg" width=16px> Wiązanie przekształcenia**.
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintTransform.svg" width=16px> '''Lokalny układ współrzędnych'''**.
+    -   Wybierz opcję z menu **Model → Funkcje analizy geometrycznej → <img src="images/FEM_ConstraintTransform.svg" width=16px> Lokalny układ współrzędnych**.
 3.  Wybierz przekształcenie prostokątne lub cylindryczne. Pierwsza opcja może być zastosowana do każdej powierzchni, druga jest dostępna tylko dla powierzchni cylindrycznych.
-4.  Wybierz powierzchnię, do której wcześniej zastosowano wiązanie przekształcenia. Naciśnij przycisk **Dodaj**.
-5.  W przypadku transformacji prostokątnej należy określić obrót wokół każdej z trzech osi.
+4.  Wybierz powierzchnię, do której wcześniej zastosowano warunek brzegowy przemieszczenia. Naciśnij przycisk **Dodaj**.
+5.  W przypadku transformacji prostokątnej, należy określić obrót wokół każdej z trzech osi.
 
 
 
@@ -37,8 +37,8 @@ Przekształca układ współrzędnych powierzchni na określony układ współrz
 
 ## Uwagi
 
--   To wiązanie może być stosowane do symulacji skręcania, ale tylko w przypadku prętów walcowych lub części zawierających takie pręty, używanych do przenoszenia momentu obrotowego.
--   To wiązanie wykorzystuje kartę \*TRANSFORM w programie CalculiX.
+-   To narzędzie może być stosowane do symulacji skręcania, ale tylko w przypadku prętów walcowych lub części zawierających takie pręty w celu przenoszenia momentu obrotowego.
+-   To narzędzie wykorzystuje słowo kluczowe \*TRANSFORM w CalculiX.
 
 
 

@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -21,6 +23,8 @@ Această comandaă adaugă obiectele selectate la [Draft Construction group](Dra
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

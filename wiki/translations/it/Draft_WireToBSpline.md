@@ -24,7 +24,7 @@ Il comando <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> 
 
 1.  Selezionare una [Draft Polilinea](Draft_Wire/it.md) o una [Draft B-spline](Draft_BSpline/it.md).
 2.  Ci sono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_WireToBSpline.svg" width=16px> [Draft Polilinea in B-spline](Draft_WireToBSpline.md)**.
+    -   Premere il pulsante **<img src="images/Draft_WireToBSpline.svg" width=16px> [Polilinea in B-spline](Draft_WireToBSpline/it.md)**.
     -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_WireToBSpline.svg" width=16px> Polilinea in B-spline** dal menu.
 3.  Viene creato un nuovo oggetto.
 

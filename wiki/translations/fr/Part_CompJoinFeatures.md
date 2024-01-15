@@ -10,9 +10,13 @@
 
 # Part CompJoinFeatures/fr
 
+
+
 ## Description
 
-Cette commande est un bouton de la barre d\'outils déroulante contenant tous les outils de jointure. Voir les pages d\'outils individuelles pour plus d\'informations.
+Cette commande est un bouton déroulant de la barre d\'outils contenant tous les outils de jointure. Voir les pages de chaque outil pour plus d\'informations.
+
+
 
 ## Outils
 
@@ -24,7 +28,7 @@ Cette commande est un bouton de la barre d\'outils déroulante contenant tous le
 *Menu déroulant des différentes fonctionnalités de jointure dans l'[interface](interface/fr.md)*
 
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
-*Ci-dessus : montrant le résultat de chaque outil disponible*
+*Ci-dessus : le résultat de chaque outil disponible*
 
 
 

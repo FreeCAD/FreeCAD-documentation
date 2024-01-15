@@ -1,101 +1,114 @@
 ---
  GuiCommand:
    Name: FCGear BevelGear
-   MenuLocation: Gear , Bevel Gear
-   Workbenches: FCGear_Workbench
+   Name/pl: FCGear: Koło zębate stożkowe
+   MenuLocation: Gear , Koło zębate stożkowe
+   Workbenches: FCGear_Workbench/pl
    Version: v0.16
 ---
 
 # FCGear BevelGear/pl
 
+
+
 ## Opis
 
-Partly because of the noise they generate, bevel gears are not used as often as other types of gear. But they are still used in certain sectors, such as food packaging and canned food, lawn and garden equipment, machines such as drills and mills, compression systems for the gas and oil market and flow control valves.
+Częściowo ze względu na generowany przez nie hałas, przekładnie stożkowe nie są używane tak często, jak inne rodzaje przekładni. Są one jednak nadal używane w niektórych sektorach, takich jak pakowanie żywności i żywności w puszkach, sprzęt do pielęgnacji trawników i ogrodów, maszyny takie jak wiertarki i młyny, systemy kompresji na rynku gazu i ropy oraz zawory sterujące przepływem.
 
-Spiral bevel gears have curved teeth to provide softer engagement and greater tooth to tooth contact compared to a straight bevel gear. This reduces the vibration and noise. They can be used at high speeds and are typically used in motorcycle and bicycle transmissions.
+Spiralne koła zębate stożkowe mają zakrzywione zęby, które zapewniają łagodniejsze zazębianie i większy kontakt między zębami w porównaniu z prostymi kołami zębatymi stożkowymi. Zmniejsza to wibracje i hałas. Mogą być używane przy dużych prędkościach i są zwykle stosowane w przekładniach motocyklowych i rowerowych.
 
 ![](images/Bevel-Gear_example.png ) 
-*From left to right: Spur gearing, spiral gearing*
-
-## Usage
-
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_BevelGear.svg style="width:16px"> [Bevel Gear](FCGear_BevelGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_BevelGear.svg style="width:16px"> Bevel Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
-
-## Properties
-
-An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Od lewej do prawej: Przekładnia czołowa, przekładnia spiralna.*
 
 
-{{Properties_Title|base}}
 
--    **height|Length**: Default is {{Value|5}}. Value for the bevel gear width.
+## Użycie
 
--    **module|Length**: Default is {{Value|1}}. Module is the ratio of the reference diameter of the gear divided by the number of teeth (see [Notes](#Notes.md)).
-
--    **reset_origin|Bool**: If {{True}} (default) the center of the axis is at the center of the bottom of the gear (see [Notes](#Notes.md)).
-
--    **teeth|Integer**: Default is {{Value|15}}. Number of teeth.
-
-
-{{Properties_Title|computed}}
-
--    **angular_backlash|Angle**: (read-only)
-
--    **dw|Length**: (read-only) Working pitch diameter.
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_BevelGear.svg style="width:16px"> '''Koło zębate stożkowe'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_BevelGear.svg style="width:16px"> Koło zębate stożkowe**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
 
-{{Properties_Title|helical}}
 
--    **beta|Angle**: Default is {{Value|0 °}}. With the helix angle β a helical bevel gear is created -- positive value → rotation direction right, negative value → rotation direction left.
+## Właściwości
 
-
-{{Properties_Title|involute}}
-
--    **pitch_angle|Angle**: Default is {{Value|45 °}}. Angle of taper.
+Obiekt Koło zębate stożkowe wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
-{{Properties_Title|involute_parameter}}
 
--    **pressure_angle|Angle**: Default is {{Value|20 °}} (see [Notes](#Notes.md)).
-
-
-{{Properties_Title|precision}}
-
--    **numpoints|Integer**: Default is {{Value|6}}. Change of the involute profile. Changing the value can lead to unexpected results.
+### Dane
 
 
-{{Properties_Title|tolerance}}
+{{Properties_Title|Podstawowe}}
 
--    **backlash|Length**: Default is {{Value|0}}. Backlash, also called lash or play, is the distance between the teeth at a gear pair.
+-    **Wysokość|Length**: Wartością domyślną jest {{Value|5}}. Wartość szerokości koła zębatego stożkowego.
 
--    **clearance|Float**: Default is {{Value|0.1}} (see [Notes](#Notes.md)).
+-    **moduł|Length**: Wartością domyślną jest {{Value|1}}. Moduł jest stosunkiem średnicy referencyjnej koła zębatego podzielonej przez liczbę zębów (patrz [Uwagi](#Uwagi.md)).
+
+-    **reset_origin|Bool**: Jeśli przyjmie wartość {{True/pl}} *(domyślnie)* środek osi znajduje się na środku dolnej części koła zębatego (patrz [Uwagi](#Uwagi.md)).
+
+-    **Zęby|Integer**: Wartością domyślną jest {{Value|15}}. Liczba zębów.
 
 
-{{Properties_Title|version}}
+{{Properties_Title|Obliczone}}
 
--    **version|String**:
+-    **luz_kątowy|Angle**: *(tylko do odczytu)*.
 
-## Notes
+-    **dw|Length**: *(tylko do odczytu)* Średnica podziałki roboczej.
 
--    **clearance**: At a gear pair, clearance is the distance between the tooth tip of the first gear and the tooth root of the second gear.
 
--    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
+{{Properties_Title|Śrubowy}}
 
--    **reset_origin**: It can be advantageous for mounting purposes if the parameter is set to **false**. The origin of the body is then at the tip of the pitch cone.
+-    **beta|Angle**: Wartością domyślną jest {{Value|0 °}}. Przy kącie linii śrubowej β tworzone jest stożkowe koło zębate - wartość dodatnia → kierunek obrotu w prawo, wartość ujemna → kierunek obrotu w lewo.
 
--    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
-## Useful formulas 
+{{Properties_Title|Ewolwenta}}
 
--    **pitch diameter**= **module** \* **teeth**
+-    **kąt_skoku|Angle**: Wartością domyślną jest {{Value|45 °}}. Kąt zwężenia.
 
--    **addendum diameter**= **pitch diameter** + 2 \* **module** \* **cos reference cone angle**
+
+{{Properties_Title|parametr_ewolwenty}}
+
+-    **kąt_natarcia|Angle**: Wartością domyślną jest {{Value|20 °}} *(patrz sekcja [Uwagi](#Uwagi.md))*.
+
+
+{{Properties_Title|Precyzja}}
+
+-    **numpoints|Integer**: Wartość domyślna to {{value|6}}. Zmiana profilu ewolwentowego. Zmiana wartości może prowadzić do nieoczekiwanych rezultatów.
+
+
+{{Properties_Title|Tolerancja}}
+
+-    **Luz międzyzębowy|Length**: Wartością domyślną jest {{Value|0}}. Luz zwrotny, zwany również luzem lub swobodnym biegiem, to odległość między zębami w parze kół zębatych.
+
+-    **Prześwit|Float**: Wartością domyślną jest {{Value|0.1}}. *(patrz [Uwagi](#Uwagi.md))*.
+
+
+{{Properties_Title|Wersja}}
+
+-    **Wersja|String**:
+
+
+
+## Uwagi
+
+-    **prześwit**: W przypadku pary kół zębatych prześwit to odległość między wierzchołkiem zęba pierwszego koła zębatego a korzeniem zęba drugiego koła zębatego.
+
+-    **moduł**: Korzystając z wytycznych ISO *(Międzynarodowej Organizacji Normalizacyjnej)*, rozmiar modułu jest określany jako jednostka reprezentująca rozmiary zębów kół zębatych. Moduł (m): m = 1 (p = 3,1416), m = 2 (p = 6,2832), m = 4 (p = 12,566). Jeśli pomnożymy moduł przez Pi, otrzymamy skok (p). Skok to odległość między odpowiednimi punktami na sąsiednich zębach.
+
+-    **reset_origin**: Dla celów montażowych korzystne może być ustawienie tego parametru na wartość {{false/pl}}. Początek korpusu znajduje się wówczas na wierzchołku stożka podziałowego.
+
+-    **pressure_parameter**: Parametr ten można zmienić tylko wtedy, gdy dostępna jest wystarczająca wiedza na temat geometrii koła zębatego.
+
+
+
+## Przydatne wzory 
+
+-    **średnica podziałowa**= **moduł** \* **zęby**
+
+-    **średnica wierzchołkowa**= **średnica podziałowa** + 2 \* **moduł** \* **cos reference cone angle**
 
 -    **tip angle 1**= **(teeth 1 + 2)** \* **(cos reference cone angle 1)** : **(teeth 2 - 2)** \* **(sin reference cone angle 1)**
 
@@ -107,7 +120,7 @@ An FCGear BevelGear object is derived from a [Part Feature](Part_Feature.md) obj
 
 -    **axis angle total**= **reference cone angle 1** + **reference cone angle 2**
 
-Substantive reference cone angle \[TECH.\]
+Merytoryczny kąt stożka odniesienia \[TECH.\]
 
 
 

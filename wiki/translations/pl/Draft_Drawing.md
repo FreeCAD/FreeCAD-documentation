@@ -12,22 +12,24 @@
 
 ## Opis
 
-The <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Draft Drawing** command inserts views of selected objects into a [drawing](Drawing_Workbench.md) page.
+Polecenie <img alt="" src=images/Draft_Drawing.svg  style="width:24px;"> **Kreślenie** wstawia widoki wybranych obiektów do strony [Rysunek Roboczy](Drawing_Workbench/pl.md).
 
-This command is similar to the [Drawing View](Drawing_View.md) command but is optimized for [Draft](Draft_Workbench.md) objects. Contrary to that command, it can handle specific objects such as [Draft Dimensions](Draft_Dimension.md) and [Draft Texts](Draft_Text.md), and it can render faces.
+To polecenie jest podobne do polecenia [Widok](Drawing_View/pl.md), ale jest zoptymalizowane dla obiektów środowiska [Rysunek Roboczy](Draft_Workbench/pl.md). W przeciwieństwie do tego polecenia, może ono obsługiwać określone obiekty, takie jak [Wymiar](Draft_Dimension/pl.md) i [Tekst](Draft_Text/pl.md), a także może renderować ściany.
 
-This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md) and the [TechDraw DraftView](TechDraw_DraftView.md) command instead.
+To polecenie jest już przestarzałe. Zamiast niego należy użyć środowiska pracy [Rysunek Roboczy](TechDraw_Workbench/pl.md) i polecenia [Wstaw obiekt środowiska Rysunek Roboczy](TechDraw_DraftView/pl.md).
 
 <img alt="" src=images/Draft_drawing_example.jpg  style="width:640px;"> 
-*On the left the selected Draft objects. On the right the created drawing views.*
+*Po lewej wybrane obiekty szkicu. Po prawej stronie znajdują się utworzone widoki rysunku.*
 
-## Usage
 
-1.  To use this command in FreeCAD version 0.19 and later you need to add a button to a custom toolbar. See [Interface Customization](Interface_Customization.md).
-2.  Select one or more objects. A separate view will be created for each object.
-3.  Optionally add a [Drawing](Drawing_Workbench.md) page to the selection. If you do not, the view is inserted into the first page in the document. If there are no pages in the document a new page is created first.
-4.  Press the **<img src="images/Draft_Drawing.svg" width=16px> [Draft Drawing](Draft_Drawing.md)** button.
-5.  There is a bug in the FreeCAD version 0.19 version of the command. The initial value of the **Direction** property is {{Value|[0, 0, 0]}} which is not allowed. For objects on a plane parallel to the XY plane of the global coordinate system it should be changed to {{Value|[0, 0, 1]}}. After changing this property the page and the view may need to be [recomputed](Std_Refresh.md).
+
+## Użycie
+
+1.  Aby użyć tego polecenia w FreeCAD w wersji 0.19 i nowszych, należy dodać przycisk do niestandardowego paska narzędzi. Zapoznaj się z informacjami zawartymi na stronie [Dostosowywanie interfejsu użytkownika do własnych potrzeb](Interface_Customization/pl.md).
+2.  Wybierz jeden lub więcej obiektów. Dla każdego obiektu zostanie utworzony osobny widok.
+3.  Opcjonalnie dodaj stronę środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) do zaznaczenia. Jeśli tego nie zrobisz, widok zostanie wstawiony do pierwszej strony w dokumencie. Jeśli w dokumencie nie ma stron, najpierw tworzona jest nowa strona.
+4.  Naciśnij przycisk **<img src="images/Draft_Drawing.svg" width=16px> [Kreślenie: Projekt rysunku](Draft_Drawing/pl.md)**.
+5.  W wersji FreeCAD 0.19 występuje błąd w poleceniu. Początkowa wartość właściwości **Kierunek** to {{Value|[0, 0, 0]}}, co jest niedozwolone. W przypadku obiektów na płaszczyźnie równoległej do płaszczyzny XY globalnego układu współrzędnych należy ją zmienić na {{Value|[0, 0, 1]}}. Po zmianie tej właściwości strona i widok mogą wymagać [przeliczenia](Std_Refresh/pl.md).
 
 
 

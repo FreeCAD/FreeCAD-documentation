@@ -58,7 +58,7 @@ Right clicking on an element in the list brings up various commands.
 
 -    **Deselect**: completely removes the selection of all objects.
 
--    **Zoom to fit**: deselect everything, ans selects only the parent object that contains the given element. Moreover, the [3D view](3D_view.md) is panned and zoomed so that the parent object is centered on the screen. This is useful when selecting one object in the tree view, and then quickly focus the camera on it in the 3D view.
+-    **Zoom fit**: deselect everything, and selects only the parent object that contains the given element. Moreover, the [3D view](3D_view.md) is panned and zoomed so that the parent object is centered on the screen. This is useful when selecting one object in the tree view, and then quickly focus the camera on it in the 3D view.
 
 -    **Go to selection**: deselects everything, and selects only the the parent object that contains the selected element. In this case, the [tree view](tree_view.md) is adjusted and expanded to show exactly where the selected object is in the tree. This is useful when the objects in the 3D view are contained inside many container objects in the tree view, for example, [Std Parts](Std_Part.md), [Std Groups](Std_Group.md), [PartDesign Bodies](PartDesign_Body.md), [Arch BuildingParts](Arch_BuildingPart.md), and similar. When you have hundreds of bodies, it is easier to select the object in the 3D view, and then choose **Go to selection**, to immediately locate the object in the tree view, and then proceed to edit its properties in the [Property editor](Property_editor.md).
 
@@ -68,16 +68,11 @@ Right clicking on an element in the list brings up various commands.
 
 ## Picked object 
 
-Starting from v0.19, the **picked object list** checkbox is available. If this is checked, a secondary list will appear showing all the sub-elements (vertices, edges, and faces) that could be selected by a single click, even those that are behind (hidden by) other objects.
+if the **Picked object list** checkbox is checked, a secondary list will appear showing all the sub-elements (vertices, edges, and faces) that could be selected by a single click, even those that are behind (hidden by) other objects.
 
 <img alt="" src=images/FreeCAD_Selection_view_pick_hidden.png  style="width:" height="300px;"> <img alt="" src=images/FreeCAD_Selection_view_pick_hidden_3D.png  style="width:" height="300px;">
 
-
-
-
-{{Interface navi
-
-}} {{Std Base navi}}
+ {{Interface navi}} {{Std Base navi}}
 
 
 

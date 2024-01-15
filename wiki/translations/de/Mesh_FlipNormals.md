@@ -2,21 +2,27 @@
 ---
  GuiCommand:
    Name: Mesh FlipNormals‏‎
-   Name/de: Netz Normalen spiegeln
-   MenuLocation: Meshes , Flip Normals
+   Name/de: Mesh NormalenUmdrehen
+   MenuLocation: Netze , Normalen umdrehen
    Workbenches: Mesh Workbench/de
-   Shortcut:    SeeAlso: ---
+   SeeAlso: ---
+
+
 
 ## Beschreibung
 
-Die Anweisung **Netze Normalen spiegeln** dreht und spiegelt die Normalen von Netzobjekten.
+Der Befehl **Mesh NormalenUmdrehen** dreht die Normalen von Netzobjekten um (kehrt die Richtung um).
+
+
 
 ## Anwendung
 
-1.  Wähle eines oder mehrere Netzobjekt(e)
-2.  Es gibt mehrere Wege die Anweisung auszuführen:
-    -   Betätige die Schaltfläche **<img src="images/Mesh_FlipNormals.svg" width=16px> [Netze Normalen spiegeln](Mesh_FlipNormals/de.md)**.
-    -   Wähle die Anweisungsoption **Netze → <img src="images/Mesh_FlipNormals.svg" width=16px> Normalen spiegeln** aus dem Menü.
+1.  Ein oder mehrere Netzobjekte auswählen.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Mesh_FlipNormals.svg" width=16px> [Normalen umdrehen](Mesh_FlipNormals/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_FlipNormals.svg" width=16px> Normalen umdrehen** auswählen.
+
+
 
 ## Hinweise
 

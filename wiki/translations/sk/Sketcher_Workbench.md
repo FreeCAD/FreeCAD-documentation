@@ -151,7 +151,13 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Preorientovať náčrt](Sketcher_ReorientSketch.md): Umožní vám naviazať náčrt na jednu z hlavných rovín.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skontrolovať náčrt](Sketcher_ValidateSketch.md): Skontroluje toleranciu jednotlivých bodov a upraví ich.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_MergeSketches.svg  style="width:32px;"> [Zlúčiť náčrty](Sketcher_MergeSketches.md): Zlúči dva alebo viac náčrtov.
 
@@ -187,30 +193,19 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Čiara](Sketcher_CreateLine.md): Nakreslí čiarový segment medzi 2 bodmi. Pre potreby niektorých väzieb sa čiary považujú za nekonečne dlhé.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Vytvoriť oblúk](Sketcher_CompCreateArc.md): Toto rozbaľovacie menu v lište nástrojov Náčrtníka obsahuje nasledovné príkazy:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Oblúk](Sketcher_CreateArc.md): Nakreslí segment oblúka pomocou stredového bodu, polomeru a začiatočného a koncového uhla.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Oblúk podľa 3 bodov](Sketcher_Create3PointArc.md): Nakreslí segment oblúka pomocou dvoch koncových bodov a ďalšieho bodu na obvode.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Vytvoriť kruh](Sketcher_CompCreateCircle.md): Toto rozbaľovacie menu v lište nástrojov Náčrtníka obsahuje nasledovné príkazy:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Kruh](Sketcher_CreateCircle.md): Nakreslí kruh pomocou stredového bodu a polomeru.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kruh podľa 3 bodov](Sketcher_Create3PointCircle.md): Nakreslí kruh pomocou troch bodov na jeho obvode.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Vytvoriť kužeľosečku](Sketcher_CompCreateConic.md): Náčrtník poskytuje nasledovné kužeľosečky. Na rozdiel od B-spline kriviek môžu byť použité v rozličných väzbách, ako napríklad [Dotyčnica](Sketcher_ConstrainTangent.md), [Bod na objekt](Sketcher_ConstrainPointOnObject.md) alebo [Kolmá väzba](Sketcher_ConstrainPerpendicular.md).
-    -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipsa podľa stredu](Sketcher_CreateEllipseByCenter.md): Nakreslí elipsu pomocou stredového bodu, bodu hlavného polomeru a bodu vedľajšieho polomeru.
-    -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Elipsa podľa 3 bodov](Sketcher_CreateEllipseBy3Points.md): Nakreslí elipsu pomocou hlavného polomeru (2 body) a bodu vedľajšieho polomeru.
-    -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Oblúk elipsy](Sketcher_CreateArcOfEllipse.md): Nakreslí oblúk elipsy pomocou stredového bodu, bodu hlavného polomeru, začiatočného a koncového bodu.
-    -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Oblúk hyperboly](Sketcher_CreateArcOfHyperbola.md): Nakreslí oblúk hyperboly.
-    -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Oblúk paraboly](Sketcher_CreateArcOfParabola.md): Nakreslí oblúk paraboly.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
 
@@ -222,15 +217,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Vytvoriť B-spline krivku](Sketcher_CompCreateBSpline.md): Toto rozbaľovacie menu v lište nástrojov Náčrtníka obsahuje nasledovné príkazy:
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Vytvoriť B-spline krivku](Sketcher_CreateBSpline.md): Nakreslí B-spline krivku pomocou jej kontrolných bodov.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Vytvoriť periodickú B-spline krivku](Sketcher_CreatePeriodicBSpline.md): Nakreslí periodickú (uzavretú) B-spline krivku pomocou jej kontrolných bodov.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
@@ -242,13 +229,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Lomená čiara (čiara s viacerými bodmi)](Sketcher_CreatePolyline.md): Nakreslí čiaru zloženú z viacerých segmentov. Pri kreslení lomenej čiary a stláčaní klávesy **M** preskakujete medzi jednotlivými štýlmi lomených čiar.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Vytvoriť obdĺžniky](Sketcher_CompCreateRectangles.md): Toto rozbaľovacie menu v lište nástrojov Náčrtníka obsahuje nasledovné príkazy: <small>(v0.20)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Obdĺžnik](Sketcher_CreateRectangle.md): Nakreslí obdĺžnik pomocou 2 protiľahlých bodov.
 
@@ -268,13 +249,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Vytvoriť pravidelný mnohouholník](Sketcher_CompCreateRegularPolygon.md): Toto rozbaľovacie menu v lište nástrojov Náčrtníka obsahuje nasledovné príkazy:
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Trojuholník](Sketcher_CreateTriangle.md): Nakreslí pravidelný trojuholník vpísaný do kružnice v konštrukčnej geometrii.
 
@@ -296,9 +271,19 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Drážka](Sketcher_CreateSlot.md): Nakreslí ovál pomocou stredu jedného polkruhu a koncového bodu druhého polkruhu.
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+
+</div>
+
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 
 <div class="mw-translate-fuzzy">
@@ -310,6 +295,8 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -318,12 +305,18 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 </div>
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Predĺženie](Sketcher_Extend.md): Predĺži čiaru alebo oblúk až po hraničnú čiaru, oblúk, elipsu, oblúk elipsy alebo bod v priestore.
-
 
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Rozdelenie](Sketcher_Split.md): Rozdelí čiaru alebo oblúk na dve časti, premení kruh na oblúk pri zachovaní väčšiny väzieb. <small>(v0.20)</small> 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Predĺženie](Sketcher_Extend.md): Predĺži čiaru alebo oblúk až po hraničnú čiaru, oblúk, elipsu, oblúk elipsy alebo bod v priestore.
 
 
 </div>
@@ -358,11 +351,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 Väzby sa používajú na definovanie dĺžok, nastavenie pravidiel medzi súčasťami náčrtu a na ukotvenie náčrtu vzhľadom na vodorovnú a zvislú os. Niektoré väzby vyžadujú [Pomocné väzby](Sketcher_helper_constraint.md).
 
-
-
-#### Geometrické väzby 
-
-Tieto väzby nie sú spojené s číselnými dátami.
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -380,9 +369,25 @@ Tieto väzby nie sú spojené s číselnými dátami.
 
 </div>
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Zvislá väzba](Sketcher_ConstrainVertical.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne zvislej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
+
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Vodorovná väzba](Sketcher_ConstrainHorizontal.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne vodorovnej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Zvislá väzba](Sketcher_ConstrainVertical.md): Zaväzbí vybrané čiary alebo elementy lomených čiar do presne zvislej polohy. Pred aplikovaním tejto väzby môžete vybrať jeden alebo viac objektov.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Rovnobežná väzba](Sketcher_ConstrainParallel.md): Zaväzbí dve alebo viac číar tak, aby boli rovnobežné.
 
@@ -396,17 +401,33 @@ Tieto väzby nie sú spojené s číselnými dátami.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Blokovacia väzba](Sketcher_ConstrainBlock.md): Zablokuje hranu a znemožní jej posun, to znamená, že neumožní jej vrcholom zmeniť umiestnenie. Hodí sa napríklad na ukotvenie pozície B-Spline kriviek. Viď [príspevok na fóre o blokovacej väzbe](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
+
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
-#### Väzby rozmerov 
-
-Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [matematické výrazy](Expressions.md). Dáta môžu pochádzať aj z [tabuľky](Spreadsheet_Workbench.md).
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Zámok](Sketcher_ConstrainLock.md): Zaväzbí vybraný objekt nastavením jeho zvislej a vodorovnej vzdialenosti od začiatku súradníc, čím v podstate uzamkne umiestnenie objektu. Tieto väzobné vzdialenosti je možné následne upraviť.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Vodorovná vzdialenosť](Sketcher_ConstrainDistanceX.md): Nastaví vodorovnú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Zvislá vzdialenosť](Sketcher_ConstrainDistanceY.md): Nastaví zvislú vzdialenosť medzi dvomi bodmi alebo koncovými bodmi čiary. Ak je vybraný len jeden objekt, je vzdialenosť nastavená voči začiatku súradníc.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -415,8 +436,6 @@ Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [mat
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
 
 
 <div class="mw-translate-fuzzy">
@@ -433,7 +452,7 @@ Tieto väzby sú spojené s číselnými dátami a môžete v nich použiť [mat
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 
 
@@ -539,6 +558,10 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symetria](Sketcher_Symmetry.md): Skopíruje element náčrtu symetricky ku zvolenej čiare.
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Klon](Sketcher_Clone.md): Vytvorí klon elementu náčrtu s prepojením na originál.
@@ -586,46 +609,6 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Zobraziť/skryť stupeň B-spline krivky](Sketcher_BSplineDegree.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Zobraziť/skryť kontrolný polygón B-spline krivky](Sketcher_BSplinePolygon.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Zobraziť/skryť hrebeň zakrivenia B-spline krivky](Sketcher_BSplineComb.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zobraziť/skryť násobnosť uzla B-spline krivky](Sketcher_BSplineKnotMultiplicity.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Zobraziť/skryť váhu kontrolných bodov B-spline krivky](Sketcher_BSplinePoleWeight.md), <small>(v0.19)</small> 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Konvertovať geometriu na B-spline krivku](Sketcher_BSplineApproximate.md)
 
 
@@ -667,9 +650,7 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
-
-
-### Virtuálny priestor Náčrtníka 
+### Sketcher visual 
 
 
 <div class="mw-translate-fuzzy">
@@ -678,6 +659,48 @@ Efekty väzieb je možné meniť nasledovnými nástrojmi:
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Zobraziť/skryť stupeň B-spline krivky](Sketcher_BSplineDegree.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Zobraziť/skryť kontrolný polygón B-spline krivky](Sketcher_BSplinePolygon.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Zobraziť/skryť hrebeň zakrivenia B-spline krivky](Sketcher_BSplineComb.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zobraziť/skryť násobnosť uzla B-spline krivky](Sketcher_BSplineKnotMultiplicity.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Zobraziť/skryť váhu kontrolných bodov B-spline krivky](Sketcher_BSplinePoleWeight.md), <small>(v0.19)</small> 
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

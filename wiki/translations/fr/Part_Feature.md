@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
-Un objet [Part Feature](Part_Feature/fr.md), ou formellement un `Part::Feature`, est une [forme topologique](Part_TopoShape/fr.md) qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
+Un objet [Part Feature](Part_Feature/fr.md) (Part Fonction), ou formellement un `Part::Feature`, est une [forme topologique](Part_TopoShape/fr.md) qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
 
 Part Feature est la classe parente de la plupart des objets 2D (Draft, Sketcher) et 3D (Part, PartDesign), à l\'exception des maillages, qui sont normalement basés sur [Mesh Feature](Mesh_Feature/fr.md) ou [FEM FemMeshObject](FEM_Mesh/fr.md) pour les objets FEM.
 
@@ -12,6 +12,8 @@ Part Feature est la classe parente de la plupart des objets 2D (Draft, Sketcher)
 
 
 *Diagramme simplifié des relations entre les objets centraux dans Freecad*
+
+
 
 ## Utilisation
 
@@ -26,6 +28,8 @@ est également la classe parente de [PartDesign Corps](PartDesign_Body/fr.md), d
 
 Des ateliers peuvent ajouter plus de propriétés à cet élément de base pour produire un objet au comportement complexe.
 
+
+
 ## Propriétés
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
@@ -33,6 +37,8 @@ Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les 
 [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`) est dérivée de [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`) et hérite de toutes ses propriétés. Elle possède également plusieurs propriétés supplémentaires. Notamment une propriété **Shape**, qui stocke la [Part TopoShape](Part_TopoShape/fr.md) de l\'objet. Il s\'agit de la géométrie qui est affichée dans la [vue 3D](3D_view/fr.md). Les autres propriétés de cet objet sont celles liées à l\'apparence de sa [TopoShape](Part_TopoShape/fr.md).
 
 Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
+
+
 
 ### Données
 
@@ -67,6 +73,8 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property
 -    **Expression Engine|ExpressionEngine|Hidden**: une liste d\'expressions. Par défaut, elle est vide {{value|[]}}.
 
 -    **Visibility|Bool|Hidden**: affichage ou non de l\'objet.
+
+
 
 ### Vue
 
@@ -132,6 +140,8 @@ La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"[viewprovider](vie
 
 -    **Selection Style|Enumeration**: il contrôle la façon dont l\'objet est mis en évidence. Si c\'est {{value|Shape}}, la forme entière (sommets, arêtes et faces) sera mise en surbrillance dans la [Vue 3D](3D_view/fr.md); s\'il s\'agit de {{value|BoundBox}}, un cadre de délimitation apparaîtra autour de l\'objet et sera mis en surbrillance.
 
+
+
 ### Déflexion angulaire et déviation 
 
 <img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
@@ -145,6 +155,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 ```
 
 où {{value|w}}, {{value|h}}, {{value|d}} sont les dimensions de la boîte englobante.
+
+
 
 ## Script
 
@@ -175,6 +187,8 @@ obj = App.ActiveDocument.addObject("Part::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
+
+
 ### Name (Nom) 
 
 Voir aussi : [Object name](Object_name/fr.md) pour plus d\'informations sur les propriétés de `Name`.
@@ -184,7 +198,9 @@ La méthode `addObject` possède deux arguments de base de type chaîne.
 -   Le premier argument indique le type d\'objet, dans ce cas, `"Part::FeaturePython"`.
 -   Le deuxième argument est une chaîne qui définit l\'attribut `Name`. S\'il n\'est pas fourni, il utilise par défaut le même nom que la classe, c\'est-à-dire `"Part__FeaturePython"`. `Name` ne peut contenir que des caractères alphanumériques simples et le trait de soulignement, `[_0-9a-zA-Z]`. Si d\'autres symboles sont donnés, ils seront convertis en traits de soulignement; par exemple, `"A+B:C*"` est converti en `"A_B_C_"`.
 
-### Label (Etiquette) 
+
+
+### Label (Étiquette) 
 
 Si vous le souhaitez, l\'attribut `Label` peut être remplacé par un texte plus significatif.
 

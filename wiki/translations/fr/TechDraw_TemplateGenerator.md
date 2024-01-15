@@ -2,7 +2,7 @@
  TutorialInfo:r
    Topic: Création de modèles avec une macro Python
    Level: Des connaissances de base en Python et de svg-structures sont utiles.
-   FCVersion: 0.19.1 et plus
+   FCVersion: 0.21 et plus
    Time: 
    Author: User:FBXL5
    SeeAlso: Macro_TemplateHelper/fr
@@ -25,6 +25,8 @@ Les exemples de code suivants peuvent être copiés et collés dans un fichier t
 Un modèle fournit un arrière-plan pour les tâches de dessin et ses dimensions sont utilisées par les pilotes d\'imprimante pour mettre le dessin à l\'échelle correctement.
 
 Les modèles sont des fichiers svg et une macro doit donc composer quelques lignes de code svg (qui est un sous-ensemble du code xml).
+
+**Remarque :** lorsque FreeCAD a été migré de **freecadweb.org** à **freecad.org**, cette page a été mise à jour en conséquence et le code SVG résultant n\'est plus compatible avec les versions de FreeCAD antérieures à la v0.21. Pour ces versions, vous devez changer manuellement {{Incode|freecad.org}} en {{Incode|freecadweb.org}} à la ligne de déclaration de l\'espace des noms dans le code SVG résultant, sinon les textes éditables ne sont pas reconnus.
 
 
 
@@ -68,7 +70,7 @@ Le corps commence par une balise d\'ouverture qui contient des informations sur 
 
 :   **xmlns=** \"<http://www.w3.org/2000/svg>\" : lien externe vers l\'espace de noms xml pour rechercher les commandes xml standard
 :   **version=** \"1.1\" : la version de xml utilisée est 1.1
-:   **xmlns:freecad=** \"[Svg Namespace](https://wiki.freecad.org/Svg_Namespace/fr)\" : lien externe vers l\'extension de l\'espace de nom de FreeCAD
+:   **xmlns:freecad=**\"\...=Svg_Namespace\" : lien externe vers l\'extension [Svg Namespace](Svg_Namespace/fr.md) de FreeCAD, pour rechercher des commandes spéciales qui ne sont utilisées que dans l\'environnement FreeCAD, par exemple pour les textes éditables.
 :   \"freecad :\" sera préfixé aux noms d\'attributs pour qu\'ils soient traités par lesdites commandes spéciales.
 :   **width=** \"420mm\" : largeur de la zone de dessin
 :   **height=** \"297mm\" : hauteur de la zone de dessin
@@ -83,7 +85,7 @@ Pour une page blanche de taille DIN A3 en orientation paysage, c\'est tout.
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">

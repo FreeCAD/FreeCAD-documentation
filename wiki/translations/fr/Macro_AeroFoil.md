@@ -1,14 +1,15 @@
 # Macro AeroFoil/fr
-{{Macro
+{{Macro/fr
 |Name=Macro AeroFoil
+|Name/fr=Macro AeroFoil
 |Icon=AeroFoil.png
 |Description=AeroFoil crée des courbes et des faces de profils aérodynamiques en utilisant des modèles prédéfinis, des fonctions algébriques et des fichiers DAT ou CSV.
 |Author=Melwyncarlo
 |Date=2021-03-10
 |Version=2.0.1
 |FCVersion={{VersionPlus/fr|0.17}}
-|Download=[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
-|Links=[https://github.com/melwyncarlo/AeroFoil Github personnel- AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation Github FC- AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
+|Download=[https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png Icône de la barre d'outils]
+|Links=[https://github.com/melwyncarlo/AeroFoil Github personnel- AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation Github FreeCAD- AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
 }}
 
 ## Description
@@ -17,7 +18,9 @@
 
 ![](images/AeroFoil-reduced.png )    Voici l\'icône *AeroFoil Macro*.
 
-La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire d\'addons](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
+La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire des extensions](Std_AddonMgr/fr.md) intégré au logiciel FreeCAD.
+
+
 
 ####  Caractéristiques principales 
 
@@ -32,6 +35,8 @@ La macro AeroFoil peut être téléchargée en utilisant le [Gestionnaire d\'add
 -   Analyseur de fonctions de courbes symétriques et asymétriques
 -   Analyseur de données de fichiers texte DAT et de feuilles de calcul CSV.
 -   Entrée de la longueur de la corde en mm, cm, m, in, ft et yards.
+
+
 
 ####  Fonctionnalités supplémentaires {{VersionPlus/fr|0.19}} 
 
@@ -84,6 +89,8 @@ Par défaut, le terminal de commande Linux peut être lancé en appuyant simulta
 
 **Control** + **Alt** + **T**
 
+
+
 ####  Windows
 
 AeroFoil peut être installé à l\'aide des deux étapes suivantes :
@@ -94,6 +101,8 @@ AeroFoil peut être installé à l\'aide des deux étapes suivantes :
 Par défaut, le répertoire de la macro utilisateur de FreeCAD doit être situé à :
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
+
+
 
 ## Utilisation
 
@@ -107,6 +116,8 @@ L\'AeroFoil peut être chargé en effectuant les étapes suivantes :
 
 Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dialogue respectives, remplissez les données pertinentes et naviguez en conséquence. En cas d\'erreur ou d\'avertissement, vous en serez automatiquement informé. Si l\'on vous demande de signaler une erreur inattendue, communiquez l\'erreur en mentionnant la version de FreeCAD, en retraçant les étapes suivies et en indiquant si un résultat a été généré (et dans quelle mesure).
 
+
+
 #### Remarques
 
    
@@ -114,6 +125,8 @@ Une fois la macro AeroFoil chargée, suivez les instructions des boîtes de dial
   \(2\)   Les propriétés de l\'objet AeroFoil ne sont visibles que sur la version 0.19 du logiciel FreeCAD. Sur les versions antérieures, un avertissement s\'affiche sur la console. Cet avertissement n\'affectera pas le résultat.
           
    
+
+
 
 ####  Conseils à garder à l\'esprit pendant l\'utilisation : 
 
@@ -163,7 +176,7 @@ __Date__          = "2021-03-09"
 __Comment__       = "AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, and DAT or CSV Files"
 __Web__           = "https://github.com/melwyncarlo/AeroFoil"
 __Wiki__          = "http://www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
-__Icon__          = "AeroFoil_UI_Files/AeroFoil.svg"
+__Icon__          = "https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png"
 __Help__          = "Click on the AeroFoil button/macro, and follow the instructions in the subsequent dialog boxes."
 __Status__        = "stable"
 __Requires__      = "Freecad >= v0.17"
@@ -207,6 +220,8 @@ AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
+
+
 
 ## Liens
 

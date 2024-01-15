@@ -1,5 +1,7 @@
 # <img alt="Ikonka FreeCAD dla Środowiska pracy Arkusz Kalkulacyjny" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pl
 
+
+
 ## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> **Arkusz Kalkulacyjny** pozwala tworzyć i edytować arkusze kalkulacyjne, używać danych z arkusza kalkulacyjnego jako parametrów w modelu, wypełniać arkusz kalkulacyjny danymi pobranymi z modelu, wykonywać obliczenia i eksportować dane do innych aplikacji arkuszy kalkulacyjnych, takich jak LibreOffice czy Microsoft Excel.
@@ -9,6 +11,8 @@
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Arkusz kalkulacyjny z komórkami wypełnionymi tekstem i ilościami*
+
+
 
 ## Przybory
 
@@ -44,27 +48,45 @@
 
 -   Przyciski **Czarny** oraz **Biały** ustawia kolory czcionki i tła dla wybranych komórek.
 
+
+
 ## Ustawienia
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Ustawienia](Spreadsheet_Preferences/pl.md): preferencje dla środowiska pracy Arkusz Kalkulacyjny. {{Version/pl|0.20}}
+
+
+
+## Usuwanie komórek może być niebezpieczne 
+
+Należy pamiętać, że usunięcie lub usunięcie komórek z danymi może spowodować uszkodzenie arkusza kalkulacyjnego i modelu, jeśli opiera się on na arkuszu kalkulacyjnym. W takim przypadku użytkownik nie jest ostrzegany.
+
+
 
 ## Wstawianie i usuwanie wierszy i kolumn 
 
 Wiersze i kolumny można wstawiać i usuwać, klikając prawym przyciskiem myszy nagłówek wiersza lub kolumny i wybierając odpowiednią opcję z menu podręcznego. Możliwe jest zaznaczenie najpierw wielu wierszy lub kolumn. Można to zrobić, przytrzymując klawisz **Ctrl** podczas zaznaczania nagłówków lub przytrzymując lewy przycisk myszy i przeciągając.
 
-W programie FreeCAD w wersji 0.19 i wcześniejszych wiersze są wstawiane nad zaznaczonymi wierszami, a kolumny po lewej stronie zaznaczonych kolumn. W programie FreeCAD w wersji 0.20 można określić kierunek wstawiania.
 
-Należy pamiętać, że usunięcie wierszy lub kolumn z danymi może spowodować zepsucie arkusza kalkulacyjnego i Twojego modelu, jeśli opiera się on na arkuszu. W takim przypadku użytkownik nie jest ostrzegany.
+
+## Edycja komórek 
+
+Zawartość komórki można edytować, zaznaczając komórkę i wprowadzając wartość w polu wprowadzania **Treści** w górnej części okna. Aby edytować komórkę na miejscu, zaznacz ją i naciśnij **F2** lub kliknij dwukrotnie.
+
+
+
+## Usuwanie komórek 
+
+Aby usunąć jedną lub więcej komórek, zaznacz je i naciśnij **Del**. Spowoduje to usunięcie ich zawartości, właściwości i aliasów. Aby usunąć tylko zawartość komórki, należy ją edytować.
+
+
 
 ## Wycinanie i kopiowanie-wklejanie komórek 
 
 W komórkach arkuszy kalkulacyjnych programu FreeCAD można wykonywać operacje wycinania i kopiowania-wklejania. Do tych operacji można używać standardowych skrótów klawiszowych: **Ctrl** + **X**, **Ctrl** + **C** i **Ctrl** + **V**. Aby zaznaczyć wiele komórek, przytrzymaj klawisz **Ctrl** podczas zaznaczania lub przytrzymaj lewy przycisk myszy i przeciągnij, aby zaznaczyć prostokątny zakres komórek.
 
-Operacje wycinania i kopiowania zapisują zawartość i właściwości komórek w Schowku. Operacja wklejania powoduje zapisanie danych w taki sposób, że zawartość lewej górnej komórki zapisanych danych jest umieszczana w aktywnej komórce. Pozostała przechowywana zawartość jest umieszczana względem tej komórki. Formuły są odpowiednio aktualizowane.
+Operacje wycinania i kopiowania zapisują zawartość, właściwości i aliasy komórek w Schowku. Operacja wklejania powoduje zapisanie danych w taki sposób, że zawartość lewej górnej komórki zapisanych danych jest umieszczana w aktywnej komórce. Pozostała przechowywana zawartość jest umieszczana względem tej komórki. Formuły są odpowiednio aktualizowane. Aliasy są wklejane tylko wtedy, gdy są unikalne.
 
-Należy pamiętać, że usunięcie komurek z danymi może spowodować zepsucie arkusza kalkulacyjnego i Twojego modelu, jeśli opiera się on na arkuszu. W takim przypadku użytkownik nie jest ostrzegany.
 
-W programie FreeCAD w wersji 0.19 i wcześniejszych występuje błąd, który może powodować zawieszanie się programu FreeCAD, jeśli wklejany jest zakres komórek inny niż prostokątny. Zaleca się zapisanie pracy przed wykonaniem jakichkolwiek operacji wklejania.
 
 ## Właściwości komórek 
 
@@ -80,6 +102,8 @@ Zgodnie z informacjami na kartach można zmieniać następujące właściwości:
 -   Jednostki: Wyświetl jednostki dla tej komórki. Proszę przeczytać sekcję [Jednostki](#Jednostki.md) poniżej.
 -   Alias: Definiuje [alias](Spreadsheet_SetAlias/pl.md) dla tej komórki. Można go używać w formułach komórek, a także w ogólnych [wyrażeniach](Expressions/pl.md). Więcej informacji na ten temat znajduje się w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md).
 
+
+
 ## Wyrażenia w komórkach 
 
 Komórka arkusza kalkulacyjnego może zawierać dowolny tekst, cyfry lub wyrażenie. Wyrażenia muszą zaczynać się od znaku równości \"=\".
@@ -92,6 +116,8 @@ Wyrażenia komórek mogą zawierać liczby, funkcje, odwołania do innych komór
 -   Liczba wyświetlanych miejsc po przecinku może się różnić od Twoich [ustawień w preferencjach](Preferences_Editor#Jednostki.md).
 
 Odwołania do obiektów w modelu wyjaśniono w sekcji [Odniesienia do danych CAD](#Odniesienia_do_danych_CAD.md) poniżej. Używanie wartości komórek arkusza kalkulacyjnego do definiowania właściwości modelu wyjaśniono w sekcji [Dane arkusza kalkulacyjnego w wyrażeniach](#Dane_arkusza_kalkulacyjnego_w_wyra.C5.BCeniach.md) poniżej. Więcej informacji na temat wyrażeń i dostępnych funkcji można znaleźć na stronie [Wyrażenia](Expressions/pl.md).
+
+
 
 ## Interakcja między arkuszami kalkulacyjnymi a modelem CAD 
 
@@ -106,6 +132,8 @@ FreeCAD automatycznie przypisuje unikalną nazwę do arkusza kalkulacyjnego podc
 Etykieta arkusza kalkulacyjnego jest automatycznie ustawiana na nazwę arkusza podczas jego tworzenia. W przeciwieństwie do nazwy, etykietę można zmienić, np. w panelu właściwości lub za pomocą polecenia **Zmień nazwę** w menu podręcznym. Domyślnie FreeCAD nie akceptuje zduplikowanych etykiet, ale istnieje [preferencja](Preferences_Editor/pl#Dokument.md), aby to zmienić. Do arkuszy kalkulacyjnych ze zduplikowanymi etykietami w tym samym dokumencie nie można odwoływać się za pomocą ich etykiety.
 
 FreeCAD sprawdza, czy nie występują zależności cykliczne. Zobacz sekcję [obecne ograniczenia](#Obecne_ograniczenia.md).
+
+
 
 ### Odniesienia do danych CAD 
 
@@ -136,6 +164,8 @@ W poniższej tabeli przedstawiono kilka przykładów przy założeniu, że model
 |                                                  | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                |
 |                                                  |                                                       |                                |
 ++++
+
+
 
 ### Dane arkusza kalkulacyjnego w wyrażeniach 
 
@@ -173,6 +203,8 @@ Chociaż w wyrażeniu można użyć numeru wiersza i kolumny w celu odwołania s
 
 </div>
 
+
+
 ### Modele złożone i przeliczanie 
 
 Edycja arkusza kalkulacyjnego powoduje ponowne obliczenie modelu 3D, nawet jeśli wprowadzone zmiany nie mają wpływu na model. W przypadku złożonego modelu ponowne obliczanie może trwać bardzo długo, a konieczność czekania po każdej edycji jest oczywiście dość irytująca.
@@ -193,6 +225,8 @@ Oto trzy rozwiązania, jak sobie z tym poradzić:
     -   Wadą jest to, że model nie będzie automatycznie przeliczany po wprowadzeniu zmian w arkuszu kalkulacyjnym.
     -   W sytuacji, gdy najpierw otwieramy plik arkusza kalkulacyjnego, zmieniamy jedną lub więcej wartości, a następnie otwieramy plik modelu, nie ma żadnych informacji o konieczności ponownego przeliczenia modelu. Jeśli jednak otwarte są oba pliki, po użyciu przycisku [Odświerz](Std_Refresh/pl.md) zostanie poprawnie zaktualizowany model po zmianach w pliku arkusza kalkulacyjnego.
 
+
+
 ## Jednostki
 
 W arkuszu kalkulacyjnym z wartościami komórek jest związane pojęcie wymiaru *(jednostki)*. Liczba wprowadzona bez przypisanej jej jednostki nie ma określonego wymiaru. Jednostka powinna być wprowadzona bezpośrednio po wartości liczby, bez odstępów. Jeśli liczba ma przypisaną jednostkę, będzie ona używana we wszystkich obliczeniach. Na przykład pomnożenie dwóch długości z jednostką mm daje pole powierzchni z jednostką mm².
@@ -205,11 +239,17 @@ Liczby bezwymiarowej nie można zmienić na liczbę z jednostką za pomocą okna
 
 Niekiedy może być wskazane usunięcie wymiaru z wyrażenia. Można to zrobić, mnożąc przez 1 z jednostką odwrotną.
 
+
+
 ## Importowanie i eksportowanie 
+
+
 
 ### Format CSV 
 
 Arkusze kalkulacyjne FreeCAD mogą być importowane i eksportowane do formatu [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), który może być również odczytywany i zapisywany przez większość innych aplikacji arkuszy kalkulacyjnych, takich jak Microsoft Excel czy LibreOffice Calc. Więcej informacji na ten temat można znaleźć na stronach [Import](Spreadsheet_Import/pl.md) i [Eksport](Spreadsheet_Export/pl.md).
+
+
 
 ### Format XLSX 
 
@@ -221,20 +261,28 @@ Arkusze kalkulacyjne w formacie Excel XLSX można importować za pomocą polecen
 
 Inne funkcje nie są importowane do arkusza kalkulacyjnego FreeCAD.
 
+
+
 ## Wydruki
 
 Aby zachować ustawienia strony niezbędne do drukowania, arkusze kalkulacyjne FreeCAD można drukować, wstawiając je do obiektu [widok Arkusza Kalkulacyjnego](TechDraw_SpreadsheetView/pl.md).
+
+
 
 ## Obecne ograniczenia 
 
 FreeCAD sprawdza zależności cykliczne podczas ponownych obliczeń. Z założenia sprawdzanie to zatrzymuje się na poziomie obiektu arkusza kalkulacyjnego. W konsekwencji nie powinieneś mieć arkusza kalkulacyjnego zawierającego zarówno komórki, których wartości są używane do określania parametrów modelu, jak i komórki, których wartości wykorzystują dane wyjściowe z modelu. Na przykład nie można mieć komórek określających długość, szerokość i wysokość obiektu, a także innej komórki, która odwołuje się do całkowitej objętości wynikowego kształtu. Ograniczenie to można obejść, mając dwa arkusze kalkulacyjne: jeden używany jako źródło danych dla parametrów wejściowych do modelu, a drugi używany do obliczeń opartych na danych wynikowych geometrii.
 
-## Łączenie komórek 
+
+
+## Powiązanie komórek 
 
 
 {{Version/pl|0.20}}
 
 Istnieje możliwość łączenia zawartości komórek z innymi komórkami arkusza kalkulacyjnego. Może to być przydatne podczas pracy z dużymi tabelami lub w celu pobrania zawartości komórki z innego arkusza kalkulacyjnego.
+
+
 
 ### Tworzenie powiązań 
 
@@ -252,6 +300,8 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2:
 ![](images/Spreadsheet_binding-result.png ) 
 *Arkusz kalkulacyjny może teraz wyglądać następująco*
 
+
+
 ### Modyfikacja powiązań 
 
 1.  Kliknij prawym przyciskiem myszy powiązaną komórkę (nie trzeba zaznaczać całego powiązanego zakresu) i wybierz z menu kontekstowego polecenie **Powiąż ...**.
@@ -259,11 +309,15 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2:
 3.  Zmień jedną lub więcej opcji. Zwróć uwagę, że nie można zmienić zakresu komórek **Powiąż komórki**, czyli powiązanego zakresu komórek.
 4.  Naciśnij przycisk **OK**.
 
+
+
 ### Usuwanie powiązań 
 
 1.  Kliknij prawym przyciskiem myszy wiązaną komórkę (nie trzeba zaznaczać całego wiązanego zakresu) i wybierz z menu kontekstowego polecenie **Powiąż ...**.
 2.  Otworzy się okno dialogowe **Powiąż komórki arkusza kalkulacyjnego**.
 3.  Naciśnij przycisk **Usuń powiązanie**.
+
+
 
 ### Uwagi
 
@@ -273,6 +327,8 @@ Aby na przykład powiązać zakres komórek A3-C4 z zakresem komórek B1-D2:
 -   Wiązanie komórek ma funkcję sprawdzania zakresu i ostrzega o niedopasowanych zakresach. Na przykład powiązanie komórek 1x3 z komórkami 3x2 nie działa, ponieważ nie wiadomo, które 3 komórki z pierwotnych 6 komórek powinny zostać użyte.
 -   Nie można zmienić zakresu komórek w istniejącym powiązaniu. Należy najpierw usunąć powiązanie z komórek, a następnie utworzyć nowe.
 -   Nie można jeszcze zmienić koloru ramki wskazującej powiązanie.
+
+
 
 ## Tabela konfiguracji 
 
@@ -317,6 +373,8 @@ Podobne kroki dotyczą funkcji [Łącznik kształtów podrzędnych](PartDesign_S
 
 
 </div>
+
+
 
 ## Podstawy pisania skryptów 
 

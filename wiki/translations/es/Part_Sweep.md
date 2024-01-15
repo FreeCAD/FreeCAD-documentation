@@ -16,15 +16,31 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta <img alt="" src=images/Part_Sweep.svg  style="width:24px;"> [Part Barrido](Part_Sweep/es.md) se usa para crear una cara, una carcasa o una forma sólida desde uno o más perfiles (atravesando secciones) proyectados a lo largo de una trayectoria.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" src=images/Part_Loft.svg  style="width:24px;"> [Part Loft](Part_Loft.md) con el añadido de una trayectoria para definir la proyección entre perfiles.
 
-![](images/Part_Sweep_simple.png ) *Barrido de un sólido generado desde un único perfil (A) proyectado a lo largo de una trayectoria (B).*
+
+</div>
+
+<img alt="" src=images/Part_Sweep_simple.png  style="width:400px;"> 
+*A solid sweep generated from a single profile (A) distributed along a spine (B)*
 
 
 
 ## Uso
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Presionar el botón **<img src="images/Part_Sweep.svg" width=16px> '''Crear barrido'''** . Esto abre los parámetros de Barrido del [Panel de tareas](Task_panel/es.md).
 2.  En *Perfiles disponibles* de la columna de la izquierda (anteriormente *Vértice/Arista/Alambre/Cara* en la versión v0.16), pinchar sobre el elemento que será usado como perfil del barrido, después pinchar la flecha que indica hacia la derecha para colocarlo en los *Perfiles seleccionados* de la columna de la derecha (anteriormente *Barrido* en la versión v0.16). Repetir la operación si se desea utilizar más de un perfil. Usar las flechas que indican hacia arriba y hacia abajo para reordenar los perfiles seleccionados.
@@ -33,6 +49,9 @@ La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" 
     -   *Selección de una trayectoria completa*: Ir a la pestaña Modelo de la Vista combinada, seleccionar en el árbol el objeto 2D que se ha de usar como trayectoria, volver al [Panel de tareas](Task_panel/es.md) y pulsar **Hecho**. Otra manera sería haciendo doble clic con el ratón sobre una de las aristas consecutivas para que se seleccionen todas ellas. El barrido será generado a lo largo de todas las aristas consecutivas halladas en el objeto 2D.
 4.  Definir las opciones [Crear sólido](#Solid.md) y [Ángulo fijo](#Frenet.md).
 5.  Aceptar con el botón **OK**
+
+
+</div>
 
 ### Accepted geometry 
 
@@ -56,9 +75,9 @@ La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" 
 
 -   [App Link](App_Link.md) objects linked to the appropriate object types and [App Part](App_Part.md) containers with the appropriate visible objects inside can also be used as profiles and paths. <small>(v0.20)</small> 
 
-## Properties
+## Options
 
-### Solid
+#### Solid
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +91,7 @@ Si \"Solid\" es seleccionado como \"true\", FreeCAD crea un sólido, siempre y c
 
 </div>
 
-### Frenet
+#### Frenet
 
 <img alt="" src=images/Sweep-frenet-comp.png  style="width:500px;">
 
@@ -86,9 +105,15 @@ Si \"Solid\" es seleccionado como \"true\", FreeCAD crea un sólido, siempre y c
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Si \"Frenet\" es \"true\" la orientación del perfil se computa en base a la curvatura local y los vectores de tangencia de la trayectoria. De este modo la orientación del perfil se mantiene constante cuando realiza el barrido alrededor de una hélice, debido a que el vector de curvatura de una hélice recta está siempre dirigido a su eje. Sin embargo, cuando la trayectoria no es una hélice, la forma resultante puede tener un aspecto, a veces, como de extrañas torsiones. Para más información, ver [Frenet Serret formulas](http://en.wikipedia.org/wiki/Frenet%E2%80%93Serret_formulas).
 
-### Transition
+
+</div>
+
+#### Transition
 
 
 <div class="mw-translate-fuzzy">
@@ -104,43 +129,71 @@ Si \"Frenet\" es \"true\" la orientación del perfil se computa en base a la cur
 
 </div>
 
-## Profile limitations and complications 
+## Properties
+
+See also: [Property editor](Property_editor.md).
+
+A Part Sweep object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+
+### Data
 
 
-<div class="mw-translate-fuzzy">
+{{TitleProperty|Sweep}}
 
-## Limitaciones y complicaciones de perfil 
+-    **Sections|LinkList**: lists the sections used.
 
--   Un vértice o punto.
-    -   Un vértice o un punto puede ser usado únicamente como primer o último perfil en la lista de perfiles.
-        -   Por ejemplo:
-            -   No se puede hacer un barrido de un círculo a un punto y una elipse.
-            -   Sin embargo, se puede hacer un barrido de un punto a un círculo, una elipse y otro punto.
--   Perfiles geométricamente abiertos o cerrados no pueden ser mezclados en un solo barrido.
-    -   En un barrido, todos los perfiles (líneas, alambres, etc.) deben ser todos abiertos o bien, todos cerrados
-        -   Por ejemplo:
-            -   FreeCAD no puede realizar un barrido entre un Part círculo y una línea simple de Part.
--   Operaciones del banco de trabajo Draft.
-    -   Las operaciones del banco de trabajo Draft pueden ser utilizadas directamente como perfil desde la versión FreeCAD 0.14 o posterior.
-        -   Por ejemplo, las siguientes operaciones de Draft pueden ser usadas como perfiles en un barrido de Part:
-            -   Polígono de Draft.
-            -   Punto, línea, alambre de Draft.
-            -   B-spline, Bézier Curva de Draft.
-            -   Círculo, elipse, rectángulo de Draft.
--   Bocetos de Part Design.
-    -   El perfil puede ser creado con un boceto. Sin embargo, solamente un boceto válido será mostrado en la lista de los disponibles para selección.
-    -   El boceto debe contener solamente un único alambre o línea abierta o cerrada (pueden ser múltiples líneas si todas ellas están conectadas como si fueran un único alambre).
--   Banco de trabajo Part
-    -   El perfil puede ser una primitiva geométrica de Part válida, la cual puede ser creada con la herramienta [Part Creación de primitivas](Part_Primitives/es.md).
-        -   Por ejemplo, las siguientes primitivas geométricas de Part pueden ser un perfil válido:
-            -   Punto (Vértice), Línea (Arista)
-            -   Hélice, Espiral
-            -   Círculo, Elipse
-            -   Polígono regular
-            -   Plano (Cara)
+-    **Spine|LinkSub**: spine (path) to sweep along.
 
+-    **Solid|Bool**: true or false (default). True creates a Solid.
 
-</div>
+-    **Frenet|Bool**: true or false (default). True uses Frenet algorithm.
+
+-    **Transition|Enumeration**: transition mode. Options are *Transformed*, *Right corner* or *Round corner*.
+
+## Limitations
+
+### Vertex or point 
+
+A vertex or point may only be used as the first and/or last profile.
+For example:
+
+-   You cannot Sweep from a circle to a point, to an ellipse.
+-   You can however Sweep from a point to a circle to an ellipse to another point.
+
+### Profiles
+
+In one Sweep, all profiles (lines wires etc.) must be either open or closed.
+For example:
+
+-   FreeCAD cannot Sweep between a Part Circle and a Part Line.
+
+### Sketches
+
+-   The profile may be created with a sketch. However only valid sketches will be available for selection in the task panel.
+-   The sketch must contain only one open or closed wire or line (can be multiple lines, if those lines are all connected as they are then a single wire).
+
+### Draft Workbench objects 
+
+A profile can be a [Draft Workbench](Draft_Workbench.md) object.
+The following objects can be valid profiles:
+
+-   Point
+-   Line, Wire
+-   B-spline, Bézier Curve
+-   Circle, Ellipse
+-   Rectangle, Polygon
+
+### Part Workbench objects 
+
+A profile can be a Part object created with the [Part Primitives](Part_Primitives.md) command.
+The following objects can be valid profiles:
+
+-   Point (Vertex)
+-   Line (Edge)
+-   Helix, Spiral
+-   Circle, Ellipse
+-   Regular Polygon
+-   Plane (Face)
 
 ## Links
 

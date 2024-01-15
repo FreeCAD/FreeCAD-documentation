@@ -43,7 +43,7 @@ FreeCAD也是一个真正的[多平台](http://en.wikipedia.org/wiki/Cross-platf
 
 <div class="mw-translate-fuzzy">
 
-想了解更多FreeCAD的能力，请看[特征列表或者](Feature_list/zh-cn.md)[最新发布记录或者](Getting_started/zh-cn#What's_new.md)[入门指南文章](Getting_started/zh-cn.md)，或者查看更多 [截图](screenshots/zh-cn.md)。
+想了解更多FreeCAD的能力，请看[特征列表](Feature_list/zh-cn.md)或者[最新发布记录](Getting_started/zh-cn#What's_new.md)或者[入门指南](Getting_started/zh-cn.md)文章，或者查看更多 [截图](screenshots/zh-cn.md)。
 
 
 </div>
@@ -52,15 +52,19 @@ FreeCAD也是一个真正的[多平台](http://en.wikipedia.org/wiki/Cross-platf
 
 ### 关于 FreeCAD 项目 
 
-FreeCAD项目，正如在它的[历史页里描述的](history/zh-cn.md)，可以追述到2001年的启动。
+FreeCAD项目，正如在它的[历史](history/zh-cn.md)页里描述的，可以追述到2001年的启动。
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献者页](contributors/zh-cn.md)）。他们自愿利用空闲时间为FreeCAD工作。他们不能保证 FreeCAD 包含或将会包含所有你希望的功能，但他们通常会尽力做到最好！这社区聚集于[FreeCAD 论坛](http://forum.freecadweb.org)，大多数主意和决定都在这里被讨论。请加入我们，无需拘束！
+FreeCAD由整个社区热心开发人员及用户开发及维护（请看[贡献者](contributors/zh-cn.md)页）。他们自愿利用空闲时间为FreeCAD工作。他们不能保证 FreeCAD 包含或将会包含所有你希望的功能，但他们通常会尽力做到最好！这社区聚集于[FreeCAD 论坛](http://forum.freecadweb.org)，大多数主意和决定都在这里被讨论。请加入我们，无需拘束！
 
 
 </div>
+
+### About the FPA 
+
+The FreeCAD project is also supported by a non-profit organization, the [FreeCAD project association (FPA)](https://fpa.freecad.org). The FPA is an independent body created by some FreeCAD veterans in 2021 to collect [donations](donate.md) and other resources to support the project and its community, to help protect that community and allow it to continue developing in the best conditions, and to represent the project against other bodies such as companies and institutions.
 
 
 <div class="mw-translate-fuzzy">

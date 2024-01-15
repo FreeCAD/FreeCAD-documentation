@@ -1,23 +1,28 @@
 ---
  GuiCommand:
    Name: FEM ResultsPurge
-   MenuLocation: Results , Purge results
-   Workbenches: FEM_Workbench
+   Name/pl: Usuń wyniki
+   MenuLocation: Wyniki , Usuń wyniki
+   Workbenches: FEM_Workbench/pl
    Shortcut: **R** **P**
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ResultsPurge/pl
 
-## Description
 
-**FEM ResultsPurge** deletes all [result objects](FEM_ResultShow.md) and all result meshes from the active analysis container in the [Tree view](Tree_view.md).
 
-If you only want to delete a result object and keep the result mesh, create a copy of the result mesh, then select select the Result object in the tree view and delete it by pressing **Del**. This way the created copy of the mesh will remain. (Using FEM ResultsPurge would also delete the copy.)
+## Opis
 
-## Usage
+Usuwa wszystkie [obiekty wyników](FEM_ResultShow/pl.md) i wszystkie siatki wynikowe z aktywnego kontenera analizy w [widoku drzewa](Tree_view/pl.md).
 
-Either press the **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Purge results'''** button or use the menu **Results → <img src="images/FEM_ResultsPurge.svg" width=16px> Purge results** (shortcut **R** then **P**).
+Jeśli chcesz tylko usunąć obiekt wyników zachowując siatkę wynikową, utwórz kopię tej siatki a następnie zaznacz obiekt wyników w widoku drzewa i usuń go klawiszem **Del**. W ten sposób utworzona kopia siatki pozostanie dostępna (użycie opcji Usuń wyniki usunęłoby też kopię).
+
+
+
+## Użycie
+
+Wciśnij przycisk **<img src="images/FEM_ResultsPurge.svg" width=16px> '''Usuń wyniki'''** lub wybierz opcję **Wyniki → <img src="images/FEM_ResultsPurge.svg" width=16px> Usuń wyniki** (skrót **R** a następnie **P**) z menu.
 
 
 

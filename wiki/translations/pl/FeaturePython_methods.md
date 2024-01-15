@@ -1,5 +1,5 @@
 # FeaturePython methods/pl
-## Introduction
+## Wprowadzenie
 
 This page serves as a reference for the available overridable methods on [Create a FeaturePython object part I](Create_a_FeaturePython_object_part_I.md) or [Scripted objects](Scripted_objects.md).
 

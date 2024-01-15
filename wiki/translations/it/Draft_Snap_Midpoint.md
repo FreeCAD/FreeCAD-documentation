@@ -1,55 +1,44 @@
 ---
  GuiCommand:
    Name: Draft Snap Midpoint
-   Name/it: Punto medio
-   MenuLocation: Draft , Draft_Snap/it , Punto medio
+   Name/it: Aggancia Punto medio
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Midpoint/it
 
+
+
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Aggancia Punto Medio** esegue l\'aggancio al punto medio dei bordi. I bordi possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Questa modalità di aggancio consente di selezionare i punti medi degli elementi linee o bordi.
-
-
-</div>
-
-![](images/Draft_Snap_Midpoint_example.png )
+![](images/Draft_Snap_Midpoint_example.png ) 
+*Aggancio del secondo punto di una linea al punto medio di un bordo*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio del secondo punto di una linea al punto medio di un bordo di un rettangolo*
-
-
-</div>
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock.md).
+2.  Se **Draft Aggancia Punto Medio** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Midpoint.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Midpoint.svg" width=16px> Aggancia Punto Medio**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Spostare il cursore su un bordo.
+6.  Il bordo viene evidenziato.
+7.  Se viene trovato un punto medio, il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+8.  Fare clic per confermare il punto.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Midpoint.svg" width=16px> [Punto medio](Draft_Snap_Midpoint/it.md)** siano attivati.
-2.  Scegliere uno strumento Draft per disegnare una forma.
-3.  Spostare il cursore su un segmento di linea o bordo di un altro oggetto per selezionare il punto medio.
-4.  Il bordo si evidenzia in giallo e un piccolo cerchio bianco indica il punto medio del bordo al quale verrà attaccato il punto.
-5.  Cliccare per agganciare e attaccare il nuovo punto.
+## Preferenze
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

@@ -39,8 +39,8 @@
 
 ## 환경 설정 
 
--   실행 취소/다시 실행 기능은 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → UsingUndo**를 `False`로 설정하여 비활성화할 수 있지만 권장하지 않습니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
--   실행 취소/다시 실행의 최대 횟수는 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → MaxUndoSize**로 조절합니다. 이 설정은 [환경 설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+-   실행 취소/다시 실행 기능은 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → UsingUndo**를 `False`로 설정하여 비활성화할 수 있지만 권장하지 않습니다. 이 설정은 [환경 설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
+-   실행 취소/다시 실행의 최대 횟수는 **도구 → 파라미터 편집... → BaseApp → Preferences → Document → MaxUndoSize**로 조절합니다. 이 설정은 [환경 설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
 
 ## 스크립트
 

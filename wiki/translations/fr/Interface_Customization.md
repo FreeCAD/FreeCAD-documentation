@@ -16,8 +16,8 @@ L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedi
 ## Utilisation
 
 1.  Les commandes disponibles dans la boite de dialogue de personnalisation d\'interface dépendent des ateliers qui ont été chargés dans la session FreeCAD en cours. Vous devez donc d\'abord charger tous les établis dont vous souhaitez avoir accès aux commandes.
-2.  Il existe plusieurs façons d\'appeler la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnalisation](Std_DlgCustomize/fr.md) :
-    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu.
+2.  Il existe plusieurs façons de lancer la commande <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std Personnaliser](Std_DlgCustomize/fr.md) :
+    -   Sélectionnez l\'option **Outils → <img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** du le menu.
     -   Cliquez avec le bouton droit sur une zone de barre d\'outils et choisissez **<img src="images/Std_DlgCustomize.svg" width=16px> Personnaliser...** dans le menu contextuel.
 3.  La boîte de dialogue Personnaliser s\'ouvre. Pour plus d\'informations, voir [Options](#Options.md).
 4.  Le bouton **Aide** démarre la commande <img alt="" src=images/Std_WhatsThis.svg  style="width:16px;"> [Std Qu\'est-ce que c\'est ?](Std_WhatsThis/fr.md)
@@ -90,7 +90,7 @@ Il est également possible de rechercher des raccourcis :
 
 #### Remarques
 
--   Les raccourcis ne fonctionnent que pour les commandes actives. Les commandes actives sont des commandes qui apparaissent dans le menu standard, ou dans le menu d\'un atelier qui a été chargé dans la session FreeCAD en cours, ou des commandes qui apparaissent sur une barre d\'outils *visible*.
+-   Les raccourcis ne fonctionnent que pour les commandes actives. Les commandes actives sont des commandes qui apparaissent dans le menu standard, ou dans le menu de l\'atelier actif, ou des commandes qui apparaissent dans une barre d\'outils \"visible\".
 
 
 {{Top}}
@@ -200,32 +200,32 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 #### Ajouter une commande macro 
 
 1.  Dans la liste déroulante **Macro**, sélectionnez une macro.
-2.  Saisissez un **Texte de menu**. Ce sera le nom utilisé pour identifier la macro-commande et apparaîtra également dans la barre d\'outils s\'il n\'y a pas d\'icône.
+2.  Saisissez un **Texte du menu**. Ce sera le nom utilisé pour identifier la macro-commande et apparaîtra également dans la barre d\'outils s\'il n\'y a pas d\'icône.
 3.  Vous pouvez également saisir une **Infobulle**. Ce texte apparaîtra près de l\'emplacement de la souris lorsque vous survolez l\'icône de la barre d\'outils.
 4.  Vous pouvez également saisir un **Texte d\'état**. Ce texte apparaîtra dans la [barre d\'état](Status_bar/fr.md) lorsque vous survolez l\'icône de la barre d\'outils.
-5.  Facultativement, entrez la page wiki de la macro, si elle est disponible, dans la zone de saisie **Qu\'est-ce que c\'est**. Saisissez le nom de la page, pas l\'URL complète.
-6.  Vous pouvez également saisir un raccourci dans la zone de saisie **Accélérateur**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
-7.  Pour ajouter une icône:
-    1.  Appuyez sur le bouton **Pixmap** **...**.
+5.  Vous pouvez entrer la page wiki de la macro, si elle est disponible, dans la zone de saisie **Qu\'est-ce que c\'est**. Saisissez le nom de la page, pas l\'URL complète.
+6.  Vous pouvez également saisir un raccourci dans la zone de saisie **Créer un raccourci**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
+7.  Pour ajouter une icône :
+    1.  Appuyez sur le bouton **Icône** **...**.
     2.  La boîte de dialogue **Choisir une icône** s\'ouvre.
     3.  Si nécessaire, appuyez sur le bouton **Dossiers d'icônes...** pour ajouter un dossier d\'icônes.
     4.  Sélectionnez une icône dans le panneau. La boîte de dialogue **Choisir une icône** se ferme automatiquement.
 8.  Appuyez sur le bouton **Ajouter**.
-9.  La macro-commande apparaît dans le panneau de gauche.
-10. La macro-commande peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
+9.  La commande de la macro apparaît dans le panneau de gauche.
+10. La commande de la macro peut maintenant être sélectionnée dans l\'onglet [Barre d\'outils](#Barre_d'outils.md).
 
 
 
-#### Supprimer une commande macro 
+#### Supprimer une commande de macro 
 
-1.  Sélectionnez une commande macro dans le panneau de gauche.
+1.  Sélectionnez la commande de la macro dans le panneau de gauche.
 2.  Appuyez sur le bouton **Supprimer**.
 
 
 
-#### Modifier une commande macro 
+#### Modifier une commande de macro 
 
-1.  Double-cliquez sur la commande macro dans le panneau de gauche.
+1.  Double-cliquez sur la commande de la macro dans le panneau de gauche.
 2.  Apportez les modifications requises. Notez que vous ne pouvez pas supprimer l\'icône, vous pouvez uniquement la remplacer.
 3.  Appuyez sur le bouton **Remplacer**.
 

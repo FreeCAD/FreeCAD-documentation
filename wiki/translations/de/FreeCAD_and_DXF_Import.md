@@ -5,7 +5,7 @@ DXF ist ein proprietäres CAD Datenformat für 2D Zeichnungen, das seinen Urspru
 
 
 
-## Einführung
+## Einleitung
 
 Seit FreeCAD Version 0.18 gibt es einen neuen C++ DXF Importeur, und seit Version 0.19 auch einen neuen C++ DXF Exporteur. Diese neuen Komponenten werden mit FreeCAD installiert.
 
@@ -27,19 +27,17 @@ Für FreeCAD 0.14 oder älter muss es manuell installieren werden:
 
 ### Manuell
 
-1.  Gehe zu [Yoriks Github Konto](https://github.com/yorikvanhavre/Draft-dxf-importer) und lade diese Dateien herunter (auf der rechten Seite kannst Du \"Als ZIP herunterladen\" wählen).
-2.  Lege die Dateien in Deinen Makro Ordner.
-3.  Wenn du unsicher bist, wo dieser Ordner ist, gehe zu **Bearbeiten → Einstellungen → Allgemein → Makro** und überprüfe das Feld namens **Makropfad**.
+1.  Gehe zu [Yoriks Github-Konto](https://github.com/yorikvanhavre/Draft-dxf-importer) und lade diese Dateien herunter (auf der rechten Seite kannst Du \"Als ZIP herunterladen\" wählen).
+2.  Lege die Dateien in Deinen Makro-Ordner.
+3.  Wenn du unsicher bist, wo dieser Ordner ist, gehe zu **Bearbeiten → Einstellungen → Python → Makro** und überprüfe das Feld namens **Makro-Zielpfad**.
 
--   Unter Ubuntu ist dein Makro Ordner normalerweise (der Ordner ist ausgeblendet, du musst ihn eventuell wieder einblenden):
+-   Unter Ubuntu ist dein Makro-Ordner normalerweise (der Ordner ist ausgeblendet, du musst ihn eventuell wieder einblenden):
 
 /home/dein_Benutzername/.FreeCAD 
 
--   Unter Windows ist dein Makro Ordner normalerweise unter:
+-   Unter Windows ist dein Makro-Ordner normalerweise unter:
 
 C:\Benutzer\dein_Benutzername\AppData\Roaming\FreeCAD
-
-Siehe auch: [Dxf Einrichtung Importeur](Dxf_Importer_Install/de.md)
 
 
 

@@ -1,31 +1,38 @@
 ---
  GuiCommand:
    Name: Draft SelectGroup
-   MenuLocation: Utilities , Select group
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Std_Group, Draft_AddToGroup, Draft_AddConstruction, Draft_AutoGroup
+   Name/pl: Rysunek Roboczy: Wybierz grupę
+   MenuLocation: Narzędzia , Wybierz grupę
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Std_Group/pl, Draft_AddToGroup, Draft_AddConstruction/pl, Draft_AutoGroup/pl
 ---
 
 # Draft SelectGroup/pl
 
-## Description
 
-The <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft SelectGroup** command selects the contents of selected [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects. For selected non-group objects, the contents of the group they are in is selected.
 
-The command was revised in FreeCAD version 0.20 and this page describes that version.
+## Opis
 
-## Usage
+Polecenie <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Wybierz grupę** wybiera zawartość zaznaczonych [Grup](Std_Group/pl.md) lub obiektów [Architektury](Arch_Workbench/pl.md) podobnych do grupy. W przypadku wybranych obiektów spoza grupy, wybrana zostanie zawartość grupy, w której się znajdują.
 
-1.  Select one or more objects that are inside groups, and/or select one or more groups.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectGroup.svg" width=16px> [Draft SelectGroup](Draft_SelectGroup.md)** button.
-    -   Select the **Utilities → <img src="images/Draft_SelectGroup.svg" width=16px> Select group** option from the menu.
-    -   Select the **Utilities → <img src="images/Draft_SelectGroup.svg" width=16px> Select group** option from the [Tree view](Tree_view.md) or [3D view](3D_view.md) context menu.
-3.  The contents of the groups is selected.
+Polecenie zostało zmienione w wersji FreeCAD 0.20 i ta strona opisuje tę wersję.
 
-## Notes
 
--   For more information about organizing your model see [Document structure](Document_structure.md) and [Arch tutorial](Arch_tutorial#Organizing_your_model.md).
+
+## Użycie
+
+1.  Wybierz jeden lub więcej obiektów znajdujących się w grupach i/lub wybierz jedną lub więcej grup.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_SelectGroup.svg" width=16px> '''Wybierz grupę'''**.
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_SelectGroup.svg" width=16px> Wybierz grupę**.
+    -   Wybierz opcję **Narzędzia → <img src="images/Draft_SelectGroup.svg" width=16px> Wybierz grupę** z menu podręcznego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+3.  Zawartość grupy zostanie wybrana.
+
+
+
+## Uwagi
+
+-   Więcej informacji na temat organizacji modelu można znaleźć na stronie [Struktura dokumentu](Document_structure/pl.md) oraz [Poradnik dla środowiska pracy Architektura](Arch_tutorial/pl#Porządkowanie_modelu.md).
 
 
 

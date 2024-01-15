@@ -57,9 +57,6 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   Gli elementi Muro condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 -   L\'altezza, la larghezza e l\'allineamento di un muro può essere impostato durante il disegno, tramite il pannello delle Azioni.
 -   Quando aggancia una parete di una parete esistente, entrambe le pareti si uniscono in una sola. Il modo in cui sono unite le due pareti dipende dalle loro proprietà. Se hanno la stessa larghezza, altezza e orientamento, la parete risultante sarà un oggetto basato su uno schizzo composto da più segmenti. Altrimenti, l\'ultima parete verrà unita alla prima come oggetto aggiunta.
@@ -71,10 +68,7 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 -   Facendo doppio clic sul muro nella vista ad albero dopo la sua creazione si attiva la modalità di modifica che permette di accedere alle sue addizioni e sottrazioni e di modificarle .
 -   I muri multistrato possono essere facilmente creati costruendo diversi muri sulla stessa linea base. Impostando la proprietà Align a destra o a sinistra e specificando un valore di offset, si possono costruire efficacemente i diversi strati della parete. Inserendo una finestra in uno degli strati della parete l\'apertura si propaga in tutti gli strati della parete creati con la stessa linea base.
 -   I muri possono anche utilizzare i [ Multi-Materiali](Arch_MultiMaterial/it.md). Quando si utilizza un multi-materiale, la parete diventa multistrato, utilizzando gli spessori specificati nel multi-materiale. A qualsiasi strato con uno spessore pari a zero viene assegnato lo spessore definito automaticamente dallo spazio rimanente definito dal valore Width della parete meno gli altri strati.
--   I muri possono essere fatti per mostrare blocchi, invece di un singolo solido, attivando la proprietà **Make Blocks**. La dimensione e l\'offset dei blocchi possono essere configurati con proprietà diverse e la quantità di blocchi viene calcolata automaticamente. {{Version/it|0.18}}
-
-
-</div>
+-   I muri possono essere fatti per mostrare blocchi, invece di un singolo solido, attivando la proprietà **Make Blocks**. La dimensione e l\'offset dei blocchi possono essere configurati con proprietà diverse e la quantità di blocchi viene calcolata automaticamente.
 
 
 
@@ -89,68 +83,58 @@ Con i muri dell\'ambiente Arch l\'aggancio funziona un po\' diversamente da come
 
 ## Proprietà
 
-Wall objects inherit the properties of [Part](Part_Workbench.md) objects, and also have the following extra properties:
+Gli oggetti muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md) e hanno anche le seguenti proprietà aggiuntive:
 
-### Data
+
+
+### Dati
 
 
 {{TitleProperty|Blocks}}
 
-
-<div class="mw-translate-fuzzy">
-
--    {{PropertyData/it|Make Blocks}}: Abilita questo per far sì che il muro generi blocchi
-
--    {{PropertyData/it|Block Length}}: La lunghezza di ciascun blocco
-
 -    {{PropertyData/it|Block Height}}: L\'altezza di ogni blocco
+
+-    {{PropertyData/it|Block Length}}: La lunghezza di ogni blocco
+
+-    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
+
+-    {{PropertyData/it|Count Entire}}: Il numero di blocchi interi (sola lettura)
+
+-    {{PropertyData/it|Joint}}: La dimensione delle giunzioni tra ogni blocco
+
+-    {{PropertyData/it|Make Blocks}}: Abilitare affinchè il muro generi blocchi
 
 -    {{PropertyData/it|Offset First}}: L\'offset orizzontale della prima riga di blocchi
 
 -    {{PropertyData/it|Offset Second}}: L\'offset orizzontale della seconda riga di blocchi
 
--    {{PropertyData/it|Joint}}: La dimensione delle articolazioni tra ciascun blocco
 
--    {{PropertyData/it|Count Entire}}: Il numero di interi blocchi (sola lettura)
+{{TitleProperty|Componente}}
 
--    {{PropertyData/it|Count Broken}}: Il numero di blocchi interrotti (sola lettura)
-
-
-</div>
+-    **Base**: l\'oggetto base su cui è costruito questo muro
 
 
-{{TitleProperty|Component}}
+{{TitleProperty|Muro}}
 
--    **Base**: The base object this wall is built on
+-    **Align**: L\'allineamento del muro sulla sua linea di base: a sinistra, a destra o al centro
 
+-    **Area**:
 
-{{TitleProperty|Wall}}
+-    **Face**: L\'indice della faccia dell\'oggetto base da usare. Se il valore non è impostato o è 0, viene utilizzato l\'intero oggetto
 
+-    **Height**: L\'altezza del muro (non utilizzato quando il muro è basato su un solido). Se non viene data l\'altezza e il muro è inserito in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, il muro assume automaticamente il valore dell\'altezza del piano.
 
-<div class="mw-translate-fuzzy">
+-    **Length**: La lunghezza del muro (non utilizzato quando il muro è basato su un oggetto)
 
-Gli oggetti Muro ereditano le proprietà degli oggetti [Part](Part_Workbench/it.md), e hanno anche le seguenti proprietà supplementari:
+-    **Normal**: La direzione di estrusione per il muro. Se è impostata a (0,0,0), la direzione di estrusione è automatica.
 
--    {{ProprietaDati|Align}}: L\'allineamento del muro sulla sua linea di base: a sinistra, a destra o al centro
+-    **Offset**: Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
 
--    {{ProprietaDati|Base}}: L\'oggetto di base su cui è costruito il muro
+-    **Override Align**:
 
--    {{ProprietaDati|Face}}: L\'indice della faccia dell\'oggetto base da usare. Se il valore non è impostato o è 0, viene utilizzato l\'intero oggetto
+-    **Override Width**:
 
--    {{ProprietaDati|Force Wire}}: Se è True, e il muro si basa su una faccia, viene usato solo il perimetro della faccia, ottenendo un muro confinante con la faccia
-
--    {{ProprietaDati|Length}}: La lunghezza del muro (non utilizzato quando il muro è basato su un oggetto)
-
--    {{ProprietaDati|Width}}: La larghezza del muro (non utilizzato quando il muro è basato su una faccia).
-
--    {{ProprietaDati|Height}}: L\'altezza del muro (non utilizzato quando il muro è basato su un solido). Se non viene data l\'altezza e il muro è inserito in un oggetto [piano](Arch_Floor/it.md) la cui altezza è definita, il muro assume automaticamente il valore dell\'altezza del piano.
-
--    {{ProprietaDati|Normal}}: La direzione di estrusione per il muro. Se è impostata a (0,0,0), la direzione di estrusione è automatica.
-
--    {{ProprietaDati|Offset}}: Specifica la distanza tra il muro e la sua linea base. Funziona solo se la proprietà Align è impostata a destra o a sinistra.
-
-
-</div>
+-    **Width**: La larghezza del muro (non utilizzato quando il muro è basato su una faccia).
 
 ## Scripting
 

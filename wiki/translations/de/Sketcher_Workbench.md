@@ -78,9 +78,9 @@ Sobald eine Skizze vollständig bestimmt ist, wechselt die Farbe der Skizzenelem
 Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü *Sketch* und/oder mehreren Symbolleisten zu finden. {{Version/de|0.21}}: Fast alle Sketcher-Symbolleisten werden nur dann dargestellt, wenn sich eine Skizze im Bearbeitungsmodus befindet. Die einzige Ausnahme ist die Symbolleiste [Sketcher](#Sketcher_toolbar/de.md), die nur dargestellt wird, wenn sich keine Skizze im Bearbeitungsmodus befindet.
 
 
-<small>(v0.21)</small> 
+{{Version/de|0.21}}
 
-: Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Structure ausgeblendet, da dann keins ihrer Werkzeuge verwendet werden kann.
+: Ist eine Skizze im Bearbeitungsmodus, ist die Werkzeugleiste Struktur ausgeblendet, da dann keins ihrer Werkzeuge verwendet werden kann.
 
 
 
@@ -98,7 +98,7 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü *Sketch* und/oder mehre
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Skizze neu ausrichten](Sketcher_ReorientSketch/de.md): Ermöglicht, die Skizze einer der Hauptebenen zuzuordnen.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skizze überprüfen](Sketcher_ValidateSketch/de.md): Überprüft die Toleranz verschiedener Punkte und passt sie an.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skizze überprüfen](Sketcher_ValidateSketch/de.md): Analysiert und repariert eine Skizze, die nicht mehr bearbeitet werden kann, die ungültige Randbedingungen enthält oder der Koinzidenz-Randbedingungen fehlen.
 
 -   <img alt="" src=images/Sketcher_MergeSketch.svg‎  style="width:32px;"> [Skizzen zusammenführen](Sketcher_MergeSketches/de.md): Führt zwei oder mehr Skizzen zusammen.
 
@@ -106,7 +106,7 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü *Sketch* und/oder mehre
 
 
 
-#### Symbolleiste Sketcher Edit Mode 
+#### Symbolleiste Sketcher-Bearbeitungsmodus 
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Skizze verlassen](Sketcher_LeaveSketch/de.md): Beendet den Bearbeitungsmodus des Sketchers.
 
@@ -116,7 +116,7 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü *Sketch* und/oder mehre
 
 
 
-#### Symbolleiste Sketcher Edit Mode 
+#### Symbolleiste Sketcher-Werkzeuge Bearbeitung 
 
 -   <img alt="" src=images/Sketcher_Grid.svg  style="width:32px;"> [Raster umschalten](Sketcher_Grid/de.md): Aktiviert bzw. deaktiviert das Raster in der aktuell bearbeiteten Skizze. Die Einstellungen können im zugehörigen Menü angepasst werden. {{Version/de|0.21}}
 
@@ -132,7 +132,7 @@ Die Werkzeuge des Arbeitsbereichs Sketcher sind im Menü *Sketch* und/oder mehre
 
 
 
-### Sketcher-Geometrien 
+### Skizzengeometrien
 
 Dies sind Werkzeuge zum Erstellen von Objekten.
 
@@ -140,19 +140,19 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Linie erstellen](Sketcher_CreateLine/de.md): Zeichnet ein Linienabschnitt zwischen 2 Punkten. Linien werden von bestimmten Randbedingungen als unendlich angesehen.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;">[Bogen erstellen](Sketcher_CompCreateArc/de.md): Dies ist ein Symbolmenü in der Sketcher-Werkzeugleiste, das die folgenden Befehle enthält:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Bogen erstellen:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Bogen aus Mittelpunkt erstellen](Sketcher_CreateArc/de.md): Zeichnet ein Kreissegment aus Mittelpunkt, Radius, Startwinkel und Endwinkel.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Kreisbogen durch 3 Punkte erstellen](Sketcher_Create3PointArc/de.md): Zeichnet einen Kreisbogen durch zwei Endpunkte und einem weiteren Punkt auf dem Umfang.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;">[Kreis erstellen](Sketcher_CompCreateCircle/de.md): Dies ist ein Symbolmenü in der Sketcher-Werkzeugleiste, das die folgenden Befehle enthält:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Kreis erstellen:
 
   - <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> [Kreis erstellen](Sketcher_CreateCircle/de.md): Zeichnet einen Kreis aus Mittelpunkt und Radius.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kreis aus drei Punkten erstellen](Sketcher_Create3PointCircle/de.md): Zeichnet einen Kreis durch drei Punkten auf dem Umfang.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Kegelschnitt erstellen](Sketcher_CompCreateConic/de.md): Der Sketcher stellt die folgenden Kegelschnitte bereit. Im Gegensatz zu B-Splines können sie mit allen Arten von Randbedingungen wie z. B. [Tangente setzen](Sketcher_ConstrainTangent/de.md), [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md), oder [Orthogonalität festlegen](Sketcher_ConstrainPerpendicular/de.md) verwendet werden.
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Kegelschnitt erstellen:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse um Mittelpunkt erstellen](Sketcher_CreateEllipseByCenter/de.md): Zeichnet eine Ellipse aus Mittelpunkt, Hauptradiuspunkt und Nebenradiuspunkt.
 
@@ -164,7 +164,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Parabelbogen erstellen](Sketcher_CreateArcOfParabola/de.md): Zeichnet einen Parabelbogen.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [B-spline erstellen](Sketcher_CompCreateBSpline/de.md): Dies ist ein Symbolmenü in der Skizzierer Werkzeugleiste, das die folgenden Befehle enthält:
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-Spline erstellen:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-Spline durch Kontrollpunkte](Sketcher_CreateBSpline/de.md): Zeichnet eine B-Spline-Kurve über ihre Kontrollpunkte.
 
@@ -176,7 +176,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Linienzug erstellen](Sketcher_CreatePolyline/de.md): Zeichnet eine Linie aus mehreren Liniensegmenten. Das Drücken der **M**-Taste während des Zeichnens eines Linienzuges, wechselt zwischen den verschiedenen Linienzug-Modi.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Rechtecke erstellen](Sketcher_CompCreateRectangles/de.md): Dies ist ein Symbolmenü in der Sketcher-Symbolleiste, das die folgenden Befehle enthält: {{Version/de|0.20}}
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Rechteck erstellen:
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Rechteck erstellen](Sketcher_CreateRectangle/de.md): Zeichnet ein Rechteck durch zwei gegenüberliegende Punkte.
 
@@ -184,7 +184,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Abgerundetes Rechteck erstellen](Sketcher_CreateOblong/de.md): Zeichnet ein abgerundetes Rechteck aus 2 gegenüberliegenden Punkten. {{Version/de|0.20}}
 
--   <img alt="" src=images/Sketcher_CreateHexagon.png  style="width:32px;"> [Regelmäßiges Vieleck erstellen](Sketcher_CompCreateRegularPolygon/de.md): Dies ist ein Symbolmenü in der Sketcher-Werkzeugleiste, das die folgenden Befehle enthält:
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Regelmäßiges Vieleck erstellen:
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md): Zeichnet ein gleichseitiges Dreieck, das einem Konstruktionsgeometriekreis einbeschrieben ist.
 
@@ -200,19 +200,25 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Regelmäßiges Vieleck erstellen](Sketcher_CreateRegularPolygon/de.md) : Zeichnet ein regelmäßiges Vieleck durch Auswahl der Anzahl der Seiten und Auswahl zweier Punkte: dem Zentrum und einer Ecke.
 
--   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Nut erstellen](Sketcher_CreateSlot/de.md): Zeichnet ein Oval, indem das Zentrum des einen Halbkreises und ein Endpunkt des anderen Halbkreises ausgewählt werden.
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Oval erstellen:
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Verrundungen](Sketcher_CompCreateFillets/de.md): Dies ist ein Symbolmenü in der Sketcher-Werkzeugleiste, das die folgenden Befehle enthält:
+  - <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Oval erstellen](Sketcher_CreateSlot/de.md): Zeichnet ein Oval, indem das Zentrum des einen Halbkreises und ein Endpunkt des anderen Halbkreises ausgewählt werden. (Eignet sich gleichermaßen für Passfedern wie für (Passfeder-) Nuten)
 
-  - <img alt="" src=images/Sketcher_CreateFillet.png  style="width:32px;"> [Abrundung erstellen](Sketcher_CreateFillet/de.md) (Verrundung): Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Bogenoval](Sketcher_CreateArcSlot/de.md): in Arbeit. {{Version/de|0.22}}
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Verrundung erstellen:
+
+  - <img alt="" src=images/Sketcher_CreateFillet.png  style="width:32px;"> [Verrundung erstellen](Sketcher_CreateFillet/de.md): Erstellt einen Bogen zwischen zwei nicht parallelen Linien.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Eckenerhaltende Verrundung erstellen](Sketcher_CreatePointFillet/de.md): Erstellt einen Bogen zwischen zwei nicht parallelen Linien, wobei ihr (virtueller) Schnittpunkt erhalten bleibt.
 
--   <img alt="" src=images/Sketcher_Trimming.png  style="width:32px;"> [Kante zuschneiden](Sketcher_Trimming/de.md): Stutzt eine Gerade, einen Kreis oder Kreisbogen unter Berücksichtigung des angeklickten Punktes.
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Kante bearbeiten:
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Kante verlängern](Sketcher_Extend/de.md): Verlängert eine Linie oder einen Kreisbogen bis zu einer Grenzlinie, einem Bogen, einer Ellipse, einem Ellipsenbogen oder einem Punkt im Raum.
+  - <img alt="" src=images/Sketcher_Trimming.png  style="width:32px;"> [Kante zuschneiden](Sketcher_Trimming/de.md): Stutzt eine Gerade, einen Kreis oder einen Kreisbogen unter Berücksichtigung des angeklickten Punktes.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Kante teilen](Sketcher_Split/de.md): Teilt eine Kante in zwei und behält dabei die meisten Randbedingungen bei. {{Version/de|0.20}}
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Kante teilen](Sketcher_Split/de.md): Teilt eine Kante in zwei und behält dabei die meisten Randbedingungen bei. {{Version/de|0.20}}
+
+  - <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Kante verlängern](Sketcher_Extend/de.md): Verlängert eine Linie oder einen Kreisbogen bis zu einer begrenzenden Kante, z.B. einer Linie, einem Bogen, einer Ellipse, einem Ellipsenbogen, oder einem Punkt im Raum.
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md): Erstellt eine mit externer Geometrie verknüpfte Kante.
 
@@ -226,19 +232,19 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 Randbedingungen (Festlegungen, Beschränkungen) werden benutzt, um Längen festzulegen, Regeln zwischen Skizzenelementen aufzustellen und die Skizze entlang der vertikalen und horizontalen Achsen festzulegen. Einige Randbedingungen benötigen die Verwendung von [Hilfsrandbedingungen](Sketcher_helper_constraint/de.md).
 
-
-
-#### Geometrische Randbedingungen 
-
-Diese Randbedingungen sind nicht mit numerischen Daten verknüpft.
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [KointidentFestlegen (kombiniert)](Sketcher_ConstrainCoincidentUnified/de.md): in Arbeit\... {{Version/de|0.22}}
 
 -   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md): Befestigt einen oder mehrere Punkte koinzident (= deckungsgleich) auf einem anderen Punkt. Diese Randbedingung verhält sich wie eine Randbedingung Konzentrisch festlegen, wenn zwei oder mehr Kreise, Bögen, Ellipsen oder Ellipsenbögen ausgewählt werden.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md): Befestigt einen Punkt an einem anderen Objekt wie z. B. einer Linie, einem Kreisbogen oder einer Achse.
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertikal festlegen](Sketcher_ConstrainVertical/de.md): Legt die Ausrichtung der ausgewählten Linien oder Linienzugelemente auf genau vertikal fest. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Randbedingung angewendet wird.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Horizontal/Vertikal:
 
--   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Horizontal festlegen](Sketcher_ConstrainHorizontal/de.md): Legt die Ausrichtung der ausgewählten Linien oder Linienzugelemente auf genau horizontal fest. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Randbedingung angewendet wird.
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertikal](Sketcher_ConstrainHorVer.md): in Arbeit. {{Version/de|0.22}}
+
+  - <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Horizontal festlegen](Sketcher_ConstrainHorizontal/de.md): Legt die Ausrichtung der ausgewählten Linien oder Linienzugelemente auf genau horizontal fest. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Randbedingung angewendet wird.
+
+  - <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Vertikal festlegen](Sketcher_ConstrainVertical/de.md): Legt die Ausrichtung der ausgewählten Linien oder Linienzugelemente auf genau vertikal fest. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Randbedingung angewendet wird.
 
 -   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Parallel festlegen](Sketcher_ConstrainParallel/de.md): Legt zwei oder mehr Linien parallel zueinander fest.
 
@@ -252,29 +258,25 @@ Diese Randbedingungen sind nicht mit numerischen Daten verknüpft.
 
 -   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Fixieren](Sketcher_ConstrainBlock/de.md): Blockiert die Bewegung einer Kante, d.h. es wird verhindert, dass ihre Knotenpunkte ihre Lage ändern. Es eignet sich besonders, um die Position von B-Splines zu fixieren. Siehe das [Block Constraint forum topic](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572) (engl.).
 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Maßliche Randbedingungen:
 
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Maßeintrag](Sketcher_Dimension/de.md): in Arbeit. {{Version/de|0.22}}
 
-#### Maßliche Randbedingungen 
+  - <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Sperren](Sketcher_ConstrainLock/de.md): Fixiert das ausgewählte Element (Knotenpunkt), indem der vertikale und der horizontale Abstand relativ zum Ursprung festgelegt werden, wodurch die Position dieses Elements gesperrt wird. Diese Abstandsbedingungen können später bearbeitet werden.
 
-Dies sind Randbedingungen, die mit numerischen Daten verknüpft sind, für die [Ausdrücke](Expressions/de.md) verwendet werden können. Die Daten können aus einer [Kalkulationstabelle](Spreadsheet_Workbench/de.md) entnommen werden.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Horizontalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) (XAbstandFestlegen): Legt den horizontalen Abstand zwischen zwei Punkten oder Linienendpunkten fest. Wenn nur ein Element ausgewählt ist, wird der Abstand zum Ursprung festgelegt.
 
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Sperren](Sketcher_ConstrainLock/de.md): Fixiert das ausgewählte Element (Knotenpunkt), indem der vertikale und der horizontale Abstand relativ zum Ursprung festgelegt werden, wodurch die Position dieses Elements gesperrt wird. Diese Abstandsbedingungen können später bearbeitet werden.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceY/de.md) (YAbstandFestlegen): Legt den vertikalen Abstand zwischen 2 Punkten oder Linienendpunkten fest. Wenn nur ein Element ausgewählt ist, wird der Abstand zum Ursprung festgelegt.
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Horizontalen Abstand festlegen](Sketcher_ConstrainDistanceX/de.md) (XAbstandFestlegen): Legt den horizontalen Abstand zwischen zwei Punkten oder Linienendpunkten fest. Wenn nur ein Element ausgewählt ist, wird der Abstand zum Ursprung festgelegt.
+  - <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Abstand festlegen](Sketcher_ConstrainDistance/de.md): Legt die Länge einer Linie, den senkrechten Abstand eines Punktes zu einer Linie, den Abstand zwischen zwei Punkten oder {{Version/de|0.21}} den Abstand zwischen zwei Kreiskanten fest.
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Vertikalen Abstand festlegen](Sketcher_ConstrainDistanceY/de.md) (YAbstandFestlegen): Legt den vertikalen Abstand zwischen 2 Punkten oder Linienendpunkten fest. Wenn nur ein Element ausgewählt ist, wird der Abstand zum Ursprung festgelegt.
-
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Abstand festlegen](Sketcher_ConstrainDistance/de.md): Legt die Länge einer Linie, den senkrechten Abstand eines Punktes zu einer Linie, den Abstand zwischen zwei Punkten oder {{Version/de|0.21}} den Abstand zwischen zwei Kreiskanten fest.
-
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Radius oder Durchmesser festlegen](Sketcher_CompConstrainRadDia/de.md): Dies ist ein Symbolmenü in der Sketcher-Constraints-Werkzeugleiste, das die folgenden Befehle enthält:
-
-  - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Radius oder Gewicht festlegen](Sketcher_ConstrainRadius/de.md): Legt den Radius eines ausgewählten Kreisbogens oder Kreises fest oder das Gewicht eines B-Spline-Pols.
+  - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Radius](Sketcher_ConstrainRadius/de.md): Legt den Radius eines ausgewählten Kreisbogens oder Kreises fest oder das Gewicht eines B-Spline-Pols.
 
   - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Durchmesser festlegen](Sketcher_ConstrainDiameter/de.md): Legt den Durchmesser eines Kreisbogens oder Kreises fest.
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Automatisch Radius oder Durchmesser festlegen](Sketcher_ConstrainRadiam/de.md): Legt automatisch den Radius eines Bogens, den Durchmesser eines Kreises oder das Gewicht eines B-Spline-Pols fest. {{Version/de|0.20}}
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md): Legt den Innenwinkel zwischen zwei ausgewählten Linien fest.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Winkel festlegen](Sketcher_ConstrainAngle/de.md): Legt den Innenwinkel zwischen zwei ausgewählten Linien fest.
 
 
 
@@ -314,6 +316,10 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Vertikale Achse auswählen](Sketcher_SelectVerticalAxis/de.md): Wählt die vertikale Achse einer Skizze aus.
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Versatzkontur](Sketcher_Offset/de.md): Fügt eine Kontur mit konstantem Abstand um die Ausgewählten Geometrien herum hinzu. {{Version/de|0.22}}
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate/de.md): in Arbeit. {{Version/de|0.22}}
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Symmetrie](Sketcher_Symmetry/de.md): Kopiert ein Skizzenelement symmetrisch zu einer ausgewählten Linie.
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Klonen](Sketcher_Clone/de.md): Klont ein Skizzenelement.
@@ -334,16 +340,6 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 ### Sketcher-B-Spline-Werkzeuge 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md): Blendet die Anzeige des Grades eines B-Splines ein bzw. aus.
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [B-Spline-Kontrollpolygon ein- / ausblenden](Sketcher_BSplinePolygon/de.md): Blendet die Anzeige des Kontrollpolygons eines B-Splines ein bzw. aus.
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [B-Spline-Krümmungskamm ein- / ausblenden](Sketcher_BSplineComb/de.md): Blendet die Anzeige des Krümmungskamms eines B-Splines ein bzw. aus.
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Vielfachheit der B-Spline-Knoten ein- / ausblenden](Sketcher_BSplineKnotMultiplicity/de.md): Blendet die Anzeige der Knotenvielfachheit eines B-Splines ein bzw. aus.
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](Sketcher_BSplinePoleWeight/de.md): Blendet die Anzeige der Gewichte der Kontrollpunkte eines B-Splines ein bzw. aus.
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Geometrie in B-Spline wandeln](Sketcher_BSplineApproximate/de.md): Wandelt geeignete Geometrie, wie Kanten und Kurven, in einen B-Spline.
 
 -   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Grad des B-Splines erhöhen](Sketcher_BSplineIncreaseDegree/de.md): Erhöht den Grad (die Ordnung) eines B-Splines.
@@ -360,9 +356,21 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Randbedingu
 
 
 
-### Virtueller Sketcher-Bereich 
+### Sketcher visuell 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Bereich wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht alle Randbedingungen einer Skizze auszublenden und wieder sichtbar zu machen.
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [B-Spline-Grad ein- / ausblenden](Sketcher_BSplineDegree/de.md): Blendet die Anzeige des Grades eines B-Splines ein bzw. aus.
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [B-Spline-Kontrollpolygon ein- / ausblenden](Sketcher_BSplinePolygon/de.md): Blendet die Anzeige des Kontrollpolygons eines B-Splines ein bzw. aus.
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [B-Spline-Krümmungskamm ein- / ausblenden](Sketcher_BSplineComb/de.md): Blendet die Anzeige des Krümmungskamms eines B-Splines ein bzw. aus.
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Vielfachheit der B-Spline-Knoten ein- / ausblenden](Sketcher_BSplineKnotMultiplicity/de.md): Blendet die Anzeige der Knotenvielfachheit eines B-Splines ein bzw. aus.
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Gewicht der B-Spline-Kontrollpunkte anzeigen / ausblenden](Sketcher_BSplinePoleWeight/de.md): Blendet die Anzeige der Gewichte der Kontrollpunkte eines B-Splines ein bzw. aus.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Kreishelfer für Bögen ein-/ausblenden](Sketcher_ArcOverlay/de.md): in Arbeit. {{Version/de|0.22}}
 
 
 

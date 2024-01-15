@@ -17,14 +17,16 @@
 
 ## Описание
 
-Selects the vertical axis of a sketch.
+The <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:24px;"> **SelectVerticalAxis** command selects the vertical axis of a sketch.
 
 
 
 ## Применение
 
-1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectVerticalAxis.png style="width:16px"> Select vertical axis** from the top menu.
+1.  If not done yet: Open a sketch in edit mode.
+2.  There are several ways to invoke the command:
+    -   Select the **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectVerticalAxis.svg style="width:16px"> Select vertical axis** option from the menu.
+    -   The keyboard shortcut: **Z** then **V**.
 3.  The vertical axis of the sketch will be selected.
 
 

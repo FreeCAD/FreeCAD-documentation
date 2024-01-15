@@ -86,6 +86,8 @@ Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scale](Part_Scale.md): Scales one or more shapes. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
@@ -218,7 +220,13 @@ Estas herramientas realizan operaciones booleanas.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convertir en sólido](Part_MakeSolid/es.md): Convierte un objeto de forma en un objeto sólido.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Invertir formas](Part_ReverseShapes/es.md): Invierte las normales de todas las caras de los objetos seleccionados.
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Invertir formas](Part_ReverseShape/es.md): Invierte las normales de todas las caras de los objetos seleccionados.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

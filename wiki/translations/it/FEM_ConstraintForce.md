@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando applica una forza del valore dato \[N\] alla geometria di destinazione selezionata.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -48,7 +58,7 @@ Questo comando applica una forza del valore dato \[N\] alla geometria di destina
 
 ## Notes
 
--   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+-   The defined force is applied uniformly to the selected objects. For example, if you define one force load with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 <div class="mw-translate-fuzzy">

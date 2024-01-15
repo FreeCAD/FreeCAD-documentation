@@ -11,6 +11,9 @@
 # Sketcher ConstrainCoincident/ru
 
 
+</div>
+
+
 
 ## Описание
 
@@ -66,7 +69,13 @@ As the names `LineFixed` and `LineMoving` indicate, if both constrained vertices
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `LineFixed`, `PointOfLineFixed`, `LineMoving` and `PointOfLineMoving`, and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher_Tools_navi

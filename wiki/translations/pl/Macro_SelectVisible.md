@@ -7,7 +7,7 @@
 |Version=1.0
 |Date=2016-04-08
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/5/51/SelectVisible.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/5/51/SelectVisible.png ToolBar Icon]
 }}
 
 ## Description
@@ -17,11 +17,11 @@ All visible objects in the tree and only these will be selected.
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/SelectVisible.FCMacro}}
 
-## How To Use 
+## Usage
 
 Copy the macro in your macros\' folder and run (see [How to install macros](How_to_install_macros.md) for further details).
 
-## Code
+## Script
 
 The latest version of the macro is to be found at <https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/SelectVisible.FCMacro>
 
@@ -34,7 +34,7 @@ __Name__ = 'Select Visible'
 __Comment__ = 'All visible objects in the tree will be selected'
 __Web__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
 __Wiki__ = 'http://www.freecadweb.org/wiki/Macro_SelectVisible'
-__Icon__ = 'SelectVisible.svg'
+__Icon__ = 'https://wiki.freecad.org/images/5/51/SelectVisible.png'
 __Help__ = 'All visible objects in the tree and only these will be selected'
 __Author__ = 'galou_breizh'
 __Version__ = '1.0'

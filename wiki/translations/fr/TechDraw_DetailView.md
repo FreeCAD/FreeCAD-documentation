@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw DetailView
    Name/fr: TechDraw Vue détaillée
-   MenuLocation: TechDraw , Insérer une vue de détail
+   MenuLocation: TechDraw , Vues de Techdraw , Insérer une vue détaillée
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_View/fr, TechDraw_ProjectionGroup/fr
@@ -15,19 +15,36 @@
 L\'outil **TechDraw Vue détaillée** crée une vue d\'une petite zone d\'une vue existante.
 
 ![](images/ViewDetail.png ) 
-*Vue détaillée avec vue circulaire d'une vue existante*
+*Vue détaillée avec un contour circulaire*
 
 
 
 ## Utilisation
 
--   Sélectionnez une vue dans la page ou l\'arborescence.
--   Appuyez sur le bouton **<img src="images/TechDraw_DetailView.svg" width=16px> [Insérer une vue de détail](TechDraw_DetailView/fr.md)** pour créer la vue détaillée.
--   Dans la boîte de dialogue de tâche qui apparaît, vous pouvez définir le rayon de la zone de vue, l\'échelle et la position de la vue. Pour ce dernier, vous pouvez le faire
-    -   soit en changeant les coordonnées
-    -   ou en appuyant sur le bouton **Déplacer la sélection**. Dans ce cas, la bordure d\'origine du détail est mise en évidence en gras et avec l\'étiquette *drag*. Cliquez sur la bordure ou l\'étiquette, maintenez le bouton de la souris enfoncé et faites-la glisser à la position souhaitée. Relâchez enfin la souris pour accepter le changement.
+1.  Sélectionnez une vue de base pour la vue détaillée.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_DetailView.svg" width=16px> [Insérer une vue détaillée](TechDraw_DetailView/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_DetailView.svg" width=16px> Insérer une vue détaillée** dans le menu.
+3.  Un contour de surbrillance est ajouté à la vue de base, une vue détaillée est ajoutée à la page et un panneau de tâches s\'ouvre.
+4.  Pour plus de visibilé, il est préférable de déplacer la vue détaillée de manière à ce qu\'elle ne chevauche pas avec la vue de base : maintenez le bouton gauche de la souris enfoncé sur son cadre ou son étiquette et faites-la glisser vers une nouvelle position.
+5.  Pour modifier la position du contour de surbrillance, procédez comme suit :
+    -   Déplacez le contour en le faisant glisser :
+        1.  Appuyez sur le bouton **Déplacez la sélection**.
+        2.  Le contour est marqué sur la page et une étiquette temporaire \"glisser\" est ajoutée.
+        3.  Maintenez le bouton gauche de la souris enfoncé sur le contour lui-même ou sur cette étiquette et faites glisser le contour vers une nouvelle position.
+    -   Déplacez le contour par saisie de coordonnées :
+        1.  Modifiez les coordonnées X et Y dans le panneau des tâches. Les coordonnées sont relatives au centre de la vue de base.
+6.  Modifiez éventuellement le **Rayon** de la vue détaillée.
+7.  Modifier éventuellement le **Type d\'échelle** et le **Facteur d\'échelle** de la vue détaillée. Voir [TechDraw Vue](TechDraw_View/fr#Propriétés.md) pour plus d\'informations.
+8.  Spécifier une étiquette **Référence**. Cette étiquette sera affichée près du contour de la surbrillance.
 
-La Vue détaillée peut être affichée dans une boîte de vue ronde ou carrée. Ceci est contrôlé par les paramètres de [préférences](TechDraw_Preferences/fr#Annotation.md) **Forme de contour de la vue détaillée**.
+
+
+## Remarques
+
+-   Pour modifier une vue détaillée, double-cliquez dessus dans la vue en arborescence.
+-   Les contours des vues détaillées peuvent être ronds ou carrés. Ceci est contrôlé par la **Forme du contour pour les vues détaillées** des [préférences](TechDraw_Preferences/fr#Annotation.md).
+-   [Forum avec une bonne discussion sur la détermination du point d\'ancrage](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281).
 
 
 
@@ -42,11 +59,11 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Detail}}
 
--    **Base View|Link**: la vue sur laquelle cette vue détaillée est basée.
+-    **Base View|Link**: la vue sur laquelle la vue détaillée est basée.
 
--    **Anchor Point|Vector**: le centre de la vue détaillée dans la **Base View**.
+-    **Anchor Point|Vector**: centre de la vue détaillée dans la **Base View**.
 
--    **Radius|Float**: la taille de la zone de la **Base View** qui est affichée dans la vue détaillée.
+-    **Radius|Float**: taille de la zone de la **Base View** affichée dans la vue détaillée.
 
 -    **Reference|String**: un identifiant pour la vue détaillée dans la **Base View**.
 
@@ -54,33 +71,20 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 ## Propriétés Vue de base 
 
-Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme **Base View**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail :
-
--    **Highlight Adjust**: angle de rotation dans le sens horaire de la vue de détail.
-
--    **Highlight Line Color**: couleur de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
-
--    **Highlight Line Style**: style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+Une vue détaillée hérite de toutes les propriétés applicables de sa **Base View**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour détaillé :
 
 
 
-## Remarques
-
--   [Une bonne discussion sur la configuration de Anchor](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+### Vue
 
 
+{{TitleProperty|Highlight}}
 
-## Script
+-    **Highlight Adjust|Float**: voir [TechDraw Vue](TechDraw_View/fr#Vue.md)
 
-Voir aussi : [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) et [FreeCAD Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+-    **Highlight Line Color|Color**: Idem.
 
-L\'outil Vue détaillée peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
-
-
-```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
-...TBA
-```
+-    **Highlight Line Style|Enumeration**: Idem.
 
 
 

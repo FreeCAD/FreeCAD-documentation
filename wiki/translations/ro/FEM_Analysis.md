@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -18,6 +20,8 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +41,8 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 </div>
 
+
+
 ## Opțiuni
 
 
@@ -48,9 +54,13 @@ Analiza MEF poate fi văzută ca un Container care cuprinde toate obiectele Fini
 
 </div>
 
+
+
 ## Proprietăți
 
 -    **OutpuDir**: Specifică directorul de lucru a analizei
+
+
 
 ## Programare-Script 
 

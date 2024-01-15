@@ -12,13 +12,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug ermöglicht die Untersuchung des internen FreeCAD G-Code Dialektinhalts eines Pfad Arbeitsgangsobjekts.
-
-
-</div>
+Das Werkzeug <img alt="" src=images/Path_Inspect.svg  style="width:24px;"> [Path Untersuchen](Path_Inspect/de.md) ermöglicht die Durchsicht der Inhalte eines Path-Operation-Objekts, die in FreeCADs internem G-Code-Dialekt vorliegen.
 
 ![](images/Path_inspector.jpg )
 

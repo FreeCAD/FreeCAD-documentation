@@ -15,7 +15,7 @@ The <img alt="" src=images/Path_SelectLoop.svg  style="width:16px;"> [SelectLoop
 
 ## Usage
 
-1.  Select two edges that share a common vertex.
+1.  Select an edge.
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Path_SelectLoop.svg" width=16px> [Path SelectLoop](Path_SelectLoop.md)** button.
     -   Select the **Path → <img src="images/Path_SelectLoop.svg" width=16px> Finish Selecting Loop** option from the menu.

@@ -1,18 +1,14 @@
 # Python console/es
 **(Enero 2020) FreeCAD fue diseñado originalmente para trabajar con Python 2. Desde que Python 2 llegó al final de su vida útil en 2020, el desarrollo futuro de FreeCAD se hará exclusivamente con Python 3, y no se soportará la compatibilidad hacia atrás.**
 
+
+
 ## Introducción
 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-La [Consola de Python](Python_console/es.md) es un panel que ejecuta una instancia del intérprete de [Python](Python/es.md) que puede ser utilizado para controlar los procesos de FreeCAD, y crear y modificar objetos y sus propiedades.
-
-
-</div>
+La [consola de Python](Python_console/es.md) es un panel que es parte de la [interfaz de usuario](interface/es.md) de FreeCAD. Ejecuta una instancia del intérprete de [Python](Python/es.md) que puede ser utilizado para controlar los procesos de FreeCAD, y crear y modificar objetos y sus propiedades.
 
 It can be made visible/hidden through the **View → Panels → Python console** drop-down menu.
 
@@ -23,6 +19,8 @@ La consola de Python en FreeCAD tiene resaltado de sintaxis básico, capaz de di
 
 
 *La consola de Python mostrando mensajes cuando FreeCAD acaba de iniciarse.*
+
+
 
 ## Guión
 
@@ -65,6 +63,8 @@ FreeCAD.newDocument()
 
 estos módulos y alias precargados sólo están disponibles desde la consola de Python incrustada dentro del programa FreeCAD. Si utiliza FreeCAD como una biblioteca en un programa externo, debe recordar cargar los módulos `FreeCAD` y `FreeCADGui` y definir los alias necesarios si lo desea.
 
+
+
 ## Acciones
 
 Right click on the Python console shows some commands:
@@ -86,6 +86,8 @@ Right click on the Python console shows some commands:
 -    **Insert file name**: opens a dialog to search for a file in the system, then it inserts the full path of the file. This is useful to test functions that process an input file, without having to write the entire name in the console, which is error prone. This command does not run the file, and does not import it as a Python module, it just returns the full path of that file.
 
 -    **Word wrap**: wrap very long lines that exceed the horizontal dimension of the Python console.
+
+
 
 ## Notas
 

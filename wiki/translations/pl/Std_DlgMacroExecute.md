@@ -15,7 +15,7 @@
 
 Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym oknie dialogowym można wykonywać makra, edytować je i zarządzać nimi.
 
-![](images/Std_DlgMacroExecute_dialog.png ) 
+<img alt="" src=images/Std_DlgMacroExecute_dialog.png  style="width:300px;"> 
 *The Execute macro dialog box*
 
 
@@ -33,17 +33,57 @@ Polecenie **Makrodefinicje \...** otwiera okno dialogowe Wykonaj makro. W tym ok
 
 
 
+### Znajdź plik / Znajdź w plikach 
+
+:   
+    {{Version/pl|0.22}}
+    
+
+
+
+
+
+:   Te dwa pola wejściowe mogą być używane do filtrowania makrodefinicji z listy plików na karcie \" Makrodefinicje użytkownika\" lub \" Makrodefinicje systemowe\". Można użyć wyrażeń regularnych lub po prostu wprowadzić tekst. Wielkość liter nie ma znaczenia dla wszystkich dopasowań.
+
+**Znajdź plik** filtruje listę według nazwy pliku. Tylko nazwy plików pasujące do wprowadzonego tekstu pojawią się na liście. **Znajdź w plikach** filtruje listę według zawartości pliku. Na liście pojawią się tylko pliki, których zawartość tekstowa odpowiada wprowadzonemu tekstowi.
+
+:   Usuń cały tekst z pola wprowadzania filtra, aby go wyłączyć. Jeśli oba pola wprowadzania zawierają tekst, stosowane są oba filtry. Filtrowanie może spowodować wyświetlenie pustej listy.
+
+
+
 ### Makrodefinicje użytkownika 
 
-1.  Zakładka **Makrodefinicje użytkownika** zawiera listę dostępnych makrodefinicji w **lokalizacji makrodefinicji użytkownika**.
-2.  Kliknij makro, aby je wybrać.
-3.  Nazwa wybranej makrodefinicji zostanie wyświetlona w polu **Nazwa makrodefinicji**.
+:   Zakładka **Makrodefinicje użytkownika** zawiera listę makrodefinicji dostępnych w lokalizacji **Makrodefinicje użytkownika**.
+
+1.  Kliknij makrodefinicję z listy, aby ją wybrać.
+2.  Nazwa wybranej makrodefinicji zostanie wyświetlona w polu **Nazwa makrodefinicji**.
 
 
 
 ### Makrodefinicje systemowe 
 
-:   Karta **Makrodefinicje systemowe** nie jest obecnie używana.
+:   Aby skorzystać z zakładki **Makrodefinicje systemowe** należy utworzyć folder o nazwie **Macro** jako folder podrzędny folderu **bin**, w którym zainstalowany jest FreeCAD i umieścić tam kilka makrodefinicji.
+
+
+
+
+
+:   Aby znaleźć folder **bin** wpisz następujące polecenie w [konsoli Python](Python_console/pl.md):
+
+
+
+
+
+:   
+    
+```python
+    App.getHomePath()
+    
+```
+    
+
+1.  Kliknij makrodefinicję z listy, aby ją wybrać.
+2.  Nazwa wybranej makrodefinicji zostanie wyświetlona w polu **Nazwa makrodefinicji**.
 
 
 

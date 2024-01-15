@@ -3,6 +3,8 @@
 
 Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modele de donnes\].
 
+
+
 ## Elemento Segmento 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
@@ -12,6 +14,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
   E1     N1       N2       N3
 
   : Edges of Seg2 and Seg3
+
+
 
 ## Elemento Triangolo 
 
@@ -43,6 +47,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Face by Nodes of Tria6
 
+
+
 ## Elemento Quadrangolo 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
@@ -73,6 +79,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
   F1     N1       N5       N2       N6       N3       N7       N4       N8       N1
 
   : Face by Nodes of Quad8
+
+
 
 ## Elemento Tetraedro 
 
@@ -115,6 +123,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
   F4     N3       N10      N4       N8       N1       N7       N3
 
   : Faces by Nodes of Tetra10
+
+
 
 ## Elemento Esaedro 
 
@@ -159,7 +169,7 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Nodes of Hexa8
 
-  Face   Node 1   Node 2   Node 3   Node 4   Node 5   Node 6   Node 7   Node 8   Node1
+  Face   Node 1   Node 2   Node 3   Node 4   Node 5   Node 6   Node 7   Node 8   Node 1
            
   F1     N1       N9       N2       N10      N3       N11      N4       N12      N1
   F2     N5       N16      N8       N15      N7       N14      N6       N13      N5
@@ -169,6 +179,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
   F6     N4       N20      N8       N16      N5       N17      N1       N12      N4
 
   : Faces by Nodes of Hexa20
+
+
 
 ## Elemento Pentaedro (prisma) 
 
@@ -218,6 +230,8 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Nodes of Penta15
 
+
+
 ## Elemento Piramide 
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
@@ -245,23 +259,23 @@ Questa descrizione è basata sul formato MED come descritto in \[<https://hammi.
 
   : Faces by Edges of Pyra5 and Pyra13
 
-  Face   Node 1   Node 2   Node 3   Node4   Node1
+  Face   Node 1   Node 2   Node 3   Node 4   Node 1
        
-  F1     N1       N2       N3       N4      N1
-  F2     N1       N5       N2       \_      N1
-  F3     N2       N5       N3       \_      N2
-  F4     N3       N5       N4       \_      N3
-  F5     N4       N5       N1       \_      N4
+  F1     N1       N2       N3       N4       N1
+  F2     N1       N5       N2       \_       N1
+  F3     N2       N5       N3       \_       N2
+  F4     N3       N5       N4       \_       N3
+  F5     N4       N5       N1       \_       N4
 
   : Faces by Nodes of Pyra5
 
-  Face   Node 1   Node 2   Node 3   Node4   Node 5   Node 6   Node 7   Node8   Node1
+  Face   Node 1   Node 2   Node 3   Node4   Node 5   Node 6   Node 7   Node 8   Node 1
            
-  F1     N1       N6       N2       N7      N3       N8       N4       N9      N1
-  F2     N1       N10      N5       N11     N2       N6       \_       \_      N1
-  F3     N2       N11      N5       N12     N13      N7       \_       \_      N2
-  F4     N3       N12      N5       N13     N4       N8       \_       \_      N3
-  F5     N4       N13      N5       N10     N1       N9       \_       \_      N4
+  F1     N1       N6       N2       N7      N3       N8       N4       N9       N1
+  F2     N1       N10      N5       N11     N2       N6       \_       \_       N1
+  F3     N2       N11      N5       N12     N13      N7       \_       \_       N2
+  F4     N3       N12      N5       N13     N4       N8       \_       \_       N3
+  F5     N4       N13      N5       N10     N1       N9       \_       \_       N4
 
   : Faces by Nodes of Pyra13
 

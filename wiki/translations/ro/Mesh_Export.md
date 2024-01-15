@@ -16,7 +16,7 @@ The **Mesh Export** command exports a mesh object to a mesh file format. Several
 
 1.  Select a single mesh object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Export.svg" width=16px> [Mesh Export](Mesh_Export.md)** button.
+    -   Press the **<img src="images/Mesh_Export.svg" width=16px> [Export mesh...](Mesh_Export.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the menu.
     -   Select the **<img src="images/Mesh_Export.svg" width=16px> Export mesh...** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
 3.  Select the correct file format in the dialog box.

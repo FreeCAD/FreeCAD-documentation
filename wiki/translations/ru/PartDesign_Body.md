@@ -187,7 +187,7 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 Базовый конструктивный элемент - это первый [конструктивный элемент](PartDesign_Feature/ru.md) в Теле, в случае если Тело сформировано на другой твердой форме. Это твердое тело может быть создано во многих верстаках или импортировано из внешнего файла, например из STEP файла.
 
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
-*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+*Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.*
 
 To create the Base Feature:
 

@@ -43,7 +43,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [A cascata](Std_CascadeWindows/it.md): Dispone le finestre a cascata
 
--   [Finestre\...](Std_Windows/it.md): Apre una finestra di dialogo da cui è possibile attivare una finestra.
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;">[Finestre\...](Std_Windows/it.md): Apre una finestra di dialogo da cui è possibile attivare una finestra.
 
 
 

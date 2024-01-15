@@ -19,34 +19,35 @@ This category contains macros to extend your FreeCAD installation with new funct
 | [Macro CenterOfMass/en](Macro_CenterOfMass/en.md) | [Macro Circle/en](Macro_Circle/en.md) | [Macro CirclePlus/en](Macro_CirclePlus/en.md) |
 | [Macro clone explicit/en](Macro_clone_explicit/en.md) | [Macro CloneConvert/en](Macro_CloneConvert/en.md) | [Macro Colorize/en](Macro_Colorize/en.md) |
 | [Macro Compound Plus/en](Macro_Compound_Plus/en.md) | [Macro Connect And Sweep/en](Macro_Connect_And_Sweep/en.md) | [Macro Constraint Draft/en](Macro_Constraint_Draft/en.md) |
-| [Macro Copy3DViewToClipboard/en](Macro_Copy3DViewToClipboard/en.md) | [Macro Corner shapes wizard/en](Macro_Corner_shapes_wizard/en.md) | [Macro Corner shapes wizard/update/en](Macro_Corner_shapes_wizard/update/en.md) |
-| [Macro crank simul/en](Macro_crank_simul/en.md) | [Macro Creating faces from a DXF file/en](Macro_Creating_faces_from_a_DXF_file/en.md) | [Macro cross section/en](Macro_cross_section/en.md) |
-| [Macro Cut Circle/en](Macro_Cut_Circle/en.md) | [Macro Cut Line/en](Macro_Cut_Line/en.md) | [Macro DeepCopy/en](Macro_DeepCopy/en.md) |
-| [Macro Delta xyz/en](Macro_Delta_xyz/en.md) | [Macro documentation/en](Macro_documentation/en.md) | [Macro Draft Circle 3 Points 3D/en](Macro_Draft_Circle_3_Points_3D/en.md) |
-| [Macro Draft Circle 3 Points/en](Macro_Draft_Circle_3_Points/en.md) | [Macro Draft Circle Tangent/en](Macro_Draft_Circle_Tangent/en.md) | [Macro Draw 2D Function/en](Macro_Draw_2D_Function/en.md) |
-| [Macro Draw Parametric 2D Function/en](Macro_Draw_Parametric_2D_Function/en.md) | [Macro Dump Objects/en](Macro_Dump_Objects/en.md) | [Macro Duplicate Selection/en](Macro_Duplicate_Selection/en.md) |
-| [Macro DXF to Face and Sketch/en](Macro_DXF_to_Face_and_Sketch/en.md) | [Macro Easy cutouts for Enclosure Design/en](Macro_Easy_cutouts_for_Enclosure_Design/en.md) | [Macro EasyAlias/en](Macro_EasyAlias/en.md) |
-| [Macro EdgesToArc/en](Macro_EdgesToArc/en.md) | [Macro Editor Assistant/en](Macro_Editor_Assistant/en.md) | [Macro Ellipse-Center+2Points/en](Macro_Ellipse-Center+2Points/en.md) |
-| [Macro ExpandTreeItem/en](Macro_ExpandTreeItem/en.md) | [Macro export transient FEM results/en](Macro_export_transient_FEM_results/en.md) | [Macro Extract Wires from Mesh/en](Macro_Extract_Wires_from_Mesh/en.md) |
-| [Macro FaceToSketch/en](Macro_FaceToSketch/en.md) | [Macro FC Convert Lines/en](Macro_FC_Convert_Lines/en.md) | [Macro FC element selector/en](Macro_FC_element_selector/en.md) |
-| [Macro FCBmpImport/en](Macro_FCBmpImport/en.md) | [Macro FCCamera/en](Macro_FCCamera/en.md) | [Macro FCCamGroover/en](Macro_FCCamGroover/en.md) |
-| [Macro FCCircularText/en](Macro_FCCircularText/en.md) | [Macro FCGear/en](Macro_FCGear/en.md) | [Macro FCHoneycombMaker/en](Macro_FCHoneycombMaker/en.md) |
-| [Macro FCInfo Alternate Linux/en](Macro_FCInfo_Alternate_Linux/en.md) | [Macro FCInfo ToolBar/en](Macro_FCInfo_ToolBar/en.md) | [Macro FCInfo/en](Macro_FCInfo/en.md) |
-| [Macro FCInfoGlass/en](Macro_FCInfoGlass/en.md) | [Macro FCInfoToMouse/en](Macro_FCInfoToMouse/en.md) | [Macro FCSpreadSheet Extract/en](Macro_FCSpreadSheet_Extract/en.md) |
-| [Macro FCSpring Helix Variable/en](Macro_FCSpring_Helix_Variable/en.md) | [Macro FCSpring On Surface/en](Macro_FCSpring_On_Surface/en.md) | [Macro FCTreeView/en](Macro_FCTreeView/en.md) |
-| [Macro FCWire To Volume/en](Macro_FCWire_To_Volume/en.md) | [Macro findConfigFiles/en](Macro_findConfigFiles/en.md) | [Macro FlattenWire/en](Macro_FlattenWire/en.md) |
-| [Macro FlattenWire3Points/en](Macro_FlattenWire3Points/en.md) | [Macro Fonts Win10 PYMP/en](Macro_Fonts_Win10_PYMP/en.md) | [Macro ForceRecompute/en](Macro_ForceRecompute/en.md) |
-| [Macro FreeCAD to Kerkythea/en](Macro_FreeCAD_to_Kerkythea/en.md) | [Macro GenerateDrawing/en](Macro_GenerateDrawing/en.md) | [Macro GenerateViews/en](Macro_GenerateViews/en.md) |
-| [Macro Geneva Wheel GUI/en](Macro_Geneva_Wheel_GUI/en.md) | [Macro Geneva Wheel/en](Macro_Geneva_Wheel/en.md) | [Macro Geodesic Dome/en](Macro_Geodesic_Dome/en.md) |
-| [Macro Global Variable Watcher/en](Macro_Global_Variable_Watcher/en.md) | [Macro GMSH/en](Macro_GMSH/en.md) | [Macro GuiResetToolbars/en](Macro_GuiResetToolbars/en.md) |
-| [Macro Guitar fretboard/en](Macro_Guitar_fretboard/en.md) | [Macro Guitar Nut/en](Macro_Guitar_Nut/en.md) | [Macro Half turn stairs/en](Macro_Half_turn_stairs/en.md) |
-| [Macro Half-Hull Model/en](Macro_Half-Hull_Model/en.md) | [Macro HealArcs/en](Macro_HealArcs/en.md) | [Macro HiddenAlls/en](Macro_HiddenAlls/en.md) |
-| [Macro HighlightCommon/en](Macro_HighlightCommon/en.md) | [Macro HighlightDifference/en](Macro_HighlightDifference/en.md) | [Macro HilbertCurve/en](Macro_HilbertCurve/en.md) |
-| [Macro hinge/en](Macro_hinge/en.md) | [Macro Honeycomb/en](Macro_Honeycomb/en.md) | [Macro If Selected Stay If Not Then Delete/en](Macro_If_Selected_Stay_If_Not_Then_Delete/en.md) |
-| [Macro Iges PyImporter/en](Macro_Iges_PyImporter/en.md) | [Macro Image Scaling/en](Macro_Image_Scaling/en.md) | [Macro ImperialScales/en](Macro_ImperialScales/en.md) |
-| [Macro ImportAirfoil/en](Macro_ImportAirfoil/en.md) | [Macro Intersection/en](Macro_Intersection/en.md) | [Macro Joint/en](Macro_Joint/en.md) |
-| [Macro JointWire/en](Macro_JointWire/en.md) | [Macro Kerkythea/en](Macro_Kerkythea/en.md) | [Macro Line Length/en](Macro_Line_Length/en.md) |
-| [Macro Loft/en](Macro_Loft/en.md) | [Macro MacroMenu/en](Macro_MacroMenu/en.md) | [Macro Make Arc 3 Points/en](Macro_Make_Arc_3_Points/en.md) |
+| [Macro ConstraintToAlias/en](Macro_ConstraintToAlias/en.md) | [Macro Copy3DViewToClipboard/en](Macro_Copy3DViewToClipboard/en.md) | [Macro Corner shapes wizard/en](Macro_Corner_shapes_wizard/en.md) |
+| [Macro Corner shapes wizard/update/en](Macro_Corner_shapes_wizard/update/en.md) | [Macro crank simul/en](Macro_crank_simul/en.md) | [Macro Creating faces from a DXF file/en](Macro_Creating_faces_from_a_DXF_file/en.md) |
+| [Macro cross section/en](Macro_cross_section/en.md) | [Macro Cut Circle/en](Macro_Cut_Circle/en.md) | [Macro Cut Line/en](Macro_Cut_Line/en.md) |
+| [Macro DeepCopy/en](Macro_DeepCopy/en.md) | [Macro Delta xyz/en](Macro_Delta_xyz/en.md) | [Macro documentation/en](Macro_documentation/en.md) |
+| [Macro Draft Circle 3 Points 3D/en](Macro_Draft_Circle_3_Points_3D/en.md) | [Macro Draft Circle 3 Points/en](Macro_Draft_Circle_3_Points/en.md) | [Macro Draft Circle Tangent/en](Macro_Draft_Circle_Tangent/en.md) |
+| [Macro Draw 2D Function/en](Macro_Draw_2D_Function/en.md) | [Macro Draw Parametric 2D Function/en](Macro_Draw_Parametric_2D_Function/en.md) | [Macro Dump Objects/en](Macro_Dump_Objects/en.md) |
+| [Macro Duplicate Selection/en](Macro_Duplicate_Selection/en.md) | [Macro DXF to Face and Sketch/en](Macro_DXF_to_Face_and_Sketch/en.md) | [Macro Easy cutouts for Enclosure Design/en](Macro_Easy_cutouts_for_Enclosure_Design/en.md) |
+| [Macro EasyAlias/en](Macro_EasyAlias/en.md) | [Macro EasyReflector/en](Macro_EasyReflector/en.md) | [Macro EdgesToArc/en](Macro_EdgesToArc/en.md) |
+| [Macro Editor Assistant/en](Macro_Editor_Assistant/en.md) | [Macro Ellipse-Center+2Points/en](Macro_Ellipse-Center+2Points/en.md) | [Macro ExpandTreeItem/en](Macro_ExpandTreeItem/en.md) |
+| [Macro export transient FEM results/en](Macro_export_transient_FEM_results/en.md) | [Macro Extract Wires from Mesh/en](Macro_Extract_Wires_from_Mesh/en.md) | [Macro FaceToSketch/en](Macro_FaceToSketch/en.md) |
+| [Macro FC Convert Lines/en](Macro_FC_Convert_Lines/en.md) | [Macro FC element selector/en](Macro_FC_element_selector/en.md) | [Macro FCBmpImport/en](Macro_FCBmpImport/en.md) |
+| [Macro FCCamera/en](Macro_FCCamera/en.md) | [Macro FCCamGroover/en](Macro_FCCamGroover/en.md) | [Macro FCCircularText/en](Macro_FCCircularText/en.md) |
+| [Macro FCGear/en](Macro_FCGear/en.md) | [Macro FCHoneycombMaker/en](Macro_FCHoneycombMaker/en.md) | [Macro FCInfo Alternate Linux/en](Macro_FCInfo_Alternate_Linux/en.md) |
+| [Macro FCInfo ToolBar/en](Macro_FCInfo_ToolBar/en.md) | [Macro FCInfo/en](Macro_FCInfo/en.md) | [Macro FCInfoGlass/en](Macro_FCInfoGlass/en.md) |
+| [Macro FCInfoToMouse/en](Macro_FCInfoToMouse/en.md) | [Macro FCSpreadSheet Extract/en](Macro_FCSpreadSheet_Extract/en.md) | [Macro FCSpring Helix Variable/en](Macro_FCSpring_Helix_Variable/en.md) |
+| [Macro FCSpring On Surface/en](Macro_FCSpring_On_Surface/en.md) | [Macro FCTreeView/en](Macro_FCTreeView/en.md) | [Macro FCWire To Volume/en](Macro_FCWire_To_Volume/en.md) |
+| [Macro findConfigFiles/en](Macro_findConfigFiles/en.md) | [Macro FlattenWire/en](Macro_FlattenWire/en.md) | [Macro FlattenWire3Points/en](Macro_FlattenWire3Points/en.md) |
+| [Macro Fonts Win10 PYMP/en](Macro_Fonts_Win10_PYMP/en.md) | [Macro ForceRecompute/en](Macro_ForceRecompute/en.md) | [Macro FreeCAD to Kerkythea/en](Macro_FreeCAD_to_Kerkythea/en.md) |
+| [Macro GenerateDrawing/en](Macro_GenerateDrawing/en.md) | [Macro GenerateViews/en](Macro_GenerateViews/en.md) | [Macro Geneva Wheel GUI/en](Macro_Geneva_Wheel_GUI/en.md) |
+| [Macro Geneva Wheel/en](Macro_Geneva_Wheel/en.md) | [Macro Geodesic Dome/en](Macro_Geodesic_Dome/en.md) | [Macro Global Variable Watcher/en](Macro_Global_Variable_Watcher/en.md) |
+| [Macro GMSH/en](Macro_GMSH/en.md) | [Macro GuiResetToolbars/en](Macro_GuiResetToolbars/en.md) | [Macro Guitar fretboard/en](Macro_Guitar_fretboard/en.md) |
+| [Macro Guitar Nut/en](Macro_Guitar_Nut/en.md) | [Macro Half turn stairs/en](Macro_Half_turn_stairs/en.md) | [Macro Half-Hull Model/en](Macro_Half-Hull_Model/en.md) |
+| [Macro HealArcs/en](Macro_HealArcs/en.md) | [Macro HiddenAlls/en](Macro_HiddenAlls/en.md) | [Macro HighlightCommon/en](Macro_HighlightCommon/en.md) |
+| [Macro HighlightDifference/en](Macro_HighlightDifference/en.md) | [Macro HilbertCurve/en](Macro_HilbertCurve/en.md) | [Macro hinge/en](Macro_hinge/en.md) |
+| [Macro Honeycomb/en](Macro_Honeycomb/en.md) | [Macro If Selected Stay If Not Then Delete/en](Macro_If_Selected_Stay_If_Not_Then_Delete/en.md) | [Macro Iges PyImporter/en](Macro_Iges_PyImporter/en.md) |
+| [Macro Image Scaling/en](Macro_Image_Scaling/en.md) | [Macro ImperialScales/en](Macro_ImperialScales/en.md) | [Macro ImportAirfoil/en](Macro_ImportAirfoil/en.md) |
+| [Macro Intersection/en](Macro_Intersection/en.md) | [Macro Joint/en](Macro_Joint/en.md) | [Macro JointWire/en](Macro_JointWire/en.md) |
+| [Macro Kerkythea/en](Macro_Kerkythea/en.md) | [Macro Line Length/en](Macro_Line_Length/en.md) | [Macro Loft/en](Macro_Loft/en.md) |
+| [Macro MacroMenu/en](Macro_MacroMenu/en.md) | [Macro MacroToolbarManager/en](Macro_MacroToolbarManager/en.md) | [Macro Make Arc 3 Points/en](Macro_Make_Arc_3_Points/en.md) |
 | [Macro Make Circle 3 Points/en](Macro_Make_Circle_3_Points/en.md) | [Macro Make Cube/en](Macro_Make_Cube/en.md) | [Macro MatrixTransform/en](Macro_MatrixTransform/en.md) |
 | [Macro MeasureCircle/en](Macro_MeasureCircle/en.md) | [Macro Megaminx/en](Macro_Megaminx/en.md) | [Macro merge duplicate materials/en](Macro_merge_duplicate_materials/en.md) |
 | [Macro MeshToPart/en](Macro_MeshToPart/en.md) | [Macro MessageBox/en](Macro_MessageBox/en.md) | [Macro Mouse Cross/en](Macro_Mouse_Cross/en.md) |

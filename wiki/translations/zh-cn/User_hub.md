@@ -6,9 +6,9 @@
 
 FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。如果你找不到你想要的信息，请不要犹豫，马上在 [FreeCAD 论坛](https://forum.freecadweb.org) 中进行咨询。
 
-如果你想要为 FreeCAD 作出贡献，请[捐赠](donate.md)，或者参阅 [帮助FreeCAD页面](Help_FreeCAD/zh-cn.md)。如果你想编辑这个维基，请到 [论坛](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) 中请求一个具有编辑权限的维基账号，并且你遵循 [WikiPages](WikiPages.md) 中描述的通用指引进行编辑。
+如果你想要为 FreeCAD 作出贡献，请[捐赠](donate.md)，或者参阅 [帮助FreeCAD](Help_FreeCAD/zh-cn.md)页面。如果你想编辑这个维基，请到 [论坛](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) 中请求一个具有编辑权限的维基账号，并且你遵循 [WikiPages](WikiPages.md) 中描述的通用指引进行编辑。
 
-如果你有兴趣了解FreeCAD的开发是怎么开始，多年来是怎么进行的，请访问[历史页面](History.md)。
+如果你有兴趣了解FreeCAD的开发是怎么开始，多年来是怎么进行的，请访问[历史](History.md)页面。
 
 
 
@@ -19,11 +19,11 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 ## 简介
 
 -   [应用总览](About_FreeCAD/zh-cn.md): FreeCAD概况的一个通览。
--   [安装应用](Installing/zh-cn.md): 怎样把FreeCAD安装在[Windows](Install_on_Windows/zh-cn.md), [Linux和](Install_on_Linux/zh-cn.md)[Mac系统上](Install_on_Mac/zh-cn.md)。
+-   [安装应用](Installing/zh-cn.md): 怎样把FreeCAD安装在[Windows](Install_on_Windows/zh-cn.md), [Linux](Install_on_Linux/zh-cn.md)和[Mac](Install_on_Mac/zh-cn.md)系统上。
 -   [帮助文件的安装](Installing_Helpfile/zh-cn.md): 怎样安装基于这个维基的离线文档
 -   [起步入门](Getting_started/zh-cn.md): 对各种好用的工具建立一个总体印象。
 -   [常见提问](Frequently_asked_questions/zh-cn.md): 经常被问到的题目，这里有答案。
--   [指导教程涉及到了FreeCAD的不同方面](Tutorials/zh-cn.md)。
+-   [指导教程](Tutorials/zh-cn.md)涉及到了FreeCAD的不同方面。
 
 
 
@@ -52,7 +52,7 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 ### 工作台
 
-[工作台是用于特定任务的工具集合](Workbenches/zh-cn.md)。这些是与每个FreeCAD安装捆绑在一起的基本工作台：
+[工作台](Workbenches/zh-cn.md)是用于特定任务的工具集合。这些是与每个FreeCAD安装捆绑在一起的基本工作台：
 
 -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [标准工具](Std_Base.md). 这些命令和工具存在于所有工作台中。
 
@@ -84,7 +84,13 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md) 用于创建和操作电子表格数据。
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [启动中心工作台](Start_Workbench.md) 允许您快速跳转到最常见的工作台之一。
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Surface Workbench](Surface_Workbench.md) 提供创建和修改表面的工具。 它类似于 [Part Builder](Part_Builder.md) Face from edges 选项。
 
@@ -108,7 +114,7 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 ### 外挂工作台
 
-发烧友们为FreeCAD创建了各种各样的外挂工作台，他们虽然还没有集成到FreeCAD的源代码中，但是他们很容易安装到本地的FreeCAD上面。你可以 [在这里看到所有已经可用的的工作台](External_workbenches/zh-cn.md)。 对于安装这些工作台的指导说明，你可以参考教程[如何安装附加工作台](How_to_install_additional_workbenches.md)。
+发烧友们为FreeCAD创建了各种各样的外挂工作台，他们虽然还没有集成到FreeCAD的源代码中，但是他们很容易安装到本地的FreeCAD上面。你可以 [在这里](External_workbenches/zh-cn.md)看到所有已经可用的的工作台。 对于安装这些工作台的指导说明，你可以参考教程[如何安装附加工作台](How_to_install_additional_workbenches.md)。
 
 当许多宏或函数一起开发，并组织在工具栏和菜单中时，它们可以成为一个新的工作台。
 
@@ -134,11 +140,11 @@ FreeCAD 正在持续发展当中，所以可能存在缺少或过时的信息。
 
 ## 更多内容
 
--   如果你想看到更多FreeCAD的高级用法，就应该去[发烧友入口看看](Power_users_hub/zh-cn.md)。
+-   如果你想看到更多FreeCAD的高级用法，就应该去[发烧友入口](Power_users_hub/zh-cn.md)看看。
 -   [建筑工作流程](http://yorik.uncreated.net/guestblog.php?tag=freecad)：给出了一个实例，说明FreeCAD开始能在建筑工作流程中找到一席之地了。
--   如果你想帮助FreeCAD项目，请直奔[帮助FreeCAD页面](Help_FreeCAD/zh-cn.md)。
--   [FreeCAD社区贡献大厅列出了一些项目](FreeCAD_Community_Portal.md)，它们围绕FreeCAD，都是社区成员自己做的。
--   不明白一个词或说法在FreeCAD中的意思？试试查阅[词汇表吧](Glossary.md)。
+-   如果你想帮助FreeCAD项目，请直奔[帮助FreeCAD](Help_FreeCAD/zh-cn.md)页面。
+-   [FreeCAD社区贡献大厅](FreeCAD_Community_Portal.md)列出了一些项目，它们围绕FreeCAD，都是社区成员自己做的。
+-   不明白一个词或说法在FreeCAD中的意思？试试查阅[词汇表](Glossary.md)吧。
 
 
 

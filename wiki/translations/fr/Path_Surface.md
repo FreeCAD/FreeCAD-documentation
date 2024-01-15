@@ -94,7 +94,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 
 Des temps de traitement excessivement longs (plus de 10 minutes) peuvent se produire lors du traitement de grands modèles complexes. En plus des facteurs déjà mentionnés, les étapes suivantes peuvent aider à identifier les causes et les solutions potentielles.
 
-**\'\'Mémoire insuffisante**\'\'
+***Mémoire insuffisante***
 Vérifiez la quantité de mémoire disponible pendant l\'exécution du scan à l\'aide d\'un outil tel que le **Gestionnaire des tâches, onglet Mémoire** de Windows. Si plus de 90 % de la mémoire est constamment utilisée, alors un petit paramètre **Déflexion linéaire** pourrait générer un maillage trop important pour la mémoire disponible.
 Pour confirmer cela \...
 
@@ -107,7 +107,7 @@ Pour faire de cette valeur la valeur par défaut pour toutes les nouvelles **<im
 **Outils → Editer paramètres... → Préférences → Mod → Path → GeometryTolerance **.
 Notez qu\'à partir de la version 0.19, la **Linear Deflection** par défaut = GeometryTolerance / 4.
 
-**\'\'Géométrie non valide**\'\'
+***Géométrie non valide***
 Si un modèle contient une géométrie invalide, le temps de numérisation peut augmenter considérablement. Un modèle peut être vérifié à l\'aide de la fonction [Part Vérifier la géométrie](Part_CheckGeometry/fr.md) dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;">**atelier Part**.
 Pour exécuter l\'outil :
 

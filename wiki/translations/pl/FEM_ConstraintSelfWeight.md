@@ -1,27 +1,34 @@
 ---
  GuiCommand:
    Name: FEM ConstraintSelfWeight
-   MenuLocation: Model , Mechanical Constraints , Constraint self weight
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+|Name/pɬMES Obciążenie grawitacją
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie grawitacją
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintSelfWeight/pl
 
-## Description
 
-Constraint self weight defines gravity acceleration 9,81 m/s\^2 acting on the whole model in the prescribed direction.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [FEM ConstraintSelfWeight](FEM_ConstraintSelfWeight.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Constraint self weight** option from the menu.
-2.  You can modify the direction of gravitation by changing its vector coordinates in the property bar of newly created ConstraintSelfWeight object.
+Definiuje przyspieszenie grawitacyjne o wartości 9,81 m/s² działające na cały model w wybranym kierunku.
 
-## Scripting
 
-New object:
+
+## Użycie
+
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Obciążenie grawitacją](FEM_ConstraintSelfWeight/pl.md)** button.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Obciążenie grawitacją** z menu.
+2.  Możesz zmodyfikować kierunek obciążenia grawitacyjnego poprzez zmianę jego współrzędnych wektorowych w oknie właściwości nowo utworzonego obiektu ConstraintSelfWeight.
+
+
+
+## Skrypty
+
+Nowy obiekt:
 
 
 ```python
@@ -29,14 +36,14 @@ import ObjectsFem
 ObjectsFem.makeConstraintSelfWeight(name)
 ```
 
-Add object to the analysis named Analysis:
+Dodaj obiekt do analizy o nazwie Analysis:
 
 
 ```python
 App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [(object)]
 ```
 
-Example:
+Przykładː
 
 
 ```python
@@ -47,16 +54,20 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ## Solver CalculiX 
 
-### Limitations
 
--   You need to modify .inp file to edit gravity acceleration.
--   Self weight is applied to the element set Eall means to the whole model.
 
-### Editing CalculiX input file 
+### Ograniczenia
 
-Acceleration constant can be edited by hand modification after generating CalculiX input file.
+-   Aby zmienić wartość przyspieszenia grawitacyjnego, musisz edytować plik .inp.
+-   Obciążenie grawitacją jest nakładane na zbiór elementów Eall, w którego skład wchodzą wszystkie elementy siatki modelu.
 
-Example of lines in .inp file:
+
+
+### Edycja pliku .inp CalculiXa 
+
+Wartość przyspieszenia można ręcznie zmienić po wygenerowaniu pliku .inp.
+
+Przykład linii w pliku .inpː
 
 
 ```python
@@ -64,11 +75,11 @@ Example of lines in .inp file:
 Eall,GRAV,9810,0.0,0.0,-1.0
 ```
 
-where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+gdzie 9810 to wartość przyspieszenia grawitacyjnego w \[mm/s\^2\], zaś 0,0,-1 to wektor kierunku. Wartość można ustawić jako wielokrotność standardowego przyspieszenia grawitacyjnego, aby symulować obciążenie np. 4 g.
 
 ## Solver Z88 
 
--   not implemented in Z88 solver (March 2017)
+-   To obciążenie nie jest obecnie zaimplementowane w solverze Z88.
 
 
 

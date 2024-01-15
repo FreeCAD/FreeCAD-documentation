@@ -5,6 +5,8 @@ In FreeCAD the word \"[Body](Body.md)\" is normally used to refer to a [PartDesi
 
 See [PartDesign Body](PartDesign_Body.md) for more information about this type of object.
 
+
+
 ## Utilização
 
 1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
@@ -15,11 +17,13 @@ See [PartDesign Body](PartDesign_Body.md) for more information about this type o
 
 Alternatively, instead of using [sketches](Sketch.md), you can add primitive [PartDesign Features](PartDesign_Feature.md), for example, a **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [PartDesign Additive box](PartDesign_AdditiveBox.md)**. Any number of additive and subtractive features can be used to create a final volume.
 
+
+
 ## Notas
 
-A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md) in a [feature editing](feature_editing.md) methodology.
+A Body is required when using the [PartDesign Workbench](PartDesign_Workbench.md) in a [feature editing](Feature_editing.md) methodology.
 
-A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
+A Body is not required when using the [Part Workbench](Part_Workbench.md), as this workbench uses a [constructive solid geometry](Constructive_solid_geometry.md) workflow, which is based on [primitive shapes](Part_Primitives.md) and boolean operations.
 
 
 {{PartDesign Tools navi

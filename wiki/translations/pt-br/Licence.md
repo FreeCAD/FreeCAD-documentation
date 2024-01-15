@@ -10,13 +10,15 @@
 
 
 
+
+
 ## Licenças utilizadas no FreeCAD 
 
 FreeCAD uses two different licenses, one for the application itself, and one for the documentation:
 
 **[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)** For all of the FreeCAD source code found in the [official Git repository](https://github.com/FreeCAD/FreeCAD)
 
-**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)** For the documentation on <https://www.freecadweb.org>
+**[Creative Commons Attribution 3.0 License (CC-BY-3.0)](http://creativecommons.org/licenses/by/3.0/)** For the documentation on <https://www.freecad.org>
 
 See FreeCAD\'s [debian copyright file](https://github.com/FreeCAD/FreeCAD/blob/master/package/debian/copyright) for more details about the licenses used by the different open-source components used in FreeCAD
 
@@ -43,6 +45,10 @@ You can use FreeCAD as a base for your own application, and are not forced to ma
 #### Files
 
 The models and other files produced with FreeCAD are not subject to any license stated above, nor bound to any kind of restriction or ownership. Your files are truly yours. You can set the owner of the file and specify your own license terms for the files you produce inside FreeCAD, via menu File → Project Information.
+
+## Logo
+
+The FreeCAD logo is a [trademark owned by the FPA (FreeCAD project association)](https://fpa.freecad.org/trademark.pdf). This means the [FPA](https://fpa.freecad.org) is the sole body authorized to say who has the right to use the FreeCAD logo or not. The logo files, which are part of the FreeCAD source code or available elsewhere, for example on this wiki, are still all under the same licenses as the rest of FreeCAD (LGPL for the source code and Creative Commons for this wiki). You are still free to use the FreeCAD logo anywhere, on the same terms as the rest of FreeCAD, which means, basically, that you must use it to reference FreeCAD, and not use it, for example, for your own product, or any other way that is not referencing FreeCAD.
 
 ## Statement of the main developer 
 

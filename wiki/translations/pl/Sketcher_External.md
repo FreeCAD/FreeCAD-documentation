@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher External
-   Name/pl: Szkicownik: Geometria zewnętrzna
-   MenuLocation: Szkic , Elementy geometryczne szkicownika , Geometria zewnętrzna
+   Name/pl: Szkicownik: Utwórz geometrię zewnętrzną
+   MenuLocation: Szkic , Elementy geometryczne szkicownika , Utwórz geometrię zewnętrzną
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **X**
    SeeAlso: Sketcher_ToggleConstruction/pl
@@ -14,7 +14,7 @@
 
 ## Opis
 
-Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> '''Geometria zewnętrzna'''** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
+Użyj narzędzia**<img src="images/Sketcher_External.svg" width=16px> '''Utwórz geometrię zewnętrzną'''** kiedy musisz zastosować wiązanie pomiędzy geometrią szkicu a czymś na zewnątrz szkicu. To działa przez wstawienie do szkicu połączonej geometrii konstrukcyjnej. Domyślny kolor połączonych zewnętrznych krawędzi to magenta. Tak samo jak w przypadku standardowych, niepołączonej geometrii konstrukcyjnej *(niebieska)*, zewnętrznie połączona geometria jest widoczna tylko gdy szkic jest w trybie edycji i nie jest bezpośrednio wykorzystywana w późniejszym użyciu gotowego szkicu w innym narzędziu. Oba typy geometrii konstrukcyjnej mogą być używane jako odniesienie dla wiązań w szkicu.
 
 Ostrzeżenie: użycie tego narzędzia do łączenia z wygenerowaną geometrią *(bryłą)* może prowadzić do nieoczekiwanych wyników z powodu [Problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md). Zobacz również [Porady dotyczące tworzenia stabilnych modeli](Feature_editing/pl#Porady_dotycz.C4.85ce_tworzenia_stabilnych_modeli.md).
 

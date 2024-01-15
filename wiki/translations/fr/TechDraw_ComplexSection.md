@@ -27,7 +27,7 @@ L\'outil **TechDraw Vue en coupe complexe** insère une vue en coupe transversal
 
 ## Utilisation
 
-1.  Sélectionnez une vue de la pièce et un objet de profil dans la [Vue 3D](3D_view/fr.md) ou la [Vue en arborescence](Tree_view/fr.md). Les profils sont généralement des esquisses, mais tout objet dont la forme peut être transformée en polyligne fonctionnera.
+1.  Sélectionnez une vue de la pièce et un objet de profil dans la [vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md). Les profils sont généralement des esquisses, mais tout objet dont la forme peut être transformée en polyligne fonctionnera.
 2.  Il existe plusieurs façons de lancer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ComplexSection.svg" width=16px> [Insérer une vue en coupe complexe](TechDraw_ComplexSection/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ComplexSection.svg" width=16px> Insérer une vue en coupe complexe** dans le menu.
@@ -39,7 +39,7 @@ L\'outil **TechDraw Vue en coupe complexe** insère une vue en coupe transversal
 
 ## Propriétés Vue en coupe complexe 
 
-Voir [TechDraw Vue en coupe](TechDraw_SectionView/fr#Propri.C3.A9t.C3.A9s.md)
+Voir [TechDraw Vue en coupe](TechDraw_SectionView/fr#Propriétés_Vue_en_coupe.md)
 
 
 

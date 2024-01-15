@@ -1,4 +1,16 @@
 # Tracker/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+
+
+
 **In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
 
 ![](images/Mantis_logo_262x90.png )
@@ -165,10 +177,14 @@ The format MantisBT will recognize:
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-## Related
 
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

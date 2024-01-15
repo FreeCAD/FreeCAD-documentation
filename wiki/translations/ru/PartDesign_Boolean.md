@@ -8,6 +8,8 @@
 
 # PartDesign Boolean/ru
 
+
+
 ## Описание
 
 **PartDesign Boolean** imports one or more [PartDesign Bodies](PartDesign_Body.md) or [PartDesign Clones](PartDesign_Clone.md) (designated as \"tool bodies\") into the active PartDesign Body and applies a Boolean operation (fuse, cut or common).
@@ -18,6 +20,8 @@
 
 *On the left: active body (A) with tool bodies (B) and (C); result on the right after a Boolean Cut.*
 
+
+
 ## Применение
 
 1.  [Activate the Body](PartDesign_Body#Active_status.md) which is to receive the Boolean feature. ***Note**: It is important that neither the active Body nor any of the features it contains be selected!*
@@ -27,7 +31,9 @@
 5.  Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)
 6.  Click **OK**.
 
-Alternatively, one or more Bodies can be selected prior to pressing the Boolean button; they will be automatically added.
+Alternatively, objects can be selected prior to pressing the Boolean button. They will be added. automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
+
+
 
 ## Опции
 
@@ -35,6 +41,8 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 -   **Cut:** subtracts the tool body or bodies from the active body.
 -   **Common:** extracts the intersection from the selected body or bodies with the active body
 -   Press the **Remove body** button to remove a body, by selecting it in the [3D view](3D_view.md).
+
+
 
 ## Свойства
 
@@ -52,6 +60,8 @@ Alternatively, one or more Bodies can be selected prior to pressing the Boolean 
 -    **Selectable**: true or false. If set to false, the feature cannot be selected in the 3D view.
 
 -    **Visibility**: true or false. Toggles the feature\'s visibility in the 3D view.
+
+
 
 ## Ограничения
 

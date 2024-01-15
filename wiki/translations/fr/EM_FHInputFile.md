@@ -15,12 +15,16 @@
 
 L\'outil Fichier entrée FH crée le fichier FastHenry d\'entrée basé sur les objets de l\'atelier Document EM.
 
+
+
 ## Utilisation
 
-Pour créer un fichier d\'entrée FastHenry:
+Pour créer un fichier d\'entrée FastHenry :
 
 1.  Créez un objet [EM Solveur FH](EM_FHSolver/fr.md) et d\'autres objets d\'atelier EM représentant la géométrie 3D requise pour votre modèle.
 2.  Appuyez sur le bouton **<img src="images/EM_FHInputFile.svg" width=16px> [EM FHInputFile](EM_FHInputFile/fr.md)** ou appuyez sur les touches **E** puis **I**.
+
+
 
 ### Remarques
 
@@ -28,14 +32,16 @@ Pour créer un fichier d\'entrée FastHenry:
 
 -   Le document peut également contenir des objets n\'appartenant pas à l\'atelier EM. Ils seront ignorés lors de la création du fichier d\'entrée FastHenry. Vous pouvez donc utiliser tout autre type d\'objet FreeCAD comme guide pour vos modèles de l\'atelier EM.
 
+
+
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Fichier entrée FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Fichier entrée FH peut-être utilisé dans des [macros](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
 
 ```python
@@ -50,7 +56,7 @@ node = createFHInputFile(doc=None,filename=None,folder=None)
 
 -    `folder`est le dossier où le fichier sera stocké. Si elle n\'est pas passée en argument, la propriété {{PropertyData | Folder}} de l\'objet FHSolver contenu dans le document sera utilisée. Si la chaîne **Folder** dans l\'objet FHSolver est vide, la fonction utilise par défaut le chemin d\'accès de l\'utilisateur (par exemple sous Windows \"C:\\Documents and Settings\\username\\My Documents\", sous Linux \"/home/username\")
 
-Exemple:
+Exemple :
 
 
 ```python

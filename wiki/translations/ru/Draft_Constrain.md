@@ -42,8 +42,8 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The default **Constrain mod** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Constrain mod**.
--   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → User interface settings → In-Command Shortcuts**.
+-   The default **Constrain modifier** key, **Shift**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Constrain modifier**.
+-   The **X**, **Y** and **Z** shortcuts can be changed: **Edit → Preferences... → Draft → Interface → In-command shortcuts**.
 
 
 

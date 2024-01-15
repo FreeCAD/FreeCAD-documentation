@@ -10,7 +10,7 @@
 
 ## 简介
 
-FreeCAD的实体建模能力都是基于 [Open Cascade Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT)内核一种具有创建与处理高级3D几何体等特性的专业级CAD系统。[零件工作台（Part Workbench）是一种建立于OCCT库之上的层级](Part_Workbench.md)，为用户提供了访问OCCT几何图元与函数的功能。每种工作台(如[底图工作台](Draft_Workbench.md), [草图工作台](Sketcher_Workbench.md), [零件设计工作台等等](PartDesign_Workbench.md))的一切2D与3D绘制功能其实都是基于零件工作台暴露出的函数实现的。因此，可以认为零件工作台是FreeCAD建模功能的核心组件。
+FreeCAD的实体建模能力都是基于 [Open Cascade Technology](http://en.wikipedia.org/wiki/Open_Cascade_Technology) (OCCT)内核一种具有创建与处理高级3D几何体等特性的专业级CAD系统。[零件工作台（Part Workbench）](Part_Workbench.md)是一种建立于OCCT库之上的层级，为用户提供了访问OCCT几何图元与函数的功能。每种工作台(如[底图](Draft_Workbench.md)工作台, [草图](Sketcher_Workbench.md)工作台, [零件设计](PartDesign_Workbench.md)工作台等等)的一切2D与3D绘制功能其实都是基于零件工作台暴露出的函数实现的。因此，可以认为零件工作台是FreeCAD建模功能的核心组件。
 
 
 </div>
@@ -20,7 +20,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 <div class="mw-translate-fuzzy">
 
-以零件工作台创建的对象相对简单；为了构建更为复杂的几何图形，可以为之运用布尔运算(并集与减运算)。此建模范式就是尽人皆知的[构造实体几何](constructive_solid_geometry.md) (CSG) 工作流程，它是早期CAD系统中所用的传统方法。另一方面，[零件设计工作台（PartDesign Workbench）还提供了更为现代的工作流程来构建几何图形](PartDesign_Workbench.md)：它利用参数化方式来定义草图，再将其挤压成型为基本的实体对象，最后通过参数化变换([特征编辑](feature_editing.md))来修改模型，直到用户获取预期的最终模型为止。
+以零件工作台创建的对象相对简单；为了构建更为复杂的几何图形，可以为之运用布尔运算(并集与减运算)。此建模范式就是尽人皆知的[构造实体几何](constructive_solid_geometry.md) (CSG) 工作流程，它是早期CAD系统中所用的传统方法。另一方面，[零件设计工作台（PartDesign Workbench）](PartDesign_Workbench.md)还提供了更为现代的工作流程来构建几何图形：它利用参数化方式来定义草图，再将其挤压成型为基本的实体对象，最后通过参数化变换([特征编辑](feature_editing.md))来修改模型，直到用户获取预期的最终模型为止。
 
 
 </div>
@@ -28,7 +28,7 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 <div class="mw-translate-fuzzy">
 
-零件对象比[网格工作台（Mesh Workbench）创建的网格对象更为复杂](Mesh_Workbench.md)，因为用户可以对前者执行更为高级的操作，如连续的布尔运算、修改历史与参数化处理。
+零件对象比[网格工作台（Mesh Workbench）](Mesh_Workbench.md)创建的网格对象更为复杂，因为用户可以对前者执行更为高级的操作，如连续的布尔运算、修改历史与参数化处理。
 
 
 </div>
@@ -150,6 +150,8 @@ A more detailed discussion of Part workbench versus Part Design workbench can be
 
 -   <img alt="" src=images/Part_Mirror.svg  style="width:32px;"> [Mirror](Part_Mirror.md): Mirrors the selected object across a mirror plane.
 
+-   <img alt="" src=images/Part_Scale.svg  style="width:32px;"> [Scale](Part_Scale.md): Scales one or more shapes. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md): Fillets (rounds) edges of an object.
 
 -   <img alt="" src=images/Part_Chamfer.svg  style="width:32px;"> [Chamfer](Part_Chamfer.md): Chamfers edges of an object.
@@ -266,7 +268,7 @@ These tools perform boolean operations.
 
 -   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;"> [Convert to solid](Part_MakeSolid.md): Converts a shape object to a solid object.
 
--   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Reverse shapes](Part_ReverseShapes.md): Flips the normals of all faces of selected objects.
+-   <img alt="" src=images/Part_ReverseShape.svg  style="width:32px;"> [Reverse shapes](Part_ReverseShape.md): Flips the normals of all faces of selected objects.
 
 -   Create a copy:
     -   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_SimpleCopy.md): Creates a simple copy of a selected object.

@@ -13,9 +13,13 @@
 
 </div>
 
+
+
 ## Descrição
 
 The Horizontal Constraint forces a selected line or lines in the sketch to be parallel to the horizontal axis of the sketch.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -54,7 +58,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 </div>
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

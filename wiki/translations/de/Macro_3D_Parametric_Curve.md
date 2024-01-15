@@ -8,28 +8,34 @@
 |Version=2.0
 |Date=2015-03-06
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
-|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/de.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
+|Download=[https://wiki.freecad.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
+|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/de.md)
 }}
+
+
 
 ## Beschreibung
 
-Dieses Makro erstellt eine Kurve, die durch die parametrischen Gleichungen x (t), y (t) und z (t) beschrieben wird. Mit der Möglichkeit, für den Linientyp zwischen Punkten zwischen B-Spline und Polylinie zu wählen.
+Dieses Makro erstellt eine Kurve, die durch die parametrischen Gleichungen x (t), y (t) und z (t) beschrieben wird, mit der Möglichkeit, für den Linientyp zwischen Punkten zwischen B-Spline und Polylinie zu wählen.
 
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*
 
-## Ursprüngliches Skript 
+
+
+## Original-Skript 
 
 Den aktualisierten Code (13/05/2015) finden Sie in folgendem Github-Repository:
 
-[Den Code erhalten Sie hier!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
+[Den Code gibt es hier!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
+
+
 
 ## Modifiziertes Skript 
 
 <img alt="Example Epicycloid curve‎" src=images/Macro_3D_Parametric_Curve00.png  style="width:600px;">
 
-ToolBar Icon ![](images/Macro_3D_Parametric_Curve.png )
+Werkzeugleisten-Symbol ![](images/Macro_3D_Parametric_Curve.png )
 
 **Macro 3D Parametric Curve.FCMacro**
 

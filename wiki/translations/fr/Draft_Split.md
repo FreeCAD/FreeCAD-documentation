@@ -15,11 +15,13 @@
 
 La commande <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft Scinder** permet de diviser une [Draft Ligne](Draft_Line/fr.md) ou une [Draft Polyligne](Draft_Wire/fr.md) à un point ou un bord donné. Cette commande est la contrepartie de la commande [Draft Joindre](Draft_Join/fr.md).
 
+
+
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Split.svg" width=16px> [Scinder](Draft_Split/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Split.svg" width=16px> Scinder** dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Split.svg" width=16px> Scinder** du menu.
     -   Utilisez le raccourci clavier : **S** puis **P**.
 2.  Déplacez le pointeur sur le bon bord d\'une [Draft Ligne](Draft_Line/fr.md) ou d\'une [Draft Polyligne](Draft_Wire/fr.md).
 3.  L\'arête est mise en surbrillance.
@@ -31,10 +33,14 @@ La commande <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft
         -   Choisissez le bon point sur l\'arête. Voir [Remarques](#Remarques.md).
         -   La ligne est coupée au point choisi.
 
+
+
 ## Remarques
 
 -   Si une ligne ouverte est divisée et que le point cliqué ne se trouve pas exactement sur l\'arête sélectionnée, le nouveau point ne sera pas colinéaire avec cette ancienne arête. Utilisez une option appropriée de [Draft Aimantation](Draft_Snap/fr.md) pour éviter cela.
 -   Pour scinder des objets qui ne sont pas des [Draft Lignes](Draft_Line/fr.md) ou des [Draft Polylignes](Draft_Wire/fr.md), vous pouvez essayer d\'utiliser [Draft Agréger](Draft_Upgrade/fr.md) et/ou [Draft Désagréger](Draft_Downgrade/fr.md) sur eux une ou plusieurs fois d\'abord.
+
+
 
 ## Script
 

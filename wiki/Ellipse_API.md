@@ -1,26 +1,25 @@
 # Ellipse API
 
 Describes an ellipse in 3D space
-				To create an ellipse there are several ways:
-				Part.Ellipse()
-					Creates an ellipse with major radius 2 and minor radius 1 with the
-					center in (0,0,0)
+                To create an ellipse there are several ways:
+                Part.Ellipse()
+                    Creates an ellipse with major radius 2 and minor radius 1 with the
+                    center in (0,0,0)
 
-				Part.Ellipse(Ellipse)
-					Create a copy of the given ellipse
+                Part.Ellipse(Ellipse)
+                    Create a copy of the given ellipse
 
-				Part.Ellipse(S1,S2,Center)
-					Creates an ellipse centered on the point Center, where
-					the plane of the ellipse is defined by Center, S1 and S2,
-					its major axis is defined by Center and S1,
-					its major radius is the distance between Center and S1, and
-					its minor radius is the distance between S2 and the major axis.
+                Part.Ellipse(S1,S2,Center)
+                    Creates an ellipse centered on the point Center, where
+                    the plane of the ellipse is defined by Center, S1 and S2,
+                    its major axis is defined by Center and S1,
+                    its major radius is the distance between Center and S1, and
+                    its minor radius is the distance between S2 and the major axis.
 
-				Part.Ellipse(Center,MajorRadius,MinorRadius)
-					Creates an ellipse with major and minor radii MajorRadius and
-					MinorRadius, and located in the plane defined by Center and
-					the normal (0,0,1)
-			
+                Part.Ellipse(Center,MajorRadius,MinorRadius)
+                    Creates an ellipse with major and minor radii MajorRadius and
+                    MinorRadius, and located in the plane defined by Center and
+                    the normal (0,0,1)
 
 
 
@@ -158,7 +157,7 @@ The Y axis direction of the circle
 #### <img src="images/BIM_Column.svg" style="width:16px;"> approximateBSpline
 
 Approximates a curve of any type to a B-Spline curve
-					approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
+                    approximateBSpline(Tolerance, MaxSegments, MaxDegree, [Order='C2']) -> B-Spline curve
 
 
 
@@ -322,7 +321,7 @@ Returns a boolean indicating whether a geometry extension of the type indicated 
 
 Returns all intersection points and curve segments between the curve and the curve/surface.
 
-				  arguments: curve/surface (for the intersection), precision (float)
+                  arguments: curve/surface (for the intersection), precision (float)
 
 
 
@@ -474,7 +473,7 @@ Computes the tangent of parameter u on this curve
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Converts a curve of any type (only part from First to Last)
-					toBSpline([Float=First, Float=Last]) -> B-Spline curve
+                    toBSpline([Float=First, Float=Last]) -> B-Spline curve
 
 
 
@@ -523,4 +522,4 @@ Computes the point of parameter u on this curve
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Ellipse API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Ellipse API

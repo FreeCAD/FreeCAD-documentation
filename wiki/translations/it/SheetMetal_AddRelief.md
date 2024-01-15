@@ -37,6 +37,7 @@ This command is the first of three steps to convert a shell object made with the
 
 
 :   <img alt="" src=images/PostRelief.png  style="width:320px;">
+
 :   
     
 *Creare uno scarico nell'angolo per la piegatura della lamiera.

@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -56,6 +58,8 @@ The referenced geometry can consist of one or multiple elements. Each element ca
 
 
 </div>
+
+
 
 ## Utilizzo
 
@@ -105,6 +109,10 @@ The main differences are:
 -   A PartDesign SubShapeBinder always tracks the relative placement of the referenced geometry. For a PartDesign ShapeBinder this behavior is optional through its **Trace Support** property.
 -   Only PartDesign SubShapeBinders support 2D offsetting.
 
+While keeping in mind that each of these tools has its pros and cons and the choice may depend on the use case, one can conclude that using a SubShapeBinder is currently recommended for most applications due to its versatility and range of options. More about these tools can be found in MangoJelly\'s video \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD For Beginners 34: Part Design Shape Binder vs Sub Shape Binder\].
+
+
+
 ## Proprietà
 
 
@@ -114,6 +122,8 @@ The main differences are:
 
 
 </div>
+
+
 
 ### Dati
 
@@ -163,6 +173,8 @@ The main differences are:
 -    **Offset Open Result|Bool**: Affects the way open wires are processed. If `False`, an open wire is made. If `True`, a closed wire is made from a double-sided offset, with rounds around open vertices. <small>(v0.20)</small> 
 
 -    **Offset Intersection|Bool**: Affects the way compounds are processed. If `False`, all children are processed independently. If `True`, and children are edges and wires, the children are offset in a collective manner. <small>(v0.20)</small> 
+
+
 
 ## Link
 

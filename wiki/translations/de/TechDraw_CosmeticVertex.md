@@ -23,21 +23,21 @@ Das Werkzeug **TechDraw Hilfspunkt** fügt einer Ansicht einen Hilfspunkt ([Knot
 
 ## Anwendung
 
+1.  Eine Ansicht auswählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> [Hilfspunkt hinzufügen](TechDraw_CosmeticVertex/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Knoten hinzufügen → <img src="images/TechDraw_CosmeticVertex.svg" width=16px> Hilfspunkt hinzufügen** auswählen.
+3.  Ein Aufgaben-Bereich wird geöffnet.
+4.  Wahlweise die Schaltfläche **Punkt-Auswahl** drücken und einen Punkt auf dem Zeichnungsblatt auswählen. Die Schaltfläche **Auswahl abbrechen** drücken, um diesen Vorgang abzubrechen.
+5.  Wahlweise die X- und Y-Koordinaten des Punktes anpassen oder festlegen. Die Koordinaten beziehen sich auf das Zentrum der Ansicht.
+6.  Die Schaltfläche **OK** drücken.
 
-<div class="mw-translate-fuzzy">
-
-1.  Eine Ansicht auf der Zeichnung auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> Hilfspunkt hinzufügen** drücken.
-3.  Ein Aufgabendialog wird geöffnet. Er ermöglicht es, die Position des Hilfspunktes entweder durch Auswahl eines Punktes oder durch Eingabe von X- und Y-Abständen von der Mitte der gewählten Ansicht aus festzulegen.
-4.  Um eine Position auszuwählen, die Schaltfläche **Punkt-Auswahl** drücken. Auf eine Position in der Ansicht klicken und anschließend **OK** drücken, um den Punkt zu erstellen. Um die Punktauswahl zu beenden, ohne einen Hilfspunkt zu erstellen, die Schaltfläche **Auswahl abbrechen** im Dialogfeld drücken.
 
 
-</div>
+## Hinweise
 
-## Notes
-
--   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Die Position eines Hilfspunktes kann nicht geändert werden. Im Moment gibt es keine andere Möglichkeit, als ihn zu löschen und einen neuen zu erstellen.
+-   Um einen Hilfspunkt zu löschen, wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw HilfsobjektEntfernen](TechDraw_CosmeticEraser.md) verwendet.
 
 
 
@@ -49,7 +49,7 @@ Hilfspunkte haben keine eigenen Eigenschaften, da sie keine Dokumentobjekte sind
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Hilfspunkte stehen in [Makros](Macros/de.md) oder der [Python](Python/de.md)-Konsole zur Verfügung.
 

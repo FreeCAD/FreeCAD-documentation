@@ -38,12 +38,7 @@ sudo yum install spacenavd
 apt-get install spacenavd libspnav-dev
 ```
 
-
-:   spacenav a besoin de ces permissions:
-
-
-
-
+Spacenav a besoin de ces permissions :
 
 :   
     
@@ -53,15 +48,7 @@ apt-get install spacenavd libspnav-dev
 ```
     
 
-
-
-
-
-:   Redémarrez spnavd et FreeCAD
-
-
-
-
+Redémarrez spnavd et FreeCAD :
 
 :   
     
@@ -85,12 +72,12 @@ sudo zypper install spacenavd
 
 Ceci est recommandé si votre distribution est une version obsolète.
 
--   Télécharger les fichiers suivants:
+-   Télécharger les fichiers suivants :
     -   [spacenavd](https://sourceforge.net/projects/spacenav/files/latest/download) (dernière version)
     -   [libspnav](https://sourceforge.net/projects/spacenav/files/spacenav%20library%20%28SDK%29/) (pour la dernière version libspnav)
     -   [spnavcfg](https://sourceforge.net/projects/spacenav/files/spacenavd%20config%20gui/) (pour la dernière version libspnav)
 -   Décompressez les archives dans un dossier dans votre répertoire home.
--   Entrez le répertoire spacenavd-x.x et exécutez les commandes suivantes:
+-   Entrez le répertoire spacenavd-x.x et exécutez les commandes suivantes :
 
 :   
     
@@ -113,8 +100,8 @@ Ceci est recommandé si votre distribution est une version obsolète.
 ```
     
 
--   Cette installation du daemon spacenav, est configurée pour se charger automatiquement au démarrage du système et démarre le daemon sans redémarrage.
--   Il est maintenant temps de vérifier que votre périphérique est correctement détecté. Débranchez votre appareil et exécutez la commande suivante, puis branchez-le.
+-   Ceci installe le démon spacenav, le configure pour qu\'il se charge automatiquement au démarrage du système et le démarre sans avoir à redémarrer.
+-   Il est maintenant temps de vérifier que votre appareil est correctement détecté. Une fois votre appareil débranché, exécutez la commande suivante, puis branchez-le.
 
 :   
     
@@ -139,7 +126,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 ```
     
 
--   Maintenant, entrez dans le répertoire nommé libspnav-x.x.x et exécutez les commandes suivantes:
+-   Maintenant, entrez dans le répertoire nommé libspnav-x.x.x et exécutez les commandes suivantes :
 
 :   
     
@@ -150,7 +137,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 ```
     
 
--   Si make échoue avec l\'erreur suivante: \...
+-   Si make échoue avec l\'erreur suivante : \...
 
 :   
     
@@ -160,7 +147,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 ```
     
 
--   \... vous devrez alors installer **libgtkmm-2.4-dev**. Voici la procédure sous Ubuntu:
+-   \... vous devrez alors installer **libgtkmm-2.4-dev**. Voici la procédure sous Ubuntu :
 
 :   
     
@@ -170,7 +157,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 ```
     
 
--   Lorsque la marque s\'est terminée correctement, exécutez la commande suivante **en tant que root** (ou avec le préfixe sudo).
+-   Lorsque make s\'est terminée correctement, exécutez la commande suivante **en tant que root** (ou avec le préfixe sudo).
 
 :   
     
@@ -182,7 +169,7 @@ Ceci est recommandé si votre distribution est une version obsolète.
 
 -   Regardez dans le répertoire libspnav-x.x.x/examples/. Si vous voulez tester votre appareil, compilez et exécutez l\'un de ces deux exemples.
 
--   Suivez la même procédure pour compiler, et, installer **spnavcfg**. Lancez **spnavcfg** en tant que root, sinon, aucuns réglages ne seront sauvegardés !
+-   Suivez la même procédure pour compiler et installez **spnavcfg**. Assurez-vous de lancer spnavcfg en tant que root sinon aucun paramètre ne sera sauvegardé !
 
 
 
@@ -201,7 +188,7 @@ Ceci n\'est nécessaire que pour l\'installation à partir de la source.
 
 #### Redémarrez spacenavd 
 
-Si parfois navigator cesse de fonctionner, c\'est bon, redémarrez le pilote. Pour le redémarrer, aller au terminal, et, exécutez :
+Si parfois SpaceNavigator ne fonctionne plus, il est bon de redémarrer le pilote. Pour le redémarrer, allez dans le terminal et exécutez :
 
 
 ```python
@@ -215,7 +202,7 @@ Après ceci, redémarrez FreeCAD. Sur certaines distributions, cela est nécessa
 
 ### Problèmes connus 
 
-Un utilisateur a signalé ce qui suit sur le [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327):
+Un utilisateur a signalé ce qui suit sur le [forum](https://forum.freecadweb.org/viewtopic.php?p=341327#p341327) :
 
   Spacenav daemon 0.6
   n'a pas pu ouvrir le fichier de configuration/etc/spnavrc: Aucun fichier ou répertoire de ce type. en utilisant les valeurs par défaut.
@@ -225,7 +212,7 @@ Un utilisateur a signalé ce qui suit sur le [forum](https://forum.freecadweb.or
   Aucun protocole spécifié
   Impossible d'ouvrir l'affichage X11 ":0.0"
 
-La solution de contournement qui a fonctionné pour eux:
+La solution de contournement qui a fonctionné pour eux :
 
 
 ```python 
@@ -246,7 +233,7 @@ Depuis la version 0.13, la souris 3D est prise en charge sous windows. Vous deve
 
 #### Problème connu 
 
-Il existe un problème en raison duquel 3Dconnexion envoie les événements de défilement en double à FreeCAD, ce qui provoque le saut de la vue. Réparer:
+Il existe un problème en raison duquel 3Dconnexion envoie les événements de défilement en double à FreeCAD, ce qui provoque le saut de la vue. Pour réparer :
 
 1.  Ouvrez les propriétés de 3Dconnexion. Vous pouvez double-cliquer sur son icône dans la barre des tâches, à côté de l\'horloge Windows.
 2.  Cliquez sur le bouton Paramètres avancés.
@@ -258,37 +245,35 @@ ref: <https://freecadweb.org/tracker/view.php?id=1893>
 
 
 
-## Mise en place de FreeCAD 
+## Configuration au niveau de FreeCAD 
 
-Le support de la souris 3D a été effectué avec le projet **spnav** sur Linux, et, sur un très bas niveau sur Windows. Cela signifie qu\'il n\'y avait aucun support pour les paramètres d\'un tel périphérique, puisqu\'il n\'y a aucun bon support sur Linux, et, sur Windows, il a été substitué. C\'est pour cela, que deux pages supplémentaires ont été ajoutées à la boîte de dialogue \"Personnaliser\".
+La prise en charge de la souris 3D a été réalisée avec le *projet spnav* sous Linux, et à un niveau très bas sous Windows. Cela signifie qu\'il n\'y avait pas de prise en charge pour les paramètres d\'un périphérique, puisque sous Linux il n\'y a pas de bonne prise en charge pour cela, et que sous Windows, les paramètres sont ignorés. C\'est pourquoi deux pages supplémentaires ont été ajoutées à la boîte de dialogue \"Personnaliser\".
 
 <img alt="" src=images/Spaceball_Motion.png  style="width:450px;"> <img alt="" src=images/Spaceball_Buttons.png  style="width:450px;">
 
 ### Spaceball Motion 
 
-Dans cet onglet vous avez la possibilité de mettre en place certains paramètres de la souris dans l\'espace général.
+Dans cet onglet vous avez la possibilité de mettre en place certains paramètres de la souris dans l\'espace général. Ils comprennent :
 
-Ils comprennent :
-
--   Global Sensitivity - curseur avec possibilité de régler la sensibilité globale
--   Dominant - si vous activez le mode Dominant, seul les axes avec déplacements plus élevés seront considérés
--   Flip YZ - cette option vous permet d\'inverser les axes Y et Z sur la souris 3D
--   Enable Translations - un moyen facile d\'activer/désactiver les traductions
--   Enable Rotations - un moyen facile d\'activer/désactiver les rotations
--   Calibrate - vous permet d\'étalonner space navigator. Il est enfoncé alors que le navigateur d\'espace n\'est pas déplacé.
--   Set To Default - supprime tous les paramètres et leur affecte les paramètres par défaut.
+-   Global Sensitivity : curseur avec possibilité de régler la sensibilité globale
+-   Dominant : si vous activez le mode Dominant, seul les axes avec déplacements plus élevés seront considérés
+-   Flip YZ : cette option vous permet d\'inverser les axes Y et Z sur la souris 3D
+-   Enable Translations : un moyen facile d\'activer/désactiver les traductions
+-   Enable Rotations : un moyen facile d\'activer/désactiver les rotations
+-   Calibrate : vous permet d\'étalonner space navigator. Il est enfoncé alors que le navigateur d\'espace n\'est pas déplacé.
+-   Set To Default : supprime tous les paramètres et leur affecte les paramètres par défaut.
 
 Pour chaque axes, vous avez d\'autres possibilités de définition :
 
--   Enabled -activer/désactiver les axes
--   Reverse - inverser le mouvement sur les axes
--   Sensitivity - possibilité de définir la sensibilité du curseur
+-   Enabled : activer/désactiver les axes
+-   Reverse : inverser le mouvement sur les axes
+-   Sensitivity : possibilité de définir la sensibilité du curseur
 
 ### Spaceball Buttons 
 
 Lorsque vous ouvrez cet onglet pour la première fois, il sera vide, et, non disponible. Pour l\'activer, vous devez appuyer sur un des boutons de votre space mouse. Une fois que vous l\'avez fait, la liste des boutons s\'affiche sur le côté gauche, et, la liste des commandes sera disponible sur le côté droit.
 
-Pour connecter certaines commandes à un bouton, sélectionnez le bouton sur le panneau de **gauche**, et, la commande sur le panneau de **droite**. Pour effacer la commande d\'un bouton, appuyez sur \"Clear\".
+Pour connecter certaines commandes à un bouton, sélectionnez le bouton sur le panneau de gauche et, la commande sur le panneau de droite. Pour effacer la commande d\'un bouton, appuyez sur \"Clear\".
 
 
 
@@ -310,8 +295,8 @@ Si aucun de ces messages n\'apparaît, c\'est que votre version de FreeCAD n\'es
 
 ## En relation 
 
--   Fil de discussion du forum [spacenav dans Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
--   Fil de discussion du forum [Confusion de l\'axe de la spacenav](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188).
+-   Fil de discussion du forum [spacenav on Windows](https://forum.freecadweb.org/viewtopic.php?f=3&t=51023)
+-   Fil de discussion du forum [Space navigator axis confusion](https://forum.freecadweb.org/viewtopic.php?f=8&t=57188).
 
 
 

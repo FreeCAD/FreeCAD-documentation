@@ -31,29 +31,29 @@ TechDraw fournit plusieurs outils pour créer différents types de cotations. Ve
 
 ### Mise en forme 
 
-La police par défaut pour la nouvelle dimension est déterminée par le paramètre **Label Font** des [préférences](TechDraw_Preferences/fr#.C3.89tiquettes.md). La taille de police par défaut est spécifiée par le paramètre **Font Size** des [préférences](TechDraw_Workbench/fr#Cotations.md).**Note:** Il est recommandé d\'utiliser une police où le signe moins a la même largeur que le signe plus, car cela garantit que les tolérances seront formatées comme proposé par les normes GD&T. Une telle police est par exemple *osifont* qui fait partie de toutes les installations FreeCAD.
+La police par défaut pour la nouvelle dimension est déterminée par le paramètre **Police des étiquettes** des [préférences](TechDraw_Preferences/fr#.C3.89tiquettes.md). La taille de police par défaut est spécifiée par le paramètre **Taille de la police** des [préférences](TechDraw_Workbench/fr#Cotations.md).**Remarqur :** il est recommandé d\'utiliser une police où le signe moins a la même largeur que le signe plus, car cela garantit que les tolérances seront formatées comme proposé par les normes GD&T. Une telle police est par exemple *osifont* qui fait partie de toutes les installations FreeCAD.
 
-Le format par défaut des nouveaux numéros de dimension dépend des options **Use Global Decimals** et **Alternate Decimals** des [préférences](TechDraw_Workbench/fr#Cotations.md). Cela spécifie le nombre de décimales, mais dans tous les cas, la dimension est un nombre à virgule flottante. Par exemple, si le paramètre doit avoir 2 décimales, le spécificateur de format utilisé est \"%.2f\" (nombre à virgule flottante avec 2 décimales).
+Le format par défaut des nouveaux numéros de dimension dépend des options **Utiliser les paramètres système pour les décimales** et **Nombre de décimales personnalisé** des [préférences](TechDraw_Workbench/fr#Cotations.md). Cela spécifie le nombre de décimales, mais dans tous les cas, la dimension est un nombre à virgule flottante. Par exemple, si le paramètre doit avoir 2 décimales, le spécificateur de format utilisé est \"%.2f\" (nombre à virgule flottante avec 2 décimales).
 
-Le format des nombres peut être modifié:
+Le format des nombres peut être modifié :
 
-1.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans l\'arbre du modèle
-2.  Dans la boîte de dialogue de dimension qui apparaît, le champ **Format Specifier** contient le spécificateur de format, alors changez-le en ce dont vous avez besoin
+1.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans la vue en arborescence du modèle
+2.  Dans la boîte de dialogue de la cote qui apparaît, le champ **Nombre de décimales** contient le spécificateur de format, alors changez-le en ce dont vous avez besoin
 
 La syntaxe du spécificateur de format est [expliqué ici](https://www.cplusplus.com/reference/cstdio/printf/). Vous pouvez également utiliser [cet outil en ligne](https://onlinetexttools.com/printf-text) pour voir quel spécificateur de formatage formatera les nombres.
 
-**Exemples:**
+**Exemples :**
 
 -   Vous utilisez 2 décimales, mais pour un angle, vous voulez n\'avoir qu\'une seule décimale, utilisez le spécificateur de format *%.1f*.
 -   Vous utilisez 2 décimales mais n\'aimez pas que les zéros de fin soient imprimés (vous préférez *4* au lieu de *4.00*). Utilisez ensuite ce spécificateur de format: *%g*. Le \'g\' utilisera la sortie la plus courte possible et ainsi il omet les zéros de fin. De plus, il passera automatiquement en [notation scientifique](https://en.wikipedia.org/wiki/Scientific_notation#E_notation) si nécessaire.
 
-Avec la propriété {{PropertyData/fr|Inverted}}, vous pouvez rendre les dimensions de longueur négatives et inverser les angles de la plage 0 - 180° à la plage réflexe 180° - 360°.
+Avec la propriété **Inverted**, vous pouvez rendre les dimensions de longueur négatives et inverser les angles de la plage 0 - 180° à la plage symétrique 180° - 360°.
 
-La définition de l\'option **Theoretically Exact** dans la boîte de dialogue de dimension marquera la cote comme théoriquement exacte en ajoutant un cadre autour d\'elle.
+La définition de l\'option **Théoriquement exact** dans la boîte de dialogue de la cote marquera la cote comme théoriquement exacte en ajoutant un cadre autour d\'elle.
 
-Vous pouvez utiliser votre propre texte au lieu d\'un nombre formaté en définissant l\'option **Arbitrary Text** dans la boîte de dialogue de dimension. Ensuite, le contenu du champ **Format Specifier** sera imprimé comme une dimension.
+Vous pouvez utiliser votre propre texte au lieu d\'un nombre formaté en définissant l\'option **Texte arbitraire** dans la boîte de dialogue de la cote. Ensuite, le contenu du champ **Nombre de décimales** sera imprimé comme une cote.
 
-Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizontale et verticale du texte de cote par rapport à la vue. Vous pouvez également modifier la position en faisant glisser le numéro de cote ou le texte.
+Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizontale et verticale du texte de la cote par rapport à la vue. Vous pouvez également modifier la position en faisant glisser le numéro de la cote ou le texte.
 
 
 
@@ -63,26 +63,26 @@ Avec les propriétés **X** et **Y**, vous pouvez modifier la position horizonta
 
 #### Création
 
-1.  Créez une [cotation](TechDraw_Workbench/fr#Cotes.md) dans votre dessin
-2.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans l\'arbre du modèle
-3.  Dans la boîte de dialogue de dimension qui apparaît, spécifiez comme **Overtolerance** la valeur de laquelle la dimension peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
-4.  Si vous avez des tolérances inégales, spécifiez **Undertolerance** la valeur de laquelle la dimension peut être plus petite et décochez l\'option **Equal Tolerance**. Cela entraînera une tolérance inégale comme ceci: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
+1.  Créez une [cote](TechDraw_Workbench/fr#Cotes.md) dans votre dessin
+2.  Double-cliquez sur la cote dans le dessin ou sur l\'objet cote dans la vue en arborescence du modèle
+3.  Dans la boîte de dialogue de la cote qui apparaît, spécifiez comme **Tolérance supérieure** la valeur pour laquelle la cote peut être dépassée. Cela entraînera une tolérance égale comme celle-ci: <img alt="" src=images/TechDraw_equal-tolerance.png  style="width:100px;">
+4.  Si vous avez des tolérances inégales, spécifiez **Tolérance inférieure** la valeur de laquelle la cote peut être plus petite et décochez l\'option **Tolérance symétrique**. Cela entraînera une tolérance inégale comme ceci: <img alt="" src=images/TechDraw_Non-equal-tolerance.png  style="width:80px;">
 
 
 
 #### Suppression
 
-Pour se débarrasser d\'une tolérance, remplacez *Surtolérance* et *Sous-tolérance* par zéro.
+Pour se débarrasser d\'une tolérance, remplacez **Tolérance supérieure** et **Tolérance inférieure** par zéro.
 
 
 
 #### Mise en forme 
 
-La police par défaut pour les nouvelles tolérances est la même que pour les cotes. La taille de police par défaut est spécifiée par le paramètre **Tolerance Text Scale** des [préférences](TechDraw_Preferences/fr#Dimensions_2.md). Cette échelle est un facteur de la taille de police utilisée pour la dimension.
+La police par défaut pour les nouvelles tolérances est la même que pour les cotes. La taille de police par défaut est spécifiée par le paramètre **Échelle du texte pour les tolérances** des [préférences](TechDraw_Preferences/fr#Dimensions_2.md). Cette échelle est un facteur de la taille de police utilisée pour les cotes.
 
-Le format des nombres par défaut pour les nouvelles tolérances est par défaut le même format que pour la cote. Il peut être modifié dans la boîte de dialogue de dimension.
+Le format des nombres par défaut pour les nouvelles tolérances est par défaut le même format que pour la cote. Il peut être modifié dans la boîte de dialogue de la cote.
 
-Vous pouvez également utiliser votre propre texte au lieu d\'un nombre formaté en cochant l\'option **Arbitrary Tolerance Text** dans la boîte de dialogue de dimension. Ensuite, le contenu de **Tolerance Format Specifier** sera utilisé comme texte de tolérance.
+Vous pouvez également utiliser votre propre texte au lieu d\'un nombre formaté en cochant l\'option **Format du texte pour les tolérances** dans la boîte de dialogue de dimension. Ensuite, le contenu de **Précision de la tolérance** sera utilisé comme texte de tolérance.
 
 
 
@@ -99,8 +99,8 @@ Les tolérances sont créées à l\'aide de la fonction [Infobulle](TechDraw_Bal
 L\'indicateur de tolérance de GD&T est une trame, également appelée \"trame de contrôle de fonction\". Il peut être créé en utilisant la fonction [infobulle](TechDraw_Balloon/fr.md) de TechDraw:
 
 -   après avoir ajouté une infobulle et si sa forme n\'est pas déjà un cadre, double-cliquez dessus dans l\'arbre du modèle et définissez dans la boîte de dialogue qui apparaît la **forme** à **rectangle**.
--   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans l\'infobulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md).)
--   en ajoutant le caractère \'\|\' dans le **Texte**, vous démarrez un nouveau champ indicateur.
+-   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans l\'infobulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md) ou utliser [TechDraw Personnaliser le format d\'infobulle](TechDraw_ExtensionCustomizeFormat/fr.md).)
+-   en ajoutant le caractère \'\|\' au **Texte**, vous démarrez un nouveau champ indicateur.
 
 Aucune règle ne définit si ou comment l\'indicateur de tolérance doit avoir une ligne de repère ou non, vous pouvez donc:
 

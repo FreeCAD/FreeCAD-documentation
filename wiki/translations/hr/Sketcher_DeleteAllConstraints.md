@@ -9,9 +9,13 @@
 
 # Sketcher DeleteAllConstraints/hr
 
+
+
 ## Opis
 
 This tool deletes all constraints from the sketch being edited, and leaves the geometry intact.
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -28,6 +28,12 @@ Narzędzie to rysuje prostokąt, wybierając dwa przeciwstawne punkty. Po urucho
 
 
 
+## Uwagi
+
+Zobacz stronę [Utwórz prostokąt](Sketcher_CreateRectangle/pl#Uwagi.md).
+
+
+
 
 
 {{Sketcher_Tools_navi

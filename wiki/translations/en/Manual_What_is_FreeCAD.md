@@ -11,7 +11,7 @@ FreeCAD is also multiplatform (it runs exactly the same way on Windows, Mac OS a
 
 FreeCAD benefits from the huge, accumulated experience of the open source world. Internally, it includes several other open source components, and FreeCAD itself can be used as a component in other applications. It possesses many features that have become standard in the open source world, such as supporting a wide range of file formats, and being scriptable, customizable and modifiable. All made possible through a dynamic and enthusiastic community of users.
 
-The official website of FreeCAD is at <http://www.freecadweb.org>
+The official website of FreeCAD is at <http://www.freecad.org>
 
 **Read more:**
 

@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ClipGroup
    Name/pl: Rysunek Techniczny: Wstaw grupę wycinków
-   MenuLocation: Rysunek Techniczny , Wstaw grupę wycinków
+   MenuLocation: Rysunek Techniczny , Widoki wycinków , Wstaw grupę wycinków
    Workbenches: TechDraw_Workbench/pl
    SeeAlso: TechDraw_ClipGroupAdd/pl, TechDraw_ClipGroupRemove/pl
 ---
 
 # TechDraw ClipGroup/pl
-
-
-</div>
 
 
 
@@ -25,13 +22,13 @@ Narzędzie **Wstaw grupę wycinków** tworzy okno wycinka, które może zawiera�
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
--   Naciśnij przycisk **<img src="images/TechDraw_ClipGroup.svg" width=16px> '''Wstaw grupę wycinków'''**, aby utworzyć nowy wycinek.
-
-
-</div>
+1.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie aktywuj żądaną stronę, wybierając ją w oknie [Widoku drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ClipGroup.svg" width=16px> '''Wstaw grupę wycinków'''**, aby utworzyć nowy wycinek.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki wycinków → <img src="images/TechDraw_ClipGroup.svg" width=16px> Wstaw grupę wycinków**.
+3.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze aktywowana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
 
 
 

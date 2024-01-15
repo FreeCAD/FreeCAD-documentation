@@ -12,116 +12,95 @@
 
 
 
-## Informacje ogólne 
+## Opis
 
-Narzędzie **Wyciągnięcie przez profile** służy do utworzenia ściany, powłoki lub bryły z dwóch lub więcej profili. Profile mogą być punktami *(wierzchołkami)*, liniami *(krawędziami)*, poliliniami lub ścianami. Krawędzie i polilinie mogą być otwarte lub zamknięte. Istnieją różne [ograniczenia i komplikacje](Part_Loft/pl#Ograniczenia_i_komplikacje.md), patrz poniżej, jednak profile mogą pochodzić z [brył pierwotnych](Part_Workbench/pl.md) środowiska pracy Część, [obiektów](Draft_Workbench/pl.md) środowiska pracy Rysunek Roboczy oraz [Szkiców](Sketcher_Workbench/pl.md).
+Polecenie <img alt="" src=images/Part_Loft.svg  style="width:24px;"> **Wyciągnięcie przez profile** tworzy ścianę, powłokę lub bryłę z dwóch lub więcej profili (przekrojów).
 
-Wyciągnięcie przez profile ma trzy parametry: \"Powierzchnia prostokreślna\", \"Utwórz bryłę\" i \"Zamknięty\", z których każdy ma wartość {{true/pl}} lub {{false/pl}}.
+<img alt="" src=images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg  style="width:400px;"> 
+*Obiekt wyciągnięcia przez profile z trzech profili, które są dwoma [okręgami](Part_Circle/pl.md) i jedną [elipsą](Part_Ellipse/pl.md). Parametry to: Utwórz bryłę "Zaznaczone" i Powierzchnia prostokreślna "Zaznaczone".*
 
-Jeśli opcja **Utwórz bryłę** ma wartość {{True/pl}}, FreeCAD utworzy bryłę, jeśli profile mają zamkniętą geometrię, jeśli wartością jest {{False/pl}}, FreeCAD utworzy ścianę lub *(jeśli więcej niż jedna ściana)* powłokę dla profili otwartych lub zamkniętych.
 
-Jeśli parametr \"powierzchnia prostokkreślna\" ma wartość {{true/pl}} FreeCAD utworzy ścianę, ściany lub bryłę z powierzchni prostokreślnych. [Strona Wiki o powierzchniach prostokreślnych](http://en.wikipedia.org/wiki/Ruled_surface).
+
+## Użycie
+
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Part_Loft.svg" width=16px> [Wyciągnięcie przez profile ...](Part_Loft/pl.md)**.
+    -   Wybierz opcję z menu **Część → <img src="images/Part_Loft.svg" width=16px> Wyciągnięcie przez profile ...**.
+2.  Otworzy się [Panel zadań](Task_panel/pl.md) Wyciągnięcie przez profile.
+3.  Na liście *Dostępne profile* po lewej stronie wybierz pierwszy profil i kliknij strzałkę w prawo, aby umieścić go na liście *Wybrane profile* po prawej stronie.
+4.  Powtórz tę czynność dla drugiego profilu i kolejnych, jeśli wymagane są więcej niż dwa profile.
+5.  Opcjonalnie użyj strzałek w górę i w dół, aby zmienić kolejność wybranych profili.
+6.  Zdefiniuj opcje [Utwórz bryłę](#Dane.md), [Powierzchnia prostokreślna](#Dane.md) i [Zamknięty](#Dane.md).
+7.  Kliknij **OK**.
+
+
+
+### Akceptowana geometria 
+
+-   **Profile**: mogą być punktem *(wierzchołkiem)*, linią *(krawędzią)*, konturem lub ścianą. Krawędzie i kontury mogą być otwarte lub zamknięte. Istnieją różne [ograniczenia](#Ograniczenia.md), patrz poniżej.
+
+-   Obiekty typu [łącze](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [Część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako profile. {{Version/pl|0.20}}
+
+
+
+## Opcje
+
+
+
+#### Utwórz bryłę 
+
+Jeśli opcja **Utwórz bryłę** ma wartość {{True/pl}}, FreeCAD utworzy bryłę pod warunkiem, że profile są zamknięte. Jeśli wartością jest {{False/pl}}, FreeCAD utworzy ścianę lub powłokę dla profili otwartych lub zamkniętych.
+
+
+
+#### Powierzchnia prostokreślna 
+
+Jeśli *Powierzchnia prostokreślna* ma wartość {{true/pl}}, FreeCAD tworzy powierzchnię, powłokę lub bryłę z [powierzchni prostokreślnych](http://en.wikipedia.org/wiki/Ruled_surface).
+
+
+
+#### Zamknięty
 
 Jeśli parametr \"Zamknięty\" ma wartość {{true/pl}}, FreeCAD próbuje połączyć ostatni profil z pierwszym profilem, aby utworzyć zamkniętą figurę.
 
 Więcej informacji na temat sposobu łączenia profili można znaleźć na stronie [Szczegóły techniczne wyciągnięcia przez profile](Part_Loft_Technical_Details/pl.md).
 
-![centre\|Wyciągnięcie przez profile. Z trzech profili, które są dwoma okręgami i jedną elipsą środowiska pracy Część. Parametry to Utwórz bryłę: {{CheckBox|TRUE|}} i Powierzchnia prostokreślna: {{CheckBox|TRUE|}}.](images/Part_Loft_solid_ruled_from3profiles_example_FreeCAD_0_13.jpg )
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt **Wyciągnięcia przez profile** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
 
 
-## Uwagi
-
--   Obiekty typu[odnośnik](App_Link/pl.md) powiązane z odpowiednimi typami obiektów oraz kontenery typu [część](App_Part/pl.md) z odpowiednimi widocznymi obiektami wewnątrz mogą być również używane jako profile i ścieżki. {{Version/pl|0.20}}
+### Dane
 
 
+{{TitleProperty|Wyciągnięcie przez profile}}
 
-## Ograniczenia i komplikacje 
+-    **Profile|LinkList**: lista używanych profili.
 
--   Wierzchołek lub punkt
-    -   Wierzchołek lub punkt może być użyty tylko jako pierwszy i / lub ostatni profil na liście profili.
-        -   Na przykład
-            -   nie można wykonać wyciągnięcie od okręgu przez punkt do elipsy.
-            -   Można jednak wykonać wyciągnięcie z punktu do okręgu, przez elipsę do innego punktu.
--   W jednym wyciągnięciu nie można mieszać profili o geometrii otwartej i zamkniętej.
-    -   W jednym wyciągnięciu wszystkie profile *(linie, przewody itp.)* muszą być otwarte lub zamknięte.
-        -   Na przykład
-            -   FreeCAD nie może wykonać wyciągnięcia pomiędzy jednym okręgiem i jedną domyślną linią środowiska Część.
--   Cechy środowiska Rysunek Roboczy.
-    -   Cechy środowiska Rysunek Roboczy mogą być bezpośrednio używane jako profile w FreeCAD {{VersionPlus/pl|0.14}}.
-        -   Na przykład następujące elementy szkicu mogą być użyte jako profile w Wyciągnięciu przez profile:
-            -   Szkic wielokąta,
-            -   Punkt, Linia, polilinia środowiska Rysunek Roboczy,
-            -   Szkic krzywej złożonej, krzywej Béziera,
-            -   Szkic okręgu, elipsy, prostokąta.
--   Szkice środowiska Projekt Części.
-    -   Profil można utworzyć za pomocą szkicu. Jednak tylko prawidłowy szkic zostanie wyświetlony na liście i będzie dostępny do wyboru.
-    -   Szkic musi zawierać tylko jedną otwartą lub zamkniętą krzywą lub linię *(może to być wiele linii, jeśli wszystkie te linie są połączone w taki sam sposób, jak pojedyncza polilinia)*.
--   Środowisko Część.
-    -   Profil może być prawidłowym prymitywem geometrycznym części, który można utworzyć za pomocą narzędzia [Utwórz geometrię pierwotną](Part_Primitives/pl.md).
-        -   Na przykład następujące prymitywy geometryczne części mogą być prawidłowym profilem:
-            -   Punkt *(wierzchołek)*, Linia *(krawędź)*,
-            -   Helisa, Spirala,
-            -   Okrąg, Elipsa;
-            -   Wielokąt foremny,
-            -   Płaszczyzna *(Ściana)*.
+-    **Bryła|Bool**: przyjmuje wartości {{true/pl}} lub {{false/pl}} *(domyślnie)*. Wartość true określa utworzenie bryły.
 
--   Zamknięte wyciągnięcie.
-    -   Wyniki zamkniętych wyciągnięć przez profile mogą być nieoczekiwane - wyciągnięcie może się skręcać lub załamywać. Wyciąganie jest bardzo wrażliwe na rozmieszczenie profili i złożoność krzywych wymaganych do połączenia odpowiednich wierzchołków we wszystkich profilach.
+-    **Powierzchnia prostokreślna|Bool**: {{true/pl}} lub {{false/pl}} *(domyślnie)*. True tworzy powierzchnię prostokreślną.
+
+-    **Zamknięty|Bool**: {{true/pl}} lub {{false/pl}} *(domyślnie)*. True tworzy obiekt zamknięty poprzez połączenie profilu ostatniego z pierwszym.
+
+-    **Maksymalnie stopni|IntegerConstraint**: ilość stopni maksymalnie.
 
 
 
-## Przykład wyciągnięcia przez profile 
+## Ograniczenia
 
-Narzędzie **Wyciągnięcie przez profile** znajduje się w środowisku pracy Część, w menu **Część → Wyciągnięcie przez profile ...**. Jest również dostępne na pasku narzędzi **Narzędzia środowiska Część**.
-
-![](images/Part_Loft_Ikon_Ballon_Hilfe.png )
-
-W oknie \"Wyciągnięcie przez profile\" będą dwie listy: \"Dostępne profile\" i \"Wybrane profile\".
-
-![](images/Part_Loft_Liste3.png )
-
-### Wybór sekcji 
-
-W sekcji \"Dostępne profile\" wyświetlane są dostępne elementy. Dwie sekcje z tej listy muszą zostać wybrane jedna po drugiej.
-
-![](images/Part_Loft_Liste_Auswahl_3b.png )
-
-Następnie za pomocą przycisku niebieskiej strzałki element ten zostanie dodany do listy \"Wybrane profile\".
-
-![](images/Part_Loft_Liste_Auswahl_3c.png )
-
-Wybrane elementy muszą być tego samego typu.
-
-Wskazówka: aktywne / wybrane elementy z listy są wyświetlane w oknie widoku 3D jako zaznaczone.
+Funkcja Wyciągnięcie przez profile ma takie same ograniczenia jak [Przeciągnięcie wzdłuż ścieżki](Part_Sweep/pl#Ograniczenia.md).
 
 
 
-### Zakończenie polecenia 
+### Opcja Zamknięty 
 
-Jeśli wybrano obie sekcje, polecenie można zakończyć naciskając **OK**.
-
-![](images/Part_Loft_Liste_Auswahl_3d.png )
-
-
-
-## Wynik
-
-Z zamkniętych linii otrzymujemy powierzchnie, które można uznać za pobieżny wygląd brył.
-
-![](images/Part_Loft_geschlossen.png )
-
-Jeśli rzeczywiście konieczne jest utworzenie bryły, użyj przycisku {{CheckBox|TRUE|}} Utwórz bryłę lub po utworzeniu wyciągnięcia przejdź do jego zakładki \"Właściwości\" \"Dane\" i ustaw przełącznik \"Bryła\" na wartość {{true/pl}}.
-
-Procedura obsługi dla otwartych polilinii jest taka sama, jak opisana powyżej.
-
-
-
-### Zmiana wyboru sekcji 
-
-Jeśli chcesz zmienić wybór sekcji po utworzeniu wyciągnięcia, możesz wybrać pole **Sekcje** na karcie \"Dane\" i kliknąć pojawiający się przycisk **…**. Zostanie wyświetlone okno **Łącze** z listą wszystkich możliwych do wybrania sekcji, a bieżący wybór zostanie podświetlony. Można tam usunąć lub dodać dodatkowe pozycje.
-
-Kolejność sekcji zależy od kolejności kliknięć na liście. Jeśli chcesz wprowadzić znaczące zmiany, zaleca się najpierw odznaczenie wszystkich, a następnie rozpoczęcie wyboru we właściwej kolejności.
+-   Wyniki aktywnej opcji *Zamknięty* dla funkcji wyciągnięcia przez profile mogą generować nieoczekiwane rezultaty - wyciągnięcie może się skręcać lub załamywać. Wyciąganie jest bardzo wrażliwe na rozmieszczenie profili i złożoność krzywych wymaganych do połączenia odpowiednich wierzchołków we wszystkich profilach.
 
 
 

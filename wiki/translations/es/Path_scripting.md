@@ -359,7 +359,7 @@ The Path module also features a GUI tooltable editor that can be called from Pyt
 
 ### Obtención de la trayectoria de la forma 
 
-Assign the shape of wire Part to a normal Path object, using Path.fronShape() script function (or more powerful Path.fronShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
+Assign the shape of wire Part to a normal Path object, using Path.fromShape() script function (or more powerful Path.fromShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
 
 
 ```python
@@ -450,7 +450,7 @@ example_post.export (myObjectName,"/path/to/outputFile.ncc")
 
 Pre- and post-processing scripts behave like other common FreeCAD imports/exporters. When choosing a pre/post processing script from the dialog, the import/export process will be redirected to the specified given script. Preprocessing scripts must contain at least the following methods open(filename) and insert(filename,docname). Postprocessing scripts need to implement export(objectslist,filename).
 
-Scripts are placed into either the Mod/Path/PathScripts folder or the user\'s macro path directory. You can give them any name you like but by convention, and to be picked by the GUI dialog, pre-processing scripts names must end with \"\_pre\", post-processing scripts with \"\_post\" (make sure to use the underscore, not the hyphen, otherwise Python cannot import it). This is an example of a very, very simple preprocessor. More complex examples are found in the Mod/Path/PathScripts folder:
+Scripts are placed into either the Mod/Path/Path/Post/scripts folder or the user\'s macro path directory. You can give them any name you like but by convention, and to be picked by the GUI dialog, pre-processing scripts names must end with \"\_pre\", post-processing scripts with \"\_post\" (make sure to use the underscore, not the hyphen, otherwise Python cannot import it). This is an example of a very, very simple preprocessor. More complex examples are found in the Mod/Path/Path/Post/scripts folder:
 
 
 ```python

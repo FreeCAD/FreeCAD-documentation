@@ -17,9 +17,9 @@ L\'outil **<img src="images/Part_CheckGeometry.svg" width=16px> [Part Vérifier 
 ## Utilisation
 
 1.  Sélectionnez une pièce (attention à sélectionner la pièce entière et pas seulement une face pour vérifier la validité du solide).
-2.  Lancez l\'outil soit en :
-    -   cliquant sur le **<img src="images/Part_CheckGeometry.svg" width=16px> [Vérifier la géométrie...](Part_CheckGeometry/fr.md)** disponible dans la barre d\'outils de l\'atelier Part.
-    -   utilisant **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Vérifier la géométrie...** du menu supérieur.
+2.  Lancez l\'outil :
+    -   soit en cliquant sur le **<img src="images/Part_CheckGeometry.svg" width=16px> [Vérifier la géométrie...](Part_CheckGeometry/fr.md)** disponible dans la barre d\'outils de l\'atelier Part.
+    -   soit en utilisant **Part → <img src="images/Part_CheckGeometry.svg" width=16px> Vérifier la géométrie...** du menu supérieur.
 3.  La boîte de dialogue des **Réglages** s\'ouvre sauf si **Sauter cette page des paramètres** est activé. Voir [Options](#Options.md) pour plus d\'informations. Cliquez sur **Lancer la vérification**.
 
 Les résultats seront présentés dans le [panneau des tâches](Task_panel/fr.md). Si la vérification a produit des erreurs : cliquez dans le rapport sur un message d\'erreur spécifique et l\'objet géométrique correspondant (arête, face, etc.) sera mis en surbrillance dans la [vue 3D](3D_view/fr.md).

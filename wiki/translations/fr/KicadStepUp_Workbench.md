@@ -7,6 +7,8 @@
 
 L\'atelier KicadStepUp a pour but d\'aider les utilisateurs de KiCad et de FreeCAD à collaborer dans la conception électrique (ECAD) et mécanique (MCAD).
 
+
+
 ## Contexte
 
 KiCad ([website](https://kicad.org/)) est une suite Open Source d\'automatisation de conception électronique. Elle permet à l\'utilisateur de concevoir un schéma électronique, puis un circuit imprimé (PCB) simple ou multicouche à l\'aide d\'une vaste bibliothèque de pièces. Utiliser FreeCAD avec l\'atelier KicadStepUp est la méthode officielle de KiCad pour créer des pièces 3D pour les composants électroniques de KiCad. Les bibliothèques sont hébergées [ici](https://kicad.github.io/), de sorte que tout le monde peut créer et enregistrer des pièces.
@@ -17,7 +19,9 @@ Si vous ne connaissez pas encore [KiCad](https://kicad.org/), il est recommandé
 
 Vous trouverez tous ces concepts [KiCad](https://kicad.org/) dans l\'atelier KicadStepUp. En les connaissant, il est donc beaucoup plus facile de comprendre comment utiliser cet atelier.
 
-## Fonctionnalités
+
+
+## Fonctions
 
 
 {{emphasis|En cours}}
@@ -37,10 +41,14 @@ Vous trouverez tous ces concepts [KiCad](https://kicad.org/) dans l\'atelier Kic
 
 KicadStepUp fait partie des [ateliers externes](External_workbenches/fr.md) et peut être installé automatiquement à l\'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire des extensions](Std_AddonMgr/fr.md), fourni avec FreeCAD 0.17 et ultérieurement, dans le menu **Outils → Gestionnaire des extensions**.
 
+
+
 ## Utilisation
 
 
 {{emphasis|En cours}}
+
+
 
 ### Approche générale 
 
@@ -50,6 +58,8 @@ KicadStepUp convertit les fichiers FreeCAD standard en fichiers KiCad et vice ve
 
 Il est important de noter que les différences entre les deux programmes imposent quelques difficultés pour un échange de données complet.
 Un exemple est que le Sketcher utilisé dans KiCad pour définir le contour de la carte est très limité par rapport à l\'atelier Sketcher de FreeCAD. Donc, pour pouvoir synchroniser dans les deux sens, le contenu du schéma ne peut pas être plus complexe que ce que le Sketcher de KiCad peut gérer. Du point de vue de FreeCAD, cela signifie que vous pouvez éviter d\'utiliser certaines des fonctions d\'esquisse de FreeCAD. KicadStepUp propose des solutions de contournement qui peuvent être plus difficiles à comprendre si vous n\'avez pas cette expérience.
+
+
 
 ### Processus de base 
 
@@ -112,10 +122,14 @@ Ceci ne montre que la façon très basique dont KicadStepUp fonctionne. Il vous 
 
 -   Veuillez consulter [KicadStepUp Cheat Sheet](https://github.com/easyw/kicadStepUpMod/blob/master/demo/kicadStepUp-cheat-sheet.pdf) pour d\'autres fonctions.
 
+
+
 ## Références
 
 -   Auteur: Github: [\@easyw](https://github.com/easyw) \| FreeCAD Forums: [kicad StepUp: ECAD MCAD bidirectional collaboration](https://forum.freecadweb.org/viewtopic.php?f=24&t=14276)
 -   Code source sur GitHub: <https://github.com/easyw/kicadStepUpMod>
+
+
 
 ## Remarque annexe et ateliers externes 
 

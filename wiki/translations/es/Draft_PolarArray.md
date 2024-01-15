@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Descripción
 
 El <img alt="" src=images/Draft_PolarArray.svg  style="width:24px;"> comando **Borrador ArregloPolar** crea un arreglo a partir de un objeto seleccionado colocando copias a lo largo de una circunferencia. El comando puede crear opcionalmente un arreglo [Enlace](App_Link/es.md), que es más eficiente que un arreglo normal.
@@ -28,9 +30,14 @@ El comando puede usarse en objetos 2D creados con el [Ambiente de Trabajo Borrad
 <img alt="" src=images/Draft_PolarArray_example.png  style="width:400px;"> 
 *Borrador ArregloPolar*
 
+
+
 ## Utilización
 
 Ver también: [Borrador Atrapar](Draft_Snap/es.md)
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Opcionalmente selecciona un objeto.
 2.  Hay varias formas de invocar el comando:
@@ -44,6 +51,11 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md)
     -   Pulsa **Entre**.
     -   Pulsar el botón **Aceptar**.
 
+
+</div>
+
+
+
 ## Opciones
 
 -   Enter the **Polar angle** to specify the total angle of the array. The angle is positive in the counter-clockwise direction.
@@ -54,21 +66,21 @@ Ver también: [Borrador Atrapar](Draft_Snap/es.md)
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
+
+
 ## Notas
 
 -   The default rotation axis for the array is the positive Z axis. This can be changed by editing its **Axis** property.
 -   A Draft PolarArray can be turned into a [Draft OrthoArray](Draft_OrthoArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
 
-## Preferencias
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Propiedades
 
 See [Draft OrthoArray](Draft_OrthoArray#Properties.md).
+
+
 
 ## Guión
 

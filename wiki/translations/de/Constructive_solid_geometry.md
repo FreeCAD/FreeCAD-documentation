@@ -1,5 +1,5 @@
 # Constructive solid geometry/de
-## Einführung
+## Einleitung
 
 [Konstruktive Festkörpergeometrie](https://de.wikipedia.org/wiki/Constructive_Solid_Geometry) (engl.: Constructive Solid Geometry) (**CSG**) ist ein Modellierungskonzept, das in vielen herkömmlichen CAD-Systemen verwendet wird. Es besteht im Wesentlichen darin, einfache Festkörperobjekte zu verwenden und mit ihnen boolesche Operationen wie Vereinigung (Verschmelzen), Differenz (Abziehen) und Schnitt (gemeinsamen Inhalt (Schnittmenge) ermitteln) durchzuführen, um eine endgültige Form zu erstellen.
 

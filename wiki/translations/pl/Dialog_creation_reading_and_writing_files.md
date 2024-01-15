@@ -1,13 +1,15 @@
 # Dialog creation reading and writing files/pl
-## Introduction
+## Wprowadzenie
 
-This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide.md).
+To jest przykład [tworzenia dialogu](Dialog_creation/pl.md) z [PySide](PySide/pl.md).
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to create **.ui** files through Qt Designer, and load these in the program.
+W tym przykładzie cały interfejs jest zdefiniowany w środowisku [Python](Python/pl.md). Chociaż jest to możliwe w przypadku małych interfejsów, w przypadku większych interfejsów zaleca się tworzenie plików **.ui** za pomocą Qt Designer i ładowanie ich do programu.
 
-## Dialog for writing to a file 
 
-Complete code: 
+
+## Dialog zapisu do pliku 
+
+Kompletny kod: 
 ```python
 # -*- coding: utf-8 -*-
 import PySide
@@ -42,9 +44,11 @@ else:                                                                         # 
 
 ```
 
-## Dialog to read a file 
 
-Complete code: 
+
+## Dialog do odczytu pliku 
+
+Kompletny kod: 
 ```python
 # -*- coding: utf-8 -*-
 import PySide

@@ -1,16 +1,20 @@
 ---
  GuiCommand:
-   Name: Std MakroFehlersucherAnhängen
-   Empty: 1
-   MenuLocation: Makro , An den entfernten Fehlersucher anhängen...
+   Name: Std MacroAttachDebugger
+   Name/de: Std MakroFehlersucherAnhängen
+   MenuLocation: Makro , An Remote-Debugger anhängen...
    Workbenches: Alle
 ---
 
 # Std MacroAttachDebugger/de
 
+
+
 ## Beschreibung
 
 ZuTun.
+
+
 
 ## Anwendung
 

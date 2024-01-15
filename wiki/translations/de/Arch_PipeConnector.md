@@ -11,45 +11,32 @@
 
 # Arch PipeConnector/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug ermöglicht eine Eck- oder T-Stück Verbindung zwischen zwei oder drei ausgewählten [Arch Rohre](Arch_Pipe/de.md) erstellen.
+Dieses Werkzeug ermöglicht eine Eck- oder T-Stück-Verbindung zwischen zwei oder drei ausgewählten [Arch Rohren](Arch_Pipe/de.md) erstellen.
 
 
-</div>
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle 2 oder 3 [Arch Rohre](Arch_Pipe/de.md). Wenn du 3 Rohre auswählst, müssen zwei davon exakt ausgerichtet sein.
-2.  Drücke die **<img src="images/Arch_PipeConnector.svg" width=16px> [Arch RohrVerbinder](Arch_PipeConnector/de.md)** Schaltfläche oder drücke die **P** und dann **C** Tasten.
+1.  2 oder 3 [Arch Rohre](Arch_Pipe/de.md) auswählen. Werden 3 Rohre ausgewählt, müssen zwei davon kollinear ausgerichtet sein.
+2.  Die Schaltfläche **<img src="images/Arch_PipeConnector.svg" width=16px> [Arch RohrVerbinder](Arch_PipeConnector/de.md)** drücken oder das Tastaturkürzel **P** dann **C**.
 
 
-</div>
 
 ## Eigenschaften
 
 -    **Radius**: Der Krümmungsradius dieses Verbinders
 
+
+
 ## Typischer Arbeitsablauf 
-
-
-<div class="mw-translate-fuzzy">
 
 Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zur Verwendung von Rohren und der Erstellung von Verbindungen.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -58,30 +45,13 @@ Siehe die Information auf [Arch Rohr](Arch_Pipe/de.md) für den Arbeitsablauf zu
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug Rohrverbinder kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, durch anwenden der folgende Funktion:
-
-
-</div>
-
-
+Das Werkzeug Rohrverbinder kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Connector = makePipeConnector(pipes, radius=0, name="Connector")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Erstellt ein `Verbinder` Objekt aus den gegebenen `Rohren`, die eine Liste von [Arch Rohren](Arch_Pipe/de.md) ist, und wahlweise einen `radius` der Krümmung.
-    -   Die Basisobjekte ([Entwurf Drahte](Draft_Wire/de.md)) der [Arch Rohre](Arch_Pipe/de.md) sollten einen gemeinsamen Endpunkt haben, so dass sie einen sauberen, glatten Verbinder bilden.
-
-
-</div>
+-   Erstellt ein `Connector`-Objekt aus den gegebenen `pipes`, eine Liste von [Arch Rohren](Arch_Pipe/de.md), und wahlweise einen Krümmungsradius `radius`.
+    -   Die Basisobjekte ([Draft Linienzüge](Draft_Wire/de.md)) der [Arch Rohre](Arch_Pipe/de.md) sollten einen gemeinsamen Endpunkt haben, so dass sie einen sauberen, glatten Verbinder ergeben.
 
 Beispiel: 
 ```python
@@ -115,15 +85,6 @@ FreeCAD.ActiveDocument.recompute()
 Conn3 = Arch.makePipeConnector([Pipe4, Pipe5], radius=400)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

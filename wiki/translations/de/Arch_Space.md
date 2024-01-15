@@ -10,22 +10,27 @@
 
 # Arch Space/de
 
+
+
 ## Beschreibung
 
-Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du es auf einer festen Form basierst, oder indem du seine Grenzen oder eine Mischung aus beidem festlegst. Wenn es ausschließlich auf Begrenzungen basiert, wird das Volumen berechnet, indem von der Begrenzungsbox aller gegebenen Begrenzungen ausgegangen und die Räume hinter jeder Begrenzung subtrahiert werden. Das Raumobjekt definiert immer ein festes Volumen. Die Bodenfläche eines Raumobjekts, die berechnet wird, indem eine horizontale Ebene im Massenschwerpunkt des Raumvolumens geschnitten wird, kann ebenfalls angezeigt werden.
+Mit dem Werkzeug Raum kann ein leeres Volumen festgelegt werden, entweder auf einer Festkörperform basierend oder indem seine Grenzen festgelegt werden oder eine Mischung aus beidem. Wenn es ausschließlich auf Begrenzungen basiert, wird das Volumen berechnet, indem von der Begrenzungsbox aller gegebenen Begrenzungen ausgegangen und die Räume hinter jeder Begrenzung subtrahiert werden. Ein Raum (Space-Objekt) definiert immer ein Festkörper-Volumen. Die Bodenfläche eines Raumobjekts, die berechnet wird, indem es in seinem Massenschwerpunkt mit einer horizontale Ebene geschnitten wird, kann ebenfalls angezeigt werden.
 
-<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;"> 
+<img alt="" src=images/Arch_Space_example.jpg  style="width:640px;">
+
+
+
 *Raumobjekt, das aus einem vorhandenen Volumenobjekt erstellt wird, dann werden zwei Wandflächen als Begrenzungen hinzugefügt.*
 
 
 
 ## Anwendung
 
-1.  Wähle ein vorhandenes Volumenkörperobjekt oder Flächen auf Begrenzungsobjekten aus.
-2.  Rufe den Arch Raum Befehl mit mehreren Methoden auf:
-    -   Drücken der **<img src="images/Arch_Space.svg" width=16px> [Arch Raum](Arch_Space/de.md)** Schaltfläche in der Werkzeugleiste.
-    -   Verwenden der **S**, dann **P** Tastaturkürzel
-    -   Verwenden des **Arch → Raum** Eintrags aus dem oberen Menü
+1.  Ein vorhandenes Festkörperobjekt oder Flächen auf Begrenzungsobjekten auswählen.
+2.  Den Befehl mit einer der folgenden Methoden aufrufen:
+    -   Die Schaltfläche **<img src="images/Arch_Space.svg" width=16px> [Raum](Arch_Space/de.md)** drücken.
+    -   Das Tastaturkürzel **S** dann **P**
+    -   Den Menüeintrag **Arch → Raum** auswählen.
 
 
 
@@ -38,70 +43,64 @@ Mit dem Raum Werkzeug kannst du ein leeres Volumen festlegen, entweder indem du 
 
 ## Eigenschaften
 
--    {{PropertyData/de|Basis}}: Das Basisobjekt, falls vorhanden (muss ein Volumenkörper sein)
+-    {{PropertyData/de|Basis}}: Das Basisobjekt, falls vorhanden (muss ein Festkörper sein)
 
--    {{PropertyData/de|Grenzen}}: Eine Liste möglicher Begrenzungselemente
+-    {{PropertyData/de|Boundaries}}: Eine Liste möglicher Begrenzungselemente
 
--    **Bereich**: Die berechnete Bodenfläche dieses Raumes
+-    {{PropertyData/de|Area}}: Die berechnete Bodenfläche dieses Raumes
 
--    **FertigstellenFußboden**: Die Fertigstellung des Fußbodens in diesem Raum
+-    {{PropertyData/de|FinishFloor}}: Die Endbearbeitung des Fußbodens in diesem Raum
 
--    **FertigstellungWände **: Die Fertigstellung der Wände dieses Raumes
+-    {{PropertyData/de|FinishWalls}}: Die Endbearbeitung der Wände dieses Raumes
 
--    **FertigstellenDecke**: Die Fertigstellung der Decke dieses Raumes
+-    {{PropertyData/de|FinishCeiling}}: Die Endbearbeitung der Decke dieses Raumes
 
--    **Gruppe**: Objekte, die sich in diesem Raum befinden, wie zum Beispiel Möbel
+-    {{PropertyData/de|Group}}: Objekte, die sich in diesem Raum befinden, wie zum Beispiel Möbel
 
--    **RaumTyp**: Der Typ dieses Raumes
+-    {{PropertyData/de|SpaceType}}: Der Typ dieses Raumes
 
--    **FußbodenDicke**: Die Dicke des Fußbodenbelags
+-    {{PropertyData/de|FloorThickness}}: Die Dicke des Fußbodenbelags
 
--    **AnzahlPersonen**: Die Anzahl der Personen, die typischerweise diesen Raum besetzen
+-    {{PropertyData/de|NumberOfPeople}}: Die Anzahl der Personen, die sich üblicherweise in diesem Raum aufhalten
 
--    **BeleuchtungLeistung**: Die zur Beleuchtung dieses Raumes benötigte elektrische Leistung in Watt
+-    {{PropertyData/de|LightingPower}}: Die zur Beleuchtung dieses Raumes benötigte elektrische Leistung in Watt
 
--    **AusrüstungLeistung**: Die für die Ausrüstung dieses Raumes benötigte elektrische Leistung in Watt
+-    {{PropertyData/de|EquipmentPower}}: Die für die Ausrüstung dieses Raumes benötigte elektrische Leistung in Watt
 
--    **AutoLeistung**: Wenn dies zutrifft, wird die Geräteleistung automatisch von den in diesem Feld aufgeführten Geräten übernommen.
+-    {{PropertyData/de|AutoPower}}: Wenn dies zutrifft, wird die Geräteleistung automatisch von den in diesem Feld aufgeführten Geräten übernommen.
 
--    **Klimatisierung**: Die Art der Klimatisierung dieses Raumes
+-    {{PropertyData/de|Conditioning}}: Die Art der Klimatisierung dieses Raumes
 
--    **Intern**: Gibt an, ob dieser Raum intern oder extern ist
+-    {{PropertyData/de|Internal}}: Gibt an, ob dieser Raum intern oder extern ist
 
--    **Text**: Der anzuzeigende Text. Verwende \$area, \$label, \$tag, \$floor, \$walls, \$ceiling, um die entsprechenden Daten einzufügen
+-    {{PropertyView/de|Text}}: Der anzuzeigende Text. Verwende \$area, \$label, \$tag, \$floor, \$walls, \$ceiling, um die entsprechenden Daten einzufügen
 
--    **SchriftName**: Der Name der Schriftart
+-    {{PropertyView/de|Font Name}}: Der Name der Schriftart
 
--    **TextFarbe**: Die Farbe des Textes
+-    {{PropertyView/de|Text Color}}: Die Farbe des Textes
 
--    **SchriftGröße**: Die Größe des Textes
+-    {{PropertyView/de|Font Size}}: Die Schrifthöhe des Textes
 
--    **ErsteLinie**: Die Größe der ersten Linie (multipliziert die Schriftgröße. 1 = gleiche Größe, 2 = doppelte Größe, usw.)
+-    {{PropertyView/de|First Line}}: Die Höhe der ersten Zeile (als Vielfaches der Schrifthöhe. 1 = gleiche Höhe, 2 = doppelte Höhe, usw.)
 
--    **ZeilenAbstand**: Der Abstand zwischen den Textzeilen
+-    {{PropertyView/de|Line Spacing}}: Der Abstand zwischen den Textzeilen
 
--    **TextPosition**: Die Position des Textes. Hinterlasse (0,0,0) für die automatische Position
+-    {{PropertyView/de|Text Position}}: Die Position des Textes. Wird die Vorgabe (0,0,0) nicht geändert, wird der Text automatisch positioniert
 
--    **TextAusrichtung**: Die Ausrichtung des Textes
+-    {{PropertyView/de|Text Align}}: Die Ausrichtung des Textes
 
--    **Dezimalstellen**: Die Anzahl der zu verwendenden Dezimalstellen für berechnete Texte
+-    {{PropertyView/de|Decimals}}: Die Anzahl der zu verwendenden Dezimalstellen für berechnete Texte
 
--    **ZeigeEinheit**: Anzeige des Einheiten Zusatz
-
-anzeigen oder nicht
+-    {{PropertyView/de|Show Unit}}: Nachgestellte Maßeinheiten anzeigen oder nicht
 
 
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Um Zonen zu erstellen, die mehrere Räume gruppieren, verwende ein [Arch GebäudeTeil](Arch_BuildingPart/de.md) und setze dessen IFC Typ auf \"Räumliche Zone\".
--   Das Raumobjekt hat dieselben Anzeigemodi wie andere Arch- und Teilobjekte, mit einem weiteren, **Fußabdruck** benannten, der nur die Unterseite des Raumes anzeigt. <small>(v0.19)</small> 
+-   Um Zonen zu erstellen, die mehrere Räume gruppieren, wird ein [Arch Gebäudeteil](Arch_BuildingPart/de.md) verwendet und sein IFC-Typ auf \"Spatial Zone\" (Räumliche Zone) gesetzt.
+-   Das Raumobjekt (Space-Objekt) hat dieselben Anzeigemodi wie andere Arch- und Part-Objekte, mit einem weiteren, **Fußabdruck** (Footprint) genannten, der nur die Unterseite des Raumes anzeigt.
 
 
-</div>
 
 ## Skripten
 
@@ -110,17 +109,21 @@ anzeigen oder nicht
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Raum Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole mit der folgenden Funktion verwendet werden: 
+Das Werkzeug Raum kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
+
+
 ```python
 Space = makeSpace(objects=None, baseobj=None, name="Space")
 ```
 
--   Erstellt ein `Space` Objekt aus den gegebenen `objects` oder `baseobj`, die
+-   Erstellt ein `Space`-Objekt aus den gegebenen `objects` oder `baseobj`, die
     -   ein Dokumentobjekt sein können, wodurch es zur Basisform des Raumobjekts wird oder
     -   eine Liste von Auswahlobjekten wie von `FreeCADGui.Selection.getSelectionEx()` oder
     -   eine Liste von Tupeln `(object, subobjectname)`
 
-Beispiel: 
+Beispiel:
+
+
 ```python
 import FreeCAD, Arch
 
@@ -134,7 +137,9 @@ Space.ViewObject.LineWidth = 2
 FreeCAD.ActiveDocument.recompute()
 ```
 
-Nach der Erstellung eines Raum-Objekts können ausgewählte Flächen durch den folgenden Code hinzugefügt werden: 
+Nach der Erstellung eines Raum-Objekts können ausgewählte Flächen durch den folgenden Code hinzugefügt werden:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -148,7 +153,9 @@ selection = FreeCADGui.Selection.getSelectionEx()
 Arch.addSpaceBoundaries(Space, selection)
 ```
 
-Begrenzungen können auch entfernt werden, wieder durch auswählen der angegebenen Flächen: 
+Begrenzungen können auch entfernt werden, wieder durch auswählen der angegebenen Flächen:
+
+
 ```python
 selection = FreeCADGui.Selection.getSelectionEx()
 Arch.removeSpaceBoundaries(Space, selection)

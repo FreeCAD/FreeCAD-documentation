@@ -14,6 +14,8 @@ Cet outil permet à l\'utilisateur d\'activer/désactiver la légende des série
 
 <img alt="" src=images/Plot_Trigonometric_Example.png  style="width:600px;">
 
+
+
 ## Utilisation
 
 Sélectionnez l\'onglet du graphique que vous voulez modifier, et exécutez cet outil pour changer l\'état de la légende, c\'est-à-dire l\'afficher si elle était cachée, la cacher sinon.

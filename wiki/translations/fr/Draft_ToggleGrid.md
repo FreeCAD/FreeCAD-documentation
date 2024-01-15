@@ -4,31 +4,45 @@
    Name/fr: Draft Basculer la grille
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **G** **R**
-   SeeAlso: Draft_Snap/fr, Draft_Snap_Grid/fr, Draft_SelectPlane/fr
+   SeeAlso: Draft_Snap_Grid/fr, Draft_SelectPlane/fr
 ---
 
 # Draft ToggleGrid/fr
 
 ## Description
 
-La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Basculer la grille** permet d\'activer ou de désactiver la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
+La commande <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Draft Basculer la grille** change la visibilité de la grille.
+
+
+{{Version/fr|0.22}}
+
+: chaque [vue 3D](3D_view/fr.md) possède sa propre grille qui peut être soit toujours visible, soit visible uniquement pendant les commandes, soit invisible. La visibilité initiale de la grille dans les nouvelles vues dépend des [préférences](#Préférences.md).
+
+
 
 ## Utilisation
 
-Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
+1.  La commande peut être utilisée lorsqu\'une autre commande est active.
+2.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Draft_ToggleGrid.svg" width=16px> [Basculer la grille](Draft_ToggleGrid/fr.md)** dans la barre d\'outils Draft Aimantation.
+    -   Appuyez sur le le bouton **<img src="images/Draft_ToggleGrid.svg" width=16px> [Basculer la grille](Draft_ToggleGrid/fr.md)** du [Draft Widget aimantation](Draft_snap_widget/fr.md).
+    -   Utilisez le raccourci clavier : **G** puis **R**. Ce raccourci ne peut pas être utilisé si une autre commande est active.
+3.  La visibilité de la grille appartenant à la vue 3D courante a changé :
+    -   Si aucune autre commande n\'est active :
+        -   Si la grille était invisible, elle est maintenant toujours visible.
+        -   Si la grille était visible, elle ne l\'est plus, mais la visibilité de la grille pendant les commandes reste inchangée.
+    -   Si une autre commande est active :
+        -   Si la grille était invisible, elle n\'est plus visible que pendant les commandes.
+        -   Si la grille était visible, elle n\'est plus visible pendant les commandes et n\'est plus visible de mnaière permanente.
 
-1.  Vous pouvez aussi changer le [plan de travail et/ou la grille](Draft_SelectPlane/fr.md).
-2.  Pour lancer **Draft Basculer la grille**, faites l\'une des choses suivantes :
-    -   Appuyez sur le bouton **<img src="images/Draft_ToggleGrid.svg" width=16px>** de la barre d\'outils Draft Aimantation.
-    -   Appuyez sur le bouton **<img src="images/Draft_ToggleGrid.svg" width=16px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md).
-    -   Utilisez le raccourci clavier : **G** puis **R**. Ce raccourci ne peut pas être utilisé lorsqu\'une commande est active.
+
 
 ## Préférences
 
-Voir [Draft Préférences](Draft_Snap/fr#Pr.C3.A9f.C3.A9rences.md)
+Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour utiliser la grille, sélectionnez : **Édition → Préférences... → Draft → Grille et aimantation → Grille → Activer la grille**. Après avoir modifié cette préférence, vous devez redémarrer FreeCAD.
--   D\'autres préférences de grille sont également disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
+-   Plusieurs préférences de grille sont disponibles : **Édition → Préférences... → Draft → Grille et aimantation → Grille**.
+-   Pour conserver la grille lorsque vous passez à d\'autres ateliers, voir [Réglage fin](Fine-tuning/fr#Atelier_Draft.md).
 
 
 

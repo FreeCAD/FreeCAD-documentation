@@ -4,9 +4,9 @@
 |Icon=Editor_Assistant_Icon.svg
 |Description=Étend les fonctionnalités de l'éditeur Python intégré à FreeCAD
 |Author=TheMarkster
-|Version=1.91
-|Date=2022-04-19
-|FCVersion=Versions de Python 3
+|Version=1.96
+|Date=2023-09-28
+|FCVersion=0.21 ou plus
 |Download=[https://wiki.freecadweb.org/File:Editor_Assistant_Icon.svg Icône de la barre d'outils]
 |SeeAlso=
 |Links=[https://github.com/mwganson/Editor_Assistant Documentation sur Github]
@@ -15,6 +15,8 @@
 ## Description
 
 Editor Assistant étend les capacités de l\'éditeur Python intégré à FreeCAD. L\'éditeur est assez bon dans ce qu\'il fait, mais il est quelque peu limité dans ses fonctionnalités. Cette macro tente de compléter l\'éditeur en ajoutant certaines de ces fonctionnalités manquantes, y compris : recherche et remplacement, signets, références d\'aide, instantanés, diffs, mise en évidence de la recherche, insertion d\'extraits de texte via un mécanisme de modèles, et plus encore.
+
+
 
 ## Utilisation
 
@@ -27,10 +29,12 @@ La documentation complète se trouve sur GitHub : [Editor Assistant](https://git
 <img alt="" src=images/Editor_Assistant_scr1.png  style="width:400px;"> 
 *Capture d'écran de la Macro Editor Assistant*
 
+
+
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6/raw/36b9e890ef920b5c8b81bde825d4dc48a32e704c/Editor_Assistant.FCMacro|Editor_Assistant.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/20475dad57d9b659190f082d20e3bde6/raw/c1cc5b4ff24ffa1ec04d2d51db33880eedc9996e/Editor_Assistant.FCMacro|Editor_Assistant.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Editor_Assistant_Icon.svg )
 

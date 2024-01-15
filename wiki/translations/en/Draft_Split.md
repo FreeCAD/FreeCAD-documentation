@@ -17,7 +17,7 @@ The <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Draft Split**
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Split.svg" width=16px> [Draft Split](Draft_Split.md)** button.
+    -   Press the **<img src="images/Draft_Split.svg" width=16px> [Split](Draft_Split.md)** button.
     -   Select the **Modification → <img src="images/Draft_Split.svg" width=16px> Split** option from the menu.
     -   Use the keyboard shortcut: **S** then **P**.
 2.  Move the pointer over the correct edge of a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md).

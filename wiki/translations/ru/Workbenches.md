@@ -92,7 +92,13 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:32px;"> [Верстак Spreadsheet](Spreadsheet_Workbench/ru.md) для создания и обработки данных электронной таблицы.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Верстак Start Center](Start_Workbench/ru.md) позволяет быстро перейти к одному из наиболее распространённых верстаков.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Верстак Surface](Surface_Workbench/ru.md) предоставляет инструменты для создания и изменения поверхностей. Он похож на опцию Грань из отрезков [Построителя Форм](Part_Builder/ru.md).
 

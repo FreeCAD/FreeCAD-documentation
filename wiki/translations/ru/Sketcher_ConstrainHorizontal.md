@@ -10,9 +10,13 @@
 
 # Sketcher ConstrainHorizontal/ru
 
+
+
 ## Описание
 
 Горизонтальное ограничение заставляет выбранную линию или линии в эскизе быть параллельными горизонтальной оси эскиза.
+
+
 
 ## Применение
 
@@ -37,6 +41,8 @@
 <img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
 *и затем, применив к ним ограничение, как описано выше, они будут всегда оставаться параллельными горизонтальной оси эскиза.*
 
+
+
 ## Программирование
 
 
@@ -45,10 +51,16 @@
 The [Sketcher scripting](Sketcher_scripting.md) page explains the values which can be used for `Line` and contains further examples on how to create constraints from Python scripts.
 
 
+<div class="mw-translate-fuzzy">
 
 
 
-{{Sketcher Tools navi
+
+
+</div>
+
+
+{{Sketcher_Tools_navi
 
 }}
 

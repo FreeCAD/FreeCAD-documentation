@@ -5,7 +5,7 @@
    MenuLocation: Szkic , Wiązania szkicownika , Zwiąż punkt na obiekcie
    Workbenches: Sketcher_Workbench/pl
    Shortcut: **O**
-   SeeAlso: Sketcher_ConstrainCoincident/pl
+   SeeAlso: Sketcher_ConstrainCoincidentUnified/pl, Sketcher_ConstrainCoincident/pl
 ---
 
 # Sketcher ConstrainPointOnObject/pl
@@ -49,7 +49,7 @@ Na stronie [Skrypty Szkicownika](Sketcher_scripting/pl.md) wyjaśniono, jak iden
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

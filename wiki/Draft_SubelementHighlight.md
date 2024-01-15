@@ -21,7 +21,7 @@ The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
 
 1.  Optionally select one or more [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md), or objects whose **Base** objects are [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Draft SubelementHighlight](Draft_SubelementHighlight.md)** button.
+    -   Press the **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Subelement highlight](Draft_SubelementHighlight.md)** button.
     -   Select the **Modification → <img src="images/Draft_SubelementHighlight.svg" width=16px> Subelement highlight** option from the menu.
     -   Use the keyboard shortcut: **H** then **S**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).

@@ -27,7 +27,7 @@ Bottom: a face extruded into a solid body.*
 
 1.  Optionally select one object. The object must be a [Draft Line](Draft_Line.md), a [Draft Wire](Draft_Wire.md), a [Draft Arc](Draft_Arc.md) or a [Draft Circle](Draft_Circle.md) (which can only be trimmed). If the selected object is closed it must have its **Make Face** property set to `False`.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Draft Trimex](Draft_Trimex.md)** button.
+    -   Press the **<img src="images/Draft_Trimex.svg" width=16px> [Trimex](Draft_Trimex.md)** button.
     -   Select the **Modification → <img src="images/Draft_Trimex.svg" width=16px> Trimex** option from the menu.
     -   Use the keyboard shortcut: **T** then **R**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
@@ -40,7 +40,7 @@ Bottom: a face extruded into a solid body.*
 
 ### Options
 
-The single character keyboard shortcut and the modifier keys mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   Hold down **Alt** to invert the default result of the command.
 -   Hold down **Shift** to restrict the operation to the current segment of a [Draft Wire](Draft_Wire.md).
@@ -81,12 +81,6 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 The modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
 
 -   Hold **Shift** to extrude in a direction that is not parallel to the normal of the face.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of the distance: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 ## Scripting
 

@@ -1,4 +1,7 @@
 # Macro Toggle Panels Visibility/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Toggle Panels Visibility
 |Translate=Nascondi Pannelli
@@ -11,9 +14,25 @@
 |SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle_Panels]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Quando si lavora con FreeCAD, in certi momenti servono molte finestre di supporto aperte, come Combo View, Report, ecc., in altri momenti si desidera nascondere tutte le finestre di supporto in modo che tutto lo spazio disponibile sullo schermo possa essere utilizzato per visualizzare il modello in lavorazione. Questa macro consente di nascondere tutte le finestre di supporto, o di renderle nuovamente visibili, con un solo clic sulla barra degli strumenti.
+
+
+</div>
+
+## Installation
+
+
+<div class="mw-translate-fuzzy">
 
 ## Installazione
 
@@ -22,13 +41,34 @@ L\'installazione si realizza copiando i due codici nella appropriata directory d
 -   vedere la pagina [Come installare le macro](How_to_install_macros/it.md)
 -   vedere la pagina [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uso
 
 Fare clic sul pulsante della barra degli strumenti associato, o richiamarle dal menu Macro. Tutte le finestre di supporto quali Console Python, Rapporto e Vista Combinata diventeranno tutte visibili o tutte nascoste.
 
+
+</div>
+
+## User Interface 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Interfaccia utente 
 
 L\'azione dell\'utente è immediatamente confermata dal fatto che le finestre di supporto appaiono o spariscono.
+
+
+</div>
+
+
 
 ## Script
 

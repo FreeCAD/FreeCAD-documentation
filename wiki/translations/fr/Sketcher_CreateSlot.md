@@ -5,6 +5,7 @@
    MenuLocation: Esquisse , Géométries d'esquisse , Créer un contour oblong
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **G** **S**
+   SeeAlso: Sketcher_CreateArcSlot/fr
 ---
 
 # Sketcher CreateSlot/fr

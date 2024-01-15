@@ -10,31 +10,44 @@
 
 # FEM Analysis/pl
 
+
+
 ## Opis
 
 Analiza MES może być postrzegana jako kontener, który przechowuje wszystkie obiekty analizy elementów skończonych. Konieczne jest posiadanie kontenera analizy, który przechowuje wszystkie potrzebne obiekty. Przynajmniej jeden z poniższych obiektów jest potrzebny do analizy mechanicznej:
 
--   [materiał](FEM_MaterialSolid/pl.md).
--   [zdefiniowane ograniczenie](FEM_ConstraintFixed/pl.md).
--   [ograniczenie siły](FEM_ConstraintForce/pl.md) lub [ograniczenie ciśnienia](FEM_ConstraintPressure/pl.md).
+-   \[\[FEM_MaterialSolid/pl\|Materiał dla bryły
+
+\]\].
+
+-   [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md).
+-   [Ograniczenie siły](FEM_ConstraintForce/pl.md) lub [Warunek brzegowy przemieszczenia](FEM_ConstraintPressure/pl.md).
+
+
 
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> [Analiza MES](FEM_Analysis/pl.md)**.
-    -   Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza MES**.
+    -   Naciśnij przycisk **<img src="images/FEM_Analysis.svg" width=16px> '''Analiza'''**.
+    -   Wybierz z menu **Model → <img src="images/FEM_Analysis.svg" width=16px> Analiza**.
     -   Użyj skrótu klawiaturowego: **S** następnie **A**.
 2.  Zostanie utworzona nowa Analiza i ustawiona jako aktywna.
 3.  Inne obiekty mogą być dodawane lub usuwane do kontenera analizy metodą \"przeciągnij i upuść\".
 4.  Aby dodać nowe obiekty MES do dokumentu, analiza musi być aktywna. Podwójne kliknięcie na analizie powoduje jej aktywację.
 
+
+
 ## Opcje
 
 -   Do chwili obecnej nie ma możliwości wyboru.
 
+
+
 ## Właściwości
 
 -    **OutpuDir**: Określa katalog roboczy dla analizy.
+
+
 
 ## Tworzenie skryptów 
 

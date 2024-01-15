@@ -1,10 +1,10 @@
 ---
  GuiCommand:
    Name: Mesh Union
-   Name: Mesh Vereinigung
-   MenuLocation: Meshes , Boolesche Verknüpfungen , Vereinigung
-   Workbenches: Mesh_Workbench
-   SeeAlso: Mesh_Intersection, Mesh_Difference
+   Name/de: Mesh Vereinigung
+   MenuLocation: Netze , Boolesche Verknüpfungen , Vereinigung
+   Workbenches: Mesh_Workbench/de
+   SeeAlso: Mesh_Intersection/de, Mesh_Difference/de
 ---
 
 # Mesh Union/de

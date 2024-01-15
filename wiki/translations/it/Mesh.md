@@ -1,37 +1,43 @@
 # Mesh/it
 ## Introduzione
 
-In FreeCAD the word \"[Mesh](Mesh.md)\" is normally used to refer to a [Mesh MeshObject](Mesh_MeshObject.md) (`Mesh::MeshObject` class), a type of object that defines 3D data but is not a solid \"[Shape](Shape.md)\".
+In FreeCAD la parola \"[Mesh](Mesh/it.md)\" viene normalmente utilizzata per riferirsi a un [Mesh MeshObject](Mesh_MeshObject/it.md) (classe `Mesh::MeshObject`), un tipo di oggetto che definisce dati 3D ma non è un solido \"[Shape](Shape/it.md)\".
 
-Meshes are very simple objects, containing only vertices (points), edges and triangular faces. In general, they are easy to create, modify, subdivide, and stretch, and can be passed from one application to another without any loss of detail. In addition, since meshes contain very simple data, 3D applications like animation software and video games can manage very large quantities of them (millions of triangles) without using a lot of computing resources.
+Le mesh sono oggetti molto semplici, contenenti solo vertici (punti), bordi e facce triangolari. In generale, sono facili da creare, modificare, suddividere ed estendere e possono essere passati da un\'applicazione all\'altra senza alcuna perdita di dettagli. Inoltre, poiché le mesh contengono dati molto semplici, le applicazioni 3D come i software di animazione e i videogiochi possono gestirne quantità molto grandi (milioni di triangoli) senza utilizzare molte risorse di calcolo.
 
-However, in the field of engineering meshes present one big limitation: they are only made of surfaces, and have no \"mass\" information, so they don\'t behave like \"solids\". This means that solid-based operations, like [boolean addition or subtraction](Part_Boolean.md), are difficult to perform on meshes. Also, since they are defined by individual points, they are hard to describe in a parametric fashion.
+Tuttavia, nel campo dell\'ingegneria le mesh presentano una grande limitazione: sono costituite solo da superfici e non hanno informazioni sulla \"massa\", quindi non si comportano come \"solidi\". Ciò significa che le operazioni basate sui solidi, come [addizione o sottrazione booleana](Part_Boolean/it.md), sono difficili da eseguire sulle mesh. Inoltre, poiché sono definite da singoli punti, sono difficili da descrivere in modo parametrico.
 
-See [Mesh MeshObject](Mesh_MeshObject.md) for more information about this type of object, and see [Polygon mesh](https://en.wikipedia.org/wiki/Polygon_mesh) for generic information in computer systems.
+Vedere [Mesh MeshObject](Mesh_MeshObject/it.md) per ulteriori informazioni su questo tipo di oggetto e vedere [Mesh poligonale](https://en.wikipedia.org/wiki/Polygon_mesh) per informazioni generiche sui sistemi informatici.
 
 ![](images/Shape_and_mesh.svg )
 
 
 
-*Left: parametric [shape](Shape.md) defined by properties. Right: [mesh](Mesh.md), defined by vertices and triangular surfaces.*
+*Sinistra: [forma](Shape/it.md) parametrica definita dalle proprietà. A destra: [mesh](Mesh/it.md), definita da vertici e superfici triangolari.*
+
+
 
 ## Utilizzo
 
-Meshes are normally created by internal functions of the [Mesh Workbench](Mesh_Workbench.md), or by importing mesh format files, like STL and OBJ.
+Le mesh vengono normalmente create mediante funzioni interne dell\'[Ambiente Mesh](Mesh_Workbench/it.md) o importando file in formato mesh, come STL e OBJ.
 
-Essentially, every object derived from a [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class) is expected to hold and manipulate a Mesh.
+In sostanza, ci si aspetta che ogni oggetto derivato da una [Mesh Feature](Mesh_Feature/it.md) (classe `Mesh::Feature`) contenga e manipoli una Mesh.
 
-Since FreeCAD is primarily designed to be a solid modeller, it is better suited to deal with solid [Shapes](Shape.md). It can import and display Meshes in the [3D view](3D_view.md), and the [Mesh Workbench](Mesh_Workbench.md) offers some commands to directly manipulate them. But in many cases the Mesh first needs to be converted to a [Shape](Shape.md) (see [Part ShapeFromMesh](Part_ShapeFromMesh.md)), or the geometry needs to be recreated using solid modelling techniques from the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md).
+Poiché FreeCAD è progettato principalmente per essere un modellatore di solidi, è più adatto a gestire [Forme](Shape/it.md) solide. Può importare e visualizzare mesh nella [vista 3D](3D_view/it.md) e l\'[Ambiente Mesh](Mesh_Workbench/it.md) offre alcuni comandi per manipolarle direttamente. Ma in molti casi la Mesh deve prima essere convertita in una [Forma](Shape/it.md) (vedere [Part ShapeFromMesh](Part_ShapeFromMesh/it.md)), oppure la geometria deve essere ricreata utilizzando tecniche di modellazione solida dall\'[Ambiente Part](Part_Workbench/it.md) o dall\'[Ambiente PartDesign](PartDesign_Workbench/it.md).
 
-## Finite element meshes 
 
-In FreeCAD the word \"[Mesh](Mesh.md)\" may also refer to a specific object that will be used in finite element analysis (FEA).
 
-When an object with a solid [Shape](Shape.md) is used in the [FEM Workbench](FEM_Workbench.md) it will be discretized into a triangular mesh. In this case, the resulting object is a [FEM FemMeshObject](FEM_Mesh.md) (`Fem::FemMeshObject` class), and is not derived from a [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class).
+## Mesh Elementi Finiti 
 
-For more information see [FEM Workbench](FEM_Workbench.md) and [FEM Mesh](FEM_Mesh.md).
+In FreeCAD la parola \"[Mesh](Mesh/it.md)\" può anche riferirsi a un oggetto specifico che verrà utilizzato nell\'analisi degli elementi finiti (FEA).
 
-## More information 
+Quando un oggetto con una [Forma](Shape/it.md) solida viene utilizzato nell\'[Ambiente FEM](FEM_Workbench/it.md) verrà discretizzato in una mesh triangolare. In questo caso, l\'oggetto risultante è una classe [FEM FemMeshObject](FEM_Mesh/it.md) (`Fem::FemMeshObject`) e non è derivata da una [Mesh Feature](Mesh_Feature/it.md) (` Mesh::Feature`).
+
+Per ulteriori informazioni vedere [Ambiente FEM ](FEM_Workbench/it.md) e [FEM Mesh](FEM_Mesh/it.md).
+
+
+
+## Ulteriori informazioni 
 
 -   [Polygonal (mesh) geometry](https://forum.freecadweb.org/viewtopic.php?f=8&t=47493)
 

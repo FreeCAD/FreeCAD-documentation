@@ -11,119 +11,151 @@
 
 # Draft ShapeString/pl
 
+
+
 ## Opis
 
-The <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](Part_Extrude.md) command.
+Polecenie <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Kształt z tekstu** tworzy złożony kształt reprezentujący ciąg tekstowy. Kształt ten może być użyty do tworzenia liter 3D za pomocą polecenia [Wyciągnij](Part_Extrude/pl.md) środowiska pracy Część.
 
-The Draft ShapeString command is not intended for standard text annotations. The [Draft Text](Draft_Text.md) command or the [Draft Label](Draft_Label.md) command should be used for that purpose.
+Polecenie Kształt z tekstu nie jest przeznaczone do wykonywania standardowych adnotacji tekstowych. W tym celu należy użyć polecenia [Tekst](Draft_Text/pl.md) lub [Etykieta](Draft_Label/pl.md).
 
 ![](images/Draft_ShapeString_Example400.png ) 
-*Single point required to position the ShapeString*
+*Pojedynczy punkt wymagany do pozycjonowania obiektu Kształt z tekstu*
+
+
 
 ## Użycie
 
-For Windows users: please read the [Font file selection on Windows](#Font_file_selection_on_Windows.md) paragraph first.
+Dla użytkowników Windows OS: przeczytaj najpierw akapit [Wybór pliku czcionki w systemie Windows](#Wybór_pliku_czcionki_w_systemie_Windows.md).
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
-    -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
-2.  The **ShapeString** task panel opens.
-3.  Click a point in the [3D view](3D_view.md), or type coordinates.
-4.  Optionally press the **Reset Point** button to reset the point to the origin.
-5.  Enter a **String**.
-6.  Specify the **Height**.
-7.  To select a font do one of the following:
-    -   Enter a file path in the **Font file** input box.
-    -   Press the **...** button and select a file.
-8.  Press the **OK** button to finish the command.
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_ShapeString.svg" width=16px> '''Kształt z tekstu'''**.
+    -   Wybierz opcję z menu **Kreślenie → <img src="images/Draft_ShapeString.svg" width=16px> Kształt z tekstu**.
+2.  Otworzy się panel zadań **Kształt z tekstu**.
+3.  Kliknij punkt w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne.
+4.  Opcjonalnie naciśnij przycisk **Zresetuj współrzędne punktu**, aby zresetować punkt do położenia punktu początkowego.
+5.  Wprowadź **Ciąg znaków**.
+6.  Określ **Wysokość**.
+7.  Aby wybrać czcionkę, wykonaj jedną z poniższych czynności:
+    -   Wprowadź ścieżkę do pliku w polu wprowadzania **Plik czcionki**.
+    -   Naciśnij przycisk **...** i wybierz plik.
+8.  Naciśnij przycisk **OK**, aby zakończyć polecenie.
+9.  Opcjonalnie można zmienić włąściwość **Wyrównanie** dla tekstu. Zobacz [Właściwości](#Właściwości.md).
+
+
 
 ## Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
+
+
 
 ## Uwagi
 
--   A Draft ShapeStrings can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
--   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
--   The command is restricted to LTR (left-to-right) text. Therefore at the moment RTL (right-to-left + top-to-bottom) text isn\'t supported.
--   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
--   Many fonts will generate problematic geometry. This is because font contours are allowed to overlap, have small gaps, and have varying directions within a glyph. These conditions are considered errors in wires used to define faces.
--   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
--   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
+-   Szkic obiektu Kształt z tekstu może być edytowany poprzez dwukrotne kliknięcie go w [Widoku drzewa](Tree_view/pl.md). {{Version/pl|0.20}}
+-   Obsługiwane czcionki to TrueType (**.ttf**), OpenType (**.otf**) i Type 1 (**.pfb**).
+-   Polecenie jest ograniczone do tekstu od lewej do prawej. Teksty od prawej do lewej i od góry do dołu nie są obsługiwane.
+-   Bardzo małe wysokości tekstu mogą skutkować zdeformowanymi kształtami znaków z powodu utraty szczegółów podczas skalowania.
+-   Wiele czcionek wygeneruje problematyczną geometrię. Wynika to z faktu, że kontury czcionek mogą się nakładać, mieć małe odstępy i mieć różne kierunki w obrębie glifu. Warunki te są uważane za błędy w poliliniach używanych do definiowania ścian.
+-   Kształt z tekstu można również utworzyć za pomocą makrodefinicji [Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/pl.md).
+-   Aby utworzyć Kształt tekstu ułożony w okrąg, należy użyć makrodefinicji [FCCircularText](Macro_FCCircularText/pl.md).
+
+
 
 ## Wybór pliku czcionki w systemie Windows 
 
-On Windows access to the default font folder is restricted. This affects the font file selection for ShapeStrings. There are three cases in FreeCAD where a font file for ShapeStrings can be specified: in the ShapeString task panel, when changing the **Font File** property of a ShapeString, and when specifying the default font file in the [Draft Preferences](Draft_Preferences#Texts_and_dimensions.md).
+W systemie Windows dostęp do domyślnego folderu czcionek jest chroniony. Ma to wpływ na wybór pliku czcionki dla obiektu Kształt z tekstu. W FreeCAD istnieją trzy przypadki, w których można określić plik czcionki dla tekstu: w panelu zadań Kształt z tekstu, podczas zmiany właściwości **Plik czcionki** tekstu oraz podczas określania domyślnego pliku czcionki w [Ustawieniach](Draft_Preferences/pl#Teksty_i_wymiary.md) środowiska pracy Rysunek Roboczy.
 
-Pressing the **...** button and then selecting a file from the default Windows font folder is not possible when using the native file dialog. There are a number of workarounds:
+Naciśnięcie przycisku **...**, a następnie wybranie pliku z domyślnego folderu czcionek systemu Windows nie jest możliwe podczas korzystania z natywnego okna dialogowego plików. Istnieje kilka rozwiązań:
 
--   Make sure **DontUseNativeFontDialog** is set to {{True}}, which is the default value for this preference. This will only call a different, non-native, file dialog when pressing the **...** button in the ShapeString task panel. With this file dialog the default Windows font folder can be accessed.
--   Change **DontUseNativeDialog** to {{True}}. This instructs FreeCAD to always use the non-native file dialog.
--   Specify the font file in the input box. You can of course type the full path or copy-paste the path from the Windows File Explorer. But there is also another way to enter the path. If you enter {{Value|C:\}} a dropdown list will appear. Select {{Value|Windows}} from that list and add {{Value|\F}}. Select {{Value|Fonts}} from the new dropdown list. Finally add {{Value|\}} and the first letter(s) of the font file, and then select it from the dropdown list.
--   Create a custom folder for your font files.
+-   Upewnij się, że wartość opcji **DontUseNativeFontDialog** jest ustawiona na {{True/pl}}, co jest wartością domyślną dla tej preferencji. Spowoduje to wywołanie innego, nienatywnego okna dialogowego pliku tylko po naciśnięciu przycisku **...** na panelu zadań Kształt z tekstu. Za pomocą tego okna dialogowego plików można uzyskać dostęp do domyślnego folderu czcionek systemu Windows.
+-   Zmień wartość opcji **DontUseNativeDialog** na {{True/pl}}. To instruuje FreeCAD, aby zawsze używał okna dialogowego innego niż systemowe.
+-   Określ plik czcionki w polu wprowadzania. Możesz oczywiście wpisać pełną ścieżkę lub skopiować-wkleić ścieżkę z Eksploratora plików Windows. Istnieje jednak również inny sposób wprowadzenia ścieżki. Jeśli wpiszesz {{Value|C:\}}, pojawi się lista rozwijana. Wybierz {{Value|Windows}} z tej listy i dodaj {{Value|\F}}. Z nowej listy rozwijanej wybierz {{Value|Fonts}}. Na koniec dodaj {{Value|\}} i pierwszą literę *(lub kilka)* pliku czcionki, a następnie wybierz ją z rozwijanej listy.
+-   Utwórz niestandardowy folder dla plików czcionek.
 
-See the [Preferences](#Preferences.md) paragraph below for the location of the mentioned preferences.
+Zobacz akapit [Ustawienia](#Ustawienia.md) poniżej, aby sprawdzić lokalizację wspomnianych preferencji.
+
+
 
 ## Poradniki
 
--   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md): extrude a ShapeString, position it in 3D space, and create an engraving in another body.
--   [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623)
+-   [Poradnik: Rysunek Roboczy kształt z tekstu](Draft_ShapeString_tutorial/pl.md): wyciągnięcie Kształtu z tekstu, umieszczenie go w przestrzeni 3D i utworzenie grawerunku w innej bryle.
+-   [Jak używać Kształtu z tekstu w środowisku pracy Projekt Części](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
+
+
 
 ## Ustawienia
 
-See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft_Preferences.md) and [Std DlgParameter](Std_DlgParameter.md).
+Zobacz także: [Edytor ustawień](Preferences_Editor/pl.md), [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md) i [Edytor parametrów](Std_DlgParameter/pl.md).
 
--   The default font file can be changed in the preferences: **Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file**.
--   For Windows users:
-    -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the ShapeString task panel.
-    -   Alternatively, set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
+-   Domyślny plik czcionki można zmienić w preferencjach: **Edycja → Preferencje ... → Rysunek Roboczy → Teksty i wymiary → Domyślny plik czcionki kształtu z tekstu**.
+-   Dla użytkowników systemu Windows:
+    -   Ustaw wartość parametru **Przybory → Edytor parametrów ... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** na {{True/pl}}, aby użyć niesystemowego okna dialogowego wyboru pliku podczas wybierania pliku czcionki z panelu zadań Kształt z tekstu.
+    -   Alternatywnie można ustawić parametr **Przybory → Edytor parametrów ... → BaseApp → Preferences → Dialog → DontUseNativeDialog** na {{True/pl}}, aby zawsze używać niesystemowego okna dialogowego wyboru pliku.
+
+
 
 ## Właściwości
 
-See also: [Property editor](Property_editor.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
-A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+Obiekt *Kształt z tekstu* wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
 
 ### Dane
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Rysunek Roboczy}}
 
--    **Font File|File**: specifies the path of the font file used to draw the text.
+-    **Plik czcionki|File**: Nazwa pliku czcionki.
 
--    **Size|Length**: specifies the general height of the text.
+-    **Sczl|Bool**: Łączenie ścian, jeśli zachodzą na siebie, zwykle nie jest wymagane *(może być bardzo powolne)*. Ignorowane, jeśli parametr **Utwórz ścianę** ma wartość {{FALSE/pl}}. {{Version/pl|0.22}}
 
--    **String|String**: specifies the text string to display. Unlike a [Draft Text](Draft_Text.md), a Draft ShapeString can only display a single text line.
+-    **Wyrównanie|Enumeration**: Wyrównanie poziome i pionowe. Opcje: {{value|Góra-lewo}}, {{value|Góra-środek}}, {{value|Góra-prawo}}, {{value|Środek-lewo}}, {{value|Środek}}, {{value|Środek-prawo}}, {{value|Dół-lewo}}, {{value|Dół-środek}}, {{value|Dół-prawo}}. {{Version/pl|0.22}}
 
--    **Tracking|Length**: specifies the additional inter-character spacing of the text.
+-    **Odniesienie wyrównania|Enumeration**: Odniesienie do wysokości używane do wyrównania. Opcje: {{value|Wysokość nasadki}}, {{value|Wysokość kształtu}}. Wysokość kształtu zależy od znaków w **Ciągu znaków**. {{Version/pl|0.22}}
 
-### Widok
+-    **Zachowaj lewy margines|Bool**: Zachowuje lewy margines i wiodącą spację, gdy justowanie jest w lewo. {{Version/pl|0.22}}.
+
+-    **Utwórz ścianę|Bool**: Wypełnia litery licami.
+
+-    **Kąt skośny|Angle**: Kąt ukośny. Musi mieścić się w zakresie od -80° do +80°. <small>(v0.22)</small> .
+
+-    **Skaluj do rozmiaru|Bool**: Skalowanie w celu zapewnienia, że wysokość nakładki jest równa rozmiarowi. Jeśli ustawiono na {{FALSE/pl}}, w zależności od czcionki, wysokość nakładki nie będzie dokładnie odpowiadać wartości **Rozmiar**. {{Version/pl|0.22}}
+
+-    **Rozmiar|Length**: Wysokość tekstu.
+
+-    **Ciąg znaków|String**: Ciąg tekstowy. Obiekt Kształt z tekstu może wyświetlać tylko jedną linię tekstu.
+
+-    **Kontrola|Distance**: Odstęp między znakami. Typ właściwości został zaktualizowany ({{Version/pl|0.22}}).
+
+<img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
+*Wysokość czerwonego prostokąta ''(linia ciągła)'' jest równa wysokości nakładki.<br>
+Wysokość zielonego prostokąta ''(linia przerywana)'' jest równa wysokości kształtu.<br>
+Narożniki, środki krawędzi i środki prostokątów<br>
+dopasuj 9 opcji wyrównania: od lewego górnego do prawego dolnego rogu.*
 
 
-{{TitleProperty|Draft}}
-
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the text. This property only works if **Display Mode** is {{value|Flat Lines}}.
-
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
 
 ## Tworzenie skryptów 
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-To create a Draft ShapeString use the `make_shapestring` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeShapeString` method.
+Aby utworzyć Kształt z tekstu użyj metody `make_shapestring` modułu Rysunek Roboczy *({{Version/pl|0.19}})*. Ta metoda zastępuje przestarzałą metodę `makeShapeString`.
 
 
 ```python
 shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 ```
 
--   Creates a `shapestring` compound shape using the specified `String` and the full path of a supported `FontFile`.
+-   Tworzy złożony kształt `shapestring` przy użyciu określonego `String` i pełnej ścieżki obsługiwanego `FontFile`.
 
--    `Size`is the height of the resulting text in millimeters.
+-    `Size`to wysokość wynikowego tekstu w milimetrach.
 
--    `Tracking`is the additional inter-character spacing in millimeters.
+-    `Tracking`to odstęp między znakami w milimetrach.
 
-The placement of the ShapeString can be changed by overwriting its `Placement` attribute, or by individually overwriting its `Placement.Base` and `Placement.Rotation` attributes.
+Umiejscowienie obiektu Kształt z tekstu można zmienić nadpisując jego atrybut `Placement` lub indywidualnie nadpisując jego atrybuty `Placement.Base` i `Placement.Rotation`.
 
 Przykład:
 

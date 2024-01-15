@@ -21,7 +21,7 @@ La commande **Ajuster** permet d\'ajuster des faces et des parties de faces d\'o
 2.  Sélectionnez un ou plusieurs objets maillés.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_PolyTrim.svg" width=16px> [Ajuster le maillage](Mesh_PolyTrim/fr.md)**.
-    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_PolyTrim.svg" width=16px> Ajuster le maillage** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_PolyTrim.svg" width=16px> Ajuster le maillage** du menu.
 4.  Définissez un polygone en sélectionnant des points dans la vue 3D.
 5.  Sélectionnez une option dans le menu contextuel de la vue 3D:
     -   
@@ -35,7 +35,7 @@ La commande **Ajuster** permet d\'ajuster des faces et des parties de faces d\'o
         : supprime les faces et les parties de faces qui sont en dehors du polygone.
 
     -   
-        **Scinder**
+        **Recomposer**
         
         : supprime les faces et les parties de faces qui sont en dehors du polygone et crée un nouvel objet maillé les contenant.
 

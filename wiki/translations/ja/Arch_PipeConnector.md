@@ -21,7 +21,7 @@
 
 <small>(v0.17)</small> 
 
-このツールを使用すると、[ Arch Pipesで選択された](Arch_Pipe.md)2つまたは3つのパイプの間にコーナー接続または \"T\"接続を作成できます。
+このツールを使用すると、[ Arch Pipes](Arch_Pipe.md)で選択された2つまたは3つのパイプの間にコーナー接続または \"T\"接続を作成できます。
 
 
 </div>
@@ -31,7 +31,7 @@
 
 <div class="mw-translate-fuzzy">
 
-＃2本または3本のパイプ[アーチパイプを選択します](Arch_Pipe.md)。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
+＃2本または3本のパイプ[アーチパイプ](Arch_Pipe.md)を選択します。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
 
 
 </div>
@@ -63,7 +63,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Pipe Connectorツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
+Pipe Connectorツールは、[マクロ](macros.md)やPythonコンソールから次の関数を使って使うことができます：
 
 
 </div>

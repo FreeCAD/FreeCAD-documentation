@@ -15,6 +15,7 @@
 This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) of an object, display the dimension of the rectangle, create volume of boundBox.
 
 :   <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;">
+
 :   
     
 *BoundingBox Tracing macro in action*
@@ -34,6 +35,7 @@ This macro creates a red outline of the BoundingBox (6 Faces with 6 rectangles) 
 
 
 :   <img alt="" src=images/Macro_BoundingBox_Tracing_01.png  style="width:480px;">
+
 :   
     
 *Info container*

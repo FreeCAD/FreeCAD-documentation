@@ -4,16 +4,18 @@
 |Name/fr=ImportAirfoil
 |Description=Macro pour l'importation des coordonnées d'un profil aérodynamique.
 |Author=Miloš Petrašinović
-|Download=[https://wiki.freecadweb.org/File:ImportAirfoil.svg Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/3/37/ImportAirfoil.svg Icône de la barre d'outils]
 |Date=2022-01-08
 |Version=1.0.0
 |FCVersion=0.18.4 et au-dessus
-|SeeAlso=[https://github.com/VAZMFB/FreeCAD-ImportAirfoil Dépôt Github]
+|SeeAlso=[https://github.com/VAZMFB/FreeCAD-ImportAirfoil Dépôt GitHub]
 }}
 
 ## Description
 
 Macro pour l\'importation des coordonnées d\'un profil aérodynamique. Il est possible, à l\'aide d\'une simple boîte de dialogue, de mettre à l\'échelle l\'aile, de la faire pivoter, de la translater dans le plan, de la translater le long de l\'envergure, de sélectionner le plan et l\'axe principal, ainsi que de transformer la géométrie en une esquisse. Il est possible d\'importer des coordonnées enregistrées dans les formats les plus courants.
+
+
 
 ## Utilisation
 
@@ -78,7 +80,7 @@ __Date__ = '2022-01-06'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = 'https://github.com/VAZMFB/FreeCAD-ImportAirfoil'
 __Wiki__ = 'https://wiki.freecadweb.org/Macro_ImportAirfoil'
-__Icon__ = 'ImportAirfoil.svg'
+__Icon__ = 'https://wiki.freecad.org/images/3/37/ImportAirfoil.svg'
 __Help__ = 'Run the macro program and follow the instructions!'
 __Status__ = 'stable'
 __Requires__ = 'Freecad >= 0.19'
@@ -342,6 +344,8 @@ else:
     msgBox.setWindowModality(QtCore.Qt.NonModal)
     msgBox.show()
 }}
+
+
 
 ## Liens
 

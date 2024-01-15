@@ -1,17 +1,14 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_LShape
+   Name: Arch Rebar LShape
    Name/it: Armatura a L
-   MenuLocation: Arch , Strumenti armatura , Armatura a L o BIM , 3D/BIM , Reinforcement , LShape Rebar 
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_BentShape/it, Arch Rebar/it
+   MenuLocation: Arch , Strumenti di armatura , Armatura a forma di L<br>BIM , Reinforcement tools , Armatura a forma di L
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_BentShape/it
 ---
 
 # Arch Rebar LShape/it
-
-
-</div>
 
 
 
@@ -21,13 +18,7 @@ Lo strumento [Armatura a L](Arch_Rebar_LShape/it.md) consente all\'utente di cre
 
 Lo strumento **Armatura a L** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quattro serie di barre di rinforzo a forma di L all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -40,27 +31,23 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 2.  Quindi selezionare **<img src="images/Arch_Rebar_LShape.svg" width=16px> [Armatura a L](Arch_Rebar_LShape/it.md)** dagli strumenti dell\'armatura.
 
-3.  Sul lato sinistro dello schermo appare un [pannello delle azioni](task_panel/it.md) come sottostante.
+3.  Sul lato sinistro dello schermo appare un [pannello](task_panel/it.md) come quello sottostante.
 
 4.  Selezionare l\'orientamento desiderato.
 
-5.  Fornire i dati per \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' e \'Diameter\' dell\'armatura.
+5.  Fornire i dati per \'Copriferro sinistro\', \'Copriferro destro\', \'Copriferro superiore\', \'Copriferro inferiore\', \'Copriferro anteriore\', \'Bent Angle\', \'Bent Factor\', \'Arrotondamento\' e \'Diametro\' dell\'armatura.
 
-6.  Selezionare la modalità di distribuzione \'Amount\' o \'Spacing\' (quantità o spaziatura).
+6.  Selezionare la modalità di distribuzione \'Quantità\' o \'Passo\'.
+    -   Se è selezionato \'Passo\' l\'utente può anche optare per una [Passo personalizzato](Custom_Spacing/it.md).
 
-7.  Se è selezionata \'Spacing\', la spaziatura, l\'utente può anche optare per una [spaziatura personalizzata](Custom_Spacing/it.md).
+7.  
+    **Usa lato selezionato**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
 
-8.  
-    **Pick Selected Face**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
+8.  Cliccare **OK** o **Apply** per generare l\'armatura.
 
-9.  Cliccare **OK** o **Apply** per generare l\'armatura.
+9.  Cliccare **Annulla** per uscire dal pannello.
 
-10. Cliccare **Cancel** per uscire dal pannello delle azioni.
-
-:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/LShapeDialog.png  style="width:250px;"> 
 *Pannello Azioni per lo strumento Armatura a L di Arch*
 
 
@@ -85,11 +72,6 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
-
-
-
-<div class="mw-translate-fuzzy">
-
 ## Scripting
 
 
@@ -97,23 +79,7 @@ Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/i
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura a L può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Armatura a L può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -181,15 +147,6 @@ LShapeRebar.editLShapeRebar(Rebar, 50, 50, 20, 20,
 LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
                             12, 70, 6, True, 5, "Top Right")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

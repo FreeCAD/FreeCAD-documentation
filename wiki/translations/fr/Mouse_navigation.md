@@ -5,20 +5,28 @@ La **navigation par la souris** dans FreeCAD consiste en des commandes utilisée
 
 Pour plus d\'informations sur la sélection d\'objets, voir [Méthodes de sélection](Selection_methods/fr.md).
 
-Pour plus d\'informations sur la manipulation des objets, voir [Std Transformation manipulation](Std_TransformManip/fr.md).
+Pour plus d\'informations sur la manipulation des objets, voir [Std Transformer](Std_TransformManip/fr.md).
+
+
 
 ## Sélection d\'un style de navigation 
 
 1.  Faites l\'une des choses suivantes :
     -   Appuyez sur le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** de la [Barre d\'état](Status_bar/fr.md).
     -   Cliquez du bouton droit de la souris sur une zone vide dans la [Vue 3D](3D_view/fr.md) et sélectionnez **Styles de navigation** dans le menu contextuel.
-    -   Utilisez les [Réglages des préférences](Preferences_Editor/fr#Navigation.md). Dans le menu, sélectionnez **Edition → Préférences** et ensuite **Affichage → Navigation → Navigation 3D**.
+    -   Utilisez les [Réglages des préférences](Preferences_Editor/fr#Navigation.md). Dans le menu, sélectionnez **Édition → Préférences** et ensuite **Affichage → Navigation → Navigation 3D**.
 2.  Sélectionnez un style dans la liste.
 3.  Modifiez éventuellement le **Style d'orbite** : appuyez sur le bouton **[<img src=images/NavigationCAD_dark.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) puis choisissez **Paramètres → Style d'orbite**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 4.  Vous pouvez également modifier le **Mode de rotation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 5.  Si le mode de navigation **CAD** est sélectionné : modifiez éventuellement le paramètre **Permettre l'animation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 
+
+
 ## Styles de navigation disponibles 
+
+Avec tous les styles de navigation, à moins de sélectionner des objets dans une esquisse en mode édition, vous devez maintenir **Ctrl** pour sélectionner plusieurs objets.
+
+
 
 ### Mode Blender 
 
@@ -39,6 +47,8 @@ Vous pouvez également maintenir enfoncé les boutons gauche et droit de la sour
 |Rotate_view_text=Appuyez sur le bouton central de la souris, et déplacez le pointeur.
 }}
 
+
+
 ### Mode CAD 
 
 C\'est le style de navigation par défaut. Il permet à l\'utilisateur un contrôle simple de la vue et ne nécessite pas l\'utilisation de touches du clavier, sauf pour effectuer des sélections multiples.
@@ -53,11 +63,9 @@ C\'est le style de navigation par défaut. Il permet à l\'utilisateur un contr�
 |Ctrl=**Ctrl**
 |Shift=**Maj**
 |Select_text=Cliquez avec le bouton gauche de la souris sur l'objet que vous souhaitez sélectionner.
-
-Maintenez la touche **Ctrl** enfoncée pour sélectionner plusieurs objets.
-|Pan_text=Maintenez le bouton central de la souris enfoncé et déplacez le pointeur pour déplacer l'objet.
-|Pan_mode_text=Pan mode: maintenez la touche **Ctrl** enfoncée, appuyez simultanément sur le bouton droit de la souris, puis déplacez le pointeur.
-|Zoom_text=Utilisez la molette de la souris pour zoomer et dézoomer.
+|Pan_text=Maintenir le bouton du milieu de la souris, puis déplacer le pointeur.
+|Pan_mode_text=Mode panoramique : maintenez la touche **Ctrl** enfoncée, appuyez une fois sur le bouton droit de la souris, puis déplacez le pointeur.
+|Zoom_text=Utilisez la molette de la souris pour effectuer un zoom avant ou arrière.
 
 En cliquant sur le bouton central de la souris, la vue est recentrée sur l'emplacement du curseur.
 |Zoom_mode_text=Mode zoom: maintenez les touches **Ctrl** et **Maj** enfoncées, appuyez simultanément sur le bouton droit de la souris, puis déplacez le pointeur.
@@ -73,6 +81,8 @@ Avec cette méthode, le bouton central de la souris peut être relâché si vous
 
 Les utilisateurs qui utilisent la souris avec leur main droite peuvent trouver cette méthode plus facile que la première.
 }}
+
+
 
 ### Mode Gesture 
 
@@ -103,8 +113,10 @@ Maintnez la touche **Alt** enfoncée si vous êtes dans [Sketcher](Sketcher_Work
 |Tilt_view_text=Maintenez les boutons gauche et droit de la souris enfoncés, et déplacer le pointeur latéralement.
 |Tilt_view_gesture_text=Faites pivoter la ligne imaginaire formée par deux points de contact.
 
-Dans la v0.18 ce mode est désactivé par défaut. Pour l'activer, allez dans **Édition → Préférences → Affichage**, et décochez la case "Désactiver gestuelle de basculement écran tactile".
+Cette méthode est désactivée par défaut. Pour l'activer, allez dans **Édition → Préférences → Affichage → Navigation** puis décochez la case "Désactiver l’inclinaison par geste de l’écran tactile".
 }}
+
+
 
 ### Mode MayaGesture 
 
@@ -125,6 +137,8 @@ Vous pouvez également utilisez la molette de la souris pour zoomer et dézoomer
 |Rotate_view_text=Maintenez la touche **Alt** et le bouton gauche de la souris enfoncés, puis déplacez le pointeur.
 }}
 
+
+
 ### Mode OpenCascade 
 
 Le style de navigation OpenCascade s\'inspire d\'[OpenCascade](https://www.opencascade.com/).
@@ -143,6 +157,8 @@ Le style de navigation OpenCascade s\'inspire d\'[OpenCascade](https://www.openc
 Vous pouvez également maintenir la touche **Ctrl** et le bouton gauche de la souris enfoncés, puis déplacer le pointeur.
 |Rotate_view_text=Maintenez la touche **Ctrl** et le bouton droit de la souris enfoncés, puis déplacer le pointeur.
 }}
+
+
 
 ### Mode OpenInventor 
 
@@ -167,6 +183,8 @@ Alternativement : Maintenez le bouton central de la souris enfoncé, pressez ens
 |Rotate_view_text=Appuyez sur le bouton gauche de la souris, puis déplacez le pointeur.
 }}
 
+
+
 ### Mode OpenSCAD 
 
 Le style de navigation OpenSCAD s\'inspire d\'[OpenSCAD](https://openscad.org/).
@@ -182,11 +200,15 @@ Le style de navigation OpenSCAD s\'inspire d\'[OpenSCAD](https://openscad.org/).
 |Rotate_view_name=Rotation de la vue
 |Shift=**Maj**
 |Select_text=Appuyez le bouton gauche de la souris sur un objet que vous voulez sélectionner.
-|Pan_text=Maintenir le bouton droit de la souris, puis déplacer le pointeur.
-|Zoom_text=Maintenir le bouton central de la souris, puis déplacer le pointeur.
-Vous pouvez également maintenir **Maj** et le bouton droit de la souris enfoncés, puis déplacer le pointeur.
-|Rotate_view_text=Maintenir le bouton gauche de la souris, puis déplacer le pointeur.
+
+Maintenez **Ctrl** et **Maj** enfoncés lorsque vous appuyez sur le bouton de la souris pour faire glisser un objet dans une esquisse en mode édition.
+|Pan_text=Maintenez le bouton droit de la souris, puis déplacez le pointeur.
+|Zoom_text=Maintenez le bouton du milieu de la souris, puis déplacez le pointeur.
+Vous pouvez également maintenir **Maj** et le bouton droit de la souris enfoncés, puis déplacez le pointeur.
+|Rotate_view_text=Maintenez le bouton gauche de la souris enfoncé, puis déplacez le pointeur.
 }}
+
+
 
 ### Mode Revit 
 
@@ -210,6 +232,8 @@ Vous pouvez également maintenir enfoncé les boutons gauche et droit de la sour
 Vous pouvez également maintenir enfoncé le bouton central de la souris, puis aussi le bouton droit, et déplacer le pointeur.
 }}
 
+
+
 ### Mode TinkerCAD 
 
 Le style de navigation TinkerCAD s\'inspire de [TinkerCAD](https://fr.wikipedia.org/wiki/Tinkercad).
@@ -229,9 +253,11 @@ Le style de navigation TinkerCAD s\'inspire de [TinkerCAD](https://fr.wikipedia.
 |Rotate_view_text=Appuyez sur le bouton droit de la souris, puis déplacez le pointeur.
 }}
 
+
+
 ### Mode Touchpad 
 
-Dans la navigation Touchpad, le panoramique, le zoom et la rotation de la vue nécessitent une touche de modification en même temps que le pavé tactile.
+Avec le style de navigation Touchpad, le panoramique, le zoom et la rotation de la vue nécessitent une touche de modification ainsi que le pavé tactile. Ce style peut également être utilisé avec une souris.
 
 
 {{Touchpad Navigation
@@ -252,9 +278,13 @@ Dans la navigation Touchpad, le panoramique, le zoom et la rotation de la vue n�
 |Rotate_view_alt_text=Autre possibilité, maintenez la touche **Maj** enfoncée ainsi que le bouton gauche, puis déplacez le pointeur.
 }}
 
+
+
 ## Support matériel 
 
 FreeCAD supporte aussi quelques [périphériques d\'entrée 3D](3D_input_devices/fr.md).
+
+
 
 ## Mode recommandé pour macOS 
 
@@ -263,6 +293,8 @@ Sur les MacBooks équipés d\'un pavé tactile, la navigation Gesture fonctionne
 -   Zoom : faire glisser avec deux doigts.
 -   Rotation : faire glisser avec trois doigts.
 -   Panoramique : **Ctrl** + trois doigts.
+
+
 
 ## Développer un mode personnalisé 
 

@@ -1,5 +1,5 @@
 # Manual:Preparing models for 3D printing/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 Einer der Haupteinsatzbereiche von FreeCAD ist die Herstellung von Objekten aus der realen Welt. Diese können in FreeCAD entworfen und dann auf verschiedene Weise realisiert werden, z.B. indem sie anderen Personen mitgeteilt werden, die sie dann bauen, oder, immer häufiger, direkt an einen [3D Drucker](https://en.wikipedia.org/wiki/3D_printing) oder eine [CNC Fräse](https://en.wikipedia.org/wiki/Milling_%28machining%29) geschickt werden. Dieses Kapitel zeigt dir, wie du deine Modelle für den Versand an diese Maschinen vorbereiten kannst.
 
@@ -11,11 +11,15 @@ Wenn du beim Modellieren vorsichtig warst, sind die meisten Schwierigkeiten, auf
 
 Im Folgenden gehen wir davon aus, dass die ersten beiden Kriterien erfüllt sind und dass du von nun an in der Lage bist, feste Objekte mit korrekten Abmessungen herzustellen. Wir werden nun sehen, wie wir den dritten Punkt angehen können.
 
+
+
 ### Exportieren zu Zerschneidern 
 
 Dies ist die Technik, die am häufigsten für den 3D-Druck verwendet wird. Das 3D Objekt wird in ein anderes Programm (den Zerschneider) (engl.: Slicer) exportiert, das den G-Code aus dem Objekt generiert, indem es es in dünne Schichten zerlegt (daher der Name), die die Bewegungen reproduzieren, die der 3D Drucker ausführen wird. Da viele dieser Drucker selbstgebaut sind, gibt es oft kleine Unterschiede von einem zum anderen. Diese Programme bieten in der Regel erweiterte Konfigurationsmöglichkeiten, die dir erlauben die Ausgabe genau auf die Funktionen deines 3D Druckers zuzuschneiden.
 
 Tatsächlich ist der 3D Druck jedoch ein zu umfangreiches Thema für dieses Handbuch. Aber wir werden sehen, wie diese Zerschneider exportiert und verwendet werden können, um zu überprüfen, ob die Ausgabe korrekt ist.
+
+
 
 ### Umwandeln von Objekten in Polygonnetze 
 
@@ -45,6 +49,8 @@ In den meisten Fällen werden die Standardwerte jedoch ein zufriedenstellendes E
 
 Wenn du keinen 3D Drucker besitzt, ist es normalerweise sehr einfach, kommerzielle Dienste zu finden, die die gedruckten Objekte drucken und dir per Post zusenden. Zu den berühmten gehören [Shapeways](http://www.shapeways.com/) und [Sculpteo](http://www.sculpteo.com/), aber du wirst in deiner eigenen Stadt normalerweise viele andere finden. In allen größeren Städten findest du heutzutage [FabLabor](https://de.wikipedia.org/wiki/FabLab)e, das sind Werkstätten, die mit einer Reihe von 3D Fertigungsmaschinen ausgestattet sind, fast immer mit mindestens einem 3D Drucker. Fab Labore sind in der Regel Gemeinschaftsräume, in denen du deren Maschinen je nach Fab Labor kostenpflichtig oder kostenlos nutzen kannst, in denen du aber auch lernst, sie zu benutzen, und in denen du andere Aktivitäten rund um die 3D Fertigung fördern kannst.
 
+
+
 ### Verwendung von Slic3r 
 
 [Slic3r](http://slic3r.org/) ist eine Anwendung, die STL Objekte in G-Code umwandelt, der direkt an 3D Drucker gesendet werden kann. Wie FreeCAD ist es kostenlos, quelloffen und läuft unter Windows, Mac OS und Linux. Die korrekte Konfiguration für den 3D Druck ist ein komplizierter Prozess, bei dem du gute Kenntnisse über deinen 3D Drucker haben musst. Daher ist es nicht sehr nützlich, G-Code zu erzeugen, bevor du tatsächlich druckst (Deine G-Code Datei funktioniert möglicherweise nicht gut auf einem anderen Drucker), aber es ist trotzdem nützlich für uns, zu überprüfen, ob unsere STL Datei problemlos gedruckt werden kann.
@@ -52,6 +58,8 @@ Wenn du keinen 3D Drucker besitzt, ist es normalerweise sehr einfach, kommerziel
 Dies ist unsere exportierte STL Datei, die in Slic3r geöffnet wurde. Durch verwenden des **Vorschau** Reiters und bewegen des rechten Schiebereglers, können wir den Pfad visualisieren, dem der 3D Druckkopf folgen wird, um unser Objekt zu konstruieren.
 
 ![](images/Exercise_meshing_03.jpg )
+
+
 
 ### Verwendung der Cura Erweiterung 
 

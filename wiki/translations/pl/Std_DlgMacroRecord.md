@@ -30,9 +30,11 @@ Polecenie **Rejestrator makrodefinicji** uruchamia sesję nagrywania [makrodefin
 4.  Opcjonalnie zmień **ścieżkę do pliku makrodefinicji**, naciskając przycisk **...**.
 5.  Przycisk **Stop** nie działa w tej chwili.
 6.  Naciśnij przycisk **Nagrywanie**, aby zamknąć okno dialogowe i rozpocząć sesję nagrywania.
-7.  Wykonaj czynności, które chcesz nagrać.
-8.  Aby zakończyć sesję nagrywania wykonaj jedną z następujących czynności:
+7.  Obraz przycisku polecenia zmienia się na **<img src="images/Std_MacroStopRecord.svg" width=16px>**, a tekst menu zmienia się na **Zatrzymaj nagrywanie makra**.
+8.  Wykonaj czynności, które chcesz nagrać.
+9.  Aby zakończyć sesję nagrywania wykonaj jedną z następujących czynności:
     -   Naciśnij przycisk **<img src="images/Std_MacroStopRecord.svg" width=16px> [Zatrzymaj nagrywanie makra](Std_MacroStopRecord/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Std_MacroStopRecord.svg" width=16px> [Rejestrator makrodefinicji](Std_DlgMacroRecord/pl.md)**.
     -   Wybierz z menu opcję **Makrodefinicje → <img src="images/Std_MacroStopRecord.svg" width=16px> Zatrzymaj nagrywanie makra**.
 
 

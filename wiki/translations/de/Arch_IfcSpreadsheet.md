@@ -1,9 +1,9 @@
 ---
  GuiCommand:
    Name: Arch IfcSpreadsheet
-   Name/de: Arch_ErstelleIfcTabellenblatt
+   Name/de: Arch_IfcKalkulationstabelle
    Workbenches: Arch_Workbench/de
-   MenuLocation: Arch , Dienstprogramme , Erstelle IFC Tabellenblatt
+   MenuLocation: Arch , Dienstprogramme , IFC-Kalkulationstabelle erstellen
    Shortcut: **I** **P**
    SeeAlso: Arch_IFC/de, Arch_IfcExplorer/de
 ---
@@ -14,22 +14,19 @@
 
 ## Beschreibung
 
-Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaften eines Objekts zu speichern.
+Dieses Werkzeug erstellt eine Kalkulationstabelle, um [IFC](Arch_IFC/de.md)-Eigenschaften eines Objekts zu speichern.
 
 
 
 ## Anwendung
 
-1.  Wähle ein Objekt aus.
-2.  Rufe den Befehl mit mehreren Methoden auf:
-    -   Drücken der **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen** Schaltfläche in der Werkzeugleiste.
-    -   Verwenden der **I** dann **P** Tastaturkürzel.
-    -   Verwenden des **Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Tabellenblatt erstellen** Eintrags aus dem oberen Menü.
-
-## Scripting
+1.  Ein Objekt auswählen.
+2.  Es gibt mehrere Mögkichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC-Tabellenblatt erstellen** drücken.
+    -   Das Tastaturkürzel **I** dann **P**.
+    -   Den Menüeintrag **Arch → Dienstprogramme → <img src="images/Arch_IfcSpreadsheet.svg" width=16px> IFC Kalkulationstabelle erstellen...** auswählen.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -38,18 +35,7 @@ Dieses Werkzeug erstellt eine Tabellenblatt, um [IFC](Arch_IFC/de.md) Eigenschaf
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
 ```python
 spreadsheet = makeIfcSpreadsheet(archobj=None)
 ```
@@ -66,15 +52,6 @@ FreeCAD.ActiveDocument.recompute()
 
 spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -273,7 +273,7 @@ Comme la forme d\'une spline B ne renseigne pas beaucoup sur ses propriétés, F
 A l\'heure actuelle (FreeCAD 0.20), il existe quelques limitations lors de l\'utilisation des splines que vous devez connaître :
 
 1.  Vous ne pouvez pas définir de contraintes tangentielles.Dans cet exemple, vous voulez vous assurer que la spline touche la courbe bleue 2 fois tangentiellement.<img alt="" src=images/Sketcher_spline-limit-tangential.png  style="width:450px;">Cela serait utile car la ligne bleue pourrait par exemple être la frontière spatiale de votre dessin.
-2.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décalage](Draft_Offset/fr.md).
+2.  Vous ne pouvez pas créer une courbe de décalage pour une spline B en utilisant l\'outil [Draft Décaler](Draft_Offset/fr.md).
 
 
 

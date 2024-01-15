@@ -30,7 +30,7 @@ An object\'s Placement attributes can be accessed and modified in 3 ways:
 
 <div class="mw-translate-fuzzy">
 
-![以脚本的方式利用y/p/r参数、矩阵与[定位API来调整方位属性](images/Placement_API.md)。](PlacePyConv10.png ) 
+![以脚本的方式利用y/p/r参数、矩阵与[定位API](images/Placement_API.md)来调整方位属性。](PlacePyConv10.png ) 
 
 
 </div>

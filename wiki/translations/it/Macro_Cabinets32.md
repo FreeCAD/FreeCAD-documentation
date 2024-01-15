@@ -7,8 +7,10 @@
 |Version=1.0
 |Date=2015-01-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png TollBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/6/64/Macro_Cabinets32.png ToolBar Icon]
 }}
+
+
 
 ## Descrizione
 
@@ -20,6 +22,8 @@ Questa macro crea i piani e le pareti laterali di un armadio con le specifiche S
 <img alt="" src=images/cabinettop.png  style="width:480px;"> 
 *Parte superiore dell'armadio*
 
+
+
 ## Utilizzo
 
 -   Avviare la macro e cambiare la lunghezza, l\'altezza e la larghezza dell\'armadio.
@@ -29,7 +33,7 @@ Questa macro crea i piani e le pareti laterali di un armadio con le specifiche S
 
 ## Script
 
-TollBar Icon ![](images/Macro_Cabinets32.png )
+ToolBar Icon ![](images/Macro_Cabinets32.png )
 
 **Cabinets32.FCMacro**
 

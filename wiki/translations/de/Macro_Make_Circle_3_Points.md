@@ -23,7 +23,7 @@ Dieses Makro erstellt einen Kreis, der an 3 ausgewählten Punkten orthogonal ode
 Wählen Sie drei Punkte oder Formen in der 3D-Ansicht aus und führen Sie das Makro aus.
 Wenn die Form eine Linie ist, wird die Koordinate der Mittelpunkt der Linie sein.
 
-![Circle_on_3\_points](images/Circle_on_3_points.png ) 
+![Circle_on_3_points](images/Circle_on_3_points.png ) 
 
 ## Optionen
 
@@ -85,7 +85,7 @@ Um sie herunterzuladen, bewegen Sie den Mauszeiger über das Symbol und klicken 
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make_Circle_3\_Points.FCMacro**
+**Make_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -627,7 +627,7 @@ Schauen Sie abwechselnd mit dem linken und dem rechten Auge, um die Ansichten se
 
 ## Crédits
 
-The genesis of the macro **Draft_Circle_3\_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks.
+The genesis of the macro **Draft_Circle_3_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) helped flachyjoe thanks.
 The formula comes from [cercle_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) and used with the kind permission of its author.
 The formula adapted by \" galou_breizh \" circle in 3D space comes from [Circumscribed_circle](http://en.wikipedia.org/wiki/Circumscribed_circle)
 Separate programs are located here,

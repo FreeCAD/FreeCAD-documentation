@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -22,6 +24,8 @@ Na vybrané přímce nebo lomené čáře vytvoří vazbu svislosti. Může být
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">

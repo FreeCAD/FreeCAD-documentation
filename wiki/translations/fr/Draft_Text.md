@@ -37,13 +37,13 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Aimantation](Draft_Sna
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des textes. Le raccourci ne fonctionne pas dans le deuxième panneau de tâches. Cette option n\'est pas disponible dans le premier panneau de tâches dans FreeCAD version 0.19 et antérieure.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des textes. Le raccourci ne fonctionne pas dans le deuxième panneau de tâches. Cette option n\'est pas disponible dans le premier panneau de tâches dans FreeCAD version 0.19 et antérieure.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 
 
@@ -99,9 +99,9 @@ Un objet Draft Texte est dérivé d\'un objet [App FeaturePython](App_FeaturePyt
 
 -    **Font Name|Font**: spécifie la police utilisée pour dessiner le texte. Il peut s\'agir d\'un nom de police, tel que {{value|Arial}}, d\'un style par défaut tel que {{value|sans}}, {{value|serif}} ou {{value|mono}}, d\'une famille telle que {{value|Arial,Helvetica,sans}}, ou d\'un nom avec un style tel que {{value|Arial:Bold}}. Si la police donnée n\'est pas trouvée sur le système, une police par défaut est utilisée à la place.
 
--    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [Vue 3D](3D_view/fr.md) si cette valeur est très petite.
+-    **Font Size|Length**: spécifie la taille des lettres. Le texte peut être invisible dans la [vue 3D](3D_view/fr.md) si cette valeur est très petite.
 
--    **Justification|Enumeration**: spécifie si l\'alignement du texte : {{value|Left}}, {{value|Center}} ou {{value|Right}}.
+-    **Justification|Enumeration**: spécifie l\'alignement du texte : {{value|Left}}, {{value|Center}} ou {{value|Right}}.
 
 -    **Line Spacing|Float**: spécifie le facteur appliqué à la hauteur de ligne par défaut du texte.
 

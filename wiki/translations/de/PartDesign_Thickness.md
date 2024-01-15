@@ -10,14 +10,20 @@
 
 # PartDesign Thickness/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **PartDesign Dicke** wandelt einen Volumenkörper in ein hohles Objekt (Schalenobjekt) mit mindestens einer offenen Fläche, und gibt allen verbleibenden Flächen eine konstante Wandstärke. Es fügt dem Dokument ein **Thickness**-Objekt und den dazugehörigen Repräsentanten in der [Baumansicht](Tree_view/de.md) hinzu.
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:400px;"> 
 *Ausgangsvolumenkörper (A) →  Volumenkörper mit der ausgewählten Fläche, die geöffnet werden soll (B) →  Das resultierende hohle Objekt (C)*
 
+
+
 ## Anwendung
+
+
 
 ### Dicke hinzufügen 
 
@@ -33,6 +39,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
 :   *Nicht vergessen*:
     -   Da das Werkzeug immer mindestens eine Fläche erfordert, kann die letzte vorhandene Fläche nicht aus der Liste entfernt werden.
 
+
+
 ### Dicke bearbeiten 
 
 1.  Eine der folgenden Möglichkeiten startet die Bearbeitung:
@@ -40,6 +48,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
     -   Das Thickness-Objekt in der [Baumansicht](Tree_view/de.md) mit der rechten Maustaste anklicken und **Thickness bearbeiten** aus dem Kontextmenü auswählen.
 2.  Der [Aufgabenbereich](Task_panel/de.md) **Parameter der Wandstärke** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
 3.  Zum Fertigstellen die **OK**-Schaltfläche drücken.
+
+
 
 ## Optionen
 
@@ -85,6 +95,8 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
 
 -    **Dicke nach innen auftragen**: Wenn aktiviert, werden Flächen nach innen versetzt.
 
+
+
 ## Hinweise
 
 -   Wenn die Wandstärke nach innen aufgetragen wird, muss der Wert kleiner sein als die kleinste Höhe des Körpers.
@@ -94,11 +106,15 @@ Das Werkzeug <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;
     -   BRep_Tool: no parameter on edge (Kein Parameter auf der Kante).
     -   Silently fails (Stilles Versagen).
 
+
+
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein PartDesign-Thickness-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -107,7 +123,7 @@ Ein PartDesign-Thickness-Objekt wird von einem [Part-Formelement](Part_Feature/d
 
 -    **Base|LinkSub**: Sub-link zu der Liste des übergeordneten Formelements, die die ausgewählten Kanten und Flächen enthält.
 
--    **Support Transform|Bool**: \"Beinhaltet das ursprüngliche Formelement zur Verwendung in Muster-Objekten. Wenn deaktiviert, wird nur der angepasste (bearbeitete) Anteil der Form zum Erstellen von Mustern verwendet. Standardwert: `False`.
+-    **Support Transform|Bool**: Beinhaltet das ursprüngliche Formelement zur Verwendung in Muster-Objekten. Wenn deaktiviert, wird nur der angepasste (bearbeitete) Anteil der Form zum Erstellen von Mustern verwendet. Standardwert: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
@@ -119,20 +135,20 @@ Ein PartDesign-Thickness-Objekt wird von einem [Part-Formelement](Part_Feature/d
 
 {{Properties_Title/de|Part Design}}
 
--    {{PropertyData/de|Refine|Bool}}: \"Form aufbereiten (überflüssige Kanten entfernen) nach einer Hinzufügen- oder Entfernen-Operation. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
+-    {{PropertyData/de|Refine|Bool}}: Form aufbereiten (überflüssige Kanten entfernen) nach einer Hinzufügen- oder Entfernen-Operation. Der voreingestellte Wert wird durch die Einstellung **Modell nach skizzenbasierter Operation automatisch aufbereiten** bestimmt. Siehe [PartDesign Einstellungen](PartDesign_Preferences/de#Allgemein.md).
 
 
 {{Properties_Title/de|Thickness}}
 
--    **Value|Length**: \"Wert der Wandstärke (Dicke)\". Standardwert: {{value|1 mm}}.
+-    **Value|Length**: Wert der Wandstärke (Dicke). Standardwert: {{value|1 mm}}.
 
--    **Mode|Enumeration**: \"Modus\". {{value|Skin}} (Standard), {{value|Pipe}} oder {{Value|Recto verso}}. Nur {{value|Skin}} ist implementiert.
+-    **Mode|Enumeration**: Modus. {{value|Skin}} (Standard), {{value|Pipe}} oder {{Value|Recto verso}}. Nur {{value|Skin}} ist implementiert.
 
--    **Join|Enumeration**: \"Verbindungstyp\". {{value|Arc}} (Standard) oder {{Value|Intersection}}.
+-    **Join|Enumeration**: Verbindungstyp. {{value|Arc}} (Standard) oder {{Value|Intersection}}.
 
--    **Reversed|Bool**: \"Wandstärke in Richtung des Körperinneren auftragen\". Standardwert: `False`.
+-    **Reversed|Bool**: Wandstärke in Richtung des Körperinneren auftragen. Standardwert: `False`.
 
--    **Intersection|Bool**: \"Bearbeitung von Überschneidungen aktivieren\". Standardwert: `False`.
+-    **Intersection|Bool**: Bearbeitung von Überschneidungen aktivieren. Standardwert: `False`.
 
 
 

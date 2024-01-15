@@ -9,6 +9,8 @@
 
 # Mesh Union/pl
 
+
+
 ## Opis
 
 Polecenie **Połączenie** tworzy nowy nieparametryczny obiekt siatkowy typu [cecha siatki](Mesh_Feature/pl.md), który jest połączeniem *(fuzją)* dwóch obiektów siatkowych.
@@ -18,12 +20,16 @@ Polecenie **Połączenie** tworzy nowy nieparametryczny obiekt siatkowy typu [ce
 ![](images/Mesh_Union_example.png ) 
 *Po lewej dwa obiekty siatkowe, po prawej obiekt siatkowy będący połączeniem tych obiektów.*
 
+
+
 ## Użycie
 
 1.  Wybierz dwa obiekty siatkowe, które częściowo się pokrywają.
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Mesh_Union.svg" width=16px> [Połączenie](Mesh_Union/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_Union.svg" width=16px> '''Połączenie'''**.
     -   Wybierz z menu opcję **Siatki → Operacje logiczne → <img src="images/Mesh_Union.svg" width=16px> Połączenie**.
+
+
 
 ## Właściwości
 

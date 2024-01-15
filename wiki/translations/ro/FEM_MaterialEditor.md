@@ -23,15 +23,9 @@ Editorul de materiale vă permite să editați și să salvați informațiile co
 
 </div>
 
+![](images/Material_editor.png )
 
-<div class="mw-translate-fuzzy">
-
-![](images/Material_editor.jpg )
-
-
-</div>
-
-Editorul de material poate fi accesat în mod curent de:
+ Editorul de material poate fi accesat în mod curent de:
 
 The material editor can currently be accessed by either:
 
@@ -44,6 +38,8 @@ The material editor can currently be accessed by either:
 
 </div>
 
+
+
 ## Opțiuni
 
 -   **Browser button**: Descide conținutul proprietății URL într-un browser
@@ -55,8 +51,7 @@ The material editor can currently be accessed by either:
 -   **Add property**: Permite să se adauge o npouă proprietate persoanlizată
 -   **Delete property**: Permite editarea conținutului proprietăților materialelor
 
-
-{{Arch Tools navi/ro}}
+ {{Arch Tools navi/ro}}
 
 -   Butoanele **OK** și **Cancel** au același efect atunci când Material editor nu este utilizat pentru editarea directă a proprietății materialului în obiectul existent.
 

@@ -289,6 +289,7 @@ Persoane care au ajutat la traducerea aplicației FreeCAD(preluat din <https://c
 -   [Марко Пејовић](User_Марко_Пејовић.md)
 -   [Николай Матвеев](User_Николай_Матвеев.md)
 -   [Федір](User_Федір.md)
+-   [JYSEO2016](User_JYSEO2016.md)
 
 ## Addons developers 
 

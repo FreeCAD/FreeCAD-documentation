@@ -24,30 +24,18 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Setze wahlweise die [Entwurfsarbeitsebene](Draft_SelectPlane/de.md) so, dass sie die Ebene widerspiegelt, auf der du die Schnittebene platzieren möchtest.
-2.  Wähle die Objekte aus, die in deiner Schnittansicht enthalten sein sollen.
-3.  Drücke die **<img src="images/Arch_SectionPlane.svg" width=16px> [Schnittebene](Arch_SectionPlane.md)** Taste oder drücke **S** dann **P** Tasten.
-4.  [Bewegen](Draft_Move/de.md)/[drehen](Draft_Rotate/de.md) der Schnittebene in die richtige Position, falls erforderlich.
-5.  Wähle die Schnittebene aus, falls sie nicht bereits ausgewählt ist.
-6.  Verwende entweder [Zeichnung EntwurfsAnsicht](Draft_Drawing/de.md), [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md), um eine Ansicht zu erstellen.
-
-
-</div>
+1.  Wahlweise die [Draft-Arbeitsebene](Draft_SelectPlane/de.md) so ausrichten, dass sie die Ebene widerspiegelt, auf der die Schnittebene platziert werden soll.
+2.  Die Objekte auswählen, die in der Schnittansicht enthalten sein sollen.
+3.  Die Schaltfläche **<img src="images/Arch_SectionPlane.svg" width=16px> [Schnittebene](Arch_SectionPlane.md)** drücken oder Tastaturkürzel **S** dann **P**.
+4.  Die Schnittebene in die richtige Position [verschieben](Draft_Move/de.md) und [drehen](Draft_Rotate/de.md), falls erforderlich.
+5.  Die Schnittebene auswählen, falls sie nicht bereits ausgewählt ist.
+6.  Entweder [Draft Form2DAnsicht](Draft_Shape2DView/de.md) oder [TechDraw ArchAnsicht](TechDraw_ArchView/de.md) verwenden, um eine Ansicht zu erstellen.
 
 
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Das Schnittebenenobjekt berücksichtigt nur einen bestimmten Satz von Objekten, nicht alle Objekte des Dokuments. Objekte können einem Schnittebenenobjekt mit den [Arch Hinzufügen](Arch_Add/de.md) und [Arch Entfernen](Arch_Remove/de.md) Werkzeugen hinzugefügt oder entfernt werden, oder durch Doppelklicken auf die Schnittebene in der Baumansicht, Auswählen von Objekten entweder in der Liste oder in der 3D Szene und Drücken der Schaltflächen **hinzufügen\'\' oder**entfernen\'\'\'.
-
-
-</div>
+-   Das Schnittebenenobjekt berücksichtigt nur eine bestimmte Menge von Objekten, nicht alle Objekte des Dokuments. Objekte können einem Schnittebenenobjekt mit den Werkzeugen [Arch Hinzufügen](Arch_Add/de.md) und [Arch Entfernen](Arch_Remove/de.md) hinzugefügt oder entfernt werden oder durch Doppelklicken auf die Schnittebene in der Baumansicht, Auswählen von Objekten entweder in der Liste oder in der 3D-Szene und Drücken der Schaltflächen **hinzufügen** oder **entfernen**.
 
 -   Wenn ein Schnittebenenobjekt ausgewählt ist, verwende das Werkzeug [Draft Form2DAnsicht](Draft_Shape2DView/de.md), um ein Formobjekt zu erstellen, das die Schnittansicht im Dokument darstellt.
 
@@ -65,23 +53,17 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Eigenschaften
 
+-    {{PropertyData/de|Nur Festkörper}}: Wenn dies True ist, werden nicht-feste Objekte in der Einstellung nicht berücksichtigt.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyView/de|Anzeige Länge}}: Die Länge des Schnittebenen-Gizmos in der 3D-Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Nur Festkörper**: Wenn dies True ist, werden nicht-feste Objekte in der Einstellung nicht berücksichtigt.
+-    {{PropertyView/de|Anzeige Höhe}}: Die Höhe des Schnittebenen-Gizmos in der 3D-Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Anzeige Länge**: Die Länge des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
+-    {{PropertyView/de|Pfeilgröße}}: Die Größe der Pfeile des Schnittebenen-Gizmos in der 3D-Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
 
--    **Anzeige Höhe**: Die Höhe des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
+-    {{PropertyView/de|Schnittansicht}}: Wenn dies `True` ist, wird die gesamte 3D-Ansicht an der Stelle dieser Schnittebene geschnitten.
 
--    **Pfeilgröße**: Die Größe der Pfeile des Schnittebenen Gizmos in der 3D Ansicht. Hat keinen Einfluss auf die resultierende Ansicht
-
--    **Schnittansicht**: Wenn dies `True` ist, wird die gesamte 3D Ansicht an der Stelle dieser Schnittebene geschnitten.
-
--    **Clipansicht**: Wenn dies `True` ist, wird die Ansicht auf die Anzeigehöhe und -länge der Schnittebene zugeschnitten. Dadurch wird die Schnittebene effektiv zu einer orthografischen Kamera, wodurch das Sichtfeld begrenzt wird. <small>(v0.19)</small> 
-
-
-</div>
+-    {{PropertyView/de|Clipansicht}}: Wenn dies `True` ist, wird die Ansicht auf die Anzeigehöhe und -länge der Schnittebene zugeschnitten. Dadurch wird die Schnittebene effektiv zu einer orthografischen Kamera, wodurch das Sichtfeld begrenzt wird.
 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
@@ -93,18 +75,9 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 ## Kleine Verbesserungen 
 
-
-<div class="mw-translate-fuzzy">
-
--   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App::PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Volumenkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Element enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind. {{version/de|0.19}}
+-   Das manuelle Hinzufügen einer Eigenschaft namens **RotateSolidRender** des Typs **App::PropertyAngle** zu den Schnittebene **Ansicht**-Eigenschaften (rechtsklicke in die Ansicht-Eigenschaften → Alle anzeigen, rechtsklicke erneut → Eigenschaft hinzufügen) erlaubt es, das Render-Objekt zu drehen, wenn der Festkörper-Modus benutzt wird. Dies ist sinnvoll, wenn eine gerenderte Ansicht bspw. sowohl Arch- als auch Draft-Elemente enthält und die Arch-Elemente im Verhältnis zu den Draft-Elementen gedreht sind.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -113,16 +86,7 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das SchnittEbene Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole verwendet werden, in dem die folgende Funktion verwendet wird:
-
-
-</div>
+Das Werkzeug SchnittEbene kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
 
 
 ```python

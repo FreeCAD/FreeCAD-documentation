@@ -9,6 +9,8 @@
 
 # Mesh Union/it
 
+
+
 ## Descrizione
 
 Il comando **Unione** crea un nuovo oggetto mesh non parametrico, un [Mesh Feature](Mesh_Feature/it.md), che è l\'unione (fusione) di due oggetti mesh.
@@ -18,12 +20,16 @@ Per utilizzare questo comando bisogna che [OpenSCAD](http://www.openscad.org/) s
 ![](images/Mesh_Union_example.png ) 
 *A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'unione di quegli oggetti*
 
+
+
 ## Utilizzo
 
 1.  Selezionare due oggetti mesh che si sovrappongono parzialmente.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premee il pulsante **<img src="images/Mesh_Union.svg" width=16px> [Unione](Mesh_Union/it.md)**.
+    -   Premere il pulsante **<img src="images/Mesh_Union.svg" width=16px> [Unione](Mesh_Union/it.md)**.
     -   Selezionare l\'opzione **Mesh → Operazione booleana → <img src="images/Mesh_Union.svg" width=16px> Unione** dal menu.
+
+
 
 ## Proprietà
 

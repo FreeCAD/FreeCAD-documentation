@@ -16,35 +16,35 @@ Narzędzia te są dostępne na pasku narzędzi *Rysunek Roboczy - Przyciąganie*
 
 Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Przełącz przyciąganie](Draft_Snap_Lock.md): przełącza globalnie [przyciąganie](Draft_Snap/pl.md) obiektów na włączone lub wyłączone.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Zablokuj przyciąganie](Draft_Snap_Lock/pl.md): przełącza globalnie [przyciąganie](Draft_Snap/pl.md) obiektów na włączone lub wyłączone.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Punkt końcowy](Draft_Snap_Endpoint/pl.md): Przyciąga do punktów końcowych odcinków linii, łuku i krzywej złożonej.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Przyciągnij do punktu końcowego](Draft_Snap_Endpoint/pl.md): Przyciąga do punktów końcowych odcinków linii, łuku i krzywej złożonej.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): Przyciąga do punktu środkowego krawędzi.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Przyciągnij do punktu środkowego](Draft_Snap_Midpoint/pl.md): Przyciąga do punktu środkowego krawędzi.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Środek](Draft_Snap_Center.md): przyciąga do punktu środkowego powierzchni i krawędzi kołowych, a także do punktu {{PropertyData/pl|Umiejscowienia}} [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy/pl.md) i [Arch BuildingParts](Arch_BuildingPart/pl.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Przyciągnij do środka](Draft_Snap_Center/pl.md): przyciąga do punktu środkowego powierzchni i krawędzi kołowych, a także do punktu {{PropertyData/pl|Umiejscowienia}} [pośredniej płaszczyzny roboczej](Draft_WorkingPlaneProxy/pl.md) i [części budowli](Arch_BuildingPart/pl.md).
 
--   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Kąt](Draft_Snap_Angle.md): Przyciąga do specjalnych punktów odniesienia kół i łuków, przy wielokrotnościach 30° i 45°.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Przyciągnij do kąta](Draft_Snap_Angle/pl.md): Przyciąga do specjalnych punktów odniesienia okręgów i łuków, przy wielokrotnościach 30° i 45°.
 
--   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Przecięcie](Draft_Snap_Intersection.md): Przyciąga do przecięcia dwóch odcinków linii lub łuku. Najedź kursorem myszki na dwa pożądane obiekty, aby aktywować przyciąganie ich przecięcia.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Przyciągnij do przecięcia](Draft_Snap_Intersection.md): Przyciąga do przecięcia dwóch odcinków linii lub łuku. Najedź kursorem myszki na dwa pożądane obiekty, aby aktywować przyciąganie ich przecięcia.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Prostopadle](Draft_Snap_Perpendicular/pl.md): Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu ściany *({{Version/pl|0.21}})* oraz krawędzi.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Przyciągnij prostopadle](Draft_Snap_Perpendicular/pl.md): Na odcinkach linii i łuku, przyciąga prostopadle do ostatniego punktu ściany *({{Version/pl|0.21}})* oraz krawędzi.
 
--   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Rozszerzenie](Draft_Snap_Extension/pl.md): Przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii. Aby uaktywnić przyciąganie rozszerzenia, należy najechać myszką na żądany obiekt.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Przyciągnij na wydłużeniu](Draft_Snap_Extension/pl.md): Przyciąga do umownej linii, która rozciąga się poza punkty końcowe segmentów linii. Aby uaktywnić przyciąganie rozszerzenia, należy najechać myszką na żądany obiekt.
 
--   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Równolegle](Draft_Snap_Parallel.md): Przyciąga do umownej linii równoległej do odcinka linii. Przesuń kursor myszy nad żądanym obiektem, aby aktywować jego przyciągnięcie równoległe.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Przyciągnij równolegle](Draft_Snap_Parallel/pl.md): Przyciąga do umownej linii równoległej do odcinka linii. Przesuń kursor myszy nad żądanym obiektem, aby aktywować jego przyciągnięcie równoległe.
 
--   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Specjalne](Draft_Snap_Special/pl.md): Przyciąga na punktach specjalnych zdefiniowanych przez obiekt. {{Version/pl|0.17}}
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Przyciągnij specjalne](Draft_Snap_Special/pl.md): Przyciąga na punktach specjalnych zdefiniowanych przez obiekt. {{Version/pl|0.17}}
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Najbliższy](Draft_Snap_Near/pl.md): Przyciąga do najbliższego punktu oraz krawędzi najbliższego obiektu.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Przyciągnij do najbliższego](Draft_Snap_Near/pl.md): Przyciąga do najbliższego punktu oraz krawędzi najbliższego obiektu.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Ortogonalnie](Draft_Snap_Ortho/pl.md): przyciąga na umownych liniach, które przecinają ostatni punkt pod wielokrotnością kąta 45°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Przyciągnij ortogonalnie](Draft_Snap_Ortho/pl.md): przyciąga na umownych liniach, które przecinają ostatni punkt pod wielokrotnością kąta 45°.
 
--   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Siatka](Draft_Snap_Grid/pl.md): Przyciąga na przecięciach linii siatki, jeśli siatka jest widoczna.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Przyciągnij do siatki](Draft_Snap_Grid/pl.md): Przyciąga na przecięciach linii siatki, jeśli siatka jest widoczna.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Płaszczyzna robocza](Draft_Snap_WorkingPlane/pl.md): zawsze umieszcza przyciągane punkty na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Przyciągnij do płaszczyzny roboczej](Draft_Snap_WorkingPlane/pl.md): zawsze umieszcza przyciągane punkty na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
--   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Wymiary](Draft_Snap_Dimensions/pl.md): Prezentuje tymczasowe wymiary X i Y podczas przyciągania.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Przyciągnij do wymiaru](Draft_Snap_Dimensions/pl.md): Prezentuje tymczasowe wymiary X i Y podczas przyciągania.
 
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md): włącza lub wyłącza widoczność siatki.
 
@@ -68,26 +68,23 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 ## Uwagi
 
 -   Wiele opcji przyciągania może być aktywnych w tym samym czasie, ale zaleca się, aby aktywować tylko te opcje, które są naprawdę potrzebne. Aktywowanie zbyt wielu może spowolnić działanie.
--   Nie jest dobrym pomysłem posiadanie na stałe aktywnej opcji [przyciągnij do najbliżeszgo](Draft_Snap_Near/pl.md), ponieważ ma ona pierwszeństwo przed wieloma innymi opcjami przyciągania.
+-   Nie jest dobrym pomysłem posiadanie na stałe aktywnej opcji [przyciągnij do najbliższego](Draft_Snap_Near/pl.md), ponieważ ma ona pierwszeństwo przed wieloma innymi opcjami przyciągania.
 
 
 
 ## Ustawienia
 
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
-
-Należy pamiętać, że po zmianie niektórych preferencji należy ponownie uruchomić program FreeCAD.
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
 -   Gdy aktywne jest środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md) wymagające wprowadzenia punktu, maksymalna odległość, przy której narzędzie [przyciągnij do siatki](Draft_Snap_Grid/pl.md) wykrywa przecięcia linii siatki, może być zmieniana w locie przez naciśnięcie klawisza **[** *(klawisz zwiększania)* lub klawisza **]** *(klawisz zmniejszania)*. To ustawienie jest zapisywane w: **Przybory → Edycja parametrów → BaseApp → Preferences → Mod → Draft → snapRange**. Można je również zmienić w panelu zadań polecenia [Wybór płaszczyzny](Draft_SelectPlane/pl.md).
 -   Aby przyciągać tylko wtedy, gdy przytrzymany jest klawisz **modyfikator przyciągania**:
     -   Odznacz opcję: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Zawsze przyciągaj ''(wyłącz modyfikator przyciągania)''**.
     -   Domyślny klawisz **modyfikatora przyciągania**, **Ctrl**, można zmienić w opcji: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Modyfikator ograniczania**.
--   Aby pokazać pasek narzędzi Przyciągania tylko wtedy, gdy polecenie jest aktywne:
-    -   Wybierz: **Edycja → Preferencje → Rysunek Roboczy→ Siatka i przyciąganie → Przyciąganie → Pokaż pasek narzędzi Przyciągania środowiska Rysunek Roboczy**.
-    -   Wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Przyciąganie → Ukryj pasek narzędzi Przyciągania środowiska Rysunek Roboczy po użyciu**.
--   Symbole przyciągania można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Styl symboli przyciągania**.
--   Kolor symboli przyciągania oraz rozmiar [Draft Snap Dimensions](Draft_Snap_Dimensions.md) można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia wyglądu → Kolor**
--   Wspomniane skróty klawiaturowe dla pojedynczych znaków można zmienić w: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia interfejsu użytkownika → Skróty klawiszowe**.
+-   Aby wyświetlić pasek narzędzi Przyciągania tylko wtedy, gdy polecenie jest aktywne, wybierz: **Edycja → Preferencje... → Rysunek Roboczy → Interfejs → Pokaż pasek narzędzi szkicu tylko podczas poleceń**. {{Version/pl|0.22}}
+-   Symbole przyciągania można zmienić: **Edycja → Preferencje... → Rysunek Roboczy → Siatka i przyciąganie → Styl symboli przyciągania**.
+-   Kolor symboli przyciągania i wymiary [Przyciągnij do wymiaru](Draft_Snap_Dimensions/pl.md) można zmienić: **Edycja → Preferencje... → Rysunek Roboczy → Siatka i przyciąganie → Kolor symbolu przyciągania**.
+-   Rozmiar symboli przyciągania zależy od: **Edycja → Preferencje... → Wyświetlanie → Widok 3D → Rozmiar znacznika**. {{Version/pl|0.22}}
+-   Wymienione skróty klawiaturowe pojedynczych znaków można zmienić: **Edycja → Preferencje... → Rysunek Roboczy → Interfejs → Skróty klawiszowe**.
 
 
 

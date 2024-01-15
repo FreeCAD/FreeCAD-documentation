@@ -20,7 +20,7 @@ This category lists pages related to the [Part Workbench/ro](Part_Workbench/ro.m
 | [Part Measure Toggle 3D/ro](Part_Measure_Toggle_3D/ro.md) | [Part Measure Toggle All/ro](Part_Measure_Toggle_All/ro.md) | [Part Measure Toggle Delta/ro](Part_Measure_Toggle_Delta/ro.md) |
 | [Part Mirror/ro](Part_Mirror/ro.md) | [Part Module/ro](Part_Module/ro.md) | [Part Offset/ro](Part_Offset/ro.md) |
 | [Part Offset2D/ro](Part_Offset2D/ro.md) | [Part Plane/ro](Part_Plane/ro.md) | [Part Primitives/ro](Part_Primitives/ro.md) |
-| [Part RefineShape/ro](Part_RefineShape/ro.md) | [Part RegularPolygon/ro](Part_RegularPolygon/ro.md) | [Part ReverseShapes/ro](Part_ReverseShapes/ro.md) |
+| [Part RefineShape/ro](Part_RefineShape/ro.md) | [Part RegularPolygon/ro](Part_RegularPolygon/ro.md) | [Part ReverseShape/ro](Part_ReverseShape/ro.md) |
 | [Part Revolve/ro](Part_Revolve/ro.md) | [Part RuledSurface/ro](Part_RuledSurface/ro.md) | [Part Section/ro](Part_Section/ro.md) |
 | [Part ShapeFromMesh/ro](Part_ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](Part_SimpleCopy/ro.md) | [Part Slice/ro](Part_Slice/ro.md) |
 | [Part Sphere/ro](Part_Sphere/ro.md) | [Part Spiral/ro](Part_Spiral/ro.md) | [Part Sweep/ro](Part_Sweep/ro.md) |

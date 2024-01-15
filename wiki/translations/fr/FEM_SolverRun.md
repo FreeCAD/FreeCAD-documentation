@@ -18,10 +18,10 @@ Cette commande est utilisée pour lancer facilement le solveur FEM. C\'est une v
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le solveur CalcuilX <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:24px;"> **Solveur standard Calculix**.
+1.  Sélectionnez l\'objet Solver dans la [vue en arborescence](Tree_view/fr.md), par exemple, pour le <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:16px;"> [Solveur standard Calculix](FEM_SolverCalculixCxxtools/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/FEM_SolverRun.svg" width=16px> [Lancer les calculs du solveur](FEM_SolverRun/fr.md)**.
-    -   Sélectionnez l\'option **Résolution →  <img src="images/FEM_SolverRun.svg" width=16px> Lancer les calculs du solveur** dans le menu.
+    -   Sélectionnez l\'option **Résolution →  <img src="images/FEM_SolverRun.svg" width=16px> Lancer les calculs du solveur** du menu.
     -   Utilisez le raccourci clavier : **S** puis **R**.
 
 

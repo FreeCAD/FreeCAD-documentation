@@ -3,6 +3,7 @@
 |Name=Macro FCInfoGlass
 |Description=Gives a series of information on the form display in the 3D view.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/6/6b/Macro_FCInfoGlass.png ToolBar Icon]
 |Version=00.05
 |Date=2016-08-28
 |SeeAlso=[Arch Survey](Arch_Survey.md)

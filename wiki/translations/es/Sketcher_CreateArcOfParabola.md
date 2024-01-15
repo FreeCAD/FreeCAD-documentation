@@ -38,7 +38,13 @@ Esta herramienta crea un arco de parábola por foco, vértice y puntos finales.
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

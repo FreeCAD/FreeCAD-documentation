@@ -13,6 +13,8 @@
 
 La commande **Std Barre d\'état** bascule l\'affichage de la [Barre d\'état](Status_bar/fr.md).
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Affichage → Barre d'état** dans le menu.

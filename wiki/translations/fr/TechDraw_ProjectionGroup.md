@@ -28,7 +28,7 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 4.  Il existe plusieurs façons d\'invoquer l\'outil :
     -   Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projections ](TechDraw_ProjectionGroup/fr.md)**.
     -   Sélectionnez l\'option **TechDraw → Vues de Techdraw → <img src="images/TechDraw_ProjectionGroup.svg" width=16px> Insérer un groupe de projections ** du menu.
-5.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+5.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
     1.  Sélectionnez la page souhaitée.
     2.  Appuyez sur le bouton **OK**.
 6.  Le panneau de tâches **Groupe de projection** s\'ouvre.
@@ -38,7 +38,7 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projec
 10. Vous pouvez également déplacer les autres vues du groupe de projection par rapport à la vue centrale en les faisant glisser individuellement.
 
 ![](images/TaskProjGroup.png ) 
-*Le [Panneau des tâches](Task_Panel/fr.md) Groupe de projections. Le champ Direction primaire indique la direction en cours de la vue.*
+*Le [panneau des tâches](Task_Panel/fr.md) Groupe de projections. Le champ Direction primaire indique la direction en cours de la vue.*
 
 
 

@@ -1,29 +1,34 @@
 ---
  GuiCommand:
    Name: FEM PostFilterDataAtPoint
-   MenuLocation: Results , Data at point clip filter
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_PostPipelineFromResult, FEM_tutorial
+   Name/pl: Filtr danych w punkcie
+   MenuLocation: Wyniki , Filtr danych w punkcie
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_PostPipelineFromResult/pl, FEM_tutorial/pl
 ---
 
 # FEM PostFilterDataAtPoint/pl
 
-## Description
 
-Displays the value of a selected field at a picked point.
 
-## Usage
+## Opis
 
-1.  Select a previously created [result pipeline](FEM_PostPipelineFromResult.md) or another filter (except of a line filter).
-2.  Invoke the command either by:
-    -   Pressing the button **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Data at point clip filter'''**.
-    -   Using the menu **Results → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Data at point clip filter**.
-3.  Select a result **Field**.
-4.  Now
-    -   either click the **Select Point** button and subsequently pick the desired point in the mesh.
-    -   change the point coordinate.
+Wyświetla wartość wybranego pola we wskazanym punkcie.
 
-The value at this point for the given **Field** is output to the dialog. The value of the data point is also anytime accessible via the [property](Property_editor.md) **Point Data**.
+
+
+## Użycie
+
+1.  Zaznacz wcześniej utworzony [obiekt prezentacji graficznej wyników](FEM_PostPipelineFromResult/pl.md) lub inny filtr *(poza filtrem przycięcia linią)*.
+2.  Wywołaj polecenie poprzez:
+    -   Wciśnięcie przycisku **<img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> '''Filtr danych w punkcie'''**.
+    -   Wybranie opcji **Wyniki → <img src="images/FEM_PostFilterDataAtPoint.svg" width=16px> Filtr danych w punkcie** z menu.
+3.  Wybierz **Pole** wyników.
+4.  Terazː
+    -   wciśnij przycisk **Wybierz punkt** a następnie wskaż wybrany punkt siatki lub
+    -   zmień współrzędne punktu.
+
+Wartość w tym punkcie dla wybranego **Pola** jest wyświetlana w oknie dialogowym. Wartość punktu danych jest również cały czas dostępna poprzez [właściwość](Property_editor/pl.md) **Point Data**.
 
 
 

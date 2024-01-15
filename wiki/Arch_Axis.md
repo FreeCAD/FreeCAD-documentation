@@ -58,7 +58,9 @@ By setting the **Bubble Position** property to **Arrow left/right** or **Bar lef
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Axis tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The Axis tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+ 
 ```python
 Axes = makeAxis(num=5, size=1000, name="Axes")
 ```

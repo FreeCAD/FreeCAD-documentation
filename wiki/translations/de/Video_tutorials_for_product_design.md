@@ -57,7 +57,7 @@ Videos, die die Modellierung verschiedener Festkörperobjekte mit Hilfe von Arbe
 
 ### Französisch
 
--   [jp willm playlists](https://www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos): for beginners to more experienced users, jp willm produces many videos on 3D modelling with tools mainly from [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md), but also exploring [TechDraw](TechDraw_Workbench.md) and of course [Sketcher](Sketcher_Workbench.md).
+-   [jp willm playlists](https://www.youtube.com/channel/UCJwHW5GwrK1fq16cxUoBOUw/videos): für Anfänger bis erfahrenere Anwender, jp willm erstellt viele Videos über 3D-Modellieren mit Werkzeugen hauptsächlich aus den Arbeitsbereichen [Part](Part_Workbench/de.md) und [PartDesign](PartDesign_Workbench/de.md), erkundet aber auch die Arbeitsbereiche [TechDraw](TechDraw_Workbench.md) und natürlich [Sketcher](Sketcher_Workbench.md).
 
 
 

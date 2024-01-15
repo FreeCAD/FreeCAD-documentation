@@ -1,27 +1,27 @@
 # Macro Duplicate Selection/pl
 {{Macro
 |Name=Macro Duplicate Selection
-|Description= This macro testing if one selection are duplicate , select the object IN THE 3D VIEW the "ForbiddenCursor" stay if the or one selection is duplicate, the macro stay resident.
+|Description=This macro changes the mouse cursor to "ForbiddenCursor" if a selection is duplicated.
 |Author=Mario52
 |Version=00.00
 |Date=2016-06-06
 |FCVersion=0.16
-|Download= [https://www.freecadweb.org/wiki/images/5/54/Macro_Duplicate_Selection.png Icon ToolBar]
+|Download=[https://wiki.freecad.org/images/5/54/Macro_Duplicate_Selection.png ToolBar Icon]
 }}
 
 ## Description
 
-This macro testing if one selection are duplicate , select the object IN THE 3D VIEW the \"ForbiddenCursor\" stay if the or one selection is duplicate, the macro stay resident.
+This macro changes the mouse cursor to \"ForbiddenCursor\" if a selection is duplicated.
 
 ## Usage
 
-Run the macro, the macro stay resident in memory.
+Run the macro, the macro stays resident in memory.
 
-Select yours objects selected is duplicate the cursor mouse ere displayed \"ForbiddenCursor\"
+Select your objects. If a selected objects is a duplicate the \"ForbiddenCursor\" mouse cursor is displayed.
 
 ## Script
 
-Icon for the toolBar ![](images/Macro_Duplicate_Selection.png )
+Icon for the toolbar ![](images/Macro_Duplicate_Selection.png )
 
 **Macro_Duplicate_Selection.FCMacro**
 

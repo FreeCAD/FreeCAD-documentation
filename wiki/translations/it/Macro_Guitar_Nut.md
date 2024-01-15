@@ -18,6 +18,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 Guitar Nut Maker è uno script macro di FreeCAD che crea una complessa forma di dado per chitarra.
@@ -43,6 +45,8 @@ Il diametro di ogni stringa è configurabile e gli slot possono essere resi una 
 ![](images/Nut_macro.png ) 
 *Risultati usando la macro Guitar Nut Maker*
 
+
+
 ## Utilizzo
 
 
@@ -53,6 +57,8 @@ Il diametro di ogni stringa è configurabile e gli slot possono essere resi una 
 
 
 </div>
+
+
 
 ## Limitativo
 
@@ -87,7 +93,7 @@ __Date__ = '2020-01-27'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = ''
 __Wiki__ = ''
-__Icon__ = ''
+__Icon__ = 'https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png'
 __Help__ = 'Macro file must be edited with the desired nut parameters before use'
 __Status__ = 'Beta'
 __Requires__ = ''

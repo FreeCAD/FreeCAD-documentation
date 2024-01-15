@@ -2,14 +2,11 @@
  GuiCommand:
    Name: TechDraw SpreadsheetView
    name/pl: Rysunek Techniczny: Wstaw widok Arkusza kalkulacyjnego
-   MenuLocation: Rysunek Techniczny , Wstaw widok Arkusza kalkulacyjnego
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw widok Arkusza kalkulacyjnego
    Workbenches: TechDraw_Workbench/pl, Spreadsheet_Workbench/pl
 ---
 
 # TechDraw SpreadsheetView/pl
-
-
-</div>
 
 
 
@@ -24,14 +21,15 @@ Narzędzie **Wstaw widok Arkusza kalkulacyjnego** pozwala na umieszczenie widoku
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wybierz arkusz kalkulacyjny w oknie [Widoku drzewa](Tree_view/pl.md).
-2.  Naciśnij przycisk **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> '''Wstaw widok Arkusza kalkulacyjnego'''**.
-
-
-</div>
+1.  Wybierz pojedynczy arkusz w [Widoku drzewa](Tree_view.md).
+2.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w oknie [Widok drzewa](Tree_view.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_SpreadsheetView.svg" width=16px> '''Wstaw widok Arkusza kalkulacyjnego'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_SpreadsheetView.svg" width=16px>. Wstaw widok arkusza kalkulacyjnego**.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
+5.  Dostosuj zakres komórek widoku, zmieniając jego właściwości **Komórka początkowa** i **Komórka końcowa**.
 
 
 

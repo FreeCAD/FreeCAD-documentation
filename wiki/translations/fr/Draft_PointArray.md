@@ -18,22 +18,22 @@ L\'objet de base peut être un objet 2D créé avec l\'[atelier Draft](Draft_Wor
 
 L\'objet Point peut être n\'importe quel objet ayant une forme et des sommets (y compris un [Std Part](Std_Part/fr.md) contenant un ou plusieurs de ces objets), ainsi qu\'un [maillage](Mesh_Workbench/fr.md) et un [nuage de point](Points_Workbench/fr.md). Les points en double dans l\'objet point sont filtrés. {{Version/fr|0.21}}
 
-Dans {{VersionMinus|0.20}}, seuls trois types d\'objets Point sont pris en charge ; voir [Objet Point version 0.20 et inférieure](#Objet_Point_version_0.20_et_inf.C3.A9rieure.md).
+Dans {{VersionMinus/fr|0.20}}, seuls trois types d\'objets Point sont pris en charge, voir [Objet Point version 0.20 et inférieure](#Objet_Point_version_0.20_et_inf.C3.A9rieure.md).
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
-*Un réseau Draft de points*
+*Un Draft Réseau de points*
 
 
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet que vous souhaitez mettre en réseau.
-2.  Ajoutez l\'objet [composé de points](#Compos.C3.A9_de_points.md) à la sélection.
+1.  Sélectionner l\'objet que vous souhaitez mettre en réseau.
+2.  Ajouter l\'objet point à la sélection.
 3.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** dans le menu.
+    -   Appuyer sur le bouton **<img src="images/Draft_PointArray.svg" width=16px> [Réseau de points](Draft_PointArray/fr.md)**.
+    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PointArray.svg" width=16px> Réseau de points** du menu.
 4.  Le réseau est créé.
-5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+5.  Vous pouvez modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -41,9 +41,9 @@ Dans {{VersionMinus|0.20}}, seuls trois types d\'objets Point sont pris en charg
 
 Voici les objets Point pris en charge dans {{VersionMinus/fr|0.20}} et la manière dont ils peuvent être créés :
 
--   [Part Composé](Part_Compound/fr.md) : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
--   Draft Bloc : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
--   [Sketcher Esquisse](Sketcher_NewSketch/fr.md) : créez une [Esquisse](Sketcher_NewSketch/fr.md) et ajoutez un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
+-   [Part Composé](Part_Compound/fr.md) : crée un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
+-   Draft Bloc : crée un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Agréger](Draft_Upgrade/fr.md).
+-   [Sketcher Esquisse](Sketcher_NewSketch/fr.md) : crée une [esquisse](Sketcher_NewSketch/fr.md) et ajoute un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
 
 
 
@@ -99,7 +99,7 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Count|Integer**: (en lecture seule) spécifie le nombre d\'éléments dans le réseau. Ce nombre est déterminé par le nombre de points dans l\'objet **Point**.
 
--    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
+-    **Expand Array|Bool**: spécifie s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
 -    **Extra Placement|Placement**: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau.
 
@@ -198,7 +198,7 @@ point_array = make_point_array(base_object, point_object, extra=None, use_link=T
 
 -   Si `use_link` est `True`, les éléments créés sont des [App Links](App_Link/fr.md) au lieu de copies ordinaires.
 
-Exemple:
+Exemple :
 
 
 ```python

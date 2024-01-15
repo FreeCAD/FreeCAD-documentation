@@ -45,7 +45,7 @@ In basso: una faccia estrusa in un corpo solido.*
 
 ### Opzioni
 
-Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
 
 -   Tenere premuto **Alt** per invertire il risultato predefinito del comando.
 -   Tenere premuto **Maiusc** per restringere l\'operazione al segmento corrente di una [Polilinea](Draft_Wire/it.md).
@@ -92,14 +92,6 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 Il tasto modificatore menzionato qui può essere modificato. Vedere [Preferenze di Draft](Draft_Preferences/it.md).
 
 -   Tenere premuto **Maiusc** per estrudere in una direzione che non è parallela alla normale della faccia.
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
 

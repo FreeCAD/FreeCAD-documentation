@@ -24,11 +24,15 @@ La tâche peut être divisée en quatre parties :
 -   **Créer une nouvelle classe de commande**. Modification nécessaire dans `src/Mod/Fem/femcommands/commands.py`
 -   **Ajout d\'une nouvelle commande à l\'atelier**. Modification nécessaire dans `src/Mod/Fem/Gui/Workbench.cpp`
 
+
+
 ## Créer un nouveau fichier d\'icône 
 
 Pour le bouton, nous avons besoin d\'un fichier d\'icône. Vous pouvez utiliser n\'importe lequel de vos outils préférés pour le créer, mais il doit être au format SVG. Nous utiliserons ici le fichier **FEM_testButton.svg** comme exemple.
 
 Il doit être placé dans : `src/Mod/Fem/Gui/Resources/icons/`.
+
+
 
 ## Enregistrer le nouveau fichier d\'icône 
 
@@ -38,6 +42,8 @@ Le nouveau fichier icône SVG doit être enregistré pour le bouton GUI en l\'in
 {{code|code=
      <file>icons/FEM_testButton.svg</file>
 }}
+
+
 
 ## Créer une nouvelle classe de commande 
 
@@ -69,6 +75,8 @@ FreeCADGui.addCommand(
 }}
 
 **Remarque** : veuillez consulter ce [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=18&t=46693&start=10#p402004) dans le forum si des icônes sont impliquées.
+
+
 
 ## Ajouter une nouvelle commande à l\'atelier 
 
@@ -103,6 +111,8 @@ Pour ajouter la commande au menu **solve** de l\'atelier FEM, recherchez le bout
 }}
 
 **Résultat** : vous devriez avoir ajouté avec succès un bouton de test à la barre d\'outils et au menu d\'un atelier FEM. Maintenant, vous pouvez [compiler FreeCAD](Compiling/fr.md) et tester votre nouveau bouton.
+
+
 
 ## En relation 
 

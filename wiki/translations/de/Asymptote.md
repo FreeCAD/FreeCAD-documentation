@@ -1,35 +1,43 @@
 # Asymptote/de
 ## Beschreibung
 
-[Asymptote](https://asymptote.sourceforge.io/) is a vector language for 2D and 3D computer graphics. Asymptote code can be included in [LaTeX](https://www.latex-project.org/) documents or used to generate [PostScript](https://en.wikipedia.org/wiki/PostScript), [PDF](PDF.md), [SVG](SVG.md), [WebGL](https://www.khronos.org/webgl/), and [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)) files. Interactive 3D PDF files created from Asymptote code require Acrobat Reader version 9 or higher.
+[Asymptote](https://asymptote.sourceforge.io/) ist eine Vektor-Sprache für 2D- und 3D-Computergrafiken. Asymptote-Code kann in [LaTeX](https://www.latex-project.org/)-Dokumenten verwendet werden oder zum Erstellen von [PostScript](https://en.wikipedia.org/wiki/PostScript)-, [PDF](PDF.md)-, [SVG](SVG.md)-, [WebGL](https://www.khronos.org/webgl/)- und [PRC](https://en.wikipedia.org/wiki/PRC_(file_format))-Dateien. Interaktive 3D-PDF-Dateien, die mit Asymptote-Code erstellt werden, erfordern Acrobat-Reader in der Version 9 oder neuer.
 
-Asymptote support was added in FreeCAD version 0.19.
+Asymptote-Unterstützung wurde in FreeCAD Version 0.19 hinzugefügt.
+
+
 
 ## Exportieren
 
-1.  Optionally assign colors to the faces of the object you want to export with the <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part FaceColors](Part_FaceColors.md) command.
-2.  Change to the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
-3.  Create a mesh from the object with the <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh FromPartShape](Mesh_FromPartShape.md) command.
-4.  Select the new mesh object.
-5.  Invoke the <img alt="" src=images/Mesh_Export.svg  style="width:24px;"> [Mesh Export](Mesh_Export.md) command.
-6.  Select the ***.asy** file format in the dialog box.
-7.  Enter a filename.
-8.  Press the **Save** button.
+1.  Wahlweise den Flächen des Objekts, das exportiert werden soll, mit dem Befehl <img alt="" src=images/Part_FaceColors.svg  style="width:24px;"> [Part Flächenfarben](Part_FaceColors/de.md) Farben zuordnen.
+2.  Zum Arbeitsbereich <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/de.md) wechseln.
+3.  Aus dem Objekt mit dem Befehl <img alt="" src=images/Mesh_FromPartShape.svg  style="width:24px;"> [Mesh NetzAusPartForm](Mesh_FromPartShape/de.md) ein Netzobjekt erstellen.
+4.  Das neue Netzobjekt auswählen.
+5.  Den Befehl <img alt="" src=images/Mesh_Export.svg  style="width:24px;"> [Mesh Export](Mesh_Export/de.md) aufrufen.
+6.  Das ***.asy**-Dateiformat im Dialogfenster auswählen.
+7.  Einen Dateinamen eingeben.
+8.  Die Schaltfläche **Sichern** drücken.
 
-## Converting
 
-You need the [Asymptote compiler](https://sourceforge.net/projects/asymptote/) to convert ***.asy** files. To convert to PDF a [LaTeX](https://www.latex-project.org/get/) system is also required.
 
-The compiler is a command line tool. To covert to PDF you can use this syntax: 
+## Umwandeln
+
+Es erfordert den [Asymptote-Kompiler](https://sourceforge.net/projects/asymptote/), um ***.asy**-Dateien umzuwandeln. Für die Umwandlung in eine PDF-Datei ist außerdem ein [LaTeX](https://www.latex-project.org/get/)-System erforderlich.
+
+Der Kompiler ist ein Befehlszeilenwerkzeug. Für das Umwandeln in eine PDF-Datei kann diese Syntax verwendet werden: 
 ```pythonPathToAsyExecutable/asy -f pdf AsymptoteFileName.asy```
 
-## Related
 
--   [Import Export](Import_Export.md)
 
-## Video tutorials 
+## Verwandtes
 
-The following videos are in Spanish:
+-   [Import Export](Import_Export/de.md)
+
+
+
+## Videoanleitungen
+
+Die folgenden Videos sind auf Spanisch:
 
 -   [A way of generating interactive pdf-3D files. (1/3) (From FreeCAD, MeshLab and LaTeX)](https://www.youtube.com/watch?v=U0m3643Vb1Q)
 -   [A way of generating interactive pdf-3D files. (2/3) (From Asymptote and LaTex)](https://www.youtube.com/watch?v=PhVNvDZIerM)

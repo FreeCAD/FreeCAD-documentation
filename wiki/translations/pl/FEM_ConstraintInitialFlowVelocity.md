@@ -1,30 +1,39 @@
 ---
  GuiCommand:
    Name: FEM ConstraintInitialFlowVelocity
-   MenuLocation: Model , Fluid Constraints , Constraint initial flow velocity
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintFlowVelocity, FEM_ConstraintInitialPressure
+   Name/pl: MES: Warunek początkowy prędkości przepływu
+   MenuLocation: Model , Warunki brzegowe dla płynu , Warunek początkowy prędkości przepływu
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintFlowVelocity/pl, FEM_ConstraintInitialPressure/pl
 ---
 
 # FEM ConstraintInitialFlowVelocity/pl
 
-## Description
 
-Creates an initial flow velocity constraint for a fluid flow analysis.
 
-## Usage
+## Opis
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> '''FEM ConstraintInitialFlowVelocity'''** or select the menu **Model → Fluid Constraints → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Constraint initial flow velocity**.
-2.  Enter an initial flow velocity value for the analysis. The value is entered as a combination of the 3 main cartesian vectors components (X,Y,Z).
-3.  For a 3D analysis, select a \'solid\' (body) from your model, for a 2D analysis select a face. However, it is also possible to select a face (e.g. the inlet of a pipe) in 3D or an edge in 2D.
+Tworzy warunek początkowy prędkości do analizy przepływu płynu.
 
-## Formulas
 
-For a description how to input formulas, see section *Formulas* in the page for the [Flow velocity constraint](FEM_ConstraintFlowVelocity#Formulas.md).
 
-## Notes
+## Użycie
 
-In simple analyses, it is not necessary to specify the initial flow velocity, however it is recommended as best practice.
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> [Warunek początkowy prędkości przepływu](FEM_ConstraintInitialFlowVelocity/pl.md)** lub wybierz opcję **Model → Warunki brzegowe dla płynu → <img src="images/FEM_ConstraintInitialFlowVelocity.svg" width=16px> Warunek początkowy prędkości przepływu**.
+2.  Wprowadź wartość początkowej prędkości przepływu dla analizy. Wartość jest wprowadzana jako kombinacja 3 wektorów w kartezjańskim układzie (X,Y,Z).
+3.  Do analizy 3D wybierz bryłę z modelu, do analizy 2D wybierz powierzchnię. Jest też jednak możliwe wskazanie powierzchni (np. wlotu rury) w 3D lub krawędzi w 2D.
+
+
+
+## Równania
+
+Opis wprowadzania równań jest zawarty w sekcji *Równania* na stronie [warunku brzegowego prędkości przepływu](FEM_ConstraintFlowVelocity#Formulas/pl.md).
+
+
+
+## Uwagi
+
+W przypadku prostych analiz nie jest konieczne wprowadzania początkowej prędkości przepływu, ale jest to zalecane.
 
 
 

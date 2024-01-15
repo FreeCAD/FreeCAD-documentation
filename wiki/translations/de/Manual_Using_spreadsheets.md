@@ -1,5 +1,5 @@
 # Manual:Using spreadsheets/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 FreeCAD enthält einen weiteren interessanten Arbeitsbereich zum Erforschen: Der Arbeitsbereich [Spreadsheet](Spreadsheet_Workbench/de.md). Dieser Arbeitsbereich erlaubt, [Kalkulationstabellen](https://de.wikipedia.org/wiki/Tabellenkalkulation), wie sie mit [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) oder [Calc von LibreOffice](https://en.wikipedia.org/wiki/LibreOffice_Calc) erstellt werden, direkt in FreeCAD zu erstellen. Diese Kalkulationstabellen können dann mit aus dem Modell extrahierten Daten befüllt werden und eine Reihe von Berechnungen zwischen den Werten ausführen. Kalkulationstabellen können als CSV-Dateien exportiert und dann in jeder anderen Tabellenkalkulationsanwendung importiert werden.
 

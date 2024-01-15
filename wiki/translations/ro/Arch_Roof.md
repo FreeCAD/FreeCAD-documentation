@@ -85,6 +85,11 @@ Instrumentul Acoperiș vă permite să creați un acoperiș înclinat de la o li
 
 ## Proprietăți
 
+### Data
+
+
+{{TitleProperty|Roof}}
+
 
 <div class="mw-translate-fuzzy">
 

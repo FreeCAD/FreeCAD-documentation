@@ -12,25 +12,44 @@
 
 </div>
 
+
+
 ## Описание
+
+
+<div class="mw-translate-fuzzy">
 
 Инструмент Cut Plane позволяет обрезать объект Arch в соответствии с плоскостью:
 
 -   Вы можете обрезать объект Arch выделенной гранью, нормальной или противоположной плоскости фасада.
 -   Это создаёт для объекта Arch компонент для вычитания CutVolume
 
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
+</div>
 
-
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:400px;"> 
 *Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result*
+
+
 
 ## Применение
 
-1.  Select the object to be cut, then the face (the face must be the last one you selected, and must be selected in the [3D View](3D_View.md)).
-2.  Press the **<img src="images/Arch_CutPlane.svg" width=24px> [Cut Plane](Arch_CutPlane.md)** button.
-3.  Choose if the object is cut **behind** the normal face or in**front** of the normal face.
-4.  Click the **OK** button.
+1.  If the cutting plane is to be derived from a straight edge (<small>(v0.22)</small> ) optionally align the [working plane](Draft_SelectPlane.md):
+    -   The selected edge cannot be parallel to the normal of the working plane.
+    -   The generated cutting face will be perpendicular to the working plane.
+2.  Select the object to be cut.
+3.  Do one of the following:
+    -   Select an object with a single planar face. <small>(v0.22)</small> 
+    -   Select a planar face in the [3D view](3D_view.md).
+    -   Select an object with a single straight edge. <small>(v0.22)</small> 
+    -   Select a straight edge in the [3D view](3D_view.md). <small>(v0.22)</small> 
+4.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Arch_CutPlane.svg" width=16px> [Cut with plane](Arch_CutPlane.md)** button.
+    -   Select the **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Cut with plane** option from the menu.
+5.  Choose **Behind** or **Front** to indicate on which side of the cutting face material should be removed.
+6.  Press the **OK** button.
+
+
 
 ## Программирование
 
@@ -39,7 +58,9 @@
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
+The CutPlane tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -57,7 +78,9 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`specifies on which side of the `FaceObject` a volume will be created; this volume will then be used to subtract from the `archObject`. If `sideFace` is `0` it will create a volume in the rear of the face, otherwise it create it in front of the face.
 
-Пример: 
+Пример:
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 
@@ -98,6 +121,15 @@ cut_face2 = selection2.SubObjects[0]
 cutObj2 = Arch.cutComponentwithPlane(main_object2, cut_face2, 1)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

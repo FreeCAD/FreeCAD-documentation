@@ -1,4 +1,7 @@
 # Macro Polyhedrons/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro
 |Name=Macro Polyhedrons
 |Name/it=Macro Polyhedrons
@@ -11,6 +14,11 @@
 |Download=Icona della barra degli strumenti [https://www.freecadweb.org/wiki/images/a/a4/Dodecahedron.svg Icon ToolBar]
 |SeeAlso=[Macro Pyramid](Macro_Pyramid/it.md) [<img src=images/Pyramidicon.svg style="width:24px">
 }}
+
+
+</div>
+
+
 
 ## Descrizione
 
@@ -44,6 +52,8 @@ Puoi anche utilizzare il workbench esterno [Pyramids_and_Polyhedrons](https://gi
 -   Press **Install**
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Utilizzo
@@ -62,7 +72,15 @@ Puoi anche utilizzare il workbench esterno [Pyramids_and_Polyhedrons](https://gi
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Maggiori informazioni su [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">

@@ -41,7 +41,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 ## Opzioni
 
-Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativa** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate del secondo punto sono relative al primo punto, altrimenti sono relative all\'origine del sistema di coordinate.
@@ -55,14 +55,6 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 -   Le copie speculari di [Lineee](Draft_Line/it.md), [Polilinee](Draft_Wire/it.md), [Archi](Draft_Arc/it.md) e [Cerchi](Draft_Circle/it.md) possono essere trasformate in oggetti Draft modificabili indipendenti utilizzando \[ \[Draft_Downgrade/it\|Declassa\]\] e poi [Promuovi](Draft_Upgrade/it.md).
 -   Il comando [Part Copia Semplice](Part_SimpleCopy/it.md) può essere utilizzato per creare una copia di un oggetto specchiato che non è collegato al suo oggetto di origine.
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
 

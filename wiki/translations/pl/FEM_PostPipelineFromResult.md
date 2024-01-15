@@ -1,67 +1,80 @@
 ---
  GuiCommand:
    Name: FEM PostPipelineFromResult
-   MenuLocation: Results , Post pipeline from result
-   Workbenches: FEM_Workbench
+   Name/pl: Prezentacja graficzna wyników
+   MenuLocation: Wyniku , Prezentacja graficzna wyników
+   Workbenches: FEM_Workbench/pl
    Version: 0.17
-   SeeAlso: FEM_ResultShow, FEM_tutorial
+   SeeAlso: FEM_ResultShow/pl, FEM_tutorial/pl
 ---
 
 # FEM PostPipelineFromResult/pl
 
-## Description
 
-Pipeline is a result object, which creates a new graphical representation of FEM analysis results on the analyzed part. It adds a color scale and display options.
 
-## Usage
+## Opis
 
-1.  Select a result object.
-2.  Click the **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Post pipeline from result'''** button, or select the **Results → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Post pipeline from result** option from the menu.
-3.  A new object called \"Pipeline\" is added to your analysis.
-4.  Double-click the new Pipeline object in the [Tree view](Tree_view.md) and select a display mode and the result field. For example for the mode {{Value|Surface}} and the field {{Value|Von Mises stress}} the pipeline will look like this:
+Obiekt prezentacji graficznej wyników tworzy nową graficzną reprezentację wyników analizy MES na badanej części. Dodaje skalę kolorów i opcje wyświetlania.
+
+
+
+## Użycie
+
+1.  Zaznacz obiekt wyników.
+2.  Wciśnij przycisk **<img src="images/FEM_PostPipelineFromResult.svg" width=16px> '''Prezentacja graficzna wyników'''** lub wybierz opcję **Wyniki → <img src="images/FEM_PostPipelineFromResult.svg" width=16px> Prezentacja graficzna wyników** z menu.
+3.  Nowy obiekt nazwany \"Pipeline\" zostanie dodany do analizy.
+4.  Dwukrotnie kliknij nowy obiekt Pipeline w [widoku drzewa](Tree_view/pl.md) i wybierz tryb wyświetlania oraz pole wyników. Przykładowo, dla trybu {{Value|Powierzchnia}} i pola {{Value|Naprężenia von Mises}} obiekt prezentacji graficznej wyników wygląda następująco:
 
 <img alt="" src=images/Pipeline.PNG  style="width:500px;">
 
-If you see no model in the graphical area, go to and enable **Edit → Preferences → Display → 3D View → Rendering → Backlight color**.
+Jeśli nie widzisz modelu w obszarze graficznym, użyj **Edycja → Preferencje → Wyświetlanie → Widok 3D → Renderowanie → Kolor podświetlenia**.
 
-If you use a [SI](https://en.wikipedia.org/wiki/International_System_of_Units)-derived FreeCAD [unit system](Preferences_Editor#Units.md), the values in the output scale are based on SI units as well. This means the displacement is in meter, the stress is in Pascal and the temperature is in Kelvin.
+Jeśli korzystasz z pochodzącego od [układu SI](https://pl.wikipedia.org/wiki/Uk%C5%82ad_SI) [systemu jednostek](Preferences_Editor/pl#Jednostki.md), wartości na skali będą również oparte o jednostki SI. To oznacza, że przemieszczenia są w metrach, naprężenia w Paskalach a temperatura w Kelvinach.
 
-## Properties
 
-### Dialog box 
 
-This pipeline dialog box has the following settings:
+## Właściwości
 
--   **Mode**: How to draw the results. The possible modes are
-    -   **Outline**: The outline of the result mesh. In fact is displays no results but only the borders of the mesh.
-    -   **Nodes**: The result mesh nodes.
-    -   **Surface**: This is the default and displays the surface of the result mesh.
-    -   **Surface with Edges**: Like **Surface** but with the mesh outline edges and the surface mesh node connection lines.
--   **Field**: Which result property to draw.
--   **Vector**: Is only active if the **Field** is a vector. You can select whether to display the vector *Magnitude* or its X, Y, Z components.
 
-### Scale
 
-If you double-click on the scale, you get this settings dialog box:
+### Okno dialogowe 
+
+Okno dialogowe obiektu prezentacji graficznej wyników ma następujące ustawienia:
+
+-   **Tryb**: Jak wyświetlać wyniki. Możliwe tryby to
+    -   **Kontur**: Kontur siatki wynikowej. Nie wyświetla wyników tylko brzegi siatki.
+    -   **Węzły**: Węzły siatki wynikowej.
+    -   **Powierzchnia**: To domyślny tryb, wyświetla powierzchnię siatki wynikowej.
+    -   **Powierzchnia z krawędziami**: Jak **Powierzchnia**, ale z krawędziami elementów siatki.
+-   **Pole**: Który wynik wyświetlać.
+-   **Wektor**: Aktywne tylko jeśli **Pole** jest wektorem. Możesz wybrać czy wyświetlać *Wartość* (wypadkową) wektora czy jego składowe X, Y, Z.
+
+
+
+### Skala
+
+Jeśli dwukrotnie klikniesz na skali, zobaczysz to okno dialogoweː
 
 ![](images/SIMTUT_05.PNG )
 
-and you can modify these properties:
+i będziesz mógł zmodyfikować następujące ustawienia:
 
--   **Gradient**: You can select reversed order of the default color gradient, *Red-White-Blue*, *Black-White* or *White-Black*.
--   **Style**: The default option *Flow* uses the full color gradient range. The option *Zero* uses only the color gradient range starting form the color that would display the mean value to the maximum.
--   **Visibility**: The option *Out grayed* will color all mesh nodes whose values are outside the set minimum/maximum range in gray. The option *Out transparent* will make these mesh nodes transparent.
--   **Parameter range**: Minimum and maximum values are filled-in automatically. You can modify them, however make sure you know what you are doing. You can also change the number of displayed decimal places and the number of labels distributed over the parameter range.
+-   **Gradient**: Możesz wybrać odwróconą kolejność domyślnego graidentu kolorów, wariant *Red-White-Blue*, *Black-White* lub *White-Black*.
+-   **Styl**: Domyślna opcja *Przepływ* używa pełnego zakresu gradientu kolorów. Opcja *Zero* używa tylko zakresu gradientu kolorów zaczynającego się od koloru, który wyświetlałby średnią wartość do maksimum.
+-   **Widoczność**: Opcja *Deaktywuj* pokoloruje wszystkie węzły siatki, których wartości są poza podanym zakresem min/max na szaro. Opcja *Na zewnątrz przezroczysty* sprawi, że te węzły będą przezroczyste.
+-   **Zakres parametru**: Wartości minimalne i maksymalne są wypełniane automatycznie. Możesz je zmodyfikować, ale upewnij się, że wiesz co robisz. Możesz również zmienić liczbę wyświetlanych miejsc dziesiętnych i liczbę etykiet rozłożonych w zakresie parametrów legendy.
 
-### Property Editor 
 
-In the [property editor](Property_editor.md) you can set in the *View* tab the settings from the dialog box. In the *Data* tab you can additionally set this:
 
--    **Mode**: How the filters used in the pipeline will be treated. These modes are possible:
+### Edytor właściwości 
 
-    -   **Serial**: In this mode every filter takes the previous filter as input. The order is hereby the order of creation. The first created filter takes the pipeline as input. Its **Input** property is therefore empty.
-    -   **Parallel**: In this mode all filters take the pipeline as input.
-    -   **Custom**: <small>(v0.20)</small>  This is the default and keeps the input of the filters as they are. Therefore it allows to have e.g. two filters that take the pipeline as input, and a third filter that takes one of the two filters as input.
+W [edytorze właściwości](Property_editor/pl.md) możesz zmienić w zakładce *Widok* ustawienia z okna dialogowego. W zakładce *Dane* możesz dodatkowo ustawić:
+
+-    **Mode**: Jak filtry używane na obiekcie prezentacji graficznej wyników będą traktowane. Możliwe tryby to:
+
+    -   **Serial**: W tym trybie każdy filtr bierze poprzedni filtr jako wejście. Kolejność jest więc kolejnością tworzenia filtrów. Pierwszy utworzony filtr bierze obiekt prezentacji graficznej wyników jako wejście. Jego właściwość **Input** jest więc pusta.
+    -   **Parallel**: W tym trybie wszystkie filtry biorą obiekt prezentacji graficznej wyników jako wejście.
+    -   **Custom**: {{Version/pl|0.20}} To jest domyślne ustawienie. Zachowuje wejście filtrów takie, jakie jest. Zatem pozwala mieć np. dwa filtry, które biorą obiekt prezentacji graficznej wyników jako wejście i trzeci, który bierze jeden z dwóch pozostałych filtrów jako wejście.
 
 
 

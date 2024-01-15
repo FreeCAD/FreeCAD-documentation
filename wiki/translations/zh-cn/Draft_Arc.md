@@ -14,12 +14,14 @@
 
 </div>
 
+
+
 ## 描述
 
 
 <div class="mw-translate-fuzzy">
 
-底图绘弧工具通过用户输入的4个点（圆的中心点、半径、第一个点与最后一个点），或通过拾取切线，或上述若干组合来在当前的[work plane上创建一个圆弧](Draft_SelectPlane/zh-cn.md)。它将根据[Draft Tray中的](Draft_Tray/zh-cn.md)[Draft Linestyle来创建圆弧](Draft_Linestyle/zh-cn.md)。
+底图绘弧工具通过用户输入的4个点（圆的中心点、半径、第一个点与最后一个点），或通过拾取切线，或上述若干组合来在当前的[work plane](Draft_SelectPlane/zh-cn.md)上创建一个圆弧。它将根据[Draft Tray](Draft_Tray/zh-cn.md)中的[Draft Linestyle](Draft_Linestyle/zh-cn.md)来创建圆弧。
 
 
 </div>
@@ -58,7 +60,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -70,8 +72,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   弧的方向取决于鼠标的移动操作。如果您在输入第三个点后，沿着顺时针移动鼠标，则所创的弧为顺时针。为了令其为逆时针方向，可令鼠标简单地向第三个点的另一侧移动，直到弧以另一个方向开始绘制。
 -   为了手动输入坐标，可在简单地输入每一个X、Y、Z分量后，再按**Enter**键。当您需要在特定位置处插入点时，可以按**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
 -   按**T**或点击*continue*多选框切换至连续模式。如果您开启了连续模式，则绘制完一条弧后，将立即重新开始绘制下一条弧，这可使您在绘制另一条弧时，无需再次按绘制弧工具按钮。
--   按住**Ctrl**可将您正在绘制的点强制[捕捉至最近的捕捉位置上](Draft_Snap.md)，这与距离无关。
--   按住**Shift**可将您正在绘制的点[约束在相对于中点的水平方向或垂直方向](Draft_Constrain.md)。
+-   按住**Ctrl**可将您正在绘制的点强制[捕捉](Draft_Snap.md)至最近的捕捉位置上，这与距离无关。
+-   按住**Shift**可将您正在绘制的点[约束](Draft_Constrain.md)在相对于中点的水平方向或垂直方向。
 -   按**Esc**或**Close**按钮来终止当前命令。
 
 
@@ -91,8 +93,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates, radii and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
 
 ## Properties
 
@@ -101,7 +102,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 ## 属性
 
-弧对象享有[Draft Circle中的所有属性](Draft_Circle/zh-cn.md)，但是有些属性仅对圆形而言才有意义。
+弧对象享有[Draft Circle](Draft_Circle/zh-cn.md)中的所有属性，但是有些属性仅对圆形而言才有意义。
 
 
 </div>
@@ -124,7 +125,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 <div class="mw-translate-fuzzy">
 
-在[宏中与](macros.md)[Python控制台中可使用弧形工具](Python/zh-cn.md)，方法是使用绘制圆的函数，再辅以额外的参数。 参见[底图圆形工具中的有关信息](Draft_Circle/zh-cn.md)。
+在[宏](macros.md)中与[Python](Python/zh-cn.md)控制台中可使用弧形工具，方法是使用绘制圆的函数，再辅以额外的参数。 参见[底图圆形工具](Draft_Circle/zh-cn.md)中的有关信息。
 
 
 </div>

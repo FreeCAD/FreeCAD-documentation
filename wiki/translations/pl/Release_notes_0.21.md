@@ -1,27 +1,15 @@
 # Release notes 0.21/pl
-**FreeCAD 0.21 jest w trakcie rozwoju, nie ma jeszcze oczekiwanej daty wydania.**
-
-
-{{Message|
-Czy brakuje jakichś funkcji? Wspomnij o nich w wątku na forum [https://forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;69438 Informacje o wydaniu v0.21].
-
-Więcej informacji na temat sposobów przyczyniania się do rozwoju programu FreeCAD można znaleźć na stronie [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md).}}
-
-
-{{Message|Wszystkie obrazy na tej stronie muszą używać przyrostka **_relnotes_0.21**.}}
-
-
-
-
-**FreeCAD 0.21** zostanie wydany w roku *2023*, pobranie będzie możliwe ze strony [Download](Download/pl.md). Ta strona jest podsumowaniem najciekawszych zmian i funkcji.
+**FreeCAD 0.21** został wydany *2 sierpnia 2023*, pobranie będzie możliwe ze strony [Download](Download/pl.md). Ta strona jest podsumowaniem najciekawszych zmian i funkcji.
 
 Starsze uwagi na temat wydania FreeCAD można znaleźć na stronie [Lista funkcji](Feature_list/pl#Informacje_o_wydaniu.md).
 
-Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokazowej użytkowników](https://forum.freecadweb.org/viewforum.php?f=24).
+<img alt="" src=images/FreeCAD_relnotes_0.21.png  style="width:720px;">
 
 
 
 ## Informacje ogólne 
+
+-   Domyślny schemat nazewnictwa plików kopii zapasowych to teraz **FCBak**. Starszy format (**FCStd#**) jest przestarzały i zostanie usunięty w przyszłej wersji. Użytkownicy z włączonym starym schematem będą ostrzegani podczas uruchamiania. [Pull request #9668](https://github.com/FreeCAD/FreeCAD/pull/9668).
 
 
 
@@ -37,13 +25,13 @@ Miejsce na przyciągający wzrok obrazek wybrany przez adminów z [galerii pokaz
 |                                                                                                                                                                                                                        | [Pull request #8252](https://github.com/FreeCAD/FreeCAD/pull/8252).                                                                                                                                                                                                 |
 +++
 
-   
-  <img alt="" src=images/Measurement-Part_relnotes_0.21.png  style="width:384px;">   Styl wyświetlania wyników [pomiarów](Part_Module/pl#Pomiary.md) utworzonych przy użyciu środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) może być teraz zmieniony w [preferencjach](PartDesign_Preferences/pl#Pomiary.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148)
-   
++++
+| <img alt="" src=images/Measurement-Part_relnotes_0.21.png  style="width:384px;"> | Styl wyświetlania wyników [pomiarów](Part_Module/pl#Pomiary.md) utworzonych przy użyciu środowiska [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) może być teraz zmieniony w [preferencjach](PartDesign_Preferences/pl#Pomiary.md). [Pull request #7148](https://github.com/FreeCAD/FreeCAD/pull/7148) |
++++
 
-   
-  <img alt="" src=images/WbSelector_relnotes_0.21.png  style="width:384px;">   Pole wyboru środowiska pracy może być teraz opcjonalnie umieszczone na pasku menu zamiast w obszarze paska narzędzi. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679)
-   
++++
+| <img alt="" src=images/WbSelector_relnotes_0.21.png  style="width:384px;"> | Pole wyboru środowiska pracy może być teraz opcjonalnie umieszczone na pasku menu zamiast w obszarze paska narzędzi. [Pull request #7679](https://github.com/FreeCAD/FreeCAD/pull/7679) |
++++
 
 
 
@@ -133,6 +121,9 @@ przeniesiono do nowego paska narzędzi Edycji. Przyciski <img alt="" src=images/
 
 ## Menadżer dodatków 
 
+-   Dodano podstawowe zarządzanie pakietami Pythona w celu aktualizacji i usuwania automatycznie instalowanych zależności.
+-   Dodano \"tryb deweloperski\", aby pomóc w tworzeniu pliku metadanych wymaganego w każdym dodatku.
+
 
 
 ## Środowisko pracy Architektura 
@@ -144,7 +135,7 @@ przeniesiono do nowego paska narzędzi Edycji. Przyciski <img alt="" src=images/
 
 
 
-### Planowane ulepszenie dla środowiska Architektura 
+### Kolejne ulepszenia środowiska Architektura 
 
 -   Poprawiono działanie narzędzia **Odwróć pozycję zawiasów**. Dla wszystkich prostokątnych polilinii przeciwległa krawędź jest teraz poprawnie wykrywana. [Pull request #8199](https://github.com/FreeCAD/FreeCAD/pull/8199)
 -   [Teren](Arch_Site/pl.md) może być teraz również bryłą. [Pull request #8409](https://github.com/FreeCAD/FreeCAD/pull/8409)
@@ -165,7 +156,7 @@ przeniesiono do nowego paska narzędzi Edycji. Przyciski <img alt="" src=images/
 
 
 
-### Kolejne ulepszenia dla środowiska Rysunek Roboczy 
+### Kolejne ulepszenia środowiska Rysunek Roboczy 
 
 -   Podczas wyrównywania płaszczyzny roboczej z ścianą była ona obracana w celu dopasowania do osi globalnych tylko wtedy, gdy ściana była elementem czworokątnym. [Pull request #7249](https://github.com/FreeCAD/FreeCAD/pull/7249)
 -   Naprawiono kilka problemów związanych z funkcją [Szyk po ścieżce](Draft_PathArray/pl.md). [Pull request #7506](https://github.com/FreeCAD/FreeCAD/pull/7506) oraz [Pull request #7662](https://github.com/FreeCAD/FreeCAD/pull/7662)
@@ -234,29 +225,13 @@ przeniesiono do nowego paska narzędzi Edycji. Przyciski <img alt="" src=images/
 
 
 
-## Eksport
-
-
-
 ## Środowisko pracy Siatka 
-
-
-
-### Planowane ulepszenia 
 
 -   Wsparcie dla dodawania przezroczystości do siatki. [temat na Forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=72531) oraz [Commit f88305e](https://github.com/FreeCAD/FreeCAD/commit/f88305e)
 
 
 
-## Środowisko pracy OpenSCAD 
-
-
-
 ## Środowisko pracy Część 
-
-
-
-### Planowane ulepszenie dla środowiska Część 
 
 Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, aby akceptować dowolny obiekt geometryczny jako dane wejściowe. [Pull request #8730](https://github.com/FreeCAD/FreeCAD/pull/8730).
 
@@ -269,14 +244,15 @@ Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, ab
                                                                                                                                          
    
 
-   
-  <img alt="" src=images/PartDesign_task_dialog_relnotes_0.21.png  style="width:384px;">   Ulepszono interfejs użytkownika w oknach dialogowych wielu zadań środowiska pracy Projekt Części do wybierania geometrii, który nie wymaga już używania oddzielnych przycisków do dodawania lub usuwania geometrii do wyboru. [Pull request #8990](https://github.com/FreeCAD/FreeCAD/pull/8990)
-                                                                                                          
-   
++++
+| <img alt="" src=images/PartDesign_task_dialog_relnotes_0.21.png  style="width:384px;"> | Ulepszono interfejs użytkownika w oknach dialogowych wielu zadań środowiska pracy Projekt Części do wybierania geometrii, który nie wymaga już używania oddzielnych przycisków do dodawania lub usuwania geometrii do wyboru. [Pull request #8990](https://github.com/FreeCAD/FreeCAD/pull/8990) |
++++
+|                                                                                                       |                                                                                                                                                                                                                                                                                                  |
++++
 
 
 
-### Planowane ulepszenia środowiska Projekt Części 
+### Kolejne ulepszenia środowiska Projekt Części 
 
 -   W oknie dialogowym [Otwór](PartDesign_Hole/pl.md) usunięto przestarzałe typy łbów śrub *(łeb serowy, śruba kapiszonowa itp.)*. Były one przestarzałe od wersji FreeCAD 0.19. Otwory wykorzystujące te typy są przekształcane w niestandardowe pogłębiacze/otwory o średnicy i głębokości używanej przez typy. [Pull request #7654](https://github.com/FreeCAD/FreeCAD/pull/7654)
 -   W oknach dialogowych [Uzupełnianie wyciągnięciem przez profile](PartDesign_AdditiveLoft/pl.md) i [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md), wcześniej niefunkcjonalna opcja **Zamknięty** tworzy teraz zamknięte wyciągnięcie przez profile *(jak pierścień)*. [Pull request #8748](https://github.com/FreeCAD/FreeCAD/pull/8748)
@@ -295,10 +271,6 @@ Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, ab
 -   Dodatkowe łańcuchy zastępcze do automatycznego nazywania wyjść. Jeśli dane wyjściowe są dzielone na wiele plików, nazwy plików mogą automatycznie zastępować etykietę kontrolera narzędzi, Work Coordinate Systems (WCS) lub etykietę operacji. Jest to dodatek do innych istniejących ciągów zastępczych, takich jak data, nazwa zadania itp.
 
 -   Zaimplementowana opcja łamania wiórów dla cykli wiercenia w stylu dziobania. Łamanie wiórów emituje cykl **G73**, który powoduje, że kontroler wykonuje bardzo mały ruch wycofania, aby złamać wiór bez pełnego wycofania wiertła z otworu. G73 jest obsługiwany natywnie przez środowisko LinuxCNC. Inne postprocesory będą musiały interpretować G73 i emitować odpowiednie kody kontroli lub dekomponować retrakcję na ruchy G1/G0. Wsparcie postprocesora dla dekompozycji G73 zostało dodane do „refaktoryzowanych" postprocesorów. [Pull request #7469](https://github.com/FreeCAD/FreeCAD/pull/7469)
-
-
-
-## Środowisko pracy Wykres 
 
 
 
@@ -328,15 +300,17 @@ Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, ab
                                                                                                                                                         
    
 
-   
-  <img alt="" src=images/Sketcher_Grid_Rework_relnotes_0.21.png  style="width:384px;">   Siatka szkicownika została przerobiona. Dodano narzędzie [Siatka](Sketcher_Grid/pl.md). Dodano opcję automatycznego przeskalowania siatki. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473)
-                                                                                                      
-   
++++
+| <img alt="" src=images/Sketcher_Grid_Rework_relnotes_0.21.png  style="width:384px;"> | Siatka szkicownika została przerobiona. Dodano narzędzie [Siatka](Sketcher_Grid/pl.md). Dodano opcję automatycznego przeskalowania siatki. [Pull request #8473](https://github.com/FreeCAD/FreeCAD/pull/8473) |
++++
+|                                                                                                   |                                                                                                                                                                                                                       |
++++
 
-   
-  <img alt="" src=images/Sketcher_Constraint_Widget_relnotes_0.21.png  style="width:384px;">   Widżet szkicownika Wiązania został przerobiony w celu uproszczenia interfejsu użytkownika. [Pull request #7566](https://github.com/FreeCAD/FreeCAD/pull/7566)
-                                                                                                                  
-   
++++
+| <img alt="" src=images/Sketcher_Constraint_Widget_relnotes_0.21.png  style="width:384px;"> | Widżet szkicownika Wiązania został przerobiony w celu uproszczenia interfejsu użytkownika. [Pull request #7566](https://github.com/FreeCAD/FreeCAD/pull/7566) |
++++
+|                                                                                                               |                                                                                                                                                               |
++++
 
    
   <img alt="" src=images/Sketcher_Element_Widget_relnotes_0.21.gif  style="width:384px;">Kliknij na obrazek, aby zobaczyć animację.   Widżet Element został przerobiony w celu uproszczenia interfejsu użytkownika i umożliwienia prostszego wyboru różnych części każdej geometrii: Krawędź, punkt początkowy, punkt końcowy i punkt środkowy. [Pull request #7567](https://github.com/FreeCAD/FreeCAD/pull/7567)
@@ -348,47 +322,52 @@ Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, ab
                                                        
    
 
-   
-  <img alt="" src=images/Sketcher_layers_relnotes_0.21.gif  style="width:384px;">   Wprowadzono podstawową funkcjonalność warstw wizualnych, na razie obsługiwane są tylko 3 zakodowane na stałe warstwy. Spodziewajcie się dalszych ulepszeń w przyszłości. Ten PR usuwa również widżet \"Edytuj kontrolki\" z panelu zadań, ponieważ cała jego zawartość została przeniesiona w inne miejsca lub usunięta. Opcje kolejności renderowania zostały przeniesione na pasek narzędzi edycji Szkicownika. [Pull request #8716](https://github.com/FreeCAD/FreeCAD/pull/8716) oraz [Pull request #9590](https://github.com/FreeCAD/FreeCAD/pull/9590)
-                                                                                            
-   
++++
+| <img alt="" src=images/Sketcher_layers_relnotes_0.21.gif  style="width:384px;"> | Wprowadzono podstawową funkcjonalność warstw wizualnych, na razie obsługiwane są tylko 3 zakodowane na stałe warstwy. Spodziewajcie się dalszych ulepszeń w przyszłości. Ten PR usuwa również widżet \"Edytuj kontrolki\" z panelu zadań, ponieważ cała jego zawartość została przeniesiona w inne miejsca lub usunięta. Opcje kolejności renderowania zostały przeniesione na pasek narzędzi edycji Szkicownika. [Pull request #8716](https://github.com/FreeCAD/FreeCAD/pull/8716) oraz [Pull request #9590](https://github.com/FreeCAD/FreeCAD/pull/9590) |
++++
+|                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
++++
 
-   
-  <img alt="" src=images/Sketcher_Circle2CircleConstraint_relnotes_0.21.png  style="width:384px;">   Wprowadzono wiązanie [odległości między okręgami](Sketcher_ConstrainDistance/pl.md). [Pull request #8896](https://github.com/FreeCAD/FreeCAD/pull/8896)
-                                                                                                                              
-   
++++
+| <img alt="" src=images/Sketcher_Circle2CircleConstraint_relnotes_0.21.png  style="width:384px;"> | Wprowadzono wiązanie [odległości między okręgami](Sketcher_ConstrainDistance/pl.md). [Pull request #8896](https://github.com/FreeCAD/FreeCAD/pull/8896) |
++++
+|                                                                                                                           |                                                                                                                                                                 |
++++
 
-   
-  <img alt="" src=images/Sketcher_Circle2LineConstraint_relnotes_0.21.png  style="width:384px;">   Wprowadzono [wiązanie odległości](Sketcher_ConstrainDistance/pl.md) dla krąg do linii. [Pull request #9044](https://github.com/FreeCAD/FreeCAD/pull/9044)
-                                                                                                                          
-   
++++
+| <img alt="" src=images/Sketcher_Circle2LineConstraint_relnotes_0.21.png  style="width:384px;"> | Wprowadzono [wiązanie odległości](Sketcher_ConstrainDistance/pl.md) dla krąg do linii. [Pull request #9044](https://github.com/FreeCAD/FreeCAD/pull/9044) |
++++
+|                                                                                                                       |                                                                                                                                                                   |
++++
 
    
   <img alt="" src=images/Sketcher-snap2_relnotes_0.21.gif  style="width:384px;">Kliknij na obrazek, aby obejrzeć animację.   Dodano menedżera przyciągania, przyciąganie pod kątem i przyciąganie w punkcie środkowym. [Pull request #8387](https://github.com/FreeCAD/FreeCAD/pull/8387)
                                                                                                                                                   
    
 
-   
-  <img alt="" src=images/Sketcher-concentric_relnotes_0.21.gif  style="width:384px;">   [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md) może teraz działać jako wiązanie koncentryczne przy wyborze 2 lub więcej okręgów, łuków, elips lub łuków elips. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703)
-                                                                                                    
-   
++++
+| <img alt="" src=images/Sketcher-concentric_relnotes_0.21.gif  style="width:384px;"> | [Wiązanie zbieżności](Sketcher_ConstrainCoincident/pl.md) może teraz działać jako wiązanie koncentryczne przy wyborze 2 lub więcej okręgów, łuków, elips lub łuków elips. [Pull request #7703](https://github.com/FreeCAD/FreeCAD/pull/7703) |
++++
+|                                                                                                 |                                                                                                                                                                                                                                                      |
++++
 
-   
-  <img alt="" src=images/Sketcher-B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;">   Dodano narzędzie [Krzywa złożona przez węzły](Sketcher_CreateBSplineByInterpolation/pl.md). [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530)
-                                                                                                                        
-   
++++
+| <img alt="" src=images/Sketcher-B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;"> | Dodano narzędzie [Krzywa złożona przez węzły](Sketcher_CreateBSplineByInterpolation/pl.md). [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530) |
++++
+|                                                                                                                     |                                                                                                                                                                        |
++++
 
 +++
 | <img alt="" src=images/Sketcher-periodic_B-spline_by_knots_v2_relnotes_0.21.gif  style="width:384px;"> | Dodano narzędzie [Okresowa krzywa złożona przez węzły](Sketcher_CreatePeriodicBSplineByInterpolation/pl.md). |
 |                                                                                                                                       |                                                                                                                      |
-|                                                                                                                                       | [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530)                                         |
+|                                                                                                                                       | [Pull request #8530](https://github.com/FreeCAD/FreeCAD/pull/8530)                                                 |
 +++
 |                                                                                                                                       |                                                                                                                      |
 +++
 
 
 
-### Planowane ulepszenia środowiska Szkicownik 
+### Kolejne ulepszenia środowiska Szkicownik 
 
 -   Przycisk paska narzędzi [Wiązanie prawo Snella](Sketcher_ConstrainSnellsLaw/pl.md) został usunięty. [Commit ef62fc3](https://github.com/FreeCAD/FreeCAD/commit/ef62fc3)
 -   [Rozdziel](Sketcher_Split/pl.md) obsługuje teraz więcej krzywych *(elipsy, parabole, hiperbolę i krzywe złożone)*. [Pull request #6971](https://github.com/FreeCAD/FreeCAD/pull/6971)
@@ -403,36 +382,33 @@ Narzędzie [Punkty z siatki](Part_PointsFromMesh/pl.md) zostało rozszerzone, ab
 
 
 
-## Środowisko pracy Arkusz Kalkulacyjny 
-
-
-
-### Planowane ulepszenia dla środowiska Arkusz Kalkulacyjny 
-
-
-
 ## Środowisko pracy Powierzchnia 3D 
 
-   
-  <img alt="" src=images/Surface_BlendCurve_relnotes_0.21.png  style="width:250px;">   Dodano narzędzie [Krzywa łącząca](Surface_BlendCurve/pl.md). [Pull request #7339](https://github.com/FreeCAD/FreeCAD/pull/7339)
-                                                                                                  
-   
++++
+| <img alt="" src=images/Surface_BlendCurve_relnotes_0.21.png  style="width:250px;"> | Dodano narzędzie [Krzywa łącząca](Surface_BlendCurve/pl.md). [Pull request #7339](https://github.com/FreeCAD/FreeCAD/pull/7339) |
++++
+|                                                                                               |                                                                                                                                         |
++++
 
 
 
 ## Środowisko pracy Rysunek Techniczny 
 
-   
-  <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_0.21.png  style="width:250px;">             Dodano nowe narzędzie [Symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227)
-  <img alt="" src=images/TechDraw_ComplexSection_relnotes_0.21.png  style="width:250px;">                         Dodano narzędzie [Przekrój złozony](TechDraw_ComplexSection/pl.md) umożliwiające tworzenie półprzekrojów oraz ich przesuwania i wyrównywania. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)
-  <img alt="" src=images/TechDraw_HoleShaftFitExample_relnotes_0.21.png  style="width:250px;">               Dodano narzędzie [Dodaj pasowanie otworu lub wału](TechDraw_HoleShaftFit/pl.md). [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)
-  <img alt="" src=images/TechDraw_AxoLengthDimensionExample_relnotes_0.21.png  style="width:250px;">   Dodano narzędzie [Wymiar długości w aksonometrii](TechDraw_AxoLengthDimension/pl.md). [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)
-                                                                                                                                  
-   
++++
+| <img alt="" src=images/TechDraw_SurfaceFinishExample_relnotes_0.21.png  style="width:250px;">           | Dodano nowe narzędzie [Symbol wykończenia powierzchni](TechDraw_SurfaceFinishSymbol/pl.md) pozwalające na tworzenie symboli wykończenia powierzchni opisujących chropowatość, ułożenie i falistość, ale także oznaczających rodzaj obróbki powierzchni. Obsługuje ono zarówno style ISO jak i ASME. Jak pokazano na obrazku, istniejące narzędzie [Linia odniesienia](TechDraw_LeaderLine/pl.md) może być użyte do prawidłowego odniesienia zorientowanych symboli do krawędzi obiektu. [Pull request #7227](https://github.com/FreeCAD/FreeCAD/pull/7227) |
++++
+| <img alt="" src=images/TechDraw_ComplexSection_relnotes_0.21.png  style="width:250px;">                       | Dodano narzędzie [Przekrój złozony](TechDraw_ComplexSection/pl.md) umożliwiające tworzenie półprzekrojów oraz ich przesuwania i wyrównywania. [Pull request #7658](https://github.com/FreeCAD/FreeCAD/pull/7658)                                                                                                                                                                                                                                                                                                                                                   |
++++
+| <img alt="" src=images/TechDraw_HoleShaftFitExample_relnotes_0.21.png  style="width:250px;">             | Dodano narzędzie [Dodaj pasowanie otworu lub wału](TechDraw_HoleShaftFit/pl.md). [Pull request #8455](https://github.com/FreeCAD/FreeCAD/pull/8455)                                                                                                                                                                                                                                                                                                                                                                                                                |
++++
+| <img alt="" src=images/TechDraw_AxoLengthDimensionExample_relnotes_0.21.png  style="width:250px;"> | Dodano narzędzie [Wymiar długości w aksonometrii](TechDraw_AxoLengthDimension/pl.md). [Pull request #8359](https://github.com/FreeCAD/FreeCAD/pull/8359)                                                                                                                                                                                                                                                                                                                                                                                                           |
++++
+|                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
++++
 
 
 
-### Kolejne ulepszenia dla środowiska Rysunek Techniczny 
+### Kolejne ulepszenia środowiska Rysunek Techniczny 
 
 -   Tryby nawigacji zostały zaktualizowane, aby dopasować je do tych używanych w oknie widoku 3D. [Pull request #7081](https://github.com/FreeCAD/FreeCAD/pull/7081) and [Pull request #7107](https://github.com/FreeCAD/FreeCAD/pull/7107)
 -   Poprawiono kreskowanie bitmapami. [Issue #6582](https://github.com/FreeCAD/FreeCAD/issues/6582) and [Pull request #7121](https://github.com/FreeCAD/FreeCAD/pull/7121)
@@ -451,34 +427,6 @@ replaceCenterLine, replaceCosmeticEdge, replaceCosmeticVertex oraz replaceGeomFo
 -   Wymiary 3D mogą być teraz tworzone w taki sam sposób jak wymiary 2D, *(oprócz tego, że geometria musi być wybrana w widoku 3D i wartość właściwości \"Typ pomiaru\" musi być przełączona na Prawda)*. Eliminuje to konieczność ręcznego łączenia ich z geometrią 3D. Napraw wymiar. [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 -   Dodano narzędzie [Napraw wymiar](TechDraw_DimensionRepair/pl.md). [Pull request #8141](https://github.com/FreeCAD/FreeCAD/pull/8141)
 -   Dodano funkcję usuwania nakładających się krawędzi zwracanych przez algorytm usuwania ukrytych linii, w tym nowe ustawienie *(w preferencjach zaawansowanych)* liczby przebiegów tej funkcji. [Pull request #9280](https://github.com/FreeCAD/FreeCAD/pull/9280)
-
-
-
-## Środowisko pracy Web 
-
-
-
-## Zewnętrzne środowiska pracy 
-
-
-
-### Środowisko pracy A2plus 
-
-
-
-### Środowisko pracy Złożenie 3 
-
-
-
-### Assembly4
-
-
-
-### FCGear
-
-
-
-### Statek
 
 
 
@@ -518,6 +466,12 @@ W zależności od możliwości graficznych OpenGL komputera, może się zdarzyć
 ### MacOS: Środowisko pracy Start pokazuje pustą stronę 
 
 Jeśli środowisko pracy [Start](Start_Workbench.md) pokazuje tylko pustą stronę, musisz włączyć opcję **Użyj programowego OpenGL** w menu **FreeCAD-0.21 →Edycja→ Preferencje ... → Wyświetlanie**.
+
+
+
+## Pozostałe zasoby 
+
+-   [Mango Jelly Video about 0.21 Features](https://www.youtube.com/watch?v=rPxr0yvNgxo)
 
 
 

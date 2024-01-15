@@ -17,6 +17,8 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arc
 
 <img alt="" src=images/Arch_Wikihouse_02.jpg  style="width:1024px;">
 
+
+
 ## Utilisation
 
 1.  Sélectionner un ou plusieurs objets [Arch Panneau](Arch_Panel/fr.md)
@@ -32,7 +34,11 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arc
 -   Un double-clic sur la découpe de panneau dans la vue en arborescence après sa création vous permet d\'entrer en mode édition et de modifier la position de la balise.
 -   Lorsque vous avez besoin de mettre en page différentes découpes de panneaux ensemble, les découpes de panneaux peuvent afficher une marge, ce qui est utile pour s\'assurer qu\'un certain espace est toujours présent entre une coupe et une autre.
 
+
+
 ## Propriétés
+
+
 
 ### Données
 
@@ -50,11 +56,15 @@ Cet outil crée, dans le document 3D, une vue 2D plane d\'un objet [Panneau](Arc
 
 -    **Make Face**: si mis à vrai, le panneau est une Part Face, sinon une Part Polyligne.
 
+
+
 ### Vue
 
 -    **Margin**: marge à afficher hors du panneau coupé.
 
 -    **Show Margin**: active/désactive l\'affichage de la marge
+
+
 
 ## Script
 
@@ -69,7 +79,7 @@ View = makePanelCut(panel, name="PanelView")```
 
 -   Crée un objet `View` (projection 2D) à partir du `panel` existant.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 
@@ -95,6 +105,8 @@ View = Arch.makePanelCut(Panel)
 View.ViewObject.LineWidth = 3
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
 
 ## Tutoriels
 

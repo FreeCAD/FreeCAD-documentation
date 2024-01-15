@@ -1,7 +1,7 @@
 # Tutorials/zh-cn
 <div class="mw-translate-fuzzy">
 
-本页展示了一系列精选的高质量图文教程。完整无序的教程集可以在[:Category:Tutorials找到](:Category_Tutorials.md)。
+本页展示了一系列精选的高质量图文教程。完整无序的教程集可以在[:Category:Tutorials](:Category_Tutorials.md)找到。
 
 
 </div>
@@ -51,8 +51,8 @@ See also [video tutorials](Video_tutorials.md) and [books](Books.md).
 
 FreeCAD提供了两种主要工作流程来实现零件造型（modeling part）：
 
--   利用[零件工作台（Part workbench）中的](Part_Workbench.md)[构造实体几何（constructive solid geometry，简作CSG）](https://en.wikipedia.org/wiki/Constructive_solid_geometry)方法来组合对象（combining objects），以及
--   利用[零件设计工作台进行参数化建模](PartDesign_Workbench.md)，并编辑[feature](Glossary#Feature.md)。
+-   利用[零件工作台（Part workbench）](Part_Workbench.md)中的[构造实体几何（constructive solid geometry，简作CSG）](https://en.wikipedia.org/wiki/Constructive_solid_geometry)方法来组合对象（combining objects），以及
+-   利用[零件设计工作台](PartDesign_Workbench.md)进行参数化建模，并编辑[feature](Glossary#Feature.md)。
 
 
 </div>
@@ -60,7 +60,7 @@ FreeCAD提供了两种主要工作流程来实现零件造型（modeling part）
 
 <div class="mw-translate-fuzzy">
 
-请注意，[零件设计工作台的工作流程自FreeCAD](PartDesign_Workbench.md) 0.17版起有了较大变化，而部分教程还未对此更新，可能仍然采用的是0.16版本。
+请注意，[零件设计工作台](PartDesign_Workbench.md)的工作流程自FreeCAD 0.17版起有了较大变化，而部分教程还未对此更新，可能仍然采用的是0.16版本。
 
 
 </div>
@@ -263,8 +263,6 @@ Here are listed all the tutorials that are not in the manual **regardless of the
 | [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)                                                        | Product Design          | Beginner              | 0:30                   | r-frank and vocx                                                                               | 0.17 or above       | [Draft_Shapestring_Text](https://github.com/FreeCAD/Examples/blob/master/Draft_Shapestring_Tutorial_Examples/Draft_Shapestring_Tutorial_Text.FCStd?raw=true)                                                                                                                                                                  |
 ++++++++
 | [Draft tutorial](Draft_tutorial.md)                                                                                | Draft Workbench         | Beginner              | 0:30                   | [Drei](User_Drei.md) and vocx                                                          | 0.19                | [Draft tutorial updated](https://forum.freecadweb.org/viewtopic.php?f=36&t=43651)                                                                                                                                                                                                                                             |
-++++++++
-| [Dxf Importer Install](Dxf_Importer_Install.md)                                                                    | Import                  | Intermediate          | 0:05                   | [Mario52](User_Mario52.md)                                                             | Any                 | None                                                                                                                                                                                                                                                                                                                          |
 ++++++++
 | [Engine Block Tutorial](Engine_Block_Tutorial.md)                                                                  | Part Workbench          | Beginner              | 1:00                   | Andrewbuck40                                                                                   | 0.14.3700           |                                                                                                                                                                                                                                                                                                                               |
 ++++++++

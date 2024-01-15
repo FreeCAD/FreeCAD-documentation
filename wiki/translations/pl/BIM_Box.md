@@ -1,27 +1,32 @@
 ---
- GuiCommand:Addon
+ GuiCommand:Addon/pl
    Name: BIM Box
-   Workbenches: Image:IFC.svg BIM Workbench
+   Name/pl: BIM: Prostopadłościan
+   Workbenches: Image:IFC.svg BIM_Workbench/pl
    Addon: BIM
-   MenuLocation: 3D Modeling , Box
-   SeeAlso: Part Box
+   MenuLocation: 3D / BIM , Prostopadłościan
+   SeeAlso: Part_Box/pl
 ---
 
 # BIM Box/pl
 
-## Description
+
+
+## Opis
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
-The BIM Box tool allows you to create a standard [Part Box](Part_Box.md), but instead of creating the object and letting you specify its dimensions and position afterwards, like the original [Part Workbench](Part_Workbench.md) tool does, this tool allows you to place and define the box dimensions graphically when creating the object. Boxes are basic [cuboid](https://en.wikipedia.org/wiki/Cuboid) shapes, that can be used as a base of any other kind of BIM object later on.
+Narzędzie Prostopadłościan umożliwia utworzenie standardowej [Części](Part_Box/pl.md) środowiska Część, ale zamiast tworzyć obiekt i pozwalać na późniejsze określenie jego wymiarów i położenia, tak jak robi to oryginalne narzędzie [środowiska Część](Part_Workbench/pl.md), narzędzie to pozwala na graficzne umieszczenie i zdefiniowanie wymiarów prostopadłościanu podczas tworzenia obiektu. Prostopadłościan to bryła [prostopadłościenna](https://en.wikipedia.org/wiki/Cuboid), która może być później użyta jako podstawa dowolnego innego rodzaju obiektu BIM.
 
-## Usage
 
-1.  Press the **<img src="images/BIM_Box.png" width=16px> [BIM Box](BIM_Box.md)** button
-2.  Click a first point to define a first corner of the box. It can be any of the box corners
-3.  Click a second point to define a first edge of the box, starting from the first point
-4.  Click a third point to define a first face of the box, orthogonal to the first edge
-5.  Click a fourth point to define the extrusion distance of the first face, forming the final box
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/BIM_Box.png" width=16px> [Prostopadłościan](BIM_Box/pl.md)**.
+2.  Kliknij pierwszy punkt, aby zdefiniować pierwszy narożnik prostopadłościanu. Może to być dowolny narożnik obiektu
+3.  Kliknij drugi punkt, aby zdefiniować pierwszą krawędź prostopadłościanu, zaczynając od pierwszego punktu.
+4.  Kliknij trzeci punkt, aby zdefiniować pierwszą powierzchnię prostopadłościanu, prostopadłą do pierwszej krawędzi.
+5.  Kliknij czwarty punkt, aby zdefiniować odległość wyciągnięcia pierwszej ściany, tworząc ostateczne prostopadłościan.
 
 
 

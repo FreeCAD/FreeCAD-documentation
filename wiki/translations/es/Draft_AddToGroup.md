@@ -24,8 +24,6 @@ Esta herramienta muestra un menú rápido que te permite añadir los objetos sel
 
 </div>
 
-In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workbench.md) objects.
-
 ## Usage
 
 

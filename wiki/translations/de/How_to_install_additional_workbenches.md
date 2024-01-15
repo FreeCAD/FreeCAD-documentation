@@ -39,19 +39,6 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Windows installiert
 
 
 
-### Veraltet
-
-
-**Hinweis:**
-
-Die Verwendung des \"Erweiteruns-Installierers\" wird nicht mehr empfohlen. Die Verwendung des [Addon-Managers](Std_AddonMgr/de.md) ist auf allen Systemen der empfohlene Weg.
-
-Benutze den [addons-installer von Github](https://github.com/FreeCAD/FreeCAD-addons).
-
-Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der Arbeit an einer verbesserten Version ([hier verfügbar](https://github.com/mandeeps708/PluginManager)), die jedoch noch weitere Bearbeitung benötigt, bevor sie vollständig in FreeCAD integriert werden kann.
-
-
-
 ### Manuelle Installation 
 
 
@@ -59,14 +46,14 @@ Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der
 
 Diese Methode ist mit der Einführung des [Addon-Manager](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
 
--   Lade den Arbeitsbereich von github herunter, durch anklicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) klickest und \"Download ZIP\" wählst
--   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
--   Suche innerhalb von FreeCAD den Makropfad, durch Wahl von **Bearbeiten → Einstellungen → Allgemein→ Makro** und nach dem \"Makropfad\" suchen.
--   Angenommen, dein Windows-Login ist \"*Benutzername*\", dann ist der Standard Makropfad **%APPDATA%\FreeCAD\**, der normalerweise **C:\Users\''username''\Appdata\Roaming\FreeCAD** ist.
--   Erstelle innerhalb des Makro-Verzeichnisses einen Ordner (falls nicht bereits vorhanden) namens \"**Mod**\"
--   Lege innerhalb des Ordners Mod einen Ordner mit dem Namen des Arbeitsbereichs an, z.B. \"Curves\".
--   Verschiebe nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner
--   Nach dem Neustart von FreeCAD solltest du nun einen Eintrag im [Arbeitsbereichsanwähler](Std_Workbench/de.md) haben
+-   Den Arbeitsbereich von github herunterladen, indem die Schaltfläche **Clone** oder **Download** auf der github-Seite (rechte obere Ecke) gedrückt und \"Download ZIP\" ausgewählt wird.
+-   Das heruntergeladene Archiv auf deiner lokalen Festplatte entpacken.
+-   Innerhalb von FreeCAD den Makropfad finden, indem unter **Bearbeiten → Einstellungen → Python→ Makro** nach dem \"Makropfad\" gesucht wird.
+-   Angenommen, dein Windows-Login ist \"*Benutzername*\", dann wird der Standard-Makropfad **%APPDATA%\FreeCAD\** normalerweise zu **C:\Users\''Benutzername''\Appdata\Roaming\FreeCAD**.
+-   Innerhalb des Makro-Verzeichnisses einen Ordner namens \"**Mod**\" erstellen (falls nicht bereits vorhanden).
+-   Innerhalb des Ordners Mod einen Ordner mit dem Namen des Arbeitsbereichs anlegen, z.B. \"Curves\".
+-   Nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner verschieben.
+-   Nach einem Neustart von FreeCAD solltest du nun einen Eintrag in der [Auswahlliste der Arbeitsbereiche](Std_Workbench/de.md) haben
 
 **Zusätzliche Empfehlung zur Aktualisierung von Arbeitsbereichen**
 
@@ -123,14 +110,14 @@ $ rm *.pyc
 
 Diese Methode ist mit der Einführung des [Addon-Manager](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
 
--   Lade den Arbeitsbereich von github durch Klicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) und Auswahl von \"Download ZIP\"
--   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
--   Ermittle innerhalb von FreeCAD den Makropfad,durch wählen von **Bearbeiten→ Einstellungen → Allgemein → Makro** und schau nach dem "Makropfad"
--   Standardmäßig ist das Makro Verzeichnis das (versteckte) **./.FreeCAD/** Verzeichnis in deinem Home-Verzeichnis
--   Erstelle innerhalb des Makro-Verzeichnisses (falls nicht bereits vorhanden) einen Ordner namens \"**Mod**\"
--   Erstelle innerhalb des Mod/ Ordners einen Ordner mit dem Namen des Arbeitsbereichs, zum Beispiel \"Curves\"
--   Verschiebe nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner
--   Nach dem Neustart von FreeCAD solltest du nun einen Eintrag im [Arbeitsbereichswähler](Std_Workbench/de.md) haben
+-   Den Arbeitsbereich von github herunterladen, indem die Schaltfläche **Clone** oder **Download** auf der github-Seite (rechte obere Ecke) gedrückt und \"Download ZIP\" ausgewählt wird.
+-   Das heruntergeladene Archiv auf deiner lokalen Festplatte entpacken.
+-   Innerhalb von FreeCAD den Makropfad finden, indem unter **Bearbeiten → Einstellungen → Python→ Makro** nach dem \"Makropfad\" gesucht wird.
+-   Standardmäßig ist das Makro-Verzeichnis das (versteckte) Verzeichnis **./.FreeCAD/** in deinem Home-Verzeichnis.
+-   Innerhalb des Makro-Verzeichnisses einen Ordner namens \"**Mod**\" erstellen (falls nicht bereits vorhanden).
+-   Innerhalb des Ordners Mod einen Ordner mit dem Namen des Arbeitsbereichs anlegen, z.B. \"Curves\".
+-   Nun die entpackten Dateien und Unterordner des Arbeitsbereichs in den soeben erstellten Arbeitsbereichs-Ordner verschieben.
+-   Nach einem Neustart von FreeCAD solltest du nun einen Eintrag in der [Auswahlliste der Arbeitsbereiche](Std_Workbench/de.md) haben.
 
 
 </div>
@@ -182,11 +169,11 @@ Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Ku
 
 ## Allgemeine Fehlerbehebung 
 
--   Verwende keine Sonderzeichen (z.B. deutsche Umlaute) in deinem Windows Benutzernamen, da FreeCAD sonst Dateien und Ordner im Makropfad nicht erkennt.
--   Wenn Du bereits einen Benutzernamen mit Sonderzeichen eingerichtet hast, erstelle entweder einen neuen Benutzernamen oder zeige den Makropfad auf ein Verzeichnis ohne Sonderzeichen.
--   Gehe zu **Werkzeuge → Anpassen → Arbeitsbereiche** und stelle sicher, dass der Arbeitsbereich nicht auf ausgeblendet gesetzt ist.
--   Mit 32-Bit System und FreeCAD 0.16.6706, nach dem Versuch der Installation sind die zusätzlichen Arbeitsbereiche möglicherweise nicht verfügbar. In diesem Fall
-    -   Halte beim Start von FreeCAD das [Berichtsfenster](report_view/de.md) geöffnet und lies den Fehler.
+-   Verwende keine Sonderzeichen (z.B. deutsche Umlaute) in deinem Windows-Benutzernamen, da FreeCAD sonst Dateien und Ordner im Makropfad nicht erkennt.
+-   Wenn Du bereits einen Benutzernamen mit Sonderzeichen eingerichtet hast, erstelle entweder einen neuen Benutzernamen oder verweise mit dem Makropfad auf ein Verzeichnis ohne Sonderzeichen.
+-   Zu **Bearbeiten → Einstellungen → Arbeitsbereiche** wechseln und sicherstellen, dass der Arbeitsbereich nicht auf ausgeblendet gesetzt ist.
+-   Auf einem 32-Bit-System mit FreeCAD 0.16.6706 sind nach einem Installationsversuch die zusätzlichen Arbeitsbereiche möglicherweise nicht verfügbar. In diesem Falle
+    -   Beim Start von FreeCAD das [Ausgabefenster](report_view/de.md) geöffnet lassen und den Fehler ansehen.
     -   siehe diesen Forumsbeitrag: [Assembly2 in Version: 0.16.5602 (Git)](http://forum.freecadweb.org/viewtopic.php?t=12839#p102933)
 
 

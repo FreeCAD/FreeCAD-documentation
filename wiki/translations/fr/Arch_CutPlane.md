@@ -4,32 +4,37 @@
    Name/fr: Arch Couper selon un plan
    MenuLocation: Arch , Couper selon un plan
    Workbenches: Arch_Workbench/fr
-   SeeAlso: Arch_CutLine/fr, Arch_Remove/fr
 ---
 
 # Arch CutPlane/fr
 
 ## Description
 
-L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan :
+L\'outil **Arch Couper selon un plan** coupe un objet solide Arch comme un [Arch Mur](Arch_Wall/fr.md) ou une [Arch Structure](Arch_Structure/fr.md) avec une face plane.
 
--   Vous pouvez couper un objet Arch avec la face sélectionnée, normale ou opposée au plan de la face.
--   Cela ajoute un composant de soustraction CutVolume à l\'objet Arch
-
-<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
-
-
-
-*À gauche : avant d'appliquer l'outil Couper selon un plan. Milieu : mur résultant après la coupe. À droite : encore un autre résultat facultatif*
+<img alt="" src=images/Arch_CutPlane_example.jpg  style="width:400px;"> 
+*À gauche : avant d'appliquer l'outil Couper selon un plan.<br>
+Au milieu : mur résultant après la coupe.<br>
+À droite : un autre résultat*
 
 
 
 ## Utilisation
 
-1.  Sélectionner l\'objet à couper, puis une face (la face doit être sélectionnée en dernier, et doit être sélectionnée sur la [vue 3D](3D_view/fr.md)).
-2.  Appuyer sur le bouton **<img src="images/Arch_CutPlane.svg" width=24px> [Couper selon un plan](Arch_CutPlane/fr.md)**.
-3.  Choisissez si l\'objet est coupé **derrière** la face normale ou **devant** de la face normale.
-4.  Cliquer sur le bouton **OK**.
+1.  Si le plan de coupe doit être dérivé d\'une arête droite ({{Version/fr|0.22}}), vous pouvez aligner le [plan de travail](Draft_SelectPlane/fr.md) :
+    -   L\'arête sélectionnée ne peut pas être parallèle à la normale du plan de travail.
+    -   La face de la coupe générée sera perpendiculaire au plan de travail.
+2.  Sélectionnez l\'objet à découper.
+3.  Effectuez l\'une des opérations suivantes :
+    -   Sélectionner un objet avec une seule face plane. {{Version/fr|0.22}}
+    -   Sélectionnez une face plane dans la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez un objet avec une seule arête droite. {{Version/fr|0.22}}
+    -   Sélectionnez une arête droite dans la [vue 3D](3D_view/fr.md). {{Version/fr|0.22}}
+4.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le **<img src="images/Arch_CutPlane.svg" width=16px> [Couper selon un plan](Arch_CutPlane/fr.md)**.
+    -   Sélectionnez l\'option **Arch → <img src="images/Arch_CutPlane.svg" width=16px> Couper selon un plan** du menu.
+5.  Choisissez **Derrière** ou **Devant** pour indiquer de quel côté de la face de la coupe, la matière doit être enlevée.
+6.  Appuyez sur le bouton **OK**.
 
 
 
@@ -40,7 +45,9 @@ L\'outil Couper selon un plan vous permet de couper un objet Arch selon un plan 
 
 [Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Couper selon un plan peut être utilisé dans une [macro](Macros/fr.md), et, à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante : 
+L\'outil Couper selon un plan peut être utilisé dans une [macro](Macros/fr.md) et à partir de la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 ```
@@ -58,7 +65,9 @@ cutObj = cutComponentwithPlane(archObject, cutPlane, sideFace)
 
 -    `sideFace`indique de quel côté de `FaceObject` un volume sera créé; ce volume sera ensuite utilisé pour être soustrait de `archObject`. Si `sideFace` vaut `0`, cela créera un volume à l\'arrière de la face, sinon il le créera devant la face.
 
-Exemple : 
+Exemple :
+
+
 ```python
 import FreeCAD, FreeCADGui, Draft, Arch
 

@@ -22,10 +22,10 @@ La fonction <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:2
 
 ### Créer une fonction boîte 
 
-1.  Soit vous appuyez sur le bouton **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Boîte](FEM_PostCreateFunctionBox/fr.md)** soit vous sélectionnez l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Boîte** du menu.
+1.  Appuyer soit sur le bouton **<img src="images/FEM_PostCreateFunctionBox.svg" width=16px> [Boîte](FEM_PostCreateFunctionBox/fr.md)** soit sélectionner l\'option **Résultats → Fonctions de filtrage → <img src="images/FEM_PostCreateFunctionBox.svg" width=16px> Boîte** du menu.
 2.  Le [panneau des tâches](Task_panel/fr.md) de la fonction Implicit s\'ouvre.
 3.  Vous pouvez définir les valeurs de l\'origine et de la direction du plan de coupe.
-4.  Appuyez sur le bouton **OK** pour terminer.
+4.  Appuyer sur le bouton **OK** pour terminer.
 
 
 

@@ -231,6 +231,8 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 -    <img style="width:16px;" src="images/Macro_Toggle_Views_Visibility.png"> [Macro Toggle Panels Visibility](Macro_Toggle_Panels_Visibility/fr.md): Cette macro permet de basculer la visibilité de divers panneaux de support dans FreeCAD, ce qui permet de visualiser la fenêtre principale avec tout l\'espace disponible à l\'écran.
 
+-    <img style="width:16px;" src="images/MacroToolbarManager_icon.svg"> [Macro MacroToolbarManager](Macro_MacroToolbarManager/fr.md): permet de créer, renommer et supprimer des barres d\'outils, d\'ajouter et de supprimer des macros, d\'éditer des raccourcis et des icônes, et comprend même un outil simple de création d\'icônes xpm.
+
 
 </div>
 
@@ -449,6 +451,8 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 -    <img style="width:16px;" src="images/Macro_Connect_And_Sweep.png"> [Macro Connect And Sweep](Macro_Connect_And_Sweep/fr.md): Cette macro crée facilement une connexion entre deux objets, un objet et un point ou entre deux points ou la ligne, le fil, le bord sélectionnés (le centre des objets sont les points de départ et d\'arrivée du balayage) peuvent être sélectionnés sous la forme d\'un cercle ellipse polygone configurable.
 
+-    <img style="width:16px;" src="images/Std_AxisCross_example.svg"> [Macro Express Placement](Macro_Express_Placement/fr.md): affiche et modifie rapidement les coordonnées de placement d\'un objet sélectionné, directement ou par le biais d\'expressions.
+
 -    <img style="width:16px;" src="images/Macro_FlattenWire.png"> [Macro FlattenWire](Macro_FlattenWire/fr.md): Aplatit les ébauches de fils qui ne sont pas planaires à leur coordonnée Z médiane.
 
 -    <img style="width:16px;" src="images/Macro_FlattenWire3Points.png"> [Macro FlattenWire3Points](Macro_FlattenWire3Points/fr.md): Aplatit les ébauches de fils qui ne sont pas planaires à un plan défini par 3 points.
@@ -506,6 +510,8 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 -   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [colorManager](https://github.com/dprojects/Woodworking/blob/master/Tools/colorManager.py) : Permet de définir les couleurs des faces pour tous les objets à partir d\'une feuille de calcul. Vous pouvez également parcourir les couleurs pour une face ou un objet sélectionné manuellement et voir l\'effet dans le modèle 3D en temps réel.
 
 -    <img style="width:16px;" src="images/Workbench_Image.svg"> [Macro Colorize](Macro_Colorize/fr.md): Définissez facilement les couleurs des faces, des arêtes et des sommets, y compris les niveaux de transparence individuels.
+
+-    <img style="width:16px;" src="images/EasyReflectorIcon.svg"> [Macro EasyReflector](Macro_EasyReflector/fr.md): les textures sont gérées facilement par un objet paramétrique en Python qui persiste entre les sessions de FreeCAD et de documents.
 
 -    <img style="width:16px;" src="images/Macro_HiddenAlls.png"> [Macro Hidden Alls objects](Macro_HiddenAlls/fr.md): Cette macro vérifie que tous les objets du document sont cachés (Visibility=False).
 
@@ -585,7 +591,7 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 -    <img style="width:16px;" src="images/Macro_FreeCAD_to_Kerkythea.png"> [Macro FreeCAD to Kerkythea](Macro_FreeCAD_to_Kerkythea/fr.md): Exporte un fichier FreeCAD compatible avec Kerkythea.
 
--    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Z Height Map](Macro_Z_height_map/fr.md): crée une carte de hauteur en niveaux de gris en Z.
+-    <img style="width:16px;" src="images/Applications-python.svg"> [Macro Z Height Map](Macro_Z_Height_Map/fr.md): crée une carte de hauteur en niveaux de gris en Z.
 
 
 </div>
@@ -604,6 +610,8 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 <div class="mw-collapsible-content">
 
 -    <img style="width:16px;" src="images/aliasmanager_icon.png"> [Macro Alias Manager](Macro_Alias_Manager/fr.md): Aide à la gestion des alias dans l\'atelier FreeCAD Spreadsheet. Il est capable de créer, supprimer, déplacer des alias et de créer un groupe de fichiers de type \"famille de pièces\".
+
+-    <img style="width:16px;" src="images/ConstraintToAlias.svg"> [Macro ConstraintToAlias](Macro_ConstraintToAlias/fr.md): permet de créer une feuille de calcul ou d\'ajouter un alias à une feuille de calcul existante à partir de l\'éditeur de croquis ouvert.
 
 -    <img style="width:16px;" src="images/easy-alias-icon.png"> [Macro EasyAlias](Macro_EasyAlias/fr.md): Créez rapidement des alias dans l\'atelier Spreadsheet de FreeCAD. Il utilise les étiquettes d\'une colonne pour créer des alias pour les cellules adjacentes de la colonne suivante à droite, par exemple les étiquettes de la colonne A deviennent des alias pour les cellules de la colonne B.
 
@@ -691,7 +699,7 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 -    <img style="width:16px;" src="images/Gearworkbech.png"> [Macro FCGear](Macro_FCGear/fr.md): Atelier supplémentaire pour créer différents types d\'engrenages, engrenage à développante, crémaillère à développante, engrenage cycloïde, engrenage conique.
 
--    <img style="width:16px;" src="images/Macro_Fonts_Win10_PYMP.png"> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/fr.md): Cette petite macro est dédiée aux utilisateurs de Windows 10. L\'explorateur de polices pour l\'utilisation de [Formes à partir de texte](Draft_ShapeString/fr.md) est vide et cette petite macro peut vous aider à voir facilement la police à utiliser.
+-    <img style="width:16px;" src="images/Macro_Fonts_Win10_PYMP.png"> [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/fr.md): cette petite macro est dédiée aux utilisateurs de Windows 10. L\'explorateur de polices pour l\'utilisation de [Forme à partir d\'un texte](Draft_ShapeString/fr.md) est vide et cette petite macro peut vous aider à voir facilement la police à utiliser.
 
 -    <img style="width:16px;" src="images/GenerateDrawing.svg"> [Macro GenerateDrawing](Macro_GenerateDrawing/fr.md): Macro pour la génération automatique de dessins avec 3 projections normales et une isométrique.
 
@@ -703,7 +711,7 @@ Si vous avez écrit une macro et que vous souhaitez l\'inclure dans l\'une des c
 
 -    <img style="width:16px;" src="images/Macro_Megaminx.png"> [Macro Megaminx](Macro_Megaminx/fr.md): Affichez un Megaminx et faites des coupes de manière interactive.
 
--    <img style="width:16px;" src="images/PropertyMemo.png"> [Macro PropertyMemo](Macro_PropertyMemo/fr.md): Cette petite macro crée une propriété supplémentaire (mémo ou autre texte) pour votre objet (uniquement Draft).
+-    <img style="width:16px;" src="images/PropertyMemo.png"> [Macro PropertyMemo](Macro_PropertyMemo/fr.md): cette macro crée une propriété supplémentaire (mémo ou autre texte) pour votre objet (ne fonctionne qu\'avec les objets Draft).
 
 -    <img style="width:16px;" src="images/Macro_Rubik_Cube.png"> [Macro Rubik Cube](Macro_Rubik_Cube/fr.md): Affichez un Rubik Cube et effectuez des coupes de manière interactive.
 

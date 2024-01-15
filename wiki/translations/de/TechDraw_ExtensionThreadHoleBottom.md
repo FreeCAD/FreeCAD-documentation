@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionThreadHoleBottom
    Name/de: TechDraw ErgänzungInnengewindeAxial
-   MenuLocation: TechDraw , Extensions: Centerlines/Threading , Add Cosmetic Thread Hole Bottom View
+   MenuLocation: TechDraw , Ergänzungen: Mittellinien/Gewinde , Hilfslinien für Innengewinde in Achsansicht hinzufügen
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> **TechDraw ErgänzungInnengewindeAxial** ergänzt eine von oben oder unten gesehene Bohrung mit einer Gewindelinie (Hilfslinie - Cosmetic line).
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungInnengewindeAxial** ergänzt eine von oben oder unten gesehene Bohrung mit einer Gewindelinie (Hilfslinie - Cosmetic line).
 
 <img alt="" src=images/TechDraw_ExtensionThreadHoleBottomExample.png  style="width:200px;"> 
 *Rechts eine Bohrung mit Gewindedarstellung*
@@ -30,18 +24,12 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  styl
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional: definiere die Eigenschaften der Linien mit dem <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) Werkzeug.
-2.  Wähle einen oder mehrere Kreise.
-3.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)** Schaltfläche.
-    -   Wahle die **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Add Cosmetic Thread Hole Bottom View** Option aus dem Menü.
+1.  Optional: Die Eigenschaften der Linien mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes.md).
+2.  Einen oder mehrere Kreise auswählen.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [Hilfslinien für Innengewinde in Achsansicht hinzufügen](TechDraw_ExtensionThreadHoleBottom/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Mittellinien/Gewinde → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Hilfslinien für Innengewinde in Achsansicht hinzufügen** auswählen.
 4.  Symbolische Gewinde werden hinzugefügt.
-
-
-</div>
 
 
 

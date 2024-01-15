@@ -1,77 +1,54 @@
 ---
  GuiCommand:
-   Name: Arch Rebar UShape   Name/de: Arch Bewehrungsstab U-förmig
-   MenuLocation: Arch , Rebar tools , Straight Rebar oder 3D/BIM , Reinforcement tools , Gerade Bewehrung
+   Name: Arch Rebar UShape
+   Name/de: Arch Armierung UForm
+   MenuLocation: Arch , Rebar tools , U-förmige Bewehrung<br>3D/BIM , Reinforcement tools , U-förmige Bewehrung
    Workbenches: Arch Workbench/de, BIM Workbench/de
-   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de,Arch_Rebar_LShape/de
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de,Arch_Rebar_LShape/de
 ---
 
 # Arch Rebar UShape/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
+Das Werkzeug [Armierung U-Form](Arch_Rebar_UShape/de.md) erlaubt dem Anwender, einen Satz U-förmiger Bewehrungsstäbe in einem [Arch Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
-<div class="mw-translate-fuzzy">
-
-Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von U-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Bewehrungsstab U-förmig](Arch_Rebar_UShape/de.md)**-Werkzeug ist auch in den [BIM Arbeitsbereich](BIM_Workbench/de.md) integriert.
-
-
-</div>
+Das Werkzeug **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Armierung U-Form](Arch_Rebar_UShape/de.md)** ist auch in den Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
 Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Zwei Sätze von U-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
-
-
-</div>
+<img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
+*Zwei Sätze U-förmiger Bewehrungsstäbe in einem [Arch Struktur](Arch_Structure/de.md)-Objekt*
 
 
 
 ## Anwendung
 
+1.  Eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts auswählen.
 
-<div class="mw-translate-fuzzy">
+2.  Dann **<img src="images/Arch_Rebar_UShape.svg" width=16px> [U-förmige Bewehrung](Arch_Rebar_UShape/de.md)** aus den Bewehrungswerkzeugen auswählen.
 
-1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
-2.  Wähle dann **<img src="images/Arch_Rebar_UShape.svg" width=16px> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)** aus den Bewehrungsstab-Werkzeugen.
-3.  Ein [Aufgaben-Paneel](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt wie im folgenden Bild dargestellt.
-4.  Wähle die gewünschte Ausrichtung.
-5.  Fülle die Werte wie \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes.
-6.  Wähle den Verteilungsmodus, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
-7.  Falls \'Spacing\' gewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) gewählt werden.
-8.  Wähle **Pick selected face** zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
-9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
-10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
+3.  Der [Aufgaben-Bereich](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt, wie im folgenden Bild dargestellt.
 
+4.  Die gewünschte Ausrichtung auswählen.
 
-</div>
+5.  Die Werte wie \'Left Cover\' (linke Fläche), \'Right Cover\' (rechte), \'Top Cover\' (obere), \'Bottom Cover\' (untere), \'Front Cover\' (vordere), \'Anchor length\' (Ankerlänge), \'Bent Angle\' (Biegungswinkel), \'Bent Factor\', \'Rounding\' und \'Diameter\' (Durchmesser) des Bewehrungsstabes eingeben.
 
+6.  Den Verteilungsmodus auswählen, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
 
-:   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
+7.  Falls \'Spacing\' ausgewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) ausgewählt werden.
 
+8.  
+    **Pick selected face**wird verwendet, um die Fläche für die Verteilung der Bewehrungsstäbe zu bestätigen oder zu ändern.
 
+9.  Schaltfläche **OK** oder **Anwenden** drücken, um die Bewehrungsstäbe zu erstellen.
 
+10. Schaltfläche **Abbrechen** drücken, um den Aufgaben-Bereich zu verlassen.
+
+<img alt="" src=images/UShapeDialog.png  style="width:250px;"> 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab U-förmig-Werkzeug*
 
 
@@ -96,56 +73,36 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
-
-## Scripting 
+## Skripten
 
 
 **Siehe auch:**
 
-[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
+[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das U-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
+Das Werkzeug Armierung U-Form kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Rebar = makeUShapeRebar(f_cover, b_cover, r_cover, l_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
                         structure=None, facename=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Erstellt ein `Rebar`-Objekt aus der gegebenen `structure`, die eine [Arch Struktur](Arch_Structure/de.md) ist, und `facename`, die eine Fläche dieser Struktur ist.
+-   Erstellt ein `Rebar`-Objekt aus dem gegebenen `structure`-Objekt, das eine [Arch Struktur](Arch_Structure/de.md) ist, und `facename`, das eine Fläche dieser Struktur ist.
     -   Falls weder `structure` noch `facename` gegeben sind, wird die vom Benutzer gewählte Fläche als Eingabe genommen.
 
--    `f_cover`, `b_cover`, `l_cover`, `r_cover`, und `t_cover` sind innere Abstände von den Bewehrungsstabelementen zu den Flächen der Struktur. Dies sind entsprechend die vorderen, unteren, linken, rechten und oberen Abstände.
+-    `f_cover`, `b_cover`, `l_cover`, `r_cover`, und `t_cover` sind innere Abstände von den Bewehrungselementen zu den Flächen der Struktur. Dies sind entsprechend die vorderen, unteren, linken, rechten und oberen Abstände.
 
--    `diameter`ist der Durchmesser der Verstärkungsstäbe innerhalb der Struktur.
+-    `diameter`ist der Durchmesser der Bewehrungsstäbe innerhalb der Struktur.
 
--    `rounding`ist der Parameter, der den Biegeradius der Verstärkungsstäbe angibt.
+-    `rounding`ist der Parameter, der den Biegeradius der Bewehrungsstäbe angibt.
 
 -    `amount_spacing_check`Falls `True` werden so viele Bewehrungsstäbe erstellt, wie unter `amount_spacing_value` angegeben; falls `False` werden die Bewehrungsstäbe im Abstand von `amount_spacing_value` erstellt.
 
 -    `amount_spacing_value`gibt die Anzahl von Bewehrungsstäben an oder den Abstandswert, abhängig von `amount_spacing_check`.
 
 -    `orientation`gibt die Ausrichtung der Bewehrung an; möglich sind `"Bottom"` (unten), `"Top"` (oben), `"Right"` (rechts) oder `"Left"` (links).
-
-
-</div>
 
 
 
@@ -168,17 +125,11 @@ Rebar2 = UShapeRebar.makeUShapeRebar(50, 50, 20, 20,
 Rebar2.ViewObject.ShapeColor = (0.0, 0.0, 0.9)
 ```
 
-### Edition of the rebar 
 
 
-<div class="mw-translate-fuzzy">
-
-### Anpassung des Bewehrungsstabs 
+### Bearbeiten der Bewehrung 
 
 Die Eigenschaften des Bewehrungsstabs lassen sich mit der folgenden Funktion verändern
-
-
-</div>
 
 
 ```python
@@ -205,20 +156,14 @@ UShapeRebar.editUShapeRebar(Rebar2, 70, 50, 20, 20,
 ```
 
 
-<div class="mw-translate-fuzzy">
-
-
 {{docnav/de
-|[Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)
-|[L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
+|[Armierung GeradlinigeBewehrung](Arch_Rebar_Straight/de.md)
+|[Armierung LForm](Arch_Rebar_LShape/de.md)
+|[Arch](Arch_Workbench/de.md)
 |IconL=Arch_Rebar_Straight.svg
 |IconR=Arch_Rebar_LShape.svg
 |IconC=Workbench_Arch.svg
 }}
-
-
-</div>
 
 
 

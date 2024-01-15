@@ -12,6 +12,8 @@
 
 La commande <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:24px;"> **Draft Basculer le mode continuer** active ou désactive le mode continu. De nombreuses commandes de [Draft](Draft_Workbench/fr.md) et de [Arch](Arch_Workbench/fr.md) supportent ce mode. Si le mode continu est activé, elles redémarreront après avoir terminé. Le mode continu peut également être activé dans le panneau des tâches de ces commandes, de sorte qu\'en pratique, cette commande est rarement utilisée.
 
+
+
 ## Utilisation
 
 1.  Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleContinueMode.svg" width=16px> Basculer le mode continuer ** dans le menu.

@@ -40,6 +40,7 @@ Per gli utenti Windows: leggere prima il paragrafo [Selezione file font su Windo
     -   Inserire un percorso file nella casella di input **Font file**.
     -   Premere il pulsante **...** e selezionare un file.
 8.  Premere il pulsante **OK** per terminare il comando.
+9.  Facoltativamente, modificare il **Justification** di ShapeString. Vedere [Proprietà](#Proprietà.md).
 
 
 
@@ -53,9 +54,9 @@ Per gli utenti Windows: leggere prima il paragrafo [Selezione file font su Windo
 
 -   Una Forma da testo può essere modificata facendo doppio clic su di essa nella [Vista ad albero](Tree_view/it.md). {{Version/it|0.20}}
 -   I font supportati includono TrueType (**.ttf**), OpenType (**.otf**) e Type 1 (**.pfb**).
--   Il comando è limitato al testo LTR (da sinistra a destra). Pertanto al momento il testo RTL (da destra a sinistra + dall\'alto verso il basso) non è supportato.
+-   Il comando è limitato al testo da sinistra a destra. Il testo da destra a sinistra e dall\'alto in basso non è supportato.
 -   Altezze del testo molto piccole possono causare forme dei caratteri deformate a causa della perdita di dettagli nel ridimensionamento.
--   Molti font genereranno geometrie problematiche. Questo perché i contorni dei caratteri possono sovrapporsi, avere piccoli spazi e avere direzioni diverse all\'interno di un glifo. Queste condizioni sono considerate errori nelle poliline utilizzate per definire le facce.
+-   I font possono genererare geometrie problematiche. Questo perché i contorni dei caratteri possono sovrapporsi e avere piccoli spazi. Queste condizioni sono considerate errori nelle poliline utilizzate per definire le facce.
 -   Forma da testo può anche essere creato con [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP/it.md).
 -   Per creare Forme da testo disposte in modo circolare utilizzare il [Macro FCCircularText](Macro_FCCircularText/it.md).
 
@@ -107,24 +108,33 @@ Un oggetto Forma da testo è derivato da un [Part Part2DObject](Part_Part2DObjec
 
 {{TitleProperty|Draft}}
 
--    **Font File|File**: specifica il percorso del file di font utilizzato per disegnare il testo.
+-    **Font File|File**: nome del file di carattere.
 
--    **Size|Length**: specifica l\'altezza generale del testo.
+-    **Fuse|Bool**: fonde le facce se si sovrappongono, solitamente non richiesto (può essere molto lento). Ignorato se **Make Face** è `False`. {{Version/it|0.22}}
 
--    **String|String**: specifica la stringa di testo da visualizzare. A differenza di un [Draft Testo](Draft_Text/it.md), un Draft Forma da testo può visualizzare solo una singola riga di testo.
+-    **Justification|Enumeration**: allineamento orizzontale e verticale. Opzioni: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. {{Version/it|0.22}}
 
--    **Tracking|Length**: specifica la spaziatura aggiuntiva tra i caratteri del testo.
+-    **Justification Reference|Enumeration**: riferimento di altezza utilizzato per la giustificazione. Opzioni: {{value|Cap Height}}, {{value|Shape Height}}. L\'altezza della forma dipende dai caratteri in **String**. {{Version/it|0.22}}
 
+-    **Keep Left Margin|Bool**: mantiene il margine sinistro e lo spazio bianco iniziale quando viene lasciata la giustificazione. {{Version/it|0.22}}
 
+-    **Make Face|Bool**: riempie le lettere con facce.
 
-### Vista
+-    **Oblique Angle|Angolo**: angolo obliquo (inclinato). Deve essere compreso tra -80° e +80°. {{Version/it|0.22}}
 
+-    **Scale To Size|Bool**: scala per garantire che l\'altezza del limite sia uguale alla dimensione. Se impostato su `False`, a seconda del carattere, l\'altezza del limite non corrisponderà esattamente a **Size**. {{Version/it|0.22}}
 
-{{TitleProperty|Draft}}
+-    **Size|Length**: altezza del testo.
 
--    **Pattern|Enumeration**: specifica la [Campitura](Draft_Pattern/it.md) con cui riempire le facce del testo. Questa proprietà funziona solo se **Display Mode** è {{value|Flat Lines}}.
+-    **String|String**: stringa di testo. Un ShapeString può visualizzare solo una singola riga di testo.
 
--    **Pattern Size|Float**: specifica la dimensione della [Campitura](Draft_Pattern/it.md).
+-    **Tracking|Distance**: spaziatura tra caratteri. Il tipo di proprietà è stato aggiornato ({{Version/it|0.22}}).
+
+<img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
+*L'altezza del rettangolo rosso (linea continua) è uguale all'altezza del carattere maiuscolo.<br>
+L'altezza del rettangolo verde (linea tratteggiata) è uguale all'altezza della forma.<br>
+Gli angoli, i punti medi dei bordi e il centro dei rettangoli<br>
+corrispondono alle 9 opzioni di giustificazione: in alto a sinistra a in basso a destra.*
 
 
 
@@ -143,7 +153,7 @@ shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 
 -    `Size`è l\'altezza in millimetri del testo risultante.
 
--    `Tracking`è la spaziatura aggiuntiva tra i caratteri, in millimetri.
+-    `Tracking`è la spaziatura tra caratteri in millimetri.
 
 Il posizionamento di `ShapeString` può essere cambiato sovrascrivendo il suo attributo `Placement`, o sovrascrivendo singolarmente i suoi attributi `Placement.Base` e `Placement.Rotation`.
 

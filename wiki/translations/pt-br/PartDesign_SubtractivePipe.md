@@ -15,9 +15,11 @@
 
 ## Usage
 
-1.  Press the **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtractive pipe'''** button.
+1.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/PartDesign_SubtractivePipe.svg" width=16px> [Subtractive pipe](PartDesign_SubtractivePipe.md)** button.
+    -   Select the **PartDesign → Create an substractive feature → <img src="images/PartDesign_SubtractivePipe.svg" width=16px> Subtractive pipe** option from the menu.
 2.  In the **Select feature** dialog, select a sketch to be used as first cross-section and click **OK**.
-    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Subtractive pipe button.
+    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected before starting the tool. You will not get this dialog then.
 3.  In the **Pipe parameters** under **Profile**, press the **Object** button.
 4.  Select the sketch to be used as path in the 3D view:
     -   Alternatively, edges of the body can be selected by pressing **Add Edge** and selecting edges in the 3D view.

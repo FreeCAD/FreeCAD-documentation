@@ -1,29 +1,25 @@
 # Part TopoShape/it
 ## Introduzione
 
-Una [Part TopoShape](Part_TopoShape.md), o formalmente una `Part::TopoShape`, è una classe che definisce una \"forma topologica\" parametrica nel software. Gli oggetti del documento che mostrano qualcosa nella [vista 3D](3D_view/it.md) normalmente hanno una TopoShape.
+Una [Part TopoShape](Part_TopoShape/it.md), o formalmente una `Part::TopoShape`, è una classe che definisce una \"forma topologica\" parametrica nel software. Gli oggetti del documento che mostrano qualcosa nella [Vista 3D](3D_view/it.md) normalmente hanno una TopoShape.
 
+Le forme topologiche, così come i loro metodi, sono definiti dal kernel [OpenCASCADE Technology](OpenCASCADE/it.md) (OCCT). FreeCAD usa queste forme e crea dei [App DocumentObjects](App_DocumentObject/it.md) attorno ad esse.
 
-<div class="mw-translate-fuzzy">
-
-Le forme topologiche, così come i loro metodi, sono definiti dal kernel OpenCASCADE Technology (OCCT). FreeCAD usa queste forme e crea dei [App DocumentObjects](App_DocumentObject/it.md) attorno ad esse.
-
-
-</div>
-
-Another type of class is that of [meshes](Mesh.md); this class is not very parametric because it can\'t be redefined easily except by specifying individual vertices and triangular surfaces.
+Un altro tipo di classe è quella [meshes](Mesh/it.md); questa classe non è molto parametrica perché non può essere ridefinita facilmente se non specificando singoli vertici e superfici triangolari.
 
 ![](images/Shape_and_mesh.svg )
 
 
 
-*Left: parametric [Part TopoShape](Part_TopoShape.md) defined by properties. Right: non-parametric [mesh](Mesh.md), defined by vertices and triangular surfaces.*
+*A sinistra: [Part TopoShape](Part_TopoShape/it.md) parametrico definito dalle proprietà. A destra: [mesh](Mesh/it.md) non parametrico, definito da vertici e superfici triangolari.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `Part::TopoShape* è incorporata nell'oggetto {{incode|Part::Feature` e da lì viene propagata a tutti gli oggetti che ne derivano.}}
+
+
 
 ## Utilizzo
 
@@ -38,6 +34,8 @@ Alcuni degli oggetti più importanti con Part TopoShape sono i seguenti:
 -   Qualsiasi oggetto derivato da [Part Part2DObject](Part_Part2DObject/it.md), come la maggior parte degli oggetti creati con [Draft](Draft_Workbench/it.md).
 -   Qualsiasi [schizzo](Sketch/it.md), cioè, [Sketcher SketchObject](Sketcher_SketchObject/it.md), creato con [Sketcher](Sketcher_Workbench/it.md).
 -   Qualsiasi oggetto creato importando uno STEP, BREP e file simili in formato solido.
+
+
 
 ## Script
 
@@ -68,15 +66,9 @@ obj.Shape.exportStep("my_file.step")
 obj.Shape.exportStl("my_file.stl")
 ```
 
+Per un elenco completo di attributi e metodi, consultare la [documentazione sorgente](Source_documentation/it.md) e lo strumento **[<img src=images/Std_PythonHelp.svg style="width:16px"> [Documentazione dei moduli Python](Std_PythonHelp/it.md)**.
 
-<div class="mw-translate-fuzzy">
-
-Per un elenco completo di attributi e metodi, consultare [documentazione del codice sorgente](Source_documentation/it.md) e lo strumento di [documentazione dei moduli Python](Std_PythonHelp/it.md).
-
-
-</div>
-
-You can obtain a quick summary of all methods using Python\'s built-in `help()` function. 
+Si può ottenere un rapido riepilogo di tutti i metodi utilizzando la funzione integrata `help()` di Python. 
 ```python
 help(obj.Shape)
 ```

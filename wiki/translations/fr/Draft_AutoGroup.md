@@ -19,28 +19,36 @@ Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais 
 ![](images/Draft_tray_menu.png ) 
 *Le menu calque de la barre Draft*
 
+
+
 ## Utilisation
 
-1.  Sélectionnez éventuellement le calque que vous voulez rendre actif dans la [Vue en arborescence](Tree_view/fr.md).
+1.  Vous pouvez sélectionner le calque que vous voulez rendre actif dans la [vue en arborescence](Tree_view/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/button_invalid.svg" width=16px> [Aucun](Draft_AutoGroup/fr.md)** dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la **Line Color** et la **Shape Color** du calque.
-    -   Si vous avez sélectionné un calque : sélectionnez l\'option **<img src="images/button_right.svg" width=16px> Activer ce calque** dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md).
-3.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuez l\'une des opérations suivantes :
-    -   Sélectionnez **Aucun** pour travailler sans calque actif.
-    -   Sélectionnez un calque existant pour le rendre actif.
-    -   Sélectionnez **Ajouter un nouveau calque** pour créer un nouveau calque. La sélection de cette option ne modifie pas la couche active.
+    -   Appuyer sur le bouton ![](images/Draft_tray_button_layer.png ) dans la [Draft Barre](Draft_Tray/fr.md). Ce bouton peut avoir un aspect différent. S\'il y a un calque actif, il affichera le nom du calque et une icône de calque avec la **Line Color** et la **Shape Color** du calque.
+    -   Si vous avez sélectionné un calque : sélectionner l\'option **<img src="images/button_right.svg" width=16px> Activer ce calque** du menu contextuel de la [vue en arborescence](Tree_view/fr.md).
+3.  Si vous n\'avez pas encore sélectionné de calque, le menu des calques s\'ouvre. Effectuer l\'une des opérations suivantes :
+    -   Sélectionner **Aucun** pour travailler sans calque actif.
+    -   Sélectionner un calque existant pour le rendre actif.
+    -   Sélectionner **Ajouter un nouveau calque** pour créer un nouveau calque. La sélection de cette option ne modifie pas la couche active.
 4.  Si le calque active a été modifiée, le bouton de la [Draft Barre](Draft_Tray/fr.md) est mis à jour.
+
+
 
 ## Remarques
 
 -   Un nouveau [calque](Draft_Layer/fr.md) peut également être créé en cliquant avec le bouton droit de la souris sur le conteneur de calque dans la [Vue en arborescence](Tree_view/fr.md) et en sélectionnant l\'option **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque** dans le menu contextuel.
 -   Si [Draft Basculer en mode construction](Draft_ToggleConstructionMode/fr.md) est activé, le [calque](Draft_Layer/fr.md) actif est ignoré.
 
+
+
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Cette commande peut éventuellement gérer aussi les groupes : **Edition → Préférences... → Draft → Paramètres généraux → Réglages généraux Draft → Afficher les groupes dans la liste déroulante des calques**.
+-   Cette commande peut éventuellement gérer aussi les groupes : **Édition → Préférences... → Draft → Général → Inclure les groupes dans la liste des calques**.
+
+
 
 ## Script
 

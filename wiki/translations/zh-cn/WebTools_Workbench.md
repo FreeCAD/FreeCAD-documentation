@@ -3,7 +3,7 @@
 
 <div class="mw-translate-fuzzy">
 
-一个外部工作台，包含一系列与FreeCAD内的Web服务进行通信的工具。 这是托管在\[[https://github.com/yorikvanhavre/WebTools\]的外部工作台](https://github.com/yorikvanhavre/WebTools%5D的外部工作台)
+一个外部工作台，包含一系列与FreeCAD内的Web服务进行通信的工具。 这是托管在\[<https://github.com/yorikvanhavre/WebTools%5D的外部工作台>
 
 
 </div>

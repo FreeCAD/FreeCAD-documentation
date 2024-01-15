@@ -53,7 +53,7 @@ If you use a [SI](https://en.wikipedia.org/wiki/International_System_of_Units)-d
 This pipeline dialog box has the following settings:
 
 -   **Mode**: How to draw the results. The possible modes are
-    -   **Outline**: The outline of the result mesh. In fact is displays no results but only the borders of the mesh.
+    -   **Outline**: The outline of the result mesh. In fact, it displays no results but only the borders of the mesh.
     -   **Nodes**: The result mesh nodes.
     -   **Surface**: This is the default and displays the surface of the result mesh.
     -   **Surface with Edges**: Like **Surface** but with the mesh outline edges and the surface mesh node connection lines.

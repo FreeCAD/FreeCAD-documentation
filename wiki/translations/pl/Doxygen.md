@@ -10,17 +10,19 @@ Doxygen jest popularnym narzędziem do generowania dokumentacji z adnotacji w ź
 
 ## Doxygen i FreeCAD 
 
-This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
+Niniejszy dokument zawiera krótkie wprowadzenie do Doxygen, w szczególności w jaki sposób jest on używany w FreeCAD do dokumentowania jego źródeł. Odwiedź stronę [Dokumentacja źródeł](Source_documentation/pl.md), aby uzyskać instrukcje dotyczące tworzenia dokumentacji FreeCAD, która jest również dostępna online na witrynie [FreeCAD API](https://www.freecadweb.org/api/).
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
 
 
-*General workflow to produce source code documentation with Doxygen.*
+*Ogólny przepływ pracy do tworzenia dokumentacji kodu źródłowego za pomocą Doxygen.*
 
-## Doxygen with C++ code 
 
-The [Getting started (Step 3)](http://www.doxygen.nl/manual/starting.html) section of the Doxygen manual mentions the basic ways of documenting the sources.
+
+## Doxygen z kodem C++ 
+
+Sekcja [Pierwsze kroki *(Krok 3)*](http://www.doxygen.nl/manual/starting.html) podręcznika Doxygen wspomina o podstawowych sposobach dokumentowania źródeł.
 
 For members, classes and namespaces there are basically two options:
 
@@ -451,9 +453,11 @@ The text inside a special documentation block is parsed before it is written to 
 -   Links are created when certain patterns are found in the text. See the section [Automatic link generation](http://www.doxygen.nl/manual/autolink.html) in the manual for more information.
 -   HTML tags that are in the documentation are interpreted and converted to LaTeX equivalents for the LaTeX output. See the section [HTML Commands](http://www.doxygen.nl/manual/htmlcmds.html) in the manual for an explanation of each supported HTML tag.
 
-## Doxygen with Python code 
 
-Doxygen works best for statically typed languages like C++. However, it can also create [documentation for Python files](http://www.doxygen.nl/manual/docblocks.html#pythonblocks).
+
+## Doxygen z kodem Python 
+
+Doxygen działa najlepiej dla statycznie typowanych języków, takich jak C++. Może jednak również tworzyć [dokumentację dla plików Python](http://www.doxygen.nl/manual/docblocks.html#pythonblocks).
 
 There are two ways to write documentation blocks for Python:
 

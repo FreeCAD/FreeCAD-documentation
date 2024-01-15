@@ -1,10 +1,13 @@
 # Installing on Windows/ru
 ## Стандартная установка 
 
+
+<div class="mw-translate-fuzzy">
+
 Самый простой способ установить последнюю стабильную версию FreeCAD - использовать программу установки:
 
 
-{{DownloadWindowsStable}}
+</div>
 
 Если вы хотите загрузить версию для разработчиков (которая может быть нестабильной), смотрите страницу [Еженедельных сборок](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
@@ -27,6 +30,8 @@ If installed for all users, the default installation path is:
 :   
     **C:\Program Files\FreeCAD X.YY**
     
+
+
 
 ## Тихая (автоматическая) установка 
 
@@ -70,6 +75,8 @@ choco upgrade freecad
 }}
 
 This will get the latest version available from the Chocolatey repository. If there are any issues with the Chocolatey package, you can contact maintainers on [this page](https://chocolatey.org/packages/freecad).
+
+
 
 ## Удаление
 

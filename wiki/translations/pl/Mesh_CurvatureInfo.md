@@ -9,16 +9,20 @@
 
 # Mesh CurvatureInfo/pl
 
+
+
 ## Opis
 
 Polecenie **Informacje o krzywiźnie** wyświetla krzywiznę absolutną [obiektu krzywizny](Mesh_VertexCurvature/pl.md) w wybranym punkcie.
+
+
 
 ## Użycie
 
 1.  Zauważ, że podczas wykonywania polecenia nie można zmieniać [Widoku 3D](3D_view/pl.md).
 2.  Upewnij się, że obiekty siatkowe, których krzywizny chcesz analizować, są niewidoczne.
 3.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Mesh_CurvatureInfo.svg" width=16px> [Informacje na temat krzywizny](Mesh_CurvatureInfo.md)
+    -   Naciśnij przycisk **<img src="images/Mesh_CurvatureInfo.svg" width=16px> '''Informacje na temat krzywizny'''
 **
     -   Wybierz z menu opcję **Siatki → Analizuj → <img src="images/Mesh_CurvatureInfo.svg" width=16px> Informacje o krzywiznach**.
 4.  Kursor zmieni wygląd na ikonę pipety: <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:20px;">.

@@ -1,5 +1,7 @@
 # <img alt="Логотип верстака электронных таблиц" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/ru
 
+
+
 ## Введение
 
 <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Верстак электронных таблиц](Spreadsheet_Workbench/ru.md) позволяет создать и редактировать электронные таблицы, использовать данные из электронной таблицы как параметр в модели, заполнять таблицу данными из модели, выполнять вычисления, и экспортировать данные в другие приложения текстовых таблиц, такие как LibreOffice или Microsoft Excel.
@@ -9,6 +11,8 @@
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Таблица с определенными ячейками, заполненными текстом и значениями.*
+
+
 
 ## Инструменты
 
@@ -60,23 +64,29 @@
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferences](Spreadsheet_Preferences.md): the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
 
+## Removing cells can be dangerous 
+
+Note that deleting or removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
 ## Insert and remove rows and columns 
 
 Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
 
-In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and columns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+## Edit cells 
 
-Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+The content of a cell can be edited by selecting the cell and entering a value in the **Content** inputbox at the top of the window. To edit a cell in-place, select it and press **F2**, or double-click it.
+
+## Delete cells 
+
+To delete one or more cells select them and press **Del**. This will delete their contents, their properties and their aliases. To only delete the content of a cell it should be edited instead.
 
 ## Cut and copy-paste cells 
 
-Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+Cut and copy-paste operations can be used on spreadsheets cells. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
 
-The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
+The cut and copy operations store the contents, properties and aliases of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly. Aliases are only pasted if they are unique.
 
-Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
 
-In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
 
 ### Свойства ячейки 
 
@@ -103,6 +113,8 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 
 </div>
+
+
 
 ## Выражения в ячейках 
 
@@ -135,6 +147,8 @@ In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to han
 
 Ссылки на объекты в модели описаны в разделе [Ссылки на данные САПР](#Ссылки_на_данные_САПР.md). Использование значений ячеек для определения параметров моделей описано в разделе [Данные таблицы в выражениях](#Данные_таблицы_в_выражениях.md). Насчёт дополнительной информации о выражениях и доступных функциях, смотрите [Выражения](Expressions/ru.md).
 
+
+
 ## Взаимодействие между электронными таблицами и моделью САПР 
 
 Данные в ячейках электронной таблицы могут использоваться в выражениях параметров модели САПР. Таким образом, электронная таблица может использоваться как источник значений параметров, используемых во всей модели, эффективно собирая значения в одном месте. Когда значения изменяются в электронной таблице, они распространяются по всей модели.
@@ -161,6 +175,8 @@ FreeCAD проверяет на циклические зависимости. �
 
 </div>
 
+
+
 ### Ссылки на данные САПР 
 
 Как указано выше, можно ссылаться на данные из модели САПР в выражениях электронной таблицы.
@@ -180,6 +196,8 @@ FreeCAD проверяет на циклические зависимости. �
 
 
 </div>
+
+
 
 ### Данные таблицы в выражениях 
 
@@ -237,6 +255,8 @@ There are three solutions to deal with this:
     -   The disadvantage is that the model won\'t automatically recompute after changes to the spreadsheet.
     -   In the scenario where you first open the \'spreadsheet\' file, change one or more values and then open the \'model\' file, there won\'t be any indication that the model needs to be recomputed. But if both files are open the [Std Refresh](Std_Refresh.md) icon will update correctly for the \'model\' file after changes to the \'spreadsheet\' file.
 
+
+
 ## Единицы измерения 
 
 The Spreadsheet has a notion of dimension (units) associated with cell values. A number entered without an associated unit has no dimension. The unit should be entered immediately following the number value, with no intervening space. If a number has an associated unit, that unit will be used in all calculations. For example, the multiplication of two lengths with the unit mm gives an area with the unit mm².
@@ -248,6 +268,8 @@ You can change the units displayed for a cell value using the [Cell properties d
 A dimensionless number cannot be changed to a number with a unit by the cell properties dialog. One can put in a unit string, and that string will be displayed; but the cell still contains a dimensionless number. In order to change a dimensionless value to a value with a dimension, the value itself must be re-entered with its associated unit.
 
 Occasionally it may be desirable to get rid of a dimension in an expression. This can be done by multiplying by 1 with a reciprocal unit.
+
+
 
 ## Импорт и экспорт 
 
@@ -268,6 +290,8 @@ Other functionality is not imported into the FreeCAD spreadsheet.
 ## Printing
 
 To handle the page setup necessary for printing, FreeCAD spreadsheets are printed by inserting them into a [TechDraw Spreadsheet View](TechDraw_SpreadsheetView.md).
+
+
 
 ## Текущие ограничения 
 
@@ -367,6 +391,8 @@ Similar steps apply to a [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.m
 
 
 </div>
+
+
 
 ## Основы составления скриптов 
 

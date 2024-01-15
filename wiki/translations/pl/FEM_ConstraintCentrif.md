@@ -1,8 +1,9 @@
 ---
  GuiCommand:
    Name: FEM ConstraintCentrif
-   MenuLocation: Model , Mechanical Constraints , Constraint centrif
-   Workbenches: FEM_Workbench
+|Name/pɬMES Obciążenie siłą odśrodkową
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie siłą odśrodkową
+   Workbenches: FEM_Workbench/pl
    Shortcut: 
    Version: 0.20
    SeeAlso: 
@@ -20,12 +21,12 @@ Definiuje obciążenie siłą odśrodkową bryły.
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [FEM ConstraintCentrif](FEM_ConstraintCentrif.md)** button.
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintCentrif.svg" width=16px> Constraint centrif** option from the menu.
-2.  Specify the rotation frequency in Hz.
-3.  Click on **Add** in **Geometry reference selector for a Solid** window and select a solid to which the constraint will be applied in the [3D view](3D_view.md).
-4.  Click on **Add** in **Geometry reference selector for a Edge** window and select an edge about which the rotation will occur in the [3D view](3D_view.md).
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintCentrif.svg" width=16px> [Obciążenie siłą odśrodkową](FEM_ConstraintCentrif/pl.md)**.
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintCentrif.svg" width=16px> Obciążenie siłą odśrodkową** z menu.
+2.  Podaj częstotliwość obrotów w Hz.
+3.  Wciśnij przycisk **Dodaj** w oknie **Wybór geometrii odniesienia dla Solid** i w [widoku 3D](3D_view.md) wybierz bryłę, do której obciążenie ma być przypisane.
+4.  Wciśnij przycisk **Dodaj** w oknie **Wybór geometrii odniesienia dla Edge** i w [widoku 3D](3D_view.md) wybierz krawędź, która ma stanowić oś obrotu.
 
 
 

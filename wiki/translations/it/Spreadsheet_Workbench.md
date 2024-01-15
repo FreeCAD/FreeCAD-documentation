@@ -1,5 +1,7 @@
 # <img alt="L\'icona dell\'ambiente Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/it
 
+
+
 ## Introduzione
 
 L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> consente di creare e modificare fogli di calcolo, utilizzare i dati del foglio di calcolo come parametri in un modello, riempire il foglio di calcolo con i dati ricavati da un modello, eseguire calcoli ed esportare i dati in altre applicazioni di fogli di calcolo come LibreOffice o Microsoft Excel.
@@ -9,6 +11,8 @@ L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Wor
 
 <img alt="" src=images/Spreadsheet_screenshot.jpg  style="width:600px;"> 
 *Un foglio di calcolo con alcune celle compilate con testo e quantità*
+
+
 
 ## Strumenti
 
@@ -44,27 +48,45 @@ L\'[AmbienteSpreadsheet](Spreadsheet_Workbench/it.md) <img alt="" src=images/Wor
 
 -    **Nero**e **Bianco** impostano i colori di primo piano e di sfondo delle celle selezionate.
 
+
+
 ## Preferenze
 
 -   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferenze](Spreadsheet_Preferences/it.md): le preferenze per l\'Ambiente Spreadsheet. {{Version/it|0.20}}
+
+
+
+## Rimuovere le celle può essere pericoloso 
+
+Tieni presente che la cancellazione o rimozione di celle con dati può danneggiare il foglio di calcolo e il modello se si basa sul foglio di calcolo. Non sei pre avvisato se ciò accade.
+
+
 
 ## Inserisci e rimuovi righe e colonne 
 
 È possibile inserire o rimuovere righe e colonne facendo clic con il pulsante destro del mouse sull\'intestazione di una riga o di una colonna e selezionando l\'opzione appropriata dal menu contestuale. È possibile selezionare prima più righe o colonne. Tenendo premuto il tasto **Ctrl** durante la selezione delle intestazioni, oppure tenendo premuto il pulsante sinistro del mouse e trascinando.
 
-In FreeCAD versione 0.19 e precedenti le righe vengono inserite sopra le righe selezionate e le colonne a sinistra delle colonne selezionate. In FreeCAD versione 0.20 puoi specificare il lato di inserimento.
 
-Tieni presente che la rimozione di righe o colonne con dati può danneggiare il foglio di calcolo e il tuo modello se si basa sul foglio di calcolo. Non sei avvisato se ciò accade.
+
+## Modifica delle celle 
+
+Il contenuto di una cella può essere modificato selezionando la cella e inserendo un valore nella casella di input **Content** nella parte superiore della finestra. Per modificare una cella sul posto, selezionarla e premere **F2** o fare doppio clic su di essa.
+
+
+
+## Eliminare le celle 
+
+Per eliminare una o più celle selezionarle e premere **Canc**. Ciò eliminerà il loro contenuto, le loro proprietà e i loro alias. Per eliminare solo il contenuto di una cella, è necessario modificarla.
+
+
 
 ## Taglia e copia-incolla le celle 
 
-Le operazioni di taglia e copia-incolla possono essere utilizzate sulle celle nei fogli di calcolo di FreeCAD. Puoi utilizzare le normali scorciatoie per queste operazioni: **Ctrl**+**X**, **Ctrl**+**C** e **Ctrl**+ **V** rispettivamente. Per selezionare più celle, tieni premuto il tasto **Ctrl** durante la selezione oppure tieni premuto il pulsante sinistro del mouse e trascina per selezionare un intervallo di celle rettangolari.
+Le operazioni di taglia e copia-incolla possono essere utilizzate sulle celle nei fogli di calcolo. Puoi utilizzare le normali scorciatoie per queste operazioni: **Ctrl**+**X**, **Ctrl**+**C** e **Ctrl**+ **V** rispettivamente. Per selezionare più celle, tieni premuto il tasto **Ctrl** durante la selezione oppure tieni premuto il pulsante sinistro del mouse e trascina per selezionare un intervallo di celle rettangolari.
 
-Le operazioni di taglio e copia memorizzano il contenuto e le proprietà delle celle negli Appunti. L\'operazione di incollaggio scrive i dati in modo tale che il contenuto della cella in alto a sinistra dei dati archiviati venga rilasciato nella cella attiva. L\'altro contenuto archiviato viene posizionato rispetto a quella cella. Le formule vengono aggiornate di conseguenza.
+Le operazioni di taglio e copia memorizzano il contenuto, le proprietà e gli alias delle celle negli Appunti. L\'operazione di incollaggio scrive i dati in modo tale che il contenuto della cella in alto a sinistra dei dati archiviati venga rilasciato nella cella attiva. L\'altro contenuto memorizzato viene posizionato rispetto a quella cella. Le formule vengono aggiornate di conseguenza. Gli alias vengono incollati solo se sono univoci
 
-Tieni presente che la rimozione di celle con dati può danneggiare il foglio di calcolo e il modello se si basa sul foglio di calcolo. Non sei avvisato se ciò accade.
 
-In FreeCAD versione 0.19 e precedenti c\'è un bug che può causare il blocco di FreeCAD se viene incollato un intervallo di celle non rettangolare. Si consiglia di salvare il lavoro prima di eseguire qualsiasi operazione di incollaggio.
 
 ### Proprietà delle celle 
 
@@ -80,6 +102,8 @@ Come indicato dalle schede, è possibile modificare le seguenti proprietà:
 -   Units: Mostra le unità di misura per questa cella. Per favore leggi la sezione [ Unità di misura](#Unità_di_misura.md) sottostante.
 -   Alias: Definisce un nome [alias](Spreadsheet_SetAlias/it.md) per questa cella. Questo alias può essere utilizzato nelle formule della cella e in generale anche nelle [espressioni](Expressions/it.md); per maggiori informazioni guarda la sezione [Espressioni nelle celle](#Espressioni_nelle_celle.md) .
 
+
+
 ## Espressioni nelle celle 
 
 Una cella di un foglio di calcolo può contenere un numero, un testo o un\'espressione. Le espressioni devono iniziare con un segno di uguale \'=\'.
@@ -92,6 +116,8 @@ Le espressioni inserite nelle celle sono trattate da FreeCAD come codice di prog
 -   Il numero di decimali visualizzati può differire dalle tue [impostazioni](Preferences_Editor/it#Unità.md).
 
 I riferimenti agli oggetti nel modello sono spiegati in seguito in [Riferimento ai dati CAD](#Riferimento_ai_dati_CAD.md). L\'utilizzo dei valori delle celle del foglio di calcolo per definire le proprietà del modello è spiegato in seguito in [Dati del foglio di calcolo nelle espressioni](#Dati_dei_fogli_di_calcolo_nelle_espressioni.md). Per ulteriori informazioni sulle espressioni e sulle funzioni dipsonibili, consultare la pagina [Espressioni](Expressions/it.md).
+
+
 
 ## Interazione tra fogli di calcolo e modello CAD 
 
@@ -106,6 +132,8 @@ FreeCAD assegna automaticamente un nome univoco ad un foglio di calcolo quando q
 L\'etichetta di un foglio di calcolo viene automaticamente impostata sul nome del foglio di calcolo al momento della creazione. A differenza del nome, l\'etichetta può essere modificata, ad esempio nel pannello delle proprietà o utilizzando l\'azione del menu contestuale Rinomina. Per impostazione predefinita, FreeCAD non accetta etichette duplicate, ma esiste una [preferenza](Preferences_Editor/it#Documento.md) per sovrascriverlo. I fogli di calcolo con etichette duplicate nello stesso documento non possono essere referenziati con la loro etichetta.
 
 FreeCAD verifica le dipendenze cicliche. Vedere [Limitazioni attuali](Spreadsheet_Workbench/it#Limitazioni_attuali.md).
+
+
 
 ### Riferimento ai dati CAD 
 
@@ -136,6 +164,8 @@ La tabella seguente mostra alcuni esempi assumendo che il modello abbia una figu
 |                                           | {{Incode|<nowiki>=MyCube.Shape.CenterOfMass.x</nowiki>}} |                                        |
 |                                           |                                                       |                                        |
 ++++
+
+
 
 ### Dati dei fogli di calcolo nelle espressioni 
 
@@ -173,6 +203,8 @@ Sebbene sia possibile utilizzare il numero di riga e di colonna in un\'espressio
 
 </div>
 
+
+
 ### Modelli complessi e ricalcoli 
 
 La modifica di un foglio di calcolo attiverà un ricalcolo del modello 3D, anche se le modifiche non influiscono sul modello. Per un modello complesso un ricalcolo può richiedere molto tempo e dover attendere dopo ogni singola modifica è ovviamente piuttosto fastidioso.
@@ -193,6 +225,8 @@ Ci sono tre soluzioni per affrontare questo problema:
     -   Lo svantaggio è che il modello non verrà ricalcolato automaticamente dopo le modifiche al foglio di calcolo.
     -   Nello scenario in cui apri prima il file \"foglio di calcolo\", modifichi uno o più valori e quindi apri il file \"modello\", non ci sarà alcuna indicazione che il modello debba essere ricalcolato. Tuttavia, se entrambi i file sono aperti, l\'icona [ Aggiorna](Std_Refresh/it.md) aggiornerà correttamente il file \"modello\" dopo le modifiche al file \"foglio di calcolo\".
 
+
+
 ## Unità di misura 
 
 Il foglio di calcolo ha il concetto dimensione (unità di misura) associata ai valori delle celle. Un numero inserito senza un\'unità associata non ha dimensione. L\'unità di misura deve essere immessa immediatamente dopo il valore numerico, senza spazio intermedio. Se un numero ha un\'unità di misura associata, quell\'unità sarà utilizzata in tutti i calcoli. Ad esempio, la moltiplicazione di due lunghezze con l\'unità mm fornisce un\'area con l\'unità in mm².
@@ -205,11 +239,17 @@ Un numero adimensionale non può essere modificato in un numero con un\'unità t
 
 Occasionalmente può essere desiderabile sbarazzarsi di una dimensione in un\'espressione. Questo può essere fatto moltiplicando per 1 con un\'unità reciproca.
 
+
+
 ## Importazione ed esportazione 
+
+
 
 ### formato CSV 
 
 I fogli di calcolo di FreeCAD possono essere importati ed esportati nel formato [​​CSV](https://en.wikipedia.org/wiki/Comma-separated_values) che può anche essere letto e scritto dalla maggior parte delle altre applicazioni di fogli di calcolo come Microsoft Excel o LibreOffice Calc. Vedere [Importazione foglio di calcolo](Spreadsheet_Import/it.md) e [Esportazione foglio di lavoro](Spreadsheet_Export/it.md) per ulteriori informazioni.
+
+
 
 ### formato XLSX 
 
@@ -221,13 +261,19 @@ I fogli di calcolo in formato Excel XLSX possono essere importati con il comando
 
 Le altre funzionalità non vengono importate nel foglio di calcolo di FreeCAD.
 
+
+
 ## Stampa
 
 Per gestire l\'impostazione della pagina necessaria per la stampa, i fogli di calcolo di FreeCAD vengono stampati inserendoli in una [ Vista foglio di calcolo di TechDraw](TechDraw_SpreadsheetView/it.md).
 
+
+
 ## Limitazioni attuali 
 
 FreeCAD verifica le dipendenze cicliche quando ricalcola. Per come è concepita, tale verifica si arresta al livello dell\'oggetto foglio di calcolo. Di conseguenza, non si dovrebbe avere un foglio di calcolo che contiene contemporaneamente le celle i cui valori sono utilizzati per specificare parametri nel modello e sia celle i cui valori utilizzano l\'output del modello. Ad esempio, non è possibile avere celle che specificano la lunghezza, la larghezza e l\'altezza di un oggetto e un\'altra cella che fa riferimento al volume totale della forma risultante. Questa limitazione può essere superata creando due fogli di calcolo: uno utilizzato come origine dati per i parametri di input per il modello e l\'altro usato per il risultato dei calcoli basati sui dati geometrici.
+
+
 
 ## Collegare celle 
 
@@ -235,6 +281,8 @@ FreeCAD verifica le dipendenze cicliche quando ricalcola. Per come è concepita,
 {{Version/it|0.20}}
 
 È possibile collegare il contenuto delle celle ad altre celle del foglio di calcolo. Questo può essere utile quando si hanno a che fare con tabelle di grandi dimensioni o per ottenere il contenuto della cella da un altro foglio di calcolo.
+
+
 
 ### Creare collegamenti 
 
@@ -252,6 +300,8 @@ Per collegare, ad esempio, l\'intervallo di celle A3-C4 all\'intervallo di celle
 ![](images/Spreadsheet_binding-result.png ) 
 *Il foglio di calcolo ora potrebbe assomigliare a questo*
 
+
+
 ### Modificare il collegamento 
 
 1.  Fare clic con il pulsante destro del mouse su una cella associata (non è necessario evidenziare l\'intero intervallo delimitato) e selezionare **Collega...** dal menu contestuale.
@@ -259,11 +309,15 @@ Per collegare, ad esempio, l\'intervallo di celle A3-C4 all\'intervallo di celle
 3.  Modifica una o più opzioni. Si noti che le **Celle collegate**, nell\'intervallo di celle associate, non possono essere modificate.
 4.  Premi **OK**.
 
+
+
 ### Rimuovi collegamento 
 
 1.  Fare clic con il pulsante destro del mouse su una cella associata (non è necessario evidenziare l\'intero intervallo delimitato) e selezionare **Collega...** dal menu contestuale.
 2.  Si apre la finestra di dialogo **Associa celle foglio di calcolo**.
 3.  Premi **Scollega**.
+
+
 
 ### Note
 
@@ -273,6 +327,8 @@ Per collegare, ad esempio, l\'intervallo di celle A3-C4 all\'intervallo di celle
 -   L\'associazione delle celle ha un controllo dell\'intervallo e ti avverte di intervalli non corrispondenti. Ad esempio, legare 1x3 celle a 3x2 celle non può funzionare perché non si sa quali 3 celle delle 6 celle originali dovrebbero essere utilizzate.
 -   Non è possibile modificare l\'intervallo di celle di un collegamento esistente. Devi prima separare le celle e quindi creare un nuovo collegamento.
 -   Non è ancora possibile modificare il colore della cornice che evidenzia il collegamento.
+
+
 
 ## Tabelle di configurazione 
 
@@ -317,6 +373,8 @@ Passaggi simili si applicano a un [PartDesign Riferimento a Forma di Part Design
 
 
 </div>
+
+
 
 ## Script di base 
 

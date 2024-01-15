@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft AnnotationStyleEditor
-   Name/de: Entwurf AnmerkungsStilEditor
-   MenuLocation: Anmerkung , Anmerkungsstile...
+   Name/de: Draft BeschriftungsstilEditor
+   MenuLocation: Anmerkung , Beschriftungsstile...
    Workbenches: Draft_Workbench/de
    SeeAlso: Draft_Text/de, Draft_Label/de, Draft_Dimension/de
    Version: 0.19
@@ -14,44 +14,34 @@
 
 ## Beschreibung
 
-Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungsstileditor](Draft_AnnotationStyleEditor/de.md)**-Werkzeug ermöglicht es dir, Stile zu definieren, die die visuellen Eigenschaften von anmerkungsähnlichen Objekten beeinflussen, wie z.B. jene, die durch [Text](Draft_Text/de.md)-, [Abmessung](Draft_Dimension/de.md)- und [Beschriftung](Draft_Label/de.md)-Befehle erstellten.
-
-
-{{Version/de|0.21}}
-
-: Die Eigenschaften Textfarbe und Textabstand wurden hinzugefügt.
+Das Werkzeug **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [BeschriftungsstilEditor](Draft_AnnotationStyleEditor/de.md)**ermöglicht Stile festzulegen, die die visuellen Eigenschaften von Beschriftungsobjekten beeinflussen, die durch die Befehle [Draft Text](Draft_Text/de.md), [Draft Maß](Draft_Dimension/de.md) und [Draft Hinweis](Draft_Label/de.md) erstellt werden.
 
 ![](images/Draft_AnnotationStyleEditor_Dialog.png ) 
-*Die AnmerkungsStileditor-Dialog-Box.*
+*Das Dialogfenster Anmerkungsstil-Editor*
 
 
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Draft Anmerkungsstil-Editor](Draft_AnnotationStyleEditor/de.md)**-Schaltfläche.
-    -   Wähle die **Annotation → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Anmerkungs Stile...**-Option aus dem Menü.
-2.  Die **Anmerkungsstil-Editor**-Dialog-Box öffnet sich.
-3.  Wähle einen Stil aus der **Stil-Name** Aufklappliste oder wähle {{Value|Neu hinzufügen...}}, um einen neuen Stil zu definieren.
-4.  Passe wahlweise die Eigenschaften des Stils an.
-5.  Drücke wahlweise die **[<img src=images/Accessories-text-editor.svg style="width:16px"> Umbenennen**-Schaltläche, um den Stil umzubenennen.
-6.  Drücke wahlweise die **[<img src=images/Edit_Cancel.svg style="width:16px"> Löschen**-Schaltfläche, um den Stil zu löschen.
-7.  Drücke wahlweise die **[<img src=images/Std_Import.svg style="width:16px">**-Schaltfläche, um alle Stile aus einer **.json**-Datei zu importieren. Dies wird bestehende Stile mit dem gleichen Namen überschreiben.
-8.  Drücke wahlweise die **[<img src=images/Std_Export.svg style="width:16px">**-Schaltfläche, um alle Stile in eine **.json**-Datei zu exportieren.
-9.  Drücke die **OK**-Schaltfläche, um die Dialog-Box zu schließen und den Befehl zu beenden.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_AnnotationStyleEditor.svg" width=16px> [Beschriftungsstile...](Draft_AnnotationStyleEditor/de.md)** drücken.
+    -   Den Menüeintrag **Anmerkung → <img src="images/Draft_AnnotationStyleEditor.svg" width=16px> Beschriftungsstile...** auswählen.
+2.  Das Dialogfenster **Anmerkungsstil-Editor** wird geöffnet.
+3.  Einen Stil aus der Aufklappliste **Stil-Name** auswählen oder {{Value|Neu hinzufügen...}} auswählen, um einen neuen Stil zu definieren.
+4.  Wahlweise die Eigenschaften des Stils anpassen.
+5.  Wahlweise die Schaltläche **[<img src=images/Accessories-text-editor.svg style="width:16px"> Umbenennen** drücken, um den Stil umzubenennen.
+6.  Wahlweise die Schaltläche **[<img src=images/Edit_Cancel.svg style="width:16px"> Löschen** drücken, um den Stil zu löschen.
+7.  Wahlweise die Schaltläche **[<img src=images/Std_Import.svg style="width:16px">** drücken, um alle Stile aus einer **.json**-Datei zu importieren. Dies wird bestehende Stile mit dem gleichen Namen überschreiben.
+8.  Wahlweise die Schaltläche **[<img src=images/Std_Export.svg style="width:16px">** drücken, um alle Stile in eine **.json**-Datei zu exportieren.
+9.  Die Schaltfläche **OK** drücken, um das Dialogfenster zu schließen und den Befehl zu beenden.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-{{Version/de|0.21}}
-
-: Die Information in diesem Abschnitt wurde aktualisiert und entspricht FreeCAD Version 0.21.
-
-Die Anmerkungsstile werden als serialisierte Wörterbücher im `Meta` Attribut des Dokuments gespeichert. Dieses Attribut wird vom Anmerkungsstileditor überprüft, wenn er geöffnet wird.
+Die Beschriftungsstile werden als geordnete Wörterbücher im `Meta`-Attribut des Dokuments gespeichert. Dieses Attribut wird vom Beschriftungsstil-Editor gelesen, wenn er geöffnet wird.
 
 
 ```python
@@ -59,7 +49,7 @@ Die Anmerkungsstile werden als serialisierte Wörterbücher im `Meta` Attribut d
 {"ArrowSize": 2.0, "ArrowType": 0, "Decimals": 2, "DimOvershoot": 4.0, "ExtLines": 0.0, "ExtOvershoot": 4.0, "FontName": "DejaVu Sans", "FontSize": 10.0, "LineColor": 255, "LineSpacing": 1.0, "LineWidth": 2, "ScaleMultiplier": 1.0, "ShowLine": true, "ShowUnit": false, "TextColor": 4278190335, "TextSpacing": 3.0, "UnitOverride": ""}
 ```
 
-Jeder Stil, der im Editor angezeigt wird, wird intern mit dem Stilnamen mit dem Präfix `Draft_Style_` gespeichert; dies verhindert Namenskonflikte mit anderen Schlüsseln, die in `Meta` gespeichert sein können, die beliebige Informationen enthalten können.
+Jeder Stil, der im Editor angezeigt wird, wird intern mit dem Stilnamen und vorangestelltem `Draft_Style_` gespeichert; dies verhindert Namenskonflikte mit anderen Schlüsseln, die in `Meta` gespeichert sein können, die beliebige Informationen enthalten können.
 
 Du könntest jeden neuen Stil festlegen, durch hinzufügen der notwendigen Informationen zu einem Schlüssel, der mit `Draft_Style_` beginnt. Der entsprechende Wert dieses Schlüssels muss ein serialisiertes Wörterbuch das mit `json` verwendet.
 
@@ -75,7 +65,7 @@ App.ActiveDocument.Meta = meta
 
 Die nicht eingegebenen Werte werden automatisch ausgefüllt, wenn dieser Stil im Stileditor ausgewählt ist und die Schaltfläche **OK** gedrückt wird.
 
-Auf ähnliche Weise kann jedes serialisierte Wörterbuch für die Ausgabe entpackt werden.
+Auf ähnliche Weise kann jedes serialisierte Wörterbuch für die Bearbeitung entpackt werden.
 
 
 ```python
@@ -97,7 +87,7 @@ props = {
 }
 ```
 
-Fließkommazahlen (müssen mit einer Nachkommastelle angegeben werden):
+Fließkommazahlen (müssen mit einem Punkt als Dezimaltrennzeichen angegeben werden):
 
 
 ```python
@@ -126,7 +116,7 @@ props = {
 }
 ```
 
-Die {{Incode|TextColor}} und {{Incode|LineColor}} entsprechen einer 32-Bit Ganzzahl, aus der die einzelnen RGBA Werte entnommen werden können. Der {{Incode|ArrowType}} ist ein Zähler.
+Die Werte für {{Incode|TextColor}} und {{Incode|LineColor}} entsprechen einer 32-Bit-Ganzzahl, aus der die einzelnen RGBA-Werte entnommen werden können. {{Incode|ArrowType}} ist der Index einer Aufzählung.
 
 Boolesche Werte:
 

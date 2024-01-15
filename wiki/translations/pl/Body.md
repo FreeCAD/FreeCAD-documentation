@@ -5,6 +5,8 @@ W programie FreeCAD słowo **Zawartość** jest zwykle używane w odniesieniu do
 
 Zobacz stronę [Zawartość](PartDesign_Body/pl.md) środowiska Projekt Części, aby uzyskać więcej informacji na temat tego typu obiektu.
 
+
+
 ## Użycie
 
 1.  Przełącz się na środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md)
@@ -14,6 +16,8 @@ Zobacz stronę [Zawartość](PartDesign_Body/pl.md) środowiska Projekt Części
 5.  Dodaj więcej szkiców i wyciągnięć oraz użyj innych narzędzi środowiska [Projekt Części](PartDesign_Workbench/pl.md), aby zmodyfikować i przekształcić początkową bryłę.
 
 Alternatywnie, zamiast używać [szkicu](Sketch/pl.md), możesz dodać [cechę](PartDesign_Feature/pl.md) jako element pierwotny, na przykład **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md)**. Do stworzenia ostatecznej objętości można użyć dowolnej liczby cech addytywnych i subtraktywnych.
+
+
 
 ## Uwagi
 

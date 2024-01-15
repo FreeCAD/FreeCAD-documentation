@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-利用[创建图像平面工具可导入](Image_CreateImagePlane.md)[位图图像](bitmap.md)，并将它置于XY、YZ或XZ平面之中。
+利用[创建图像平面](Image_CreateImagePlane.md)工具可导入[位图](bitmap.md)图像，并将它置于XY、YZ或XZ平面之中。
 
 
 </div>
@@ -41,7 +41,7 @@
 
 <div class="mw-translate-fuzzy">
 
-在导入图像时，为了令图像稍处于工作平面之后，您应当为之添加`-0.1 mm`的偏移量；这将令采用[底图或](Draft_Workbench.md)[草图工具对图像进行的描边工作](Sketcher_Workbench.md)（在其上侧进行描绘）进行得更为顺利。
+在导入图像时，为了令图像稍处于工作平面之后，您应当为之添加`-0.1 mm`的偏移量；这将令采用[底图](Draft_Workbench.md)或[草图](Sketcher_Workbench.md)工具对图像进行的描边工作（在其上侧进行描绘）进行得更为顺利。
 
 
 </div>
@@ -49,7 +49,7 @@
 
 <div class="mw-translate-fuzzy">
 
-如果在导入图片伊始没有添加偏移量，其位置仍可通过[属性编辑器进行调整](property_editor.md)。
+如果在导入图片伊始没有添加偏移量，其位置仍可通过[属性编辑器](property_editor.md)进行调整。
 
 
 </div>
@@ -103,4 +103,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/zh-cn
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image CreateImagePlane/zh-cn

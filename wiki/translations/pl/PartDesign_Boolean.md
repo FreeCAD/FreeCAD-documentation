@@ -32,7 +32,7 @@
 5.  Wybierz typ operacji logicznej w menu rozwijanym *(Scalenie, Wytnij lub Część wspólna)*.
 6.  Kliknij przycisk **OK**.
 
-Alternatywnie można wybrać jedną lub więcej brył przed użyciem przycisku Operacji logicznej, zostaną one dodane automatycznie.
+Alternatywnie, obiekty można wybrać przed naciśnięciem przycisku operacji logicznej. Zostaną one dodane automatycznie. Podczas wstępnego wybierania nie jesteś ograniczony do Zawartości. Obiekty [Łącznik kształtu](PartDesign_ShapeBinder/pl.md), [Łącznik kształtu podrzędnego](PartDesign_SubShapeBinder/pl.md), a nawet bryły utworzone za pomocą innych środowisk pracy mogą być również wybierane.
 
 
 

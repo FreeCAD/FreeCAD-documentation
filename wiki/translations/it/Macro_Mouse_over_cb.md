@@ -1,46 +1,34 @@
 # Macro Mouse over cb/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro Mouse over cb
 |Icon=Macro_Mouse_over_cb.png
 |Translate=Macro Mouse over cb
-|Description= Questa macro mostra tutti gli elementi di sotto il mouse.
+|Description= Questa macro mostra nella finestra report tutti gli elementi sotto il mouse.
 |Author=Chris_G
 |Version=00.00
 |Date=2016-12-13
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/5/55/Macro_Mouse_over_cb.png Toolbar icon]
-|SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md) [<img src=images/Macro_FC_element_selector.png style="width:24px">
+|Download=[https://wiki.freecad.org/images/5/55/Macro_Mouse_over_cb.png ToolBar Icon]
+|SeeAlso=[Macro FC element selector](Macro_FC_element_selector/it.md)
 }}
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questa macro mostra tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi)
+Questa macro mostra nella finestra report tutti gli elementi sotto il mouse (verranno visualizzati anche tutti gli elementi coperti da altri elementi).
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-## Utilizzazione
-
-
-</div>
+## Utilizzo
 
 Lancia la macro, la macro sta residente in memoria
 
+
+
 ## Codice
 
-Toolbar icon ![](images/Macro_Mouse_over_cb.png )
+Icona della barra strumenti ![](images/Macro_Mouse_over_cb.png )
 
 **Macro_Mouse_over_cb.FCMacro**
 
@@ -71,6 +59,8 @@ mouse_over = view.addEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), 
 #view.removeEventCallbackPivy( coin.SoLocation2Event.getClassTypeId(), mouse_over_cb)
 
 }}
+
+
 
 ## Elenco
 

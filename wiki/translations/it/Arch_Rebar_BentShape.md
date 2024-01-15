@@ -1,17 +1,14 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_BentShape
+   Name: Arch Rebar BentShape
    Name/it: Armatura sagomata
-   MenuLocation: Arch , Strumenti armatura , Armatura sagomata o 3D/BIM , Reinforcement , Bent-Shape Rebar
-   Workbenches: Reinforcement Workbench/it, Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_Stirrup/it, Arch Rebar/it
+   MenuLocation: Arch , Strumenti armatura , Armatura sagomata<br>3D/BIM , Reinforcement tools , Armatura sagomata
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_Stirrup/it
 ---
 
 # Arch Rebar BentShape/it
-
-
-</div>
 
 
 
@@ -21,13 +18,7 @@ Lo strumento [Armatura sagomata](Arch_Rebar_BentShape/it.md) consente all\'utent
 
 Lo strumento **Armatura sagomata** è anche integrato in [BIM](BIM_Workbench/it.md).
 
-
-<div class="mw-translate-fuzzy">
-
 Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_Workbench/it.md), che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
 
 <img alt="" src=images/Arch_Rebar_BentShape_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo piegate all'interno di una [Struttura](Arch_Structure/it.md)*
@@ -36,38 +27,28 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
 
 2.  Quindi selezionare **<img src="images/Arch_Rebar_BentShape.svg" width=16px> [Armatura sagomata](Arch_Rebar_BentShape/it.md)** dagli strumenti dell\'armatura.
 
-3.  Sul lato sinistro dello schermo appare un [pannello delle azioni](task_panel/it.md) come quello sottostante.
+3.  Sul lato sinistro dello schermo appare un [pannello](task_panel/it.md) come quello sottostante.
 
 4.  Selezionare l\'orientamento desiderato.
 
-5.  Fornire i dati per \'Left Cover\', Right Cover, Top Cover, \'Bottom Cover\', \'Front Cover\', \'Bent Angle\', \'Bent Factor\', \'Rounding\' e \'Diameter\' dell\'armatura.
+5.  Fornire i dati per \'Copriferro sinistro\', \'Copriferro destro\', \'Copriferro superiore\', \'Copriferro inferiore\', \'Copriferro anteriore\', \'Angolo di piegatura\', \'Bent Factor\', \'Arrotondamento\' e \'Diametro\' dell\'armatura.
 
-6.  Selezionare la modalità di distribuzione per \'Amount\' (la quantità) o per \'Spacing\' (la spaziatura).
-    -   Se è selezionata la spaziatura, l\'utente può anche optare per una [spaziatura personalizzata](Custom_Spacing/it.md).
+6.  Selezionare la modalità di distribuzione \'Quantità\' o \'Passo\'.
+    -   Se è selezionato \'Passo\', l\'utente può anche optare per un [Passo personalizzato](Custom_Spacing/it.md).
 
 7.  
-    **Pick Selected Face**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
+    **Usa lato selezionato**serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
 
-8.  Cliccare **OK** o **Apply** per generare l\'armatura.
+8.  Cliccare **OK** o **Applica** per generare l\'armatura.
 
-9.  Cliccare **Cancel** per uscire dal pannello delle azioni.
+9.  Cliccare **Annulla** per uscire dal pannello.
 
-
-</div>
-
-
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
-
-
-
-*Pannello Azioni per lo strumento Armatura sagomata di Arch*
+<img alt="" src=images/BentShapeDialog.png  style="width:250px;"> 
+*Pannello per lo strumento Armatura sagomata di Arch*
 
 
 
@@ -93,11 +74,6 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 -    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
 
-
-
-
-<div class="mw-translate-fuzzy">
-
 ## Scripting
 
 
@@ -105,23 +81,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo [Reinforcement](Reinforcement_
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura sagomata può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Armatura sagomata può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Rebar = makeBentShapeRebar(f_cover, b_cover, l_cover, r_cover,
                            diameter, t_cover, bentLength, bentAngle, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom",
@@ -195,15 +155,6 @@ BentShapeRebar.editBentShapeRebar(Rebar, 50, 20, 20, 20,
 BentShapeRebar.editBentShapeRebar(Rebar2, 50, 35, 20, 20,
                                   12, 35, 100, 155, 2, True, 6, "Top")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

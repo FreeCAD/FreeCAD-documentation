@@ -10,6 +10,8 @@ Istnieje wiele rodzajów cech, które mogą dodawać lub usuwać objętość z b
 
 Aby dowiedzieć się więcej o możliwości tworzenia obiektów bryłowych za pomocą środowiska [Projekt części](PartDesign_Workbench/pl.md) zobacz stronę [edycja cech](Feature_editing/pl.md).
 
+
+
 ## Użycie
 
 Prawie wszystkie narzędzia środowiska pracy [Projekt części](PartDesign_Workbench/pl.md) są przeznaczone do dodawania cech do [zawartości projektu części](PartDesign_Body/pl.md). Narzędzia te mogą być dostępne z menu i przycisków paska narzędzi, gdy obiekt lub element podrzędny *(wierzchołek, krawędź, ściana)* jest zaznaczony.
@@ -35,6 +37,8 @@ Cechy mogą być umieszczone w różnych kategoriach:
     -   [szyk kołowy](PartDesign_PolarPattern/pl.md)
     -   [skalowanie](PartDesign_Scaled/pl.md)
 
+
+
 ## Dziedziczenie
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
@@ -42,6 +46,8 @@ Cechy mogą być umieszczone w różnych kategoriach:
 
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami programu. Obiekty `PartDesign::Feature* są używane do budowania parametrycznych brył 3D, a więc pochodzą z podstawowego obiektu {{incode|Part::Feature`..}}
+
+
 
 ## Tworzenie skryptów 
 

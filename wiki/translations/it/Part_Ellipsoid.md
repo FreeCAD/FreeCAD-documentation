@@ -1,89 +1,87 @@
-# Part Ellipsoid/it
 ---
- GuiCommand:   Name: Part Ellipsoid   Name/it: Ellissoide   MenuLocation: Parte , Part_CreatePrimitives/it   Crea primitive , Ellissoide,  OpenSCAD_Workbench/it---
+ GuiCommand:
+   Name: Part Ellipsoid
+   Name/it: Part Ellissoide
+   MenuLocation: Parte , Part_Primitives/it , Ellissoide
+   Workbenches: Part_Workbench/it,  OpenSCAD_Workbench/it
+   SeeAlso: Part_Primitives/it
+---
+
+# Part Ellipsoid/it
 
 
-</div>
 
 ## Descrizione
 
+Un <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> **Part Ellissoide** è un solido parametrico che può essere creato con il comando <img alt="" src=images/Part_Primitives.svg  style="width:24px;"> [Part Primitive](Part_Primitives/it.md) . Nel sistema di coordinate definito dalla sua proprietà **Placement**, gli assi dell\'ellissoide sono allineati con gli assi X, Y e Z, e quindi il suo centro è posizionato all\'origine.
 
-<div class="mw-translate-fuzzy">
-
-Il comando <img alt="" src=images/Part_Ellipsoid.svg  style="width:24px;"> [Ellissoide](Part_Ellipsoid/it.md) command crea un ellissoide solido parametrico.
-
-
-</div>
-
-A Part Ellipsoid can be truncated at the top and/or bottom by changing its **Angle1** and/or **Angle2** properties. It can be turned into a segment of an ellipsoid by changing its **Angle3** property.
+Un Part Ellissoide può essere troncato nella parte superiore e/o inferiore modificando le sue proprietà **Angle1** e/o **Angle2**. Può essere trasformato in un segmento di ellissoide modificando la sua proprietà **Angle3**.
 
 <img alt="" src=images/Part_Ellipsoid_Example.png  style="width:400px;">
 
 
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-
-</div>
-
-See [Part Primitives](Part_Primitives#Usage.md).
-
-## Example
-
-![Part Ellipsoid from the scripting example](images/Part_Ellipsoid_Scripting_Example.png )
-
-A Part Ellipsoid object created with the [scripting example](#Scripting.md) below is shown here.
+Vedere [Part Primitive](Part_Primitives/it#Utilizzo.md).
 
 
-<div class="mw-translate-fuzzy">
+
+## Esempio
+
+![Part Ellissoide dall\'esempio di scripting](images/Part_Ellipsoid_Scripting_Example.png )
+
+Qui viene mostrato un oggetto Part Ellissoide creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
+
+
 
 ## Proprietà
 
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-</div>
+Un oggetto Part Ellissoide deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
-See also: [Property editor](Property_editor.md).
 
-A Part Ellipsoid object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Ellipsoid}}
 
--    **Radius1|Length**: The radius of the ellipsoid in its Z direction. The default is {{Value|2mm}}.
+-    **Radius1|Length**: il raggio dell\'ellissoide nella sua direzione Z. Il valore predefinito è {{Value|2mm}}.
 
--    **Radius2|Length**: The radius of the ellipsoid in its X direction. The default is {{Value|4mm}}.
+-    **Radius2|Length**: il raggio dell\'ellissoide nella sua direzione X. Il valore predefinito è {{Value|4mm}}.
 
--    **Radius3|Length**: The radius of the ellipsoid in its Y direction. The default is {{Value|4mm}}.
+-    **Radius3|Length**: il raggio dell\'ellissoide nella sua direzione Y. Il valore predefinito è {{Value|4mm}}.
 
--    **Angle1|Angle**: The start angle of the elliptical sides of the ellipsoid. Valid range: {{Value|-90° &lt;&#61; value &lt; 90°}}. Must be smaller than **Angle2**. The default is {{Value|-90°}}.
+-    **Angle1|Angle**: l\'angolo iniziale dei lati ellittici dell\'ellissoide. Intervallo valido: {{Value|-90° &lt;&#61; valore &lt; 90°}}. Deve essere inferiore a **Angle2**. Il valore predefinito è {{Value|-90°}}.
 
--    **Angle2|Angle**: The end angle of the elliptical sides of the ellipsoid. Valid range: {{Value|-90° &lt; value &lt;&#61; 90°}}. Must be larger than **Angle1**. The default is {{Value|90°}}. If the total angle of the elliptical sides is smaller than {{Value|180°}} the ellipsoid will be truncated and have a flat face at the top and/or bottom.
+-    **Angle2|Angle**: l\'angolo finale dei lati ellittici dell\'ellissoide. Intervallo valido: {{Value|-90° &lt; valore &lt;&#61; 90°}}. Deve essere maggiore di **Angle1**. Il valore predefinito è {{Value|90°}}. Se l\'angolo totale dei lati ellittici è inferiore a {{Value|180°}} l\'ellissoide verrà troncato e avrà una faccia piatta nella parte superiore e/o inferiore.
 
--    **Angle3|Angle**: The total angle of the ellipsoid in its XY plane. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of an ellipsoid.
+-    **Angle3|Angle**: l\'angolo totale dell\'ellissoide nel suo piano XY. Intervallo valido: {{Value|0° &lt; valore &lt;&#61; 360°}}. Il valore predefinito è {{Value|360°}}. Se è inferiore a {{Value|360°}} il solido risultante sarà un segmento di un ellissoide.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Ellipsoid can be created with the {{Incode|addObject()}} method of the document:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+È possibile creare un Part Ellissoide con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 ellipsoid = FreeCAD.ActiveDocument.addObject("Part::Ellipsoid", "myEllipsoid")
 ```
 
--   Where {{Incode|"myEllipsoid"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"myEllipsoid"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

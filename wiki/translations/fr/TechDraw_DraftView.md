@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw DraftView
    Name/fr: TechDraw Vue d'un objet Draft
-   MenuLocation: TechDraw , Insérer un objet de l'atelier Draft
+   MenuLocation: TechDraw , Vues des autres ateliers , Insérer un objet de l'atelier Draft
    Workbenches: TechDraw_Workbench/fr, Draft_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_ArchView/fr
@@ -10,12 +10,9 @@
 
 # TechDraw DraftView/fr
 
-
-</div>
-
 ## Description
 
-L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
+L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [TechDraw Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir [Remarques](#Remarques.md).
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*
@@ -24,17 +21,15 @@ L\'outil **TechDraw Vue d\'un objet Draft** insère une vue d\'un objet basé su
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez un objet Draft dans la vue 3D ou dans l\'arborescence
-2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez sélectionner la page souhaitée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_DraftView.svg" width=16px> [Insérer un objet de l'atelier Draft](TechDraw_DraftView/fr.md)
-**
-4.  Une vue d\'un objet Draft apparaîtra sur la page.
-
-
-</div>
+1.  Faites éventuellement pivoter la [vue 3D](3D_view/fr.md). La direction de la caméra dans la [vue 3D](3D_view/fr.md) détermine la valeur initiale de la propriété **Direction** de la vue.
+2.  Sélectionnez un ou plusieurs objets dans la [vue 3D](3D_view/fr.md) ou [vue en arborescence](Tree_view/fr.md). Une vue distincte sera créée pour chaque objet.
+3.  S\'il y a plusieurs pages de dessin dans le document : vous pouvez ajouter la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+4.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_DraftView.svg" width=16px> [Insérer un objet de l'atelier Draft](TechDraw_DraftView/fr.md)**.
+    -   Sélectionnez la **TechDraw → Vues des autres ateliers → <img src="images/TechDraw_DraftView.svg" width=16px> Insérer un objet de l'atelier Draft** dans le menu.
+5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
 
 ## Options
 

@@ -1,63 +1,72 @@
 ---
  GuiCommand:
    Name: FEM ConstraintFlowVelocity
-   MenuLocation: Model , Fluid Constraints , Constraint flow velocity
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintInitialFlowVelocity
+   Name/pl: MES: Warunek brzegowy prędkości przepływu
+   MenuLocation: Model , Warunki brzegowe dla płynu , Warunek brzegowy prędkości przepływu
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintInitialFlowVelocity/pl
 ---
 
 # FEM ConstraintFlowVelocity/pl
 
-## Description
 
-Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3D.
 
-## Usage
+## Opis
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> '''FEM ConstraintFlowVelocity'''** or select the menu **Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Constraint flow velocity**.
-2.  Select the target Edges or Faces.
-3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for edition.
-5.  Set the velocity values or (<small>(v0.21)</small> ) specify a formula.
+Definiuje prędkość przepływu jako warunek brzegowy dla krawędzi w 2D lub powierzchni w 3D.
 
-## Formulas
+
+
+## Użycie
+
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Warunek brzegowy prędkości przepływu](FEM_ConstraintFlowVelocity/pl.md)** lub wybierz opcję **Model → Warunki brzegowe dla płynu → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Warunek brzegowy prędkości przepływu**.
+2.  Wybierz docelowe krawędzie lub ściany.
+3.  Wciśnij przycisk **Dodaj**.
+4.  Odznacz *nieokreślony* żeby aktywować wymagane pola do edycji.
+5.  Wprowadź wartości prędkości lub (<small>(v0.21)</small> ) równanie.
+
+
+
+## Równania
 
 
 <small>(v0.21)</small> 
 
-It is possible to define a velocity by specifying the velocity profile as formula. In this case the solver sets the velocities at the different positions according to the profile.
+Jest możliwe definiowanie prędkości poprzez określenie profilu prędkości równaniem. W takim przypadku solver ustawia prędkości w różnych miejscach zgodnie z profilem.
 
-To specify for example the velocity profile
+Przykładowo, aby zdefiniować profil prędkości
 
 $\quad
 v_{x} (y)=6\left(y-1\right)\left(2-y\right)$
 
-for $y\in[1;2]$ (assuming that e.g. a pipe has the wall at y = 1 m and y = 2 m)
+dla $y\in[1;2]$ (zakładając, że np. rura ma ścianę na y = 1 m i y = 2 m)
 
-enter this to the *Formula* field: ` Variable Coordinate 2; Real MATC "6*(tx-1)*(2-tx)"`
+wprowadź to w polu *wzór*: ` Variable Coordinate 2; Real MATC "6*(tx-1)*(2-tx)"`
 
-This code has the following syntax:
+Ten kod ma następującą składnięː
 
--   the prefix *Variable* specifies that the velocity is not a constant but a variable
--   the variable to calculate the velocity is *Coordinate 2*, meaning y
--   the velocity values are returned as *Real* (floating point value)
--   *MATC* is the prefix for the Elmer solver that the following code is a formula
--   *tx* is always the name of the variable in *MATC* formulas, no matter that *tx* in our case is actually *y*
+-   przedrostek *Variable* wskazuje, że prędkość nie jest stałą, lecz zmienną
+-   zmienna do obliczenia prędkości to*Coordinate 2*, co oznacza współrzędną y
+-   wartości prędkości są zwracane jako *Real* (rzeczywiste liczby zmiennoprzecinkowe)
+-   *MATC* to przedrostek dla solvera Elmer oznaczający, że kod jest równaniem
+-   *tx* jest zawsze nazwą zmiennej w równaniach *MATC*, mimo że *tx* w naszym przypadku to tak naprawdę *y*
 
-That *y* will only be in the range $y\in[1;2]$ is set because *MATC* only evaluates the *tx* range where the result is positive. This behavior is a bit special but has the advantage that one does not need to specify the range manually.
+Zakres $y\in[1;2]$ dla *y* jest ustawiony, ponieważ *MATC* określa tylko zakres *tx*, w którym wynik jest dodatni. To zachowanie jest dość specyficzne, ale ma tę zaletę, że nie trzeba określać zakresu ręcznie.
 
-It is also possible to use more than one variable. See as example the definition of rotations in the [displacement constraint](FEM_ConstraintDisplacement#Rotations.md).
+Jest również możliwe używanie więcej niż jednej zmiennej. P̪rzykład można znaleźć w postaci definicji obrotów dla [warunku brzegowego przemieszczenia](FEM_ConstraintDisplacement#Rotations/pl.md).
 
-## Notes
 
--   Any vector component that should be the result of the solver must be set as *Unspecified*.
--   If the target face or edge is not aligned with the main Cartesian coordinate system, it is possible to set the option **Normal to boundary**.
 
-    :   If **Normal to boundary** is checked, the normal vector to the selected edge or face is X and it will be oriented away from the mesh domain.
-    :   For example, if a flow of 20 mm/s of air should enter the domain, then with **Normal to boundary** one must input -20 mm/s in the *Velocity x* field.
+## Uwagi
 
--   For a wall with non-slip condition, set all velocity components to 0.
--   For a symmetry condition, set the the flow to (0, Unspecified, Unspecified) if **Normal to boundary** is checked.
+-   Każdy komponent wektora, który powinien być wynikiem solvera, musi być ustawiony na *nieokreślony*.
+-   Jeśli docelowa powierzchnia lub krawędź nie jest zrównana z osiami kartezjańskiego układu współrzędnych, istnieje możliwość ustawienia opcji **Normalny do brzegu**.
+
+    :   Jeśli opcja **Normalny do brzegu** jest zaznaczona, wektor normalny do wybranej krawędzi lub powierzchni jest X i będzie zorientowany na zewnątrz domeny siatki.
+    :   Przykładowo, jeśli przepływ powietrza o prędkości 20 mm/s powinien być zadany na wlocie to z opcją **Normalny do brzegu** trzeba wprowadzić wartość -20 mm/s w polu *Prędkość x*.
+
+-   Dla ściany z warunkiem braku poślizgu, ustaw wszystkie komponenty prędkości na 0.
+-   Dla warunku symetrii, ustaw przepływ na (0, nieokreślony, nieokreślony) jeśli zaznaczona jest opcja **Normalny do brzegu**.
 
 
 

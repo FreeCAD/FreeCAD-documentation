@@ -18,11 +18,11 @@ This category is for pages that are under construction and should not be touched
 | [PartDesign Bearingholder Tutorial II/en](PartDesign_Bearingholder_Tutorial_II/en.md) | [PartDesign Bearingholder Tutorial II/es](PartDesign_Bearingholder_Tutorial_II/es.md) | [PartDesign Bearingholder Tutorial II/fr](PartDesign_Bearingholder_Tutorial_II/fr.md) |
 | [PartDesign Bearingholder Tutorial II/it](PartDesign_Bearingholder_Tutorial_II/it.md) | [PartDesign Bearingholder Tutorial II/pl](PartDesign_Bearingholder_Tutorial_II/pl.md) | [PartDesign Bearingholder Tutorial II/pt-br](PartDesign_Bearingholder_Tutorial_II/pt-br.md) |
 | [PartDesign Bearingholder Tutorial II/ro](PartDesign_Bearingholder_Tutorial_II/ro.md) | [PartDesign Bearingholder Tutorial II/ru](PartDesign_Bearingholder_Tutorial_II/ru.md) | [PartDesign Bearingholder Tutorial II/tr](PartDesign_Bearingholder_Tutorial_II/tr.md) |
-| [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [WikiPages](WikiPages.md) | [WikiPages/de](WikiPages/de.md) |
-| [WikiPages/en](WikiPages/en.md) | [WikiPages/es](WikiPages/es.md) | [WikiPages/fr](WikiPages/fr.md) |
-| [WikiPages/pl](WikiPages/pl.md) | [WikiPages/pt-br](WikiPages/pt-br.md) | [WikiPages/ru](WikiPages/ru.md) |
-| [Template:Work in progress](Template_Work_in_progress.md) | [Template:Work in progress/fr](Template_Work_in_progress/fr.md) | [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
-|
+| [Profile Based Shapes](Profile_Based_Shapes.md) | [Sandbox:TechDraw template creation tutorial](Sandbox_TechDraw_template_creation_tutorial.md) | [WikiPages](WikiPages.md) |
+| [WikiPages/de](WikiPages/de.md) | [WikiPages/en](WikiPages/en.md) | [WikiPages/es](WikiPages/es.md) |
+| [WikiPages/fr](WikiPages/fr.md) | [WikiPages/pl](WikiPages/pl.md) | [WikiPages/pt-br](WikiPages/pt-br.md) |
+| [WikiPages/ru](WikiPages/ru.md) | [Template:Work in progress](Template_Work_in_progress.md) | [Template:Work in progress/fr](Template_Work_in_progress/fr.md) |
+| [Template:Work in progress/pl](Template_Work_in_progress/pl.md) |
 
 
 

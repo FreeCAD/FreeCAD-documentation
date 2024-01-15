@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Draft2Sketch
-   Name/it: Draft in Sketch
-   MenuLocation: Draft , Draft in Sketch
+   Name/it: Draft in sketch
+   MenuLocation: Modifiche , Draft in sketch
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
 ---
 
@@ -23,8 +23,8 @@ Il comando <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> *
 
 1.  Facoltativamente, selezionare uno o più oggetti Draft o [Schizzi di Sketcher](Sketcher_NewSketch.md).
 2.  Ci sono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Draft in Sketch](Draft_Draft2Sketch.md)**.
-    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft in Sketch** dal menu.
+    -   Premere il pulsante **<img src="images/Draft_Draft2Sketch.svg" width=16px> [Draft in sketch](Draft_Draft2Sketch.md)**.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Draft2Sketch.svg" width=16px> Draft in sketch** dal menu.
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 4.  Viene creato un nuovo oggetto.
 

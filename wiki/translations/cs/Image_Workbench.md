@@ -1,6 +1,6 @@
 # Image Workbench/cs
 **The '''Image Workbench''' is no longer included after version 0.20.<br>
-It functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
+Its functionality has been integrated in [Std Base](Std_Base.md). See [Std Import](Std_Import.md) and [Std ViewLoadImage](Std_ViewLoadImage.md).**
 
 <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:128px;">
 

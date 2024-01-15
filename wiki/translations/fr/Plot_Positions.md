@@ -14,6 +14,8 @@ Cet outil permet à l\'utilisateur de modifier la position de certains élément
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
 
+
+
 ## Utilisation
 
 Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez cet outil. Vous pouvez ensuite sélectionner l\'élément que vous souhaitez modifier dans le sélecteur.

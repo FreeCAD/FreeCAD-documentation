@@ -1,5 +1,5 @@
 # Manual:What is FreeCAD/es
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 ![](images/Freecad016_screenshot1.jpg )
 
@@ -11,7 +11,7 @@ FreeCAD también es multiplataforma (se ejecuta exactamente igual en las platafo
 
 FreeCAD se beneficia de la enorme experiencia acumulada en el mundo del código abierto. Internamente, incluye varios otros componentes de código abierto, y el propio FreeCAD puede ser utilizado como un componente en otras aplicaciones. Posee muchas características que se han convertido en estándar en el mundo del código abierto, como el soporte de una amplia gama de formatos de archivo, y ser scriptable, personalizable y modificable. Todo ello es posible gracias a una comunidad de usuarios dinámica y entusiasta.
 
-El sitio web oficial de FreeCAD está en <http://www.freecadweb.org>
+El sitio web oficial de FreeCAD está en <http://www.freecad.org>
 
 **Leer más:**
 

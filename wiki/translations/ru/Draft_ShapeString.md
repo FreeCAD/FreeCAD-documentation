@@ -14,6 +14,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> **Draft ShapeString** command creates a compound shape that represents a text string. This shape can be used to create 3D letters with the [Part Extrude](Part_Extrude.md) command.
@@ -28,7 +30,7 @@ The Draft ShapeString command is not intended for standard text annotations. The
 For Windows users: please read the [Font file selection on Windows](#Font_file_selection_on_Windows.md) paragraph first.
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
+    -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Shape from text](Draft_ShapeString.md)** button.
     -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
@@ -39,6 +41,7 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
     -   Enter a file path in the **Font file** input box.
     -   Press the **...** button and select a file.
 8.  Press the **OK** button to finish the command.
+9.  Optionally change the **Justification** of the ShapeString. See [Properties](#Properties.md).
 
 ## Options
 
@@ -46,11 +49,11 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 ## Notes
 
--   A Draft ShapeStrings can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
+-   A Draft ShapeString can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 -   Supported fonts include TrueType (**.ttf**), OpenType (**.otf**) and Type 1 (**.pfb**).
--   The command is restricted to LTR (left-to-right) text. Therefore at the moment RTL (right-to-left + top-to-bottom) text isn\'t supported.
+-   The command is restricted to left-to-right text. Right-to-left and top-to-bottom text are not supported.
 -   Very small text heights may result in deformed character shapes due to loss of detail in scaling.
--   Many fonts will generate problematic geometry. This is because font contours are allowed to overlap, have small gaps, and have varying directions within a glyph. These conditions are considered errors in wires used to define faces.
+-   Fonts can generate problematic geometry. This is because font contours are allowed to overlap and have small gaps. These conditions are considered errors in wires used to define faces.
 -   Draft ShapeStrings can also be created with the [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md).
 -   To create Draft ShapeStrings arranged in a circular fashion use the [Macro FCCircularText](Macro_FCCircularText.md).
 
@@ -92,22 +95,33 @@ A Draft ShapeString object is derived from a [Part Part2DObject](Part_Part2DObje
 
 {{TitleProperty|Draft}}
 
--    **Font File|File**: specifies the path of the font file used to draw the text.
+-    **Font File|File**: Font file name.
 
--    **Size|Length**: specifies the general height of the text.
+-    **Fuse|Bool**: Fuse faces if faces overlap, usually not required (can be very slow). Ignored if **Make Face** is `False`. <small>(v0.22)</small> 
 
--    **String|String**: specifies the text string to display. Unlike a [Draft Text](Draft_Text.md), a Draft ShapeString can only display a single text line.
+-    **Justification|Enumeration**: Horizontal and vertical alignment. Options: {{value|Top-Left}}, {{value|Top-Center}}, {{value|Top-Right}}, {{value|Middle-Left}}, {{value|Middle-Center}}, {{value|Middle-Right}}, {{value|Bottom-Left}}, {{value|Bottom-Center}}, {{value|Bottom-Right}}. <small>(v0.22)</small> 
 
--    **Tracking|Length**: specifies the additional inter-character spacing of the text.
+-    **Justification Reference|Enumeration**: Height reference used for justification. Options: {{value|Cap Height}}, {{value|Shape Height}}. The shape height depends on the characters in **String**. <small>(v0.22)</small> 
 
-### View
+-    **Keep Left Margin|Bool**: Keep left margin and leading white space when justification is left. <small>(v0.22)</small> 
 
+-    **Make Face|Bool**: Fill letters with faces.
 
-{{TitleProperty|Draft}}
+-    **Oblique Angle|Angle**: Oblique (slant) angle. Must be in the -80° to +80° range. <small>(v0.22)</small> 
 
--    **Pattern|Enumeration**: specifies the [Draft Pattern](Draft_Pattern.md) with which to fill the faces of the text. This property only works if **Display Mode** is {{value|Flat Lines}}.
+-    **Scale To Size|Bool**: Scale to ensure cap height is equal to size. If set to `False`, depending on the font, cap height will not match **Size** exactly. <small>(v0.22)</small> 
 
--    **Pattern Size|Float**: specifies the size of the [Draft Pattern](Draft_Pattern.md).
+-    **Size|Length**: Height of text.
+
+-    **String|String**: Text string. A ShapeString can only display a single text line.
+
+-    **Tracking|Distance**: Inter-character spacing. The property type has been updated (<small>(v0.22)</small> ).
+
+<img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
+*The height of the red rectangle (solid line) is equal to the cap height.<br>
+The height of the green rectangle (dashed line) is equal to the shape height.<br>
+The corners, the midpoints of the edges, and the center of the rectangles<br>
+match the 9 justification options: Top-Left to Bottom-Right.*
 
 ## Scripting
 
@@ -124,7 +138,7 @@ shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 
 -    `Size`is the height of the resulting text in millimeters.
 
--    `Tracking`is the additional inter-character spacing in millimeters.
+-    `Tracking`is the inter-character spacing in millimeters.
 
 The placement of the ShapeString can be changed by overwriting its `Placement` attribute, or by individually overwriting its `Placement.Base` and `Placement.Rotation` attributes.
 

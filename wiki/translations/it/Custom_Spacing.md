@@ -1,7 +1,7 @@
 # Custom Spacing/it
 ## Descrizione
 
-Lo strumento Spaziatura personalizzata consente all\'utente di creare una distribuzione delle barre nell\'elemento strutturale. È possibile definire tre segmenti per la distribuzione. Nel primo e nel terzo segmento, è possibile stabilire sia il numero di barre che la distanza tra i loro bordi. Invece nel secondo segmento, si può stabilire solo il numero di barre o la spaziatura tra i bordi perché un valore determina automaticamente l\'altro.
+Lo strumento Passo personalizzato consente all\'utente di creare una distribuzione delle barre nell\'elemento strutturale. È possibile definire tre segmenti per la distribuzione. Nel primo e nel terzo segmento, è possibile stabilire sia il numero di barre che la distanza tra i loro bordi. Invece nel secondo segmento, si può stabilire solo il numero di barre o la spaziatura tra i bordi perché un valore determina automaticamente l\'altro.
 
 Esempio di valori di input inseriti nella finestra di dialogo Distribuzione barre:
 

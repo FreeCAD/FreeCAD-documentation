@@ -36,9 +36,7 @@ Lo strumento Estensione orizzontale aggiunge una quota lineare a una vista. La d
 
 </div>
 
-
-
-## Utilizzo
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +47,10 @@ Lo strumento Estensione orizzontale aggiunge una quota lineare a una vista. La d
 
 
 </div>
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
 
 
 
@@ -61,6 +63,10 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologi
 
 
 </div>
+
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
 
 
 
@@ -78,7 +84,16 @@ Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Leng
 
 ### Dati
 
+
+{{Properties_Title|Base}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **MeasureType**: `True` - basata sulla geometria 3D o \"Projected\" - basata sul disegno. Normalmente non manipolato direttamente dall\'utente finale. Non ancora implementata per Estensione orizzontale.
+
+
+</div>
 
 
 

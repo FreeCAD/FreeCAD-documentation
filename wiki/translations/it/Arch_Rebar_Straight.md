@@ -1,127 +1,86 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar_Straight
-   Name/it: Armatura dritta
-   MenuLocation: Arch , Strumenti armatura , Armatura dritta o BIM , 3D/BIM , Reinforcement , Straight Rebar
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch_Rebar_BOM/it, Arch Rebar/it
+   Name: Arch Rebar Straight
+   Name/it: Armatura diritta
+   MenuLocation: Arch , Strumenti di armatura , Armatura diritta<br>3D/BIM , Reinforcement tools , Armatura diritta
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/it, Arch_Rebar/it, Arch_Rebar_BOM/it
 ---
 
 # Arch Rebar Straight/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Lo strumento [Armatura dritta](Arch_Rebar_Straight.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
+Lo strumento [Armatura diritta](Arch_Rebar_Straight/it.md) consente all\'utente di creare un set di staffe d\'armatura all\'interno di un oggetto [Struttura](Arch_Structure/it.md).
 
+Lo strumento [Armatura diritta](Arch_Rebar_Straight/it.md) è integrato anche nell\'[Ambiente BIM](BIM_Workbench/it.md).
 
-</div>
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento **Armatura dritta** è anche integrato in [BIM](BIM_Workbench/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
-
-
-</div>
-
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Due serie di barre di rinforzo diritte all'interno di una  [Struttura](Arch_Structure/it.md)*
-
-
-</div>
 
 
 
 ## Utilizzo
 
+1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)**.
 
-<div class="mw-translate-fuzzy">
+2.  Quindi selezionare **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Armatura diritta](Arch_Rebar_Straight/it.md)** dagli strumenti dell\'armatura.
 
-1.  Selezionare una qualsiasi faccia dell\'oggetto **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** creato in precedenza.
-2.  Quindi selezionare **<img src="images/Arch_Rebar_Straight.svg" width=16px> Armatura dritta** dagli strumenti armatura.
-3.  Sul lato sinistro dello schermo appare un pannello delle azioni come quello sottostante.
+3.  Sul lato sinistro dello schermo appare un pannello come quello sottostante.
+
 4.  Selezionare l\'orientamento desiderato.
-5.  Fornire i dati per front cover, right side cover, left side cover, bottom cover e diameter of the rebar.
-6.  Select the mode of distribution either amount or spacing.
-7.  Selezionare la modalità di distribuzione per la quantità o per la spaziatura.
-8.  Se è selezionata la spaziatura, l\'utente può anche optare per una [spaziatura personalizzata](Custom_Spacing/it.md).
-9.  Cliccare sulla faccia selezionata serve per verificare o modificare la faccia per la distribuzione dell\'armatura.
-10. Cliccare **OK** o **Apply** per generare l\'armatura.
-11. Cliccare **Cancel** per uscire dal pannello delle azioni.
 
+5.  Fornire i dati per \'Copriferro anteriore\', \'Copriferro lato destro\', \'Copriferro lato sinistro\', \'Copriferro inferiore\' e \'Diametro\' per l\'armatura.
 
-</div>
+6.  Seleziona la modalità di distribuzione tra \'Quantità\' o \'Passo\'.
+
+7.  Se è selezionato Passo, l\'utente può anche optare per [Passo personalizzato](Custom_Spacing/it.md).
+
+8.  
+    **Usa lato selezionato**viene utilizzato per verificare o modificare la faccia per la distribuzione dell\'armatura.
+
+9.  Cliccare **OK** o **Applica** per generare l\'armatura.
+
+10. Cliccare **Annulla** per uscire dal pannello.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
-*Pannello Azioni per lo strumento Armatura dritta di Arch*
+*Pannello per lo strumento Armatura diritta di Arch*
 
 
 
 ## Proprietà
 
--    {{PropertyData/it|Orientation}}: Decide l\'orientamento dell\'armatura (es. in basso, in alto, a destra e a sinistra).
+-    {{PropertyData/it|Orientamento}}: Decide l\'orientamento dell\'armatura (es. in basso, in alto, a destra e a sinistra).
 
--    {{PropertyData/it|Front Cover}}: La distanza tra l\'armatura e la faccia selezionata. Copriferro anteriore
+-    {{PropertyData/it|Copriferro anteriore}}: La distanza tra l\'armatura e la faccia selezionata.
 
--    {{PropertyData/it|Right Cover}}: La distanza tra l\'estremità destra della barra di destra e la faccia destra della struttura. Copriferro destro
+-    {{PropertyData/it|Copriferro lato destro}}: La distanza tra l\'estremità destra dell\'armatura e la faccia destra della struttura.
 
--    {{PropertyData/it|Left Cover}}: La distanza tra l\'estremità sinistra della barra di sinistra e la faccia sinistra della struttura. Copriferro sinistro
+-    {{PropertyData/it|Copriferro lato sinistro}}: La distanza tra l\'estremità sinistra dell\'armatura e la faccia sinistra della struttura.
 
--    {{PropertyData/it|Bottom Cover}}: La distanza tra l\'armatura e la parte inferiore della struttura. Copriferro inferiore
+-    {{PropertyData/it|Copriferro in direzione}}: Queste proprietà consentono all\'utente di specificare il copriferro superiore o inferiore.
 
--    {{PropertyData/it|Top Cover}}: La distanza tra l\'armatura e la parte superiore della struttura. Copriferro superiore
+-    {{PropertyData/it|Copriferro inferiore }}: La distanza tra l\'armatura e la faccia inferiore della struttura.
 
--    {{PropertyData/it|Rounding}}: Il raggio di curvatura da applicare agli angoli delle barre, espresso quantità di diametro delle barre.
+-    {{PropertyData/it|Copriferro superiore}}: La distanza tra l\'armatura e la faccia superiore della struttura.
 
--    {{PropertyData/it|Amount}}: La quantità di barre.
+-    {{PropertyData/it|Quantità}}: La quantità di armature.
 
--    {{PropertyData/it|Spacing}}: La distanza tra gli assi di ogni barra.
+-    {{PropertyData/it|Passo}}: La distanza tra gli assi di ciascuna barra.
 
 ## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
-## Scripting 
 
 
 **Vedere anche:**
 
 [API Arch](Arch_API/it.md), [API Reinforcement](Reinforcement_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura dritta può essere usato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
-
-
-</div>
+Lo strumento Armatura diritta può essere usato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) utilizzando la seguente funzione:
 
 
 ```python
@@ -267,15 +226,6 @@ StraightRebar.editStraightRebar(Rebar3, 50, ("Right Side", 20), 100, 100,
 StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
                                 24, True, 7, "Vertical")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

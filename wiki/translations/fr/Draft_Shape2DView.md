@@ -11,9 +11,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vue 2D d\'une forme** crée des projections 2D à partir d\'objets sélectionnés, généralement des solides 3D ou des [Arch Plan de coupe](Arch_SectionPlane/fr.md). Les projections sont placées dans la [Vue 3D](3D_view/fr.md).
+La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Vue 2D d\'une forme** crée des projections 2D à partir d\'objets sélectionnés, généralement des solides 3D ou des [Arch Plan de coupe](Arch_SectionPlane/fr.md). Les projections sont placées dans la [vue 3D](3D_view/fr.md).
 
-Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) à l\'aide de la commande [TechDraw Vue Draft](TechDraw_DraftView/fr.md). Par ailleurs, l\'[atelier TechDraw](TechDraw_Workbench/fr.md) offre ses propres commandes de projection, mais celles-ci créent des projections qui ne sont affichées que sur la page de dessin et non dans la [Vue 3D](3D_view/fr.md).
+Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) à l\'aide de la commande [TechDraw Vue Draft](TechDraw_DraftView/fr.md). Par ailleurs, l\'[atelier TechDraw](TechDraw_Workbench/fr.md) offre ses propres commandes de projection, mais celles-ci créent des projections qui ne sont affichées que sur la page de dessin et non dans la [vue 3D](3D_view/fr.md).
 
 ![](images/Draft_Shape2DView_example.jpg ) 
 *Projection de formes solides sur le plan XY*
@@ -22,12 +22,12 @@ Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'
 
 ## Utilisation
 
-1.  Vous pouvez faire la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine le vecteur de projection. Par exemple, une [vue de dessus](Std_ViewTop/fr.md) sera projetée sur le plan XY. Le vecteur de projection est ignoré pour les projections créées à partir de [Arch Plan de coupe](Arch_SectionPlane/fr.md).
-2.  Sélectionnez éventuellement un ou plusieurs objets.
+1.  Vous pouvez faire tourner la [vue 3D](3D_view/fr.md). La direction de la caméra dans la [vue 3D](3D_view/fr.md) détermine le vecteur de projection. Par exemple, une [vue de dessus](Std_ViewTop/fr.md) sera projetée sur le plan XY. Le vecteur de projection est ignoré pour les projections créées à partir de [Arch Plan de coupe](Arch_SectionPlane/fr.md).
+2.  Vous pouvez sélectionner un ou plusieurs objets.
 3.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Shape2DView.svg" width=16px> [Vue 2D de la forme](Draft_Shape2DView/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Vue 2D de la forme ** dans le menu.
-4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+4.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [vue 3D](3D_view/fr.md).
 5.  Les objets projetés sont créés sur le plan XY.
 
 

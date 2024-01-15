@@ -37,16 +37,15 @@ würde das erste Beispiel beinhalten, auch als das OpenSCAD-Symbol bekannt.
 **Hinweis:** OpenSCAD muss auf deinem Computer installiert sein, damit FreeCAD diese Funktionalität nutzen kann
 Installiere OpenSCAD in der für dein Betriebssystem entsprechenden Weise. Siehe [the OpenSCAD web site](https://www.openscad.org/) für mehr Informationen.
 
-FreeCAD needs to be told where to find the OpenSCAD executable:
+FreeCAD muss gesagt werden, wo die ausführbare OpenSCAD-Datei gefunden werden kann:
 
--   Switch to the <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) via 
-**View → Workbench → OpenSCAD**
--   Open the preferences dialog **Edit → Preferences**
--   Click on \"OpenSCAD\" on the left plane
--   Click on the button labled **...** in **General Settings → General OpenSCAD Settings → OpenSCAD executable** to browse the directory or enter the path (e.g. Ubuntu based Linux distributions `/usr/bin/openscad`) directly into the line input right to the button
--   Close and restart FreeCAD
+-   Zum Arbeitsbereich <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench/de.md) wechseln durch Auswahl des Menüeintrags **Ansicht → Arbeitsbereich → OpenSCAD**.
+-   Den Voreinstellungsdialog aufrufen.**Bearbeiten → Einstellungen...**
+-   Die Schaltfläche \"OpenSCAD\" anklicken.
+-   Die Schaltfläche **...** unter **General Settings → General OpenSCAD Settings → OpenSCAD executable** anklicken, um das Verzeichnis zu durchsuchen oder den Pfad direkt in das Eingabefeld rechts von der Schaltfläche einzugeben (z.B. `/usr/bin/openscad` für Ubuntu-basierte Linux-Distributionen).
+-   FreeCAD schließen und erneut starten.
 
-:   **Result:** A new OpenSCAD icon will appear on the tool bar, and in the OpenSCAD menu, in the FreeCAD OpenSCAD workbench.
+:   **Ergebnis:** Ein neues OpenSCAD-Symbol erscheint in der Symbolleite und im OpenSCAD-Menü in FreeCADs Arbeitsbereich OpenSCAD.
 
 Hinweis: Es ist ebenso möglich einen anderen Optionalen Paramter hinzuzufügen, der die maximalen Seiten eines Polygons steuert bevor es als ein Kreis angesehen wird (fn).
 

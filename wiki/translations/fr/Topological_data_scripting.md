@@ -183,7 +183,7 @@ Quelques méthodes `make...()` disponibles :
 
 -    `makeTorus(radius1, radius2)`Crée un tore avec les rayons donnés.
 
-Voir la page de l\'[API Part](Part_API/fr.md) pour une liste complète des méthodes disponibles du module Part. 
+Voir la page de l\'[API Part](Part_API/fr.md) ou cette [documentation autogénérée de l\'API Python de Part](https://freecad-python-stubs.readthedocs.io/en/latest/autoapi/Part/) pour une liste complète des méthodes disponibles du module Part. 
 
 ### Importer les modules nécessaires 
 

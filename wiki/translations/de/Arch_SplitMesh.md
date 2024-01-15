@@ -23,10 +23,7 @@ Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in se
 2.  Drücke den **<img src="images/Arch_SplitMesh.svg" width=16px> [Netz aufteilen](Arch_SplitMesh/de.md)
 ** Eintrag in **Arch → Dienstprogramme → Netz aufteilen**
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -35,33 +32,18 @@ Diese Werkzeug teilt ein ausgewähltes [Mesh](Mesh_Workbench/de.md)-Objekt in se
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das NetzAufteilen Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch folgende Funktion verwendet werden:
-
-
-</div>
+Das Werkzeug NetzAufteilen kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
 
 
 ```python
 new_list = splitMesh(obj, mark=True)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Teilt das gegebene Netzobjekt `obj` in einzelne Bestandteile.
+-   Teilt das gegebene Netzobjekt `obj` in einzelne Bestandteile auf.
 
 -   Falls `mark` auf `True` gesetzt ist, werden [nicht-mannigfaltige](https://de.wikipedia.org/wiki/Mannigfaltigkeit) Komponenten rot dargestellt.
 
 -    `new_list`ist eine Liste aller einzelnen Komponenten, aus denen das Netz besteht.
-
-
-</div>
 
 Beispiel:
 
@@ -82,15 +64,6 @@ mesh_obj.ViewObject.DisplayMode = "Flat Lines"
 
 new_list = Arch.splitMesh(mesh_obj)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

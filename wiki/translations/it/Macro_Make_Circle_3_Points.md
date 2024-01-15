@@ -21,7 +21,7 @@ Questa macro crea un cerchio su tre punti selezionati, ortogonalmente o nello sp
 Selezionare 3 punti, o 3 forme nella vista 3D ed eseguire la macro.
 Se la forma è una linea, le coordinate sono date dal centro della linea.
 
-![Circle_on_3\_points](images/Circle_on_3_points.png ) 
+![Circle_on_3_points](images/Circle_on_3_points.png ) 
 
 ## Opzioni
 
@@ -89,7 +89,7 @@ Per scaricarle, posizionare il mouse sopra l\'icona, fare clic destro e poi **sa
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make_Circle_3\_Points.FCMacro**
+**Make_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=

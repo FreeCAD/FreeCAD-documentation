@@ -8,32 +8,44 @@
 
 # Curves ZebraTool/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Curves Zebrawerkzeug](Curves_ZebraTool/de.md) erstellt eine Zebratextur für die Oberflächenprüfung. Dieses Werkzeug ist Teil des [externen Arbeitsbereichs](external_workbenches/de.md) [Curves](Curves_Workbench/de.md).
 
+
+
 ## Anwendung
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  Select the surface to be tested
-3.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Zebra texture for surface inspection](Curves_ZebraTool.md) button in the tool bar.
-    -   Use the **Surfaces → Zebra Tool**
-4.  Change the Zebra Tool parameter to the required conditions
+1.  Zum Arbeitsbereich <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/de.md) wechseln. (muss mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) installiert werden, wenn noch nicht geschehen)
+2.  Die Oberfläche auswählen, die geprüft werden soll.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche <img alt="" src=images/Curves_ZebraTool.svg  style="width:24px;"> [Zebra texture for surface inspection](Curves_ZebraTool.md) in der Curves-Symbolleiste drücken.
+    -   Den Menüeintrag **Surfaces → Zebra Tool** auswählen.
+4.  Die Eigenschaften des Zebrawerkzeugs wie benötigt anpassen.
+
+
 
 ## Eigenschaften
 
--    **Black Stripes Width**: Change the black stripes width.
+-    {{PropertyData/de|Black Stripes Width}}: Passt die Breite der schwarzen Streifen an.
 
--    **Scale**: Scale the Zebra stripes.
+-    {{PropertyData/de|Scale}}: Skaliert die Zebrastreifen.
 
--    **Rotation**: Rotate the Zebra stripes.
+-    {{PropertyData/de|Rotation}}: Dreht die Zebrastreifen.
+
+
 
 ## Hinweise
 
--   Click on the **Quit** button to exit the Zebra Tool.
+-   Die Schaltfläche **Quit** drücken, um das Zebrawerkzeug zu verlassen.
+
+
 
 ## Einschränkungen
+
+
 
 ## Skripten
 

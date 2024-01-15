@@ -20,25 +20,25 @@ Die umgekehrte Aktion ist [Part FormAusNetz](Part_ShapeFromMesh/de.md) aus dem A
 
 ## Anwendung
 
-1.  Wähle wahlweise ein oder mehrere Objekte aus.
+1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Mesh_FromPartShape.svg" width=16px> [Netz AusTeilForm](Mesh_FromPartShape/de.md)** Schaltfläche.
-    -   Wähle die **Netze → <img src="images/Mesh_FromPartShape.svg" width=16px> Netz aus Form erzeugen...** Option aus dem Menü.
-3.  Das **Tessellierung**s Aufgabenpaneel öffnet sich.
-4.  Während das Aufgabenpaneel geöffnet ist, kannst du eine neue Auswahl erstellen oder eine bestehende Auswahl ändern.
-5.  Wähle den Reiter für den Vernetzer, den du verwenden möchtest.
-6.  Gib die erforderlichen Einstellungen an. Siehe [Vernetzer](#Mesher.md).
-7.  Drücke die **OK** Schaltfläche, um das Aufgabenpaneel zu schließen und den Befehl zu beenden.
+    -   Die Schaltfläche **<img src="images/Mesh_FromPartShape.svg" width=16px> [Netz aus Form erstellen...](Mesh_FromPartShape/de.md)** drücken.
+    -   Den Menüeintrag **Netze → <img src="images/Mesh_FromPartShape.svg" width=16px> Netz aus Form erstellen...** auswählen.
+3.  Der Aufgaben-Bereich **Tessellierung** wird geöffnet.
+4.  Während das Aufgaben-Bereich geöffnet ist, kann eine neue Auswahl erstellt oder eine bestehende Auswahl geändert werden.
+5.  Den Reiter des Netzgenerators auswählen, der verwendet werden soll.
+6.  Die erforderlichen Einstellungen eingeben. Siehe [Netzgeneratoren](#Netzgeneratoren.md).
+7.  Die Schaltfläche **OK** drücken, um den Aufgaben-Bereich zu schließen und den Befehl zu beenden.
 
 
 
-## Vernetzer
+## Netzgeneratoren
 
-Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
+Dies sind die vorhandenen Netzgeneratoren und ihre Einstellungen:
 
 
 
-### Standardvernetzer
+### Standard-Netzgenerator 
 
 -    **Oberflächenabweichung**: die maximale [lineare Abweichung](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) eines Polygonnetzabschnitts von der Oberfläche des Objekts.
 
@@ -52,7 +52,7 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 
 
-### Vernetzer Mefisto 
+### Netzgenerator Mefisto 
 
 -    **Maximale Kantenlänge**: Die maximale Kantenlänge des Netzes. Ein geringerer Wert ergibt ein feineres Netz. Die Eingabe von {{Value|0}} oder das Deaktivieren der Checkbox ergeben ein sehr grobes Netz.
 
@@ -60,7 +60,7 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 
 
-### Vernetzer Netgen 
+### Netzgenerator Netgen 
 
 -    **Feinheit**: Eine Option für die Feinheit des Netzes auswählen:
 
@@ -112,7 +112,7 @@ Dies sind die verfügbaren Vernetzer und ihre Einstellungen:
 
 
 
-### Vernetzer Gmsh 
+### Netzgenerator Gmsh 
 
 Für Linux Anwender: das externe [Gmsh](https://gmsh.info/)-Modul ist erforderlich.
 
@@ -172,7 +172,7 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/)-Modul ist erforderli
 
 
 
-### Standard Vernetzer 
+### Standard-Netzgenerator 
 
 -   The **Surface deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → LinearDeflection**.
 -   The **Angular deviation** setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Mesh → Meshing → Standard → AngularDeflection**.
@@ -180,7 +180,7 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/)-Modul ist erforderli
 
 
 
-### Gmsh Vernetzer 
+### Netzgenerator Gmsh 
 
 -   Der **Pfad** ist abgelegt: **Werkzeuge → Parameter bearbeiten... → BaseApp → Einstellungen → Mod → Mesh → Meshing → gmshExe**.
 
@@ -188,18 +188,15 @@ Für Linux Anwender: das externe [Gmsh](https://gmsh.info/)-Modul ist erforderli
 
 ## Eigenschaften
 
-Siehe: [Polygonnetz Formelement](Mesh_Feature/de.md).
+Siehe: [Mesh Formelement](Mesh_Feature/de.md).
 
 
 
 ## Skripten
 
+Siehe auch: [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-**Siehe auch:**
-
-[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Um ein Netzobjekt aus einem Formobjekt zu erstellen, verwende die `NetzAusForm` Methode des MeshPart Moduls. Diese Methode hat mehrere Signaturen. Die Signatur bestimmt den zu verwendenden Vernetzer. Das folgende Beispiel verwendet die Mefisto Vernetzer Signatur.
+Um ein Netzobjekt aus einem Formobjekt zu erstellen, wird die Methode `NetzAusForm` des MeshPart-Moduls verwendet. Diese Methode hat mehrere Signaturen. Die Signatur bestimmt den zu verwendenden Netzgenerator. Das folgende Beispiel verwendet die Signatur des Netzgenerators Mefisto.
 
 
 ```python

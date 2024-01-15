@@ -823,18 +823,6 @@ Tutorial [Importación/Exportación IFC - compilación de IfcOpenShell](Import/E
 
 </div>
 
-### Installation 
-
-
-<div class="mw-translate-fuzzy">
-
-### Instalación 
-
-En todas las plataformas, sólo instalando el paquete apropiado de <https://www.opendesign.com/guestfiles/oda_file_converter> . Después de la instalación, si la utilidad no es encontrada automáticamente por FreeCAD, puede que sea necesario establecer la ruta del ejecutable del convertidor manualmente, abrir Editar → Preferencias → Importación-Exportación → DWG y llenar \"Camino al convertidor de archivos de Teigha\" apropiadamente.
-
-
-</div>
-
 ## LazyLoader
 
 LazyLoader is a Python module that allows deferred loading, while still importing at the top of the script. This is useful if you are importing another module that is slow, and it is used several times throughout the script. Using LazyLoader can improve workbench startup times, but the module will still need to be loaded on first use.

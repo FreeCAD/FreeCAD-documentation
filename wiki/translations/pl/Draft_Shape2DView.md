@@ -17,7 +17,7 @@ Polecenie <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **W
 Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Techniczny](TechDraw_Workbench/pl.md) używając polecenia [Wstaw widok rysunku](TechDraw_DraftView/pl.md). Alternatywnie środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md) oferuje swoje własne narzędzia do rzutowania. Tworzą one jednak rzuty, które są wyświetlane tylko na stronie rysunku a nie w oknie [widoku 3D](3D_view/pl.md).
 
 ![](images/Draft_Shape2DView_example.jpg ) 
-*Rzutowanie brył na płaszczyznę XY*
+*Rzutowanie brył na płaszczyznę XY.*
 
 
 
@@ -26,7 +26,7 @@ Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Tech
 1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa wektor projekcji. Na przykład, [widok od góry](Std_ViewTop/pl.md) będzie rzutować na płaszczyznę XY. Wektor projekcji jest ignorowany dla rzutów utworzonych przez funkcję [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura.
 2.  Opcjonalnie wybierz jeden lub więcej obiektów.
 3.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Shape2DView.svg" width=24px> [Widok 2D kształtu](Draft_Shape2DView/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Shape2DView.svg" width=24px> '''Widok 2D kształtu'''**.
     -   Wybierz opcję z menu **Modyfikacja → <img src="images/Draft_Shape2DView.svg" width=24px> Widok 2D kształtu**.
 4.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 5.  Rzutowane obiekty są tworzone na płaszczyźnie XY.
@@ -43,7 +43,7 @@ Rysunki z różnymi szerokościami linii dla linii widocznych i linii cięcia mo
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 

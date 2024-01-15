@@ -7,36 +7,46 @@
 |Version=2.3.1
 |Date=2018-10-22
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/0/00/Macro_screw_maker1_2.png ToolBar icon]
+|Download=[https://wiki.freecad.org/wiki/images/0/00/Macro_screw_maker1_2.png ikonka paska narzędziowego]
 }}
+
+
 
 ## Opis
 
-To makro tworzy śrubę z gwintem lub bez, zgodnie z normami ISO. {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
+To makro tworzy śrubę z gwintem lub bez, zgodnie z normami ISO.
+
+
+{{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/ObjectCreation/ScrewMaker.FCMacro}}
 
 <img alt="" src=images/Macro_screw_maker_01.png  style="width:400px;"> 
-*Screw maker*
+*Twórca śrub*
 
-## Używanie
 
-Wybierz właściwości śruby i kliknij przycisk create.
-. Jeśli wybierzesz okrąg z otworu lub alternatywnie wewnętrzną powierzchnię okrągłego otworu i okrąg na górze tego otworu w tym samym czasie, śruba będzie włożona do otworu przez naciśnięcie przycisku create. Gdy wybrana kombinacja właściwości nie jest dostępna, pojawi się komunikat tekstowy, który poinformuje Cię o tym.
+
+## Użycie
+
+1.  Wybierz właściwości śruby i kliknij przycisk create.
+2.  Jeśli wybierzesz okrąg z otworu lub alternatywnie wewnętrzną powierzchnię okrągłego otworu i okrąg na górze tego otworu w tym samym czasie, śruba będzie włożona do otworu przez naciśnięcie przycisku create.
+3.  Gdy wybrana kombinacja właściwości nie jest dostępna, pojawi się komunikat tekstowy, który poinformuje Cię o tym.
 
 
 <center>
 
-<File:Macro_screw_maker_02.png%7CInterfejs> \"screw_maker\" i kilka różnych typów śrub. [File:Macro_screw_maker_03.png\|Śruba](File:Macro_screw_maker_03.png%7CŚruba) z gwintem
+<File:Macro_screw_maker_02.png%7CInterfejs> \"screw_maker\" i kilka różnych typów śrub. <File:Macro_screw_maker_03.png%7CŚruba> z gwintem
 
 
 </center>
 
 Stworzenie gwintu zajmuje trochę czasu. Bądź cierpliwy i sprawdzaj obciążenie procesora.
 
+
+
 ## Skrypt
 
 Najnowszą wersję makra można znaleźć na stronie [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), jednak najprostszym sposobem zainstalowania tego makra jest funkcja [menadżer dodatków](Std_AddonMgr/pl.md).
 
-ToolBar Icon ![](images/Macro_screw_maker1_2.png )
+Ikonka paska narzędzi ![](images/Macro_screw_maker1_2.png )
 
 **Macro_screw_maker_2.FCMacro**
 

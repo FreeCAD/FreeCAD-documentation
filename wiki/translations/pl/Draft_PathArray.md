@@ -25,193 +25,206 @@ Oba polecenia mogą być używane na obiektach 2D utworzonych za pomocą środow
 
 ## Użycie
 
-1.  Select the object you wish to array.
-2.  Add the path object to the selection. It is also possible to select edges instead. The edges must belong to the same object and they must be connected.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_PathArray.svg" width=16px> [Draft PathArray](Draft_PathArray.md)** button.
-    -   Select the **Modification → Array tools → <img src="images/Draft_PathArray.svg" width=16px> Path array** option from the menu.
-4.  The array is created.
-5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).
+1.  Wybierz obiekt, który chcesz wyświetlić.
+2.  Dodaj obiekt ścieżki do zaznaczenia. Zamiast tego można również wybrać krawędzie. Krawędzie muszą należeć do tego samego obiektu i muszą być połączone.
+3.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_PathArray.svg" width=16px> '''Szyk po ścieżce'''**.
+    -   Wybierz opcję z menu **Modyfikacja → Narzędzia szyku → <img src="images/Draft_PathArray.svg" width=16px> Szyk po ścieżce**.
+4.  Szyk zostanie utworzony.
+5.  Opcjonalnie można zmienić [właściwości](#Właściwości.md) szyku w [edytorze właściwości](Property_editor/pl.md).
 
-## Alignment
 
-The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
+
+## Wyrównanie
+
+Wyrównanie elementów w Szyk po ścieżce zależy od właściwości szyku i orientacji obiektu źródłowego. Pozycja obiektu źródłowego jest ignorowana: dla celów szyku wartości {{Value|x}}, {{Value|y}} i {{Value|z}} są ustawione na {{Value|0}}. Jeśli właściwość **Wyrównaj** szyku jest ustawiona na wartość {{FALSE/pl}}, orientacja elementów szyku jest identyczna z orientacją obiektu źródłowego. Jeśli jest ustawiona na {{TRUE/pl}}, oś X lokalnego układu współrzędnych każdego umieszczonego elementu jest styczna do ścieżki. Osie Y i Z lokalnych układów współrzędnych zależą od właściwości **Tryb wyrównania** szyku. Inne właściwości szyku związane z wyrównaniem obejmują: **Wektor styczny**, **Wymuś pionowo** i **Wektor pionowy**.
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
-*3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
+*Trzy szyki oparte na tej samej nieplanarnej ścieżce. Od lewej do prawej: Wyrównanie ustawiono na {{false/pl*, Wyrównanie ustawiono na {{true/pl}} z trybem wyrównania Original i Wyrównaj ustawiono na {{true/pl}} z trybem wyrównania Frenet.}}.
 
-### Align Mode 
 
-Three modes are available:
+
+### Tryb wyrównania 
+
+Dostępne są trzy tryby:
 
 #### Original
 
-This mode comes closest to the single **Align Mode** available in version 0.18. It relies on a fixed normal vector. If the path is planar this vector is perpendicular to the plane of the path, else a default vector, the positive Z axis, is used. From this normal vector and the local tangent vector (the local X axis) a [cross product](https://en.wikipedia.org/wiki/Cross_product) is calculated. This new vector is used as the local Z axis. The orientation of the local Y axis is determined from the local X and Z axes.
+Ten tryb jest najbardziej zbliżony do pojedynczego **Tryb wyrównania** dostępnego w wersji 0.18. Opiera się on na stałym wektorze normalnym. Jeśli ścieżka jest płaska, wektor ten jest prostopadły do płaszczyzny ścieżki, w przeciwnym razie używany jest wektor domyślny, o dodatniej osi Z. Na podstawie tego wektora normalnego i lokalnego wektora stycznego *(lokalna oś X)* obliczany jest [iloczyn krzyżowy](https://en.wikipedia.org/wiki/Cross_product). Ten nowy wektor jest używany jako lokalna oś Z. Orientacja lokalnej osi Y jest określana na podstawie lokalnych osi X i Z.
 
 #### Frenet
 
-This mode uses the local normal vector derived from the path at each element placement. If this vector cannot be determined (for example in the case of a straight segment) a default vector, again the positive Z axis, is used instead. With this vector and the local tangent vector the local coordinate system is determined using the same procedure as in the previous paragraph.
-
-#### Tangent
-
-This mode is similar to **Align Mode** {{Value|Original}} but includes the possibility to pre-rotate the source object by specifying a **Tangent Vector**.
-
-### Force Vertical and Vertical Vector 
-
-These properties are only available if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}. If **Force Vertical** is set to `True` the local coordinate system is calculated in a different manner. The **Vertical Vector** is used as a fixed normal vector. From this normal vector and the local tangent vector (the local X axis) again a cross product is calculated. But now this vector is used as the local Y axis. The orientation of the local Z axis is determined from the local X and Y axes.
-
-Using these properties can be required if one of the edged of the path is (almost) parallel to the default normal of the path.
-
-## Properties
-
-See also: [Property editor](property_editor.md).
-
-A Draft PathArray object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
-
-### Data
+Tryb ten wykorzystuje lokalny wektor normalny wyprowadzony ze ścieżki przy każdym umieszczeniu elementu. Jeśli nie można określić tego wektora *(na przykład w przypadku odcinka prostego)*, zamiast niego używany jest wektor domyślny, ponownie dodatnia oś Z. Za pomocą tego wektora i lokalnego wektora stycznego lokalny układ współrzędnych jest określany przy użyciu tej samej procedury, co w poprzednim akapicie.
 
 
-{{TitleProperty|Link}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+### Styczna
 
--    **Scale|Float**
+Tryb ten jest podobny do **Trybu wyrównania** {{Value|Original}}, ale obejmuje możliwość wstępnego obrócenia obiektu źródłowego poprzez określenie **Wektora stycznej**.
+
+
+
+### Wymuś pionowo i Wektor pionowy 
+
+Właściwości te są dostępne tylko wtedy, gdy **Tryb wyrównania** ma wartość {{Value|Original}} lub {{Value|Styczny}}. Jeśli właściowść **Wymuś pionowo** jest ustawione na {{TRUE/pl}}, lokalny układ współrzędnych jest obliczany w inny sposób. **Wektor pionowy** jest używany jako stały wektor normalny. Z tego wektora normalnego i lokalnego wektora stycznego *(lokalna oś X)* ponownie obliczany jest iloczyn krzyżowy. Ale teraz ten wektor jest używany jako lokalna oś Y. Orientacja lokalnej osi Z jest określana na podstawie lokalnych osi X i Y.
+
+Użycie tych właściwości może być wymagane, jeśli jedna z krawędzi ścieżki jest *(prawie)* równoległa do domyślnej normalnej ścieżki.
+
+
+
+## Właściwości
+
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Szyk po ścieżce środowiska Rysunek Roboczy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości *(z wyjątkiem niektórych właściwości Widoku, które nie są dziedziczone przez szyki Łączy)*. Poniższe właściwości są dodatkowe, chyba że zaznaczono inaczej:
+
+
+
+### Dane
+
+
+{{TitleProperty|Łącze}}
+
+Właściwości w tej grupie są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
+
+-    **Skala|Float**
     
 
--    **Scale Vector|Vector|Hidden**
+-    **Wektor skali|Vector|Ukryte**.
+
+-    **Lista skali|VectorList**
     
 
--    **Scale List|VectorList**
+-    **Lista widoczności|BoolList|Ukryte**
     
 
--    **Visibility List|BoolList|Hidden**
+-    **Lista umiejscowienia|PlacementList|Ukryte**
     
 
--    **Placement List|PlacementList|Hidden**
+-    **Lista elementów|LinkList|Ukryte**
     
 
--    **Element List|LinkList|Hidden**
+-    **_ Link Touched|Bool|Ukryte**
     
 
--    **_ Link Touched|Bool|Hidden**
+-    **_ Child Cache|LinkList|Ukryte**
     
 
--    **_ Child Cache|LinkList|Hidden**
+-    **Elementy kolorowe|LinkSubHidden|Ukryte**
     
 
--    **Colored Elements|LinkSubHidden|Hidden**
-    
-
--    **Link Transform|Bool**
-    
-
-
-{{TitleProperty|Alignment}}
-
--    **Align|Bool**: specifies if the elements in the array are aligned along the path or not. If it is `False` all other properties in this group, except **Extra Translation**, do not apply and are hidden.
-
--    **Align Mode|Enumeration**: specifies the align mode, which can be {{Value|Original}}, {{Value|Frenet}} or {{Value|Tangent}}.
-
--    **End Offset|Length**: specifies the length from the end of the path to the last copy. Must be smaller than the length of the path minus the **Start Offset**. <small>(v0.21)</small> 
-
--    **Extra Translation|VectorDistance**: specifies an additional displacement for each element along the path.
-
--    **Force Vertical|Bool**: specifies whether to override the default normal direction with the value of **Vertical Vector**. Only used if **Align Mode** is {{Value|Original}} or {{Value|Tangent}}.
-
--    **Start Offset|Length**: specifies the length from the start of the path to the first copy. Must be smaller than the length of the path. <small>(v0.21)</small> 
-
--    **Tangent Vector|Vector**: specifies the alignment vector. Only used if **Align Mode** is {{Value|Tangent}}.
-
--    **Vertical Vector|Vector**: specifies the override for the default normal direction. Only used if **Vertical Vector** is `True`.
-
-
-{{TitleProperty|Objects}}
-
--    **Base|LinkGlobal**: specifies the object to duplicate in the array.
-
--    **Count|Integer**: specifies the number of elements in the array.
-
--    **Expand Array|Bool**: specifies whether to expand the array in the [Tree view](Tree_view.md) to enable the selection of its individual elements. Only available for Link arrays.
-
--    **Path Object|LinkGlobal**: specifies the object to be used for the path. It must contain {{Value|Edges}} in its [Part TopoShape](Part_TopoShape.md).
-
--    **Path Subelements|LinkSubListGlobal**: specifies a list of edges of the **Path Object**. If supplied only these edges are used for the path.
-
-### View
-
-
-{{TitleProperty|Link}}
-
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
-
--    **Draw Style|Enumeration**
-    
-
--    **Line Width|FloatConstraint**
-    
-
--    **Override Material|Bool**
-    
-
--    **Point Size|FloatConstraint**
-    
-
--    **Selectable|Bool**: this is an inherited property that appears in the Selection group for other arrays
-
--    **Shape Material|Material**
+-    **Przekształcenie łącza|Bool**
     
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Wyrównanie}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+-    **Wyrównaj|Bool**: określa, czy elementy w tablicy są wyrównane wzdłuż ścieżki, czy nie. Jeśli ma wartość {{FALSE/pl}}, wszystkie inne właściwości w tej grupie, z wyjątkiem **Dodatkowe przesunięcie**, nie mają zastosowania i są ukryte.
 
--    **Child View Provider|PersistentObject|Hidden**
+-    **Tryb wyrównania|Enumeration**: określa tryb wyrównania, który może być {{Value|Original}}, {{Value|Frenet}} lub {{Value|Stycznie}}.
+
+-    **Koniec odsunięcia|Length**: określa długość od końca ścieżki do ostatniej kopii. Musi być mniejsza niż długość ścieżki minus **Początek odsunięcia**. {{Version/pl|0.21}}
+
+-    **Dodatkowe przesunięcie|VectorDistance**: określa dodatkowe przemieszczenie dla każdego elementu wzdłuż ścieżki.
+
+-    **Wymuś pionowo|Bool**: określa, czy zastąpić domyślny kierunek normalny wartością **Wektor pionowy**. Używane tylko jeśli **Tryb wyrównania** ma wartość {{Value|Original}} lub {{Value|Styczna}}.
+
+-    **Przesunięcie początkowe|Length**: określa długość od początku ścieżki do pierwszej kopii. Musi być mniejsza niż długość ścieżki. {{Version/pl|0.21}}
+
+-    **Wektor styczny|Vector**: określa wektor wyrównania. Używane tylko jeśli **Tryb wyrównania** jest {{Value|Styczna}}.
+
+-    **Wektor pionowy|Vector**: określa nadpisanie domyślnego kierunku normalnego. Używane tylko jeśli właściwość **Wektor pionowy** ma wartość {{TRUE/pl}}.
+
+
+{{TitleProperty|Obiekty}}
+
+-    **Baza|LinkGlobal**: określa obiekt do powielenia w szyku.
+
+-    **Ilość|Integer**: określa liczbę elementów w szyku.
+
+-    **Rozwiń szyk|Bool**: określa, czy tablica ma zostać rozwinięta w [widoku drzewa](Tree_view/pl.md), aby umożliwić wybór jej poszczególnych elementów. Dostępne tylko dla szyków łączy.
+
+-    **Obiekt ścieżki|LinkGlobal**: określa obiekt, który ma być użyty dla ścieżki. Musi zawierać {{Value|Krawędzie}} w swoim [kształcie topologicznym](Part_TopoShape/pl.md).
+
+-    **Elementy podżędne ścieżki|LinkSubListGlobal**: określa listę krawędzi **Obiektu ścieżki**. Jeśli zostanie podana, tylko te krawędzie są używane dla ścieżki.
+
+
+
+### Widok
+
+
+{{TitleProperty|Łącze}}
+
+Właściwości w tej grupie, z wyjątkiem właściwości dziedziczonej, są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
+
+-    **Styl kreślenia|Enumeration**
     
 
--    **Material List|MaterialList|Hidden**
+-    **Szerokość linii|FloatConstraint**
     
 
--    **Override Color List|ColorList|Hidden**
+-    **Nadpisanie materiału|Bool**
     
 
--    **Override Material List|BoolList|Hidden**
+-    **Rozmiar punktu|FloatConstraint**
     
 
--    **Proxy|PythonObject|Hidden**: this is an inherited property.
+-    **Wybieralny|Bool**: jest to właściwość dziedziczona, która pojawia się w grupie \"Wybór\" dla innych szyków.
+
+-    **Kształt materiału|Material**.
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Podstawa}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Właściwości w tej grupie, z wyjątkiem właściwości dziedziczonej, są dostępne tylko dla szyków łączy. Więcej informacji można znaleźć na stronie [Std: Utwórz łącze](Std_LinkMake/pl#Właściwości.md).
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Dostawca widoku elementu podrzędnego|PersistentObject|Ukryte**.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
-
--    **Show In Tree|Bool**
+-    **Lista materiałów|MaterialList|Ukryte**
     
 
--    **Visibility|Bool**
+-    **Zastąp listę kolorów|ColorList|Ukryte**
+    
+
+-    **Zastąp listę materiałów|BoolList|Ukryte**
+    
+
+-    **Proxy|PythonObject|Ukryte**: jest to właściwość dziedziczona.
+
+
+{{TitleProperty|Opcje wyświetlania}}
+
+Właściwości w tej grupie są dziedziczone. Więcej informacji można znaleźć na stronie [Część: Cecha](Part_Feature/pl#Własności.md).
+
+-    **Ramka otaczająca|Bool**: ta właściwość nie jest dziedziczona przez szyk łączy.
+
+-    **Tryb wyświetlania|Enumeration**: dla szyku Łączy może to być {{value|Link}} lub {{value|ChildView}}. Dla innych szyków może to być: {{value|Cieniowany z krawędziami}}, {{value|Cieniowany}}, {{value|Szkieletowy}} lub {{value|Punkty}}.
+
+-    **Pokaż w drzewie|Bool**
+    
+
+-    **Widoczność|Bool**
     
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Rysunek Roboczy}}
 
--    **Pattern|Enumeration**: not used.
+-    **Wzór|Enumeration**: niewykorzystane.
 
--    **Pattern Size|Float**: not used.
+-    **Rozmiar wzoru|Float**: niewykorzystane.
 
 
-{{TitleProperty|Object style}}
+{{TitleProperty|Styl obiektu}}
 
-The properties in this group are not inherited by Link arrays.
+Właściwości w tej grupie nie są dziedziczone przez szyk łączy.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To create a path array use the `make_path_array` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makePathArray` method.
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby utworzyć Szyk po ścieżce, należy użyć metody `make_path_array` ({{Version/pl|0.19}}) modułu Rysunek Roboczy. Metoda ta zastępuje przestarzałą metodę `makePathArray`.
 
 
 ```python
@@ -222,25 +235,25 @@ path_array = make_path_array(base_object, path_object,
                              use_link=True)
 ```
 
--    `base_object`is the object to be arrayed. It can also be the `Label` (string) of an object in the current document.
+-    `base_object`jest obiektem, który ma być użyty w szyku. Może to być również `Etykieta` *(ciąg znaków)* obiektu w bieżącym dokumencie.
 
--    `path_object`is the path object. It can also be the `Label` (string) of an object in the current document.
+-    `obiekt_ścieżki`jest obiektem ścieżki. Może to być również `Etykieta` *(ciąg znaków)* obiektu w bieżącym dokumencie.
 
--    `count`is the number of elements in the array.
+-    `Ilość`jest liczbą elementów w tablicy.
 
--    `extra`is a vector that displaces each element.
+-    `extra`jest wektorem, który przesuwa każdy element.
 
--    `subelements`is a list of edges of `path_object`, for example `["Edge1", "Edge2"]`. If supplied only these edges are used for the path.
+-    `Element podrzędny`jest listą krawędzi `obiekt_ścieżki`, na przykład `["Edge1", "Edge2"]`. Jeśli zostanie podana, tylko te krawędzie są używane dla ścieżki.
 
--   If `align` is `True` the elements are aligned along the path depending on the value of `align_mode`, which can be `"Original"`, `"Frenet"` or `"Tangent"`.
+-   Jeśli `Wyrównaj` ma wartość {{True/pl}}, elementy są wyrównywane wzdłuż ścieżki w zależności od wartości właściwości `tryb_wyrównania`, która może mieć wartość `"Original"`, `"Frenet"` lub `"Styczna"`.
 
--    `tan_vector`is a unit vector that defines the local tangent direction of the elements along the path. It is used when `align_mode` is `"Tangent"`.
+-    `tan_vector`jest wektorem jednostkowym, który definiuje lokalny kierunek styczny elementów wzdłuż ścieżki. Jest on używany, gdy właściwość `tryb_wyrównania` ma wartość `"Styczna"`.
 
--   If `force_vertical` is `True` `vertical_vector` is used for the local Z direction of the elements along the path. It is used when `align_mode` is `"Original"` or `"Tangent"`.
+-   Jeśli `Wymuś_pionowo` ma wartość {{True/pl}}, `vertical_vector` jest używany dla lokalnego kierunku Z elementów wzdłuż ścieżki. Jest on używany, gdy właściwość `tryb_wyrównania` ma wartość `"Original"` lub `"Styczna"`.
 
--   If `use_link` is `True` the created elements are [App Links](App_Link.md) instead of regular copies.
+-   Jeśli `użyj_łaczy` ma wartość {{True/pl}}, utworzone elementy są obiektami [App: Łącze](App_Link/pl.md) zamiast zwykłych kopii.
 
--    `path_array`is returned with the created array object.
+-    `Szyk_ścieżki`jest zwracany wraz z utworzonym obiektem szyku.
 
 Przykład:
 

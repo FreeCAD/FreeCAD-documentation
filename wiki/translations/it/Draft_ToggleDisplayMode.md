@@ -1,63 +1,34 @@
 ---
  GuiCommand:
    Name: Draft ToggleDisplayMode
-   Name/it: Aspetto
+   Name/it: Commuta modalità di visualizzazione
+   MenuLocation: Utilità , Commuta la visualizzazione normale/reticolo
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft , Utilità , Cambia la visualizzazione
-   Shortcut: **Maiusc** + **Spazio**
+   Shortcut: **Shift** + **Space**
    SeeAlso: Std ToggleVisibility/it
 ---
 
 # Draft ToggleDisplayMode/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+Il comando <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24px;"> **Draft Commuta la modalità di visualizzazione** commuta la proprietà **Display Mode** degli oggetti selezionati tra {{Value|Flat Lines}} e {{Value|Wireframe }}. Quando questa proprietà è impostata su {{Value|Wireframe}} solo i vertici e i bordi di un oggetto sono visibili rendendo possibile visualizzare e selezionare gli oggetti dietro di esso.
 
-<div class="mw-translate-fuzzy">
-
-Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionato su \"Flat Lines\" o \"Wireframe\". Quando è attiva la modalità \"Wireframe\", sono visibili solo i bordi dell\'oggetto. Questo aiuta a selezionare gli oggetti che sono ostruiti da altri oggetti.
-
-
-</div>
-
-<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*L'oggetto frontale ostruisce la vista dell'oggetto nella parte posteriore; pertanto, il primo è impostato su "Wireframe" per facilitare la selezione delloggetto coperto.*
-
-
-</div>
+<img alt="" src=images/Draft_ToggleDisplayMode_example.png  style="width:400px;"> 
+*A sinistra il cubo più grande ostruisce il cubo dietro di esso. A destra la modalità di visualizzazione del cubo più grande è impostata su Wireframe rendendo possibile selezionare una faccia appartenente al cubo più piccolo.*
 
 
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare uno o più oggetti
-2.  Fare clic con il tasto destro e selezionare **Utilità → <img src="images/Draft_ToggleDisplayMode.png" width=16px> [Cambia la visualizzazione](Draft_ToggleDisplayMode/it.md)**, o premere i tasti **Maiusc**+**Spazio**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+1.  Selezionare uno o più oggetti.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Commuta la visualizzazione normale/reticolo](Draft_ToggleDisplayMode/it.md)**.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Commuta la visualizzazione normale/reticolo** dal menu.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Commuta la visualizzazione normale/reticolo** dal menu contestuale [Vista ad albero](Tree_view/it.md) o [Vista 3D](3D_view/it.md) .
+    -   Usare la scorciatoia da tastiera: **Shift**+**Space**.
 
 
 

@@ -4,4 +4,4 @@
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Module/sv
+⏵ [documentation index](../README.md) > Image Module/sv

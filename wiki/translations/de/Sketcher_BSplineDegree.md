@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher BSplineDegree
-   Name/de: Sketcher BSplineDegree
-   MenuLocation: Sketch , B-spline-Werkzeuge , B-Spline-Grad ein- / ausblenden
+   Name/de: Sketcher BSplineGrad
+   MenuLocation: Skizze , Sketcher visuell, B-spline-Informationsschicht ein- / ausblenden , B-Spline-Grad ein- / ausblenden
    Workbenches: Sketcher Workbench/de
    Version: 0.17
    SeeAlso: Sketcher_CompCreateBSpline/de

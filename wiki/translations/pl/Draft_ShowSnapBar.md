@@ -1,26 +1,33 @@
 ---
  GuiCommand:
    Name: Draft ShowSnapBar
-   MenuLocation: Utilities , Show snap toolbar
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap
+   Name/pl: Rysunek Roboczy: Pokaż pasek narzędzi przyciągania
+   MenuLocation: Narzędzia , Pokaż pasek narzędzi przyciągania
+   Workbenches:    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl
 ---
 
 # Draft ShowSnapBar/pl
 
-## Description
 
-The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
 
-## Usage
+## Opis
 
-1.  Select the **Utilities → <img src="images/Draft_ShowSnapBar.svg" width=16px> Show snap toolbar** option from the menu.
+Polecenie <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Pokaż pasek narzędzi przyciągania** wyświetla pasek narzędzi Przyciągania. Niektórzy użytkownicy chcą widzieć ten pasek narzędzi tylko wtedy, gdy polecenie jest aktywne i odpowiednio zmienili swoje [preferencje](Draft_Snap/pl#Ustawienia.md). Dla nich to polecenie jest sposobem na pokazanie paska narzędzi, aby sprawdzić i opcjonalnie zmienić opcje [przyciągania](Draft_Snap/pl.md).
 
-## Notes
 
--   Like any toolbar the Draft Snap toolbar can be toggled using these methods:
-    -   Select the **View → Toolbars → Draft Snap** option from the menu.
-    -   Right-click an empty space in the [toolbar area](Interface.md) and select the **Draft Snap** option from the menu that appears.
+
+## Użycie
+
+1.  Wybierz z menu opcję **Narzędzia → <img src="images/Draft_ShowSnapBar.svg" width=16px> Pokaż pasek narzędzi przyciągania**.
+
+
+
+## Uwagi
+
+-   Jak każdy pasek narzędzi, pasek narzędzi Draft Snap można przełączać za pomocą następujących metod:
+    -   Wybierz z menu opcję **Widok → Paski narzędzi → Rysunek Roboczy - Przyciąganie**.
+    -   Kliknij prawym przyciskiem myszy puste miejsce w obszarze [paska narzędzi](Interface.md) i wybierz opcję **Rysunek Roboczy - Przyciąganie** z wyświetlonego menu.
 
 
 

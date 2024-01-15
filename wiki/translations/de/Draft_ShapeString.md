@@ -28,9 +28,9 @@ Der Befehl Draft Textform ist nicht für normale Notizen gedacht. Dafür sollten
 
 Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unter Windows](#Auswahl_der_Schriftdatei_unter_Windows.md) lesen.
 
-1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_ShapeString.svg" width=16px> [Form von Text](Draft_ShapeString/de.md)** drücken.
-    -   Dem Menüeintrag **Entwurf → <img src="images/Draft_ShapeString.svg" width=16px> Form von Text** auswählen.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_ShapeString.svg" width=16px> [Textform](Draft_ShapeString/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_ShapeString.svg" width=16px> Textform** auswählen.
 2.  Der Aufgabenbereich **Textform** wird geöffnet.
 3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) anklicken, oder die Koordinaten eingeben.
 4.  Wahlweise die Schaltfläche **Punkt zurücksetzen** drücken, um den Punkt auf den Ursprung zurückzusetzen.
@@ -40,6 +40,7 @@ Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unte
     -   Einen Dateipfad im Eingabefeld **Font file** eintragen.
     -   Die Schaltfläche **...** drücken und eine Datei auswählen.
 8.  Die Schaltfläche **OK** drücken, um den Befehl abzuschließen.
+9.  Wahlweise die {{PropertyData/de|Justification}} (Ausrichtung) der Textform anpassen. Siehe [Eigenschaften](#Eigenschaften.md).
 
 
 
@@ -53,9 +54,9 @@ Für Windows-Anwender: Bitte zuerst den Abschnitt [Auswahl der Schriftdatei unte
 
 -   Eine Draft Textform (ShapeString) kann nach einem Doppelklick auf ihr Symbol in der [Baumansicht](Tree_view/de.md) bearbeitet werden. {{Version/de|0.20}}
 -   Die unterstützten Schriftarten enthalten TrueType- (**.ttf**), OpenType- (**.otf**) und Type-1-Schriftarten (**.pfb**).
--   Der Befehl unterstützt nur Text mit Schreibrichtung nach rechts. Zurzeit wird Text mit Schreibrichtung nach links und von oben nach unten nicht unterstützt.
+-   Der Befehl unterstützt nur Text mit Schreibrichtung nach rechts. Text mit Schreibrichtung nach links und von oben nach unten wird nicht unterstützt.
 -   Sehr kleine Schrifthöhen können zu verformten Zeichenumrissen führen, da beim Skalieren Details verlorengehen.
--   Viele Schriftarten erzeugen problematische geometrien. Das liegt daran, dass Schriftkonturen überlappen dürfen, kleine Lücken enthalten dürfen und wechselnde Richtungen innerhalb eines Glyphs besitzen dürfen. Diese Merkmale werden bei Kantenzügen, die zur Erstellung von Flächen dienen, als Fehler angesehen.
+-   Schriftarten können problematische Geometrien erzeugen. Das liegt daran, dass Schriftkonturen überlappen dürfen und kleine Lücken enthalten dürfen. Diese Merkmale werden bei Linienzügen, die zur Erstellung von Flächen dienen, als Fehler angesehen.
 -   Draft Textformen können auch mit dem [Macro Fonts Win10 PYMP](Macro_Fonts_Win10_PYMP.md) erstellt werden.
 -   Um Draft Textformen ringförmig anzuordnen kann das [Macro FCCircularText](Macro_FCCircularText.md) verwendet werden.
 
@@ -85,12 +86,16 @@ See the [Preferences](#Preferences.md) paragraph below for the location of the m
 
 ## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md), [Draft Preferences](Draft_Preferences.md) and [Std DlgParameter](Std_DlgParameter.md).
+Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md), [Draft Einstellungen](Draft_Preferences/de.md) und [Std ParameterDialog](Std_DlgParameter/de.md).
 
--   The default font file can be changed in the preferences: **Edit → Preferences... → Draft → Texts and dimensions → Default ShapeString font file**.
--   For Windows users:
-    -   Set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog** to {{True}} to use the non-native file dialog when selecting a font file from the ShapeString task panel.
-    -   Alternatively, set **Tools → Edit parameters... → BaseApp → Preferences → Dialog → DontUseNativeDialog** to {{True}} to always use the non-native file dialog.
+-   Die Standardschrift kann im Voreinstellungseditor angepasst werden: **Bearbeiten → Einstellungen... → Draft → Texte und Bemaßungen → Standardschriftart für Textformen**.
+-   Für Windows-Anwender:
+    -   
+        **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Dialog → DontUseNativeFontDialog**
+        
+        auf {{True}} setzen, um den non-native Datei-Dialog zu verwenden, wenn eine Schriftart aus dem Aufgaben-Bereich Textform ausgewählt wird.
+
+    -   Alternativ kann **Werkzeuge → Parameter bearbeiten... → BaseApp → Preferences → Dialog → DontUseNativeDialog** auf {{True}} gesetzt werden, um immer den non-native Datei-Dialog zu verwenden.
 
 
 
@@ -107,24 +112,33 @@ Ein Draft ShapeString-Objekt (Textform-Objekt) wird von einem [Part Part2DObject
 
 {{TitleProperty|Draft}}
 
--    {{PropertyData/de|Font File|File}}: gibt den Pfad zur Schriftdatei an, die zum Zeichnen des Textes verwendet wird.
+-    {{PropertyData/de|Font File|File}}: Name der Schriftdatei.
 
--    {{PropertyData/de|Size|Length}}: legt die allgemeine Höhe des Textes fest.
+-    {{PropertyData/de|Fuse|Bool}}: Vereinigt Flächen, wenn sie überlappen. Ist normalerweise nicht erforderlich (kann sehr langsam sein). Wird ignoriert, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist. {{Version/de|0.22}}
 
--    {{PropertyData/de|String|String}}: gibt die anzuzeigende Zeichenkette an. Anders als ein [Draft Text](Draft_Text/de.md) kann eine Draft Textform nur eine einzelne Textzeile anzeigen.
+-    {{PropertyData/de|Justification|Enumeration}}: Horizontales und vertikales Ausrichten. Optionen: {{value|Top-Left}} (oben links), {{value|Top-Center}} (oben mittig), {{value|Top-Right}} (oben rechts), {{value|Middle-Left}} (Mitte links), {{value|Middle-Center}} (Mitte mittig), {{value|Middle-Right}} (Mitte rechts), {{value|Bottom-Left}} (unten links), {{value|Bottom-Center}} (unten mittig), {{value|Bottom-Right}} (unten rechts). {{Version/de|0.22}}
 
--    {{PropertyData/de|Tracking|Length}}: legt den zusätzlichen Abstand zwischen den Zeichen des Textes fest.
+-    {{PropertyData/de|Justification Reference|Enumeration}}: Hohenreferenz, die zum Ausrichten verwendet wird. Optionen: {{value|Cap Height}} (Versalhöhe = Mittel- + Oberlänge), {{value|Shape Height}} (Mittel- + Unterlänge). Shape-Height hängt von den Zeichen in der {{PropertyData/de|String}} ab. {{Version/de|0.22}}
 
+-    {{PropertyData/de|Keep Left Margin|Bool}}: Behält den linken Rand und führende Leerzeichen bei, wenn linksbündig ausgerichtet wird. {{Version/de|0.22}}
 
+-    {{PropertyData/de|Make Face|Bool}}: Erstellt Flächen aus den Konturen der Schriftzeichen.
 
-### Ansicht
+-    {{PropertyData/de|Oblique Angle|Angle}}: Neigungswinkel. Kann Werte zwischen -80° und +80° annehmen. {{Version/de|0.22}}
 
+-    {{PropertyData/de|Scale To Size|Bool}}: Skaliert die Versalhöhe, damit sie der Schrifthöhe gleicht. Wenn auf `False` gesetzt, wird die Versalhöhe, abhängig von der Schriftart, nicht exakt der {{PropertyData/de|Size}} entsprechen. {{Version/de|0.22}}
 
-{{TitleProperty|Draft}}
+-    {{PropertyData/de|Size|Length}}: Schrifthöhe.
 
--    {{PropertyView/de|Pattern|Enumeration}}: legt das [Draft Muster](Draft_Pattern/de.md) fest, mit dem die Flächen des Textes gefüllt werden. Diese Eigenschaft funktioniert nur, wenn die {{PropertyView/de|Display Mode}} auf {{value|Flat Lines}} gesetzt ist.
+-    {{PropertyData/de|String|String}}: Zeichenkette. Eine Textform kann nur eine einzelne Textzeile anzeigen.
 
--    {{PropertyView/de|Pattern Size|Float}}: legt die Größe des [Draft Musters](Draft_Pattern/de.md) fest.
+-    {{PropertyData/de|Tracking|Distance}}: Zeichenzwischenraum. Die Art der Eigenschaft wurde aktualisiert ({{Version/de|0.22}}).
+
+<img alt="" src=images/Draft_ShapeString_Justification.png  style="width:200px;"> 
+*Die Höhe des roten Rechtecks (Vollinie) gleicht der Versalhöhe.<br>
+Höhe des grünen Rechtecks (Strichlinie) gleicht der Mittel- + Unterlänge (shape height).<br>
+Die Eckpunkte, die Mittelpunkte der Kanten und die Mittelpunkte der Rechtecke<br>
+entsprechen den 9 Ausrichtungsoptionen von oben links bis unten rechts.*
 
 
 
@@ -143,7 +157,7 @@ shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 
 -    `Size`ist die Höhe des resultierenden Textes in Millimetern.
 
--    `Tracking`ist der zusätzliche Zeichenabstand (Laufweite) in Millimetern.
+-    `Tracking`ist der Zeichenabstand (Laufweite) in Millimetern.
 
 Die Positionierung der Textform kann durch Überschreiben ihres Attributs `Placement` oder durch individuelles Überschreiben ihrer Attribute `Placement.Base` und `Placement.Rotation` geändert werden.
 

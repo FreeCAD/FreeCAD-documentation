@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Draft Label
-   Name/de: Draft Notiz
+   Name/de: Draft Hinweis
    MenuLocation: Anmerkung , Bezeichnung
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **D** **L**
@@ -15,37 +15,37 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Notiz** erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
+Der Befehl <img alt="" src=images/Draft_Label.svg  style="width:24px;"> **Draft Hinweis** erstellt einen mehrzeiligen Text an einer zweiteiligen Hinweislinie mit Pfeilspitze.
 
-Wenn ein Objekt oder ein Teilelement (Fläche, Kante oder Knotenpunkt) ausgewählt ist, wenn der Befehl aufgerufen wird, kann der Text dazu verwendet werden ein oder zwei Attribute des ausgewählten Elements darzustellen, einschließlich Position, Länge, Volumen und Material. Der Text ist dann mit den Attributen verknüpft und wird aktualisiert, wenn sie ihre Werte ändern.
+Wenn ein Objekt oder ein Teilelement (Fläche, Kante oder Knotenpunkt) ausgewählt ist, wenn der Befehl aufgerufen wird, kann der Text dazu verwendet werden ein oder zwei Attribute des ausgewählten Elements darzustellen, einschließlich Position, Länge, Flächeninhalt, Volumen und Material. Der Text ist dann mit den Attributen verknüpft und wird aktualisiert, wenn sie ihre Werte ändern.
 
 Um stattdessen ein Textelement ohne Hinweispfeil zu erstellen, verwendet man den Befehl [Draft Text](Draft_Text.md).
 
 <img alt="" src=images/Draft_Label_example.jpg  style="width:400px;"> 
-*Verschiedene Notizen mit unterschiedlichen Ausrichtungen, Hinweispfeilen und Informationen*
+*Verschiedene Hinweise mit unterschiedlichen Ausrichtungen, Hinweispfeilen und Informationen*
 
 
 
 ## Anwendung
 
-Siehe auch: [Draft Fach](Draft_Tray/de.md), [Draft Fangen](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Wahlweise ein Objekt oder ein Teilelement (Knotenpunkt, Kante oder Fläche) auswählen, dessen Attribute man darstellen möchte.
-2.  Es gibt mehrere Möglichkeiten denBefehl aufzurufen:
+1.  Wahlweise ein Objekt oder ein Unterelement (Knotenpunkt, Kante oder Fläche) auswählen, dessen Attribute man anzeigen möchte.
+2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
     -   Die Schaltfläche **<img src="images/Draft_Label.svg" width=16px> [Bezeichnung](Draft_Label/de.md)** drücken.
     -   Den Menüeintrag **Anmerkung → <img src="images/Draft_Label.svg" width=16px> Bezeichnung** auswählen.
     -   Das Tastaturkürzel **D** dann **L**.
-3.  Der Aufgabenbereich **Bezeichnung** wird geöffnet. Siehe [Optionen](#Optionen.md) für mehr Informationen.
-4.  Wenn ein Element ausgewählt wurde: Eine Möglichkeit aus dem Ausklappmenü **Label type** auswählen. Siehe [Notizarten](#Notizarten.md) weiter unten.
+3.  Der Aufgaben-Bereich **Beschriftung** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+4.  Wenn ein Element ausgewählt wurde: Einen Eintrag aus dem Ausklappmenü **Labeltyp** auswählen. Siehe [Hinweisarten](#Hinweisarten.md) weiter unten.
 5.  Den ersten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt das Ziel (Pfeilspitze). Es kann irgendwo liegen und muss sich nicht auf einem Element befinden.
 6.  Den zweiten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt den Beginn des horizontalen bzw. vertikalen Abschnitts der Hinweislinie.
-7.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**drücken. Dieser Punkt bestimmt den Basispunkt des Texts.
+7.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken. Dieser Punkt bestimmt den Basispunkt des Texts.
 
 
 
 ## Optionen
 
-Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die voreingestellten Tastenkürzel.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel.
 
 -   Zur manuellen Eingabe der Koordinaten, werden die X-, Y- und Z-Komponenten einzeln eingegeben und jeweils mit **Enter** bestätigt. Es kann auch die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** gedrückt werden, wenn die gewünschten Werte vorhanden sind. Es ist ratsam den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
@@ -59,39 +59,49 @@ Die im Aufgabenbereich vorhandenen Einzelzeichen-Tastaturkürzel können geände
 
 
 
-## Notizarten
+## Hinweisarten
 
-Die folgenden Arten von Notizen stehen zur Verfügung:
+Die folgenden Arten von Hinweisen stehen zur Verfügung:
 
--    {{Value|Custom}}: zeigt den Inhalt der {{PropertyData/de|Custom Text}} an.
+-    {{Value|Benutzerdefiniert}}(Custom): zeigt den Inhalt der {{PropertyData/de|Custom Text}} an.
 
 -    {{Value|Name}}: zeigt den internen Namen des Zielobjekts an; der interne Name wird dem Objekt bei seiner Erstellung zugewiesen und ist während der gesamten Existenz des Objekts unveränderlich.
 
--    {{Value|Label}}: zeigt die Bezeichnung (Label) des Zielobjekts an; die Bezeichnung eines Objekts kann jederzeit vom Benutzer geändert werden.
+-    {{Value|Benennung}}(Label): zeigt die Benennung des Zielobjekts an; die Benennung eines Objekts kann jederzeit vom Benutzer geändert werden.
 
 -    {{Value|Position}}: zeigt die Koordinaten des Basispunktes des Zielobjekts, des Zielknotenpunktes oder des Schwerpunktes des Ziel-Teilelements an, falls vorhanden.
 
--    {{Value|Length}}: zeigt die Länge des Zielobjekts oder des Teilelements an, falls vorhanden.
+-    {{Value|Length}}: zeigt die Länge des Zielobjekts oder des Unterelements an, falls vorhanden.
 
--    {{Value|Area:}}zeigt die Fläche des Zielobjekts oder des Teilelements an, falls vorhanden.
+-    {{Value|Area}}: zeigt den Flächeninhalt des Zielobjekts oder des Unterelements an, falls vorhanden.
 
 -    {{Value|Volume}}: zeigt das Volumen des Zielobjekts an, falls vorhanden.
 
--    {{Value|Tag:}}zeigt das Attribut `Tag` des Zielobjekts an, falls vorhanden. Objekte, die mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) erstellte wurden, können dieses Attribut besitzen.
+-    {{Value|Kennzeichen}}(Tag): zeigt das Attribut `Tag` des Zielobjekts an, falls vorhanden. Objekte, die mit dem Arbeitsbereich [Arch](Arch_Workbench/de.md) erstellt wurden, können dieses Attribut besitzen.
 
--    {{Value|Material:}}zeigt die Bezeichnung des Materials des Zielobjekts an, falls vorhanden
+-    {{Value|Material}}: zeigt die Benennung des Materials des Zielobjekts an, falls vorhanden
+
+-    {{Value| Benennung + Position}}
+    
+
+-    {{Value| Benennung + Länge}}
+    
+
+-    {{Value| Benennung + Flächeninhalt}}
+    
+
+-    {{Value| Benennung + Volumen}}
+    
+
+-    {{Value| Benennung + Material}}
+    
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
 -   Die Richtung des zweiten Abschnitts der Hinweislinie bestimmt die Ausrichtung des Textes. Wenn der Abschnitt horizontal ist und nach rechts zeigt, wird der Text links (-bündig) ausgerichtet und umgekehrt. Wenn der zweite Abschnitt vertikal nach oben zeigt, wird der Text links ausgerichtet. Zeigt er vertikal nach unten, wird der Text rechts ausgerichtet.
-
-
-</div>
+-   Draft-Notizen, die mit [FreeCAD Version 0.21](Release_notes_0.21/de.md) erstellt oder gespeichert werden, sind nicht abwärtskompatibel.
 
 
 
@@ -99,7 +109,7 @@ Die folgenden Arten von Notizen stehen zur Verfügung:
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
+Ein Draft-Hinweis (Label-Objekt) ist von einem [App FeaturePython](App_FeaturePython/de.md)-Objekt abgeleitet und erbt alle seine Eigenschaften. Die folgenden sind, wenn nicht anders angegeben, zusätzliche Eigenschaften:
 
 
 
@@ -128,9 +138,9 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 {{TitleProperty|Target}}
 
--    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
+-    {{PropertyData/de|Target|LinkSub}}(Ziel): Gibt das Objekt und wahlweise das Unterelement an, mit dem der Hinweis verknüpft ist .
 
--    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
+-    {{PropertyData/de|Target Point|Vector}}(Zielpunkt): Gibt die Position der Spitze der Hinweislinie an, d.h. wo der Pfeil befestigt wird.
 
 
 
@@ -139,72 +149,54 @@ Ein Draft Notiz-Objekt ist von einem [App FeaturePython](App_FeaturePython/de.md
 
 {{TitleProperty|Annotation}}
 
--    **Annotation Style|Enumeration**: specifies the annotation style applied to the label. See [Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md).
+-    {{PropertyView/de|Annotation Style|Enumeration}}: Gibt den Beschriftungsstil an, der für den Hinweis verwewendet wird. Siehe [Draft BeschriftungsstilEditor](Draft_AnnotationStyleEditor/de.md).
 
--    **Scale Multiplier|Float**: specifies the general scaling factor applied to the label.
+-    {{PropertyView/de|Scale Multiplier|Float}}: Gibt den allgemeinen Skalierungsfaktor an, der für den Hinweis verwewendet wird. Siehe
 
 
 {{TitleProperty|Display Options}}
 
--    **Display Mode|Enumeration**: specifies how the text is displayed. If it is {{value|World}} the text will be displayed on a plane defined by the **Placement** of the label. If it is {{value|Screen}} the text will always face the screen. This is an inherited property. The mentioned options are the renamed options (<small>(v0.21)</small> ).
+-    {{PropertyView/de|Display Mode|Enumeration}}: Gibt an, wie der Text angezeigt wird. Ist es {{value|World}}, wird der Text auf einer Ebene angezeigt, die durch die {{PropertyData/de|Placement}} des Hinweises festgelegt wird. Ist es {{value|Screen}}, wird der Text immer in Richtung Bildschirm angezeigt. Dies ist eine übernommene Eigenschaft. Die genannten Optionen sind die umbenannten Optionen ({{Version/de|0.21}}).
 
 
 {{TitleProperty|Graphics}}
 
+-    {{PropertyView/de|Arrow Size|Length}}: Legt die Größe des Symbols fest, das der Spitze der Hinweislinie angezeigt wird.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyView/de|Arrow Type|Enumeration}}: Legt die Art des Symbols fest, das der Spitze der Hinweislinie angezeigt wird und die Werte {{value|Dot}} (Punkt), {{value|Circle}} (Ring), {{value|Arrow}} (Pfeil), {{value|Tick}} (Schrägstrich) oder {{value|Tick-2}} (Schrägstrich-2) annehmen kann.
 
-### Ansicht 
+-    {{PropertyView/de|Frame|Enumeration}}: Legt fest, welche Art Rahmen um den Text herum gezeichnet wird. Die Optionen sind zurzeit {{Value|None}} (keiner) oder {{Value|Rectangle}} (Rechteck).
 
--    **Text  Schriftart**: gibt die Schriftart an, die zum Zeichnen des Textes verwendet werden soll. Es kann ein Schriftname sein, wie z. B. \"Arial\", ein Standardstil wie \"sans\", \"serif\" oder \"mono\", eine Familie wie \"Arial,Helvetica,sans\" oder ein Name mit einem Stil wie \"Arial:Bold\". Wenn die angegebene Schriftart nicht auf dem System gefunden wird, wird stattdessen eine generische Schriftart verwendet.
+-    {{PropertyView/de|Line|Bool}}: Legt fest, ob die Hinweislinie angezeigt wird. Auf `False` gesetzt, werden nur der Pfeil und der Text angezeigt.
 
--    **Textgröße**: gibt die Größe des Textes an. Wenn das Etikettenobjekt in der Strukturansicht erstellt wird, aber kein Text in der 3D-Ansicht sichtbar ist, erhöhen Sie die Größe des Textes, bis er sichtbar ist.
+-    {{PropertyView/de|Line Color|Color}}: Legt die Farbe von Hinweislinie und Pfeil fest. Diese wird auch für den Rahmen verwendet ({{Version/de|0.20}}).
 
--    **Textausrichtung**: legt die vertikale Ausrichtung der Grundlinie des Textes in Bezug auf die Führungslinie fest. Sie kann oben, mittig oder unten sein.
-
--    **Textfarbe**: gibt die Farbe des Textes in einem RGB-Tupel (R, G, B) an.
-
--    **Linienbreite**: gibt die Breite des Vorspanns an.
-
--    **Linienfarbe**: legt die Farbe der Führungslinie fest.
-
--    **Pfeilgröße**: legt die Größe des Symbols fest, das an der Spitze der Führungslinie angezeigt wird.
-
--    **Pfeiltyp**: gibt den Typ des Symbols an, das an der Spitze der Führungslinie angezeigt wird, z. B. Punkt, Kreis, Pfeil oder Häkchen.
-
--    **Rahmen**: wenn es \"Rectangle\" ist, wird ein Rahmen um den Text gezeichnet.
-
--    **Linie**: wenn es `True` ist, wird die Führungslinie angezeigt; andernfalls wird nur der Text und das Symbol an der Spitze angezeigt.
-
--    **Anzeigemodus**: wenn es \"3D-Text\" ist, wird der Text an den Szenenachsen ausgerichtet und liegt zunächst auf der XY-Ebene; wenn es \"2D-Text\" ist, zeigt der Text immer zur Kamera.
-
-
-</div>
+-    {{PropertyView/de|Line Width|Float}}: Legt die Breite der Hinweisliie fest. Diese wird auch für den Rahmen verwendet ({{Version/de|0.20}}).
 
 
 {{TitleProperty|Text}}
 
--    **Font Name|Font**: specifies the font used to draw the text. It can be a font name, such as {{value|Arial}}, a default style such as {{value|sans}}, {{value|serif}} or {{value|mono}}, a family such as {{value|Arial,Helvetica,sans}}, or a name with a style such as {{value|Arial:Bold}}. If the given font is not found on the system, a default font is used instead. <small>(v0.21)</small> 
+-    {{PropertyView/de|Font Name|Font}}: Bestimmt die Schriftart, die zum Zeichnen des Textes verwendet wird. Dies kann ein Schriftname sein, wie {{value|Arial}}, eine Stilbezeichnung, wie {{value|sans}}, {{value|serif}} oder {{value|mono}}, eine Familie, wie {{value|Arial,Helvetica,sans}}, oder ein Name mit Stilangabe, wie {{value|Arial:Bold}}. Wird die angegebene Schriftart im System nicht gefunden, wird stattdessen eine Standardschrift verwendet. {{Version/de|0.21}}
 
--    **Font Size|Length**: specifies the size of the letters. The text can be invisible in the [3D view](3D_view.md) if this value is very small. <small>(v0.21)</small> 
+-    {{PropertyView/de|Font Size|Length}}: Bestimmt die Größe der Buchstaben. Der Text kann in der [3D-Ansicht](3D_view/de.md) unsichtbar sein, wenn dieser Wert sehr klein ist. {{Version/de|0.21}}
 
--    **Justification|Enumeration**: specifies the horizontal alignment of the text: {{value|Left}}, {{value|Center}} or {{value|Right}}. Only used if **Straight Direction** is {{Value|Custom}}. Otherwise the horizontal alignment is based on the sign (positive or negative) of **Straight Distance**.
+-    {{PropertyView/de|Justification|Enumeration}}: Bestimmt die horizontale Ausrichtung des Textes: {{value|Left}} (links), {{value|Center}} (Mitte) oder {{value|Right}} (rechts). Wird nur verwendet, wenn {{PropertyData/de|Straight Direction}} auf {{Value|Custom}} gesetzt ist. Andernfalls basiert die horizontale Ausrichtung auf dem Vorzeichen (positiv oder negativ) der {{PropertyData/de|Straight Distance}}.
 
--    **Line Spacing|Float**: specifies the factor applied to the default line height of the text.
+-    {{PropertyView/de|Line Spacing|Float}}: Bestimmt den Faktor, der für den Standardzeilenhöhe des Textes verwendet wird.
 
--    **Max Chars|Integer**: specifies the maximum number of characters on each line of the text.
+-    {{PropertyView/de|Max Chars|Integer}}: Bestimmt die maximale Anzahl von Schriftzeichen in jeder Zeile des Textes.
 
--    **Text Alignment|Enumeration**: specifies the vertical alignment of the text: {{value|Top}}, {{value|Middle}} or {{value|Bottom}}.
+-    {{PropertyView/de|Text Alignment|Enumeration}}: Bestimmt die vertikale Ausrichtung des Textes: {{value|Top}} (oben), {{value|Middle}} (Mitte) oder {{value|Bottom}} (unten).
 
--    **Text Color|Color**: specifies the color of the text.
+-    {{PropertyView/de|Text Color|Color}}: Bestimmt die Farbe des Textes.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Werkzeug Draft Notiz kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus mit der folgenden Funktion verwendet werden:
+Das Werkzeug Draft-Hinweis kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus mit der folgenden Funktion verwendet werden:
 
 
 ```python

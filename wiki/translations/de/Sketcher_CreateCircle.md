@@ -14,8 +14,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug zeichnet einen Kreis durch Wahl zweier Punkte: der Mittelpunkt und ein Punkt entlang des Radius.
-
+Dieses Werkzeug zeichnet einen Kreis durch Auswahl zweier Punkte: der Mittelpunkt und ein Punkt entlang des Radius.
 Beim Starten des Werkzeugs verwandelt sich der Mauszeiger in ein weißes Kreuz mit einem roten Kreissymbol. Die Koordinaten werden neben dem Zeiger in blau in Echtzeit angezeigt.
 
 ![](images/Sketcher_CircleExample1.png‎ ) 

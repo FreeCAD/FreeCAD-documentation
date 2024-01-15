@@ -31,6 +31,8 @@ A kijelölt hálók normálisainak kiegyenlítése.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Jegyzetek

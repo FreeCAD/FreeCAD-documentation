@@ -15,7 +15,7 @@ The **Points Import** command imports a point cloud from a file.
 ## Usage
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Points_Import.svg" width=16px> [Points Import](Points_Import.md)** button.
+    -   Press the **<img src="images/Points_Import.svg" width=16px> [Import Points...](Points_Import.md)** button.
     -   Select the **Points → <img src="images/Points_Import.svg" width=16px> Import Points...** option from the menu.
 2.  Select a point cloud file.
 3.  Press the **Open** button.

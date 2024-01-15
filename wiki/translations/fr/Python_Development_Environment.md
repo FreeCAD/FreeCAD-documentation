@@ -5,6 +5,8 @@
 
 Il existe de nombreux outils disponibles pour le développement de programmes en Python. Les facteurs qui compliquent le développement de Python pour une utilisation avec FreeCAD sont de deux ordres : premièrement, les outils n\'ont aucun support pour les nombreuses structures de données et les points d\'accès de FreeCAD ; deuxièmement, ils ne fonctionnent pas \"dans FreeCAD\". Cela signifie que vous pouvez les utiliser pour développer du code en dehors de FreeCAD et ne pas être en mesure de tester dans l\'environnement cible, ou vous pouvez développer Python dans l\'environnement cible (c\'est-à-dire l\'environnement FreeCAD) mais ne pas avoir de support des outils de développement. Aucune de ces solutions n\'est acceptable.
 
+
+
 ## Contexte
 
 Le développement de logiciels modernes au niveau commercial se fait généralement à l\'aide d\'un ensemble d\'outils génériquement appelés [\'IDE\' pour Environnement de développement](https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement). En général, ces outils comprennent les éléments suivants 3 :
@@ -255,11 +257,15 @@ De nombreux outils existent pour supporter la fonction ci-dessus pour la program
 
 Une liste d\'IDE pour Python se trouve à l\'adresse [Integrated Development Environments for Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
 
+
+
 ## Éditeurs
 
 Il y a un éditeur pour Python qui fait partie de FreeCAD, il est lancé en cliquant sur le bouton Editer de Macro -\> [Macros\...](Std_DlgMacroExecute/fr.md). Si vous souhaitez utiliser un éditeur tiers qui tire parti de votre plate-forme, il existe plusieurs éditeurs Python disponibles, pour de nombreuses plates-formes et avec différents niveaux de fonctionnalité. Un avantage de l\'utilisation d\'un éditeur externe est que la zone d\'affichage de FreeCAD peut être utilisée pour la sortie (à la fois graphique et textuelle vers la console) alors que le code source est affiché dans une autre application. Une liste d\'éditeurs Python pour diverses plateformes est disponible à l\'adresse [Python Editors](https://wiki.python.org/moin/PythonEditors).
 
 Remarque : Pour Macintosh, l\'éditeur de texte [TextWrangler](http://www.barebones.com/products/textwrangler/) fonctionne bien. Il possède une mise en évidence du code et d\'excellentes facilités de recherche. Il existe des options pour exécuter des travaux en Python, mais bien sûr, elles ne fonctionnent pas avec l\'environnement FreeCAD.
+
+
 
 ### Répertoires du code source macro 
 
@@ -283,6 +289,8 @@ Pour modifier le répertoire \"MacroPath\", utilisez Outils-\>Editer paramètres
 FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPath','/me/myself/and/I')
 ```
 
+
+
 ## Débogueur
 
 
@@ -298,6 +306,8 @@ Les **points d\'arrêt** sont des \'pièges\' placés dans le code si le chemin 
 Les **Inspections de variables** sont disponibles pendant la suspension de l\'exécution causée par un point d\'arrêt. Généralement, le contenu des variables peut être visualisé, de nombreux débogueurs prennent également en charge l\'édition du contenu avant la reprise de l\'exécution.
 
 Bien qu\'un débogueur entièrement fonctionnel soit prévu pour FreeCAD, il n\'est pas encore disponible. Cette section détaillera quelques solutions de contournement pour l\'intérim jusqu\'à ce que le débogueur soit disponible.
+
+
 
 ### Points d\'arrêt 
 
@@ -350,6 +360,8 @@ En supposant que la chaîne passée à l\'appel du point d\'arrêt est significa
 
 Pour devenir efficace avec ces points d\'arrêt, passez à la section suivante.
 
+
+
 ### Inspection des variables 
 
 La deuxième fonctionnalité principale d\'un débogueur est d\'examiner et éventuellement de modifier le contenu des variables. Encore une fois, jusqu\'à ce que le débogueur FreeCAD pour Python soit prêt, nous devons dépendre de solutions de contournement.
@@ -398,6 +410,8 @@ On peut supposer que \'Program B\' effectue ensuite des calculs impliquant les v
 ```
 
 Un fait important à connaître avec les variables globales de FreeCAD est qu\'elles existent en mémoire et sont perdues lorsque le programme est quitté. Elles ne sont pas sauvegardées avec les documents mais existent uniquement en mémoire.
+
+
 
 ### Utilisation
 
@@ -528,9 +542,13 @@ Quelques points concernant l\'utilisation des variables globales de FreeCAD :
 
 Il existe un utilitaire [Global Variable Watcher](Macro_Global_Variable_Watcher/fr.md) pour aider à surveiller les variables globales de FreeCAD. Il peut afficher le contenu d\'une variable globale soit sur demande, soit sur une base temporelle.
 
+
+
 ### Conflit d\'espace de nom 
 
 Une chose dont il faut être conscient est qu\'il n\'y a pas de gestion des noms de variables globales par FreeCAD, il y a donc la possibilité de changer une variable depuis le système ou un autre morceau de code. Par conséquent, c\'est une bonne idée de préfixer vos variables avec quelque chose d\'unique comme le nom de la routine. Par exemple pour utiliser une variable d\'une routine appelée \'alpha1\' le nom global pourrait être \'FreeCAD.alpha1MyVariable\'.
+
+
 
 ## Structure de codage 
 
@@ -592,6 +610,8 @@ Pour plus d\'informations sur l\'utilisation de l\'interface graphique PySide, c
 
 Pour plus d\'aide avec le codage Python, il existe une macro écrite pour aider au développement du code Python, elle se trouve à [Python Assistant Window](Macro_Python_Assistant_Window/fr.md).
 
+
+
 ## Mettre tout ça ensemble 
 
 La gestion de l\'écran peut être un défi lors du développement d\'un code qui a une sortie graphique complexe et détaillée comme le fait FreeCAD. Le système suivant fonctionne bien :
@@ -609,6 +629,8 @@ Si le test stub fonctionne à partir d\'une barre d\'outils et qu\'un éditeur e
 
 \"tree\" dans le diagramme fait référence aux navigateurs Combi ou Arboscence, la console Python et la Vue rapport sont combinées dans la fenêtre inférieure et peuvent être sélectionnées par des boutons. L\'utilisation sélective des outils permet d\'optimiser le flux de développement, ce qui n\'est qu\'une idée parmi d\'autres. L\'adaptation se fait sur une base personnelle.
 
+
+
 ## Liens divers 
 
 Quelques autres liens sur les IDE pour Python qui pourraient être intéressants sont :
@@ -617,6 +639,7 @@ Quelques autres liens sur les IDE pour Python qui pourraient être intéressants
 -   [Choosing the Best Python IDE](http://pedrokroger.net/choosing-best-python-ide/)
 -   [Your Development Environment](http://docs.python-guide.org/en/latest/dev/env/)
 -   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
+-   [Utiliser Pyzo Python IDE avec FreeCAD (en)](Pyzo.md)
 
 
 

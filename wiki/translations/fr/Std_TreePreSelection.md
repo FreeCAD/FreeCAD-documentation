@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Std TreePreSelection
    Name/fr: Std Arborescence Préselection
-   MenuLocation: Affichage , Vue en arborescence  , Pré-sélectionner
+   MenuLocation: Affichage , Actions dans la vue en arborescence , Présélectionner
    Workbenches: Tous
    Shortcut: **T** **4**
    Version: 0.19
@@ -12,15 +12,15 @@
 
 ## Description
 
-La commande **Std Pré-sélection** active ou pas le mode Préselection de la [vue en arborescence](tree_view/fr.md). Si ce mode est activé, un objet sur lequel la souris se trouve dans l\'arborescence sera présélectionné (temporairement mis en surbrillance) dans toutes les [vues 3D](3D_view/fr.md) appartenant au document de cet objet.
+La commande **Std Présélection** active ou pas le mode Préselection de la [vue en arborescence](Tree_view/fr.md). Si ce mode est activé, un objet sur lequel la souris se trouve dans l\'arborescence sera présélectionné (temporairement mis en surbrillance) dans toutes les [vues 3D](3D_view/fr.md) appartenant au document de cet objet.
 
 
 
 ## Utilisation
 
-1.  Il existe plusieurs façons d\'appeler la commande :
-2.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Pré-sélectionner** dans le menu déroulant. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
-    -   Sélectionnez l\'option **Affichage → Vue en arborescence  → <img src="images/Std_TreeSyncView.svg" width=16px> Pré-sélectionner** dans le menu.
+1.  Il existe plusieurs façons de lancer la commande :
+2.  \* Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_TreeSyncView.svg" width=16px>** et sélectionnez l\'option **Présélectionner** dans le menu déroulant. Remarque : l\'image du bouton changera en fonction de l\'option sélectionnée.
+    -   Sélectionnez l\'option **Affichage → Actions dans la vue en arborescence → <img src="images/Std_TreeSyncView.svg" width=16px> Présélectionner** du menu.
     -   Utilisez le raccourci clavier: **T** puis **4**.
 
 

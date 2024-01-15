@@ -26,7 +26,7 @@ Toto makro vytváří kružnici opsanou 3 vybraným bodům na kolmicích nebo ve
 Vyberte 3 body nebo tvary ve 3D pohledu a spusťte makro.
 Je-li tvarem přímka, souřadnicí bude střed přímky.
 
-![Circle_on_3\_points](images/Circle_on_3_points.png ) 
+![Circle_on_3_points](images/Circle_on_3_points.png ) 
 
 
 </div>
@@ -91,7 +91,7 @@ Stáhněte je kliknutím pravou myší na obrázek a dejte **Uložit obrázek ja
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Make_Circle_3\_Points.FCMacro**
+**Make_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=
@@ -633,12 +633,12 @@ Podívejte se střídavě pravým a levým okem abyste viděli pohledy samostatn
 
 ## Poděkování
 
-Geneze makra **Draft_Circle_3\_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) s pomocí flachyjoe díky.
+Geneze makra **Draft_Circle_3_Points** [sur le forum (PYTHON) coordonnées d\'un point](http://forum.freecadweb.org/viewtopic.php?f=12&t=3696&sid=17886f953113e162dc9a4a843e1fce94) s pomocí flachyjoe díky.
 Vzorec je od [cercle_3pts.pdf](http://www-obs.univ-lyon1.fr/labo/fc/Ateliers_archives/ateliers_2005-06/cercle_3pts.pdf) a je použit s laskavým svolením autora.
 Vzorec kružnice upravený \" galou_breizh \" do 3D prostoru pochází z [Circumscribed_circle](http://en.wikipedia.org/wiki/Circumscribed_circle)
 Samostatné programy jsou umístěny zde,
-[Macro_Draft_Circle_3\_Points](Macro_Draft_Circle_3_Points.md)
-[Macro_Draft_Circle_3\_Points_3D](Macro_Draft_Circle_3_Points_3D.md)
+[Macro_Draft_Circle_3_Points](Macro_Draft_Circle_3_Points.md)
+[Macro_Draft_Circle_3_Points_3D](Macro_Draft_Circle_3_Points_3D.md)
 
 
 

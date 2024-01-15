@@ -97,7 +97,7 @@ Narzędzia środowiska pracy szkicownika znajdują się w menu Szkic i/lub na ki
 
 -   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Zmień orientacje szkicu](Sketcher_ReorientSketch/pl.md): Umożliwia dołączenie szkicu do jednej z głównych płaszczyzn.
 
--   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md): Sprawdź odchylenie różnych punktów i dopasuj je.
+-   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Sprawdź poprawność szkicu](Sketcher_ValidateSketch/pl.md): Przeanalizuj i napraw szkic, którego nie można już edytować, który ma nieprawidłowe wiązania lub w którym brakuje wiązań zbieżności.
 
 -   <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> [Połącz szkice](Sketcher_MergeSketches.md): Łączy ze sobą dwa lub więcej szkiców.
 
@@ -139,19 +139,19 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 -   <img alt="" src=images/Sketcher_CreateLine.svg  style="width:32px;"> [Utwórz linię na szkicu](Sketcher_CreateLine/pl.md): Rysuje odcinek linii między 2 punktami. Linie są nieograniczone pod względem pewnych wiązań.
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Utwórz łuk](Sketcher_CompCreateArc/pl.md): Jest to ikona menu na pasku narzędzi szkicownika, która zawiera następujące funkcje:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz łuk:
 
   - <img alt="" src=images/Sketcher_CreateArc.svg  style="width:32px;"> [Utwórz łuk w szkicowniku](Sketcher_CreateArc/pl.md): Rysuje odcinek łuku od punktu środka, uwzględniając promień, oraz punkt początkowy i punkt końcowy.
 
   - <img alt="" src=images/Sketcher_Create3PointArc.svg  style="width:32px;"> [Utwórz łuk podając 3 punkty na obwodzie](Sketcher_Create3PointArc.md): Rysuje odcinek łuku z dwóch punktów końcowych i innego punktu na obwodzie.
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Utwórz okrąg \...](Sketcher_CompCreateCircle.md): Jest to ikona menu na pasku narzędzi szkicownika, która zawiera następujące funkcje:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz okrąg:
 
   - <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:32px;"> [Rysuje okrąg przez punkt środkowy i na obwodzie](Sketcher_CreateCircle/pl.md): Rysuje koło na podstawie punktu środkowego i promienia.
 
   - <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Rysuje okrąg podając 3 punkty na obwodzie](Sketcher_Create3PointCircle.md): Rysuje okrąg z trzech punktów na obwodzie.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Utwórz krzywą stożkową](Sketcher_CompCreateConic/pl.md): Szkicownik oferuje poniższe sekcje o kształcie stożka. W przeciwieństwie do krzywych złożonych mogą być one używane z różnego rodzaju wiązaniami, takimi jak [stycznie](Sketcher_ConstrainTangent/pl.md), [punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md), lub [prostopadle](Sketcher_ConstrainPerpendicular.md).
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz stożek:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipsa przez środek](Sketcher_CreateEllipseByCenter/pl.md): Rysuje elipsę według punktu środkowego, głównego promienia i małego promienia.
 
@@ -163,7 +163,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
   -<img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Łuk paraboli](Sketcher_CreateArcOfParabola/pl.md): Rysuje łuk paraboli.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Utwórz krzywą złożoną](Sketcher_CompCreateBSpline/pl.md): Jest to ikona menu na pasku narzędzi Szkicownika, która zawiera następujące polecenia:
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz krzywą złozoną:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Krzywa złożona przez punkty kontrolne](Sketcher_CreateBSpline/pl.md): Rysuje krzywą złożoną za pomocą punktów kontrolnych.
 
@@ -175,7 +175,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Utwórz linię łamaną w szkicu](Sketcher_CreatePolyline/pl.md): Rysuje linię złożoną z wielu segmentów linii. Naciśnięcie klawisza **M** podczas rysowania polilinii przełącza pomiędzy różnymi trybami.
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Komponent utwórz prostokąt](Sketcher_CompCreateRectangles/pl.md): Jest to menu z ikonkami na pasku narzędzi Szkicownika, które zawiera następujące polecenia: {{Version/pl|0.20}}
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz prostokąt:
 
   - <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> [Utwórz prostokąt na szkicu](Sketcher_CreateRectangle/pl.md): Rysuje prostokąt na podstawie 2 przeciwległych punktów.
 
@@ -183,7 +183,7 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Utwórz zaokrąglony prostokąt](Sketcher_CreateOblong/pl.md): Rysuje zaokrąglony prostokąt na podstawie dwóch przeciwległych punktów. {{Version/pl|0.20}}
 
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Utwórz wielokąt foremny \...](Sketcher_CompCreateRegularPolygon/pl.md): Jest to ikona menu na pasku narzędzi szkicownika, która zawiera następujące funkcje:
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz wielokąt foremny:
 
   - <img alt="" src=images/Sketcher_CreateTriangle.svg  style="width:32px;"> [Trójkąt](Sketcher_CreateTriangle.md): Rysuje zwyczajny trójkąt wpisany w okrąg o geometrii konstrukcyjnej.
 
@@ -199,19 +199,25 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
   - <img alt="" src=images/Sketcher_CreateRegularPolygon.svg  style="width:32px;"> [Wielokąt foremny](Sketcher_CreateRegularPolygon/pl.md): Rysuje wielokąt foremny, wybierając liczbę boków i wybierając dwa punkty, środek i jeden róg.
 
--   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Utwórz rowek \...](Sketcher_CreateSlot.md): Rysuje owal, wybierając środek jednego półkola i punkt końcowy drugiego półkola.
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz owal:
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Komponent zaokrąglenie](Sketcher_CompCreateFillets/pl.md): Jest to menu ikon na pasku narzędziowym Szkicownika, które zawiera następujące polecenia:
+  - <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:32px;"> [Utwórz owal](Sketcher_CreateSlot/pl.md): Rysuje owal, wybierając środek jednego półkola i punkt końcowy drugiego półkola.
+
+-   <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Owal na łuku](Sketcher_CreateArcSlot/pl.md): Rysuje owal na łuku.
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Utwórz zaokrąglenie:
 
 -   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> [Utwórz zaokrąglenie](Sketcher_CreateFillet/pl.md): Tworzy zaokrąglenie między dwiema liniami, które nie są równoległe.
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Utwórz zaokrąglenie z zachowaniem wiązań](Sketcher_CreatePointFillet/pl.md): Tworzy zaokrąglenie pomiędzy dwoma liniami które nie są równoległe, zachowując ich *(wirtualny)* punkt przecięcia.
 
--   <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Przytnij krawędź](Sketcher_Trimming/pl.md): Przycina linię, okrąg lub łuk w odniesieniu do klikniętego punktu.
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edytuj krawędź:
 
--   <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Rozszerz krawędź \...](Sketcher_Extend.md): Wydłuża linię lub łuk do linii granicznej, łuku, elipsy, łuku elipsy lub punktu w przestrzeni.
+  - <img alt="" src=images/Sketcher_Trimming.svg  style="width:32px;"> [Przytnij krawędź](Sketcher_Trimming/pl.md): Przycina linię, okrąg lub łuk w odniesieniu do klikniętego punktu.
 
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Podziel](Sketcher_Split/pl.md): Dzieli krawędź na dwie części z zachowaniem większości więzów. {{Version/pl|0.20}}
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Podziel](Sketcher_Split/pl.md): Dzieli krawędź na dwie części z zachowaniem większości więzów. {{Version/pl|0.20}}
+
+  - <img alt="" src=images/Sketcher_Extend.svg  style="width:32px;"> [Rozszerz krawędź \...](Sketcher_Extend.md): Wydłuża linię lub łuk do linii granicznej, łuku, elipsy, łuku elipsy lub punktu w przestrzeni.
 
 -   <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Geometria zewnętrzna](Sketcher_External/pl.md): Tworzy krawędź połączoną z geometrią zewnętrzną.
 
@@ -225,55 +231,51 @@ Poniżej znajdują się narzędzia do tworzenia obiektów.
 
 Wiązania służą do definiowania długości, ustalania reguł pomiędzy elementami szkicu oraz blokowania szkicu wzdłuż osi pionowej i poziomej. Niektóre z tych wiązań wymagają użycia [pomocy](Sketcher_helper_constraint.md).
 
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Wiązanie zbieżności punktów (ujednolicone)](Sketcher_ConstrainCoincidentUnified/pl.md): {{Version/pl|0.22}}
 
-
-#### Więzy geometrii 
-
-Ograniczenia te nie są zależne od danych liczbowych.
-
--   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [32px](Sketcher_ConstrainCoincident.md) [Utwórz wiązanie zgodności \...](Sketcher_ConstrainCoincident/pl.md): Umieszcza punkt na *(zbieżny z)* jednym lub kilku innych punktach. Działa jako wiązanie zbieżności punktów środkowych, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
+-   <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:32px;"> [Wiązanie zbieżności \...](Sketcher_ConstrainCoincident/pl.md): Umieszcza punkt na *(zbieżny z)* jednym lub kilku innych punktach. Działa jako wiązanie zbieżności punktów środkowych, jeśli wybrane są dwa lub więcej okręgów, łuków, elips lub łuków elips.
 
 -   <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:32px;"> [Zwiąż punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md): Umieszcza punkt na innym obiekcie, takim jak linia, łuk lub oś.
 
--   <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Utwórz wiązanie pionowe \...](Sketcher_ConstrainVertical/pl.md): Wyrównuje wybrane linie lub elementy polilinii do rzeczywistej orientacji pionowej. Przed zastosowaniem tego wiązania można wybrać więcej niż jeden obiekt.
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Wiązanie poziomo / pionowo:
 
--   <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md): Wyrównuje wybrane linie lub elementy polilinii do rzeczywistej orientacji poziomej. Przed zastosowaniem tego wiązania można wybrać więcej niż jeden obiekt.
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Wiązanie poziomo / pionowo](Sketcher_ConstrainHorVer/pl.md): \... {{Version/pl|0.22}}
 
--   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Utwórz wiązanie równoległości](Sketcher_ConstrainParallel/pl.md): Wiąże dwie lub więcej linii, równolegle do siebie.
+  - <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:32px;"> [Wiązanie poziome](Sketcher_ConstrainHorizontal/pl.md): Wyrównuje wybrane linie lub elementy polilinii do rzeczywistej orientacji poziomej. Przed zastosowaniem tego wiązania można wybrać więcej niż jeden obiekt.
 
--   <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:32px;"> [Utwórz wiązanie prostopadłości \...](Sketcher_ConstrainPerpendicular/pl.md): Wiąże dwie linie prostopadle do siebie, lub też wiąże linię prostopadłą do punktu końcowego łuku.
+  - <img alt="" src=images/Sketcher_ConstrainVertical.svg  style="width:32px;"> [Wiązanie pionowe](Sketcher_ConstrainVertical/pl.md): Wyrównuje wybrane linie lub elementy polilinii do rzeczywistej orientacji pionowej. Przed zastosowaniem tego wiązania można wybrać więcej niż jeden obiekt.
 
--   <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:32px;"> [Utwórz styczną \...](Sketcher_ConstrainTangent/pl.md): Tworzy wiązanie styczne pomiędzy dwoma wybranymi elementami lub wiązanie współliniowe pomiędzy dwoma segmentami linii. Segment linii nie musi leżeć bezpośrednio na łuku lub okręgu, aby został związany ze styczną do tego łuku lub okręgu.
+-   <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:32px;"> [Wiązanie równoległości](Sketcher_ConstrainParallel/pl.md): Wiąże dwie lub więcej linii, równolegle do siebie.
 
--   <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:32px;"> [Utwórz wiązanie równości](Sketcher_ConstrainEqual/pl.md): Powoduje, że dwie wybrane elementy są sobie równe. Jeśli są używane na okręgach lub łukach, ich promienie będą ustawione jako równe.
+-   <img alt="" src=images/Sketcher_ConstrainPerpendicular.svg  style="width:32px;"> [Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md): Wiąże dwie linie prostopadle do siebie, lub też wiąże linię prostopadłą do punktu końcowego łuku.
 
--   <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:32px;"> [Utwórz wiązanie symetrii \...](Sketcher_ConstrainSymmetric/pl.md): Powoduje symetryczne związanie dwóch punktów względem linii lub też związanie pierwszych dwóch wybranych punktów symetrycznie względem trzeciego wybranego punktu.
+-   <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:32px;"> [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md): Tworzy wiązanie styczne pomiędzy dwoma wybranymi elementami lub wiązanie współliniowe pomiędzy dwoma segmentami linii. Segment linii nie musi leżeć bezpośrednio na łuku lub okręgu, aby został związany ze styczną do tego łuku lub okręgu.
 
--   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Utwórz wiązanie zablokowania](Sketcher_ConstrainBlock.md): blokuje ruch krawędzi, to znaczy zapobiega zmianie aktualnego położenia wierzchołków. Szczególnie przydatne powinno być ustalenie pozycji B-splajnów. Patrz [temat na forum Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
+-   <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:32px;"> [Wiązanie równości](Sketcher_ConstrainEqual/pl.md): Powoduje, że dwie wybrane elementy są sobie równe. Jeśli są używane na okręgach lub łukach, ich promienie będą ustawione jako równe.
 
+-   <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:32px;"> [Wiązanie symetrii](Sketcher_ConstrainSymmetric/pl.md): Powoduje symetryczne związanie dwóch punktów względem linii lub też związanie pierwszych dwóch wybranych punktów symetrycznie względem trzeciego wybranego punktu.
 
+-   <img alt="" src=images/Sketcher_ConstrainBlock.svg  style="width:32px;"> [Wiązanie zablokowania](Sketcher_ConstrainBlock/pl.md): blokuje ruch krawędzi, to znaczy zapobiega zmianie aktualnego położenia wierzchołków. Szczególnie przydatne powinno być ustalenie pozycji B-splajnów. Patrz [temat na forum Block Constraint](https://forum.freecadweb.org/viewtopic.php?f=9&t=26572).
 
-#### Wiązania wymiarów 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Wiązanie wymiaru:
 
-Są to wiązania ściśle powiązane z danymi liczbowymi, dla których można użyć [wyrażeń](Expressions/pl.md). Dane mogą być pobierane ze środowiska pracy [arkusza kalkulacyjnego](Spreadsheet_Workbench/pl.md).
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Wiązanie odległości](Sketcher_Dimension/pl.md): \... {{Version/pl|0.22}}
 
--   <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Utwórz wiązanie blokady odległości \...](Sketcher_ConstrainLock/pl.md): Powoduje związanie wybranego elementu poprzez ustawienie odległości pionowych i poziomych w stosunku do punktu początkowego, blokując w ten sposób lokalizację tego elementu. Odległości te można później edytować.
+  - <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:32px;"> [Wiązanie blokady odległości](Sketcher_ConstrainLock/pl.md): Powoduje związanie wybranego elementu poprzez ustawienie odległości pionowych i poziomych w stosunku do punktu początkowego, blokując w ten sposób lokalizację tego elementu. Odległości te można później edytować.
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Ustal poziomą odległość \...](Sketcher_ConstrainDistanceX/pl.md): Ustala poziomą odległość pomiędzy dwoma punktami lub punktami końcowymi linii. Jeśli wybrana jest tylko jedna pozycja, odległość jest ustawiana względem punktu początkowego.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:32px;"> [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md): Ustala poziomą odległość pomiędzy dwoma punktami lub punktami końcowymi linii. Jeśli wybrana jest tylko jedna pozycja, odległość jest ustawiana względem punktu początkowego.
 
--   <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Ustal pionową odległość \...](Sketcher_ConstrainDistanceY/pl.md): Ustala pionową odległość pomiędzy dwoma punktami lub punktami końcowymi linii. Jeśli wybrana jest tylko jedna pozycja, odległość jest ustawiana względem punktu początkowego.
+  - <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:32px;"> [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md): Ustala pionową odległość pomiędzy dwoma punktami lub punktami końcowymi linii. Jeśli wybrana jest tylko jedna pozycja, odległość jest ustawiana względem punktu początkowego.
 
--   <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Wiązanie odległości \...](Sketcher_ConstrainDistance/pl.md): Określa długość prostej, odległość prostopadłą między punktem a prostą, odległość między dwoma punktami lub, {{Version/pl|0.21}}, odległość między krawędziami dwóch okręgów.
+  - <img alt="" src=images/Sketcher_ConstrainDistance.svg  style="width:32px;"> [Wiązanie odległości](Sketcher_ConstrainDistance/pl.md): Określa długość prostej, odległość prostopadłą między punktem a prostą, odległość między dwoma punktami lub, {{Version/pl|0.21}}, odległość między krawędziami dwóch okręgów.
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Komponent zwiąż łuk lub okrąg](Sketcher_CompConstrainRadDia/pl.md): Jest to menu ikonek na pasku narzędziowym wiązań Szkicownika, które zawiera następujące polecenia:
-
-  - <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md): Definiuje promień łuku lub okręgu albo wagę bieguna krzywej złożonej.
+  -  <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:32px;"> [Wiązanie promienia](Sketcher_ConstrainRadius/pl.md): Definiuje promień łuku lub okręgu albo wagę bieguna krzywej złożonej. 
 
   - <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:32px;"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md): Definiuje średnicę wybranego łuku lub okręgu.
 
-  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Zwiąż automatycznie promień . średnicę](Sketcher_ConstrainRadiam/pl.md): Definiuje promień łuku, średnicę okręgu lub wagę bieguna krzywej złożonej. {{Version/pl|0.20}}.
+  - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Zwiąż automatycznie promień / średnicę](Sketcher_ConstrainRadiam/pl.md): Definiuje promień łuku, średnicę okręgu lub wagę bieguna krzywej złożonej. {{Version/pl|0.20}}.
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Ustaw kąt linii \...](Sketcher_ConstrainAngle/pl.md): Określa kąt wewnętrzny między dwiema wybranymi liniami.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Wiązanie kąta](Sketcher_ConstrainAngle/pl.md): Określa kąt wewnętrzny między dwiema wybranymi liniami.
 
 
 
@@ -313,6 +315,10 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 -   <img alt="" src=images/Sketcher_SelectVerticalAxis.svg  style="width:32px;"> [Wybierz oś pionową](Sketcher_SelectVerticalAxis/pl.md): Wybór osi pionowej szkicu.
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Geometria odsunięcia](Sketcher_Offset/pl.md): Dodaje obrys w równej odległości wokół wybranych krawędzi. {{Version/pl|0.22}}
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Przemieszczenie biegunowe](Sketcher_Rotate/pl.md): \... {{Version/pl|0.22}}
+
 -   <img alt="" src=images/Sketcher_Symmetry.svg  style="width:32px;"> [Tworzy symetryczna geometrię \...](Sketcher_Symmetry/pl.md): Tworzy kopię wybranego elementu, symetrycznie względem wybranej linii.
 
 -   <img alt="" src=images/Sketcher_Clone.svg  style="width:32px;"> [Tworzy proste kopie elementu \...](Sketcher_Clone/pl.md): Klonuje wybrany element w szkicowniku.
@@ -333,16 +339,6 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 ### Narzędzia szkicownika dla krzywych złożonych 
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md) Pokazuje lub ukrywa wyświetlanie stopnia krzywej złożonej.
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md) Pokazuje lub ukrywa wyświetlanie wielokąta definiującego krzywą złożoną.
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md) Pokazuje lub ukrywa wyświetlanie grzebienia krzywizny krzywej złożonej.
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zwiększ / zmniejsz wielokrotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md) Pokazuje lub ukrywa wyświetlanie krotności węzła krzywej złożonej.
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Wyświetl / ukryj wagę punktu kontrolnego krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md) Pokazuje lub ukrywa wyświetlanie wag dla punktów kontrolnych krzywej złożonej.
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Konwertuj geometrie na krzywą złożoną](Sketcher_BSplineApproximate/pl.md) Konwertuje kompatybilną geometrię, krawędzie i krzywe na krzywą złożoną.
 
 -   <img alt="" src=images/Sketcher_BSplineIncreaseDegree.svg  style="width:32px;"> [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md) Zwiększa stopień (kolejność) krzywej złożonej.
@@ -359,9 +355,21 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 
 
-### Wirtualna przestrzeń szkicownika 
+### Wygląd w szkicowniku 
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Przełącz przestrzeń wirtualną](Sketcher_SwitchVirtualSpace/pl.md): Umożliwia ukrycie wszystkich wiązań szkicu i ponowne ich wyeksponowanie.
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md) Pokazuje lub ukrywa wyświetlanie stopnia krzywej złożonej.
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md) Pokazuje lub ukrywa wyświetlanie wielokąta definiującego krzywą złożoną.
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md) Pokazuje lub ukrywa wyświetlanie grzebienia krzywizny krzywej złożonej.
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Zwiększ / zmniejsz wielokrotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md) Pokazuje lub ukrywa wyświetlanie krotności węzła krzywej złożonej.
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Wyświetl / ukryj wagę punktu kontrolnego krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md) Pokazuje lub ukrywa wyświetlanie wag dla punktów kontrolnych krzywej złożonej.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Pokaż / ukryj okrąg pomocniczy dla łuków](Sketcher_ArcOverlay/pl.md): TBD. {{Version/pl|0.22}}
 
 
 

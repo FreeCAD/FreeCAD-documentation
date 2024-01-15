@@ -12,7 +12,7 @@
 
 ## Description
 
-Cette équation décrit la déformation élastique non linéaire des corps rigides.
+Cette équation décrit la déformation élastique non linéaire des corps solides.
 
 Pour plus d\'informations sur les mathématiques de l\'équation, voir le [manuel des modèles d\'Elmer (en)](http://www.elmerfem.org/blog/documentation/), section *Finite Elasticity*.
 
@@ -46,7 +46,7 @@ L\'équation de déformation fournit ces paramètres spéciaux :
 
 -    **Neo Hookean Model**: utilise le modèle de matériau néo-hookéen.
 
--    **Variable**: variable pour l\'équation d\'élasticité. Changez ici le *3* en *2* si vous avez une géométrie 2D. Dans le cas particulier où **Mixed Formulation** et **Neo Hookean Model** sont réglés à *true*, le nombre de variables doit être égal aux dimensions de la géométrie + 1, donc pour une géométrie 3D, le *3* doit être remplacé par *4*.
+-    **Variable**: variable pour l\'équation de déformation. Changez ici le *3* en *2* si vous avez une géométrie 2D. Dans le cas particulier où **Mixed Formulation** et **Neo Hookean Model** sont réglés à *true*, le nombre de variables doit être égal aux dimensions de la géométrie + 1, donc pour une géométrie 3D, le *3* doit être remplacé par *4*.
 
 Équation :
 
@@ -54,23 +54,23 @@ L\'équation de déformation fournit ces paramètres spéciaux :
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies :
+L\'équation de déformation prend en compte les caractéristiques d\'analyse suivantes si elles sont définies :
 
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Contrainte d\'immobilisation](FEM_ConstraintFixed/fr.md)
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Contrainte de déplacement](FEM_ConstraintDisplacement/fr.md)
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Contrainte de pression](FEM_ConstraintPressure/fr.md)
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Contrainte de poids propre](FEM_ConstraintSelfWeight/fr.md)
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md)
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Condition de limite fixe](FEM_ConstraintFixed/fr.md)
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Condition limite de déplacement](FEM_ConstraintDisplacement/fr.md)
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Charge d\'effort](FEM_ConstraintForce/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Température initiale](FEM_ConstraintInitialTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Charge de pression](FEM_ConstraintPressure/fr.md)
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Charge de gravité](FEM_ConstraintSelfWeight/fr.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Ressort](FEM_ConstraintSpring/fr.md)
 
 
 
 ### Remarque
 
--   Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+-   Sauf pour les calculs en 2D, pour toutes les caractéristiques d\'analyse ci-dessus, il est important qu\'elles agissent sur une face. Les caractéristiques en 3D définies comme des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 
 

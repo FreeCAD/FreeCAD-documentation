@@ -8,9 +8,13 @@
 |Date=2021-03-10
 |Version=2.0.1
 |FCVersion=<small>(v0.17)</small> 
+|Download=[https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png ikonka paska narzędziowego]
 |Download=[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]
-|Links=[https://github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 forum FreeCAD - AeroFoil]
+|Links=[https://github.com/melwyncarlo/AeroFoil Personal Github - AeroFoil]<br>[https://github.com/melwyncarlo/AeroFoil/blob/main/AeroFoil.zip?raw=true AeroFoil.zip]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 forum FreeCAD - AeroFoil]
+<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/ObjectCreation FC Github - AeroFoil]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56162 FC Forum - AeroFoil]
 }}
+
+
 
 ## Opis
 
@@ -19,6 +23,8 @@
 ![](images/AeroFoil-reduced.png )    Ikonka makrodefinicji **Skrzydło samolotu**.
 
 Makro Skrzydło samolotu można pobrać za pomocą wbudowany w program FreeCAD [Menadżer dodatków](Std_AddonMgr/pl.md).
+
+
 
 ####  Główne cechy 
 
@@ -33,6 +39,8 @@ Makro Skrzydło samolotu można pobrać za pomocą wbudowany w program FreeCAD [
 -   Parser funkcji krzywych symetrycznych i asymetrycznych.
 -   Parser danych z plików tekstowych DAT i arkuszy kalkulacyjnych CSV.
 -   Wprowadzanie długości cięciwy w mm, cm, m, in, ft i yards.
+
+
 
 ####  Dodatkowe właściwości {{VersionPlus/pl|0.19}} 
 
@@ -75,6 +83,7 @@ Opis : Typy danych wejściowych makrodefinicji Skrzydło samolotu
 
 \]\]
 
+
 ## Instalacja
 
 ####  Linux
@@ -96,6 +105,8 @@ Domyślnie, katalog Makro użytkownika FreeCAD powinien znajdować się w lokali
 
 C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
+
+
 ## Użycie
 
 \"Skrzydło samolotu\" można załadować, wykonując następujące czynności:
@@ -108,6 +119,8 @@ C:/Users/User_Name/AppData/Roaming/FreeCAD/Macro
 
 Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w poszczególnych oknach dialogowych, uzupełnij odpowiednie dane wejściowe i wykonaj odpowiednią nawigację. W przypadku wystąpienia błędu lub ostrzeżenia, zostaniesz automatycznie poinformowany o tym fakcie. Jeżeli zostaniesz powiadomiony o nieoczekiwanym błędzie, poinformuj o nim, podając wersję programu FreeCAD, opisując podjęte kroki i informując, czy *(i w jakim stopniu)* został wygenerowany jakikolwiek wynik.
 
+
+
 ####  Uwagi
 
    
@@ -115,6 +128,8 @@ Po załadowaniu makra Skrzydło samolotu postępuj zgodnie z instrukcjami w posz
   *(2)*   Właściwości obiektu AeroFoil są widoczne tylko w wersji programu FreeCAD 0.19. W starszych wersjach pojawi się ostrzeżenie na konsoli. Ostrzeżenie to nie będzie miało wpływu na dane wyjściowe.
           
    
+
+
 
 ####  Wskazówki, o których należy pamiętać podczas pracy: 
 
@@ -152,6 +167,8 @@ Podpis: Wstępnie zdefiniowane znaki i funkcje
 
 \]\]
 
+
+
 ## Tworzenie skryptów 
 
 
@@ -164,7 +181,7 @@ __Date__          = "2021-03-09"
 __Comment__       = "AeroFoil creates airfoil curves and faces using pre-defined models, algebraic functions, and DAT or CSV Files"
 __Web__           = "https://github.com/melwyncarlo/AeroFoil"
 __Wiki__          = "http://www.freecadweb.org/wiki/index.php?title=Macro_AeroFoil"
-__Icon__          = "AeroFoil_UI_Files/AeroFoil.svg"
+__Icon__          = "https://wiki.freecad.org/images/5/59/AeroFoil-reduced.png"
 __Help__          = "Click on the AeroFoil button/macro, and follow the instructions in the subsequent dialog boxes."
 __Status__        = "stable"
 __Requires__      = "Freecad >= v0.17"
@@ -208,6 +225,8 @@ AeroFoil_UI_Files/AeroFoil_mfb_img.gif, AeroFoil_UI_Files/AeroFoil.svg"
 
 
 {{Codeextralink|https://raw.githubusercontent.com/melwyncarlo/AeroFoil/main/AeroFoil.FCMacro}}
+
+
 
 ## Odnośniki internetowe 
 

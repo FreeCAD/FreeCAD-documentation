@@ -10,63 +10,45 @@
 
 # Arch Structure/de
 
+
+
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das [Arch Struktur](Arch_Structure/de.md)-Werkzeug ermöglicht die Konstruktion von Bauelementen wie Ständern oder Querträgern, indem Breite, Länge und Höhe angegeben werden, oder das Element aus einem 2D-Profil heraus erzeugt wird (Fläche, Kantenzug oder Skizze).
-
-
-</div>
+Das Werkzeug [Arch Struktur](Arch_Structure/de.md) ermöglicht die Konstruktion von Strukturlementen wie Stützen oder Balken, indem Breite, Länge und Höhe angegeben werden, oder das Element aus einem 2D-Profil heraus erzeugt wird (Fläche, Kantenzug oder Skizze).
 
 Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügbar, die eine schnelle Errichtung von Strukturelementen aus einem vordefinierten Standardprofil erlaubt.
 
 ![](images/Arch_Structure_example.jpg ) 
 *Ein Träger basierend auf einem 2D-Profil; eine Stütze und ein Träger definiert durch Höhe, Länge und Breite, ohne ein Basisprofil; eine metallische Struktur basierend auf einer 2D-Oberfläche*.
 
+
+
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wählen Sie eine 2D-Form (Draft-Objekt, Fläche oder Skizze) (optional)
-2.  Drücken Sie den **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)
-**-Knopf oder die Tasten **S** und **T**
-3.  Passen Sie die Eigenschaften des Objektes Ihren Erfordernissen an.
+1.  Eine 2D-Form (Draft-Objekt, Fläche oder Skizze) auswählen (optional).
+2.  Die Schaltfläche **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)
+** drücken oder das Tastaturkürzel **S** dann **T**
+3.  Die gewünschten Eigenschaften anpassen.
 
 
-</div>
 
 ## Optionen
 
-
-<div class="mw-translate-fuzzy">
-
--   Wenn keine Basis-2D-Objekte ausgewählt sind, besitzt das Struktur-Werkzeug
-
-zwei Zeichenmodi: Säule und Träger:
-
--   -   Im Säulenmodus ist ein Punkt in der Ansicht oder durch Eingabe von Koordinaten anzugeben. Das neue strukturelle Objekt wird an diesem Punkt platziert.
+-   Wenn keine Basis-2D-Objekte ausgewählt sind, besitzt das Struktur-Werkzeug zwei Zeichenmodi: Säule und Träger:
+    -   Im Säulenmodus ist ein Punkt in der Ansicht oder durch Eingabe von Koordinaten anzugeben. Das neue strukturelle Objekt wird an diesem Punkt platziert.
     -   Im Trägermodus sind zwei Punkte in der Ansicht oder durch Eingabe von Koordinaten anzugeben. Das neue strukturelle Objekt wird sich zwischen diesen beiden Punkt erstrecken.
-
--   Strukturelemente haben die gleichen gemeinsamen Eigenschaften und das Verhalten aller [Architekturkomponenten](Arch_Component/de.md).
-
--   Drücken von **Esc** oder **Cancel** bricht das aktuelle Kommando ab.
-
--   Ein Doppelklick auf das Element in der Baumansicht wechselt in den Editiermodus für das Objekt. In diesem Modus können dem Objekt Ergänzungen oder Aussparungen hinzugefügt werden.
-
--   Im Editiermodus ist es ebenfalls möglich, [Achsensysteme](Arch_Axis/de.md) zum Bauelement hinzuzufügen. Wird ein Achsensystem hinzugefügt, wird das Bauelement auf jede Achse kopiert. Werden zwei Achsensysteme hinzugefügt, wird das Bauelement auf jeden Achsenschnittpunkt kopiert.
+-   Strukturelemente haben die gleichen gemeinsamen Eigenschaften und das Verhalten aller [Arch-Komponenten](Arch_Component/de.md).
+-   Drücken von **Esc** oder **Cancel** bricht den laufenden Befehl ab.
+-   Ein Doppelklick auf das Element in der Baumansicht wechselt in den Bearbeitungsmodus für das Objekt. In diesem Modus können dem Objekt Ergänzungen oder Aussparungen hinzugefügt werden.
+-   Im Bearbeitungsmodus ist es ebenfalls möglich, [Achsensysteme](Arch_Axis/de.md) zum Bauelement hinzuzufügen. Wird ein Achsensystem hinzugefügt, wird das Bauelement auf jede Achse kopiert. Werden zwei Achsensysteme hinzugefügt, wird das Bauelement auf jeden Achsenschnittpunkt kopiert.
 
 
-</div>
 
 ## Eigenschaften
 
+
+
 ### Daten
-
-
-<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Tool}}: Ein optionaler Extrusionspfad, der jede Art von Linienzug sein kann. Falls diese Eigenschaft leer ist, wird die Extrusion gerade sein und in der durch die Normal-Eigenschaft angegebenen Richtung erfolgen
 
@@ -83,13 +65,14 @@ zwei Zeichenmodi: Säule und Träger:
 -    {{PropertyData/de|Nodes Offset}}: Knotenabstand zwischen der (Mittel)achse (centerline) und den Knotenlinien.
 
 
-</div>
 
 ### Ansicht
 
 -    {{PropertyView/de|Nodes Type}}: Der Typ für Knotenpunkte dieses Objekts, linear oder area.
 
 -    {{PropertyView/de|Show Nodes}}: Zeigt oder versteckt die Knotenpunkte.
+
+
 
 ## Voreinstellungen
 
@@ -105,15 +88,14 @@ Mit der Schaltfläche **Switch L/H** können die Werte von Länge und Höhe vert
 <img alt="" src=images/Arch_precast_example.jpg  style="width:960px;"> 
 *Einige Voreinstellungen für vorgefertigte Betonstukturen*
 
+
+
 ## Knotenpunkte
 
 Bauelemente haben auch die Fähigkeit, Knotenpunkte anzuzeigen. Knotenpunkte sind eine Reihe von 3D-Punkten, die in einer *Nodes*-Eigenschaft gespeichert sind. Durch Umschalten der *Show Nodes*-Ansicht-Eigenschaft (on/off) kann man die Knotenpunkte eines Bauelements sehen:
 
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Sichtbarmachung von Knotenpunkten für eine Reihe von Bauelementen*
-
-
-<div class="mw-translate-fuzzy">
 
 -   Knoten werden automatisch berechnet und aktualisiert, solange man sie nicht manuell ändert. Wenn Du das getan hast, werden sie nicht aktualisiert, wenn sich die Form des Struktur-Objekts ändert, außer Du benutzt das \"Reset Nodes\"-Werkzeug weiter unten.
 -   Arch-Strukturen können nicht nur lineare Knoten haben, sondern auch planare Knoten. Dafür müssen 1- mindestens drei Vektoren in der \"Nodes\"-Eigenschaft des Objekts vorhanden sein, 2- die \"NodesType\"-Eigenschaft des ViewObject auf \"Area\" gesetzt sein
@@ -126,30 +108,15 @@ Bauelemente haben auch die Fähigkeit, Knotenpunkte anzuzeigen. Knotenpunkte sin
     -   Umschalten der Anzeige aller Knoten aller Bauelemente des Dokuments (on/off)
 
 
-</div>
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
-## Scripting 
+## Skripten
 
 
 **Siehe auch:**
 
-[Arch API](Arch_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
+[Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Struktur-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus über folgende Funktion angesprochen werden:
-
-
-</div>
+Das Werkzeug Struktur kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden:
 
 
 ```python

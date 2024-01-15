@@ -10,6 +10,8 @@
 
 # Draft Upgrade/pl
 
+
+
 ## Opis
 
 Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Ulepsz kształt** ulepsza wybrane obiekty. Wynik zależy od liczby wybranych obiektów i ich typu. Polecenie może na przykład łączyć elementy i tworzyć ściany. Warto spróbować uaktualnić wybrane obiekty kilka razy, aby zobaczyć czy można uzyskać lepszy rezultat. Zobacz przykład na obrazku. Należy pamiętać, że nie wszystkie obiekty można uaktualnić. To polecenie jest odpowiednikiem polecenia środowiska pracy Rysunek Roboczy [Rozbij kształt](Draft_Downgrade/pl.md).
@@ -17,19 +19,25 @@ Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Uleps
 <img alt="" src=images/Draft_Upgrade_example.jpg  style="width:400px;"> 
 *Otwarta nieedytowalna linia łamana jest przekształcana w linię zamkniętą, a następnie w ścianę. Zamknięta, nieedytowalna, kwadratowa linia jest również przekształcana w ścianę. Dwie ściany są następnie ulepszane, aby utworzyć złożenie, które jest ostatecznie ulepszane do pojedynczego edytowalnego szkicu polilinii.*
 
+
+
 ## Użycie
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów.
 2.  Polecenie można wywołać na kilka sposobów:
-    -   Naciśnij przycisk **<img src="images/Draft_Upgrade.svg" width=16px> [Ulepsza wybrane obiekty ...](Draft_Upgrade/pl.md)**,
+    -   Naciśnij przycisk **<img src="images/Draft_Upgrade.svg" width=16px> '''Ulepsz kształt'''**,
     -   Z menu wybierz opcję **Modyfikacja → <img src="images/Draft_Upgrade.svg" width=16px> Ulepsz kształt
 **
     -   Użyj skrótu klawiszowego **U**, a następnie **P**,
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
 
+
+
 ## Uwagi
 
 -   elementy środowiska pracy Rysunek Roboczy takie jak [linia](Draft_Line/pl.md) i [polilinia](Draft_Wire/pl.md) można łączyć za pomocą tego polecenia, ale także za pomocą polecenia [Połącz](Draft_Join/pl.md) lub [Polilinia](Draft_Wire/pl.md).
+
+
 
 ## Tworzenie skryptów 
 

@@ -24,11 +24,15 @@ The following software must be installed to support the build process.
 
 Homebrew is a command line based package manager for macOS. The [Homebrew main page](https://brew.sh/) provides an installation command line that you simply paste into a terminal window.
 
+
+
 ### CMake
 
 CMake is a build tool that generates a build configuration based on variables you specify. You then issue the \'make\' command to actually build that configuration. The command-line version of CMake is automatically installed as part of the Homebrew installation, above. If you prefer to use a GUI version of CMake, you can download it from [here](https://www.cmake.org/downloadDownload).
 
-## Install Dependencies 
+
+
+## Instalacja zależności 
 
 FreeCAD maintains a Homebrew \'cask\' which installs the required formulas and dependencies. Issue the following brew commands in your terminal.
 

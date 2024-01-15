@@ -24,8 +24,8 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
 
 1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton ![](images/Draft_tray_button_style.png ) de la [Draft Barre](Draft_Tray/fr.md). En fonction des paramètres de style en cours, ce bouton peut avoir un aspect différent.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style** dans le menu.
-    -   Utilisez le raccourci clavier : **S** puis **S**. {{Version/fr|0.20}}
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style** du menu.
+    -   Utilisez le raccourci clavier : **S** puis **S**.
 2.  Le panneau de tâches **Paramètres de style** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Modifiez éventuellement un ou plusieurs paramètres.
 4.  Appuyez sur le bouton **OK** pour enregistrer les paramètres.
@@ -33,31 +33,11 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
 
 ## Options
 
--   Dans la liste déroulante en haut du panneau des tâches, un style sortant peut être sélectionné. {{Version/fr|0.20}}
--   Appuyez sur le bouton **<img src="images/Document-save.svg" width=16px> Enregistrer le style** pour enregistrer les paramètres du style. {{Version/fr|0.20}}
--   Dans la section **Lignes et faces**, les paramètres suivants peuvent être spécifiés :
+-   Dans la liste déroulante située en haut du panneau des tâches, il est possible de sélectionner un préréglage de style existant.
+-   Cliquez sur le bouton **<img src="images/Document-save.svg" width=16px>** pour enregistrer les paramètres de style en cours en tant que préréglage.
+-   Dans la section **Formes**, les paramètres suivants peuvent être spécifiés :
     -   
-        **Couleur de la ligne**
-        
-        . Elle est également utilisée pour les annotations ({{Version/fr|0.21}}) et pour la **Point Color** des objets.
-
-    -   
-        **Epaisseur de la ligne**
-        
-        . Ce paramètre est également utilisé pour les annotations ({{Version/fr|0.21}}) et pour l\'affichage des propriétés des objets (**Point Size**).
-
-    -   
-        **Style de représentation**
-        
-        .
-
-    -   
-        **Mode d'affichage**
-        
-        .
-
-    -   
-        **Couleur de la forme**
+        **Couleur des formes**
         
         .
 
@@ -65,34 +45,89 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         **Transparence**
         
         .
--   Les paramètres de la section **Annotations** s\'appliquent aux [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Etiquettes](Draft_Label/fr.md). Les paramètres suivants peuvent être spécifiés (voir [Draft Texte](Draft_Text/fr#Vue.md) pour plus de détails) :
+
     -   
-        **Police de caractère**
+        **Couleur des lignes**
         
         .
 
     -   
-        **Taille du texte**
+        **Largeur des lignes**
         
-        . Il s\'agit en fait de la hauteur de la ligne, les lettres sont plus petites.
+        .
 
+    -   
+        **Couleur des points**
+        
+        . {{Version/fr|0.22}}
+
+    -   
+        **Taille des points**
+        
+        . {{Version/fr|0.22}}
+
+    -   
+        **Style de trait**
+        
+        .
+
+    -   
+        **Mode d'affichage**
+        
+        .
+-   Les paramètres de la section **Annotations** s\'appliquent aux [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Étiquettes](Draft_Label/fr.md). Les paramètres suivants peuvent être spécifiés (voir [Draft Texte](Draft_Text/fr#Vue.md) pour plus de détails) :
     -   
         **Couleur du texte**
         
-        . Utilisé aussi par **Couleur de ligne** de [Draft Dimensions](Draft_Dimension/fr.md), qui définit la couleur de toute la dimension, y compris le texte.
+        .
+
+    -   
+        **Nom de la police**
+        
+        .
+
+    -   
+        **Taille de la police**
+        
+        . Il s\'agit en fait de la hauteur de ligne par défaut, les lettres sont plus petites.
 
     -   
         **Espacement des lignes**
         
-        . Non utilisé pour les dimensions. {{Version/fr|0.20}}
+        . Non utilisé pour les dimensions.
+
+    -   
+        **Multiplicateur d'échelle**
+        
+        . C\'est l\'inverse de l\'échelle définie dans le [widget d\'échelle d\'annotation](Draft_annotation_scale_widget/fr.md). Si l\'échelle est {{value|1:100}}, le multiplicateur est {{value|100}}. {{Version/fr|0.22}}
 -   Dans la section **Dimensions**, les paramètres suivants peuvent être spécifiés (voir [Draft Dimension](Draft_Dimension/fr#Vue.md) pour plus de détails) :
     -   
-        **Style de flèche**
+        **Couleur des lignes et des flèches**
+        
+        . {{Version/fr|0.22}}
+
+    -   
+        **Largeur des lignes**
+        
+        . {{Version/fr|0.22}}
+
+    -   
+        **Type des flèches**
         
         .
 
     -   
-        **Taille de la flèche**
+        **Taille des flèches**
+        
+        .
+
+    -   
+        **Afficher l'unité**
+        
+        .
+
+    -   
+        **Remplacer l'unité**
         
         .
 
@@ -107,64 +142,28 @@ La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Dr
         . {{Version/fr|0.21}}
 
     -   
-        **Dépassement des lignes d'extension**
+        **Dépassement des extensions**
         
         . {{Version/fr|0.21}}
 
     -   
         **Espacement du texte**
         
-        . {{Version/fr|0.20}}
-
-    -   
-        **Afficher les unités**
-        
         .
-
-    -   
-        **Substitution d'unité**
-        
-        .
--   Appuyez sur le bouton **<img src="images/Draft_SetStyle.svg" width=16px> Sélectionné** pour appliquer les paramètres aux objets ou groupes sélectionnés. Les objets peuvent être sélectionnés lorsque le panneau des tâches est ouvert. {{Version/fr|0.20}}
--   Appuyez sur le bouton **<img src="images/Draft_Text.svg" width=16px> Annotations** pour appliquer les paramètres à tous les [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Étiquettes](Draft_Label/fr.md) du document en cours. {{Version/fr|0.21}}
+-   Appuyez sur le bouton **<img src="images/Draft_SetStyle.svg" width=16px> Sélectionné** pour appliquer les paramètres aux objets ou groupes sélectionnés. Les objets peuvent être sélectionnés lorsque le panneau des tâches est ouvert.
+-   Cliquez sur le bouton **<img src="images/Draft_Text.svg" width=16px> Annotations** pour appliquer les paramètres aux [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Étiquettes](Draft_Label/fr.md) dans le document en cours. <small>(v0.21)</small> 
 -   Appuyez sur le bouton **Annuler** pour terminer la commande sans enregistrer les paramètres.
 
 
 
 ## Remarques
 
--   Les paramètres **Couleur de ligne**, **Largeur de ligne**, **Couleur de la forme** et **Transparence** ne sont pas seulement utilisés pour les objets Draft, mais aussi pour les objets créés avec d\'autres ateliers.
+-   Les paramètres de la section **Formes**, à l\'exception de **Style de trait** et **Mode d'affichage**, sont utilisés non seulement pour les objets Draft, mais aussi pour les objets créés avec d\'autres ateliers.
+-   Tous les paramètres, à l\'exception de **Style de trait** et **Mode d'affichage**, peuvent également être modifiés dans les préférences. Voir [PartDesign Préférences](PartDesign_Preferences/fr#Aspect_de_la_forme.md) et [raft Préférences](Draft_Preferences/fr#Textes_et_dimensions.md).
 -   Les styles sont enregistrés dans un fichier au nom fixe : **StylePresets.json** stocké dans le dossier utilisateur de FreeCAD **Draft** :
-    -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Mod/** ({{VersionPlus/fr|0.20}}) ou **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/fr|0.19}}).
+    -   Sous Linux, il s\'agit généralement de **/home/<username>/.local/share/FreeCAD/Draft/**.
     -   Sous Windows, il s\'agit du dossier **%APPDATA%\FreeCAD\\Draft**, qui est généralement sous **C:\Users\<username>\Appdata\Roaming\FreeCAD\Draft**.
     -   Sous macOS, il s\'agit généralement de **/Users/<username>/Library/Preferences/FreeCAD/Draft/**.
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
-Les préférences suivantes sont en jeu :
-
--   Couleur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Couleur de la ligne** et **Couleur des points**.
--   Largeur de ligne : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés par défaut de la vue de la forme → Largeur de ligne** et **Taille des points**.
--   Style de dessin : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultDrawStyle**.
--   Mode d\'affichage : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultDisplayMode**.
--   Couleur de la forme : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Propriétés d'affichage par défaut de la forme → Couleur de la forme**.
--   Transparence : **Edition → Préférences... → Part/Part Design → Apparence de la forme → Transparence de la forme**.
--   Police du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour le texte → Famille de polices**.
--   Taille du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour le texte → Taille de police**.
--   Couleur du texte : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → DefaultTextColor**.
--   Espacement des lignes : **Outils → Editer paramètres... → BaseApp → Preferences → Mod → Draft → LineSpacing**.
--   Style de flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Style des flèches**.
--   Taille de la flèche : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Taille des flèches**.
--   Dépassement des lignes de dimension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Dépassement des lignes de dimension**.
--   Lignes d\'extension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Lignes d'extension**.
--   Dépassement des lignes d\'extension : Lignes d\'extension : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les dimensions → Dépassement des lignes d'extension**.
--   Espacement du texte : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Espacement du texte**.
--   Afficher les unités : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Afficher le suffixe de l'unité aux dimensions**.
--   Remplacement de l\'unité : **Edition → Préférences... → Draft → Textes et cotes → Paramètres pour les cotations → Remplacer l'unité**.
 
 
 

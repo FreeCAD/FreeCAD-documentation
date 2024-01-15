@@ -1,5 +1,5 @@
 # FreeCAD vector math library/de
-## Einführung
+## Einleitung
 
 Dies ist eine [Python](Python/de.md)-Modul mit einigen nützlichen Funktionen zur Manipulation von Vektoren. Diese Bibliothek ist im [Draft-Arbeitsbereich](Draft_Workbench/de.md) enthalten und kann so vom Python-Interpreter aus aufgerufen werden: 
 ```python
@@ -9,6 +9,8 @@ import DraftVecUtils
 Bitte beachte, dass dieses Modul vor langer Zeit erstellt wurde, als die `Vector`-Klasse viele ihrer Methoden noch nicht hatte. Nun können diese Operationen von der Vector-Klasse selbst erledigt werden.
 
 Obwohl das `DraftVecUtils`-Modul weiterhin existiert und es immer noch im [Draft-Arbeitsbereich](Draft_Workbench/de.md) benutzt wird, ist es vermutlich besser, für neue Entwicklungen direkt die `Vector`-Methoden zu verwenden.
+
+
 
 ## Funktionen
 

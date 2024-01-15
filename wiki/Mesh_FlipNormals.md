@@ -16,7 +16,7 @@ The **Mesh FlipNormals** command reverses, flips, the normals of mesh objects.
 
 1.  Select one or more mesh objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_FlipNormals.svg" width=16px> [Mesh FlipNormals](Mesh_FlipNormals.md)** button.
+    -   Press the **<img src="images/Mesh_FlipNormals.svg" width=16px> [Flip normals](Mesh_FlipNormals.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_FlipNormals.svg" width=16px> Flip normals** option from the menu.
 
 ## Notes

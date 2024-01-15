@@ -1,179 +1,87 @@
 ---
  GuiCommand:
    Name: FEM EquationDeformation
-   MenuLocation: Solve , Mechanical equations , Deformation equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie deformacji
+   MenuLocation: Rozwiąż , Równania mechaniczne , Równanie deformacji
+   Workbenches: FEM_Workbench/pl
    Version: 0.21
-   SeeAlso: FEM_EquationElasticity, FEM_tutorial
+   SeeAlso: FEM_EquationElasticity/pl, FEM_tutorial/pl
 ---
 
 # FEM EquationDeformation/pl
 
 
-</div>
 
+## Opis
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+To równanie opisuje nieliniowo sprężystą deformację ciał stałych.
 
-## Description
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Finite Elasticity** *(nieliniowa sprężystość)*.
 
 
-</div>
 
+## Użycie
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationDeformation.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równania mechaniczne → Równanie deformacji** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-This equation describes the nonlinear elastic deformation of rigid bodies.
 
 
-</div>
+## Ustawienia solvera 
 
+Dla ogólnych ustawień solvera zobacz [ustawienia solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+Równanie deformacji posiada następujące specjalne ustawienia:
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Finite Elasticity*.
+-    **Calculate Pangle**: Czy kąty główne mają być wyznaczone.
 
+-    **Calculate Principal**: Czy wszystkie naprężenia mają być wyznaczone.
 
-</div>
+-    **Calculate Strains**: Czy odkształcenia mają być wyznaczone. Wyznaczy też naprężenia, nawet jeśli **Calculate Principal** lub **Calculate Stresses** jest ustawione na {{false/pl}}.
 
+-    **Calculate Stresses**: Czy naprężenia mają być wyznaczone. W porównaniu z **Calculate Principal**, naprężenia zredukowane wg kryterium Tresci i naprężenia główne nie zostaną wyznaczone.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Initialize State Variables**: Zobacz instrukcję Elmera aby uzyskać więcej informacji.
 
-## Usage
+-    **Mixed Formulation**: Zobacz instrukcję Elmera aby uzyskać więcej informacji.
 
+-    **Neo Hookean Model**: Używa modelu materiałowego neo-Hookean.
 
-</div>
+-    **Variable**: Zmienna dla równania deformacji. Zmień tam *3* na *2* jeśli masz geometrię 2D. Dla szczególnego przypadku gdy **Mixed Formulation** i **Neo Hookean Model** są ustawione na {{true/pl}}, wartość zmiennej musi być przestrzenią geometrii + 1, więc dla 3D należy zmienić wartość z *3* na *4*.
 
+Równanie:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-    **Plane Stress**: Wyznacza rozwiązanie zgodnie z teorią płaskiego stanu naprężeń. Stosowane tylko do geometrii 2D.
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationDeformation.svg  style="width:24px;"> or the menu **Solve → Mechanical equations → Deformation equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
 
 
-</div>
+## Informacje o cechach analizy 
 
+Równanie deformacji uwzględnia następujące cechy analizy jeśli są zdefiniowane:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+-   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Warunek brzegowy utwierdzenia](FEM_ConstraintFixed/pl.md)
+-   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md)
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Obciążenie siłą](FEM_ConstraintForce/pl.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Warunek początkowy temperatury](FEM_ConstraintInitialTemperature/pl.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Obciążenie ciśnieniem](FEM_ConstraintPressure/pl.md)
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Obciążenie grawitacją](FEM_ConstraintSelfWeight/pl.md)
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Sprężyna](FEM_ConstraintSpring/pl.md)
 
-## Solver Settings 
 
 
-</div>
+### Uwaga
 
+-   Oprócz analiz 2D, dla wszystkich cech analizy istotne jest żeby były zdefiniowane dla ścian. Cechy w 3D przypisane do linii i wierzchołków nie są rozpoznawane przez solver Elmer.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
 
+## Wyniki
 
-</div>
+Dostępne wyniki zależą od [ustawień solvera](#Ustawienia_solvera.md). Jeśli żadna z właściwości **Calculate *** nie została ustawiona na {{true/pl}} to obliczone zostaną tylko przemieszczenia. W przeciwnym wypadku dostępne będą też odpowiednie dodatkowe wyniki.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-The deformation equation provides these special settings:
-
--    **Calculate Pangle**: If the principal angles should be calculated.
-
--    **Calculate Principal**: If all stresses should be calculated.
-
--    **Calculate Strains**: If strains will be calculated. This will also calculate the stresses, even if **Calculate Principal** or **Calculate Stresses** is *false*.
-
--    **Calculate Stresses**: If stresses should be calculated. Compared to **Calculate Principal** the Tresca yield criterion and the principal stress will not be calculated.
-
--    **Initialize State Variables**: See the Elmer manual for more info.
-
--    **Mixed Formulation**: See the Elmer manual for more info.
-
--    **Neo Hookean Model**: Uses the neo-Hookean material model.
-
--    **Variable**: The variable for the elasticity equation. Change there the *3* to *2* if you have a 2D geometry. For the special case that you have **Mixed Formulation** and **Neo Hookean Model** set to *true*, the variable number must be geometry dimensions + 1, so for 3D geometry the *3* must be changed to *4*.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-Equation:
-
--    **Plane Stress**: Computes solution according to the plane stress situation. Applies only for 2D geometry.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Constraint Information 
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The elasticity equation takes the following constraints into account if they are set:
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed.md)
--   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Constraint displacement](FEM_ConstraintDisplacement.md)
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight.md)
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md)
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Note
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
--   Except for calculations in 2D, for all above constraints it is important that they act on a face. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-## Results
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-The available results depend on the [solver settings](#Solver_Settings.md). If none of the **Calculate *** settings was set to *true*, only the displacement is calculated. Otherwise also the corresponding results will be available.
-
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

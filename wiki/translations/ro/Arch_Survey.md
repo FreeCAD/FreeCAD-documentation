@@ -77,7 +77,7 @@ Când se colectează o astfel de informație, se întâmplă mai multe lucruri:
 
 <div class="mw-translate-fuzzy">
 
-Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Partși](Part_Workbench.md) este ușor reproductibil cu următorul script:
+Modul Survey nu poate fi folosit direct de la scripturile Python, dar culegerea acelorași informații din oricare dintre obiectele Part selectate [Part](Part_Workbench.md)și este ușor reproductibil cu următorul script:
 
 
 </div>

@@ -9,6 +9,8 @@
 
 # PartDesign Body/pt-br
 
+
+
 ## Descrição
 
 A [PartDesign Body](PartDesign_Body.md) is the base element to create solids shapes with the [PartDesign Workbench](PartDesign_Workbench.md). It can contain [sketches](Sketch.md), [datum objects](Datum.md), and [PartDesign Features](PartDesign_Feature.md) that help in building a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md).
@@ -19,6 +21,8 @@ Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](3D_view.md).*
+
+
 
 ## Utilização
 
@@ -32,10 +36,14 @@ If a solid object is selected:
 
 1.  Press the **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)** button. A new Body is created containing a single **Base Feature**. This Base Feature element is a simple reference to another object previously created or imported into the document. See [Base Feature](PartDesign_Body#Base_Feature.md) for more information. An existing Body or [PartDesign Feature](PartDesign_Feature.md) cannot be selected when pressing **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)**.
 
+
+
 ## Notas
 
 -   If no Body currently exists when **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)** is pressed, a new Body will be automatically created. If a Body already exists, it has to be made active before using **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [New sketch](PartDesign_NewSketch.md)**.
 -   Double-click the Body in the [tree view](tree_view.md) or open the context menu (right-click) and select **Toggle active body** to activate or deactivate the Body. If another Body is active, it will be deactivated. See [active status](PartDesign_Body#Active_status.md) for more information.
+
+
 
 ## Propriedades
 
@@ -160,7 +168,7 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 The Base Feature is the first [PartDesign Feature](PartDesign_Feature.md) in the Body when the Body is based on another solid shape. This solid can be created by any workbench, or imported from an external file, for example, a STEP file.
 
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
-*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+*Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.*
 
 To create the Base Feature:
 

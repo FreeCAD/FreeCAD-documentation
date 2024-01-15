@@ -1,11 +1,11 @@
 ---
- TutorialInfo:
-   Topic: Finite Element Analysis
-   Level: Beginner
+ TutorialInfo:l
+   Topic: Analiza metodą elementów skończonych
+   Level: Początkujący
    Time: 30 min
    Author: https://wiki.freecadweb.org/User:Sudhanshu_Dubey Sudhanshu Dubey
-   FCVersion: 0.19 or above
-   Files: Created programmatically
+   FCVersion: 0.19 lub nowszy
+   Files: Tworzone automatycznie
 ---
 
 # FEM Example Capacitance Two Balls/pl
@@ -14,110 +14,134 @@
 
 
 
-## Introduction
 
-This example is meant to show how to simulate the 6th example of [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, using the new [FEM Examples](FEM_Examples.md). It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualize the results using [Clip Filter](FEM_PostFilterClipRegion.md).
+
+## Wprowadzenie
+
+Ten przykład pokazuje jak zasymulować przypadek 6 z dokumentu [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls** (Równanie elektrostatyczne -- Pojemność elektryczna dwóch kul) przy pomocy [Przykładów MES](FEM_Examples/pl.md). Wyjaśnia jak ustawić przykład, przeanalizować jego różne części, rozwiązać używając [solvera Elmer](FEM_SolverElmer/pl.md) i zwizualizować wyniki za pomocą [filtra przycinania](FEM_PostFilterClipRegion/pl.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1000px;"> 
-*The final result of this tutorial*
+*Wynik końcowy tego przykładu*
 
-## Requirements
 
--   A compatible version of FreeCAD designated in the tutorial overview.
 
-    :   Use the **Help → About FreeCAD** to see the version of FreeCAD installed
--   No external software is needed for loading the example, viewing the mesh and geometry as well as for visualizing the results.
--   For solving the finite element analysis (FEA), the solver software Elmer must be installed on your computer. See [this page](FEM_SolverElmer#Installation.md) for how to install Elmer.
+## Wymagania
 
-## Set up the example 
+-   Kompatybilna wersja programu FreeCAD wskazana w opisie przykładu.
 
-### Load FEM Workbench 
+    :   Użyj opcji **Pomoc → Informacje o FreeCAD** aby sprawdzić jaka wersja programu jest zainstalowana
+-   Do wczytania przykładu, obejrzenia siatki i geometrii oraz wizualizacji wyników nie jest wymagane żadne zewnętrzne oprogramowanie.
+-   Do przeprowadzenia analizy metodą elementów skończonych (MES), solver ELmer musi być zainstalowany na komputerze. Zobacz [tę stronę](FEM_SolverElmer/pl#Instalacja.md) aby dowiedzieć się jak zainstalować solver Elmer.
 
--   Start FreeCAD, the Start Workbench should be loaded
--   Switch to <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM workbench](FEM_Workbench.md).
 
-### Load the example 
 
--   Go to **Utilities → [<img src=images/FEM_Examples.svg style="width:24px"> Open FEM examples**.
--   When the GUI opens, find and open \"Electrostatics Capacitance Two Balls\". You can easily find the example in **All** or in **Solvers → Elmer**. For opening the example, either double click on it or select it and click **Setup**.
+## Ustaw przykład 
+
+
+
+### Załaduj środowisko pracy MES 
+
+-   Uruchom FreeCAD, moduł Start powinien być załadowany
+-   Przełącz się na <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [środowisko pracy MES](FEM_Workbench/pl.md).
+
+
+
+### Załaduj plik przykładu 
+
+-   Idź do **Narzędzia → [<img src=images/FEM_Examples.svg style="width:24px"> Otwórz przykłady**.
+-   Gdy otworzy się okno dialogowe, znajdź i otwórz przykład \"Electrostatics Capacitance Two Balls\". Możesz go łatwo znaleźć w kategoriach **All** lub **Solvers → Elmer**. Aby otworzyć przykład, kliknij na nim dwukrotnie lub zaznacz go i wciśnij przycisk **Setup**.
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
 
-## Understanding the Simulation Case 
 
-This case presents the solution of the capacitance of perfectly conducting balls in free space. A voltage difference between the balls results to electric charge being introduced to the system. The balls have also self-capacitance that comes from the voltage difference with the far field. Therefore a symmetric capacitance matrix with of size 2 × 2 needs to be solved. The capacitances may be computed from two different voltage configurations.
 
-## Understanding the Model 
+## Zrozumienie przypadku obliczeniowego 
 
--   The model contains three spheres.
+Ten przypadek przedstawia rozwiązanie pojemności elektrycznej doskonale przewodzących kul w wolnej przestrzeni. Różnica napięć między kulami wywołuje ładunek elektryczny w układzie. Kule mają też własną pojemność elektryczną, która wynika z różnicy napięć z dalekim otoczeniem. Zatem rozwiązania musi być symetryczna macierz 2 x 2 pojemności elektrycznej. Pojemności mogą być obliczone z dwóch różnych konfiguracji napięć.
 
-1.  The two smaller ones are the perfectly conducting balls.
-2.  The bigger one is to simulate the surrounding air.
 
--   The two smaller spheres are fused together and then that fusion is is cut from the bigger sphere.
+
+## Zrozumienie modelu 
+
+-   Model zawiera trzy kule.
+
+1.  Dwie mniejsze są doskonale przewodzące.
+2.  Większa symuluje otaczające powietrze.
+
+-   Dwie mniejsze kule są ze sobą scalone a następnie wycięte z większej kuli.
 
 <img alt="" src=images/Two_balls_model_full.png  style="width:1000px;"> 
-*The initial model*
+*Początkowy model*
 
-## Analysis container and its objects 
 
-The objects used in this electrostatic analysis:
 
-1.  <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Analysis container
+### Kontener analizy i jego obiekty 
+
+Obiekty używane w tej analizie elektrostatycznej:
+
+1.  <img alt="" src=images/FEM_Analysis.svg  style="width:24px;"> Kontener analizy
 2.  <img alt="" src=images/FEM_SolverElmer.svg  style="width:24px;"> SolverElmer
-3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> Electrostatic, the electrostatics equation
-4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width:24px;"> FemMaterial, a fluid material to represent the surrounding air
-5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> ElectrostaticPotential, constraints (3 of them)
-6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, optional
-7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, a [Gmsh](FEM_MeshGmshFromShape.md) mesh
-8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, a mesh region for the smaller spheres
+3.  <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:24px;"> Electrostatic, równanie elektrostatyczne
+4.  <img alt="" src=images/FEM_MaterialFluid.svg  style="width:24px;"> FemMaterial, materiał płynu reprezentujący otaczające powietrze
+5.  <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> ElectrostaticPotential, warunki brzegowe (trzy)
+6.  <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> ConstantVaccumPermittivity, opcjonalne
+7.  <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh, siatka [Gmsh](FEM_MeshGmshFromShape/pl.md)
+8.  <img alt="" src=images/FEM_MeshRegion.svg  style="width:24px;"> MeshRegion, obszar siatki dla mniejszych kul
 
 ![](images/Two_balls_analysis.png ) 
-*The objects as they appear in the [Tree view](Tree_view.md)*
+*Obiekty w [widoku drzewa](Tree_view/pl.md)*
 
-## Running the FEA 
 
--   In [Tree view](Tree_view.md) double click on the solver object <img alt="" src=images/FEM_SolverElmer.svg  style="width:24px;">.
--   Click on **Write** file in the same task panel. Watch the log window until it prints \"write completed.\" You can ignore the warning about the vacuum permittivity that might appear.
--   Click on **Run**. Since this is a small analysis it should take a few seconds to run so wait till you see \"ELMER SOLVER FINISHED AT\" in the output.
--   Click on **Close** in the task panel after the run is finished.
--   Two new result objects should be created in the tree view, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult and <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 
-If you get an error message on solver binary or similar when triggering the analysis, check [the installation](FEM_SolverElmer#Installation.md) of Elmer.
+### Uruchamianie analizy 
 
-## Visualizing Results 
+-   W [widoku drzewa](Tree_view/pl.md) dwukrotnie kliknij na obiekcie solvera <img alt="" src=images/FEM_SolverElmer.svg  style="width:24px;">.
+-   Wciśnij przycisk **Zapisz** w tym samym panelu zadań. Obserwuj okno dziennika aż pojawi się w nim komunikat \"write completed.\" Możesz zignorować ewentualne ostrzeżenie o przenikalności elektrycznej próżni.
+-   Wciśnij przycisk **Uruchom**. Jest to mała analiza, więc powinna trwać tylko kilka sekund. Poczekaj aż zbaczysz komunikat \"ELMER SOLVER FINISHED AT\".
+-   Wciśnij przycisk **Zamknij** w panelu zadań po zakończeniu analizy.
+-   W widoku drzewa utworzone zostaną dwa nowe obiekty wyników, <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult oraz <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
 
--   Make sure the mesh is invisible. If not, select the <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh object and press **Space** to toggle the visibility.
--   Also make sure the Cut object is invisible.
--   Double click on the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object to ope its task dialog.
--   Change the \"Field\" to \"potential\" and press **OK**.
--   You will notice that the color of the sphere has changed to blue and that the gradient on the right is showing values from 0 to 1. It should look something like this:
+Jeśli podczas uruchamiania analizy pojawi się błąd o pliku wykonywalnym solvera lub zbliżony, sprawdź [instalację](FEM_SolverElmer/pl#Instalacja.md) solvera Elmer.
+
+
+
+### Wizualizacja wyników 
+
+-   Upewnij się, że siatka jest niewidoczna. Jeśli tak nie jest, wybierz <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> obiekt siatki i wciśnij klawisz **Spacja** aby przełączyć widoczność.
+-   Upewnij się też, że obiekt Cut jest niewidoczny.
+-   Dwukrotnie kliknij na obiekcie <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult aby otworzyć jego okno dialogowe.
+-   Zmień \"Pole\" na \"potential\" i kliknij **OK**.
+-   Zobaczysz, że kula zmieniła kolor na niebieski a gradient po prawej stronie pokazuje wartości od 0 do 1. Powinno to wyglądać mniej więcej tak:
 
 <img alt="" src=images/Two_balls_potential.png  style="width:1000px;">
 
-## Post Processing the Result 
 
--   While we have successfully visualised the potential result, currently we are only seeing the zero potential in the air surrounding the two balls. To view the potential on the balls we need to apply a [clip filter](FEM_PostFilterClipRegion.md).
--   In the tree view select the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object and then from the tool bar click on the button **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Region Clip Filter**.
--   This will open a dialog with the filter configurations. Click there on the button **<img src="images/list-add.svg" width=16px> Create** and choose <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. This adds a plane through the center of the sphere at which the result mesh is cut. To smooth the cut face, check the option **Cut Cells**. Eventually click **Apply**.
+
+## Obróbka wyników 
+
+-   Chociaż poprawnie zwizualizowaliśmy wyniki potencjału, widzimy tylko zerowy potencjał powietrza otaczającego dwie kule. Aby zobaczyć potencjał na kulach, musimy zastosować [filtr przycinania](FEM_PostFilterClipRegion/pl.md).
+-   W widoku drzewa wybierz obiekt <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult i kliknij przycisk **<img src="images/FEM_PostFilterClipRegion.svg" width=20px> Filtr przycięcia obszaru** na pasku narzędzi.
+-   Otworzy to okno z konfiguracjami filtra. Kliknij w nim przycisk **<img src="images/list-add.svg" width=16px> Utwórz** i wybierz <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Płaszczyzna. Dodaje to płaszczyznę przecinającą siatkę wyników przez środek kuli. Aby wygładzić powierzchnię cięcia, zaznacz opcję **Wytnij komórki**. W końcu kliknij **Zastosuj**.
 
 <img alt="" src=images/Two_balls_postcreate.png  style="width:300px;">
 
--   In the tree view there is a new entry called Functions. It contains the created <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Plane. Make it invisible using **Space**.
--   Double-click on the <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> Clip object in the tree view.
--   Change the \"Field\" to \"potential\" and press **OK**.
--   Toggle the visibility of the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object using **Space** and you should see something like this:
+-   W widoku drzewa jest nowy obiekt o nazwie Functions. Zawiera utworzoną <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:24px;"> Płaszczyznę. Schowaj go wciskając klawisz **Spacja**.
+-   Dwukrotnie kliknij na obiekcie <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:24px;"> filtra przycinania w widoku drzewa.
+-   Zmień \"Pole\" na \"potential\" i kliknij **OK**.
+-   Przełącz widoczność obiektu <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult używając klawisza **Spacja** a powinieneś zobaczyć coś takiego:
 
 <img alt="" src=images/Two_balls_result.png  style="width:1000px;">
 
-Now we can clearly see that potential distribution in and around the balls.
+Teraz wyraźnie widzimy rozkład potencjału w i dookoła kul.
 
-Note that when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Apply Changes](FEM_PostApplyChanges.md) is on, you would have been able to select the \"Field\" in the clip dialog directly and not to reopen it after the plane was created.
+Zauważ, że gdyby opcja <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Zastosuj zmiany](FEM_PostApplyChanges.md) była włączona, mógłbyś wybrać \"Pole\" w oknie dialogowym filtra przycinania bezpośrednio a nie musiałbyś otwierać go ponownie po utworzeniu płaszczyzny.
 
-## Finding the Capacitance 
 
--   Our actual focus is to find the capacitance which is contained in the <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
--   Double click on <img alt="" src=images/TextDocument.svg  style="width:32px;"> SolverElmerOutput to open it. Scroll down till you find:
+
+## Znalezienie poejmności 
+
+-   Naszym faktycznym celem jest znalezienie pojemności, która jest zawarta w dokumencie <img alt="" src=images/TextDocument.svg  style="width:24px;"> SolverElmerOutput.
+-   Dwukrotnie kliknij na dokumencie <img alt="" src=images/TextDocument.svg  style="width:32px;"> SolverElmerOutput aby go otworzyć. Przewiń w dół aż znajdziesz:
 
 
 
@@ -127,7 +151,7 @@ Note that when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24p
     StatElecSolve:   1  2    1.69328E+00
     StatElecSolve:   2  2    5.07201E+00
 
--   Here, our desired result is C~12~ = 1.69328. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
+-   Tutaj naszym poszukiwanym wynikiem jest C~12~ = 1.69328. Ta wartość jest zbliżona do wartości `1.691` podanej w dokumencie [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Możemy uzyskać jeszcze dokładniejszy wynik poprzez użycie większego [zagęszczenia siatki](FEM_MeshRegion/pl.md), ale to pozostawiamy użytkownikowi. Zalecamy też przetestowanie [filtra przycinania](FEM_PostFilterClipRegion/pl.md) aby uzyskać wizualny wynik podobny do pierwszego rysunku w tym przykładzie.
 
 
 {{FEM Tools navi

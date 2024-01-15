@@ -24,7 +24,7 @@ Quando si avvia lo strumento, il puntatore del mouse assume la forma di croce bi
 
 ## Utilizzo
 
--   Selezionare i punti su un\'area vuota della vista 3D, o su un oggetto esistente. I vincoli automatici (auto constraints) si attivano nella scheda **Azioni → Modifica controlli → Autovincoli** del pannello **Vista combinata**.
+-   Seleziona punti su un\'area vuota della vista 3D o su un oggetto esistente (i vincoli automatici devono essere attivi nel [Pannello delle azioni](Task_panel/it.md)).
 -   Premere il tasto **Esc**, o cliccare sul tasto destro del mouse, per annullare l\'operazione.
 
 

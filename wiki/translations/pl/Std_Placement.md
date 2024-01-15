@@ -9,12 +9,16 @@
 
 # Std Placement/pl
 
+
+
 ## Opis
 
 Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Umiejscowienia dla wybranego obiektu.
 
 ![](images/Std_Placement_taskpanel.png ) 
 *Panel zadań funkcji umiejscowienie*
+
+
 
 ## Użycie
 
@@ -28,9 +32,14 @@ Polecenie **Std: Umiejscowienie** wyświetla [panel zadań](Task_panel/pl.md) Um
 
 Okno dialogowe można również uruchomić, klikając przycisk z wielokropkiem **...**, który pojawia się w [edytorze właściwości](Property_editor/pl.md) po kliknięciu właściwości **Umiejscowienie**.
 
+
+
 ## Uwagi
 
 -   Więcej informacji na temat parametrów rozmieszczenia można znaleźć na stronie [Umiejscowienie](Placement/pl.md) oraz w poradniku [Samolot](Aeroplane/pl.md).
+-   Kąt obrotu może być ustawiony w stopniach w GUI, ale jest przechowywany wewnętrznie w radianach, więc kąty zwykle muszą być konwertowane, gdy są używane w skryptach.
+
+
 
 ## Tworzenie skryptów 
 
@@ -65,7 +74,11 @@ print(obj.Placement.Rotation.Q)
 # (0.0, 0.0, 0.0, 1.0)
 ```
 
-Przesuń punkt bazowy obiektu, a następnie obróć obiekt o 45° wokół osi X. 
+Przesuń punkt bazowy obiektu, a następnie obróć obiekt o 45° wokół osi X.
+
+Moduł matematyczny dostarcza metodę `radians()` do łatwej konwersji stopni na radiany i musi zostać zaimportowany na początku.
+
+
 ```python
 import math
 

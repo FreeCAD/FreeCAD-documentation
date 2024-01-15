@@ -11,9 +11,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Déplacer vers le groupe** déplace les objets vers un [Std Groupe](Std_Group/fr.md). Elle peut aussi dégrouper des objets.
+La commande <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Déplacer vers le groupe** déplace les objets vers un [Std Groupe](Std_Group/fr.md) ou un groupe comme un objet [Arch](Arch_Workbench/fr.md). Elle peut aussi dégrouper des objets.
 
-Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets de type groupe [Arch](Arch_Workbench/fr.md).
+
 
 ## Utilisation
 
@@ -25,10 +25,12 @@ Dans la version 0.20 de FreeCAD, la commande peut également gérer les objets d
 3.  Un menu s\'affiche près du curseur. Effectuez l\'une des opérations suivantes :
     -   Sélectionnez **Dégrouper** pour déplacer les objets hors du ou des groupes dans lesquels ils se trouvent.
     -   Sélectionnez le groupe vers lequel vous voulez déplacer les objets.
-    -   Sélectionnez **+ Ajouter un nouveau groupe** pour déplacer les objets vers un nouveau groupe : {{Version/fr|0.20}}
+    -   Sélectionnez **+ Ajouter un nouveau groupe** pour déplacer les objets vers un nouveau groupe :
         1.  Le panneau de tâches **Ajouter un groupe** s\'ouvre.
         2.  Saisissez un **Nom du groupe**.
         3.  Appuyez sur le bouton **OK**.
+
+
 
 ## Remarques
 

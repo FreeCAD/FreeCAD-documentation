@@ -17,7 +17,7 @@
 
 </div>
 
-![](images/Meshes_RemoveComponents.jpg )
+<img alt="" src=images/Meshes_RemoveComponents.jpg  style="width:300px;">
 
 
 <div class="mw-translate-fuzzy">

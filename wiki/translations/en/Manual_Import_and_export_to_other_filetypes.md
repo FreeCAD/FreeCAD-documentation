@@ -28,7 +28,6 @@ Some of these file formats have options. These can be configured from menu **Edi
 
 -   [All file formats supported by FreeCAD](Import_Export.md)
 -   [Working with DXF files in FreeCAD](Draft_DXF.md):
--   [Enabling DXF and DWG support](Dxf_Importer_Install.md)
 -   [Working with SVG files in FreeCAD](Draft_SVG.md)
 -   [Importing and exporting to IFC](Arch_IFC.md)
 -   [OpenCasCade](http://www.opencascade.com)

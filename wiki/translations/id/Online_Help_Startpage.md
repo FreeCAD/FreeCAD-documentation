@@ -11,6 +11,8 @@ Dokumen ini telah buat secara otomatis dari isi dokumentasi wiki FreeCAD resmi, 
 
 </div>
 
+
+
 ### Bagaimana menggunakan 
 
 
@@ -20,6 +22,10 @@ Dokumen ini dibagi menjadi beberapa seksi: pengantar, penggunaan, scripting dan 
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### Kontribusi
 

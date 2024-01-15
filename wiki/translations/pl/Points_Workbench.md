@@ -2,10 +2,10 @@
 
 
 
+
+
+
 ## Wprowadzenie
-
-
-
 
 Środowisko pracy <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Punkty](Points_Workbench/pl.md) oferuje specjalne narzędzia do pracy z [chmurami punktów](http://en.wikipedia.org/wiki/Point_cloud). Środowisko to jest wciąż w fazie rozwoju.
 
@@ -15,19 +15,19 @@ Chmura punktów to zbiór punktów w przestrzeni 3D. Chmura punktów jest zwykle
 
 ## Przybory
 
-Wszystkie narzędzia Środowiska pracy **Punkty** są dostępne w menu **Punkty**. Niektóre narzędzia są również dostępne na pasku narzędzi **Narzędzia do punktów**.
-
--   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Konwertuj na punkty \...](Points_Convert/pl.md): Tworzy chmury punktów z obiektów kształtu.
-
--   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Uporządkowana chmura punktów](Points_Structure/pl.md): Tworzy uporządkowaną chmurę punktów z punktów istniejącej chmury punktów.
+Wszystkie narzędzia środowiska pracy Punkty są dostępne z menu **Punkty** i paska narzędzi **Narzędzia punktów**.
 
 -   <img alt="" src=images/Points_Import.svg  style="width:32px;"> [Import punktów \...](Points_Import/pl.md): Importuje chmurę punktów z pliku.
 
 -   <img alt="" src=images/Points_Export.svg  style="width:32px;"> [Eksport punktów \...](Points_Export/pl.md): Eksportuje chmurę punktów do pliku.
 
--   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Wytnij punkt chmury](Points_PolyCut/pl.md): Wycina punkty z chmury punktów.
+-   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Konwertuj na punkty \...](Points_Convert/pl.md): Tworzy chmury punktów z obiektów kształtu.
+
+-   <img alt="" src=images/Points_Structure.svg  style="width:32px;"> [Uporządkowana chmura punktów](Points_Structure/pl.md): Tworzy uporządkowaną chmurę punktów z punktów istniejącej chmury punktów.
 
 -   <img alt="" src=images/Points_Merge.svg  style="width:32px;"> [Scal chmury punktów](Points_Merge/pl.md): Tworzy chmurę punktów przez połączenie punktów z dwóch lub więcej chmur punktów.
+
+-   <img alt="" src=images/Points_PolyCut.svg  style="width:32px;"> [Wytnij punkt chmury](Points_PolyCut/pl.md): Wycina punkty z chmury punktów.
 
 
 

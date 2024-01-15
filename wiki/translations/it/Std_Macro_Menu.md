@@ -37,8 +37,6 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:32px;"> [Registra una macro](Std_DlgMacroRecord/it.md): Apre la finestra di dialogo per registrare una nuova macro.
 
--   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Interrompi la registrazione](Std_MacroStopRecord/it.md): Arresta la registrazione di una macro.
-
 -   <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:32px;"> [Macro\...](Std_DlgMacroExecute/it.md): Apre una finestra di dialogo per gestire ed eseguire le macro.
 
 -   <img alt="" src=images/Std_RecentMacros.svg  style="width:32px;"> Macro recenti: Mostra un elenco di macro usate di recente, che possono essere chiamate con una combinazione di tasti, ad esempio, **Ctrl** + **Maiusc** + **1**. Questo può essere configurato nelle [Preferenze](Preferences_Editor/it.md).
@@ -53,9 +51,15 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   [Passo successivo](Std_MacroStepOver/it.md): Passo successivo nel codice.
 
--   [Un passoː](Std_MacroStepInto/it.md) Un passo
+-   [Un passo](Std_MacroStepInto/it.md)ː Un passo
 
 -   [Attiva/disattiva punto di interruzione](Std_ToggleBreakpoint/it.md): Attiva o disattiva un punto di interruzione.
+
+
+
+## Strumenti obsoleti 
+
+-   <img alt="" src=images/Std_MacroStopRecord.svg  style="width:32px;"> [Interrompi la registrazione](Std_MacroStopRecord/it.md): Arresta la registrazione di una macro. Integrato in [Registra una macro](Std_DlgMacroRecord/it.md). Non disponibile in {{VersionPlus/it|0.22}}.
 
 
 

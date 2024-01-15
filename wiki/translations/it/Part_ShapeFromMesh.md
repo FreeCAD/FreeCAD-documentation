@@ -9,11 +9,15 @@
 
 # Part ShapeFromMesh/it
 
+
+
 ## Introduzione
 
 Il comando **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Crea forma da mesh](Part_ShapeFromMesh/it.md)** crea una forma da un [oggetto mesh](Mesh/it.md). In FreeCAD gli oggetti mesh hanno limitate capacità di editing, convertendoli in [forme](Shape/it.md) permette di utilizzarli con molti più strumenti di modifica e booleani.
 
 L\'operazione inversa è **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh da forma](Mesh_FromPartShape/it.md)** dal <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente Mesh](Mesh_Workbench/it.md).
+
+
 
 ## Utilizzo
 

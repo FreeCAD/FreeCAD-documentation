@@ -60,4 +60,4 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image CreateImagePlane/fr
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image CreateImagePlane/fr

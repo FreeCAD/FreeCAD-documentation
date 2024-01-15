@@ -3,7 +3,7 @@
 
 [Просмотр отчёта](Report_view.md) это панель, на которой отображаются текстовые сообщения от процессов и инструментов FreeCAD. Она доступна в меню **{{StdMenu|[Вид](Std_View_Menu.md)** → Панели → Просмотр отчёта}}.
 
-Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Output window** tab of the [Preferences Editor](Preferences_Editor#Output_window.md).
+Certain properties of this panel, like color of the text and whether to display it automatically on warnings or errors, can be configured in the **General → Report view** tab of the [Preferences Editor](Preferences_Editor#Report_view.md).
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 

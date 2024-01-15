@@ -41,4 +41,4 @@ Insert new PovRay project in the document.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing New/ru
+⏵ [documentation index](../README.md) > Raytracing New/ru

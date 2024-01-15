@@ -24,123 +24,144 @@
 
 ## Введение
 
-This tutorial is a collection of techniques to model screw threads in FreeCAD. It was updated for v0.19, although the overall process has been essentially the same since v0.14, when the tutorial was originally written. The updated content focuses on the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) to create the thread, but does not use the <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign AdditiveHelix](PartDesign_AdditiveHelix.md) tool as this was introduced later.
+Это руководство - собрание методов моделирования наружных резьб в FreeCAD. Оно обновлялось для версии 0.19, хотя процесс существенно не менялся с версии 0.14, для которой изначально и было написано руководство. Обновленное содержание фокусируется на <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [верстаке PartDesign](PartDesign_Workbench/ru.md) для создания резьбы, но не использует <img alt="" src=images/PartDesign_AdditiveHelix.svg  style="width:24px;"> [PartDesign Аддитивная спираль](PartDesign_AdditiveHelix/ru.md) так как этот инструмент был добавлен позднее.
 
-In traditional CAD systems modelling screw threads is discouraged because it puts a big load on the modelling kernel, as well as on the rendering of the shapes. In traditional systems a thread does not need to be represented directly in 3D space, as it can be indicated with its required characteristics in the 2D technical drawing that is sent for manufacturing. However, with the popularization of additive manufacturing (3D printing), there is now a real need to model 3D threads, in order to print them exactly as designed. This is what this tutorial is for.
+В традиционных САПР моделирование резьбы не рекомендуется из за большой нагрузки на Геометрическое ядро и необходимости её отрисовки. В этих системах резьба и не должна быть смоделирована в 3D, так как она может быть добавлена в 2D чертеж, который отправляют на производство. Но с популяризацией аддитивного производства (3D печати), появилась необходимость в моделирование резьбы, чтобы напечатать модель какой она задумывалась. Этому и посвящено данное руководство.
 
-Many of the techniques presented here have been collected from different forum threads:
+Многие приемы, описанные ниже, были собраны на различных ветках форума:
 
 -   [Gathering thread modeling techniques](https://forum.freecad.org/viewtopic.php?f=3&t=12593)
 -   [Creating a thread: Unexpected results](https://forum.freecad.org/viewtopic.php?f=3&t=6506)
 
-See also helpful videos:
+также можете посмотреть полезное видео:
 
 -   [Introducing a strategy for designing a bolt without the commonly found problems.](https://forum.freecad.org/viewtopic.php?f=8&t=44259)
 
-Remember that thread shapes take a lot of memory, and having just one thread in a document can increase the file size significantly, so the user is advised to create threads only when absolutely necessary.
+Держите в уме, что форма резьбы требует много памяти, и даже одна резьба может существенно увеличить размер файла, так что пользователю советуется создавать резьбу только в случае крайней необходимости.
 
-## Method 1. Using utilities and parts from workbenches 
 
-Using utilities and parts that other people have created is easy and saves time. See the [external workbenches](External_workbenches.md) page for information on external tools.
 
-In particular, three resources are recommended that can be installed from the [Addon Manager](Std_AddonMgr.md):
+## Способ 1. Используя утилиты и части из рабочих столов 
 
--   [Fasteners Workbench](Fasteners_Workbench.md), to add/attach various fasteners to parts. The screws and nuts don\'t show a thread by default, but this can be controlled with an option.
--   [BOLTSFC Workbench](BOLTSFC_Workbench.md), to place fasteners from the BOLTS library.
--   [ThreadProfile Workbench](ThreadProfile_Workbench.md), to create common threads.
+Используя утилиты и части, созданные другими людьми, легко и экономит время. Посмотрите раздел [Внешние верстаки](External_workbenches/ru.md) для информации о внешних инструментах.
+
+В частности, эти три ресурса рекомендуются к установке из [Менеджера дополнений](Std_AddonMgr/ru.md):
+
+-   [Верстак Стандартные Изделия (Fasteners)](Fasteners_Workbench/ru.md) чтобы добавлять/прикреплять крепеж к деталям. По умолчанию
+
+резьба не отображается на винтах и гайках, но это может быть изменено в настройках.
+
+-   [BOLTSFC Workbench](BOLTSFC_Workbench.md), чтобы размещать крепеж из библиотеки BOLTS.
+-   [Верстак ПрофильРезьбы](ThreadProfile_Workbench/ru.md), чтобы создавать стандартные резьбы.
 
 <img alt="" src=images/T13_00_Threads_fasteners.png  style="width:" height="300px;"> 
-*Various standard screws inserted with the Fasteners Workbench. An option controls whether an object shows the real thread or just a plain cylinder.*
+*Различные стандартные винты, вставленные с помощью Верстака Стандартных Изделий. Параметр контролирует, будет ли объект отображаться с резьбой или без.*
 
-## Method 2. Using macros (deprecated) 
+
+
+## Способ 2. Используя макрос (устарел) 
 
 -   In the past, the [Macro BOLTS](Macro_BOLTS.md) was used to insert the parts from the BOLTS library. This is now deprecated. Use the [BOLTSFC Workbench](BOLTSFC_Workbench.md) instead.
 
 -   In the past the stand-alone [Screw Maker macro](Macro_screw_maker1_2.md), by ulrich1a, was used to create individual bolts, screws, and washers. This is now deprecated. The [Fasteners workbench](Fasteners_Workbench.md), by shaise, includes the complete screw maker macro, together with a GUI to select the right component.
 
-## Method 3. Fake threads: non-helical 
 
-In many cases we don\'t need real threads, we just need a visual indication that the threads will be there.
 
-We can create a fake thread by using a non-helical path, for example by revolving a sawtooth profile, or by stacking discs with tapered edges. This fake thread is hard to tell apart from the real helical one by simple inspection. This method is good for visualizing a thread-like object, but it is not useful if we need to 3D-print an actual thread.
+## Способ 3. Имитация резьбы: нет шага 
+
+В многих ситуациях настоящая резьба не требуется, мы можем просто показать, что резьба должна быть.
+
+Мы можем создать имитацию резьбы, вращая зубчатый профиль, или совмещая диски с коническими краями. Такую резьбу сложно отличить на глаз от настоящей. Этот способ подходит для визуального представления резьбы, однако не годится для 3D печати.
 
 <img alt="" src=images/T13_01_Threads_comparison_fake_real.png  style="width:" height="300px;"> 
-*Left: simple bolt with a fake, non-helical thread. Right: simple bolt with a real helical thread. When 3D printing is not needed, a simulated thread is often sufficient for visualization.*
+*Слева: винт с имитацией резьбы. Справа: винт с настоящей резьбой. Если 3D печать не требуется, часто достаточно имитации резьбы.*
 
-### Revolving sawtooth profile 
 
-1.  Click on **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-2.  Click on **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
-3.  Draw a closed sketch with the required inner diameter {{Value|10 mm}}, outer diameter around {{Value|12.6 mm}}, pitch {{Value|3 mm}}, number of teeth {{Value|8}}, and total height {{Value|30 mm}}.
-4.  Select the sketch, then click on **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
+
+### Вращение зубчатого профиля 
+
+1.  Нажмите на **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Создать тело](PartDesign_Body/ru.md)**.
+2.  Нажмите на **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Создать эскиз](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
+3.  Создайте эскиз с внутренним диаметром {{Value|10 мм}}, внешним диаметром близким к {{Value|12.6 мм}}, шагом {{Value|3 мм}}, количеством зубьев {{Value|8}}, и общей высотой {{Value|30 мм}}.
+4.  Выберете эскиз, затем нажмите на **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Вращение](PartDesign_Revolution/ru.md)**. Выберете {{Value|Вертикальная ось эскиза}}, и нажмите кнопку **OK**.
 
 <img alt="" src=images/T13_02_Threads_Sawtooth_sketch_profile.png  style="width:" height="300px;"> 
-*Profile used to create the revolution that will simulate a thread.*
+*Профиль используемый для вращения и имитации резьбы.*
 
 <img alt="" src=images/T13_03_Threads_Sawtooth_revolution_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_04_Threads_Sawtooth_revolution_2.png  style="width:" height="300px;"> 
-*Sectional view of the resulting non-helical thread produced by revolving the sawtooth profile around the vertical axis.*
+*Вид в разрезе резьбы без шага, созданной с помощью вращения зубчатого профиля, вокруг вертикальной оси.*
 
-### Stacking discs 
 
-1.  Repeat the first two steps from the previous section.
-2.  Draw a closed sketch with the required inner diameter {{Value|10 mm}}, outer diameter around {{Value|12.6 mm}}, and pitch {{Value|3 mm}}, but draw only a single tooth of the sawtooth.
-3.  Select the sketch, then click on **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
-4.  Select the {{Value|Revolution}}, then click on **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Linear pattern](PartDesign_LinearPattern.md)**. Select {{Value|Vertical sketch axis}}. For a fake thread with a pitch of {{Value|3 mm}}, set the **Length** to {{Value|3}}, and **Occurrences** to {{Value|2}}, then press **OK**. This will create two discs, one on top of the other.
-5.  You can add more discs by increasing the value of **Occurrences** in the linear pattern, and by raising the **Length**, which is the total length of the fake thread.
 
-The **Length** and **Occurrences** are related. If the length is too large, but the number of occurrences is not high enough, you will have disconnected discs, and the Body computation will fail, as the resulting object must always be a [single contiguous solid](PartDesign_Body.md). For example, to get a total height of {{Value|30 mm}}, set **Length** to {{Value|27 mm}} and **Occurrences** to {{Value|10}}.
+### Укладка дисков 
 
-If you wish, you may add a **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with a diameter equal to the inner diameter of the discs, and as high as the total thread height. This will join all discs into a single solid, thus guaranteeing that there will not be disconnected discs.
+1.  Повторите первые два шага из предыдущей секции.
+2.  Создайте эскиз с внутренним диаметром {{Value|10 мм}}, внешним диаметром близким к {{Value|12.6 мм}}, шагом {{Value|3 мм}}, но в этот раз создайте только один зуб зубчатого профиля.
+3.  Выберете эскиз, затем нажмите на **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Вращение](PartDesign_Revolution/ru.md)**. Выберете {{Value|Вертикальная ось эскиза}}, и нажмите кнопку **OK**.
+4.  Выберете {{Value|Вращение}}, затем нажмите на **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Линейный массив](PartDesign_LinearPattern/ru.md)**. Выберете {{Value|Вертикальную ось}}. Для имитации резьбы с шагом {{Value|3 мм}}, выставите значение **Длина** на {{Value|3}}, и **События** на {{Value|2}}, затем нажмите **OK**. Так вы создадите два диска, один на другом.
+5.  Вы можете добавить больше дисков, увеличив значение **События** в линейной зависимости от**Длина**, которая будет полной диной имитации резьбы.
+
+Параметры **Длина** и **События** связанны. Если длина слишком велика, а количество событий недостаточно, диски не соединятся и создать тело не удастся, так полученный объект должен быть [сплошным телом](PartDesign_Body/ru.md). В примере, чтобы получить высоту {{Value|30 мм}}, установите параметр **Длина** на {{Value|27 мм}} а параметр **События** на {{Value|10}}.
+
+Если хотите, вы можете добавить **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Аддитивный цилиндр](PartDesign_AdditiveCylinder/ru.md)** с диаметром, равным внутреннему диаметру дисков, и высотой, равной высоте резьбы. Эта операция объединит все диски в одно тело, и гарантирует, что они не рассоединятся.
 
 <img alt="" src=images/T13_05_Threads_Stacked_discs_sketch.png  style="width:" height="300px;"> 
-*Profile used to create a revolved disc that will be used to simulate a thread.*
+*Профиль, который использовался для создания диска, с помощью которого имитировалась резьба.*
 
 <img alt="" src=images/T13_06_Threads_Stacked_discs_1.png  style="width:" height="300px;"> <img alt="" src=images/T13_07_Threads_Stacked_discs_2.png  style="width:" height="282px;"> 
-*Left: single disc created by revolution. Right: multiple discs placed in a linear pattern in the Z direction simulating a helical thread.*
+*Слева: один диск, созданный вращением. Справа: несколько дисков, собранные в линейный массив в направление Z, имитирующие резьбу.*
 
-## Method 4. Sweeping a vertical profile 
 
-### PartDesign Workbench 
 
-A true thread consists of a closed profile sweeping a solid along a helical path.
+## Способ 4. Вращение вертикального профиля 
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), click on **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives.md)** to create a **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
-2.  Move to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), and click on **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-3.  Click on **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
-4.  Draw a closed sketch with the required profile for the thread teeth, normally a triangular shape. In this case we will use a height of {{Value|2.9 mm}}, which is slightly smaller than the {{Value|3.0 mm}} pitch used for the helix path. The profile must not create any self intersections when moved along the helix, neither between the turns nor in the middle, thus the sketch as shown for stacking disks cannot be used.
-5.  Select the sketch, then click on **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)**. In **Path to sweep along**, click on **Object**, and choose the helix object previously created. Then change **Orientation mode** to {{Value|Frenet}} so that the profile sweeps the path without twisting; then press **OK**.
-6.  When the dialog asks for a reference, choose {{Value|Create cross-reference}}.
-7.  The helical coil is created, but there is no central body or shaft.
-8.  Click on **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with the appropriate **Radius** {{Value|10 mm}} and **Height** {{Value|29.9 mm}} to touch the rest of the helical thread and automatically fuse to it.
-9.  Additional boolean operations are needed to shape up the abrupt ends of the coil. For example, you can use additive features to provide a head to the screw, and a tip.
+
+
+### Верстак PartDesign 
+
+Настоящая резьба состоит из профиля вращаемого по спиральному пути.
+
+1.  В <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстаке Part](Part_Workbench/ru.md), нажмите на **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Создать примитивы](Part_Primitives/ru.md)** чтобы создать **[<img src=images/Part_Helix.svg style="width:16px"> [Part Спираль](Part_Helix.md)**. Задайте необходимое значение для **Шаг** {{Value|3 мм}}, **Высота** {{Value|23 мм}}, и **Радиус** {{Value|10 мм}}.
+2.  Переместитесь в <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Верстак PartDesign](PartDesign_Workbench/ru.md), и нажмите на **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Создать тело](PartDesign_Body.md)**.
+3.  Click on **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign создать эскиз](PartDesign_NewSketch/ru.md)**. Выберете {{Value|XZ_Plane}}.
+4.  Создайте эскиз необходимого для выступа резьбы, обычно треугольной формы. В нашем случае высота будет {{Value|2.9 мм}}, немного меньше чем шаг спирали {{Value|3.0 мм}}. Профиль не должен пересекаться сам с собой, ни при каких обстоятельствах, эскиз, использованный для укладки дисков не подойдет.
+5.  Выберете эскиз, нажмите на **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Аддитивный профиль по траектории](PartDesign_AdditivePipe/ru.md)**. В меню **путь для выдавливания вдоль него**, нажмите на **Объект**, и выберите спираль, которую создал ранее. Затем измените **Режим ориентации** на {{Value|Френе}} для того того, чтобы профиль не изгибался во время вращения; Затем нажмите **OK**.
+6.  В диалоговом окне выберите {{Value|Создать перекрестную ссылку}}.
+7.  Создалась спиральная катушка, с полостью внутри.
+8.  Нажмите на **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Аддитивный цилиндр](PartDesign_AdditiveCylinder/ru.md)** с подходящем значением **Радиус** {{Value|10 мм}} и **Высота** {{Value|29.9 мм}} чтобы он касался винтовой катушкой и автоматически соединился с ней.
+9.  Дополнительные булевы операции необходимы, чтобы сравнять резкие концы катушки. К примеру, вы можете использовать аддитивные операции, для формирования головки и наконечника винта.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> 
-*Left: profile for a helical thread. Right: helical path that will be used to create a sweep.*
+*Слева: Профиль для спиральной резьбы. Справа: Спиральный путь, который будет использован для создания катушки*
 
 <img alt="" src=images/T13_10_Threads_Helical_thread_coil.png  style="width:" height="300px;"> <img alt="" src=images/T13_11_Threads_Helical_thread_coil_sliced.png  style="width:" height="300px;"> 
-*Left: helical coil resulting from the sweep operation of the closed profile along the helical path. Right: sectional view of the coil produced from the sweep.*
+*Слева: катушка, образованная вращением профиля резьбы по винтовой траектории. Справа: вид катушки, полученной вращением, в разрезе.*
 
 <img alt="" src=images/T13_12_Threads_Helical_thread_cylinder.png  style="width:" height="300px;"> <img alt="" src=images/T13_13_Threads_Helical_thread_finished.png  style="width:" height="300px;"> 
-*Left: helical coil fused to a central cylinder to form the body of the screw. Right: more features, a head and a tip, added to improve the shape of the screw.*
+*Слева: Винтообразная катушка, соединенная с центральным цилиндром, для создания тела винта. Справа: больше операций, головка и наконечник были добавленный для улучшения формы винта.*
 
-### Part Workbench 
 
-This process can also be done with the tools of the [Part Workbench](Part_Workbench.md).
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), click on **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives.md)** to create a **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
-2.  In this case, you don\'t need a **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**. Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md), then click **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher New sketch](Sketcher_NewSketch.md)**, and choose the global XZ plane.
-3.  Then return to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), and use **[<img src=images/Part_Sweep.svg style="width:16px"> [Part sweep](Part_Sweep.md)**.
-4.  Select the appropriate sketch from **Available profile** and click the arrow to pass it to **Selected profiles**.
-5.  Click **Sweep path**, and choose all edges of the existing helix in the [3D view](3D_view.md). Click **Done**.
-6.  Make sure to tick {{CheckBox|TRUE|Create solid}} and {{CheckBox|TRUE|Frenet}}. Obtaining a solid is the key to be able to perform [Part Boolean](Part_Boolean.md) operations with the resulting coil, otherwise only a surface will be produced.
-7.  Click **OK** to exit the dialog and create the coil.
+### Верстак Part 
 
-Now you can proceed to add other primitives like **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylinders](Part_Cylinder.md)**, or other shapes, in order to perform **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Fuses](Part_Fuse.md)** and **[<img src=images/Part_Cut.svg style="width:16px"> [Part Cuts](Part_Cut.md)** to finish building the screw.
+Этот процесс также может быть проделан с использованием инструментов [Верстака Part](Part_Workbench.md)
+
+1.  В <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстаке Part](Part_Workbench/ru.md), нажмите на **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Создать примитивы...](Part_Primitives/ru.md)** чтобы создать **[<img src=images/Part_Helix.svg style="width:16px"> [Part Спираль](Part_Helix/ru.md)**. Задайте значения **Шаг** {{Value|3 мм}}, **Высота** {{Value|23 мм}}, и **Радиус** {{Value|10 мм}}.
+2.  В этом случае вам не нужно **[<img src=images/PartDesign_Body.svg style="width:16px">**. Перейдите на <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Верстак Sketcher](Sketcher_Workbench/ru.md), затем нажмите на **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Создать эскиз](Sketcher_NewSketch.md)**, и выберете плоскость XZ.
+3.  Затем вернитесь в <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак Part](Part_Workbench.md), и воспользуйтесь инструментом **[<img src=images/Part_Sweep.svg style="width:16px"> [Part Профиль по траектории](Part_Sweep/ru.md)**.
+4.  Выберете подходящий эскиз из **Доступные профили** и нажмите на стрелочку, чтобы переместить его в **Выбранные профили**.
+5.  Нажмите на **Траектории построения**, и выберете все грани спирали с помощью [3D вида](3D_view.md). Нажмите на кнопку **Готово**.
+6.  убедитесь, что чек боксы {{CheckBox|TRUE|Создать твёрдое тело}} и {{CheckBox|TRUE|Френе}} активны. Получение тела необходимо, для использования [Part Булевы операции](Part_Boolean.md) с получившейся катушкой, в противном случае создадутся только поверхности, ограничивающие катушку.
+7.  Нажмите на **OK** чтобы выйти из меню и создать катушку.
+
+Теперь вы можете добавить другие примитивы, к примеру **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Цилиндр](Part_Cylinder/ru.md)**, или другие, чтобы применить **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Объединение](Part_Fuse/ru_.md)** или **[<img src=images/Part_Cut.svg style="width:16px"> [Part Обрезать](Part_Cut/ru.md)** чтобы закончить создание винта.
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
 *Creating a thread coil by sweeping a vertical profile, (1) the [sketch profile](sketch.md), (2) the [helical](Part_Helix.md) sweeping path, and (3) the result of the [sweep](Part_Sweep.md).*
 
-### Tips for success 
+
+
+### Ключи к успеху 
 
 -    **Rule 1.**When the profile sweeps the helix, the resulting solid coil must not touch or self-intersect as it will be an invalid solid. This holds for the profile moving along the helix, as well as intersections in the center of the helix. Attempts to do boolean operations with it (fuse or cut) are very likely to fail. Check the quality of the coil with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**; if self-intersections are reported, you must increase the pitch of the helix.
 

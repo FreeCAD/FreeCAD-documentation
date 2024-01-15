@@ -1,17 +1,9 @@
 # Manual:Introduction/ro
-<div class="mw-translate-fuzzy">
-
-
-{{Manual:TOC/ro}}
-
-![150](images/Crystal_Clear_manual.png )[FreeCAD](http://www.freecadweb.org) este o aplicație gratuită de modelare 3D parametrică open source. Ea este concepută în primul rând pentru a modela obiecte din lumea reală, de la mici componente electronice până la clădiri și proiecte de inginerie civilă, cu un accent puternic pe obiecte imprimabile 3D. FreeCAD este gratuită pentru a fi descărcată, utilizată, distribuită și modificată, iar codul sursă este open source și publicat sub licența foarte permisivă [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Datele pe care le produceți cu FreeCAD sunt pe deplin ale dvs și pot fi deschise ulterior fără FreeCAD.
-
-
-</div>
+{{Manual:TOC}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
-[FreeCAD](http://www.freecadweb.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
+[FreeCAD](http://www.freecad.org) is a free, open source parametric 3D modeling application. It is made primarily to model real-world objects, ranging from small electronic components up to large objects such as buildings and civil engineering projects, with a strong focus on 3D-printable objects. FreeCAD is free to download, use, distribute and modify, and its source code is open and published under the very permissive [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) license. The data you produce with FreeCAD is fully yours, and can be recovered without FreeCAD.
 
 FreeCAD este, de asemenea, fundamental un proiect social, deoarece este dezvoltat și menținut de o comunitate de dezvoltatori și utilizatori unite de pasiunea lor pentru FreeCAD.
 

@@ -1,11 +1,4 @@
 # AppImage/de
-**Seit dem 7. Juli 2019 beobachtet die FreeCAD Gemeinschaft, dass das Herunterladen von AppImages von Github vor der Fertigstellung eine Zeitüberschreitung zu haben scheint. Wir sind uns nicht sicher, warum dies geschieht. Wenn dies bei dir passiert, versuche bitte das Herunterladen erneut. Es kann ein paar Versuche dauern. Es wird empfohlen, die Funktion AppImage [https://www.freecadweb.org/wiki/Appimage#Automatic_updating Auto-Aktualisierungsfunktion] zu verwenden, die das Herunterladen an der Stelle wiederherstellt, an der er fehlgeschlagen ist.**
-
-
-
-
-
-
 ## Was ist ein AnwendungsAbbild? 
 
 ![](images/AppImage-logo.png ) **Einmal verpackt und dann überall laufend. Erreiche Benutzer auf allen Haupt Linux Desktop Distributionen.**
@@ -28,7 +21,7 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.21.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.21.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 

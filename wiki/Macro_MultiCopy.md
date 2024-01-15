@@ -7,8 +7,8 @@
 |Date=2021-03-18
 |Version=1.0.1
 |FCVersion=<small>(v0.17)</small> 
-|Download=[https://github.com/melwyncarlo/MultiCopy/blob/main/MultiCopy.zip?raw=true MultiCopy.zip]
-|Links=[https://github.com/melwyncarlo/MultiCopy Personal Github - MultiCopy]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion FC Github - MultiCopy]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56753 FC Forum - MultiCopy]
+|Download=[https://wiki.freecad.org/images/7/75/MultiCopy-reduced.png ToolBar Icon]
+|Links=[https://github.com/melwyncarlo/MultiCopy/blob/main/MultiCopy.zip?raw=true MultiCopy.zip]<br>[https://github.com/melwyncarlo/MultiCopy Personal Github - MultiCopy]<br>[https://github.com/FreeCAD/FreeCAD-macros/tree/master/Conversion FC Github - MultiCopy]<br>[https://forum.freecadweb.org/viewtopic.php?f=22&t=56753 FC Forum - MultiCopy]
 }}
 
 ## Description

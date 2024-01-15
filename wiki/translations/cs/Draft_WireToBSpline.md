@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Popis
 
 
@@ -17,6 +19,8 @@ Tento nástroj konvertuje [Dráty](Draft_Wire/cs.md) do [B-křivek](Draft_BSplin
 
 <img alt="" src=images/Draft_Wire2BSpline_example.jpg  style="width:400px;"> 
 *Converting a Draft Wire to a Draft BSpline, and a closed Draft BSpline to a closed Draft Wire*
+
+
 
 
 <div class="mw-translate-fuzzy">

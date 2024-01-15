@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Sketcher Create3PointArc
    Name/de: Sketcher BogenDurch3PunkteErstellen
-   MenuLocation: Sketch , Skizzengeometrien , Kreisbogen durch drei Punkte erstellen
+   MenuLocation: Skizze , Skizzengeometrien , Kreisbogen durch drei Punkte erstellen
    Workbenches: Sketcher_Workbench/de
    Shortcut: **G** **3** **A**
    SeeAlso: 
@@ -22,7 +22,7 @@ Dieses Werkzeug zeichnet einen Kreisbogen durch Setzen von drei Punkten: Dem Sta
 
 Beim Start des Werkzeugs ändert sich der Mauszeiger in ein weißes Kreuz mit einem roten Kreisbogen-Symbol. Die Koordinaten des Zeigers werden daneben in blau in Echtzeit angezeigt.
 
--   Punkte in einem leeren Bereich in der 3D-Ansicht setzen oder auf einem existierenden Objekt (Automatische Randbedingungen müssen im [Aufgabenbereich](Task_panel/de.md) aktiviert sein).
+-   Punkte in einem leeren Bereich in der 3D-Ansicht setzen oder auf einem existierenden Objekt (Automatische Randbedingungen müssen im [Aufgaben-Bereich](Task_panel/de.md) aktiviert sein).
 -   Das Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 

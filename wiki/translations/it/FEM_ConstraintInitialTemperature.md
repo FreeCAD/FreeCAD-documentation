@@ -13,9 +13,19 @@
 
 </div>
 
+
+
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Crea un vincolo temperatura iniziale per l\'analisi termomeccanica.
+
+
+</div>
+
+
 
 ## Utilizzo
 
@@ -28,6 +38,8 @@ Crea un vincolo temperatura iniziale per l\'analisi termomeccanica.
 
 </div>
 
+
+
 ## Limitazioni
 
 
@@ -37,6 +49,8 @@ Il vincolo applica la temperatura iniziale a tutti i nodi nel modello FEA
 
 
 </div>
+
+
 
 ## Note
 

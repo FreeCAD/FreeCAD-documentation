@@ -1,7 +1,7 @@
 # Installing on Linux/de
 ## Übersicht
 
-Die Installation von FreeCAD auf den bekanntesten Linux Systemen wurde nun von der Gemeinschaft befürwortet, und FreeCAD sollte direkt über den in Ihrer Distribution verfügbaren Paketmanager verfügbar sein. Die FreeCAD Mannschaft stellt auch einige zur Verfügung:
+Die Installation von FreeCAD auf den bekanntesten Linux-Systemen wurde nun von der Gemeinschaft befürwortet, und FreeCAD ist direkt über den entsprechenden Paketmanager dieser Distributionen verfügbar. Das FreeCAD-Team stellt auch einige zur Verfügung:
 
 -   \"Offizielle\" Pakete, wenn neue Versionen erstellt werden, die über [Snap packages](Ubuntu_Snap.md), [AppImages](AppImage.md), [Flatpaks](Flatpak.md) und [PPA](#Stabile_PPA_Version.md) erhältlich sind.
 -   Experimentelle oder \'topaktuelle\' Zusammnstellungen, die über täglich aktualisierte [PPA](#Entwicklungs_PPA_.28Täglich.29.md)-Ablageorte, [AppImages](AppImage.md) und [Ubuntu Snaps](Ubuntu_Snap.md) erhältlich sind.
@@ -38,7 +38,7 @@ Das Ubuntu Universe Paket kann veraltet sein, da die Packung hinter dem neuesten
 
 ### Stabile PPA Version 
 
-**Warning:** The FreeCAD PPA is currently unmaintained and [looking for volunteers](https://forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Please use an alternative (snap, appimage) until the issue is fixed!
+**Achtung:** Die FreeCAD-PPA wird derzeit nicht gepflegt und [sucht nach Freiwilligen](https://forum.freecadweb.org/viewtopic.php?f=42&t=69055&start=20). Bitte eine Alternative verwenden (snap, appimage), bis dieser Fehler behoben ist!
 
 Persönliches Paket Archiv (PPA) für die stabile FreeCAD Version wird von der FreeCAD Gemeinschaft auf Launchpad gepflegt. Das Launchpad Repositorium heißt [FreeCAD Stable Releases](https://launchpad.net/~freecad-maintainers/+archive/freecad-stable).
 

@@ -5,6 +5,8 @@
 
 </div>
 
+
+
 ## Beskrivning
 
 
@@ -19,6 +21,8 @@ Detta verktyg nedgraderar valda objekt på olika sätt. Om inget objekt är mark
 *Two overlapping faces are downgraded to a Part Cut object, which is downgraded to a face. That face is then downgraded to a closed wire, which is finally downgraded to separate edges.*
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Bruk
@@ -28,7 +32,7 @@ Detta verktyg nedgraderar valda objekt på olika sätt. Om inget objekt är mark
 
 1.  Optionally select one or more objects.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Downgrade.svg" width=16px> [Draft Downgrade](Draft_Downgrade.md)** button.
+    -   Press the **<img src="images/Draft_Downgrade.svg" width=16px> [Downgrade](Draft_Downgrade.md)** button.
     -   Select the **Modification → <img src="images/Draft_Downgrade.svg" width=16px> Downgrade** option from the menu.
     -   Use the keyboard shortcut: **D** then **N**.
 3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).

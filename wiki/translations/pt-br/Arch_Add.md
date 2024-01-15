@@ -8,6 +8,8 @@
 
 # Arch Add/pt-br
 
+
+
 ## Descrição
 
 The Add tool allows you to do 4 kinds of operations:
@@ -23,6 +25,8 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> 
 *A box added to a wall as a component.*
+
+
 
 ## Utilização
 

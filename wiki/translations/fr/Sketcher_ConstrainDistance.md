@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Sketcher ConstrainDistance
-   Name/fr: Sketcher Contrainte dimensionnelle
-   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de dimension
+   Name/fr: Sketcher Contrainte de distance
+   MenuLocation: Esquisse , Contraintes d'esquisse , Contrainte de distance
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **K** **D**
    SeeAlso: Sketcher_ConstrainDistanceX/fr, Sketcher_ConstrainDistanceY/fr
@@ -12,7 +12,7 @@
 
 ## Description
 
-La **Contrainte dimensionnelle** définit la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, la distance entre deux points ou ; {{Version/fr|0.21}}, la distance entre les bords de deux cercles ou entre le bord d\'un cercle et une ligne.
+La **Contrainte de distance** définit la longueur d\'une ligne, la distance perpendiculaire entre un point et une ligne, la distance entre deux points ou {{Version/fr|0.21}}, la distance entre les bords de deux cercles ou entre le bord d\'un cercle et une ligne.
 
 ![](images/Sketcher_ConstrainDistance_example.png )
 
@@ -22,18 +22,18 @@ La **Contrainte dimensionnelle** définit la longueur d\'une ligne, la distance 
 
 1.  Choisissez une ligne, ou un point et une ligne, ou deux points, ou les bords de deux cercles, ou le bord d\'un cercle et une ligne.
 2.  Il y a plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contrainte de dimension](Sketcher_ConstrainDistance/fr.md)**
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contrainte de distance](Sketcher_ConstrainDistance/fr.md)**
     -   Utilisez les raccourcis clavier **K** puis **D**
-    -   Utilisez l\'entrée **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de dimension** dans le menu supérieur.
+    -   Utilisez **Esquisse → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contrainte de distance** du menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
-**Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable (en dehors du cas de cercle à cercle et de cercle à ligne). Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
+**Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable (en dehors des cas cercle à cercle et cercle à ligne). Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes. Appuyez sur le bouton droit de la souris ou sur **Echap** pour quitter la commande.
 
 
 
-### Suggestion
+### Conseil
 
-Le cas échéant envisagez d\'utiliser de préférence les fonctions de contrainte **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que la **contrainte dimensionnelle**.
+Le cas échéant envisagez d\'utiliser de préférence les fonctions **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Contrainte distance en X](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Contrainte distance en Y](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que l\'outil **contrainte de distance**.
 
 
 

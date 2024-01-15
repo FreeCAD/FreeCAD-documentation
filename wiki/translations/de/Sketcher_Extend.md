@@ -11,12 +11,16 @@
 
 # Sketcher Extend/de
 
+
+
 ## Beschreibung
 
 Das Werkzeug **Kante verlängern** verlängert eine Kante bis zu einer beliebigen Stelle in der Skizze oder bis zu einem Zielobjekt wie einer Kante oder einem Punkt.
 
 <img alt="" src=images/Sketcher_Extend_example_01.png  style="width:600px;"> 
 *''Auf der linken Seite (1) sind die beiden Skizzenelemente vor der Operation dargestellt; in der Mitte (2) wird die Linie bis zum Bogen verlängert; auf der rechten Seite (3) das Endergebnis.''*
+
+
 
 ## Anwendung
 
@@ -26,6 +30,8 @@ Das Werkzeug **Kante verlängern** verlängert eine Kante bis zu einer beliebige
 4.  Auf eine beliebige Stelle im Raum klicken, oder
 5.  Um bis zu einer anderen Kante zu verlängern, wird der Mauszeiger auf der Zielkante positioniert; wenn sie markiert ist und das Symbol der Randbedingung <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:16px;"> [Punkt auf Objekt festlegen](Sketcher_ConstrainPointOnObject/de.md) neben dem Mauszeiger erscheint, klickt man zur Bestätigung. Eine Randbedingung Punkt auf Objekt wird hinzugefügt.
 6.  Um bis zu einem Punkt in der Skizze zu verlängern, wird der Mauszeiger auf dem Zielpunkt positioniert; wenn er markiert ist und das Symbol der Randbedingung <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:16px;"> [Koinzidenz festlegen](Sketcher_ConstrainCoincident/de.md) neben dem Mauszeiger erscheint, klickt man zur Bestätigung. Eine Randbedingung Koinzidenz festlegen wird hinzugefügt.
+
+
 
 ## Hinweise
 

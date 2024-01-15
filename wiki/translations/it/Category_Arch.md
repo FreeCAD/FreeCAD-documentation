@@ -22,21 +22,22 @@ This category list pages related to the [Arch Workbench](Arch_Workbench/it.md), 
 | [Arch Preferences/it](Arch_Preferences/it.md) | [Arch Profile/it](Arch_Profile/it.md) | [Arch Project/it](Arch_Project/it.md) |
 | [Arch Rebar BeamReinforcement/it](Arch_Rebar_BeamReinforcement/it.md) | [Arch Rebar BentShape/it](Arch_Rebar_BentShape/it.md) | [Arch Rebar Circular ColumnReinforcement/it](Arch_Rebar_Circular_ColumnReinforcement/it.md) |
 | [Arch Rebar ColumnReinforcement TwoTiesSixRebars/it](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/it.md) | [Arch Rebar ColumnReinforcement/it](Arch_Rebar_ColumnReinforcement/it.md) | [Arch Rebar Dimensioning/it](Arch_Rebar_Dimensioning/it.md) |
-| [Arch Rebar Drawing Dimensioning/it](Arch_Rebar_Drawing_Dimensioning/it.md) | [Arch Rebar Drawing/it](Arch_Rebar_Drawing/it.md) | [Arch Rebar Helical/it](Arch_Rebar_Helical/it.md) |
-| [Arch Rebar LShape/it](Arch_Rebar_LShape/it.md) | [Arch Rebar Stirrup/it](Arch_Rebar_Stirrup/it.md) | [Arch Rebar Straight/it](Arch_Rebar_Straight/it.md) |
-| [Arch Rebar UShape/it](Arch_Rebar_UShape/it.md) | [Arch Rebar/it](Arch_Rebar/it.md) | [Arch Reference/it](Arch_Reference/it.md) |
-| [Arch Remove/it](Arch_Remove/it.md) | [Arch RemoveShape/it](Arch_RemoveShape/it.md) | [Arch Roof/it](Arch_Roof/it.md) |
-| [Arch Schedule/it](Arch_Schedule/it.md) | [Arch SectionPlane/it](Arch_SectionPlane/it.md) | [Arch SelectNonSolidMeshes/it](Arch_SelectNonSolidMeshes/it.md) |
-| [Arch SetMaterial/it](Arch_SetMaterial/it.md) | [Arch SHP/it](Arch_SHP/it.md) | [Arch Site/it](Arch_Site/it.md) |
-| [Arch Space/it](Arch_Space/it.md) | [Arch SplitMesh/it](Arch_SplitMesh/it.md) | [Arch Stairs/it](Arch_Stairs/it.md) |
-| [Arch Structure/it](Arch_Structure/it.md) | [Arch Survey/it](Arch_Survey/it.md) | [Arch ToggleIfcBrepFlag/it](Arch_ToggleIfcBrepFlag/it.md) |
-| [Arch ToggleSubs/it](Arch_ToggleSubs/it.md) | [Arch Truss/it](Arch_Truss/it.md) | [Arch tutorial/it](Arch_tutorial/it.md) |
-| [Arch Wall/it](Arch_Wall/it.md) | [Arch Window/it](Arch_Window/it.md) | [Arch Workbench/it](Arch_Workbench/it.md) |
-| [Artwork Arch/it](Artwork_Arch/it.md) | [BIM Library/it](BIM_Library/it.md) | [Custom Spacing/it](Custom_Spacing/it.md) |
-| [FEM MaterialEditor/it](FEM_MaterialEditor/it.md) | [IfcOpenShell/it](IfcOpenShell/it.md) | [IfcPlusPlus/it](IfcPlusPlus/it.md) |
-| [Import/Export IFC - compiling IfcOpenShell/it](Import/Export_IFC_-_compiling_IfcOpenShell/it.md) | [Manual:BIM modeling/it](Manual_BIM_modeling/it.md) | [Reinforcement Addon/it](Reinforcement_Addon/it.md) |
-| [Reinforcement API/it](Reinforcement_API/it.md) | [SweetHome3D/it](SweetHome3D/it.md) | [Tutorial custom placing of windows and doors/it](Tutorial_custom_placing_of_windows_and_doors/it.md) |
-| [Tutorial for open windows/it](Tutorial_for_open_windows/it.md) | [Category:Reinforcement/it](Category_Reinforcement/it.md) |
+| [Arch Rebar Drawing Dimensioning/it](Arch_Rebar_Drawing_Dimensioning/it.md) | [Arch Rebar Drawing/it](Arch_Rebar_Drawing/it.md) | [Arch Rebar Footing Reinforcement/it](Arch_Rebar_Footing_Reinforcement/it.md) |
+| [Arch Rebar Helical/it](Arch_Rebar_Helical/it.md) | [Arch Rebar LShape/it](Arch_Rebar_LShape/it.md) | [Arch Rebar Slab Reinforcement/it](Arch_Rebar_Slab_Reinforcement/it.md) |
+| [Arch Rebar Stirrup/it](Arch_Rebar_Stirrup/it.md) | [Arch Rebar Straight/it](Arch_Rebar_Straight/it.md) | [Arch Rebar UShape/it](Arch_Rebar_UShape/it.md) |
+| [Arch Rebar/it](Arch_Rebar/it.md) | [Arch Reference/it](Arch_Reference/it.md) | [Arch Remove/it](Arch_Remove/it.md) |
+| [Arch RemoveShape/it](Arch_RemoveShape/it.md) | [Arch Roof/it](Arch_Roof/it.md) | [Arch Schedule/it](Arch_Schedule/it.md) |
+| [Arch SectionPlane/it](Arch_SectionPlane/it.md) | [Arch SelectNonSolidMeshes/it](Arch_SelectNonSolidMeshes/it.md) | [Arch SetMaterial/it](Arch_SetMaterial/it.md) |
+| [Arch SHP/it](Arch_SHP/it.md) | [Arch Site/it](Arch_Site/it.md) | [Arch Space/it](Arch_Space/it.md) |
+| [Arch SplitMesh/it](Arch_SplitMesh/it.md) | [Arch Stairs/it](Arch_Stairs/it.md) | [Arch Structure/it](Arch_Structure/it.md) |
+| [Arch Survey/it](Arch_Survey/it.md) | [Arch ToggleIfcBrepFlag/it](Arch_ToggleIfcBrepFlag/it.md) | [Arch ToggleSubs/it](Arch_ToggleSubs/it.md) |
+| [Arch Truss/it](Arch_Truss/it.md) | [Arch tutorial/it](Arch_tutorial/it.md) | [Arch Wall/it](Arch_Wall/it.md) |
+| [Arch Window/it](Arch_Window/it.md) | [Arch Workbench/it](Arch_Workbench/it.md) | [Artwork Arch/it](Artwork_Arch/it.md) |
+| [BIM Library/it](BIM_Library/it.md) | [Custom Spacing/it](Custom_Spacing/it.md) | [FEM MaterialEditor/it](FEM_MaterialEditor/it.md) |
+| [IfcOpenShell/it](IfcOpenShell/it.md) | [IfcPlusPlus/it](IfcPlusPlus/it.md) | [Import/Export IFC - compiling IfcOpenShell/it](Import/Export_IFC_-_compiling_IfcOpenShell/it.md) |
+| [Manual:BIM modeling/it](Manual_BIM_modeling/it.md) | [Reinforcement Addon/it](Reinforcement_Addon/it.md) | [Reinforcement API/it](Reinforcement_API/it.md) |
+| [SweetHome3D/it](SweetHome3D/it.md) | [Tutorial custom placing of windows and doors/it](Tutorial_custom_placing_of_windows_and_doors/it.md) | [Tutorial for open windows/it](Tutorial_for_open_windows/it.md) |
+| [Category:Reinforcement/it](Category_Reinforcement/it.md) |
 
 
 

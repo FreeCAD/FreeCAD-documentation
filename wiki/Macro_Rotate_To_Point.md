@@ -172,7 +172,7 @@ My macro on Gist [mario52a](https://gist.github.com/mario52a)
 
  {{Code|
 App.ActiveDocument.getObject(p[0]).Placement
-}} instead {{Code|
+}} instead  {{Code|
 myObject.Placement
 }}
 

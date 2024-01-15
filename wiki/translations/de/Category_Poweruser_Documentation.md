@@ -14,29 +14,30 @@ This category shows documentation articles dealing with python scripting, which 
 | [Embedding FreeCADGui/de](Embedding_FreeCADGui/de.md) | [Expressions/de](Expressions/de.md) | [FeaturePython methods/de](FeaturePython_methods/de.md) |
 | [FEM CalculiX/de](FEM_CalculiX/de.md) | [FEM Element Types/de](FEM_Element_Types/de.md) | [FEM Mesh CalculiX/de](FEM_Mesh_CalculiX/de.md) |
 | [FreeCAD API/de](FreeCAD_API/de.md) | [FreeCAD Scripting Basics/de](FreeCAD_Scripting_Basics/de.md) | [FreeCAD vector math library/de](FreeCAD_vector_math_library/de.md) |
-| [FreeCADGui API/de](FreeCADGui_API/de.md) | [Gui Command/de](Gui_Command/de.md) | [How to install additional workbenches/de](How_to_install_additional_workbenches/de.md) |
-| [How to install macros/de](How_to_install_macros/de.md) | [Installing more workbenches/de](Installing_more_workbenches/de.md) | [Interface creation/de](Interface_creation/de.md) |
-| [Introduction to Python/de](Introduction_to_Python/de.md) | [Line drawing function/de](Line_drawing_function/de.md) | [Macro at Startup/de](Macro_at_Startup/de.md) |
+| [FreeCADGui API/de](FreeCADGui_API/de.md) | [Gui Command/de](Gui_Command/de.md) | [Headless FreeCAD/de](Headless_FreeCAD/de.md) |
+| [How to install additional workbenches/de](How_to_install_additional_workbenches/de.md) | [How to install macros/de](How_to_install_macros/de.md) | [Installing more workbenches/de](Installing_more_workbenches/de.md) |
+| [Interface creation/de](Interface_creation/de.md) | [Introduction to Python/de](Introduction_to_Python/de.md) | [Line drawing function/de](Line_drawing_function/de.md) |
+| [LinkSub/de](LinkSub/de.md) | [LinkSubList/de](LinkSubList/de.md) | [Macro at Startup/de](Macro_at_Startup/de.md) |
 | [Macros/de](Macros/de.md) | [Manual:A gentle introduction/de](Manual_A_gentle_introduction/de.md) | [Manual:Creating and manipulating geometry/de](Manual_Creating_and_manipulating_geometry/de.md) |
 | [Manual:Creating interface tools/de](Manual_Creating_interface_tools/de.md) | [Manual:Creating parametric objects/de](Manual_Creating_parametric_objects/de.md) | [Manual:Import and export to other filetypes/de](Manual_Import_and_export_to_other_filetypes/de.md) |
 | [Manual:Installing/de](Manual_Installing/de.md) | [Manual:Parametric objects/de](Manual_Parametric_objects/de.md) | [Matrix API/de](Matrix_API/de.md) |
 | [Mesh API/de](Mesh_API/de.md) | [Mesh Scripting/de](Mesh_Scripting/de.md) | [Mesh to Part/de](Mesh_to_Part/de.md) |
-| [Object API/de](Object_API/de.md) | [OpenCASCADE/de](OpenCASCADE/de.md) | [Part API/de](Part_API/de.md) |
-| [Part scripting/de](Part_scripting/de.md) | [Path experimental/de](Path_experimental/de.md) | [Path scripting/de](Path_scripting/de.md) |
-| [Pivy/de](Pivy/de.md) | [Placement API/de](Placement_API/de.md) | [Power users hub/de](Power_users_hub/de.md) |
-| [Profiling/de](Profiling/de.md) | [Property/de](Property/de.md) | [PySide Advanced Examples/de](PySide_Advanced_Examples/de.md) |
-| [PySide Beginner Examples/de](PySide_Beginner_Examples/de.md) | [PySide Intermediate Examples/de](PySide_Intermediate_Examples/de.md) | [PySide usage snippets/de](PySide_usage_snippets/de.md) |
-| [PySide/de](PySide/de.md) | [Python Development Environment/de](Python_Development_Environment/de.md) | [Python scripting tutorial/de](Python_scripting_tutorial/de.md) |
-| [Python/de](Python/de.md) | [PythonOCC/de](PythonOCC/de.md) | [Qt Example/de](Qt_Example/de.md) |
-| [Quantity/de](Quantity/de.md) | [Raytracing API example/de](Raytracing_API_example/de.md) | [Reinforcement API/de](Reinforcement_API/de.md) |
-| [Scenegraph/de](Scenegraph/de.md) | [Scientific literature/de](Scientific_literature/de.md) | [Scripted objects migration/de](Scripted_objects_migration/de.md) |
-| [Scripted objects saving attributes/de](Scripted_objects_saving_attributes/de.md) | [Scripted objects with attachment/de](Scripted_objects_with_attachment/de.md) | [Scripted objects/de](Scripted_objects/de.md) |
-| [Scripted Parts: Ball Bearing - Part 1/de](Scripted_Parts__Ball_Bearing_-_Part_1/de.md) | [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts__Ball_Bearing_-_Part_2/de.md) | [Scripting and macros/de](Scripting_and_macros/de.md) |
-| [Scripts/de](Scripts/de.md) | [Selection API/de](Selection_API/de.md) | [Svg Namespace/de](Svg_Namespace/de.md) |
-| [TechDraw API/de](TechDraw_API/de.md) | [TechDrawGui API/de](TechDrawGui_API/de.md) | [Topological data scripting/de](Topological_data_scripting/de.md) |
-| [TopoShape API/de](TopoShape_API/de.md) | [Units/de](Units/de.md) | [Vector API/de](Vector_API/de.md) |
-| [ViewObject API/de](ViewObject_API/de.md) | [Viewprovider/de](Viewprovider/de.md) | [Workbench creation/de](Workbench_creation/de.md) |
-|
+| [Object API/de](Object_API/de.md) | [OpenCASCADE/de](OpenCASCADE/de.md) | [Package Metadata/de](Package_Metadata/de.md) |
+| [Part API/de](Part_API/de.md) | [Part scripting/de](Part_scripting/de.md) | [Path experimental/de](Path_experimental/de.md) |
+| [Path scripting/de](Path_scripting/de.md) | [Pivy/de](Pivy/de.md) | [Placement API/de](Placement_API/de.md) |
+| [Power users hub/de](Power_users_hub/de.md) | [Profiling/de](Profiling/de.md) | [Property/de](Property/de.md) |
+| [PySide Advanced Examples/de](PySide_Advanced_Examples/de.md) | [PySide Beginner Examples/de](PySide_Beginner_Examples/de.md) | [PySide Intermediate Examples/de](PySide_Intermediate_Examples/de.md) |
+| [PySide usage snippets/de](PySide_usage_snippets/de.md) | [PySide/de](PySide/de.md) | [Python Development Environment/de](Python_Development_Environment/de.md) |
+| [Python scripting tutorial/de](Python_scripting_tutorial/de.md) | [Python/de](Python/de.md) | [PythonOCC/de](PythonOCC/de.md) |
+| [Qt Example/de](Qt_Example/de.md) | [Quantity/de](Quantity/de.md) | [Raytracing API example/de](Raytracing_API_example/de.md) |
+| [Reinforcement API/de](Reinforcement_API/de.md) | [Scenegraph/de](Scenegraph/de.md) | [Scientific literature/de](Scientific_literature/de.md) |
+| [Scripted objects migration/de](Scripted_objects_migration/de.md) | [Scripted objects saving attributes/de](Scripted_objects_saving_attributes/de.md) | [Scripted objects with attachment/de](Scripted_objects_with_attachment/de.md) |
+| [Scripted objects/de](Scripted_objects/de.md) | [Scripted Parts: Ball Bearing - Part 1/de](Scripted_Parts__Ball_Bearing_-_Part_1/de.md) | [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts__Ball_Bearing_-_Part_2/de.md) |
+| [Scripting and macros/de](Scripting_and_macros/de.md) | [Scripts/de](Scripts/de.md) | [Selection API/de](Selection_API/de.md) |
+| [Svg Namespace/de](Svg_Namespace/de.md) | [TechDraw API/de](TechDraw_API/de.md) | [TechDrawGui API/de](TechDrawGui_API/de.md) |
+| [Topological data scripting/de](Topological_data_scripting/de.md) | [TopoShape API/de](TopoShape_API/de.md) | [Units/de](Units/de.md) |
+| [Vector API/de](Vector_API/de.md) | [ViewObject API/de](ViewObject_API/de.md) | [Viewprovider/de](Viewprovider/de.md) |
+| [Workbench creation/de](Workbench_creation/de.md) | [Wrapping a Cplusplus class in Python/de](Wrapping_a_Cplusplus_class_in_Python/de.md) |
 
 
 

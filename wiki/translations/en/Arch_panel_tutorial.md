@@ -22,12 +22,12 @@ This is a cross-post of a [tutorial](http://opensourceecology.org/wiki/FreeCAD_A
 
 FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and very modular, allowing for very advanced extension and customization, specially thanks to its intensive use of the Python language.
 
--   FreeCAD website: <http://www.freecadweb.org/>
--   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
--   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
--   FreeCAD forum: <http://forum.freecadweb.org/>
--   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
--   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+-   FreeCAD website: <http://www.freecad.org/>
+-   FreeCAD documentation wiki: <http://www.freecad.org/wiki/index.php?title=Main_Page>
+-   FreeCAD workbenches: <http://www.freecad.org/wiki/index.php?title=Workbench_Concept>
+-   FreeCAD forum: <http://forum.freecad.org/>
+-   Getting started with FreeCAD: <http://www.freecad.org/wiki/index.php?title=Getting_started>
+-   Architecture tutorial: <http://www.freecad.org/wiki/index.php?title=Arch_tutorial>
 
 ## Installing FreeCAD 
 
@@ -62,7 +62,7 @@ FreeCAD is a very technical application, and its learning curve can be steep. Be
 
 -   Although FreeCAD can import and work with mesh objects (Mesh workbench), it is primarily designed to work with a more advanced object type called brep, that is used by most of its workbenches (Part, PartDesign, Draft, Sketcher, Arch). When importing mesh-based files (.dae, .orb, .stl\...) you will usually need to convert these objects to brep before being able to do something interesting with them. Solid-based file formats however (.step, .iges), when imported into FreeCAD, directly produce brep objects. 2D formats (.dxf, .svg) also produce brep contents.
 
--   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. The best suited modes for CAD work are CAD or Gestures.
+-   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <https://wiki.freecad.org/Mouse_navigation>. The best suited modes for CAD work are CAD or Gestures.
 
 ## Exercise: modeling a roof panel 
 

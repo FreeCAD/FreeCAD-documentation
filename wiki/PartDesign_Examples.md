@@ -225,24 +225,26 @@ Transformed needs special attention as it can produce flat areas where the thick
 #### Orientation Mode 
 
 ++++
-| Parameter     | Iso View                                                                                    | Top View                                                                                            |
-+===============+=============================================================================================+=====================================================================================================+
-| **Standard**  | <img alt="Standard iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">    | <img alt="Standard top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">            |
-|               |                                                                                             |                                                                                                     |
-|               | :   Location and orientation follow the path.                                               | :   (If the object is twisted in an unexpected way, try Frenet)                                     |
-|               | :                                                                                           |                                                                                                     |
+| Parameter     | Iso View                                                                                                    | Top View                                                                                                                             |
++===============+=============================================================================================================+======================================================================================================================================+
+| **Standard**  | <img alt="Standard iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                    | <img alt="Standard top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                             |
+|               |                                                                                                             |                                                                                                                                      |
+|               | :   Location and orientation follow the path.                                                               | :   (If the object is twisted in an unexpected way, try Frenet)                                                                      |
+|               | :                                                                                                           |                                                                                                                                      |
 ++++
-| **Fixed**     | <img alt="Fixed iso view" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">          | <img alt="Fixed top view" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                  |
-|               |                                                                                             |                                                                                                     |
-|               | :   Location follows the path and orientation stays the same as basic shape.                | :   This tends to cause self intersections which lead to further errors: a ghost face in this case. |
+| **Fixed**     | <img alt="Fixed iso view" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">                          | <img alt="Fixed top view" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                                                   |
+|               |                                                                                                             |                                                                                                                                      |
+|               | :   Location follows the path and orientation stays the same as basic shape.                                | :   This tends to cause self intersections which lead to further errors: a ghost face in this case.                                  |
 ++++
-| **Frenet**    | <img alt="Frenet iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">        | <img alt="Frenet top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                |
-|               |                                                                                             |                                                                                                     |
-|               | :   Location and orientation follow the path, based on a different algorithm than Standard. | :   The basic shape follows the line orientation.                                                   |
+| **Frenet**    | <img alt="Frenet iso view" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                        | <img alt="Frenet top view" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                                 |
+|               |                                                                                                             |                                                                                                                                      |
+|               | :   Location and orientation follow the path, based on a different algorithm than Standard.                 | :   The basic shape follows the line orientation.                                                                                    |
 ++++
-| **Auxiliary** |                                                                                             |                                                                                                     |
+| **Auxiliary** | <img alt="Auxiliary iso view" src=images/PartDesign_ExampleProperty-11.png  style="width:200px;">                  | <img alt="Auxiliary top view" src=images/PartDesign_ExampleProperty-12.png  style="width:200px;">                                           |
+|               |                                                                                                             |                                                                                                                                      |
+|               | :   Location follows the path with a twist around the path that is controlled by an auxiliary curve (blue). | :   (It is hard to recognise but there is an angle between the planes of auxiliary curve and path that is responsible for the twist) |
 ++++
-| **Binormal**  |                                                                                             |                                                                                                     |
+| **Binormal**  |                                                                                                             |                                                                                                                                      |
 ++++
 
 

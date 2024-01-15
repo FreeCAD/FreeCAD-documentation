@@ -1,15 +1,4 @@
 # Manual:What is FreeCAD/ro
-<div class="mw-translate-fuzzy">
-
-
-{{Manual:TOC/ro}}
-
-![](images/Freecad016_screenshot1.jpg )
-
-
-</div>
-
-
 {{Manual:TOC}}
 
 ![](images/Freecad016_screenshot1.jpg )
@@ -46,7 +35,13 @@ FreeCAD beneficiază, de asemenea, de experiența vastă, acumulată a universul
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Site-ul oficial al FreeCAD este la <http://www.freecadweb.org>
+
+
+</div>
 
 **Lecturi suplimentare**
 

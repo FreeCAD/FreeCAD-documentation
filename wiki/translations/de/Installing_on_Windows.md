@@ -7,18 +7,19 @@
 
 
 
+
+
 ## Standardinstallation
 
-Die Verwendung des Installierers ist der einfachste Weg, die aktuellste, stabile Version von FreeCAD zu installieren.
-
-
-{{DownloadWindowsStable}}
+Der einfachste Weg, die aktuellste, stabile Version von FreeCAD zu installieren, ist die Verwendung des Installierers, siehe Seite [Herunterladen](Download/de.md).
 
 Wenn Du eine Entwicklungsversion herunterladen möchtest, die möglicherweise instabil ist, lies die Seite [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
 Nachdem Du den Installierer heruntergeladen hast, startet der Installationsprozess nach einem Doppelklick darauf.
 
 Nachfolgend finden sich weitere Informationen zu einigen technischen Optionen. Aber die meisten Nutzer benötigen nicht mehr als den Installierer. Nach Abschluss der Installation, gehe zu [Erste Schritte](Getting_started/de.md).
+
+
 
 ## Installation für alle Nutzer im Windowssystem 
 
@@ -27,6 +28,8 @@ Voreingestellt wird FreeCAD für den Nutzer installiert, der den Installierer ak
 Wird der Installierer durch einen Administrator aktiviert, kann dieser wählen, ob FreeCAD für alle Nutzer im System oder nur für Dich installiert wird. Per Voreinstellung wird für alle Nutzer installiert.
 
 Der voreingestellte Pfad für alle Nutzer ist: **C:\Program Files\FreeCAD X.YY**
+
+
 
 ## Installation im Hintergrund 
 
@@ -70,6 +73,8 @@ choco upgrade freecad
 }}
 
 Dies bekommt die neueste verfügbare Version aus dem Chocolatey-Repositorium. Wenn es irgendwelche Probleme mit dem Chocolateypaket gibt, kann man sich an die Betreuer unter [auf dieser Seite](https://chocolatey.org/packages/freecad) wenden.
+
+
 
 ## Deinstallation
 

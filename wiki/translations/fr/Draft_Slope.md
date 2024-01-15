@@ -23,7 +23,7 @@ La commande <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> **Draft
 1.  Sélectionnez une ou plusieurs [Draft Lignes](Draft_Line/fr.md) et/ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Slope.svg" width=16px> [Pente](Draft_Slope/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Pente** dans le menu.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Slope.svg" width=16px> Pente** du menu.
 3.  Saisissez une valeur de **Pente**. {{Value|0}} signifie que chaque segment est horizontal, {{Value|0.5}} signifie que la hauteur delta de chaque segment est {{Value|0.5}} fois sa longueur, etc. La valeur peut également être négative.
 4.  Appuyez sur **Entrée** ou sur le bouton **OK** pour terminer la commande.
 

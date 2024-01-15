@@ -1,4 +1,7 @@
 # Macro PropertyMemo/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro_PropertyMemo
 |Translate=Proprietà Memo
@@ -11,16 +14,51 @@
 |Download=[https://www.freecadweb.org/wiki/images/f/f2/PropertyMemo.png ToolBar Icon]
 }}
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro crea una proprietà aggiuntiva per gli oggetti, è rinominabile a piacere, ma funziona solo in Draft.
 
-![](images/Macro_FCPropertyMemo_00.png ) 
+
+</div>
+
+This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
+
+![](images/Macro_FCPropertyMemo_00.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Addin one property Memo → Name*
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Uso
 
 Avviare la macro, selezionare un oggetto Draft, compilare i campi e applicare. Nella scheda **Vista combinata → Proprietà → Dati** appare una nuova proprietà.
+
+
+</div>
+
+Launch the macro, select one Draft object, complete the fields and apply. A new property is created in **Combo view → Property → Data tab**.
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Property title** : titolo della nuova proprietà (Default: Memo)
 
@@ -28,16 +66,26 @@ Avviare la macro, selezionare un oggetto Draft, compilare i campi e applicare. N
 
 -    {{CheckBox|TRUE|UnCheck for String}}: casella di controllo per la scelta tra stringa o elenco (By default)
 
-![One Property Memo is adding](images/Macro_FCPropertyMemo_01.png )
+
+</div>
+
+![Example of a memo property](images/Macro_FCPropertyMemo_01.png )
+
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Memo** : In questo caso il titolo della proprietà è Memo
 -   **Name** : In questo caso il campo della proprietà è compilato con Name
 -   Il campo della proprietà può essere compilato a piacere
 
 
+</div>
 
 
-Se nella lista esiste una proprietà la casella è attiva, fare clic sui tre puntini per aprire l\'elenco in una finestra
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -50,9 +98,22 @@ Image:Macro_FCPropertyMemo_02.png\|Una proprietà Memo nella lista. Image:Macro_
 
 
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 L\'icona per la barra degli strumenti: ![](images/PropertyMemo.png )
+
+
+</div>
+
+The icon for the ToolBar ![](images/PropertyMemo.png )
 
 **Macro_FCPropertyMemo.FCMacro**
 
@@ -397,12 +458,26 @@ MainWindow.show()
 
 La discussione nel forum [Object description field](http://forum.freecadweb.org/viewtopic.php?f=3&t=12282)
 
+
+<div class="mw-translate-fuzzy">
+
 Le macro di [mario52a](https://gist.github.com/mario52a) in gists
+
+
+</div>
+
+
 
 ## Versioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   ver 00.03 2020/05/17 : layout della griglia for 0.19
 -   ver 00.02 19/10/2015 : aggiunto un checkBox per scegliere tra Memo Stringa o Elenco
+
+
+</div>
 
 
 

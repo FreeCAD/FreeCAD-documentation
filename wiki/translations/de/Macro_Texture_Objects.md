@@ -1,4 +1,7 @@
 # Macro Texture Objects/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Texture Objects
 |Translate=Texture Objects
@@ -10,6 +13,9 @@
 |Download=[https://www.freecadweb.org/wiki/images/d/da/Macro_Texture_Objects.png Icon Toolbar]
 |FCVersion= 0.18 und darunter
 }}
+
+
+</div>
 
 ## Description
 
@@ -25,6 +31,8 @@ Mit diesem Makro können Sie ein Texturbild vorübergehend auf ausgewählten Obj
 
 <img alt="" src=images/Textured_objects.jpg  style="width:680px;">
 
+
+
 ## Skript
 
 **Macro_Texture_Objects.FCMacro**
@@ -37,7 +45,7 @@ from PySide import QtGui
 from pivy import coin
 
 # get a jpg filename
-jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.qApp.activeWindow(),'Open image file','*.jpg')
+jpgfilename = QtGui.QFileDialog.getOpenFileName(QtGui.QApplication.activeWindow(),'Open image file','*.jpg')
 
 # apply textures
 for obj in FreeCADGui.Selection.getSelection():

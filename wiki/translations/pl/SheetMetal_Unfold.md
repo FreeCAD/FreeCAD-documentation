@@ -1,51 +1,63 @@
 ---
  GuiCommand:
    Name: SheetMetal Unfold
-   MenuLocation: SheetMetal , Unfold
-   Workbenches: SheetMetal_Workbench
+   Name/pl: Arkusz Blachy: Rozwiń
+   MenuLocation: SheetMetal , Rozwiń
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **U**
-   SeeAlso: SheetMetal_UnattendedUnfold
+   SeeAlso: SheetMetal_UnattendedUnfold/pl
 ---
 
 # SheetMetal Unfold/pl
 
-## Description
-
-The <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **SheetMetal Unfold** command unfolds a sheet metal object.
-
-## Usage
-
-1.  Select a planar face of the sheet metal part.
-2.  Activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) command using one of the following:
-    -   The **<img src="images/_SheetMetal_Unfold.svg_" width=16px> [Unfold](SheetMetal_Unfold.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> [Unfold](SheetMetal_Unfold.md)** menu option.
-    -   The keyboard shortcut: **U**.
-3.  Adjust unfolding options in the [task panel](Task_panel.md) by:
-    -   Selecting the projection options of the unfold sketch.
-    -   Selecting the method of bend deduction with K-factor:
-        - Use a [Material Definition Sheet](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
-        - Select a manual [K-factor](https://github.com/shaise/FreeCAD_SheetMetal#terminology) then the [ANSI or DIN](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) standard to apply
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal Unfold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It has no additional properties, but its label has a default value:
-
-### Data
 
 
-{{Properties_Title|Base}}
+## Opis
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+Polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> **Rozwiń** rozkłada obiekt z blachy.
 
-## Limitations
 
--   The sheet metal should have a constant thickness.
--   Flat faces should not contain split lines.
--   Flat faces must be truly planar and not B-spline approximations.
--   Faces of bend angles must be truly cylindrical and also not B-spline approximations.
--   The Unfold feature is not parametric. If the model is modified you have to unfold it again.
+
+## Użycie
+
+1.  Wybierz płaską powierzchnię części z blachy.
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Rozwiń](SheetMetal_Unfold.md) używając jednego z poniższych sposobów:
+    -   Przycisk **<img src="images/_SheetMetal_Unfold.svg_" width=16px> '''Rozwiń'''**.
+    -   Polecenie menu **SheetMetal → <img src="images/SheetMetal_Unfold.svg" width=16px> Rozwiń**.
+    -   Skrót klawiaturowy: **U**.
+3.  Dostosuj opcje rozkładania w [Panelu zadań](Task_panel/pl.md) poprzez:
+    -   Wybranie opcji rzutowania szkicu rozwinięcia.
+    -   Wybranie metody obliczania zgięcia ze współczynnikiem K:
+        - Użyj [Material Arkusza definicji](https://github.com/shaise/FreeCAD_SheetMetal#material-definition-sheet).
+        - Wybierz samodzielnie [Współczynnik K](https://github.com/shaise/FreeCAD_SheetMetal#terminology), a następnie normę [ANSI lub DIN](https://de.wikipedia.org/wiki/Biegeverkürzung#Korrektur_durch_den_sog._k-Faktor) do zastosowania.
+
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt **Rozwiń bezobsługowo** środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **Etykieta|String**: Wartość domyślna: {{value|Rozwiń}} *(+ kolejny numer dla drugiego i kolejnych elementów)*.
+    Nazwa edytowalna przez użytkownika, może to być dowolny ciąg znaków UTF8.
+
+
+
+## Ograniczenia
+
+-   Blacha powinna mieć stałą grubość.
+-   Płaskie powierzchnie nie powinny zawierać linii podziału.
+-   Płaskie powierzchnie muszą być prawdziwie płaskie i nie mogą być aproksymacjami krzywych złożonych.
+-   Powierzchnie kątów gięcia muszą być prawdziwie cylindryczne i nie mogą być aproksymacjami krzywych złożonych.
+-   Funkcja Rozwiń nie jest parametryczna. Jeśli model zostanie zmodyfikowany, należy go ponownie rozłożyć.
 
 
 

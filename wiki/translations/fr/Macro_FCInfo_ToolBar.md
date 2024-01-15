@@ -1,13 +1,14 @@
 # Macro FCInfo ToolBar/fr
 {{Macro/fr
 |Name=Macro FCCInfo ToolBar
+|Name/fr=Macro FCCInfo ToolBar
 |Icon=FCInfoToolBar.png
 |Description=Donne des informations en temps réel sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume... dans différentes unités (métriques et impériales) dans une barre d'outils. Les informations à afficher sont paramétrables dans les paramètres de FreeCAD.
 |Author=Mario52
-|Version=00.04
-|Date=2023/06/28
+|Version=00.05b
+|Date=2023/09/06
 |FCVersion=0.18 et plus
-|Download=[https://wiki.freecadweb.org/images/9/9d/FCInfoToolBar.png Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/9/9d/FCInfoToolBar.png Icône de la barre d'outils]
 |SeeAlso=[Arch Prendre des cotes](Arch_Survey/fr.md), [Macro FCInfo](Macro_FCInfo/fr.md), [Macro FCInfoGlass](Macro_FCInfoGlass/fr.md)
 }}
 
@@ -16,10 +17,13 @@
 Donne des informations sur la forme sélectionnée et peut afficher une conversion de rayon, diamètre, longueur, surface, volume \... dans différentes unités (métriques et impériales) dans une barre d\'outils. Les informations à afficher sont paramétrables dans les paramètres de FreeCAD.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/40ca52f49edb1e29c70f0eaef42934aec19ca594/FCInfo_ToolBar.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/e382adbe41747788ad15a18eb206a872/raw/c825afd430d9124a77f9688824d12a78b2219348/FCInfo_ToolBar.FCMacro}}
 
 ![FCInfo_ToolBar](images/Macro_FCInfo_ToolBar_00.png ) 
 *FCInfo ToolBar*
+
+![FCInfo_ToolBar](images/FCInfo_ToolBar_Animate01.gif ) 
+*FCInfo ToolBar en action*
 
 
 
@@ -88,6 +92,9 @@ Les options sont situées dans les paramètres de FreeCAD :
 -   ***switch_User_Display_RadiusObject***
     -   affiche le rayon et le diametre si un cercle est détecté (r:) \[D:\]
 
+-   ***switch_User_Display_RadiusObject***
+    -   affiche le rayon et le diametre sur la surface (rS:) \[DS:\]
+
 -   ***switch_User_Display_LengthObject***
     -   affiche la longueur du bord sélectionné ou le périmètre de la face si une face est sélectionnée
         -   (L:) affiche la longueur du bord ou du périmètre de la sélection
@@ -131,9 +138,15 @@ Les options sont situées dans les paramètres de FreeCAD :
 -   ***switch_User_Display_Position***
     -   affiche les coordonnées du point cliqué par la souris (Pos:)
 
+-   ***switch_User_Display_Position_2D_CAD***
+    -   affiche les coordonnées du point 2D Cad (x, y) 0,0 = coin inférieur gauche
+
+-   ***switch_User_Display_Position_2D_BMP***
+    -   affiche les coordonnées du point 2D Bmp (x, y) 0,0 = coin supérieur gauche
+
 -   ***switch_User_NotInfoOnBeginning***
-    -   s\'il est `False` les infos (ces informations) sont affichées
-    -   s\'il est `True` les infos ne sont pas affichées
+    -   s\'il est `False` les infos (ces informations) ne sont pas affichées
+    -   s\'il est `True` les infos sont affichées
 
 -   ***seT_User_UnitSymbolSquare***
     -   donne le symbole carré (Défaut **2**)
@@ -210,6 +223,11 @@ if switch_User_NotRunAuto == False:
 La discussion sur le forum [Feature request: coordinates display](https://forum.freecadweb.org/viewtopic.php?f=8&t=66294)
 
 ## Version
+
+version 00.05b 06/09/2023 : correction d\'un bug de calcul 2D Bmp
+
+version 00.05 06/09/2023 : ajout des coordonnées 2D Cad (x, y) 0,0 = coin inférieur gauche ou Bmp (x, y) 0,0 = coin supérieur gauche, radiusSurface
+créer le test \"if\" **switch_User_NotInfoOnBeginning** j\'ai oublié ! !!
 
 version 00.04 28/06/2023 : correction styleSheet et:
 

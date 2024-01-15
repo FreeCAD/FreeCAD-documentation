@@ -1,38 +1,45 @@
 ---
  GuiCommand:
    Name: Draft Snap Angle
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap, Draft_Snap_Lock
+   Name/pl: Rysunek Roboczy: Przyciągnij do kąta
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl
 ---
 
 # Draft Snap Angle/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft Snap Angle** option snaps to the special cardinal points on circular edges, at multiples of 30° and 45°. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Draft Snap Angle** przyciąga do specjalnych punktów głównych na okrągłych krawędziach, przy wielokrotnościach 30° i 45°. Krawędzie mogą należeć do obiektów środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów stworzonych w innych [środowiskach pracy](Workbenches/pl.md).
 
 ![](images/Draft_Snap_Angle_example.png ) 
-*Snapping the second point of a line to the -30° point on a circular edge. The small magenta circles indicate all available special cardinal points.*
+*Przyciąganie drugiego punktu linii do punktu -30° na okrągłej krawędzi. Małe okręgi w kolorze magenta wskazują wszystkie dostępne specjalne punkty bazowe.*
 
-## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-2.  If **Draft Snap Angle** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Angle.svg" width=16px>** button in the Draft snap toolbar.
-    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Angle.svg" width=16px> Snap Angle** option.
-3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-4.  Note that you can also change snap options while a command is active.
-5.  Move the cursor over a circular edge.
-6.  The edge is highlighted.
-7.  If a cardinal point is found the point is marked and the <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> icon is displayed near the cursor.
-8.  Optionally move the cursor closer to another cardinal point to select that point instead.
-9.  Click to confirm the point.
+## Użycie
 
-## Preferences
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+1.  Upewnij się, że przyciąganie jest włączone. Więcej informacji na ten temat znajduje się na stronie <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+2.  Jeśli opcja **przyciąganie do kąta** nie jest aktywna, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Center.svg" width=16px>** na pasku narzędzi przyciągania.
+    -   Przytrzymaj przycisk **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** na pasku [widżetu przyciągania](Draft_snap_widget/pl.md) i w otwartym menu wybierz opcję **<img src="images/Draft_Snap_Angle.svg" width=16px> Przyciągnij do kąta**.
+3.  Wybierz polecenie środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), aby utworzyć geometrię.
+4.  Pamiętaj, że możesz również zmienić opcje przyciągania, gdy polecenie jest aktywne.
+5.  Przesuń kursor nad okrągłą krawędź.
+6.  Krawędź zostanie podświetlona.
+7.  Jeśli zostanie znaleziony punkt główny, zostanie on zaznaczony, a ikona <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> zostanie wyświetlona w pobliżu kursora.
+8.  Opcjonalnie przesuń kursor bliżej innego punktu odniesienia, aby wybrać ten punkt.
+9.  Kliknij, aby potwierdzić punkt.
+
+
+
+## Ustawienia
+
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

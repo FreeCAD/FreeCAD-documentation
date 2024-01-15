@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 The Schedule tool allows you to create and automatically populate a [spreadsheet](Spreadsheet_Workbench.md) with contents gathered from the model.
@@ -23,12 +25,16 @@ The Schedule tool allows you to create and automatically populate a [spreadsheet
 
 For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
 
+
+
 ## Применение
 
 1.  Open or create a FreeCAD document which contains some objects.
 2.  Press the **<img src="images/Arch_Schedule.svg" width=16px> [Schedule](Arch_Schedule.md)** button.
 3.  Adjust the desired options.
 4.  Press **OK**.
+
+
 
 ## Рабочий процесс 
 
@@ -41,6 +47,9 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
 ![](images/Arch_schedule_example02.jpg )
 
 Затем вы можете заполнять строки таблицы друг за другом. Каждая строка представляет собой \"запрос\" и будет отображать одну строку в электронной таблице. Нажмите кнопку **Add**, чтобы добавить новую строку, и дважды щелкните каждую ячейку из этой строки, чтобы заполнить значения. Кнопка **Del** удаляет строку, содержащую выбранную в данный момент ячейку, а кнопка **Clear** удаляет абсолютно все строки. Доступными полями для заполнения в столбцах являются:
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Description**: Описание для этого запроса. Столбец \"Описание\" - Это первый столбец результирующей электронной таблицы. В описании обязательно должен быть представлен запрос. Если вы оставите ячейку описания пустой, вся строка будет пропущена и оставлена пустой в электронной таблице. Это позволяет добавлять \"разделительные\" строки.
 -   **Value**: Это реальный запрос, который вы хотите выполнить для всех объектов, выбранных этим запросом. Это может быть два типа вещей: либо слово `count` или свойство объекта:
@@ -82,6 +91,9 @@ For a more general solution, see the [Reporting Workbench](https://github.com/fu
         
         Will retain only objects that do not have the **IFC Type** property.
 
+
+</div>
+
 The **Import** button allows you to build this list in another spreadsheet application, and import that as a csv file here.
 
 Таким образом, мы можем составить список запросов, подобный этому:
@@ -97,6 +109,8 @@ By double-clicking the Schedule object, you get back to the task panel and chang
 ![](images/Arch_schedule_example05.jpg )
 
 The spreadsheet can then be exported to csv normally, from the Spreadsheet workbench.
+
+
 
 ## Динамические свойства 
 

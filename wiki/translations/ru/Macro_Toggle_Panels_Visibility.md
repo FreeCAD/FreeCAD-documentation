@@ -7,8 +7,8 @@
 |Version=1.0
 |Date=2015-01-17
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/d/d0/Macro_Toggle_Views_Visibility.png Toolbar icon]
-|SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle_Panels]
+|Download=[https://wiki.freecad.org/images/d/d0/Macro_Toggle_Views_Visibility.png ToolBar Icon]
+|SeeAlso=[https://forum.freecadweb.org/viewtopic.php?f=22&t=30450&hilit=Toggle_Panels Toggle Panels]
 }}
 
 ## Description
@@ -29,6 +29,8 @@ Click on the associated toolbar button, or invoke from the Macro menu. The suppo
 ## User Interface 
 
 There is immediate confirmation of the user action as the supporting windows either appear or disappear.
+
+
 
 ## Программирование
 

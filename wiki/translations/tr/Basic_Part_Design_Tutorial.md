@@ -22,6 +22,8 @@ A video of the whole construction is here: <https://youtu.be/geIrH1cOCzc>
 
 (each section has its own split Video below)
 
+
+
 ## Başlamadan Önce 
 
 ## The Task 

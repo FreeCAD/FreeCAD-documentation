@@ -40,7 +40,7 @@ spreadsheet = makeIfcSpreadsheet(archobj=None)
 
 -   Crée un objet `spreadsheet`. Vous pouvez éventuellement donner un `archobj`.
 
-Exemple: 
+Exemple : 
 ```python
 import FreeCAD, Draft, Arch
 

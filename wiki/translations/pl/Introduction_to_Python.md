@@ -1,27 +1,29 @@
 # Introduction to Python/pl
-## Introduction
+## Wprowadzenie
 
-This is a short tutorial for those new to [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29). Python is an open-source, multiplatform [programming language](https://en.wikipedia.org/wiki/Programming_language). It has several features that make it different from other programming languages, and very accessible to new users:
+To jest krótki poradnik dla osób, dla których [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) jest całkowicie nowy. Python to wieloplatformowy [język programowania](https://en.wikipedia.org/wiki/Programming_language) o otwartym kodzie źródłowym. Ma kilka cech, które odróżniają go od innych języków programowania i jest bardzo przystępny dla nowych użytkowników:
 
--   It has been designed to be to readable by human beings, making it relatively easy to learn and understand.
--   It is interpreted, this means that programs do not need to be compiled before they can be executed. Python code can be executed immediately, even line by line if you wish.
--   It can be embedded in other programs as a scripting language. FreeCAD has an embedded Python interpreter. You can write Python code to manipulate parts of FreeCAD. This is very powerful, it means you can build your very own tools.
--   It is extensible, you can easily plug new modules into your Python installation and extend its functionality. For example, there are modules that allow Python to read and write images, to communicate with Twitter, to schedule tasks to be performed by your operating system, etc.
+-   Został zaprojektowany tak, aby był czytelny dla ludzi, dzięki czemu jest stosunkowo łatwy do nauczenia i zrozumienia.
+-   Jest interpretowany, co oznacza, że programy nie muszą być kompilowane przed ich wykonaniem. Kod Pythona może być wykonywany natychmiast, nawet linijka po linijce, jeśli chcesz.
+-   Może być osadzony w innych programach jako język skryptowy. FreeCAD posiada wbudowany interpreter Python. Możesz pisać kod Python, aby manipulować częściami FreeCAD. Jest to bardzo potężne, oznacza to, że można budować własne narzędzia.
+-   Jest rozszerzalny, można łatwo podłączyć nowe moduły do instalacji Python i rozszerzyć jego funkcjonalność. Na przykład istnieją moduły, które pozwalają środowisku Pyton odczytywać i zapisywać obrazy, komunikować się z Twitterem, planować zadania do wykonania przez system operacyjny itp.
 
-The following is a very basic introduction, and by no means a complete tutorial. But hopefully it will provide a good starting point for further exploration into FreeCAD and its mechanisms. We strongly encourage you to enter the code snippets below into a Python interpreter.
+Poniższa instrukcja jest bardzo podstawowym wprowadzeniem i w żadnym wypadku nie jest kompletnym poradnikiem. Mamy jednak nadzieję, że będzie to dobry punkt wyjścia do dalszej eksploracji FreeCAD i jego mechanizmów. Zdecydowanie zachęcamy do wprowadzenia poniższych fragmentów kodu do interpretera Python.
 
-## The interpreter 
 
-Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
 
-In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the [Python website](https://www.python.org/) if you are on Windows or Mac, install it from your package repository if you are on GNU/Linux), you will have a Python interpreter in your start menu. But, as already mentioned, FreeCAD also has a built-in Python interpreter: the [Python console](Python_console.md).
+## Interpreter
+
+Zwykle, gdy piszesz programy komputerowe, po prostu otwierasz edytor tekstu i lub środowisko programistyczne *(które w większości przypadków zawiera edytor tekstu z kilkoma dodatkowymi narzędziami)*, wpisujesz swój program, następnie kompilujesz go i wykonujesz. Przez większość czasu robisz błędy podczas pisania, więc twój program nie działa. Otrzymujesz komunikat błędu mówiący co poszło źle. Potem wracasz do edytora tekstu, poprawiasz błędy, uruchamiasz ponownie, aż program zacznie działać prawidłowo.
+
+W środowisku Python cały ten proces można wykonać w sposób przezroczysty wewnątrz interpretera Python. Interpreter to okno z wierszem poleceń, w którym można po prostu wpisać kod. Jeśli zainstalowałeś Python na swoim komputerze (pobierz go ze strony [Python](https://www.python.org/), jeśli korzystasz z systemu Windows lub Mac, zainstaluj go z repozytorium pakietów jeśli korzystasz z systemu GNU/Linux), będziesz miał interpreter Python w menu startowym. Ale, jak już wspomniano, FreeCAD ma również wbudowany interpreter: [konsola Python](Python_console/pl.md).
 
 ![](images/FreeCAD_Python_console.png ) 
-*The FreeCAD Python console*
+*Konsola Python programu FreeCAD*
 
-If you don\'t see it, click on **View → Panels → Python console**. The Python console can be resized and also undocked.
+Jeśli jej nie widzisz, kliknij **Widok → Panele → Konsola Python**. Rozmiar konsoli Python można zmienić, a także ją odblokować.
 
-The interpreter shows the Python version, then a `>>>` symbol which is the command prompt. Writing code in the interpreter is simple: one line is one instruction. When you press **Enter**, your line of code will be executed (after being instantly and invisibly compiled). For example, try writing this:
+Interpreter pokazuje wersję Python, a następnie symbol `>>`, który jest znakiem zachęty. Pisanie kodu w interpreterze jest proste: jedna linia to jedna instrukcja. Po naciśnięciu **Enter**, linia kodu zostanie wykonana *(po natychmiastowej i niewidocznej kompilacji)*. Na przykład, spróbuj napisać to:
 
 
 ```python
@@ -31,29 +33,29 @@ print("hello")
 
 `print()`
 
-is a Python command that, obviously, prints something on the screen. When you press **Enter**, the operation is executed, and the message `"hello"` is printed. If you make an error, for example let\'s write:
+to polecenie Python, które oczywiście wypisuje coś na ekranie. Po naciśnięciu **Enter**, operacja jest wykonywana, a wiadomość `"hello"` jest drukowana. Jeśli popełnimy błąd, na przykład napiszemy:
 
 
 ```python
 print(hello)
 ```
 
-Python will immediately tell you so. In this case Python doesn\'t know what `hello` is. The `" "` characters specify that the content is a string, programming jargon for a piece of text. Without these the `print()` command doesn\'t recognize `hello`. By pressing the up arrow you can go back to the last line of code and correct it.
+Python natychmiast ci to powie. W tym przypadku Python nie wie, czym jest `hello`. Znaki `" "` określają, że zawartość jest ciągiem znaków, programistycznym żargonem dla fragmentu tekstu. Bez nich polecenie `print()` nie rozpoznaje `hello`. Naciskając strzałkę w górę można wrócić do ostatniej linii kodu i poprawić ją.
 
-The Python interpreter also has a built-in help system. Let\'s say we don\'t understand what went wrong with `print(hello)` and we want specific information about the command:
+Interpreter Python posiada również wbudowany system pomocy. Powiedzmy, że nie rozumiemy, co poszło nie tak z `print(hello)` i chcemy uzyskać szczegółowe informacje o poleceniu:
 
 
 ```python
 help("print")
 ```
 
-You\'ll get a long and complete description of everything the `print()` command can do.
+Otrzymasz długi i kompletny opis wszystkiego, co może zrobić polecenie `print()`.
 
-Now that you understand the Python interpreter, we can continue with the more serious stuff. {{Top}}
+Teraz, gdy rozumiesz już interpreter Python, możemy przejść do poważniejszych rzeczy. 
 
-## Variables
+## Zmienne
 
-Very often in programming you need to store a value under a name. That\'s where variables come in. For example, type this:
+W programowaniu bardzo często zachodzi potrzeba przechowywania wartości pod nazwą. W tym miejscu pojawiają się zmienne. Na przykład, wpisz to:
 
 
 ```python
@@ -61,7 +63,7 @@ a = "hello"
 print(a)
 ```
 
-You probably understand what happened here, we saved the string `"hello"` under the name `a`. Now that `a` is known we can use it anywhere, for example in the `print()` command. We can use any name we want, we just need to follow some simple rules, such as not using spaces or punctuation and not using Python keywords. For example, we can write:
+Prawdopodobnie rozumiesz co się tutaj stało, zapisaliśmy ciąg `"hello"` pod nazwą `a`. Teraz, gdy `a` jest znany, możemy go użyć gdziekolwiek, na przykład w poleceniu `print()`. Możemy użyć dowolnej nazwy, musimy tylko przestrzegać kilku prostych zasad, takich jak nieużywanie spacji lub znaków interpunkcyjnych i nieużywanie słów kluczowych Python. Na przykład, możemy napisać:
 
 
 ```python
@@ -69,7 +71,7 @@ hello = "my own version of hello"
 print(hello)
 ```
 
-Now `hello` is not an undefined any more. Variables can be modified at any time, that\'s why they are called variables, their content can vary. For example:
+Teraz `hello` nie jest już niezdefiniowane. Zmienne mogą być modyfikowane w dowolnym momencie, dlatego są nazywane zmiennymi, ich zawartość może się zmieniać. Na przykład:
 
 
 ```python
@@ -79,7 +81,7 @@ myVariable = "good bye"
 print(myVariable)
 ```
 
-We changed the value of `myVariable`. We can also copy variables:
+Zmieniliśmy wartość `myVariable`. Możemy również kopiować zmienne:
 
 
 ```python
@@ -88,15 +90,15 @@ var2 = var1
 print(var2)
 ```
 
-It is advisable to give meaningful names to your variables. After a while you won\'t remember what your variable named `a` represents. But if you named it, for example, `myWelcomeMessage` you\'ll easily remember its purpose. Plus your code is a step closer to being self-documenting.
+Zaleca się nadawanie zmiennym znaczących nazw. Po pewnym czasie nie będziesz pamiętać, co reprezentuje zmienna o nazwie `a`. Ale jeśli nazwiesz ją na przykład `myWelcomeMessage`, łatwo zapamiętasz jej przeznaczenie. Dodatkowo, twój kod jest o krok bliżej do bycia samodokumentującym się.
 
-Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined. {{Top}}
+Wielkość liter jest bardzo ważna, 
 
-## Numbers
+## Liczby
 
-Of course Python programs can deal with all kinds of data, not just text strings. One thing is important, Python must know what kind of data it is dealing with. We saw in our print hello example, that the `print()` command recognized our `"hello"` string. By using `" "` characters, we specified that what follows is a text string.
+Oczywiście programy w Python mogą obsługiwać wszystkie rodzaje danych, nie tylko ciągi tekstowe. Jedna rzecz jest ważna, Python musi wiedzieć z jakim rodzajem danych ma do czynienia. W naszym przykładzie print hello widzieliśmy, że polecenie `print()` rozpoznało nasz ciąg `"hello"`. Używając znaków `" "`, określiliśmy, że to, co następuje, jest ciągiem tekstowym.
 
-We can always check the data type of a variable with the `type()` command:
+Zawsze możemy sprawdzić typ danych zmiennej za pomocą polecenia `type()`:
 
 
 ```python
@@ -104,7 +106,7 @@ myVar = "hello"
 type(myVar)
 ```
 
-It will tell us the content of `myVar` is a `'str'`, which is short for string. We also have other basic data types such as integer and float numbers:
+Poinformuje nas, że zawartość `myVar` to `'str'`, co jest skrótem od string. Mamy również inne podstawowe typy danych, takie jak liczby całkowite i zmiennoprzecinkowe:
 
 
 ```python
@@ -114,7 +116,7 @@ print(firstNumber + secondNumber)
 type(firstNumber)
 ```
 
-Python knows that 10 and 20 are integer numbers, so they are stored as `'int'`, and Python can do with them everything it can do with integers. Look at the results of this:
+Python wie, że 10 i 20 są liczbami całkowitymi, więc są one przechowywane jako `'int'`, a Python może zrobić z nimi wszystko, co może zrobić z liczbami całkowitymi. Spójrz na wyniki tego działania:
 
 
 ```python
@@ -123,7 +125,7 @@ secondNumber = "20"
 print(firstNumber + secondNumber)
 ```
 
-Here we forced Python to consider that our two variables are not numbers but pieces of text. Python can add two pieces of text together, although in that case, of course, it won\'t perform any arithmetic. But we were talking about integer numbers. There are also float numbers. The difference is float numbers can have a decimal part and integer numbers do not:
+Tutaj zmusiliśmy Pythona do wzięcia pod uwagę, że nasze dwie zmienne nie są liczbami, ale fragmentami tekstu. Python może dodać do siebie dwa fragmenty tekstu, choć w takim przypadku oczywiście nie wykona żadnych działań arytmetycznych. Ale mówiliśmy o liczbach całkowitych. Istnieją również liczby zmiennoprzecinkowe. Różnica polega na tym, że liczby zmiennoprzecinkowe mogą mieć część dziesiętną, a liczby całkowite nie:
 
 
 ```python
@@ -133,7 +135,7 @@ print("var1 is of type ", type(var1))
 print("var2 is of type ", type(var2))
 ```
 
-Integers and floats can be mixed together without problems:
+Liczby całkowite i zmiennoprzecinkowe mogą być mieszane bez problemów:
 
 
 ```python
@@ -142,7 +144,7 @@ print(total)
 print(type(total))
 ```
 
-Because `var2` is a float Python automatically decides that the result must also be a float. But there are cases where Python does not knows what type to use. For example:
+Ponieważ `var2` jest liczbą zmiennoprzecinkową, interpreter automatycznie decyduje, że wynik również musi być liczbą zmiennoprzecinkową. Istnieją jednak przypadki, w których interpreter nie wie, jakiego typu użyć. Na przykład:
 
 
 ```python
@@ -151,7 +153,7 @@ varB = 456
 print(varA + varB)
 ```
 
-This results in an error, `varA` is a string and `varB` is an integer, and Python doesn\'t know what to do. However, we can force Python to convert between types:
+Powoduje to błąd, `varA` jest łańcuchem znaków, a `varB` jest liczbą całkowitą i interpreter nie wie, co zrobić. Możemy jednak wymusić konwersję między typami:
 
 
 ```python
@@ -160,14 +162,14 @@ varB = 123
 print(varA + str(varB))
 ```
 
-Now that both variables are strings the operation works. Note that we \"stringified\" `varB` at the time of printing, but we didn\'t change `varB` itself. If we wanted to turn `varB` permanently into a string, we would need to do this:
+Teraz, gdy obie zmienne są łańcuchami, operacja działa. Zwróć uwagę, że \"stringowaliśmy\" `varB` w czasie drukowania, ale nie zmieniliśmy samego `varB`. Gdybyśmy chcieli zmienić `varB` na stałe w ciąg znaków, musielibyśmy wykonać tę operację:
 
 
 ```python
 varB = str(varB)
 ```
 
-We can also use `int()` and `float()` to convert to integer and float if we want:
+Możemy również użyć `int()` i `float()` do konwersji na liczbę całkowitą i zmiennoprzecinkową, jeśli chcemy:
 
 
 ```python
@@ -176,7 +178,7 @@ print(int(varA))
 print(float(varA))
 ```
 
-You must have noticed that we have used the `print()` command in several ways. We printed variables, sums, several things separated by commas, and even the result of another Python command. Maybe you also saw that these two commands:
+Pewnie zauważyłeś, że użyliśmy polecenia `print()` na kilka sposobów. Drukowaliśmy zmienne, sumy, kilka rzeczy oddzielonych przecinkami, a nawet wynik innego polecenia z języka Python. Być może zauważyłeś również, że te dwa polecenia:
 
 
 ```python
@@ -184,7 +186,7 @@ type(varA)
 print(type(varA))
 ```
 
-have the same result. This is because we are in the interpreter, and everything is automatically printed. When we write more complex programs that run outside the interpreter, they won\'t print automatically, so we\'ll need to use the `print()` command. With that in mind let\'s stop using it here. From now on we will simply write:
+daje ten sam wynik. Dzieje się tak, ponieważ jesteśmy w interpreterze i wszystko jest automatycznie drukowane. Kiedy piszemy bardziej złożone programy, które działają poza interpreterem, nie będą one drukowane automatycznie, więc będziemy musieli użyć polecenia `print()`. Mając to na uwadze, przestańmy go tutaj używać. Od teraz będziemy po prostu pisać:
 
 
 ```python
@@ -195,9 +197,11 @@ myVar
 
 {{Top}}
 
-## Lists
 
-Another useful data type is a list. A list is a collection of other data. To define a list we use `[ ]`:
+
+## Listy
+
+Innym przydatnym typem danych jest lista. Lista jest zbiorem innych danych. Aby zdefiniować listę używamy `[ ]`:
 
 
 ```python
@@ -207,14 +211,14 @@ myOtherList = ["Bart", "Frank", "Bob"]
 myMixedList = ["hello", 345, 34.567]
 ```
 
-As you can see a list can contain any type of data. You can do many things with a list. For example, count its items:
+Jak widać, lista może zawierać dowolny typ danych. Z listą można robić wiele rzeczy. Na przykład policzyć jej elementy:
 
 
 ```python
 len(myOtherList)
 ```
 
-Or retrieve one item:
+Lub pobrać jeden element:
 
 
 ```python
@@ -222,9 +226,9 @@ myName = myOtherList[0]
 myFriendsName = myOtherList[1]
 ```
 
-While the `len()` command returns the total number of items in a list, the first item in a list is always at position `0`, so in our `myOtherList` `"Bob"` will be at position `2`. We can do much more with lists such as sorting items and removing or adding items.
+Podczas gdy komenda `len()` zwraca całkowitą liczbę elementów na liście, pierwszy element na liście jest zawsze na pozycji `0`, więc w naszym `myOtherList` `"Bob"` będzie na pozycji `2`. Możemy zrobić znacznie więcej z listami, takimi jak sortowanie elementów i usuwanie lub dodawanie elementów.
 
-Interestingly a text string is very similar to a list of characters in Python. Try doing this:
+Co ciekawe, ciąg tekstowy jest bardzo podobny do listy znaków w języku Python. Spróbuj zrobić to:
 
 
 ```python
@@ -233,13 +237,13 @@ len(myvar)
 myvar[2]
 ```
 
-Usually what you can do with lists can also be done with strings. In fact both lists and strings are sequences.
+Zazwyczaj to, co można zrobić z listami, można również zrobić z ciągami. W rzeczywistości zarówno listy, jak i ciągi znaków są sekwencjami.
 
-Apart from strings, integers, floats and lists, there are more built-in data types, such as dictionaries, and you can even create your own data types with classes. {{Top}}
+Oprócz ciągów znaków, liczb całkowitych, zmiennoprzecinkowych i list, istnieje więcej wbudowanych typów danych, takich jak słowniki, a nawet można tworzyć własne typy danych za pomocą klas. 
 
-## Indentation
+## Wcięcia
 
-One important use of lists is the ability to \"browse\" through them and do something with each item. For example look at this:
+Jednym z ważnych zastosowań list jest możliwość \"przeglądania\" ich i robienia czegoś z każdym elementem. Na przykład spójrz na to:
 
 
 ```python
@@ -248,13 +252,13 @@ for dalton in alldaltons:
     print(dalton + " Dalton")
 ```
 
-We iterated (programming jargon) through our list with the `for in` command and did something with each of the items. Note the special syntax: the `for` command terminates with `:` indicating the following will be a block of one of more commands. In the interpreter, immediately after you enter the command line ending with `:`, the command prompt will change to `...` which means Python knows that there is more to come.
+Wykonaliśmy iterację (w żargonie programistycznym) po naszej liście za pomocą polecenia `for in` i zrobiliśmy coś z każdym z elementów. Zwróć uwagę na specjalną składnię: polecenie `for` kończy się `:`, wskazując, że następne polecenie będzie blokiem jednego lub więcej poleceń. W interpreterze, natychmiast po wprowadzeniu wiersza poleceń kończącego się `:`, znak zachęty wiersza poleceń zmieni się na `…`, co oznacza, że Python wie, że jest jeszcze coś do zrobienia.
 
-How will Python know how many of the next lines will need to be executed inside the `for in` operation? For that, Python relies on indentation. The next lines must begin with a blank space, or several blank spaces, or a tab, or several tabs. And as long as the indentation stays the same the lines will be considered part of the `for in` block. If you begin one line with 2 spaces and the next one with 4, there will be an error. When you have finished, just write another line without indentation, or press **Enter** to come back from the `for in` block
+Skąd interpreter będzie wiedział, ile kolejnych linii będzie musiało zostać wykonanych wewnątrz operacji `for in`? W tej kwestii Python polega na wcięciach. Następne linie muszą zaczynać się od pustej spacji, lub kilku pustych spacji, lub tabulatora, lub kilku tabulatorów. Dopóki wcięcie pozostaje takie samo, linie będą uważane za część bloku `for in`. Jeśli zaczniesz jedną linię od 2 spacji, a następną od 4, pojawi się błąd. Kiedy skończysz, po prostu napisz kolejną linię bez wcięć lub naciśnij **Enter**, aby powrócić z bloku `for in`
 
-Indentation also aids in program readability. If you use large indentations (for example use tabs instead of spaces) when you write a big program, you\'ll have a clear view of what is executed inside what. We\'ll see that other commands use indented blocks of code as well.
+Wcięcia pomagają również w czytelności programu. Jeśli użyjesz dużych wcięć *(na przykład użyjesz tabulatorów zamiast spacji)* podczas pisania dużego programu, będziesz mieć wyraźny widok na to, co jest wykonywane wewnątrz czego. Zobaczymy, że inne polecenia również używają wciętych bloków kodu.
 
-The `for in` command can be used for many things that must be done more than once. It can, for example, be combined with the `range()` command:
+Komenda `for in` może być używana do wielu rzeczy, które muszą być wykonane więcej niż jeden raz. Można ją na przykład połączyć z poleceniem `range()`:
 
 
 ```python
@@ -268,9 +272,9 @@ print("")
 print(total)
 ```
 
-If you have been running the code examples in an interpreter by copy-pasting, you will find the previous block of text will throw an error. Instead, copy to the end of the indented block, i.e. the end of the line `total <nowiki>=</nowiki> total + number` and then paste in the interpreter. In the interpreter press **Enter** until the three dot prompt disappears and the code runs. Then copy the final two lines followed by another **Enter**. The final answer should appear.
+Jeśli uruchamiałeś przykłady kodu w interpreterze poprzez kopiuj-wklej, poprzedni blok tekstu spowoduje wyświetlenie błędu. Zamiast tego skopiuj do końca wciętego bloku, tj. do końca linii `total <nowiki>=</nowiki> total + number`, a następnie wklej w interpreterze. W interpreterze naciskaj **Enter**, aż zniknie trzykropkowy znak zachęty i kod zostanie uruchomiony. Następnie skopiuj dwie ostatnie linie, po czym naciśnij **Enter**. Powinna pojawić się ostateczna odpowiedź.
 
-If you type into the interpreter `help(range)` you will see:
+Jeśli wpiszesz do interpretera `help(range)` zobaczysz:
 
 
 ```python
@@ -279,7 +283,7 @@ range(...)
     range(start, stop[, step]) -> list of integers
 ```
 
-Here the square brackets denote an optional parameter. However all are expected to be integers. Below we will force the step parameter to be an integer using `int()`:
+Tutaj nawiasy kwadratowe oznaczają opcjonalny parametr. Oczekuje się jednak, że wszystkie będą liczbami całkowitymi. Poniżej wymusimy, aby parametr step był liczbą całkowitą przy użyciu `int()`:
 
 
 ```python
@@ -288,7 +292,7 @@ for i in range(0, 180 * number, int(0.5 * number)):
     print(float(i) / number)
 ```
 
-Another `range()` example:
+Kolejny przykład `range()`:
 
 
 ```python
@@ -297,7 +301,7 @@ for n in range(4):
     print(alldaltons[n], " is Dalton number ", n)
 ```
 
-The `range()` command also has that strange particularity that it begins with `0` (if you don\'t specify the starting number) and that its last number will be one less than the ending number you specify. That is, of course, so it works well with other Python commands. For example:
+Komenda `range()` ma również tę dziwną cechę, że zaczyna się od `0` *(jeśli nie podasz liczby początkowej)*, a jego ostatnia liczba będzie o jeden mniejsza niż podana liczba końcowa. Dzieje się tak oczywiście dlatego, że działa dobrze z innymi poleceniami Python. Na przykład:
 
 
 ```python
@@ -307,7 +311,7 @@ for n in range(total):
     print(alldaltons[n])
 ```
 
-Another interesting use of indented blocks is with the `if` command. This command executes a code block only if a certain condition is met, for example:
+Innym interesującym zastosowaniem wciętych bloków jest polecenie `if`. Polecenie to wykonuje blok kodu tylko wtedy, gdy spełniony jest określony warunek, na przykład:
 
 
 ```python
@@ -316,14 +320,14 @@ if "Joe" in alldaltons:
     print("We found that Dalton!!!")
 ```
 
-Of course this will always print the sentence, but try replacing the second line with:
+Oczywiście zawsze spowoduje to wydrukowanie zdania, ale spróbuj zastąpić drugą linię:
 
 
 ```python
 if "Lucky" in alldaltons:
 ```
 
-Then nothing is printed. We can also specify an `else` statement:
+Wtedy nic nie zostanie wydrukowane. Możemy również określić instrukcję `else`:
 
 
 ```python
@@ -337,9 +341,11 @@ else:
 
 {{Top}}
 
-## Functions
 
-There are very few [standard Python commands](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) and we already know several of them. But you can create your own commands. In fact, most of the additional modules that you can plug into your Python installation do just that, they add commands that you can use. A custom command in Python is called a function and is made like this:
+
+## Funkcje
+
+Istnieje bardzo niewiele [standardowych poleceń Python](https://docs.python.org/3/reference/lexical_analysis.html#identifiers) i znamy już kilka z nich. Można jednak tworzyć własne polecenia. W rzeczywistości większość dodatkowych modułów, które można podłączyć do instalacji Pythona, robi właśnie to - dodaje polecenia, których można używać. Niestandardowa komenda w Pythonie nazywana jest funkcją i jest tworzona w następujący sposób:
 
 
 ```python
@@ -349,16 +355,16 @@ def printsqm(myValue):
 printsqm(45)
 ```
 
-The `def()` command defines a new function, you give it a name, and inside the parenthesis you define the arguments that the function will use. Arguments are data that will be passed to the function. For example, look at the `len()` command. If you just write `len()`, Python will tell you it needs an argument. Which is obvious: you want to know the length of something. If you write `len(myList)` then `myList` is the argument that you pass to the `len()` function. And the `len()` function is defined in such a way that it knows what to do with this argument. We have done the same thing with our `printsqm` function.
+Polecenie `def()` definiuje nową funkcję, nadaje jej nazwę, a wewnątrz nawiasów definiuje argumenty, których funkcja będzie używać. Argumenty to dane, które zostaną przekazane do funkcji. Na przykład, spójrz na polecenie `len()`. Jeśli po prostu napiszesz `len()`, Python powie ci, że potrzebuje argumentu. Co jest oczywiste: chcesz poznać długość czegoś. Jeśli napiszesz `len(myList)` to `myList` jest argumentem, który przekazujesz do funkcji `len()`. Funkcja `len()` jest zdefiniowana w taki sposób, że wie, co zrobić z tym argumentem. To samo zrobiliśmy z naszą funkcją `printsqm`.
 
-The `myValue` name can be anything, and it will only be used inside the function. It is just a name you give to the argument so you can do something with it. By defining arguments you also to tell the function how many to expect. For example, if you do this:
+Nazwa `myValue` może być dowolna i będzie używana tylko wewnątrz funkcji. Jest to po prostu nazwa, którą nadajesz argumentowi, abyś mógł coś z nim zrobić. Definiując argumenty, informujesz również funkcję, ilu argumentów może oczekiwać. Na przykład, jeśli zrobisz tak:
 
 
 ```python
 printsqm(45, 34)
 ```
 
-there will be an error. Our function was programmed to receive just one argument, but it received two, `45` and `34`. Let\'s try another example:
+wystąpi błąd. Nasza funkcja została zaprogramowana do przyjmowania tylko jednego argumentu, ale otrzymała dwa, `45` i `34`. Wypróbujmy inny przykład:
 
 
 ```python
@@ -369,21 +375,21 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the `myTotal` variable. {{Top}}
+Tutaj stworzyliśmy funkcję, która otrzymuje dwa argumenty, sumuje je i zwraca tę wartość. Zwracanie czegoś jest bardzo przydatne, ponieważ możemy zrobić coś z wynikiem, na przykład zapisać go w zmiennej 
 
-## Modules
+## Moduły
 
-Now that you have a good idea of how Python works, you will need to know one more thing: How to work with files and modules.
+Teraz, gdy masz już dobre pojęcie o tym, jak działa Python, musisz wiedzieć jeszcze jedną rzecz: jak pracować z plikami i modułami.
 
-Until now, we have written Python instructions line by line in the interpreter. This method is obviously not suitable for larger programs. Normally the code for Python programs is stored in files with the **.py** extension. Which are just plain text files and any text editor (Linux gedit, emacs, vi or even Windows Notepad) can be used to create and edit them.
+Do tej pory pisaliśmy instrukcje Python linia po linii w interpreterze. Ta metoda nie jest oczywiście odpowiednia dla większych programów. Zwykle kod programów Python jest przechowywany w plikach z rozszerzeniem **.py**. Są to zwykłe pliki tekstowe, a do ich tworzenia i edycji można użyć dowolnego edytora tekstu *(Linux Gedit, Emacs, vi, Kate lub nawet notatnika Windows)*.
 
-There are several of ways to execute a Python program. In Windows, simply right-click your file, open it with Python, and execute it. But you can also execute it from the Python interpreter itself. For this, the interpreter must know where your program is. In FreeCAD the easiest way is to place your program in a folder that FreeCAD\'s Python interpreter knows by default, such as FreeCAD\'s user **Mod** folder:
+Istnieje kilka sposobów na wykonanie programu w języku Python. W systemie Windows wystarczy kliknąć plik prawym przyciskiem myszy, otworzyć go w środowisku Python i wykonać. Ale można również wykonać go z poziomu samego interpretera Python. W tym celu interpreter musi wiedzieć, gdzie znajduje się program. We FreeCAD najprostszym sposobem jest umieszczenie programu w folderze, który interpreter Python dla FreeCAD zna domyślnie, takim jak folder użytkownika FreeCAD **Mod**:
 
--   On Linux it is usually **/home/<username>/.local/share/FreeCAD/Mod/** (<small>(v0.20)</small> ) or **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus|0.19}}).
--   On Windows it is **%APPDATA%\FreeCAD\Mod\**, which is usually **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
--   On macOS it is usually **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
+-   W systemie Linux jest to zazwyczaj **/home/<nazwa użytkownika>/.local/share/FreeCAD/Mod/** ({{VersionPlus/pl|0.20}}) lub **/home/<username>/.FreeCAD/Mod/** ({{VersionMinus/pl|0.19}}).
+-   Na macOS jest to zazwyczaj **/Users/<username>/Library/Application Support/FreeCAD/Mod/**.
+-   W systemie Windows jest to **%APPDATA%\FreeCAD\Mod\**, którym zwykle jest **C:\Users\<username>\Appdata\Roaming\FreeCAD\Mod\**.
 
-Let\'s add a subfolder there called **scripts** and then write a file like this:
+Dodajmy tam podfolder o nazwie **scripts**, a następnie napiszmy taki plik:
 
 
 ```python
@@ -393,32 +399,32 @@ def sum(a,b):
 print("myTest.py succesfully loaded")
 ```
 
-Save the file as **myTest.py** in the **scripts** folder, and in the interpreter window write:
+Zapisz plik jako **myTest.py** w folderze **scripts** i w oknie interpretera wpisz:
 
 
 ```python
 import myTest
 ```
 
-without the **.py** extension. This will execute the contents of the file, line by line, just as if we had written it in the interpreter. The sum function will be created, and the message will be printed. Files containing functions, like ours, are called modules.
+bez rozszerzenia **.py**. Spowoduje to wykonanie zawartości pliku, linia po linii, tak jakbyśmy napisali go w interpreterze. Funkcja sumy zostanie utworzona, a wiadomość zostanie wydrukowana. Pliki zawierające funkcje, takie jak nasza, nazywane są modułami.
 
-When we write a `sum()` function in the interpreter, we execute it like this:
+Kiedy piszemy funkcję `sum()` w interpreterze, wykonujemy ją w ten sposób:
 
 
 ```python
 sum(14, 45)
 ```
 
-But when we import a module containing a `sum()` function the syntax is a bit different:
+Kiedy jednak importujemy moduł zawierający funkcję `sum()`, składnia jest nieco inna:
 
 
 ```python
 myTest.sum(14, 45)
 ```
 
-That is, the module is imported as a \"container\", and all its functions are inside that container. This is very useful, because we can import a lot of modules, and keep everything well organized. Basically when you see `something.somethingElse`, with a dot in between, then this means `somethingElse` is inside `something`.
+Oznacza to, że moduł jest importowany jako \"kontener\", a wszystkie jego funkcje znajdują się wewnątrz tego kontenera. Jest to bardzo przydatne, ponieważ możemy importować wiele modułów i utrzymywać wszystko dobrze zorganizowane. Zasadniczo, gdy widzisz `something.somethingElse`, z kropką pomiędzy, oznacza to, że `somethingElse` znajduje się wewnątrz `something`.
 
-We can also import our sum() function directly into the main interpreter space:
+Możemy również zaimportować naszą funkcję sum() bezpośrednio do głównej przestrzeni interpretera:
 
 
 ```python
@@ -426,16 +432,16 @@ from myTest import *
 sum(12, 54)
 ```
 
-Almost all modules do that: they define functions, new data types and classes that you can use in the interpreter or in your own Python modules, because nothing prevents you from importing other modules inside your module!
+Prawie wszystkie moduły to robią: definiują funkcje, nowe typy danych i klasy, których można używać w interpreterze lub we własnych modułach Pythona, ponieważ nic nie stoi na przeszkodzie, aby importować inne moduły wewnątrz swojego modułu!
 
-How do we know what modules we have, what functions are inside and how to use them (that is, what kind of arguments they need)? We have already seen that Python has a `help()` function. Doing:
+Skąd mamy wiedzieć, jakie moduły posiadamy, jakie funkcje się w nich znajdują i jak ich używać *(czyli jakich argumentów potrzebują)*? Widzieliśmy już, że Python posiada funkcję `help()`. Wykonanie:
 
 
 ```python
 help("modules")
 ```
 
-will give us a list of all available modules. We can import any of them and browse their content with the `dir()` command:
+da nam listę wszystkich dostępnych modułów. Możemy zaimportować dowolny z nich i przeglądać jego zawartość za pomocą polecenia `dir()`:
 
 
 ```python
@@ -443,14 +449,14 @@ import math
 dir(math)
 ```
 
-We\'ll see all the functions contained in the `math` module, as well as strange stuff named `__doc__`, `__file__`, `__name__`. Every function in a well made module has a `__doc__` that explains how to use it. For example, we see that there is a `sin()` function inside the math module. Want to know how to use it? 
+Zobaczymy wszystkie funkcje zawarte w module `math`, a także dziwne rzeczy o nazwach `__doc__`, `__file__`, `__name__`. Każda funkcja w dobrze stworzonym module ma `__doc__`, który wyjaśnia, jak z niej korzystać. Na przykład widzimy, że w module matematycznym znajduje się funkcja `sin()`. Chcesz wiedzieć, jak z niej korzystać? 
 ```python
 print(math.sin.__doc__)
 ```
 
-It may not be evident, but on either side of `doc` are two underscore characters.
+Może to nie być oczywiste, ale po obu stronach `doc` znajdują się dwa znaki podkreślenia.
 
-And finally one last tip: When working on new or existing code, it is better to not use the FreeCAD macro file extension, **.FCMacro**, but instead use the standard **.py** extension. This is because Python doesn\'t recognize the **.FCMacro** extension. If you use **.py** your code can be easily loaded with `import`, as we have already seen, and also reloaded with `importlib.reload()`:
+I wreszcie ostatnia wskazówka: Podczas pracy nad nowym lub istniejącym kodem lepiej nie używać rozszerzenia pliku makra FreeCAD, **.FCMacro**, ale zamiast tego używać standardowego rozszerzenia **.py**. Dzieje się tak, ponieważ Python nie rozpoznaje rozszerzenia **.FCMacro**. Jeśli użyjesz **.py**, twój kod może być łatwo załadowany za pomocą `import`, jak już widzieliśmy, a także przeładowany za pomocą `importlib.reload()`:
 
 
 ```python
@@ -458,7 +464,7 @@ import importlib
 importlib.reload(myTest)
 ```
 
-There is however an alternative:
+Istnieje jednak alternatywa:
 
 
 ```python
@@ -468,9 +474,11 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 
 {{Top}}
 
-## Starting with FreeCAD 
 
-Hopefully you now have a good idea of how Python works, and you can start exploring what FreeCAD has to offer. FreeCAD\'s Python functions are all well organized in different modules. Some of them are already loaded (imported) when you start FreeCAD. Just try:
+
+## Rozpoczęcie pracy z FreeCAD 
+
+Mamy nadzieję, że masz teraz wyobrażenie o tym, jak działa Python i możesz zacząć odkrywać, co FreeCAD ma do zaoferowania. Wszystkie funkcje Python FreeCAD są dobrze zorganizowane w różnych modułach. Niektóre z nich są już załadowane (zaimportowane) podczas uruchamiania FreeCAD. Wystarczy spróbować:
 
 
 ```python
@@ -480,10 +488,12 @@ dir()
 
 {{Top}}
 
-## Notes
 
--   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
--   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
+
+## Uwagi
+
+-   FreeCAD został pierwotnie zaprojektowany do pracy ze środowiskiem Python 2. Ponieważ Python 2 osiągnął koniec swojego życia w 2020 r., przyszły rozwój FreeCAD będzie odbywał się wyłącznie w Pythonie 3, a kompatybilność wsteczna nie będzie obsługiwana.
+-   Znacznie więcej informacji na temat Pythona można znaleźć w [oficjalnym przewodniku po Pythonie](https://docs.python.org/3/tutorial/index.html) i [oficjalnym dokumencie referencyjnym Python](https://docs.python.org/3/reference/).
 
 
 {{Top}}

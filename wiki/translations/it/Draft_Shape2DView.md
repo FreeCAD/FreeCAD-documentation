@@ -27,7 +27,7 @@ Le proiezioni Draft Vista forma 2D possono essere visualizzate su una pagina [Te
 1.  Facoltativamente, ruotare la [Vista 3D](3D_view/it.md). La direzione della telecamera nella [Vista 3D](3D_view/it.md) determina il vettore di proiezione. Ad esempio, una [vista dall\'alto](Std_ViewTop/it.md) verrà proiettata sul piano XY. Il vettore di proiezione viene ignorato per le proiezioni create da [Arch Piano sezione](Arch_SectionPlane/it.md).
 2.  Opzionalmente selezionare uno o più oggetti.
 3.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_Shape2DView.svg" width=16px> [Draft Vista forma 2D](Draft_Shape2DView/it.md)**.
+    -   Premere il pulsante **<img src="images/Draft_Shape2DView.svg" width=16px> [Vista forma 2D](Draft_Shape2DView/it.md)**.
     -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Shape2DView.svg" width=16px> Vista forma 2D** dal menu.
 4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
 5.  Gli oggetti proiettati vengono creati sul piano XY.

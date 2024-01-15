@@ -235,6 +235,7 @@ Personnes aidant pour la traduction des textes dans le programme FreeCAD (extrai
 -   [Марко Пејовић](User_Марко_Пејовић.md)
 -   [Николай Матвеев](User_Николай_Матвеев.md)
 -   [Федір](User_Федір.md)
+-   [JYSEO2016](User_JYSEO2016.md)
 
 
 

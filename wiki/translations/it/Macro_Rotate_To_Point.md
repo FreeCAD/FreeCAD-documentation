@@ -17,6 +17,8 @@
 
 </div>
 
+
+
 ## Descrizione
 
 
@@ -34,6 +36,8 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/2fc48333deca5a31e6232c29a9db5e4c/raw/d9419d4bb13e36940eb2f56c3c469ea4182827ee/Macro%2520Rotate%2520To%2520Point.FCMacro}}
+
+
 
 ## Uso
 
@@ -104,6 +108,8 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ### Work
@@ -132,6 +138,8 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 
 </div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -200,6 +208,8 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 ToolBar PNG Icon ![](images/Macro_Rotate_To_Point.png ) and ToolBar SVG Icon ![](images/Macro_Rotate_To_Point.svg )
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Esempi
@@ -226,6 +236,8 @@ Le mie macro su Gist [mario52a](https://gist.github.com/mario52a)
 
 
 </div>
+
+
 
 ## Versione
 

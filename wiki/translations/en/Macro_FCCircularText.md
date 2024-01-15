@@ -2,11 +2,11 @@
 {{Macro
 |Name=Macro FCCircularText
 |Icon=FCCircularTextButtom.png
-|Description={{ColoredText|#ff0000|#ffffff|Latest macro version supports a HiDPI layout (QGridLayout) and runs only on versions 0.18 or higher (requires PySide2/Qt5)}}<br/><br/>For backward compatible version of the macro see [https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/db47f78f2b20a35137ac213b8d1a62d30f525dcb/Macro_FCCircularText.FCMacro FCCircularText] and install manually. <br/><br/>This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
+|Description=This macro makes use of the [[Draft ShapeString]] tool to create a text line placed in different circular orientations, including circumferential and helical (in the fashion of a Trajan Column). It can also be used to create a clock face with Arabic numerals ''1, 2, 3,'' etc., or Roman numerals ''I, II, III,'' etc.
 |Author=Mario52
-|Version=0.22
-|Date=2022/06/06
-|FCVersion=0.19
+|Version=0.22c
+|Date=2023/11/17
+|FCVersion=0.19 and more
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
 
@@ -15,7 +15,7 @@
 This macro makes use of the <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) tool to create a text line placed in different circular orientations, including circumferential and helical in the fashion of a [Trajan\'s Column](http://en.wikipedia.org/wiki/Trajan%27s_Column). It can also be used to create a clock face with Arabic numerals *1, 2, 3,* etc., or Roman numerals *I, II, III,* etc. This latter usage was inspired by the Forum thread [Macro to Create Clock Face](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) by FC community member, cblt2l.
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/cffba4018708a61e43c7f19627993c3e80182312/Macro_FCCircularText.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/7ab8a1e9dd7f924a62ecef83ec1d2ad8723e37d6/Macro_FCCircularText.FCMacro}}
 
 
 :   <img alt="360 degree orientation" src=images/FCCircularText_01.png  style="width:400px;">
@@ -163,7 +163,7 @@ Configuring characters in FCCircularText
 
 #### First zone 
 
-Your choice :
+Your choice:
 
 ![](images/FCCircularText_09.png )
 
@@ -682,6 +682,16 @@ Image:FCCircularText_Path_00_Orth_Top_000.png\|Text on BoundBox Top character Im
 
 </center>
 
+
+
+<center>
+
+<File:YamahaDrumBadge00.gif%7CExemple> use ([Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?t=82577))
+
+
+</center>
+
+
 ## Limitations
 
 
@@ -706,6 +716,20 @@ Planned:
 Writing on a path circular text of position object selected.
 
 ## Change log 
+
+-   ver 0.22c 2023/11/17 : adding restore selection after delete the last object , by TheMarkster , thanks
+
+see [Curved text on a flat surface?](https://forum.freecad.org/viewtopic.php?p=719353#p719353) 
+```python
+sel = Gui.Selection.getCompleteSelection()
+#delete objects
+#restore previous selection
+Gui.Selection.clearSelection()
+for s in sel:
+    Gui.Selection.addSelection(s.Object,s.SubElementNames)
+```
+
+-   ver 0.22b 2023/11/15 : upgrade correction **stylesheet** and **FreeCAD.activeDocument().recompute(None,True,True)**
 
 -   ver 0.22 2022/06/06 : adding QScrollArea cause : [Unable to run FCCircularText \[Problem with screen size\]](https://forum.freecadweb.org/viewtopic.php?f=3&t=69206)
 

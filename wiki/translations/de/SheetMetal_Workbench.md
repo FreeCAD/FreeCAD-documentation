@@ -60,6 +60,8 @@ Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http:/
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Prägen](SheetMetal_Forming/de.md): Prägt Formen mit und ohne Löcher in eine Blechplatine.
 
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Grundform hinzufügen](SheetMetal_BaseShape/de.md): Fügt eine Grundform auf Basis von Parametern hinzu.
+
 
 
 ## Kurzbeschreibung

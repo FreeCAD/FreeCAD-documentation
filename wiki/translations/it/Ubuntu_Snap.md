@@ -1,38 +1,40 @@
 # Ubuntu Snap/it
 ## Introduzione
 
-An [Ubuntu Snap](Ubuntu_Snap.md) package, or just [Snap](Ubuntu_Snap.md) is a distribution format similar to [AppImage](AppImage.md) in that it is intended to be a \"universal installable package\" to deploy software on Linux systems. Snaps were introduced by Ubuntu but they are intended to run on all Linux distributions as long as the Snap daemon, or `snapd`, is available on the target system.
+Un pacchetto [Ubuntu Snap](Ubuntu_Snap/it.md), o semplicemente [Snap](Ubuntu_Snap/it.md) è un formato di distribuzione simile a [AppImage](AppImage/it.md) in quanto è inteso come un \"pacchetto installabile universale\" su cui distribuire software Sistemi Linux. Gli snap sono stati introdotti da Ubuntu ma sono pensati per essere eseguiti su tutte le distribuzioni Linux purché il demone Snap, o `snapd`, sia disponibile sul sistema di destinazione.
 
-A Snap package has two main characteristics:
+Un pacchetto Snap ha due caratteristiche principali:
 
--   Programs are sandboxed so they do not interfere with the rest of the operating system.
--   Programs are updated automatically in the background in order to get the newest version of the application.
+-   I programmi sono sandbox in modo da non interferire con il resto del sistema operativo.
+-   I programmi vengono aggiornati automaticamente in background per ottenere la versione più recente dell\'applicazione.
 
-For other ways of installing the software, see [Installing on Linux](Installing_on_Linux.md).
+Per altri modi di installazione del software, vedere [Installazione su Linux](Installing_on_Linux/it.md).
 
-## Installation
 
-The use of Snaps is experimental. The current Snaps are generated and hosted by volunteers.
 
-On all systems where Snaps are to be installed, the Snap daemon must be installed first. The package is normally called `snapd`.
+## Installazione
+
+L\'uso di Snaps è sperimentale. Gli Snap attuali sono generati e ospitati da volontari.
+
+Su tutti i sistemi in cui devono essere installati gli Snap, è necessario installare prima il demone Snap. Il pacchetto normalmente si chiama `snapd`.
 
 ### Debian/Ubuntu
 
-For Debian/Ubuntu and similar systems which use the APT manager the daemon is installed as follows:
+Per Debian/Ubuntu e sistemi simili che utilizzano il gestore APT il demone viene installato come segue:
 
 
 {{Code|lang=bash|code=
 sudo apt install snapd
 }}
 
-To install the stable version of the Snap use:
+Per installare la versione stabile di Snap utilizzare:
 
 
 {{Code|lang=bash|code=
 sudo snap install freecad
 }}
 
-To install the development version of the Snap use:
+Per installare la versione di sviluppo di Snap utilizzare:
 
 
 {{Code|lang=bash|code=
@@ -41,59 +43,67 @@ sudo snap install --edge freecad
 
 ### Manjaro
 
-To install the stable version of the Snap use:
+Per installare la versione stabile di Snap utilizzare:
 
 
 {{Code|lang=bash|code=
 snap install freecad
 }}
 
-To install the development version of the Snap use:
+Per installare la versione di sviluppo di Snap utilizzare:
 
 
 {{Code|lang=bash|code=
 snap install --edge freecad
 }}
 
-## Notes
 
-#### What FC version am I running 
 
-To figure out which development version is installed type the following in the Command-line interface:
+## Note
+
+
+
+#### Quale versione di FC sto utilizzando 
+
+Per capire quale versione di sviluppo è installata, digitare quanto segue nell\'interfaccia della riga di comando:
 
 
 {{Code|lang=bash|code=
 snap info freecad
 }}
 
-#### Changing between different Snaps 
-
-Starting from the tail end of the v0.20 release cycle, the FreeCAD snap maintainers added the ability to test experimental FreeCAD builds. Snaps allow for this by easily toggling between different snaps (terminology is \'[channels or tracks](https://snapcraft.io/docs/channels)\'). For example:
-
-Testing the Topological Naming (\'toponaming\') branch (created at the start of the v0.21/v1.0 release cycle):
 
 
-{{code|lang=bash|code=
-snap refresh freecad --channel=latest/edge/toponaming
-}}
+#### Cambiare tra diversi Snap 
 
-Using the `refresh` command will switch and update the snap channel you\'re switching to:
+A partire dalla fine del ciclo di rilascio della versione 0.20, i manutentori dello snap di FreeCAD hanno aggiunto la possibilità di testare build sperimentali di FreeCAD. Gli snap lo consentono passando facilmente tra diversi snap (la terminologia è \"[channels or tracks](https://snapcraft.io/docs/channels)\"). Per esempio:
+
+Test del ramo Topological Naming (\"toponaming\") (creato all\'inizio del ciclo di rilascio v0.21/v1.0):
 
 
 {{code|lang=bash|code=
 snap refresh freecad --channel=latest/edge/toponaming
 }}
 
-Toggling back to the nightly \'edge\' channel:
+Usando il comando `refresh` cambierai e aggiornerai il canale snap a cui stai passando:
+
+
+{{code|lang=bash|code=
+snap refresh freecad --channel=latest/edge/toponaming
+}}
+
+Ritorno al canale nightly \"edge\":
 
 
 {{code|lang=bash|code=
 snap refresh freecad --channel=latest/edge
 }}
 
-## Advanced
 
-The following commands are geared towards users that are familiar with `git` and have a locally cloned repository of the upstream FreeCAD repository.
+
+## Avanzate
+
+I seguenti comandi sono rivolti agli utenti che hanno familiarità con `git` e hanno un repository clonato localmente del repository upstream di FreeCAD.
 
 
 {{Code|lang=bash|code=
@@ -101,7 +111,7 @@ git clone https://github.com/FreeCAD/FreeCAD
 cd FreeCAD/
 }}
 
-To find out the latest upstream revision number (also known as \'HEAD\'):
+Per scoprire l\'ultimo numero di revisione upstream (noto anche come \"HEAD\"):
 
 
 {{Code|lang=bash|code=
@@ -109,7 +119,7 @@ git pull upstream master  # first make sure we have the most up-to-date commits
 git rev-list --count HEAD # 'HEAD' refers to the current commit you are viewing (tip of the master branch)
 }}
 
-To translate the current snap development version in to a revision number (make sure you\'re within your cloned FreeCAD repository as mentioned above):
+Per tradurre l\'attuale versione di sviluppo dello snap in un numero di revisione (assicurati di essere all\'interno del tuo repository di FreeCAD clonato come menzionato sopra):
 
 
 {{Code|lang=bash|code=
@@ -119,11 +129,11 @@ awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git rev-list --count {}
 }}
 
-**Note:** the above bash script 1 liner assumes user has \'edge\' (nightly) installed
+**Nota:** l\'esecuzione dello script bash 1 sopra presuppone che l\'utente abbia installato \'edge\' (nightly)
 
-The difference between HEAD and the snap edge revision numbers indicates the amount of revisions trailing behind upstream the snap development (edge) is.
+La differenza tra HEAD e i numeri di revisione della versione dello snap indica la quantità di revisioni che seguono a monte dello sviluppo dello snap (edge).
 
-Taking it a step further, if you want a short summary of the commits between the current snap edge and HEAD:
+Facendo un ulteriore passo avanti, se si desidera un breve riepilogo dei commit tra lo snap edge corrente e HEAD:
 
 
 {{Code|lang=bash|code=
@@ -133,29 +143,37 @@ awk -F ' ' '{ print $2 }' <nowiki>|</nowiki>\
 xargs -I{} git log --oneline --ancestry-path {}..HEAD
 }}
 
-**Note:** The output will indicate what commits **are not** in the current \'edge\' (but will be on the next nightly update).
+**Nota:** L\'output indicherà quali commit **non sono** nel \'edge\' corrente (ma saranno presenti nel prossimo aggiornamento nightly).
 
-## Links
 
-More information about the current efforts to deal with Snaps:
 
--   [0.19 Snap Preview needs \"testers\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), older Snap by **vejmarie**. (deprecated)
--   [Discussion: State of the snap (Snap Packaging)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), newer version of the Snap by **ppd**. (deprecated)
+## Link
 
-### Repositories
+Maggiori informazioni sugli sforzi attuali per gestire gli Snap:
+
+-   [0.19 Snap Preview needs \"testers\"](https://forum.freecadweb.org/viewtopic.php?f=4&t=46044), lo Snap più vecchio di **vejmarie**. (deprecato)
+-   [Discussion: State of the snap (Snap Packaging)](https://forum.freecadweb.org/viewtopic.php?f=42&t=46853), versione più recente dello Snap di **ppd**. (deprecato)
+
+
+
+### Repository
 
 -   <https://github.com/FreeCAD/FreeCAD-snap>
 -   <https://snapcraft.io/freecad>
 
-### Maintainer(s)
+
+
+### Manutentore(i)
 
 -   ppd ([forum](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=24042), [github](https://github.com/ppd))
 -   luzpaz ([forum](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=12229), [github](https://github.com/luzpaz))
 
-## Related
 
--   [AppImage](AppImage.md) - another self-contained \'binary\' like format to run FreeCAD
--   [Flatpak](Flatpak.md) packages
+
+## Correlati
+
+-   [AppImage](AppImage/it.md) - un altro formato autonomo di tipo \"binario\" per eseguire FreeCAD
+-   Pacchetti [Flatpak](Flatpak/it.md)
 
 
 

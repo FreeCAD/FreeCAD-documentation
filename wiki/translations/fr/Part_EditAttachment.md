@@ -2,47 +2,243 @@
  GuiCommand:
    Name: Part EditAttachment
    Name/fr: Part Ancrage
-   MenuLocation: Part , Ancrage
+   MenuLocation: Part , Ancrer...
    Workbenches: Part_Workbench/fr, PartDesign_Workbench/fr
    Version: 0.17
-   SeeAlso: Placement/fr, Basic_Attachment_Tutorial/fr, Part_Part2DObject/fr
+   SeeAlso: Placement/fr, Basic_Attachment_Tutorial/fr
 ---
 
 # Part EditAttachment/fr
 
 ## Description
 
-**Part Ancrage** est un utilitaire permettant d\'ancrer un objet à un autre. L\'objet ancré est lié à l\'autre objet, ce qui signifie que si le placement de ce dernier est modifié par la suite, l\'objet ancré sera mis à jour à sa nouvelle position.
+**Part Ancrage** est un utilitaire permettant d\'ancrer un objet à un ou plusieurs autres objets. L\'objet ancré est lié à l\'objet ou aux objets référencés, ce qui signifie que si le [placement](Std_Placement/fr.md) ou la géométrie de l\'objet ou des objets référencés est modifié, le placement de l\'objet ancré sera mis à jour en conséquence.
+
+
+
+## Dispositifs d\'ancrage 
+
+L\'ancrage d\'un objet est contrôlé par l\'un des quatre dispositifs d\'ancrage. Le dispositif par défaut utilisé pour un objet dépend de son type.
+
+Les quatre dispositifs sont les suivants :
+
+-   [Attacher::AttachEnginePoint](#Attacher:_AttachEnginePoint.md)
+-   [Attacher::AttachEngineLine](#Attacher:_AttachEngineLine.md)
+-   [Attacher::AttachEnginePlane](#Attacher:_AttachEnginePlane.md)
+-   [Attacher::AttachEngine3D](#Attacher:_AttachEngine3D.md)
+
+Le reste de cette page est consacré à AttachEngine3D. Les modes des autres dispositifs sont seulement listés. Notez que les modes d\'AttachEnginePlane sont en fait identiques à ceux d\'AttachEngine3D.
+
+
 
 ## Utilisation
 
 1.  Sélectionnez l\'objet à ancrer.
-2.  Allez dans le menu **Part → Ancrage**.
+2.  Sélectionnez l\'option **Part → <img src="images/Part_EditAttachment.svg" width=16px> Ancrer...** du menu.
+3.  Le panneau des tâches **Ancrage** s\'ouvre.
+4.  En haut du panneau des tâches, on peut lire *Non ancré*. Le premier bouton intitulé **Sélection de...** est mis en évidence pour indiquer qu\'une sélection dans la [vue 3D](3D_view/fr.md) est attendue.
+5.  Sélectionnez un sommet, une arête ou une face/un plan appartenant à un autre objet.
+6.  Dans le champ de saisie situé à droite du bouton, l\'objet et le sous-élément référencés sont affichés. Par exemple, si une face d\'un [Part Cube](Part_Box/fr.md) est sélectionnée, le champ peut afficher {{Value|Box:Face6}}.
+7.  Les modes disponibles sont filtrés en fonction des références sélectionnées et de leur ordre. Par exemple, pour les modes [Alignement O-Z-X](#Alignement_O-Z-X.md) à [Alignement O-Y-X](#Alignement_O-Y-X.md), la première référence doit être un sommet. Si la première référence est un sous-élément d\'un type différent, elle est supprimée de la liste.
+8.  Sélectionnez un [mode d\'ancrage](#Mode_d'ancrage.md) dans la liste. Pour plus d\'informations sur les modes d\'ancrage, passez la souris dessus pour faire apparaître une infobulle.
+9.  *Ancré avec le mode * est maintenant affiché en haut du panneau des tâches.
+10. Selon le mode sélectionné, ajoutez jusqu\'à trois références supplémentaires en appuyant sur les boutons **Référence2**, **Référence3** et **Référence4** et en répétant l\'étape 5. Il est également possible de spécifier toutes les références avant de sélectionner un mode d\'attachement.
+11. Lors de la sélection d\'une référence supplémentaire, l\'étiquette du bouton précédent change et affiche le type de sous-élément de cette référence.
+12. Vous pouvez également définir un [Décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
+13. Appuyez sur **OK**.
+14. Le cas échéant, vous pouvez modifier la propriété **Map Path Parameter** dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
-    :   **Remarque**: lorsque vous travaillez dans [PartDesign](PartDesign_Workbench/fr.md) et que vous créez des esquisses, des géométries de référence ou des primitives, les étapes 1 et 2 sont inutiles: la boite de dialogue Ancrage est automatiquement activée.
-3.  Sous les paramètres **Ancrage**, *Non ancré* peut être lu. Le premier bouton est **Sélection...** pour indiquer qu\'il attend une sélection dans la vue 3D.
-4.  Sélectionnez un élément de topologie sur l\'objet auquel ancrer: sommet, arête ou face/plan. La géométrie de référence à partir de [Part Conteneurs](Std_Part/fr.md) est également sélectionnable.
-5.  L\'étiquette du premier bouton adopte maintenant le type de topologie sélectionné. Dans le champ blanc à sa droite, l\'objet référencé et son élément sont ajoutés. Par exemple, si une face sur un cube primitif est sélectionnée, le champ affiche Box:Face6.
-6.  Sélectionnez un [Mode d\'ancrage](#Mode_d.27ancrage.md) dans la liste. Les modes disponibles sont filtrés par les références sélectionnées. *Ancré avec le mode * sera affiché sous l\'en-tête **Mode d\'ancrage**.
 
-    :   Pour des informations en direct sur les modes d\'ancrage, passez la souris sur l\'un des modes de la liste pour qu\'une info-bulle apparaisse.
-7.  Éventuellement, ajoutez jusqu\'à 3 autres références en appuyant sur les boutons **Référence2**, **Référence3** et **Référence4** et en répétant l\'étape 4.
-8.  Définir facultativement un [Décalage de la pièce ancrée](#D.C3.A9calage_de_l.27ancrage.md).
-9.  Appuyez sur **OK**.
 
-## Options
+## Changer le dispositif d\'ancrage 
+
+Il est possible de modifier manuellement le dispositif d\'ancrage d\'un objet :
+
+1.  Sélectionnez l\'objet.
+2.  Cliquez avec le bouton droit de la souris dans l\'[éditeur de propriétés](Property_editor/fr.md) et sélectionnez **Afficher tout** dans le menu contextuel.
+3.  Modifiez la propriété **Attacher Type** de l\'objet.
+
+
+
+## Modes d\'ancrage 
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Attacher::AttachEnginePoint
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   Origine de l\'objet
+-   Foyer1
+-   Foyer2
+-   Sur l\'arête
+-   Centre de courbure
+-   Centre de masse
+-   Vertex
+-   Point de proximité 1
+-   Point de proximité 2
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Attacher::AttachEngineLine
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   X de l\'objet
+-   Y de l\'objet
+-   Z de l\'objet
+-   Axe de courbure
+-   Directrice1
+-   Directrice2
+-   Asymptote1
+-   Asymptote2
+-   Tangente
+-   Normal à l\'arête
+-   Binormale
+-   Par deux points
+-   Ligne de proximité
+-   1er axe principal
+-   2ème axe principal
+-   3ème axe principal
+-   Normal à la surface
+
+
+</div>
+
+
+</div>
+
+
+<div class="toccolours mw-collapsible mw-collapsed">
+
+### Attacher::AttachEnginePlane
+
+
+<div class="mw-collapsible-content">
+
+-   Désactivé
+-   Origine de la translation
+-   XY de l\'objet
+-   XZ de l\'objet
+-   YZ de l\'objet
+-   Face plane
+-   Tangente à la surface
+-   Normal à l\'arête
+-   Frenet NB
+-   Frenet TN
+-   Frenet TB
+-   Concentrique
+-   Section révolutionnaire
+-   Plan de 3 points
+-   Normal à 3 points
+-   Pliage
+-   Inertie 2-3
+-   Alignement O-N-X
+-   Alignement O-N-Y
+-   Alignement O-X-Y
+-   Aligner O-X-N
+-   Aligner O-Y-N
+-   Aligner O-Y-X
+
+
+</div>
+
+
+</div>
+
+### Attacher::AttachEngine3D
 
 <img alt="" src=images/Part_Offset_Tasks.png  style="width:250px;">
 
-### Mode d\'ancrage 
+
 
 #### Désactivé
 
-Par défaut, aucune référence sélectionnée.
+L\'ancrage est désactivé. L\'objet peut être déplacé en modifiant sa propriété [Placement](Placement/fr.md).
 
-#### Normal à une arête 
 
-L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultative, définit l\'emplacement.
+
+#### Translation de l\'origine 
+
+L\'origine est associée à un sommet. L\'orientation est toujours contrôlée par la propriété Placement de l\'objet ancré.
+
+:; Combinaisons de référence :
+
+:   sommet.
+
+
+
+#### X Y Z de l\'objet 
+
+Le placement est égal au placement d\'un objet lié.
+
+:; Combinaisons de références :
+
+:   Tout
+:   Conique
+
+
+
+#### X Z Y de l\'objet 
+
+Les axes X, Y et Z sont mis en correspondance avec les axes locaux X, Z et Y d\'un objet lié, respectivement.
+
+:; Combinaisons de références :
+
+:   Tout
+:   Conique
+
+
+
+#### Y Z X de l\'objet 
+
+Les axes X, Y et Z sont mis en correspondance avec les axes locaux Y, Z et X d\'un objet lié, respectivement.
+
+:; Combinaisons de références :
+
+:   Tout
+:   Conique
+
+
+
+#### Plan XY sur un plan 
+
+Le plan XY est aligné de manière à coïncider avec une face plane.
+
+:; Combinaisons de référence :
+
+:   plan.
+
+
+
+#### Plan XY tangent à une surface 
+
+Le plan XY est rendu tangent à une face au niveau d\'un sommet.
+
+:; Combinaisons de références :
+
+:   face, sommet
+:   sommet, face
+
+
+
+#### Axe Z tangent à une arête 
+
+L\'axe Z est aligné de manière à être tangent à une arête. Un sommet supplémentaire permet de définir l\'emplacement de l\'arête.
+
+Si aucun sommet n\'est lié, la propriété **Map Path Parameter** détermine le point.
 
 :; Combinaisons de référence:
 
@@ -50,173 +246,53 @@ L\'objet est rendu perpendiculaire au bord. La référence au sommet, facultativ
 :   arête, sommet
 :   sommet, arête
 
-Voir [Modes d\'attachement de type O-X-Y](O-X-Y_type_attachment_modes/fr.md) pour plus de détails sur les modes suivants :
 
-#### Alignement O-Z-X 
 
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé, puis aligne sa normale avec l\'axe horizontal du plan vers le sommet/le long de la ligne.
+#### Axes normaux-binormaux de Frenet 
 
-:; Combinaisons de référence:
+<img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
+Les axes X et Y sont alignés sur les axes normal (N) et binormal (B) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) en un point situé sur un bord incurvé. Un sommet supplémentaire permet de définir où.
 
-#### Alignement O-Z-Y 
+Si aucun sommet n\'est lié, la propriété **Map Path Parameter** détermine le point. L\'origine de l\'objet est déplacée vers le sommet si le sommet est le premier, ou maintenue sur la courbe si la courbe est la première.
 
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne sa normale avec l\'axe vertical du plan vers le sommet/le long de la ligne.
+*Axes normaux-binormaux de Frenet* est similaire à *Axe Z tangent à une arête* sauf que l\'axe X est bien défini.
 
-:; Combinaisons de référence:
-
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
-
-#### Alignement O-X-Y 
-
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes horizontal et vertical vers le sommet/le long de la ligne.
-
-:; Combinaisons de référence:
-
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
-
-#### Alignement O-X-Z 
-
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe horizontal et sa normale sur le sommet/le long de la ligne.
-
-:; Combinaisons de référence:
-
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
-
-#### Alignement O-Y-Z 
-
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne son axe vertical et sa normale vers le sommet/le long de la ligne.
-
-:; Combinaisons de référence:
-
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
-
-#### Alignement O-Y-X 
-
-Fait correspondre l\'origine de l\'objet avec le premier sommet référencé et aligne ses axes vertical et horizontal vers le sommet/le long de la ligne.
-
-:; Combinaisons de référence:
-
-:   sommet, sommet, sommet
-:   sommet, sommet, arête
-:   sommet, arête, sommet
-:   sommet, arête, arête
-:   sommet, sommet
-:   sommet, arête
-
-#### Translation de l\'origine 
-
-L\'origine de l\'objet est alignée sur le sommet correspondant. L\'orientation est contrôlée par la propriété [Placement](Placement/fr.md).
-
-:; Combinaisons de référence:
-
-:   sommet.
-
-#### XY de l\'objet 
-
-Le plan est aligné sur le plan local XY de l\'objet lié.
-
-:; Combinaisons de référence:
-
-:   Tout, Conique.
-
-#### XZ de l\'objet 
-
-Le plan est aligné sur le plan local XZ de l\'objet lié.
-
-:; Combinaisons de référence:
-
-:   Tout, Conique.
-
-#### YZ de l\'objet 
-
-Le plan est aligné sur le plan local YZ de l\'objet lié.
-
-:; Combinaisons de référence:
-
-:   Tout, Conique.
-
-#### Face plane 
-
-Le plan est positionné pour coïncider avec la face plane.
-
-:; Combinaisons de référence:
-
-:   plan.
-
-#### Tangent à une surface 
-
-Le plan est rendu tangent à la surface en un sommet.
-
-:; Combinaisons de référence:
-
-:   face, sommet
-:   sommet, face
-
-#### Frenet NB 
-
-Le plan est défini sur des axes normaux-binormaux (NB) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'objet est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Ce mode est similaire à *Normal à une arête*, sauf que l\'axe X est bien défini.
-
-:;Combinaisons de référence:
+:;Combinaisons de références :
 
 :   courbe
 :   courbe, sommet
 :   sommet, courbe
-:   <img alt="" src=images/Attacher_mode_FrenetNB.png  style="width:250px;">
 
-#### Frenet TN 
 
-Le plan est défini sur les axes tangente-normale (TN) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'esquisse est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Effectivement, si la courbe est plane, le plan d\'esquisse est le plan de la courbe.
 
-:;Combinaisons de référence:
+#### Axes tangents-normaux de Frenet 
 
-:   courbe
-:   courbe, sommet
-:   sommet, courbe
-:   <img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
+<img alt="" src=images/Attacher_mode_FrenetTN.png  style="width:250px;">
 
-#### Frenet TB 
+Les axes X et Y sont alignés sur les axes tangents (T) et normaux (N) du système de coordonnées Frenet-Serret en un point situé sur un bord incurvé. Un sommet supplémentaire permet de définir où.
 
-Le plan est défini sur les axes tangente-binormale (TB) du [Système de Coordonnées Frenet-Serret](https://fr.wikipedia.org/wiki/Rep%C3%A8re_de_Frenet) au point de la courbure de l\'arête le plus proche du sommet (ou défini par la propriété MapPathParameter, si le sommet n\'est pas lié). L\'origine de l\'esquisse est déplacée au sommet si le sommet est en premier, ou conservée à la courbe si l\'arête est en premier. Effectivement, si la courbe est plane, le plan d\'esquisse est le plan de la courbe.
+Voir [Axes normaux-binormaux de Frenet](#Axes_normaux-binormaux_de_Frenet.md).
 
-:;Combinaisons de référence:
 
-:   courbe
-:   courbe, sommet
-:   sommet, courbe
-:   <img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;">
+
+#### Axes tangents-binormaux de Frenet 
+
+<img alt="" src=images/Attacher_mode_FrenetTB.png  style="width:250px;">
+
+Les axes X et Y sont alignés sur les axes tangents (T) et binormaux (B) du système de coordonnées Frenet-Serret en un point situé sur un bord incurvé. Un sommet supplémentaire permet de définir où.
+
+Voir [Axes normaux-binormaux de Frenet](#Axes_normaux-binormaux_de_Frenet.md).
+
+
 
 #### Concentrique
 
-S\'aligne sur le plan au cercle osculateur d\'une arête. Un lien sommet optionnel définit l\'endroit.
+Le plan XY est aligné sur le [cercle osculateur](https://fr.wikipedia.org/wiki/Cercle_osculateur) en un point situé sur une arête. Un sommet supplémentaire permet de définir où.
 
-:; Combinaisons de référence:
+Si aucun sommet n\'est lié, la propriété **Map Path Parameter** détermine le point.
+
+:; Combinaisons de références :
 
 :   courbe
 :   cercle
@@ -224,84 +300,141 @@ S\'aligne sur le plan au cercle osculateur d\'une arête. Un lien sommet optionn
 :   cercle, sommet
 :   sommet, courbe
 :   sommet, cercle
+
+
 
 #### Section de révolution 
 
-Le plan est perpendiculaire à l\'arête et l\'axe Y correspond à l\'axe du cercle osculateur. Un lien sommet optionnel définit l\'endroit.
+L\'axe Y est aligné sur l\'axe du cercle osculateur en un point d\'une arête. Un sommet supplémentaire permet de définir où.
 
-:; Combinaisons de référence:
+Voir [Concentrique](#Concentrique.md).
 
-:   courbe
-:   cercle
-:   courbe, sommet
-:   cercle, sommet
-:   sommet, courbe
-:   sommet, cercle
 
-#### Plan par 3 points 
 
-Fait passer le plan XY par trois sommets.
+#### Plan XY par 3 points 
 
-:; Combinaisons de référence:
+Le plan XY est aligné de manière à passer par trois sommets. L\'axe X passera par les deux premiers sommets.
+
+:; Combinaisons de références :
 
 :   sommet, sommet, sommet
 :   droite, sommet
 :   sommet, droite
 :   droite, droite
 
-#### Normal à 3 points 
 
-Fait passer le plan par les deux premiers sommets, perpendiculairement au plan défini par les 3 sommets.
 
-:; Combinaisons de référence:
+#### Plan XZ par 3 points 
 
-:   sommet, sommet, sommet
-:   droite, sommet
-:   sommet, droite
-:   droite, droite
+Le plan XZ est aligné de manière à passer par trois sommets. L\'axe X passe par les deux premiers sommets.
+
+Voir [Plan XY par 3 points](#Plan_XY_par_3_points.md).
+
+
 
 #### Pliage
 
-Mode spécifique pour le pliage des polyèdres. Sélectionnez 4 arêtes dans l\'ordre : arête collable, ligne de pliage, autre ligne de pliage, autre arête collable. Le plan sera aligné sur le pliage de la première arête. Dans l\'image ci-dessous, il n\'est pas nécessaire que les deux feuilles à plier ensemble soient les mêmes.
+<img alt="" src=images/Attacher_mode_Folding.png  style="width:250px;">
 
-:; Combinaisons de référence:
+Il s\'agit d\'un mode spécial de pliage des polyèdres. Sélectionnez quatre lignes ayant un point commun dans l\'ordre suivant : ligne de contour (1), ligne de pliage (2), autre ligne de pliage (3), autre ligne de contour (4). Pour déterminer le système de coordonnées, on fait coïncider les lignes de contour sélectionnées en faisant tourner la ligne 1 autour de la ligne 2 et la ligne 4 autour de la ligne 3. L\'origine correspond au point commun, l\'axe X correspond à la ligne 2, l\'axe Y est aligné sur la direction des lignes de contour coïncidentes.
 
-:   droite, droite, droite, droite
-:   ![ 250px](images/Attacher_mode_Folding.png )
+:; Combinaisons de références
 
-#### Inertie 2-3 
+:   ligne, ligne, ligne, ligne
 
-L\'objet sera ancré à un plan passant par les deuxième et troisième axes principaux d\'inertie (passe par le centre de masse).
 
-:; Combinaisons de référence:
+
+#### Inertie CS 
+
+Les axes X, Y et Z correspondent à ceux d\'un système de coordonnées inertielles, construit sur les axes principaux d\'inertie et le centre de masse.
+
+:; Combinaisons de références :
 
 :   Tout
 :   Tout, Tout
 :   Tout, Tout, Tout
 :   Tout, Tout, Tout, Tout
 
-### Décalage de l\'ancrage 
 
-Le décalage de l\'ancrage est utilisé pour appliquer un décalage linéaire ou rotatif par rapport à l\'objet référencé. Cela signifie que les décalages sont relatifs au système de coordonnées \"local\" et non au système de coordonnées global.Il devient actif quand un mode d\'ancrage autre que \"Désactivé\" a été sélectionné.
 
--   **X** : définit une distance de décalage dans l\'axe X de l\'objet de référence.
+#### Alignement O-Z-X 
 
--   **Y** : définit une distance de décalage dans l\'axe Y de l\'objet de référence.
+L\'origine correspond au premier sommet. Les axes Z et X sont alignés vers un sommet ou le long d\'une ligne.
 
--   **Z** : définit une distance de décalage dans l\'axe Z de l\'objet de référence. Cette coordonnée doit être utilisée pour le cas d\'utilisation fréquente pour lequel vous souhaitez décaler une esquisse perpendiculairement au plan.
+Voir [Modes d\'ancrage de type O-X-Y](O-X-Y_Type_Attachment_Modes/fr.md) pour plus de détails.
 
--   **Yaw** : (tangage) fait pivoter l\'objet ancré le long de l\'axe Z de l\'objet de référence.
+:; Combinaisons de références :
 
--   **Pitch** : (lacet) fait pivoter l\'objet ancré le long de l\'axe Y de l\'objet de référence.
+:   sommet, sommet, ligne
+:   sommet, ligne, arête
+:   sommet, ligne, ligne
+:   sommet, arête, arête
+:   sommet, sommet
+:   sommet, ligne
 
--   **Roll** : (roulis) fait pivoter l\'objet ancré le long de l\'axe X de l\'objet de référence.
 
--   **Flip sides** : (Retourner les côtés) si coché, le plan XY de l\'objet ancré est inversé.
+
+#### Alignement O-Z-Y 
+
+L\'origine correspond au premier sommet. Les axes Z et Y sont alignés vers un sommet ou le long d\'une ligne.
+
+Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+#### Alignement O-X-Y 
+
+L\'origine correspond au premier sommet. Les axes X et Y sont alignés vers un sommet ou le long d\'une ligne.
+
+Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+#### Alignement O-X-Z 
+
+L\'origine correspond au premier sommet. Les axes X et Z sont alignés vers un sommet ou le long d\'une ligne.
+
+Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+#### Alignement O-Y-Z 
+
+L\'origine correspond au premier sommet. Les axes Y et Z sont alignés vers un sommet ou le long d\'une ligne.
+
+Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+#### Alignement O-Y-X 
+
+L\'origine correspond au premier sommet. Les axes Y et X sont alignés vers un sommet ou le long d\'une ligne.
+
+Voir [Alignement O-Z-X](#Alignement_O-Z-X.md).
+
+
+
+## Décalage de l\'ancrage 
+
+Le décalage de l\'ancrage devient actif lorsqu\'un mode d\'ancrage autre que*Désactivé* a été sélectionné. Il permet d\'appliquer un décalage linéaire ou rotatif dans le système de coordonnées de l\'ancrage (attachment coordinate system = ACS), tel que défini par le mode d\'ancrage et le(s) objet(s) référencé(s).
+
+-   **Dans la direction X** : définit une distance de décalage le long de l\'axe X de l\'ACS.
+
+-   **Dans la direction Y** : définit une distance de décalage le long de l\'axe Y de l\'ACS.
+
+-   **Dans la direction Z** : définit une distance de décalage le long de l\'axe Z de l\'ACS.
+
+-   **Autour de l\'axe X** : fait tourner l\'objet ancré autour de l\'axe X de l\'ACS.
+
+-   **Autour de l\'axe Y** : fait tourner l\'objet ancré autour de l\'axe Y de l\'ACS.
+
+-   **Autour de l\'axe Z** : fait tourner l\'objet ancré autour de l\'axe Z de l\'ACS.
+
+-   **Inverser les côtés** : si la case est cochée, l\'ancrage est inversé. Cela équivaut à faire pivoter l\'objet de 180° autour de l\'axe Y de l\'ACS.
 
 ## Limitations
 
--   Les conteneurs [Part](Std_Part/fr.md) et [Corps](PartDesign_Body/fr.md) ne sont pas supportés. Bien qu\'il soit possible d\'utiliser Ancrage pour les aligner, la pièce ancrée ne sera pas paramétriquement liée.
--   Si la sélection de deux lignes entraîne un suivi avec \"les points sont colinéaires. Impossible de créer un plan\", essayez de sélectionner trois points à la place [\# p473594](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614).
+-   Si la sélection de deux lignes entraîne une erreur : \"Points are collinear. Can\'t make a plane\", essayez de sélectionner trois sommets à la place [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).
 
 
 

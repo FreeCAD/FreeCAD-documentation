@@ -1,10 +1,7 @@
 # Installing on Windows/uk
 ## Standard Installation 
 
-The easiest way to install the latest stable version of FreeCAD is to use the installer:
-
-
-{{DownloadWindowsStable}}
+The easiest way to install the latest stable version of FreeCAD is to use the installer, see the [Download](Download.md) page.
 
 If you would like to download a development version, which may be unstable, see the [Weekly builds download](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds) page.
 

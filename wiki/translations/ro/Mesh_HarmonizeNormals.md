@@ -31,6 +31,8 @@ Armonizați normalele plaselor sau ochiurilor selectate.
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 ## Note

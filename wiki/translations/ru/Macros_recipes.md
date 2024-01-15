@@ -235,6 +235,8 @@
 
 -    <img style="width:16px;" src="images/Macro_Toggle_Views_Visibility.png"> [Macro Toggle Panels Visibility](Macro_Toggle_Panels_Visibility.md): This macro toggles the visibility of various supporting panels in FreeCAD, allowing the main window to be viewed with all available screen space.
 
+-    <img style="width:16px;" src="images/MacroToolbarManager_icon.svg"> [Macro MacroToolbarManager](Macro_MacroToolbarManager.md): Easily manage custom macro toolbars, allows to create, rename, and delete toolbars, add and remove the macros, edit shortcuts and icons, even includes a simple xpm icon maker tool.
+
 
 </div>
 
@@ -453,6 +455,8 @@
 
 -    <img style="width:16px;" src="images/Macro_Connect_And_Sweep.png"> [Macro Connect And Sweep](Macro_Connect_And_Sweep.md): This macro easily creates a connection between two objects, an object and a point or between two points or the selected line, wire, edge (the center of the objects are the starting and ending points of the sweep) can be selected form a configurable ellipse polygon circle.
 
+-    <img style="width:16px;" src="images/Std_AxisCross_example.svg"> [Macro Express Placement](Macro_Express_Placement.md): Display and quickly edit a selected object\'s placement coordinates directly or via expressions.
+
 -    <img style="width:16px;" src="images/Macro_FlattenWire.png"> [Macro FlattenWire](Macro_FlattenWire.md): Flattens draft wires that are not planar to their median Z coordinate.
 
 -    <img style="width:16px;" src="images/Macro_FlattenWire3Points.png"> [Macro FlattenWire3Points](Macro_FlattenWire3Points.md): Flattens draft wires that are not planar to a plane defined by 3 points.
@@ -508,6 +512,8 @@
 -   <img alt="" src=images/Text-x-python.png  style="width:24px;"> [colorManager](https://github.com/dprojects/Woodworking/blob/master/Tools/colorManager.py): Allows to set face colors for all objects from a spreadsheet. Also you can browse colors for a manually selected face or object and see the effect in the 3D model in real-time.
 
 -    <img style="width:16px;" src="images/Workbench_Image.svg"> [Macro Colorize](Macro_Colorize.md): Easily set colors of faces, edges, and vertices, including individual transparency levels.
+
+-    <img style="width:16px;" src="images/EasyReflectorIcon.svg"> [Macro EasyReflector](Macro_EasyReflector.md): Easily managed textures with a parametric feature python object that persists between FreeCAD and Document sessions.
 
 -    <img style="width:16px;" src="images/Macro_HiddenAlls.png"> [Macro Hidden Alls objects](Macro_HiddenAlls.md): This macro check hidden all object in the document (Visibility=False).
 
@@ -615,6 +621,8 @@
 
 -    <img style="width:16px;" src="images/aliasmanager_icon.png"> [Macro Alias Manager](Macro_Alias_Manager.md): Helps managing aliases inside FreeCAD Spreadsheet workbench. It is able to create, delete, move aliases and create a \'part family\' group of files.
 
+-    <img style="width:16px;" src="images/ConstraintToAlias.svg"> [Macro ConstraintToAlias](Macro_ConstraintToAlias.md): Allows to create a spreadsheet or add an alias to an existing spreadsheet from within the open sketch editor.
+
 -    <img style="width:16px;" src="images/easy-alias-icon.png"> [Macro EasyAlias](Macro_EasyAlias.md): Quickly create aliases in FreeCAD Spreadsheet workbench. It uses the labels from one column to create aliases for adjacent cells in the next column to the right, e.g. labels from Column A become aliases for the cells in Column B.
 
 -    <img style="width:16px;" src="images/Macro_FCSpreadsheet_Extract.png"> [Macro FCSpreadSheet Extract](Macro_FCSpreadSheet_Extract.md): This macro save the data in a csv file with the formula or in a xml file.
@@ -713,7 +721,7 @@
 
 -    <img style="width:16px;" src="images/Macro_Megaminx.png"> [Macro Megaminx](Macro_Megaminx.md): Display a Megaminx and interactively do slice rotations.
 
--    <img style="width:16px;" src="images/PropertyMemo.png"> [Macro PropertyMemo](Macro_PropertyMemo.md): This little macro create one Property additional (memo or other text) for you object (only Draft).
+-    <img style="width:16px;" src="images/PropertyMemo.png"> [Macro PropertyMemo](Macro_PropertyMemo.md): This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
 
 -    <img style="width:16px;" src="images/Macro_Rubik_Cube.png"> [Macro Rubik Cube](Macro_Rubik_Cube.md): Display a Rubik Cube and interactively do slice rotations.
 

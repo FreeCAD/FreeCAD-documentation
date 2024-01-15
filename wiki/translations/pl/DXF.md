@@ -29,7 +29,7 @@ Ta implementacja jest szybka, ale pomija funkcje, których nie rozpoznaje, takie
 
 ### Importer DXF w Pythonie 
 
-Ten importer musi zostać pobrany i zainstalowany, zanim będzie można z niego korzystać. Zobacz stronę [Instalacja importera Dxf](Dxf_Importer_Install/pl.md) lub użyj opcji {{CheckBox|TRUE|}} Pozwól programowi FreeCAD na automatyczne pobieranie i aktualizację bibliotek DXF.
+Ten importer musi zostać pobrany i zainstalowany, zanim będzie można z niego korzystać. Użyj opcji {{CheckBox|TRUE|}} Pozwól programowi FreeCAD na automatyczne pobieranie i aktualizację bibliotek DXF.
 
 Ten importer ma więcej funkcji *(takich jak implementacja splajnów)* i ma opcję ładowania kształtów DXF do środowiska pracy Szkicownik. Należy jednak pamiętać, że wszystkie elementy szkicu pojawią się pojedynczo po raz drugi w drzewie modelu, co może być mylące. Możesz usunąć wszystkie te pojedyncze obiekty i zachować pojedynczy szkic *(który pojawi się jako drugi wpis na liście nowych elementów)*.
 

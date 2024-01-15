@@ -5,59 +5,37 @@
    MenuLocation: Arch , Carpenteria
    Workbenches: Arch_Workbench/it
    Shortcut: **F** **R**
-   SeeAlso: Arch Wall/it, Arch Structure/it
+   SeeAlso: Arch_Wall/it, Arch_Structure/it
 ---
 
 # Arch Frame/it
 
 
-</div>
 
 ## Descrizione
 
+Lo strumento **<img src="images/Arch_Frame.svg" width=16px> [Telaio](Arch_Frame/it.md)** è utilizzato per costruire tutti i tipi di oggetti di carpenteria sulla base di un profilo e di un tracciato. Il profilo viene estruso lungo le linee del tracciato che può essere costituita da qualsiasi oggetto 2D, ad esempio, da uno [schizzo](Sketcher_Workbench/it.md), o da un [oggetto draft](Draft_Workbench/it.md). È particolarmente utile per creare ringhiere o pareti di carpenteria. Gli oggetti Carpenteria possono essere poi facilmente trasformati in oggetti [muri](Arch_Wall/it.md) o [strutture](Arch_Structure/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpenteria è utilizzato per costruire tutti i tipi di oggetti di carpenteria sulla base di un profilo e di un tracciato. Il profilo viene estruso lungo le linee del tracciato che può essere costituita da qualsiasi oggetto 2D, ad esempio, da uno [schizzo](Sketcher_Workbench/it.md), o da un [oggetto draft](Draft_Workbench/it.md). È particolarmente utile per creare ringhiere o pareti di carpenteria. Gli oggetti Carpenteria possono essere poi facilmente trasformati in oggetti [muri](Arch_Wall/it.md) o [strutture](Arch_Structure/it.md).
-
-
-</div>
-
-<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;">
+<img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
+*Oggetto Carpenteria creato da una [schiera](Draft_OrthoArray/it.md) derivata da una [linea](Draft_Line/it.md), utilizzando un [cerchio](Draft_Circle/it.md) come profilo.*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Oggetto Carpenteria creato da una [schiera](Draft_Array/it.md) derivata da una [linea](Draft_Line/it.md), utilizzando un [cerchio](Draft_Circle/it.md) come profilo.*
-
-
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Creare un oggetto tracciato e un oggetto profilo, ad esempio con [Draft](Draft_Workbench/it.md) o con [Schizzo](Sketcher_Workbench/it.md).
 2.  Selezionare l\'oggetto tracciato, poi, con **Ctrl** premuto, selezionare l\'oggetto profilo.
-3.  Premere il pulsante **<img src="images/Arch_Frame.svg" width=16px> Carpenteria**, o premere i tasti **F** poi **R**.
+3.  Premere il pulsante **<img src="images/Arch_Frame.svg" width=16px> [Carpenteria](Arch_Frame/it.md)**, o premere i tasti **F** poi **R**.
 
 
-</div>
 
 ## Opzioni
-
-
-<div class="mw-translate-fuzzy">
 
 -   Gli elementi Carpenteria condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 -   Impostando la sua proprietà Offset, l\'oggetto carpenteria può essere posizionato alla distanza voluta dall\'oggetto tracciato.
 -   Il profilo viene copiato alla base di ciascun spigolo o linea dell\'oggetto tracciato, quindi estruso lungo esso. È possibile stabilire la posizione del profilo alla base di ogni linea del tracciato tramite le proprietà Align e Rotation.
 
 
-</div>
 
 ### Proprietà
 
@@ -71,50 +49,30 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpent
 
 -    {{ProprietaDati|Rotation}}: La rotazione del profilo attorno al suo asse di estrusione.
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Carpenteria può essere utilizzato nelle [macro](macros/it.md) e dalla [console di Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Carpenteria può essere utilizzato nelle [macro](Macros/it.md) e dalla [console di Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Frame = makeFrame(baseobj, profile)
 ```
-
-
-<div class="mw-translate-fuzzy">
 
 -   Crea un oggetto `Frame` da un dato `baseobj` e un `profile`.
     -   
         `baseobj`
         
-        è qualsiasi oggetto che contenga dei contorni, come una [Polilinea](Draft_Wire/it.md) o una [Schiera](Draft_Array/it.md).
+        è qualsiasi oggetto che contenga dei contorni, come una [Polilinea](Draft_Wire/it.md) o una [Schiera](Draft_OrthoArray/it.md).
 
     -   
         `profile`
         
         è un oggetto 2D estrudibile contenente facce o contorni chiusi.
-
-
-</div>
 
 Esempio: 
 ```python
@@ -127,22 +85,6 @@ profile = Draft.makeCircle(200)
 Frame = Arch.makeFrame(baseobj, profile)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/it
-|[Nido](Arch_Nest/it.md)
-|[Recinzione](Arch_Fence/it.md)
-|[Arch](Arch_Workbench/it.md)
-|IconL=Arch_Nest.svg
-|IconC=Workbench_Arch.svg
-|IconR=Arch_Fence.svg
-}}
-
-
-</div>
 
 
 

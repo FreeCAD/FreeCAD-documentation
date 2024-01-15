@@ -25,10 +25,10 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 1.  Vous pouvez sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Clone.svg" width=16px> [Cloner](Draft_Clone/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Clone.svg" width=16px> Cloner** dans le menu.
-    -   Utilisez le raccourci clavier : **C** puis **L**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
+    -   Appuyer sur le bouton **<img src="images/Draft_Clone.svg" width=16px> [Cloner](Draft_Clone/fr.md)**.
+    -   Sélectionner l\'option **Modification → <img src="images/Draft_Clone.svg" width=16px> Cloner** du menu.
+    -   Utiliser le raccourci clavier : **C** puis **L**.
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionner un objet dans la [vue 3D](3D_view/fr.md).
 
 
 

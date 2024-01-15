@@ -1,10 +1,11 @@
 ---
  GuiCommand:
    Name: Std SelBack
-   MenuLocation: 
+   MenuLocation: View , TreeView actions , Selection back
    Workbenches: All
+   Shortcut: **S** **B**
    Version: 0.19
-   SeeAlso: Std_LinkSelectLinked, Std_LinkSelectLinkedFinal, Std_LinkSelectAllLinks, Std_SelForward
+   SeeAlso: Std_SelForward
 ---
 
 # Std SelBack/en
@@ -16,7 +17,10 @@ The **Std SelBack** command restores the previous recorded [Tree view](Tree_view
 ## Usage
 
 1.  There has to be a previous Tree view selection.
-2.  Press the **<img src="images/Std_SelBack.svg" width=16px> [Back](Std_SelBack.md)** button.
+2.  There are several ways to invoke the command:
+    -   Click on the black down arrow to the right of the **<img src="images/Std_TreeSyncView.svg" width=16px>** button and select the **<img src="images/Std_SelBack.svg" width=16px> Selection back** option from the flyout. Note: the button image will change depending on the selected option.
+    -   Select the **View → TreeView actions → <img src="images/Std_SelBack.svg" width=16px> Selection back** option from the menu.
+    -   Use the keyboard shortcut: **S** then **B**.
 3.  The previous selection is restored.
 
 ## Notes

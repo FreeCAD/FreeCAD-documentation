@@ -32,7 +32,7 @@ Les coordonnées **X,Y,Z** de valeur **0** ou un alignement ne permettant pas le
 
 ToolBar Icon ![](images/Macro_Draft_Circle_3_Points.png )
 
-**Macro_Draft_Circle_3\_Points_3D.FCMacro**
+**Macro_Draft_Circle_3_Points_3D.FCMacro**
 
 
 {{MacroCode|code=

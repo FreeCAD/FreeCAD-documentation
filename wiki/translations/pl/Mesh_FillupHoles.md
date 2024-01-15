@@ -9,15 +9,19 @@
 
 # Mesh FillupHoles/pl
 
+
+
 ## Opis
 
 Polecenie **Wypełnienie otworów** wypełnia otwory w obiektach siatkowych.
+
+
 
 ## Użycie
 
 1.  Zaznacz pojedynczy obiekt siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_FillupHoles.svg" width=16px> [Wypełnij otwory ...](Mesh_FillupHoles/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_FillupHoles.svg" width=16px> '''Wypełnij otwory ...'''**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_FillupHoles.svg" width=16px> Wypełnij otwory ...**.
 3.  Otworzy się okno dialogowe **Wypełnij otwory**.
 4.  Określ wartość pola **Wypełnij otwory maksymalną liczbą krawędzi**.

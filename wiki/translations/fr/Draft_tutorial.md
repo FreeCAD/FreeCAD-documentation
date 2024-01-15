@@ -47,10 +47,10 @@ Ce tutoriel utilise la notation {{Value|(x, y, z)}} pour désigner les coordonn�
 
 ## Verrouillage de la barre d\'outils 
 
-2\. L\'[Draft Accrochage](Draft_Snap/fr.md) est normalement activée lorsque vous basculez vers [atelier Draft](Draft_Workbench/fr.md).
+2\. L\'[Draft Aimantation](Draft_Snap/fr.md) est normalement activée lorsque vous basculez vers l\'[atelier Draft](Draft_Workbench/fr.md).
 
-:   2.1. Pour vous assurer qu\'il est toujours là, allez dans [Draft Préférences](Draft_Preferences/fr.md), **Edition → Préférences → Draft → onglet: Grille et accrochage**.
-:   2.2. Vérifiez que la barre d\'outils **Montrer la barre d\'outils d\'accrochage** est active.
+:   2.1. Pour vous assurer qu\'il est toujours là, allez dans [Draft Préférences](Draft_Preferences/fr.md), **Edition → Préférences → Draft → onglet: Grille et aimantation**.
+:   2.2. Vérifiez que la barre d\'outils **Montrer la barre d\'outils d\'aimantation** est active.
 
 Vous pouvez aussi changer la visibilité et les propriétés de la grille Draft dans cette même fenêtre.
 
@@ -82,7 +82,7 @@ Avant d\'appuyer sur le bouton, vous pouvez également modifier la valeur du dé
 5\. Nous allons maintenant créer un profil fermé en liant les arcs avec des lignes.
 
 :   5.1. Appuyez sur **[<img src=images/Draft_Line.svg style="width:16px"> [Ligne](Draft_Line/fr.md)**.
-:   5.2. Dans la [Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** également. Lorsque vous déplacez le pointeur sur l\'arc et à proximité de l\'un de ses extrémités, l\'icône <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Terminaison](Draft_Snap_Endpoint/fr.md) doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
+:   5.2. Dans la [Barre d\'outils Aimantation](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** également. Lorsque vous déplacez le pointeur sur l\'arc et à proximité de l\'un de ses extrémités, l\'icône <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Terminaison](Draft_Snap_Endpoint/fr.md) doit apparaître. De plus, le point cible est mis en valeur par un grand point blanc. Cliquez pour sélectionner ce point.
 :   5.3. Déplacez le pointeur vers l\'extrémité la plus proche de l\'autre arc pour lier les deux arcs ensemble.
 :   5.4. Répétez le processus pour l\'autre côté de l\'arc pour fermer le profil.
 
@@ -162,15 +162,15 @@ L\'objet réseau montre des copies de l\'objet autour de l\'origine.
 
 ## Cotes
 
-Les cotes linéaires fonctionnent mieux lorsque vous utilisez les méthodes d\'[Accrochage](Draft_Snap/fr.md) appropriées pour sélectionner les points et les arêtes à mesurer. Cependant, ils peuvent également être créés en spécifiant des coordonnées absolues.
+Les cotes linéaires fonctionnent mieux lorsque vous utilisez les méthodes d\'[aimantation](Draft_Snap/fr.md) appropriées pour sélectionner les points et les arêtes à mesurer. Cependant, ils peuvent également être créés en spécifiant des coordonnées absolues.
 
 11\. Créez des dimensions pour les différents objets.
 
 :   11.1. Appuyez sur **[<img src=images/Draft_Dimension.svg style="width:16px"> [Dimension](Draft_Dimension/fr.md)**.
 :   11.2. Choisissez le premier point. Dans ce tutoriel, le premier point sera toujours l\'origine {{Value|(0, 0, 0)}}.
-:   11.3. Dans la [Barre d\'outils Accrochage](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Lorsque vous déplacez le pointeur vers le bord supérieur du polygone, l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) doit apparaître; cliquez pour sélectionner ce point.
+:   11.3. Dans la [Barre d\'outils Aimantation](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Lorsque vous déplacez le pointeur vers le bord supérieur du polygone, l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) doit apparaître; cliquez pour sélectionner ce point.
 :   11.4. Déplacez le curseur vers la droite pour spécifier l\'emplacement de la dimension, puis cliquez pour définir la position finale, autour de {{Value|(100, 20, 0)}}. La cote affichera automatiquement la valeur de longueur mesurée entre les deux points.
-:   11,5. Sélectionnez l\'objet dimension dans la [Vue en arborescence](Tree_view/fr.md) et dans l\'[Éditeur de propriétés](Property_editor/fr.md) remplacez {{PropertyView/fr|Font Size}} par {{Value|6 mm}}, définissez {{PropertyView/fr|Ext Lines}} à {{Value|45 mm}} et {{PropertyView/fr|Show Unit}} à `False`.
+:   11,5. Sélectionnez l\'objet dimension dans la [vue en arborescence](Tree_view/fr.md) et dans l\'[éditeur de propriétés](Property_editor/fr.md) remplacez **Font Size** par {{Value|6 mm}}, définissez **Ext Lines** à {{Value|45 mm}} et **Show Unit** à `False`.
 
 12\. Répétez le processus pour les deux arcs du profil fermé. Le premier point de la mesure sera toujours l\'origine et le second point utilisera le <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) de l\'arc.
 
@@ -185,21 +185,21 @@ N\'oubliez pas d\'ajuster {{PropertyView/fr|Font Size}} et d\'autres propriété
 
 ## Textes et Formes à partir de texte 
 
-14\. Les objets texte sont de simples figures planes qui sont créées dans la [Vue 3D](3D_view/fr.md) mais qui n\'ont pas de véritable \"[Forme](Shape/fr.md)\" sous jacente. Cela signifie qu\'ils ne peuvent pas être utilisés dans des opérations complexes avec des formes telles que des extrusions ou des opérations booléennes.
+14\. Les objets texte sont de simples figures planes qui sont créées dans la [vue 3D](3D_view/fr.md) mais qui n\'ont pas de véritable \"[Forme](Shape/fr.md)\" sous jacente. Cela signifie qu\'ils ne peuvent pas être utilisés dans des opérations complexes avec des formes telles que des extrusions ou des opérations booléennes.
 
 :   14.1. Appuyez sur **[<img src=images/Draft_Text.svg style="width:16px"> [Texte](Draft_Text/fr.md)**.
-:   14.2. Sélectionnez le point de référence dans la [Vue 3D](3D_view/fr.md). Dans la [Barre d\'outils d\'accrochage](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule l'accrochage](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Déplacez le pointeur vers le bord supérieur de l\'arc le plus élevé, de sorte que l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) s\'affiche. Cliquez pour sélectionner ce point.
+:   14.2. Sélectionnez le point de référence dans la [Vue 3D](3D_view/fr.md). Dans la [Barre d\'outils Aimantation](Draft_Snap/fr.md), assurez-vous que **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Bascule l'aimantation](Draft_Snap_Lock/fr.md)** est actif et que **[<img src=images/Draft_Snap_Midpoint.svg style="width:16px"> [Milieu](Draft_Snap_Midpoint/fr.md)** également. Déplacez le pointeur vers le bord supérieur de l\'arc le plus élevé, de sorte que l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [Milieu](Draft_Snap_Midpoint/fr.md) s\'affiche. Cliquez pour sélectionner ce point.
 :   14.3. Entrez le **Text** souhaité et appuyez une fois sur **Validez** pour commencer une nouvelle ligne; ajoutez plus de lignes de texte au besoin.
 :   14.4. Lorsque vous êtes prêt à terminer l\'édition, appuyez deux fois sur **Validez**.
-:   14,5. Sélectionnez l\'objet texte dans [tree view](tree_view.md), et dans l\'[Éditeur de propriétés](Property_editor/fr.md) remplacez {{PropertyView/fr|Font Size}} par {{Value|6 mm}} et {{PropertyView/fr|Justification}} à {{Value|Center}}.
+:   14,5. Sélectionnez l\'objet texte dans la [vue en arborescence](Tree_view/fr.md) et dans l\'[éditeur de propriétés](Property_editor/fr.md) remplacez **Font Size** par {{Value|6 mm}} et **Justification** à {{Value|Center}}.
 
 15\. Les objets ShapeString sont des formes constituées de fils primitifs qui suivent les lignes indiquées par une certaine police. Cela signifie que ces objets ont une vraie \"[Forme](Shape/fr.md)\" sous jacente et peuvent donc être utilisés dans des opérations complexes comme les extrusions et les opérations booléennes.
 
-:   15.1. Appuyez sur **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Forme à partir de texte](Draft_ShapeString/fr.md)**.
-:   15.2. Déplacez le pointeur vers l\'emplacement souhaité dans la [Vue 3D](3D_view/fr.md) au-dessus du polygone régulier, et cliquez une fois. Cela corrigera le point de base du ShapeString. Les coordonnées peuvent également être entrées manuellement, par exemple, {{Value|(-20, 65, 0)}}.
-:   15.3. Entrez la **String** (chaîne de caractère)souhaitée et choisissez la **Height** (hauteur) souhaitée.
+:   15.1. Appuyez sur **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Forme à partir d'un texte](Draft_ShapeString/fr.md)**.
+:   15.2. Déplacez le pointeur vers l\'emplacement souhaité dans la [vue 3D](3D_view/fr.md) au-dessus du polygone régulier, et cliquez une fois. Cela corrigera le point de base du ShapeString. Les coordonnées peuvent également être entrées manuellement, par exemple, {{Value|(-20, 65, 0)}}.
+:   15.3. Entrez la **Chaîne de caractère** souhaitée et choisissez la **Hauteur** souhaitée.
 :   15.4. S\'il n\'y a pas de fichier de police par défaut, vous devez cliquer sur les points de suspension **...** pour ouvrir une boîte de dialogue pour choisir l\'emplacement de la police dans le système.
-:   15.5. Lorsqu\'un fichier de police valide a été spécifié, vous pouvez cliquer sur **OK** ou appuyer sur **Validez**.
+:   15.5. Lorsqu\'un fichier de police valide a été spécifié, vous pouvez cliquer sur **OK** ou appuyer sur **Entrée**.
 
 <img alt="" src=images/05_Dr01_Draft_Text_ShapeString.png  style="width:" height="400px;"> 
 *Objets Text et ShapeString ajoutés.*

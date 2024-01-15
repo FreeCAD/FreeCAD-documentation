@@ -52,7 +52,7 @@ A property is a piece of information like a number or a text string that is atta
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD中的自定义[脚本对象可以具有以下类型的属性](Scripted_objects/zh-cn.md)：
+FreeCAD中的自定义[脚本对象](Scripted_objects/zh-cn.md)可以具有以下类型的属性：
 
 
 </div>

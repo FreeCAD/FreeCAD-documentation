@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft ToggleDisplayMode
    Name/fr: Draft Mode d'affichage
-   MenuLocation: Utilitaires , Basculer le mode d'affichage de normal/filaire
+   MenuLocation: Utilitaires , Basculer l'affichage entre mode normal/filaire
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    Shortcut: **Maj** + **Espace**
    SeeAlso: Std_ToggleVisibility/fr
@@ -23,9 +23,9 @@ La commande <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:24p
 
 1.  Sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Basculer le mode d'affichage de normal/filaire](Draft_ToggleDisplayMode/fr.md)**.
-    -   Sélectionnez le bouton **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal/filaire** dans le menu.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer le mode d'affichage de normal/filaire** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou de la [vue 3D](3D_view/fr.md).
+    -   Appuyez sur le bouton **<img src="images/Draft_ToggleDisplayMode.svg" width=16px> [Basculer l'affichage entre mode normal/filaire](Draft_ToggleDisplayMode/fr.md)**.
+    -   Sélectionnez le bouton **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer l'affichage entre mode normal/filaire** du menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_ToggleDisplayMode.svg" width=16px> Basculer l'affichage entre mode normal/filaire** dans le menu contextuel de la [vue en arborescence](Tree_view/fr.md) ou de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier : **Maj**+**Barre espace**.
 
 

@@ -2,16 +2,14 @@
  GuiCommand:
    Name: Arch AxisSystem
    Name/it: Sistema di assi
-   Icon: Arch Axis System.svg
-   MenuLocation: Arch , Sistema di assi
+   MenuLocation: Arch , Strumenti per assi , Sistema di assi
    Workbenches: Arch_Workbench/it
-   SeeAlso: Arch Axis/it, Arch Grid/it
+   SeeAlso: Arch_Axis/it, Arch_Grid/it
 ---
 
 # Arch AxisSystem/it
 
 
-</div>
 
 ## Descrizione
 
@@ -19,47 +17,27 @@ Lo strumento Sistema di assi consente di combinare 2 o 3 oggetti [Assi](Arch_Axi
 
 Questo è utile per definire i punti di intersezione tra i diversi assi. Gli oggetti Arch possono quindi utilizzare questo sistema per duplicare la loro forma sui diversi punti di intersezione.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
 *Tre oggetti [Assi](Arch_Axis/it.md) combinati in un unico [Sistema di assi](Arch_AxisSystem/it.md). Un oggetto [Struttura](Arch_Structure/it.md) usa questo sistema come sua proprietà **Axis*, per duplicare la sua forma in ogni punto di intersezione.**
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Facoltativamente, selezionare gli oggetti [Assi](Arch_Axis/it.md) che si desidera includere in questo sistema.
-2.  Premere il pulsante **<img src="images/Arch_Axis_System.svg" width=16px> [Sistema di assi](Arch_AxisSystem/it.md)**.
+2.  Premere il pulsante **<img src="images/Arch_AxisSystem.svg" width=16px> [Sistema di assi](Arch_AxisSystem/it.md)**.
 3.  Fare clic con il tasto destro del mouse sull\'oggetto Sistema di assi appena creato nella vista ad albero per aggiungere o modificare gli oggetti [Assi](Arch_Axis/it.md) incluso in questo sistema.
 4.  Selezionare qualsiasi [Asse](Arch_Axis/it.md) esistente e premere i pulsanti **<img src="images/Arch_Add.svg" width=16px> [Aggiungi](Arch_Add/it.md)** o **<img src="images/Arch_Remove.svg" width=16px> [Rimuovi](Arch_Remove/it.md)** per aggiungerlo o rimuoverlo dal sistema.
 5.  Impostare le proprietà **Axis** per fare in modo che un oggetto Arch punti a questo sistema, e la sua forma venga duplicata nei punti di intersezione di questo sistema
 
 
-</div>
 
 ## Opzioni
-
-
-<div class="mw-translate-fuzzy">
 
 -   Uno stesso oggetto [Asse](Arch_Axis/it.md) può essere parte di più di un sistema
 -   Qualsiasi oggetto basato su una forma può anche essere usato come proprietà **Asse** di oggetti Arch. In questo caso, la forma dell\'oggetto viene duplicata lungo i vertici dell\'oggetto Axis
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -68,29 +46,12 @@ Questo è utile per definire i punti di intersezione tra i diversi assi. Gli ogg
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Sistema di assi può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Sistema di assi può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](FreeCAD_Scripting_Basics/it.md) tramite la seguente funzione: 
 ```python
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
 -   Crea un oggetto `AxisSystem` da un dato `axes`, che è un singolo [Asse](Arch_Axis/it.md), o un elenco di assi.
-
-
-</div>
 
 Esempio: 
 ```python
@@ -122,15 +83,6 @@ Draft.move(Structure, FreeCAD.Vector(-100, 0, 0))
 Structure.Axis = AxisSystem
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

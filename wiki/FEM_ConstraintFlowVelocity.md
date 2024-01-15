@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: FEM ConstraintFlowVelocity
-   MenuLocation: Model , Fluid Constraints , Constraint flow velocity
+   MenuLocation: Model , Fluid boundary conditions , Flow velocity boundary condition
    Workbenches: FEM_Workbench
    SeeAlso: FEM_ConstraintInitialFlowVelocity
 ---
@@ -14,7 +14,7 @@ Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3
 
 ## Usage
 
-1.  Either press the toolbar button **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> '''FEM ConstraintFlowVelocity'''** or select the menu **Model → Fluid Constraints → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Constraint flow velocity**.
+1.  Press the **<img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> [Flow velocity boundary condition](FEM_ConstraintFlowVelocity.md)** button or select the menu **Model → Fluid boundary conditions → <img src="images/FEM_ConstraintFlowVelocity.svg" width=16px> Flow velocity boundary condition**.
 2.  Select the target Edges or Faces.
 3.  Press the **Add** button.
 4.  Uncheck *Unspecified* to activate the necessary fields for edition.

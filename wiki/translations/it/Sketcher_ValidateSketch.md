@@ -2,49 +2,42 @@
  GuiCommand:
    Name: Sketcher_ValidateSketch
    Name/it: Convalida lo schizzo
-   Empty: 1
-   Workbenches: Sketcher Workbench/it, PartDesign Workbench/it
-   MenuLocation: Sketch/Part Design , Convalida lo schizzo...
+   MenuLocation: Schizzo , Convalida lo schizzo...
+   Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
+   SeeAlso: Sketcher_ConstrainCoincident/it, Topological_naming_problem/it
 ---
 
 # Sketcher ValidateSketch/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-L\'utilità **Convalida lo schizzo** può essere usata per riparare uno schizzo che non è più modificabile, cha ha vincoli non validi, o per aggiungere [vincoli di coincidenza](Sketcher_ConstrainCoincident/it.md) a uno schizzo creato da una geometria importata come file DXF. Può anche essere utile individuare una coincidenza mancante in uno schizzo nativo che genera un errore \"can\'t validate broken face\" quando si tenta di applicare una funzione di PartDesign.
-
-
-</div>
+L\'utilità **Convalida lo schizzo** può essere usata per analizzare e riparare uno schizzo che non è più modificabile o ha vincoli non validi, o per aggiungere [vincoli di coincidenza](Sketcher_ConstrainCoincident/it.md) a uno schizzo creato da una geometria importata come file DXF. Può anche essere utile individuare una coincidenza mancante in uno schizzo nativo che genera un errore \"can\'t validate broken face\" quando si tenta di applicare una funzione di PartDesign.
 
 ![](images/Sketcher_ValidateSketch_taskpanel.png ) 
-*The Sketcher validation task panel*
+*Il pannello delle attività di convalida dello Sketcher*
 
 
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
+1.  Questo strumento non può essere utilizzato su uno schizzo in modalità modifica. Se necessario, uscire dalla modalità di modifica effettuando una delle seguenti operazioni:
+    -   Premere il pulsante **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Esci](Sketcher_LeaveSketch/it.md)**.
+    -   Premere il pulsante **Chiudi** nella parte superiore del [Scheda Azioni](Task_panel/it.md).
+    -   Utilizzare la scorciatoia da tastiera: **Esc** (se abilitato in [Sketcher Preferenze](Sketcher_Preferences/it#Generale.md)).
+2.  Selezionare lo schizzo da convalidare dalla [Vista ad albero](Tree_view/it.md) o facendo clic su uno dei suoi bordi nella [Vista 3D](3D_view/it.md).
+3.  Per aprire l\'utilità di convalida dello schizzo, effettuare una delle seguenti operazioni:
+    -   Selezionare l\'opzione **Schizzo → Convalida schizzo...** dal menu.
+    -   Premere il pulsante **[<img src=images/Sketcher_ValidateSketch.svg style="width:16px"> [Convalida schizzo...](Sketcher_ValidateSketch/it.md)** (non disponibile in [PartDesign](PartDesign_Workbench/it.md)).
+4.  Vedere le [Opzioni](#Opzioni.md) di seguito per le operazioni disponibili.
+5.  Al termine, premere il pulsante **Chiudi**.
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare lo schizzo da convalidare, dall\'albero del modello o facendo clic su uno dei suoi bordi nella vista 3D. **Nota:** lo schizzo non deve essere in modalità di modifica. Se si è in modalità di modifica dello schizzo, è necessario [usire dallo schizzo](Sketcher_LeaveSketch/it.md).
-2.  Aprire l\'utility di convalida dal menu Schizzo o Part Design.
-3.  Selezionare le sottostanto opzioni per l\'operazione.
-4.  Premere il pulsante **Chiudi** quando fatto.
-
-
-</div>
 
 ## Opzioni
+
+
 
 ### Coincidenze mancanti 
 
@@ -52,61 +45,51 @@ Trova coincidenze mancanti per i vertici sovrapposti e li aggiunge. Premere il p
 
 Se necessario, definire un valore di tolleranza maggiore nel campo a discesa.
 
-Press **Highlight troublesome vertexes** to highlight vertexes that are outside this tolerance.
+Premere **Evidenzia vertici problematici** per evidenziare i vertici che sono al di fuori di questa tolleranza.
 
-This tolerance is also used by the **Find**/**Fix** process.
+Questa tolleranza viene utilizzata anche dal processo **Trova**/**Ripara**.
 
 Lasciare selezionata la casella di controllo \"Ignora la geometria di costruzione\" per ignorare la geometria di costruzione nell\'analisi.
 
-### Invalid constraints 
 
-
-<div class="mw-translate-fuzzy">
 
 ### Vincoli non validi 
 
+Verifica la presenza di vincoli non validi.
 
-</div>
+Ad esempio, se è presente un vincolo Cerchio-Linea-Tangente, ma fa riferimento a due linee, viene considerato non valido.
 
-For example, if there is a Circle-Line-Tangent constraint, but it references two lines, it is considered invalid.
+(Ciò a volte accade a causa del [Problema di denominazione topologica](Topological_naming_problem/it.md), ovvero la geometria esterna cambia tipo).
 
-(This sometimes happens due to the [Topological naming problem](Topological_naming_problem.md), i.e. the external geometry changes type).
-
-It also does other checks, such as for empty links.
-
-### Degenerated geometry 
-
-Degenerated geometry can result from solver actions in a sketch.
-
-For instance, if a line is forced to shorten to become almost a point.
-
-Other examples: a zero length line or zero radius circle/arc.
-
-### Reversed external geometry 
+Esegue anche altri controlli, ad esempio per i collegamenti vuoti.
 
 
-<div class="mw-translate-fuzzy">
 
-### Geometria esterna reversa 
+### Geometria degenerata 
 
+La geometria degenerata può derivare dalle azioni del risolutore in uno schizzo.
 
-</div>
+Ad esempio, se una linea viene costretta ad accorciarsi fino a diventare quasi un punto.
 
-This process might be helpful if sketches with external-geometry fail to solve because of these changes.
-
-### Constraint orientation locking 
+Altri esempi: una linea di lunghezza zero o un cerchio/arco con raggio zero.
 
 
-<div class="mw-translate-fuzzy">
+
+### Geometria esterna invertita 
+
+La geometria esterna invertita può verificarsi perché la gestione della geometria invertita è stata modificata all\'incirca con la revisione 0.15.
+
+Questo processo potrebbe essere utile se gli schizzi con geometria esterna non vengono risolti a causa di queste modifiche.
+
+
 
 ### Vincolo orientamento bloccato 
 
+Sono implementati i vincoli tangenti e perpendicolari (via-punto).
 
-</div>
+Internamente funzionano vincolando l\'angolo tra i vettori tangenti. Con il vincolo di tangenza, ad esempio, l\'angolo può essere 0 o 180 gradi (vettori co-diretti o opposti). L\'angolo effettivo viene ricordato nei dati del vincolo (\"l\'orientamento del vincolo è bloccato\") e impedisce il ribaltamento. Ma l\'angolo può essere cancellato (\"vincolo di sblocco orientamento\") o aggiornato; questi strumenti fanno esattamente questo.
 
-Internally they work by constraining the angle between tangent vectors. With tangent constraint for example, the angle can be 0 or 180 degrees (co-directed or opposed vectors). The actual angle is remembered in the constraint data (\"constraint orientation is locked\"), it guards against flipping. But the angle can be erased (\"constraint orientation unlock\") or updated; these tools do exactly that.
-
-The locking mechanism typically works well and this tool should not be needed. **It should only used after making a backup of the open document.**
+Il meccanismo di blocco in genere funziona bene e questo strumento non dovrebbe essere necessario. **Dovrebbe essere utilizzato solo dopo aver effettuato il backup del documento aperto.**
 
 
 

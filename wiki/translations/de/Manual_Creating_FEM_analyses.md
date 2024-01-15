@@ -1,5 +1,5 @@
 # Manual:Creating FEM analyses/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 FEM stands for [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method). It is a vast mathematical subject, but in FreeCAD we can think of it as a way to calculate propagations inside a 3D object, by cutting it into small pieces, and analyzing the impact of each small piece on its neighbours. This has several uses in the engineering and electromagnetism fields, but we will focus on one use that is already well developed in FreeCAD, which is simulating deformations in objects which are submitted to forces and weights.
 
@@ -7,11 +7,15 @@ Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbe
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
-### Preparing FreeCAD 
+
+
+### FreeCAD vorbereiten 
 
 The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the [FEM Workbench](FEM_Workbench.md) allows you to choose between them. However, currently only [CalculiX](http://www.calculix.de/) is fully implemented. Another piece of software, called [NetGen](https://sourceforge.net/projects/netgen-mesher/), which is responsible for generating the subdivision mesh, is also required. Detailed instructions to install these two components are provided [in the FreeCAD documentation](FEM_Install.md).
 
-### Preparing the geometry 
+
+
+### Geometrien vorbereiten 
 
 We will start with the house we modeled in the [BIM modeling](Manual_BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
 
@@ -28,7 +32,9 @@ We will start with the house we modeled in the [BIM modeling](Manual_BIM_modelin
 
 :   <img alt="" src=images/Exercise_fem_03.jpg  style="width:600px;">
 
-### Creating the analysis 
+
+
+### Analyse erstellen 
 
 -   We are now ready to start a FEM analysis. Let\'s switch to the [FEM Workbench](FEM_Workbench.md)
 -   Select the fused object

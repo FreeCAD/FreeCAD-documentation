@@ -4,6 +4,7 @@
 |Icon=FCInfoToMouse.png
 |Description=Provides info about coordinates, length, and angles in real-time next to the mouse pointer.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/1/10/FCInfoToMouse.png ToolBar Icon]
 |Version=00.04
 |Date=2018-03-27
 }}
@@ -32,6 +33,7 @@ Provides info about coordinates, length, and angles in real-time next to the mou
 :   
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_01.png  style="width:240px;">
+
     :   
         
 *Figure 1*
@@ -50,6 +52,7 @@ Provides info about coordinates, length, and angles in real-time next to the mou
 :   
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_02.png  style="width:240px;">
+
     :   
         
 *Figure 2*

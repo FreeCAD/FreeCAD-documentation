@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Part Sphere
-   Name/it: Sfera
-   MenuLocation: Parte , Sfera
+   Name/it: Part Sfera
+   MenuLocation: Parte , Primitive , Sfera
    Workbenches: Part_Workbench/it
    SeeAlso: Part_CreatePrimitives/it
 ---
@@ -10,91 +10,91 @@
 # Part Sphere/it
 
 
-</div>
 
-## Description
+## Descrizione
 
+Il comando <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> **Part Sfera** crea una sfera solida parametrica. È il risultato della rotazione di un profilo di arco circolare attorno a un asse. Nel sistema di coordinate definito dalla sua proprietà **Placement**, il centro della sfera è posizionato nell\'origine e il suo asse di rivoluzione è l\'asse Z.
 
-<div class="mw-translate-fuzzy">
-
-### Descrizione
-
-Crea una sfera parametrica con i parametri posizione, angolo1, angolo2, anglo3 e raggio.
-
-
-</div>
-
-A Part Sphere can be truncated at the top and/or bottom by changing its **Angle1** and/or **Angle2** properties. It can be turned into a segment of a sphere by changing its **Angle3** property.
+Una Part Sfera può essere troncata nella parte superiore e/o inferiore modificando le sue proprietà **Angle1** e/o **Angle2**. Può essere trasformata in un segmento di sfera modificando la sua proprietà **Angle3**.
 
 <img alt="" src=images/Part_Sphere_Example.png  style="width:400px;">
 
-## Usage
 
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
-Nell\'ambiente [Part](Part_Workbench/it.md) cliccare sull\'icona della sfera <img alt="" src=images/Part_Sphere.svg  style="width:24px;">. La sfera viene creata nell\'origine (punto 0,0,0). I parametri degli angoli consentono di creare una porzione di sfera invece di una sfera intera (sono predefiniti a 360 °).
+1.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Sphere.svg" width=16px> [Sfera](Part_Sphere/it.md)**.
+    -   Selezionare l\'opzione **Part → Primitive → <img src="images/Part_Sphere.svg" width=16px> Sfera** dal menu.
+2.  La sfera viene creata.
+3.  Facoltativamente, modificare le dimensioni e il **Placement** della sfera effettuando una delle seguenti operazioni:
+    -   Fare doppio clic sull\'oggetto nella [Vista ad albero](Tree_view/it.md):
+        1.  Si apre il pannello delle attività **Primitive geometriche**.
+        2.  Modificare una o più proprietà.
+        3.  L\'oggetto viene aggiornato dinamicamente nella [vista 3D](3D_view/it.md).
+        4.  Premere il pulsante **OK**.
+    -   Modificare le proprietà nell\'[Editor delle proprietà](Property_editor.md).
+    -   Modificare il **Placement** con il comando <img alt="" src=images/Std_TransformManip.svg  style="width:16px;"> [Trasformna](Std_TransformManip/it.md).
 
 
-</div>
 
-## Example
+## Esempio
 
-![Part Sphere from the scripting example](images/Part_Sphere_Scripting_Example.png )
+![Part Sfera dall\'esempio di scripting](images/Part_Sphere_Scripting_Example.png )
 
-A Part Sphere object created with the [scripting example](#Scripting.md) below is shown here.
-
-## Notes
-
--   A Part Sphere can also be created with the <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitives](Part_Primitives.md) command. With that command you can specify the dimensions and placement at creation time.
+Qui viene mostrato un oggetto Part Sfera creato con l\'[esempio di scripting](#Script.md) riportato di seguito.
 
 
-<div class="mw-translate-fuzzy">
 
-## Opzioni
+## Note
+
+-   Una Part Sfera può essere creata anche con il comando <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Part Primitive](Part_Primitives/it.md). Con questo comando si può specificare le dimensioni e il posizionamento al momento della creazione.
 
 
-</div>
 
-See also: [Property editor](Property_editor.md).
+## Proprietà
 
-A Part Sphere object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-### Data
+Un oggetto Part Sfera deriva da un oggetto [Funzione Part](Part_Feature/it.md) e ne eredita tutte le proprietà. Ha inoltre le seguenti proprietà aggiuntive:
+
+
+
+### Dati
 
 
 {{TitleProperty|Attachment}}
 
-The object has the same attachment properties as a [Part Part2DObject](Part_Part2DObject#Data.md).
+L\'oggetto ha le stesse proprietà di collegamento di un [Part Part2DObject](Part_Part2DObject/it#Dati.md).
 
 
 {{TitleProperty|Sphere}}
 
--    **Radius|Length**: The radius of the sphere. The default is {{Value|5mm}}.
+-    **Radius|Length**: il raggio della sfera. Il valore predefinito è {{Value|5mm}}.
 
--    **Angle1|Angle**: The start angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle2**. The default is {{Value|-90°}}.
+-    **Angle1|Angle**: l\'angolo iniziale del profilo dell\'arco circolare della sfera. Intervallo valido: {{Value|-90° &lt;&#61; valore &lt;&#61; 90°}}. Potrebbe non essere uguale a **Angle2**. Il valore predefinito è {{Value|-90°}}.
 
--    **Angle2|Angle**: The end angle of the circular arc profile of the sphere. Valid range: {{Value|-90° &lt;&#61; value &lt;&#61; 90°}}. May not be equal to **Angle1**. The default is {{Value|90°}}. If the total angle of the arc profile is smaller than {{Value|180°}} the sphere will be truncated and have a flat face at the top and/or bottom.
+-    **Angle2|Angle**: l\'angolo finale del profilo dell\'arco circolare della sfera. Intervallo valido: {{Value|-90° &lt;&#61; valore &lt;&#61; 90°}}. Potrebbe non essere uguale a **Angle1**. Il valore predefinito è {{Value|90°}}. Se l\'angolo totale del profilo dell\'arco è inferiore a {{Value|180°}} la sfera verrà troncata e avrà una faccia piatta nella parte superiore e/o inferiore.
 
--    **Angle3|Angle**: The total angle of revolution of the sphere. Valid range: {{Value|0° &lt; value &lt;&#61; 360°}}. The default is {{Value|360°}}. If it is smaller than {{Value|360°}} the resulting solid will be a segment of a sphere.
+-    **Angle3|Angle**: l\'angolo di rivoluzione totale della sfera. Intervallo valido: {{Value|0° &lt; valore &lt;&#61; 360°}}. Il valore predefinito è {{Value|360°}}. Se è inferiore a {{Value|360°}} il solido risultante sarà un segmento di una sfera.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Part scripting](Part_scripting.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-A Part Sphere can be created with the {{Incode|addObject()}} method of the document:
+## Script
+
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/), [Script di Part](Part_scripting/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+È possibile creare una Part Sfera con il metodo {{Incode|addObject()}} del documento:
 
 
 ```python
 sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 ```
 
--   Where {{Incode|"mySphere"}} is the name for the object.
--   The function returns the newly created object.
+-   Dove {{Incode|"mySphere"}} è il nome dell\'oggetto.
+-   La funzione restituisce l\'oggetto appena creato.
 
-Example:
+Esempio:
 
 
 ```python

@@ -1,29 +1,23 @@
 ---
  GuiCommand:
-   Name: Arch_Reference
+   Name: Arch Reference
    Name/it: Riferimento
-   Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Riferimento
-   Shortcut: 
-   SeeAlso: Arch BuildingPart/it
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch_BuildingPart/it
 ---
 
 # Arch Reference/it
 
 
-</div>
 
 ## Descrizione
 
 <img alt="" src=images/Arch_reference_screenshot.png  style="width:800px;">
 
-
-<div class="mw-translate-fuzzy">
-
 Lo strumento Riferimento consente di posizionare nel documento corrente un oggetto che copia la sua forma e i suoi colori da un oggetto basato su [Part](Part_Workbench/it.md) (incluso [Parte di edificio](Arch_BuildingPart/it.md)) e memorizzato in un altro file di FreeCAD. Se il file di FreeCAD cambia, l\'oggetto di riferimento viene contrassegnato per essere ricaricato.
 
 
-</div>
 
 ## Utilizzo
 
@@ -32,10 +26,9 @@ Lo strumento Riferimento consente di posizionare nel documento corrente un ogget
 3.  Selezionare uno degli oggetti Part-based inclusi dall\'elenco a discesa
 4.  Premere **OK**.
 
+
+
 ## Opzioni
-
-
-<div class="mw-translate-fuzzy">
 
 -   L\'oggetto di riferimento può essere spostato e ruotato, la posizione corrente verrà mantenuta dopo il ricaricamento dell\'oggetto.
 -   Se l\'oggetto originale viene spostato nel file contenitore, questo movimento si riflette nell\'oggetto riferimento.
@@ -44,7 +37,6 @@ Lo strumento Riferimento consente di posizionare nel documento corrente un ogget
 -   Quando si disattiva la proprietà vista **Update Colors** del Riferimento, non si ricaricano più i colori originali, quindi è possibile cambiarli in modo sicuro.
 
 
-</div>
 
 ## Proprietà
 
@@ -53,6 +45,8 @@ Lo strumento Riferimento consente di posizionare nel documento corrente un ogget
 -    **Part**: la parte da utilizzare dal file di base
 
 -    **Update Colors**: se è true, i colori del file collegato vengono aggiornati
+
+
 
 ## Script
 
@@ -68,15 +62,6 @@ Esempio:
 import Arch
 Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

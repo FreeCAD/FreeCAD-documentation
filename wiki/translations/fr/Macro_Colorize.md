@@ -4,8 +4,8 @@
 |Icon=Workbench_Image.svg
 |Description=Définissez rapidement et facilement la couleur et la transparence des faces, arêtes et sommets individuels.
 |Author=TheMarkster
-|Version=1.02
-|Date=2021-12-12
+|Version=1.03
+|Date=2023-10-07
 |FCVersion=Python3
 |Download=[https://wiki.freecadweb.org/images/d/de/Workbench_Image.svg Icône de la barre d'outils]
 }}
@@ -13,6 +13,8 @@
 ## Description
 
 Cette macro permet de définir rapidement et facilement la couleur et la transparence des faces, arêtes et sommets individuellement.
+
+
 
 ## Utilisation
 
@@ -25,6 +27,8 @@ Cette macro permet de définir rapidement et facilement la couleur et la transpa
     -   Appuyez sur le bouton **OK** pour fermer la boîte de dialogue et appliquer la couleur et la transparence.
     -   Appuyez sur le bouton **Cancel** pour annuler la macro.
 7.  Si vous avez appuyé sur le bouton **OK** et que les sous-objets appartiennent à plusieurs objets, la boîte de dialogue de couleur s\'ouvrira à nouveau pour l\'objet suivant.
+
+
 
 ## Remarques
 
@@ -53,8 +57,8 @@ Icône de la barre d\'outils ![](images/Workbench_Image.svg )
 # 0 = no transparency, 255 = full transparency
 # first 2 custom colors are the default gray and black
 # used for faces and edges/points
-
-__version__ = "1.02"
+__icon__ = "https://wiki.freecad.org/images/d/de/Workbench_Image.svg"
+__version__ = "1.03"
 from PySide import QtGui,QtCore
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)

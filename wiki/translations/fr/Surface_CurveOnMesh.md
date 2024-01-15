@@ -26,7 +26,7 @@ Ces arêtes créées par dessus le maillage peuvent être utilisées pour recré
 
 
 
-*En haut à gauche: objet maillé avec des points sélectionnés sur la surface.<br/>En haut à droite: splines créées en sélectionnant plusieurs points sur le maillage.<br/>En bas à gauche: une surface paramétrique reconstruite à partir des splines approximées en utilisant [Surface Sections](Surface_Sections/fr.md).*
+*En haut à gauche : objet maillé avec des points sélectionnés sur la surface.<br/>En haut à droite : splines créées en sélectionnant plusieurs points sur le maillage.<br/>En bas à gauche : une surface paramétrique reconstruite à partir des splines approximées en utilisant [Surface Sections](Surface_Sections/fr.md).*
 
 
 
@@ -52,7 +52,7 @@ Après avoir appuyé sur **Start**, le menu contextuel (clic droit) dans la [vue
 ## Options
 
 
-**(Editeur : ces informations doivent être vérifiées)**
+**(Éditeur : ces informations doivent être vérifiées)**
 
 Section **Wire** :
 

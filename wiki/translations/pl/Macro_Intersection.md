@@ -4,8 +4,8 @@
 |Icon=Intersection_Icon.svg
 |Description=Finds the intersection between 2 or 3 selected edges / faces. 
 |Author=TheMarkster
-|Version=2022.02.26
-|Date=2022-02-26
+|Version=2023.09.09
+|Date=2022-09-09
 |FCVersion=0.19 or later
 |Download=[https://wiki.freecadweb.org/images/e/e7/Intersection_Icon.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/intersection Full Documentation on Github]
@@ -25,7 +25,7 @@ Select two or three edges, faces, Datum Planes or Datum Lines in the [3D view](3
 ### Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/97932f2a922d9d04659783c01988ad900f1ace75/Intersection.FCMacro|Intersection.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/acf6d419ee0d3b5636ea82221846d758/raw/bca57dcdaeffff6de6a86a12fb1c45eeda4b506b/Intersection.FCMacro|Intersection.FCMacro}}
 
 ToolBar Icon ![](images/Intersection_Icon.svg )
 

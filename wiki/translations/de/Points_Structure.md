@@ -22,7 +22,9 @@ Der Befehl funktioniert nur für Punktwolken, deren Punkte, aus einer bestimmten
 
 1.  Der Befehl geht davon aus, dass die Blickrichtung der Punktwolke parallel zur Z-Achse des globalen Koordinatensystems ist. Wenn dies nicht der Fall ist: Die {{PropertyData/de|Placement}} des Punktwolkenobjekts entsprechend anpassen.
 2.  Das Punktwolkenobjekt auswählen.
-3.  den Menüeintrag **Punkte → Strukturierte Punktwolke** auswählen.
+3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Points_Structure.svg" width=16px> [Strukturierte Punktwolke](Points_Structure/de.md)** drücken.
+    -   Den Menüeintrag **Punkte → <img src="images/Points_Structure.svg" width=16px> Strukturierte Punktwolke** auswählen.
 
 
 

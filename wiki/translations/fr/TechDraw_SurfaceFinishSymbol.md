@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw SurfaceFinishSymbol
    Name/fr: TechDraw Symbole d'état de surface
-   MenuLocation: TechDraw , Ajouter un symbole d'état de surface
+   MenuLocation: TechDraw , Symboles , Créer un symbole de finition de surface
    Workbenches: TechDraw_Workbench/fr
    Version: 0.21
 ---
 
 # TechDraw SurfaceFinishSymbol/fr
-
-
-</div>
 
 ## Description
 
@@ -26,20 +23,16 @@ L\'outil **TechDraw Symbole d\'état de surface** ajoute un symbole de finition 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Sélectionnez une vue existante.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_SurfaceFinishSymbol.svg" width=16px> [Ajouter un symbole d'état de surface](TechDraw_SurfaceFinishSymbol/fr.md)**.
-3.  Un panneau de tâches s\'ouvre. Il permet de définir les symboles de finition de surface et le texte d\'accompagnement à ajouter à la page.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_SurfaceFinishSymbol.svg" width=16px> [Créer un symbole de finition de surface](TechDraw_SurfaceFinishSymbol/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Symboles → <img src="images/TechDraw_SurfaceFinishSymbol.svg" width=16px> Créer un symbole de finition de surface** dans le menu.
+3.  Un panneau de tâches s\'ouvre.
 4.  Spécifiez le symbole requis en cliquant sur l\'un des 6 boutons de symbole.
-5.  Vous pouvez également modifier l\'angle du symbole **Symbole**.
+5.  Vous pouvez modifier l\'**angle du symbole**.
 6.  Sélectionnez le style **ISO** ou **ASME**.
-7.  Sélectionnez ou saisissez les attributs requis.
+7.  Sélectionnez et/ou entrez les attributs requis.
 8.  Appuyez sur le bouton **OK**.
-
-
-</div>
 
 
 

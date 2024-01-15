@@ -11,21 +11,29 @@
 
 # Arch Pipe/de
 
+
+
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objekten zu erstellen. Die ausgewählten Objekte müssen Teilbasiert sein (Entwurf, Skizze, etc\...) und einen und nur einen offenen Draht enthalten.
+Dieses Werkzeug ermöglicht Rohre von Grund auf oder aus ausgewählten Objekten zu erstellen. Die ausgewählten Objekte müssen Part-basiert sein (Draft, Skizze, etc\...) und genau offenen Draht enthalten.
+
+
 
 ## Anwendung
 
-1.  Wähle optional eine lineare [Part](Part_Workbench/de.md) Form wie eine [Draft Line](Draft_Line/de.md), a [Entwurf Draht](Draft_Wire/de.md) oder eine offene [Skizze](Sketcher_NewSketch/de.md).
-2.  Rufe diesen Befehl mit mehreren Methoden auf:
-    -   Drücken der **<img src="images/Arch_Pipe.svg" width=16px> [Arch Rohr](Arch_Pipe/de.md)** Schaltfläche auf der Werkzeugleiste.
-    -   Drücken der **P** dann **I** Tastaturkürzel.
-    -   Drücken der **Arch → Rohrwerkzeuge → Rohr** Eintrag aus dem oberen Menü.
+1.  Wahlweise eine lineare [Part](Part_Workbench/de.md)-Form wie eine [Draft Linie](Draft_Line/de.md), einen [Draft Linienzug](Draft_Wire/de.md) oder eine offene [Skizze](Sketcher_NewSketch/de.md).
+2.  Es gibt mehrere Möglichkeiten diesen Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Arch_Pipe.svg" width=16px> [Arch Rohr](Arch_Pipe/de.md)** drücken.
+    -   Das Tastaturkürzel **P** dann **I**.
+    -   Den Menüeintrag **Arch → Rohrwerkzeuge → Rohr** auswählen.
+
+
 
 ## Optionen
 
--   Rohre haben die gemeinsamen Eigenschaften und Verhaltensweisen aller [Arch Komponenten](Arch_Component/de.md) gemeinsam
+-   Rohre haben die gleichen Eigenschaften und verhalten sich wie alle anderen [Arch-Komponenten](Arch_Component/de.md)
+
+
 
 ## Eigenschaften
 
@@ -37,47 +45,37 @@ Dieses Werkzeug ermöglicht es, Rohre von Grund auf oder aus ausgewählten Objek
 
 -    **Profil**: Das Basisprofil dieses Rohres. Wenn nicht angegeben, ist das Rohr zylindrisch.
 
+
+
 ## Typischer Arbeitsablauf 
 
 -   Beginne mit der Platzierung von Sanitär-/Hydraulikgeräten (unten ist eine importierte step datei). Du verwandelst diese Objekte in Arch Ausstattungen, indem du sie auswählst und die Schaltfläche [Arch Ausstattung](Arch_Equipment/de.md) drückst.
 
 ![](images/Arch_pipe_example_01.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Arch Equipments haben jetzt eine neue **FangPunkte** Eigenschaft, bei der es sich um eine Liste von 3D Vektoren handelt. Dies erlaubt dir benutzerdefinierte Fangpunkte hinzuzufügen, an denen du fangen kannst, wenn die neue [Entwurf Spezial](Draft_Snap_Special/de.md) Fang Schaltfläche aktiviert ist. Derzeit ist diese Eigenschaft allerdings nur für Python verfügbar. Im obigen Fall habe ich einen neuen Fangpunkt am Ausgang der WC Anlage hinzugefügt. Die Vektoren innerhalb der FangPunkte erscheinen auf dem Modell als weiße Punkte:
-
-
-</div>
+-   Arch Ausstattungen haben jetzt eine neue Eigenschaft **SnapPoints** (Einrastpunkte), bei der es sich um eine Liste von 3D-Vektoren handelt. Dies ermöglicht benutzerdefinierte Einrastpunkte hinzuzufügen, an denen eingerastet werden kann, wenn die neue Schaltfläche [Draft EinrastenSpezial](Draft_Snap_Special/de.md) aktiviert ist. Derzeit ist diese Eigenschaft allerdings nur für Python verfügbar. Im obigen Fall habe ich einen neuen Fangpunkt am Ausgang der WC-Anlage hinzugefügt. Die Vektoren innerhalb der FangPunkte erscheinen auf dem Modell als weiße Punkte:
 
 FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_02.jpg )
 
--   Mit dem neuen [\"Fang Spezial\"](Draft_Snap_Special/de.md) Entwurfsfang kannst du nun diese benutzerdefinierten Punkte fangen:
+-   Mit der neuen Draft-Einrastfunktion [\"EinrastenSpezial\"](Draft_Snap_Special/de.md) kann nun auf diese benutzerdefinierten Punkte eingerastet werden:
 
 ![](images/Arch_pipe_example_03.jpg )
 
--   Jetzt können wir unsere Rohrleitungen mit Hilfe von Entwurfslinien, Entwurfsdrähten oder Skizzen zeichnen. Am besten ist es jedoch, wenn wir nur Entwurfslinien verwenden:
+-   Jetzt können wir unsere Rohrleitungen mit Hilfe von Draft-Linien, Draft-Linienzüge oder Skizzen zeichnen. Am besten ist es jedoch, wenn wir nur Draft-Linien verwenden:
 
 ![](images/Arch_pipe_example_04.jpg )
 
-
-<div class="mw-translate-fuzzy">
-
--   Dort ist jetzt ein neues [Entwurf Neigungs](Draft_Slope/de.md) Werkzeug , mit dem die Neigung von Entwurfslinien geändert werden kann, z.B. auf 5% (0,05). So können wir unseren Abfalllinien schnell eine korrekte Neigung geben. Nur die z Koordinaten werden durch dieses Werkzeug geändert, wir brauchen sie also nur wieder aneinander zu fangen, die obere Projektion bleibt unverändert.
-
-
-</div>
+-   Dort gibt es jetzt ein neues Werkzeug [Draft Neigung](Draft_Slope/de.md), mit dem die Neigung von Draft-Linien geändert werden kann, z.B. auf 5% (0,05). So können wir unseren Abflussrohren schnell eine korrekte Neigung geben. Nur die Z-Koordinaten werden durch dieses Werkzeug geändert, wir brauchen sie also nur wieder aneinander einzurasten, die Draufsicht bleibt unverändert.
 
 ![](images/Arch_pipe_example_05.jpg )
 
--   Jetzt müssen wir nur noch alle unsere Linien auswählen und die [Arch Rohr](Arch_Pipe/de.md) Schaltfläche drücken. Arch Rohr funktioniert mit jedem Teil-basierten Objekt, das einen und nur einen offenen Draht enthält.
+-   Jetzt müssen wir nur noch alle unsere Linien auswählen und die Schaltfläche [Arch Rohr](Arch_Pipe/de.md) drücken. Arch Rohr funktioniert mit jedem Part-basierten Objekt, das einen und nur einen offenen Linienzug enthält.
 
 ![](images/Arch_pipe_example_06.jpg )
 
--   Wir können jetzt Verbindungen erstellen, indem wir 2 oder 3 deckungsgleiche Rohre auswählen und die [Rohr Verbinder](Arch_PipeConnector/de.md) Schaltfläche drücken. Wenn 3 Rohre ausgewählt werden, müssen zwei davon ausgerichtet sein, um ein T Element zu erzeugen:
+-   Wir können jetzt Verbindungen erstellen, indem wir 2 oder 3 deckungsgleiche Rohre auswählen und die Schaltfläche [Rohrverbinder](Arch_PipeConnector/de.md) drücken. Wenn 3 Rohre ausgewählt werden, müssen zwei davon kollinear ausgerichtet sein, um ein T-Element zu erzeugen:
 
 ![](images/Arch_pipe_example_07.jpg )
 
@@ -85,10 +83,7 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 Es ist auch möglich, Arch Rohre ohne Grundlinie zu erstellen. In diesem Fall verwende die Eigenschaft \"Länge\", um die Länge zu definieren.
 
-## Scripting
 
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -97,18 +92,7 @@ Es ist auch möglich, Arch Rohre ohne Grundlinie zu erstellen. In diesem Fall ve
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Rohr Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Das Werkzeug Rohr kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit der folgenden Funktion verwendet werden: 
 ```python
 Pipe = makePipe(baseobj=None, diameter=0, length=0, placement=None, name="Pipe")
 ```

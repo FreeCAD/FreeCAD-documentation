@@ -2,7 +2,7 @@
  GuiCommand:
    Name: FEM ConstraintPlaneRotation
    Name/pl: MES: Zdefiniuj obrót w płaszczyźnie
-   MenuLocation: Model , Wiązania geometryczne , Zdefiniuj obrót w płaszczyźnie
+   MenuLocation: Model , Funkcje analizy geometrycznej , Zdefiniuj obrót w płaszczyźnie
    Workbenches: FEM_Workbench/pl
    SeeAlso: FEM_ConstraintTransform/pl
 ---
@@ -13,29 +13,29 @@
 
 ## Opis
 
-Tworzy wiązanie metodą elementów skończonych, aby węzły na powierzchni płaskiej znajdowały się w tej samej płaszczyźnie.
+Tworzy wiązanie wielopunktowe *(MPC)* w celu utrzymania węzłów leżących na płaskiej powierzchni na tej samej płaszczyźnie.
 
 
 
 ## Użycie
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Zdefiniuj obrót w płaszczyźnie'''** na pasku narzędzi.
-    -   Wybierz opcję z menu **Model → Wiązania geometryczne → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Zdefiniuj obrót w płaszczyźnie**.
-2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie, może to być ściana.
+    -   Naciśnij przycisk **<img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> '''Wiązanie MPC typu płaszczyzna'''** na pasku narzędzi.
+    -   Wybierz opcję z menu **Model → Funkcje analizy geometrycznej → <img src="images/FEM_ConstraintPlaneRotation.svg" width=16px> Wiązanie MPC typu płaszczyzna**.
+2.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być zastosowane wiązanie wielopunktowe, może to być ściana.
 
 
 
 ## Ograniczenia
 
-1.  Wiązanie obrotu w płaszczyźnie może być zastosowane tylko do jednej ściany płaskiej.
-2.  Jeśli wiązanie obrotu w płaszczyźnie zostanie zastosowane do tej samej ściany co wiązanie przemieszczenia / stałości, pierwszeństwo ma wiązanie przemieszczenia /stałości.
+1.  Wiązanie wielopunktowe w płaszczyźnie może być zastosowane tylko do jednej ściany płaskiej.
+2.  Jeśli wiązanie wielopunktowe w płaszczyźnie zostanie zastosowane do tej samej ściany co wiązanie przemieszczenia / stały warunek brzegowy, pierwszeństwo ma wiązanie przemieszczenia / stały warunek brzegowy.
 
 
 
 ## Uwagi
 
-1.  Wiązanie to wykorzystuje kartę \*MPC w programie CalculiX. Karta ta jest szczegółowo opisana na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
+1.  Wiązanie to wykorzystuje słowo kluczowe \*MPC w CalculiX. Jest to szczegółowo opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node220.html>
 
 
 

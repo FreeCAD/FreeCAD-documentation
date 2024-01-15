@@ -51,7 +51,13 @@ Bu, [FreeCAD\'in](https://www.freecadweb.org/?lang=tr) belgelendirme wiki\'sidir
 
 ## İçindekiler
 
+
+<div class="mw-translate-fuzzy">
+
 Aşağıdaki tabloda, bu wiki\'nin FreeCAD uygulamasıyla birlikte gönderilen çevrimdışı belgelerin belkemiğini oluşturan tüm makaleleri listelenmektedir. Mevcut diller:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

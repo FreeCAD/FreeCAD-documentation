@@ -42,14 +42,6 @@ Vedere le sezioni Limitazione e soluzioni di [Lunghezza](TechDraw_LengthDimensio
 </div>
 
 
-<div class="mw-translate-fuzzy">
-
-La quota da punti di riferimento generalmente si comporta come qualsiasi altra quota
-
-
-</div>
-
-
 
 ## Utilizzo
 
@@ -64,17 +56,25 @@ La quota da punti di riferimento generalmente si comporta come qualsiasi altra q
 
 </div>
 
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
+
 
 
 ## Limitazioni
 
 Lo strumento Quota da punti di riferimento è inizialmente limitato alle dimensioni \"Distanza\". Altri tipi possono essere aggiunti se richiesto.
 
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+
 
 
 ## Proprietà
 
-Quota da punti di riferimento non introduce nuove proprietà.
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 
 
 
@@ -95,12 +95,12 @@ Lo strumento Quota da punti di riferimento può essere utilizzato nelle [macro](
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::LandmarkDimension", "Landmark")
 dim1.Type = "Distance"
-dim1.References2D=[(TDView, 'Vertex1')]
-dim1.References3D=[(Point3d1, 'Vertex1')]
-dim1.References3D=[(Point3d2, 'Vertex1')]
-rc = page.addView(dim1)
+dim1.References2D = [(TDView, "Vertex1")]
+dim1.References3D = [(Point3d1, "Vertex1")]
+dim1.References3D = [(Point3d2, "Vertex1")]
+page.addView(dim1)
 ```
 
 

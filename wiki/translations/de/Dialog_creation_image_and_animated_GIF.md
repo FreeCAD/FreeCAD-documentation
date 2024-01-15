@@ -1,9 +1,11 @@
 # Dialog creation image and animated GIF/de
-## Einführung
+## Einleitung
 
 Dies ist ein Beispiel für [Dialogerstellung](Dialog_creation/de.md) mit [PySide](PySide/de.md).
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies für kleine Oberflächen möglich ist, wird für größere Oberflächen empfohlen, **.ui** Dateien mit Qt Designer zu erstellen und diese in das Programm zu laden.
+
+
 
 ## Dialog mit Bild (QLabel) und animiertem GIF (QMovie) 
 

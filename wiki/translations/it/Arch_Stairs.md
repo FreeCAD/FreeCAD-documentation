@@ -1,200 +1,149 @@
 ---
  GuiCommand:
-   Name: Arch_Stairs
+   Name: Arch Stairs
    Name/it: Scala
-   Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Scala
+   Workbenches: Arch_Workbench/it
    Shortcut: **S** **R**
-   SeeAlso: Arch Structure/it, Arch Equipment/it
    Version: 0.14
+   SeeAlso: Arch_Structure/it, Arch_Equipment/it
 ---
 
 # Arch Stairs/it
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
-Lo strumento [Scale](Arch_Stairs/it.md) consente di creare automaticamente i diversi tipi di scale. Al momento, sono supportate solo le scale dritte (con o senza pianerottolo) sono supportati. Le scale possono essere costruite da zero, o da una [linea](Draft_Line/it.md) dritta, nel qual caso le scale seguono la linea. Se la linea non è orizzontale, ma è inclinata verticalmente, anche le scale seguono la sua pendenza.
+Lo strumento [Scale](Arch_Stairs/it.md) consente di creare automaticamente i diversi tipi di scale. Al momento, sono supportate solo le scale dritte (con o senza pianerottolo). Le scale possono essere costruite da zero, o da una [linea](Draft_Line/it.md) dritta, nel qual caso le scale seguono la linea. Se la linea non è orizzontale, ma è inclinata verticalmente, anche le scale seguono la sua pendenza.
 
+Vedere in [Stairs entry in wikipedia](https://en.wikipedia.org/wiki/Stairs) la definizione dei diversi termini usati per descrivere le parti delle scale.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la definizione dei diversi termini usati per descrivere le parti delle scale.
-
-
-</div>
-
-<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Due scale, uno con una struttura massiccia e un pianerottolo, e un'altra con un solo montante.*
-
-
-</div>
+<img alt="" src=images/Arch_Stairs_example.jpg  style="width:600px;"> 
+*Due scale, uno con una struttura massiccia e un pianerottolo, e l'altra con un solo montante.*
 
 
 
 ## Opzioni
 
-
-<div class="mw-translate-fuzzy">
-
 -   Gli elementi Scala condividono le proprietà e i comportamenti comuni di tutti i [Componenti Arch](Arch_Component/it.md)
 
 
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
--   Premere il pulsante **<img src="images/Arch_Stairs.svg" width=16px> [Scala](Arch_Stairs/it.md)**, oppure i tasti **S**, **R**.
-
-1.  Adeguare le proprietà desiderate. Alcune parti delle scale potrebbero non apparire immediatamente se una qualsiasi delle proprietà lo rende impossibile. Ad esempio, potrebbe non apparire la struttura se il suo spessore è impostato pari a 0.
-
-
-</div>
+1.  Facoltativamente selezionare uno o più oggetti base, ad esempio [Linee di Draft](Draft_Line/it.md) e [Polilinea di Draft](Draft_Wire/it.md):
+    -   Per creare i pianerottoli verranno utilizzate polilinee con due o più segmenti. Devono trovarsi su un piano parallelo al piano XY globale. Ad esempio, selezionare una polilinea a forma di U per un pianerottolo a mezzo giro e una polilinea a forma di L per un pianerottolo d\'angolo.
+    -   Le linee di bozza verranno utilizzate per creare le rampe.
+    -   Se i vertici di tutte le linee e polilinee hanno coordinate Z corrette, le scale create utilizzeranno queste informazioni.
+    -   Gli oggetti di base devono essere selezionati nell\'ordine corretto iniziando dall\'oggetto in basso.
+2.  Premere il pulsante **<img src="images/Arch_Stairs.svg" width=16px> [Scala](Arch_Stairs/it.md)**, oppure premere i tasti **S**, **R**.
+3.  Impostare le proprietà desiderate. Alcune parti delle scale, come la struttura, potrebbero non essere visualizzate immediatamente se una qualsiasi delle proprietà lo rende impossibile, ad esempio uno spessore della struttura pari a 0.
 
 <img alt="" src=images/Arch_Stairs_Complex_Example.png  style="width:600px;"> 
-*Complex stairs based on a selection of lines and wired as shown on the left.<br>
-In red the wires used for the landings at Z&equals;1500mm, Z&equals;3000mm and Z&equals;4500mm.<br>
-In black the lines connecting them used for the flights.
-*
+*Scale complesse basate su una selezione di linee e collegate come mostrato a sinistra.<br>
+In rosso i cavi utilizzati per gli atterraggi a Z=1500mm, Z=3000mm e Z=4500mm.<br>
+In nero le linee che li collegano utilizzate per le rampe.*
 
 
 
 ## Proprietà
 
-![](images/StairsProperties_it.png )
 
-### Data
+
+### Dati
 
 
 {{TitleProperty|Segment and Parts}}
 
--    **Abs Top|Vector**: (read-only) The absolute top level the stairs lead to.
+-    **Abs Top|Vector**: (sola lettura) Il livello più alto assoluto a cui conducono le scale.
 
--    **Last Segment|Link**: Last segment (flight or landing) of an Arch Stairs connecting to this segment. The start level of the stairs will be the end level of this last segment.
+-    **Last Segment|Link**: Ultimo tratto (rampa o pianerottolo) di una scala ad arco che si collega a questo tratto. Il livello iniziale delle scale sarà il livello finale di quest\'ultimo tratto.
 
--    **Outline Left|VectorList**: The left outline of the stairs.
+-    **Outline Left|VectorList**: Il profilo sinistro delle scale.
 
--    **Outline Left All|VectorList**: The left outline of all segments of the stairs.
+-    **Outline Left All|VectorList**: Il profilo sinistro di tutti i segmenti delle scale.
 
--    **Outline Right|VectorList**: The right outline of the stairs.
+-    **Outline Right|VectorList**: Il profilo destro delle scale.
 
--    **Outline Right All|VectorList**: The right outline of all segments of the stairs.
+-    **Outline Right All|VectorList**: Il profilo destro di tutti i segmenti delle scale.
 
--    **Railing Height Left|Length**: Height of the left railing of the stairs or landing.
+-    **Railing Height Left|Length**: Altezza della ringhiera sinistra della scala o del pianerottolo.
 
--    **Railing Height Right|Length**: Height of the right railing of the stairs or landing.
+-    **Railing Height Right|Length**: Altezza della ringhiera destra della scala o del pianerottolo.
 
--    **Railing Left|LinkHidden**: The left railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
+-    **Railing Left|LinkHidden**: L\'oggetto ringhiera sinistra. {{Version/it|0.20}}: tipo di proprietà aggiornato da {{Incode|String}} a {{Incode|LinkHidden}}.
 
--    **Railing Offset Left|Length**: Offset of the left railing from the edge of the stairs or landing.
+-    **Railing Offset Left|Length**: Scostamento della ringhiera sinistra dal bordo della scala o del pianerottolo.
 
--    **Railing Offset Right|Length**: Offset of the right railing from the edge of the stairs or landing.
+-    **Railing Offset Right|Length**: Scostamento della ringhiera destra dal bordo delle scale o del pianerottolo.
 
--    **Railing Right|LinkHidden**: The right railing object. <small>(v0.20)</small> : Property type updated from {{Incode|String}} to {{Incode|LinkHidden}}.
+-    **Railing Right|LinkHidden**: L\'oggetto ringhiera destra. {{Version/it|0.20}}: tipo di proprietà aggiornato da {{Incode|String}} a {{Incode|LinkHidden}}.
 
 
 {{TitleProperty|Stairs}}
 
+-    **Align|Enumeration**: L\'allineamento delle scale sulla linea di base. Utilizzato solo se è definita una linea di base. Può essere {{value|Left}}, {{value|Right}} o {{value|Center}}.
 
-<div class="mw-translate-fuzzy">
+-    **Height|Length**: L\'altezza totale delle scale. Utilizzato solo se non è definita alcuna linea di base o se la linea di base è orizzontale. Ignorato se **Riser Height Enforce** è diverso da zero.
 
--    {{ProprietaDati|Align}}: L\'allineamento delle scale sulla loro linea base, se applicabile.
+-    **Length|Length**: La lunghezza totale delle scale se non è definita alcuna linea base. Ignorato se **Tread Depth Enforce** è diverso da zero.
 
--    {{ProprietaDati|Base}}: La linea base delle scale, se presente.
+-    **Width|Length**: La larghezza delle scale.
 
--    {{ProprietaDati|Height}}: Interpiano. L\'altezza totale delle scale, se non sono basate su una linea base o se la linea base è orizzontale.
-
--    {{ProprietaDati|Length}}: La lunghezza totale delle scale se non è definita una linea base.
-
--    {{ProprietaDati|Width}}: La larghezza della scala
+-    **Width of Landing|FloatList**: Se **Number Of Steps** è 1, l\'oggetto scala funge da pianerottolo. Quando questo è il caso e la linea di base è multisegmento, la larghezza del primo segmento del pianerottolo segue **Width**, le larghezze dei segmenti successivi seguono l\'elenco qui impostato.
 
 
-**Base**
+{{TitleProperty|Steps}}
 
--    {{ProprietaDati|Label}}: nome
+-    **Blondel Ratio|Float**: (sola lettura) Il calcolo del rapporto Blondel. Questo rapporto indica scale comode e dovrebbe essere compreso tra 62 e 64 cm o 24,5 e 25,5 pollici.
 
--    {{ProprietaDati|Placement}}: [posizionamento](Placement/it.md) del punto base della scala (angolo anteriore sinistro del primo scalino)
+-    **Landing Depth|Length**: La profondità del pianerottolo della rampa, se abilitato in **Landings**. Il valore predefinito va a **Width** se impostato a 0.
 
+-    **Nosing|Length**: La dimensione del paragradino.
 
-</div>
+-    **Number Of Steps|Integer**: Il numero di gradini (alzate). Devono essere almeno 2 per una rampa unica, e almeno 4 per una scala con pianerottolo centrale.
 
+-    **Riser Height|Length**: (sola lettura) L\'altezza delle alzate. Se **Riser Height Enforce** è 0 viene calcolato (**Height** / **Number of Steps**). Altrimenti è uguale a **Riser Height Enforce**.
 
-<div class="mw-translate-fuzzy">
+-    **Riser Height Enforce|Length**: L\'altezza imposta alle alzate.
 
+-    **Riser Thickness|Length**: Lo spessore dei montanti.
 
-**Steps**
+-    **Tread Depth|Length**: (sola lettura) La profondità dei gradini. Se **Tread Depth Enforce** è 0 viene calcolato (**Length** / **Number of Steps**). Altrimenti è uguale a **Tread Depth Enforce**.
 
+-    **Tread Depth Enforce|Length**: La profondità imposta ai gradini.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Nosing}}: lunghezza di sovrapposizione degli scalini
-
--    {{ProprietaDati|Number of risers}}: numero di scalini, numero di alzate
-
--    {{ProprietaDati|Riser Height}}: alzata, altezza del gradino
-
--    {{ProprietaDati|Tread Depth}}: pedata, larghezza del gradino
-
--    {{ProprietaDati|Tread Thickness}}: spessore degli scalini (aggiunto verso il basso)
+-    **Tread Thickness|Length**: Lo spessore dei gradini.
 
 
-</div>
+{{TitleProperty|Structure}}
+
+-    **Connection Down Start Stairs|Enumeration**: Il tipo di collegamento tra il solaio del piano inferiore e l\'inizio delle scale. Può essere {{value|HorizontalCut}}, {{value|VerticalCut}} o {{value|HorizontalVerticalCut}}.
+
+-    **Connection End Stairs Up|Enumeration**: Il tipo di collegamento tra l\'estremità delle scale e il solaio del piano superiore. Può essere {{value|toFlightThickness}} o {{value|toSlabThickness}}.
+
+-    **Down Slab Thickness|Length**: Lo spessore della soletta del piano inferiore.
+
+-    **Flight|Enumeration**: La direzione della rampa dopo il pianerottolo. Può essere {{value|Straight}}, {{value|HalfTurnLeft}} o {{value|HalfTurnRight}}.
+
+-    **Landings|Enumeration**: Il tipo di pianerottoli. Può essere {{value|None}} o {{value|At center}} ({{value|At each corner}} non ancora implementato).
+
+-    **Stringer Overlap|Length**: La sovrapposizione dei traversi nella parte inferiore dei gradini.
+
+-    **Stringer Width|Length**: La larghezza delle traverse.
+
+-    **Structure|Enumeration**: Il tipo di struttura delle scale. Può essere{{value|None}}, {{value|Massive}}, {{value|One stringer}} o {{value|Two stringers}}.
+
+-    **Structure Offset|Length**: distanza tra il bordo degli scalini e la struttura di sostegno.
+
+-    **Structure Thickness|Length**: Lo spessore della struttura.
+
+-    **Up Slab Thickness|Length**: Lo spessore della soletta del piano superiore.
+
+-    **Winders|Enumeration**: Il tipo di gradini a ventaglio. Non implementato.
 
 
-<div class="mw-translate-fuzzy">
-
-
-**Structure**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--    {{ProprietaDati|Landigs}}: pianerottoli
-
--    {{ProprietaDati|Stringer Offset}}: distanza tra il bordo degli scalini e la struttura di sostegno
-
--    {{ProprietaDati|Stringer Width}}: larghezza della struttura di sostegno
-
--    {{ProprietaDati|Structure}}: tipo di struttura della scala
-
--    {{ProprietaDati|Structure...}}: dimensione per la struttura massiccia, piena
-
--    {{ProprietaDati|Winders}}: gradini a ventaglio
-
-
-</div>
-
-## Limitations
-
-
-<div class="mw-translate-fuzzy">
 
 ## Limitazioni
 
@@ -203,32 +152,15 @@ In black the lines connecting them used for the flights.
 -   Per seguire l\'evoluzione dello strumento consultare la pagina [Arch Stairs](http://forum.freecadweb.org/viewtopic.php?f=9&t=4564) nel forum
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le Scale possono essere create con le [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Le Scale possono essere create con le [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Stairs = makeStairs(baseobj=None, length=None, width=None, height=None, steps=None, name="Stairs")
 ```
@@ -242,15 +174,6 @@ import Arch
 
 Stairs = Arch.makeStairs(length=5000, width=1200, height=3000, steps=14)
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

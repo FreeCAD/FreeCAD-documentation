@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch CompPanel
-   Name/de: Arch BildePaneel
-   MenuLocation: Arch , Paneel
+   Name/de: Arch AuswahlPlatte
+   MenuLocation: Arch , Plattenwerkzeuge
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    SeeAlso: 
    Version: 0.17
@@ -11,21 +11,22 @@
 # Arch CompPanel/de
 
 
-</div>
 
 ## Beschreibung
 
-Gruppierung mehrerer Paneel bezogener Werkzeuge.
+Gruppierung mehrerer Werkzeuge im Zusammenhang mit Platten(-werkstücken).
+
+
 
 ## Typen
 
--   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Panel](Arch_Panel.md): Creates a panel object from a selected 2D object.
+-   <img alt="" src=images/Arch_Panel.svg  style="width:32px;"> [Platte](Arch_Panel/de.md): Erstellt ein Plattenobjekt aus einem ausgewählten 2D-Objekt.
 
--   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Panel Cut](Arch_Panel_Cut.md): Creates a 2D cut view from a panel.
+-   <img alt="" src=images/Arch_Panel_Cut.svg  style="width:32px;"> [Plattenzuschnitt](Arch_Panel_Cut/de.md): Erstellt eine 2D-Zuschnittansicht von einer Platte.
 
--   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Panel Sheet](Arch_Panel_Sheet.md): Creates a 2D cut sheet including panel cuts or other 2D objects.
+-   <img alt="" src=images/Arch_Panel_Sheet.svg  style="width:32px;"> [Plattenzeichnung](Arch_Panel_Sheet/de.md): Erstellt eine 2D-Zuschnittzeichnung, die Plattenzuschnitte und andere 2D-Objekte enthält.
 
--   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): Allows to nest several flat objects inside a container shape.
+-   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Verschachteln](Arch_Nest/de.md): Ermöglicht mehrere ebene Objekte in einer Container-Form anzuordnen.
 
 
 

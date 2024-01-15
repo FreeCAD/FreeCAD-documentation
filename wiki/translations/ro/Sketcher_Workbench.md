@@ -279,7 +279,7 @@ Aceste unelte se folosesc la crearea obiectelor.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateArc.png  style="width:48px;"> [Create an arc](Sketcher_CompCreateArc.md): Acesta este un meniu de pictograme/iconițe din bara de instrumente Sketcher care deține următoarele comenzi:
+-   <img alt="" src=images/Sketcher_CreateArc.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create arc:
 
 
 <div class="mw-translate-fuzzy">
@@ -297,7 +297,7 @@ Aceste unelte se folosesc la crearea obiectelor.
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:48px;"> [Create a circle](Sketcher_CompCreateCircle.md): Acesta este un meniu de pictograme din bara de instrumente Sketcher care deține următoarele comenzi:
+-   <img alt="" src=images/Sketcher_CreateCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create circle:
 
 
 <div class="mw-translate-fuzzy">
@@ -315,21 +315,7 @@ Aceste unelte se folosesc la crearea obiectelor.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Crearea unei conice](Sketcher_CompCreateConic.md):
-    -   <img alt="" src=images/Sketcher_CreateEllipse.png  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Desenează o elipsă definită prin punctul central, un punct pe semiaxa majoră și un punct pe semiaxa minoră. <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_CreateEllipse_3points.png  style="width:32px;"> [Ellipse by 3 points](Sketcher_CreateEllipseBy3Points.md): Desenează o elipsă definită de către 2 puncte pe axa majoră și punctul pe semiaxa minoră. <small>(v0.15)</small> 
-    -   <img alt="" src=images/Sketcher_Elliptical_Arc.png  style="width:32px;"> [Arc of ellipse](Sketcher_CreateArcOfEllipse.md):
-
-Desenează un arc de elipsă definită prin punctul central, punctul principal de rază, punctul de plecare și punctul final.<small>(v0.15)</small> 
-
--   -   <img alt="" src=images/Sketcher_Hyperbolic_Arc.png  style="width:32px;"> [Arc of hyperbola](Sketcher_CreateArcOfHyperbola.md): Desenează un arc de hiperbolă. <small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Parabolic_Arc.png  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Desenează un arc de parabolă. <small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_Conics.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create conic:
 
   - <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse by center](Sketcher_CreateEllipseByCenter.md): Draws an ellipse by center point, major radius point and minor radius point.
 
@@ -341,15 +327,7 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
   - <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc of parabola](Sketcher_CreateArcOfParabola.md): Draws an arc of parabola.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Create a B-spline](Sketcher_CompCreateBSpline.md): Acesta este un meniu de pictograme din bara de instrumente Sketcher care deține următoarele comenzi:
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Create B-spline](Sketcher_CreateBSpline.md):Trasează o curbă B-spline definită prin punctele sale de control.<small>(v0.17)</small> 
-    -   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Desenează o curbă B-spline periodică (închisă) definită prin punctele sale de control. <small>(v0.17)</small> 
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> B-spline:
 
   - <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline by control points](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
 
@@ -367,7 +345,7 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangle](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
+-   <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create rectangle:
 
 
 <div class="mw-translate-fuzzy">
@@ -381,13 +359,7 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
   - <img alt="" src=images/Sketcher_CreateOblong.svg  style="width:32px;"> [Rounded rectangle](Sketcher_CreateOblong.md): Draws a rounded rectangle from 2 opposite points. <small>(v0.20)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_CompCreateRegularPolygon.png  style="width:48px;"> [Create regular polygon](Sketcher_CompCreateRegularPolygon.md): Acesta este un meniu de pictograme din bara de instrumente Sketcher care deține următoarele comenzi:
-
-
-</div>
+-   <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create regular polygon:
 
 
 <div class="mw-translate-fuzzy">
@@ -445,6 +417,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
+-   <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create slot:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -453,7 +427,9 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompCreateFillets.png  style="width:48px;"> [Create fillet](Sketcher_CompCreateFillets.md): This is an icon menu in the Sketcher toolbar that holds the following commands:
+  - <img alt="" src=images/Sketcher_CreateArcSlot.svg  style="width:32px;"> [Arc slot](Sketcher_CreateArcSlot.md): TBD. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Create fillet:
 
 
 <div class="mw-translate-fuzzy">
@@ -465,6 +441,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
   - <img alt="" src=images/Sketcher_CreatePointFillet.svg  style="width:32px;"> [Corner-preserving fillet](Sketcher_CreatePointFillet.md): Creates a fillet between two non-parallel lines while preserving their (virtual) intersection.
 
+-   <img alt="" src=images/Sketcher_Trimming.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Edit edge:
+
 
 <div class="mw-translate-fuzzy">
 
@@ -473,6 +451,8 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 </div>
 
+  - <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -480,8 +460,6 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 
 </div>
-
--   <img alt="" src=images/Sketcher_Split.svg  style="width:32px;"> [Split](Sketcher_Split.md): Splits an edge into two while keeping most of the constraints. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -513,17 +491,7 @@ Desenează un arc de elipsă definită prin punctul central, punctul principal d
 
 Constrângerile sunt folosite pentru a defini lungimile, a stabili reguli între elementele de schiță și pentru a bloca schița de-a lungul axelor verticale și orizontale. Unele constrângeri necesită utilizarea [Helper constraints](Sketcher_helper_constraint.md).
 
-#### Geometric constraints 
-
-
-<div class="mw-translate-fuzzy">
-
-#### Constrângeri geometrice 
-
-Aceste constrângeri nu sunt asociate cu date numerice.
-
-
-</div>
+-   <img alt="" src=images/Sketcher_ConstrainCoincidentUnified.svg  style="width:32px;"> [Coincident (unified)](Sketcher_ConstrainCoincidentUnified.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -541,13 +509,9 @@ Aceste constrângeri nu sunt asociate cu date numerice.
 
 </div>
 
+-   <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Constrain horizontally or vertically:
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical.md): Constrâne liniile selectate sau elementele poliliniei la o orientare verticală. Se poate aplică la mai mult de un obiect.
-
-
-</div>
+  - <img alt="" src=images/Sketcher_ConstrainHorVer.svg  style="width:32px;"> [Horizontal/Vertical](Sketcher_ConstrainHorVer.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -555,6 +519,14 @@ Aceste constrângeri nu sunt asociate cu date numerice.
 -   <img alt="" src=images/Constraint_Horizontal.png  style="width:32px;"> [Horizontal](Sketcher_ConstrainHorizontal.md):
 
 Constrânge liniile selectate sau elementele de polilinie la o orientare orizontală reală. Pot fi selectate mai multe obiecte înainte de aplicarea acestei constrângeri.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Constraint_Vertical.png  style="width:32px;"> [Vertical](Sketcher_ConstrainVertical.md): Constrâne liniile selectate sau elementele poliliniei la o orientare verticală. Se poate aplică la mai mult de un obiect.
 
 
 </div>
@@ -609,17 +581,9 @@ Practic permite blocarea unui element geometric în loc cu o singură constrâng
 
 </div>
 
-#### Dimensional constraints 
+-   <img alt="" src=images/Sketcher_Dimension.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Dimensional constraints:
 
-
-<div class="mw-translate-fuzzy">
-
-#### Constrângeri dimensionale 
-
-Acestea sunt constrângeri asociate datelor numerice, pentru care puteți utiliza expresiile [expressions](Expressions.md). Datele pot fi preluate dintr-un [spreadsheet](Spreadsheet_Workbench.md).
-
-
-</div>
+  - <img alt="" src=images/Sketcher_Dimension.svg  style="width:32px;"> [Dimension](Sketcher_Dimension.md): TBD. <small>(v0.22)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -659,8 +623,6 @@ Definește distanța unei linii selectate prin limitarea lungimii acesteia sau d
 
 </div>
 
--   <img alt="" src=images/Sketcher_CompConstrainRadDia.png  style="width:48px;"> [Constrain radius or diameter](Sketcher_CompConstrainRadDia.md): This is an icon menu in the Sketcher constraints toolbar that holds the following commands:
-
 
 <div class="mw-translate-fuzzy">
 
@@ -679,7 +641,7 @@ Definește unghiul interior dintre două linii selectate.
 
   - <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:32px;"> [Auto radius/diameter](Sketcher_ConstrainRadiam.md): Defines the radius of an arc, the diameter of a circle or the weight of a B-spline pole. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
+  - <img alt="" src=images/Sketcher_ConstrainAngle.svg  style="width:32px;"> [Angle](Sketcher_ConstrainAngle.md): Defines the internal angle between two selected lines.
 
 #### Special constraints 
 
@@ -781,6 +743,10 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+-   <img alt="" src=images/Sketcher_Offset.svg  style="width:32px;"> [Offset geometry](Sketcher_Offset.md): Adds an equidistant outline around selected edges. <small>(v0.22)</small> 
+
+-   <img alt="" src=images/Sketcher_Rotate.svg  style="width:32px;"> [Polar transform](Sketcher_Rotate.md): TBD. <small>(v0.22)</small> 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -846,40 +812,6 @@ The following tools can be used the change the effect of constraints:
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/Hide B-spline degree](Sketcher_BSplineDegree.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/Hide B-spline control polygon](Sketcher_BSplinePolygon.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/Hide B-spline curvature comb](Sketcher_BSplineComb.md)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/Hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)
-
-
-</div>
-
--   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)
 
 
@@ -915,9 +847,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_JoinCurves.svg  style="width:32px;"> [Join curves](Sketcher_JoinCurves.md): Joins two curves at selected end points. <small>(v0.21)</small> 
 
-
-
-### Sketcher în spațiul virtual 
+### Sketcher visual 
 
 
 <div class="mw-translate-fuzzy">
@@ -926,6 +856,42 @@ The following tools can be used the change the effect of constraints:
 
 
 </div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineDegree.svg  style="width:32px;"> [Show/Hide B-spline degree](Sketcher_BSplineDegree.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplinePolygon.svg  style="width:32px;"> [Show/Hide B-spline control polygon](Sketcher_BSplinePolygon.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineComb.svg  style="width:32px;"> [Show/Hide B-spline curvature comb](Sketcher_BSplineComb.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Sketcher_BSplineKnotMultiplicity.svg  style="width:32px;"> [Show/Hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)
+
+
+</div>
+
+-   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md): Shows or hides the display of the weights for the control points of a B-spline.
+
+-   <img alt="" src=images/Sketcher_ArcOverlay.svg  style="width:32px;"> [Show/hide circular helper for arcs](Sketcher_ArcOverlay.md): TBD. <small>(v0.22)</small> 
 
 ### Obsolete tools 
 

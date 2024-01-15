@@ -26,21 +26,22 @@ Cette page liste les ateliers externes complémentaires (addons) qui disposent d
 | [Plot Labels/fr](Plot_Labels/fr.md) | [Plot Legend/fr](Plot_Legend/fr.md) | [Plot MultiAxes tutorial/fr](Plot_MultiAxes_tutorial/fr.md) |
 | [Plot Positions/fr](Plot_Positions/fr.md) | [Plot Save/fr](Plot_Save/fr.md) | [Plot Series/fr](Plot_Series/fr.md) |
 | [Plot Workbench/fr](Plot_Workbench/fr.md) | [POV-Ray-Rendering Workbench/fr](POV-Ray-Rendering_Workbench/fr.md) | [Pyramids and polyhedrons Workbench/fr](Pyramids_and_polyhedrons_Workbench/fr.md) |
-| [Pyrate Workbench/fr](Pyrate_Workbench/fr.md) | [Reinforcement Workbench/fr](Reinforcement_Workbench/fr.md) | [Rocket BodyTube/fr](Rocket_BodyTube/fr.md) |
-| [Rocket Bulkhead/fr](Rocket_Bulkhead/fr.md) | [Rocket CenteringRing/fr](Rocket_CenteringRing/fr.md) | [Rocket CompLaunchGuide/fr](Rocket_CompLaunchGuide/fr.md) |
-| [Rocket Ejection Charge Calculator/fr](Rocket_Ejection_Charge_Calculator/fr.md) | [Rocket Fin/fr](Rocket_Fin/fr.md) | [Rocket FinCan/fr](Rocket_FinCan/fr.md) |
-| [Rocket LaunchLug/fr](Rocket_LaunchLug/fr.md) | [Rocket NoseCone/fr](Rocket_NoseCone/fr.md) | [Rocket Parachute Size Calculator/fr](Rocket_Parachute_Size_Calculator/fr.md) |
-| [Rocket RailButton/fr](Rocket_RailButton/fr.md) | [Rocket RailGuide/fr](Rocket_RailGuide/fr.md) | [Rocket Thrust To Weight Calculator/fr](Rocket_Thrust_To_Weight_Calculator/fr.md) |
-| [Rocket Transition/fr](Rocket_Transition/fr.md) | [Rocket Vent Hole Size Calculator/fr](Rocket_Vent_Hole_Size_Calculator/fr.md) | [Rocket Workbench/fr](Rocket_Workbench/fr.md) |
-| [SearchBar Mod/fr](SearchBar_Mod/fr.md) | [SheetMetal AddBase/fr](SheetMetal_AddBase/fr.md) | [SheetMetal AddBend/fr](SheetMetal_AddBend/fr.md) |
-| [SheetMetal AddCornerRelief/fr](SheetMetal_AddCornerRelief/fr.md) | [SheetMetal AddFoldWall/fr](SheetMetal_AddFoldWall/fr.md) | [SheetMetal AddJunction/fr](SheetMetal_AddJunction/fr.md) |
-| [SheetMetal AddRelief/fr](SheetMetal_AddRelief/fr.md) | [SheetMetal AddWall/fr](SheetMetal_AddWall/fr.md) | [SheetMetal Examples/fr](SheetMetal_Examples/fr.md) |
-| [SheetMetal Extrude/fr](SheetMetal_Extrude/fr.md) | [SheetMetal Forming/fr](SheetMetal_Forming/fr.md) | [SheetMetal SketchOnSheet/fr](SheetMetal_SketchOnSheet/fr.md) |
-| [SheetMetal UnattendedUnfold/fr](SheetMetal_UnattendedUnfold/fr.md) | [SheetMetal Unfold/fr](SheetMetal_Unfold/fr.md) | [SheetMetal Workbench/fr](SheetMetal_Workbench/fr.md) |
-| [Ship Workbench/fr](Ship_Workbench/fr.md) | [Silk Workbench/fr](Silk_Workbench/fr.md) | [Stemfie Workbench/fr](Stemfie_Workbench/fr.md) |
-| [Symbols Library Workbench/fr](Symbols_Library_Workbench/fr.md) | [ThreadProfile Workbench/fr](ThreadProfile_Workbench/fr.md) | [Timber Workbench/fr](Timber_Workbench/fr.md) |
-| [WebTools Workbench/fr](WebTools_Workbench/fr.md) | [Wood Frame Workbench/fr](Wood_Frame_Workbench/fr.md) | [Workfeature Workbench/fr](Workfeature_Workbench/fr.md) |
-| [Category:External Workbenches/fr](Category_External_Workbenches/fr.md) | [Category:FCGear/fr](Category_FCGear/fr.md) |
+| [Pyrate Workbench/fr](Pyrate_Workbench/fr.md) | [Reinforcement Workbench/fr](Reinforcement_Workbench/fr.md) | [Render Workbench/fr](Render_Workbench/fr.md) |
+| [Rocket BodyTube/fr](Rocket_BodyTube/fr.md) | [Rocket Bulkhead/fr](Rocket_Bulkhead/fr.md) | [Rocket CenteringRing/fr](Rocket_CenteringRing/fr.md) |
+| [Rocket CompLaunchGuide/fr](Rocket_CompLaunchGuide/fr.md) | [Rocket Ejection Charge Calculator/fr](Rocket_Ejection_Charge_Calculator/fr.md) | [Rocket Fin/fr](Rocket_Fin/fr.md) |
+| [Rocket FinCan/fr](Rocket_FinCan/fr.md) | [Rocket LaunchLug/fr](Rocket_LaunchLug/fr.md) | [Rocket NoseCone/fr](Rocket_NoseCone/fr.md) |
+| [Rocket Parachute Size Calculator/fr](Rocket_Parachute_Size_Calculator/fr.md) | [Rocket RailButton/fr](Rocket_RailButton/fr.md) | [Rocket RailGuide/fr](Rocket_RailGuide/fr.md) |
+| [Rocket Thrust To Weight Calculator/fr](Rocket_Thrust_To_Weight_Calculator/fr.md) | [Rocket Transition/fr](Rocket_Transition/fr.md) | [Rocket Vent Hole Size Calculator/fr](Rocket_Vent_Hole_Size_Calculator/fr.md) |
+| [Rocket Workbench/fr](Rocket_Workbench/fr.md) | [SearchBar Mod/fr](SearchBar_Mod/fr.md) | [SheetMetal AddBase/fr](SheetMetal_AddBase/fr.md) |
+| [SheetMetal AddBend/fr](SheetMetal_AddBend/fr.md) | [SheetMetal AddCornerRelief/fr](SheetMetal_AddCornerRelief/fr.md) | [SheetMetal AddFoldWall/fr](SheetMetal_AddFoldWall/fr.md) |
+| [SheetMetal AddJunction/fr](SheetMetal_AddJunction/fr.md) | [SheetMetal AddRelief/fr](SheetMetal_AddRelief/fr.md) | [SheetMetal AddWall/fr](SheetMetal_AddWall/fr.md) |
+| [SheetMetal BaseShape/fr](SheetMetal_BaseShape/fr.md) | [SheetMetal Examples/fr](SheetMetal_Examples/fr.md) | [SheetMetal Extrude/fr](SheetMetal_Extrude/fr.md) |
+| [SheetMetal Forming/fr](SheetMetal_Forming/fr.md) | [SheetMetal SketchOnSheet/fr](SheetMetal_SketchOnSheet/fr.md) | [SheetMetal UnattendedUnfold/fr](SheetMetal_UnattendedUnfold/fr.md) |
+| [SheetMetal Unfold/fr](SheetMetal_Unfold/fr.md) | [SheetMetal Workbench/fr](SheetMetal_Workbench/fr.md) | [Ship Workbench/fr](Ship_Workbench/fr.md) |
+| [Silk Workbench/fr](Silk_Workbench/fr.md) | [Stemfie Workbench/fr](Stemfie_Workbench/fr.md) | [Symbols Library Workbench/fr](Symbols_Library_Workbench/fr.md) |
+| [ThreadProfile Workbench/fr](ThreadProfile_Workbench/fr.md) | [Timber Workbench/fr](Timber_Workbench/fr.md) | [WebTools Workbench/fr](WebTools_Workbench/fr.md) |
+| [Wood Frame Workbench/fr](Wood_Frame_Workbench/fr.md) | [Workfeature Workbench/fr](Workfeature_Workbench/fr.md) | [Category:External Workbenches/fr](Category_External_Workbenches/fr.md) |
+| [Category:FCGear/fr](Category_FCGear/fr.md) |
 
 
 

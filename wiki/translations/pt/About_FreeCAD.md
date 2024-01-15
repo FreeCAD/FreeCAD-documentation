@@ -1,10 +1,28 @@
 # <img alt="" src=images/Freecad_default.jpg  style="width:1024px;"> About FreeCAD/pt
 
+
+<div class="mw-translate-fuzzy">
+
 O **FreeCAD** é um modelador 3D paramétrico genérico [**CAD**](http://pt.wikipedia.org/wiki/Desenho_assistido_por_computador), cujo desenvolvimento é completamente [livre](http://pt.wikipedia.org/wiki/Open_source) (licenças GPL e LGPL). O FreeCAD é direcionado principalmente para a [engenharia mecânica](http://en.wikipedia.org/wiki/Engenharia_mecânica) e para o [desenvolvimento de produto](http://pt.wikipedia.org/wiki/Desenvolvimento_de_produto), mas também se adapta a uma gama mais vasta de utilizações relacionadas com a engenharia, como a arquitetura, análise dos elementos finitos (FEM), impressão 3D, e outras.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 O FreeCAD disponibiliza ferramentas semelhantes às do [Catia](http://en.wikipedia.org/wiki/Catia), [SolidWorks](http://pt.wikipedia.org/wiki/Solidworks) ou [Solid Edge](http://pt.wikipedia.org/wiki/Solid_Edge), e portanto também se insere na categoria de [**MCAD**](http://pt.wikipedia.org/wiki/CAD), [**PLM**](http://en.wikipedia.org/wiki/Product_Lifecycle_Management), [**CAx**](http://pt.wikipedia.org/wiki/CAx) e [**CAE**](http://pt.wikipedia.org/wiki/Computer-aided_engineering). Será um [modelador paramétrico](http://en.wikipedia.org/wiki/Parametric_feature_based_modeler) com uma arquitetura modular o que permite adicionar funcionalidades sem modificar o sistema base.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Tal como muitos modeladores [CAD](http://pt.wikipedia.org/wiki/CAD) tem muitas ferramentas para o desenho de formas 2D ou para extração de detalhes do modelo 3D para a criação de desenhos 2D para produção, no entanto o desenho 2D direto (como o [AutoCAD LT](http://pt.wikipedia.org/wiki/AutoCAD#AutoCAD_LT)) não é um objetivo deste projeto, assim como a animação e a modelação de formas orgânicas, como o([Maya](http://pt.wikipedia.org/wiki/Maya_(software)), [3ds Max](http://pt.wikipedia.org/wiki/3ds_Max), [Blender](http://pt.wikpedia.org/Blender) ou [Cinema 4D](http://pt.wikipedia.org/wiki/CINEMA_4D)). No entanto, graças à sua flexibilidade, o FreeCAD poderá ser útil em áreas muito mais abrangentes do que o seu foco atual.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -49,6 +67,10 @@ FreeCAD é mantido e desenvolvido por uma comunidade de desenvolvedores entusias
 
 
 </div>
+
+### About the FPA 
+
+The FreeCAD project is also supported by a non-profit organization, the [FreeCAD project association (FPA)](https://fpa.freecad.org). The FPA is an independent body created by some FreeCAD veterans in 2021 to collect [donations](donate.md) and other resources to support the project and its community, to help protect that community and allow it to continue developing in the best conditions, and to represent the project against other bodies such as companies and institutions.
 
 
 

@@ -253,24 +253,26 @@ Transformowany wymaga szczególnej uwagi, ponieważ może wytwarzać płaskie ob
 #### Tryb orientacji 
 
 ++++
-| Parametr        | Widok Iso                                                                                        | Widok z góry                                                                                                                  |
-+=================+==================================================================================================+===============================================================================================================================+
-| **Standardowy** | <img alt="Standardowy widok Iso" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;"> | <img alt="Standardowy widok od góry" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                      |
-|                 |                                                                                                  |                                                                                                                               |
-|                 | :   Położenie i orientacja podążają za ścieżką.                                                  | :   *(Jeśli obiekt jest skręcony w nieoczekiwany sposób, wypróbuj parametr \"Frenet\")*                                       |
-|                 | :                                                                                                |                                                                                                                               |
+| Parametr        | Widok Iso                                                                                                               | Widok z góry                                                                                                                          |
++=================+=========================================================================================================================+=======================================================================================================================================+
+| **Standardowy** | <img alt="Standardowy widok Iso" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                        | <img alt="Standardowy widok od góry" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                              |
+|                 |                                                                                                                         |                                                                                                                                       |
+|                 | :   Położenie i orientacja podążają za ścieżką.                                                                         | :   *(Jeśli obiekt jest skręcony w nieoczekiwany sposób, wypróbuj parametr \"Frenet\")*                                               |
+|                 | :                                                                                                                       |                                                                                                                                       |
 ++++
-| **Ustalony**    | <img alt="Ustalony widok Iso" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">       | <img alt="Ustalony widok z góry" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                              |
-|                 |                                                                                                  |                                                                                                                               |
-|                 | :   Położenie podąża za ścieżką, a orientacja pozostaje taka sama jak kształt podstawowy.        | :   Może to prowadzić do samoczynnych przecięć, które prowadzą do dalszych błędów: w tym przypadku do powstania ściany widmo. |
+| **Ustalony**    | <img alt="Ustalony widok Iso" src=images/PartDesign_ExampleProperty-09.png  style="width:200px;">                              | <img alt="Ustalony widok z góry" src=images/PartDesign_ExampleProperty-10.png  style="width:200px;">                                      |
+|                 |                                                                                                                         |                                                                                                                                       |
+|                 | :   Położenie podąża za ścieżką, a orientacja pozostaje taka sama jak kształt podstawowy.                               | :   Może to prowadzić do samoczynnych przecięć, które prowadzą do dalszych błędów: w tym przypadku do powstania ściany widmo.         |
 ++++
-| **Frenet**      | <img alt="Widok Frenet iso" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">           | <img alt="Widok Frenet z góry" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                  |
-|                 |                                                                                                  |                                                                                                                               |
-|                 | :   Położenie i orientacja podążają za ścieżką, w oparciu o inny algorytm niż Standardowy.       | :   Podstawowy kształt jest zgodny z orientacją linii.                                                                        |
+| **Frenet**      | <img alt="Widok Frenet iso" src=images/PartDesign_ExampleProperty-07.png  style="width:200px;">                                  | <img alt="Widok Frenet z góry" src=images/PartDesign_ExampleProperty-08.png  style="width:200px;">                                          |
+|                 |                                                                                                                         |                                                                                                                                       |
+|                 | :   Położenie i orientacja podążają za ścieżką, w oparciu o inny algorytm niż Standardowy.                              | :   Podstawowy kształt jest zgodny z orientacją linii.                                                                                |
 ++++
-| **Pomocniczy**  |                                                                                                  |                                                                                                                               |
+| **Pomocniczy**  | <img alt="Widok pomocniczy Iso" src=images/PartDesign_ExampleProperty-11._png  style="width:200px;">                         | <img alt="Widok pomocniczy z góry" src=images/PartDesign_ExampleProperty-12._png  style="width:200px;">                                 |
+|                 |                                                                                                                         |                                                                                                                                       |
+|                 | :   Lokalizacja podąża ścieżką ze skrętem wokół ścieżki, która jest kontrolowana przez krzywą pomocniczą *(niebieską)*. | :   *(Trudno to rozpoznać, ale istnieje kąt między płaszczyznami krzywej pomocniczej i ścieżki, który jest odpowiedzialny za skręt)*. |
 ++++
-| **Binormalny**  |                                                                                                  |                                                                                                                               |
+| **Binormalny**  |                                                                                                                         |                                                                                                                                       |
 ++++
 
 

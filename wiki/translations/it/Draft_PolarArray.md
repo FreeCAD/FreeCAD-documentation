@@ -31,7 +31,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md).
 2.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_PolarArray.svg" width=16px> [Serie polare](Draft_PolarArray.md)**.
     -   Selezionare l\'opzione **Modifiche → Strumenti serie → <img src="images/Draft_PolarArray.svg" width=16px> Serie polare** dal menu.
-3.  Si apre il pannello attività **Polar array**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
+3.  Si apre il pannello attività **Serie polare**. Vedere [Opzioni](#Opzioni.md) per maggiori informazioni.
 4.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto.
 5.  Immettere i parametri richiesti nel pannello delle attività.
 6.  Per completare il comando, eseguire una delle seguenti operazioni:
@@ -58,14 +58,6 @@ Vedere anche: [Aggancio](Draft_Snap/it.md).
 -   L\'asse di rotazione predefinito per la serie è l\'asse Z positivo. Questo può essere cambiato modificando la sua proprietà **Axis**.
 -   Una Serie polare può essere trasformata in una [Serie ortogonale](Draft_OrthoArray/it.md) o in una [Serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Array Type**.
 -   Una Serie di link non può essere trasformata in una serie normale o viceversa. Il tipo di serie deve essere deciso al momento della creazione.
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
 
 
 

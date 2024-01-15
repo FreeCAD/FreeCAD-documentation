@@ -5,9 +5,19 @@
 
 </div>
 
+
+
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Constrângerea greutății proprii este definită de către accelerația gravitațională de 9,81 m / s \^ 2 care acționează asupra întregului model în direcția prescrisă.
+
+
+</div>
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -25,6 +35,8 @@ Constrângerea greutății proprii este definită de către accelerația gravita
 
 
 </div>
+
+
 
 ## Script
 
@@ -117,7 +129,7 @@ Eall,GRAV,9810,0.0,0.0,-1.0
 Eall,GRAV,9810,0.0,0.0,-1.0
 ```
 
-where 9810 is gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is direction vector.
+where 9810 is a gravity acceleration magnitude in \[mm/s\^2\], and 0,0,-1 is the direction vector. The value can be set as a multiple of standard gravity acceleration to simulate loading of e.g. 4g.
 
 ## Solver Z88 
 

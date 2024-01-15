@@ -52,28 +52,37 @@ O menu padrão é composto de 7 sub-menus. Cada sub-menu tem uma página dedicad
 
 ### Ferramentas adicionais 
 
+-   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Create part](Std_Part.md): Creates a new part and makes it active.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Create group](Std_Group.md): Creates a new group.
 
--   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Std Part](Std_Part/pt-br.md): Cria uma nova peça e a torna ativa.
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Std Group](Std_Group/pt-br.md): Cria um novo grupo.
--   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Std LinkMake](Std_LinkMake/pt-br.md): Cria um link (vínculo). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Std LinkMakeRelative](Std_LinkMakeRelative/pt-br.md): Cria um vínculo de subobjeto ou subelemento. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Std LinkReplace](Std_LinkReplace/pt-br.md): Substitui o(s) objeto(s) por novo(s) link(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Std LinkUnlink](Std_LinkUnlink/pt-br.md): Substitui o(s) link(s) por seu(s) objeto(s) ligado(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Std LinkImport](Std_LinkImport/pt-br.md): Importa o(s) link(s) externo(s) selecionado(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Std LinkImportAll](Std_LinkImportAll/pt-br.md): Importa todo(s) link(s) externo(s). <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Std LinkMakeGroup](Std_LinkMakeGroup/pt-br.md): Cria um grupo de vínculos. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Std LinkSelectLinked](Std_LinkSelectLinked/pt-br.md): Seleciona o objeto vinculado e muda para seu documento. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Std LinkSelectLinkedFinal](Std_LinkSelectLinkedFinal/pt-br.md): Seleciona o objeto mais profundo vinculado e muda para seu documento. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Std LinkSelectAllLinks](Std_LinkSelectAllLinks/pt-br.md): Seleciona todos os links para um objeto. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Std TreeSelectAllInstances](Std_TreeSelectAllInstances/pt-br.md): Seleciona todas as instâncias de um objeto. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Std SelBack](Std_SelBack/pt-br.md): Restaura a seleção anterior salva. <small>(v0.19)</small> 
--   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Std SelForward](Std_SelForward/pt-br.md): Restaura a próxima seleção salva. <small>(v0.19)</small> 
--   [Std Expressions](Std_Expressions/pt-br.md): Ações de expressão. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_LinkMake.svg  style="width:32px;"> [Make link](Std_LinkMake.md): Creates a link.
 
+-   <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:32px;"> [Make sub-link](Std_LinkMakeRelative.md): Creates a sub-object or sub-element link.
 
-</div>
+-   <img alt="" src=images/Std_LinkReplace.svg  style="width:32px;"> [Replace with link](Std_LinkReplace.md): Replaces object(s) with new link(s).
+
+-   <img alt="" src=images/Std_LinkUnlink.svg  style="width:32px;"> [Unlink](Std_LinkUnlink.md): Replaces link(s) with their linked object(s).
+
+-   <img alt="" src=images/Std_LinkImport.svg  style="width:32px;"> [Import link](Std_LinkImport.md): Imports selected external link(s).
+
+-   <img alt="" src=images/Std_LinkImportAll.svg  style="width:32px;"> [Import all links](Std_LinkImportAll.md): Imports all external link(s).
+
+-   <img alt="" src=images/Std_LinkMakeGroup.svg  style="width:32px;"> [Make link group](Std_LinkMakeGroup.md): Creates a group of links.
+
+-   <img alt="" src=images/Selection-filter.svg  style="width:32px;"> [Selection filter](Part_SelectFilter.md) **-- Available if the [Part Workbench](Part_Workbench.md) or the [PartDesign Workbench](PartDesign_Workbench.md) has been loaded.** <small>(v0.22)</small> 
+
+  - <img alt="" src=images/Vertex-selection.svg  style="width:32px;"> Vertex selection: Only allows the selection of vertices.
+
+  - <img alt="" src=images/Edge-selection.svg  style="width:32px;"> Edge selection: Only allows the selection of edges.
+
+  - <img alt="" src=images/Face-selection.svg  style="width:32px;"> Face selection: Only allows the selection of faces.
+
+  - <img alt="" src=images/Clear-selection.svg  style="width:32px;"> All selection filters cleared: Allows the selection of all subelements.
+
+-   <img alt="" src=images/Std_TreeSelectAllInstances.svg  style="width:32px;"> [Select all instances](Std_TreeSelectAllInstances.md): Selects all instances of an object.
+
+-   [Expression actions](Std_Expressions.md): Expression actions.
 
 
 <div class="mw-translate-fuzzy">

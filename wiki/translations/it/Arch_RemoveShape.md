@@ -2,61 +2,36 @@
  GuiCommand:
    Name: Arch RemoveShape
    Name/it: Rimuovi forma
-   Workbenches: Arch_Workbench/it
    MenuLocation: Arch , Utilità , Rimuovi forma
-   SeeAlso: Arch SplitMesh/it, Arch MeshToShape/it
+   Workbenches: Arch_Workbench/it
+   SeeAlso: Arch_SplitMesh/it, Arch_MeshToShape/it
 ---
 
 # Arch RemoveShape/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorporata in un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o in una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md) e di regolare le sue proprietà per rendere l\'oggetto rimanente totalmente parametrico. Questo strumento funziona solo se la forma da eliminare è cubica (con 6 facce e tutti gli angoli retti).
+Questo strumento tenta di eliminare una forma cubica (un parallelepipedo) incorporata in un **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)** o in una **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)** e di regolare le sue proprietà per rendere l\'oggetto rimanente totalmente parametrico. Questo strumento funziona solo se la forma da eliminare è cubica (con 6 facce e tutti gli angoli retti).
 
 
-</div>
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md) o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md).
-2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi Forma](Arch_RemoveShape/it.md)** in **Arch → Utilità → Rimuovi Forma**.
+1.  Selezionare un **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)** o una **<img src="images/Arch_Structure.svg" width=16px> [Struttura](Arch_Structure/it.md)**.
+2.  Premere il pulsante **<img src="images/Arch_RemoveShape.svg" width=16px>** o usare **Arch** → **Utilità** → **<img src="images/Arch_RemoveShape.svg" width=16px> [Rimuovi forma](Arch_RemoveShape/it.md)** dal menu in alto.
 
 
-</div>
-
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
 
 ## Script
 
 
 **Vedere anche:**
 
-[Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Questo strumento può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Questo strumento può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 removeShape(objs, mark=True)
 ```
@@ -86,15 +61,6 @@ FreeCAD.ActiveDocument.recompute()
 Arch.removeShape(Structure)
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

@@ -9,28 +9,38 @@
 
 # Mesh Export/pl
 
+
+
 ## Opis
 
 Polecenie **Eksportuj siatkę \...** eksportuje obiekt siatkowy do formatu pliku siatkowego. Obsługiwanych jest kilka formatów plików.
+
+
 
 ## Użycie
 
 1.  Wybierz pojedynczy obiekt siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_Export.svg" width=16px> [Eksportuj siatkę ...](Mesh_Export/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_Export.svg" width=16px> '''Eksportuj siatkę ...'''**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...**.
     -   Wybierz opcję **<img src="images/Mesh_Export.svg" width=16px> Eksportuj siatkę ...** z menu kontekstowego okna [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
 3.  Wybierz odpowiedni format pliku w oknie dialogowym.
 4.  Wprowadź nazwę pliku. Jeśli w poprzednim kroku wybrałeś opcję {{Value|Wszystkie pliki (*.*)}} i nie podałeś tutaj rozszerzenia pliku, zostanie użyte rozszerzenie **.stl**.
 5.  Naciśnij przycisk **Zapisz**.
 
+
+
 ## Uwagi
 
 Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Siatki.md), ale nie dotyczą one tego polecenia. Są one używane przez polecenie [Std: Eksport](Std_Export/pl.md).
 
+
+
 ## Ustawienia
 
 -   Przechowywana jest ostatnio używana lokalizacja pliku: **Przybory → Edycja parametrów ... → BaseApp → Preferences → General → FileOpenSavePath**.
+
+
 
 ## Tworzenie skryptów 
 

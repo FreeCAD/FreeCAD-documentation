@@ -4,6 +4,7 @@
 |Icon=CenterFace.png
 |Description=This macro red trace (editable) the center face (mass) with 1 point and print the coordinates.
 |Author=Mario52
+|Download=[https://wiki.freecad.org/images/1/16/CenterFace.png ToolBar Icon]
 |Version=0.2
 |Date=2018-10-07
 }}
@@ -29,7 +30,7 @@ blue = 0.0 \#
 
 The center of the face (mass) surface and the XYZ coordinates of the face are displayed in the report view.
 
-## Icone
+## Icon
 
 Download the file image and copy in your macro repertory.
 

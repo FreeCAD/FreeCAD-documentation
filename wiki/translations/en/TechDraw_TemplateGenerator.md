@@ -2,7 +2,7 @@
  TutorialInfo:
    Topic: Template generation with Python macro
    Level: Basic skills of Python and svg-structures are helpful
-   FCVersion: 0.19.1 and later
+   FCVersion: 0.21 and later
    Time: 
    Author: User:FBXL5
    SeeAlso: Macro_TemplateHelper
@@ -25,6 +25,8 @@ The following code examples can be copied and pasted into an empty text file and
 A template provides a background for the drawing tasks and its dimensions are used by the printer drivers to scale the drawing correctly.
 
 The templates are svg-files and so a macro has to compose some lines of svg code (which is a subset of xml code).
+
+**Note:** When FreeCAD was migrated from **freecadweb.org** to **freecad.org** this page was updated accordingly and the resulting SVG code is no longer compatible with FreeCAD versions older than v0.21. For those versions you need to manually change {{Incode|freecad.org}} to {{Incode|freecadweb.org}} on the namespace declaration line in the resulting SVG code, otherwise the editable texts are not recognized.
 
 ## Structure of a simple blank page 
 
@@ -62,7 +64,7 @@ The Body starts with an opening tag which contains information about name spaces
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": External link to the xml name space to look up standard xml commands
 :   **version=**\"1.1\": Used xml version is 1.1
-:   **xmlns:freecad=**\"[Svg Namespace](https://wiki.freecad.org/index.php?title=Svg_Namespace)\": External link to FreeCAD\'s name space extension to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts.
+:   **xmlns:freecad=**\"\...=Svg_Namespace\": External link to FreeCAD\'s [Svg Namespace](Svg_Namespace.md) extension, to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts.
 :   \"freecad:\" will be prefixed to attribute names to have them handled by said special commands.
 :   **width=**\"420mm\": Width of the drawing area
 :   **height=**\"297mm\": Height of the drawing area
@@ -77,7 +79,7 @@ For a blank page size DIN A3 in landscape orientation that\'s all.
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
   xmlns="http://www.w3.org/2000/svg" version="1.1"
-  xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+  xmlns:freecad="http://www.freecad.org/wiki/index.php?title=Svg_Namespace"
   width="420mm"
   height="297mm"
   viewBox="0 0 420 297">

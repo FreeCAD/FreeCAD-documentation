@@ -86,9 +86,9 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 -   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Split by components](Mesh_SplitComponents.md): Splits a mesh object into its components.
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Unwrap Mesh](MeshPart_CreateFlatMesh.md): Creates a flat representation of a mesh object.
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Unwrap mesh](MeshPart_CreateFlatMesh.md): Creates a flat representation of a mesh object.
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Unwrap Face](MeshPart_CreateFlatFace.md): Creates a flat representation of a face of a shape object.
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Unwrap face](MeshPart_CreateFlatFace.md): Creates a flat representation of a face of a shape object.
 
 
 

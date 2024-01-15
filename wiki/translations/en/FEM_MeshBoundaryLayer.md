@@ -17,7 +17,7 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 ## Usage
 
 1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
-    -   Select the Mesh object in the Model Tree and press the <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> button.
+    -   Select the Mesh object in the Model Tree and press the **<img src="images/FEM_MeshBoundaryLayer.svg" width=32px> [FEM mesh boundary layer](FEM_MeshBoundaryLayer.md)** button.
     -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> FEM mesh boundary layer** option from the menu.
 2.  Edit the start element size, the growth rate and the number of growth layers.
 3.  Select a vertex, edge, face.
@@ -28,7 +28,7 @@ The boundary layer has the advantage of creating highly defined, anisotropic mes
 6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
 7.  Close the task.
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
+After the mesh has been created you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
 
 You can create as many different mesh boundary layers as needed.
 

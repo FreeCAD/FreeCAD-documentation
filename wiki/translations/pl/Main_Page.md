@@ -24,7 +24,7 @@ To jest dokumentacja Wiki programu [FreeCAD](https://www.freecadweb.org/?lang=pl
 
 ## Spis treści 
 
-Poniższa tabela zawiera wszystkie artykuły umieszczone w tej Wiki. Stanowią one podstawę dokumentacji offline dostarczanej wraz z programem FreeCAD. Dokumentacja dostępna jest w językach:
+Spis treści jest dostępny w kilku językach:
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

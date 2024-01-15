@@ -6,72 +6,57 @@ Draft DXF ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg
 ![](images/Screenshot_qcad.jpg ) 
 *Qcad-Zeichnung nach DXF exportiert, die anschließend in FreeCAD geöffnet wird*
 
+
+
 ## Importieren
 
+Es stehen zwei Import-Module zur Verfügung, die unter **Bearbeiten → Einstellungen... → Import-Export → DXF** festgelegt werden können: Der eine ist eingebaut, C++ basiert und schnell, der andere ist eine Altlast, in Python kodiert, langsamer und erfordert die Installation einer Erweiterung, kann aber manche Objekte besser verarbeiten und kann feinere FreeCAD-Objekte erstellen. Beide unterstützen alle DXF-Versionen seit R12.
 
-<div class="mw-translate-fuzzy">
-
-Der Importeur hat zwei Modi, einstellbar unter **Bearbeiten → Einstellungen → Import/Export → DXF**: Der eine ist eingebaut, C++ basiert und schnell, der andere ist eine Altlast, in Python kodiert, langsamer und erfordert die Installation einer Erweiterung, kann aber manche Objekte besser handhaben und kann verfeinerte FreeCAD Objekte erzeugen. Beide unterstützen alle DXF Versionen beginnend ab R12.
-
-
-</div>
+3D-Festkörper innerhalb einer DXF-Datei werden unter einem binären \"ACIS/SAT-Blob\" gespeichert, der zur Zeit von FreeCAD nicht gelesen werden kann.
 
 
-<div class="mw-translate-fuzzy">
 
-3D Objekte innerhalb einer DXF Datei werden unter einem binären ACIS/SAT Klecks gespeichert, der zur Zeit von FreeCAD nicht gelesen werden kann. Einfachere Objekte wie 3DFACEs werden jedoch unterstützt.
+### C++ Import-Modul 
 
-
-</div>
-
-### C++ importer 
-
-
-<div class="mw-translate-fuzzy">
-
-Die folgenden DXF Objekte können importiert werden:
+Dieses Importmodul kann folgende DXF-Objekte importieren:
 
 -   Linien
 -   Polylinien und Lwpolylinien
--   Kreise
 -   Bögen
--   Lagen
--   Texte und Mtexte
--   Bemaßungen
--   Blöcke (nur Geometrie, Texte, Bemaßungen und Attribute innerhalb von Blöcken werden übersprungen)
+-   Kreise
+-   Splines
 -   Punkte
--   Führungen
--   Papierraumobjekte
-
-
-</div>
+-   Texte und Mtexte
+-   Maße
+-   Hinweislinien
+-   Blöcke (nur Geometrie; Texte, Maße und Attribute innerhalb von Blöcken werden übersprungen)
+-   Layer
+-   \"paper space objects\"
 
 ### Legacy importer 
 
-This importer can import the following DXF objects:
+Dieses Importmodul kann folgende DXF-Objekte importieren:
 
--   lines
--   polylines (and lwpolylines)
--   arcs
--   circles
--   ellipses
--   splines
--   3D faces
--   texts and mtexts
--   leaders
--   layers
+-   Linien
+-   Polylinien und Lwpolylinien
+-   Bögen
+-   Kreise
+-   Ellipsen
+-   Splines
+-   3D-Flächen
+-   Texte und Mtexte
+-   Hinweislinien
+-   Layer
+
+
 
 ## Exportieren
 
-
-<div class="mw-translate-fuzzy">
-
-Dateien werden im R14 DXF Format exportiert, das von vielen Anwendungen verarbeitet werden kann.
+Es gibt auch zwei Export-Module: Das Altdaten-Export-Modul exportiert in das DXF-Format R12, Das C++ Export-Modul in das DXF-Format R14. Beide Formate können mit vielen Programmen verarbeitet werden.
 
 
-</div>
 
-### C++ exporter 
+### C++ Export-Modul 
 
 Some of the features and limitations of this exporter are:
 
@@ -83,35 +68,26 @@ Some of the features and limitations of this exporter are:
 
 ### Legacy exporter 
 
+Einige Merkmale und Eischränkungen dieses Exportmoduls sind:
 
-<div class="mw-translate-fuzzy">
-
-Die folgenden FreeCAD Objekte können exportiert werden:
-
--   die gesamte 2D Geometrie von FreeCAD, wie z. B. Entwurfsobjekte oder Skizzen
--   3D Objekte werden als verflachte 2D Ansicht exportiert
--   Zusammengesetzte Objekte werden als Blöcke exportiert
--   Texte
--   Farben werden von den RGB Farben der Objekte auf den Autocad Farbindex (ACI) abgebildet. Schwarz wird immer \"nach Lagen\" sein
--   Lagen werden von Gruppennamen abgebildet. Wenn Gruppen verschachtelt sind, gibt die tiefste Gruppe den Lagennamen an.
--   Bemaßungen, die mit dem Dimstyle \"Standard\" exportiert werden.
+-   Die gesamte 2D-Geometrie von FreeCAD wird exportiert außer [Draft-Punkten](Draft_Point/de.md). Aber Ellipsen, B-Splines und Bézierkurve werden nicht ordentlich exportiert.
+-   3D-Objekte werden als objects are exported as eingeebnete 2D-Ansicht exportiert.
+-   Verbundobjekte werden als Blöcke exportiert.
+-   Texte und Maße werden exportiert.
+-   Die Farben im DXF-Dokument basieren auf der Linienfarbe der Objekte. Schwarz wird als \"ByBlock\" zugeordnet, andere Farben verwenden den AutoCAD-Color-Index (ACI) zum Zuordnen.
+-   Layer werden nach Layer- und Gruppennamen zugeordnet. Wenn Gruppen verschachtelt sind, gibt die tiefste Gruppe den Layernamen an.
 
 
-</div>
 
 ## Installieren
 
 Aus lizenzrechtlichen Gründen sind die benötigten [DXF](DXF/de.md) Import/Export Bibliotheken, die von der Legacy Version des Importeurs benötigt werden, nicht Teil des FreeCAD Quellcodes. Für weitere Informationen siehe: [FreeCAD und DXF Import](FreeCAD_and_DXF_Import/de.md).
 
+
+
 ## Einstellungen
 
-
-<div class="mw-translate-fuzzy">
-
-Für weitere Informationen siehe: [Import Export Einstellungen](Import_Export_Preferences/de.md).
-
-
-</div>
+Siehe [Import-Export-Einstellungen](Import_Export_Preferences/de.md).
 
 ## DWG
 
@@ -127,24 +103,20 @@ There is built-in support for the following DWG converters:
 
 See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
+
+
 ## Skripten
 
 Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Elemente können durch die folgende Funktion nach DXF exportiert werden:
-
-
-</div>
+Um Objekte in eine DXF-Datei zu exportieren, wird die Methode `export` des Moduls importDXF verwendet.
 
 
 ```python
 importDXF.export(objectslist, filename, nospline=False, lwPoly=False)
 ```
 
--   For the Windows OS: use a **/** (forward slash) as the path separator in {{Incode|filename}}.
+-   Für Windows: **/** (forward slash) wird als Pfad-Trennzeichen in {{Incode|filename}} verwendet.
 
 Beispiel:
 

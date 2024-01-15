@@ -63,14 +63,6 @@ Vedere anche: [Aggancio](Draft_Snap/it.md).
 
 
 
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate e distanze: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
-
-
-
 ## Proprietà
 
 Vedere [Serie ortogonale](Draft_OrthoArray/it#Propertà.md).

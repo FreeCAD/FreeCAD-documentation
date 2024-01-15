@@ -9,7 +9,7 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
 |Version=0.14
 |Date=2020/10/20
 |FCVersion=0.18 and more
-|Download= 
+|Download=[https://wiki.freecad.org/images/2/25/FCCamera_00.png ToolBar Icon]
 }}
 
 ## Description

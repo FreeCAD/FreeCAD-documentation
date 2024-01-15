@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Fügt einem Teil Fluideigenschaften hinzu.
+Erstellt ein Material für Fluide.
 
 ![](images/FEMMaterialFluidProperties.png ) 
 *Der Aufgabenbereich FEM-Material*
@@ -23,8 +23,8 @@ Fügt einem Teil Fluideigenschaften hinzu.
 ## Anwendung
 
 1.  Um ein neues MaterialFluid-Objekt zu erstellen hat man folgende Möglichkeiten:
-    -   Die Schaltfläche **<img src="images/FEM_MaterialFluid.svg" width=16px> [Material for fluid](FEM_MaterialFluid/de.md)** drücken.
-    -   Den Menüeintrag **Modell → Materialien → <img src="images/FEM_MaterialFluid.svg" width=16px> Material for fluid‏‎** auswählen.
+    -   Die Schaltfläche **<img src="images/FEM_MaterialFluid.svg" width=16px> [Werkstoff für Fluide‏‎](FEM_MaterialFluid/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Werkstoffe → <img src="images/FEM_MaterialFluid.svg" width=16px> Werkstoff für Fluide‏‎** auswählen.
 2.  Ein MaterialFluid-Objekt bearbeiten:
     -   Mit Doppelklick in der [Baumansicht](Tree_view/de.md) auswählen.
 3.  Der Aufgabenbereich FEM-Material wird geöffnet.

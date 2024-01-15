@@ -1,9 +1,8 @@
 ---
  GuiCommand:
    Name: Std ViewDockUndockFullscreen
-   Name/fr: Std Fenêtre document détachée
-   Empty: 1
-   MenuLocation: Affichage , Fenêtre Document‏‎ , Dockée/Non dockée
+   Name/fr: Std Désancrer une fenêtre de document
+   MenuLocation: Affichage , Fenêtre de document‏‎ , Ancrer/Désancrer
    Workbenches: Tous
    Shortcut: **V** **D** / **V** **U**
    SeeAlso: Std_ViewFullscreen/fr, Std_MainFullscreen/fr
@@ -15,45 +14,45 @@
 
 ## Introduction
 
-La [Vues 3D](3D_view/fr.md) peut être déconnecté de l\'[interface de FreeCAD](Interface/fr.md) principale et déplacée vers un affichage différent par exemple.
+La [vue 3D](3D_view/fr.md) peut être désancrée de l\'[interface de FreeCAD](Interface/fr.md) principale et déplacée vers un affichage différent par exemple.
 
-![](images/FinestraNonAgganciata.png ) 
-*Une vue 3D non dockée (séparée)*
+<img alt="" src=images/FinestraNonAgganciata.png  style="width:400px;"> 
+*Une vue 3D désancrée*
 
 
 
-## Dockée
+## Ancrer
 
 ### Description
 
-L\'option de menu **Dockée** place la [vue 3D](3D_view/fr.md) active dans l\'interface principale de FreeCAD.
+L\'option de menu **Ancrer** place la [vue 3D](3D_view/fr.md) active dans l\'interface principale de FreeCAD.
 
 
 
 ### Utilisation
 
-1.  Activez une vue 3D non dockée.
-2.  Il existe plusieurs façons d\'invoquer l\'option :
-    -   S\'il n\'y a pas de vues 3D dockées : sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Dockée** dans le menu.
-    -   Sélectionnez l\'option **Fenêtre Document‏‎ → Dockée** dans le menu contextuel de la vue 3D.
+1.  Activez une vue 3D non ancrée.
+2.  Il existe plusieurs façons de lancer l\'option :
+    -   S\'il n\'y a pas de vues 3D ancrées : sélectionnez l\'option **Affichage → Fenêtre de document‏‎ → Ancrer** du menu.
+    -   Sélectionnez l\'option **Fenêtre de document‏‎ → Ancrer** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier : **V** puis **D**.
 
 
 
-## Non dockée 
+## Désancrer
 
 ### Description 
 
-L\'option de menu **Non dockée** sépare la [vue 3D](3D_view/fr.md) active de l\'interface principale de FreeCAD.
+L\'option de menu **Désancrer** sépare la [vue 3D](3D_view/fr.md) active de l\'interface principale de FreeCAD.
 
 
 
 ### Utilisation 
 
 1.  Activez une vue 3D ancrée.
-2.  Il existe plusieurs façons d\'invoquer l\'option :
-    -   Sélectionnez l\'option **Affichage → Fenêtre Document‏‎ → Non dockée** dans le menu.
-    -   Sélectionnez l\'option **Fenêtre Document‏‎ → Non dockée** dans le menu contextuel de la vue 3D.
+2.  Il existe plusieurs façons de lancer l\'option :
+    -   Sélectionnez l\'option **Affichage → Fenêtre de document‏‎ → Désancrer** du menu.
+    -   Sélectionnez l\'option **Fenêtre de document‏‎ → Désancrer** dans le menu contextuel de la vue 3D.
     -   Utilisez le raccourci clavier : **V** puis **U**.
 
 
@@ -61,7 +60,7 @@ L\'option de menu **Non dockée** sépare la [vue 3D](3D_view/fr.md) active de l
 ## Remarques
 
 -   Plusieurs vues 3D pour le même document peuvent être créées avec la commande [ Std Créer une nouvelle vue](Std_ViewCreate/fr.md).
--   Les vues 3D peuvent également être ancrées et désamarrées avec la commande [Std Fenêtre document plein écran](Std_ViewDockUndockFullscreen/fr.md).
+-   Les vues 3D peuvent également être ancrées et désancrées avec la commande [Std Désancrer une fenêtre de document](Std_ViewDockUndockFullscreen/fr.md).
 
 
 

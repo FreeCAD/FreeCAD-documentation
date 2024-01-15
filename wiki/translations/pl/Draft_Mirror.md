@@ -1,101 +1,110 @@
 ---
  GuiCommand:
    Name: Draft Mirror
-   MenuLocation: Modification , Mirror
-   Workbenches: Draft_Workbench, Arch_Workbench
+   Name/pl: Rysunek Roboczy: Odbicie lustrzane
+   MenuLocation: Modyfikacja , Mirror
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **M** **I**
-   SeeAlso: Draft_Clone
+   SeeAlso: Draft_Clone/pl
 ---
 
 # Draft Mirror/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Mirror** command creates mirrored copies, [Part Mirror](Part_Mirror.md) objects, from selected objects. A [Part Mirror](Part_Mirror.md) object is parametric, it will update if its source object changes.
 
-The command can be used on 2D objects created with the [Draft Workbench](Draft_Workbench.md) or [Sketcher Workbench](Sketcher_Workbench.md), but also on many 3D objects such as those created with the [Part Workbench](Part_Workbench.md), [PartDesign Workbench](PartDesign_Workbench.md) or [Arch Workbench](Arch_Workbench.md).
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Odbicie lustrzane** tworzy lustrzane kopie obiektów [Odbicie lustrzane](Part_Mirror.md) środowiska pracy Część z wybranych obiektów. Obiekt [Odbicie lustrzane](Part_Mirror.md) środowiska pracy Część jest parametryczny, więc będzie aktualizowany, jeśli zmieni się jego obiekt źródłowy.
+
+Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą środowisk pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownik](Sketcher_Workbench/pl.md), ale może być również używane dla wielu typów obiektów 3D, takich jak te utworzone za pomocą środowisk pracy [Część](Part_Workbench/pl.md), [Projekt Części](PartDesign_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md).
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
-*Mirroring an object*
-
-## Usage
-
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
-
-1.  Optionally select one or more objects.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Mirror.svg" width=16px> [Draft Mirror](Draft_Mirror.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Mirror.svg" width=16px> Mirror** option from the menu.
-    -   Use the keyboard shortcut: **M** then **I**.
-3.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-4.  The **Mirror** task panel opens. See [Options](#Options.md) for more information.
-5.  Pick the first point of the mirror plane in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-6.  Pick the second point of the mirror plane in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
-7.  The mirror plane is defined by the selected points and the normal of the [Draft working plane](Draft_SelectPlane.md).
-
-## Options
-
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
-
--   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
--   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
--   Press **Esc** or the **Close** button to abort the command.
-
-## Notes
-
--   Mirrored copies of [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Arcs](Draft_Arc.md) and [Draft Circles](Draft_Circle.md) can be turned into independent editable Draft objects by using [Draft Downgrade](Draft_Downgrade.md) and then [Draft Upgrade](Draft_Upgrade.md).
--   The [Part SimpleCopy](Part_SimpleCopy.md) command can be used to create a copy of a mirrored object that is not linked to its source object.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
-
-## Properties
-
-See also: [Property editor](property_editor.md).
-
-A [Part Mirror](Part_Mirror.md) object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
+*Tworzenie kopii lustrzanej obiektu.*
 
 
-{{TitleProperty|Base}}
 
--    **Source|Link**: specifies the object that is mirrored.
+## Użycie
+
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
+
+1.  Opcjonalnie wybierz jeden lub więcej obiektów.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_Mirror.svg" width=16px> [Odbicie lustrzane](Draft_Mirror.md)**.
+    -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Mirror.svg" width=16px> Odbicie lustrzane**.
+    -   Użyj skrótu klawiaturowego: **M**, a następnie **I**.
+3.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+4.  Otworzy się panel zadań **Odbicie lustrzane**. Więcej informacji znajduje się w sekcji [Opcje](#Opcje.md).
+5.  Wybierz pierwszy punkt płaszczyzny lustra w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+6.  Wybierz drugi punkt płaszczyzny lustra w oknie [widoku 3D](3D_view/pl.md) lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
+7.  Płaszczyzna lustrzana jest definiowana przez wybrane punkty i normalną [Płaszczyzna robocza szkicu](Draft_SelectPlane/pl.md).
 
 
-{{TitleProperty|Plane}}
 
--    **Base|Vector**: specifies the base point of the mirror plane.
+## Opcje
 
--    **Normal|Vector**: specifies the normal direction of the mirror plane.
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
-## Scripting
+-   Aby ręcznie wprowadzić współrzędne, wprowadź element X, Y i Z i naciśnij **Enter** po każdym z nich. Możesz też nacisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**, gdy uzyskasz żądane wartości. Zaleca się przesunięcie wskaźnika poza obszar okna [widoku 3D](3D_view/pl.md) przed wprowadzeniem współrzędnych.
+-   Wciśnij **R** lub kliknij pole wyboru **Względnie**, aby przełączyć tryb względny. Jeśli tryb względny jest włączony, współrzędne drugiego punktu są względne do pierwszego punktu, w przeciwnym razie są one względne do początku układu współrzędnych.
+-   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne odnoszą się do globalnego układu współrzędnych, w przeciwnym razie odnoszą się do układu współrzędnych [płaszczyzny roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
+-   Naciśnij **S**, aby włączyć lub wyłączyć [Przyciąganie](Draft_Snap/pl.md).
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać polecenie.
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-To mirror objects use the `mirror` method of the Draft module.
+
+## Uwagi
+
+-   Kopie lustrzane [linii](Draft_Line/pl.md), [polilinii](Draft_Wire/pl.md), [łuków](Draft_Arc/pl.md) i [okręgów](Draft_Circle/pl.md) mogą zostać przekształcone w niezależne edytowalne obiekty środowiska Rysunek Roboczy przy użyciu narzędzia [Rozbij kształt](Draft_Downgrade/pl.md), a następnie [Ulepsz kształt](Draft_Upgrade/pl.md).
+-   Polecenie [Utwórz prostą kopię](Part_SimpleCopy/pl.md) może być użyte do utworzenia kopii lustrzanej obiektu, która nie jest połączona z obiektem źródłowym.
+
+
+
+## Właściwości
+
+Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt **Odbicie lustrzane** środowiska pracy Rysunek roboczy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{TitleProperty|Podstawa}}
+
+-    **Źródło|Link**: określa obiekt, który zostanie odzwierciedlony.
+
+
+{{TitleProperty|Płaszczyzna}}
+
+-    **Baza|Vector**: określa punkt bazowy płaszczyzny lustrzanej.
+
+-    **Normal|Vector**: określa normalny kierunek płaszczyzny lustra.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+Aby wykonać odbicie lustrzane obiektów, użyj metody `mirror` środowiska Rysunek Roboczy.
 
 
 ```python
 mirrored_list = mirror(objlist, p1, p2)
 ```
 
--    `objlist`contains the objects to be mirrored. It is either a single object or a list of objects.
+-    `objlist`zawiera obiekty, które mają zostać odzwierciedlone. Jest to pojedynczy obiekt lub lista obiektów.
 
--    `p1`is the first point of the mirror plane.
+-    `p1`jest pierwszym punktem płaszczyzny lustrzanej.
 
--    `p2`is the second point of the mirror plane.
+-    `p2`jest drugim punktem płaszczyzny lustrzanej.
 
--   If the [Draft working plane](Draft_SelectPlane.md) is available the alignment of the mirror plane is determined by its normal, else the view direction of the camera in the active [3D view](3D_view.md) is used. If the graphical interface is not available the Z axis is used.
+-   Jeśli [płaszczyzna robocza](Draft_SelectPlane/pl.md) jest dostępna, wyrównanie płaszczyzny lustrzanej jest określane przez jej normalną, w przeciwnym razie używany jest kierunek widoku kamery w aktywnym oknie [widoku 3D](3D_view/pl.md). Jeśli interfejs graficzny nie jest dostępny, używana jest oś Z.
 
--    `mirrored_list`is returned with the new `Part::Mirroring` objects. It is either a single object or a list of objects, depending on `objlist`.
+-    `mirrored_list`jest zwracany z nowymi obiektami `Part::Mirroring`. Jest to pojedynczy obiekt lub lista obiektów, w zależności od `objlist`.
 
-Example:
+Przykład:
 
 
 ```python

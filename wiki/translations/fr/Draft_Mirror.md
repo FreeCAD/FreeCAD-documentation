@@ -25,26 +25,26 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  En option, sélectionnez un ou plusieurs objets.
+1.  Vous pouvez sélectionné un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Miroir](Draft_Mirror/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir** dans le menu.
-    -   Utilisez le raccourci clavier : **M** puis **I**.
-3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches **Mirror** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Choisissez le premier point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-6.  Choisissez le deuxième point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+    -   Appuyer sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Miroir](Draft_Mirror/fr.md)**.
+    -   Sélectionner l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir** du menu.
+    -   Utiliser le raccourci clavier : **M** puis **I**.
+3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionner un objet dans la [vue 3D](3D_view/fr.md).
+4.  Le panneau de tâches **Miroir** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Choisir le premier point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+6.  Choisir le deuxième point du plan miroir dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Le plan miroir est défini par les points sélectionnés et la normale du [Draft Plan de travail](Draft_SelectPlane/fr.md).
 
 ## Options
 
-Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md).
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
--   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyer sur **Entrée** après chaque valeur ou appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Appuyer sur **R** ou cliquer sur la case **Relatif** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
+-   Appuyer sur **G** ou cliquer sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
+-   Appuyer sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
+-   Appuyer sur **Échap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 
 
@@ -52,14 +52,6 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 -   Les copies miroir des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Arcs](Draft_Arc/fr.md) et [Draft Cercles](Draft_Circle/fr.md) peuvent être transformées en objets Draft éditables indépendants en utilisant [Draft Désagréger](Draft_Downgrade/fr.md) et ensuite [Draft Agréger](Draft_Upgrade/fr.md).
 -   La commande [Part Copie simple](Part_SimpleCopy/fr.md) peut être utilisée pour créer une copie d\'un objet miroir qui n\'est pas lié à son objet source.
-
-
-
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Systèmes d'unités → Nombre de décimales**.
 
 
 
@@ -76,14 +68,14 @@ Un objet [Part Miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature
 
 {{TitleProperty|Base}}
 
--    **Source|Link**: spécifie l\'objet qui est mis en miroir.
+-    **Source|Link**: donne l\'objet qui est mis en miroir.
 
 
 {{TitleProperty|Plane}}
 
 -    **Base|Vector**: indique le point de base du plan miroir.
 
--    **Normal|Vector**: spécifie la direction normale du plan miroir.
+-    **Normal|Vector**: indique la direction normale du plan miroir.
 
 
 
@@ -108,7 +100,7 @@ mirrored_list = mirror(objlist, p1, p2)
 
 -    `mirrored_list`est retourné avec les nouveaux objets `Part::Mirroring`. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets, en fonction de `objlist`.
 
-Exemple:
+Exemple :
 
 
 ```python

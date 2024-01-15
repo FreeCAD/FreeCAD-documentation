@@ -1,11 +1,13 @@
 # Macro Unroll Ruled Surface/fr
 {{Macro/fr
 |Name=Macro Unroll Ruled Surface
+|Name/fr=Macro Unroll Ruled Surface
+|Icon=Macro_Unroll_Ruled_Surface.png
 |Description=La macro permet de dérouler la surface d'une forme et la placer dans une page.
 |Author=Hervé B., heda
 |Version=1.1
 |Date=2022-07-24
-|Download=[https://www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png Icône de la barre d'outils]
+|Download=[https://wiki.freecad.org/images/b/ba/Macro_Unroll_Ruled_Surface.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -30,12 +32,16 @@ Voir aussi : [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/vi
 
 ![Macro_unrollRuledSurface](images/Macro_UnrollRuledSurface_start_form.png )
 
+
+
 ## Utilisation
 
 1.  Sélectionnez les surfaces réglées.
 2.  [Draft Désagrégez](Draft_Downgrade/fr.md) les.
 3.  Sélectionnez les faces.
 4.  Exécutez la macro.
+
+
 
 ## Script
 

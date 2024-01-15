@@ -69,6 +69,11 @@ Nástroj Střecha umožňuje vytvořit šikmou střechu z vybraných drátů. Vy
 
 ## Vlastnosti
 
+### Data
+
+
+{{TitleProperty|Roof}}
+
 
 <div class="mw-translate-fuzzy">
 

@@ -4,31 +4,47 @@
    Name/pl: Rysunek Roboczy: Przełącz widoczność siatki
    Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
    Shortcut: **G** **R**
-   SeeAlso: Draft_Snap/pl, Draft_Snap_Grid/pl, Draft_SelectPlane/pl
+   SeeAlso: Draft_Snap_Grid/pl, Draft_SelectPlane/pl
 ---
 
 # Draft ToggleGrid/pl
 
+
+
 ## Opis
 
-Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Przełącz widoczność siatki** włącza lub wyłącza siatkę. Siatka może być używana tylko wtedy, gdy preferencja **Użyj siatki** jest wybrana. Zobacz akapit [Ustawienia](Draft_ToggleGrid/pl#Ustawienia.md).
+Polecenie <img alt="" src=images/Draft_ToggleGrid.svg  style="width:24px;"> **Przełącz widoczność siatki** włącza lub wyłącza widoczność siatki.
+
+
+{{Version/pl|0.22}}
+
+: Każdy [widok 3D](3D_view/pl.md) ma swoją własną siatkę, która może być zawsze widoczna, widoczna tylko podczas komend lub niewidoczna. Początkowa widoczność siatki w nowych widokach zależy od [usyawień](#Ustawienia.md).
+
+
 
 ## Użycie
 
-Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
+1.  Polecenie może być używane, gdy aktywne jest inne polecenie.
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=16px> '''Przełącz widoczność siatki'''** na pasku narzędzi Draft snap.
+    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=16px> Przełącz widoczność siatki** w [Widżecie przyciągania](Draft_snap_widget/pl.md).
+    -   Użyj skrótu klawiaturowego: **G**, a następnie **R**. Tego skrótu nie można użyć, jeśli aktywne jest inne polecenie.
+3.  Widoczność siatki należącej do bieżącego okna widoku 3D uległa zmianie:
+    -   Jeśli żadne inne polecenie nie jest aktywne:
+        -   Jeśli siatka była niewidoczna, teraz jest zawsze widoczna.
+        -   Jeśli siatka była widoczna, teraz nie jest już zawsze widoczna, ale widoczność siatki podczas poleceń pozostaje niezmieniona.
+    -   Jeśli aktywne jest inne polecenie:
+        -   Jeśli siatka była niewidoczna, teraz jest widoczna tylko podczas wykonywania poleceń.
+        -   Jeśli siatka była widoczna, teraz nie jest już widoczna podczas poleceń i nie jest już zawsze widoczna.
 
-1.  Opcjonalnie zmień [płaszczyznę roboczą i / lub siatkę](Draft_SelectPlane/pl.md).
-2.  Aby wywołać opcję **Przełącz widoczność siatki** wykonaj jedną z poniższych czynności:
-    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** na pasku narzędzi Rysunek Roboczy- przyciąganie.
-    -   Naciśnij przycisk **<img src="images/Draft_ToggleGrid.svg" width=24px>** w [Widżecie przyciągania](Draft_snap_widget/pl.md).
-    -   Użyj skrótu klawiaturowego: **G** a następnie **R**. Tego skrótu nie można używać, gdy polecenie jest aktywne.
+
 
 ## Ustawienia
 
-Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md).
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
 
--   Aby użyć siatki wybierz: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka → Użyj siatki**. After changing this preference you must restart FreeCAD.
--   Dostępnych jest również kilka innych preferencji dla siatki: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**.
+-   \* Dostępne są różne ustawienia siatki: **Edycja → Preferencje → Rysunek Roboczy → Siatka i przyciąganie → Siatka**.
+-   Aby utrzymać siatkę podczas przełączania na inne środowiska pracy, zobacz [Dostrajanie](Fine-tuning/pl#środowisko_pracy_Rysunek_Roboczy.md).
 
 
 

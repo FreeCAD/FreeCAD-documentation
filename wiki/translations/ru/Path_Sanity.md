@@ -47,7 +47,7 @@ Details the Stock object from the Job. This is an area where Path would benefit 
 
 ### Tool Data 
 
-Has subsections for each tool number used in the job. It details what the programmer assumes the tool to be and which operations are using it. This section only works with the new Toolbit system. This is another area where Path needs improvement. Specifically, Toolbits need additional attributes about the tool like manufacturer/url/part number.
+Has subsections for each tool number used in the job. It details what the programmer assumes the tool to be and which operations are using it. This section only works with the new [Toolbit](Path_ToolBit.md) system. This is another area where Path needs improvement. Specifically, Toolbits need additional attributes about the tool like manufacturer/url/part number.
 
 ### Output
 

@@ -89,6 +89,8 @@ See also: [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewt
 
 </div>
 
+
+
 ## Python kód 
 
 The latest version of the macro is here on the wiki. An earlier version can be found at [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro), but the easiest way to install this macro is through the <img alt="Std_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr.md).

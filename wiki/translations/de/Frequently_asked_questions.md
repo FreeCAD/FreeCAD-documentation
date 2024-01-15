@@ -45,6 +45,10 @@ Alle diese Komponenten und das empfohlende Vorgehen zu deren Installation sind a
 
 ## Fehlersuche
 
+### Known OS-specific issues 
+
+Find known OS-specific issues on this [forum thread](https://forum.freecad.org/viewtopic.php?t=30573)
+
 
 
 ### FreeCAD startet überhaupt nicht 

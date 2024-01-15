@@ -43,7 +43,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_CascadeWindows.svg  style="width:32px;"> [Überlappend](Std_CascadeWindows/de.md): Ordnet die Fenster überlappend an.
 
--   [Fenster\...](Std_Windows/de.md): Öffnet eine Dialog-Box, aus der ein Fenster aktiviert werden kann.
+-   <img alt="" src=images/Std_Windows.svg  style="width:32px;"> [Fenster\...](Std_Windows/de.md): Öffnet ein Dialogfenster, in dem ein Fenster aktiviert werden kann.
 
 
 

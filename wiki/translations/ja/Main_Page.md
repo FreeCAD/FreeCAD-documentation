@@ -38,7 +38,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 <div class="mw-translate-fuzzy">
 
 <img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
- FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
+ FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献](Help_FreeCAD/jp.md)を行ってください！
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md)   | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) |
@@ -54,7 +54,13 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 ## 目次
 
+
+<div class="mw-translate-fuzzy">
+
 次の表は、FreeCADアプリケーションに同梱されているオフラインドキュメントのバックボーンを構成するこのwikiのすべての記事を示しています。 すでにいくつかの言語で利用可能です：
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |
@@ -78,7 +84,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 <div class="mw-translate-fuzzy">
 
-もしあなたが私たちを手助けすることに興味があるなら、FreeCADプロジェクトにはやらなければならないことがたくさんあります。C++、Pythonプログラマのためのプログラミング作業もありますが、もしコーディングできなくてもやれることはたくさんあります。ドキュメントの執筆、初心者の手助け、アプリケーションとドキュメントの翻訳、あなたの好みのオペレーティングシステム用の最新のFreeCADリリースのパッケージング、あるいはたんにあなたの周りにいる人たちがFreeCADを見つける手助けをしてくれるだけでもかまいません。[FreeCADを援助するというページにもっと詳しい説明があります](help_FreeCAD/jp.md)。
+もしあなたが私たちを手助けすることに興味があるなら、FreeCADプロジェクトにはやらなければならないことがたくさんあります。C++、Pythonプログラマのためのプログラミング作業もありますが、もしコーディングできなくてもやれることはたくさんあります。ドキュメントの執筆、初心者の手助け、アプリケーションとドキュメントの翻訳、あなたの好みのオペレーティングシステム用の最新のFreeCADリリースのパッケージング、あるいはたんにあなたの周りにいる人たちがFreeCADを見つける手助けをしてくれるだけでもかまいません。[FreeCADを援助する](help_FreeCAD/jp.md)というページにもっと詳しい説明があります。
 
 
 </div>
@@ -98,7 +104,7 @@ This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There ar
 
 <div class="mw-translate-fuzzy">
 
-FreeCADはcMakeまたはautotoolsを使ってコンパイルすることができます。Gitのリンクはgit://free-cad.git.sourceforge.net/gitroot/free-cad/free-cadで、[Windows](Compile_on_Windows/ja.md)、[Unix/Linux](Compile_on_Linux/ja.md)、[MacOSXでのビルド手順も用意されています](Compile_on_MacOS/ja.md)。
+FreeCADはcMakeまたはautotoolsを使ってコンパイルすることができます。Gitのリンクはgit://free-cad.git.sourceforge.net/gitroot/free-cad/free-cadで、[Windows](Compile_on_Windows/ja.md)、[Unix/Linux](Compile_on_Linux/ja.md)、[MacOSX](Compile_on_MacOS/ja.md)でのビルド手順も用意されています。
 
 
 </div>
@@ -110,7 +116,7 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 <div class="mw-translate-fuzzy">
 
-何が計画されているかについては[開発ロードマップをチェックしてください](Development_roadmap.md)。次のリリースに向けた作業の進捗についてはMantisのページである[変更履歴](http://www.freecadweb.org/tracker/changelog_page.php)と[ロードマップ](http://www.freecadweb.org/tracker/roadmap_page.php)を、またFreeCADのコードベースについてのさらに詳しい情報については[プロジェクトの統計](http://www.ohloh.net/p/freecad)を見てください。開発に関わるコミュニケーションは全て[フォーラム](http://forum.freecadweb.org/)で行われているので、もし参加したいのであれば必ず訪れてください。
+何が計画されているかについては[開発ロードマップ](Development_roadmap.md)をチェックしてください。次のリリースに向けた作業の進捗についてはMantisのページである[変更履歴](http://www.freecadweb.org/tracker/changelog_page.php)と[ロードマップ](http://www.freecadweb.org/tracker/roadmap_page.php)を、またFreeCADのコードベースについてのさらに詳しい情報については[プロジェクトの統計](http://www.ohloh.net/p/freecad)を見てください。開発に関わるコミュニケーションは全て[フォーラム](http://forum.freecadweb.org/)で行われているので、もし参加したいのであれば必ず訪れてください。
 
 
 </div>

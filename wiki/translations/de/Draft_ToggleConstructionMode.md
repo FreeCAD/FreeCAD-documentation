@@ -1,43 +1,45 @@
 ---
  GuiCommand:
    Name: Draft ToggleConstructionMode
-   Name/de: Draft UmschaltenKonstruktionsmodus
-   MenuLocation: Draft , Utilities , Konstruktionsmodus umschalten
+   Name/de: Draft KonstruktionsmodusUmschalten
+   MenuLocation: Dienstprogramme , Konstruktionsmodus umschalten
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    SeeAlso: Draft AddConstruction/de
 ---
 
 # Draft ToggleConstructionMode/de
 
+
+
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft UmschaltenKonstruktionsmodus**-Befehl schaltet den Draft Konstruktionsmodus ein oder aus. Fall der Konstruktionsmodus eingeschaltet ist, werden neue [Draft](Draft_Workbench/de.md)-Objekte, außer [Draft Punkten](Draft_Point/de.md) in einer dedizierten Gruppe zugeordnet und erhalten eine vordefinierte Farbe. Diese Möglichkeit ist für - oftmals temporäre - Konstruktionsgeometrie gedacht, um für die Erzeugung weiterer Objekte neue [Einrastpunkte](Draft_Snap/de.md) bereitzustellen. Wenn die Konstruktionsgeometrie nicht länger benötigt wird, kann die Konstruktionsgruppe einfach [versteckt](Std_HideSelection/de.md) oder [gelöscht](Std_Delete/de.md) werden.
+Der Befehl <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:24px;"> **Draft KonstruktionsmodusUmschalten** schaltet den Draft Konstruktionsmodus ein oder aus. Falls der Konstruktionsmodus eingeschaltet ist, werden neue [Draft](Draft_Workbench/de.md)-Objekte, außer [Draft Punkten](Draft_Point/de.md) einer bestimmen Gruppe zugeordnet und erhalten eine vordefinierte Farbe. Diese Möglichkeit ist für - oftmals temporäre - Hilfsgeometrie gedacht, um für die Erzeugung weiterer Objekte neue [Einrastpunkte](Draft_Snap/de.md) bereitzustellen. Wenn die Hilfsgeometrie nicht länger benötigt wird, kann die Konstruktionsgruppe einfach [ausgeblendet](Std_HideSelection/de.md) oder [gelöscht](Std_Delete/de.md) werden.
 
 <img alt="" src=images/Draft_construction_mode_example.jpg  style="width:400px;"> 
-*Konstruktionsgeometrie, in blau, hilft bei der Festlegung des Mittelpunkts und Radius eines Kreises*
+*Hilfsgeometrie, in blau, hilft bei der Festlegung von Mittelpunkt und Radius eines Kreises*
+
+
 
 ## Anwendung
 
-1.  Es gibt mehrere Wege, um den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Draft UmschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md)**-Schaltfläche in der [Draft Ablage](Draft_Tray/de.md). Diese Schaltfläche ist heruntergedrückt, wenn der Konstruktionsmodus gerade eingeschaltet ist.
-    -   Wähle die **Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Konstruktionsmodus umschalten**-Option aus dem Menü.
-    -   Benutze das Tastaturkürzel: **C**, dann **M**.
-2.  Die Schaltfläche in der [Draft Ablage](Draft_Tray/de.md) ist aktualisiert.
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Konstruktionsmodus umschalten](Draft_ToggleConstructionMode/de.md)** in der [Draft Ablage](Draft_Tray/de.md). Diese Schaltfläche ist heruntergedrückt, wenn der Konstruktionsmodus gerade eingeschaltet ist.
+    -   Den Menüeintrag **Dienstprogramme → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Konstruktionsmodus umschalten** auswählen.
+    -   Das Tastaturkürzel **C** dann **M**.
+2.  Die Schaltfläche in der [Draft Ablage](Draft_Tray/de.md) wird aktualisiert.
+
+
 
 ## Hinweise
 
 -   Falls der Draft Konstruktionsmodus eingeschaltet ist, wird die aktive [Ebene](Draft_Layer/de.md) ignoriert.
 
+
+
 ## Einstellungen
 
-
-<div class="mw-translate-fuzzy">
-
--   Zur Änderung der Bezeichnung ({{Version/de|0.20}}) der Konstruktionsgruppe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Konstruktionsgruppenname**.
--   Zur Änderung der zu verwendenden Farbe: **Bearbeiten → Einstellungen... → Draft → Allgemeine Einstellungen → Konstruktionsgeometrie → Hilfsgeometriefarbe**.
-
-
-</div>
+-   Zur Änderung der Bezeichnung der Hilfsgeometriegruppe: **Bearbeiten → Einstellungen... → Draft → Allgemein →  Benennung der Hilfsgeometriegruppen**.
+-   Zur Änderung der zu verwendenden Farbe: **Bearbeiten → Einstellungen... → Draft → Allgemein → Farbe der Hilfsgeometrie**.
 
 
 

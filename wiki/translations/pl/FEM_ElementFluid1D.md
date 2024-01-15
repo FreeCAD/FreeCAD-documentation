@@ -1,9 +1,10 @@
 ---
  GuiCommand:
    Name: FEM ElementFluid1D
-   MenuLocation: Model , Element Geometry , Fluid section for 1D flow
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: MES: Przekrój dla przepływu 1D
+   MenuLocation: Model , Geometria elementu , Przekrój dla przepływu 1D
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ElementFluid1D/pl
@@ -12,28 +13,32 @@
 
 ## Opis
 
-Tworzy element MES przekroju cieczy dla układów pneumatycznych i hydraulicznych.
+Tworzy element MES przekroju płynu dla układów pneumatycznych i hydraulicznych.
 
 
 
 ## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementFluid1D.svg" width=16px> [FEM ElementFluid1D](FEM_ElementFluid1D.md)** button.
-    -   Select the **Model → Element Geometry → <img src="images/FEM_ElementFluid1D.svg" width=16px> Fluid section for 1D flow** option from the menu.
-2.  Select Fluid type: Liquid, Gas or Open Channel
-3.  Select Section type: Pipe Manning, Pipe Inlet etc.
-4.  Enter Section type parameters.
-5.  Select and add edge.
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ElementFluid1D.svg" width=16px> '''Przekrój dla przepływu 1D'''**.
+    -   Wybierz opcję **Model → Geometria elementu → <img src="images/FEM_ElementFluid1D.svg" width=16px> Przekrój dla przepływu 1D** z menu.
+2.  Wybierz rodzaj płynu: ciecz, gaz lub otwarty kanał.
+3.  Wybierz rodzaj przekroju: rura Manninga, wlot rury itd.
+4.  Wprowadź parametry typu przekroju.
+5.  Wybierz i dodaj krawędź.
 
-## Limitations
 
-1.  The card only works with a 3 noded network element type. Information can be found here: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
 
-## Notes
+## Ograniczenia
 
-1.  An example of the set up of a hydraulic network can be found here: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
-2.  The \*FLUID SECTION card is used to model fluid elements for 1D flow. Information on the card can be found here: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
+1.  To narzędzie działa tylko z 3-węzłowymi elementami układu płynowego. Więcej informacji można znaleźć na stronie: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node54.html>
+
+
+
+## Uwagi
+
+1.  Przykład ustawiania układu hydraulicznego można znaleźć tutaj: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node13.html>
+2.  To narzędzie korzysta ze słowa kluczowego \*FLUID SECTION do definiowania elementów dla przepływu 1D Więcej informacji można znaleźć na stronie: <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node205.html>
 
 
 

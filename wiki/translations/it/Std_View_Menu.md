@@ -101,7 +101,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Piano di taglio](Std_ToggleClipPlane/it.md): taglia temporaneamente gli oggetti.
 
--   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Taglio sezione persistente](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. <small>(v0.20)</small> 
+-   <img alt="" src=images/Part_SectionCut.svg  style="width:32px;"> [Taglio sezione persistente](Part_SectionCut/it.md): Crea tagli persistenti di oggetti e assiemi. **-- Disponibile se [Part](Part_Workbench/it.md) o [PartDesign](PartDesign_Workbench/it.md) è stato caricato.**{{Version/it|0.20}}
 
 -   <img alt="" src=images/Std_TextureMapping.svg  style="width:32px;"> [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti.
 
@@ -125,6 +125,9 @@ In questo menu sono disponibili i seguenti strumenti:
 
 -   [Ambiente](Std_Workbench/it.md): seleziona nel sottomenu uno degli ambienti di lavoro di base, oppure un [ambiente esterno](external_workbenches/it.md) installato nel sistema.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Barre degli strumenti **Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu. Alcuni ambienti di lavoro aggiungono delle proprie barre degli strumenti.**
     -   File
     -   Modifica {{Version/it|0.21}}
@@ -135,14 +138,36 @@ In questo menu sono disponibili i seguenti strumenti:
     -   Struttura
     -   Aiuto {{Version/it|0.21}}
 
+
+</div>
+
 -   Pannelli **Ogni pannello può essere attivato o disattivato nel sottomenu.**
-    -   [Report](Report_view/it.md)
-    -   [Struttura](Tree_view/it.md)
-    -   [Proprietà](Property_editor/it.md)
+    -   [Vista ad albero](Tree_view/it.md) **-- Disponibile se [Modalità vista ad albero](Preferences_Editor/it#Generale_2.md) è {{Value|Vista ad albero e proprietà**.}}
+    -   [Proprietà](Property_editor/it.md) **-- Idem.**
     -   [Selezione](Selection_view/it.md)
-    -   [Vista combinata](Combo_view/it.md)
+    -   [Azioni](Task_panel/it.md)
     -   [Console Python](Python_console/it.md)
-    -   [Vista DAG](DAG_view/it.md)
+    -   [Vista DAG](DAG_view/it.md) **-- Non disponibile per impostazione predefinita, vedere [Vista DAG](DAG_view/it.md).**
+    -   [Vista combinata](Combo_view/it.md) **-- Disponibile se [Modalità vista ad albero](Preferences_Editor/it#Generale_2.md) is {{Value|Vista combinata**.}}
+    -   [Report](Report_view/it.md)
+
+-   Dock window overlay <small>(v0.22)</small> 
+    -   [Toggle overlay for all](Std_DockOverlayAll.md): Toggles overlay mode for all docked windows.
+    -   [Toggle transparent for all](Std_DockOverlayTransparentAll.md): Toggles transparent mode for all docked overlay windows. This makes the docked windows stay transparent at all times.
+    -   [Toggle overlay](Std_DockOverlayToggle.md): Toggles overlay mode for the docked window under the cursor.
+    -   [Toggle transparent](Std_DockOverlayToggleTransparent.md): Toggles transparent mode for the docked window under cursor. This makes the docked window stay transparent at all times.
+    -   [Bypass mouse events in docked overlay windows](Std_DockOverlayMouseTransparent.md): Bypasses all mouse events in docked overlay windows.
+    -   [Toggle left](Std_DockOverlayToggleLeft.md): Shows/hides the left overlay panel.
+    -   [Toggle right](Std_DockOverlayToggleRight.md): Shows/hides the right overlay panel.
+    -   [Toggle top](Std_DockOverlayToggleTop.md): Shows/hides the top overlay panel.
+    -   [Toggle bottom](Std_DockOverlayToggleBottom.md): Shows/hides the bottom overlay panel.
+
+-   <img alt="" src=images/Std_ToggleTransparency.svg  style="width:32px;"> [Toggle transparency](Std_ToggleTransparency.md):
+
+-   Collegamento di navigazione
+    -   <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Vai all\'oggetto collegato](Std_LinkSelectLinked/it.md): seleziona l\'oggetto collegato e passa al suo documento.
+    -   <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Vai all\'oggetto collegato più profondo](Std_LinkSelectLinkedFinal/it.md): seleziona l\'oggetto collegato più profondo e passa al suo documento.
+    -   <img alt="" src=images/Std_LinkSelectAllLinks.svg  style="width:32px;"> [Seleziona tutti i collegamenti](Std_LinkSelectAllLinks/it.md): seleziona tutti i collegamenti a un oggetto.
 
 -   Azioni della vista ad albero
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md).
@@ -155,6 +180,8 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_TreeCollapseDocument.svg  style="width:32px;"> [Comprimi/espandi](Std_TreeCollapseDocument/it.md): commuta la vista ad albero nella modalità Comprimi documento.
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Avvia il trascinamento](Std_TreeDrag/it.md): avvia un\'operazione di trascinamento per gli oggetti selezionati nella vista ad albero.
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Vai alla selezione](Std_TreeSelection/it.md): scorre la vista ad albero fino al primo oggetto creato in una selezione della vista 3D.
+    -   <img alt="" src=images/Std_SelBack.svg  style="width:32px;"> [Selezione precedente](Std_SelBack/it.md): Ripristina la precedente selezione salvata.
+    -   <img alt="" src=images/Std_SelForward.svg  style="width:32px;"> [Selezione successiva](Std_SelForward/it.md): Ripristina la successiva selezione salvata.
 
 -   [Barra di stato](Std_ViewStatusBar/it.md): attiva o disattiva la visualizzazione della [Barra di stato](Status_bar/it.md).
 

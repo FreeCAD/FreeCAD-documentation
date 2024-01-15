@@ -132,7 +132,7 @@ FreeCAD\'in odak noktası, yüksek hassasiyete sahip 3D modeller yapmanız, bu m
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız işin türüne bağlıdır: Eğer mekanik modeller veya daha genel olarak küçük ölçekli nesneler üzerinde çalışacaksanız, muhtemelen [Parça Dizaynı(PartDesign)](PartDesign_Workbench.md) çalışma tezgahını kullanmayı tercih edeceksiniz. 2D\'de çalışacaksanız, kısıtlamalara ihtiyacınız varsa , [Ön Taslak Tezgahına](Draft_Workbench.md) veya [Taslak(Eskiz) tezgahına](Sketcher_Workbench.md) geçin. Eğer BIM(Building information modelling -Yapı Bilgi Modelleme) yapacaksanız [Yapı Tezgahını](Arch_Workbench.md) kullanabilirsiniz.Eğer gemi tasarımıyla uğraşıyorsanız,bu işe özel olarak [Gemi tezgahı](Ship_Workbench.md) bulunmaktadır. Eğer OpenSCAD kullanıcı iseniz [OpenSCAD tezgahını](OpenSCAD_Workbench.md) kullanabilirsiniz. There are also many community-developed [external workbenches](External_workbenches.md) available.
+FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız işin türüne bağlıdır: Eğer mekanik modeller veya daha genel olarak küçük ölçekli nesneler üzerinde çalışacaksanız, muhtemelen [Parça Dizaynı(PartDesign)](PartDesign_Workbench.md) çalışma tezgahını kullanmayı tercih edeceksiniz. 2D\'de çalışacaksanız, kısıtlamalara ihtiyacınız varsa , [Ön Taslak Tezgahına](Draft_Workbench.md) veya [Taslak(Eskiz) tezgahına](Sketcher_Workbench.md) geçin. Eğer BIM(Building information modelling -Yapı Bilgi Modelleme) yapacaksanız [Yapı Tezgahını](Arch_Workbench.md) kullanabilirsiniz.Eğer gemi tasarımıyla uğraşıyorsanız,bu işe özel olarak [Gemi tezgahı](Ship_Workbench.md) bulunmaktadır. Eğer OpenSCAD kullanıcı iseniz [OpenSCAD tezgahın](OpenSCAD_Workbench.md)ı kullanabilirsiniz. There are also many community-developed [external workbenches](External_workbenches.md) available.
 
 
 </div>
@@ -160,7 +160,7 @@ FreeCAD\'de kullanmaya başlayacağınız çalışma tezgahı, yapacağınız i�
 
 <div class="mw-translate-fuzzy">
 
-Parça Dizayn Tezgahı,diğer bir tezgahı,[Eskiz Tezgahını](Sketcher_Workbench.md) çok sık kullanır. Eskiz,2D çizilen şekilleri, ölçülendirilmiş 2D şekile çevirmenizi sağlar. Örneğin,bir dikdörtgen çizebilir ve kenarlardan birine uzunluk ölçüsü vererek diğer tarafın boyutunu ayarlayabilirsiniz. Ayarlanan tarafın ölçüsü (yapılan ayar değiştirilmedikçe) değiştirilemez.
+Parça Dizayn Tezgahı,diğer bir tezgahı,[Eskiz Tezgahın](Sketcher_Workbench.md)ı çok sık kullanır. Eskiz,2D çizilen şekilleri, ölçülendirilmiş 2D şekile çevirmenizi sağlar. Örneğin,bir dikdörtgen çizebilir ve kenarlardan birine uzunluk ölçüsü vererek diğer tarafın boyutunu ayarlayabilirsiniz. Ayarlanan tarafın ölçüsü (yapılan ayar değiştirilmedikçe) değiştirilemez.
 
 
 </div>

@@ -20,6 +20,8 @@
 
 Sarcina poate fi împărțită în patru părți. Primul pas este de a face bancul de lucru FEM conștient de un nou tip de ecuație. Această etapă ar trebui efectuată numai dacă ecuația nu există în fluxul FreeCAD (spre deosebire de ecuația care există deja în FreeCAD, dar nu este suportată de solverul țintă). Al doilea pas este de a adăuga un obiect tip document concret la ecuația specifică a lui Elmer FEM Solver. Al treilea pas este să adăugăm sprijin pentru noua ecuație obiectului solver al lui Elmer. După ce analiza Elmer trebuie extinsă pentru a susține noul tip de ecuație.
 
+
+
 ## Nou tip de Equation 
 
 In this step we are going to modify the following file:
@@ -27,9 +29,9 @@ In this step we are going to modify the following file:
 -    **src/Mod/Fem/femsolver/equationbase.py**
     
 
-The equation type is shared among all equation objects of the different solver. Each type has a string specifier (e.g. \"Heat\") and a dedicated command that adds the equation to the selected solver. This allows for a simpler GUI where we have only one button for the heat equation which is used for all supported solver.
+The equation type is shared among all equation objects of the different solvers. Each type has a string specifier (e.g. \"Heat\") and a dedicated command that adds the equation to the selected solver. This allows for a simpler GUI where we have only one button for the heat equation which is used for all supported solver.
 
-First add the new equation to the {{Incode|equationbase.py}} module. Each equation requires two classes. A document proxy and a view proxy. Those two classes will later be used as base classes for the Elmer specific equation classes. Just copy-paste them from an existing equation type and adjust the icon path inside {{Incode|getIcon(self)}} of the view proxy.
+First, add the new equation to the {{Incode|equationbase.py}} module. Each equation requires two classes. A document proxy and a view proxy. Those two classes will later be used as base classes for the Elmer-specific equation classes. Just copy-paste them from an existing equation type and adjust the icon path inside {{Incode|getIcon(self)}} of the view proxy.
 
 
 ```python
@@ -40,6 +42,8 @@ class FlowViewProxy(BaseViewProxy):
     def getIcon(self):
         return ":/icons/FEM_EquationFlow.svg"
 ```
+
+
 
 ## Obiectul Elmers FEM Solver Equation 
 
@@ -95,6 +99,8 @@ Finally one has to register a **makeEquationFlow** definition in {{Incode|src/Mo
 
 Nu în ultimul rând, înregistrați noul fișier modul (Flow.py) în ambele fișiere CMakeLists.txt modul descris în [Extend FEM Module](https://www.freecadweb.org/wiki/Extend_FEM_Module). Listele potrivite pot fi găsite prin căutarea fișierelor de module de ecuație existente ale lui Elmer FEM Solver.
 
+
+
 ## Extinderea Obiectului Solver 
 
 În acest pas vom modifica următorul fișier:
@@ -119,6 +125,8 @@ _EQUATIONS = {
 +    "Flow": flow,
 }
 ```
+
+
 
 ## Extensia Analizei Export 
 
@@ -171,7 +179,7 @@ can control a series of other detailed methods. Our flow equation uses the follo
 -    {{Incode|_handleFlowEquation}}
     
 
-We now finished the function part of the new equation. Next we\'ll connect the new equation through the GUI.
+We now finished the function part of the new equation. Next, we\'ll connect the new equation through the GUI.
 
 ## Gui tool to create an equation 
 

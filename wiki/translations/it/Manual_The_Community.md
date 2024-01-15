@@ -1,5 +1,5 @@
 # Manual:The Community/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 Nessuna manuale che riguardi il software libero e open-source sarebbe completo senza un capitolo sulla comunità. Come la stragrande maggioranza dei progetti di software libero e open-source, FreeCAD è costruito da una comunità, e mantenuto dalla stessa comunità. Al contrario di una ditta opaca, sconosciuta, impersonale e inaccessibile che sovente si trova alla base del software commerciale, le comunità di software libero e open-source sono spazi aperti, dove gli utenti sono i benvenuti, e dove è possibile ottenere risposte molto veloci, e anche esprimere la propria opinione sullo sviluppo del software stesso. Inoltre, si è più che benvenuti se si vuole partecipare, ci sono attività per tutti.
 

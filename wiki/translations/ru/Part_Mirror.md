@@ -9,6 +9,11 @@
 
 # Part Mirror/ru
 
+
+</div>
+
+
+
 ## Описание
 
 
@@ -21,24 +26,54 @@
 
 Пример:
 
-![Перед](images/PARTMirrorBeforev11.png )
+![](images/PARTMirrorBeforev11.png )
 
-![После (Отражено по плоскости **YZ**)](images/PARTMirrorAfterv11.png ) 
+
+
+*Before*
+
+![](images/PARTMirrorAfterv11.png )
+
+
+
+*After mirrored through YZ plane*
+
+
 
 ## Применение
 
-![](images/PARTMirrorDialogv19_ru.png )
+![](images/PartMirroring_Scr1.png )
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Выберите исходный объект из списка Фигуры.
 2.  Выберите стандартную **Плоскость симметрии** из раскрывающегося меню.
 3.  Нажмите **OK**, чтобы создать объект.
 
 
+</div>
+
+When the select button label says **Selecting** you are in reference selection mode and there is a selection gate in effect, which disallows the selection of unsupported reference objects. Click the button to toggle the selection gate off, the button label then changes to **Select reference**.
+
+The mirror plane is defined by a **Normal** (direction) and a **Base** (position). When the **Mirror Plane** property contains a reference object these properties are made read-only as they are then computed based on that object. The plane is infinite even if the reference object is not.
+
+A reference object can be a planar face, such as the face of a [Part Box](Part_Box.md), a circular edge, a [Datum Plane](PartDesign_Plane.md), an [origin plane](App_OriginGroupExtension.md) of a [Std Part](Std_Part.md) container, or any object with a single planar face or single circular edge. There is also support for [Links](App_Link.md). Note, however, that B-spline surfaces, such as [ruled surfaces](Part_RuledSurface.md) or [loft faces](Part_Loft.md) are not supported.
+
 
 
 ## Опции
 
+
+<div class="mw-translate-fuzzy">
+
 Поля ввода **Базовая точка** можно использовать для перемещения плоскости отражения параллельно выбранной стандартной плоскости отражения. Только одно поле ввода **X**, **Y** или **Z** будет иметь эффект для данной стандартной плоскости.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Плоскость симметрии   Базовая точка   Эффект
     
@@ -49,6 +84,9 @@
   **YZ**                **X**           Перемещает плоскость симметрии вдоль оси **X**.
   **YZ**                **Y**, **Z**    Эффекта нет.
 
+
+</div>
+
 ## Notes
 
 
@@ -57,6 +95,15 @@
 ## Ограничения
 
 -   Произвольные плоскости отражения (т.е. непараллельные стандартной плоскости) не поддерживаются.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 
 
 </div>

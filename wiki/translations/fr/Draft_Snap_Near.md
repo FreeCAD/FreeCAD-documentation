@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Draft Snap Near
-   Name/fr: Draft Aimantation Le plus proche
+   Name/fr: Draft Aimantation Au plus proche
    Workbenches: Draft_Workbench/fr, Arch_Workbench/fr
    SeeAlso: Draft_Snap/fr, Draft_Snap_Lock/fr
 ---
@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Draft Aimantation Le plus proche** permet de s\'aimanter au point le plus proche sur les faces et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Draft Aimantation Au plus proche** permet de s\'aimanter au point le plus proche sur les faces et les arêtes. Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
 ![](images/Draft_Snap_Near_example.png ) 
 *Aimantation du deuxième point d'une ligne au point le plus proche d'une arête*
@@ -22,7 +22,7 @@ L\'option <img alt="" src=images/Draft_Snap_Near.svg  style="width:24px;"> **Dra
 Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Assurez-vous que l\'aimantation est activé. Voir <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Verrouillage de l\'aimantation](Draft_Snap_Lock/fr.md).
-2.  Si **Draft Aimantation Le plus proche** n\'est pas actif, faites l\'une des choses suivantes :
+2.  Si **Draft Aimantation Au plus proche** n\'est pas actif, faites l\'une des choses suivantes :
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Near.svg" width=16px>** de la barre d\'outils Draft Aimantation.
     -   Maintenez le bouton **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu qui s\'ouvre, sélectionnez l\'option **<img src="images/Draft_Snap_Near.svg" width=16px> Aimanter au plus proche (OFF)**.
 3.  Choisissez une commande de [Draft](Draft_Workbench/fr.md) ou de [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
@@ -37,8 +37,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 
 ## Remarques
 
--   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
--   Dans la {{VersionMinus/fr|0.20}}, lors d\'aimantation à des courbes, [Draft Aimantation Le plus proche](Draft_Snap_Near/fr.md) s\'aimante à leur représentation segmentée dans la [Vue 3D](3D_view/fr.md), ce qui entraîne une imprécision. Pour obtenir un point exact sur la courbe, tracez une [Draft Ligne](Draft_Line/fr.md) à travers la courbe, puis coupez la ligne avec [Draft Ajuster ou prolonger](Draft_Trimex/fr.md) en utilisant la courbe comme outil de coupe.
+-   Ce n\'est pas une bonne idée d\'avoir [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) actif en permanence car il est prioritaire sur de nombreuses autres options d\'aimantation.
+-   Dans la {{VersionMinus/fr|0.20}}, lors d\'aimantation à des courbes, [Draft Aimantation Au plus proche](Draft_Snap_Near/fr.md) s\'aimante à leur représentation segmentée dans la [vue 3D](3D_view/fr.md), ce qui entraîne une imprécision. Pour obtenir un point exact sur la courbe, tracez une [Draft Ligne](Draft_Line/fr.md) à travers la courbe, puis coupez la ligne avec [Draft Ajuster ou prolonger](Draft_Trimex/fr.md) en utilisant la courbe comme outil de coupe.
 
 
 

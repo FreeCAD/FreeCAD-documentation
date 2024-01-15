@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch Rebar ColumnReinforcement
-   Name/de: Architektur Bewehrung Säulenverstärkung
-   MenuLocation: Arch , Bewehrungswerkzeuge
+   Name/de: Architektur Armierung Rundsäulenbewehrung
+   MenuLocation: Reinforcement , Säulenbewehrung<br>Arch , Bewehrungswerkzeuge
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
    SeeAlso: Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/de, Arch_Rebar/de
@@ -10,20 +10,18 @@
 
 # Arch Rebar Circular ColumnReinforcement/de
 
+
+
 ## Beschreibung
 
-Das [Säulenverstärkung](Arch_Rebar_Circular_ColumnReinforcement/de.md) Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md) Objektes zu erzeugen.
+Das Werkzeug [Armierung Säulenbewehrung](Arch_Rebar_Circular_ColumnReinforcement/de.md) ermöglicht dem Anwender, Bewehrungsstäbe innerhalb einer Säule ([Struktur](Arch_Structure/de.md)-Objekt) zu erzeugen.
 
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
-
-
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
-*Bewehrung Rundsäulenverstärkung innerhalb einer Stützen-[Architektur Struktur](Arch_Structure/de.md)*
+*Armierung Rundsäulenbewehrung innerhalb einer Säulen-[Struktur](Arch_Structure/de.md)*
+
+
 
 ## Anwendung
 
@@ -42,6 +40,8 @@ Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workben
 6. Click **OK** or **Apply** to generate circular column reinforcement.
 
 7\. Klicke **Abbrechen**, um die Dialog-Box zu verlassen.
+
+
 
 ## Eigenschaften
 
@@ -69,6 +69,8 @@ Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workben
 
 -    {{PropertyData/de|Angle}}: Der Winkelabstand zwischen Spannankern(?; \"ties\").
 
+
+
 ## Skripten
 
 
@@ -77,6 +79,8 @@ Dieser Befehl ist Teil des [Reinforcement-Arbeitsbereichs](Reinforcement_Workben
 [Architektur API](Arch_API/de.md), [Bewehrung API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Das Säulenverstärkungswerkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole mit der folgenden Funktion verwendet werden:
+
+
 
 ### Bewehrung Rundsäulenverstärkung erstellen 
 
@@ -115,6 +119,8 @@ RebarGroup = CircularColumn.makeReinforcement(
 -    `number_angle_check`if it is `True` it will create as many main rebars as given by `number_angle_value`; if it is `False` it will create main rebars at an angle of `number_spacing_value`, specified in degrees.
 
 -    `number_angle_value`specifies the number of main rebars, or the value of the angle between the main rebars, depending on `number_angle_check`.
+
+
 
 #### Beispiel
 
@@ -174,6 +180,8 @@ rebar_group = editReinforcement(
 -   The other parameters are the same as required by the `makeSingleTieFourRebars()` function.
 
 -    `structure`and `facename` may be omitted so that the rebar stays in the original structure.
+
+
 
 #### Beispiel 
 

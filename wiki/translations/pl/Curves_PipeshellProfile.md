@@ -1,31 +1,44 @@
 ---
  GuiCommand:
    Name: Curves PipeshellProfile
+   Name/pl: Krzywe: Profil powłoki rury
    MenuLocation: Surfaces , Pipeshell profile
-   Workbenches: Curves_Workbench
-   SeeAlso: Curves_Pipeshell
+   Workbenches: Curves_Workbench/pl
+   SeeAlso: Curves_Pipeshell/pl
 ---
 
 # Curves PipeshellProfile/pl
 
-## Description
 
-The <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> [Curves PipeshellProfile](Curves_PipeshellProfile.md) creates a Profile object for Pipeshell. This tool is part of the [external workbench](External_workbenches.md) called [Curves](Curves_Workbench.md).
 
-## Usage
+## Opis
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
-2.  To invoke the command, do one of the following:
-    -   Press the <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> button in the Curves toolbar
-    -   Use the **Surfaces → Pipeshell profile** entry in the dropdown menu.
+Narzędzie <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> **Profil powłoki rury** tworzy obiekt profilu dla powłoki rury To narzędzie jest częścią [środowisk zewnętrznych](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
 
-## Notes
 
-## Limitations
 
-## Properties
+## Użycie
 
-## Scripting
+1.  Przełącz się do środowiska pracy <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zainstalowano go wcześniej)*.
+2.  Aby wywołać polecenie, wykonaj jedną z następujących czynności:
+    -   Naciśnij przycisk <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:24px;"> na pasku narzędzi Curves.
+    -   Użyj pozycji **Surfaces → Pipeshell profile** w menu.
+
+
+
+## Uwagi
+
+
+
+## Ograniczenia
+
+
+
+## Właściwości
+
+
+
+## Tworzenie skryptów 
 
 
 

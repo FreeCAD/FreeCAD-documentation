@@ -1,81 +1,55 @@
 ---
  GuiCommand:
    Name: Arch Rebar Straight
-   Name/de: Arch Bewehrungsstab gerade
-   MenuLocation: Arch , Rebar tools , Straight Rebar oder 3D/BIM , Reinforcement tools , Gerade Bewehrung
+   Name/de: Arch Armierung GeradlinigeBewehrung
+   MenuLocation: Arch , Rebar tools , Geradlinige Bewehrung<br>3D/BIM , Reinforcement tools , Geradlinige Bewehrung
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
-   SeeAlso: Reinforcement_Workbench/de, Arch Rebar/de, Arch_Rebar_BOM/de
    Version: 0.17
+   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_BOM/de
 ---
 
 # Arch Rebar Straight/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
+Das Werkzeug [Arch Armierung GeradlinigeBewehrung](Arch_Rebar_Straight/de.md) ermöglicht dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Arch Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
+Das Werkzeug [Arch Armierung GeradlinigeBewehrung](Arch_Rebar_Straight/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-</div>
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
-
-<div class="mw-translate-fuzzy">
-
-Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
-
-
-</div>
-
-<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Zwei Sätze von geraden Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
-
-
-</div>
+<img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
+*Zwei Sätze gerader Bewehrungsstäbe in einer [Arch Struktur](Arch_Structure/de.md)*
 
 
 
 ## Anwendung
 
+1.  Eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Arch Struktur](Arch_Structure/de.md)**-Objekts.
 
-<div class="mw-translate-fuzzy">
+2.  Dann **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Geradlinige Bewehrung](Arch_Rebar_Straight/de.md)** aus den Bewehrungswerkzeugen auswählen.
 
-1.  Wähle eine beliebige Fläche eines vorher erstellten **<img src="images/Arch_Structure.svg" width=16px> [Struktur](Arch_Structure/de.md)**-Objekts.
-2.  Wähle dann **<img src="images/Arch_Rebar_Straight.svg" width=16px> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)** aus den Bewehrungsstab-Werkzeugen.
-3.  Ein Aufgaben-Paneel wird auf der linken Seite des Bildschirm angezeigt wie im folgenden Bild dargestellt.
-4.  Wähle die gewünschte Ausrichtung.
-5.  Gib die Werte für vordere, rechte, linke, obere und untere Fläche an, außerdem Durchmesser des Bewehrungsstabes.
-6.  Wähle den Verteilungsmodus, entweder `amount` (Menge) oder `spacing` (Abstand).
-7.  Falls \'spacing\' gewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) gewählt werden.
-8.  Wähle \'Pick selected face\' zur Überprüfung oder ändere die Fläche zur Verteilung der Bewehrungsstäbe.
-9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
-10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
+3.  Der [Aufgaben-Bereich](Task_panel/de.md) wird auf der linken Seite des Bildschirm angezeigt, wie im folgenden Bild dargestellt.
 
+4.  Die gewünschte Ausrichtung auswählen.
 
-</div>
+5.  Die Werte für die Betondeckung wie \'Front cover\' (vorne), \'Right side cover\' (rechts), \'Left side cover\' (links), \'Bottom cover\' (unten) und \'Diameter\' (Durchmesser) des Bewehrungsstabes eingeben.
+
+6.  Den Verteilungsmodus auswählen, entweder `'Amount'` (Menge) oder `'Spacing'` (Abstand).
+
+7.  Falls \'Spacing\' ausgewählt wurde, kann auch [benutzerdefinierter Abstand](Custom_Spacing/de.md) ausgewählt werden.
+
+8.  
+    **Pick selected face**wird verwendet, um die Fläche für die Verteilung der Bewehrungsstäbe zu bestätigen oder zu ändern.
+
+9.  Schaltfläche **OK** oder **Anwenden** drücken, um die Bewehrungsstäbe zu erstellen.
+
+10. Schaltfläche **Abbrechen** drücken, um den Aufgaben-Bereich zu verlassen.
 
 <img alt="" src=images/StraightRebarDialog.png  style="width:250px;"> 
-*Aufgaben-Ansicht für das Arch Bewehrungsstab gerade-Werkzeug*
+*Aufgaben-Bereich für das Werkzeug Arch Armierung GeradlinigeBewehrung*
 
 
 
@@ -99,28 +73,16 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 -    **Spacing**: Der Abstand zwischen den Achsen der Bewehrungsstäbe.
 
-## Scripting
 
 
-<div class="mw-translate-fuzzy">
-
-## Scripting 
+## Skripten
 
 
 **Siehe auch:**
 
-[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
+[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Gerader Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
+Das Werkzeug Armierung GeradlinigeBewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python
@@ -266,15 +228,6 @@ StraightRebar.editStraightRebar(Rebar3, 50, ("Right Side", 20), 100, 100,
 StraightRebar.editStraightRebar(Rebar4, 50, ("Right Side", 50), 100, 100,
                                 24, True, 7, "Vertical")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

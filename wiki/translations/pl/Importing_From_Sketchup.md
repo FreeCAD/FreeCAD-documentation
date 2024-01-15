@@ -1,30 +1,38 @@
 # Importing From Sketchup/pl
-{{Fake heading|sub=4|< Back to [[FreeCAD Howto Import Export]]}}
+{{Fake heading|sub=4|< Powrót do [FreeCAD Jak importować, eksportować](FreeCAD_Howto_Import_Export.md)}}
 
-## Best Method 
-
-
+## Najlepsza metoda 
 
 
-From experience, currently the best method to import a file from Sketchup is to use the Collada (\*.dae) format. FreeCAD does not natively support the Collada format. To have this functionality in FreeCAD, the user needs to install a Python module for importing and exporting the format. It\'s a relatively easy task to perform and instructions can be found on the [Extra python modules](Extra_python_modules.md) page. The direct link to the instructions is - [Extra python modules: pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada).
 
-## Importing Collada (\*.dae) files 
 
-Providing the pyCollada module has been installed, you can open or import Collada files just like any other. Select the File menu and then pick either Open or Import. Select your Collada file and click Open. You can filter the file type by selecting the Files of type pull down in the Open or Import dialog and select Collada (\*.dae) from the list.
+Z doświadczenia wynika, że obecnie najlepszą metodą importu pliku ze Sketchup jest użycie formatu Collada *(\*.dae)*. FreeCAD nie obsługuje natywnie formatu Collada. Aby mieć tę funkcjonalność w FreeCAD, użytkownik musi zainstalować moduł Python do importowania i eksportowania tego formatu. Jest to stosunkowo łatwe zadanie do wykonania, a instrukcje można znaleźć na stronie [Dodatkowe moduły Python](Extra_python_modules/pl.md). Bezpośredni link do instrukcji to - [Extra python modules: pyCollada](http://www.freecadweb.org/wiki/index.php?title=Extra_python_modules#pyCollada).
 
-## Alternatives
 
-Using a Sketchup STL export plugin, you may also chose to use that format that FreeCAD supports natively. There are a number of these plugins available for Sketchup and some work better than others. Some research my be requires of the user to determine which one will best serve their needs.
 
-## Notes
+## Import plików Collada (\*.dae) 
 
-Both Collada (\*.dae) and STL are mesh formats. To use these files within FreeCAD, which works primarily with solids, additional work to the objects imported using these formats will in most cases be required.
+Po zainstalowaniu modułu pyCollada można otwierać lub importować pliki Collada tak jak wszystkie inne. Wybierz menu Plik, a następnie opcję Otwórz lub Importuj. Wybierz plik Collada i kliknij Otwórz. Możesz filtrować typ pliku, wybierając rozwijaną listę Pliki typu w oknie dialogowym Otwórz lub Importuj i wybierając Collada *(\*.dae)* z listy.
 
-## Related
 
--   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md)
--   [Import Export](Import_Export.md)
--   [Import Export Preferences](Import_Export_Preferences.md)
+
+## Alternatywy
+
+Korzystając z wtyczki eksportu Sketchup STL, można również wybrać ten format, który FreeCAD obsługuje natywnie. Istnieje wiele takich wtyczek dostępnych dla Sketchup, a niektóre z nich działają lepiej niż inne. Użytkownik może być zmuszony do sprawdzenia, która z nich najlepiej zaspokoi jego potrzeby.
+
+
+
+## Uwagi
+
+Zarówno Collada *(\*.dae)*, jak i STL są formatami siatki. Aby użyć tych plików w programie FreeCAD, który działa głównie z bryłami, w większości przypadków wymagana będzie dodatkowa praca z obiektami zaimportowanymi przy użyciu tych formatów.
+
+
+
+## Powiązane
+
+-   [FreeCAD Jak importować, eksportować](FreeCAD_Howto_Import_Export.md)
+-   [Import Eksport](Import_Export/pl.md)
+-   [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md)
 
 
 

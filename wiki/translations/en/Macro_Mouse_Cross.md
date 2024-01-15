@@ -8,7 +8,7 @@
 |Version=0.05
 |Date=2020-08-06
 |FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/f/ff/Macro_Mouse_Cross.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/f/ff/Macro_Mouse_Cross.png ToolBar Icon]
 }}
 
 ## Description
@@ -204,11 +204,11 @@ except Exception:
 
 ArrowCursor, UpArrowCursor, CrossCursor, WaitCursor, IBeamCursor, SizeVerCursor, SizeHorCursor SizeBDiagCursor, SizeFDiagCursor, SizeAllCursor, BlankCursor, SplitVCursor, SplitHCursor PointingHandCursor, ForbiddenCursor, OpenHandCursor, ClosedHandCursor, WhatsThisCursor, BusyCursor, BitmapCursor
 
-## Limitation
+## Limitations
 
-The cursor can change appearance depending on the used Workbench, he must repeat the operation.
-The cursor can be subtituer to the other sliders (ex: expansion of a window, corner\...).
-The grid is permanent.
+-   The cursor can change appearance depending on the used Workbench, in which case the macro must be run again.
+-   The cursor can be substituted (for example when expanding of a window).
+-   The grid is permanent.
 
 
 

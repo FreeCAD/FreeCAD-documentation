@@ -59,25 +59,73 @@
 
 ### Материалы
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Твердотельный материал](FEM_MaterialSolid/ru.md): Позволяет выбрать твердый материал из базы данных.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Текучий материал](FEM_MaterialFluid/ru.md): Позволяет выбрать текучий материал из базы данных.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Нелинейный механический материал](FEM_MaterialMechanicalNonlinear/ru.md): Позволяет добавить нелинейную механическую модель материала.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [Армированный материал (бетон)](FEM_MaterialReinforced/ru.md): Позволяет выбрать из базы данных армированные материалы, состоящие из матрицы и армирования.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Material editor](FEM_MaterialEditor/ru.md): Открыть редактор материалов для их редактирования.
+
+
+</div>
 
 
 
 ### Геометрия элемента 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Поперечное сечение балки](FEM_ElementGeometry1D/ru.md): Создает условие поперечного сечения балки для МКЭ.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Вращение балки](FEM_ElementRotation1D/ru.md): Создает условие поворота балки для МКЭ.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Толщина листа материала](FEM_ElementGeometry2D/ru.md): Создает условие толщины листа материала.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -87,17 +135,7 @@
 
 </div>
 
-
-
-
-<div class="mw-translate-fuzzy">
-
-### Электростатические ограничения 
-
-
-</div>
-
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:" height="32px;"> [Electromagnetic constraints](FEM_CompEmConstraints.md): This is an icon menu in the FEM Constraints toolbar that holds the following constraints:
+### Electromagnetic boundary conditions 
 
 
 <div class="mw-translate-fuzzy">
@@ -107,13 +145,19 @@
 
 </div>
 
-  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Constraint current density](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Current density boundary condition](FEM_ConstraintCurrentDensity.md): Used to define a current density. <small>(v0.21)</small> 
 
-  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Constraint magnetization](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Magnetization boundary condition](FEM_ConstraintMagnetization.md): Used to define a magnetization. <small>(v0.21)</small> 
 
 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Жидкостные ограничения 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -123,15 +167,33 @@
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md): Used to define an initial pressure for a body (volume). <small>(v0.21)</small> 
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Граничное условие скорости потока](FEM_ConstraintFlowVelocity/ru.md): Применяется для задания скорости потока как граничного условия на ребре (2D) или грани (3D).
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Геометрические Ограничения 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Constraint plane rotation](FEM_ConstraintPlaneRotation/ru.md): Используется для определения ограничения плоского вращения на плоской поверхности.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -141,17 +203,47 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Constraint transform](FEM_ConstraintTransform/ru.md): Используется для назначения ограничения трансформации на грани.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Механические ограничения 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Constraint fixed](FEM_ConstraintFixed/ru.md): Используется для определения ограничения с фиксацией точки/грани/поверхности.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [Ограничение перемещения](FEM_ConstraintDisplacement/ru.md): Используется для определения ограничений смещения для точки/грани/поверхности.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Constraint contact](FEM_ConstraintContact/ru.md): Используется для определения контактного ограничения между двумя поверхностями.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -161,45 +253,75 @@
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ru.md): Используется для определения силы в \[N\], приложенной равномерно к выбираемой поверхности в определяемом направлении.
-
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ru.md): Используется для определения ограничения давления.
-
--   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Constraint centrif](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
-
--   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ru.md): используется для определения ускорения свободного падения, действующего на модель.
-
-
-
-### Температурные ограничения 
-
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature/ru.md): Используется для определения начальной температуры тела.
-
--   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux/ru.md): Используется для определения ограничений тепловых потоков на поверхностях.
-
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature/ru.md): Используется для определения температурных ограничений для точки/грани/поверхности.
-
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Задать тело, являющееся источником тепла](FEM_ConstraintBodyHeatSource/ru.md): Создает граничное условие для МКЭ определяющее тело, являющееся источником тепла.
-
-
-
-### Ограничения без решателя 
+  - <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary/ru.md): Create fluid boundary condition on face entity for Computional Fluid Dynamics.
+-   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ru.md): Используется для определения силы в \[N\], приложенной равномерно к выбираемой поверхности в определяемом направлении.
 
 
 </div>
 
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ru.md): Используется для определения подшипниковых ограничений.
 
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ru.md): Используется для определения редукторных ограничений.
+<div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ru.md): Используется для определения ограничений шкива.
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure/ru.md): Используется для определения ограничения давления.
+
+
+</div>
+
+  - <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Centrifugal load](FEM_ConstraintCentrif.md): Used to define a centrifugal body load constraint. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Constraint self weight](FEM_ConstraintSelfWeight/ru.md): используется для определения ускорения свободного падения, действующего на модель.
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
+### Температурные ограничения 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature/ru.md): Используется для определения начальной температуры тела.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Constraint heatflux](FEM_ConstraintHeatflux/ru.md): Используется для определения ограничений тепловых потоков на поверхностях.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature/ru.md): Используется для определения температурных ограничений для точки/грани/поверхности.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Задать тело, являющееся источником тепла](FEM_ConstraintBodyHeatSource/ru.md): Создает граничное условие для МКЭ определяющее тело, являющееся источником тепла.
+
+
+</div>
 
 ### Overwrite Constants 
 
@@ -258,14 +380,6 @@ Translations:FEM Module/141/ru
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Решатель CalculiX (экспериментальный)](FEM_SolverCalculiX/ru.md): Создает решатель МКЭ CalculiX (экспериментальный).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer/ru.md): Создает контроллер решателя для Элмера. Он не зависит от других объектов решателя.
 
 
@@ -287,7 +401,7 @@ Translations:FEM Module/141/ru
 
 </div>
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Mechanical equations](FEM_CompMechEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Mechanical equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -299,7 +413,7 @@ Translations:FEM Module/141/ru
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Deformation equation](FEM_EquationDeformation.md): Equation for the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Solver Elmer](FEM_SolverElmer.md) to perform nonlinear mechanical analyses (deformations). <small>(v0.21)</small> 
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:" height="32px;"> [Electromagnetic equations](FEM_CompEmEquations.md): This is an icon menu in the FEM Equations toolbar that holds the following equations: <small>(v0.21)</small> 
+### Electromagnetic equations 
 
 
 <div class="mw-translate-fuzzy">
@@ -419,21 +533,15 @@ Translations:FEM Module/141/ru
 
 </div>
 
+### Filter functions 
 
-<div class="mw-translate-fuzzy">
+  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
 
--   <img alt="" src=images/Fem-post-geo-plane.svg  style="width:32px;"> [Filter functions](FEM_PostCreateFunctions/ru.md): Used to define how the result mesh is cut for the [Function cut filter](FEM_PostFilterCutFunction/ru.md) and [Region clip filter](FEM_PostFilterClipRegion/ru.md).
+  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
 
+  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
 
-</div>
-
-  - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Filter function plane](FEM_PostCreateFunctionPlane.md): Cuts the result mesh with a plane.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Filter function sphere](FEM_PostCreateFunctionSphere.md): Cuts the result mesh with a sphere.
-
-  - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Filter function cylinder](FEM_PostCreateFunctionCylinder.md): Cuts the result mesh with a cylinder. <small>(v0.21)</small> 
-
-  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Filter function box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
+  - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Box](FEM_PostCreateFunctionBox.md): Cuts the result mesh with a box. <small>(v0.21)</small> 
 
 
 
@@ -465,6 +573,30 @@ Translations:FEM Module/141/ru
 
 -   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo/ru.md):
 
+## Obsolete tools 
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Fluid boundary condition](FEM_ConstraintFluidBoundary/ru.md): Create fluid boundary condition on face entity for Computional Fluid Dynamics.
+
+
+</div>
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Constraint bearing](FEM_ConstraintBearing/ru.md): Используется для определения подшипниковых ограничений.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Constraint gear](FEM_ConstraintGear/ru.md): Используется для определения редукторных ограничений.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Constraint pulley](FEM_ConstraintPulley/ru.md): Используется для определения ограничений шкива.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Решатель CalculiX (экспериментальный)](FEM_SolverCalculiX/ru.md): Создает решатель МКЭ CalculiX (экспериментальный).
+
+
+</div>
+
 
 
 ## Настройки
@@ -479,7 +611,15 @@ Translations:FEM Module/141/ru
 
 [Установка FEM](FEM_Install/ru.md): подробное описание по установке(настройке) внешних программ используемых для работы верстака.
 
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): tips regarding geometry preparation for FEM and meshing.
+
+
+<div class="mw-translate-fuzzy">
+
 [FEM Mesh](FEM_Mesh/ru.md): дополнительная информация о получении сетки для анализа методом конечных элементов.
+
+
+</div>
 
 [FEM Solver](FEM_Solver/ru.md): дополнительная информация о различных решателях метода конечных элементов, доступных в верстаке, и о тех, которые могут быть использованы в будущем.
 

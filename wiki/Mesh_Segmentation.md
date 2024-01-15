@@ -16,7 +16,7 @@ The **Mesh Segmentation** command creates separate mesh segments for specified s
 
 1.  Select a single mesh object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_Segmentation.svg" width=16px> [Mesh Segmentation](Mesh_Segmentation.md)** button.
+    -   Press the **<img src="images/Mesh_Segmentation.svg" width=16px> [Create mesh segments...](Mesh_Segmentation.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_Segmentation.svg" width=16px> Create mesh segments...** option from the menu.
 3.  The **Mesh segmentation** task panel opens.
 4.  Optionally check the **Smooth mesh** option and specify a value for the smoothness of the mesh. The higher the value the smoother the mesh is assumed to be. Specifying {{Value|0}} has the same effect as unchecking this option. Do not select this option if you want to create planar segments.

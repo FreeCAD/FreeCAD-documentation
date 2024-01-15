@@ -17,7 +17,7 @@ L\'outil **Rainure** fait pivoter une esquisse ou un profil sélectionné autour
 
 
 
-*Ci-dessus : l'esquisse (A) tourne autour de l'axe (B); la rainure résultante sur le solide (C) est illustrée à droite.*
+*Ci-dessus : l'esquisse (A) tourne autour de l'axe (B).<br>La rainure résultante sur le solide (C) est illustrée à droite.*
 
 
 

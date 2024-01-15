@@ -34,7 +34,7 @@ L\'objet sera édité en utilisant son mode par défaut. Ce mode d\'édition est
 
 ### <img alt="" src=images/Std_UserEditModeTransform.svg  style="width:24px;"> Transformer 
 
-L\'objet aura son placement modifiable avec la commande [Std Transformation manipulation](Std_TransformManip/fr.md).
+L\'objet aura son placement modifiable avec la commande [Std Transformer](Std_TransformManip/fr.md).
 
 
 

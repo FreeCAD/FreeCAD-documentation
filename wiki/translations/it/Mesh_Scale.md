@@ -18,11 +18,11 @@ Il comando **Scala** scala gli oggetti mesh.
 
 ## Utilizzo
 
-1.  Selezionaare uno o più oggetti mesh.
+1.  Selezionare uno o più oggetti mesh.
 2.  Esistono diversi modi per invocare il comando:
-    -   Premere il bottone **<img src="images/Mesh_Scale.svg" width=16px> [Mesh Scale](Mesh_Scale/it.md)**.
-    -   Selezionare l\'opzione **Meshes → <img src="images/Mesh_Scale.svg" width=16px> Scale...** dal menu.
-3.  Il box dialogo **Scaling** si apre.
+    -   Premere il bottone **<img src="images/Mesh_Scale.svg" width=16px> [Scala...](Mesh_Scale/it.md)**.
+    -   Selezionare l\'opzione **Mesh → <img src="images/Mesh_Scale.svg" width=16px> Scala...** dal menu.
+3.  Il box dialogo **Scalatura** si apre.
 4.  Specificare un fattore di scala, il valore deve essere maggiore di {{Value|0}}.
 5.  Premere il bottone {{button|OK}} per terminare il comando.
 
@@ -30,7 +30,7 @@ Il comando **Scala** scala gli oggetti mesh.
 
 ## Script
 
-Vedere anche: [Script di base per FreeCAD](FreeCAD̠_Scripting_Basics/it.md)
+Vedere anche: [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md)
 
 Per scalare una mesh usare il suo metodo `transformGeometry`.
 

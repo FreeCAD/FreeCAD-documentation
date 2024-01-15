@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD的发展历史可以从2001年1月讲起。那时[Jürgen Riegel开始为Cas](User_Jriegel.md).CADE项目工作。这个项目是一个商用软件开发框架。它包括一个[几何建模内核](Glossary/zh-cn#Geometric_modeling_kernel.md)（或者叫CAD内核）。这个内核在2000年发布于一个开源协议之下，并更名为[开放的小瀑布](Glossary#Open_CASCADE.md)(缩写CAS.CADE的原意：为计算机辅助设计和工程服务的计算机辅助软件)。这就使得开发一个开源的3D CAD软件成为可能，因为非得自己从头开始编织CAD内核将会耗费巨大的工作量。
+FreeCAD的发展历史可以从2001年1月讲起。那时[Jürgen Riegel](User_Jriegel.md)开始为Cas.CADE项目工作。这个项目是一个商用软件开发框架。它包括一个[几何建模内核](Glossary/zh-cn#Geometric_modeling_kernel.md)（或者叫CAD内核）。这个内核在2000年发布于一个开源协议之下，并更名为[开放的小瀑布](Glossary#Open_CASCADE.md)(缩写CAS.CADE的原意：为计算机辅助设计和工程服务的计算机辅助软件)。这就使得开发一个开源的3D CAD软件成为可能，因为非得自己从头开始编织CAD内核将会耗费巨大的工作量。
 
 
 </div>
@@ -91,12 +91,12 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 
 <div class="mw-translate-fuzzy">
 
-[Yorik van Havre](User_Yorik.md)2008年加入了这个项目，开始工作于[绘图模块](Draft_Workbench/zh-cn.md)。在那之前，用户没法通过[用户图形界面创建两维几何体](Glossary/zh-cn#GUI.md)。这个模块完全采用Python开发，而不是C++，后者是FreeCAD采用的核心编程语言。这就证明了Python集成的成功，它可以用来扩展FreeCAD的能力或定制FreeCAD。Yorik除了制图模块，还致力于扩展FreeCAD的文档，并成了FreeCAD实际意义上的艺术总监，因为他为FreeCAD的用户图形界面创作出很多图标，[定义了它的风格](Artwork/zh-cn.md)。
+[Yorik van Havre](User_Yorik.md)2008年加入了这个项目，开始工作于[绘图模块](Draft_Workbench/zh-cn.md)。在那之前，用户没法通过[用户图形界面](Glossary/zh-cn#GUI.md)创建两维几何体。这个模块完全采用Python开发，而不是C++，后者是FreeCAD采用的核心编程语言。这就证明了Python集成的成功，它可以用来扩展FreeCAD的能力或定制FreeCAD。Yorik除了制图模块，还致力于扩展FreeCAD的文档，并成了FreeCAD实际意义上的艺术总监，因为他为FreeCAD的用户图形界面创作出很多图标，[定义了它的风格](Artwork/zh-cn.md)。
 
 
 </div>
 
-FreeCAD的0.7版在2009年4月发布。它第一次包含了绘图模块。零件模块提供了一个简单的[CSG建设性实体几何元素工作流程](Glossary/zh-cn#Constructive_Solid_Geometry.md)，先创建基础形状，然后通过零件菜单，对他们做布尔运算。它也有一些扩展，可以实现2D轮廓和倒角操作。
+FreeCAD的0.7版在2009年4月发布。它第一次包含了绘图模块。零件模块提供了一个简单的[CSG建设性实体几何元素](Glossary/zh-cn#Constructive_Solid_Geometry.md)工作流程，先创建基础形状，然后通过零件菜单，对他们做布尔运算。它也有一些扩展，可以实现2D轮廓和倒角操作。
 
 ····2009年7月发布的0.8版中，可以看到制图模块的更多功能，包括新的尺寸工具。零件模块有了新的工具条，还有新的工具：旋转和交并。
 

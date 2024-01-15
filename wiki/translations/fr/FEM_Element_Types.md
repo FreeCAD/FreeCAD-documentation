@@ -3,6 +3,8 @@
 
 Cette description est basée sur le format MED décrit dans \[<https://hammi.extra.cea.fr/static/MED/web_med/logiciels/med-2.3.1/doc/html/modele_de_donnees.html#3>. modèle de données\].
 
+
+
 ## Élément Segment 
 
 <img alt="" src=images/FEM_mesh_elements_1_segment.svg  style="width:600px;">
@@ -12,6 +14,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
   E1      N1         N2         N3
 
   : **Arêtes de Seg2 et Seg3**
+
+
 
 ## Élément Triangle 
 
@@ -43,6 +47,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : Face par Noeud du Tria6
 
+
+
 ## Élément Quadrilatère 
 
 <img alt="" src=images/FEM_mesh_elements_3_quadrangle.svg  style="width:600px;">
@@ -73,6 +79,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
   F1     N1        N5        N2        N6        N3        N7        N4        N8        N1
 
   : Face par noeuds du Quad8
+
+
 
 ## Élément Tétraèdre 
 
@@ -115,6 +123,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
   F4     N3        N10       N4        N8        N1        N7        N3
 
   : Faces par noeuds du Tetra10
+
+
 
 ## Élément Hexaèdre 
 
@@ -170,6 +180,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
 
   : Faces par noeud d\'Hexa20
 
+
+
 ## Élément Pentaèdre (prisme) 
 
 <img alt="" src=images/FEM_mesh_elements_6_pentahedron.svg  style="width:600px;">
@@ -206,7 +218,7 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
   F4     N2        N5        N6        N3        N2
   F5     N3        N6        N4        N1        N3
 
-  : Faces par noeuds du of Penta6
+  : Faces par noeuds du Penta6
 
   Face   Noeud 1   Noeud 2   Noeud 3   Noeud 4   Noeud 5   Noeud 6   Noeud 7   Noeud 8   Noeud 1
            
@@ -217,6 +229,8 @@ Cette description est basée sur le format MED décrit dans \[<https://hammi.ext
   F5     N3        N15       N6        N12       N4        N13       N1        N9        N3
 
   : Faces par noeuds du Penta15
+
+
 
 ## Élément Pyramide 
 

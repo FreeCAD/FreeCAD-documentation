@@ -13,21 +13,33 @@
 
 </div>
 
+
+
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Создаёт ограничения для МКЭ по температурным границам.
+
+
+</div>
+
+
 
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [FEM ConstraintTemperature](FEM_ConstraintTemperature.md)** button.
-    -   Select the **Model → Thermal Constraints → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Constraint temperature** option from the menu.
-2.  In the [3D view](3D_view.md) select the objects the constraint should be applied to, which can be a vertices (corners), edges, or faces.
+    -   Press the **<img src="images/FEM_ConstraintTemperature.svg" width=16px> [Temperature boundary condition](FEM_ConstraintTemperature.md)** button.
+    -   Select the **Model → Thermal boundary conditions and loads → <img src="images/FEM_ConstraintTemperature.svg" width=16px> Temperature boundary condition** option from the menu.
+2.  In the [3D view](3D_view.md) select the objects the boundary condition should be applied to, which can be a vertices (corners), edges, or faces.
 3.  Enter a temperature to apply to the objects.
 
 ### Option
 
-By default the constraint defines a temperature. By using the option **Concentrated heat Flux** a heat flux trough the area of the face (Watt per face area) can be specified.
+By default, this feature defines a temperature boundary condition. By using the option **Concentrated heat flux**, one can specify a heat flux value (in mW) in each node belonging to the selected geometrical entity.
+
+
 
 ## Примечания
 

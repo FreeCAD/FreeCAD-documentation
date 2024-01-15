@@ -8,8 +8,10 @@
 |Version=00.03
 |Date=2017-10-24
 |FCVersion=0.16.6703
-|Download=[https://www.freecadweb.org/wiki/images/0/0b/Macro_Print_SceneGraph.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/0/0b/Macro_Print_SceneGraph.png ToolBar Icon]
 }}
+
+
 
 ## Descrizione
 

@@ -1,5 +1,5 @@
 # Manual:Preparing models for 3D printing/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 Una dintre principalele utilizări ale FreeCAD este de a produce obiecte în lumea reală. Acestea pot fi proiectate în FreeCAD și apoi materializat în diferite moduri, cum ar fi cele comunicarea altor persoane care le vor construi sau, tot mai des, trimise direct la o [3D printer](https://en.wikipedia.org/wiki/3D_printing) sau la o [CNC mill](https://en.wikipedia.org/wiki/Milling_%28machining%29). Capitolul său vă va arăta cum să vă pregătiți modelele pentru a le trimite la aceste mașini-unelte.
 
@@ -17,13 +17,15 @@ Dacă ați fost prudenți în timpul modelării, cea mai mare parte a dificultă
 
 Mai jos, vom presupune că sunt îndeplinite primele două criterii și că până acum puteți produce obiecte solide cu dimensiuni corecte. Vom vedea acum cum să abordăm al treilea punct.
 
+
+
 ### Exportarea feliilor 
 
 Aceasta este metoda cea mai frecvent utilizată pentru tipărirea 3D. Obiectul 3D este exportat către un alt program (dispozitivul de feliere), care va genera codul G de la obiect, prin împărțirea acestuia în straturi subțiri (de aici numele), care vor reproduce mișcările pe care le va face imprimanta 3D. Deoarece multe dintre aceste imprimante sunt construite acasă, există adesea diferențe mici de la una la alta. Aceste programe oferă de obicei posibilități avansate de configurare care vă permit să adaptați ieșirea exact pentru caracteristicile imprimantei 3D.
 
 De fapt Imprimarea 3D este, totuși, un subiect prea vast pentru acest manual. Dar vom vedea cum să exportați și să utilizați acești sliceri pentru a verifica dacă output-ul este corectă.
 
-Conversia obiectelor în ochiuri de plase
+ Conversia obiectelor în ochiuri de plase
 
 Niciunul dintre sliceri nu va prelua, în acest moment, o geometrie solidă pe măsură ce o producem în FreeCAD. Așa că va trebui să convertim pentru început orice obiect pe care dorim să-l tipărim 3 D într-o plasă [mesh](https://en.wikipedia.org/wiki/Polygon_mesh), pe care se poate deschide feliatorul. Din fericire, transformarea unei rețele într-un solid nu este o operație complicată, dimpotrivă, transformarea unui solid într-o rețea, este foarte simplă. Tot ce trebuie, este să fim atenți, pentru că se va produce degradarea menționată mai sus. Trebuie să verificăm dacă degradarea rămâne în limite acceptabile.
 
@@ -75,6 +77,8 @@ Toate manipulările cu plase, în FreeCAD, sunt realizate de un alt atelier de l
 
 Dacă nu dețineți o imprimantă, este de obicei foarte ușor să găsiți servicii comerciale care vă vor tipări și trimite prin poștă. Printre cele celebre sunt [Shapeways](http://www.shapeways.com/) și [Sculpteo](http://www.sculpteo.com/), dar veți găsi, de obicei, alții în orașul dvs. În toate orașele mari, veți găsi astăzi [Fab labs](https://en.wikipedia.org/wiki/Fab_lab), care sunt ateliere echipate cu o gamă de mașini de producție 3D, aproape întotdeauna au cel puțin o imprimantă 3D. Laboratoarele Fab sunt, de obicei, spații comunitare, care vor fi utilizate pentru mașinile lor, contra cost sau gratuit, în funcție de laboratorul Fab, dar vă vor învăța cum să utilizați și să promovați alte activități în jurul producției 3D.
 
+
+
 ### Utilizare Slic3r 
 
 [Slic3r](http://slic3r.org/) este o aplicație care convertește obiectele STL în cod G care poate fi trimise direct la imprimante 3D. Ca și FreeCAD, acesta este gratuit, open source și rulează pe Windows, Mac OS și Linux. Configurarea corectă a lucrurilor pentru imprimarea 3D este un proces complicat, în care trebuie să aveți o bună cunoaștere a imprimantei dvs. 3D, deci nu este foarte util să generați codul G înainte de a merge la printat (codul dvs G ar putea să nu meargă pe o altă imprimantă), dar este oricum util pentru a verifica dacă fișierul nostru va fi printabil fără probleme.
@@ -82,6 +86,8 @@ Dacă nu dețineți o imprimantă, este de obicei foarte ușor să găsiți serv
 Acesta este fișierul nostru exportat STL deschis în Slic3r. Prin utilizarea funcției **preview** tab, și deplasând cursorul din dreapta, putem vizualiza calea pe care urmează să o urmeze imprimanta 3D.
 
 ![](images/Exercise_meshing_03.jpg )
+
+
 
 
 <div class="mw-translate-fuzzy">

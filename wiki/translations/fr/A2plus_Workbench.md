@@ -66,7 +66,7 @@ Plus vous ajoutez de pièces, plus il est important de conserver une trace. A2p
 Lors de la création d\'une contrainte, une boîte de dialogue s\'affiche après avoir appuyé sur un bouton de la barre d\'outils de contrainte:
 
 ![](images/A2p_ConstraintPropertiesDialog.png ) 
-*Ci-dessus: la boîte de dialogue Propriétés de la contrainte A2plus*
+*Ci-dessus : la boîte de dialogue Propriétés de la contrainte A2plus*
 
 Pour certaines contraintes, il vous permet de modifier la direction des contraintes. Avec le bouton **<img src="images/A2p_solver.svg" width=24px> Solve** vous pouvez vérifier au préalable si cette nouvelle contrainte peut être résolue par A2plus. Sinon, consultez la section [Dépannage](#D.C3.A9pannage.md).
 
@@ -248,7 +248,7 @@ Avec le menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg st
 
 ## Préférences
 
-Les préférences de a2plus sont accessibles via le menu  **Edition → [Préférences](Preferences_Editor/fr.md)** de FreeCAD et dans la section \"A2plus\". Vous pouvez définir les options suivantes :
+Les préférences de a2plus sont accessibles via le menu  **Édition → [Préférences](Preferences_Editor/fr.md)** de FreeCAD et dans la section \"A2plus\". Vous pouvez définir les options suivantes :
 
 
 
@@ -282,8 +282,8 @@ Activez la mise à jour récursive des pièces importées: Ouvre tous les sous-a
 
 
 
-Utilisez un nom topologique expérimental: Lors de l'importation de pièces dans l'assemblage, un algorithme génère des noms topologiques pour chaque sous-élément de la forme importée. Les noms topologiques sont écrits dans {{PropertyData/fr|mux Info}}. Lorsqu\'une pièce importée doit être mise à jour, ces noms topologiques sont utilisés pour mettre à jour les sous-éléments des contraintes. Ainsi, les assemblages deviennent plus robustes face aux nombres volatils de sous-éléments de FreeCAD.
-**Remarque:** Cela augmente la taille des fichiers et le temps de calcul lors de l\'importation de pièces. Si la dénomination topologique doit être utilisée, elle doit être activée avant la création de l\'assemblage.
+Utilisez un nom topologique expérimental : Lors de l'importation de pièces dans l'assemblage, un algorithme génère des noms topologiques pour chaque sous-élément de la forme importée. Les noms topologiques sont écrits dans {{PropertyData/fr|mux Info}}. Lorsqu\'une pièce importée doit être mise à jour, ces noms topologiques sont utilisés pour mettre à jour les sous-éléments des contraintes. Ainsi, les assemblages deviennent plus robustes face aux nombres volatils de sous-éléments de FreeCAD.
+**Remarque :** Cela augmente la taille des fichiers et le temps de calcul lors de l\'importation de pièces. Si la dénomination topologique doit être utilisée, elle doit être activée avant la création de l\'assemblage.
 
  
 
@@ -292,18 +292,18 @@ Héritage par transparence des pièces et des sous-assemblages: Utilisez les par
 
    
 
-N\'importez pas de formes invisibles: Cela masquera les formes de données/construction invisibles. **Remarque:** Aucune contrainte ne doit être connectée aux formes de référence/construction dans les sous-ensembles supérieurs ou autres, sinon vous risquez de casser l\'assemblage.
+N\'importez pas de formes invisibles: Cela masquera les formes de données/construction invisibles. **Remarque :** Aucune contrainte ne doit être connectée aux formes de référence/construction dans les sous-ensembles supérieurs ou autres, sinon vous risquez de casser l\'assemblage.
 
    
 
-Utilisez l\'union solide pour importer des pièces et des sous-assemblages: Toutes les pièces importées seront directement assemblées en tant que union.
+Utilisez l\'union solide pour importer des pièces et des sous-assemblages : Toutes les pièces importées seront directement assemblées en tant que union.
 Cette fonctionnalité est utile pour les simulations [FEM](FEM_Workbench/fr.md) ou [l'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
 
 
 
 ### Paramètres de l\'interface utilisateur 
 
-Afficher les contraintes dans la barre d\'outils: Si cette option n\'est pas utilisée, les boutons de la barre d\'outils pour les différentes contraintes ne sont pas visibles pour économiser de l\'espace dans la barre d\'outils. De nouvelles contraintes peuvent toujours être définies à l'aide de la boîte de dialogue *Outils de contrainte* (bouton de la barre d'outils <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">).
+Afficher les contraintes dans la barre d\'outils : Si cette option n\'est pas utilisée, les boutons de la barre d\'outils pour les différentes contraintes ne sont pas visibles pour économiser de l\'espace dans la barre d\'outils. De nouvelles contraintes peuvent toujours être définies à l'aide de la boîte de dialogue *Outils de contrainte* (bouton de la barre d'outils <img alt="" src=images/A2p_DefineConstraints.svg  style="width:24px;">).
 Utiliser le gestionnaire de fichiers natif de votre système d\'exploitation: si cette option est utilisée, vous obtenez la boîte de dialogue de fichier de votre système d\'exploitation lorsque vous sélectionnez des fichiers pour les assemblages.
 
  
@@ -312,9 +312,9 @@ Utiliser le gestionnaire de fichiers natif de votre système d\'exploitation: si
 
 ### Stockage des fichiers 
 
-Utiliser des chemins relatifs pour les pièces importées: UUtilise les chemins de fichiers relatifs aux fichiers de pièce.
-Utiliser des chemins absolus pour les pièces importées: Utilise des chemins de fichier absolus pour les fichiers de pièces.
-Tous les fichiers sont dans ce dossier de projet: Tous les fichiers de projet doivent être dans le dossier spécifié. Peu importe s\'ils se trouvent dans les sous-dossiers de ce dossier.**Remarque:** aucun fichier ne peut exister plusieurs fois dans le dossier (par exemple, dans différents sous-dossiers).
+Utiliser des chemins relatifs pour les pièces importées : Utilise les chemins de fichiers relatifs aux fichiers de pièce.
+Utiliser des chemins absolus pour les pièces importées : Utilise des chemins de fichier absolus pour les fichiers de pièces.
+Tous les fichiers sont dans ce dossier de projet: Tous les fichiers de projet doivent être dans le dossier spécifié. Peu importe s\'ils se trouvent dans les sous-dossiers de ce dossier.**Remarque :** aucun fichier ne peut exister plusieurs fois dans le dossier (par exemple, dans différents sous-dossiers).
 Cette option est utile pour travailler sur différentes machines car il suffit ensuite de copier le dossier du projet.
 
 
@@ -327,13 +327,13 @@ Tôt ou tard, vous aurez le problème qu\'A2plus ne peut pas résoudre les contr
 
 ### Utilisation de l\'outil de recherche de conflits 
 
-Il s\'agit de la méthode la plus sûre lorsque vous avez plusieurs contraintes: cet outil tente de résoudre une contrainte après l\'autre jusqu\'à ce qu\'il trouve la contrainte en conflit. Ensuite, vous pouvez continuer avec les autres stratégies pour résoudre la contrainte identifiée. L\'outil est appelé à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
+Il s\'agit de la méthode la plus sûre lorsque vous avez plusieurs contraintes : cet outil tente de résoudre une contrainte après l\'autre jusqu\'à ce qu\'il trouve la contrainte en conflit. Ensuite, vous pouvez continuer avec les autres stratégies pour résoudre la contrainte identifiée. L\'outil est appelé à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_SearchConstraintConflicts.svg  style="width:24px;">.
 
 
 
 ### Vérification de la direction de la contrainte 
 
-Parfois, les contraintes semblent être systématiquement définies mais elles ne peuvent néanmoins pas être résolues. Un exemple: supposons que vous ayez un ensemble de contraintes {{Variable|[plans Parallèles](#Plane_Parallel.md)}} pour deux plans. Vous souhaitez maintenant définir pour les mêmes plans la contrainte {{Variable|[plans coïncidents](#Plane_on_Plane.md)}} et A2plus ne peut pas résoudre ce problème. Alors les directions de contrainte des {{Variable|planesParallel}} et {{Variable|planeCoincident}} sont différentes. Utilisez la même direction pour les deux contraintes afin de résoudre ce problème.
+Parfois, les contraintes semblent être systématiquement définies mais elles ne peuvent néanmoins pas être résolues. Un exemple : supposons que vous ayez un ensemble de contraintes {{Variable|[plans Parallèles](#Plane_Parallel.md)}} pour deux plans. Vous souhaitez maintenant définir pour les mêmes plans la contrainte {{Variable|[plans coïncidents](#Plane_on_Plane.md)}} et A2plus ne peut pas résoudre ce problème. Alors les directions de contrainte des {{Variable|planesParallel}} et {{Variable|planeCoincident}} sont différentes. Utilisez la même direction pour les deux contraintes afin de résoudre ce problème.
 
 A2plus propose de vérifier automatiquement la bonne direction pour **toutes** les contraintes de l\'assemblage à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_ReAdjustConstraints.svg  style="width:24px;">.
 
@@ -403,7 +403,7 @@ Par conséquent, vérifiez qu\'au moins une de vos pièces de l\'ensemble a {{P
 
 Le solveur échoue souvent pour la contrainte {{Variable|angledPlanes}} si les deux plans sélectionnés ont actuellement un angle de 0 ° ou 180 °. (Les pièces ne sont pas déplacées en conséquence et dans l\'onglet \"Vue Rapport\" de FreeCAD, vous voyez \"*REACHED POS-ACCURACY :0.0*\".) Une solution consiste à faire pivoter une pièce de quelques degrés à l\'aide de la fonction de transformation de FreeCAD (cliquez avec le bouton droit de la souris sur la pièce dans l'arbre du modèle et sélectionnez dans le menu contextuel **Transformer**).
 
-**Remarque:** Assurez-vous qu\'au moins une pièce de la contrainte a la propriété {{PropertyData/fr|Position fixe}} définie sur *false*.
+**Remarque :** Assurez-vous qu\'au moins une pièce de la contrainte a la propriété {{PropertyData/fr|Position fixe}} définie sur *false*.
 
 ## Animation
 
@@ -413,7 +413,7 @@ A2plus propose des animations par glisser-déposer et via des scripts Python.
 
 ### Glisser
 
-Les animations de glissement sont interactives. Vous les déclenchez en faisant glisser une partie de l\'assemblage. Pour obtenir ce genre d\'animations:
+Les animations de glissement sont interactives. Vous les déclenchez en faisant glisser une partie de l\'assemblage. Pour obtenir ce genre d\'animations :
 
 1.  Contraindre complètement la partie dont le mouvement ou la rotation doit être animé.
 2.  Cliquez sur le bouton de la barre d\'outils <img alt="" src=images/A2p_MovePartUnderConstraints.svg  style="width:24px;">. Cela active le mode de glissement.
@@ -421,13 +421,13 @@ Les animations de glissement sont interactives. Vous les déclenchez en faisant 
 4.  Vous pouvez maintenant déplacer la souris et la pièce suivra le mouvement de la souris dans les contraintes définies.
 5.  Pour terminer le mode de glissement, faites un clic gauche dans l\'assemblage ou appuyez sur ÉCHAP.
 
-Voici un exemple d\'assemblage pour tester l\'animation de glissement: [A2p_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
+Voici un exemple d\'assemblage pour tester l\'animation de glissement : [A2p_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
 
 
 
-*Ci-dessus: l'animation de glissement à l'aide de l'exemple d'assemblage*
+*Ci-dessus : l'animation de glissement à l'aide de l'exemple d'assemblage*
 
 
 
@@ -435,7 +435,7 @@ Voici un exemple d\'assemblage pour tester l\'animation de glissement: [A2p_exam
 
 Bien que le mode glisser offre de belles animations interactives, elles ne sont parfois pas assez précises pour les screencasts ou les vidéos. Les animations scriptées ont l\'avantage d\'animer des mouvements et des rotations d\'une manière définie. Vous pouvez par exemple faire pivoter une pièce exactement de 10° d\'avant en arrière. Les exemples suivants utilisent un assemblage dans lequel une pièce doit être tournée. Si vous essayez d\'animer cela en utilisant le mode glisser, vous verrez à quel point il est difficile d\'obtenir une rotation d\'avant en arrière que vous pouvez par exemple montrez votre patron dans une présentation. Avec l\'exemple de script interactif, c\'est une tâche facile.
 
-Une animation scriptée fonctionne généralement de cette façon:
+Une animation scriptée fonctionne généralement de cette façon :
 
 1.  L\'assemblage est entièrement contraint.
 2.  Le script modifie un paramètre, par exemple la position ou l\'angle de rotation d\'une pièce.
@@ -505,7 +505,7 @@ while angle < 360: # exécute cette boucle jusqu'à ce que nous ayons fait un to
 
 </div>
 
-Pour utiliser le script pour effectuer l\'animation, nous devons:
+Pour utiliser le script pour effectuer l\'animation, nous devons :
 
 1.  Ouvrir le fichier d\'assemblage dans FreeCAD.
 2.  Ouvrir le fichier de script dans FreeCAD.
@@ -514,7 +514,7 @@ Pour utiliser le script pour effectuer l\'animation, nous devons:
 
 Pour vous entraîner, changez simplement quelque chose dans le script et exécutez-le ensuite. Par exemple, augmentez «step» à «5».
 
-Voici le résultat de l\'exemple d\'animation:
+Voici le résultat de l\'exemple d\'animation :
 
 ![](images/A2p_animated-example-result.gif )
 
@@ -526,12 +526,12 @@ Le premier exemple de script a montré comment créer une animation sans rétroa
 
 Cela peut être fait en utilisant une boîte de dialogue d\'animation personnalisée avec un curseur. En déplaçant le curseur, vous pouvez définir l\'angle de rotation et donc faire pivoter d\'avant en arrière à une position intéressante.
 
-Nous utilisons le même fichier d\'assemblage:[A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) et ce script Python: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97982).
+Nous utilisons le même fichier d\'assemblage :[A2p_animated-example.FCStd](https://forum.freecadweb.org/download/file.php?id=97554) et ce script Python: [A2p_animation-example-script.py](https://forum.freecadweb.org/download/file.php?id=97982).
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-Voici le contenu du script pour obtenir la boîte de dialogue d\'animation interactive:
+Voici le contenu du script pour obtenir la boîte de dialogue d\'animation interactive :
 
 
 <div class="mw-collapsible-content">
@@ -690,7 +690,7 @@ while AnimationDialog.isVisible():
 
 </div>
 
-La boîte de dialogue définie dans le script ressemble à ceci:
+La boîte de dialogue définie dans le script ressemble à ceci :
 
 ![](images/A2p_AnimationDialog.png )
 
@@ -698,13 +698,13 @@ La boîte de dialogue définie dans le script ressemble à ceci:
 
 ### Commandes de script 
 
-Pour mieux comprendre la syntaxe du script, voici quelques informations de commande: 
+Pour mieux comprendre la syntaxe du script, voici quelques informations de commande : 
 ```python starWheel.Placement.Rotation.Angle = math.radians(angle)```
 
 Ici, nous changeons la propriété de placement `Rotation.Angle` de la pièce récupérée précédemment en tant que `starWheel`. Cette propriété obtient l\'angle comme [radian](https://fr.wikipedia.org/wiki/Radian). La fonction `radians()` de la bibliothèque `math` convertit l\'angle du degré en radian.
 
-La propriété `Rotation.Angle` utilise l\'axe de placement actuel de la pièce (dans notre exemple l\'axe X). Pour faire pivoter la pièce, par ex. autour de l\'axe Z, on peut définir l\'axe de rotation (avant d\'appeler la commande de rotation) en utilisant la commande: 
-```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Au lieu de tourner, les pièces peuvent également être déplacées. Pour changer par exemple le placement dans la direction Y de la roue, la commande serait: 
+La propriété `Rotation.Angle` utilise l\'axe de placement actuel de la pièce (dans notre exemple l\'axe X). Pour faire pivoter la pièce, par ex. autour de l\'axe Z, on peut définir l\'axe de rotation (avant d\'appeler la commande de rotation) en utilisant la commande : 
+```python starWheel.Placement.Rotation.Axis = FreeCAD.Vector(0,0,1)``` Au lieu de tourner, les pièces peuvent également être déplacées. Pour changer par exemple le placement dans la direction Y de la roue, la commande serait : 
 ```python starWheel.Placement.Base.y = PositionShift``` Dans ce cas, nous ne définirions pas la variable `angle` mais `PositionShift` que nous modifions à chaque boucle.
 
 Il existe différentes manières de définir le placement d\'une pièce. Certains sont [documentés ici](Placement/fr.md). Malheureusement, il n\'y a pas (encore) de liste avec toutes les commandes de placement possibles. 

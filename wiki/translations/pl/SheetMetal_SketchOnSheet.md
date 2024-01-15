@@ -1,74 +1,77 @@
 ---
  GuiCommand:
    Name: SheetMetal SketchOnSheet
-   MenuLocation: SheetMetal , Sketch On Sheet metal
-   Workbenches: SheetMetal_Workbench
+   Name/pl: Arkusz Blachy: Szkic na arkuszu blachy
+   MenuLocation: SheetMetal , Szkic na arkuszu blachy
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **M** **S**
 ---
 
 # SheetMetal SketchOnSheet/pl
 
-## Description
-
-The <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md) command cuts holes along the folded walls of a sheet metal object. For the hole layout a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) is used.
-
-In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Pocket](PartDesign_Pocket.md) command, where holes are just cut along the sketch normal (local z axis), this tool acts as if it would unfold the sheet metal object, cut the holes, and refold the object.
-
-## Usage
-
-1.  Select a **planar face**
-2.  Select a coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) for the **hole layout** (preferably from the [tree view](Tree_view.md)).
-    -   **Note:** Don\'t forget the **Control**/**Command** key!
-3.  Activate the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Sketch On Sheet metal command using the:
-    -   
-        **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)
-**
-        
-        button
-
-    -   
-        **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Sketch On Sheet metal
-**
-        
-        drop down menu
-
-    -   keyboard shortcut: **M** then **S**
-
-## Notes
-
--   The sketch may contain more than just one outline.
--   Any outline has to touch the planar face, at least, otherwise it won\'t cut a hole at all.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
-
-### Data
 
 
-{{Properties_Title|Base}}
+## Opis
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+Polecenie <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Szkic na arkuszu blachy](SheetMetal_SketchOnSheet/pl.md) wycina otwory wzdłuż zagiętych ścian obiektu z blachy. Do rozmieszczenia otworów wykorzystuje się <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md).
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+W przeciwieństwie do polecenia <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Kieszeń](PartDesign_Pocket/pl.md) środowiska pracy Projekt Części, gdzie otwory są po prostu wycinane wzdłuż normalnej szkicu *(lokalnej osi Z)*, to narzędzie działa tak, jakby rozkładało obiekt z blachy, wycinało otwory i ponownie składało obiekt.
 
 
-{{Properties_Title|Parameters}}
 
--    **Sketch|Link**: \"Sketch on Sheetmetal\". Link to the hole layout/cut-out sketch.
+## Użycie
 
--    **base Object|LinkSub**: \"Base Object\". Link to the planar face where the cut-out starts.
+1.  Wybierz **płaską powierzchnię**.
+2.  Utwórz współpłaszczyznowy <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *(tj. leżący na tej samej płaszczyźnie)* dla **układu otworów** *(najlepiej w [Widoku drzewa](Tree_view/pl.md))*.
+    -   *Uwaga:*\' Nie zapomnij o klawiszu **Control**/**Command**!
+3.  Aktywuj polecenie <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> Szkic na arkuszu blachy używając:
+    -   Przycisku **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> '''Szkic na arkuszu blachy'''**.
+    -   Polecenia z menu **SheetMetal → <img src="images/SheetMetal_SketchOnSheet.svg" width=16px> Szkic na arkuszu blachy**.
+    -   Skrótu klawiaturowego: **M** następnie **S**
 
--    **kfactor|FloatConstraint**: \"Gap from Left Side\". Default: {{value|0,50}}.
 
-## Example
+
+## Uwagi
+
+-   Szkic może zawierać więcej niż jeden kontur.
+-   Każdy kontur musi przynajmniej dotykać powierzchni planarnej, w przeciwnym razie nie zostanie wycięty żaden otwór.
+
+
+
+## Właściwości
+
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt **Szkic na arkuszu blachy** wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **Etykieta|String**: Wartość domyślna: {{value|SketchOnSheet}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
+
+-    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Link do cechy nadrzędnej.
+
+-    **_Body|LinkHidden|ukryte**: Link ukryty do zawartości nadrzędnej.
+
+
+{{Properties_Title|Parametry}}
+
+-    **Szkic|Link**: \"Szkic na blasze\". Łącze do układu otworów/szkicu wycięcia.
+
+-    **Obiekt bazowy|LinkSub**: \"Obiekt bazowy\". Łącze do płaskiej powierzchni, od której rozpoczyna się wycięcie.
+
+-    **Współczynnik K|FloatConstraint**: \"Szczelina z lewej strony\". Wartość domyślna: {{value|0,50}}.
+
+
+
+## Przykład
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
-*A simple thingamajig*
+*Prosta rzecz do zrobienia*
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -76,25 +79,39 @@ A SheetMetal SketchOnSheet object is derived from a [Part Feature](Part_Feature.
 
 <div class="mw-collapsible-content">
 
-### Preparation
+### Przygotowanie
 
-This thingamajig is made of a folded sheet metal object with holes added.  And so one open contour sketch for the sheet metal and one sketch for the hole layout have to be prepared in advance.  One straight line of the first sketch must be coplanar to the other sketch plane, this will result in coplanar sketch and face used in the next steps.
+Ten przedmiot jest wykonany ze złożonej blachy z dodanymi otworami.
+Dlatego należy wcześniej przygotować jeden otwarty szkic konturu blachy i jeden szkic układu otworów.
+Pierwsza linia prosta pierwszego szkicu musi być współpłaszczyznowa względem drugiej płaszczyzny szkicu, co spowoduje, że szkic i powierzchnia będą współpłaszczyznowe w następnych krokach.
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
-*Just a contour and a hole layout*
+*Tylko kontur i układ otworów*
 
-### Workflow
 
-1.  Create a folded sheet metal object
-    1.  Select the **contour** sketch  <img alt="" src=images/SheetMetal_SketchOnSheet-02.png  style="width:240px;">
-    2.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_SketchOnSheet-03.png  style="width:240px;">  
-2.  Cut some holes
-    1.  Select the **planar face**
-    2.  Select the **hole layout** sketch  <img alt="" src=images/SheetMetal_SketchOnSheet-04.png  style="width:240px;">
-    3.  Press the  or use the keyboard shortcut:  <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:240px;">   Done!  
-3.  Some hints
-    1.  Check if the folded object\'s thickness is built to the right side.  <img alt="" src=images/SheetMetal_SketchOnSheet-06.png  style="width:240px;">   The yellow contour should lie on the top face of the bottom fold (as shown).  To reverse direction set the value of **Bend Side** property (Outside \<-\> Inside).  
-    2.  **Hole shapes** not touching the used planar face won\'t cut holes into the folded object.  <img alt="" src=images/SheetMetal_SketchOnSheet-07.png  style="width:240px;">  The lower rectangle which is hardly touching said face does cut a hole while the upper slot shape doesn\'t.
+
+### Przepływ pracy 
+
+1.  Utwórz zagięty obiekt z blachy
+    1.  Wybierz szkic **konturu**  <img alt="" src=images/SheetMetal_SketchOnSheet-02.png  style="width:240px;">.
+    2.  Naciśnij przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)** button
+        lub użyj skrutu:  <img alt="" src=images/SheetMetal_SketchOnSheet-03.png  style="width:240px;">
+2.  Wytnij kilka otworów
+    1.  Wybierz **płaską powierzchnię**
+    2.  Wybierz szkic układu otworów
+        <img alt="" src=images/SheetMetal_SketchOnSheet-04.png  style="width:240px;">
+    3.  Naciśnij przycisk **<img src="images/SheetMetal_SketchOnSheet.svg" width=16px> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md)** button
+        lub użyj skrutu: **M** + **S**
+        <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:240px;">
+        Done!  
+3.  Kilka wskazówek
+    1.  Sprawdź, czy grubość zagiętego obiektu jest budowana po prawej stronie.
+        <img alt="" src=images/SheetMetal_SketchOnSheet-06.png  style="width:240px;">
+        Żółty kontur powinien leżeć na górnej powierzchni dolnego zagięcia *(jak pokazano)*.
+        Aby odwrócić kierunek, ustaw wartość właściwości **Strona gięcia** *(Zewnętrzna \<-\> Wewnętrzna)*.
+    2.  **Kształty otworów** nie dotykające używanej płaskiej powierzchni nie będą wycinać otworów w złożonym obiekcie.
+        <img alt="" src=images/SheetMetal_SketchOnSheet-07.png  style="width:240px;">
+        Dolny prostokąt, który prawie nie dotyka wspomnianej powierzchni, wycina otwór, podczas gdy górny kształt szczeliny nie.
 
 
 </div>

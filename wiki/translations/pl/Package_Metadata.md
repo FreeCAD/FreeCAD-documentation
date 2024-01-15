@@ -9,95 +9,119 @@ Począwszy od wersji 0.20 programu FreeCAD, zewnętrzne dodatki (środowiska pra
 
 Ten dokument opisuje obecnie format pliku w wersji 1.
 
-The metadata file must be a valid, well-formed XML 1.0 document. It must be called \"package.xml\", and must exist in the base directory of the software package\'s primary branch (as specified by the [FreeCAD-addons .gitmodules file](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules)) in its git repository. Only the package.xml file from the primary branch is considered by the Addon Manager. All understood XML tags are in lowercase, but unrecognized tags are **not** an error. Most tags are optional, and some only apply to certain types of package contents (for example, only Workbenches currently provide a \"classname\" element). Unneeded or unrecognized elements are ignored.
+Plik metadanych musi być prawidłowym, dobrze uformowanym dokumentem XML 1.0. Musi on nosić nazwę \"package.xml\" i musi istnieć w katalogu bazowym głównej gałęzi pakietu oprogramowania *(jak określono w pliku [FreeCAD-addons .gitmodules](https://github.com/FreeCAD/FreeCAD-addons/blob/master/.gitmodules))* w jego repozytorium git. Tylko plik package.xml z głównej gałęzi jest brany pod uwagę przez Menadżera dodatków. Wszystkie zrozumiałe znaczniki XML są pisane małymi literami, ale nierozpoznane znaczniki nie stanowią błędu. Większość znaczników jest opcjonalna, a niektóre mają zastosowanie tylko do niektórych typów zawartości pakietów *(na przykład, tylko środowiska pracy zapewniają obecnie element \"classname\")*. Niepotrzebne lub nierozpoznane elementy są ignorowane.
 
-Any file path specified in package.xml must use the slash (\"/\") as the directory separator: on systems that expect a different separator during execution (e.g. Windows) FreeCAD will automatically convert to the correct separator.
+Każda ścieżka pliku określona w package.xml musi używać ukośnika *(\"/\")* jako separatora katalogu: w systemach, które oczekują innego separatora podczas wykonywania *(np. Windows)* FreeCAD automatycznie przekonwertuje go na prawidłowy separator.
 
-## Content elements 
+
+
+## Elementy zawartości 
+
+
 
 ### 
 
-The only top-level element allowed is , and the file may only contain one  element. Immediately subordinate to that are several required or optional elements, defined here. No other tags are permitted directly under the  element.
+Jedynym dozwolonym elementem najwyższego poziomu jest , a plik może zawierać tylko jeden element . Bezpośrednio pod nim znajduje się kilka wymaganych lub opcjonalnych elementów, zdefiniowanych tutaj. Żadne inne znaczniki nie są dozwolone bezpośrednio pod elementem .
 
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
 
-The  tag is the unique top-level tag in a package.xml file. All other tags are nested under it.
+Znacznik  jest unikalnym znacznikiem najwyższego poziomu w pliku package.xml. Wszystkie inne znaczniki są zagnieżdżone pod nim.
 
-#### Attributes
 
--   format=\"NUMBER\": Specifying the package.xml format being used. For this interface, you must specify format=\"1\".
--   xmlns=\"NAMESPACE\": Specifies the XML namespace for this package, and must be included exactly as shown above, as a link to <https://wiki.freecad.org/Package_Metadata>.
 
-#### Required child tags 
+#### Atrybuty
 
-The top-level  element must contain at least the following tags:
+-   format=\"NUMBER\": Określenie używanego formatu package.xml. Dla tego interfejsu należy określić format=\"1\".
+-   xmlns=\"NAMESPACE\": Określa przestrzeń nazw XML dla tego pakietu i musi być dołączona dokładnie tak, jak pokazano powyżej, jako link do <https://wiki.freecad.org/Package_Metadata>.
+
+
+
+#### Wymagane identyfikatory podrzędne 
+
+Element  najwyższego poziomu musi zawierać co najmniej następujące znaczniki:
 
 -   [](#.3Cname.3E.md)
 -   [](#.3Cversion.3E.md)
 -   [](#.3Cdate.3E.md)
 -   [](#.3Cdescription.3E.md)
--   [](#.3Cmaintainer.3E.md) (multiple, but at least one)
--   [](#.3Clicense.3E.md) (multiple, but at least one)
+-   [](#.3Cmaintainer.3E.md) *(wiele, ale co najmniej jeden)*
+-   [](#.3Clicense.3E.md) *(wiele, ale co najmniej jeden)*
 -   [](#.3Cicon.3E.md)
--   [](#.3Ccontent.3E.md) (container element for package content items)
+-   [](#.3Ccontent.3E.md) *(element kontenera dla elementów zawartości pakietu)*
 
-#### Optional child tags 
 
--   [](#.3Curl.3E.md) (multiple)
--   [](#.3Cauthor.3E.md) (multiple)
--   [](#.3Cdepend.3E.md) (multiple)
--   [](#.3Cconflict.3E.md) (multiple)
--   [](#.3Creplace.3E.md) (multiple)
--   [](#.3Ctag.3E.md) (multiple)
+
+#### Opcjonalne identyfikatory podrzędne 
+
+-   [](#.3Curl.3E.md) *(wiele)*
+-   [](#.3Cauthor.3E.md) *(wiele)*
+-   [](#.3Cdepend.3E.md) *(wiele)*
+-   [](#.3Cconflict.3E.md) *(wiele)*
+-   [](#.3Creplace.3E.md) *(wiele)*
+-   [](#.3Ctag.3E.md) *(wiele)*
 -   [](#.3Cfreecadmin.3E.md)
 -   [](#.3Cfreecadmax.3E.md)
 -   [](#.3Cpythonmin.3E.md)
 
-###  
 
-WYMAGANE
-
-The name of this package. Must only contain characters that are valid for filenames (disallowed characters are /\\?%\*:\|\"\<\> ).
 
 ###  
 
 WYMAGANE
 
-A version number that follows either the [semantic versioning 2.0 standard](https://semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https://calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type. Note that this cannot be left blank, some kind of version number must be assigned. When the Addon Manager detects an increase in version number it will display the \"update available\" information to users.
+Nazwa tego pakietu. Musi zawierać tylko znaki, które są prawidłowe dla nazw plików *(niedozwolone znaki to /\\?%\*:\|\"\<\> )*.
+
+
 
 ###  
 
 WYMAGANE
 
-The date of the current version, in the format YYYY-MM-DD or YYYY.MM.DD.
+Numer wersji zgodny ze standardem [semantic versioning 2.0](https://semver.org) (np. 1.0.2-beta) lub [CalVer style](https://calver.org/) (np. 2021.12.08). Należy pamiętać, że nie można dołączyć obu typów, a przełączanie między typami nie jest obsługiwane. Wewnętrznie kod nie ma pojęcia, który typ został wybrany, podczas porównywania wersji wykonuje proste porównanie numeryczne między każdym kolejnym składnikiem numerycznym, niezależnie od typu. Należy pamiętać, że nie można pozostawić tego pola pustego, należy przypisać jakiś numer wersji. Gdy Menedżer dodatków wykryje podwyższenie numeru wersji, wyświetli użytkownikom informację \"dostępna aktualizacja\".
+
+
 
 ###  
 
 WYMAGANE
 
-A concise (up to several sentences) text-only description of this package. No markup is supported.
+Data bieżącej wersji, w formacie RRRR-MM-DD lub RRRR.MM.DD.
+
+
 
 ###  
 
-AT LEAST ONE REQUIRED (multiple allowed)
+WYMAGANE
 
-The name of the person maintaining the package. All packages require a maintainer. For orphaned packages see below.
+Zwięzły *(do kilku zdań)* tekstowy opis tego pakietu. Nie są obsługiwane żadne znaczniki.
 
-#### Attributes 
 
--   email=\"name@domain.tld\" (required): Email address of the maintainer.
 
-An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information:
+###  
+
+CO NAJMNIEJ JEDEN WYMAGANY *(dopuszczalna jest większa liczba)*
+
+Imię i nazwisko osoby opiekującej się pakietem. Wszystkie pakiety wymagają opiekuna. Dla osieroconych pakietów patrz uwagi poniżej.
+
+
+
+#### Atrybuty 
+
+-   email=\"name@domain.tld\" *(wymagane)*: Adres e-mail opiekuna.
+
+Osierocony pakiet to taki, który nie ma aktualnego opiekuna. Osierocone pakiety powinny używać następujących informacji o opiekunie:
 
     <maintainer email="no-one@freecad.org">No current maintainer</maintainer>
 
+
+
 ###  
 
-AT LEAST ONE REQUIRED (multiple allowed)
+CO NAJMNIEJ JEDEN WYMAGANY *(dopuszczalna jest większa liczba)*
 
-SPDX short identifier of the license(s) for this package, e.g. BSD-2-Clause, GPL-3, LGPL-2.1. In order to assist machine readability, only include the license\'s SPDX short identifier (see [the SPDX site](https://spdx.org/licenses/)). For multiple licenses multiple separate tags must be used. A package will have multiple licenses if different source files have different licenses. Every license occurring in the source files should have a corresponding  tag. For any explanatory text about licensing caveats, please use the  tag.
+Skrócony identyfikator SPDX licencji dla tego pakietu, np. BSD-2-Clause, GPL-3, LGPL-2.1. W celu ułatwienia odczytu maszynowego, należy dołączyć tylko krótki identyfikator SPDX licencji *(patrz [strona SPDX](https://spdx.org/licenses/))*. W przypadku wielu licencji należy użyć wielu oddzielnych znaczników. Pakiet będzie miał wiele licencji, jeśli różne pliki źródłowe mają różne licencje. Każda licencja występująca w plikach źródłowych powinna mieć odpowiedni znacznik . W przypadku tekstu objaśniającego zastrzeżenia licencyjne należy użyć znacznika .
 
-Commonly-used license strings:
+Powszechnie używane ciągi nazw licencji:
 
 -    `"Apache-2.0"`
     
@@ -129,17 +153,21 @@ Commonly-used license strings:
 -    `"MPL-1.1"`
     
 
--    `"CC0-1.0"`(Public Domain dedication)
+-    `"CC0-1.0"`*(Dedykacja domeny publicznej)*
 
-#### Attributes 
 
--    `file<nowiki>=</nowiki>"FILE"`(optional): A path relative to the `package.xml` file containing the full license text. Many licenses require including the license text when redistributing the software. E.g. the Apache License, Version 2.0 states in paragraph 4.1: \"You must give any other recipients of the Work or Derivative Works a copy of this License\"
+
+#### Atrybuty 
+
+-    `file<nowiki>=</nowiki>"FILE"`*(opcjonalnie)*: Ścieżka do pliku `package.xml` zawierającego pełny tekst licencji. Wiele licencji wymaga dołączenia tekstu licencji podczas redystrybucji oprogramowania. Np. Licencja Apache, wersja 2.0 stwierdza w paragrafie 4.1: \"Musisz przekazać każdemu innemu odbiorcy Utworu lub Utworów Pochodnych kopię niniejszej Licencji\".
+
+
 
 ###  
 
 WYMAGANE
 
-The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
+Znacznik  opisuje rzeczywistą zawartość pakietu. Nie posiada atrybutów i zawiera dowolną liczbę elementów podrzędnych. Te elementy podrzędne mogą mieć dowolne nazwy znaczników, z których tylko niektóre mogą być rozpoznawane przez FreeCAD. FreeCAD obsługuje obecnie elementy \"workbench\", \"macro\" i \"preferencepack\". Każdy element potomny jest następnie definiowany rekurencyjnie przez ten standard, zawierający dowolne lub wszystkie elementy dozwolone dla węzła głównego . Na przykład:
 
     <content>
       <preferencepack>
@@ -150,7 +178,7 @@ The  tag describes the actual contents of the package. It has no attributes, and
       </preferencepack>
     </content>
 
-The existence of  items implies a set of subfolders, one for each content item, named exactly as the given name of the item. So for the example above, the package\'s folder structure is:
+Istnienie elementów  implikuje zestaw podfolderów, po jednym dla każdego elementu zawartości, nazwanych dokładnie tak, jak dana nazwa elementu. Tak więc w powyższym przykładzie struktura folderów pakietu jest następująca:
 
     Package Directory/
       package.xml
@@ -159,27 +187,33 @@ The existence of  items implies a set of subfolders, one for each content item, 
         sparkles.svg
         (the theme's other files)
 
-In addition to the other elements of , content items can optionally provide information in , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
+Oprócz innych elementów , elementy zawartości mogą opcjonalnie dostarczać informacji w identyfikatorach ,  i  *(technicznie mogą one być również dostarczane do głównego identyfikatora , ale generalnie nie są tam używane)*.
 
-**Backwards-compatibility note**: to avoid having to restructure packages that pre-date this metadata standard, the optional [](#.3Csubdirectory.3E.md) tag is allowed to specify \"./\" as the subdirectory for a content item, in which case no subdirectory is required. This matches the pre-standard system where a single workbench was located at the top of the directory structure.
+**Uwaga dotycząca kompatybilności wstecznej**: aby uniknąć konieczności restrukturyzacji pakietów sprzed tego standardu metadanych, opcjonalny identyfikator [](#.3Csubdirectory.3E.md) może określać \"./\" jako podkatalog dla elementu zawartości, w którym to przypadku nie jest wymagany żaden inny katalog podrzędny. Odpowiada to systemowi sprzed standardu, w którym pojedynczy obszar roboczy znajdował się na szczycie struktury katalogów.
+
+
 
 ####  
 
-REQUIRED for Workbenches
+WYMAGANE dla środowisk pracy
 
-The path to an icon file. If it is an icon for the top-level package this path is relative to the package.xml file itself. If the icon is an element of a  item, then the path is relative to the content\'s folder. The Addon Manager will display the top-level icon as the icon for the overall package. If no top-level icon is present, the first specified workbench icon will be used as the package icon.
+Ścieżka do pliku ikony. Jeśli jest to ikona dla pakietu najwyższego poziomu, ścieżka jest względna do samego pliku package.xml. Jeśli ikona jest elementem elementu , ścieżka jest względna do folderu zawartości. Menedżer dodatków wyświetli ikonę najwyższego poziomu jako ikonę całego pakietu. Jeśli nie ma ikony najwyższego poziomu, pierwsza określona ikona środowiska pracy zostanie użyta jako ikona pakietu.
+
+
 
 ####  
 
 Opcjonalnie.
 
-Normally a content item is assumed to be located in a subdirectory with the same name as the item. In some cases, however, it is useful to explicitly specify the subdirectory. For example, many macros may be located within a single subdirectory, but each have their own entry in the package.xml file. It also provides backwards-compatibility support for packages that predate the package.xml file format specification, and do not follow the expected subdirectory structure. Often in these cases, a \"./\" is used to indicate that the item is not located in a subdirectory at all.
+Zwykle zakłada się, że element zawartości znajduje się w podkatalogu o tej samej nazwie co element. W niektórych przypadkach przydatne jest jednak wyraźne określenie podkatalogu. Na przykład, wiele makr może znajdować się w jednym podkatalogu, ale każde z nich ma swój własny wpis w pliku package.xml. Zapewnia również wsparcie kompatybilności wstecznej dla pakietów, które poprzedzają specyfikację formatu pliku package.xml i nie są zgodne z oczekiwaną strukturą podkatalogów. Często w takich przypadkach używa się zapisu \"./\", aby wskazać, że element w ogóle nie znajduje się w katalogu podrzędnym.
+
+
 
 ####  
 
-REQUIRED for Workbenches
+WYMAGANE dla środowisk pracy
 
-For workbenches, the name of the Python main entry class. This is the class that FreeCAD will try to load on startup to locate the workbench\'s icon, which should be set as a member variable of the class. For example, if your workbench defines the following class (usually in InitGui.py):
+W przypadku środowisk pracy, nazwa głównej klasy wejściowej Python. Jest to klasa, którą FreeCAD będzie próbował załadować podczas uruchamiania, aby zlokalizować ikonę stołu warsztatowego, która powinna być ustawiona jako zmienna członkowska klasy. Na przykład, jeśli stół warsztatowy definiuje następującą klasę *(zwykle w InitGui.py)*:
 
 
 ```python
@@ -187,119 +221,145 @@ class MyNewWB:
     Icon = "resources/icon.svg"
 ```
 
-then the package.xml file expects:
+wtedy plik package.xml oczekuje:
 
     <classname>MyNewWB</classname>
+
+
 
 ####  
 
 Opcjonalnie
 
-Provided for convenience to other tools, any number of other files may be listed here. Their use depends on the type of content. In a macro content item, each file entry is a single macro, and will be linked into the user\'s Macros installation directory by the [Addon Manager](Std_AddonMgr.md).
+Dla wygody innych narzędzi można tu wymienić dowolną liczbę innych plików. Ich użycie zależy od typu zawartości. W elemencie zawartości makra każdy wpis pliku jest pojedynczym makrem i zostanie połączony z katalogiem instalacyjnym makrodefinicji użytkownika przez [Menedżera dodatków](Std_AddonMgr/pl.md).
+
+
 
 ###  
 
-Multiple allowed: \"repository\" is required, and \"readme\"-type is highly recommended.
+Dozwolonych jest wiele typów: \"repozytorium\" jest wymagane, a typ \"readme\" jest wysoce zalecany.
 
-A Uniform Resource Locator for the package\'s website, bug tracker, source repository, zip download link, readme file, or documentation (as specified by the \"type\" attribute, see below).
+Ujednolicony lokalizator zasobów *(**U**niform **R**esource **L**ocator)* dla strony internetowej pakietu, narzędzia do śledzenia błędów, repozytorium źródłowego, linku do pobrania pliku zip, pliku readme lub dokumentacji *(zgodnie z atrybutem \"type\", patrz poniżej)*.
 
-When specifying the \"readme\" type, a direct link to a rendered version of the README should be provided. For example, on GitHub, this is a \"blob\"-type link such as \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\", or on a GitLab instance, \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" (note the slightly different URL format between the two).
+Określając typ \"readme\", należy podać bezpośredni link do renderowanej wersji README. Na przykład na GitHub jest to link typu \"blob\", taki jak \"<https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md>\" lub na instancji GitLab \"<https://gitlab.com/opensimproject/cfdof/-/blob/master/README.md>\" *(zwróć uwagę na nieco inny format adresu URL między tymi wersjami)*.
 
-It is a good idea to include  tags pointing users to your package\'s online resources. The website is commonly a wiki page on wiki.freecad.org where users can find and update information about the package, for example. The Addon Manager lists these URLs and provides clickable links to them in the package description.
-
-
-
-#### Atrybuty
-
--   type=\"TYPE\" (required): The type should be one of the following identifiers: \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\", or \"discussion\".
--   branch=\"BRANCH\" (required for type=\"repository\"): The name of the branch to check out to obtain this package. Typically the name of your main development branch. May also specify any other type of git reference, e.g. a tag or specific commit.
-
-###  
-
-Multiple allowed
-
-The name of a person who is an author of the package, as acknowledgement of their work and for questions.
-
-#### Attributes 
-
--   email=\"name@domain.tld\" (optional): Email address of author.
-
-###  
-
-Multiple allowed
-
-Declares a dependency on another FreeCAD Addon or internal workbench, or Python package. The named dependency is first checked against the list of known Addons (e.g. those available either from the official FreeCAD Addons git repository, or those in a custom user-specified repository). The check is against the canonical name of the Addon. If a package.xml file is present for that Addon, the name is that package\'s  element. An exact match is required. If no match is found it is checked against the list of known internal workbenches (both installed and uninstalled). Finally, if the named dependency has not been located in the previous two steps it is assumed to be a Python package dependency. Note that not all dependency-related features are fully implemented yet.
+Dobrym pomysłem jest dołączenie znaczników  kierujących użytkowników do zasobów online pakietu. Zazwyczaj jest to strona wiki na wiki.freecad.org, gdzie użytkownicy mogą na przykład znaleźć i zaktualizować informacje o pakiecie. Menedżer dodatków wymienia te adresy URL i zapewnia klikalne linki do nich w opisie pakietu.
 
 
 
 #### Atrybuty 
 
-All dependencies and relationships may restrict their applicability to particular versions. For each comparison operator an attribute can be used. Two of these attributes can be used together to describe a version range.
+-   type=\"TYPE\" (wymagane): Typ powinien być jednym z następujących identyfikatorów: \"website\", \"bugtracker\", \"repository\", \"readme\", \"documentation\", lub \"discussion\".
+-   branch=\"BRANCH\" *(wymagane dla type=\"repository\")*: Nazwa gałęzi do sprawdzenia w celu uzyskania tego pakietu. Zazwyczaj jest to nazwa głównej gałęzi rozwojowej. Może również określać dowolny inny typ odniesienia git, np. identyfikator lub konkretny commit.
 
--   version_lt=\"VERSION\" (optional): The dependency to the package is restricted to versions less than the stated version number.
--   version_lte=\"VERSION\" (optional): The dependency to the package is restricted to versions less or equal than the stated version number.
--   version_eq=\"VERSION\" (optional): The dependency to the package is restricted to a version equal than the stated version number.
--   version_gte=\"VERSION\" (optional): The dependency to the package is restricted to versions greater or equal than the stated version number.
--   version_gt=\"VERSION\" (optional): The dependency to the package is restricted to versions greater than the stated version number.
--   condition=\"CONDITION_EXPRESSION\": Every dependency can be conditional on a condition expression. If the condition expression evaluates to \"true\" the dependency is used and considered as if it doesn\'t have a condition attribute. If the condition expression evaluates to \"false\" the dependency is ignored and considered as if it doesn\'t exist. The expression must be a valid FreeCAD Expression (i.e. Python syntax), and may refer to the variables \"\$BuildVersionMajor\", \"\$BuildVersionMinor\", and \"\$BuildRevision\" representing the version of FreeCAD currently running.
--   optional=\"true\|false\": If \"optional\" is \"true\", then the dependency is treated as optional when the Addon is installed using the Addon Manager. In general this means that a failure to install the dependency does not prevent the Addon from installing, and the user may be prompted about whether they want to install it. Versions of FreeCAD prior to 0.21 do not recognize this attribute and will ignore it.
--   type=\"automatic\|addon\|internal\|python\": Optional, defaults to \"automatic\". Indicates what this dependency statement refers to. \"addon\" is for external addons, \"internal\" is for internal workbenches (e.g. \"arch\", \"sketcher\", etc.), and \"python\" indicates a Python package dependency. Versions of FreeCAD prior to 0.21 do not use this attribute, and \"automatic\" is always assumed.
+
 
 ###  
 
-Multiple allowed
+Dozwolona jest wielokrotność
 
-Declares a package name with which this package conflicts. This package and the conflicting package should not be installed at the same time.
+Imię i nazwisko osoby, która jest autorem pakietu, jako potwierdzenie jej pracy i w przypadku pytań.
 
 
 
 #### Atrybuty 
 
-See .
+-   email=\"name@domain.tld\" *(opcjonalnie)*: Adres e-mail autora.
+
+
 
 ###  
 
-Multiple allowed
+Dozwolona jest wielokrotność
 
-Declares a package name that this package is intended to replace.
+Deklaruje zależność od innego dodatku FreeCAD lub wewnętrznego środowiska pracy, lub pakietu Python. Nazwana zależność jest najpierw sprawdzana względem listy znanych dodatków *(np. tych dostępnych w oficjalnym repozytorium git FreeCAD Addons lub tych w niestandardowym repozytorium określonym przez użytkownika)*. Sprawdzana jest kanoniczna nazwa dodatku. Jeśli plik package.xml jest obecny dla tego dodatku, nazwa jest elementem  tego pakietu. Wymagane jest dokładne dopasowanie. Jeśli nie zostanie znalezione żadne dopasowanie, sprawdzana jest lista znanych wewnętrznych środowisk pracy *(zarówno zainstalowanych, jak i odinstalowanych)*. Wreszcie, jeśli nazwana zależność nie została zlokalizowana w poprzednich dwóch krokach, zakłada się, że jest to zależność pakietu Python. Należy pamiętać, że nie wszystkie funkcje związane z zależnościami są jeszcze w pełni zaimplementowane.
 
 
 
 #### Atrybuty 
 
-See .
+Wszystkie zależności i relacje mogą ograniczać ich zastosowanie do określonych wersji. Dla każdego operatora porównania można użyć atrybutu. Dwa z tych atrybutów mogą być użyte razem do opisania zakresu wersji.
+
+-   version_lt=\"VERSION\" *(opcjonalnie)*: Zależność od pakietu jest ograniczona do wersji mniejszych niż podany numer wersji.
+-   version_lte=\"VERSION\" *(opcjonalne)*: Zależność od pakietu jest ograniczona do wersji mniejszych lub równych podanemu numerowi wersji.
+-   version_eq=\"VERSION\" *(opcjonalne)*: Zależność od pakietu jest ograniczona do wersji równej podanemu numerowi wersji.
+-   version_gte=\"VERSION\" *(opcjonalne)*: Zależność od pakietu jest ograniczona do wersji większych lub równych podanemu numerowi wersji.
+-   version_gt=\"VERSION\" *(opcjonalne)*: Zależność od pakietu jest ograniczona do wersji większych niż podany numer wersji.
+-   condition=\"CONDITION_EXPRESSION\": Każda zależność może być uzależniona od wyrażenia warunku. Jeśli wyrażenie warunku ma wartość \"true\", zależność jest używana i traktowana tak, jakby nie miała atrybutu warunku. Jeśli wyrażenie warunku ma wartość \"false\", zależność jest ignorowana i traktowana tak, jakby nie istniała. Wyrażenie musi być prawidłowym wyrażeniem FreeCAD (tj. składnią Pythona) i może odnosić się do zmiennych \"\$BuildVersionMajor\", \"\$BuildVersionMinor\" i \"\$BuildRevision\" reprezentujących aktualnie uruchomioną wersję FreeCAD.
+-   optional=\"true\|false\": Jeśli \"optional\" ma wartość \"true\", wówczas zależność jest traktowana jako opcjonalna, gdy dodatek jest instalowany za pomocą Menedżera dodatków. Ogólnie oznacza to, że niepowodzenie instalacji zależności nie uniemożliwia instalacji dodatku, a użytkownik może zostać zapytany, czy chce go zainstalować. Wersje FreeCAD wcześniejsze niż 0.21 nie rozpoznają tego atrybutu i będą go ignorować.
+-   type=\"automatic\|addon\|internal\|python\": Opcjonalny, domyślnie \"automatyczny\". Wskazuje, do czego odnosi się ta instrukcja zależności. \"addon\" dotyczy dodatków zewnętrznych, \"internal\" dotyczy wewnętrznych środowisk pracy *(np. \"arch\", \"sketcher\" itp.)*, a \"python\" wskazuje na zależność od pakietu Python. Wersje FreeCAD wcześniejsze niż 0.21 nie używają tego atrybutu, a \"automatic\" jest zawsze zakładany.
+
+
 
 ###  
 
-A simple text tag used for categorization when using a package manager. Multiple  elements may be specified.
+Dozwolona jest wielokrotność
+
+Deklaruje nazwę pakietu, z którym ten pakiet jest w konflikcie. Ten pakiet i pakiet będący w konflikcie nie powinny być instalowane w tym samym czasie.
+
+
+
+#### Atrybuty 
+
+Zobacz .
+
+
 
 ###  
 
-The minimum version of FreeCAD required to use this package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
+Dozwolona jest wielokrotność
+
+Deklaruje nazwę pakietu, który ten pakiet ma zastąpić.
+
+
+
+#### Atrybuty 
+
+Zobacz .
+
+
 
 ###  
 
-The maximum version of FreeCAD required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR.BUILD
+Prosty identyfikator tekstowy używany do kategoryzacji podczas korzystania z menedżera pakietów. Można określić wiele elementów .
+
+
 
 ###  
 
-(New in FreeCAD 0.21, ignored by previous versions.) The minimum version of Python required to use package/element, as a semantic version 2.0 string in the format MAJOR.MINOR. The Addon Manager will not permit an Addon to be installed on a system running a version of Python before this one. Only Python 3.x versions are supported. Although you may specify a three-component version, only the minor number is considered during the compatibility check.
+Minimalna wersja FreeCAD wymagana do korzystania z tego pakietu / elementu, jako ciąg semantyczny wersji 2.0 w formacie MAJOR.MINOR.BUILD
+
+
+
+###  
+
+Maksymalna wersja FreeCAD wymagana do korzystania z pakietu / elementu, jako ciąg semantyczny wersji 2.0 w formacie MAJOR.MINOR.BUILD
+
+
+
+###  
+
+*(Nowość w FreeCAD 0.21, ignorowana przez poprzednie wersje.)* Minimalna wersja środowiska Python wymagana do użycia pakietu/elementu, jako ciąg semantyczny wersji 2.0 w formacie MAJOR.MINOR. Menedżer dodatków nie zezwoli na zainstalowanie dodatku w systemie z wersją Python wcześniejszą niż ta. Obsługiwane są tylko wersje Python 3.x. Chociaż można określić wersję trójskładnikową, tylko numer minor jest brany pod uwagę podczas sprawdzania zgodności.
 
 
 
 ## Sprawdzanie poprawności 
 
-To validate your package.xml file you can enable \"developer mode\" in the Addon Manager: create a boolean variable called \"developerMode\" in the \"Addons\" parameter group and set it to True: **Tools → Edit parameters... → BaseApp → Preferences → Addons → developerMode**. When the Addon Manager has finished reading the Addons database it will examine all available package.xml files for errors.
+Aby zweryfikować plik package.xml, możesz włączyć \"tryb deweloperski\" w menedżerze dodatków: utwórz zmienną logiczną o nazwie \"developerMode\" w grupie parametrów \"Addons\" i ustaw ją na True: **Przybory → Edycja parametrów ... → BaseApp → Preferencje → Addons → developerMode**. Gdy menedżer dodatków zakończy odczytywanie bazy danych dodatków, sprawdzi wszystkie dostępne pliki package.xml pod kątem błędów.
 
-## Quick guide 
 
-For a quick guide on how to create a basic package.xml file and add a workbench to the [Addon Manager](Std_AddonMgr.md) see: [Add Workbench to Addon Manager](Add_Workbench_to_Addon_Manager.md).
 
-## Examples
+## Krótki przewodnik 
 
-Note that comments (the text between `&lt;&#33;--` and `--&gt;`) are ignored by the XML parser, and are not a required part of the file format. They are provided here for information purposes and may be omitted from the final package.xml if desired.
+Aby uzyskać krótki przewodnik na temat tworzenia podstawowego pliku package.xml i dodawania środowiska roboczego do [Menedżera dodatków](Std_AddonMgr/pl.md), zobacz stronę [Dodaj środowisko pracy do Menadżera dodatków](Add_Workbench_to_Addon_Manager/pl.md).
 
-A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format):
+
+
+## Przykłady
+
+Należy pamiętać, że komentarze *(tekst pomiędzy `&lt;&#33;--` i `--&gt;`)* są ignorowane przez parser XML i nie są wymaganą częścią formatu pliku. Są one podane tutaj w celach informacyjnych i mogą zostać pominięte w ostatecznym pliku package.xml, jeśli jest to pożądane.
+
+Prosty pakiet tylko dla środowiska pracy *(na przykład, aby dodać plik metadanych do pakietu, który poprzedza ten format metadanych)*:
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
@@ -322,7 +382,7 @@ A simple workbench-only package (for example, to add a metadata file to a packag
 
     </package>
 
-A complex, multi-component package:
+Złożony, wieloskładnikowy pakiet:
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
@@ -362,7 +422,7 @@ A complex, multi-component package:
 
     </package>
 
-A package with dependencies:
+Pakiet wraz z zależnościami:
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">

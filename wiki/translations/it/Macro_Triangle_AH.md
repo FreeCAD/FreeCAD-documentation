@@ -1,4 +1,7 @@
 # Macro Triangle AH/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Triangle AH
 |Translate=Triangolo AH
@@ -11,13 +14,32 @@
 |Download=[https://www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro crea un triangolo isoscele dati l\'angolo e l\'altezza (il vertice è posizionato nel punto 0,0,0)
 
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uso
 
 Copiare la macro **Triangolo AH** nella console Python di FreeCAD
+
+
+</div>
 
 ## Script
 
@@ -77,6 +99,8 @@ def triangleAH(angle, height=0.0, base=0.0, hypo=0.0):
 
 }}
 
+
+
 ## Esempi
 
 
@@ -89,6 +113,8 @@ triangleAH(45, hypo=10)
 # or
 triangleAH(90, base=10)
 ```
+
+
 
 ## Versioni
 

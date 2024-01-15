@@ -61,7 +61,7 @@ Toggling the toolbar button <img alt="" src=images/A2p_CD_OneButton.svg  style="
 <div class="mw-translate-fuzzy">
 
 通过在零件之间添加约束来将零件组装成部件。 约束后，如果可能，A2plus将根据约束移动零件。
-对于零件之间的复杂约束，A2plus可能无法解析。 因此也可以参考[故障排除部分中有关解决此类情况的策略](#Troubleshooting/zh-hans.md)。
+对于零件之间的复杂约束，A2plus可能无法解析。 因此也可以参考[故障排除](#Troubleshooting/zh-hans.md)部分中有关解决此类情况的策略。
 
 
 </div>
@@ -93,7 +93,7 @@ For complex constraints between parts A2plus might fail to solve the constraints
 
 创建约束时，按下约束工具栏按钮后将显示一个对话框:
 ![](images/A2p_ConstraintPropertiesDialog.png )
-对于某些约束，它允许您修改约束方向。 点击按钮**<img src="images/A2p_solver.svg" width=24px> Solve** 您可以预先检查是否可以用A2plus解析这个新约束。 如果不是，请查看[故障排除部分](#Troubleshooting.md)。
+对于某些约束，它允许您修改约束方向。 点击按钮**<img src="images/A2p_solver.svg" width=24px> Solve** 您可以预先检查是否可以用A2plus解析这个新约束。 如果不是，请查看[故障排除](#Troubleshooting.md)部分。
 
 
 </div>
@@ -121,7 +121,7 @@ A2plus提供下列约束:
 
 #### 球面对球面
 
-在两个零件上选择球[面或](Glossary#Face.md)[顶点](Glossary#Vertex.md)（点）。 点击工具栏按钮<img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;">添加{{Variable|球心重合}}约束。 它将使两个零件的球心，一个零件的球的中心与零件的顶点或两个零件的顶点重合。
+在两个零件上选择球[面](Glossary#Face.md)或[顶点](Glossary#Vertex.md)（点）。 点击工具栏按钮<img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;">添加{{Variable|球心重合}}约束。 它将使两个零件的球心，一个零件的球的中心与零件的顶点或两个零件的顶点重合。
 
 #### 圆边对圆边
 
@@ -129,19 +129,19 @@ A2plus提供下列约束:
 
 #### 轴约束
 
-在两个部分上选择圆柱形[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)。点击工具栏按钮 <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;">添加{{Variable|轴约束}}。 约束对话框允许您指定轴方向。 该对话框还允许您锁定零件的旋转。 约束将使轴或线重合。
+在两个部分上选择圆柱形[面](Glossary#Face.md)或线性[边](Glossary#Edge.md)。点击工具栏按钮 <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;">添加{{Variable|轴约束}}。 约束对话框允许您指定轴方向。 该对话框还允许您锁定零件的旋转。 约束将使轴或线重合。
 
 #### 轴平行
 
-在两个零件上选择圆柱形[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)。 工具栏按钮<img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;">添加了{{Variable|轴平行}}约束。 约束对话框允许您指定轴方向。 约束将使轴或线平行。
+在两个零件上选择圆柱形[面](Glossary#Face.md)或线性[边](Glossary#Edge.md)。 工具栏按钮<img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;">添加了{{Variable|轴平行}}约束。 约束对话框允许您指定轴方向。 约束将使轴或线平行。
 
 #### 轴对面平行
 
-在一个零件上选择圆柱[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)，在另一部分选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;">添加{{Variable|轴与面平行}}约束。 约束将使轴或线平行于平面。
+在一个零件上选择圆柱[面](Glossary#Face.md)或线性[边](Glossary#Edge.md)，在另一部分选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;">添加{{Variable|轴与面平行}}约束。 约束将使轴或线平行于平面。
 
 #### 轴对面法线
 
-在一个零件上选择圆柱[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)，在另一零件选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;">添加{{Variable|轴与面法线平行}}约束。 约束将使轴或线垂直于平面。
+在一个零件上选择圆柱[面](Glossary#Face.md)或线性[边](Glossary#Edge.md)，在另一零件选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;">添加{{Variable|轴与面法线平行}}约束。 约束将使轴或线垂直于平面。
 
 #### Axis on Plane angle 
 
@@ -161,7 +161,7 @@ Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary
 
 #### 重心重合
 
-在两个零件上选择闭合的[边或平面](Glossary#Edge.md)。 点击工具栏按钮<img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;">添加{{Variable|重心}}约束。 约束对话框允许您指定边或平面之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束会将边或平面置于同一平面中。
+在两个零件上选择闭合的[边](Glossary#Edge.md)或平面。 点击工具栏按钮<img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;">添加{{Variable|重心}}约束。 约束对话框允许您指定边或平面之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束会将边或平面置于同一平面中。
 
 ### 子部件
 
@@ -250,7 +250,7 @@ The degrees of freedom labels can be removed by clicking the button <img alt="" 
 
 <div class="mw-translate-fuzzy">
 
-有时有必要将整个组件组合为一个形状。 然后，该形状可以用于[网格工作台中的](Mesh_Workbench/zh-hans.md)3D打印或[技术图纸工作台中的图形](TechDraw_Workbench/zh-hans.md)。 使用工具栏按钮<img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">创建。 默认情况下，该形状不可见。 如果部件发生更改，请使用相同的工具栏按钮来更新形状。
+有时有必要将整个组件组合为一个形状。 然后，该形状可以用于[网格工作台](Mesh_Workbench/zh-hans.md)中的3D打印或[技术图纸工作台](TechDraw_Workbench/zh-hans.md)中的图形。 使用工具栏按钮<img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">创建。 默认情况下，该形状不可见。 如果部件发生更改，请使用相同的工具栏按钮来更新形状。
 
 
 </div>
@@ -351,7 +351,7 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 -   *\'使用实体联合体来导入零件和子装配*
     所有导入的零件将直接作为联合体放在一起。
-    如果只允许使用一个实体，此功能对于[有限元模拟或](FEM_Workbench/zh-hans.md)[3D打印很有用](Manual_Preparing_models_for_3D_printing.md)。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
+    如果只允许使用一个实体，此功能对于[有限元](FEM_Workbench/zh-hans.md)模拟或[3D打印](Manual_Preparing_models_for_3D_printing.md)很有用。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
 
 
 </div>
@@ -448,7 +448,7 @@ Assemblies created with A2plus older than March 2019 do not show the correct ico
 
 随后A2plus会输出有关失败解决方案的信息，但是有时您只会看到零件没有相应移动，在FreeCAD的"报告视图"小部件中，您会看到"*REACHED POS-ACCURACY：0.0*"。 这意味着求解器完成时没有错误，但实际上无法解决约束。
 
-因此，请检查装配中至少有一个零件的**fixed Position**设置为" true"。 然后确保仅对以某种方式连接到固定零件的零件设置约束。 要可视化这些依赖关系，请参见[装配体结构节](#Assembly_Structure/zh-hans.md)。
+因此，请检查装配中至少有一个零件的**fixed Position**设置为" true"。 然后确保仅对以某种方式连接到固定零件的零件设置约束。 要可视化这些依赖关系，请参见[装配体结构](#Assembly_Structure/zh-hans.md)节。
 
 ### 旋转零件
 

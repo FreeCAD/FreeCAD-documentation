@@ -1,12 +1,12 @@
 # Macro Unroll Ruled Surface/de
 {{Macro/de
 |Name=Macro Unroll Ruled Surface
-|Translate=Makro Abwickeln Regelfläche
+|Translate=Makro Regelfläche abwickeln
 |Description=Das Makro ermöglicht das Abwickeln von Regelflächen und das Darstellung uf einer Zeichnung.
 |Author=Hervé B., heda
 |Version=1.1
 |Date=2022-07-24
-|Download=[https://www.freecadweb.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png ToolBar-Icon]
+|Download=[https://wiki.freecad.org/wiki/images/b/ba/Macro_Unroll_Ruled_Surface.png ToolBar-Icon]
 }}
 
 

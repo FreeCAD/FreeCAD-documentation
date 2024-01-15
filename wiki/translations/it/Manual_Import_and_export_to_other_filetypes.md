@@ -1,5 +1,5 @@
 # Manual:Import and export to other filetypes/it
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 FreeCAD può importare ed esportare molti tipi di file. Ecco un elenco dei più importanti con una breve descrizione delle funzioni disponibili:
 
@@ -28,7 +28,6 @@ Alcuni di questi formati di file hanno delle opzioni. Questi formati possono ess
 
 -   [Tutti i formati di file supportati da FreeCAD](Import_Export/it.md)
 -   [Lavorare con i file DXF in FreeCAD](Draft_DXF/it.md):
--   [Abilitare il supporto per i file DXF e DWG](Dxf_Importer_Install/it.md)
 -   [Lavorare con i file SVG in FreeCAD](Draft_SVG/it.md)
 -   [Importare e esportare verso IFC](Arch_IFC/it.md)
 -   [OpenCasCade](http://www.opencascade.com)

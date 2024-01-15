@@ -18,7 +18,7 @@ Effectue un zoom pour que les objets apparaissent à leur taille réelle sur vot
 
 Exécutez la macro pour zoomer à la taille réelle de vos objets. Parfois, en raison des limitations de Qt, les informations matérielles fournies à la macro peuvent être incorrectes, par exemple la largeur de l\'écran, en millimètres, peut être incorrecte. Dans ce cas, il existe une boîte de dialogue de calibrage. Pour faire apparaître cette boîte de dialogue, appuyez sur la touche Ctrl pendant l\'exécution de la macro. Un cube temporaire de 100 mm est créé. Mesurez le cube qui apparaît à l\'écran avec une règle ou un pied à coulisse et saisissez vos mesures (en MM) dans la boîte de dialogue. Celle-ci calculera le paramètre d\'ajustement approprié à utiliser pour votre matériel.
 
-Ce paramètre d\'ajustement est stocké dans les paramètres utilisateur à Plugins/Zoom1_1\_Macro/Tweak.
+Ce paramètre d\'ajustement est stocké dans les paramètres utilisateur à Plugins/Zoom1_1_Macro/Tweak.
 
 ## Fonctionnement
 

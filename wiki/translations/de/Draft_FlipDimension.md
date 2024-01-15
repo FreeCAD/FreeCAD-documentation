@@ -8,20 +8,28 @@
 
 # Draft FlipDimension/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft MaßKippen** schwenkt die Maßzahlen (Maßtexte) ausgewählter [Draft-Maße](Draft_Dimension/de.md) 180° um die Maßlinie. Es kann verwendet werden, um Maße zu korrigieren, die gespiegelt erscheinen. Der Befehl funktioniert nicht ordentlich mit Winkelmaßen.
+
+
 
 ## Anwendung
 
 1.  Ein oder mehrere [Draft-Maße](Draft_Dimension/de.md) auswählen.
 2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/Draft_FlipDimension.svg" width=16px> [Bemaßung umkehren](Draft_FlipDimension/de.md)** drücken.
-    -   Den Menüeintrag **Änderung → <img src="images/Draft_FlipDimension.svg" width=16px> Bemaßung umkehren** auswählen.
+    -   Die Schaltfläche **<img src="images/Draft_FlipDimension.svg" width=16px> [Maß umkehren](Draft_FlipDimension/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_FlipDimension.svg" width=16px> Maß umkehren** auswählen.
+
+
 
 ## Hinweise
 
 -   [Draft Maße](Draft_Dimension.md) haben auch eine {{PropertyData/de|Flip Text}}. Auf `True` gesetzt, wird der Text 180° um die Normalenrichtung geschwenkt. Das kann mit dem Effekt aus diesem Befehl kombiniert werden.
+
+
 
 ## Skripten
 

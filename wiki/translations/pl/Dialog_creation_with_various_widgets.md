@@ -1,13 +1,15 @@
 # Dialog creation with various widgets/pl
-## Introduction
+## Wprowadzenie
 
-This is an example of [dialog creation](Dialog_creation.md) with [PySide](PySide.md).
+To jest przykład [tworzenia dialogu](Dialog_creation/pl.md) z [PySide](PySide/pl.md).
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to create **.ui** files through Qt Designer, and load these in the program.
+W tym przykładzie cały interfejs jest zdefiniowany w środowisku [Python](Python/pl.md). Chociaż jest to możliwe w przypadku małych interfejsów, w przypadku większych interfejsów zaleca się tworzenie plików **.ui** za pomocą Qt Designer i ładowanie ich do programu.
 
-## Method 1 
 
-An example of a dialog box complete with its connections.
+
+## Metoda 1 
+
+Przykład okna dialogowego wraz z połączeniami.
 
 
 ```python
@@ -114,9 +116,9 @@ ui = Ui_MainWindow(MainWindow)
 MainWindow.show()
 ```
 
-Here the same window but with an icon on each button.
+Tutaj to samo okno, ale z ikoną na każdym przycisku.
 
-Download associated icons (click right \"Copy the image below \...)\"
+Pobierz powiązane ikony *(kliknij prawym przyciskiem myszy \"Kopiuj obraz poniżej \...\")*.
 
 ![](images/Icone01.png ) ![](images/Icone02.png ) ![](images/Icone03.png )
 
@@ -251,7 +253,7 @@ ui = Ui_MainWindow(MainWindow)
 MainWindow.show()
 ```
 
-Here the code to display the icon on the **pushButton**, change the name for another button, (**radioButton, checkBox**) and the path to the icon. 
+Tutaj kod do wyświetlania ikony na przycisku **pushButton**, zmiana nazwy na inny przycisk *(**radioButton, checkBox**)* i ścieżka do ikony. 
 ```python
         # Affiche un icône sur le bouton PushButton
         # self.image_01 = "C:\Program Files\FreeCAD0.13\icone01.png" # the name of the icon
@@ -262,24 +264,26 @@ Here the code to display the icon on the **pushButton**, change the name for ano
         self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverses the direction of the button
 ```
 
-The command **UserAppData** gives the user path **AppHomePath** gives the installation path of FreeCAD 
+Polecenie **UserAppData** podaje ścieżkę użytkownika **AppHomePath** podaje ścieżkę instalacji FreeCAD 
 ```python
 #        path = FreeCAD.ConfigGet("UserAppData")
         path = FreeCAD.ConfigGet("AppHomePath")
-``` This command reverses the horizontal button, right to left.
+``` To polecenie powoduje odwrócenie przycisku poziomego z prawej do lewej.
 
 
 ```python
 self.pushButton.setLayoutDirection(QtCore.Qt.RightToLeft) # This command reverses the direction of the button
 ```
 
-## Method 2 
 
-Another method to display a window, here by creating a file **QtForm.py** which contains the header program (module called with **import QtForm**), and a second module that contains the code window all these accessories, and your code (the calling module).
 
-This method requires two separate files, but allows to shorten your program using the file \' \' QtForm.py \' \' import. Then distribute the two files together, they are inseparable.
+## Metoda 2 
 
-The file **QtForm.py** 
+Inna metoda wyświetlania okna, tutaj poprzez utworzenie pliku **QtForm.py**, który zawiera program nagłówkowy *(moduł wywoływany za pomocą **import QtForm**)*, oraz drugi moduł, który zawiera kod okna wszystkie te dodatki, oraz twój kod *(moduł wywołujący)*.
+
+Ta metoda wymaga dwóch oddzielnych plików, ale pozwala skrócić program za pomocą pliku \' \' QtForm.py \' \' import. Następnie należy rozprowadzić oba pliki razem, są one nierozłączne.
+
+Plik **QtForm.py** 
 ```python
 
 # -*- coding: utf-8 -*-
@@ -315,11 +319,11 @@ class Form(object):
    
    def setText(self, control, text):
       control.setText(_translate(self.title, text, None))
-``` The calling file that contains the window and your code.
+``` Plik wywołujący, który zawiera okno i kod.
 
-The file my_file.py
+Plik my_file.py
 
-The connections are to do, a good exercise. 
+Połączenia są do zrobienia, dobre ćwiczenie. 
 ```python
 
 # -*- coding: utf-8 -*-
@@ -359,7 +363,7 @@ myWindow=myForm("Fenetre de test",400,300)
 myWindow.show()
 ```
 
-**Other example**
+**Inny przykład**
 
 
 <center>
@@ -372,7 +376,7 @@ Image:Qt_Example_00.png\|Qt example 1 Image:Qt_Example_01.png\|Qt example detail
 
 
 
-Are treated :
+Są traktowane:
 
 1.  icon for window
 2.  horizontalSlider
@@ -391,7 +395,7 @@ Are treated :
 15. textEdit
 16. graphicsView with 2 graphes
 
-The code page and the icons [Qt_Example](Qt_Example.md)
+Strona z kodem i ikonami [przykłady Qt](Qt_Example/pl.md)
 
 
 

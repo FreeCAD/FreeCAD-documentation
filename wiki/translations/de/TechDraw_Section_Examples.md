@@ -88,7 +88,7 @@ Schnitt E-E (Schnitt unter einem beliebigen Winkel)
 <img alt="" src=images/TechDraw_ExampleSection-12.png  style="width:300px;"> 
 *Basisansicht und Schnitt E-E in seiner endgültigen Lage*
 
-Standardmäßig verläuft die Schnittbene durch den Schwerpunkt des Objekts. Um den Schnitt zu versetzen können die Werte im Bereich **Lage der Schnittebene** geändert werden.
+Standardmäßig verläuft die Schnittbene durch den Mittelpunkt des Begrenzungsrahmens (in diesem Falle deckungsgleich mit dem Schwerpunkt des Objekts). Um den Schnitt zu versetzen können die Werte im Bereich **Lage der Schnittebene** geändert werden.
 
 <img alt="" src=images/TechDraw_ExampleSection-16.png  style="width:300px;">
 

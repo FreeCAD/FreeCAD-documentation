@@ -1,7 +1,7 @@
 # Feature list/zh
 <div class="mw-translate-fuzzy">
 
-这是FreeCAD实现的广泛但不完整的功能列表。如果您想展望未来，请参阅[开发路线图](Development_roadmap.md)，快速了解接下来会发生什么。此外，[截图集锦是一个不错的去处](Screenshots.md)。
+这是FreeCAD实现的广泛但不完整的功能列表。如果您想展望未来，请参阅[开发路线图](Development_roadmap.md)，快速了解接下来会发生什么。此外，[截图集锦](Screenshots.md)是一个不错的去处。
 
 
 </div>
@@ -38,15 +38,15 @@
 
 -   ![](images/Feature1.jpg )完全基于[开源CASCADE技术](http://en.wikipedia.org/wiki/Open_CASCADE) 的**几何内核**，允许在复杂形状上进行复杂的3D操作，原生支持[边界表示法](https://en.wikipedia.org/wiki/Boundary_representation)（brep）、[非均匀有理B样条](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline)（nurbs）曲线和曲面、广泛的几何实体、布尔运算、[1](https://en.wikipedia.org/wiki/Fillet_(mechanics）倒圆角)，并且内建支持[STEP](https://en.wikipedia.org/wiki/ISO_10303)和[IGES](https://en.wikipedia.org/wiki/IGES)格式。
 -   ![](images/Feature3.jpg )完全**参数化建模**。所有FreeCAD对象都是原生参数化的，这意味着它们的形状可以基于[属性](Property.md)，甚至基于其他对象。所有更改都会根据需要重新计算，并由撤消/重做堆栈记录。添加新对象类型非常容易，甚至可以[全部用python编程](Scripted_objects.md)。
--   ![](images/Feature4.jpg )**模块化架构**，允许向核心应用程序插入扩展（模块）以添加功能。扩展可以复杂地像完整地C++程序，也可以简单地像[Python脚本或录制的](Power_users_hub.md)[宏](macros.md)。您可以从内置的**Python**解释器，宏脚本或外部脚本中完全操作FreeCAD的任何部分，无论它是[几何体创建与变换](Topological_data_scripting.md)，几何的2D或3D显示（[场景图](scenegraph.md))还是[FreeCAD界面](PySide.md)。 
+-   ![](images/Feature4.jpg )**模块化架构**，允许向核心应用程序插入扩展（模块）以添加功能。扩展可以复杂地像完整地C++程序，也可以简单地像[Python脚本](Power_users_hub.md)或录制的[宏](macros.md)。您可以从内置的**Python**解释器，宏脚本或外部脚本中完全操作FreeCAD的任何部分，无论它是[几何体创建与变换](Topological_data_scripting.md)，几何的2D或3D显示（[场景图](scenegraph.md))还是[FreeCAD界面](PySide.md)。 
 -   ![ left](images/Feature5.jpg )导入/导出，除了FreeCAD原生文件格式 **[FCStd](File_Format_FCStd.md)**之外还有一些**标准格式**，例如[STEP](http://en.wikipedia.org/wiki/ISO_10303)、[IGES](http://en.wikipedia.org/wiki/IGES)，[OBJ](http://en.wikipedia.org/wiki/Obj)、[STL](http://en.wikipedia.org/wiki/STL_%28file_format%29)、[DXF](http://en.wikipedia.org/wiki/Dxf)、[SVG](http://en.wikipedia.org/wiki/Svg)、[STL](http://en.wikipedia.org/wiki/STL_(file_format))、[DAE](http://en.wikipedia.org/wiki/COLLADA)、[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)或者[OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html)、[NASTRAN](http://en.wikipedia.org/wiki/NASTRAN),、[VRML](http://en.wikipedia.org/wiki/VRML)。 FreeCAD与给定文件格式之间的兼容程度可能会有所不同，因为它取决于实现它的模块。
 -   ![ left](images/Feature7.jpg )具有集成约束求解器的[草图工作台](Sketcher_Workbench.md)，允许您绘制具有几何约束的2D形状。然后，使用草图工作台构建的受约束2D形状可用作构建FreeCAD中其他对象的基础。
--   ![ left](images/Feature9.jpg ) [机器人工仿真模块](Robot_Workbench.md)，可让您在图形环境中研究机器人的运动。
--   ![ left](images/Feature8.jpg )[技术制图模块](TechDraw_Workbench.md)，包含详细视图，横截面视图，尺寸标注等选项，允许您生成现有3D模型的2D视图。模块进一步可生成可导出的SVG或PDF文件。较旧的[绘图模块具有不多的的Gui命令](Drawing_Workbench.md)，但却有强大的Python功能。
--   ![ left](images/Feature-raytracing.jpg )一个[渲染模块](Raytracing_Workbench.md)，可以导出3D对象以便使用外部渲染器进行渲染。它目前仅支持[povray](http://en.wikipedia.org/wiki/POV-Ray)和[LuxRender](http://en.wikipedia.org/wiki/LuxRender)，但预计今后将扩展到其他渲染器。
--   ![ left](images/Feature-arch.jpg ) [建筑模块](Arch_Workbench.md)，可实现兼容[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)的[建筑信息模型](http://en.wikipedia.org/wiki/Building_Information_Modeling)（BIM）类似的工作流。
--   ![ left](images/Feature-CAM.jpg ) [刀路模块专门用于](Path_Workbench.md)[计算机辅助制造](https://en.wikipedia.org/wiki/Computer-aided_manufacturing)（CAM）。使用刀路模块，您可以输出，显示和调整用于控制目标机器的[G代码](http://en.wikipedia.org/wiki/G-code)。
--   ![ left](images/Feature_spreadsheet.png ) [集成电子表格和](Spreadsheet_Workbench.md)[表达式解析器](Expressions.md)，可用于驱动基于公式的模型创建并在集中的位置组织模型数据。 
+-   ![ left](images/Feature9.jpg ) [机器人工仿真](Robot_Workbench.md)模块，可让您在图形环境中研究机器人的运动。
+-   ![ left](images/Feature8.jpg )[技术制图模块](TechDraw_Workbench.md)，包含详细视图，横截面视图，尺寸标注等选项，允许您生成现有3D模型的2D视图。模块进一步可生成可导出的SVG或PDF文件。较旧的[绘图模块](Drawing_Workbench.md)具有不多的的Gui命令，但却有强大的Python功能。
+-   ![ left](images/Feature-raytracing.jpg )一个[渲染](Raytracing_Workbench.md)模块，可以导出3D对象以便使用外部渲染器进行渲染。它目前仅支持[povray](http://en.wikipedia.org/wiki/POV-Ray)和[LuxRender](http://en.wikipedia.org/wiki/LuxRender)，但预计今后将扩展到其他渲染器。
+-   ![ left](images/Feature-arch.jpg ) [建筑](Arch_Workbench.md)模块，可实现兼容[IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes)的[建筑信息模型](http://en.wikipedia.org/wiki/Building_Information_Modeling)（BIM）类似的工作流。
+-   ![ left](images/Feature-CAM.jpg ) [刀路模块](Path_Workbench.md)专门用于[计算机辅助制造](https://en.wikipedia.org/wiki/Computer-aided_manufacturing)（CAM）。使用刀路模块，您可以输出，显示和调整用于控制目标机器的[G代码](http://en.wikipedia.org/wiki/G-code)。
+-   ![ left](images/Feature_spreadsheet.png ) [集成电子表格](Spreadsheet_Workbench.md)和[表达式解析器](Expressions.md)，可用于驱动基于公式的模型创建并在集中的位置组织模型数据。 
 
 
 </div>
@@ -70,7 +70,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **可以作为[python模块被导入](Embedding_FreeCAD.md)。** FreeCAD可以被导入到任何其他可以运行python脚本的应用程序。与命令行模式一样，这时FreeCad的界面不可用，但所有几何工具都可以访问。
+-   **可以作为[python模块](Embedding_FreeCAD.md)被导入。** FreeCAD可以被导入到任何其他可以运行python脚本的应用程序。与命令行模式一样，这时FreeCad的界面不可用，但所有几何工具都可以访问。
 
 
 </div>
@@ -78,7 +78,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **工作台概念**。在FreeCad界面中，工具按[工作台分组](workbenches.md)。这允许您只显示用于完成特定任务的工具，保持工作区整洁和且相应迅速，并允许应用程序快速加载。
+-   **工作台概念**。在FreeCad界面中，工具按[工作台](workbenches.md)分组。这允许您只显示用于完成特定任务的工具，保持工作区整洁和且相应迅速，并允许应用程序快速加载。
 
 
 </div>
@@ -131,7 +131,7 @@
 
 -   **面向事务处理**。撤消/重做堆栈存储的是文档事务，而不是单个操作，它允许每个工具准确定义必须撤消或重做的内容。
 
--   **内置[脚本框架](Scripting.md)**。Freecad具有内置的[Python](http://www.python.org/)解释器，其API几乎涵盖了应用程序的任何部分,接口、几何图形以及3D查看器中该几何图形的表示。解释器可以运行复杂的脚本和单个命令；整个模块可以完全用Python编程来开发。
+-   **内置[脚本](Scripting.md)框架**。Freecad具有内置的[Python](http://www.python.org/)解释器，其API几乎涵盖了应用程序的任何部分,接口、几何图形以及3D查看器中该几何图形的表示。解释器可以运行复杂的脚本和单个命令；整个模块可以完全用Python编程来开发。
 
 
 <div class="mw-translate-fuzzy">
@@ -149,7 +149,7 @@
 
 </div>
 
--   **完整的[宏记录和编辑](Macros.md)**功能。当用户操作界面时发出的python命令可以被记录、编辑（如果需要），并保存以备日后复制。
+-   **完整的[宏](Macros.md)记录和编辑**功能。当用户操作界面时发出的python命令可以被记录、编辑（如果需要），并保存以备日后复制。
 
 
 <div class="mw-translate-fuzzy">

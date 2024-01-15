@@ -109,7 +109,7 @@
 | [Part Measure Toggle Delta/ro](Part_Measure_Toggle_Delta/ro.md) | [Part Mirror/ro](Part_Mirror/ro.md) | [Part Module/ro](Part_Module/ro.md) |
 | [Part Offset/ro](Part_Offset/ro.md) | [Part Offset2D/ro](Part_Offset2D/ro.md) | [Part Plane/ro](Part_Plane/ro.md) |
 | [Part Primitives/ro](Part_Primitives/ro.md) | [Part RefineShape/ro](Part_RefineShape/ro.md) | [Part RegularPolygon/ro](Part_RegularPolygon/ro.md) |
-| [Part ReverseShapes/ro](Part_ReverseShapes/ro.md) | [Part Revolve/ro](Part_Revolve/ro.md) | [Part RuledSurface/ro](Part_RuledSurface/ro.md) |
+| [Part ReverseShape/ro](Part_ReverseShape/ro.md) | [Part Revolve/ro](Part_Revolve/ro.md) | [Part RuledSurface/ro](Part_RuledSurface/ro.md) |
 | [Part Section/ro](Part_Section/ro.md) | [Part ShapeFromMesh/ro](Part_ShapeFromMesh/ro.md) | [Part SimpleCopy/ro](Part_SimpleCopy/ro.md) |
 | [Part Slice/ro](Part_Slice/ro.md) | [Part Sphere/ro](Part_Sphere/ro.md) | [Part Spiral/ro](Part_Spiral/ro.md) |
 | [Part Sweep/ro](Part_Sweep/ro.md) | [Part Thickness/ro](Part_Thickness/ro.md) | [Part Torus/ro](Part_Torus/ro.md) |
@@ -157,21 +157,21 @@
 | [Ship GZ/ro](Ship_GZ/ro.md) | [Ship Hydrostatics/ro](Ship_Hydrostatics/ro.md) | [Ship LoadCondition/ro](Ship_LoadCondition/ro.md) |
 | [Ship LoadExample/ro](Ship_LoadExample/ro.md) | [Ship Tank/ro](Ship_Tank/ro.md) | [Ship Workbench/ro](Ship_Workbench/ro.md) |
 | [Sketcher CarbonCopy/ro](Sketcher_CarbonCopy/ro.md) | [Sketcher Clone/ro](Sketcher_Clone/ro.md) | [Sketcher CloseShape/ro](Sketcher_CloseShape/ro.md) |
-| [Sketcher CompCreateArc/ro](Sketcher_CompCreateArc/ro.md) | [Sketcher CompCreateConic/ro](Sketcher_CompCreateConic/ro.md) | [Sketcher ConnectLines/ro](Sketcher_ConnectLines/ro.md) |
-| [Sketcher ConstrainAngle/ro](Sketcher_ConstrainAngle/ro.md) | [Sketcher ConstrainBlock/ro](Sketcher_ConstrainBlock/ro.md) | [Sketcher ConstrainCoincident/ro](Sketcher_ConstrainCoincident/ro.md) |
-| [Sketcher ConstrainDistance/ro](Sketcher_ConstrainDistance/ro.md) | [Sketcher ConstrainDistanceX/ro](Sketcher_ConstrainDistanceX/ro.md) | [Sketcher ConstrainDistanceY/ro](Sketcher_ConstrainDistanceY/ro.md) |
-| [Sketcher ConstrainEqual/ro](Sketcher_ConstrainEqual/ro.md) | [Sketcher ConstrainHorizontal/ro](Sketcher_ConstrainHorizontal/ro.md) | [Sketcher ConstrainLock/ro](Sketcher_ConstrainLock/ro.md) |
-| [Sketcher ConstrainParallel/ro](Sketcher_ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](Sketcher_ConstrainPointOnObject/ro.md) | [Sketcher ConstrainRadius/ro](Sketcher_ConstrainRadius/ro.md) |
-| [Sketcher ConstrainSymmetric/ro](Sketcher_ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](Sketcher_ConstrainTangent/ro.md) | [Sketcher ConstrainVertical/ro](Sketcher_ConstrainVertical/ro.md) |
-| [Sketcher Copy/ro](Sketcher_Copy/ro.md) | [Sketcher Create3PointArc/ro](Sketcher_Create3PointArc/ro.md) | [Sketcher Create3PointCircle/ro](Sketcher_Create3PointCircle/ro.md) |
-| [Sketcher CreateArc/ro](Sketcher_CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](Sketcher_CreateArcOfEllipse/ro.md) | [Sketcher CreateArcOfHyperbola/ro](Sketcher_CreateArcOfHyperbola/ro.md) |
-| [Sketcher CreateArcOfParabola/ro](Sketcher_CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](Sketcher_CreateCircle/ro.md) | [Sketcher CreateEllipseBy3Points/ro](Sketcher_CreateEllipseBy3Points/ro.md) |
-| [Sketcher CreateEllipseByCenter/ro](Sketcher_CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](Sketcher_CreateFillet/ro.md) | [Sketcher CreateHeptagon/ro](Sketcher_CreateHeptagon/ro.md) |
-| [Sketcher CreateHexagon/ro](Sketcher_CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](Sketcher_CreateOctagon/ro.md) | [Sketcher CreatePentagon/ro](Sketcher_CreatePentagon/ro.md) |
-| [Sketcher CreatePoint/ro](Sketcher_CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](Sketcher_CreatePolyline/ro.md) | [Sketcher CreateRectangle/ro](Sketcher_CreateRectangle/ro.md) |
-| [Sketcher CreateSlot/ro](Sketcher_CreateSlot/ro.md) | [Sketcher CreateSquare/ro](Sketcher_CreateSquare/ro.md) | [Sketcher CreateTriangle/ro](Sketcher_CreateTriangle/ro.md) |
-| [Sketcher EditSketch/ro](Sketcher_EditSketch/ro.md) | [Sketcher Extend/ro](Sketcher_Extend/ro.md) | [Sketcher External/ro](Sketcher_External/ro.md) |
-| [Sketcher LeaveSketch/ro](Sketcher_LeaveSketch/ro.md) | [Sketcher MapSketch/ro](Sketcher_MapSketch/ro.md) |
+| [Sketcher ConnectLines/ro](Sketcher_ConnectLines/ro.md) | [Sketcher ConstrainAngle/ro](Sketcher_ConstrainAngle/ro.md) | [Sketcher ConstrainBlock/ro](Sketcher_ConstrainBlock/ro.md) |
+| [Sketcher ConstrainCoincident/ro](Sketcher_ConstrainCoincident/ro.md) | [Sketcher ConstrainDistance/ro](Sketcher_ConstrainDistance/ro.md) | [Sketcher ConstrainDistanceX/ro](Sketcher_ConstrainDistanceX/ro.md) |
+| [Sketcher ConstrainDistanceY/ro](Sketcher_ConstrainDistanceY/ro.md) | [Sketcher ConstrainEqual/ro](Sketcher_ConstrainEqual/ro.md) | [Sketcher ConstrainHorizontal/ro](Sketcher_ConstrainHorizontal/ro.md) |
+| [Sketcher ConstrainLock/ro](Sketcher_ConstrainLock/ro.md) | [Sketcher ConstrainParallel/ro](Sketcher_ConstrainParallel/ro.md) | [Sketcher ConstrainPointOnObject/ro](Sketcher_ConstrainPointOnObject/ro.md) |
+| [Sketcher ConstrainRadius/ro](Sketcher_ConstrainRadius/ro.md) | [Sketcher ConstrainSymmetric/ro](Sketcher_ConstrainSymmetric/ro.md) | [Sketcher ConstrainTangent/ro](Sketcher_ConstrainTangent/ro.md) |
+| [Sketcher ConstrainVertical/ro](Sketcher_ConstrainVertical/ro.md) | [Sketcher Copy/ro](Sketcher_Copy/ro.md) | [Sketcher Create3PointArc/ro](Sketcher_Create3PointArc/ro.md) |
+| [Sketcher Create3PointCircle/ro](Sketcher_Create3PointCircle/ro.md) | [Sketcher CreateArc/ro](Sketcher_CreateArc/ro.md) | [Sketcher CreateArcOfEllipse/ro](Sketcher_CreateArcOfEllipse/ro.md) |
+| [Sketcher CreateArcOfHyperbola/ro](Sketcher_CreateArcOfHyperbola/ro.md) | [Sketcher CreateArcOfParabola/ro](Sketcher_CreateArcOfParabola/ro.md) | [Sketcher CreateCircle/ro](Sketcher_CreateCircle/ro.md) |
+| [Sketcher CreateEllipseBy3Points/ro](Sketcher_CreateEllipseBy3Points/ro.md) | [Sketcher CreateEllipseByCenter/ro](Sketcher_CreateEllipseByCenter/ro.md) | [Sketcher CreateFillet/ro](Sketcher_CreateFillet/ro.md) |
+| [Sketcher CreateHeptagon/ro](Sketcher_CreateHeptagon/ro.md) | [Sketcher CreateHexagon/ro](Sketcher_CreateHexagon/ro.md) | [Sketcher CreateOctagon/ro](Sketcher_CreateOctagon/ro.md) |
+| [Sketcher CreatePentagon/ro](Sketcher_CreatePentagon/ro.md) | [Sketcher CreatePoint/ro](Sketcher_CreatePoint/ro.md) | [Sketcher CreatePolyline/ro](Sketcher_CreatePolyline/ro.md) |
+| [Sketcher CreateRectangle/ro](Sketcher_CreateRectangle/ro.md) | [Sketcher CreateSlot/ro](Sketcher_CreateSlot/ro.md) | [Sketcher CreateSquare/ro](Sketcher_CreateSquare/ro.md) |
+| [Sketcher CreateTriangle/ro](Sketcher_CreateTriangle/ro.md) | [Sketcher EditSketch/ro](Sketcher_EditSketch/ro.md) | [Sketcher Extend/ro](Sketcher_Extend/ro.md) |
+| [Sketcher External/ro](Sketcher_External/ro.md) | [Sketcher LeaveSketch/ro](Sketcher_LeaveSketch/ro.md) | [Sketcher MapSketch/ro](Sketcher_MapSketch/ro.md) |
+| [Sketcher MergeSketches/ro](Sketcher_MergeSketches/ro.md) | [Sketcher Micro Tutorial - Constraint Practices/ro](Sketcher_Micro_Tutorial_-_Constraint_Practices/ro.md) |
 
 
 

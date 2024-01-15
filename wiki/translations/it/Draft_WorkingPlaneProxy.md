@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft SetWorkingPlaneProxy
-   Name/it: Piano proxy
-   MenuLocation: Draft , Utilità , Crea piano di lavoro proxy
+   Name/it: Piano di lavoro proxy
+   MenuLocation: Utilità , Crea piano di lavoro Proxy
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    SeeAlso: Draft SelectPlane/it
 ---
@@ -10,158 +10,95 @@
 # Draft WorkingPlaneProxy/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando posiziona un oggetto Piano proxy allineato al corrente [Piano di lavoro](Draft_SelectPlane/it.md).
-
-
-</div>
+Il comando <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **Draft Piano di lavoro proxy** crea un piano di lavoro proxy per salvare il [Draft Piano di lavoro](Draft_SelectPlane/it.md) corrente. È possibile utilizzare piano di lavoro proxy per ripristinare rapidamente un piano di lavoro. La posizione della telecamera e la visibilità degli oggetti nella [Vista 3D](3D_view/it.md) vengono salvate anche nel piano di lavoro proxy e possono, [facoltativamente](#Proprietà.md), essere ripristinate.
 
 <img alt="" src=images/Draft_WPProxy_example.png  style="width:400px;"> 
-*Tre piani di lavoro proxy con diversi orientamenti e offset*
+*Tre Piani di lavoro proxy con diversi orientamenti e offset*
+
+
 
 ## Utilizzo
 
+1.  Facoltativamente modificare il [piano di lavoro](Draft_SelectPlane/it.md).
+2.  Facoltativamente modificare la [Vista 3D](3D_view/it.md).
+3.  Facoltativamente, modificare lo stato di visibilità degli oggetti nel documento.
+4.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Crea piano di lavoro proxy](Draft_WorkingPlaneProxy/it.md)**.
+    -   Selezionare l\'opzione **Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> Crea piano di lavoro proxy** dal menu.
+5.  Viene creato un Piano di lavoro proxy.
+6.  Per allineare il [piano di lavoro](Draft_SelectPlane/it.md) con un Piano di lavoro proxy, fare doppio clic sul Piano di lavoro proxy nella [Vista ad albero](Tree_view/it.md) o utilizzarlo con il comando [Draft Seleziona piano](Draft_SelectPlane/it.md).
 
-<div class="mw-translate-fuzzy">
 
-1.  Assicurarsi che il [Piano di lavoro](Draft_SelectPlane/it.md) sia impostato come si desidera.
-2.  Poi andare nel menu **Draft → Utilità → <img src="images/Draft_WorkingPlaneProxy.svg" width=16px> [Crea un piano di lavoro Proxy](Draft_SetWorkingPlaneProxy/it.md)**.
-
-
-</div>
 
 ## Menu contestuale 
 
-For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
+Per un Draft Piano di lavoro proxy queste opzioni aggiuntive sono disponibili nel menu contestuale [Vista ad albero](Tree_view/it.md):
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**: updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Memorizza la posizione della telecamera**: aggiorna la proprietà **View Data** del Piano di lavoro proxy con le impostazioni correnti della [Vista 3D](3D_view/it.md) della telecamera.
 
--    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
-
-## Notes
+-    **<img src="images/Draft_SelectPlane.svg" width=16px> Memorizza stato oggetti**: aggiorna la proprietà **Visibility Map** del Piano di lavoro proxy con lo stato di visibilità corrente degli oggetti nel documento.
 
 
-<div class="mw-translate-fuzzy">
 
 ## Note
 
--   Il piano di lavoro memorizzato nell\'oggetto Proxy può essere ripristinato facendo doppio clic sull\'oggetto nella vista ad albero o selezionando l\'oggetto Proxy e utilizzando il pulsante **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona piano](Draft_SelectPlane/it.md)**.
--   La posizione della telecamera è memorizzata nell\'oggetto Proxy al momento della creazione. Questa posizione può essere aggiornata in qualsiasi momento: zoom, panoramica e rotazione della vista come desiderato, quindi fare clic con il pulsante destro del mouse sull\'oggetto piano Proxy nella vista ad albero e selezionare **<img src="images/Draft_SelectPlane.svg" width=16px> Write camera position**.
--   Al momento della creazione nell\'oggetto Proxy viene anche memorizzato lo stato di visibilità di tutti gli oggetti. Questo stato può essere aggiornato in qualsiasi momento: impostare la proprietà **Visibility** degli oggetti su `True` o `False` come desiderato, quindi fare clic con il pulsante destro del mouse sull\'oggetto Proxy nella vista ad albero e selezionare **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**.
--   I piani proxy possono essere spostati e ruotati come qualsiasi altro oggetto in modo che definire il piano di lavoro desiderato. Il loro aspetto visivo può essere cambiato nell\'[editor delle proprietà](property_editor/it.md).
+-   I Piani di lavoro proxy possono essere [spostati](Draft_Move/it.md) e [ruotati](Draft_Rotate/it.md) come qualsiasi altro oggetto. Utilizzare <img alt="" src=images/Draft_Snap_Center.svg  style="width:16px;"> [Draft Aggancia Centro](Draft_Snap_Center/it.md) per eseguire l\'aggancio al punto **Placement**.
 
 
-</div>
 
 ## Proprietà
 
-See also: [Property editor](Property_editor.md).
+Vedere anche: [Editor delle proprietà](Property_editor/it.md).
 
-A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
+Un oggetto Draft WorkingPlaneProxy deriva da un oggetto [App FeaturePython](App_FeaturePython/it.md) ed eredita tutte le sue proprietà. Ha inoltre le seguenti proprietà aggiuntive:
 
 ### Data
 
 
 {{TitleProperty|Base}}
 
+-    **Placement|Placement**: specifica la posizione del Piano di lavoro proxy nella [Vista 3D](3D_view/it.md). Vedere [Posizionamento](Posizionamento/it.md).
 
-<div class="mw-translate-fuzzy">
-
-### Dati
-
--    **Placement**: specifica la posizione dell\'oggetto proxy e il piano di lavoro corrispondente.
-
-    -   
-        **Position**
-        
-        : specifica le coordinate dell\'oggetto proxy.
-
-    -   
-        **Angle**
-        
-        : specifica l\'angolo di rotazione dell\'oggetto proxy.
-
-    -   
-        **Axis**
-        
-        : specifica l\'asse da utilizzare per l\'angolo di rotazione.
-
-
-</div>
+-    **Shape|Shape|Hidden**: specifica la forma del Piano di lavoro proxy.
 
 ### View
 
 
 {{TitleProperty|Base}}
 
--    **Line Color|Color**: specifies the color of all elements of the working plane proxy.
+-    **Line Color|Color**: specifica il colore di tutti gli elementi del Piano di lavoro proxy.
 
--    **Line Width|Float**: specifies the line width of the axes and arrow symbols.
+-    **Line Width|Float**: specifica lo spessore della linea degli assi e dei simboli freccia.
 
--    **Restore State|Bool**: specifies if the **Visibility Map** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore State|Bool**: specifica se **Visibility Map** viene ripristinato quando il [piano di lavoro](Draft_SelectPlane/it.md) è allineato con il Piano di lavoro proxy.
 
--    **Restore View|Bool**: specifies if the **View Data** is restored when the [working plane](Draft_SelectPlane.md) is aligned with the working plane proxy.
+-    **Restore View|Bool**: specifica se **View Data** viene ripristinato quando il [piano di lavoro](Draft_SelectPlane/it.md) è allineato con il Piano di lavoro proxy
 
--    **Transparency|Percent**: specifies the transparency of the face of the working plane proxy.
+-    **Transparency|Percent**: specifica la trasparenza della faccia del Piano di lavoro proxy.
 
--    **View Data|FloatList**: specifies the camera position and settings.
+-    **View Data|FloatList**: specifica la posizione e le impostazioni della telecamera.
 
--    **Visibility Map|Map|Hidden**: specifies the visibility state of objects.
+-    **Visibility Map|Map|Hidden**: specifica lo stato di visibilità degli oggetti.
 
 
 {{TitleProperty|Draft}}
 
+-    **Arrow Size|Length**: specifica la dimensione dei simboli freccia visualizzati sulla punta dei tre assi.
 
-<div class="mw-translate-fuzzy">
-
-### Vista
-
--    **Display Size**: specifica sia la lunghezza che la larghezza dell\'oggetto proxy. Se l\'oggetto viene creato nella vista ad albero ma nella vista 3D non è visibile nessun elemento, aumentare questo valore fino a renderlo visibile.
-
--    **Arrow Size**: specifica la dimensione delle frecce che indicano i tre assi del piano proxy.
-
--    **Restore View**: se è `True` la posizione della telecamera viene ripristinata nella posizione salvata quando si utilizza il proxy con **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona piano](Draft_SelectPlane/it.md)** o facendo doppio clic su di esso.
-
--    **Restore State**: se è `True` lo stato di visibilità di tutti gli oggetti viene ripristinato allo stato salvato quando si utilizza il proxy con **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona piano](Draft_SelectPlane/it.md)** o facendo doppio clic su di esso.
+-    **Display Size|Length**: specifica la lunghezza e la larghezza del Piano di lavoro proxy.
 
 
-</div>
 
 ## Script
 
+Vedere anche: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-<div class="mw-translate-fuzzy">
+Per creare un Draft WorkingPlaneProxy utilizzare il metodo `make_workingplaneproxy` del modulo Draft.
 
-
-**Vedere anche:**
-
-[API Draft](Draft_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-L\'oggetto Piano di lavoro proxy può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Cre un oggetto `WPProxy` con il `placement` dato, che è un `FreeCAD.Placement`.
-    -   Un posizionamento è definito da un punto base, dato dal suo `FreeCAD.Vector`, e una `FreeCAD.Rotation`.
-
-
-</div>
+Se [Draft](Draft_Workbench/it.md) è attivo, l\'oggetto dell\'applicazione FreeCAD ha una proprietà `DraftWorkingPlane` che memorizza il piano di lavoro corrente. L\'{{Incode|Placement}} del metodo {{Incode|getPlacement}} dell\'oggetto `DraftWorkingPlane` può essere utilizzato per creare un Piano di lavoro proxy allineato. L\'{{Incode|Placement}} di un Piano di lavoro proxy a sua volta può essere utilizzato per riallineare il piano di lavoro.
 
 
 ```python
@@ -193,15 +130,6 @@ Gui.Snapper.setGrid()
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

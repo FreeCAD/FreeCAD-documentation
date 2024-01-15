@@ -3,7 +3,6 @@
    Name: FEM ConstraintPulley
    MenuLocation: Model , Constraints without solver , Constraint pulley
    Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintBearing, FEM_ConstraintGear
 ---
 
 # FEM ConstraintPulley

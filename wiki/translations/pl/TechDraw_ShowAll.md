@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ShowAll
    Name/pl: Rysunek Techniczny: Pokaż / ukryj niewidoczne krawędzie
-   MenuLocation: Rysunek Techniczny , Pokaż / ukryj niewidoczne krawędzie
+   MenuLocation: Rysunek Techniczny , Dodaj linie , Pokaż / ukryj niewidoczne krawędzie
    Workbenches: TechDraw_Workbench/pl
    Version: 0.19
    SeeAlso: TechDraw_DecorateLine/pl
@@ -11,37 +11,26 @@
 # TechDraw ShowAll/pl
 
 
-</div>
-
-
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Pokaż / ukryj niewidoczne krawędzie** pokazuje lub ukrywa niewidoczne linie w widoku. Należy pamiętać, że \"niewidoczne\" to stan kosmetyczny, którego nie należy mylić z ukrytymi liniami, które są konstrukcjami geometrycznymi.
-
-
-</div>
+służy do tymczasowego wyświetlania, a następnie ukrywania niewidocznych linii w widoku. Linie mogą być ukryte za pomocą narzędzia [Zmień wygląd linii](TechDraw_DecorateLine/pl.md). Należy pamiętać, że \"niewidoczność\" jest stanem kosmetycznym, którego nie należy mylić z ukrytymi liniami, które są konstrukcjami geometrycznymi.
 
 
 
 ## Użycie
 
+1.  Wybierz widok z niewidocznymi liniami na stronie lub w oknie [Widok drzewa](Tree_view/pl.md).
+2.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ShowAll.svg" width=16px> '''Pokaż / Ukryj niewidoczne krawędzie'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj linie → <img src="images/TechDraw_ShowAll.svg" width=16px> Pokaż / Ukryj niewidoczne krawędzie**.
+3.  Wszystkie niewidoczne linie w widoku są wyświetlane lub ukrywane.
 
-<div class="mw-translate-fuzzy">
-
-1.  Wybierz widok na stronie lub w widoku drzewa.
-2.  Naciśnij przycisk **<img src="images/TechDraw_ShowAll.svg" width=16px> '''Pokaż / Ukryj niewidoczne krawędzie'''**.
-3.  Stan niewidocznych linii w widoku zostanie odwrócony.
 
 
-</div>
+## Uwagi
 
-## Notes
-
--   To make invisible lines permanently visible use <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [TechDraw DecorateLine](TechDraw_DecorateLine.md).
+-   Aby trwale uwidocznić niewidoczne linie, użyj narzędzia <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:16px;"> [Zmień wygląd linii](TechDraw_DecorateLine/pl.md).
 
 
 

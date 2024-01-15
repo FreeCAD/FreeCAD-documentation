@@ -1,7 +1,7 @@
 # FEM CalculiX/fr
 ## Introduction
 
-Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http://www.calculix.de/), le solveur par défaut de l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
+Cette page rassemble des informations sur le solveur d\'éléments finis [CalculiX](http://www.calculix.de/), le solveur par défaut de l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) pour l\'analyse structurelle et thermo-mécanique. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
 
 Le solveur est capable de faire des calculs linéaires et non linéaires pour des problèmes statiques, dynamiques et thermiques. Le solveur opère sur un fichier Abaqus (`.inp`), ce qui signifie qu\'il peut être utilisé avec différents pré-processeurs prenant en charge ce format. Le programme inclut son propre préprocesseur graphique qui, toutefois, n'est pas utilisé par FreeCAD, mais uniquement par le solveur lui-même.
 
@@ -44,16 +44,17 @@ L\'interface CalculiX prend en charge les objets suivants :
 
 ### Analyses
 
--   analyse statique linéaire
--   analyse fréquencielle
--   analyse structurale thermique couplée
+-   Analyse statique linéaire et non linéaire
+-   Analyse de fréquence
+-   Analyse du flambage linéaire
+-   Analyse thermique-structurelle couplée
 
 
 
 ### Matériaux
 
--   un matériau élastique linéaire isotrope (uniformité dans toutes les directions)
--   plusieurs matériaux sont en développement
+-   Matériaux isotropes à élasticité linéaire (uniformité dans toutes les directions)
+-   Plasticité avec durcissement isotrope
 
 
 
@@ -69,7 +70,7 @@ L\'atelier FEM charge les résultats de CalculiX dans l\'[objet résultat](FEM_R
 
 FreeCAD lit les résultats du fichier \*.frd qui a été créé par CalculiX. Si ces résultats contiennent plusieurs pas de temps, chaque pas de temps est importé dans FreeCAD comme un nouvel objet résultat. Le même comportement s\'applique à l\'analyse fréquentielle ou de flambage avec de multiples valeurs propres.
 
-Les forces de réaction se trouvent dans le fichier ccx_dat_file qui contient les composantes des forces de réaction (fx, fy, fz) pour chaque contrainte fixée et pour chaque déplacement de contrainte qui contraint les degrés de liberté de déplacement.
+Les forces de réaction se trouvent dans ccx_dat_file, qui contient les composantes de force de réaction (fx, fy, fz) pour chaque condition limite fixe et pour chaque condition limite de déplacement, ce qui limite les degrés de liberté de translation.
 
 
 

@@ -1,5 +1,5 @@
 # Manual:All workbenches at a glance/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 
 <div class="mw-translate-fuzzy">
@@ -70,6 +70,9 @@ Atelierul Desen 2D (Draft) oferă instrumente pentru a efectua sarcini de bază 
 
 Sketcher Workbench conține instrumente pentru a construi și edita obiecte complexe 2D, numite schițe. Geometria din interiorul acestor schițe poate fi poziționată precis și relaționată de utilizarea constrângerilor. Acestea sunt în primul rând menite a fi elementele de bază ale geometriei PartDesign, dar sunt utile oriunde în FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
   Instrument                                                                                                                                             Descriere                                                                                                                                       Instrument                                                                                                                                            Descriere
      
   <img alt="" src=images/Sketcher_CreatePoint.png  style="width:32px;"> [Point](Sketcher_CreatePoint.md)                                          Desenează un punct                                                                                                                              <img alt="" src=images/Sketcher_Line.png  style="width:32px;"> [Line](Sketcher_CreateLine.md)                                                         Desenează un segment de linie definit prin 2 puncte
@@ -92,6 +95,9 @@ Sketcher Workbench conține instrumente pentru a construi și edita obiecte comp
   <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [Distance](Sketcher_ConstrainDistance.md)                                       Limitează distanțe prin limitarea lungimii liniei dselectate sau definește distanța dintre două puncte prin limitarea distanței dintre ele.     <img alt="" src=images/Constraint_Radius.png  style="width:32px;"> [Radius](Sketcher_ConstrainRadius.md)                                          Definește raza unui arc sau cerc selectat prin limitarea razei.
   <img alt="" src=images/Constraint_InternalAngle.png  style="width:32px;"> [Internal anglr](Sketcher_ConstrainAngle.md)                      Definește unghiul intern dintre două linii selectate.                                                                                           <img alt="" src=images/Sketcher_MapSketch.png  style="width:32px;"> [Map sketch](Sketcher_MapSketch.md)                                          Aplică o schiță pe o fațetă sau solidul selectat.
   <img alt="" src=images/Sketcher_MergeSketch.png  style="width:32px;"> [Merge](Sketcher_MergeSketches.md)                                        Fuzionează două sau mai multe schițe                                                                                                            <img alt="" src=images/Sketcher_MirrorSketch.png  style="width:32px;"> [Mirror](Sketcher_MirrorSketch.md)                                     Creează o schiță simetrică de-a lungul axei X, axei Y sau a originii.
+
+
+</div>
 
 
 

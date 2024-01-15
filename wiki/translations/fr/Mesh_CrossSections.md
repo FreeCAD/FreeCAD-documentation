@@ -21,7 +21,7 @@ La commande **Coupes** crée plusieurs coupes transversales sur les objets maill
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_CrossSections.svg" width=16px> [Coupes](Mesh_CrossSections/fr.md)
 **
-    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_CrossSections.svg" width=16px> Coupes..** dans le menu.
+    -   Sélectionnez l\'option **Maillages → Couper → <img src="images/Mesh_CrossSections.svg" width=16px> Coupes...** dans le menu.
 3.  Le panneau des tâches **Coupes** s\'ouvre.
 4.  Les plans qui seront utilisés pour créer les coupes sont indiqués dans la [vue 3D](3D_view/fr.md) et seront mis à jour en fonction des entrées du panneau de tâches.
 5.  Sélectionnez le **Plan guide** :

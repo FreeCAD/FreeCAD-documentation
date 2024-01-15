@@ -1,31 +1,36 @@
 ---
  GuiCommand:
    Name: Arch Rebar Dimensioning
+   Name/de: Arch Armierung Bemaßen
    MenuLocation: Arch , Rebar
-   Workbenches: Arch_Workbench, BIM_Workbench
-   SeeAlso: Arch Rebar Drawing, Reinforcement Addon
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
+   SeeAlso: Arch Rebar Drawing/de, Reinforcement Addon/de
    Version: 0.19
 ---
 
 # Arch Rebar Dimensioning/de
 
-Please Note: The below work is present in develop branch of Reinforcement workbench [here](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop)
+Bitte beachten: Die folgende Arbeit ist im Entwicklungszweig des Arbeitsbereichs [Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement/tree/develop) vorhanden.
+
+
 
 ## Beschreibung
 
-The [Reinforcement Dimensioning](Arch_Rebar_Dimensioning.md) tool allows the user to create dimensioning for reinforcing bars in [Reinforcement Drawing](Arch_Rebar_Drawing.md).
+Das Werkzeug [Armierung Bemaßen](Arch_Rebar_Dimensioning/de.md) ermöglicht dem Anwender Bewehrungen auf einer Bewehrungszeichnung (siehe [Armierung Zeichnung](Arch_Rebar_Drawing/de.md)) zu bemaßen.
 
-This command is part of the [Reinforcement Addon](Reinforcement_Addon.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:1000px;">
 
 
 
-*Drawing and dimensioning of reinforcing bars*
+*Zeichnung von Bewehrungen, mit Bemaßung*
+
+
 
 ## Anwendung
 
-1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Addon](Reinforcement_Addon.md).
+1\. Ein FreeCAD-Modell öffnen, dass Bewehrungen enthält, die mit dem [Addon Reinforcement](Reinforcement_Addon/de.md) erstellt wurden.
 
 2\. In FreeCAD Python console, copy below code snippet to generate reinforcement drawing and dimensioning from different views for each [Arch Structure](Arch_Structure.md) element. 
 ```python
@@ -55,6 +60,8 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 ## ReinforcementDimensioning Object 
 
 A Rebar Dimensioning SVG View object.
+
+
 
 ### Eigenschaften
 
@@ -117,6 +124,8 @@ A Rebar Dimensioning SVG View object.
 -    **SingleRebar_TextPositionType**: It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
 -    **MultiRebar_TextPositionType**: It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+
+
 
 ## Skripten
 
@@ -217,6 +226,8 @@ dimension_object = makeReinforcementDimensioningObject(
 -    `dimension_single_rebar_text_position_type`specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
 
 -    `dimension_multi_rebar_text_position_type`specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\".
+
+
 
 ##### Beispiel
 

@@ -30,24 +30,23 @@ This category contains articles about the usage of FreeCAD. It is also the centr
 | [Placement/zh-cn](Placement/zh-cn.md) | [Plot Workbench/zh-cn](Plot_Workbench/zh-cn.md) | [Points Workbench/zh-cn](Points_Workbench/zh-cn.md) |
 | [Preferences Editor/zh-cn](Preferences_Editor/zh-cn.md) | [Property editor/zh-cn](Property_editor/zh-cn.md) | [Raytracing Workbench/zh-cn](Raytracing_Workbench/zh-cn.md) |
 | [Reverse Engineering Workbench/zh-cn](Reverse_Engineering_Workbench/zh-cn.md) | [Robot Workbench/zh-cn](Robot_Workbench/zh-cn.md) | [Ship Workbench/zh-cn](Ship_Workbench/zh-cn.md) |
-| [Sketcher CompCreateArc/zh-cn](Sketcher_CompCreateArc/zh-cn.md) | [Sketcher CompCreateBSpline/zh-cn](Sketcher_CompCreateBSpline/zh-cn.md) | [Sketcher CompCreateCircle/zh-cn](Sketcher_CompCreateCircle/zh-cn.md) |
-| [Sketcher CompCreateConic/zh-cn](Sketcher_CompCreateConic/zh-cn.md) | [Sketcher Create3PointArc/zh-cn](Sketcher_Create3PointArc/zh-cn.md) | [Sketcher Create3PointCircle/zh-cn](Sketcher_Create3PointCircle/zh-cn.md) |
-| [Sketcher CreateArc/zh-cn](Sketcher_CreateArc/zh-cn.md) | [Sketcher CreateArcOfEllipse/zh-cn](Sketcher_CreateArcOfEllipse/zh-cn.md) | [Sketcher CreateArcOfHyperbola/zh-cn](Sketcher_CreateArcOfHyperbola/zh-cn.md) |
-| [Sketcher CreateArcOfParabola/zh-cn](Sketcher_CreateArcOfParabola/zh-cn.md) | [Sketcher CreateBSpline/zh-cn](Sketcher_CreateBSpline/zh-cn.md) | [Sketcher CreateCircle/zh-cn](Sketcher_CreateCircle/zh-cn.md) |
-| [Sketcher CreateEllipseBy3Points/zh-cn](Sketcher_CreateEllipseBy3Points/zh-cn.md) | [Sketcher CreateEllipseByCenter/zh-cn](Sketcher_CreateEllipseByCenter/zh-cn.md) | [Sketcher CreateLine/zh-cn](Sketcher_CreateLine/zh-cn.md) |
-| [Sketcher CreatePeriodicBSpline/zh-cn](Sketcher_CreatePeriodicBSpline/zh-cn.md) | [Sketcher CreatePoint/zh-cn](Sketcher_CreatePoint/zh-cn.md) | [Sketcher Dialog/zh-cn](Sketcher_Dialog/zh-cn.md) |
-| [Sketcher EditSketch/zh-cn](Sketcher_EditSketch/zh-cn.md) | [Sketcher LeaveSketch/zh-cn](Sketcher_LeaveSketch/zh-cn.md) | [Sketcher MapSketch/zh-cn](Sketcher_MapSketch/zh-cn.md) |
-| [Sketcher MergeSketches/zh-cn](Sketcher_MergeSketches/zh-cn.md) | [Sketcher MirrorSketch/zh-cn](Sketcher_MirrorSketch/zh-cn.md) | [Sketcher NewSketch/zh-cn](Sketcher_NewSketch/zh-cn.md) |
-| [Sketcher ReorientSketch/zh-cn](Sketcher_ReorientSketch/zh-cn.md) | [Sketcher StopOperation/zh-cn](Sketcher_StopOperation/zh-cn.md) | [Sketcher ValidateSketch/zh-cn](Sketcher_ValidateSketch/zh-cn.md) |
-| [Sketcher ViewSection/zh-cn](Sketcher_ViewSection/zh-cn.md) | [Sketcher ViewSketch/zh-cn](Sketcher_ViewSketch/zh-cn.md) | [Sketcher Workbench/zh-cn](Sketcher_Workbench/zh-cn.md) |
-| [Source documentation/zh-cn](Source_documentation/zh-cn.md) | [Spreadsheet Workbench/zh-cn](Spreadsheet_Workbench/zh-cn.md) | [Start Workbench/zh-cn](Start_Workbench/zh-cn.md) |
-| [Surface Workbench/zh-cn](Surface_Workbench/zh-cn.md) | [Task panel/zh-cn](Task_panel/zh-cn.md) | [TechDraw Workbench/zh-cn](TechDraw_Workbench/zh-cn.md) |
-| [Testing/zh-cn](Testing/zh-cn.md) | [Tracker/zh-cn](Tracker/zh-cn.md) | [Tutorials/zh-cn](Tutorials/zh-cn.md) |
-| [User hub/zh-cn](User_hub/zh-cn.md) | [Web Workbench/zh-cn](Web_Workbench/zh-cn.md) | [WebTools Workbench/zh-cn](WebTools_Workbench/zh-cn.md) |
-| [Workbenches/zh-cn](Workbenches/zh-cn.md) | [Screenshots/zh-cn](Screenshots/zh-cn.md) | [Category:Arch/zh-cn](Category_Arch/zh-cn.md) |
-| [Category:BIM/zh-cn](Category_BIM/zh-cn.md) | [Category:Draft/zh-cn](Category_Draft/zh-cn.md) | [Category:Inspection/zh-cn](Category_Inspection/zh-cn.md) |
-| [Category:Macros/zh-cn](Category_Macros/zh-cn.md) | [Category:Test Framework/zh-cn](Category_Test_Framework/zh-cn.md) | [Category:Tutorials/zh-cn](Category_Tutorials/zh-cn.md) |
-| [Category:Workbenches/zh-cn](Category_Workbenches/zh-cn.md) |
+| [Sketcher Create3PointArc/zh-cn](Sketcher_Create3PointArc/zh-cn.md) | [Sketcher Create3PointCircle/zh-cn](Sketcher_Create3PointCircle/zh-cn.md) | [Sketcher CreateArc/zh-cn](Sketcher_CreateArc/zh-cn.md) |
+| [Sketcher CreateArcOfEllipse/zh-cn](Sketcher_CreateArcOfEllipse/zh-cn.md) | [Sketcher CreateArcOfHyperbola/zh-cn](Sketcher_CreateArcOfHyperbola/zh-cn.md) | [Sketcher CreateArcOfParabola/zh-cn](Sketcher_CreateArcOfParabola/zh-cn.md) |
+| [Sketcher CreateBSpline/zh-cn](Sketcher_CreateBSpline/zh-cn.md) | [Sketcher CreateCircle/zh-cn](Sketcher_CreateCircle/zh-cn.md) | [Sketcher CreateEllipseBy3Points/zh-cn](Sketcher_CreateEllipseBy3Points/zh-cn.md) |
+| [Sketcher CreateEllipseByCenter/zh-cn](Sketcher_CreateEllipseByCenter/zh-cn.md) | [Sketcher CreateLine/zh-cn](Sketcher_CreateLine/zh-cn.md) | [Sketcher CreatePeriodicBSpline/zh-cn](Sketcher_CreatePeriodicBSpline/zh-cn.md) |
+| [Sketcher CreatePoint/zh-cn](Sketcher_CreatePoint/zh-cn.md) | [Sketcher Dialog/zh-cn](Sketcher_Dialog/zh-cn.md) | [Sketcher EditSketch/zh-cn](Sketcher_EditSketch/zh-cn.md) |
+| [Sketcher LeaveSketch/zh-cn](Sketcher_LeaveSketch/zh-cn.md) | [Sketcher MapSketch/zh-cn](Sketcher_MapSketch/zh-cn.md) | [Sketcher MergeSketches/zh-cn](Sketcher_MergeSketches/zh-cn.md) |
+| [Sketcher MirrorSketch/zh-cn](Sketcher_MirrorSketch/zh-cn.md) | [Sketcher NewSketch/zh-cn](Sketcher_NewSketch/zh-cn.md) | [Sketcher ReorientSketch/zh-cn](Sketcher_ReorientSketch/zh-cn.md) |
+| [Sketcher StopOperation/zh-cn](Sketcher_StopOperation/zh-cn.md) | [Sketcher ValidateSketch/zh-cn](Sketcher_ValidateSketch/zh-cn.md) | [Sketcher ViewSection/zh-cn](Sketcher_ViewSection/zh-cn.md) |
+| [Sketcher ViewSketch/zh-cn](Sketcher_ViewSketch/zh-cn.md) | [Sketcher Workbench/zh-cn](Sketcher_Workbench/zh-cn.md) | [Source documentation/zh-cn](Source_documentation/zh-cn.md) |
+| [Spreadsheet Workbench/zh-cn](Spreadsheet_Workbench/zh-cn.md) | [Start Workbench/zh-cn](Start_Workbench/zh-cn.md) | [Surface Workbench/zh-cn](Surface_Workbench/zh-cn.md) |
+| [Task panel/zh-cn](Task_panel/zh-cn.md) | [TechDraw Workbench/zh-cn](TechDraw_Workbench/zh-cn.md) | [Testing/zh-cn](Testing/zh-cn.md) |
+| [Tracker/zh-cn](Tracker/zh-cn.md) | [Tutorials/zh-cn](Tutorials/zh-cn.md) | [User hub/zh-cn](User_hub/zh-cn.md) |
+| [Web Workbench/zh-cn](Web_Workbench/zh-cn.md) | [WebTools Workbench/zh-cn](WebTools_Workbench/zh-cn.md) | [Workbenches/zh-cn](Workbenches/zh-cn.md) |
+| [Screenshots/zh-cn](Screenshots/zh-cn.md) | [Category:Arch/zh-cn](Category_Arch/zh-cn.md) | [Category:BIM/zh-cn](Category_BIM/zh-cn.md) |
+| [Category:Draft/zh-cn](Category_Draft/zh-cn.md) | [Category:Inspection/zh-cn](Category_Inspection/zh-cn.md) | [Category:Macros/zh-cn](Category_Macros/zh-cn.md) |
+| [Category:Test Framework/zh-cn](Category_Test_Framework/zh-cn.md) | [Category:Tutorials/zh-cn](Category_Tutorials/zh-cn.md) | [Category:Workbenches/zh-cn](Category_Workbenches/zh-cn.md) |
+|
 
 
 

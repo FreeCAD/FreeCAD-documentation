@@ -7,7 +7,7 @@
 |Version=0.1
 |Date=2018-12-15
 |FCVersion=18 and after
-|Download=[https://www.freecadweb.org/wiki/images/a/ab/Macro_clone_explicit.png ToolBar Icon]
+|Download=[https://wiki.freecad.org/images/a/ab/Macro_clone_explicit.png ToolBar Icon]
 |SeeAlso=[Expressions](Expressions.md)
 }}
 
@@ -51,7 +51,7 @@ __Date__    = "2018-12-15" #YYYY-MM-DD
 __Comment__ = "This macro creates a copy of the selected objects and sets their properties to an expression linking to the original object, making it an explicit and editable clone"
 __Web__ = "http://www.freecadweb.org/"
 __Wiki__ = "http://www.freecadweb.org/wiki/index.php?title=Macro_clone_explicit"
-__Icon__  = "/usr/lib/freecad/Mod/plugins/icons/Macro_clone_explicit.png"
+__Icon__  = "https://wiki.freecad.org/images/a/ab/Macro_clone_explicit.png"
 __IconW__  = "C:/Users/User Name/AppData/Roaming/FreeCAD/Macro_clone_explicit.png"
 __Help__ = "Select at least one object and run the macro to make explicit and editable clone(s)"
 __Status__ = "dev"
@@ -177,6 +177,8 @@ clone_explicit('direct')
 #clone_explicit('transient')
 }}
 
+
+
 ## Options
 
 A mode option was planned. It\'s not yet implemented. It now seems much more complex than initially thought, maybe too complex for me to implement.
@@ -203,7 +205,7 @@ Here\'s an example. Imagine the parent object (the one you select before running
         -   Parent.Height = Object**4**.Height * 2 and
         -   Clone.Height = Object**3**.Height * 2 still.
 
- For now, the macro is run with the mode parameter set to direct and no choice is proposed to the user.
+For now, the macro is run with the mode parameter set to direct and no choice is proposed to the user.
 
 ## Limitations
 

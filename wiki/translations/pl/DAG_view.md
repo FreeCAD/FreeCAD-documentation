@@ -4,61 +4,66 @@
 
 
 
-The [DAG view](DAG_view.md) is a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) that shows the relationships between different objects in the document. It is meant primarily to show how certain objects depend on others in a complex model with many features and references, such as those that can be created with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
+Widok DAG jest [skierowanym grafem acyklicznym](https://en.wikipedia.org/wiki/Directed_acyclic_graph) *(**D**irected **A**cyclic **G**raph)*, który pokazuje relacje między różnymi obiektami w dokumencie. Służy przede wszystkim do pokazania, w jaki sposób niektóre obiekty zależą od innych w złożonym modelu z wieloma funkcjami i odniesieniami, takimi jak te, które można utworzyć za pomocą środowiska pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
-The DAG view resembles the graph that can be produced from a Git repository and its branches. Together with the standard [tree view](tree_view.md) and the [dependency graph](Std_DependencyGraph.md), the DAG view is a tool to inspect the parametric history of objects in a document.
+Widok DAG przypomina graf, który można utworzyć z repozytorium Git i jego gałęzi. Wraz ze standardowym [widokiem drzewa](Tree_view/pl.md) i [grafem zależności](Std_DependencyGraph/pl.md), widok DAG jest narzędziem do sprawdzania parametrycznej historii obiektów w dokumencie.
+
+
 
 ## Przykład
 
-A simple model will be seen with different views.
+Przedstawiony zostanie prosty model z różnymi widokami.
 
 ![](images/FreeCAD_DAG_view_3D.png ) 
-*Model with 2D and 3D shapes.*
+*Modelowanie za pomocą kształtów 2D i 3D.*
 
 <img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width:" height="500px;">
 
 
 
-*Left: objects shown in the standard [tree view](tree_view.md). Right: objects shown in the DAG view.*
+*Po lewej: obiekty pokazane w standardowym [widoku drzewa](Tree_view/pl.md). Po prawej: obiekty pokazane w widoku DAG.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
 
 
 
-*Relationships between the objects shown in the [dependency graph](Std_DependencyGraph.md).*
+*Relacje między obiektami pokazanymi w [grafie zależności](Std_DependencyGraph/pl.md).*
 
-## Activating the DAG view 
 
-The DAG view was introduced in 0.17 as an experimental feature for power users and developers, so they could troubleshoot complex models; therefore, the DAG view is not available by default.
 
-To use this view use the [parameter editor](Std_DlgParameter.md). Create the following subgroup if it doesn\'t exist
+## Aktywowanie widoku DAG 
 
--    `BaseApp/Preferences/DockWindows/DAGView`
-    
+Widok DAG został wprowadzony w wersji 0.17 jako funkcja eksperymentalna dla zaawansowanych użytkowników i programistów, aby mogli rozwiązywać problemy ze złożonymi modelami; dlatego widok DAG nie jest domyślnie dostępny.
 
-then add the parameter `Enabled` of type `Boolean`, and set it to `True`.
+Aby użyć tego widoku, użyj [edytora parametrów](Std_DlgParameter.md). Utwórz następującą podgrupę, jeśli jeszcze nie istnieje
 
-Restart FreeCAD and activate DAG view: **{{StdMenu|[View](Std_View_Menu.md)** → Panels → DAG view}}.
+-    `BaseApp/Preferences/DockWindows/DAGView`.
 
-In the [parameter editor](Std_DlgParameter.md) you can also change some properties in the following subgroup
+następnie dodaj parametr `Enabled` typu `Boolean`, i ustaw jego wartość na {{TRUE/pl}}.
+
+Uruchom ponownie FreeCAD i aktywuj widok DAG: **{{StdMenu|[Widok](Std_View_Menu.md)** → Panele → Widok DAG}}.
+
+W [edytorze parametrów](Std_DlgParameter/pl.md) można również zmienić niektóre właściwości w następującej podgrupie
 
 -    `BaseApp/Preferences/DAGView`
     
 
--   FontPointSize - Set size of text font and can help with readability with high DPI displays. Set to 0 for default font size.
+-   FontPointSize - Ustawia rozmiar czcionki tekstu i może pomóc w czytelności na wyświetlaczach o wysokim DPI. Ustaw na 0 dla domyślnego rozmiaru czcionki.
 
 -   SelectionMode
-    -   0 - single click selects an item. Ctrl-click to add items to selection.
-    -   1 - every click adds/removes item to selection.
+    -   0 - pojedyncze kliknięcie zaznacza element. Kliknięcie z wciśniętym klawiszem Ctrl dodaje elementy do zaznaczenia.
+    -   1 - każde kliknięcie dodaje/usuwa element do zaznaczenia.
 
--   Direction - the order in which items are displayed.
-    -   1 - child on top, parent under it
-    -   -1 - parent on top, children under it
+-   Direction - kolejność wyświetlania elementów.
+    -   1 - element podrzędny na górze, element nadrzędny pod nim
+    -   -1 - element nadrzędny na górze, dzieci pod nim
+
+
 
 ## Odnośniki internetowe 
 
--   [DAGView](https://forum.freecadweb.org/viewtopic.php?f=20&t=11276), forum thread presenting the new tool.
--   [easter egg of PartDesign Next: DAG View](https://forum.freecadweb.org/viewtopic.php?t=15375), including the view together with the update to PartDesign.
+-   [DAGView](https://forum.freecadweb.org/viewtopic.php?f=20&t=11276), wątek na forum prezentujący nowe narzędzie.
+-   [pisanka PartDesign Next: widok DAG](https://forum.freecadweb.org/viewtopic.php?t=15375), obejmujący widok wraz z aktualizacją obiektu.
 
 
 {{Interface navi

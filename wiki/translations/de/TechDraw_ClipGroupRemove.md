@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ClipGroupRemove
    Name/de: TechDraw AusschnittsgruppeEntfernen
-   MenuLocation: TechDraw , Ansicht aus Ausschnittsgruppe entfernen
+   MenuLocation: TechDraw , Clipped Views , Ansicht aus Ausschnittsgruppe entfernen
    Workbenches: TechDraw_Workbench/de
    SeeAlso: TechDraw_ClipGroup/de, TechDraw_ClipGroupAdd/de
 ---
 
 # TechDraw ClipGroupRemove/de
-
-
-</div>
 
 
 
@@ -25,13 +22,10 @@ Das Werkzeug **TechDraw AusschnittsgruppeEntfernen** entfernt eine Ansicht aus e
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
--   Wähle eine Ansicht, die Teil eines Ausschnitts ist, und drücke die Schaltfläche **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Ansicht aus Ausschnittsgruppe entfernen](TechDraw_ClipGroupRemove/de.md)**, um die Ansicht zu entfernen.
-
-
-</div>
+1.  Eine Ansicht, die Teil eines Ausschnitts ist, in der [3D-Ansicht](3D_view/de.md) oder der [Baumansicht](Tree_view/de.md) auswählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Ansicht aus Ausschnittsgruppe entfernen](TechDraw_ClipGroupRemove/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Clipped Views → <img src="images/TechDraw_ClipGroupRemove.svg" width=16px> Ansicht aus Ausschnittsgruppe entfernen** auswählen.
 
 
 

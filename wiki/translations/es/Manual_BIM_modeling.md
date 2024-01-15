@@ -11,7 +11,7 @@
 </div>
 
 
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 El modelado de información de construcción significa (BIM, engl.: Building Information Modelling) [1](https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n). La definición exacta de lo que es varía, pero podemos decir simplemente que es la forma en que se modelan hoy en día los edificios y otras grandes estructuras como puentes, túneles, etc. Los modelos BIM suelen basarse en modelos 3D, y además incluyen una serie de capas de información adicionales, como información sobre materiales, relaciones con otros objetos o modelos, o instrucciones especiales para la construcción o el mantenimiento. Esta información adicional permite todo tipo de análisis avanzados del modelo, como la resistencia estructural, la estimación de costes y tiempos de construcción o el cálculo del consumo energético.
 

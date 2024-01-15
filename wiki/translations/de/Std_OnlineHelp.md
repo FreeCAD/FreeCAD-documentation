@@ -16,23 +16,22 @@
 
 Der Befehl **Std OnlineHilfe** öffnet die Online-Hilfe. Um die Dokumentation eines bestimmten Befehls zu öffnen, verwendet man den Befehl [Std Direkthilfe](Std_WhatsThis/de.md).
 
-In FreeCAD {{VersionPlus/de|0.20}} erfordert dieser Befehl das [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+Seit FreeCAD Version 0.20 wird dieser Befehl und das Hilfesystem von einem separaten Hilfemodul verwaltet. Für die Versionen 0.20 und 0.21 steht dieses Modul als [Addon](https://github.com/FreeCAD/FreeCAD-Help) zur Verfügung, das separat [installiert](Std_AddonMgr/de.md) werden muss. In neueren Versionen ist das Modul in FreeCAD integriert.
 
 
 
 ## Anwendung
 
-1.  Wenn das Help Addon noch nicht vorhanden ist, wird man aufgefordert, dieses mit dem [Addon-Manager](Std_AddonMgr/de.md) zu installieren.
-2.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
+1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
     -   Den Menüeintrag **Hilfe → <img src="images/Std_OnlineHelp.svg" width=16px> Hilfe** auswählen.
     -   Das Tastaturkürzel **F1**.
-3.  Die Online-Hilfe wird geöffnet.
+2.  Die Online-Hilfe wird geöffnet.
 
 
 
 ## Hinweise
 
--   Das Hilfe-Addon besitzt einige Voreinstellungen. Siehe [Voreinstellungseditor](Preferences_Editor/de#Hilfe.md).
+-   Das Hilfesystem besitzt einige Voreinstellungen. Siehe [Voreinstellungseditor](Preferences_Editor/de#Hilfe.md).
 
 
 

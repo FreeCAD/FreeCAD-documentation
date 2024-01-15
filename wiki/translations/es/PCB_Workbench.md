@@ -107,7 +107,7 @@ Seguridad → Editar → Usuarios y marque todas las casillas de verificación e
 -   FreeCAD Wiki: [Página principal de la Wiki](https://wiki.freecadweb.org/Main_Page)
 -   FreeCAD Foro: [EaglePCB importador para FreeCAD](http://forum.freecadweb.org/viewtopic.php?f=9&t=5107)
 -   Tutoriales:
--   Videos: [EaglePCB_2\_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
+-   Videos: [EaglePCB_2_FreeCAD - FreeCAD odczyt plików brd z programu Eagle](https://www.youtube.com/watch?v=81NsljRJx8c&feature=youtu.be)
 -   Files: [PCB biblioteca](https://github.com/marmni/FreeCAD-PCB-library)
 -   Informe de errores: Por favor, informe de los errores en <https://github.com/marmni/FreeCAD-PCB/issues>
 

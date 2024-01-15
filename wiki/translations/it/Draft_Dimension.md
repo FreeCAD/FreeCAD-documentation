@@ -94,12 +94,12 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ### Opzioni
 
-Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di esse. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premee **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
 -   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
--   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Questa modalità funziona solo per quote lineari. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare quote. Tutte le quote successive inizieranno dal punto finale della quota precedente e utilizzeranno la stessa linea di base della prima quota. Si noti che la selezione del bordo non è possibile per le quote successive.
+-   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Questa modalità funziona solo per quote lineari. Se la modalità continua è attiva, il comando si riavvierà al termine, consentendo di continuare a creare quote. Tutte le quote successive inizieranno dal punto finale della quota precedente e utilizzeranno la stessa linea di base della prima quota. Si noti che la selezione del bordo non è possibile per le quote successive.
 -   Premee **S** per attivare o disattivare [Aggancia](Draft_Snap/it.md).
 -   Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
 
@@ -162,7 +162,7 @@ Un oggetto Draft Quota deriva da un oggetto [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: specifica se una quota radiale viene visualizzata come quota diametro. Se è cambiato il simbolo utilizzato in **Override** deve essere aggiornato manualmente (da {{Value|Ø}} a {{Value|R}} o viceversa). Non utilizzato per quote lineari.
+-    **Diameter|Bool**: specifica se una quota radiale viene visualizzata come quota diametro. Non utilizzato per quote lineari.
 
 
 
@@ -209,23 +209,23 @@ Un oggetto Draft Quota deriva da un oggetto [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Graphics}}
 
--    **Arrow Size|Length**: specifica la dimensione dei simboli visualizzati alle estremità della linea di quota o dell\'arco.
+-    **Arrow Size|Length**: specifica la dimensione dei simboli visualizzati alle estremità della linea di misura o dell\'arco.
 
--    **Arrow Type|Enumeration**: specifica il tipo di simbolo visualizzato alle estremità della linea di quota o dell\'arco, che può essere {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} o {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: specifica il tipo di simbolo visualizzato alle estremità della linea di misura o dell\'arco, che può essere {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} o {{value|Tick-2}}.
 
--    **Dim Overshoot|Distance**: specifica la lunghezza aggiuntiva aggiunta alla linea di quota. Non utilizzato per quote angolari.
+-    **Dim Overshoot|Distance**: specifica la lunghezza aggiuntiva aggiunta alla linea di misura. Non utilizzato per quote angolari.
 
--    **Ext Lines|Distance**: specifica la lunghezza delle linee di estensione che vanno dalla linea di quota ai punti misurati. Usare {{Value|0}} per linee di estensione complete. Un valore negativo definisce lo spazio tra le estremità delle linee di estensione e i punti misurati. Un valore positivo definisce la lunghezza massima delle linee di estensione. Utilizzato solo per quote lineari.
+-    **Ext Lines|Distance**: specifica la lunghezza delle linee di riferimento che vanno dalla linea di misura ai punti misurati. Usare {{Value|0}} per linee di riferimento complete. Un valore negativo definisce lo spazio tra le estremità delle linee di riferimento e i punti misurati. Un valore positivo definisce la lunghezza massima delle linee di riferimento. Utilizzato solo per quote lineari.
 
--    **Ext Overshoot|Distance**: specifica la lunghezza aggiuntiva delle linee di estensione oltre la linea di quota. Non utilizzato per quote angolari.
+-    **Ext Overshoot|Distance**: specifica la lunghezza aggiuntiva delle linee di riferimento oltre la linea di misura. Non utilizzato per quote angolari.
 
--    **Flip Arrows|Bool**: specifica se invertire l\'orientamento dei simboli alle estremità della linea di quota o dell\'arco. Funziona solo se i simboli sono frecce.
+-    **Flip Arrows|Bool**: specifica se invertire l\'orientamento dei simboli alle estremità della linea di misura o dell\'arco. Funziona solo se i simboli sono frecce.
 
--    **Line Color|Color**: specifica il colore della linea o dell\'arco di quota e delle frecce.
+-    **Line Color|Color**: specifica il colore della linea o dell\'arco di misura e delle frecce.
 
 -    **Line Width|Float**: specifica la larghezza delle linee o dell\'arco appartenenti alla quota.
 
--    **Show Line|Bool**: specifica se visualizzare la linea di quota. Non influisce sulla visualizzazione delle linee di estensione e degli overshoot. Non utilizzato per quote angolari.
+-    **Show Line|Bool**: specifica se visualizzare la linea di misura. Non influisce sulla visualizzazione delle linee di riferimento e delle estensioni. Non utilizzato per quote angolari.
 
 
 {{TitleProperty|Text}}

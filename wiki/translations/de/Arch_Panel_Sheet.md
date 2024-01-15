@@ -1,111 +1,85 @@
 ---
  GuiCommand:
    Name: Arch Panel Sheet
-   Name/de: Arch Tafel Blech
+   Name/de: Arch Plattenzeichnung
    Workbenches: Arch_Workbench/de
-   MenuLocation: Arch , Panel tools , Tafel Blatt
+   MenuLocation: Arch , Plattenwerkzeuge , Tafel
    Shortcut: **P** **S**
+   Version: 0.17
    SeeAlso: Arch_Panel/de, Arch_Panel_Cut/de, Arch_Nest/de
 ---
 
 # Arch Panel Sheet/de
 
 
-</div>
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich einer beliebigen Anzahl von [Arch Tafelschnitt](Arch_Panel_Cut/de.md) Objekten, oder jedes andere 2D Objekt, wie z.B. diejenigen, die mit [Entwurf Arbeitsbereich](Draft_Workbench/de.md) und [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erstellt wurden. Das Tafelblech wird in der Regel für Layout Schnitte erstellt, die von einer CNC Maschine ausgeführt werden sollen. Diese Blätter können dann in eine [DXF](Draft_DXF/de.md) Datei exportiert werden.
-
-
-</div>
+Dieses Werkzeug ermöglicht eine 2D-Zeichnung zu erstellen, einschließlich einer beliebigen Anzahl von [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md) Objekten oder anderen 2D-Objekten, wie z.B. diejenigen, die mit den Arbeitsbereichen [Draft](Draft_Workbench/de.md) und [Sketcher](Sketcher_Workbench/de.md) erstellt wurden. Die Plattenzeichnung wird in der Regel für die Anordnung von Plattenzuschnitten (Beschnittkonturen) erstellt, die von einer CNC-Maschine ausgeschnitten werden sollen. Diese Zeichnungsblatter können dann in eine [DXF](Draft_DXF/de.md)-Datei exportiert werden.
 
 <img alt="" src=images/Arch_Wikihouse_03.jpg  style="width:1024px;">
 
 <img alt="" src=images/Arch_Wikihouse_04.jpg  style="width:1024px;">
 
-*Das obige Bild zeigt, wie Tafelplatten beim Export nach DXF erscheinen.*
+*Das obige Bild zeigt, wie Plattenzeichnungen beim Export nach DXF erscheinen.*
+
+
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optional wähle ein oder mehrere [Arch Tafel Schnitt](Arch_Panel_Cut/de.md)-Objekte oder jedes andere 2D-Objekt, das auf der XY-Ebene liegt.
-2.  Drücke die **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Tafel Platte](Arch_Panel_Sheet/de.md)**-Schaltfläche oder drücke die Tasten **P**, dann **S**.
+1.  Wahlweise ein oder mehrere [Arch Plattenzuschnitt](Arch_Panel_Cut/de.md)-Objekte auswählen oder jedes andere 2D-Objekt, das auf der XY-Ebene liegt.
+2.  Die Schaltfläche **<img src="images/Arch_Panel_Sheet.svg" width=16px> [Arch Tafel](Arch_Panel_Sheet/de.md)** drücken oder das Tastaturkürzel **P**, dann **S**.
+3.  Die gewünschten Eigenschaften anpassen.
 
 
-</div>
 
 ## Optionen
 
--   After the panel sheet is created, with or without child objects, Any other child object can be added/removed to/from the panel sheet by double-clicking it in the tree view and adding or removing objects from its Group folder
--   Double-clicking on the panel in the tree view also allows you to move the objects contained in this sheet, or move its tag
--   It is possible to automatically make panels composed of more than one sheet of a material, by raising its Sheets property
--   Panel Sheets can display a margin, that is useful to make sure a certain space is always present between inner objects and the border of the sheet
--   When Panel sheets are exported to DXF, the outlines, inner holes, tags of their inner children are placed on different layers, as shown on the above image
+-   Nachdem die Plattenzeichnung erstellt wurde, mit oder ohne eingefügte Objekte, kann ein beliebiges Objekt eingefügt oder entfernt werden, indem es in der Baumansicht doppelt angeklickt wird und Objekte seinen Gruppenordnern hinzugefügt werden bzw. daraus entfernt werden.
+-   Ein Doppelklick auf die Platte in der Baumansicht ermöglicht auch die enthaltenen Objekte zu verschieben oder seine Beschriftung zu verschieben.
+-   Es ist möglich automatisch Platten aus mehr als einer Materiallage zu erstellen, indem\... (by raising its Sheets property)
+-   Plattenzeichnungen können Ränder darstellen. Das hilft sicherzustellen, dass stets ein festgelegter Bereich zwischen den inneren Objekten und dem Zeichnungsrand vorhanden ist.
+-   Werden Plattenzeichnungen in eine DXF-Datei exportiert, werden Konturen, enthaltene Löcher und Beschriftungen ihrer enthaltenen Objekte auf verschiedene Layer abgelegt, wie in der obigen Abbildung dargestellt.
+
+
 
 ## Eigenschaften
 
-### Data
 
-
-<div class="mw-translate-fuzzy">
 
 ### Daten
 
--    {{PropertyData/de|Height}}: Die Höhe des Blattes
+-    {{PropertyData/de|Height}}: Die Höhe des Zeichnungsblattes
 
--    {{PropertyData/de|Width}}: Die Breite des Blattes
+-    {{PropertyData/de|Width}}: Die Breite des Zeichnungsblattes
 
--    {{PropertyData/de|Fill Ratio}}(v0.??): Der Prozentsatz des Blechs, der von Schnitten belegt wird (automatisch)
+-    {{PropertyData/de|Fill Ratio}}: Der Prozentsatz der Zeichnung, der von Zuschnitten belegt wird (automatisch)
 
--    {{PropertyData/de|Tag Text}}: Der anzuzeigende Kennzeichnungstext
+-    {{PropertyData/de|Tag Text}}(Beschriftungstext): Der anzuzeigende Text
 
--    {{PropertyData/de|Tag Size}}: Die Größe des Kennzeichnungstextes
+-    {{PropertyData/de|Tag Size}}: Die Höhe des Beschriftungstextes
 
--    {{PropertyData/de|Tag Position}}: Die Position des Kennzeichnungstextes. Automatische Mittenposition bei (0,0,0)
+-    {{PropertyData/de|Tag Position}}: Die Position des Beschriftungstextes. Automatische Mittenposition bei (0,0,0)
 
--    {{PropertyData/de|Tag Rotation}}: Die Drehung des Kennzeichnungstextes
+-    {{PropertyData/de|Tag Rotation}}: Die Drehung des Beschriftungstextes
 
--    {{PropertyData/de|Font File}}: Die Schriftart des Kennzeichnungstextes
+-    {{PropertyData/de|Font File}}: Die Schriftart des Beschriftungstextes
 
--    {{PropertyData/de|Make Face}}: Falls True, ist das Blech eine Part Fläche, anderenfalls ein Part Linienzug
+-    {{PropertyData/de|Make Face}}: Falls True, ist die Platte eine Part-Fläche, anderenfalls ein Part-Linienzug
 
--    {{PropertyData/de|Grain Direction}}: Gibt einen Winkel für die (Holz)-Maserung an (im Uhrzeigersinn, 0° bedeutet oben)
-
--    {{PropertyData/de|Group}}(v0.??): Die verknüpften Paneel-Schnitte
-
--    {{PropertyData/de|Rotations}}(v0.??): Eine Liste möglicher Rotationen für den Satz
-
--    {{PropertyData/de|Scale}}(v0.??): Gibt die Skalierung an, die auf jede Panelansicht angewandt wird
+-    {{PropertyData/de|Grain Direction}}: Gibt einen Winkel für die Faserausrichtung an (im Uhrzeigersinn, 0° bedeutet oben)
 
 
-</div>
-
-### View
-
-
-<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
--    {{PropertyView/de|Margin}}: Ein Rand, der innerhalb der Grenze angezeigt werden kann
+-    {{PropertyView/de|Margin}}: Ein Rand, der innerhalb der Plattenkontur angezeigt werden kann
 
--    {{PropertyView/de|Show Margin}}: Schaltet die Anzeige des Randes ein/aus
+-    {{PropertyView/de|Show Margin}}: Schaltet die Anzeige des Randes ein bzw. aus
 
--    {{PropertyView/de|Show Grain}}: Schaltet die Anzeige der (Holz)-Maserung ein/aus (Make Face muss auf \'true\' gesetzt sein)
-
-
-</div>
-
-## Scripting
+-    {{PropertyView/de|Show Grain}}: Schaltet die Anzeige der Faserausrichtung ein bzw. aus (Make Face muss auf \'true\' gesetzt sein)
 
 
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -114,23 +88,14 @@ Dieses Werkzeug ermöglicht eine 2D Zeichnung zu erstellen, einschließlich eine
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Tafelblechwerkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
+Das Werkzeug Plattenzeichnung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden:
 
 
 ```python
 Sheet = makePanelSheet(panels=[], name="PanelSheet")
 ```
 
--   Erstellt ein `sheet`-Objekt aus `panels`, welches eine Liste von [Arch Panel](Arch_Panel.md)-Objekten ist.
+-   Erstellt ein `Sheet`-Objekt aus `panels`, welches eine Liste von [Arch Platten](Arch_Panel.md)-Objekten ist.
 
 Beispiel:
 
@@ -162,15 +127,11 @@ FreeCAD.ActiveDocument.recompute()
 Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 ```
 
+
+
 ## Tutorien
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Wikihouse Portierungs Tutorium](Wikihouse_porting_tutorial/de.md)
-
-
-</div>
 
 
 

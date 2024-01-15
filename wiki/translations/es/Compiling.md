@@ -3,10 +3,11 @@
 
 Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Documentación de Ayuda en Línea](Online_Help_Toc/es.md).
 
-     
-    <img alt="" src=images/Windows.png  style="width:" height="32px;">      <img alt="" src=images/Linux.png  style="width:" height="32px;">        <img alt="" src=images/Mac.png  style="width:" height="32px;">       [Compile en el contenedor Docker](Compile_on_Docker/es.md)\<! \--<img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">\--\>
-   [Compilar en Windows](Compile_on_Windows/es.md)   [Compilar en Linux](Compile_on_Linux/es.md)   [Compilar en MacOS](Compile_on_MacOS/es.md)                                              [Compilar en un contenedor Docker](Compile_on_Docker/es.md)
-     
++::+::+::+::+
+| <img alt="" src=images/Windows.png  style="width:" height="32px;">    | <img alt="" src=images/Linux.png  style="width:" height="32px;">    | <img alt="" src=images/Mac.png  style="width:" height="32px;">        | [Compile en el contenedor Docker](Compile_on_Docker/es.md)\<! \--<img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">\--\> |
++++++
+| [Compilar en Windows](Compile_on_Windows/es.md) | [Compilar en Linux](Compile_on_Linux/es.md) | [Compilar en MacOS](Compile_on_MacOS/es.md) | [Compilar en un contenedor Docker](Compile_on_Docker/es.md)                                                                                        |
++++++
 
 
 </div>

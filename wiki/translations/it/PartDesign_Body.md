@@ -10,6 +10,8 @@
 
 # PartDesign Body/it
 
+
+
 ## Descrizione
 
 Un [Corpo](PartDesign_Body/it.md) di PartDesign è l\'elemento base per creare forme solide con [PartDesign](PartDesign_Workbench/it.md). Può contenere [schizzi](Sketch/it.md), [oggetti di riferimento](Datum/it.md) e [funzioni di PartDesign](PartDesign_Feature/it.md) che aiutano a produrre un [singolo solido contiguo](PartDesign_Body/it#Singolo_solido_contiguo.md).
@@ -28,6 +30,8 @@ Poiché si suppone che il Corpo sia un [singolo solido contiguo](PartDesign_Body
 *A sinistra: la vista ad albero che mostra le funzioni che producono in sequenza la forma finale dell'oggetto. A destra: l'oggetto finale visibile nella [vista 3D](3D_view/it.md).
 *
 
+
+
 ## Utilizzo
 
 Se non è stato selezionato alcun solido precedente:
@@ -40,16 +44,22 @@ Se viene selezionato un oggetto solido:
 
 1.  Premere il pulsante **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**. Viene creato un nuovo Corpo contenente una singola **Base Feature**. Questo elemento Base Feature è un semplice riferimento a un altro oggetto precedentemente creato o importato nel documento. Per maggiori informazioni vedere [Funzione di base](PartDesign_Body/it#Funzione_di_base.md). Non è possibile selezionare un Corpo esistente o una [funzione di PartDesign](PartDesign_Feature/it.md) quando si preme **<img src="images/PartDesign_Body.svg" width=16px> [Corpo](PartDesign_Body/it.md)**.
 
+
+
 ### Note
 
 -   Se, quando si preme il pulsante **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)** della barra degli strumenti di PartDesign non esiste ancora un corpo, ne viene creato automaticamente uno nuovo. Se esiste già un corpo, esso deve essere reso attivo prima di usare **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nuovo schizzo](PartDesign_NewSketch/it.md)**.
 -   Fare doppio clic su Corpo nella [vista ad albero](tree_view/it.md) o aprire il menu di scelta rapida (clic con il tasto destro) e selezionare **Attiva corpo** per attivare o disattivare il corpo. Se un altro corpo è attivo, esso viene disattivato. Per maggiori informazioni vedere [Stato attivo](PartDesign_Body/it#Stato_attivo.md).
+
+
 
 ## Proprietà
 
 Un [Corpo di PartDesign](PartDesign_Body/it.md) (classe `PartDesign::Body`) è derivato da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), pertanto condivide tutte le proprietà di quest\'ultimo.
 
 Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo di PartDesign ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
+
+
 
 ### Dati
 
@@ -64,6 +74,8 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo 
 
 -    **Group**: un elenco di [funzioni di PartDesign](PartDesign_Feature/it.md) nel Corpo
 
+
+
 #### Proprietà dati nascoste 
 
 
@@ -77,6 +89,8 @@ Oltre alle proprietà descritte in [Part Feature](Part_Feature/it.md), il corpo 
 </div>
 
 Oltre ale proprietà nascoste descritte in [Part Feature](Part_Feature/it.md) il corpo di PartDesign ha le seguenti proprietà nell\'[editor delle proprietà](Property_editor/it.md).
+
+
 
 ### Vista
 
@@ -95,7 +109,11 @@ Oltre ale proprietà nascoste descritte in [Part Feature](Part_Feature/it.md) il
         
         espone solo la forma finale del corpo, definita dalla proprietà **Tip**. Tutto il resto, tra cui [schizzi](Sketch/it.md), [funzioni di PartDesign](PartDesign_Feature/it.md), oggetti di riferimento, ecc., non viene visualizzato, anche se sono visibili nella [vista ad albero](tree_view/it.md). Questa modalità è consigliata quando non è necessario modificare ulteriormente il corpo, quindi viene visualizzata una forma finale. Questa modalità è consigliata anche quando si desidera selezionare gli elementi secondari (vertici, bordi e facce) della forma finale da utilizzare con gli strumenti di altri ambienti da lavoro.
 
+
+
 ## Concetto di Corpo 
+
+
 
 ### Singolo solido contiguo 
 
@@ -105,6 +123,8 @@ Quando questi solidi contigui vengono riuniti in un qualche tipo di disposizione
 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
 *A sinistra: tre solidi contigui individuali, ciascuno modellato in un Corpo di PartDesign. A destra: i singoli Corpi riuniti in un'assemblaggio.*
+
+
 
 ### Editazione delle funzioni 
 
@@ -123,7 +143,11 @@ Un corpo di PartDesign esegue una [fusione](Part_Fuse/it.md) (unione) automatica
 
 altri programmi CAD come Catia consentono solidi non contigui nello stesso \"Corpo\". A partire dalla versione 0.19, FreeCAD non lo consente. Ci sono state delle discussioni nel [forum di FreeCAD](https://forum.freecadweb.org/index.php) sulla revoca di questa restrizione, ma non è stata presa alcuna decisione concreta. Se desiderate saperne di più o presentare punti di vista diversi, potete discuterne nel [forum](https://forum.freecadweb.org/index.php).
 
+
+
 ## Spiegazione dettagliata delle proprietà 
+
+
 
 ### Stato attivo 
 
@@ -141,6 +165,8 @@ L\'attivazione di un corpo commuta automaticamente anche l\'interfaccia nell\'am
 
 
 *Documento con due corpi PartDesign, di cui il secondo è attivo.*
+
+
 
 ### Origine
 
@@ -169,12 +195,14 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 
 *Left: PartDesign Body Origin in the [tree view](tree_view.md). Right: representation of the Origin elements in the [3D view](3D_view.md).*
 
+
+
 ### Funzione di base 
 
 La Funzione di base, Base feature, è la prima [Funzione PartDesign](PartDesign_Feature/it.md) creata nel corpo quando il corpo si basa su un\'altra forma solida. Questo solido può essere creato in qualsiasi ambiente di lavoro o importato da un file esterno, ad esempio un file STEP.
 
 ![](images/PartDesign_Body_BaseFeature_tree.png ) 
-*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+*Two PartDesign Bodies, each with a single Base Feature taken from a previously created solid.*
 
 To create the Base Feature:
 
@@ -245,6 +273,8 @@ Nella [vista ad albero](tree_view/it.md), la funzione finale del corpo è ricono
 ![](images/PartDesign_Body_Tip_tree.png ) 
 *Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
 
+
+
 ### Interazione con gli altri ambienti di lavoro 
 
 
@@ -264,6 +294,8 @@ Una volta completate le operazioni in altri ambienti, non dimenticare di riprist
 
 
 *Left: when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right: when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
+
+
 
 ### Gestione della visibilità 
 
@@ -294,6 +326,8 @@ A [PartDesign Body](PartDesign_Body.md) is formally an instance of the class `Pa
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}
+
+
 
 ## Script
 

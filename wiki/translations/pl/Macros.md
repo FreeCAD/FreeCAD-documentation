@@ -11,9 +11,11 @@ Zobacz [Centrum Power użytkownika](Power_users_hub/pl.md), aby dowiedzieć się
 -   [Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
 -   [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md)
 
+
+
 ## Jak to działa 
 
-Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje → Ogólne → Makro → Pokaż polecenia skryptów w konsoli python**. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr: ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski: Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
+Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje ... → Python → Makro → Pokaż polecenia skryptów w konsoli python**. Zobaczysz, że w programie FreeCAD każda wykonywana czynność, taka jak naciśnięcie przycisku, wysyła polecenie Pythona. To właśnie te polecenia mogą być nagrywane w makrze. Głównym narzędziem do tworzenia makr jest pasek narzędzi makr: ![](images/Macros_toolbar.jpg ). Na nim znajdują się 4 przyciski: Rejestrowanie makr, Zatrzymaj nagrywanie makra, Wykonaj makro.
 
 Jest to bardzo łatwe w użyciu:
 Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podanie nazwy dla swojego makra, a następnie wykonaj kilka czynności. Kiedy skończysz, kliknij przycisk **Zatrzymaj nagrywanie makra**, a Twoje działania zostaną zapisane. Teraz możesz uzyskać dostęp do okna dialogowego makra za pomocą przycisku {{button|Edycja}}.
@@ -23,9 +25,13 @@ Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podani
 
 W tym miejscu możesz zarządzać swoimi makrami, usuwać, edytować, powielać, instalować lub tworzyć nowe od podstaw. Jeśli edytujesz makro, zostanie ono otwarte w oknie edytora, w którym możesz dokonać zmian w jego kodzie. Nowe makra można zainstalować za pomocą przycisku {{button|Dodatki...}}, który prowadzi do [Menadżera dodatków](Std_AddonMgr/pl.md).
 
+
+
 ## Przykład
 
 Naciśnij przycisk nagrywania, podaj nazwę, powiedzmy \"cylinder 10x10\", a następnie w środowisku [Część](Part_Workbench/pl.md) utwórz walec o promieniu=10 i wysokości=10. Następnie naciśnij przycisk {{button|Zatrzymaj}}. W oknie dialogowym edycji makr możesz zobaczyć kod Pythona, który został nagrany i, jeśli chcesz, wprowadź do niego zmiany. Aby wykonać makro, wystarczy nacisnąć przycisk wykonania na pasku narzędzi, gdy makro znajduje się w edytorze. Twoje makro jest zawsze zapisywane na dysku, więc każda wprowadzona zmiana lub każde nowe makro, które stworzysz, będzie zawsze dostępne przy następnym uruchomieniu programu FreeCAD.
+
+
 
 ## Dostosowywanie
 
@@ -37,20 +43,28 @@ W ten sposób możesz sprawić, że Twoje makro stanie się prawdziwym narzędzi
 
 Aby uzyskać bardziej szczegółowy opis, zobacz artykuł [dostosowanie pasków narzędzi](Customize_Toolbars.md).
 
+
+
 ## Tworzenie makr bez nagrywania 
 
 Możesz również bezpośrednio skopiować/wkleić kod pytona do makra, bez nagrywania akcji w GUI. Po prostu utwórz nowe makro, edytuj je i wklej swój kod. Następnie możesz zapisać swoje makro w ten sam sposób, w jaki zapisujesz dokument FreeCAD. Następnym razem, gdy uruchomisz FreeCAD, makro pojawi się pod pozycją **Zainstalowane makra** w menu Makro.
 
 Zobacz prezentacje [jak zainstalować makrodefinicje](How_to_install_macros/pl.md), aby uzyskać bardziej szczegółowy opis.
 
+
+
 ## Repozytorium makrodefinicji 
 
 Istnieją dwa główne miejsca, w których można znaleźć makra. Pierwszym z nich jest oficjalne repozytorium makrodefinicji na [GitHub](https://github.com/FreeCAD/FreeCAD-macros). Drugim jest strona [Przepisy na makrodefinicje](Macros_recipes/pl.md), z której możesz wybrać kilka użytecznych makrodefinicji do dodania do swojej instalacji FreeCAD. Makrodefinicje z obu repozytoriów mogą być instalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md) bezpośrednio z programu FreeCAD.
+
+
 
 ## Informacje dodatkowe 
 
 -   [Automatyczne uruchamianie makra podczas startu programu](Macro_at_Startup.md)
 -   [Instalacja dodatkowych Środowisk pracy](Installing_more_workbenches.md).
+
+
 
 ## Poradniki
 

@@ -15,75 +15,85 @@
 
 ## Описание
 
-The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
+Инструмент \"Вращения\" создает тело из эскиза или 2D объекта вращая его вокруг выбранной оси.
 
 ![](images/PartDesign_Revolution_example.svg ) 
-*Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
+*Выше: эскиз (A) вращается на 270 градусов против часовой стрелки вокруг оси (B); полученно тело (C) .*
 
 
 
 ## Применение
 
-1.  Select the sketch to be revolved. A face on the existing solid can alternatively be used.
-2.  Press the **<img src="images/PartDesign_Revolution.svg" width=24px> '''Revolution'''** button.
-3.  Set the Revolution parameters (see next section).
-4.  Press **OK**.
+1.  Выберете эскиз, который хотите вращать. Грань существующего тела тоже может быть использована.
+2.  Нажмите на кнопку **<img src="images/PartDesign_Revolution.svg" width=24px> '''Вращение'''**.
+3.  Установите параметры вращения (разобраны в следующей секции).
+4.  Нажмите **OK**.
 
 
 
 ## Опции
 
-When creating a revolution, the **Revolution parameters** dialogue offers several parameters specifying how the sketch should be revolved.
+Когда производится вращение , появляется диалоговое окно **Параметры вращения** оно позволяет настроить как именно эскиз будет изогну.
 
 +++
-| ![](images/partdesign_revolution_parameters.png ) | ### Axis                                                                                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This option specifies the axis about which the sketch is to be revolved.                                                                                                                                                                                                                                                                                                    |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Vertical sketch axis**: selects the vertical sketch axis.                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | -   **Horizontal sketch axis**: selects the horizontal sketch axis.                                                                                                                                                                                                                                                                                                         |
-|                                                                                  | -   **Construction line**: selects a construction line contained in the sketch used by the Revolution. The drop down list will contain an entry for each construction line. The first construction line will be labelled *Construction line 1*.                                                                                                                             |
-|                                                                                  | -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin.                                                                                                                                                                                                                                                                                                |
-|                                                                                  | -   **Select reference\...**: allows selection in the 3D view of an edge on the Body, or a [datum line](PartDesign_Line.md).                                                                                                                                                                                                                                        |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Angle                                                                                                                                                                                                                                                                                                                                                                   |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | This controls the angle through which the revolution is to be formed, e.g. 360° would be a full, contiguous revolution. The images in the [examples](#Examples.md) section demonstrate some of the possibilities with specifying different angles. It is not possible to specify negative angles (use the **Reversed** option instead) or angles greater than 360°. |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Symmetric to plane                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the revolution will extend half of the specified angle in both directions from the sketch plane.                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | ### Reversed                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                  |                                                                                                                                                                                                                                                                                                                                                                             |
-|                                                                                  | If checked, the direction of revolution is reversed from default clockwise to counterclockwise.                                                                                                                                                                                                                                                                             |
+| ![](images/partdesign_revolution_parameters.png ) |                                                                                                                                                                                                                                                                     |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | ### Оси                                                                                                                                                                                                                                                                                                      |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | Это параметр определяет, вокруг каких осей эскиз будет изогнут.                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | -   **Вертикальная ось эскиза**: выбирает вертикальную ось эскиза.                                                                                                                                                                                                                                           |
+|                                                                                  | -   **Горизонтальная ось эскиза**: выбирает горизонтальную ось эскиза.                                                                                                                                                                                                                                       |
+|                                                                                  | -   **Вспомогательные линии**: выбирает вспомогательную линию, содержимую в эскизе. выпадающий список содержит каждую вспомогательную линию. Первая вспомогательная линия будет названа *Вспомогательная линя 1*.                                                                                            |
+|                                                                                  | -   **Основные оси (X/Y/Z)**: выбирает ось X, Y или Z.                                                                                                                                                                                                                                                       |
+|                                                                                  | -   **Выбрать ориентир\...**: позволяет выбрать в 3D режиме грань тела, или [Создать опорный отрезок](PartDesign_Line/ru.md).                                                                                                                                                                        |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                    |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | ### Угол                                                                                                                                                                                                                                                                                                     |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | Этот параметр задает угол, на который будет вращаться эскиз, к примеру 360 создаст смыкающееся тело. Тело в секции [Примеров](#Examples.md) демонстрирует чего можно добиться с помощью углов. Невозможно задать негативные углы (используйте параметр **В обратную сторону**) или углы больше 360°. |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                       |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | ### Симметрично плоскости                                                                                                                                                                                                                                                            |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | Если выбрано, вращение будет происходить в обе стороны от плоскости эскиза на половину заданного угла.                                                                                                                                                                                                       |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  |                                                                                                                                                                                                                                                                 |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | ### В обратную сторону                                                                                                                                                                                                                                                                  |
+|                                                                                  |                                                                                                                                                                                                                                                                                                              |
+|                                                                                  | Если выбрано, направление вращения будет изменено со стандартного (по часовой стрелки) на противоположенное                                                                                                                                                                                                  |
 +++
 
 
 
 ## Свойства
 
-Below are properties which can be defined after creation of the feature. Data properties *Base* and *Axis* are uneditable.
+Снизу приведены свойства, которые могут быть изменены после применения инструмента. Свойства \"основные\" и \"ось\" неизменяемые.
 
--    **Angle**: angle of rotation. See [Angle](#Angle.md).
+-    **Угол **: Угол вращения.[Угол](#Angle.md).
 
--    **Label**: label given to the operation, can be changed at convenience.
+-    **Label**: Название операции, можно изменить для удобства.
 
--    **Midplane**: true or false. See [Symmetric to plane](#Symmetric_to_plane.md).
+-    **Midplane**: true или false. [Симметрично плоскости](#Symmetric_to_plane.md).
 
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
+-    **Reversed**: true или false. [В обратную сторону](#Reversed.md).
 
--    **Refine**: true or false. If set to true, cleans the solid from residual edges left by features. See [Part RefineShape](Part_RefineShape.md) for more details.
+-    **Refine**: true или false. если выбрано true, отчищены от лишних ребер на поверхности. Посмотрите [Part RefineShape/ru](Part_RefineShape/ru.md) для полной информации.
 
 
 
 ## Примеры
 
-![Example revolution using a construction line as the Revolution axis: In this image the angle is 75°, revolution is about the construction line (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
+![Пример вращения, использующей вспомогательную линию в качестве оси вращения: На изображении угол равен 75°, вращение вокруг вспомогательной линии (Sketch axis 0).](images/PartDesign_Revolution_axis_fromconstructionlines1.jpg )
 
-## Useful links 
 
-A [detailed example of use](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) on the forum.
+
+## Полезные ссылки 
+
+[Подробный пример использования](http://forum.freecadweb.org/viewtopic.php?f=3&t=3674) на форуме.
 
 
 

@@ -1,42 +1,63 @@
-# Part Mirror/it
 ---
- GuiCommand:   Name: Part_Mirror   Name/it: Specchia   MenuLocation: Parte , Specchia...   Workbenches: Part_Workbench/it   Parte|SeeAlso: ---
+ GuiCommand:
+   Name: Part Mirror
+   Name/it: Part Specchia
+   MenuLocation: Parte , Specchia...
+   Workbenches: Part_Workbench/it
+---
+
+# Part Mirror/it
 
 
-</div>
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Crea un nuovo oggetto (un duplicato) di un oggetto di tipo **Parte** che è una riflessione dell\'oggetto originale (sorgente). L\'oggetto duplicato viene creato tramite un piano di riflessione. Il piano di riflessione può essere un piano standard (XY, YZ o XZ), o qualsiasi piano parallelo ad un piano standard.
-
-
-</div>
+**Part Specchia** crea un nuovo oggetto (immagine) che è un riflesso dell\'oggetto originale (sorgente). L\'oggetto immagine viene creato dietro un piano speculare. Il piano dello specchio può essere un piano standard (**XY**, **YZ** o **XZ**), qualsiasi piano parallelo a un piano standard o ({{Version/it|0.22}}) qualsiasi piano arbitrario utilizzando un oggetto di riferimento.
 
 Esempio:
 
-![L\'oggetto originale](images/PARTMirrorBeforev11.png )
+![](images/PARTMirrorBeforev11.png )
 
-![L\'originale e il duplicato (riflesso rispetto al piano **YZ**)](images/PARTMirrorAfterv11.png ) 
+
+
+*Prima*
+
+![](images/PARTMirrorAfterv11.png )
+
+
+
+*Dopo aver specchiato attraverso il piano YZ*
+
+
 
 ## Utilizzo
 
-![](images/PARTMirrorDialogv11.png )
+![](images/PartMirroring_Scr1.png )
 
-1.  Selezionare l\'oggetto sorgente nella lista.
-2.  Selezionare un **Piano di specchiatura**.
-3.  Premere **OK** per creare il duplicato.
+1.  Facoltativamente selezionare uno o più oggetti di origine.
+2.  Esistono diversi modi per richiamare il comando:
+    -   Premere il pulsante **<img src="images/Part_Mirror.svg" width=16px> [Specchia...](Part_Mirror/it.md)**.
+    -   Selezionare l\'opzione **Parte → <img src="images/Part_Mirror.svg" width=16px> Specchia...** dal menu.
+3.  Se non si ha ancora selezionato oggetti o si desidera modificare la selezione: scegliere uno o più oggetti dall\'elenco **Forme**.
+4.  Effettuare una delle seguenti operazioni:
+    -   Selezionare un **Piano di specchiatura** standard dall\'elenco a discesa.
+    -   Selezionare un oggetto di riferimento nella [Vista ad albero](Tree_view/it.md) o nella [Vista 3D](3D_view/it.md). L\'oggetto di riferimento può essere qualsiasi faccia planare o bordo circolare.
+5.  Premere il pulsante **OK**.
+6.  Per ciascun oggetto sorgente viene creato un oggetto Part Specchio separato.
 
+Quando l\'etichetta del pulsante di selezione dice **Selecting** ci si trova in modalità di selezione dei riferimenti ed è attivo un portale di selezione, che non consente la selezione di oggetti di riferimento non supportati. Fare clic sul pulsante per disattivare il portale di selezione, l\'etichetta del pulsante cambia in **Seleziona il riferimento**.
+
+Il piano di specchiatura è definito da un **Normal** (direzione) e da un **Base** (posizione). Quando la proprietà **Mirror Plane** contiene un oggetto di riferimento, queste proprietà vengono rese di sola lettura poiché vengono quindi calcolate in base a tale oggetto. Il piano è infinito anche se l\'oggetto di riferimento non lo è.
+
+Un oggetto di riferimento può essere una faccia planare, ad esempio la faccia di un [Part Cubo](Part_Box/it.md), un bordo circolare, un [Datum Plane](PartDesign_Plane/it.md), un [piano di origine](App_OriginGroupExtension/it.md) di un contenitore [Part](Std_Part/it.md) o qualsiasi oggetto con una singola faccia planare o un singolo bordo circolare. C\'è anche il supporto per [collegamenti (Links)](App_Link/it.md). Si noti, tuttavia, che le superfici B-spline, come [superfici rigate](Part_RuledSurface/it.md) o [facce loft](Part_Loft/it.md) non sono supportate.
 
 
 
 ## Opzioni
 
-Le caselle **Punto base** possono essere utilizzate per spostare il piano di specchiatura parallelamente al piano standard selezionato (scostamento). Solo una delle caselle **X**, **Y**, o **Z** è attiva per un determinato piano.
+Se viene selezionato un piano standard invece di un oggetto di riferimento, è possibile utilizzare le caselle **Punto base** per spostarlo. Solo una delle caselle **X**, **Y** o **Z** è efficace per un dato piano standard.
 
-  Piano Standard   Punto Base     Effetto
+  Piano standard   Punto base     Effetto
     
   **XY**           **Z**          Sposta il piano lungo l\'asse **Z**.
   **XY**           **X**, **Y**   Nessun effetto.
@@ -45,26 +66,12 @@ Le caselle **Punto base** possono essere utilizzate per spostare il piano di spe
   **YZ**           **X**          Sposta il piano lungo l\'asse **X**.
   **YZ**           **Y**, **Z**   Nessun effetto.
 
-## Notes
 
 
-<div class="mw-translate-fuzzy">
+## Note
 
-## Limitazioni
-
--   Al momento non è possibile usare dei piani arbitrari, non paralleli ai piani standard, come piani di specchiatura.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   Gli oggetti [App Link](App_Link/it.md) collegati ai tipi di oggetto appropriati e i contenitori [App Part](App_Part/it.md) con gli oggetti visibili appropriati all\'interno possono essere utilizzati anche come oggetti di origine. {{Version/it|0.20}}
+-   Dopo aver selezionato un piano di specchiatura standard, **Normal** e **Base** dell\'oggetto Part Specchio possono essere modificati su qualsiasi valore. In questo modo anche senza oggetto di riferimento non siete limitati ai piani standard.
 
 
 

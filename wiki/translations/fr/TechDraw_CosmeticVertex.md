@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw CosmeticVertex
    Name/fr: TechDraw Point cosmétique
-   MenuLocation: TechDraw , Add Vertices , Ajouter un sommet cosmétique
+   MenuLocation: TechDraw , Ajouter des sommets , Ajouter un sommet cosmétique
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_Midpoints/fr, TechDraw_Quadrants/fr
@@ -21,21 +21,21 @@ L\'outil **TechDraw Point cosmétique** ajoute un [Vertex](Glossary/fr#V.md) (so
 
 ## Utilisation
 
+1.  Sélectionnez une vue.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> [Add Cosmetic Vertex](TechDraw_CosmeticVertex.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des sommets → <img src="images/TechDraw_CosmeticVertex.svg" width=16px> Ajouter un sommet cosmétique** dans le menu.
+3.  Un panneau de tâches s\'ouvre.
+4.  Appuyez sur le bouton **Sélectionneur de points** et choisissez un point sur la page. Appuyez sur le bouton **Annuler la sélection** pour annuler cette opération.
+5.  Modifiez ou spécifiez les coordonnées X et Y du point. Les coordonnées sont relatives au centre de la vue.
+6.  Appuyez sur le bouton **OK**.
 
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une vue dans le dessin.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_CosmeticVertex.svg" width=16px> [Ajouter un sommet cosmétique](TechDraw_CosmeticVertex/fr.md)**.
-3.  Une boîte de dialogue de tâche s\'ouvre. Il permet de définir l\'emplacement du sommet cosmétique en sélectionnant un point ou en saisissant un décalage x, y par rapport au centre de la vue sélectionnée.
-4.  Pour choisir une position, appuyez sur le bouton **Point Picker**. Cliquez sur une position dans la vue et appuyez ensuite sur **OK** pour créer le point. Pour quitter la sélection de points sans créer de sommet cosmétique, appuyez sur le bouton **Escape picking** dans la boîte de dialogue.
 
 
-</div>
+## Remarques
 
-## Notes
-
--   You cannot change the position of an existing cosmetic vertex. At the moment there is no other way than to delete it and create a new one.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Vous ne pouvez pas modifier la position d\'un sommet cosmétique existant. Pour l\'instant, il n\'y a pas d\'autre moyen que de le supprimer et d\'en créer un nouveau.
+-   Pour supprimer un sommet cosmétique, utilisez la <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser/fr.md).
 
 
 

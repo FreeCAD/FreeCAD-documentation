@@ -1,5 +1,5 @@
 # Manual:Import and export to other filetypes/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 FreeCAD poate importa și exporta multe tipuri de fișiere. Iată o listă cu cele mai importante, cu o scurtă descriere a caracteristicilor disponibile:
 
@@ -43,7 +43,6 @@ Unele dintre aceste formate de fișiere au opțiuni. Acestea pot fi configurate 
 
 -   [All file formats supported by FreeCAD](Import_Export.md)
 -   [Working with DXF files in FreeCAD](Draft_DXF.md):
--   [Enabling DXF and DWG support](Dxf_Importer_Install.md)
 -   [Working with SVG files in FreeCAD](Draft_SVG.md)
 -   [Importing and exporting to IFC](Arch_IFC.md)
 -   [OpenCasCade](http://www.opencascade.com)

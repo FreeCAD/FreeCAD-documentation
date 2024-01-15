@@ -18,7 +18,7 @@ Although FreeCAD doesn\'t need money to be developed, donations can help the pro
 
 ### ドキュメントの作成
 
-この文書を作成、修正、拡張するために私たちを助けてください。 間違いを修正し、不明確なページを拡張または修正し、トピックが欠落している場合は新しいページを作成するなど。FreeCAD Wikiへの貢献は簡単です。[WikiPagesで](WikiPages/ja.md)、FreeCAD Wikiのルールと、始めるために必要なヘルプを見つけることができます。Wikiを編集するには、FreeCAD Wikiのアカウントが必要です（スパムを防ぐためにWikiは書き込み保護されています）。 あなたはアカウントを[on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830)または[irc channel](irc://irc.freenode.net/freecad)で申請できます。IRCチャンネルはフォーラムほど敏感ではないかもしれないことに注意してください。
+この文書を作成、修正、拡張するために私たちを助けてください。 間違いを修正し、不明確なページを拡張または修正し、トピックが欠落している場合は新しいページを作成するなど。FreeCAD Wikiへの貢献は簡単です。[WikiPages](WikiPages/ja.md)で、FreeCAD Wikiのルールと、始めるために必要なヘルプを見つけることができます。Wikiを編集するには、FreeCAD Wikiのアカウントが必要です（スパムを防ぐためにWikiは書き込み保護されています）。 あなたはアカウントを[on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830)または[irc channel](irc://irc.freenode.net/freecad)で申請できます。IRCチャンネルはフォーラムほど敏感ではないかもしれないことに注意してください。
 
 
 </div>
@@ -30,9 +30,9 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 あなたの仕事を歓迎するいくつかの分野：
 
--   [:Category:Command_Reference/jaページには](:Category:Command_Reference/ja.md)、すべてのFreeCAD [commandsがリストされ文書化されています](Command/ja.md)。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPagesを参照してください](WikiPages/ja.md)。
--   [Tutorialsセクションはまだ非常に貧弱です](Tutorials.md)。もしあなたがFreeCADでクールなものを開発したなら、後世の人のためにやったことは文書化すべきです。
--   \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\'にタグ付けされたFreeCAD [bugtrackerには](bugtracker.md)、愛を使うことができるオープンチケットがあります。
+-   [:Category:Command_Reference/ja](:Category:Command_Reference/ja.md)ページには、すべてのFreeCAD [commands](Command/ja.md)がリストされ文書化されています。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPages](WikiPages/ja.md)を参照してください。
+-   [Tutorials](Tutorials.md)セクションはまだ非常に貧弱です。もしあなたがFreeCADでクールなものを開発したなら、後世の人のためにやったことは文書化すべきです。
+-   \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\'にタグ付けされたFreeCAD [bugtracker](bugtracker.md)には、愛を使うことができるオープンチケットがあります。
 
 
 </div>
@@ -76,7 +76,7 @@ Translate FreeCAD to your own language. All text strings of the FreeCAD interfac
 
 <div class="mw-translate-fuzzy">
 
-翻訳の詳細については、[Localisationの下のFreeCAD](Localisation/ja.md) Wiki翻訳プロセスを参照してください。
+翻訳の詳細については、[Localisation](Localisation/ja.md)の下のFreeCAD Wiki翻訳プロセスを参照してください。
 
 
 </div>
@@ -96,7 +96,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-翻訳の詳細については、FreeCAD Wikiの翻訳プロセス[Localisationを参照してください](Localisation/ja.md)。
+翻訳の詳細については、FreeCAD Wikiの翻訳プロセス[Localisation](Localisation/ja.md)を参照してください。
 
 
 </div>
@@ -104,7 +104,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-[ヘルプ編集ページには](Help:Editing/ja.md)、編集に関する情報がいくつかあります。
+[ヘルプ編集](Help:Editing/ja.md)ページには、編集に関する情報がいくつかあります。
 
 
 </div>
@@ -112,7 +112,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-[WikiPagesスタイルガイドに精通していることを確認してください](WikiPages/jp.md)。これには、優れた翻訳のための規則が含まれています。
+[WikiPages](WikiPages/jp.md)スタイルガイドに精通していることを確認してください。これには、優れた翻訳のための規則が含まれています。
 
 
 </div>
@@ -178,7 +178,7 @@ There are dozens of bugs reported on [GitHub](https://github.com/FreeCAD/FreeCAD
 
 ### デザインアートワーク
 
-FreeCAD用のアイコンデザインのガイドラインについては[Artworkページを参照してください](Artwork/ja.md)。
+FreeCAD用のアイコンデザインのガイドラインについては[Artwork](Artwork/ja.md)ページを参照してください。
 
 
 </div>
@@ -194,10 +194,10 @@ FreeCAD用のコードを書くことは難しくありません。そして、�
 
 -   FreeCADは独自のペースで進み、非常に小さな開発者チームを抱えています。私たちはFreeCADに専念したいと思うほど多くの時間を持っていません。そして、物事は先に計画されていません。何人かの開発者がそれが合うのを見てそして彼がそれをする時間を見つけるとき、それらは行われます。だから私たちはやるべきことのリストを保守していません。やりたいことを見つけるのはあなた次第です。例えば、あなたが修正したい欠陥や、あなたが欠けていると思う小さな機能です。 [tracker](http://www.freecadweb.org/tracker)には、まだ誰にも割り当てられていない項目もいくつか含まれています。
 -   FreeCADのコードを書き始める前に、FreeCADがどのように機能するのかをよく知っておく必要があります。これは明らかに思えますが、それがどのように機能するのかがわからなければ、内部的に何をするべきか、またはそれをどのように行うべきかわからないでしょう。
--   ほとんどすべてのことがpythonまたはC++で実行できます。内部は両方の言語でほぼ同じように機能します。C++でコーディングする場合でも、[Power users hubページを読むことをお勧めします](Power_users_hub/ja.md)。内部の概要がわかりやすくなるからです。
+-   ほとんどすべてのことがpythonまたはC++で実行できます。内部は両方の言語でほぼ同じように機能します。C++でコーディングする場合でも、[Power users hub](Power_users_hub/ja.md)ページを読むことをお勧めします。内部の概要がわかりやすくなるからです。
 -   もしあなたがC++で作業しようとしているなら、最初に問題なくFreeCADをコンパイルできることを確認してください。
--   自分自身を他の開発者に紹介しましょう。 FreeCADは何よりもソーシャルプロジェクトです。それを実装する前に、私たちは\[[http://forum.freecadweb.orgフォーラム\]で多くのことを議論します。実際にそれをする前に、あなたの考えについて話し合い、あなたが何を計画しているかを人々に話すことが常に最善です](http://forum.freecadweb.orgフォーラム%5Dで多くのことを議論します。実際にそれをする前に、あなたの考えについて話し合い、あなたが何を計画しているかを人々に話すことが常に最善です)。[IRC channel](irc://chat.freenode.net/freecad)もありますが、フォーラムはすべての開発者に会える唯一の場所です。
--   2016年以降、FreeCADは[Google Summer of Codeにも参加しています](Google_Summer_of_Code.md)。 あなたが次の版に参加することに興味があるならば、そこで我々の考えをチェックするようにしてください。
+-   自分自身を他の開発者に紹介しましょう。 FreeCADは何よりもソーシャルプロジェクトです。それを実装する前に、私たちは\[<http://forum.freecadweb.orgフォーラム%5Dで多くのことを議論します。実際にそれをする前に、あなたの考えについて話し合い、あなたが何を計画しているかを人々に話すことが常に最善です>。[IRC channel](irc://chat.freenode.net/freecad)もありますが、フォーラムはすべての開発者に会える唯一の場所です。
+-   2016年以降、FreeCADは[Google Summer of Code](Google_Summer_of_Code.md)にも参加しています。 あなたが次の版に参加することに興味があるならば、そこで我々の考えをチェックするようにしてください。
 
 
 </div>
@@ -219,4 +219,4 @@ FreeCAD features a [Models library](https://github.com/FreeCAD/FreeCAD-library) 
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > Help FreeCAD/ja
+⏵ [documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > [Documentation](Category_Documentation.md) > [Developer Documentation](Category_Developer Documentation.md) > [Common Questions](Category_Common Questions.md) > [Help](Help_Workbench.md) > Help FreeCAD/ja

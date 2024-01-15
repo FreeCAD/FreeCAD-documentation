@@ -46,7 +46,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 
 ![](images/Exercise_cabin_04.jpg )
 
--   We can change their default grey color to a nice hatch pattern, by selecting both walls, then setting their **Pattern** property to **Simple**, and their **Pattern size** to your liking, for example **0.005**.
+-   We can give the walls a nice hatch pattern. Select both walls, make sure their **Make Face** property is set to **`True`**, then set their **Pattern** property to **Simple**, and their **Pattern size** to your liking, for example **0.005**.
 
 ![](images/Exercise_cabin_05.jpg )
 

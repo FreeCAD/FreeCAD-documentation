@@ -29,7 +29,7 @@
 <div class="mw-translate-fuzzy">
 
 -   在树状视图中右键某草图并选择*Edit Sketch*；或在树状视图中选择草图，并从下拉菜单中选择*Sketch → Edit Sketch*。双击草图也可达到此效果。
--   选择[离开草图（Leave Sketch）将终止此编辑模式](Sketcher_LeaveSketch.md)。
+-   选择[离开草图（Leave Sketch）](Sketcher_LeaveSketch.md)将终止此编辑模式。
 
 
 </div>

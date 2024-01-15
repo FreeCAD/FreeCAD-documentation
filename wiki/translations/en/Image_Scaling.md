@@ -31,4 +31,4 @@ The [Image Scaling](Image_Scaling.md) tool scales an image that was imported wit
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/en
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Scaling/en

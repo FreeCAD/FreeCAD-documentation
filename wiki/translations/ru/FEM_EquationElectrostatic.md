@@ -36,7 +36,7 @@ For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer
 
 The electrostatic equation provides these special settings:
 
--    **Calculate Capacitance Matrix**: Calculates the capacitance matrix. The matrix contains the the point charges of the mesh knots.
+-    **Calculate Capacitance Matrix**: Calculates the capacitance matrix. The matrix contains the point charges of the mesh knots.
 
 -    **Calculate Electric Energy**: Calculates the [electric potential energy](https://en.wikipedia.org/wiki/Electric_potential_energy).
 
@@ -52,16 +52,16 @@ The electrostatic equation provides these special settings:
 
 -    **Potential Difference**: Potential difference in Volt for which the capacitance is calculated. It is only used if **Calculate Capacitance Matrix** is set to *false*. Therefore in fact this setting specifies the voltage between the electrodes of a simple capacitor. Note that the given voltage has to be consistent with the potentials defined in the boundary conditions.
 
-## Constraint Information 
+## Analysis Feature Information 
 
-The electrostatic equation takes the following constraints into account if they are set:
+The electrostatic equation takes the following analysis features into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential constraint](FEM_ConstraintElectrostaticPotential.md)
+-   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [Electrostatic potential boundary condition](FEM_ConstraintElectrostaticPotential.md)
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:24px;"> [Constant vacuum permittivity](FEM_ConstantVacuumPermittivity.md)
 
 ### Note
 
-Except for calculations in 2D, for <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential constraints](FEM_ConstraintElectrostaticPotential.md) it is important that they act on a face or body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+Except for calculations in 2D, for <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:24px;"> [electrostatic potential boundary conditions](FEM_ConstraintElectrostaticPotential.md) it is important that they act on a face or body. Boundary conditions in 3D set to lines or vertices are not recognized by the Elmer solver.
 
 ## Results
 

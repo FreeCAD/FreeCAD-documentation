@@ -1,13 +1,13 @@
 # Macro ObjectInfo/en
 {{Macro
 |Name=Macro ObjectInfo
-|Description=This WorkBench lets you know the volume information surface area, center of mass and moment of intertia of the selected object.
+|Description=This WorkBench lets you know the volume information surface area, center of mass and moment of intertia of the selected object.<br><br>This is not a macro but one WorkBench, uncompress the .zip file and paste the complete directory in the Mod user directory [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
 |Author=keithsloan52
 |Version=1.0
 |Date=2012-11-09
 |FCVersion=Until 0.17 '''and PyQt4'''
-|Download=This is not a macro but one WorkBench, uncompress the .zip file and paste the complete directory in the Mod user directory [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
-|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)
+|Download=[https://wiki.freecad.org/images/2/29/Macro_ObjectInfo.png ToolBar Icon]
+|SeeAlso=[Arch Survey](Arch_Survey.md)
 }}
 
 ## Description

@@ -6,24 +6,28 @@
 
 **Polecenie** to czynność wykonywana po naciśnięciu przycisku na pasku narzędzi lub wpisaniu skrótu klawiaturowego. Może to być bardzo prosta czynność, jak zmiana stopnia powiększenia [widoku 3D](3D_view/pl.md) lub obrót punktu widzenia, albo złożony system, który będzie otwierał okna dialogowe i czekał na wykonanie przez użytkownika określonych zadań.
 
-Each FreeCAD command has a unique name, that appears in the [:Category:Command Reference](:Category_Command_Reference.md) page. Commands can be launched by a toolbar button, a menu item, or from a [python](Python.md) script or the [Python console](Python_console.md), by running:
+Każde polecenie FreeCAD ma unikalną nazwę, która pojawia się na stronie [:Category:Command Reference](:Category_Command_Reference.md). Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu [Python](Python/pl.md) lub [konsoli Python](Python_console/pl.md), poprzez uruchomienie:
 
 
 ```python
 FreeCADGui.runCommand("my_Command_Name")
 ```
 
-## Background
 
-FreeCAD commands are defined per workbench. Workbenches will normally add their command definitions at FreeCAD init time, so the command exists and is available as soon as FreeCAD is started, no matter if the corresponding workbench has been activated yet or not. In some cases however, the workbench author might have decided to not overload/burden the FreeCAD startup process and therefore loaded the command definitions only at workbench init. In those cases, the command will only be available after the workbench has been activated (you have switched to it at least once with the workbench selector).
 
-As most of them require user interaction, FreeCAD commands are only available in GUI-mode, and not in console mode. However, for convenience, most FreeCAD commands will either have a corresponding python function (like `Part.makeBox` or `Draft.makeLine`), or will execute code that is very easy to replicate in a python script and/or [macro](macros.md).
+## Kontekst
 
-Commands can be defined either in C++ or in Python.
+Polecenia FreeCAD są definiowane dla każdego środowiska pracy. Środowiska pracy zwykle dodają swoje definicje poleceń w czasie inicjowania FreeCAD, więc polecenie istnieje i jest dostępne natychmiast po uruchomieniu FreeCAD, bez względu na to, czy odpowiednie środowisko pracy zostało już aktywowane, czy nie. W niektórych przypadkach jednak autor środowiska pracy mógł zdecydować się nie przeciążać/obciążać procesu uruchamiania FreeCAD i dlatego załadował definicje poleceń tylko podczas inicjowania środowiska pracy. W takich przypadkach polecenie będzie dostępne dopiero po aktywacji środowiska pracy *(po przełączeniu się na nie co najmniej raz za pomocą selektora środowiska pracy)*.
 
-## Commands defined in C++ 
+Ponieważ większość z nich wymaga interakcji użytkownika, polecenia FreeCAD są dostępne tylko w trybie GUI, a nie w trybie konsoli. Jednak dla wygody większość poleceń FreeCAD będzie miała odpowiadającą im funkcję środowiska Python *(jak `Part.makeBox` lub `Draft.makeLine`)*, lub wykona kod, który jest bardzo łatwy do odtworzenia w skrypcie Python i / lub [makrodefinicjach](Macros/pl.md).
 
-Example of a C++ command definition, usually defined following the structure **Mod/ModuleName/Gui/Command.cpp**.
+Polecenia mogą być definiowane w języku C++ lub Python.
+
+
+
+## Polecenia zdefiniowane w C++ 
+
+Przykład definicji polecenia w języku C++, zwykle zdefiniowany zgodnie ze strukturą **Mod/ModuleName/Gui/Command.cpp**.
 
 
 {{Code|lang=cpp|code=
@@ -56,9 +60,11 @@ CommandManager &rcCmdMgr = Application::Instance->commandManager();
 rcCmdMgr.addCommand(new StdCmdMyCommand());
 }}
 
-## Commands defined in Python 
 
-Example of a Python command definition, it can be placed in a directory like **Mod/ModuleName/tools/commands.py**. 
+
+## Polecenia zdefiniowane w środowisku Python 
+
+Przykład definicji polecenia Python, może być umieszczony w katalogu takim jak **Mod/ModuleName/tools/commands.py**. 
 ```python
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
@@ -89,11 +95,13 @@ class MyCommand:
 FreeCADGui.addCommand('My_Command', MyCommand())
 ```
 
-## Examples
 
-See [Line drawing function](Line_drawing_function.md).
+
+## Przykłady
+
+Zobacz stronę [Funkcja rysowania linii](Line_drawing_function/pl.md).
 
 
 
 ---
-⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a ](Category_Command_Reference|:Category:Command Reference]] page. Commands can be launched by a toolbar button, a menu item, or from a .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl
+⏵ [documentation index](../README.md) > [Command_Reference|:Category:Command Reference]]. Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu ](Category_Command_Reference|:Category:Command Reference]]. Polecenia mogą być uruchamiane za pomocą przycisku paska narzędzi, pozycji menu lub ze skryptu .md) > [Developer Documentation](Category_Developer Documentation.md) > [Python Code](Category_Python Code.md) > [Glossary](Category_Glossary.md) > Command/pl

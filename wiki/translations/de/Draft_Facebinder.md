@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Facebinder
-   Name/de: Entwurf Flächenbinder
-   MenuLocation: Entwerfen , Flächenbinder
+   Name/de: Draft Flächenbinder
+   MenuLocation: Zeichnen , Flächenverbinder
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **F** **F**
    Version: 0.14
@@ -10,28 +10,36 @@
 
 # Draft Facebinder/de
 
+
+
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Flächenbinder** Befehl erstellt ein Oberflächenobjekt aus ausgewählten Flächen. Ein Entwurf Flächenbinder ist parametrisch, er wird aktualisiert, wenn Du seine(s) Quellobjekt(e) änderst.
+Der Befehl <img alt="" src=images/Draft_Facebinder.svg  style="width:24px;"> **Draft Flächenbinder** erstellt ein Oberflächenobjekt aus ausgewählten Flächen. Ein Draft-Flächenbinder ist parametrisch, er wird aktualisiert, wenn seine Quellobjekte geändert werden.
 
 Er kann verwendet werden, um eine Extrusion aus einer Sammlung von Flächen aus anderen Objekten zu erstellen. Diese Extrusion kann zum Beispiel einen Wandabschluss in der architektonischen Gestaltung verkörpern.
 
 <img alt="" src=images/Draft_facebinder_example.jpg  style="width:400px;"> 
 *Flächenbinder erstellt aus den Wandflächen*
 
+
+
 ## Anwendung
 
-1.  Wähle eine oder mehrere Flächen.
+1.  Eine oder mehrere Flächen auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_Facebinder.svg" width=16px> [Entwurf Flächenbinder](Draft_Facebinder/de.md)** Taste.
-    -   Wähle die Option **Entwerfen → <img src="images/Draft_Facebinder.svg" width=16px> Flächenbinder** Option aus dem Menü.
-    -   Verwende den Tastaturkürzel: **F** und dann **F**.
+    -   Die Schaltfläche **<img src="images/Draft_Facebinder.svg" width=16px> [Flächenverbinder](Draft_Facebinder/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Facebinder.svg" width=16px> Flächenverbinder** auswählen.
+    -   Das Tastaturkürzel **F** dann **F**.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Entwurf Flächenbinder-Objekt wird von einem [Part Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein Draft-Flächenbinder (Facebinder-Objekt) wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -50,6 +58,8 @@ Ein Entwurf Flächenbinder-Objekt wird von einem [Part Formelement](Part_Feature
 
 -    {{PropertyData/de|Sew|Bool}}: Gibt an, ob ein topolischer Nähvorgang am Flächenbinder durchgeführt werden soll oder nicht.
 
+
+
 ### Ansicht
 
 
@@ -58,6 +68,8 @@ Ein Entwurf Flächenbinder-Objekt wird von einem [Part Formelement](Part_Feature
 -    {{PropertyView/de|Muster}}: spezifiziert ein [Entwurfs Muster](Draft_Pattern/de.md), mit dem die Fläche der Form ausgefüllt werden soll. Diese Eigenschaft funktioniert nur, wenn {{PropertyView/de|Display Mode}} \"Flat Lines\" ist.
 
 -    {{PropertyView/de|Muster Grösse}}: gibt die Größe des [Muster Grösse](Draft_Pattern/de.md) an.
+
+
 
 ## Skripten
 

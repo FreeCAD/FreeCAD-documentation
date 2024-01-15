@@ -1,55 +1,66 @@
 ---
  GuiCommand:
    Name: FEM ConstraintDisplacement
-   MenuLocation: Model , Mechanical Constraints , Constraint displacement
-   Workbenches: FEM_Workbench
+|Name/pɬMES Warunek brzegowy przemieszczenia
+   MenuLocation: Model , Warunki brzegowe i obciążenia mechaniczne , Warunek brzegowy przemieszczenia
+   Workbenches: FEM_Workbench/pl
    Shortcut: 
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM ConstraintDisplacement/pl
 
-## Description
-
-Creates a FEM constraint for a prescribed displacement of a selected object for a specified degree of freedom.
-
-## Usage
-
-1.  Either press the button **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> '''FEM FEM_ConstraintDisplacement'''** or select the menu **Model → Mechanical Constraints → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Constraint displacement**.
-2.  In the [3D view](3D_view.md) select the object the constraint should be applied to, which can be a vertex (corner), edge, or face.
-3.  Press the **Add** button.
-4.  Uncheck *Unspecified* to activate the necessary fields for edition.
-5.  Set the values or (<small>(v0.21)</small> ) specify a formula for the displacements.
-
-## Formulas
 
 
-<small>(v0.21)</small> 
+## Opis
 
-### General
+Tworzy warunek brzegowy MES przemieszczenia wybranego obiektu dla określonego stopnia swobody.
 
-For the <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solver Elmer](FEM_SolverElmer.md) it is possible to define the displacement as a formula. In this case the solver sets the displacement according to the given formula variable.
 
-Take for example the case that we want to perform a [transient analysis](FEM_SolverElmer_SolverSettings#Timestepping_(transient_analyses).md). For every time step the displacement $d$ should be increased by 6 mm:
+
+## Użycie
+
+1.  Wciśnij przycisk **<img src="images/FEM_ConstraintDisplacement.svg" width=16px> [Warunek brzegowy przemieszczenia](FEM_ConstraintDisplacement/pl.md)** lub wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintDisplacement.svg" width=16px> Warunek brzegowy przemieszczenia**.
+2.  W [widoku 3D](3D_view/pl.md) wybierz obiekt, do którego ma być przyłożony warunek brzegowy. Może to być wierzchołek, krawędź lub ściana.
+3.  Wciśnij przycisk **Dodaj**.
+4.  Zaznacz właściwe pola do edycji.
+5.  Ustaw wartości lub ({{Version/pl|0.21}}) podaj równanie dla przemieszczeń.
+
+
+
+## Równania
+
+
+{{Version/pl|0.21}}
+
+
+
+### Ogólne
+
+Dla <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [solvera Elmer](FEM_SolverElmer/pl.md) istnieje możliwość zdefiniowania przemieszczenia jako formuły. W tym przypadku solver ustawia przemieszczenia zgodnie z wprowadzoną zmienną równania.
+
+Załóżmy, że chcemy przeprowadzić [analizę ze zmiennością w czasie](FEM_SolverElmer_SolverSettings#Timestepping_(transient_analyses).md). Dla każdego kroku czasowego, przemieszczenie $d$ powinno być zwiększane o 6 mm:
 
 $\quad
 d(t)=0.006\cdot t$
 
-enter this in the *Formula* field: ` Variable "time"; Real MATC "0.006*tx"`
+wprowadź to w polu *Wzór*: ` Variable "time"; Real MATC "0.006*tx"`
 
-This code has the following syntax:
+Ten kod ma następującą składnię:
 
--   the prefix *Variable* specifies that the displacement is not a constant but a variable
--   the variable is the current time
--   the displacement values are returned as *Real* (floating point) values
--   *MATC* is a prefix for the Elmer solver indicating that the following code is a formula
--   *tx* is always the name of the variable in *MATC* formulas, no matter that *tx* in our case is actually *t*
+-   przedrostek *Variable* określa, że przemieszczenie nie jest stałą tylko zmienną
+-   zmienną jest bieżący czas
+-   wartości przemieszczenia są zwracane jako wartości *Real* (rzeczywiste zmiennoprzecinkowe)
+-   *MATC* to przedrostek dla solvera Elmer oznaczający, że następujący kod jest równaniem
+-   *tx* jest zawsze nazwą zmiennej w równaniach *MATC*, mimo że w naszym przypadku *tx* to *t*
 
-### Rotations
 
-Elmer only uses the **Displacement \*** fields of the constraint. To define rotations, we need a formula.
 
-If for example a face should be rotated according to this condition:
+### Obroty
+
+Elmer korzysta tylko z pól warunku brzegowego **Przemieszczenie \***. Aby zdefiniować obroty, potrzebne jest równanie.
+
+Przykładowo, jeśli ściana powinna być obrócona zgodnie z tym warunkiemː
 
 $\quad
 \begin{align}
@@ -57,25 +68,27 @@ d_{x}(t)= & \left(\cos(\phi)-1\right)x-\sin(\phi)y\\
 d_{y}(t)= & \left(\cos(\phi)-1\right)y+\sin(\phi)x
 \end{align}$
 
-then we need to enter for **Displacement x** `  Variable "time, Coordinate"
+to należy wprowadzić jako **Przemieszczenie x** `  Variable "time, Coordinate"
 Real MATC "(cos(tx(0)*pi)-1.0)*tx(1)-sin(tx(0)*pi)*tx(2)`
 
-and for **Displacement y** `  Variable "time, Coordinate"
+a jako **Przemieszczenie y** `  Variable "time, Coordinate"
 Real MATC "(cos(tx(0)*pi)-1.0)*tx(2)+sin(tx(0)*pi)*tx(1)`
 
-This code has the following syntax:
+Ten kod ma następującą składnię:
 
--   we have 4 variables, the time and all possible coordinates (x, y z)
--   *tx* is a vector, *tx(0)* refers to the first variable, the time, while *tx(1)* refers to the first coordinate *x*
--   *pi* denotes $\pi$ and was added so that after $t=1\rm\, s$ a rotation of 180° is performed
+-   mamy 4 zmienne - czas i wszystkie możliwe współrzędne (x, y z)
+-   *tx* jest wektorem, *tx(0)* odnosi się do pierwszej zmiennej - czasu, podczas gdy *tx(1)* odnosi się do pierwszej współrzędnej - *x*
+-   *pi* oznacza $\pi$ i zostało dodane aby po $t=1\rm\, s$ został przeprowadzony obrót o 180°
 
-## Notes
 
-For the <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [solver CalculiX](FEM_SolverCalculixCxxtools.md):
 
--   The constraint uses the \*BOUNDARY card.
--   Fixing a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
--   Prescribing a displacement for a degree of freedom is explained at <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
+## Uwagi
+
+Dla <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [solvera CalculiX](FEM_SolverCalculixCxxtools/pl.md):
+
+-   To narzędzie korzysta ze słowa kluczowego \*BOUNDARY.
+-   Blokowanie stopnia swobody jest wyjaśnione na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node164.html>
+-   Zadawanie wartości przemieszczenia dla stopnia swobody jest opisane na stronie <http://web.mit.edu/calculix_v2.7/CalculiX/ccx_2.7/doc/ccx/node165.html>
 
 
 

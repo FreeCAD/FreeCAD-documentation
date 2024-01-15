@@ -18,9 +18,11 @@ La commande fonctionne uniquement pour les nuages de points dont les points, lor
 
 ## Utilisation
 
-1.  La commande suppose que la direction de vue du nuage de points est parallèle à l\'axe Z du système de coordonnées global. Si ce n\'est pas le cas, ajuster **Placement** de l\'objet nuage de points.
-2.  Sélectionner l\'objet nuage de points.
-3.  Sélectionner l\'option **Points → Nuage structuré de points** du menu.
+1.  La commande suppose que la direction de la vue du nuage de points est parallèle à l\'axe Z du système de coordonnées global. Si ce n\'est pas le cas : ajuster **Placement** de l\'objet nuage de points en conséquence.
+2.  Sélectionnez l\'objet nuage de points.
+3.  Il y a plusieurs façons de lancer la commande :
+    -   Appuyez sur le **<img src="images/Points_Structure.svg" width=16px> [Nuage structuré de points](Points_Structure/fr.md)**.
+    -   Sélectionnez l\'option **Points → <img src="images/Points_Structure.svg" width=16px> Nuage structuré de points** du menu.
 
 
 

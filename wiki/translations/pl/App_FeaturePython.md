@@ -1,9 +1,9 @@
 # App FeaturePython/pl
 ## Wprowadzenie
 
-An <img alt="" src=images/Feature.svg  style="width:32px;"> [App FeaturePython](App_FeaturePython.md) object, or formally an `App::FeaturePython`, is a simple instance of the [App DocumentObject](App_DocumentObject.md) in [Python](Python.md).
+Obiekt <img alt="" src=images/Feature.svg  style="width:32px;"> [App: Właściwości Python](App_FeaturePython/pl.md), lub formalnie `App::FeaturePython`, jest prostą instancją [App: Obiekt dokumentu](App_DocumentObject/pl.md) w środowisku [Python](Python/pl.md).
 
-This is a simple object that by default doesn\'t have many properties, for example it doesn\'t have a [placement](Placement.md) or a [topological shape](Part_TopoShape.md). Depending on the properties that are assigned to it, it can be used to manage different types of data.
+Jest to prosty obiekt, który domyślnie nie ma wielu właściwości, na przykład nie ma [umiejscowienia](Placement/pl.md) lub [kształtu topologicznego](Part_TopoShape/pl.md). W zależności od przypisanych mu właściwości, może być używany do zarządzania różnymi typami danych.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -15,11 +15,11 @@ This is a simple object that by default doesn\'t have many properties, for examp
 
 ## Użycie
 
-The [App FeaturePython](App_FeaturePython.md) is an internal object, so it cannot be created from the graphical interface. It is meant to be sub-classed by classes that will handle different types of data.
+App: Właściwości Python jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego. Jest on przeznaczony do tworzenia klas podrzędnych, które będą obsługiwać różne typy danych.
 
-For example, the [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md), and [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) objects of the [Draft Workbench](Draft_Workbench.md) are `App::FeaturePython` objects with a custom icon and additional properties. They hold data but not an actual [Part TopoShape](Part_TopoShape.md).
+Na przykład obiekty [Adnotacja wieloliniowa](Draft_Text/pl.md), [Wymiar](Draft_Dimension/pl.md) i [Pośrednia płaszczyzna robocza](Draft_WorkingPlaneProxy/pl.md) w środowisku pracy [Rysunek Roboczy](Draft_Workbench/pl.md) są obiektami `App::FeaturePython` z niestandardową ikoną i dodatkowymi właściwościami. Przechowują one dane, ale nie rzeczywisty obiekt [kształtu topologicznego](Part_TopoShape/pl.md).
 
-If the desired object should have a placement, a shape, an attachment or other complex properties, it is better to create one of the more complex classes, for example, [App GeoFeature](App_GeoFeature.md), [Part Feature](Part_Feature.md), or [Part Part2DObject](Part_Part2DObject.md).
+Jeśli pożądany obiekt ma mieć umiejscowienie, kształt, dołączenie lub inne złożone właściwości, lepiej jest utworzyć jedną z bardziej złożonych klas, na przykład [App: Cechy geometrii](App_GeoFeature/pl.md), [Część: Cecha](Part_Feature/pl.md) lub [Część: Część na obiekt 2D](Part_Part2DObject/pl.md).
 
 
 
@@ -27,7 +27,7 @@ If the desired object should have a placement, a shape, an attachment or other c
 
 Zobacz stronę [Właściwości](Property/pl.md) dla wszystkich typów właściwości, które mogą mieć obiekty tworzone skryptami.
 
-The [App FeaturePython](App_FeaturePython.md) (`App::FeaturePython` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class) and inherits all its properties. It also has several additional properties.
+Klasa [App: Właściwości Python](App_FeaturePython/pl.md) (`App::FeaturePython`) jest pochodną podstawowej klasy [App: Obiekt dokumentu](App_DocumentObject/pl.md) *(`App::DocumentObject`)* i dziedziczy wszystkie jej właściwości. Posiada również kilka dodatkowych właściwości.
 
 Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.md). Ukryte właściwości można wyświetlić za pomocą polecenia **Wyświetl wszystko** w menu kontekstowym [edytora właściwości](Property_editor/pl.md).
 
@@ -38,15 +38,15 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 {{TitleProperty|Podstawa}}
 
--    **Proxy|PythonObject|Hidden**: a custom class associated with this object.
+-    **Proxy|PythonObject|ukryte**: niestandardowa klasa powiązana z tym obiektem.
 
--    **Label|String**: the user editable name of this object, it is an arbitrary UTF8 string.
+-    **Label|String**: edytowalna przez użytkownika nazwa tego obiektu, jest to dowolny ciąg UTF8.
 
--    **Label2|String|Hidden**: a longer, user editable description of this object, it is an arbitrary UTF8 string that may include newlines. By default, it is an empty string {{value|""}}.
+-    **Label2|String|ukryte**: dłuższy, edytowalny przez użytkownika opis tego obiektu, jest to dowolny ciąg UTF8, który może zawierać nowe linie. Domyślnie jest to pusty ciąg {{value|""}}.
 
--    **Expression Engine|ExpressionEngine|Hidden**: a list of expressions. By default, it is empty {{value|[]}}.
+-    **ExpressionEngine|ukryte**: lista wyrażeń. Domyślnie jest pusta {{value|[]}}.
 
--    **Visibility|Bool|Hidden**: whether to display the object or not.
+-    **Visibility|Bool|ukryte**: czy obiekt ma być wyświetlany czy nie.
 
 
 
@@ -55,23 +55,23 @@ Są to właściwości dostępne w [edytorze właściwości](Property_editor/pl.m
 
 {{TitleProperty|Podstawa}}
 
--    **Proxy|PythonObject|Hidden**: a custom [viewprovider](Viewprovider.md) class associated with this object.
+-    **Proxy|PythonObject|ukryte**: niestandardowa klasa [Dostawca widoku](Viewprovider/pl.md) powiązana z tym obiektem.
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Opcje wyświetlania}}
 
--    **Display Mode|Enumeration**: it is empty by default.
+-    **Display Mode|Enumeration**: domyślnie jest puste.
 
--    **Show In Tree|Bool**: it defaults to `True`, in which case the object will appear in the [Tree view](Tree_view.md); otherwise, the object will be hidden in the tree view. Once an object in the tree is invisible, you can see it again by opening the context menu over the name of the document (right-click), and selecting {{CheckBox|TRUE|Show hidden items}}. Then the hidden item can be chosen and **Show In Tree** can be switched back to `True`.
+-    **Show In Tree|Bool**: wartość domyślna to {{TRUE/pl}}, w którym to przypadku obiekt pojawi się w oknie [widoku drzewa](Tree_view/pl.md). W przeciwnym razie obiekt zostanie ukryty w oknie drzewa. Gdy obiekt w drzewie jest niewidoczny, można go ponownie zobaczyć, otwierając menu kontekstowe nad nazwą dokumentu *(prawym przyciskiem myszki)* i wybierając {{CheckBox|TRUE|Pokaż elementy ukryte w widoku drzewa}}. Następnie można wybrać ukryty element i przełączyć właściwość **Pokaż w drzewie** z powrotem na wartość {{TRUE/pl}}.
 
--    **Visibility|Bool**: it defaults to `True`, in which case the object will be visible in the [3D view](3D_view.md) if it has a [Shape](Part_TopoShape.md), otherwise it will be invisible. By default this property can be toggled on and off by selecting the object, and pressing the **Space** bar.
+-    **Visibility|Bool**: wartość domyślna to {{TRUE/pl}}, w którym to przypadku obiekt będzie widoczny w oknie [3D view](3D_view/pl.md), jeśli posiada [kształt](Part_TopoShape/pl.md), w przeciwnym razie będzie niewidoczny. Domyślnie właściwość ta może być włączana i wyłączana poprzez zaznaczenie obiektu i naciśnięcie przycisku **Spacja**.
 
 
 {{TitleProperty|Wybieranie}}
 
--    **On Top When Selected|Enumeration**: it controls the way in which the selection occurs in the [3D view](3D_view.md) if the object has a [Shape](Part_TopoShape.md), and there are many objects partially covered by others. It defaults to {{value|Disabled}}, meaning that no special highlighting will occur; {{value|Enabled}} means that the object will appear on top of any other object when selected; {{value|Object}} means that the object will appear on top only if the entire object is selected in the [Tree view](Tree_view.md); {{value|Element}} means that the object will appear on top only if a subelement (vertex, edge, face) is selected in the [3D view](3D_view.md).
+-    **On Top When Selected|Enumeration**: kontroluje sposób, w jaki zaznaczenie pojawia się w oknie [widoku 3D](3D_view/pl.md), jeśli obiekt ma [kształt](Part_TopoShape/pl.md), a istnieje wiele obiektów częściowo zakrytych przez inne. Domyślnie {{value|Wyłączone}}, co oznacza, że nie pojawi się żadne specjalne podświetlenie. {{value|Włączone}} oznacza, że obiekt pojawi się na wierzchu każdego innego obiektu po wybraniu. {{value|Object}} oznacza, że obiekt pojawi się na wierzchu tylko wtedy, gdy cały obiekt zostanie wybrany w oknie [Widoku drzewa](Tree_view/pl.md). {{value|Element}} oznacza, że obiekt pojawi się na wierzchu tylko wtedy, gdy element podrzędny *(wierzchołek, krawędź, ściana)* zostanie wybrany w oknie [widoku 3D](3D_view.md).
 
--    **Selection Style|Enumeration**: it controls the way the object is highlighted if it has a [Shape](Part_TopoShape.md). If it is {{value|Shape}}, the entire shape (vertices, edges, and faces) will be highlighted in the [3D view](3D_view.md); if it is {{value|BoundBox}} a bounding box will appear surrounding the object and will be highlighted.
+-    **Selection Style|Enumeration**: kontroluje sposób podświetlenia obiektu, jeśli ma on [kształt](Part_TopoShape/pl.md). Jeśli jest to {{value|kształt}}, cały kształt *(wierzchołki, krawędzie i ściany)* zostanie podświetlony w oknie [widoku 3D](3D_view/pl.md); jeśli jest to {{value|Ramka otaczająca}}, pojawi się obwiednia otaczająca obiekt i zostanie podświetlona.
 
 
 

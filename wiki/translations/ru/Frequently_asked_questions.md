@@ -47,6 +47,10 @@ All those components and the appropriate way to install them are listed on the [
 
 ## Устранение проблем 
 
+### Known OS-specific issues 
+
+Find known OS-specific issues on this [forum thread](https://forum.freecad.org/viewtopic.php?t=30573)
+
 
 
 ### FreeCAD вообще не запускается 

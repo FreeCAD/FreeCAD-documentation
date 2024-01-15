@@ -1,18 +1,21 @@
 # Macro Triangle AH/fr
 {{Macro/fr
 |Name=Macro Triangle AH
+|Name/fr=Macro Triangle AH
 |Icon=Macro_Triangle_AH.png
 |Description=Cette macro crée un triangle isocèle en donnant comme argument , l'angle de tête et la hauteur du triangle.Le triangle est créé dans les coordonnées réelle.<br/>{{ColoredText|(Ligne de commande, collez cette macro complète dans la console Python)}}.
 |Author=mario52
 |Version=00.03
 |Date=2019/07/02
 |FCVersion=Toutes
-|Download=[https://www.freecadweb.org/wiki/images/4/41/Macro_Triangle_AH.png ToolBar icon]
+|Download=[https://wiki.freecad.org/images/4/41/Macro_Triangle_AH.png Icône de la barre d'outils]
 }}
 
 ## Description
 
 Cette macro crée un triangle isocèle en donnant comme argument , l\'angle de tête et la hauteur du triangle. La tête du triangle est positionnée aux coordonnées XYZ 0,0,0.
+
+
 
 ## Utilisation
 
@@ -20,7 +23,7 @@ Copiez la macro **Triangle AH** complète dans la console Python de FreeCAD
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Triangle_AH.png )
+Icône de la barre d\'outils ![](images/Macro_Triangle_AH.png )
 
 **Macro_triangleAH.FCMacro**
 
@@ -76,6 +79,8 @@ def triangleAH(angle, height=0.0, base=0.0, hypo=0.0):
 
 }}
 
+
+
 ## Exemples
 
 
@@ -88,6 +93,8 @@ triangleAH(45, hypo=10)
 # or
 triangleAH(90, base=10)
 ```
+
+
 
 ## Versions
 

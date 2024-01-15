@@ -1,101 +1,105 @@
 # Import from STL or OBJ/pt-br
 {{TutorialInfo
-|Topic= Import from STL or OBJ
-|Level= Beginner
-|Time= 30 minutes
+|Topic=Importar STL ou OBJ
+|Level=Iniciante
+|Time= 30 minutos
 |Author=r-frank
 |FCVersion=0.16.6703
 |Files=
 }}
 
+
+
 ## Introdução
 
-In this tutorial we will cover how to import STL/OBJ files in FreeCAD. Since the mesh-format STL/OBJ is dimensionless, FreeCAD will assume on import that the units used in the model are mm. If this is not the case you have to scale your model either in the application it was created with (before exporting it) or you have to scale your model in FreeCAD after import and conversion to a solid.
+Neste tutorial, cobriremos como importar arquivos STL/OBJ no FreeCAD. Como o formato de malha STL/OBJ é sem dimensões, o FreeCAD assumirá, ao importar, que as unidades usadas no modelo são milímetros. Se isso não for verdade, você precisará redimensionar seu modelo no aplicativo em que foi criado (antes de exportá-lo) ou redimensionar seu modelo no FreeCAD após a importação e conversão em um sólido.
 
-## Sample part 
+## Peça de Exemplo 
 
-For this tutorial you can use your own STL file or create a demo file by doing this:
+Para este tutorial, você pode usar seu próprio arquivo STL ou criar um arquivo de demonstração fazendo o seguinte:
 
--   Open FreeCAD
--   Create a new document
--   Switch to the mesh workbench
--   Insert a torus by clicking on **Meshes** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Regular solid...**, choosing settings like:
-    -   Radius1: 10 mm
-    -   Radius2: 2 mm
-    -   Sampling: 50
--   Click on **Create** and then on **Close**
--   Save your file with **File** → **Save** to get a FreeCAD-File containing a mesh object
+-   Abra o FreeCAD
+-   Crie um novo documento
+-   Mude para a bancada de trabalho de malha (Mesh)
+-   Insira um toro clicando no menu **Malhas** → **<img src="images/Mesh_BuildRegularSolid.svg" width=32px> Sólido regular...**, escolhendo configurações como:
+    -   Raio1: 10 mm
+    -   Raio2: 2 mm
+    -   Amostragem: 50
+-   Clique em **Criar** e depois em **Fechar**
+-   Salve seu arquivo com **Arquivo** → **Salvar** para obter um arquivo FreeCAD contendo um objeto de malha
 
-For importing a STL or OBJ file into FreeCAD, create a new FreeCAD document und choose **File** → **Import** from the top menu.
+Para importar um arquivo STL ou OBJ no FreeCAD, crie um novo documento no FreeCAD e escolha **Arquivo** → **Importar** no menu superior.
 
-## Cleaning and repairing the STL/OBJ-File for preparing import 
+## Limpeza e Reparo do Arquivo STL/OBJ para Preparar a Importação 
 
-Basically, FreeCAD would import any STL/OBJ-File. But our goal is to have a solid which can be measured and changed (adding pads/pockets ..). For a successful conversion from mesh to solid we need to make sure that the mesh is "water-tight" (has no holes) or doesn't have any other errors.
-FreeCAD's aim is not to be a good mesh modeler, it is designed to be a solid modeler. FreeCAD has some capabilities for mesh operation in mesh workbench and OpenSCAD workbench (some operations need OpenSCAD to be installed and configured in the FreeCAD-preferences).
-Some users like to use third-party software for cleaning and repairing meshes, for example
+Basicamente, o FreeCAD importaria qualquer arquivo STL/OBJ. Mas nosso objetivo é ter um sólido que possa ser medido e modificado (adicionar cortes, furos etc). Para uma conversão bem-sucedida de malha para sólido, precisamos garantir que a malha esteja \"selada\" (não tenha buracos) ou não tenha outros erros.
 
--   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - free for personal use (automatic mesh repair available)
--   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Open Source
+O objetivo do FreeCAD não é ser um bom modelador de malhas; ele é projetado para ser um modelador de sólidos. O FreeCAD possui algumas capacidades para operações de malha na bancada de trabalho de malha (Mesh) e na bancada de trabalho do OpenSCAD (algumas operações exigem que o OpenSCAD esteja instalado e configurado nas preferências do FreeCAD).
 
-In this tutorial we will use the mesh workbench within FreeCAD to clean/repair/verify the mesh of our sample file.
+Alguns usuários preferem usar software de terceiros para limpar e reparar malhas, por exemplo:
 
-### Automatic testing and repairing 
+-   [Netfabb Basic](http://www.netfabb.com/downloadcenter.php?basic=1) (Windows/Linux/Mac) - gratuito para uso pessoal (reparo automático de malha disponível)
+-   [Meshlab](http://meshlab.sourceforge.net/) (Windows/Linux/Mac) - Código Aberto
 
--   Open FreeCAD and the sample FreeCAD file containing the mesh object
--   Switch to mesh workbench
--   Make sure that your mesh object is selected in the tree view
--   Choose **Meshes** → **Analyze** → **Evaluate & Repair mesh...** from the top menu
--   Make sure the pull down menu on the top right corner displays the name of your mesh object
--   With the last point in the list reading \"All above tests together\" click on **Analyze**
--   The texts beside the tick boxes will change to reflect results of the different tests
--   If errors had been detected the corresponding check-boxes will be ticked and you will be able to select **Repair**
--   Choose **Close** to close the menu
+Neste tutorial, usaremos a bancada de trabalho de malha dentro do FreeCAD para limpar/reparar/verificar a malha do nosso arquivo de exemplo.
 
-### Harmonizing normals 
+### Teste e Reparo Automáticos 
 
-Harmonizing normals of a mesh object can be done by
+-   Abra o FreeCAD e o arquivo FreeCAD de exemplo que contém o objeto de malha
+-   Mude para a bancada de trabalho Mesh
+-   Certifique-se de que seu objeto de malha esteja selecionado na visualização de árvore
+-   Escolha **Malhas** → **Analisar** → **Analisar e consertar malha...** no menu superior
+-   Certifique-se de que o menu suspenso no canto superior direito exiba o nome do seu objeto de malha
+-   Com o último ponto na lista lendo \"Todos os testes acima juntos\", clique em **Analisar**
+-   Os textos ao lado das caixas de seleção mudarão para refletir os resultados dos diferentes testes
+-   Se erros tiverem sido detectados, as caixas de seleção correspondentes serão marcadas e você poderá selecionar **Reparar**
+-   Escolha **Fechar** para fechar o menu
 
--   Selecting your mesh object in the tree view
--   Choose **Meshes** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Harmonize normals** from the top menu.
+### Harmonização de Normais 
 
-Tip: By choosing the mesh object in the tree view, going to the view tab in the property view and changing \"Lighting\" from \"Two Side\" to \"One Side\" you can identify triangles with flipped normals. If the normals point into the mesh the triangle will be shown in black.
+A harmonização de normais de um objeto de malha pode ser feita da seguinte forma:
 
-### Closing holes 
+-   Selecione o objeto de malha na visualização em árvore.
+-   Escolha **Malhas** → **<img src="images/Mesh_HarmonizeNormals.svg" width=32px> Harmonizar normais** no menu superior.
 
-You can also manually close holes in your mesh object by
+Dica: Ao selecionar o objeto de malha na visualização em árvore, vá para a guia de visualização na visualização de propriedades e altere \"Iluminação\" de \"Dois Lados\" para \"Um Lado\" para identificar triângulos com normais invertidas. Se as normais apontarem para dentro da malha, o triângulo será exibido em preto.
 
--   Selecting your mesh object in the tree view
--   Choose **Meshes** → **Fill holes...** from the top menu
--   Specify maximum number of edges to be filled (3 is default)
--   Since STL and OBJ are meshes consisting of triangles the default number of edges should be sufficient
+### Fechando Buracos 
 
-Another method of manually closing holes in your mesh object would be
+Você também pode fechar manualmente buracos em seu objeto de malha da seguinte maneira:
 
--   Selecting your mesh object in the tree view
--   Choose **Meshes** → **<img src="images/Mesh_FillInteractiveHole.svg" width=32px> Close hole** from the top menu
--   Select one of the edges of the hole in the mesh object in the 3D view
--   Right-Click in 3D view and choose **Leave hole-filling mode** to exit the command
+-   Selecionando seu objeto de malha na visualização de árvore
+-   Escolha **Malhas** → **Preencher buracos...** no menu superior
+-   Especifique o número máximo de arestas a serem preenchidas (3 é o padrão)
+-   Como STL e OBJ são malhas compostas por triângulos, o número padrão de arestas deve ser suficiente
 
-## Conversion mesh to solid 
+Outro método para fechar manualmente buracos em seu objeto de malha seria:
 
--   Switch to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)
--   Make sure your mesh object is selected in the tree view, otherwise select it
--   Choose **Part** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Create shape from mesh ...** from top menu
--   Specify tolerance for sewing shape (0,1 is default)
--   A new object will be created in the tree view (with blue shape icon, instead of green mesh icon)
--   Select the newly created object in the tree view
--   Choose **Part** → **Create a copy** → **<img src="images/Part_RefineShape.svg" width=32px> Refine shape** from the top menu
--   A new object will be created in the tree view and the previous one will be made invisible
--   Select the newly created object in the tree view
--   Choose **Part** → **Convert to solid** from the top menu
--   A new object will be created in the tree view, bearing \"(Solid)\" in its name, to indicate it is a solid
+-   Selecionando seu objeto de malha na visualização de árvore
+-   Escolha **Malhas** → **<img src="images/Mesh_FillInteractiveHole.svg" width=32px> Fechar furo** no menu superior
+-   Selecione uma das arestas do buraco no objeto de malha na visualização 3D
+-   Clique com o botão direito na visualização 3D e escolha **Sair do modo de preenchimento de buraco** para sair do comando
 
-Since the created solid has no history and no editable features (like a simple copy in FreeCAD) you could delete all previous objects from the tree view. This would keep your file size small \...
+## Conversão de Malha para Sólido 
+
+-   Mude para a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Bancada de Trabalho Part](Part_Workbench/pt-br.md)
+-   Certifique-se de que seu objeto de malha esteja selecionado na visualização de árvore; caso contrário, selecione-o
+-   Escolha **Part** → **<img src="images/Part_ShapeFromMesh.svg" width=32px> Criar uma forma a partir de uma malha...** no menu superior
+-   Especifique a tolerância para a costura da forma (0,1 é o padrão)
+-   Um novo objeto será criado na visualização de árvore (com um ícone de forma azul, em vez de um ícone de malha verde)
+-   Selecione o objeto recém-criado na visualização de árvore
+-   Escolha **Part** → **Criar uma cópia** → **<img src="images/Part_RefineShape.svg" width=32px> Refinar forma** no menu superior
+-   Um novo objeto será criado na visualização de árvore e o anterior ficará invisível
+-   Selecione o objeto recém-criado na visualização de árvore
+-   Escolha **Part** → **Converter em sólido** no menu superior
+-   Um novo objeto será criado na visualização de árvore, com \"(Sólido)\" em seu nome, indicando que é um sólido
+
+Como o sólido criado não possui histórico nem recursos editáveis (como uma cópia simples no FreeCAD), você pode excluir todos os objetos anteriores na visualização de árvore. Isso manteria o tamanho do seu arquivo pequeno\...
 
 ## Links
 
--   [Export to STL or OBJ](Export_to_STL_or_OBJ.md)
--   [Import Export](Import_Export.md)
+-   [Exportar STL ou OBJ](Export_to_STL_or_OBJ/pt-br.md)
+-   [Importar Exportar](Import_Export/pt-br.md)
 
 
 

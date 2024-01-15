@@ -1,39 +1,46 @@
 ---
  GuiCommand:
    Name: FEM ConstraintForce
-   MenuLocation: Model , Mechanical Constraints , Constraint force
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_ConstraintPressure
+   Name/pl: MES Obciążenie siłą
+   MenuLocation:  Model , Warunki brzegowe i obciążenia mechaniczne , Obciążenie siłą
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_ConstraintPressure/pl
 ---
 
 # FEM ConstraintForce/pl
 
-## Description
 
-This command applies a force of given value \[N\] to selected target geometry.
 
-## Usage
+## Opis
 
-1.  There are several ways to invoke the command to apply a force to a face, line or point:
-    -   Click on **<img src="images/FEM_ConstraintForce.svg" width=16px> [FEM Constraint force](FEM_ConstraintForce.md)** button
-    -   Select the **Model → Mechanical Constraints → <img src="images/FEM_ConstraintForce.svg" width=16px> Constraint force** option from the menu.
+Przykłada siłę o określonej wartości \[N\] do wskazanej geometrii.
 
-2.  If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right-click and select **Hide item**) and show the original model.
 
-3.  Click on a *face*, *line* or *point* to which a force should be applied. The object will appear in the list of geometrical objects.
 
-4.  Fill in **Load [N]** with a force value in \[N\].
+## Użycie
 
-5.  
-    **Direction**: In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
-
-6.  Click **OK** to finish and create the **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
+1.  Jest kilka sposobów wywołania tej komendy:
+    -   Wciśnij przycisk **<img src="images/FEM_ConstraintForce.svg" width=16px> [Obciążenie siłą](FEM_ConstraintForce/pl.md)
+**
+    -   Wybierz opcję **Model → Warunki brzegowe i obciążenia mechaniczne → <img src="images/FEM_ConstraintForce.svg" width=16px> Obciążenie siłą** z menu.
+2.  Obiekt siatki zostanie automatycznie ukryty, pokazując geometrię modelu. Jeśli obiekt siatki jest nadal widoczny, wykonaj jeden z poniższych kroków aby go ukryćː
+    -   Wybierz obiekt siatki z [widoku drzewa](Tree_view/pl.md) i wciśnij klawisz **spacja**.
+    -   Kliknij prawym przyciskiem myszy na obiekcie siatki w [widoku drzewa](Tree_view/pl.md) i wybierz **Ukryj zaznaczone** z menu kontekstowego.
+3.  Okno dialogowe **Parametry cech analizy** w [panelu zadań](Task_panel/pl.md) również zostało otwarte.
+4.  Wciśnij przycisk **Dodaj** i wybierz jeden lub więcej obiektów typu *ściany*, *krawędzie* lub *wierzchołki* w [widoku 3D](3D_view/pl.md) aby przypisać do nich siłę. Wybrane obiektu pojawią się na liście.
+5.  Opcjonalnie, wciśnij przycisk **Usuń** i odznacz jeden lub więcej obiektów w [widoku 3D](3D_view/pl.md). Odznaczone obiektu zostaną usunięte z listy.
+6.  Opcjonalnie, edytuj wartość **Siła [N]**.
+7.  Opcjonalnie, wybierz ścianę lub krawędź i wciśnij przycisk **Kierunek** aby zmienić kierunek działania siły. Często pole to zostaje puste aby siła działała w kierunku normalnym.
+8.  Opcjonalnie, zaznacz pole **Odwróć kierunek** aby zmienić wektor siły.
+9.  Kliknij przycisk **OK** aby zakończyć.
 
 ![](images/FEM_ConstraintForce_example.JPG )
 
-## Notes
 
--   Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
+
+## Uwagi
+
+-   Zdefiniowana siła jest rozkładana równomiernie na wskazanych obiektach. Przykładowo, zdefiniowanie jednego obciążenia siłą o wartości 200 N przyłożonego do dwóch ścian o tej samej powierzchni sprawi, że każda ze ścian będzie obciążona siłą 100 N.
 
 
 

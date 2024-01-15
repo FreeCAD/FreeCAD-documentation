@@ -63,14 +63,14 @@ Obiekt LanternGear wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) 
 -    **zęby|Integer**: Domyślnie {{Value|15}}. Liczba zębów.
 
 
-{{Properties_Title|tolerancja}}
+{{Properties_Title|Tolerancja}}
 
 -    **head|Float**: Domyślnie {{Value|0}}.
 
 
-{{Properties_Title|wersja}}
+{{Properties_Title|Wersja}}
 
--    **wersja|String**:
+-    **Wersja|String**:
 
 
 

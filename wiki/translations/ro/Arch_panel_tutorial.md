@@ -24,12 +24,18 @@ Acesta este un cross-post(duplicat) al tutorialului [1](http://opensourceecology
 
 FreeCAD este un modelator 3D parametric. Modelarea parametrică vă permite să vă modificați designul, revenind în istoricul modelului dvs. și să schimbați parametrii săi. FreeCAD este un software open source (LGPL license) și foarte modular, permițând o extindere și o personalizare foarte avansate, mulțumită utilizării intensive a limbajului de script-programare Python.
 
+
+<div class="mw-translate-fuzzy">
+
 -   FreeCAD website: <http://www.freecadweb.org/>
 -   FreeCAD documentation wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page>
 -   FreeCAD workbenches: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept>
 -   FreeCAD forum: <http://forum.freecadweb.org/>
 -   Getting started with FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started>
 -   Architecture tutorial: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial>
+
+
+</div>
 
 
 
@@ -72,7 +78,13 @@ FreeCAD este o aplicație foarte tehnică, iar curba de învățare poate fi abr
 
 -   Deși FreeCAD poate importa și lucra cu obiecte tip plasă (mesh workbench), este proiectat în primul rând pentru a lucra cu un tip de obiect mai avansat, denumit "brep", utilizat de majoritatea atelierelor de lucru (Part, PartDesign, Draft, Sketcher, Arch). Când importați fișiere bazate pe fișiere (.dae, .orb, .stl \...), va trebui de obicei să transformați aceste obiecte în brep, înainte de a putea face ceva interesant cu ele. Formatele de fișier pe bază de solide (.step, .iges), atunci când sunt importate în FreeCAD, produc direct obiecte brep. Formatele 2D (.dxf, .svg) produc, de asemenea, conținut brep.
 
+
+<div class="mw-translate-fuzzy">
+
 -   FreeCAD are căi diferite, sau modalități, pentru a folosi butoanele mouse-ului. Aceste moduri pot fi setate în preferințe sau în modificările efectuate, făcând clic dreapta pe fundalul vizualizării 3D. Acestea sunt descrise pe <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. Cele mai potrivite moduri pentru lucrul în FreeCAD sunt CAD sau gesturi.
+
+
+</div>
 
 
 

@@ -12,7 +12,7 @@
 
 La commande **Évaluation** évalue et répare un objet maillé.
 
-![](images/Mesh_Evaluation_dialog.png ) 
+<img alt="" src=images/Mesh_Evaluation_dialog.png  style="width:300px;"> 
 *La boîte de dialogue Evaluer et réparer un maillage avec l'option Recherche de plis sur la surface activée*
 
 
@@ -27,24 +27,24 @@ La commande **Évaluation** évalue et répare un objet maillé.
 3.  La boîte de dialogue **Évaluer et réparer un maillage** s\'ouvre.
 4.  Appuyez sur le bouton **Paramètres...** pour modifier les paramètres suivants :
     -   
-        **Recherche de points libres "non-manifold"**
+        **Rechercher des points non-manifolds**
         
 
     -   
-        **Active la recherche de plis sur une surface**
+        **Activer la recherche de plis sur une surface**
         
 
     -   
-        **Considérer uniquement les faces de surface nulle comme dégénérées**
+        **Ne considérer que les faces de surface nulle comme dégénérées**
         
 5.  Si vous n\'avez pas encore sélectionné d\'objet maillé : sélectionnez-en un dans la liste déroulante en haut de la boîte de dialogue.
-6.  La boîte de dialogue contient 7 ou 8 options de test (si l\'option **Active la recherche de plis sur une surface** est activée).
+6.  La boîte de dialogue contient 7 ou 8 options de test (si l\'option **Plis sur la surface** est activée).
 7.  N\'utilisez pas les cases à cocher, elles seront vérifiées automatiquement si des erreurs sont trouvées.
 8.  Appuyez sur l\'un des boutons **Analyser** pour démarrer un test.
-9.  Ou utilisez le bouton **Analyser** de l\'option **Tous les tests ensembles** pour exécuter les 7 ou 8 tests ensemble.
+9.  Ou utilisez le bouton **Analyser** de l\'option **Tous les tests ci-dessus combinés** pour exécuter les 7 ou 8 tests ensemble.
 10. Les erreurs seront indiquées dans la boîte de dialogue, ainsi que, avec des marqueurs jaunes et rouges, dans la [vue 3D](3D_view/fr.md).
-11. Appuyez éventuellement sur un ou plusieurs boutons **Réparer** pour réparer les erreurs trouvées.
-12. Appuyez éventuellement sur le bouton **Réinitialiser** pour réinitialiser tous les résultats de test. Cela réinitialisera la boîte de dialogue et supprimera les marqueurs colorés de la vue 3D. Si vous souhaitez répéter le même test ou exécuter tous les tests ensemble, il n\'est pas nécessaire de le faire.
+11. Vous pouvez appuyer sur un ou plusieurs boutons **Réparer** pour réparer les erreurs trouvées.
+12. Vous pouvez appuyer sur le bouton **Réinitialiser** pour réinitialiser tous les résultats de test. Cela réinitialisera la boîte de dialogue et supprimera les marqueurs colorés de la vue 3D. Si vous souhaitez répéter le même test ou exécuter tous les tests ensemble, il n\'est pas nécessaire de le faire.
 13. Sélectionnez un autre objet de maillage dans la liste déroulante pour continuer les tests et la réparation.
 14. Appuyez sur le bouton **Fermer** pour fermer la boîte de dialogue et terminer la commande.
 15. Le bouton **Actualiser** ne fonctionne pas correctement pour le moment.

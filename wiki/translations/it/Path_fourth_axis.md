@@ -1,4 +1,7 @@
 # Path fourth axis/it
+}
+
+
 <div class="mw-translate-fuzzy">
 
 
@@ -10,11 +13,15 @@
 
 
 
+
+
 ## Descrizione
 
 Queste funzioni sperimentali consentono la fresatura di [facce](https://forum.freecadweb.org/viewtopic.php?f=15&t=36773) e [tasche](https://forum.freecadweb.org/viewtopic.php?f=15&t=35867)
 
 Queste funzioni sono in fase di sviluppo iniziale. Possono esistere dei bug. Grazie per il vostro feedback e test.
+
+
 
 ## Installazione
 
@@ -30,11 +37,15 @@ Place them in your FreeCAD/Mod/Path/PathScripts directory, \*after\* renaming yo
 
 Use at your own risk.
 
+
+
 ## Limitazioni
 
 Current 4th-axis capable operations do not handle complex/compound rotations: those involving X and Y simultaneously.
 
 There is currently no GUI integration of 4th-axis rotational settings in the release branch. All related settings are in the Data tab of the Properties View section for each individual operation supported.
+
+
 
 ## Utilizzo
 
@@ -59,6 +70,8 @@ There is currently no GUI integration of 4th-axis rotational settings in the rel
 -   Open the \'Base Geometry\' tab. Select one face (preferred at the moment) and click the \'Add\' button, placing that face in the Base Geometry list.
 -   Change the other operation settings as desired.
 -   Click OK to save and apply the changes.
+
+
 
 ## Risoluzione dei problemi 
 

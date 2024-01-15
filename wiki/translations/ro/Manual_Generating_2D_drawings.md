@@ -1,5 +1,5 @@
 # Manual:Generating 2D drawings/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 
 <div class="mw-translate-fuzzy">

@@ -13,6 +13,8 @@
 
 
 
+
+
 ## Описание
 
 Since v0.17 it is easy to add macros by using the [Addon Manager](Std_AddonMgr.md). A regular user doesn\'t need to do more than use this tool. Keep reading for more information regarding installation of [macros](macros.md).
@@ -53,12 +55,14 @@ Besides the tools in the toolbar, the following functions are also available in 
 -   [Step into](Std_MacroStepInto.md)
 -   [Toggle breakpoint](Std_ToggleBreakpoint.md)
 
+
+
 ## Папка хранения макросов 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
-Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → General → Macro → Macro recording settings**.
+Macros are created in a specific folder under the user\'s FreeCAD directory. This directory can be configured in the [Execute macro dialog](Std_DlgMacroExecute.md), or in the [Preferences Editor](Preferences_Editor.md), through the menu **Edit → Preferences → Python → Macro → Macro recording settings**.
 
 Downloaded macros should also be placed in this directory.
 
@@ -139,10 +143,14 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 </div>
 
+
+
 ## Установка макросов 
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Автоматический способ 
 
@@ -166,6 +174,8 @@ The recommended way to install addons, that is, [external workbenches](external_
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
+
+
 
 ### Ручной способ №1. Копирование кода в редактор макросов 
 
@@ -258,6 +268,8 @@ Create a new document with **File → <img src="images/Std_New.svg" width=16px> 
 
 <div class="toccolours mw-collapsible mw-collapsed">
 
+
+
 ### Ручной способ №2. Добавить фаил с макросом из сжатого .zip архива 
 
 Some macros are too big that it\'s inconvenient to copy and paste them into the macro editor, or they cannot be hosted in the wiki. In this case, the code may be hosted somewhere else, in a Github repository, or in the [FreeCAD forum](https://forum.freecadweb.org/). The code may also be compressed into a `.zip` file, tarball `.tar.xz`, or other type of archive if it contains several files. If the code is distributed in this way, the archive should be extracted and the files placed in the macros directory.
@@ -328,6 +340,8 @@ unzip your_file.zip -d your_directory
 
 </div>
 
+
+
 ## Выполнение макроса в командной строке 
 
 
@@ -358,6 +372,8 @@ todo
 
 </div>
 
+
+
 ## Ошибки в макросах 
 
 
@@ -379,6 +395,8 @@ A typical indentation error looks like this:
 <unknown exception traceback><type 'exceptions.IndentationError'>: ('expected an indented block', ('C:/Users/d/AppData/Roaming/FreeCAD/Macro_Apothem_Based_Prism_GUI.FCMacro', 21, 3, 'def priSm(self):\n'))
 ```
 
+
+
 #### Пример №1 
 
 If the code lacks any indentation, the code won\'t work. Class (`class`) and function definitions (`def()`), as well as control structures (`if`, `while`, `for`) should be followed by a block of indented code.
@@ -398,12 +416,16 @@ If the code is selected, all lines should be highlighted all the way to the left
 ![](images/Macro_Install_HowTo_11.png ) 
 *align=center|Python code highlighted, showing that all lines start at the left edge*
 
+
+
 #### Пример №2 
 
 If an additional space is introduced at the beginning of all lines, the Python interpreter will fail and complain about unnecessary indentation. In this case, all lines need the initial space removed.
 
 ![](images/Macro_Install_HowTo_12.png ) 
 *align=center|Python code with additional space on each line*
+
+
 
 #### Пример №3 
 
@@ -423,6 +445,8 @@ In Windows, [Notepad++](http://notepad-plus-plus.org/) can perform selection wit
 
 ![](images/Macro_Install_HowTo_16.png ) 
 *align=center|Python code with the correct indentation*
+
+
 
 #### Пример №4 
 
@@ -504,7 +528,7 @@ FreeCAD may need to be configured so the `print()` function of [Python](Python.m
 ![](images/Macro_Install_HowTo_35.png ) 
 *align=center|Going into the preferences editor*
 
-2\. Go to **General** section, and then **Output window → Python interpreter**.
+2\. Go to **Python** section, and then **Output window → Python interpreter**.
 
 ![](images/Macro_Install_HowTo_36.png ) 
 *align=center|Output window preferences*

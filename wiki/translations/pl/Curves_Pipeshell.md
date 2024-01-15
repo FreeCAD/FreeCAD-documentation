@@ -2,15 +2,19 @@
  GuiCommand:
    Name: Curves Pipeshell
    Name/pl: Krzywe: Powłoka rury
-   MenuLocation: Powierzchnia , Powłoka rury
+   MenuLocation: Surfaces , Pipeshell
    Workbenches: Curves_Workbench/pl
 ---
 
 # Curves Pipeshell/pl
 
+
+
 ## Opis
 
-Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Powłoka rury](Curves_Pipeshell/pl.md) tworzy obiekt wyciągnięcia po ścieżce powłoki rury. To narzędzie jest częścią [środowisk zewnętrznych](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
+Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> **Powłoka rury** tworzy obiekt wyciągnięcia po ścieżce powłoki rury. To narzędzie jest częścią [środowisk zewnętrznych](External_workbenches/pl.md) o nazwie [Krzywe](Curves_Workbench/pl.md).
+
+
 
 ## Użycie
 
@@ -18,11 +22,15 @@ Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Po
 2.  Wybierz krawędź, która buduje ścieżkę wyciągania w oknie [widoku 3D](3D_view/pl.md).
 3.  Wybierz jeden lub więcej wymaganych profili w [Widoku drzewa](Tree_view/pl.md).
 4.  Aby wywołać polecenie, wykonaj jedną z poniższych czynności:
-    -   Naciśnij przycisk <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Utwórz powłokę rury](Curves_Pipeshell/pl.md) na pasku narzędziowym
-    -   Użyj polecenia **Powierzchnie → Powłoka rury**
-5.  Zmień parametr `Powłoka rury` na odpowiednie wymagania.
+    -   Naciśnij przycisk <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> **Powłoka rury** na pasku narzędziowym
+    -   Użyj polecenia **Surfaces → Pipeshell**
+5.  Zmień parametr `Powłoka rury` na odpowiedni.
+
+
 
 ## Właściwości
+
+
 
 ### Dane
 
@@ -84,7 +92,11 @@ Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Po
 
 -   Dwa narzędzia **Powłoka rury** i **Profil** działają razem jako \"Zaawansowane\" narzędzie Wyciągania.
 
+
+
 ## Ograniczenia
+
+
 
 ## Tworzenie skryptów 
 

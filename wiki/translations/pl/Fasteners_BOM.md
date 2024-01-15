@@ -1,31 +1,38 @@
 ---
  GuiCommand:
    Name: Fasteners BOM
-   MenuLocation: Fasteners , Generate BOM
-   Workbenches: Fasteners_Workbench
-   SeeAlso: Spreadsheet_Workbench
+   Name/pl: Elementy Złączne: Utwórz zestawienie
+   MenuLocation: Elementy Złączne , Utwórz zestawienie
+   Workbenches: Fasteners_Workbench/pl
+   SeeAlso: Spreadsheet_Workbench/pl
 ---
 
 # Fasteners BOM/pl
 
-## Description
 
-The <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** command creates a spreadsheet with a bill of materials (BOM) for the fasteners in the document.
+
+## Opis
+
+Polecenie <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Utwórz zestawienie** tworzy arkusz kalkulacyjny z zestawieniem materiałów *(BOM - **B**ill **o**f **M**aterials)* dla elementów złącznych zawartych w dokumencie.
 
 <img alt="" src=images/Fasteners_BOM_Example.png  style="width:650px;"> 
-*A model with a Fasteners BOM spreadsheet*
+*Model z arkuszem kalkulacyjnym zestawienia elementów złącznych*
 
-## Usage
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_BOM.svg" width=16px> [Generate BOM](Fasteners_BOM.md)** button.
-    -   Select the **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** option from the menu.
-2.  A Fasteners BOM spreadsheet is created.
 
-## Notes
+## Użycie
 
--   A Fasteners BOM spreadsheet does not update if fasteners are changed, or if fasteners are added or removed. In such cases the command has to be used to create a new spreadsheet.
--   A Fasteners BOM spreadsheet can be exported with the [Spreadsheet Export](Spreadsheet_Export.md) command.
+1.  Istnieje kilka sposobów wywołania polecenia:
+    -   Naciśnij przycisk z menu **<img src="images/Fasteners_BOM.svg" width=16px> '''Utwórz zestawienie'''**.
+    -   Wybierz opcję **Elementy złączne → <img src="images/Fasteners_BOM.svg" width=16px> Utwórz zestawienie**.
+2.  Zostanie utworzony arkusz listy elementów złącznych.
+
+
+
+## Uwagi
+
+-   Arkusz kalkulacyjny listy elementów złącznych nie aktualizuje się, jeśli elementy złączne ulegną zmianie lub jeśli elementy złączne zostaną dodane lub usunięte. W takich przypadkach należy użyć polecenia, aby utworzyć nowy arkusz kalkulacyjny.
+-   Arkusz listy elementów złącznych można wyeksportować za pomocą polecenia [Eksportuj arkusz](Spreadsheet_Export/pl.md) środowiska Arkusz Kalkulacyjny.
 
 
 

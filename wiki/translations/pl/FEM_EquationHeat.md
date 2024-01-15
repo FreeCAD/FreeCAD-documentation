@@ -1,55 +1,68 @@
 ---
  GuiCommand:
    Name: FEM EquationHeat
-   MenuLocation: Solve , Heat equation
-   Workbenches: FEM_Workbench
+   Name/pl: Równanie ciepła
+   MenuLocation: Rozwiąż , Równanie ciepła
+   Workbenches: FEM_Workbench/pl
    Version: 0.17
-   SeeAlso: FEM_tutorial
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM EquationHeat/pl
 
-## Description
 
-This equation describes the heat transfer in rigid and fluid bodies.
 
-For info about the math of the equation, see the [Elmer models manual](http://www.elmerfem.org/blog/documentation/), section *Heat Equation*.
+## Opis
 
-## Usage
+To równanie opisuje przepływ ciepła w ciałach sztywnych i płynach.
 
-1.  After adding an Elmer solver as described [here](FEM_SolverElmer#Equations.md), select it in the [tree view](Tree_view.md).
-2.  Now either use the toolbar button <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> or the menu **Solve → Heat equation**.
-3.  Change the [equation\'s solver settings](#Solver_Settings.md) or the [general solver settings](FEM_SolverElmer_SolverSettings.md) if necessary.
+Informacje o teorii stojącej za tym równaniem można znaleźć w dokumencie [Elmer models manual](http://www.elmerfem.org/blog/documentation/), w sekcji **Heat Equation** *(równanie ciepła)*.
 
-## Solver Settings 
 
-For the general solver settings, see the [Elmer solver settings](FEM_SolverElmer_SolverSettings.md).
 
-The heat equation provides these special settings:
+## Użycie
 
--    **Bubbles**: There is also a residual-free-bubbles formulation of the stabilized finite-element method. It is more accurate and does not include any ad hoc terms. However, it may be computationally more expensive. If both **Note**: If during the *first solver iteration* you get this error: ERROR:: IterSolve: Numerical Error: System diverged over maximum tolerance.The **Bubbles** method failed. In this case set **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** to *true*.
+1.  Po dodaniu solvera Elmer zgodnie z [opisem na stronie solvera](FEM_SolverElmer/pl#Równania.md), zaznacz go w [widoku drzewa](Tree_view/pl.md).
+2.  Teraz wciśnij przycisk <img alt="" src=images/FEM_EquationHeat.svg  style="width:24px;"> lub wybierz opcję **Rozwiąż → Równanie ciepła** z menu.
+3.  Zmień [ustawienia solvera dla równania](#Ustawienia_solvera.md) lub [ogólne ustawienia solvera](FEM_SolverElmer_SolverSettings/pl.md) jeśli to konieczne.
 
-Equation:
 
--    **Convection**: The type of convection to be used in the heat equation.**Note**: If this is not set to *None*, **[Stabilize](FEM_SolverElmer_SolverSettings#Base.md)** must be to *true* otherwise the convection term will not be considered for the heat equation.
 
--    **Phase Change Model**: The model use for phase changes (ice to water etc.). The model *Spatial 1* is the apparent-heat-capacity method, *Spatial 2* and *Temporal* are effective-heat-capacity methods.For more info about the models, see [this paper](https://blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (section 2.5.2.2) (is in German). In the paper it was also shown that *Spatial 1* has numerical problems on larger temperature gradients and that *Spatial 2* was preferred for the phase change ice to water.
+## Ustawienia solvera 
 
-## Constraint Information 
+Dla ogólnych ustawień solvera zobacz [konfigurację solvera Elmer](FEM_SolverElmer_SolverSettings/pl.md).
 
-The elasticity equation takes the following constraints into account if they are set:
+Równanie ciepła posiada następujące specjalne ustawienia:
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Constraint body heat source](FEM_ConstraintBodyHeatSource.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Constraint initial temperature](FEM_ConstraintInitialTemperature.md)
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Constraint temperature](FEM_ConstraintTemperature.md)
+-    **Bubbles**: Istnieje również sformułowanie residual-free-bubbles stabilizowanej metody elementów skończonych. Jest bardziej dokładne i nie uwzględnia żadnych członów ad hoc. Jednak może być bardziej kosztowne obliczeniowo. Jeśli zarówno **Uwaga**: Jeśli podczas *first solver iteration* pojawi się ten błąd: ERROR:: IterSolve: Numerical Error: System diverged over maximum tolerance. to metoda **Bubbles** zawiodła. W takim wypadku należy ustawić **[Stabilize](FEM_SolverElmer_SolverSettings/pl#Baza.md)** na {{true/pl}}.
 
-### Note
+Równanie:
 
-Except for calculations in 2D, for all above constraints it is important that they act on a face or a body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
+-    **Convection**: Typ konwekcji do użycia w równaniu ciepła.**Uwaga**: Jeśli nie jest to ustawione na *None* to **[Stabilize](FEM_SolverElmer_SolverSettings/pl#Baza.md)** musi być ustawione na {{true/pl}}, inaczej człon konwekcyjny nie będzie uwzględniany w równaniu ciepła.
 
-## Result
+-    **Phase Change Model**: Model używany do przemiany fazowej (lód w wodę itd.). Model *Spatial 1* korzysta z metody apparent-heat-capacity, *Spatial 2* i *Temporal* są metodami effective-heat-capacity.Więcej informacji o tych modelach można uzyskać w [tym artykule](https://blog.rwth-aachen.de/gfd/files/2017/07/BT_2013_Schueller_elmer_icemole.pdf) (sekcja 2.5.2.2) (w języku niemieckim). Artykuł pokazuje też, że *Spatial 1* ma problemy numeryczne dla większych gradientów temperatur i że *Spatial 2* było preferowane do przemiany lodu w wodę.
 
-The result is the temperature in Kelvin.
+
+
+## Informacje o cechach analizy 
+
+Równanie ciepła uwzględnia następujące cechy analizy jeśli są zdefiniowane:
+
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Objętościowe źródło ciepła](FEM_ConstraintBodyHeatSource/pl.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Warunek początkowy temperatury](FEM_ConstraintInitialTemperature/pl.md)
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Warunek brzegowy temperatury](FEM_ConstraintTemperature/pl.md)
+
+
+
+### Uwaga
+
+-   Oprócz analiz 2D, dla wszystkich cech analizy istotne jest żeby były zdefiniowane dla ścian lub brył. Cechy w 3D przypisane do linii i wierzchołków nie są rozpoznawane przez solver Elmer.
+
+
+
+## Wynik
+
+Wynikiem jest temperatura w Kelvinach.
 
 
 

@@ -9,9 +9,9 @@ Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_
 
 ## Highlights
 
-   
-  <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;">   Horizontal 4 cylinder rotary valve steam engine, by \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602).
-   
++++
+| <img alt="" src=images/FreeCAD_highlight_1_0.19.jpg  style="width:512px;"> | Horizontal 4 cylinder rotary valve steam engine, by \"un1corn\", [Users Showcase](https://forum.freecadweb.org/viewtopic.php?f=24&t=38602). |
++++
 
 +++
 | <img alt="" src=images/FreeCAD_highlight_2_0.19.png  style="width:512px;"> | Preliminary design of MAORY, an adaptive optics (AO) module for the European Extremely Large Telescope (E-ELT); here it is mounted on the E-ELT Nasmyth platform.                                                                                                                                                                                                                                     |
@@ -172,10 +172,11 @@ Beside the introduction of [App Link](App_Link.md), the \"LinkMerge\" branch als
 
 ## Addon Manager 
 
-   
-  <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;">   The [Addon Manager](Std_AddonMgr.md) was upgraded; it is now able to display more complete information on all [external workbenches](external_workbenches.md) and [macros](macros_recipes.md), and show an icon for each of them. It also allows checking for updates on start, and using custom repositories. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394).
-  <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">         It will also show information on whether the addon is obsolete, already installed, or available for update. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).
-   
++++
+| <img alt="" src=images/Addon_Manager_update_0.19.png  style="width:384px;"> | The [Addon Manager](Std_AddonMgr.md) was upgraded; it is now able to display more complete information on all [external workbenches](external_workbenches.md) and [macros](macros_recipes.md), and show an icon for each of them. It also allows checking for updates on start, and using custom repositories. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394). |
++++
+| <img alt="" src=images/addon_manager_ui_tweak.png  style="width:384px;">       | It will also show information on whether the addon is obsolete, already installed, or available for update. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=37394&p=340109#p340109), [pull request #2605](https://github.com/FreeCAD/FreeCAD/pull/2605).                                                                                                                                       |
++++
 
 ## Arch Workbench 
 
@@ -438,9 +439,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 
 ## Path Workbench 
 
-   
-  <img alt="" src=images/CoolantModes.png  style="width:384px;">   Added coolant modes for coolant management. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=38852&start=10#p329868), [pull request #2463](https://github.com/FreeCAD/FreeCAD/pull/2463).
-   
++++
+| <img alt="" src=images/CoolantModes.png  style="width:384px;"> | Added coolant modes for coolant management. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=38852&start=10#p329868), [pull request #2463](https://github.com/FreeCAD/FreeCAD/pull/2463). |
++++
 
 -   New Tool Management system (Toolbits) [Wiki Page](https://wiki.freecadweb.org/Path_Tools), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=54521)
 
@@ -477,9 +478,9 @@ The developers of [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md), and [B
 
 -   New operation: **Slot**. Allows for creation of a horizontal slotting operation based on two custom points; the selection of one or more faces or edges; or the selection of two vertices. [forum discussion](https://forum.freecadweb.org/viewtopic.php?style=3&f=15&t=47693), [initial pull request #3624](https://github.com/FreeCAD/FreeCAD/pull/3624).
 
-    
-  ![V-Carve example](images/Vcarve.png )   New operation: **V-Carve** Allows for center-line engraving with V-bit.   [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=36135), [initial pull request #3879](https://github.com/FreeCAD/FreeCAD/pull/3879).
-    
+++++
+| ![V-Carve example](images/Vcarve.png ) | New operation: **V-Carve** Allows for center-line engraving with V-bit. | [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=36135), [initial pull request #3879](https://github.com/FreeCAD/FreeCAD/pull/3879). |
+++++
 
 -   General:
     -   Added cycle time calculations to operations and total cycle time to the job; [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=15&t=26864), [pull request #3378](https://github.com/FreeCAD/FreeCAD/pull/3378).
@@ -544,9 +545,9 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 
 ## Start Workbench 
 
-   
-  <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;">   Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316).
-   
++++
+| <img alt="" src=images/FreeCAD_Start_WB_thumbs.png  style="width:384px;"> | Re-added example files to the Start page with saved thumbnails in their icons. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=34586&start=110), [pull request #2316](https://github.com/FreeCAD/FreeCAD/pull/2316). |
++++
 
 ## Surface Workbench 
 
@@ -637,9 +638,9 @@ Data entered into a cell is not tested anymore as an expression by default. Now 
 
 See [Macros recipes](Macros_recipes.md) for many more macros.
 
-   
-  <img alt="" src=images/Structural_frame.png  style="width:384px;">   Automatic light-gauge steel frame creator and panelizer. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) repository (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) example.
-   
++++
+| <img alt="" src=images/Structural_frame.png  style="width:384px;"> | Automatic light-gauge steel frame creator and panelizer. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=26092); [FreeCAD-Steel_Frame](https://gitlab.com/Oriond/FreeCAD-Steel_Frame) repository (GPL 3), [video](https://peertube.social/videos/watch/cbd2efd0-f763-41ac-9e38-2e0034c56703) example. |
++++
 
 ## Additional modules 
 
@@ -690,21 +691,21 @@ these are the new workbenches created in this development cycle, or older workbe
 
 ### ArchTextures
 
-   
-  <img alt="" src=images/ArchTextures_0.19.png  style="width:384px;">   The ArchTextures Workbench was developed to provide basic texture support to [Arch Workbench](Arch_Workbench.md) elements like walls and roofs, in order to quickly visualize a building. It is not intended to produce photo-realistic renderings, just simple texturing of materials like wood, brick, and concrete. It also provides lights (directional, point, and spot), which makes it more feature complete to set up a scene. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=38222) (help requests), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=38223) (development), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=31598) (only announcements), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=39031) (announcement of lights); [FreeCAD-ArchTextures](https://github.com/furti/FreeCAD-ArchTextures) repository (MIT).
-   
++++
+| <img alt="" src=images/ArchTextures_0.19.png  style="width:384px;"> | The ArchTextures Workbench was developed to provide basic texture support to [Arch Workbench](Arch_Workbench.md) elements like walls and roofs, in order to quickly visualize a building. It is not intended to produce photo-realistic renderings, just simple texturing of materials like wood, brick, and concrete. It also provides lights (directional, point, and spot), which makes it more feature complete to set up a scene. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=38222) (help requests), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=10&t=38223) (development), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=31598) (only announcements), [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=9&t=39031) (announcement of lights); [FreeCAD-ArchTextures](https://github.com/furti/FreeCAD-ArchTextures) repository (MIT). |
++++
 
 ### BOLTSFC
 
-   
-  <img alt="" src=images/BOLTSFC_0.19.png  style="width:384px;">   BOLTS is an \"open library of technical specifications\"; it is meant to provide free, standardized parts defined parametrically that can be used in different CAD systems like OpenSCAD and FreeCAD. The BOLTS library was launched in 2013 but received little maintenance since 2016. Now, with a new maintainer and repository, the project has revived with the BOLTSFC workbench that provides an interface to insert the different parametric objects. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549); [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC) repository, [BOLTS](https://github.com/boltsparts/BOLTS) main repository (GPL 3).
-   
++++
+| <img alt="" src=images/BOLTSFC_0.19.png  style="width:384px;"> | BOLTS is an \"open library of technical specifications\"; it is meant to provide free, standardized parts defined parametrically that can be used in different CAD systems like OpenSCAD and FreeCAD. The BOLTS library was launched in 2013 but received little maintenance since 2016. Now, with a new maintainer and repository, the project has revived with the BOLTSFC workbench that provides an interface to insert the different parametric objects. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=4549); [Homepage](https://www.bolts-library.org/en/index.html), [BOLTSFC](https://github.com/boltsparts/BOLTSFC) repository, [BOLTS](https://github.com/boltsparts/BOLTS) main repository (GPL 3). |
++++
 
 ### CurvedShapes Workbench 
 
-   
-  <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;">   The CurvedShapes workbench has tools for designing 3D surfaces starting from a skeleton of multiple curves in the XY, XZ, or YZ planes. It was created particularly to simplify the modelling of the wings of aircrafts. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989); [CurvedShapesWorkbench](https://github.com/chbergmann/CurvedShapesWorkbench) repository (LGPL 3).
-   
++++
+| <img alt="" src=images/Curved_shapes_wb.png  style="width:384px;"> | The CurvedShapes workbench has tools for designing 3D surfaces starting from a skeleton of multiple curves in the XY, XZ, or YZ planes. It was created particularly to simplify the modelling of the wings of aircrafts. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=36989); [CurvedShapesWorkbench](https://github.com/chbergmann/CurvedShapesWorkbench) repository (LGPL 3). |
++++
 
 ### Dodo (formerly Flamingo) 
 
@@ -716,9 +717,9 @@ these are the new workbenches created in this development cycle, or older workbe
 
 ### Fasteners
 
-   
-  <img alt="" src=images/Fastener_workbench.png  style="width:384px;">   The [Fasteners Workbench](Fasteners_Workbench.md) to generate standard ISO screws, bolts, washers, and other fasteners, was updated to work with Python 3 and Qt5. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=11429); [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) repository (GPL 2), [additional details](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/).
-   
++++
+| <img alt="" src=images/Fastener_workbench.png  style="width:384px;"> | The [Fasteners Workbench](Fasteners_Workbench.md) to generate standard ISO screws, bolts, washers, and other fasteners, was updated to work with Python 3 and Qt5. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=11429); [FreeCAD_FasternersWB](https://github.com/shaise/FreeCAD_FastenersWB) repository (GPL 2), [additional details](http://theseger.com/projects/2015/07/generating-holes-for-countersunk-screws-in-freecad/). |
++++
 
 ### MeshRemodel Workbench 
 

@@ -31,4 +31,4 @@ Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D-Ansicht.
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/de
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Open/de

@@ -1,6 +1,7 @@
 ---
  GuiCommand:
-   Name: Draft Rectangle   Name/de: Draft Rectangle
+   Name: Draft Rectangle
+   Name/de: Draft Rechteck
    MenuLocation: Entwurf , Rechteck
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **R** **E**
@@ -10,40 +11,24 @@
 # Draft Rectangle/de
 
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
 
 ## Beschreibung
 
-Das Rechteckwerkzeug erstellt ein Rechteck, indem es zwei Punkte auswählt. Es wird das [Entwurf Linienstil](Draft_Linestyle/de.md) verwendet, das auf dem [Draft Tray](Draft_Tray/de.md) eingestellt ist.
-
-
-</div>
+Der Befehl <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> **Draft Rechteck** erstellt ein Rechteck aus zwei Punkten auf der aktuellen [Arbeitsebene](Draft_SelectPlane/de.md).
 
 Du kannst optional eine 45-Grad-Fase oder eine runde Verrundung zu jeder Ecke des Rechtecks hinzufügen, und du kannst das Rechteck in eine Reihe von gleich großen Reihen und Spalten unterteilen.
 
-<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Draft_Rectangle_example.jpg  style="width:400px;"> 
+*Ein durch zwei Punkte festgelegtes Rechteck*
 
 
 
-*Rechteck definiert durch die beiden Eckpunkte*
-
-
-</div>
-
-## Usage
+## Anwendung
 
 See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Rectangle.svg" width=16px> [Draft Rectangle](Draft_Rectangle.md)** button.
+    -   Press the **<img src="images/Draft_Rectangle.svg" width=16px> [Rectangle](Draft_Rectangle.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Rectangle.svg" width=16px> Rectangle** option from the menu.
     -   Use the keyboard shortcut: **R** then **E**.
 2.  The **Rectangle** task panel opens. See [Options](#Options.md) for more information.
@@ -52,13 +37,13 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created rectangle will have **Make Face** set to `True` and will have a filled face.
--   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating rectangles.
+-   Press **F** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created rectangle will have **Make Face** set to `True` and will have a filled face.
+-   Press **N** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating rectangles.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -70,9 +55,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
+-   If the **Edit → Preferences... → Draft → General → Create Part primitives if possible** option is checked, the command will create a [Part Plane](Part_Plane.md) instead of a Draft Rectangle.
 
 ## Properties
 

@@ -2,14 +2,13 @@
 {{Macro
 |Name=Macro Pyramid
 |Icon=Pyramidicon.svg
-|Description=This macro creates a parametric pyramid. The radiuses and the height will be set at creation time similar to Part Cone.
-All parameters can be adjusted. It is possible to create pyramids with a perfect tip.
+|Description=This macro creates a parametric pyramid. The radiuses and the height will be set at creation time similar to Part Cone. All parameters can be adjusted. It is possible to create pyramids with a perfect tip.
 |Author=Eddy Verlinden, Genk, Belgium
 |Version=01.01
 |Date=2019-11-10
 |FCVersion=All
-|Download=[https://raw.githubusercontent.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons/master/icons/pyramid.svg Icon ToolBar]
-|SeeAlso=[Macro Polyhedrons](Macro_Polyhedrons.md) <img src="images/Dodecahedron.svg" width=24px>
+|Download=[https://wiki.freecad.org/images/4/46/Pyramidicon.svg ToolBar Icon]
+|SeeAlso=[Macro Polyhedrons](Macro_Polyhedrons.md)
 }}
 
 ## Description
@@ -23,27 +22,27 @@ This macro creates a parametric pyramid.
 Note:
 
 If you\'re also interested in polyhedrons, then you can use Macro Polyhedrons.
-You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github link) that contains the same function.
+You can also make use of the the external workbench [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) that contains the same function.
 
 ![](images/Polyhedrons.png )
 
 
 
-*Example creation with the external workbench [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) that contains the same function.*
+*Example creation with the external workbench [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] that contains the same function.*
 
 ## Usage
 
--   Install: use Tools / Addon manager / Macro\'s <img alt="" src=images/AddonManager.svg  style="width:24px;"> to install the macro.
+-   Install: use <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the macro.
 -   Once installed, open Menu → Macro → Macros. Click on pyramid.py and then click on button {{button|execute}}.
 -   A knotted pyramid will appear, similar to Part Cone
 -   Change the parameters just like with Part Cone.
---   More info at [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   More info at [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons).
 
 ## Script
 
- Icon ToolBar <img alt="" src=images/Pyramidicon.svg  style="width:64px;">
+Icon ToolBar <img alt="" src=images/Pyramidicon.svg  style="width:64px;">
 
-**pyramid.py**
+ **pyramid.py**
 
 
 {{MacroCode|code=

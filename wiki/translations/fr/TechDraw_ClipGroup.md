@@ -2,19 +2,16 @@
  GuiCommand:
    Name: TechDraw ClipGroup
    Name/fr: TechDraw Fenêtre de rognage
-   MenuLocation: TechDraw , Insérer une fenêtre de rognage
+   MenuLocation: TechDraw , Vues de rognage , Insérer une fenêtre de rognage
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_ClipGroupAdd/fr, TechDraw_ClipGroupRemove/fr
 ---
 
 # TechDraw ClipGroup/fr
 
-
-</div>
-
 ## Description
 
-Cet outil **TechDraw Fenêtre de rognage**crée une fenêtre de rognage qui peut contenir des vues.
+Cet outil **TechDraw Fenêtre de rognage** crée une fenêtre de rognage qui peut contenir des vues.
 
 ![](images/TechDraw_Clipview.png ) 
 *Fenêtre de rognage de différentes vues existantes*
@@ -23,27 +20,27 @@ Cet outil **TechDraw Fenêtre de rognage**crée une fenêtre de rognage qui peut
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Appuyez sur le bouton **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Insérer une fenêtre de rognage](TechDraw_ClipGroup/fr.md)** pour créer une nouvelle fenêtre de rognage.
-
-
-</div>
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ClipGroup.svg" width=16px> [Insérer une fenêtre de rognage](TechDraw_ClipGroup/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues de rognage → <img src="images/TechDraw_ClipGroup.svg" width=16px> Insérer une fenêtre de rognage** du menu.
+3.  Si le document comporte plusieurs pages de dessin et que vous n\'avez pas encore activé de page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
 
 
 
 ## Propriétés
 
--    {{PropertyData/fr|Width}}: La largeur de la fenêtre de rognage en unités
+-    **Width**: largeur de la fenêtre de rognage en unités
 
--    {{PropertyData/fr|Height}}: La hauteur de la fenêtre de rognage en unités
+-    **Height**: hauteur de la fenêtre de rognage en unités
 
--    {{PropertyData/fr|ShowFrame}}: Si vrai, affiche un cadre autour de la fenêtre de rognage
+-    **ShowFrame**: si vrai, affiche un cadre autour de la fenêtre de rognage
 
--    {{PropertyData/fr|ShowLabels}}: Si vrai, affiche les étiquettes des vues dans la fenêtre de rognage. **Remarque:** retiré dans la version 0.19.
+-    **ShowLabels**: si vrai, affiche les étiquettes des vues dans la fenêtre de rognage. **Remarque :** retiré dans la version 0.19.
 
--    {{PropertyData/fr|Views}}: Les vues contenues dans la fenêtre de rognage
+-    **Views**: les vues contenues dans la fenêtre de rognage
 
 
 

@@ -4,7 +4,6 @@
    MenuLocation: Solve , Solver CalculiX 
    Workbenches: FEM_Workbench
    Shortcut: **S** **C**
-   SeeAlso: FEM_CalculiX, FEM_tutorial
 ---
 
 # FEM SolverCalculiX/en

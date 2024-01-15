@@ -8,14 +8,18 @@
 
 # Mesh BuildRegularSolid/ru
 
+
+
 ## Описание
 
 The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh object.
 
+
+
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md)** button.
+    -   Press the **<img src="images/Mesh_BuildRegularSolid.svg" width=16px> [Regular solid...](Mesh_BuildRegularSolid.md)** button.
     -   Select the **Meshes → <img src="images/Mesh_BuildRegularSolid.svg" width=16px> Regular solid...** option from the menu.
 2.  The **Regular Solid** dialog box opens.
 3.  First select a mesh object type from the dropdown list:
@@ -54,15 +58,23 @@ The **Mesh BuildRegularSolid** command creates a regular parametric solid mesh o
 7.  Optionally create more mesh objects.
 8.  Press the {{button|Close}} button to close the dialog box and finish the command.
 
+
+
 ## Примечания
 
 -   Mesh objects created with this command are parametric. Whenever they are recomputed, for example after changing one of their parameters, their mesh is reconstructed. This means that manipulating them with commands such as [Mesh RemeshGmsh](Mesh_RemeshGmsh.md), [Mesh Scale](Mesh_Scale.md) etc. usually does not make sense.
+
+
 
 ## Свойства
 
 Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.md) properties. In addition each mesh object type has a number of properties to control its parametric behavior:
 
+
+
 ### <img alt="" src=images/Mesh_Cube.svg  style="width:32px;"> Куб 
+
+
 
 #### Данные
 
@@ -75,7 +87,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Width|FloatConstraint**: the width of the cube.
 
+
+
 ### <img alt="" src=images/Mesh_Cylinder.svg  style="width:32px;"> Цилиндр 
+
+
 
 #### Данные 
 
@@ -92,7 +108,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
+
+
 ### <img alt="" src=images/Mesh_Cone.svg  style="width:32px;"> Конус 
+
+
 
 #### Данные 
 
@@ -111,7 +131,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along the curved surface.
 
+
+
 ### <img alt="" src=images/Mesh_Sphere.svg  style="width:32px;"> Сфера 
+
+
 
 #### Данные 
 
@@ -122,7 +146,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
+
+
 ### <img alt="" src=images/Mesh_Ellipsoid.svg  style="width:32px;"> Эллипсоид 
+
+
 
 #### Данные 
 
@@ -135,7 +163,11 @@ Mesh objects created with this command inherit all [Mesh Feature](Mesh_Feature.m
 
 -    **Sampling|IntegerConstraint**: the number of faces along both directions of the curved surface.
 
+
+
 ### <img alt="" src=images/Mesh_Torus.svg  style="width:32px;"> Тор 
+
+
 
 #### Данные 
 

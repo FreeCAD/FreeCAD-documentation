@@ -66,6 +66,7 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 6\. L\'onglet Sortie définit le chemin du fichier de sortie, le nom, l\'extension et le postprocesseur. Pour les utilisateurs avancés, les arguments du post-processeur peuvent être personnalisés (passez la souris pour afficher les info-bulles des arguments courants).
 
 :   ![](images/Path-JobOutput.png )
+
 :   
     
 *Ci-dessus: la boîte de dialogue Modifier de [Path Tâche](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
@@ -76,6 +77,7 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 ### Outils
 
 :   ![](images/Path-JobTools.png )
+
 :   
     
 *Ci-dessus: la boîte de dialogue Modifier de [Path Tâche](Path_Job/fr.md) avec l'onglet Outils sélectionné*
@@ -84,6 +86,7 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 7\. Modifier l\'outil Par défaut en le sélectionnant et en cliquant sur le bouton **Edit**. Cela ouvre la fenêtre d\'édition du contrôleur d\'outil.
 
 :   ![](images/Path-ToolConfig.gif )
+
 :   
     
 *Ci-dessus: la boîte de dialogue d'édition de [Path Tâche](Path_Job/fr.md) du sous-panneau du contrôleur d'outil*
@@ -94,6 +97,7 @@ Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbe
 9\. Sélectionnez le sous-panneau Tool du contrôleur d\'outil. Définissez le diamètre (et si vous souhaitez utiliser l\'outil <img alt="" src=images/Path_Simulator.svg  style="width:24px;"> [Path Simulateur d\'usinage](Path_Simulator/fr.md) plus tard: ajoutez un angle de tranchant et une hauteur de tranchant).
 
 :   ![](images/Path-ToolAdd.gif )
+
 :   
     
 *Ci-dessus: La boîte de dialogue de [Path Tâche](Path_Job/fr.md) du sous-panneau 'Tool' du contrôleur d'outil*
@@ -124,6 +128,7 @@ Cette arborescence apparaît après la configuration du travail une fois celui-c
 13\. Sélectionner le bas de la poche puis le bouton <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Poche](Path_Pocket_Shape/fr.md) ouvre la fenêtre Forme de la poche. Les valeurs par défaut de la géométrie de base, des profondeurs et des hauteurs sont utilisées, le sous-panneau Opération est sélectionné et le pourcentage de dépassement est défini sur 50.
 
 :   ![](images/Path-PocketOperation.gif )
+
 :   
     
 *Ci-dessus: la boîte de dialogue Forme de poche avec le sous-panneau Operation sélectionné*
@@ -134,6 +139,7 @@ Cette arborescence apparaît après la configuration du travail une fois celui-c
 Le résultat est un modèle avec deux parcours d\'usinage:
 
 :   ![](images/Path-WalkThroughResult.gif )
+
 :   
     
 *Ci-dessus: le résultat avec un modèle à deux trajectoires*
@@ -148,6 +154,7 @@ Il existe deux manières de vérifier les parcours d\'usinage créés. Le G-code
 Pour inspecter le G-code, utilisez l\'outil <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Path Inspecter des commandes](Path_Inspect/fr.md). La sélection des lignes de G-code correspondantes dans la fenêtre Inspection du G-code met en surbrillance des segments de parcours d\'usinage individuels.
 
 :   ![](images/Path-InspectWindow.gif )
+
 :   
     
 *Ci-dessus: L'outil [Path Inspecter des commandes](Path_Inspect/fr.md) ouvre la boîte de dialogue Inspection G-Code*
@@ -158,6 +165,7 @@ Démarrer la simulation en utilisant l\'outil <img alt="" src=images/Path_Simula
 Réglez la vitesse et la précision et lancez la simulation avec le bouton de lecture <img alt="" src=images/Path_BPlay.svg  style="width:24px;">.
 
 :   ![](images/Path-Simulation.gif )
+
 :   
     
 *Ci-dessus: [Simulateur d'usinage](Path_Simulator/fr.md) en cours*
@@ -175,6 +183,7 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
 -   Sélectionnez l\'outil <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Path Post-traitement](Path_Post/fr.md) pour post-traiter le fichier. Cela ouvre une fenêtre de G-code permettant d\'inspecter le fichier de sortie final avant son enregistrement.
 
 :   ![](images/Path-PostOutput.gif )
+
 :   
     
 *Ci-dessus: la fenêtre G-Code permettant l'inspection du fichier de sortie final*

@@ -44,111 +44,311 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 ### Materiali
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;">[Materiale FEM per solidi](FEM_MaterialSolid/it.md): Consente di selezionare un materiale dal database.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_MaterialFluid.svg  style="width:32px;"> [Materiale FEM per fluidi](FEM_MaterialFluid/it.md): Consente di selezionare un materiale dal database.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialMechanicalNonlinear.svg  style="width:32px;"> [Materiale non lineare](FEM_MaterialMechanicalNonlinear/it.md): Consente di selezionare un materiale dal database.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_MaterialReinforced.svg  style="width:32px;"> [ Materiale rinforzato (calcestruzzo)](FEM_MaterialReinforced/it.md): Consente di selezionare dal database i materiali rinforzati costituiti da una matrice e da un rinforzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_MaterialEditor.svg  style="width:32px;"> [Editor dei materiali](FEM_MaterialEditor/it.md): Consente di aprire l\'editor dei materiali per modificare i materiali.
+
+
+</div>
 
 
 
 ### Geometria dell\'elemento 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Sezione trasversale di trave](FEM_ElementGeometry1D/it.md): Utilizzato per definire le sezioni trasversali per gli elementi trave.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ElementRotation1D.svg  style="width:32px;"> [Rotazione di trave](FEM_ElementRotation1D/it.md): Utilizzato per ruotare le sezioni trasversali degli elementi trave.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ElementGeometry2D.svg  style="width:32px;"> [Spessore di una lastra](FEM_ElementGeometry2D/it.md): Utilizzato per definire lo spessore dell\'elemento lastra.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Sezione del fluido per flusso 1D](FEM_ElementFluid1D/it.md): Utilizzato per creare un elemento sezione del fluido FEM per reti pneumatiche e idrauliche.
 
 
+</div>
 
-### Vincoli elettromagnetici 
+### Electromagnetic boundary conditions 
 
--   <img alt="" src=images/FEM_CompEmConstraints.png  style="width:48px;"> [ Vincoli elettromagnetici](FEM_CompEmConstraints/it.md): Questa è una icona del menù nella barra degli strumenti Vincoli FEM che contiene i seguenti vincoli:
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Vincolo Potenziale elettrostatico](FEM_ConstraintElectrostaticPotential/it.md): Utilizzato per la definizione del potenziale elettrostatico.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/FEM_ConstraintCurrentDensity.svg  style="width:32px;"> [Vincolo densità di corrente](FEM_ConstraintCurrentDensity/it.md): Utilizzato per definire una densità di corrente. {{Version/it|0.21}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/FEM_ConstraintMagnetization.svg  style="width:32px;"> [Vincolo magnetizzazione](FEM_ConstraintMagnetization/it.md): Utilizzato per definire una magnetizzazione. {{Version/it|0.21}}
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Vincoli dei fluidi 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Vincolo velocità iniziale del flusso](FEM_ConstraintInitialFlowVelocity/it.md): Utilizzato per definire una velocità di flusso iniziale per un corpo (volume).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Vincolo pressione iniziale](FEM_ConstraintInitialPressure.md): Utilizzato per definire una pressione iniziale per un corpo (volume). {{Version/it|0.21}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Vincolo velocità del flusso](FEM_ConstraintFlowVelocity/it.md): Utilizzato per definire una velocità del flusso come condizione di un contorno su un bordo (2D) o una faccia (3D).
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Vincoli geometrici 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPlaneRotation.svg  style="width:32px;"> [Vincolo piano di rotazione](FEM_ConstraintPlaneRotation/it.md): Utilizzato per definire un vincolo piano di rotazione su una faccia piana.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSectionPrint.svg  style="width:32px;"> [Stampa sezione dei vincoli](FEM_ConstraintSectionPrint/it.md): Utilizzato per stampare le variabili di output facciale predefinite (forze e momenti) nel file dat.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintTransform.svg  style="width:32px;"> [Vincolo trasforma](FEM_ConstraintTransform/it.md): Utilizzato per definire un vincolo di trasformazione su una faccia.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Vincoli meccanici 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> [Vincolo fissaggio](FEM_ConstraintFixed/it.md): Utilizzato per definire un vincolo di fissaggio su un punto, bordo o faccia (e).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintDisplacement.svg  style="width:32px;"> [ Vincolo di dislocamento](FEM_ConstraintDisplacement/it.md): Utilizzato per definire un vincolo di dislocamento su un punto, bordo o faccia (e).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintContact.svg  style="width:32px;"> [Vincolo contatto](FEM_ConstraintContact/it.md): Utilizzato per definire un vincolo contatto tra due facce.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Legame di vincolo](FEM_ConstraintTie/it.md): Utilizzato per definire un vincolo di collegamento (\"contatto vincolato\") tra due facce.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Vincolo molla](FEM_ConstraintSpring/it.md): utilizzato per definire una molla. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Vincolo forza](FEM_ConstraintForce/it.md): Utilizzato per definire una forza in N applicata uniformemente ad una faccia selezionabile, nella direzione definibile.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Vincolo pressione](FEM_ConstraintPressure/it.md): Utilizzato per definire un vincolo pressione.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintCentrif.svg  style="width:32px;"> [Vincolo centrifugo](FEM_ConstraintCentrif/it.md): Utilizzato per definire un vincolo di carico centrifugo sul corpo. {{Version/it|0.20}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintSelfWeight.svg  style="width:32px;"> [Vincolo peso proprio](FEM_ConstraintSelfWeight/it.md): Utilizzato per definire una accelerazione di gravità che agisce su un modello.
 
 
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ### Vincoli termici 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Vincolo temperatura iniziale](FEM_ConstraintInitialTemperature/it.md): Utilizzato per definire un vincolo di temperatura iniziale di un corpo.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintHeatflux.svg  style="width:32px;"> [Vincolo scambio termico](FEM_ConstraintHeatflux/it.md): Utilizzato per definire un vincolo di scambio termico su una faccia (e).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Vincolo temperatura](FEM_ConstraintTemperature/it.md): Utilizzato per definire un vincolo di temperatura limite su un punto, bordo o faccia (e).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Vincolo fonte di calore del corpo](FEM_ConstraintBodyHeatSource/it.md): Utilizzato per definire un calore corporeo generato internamente.
 
 
-
-### Vincoli senza risolutore 
-
--   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condizione limite del fluido](FEM_ConstraintFluidBoundary/it.md): Utilizzato per definire una condizione al contorno del fluido.
-
--   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Vincolo cuscinetto](FEM_ConstraintBearing/it.md): Utilizzato per definire un vincolo cuscinetto.
-
--   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Vincolo ingranaggio](FEM_ConstraintGear/it.md): Utilizzato per definire un vincolo di ingranaggio.
-
--   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Vincolo puleggia](FEM_ConstraintPulley/it.md): Utilizzato per definire un vincolo puleggia.
+</div>
 
 
 
 ### Sovrascrivere le costanti 
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/FEM_ConstantVacuumPermittivity.svg  style="width:32px;"> [Permittività del vuoto costante](FEM_ConstantVacuumPermittivity/it.md): Utilizzato per sovrascrivere la [costante dielettrica del vuoto](https://it.wikipedia.org/wiki/Costante_dielettrica_del_vuoto) con un valore personalizzato.
+
+
+</div>
 
 
 
@@ -174,21 +374,19 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Risolutore Calculix Standard](FEM_SolverCalculixCxxtools/it.md): Crea un nuovo risolutore per questa analisi.
 
--   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Risolutore CalculiX (nuovo framework)](FEM_SolverCalculiX/it.md): Uguale al framework originale <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Risolutore CalculiX Standard](FEM_SolverCalculixCxxtools/it.md) con controlli aggiuntivi.
-
 -   <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Risolutore Elmer](FEM_SolverElmer/it.md): Crea il controller del risolutore per Elmer.
 
 -   <img alt="" src=images/_FEM_SolverMystran.svg  style="width:32px;"> [Risolutore Mystran](FEM_SolverMystran/it.md): Crea il controller del risolutore per il risolutore MYSTRAN. {{Version/it|0.20}}
 
 -   <img alt="" src=images/FEM_SolverZ88.svg  style="width:32px;"> [Risolutore Z88](FEM_SolverZ88/it.md): crea il controller del risolutore per Z88.
 
--   <img alt="" src=images/FEM_CompMechEquations.png  style="width:" height="32px;"> [Equazioni meccaniche](FEM_CompMechEquations.md): Questa è una icona del menu nella barra degli strumenti Equazioni FEM che contiene le seguenti equazioni: {{Version/it|0.21}}
+### Mechanical equations 
 
   - <img alt="" src=images/FEM_EquationElasticity.svg  style="width:32px;"> [Equazione di elasticità](FEM_EquationElasticity/it.md): Equazione per il [Risolutore Elmer](FEM_SolverElmer/it.md) <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> per eseguire analisi lineari meccaniche.
 
   - <img alt="" src=images/FEM_EquationDeformation.svg  style="width:32px;"> [Equazione di deformazione](FEM_EquationDeformation/it.md): Equazione per il <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> [Risolutore Elmer](FEM_SolverElmer/it.md) per eseguire analisi meccaniche non lineari (deformazioni ). {{Version/it|0.21}}
 
--   <img alt="" src=images/FEM_CompEmEquations.png  style="width:32px;"> [Equazioni elettromagnetiche](FEM_CompEmEquations/it.md): Questa è una icona di menu nella barra degli strumenti Equazioni FEM che contiene le seguenti equazioni: {{Version/it|0.21}}
+### Electromagnetic equations 
 
   - <img alt="" src=images/FEM_EquationElectrostatic.svg  style="width:32px;"> [Equazione elettrostatica](FEM_EquationElectrostatic/it.md): Equazione per il [Risolutore Elmer](FEM_SolverElmer.md) <img alt="" src=images/FEM_SolverElmer.svg  style="width:32px;"> per eseguire analisi elettrostatiche.
 
@@ -236,15 +434,39 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Filtro di taglio dei dati in un punto](FEM_PostFilterDataAtPoint/it.md): utilizzato per visualizzare il valore di un campo selezionato in un determinato punto.
 
--   <img alt="" src=images/FEM_CompPostCreateFunctions.png  style="width:48px;"> [Funzioni di filtro](FEM_PostCreateFunctions/it.md): Questo è un menu a icone nella barra degli strumenti Risultati FEM che contiene i seguenti comandi:
+### Filter functions 
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/FEM_PostCreateFunctionPlane.svg  style="width:32px;"> [Funzione filtro Piano](FEM_PostCreateFunctionPlane/it.md): Taglia la mesh risultante con un piano.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/FEM_PostCreateFunctionSphere.svg  style="width:32px;"> [Funzione filtro Sfera](FEM_PostCreateFunctionSphere/it.md): Taglia la mesh risultante con una sfera.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   - <img alt="" src=images/FEM_PostCreateFunctionCylinder.svg  style="width:32px;"> [Funzione filtro Cilindro:](FEM_PostCreateFunctionCylinder/it.md): Taglia la mesh risultante con un cilindro. {{Version/it|0.21}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   - <img alt="" src=images/FEM_PostCreateFunctionBox.svg  style="width:32px;"> [Funzione filtro Box](FEM_PostCreateFunctionBox/it.md): Taglia la mesh risultante con un box. {{Version/it|0.21}}
+
+
+</div>
 
 
 
@@ -264,6 +486,24 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/_FEM_MeshDisplayInfo.svg  style="width:32px;"> [Visualizza info mesh FEM](FEM_MeshDisplayInfo/it.md): Visualizza le statistiche di base della mesh esistente - numero di nodi ed elementi di ogni tipo.
 
+## Obsolete tools 
+
+-   <img alt="" src=images/FEM_ConstraintFluidBoundary.svg  style="width:32px;"> [Condizione limite del fluido](FEM_ConstraintFluidBoundary/it.md): Utilizzato per definire una condizione al contorno del fluido.
+
+-   <img alt="" src=images/FEM_ConstraintBearing.svg  style="width:32px;"> [Vincolo cuscinetto](FEM_ConstraintBearing/it.md): Utilizzato per definire un vincolo cuscinetto.
+
+-   <img alt="" src=images/FEM_ConstraintGear.svg  style="width:32px;"> [Vincolo ingranaggio](FEM_ConstraintGear/it.md): Utilizzato per definire un vincolo di ingranaggio.
+
+-   <img alt="" src=images/FEM_ConstraintPulley.svg  style="width:32px;"> [Vincolo puleggia](FEM_ConstraintPulley/it.md): Utilizzato per definire un vincolo puleggia.
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:32px;"> [Risolutore CalculiX (nuovo framework)](FEM_SolverCalculiX/it.md): Uguale al framework originale <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Risolutore CalculiX Standard](FEM_SolverCalculixCxxtools/it.md) con controlli aggiuntivi.
+
+
+</div>
+
 
 
 ## Preferenze
@@ -278,7 +518,15 @@ Le seguenti pagine spiegano diversi argomenti dell\'ambiente FEM.
 
 [FEM Install](FEM_Install/it.md): una descrizione dettagliata su come impostare i programmi esterni utilizzati in questo ambiente.
 
+[FEM Geometry Preparation and Meshing](FEM_Geometry_Preparation_and_Meshing.md): tips regarding geometry preparation for FEM and meshing.
+
+
+<div class="mw-translate-fuzzy">
+
 [Mesh FEM](FEM_Mesh/it.md): ulteriori informazioni su come ottenere una mesh per l\'analisi degli elementi finiti.
+
+
+</div>
 
 [FEM Solver](FEM_Solver/it.md): ulteriori informazioni sui diversi solutori disponibili nel workbench e quelli che potrebbero essere utilizzati in futuro.
 

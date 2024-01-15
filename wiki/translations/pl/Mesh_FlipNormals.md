@@ -9,16 +9,22 @@
 
 # Mesh FlipNormals/pl
 
+
+
 ## Opis
 
 Polecenie **Odwróć wektory normalnych** odwraca, przerzuca, normalne obiektów siatkowych.
+
+
 
 ## Użycie
 
 1.  Wybierz jeden lub więcej obiektów siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_FlipNormals.svg" width=16px> [Odwróć wektory normalnych](Mesh_FlipNormals/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_FlipNormals.svg" width=16px> '''Odwróć wektory normalnych'''**.
     -   Wybierz z menu opcję **Siatki → <img src="images/Mesh_FlipNormals.svg" width=16px> Odwróć wektory normalnych**.
+
+
 
 ## Uwagi
 

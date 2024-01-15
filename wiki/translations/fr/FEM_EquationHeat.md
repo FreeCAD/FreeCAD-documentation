@@ -42,19 +42,19 @@ Equation :
 
 
 
-## Informations sur les contraintes 
+## Informations sur les caractéristiques d\'analyse 
 
-L\'équation d\'élasticité prend en compte les contraintes suivantes si elles sont définies :
+L\'équation de chaleur prend en compte les caractéristiques d\'analyse suivantes si elles sont activées :
 
--   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Contrainte source thermique](FEM_ConstraintBodyHeatSource/fr.md)
--   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Contrainte de température initiale](FEM_ConstraintInitialTemperature/fr.md)
--   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Contrainte de température](FEM_ConstraintTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintBodyHeatSource.svg  style="width:32px;"> [Source de chaleur du corps](FEM_ConstraintBodyHeatSource/fr.md)
+-   <img alt="" src=images/FEM_ConstraintInitialTemperature.svg  style="width:32px;"> [Température initiale](FEM_ConstraintInitialTemperature/fr.md)
+-   <img alt="" src=images/FEM_ConstraintTemperature.svg  style="width:32px;"> [Condition limite de température](FEM_ConstraintTemperature/fr.md)
 
 
 
 ### Remarque
 
-Sauf pour les calculs en 2D, pour toutes les contraintes ci-dessus, il est important qu\'elles agissent sur une face ou un corps. Les contraintes pour la 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
+À l\'exception des calculs en 2D, pour toutes les caractéristiques d\'analyse ci-dessus, il est important qu\'elles agissent sur une face ou un corps. Les fonctions en 3D définies sur des lignes ou des sommets ne sont pas reconnues par le solveur Elmer.
 
 
 

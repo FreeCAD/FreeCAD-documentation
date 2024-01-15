@@ -64,6 +64,7 @@ Bu araç yeni bir eskiz oluşturur, mevcut değilse taslak içeren yeni bir [Cis
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+
     :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
 
 Dialog settings

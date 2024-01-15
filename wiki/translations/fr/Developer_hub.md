@@ -56,7 +56,7 @@ Le [Packaging](Packaging/fr.md) consiste à prendre les fichiers binaires compil
 
 -   Compréhension du [code source de FreeCAD](The_FreeCAD_source_code/fr.md)
 -   [Soumettre des patchs](Tracker#Submitting_patches.md)
--   Ajouter des [Fonctionnalités](Gui_Command/fr.md) à FreeCAD ou a un atelier
+-   Ajouter des [Fonctionnalités](Gui_Command/fr.md) à FreeCAD ou à un atelier
 -   [Image de marque](Branding/fr.md) ou *comment donner un look unique à FreeCAD*
 -   [Graphisme](Artwork/fr.md) créé pour FreeCAD, que vous pouvez réutiliser librement
 -   [Recommandations pour la charte graphique](Artwork_Guidelines/fr.md), normes pour les icônes

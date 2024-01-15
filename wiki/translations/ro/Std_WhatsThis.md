@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Descriere
 
 
@@ -22,7 +24,9 @@ Acest instrument oferă informații despre o comandă selectată prin deschidere
 
 </div>
 
-In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https://github.com/FreeCAD/FreeCAD-Help).
+Since FreeCAD version 0.20 this command and the Help system are managed by a separate Help Module. For versions 0.20 and 0.21 this module is an [addon](https://github.com/FreeCAD/FreeCAD-Help) that must be [installed](Std_AddonMgr.md) separately. In later versions the Help Module is integrated in FreeCAD.
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -43,7 +47,7 @@ In FreeCAD <small>(v0.20)</small>  this command requires the [Help Addon](https:
 
 ## Notes
 
--   The Help Addon has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
+-   The Help system has a number of preferences. See [Preferences Editor](Preferences_Editor#Help.md).
 
 
 

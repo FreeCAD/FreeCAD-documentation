@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande **Affichage Supprimer les mesures** efface les mesures de la [vue 3D](3D_view/fr.md) active de [Part](Part_Workbench/fr.md).
+La commande **Affichage Supprimer les mesures** efface les mesures de [Part](Part_Workbench/fr.md) de la [vue 3D](3D_view/fr.md) active.
 
 
 

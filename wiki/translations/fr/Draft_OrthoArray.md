@@ -55,14 +55,6 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 
 
-## Préférences
-
-Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
-
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Edition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
-
-
-
 ## Propriétés
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)

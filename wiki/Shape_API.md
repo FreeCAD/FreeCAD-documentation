@@ -312,6 +312,12 @@ dumpToString() -> string
 
 
 
+#### <img src="images/BIM_Column.svg" style="width:16px;"> dumps
+
+Serialize the content of this shape to a string in BREP format.
+
+
+
 #### <img src="images/BIM_Column.svg" style="width:16px;"> exportBinary
 
 Export the content of this shape in binary format to a file.
@@ -658,6 +664,12 @@ ShapeType = Face   : only faces are set
 ShapeType = Wire   : to have edges and their vertices set
 ShapeType = other value : all (vertices,edges,faces) are set
 Returns True if at least one tolerance of the sub-shape has been modified
+
+
+
+#### <img src="images/BIM_Column.svg" style="width:16px;"> loads
+
+Deserialize the content of this shape from a string in BREP format.
 
 
 
@@ -1142,4 +1154,4 @@ writeInventor() -> string
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Shape API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Shape API

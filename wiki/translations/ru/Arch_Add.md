@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -38,6 +40,8 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 
 </div>
+
+
 
 ## Применение
 
@@ -90,6 +94,15 @@ FreeCAD.ActiveDocument.recompute()
 Arch.addComponents(Wall2, Wall)
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

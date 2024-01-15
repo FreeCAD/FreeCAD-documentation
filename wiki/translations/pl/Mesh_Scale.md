@@ -20,7 +20,7 @@ Polecenie **Skaluj** skaluje obiekty siatkowe.
 
 1.  Wybierz jeden lub więcej obiektów siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_Scale.svg" width=16px> [Skaluj](Mesh_Scale.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_Scale.svg" width=16px> '''Skaluj'''**.
     -   Wybierz z menu opcję**Siatki → <img src="images/Mesh_Scale.svg" width=16px> Skaluj ...**.
 3.  Otworzy się okno dialogowe **Skaluj**.
 4.  Określ współczynnik skalowania, wartość musi być większa niż {{Value|0}}.

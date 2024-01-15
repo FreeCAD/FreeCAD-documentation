@@ -13,7 +13,7 @@
 
 La commande **Supprimer des composants** supprime des composants d\'objets maillés.
 
-![](images/Meshes_RemoveComponents.jpg ) 
+<img alt="" src=images/Meshes_RemoveComponents.jpg  style="width:300px;"> 
 *Le panneau de tâches Supprimer des composants*
 
 
@@ -21,8 +21,15 @@ La commande **Supprimer des composants** supprime des composants d\'objets maill
 ## Utilisation
 
 1.  La commande utilise la couleur rouge pour marquer les faces sélectionnées. Pour les voir correctement :
-    -   Le **Display Mode** des objets maillés devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
-    -   La **Shape Color** des objets maillés ne doit pas être rouge.
+    -   
+        **Display Mode**
+        
+        des objets maillés devrait idéalement être {{Value|Flat lines}}, mais devrait au moins montrer des faces. Si nécessaire, utilisez la commande [Std Style de représentation](Std_DrawStyle/fr.md) pour remplacer cette propriété.
+
+    -   
+        **Shape Color**
+        
+        des objets maillés ne doit pas être rouge.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Mesh_RemoveComponents.svg" width=16px> [Supprimer des composants...](Mesh_RemoveComponents/fr.md)
 **

@@ -2,15 +2,12 @@
  GuiCommand:
    Name: TechDraw ArchView
    Name/pl: Rysunek Techniczny: Wstaw obiekt środowiska Architektura
-   MenuLocation: Rysunek Techniczny , Insert Arch Workbench Object
+   MenuLocation: Rysunek Techniczny , Widoki , Wstaw obiekt środowiska Architektura
    Workbenches: TechDraw_Workbench/pl, Arch_Workbench/pl
    SeeAlso: Arch_SectionPlane/pl
 ---
 
 # TechDraw ArchView/pl
-
-
-</div>
 
 
 
@@ -24,16 +21,14 @@ Narzędzie **Wstaw obiekt środowiska Architektura** wstawia widok **<img src="i
 
 ## Użycie
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wybierz płaszczyznę przekroju architektonicznego w oknie widoku 3D lub w widoku drzewa.
-2.  Jeśli w dokumencie znajduje się wiele stron rysunku, należy wybrać żądaną stronę w drzewie.
-3.  Naciśnij **<img src="images/TechDraw_ArchView.svg" width=24px> '''Wstaw obiekt środowiska Architektura'''**.
-4.  Na stronie pojawi się widok obiektów widzianych przez płaszczyznę przekroju.
-
-
-</div>
+1.  Wybierz pojedynczą płaszczyznę przekroju architektonicznego w oknie [widoku 3D](3D_view/pl.md) lub [widoku drzewa](Tree_view/pl.md).
+2.  Jeśli w dokumencie znajduje się wiele stron rysunku: opcjonalnie dodaj żądaną stronę do zaznaczenia, wybierając ją w [Widoku drzewa](Tree_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij **<img src="images/TechDraw_ArchView.svg" width=24px> '''Wstaw obiekt środowiska Architektura'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Widoki → <img src="images/TechDraw_ArchView.svg" width=16px> Wstaw obiekt środowiska Architektura**.
+4.  Jeśli w dokumencie znajduje się wiele stron rysunku, a strona nie została jeszcze wybrana, otworzy się okno dialogowe **Wybór strony**: {{Version/pl|0.20}}.
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
 
 
 

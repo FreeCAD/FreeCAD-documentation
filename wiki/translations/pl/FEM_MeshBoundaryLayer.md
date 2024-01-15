@@ -1,51 +1,62 @@
 ---
  GuiCommand:
    Name: FEM MeshBoundaryLayer
-   MenuLocation: Mesh , FEM mesh boundary layer
-   Workbenches: FEM_Workbench
-   SeeAlso: FEM_tutorial
+   Name/pl: Warstwa graniczna siatki MES
+   MenuLocation: Siatka , Warstwa graniczna siatki MES
+   Workbenches: FEM_Workbench/pl
+   SeeAlso: FEM_tutorial/pl
 ---
 
 # FEM MeshBoundaryLayer/pl
 
-## Description
 
-FEM MeshBoundaryLayer enables the user to set a localized set of meshing parameters by selecting a set of elements (Vertex, Edge, Face) and applying the parameters to it. It is especially useful for refining meshes close to edges or surfaces in flow simulations. For example, it can be used to refine the mesh in the vicinity of an air foil or obstacle in a flow.
 
-The boundary layer has the advantage of creating highly defined, anisotropic meshes. As the name implies it supports accurate calculations near boundaries, e.g. a wall where friction occurs, generating a velocity gradient.
+## Opis
 
-## Usage
+Umożliwia ustawienie zlokalizowanego zestawu parametrów tworzenia siatki poprzez wskazanie zestawu obiektów *(wierzchołek, krawędź, ściana)* i przypisanie do nich parametrów. Jest to szczególnie przydatne do zagęszczenia siatek w pobliżu krawędzi lub powierzchni w przypadku symulacji przepływów. Przykładowo, można skorzystać z tego narzędzia do zagęszczenia siatki w pobliżu profilu skrzydła samolotu lub przeszkody w przepływie.
 
-1.  To enable the function a mesh must be first provided <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM mesh from shape by Gmsh](FEM_MeshGmshFromShape.md).
-    -   Select the Mesh object in the Model Tree and press the <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;"> button.
-    -   Select the Mesh object in the Model Tree and select the **Mesh → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> FEM mesh boundary layer** option from the menu.
-2.  Edit the start element size, the growth rate and the number of growth layers.
-3.  Select a vertex, edge, face.
-4.  Click the **OK** button.
-5.  Close the task.
+Warstwa przyścienna ma tę zaletę, że tworzy silnie zdefiniowane, anizotropowe siatki. Jak nazwa wskazuje, umożliwia dokładne obliczenia w pobliżu brzegów, np. ściany gdzie występuje tarcie, generując gradient prędkości.
 
-    :   Result: You now should see a new `FEMMeshBoundaryLayer` object under the `FEMMeshGMSH` object (see example #3 below) in your active analysis container.
-6.  Double-click on the `FEMMeshGMSH` parent object in your Model Tree and press **Apply** to force a mesh recalculation.
-7.  Close the task.
 
-After the mesh has been crated you can change its properties using the [property editor](Property_editor.md). After you changed a property, you must reopen the Gmsh dialog again and click the **Apply** button. (You can leave the dialog open while changing properties.)
 
-You can create as many different mesh boundary layers as needed.
+## Użycie
 
-## Visual examples 
+1.  Aby skorzystać z tego narzędzia, siatka musi być najpierw utworzona <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [Siatka MES z kształtu przy pomocy generatora Gmsh](FEM_MeshGmshFromShape/pl.md).
+    -   Zaznacz obiekt siatki w drzewie modelu i wciśnij przycisk **<img src="images/FEM_MeshBoundaryLayer.svg" width=32px> [Warstwa graniczna siatki MES](FEM_MeshBoundaryLayer/pl.md)** button.
+    -   Zaznacz obiekt siatki w drzewie modelu i wybierz opcję **Siatka → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Warstwa graniczna siatki MES** z menu.
+2.  Edytuj początkowy rozmiar elementów, tempo wzrostu i liczbę warstw wzrostu.
+3.  Wybierz wierzchołek, krawędź lub ścianę.
+4.  Wciśnij przycisk **OK**.
+5.  Zamknij okno dialogowe.
+
+    :   Rezultat: Powinieneś zobaczyć nowy obiekt `FEMMeshBoundaryLayer` pod obiektem `FEMMeshGMSH` (zobacz przykład #3 poniżej) w aktywnym kontenerze analizy.
+6.  Kliknij dwukrotnie na obiekcie `FEMMeshGMSH` w drzewie modelu i wciśnij przycisk **Zastosuj** aby wymusić ponowne przeliczenie siatki.
+7.  Zamknij okno dialogowe.
+
+Po utworzeniu siatki możesz zmienić jej właścioci przy pomocy [edytora właściwości](Property_editor/pl.md). Po zmianie właściwości należy ponownie otworzyć okno dialogowe Gmsh i wcisnąć przycisk **Zastosuj**. (możesz zostawić okno dialogowe otwarte podczas zmieniana właściwości).
+
+Możesz utworzyć tyle różnych warstw przyściennych, ile potrzeba.
+
+
+
+## Przykłady wizualne 
 
 <img alt="" src=images/FEMMeshBoundaryLayer_Example1.png.png  style="width:300px;"> 
-*Example 1: The initial coarse FEMMeshGMSH on a 2D case*
+*Przykład 1: Początkowa rzadka siatka FEMMeshGMSH dla przypadku 2D*
 
 <img alt="" src=images/FEMMeshBoundaryLayer_Example2.png.png  style="width:300px;"> 
-*Example 2: After applying a Mesh boundary layer*
+*Przykład 2: Po zastosowaniu warstwy granicznej siatki MES*
 
 <img alt="" src=images/FEMMeshBoundaryLayer_Example3.png.png  style="width:300px;"> 
-*Example 3: A simple example of the resulting Model Tree*
+*Przykład 3: Prosty przykład rezultatu w drzewie modelu*
 
-## Notes
 
-## Related
+
+## Uwagi
+
+
+
+## Powiązane
 
 
 

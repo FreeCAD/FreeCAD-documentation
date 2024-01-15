@@ -3,12 +3,12 @@
 |Name=Macro Guitar Nut
 |Name/fr=Macro Guitar Nut
 |Icon=Macro_Guitar_Nut.png
-|Description=Crée des formes d'écrous de guitare complexes. <br/> Plus précisément, il peut créer un écrou avec le bas des fentes de cordes à la hauteur souhaitée au-dessus d'un manche du rayon souhaité. Le diamètre de chaque chaîne est configurable et les fentes peuvent être configurées pour tenir compte de la largeur nécessaire pour empêcher la liaison. Voir la section [Utilisation](#Utilisation/fr.md) pour plus de détails
+|Description=Crée des formes d'écrous de guitare complexes.<br/>Plus précisément, il peut créer un écrou avec le bas des fentes de cordes à la hauteur souhaitée au-dessus d'un manche du rayon souhaité. Le diamètre de chaque chaîne est configurable et les fentes peuvent être configurées pour tenir compte de la largeur nécessaire pour empêcher la liaison. Voir la section [Utilisation](#Utilisation/fr.md) pour plus de détails.
 |Author=jsiddall
 |Version=0.1
 |Date=2020-01-27
-|FCVersion=All
-|Download=[https://wiki.freecadweb.org/images/9/94/Macro_Guitar_Nut.png Icône de la barre d'outils]
+|FCVersion=Toutes
+|Download=[https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png Icône de la barre d'outils]
 |SeeAlso=[Macro_Guitar_fretboard](Macro_Guitar_fretboard/fr.md)
 }}
 
@@ -24,6 +24,8 @@ Le diamètre de chaque chaîne est configurable et les fentes peuvent être rend
 
 ![](images/Nut_macro.png ) 
 *Résultats à l'aide de la macro Guitar Nut Maker*
+
+
 
 ## Utilisation
 
@@ -57,7 +59,7 @@ __Date__ = '2020-01-27'
 __License__ = 'GPL-3.0-or-later'
 __Web__ = ''
 __Wiki__ = ''
-__Icon__ = ''
+__Icon__ = 'https://wiki.freecad.org/images/9/94/Macro_Guitar_Nut.png'
 __Help__ = 'Macro file must be edited with the desired nut parameters before use'
 __Status__ = 'Beta'
 __Requires__ = ''
@@ -202,6 +204,8 @@ nut = App.ActiveDocument.addObject("Part::Feature","Nut")
 nut.Shape = nutshape
 print("Finished creating nut")
 }}
+
+
 
 ## Liens
 

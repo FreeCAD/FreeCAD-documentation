@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw Quadrants
    Name/fr: TechDraw Sommets quadrants
-   MenuLocation: TechDraw , Ajouter des sommets , Ajouter des sommets de quadrants
+   MenuLocation: TechDraw , Ajouter des sommets , Ajouter des sommets quadrants
    Workbenches: TechDraw_Workbench/fr
    Version: 0.19
    SeeAlso: TechDraw_CosmeticVertex/fr, TechDraw_Midpoints/fr
@@ -10,18 +10,9 @@
 
 # TechDraw Quadrants/fr
 
-
-</div>
-
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Sommets quadrants** ajoute trois [points cosmétiques](TechDraw_CosmeticVertex/fr.md) sur la longueur d\'une ou plusieurs arêtes sélectionnées. Les sommets sont placés à 25 %, 50 % et 75 % de la longueur. Pour une arête circulaire, cela se traduit par des sommets cosmétiques à 90°, 180° et 270°, en plus de son sommet géométrique à 0°.
-
-
-</div>
+L\'outil **TechDraw Sommets quadrants** ajoute trois [points cosmétiques](TechDraw_CosmeticVertex/fr.md) sur la longueur d\'une ou plusieurs arêtes sélectionnées. Les sommets sont placés à 25 %, 50 % et 75 % de la longueur de l\'arête. Pour une arête circulaire, cela se traduit par des sommets cosmétiques à 90°, 180° et 270°, en plus de son sommet géométrique à 0°.
 
 <img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
 *Les sommets cosmétiques au quadrant d'un cercle*
@@ -30,20 +21,17 @@ L\'outil **TechDraw Sommets quadrants** ajoute trois [points cosmétiques](TechD
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Sélectionnez une ou plusieurs arêtes (circulaires) dans une vue. N\'importe quelle arête peut être sélectionnée, pas seulement les cercles.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_Quadrants.svg" width=16px> Ajouter des sommets de quadrants**.
-3.  Les sommets cosmétiques seront ajoutés tous les 90° sur les bords.
+1.  Sélectionnez une ou plusieurs arêtes dans une vue. Toutes les arêtes peuvent être sélectionnées, pas seulement les cercles.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Quadrants.svg" width=16px> [Ajouter des sommets quadrants](TechDraw_Quadrants/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Ajouter des sommets → <img src="images/TechDraw_Quadrants.svg" width=16px> Ajouter des sommets quadrants** du menu.
 
 
-</div>
 
-## Notes
+## Remarques
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Les sommets cosmétiques créés ne sont pas paramétriquement liés aux arêtes sélectionnées.
+-   Pour supprimer un sommet cosmétique, utilisez <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Supprimer l\'objet cosmétique](TechDraw_CosmeticEraser.md).
 
 
 

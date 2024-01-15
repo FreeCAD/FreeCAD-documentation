@@ -14,9 +14,7 @@
 
 ## Opis
 
-Narzędzie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytnij** przycina lub wydłuża [Linie](Draft_Line/pl.md) i [Polilinie](Draft_Wire/pl.md) tak, że ich koniec znajduje się na przecięciu z inną linią lub krawędzią.
-
-Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytnij** [przycina lub rozszerza](#Przytnij_lub_rozszerz.md) wybrany obiekt. Przecięcia z krawędzią innego obiektu mogą być użyte do określenia nowych punktów końcowych. Polecenie może być również użyte do [wyciągnięcia](#Wyciągnij.md) ściany, w którym to przypadku tworzy obiekt [wyciągnięcia](Part_Extrude/pl.md).
+Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytnij / wydłuż** [przycina lub rozszerza](#Przytnij_lub_rozszerz.md) wybrany obiekt. Przecięcia z krawędzią innego obiektu mogą być użyte do określenia nowych punktów końcowych. Polecenie może być również użyte do [wyciągnięcia](#Wyciągnij.md) ściany, w którym to przypadku tworzy obiekt [wyciągnięcia](Part_Extrude/pl.md).
 
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
 *Wyżej: Przedłużony odcinek linii, następnie przycięty odcinek linii. Niżej: Powierzchnia wyciągnięta w bryłę*
@@ -31,7 +29,7 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytn
 
 1.  Opcjonalnie wybierz jeden obiekt. Musi to być obiekt środowiska Rysunek Roboczy [Linia](Draft_Line/pl.md), [Linia łamana](Draft_Wire/pl.md), [Łuk](Draft_Arc/pl.md) lub [Okrąg](Draft_Circle/pl.md) *(tylko te mogą być tylko przycinane)*. Jeśli wybrany obiekt jest zamknięty, musi mieć ustawioną właściwość **Make Face** na wartość `False`.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Draft_Trimex.svg" width=16px> [Przytnij](Draft_Trimex/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Draft_Trimex.svg" width=16px> '''Przytnij / Wydłuż'''**.
     -   Wybierz z menu opcję **Modyfikacja → <img src="images/Draft_Trimex.svg" width=16px> Przytnij / Wydłuż**.
     -   Użyj skrótu klawiaturowego: **T**, a następnie **R**.
 3.  Jeśli nie wybrałeś jeszcze obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
@@ -46,7 +44,7 @@ Polecenie <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Przytn
 
 ### Opcje
 
-Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
+Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Przytrzymaj **Alt** aby odwrócić domyślny kierunek polecenia.
 -   Przytrzymaj **Shift** by ograniczyć operację do bieżącego segmentu [linii łamanej](Draft_Wire/pl.md).
@@ -89,14 +87,6 @@ Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysu
 Wspomniane tutaj klawisze modyfikatorów mogą zostać zmienione. Zobacz stronę [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Przytrzymaj klawisz **Shift**, by uzyskać wyciągnięcie w kierunku, który nie jest równoległy do wektora normalnego ściany.
-
-
-
-## Ustawienia
-
-Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
-
--   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje... → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 
 
 

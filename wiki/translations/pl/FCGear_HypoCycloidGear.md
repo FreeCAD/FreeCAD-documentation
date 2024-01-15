@@ -1,52 +1,63 @@
 ---
  GuiCommand:
    Name: FCGear HypoCycloidGear
-   MenuLocation: Gear , HypoCycloid Gear
-   Workbenches: FCGear_Workbench
-   Shortcut: None
-   Version: 1.0
+   Name/pl: FCGear: Zębatka hipocykloidalna
+   MenuLocation: Gear , Zębatka hipocykloidalna
+   Workbenches: FCGear_Workbench/pl
+   Shortcut: Brak
+   Version: 0.22
    SeeAlso: 
 ---
 
 # FCGear HypoCycloidGear/pl
 
-## Description
 
-The <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width:16px;"> **FCGear HypoCycloid Gear** command creates two splined cam disks and a set of rollers that stay in touch with the disks\' outer surfaces while moving.
+
+## Opis
+
+Polecenie <img alt="" src=images/FCGear_HypoCycloidGear.svg  style="width:16px;"> **Zębatka hipocykloidalna** tworzy dwie wielowypustowe tarcze krzywkowe i zestaw rolek, które pozostają w kontakcie z zewnętrznymi powierzchniami tarcz podczas ruchu.
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-04.png  style="width:200px;"> <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-05.png  style="width:200px;"> 
-*Left: Hypocycloid gear. Right: Gear and transparently displayed also provided reversed gear and set of rollers*
+*Po lewej: Przekładnia hipocykloidalna. Po prawej: Przekładnia i przejrzyście pokazana przekładnia odwrotna i zestaw rolek.*
 
-Please provide a short description what can be achieved using such a gear train.
+Prosimy o krótki opis tego, co można osiągnąć za pomocą takiego układu przekładni.
 
-## Usage
 
-1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear Workbench](FCGear_Workbench.md).
-2.  There are several ways to invoke the command:
-    -   Press the **[<img src=images/FCGear_HypoCycloidGear.svg style="width:16px"> [HypoCycloid Gear](FCGear_HypoCycloidGear.md)** button in the toolbar.
-    -   Select the **Gear → [<img src=images/FCGear_HypoCycloidGear.svg style="width:16px"> HypoCycloid Gear** option from the menu.
-3.  Change the gear parameter to the required conditions (see [Properties](#Properties.md)).
 
-## Properties
+## Użycie
 
-## Notes
+1.  Przejdź do środowiska pracy <img alt="" src=images/FCGear_workbench_icon.svg  style="width:16px;"> [FCGear](FCGear_Workbench/pl.md).
+2.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **[<img src=images/FCGear_HypoCycloidGear.svg style="width:16px"> '''Zębatka hipocykloidalna'''** na pasku narzędzi.
+    -   Wybierz z menu opcję **Gear → [<img src=images/FCGear_HypoCycloidGear.svg style="width:16px"> Zębatka hipocykloidalna**.
+3.  Zmień parametry zębatki na wymagane *(patrz [Właściwości](#Właściwości.md))*.
 
-The default gear(s) are displayed like this:
+
+
+## Właściwości
+
+
+
+## Uwagi
+
+Domyślnie koła zębate są wyświetlane w następujący sposób:
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-01.png  style="width:200px;">
 
-To display the cam disks and the set of rollers (pins) in different colours, we need three identical HypocycloidGear objects. Their visibility can be toggled:
+Aby wyświetlić tarcze krzywkowe i zestaw rolek *(sworzni)* w różnych kolorach, potrzebujemy trzech identycznych obiektów Zębatka hipocykloidalna. Ich widoczność można przełączać:
 
--    **show_disk0|Bool**for the main cam disk.
+-    **show_disk0|Bool**dla głównego dysku krzywki.
 
--    **show_disk1|Bool**for a reversed cam disk on top.
+-    **show_disk1|Bool**dla odwróconej tarczy krzywkowej na górze.
 
--    **show_pins|Bool**for the set of pins.
+-    **show_pins|Bool**dla zestawu rolek.
 
 <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-02.png  style="width:200px;"> <img alt="" src=images/FCGear_FCGear_HypoCycloidGear-03.png  style="width:200px;"> 
-*Left: HypocycloidGear objects as created. Right: Objects repositioned to get a better view on each object*
+*Po lewej: Utworzone obiekty Zębatka hipocykloidalna. Po prawej: Zmiana położenia obiektów w celu uzyskania lepszego widoku każdego z nich.*
 
-## Scripting
+
+
+## Tworzenie skryptów
 
 
 

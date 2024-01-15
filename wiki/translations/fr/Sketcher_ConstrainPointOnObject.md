@@ -5,7 +5,7 @@
    MenuLocation: Esquisse , Contraintes d'esquisse  , Contrainte point sur objet
    Workbenches: Sketcher_Workbench/fr
    Shortcut: **O**
-   SeeAlso: Sketcher_ConstrainCoincident/fr
+   SeeAlso: Sketcher_ConstrainCoincidentUnified/fr, Sketcher_ConstrainCoincident/fr
 ---
 
 # Sketcher ConstrainPointOnObject/fr
@@ -47,7 +47,7 @@ La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique comment identifier
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

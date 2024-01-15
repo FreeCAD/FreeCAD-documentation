@@ -1,4 +1,7 @@
 # Macro CenterFace/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro CenterFace
 |Icon=CenterFace.png
@@ -9,12 +12,25 @@
 |Date=2014-04-29
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Toto makro červené stopy (lze upravovat) středovou plochu (hmotnost) s 1 bodem a vytisknout souřadnice.
 
+
+</div>
+
 <img alt="" src=images/Macro_CenterFace_00.png  style="width:480px;"> 
 *CenterFace*
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -36,13 +52,23 @@ blue = 0.0 \#
 
 Střed plochy obličeje (hmotnost) a souřadnice XYZ obličeje jsou zobrazeny v zobrazení sestavy.
 
+## Icon
+
+
+<div class="mw-translate-fuzzy">
+
 ## Icone
 
 Stáhněte obrázek obrázku a zkopírujte do repertoáru maker.
 
+
+</div>
+
 Klikněte na obrázek, v novém okně umístěte myš nad obrázek, klikněte pravým tlačítkem myši a proveďte \"Uložit cíl jako \...\"
 
 ![Button](images/CenterFace.png )
+
+
 
 ## Skript
 
@@ -142,6 +168,8 @@ App.Console.PrintMessage( "__End____________"+"\n")
 
 
 }}
+
+
 
 ## Verze
 

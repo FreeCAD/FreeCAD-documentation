@@ -4,6 +4,7 @@
    Name/fr: Spreadsheet Alias
    MenuLocation: 
    Workbenches: Spreadsheet_Workbench/fr
+   Shortcut: **Ctrl**+**Shift**+**A**
    Version: 0.17
 ---
 

@@ -2,15 +2,12 @@
  GuiCommand:
    Name: Sketcher MirrorSketch
    Name/it: Rifletti schizzo
-   Workbenches: Sketcher Workbench/it
    MenuLocation: Sketch , Rifletti schizzo
+   Workbenches: Sketcher_Workbench/it
    Version: 0.16
 ---
 
 # Sketcher MirrorSketch/it
-
-
-</div>
 
 
 
@@ -22,28 +19,18 @@ Riflette uno schizzo lungo l\'asse x, l\'asse Y o l\'origine. Questo comando vie
 
 ## Utilizzo
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Selezionare lo schizzo da riflettere
-2.  Cliccare su <img alt="" src=images/Sketcher_MirrorSketch.svg  style="width:32px;"> o scegliere ** Sketch** → **<img src="images/Sketcher_MirrorSketch.svg" width=32px> Rifletti schizzo** dal menu in alto.
+1.  Selezionare lo schizzo da specchiare (in genere facendo clic su di esso nella [vista ad albero](Tree_view/it.md)).
+2.  Fare clic su **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Specchia schizzo](Sketcher_MirrorSketch/it.md)** o scegliere **Schizzo → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Specchia schizzo](Sketcher_MirrorSketch/it.md)** dal menu in alto.
 3.  Lo schizzo risultante viene creato come un nuovo oggetto separato.
 
 
-</div>
 
-## Notes
+## Note
 
--   Multiple sketches can be selected before applying the operation.
-
-
-<div class="mw-translate-fuzzy">
+-   È possibile selezionare più schizzi prima di applicare l\'operazione.
 
 
 
-
-
-</div>
 
 
 {{Sketcher Tools navi

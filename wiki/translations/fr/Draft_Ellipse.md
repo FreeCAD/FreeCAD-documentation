@@ -19,47 +19,55 @@ Une Draft Ellipse peut être transformée en arc d\'ellipse en donnant à **Firs
 <img alt="" src=images/Draft_ellipse_example.jpg  style="width:400px;"> 
 *Ellipse définie par les coins d'un rectangle*
 
+
+
 ## Utilisation
 
 Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/fr.md)**.
-    -   Sélectionnez l\'option **Draft → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** dans le menu.
-    -   Utilisez le raccourci clavier : **E** puis **L**.
+    -   Appuyer sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Ellipse](Draft_Ellipse/fr.md)**.
+    -   Sélectionner l\'option **Draft → <img src="images/Draft_Ellipse.svg" width=16px> Ellipse** du menu.
+    -   Utiliser le raccourci clavier : **E** puis **L**.
 2.  Le panneau de tâches **Ellipse** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-4.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point ne doit pas être contraint sur l\'axe X, Y ou Z.
+3.  Choisir le premier point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+4.  Choisir le deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrer des coordonnées et appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point ne doit pas être contraint sur l\'axe X, Y ou Z.
 
 ## Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
--   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z, et appuyez sur **Entrée** après chacune, ou, vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
+-   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z, et appuyez sur **Entrée** après chacune, ou, vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées du deuxième point sont relatives au premier point, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **L** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, l\'ellipse créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura un face remplie.
--   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des ellipses.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **F** ou cliquez sur la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, l\'ellipse créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura un face remplie.
+-   Appuyez sur **N** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des ellipses.
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
+
+
 
 ## Remarques
 
--   Une Draft Ellipse peut être éditée avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Une Draft Ellipse peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
+
+
 
 ## Préférences
 
 Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Préférences](Draft_Preferences/fr.md).
 
--   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Système d'unités → Nombre de décimales**.
--   Pour modifier la valeur initiale du mode rempli : **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Remplir les objets avec des faces si possible**. La modification du mode de remplissage dans un panneau de tâches annule cette préférence pour la session FreeCAD en cours.
--   Si l\'option **Édition → Préférences... → Draft → Paramètres généraux → Options des outils de Draft → Utiliser les primitives de Part si possible** est cochée, la commande créera une [Part Ellipse](Part_Ellipse/fr.md) au lieu d\'une Draft Ellipse.
+-   Si l\'option **Édition → Préférences... → Draft → Général → Créer des primitives Part si possible** est cochée, la commande créera une [Part Ellipse](Part_Ellipse/fr.md) au lieu d\'une Draft Ellipse.
+
+
 
 ## Propriétés
 
 Voir aussi: [Éditeur de propriétés](Property_editor/fr.md)
 
 Un objet Draft Ellipse est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+
+
 
 ### Données
 
@@ -78,6 +86,8 @@ Un objet Draft Ellipse est dérivé d\'un [Part Part2DObject](Part_Part2DObject/
 
 -    **Minor Radius|Length**: spécifie le rayon mineur de l\'ellipse.
 
+
+
 ### Vue
 
 
@@ -86,6 +96,8 @@ Un objet Draft Ellipse est dérivé d\'un [Part Part2DObject](Part_Part2DObject/
 -    **Pattern|Enumeration**: spécifie un [Draft Motif](Draft_Pattern/fr.md). avec lequel remplir la face de l\'ellipse. Cette propriété ne fonctionne que si **Make Face** est `True` et si **Display Mode** est {{value|Flat Lines}}.
 
 -    **Pattern Size|Float**: spécifie la taille du [Draft Motif](Draft_Pattern/fr.md).
+
+
 
 ## Script
 
@@ -103,7 +115,7 @@ ellipse = make_ellipse(majradius, minradius, placement=None, face=True, support=
 -   Si `placement` est `None`, l\'ellipse sera créée à l\'origine.
 -   Si `face` est `True`, l\'ellipse fera une surface c\'est-à-dire rempli.
 
-Exemple:
+Exemple :
 
 
 ```python

@@ -11,19 +11,15 @@
 
 ## Beschreibung
 
+Das Werkzeug <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Taschenform](Path_Pocket_Shape/de.md) erzeugt eine Taschenbearbeitung von ausgewählten Bodenflächen oder Wänden einer oder mehrerer Taschen des Basisobjekts des Auftrags.
 
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug erzeugt eine Taschenbearbeitung von ausgewählten Bodenflächen oder Wänden einer oder mehrerer Taschen des Basisobjekts des Auftrags.
-
-
-</div>
-
-The Path Pocket Shape object is made to be part of a <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path Job](Path_Job.md).
+Das Path-Pocket_Shape-Objekt ist dazu gedacht, Teil eines <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Path-Auftrags](Path_Job/de.md) zu sein.
 
 <img alt="" src=images/Path_Pocket_Shape_example.png  style="width:600px;">
 
-## Usage
+
+
+## Anwendung
 
 1.  Select the bottom or the wall(s) of a pocket. While it is usually easier to select the bottom, the walls have to be selected when a pocket goes through all.
 2.  There are several ways to invoke the command:
@@ -31,7 +27,9 @@ The Path Pocket Shape object is made to be part of a <img alt="" src=images/Path
     -   Select the **Path → <img src="images/Path_Pocket_Shape.svg" width=16px> Pocket Shape** option from the menu.
 3.  Adjust the desired properties.
 
-## Properties
+
+
+## Eigenschaften
 
 ***Note***: Not all of these Properties are available in the Task Window Editor. Some are only accessible in the Data tab of the Properties View panel for this Operation.
 
@@ -174,7 +172,9 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 This section is simply a layout map of the settings in the window editor for the Operation.
 
-### Base Geometry 
+
+
+### Basisgeometrie
 
 -   **Add**: Adds selected element(s) which should be the base(s) for the path(s)
 -   **Delete**: Delete the selected item(s) in the Base Geometry list
@@ -231,12 +231,14 @@ This section is simply a layout map of the settings in the window editor for the
 
 -    **Pass Extension**: The distance the facing operation will extend beyond the boundary shape (base geometry)
 
-## Scripting
 
 
-**See also:**
+## Skripten
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+**Siehe auch:**
+
+[FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 ```python

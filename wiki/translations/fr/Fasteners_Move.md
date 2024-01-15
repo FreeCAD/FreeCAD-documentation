@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Fasteners Move
-   Name/fr: Fasteners Move
-   MenuLocation: Fasteners , Move fastener
+   Name/fr: Fasteners Déplacer la fixation
+   MenuLocation: Fasteners , Déplacer la fixation
    Workbenches: Fasteners_Workbench/fr
 ---
 
@@ -10,9 +10,13 @@
 
 ## Description
 
-La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** déplace et attache une fixation à un bord circulaire. Elle peut également être utilisée pour détacher une fixation. Une fixation attachée a une **base Object** et sa **Placement** est liée dynamiquement à cet objet.
+La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Déplacer la fixation** déplace et attache une fixation à un bord circulaire. Elle peut également être utilisée pour détacher une fixation. Une fixation attachée a une **base Object** et sa **Placement** est liée dynamiquement à cet objet.
+
+
 
 ## Utilisation
+
+
 
 ### Attacher
 
@@ -21,16 +25,18 @@ La commande <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fa
 
 1.  Sélectionnez une seule fixation et un seul bord circulaire.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/fr.md)**.
-    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Déplacer la fixation](Fasteners_Move/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Déplacer la fixation** du menu.
 3.  La fixation se déplace vers l\'arête sélectionnée et s\'y fixe.
+
+
 
 ### Détacher
 
 1.  Sélectionnez une seule fixation.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Move fastener](Fasteners_Move/fr.md)**.
-    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Fasteners_Move.svg" width=16px> [Déplacer la fixation](Fasteners_Move/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Déplacer la fixation** du menu.
 3.  La fixation est détachée.
 
 

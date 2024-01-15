@@ -81,7 +81,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 -    **Base|LinkSub**: Sub-link to the parent feature\'s list of selected edges and faces.
 
--    **Support Transform|Bool**: \"Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning\". Default: `False`.
+-    **Support Transform|Bool**: Include the base additive/subtractive shape when used in pattern features. If disabled, only the dressed part of the shape is used for patterning. Default: `False`.
 
 -    **Add Sub Shape|PartShape|hidden**
     
@@ -101,7 +101,7 @@ A PartDesign Draft object is derived from a [Part Feature](Part_Feature.md) obje
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: \"Refine shape (clean up redundant edges) after adding/subtracting\". The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
+-    **Refine|Bool**: Refine shape (clean up redundant edges) after adding/subtracting. The default value is determined by the **Automatically refine model after sketch-based operation** preference. See [PartDesign Preferences](PartDesign_Preferences#General.md).
 
 
 

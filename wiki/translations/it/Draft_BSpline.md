@@ -2,7 +2,7 @@
  GuiCommand:
    Name: Draft BSpline
    Name/it: BSpline
-   MenuLocation: Drafting , BSpline
+   MenuLocation: Drafting , B-spline
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
    Shortcut: **B** **S**
    Version: 0.7
@@ -30,9 +30,9 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 1.  Esistono diversi modi per invocare il comando:
     -   Premere il pulsante **<img src="images/Draft_BSpline.svg" width=16px> [BSpline](Draft_BSpline/it.md)**.
-    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_BSpline.svg" width=16px> BSpline** dal menu.
+    -   Selezionare l\'opzione **Drafting → <img src="images/Draft_BSpline.svg" width=16px> B-spline** dal menu.
     -   Usare la scorciatoia da tastiera: **B** poi **S**.
-2.  Si apre il pannello attività **BSpline**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
+2.  Si apre il pannello attività **B-spline**. Vedere [Opzioni](#Options.md) per maggiori informazioni.
 3.  Scegliere il primo punto nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 4.  Scegliere altri punti nella [Vista 3D](3D_view/it.md), oppure digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 5.  Premere **Esc** o il pulsante **Chiudi** per terminare il comando.
@@ -41,13 +41,13 @@ Vedere anche: [Barra di Draft](Draft_Tray/it.md), [Aggancio](Draft_Snap/it.md) e
 
 ## Opzioni
 
-Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md). Le scorciatoie menzionate qui sono le scorciatoie predefinite.
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
 
 -   Per inserire manualmente le coordinate, inserire le componenti X, Y e Z e premere **Enter** dopo ognuna di essei. Oppure si può premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando ha i valori desiderati. Si consiglia di spostare il puntatore fuori dalla [Vista 3D](3D_view/it.md) prima di inserire le coordinate.
 -   Premere **R** o fare clic sulla casella di controllo **Relativo** per attivare o disattivare la modalità relativa. Se la modalità relativa è attiva, le coordinate sono relative all\'ultimo punto, se disponibile, altrimenti sono relative all\'origine del sistema di coordinate.
 -   Premere **G** o fare clic sulla casella di controllo **Globale** per attivare o disattivare la modalità globale. Se la modalità globale è attiva, le coordinate sono relative al sistema di coordinate globale, altrimenti sono relative al sistema di coordinate [piano di lavoro](Draft_SelectPlane/it.md). {{Version/it|0.20}}
--   Premere **L** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la spline creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si intersechi. Si noti che una spline autointersecante con una faccia non verrà visualizzata correttamente, per tale spline **Make Face** deve essere impostato su `False`.
--   Premere **T** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una spline chiusa eseguendo lo snap al primo punto della spline, consentendo di continuare a creare altre spline.
+-   Premere **F** o fare clic sulla casella di controllo **Riempito** per attivare o disattivare la modalità riempimento. Se la modalità riempimento è attiva, la spline creata avrà **Make Face** impostato su `True` e avrà una faccia piena, a condizione che sia chiusa e non si intersechi. Si noti che una spline autointersecante con una faccia non verrà visualizzata correttamente, per tale spline **Make Face** deve essere impostato su `False`.
+-   Premere **N** o fare clic sulla casella di controllo **Continua** per attivare o disattivare la modalità continua. Se la modalità continua è attiva, il comando verrà riavviato dopo aver utilizzato **<img src="images/Draft_FinishLine.svg" width=16px> Fine** o **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi**, o dopo aver creato una spline chiusa eseguendo lo snap al primo punto della spline, consentendo di continuare a creare altre spline.
 -   Premere **/** o il pulsante **<img src="images/Draft_UndoLine.svg" width=16px> Annulla** per annullare l\'ultimo punto.
 -   Premere **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=16px> Fine** per terminare il comando e lasciare aperta la spline.
 -   Premere **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=16px> Chiudi** per terminare il comando e chiudere la spline. È inoltre possibile creare una spline chiusa eseguendo lo snap al primo punto della spline.
@@ -62,15 +62,6 @@ Le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle at
 
 -   Una BSpline può essere modificata con il comando [Modifica](Draft_Edit/it.md).
 -   Una BSpline può essere convertita in un [Polilinea](Draft_Wire/it.md) con il comando [Convertire tra polilinea e BSpline](Draft_WireToBSpline/it.md).
-
-
-
-## Preferenze
-
-Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
-
--   Per modificare il numero di decimali utilizzati per l\'inserimento delle coordinate: **Modifica → Preferenze... → Generale → Unità → Impostazioni unità → Numero di cifre decimali**.
--   Per modificare il valore iniziale della modalità riempimento: **Modifica → Preferenze... → Draft → Impostazioni generali → Opzioni strumenti Draft → Riempi gli oggetti con le facce quando possibile**. La modifica della modalità di riempimento in un pannello delle attività sovrascriverà questa preferenza per la sessione corrente di FreeCAD.
 
 
 

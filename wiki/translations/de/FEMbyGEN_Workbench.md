@@ -22,23 +22,26 @@ FEMbyGEN is a FreeCAD addon. It provides a simple interface to choose the best s
 7.  You can check simulation files by clicking rows of the related generation.
 8.  Click on the **Results** button to get results into the master file.
 9.  Summation of all load case results will also be under Results in the [tree view](Tree_view.md).
+10. If you want to get a recommendation for your design instead of parametric analysis, click on **CreatGeo** to define the boundary conditions of your design, such as loads, supports, protection geometries. After that it will create a boundbox and then optimize it to suggest you the most suitable geometry. You can use the slider to see previous suggestions.
+11. Click **Topology** to run the topology simulation for generations or just the file with FEM analysis defined. On the screen you can define your optimization parameter and it will eventually show the results. the bottom slider will help you to see the progress of the topology optimization.
 
 ### Features
 
 -   Parametric FEM analysis
--   Supports multiple loadcases
+-   Supports multiple load cases
 -   Summarize all the results in a table
 -   Sort results by your output weight
 -   Summation of all load cases
+-   Geometry suggestion based on your boundary condition
+-   Topology optimization
 
 ### Features to be supported in the future 
 
--   Topology Analysis
--   Taguchi Method to generate parametric variations
+-   Implementation other than BESO topology method
 
 ### Limitations
 
--   Works only with Calculix Solver
+-   Works only with CalculiX Solver
 
 ## Installation
 
@@ -50,7 +53,7 @@ FEMbyGEN can easily be installed via the FreeCAD <img alt="" src=images/AddonMan
 
 FEMbyGEN is under active development and will get new features frequently. Therefore you should update it regularly using also the menu **Tools → Addon manager**.
 
-The FEMbyGEN code is hosted and developed [FEMbyGEN on GitHub.com](https://github.com/Serince/FEMbyGEN).
+The FEMbyGEN code is hosted and developed on [GitHub.com](https://github.com/Serince/FEMbyGEN).
 
 ### Manual
 

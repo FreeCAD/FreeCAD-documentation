@@ -14,7 +14,8 @@
 
 ## Opis
 
-To narzędzie [16px](Plik:Sketcher_Create3PointCircle.svg.md) rysuje okrąg poprzez wybranie trzech punktów na konturze okręgu. Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyż z czerwoną ikoną okręgu. Poza tym są to współrzędne pokazywane w czasie rzeczywistym.
+To narzędzie [16px](Plik:Sketcher_Create3PointCircle.svg.md) rysuje okrąg poprzez wybranie trzech punktów na konturze okręgu.
+Po uruchomieniu narzędzia kursor myszki zmienia się w biały krzyż z czerwoną ikoną okręgu. Poza tym są to współrzędne pokazywane w czasie rzeczywistym.
 
 
 

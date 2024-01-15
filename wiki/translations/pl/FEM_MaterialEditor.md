@@ -1,52 +1,61 @@
 ---
  GuiCommand:
    Name: FEM MaterialEditor
-   MenuLocation: Model , Materials , Material editor
-   Workbenches: FEM_Workbench, Arch_Workbench
+   MenuLocation: Model , Materiały , Edytor materiału
+   Workbenches: FEM_Workbench/pl, Arch_Workbench/pl
    Version: 0.18
-   SeeAlso: Arch_SetMaterial, FEM_tutorial
+   SeeAlso: Arch_SetMaterial/pl|Architektura: Wybór materiału
+, FEM_tutorial/pl
 ---
 
 # FEM MaterialEditor/pl
 
-## Description
 
-The **Material Editor** allows you to edit and save the information contained in a [FreeCAD material](Material.md). Currently such materials are used by the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench.md) and <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md) workbenches.
+
+## Opis
+
+**Edytor materiału** umożliwia edycję i zapis informacji zawartych w [materiale programu FreeCAD](Material/pl.md). Obecnie takie materiały są używane przez środowiska <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md) i <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md).
 
 ![](images/Material_editor.png )
 
-## Usage
 
-The material editor can currently be accessed by either:
 
-1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md):
-    -   The **<img src="images/Arch_SetMaterial.svg" width=16px> [Material](Arch_SetMaterial.md)** button.
-    -   The menu **Arch → Material tools → <img src="images/Arch_SetMaterial.svg" width=16px> Material** entry.
-2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md):
-    -   The **<img src="images/FEM_MaterialEditor.svg" width=16px> [Material editor](FEM_MaterialEditor.md)** button.
-    -   The menu **Model → Materials → <img src="images/FEM_MaterialEditor.svg" width=16px> Material editor** entry.
+## Użycie
 
-## Options
+Edytor materiału można obecnie uruchomić poprzezː
 
--   **Browser button**: Opens the contents of the URL property in a browser
+1.  <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Środowisko pracy Architektura](Arch_Workbench/pl.md):
+    -   Przycisk **<img src="images/Arch_SetMaterial.svg" width=16px> '''Wybór materiału'''**.
+    -   Opcję **Architektura → Narzędzia materiałowe → <img src="images/Arch_SetMaterial.svg" width=16px> Materiał** w menu.
+2.  <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [Środowisko pracy MES](FEM_Workbench/pl.md):
+    -   Przycisk **<img src="images/FEM_MaterialEditor.svg" width=16px> '''Edytor materiału'''**.
+    -   Opcję **Model → Materiały → <img src="images/FEM_MaterialEditor.svg" width=16px> Edytor materiału** w menu.
 
--   **Material card**: Allows to choose a preset to fill in the fields
 
--    **Open**: Opens a .FCMat file
 
--    **Save as**: Saves the contents of the editor as a new .FCMat file
+## Opcje
 
--   **Preview**: Not implemented yet
+-   **Browser button**: Otwiera zawartość właściwości URL w przeglądarce.
 
--   **Properties editor**: Allows to edit the contents of the material properties
+-   **Material card**: Umożliwia wybranie predefiniowanego materiału z wypełnionymi polami.
 
--    **Add property**: Allows to add a new custom property
+-    **Open**: Otwiera plik .FCMat.
 
--    **Delete property**: Deletes a selected property. Only custom properties can be deleted
+-    **Save as**: Zapisuje zawartość edytora jako nowy plik .FCMat
 
-## Notes
+-   **Preview**: Niezaimplementowane.
 
--   The **OK** and **Cancel** buttons have the same effect when the Material editor is not used to edit directly the material property of an existing object.
+-   **Properties editor**: Umożliwia edycję właściwości materiału.
+
+-    **Add property**: Umożliwia dodanie nowej właściwości użytkownika.
+
+-    **Delete property**: Usuwa wybraną właściwość. Tylko właściwości użytkownika mogą być usunięte.
+
+
+
+## Uwagi
+
+-   Przyciski **OK** i **Anuluj** mają ten sam efekt gdy Edytor materiału nie jest używany bezpośrednio do edycji właściwości materiału istniejącego obiektu.
 
 
 

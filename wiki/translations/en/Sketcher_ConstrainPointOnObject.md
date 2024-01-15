@@ -4,7 +4,7 @@
    MenuLocation: Sketch , Sketcher constraints , Constrain point onto object
    Workbenches: Sketcher_Workbench
    Shortcut: **O**
-   SeeAlso: Sketcher_ConstrainCoincident
+   SeeAlso: Sketcher_ConstrainCoincidentUnified, Sketcher_ConstrainCoincident
 ---
 
 # Sketcher ConstrainPointOnObject/en
@@ -42,7 +42,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

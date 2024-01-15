@@ -10,6 +10,8 @@
 
 # Draft Downgrade/de
 
+
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf Herabstufen** Befehl stuft ausgewählte Objekte herab. Das Ergebnis ist abhängig von der Anzahl der ausgewählten Objekte und deren Typ. Der Befehl kann zum Beispiel einen 3D Körper in einzelne Flächen und einen Draht in einzelne Kanten zerlegen. Wenn zwei Flächen ausgewählt sind, wird daraus ein [Part Schnitt](Part_Cut/de.md) Objekt erzeugt. Beachte, dass nicht alle Objekte zerlegt werden können. Dieser Befehl ist das Gegenstück zum Befehl [Entwurf Hochstufen](Draft_Upgrade/de.md).
@@ -17,14 +19,18 @@ Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf H
 <img alt="" src=images/Draft_Downgrade_example.jpg  style="width:400px;"> 
 *Zwei überlappende Flächen werden zu einem Part Schnitt Objekt herabgestuft, das wiederum zu einer Fläche herabgestuft wird. Diese Fläche wird dann zu einem geschlossenen Draht herabgestuft, der schließlich zu separaten Kanten herabgestuft wird.*
 
+
+
 ## Anwendung
 
-1.  Wähle optional ein oder mehrere Objekte aus.
+1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_Downgrade.svg" width=16px> [Entwurf Herabstufen](Draft_Downgrade/de.md)**.
-    -   Wähle die Option **Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **D** dann **N**.
-3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D Ansicht](3D_view/de.md).
+    -   Die Schaltfläche **<img src="images/Draft_Downgrade.svg" width=16px> [Draft Herabstufen](Draft_Downgrade/de.md)**.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Downgrade.svg" width=16px> Herabstufen** auswählen.
+    -   Das Tastaturkürzel **D** dann **N**.
+3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+
+
 
 ## Skripten
 

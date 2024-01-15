@@ -1,4 +1,7 @@
 # Macro Circle/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Circle
 |Translate=Cerchio
@@ -12,16 +15,35 @@
 |SeeAlso=[Macro CirclePlus](Macro_CirclePlus.md) <img src="images/Macro_CirclePlus.png" width=24px>
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa piccola macro crea un cerchio o un arco fornendo a scelta raggio, diametro, circonferenza, area, angolo iniziale, angolo finale, lunghezza dell\'arco, angolo al centro, corda, freccia, centro, placemObject. Il nuovo cerchio viene creato nella coordinata reale dell\'oggetto, non nelle coordinate del corpo.
 {{ColoredText|(Riga di comando, incolla questa macro completa nella console Python)}}.
 
+
+</div>
+
 Il cerchio viene posto frontale allo schermo, con getCameraOrientation, oppure secondo il posizionamento dato
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Utilizzo
 
 Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sarà disponibile per tutta la sessione (è anche possibile utilizzare questo codice in una macro). Assegnare a scelta i parametri:
+
+
+</div>
 
 -   **x y z** : coordinate del cerchio, se non sono attribuite, il cerchio viene creato alle coordinate 0,0,0
 -   **radius** : raggio del cerchio
@@ -45,7 +67,8 @@ Copiare il codice e incollarlo nella console Python di FreeCAD, la funzione sar�
     -   give **placemObject = pl**
 
 Se non vengono forniti dei parametri, ad esempio \"**circle()**\", nella vista Report viene visualizzato l\'elenco delle funzioni disponibili.
-==Script==
+
+## Script
 
 ToolBar Icon ![](images/Macro_Circle.png )
 
@@ -133,9 +156,17 @@ def circle(x=0.0,y=0.0,z=0.0,radius=0.0,diameter=0.0,circumference=0.0,area=0.0,
 
 }}
 
+## Memo of circle 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Promemoria sulle circonferenze 
 
 **Esempi di codice**
+
+
+</div>
 
 
 ```python
@@ -155,6 +186,8 @@ circle(x=65,y=-15,arc=3.5,anglecenter=40,startangle=20,center=1)    # example 6 
 ```
 
 <img alt="examples" src=images/Macro_Circle_02.png  style="width:640px;">
+
+
 
 
 

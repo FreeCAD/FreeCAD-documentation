@@ -37,6 +37,7 @@ When creating models using the [PartDesign workbench](PartDesign_Workbench.md), 
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+
     :   *Select feature* dialog. These settings create a sketch on the XY plane and allow cross-references from other items of the same body
 
 Dialog settings

@@ -4,13 +4,10 @@
    Name/de: TechDraw Beschriftung
    MenuLocation: TechDraw , Anmerkungen , Anmerkung einfügen
    Workbenches: TechDraw_Workbench/de
-   SeeAlso: Draft_Text/de, Draft_ShapeString/de
+   SeeAlso: TechDraw_RichTextAnnotation/de
 ---
 
 # TechDraw Annotation/de
-
-
-</div>
 
 
 
@@ -25,43 +22,25 @@ Das Werkzeug **TechDraw Beschriftung** fügt einem Zeichnungsblatt einen Textblo
 
 ## Anwendung
 
+1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Annotation.svg" width=16px> [Anmerkung einfügen](TechDraw_Annotation.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Anmerkungen → <img src="images/TechDraw_Annotation.svg" width=16px> Anmerkung einfügen** auswählen.
+3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
+    1.  Das gewünschte Blatt auswählen.
+    2.  Die Schaltfläche **OK** drücken.
+4.  Ein Textblock mit *Default Text* erscheint auf der Zeichnung.
+5.  Zum Bearbeiten des Textes wird der [ Eigenschafteneditor](Property_editor/de.md) verwendet.
+6.  Wahlweise den Textblock auf die gewünschte Position ziehen.
 
-<div class="mw-translate-fuzzy">
-
-1.  Sind mehrere Zeichnungsblätter in einem Dokument vorhanden, muss die gewünschte Seite im Baum ausgewählt werden.
-2.  Die Schaltfläche **<img src="images/TechDraw_Annotation.svg" width=24px> [Anmerkung einfügen](TechDraw_Annotation/de.md)** drücken.
-3.  Ein Textblock mit *Default Text* erscheint auf der Seite. Zum Ändern des Textes, wird der Eigenschafteneditor verwendet. Die Anmerkung an die gewünschte Position ziehen.
-4.  Möglicherweise musst **<img src="images/Std_Refresh.svg" width=16px> [Aktualisieren](Std_Refresh/de.md)** und/oder **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Seite neu zeichnen](TechDraw_RedrawPage/de.md)** gedrückt werden, damit sich der Text ändert.
-
-
-</div>
-
-![](images/UpdateAnnotation.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
+![](images/UpdateAnnotation.png ) 
 *Ändern der Beschriftung im Eigenschafteneditor*
-
-
-</div>
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-
-**Hinweis:**
-
-Einige Zeichen stören die interne Darstellung des Beschriftungstextes. Im Einzelnen sind dies die doppelten Anführungszeichen `"` sowie die Symbole kleiner als `<` und größer als `>`; diese müssen durch die HTML-Escape-Zeichen `&amp;quot;`, `&amp;lt;` und `&amp;gt;` entsprechend ersetzt werden. Siehe [Zeichenkodierungen in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) für Einzelheiten.
-
-
-</div>
+-   Einige Zeichen stören die interne Darstellung des Beschriftungstextes. Im Einzelnen sind dies die doppelten Anführungszeichen `"` sowie die Symbole kleiner als `<` und größer als `>`; diese müssen durch die HTML-Escape-Zeichen `&amp;quot;`, `&amp;lt;` und `&amp;gt;` entsprechend ersetzt werden. Siehe [Zeichenkodierungen in HTML](https://en.wikipedia.org/wiki/Character_encodings_in_HTML#HTML_character_references) für Einzelheiten.
 
 
 

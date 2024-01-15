@@ -1,5 +1,5 @@
 # Manual:Creating renderings/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
 
 Dans le langage des ordinateurs, un rendu ([rendering](https://en.wikipedia.org/wiki/Rendering_%28computer_graphics%29)) est un mot utilisé pour décrire une belle image produite à partir d\'un modèle 3D. Bien sûr, nous pourrions dire que ce que vous voyez dans la vue 3D FreeCAD est déjà sympa. Mais quiconque a vu un film récent de Hollywood sait qu\'il est possible de produire des images avec un ordinateur qui ne se distinguent guère d\'une photographie.
 
@@ -18,6 +18,8 @@ Une fois que POV-Ray ou LuxRender est installé, nous devons définir le chemin 
 ![](images/Exercise_raytracing_01.jpg )
 
 Dans cet écran de préférences, nous pouvons également définir la taille de l\'image que nous voulons produire.
+
+
 
 ### Rendu avec PovRay 
 
@@ -47,6 +49,8 @@ Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la
 -   Lorsque cela sera fait, cliquez simplement sur l\'image pour fermer la fenêtre de Povray. L\'image résulatnate sera chargée dans FreeCAD :
 
 ![](images/Exercise_raytracing_04.jpg )
+
+
 
 ### Rendu avec LuxRender 
 

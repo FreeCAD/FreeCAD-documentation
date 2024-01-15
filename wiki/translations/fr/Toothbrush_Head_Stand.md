@@ -68,7 +68,7 @@ Maintenant vous avez un carré mobile.
 
 -   Cliquez sur le point en bas à gauche du carré.
 -   Cliquez sur l\'origine du plan XY (à l\'intersection des deux lignes épaisses).
--   Cliquez sur le bouton <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Coincident**](Sketcher_ConstrainCoincident/fr.md).
+-   Cliquez sur le bouton <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [**Contrainte de coïncidence**](Sketcher_ConstrainCoincident/fr.md).
 
 <img alt="" src=images/TBHS-5.JPG  style="width:800px;">
 
@@ -130,7 +130,7 @@ Maintenant les cercles ont le même rayons
 
 Ces lignes seront les références pour positionner les cercles
 
--   Cliquez sur l\'outil **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur l\'outil **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte de distance'''](Sketcher_ConstrainDistance/fr.md)**
 -   Cliquez sur le centre d\'un cercle
 -   Cliquez sur une ligne magenta du bord
 -   Définissez 20mm (pour chaque cercle, vers les deux bords les plus proches)
@@ -257,7 +257,7 @@ Dans cette deuxième partie, vous apprendrez également à utiliser d\'autres ou
 Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 -   Cliquez sur l\'une des lignes horizontales du contour oblong
--   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte de distance**](Sketcher_ConstrainDistance/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 75mm, cliquez sur OK.
     -   Pour un support à 3 têtes, comptez 25mm pour chacune, si vous en voulez plus
 
@@ -265,7 +265,7 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 -   Cliquez sur un point de la ligne horizontale
 -   Cliquez sur un point de l\'autre ligne horizontale
--   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte de distance**](Sketcher_ConstrainDistance/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 29mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-3.JPG  style="width:800px;">
@@ -332,14 +332,14 @@ Maintenant nous avons un contour oblong mobile et sans dimensions spécifiées
 
 -   Cliquez sur le centre de l\'hexagone
 -   Cliquez sur la ligne horizontale du plan XY
--   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte de distance**](Sketcher_ConstrainDistance/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 15 mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-14.JPG  style="width:800px;">
 
 -   Cliquez sur le centre de l\' hexagone
 -   Cliquez sur la vertical du plan XY
--   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte dimensionnelle**](Sketcher_ConstrainDistance/fr.md)
+-   Cliquez sur <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Contrainte de distance**](Sketcher_ConstrainDistance/fr.md)
 -   Une boîte de dialogue vous invite à définir une dimension. Entrez 10 mm, cliquez sur OK.
 
 <img alt="" src=images/TBHS2-15.JPG  style="width:800px;">

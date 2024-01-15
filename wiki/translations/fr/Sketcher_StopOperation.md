@@ -13,7 +13,7 @@
 
 **[<img src=images/Sketcher_StopOperation.svg style="width:16px"> [Arrêter l'opération](Sketcher_StopOperation/fr.md)**
 
-arrête une commande active en cours pendant qu\'une esquisse est en cours d\'édition. Cela peut signifier une opération de dessin, une opération de contrainte, une opération B-spline, etc\...
+arrête une commande active en cours pendant qu\'une esquisse est en cours d\'édition. Cela peut signifier une opération de dessin, une opération de contrainte, une opération sur une B-spline, etc\...
 
 Cela revient à appuyer sur la touche **Echap**.
 

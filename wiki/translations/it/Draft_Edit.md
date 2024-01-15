@@ -29,7 +29,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 2.  Esistono diversi modi per invocare il comando:
     -   Se non si ha ancora selezionato un oggetto: fare doppio clic su un oggetto nella [Vista ad albero](Tree_view/it.md). Funziona solo per gli oggetti Draft supportati.
     -   Premere il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**.
-    -   Selezionare l\'opzione **Modifica → <img src="images/Draft_Edit.svg" width=16px> Modifica** dal menu.
+    -   Selezionare l\'opzione **Modifiche → <img src="images/Draft_Edit.svg" width=16px> Modifica** dal menu.
     -   Usare la scorciatoia da tastiera: **D** poi **E**.
     -   Per un singolo oggetto: selezionare l\'opzione **Modifica** dal menu contestuale [Vista ad albero](Tree_view/it.md). Funziona solo per gli oggetti Draft supportati. {{Version/it|0.21}}
 3.  Se non si ha ancora selezionato un oggetto: selezionare un oggetto nella [Vista 3D](3D_view/it.md).
@@ -55,7 +55,7 @@ Vedere anche: [Aggancio](Draft_Snap/it.md) e [Vincolare](Draft_Constrain/it.md).
 
 ## Opzioni
 
-Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere modificate. Vedere [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
+È possibile modificare le scorciatoie da tastiera a carattere singolo disponibili nel pannello delle attività. Vedere [Preferenze di Draft](Draft_Preferences/it.md). Le scorciatoie qui menzionate sono le scorciatoie predefinite (per la versione 0.22).
 
 
 
@@ -83,7 +83,7 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 -   Se il nodo iniziale o finale di una polilinea aperta viene spostato in modo che coincidano, la polilinea viene chiusa.
 -   Menu contestuale del nodo: {{Value|Elimina punto}}. Devono rimanere almeno due punti.
--   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Close/Apri polilinea}} ({{Version/it|0.21}}) e {{Value|Inverti polilinea}} ({{Version/it|0.20}}).
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Apri  polilinea}}/{{Value|Chiudi polilinea}} ({{Version/it|0.21}}) e {{Value|Inverti polilinea}} ({{Version/it|0.20}}).
 
 
 
@@ -125,7 +125,7 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 -   Se il nodo iniziale o finale di una spline aperta viene spostato in modo che coincidano, la spline viene chiusa.
 -   Menu contestuale del nodo: {{Value|Elimina punto}}. Per una spline aperta devono rimanere almeno due punti. Per una spline chiusa il numero minimo di punti è tre.
--   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Chiudi/Apri spline}} ({{Version/it|0.21}}) e {{Value|Inverti spline}} ({{Version/it|0.21}} ).
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Apri spline}}/{{Value|Chiudi spline}} ({{Version/it|0.21}}) e {{Value|Inverti spline}} ({{Version/it|0.21}} ).
 
 
 
@@ -133,7 +133,7 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 -   Se il nodo iniziale o finale di una curva aperta viene spostato in modo che coincidano, la curva viene chiusa.
 -   Menu contestuale del nodo: {{Value|Cancella punto}}, {{Value|Rendi acuto}}, {{Value|Rendi tangente}} e {{Value|Rendi simmetrico}}.
--   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Chiudi/Apri curva}} ({{Version/it|0.21}}) e {{Value|Inverti curva}} ({{Version/it|0.21}} ).
+-   Menu contestuale bordo: {{Value|Aggiungi punto}}, {{Value|Apri curva}}/{{Value|Chiudi curva}} ({{Version/it|0.21}}) e {{Value|Inverti curva}} ({{Version/it|0.21}} ).
 
 
 
@@ -223,7 +223,8 @@ Le scorciatoie da tastiera a carattere singolo menzionate qui possono essere mod
 
 Vedere anche: [Impostare le preferenze](Preferences_Editor/it.md) e [Preferenze per l\'ambiente Draft](Draft_Preferences/it.md).
 
--   Il colore dei nodi temporanei è lo stesso del colore dei simboli di snap. Questo colore può essere modificato nelle preferenze: **Modifica → Preferenze... → Draft → Impostazioni visive → Impostazioni visive → Colore**. Si noti che questo colore non viene utilizzato per i nodi temporanei visualizzati per [Draft BezCurves](Draft_BezCurve/it.md). Questi nodi usano invece il **Line Color** della curva.
+-   Il colore dei nodi temporanei è lo stesso del colore dei simboli di snap. Questo colore può essere modificato nelle preferenze: **Modifica → Preferenze... → Draft → Griglia e agganci → Colore simbolo di aggancio**. Si noti che questo colore non viene utilizzato per i nodi temporanei visualizzati per [Draft BezCurves](Draft_BezCurve/it.md). Questi nodi usano invece il **Line Color** della curva.
+-   La dimensione dei nodi dipende da: **Modifica → Preferenze... → Visualizzazione → Vista 3D → Dimensione marcatore**. {{Version/it|0.22}}
 
 
 

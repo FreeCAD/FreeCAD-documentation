@@ -17,7 +17,7 @@
 
 ## 描绘
 
-利用连线工具可创建一条折线(一系列互连的线段)。本工具利用[底图工具栏中的](Draft_Tray.md)[底图线条样式进行绘制](Draft_Linestyle.md)。除了允许用户输入2个以上的点之外，连线工具与[底图线段工具的行为完全相同](Draft_Line.md)。
+利用连线工具可创建一条折线(一系列互连的线段)。本工具利用[底图工具栏](Draft_Tray.md)中的[底图线条样式](Draft_Linestyle.md)进行绘制。除了允许用户输入2个以上的点之外，连线工具与[底图线段](Draft_Line.md)工具的行为完全相同。
 
 
 </div>
@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ### Options
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts (for version 0.22).
 
 
 <div class="mw-translate-fuzzy">
@@ -68,8 +68,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 :   
     **请注意:**若连线存在自相交的情况，便不能对其进行填充存在，因为它将无法创建对应真面（proper face）。如果对连线填充后却无法看到它本身的形状，就手动将**Make Face**设置为`False`来查看连线。
 
--   按住**Ctrl**键，将当前所绘点强制放在与之最近的[捕捉位置处](Draft_Snap.md)。
--   按住**Shift**键，将下一个点的位置[约束于上一个的水平方向或垂直方向上](Draft_Constrain.md)。
+-   按住**Ctrl**键，将当前所绘点强制放在与之最近的[捕捉](Draft_Snap.md)位置处。
+-   按住**Shift**键，将下一个点的位置[约束](Draft_Constrain.md)于上一个的水平方向或垂直方向上。
 -   按**Ctrl**+**Z**组合键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> Undo}}按钮来撤销当前操作，返回上一个操作点。
 -   按**Esc**键或{{button|Close}}按钮来终止当前连线命令；但此前绘制好的线段仍会保留。
 
@@ -96,13 +96,6 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 
 </div>
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
 
 ## Properties
 
@@ -158,9 +151,9 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 -    **Arrow Type**: 指定连线末尾处所示的符号类型，可以为\"Dot（点）\", \"Circle（圈）\", \"Arrow（箭头）\", 或\"Tick\"。
 
--    **Pattern**: 指定一种[图案来填写闭合连线所构成的面](Draft_Pattern.md)。只有在**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时，此属性才会生效。
+-    **Pattern**: 指定一种[图案](Draft_Pattern.md)来填写闭合连线所构成的面。只有在**Make Face**为`True`且**Display Mode**为\"Flat Lines\"时，此属性才会生效。
 
--    **Pattern Size**: 指定[图案的大小](Draft_Pattern.md)。
+-    **Pattern Size**: 指定[图案](Draft_Pattern.md)的大小。
 
 
 </div>
@@ -175,7 +168,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 **参见:**
 
-[Draft API与](Draft_API.md)[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
+[Draft API](Draft_API.md)与[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)。
 
 
 </div>
@@ -183,7 +176,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 <div class="mw-translate-fuzzy">
 
-借助下列函数即可在[宏与](macros.md)[Python控制台中使用连线绘制工具](Python.md)：
+借助下列函数即可在[宏](macros.md)与[Python](Python.md)控制台中使用连线绘制工具：
 
 
 </div>

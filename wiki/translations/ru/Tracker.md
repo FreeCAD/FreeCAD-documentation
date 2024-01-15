@@ -1,4 +1,16 @@
 # Tracker/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
+
+
+
 **In February 2022 FreeCAD bug tracking was migrated to [https://github.com/FreeCAD/FreeCAD/issues GitHub Issues]. The Mantis bug tracker described below is now in read-only mode.**
 
 ![](images/Mantis_logo_262x90.png )
@@ -10,6 +22,8 @@
 ![](images/Bugreport-workflow_ru.svg )
 
 Как показано на приведенной выше блок-схеме, перед созданием заявок всегда сначала ищите на форумах и в багтрекере, чтобы выяснить, является ли ваша проблема известной. Это экономит много времени / работы для разработчиков и волонтеров, которые могут потратить указанное время, делая FreeCAD еще более потрясающим.
+
+
 
 ## Как сообщить об ошибке 
 
@@ -30,6 +44,8 @@
 -   Пожалуйста, отправляйте отдельный отчет по каждой ошибке.
 -   Если ваша ошибка вызывает сбой в FreeCAD, и вы используете систему, которая ее поддерживает, вы можете попробовать запустить *\'обратную трассировку отладки\'* и прикрепить указанную трассировку к заявке. Это может сэкономить разработчикам много времени на выявление источника сбоя. Смотрите [Отладку](Debugging/ru.md) для получения более подробной информации.
 
+
+
 ## Запрос о новой возможности 
 
 Если вы хотите чтобы в FreeCAD что-то, что пока не реализовано: то это не баг, а запрос новой функциональности (feature request).
@@ -43,6 +59,8 @@
 
 ![FreeCAD Bugtracker report page - use the dropdown to correctly designate what the ticket is](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Отправка патчей 
 
 
@@ -52,6 +70,8 @@
 
 
 </div>
+
+
 
 ## Запрос на слияние (merge) 
 
@@ -167,10 +187,14 @@ The format MantisBT will recognize:
 For the inquisitive here is the regex MantisBT uses for this operation:
 
 
-## Related
 
--   [Bug Triage](Bug_Triage.md)
--   [Source Code Management](Source_Code_Management.md)
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 

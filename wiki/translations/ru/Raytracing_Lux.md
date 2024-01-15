@@ -41,4 +41,4 @@ Insert new LuxRender project in the document.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing Lux/ru
+⏵ [documentation index](../README.md) > Raytracing Lux/ru

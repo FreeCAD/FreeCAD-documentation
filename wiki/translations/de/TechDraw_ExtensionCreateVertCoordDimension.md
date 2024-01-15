@@ -15,13 +15,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:24px;"> **TechDraw ErgänzungVertikaleKoordinatenmaße** erzeugt eine vertikale Stufenbemaßung: mehrere Maße in gleichem Abstand mit der gleichen Basislinie.
-
-
-</div>
+Das Werkzeug **TechDraw ErgänzungVertikaleKoordinatenmaße** erstellt eine vertikale Stufenbemaßung: mehrere Maße in gleichem Abstand mit derselben Basislinie.
 
 <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimensionExample.png  style="width:400px;"> 
 *Rechts die erzeugten Maße*
@@ -30,19 +24,13 @@ Das Werkzeug <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.s
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Optiona kann der Abstand zwischen den Maßen mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md).
+1.  Wahlweise kann der Abstand zwischen den Maßen mit dem Werkzeug <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ErgänzungLinienmerkmaleAuswählen](TechDraw_ExtensionSelectLineAttributes/de.md) festgelegt werden.
 2.  Drei oder mehr Knotenpunkte auswählen.
 3.  Die Reihenfolge der Auswahl der beiden ersten Knotenpunkte bestimmt die Position der Basislinie. Wenn der erste gewählte Knotenpunkt unterhalb vom zweiten liegt, dann ist die Basislinie beim untersten Knotenpunkt, sonst beim obertsten Knotenpunkt.
 4.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
     -   Die Schaltfläche **<img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> [Vertikale Koordinatenmaße erstellen](TechDraw_ExtensionCreateVertCoordDimension/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → Ergänzungen: Maße → <img src="images/TechDraw_ExtensionCreateVertCoordDimension.svg" width=16px> Vertikale Koordinatenmaße erstellen** auswählen.
 5.  Stufenmaße mit zentrierten Maßzahlen werden eingefügt.
-
-
-</div>
 
 
 

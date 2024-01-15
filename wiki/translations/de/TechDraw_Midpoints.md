@@ -11,9 +11,6 @@
 # TechDraw Midpoints/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
@@ -26,20 +23,17 @@ Das Werkzeug **TechDraw Mittenpunkte** fügt einer oder mehreren Kanten einen Hi
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Eine oder mehrere Kanten in einer Ansicht auswählen.
-2.  Die Schaltfläche **<img src="images/TechDraw_Midpoints.svg" width=16px> Kantenmittelpunkte hinzufügen** drücken.
-3.  Hilfspunkte werden auf der halben Länge der Kante(n) hinzugefügt.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_Midpoints.svg" width=16px> [Kantenmittelpunkte hinzufügen](TechDraw_Midpoints.md) ** drücken.
+    -   Den Menüeintrag **TechDraw → Knoten hinzufügen → <img src="images/TechDraw_Midpoints.svg" width=16px> Kantenmittelpunkte hinzufügen** auswählen.
 
 
-</div>
 
-## Notes
+## Hinweise
 
--   The created cosmetic vertices are not parametrically linked to the selected edges.
--   To delete a cosmetic vertex use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
+-   Die erstellten Hilfspunkte sind nicht parametrisch mit den ausgewählten Kanten verbunden.
+-   Zum Löschen eines Hilfspunktes wird <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw Hilfsobjekte entfernen](TechDraw_CosmeticEraser/de.md) verwendet.
 
 
 

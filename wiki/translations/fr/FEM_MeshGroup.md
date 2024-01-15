@@ -15,15 +15,17 @@ Groupe de maillage FEM permet à l\'utilisateur de créer des groupes de sommets
 
 Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveurs externes (ou des visionneurs tels que ParaView) lorsqu\'ils ne sont pas encore implémentés avec leur propre routine d\'écriture de cas dans FreeCAD.
 
+
+
 ## Utilisation
 
 1.  Pour activer la fonction, il faut d\'abord fournir un <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
-2.  Ensuite, sélectionnez l\'objet Mesh dans la [Vue en arborescence](Tree_view/fr.md) et
-    -   Soit appuyez sur le bouton <img alt="" src=images/FEM_MeshGroup.svg  style="width:24px;"> de la barre d\'outils FEM
+2.  Ensuite, sélectionnez l\'objet Mesh dans la [vue en arborescence](Tree_view/fr.md) et
+    -   Soit appuyez sur le bouton **<img src="images/FEM_MeshGroup.svg" width=24px> [Groupe de maillage FEM](FEM_MeshGroup/fr.md)** de la barre d\'outils FEM.
     -   Soit sélectionnez l\'option **Maillage → <img src="images/FEM_MeshGroup.svg" width=24px> Groupe de maillage FEM** dans le menu déroulant.
 3.  Sélectionnez si le groupe est nommé ou étiqueté.
     -   Si **Nom** est sélectionné, le nom du MeshGroup est utilisé lors de l\'exportation du maillage.
-    -   Si **Etiquette** est sélectionné, le nom de l\'étiquette spécifiée sera utilisé lors de l\'exportation du maillage.
+    -   Si **Étiquette** est sélectionné, le nom de l\'étiquette spécifiée sera utilisé lors de l\'exportation du maillage.
 4.  Cliquez sur le bouton **OK**.
 5.  Fermez la tâche.
 
@@ -31,9 +33,11 @@ Groupe de maillage FEM permet donc à FreeCAD d\'être utilisé avec des solveur
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans l\'arborescence du modèle et appuyez sur **Appliquer** pour forcer un recalcul/réétiquetage du maillage.
 7.  Fermez la tâche.
 
+
+
 ## Remarques
 
--   Une fois que le maillage a été créé, vous pouvez modifier la propriété du label à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md).
+-   Une fois que le maillage a été créé, vous pouvez modifier la propriété du label à l\'aide de l\'[éditeur de propriétés](Property_editor/fr.md).
 -   Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
 -   Vous pouvez créer autant de groupes de mailles différents que nécessaire.
 

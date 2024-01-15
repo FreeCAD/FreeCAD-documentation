@@ -17,8 +17,8 @@ Fasteners with inch dimensions have green icons.*
 2.  Restart FreeCAD.
 3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
 4.  Optionally change the toolbar and menu layout:
-    1.  Go to: **Edit → Preferences... → Fasteners → General settings → Toolbar screw icons grouping**.
-    2.  Select one of the available options:
+    1.  Go to: **Edit → Preferences... → Fasteners → General settings**.
+    2.  Select one of the available **Toolbar screw icons grouping** options:
         -   
             **None**
             
@@ -33,7 +33,8 @@ Fasteners with inch dimensions have green icons.*
             **Dropdown buttons**
             
             : Fasteners are grouped in toolbars with flyouts.
-    3.  Restart FreeCAD.
+    3.  Optionally uncheck one or more **Fastener standards shown in toolbars** options. Unchecked standards are still available from the menu.
+    4.  Restart FreeCAD.
 
 ## Usage
 
@@ -99,9 +100,9 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_PEMStud.svg  style="width:32px;"> Self-clinching stud.
 
--   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> PCB standoff Female/Male.
+-   <img alt="" src=images/Fasteners_PCBStandoff.svg  style="width:32px;"> PCB standoff female/male.
 
--   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> PCB spacer Female/Female.
+-   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> PCB spacer female/female.
 
 -   <img alt="" src=images/Fasteners_IUTHeatInsert.svg  style="width:32px;"> Heat staked insert.
 
@@ -109,8 +110,13 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_DIN933.svg  style="width:32px;"> **DIN 933** Hexagon head screw.
 
+-   <img alt="" src=images/Fasteners_DIN961.svg  style="width:32px;"> **DIN 961** Hexagon head screw.
+
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8676.svg  style="width:32px;"> 
+**ISO 8676** Hexagon head screw with fine pitch thread. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_ISO4014.svg  style="width:32px;"> 
 **ISO 4014** Hexagon head bolt. *Product grades A and B.*
@@ -121,9 +127,9 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_DIN571.svg  style="width:32px;"> **DIN 571** Hexagon head wood screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hexagon head screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC hexagon head screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Hexagon head screw with flange.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC hexagon head screw with flange.
 
 ### Hexagon socket screws 
 
@@ -149,25 +155,25 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_ISO4029.svg  style="width:32px;"> **ISO 4029** Hexagon socket set screw with cup point.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width:32px;"> **ASME B18.3.1A** UNC Hexagon socket head cap screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1A.svg  style="width:32px;"> **ASME B18.3.1A** UNC hexagon socket head cap screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width:32px;"> **ASME B18.3.1G** UNC Hexagon socket head cap screw with low head.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.1G.svg  style="width:32px;"> **ASME B18.3.1G** UNC hexagon socket head cap screw with low head.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width:32px;"> **ASME B18.3.2** UNC Hexagon socket countersunk head screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.2.svg  style="width:32px;"> **ASME B18.3.2** UNC hexagon socket countersunk head screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.3A.svg  style="width:32px;"> **ASME B18.3.3A** UNC Hexagon socket button head screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.3A.svg  style="width:32px;"> **ASME B18.3.3A** UNC hexagon socket button head screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.3B.svg  style="width:32px;"> **ASME B18.3.3B** UNC Hexagon socket button head screw with flange.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.3B.svg  style="width:32px;"> **ASME B18.3.3B** UNC hexagon socket button head screw with flange.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.4.svg  style="width:32px;"> **ASME B18.3.4** UNC Hexagon socket head shoulder screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.4.svg  style="width:32px;"> **ASME B18.3.4** UNC hexagon socket head shoulder screw.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.5A.svg  style="width:32px;"> **ASME B18.3.5A** UNC Hexagon socket set screw with flat point.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.5A.svg  style="width:32px;"> **ASME B18.3.5A** UNC hexagon socket set screw with flat point.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.5B.svg  style="width:32px;"> **ASME B18.3.5B** UNC Hexagon socket set screw with cone point.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.5B.svg  style="width:32px;"> **ASME B18.3.5B** UNC hexagon socket set screw with cone point.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.5C.svg  style="width:32px;"> **ASME B18.3.5C** UNC Hexagon socket set screw with dog point.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.5C.svg  style="width:32px;"> **ASME B18.3.5C** UNC hexagon socket set screw with dog point.
 
--   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
+-   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC hexagon socket set screw with cup point.
 
 ### Hexalobular socket head screws 
 
@@ -195,6 +201,9 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_ISO1207.svg  style="width:32px;"> 
 **ISO 1207** Slotted cheese head screw. *Product grade A.*
 
+-   <img alt="" src=images/Fasteners_DIN84.svg  style="width:32px;"> 
+**DIN 84 (superseded by ISO 1207)** Slotted cheese head screw. *Product grade A.*
+
 -   <img alt="" src=images/Fasteners_DIN96.svg  style="width:32px;"> **DIN 96** Slotted half round head wood screw.
 
 -   <img alt="" src=images/Fasteners_GOST1144-1.svg  style="width:32px;"> **GOST 1144-1** Slotted half round head wood screw.
@@ -205,22 +214,24 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 ### H cross head screws 
 
--   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** Pan head screw with collar with type H cross recess.
+-   <img alt="" src=images/Fasteners_DIN967.svg  style="width:32px;"> **DIN 967** Pan head screw with collar with cross recess.
 
 -   <img alt="" src=images/Fasteners_ISO7045.svg  style="width:32px;"> 
-**ISO 7045** Pan head screw with type H cross recess. *Product grade A.*
+**ISO 7045** Pan head screw with cross recess. *Product grade A.*
 
 -   <img alt="" src=images/Fasteners_ISO7046.svg  style="width:32px;"> 
-**ISO 7046** Countersunk flat head screw with type H cross recess. *Product grade A.*
+**ISO 7046** Countersunk flat head screw with cross recess. *Product grade A.*
 
 -   <img alt="" src=images/Fasteners_ISO7047.svg  style="width:32px;"> 
-**ISO 7047** Raised countersunk head screw with type H cross recess. *Product grade A.*
+**ISO 7047** Raised countersunk head screw with cross recess. *Product grade A.*
 
--   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** Cheese head screw with type H cross recess.
+-   <img alt="" src=images/Fasteners_ISO7048.svg  style="width:32px;"> **ISO 7048** Cheese head screw with cross recess.
 
--   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Half round head wood screw with type H cross recess.
+-   <img alt="" src=images/Fasteners_DIN7996.svg  style="width:32px;"> **DIN 7996** Pan head wood screw with cross recess.
 
--   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Half round head wood screw with type H cross recess.
+-   <img alt="" src=images/Fasteners_GOST1144-3.svg  style="width:32px;"> **GOST 1144-3** Pan head wood screw with cross recess.
+
+-   <img alt="" src=images/Fasteners_GOST1144-4.svg  style="width:32px;"> **GOST 1144-4** Pan head wood screw with cross recess.
 
 ### Other head bolts 
 
@@ -238,10 +249,24 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 **ISO 4032** Hexagon nut, style 1. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_ISO4033.svg  style="width:32px;"> 
-**ISO 4033** Hexagon nut, style 2. *Product grades A and B.*
+**ISO 4033** Hexagon high nut, style 2. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO4034.svg  style="width:32px;"> **ISO 4034** Hexagon nut, style 1.
 
 -   <img alt="" src=images/Fasteners_ISO4035.svg  style="width:32px;"> 
-**ISO 4035** Hexagon thin nut, chamfered. *Product grades A and B.*
+**ISO 4035** Hexagon thin nut chamfered, style 0. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8673.svg  style="width:32px;"> 
+**ISO 8673** Hexagon nut with fine pitch thread, style 1. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8674.svg  style="width:32px;"> 
+**ISO 8674** Hexagon high nut with fine pitch thread, style 2. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_ISO8675.svg  style="width:32px;"> 
+**ISO 8675** Hexagon thin nut with fine pitch thread, style 0. *Product grades A and B.*
+
+-   <img alt="" src=images/Fasteners_DIN934.svg  style="width:32px;"> 
+**DIN 934 (superseded by ISO 4035 and ISO 8673)** Hexagon thin nut chamfered. *Product grades A and B.*
 
 -   <img alt="" src=images/Fasteners_EN1661.svg  style="width:32px;"> **EN 1661** Hexagon nut with flange.
 
@@ -252,6 +277,10 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 -   <img alt="" src=images/Fasteners_DIN929.svg  style="width:32px;"> **DIN 929** Hexagon weld nut.
 
 -   <img alt="" src=images/Fasteners_DIN935.svg  style="width:32px;"> **DIN 935** Hexagon castle nut.
+
+-   <img alt="" src=images/Fasteners_DIN6330.svg  style="width:32px;"> **DIN 6330** Hexagon nut 1.5d high.
+
+-   <img alt="" src=images/Fasteners_DIN6331.svg  style="width:32px;"> **DIN 6331** Hexagon with collar 1.5d high.
 
 -   <img alt="" src=images/Fasteners_DIN6334.svg  style="width:32px;"> **DIN 6334** Hexagon coupling nut.
 
@@ -271,21 +300,21 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_DIN1624.svg  style="width:32px;"> **DIN 1624** Tee nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Hexagon machine screw nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC hexagon machine screw nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC Square machine screw nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.1B.svg  style="width:32px;"> **ASME B18.2.2.1B** UNC square machine screw nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC Square nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.2.svg  style="width:32px;"> **ASME 18.2.2.2** UNC square nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC Hexagon nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.4A.svg  style="width:32px;"> **ASME B18.2.2.4A** UNC hexagon nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC Hexagon thin nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.4B.svg  style="width:32px;"> **ASME B18.2.2.4B** UNC hexagon thin nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC Hexagon castle nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.5.svg  style="width:32px;"> **ASME 18.2.2.5** UNC hexagon castle nut.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC Hexagon nut with flange.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.12.svg  style="width:32px;"> **ASME 18.2.2.12** UNC hexagon nut with flange.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC Hexagon coupling nut.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.2.13.svg  style="width:32px;"> **ASME 18.2.2.13** UNC hexagon coupling nut.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.6.9A.svg  style="width:32px;"> **ASME 18.6.9A** Wing nut, type A.
 
@@ -293,9 +322,13 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_SAEJ483a2.svg  style="width:32px;"> **SAE J483a 2** High cap nut.
 
-### T-slot nuts 
+### T-slot fasteners 
 
 -   <img alt="" src=images/Fasteners_DIN508.svg  style="width:32px;"> **DIN 508** T-slot nut.
+
+-   <img alt="" src=images/Fasteners_GN505.svg  style="width:32px;"> **GN 505** Serrated quarter-turn T-slot nut.
+
+-   <img alt="" src=images/Fasteners_GN505.4.svg  style="width:32px;"> **GN 505.4** Serrated T-slot bolt.
 
 -   <img alt="" src=images/Fasteners_GN507.svg  style="width:32px;"> **GN 507** T-slot nut.
 
@@ -315,6 +348,16 @@ Fasteners with metric dimensions have orange icons. Fasteners with inch dimensio
 
 -   <img alt="" src=images/Fasteners_ISO7094.svg  style="width:32px;"> 
 **ISO 7094** Plain washer, extra large series. *Product grade C.*
+
+-   <img alt="" src=images/Fasteners_ISO8738.svg  style="width:32px;"> **ISO 8738** Plain washer for clevis pins.
+
+-   <img alt="" src=images/Fasteners_DIN6319C.svg  style="width:32px;"> **DIN 6319C** Spherical washer.
+
+-   <img alt="" src=images/Fasteners_DIN6319D.svg  style="width:32px;"> **DIN 6319D** Conical seat.
+
+-   <img alt="" src=images/Fasteners_DIN6319G.svg  style="width:32px;"> **DIN 6319G** Conical seat.
+
+-   <img alt="" src=images/Fasteners_DIN6340.svg  style="width:32px;"> **DIN 6340** Washer for clamping devices.
 
 -   <img alt="" src=images/Fasteners_NFE27-619.svg  style="width:32px;"> **NFE27-619** Countersunk washer.
 

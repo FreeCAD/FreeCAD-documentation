@@ -25,6 +25,9 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Создайте замкнутый контур с помощью инструмента **Wire** с направлением построения против часовой стрелки и выберите его.
 
     :   <img alt="" src=images/CounterclockwiseWire.png  style="width:600px;">
@@ -55,6 +58,9 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
     **Примечание**: для лучшего понимания, пожалуйста, посмотрите это [youtube видеоролик](https://www.youtube.com/watch?v=4Urwru71dVk).
 
 
+</div>
+
+
 
 ## Опции
 
@@ -70,6 +76,14 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 
 ## Свойства
 
+### Data
+
+
+{{TitleProperty|Roof}}
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Angles (Углы)**: Список содержащий углы наклона крыши, для каждой её грани.
 
 -    **Runs ()**: Список содержащий расстояние от центра крыши до свеса, для каждой грани крыши.
@@ -81,6 +95,9 @@ The **<img src="images/Arch_Roof.svg" width=16px> [Arch Roof](Arch_Roof.md)** to
 -    **Overhang (Свесы)**: Список содержащий длины свесов крыши, для каждой её грани.
 
 -    **Face (Грань)**: Индекс грани базового объекта (не используется).
+
+
+</div>
 
 ## Scripting
 

@@ -1,5 +1,5 @@
 # Manual:The Community/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
 Kein Handbuch, das sich mit freier und quelloffener Software beschäftigt, wäre vollständig ohne ein Kapitel über die Gemeinschaft. Wie die überwiegende Mehrheit der freien und Open Source Softwareprojekte wird FreeCAD von einer Gemeinschaft erstellt und von dieser Gemeinschaft gepflegt. Anstelle der undurchsichtigen, unbekannten, unpersönlichen und unzugänglichen Firma, die mehr als oft hinter kommerzieller Software zu finden ist, sind Free- und Open Source Software Gemeinschaften offene Räume, in denen du als Benutzer willkommen bist und in denen du sehr schnell Antworten erhälst und sogar bei der Entwicklung der Software selbst mitreden kannst. Auch du bist herzlich eingeladen, mitzuhelfen, es gibt Aufgaben für jeden.
 

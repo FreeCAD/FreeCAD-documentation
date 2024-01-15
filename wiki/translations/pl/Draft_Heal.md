@@ -1,22 +1,27 @@
 ---
  GuiCommand:
    Name: Draft Heal
-   MenuLocation: Utilities , Heal
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Upgrade, Draft_Downgrade
+   Name/pl: Rysunek Roboczy: Napraw
+   MenuLocation: Narzędzia , Napraw
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Upgrade/pl, Draft_Downgrade/pl
 ---
 
 # Draft Heal/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Draft Heal** command heals problematic [Draft](Draft_Workbench.md) objects found in very old files. It tries to recreate the old objects from scratch and transfer their properties to the new objects.
 
-## Usage
+## Opis
 
-1.  Optionally select one or more problematic objects. If no objects are selected the entire document will be processed.
-2.  Select the **Utilities → <img src="images/Draft_Heal.svg" width=16px> Heal** option from the menu.
-3.  If no errors are found the command will do nothing.
+Polecenie <img alt="" src=images/Draft_Heal.svg  style="width:24px;"> **Napraw** służy do naprawy problematycznych obiektów środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) znajdujących się w bardzo starych plikach. Próbuje odtworzyć stare obiekty od zera i przenieść ich właściwości do nowych obiektów.
+
+
+
+## Użycie
+
+1.  Opcjonalnie wybierz jeden lub więcej problematycznych obiektów. Jeśli żaden obiekt nie zostanie wybrany, przetworzony zostanie cały dokument.
+2.  Wybierz z menu opcję **Narzędzia → <img src="images/Draft_Heal.svg" width=16px> Napraw**.
+3.  Jeśli nie zostaną znalezione żadne błędy, polecenie nic nie zrobi.
 
 
 

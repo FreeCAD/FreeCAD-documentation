@@ -11,56 +11,46 @@
 # TechDraw 2PointCenterLine/pl
 
 
-</div>
-
-
 
 ## Opis
 
-
-<div class="mw-translate-fuzzy">
-
-Narzędzie **Dodaj oś pomiędzy dwoma punktami** dodaje linię środkową pomiędzy dwoma wierzchołkami *(punktami)*.
-
-
-</div>
+Narzędzie **Dodaj oś pomiędzy dwoma punktami** dodaje linię środkową pomiędzy dwoma punktami.
 
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
 
 
 
 *Linia środkowa między dwoma punktami.*
 
 
-</div>
 
-## Usage create 
+## Użycie
+
+1.  Wybierz dwa punkty w widoku.
+2.  Istnieje kilka sposobów wywołania narzędzia:
+3.  Naciśnij przycisk **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Dodaj oś pomiędzy dwoma punktami**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Dodaj linie → <img src="images/TechDraw_2PointCenterLine.svg" width=16px> Dodaj oś pomiędzy dwoma punktami**.
+4.  Otworzy się panel zadań. Więcej informacji można znaleźć na stronie [Dodaj oś ściany](TechDraw_FaceCenterLine/pl#Opcje.md).
+5.  Naciśnij przycisk **OK**, aby potwierdzić.
+6.  Linia środkowa zostanie dodana między wybranymi punktami.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Wybierz dwa wierzchołki w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_2PointCenterLine.svg" width=16px> Dodaj oś pomiędzy dwoma punktami**.
-3.  Otworzy się okno dialogowe, w którym można określić atrybuty nowej linii środkowej.
-4.  Linia środkowa zostanie dodana między dwoma wybranymi wierzchołkami.
+## Edycja
+
+Zapoznaj się z informacjami na stronie [Dodaj oś ściany](TechDraw_FaceCenterLine/pl#Edycja.md).
 
 
-</div>
 
-## Usage edit 
+## Uwagi
 
-See [TechDraw FaceCenterLine](TechDraw_FaceCenterLine#Usage_edit.md).
+Aby usunąć linię środka należy użyć narzędzia **<img src="images/TechDraw_CosmeticEraser.svg" width=16px> [Usuń obiekt kosmetyczny](TechDraw_CosmeticEraser/pl.md)**.
 
-## Notes
 
--   To delete a centerline use <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:16px;"> [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md).
 
-## Properties
+## Właściwości
 
-Centerlines have no properties of their own, as they are not document objects.
+Linie środka nie mają własnych właściwości, ponieważ nie są obiektami dokumentu.
 
 
 

@@ -30,7 +30,9 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 ### Conventions
 
 -   **Convention de projection** : si les [groupes de projection](TechDraw_ProjectionGroup/fr.md) utilisent la projection du premier angle (européen) ou du troisième angle (américain). Voir [projection multivue](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) pour une explication.
--   **Style des lignes cachées** : le style à utiliser pour les lignes cachées.
+-   **Convention des lignes de coupes** : norme pour les lignes de coupes qui contrôle la position des flèches et des symboles ({{Version/fr|0.22}}). Les options sont :
+    -   *ANSI*
+    -   *ISO*
 
 
 
@@ -48,8 +50,14 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 ### Grille
 
--   **Afficher la grille** : paramètre par défaut de Show Grid pour les nouvelles pages. {{Version/fr|0.20}}
--   **Espacement de la grille** : distance par défaut entre les lignes de la grille pour les nouvelles pages. {{Version/fr|0.20}}
+-   **Afficher la grille** : paramètre par défaut de Afficher la grille pour les nouvelles pages.
+-   **Espacement de la grille** : distance par défaut entre les lignes de la grille pour les nouvelles pages.
+
+
+
+### Sélection
+
+-   **Activer le mode de sélection multiple** : si cette case est cochée, le fait de cliquer sans **Ctrl** n\'efface pas la sélection existante. {{Version/fr|0.22}}
 
 
 
@@ -80,7 +88,7 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 
 <img alt="Préférences de Dimensions" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
--   **Standard et style** : norme à utiliser pour les valeurs des cotes. La différence entre les normes est indiquée dans l\'image : ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
+-   **Standard et style** : norme à utiliser pour les valeurs des cotes. Les différences entre les normes sont indiquées dans l\'image : ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
 
 :   
 
@@ -102,29 +110,43 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 -   **Facteur d\'écart d\'extension - ASME** : écart entre le point de cote et le début des lignes d\'extension pour les cotes ASME. {{Version/fr|0.21}}
 -   **Espacement des lignes - ISO** : écart entre la ligne de cote et le texte de la cote pour les dimensions ISO. {{Version/fr|0.21}}
 
-## Annotation
 
-<img alt="Préférences d\'Annotation" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
 
--   **Norme des lignes de coupe** : standard à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
--   **Style des lignes de coupe** : style pour les lignes de coupe.
--   **Marques des lignes de la vue en coupe complexe** : affiche des marques aux changements de direction sur les lignes des [Vues en coupe complexe](TechDraw_ComplexSection/fr.md). {{Version/fr|0.21}}
+## Annotations
+
+<img alt="Préférences Annotations" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
+
+
+
+### Annotations 
+
 -   **Motif des vue en coupe** : motif pour la section coupée. Les options sont les suivantes :
     -   *Caché* : pas de surface visible.
     -   *Couleur pleine* : la surface prend la couleur définie pour **Section Face**
     -   *Hachure SVG* : la surface est [hachurée](TechDraw_Hatch/fr.md).
     -   *Hachure PAT* : la surface est [géométriquement hachurée](TechDraw_GeometricHatch/fr.md).
--   **Largeurs des lignes** : [groupe de lignes](TechDraw_LineGroup/fr.md) pour définir les largeurs de ligne par défaut.
--   **Forme du contour pour les vues détaillées** : forme de contour pour les [vues détaillées](TechDraw_DetailView/fr.md).
--   **Style de la ligne de la forme de contour des vues détaillées** : style de la ligne de la forme de contour des [vues détaillées](TechDraw_DetailView/fr.md).
--   **Style des lignes centrales** : style par défaut pour les [lignes centrales des faces](TechDraw_FaceCenterLine/fr.md).
+-   **Marques des lignes des vues en coupe complexe** : affiche des marques aux changements de direction sur les lignes des [vues en coupe complexe](TechDraw_ComplexSection/fr.md). {{Version/fr|0.21}}
+-   **Forme du contour pour les vues détaillées** : forme du contour pour les [vues détaillées](TechDraw_DetailView/fr.md). Les options sont :
+    -   *Cercle*
+    -   *Carré*
+-   **Afficher l\'ajustement des vues détaillées** : cette case à cocher permet d\'afficher ou non le contour d\'une vue détaillée. <small>(v0.22)</small> 
+-   **Afficher une surbrillance autour des zones de détail** : cette case à cocher permet d\'afficher ou non une surbrillance autour de la zone de détail dans la vue source du détail. {{Version/fr|0.22}}
 -   **Forme des infobulles** : forme des [infobulles](TechDraw_Balloon/fr.md).
--   **Extrémité des infobulles** : style par défaut pour des extrémités des infobulles.
+-   **Extrémité des infobulles** : style par défaut pour des extrémités des infobulles, voir [Propriétés des infobulles](TechDraw_Balloon/fr#Propriétés.md).
 -   **Longueur horizontale de la ligne des infobulles** : longueur horizontale de la ligne des infobulles.
--   **Triangle orthogonal de l\'infobulle** : si **Extrémité des infobulles** est mis à *Triangle*, le triangle ne peut avoir une direction verticale ou horizontale que lorsque l\'infobulle est déplacé.
--   **Ligne de référence horizontale auto** : force le dernier segment de la [ligne de référence](TechDraw_LeaderLine/fr.md) à être horizontal.
--   **Afficher les marques des centres** : affiche les marques des centres des arcs dans les vues.
--   **Imprimer les marques des centres** : affiche les marques des centres des arcs sur la version imprimable.
+-   **Infobulle en forme de triangle rectangle** : si **Extrémité des infobulles** est mis à *Triangle*, le triangle ne peut avoir une direction verticale ou horizontale que lorsque l\'infobulle est déplacé.
+
+
+
+### Lignes
+
+-   **Norme des lignes** : norme à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Largeur des lignes dans un groupe** : un [groupe de lignes](TechDraw_LineGroup/fr.md) utilisé pour définir les épaisseurs de lignes.
+-   **Style des lignes cachées** : style des lignes cachées. {{Version/fr|0.22}}
+-   **Style de ligne de section** : Style des lignes de section.
+-   **Style des mises en surbrillance des détails** : style des lignes de la forme du contour pour les [vues détaillées](TechDraw_DetailView/fr.md).
+-   **Style des lignes centrales** : style par défaut pour les [lignes centrales](TechDraw_FaceCenterLine.md).
+-   **Style des extrémités des lignes** : la valeur par défaut (ronde) devrait presque toujours être le bon choix. Les extrémités plates ou carrées sont utiles si vous prévoyez d\'utiliser un dessin comme guide de coupe 1:1.
 
 
 
@@ -141,7 +163,8 @@ Configuration des couleurs par défaut pour les nouvelles pages:
 -   **Dimension** : couleur des lignes de cote et du texte.
 -   **Ligne centrale** : couleur des [lignes centrales de faces](TechDraw_FaceCenterLine/fr.md).
 -   **Couleur des contours des vues détaillées** : couleur des lignes pour la forme des contours des [vues détaillées](TechDraw_DetailView/fr.md).
--   **Couleur des grilles** : couleur pour toutes les grilles de page. {{Version/fr|0.20}}
+-   **Couleur des grilles** : couleur pour toutes les grilles de page.
+-   **Soulignement du modèle** : couleur pour le soulignement qui marque les textes modifiables dans les modèles. {{Version/fr|0.22}}
 -   **Lignes cachées** : couleur de la ligne cachée. Cette couleur sera utilisée pour toutes sortes de [lignes cachées](#Param.C3.A8tres_HLR.md).
 -   **Vues en coupe** : couleur de la surface des [vues en coupe](TechDraw_SectionView/fr.md). Utilisé uniquement si le paramètre **Motif des vue en coupe** est réglé sur *Couleur pleine*.
 -   **Lignes des vues en coupe** : couleur de la ligne des [vues en coupe](TechDraw_SectionView/fr.md).
@@ -156,11 +179,11 @@ Configuration des couleurs par défaut pour les nouvelles pages:
 
 
 
-## Lignes cachées 
+## Lignes cachées supprimées 
 
-<img alt="Préférences de Lignes cachées" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
+<img alt="Préférences Lignes cachées supprimées" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
 
-Version anglaise de la GUI, HLR pour *hidden line removal* (suppression des lignes cachées).
+Version anglaise de la GUI, HLR pour *hidden line removal* (lignes cachées supprimées).
 
 -   **Utiliser l\'approximation du polygone** : utilise une approximation pour trouver les lignes cachées. C\'est rapide, mais le résultat est une collection de courtes lignes droites.
 -   **Afficher les lignes dures** : affiche les bords durs et les contours (les lignes visibles sont toujours affichées)
@@ -181,14 +204,12 @@ Version anglaise de la GUI, HLR pour *hidden line removal* (suppression des lign
 -   **Utiliser le nouvel algorithme de recherche de face** : si coché, le nouvel algorithme de recherche de face sera utilisé à la place de l\'algorithme d\'origine. {{Version/fr|0.21}}
 -   **Corriger automatiquement les références des cotes** : si coché, une tentative est faite pour mettre à jour les références des cotes lorsque le modèle change. {{Version/fr|0.21}}
 -   **Unir avant d\'effectuer une vue en coupe** : effectue une opération de fusion sur la ou les formes d\'entrée avant le traitement de la vue en coupe.
--   **Montrer les objets 2D isolés** : inclut des objets 2D dans les projections, par exemple les esquisses isolées.
 -   **Autoriser des arêtes inhabituelles** : inclut des arêtes avec une géométrie inattendue dans les résultats, par ex. longueurs nulles.
 -   **Section de débogage** : affiche les résultats intermédiaires pendant un traitement des vues en coupe.
 -   **Détail de débogage** : affiche les résultats intermédiaires pendant un traitement des vues détailllées.
 -   **Passes pour supprimer les chevauchements d\'arêtes** : nombre de tentatives de suppression des chevauchements d\'arêtes renvoyées par l\'algorithme de suppression des lignes cachées. Une valeur de 0 indique qu\'il n\'y a pas de nettoyage. Les valeurs supérieures à 2 ne sont généralement pas productives. Chaque tentative augmente le temps nécessaire à la production du dessin. {{Version/fr|0.21}}
 -   **Sélection autour des bords** : taille de la zone de sélection autour des bords. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours.
 -   **Sélection autour des marques centrales** : zone de sélection autour des marques centrales. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours. La valeur par défaut est 10. Les valeurs comprises entre 20 et 30 facilitent considérablement la sélection des bords. Les valeurs élevées entraînent des chevauchements avec d\'autres éléments du dessin.
--   **Style des extrémités de ligne** : réglage de la forme des extrémités des lignes. Explication des options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Taille maximum des tuiles de hachures SVG** : La limite des tuiles SVG d\'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour des mises à l\'échelle importantes, il se peut que l\'on obtienne une erreur concernant le nombre trop élevé de tuiles SVG, il faut alors augmenter le nombre maximum de tuiles.
 -   **Nombre maximum de segments des hachures PAT** : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
 

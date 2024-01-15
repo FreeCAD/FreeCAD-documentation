@@ -15,7 +15,7 @@
 Le **Lissage additif** crée un solide dans le Corps actif en faisant une transition entre deux ou plusieurs esquisses (également appelées sections transversales). Si le corps contient déjà des éléments, le lissage additif sera fusionné avec eux.
 
 ![](images/PartDesign_AddLoft_example.png ) 
-*À gauche : sections (A), (B) et (C) ; à droite, résultat du Lissage additif.*
+*À gauche, les sections (A), (B) et (C). À droite, le résultat du lissage additif.*
 
 
 
@@ -82,7 +82,7 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 -   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.
 -   Si l\'esquisse a une géométrie interne, c\'est-à-dire que le lissage est censé avoir des trous, l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections : Soit vous commencez toutes les sections par la géométrie intérieure, soit vous les commencez toutes par la géométrie extérieure. Sinon, un lissage invalide peut être créé là où les parois intérieurs et extérieurs se croisent.
 -   Il n\'est pas possible de lisser des boucles disjointes ou croisées.
--   Certains modes de défaillance rendent la pièce noire.
+-   Certains dysfonctionnements rendent la pièce noire.
 
 
 

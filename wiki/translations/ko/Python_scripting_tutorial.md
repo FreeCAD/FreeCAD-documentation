@@ -18,7 +18,7 @@ There are several ways to use Python in FreeCAD:
 
 In this tutorial, we\'ll work on a couple of basic examples to get you started, but there is much more [documentation about Python scripting](Power_users_hub.md) available on this wiki. If you are totally new to Python and want to understand how it works, we also have a basic [introduction to Python](introduction_to_Python.md).
 
-Before proceeding with Python scripting, go to **Edit → Preferences → General → Output window** and check two boxes:
+Before proceeding with Python scripting, go to **Edit → Preferences → General → Report view** and check two boxes:
 
 -    **Redirect internal Python output to report view**.
 
@@ -53,7 +53,7 @@ If you type this in the FreeCAD Python console, you will notice that as soon as 
 ![](images/Screenshot_classbrowser.jpg ) 
 *The autocomplete mechanism of the FreeCAD Python console*
 
-Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
+Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → Python → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
 Now let\'s get back to our document and see what we can do with it:
 

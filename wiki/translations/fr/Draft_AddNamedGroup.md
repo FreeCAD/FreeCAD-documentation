@@ -19,10 +19,10 @@ La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;">
 
 ## Utilisation
 
-1.  En option, sélectionnez un ou plusieurs objets.
+1.  Vous pouvez sélectionner un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_AddNamedGroup.svg" width=16px> [Ajouter un nouveau groupe nommé](Draft_AddNamedGroup/fr.md)**.
-    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddNamedGroup.svg" width=16px> Ajouter un nouveau groupe nommé** dans le menu.
+    -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_AddNamedGroup.svg" width=16px> Ajouter un nouveau groupe nommé** du menu.
 3.  Le panneau de tâches **Ajouter un groupe** s\'ouvre.
 4.  Saisissez **Nom du groupe**.
 5.  Appuyez sur le bouton **OK**.

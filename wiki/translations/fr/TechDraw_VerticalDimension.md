@@ -12,28 +12,12 @@
 
 ## Description
 
+L\'outil **TechDraw Cote verticale** ajoute une cote verticale à une vue. La cote peut être la distance verticale entre deux points ou la longueur verticale d\'une ligne droite. Comme pour l\'outil [TechDraw Lier une cote](TechDraw_LengthDimension/fr.md), il est également possible de sélectionner deux arêtes ou un point et une arête, mais ces options ont moins de sens pour cet outil.
 
-<div class="mw-translate-fuzzy">
+Pour plus d\'informations, voir [TechDraw Lier une cote](TechDraw_LengthDimension/fr.md)
 
-L\'outil **TechDraw Cote verticale** ajoute une dimension verticale à une vue. La dimension peut être entre deux sommets, la longueur d\'un bord ou la distance verticale entre deux bords. La dimension sera initialement la distance projetée (c.-à-d. comme indiqué sur le dessin), mais elle peut être remplacée par la distance 3D réelle en utilisant l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md)
-**
-
-
-</div>
-
-For more information see [TechDraw LengthDimension](TechDraw_LengthDimension.md).
-
-<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Dimension de longueur prise à partir de deux nœuds arbitraires de la vue; la distance est mesurée verticalement*
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Vertical_example.png  style="width:220px;"> 
+*Cote verticale prise entre deux points*
 
 
 

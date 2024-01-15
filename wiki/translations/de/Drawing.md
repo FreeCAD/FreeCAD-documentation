@@ -1,5 +1,5 @@
 # Drawing/de
-## Einführung
+## Einleitung
 
 In FreeCAD wird das Wort \"[Zeichnung](Drawing/de.md)\" normalerweise verwendet, um sich auf die 2D-Projektion eines [3D-Modells](model/de.md) zu beziehen. Diese wird normalerweise mit dem Arbeitsbereich [TechDraw](TechDraw_Workbench/de.md) erstellt.
 

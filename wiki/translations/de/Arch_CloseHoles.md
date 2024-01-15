@@ -13,19 +13,16 @@
 
 ## Beschreibung
 
-Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in einem [Formteil](Part_Workbench/de.md)-Objekt und versucht, sie durch hinzufügen einer Fläche zu schließen, die aus der Folge von Kanten erstellt wird. Du musst dich aber noch selbst davon überzeugen, dass das Ergebnis ein Volumenkörper ist.
+Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in einem [Part](Part_Workbench/de.md)-Objekt und versucht sie, durch hinzufügen einer Fläche, zu schließen, die aus der Folge von Kanten erstellt wird. Du musst dich aber noch selbst davon überzeugen, dass das Ergebnis ein Festkörper ist.
 
 
 
 ## Anwendung
 
-1.  Ein [Form](Part_Workbench/de.md)-Objekt auswählen.
+1.  Eine [Form](Part_Workbench/de.md) (Shape-Objekt) auswählen.
 2.  Die Schaltfläche **<img src="images/Arch_CloseHoles.svg" width=16px> [Löcher schließen](Arch_CloseHoles/de.md)** drücken oder den Menüeintrag **Arch → Dienstprogramme → Löcher schließen** auswählen.
 
 
-
-
-<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -34,28 +31,12 @@ Dieses Werkzeug identifiziert Löcher (ringförmige Folge von offenen Kanten) in
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit der folgenden Funktion verwendet werden:
-
-
-</div>
-
-
+Dieses Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus durch folgende Funktion verwendet werden: 
 ```python
 solid = closeHole(shape)
 ```
 
--   Schließt ein Loch in einer `Form`, welches ein `Part.Shape` ist und gibt das neue `solid` Objekt zurück.
+-   Schließt ein Loch in einer Form `shape`, die ein `Part.Shape` ist und gibt das neue Objekt `solid` zurück.
 
 Beispiel: 
 ```python

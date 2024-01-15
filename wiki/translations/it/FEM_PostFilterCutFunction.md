@@ -35,7 +35,7 @@ Da fare
 
 </div>
 
-**Note**: If there exist not yet a filter function, you can only directly set a **Field** after its creation when <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:24px;"> [Apply Changes](FEM_PostApplyChanges.md) is on. Otherwise you can first do this after reopening the filter dialog.
+**Note**: A **Field** can only be set if a filter function exists and has been applied with <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:16px;"> [Apply Changes](FEM_PostApplyChanges.md). Alternatively you can reopen the filter dialog.
 
 
 

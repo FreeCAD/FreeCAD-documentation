@@ -3,7 +3,13 @@
 
 ![150\|center](images/Crystal_Clear_manual.png )
 
+
+<div class="mw-translate-fuzzy">
+
 O [FreeCAD](http://www.freecadweb.org) é um software de modelagem paramétrica 3D com código-fonte aberto e gratuito. Inicialmente ele foi desenvolvido para modelar objetos reais, desde pequenos componentes eletrônicos até construções e projetos de engenharia civil, com foco em impressão de objetos 3D. O FreeCAD é livre para baixar, usar, distribuir e modificar, e seu código-fonte é aberto e publicado sob a licença [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Os dados produzidos por você com o FreeCAD é seu por completo, e pode ser restaurado sem o uso do FreeCAD.
+
+
+</div>
 
 O FreeCAD também é um projeto fundamentalmente social, assim como é desenvolvido e mantido pela comunidade de desenvolvedores e usuários e pela paixão deles pelo FreeCAD.
 

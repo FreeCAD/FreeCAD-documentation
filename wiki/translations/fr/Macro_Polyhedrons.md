@@ -3,25 +3,29 @@
 |Name=Macro Polyhedrons
 |Name/fr=Macro Polyhedrons
 |Icon=Dodecahedron.svg
-|Description=Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèdre, dodécaèdre, icosaèdre, icosaèdre_tronqué<br/>Les paramètres rayon et côté peuvent être ajustés.
+|Description=Cette macro crée des polyèdres paramétriques : tétraèdre, hexaèdre, octaèdre, dodécaèdre, icosaèdre, icosaèdre_tronqué<br/>Les paramètres rayon et côté peuvent être ajustés.
 |Author=Eddy Verlinden, Genk, Belgium
 |Version=01.02
 |Date=2020-01-10
 |FCVersion=Toutes
-|Download=ToolBar icon [https://www.freecadweb.org/wiki/images/a/a4/Dodecahedron.svg Icon ToolBar]
-|SeeAlso=[Macro Pyramid](Macro_Pyramid/fr.md) [<img src=images/Pyramidicon.svg style="width:24px">
+|Download=|Download=[https://wiki.freecad.org/images/a/a4/Dodecahedron.svg Icône de la barre d'outils]
+|SeeAlso=[Macro Pyramid](Macro_Pyramid/fr.md)
 }}
 
 ## Description
 
-Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèdre, dodécaèdre, icosaèdre, icosaèdre tronqué, et sphères géodésiques à plusieurs niveaux
+Cette macro crée des polyèdres paramétriques : tétraèdre, hexaèdre, octaèdre, dodécaèdre, icosaèdre, icosaèdre tronqué, et sphères géodésiques à plusieurs niveaux
+
+
 
 ## Remarques
 
--   Si vous êtes également intéressé par les pyramides, vous pouvez utiliser <img alt="" src=images/Pyramidicon.svg  style="width:24px;"> [Pyramid macro](Macro_Pyramid/fr.md).
--   Vous pouvez également utiliser le plan de travail externe [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (lien github) qui contient les mêmes fonctions.
+-   Si vous êtes également intéressé par les pyramides, vous pouvez utiliser la <img alt="" src=images/Pyramidicon.svg  style="width:24px;"> [macro Pyramid](Macro_Pyramid/fr.md).
+-   Vous pouvez également utiliser le plan de travail externe [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) qui contient les mêmes fonctions.
 
 ![](images/Polyhedrons.png )
+
+
 
 ## Installation
 
@@ -29,6 +33,8 @@ Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèd
 **Outils → Gestionnaire des extensions → onglet Macros**
 -   Choisissez `polyhedrons.py`
 -   Appuyez sur **Installer**
+
+
 
 ## Utilisation
 
@@ -39,7 +45,9 @@ Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèd
 
 Remarque: Vous pouvez toujours ajuster le rayon ou la taille, comme avec les pièces normales.
 
--   Plus d\'informations sur [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
+-   Plus d\'informations sur [Pyramids_and_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons).
+
+
 
 ## En relation 
 
@@ -47,7 +55,7 @@ La discussion sur le forum [Macros for pyramids and polyhedrons](https://forum.f
 
 ## Script
 
-ToolBar Icon <img alt="" src=images/Dodecahedron.svg  style="width:36px;">
+Icône de la barre d\'outils <img alt="" src=images/Dodecahedron.svg  style="width:36px;">
 
 **polyhedrons.py**
 

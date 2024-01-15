@@ -1,26 +1,30 @@
 # Help/tr
 <div class="mw-translate-fuzzy">
 
-FreeCAD geliştiricilerinden ve kullanıcılarından yardım alabileceğiniz ve destek alabileceğiniz iki ana forum vardır: [yardım forumu](http://forum.freecadweb.org/), yardım isteyip daha önce yapılmış soruları okuyabilirsiniz ve / veya çözüldü ve [tartışma forumu](http://forum.freecadweb.org/), diğer konuları tartışabileceğiniz, FreeCAD ile ilgili görüşlerinizi, fikirlerinizi vb. anlatabilirsiniz. Bu forumlar hem çok aktif hem de çok hızlı cevap verir.
+Yardıma ihtiyacınız varsa veya bu wiki belgelerinin belirli bir sayfasıyla ilgili sorularınız varsa, her sayfanın \"tartışma\" sekmesinde fikirlerinizi veya yorumlarınızı her zaman bırakabilirsiniz.
 
 
 </div>
 
-The first place you can ask for help is the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3). Please read [this post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) before asking any question. Remember that [important information](Important_information.md) about your system is necessary when asking for help.
+If you are looking for answers in the Wiki you will soon notice that its search feature is not very sophisticated. You will get better results using an internet search engine. Just add {{Value|site:wiki.freecad.org}} to your request to limit the search to the FreeCAD Wiki.
 
-There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
+## FAQ
+
+Some of your questions may already have been answered on the [FAQ](Frequently_asked_questions.md) page.
 
 
 
 
 <div class="mw-translate-fuzzy">
 
-Yardıma ihtiyacınız varsa veya bu wiki belgelerinin belirli bir sayfasıyla ilgili sorularınız varsa, her sayfanın \"tartışma\" sekmesinde fikirlerinizi veya yorumlarınızı her zaman bırakabilirsiniz.
+FreeCAD geliştiricilerinden ve kullanıcılarından yardım alabileceğiniz ve destek alabileceğiniz iki ana forum vardır: [yardım forumu](http://forum.freecadweb.org/), yardım isteyip daha önce yapılmış soruları okuyabilirsiniz ve / veya çözüldü ve [tartışma forumu](http://forum.freecadweb.org/), diğer konuları tartışabileceğiniz, FreeCAD ile ilgili görüşlerinizi, fikirlerinizi vb. anlatabilirsiniz. Bu forumlar hem çok aktif hem de çok hızlı cevap verir.
 
 
 </div>
 
-If you need help or have questions related to a particular page of this wiki documentation, you can always leave ideas or comments on the \"discussion\" tab of each page. To upload files for Wiki please use [this page](https://www.freecadweb.org/wiki/Special:Upload).
+Another place where you can find help is the [FreeCAD forum](https://forum.freecad.org/viewforum.php?f=3). Please read [this post](https://forum.freecad.org/viewtopic.php?f=3&t=2264) before asking any question. Remember that [important information](Important_information.md) about your system is necessary when asking for help.
+
+There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
 
 
 

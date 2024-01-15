@@ -1,29 +1,27 @@
 ---
  GuiCommand:
-   Name: Arch Rebar LShape   Name/de: Arch Bewehrungsstab L-förmig
-   MenuLocation: Arch , Rebar tools , L-Shape Rebar oder 3D/BIM , Reinforcement tools , L-förmige Bewehrung
+   Name: Arch Rebar LShape
+   Name/de: Arch Armierung LForm
+   MenuLocation: Arch , Rebar tools , L-Shape Rebar<br>3D/BIM , Reinforcement tools , L-förmige Bewehrung
    Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.17
-   SeeAlso: Reinforcement_Workbench/de, Arch Rebar/de, Arch_Rebar_BentShape/de
+   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar/de, Arch_Rebar_BentShape/de
 ---
 
 # Arch Rebar LShape/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
-Das [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von L-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
+Das Werkzeug [Armierung L-Form](Arch_Rebar_LShape/de.md) ermöglicht dem Anwender, einen Satz von L-förmigen Bewehrungsstäben in einem [Arch Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
-Das [Arch L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das Werkzeug [Armierung L-Form](Arch_Rebar_LShape/de.md) ist auch im Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), einem [externen Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
-*Vier Sätze von L-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*
+*Vier Sätze von L-förmigen Bewehrungsstäben in einem [Arch Struktur](Arch_Structure/de.md)-Objekt*
 
 
 
@@ -40,10 +38,7 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 9.  Klicke **OK** oder **Anwenden** zur Erzeugung der Bewehrungsstäbe.
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
-:   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/LShapeDialog.png  style="width:250px;"> 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab L-förmig-Werkzeug*
 
 
@@ -70,33 +65,14 @@ Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workben
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Scripting
+## Skripten
 
 
 **Siehe auch:**
 
-[Arch API](Arch_API/de.md), [Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+[Arch API](Arch_API/de.md),[Reinforcement-API](Reinforcement_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Das L-förmiger Bewehrungsstab-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion angesprochen werden:
-
-
-</div>
-
-
+Das Werkzeug Armierung AbgesetzteBewehrung kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit folgender Funktion verwendet werden: 
 ```python
 Rebar = makeLShapeRebar(f_cover, b_cover, l_cover, r_cover,
                         diameter, t_cover, rounding, amount_spacing_check, amount_spacing_value, orientation="Bottom Left",
@@ -164,22 +140,6 @@ LShapeRebar.editLShapeRebar(Rebar, 50, 50, 20, 20,
 LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
                             12, 70, 6, True, 5, "Top Right")
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)
-|[abgewinkelter Bewehrungsstab](Arch_Rebar_BentShape/de.md)
-|[Arch-Arbeitsbereich](Arch_Workbench/de.md)
-|IconL=Arch_Rebar_UShape.svg
-|IconR=Arch_Rebar_BentShape.svg
-|IconC=Workbench_Arch.svg
-}}
-
-
-</div>
 
 
 

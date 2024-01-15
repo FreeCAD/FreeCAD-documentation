@@ -1,32 +1,36 @@
 # LGTM/pl
-## Overview
+## Informacje ogólne 
 
 
 
 
-[LGTM](https://www.lgtm.com) is a code analysis tool that can be integrated into multiple online software version control systems and supports several different languages. It\'s an excellent code-quality checker, identifying code problems that often get missed by other code checkers and linters.
+[LGTM](https://www.lgtm.com) to narzędzie do analizy kodu, które może być zintegrowane z wieloma systemami kontroli wersji oprogramowania online i obsługuje kilka różnych języków. Jest to doskonałe narzędzie do sprawdzania jakości kodu, identyfikujące problemy z kodem, które często są pomijane przez inne narzędzia do sprawdzania kodu i lintery.
 
-LGTM is well-suited as a code-analysis tool for developing FreeCAD Python workbenches and other small-to-mid-sized projects. This page provides an overview of how to get started using LGTM with a FreeCAD Python Workbench.
+LGTM doskonale nadaje się jako narzędzie do analizy kodu do opracowywania środowisk pracy FreeCAD Python i innych małych i średnich projektów. Ta strona zawiera przegląd tego, jak rozpocząć korzystanie z LGTM w środowisku pracy FreeCAD przygotowanym w Python.
 
-## Getting Started 
 
-Getting started with LGTM depends on the online version control platform you\'re using. The LGTM documentation for [automated code review](https://lgtm.com/help/lgtm/about-automated-code-review) provides a good overview of how to get LGTM integrated into your project for several platforms.
 
-In addition it\'s possible to do a wide range of in-depth analyses of code on LGTM, which is beyond the scope of this tutorial. You can read more about that in the LGTM documentation on [configuring code analysis](https://lgtm.com/help/lgtm/configuring-lgtm-analysis-project).
+## Rozpoczęcie pracy 
 
-## Getting Results 
+Rozpoczęcie pracy z LGTM zależy od używanej platformy kontroli wersji online. Dokumentacja LGTM dla [automatycznego przeglądu kodu](https://lgtm.com/help/lgtm/about-automated-code-review) zawiera dobry przegląd tego, jak zintegrować LGTM z projektem dla kilku platform.
 
-Once you\'ve set up LGTM and provided access to your code repositories, analyses are typically done daily on the repository. So, pushed changes will not yeild results immediately. It is possible to have LGTM analyze pull requests when they are submitted, as described in the LGTM documentation.
+Ponadto możliwe jest przeprowadzenie szerokiego zakresu dogłębnych analiz kodu w LGTM, co wykracza poza zakres tego samouczka. Więcej informacji na ten temat można znaleźć w dokumentacji LGTM na stronie [konfigurowanie analizy kodu](https://lgtm.com/help/lgtm/configuring-lgtm-analysis-project).
 
-Reviewing the results simply requires logging in to your LGTM dashboard and selecting the desired project. From there, code analyses will provide a list of issues (like bugs, bad coding practices, useless/irrelevant/unused code, etc.) for your perusal. In addition LGTM provides overall code \'ratings\' (A, B, C, D) depending on the number of issue you have compared to the overall size of your project.
 
-Probably, the most useful, immediate way to manage the results of your code analysis is simply filtering out files in your project that you don\'t want analyzed. That is, suppose you\'re developing new code that is incomplete, keeping around legacy code that is otherwise unused, or have a good deal of testing code that doesn\'t need analysis. LGTM provides [file classification](https://lgtm.com/help/lgtm/file-classification), an easy way to filter those files so they don\'t pollute your analysis results.
 
-### Creating a .lgtm.yml File 
+## Uzyskiwanie rezultatów 
 
-To enable file classification, first create a file named \".lgtm.yml\" in your projects top-most directory. Then, in that file, add some classifications.
+Po skonfigurowaniu LGTM i zapewnieniu dostępu do repozytoriów kodu, analizy są zwykle wykonywane codziennie w repozytorium. Tak więc wypchnięte zmiany nie przyniosą natychmiastowych wyników. Możliwe jest, aby LGTM analizował pull requesty po ich przesłaniu, jak opisano w dokumentacji LGTM.
 
-Below is an example from the FreeCAD Trails Python workbench:
+Przeglądanie wyników wymaga po prostu zalogowania się do pulpitu nawigacyjnego LGTM i wybrania żądanego projektu. Z tego miejsca analizy kodu dostarczą listę problemów *(takich jak błędy, złe praktyki kodowania, bezużyteczny / nieistotny / niewykorzystany kod itp.)* Ponadto LGTM zapewnia ogólne \"oceny\" kodu *(A, B, C, D)* w zależności od liczby problemów w porównaniu z ogólnym rozmiarem projektu.
+
+Prawdopodobnie najbardziej użytecznym, natychmiastowym sposobem zarządzania wynikami analizy kodu jest po prostu odfiltrowanie plików w projekcie, których nie chcesz analizować. Załóżmy, że rozwijasz nowy kod, który jest niekompletny, przechowujesz starszy kod, który jest nieużywany lub masz dużo kodu testowego, który nie wymaga analizy. LGTM zapewnia [klasyfikację plików](https://lgtm.com/help/lgtm/file-classification), łatwy sposób filtrowania tych plików, aby nie zanieczyszczały wyników analizy.
+
+## Tworzenie pliku .lgtm.yml 
+
+Aby włączyć klasyfikację plików, należy najpierw utworzyć plik o nazwie \".lgtm.yml\" w najwyższym katalogu projektu. Następnie w tym pliku dodaj kilka klasyfikacji.
+
+Poniżej znajduje się przykład ze środowiska pracy FreeCAD Trails zakodowanego w Python:
 
 
 ```python
@@ -49,16 +53,18 @@ path_classifiers:
     - freecad/trails/corridor/template/TemplateLibrary.py
 ```
 
-Note that indent levels are important in LGTM. Incorrect indenting will result in failed file classification.
+Należy pamiętać, że poziomy wcięć są ważne w LGTM. Nieprawidłowe wcięcie spowoduje nieudaną klasyfikację pliku.
 
-Also, some classifications (like \'template\' and \'test\') are used by LGTM for queries and other analysis components. You may also define your own custom tags, which will filter code and provide additional queryable results.
+Ponadto niektóre klasyfikacje *(takie jak \"szablon\" i \"test\")* są używane przez LGTM do zapytań i innych komponentów analitycznych. Można również zdefiniować własne tagi, które będą filtrować kod i dostarczać dodatkowych wyników zapytań.
 
-### Relevant Links 
 
--   [Continuous Integration](Continuous_Integration.md)
--   LGTM [FreeCAD forum discussion thread](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=40228)
--   FreeCAD .lgtm.yml file on [Github](https://github.com/FreeCAD/FreeCAD/blob/master/lgtm.yml)
--   freecad.trails .lgtm.yml on [Github](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)
+
+## Istotne odnośniki internetowe 
+
+-   [Ciągła integracja](Continuous_Integration/pl.md)
+-   LGTM [FreeCAD wątek dyskusyjny na forum](https://www.forum.freecadweb.org/viewtopic.php?f=10&t=40228)
+-   FreeCAD .lgtm.yml file on [GitHub](https://github.com/FreeCAD/FreeCAD/blob/master/lgtm.yml)
+-   freecad.trails .lgtm.yml on [GitHub](https://github.com/joelgraff/freecad.trails/blob/dev/.lgtm.yml)
 
 
 

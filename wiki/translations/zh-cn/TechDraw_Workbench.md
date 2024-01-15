@@ -4,11 +4,11 @@
 
 ## 简介
 
-<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw 工作台被用来从来自其他工作台](TechDraw_Workbench.md)（比如[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), 或 [Arch](Arch_Workbench.md)）创建的 或 从其他应用程序导入的3D模型生成基本的技术图纸。每张图纸是一页，可以包含可绘制对象(比如Part::Features, PartDesign::Bodies, App::Part groups 和文档对象组)的各种视图。得到的图纸可被用于诸如文档、制造说明、合同、许可等。
+<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw 工作台](TechDraw_Workbench.md)被用来从来自其他工作台（比如[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md), 或 [Arch](Arch_Workbench.md)）创建的 或 从其他应用程序导入的3D模型生成基本的技术图纸。每张图纸是一页，可以包含可绘制对象(比如Part::Features, PartDesign::Bodies, App::Part groups 和文档对象组)的各种视图。得到的图纸可被用于诸如文档、制造说明、合同、许可等。
 
-尺寸标注、剖面、填充区、注解和[SVG符号都可以加到图纸中](SVG.md)，而这些又可以进一步导出到不同的格式，如 [DXF](DXF.md), [SVG](SVG.md), [PDF](PDF.md).
+尺寸标注、剖面、填充区、注解和[SVG](SVG.md)符号都可以加到图纸中，而这些又可以进一步导出到不同的格式，如 [DXF](DXF.md), [SVG](SVG.md), [PDF](PDF.md).
 
-如果你的主要目标是产生复杂的2D图纸和[DXF文件](DXF.md)，并且不需要3D建模，FreeCAD可能不是正确的选择。你应该考虑一个用于绘制工程草图的专门的软件，如 [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) 或 [QCad](https://en.wikipedia.org/wiki/QCad).
+如果你的主要目标是产生复杂的2D图纸和[DXF](DXF.md)文件，并且不需要3D建模，FreeCAD可能不是正确的选择。你应该考虑一个用于绘制工程草图的专门的软件，如 [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) 或 [QCad](https://en.wikipedia.org/wiki/QCad).
 
 
 
@@ -21,7 +21,7 @@
 
 下面是创建页面对象的工具
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [插入默认页](TechDraw_PageDefault.md): 使用默认[模板添加一个新页面](TechDraw_Templates.md) .
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [插入默认页](TechDraw_PageDefault.md): 使用默认[模板](TechDraw_Templates.md)添加一个新页面 .
 
 -   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insert Page using Template](TechDraw_PageTemplate.md): adds a new page using a selected [template](TechDraw_Templates.md).
 
@@ -161,6 +161,8 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 
 -   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices.
 
+-   <img alt="" src=images/TechDraw_CosmeticCircle.svg  style="width:32px;"> [Add Cosmetic Circle](TechDraw_CosmeticCircle.md): adds a cosmetic circle. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md): removes cosmetic objects from a page.
 
 -   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Change Appearance of Lines](TechDraw_DecorateLine.md): changes the appearance of selected line(s).
@@ -211,6 +213,8 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionAreaAnnotation.svg  style="width:32px;"> [Calculate the area of selected faces](TechDraw_ExtensionAreaAnnotation.md): calculates the area of selected faces and inserts an area annotation. <small>(v0.20)</small> 
 
+-   <img alt="" src=images/TechDraw_ExtensionArcLengthAnnotation.svg  style="width:32px;"> [Calculate the arc length of selected edges](TechDraw_ExtensionArcLengthAnnotation.md): calculates the arc length of selected edges and inserts an arc length annotation. <small>(v0.22)</small> 
+
 -   <img alt="" src=images/TechDraw_ExtensionCustomizeFormat.svg  style="width:32px;"> [Customize format label](TechDraw_ExtensionCustomizeFormat.md): customizes the formatting of a balloon text or dimension text. GD&T symbols and other special character can be added. <small>(v0.20)</small> 
 
 ### Centerlines and threading 
@@ -231,7 +235,11 @@ These are tools to improve your TechDraw drawings.
 
   - <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Add Cosmetic Thread Bolt Bottom View](TechDraw_ExtensionThreadBoltBottom.md): adds a cosmetic thread to the top or bottom view of bolts/screws/rods. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Add Cosmetic Intersection Vertex(es)](TechDraw_ExtensionVertexAtIntersection.md): adds cosmetic vertex(es) at the intersection(s) of selected edges. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Add Vertexes:
+
+  - <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Add Cosmetic Intersection Vertex(es)](TechDraw_ExtensionVertexAtIntersection.md): adds cosmetic vertex(es) at the intersection(s) of selected edges. <small>(v0.20)</small> 
+
+  - <img alt="" src=images/TechDraw_CommandAddOffsetVertex.svg  style="width:32px;"> [Add an offset vertex](TechDraw_CommandAddOffsetVertex.md): adds a cosmetic vertex at a specified offset from a selected vertex. <small>(v0.22)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:" height="32px;"><img alt="" src=images/Toolbar_flyout_arrow_blue_background.svg  style="width:" height="32px;"> Add Cosmetic Circles or Arcs:
 

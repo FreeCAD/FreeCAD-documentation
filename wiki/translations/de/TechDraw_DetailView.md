@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw DetailView
    Name/de: TechDraw Detailansicht
-   MenuLocation: TechDraw , Detailansicht einfügen
+   MenuLocation: TechDraw, TechDraw Ansichten , Detailansicht einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.19
    SeeAlso: TechDraw_View/de, TechDraw_ProjectionGroup/de
@@ -14,22 +14,40 @@
 
 ## Beschreibung
 
-Das Werkzeug **TechDraw Detailansicht** erstellt eine vergrößerte Ansicht eines kleinen Bereichs einer vorhandenen Ansicht.
+Das Werkzeug **TechDraw Detailansicht** erstellt eine Ansicht eines kleinen Bereichs einer vorhandenen Ansicht.
 
 ![](images/ViewDetail.png ) 
-*Detailansicht mit kreisförmigem Ansichtsrahmen einer vorhandenen Ansicht*
+*Detailansicht mit einem kreisförmigem Rahmen*
 
 
 
 ## Anwendung
 
--   Eine Ansicht in der Zeichnung oder in der Baumansicht auswählen.
--   Die Schaltfläche **<img src="images/TechDraw_DetailView.svg" width=16px> [Detailansicht einfügen](TechDraw_DetailView/de.md)** drücken, um die Detailansicht zu erstellen.
--   Im geöffneten Aufgaben-Dialog kann die Größe, die Position und der Maßstab des anzuzeigenden Bereichs definiert werden.
-    -   entweder durch Änderung der Koordinaten in X- und Y- Richtung
-    -   oder durch Drücken der Schaltfläche **Auswahl verschieben**. In diesem Fall wird der Rand des Detailauswahlrahmens fett und mit der Beschriftung *Ziehen* hervorgehoben. Auf den Rand oder die Beschriftung klicken, die Maustaste gedrückt halten und den Rahmen an die gewünschte Position ziehen. Zuletzt wird die Maustaste losgelassen, um die Änderung abzuschließen.
+1.  Eine Basisansicht für die Detailansicht auswählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_DetailView.svg" width=16px> [Detailansicht einfügen](TechDraw_DetailView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → TechDraw Ansichten → <img src="images/TechDraw_DetailView.svg" width=16px> Detailansicht einfügen** auswählen.
+3.  Ein Auswahlumriss wird zur Basisansicht hinzugefügt, eine Detailansicht zum Zeichnungsblatt hinzugefügt und ein Aufgaben-Bereich wird geöffnet.
+4.  Für die Übersicht ist es am besten, die Detailansicht zu verschieben, sodass sie die Basisansicht nicht länger überlappt: Die linke Maustaste über ihrem Rahmen oder auf ihrer Benennung gedrückt halten und sie auf eine neue Position ziehen.
+5.  Zum Ändern der Position des Auswahlumrisses gibt es folgende Möglichkeiten:
+    -   Den Umriss ziehen:
+        1.  Die Schaltfläche **Auswahl verschieben** drücken.
+        2.  Der Umriss wird auf der Zeichnung markiert und die temporäre Benennung *drag* wird hinzugefügt.
+        3.  Die linke Maustaste auf demUmriss selbst oder auf dieser Benennung gedrückt halten und den Umriss auf eine neue Position ziehen.
+    -   Umriss durch Koordinateneingabe verschieben:
+        1.  Die X- und Y-Koordinaten im Aufgaben-Bereich anpassen. Die Koordinaten beziehen sich auf den Mittelpunkt Basisansicht.
+6.  Wahlweise den **Radius** der Detailansicht anpassen.
+7.  Wahlweise den **Maßstab (Art)** und **Maßstab (Faktor)** der Detailansicht anpassen. Siehe [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md) für weitere Informationen.
+8.  Eine Benennung unter **Referenz** angeben. Diese Benenung wird neben dem Auswahlumriss angezeigt.
+9.  Die Schaltfläche **OK** drücken.
 
-Die Detailansicht kann innerhalb eines runden oder quadratischen Ansichtsrahmens angezeigt werden. Dies wird durch die [Einstellung](TechDraw_Preferences/de#Anmerkung.md) **Umrißform für Detailansichten** gesteuert.
+
+
+## Hinweise
+
+-   Zum Bearbeiten wird eine Detaliansicht mit einem Doppelklick in der [Baumansicht](Tree_view/de.md) aktiviert.
+-   Die Umrisse von Detailansichten können kreisförmig oder quadratisch sein. Dies wird mit der [Einstellung](TechDraw_Preferences/de#Anmerkung.md) **Umrissform für Detailansichten** gesteuert.
+-   [Forum topic with a good discussion about setting the anchor.](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
 
 
 
@@ -44,7 +62,7 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
 {{TitleProperty|Detail}}
 
--    {{PropertyData/de|Base View|Link}}: Die Ansicht auf der diese Detailansicht basiert.
+-    {{PropertyData/de|Base View|Link}}: Die Ansicht auf der die Detailansicht basiert.
 
 -    {{PropertyData/de|Anchor Point|Vector}}: Der Mittelpunkt der Detailansicht innerhalb der {{PropertyData/de|Base View}}.
 
@@ -56,33 +74,20 @@ Siehe auch [TechDraw Ansicht](TechDraw_View/de#Eigenschaften.md).
 
 ## Eigenschaften Basisansicht 
 
-Eine Detailansicht erbt alle anwendbaren Eigenschaften der als {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden:
-
--    {{PropertyView/de|Einstellung Hervorheben}}: Drehwinkel der Detailansicht im Uhrzeigersinn.
-
--    {{PropertyView/de|Linienfarbe Hervorheben}}: Linienfarbe für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorheben** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
-
--    {{PropertyView/de|Linienstil Hervorheben}}: Linienstil für die Umrissform. Die Standardeinstellung hierfür ist die Einstellung **Detail Hervorhebungsstil** in den [TechDraw Einstellungen](TechDraw_Preferences/de.md).
+Eine Detailansicht erbt alle anwendbaren Eigenschaften der unter {{PropertyData/de|Base View}} festgelegten Ansicht. In den Eigenschaften dieser Ansicht kann das Aussehen des Detailumrisses geändert werden:
 
 
 
-## Hinweise
-
--   [Eine gute Aussprache über das Setzen des Ankers](https://www.forum.freecadweb.org/viewtopic.php?f=35&t=34055#p285281)
+### Ansicht
 
 
+{{TitleProperty|Hightlight}}
 
-## Skripten
+-    {{PropertyView/de|Highlight Adjust|Float}}: Siehe [TechDraw Ansicht](TechDraw_View/de#Ansicht.md)
 
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+-    {{PropertyView/de|Highlight Line Color|Color}}: Wie vorher.
 
-Das Werkzeug Detailansicht kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
-
-
-```python
-Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
-...TBA
-```
+-    {{PropertyView/de|Highlight Line Style|Enumeration}}: Wie vorher.
 
 
 

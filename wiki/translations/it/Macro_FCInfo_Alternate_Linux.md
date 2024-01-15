@@ -1,4 +1,7 @@
 # Macro FCInfo Alternate Linux/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCInfo Alternate Linux
 |Name/it=Macro FCInfo Alternate Linux
@@ -11,9 +14,20 @@
 |SeeAlso=[Macro FCInfo](Macro_FCInfo/it.md)
 }}
 
+
+</div>
+
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
+## Description 
+
 Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza, angoli, superficie, inclinazione, volume e peso secondo la densità della forma selezionata, sia nelle unità del Sistema Internazionale che in quelle del Sistema Anglosassone.(solo per PyQt4)
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/6c6b6131b0c14d800033/raw/ffa3d6857abb0ea207cee1ae13c1cb78edadbcf5/FCInfo_fr_Ver_1-12_No_Docked_Ubuntu.FCMacro}}
@@ -22,7 +36,15 @@ Il server non accetta per il momento delle pagine più grandi di 64 KB e mi era 
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
+## Script 
+
 Scaricare il file da qui:
+
+
+</div>
 
 [FCInfo_en_Ver_1-12_No_Docked_Ubuntu.FCMacro.zip](http://forum.freecadweb.org/download/file.php?id=4453)
 

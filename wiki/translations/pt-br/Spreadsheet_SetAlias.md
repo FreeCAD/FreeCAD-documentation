@@ -3,16 +3,21 @@
    Name: Spreadsheet SetAlias
    MenuLocation: -
    Workbenches: Spreadsheet_Workbench
+   Shortcut: **Ctrl**+**Shift**+**A**
    Version: 0.17
 ---
 
 # Spreadsheet SetAlias/pt-br
 
-## Description
+
+
+## Descrição
 
 The **[<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Spreadsheet SetAlias](Spreadsheet_SetAlias.md)** tool opens a dialog to set up an alias for a cell. Instead of using the exact cell name like A2, B3, or C4, a custom name can be used.
 
-## Usage
+
+
+## Uso
 
 1.  Make sure there is an active **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet](Spreadsheet_CreateSheet.md)** open so that the button is enabled.
 2.  Select a cell.

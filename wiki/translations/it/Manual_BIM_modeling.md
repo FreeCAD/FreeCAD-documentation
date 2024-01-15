@@ -5,7 +5,7 @@
 
 
 
-{{Manual:TOC/it}}
+{{Manual:TOC}}
 
 BIM sta per [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (Modello di Informazioni di un Edificio). La definizione esatta di ciò che è varia, ma possiamo dire semplicemente che è il modo attuale di modellare gli edifici e le altre strutture di grandi dimensioni, come ponti, gallerie, ecc \... I modelli BIM sono di solito basate su modelli 3D, e comprendono anche una serie di ulteriori strati di informazioni, come le informazioni sui materiali, le relazioni con altri oggetti o modelli, o le istruzioni speciali per la costruzione o la manutenzione. Queste informazioni supplementari consentono tutti i tipi di analisi avanzate del modello, come ad esempio la resistenza strutturale, i costi e le stime dei tempi di costruzione, o il calcolo del consumo energetico.
 

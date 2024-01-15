@@ -13,24 +13,42 @@
 
 </div>
 
+
+
 ## Описание
 
 **ElementRotation1D** применяется для поворота профиля балки вокруг оси элементов балки.
 
+
+
 ## Применение
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Существует несколько способов вызова команды
     -   Нажмите **<img src="images/FEM_ElementRotation1D.svg" width=16px> [FEM ElementRotation1D](FEM_ElementRotation1D/ru.md)** button.
     -   Выберите в меню опцию **Model → Element Geometry → <img src="images/FEM_ElementRotation1D.svg" width=16px> Beam rotation**.
 2.  Укажите угол, на который должен быть повернут профиль балки.
 
+
+</div>
+
+
+
 ## Опции
+
+
 
 ## Свойства
 
+
+
 ## Ограничения
 
--   Currently multiple rotations are not supported (a single rotation is applied to all beams in the model).
+-   Currently, multiple rotations are not supported (a single rotation is applied to all beams in the model).
+
+
 
 ## Примечания
 

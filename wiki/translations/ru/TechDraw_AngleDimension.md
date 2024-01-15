@@ -57,25 +57,6 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 
 
 
-## Программирование
-
-
-**См. так же:**
-
-[TechDraw API](TechDraw_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
-
-The Angle Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
-
-
-```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
-dim1.Type = "Angle"
-dim1.References2D=[(view1, 'Edge1')]
-rc = page.addView(dim1)
-```
-
-
-
 
 
 {{TechDraw Tools navi

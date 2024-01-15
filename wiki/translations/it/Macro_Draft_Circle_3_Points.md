@@ -31,7 +31,7 @@ Se tutti gli oggetti selezionati hanno la stessa coordinata Z (xy **Z5**, xy **Z
 
 ToolBar Icon ![](images/Macro_Make_Circle_3_Points.png )
 
-**Draft_Circle_3\_Points.FCMacro**
+**Draft_Circle_3_Points.FCMacro**
 
 
 {{MacroCode|code=

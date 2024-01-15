@@ -23,7 +23,7 @@ L\'outil **TechDraw Exporter la page en Dxf** enregistre une page de dessin en u
     -   Appuyez sur le **<img src="images/TechDraw_ExportPageDXF.svg" width=16px> [Exporter une page au format DXF](TechDraw_ExportPageDXF/fr.md)**.
     -   Sélectionnez la **TechDraw → Page → <img src="images/TechDraw_ExportPageDXF.svg" width=16px> Exporter une page au format DXF** du menu.
     -   Si une page est affichée dans la [zone de vue principale](Main_view_area/fr.md) : cliquez avec le bouton droit de la souris sur la fenêtre de la page et sélectionnez l\'option **Exporter en DXF** dans le menu contextuel.
-3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de pages** s\'ouvre : {{Version/fr|0.20}}
     1.  Sélectionnez la page désirée.
     2.  Appuyez sur le bouton **OK**.
 4.  La boîte de dialogue **Enregistrer le fichier DXF** s\'ouvre.

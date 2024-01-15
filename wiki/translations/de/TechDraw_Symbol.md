@@ -24,7 +24,7 @@ Das Werkzeug *TechDraw Symbol* fügt eine [SVG](SVG/de.md)-Datei als Ansicht auf
 
 1.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind: Wahlweise das gewünschte Zeichnungsblatt durch Auswahl in der [Baumansicht](Tree_view/de.md) aktivieren.
 2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
-    -   Die Schaltfläche **<img src="images/TechDraw_Symbol.svg" width=16px> [SVG-Zeichnungselement einfügen](TechDraw_Symbol/de.md)** button.
+    -   Die Schaltfläche **<img src="images/TechDraw_Symbol.svg" width=16px> [SVG-Zeichnungselement einfügen](TechDraw_Symbol/de.md)** drücken.
     -   Den Menüeintrag **TechDraw → TechDraw Views → <img src="images/TechDraw_Symbol.svg" width=16px> SVG-Zeichnungselement einfügen** auswählen.
 3.  Wenn mehrere Zeichnungsblätter im Dokument vorhanden sind und noch kein Blatt aktiviert wurde, wird das Dialogfeld **Blattauswahl** geöffnet: {{Version/de|0.20}}
     1.  Das gewünschte Blatt auswählen.

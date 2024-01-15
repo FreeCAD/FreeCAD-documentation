@@ -27,7 +27,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Optionally select one or more objects. Note that although multiple objects can be in Draft Edit mode, objects can only be edited one at a time.
 2.  There are several ways to invoke the command:
     -   If you have not yet selected an object: double-click an object in the [Tree view](Tree_view.md). This only works for supported Draft objects.
-    -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
+    -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Edit](Draft_Edit.md)** button.
     -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
     -   Use the keyboard shortcut: **D** then **E**.
     -   For a single object: select the **Edit** option from the [Tree view](Tree_view.md) context menu. This only works for supported Draft objects. <small>(v0.21)</small> 
@@ -54,7 +54,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 ## Opções
 
-The single character keyboard shortcuts mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 ### Main task panel 
 
@@ -74,7 +74,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 -   If the start or end node of an open wire is moved so that they coincide, the wire is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse wire}} (<small>(v0.20)</small> ).
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Draft Arc](Draft_Arc.md) and <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Draft Arc 3Points](Draft_Arc_3Points.md) 
 
@@ -104,13 +104,13 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 -   If the start or end node of an open spline is moved so that they coincide, the spline is closed.
 -   Node context menu: {{Value|Delete point}}. At least two points must remain for an open spline. For a closed spline the minimum number of points is three.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open spline}} (<small>(v0.21)</small> ) and {{Value|Reverse spline}} (<small>(v0.21)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse spline}} (<small>(v0.21)</small> ).
 
 ### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Draft CubicBezCurve](Draft_CubicBezCurve.md) and <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Draft BezCurve](Draft_BezCurve.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|Delete point}}, {{Value|Make sharp}}, {{Value|Make tangent}} and {{Value|Make symmetric}}.
--   Edge context menu: {{Value|Add point}}, {{Value|Close/Open curve}} (<small>(v0.21)</small> ) and {{Value|Reverse curve}} (<small>(v0.21)</small> ).
+-   Edge context menu: {{Value|Add point}}, {{Value|Open wire}}/{{Value|Close wire}} (<small>(v0.21)</small> ) and {{Value|Reverse curve}} (<small>(v0.21)</small> ).
 
 ### <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimension](Draft_Dimension.md) 
 
@@ -174,7 +174,8 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
 
--   The color of the temporary nodes is the same as the color of the snap symbols. This color can be changed in the preferences: **Edit → Preferences... → Draft → Visual settings → Visual Settings → Color**. Note that this color is not used for the temporary nodes displayed for [Draft BezCurves](Draft_BezCurve.md). These nodes use the **Line Color** of the curve instead.
+-   The color of the temporary nodes is the same as the color of the snap symbols. This color can be changed in the preferences: **Edit → Preferences... → Draft → Grid and snapping → Snap symbol color**. Note that this color is not used for the temporary nodes displayed for [Draft BezCurves](Draft_BezCurve.md). These nodes use the **Line Color** of the curve instead.
+-   The size of the nodes depends on: **Edit → Preferences... → Display → 3D View → Marker size**. <small>(v0.22)</small> 
 
 ## Scripting
 

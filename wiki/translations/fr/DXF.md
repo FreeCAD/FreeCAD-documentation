@@ -17,7 +17,7 @@ Si vous avez l'intention de vérifier fréquemment les paramètres, nous vous re
 
 Vous trouverez plus d\'informations sur les pages [Draft DXF](Draft_DXF/fr.md) et [FreeCAD et Importation DXF](FreeCAD_and_DXF_Import/fr.md).
 
-Si vous utilisez la géométrie importée pour créer des formes 3D dans l\'atelier Part Design, essayez [Sketcher Valider l\'esquisse](Sketcher_ValidateSketch/fr.md) après avoir importé le fichier DXF dans une esquisse.
+Si vous utilisez la géométrie importée pour créer des formes 3D dans l\'atelier Part Design, essayez [Sketcher Valider une esquisse](Sketcher_ValidateSketch/fr.md) après avoir importé le fichier DXF dans une esquisse.
 
 
 
@@ -29,7 +29,7 @@ Cette implémentation est rapide, mais elle ignore certaines fonctions qu\'elle 
 
 ### Importateur DXF en Python 
 
-Cet importateur doit être téléchargé et installé avant de pouvoir être utilisé. Reportez-vous à la section [Installation du module d\'importation DXF](Dxf_Importer_Install/fr.md) ou utilisez l\'option \"\[ \] Autoriser FreeCAD à télécharger et à mettre à jour automatiquement les bibliothèques DXF\".
+Cet importateur doit être téléchargé et installé avant de pouvoir être utilisé. Utilisez l\'option \"\[ \] Autoriser FreeCAD à télécharger et à mettre à jour automatiquement les bibliothèques DXF\".
 
 Cet importateur dispose de plus de fonctions (telles que l\'implémentation de splines) et a la possibilité de charger les formes DXF dans l\'atelier Sketcher. Cependant, il faut savoir que tous les éléments de l\'esquisse apparaîtront individuellement une deuxième fois dans l\'arborescence du modèle, ce qui peut prêter à confusion. Vous pouvez supprimer tous chacun de ces objets et conserver uniquement l\'esquisse (qui apparaît comme deuxième entrée dans la liste des nouveaux éléments).
 

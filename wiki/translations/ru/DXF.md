@@ -29,7 +29,7 @@ This implementation of fast, but skips features it doesn\'t recognize, such as D
 
 ### Python DXF импортер 
 
-This importer has to be downloaded and installed before it can be used. See [Dxf Importer Install](Dxf_Importer_Install.md), or use the \"\[ \] Allow FreeCAD to automatically download and update the DXF libraries\" option.
+This importer has to be downloaded and installed before it can be used. Use the \"\[ \] Allow FreeCAD to automatically download and update the DXF libraries\" option.
 
 This importer has more features (such as implementing splines), and has the option of loading the DXF shapes into the Sketcher Workbench. However, be warned that all the elements of the sketch will appear individually a second time in the model tree, which can be confusing. You can delete all these individual objects and retain the single sketch (which appears as the second entry in the list of new elements).
 

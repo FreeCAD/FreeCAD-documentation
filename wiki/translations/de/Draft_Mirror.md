@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Draft Mirror
-   Name/de: Entwurf Spiegeln
+   Name/de: Draft Spiegeln
    MenuLocation: Änderung , Spiegeln
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Shortcut: **M** **I**
@@ -14,9 +14,9 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Entwurf Spiegeln** Befehl erstellt gespiegelte Kopien, [Part Spiegeln](Part_Mirror/de.md) Objekte, von ausgewählten Objekten. Ein [Part Spiegeln](Part_Mirror/de.md) Objekt ist parametrisch, d.h. es aktualisiert sich, wenn sich sein Quellobjekt ändert.
+Der Befehl <img alt="" src=images/Draft_Mirror.svg  style="width:24px;"> **Draft Spiegeln** erstellt gespiegelte Kopien, [Part-Mirror](Part_Mirror/de.md)-Objekte, von ausgewählten Objekten. Ein [Part-Mirror](Part_Mirror/de.md)-Objekt ist parametrisch, d.h. es aktualisiert sich, wenn sich sein Quellobjekt ändert.
 
-Der Befehl kann auf 2D Objekte angewendet werden, die im [Entwurf Arbeitsbereich](Draft_Workbench/de.md) oder im [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D Objekte, wie jene, die im [Part Arbeitsbereich](Part_Workbench/de.md), im [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) oder im [Architektur Arbeitsbereich](Arch_Workbench/de.md) erstellt wurden.
+Der Befehl kann auf 2D-Objekte angewendet werden, die im Arbeitsbereich [Draft](Draft_Workbench/de.md) oder im Arbeitsbereich [Sketcher](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D-Objekte, wie jene, die in den Arbeitsbereichen [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md) erstellt wurden.
 
 <img alt="" src=images/Draft_Mirror_example.jpg  style="width:400px;"> 
 * Ein Objekt Spiegeln*
@@ -25,24 +25,24 @@ Der Befehl kann auf 2D Objekte angewendet werden, die im [Entwurf Arbeitsbereich
 
 ## Anwendung
 
-Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-1.  Wähle optional ein oder mehrere Objekte aus.
+1.  Wahlweise ein oder mehrere Objekte auswählen.
 2.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_Mirror.svg" width=16px> [Entwurf Spiegeln](Draft_Mirror/de.md)** Schaltfläche.
-    -   Wählen die Option **Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** aus dem Menü.
-    -   Verwende das Tastaturkürzel: **M** und dann **I**.
-3.  Wenn du noch kein Objekt ausgewählt hast: Wähle ein Objekt in der [3D-Ansicht](3D_view/de.md).
-4.  Das Aufgabenfeld **Spiegeln** öffnet sich. Siehe [Optionen](#Optionen.md) für weitere Informationen.
-5.  Wähle den ersten Punkt der Spiegelebene in der [3D-Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
-6.  Wähle den zweiten Punkt der Spiegelebene in der [3D Ansicht](3D_view/de.md), oder gib die Koordinaten ein und drücke die**<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
-7.  Die Spiegelebene wird durch die ausgewählten Punkte und die Normale der [Entwurf Arbeitsebene](Draft_SelectPlane/de.md) definiert.
+    -   Die Schaltfläche **<img src="images/Draft_Mirror.svg" width=16px> [Spiegeln](Draft_Mirror/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → <img src="images/Draft_Mirror.svg" width=16px> Spiegeln** auswählen.
+    -   Das Tastaturkürzel **M** dann **I**.
+3.  Wurde noch kein Objekt ausgewählt: Ein Objekt in der [3D-Ansicht](3D_view/de.md) auswählen.
+4.  Der Aufgaben-Bereich **Spiegeln** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+5.  Den ersten Punkt der Spiegelebene in der [3D-Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+6.  Den zweiten Punkt der Spiegelebene in der [3D Ansicht](3D_view/de.md) auswählen, oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
+7.  Die Spiegelebene wird durch die ausgewählten Punkte und die Normale der [Draft-Arbeitsebene](Draft_SelectPlane/de.md) definiert.
 
 
 
 ## Optionen
 
-Die Tastenkürzel einzelner Zeichen, die hier genannt werden, können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md).
+Die im Aufgaben-Bereich verfügbaren Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft-Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
@@ -56,14 +56,6 @@ Die Tastenkürzel einzelner Zeichen, die hier genannt werden, können geändert 
 
 -   Mirrored copies of [Draft Lines](Draft_Line.md), [Draft Wires](Draft_Wire.md), [Draft Arcs](Draft_Arc.md) and [Draft Circles](Draft_Circle.md) can be turned into independent editable Draft objects by using [Draft Downgrade](Draft_Downgrade.md) and then [Draft Upgrade](Draft_Upgrade.md).
 -   The [Part SimpleCopy](Part_SimpleCopy.md) command can be used to create a copy of a mirrored object that is not linked to its source object.
-
-
-
-## Einstellungen
-
-Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Eigenschaften](Draft_Preferences/de.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 
 
@@ -93,9 +85,9 @@ Ein [Part Mirror](Part_Mirror.md)-Objekt ist von einem [Part Feature](Part_Featu
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [Grundlagen der Scripterstellung in FreeCAD](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Objekte werden mit der `mirror`-Methoder des Draftmodules gespiegelt.
+Zum Spiegeln von Objekten wird die Methode `mirror` des Draft-Moduls verwendet.
 
 
 ```python

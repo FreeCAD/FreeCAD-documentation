@@ -1,4 +1,7 @@
 # Macro 3D Parametric Curve/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro_3D_Parametric_Curve
 |Translate=Makro_3D_Parametrická_Křivka
@@ -12,16 +15,37 @@
 |SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/cs.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Toto makro vytváří křivku popsanou parametrickými rovnicemi x(t), y(t) a z(t). S možností výběru mezi B-křivkou a lomenou čárou pro typ přímky mezi body.
 
+
+</div>
+
 <img alt="" src=images/ParametricCurve.png  style="width:600px;"> 
 *Example Epicycloid curve‎*
+
+## Original Script 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Původní skript 
 
 Aktualizovaný kód (13/05/2015) najdete na následujícím úložišti Github: [Get the code here!](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/ParametricCurve.FCMacro)
+
+
+</div>
+
+
 
 ## Upravený skript 
 

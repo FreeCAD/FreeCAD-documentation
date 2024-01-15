@@ -2,10 +2,10 @@
 {{Macro/fr
 |Name=Macro WireFilter
 |Icon=Wirefilter.svg
-|Description=Filtrez les lignes à partir d'esquisses, décalages 2D, échelles, réorganisez l'ordre des lignes.
+|Description=Filtre des lignes à partir d'esquisses, de décalages 2D, de misess à l'échelles, réorganisation de l'ordre des lignes.
 |Author=TheMarkster
-|Version=0.2022.02.09
-|Date=2022-02-09
+|Version=0.2023.10.19
+|Date=2022-10-19
 |FCVersion=Les versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:Wirefilter.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/wirefilter Documentation complète sur Github]
@@ -22,14 +22,18 @@ Dans la capture d\'écran ci-dessous, WireFilter est utilisé pour créer des fa
 <img alt="" src=images/Wirefilter_scr1.png  style="width:600px;"> 
 *Copie d'écran de la Macro WireFilter*
 
+
+
 ## Problèmes connus 
 
 Parfois, la protrusion ne peut pas trouver la normale correcte et le WireFilter est généré dans la mauvaise direction. Cela peut être corrigé en activant la propriété Fix Normal de l\'objet WireFilter, qui définit la direction personnalisée de Pad sur la normale correcte. Cela fonctionne également pour un extrusion lorsqu\'il ne parvient pas à trouver la normale correcte.
 
+
+
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/e9d282440f8ae58817df8fad1c4995861c7cc949/wirefilter.FCMacro|wirefilter.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/0aedd5e9057650d0a1f0483f3cc2fa6c/raw/28575fbb2042790d779bcd293c048a4123f4a771/wirefilter.FCMacro|wirefilter.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Wirefilter.svg )
 

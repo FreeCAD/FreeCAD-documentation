@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: SheetMetal AddBase
-   Name/pl: Arkusz Blachy: Dodaj element bazowy
-   MenuLocation: SheetMetal , Dodaj element bazowy
+   Name/pl: Arkusz Blachy: Utwórz element bazowy
+   MenuLocation: SheetMetal , Utwórz element bazowy
    Workbenches: SheetMetal_Workbench/pl
    Shortcut: **C** **B**
 ---
@@ -13,7 +13,7 @@
 
 ## Opis
 
-<img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **Dodaj element bazowy** tworzy obiekt bazowy środowiska pracy Arkusz Blachy ze szkicu profilu.
+<img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **Utwórz element bazowy** tworzy obiekt bazowy środowiska pracy Arkusz Blachy ze szkicu profilu.
 
 Z otwartego konturu tworzy przestrzenny *profil*:
 
@@ -31,7 +31,7 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
 ### Profil
 
-1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) **otwartego konturu**.
+1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *otwartego konturu*.
 2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) za pomocą jednej z następujących możliwości:
     -   Przycisk **<img src="images/SheetMetal_AddBase.svg" width=16px> [Dodaj element bazowy](SheetMetal_AddBase/pl.md)** na pasku narzędzi.
     -   Opcja w menu **Arkusz Blachy → <img src="images/SheetMetal_AddBase.svg" width=16px> Dodaj element bazowy**.
@@ -45,7 +45,7 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
 ### Płyta
 
-1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) **zamkniętego konturu**.<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
+1.  Wybierz <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [szkic](Sketcher_Workbench/pl.md) *zamkniętego konturu*.<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
 2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md) *(patrz powyżej)*.
 3.  Dostosuj parametry profilu, edytując odpowiednie wartości w [Edytorze właściwości](Property_editor/pl.md):
     -   Właściwość **Grubość** dla grubości płyty.
@@ -58,7 +58,7 @@ Z zamkniętego konturu tworzy bazową *(pustą)* *płytę*:
 
 ## Właściwości
 
-Zobacz również stronę: [Edytor właściwości](Property_editor/pl.md).
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
 
 Obiekt bazowy wygięcia środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
@@ -80,7 +80,7 @@ Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg zn
 
 {{Properties_Title|Parametry}}
 
--    **Strona wygięcia|Enumeration**: \"Type wpustu\". {{value|Na zewnątrz}} *(domyślnie)*, {{value|Do wewnątrz}}, {{value|Pośrodku}}.
+-    **Strona wygięcia|Enumeration**: \"Typ wpustu\". {{value|Na zewnątrz}} *(domyślnie)*, {{value|Do wewnątrz}}, {{value|Pośrodku}}.
 
 -    **Szkic wygięcia|Link**: \"Obiekt szkicu ściany\". Link do profilu / szkicu konturu.
 

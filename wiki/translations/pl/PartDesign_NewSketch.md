@@ -39,6 +39,7 @@ Podczas tworzenia modeli przy użyciu środowiska [Projekt Części](PartDesign_
 :   
 
     :   <img alt="" src=images/PartDesign.CreateSketch.SelectFeatureDialog.jpeg  style="width:300px;">
+
     :   Okno dialogowe *Wybierz cechę*. Te ustawienia tworzą szkic na płaszczyźnie XY i umożliwiają odniesienia z innych elementów tej samej bryły.
 
 Ustawienia okna dialogowego

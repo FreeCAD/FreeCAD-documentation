@@ -22,7 +22,7 @@
 
 #### Qt-Toolkit 
 
-Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPackのFreeCADの中に含まれていますが](Third_Party_Libraries.md)、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
+Qtツールキットは、芸術、プラットフォーム非依存のユーザーインターフェイスデザインツールです。それは[LibPack](Third_Party_Libraries.md)のFreeCADの中に含まれていますが、[www.trolltech.com](http://www.trolltech.com)でもダウンロードすることができます。
 
 
 </div>
@@ -117,7 +117,7 @@ VC8はVisualStudio6(IMOの大きなステップバック)から、一歩も前�
 
 <div class="mw-translate-fuzzy">
 
-なので、エクスプレス版は、見つけるのは難しいです。しかし、\[[http://msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク\]を試してみてください](http://msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク%5Dを試してみてください)
+なので、エクスプレス版は、見つけるのは難しいです。しかし、\[<http://msdn.microsoft.com/vstudio/express/visualc/default.aspxこのリンク%5Dを試してみてください>
 
 
 </div>
@@ -134,7 +134,7 @@ CAMSourceはスクリーンキャストを（Webキャスト）を記録する�
 
 </div>
 
-詳細は\[camstudio.org [http://camstudio.org/\]を見てください](http://camstudio.org/%5Dを見てください)
+詳細は\[camstudio.org <http://camstudio.org/%5Dを見てください>
 
 ### Tools on Linux 
 

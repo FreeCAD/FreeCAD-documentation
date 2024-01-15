@@ -12,7 +12,7 @@
 
 ## 설명
 
-**표준 면 선택 상자(Std BoxElementSelection)** 명령은 [3D 보기에](3D_view/ko.md) 사용자 정의 사각 영역 즉 상자를 그려 개체의 면을 선택합니다.
+**표준 면 선택 상자(Std BoxElementSelection)** 명령은 [3D 보기](3D_view/ko.md)에 사용자 정의 사각 영역 즉 상자를 그려 개체의 면을 선택합니다.
 
 ## 용법
 

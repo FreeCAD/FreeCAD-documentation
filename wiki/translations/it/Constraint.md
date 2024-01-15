@@ -13,30 +13,34 @@ Esistono due grandi tipi di vincoli:
 
 Per un elenco di tutti i vincoli che possono essere applicati vedere le informazioni in <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md). Alcuni di essi si applicano alle linee, alcuni alle curve e alcuni ai vertici. Vedi anche il [Tutorial di base per sketcher](Basic_Sketcher_Tutorial/it.md).
 
+
+
 ## Utilizzo
 
-1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) or through the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
-2.  Press
+1.  Creare uno sketch da <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md) o tramite <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
+2.  Premere
     -   
-        **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**
+        **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Crea uno schizzo](Sketcher_NewSketch/it.md)**
         
-        , or
+        , o
 
     -   
-        **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**
+        **[<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**
         
-        followed by **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
-3.  Double click the created sketch to enter its edit mode.
-4.  Draw a series of lines using **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Create polyline](Sketcher_CreatePolyline.md)**.
-5.  Pick one of the lines, and use **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**.
-6.  Pick one of the lines, and use **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Constrain horizontal](Sketcher_ConstrainHorizontal.md)**.
-7.  Pick the vertical line, and use **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain distance Y](Sketcher_ConstrainDistanceY.md)**; assign a distance.
-8.  Pick the horizontal line, and use **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain distance X](Sketcher_ConstrainDistanceX.md)**; assign a distance.
+        seguito da **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
+3.  Fare doppio clic sullo schizzo creato per accedere alla modalità di modifica.
+4.  Disegnare una serie di linee usando **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polilinea](Sketcher_CreatePolyline/it.md)**.
+5.  Selezionare una delle linee e cliccare **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Verticale](Sketcher_ConstrainVertical/it.md)**.
+6.  Selezionare una delle linee e cliccare **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Orizzontale](Sketcher_ConstrainHorizontal/it.md)**.
+7.  Selezionare la linea verticale e cliccare **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Distanza verticale](Sketcher_ConstrainDistanceY/it.md)**; assegnare una distanza.
+8.  Selezionare la linea orizzontale e cliccare **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Distanza orizzontale](Sketcher_ConstrainDistanceX/it.md)**; assegnare una distanza.
+
+
 
 ## Note
 
--   Constraints are useful to create very precise profiles which can the be turned into solid extrusions by using the **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)** or **[<img src=images/Part_Extrude.svg style="width:16px"> [Part Extrude](Part_Extrude.md)** operations.
--   Constraints are only used within [Sketches](Sketch.md); other 2D objects such as those created with the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md) do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
+-   I vincoli sono utili per creare profili molto precisi che possono essere trasformati in estrusioni solide utilizzando il pulsante **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Estrusione di PartDesign](PartDesign_Pad/it.md)** o il pulsante **[<img src=images/Part_Extrude.svg style="width:16px"> [Estrudi di Part](Part_Extrude/it.md)**.
+-   I vincoli vengono utilizzati solo all\'interno di [Sketcher](Sketch/it.md); altri oggetti 2D come quelli creati con <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md) non comprendono i vincoli; questi ultimi vengono semplicemente collocati nello spazio 3D, e le loro proprietà ne definiscono forma e posizione.
 
 
 {{Sketcher Tools navi

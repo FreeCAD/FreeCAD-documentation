@@ -1,5 +1,5 @@
 # Manual:Parametric objects/es
-{{Manual:TOC/es}}
+{{Manual:TOC}}
 
 FreeCAD está diseñado para el modelado paramétrico. Esto significa que la geometría que creas, en lugar de ser libremente esculpible, es producida por reglas y parámetros. Por ejemplo, un cilindro puede ser producido a partir de un radio y una altura. Con estos dos parámetros, el programa tiene suficiente información para construir el cilindro.
 

@@ -24,12 +24,12 @@ Dies ist ein Mehrfach-Posting eines [Tutorials](http://opensourceecology.org/wik
 
 FreeCAD ist ein parametrisches 3D Modellierungsprogramm. Parametrische Modellierung erlaubt es Dir, einfach Dein Design zu modifizieren, indem Du in deiner Modellierungshistorie zurückgehst und die Parameter änderst. FreeCAD ist Opensource (LGPL Lizenz) und sehr modular, erlaubt dadurch umfangreiche Erweiterung und Anpassung, dank der intensiven Nutzung der Python Programmiersprache.
 
--   FreeCAD Webseite: <http://www.freecadweb.org/>
--   FreeCAD Dokumentations Wiki: <http://www.freecadweb.org/wiki/index.php?title=Main_Page/de>
--   FreeCAD Arbeitsbereiche: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept/de>
--   FreeCAD Forum: <http://forum.freecadweb.org/>
--   Erste Schritte mit FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started/de>
--   Architektur Tutorium: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial/de>
+-   FreeCAD Webseite: <http://www.freecad.org/>
+-   FreeCAD Dokumentations Wiki: <http://www.freecad.org/wiki/index.php?title=Main_Page/de>
+-   FreeCAD Arbeitsbereiche: <http://www.freecad.org/wiki/index.php?title=Workbench_Concept/de>
+-   FreeCAD Forum: <http://forum.freecad.org/>
+-   Erste Schritte mit FreeCAD: <http://www.freecad.org/wiki/index.php?title=Getting_started/de>
+-   Architektur Tutorium: <http://www.freecad.org/wiki/index.php?title=Arch_tutorial/de>
 
 
 
@@ -72,7 +72,7 @@ FreeCAD ist eine sehr technische Anwendung und die Lernkurve kann sehr steil sei
 
 -   Obwohl FreeCAD Netzobjekte importieren und mit ihnen arbeiten kann (Netz Arbeitsbereich), ist es vorrangig gedacht, mit einem fortgeschritteneren Objekttyp namens brep zu arbeiten, der von den meisten Arbeitsbereichen genutzt wird (Part, PartDesign, Draft, Sketcher, Arch). Wenn Netz-basierte Dateien (.dae, .orb, .stl\...) importiert werden, musst du diese Objekte in der Regel erst in brep konvertieren, bevor du mit ihnen etwas Interessantes machen kannst. Volumenkörper-basierte Dateiformate (.step, .iges) erzeugen beim Import in FreeCAD direkt brep Objekte. 2D Formate (.dxf, .svg) erzeugen ebenfalls brep Inhalte.
 
--   FreeCAD hat verschiedene Wege oder Arten, um die Maustasten zu nutzen. Diese Arten können in den Einstellungen gesetzt werden oder ändern sich während der Laufzeit durch Rechtsklicken auf den Hintergrund der 3D Ansicht. Sie sind beschrieben auf <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. Die am besten geeigneten Modi für CAD Arbeiten sind CAD oder Gesten.
+-   FreeCAD hat verschiedene Wege oder Arten, um die Maustasten zu nutzen. Diese Arten können in den Einstellungen gesetzt werden oder ändern sich während der Laufzeit durch Rechtsklicken auf den Hintergrund der 3D-Ansicht. Sie sind beschrieben auf <https://wiki.freecad.org/Mouse_navigation>. Die am besten geeigneten Modi für CAD-Arbeiten sind CAD oder Gesten.
 
 
 

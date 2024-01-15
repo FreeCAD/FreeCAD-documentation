@@ -2,13 +2,13 @@
 {{Macro
 |Name=Macro FCSpring On Surface
 |Icon=FCSpring_On_Surface.png
-|Description=This macro creates a helix (or spring) around a solid object whatever its shape, the helix follows the entire surface of the object (Python2 is required)<br>Download the [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png toolBar icon]
+|Description=This macro creates a helix (or spring) around a solid object whatever its shape, the helix follows the entire surface of the object (Python2 is required).
 |Author=Mario52
-|Version=00.00
-|Date=2019/12/20
-|Download=[https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png ToolBar icon]
+|Version=00.01
+|Date=2024/01/15
+|Download=[https://wiki.freecad.org/images/3/38/FCSpring_On_Surface.png ToolBar Icon]
 |FCVersion=0.18 and above
-|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
+|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable.md)
 }}
 
 ## Description
@@ -53,7 +53,9 @@ Select the object (solid), the macro calculate by default value:
 
 ## Script
 
-ToolBar icon  ![](images/FCSpring_On_Surface.png )
+ToolBar icon
+
+ ![](images/FCSpring_On_Surface.png )
 
 **Macro_FCSpring_On_Surface.FCMacro**
 
@@ -64,7 +66,7 @@ ToolBar icon  ![](images/FCSpring_On_Surface.png )
 #
 """
 ***************************************************************************
-*   Copyright (c)  2019 <mario52>                                         *
+*   Copyright (c)  2019 2020 2021 2022 2023 2024 <mario52>                *
 *                                                                         *
 *   This file is a supplement to the FreeCAD CAx development system.      *
 *                                                                         *
@@ -92,26 +94,23 @@ ToolBar icon  ![](images/FCSpring_On_Surface.png )
 *                  may cause malfunction of the program                   *
 ***************************************************************************
 """
-#Macro_FCSpring On Surface 20/12/2019 /_00
+#Macro_FCSpring On Surface 20/12/2019 /_00 15/01/2024
 #
-#OS: Windows 10 (10.0)
-#Word size of OS: 64-bit
+#OS: Windows 10 build 19045
 #Word size of FreeCAD: 64-bit
-#Version: 0.19.18848 (Git)
+#Version: 0.22.0dev.35554 (Git)
 #Build type: Release
-#Branch: master
-#Hash: 50f4c012b4d45a4d34055f0be1a48de6e293c9a8
-#Python version: 3.6.8
-#Qt version: 5.12.1
-#Coin version: 4.0.0a
-#OCC version: 7.3.0
+#Branch: main
+#Hash: 8e2ab9f76888ac4da971f9d5069cec7bcc2b572f
+#Python 3.10.13, Qt 5.15.8, Coin 4.0.2, Vtk 9.2.6, OCC 7.6.3
+#Locale: French/Mars (fr_MA)
 #
 __title__   = "FCSpring On Surface"
 __author__  = "Mario52"
 __url__     = "http://www.freecadweb.org/index-fr.html"
 __Wiki__    = "http://www.freecadweb.org/wiki/index.php?title=FCSpring_On_Surface"
-__version__ = "00.00"
-__date__    = "20/12/2019"
+__version__ = "00.01"
+__date__    = "2024/01/15" #YYYY/MM/DD
 
 #original code by wandererfan
 #How to intersect a line with a part
@@ -382,16 +381,16 @@ class Ui_MainWindow(object):
 
     def on_DS_GB_00_01_Pas(self, value):
         self.Pas = value
-        self.DS_GB_00_01_Pas.setStyleSheet("background-color: QPalette.Base")
+        self.DS_GB_00_01_Pas.setStyleSheet("QDoubleSpinBox {background-color: QPalette.Base}")
 
     def on_DS_GB_00_02_Hauteur(self, value):
         self.Hauteur = value
-        self.DS_GB_00_02_Hauteur.setStyleSheet("background-color: QPalette.Base")
+        self.DS_GB_00_02_Hauteur.setStyleSheet("QDoubleSpinBox {background-color: QPalette.Base}")
 
     def on_SP_GB_00_03_Precision(self, value):
         self.Precision = value
         self.steps = (360.0 / self.Precision)
-        self.SP_GB_00_03_Precision.setStyleSheet("background-color: QPalette.Base")
+        self.SP_GB_00_03_Precision.setStyleSheet("QSpinBox {background-color: QPalette.Base}")
 
     def on_DP_01_01_X(self, value):
         self.coor_X = value
@@ -495,22 +494,22 @@ class Ui_MainWindow(object):
                         #Wire.Label = objetLabel + "_Wire"
                         App.ActiveDocument.ActiveObject.Label = objetLabel + "_Wire"
                         #self.longueurFil = 
-                    self.PB_02_01_Ok.setStyleSheet("background-color: green;\n"
-                                                   "border:2px solid rgb( 0, 115,0);")
+                    self.PB_02_01_Ok.setStyleSheet("QPushButton {background-color: green;\n"
+                                                   "border:2px solid rgb( 0, 115,0);}")
                 else:
                     self.PB_02_01_Ok.setText("K-O")
-                    self.PB_02_01_Ok.setStyleSheet("background-color: red;\n"
-                                                   "border:2px solid rgb(115, 0, 0);")
+                    self.PB_02_01_Ok.setStyleSheet("QPushButton {background-color: red;\n"
+                                                   "border:2px solid rgb(115, 0, 0);}")
 
             else:
-                self.PB_02_01_Ok.setStyleSheet("background-color: red;\n"
-                                               "border:2px solid rgb(115, 0, 0);")
+                self.PB_02_01_Ok.setStyleSheet("QPushButton {background-color: red;\n"
+                                               "border:2px solid rgb(115, 0, 0);}")
                 if (self.Pas == 0):
-                    self.DS_GB_00_01_Pas.setStyleSheet("border:2px solid rgb(115, 0, 0);")
+                    self.DS_GB_00_01_Pas.setStyleSheet("QDoubleSpinBox {border:2px solid rgb(115, 0, 0);}")
                 if (self.Hauteur == 0):
-                    self.DS_GB_00_02_Hauteur.setStyleSheet("border:2px solid rgb(115, 0, 0);")
+                    self.DS_GB_00_02_Hauteur.setStyleSheet("QDoubleSpinBox {border:2px solid rgb(115, 0, 0);}")
                 if (self.Precision == 0):
-                    self.SP_GB_00_03_Precision.setStyleSheet("border:2px solid rgb(115, 0, 0);")
+                    self.SP_GB_00_03_Precision.setStyleSheet("QSpinBox {border:2px solid rgb(115, 0, 0);}")
                 
             FreeCAD.Console.PrintMessage("Pas        : " + str(self.Pas) + "\n")
             FreeCAD.Console.PrintMessage("Hauteur    : " + str(self.Hauteur) + "\n")
@@ -525,8 +524,8 @@ class Ui_MainWindow(object):
             points = []
 
         except Exception:
-            self.PB_02_01_Ok.setStyleSheet("background-color: red;\n"
-                                           "border:2px solid rgb(115, 0, 0);")
+            self.PB_02_01_Ok.setStyleSheet("QSpinBox {background-color: red;\n"
+                                           "border:2px solid rgb(115, 0, 0);}")
 
         App.ActiveDocument.recompute()
         noPass = 1    # switch 1 = pass
@@ -550,11 +549,11 @@ class SelObserver:
 
         sel = ""
         ui.progressBar_1_Green.setValue(0)
-        ui.PB_02_01_Ok.setStyleSheet("background-color: QPalette.Base") # origin system
+        ui.PB_02_01_Ok.setStyleSheet("QPushButton {background-color: QPalette.Base}") # origin system
         ui.PB_02_01_Ok.setText("Ok")
-        ui.DS_GB_00_01_Pas.setStyleSheet("background-color: QPalette.Base")
-        ui.DS_GB_00_02_Hauteur.setStyleSheet("background-color: QPalette.Base")
-        ui.SP_GB_00_03_Precision.setStyleSheet("background-color: QPalette.Base")
+        ui.DS_GB_00_01_Pas.setStyleSheet("QDoubleSpinBox {background-color: QPalette.Base}")
+        ui.DS_GB_00_02_Hauteur.setStyleSheet("QDoubleSpinBox {background-color: QPalette.Base}")
+        ui.SP_GB_00_03_Precision.setStyleSheet("QSpinBox {background-color: QPalette.Base}")
         ui.Label_GB_01_01_X.setText("X")
         ui.Label_GB_01_02_Y.setText("Y")
         ui.Label_GB_01_03_Z.setText("Z")
@@ -605,6 +604,7 @@ ui.setupUi(MainWindow)
 MainWindow.show()
 
 
+
 }}
 
 
@@ -624,6 +624,12 @@ MainWindow.show()
 The Genesis [Zwei Helix - ein Sweep](https://forum.freecadweb.org/viewtopic.php?f=13&t=41627)
 
 The original code [How to intersect a line with a part](https://www.forum.freecadweb.org/viewtopic.php?f=22&t=5456#p44194) by wandererfan
+
+### Version
+
+00.01 2024/01/15 : adapt styleSheet to new Qt
+
+00.00 20/12/2019 : first
 
 
 

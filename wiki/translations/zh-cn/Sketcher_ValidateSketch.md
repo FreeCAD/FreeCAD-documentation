@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**草图验证（Validate sketch）**工具可用于修复不可编辑的草图、存在无效约束的草图，以及添加有缺失的[重合约束的根据DXF等文件中导入的几何图形所创建的草图](Sketcher_ConstrainCoincident.md)。此工具也可有效的定位本地草图中缺失的重合约束，这个问题将导致在您试图运用一个PartDesign特征时生成一个\"can\'t validate broken face\"错误。
+**草图验证（Validate sketch）**工具可用于修复不可编辑的草图、存在无效约束的草图，以及添加有缺失的[重合约束](Sketcher_ConstrainCoincident.md)的根据DXF等文件中导入的几何图形所创建的草图。此工具也可有效的定位本地草图中缺失的重合约束，这个问题将导致在您试图运用一个PartDesign特征时生成一个\"can\'t validate broken face\"错误。
 
 
 </div>
@@ -32,7 +32,7 @@
 
 1.  选择待验证的草图，可以从模型树或通过单击3D视图中目标对象的一条边进行选择。**请注意：** 草图一定不能处于编辑模式中。如果您正处于草图编辑模式，需要[退出草图编辑模式](Sketcher_LeaveSketch.md)。
 2.  从Sketch菜单或Part Design菜单中打开草图验证工具。
-3.  执行的具体操作请参考下列[选项部分](#选项.md)。
+3.  执行的具体操作请参考下列[选项](#选项.md)部分。
 4.  完成验证后点击**Close**按钮。
 
 

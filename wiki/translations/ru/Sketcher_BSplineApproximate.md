@@ -10,6 +10,8 @@
 
 # Sketcher BSplineApproximate/ru
 
+
+
 ## Описание
 
 Converts compatible geometry, edges and curves, into a B-spline (see [this page](B-Splines.md) for more info about B-splines).
@@ -19,6 +21,8 @@ Converts compatible geometry, edges and curves, into a B-spline (see [this page]
 
 <img alt="" src=images/sketcher_BSplineConvertToNurb1.png  style="width:400px;"> 
 *The same objects after conversion to B-splines.*
+
+
 
 ## Применение
 

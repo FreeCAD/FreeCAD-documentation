@@ -11,7 +11,7 @@ L**\'Ambiente Draft** <img alt="" src=images/Workbench_Draft.svg  style="width:3
 
 Gli oggetti Draft possono essere utilizzati per il disegno generale, in modo simile a quanto si può fare con Inkscape o AutoCAD. Ma possono anche costituire la base per la creazione di oggetti 3D in altri ambienti di lavoro. Una [Polilinea](Draft_Wire/it.md) può definire il percorso di un [Muro](Arch_Wall/it.md), un [Poligono](Draft_Polygon/it.md) può essere utilizzato per un [Estrusione](Part_Extrude/it.md), ecc. Molti degli [strumenti di Modifica](#Modificare.md) possono essere comunque applicati agli oggetti 2D e 3D creati con altri ambienti di lavoro. Ad esempio, puoi [spostare](Draft_Move/it.md) uno [Sketch](Sketcher_Workbench/it.md) o creare una [Serie ortogonale](Draft_OrthoArray/it.md) da un oggetto [Part](Part_Workbench/it.md).
 
-L\'ambiente Draft fornisce anche strumenti per definire un [piano di lavoro](Draft_SelectPlane/it.md), una [griglia](Draft_Snap_Grid/it.md) e un [sistema di aggancio](Draft_Snap.md) per controllare con precisione la posizione della geometria.
+L\'ambiente Draft fornisce anche strumenti per definire un [piano di lavoro](Draft_SelectPlane/it.md), una [griglia](Draft_Snap_Grid/it.md) e un [sistema di aggancio](Draft_Snap/it.md) per controllare con precisione la posizione della geometria.
 
 Se il tuo obiettivo principale è la produzione di disegni 2D complessi e file [DXF](DXF/it.md) e non hai bisogno della modellazione 3D, FreeCAD potrebbe non essere la scelta giusta per te. Potresti invece prendere in considerazione un programma software dedicato per il disegno tecnico, come [LibreCAD](https://it.wikipedia.org/wiki/LibreCAD) o [QCad](https://it.wikipedia.org/wiki/QCad).
 
@@ -122,7 +122,7 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 -   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polilinea in B-spline](Draft_WireToBSpline/it.md): converte [Polilinee](Draft_Wire/it.md) in [BSplines](Draft_BSpline/it.md) e viceversa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft in Sketch](Draft_Draft2Sketch/it.md): converte un [Draft](Draft_Workbench/it.md) in [Schizzo](Sketcher_NewSketch/it.md) e vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft in sketch](Draft_Draft2Sketch/it.md): converte un [Draft](Draft_Workbench/it.md) in [Schizzo](Sketcher_NewSketch/it.md) e vice versa.
 
 -   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Imposta la pendenza](Draft_Slope/it.md): imposta la pendenza delle [Linee](Draft_Line/it.md) o [Polilinee](Draft_Wire.md) selezionate aumentando o diminuendo la coordinata Z di tutti i punti dopo il primo.
 
@@ -132,13 +132,13 @@ Alla destra una [Polilinea](Draft_Wire/it.md) usata come percorso per una [serie
 
 
 
-## Barra di Draft 
+## Vassoio di Draft 
 
-La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare/disattivare la modalità di costruzione e specificare il livello o il gruppo attivo.
+Il [Vassoio di Draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro, definire le impostazioni di stile, attivare/disattivare la modalità di costruzione e specificare il livello o il gruppo attivo.
 
 ![](images/Draft_tray_default.png )
 
--   ![](images/Draft_tray_button_plane.png ) [Seleziona Piano](Draft_SelectPlane/it.md): seleziona il piano di lavoro Draft corrente. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano**.
+-   ![](images/Draft_tray_button_plane.png ) [Seleziona piano](Draft_SelectPlane/it.md): definisce il piano di lavoro Draft corrente. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SelectPlane.svg" width=16px> Seleziona Piano**.
 
 -   ![](images/Draft_tray_button_style.png ) [Imposta stile](Draft_SetStyle/it.md): imposta lo stile predefinito per i nuovi oggetti. Disponibile anche nel menu: **Draft → Utilità → <img src="images/Draft_SetStyle.svg" width=16px> Imposta stile**.
 
@@ -148,17 +148,17 @@ La [Barra di draft](Draft_Tray/it.md) consente di selezionare il piano di lavoro
 
 
 
-## Scala per gli strumenti di annotazione 
+## Dispositivo Scala annotazione 
 
-Con il [widget Scala per gli strumenti di annotazione](Draft_annotation_scale_widget/it.md) è possibile specificare la scala di annotazione di Draft.
+Con il [dispositivo Scala annotazione](Draft_annotation_scale_widget/it.md) è possibile specificare la scala di annotazione di Draft.
 
 ![](images/Draft_annotation_scale_widget_button.png )
 
 
 
-## Widget di aggancio in Draft 
+## Dispositivo aggancio 
 
-Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
+Il [dispositivo Aggancio di Draft](Draft_snap_widget/it.md) può essere utilizzato come alternativa alla [Barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -166,45 +166,45 @@ Il [widget di aggancio in Draft](Draft_snap_widget/it.md) può essere utilizzato
 
 ## Barra degli strumenti di aggancio 
 
-La barra degli strumenti Snap di Draft consente di selezionare le opzioni di snap attive. I pulsanti appartenenti alle opzioni attive rimangono premuti. Per informazioni generali sullo snap vedere: [Aggancio](Draft_Snap/it.md).
+La barra degli strumenti di Aggancio (snap) di Draft consente di selezionare le opzioni di aggancio attive. I pulsanti appartenenti alle opzioni attive rimangono premuti. Per informazioni generali sull\'aggancio vedere: [Aggancio](Draft_Snap/it.md).
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Blocca Snap](Draft_Snap_Lock/it.md): abilita o disabilita lo snap a livello globale.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Blocca aggancio](Draft_Snap_Lock/it.md): abilita o disabilita l\'aggancio a livello globale.
 
--   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Punto Finale](Draft_Snap_Endpoint/it.md): aggancia alle estremità dei bordi.
+-   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aggancia Punto Finale](Draft_Snap_Endpoint/it.md): aggancia alle estremità dei bordi.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Punto Centrale](Draft_Snap_Midpoint/it.md): si aggancia al punto medio dei bordi.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aggancia Punto Medio](Draft_Snap_Midpoint/it.md): aggancia al punto medio dei bordi.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Centro](Draft_Snap_Center/it.md): aggancia al punto centrale delle facce e dei bordi circolari e al punto di **Posizionamento** dei [Piani di lavoro Proxy di Draft](Draft_WorkingPlaneProxy/it.md) e [Parti di edificio di Arch](Arch_BuildingPart/it.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Aggancia Centro](Draft_Snap_Center/it.md): aggancia al punto centrale delle facce e dei bordi circolari e al punto di **Posizionamento** dei [Piani di lavoro Proxy di Draft](Draft_WorkingPlaneProxy/it.md) e [Parti di edificio di Arch](Arch_BuildingPart/it.md).
 
--   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angolo](Draft_Snap_Angle/it.md): aggancia agli speciali punti cardinali sui bordi circolari a multipli di 30° e 45°.
+-   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Aggancia Angolo](Draft_Snap_Angle/it.md): aggancia agli speciali punti cardinali sui bordi circolari a multipli di 30° e 45°.
 
--   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Snap Intersezione](Draft_Snap_Intersection/it.md): aggancia all\'intersezione di due bordi.
+-   <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:32px;"> [Aggancia Intersezione](Draft_Snap_Intersection/it.md): aggancia all\'intersezione di due bordi.
 
--   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Snap Perpendicolare](Draft_Snap_Perpendicular/it.md): esegue lo snap ai punti perpendicolari sulle facce ({{Version/it|0.21}}) e sugli spigoli.
+-   <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:32px;"> [Aggancia Perpendicolare](Draft_Snap_Perpendicular/it.md): aggancia ai punti perpendicolari sulle facce ({{Version/it|0.21}}) e sugli spigoli.
 
--   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Snap Estensione](Draft_Snap_Extension/it.md): aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
+-   <img alt="" src=images/Draft_Snap_Extension.svg  style="width:32px;"> [Aggancia Estensione](Draft_Snap_Extension/it.md): aggancia a una linea immaginaria che si estende oltre i punti finali dei bordi diritti.
 
--   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Snap Parallelo](Draft_Snap_Parallel/it.md): aggancia a una linea immaginaria parallela ai bordi dritti.
+-   <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:32px;"> [Aggancia Parallelo](Draft_Snap_Parallel/it.md): aggancia a una linea immaginaria parallela ai bordi dritti.
 
--   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Snap Speciale](Draft_Snap_Special/it.md): aggancia ai punti speciali definiti dall\'oggetto.
+-   <img alt="" src=images/Draft_Snap_Special.svg  style="width:32px;"> [Aggancia Speciale](Draft_Snap_Special/it.md): aggancia ai punti speciali definiti dall\'oggetto.
 
--   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Snap Vicino](Draft_Snap_Near/it.md): aggancia al punto più vicino alle facce e agli spigoli.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:32px;"> [Aggancia Vicino](Draft_Snap_Near/it.md): aggancia al punto più vicino alle facce e agli spigoli.
 
--   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Snap Ortogonale](Draft_Snap_Ortho/it.md): aggancia alle linee immaginarie che attraversano il punto precedente a multipli di 45°.
+-   <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:32px;"> [Aggancia Ortogonale](Draft_Snap_Ortho/it.md): aggancia alle linee immaginarie che attraversano il punto precedente a multipli di 45°.
 
--   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Griglia](Draft_Snap_Grid/it.md): aggancia alle intersezioni delle linee della griglia.
+-   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Aggancia Griglia](Draft_Snap_Grid/it.md): aggancia alle intersezioni delle linee della griglia.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap Piano di Lavoro](Draft_Snap_WorkingPlane/it.md): proietta i punti di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Aggancia Piano di Lavoro](Draft_Snap_WorkingPlane/it.md): proietta i punti di aggancio sul [piano di lavoro](Draft_SelectPlane/it.md) corrente.
 
--   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Quotature](Draft_Snap_Dimensions/it.md): mostra le quote X e Y temporanee.
+-   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aggancia quote](Draft_Snap_Dimensions/it.md): mostra le quote X e Y temporanee.
 
--   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Attiva/Disattiva la griglia](Draft_ToggleGrid/it.md): attiva o disattiva la griglia.
+-   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Attiva/Disattiva la griglia](Draft_ToggleGrid/it.md): cambia la visibilità della griglia.
 
 
 
 ## Strumenti di utilità di Draft 
 
--   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestione livelli](Draft_LayerManager.md): permette di gestire i livelli in un documento. {{Version/it|0.21}}
+-   <img alt="" src=images/Draft_LayerManager.svg  style="width:32px;"> [Gestione livelli](Draft_LayerManager/it.md): permette di gestire i livelli in un documento. {{Version/it|0.21}}
 
 -   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Aggiunge un nuovo gruppo con nome](Draft_AddNamedGroup/it.md): crea un [gruppo](Std_Group.md) con nome e sposta gli oggetti selezionati in quel gruppo. {{Version/it|0.20}}
 
@@ -212,7 +212,7 @@ La barra degli strumenti Snap di Draft consente di selezionare le opzioni di sna
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona gruppo](Draft_SelectGroup/it.md): seleziona il contenuto dei [gruppi](Std_Group/it.md) o degli oggetti simili a gruppi [Arch](Arch_Workbench/it.md).
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Aggiungi al gruppo Costruzione](Draft_AddConstruction/it.md): sposta gli oggetti nel [Gruppo di costruzione Draft](Draft_ToggleConstructionMode/it.md).
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Aggiungi al gruppo costruzione](Draft_AddConstruction/it.md): sposta gli oggetti nel [Gruppo di costruzione Draft](Draft_ToggleConstructionMode/it.md).
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Attiva/Disattiva la visualizzazione normale/reticolo](Draft_ToggleDisplayMode/it.md): cambia la proprietà **Display Mode** degli oggetti selezionati tra {{Value|Linee Piatte}} e {{Value|Reticolo}}.
 
@@ -230,8 +230,6 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Ripara](Draft_Heal/it.md): ripara gli oggetti Draft problematici trovati in file molto vecchi.
 
--   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md): attiva o disattiva la modalità continua.
-
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Mostra la Barra degli strumenti di aggancio](Draft_ShowSnapBar/it.md): mostra la [barra degli strumenti di aggancio](#Barra_degli_strumenti_di_aggancio.md).
 
 
@@ -239,7 +237,7 @@ Il menu **Draft → Utilità** contiene diversi strumenti. Alla maggior parte di
 ## Ulteriori funzioni 
 
 -   [Piano di lavoro](Draft_SelectPlane/it.md): il piano nella [vista 3D](3D_view/it.md) dove vengono creati i nuovi oggetti Draft.
--   [Snap](Draft_Snap/it.md): seleziona punti geometrici esatti o definiti da oggetti esistenti o dalla griglia.
+-   [Aggancio (snap)](Draft_Snap/it.md): seleziona punti geometrici esatti o definiti da oggetti esistenti o dalla griglia.
 -   [Vincolare](Draft_Constrain/it.md): per ogni punto successivo è possibile vincolare il movimento del cursore alla direzione X, Y o Z.
 -   [Modalità costruzione](Draft_ToggleConstructionMode/it.md): posiziona i nuovi oggetti Draft in un gruppo dedicato rendendo più facile nasconderli o eliminarli.
 -   [Campitura](Draft_Pattern/it.md): Gli oggetti Draft con una proprietà **Make Face** possono essere visualizzati con un modello SVG invece di un colore della faccia a tinta unita.
@@ -264,14 +262,6 @@ Se c\'è un documento attivo il menu contestuale contiene un ulteriore sottomenu
 
 
 
-### Opzioni polilinea 
-
-Per [Linea](Draft_Line/it.md) e [Polilinea](Draft_Wire/it.md) è disponibile questa opzione aggiuntiva:
-
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Appiattisci: appiattisce la polilinea sul corrente [Piano di lavoro](Draft_SelectPlane/it.md). Questa opzione non funziona correttamente in {{VersionMinus|0.19}}.
-
-
-
 ### Opzioni del contenitore di livelli 
 
 Per un [Contenitore di livelli](Draft_Layer/it.md) sono disponibili queste opzioni aggiuntive:
@@ -289,6 +279,22 @@ Per un [Livello di Draft](Draft_Layer/it.md) sono disponibili queste opzioni agg
 -   <img alt="" src=images/button_right.svg  style="width:32px;"> [Attiva questo livello](Draft_AutoGroup/it.md): attiva il livello selezionato.
 
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Seleziona il contenuto del livello](Draft_SelectGroup/it.md): seleziona gli oggetti all\'interno del livello selezionato.
+
+
+
+### Opzioni testo 
+
+Per un [Draft Testo](Draft_Text/it.md) e un [Draft Etichetta](Draft_Label/it.md) che contengono uno o più collegamenti ipertestuali a un file locale o remoto o a un URL, questa opzione aggiuntiva è disponibile
+
+-   Apri collegamenti ipertestuali: i collegamenti ipertestuali vengono aperti nell\'applicazione appropriata (come definito dal sistema operativo). In caso di collegamenti ipertestuali multipli viene visualizzato un avviso. {{Version/it|0.22}}
+
+
+
+### Opzioni polilinea 
+
+Per [Linea](Draft_Line/it.md) e [Polilinea](Draft_Wire/it.md) è disponibile questa opzione aggiuntiva:
+
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> Appiattisci: appiattisce la polilinea sul corrente [Piano di lavoro](Draft_SelectPlane/it.md). Questa opzione non funziona correttamente in {{VersionMinus|0.19}}.
 
 
 
@@ -316,11 +322,19 @@ Se è presente un documento attivo, il menu contestuale contiene un ulteriore so
 
 
 
+### Opzioni testo 
+
+Vedere [sopra](#Opzioni_testo.md).
+
+
+
 ### Strumenti obsoleti 
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Serie](Draft_Array/it.md): crea una serie ortogonale da un oggetto selezionato. La serie creata può essere trasformata in una [serie polare](Draft_PolarArray/it.md) o in una [serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Tipo di array**. Non disponibile in {{VersionPlus/it|0.21}}.
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Serie](Draft_Array/it.md): crea una serie ortogonale da un oggetto selezionato. La serie creata può essere trasformata in una [serie polare](Draft_PolarArray/it.md) o in una [serie circolare](Draft_CircularArray/it.md) modificandone la proprietà **Tipo di array**. Non disponibile nella {{VersionPlus/it|0.21}}.
 
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md).Non disponibile in {{VersionPlus/it|0.21}}.
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Disegno](Draft_Drawing/it.md): inserisce le viste degli oggetti selezionati in una pagina [disegno tecnico](Drawing_Workbench/it.md). Non disponibile nella {{VersionPlus/it|0.21}}.
+
+-   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Attiva/Disattiva la modalità continua](Draft_ToggleContinueMode/it.md): attiva o disattiva la modalità continua. Non disponibile nella {{VersionPlus/it|0.22}}.
 
 
 

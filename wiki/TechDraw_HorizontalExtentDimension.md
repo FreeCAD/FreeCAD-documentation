@@ -11,20 +11,32 @@
 
 ## Description
 
-The **TechDraw HorizontalExtentDimension** tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point. A CosmeticVertex will be placed at each point.
+The **TechDraw HorizontalExtentDimension** tool adds a linear dimension to a View. The dimension extends from the left most point on the selected objects to the right most point.
 
  <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;">  
-*Horizontal Extent dimension of B-spline Face*
+*Horizontal and vertical extent dimensions of a B-spline*
 
-## How to use 
+## Usage
 
 1.  Select a View or a collection of Edges in a View.
-2.  Press the **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md)** button
-3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> [Insert Horizontal Extent Dimension](TechDraw_HorizontalExtentDimension.md)** button.
+    -   Select the **TechDraw → Dimensions → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Insert Horizontal Extent Dimension** option from the menu.
+3.  A dimension is added to the View.
+4.  The dimension may be dragged to the desired position.
+5.  If needed, add tolerances as described on [this page](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerances.md).
+
+### Change properties 
+
+To change the properties of a dimension object either double-click it in the drawing or in the [Tree view](Tree_view.md). This will open the [Dimension dialog](TechDraw_LengthDimension#Dimension_dialog.md).
 
 ## Limitations
 
-Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information.
+Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md).
+
+## Notes
+
+See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
 
 ## Properties
 
@@ -32,7 +44,10 @@ See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md). Exceptio
 
 ### Data
 
--    **MeasureType**: `True` - based on 3D geometry or \"Projected\" - based on the drawing. Not normally manipulated directly by the end user. Not yet implemented for Dimension Horizontal Extent.
+
+{{Properties_Title|Base}}
+
+-    **Measure Type|Enumeration**: Not yet implemented for extent dimensions.
 
 ## Scripting
 

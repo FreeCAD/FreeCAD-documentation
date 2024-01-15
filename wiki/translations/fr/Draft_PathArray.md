@@ -23,13 +23,13 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 
 ## Utilisation
 
-1.  Sélectionnez l\'objet que vous souhaitez mettre en réseau.
+1.  Sélectionner l\'objet que vous souhaitez mettre en réseau.
 2.  Ajouter l\'objet trajectoire à la sélection. Il est également possible de sélectionner des arêtes à la place. Les arêtes doivent appartenir au même objet et doivent être connectées.
 3.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
-    -   Sélectionnez l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** dans le menu.
+    -   Appuyer sur le **<img src="images/Draft_PathArray.svg" width=16px> [Réseau selon une courbe](Draft_PathArray/fr.md)**.
+    -   Sélectionner l\'option **Modification → Outils pour les réseaux → <img src="images/Draft_PathArray.svg" width=16px> Réseau selon une courbe** du menu.
 4.  Le réseau est créé.
-5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+5.  Vous pouvez éventuellement modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du réseau dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
 
 
@@ -139,7 +139,7 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    **Count|Integer**: spécifie le nombre d\'éléments dans le réseau.
 
--    **Expand Array|Bool**: indique s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
+-    **Expand Array|Bool**: indique s\'il faut développer le réseau dans la [vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
 
 -    **Path Object|LinkGlobal**: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
 

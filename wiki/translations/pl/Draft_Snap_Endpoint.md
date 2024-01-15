@@ -1,38 +1,45 @@
 ---
  GuiCommand:
    Name: Draft Snap Endpoint
-   Workbenches: Draft_Workbench, Arch_Workbench
-   SeeAlso: Draft_Snap, Draft_Snap_Lock
+   Name/pl: Rysunek Roboczy: Przyciągnij do punktu końcowego
+   Workbenches: Draft_Workbench/pl, Arch_Workbench/pl
+   SeeAlso: Draft_Snap/pl, Draft_Snap_Lock/pl
 ---
 
 # Draft Snap Endpoint/pl
 
-## Description
 
-The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Snap Endpoint** option snaps to the endpoints of edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Przyciągnij do punktu końcowego** przyciąga do punktów końcowych krawędzi. Krawędzie mogą należeć do obiektów środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench/pl.md), ale także do obiektów utworzonych za pomocą innych [środowisk pracy](Workbenches/pl.md).
 
 ![](images/Draft_Snap_Endpoint_example.png ) 
-*Snapping the second point of a line to the endpoint of an edge*
+*Przyciąganie drugiego punktu linii do punktu końcowego krawędzi.*
 
-## Usage
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
 
-1.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).
-2.  If **Draft Snap Endpoint** is not active do one of the following:
-    -   Press the **<img src="images/Draft_Snap_Endpoint.svg" width=16px>** button in the Draft snap toolbar.
-    -   Hold down the **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu that opens select the **<img src="images/Draft_Snap_Endpoint.svg" width=16px> Snap Endpoint** option.
-3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
-4.  Note that you can also change snap options while a command is active.
-5.  Move the cursor over an edge.
-6.  The edge is highlighted.
-7.  If an endpoint is found the point is marked and the <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> icon is displayed near the cursor.
-8.  Optionally move the cursor closer to the other endpoint to select that point instead.
-9.  Click to confirm the point.
+## Użycie
 
-## Preferences
+Ogólne informacje na temat przyciągania można znaleźć na stronie [Przyciąganie](Draft_Snap/pl.md).
 
-See [Draft Snap](Draft_Snap#Preferences.md).
+1.  Upewnij się, że przyciąganie jest włączone. Zapoznaj się z informacjami na stronie <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Przełącz przyciąganie](Draft_Snap_Lock/pl.md).
+2.  Jeśli **Punkt końcowy przyciągania** nie jest aktywny, wykonaj jedną z poniższych czynności:
+    -   Naciśnij przycisk **<img src="images/Draft_Snap_Endpoint.svg" width=16px>** na pasku narzędzi przyciągania.
+    -   Przytrzymaj przycisk **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** na pasku [widżetu przyciągania](Draft_snap_widget/pl.md) i w otwartym menu wybierz opcję **<img src="images/Draft_Snap_Endpoint.svg" width=16px> Przyciągnij do punktu końcowego**.
+3.  Wybierz polecenie środowiska pracy [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Architektura](Arch_Workbench.md), aby utworzyć geometrię.
+4.  Uwaga: opcje przyciągania można również zmieniać, gdy polecenie jest aktywne.
+5.  Przesuń kursor nad krawędź.
+6.  Krawędź zostanie podświetlona.
+7.  Jeśli zostanie znaleziony punkt końcowy, zostanie on zaznaczony, a ikona <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> zostanie wyświetlona w pobliżu kursora.
+8.  Opcjonalnie przesuń kursor bliżej drugiego punktu końcowego, aby wybrać ten punkt.
+9.  Kliknij, aby potwierdzić punkt.
+
+
+
+## Ustawienia
+
+Zobacz stronę [Przyciąganie](Draft_Snap/pl#Ustawienia.md) aby uzyskać więcej informacji.
 
 
 

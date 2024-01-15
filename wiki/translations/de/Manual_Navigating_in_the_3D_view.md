@@ -1,11 +1,13 @@
 # Manual:Navigating in the 3D view/de
-{{Manual:TOC/de}}
+{{Manual:TOC}}
 
-### Ein Wort zum 3D Raum 
 
-Wenn dies dein erster Kontakt mit einer 3D Anwendung ist, musst du dich zuerst mit einigen Konzepten vertraut machen. Wenn nicht, kannst du diesen Abschnitt sicher überspringen.
 
-Der FreeCAD 3D Raum ist ein [Euklidischer Raum](https://en.wikipedia.org/wiki/Euclidean_space). Er hat einen Ursprungspunkt und drei Achsen: X, Y und Z. Wenn du deine Szene von oben betrachtest, zeigt die X Achse konventionell nach rechts, die Y Achse nach hinten und die Z Achse nach oben. In der unteren rechten Ecke der FreeCAD Ansicht kannst Du immer sehen, von wo aus du die Szene betrachtest:
+### Ein Wort zum 3D-Raum 
+
+Wenn dies dein erster Kontakt mit einer 3D-Anwendung ist, musst du dich zuerst mit einigen Konzepten vertraut machen. Wenn nicht, kannst du diesen Abschnitt sicher überspringen.
+
+Der FreeCAD-3D-Raum ist ein [Euklidischer Raum](https://en.wikipedia.org/wiki/Euclidean_space). Er hat einen Ursprungspunkt und drei Achsen: X, Y und Z. Wenn du deine Szene von oben betrachtest, zeigt die X-Achse konventionell nach rechts, die Y-Achse nach hinten und die Z-Achse nach oben. In der unteren rechten Ecke der FreeCAD-Ansicht kannst Du immer sehen, von wo aus du die Szene betrachtest:
 
 ![](images/Axes_orientation.png )
 
@@ -15,11 +17,15 @@ Der Punkt, an dem sich die drei Achsen treffen, ist der Ursprung. Es ist der Pun
 
 Du kannst diese Szene aus jedem Winkel betrachten, als ob du eine Kamera in der Hand hättest. Diese Kamera kann nach links, rechts, oben und unten bewegt (schwenken), um das, worauf sie zeigt, gedreht (drehen) und näher an die Szene herangeführt oder von ihr entfernt werden (zoomen).
 
-### Die FreeCAD 3D Ansicht 
+
+
+### Die FreeCAD-3D-Ansicht 
+
+
 
 #### Mausnavigation
 
-Das Navigieren in der FreeCAD [3D-Ansicht](3D_view/de.md) kann mit einer Maus, einem 3D-Navigator, der Tastatur, einem Touchpad oder einer Kombination aus diesen erfolgen. FreeCAD stellt mehrere [Navigationsmodi](Mouse_navigation/de.md) zur Verfügung, die die drei grundlegenden Operationen zur Steuerung der Ansicht (Schwenken, Drehen und Zoomen) bestimmen und wie die Auswahl von Objekten auf dem Bildschirm erfolgt. Die Navigationsmodi werden über die Ansicht \"Einstellungen\" oder direkt durch einen Rechtsklick auf eine beliebige Stelle in der [3D-Ansicht](3D_view/de.md) aufgerufen:
+Das Navigieren in FreeCADs [3D-Ansicht](3D_view/de.md) kann mit einer Maus, einem 3D-Navigator, der Tastatur, einem Touchpad oder einer Kombination aus diesen erfolgen. FreeCAD stellt mehrere [Navigationsmodi](Mouse_navigation/de.md) zur Verfügung, die die drei grundlegenden Operationen zur Steuerung der Ansicht (Schwenken, Drehen und Zoomen) bestimmen und wie die Auswahl von Objekten auf dem Bildschirm erfolgt. Die Navigationsmodi werden über die Ansicht \"Einstellungen\" oder direkt durch einen Rechtsklick auf eine beliebige Stelle in der [3D-Ansicht](3D_view/de.md) aufgerufen:
 
 ![](images/FreeCAD-v0-18-NavigationModePopup.png )
 
@@ -50,6 +56,8 @@ Jeder dieser Modi ordnet diesen vier Operationen unterschiedliche Maustasten ode
 | OpenCascade              | ![Drücke mittlere Maustaste](images/Pan-mouse.svg )                                                                                                                                            | ![Halte mittlere, dann rechte Maustaste](images/Rotate-mouse-MMB+RMB.svg )                                                                                                   | ![Drehe Mausrad](images/Zoom-mouse.svg )                                                                                                                                | ![Drücke linke Maustaste](images/Select-mouse.svg )                            |
 ++++++
 
+
+
 #### Tastaturnavigation
 
 Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig vom Navigationsmodus:
@@ -74,7 +82,7 @@ Diese Steuerelemente sind auch über das [Menü Ansicht](Std_View_Menu/de.md) un
 
 ##### Verwendung des Navigationsclusters 
 
-In der Standardeinstellung befindet sich ein [Navigationscluster](Navigation_Cube/de.md) in der oberen rechten Ecke der 3D Anzeige. Dieser kann dazu verwendet werden, das angezeigte Objekt um einen festen Betrag zu drehen, die Anzeige auf eine von mehreren Standardansichten zurücksetzen, und den Anzeigemodus zu ändern.
+In der Standardeinstellung befindet sich ein [Navigationscluster](Navigation_Cube/de.md) in der oberen rechten Ecke der 3D-Anzeige. Dieser kann dazu verwendet werden, das angezeigte Objekt um einen festen Betrag zu drehen, die Anzeige auf eine von mehreren Standardansichten zurücksetzen, und den Anzeigemodus zu ändern.
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
@@ -84,15 +92,17 @@ Klicken auf eine Seite wird die Ansicht auf dieser Seite umschalten; Ein Klick a
 
 Klicken auf eines der vier Dreiecke dreht die Ansicht um 45 Grad in die angegebene Richtung. Klicken auf einen der beiden gekrümmten Pfeile oben dreht die Ansicht um 45 Grad in der angegebenen Richtung um eine Linie, die auf dich zeigt.
 
-Das Navigationscluster kann durch Ziehen an jede Stelle der 3D Anzeige verschoben werden. Die linke Maustaste muss innerhalb des Würfels selbst gedrückt werden, um das Ziehen zu initiieren. Die Struktur beginnt sich erst dann zu bewegen, wenn der Mauszeiger aus dem Würfel gezogen wird.
+Das Navigationscluster kann durch Ziehen an jede Stelle der 3D-Anzeige verschoben werden. Die linke Maustaste muss innerhalb des Würfels selbst gedrückt werden, um das Ziehen zu initiieren. Die Struktur beginnt sich erst dann zu bewegen, wenn der Mauszeiger aus dem Würfel gezogen wird.
 
-Unten rechts im Cluster befindet sich ein kleinerer Mini Würfel, der ein Aufklappmenü aktiviert, mit dem du den Ansichtsmodus wechseln kannst.
+Unten rechts im Cluster befindet sich ein kleinerer Mini-Würfel, der ein Aufklappmenü aktiviert, mit dem du den Ansichtsmodus wechseln kannst.
+
+
 
 ### Objekte anwählen 
 
-Objekte in der 3D Ansicht können je nach Navigationsmodus (oben beschrieben) durch Anklicken mit der entsprechenden Maustaste ausgewählt werden. Mit einem einzigen Klick werden das Objekt und eine seiner Unterkomponenten (Kante, Fläche, Knoten) ausgewählt. Ein Doppelklick wählt das Objekt und alle seine Unterkomponenten aus. Du kannst mehr als eine Unterkomponente oder sogar verschiedene Unterkomponenten von verschiedenen Objekten auswählen, indem du die STRG Taste drückst. Wenn Sie mit dem Auswahlknopf auf einen leeren Bereich der 3D Ansicht klicken, wird alles abgewählt.
+Objekte in der 3D-Ansicht können je nach Navigationsmodus (oben beschrieben) durch Anklicken mit der entsprechenden Maustaste ausgewählt werden. Mit einem einzigen Klick werden das Objekt und eine seiner Unterkomponenten (Kante, Fläche, Knoten) ausgewählt. Ein Doppelklick wählt das Objekt und alle seine Unterkomponenten aus. Du kannst mehr als eine Unterkomponente oder sogar verschiedene Unterkomponenten von verschiedenen Objekten auswählen, indem du die STRG-Taste drückst. Wenn du mit dem Auswahlknopf auf einen leeren Bereich der 3D-Ansicht klickst, wird alles abgewählt.
 
-Ein Paneel namens \"Auswahlansicht\", das im Menü \"Ansicht\" verfügbar ist, kann ebenfalls eingeschaltet werden, die dir zeigt, was gerade ausgewählt ist:
+Ein Paneel namens \"Auswahlansicht\", das im Menü \"Ansicht\" verfügbar ist, kann ebenfalls eingeschaltet werden; es zeigt dir, was gerade ausgewählt ist:
 
 ![](images/Selection_view.jpg )
 

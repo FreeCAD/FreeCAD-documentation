@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: FEM ElementRotation1D
-   Name/fr: FEM Rotation de poutre
-   MenuLocation: Modèle , Géométrie de l'élement , Rotation de poutre
+   Name/fr: FEM Rotation d'un élément 1D
+   MenuLocation: Modèle , Géométrie de l'élement , Rotation d'un élément 1D
    Workbenches: FEM_Workbench/fr
    SeeAlso: FEM_tutorial/fr
 ---
@@ -11,16 +11,16 @@
 
 ## Description
 
-**Rotation élément type poutre** est utilisé pour faire tourner le profilé d\'une poutre autour de l\'axe des éléments de la poutre.
+**Rotation d\'un élément 1D** est utilisé pour faire tourner le profilé d\'un élément type poutre autour de l\'axe des éléments de la poutre.
 
 
 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Rotation de poutre](FEM_ElementRotation1D/fr.md)**.
-    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation de poutre** dans le menu.
-2.  Spécifiez l\'angle selon lequel le profilé de la poutre doit être tourné.
+    -   Appuyez sur le bouton **<img src="images/FEM_ElementRotation1D.svg" width=16px> [Rotation d'un élément 1D](FEM_ElementRotation1D/fr.md)**.
+    -   Sélectionnez l\'option **Modèle → Géométrie de l'élément → <img src="images/FEM_ElementRotation1D.svg" width=16px> Rotation d'un élément 1D** du menu.
+2.  Spécifiez l\'angle selon lequel le profilé de l\'élément doit être tourné.
 
 ## Options
 
@@ -30,7 +30,7 @@
 
 ## Limitations
 
--   Pour l\'instant, les rotations multiples ne sont pas prises en charge (une seule rotation est appliquée à tous les éléments de type poutre du modèle).
+-   Actuellement, les rotations multiples ne sont pas prises en charge (une seule rotation est appliquée à toutes les poutres du modèle).
 
 
 

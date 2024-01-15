@@ -1,6 +1,4 @@
 # Manual:Navigating in the 3D view
-{{Manual:TOC}}
-
 ### A word about the 3D space 
 
 If this is your first contact with a 3D application, you will need to become familiar with some concepts first. If not, you can safely skip this section.

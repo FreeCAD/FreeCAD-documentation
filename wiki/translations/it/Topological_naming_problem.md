@@ -21,9 +21,9 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 2\. Selezionare la faccia superiore del solido precedente, quindi usare <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [Nuovo schizzo](PartDesign_NewSketch/it.md) per disegnare un altro schizzo; quindi eseguire un secondo pad.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;"> |
++++
 
 3\. Selezionare la faccia superiore dell\'estrusione precedente e creare nuovamente uno schizzo e un pad.
 
@@ -31,17 +31,17 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 4\. Ora, fare doppio clic sul secondo schizzo e modificarlo in modo che la sua lunghezza sia lungo la direzione X; facendo questo si rigenera il secondo pad. Il terzo schizzo e il pad rimangono nello stesso posto.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;"> |
++++
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
 5\. A questo punto, fare nuovamente doppio clic sul secondo schizzo e regolarne i punti in modo che una parte di esso sia fuori dai limiti definiti dal primo pad. In questo modo, il secondo pad viene ricalcolato correttamente, tuttavia, guardando nella [vista ad albero](Tree_view/it.md), nel terzo pad viene indicato un errore.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;"> |
++++
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
@@ -49,17 +49,17 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 Il problema sembra essere che quando il secondo schizzo è stato modificato, la faccia superiore del secondo pad è stata rinominata da `Face13` a `Face14`. Il terzo schizzo è collegato a `Face13` come era in origine, ma poiché questa faccia è ora sul lato (e non più in alto), lo schizzo segue il suo orientamento e ora è posizionato in modo errato.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;"> |
++++
 
 7\. Per risolvere il problema, il terzo schizzo deve essere nuovamente associato alla faccia superiore. Selezionare lo schizzo, fare clic sui puntini di sospensione (tre punti) accanto alla proprietà **Map Mode** e scegliere di nuovo la faccia superiore del secondo pad. Quindi lo schizzo si sposta in cima al solido esistente e il terzo pad viene generato senza problemi.
 
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;"> |
++++
 
 La rimappatura di uno schizzo in questo modo può essere eseguita ogni volta che si verifica un errore di denominazione topologica, ma questo può essere noioso se il modello è complicato e vi sono molti schizzi che devono essere modificati.
 
@@ -78,9 +78,9 @@ Come spiegato sulla pagina [Editazione delle funzioni](Feature_editing/it.md), u
 
 
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;"> |
++++
 
 3\. Selezionare il secondo schizzo, fare clic sui puntini di sospensione accanto alla proprietà **Map Mode**, quindi selezionare il primo piano di riferimento. Il piano di riferimento è già sfalsato rispetto al piano XY del corpo, quindi per lo schizzo non è richiesto un ulteriore spostamento Z.
 

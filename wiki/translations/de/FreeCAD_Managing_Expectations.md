@@ -20,13 +20,7 @@ Many hobbyists, freelance designers and small businesses often seek refuge from 
 
 Im Kern ist FreeCAD ein leistungsfähiger parametrischer Modellierer. Sein Konzept basiert auf der Verwendung von modularen Arbeitsbereichen, wobei jeder Arbeitsbereich für bestimmte Aufgaben und Funktionen verantwortlich ist. Dieses Konzept ist sehr flexibel und kann für viele Zwecke erfolgreich eingesetzt werden. FreeCAD wird aktiv weiterentwickelt, produktiv eingesetzt und ist ziemlich stabil; aber wie jedes andere CAD-Programm ist auch FreeCAD nicht zu 100% stabil.
 
-
-<div class="mw-translate-fuzzy">
-
-Wenn man von einem anderen CAD-Programm kommt, muss man sicherlich seine Arbeitsabläufe anpassen, einen Workaround anwenden oder ein Makro benutzen, aber in vielen Fällen wird man erreichen, was man möchte. Und wenn man Hilfe braucht: Wir haben ein sehr aktives und hilfsbereites [Forum](https://forum.freecad.org/index.php). Und unter den Mitgliedern im Forum sind auch viele (ehemalige) Anwender anderer CAD-Programme. Es gibt keinen Grund zu zögern, diese Quelle anzuzapfen.
-
-
-</div>
+Wenn man von einem anderen CAD-Programm kommt, muss man sicherlich die Terminologie, Struktur und Organisation von FreeCAD als etwas fremd empfinden. Man muss sicherlich seine Arbeitsabläufe anpassen, funktionelle Workarounds erlernen oder die mächtige [Makro](Macros/de.md)-Umgebung verwenden, aber in den meisten Fällen wird man erreichen, was man möchte. Und wenn man Hilfe braucht: Wir haben ein sehr aktives und hilfsbereites [Forum](https://forum.freecad.org/index.php). Unter den Mitgliedern des Forums sind auch viele (ehemalige) Anwender anderer CAD-Programme. Es gibt keinen Grund zu zögern, diese Quelle anzuzapfen.
 
 
 
@@ -51,9 +45,13 @@ The following YouTube Channels have reasonably good quality content focused arou
 -   *Brodie Fairhall* (A couple of videos helping Fusion 360 users transition to FreeCAD)
 -   And more\...
 
-## Questions and answers 
 
-### \"Can FreeCAD do XYZ?\" 
+
+## Fragen und Antworten 
+
+
+
+### \"Kann FreeCAD XYZ machen?\" 
 
 FreeCAD already has the ability to do the following types of work:
 
@@ -89,13 +87,7 @@ FreeCAD is built around an open-source Geometric Modeling Kernel called \"[OpenC
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-### OpenCascade-Kernel 
-
-
-</div>
+## OpenCascade-Kernel 
 
 OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on. There are many open \'upstream\' bugs that the FreeCAD community has identified and tracks regarding OCC. See:
 
@@ -104,13 +96,7 @@ OpenCascade (OCC) is an external CAD kernel that FreeCAD is utterly dependent on
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-## Verweise
-
-
-</div>
+## Zusätzliche Verweise 
 
 -   [Discussion: FreeCAD is not ready for 1.0 (forum thread)](https://forum.freecadweb.org/viewtopic.php?f=8&t=43461)
 -   [Why the GIMP Team Obviously\* Hates You (\*We Actually Love You. \*\*Mostly)](https://www.youtube.com/watch?v=JBmdbipkbrk) Pat David from GIMP team presentation at SCaLE16x California 2016

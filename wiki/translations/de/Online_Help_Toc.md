@@ -1,5 +1,5 @@
 # Online Help Toc/de
-Dies ist das Inhaltsverzeichnis, das für den automatischen Aufbau des **Online-Hilfe**-Systems in FreeCAD verwendet wird. Eine druckbare Version dieses Handbuchs ist auch auf der Seite [Veröffentlichungsseite](https://github.com/FreeCAD/FreeCAD/releases) (z.Zt. nur in Englisch) verfügbar. Wenn Du Fragen hast oder Hilfe zu FreeCAD benötigst, besuch bitte die **[Hilfeseite](Help/de.md)** einschließlich der Foren und Chatgruppen.
+Wenn Du irgendwelche Fragen hast oder Hilfe zu FreeCAD benötigst, sieh bitte zuerst auf der **[Hilfeseite](Help/de.md)** nach.
 
 Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Introduction/de.md).
 
@@ -90,7 +90,6 @@ Es gibt ein weiteres Inhaltsverzeichnis für das [FreeCAD HANDBUCH](Manual:Intro
         -   [Programmstart und Konfiguration](Start_up_and_Configuration/de.md)
     -   Bau von Unterstützungswerkzeugen
         -   [Fehler verfolgen](Tracker/de.md)
-        -   [Fehlersichtung](Bug_Triage.md)
         -   [FreeCAD Fehlerdiagnose](Debugging/de.md)
         -   [FreeCAD testen](Testing/de.md)
         -   [Das FreeCAD Bauwerkzeug](FreeCAD_Build_Tool/de.md)

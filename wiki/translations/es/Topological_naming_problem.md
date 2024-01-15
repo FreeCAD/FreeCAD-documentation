@@ -23,9 +23,9 @@ El problema de la denominación topológica afecta y confunde con mayor frecuenc
 
 2\. Seleccione la cara superior del sólido anterior y, a continuación, utilice <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [DiseñoPieza NuevoBoceto](PartDesign_NewSketch/es.md) para dibujar otro boceto; a continuación, realice una segunda almohadilla.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_02_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_03_solid_2.png  style="width:" height="400px;"> |
++++
 
 3\. Selecciona la cara superior de la extrusión anterior, y una vez más crea un boceto, y un pad.
 
@@ -33,17 +33,17 @@ El problema de la denominación topológica afecta y confunde con mayor frecuenc
 
 4\. Ahora, haz doble clic en el segundo croquis, y modifícalo para que su longitud sea a lo largo de la dirección X; haciendo esto se recreará el segundo pad. El tercer croquis y la almohadilla permanecerán en el mismo lugar.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_05_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_06_solid_2.png  style="width:" height="400px;"> |
++++
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
 5\. Ahora, haz doble clic en el segundo croquis de nuevo, y ajusta sus puntos para que una parte de él esté fuera de los límites definidos por el primer pad. Al hacer esto, el segundo pad volverá a calcular correctamente, sin embargo, al mirar la [vista de árbol](Tree_view/es.md), se indicará un error en el tercer pad.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;"> |
++++
 
 ![](images/FreeCAD_topological_problem_12_broken_tree.png )
 
@@ -51,17 +51,17 @@ El problema de la denominación topológica afecta y confunde con mayor frecuenc
 
 El problema parece ser que cuando se modificó el segundo croquis, la cara superior de la segunda pastilla pasó de llamarse `Face13` a `Face14`. El tercer croquis está unido a `Face13` como lo estaba originalmente, pero como esta cara está ahora en el lateral (no en la parte superior), el croquis sigue su orientación y ahora está colocado incorrectamente.
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_10_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_11_solid_2_faces.png  style="width:" height="400px;"> |
++++
 
 7\. Para solucionar el problema, el tercer croquis debe ser mapeado a la cara superior de nuevo. Seleccione el croquis, haga clic en la elipsis (tres puntos) junto a la propiedad **Map Mode** y vuelva a elegir la cara superior del segundo pastilla. Entonces el croquis se mueve a la parte superior del sólido existente, y el tercer pastilla se genera sin problemas.
 
 ![](images/FreeCAD_topological_problem_13_remap_sketch_2.png )
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_14_solid_2_sketch_3.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_15_solid_3.png  style="width:" height="400px;"> |
++++
 
 Reasignar un boceto de esta manera puede hacerse cada vez que haya un error de denominación topológica, sin embargo, esto puede ser tedioso si el modelo es complicado y hay muchos bocetos de este tipo que necesitan ser ajustados.
 
@@ -86,9 +86,9 @@ Como se explica en la página [edición de características](feature_editing/es.
 
 
 
-   
-  <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;">
-   
++++
+| <img alt="" src=images/FreeCAD_topological_problem_17_datum_plane_1.png  style="width:" height="400px;"> | <img alt="" src=images/FreeCAD_topological_problem_18_datum_plane_2.png  style="width:" height="400px;"> |
++++
 
 3\. Seleccione el segundo croquis, haga clic en la elipsis junto a la propiedad **Modo mapa** y, a continuación, seleccione el primer plano de referencia. El plano de referencia ya está desplazado desde el plano XY del cuerpo, por lo que no es necesario un desplazamiento Z adicional para el croquis.
 

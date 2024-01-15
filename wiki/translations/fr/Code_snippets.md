@@ -302,7 +302,7 @@ QtWidgets.QApplication.setOverrideCursor(QtGui.QCursor(cursor))
 
 ### Observer le changement de caméra dans la vue 3D via Python 
 
-Cela peut être fait en ajoutant un capteur Node à la caméra.
+Cela peut être fait en ajoutant un [capteur Node](https://www.coin3d.org/Coin/html/classSoNodeSensor.html) à la caméra.
 
 
 ```python
@@ -876,6 +876,30 @@ class ViewObserver:
 o = ViewObserver(v)
 c = v.addEventCallback("SoMouseButtonEvent",o.logPosition)
 
+```
+
+
+{{Top}}
+
+
+
+### Afficher le document actif 
+
+
+```python
+class DocObserver:                      # document Observer
+    def slotActivateDocument(self,doc):
+        print(doc.Name)
+
+obs=DocObserver()
+App.addDocumentObserver(obs)
+#App.removeDocumentObserver(obs)                 # desinstalle la fonction residente
+```
+
+Pour effacer l\'observateur de la mémoire tapez :
+
+
+```pythonApp.removeDocumentObserver(obs)                 # desinstalle la fonction residente
 ```
 
 

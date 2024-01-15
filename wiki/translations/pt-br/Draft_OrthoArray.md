@@ -26,7 +26,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 1.  Optionally select one object.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_OrthoArray.svg" width=16px> [Draft OrthoArray](Draft_OrthoArray.md)** button.
+    -   Press the **<img src="images/Draft_OrthoArray.svg" width=16px> [Array](Draft_OrthoArray.md)** button.
     -   Select the **Modification → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Array** option from the menu.
 3.  The **Orthogonal array** task panel opens. See [Options](#Options.md) for more information.
 4.  If you have not yet selected an object: select one object.
@@ -55,14 +55,6 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 
 -   A Draft OrthoArray can be turned into a [Draft PolarArray](Draft_PolarArray.md) or a [Draft CircularArray](Draft_CircularArray.md) by changing its **Array Type** property.
 -   A Link array cannot be turned into a regular array or vice versa. The type of array must be decided at creation time.
-
-
-
-## Preferências
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 
 
 

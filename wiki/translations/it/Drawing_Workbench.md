@@ -1,15 +1,6 @@
 # Drawing Workbench/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
-**The '''Drawing Workbench''' is no longer included after version 0.20.<br>
-The [TechDraw Workbench](TechDraw_Workbench.md) is its more advanced replacement.**
+**L''''ambiente Drawing''' non è più incluso dopo la versione 0.20.<br>
+L'ambiente [TechDraw](TechDraw_Workbench/it.md) è il suo sostituto più avanzato.**
 
 <img alt="L\'icona di Drawing" src=images/Workbench_Drawing.svg  style="width:128px;">
 
@@ -84,48 +75,33 @@ FreeCAD viene fornito con una serie di modelli di pagina predefiniti, ma si poss
 
 Alcune ulteriori note sulla programmazione del Modulo Disegno sono contenute nella pagina [Drawing Documentation (en)](Drawing_Documentation.md) [Drawing Documentation (it)](Drawing_Documentation/it.md). Dette note aiutano a capire rapidamente come lavora questo modulo e permettono ai programmatori di avviare rapidamente la programmazione per esso.
 
+## Tutorials
 
-<div class="mw-translate-fuzzy">
-
-## Tutorial
-
--   [Drawing tutorial](Drawing_tutorial/it.md)
+-   [Drawing tutorial](Drawing_tutorial.md)
+-   [Drawing Template HowTo](Drawing_Template_HowTo.md)
 
 
-</div>
 
-## Macros
+## Macro
 
--    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Automatic drawing](Macro_Automatic_drawing.md): Allows the user to get the view of his object in a drawing with 4 different position (front,top,iso,right). Needs some modification to be perfectly effective.
+-    <img style="width:16px;" src="images/Macro_Automatic_drawing.png"> [Macro Disegno automatico](Macro_Automatic_drawing/it.md): Permette all\'utente di ottenere la vista del proprio oggetto in un disegno con 4 diverse posizioni (frontale, superiore, iso, destra). Necessita di qualche modifica per essere perfettamente efficace.
 
--    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC.md): This GUI macro to fill simply all fields of the cartridge of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+-    <img style="width:16px;" src="images/Macro_CartoucheFC.png"> [Macro CartoucheFC](Macro_CartoucheFC/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio del foglio di lavoro per l\'implementazione del disegno di FreeCAD, il formato della data e il simbolo della modalità di proiezione si adattano a la regione UE o gli Stati Uniti selezionati.
 
--    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2.md): This GUI macro to fill simply all fields of the cartridge **model 2** of the plan implementation worksheet FreeCAD.
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_2.png"> [Macro CartoucheFC 2](Macro_CartoucheFC_2/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio **modello 2** del foglio di lavoro per implementazione del disegno di FreeCAD.
 
--    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full.md): This GUI macro to fill simply all fields of the cartridge [Misc templates Full](Misc_templates_Full.md) of the plan implementation worksheet FreeCAD, the format of the date and the symbol of the projection mode adapt to the EU region or US selected.
+-    <img style="width:16px;" src="images/Macro_CartoucheFC_Full.png"> [Macro CartoucheFC Full](Macro_CartoucheFC_Full/it.md): Questa macro della GUI riempie semplicemente tutti i campi del cartiglio nei [Modelli vari completi](Misc_templates_Full/it.md) del foglio di lavoro per implementazione del disegno di FreeCAD, il formato del la data e il simbolo della modalità di proiezione si adattano alla regione UE o agli Stati Uniti selezionati.
 
--    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Macro Corner shapes wizard/update](Macro_Corner_shapes_wizard/update.md): Pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
-
-## External links 
+-    <img style="width:16px;" src="images/Macro_Corner_shapes_wizard.png"> [Procedura guidata/aggiornamento forme macro angolo](Macro_Corner_shapes_wizard/update.md): apre una finestra di dialogo che richiede le dimensioni del pezzo d\'angolo, quindi crea l\'oggetto nel documento e crea una visualizzazione della pagina con viste dall\'alto, frontale e laterale del pezzo.
 
 
-<div class="mw-translate-fuzzy">
 
-## Link esterni 
+## Collegamenti esterni 
 
 -   [Intro to mechanical drawing on Youtube - by Normal Universe](https://www.youtube.com/watch?v=1Hm5Zyjmjac)
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 {{Drawing Tools navi

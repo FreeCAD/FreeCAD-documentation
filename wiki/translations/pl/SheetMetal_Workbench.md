@@ -60,6 +60,8 @@ Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.
 
 -   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Formowanie blach](SheetMetal_Forming/pl.md): Wytłacza kształty z otworami lub bez otworów w arkuszu blachy.
 
+-   <img alt="" src=images/SheetMetal_BaseShape.svg  style="width:32px;"> [Dodaj kształt bazowy](SheetMetal_BaseShape.md): Dodaje parametryczny obiekt bazowy konstrukcji blaszanej.
+
 
 
 ## Krótki opis 

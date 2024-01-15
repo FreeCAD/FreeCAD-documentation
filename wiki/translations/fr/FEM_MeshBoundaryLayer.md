@@ -20,7 +20,7 @@ La couche limite présente l\'avantage de créer des maillages anisotropes haute
 ## Utilisation
 
 1.  Pour activer la fonction, un maillage doit d\'abord être fourni par <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:32px;"> [FEM Maillage FEM à partir d\'une forme de Gmsh](FEM_MeshGmshFromShape/fr.md).
-    -   Sélectionnez l\'objet Mesh dans l\'arbre du modèle et cliquez sur le bouton <img alt="" src=images/FEM_MeshBoundaryLayer.svg  style="width:32px;">.
+    -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et cliquez sur le bouton **<img src="images/FEM_MeshBoundaryLayer.svg" width=32px> [Couche limite de maillage FEM](FEM_MeshBoundaryLayer/fr.md)**.
     -   Sélectionnez l\'objet Mesh dans l\'arborescence du modèle et sélectionnez l\'option **Maillage → <img src="images/FEM_MeshBoundaryLayer.svg" width=32px> Couche limite de maillage FEM** dans le menu.
 2.  Modifiez la taille de l\'élément de départ, le taux de croissance et le nombre de couches de croissance.
 3.  Sélectionnez un sommet, une arête, une face.
@@ -31,7 +31,7 @@ La couche limite présente l\'avantage de créer des maillages anisotropes haute
 6.  Double-cliquez sur l\'objet parent `FEMMeshGMSH` dans votre arbre de modèle et appuyez sur **Appliquer** pour forcer un recalcul de maillage.
 7.  Fermez la tâche.
 
-Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[Éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir le dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
+Une fois que le maillage a été créé, vous pouvez modifier ses propriétés à l\'aide de l\'[éditeur de propriétés](Property_editor/fr.md). Après avoir modifié une propriété, vous devez rouvrir la boîte de dialogue Gmsh et cliquer sur le bouton **Appliquer**. (Vous pouvez laisser la boîte de dialogue ouverte pendant la modification des propriétés).
 
 Vous pouvez créer autant de couches limites de maillage différentes que nécessaire.
 

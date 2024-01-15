@@ -1,32 +1,31 @@
 # Cone API
 
 Describes a cone in 3D space
-				To create a cone there are several ways:
-				Part.Cone()
-				    Creates a default cone with radius 1
+                To create a cone there are several ways:
+                Part.Cone()
+                    Creates a default cone with radius 1
 
-				Part.Cone(Cone)
-				    Creates a copy of the given cone
+                Part.Cone(Cone)
+                    Creates a copy of the given cone
 
-				Part.Cone(Cone, Distance)
-				    Creates a cone parallel to given cone at a certain distance
+                Part.Cone(Cone, Distance)
+                    Creates a cone parallel to given cone at a certain distance
 
-				Part.Cone(Point1,Point2,Radius1,Radius2)
-				    Creates a cone defined by two points and two radii
-				    The axis of the cone is the line passing through
-				    Point1 and Poin2.
-				    Radius1 is the radius of the section passing through
-				    Point1 and Radius2 the radius of the section passing
-				    through Point2.
+                Part.Cone(Point1,Point2,Radius1,Radius2)
+                    Creates a cone defined by two points and two radii
+                    The axis of the cone is the line passing through
+                    Point1 and Poin2.
+                    Radius1 is the radius of the section passing through
+                    Point1 and Radius2 the radius of the section passing
+                    through Point2.
 
-				Part.Cone(Point1,Point2,Point3,Point4)
-				    Creates a cone passing through three points Point1,
-				    Point2 and Point3.
-				    Its axis is defined by Point1 and Point2 and the radius of
-				    its base is the distance between Point3 and its axis.
-				    The distance between Point and the axis is the radius of
-				    the section passing through Point4.
-			
+                Part.Cone(Point1,Point2,Point3,Point4)
+                    Creates a cone passing through three points Point1,
+                    Point2 and Point3.
+                    Its axis is defined by Point1 and Point2 and the radius of
+                    its base is the distance between Point3 and its axis.
+                    The distance between Point and the axis is the radius of
+                    the section passing through Point4.
 
 
 
@@ -356,15 +355,15 @@ Computes the tangent of parameter (u,v) on this geometry
 #### <img src="images/BIM_Column.svg" style="width:16px;"> toBSpline
 
 Returns a B-Spline representation of this surface.
-					The optional arguments are:
-					* tolerance (default=1e-7)
-					* continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
-					* continuity in v (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
-					* maximum degree in u (default=25)
-					* maximum degree in v (default=25)
-					* maximum number of segments (default=1000)
-					* precision code (default=0)
-					Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
+                    The optional arguments are:
+                    * tolerance (default=1e-7)
+                    * continuity in u (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
+                    * continuity in v (as string e.g. C0, G0, G1, C1, G2, C3, CN) (default='C1')
+                    * maximum degree in u (default=25)
+                    * maximum degree in v (default=25)
+                    * maximum number of segments (default=1000)
+                    * precision code (default=0)
+                    Will raise an exception if surface is infinite in U or V (like planes, cones or cylinders)
 
 
 
@@ -418,4 +417,4 @@ Computes the point of parameter (u,v) on this surface
 
 
 ---
-![](images/Button_right.png) [documentation index](../README.md) > [API](Category_API.md) > Cone API
+⏵ [documentation index](../README.md) > [API](Category_API.md) > Cone API

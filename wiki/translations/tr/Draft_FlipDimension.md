@@ -20,7 +20,7 @@ The <img alt="" src=images/Draft_FlipDimension.svg  style="width:24px;"> **Draft
 
 1.  Select one or more [Draft Dimensions](Draft_Dimension.md).
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_FlipDimension.svg" width=16px> [Draft FlipDimension](Draft_FlipDimension.md)** button.
+    -   Press the **<img src="images/Draft_FlipDimension.svg" width=16px> [Flip dimension](Draft_FlipDimension.md)** button.
     -   Select the **Modification → <img src="images/Draft_FlipDimension.svg" width=16px> Flip dimension** option from the menu.
 
 ## Notes

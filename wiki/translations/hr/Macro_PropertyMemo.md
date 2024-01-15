@@ -17,16 +17,45 @@
 
 </div>
 
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Opis
 
 Ovaj mali makronaredba stvara jedan dodatni objekt (podsjetnik ili drugi tekst) za objekt (samo skica)
 
-![](images/Macro_FCPropertyMemo_00.png ) 
+
+</div>
+
+This macro creates an additional Property (memo or other text) for your object (works only with Draft objects).
+
+![](images/Macro_FCPropertyMemo_00.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Dodavanje jednog objekta Memo → Ime*
+
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 ## Koristi
 
 Pokrenite makro, odaberite jedan objekt nacrta ispunite polja i dodajte. Jedna nova osobina je stvorena u **Kombinirani Pregled → Svojstva → Podaci tab**
+
+
+</div>
+
+Launch the macro, select one Draft object, complete the fields and apply. A new property is created in **Combo view → Property → Data tab**.
 
 
 <div class="mw-translate-fuzzy">
@@ -37,16 +66,23 @@ Pokrenite makro, odaberite jedan objekt nacrta ispunite polja i dodajte. Jedna n
 
 </div>
 
-![One Property Memo is adding](images/Macro_FCPropertyMemo_01.png )
+![Example of a memo property](images/Macro_FCPropertyMemo_01.png )
+
+
+
+
+
+<div class="mw-translate-fuzzy">
 
 -   **Podsjetnik**: Naslov nekretnine ovdje Memo
 -   **Naziv**: Ime objekta ovdje Naziv
 -   Polje je slobodno ručno dovršiti
 
 
+</div>
 
 
-Ja checkBox je označen imate jednu memo u popisu, kliknite na točku stabla za otvaranje popisa prozora
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -59,9 +95,22 @@ Image:Macro_FCPropertyMemo_02.png\|One Property Memo list. Image:Macro_FCPropert
 
 
 
+
+</div>
+
+
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripta
 
 Ikona za alatnu ploču ![](images/PropertyMemo.png )
+
+
+</div>
+
+The icon for the ToolBar ![](images/PropertyMemo.png )
 
 **Macro_FCPropertyMemo.FCMacro**
 
@@ -402,11 +451,21 @@ MainWindow.show()
 
 }}
 
+
+
 ## Veza
 
 Rasprava na forumu [Object description field](http://forum.freecadweb.org/viewtopic.php?f=3&t=12282)
 
+
+<div class="mw-translate-fuzzy">
+
 Moji makroi na [mario52a](https://gist.github.com/mario52a) gists
+
+
+</div>
+
+
 
 ## Verzija
 

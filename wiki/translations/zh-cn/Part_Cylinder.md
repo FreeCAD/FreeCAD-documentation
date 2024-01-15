@@ -29,7 +29,7 @@ A Part Cylinder can be turned into a segment of a cylinder by changing its **Ang
 
 ## 如何使用
 
-在[零件工作台中点击此图标](Part_Workbench.md)<img alt="" src=images/Part_Cylinder.png  style="width:32px;">。默认情况下，此工具会创建一个对齐于坐标轴的半径为2mm且高度为10mm的完整圆柱体，并令其中心与全局原点(point 0,0,0)重合。
+在[零件](Part_Workbench.md)工作台中点击此图标<img alt="" src=images/Part_Cylinder.png  style="width:32px;">。默认情况下，此工具会创建一个对齐于坐标轴的半径为2mm且高度为10mm的完整圆柱体，并令其中心与全局原点(point 0,0,0)重合。
 
 
 </div>

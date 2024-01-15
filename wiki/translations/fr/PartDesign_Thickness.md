@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: PartDesign Thickness
-   Name/fr: PartDesign Coque
-   MenuLocation: Part Design , Appliquer une fonction d'habillage , Coque
+   Name/fr: PartDesign Évidement
+   MenuLocation: Part Design , Appliquer une fonction d'habillage , Évidement
    Workbenches: PartDesign_Workbench/fr
    Version: 0.17
    SeeAlso: Part_Thickness/fr
@@ -12,9 +12,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **PartDesign Coque** transforme un corps solide en un objet creux avec au moins une face ouverte, en donnant à chacune de ses faces restantes une épaisseur uniforme. Il ajoute un objet **Thickness** au document avec sa représentation correspondante dans la [vue en arborescence](Tree_view/fr.md).
+L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> **PartDesign Évidement** transforme un corps solide en un objet creux avec au moins une face ouverte, en donnant à chacune de ses faces restantes une épaisseur uniforme. Il ajoute un objet **Thickness** au document avec sa représentation correspondante dans la [vue en arborescence](Tree_view/fr.md).
 
-<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:600px;"> 
+<img alt="" src=images/PartDesign_Thickness_example.svg  style="width:400px;"> 
 *Solide de base (A) → Solide avec la face sélectionnée à ouvrir (B) → Objet creux résultant (C)*
 
 
@@ -23,15 +23,15 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 
 
 
-### Ajouter une coque 
+### Créer un évidement 
 
-1.  [Activez](PartDesign_Body/fr#Statut_actif.md) le corps auquel appliquer la coque.
+1.  [Activez](PartDesign_Body/fr#Statut_actif.md) le corps auquel appliquer l\'évidement.
 2.  Sélectionnez une ou plusieurs faces du corps.
 3.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=16px> [Coque](PartDesign_Thickness/fr.md)**.
-    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Coque** du menu.
+    -   Appuyez sur le bouton **<img src="images/PartDesign_Thickness.svg" width=16px> [Évidement](PartDesign_Thickness/fr.md)**.
+    -   Sélectionnez l\'option **Part Design → Appliquer une fonction d'habillage → <img src="images/PartDesign_Thickness.svg" width=16px> Évidement** du menu.
 4.  S\'il n\'y a pas de corps actif, et qu\'il y a deux corps ou plus dans le document, la boîte de dialogue **Corps actif requis** s\'ouvrira et vous invitera à en activer un. S\'il n\'y a qu\'un seul corps, il sera activé automatiquement.
-5.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de la coque**. Voir [Options](#Options.md) pour plus d\'informations.
+5.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de l'évidement**. Voir [Options](#Options.md) pour plus d\'informations.
 6.  Appuyez sur le bouton **OK** pour terminer.
 
 :   *Souvenez-vous* :
@@ -39,12 +39,12 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 
 
 
-### Modifier une coque 
+### Modifier une évidement 
 
 1.  Effectuez l\'une des opérations suivantes :
     -   Double-cliquez sur l\'objet Thickness dans la [vue en arborescence](Tree_view/fr.md).
-    -   Cliquez avec le bouton droit de la souris sur l\'objet Thickness dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier la coque** dans le menu contextuel.
-2.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de la coque** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+    -   Cliquez avec le bouton droit de la souris sur l\'objet Thickness dans la [vue en arborescence](Tree_view/fr.md) et sélectionnez **Modifier l'évidement** dans le menu contextuel.
+2.  Le [panneau des tâches](Task_panel/fr.md) des **Paramètres de l'évidement** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Appuyez sur le bouton **OK** pour terminer.
 
 ## Options
@@ -61,7 +61,7 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 -    **Mode**:
 
     -   
-        **Couche**
+        **Boîte sans couvercle**
         
         : seule cette option peut être sélectionnée.
 
@@ -89,13 +89,13 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 
 -    **Intersection**: lorsque cette option est cochée, les auto-intersections dans certains modèles sont évitées. Cette option n\'est pas recommandée car elle repose sur une [méthode incomplète OpenCASCADE](https://dev.opencascade.org/doc/refman/html/class_b_rep_offset_a_p_i___make_thick_solid.html#af78f35025a31e2ce8bd96c82fb33a981).
 
--    **Générer la coque vers l'intérieur**: lorsque cette case est cochée, les faces sont décalées vers l\'intérieur.
+-    **Générer l'épaisseur vers l'intérieur**: lorsque cette case est cochée, les faces sont décalées vers l\'intérieur.
 
 
 
 ## Remarques
 
--   Si la coque va vers l\'intérieur, la valeur doit être inférieure à la plus petite hauteur du corps.
+-   Si l\'évidement va vers l\'intérieur, la valeur doit être inférieure à la plus petite hauteur du corps.
 -   L\'outil peut échouer avec des formes complexes. Les outils [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md) ou [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md) peuvent mieux fonctionner pour créer des formes complexes.
 -   Erreurs connues :
     -   BRep_API : commande non effectuée.
@@ -108,7 +108,7 @@ L\'outil <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> *
 
 Voir aussi : [Éditeur de propriétés](Property_editor/fr.md)
 
-Un objet Part Épaisseur est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
+Un objet PartDesign Thickness est dérivé d\'un [Part Feature](Part_Feature/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 
 
 
@@ -131,20 +131,20 @@ Un objet Part Épaisseur est dérivé d\'un [Part Feature](Part_Feature/fr.md) e
 
 {{Properties_Title|Part Design}}
 
--    **Refine|Bool**: \"affiner la forme (nettoyer les arêtes redondantes) après l\'ajout/soustraction\". La valeur par défaut est déterminée par la préférence **Affiner automatiquement le modèle après une opération d'esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
+-    **Refine|Bool**: affiner la forme (nettoyer les arêtes redondantes) après l\'ajout/soustraction. La valeur par défaut est déterminée par la préférence **Affiner automatiquement le modèle après une opération d'esquisse**. Voir [PartDesign Préférences](PartDesign_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 
 
 {{Properties_Title|Thickness}}
 
--    **Value|Length**: \"valeur de l\'épaisseur\". Valeur par défaut : {{value|1 mm}}.
+-    **Value|Length**: valeur de l\'épaisseur. Valeur par défaut : {{value|1 mm}}.
 
--    **Mode|Enumeration**: \"mode\". {{value|Skin}} (par défaut), {{value|Pipe}} ou {{Value|Recto verso}}. Seule {{value|Skin}} est implémentée.
+-    **Mode|Enumeration**: mode. {{value|Skin}} (par défaut), {{value|Pipe}} ou {{Value|Recto verso}}. Seule {{value|Skin}} est implémentée.
 
--    **Join|Enumeration**: \"type de raccordement\". {{value|Arc}} (par défaut) ou {{Value|Intersection}}.
+-    **Join|Enumeration**: type de raccordement. {{value|Arc}} (par défaut) ou {{Value|Intersection}}.
 
--    **Reversed|Bool**: \"générer l\'épaisseur vers l\'intérieur du solide\". Valeur par défaut : `False`.
+-    **Reversed|Bool**: générer l\'épaisseur vers l\'intérieur du solide. Valeur par défaut : `False`.
 
--    **Intersection|Bool**: \"activer la gestion de l\'intersection\". Valeur par défaut : `False`.
+-    **Intersection|Bool**: activer la gestion de l\'intersection. Valeur par défaut : `False`.
 
 
 

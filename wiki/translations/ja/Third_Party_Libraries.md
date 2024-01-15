@@ -13,7 +13,7 @@ The dependencies need to be installed in the system before proceeding with compi
 
 <div class="mw-translate-fuzzy">
 
-[LibPackを使用する代わりに](#LibPack.md)、自分ですべてのものをダウンロードおよびインストールすることを検討してください。
+[LibPack](#LibPack.md)を使用する代わりに、自分ですべてのものをダウンロードおよびインストールすることを検討してください。
 
 
 </div>
@@ -167,7 +167,7 @@ Due to their popularity and stability, many Boost libraries have been accepted f
 
 <div class="mw-translate-fuzzy">
 
-**ライセンス:** 6.7.0以降は、追加の例外を除いて、GNU劣等一般公衆利用許諾契約書（LGPL）バージョン2.1によって管理されています。 [https://www.opencascade.com/content/licensing以前のバージョンでは、わずかに異なるライセンスが使用されていました。https://www.opencascade.com/content/occt-public-license](https://www.opencascade.com/content/licensing以前のバージョンでは、わずかに異なるライセンスが使用されていました。https://www.opencascade.com/content/occt-public-license)
+**ライセンス:** 6.7.0以降は、追加の例外を除いて、GNU劣等一般公衆利用許諾契約書（LGPL）バージョン2.1によって管理されています。 <https://www.opencascade.com/content/licensing以前のバージョンでは、わずかに異なるライセンスが使用されていました。https://www.opencascade.com/content/occt-public-license>
 
 
 </div>
@@ -483,7 +483,7 @@ A copy of the library is included with the source code of the [Path Workbench](P
 
 ### LibPack
 
-LibPackは上記のすべてのライブラリを一緒に梱包した便利なパッケージです。現在、Windowsプラットフォームでは[ダウンロードページから利用可能です](Download.md)！あなたがLinuxで作業していれば、LibPackを必要としません。代わりにお使いのLinuxディストリビューションのパッケージリポジトリを利用するべきです。
+LibPackは上記のすべてのライブラリを一緒に梱包した便利なパッケージです。現在、Windowsプラットフォームでは[ダウンロード](Download.md)ページから利用可能です！あなたがLinuxで作業していれば、LibPackを必要としません。代わりにお使いのLinuxディストリビューションのパッケージリポジトリを利用するべきです。
 
 
 </div>

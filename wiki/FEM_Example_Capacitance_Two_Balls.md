@@ -89,7 +89,7 @@ If you get an error message on solver binary or similar when triggering the anal
 
 -   Make sure the mesh is invisible. If not, select the <img alt="" src=images/FEM_MeshGmshFromShape.svg  style="width:24px;"> Mesh object and press **Space** to toggle the visibility.
 -   Also make sure the Cut object is invisible.
--   Double click on the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object to ope its task dialog.
+-   Double click on the <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:24px;"> SolverElmerResult object to open its task dialog.
 -   Change the \"Field\" to \"potential\" and press **OK**.
 -   You will notice that the color of the sphere has changed to blue and that the gradient on the right is showing values from 0 to 1. It should look something like this:
 

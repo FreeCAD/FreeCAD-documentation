@@ -11,6 +11,8 @@ Le [traqueur de bogues FreeCAD](https://www.freecadweb.org/tracker) est un endro
 
 Comme vous pouvez le voir dans l\'organigramme présenté ci-dessus, avant de créer des tickets, prenez le temps de faire des recherches dans les forums et le traqueur de bogues pour vérifier si votre problème n\'est pas déjà référencé. Ceci afin d\'éviter de gaspiller un temps de travail \"au combien précieux\" pour les développeurs et les volontaires qui pourraient le consacrer davantage au développement de l\'application.
 
+
+
 ## Signaler les bugs 
 
 Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou erreur), vous êtes invité de le signaler si vous avez suivi nos instructions pas à pas.
@@ -30,6 +32,8 @@ Si vous pensez que vous pourriez avoir trouvé un bogue (dysfonctionnement ou er
 -   Merci de déposer un rapport séparé pour chaque bug.
 -   Si votre bug provoque un crash dans FreeCAD et que vous êtes sur un système qui le supporte, vous pouvez essayer de lancer une **trace de debugage** et joindre cette trace au ticket. Cela peut permettre aux développeurs à gagner beaucoup de temps à identifier la source du crash. Voir [Debugging](Debugging/fr.md) pour plus de détails.
 
+
+
 ## Demande de fonctionnalités 
 
 Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas encore implémenté,  ce n\'est pas un bug mais une demande de fonctionnalité.
@@ -43,6 +47,8 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 
 ![Page de rapport de FreeCAD Bugtracker - utilisez le menu déroulant pour désigner correctement le ticket](images/MantisBT-setting-Feature-Request.jpg )
 
+
+
 ## Soumettre un correctif (*patch*) 
 
 Si vous avez programmé une correction de bogue, une extension ou quelque chose d\'autre qui peut être d\'utilité publique dans FreeCAD, soumettez votre patch comme une \"Pull Request\" sur [GitHub](https://github.com/FreeCAD/FreeCAD).
@@ -51,11 +57,15 @@ Si vous avez programmé une correction de bogue, une extension ou quelque chose 
 2.  Soumettez votre Pull Request (PR) sur la [repo GitHub de FreeCAD](http://github.com/FreeCAD/FreeCAD). Le message de soumission de la PR sera pré-rempli avec une liste de contrôle que vous devrez suivre pour vous assurer que votre soumission a les meilleures chances d\'être acceptée rapidement. Si vous n\'avez jamais travaillé avec `git` auparavant ou si vous n\'êtes pas familier avec la soumission d\'un PR sur github, veuillez lire notre page wiki d\'introduction [github](Source_code_management/fr.md).
 3.  Soyez présent lors de la discussion, à la fois sur le forum et dans la pull request GitHub afin que votre code puisse potentiellement être fusionné plus rapidement.
 
+
+
 ## Demande de fusion 
 
 Si vous avez créé une branche git contenant les modifications que vous aimeriez voir fusionné dans le code FreeCAD, vous pouvez y demander que votre branche soit examinée et fusionnée si les développeurs FreeCAD sont OK avec elle. Vous devez d\'abord publier votre branche dans un dépôt git publique (github, bitbucket, sourceforge \...) et donner ensuite l\'URL de votre branche dans votre demande de fusion.
 
 Si vous avez créé une branche git contenant les modifications que vous souhaiteriez voir fusionnées dans le code FreeCAD, vous pouvez demander à ce que votre branche soit revue et fusionnée si les développeurs FreeCAD le souhaitent. Vous devez d\'abord publier votre branche dans un répertoire git public (github, gitlab, bitbucket, sourceforge, etc.), puis donner l\'URL de votre branche dans votre demande de fusion.
+
+
 
 ## Trucs et astuces sous MantisBT 
 
@@ -163,12 +173,6 @@ Le format que MantisBT reconnaîtra :
 -   resolves #1234, #5678
 
 Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
-
-
-## En relation 
-
--   [Tri des bogues](Bug_Triage/fr.md)
--   [Source Code Management](Source_code_management/fr.md)
 
 
 

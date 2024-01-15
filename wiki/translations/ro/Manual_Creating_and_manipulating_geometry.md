@@ -1,5 +1,5 @@
 # Manual:Creating and manipulating geometry/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 În capitolele anterioare, am aflat despre diferitele ateliere de lucru ale FreeCAD și despre modul în care fiecare dintre ele implementează propriile instrumente și tipuri de geometrii. Același concept se aplică atunci când lucrați din codul Python.
 

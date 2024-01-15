@@ -44,8 +44,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
     -   Définissez la distance mesurée en choisissant des points :
         -   Choisissez un premier point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
         -   Choisissez un deuxième point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-5.  Pour positionner la ligne de cote, effectuez l\'une des opérations suivantes :
-    -   Pour une cote alignée :
+5.  Pour positionner la ligne de la dimension, effectuez l\'une des opérations suivantes :
+    -   Pour une dimension alignée :
         -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension horizontale :
         -   Déplacez le pointeur au-dessus ou au-dessous de l\'arête ou des points.
@@ -67,8 +67,8 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 4.  Si vous n\'avez pas encore sélectionné d\'arête, effectuez l\'une des opérations suivantes :
     -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une arête circulaire dans la [vue 3D](3D_view/fr.md).
     -   Maintenez la touche **Alt** enfoncée, sélectionnez une arête circulaire dans la [vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
-5.  Pour positionner la ligne de cote, effectuez l\'une des opérations suivantes :
-    -   Pour une cote de diamètre :
+5.  Pour positionner la ligne de la dimension, effectuez l\'une des opérations suivantes :
+    -   Pour une dimension de diamètre :
         -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
     -   Pour une dimension radiale :
         -   Maintenez la touche **Shift** et choisissez un point dans la [vue 3D](3D_view/fr.md).
@@ -85,19 +85,19 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 3.  Faites l\'une des choses suivantes :
     -   Appuyez sur **E** ou sur le bouton **<img src="images/view-select.svg" width=16px> Sélectionnez une arête** et sélectionnez une première arête droite dans la [vue 3D](3D_view/fr.md). Répétez cette opération pour sélectionner une deuxième arête droite.
     -   Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
-4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [vue 3D](3D_view/fr.md).
+4.  Pour positionner l\'arc de la dimension, sélectionnez un point dans la [vue 3D](3D_view/fr.md).
 5.  L\'angle affiché dépend des bords et du point choisi.
 
 ### Options
 
-Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
+Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut. (pour la version 0.22).
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs X, Y et Z et appuyez sur **Entrée** après chacune. Ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
 -   Appuyez sur **R** ou cliquez sur la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Appuyez sur **T** ou cliquez sur la case **Continue** pour activer le mode continu. Ce mode ne fonctionne que pour les dimensions linéaires. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des dimensions. Toutes les dimensions suivantes commenceront à partir du point final de la dimension précédente, et utiliseront la même ligne de base que la première dimension. Notez que la sélection des bords n\'est pas possible pour les dimensions suivantes.
--   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+-   Appuyez sur **N** ou cliquez sur la case **Continue** pour activer le mode continu. Ce mode ne fonctionne que pour les dimensions linéaires. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des dimensions. Toutes les dimensions suivantes commenceront à partir du point final de la dimension précédente, et utiliseront la même ligne de base que la première dimension. Notez que la sélection des bords n\'est pas possible pour les dimensions suivantes.
+-   Appuyez sur **S** pour activer ou désactiver [Draft aimantation](Draft_Snap/fr.md).
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour terminer la commande.
 
 
 
@@ -118,7 +118,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Les Draft Dimensions linéaires et radiales peuvent être modifiées avec la commande [Draft Editer](Draft_Edit/fr.md).
+-   Les Draft Dimensions linéaires et radiales peuvent être modifiées avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   Les Draft Dimensions créées ou enregistrées avec la [version 0.21 de FreeCAD](Release_notes_0.21/fr.md) ne sont pas rétrocompatibles.
 
 
@@ -158,7 +158,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Radial dimension}}
 
--    **Diameter|Bool**: spécifie si une dimension radiale est affichée comme une dimension de diamètre. Si cela change, le symbole utilisé dans **Override** doit être mis à jour manuellement (de {{Value|Ø}} à {{Value|R}} ou vice versa). Non utilisé pour les dimensions linéaires.
+-    **Diameter|Bool**: spécifie si une dimension radiale est affichée comme une dimension de diamètre.
 
 
 
@@ -207,17 +207,17 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Arrow Size|Length**: spécifie la taille des symboles affichés aux extrémités de la ligne ou de l\'arc de dimension.
 
--    **Arrow Type|Enumeration**: spécifie le type de symbole affiché aux extrémités de la ligne ou de l\'arc de dimension, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: spécifie le type de symbole affiché aux extrémités de la ligne ou de l\'arc de la dimension, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    **Dim Overshoot|Distance**: spécifie la longueur supplémentaire ajoutée à la ligne de cote. Non utilisé pour les cotes angulaires.
+-    **Dim Overshoot|Distance**: spécifie la longueur supplémentaire ajoutée à la ligne de la dimension. Non utilisé pour les dimensions angulaires.
 
--    **Ext Lines|Distance**: spécifie la longueur des lignes d\'extension qui vont de la ligne de dimension aux points mesurés. Utilisez {{Value|0}} pour des lignes d\'extension complètes. Une valeur négative définit l\'écart entre les extrémités des lignes d\'extension et les points mesurés. Une valeur positive définit la longueur maximale des lignes d\'extension. Utilisé uniquement pour les dimensions linéaires.
+-    **Ext Lines|Distance**: spécifie la longueur des lignes d\'extension qui vont de la ligne de la dimension aux points mesurés. Utilisez {{Value|0}} pour des lignes d\'extension complètes. Une valeur négative définit l\'écart entre les extrémités des lignes d\'extension et les points mesurés. Une valeur positive définit la longueur maximale des lignes d\'extension. Utilisé uniquement pour les dimensions linéaires.
 
--    **Ext Overshoot|Distance**: spécifie la longueur supplémentaire des lignes d\'extension au-delà de la ligne de cote. Non utilisé pour les dimensions angulaires.
+-    **Ext Overshoot|Distance**: spécifie la longueur supplémentaire des lignes d\'extension au-delà de la ligne de la dimension. Non utilisé pour les dimensions angulaires.
 
--    **Flip Arrows|Bool**: indique s\'il faut inverser l\'orientation des symboles aux extrémités de la ligne de cote ou de l\'arc. Ne fonctionne que si les symboles sont des flèches.
+-    **Flip Arrows|Bool**: indique s\'il faut inverser l\'orientation des symboles aux extrémités de la ligne ou de l\'arc de la dimension. Ne fonctionne que si les symboles sont des flèches.
 
--    **Line Color|Color**: spécifie la couleur de la ligne ou de l\'arc de dimension, et des flèches.
+-    **Line Color|Color**: spécifie la couleur de la ligne ou de l\'arc de la dimension, et des flèches.
 
 -    **Line Width|Float**: spécifie la largeur des lignes ou de l\'arc appartenant à la dimension.
 
@@ -238,7 +238,7 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    **Text Position|VectorDistance**: spécifie la position du texte en coordonnées absolues. {{Value|[0, 0, 0]}} affichera le texte dans sa position par défaut près de la ligne ou de l\'arc de dimension.
 
--    **Text Spacing|Length**: spécifie l\'espace entre le texte et la ligne ou l\'arc de dimension.
+-    **Text Spacing|Length**: spécifie l\'espace entre le texte et la ligne ou l\'arc de la dimension.
 
 
 {{TitleProperty|Units}}
@@ -276,11 +276,11 @@ dimension = make_dimension(object, i1, mode, p4=None)
     -   
         `p3`
         
-        lors du premier appel et `p4` dans les deux autres, spécifiez un point facultatif par lequel la ligne de cote doit passer.
+        lors du premier appel et `p4` dans les deux autres, spécifiez un point facultatif par lequel la ligne de la dimension doit passer.
 
     -   Tous les points sont définis par leur `FreeCAD.Vector`.
 
-Pour créer une cote angulaire, utilisez la méthode suivante :
+Pour créer une dimension angulaire, utilisez la méthode suivante :
 
 
 ```python

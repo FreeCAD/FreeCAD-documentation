@@ -30,9 +30,10 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 4.  Opzionalmente cambiare il **Percorso macro** premendo il pulsante **...**.
 5.  Il pulsante **Ferma** non funziona in questo momento.
 6.  Premere il pulsante **Registra** per chiudere la finestra di dialogo e avviare la sessione di registrazione.
-7.  Eseguire le azioni che si desidere registrare.
-8.  Per terminare la sessione di registrazione, eseguire una delle seguenti operazioni:
-    -   Premere il pulsante **<img src="images/Std_MacroStopRecord.svg" width=16px> [Ferma](Std_MacroStopRecord/it.md)**.
+7.  L\'immagine del pulsante del comando cambia in **<img src="images/Std_MacroStopRecord.svg" width=16px>** e il testo del menu cambia in **Interrompi registrazione macro**.
+8.  Eseguire le azioni che si desidere registrare.
+9.  Per terminare la sessione di registrazione, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Std_MacroStopRecord.svg" width=16px> [Registra](Std_DlgMacroRecord/it.md)**.
     -   Seleziona l\'opzione **Macro → <img src="images/Std_MacroStopRecord.svg" width=16px> Interrompi la registrazione** dal menu.
 
 

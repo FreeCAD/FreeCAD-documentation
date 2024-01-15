@@ -5,7 +5,13 @@
 
 Un\'espressione di FreeCAD è un\'espressione matematica che utilizza gli [operatori](#Operatori_supportati.md), le [funzioni](#Funzioni_supportate.md) e le [costanti](#Costanti_supportate.md) standard come descritto di seguito. Inoltre, l\'espressione può fare riferimento a proprietà dell\'oggetto e utilizzare anche [espressioni condizionali](#Espressioni_condizionali.md). I numeri in un\'espressione possono avere una [unità](#Unità.md) facoltativa allegata.
 
+
+<div class="mw-translate-fuzzy">
+
 I numeri possono utilizzare una virgola `,` o un punto decimale `.` per separare le cifre intere dai decimali. Quando viene utilizzato il marcatore decimale, *deve* essere seguito da almeno una cifra. Pertanto, le espressioni `1.+2.` e `1,+2,` non sono valide, ma `1.0 + 2.0` e `1,0 + 2 ,0` sono validi.
+
+
+</div>
 
 Gli operatori e le funzioni sono unit-aware (consapevoli delle unità), e richiedono combinazioni di unità valide, se sono necessarie. Ad esempio, `2mm + 4mm` è un\'espressione valida, mentre `2mm + 4` non lo è. Questo vale anche per i riferimenti alle proprietà dell\'oggetto che hanno unità, come la proprietà Length. Pertanto `Pad001.Length + 1` non è valido poiché aggiunge un numero puro a una proprietà con una unità di lunghezza, si richiede `Pad001.Length + 1mm`.
 
@@ -33,14 +39,34 @@ Gli argomenti possono includere riferimenti a celle in un foglio di calcolo. Un 
 
 ### Riferimenti a oggetti 
 
+
+<div class="mw-translate-fuzzy">
+
 Si può fare riferimento a un oggetto tramite il suo **Name** o la sua **Label**. Nel caso di una **Label**, essa deve essere racchiusa tra i simboli `<<` e `>>`, come questa: `<<Label>>`.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 È possibile fare riferimento a qualsiasi proprietà di un oggetto. Ad esempio, per fare riferimento all\'altezza di un cilindro, è possibile utilizzare `Cylinder.Height` o `<<Long_name_of_cylinder>>.Height`. Per fare riferimento all\'oggetto stesso si usa la pseudo proprietà `_self`. Ad esempio, puoi utilizzare `Cylinder._self` o `<<Label_of_cylinder>>._self`.
 
-Per fare riferimento agli oggetti dell\'elenco, usa `<<object_label>>.list[list_index]` o `object_name.list[list_index]`. Se ad esempio si desidera fare riferimento a un vincolo in uno schizzo, lo si può fare usando `<<MySketch>>.Constraints[16]`. Se il riferimento si trova nello stesso schizzo, si può ometterne il nome e utilizzare solo `Constraints[16]`.
-**Nota:** L\'indice inizia con 0, quindi Constraint17 deve essere referenziato come `Constraints[16]`.
 
-Per ulteriori informazioni sui riferimenti agli oggetti, vedere [Riferimento ai dati_CAD](#Riferimento_ai_dati_CAD.md). 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Per ulteriori informazioni sui riferimenti agli oggetti, vedere [Riferimento ai dati_CAD](#Riferimento_ai_dati_CAD.md).
+
+
+</div>
+
+
+{{Top}}
+
+
 
 ## Costanti supportate 
 
@@ -86,70 +112,130 @@ Sono supportate le seguenti funzioni matematiche:
 
 #### Funzioni trigonometriche 
 
-[Le funzioni trigonometriche](https://en.wikipedia.org/wiki/Trigonometric_functions) usano il grado come unità predefinita. Per la misura in radianti, aggiungi primo valore in un\'espressione. Quindi ad es. `cos(45)` è uguale a `cos(pi rad / 4)`. Le espressioni in gradi possono utilizzare `deg` o `°`, ad es. `360deg - atan2(3; 4)` o `360&deg; - atan2(3; 4)`. Se un\'espressione è senza unità e deve essere convertita in gradi o radianti per compatibilità, moltiplicare per `1&nbsp;deg`, `1&nbsp;°` o `1&nbsp;rad` in modo appropriato, ad es. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
-
 
 <div class="mw-translate-fuzzy">
 
-Le [funzioni trigonometriche](https://en.wikipedia.org/wiki/Trigonometric_functions) usano i gradi come unità predefinita. Per le misure in radianti aggiungere **rad** dopo il primo valore in una espressione. Per esempio **cos(45)** è la stessa cosa di **cos(pi rad / 4)**. Se un\'espressione è senza unità e per compatibilità deve essere convertita in gradi o radianti,, moltiplicare per **1 deg**, **1 °** o **1 rad** secondo il caso, ad es. **(360 - X) \* 1deg**; **(360 - X) \* 1°**; **(0.5 + pi / 2) \* 1rad**.
-Sono supportate le seguenti funzioni trigonometriche:
-
-  Funzione      Descrizione                                                                                              Intervallo di valori
-    
-  acos(x)       [Arc cosine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)             -1 \<= x \<= 1
-  asin(x)       [Arc sine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)               -1 \<= x \<= 1
-  atan(x)       [Arc tangent](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)            tutti
-  atan2(x, y)   [Arc tangent](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties) of *x/y*   tutti, eccetto y = 0
-  cos(x)        [Cosine](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)        tutti
-  cosh(x)       [Hyperbolic cosine](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)         tutti
-  sin(x)        [Sine](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)          tutti
-  sinh(x)       [Hyperbolic sine](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)           tutti
-  tan(x)        [Tangent](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)       tutti, eccetto x = n·90 con n = intero
-  tanh(x)       [Hyperbolic tangent](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)        tutti
+[Le funzioni trigonometriche](https://en.wikipedia.org/wiki/Trigonometric_functions) usano il grado come unità predefinita. Per la misura in radianti, aggiungi primo valore in un\'espressione. Quindi ad es. `cos(45)` è uguale a `cos(pi rad / 4)`. Le espressioni in gradi possono utilizzare `deg` o `°`, ad es. `360deg - atan2(3; 4)` o `360&deg; - atan2(3; 4)`. Se un\'espressione è senza unità e deve essere convertita in gradi o radianti per compatibilità, moltiplicare per `1&nbsp;deg`, `1&nbsp;°` o `1&nbsp;rad` in modo appropriato, ad es. `(360 - X) * 1deg`; `(360 - X) * 1°`; `(0.5 + pi / 2) * 1rad`.
 
 
 </div>
+
+++++
+| Funzione               | Descrizione                                                                                                                                                                | Intervallo di valori                               |
++========================+============================================================================================================================================================================+====================================================+
+|         | [Arco seno](https://it.wikipedia.org/wiki/Funzione_trigonometrica_inversa)                                                                                                 | -1 \<= x \<= 1                                     |
+| `acos(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Arco coseno](https://it.wikipedia.org/wiki/Funzione_trigonometrica_inversa)                                                                                               | -1 \<= x \<= 1                                     |
+| `asin(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Arco tangente](https://it.wikipedia.org/wiki/Funzione_trigonometrica_inversa), restituisce un valore con -90° \< valore \< 90°                                            | tutti                                              |
+| `atan(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Arco tangente 2](https://it.wikipedia.org/wiki/Funzione_trigonometrica_inversa) con *y/x* tenendo conto del quadrante, restituisce un valore con -180° \< valore \<= 180° | tutti, l\'input non valido x = y = 0 restituisce 0 |
+| `atan2(y; x)` |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Coseno](https://it.wikipedia.org/wiki/Funzione_trigonometrica#Definizioni_tramite_triangoli_rettangoli)                                                                   | tutti                                              |
+| `cos(x)`      |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Coseno iperbolico](https://it.wikipedia.org/wiki/Funzioni_iperboliche#Definizioni)                                                                                        | tutti                                              |
+| `cosh(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Seno](https://it.wikipedia.org/wiki/Funzione_trigonometrica#Definizioni_tramite_triangoli_rettangoli)                                                                     | tutti                                              |
+| `sin(x)`      |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Seno iperbolico](https://it.wikipedia.org/wiki/Funzioni_iperboliche#Definizioni)                                                                                          | tutti                                              |
+| `sinh(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Tangente](https://it.wikipedia.org/wiki/Funzione_trigonometrica#Definizioni_tramite_triangoli_rettangoli)                                                                 | tutti, eccetto x = n\*90 con = intero dispari      |
+| `tan(x)`      |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Tangente iperbolica](https://it.wikipedia.org/wiki/Funzioni_iperboliche#Definizioni)                                                                                      | tutti                                              |
+| `tanh(x)`     |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | [Addizione pitagorica](https://en.wikipedia.org/wiki/Pythagorean_addition) (utilizzo di **hypot**), e.g. hypot(4; 3) = 5                                                   | x e y \>= 0                                        |
+| `hypot(x; y)` |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
+|         | Data l\'ipotenusa e un lato, restituisce l\'altro lato del triangolo rettangolo, per esempio cath(5; 3) = 4                                                                | x \>= y \>= 0                                      |
+| `cath(x; y)`  |                                                                                                                                                                            |                                                    |
+|                     |                                                                                                                                                                            |                                                    |
+++++
 
 
 
 #### Funzioni esponenziali e logaritmiche 
 
-
-<div class="mw-translate-fuzzy">
-
-Per esponenziazione e logaritmizzazione sono supportate le seguenti funzioni:
-
-  Funzione    Descrizione                                                                                    Intervallo di valori
-    
-  exp(x)      [Exponential function](https://en.wikipedia.org/wiki/Exponential_function#Formal_definition)   tutti
-  log(x)      [Natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm)                           x \> 0
-  log10(x)    [Common logarithm](https://en.wikipedia.org/wiki/Common_logarithm)                             x \> 0
-  pow(x, y)   [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)                                 all
-  sqrt(x)     [Square root](https://en.wikipedia.org/wiki/Square_root)                                       x \>= 0
-
-
-</div>
+++++
+| Funzione                          | Descrizione                                                                     | Intervallo di valori |
++===================================+=================================================================================+======================+
+|                    | [Esponenziale](https://it.wikipedia.org/wiki/Funzione_esponenziale#Definizioni) | tutti                |
+| `exp(x)`                 |                                                                                 |                      |
+|                                |                                                                                 |                      |
+++++
+|                    | [Logaritmo naturale](https://it.wikipedia.org/wiki/Logaritmo_naturale)          | x \> 0               |
+| `log(x)`                 |                                                                                 |                      |
+|                                |                                                                                 |                      |
+++++
+|                    | [Logaritmo in base 10](https://it.wikipedia.org/wiki/Logaritmo)                 | x \> 0               |
+| `log10(x)`               |                                                                                 |                      |
+|                                |                                                                                 |                      |
+++++
+|                    | [Potenza](https://it.wikipedia.org/wiki/Potenza_(matematica))                   | tutti                |
+| `pow(x; y)`              |                                                                                 |                      |
+|                                |                                                                                 |                      |
+++++
+|                    | [Radice quadrata](https://it.wikipedia.org/wiki/Radice_quadrata)                | x \>= 0              |
+| `sqrt(x)`                |                                                                                 |                      |
+|                                |                                                                                 |                      |
+++++
+|                    | [Radice cubica](https://it.wikipedia.org/wiki/Radicale_(matematica))            | tutti                |
+| `cbrt(x)`                |                                                                                 |                      |
+|                                |                                                                                 |                      |
+| {{Version/it|0.21}} |                                                                                 |                      |
+++++
 
 
 
 #### Funzioni di arrotondamento, troncamento e resto 
 
-
-<div class="mw-translate-fuzzy">
-
-Per arrotondamento, troncamento e resto sono supportate queste funzioni :
-
-  Funzione    Descrizione                                                                                                                           Intervallo di valori
-    
-  abs(x)      [Valore assoluto](https://en.wikipedia.org/wiki/Absolute_value)                                                                       tutti
-  ceil(x)     [Parte intera superiore](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions) valore intero più piccolo maggiore o uguale a x   tutti
-  floor(x)    [Parte intera inferiore](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), valore intero più grande minore o uguale a x     tutti
-  mod(x, y)   [Resto](https://en.wikipedia.org/wiki/Remainder) dopo aver diviso *x* per *y*                                                         tutti, eccetto y = 0
-  round(x)    [Arrotondamento](https://en.wikipedia.org/wiki/Rounding) al numero intero più vicino                                                  tutti
-  trunc(x)    [Troncamento](https://en.wikipedia.org/wiki/Truncation) al numero intero più vicino                                                   tutti
-
-
-</div>
+++++
+| Funzione             | Descrizione                                                                                                                               | Intervallo di valori |
++======================+===========================================================================================================================================+======================+
+|       | [Valore assoluto](https://it.wikipedia.org/wiki/Valore_assoluto)                                                                          | tutti                |
+| `abs(x)`    |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
+|       | [Approssimazione per difetto](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), valore intero più piccolo maggiore o uguale a x | tutti                |
+| `ceil(x)`   |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
+|       | [Approssimazione in eccesso](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions), valore intero più grande minore o uguale a x     | tutti                |
+| `floor(x)`  |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
+|       | [Resto](https://it.wikipedia.org/wiki/Resto) dopo aver diviso *x* per *y*, il segno del risultato è quello del dividendo.                 | tutti, eccetto y = 0 |
+| `mod(x; y)` |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
+|       | [Arrotondamento](https://it.wikipedia.org/wiki/Arrotondamento) all\'intero più vicino                                                     | tutti                |
+| `round(x)`  |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
+|       | [Troncamento](https://it.wikipedia.org/wiki/Troncamento_(matematica)) all\'intero più vicino nella direzione dello zero                   | tutti                |
+| `trunc(x)`  |                                                                                                                                           |                      |
+|                   |                                                                                                                                           |                      |
+++++
 
 
 {{Top}}
@@ -163,22 +249,33 @@ I singoli argomenti per le funzioni di aggregazione possono essere costituiti da
 
 Sono supportate le seguenti funzioni di aggregazione:
 
-
-<div class="mw-translate-fuzzy">
-
-Sono supportate queste funzioni aggregate :
-
-  Funzione       Descrizione                                                                                                                Intervallo di valori
-    
-  average(x:y)   [Media aritmetica](https://en.wikipedia.org/wiki/Arithmetic_mean) dei valori nelle celle da x a y; sum(x:y) / count(x:y)   tutti
-  count(x:y)     [Conteggio](https://en.wikipedia.org/wiki/Counting) di celle da x a y                                                      tutti
-  max(x:y)       [Massimo](https://en.wikipedia.org/wiki/Maxima_and_minima) valore nelle celle da x a y                                     tutti
-  min(x:y)       [Minimo](https://en.wikipedia.org/wiki/Maxima_and_minima) valore nelle celle da x a y                                      tutti
-  stddev(x:y)    [Deviazione standard](https://en.wikipedia.org/wiki/Standard_deviation) dei valori nelle celle da x a y                    tutti
-  sum(x: y)      [Somma](https://en.wikipedia.org/wiki/Summation) dei valori nelle celle da x a y                                           tutti
-
-
-</div>
+++++
+| Funzione                         | Descrizione                                                                                                                                                                | Intervallo di valori |
++==================================+============================================================================================================================================================================+======================+
+|                   | [Media aritmetica](https://it.wikipedia.org/wiki/Media_(statistica)#Media_aritmetica) del valore degli argomenti, calcolato come sum(a; b; c; \...) / count(a; b; c; \...) | tutti                |
+| `average(a; b; c; ...)` |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
+|                   | [Conteggio](https://it.wikipedia.org/wiki/Statistica) degli argomenti, generalmente utilizzato su intervalli di celle                                                      | tutti                |
+| `count(a; b; c; ...)`   |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
+|                   | [Massimo](https://it.wikipedia.org/wiki/Massimo_e_minimo_di_una_funzione) valore tra gli argomenti                                                                         | tutti                |
+| `max(a; b; c; ...)`     |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
+|                   | [Minimo](https://it.wikipedia.org/wiki/Massimo_e_minimo_di_una_funzione) valore tra gli argomenti                                                                          | tutti                |
+| `min(a; b; c; ...)`     |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
+|                   | [Deviazione standard](https://it.wikipedia.org/wiki/Scarto_quadratico_medio) dei valori degli argomenti                                                                    | tutti                |
+| `stddev(a; b; c; ...)`  |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
+|                   | [Sommatoria](https://it.wikipedia.org/wiki/Sommatoria) dei valori degli argomenti, tipicamente utilizzato su intervalli di celle                                           | tutti                |
+| `sum(a; b; c; ...)`     |                                                                                                                                                                            |                      |
+|                               |                                                                                                                                                                            |                      |
+++++
 
 
 {{Top}}
@@ -231,119 +328,200 @@ Per più di uno specificatore % utilizzare la seguente sintassi: `<<La lunghezza
 I seguenti oggetti possono essere creati nelle espressioni utilizzando le seguenti funzioni:
 
 ++++
-| Type                                                                               | Function                                        | Description                                                                                                                                                                                                                                                                                                                             |
-+====================================================================================+=================================================+=========================================================================================================================================================================================================================================================================================================================================+
-|                                                                     |                                  | Example: `tuple(2; 1; 2)`                                                                                                                                                                                                                                                                                        |
-| `Tuple`                                                                   | `tuple(a; b; ...)`                     |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                              |                                                                                                                                                                                                                                                                                                                                         |
+| Tipo                                                           | Funzione                                                                           | Descrizione                                                                                                                                                                                                                                                                                                                                    |
++================================================================+====================================================================================+================================================================================================================================================================================================================================================================================================================================================+
+|                                                 |                                                                     | Esempio: `tuple(2; 1; 2)`                                                                                                                                                                                                                                                                                               |
+| `Tuple`                                               | `tuple(a; b; ...)`                                                        |                                                                                                                                                                                                                                                                                                                                                |
+|                                                             |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                  | Example: `list(2; 1; 2)`                                                                                                                                                                                                                                                                                         |
-| `List`                                                                    | `list(a; b; ...)`                      |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                              |                                                                                                                                                                                                                                                                                                                                         |
+|                                                 |                                                                     | Esempio: `list(2; 1; 2)`                                                                                                                                                                                                                                                                                                |
+| `List`                                                | `list(a; b; ...)`                                                         |                                                                                                                                                                                                                                                                                                                                                |
+|                                                             |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-| [`Vector`](Vector_API.md)                           |                                  | Create a vector using three unit-less or `Length` unit values. Example: `vector(2; 1; 3)`                                                                                                                                                                                                 |
-|                                                                                    | `vector(x; y; z)`                      |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                              |                                                                                                                                                                                                                                                                                                                                         |
+| [`Vector`](Vector_API.md)       |                                                                     | Crea un vettore senza unità o utilizzando tre valori con unità di `Lunghezza`. Esempio: `vector(2; 1; 3)`                                                                                                                                                                                        |
+|                                                                | `vector(x; y; z)`                                                         |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `create(<<vector>>; x; y; z)`                                             |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `create(<<vector>>; x; y; z)`                                             |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-| [`Matrix`](Matrix_API.md)                           | matrix(                                       | Create a 4x4 matrix in [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order): $\begin{bmatrix}                                                                                                                                                                                                                   |
-|                                                                                    |   a~11~; a~12~; a~13~; a~14~; | a_{11} & a_{12} & a_{13} & a_{14} \\                                                                                                                                                                                                                                                                                                    |
-|                                                                                    |   a~21~; a~22~; a~23~; a~24~; | a_{21} & a_{22} & a_{23} & a_{24} \\                                                                                                                                                                                                                                                                                                    |
-|                                                                                    |   a~31~; a~32~; a~33~; a~34~; | a_{31} & a_{32} & a_{33} & a_{34} \\                                                                                                                                                                                                                                                                                                    |
-|                                                                                    |   a~41~; a~42~; a~43~; a~44~    | a_{41} & a_{42} & a_{43} & a_{44} \\                                                                                                                                                                                                                                                                                                    |
-|                                                                                    | )                                             | \end{bmatrix}$                                                                                                                                                                                                                                                                                                                          |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | È possibile fornire un minimo di 1 argomento come `matrix(1)` che crea una matrice identità.                                                                                                                                                                                                                     |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | Example: `matrix(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`                                                                                                                                                                                                                                         |
+| [`Matrix`](Matrix_API.md)       | matrix(                                                                          | Crea una matrice 4x4 [ordinata per riga](https://en.wikipedia.org/wiki/Row-_and_column-major_order): $\begin{bmatrix}                                                                                                                                                                                                                          |
+|                                                                |   a~11~; a~12~; a~13~; a~14~;                                    | a_{11} & a_{12} & a_{13} & a_{14} \\                                                                                                                                                                                                                                                                                                           |
+|                                                                |   a~21~; a~22~; a~23~; a~24~;                                    | a_{21} & a_{22} & a_{23} & a_{24} \\                                                                                                                                                                                                                                                                                                           |
+|                                                                |   a~31~; a~32~; a~33~; a~34~;                                    | a_{31} & a_{32} & a_{33} & a_{34} \\                                                                                                                                                                                                                                                                                                           |
+|                                                                |   a~41~; a~42~; a~43~; a~44~                                       | a_{41} & a_{42} & a_{43} & a_{44} \\                                                                                                                                                                                                                                                                                                           |
+|                                                                | )                                                                                | \end{bmatrix}$                                                                                                                                                                                                                                                                                                                                 |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | È possibile fornire un minimo di 1 argomento come `matrix(1)` che crea una matrice identità.                                                                                                                                                                                                                            |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | Esempio: `matrix(1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `create(<<matrix>>; a<sub>11</sub>; a<sub>12</sub>; ...; a<sub>44</sub>)` |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `create(<<matrix>>; a<sub>11</sub>; a<sub>12</sub>; ...; a<sub>44</sub>)` |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                  | Create a `Rotation` by specifying its `axis` (`Vector`) and `angle` (`Angle` unit or unit-less), or three Euler angles `α`, `β`, `γ`. Examples: |
-| `Rotation`                                                                | `rotation(axis; angle)`                |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                              | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `rotation(vector(0; 1; 0); 45)`                                                                                                                                                                                                                                                                                            |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `create(<<rotation>>; 30; 30; 30)`                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
+|                                                 |                                                                     | Crea una `Rotation` specificando il suo `axis` (`Vector`) e `angle` (`Angle` senza unità o con unità), o i tre angoli di Eulero `α`, `β`, `γ`. Esempi: |
+| `Rotation`                                            | `rotation(axis; angle)`                                                   |                                                                                                                                                                                                                                                                                                                                                |
+|                                                             |                                                                                 | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `rotation(vector(0; 1; 0); 45)`                                                                                                                                                                                                                                                                                                   |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `create(<<rotation>>; 30; 30; 30)`                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `rotation(α; β; γ)`                                                       |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `rotation(α; β; γ)`                                                       |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `create(<<rotation>>; axis; angle)`                                       |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `create(<<rotation>>; axis; angle)`                                       |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `create(<<rotation>>; α; β; γ)`                                           |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `create(<<rotation>>; α; β; γ)`                                           |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-| [`Placement`](Placement_API.md)                     |                                  | Create a `Placement` with various parameters, including:                                                                                                                                                                                                                                                         |
-|                                                                                    | `placement(base; rotation)`            |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                              | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `base`                                                                                                                                                                                                                                                                                                                     |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : base location (`Vector`)                                                                                                                                                                                                                                                                                   |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `center`                                                                                                                                                                                                                                                                                                                   |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : center location (`Vector`)                                                                                                                                                                                                                                                                                 |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `rotation`                                                                                                                                                                                                                                                                                                                 |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : `Rotation`                                                                                                                                                                                                                                                                                                 |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `axis`                                                                                                                                                                                                                                                                                                                     |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : Rotation axis (`Vector`)                                                                                                                                                                                                                                                                                   |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `angle`                                                                                                                                                                                                                                                                                                                    |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : Rotation angle (unit-less or `Angle` unit value)                                                                                                                                                                                                                                                           |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `matrix`                                                                                                                                                                                                                                                                                                                   |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |     : `Matrix`                                                                                                                                                                                                                                                                                                   |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | Esempi:                                                                                                                                                                                                                                                                                                                                 |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `placement(vector(2; 1; 3); rotation(vector(0; 0; 1); 45))`                                                                                                                                                                                                                                                                |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                    |                                                 | -                                                                                                                                                                                                                                                                                                                        |
-|                                                                                    |                                                 |     `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`                                                                                                                                                                                                                |
-|                                                                                    |                                                 |                                                                                                                                                                                                                                                                                                                                      |
+| [`Placement`](Placement_API.md) |                                                                     | Crea un `Placement` con vari parametri, inclusi:                                                                                                                                                                                                                                                                        |
+|                                                                | `placement(base; rotation)`                                               |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `base`                                                                                                                                                                                                                                                                                                                            |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : posizione di base (`Vector`)                                                                                                                                                                                                                                                                                      |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `center`                                                                                                                                                                                                                                                                                                                          |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : posizione centrale (`Vector`)                                                                                                                                                                                                                                                                                     |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `rotation`                                                                                                                                                                                                                                                                                                                        |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : `Rotation`                                                                                                                                                                                                                                                                                                        |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `axis`                                                                                                                                                                                                                                                                                                                            |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : asse di rotazione (`Vector`)                                                                                                                                                                                                                                                                                      |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `angle`                                                                                                                                                                                                                                                                                                                           |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : angolo di rotazione (senza unità o con unità `Angle`)                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `matrix`                                                                                                                                                                                                                                                                                                                          |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |     : `Matrix`                                                                                                                                                                                                                                                                                                          |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | Esempi:                                                                                                                                                                                                                                                                                                                                        |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `placement(vector(2; 1; 3); rotation(vector(0; 0; 1); 45))`                                                                                                                                                                                                                                                                       |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                    | -                                                                                                                                                                                                                                                                                                                               |
+|                                                                |                                                                                    |     `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`                                                                                                                                                                                                                       |
+|                                                                |                                                                                    |                                                                                                                                                                                                                                                                                                                                             |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `placement(base; rotation; center)`                                       |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `placement(base; rotation; center)`                                       |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `placement(base; axis; angle)`                                            |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `placement(base; axis; angle)`                                            |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `placement(matrix)`                                                       |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `placement(matrix)`                                                       |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
-|                                                                     |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-| `create(<<placement>>; ...)`                                              |                                                 |                                                                                                                                                                                                                                                                                                                                         |
-|                                                                                 |                                                 |                                                                                                                                                                                                                                                                                                                                         |
+|                                                                |                                                                     |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                | `create(<<placement>>; ...)`                                              |                                                                                                                                                                                                                                                                                                                                                |
+|                                                                |                                                                                 |                                                                                                                                                                                                                                                                                                                                                |
 ++++
+
+
+{{Top}}
+
+
+
+### Funzioni vettoriali 
+
+Funzioni: {{Version/it|0.22}}.
+
++++
+| Funzione / Operatore                | Descrizzione                                                                                                                                                                                  |
++=====================================+===============================================================================================================================================================================================+
+|                      | Somma vettoriale.                                                                                                                                                                             |
+| `v1 + v2`                  |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Sottrazione vettoriale.                                                                                                                                                                       |
+| `v1 - v2`                  |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Prodotto scalare per `s`.                                                                                                                                              |
+| `v * s`                    |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Angolo tra due vettori in gradi.                                                                                                                                                              |
+| `vangle(v1; v2)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Prodotto vettoriale tra due vettori $v_1 \times v_2$.                                                                                                                                         |
+| `vcross(v1; v2)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Prodotto scalare tra due vettori $v_1 \cdot v_2$.                                                                                                                                             |
+| `v1 * v2`                  |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      |                                                                                                                                                                                               |
+| `vdot(v1; v2)`             |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Distanza tra `v1` e una linea attraverso `v2` in direzione di `v3`.                                                      |
+| `vlinedist(v1; v2; v3)`    |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Distanza tra il vettore `v1` e il punto più vicino su un segmento di linea da `v2` a `v3`.                               |
+| `vlinesegdist(v1; v2; v3)` |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Proiezione di un vettore `v1` su una linea attraverso `v2` in direzione `v3`.                                            |
+| `vlineproj(v1; v2; v3)`    |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Normalizza un vettore in un vettore unitario.                                                                                                                                                 |
+| `vnormalize(v)`            |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Distanza tra il vettore `v1` e un piano definito da un punto `v2` e una normale `v3`.                                    |
+| `vplanedist(v1)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Proietta il vettore `v1` su un piano definito da un punto `v2` e una normale `v3`.                                       |
+| `vplaneproj(v1)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      | Ridimensiona in modo non uniforme un vettore di `sx` nella direzione X, `sy` nella direzione Y e `sz` nella direzione Z. |
+| `vscale(v; sx; sy; sz)`    |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      |                                                                                                                                                                                               |
+| `vscalex(v; sx)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      |                                                                                                                                                                                               |
+| `vscaley(v; sy)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
+|                      |                                                                                                                                                                                               |
+| `vscalez(v; sz)`           |                                                                                                                                                                                               |
+|                                  |                                                                                                                                                                                               |
++++
 
 
 {{Top}}
@@ -358,53 +536,53 @@ I seguenti oggetti possono essere creati nelle espressioni utilizzando le seguen
 e `Placement` possono essere rappresentati ciascuno da una `Matrix`. Le seguenti funzioni accettano tutte `Matrix`, `Rotation` o `Placement` come primo parametro indicato nella tabella seguente da `m`. Il tipo dell\'oggetto restituito è lo stesso dell\'oggetto fornito nel primo argomento tranne quando si utilizza `mtranslate` su `Rotation`, nel qual caso sarà restituito `Placement`.
 
 +++
-| Function                           | Description                                                                                                                                                                                                                                                                                          |
-+====================================+======================================================================================================================================================================================================================================================================================================+
-|                     | Calculate the [Inverse matrix](https://en.wikipedia.org/wiki/Invertible_matrix).                                                                                                                                                                                                                     |
-| `minvert(m)`              |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+| Funzione                           | Descrizione                                                                                                                                                                                                                                                                                                                   |
++====================================+===============================================================================================================================================================================================================================================================================================================================+
+|                     | Calcola la [Matrice inversa](https://it.wikipedia.org/wiki/Matrice_invertibile).                                                                                                                                                                                                                                              |
+| `minvert(m)`              |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Rotate](https://en.wikipedia.org/wiki/Transformation_matrix#Rotation_2) by either:                                                                                                                                                                                                                  |
-| `mrotate(m; rotation)`    |                                                                                                                                                                                                                                                                                                      |
-|                                 | -   a `Rotation`                                                                                                                                                                                                                                                              |
-|                                    | -   an axis (`Vector`) and an angle (`Angle` unit or unit-less)                                                                                                                                                                                        |
-|                                    | -   three Euler angles `α`, `β`, `γ`                                                                                                                                                                                            |
+|                     | [Rotazione](https://it.wikipedia.org/wiki/Matrice_di_trasformazione) con:                                                                                                                                                                                                                                                     |
+| `mrotate(m; rotation)`    |                                                                                                                                                                                                                                                                                                                               |
+|                                 | -   una `Rotazione`                                                                                                                                                                                                                                                                                    |
+|                                    | -   un asse (`Vettore`) e un angolo (`Angolo` con unità o adimensionale)                                                                                                                                                                                                        |
+|                                    | -   i tre angoli di Eulero `α`, `β`, `γ`                                                                                                                                                                                                                 |
 +++
-|                     |                                                                                                                                                                                                                                                                                                      |
-| `mrotate(m; axis; angle)` |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     |                                                                                                                                                                                                                                                                                                                               |
+| `mrotate(m; axis; angle)` |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     |                                                                                                                                                                                                                                                                                                      |
-| `mrotate(m; α; β; γ)`     |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     |                                                                                                                                                                                                                                                                                                                               |
+| `mrotate(m; α; β; γ)`     |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Rotate](https://en.wikipedia.org/wiki/Transformation_matrix#Rotation_2) around the X axis.                                                                                                                                                                                                          |
-| `mrotatex(m; angle)`      |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     | [Rotazione](https://it.wikipedia.org/wiki/Matrice_di_trasformazione) attorno all\'asse X.                                                                                                                                                                                                                                     |
+| `mrotatex(m; angle)`      |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Rotate](https://en.wikipedia.org/wiki/Transformation_matrix#Rotation_2) around the Y axis.                                                                                                                                                                                                          |
-| `mrotatey(m; angle)`      |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     | [Rotazione](https://it.wikipedia.org/wiki/Matrice_di_trasformazione) attorno all\'asse Y.                                                                                                                                                                                                                                     |
+| `mrotatey(m; angle)`      |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Rotate](https://en.wikipedia.org/wiki/Transformation_matrix#Rotation_2) around the Z axis.                                                                                                                                                                                                          |
-| `mrotatez(m; angle)`      |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     | [Rotazione](https://it.wikipedia.org/wiki/Matrice_di_trasformazione) attorno all\'asse Z.                                                                                                                                                                                                                                     |
+| `mrotatez(m; angle)`      |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Translate](https://en.wikipedia.org/wiki/Translation_(geometry)#Matrix_representation) by a `vector` (`Vector`) or X, Y, Z values. If a `Rotation` is translated, the returned object is a `Placement`. |
-| `mtranslate(m; vector)`   |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     | [Traslazione](https://it.wikipedia.org/wiki/Traslazione_(geometria)#Rappresentazione_con_matrici) con un `vector` (`Vector`) o con i valori X, Y, Z. Se una `Rotazione` è anche traslata, l\'oggetto restituito è un `Placement`. |
+| `mtranslate(m; vector)`   |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     |                                                                                                                                                                                                                                                                                                      |
-| `mtranslate(m; x; y; z)`  |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     |                                                                                                                                                                                                                                                                                                                               |
+| `mtranslate(m; x; y; z)`  |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     | [Scale](https://en.wikipedia.org/wiki/Scaling_(geometry)#Matrix_representation) by a `vector` (`Vector`) or X, Y, Z values.                                                                                                                            |
-| `mscale(m; vector)`       |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     | [Scala](https://en.wikipedia.org/wiki/Scaling_(geometry)#Matrix_representation) per un `vector` (`Vector`) o per i valori X, Y, Z.                                                                                                                                              |
+| `mscale(m; vector)`       |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
-|                     |                                                                                                                                                                                                                                                                                                      |
-| `mscale(m; x; y; z)`      |                                                                                                                                                                                                                                                                                                      |
-|                                 |                                                                                                                                                                                                                                                                                                      |
+|                     |                                                                                                                                                                                                                                                                                                                               |
+| `mscale(m; x; y; z)`      |                                                                                                                                                                                                                                                                                                                               |
+|                                 |                                                                                                                                                                                                                                                                                                                               |
 +++
 
 
@@ -414,10 +592,7 @@ e `Placement` possono essere rappresentati ciascuno da una `Matrix`. Le seguenti
 
 ## Espressioni condizionali 
 
-Le espressioni condizionali hanno la forma `condition ? resultTrue : resultFalse`. La condizione è definita come un\'espressione che restituisce `0` (falso) o diverso da zero (vero). Si noti che racchiudere l\'espressione condizionale tra parentesi è attualmente considerato un errore.
-
-
-<div class="mw-translate-fuzzy">
+Le espressioni condizionali hanno la forma `condition ? resultTrue : resultFalse`. La condizione è definita come un\'espressione che restituisce `0` (falso) o diverso da zero (vero).
 
 Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators):
 
@@ -431,47 +606,20 @@ Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/R
   **\<=**     minore o uguale
 
 
-</div>
-
-
 {{Top}}
 
 
 
 ## Unità
 
-
-<div class="mw-translate-fuzzy">
-
-Le unità possono essere utilizzate direttamente nelle espressioni. Il parser le collega al valore precedente. Quindi **\'2mm**\' o **\'2 mm**\' è valido mentre **\'mm**\' non è valido perché non esiste un valore precedente.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Le unità possono essere utilizzate direttamente nelle espressioni. Il parser le collega al valore precedente. Quindi `2mm` o `2 mm` è valido mentre `mm` non è valido perché non esiste un valore precedente.
 
 Tutti i valori devono avere un\'unità. Pertanto, in generale è necessario utilizzare un\'unità per i valori nei fogli di calcolo.
-In alcuni casi funziona anche senza un\'unità, ad esempio se nella cella B1 del foglio di calcolo si ha solo il numero *1,5* e si fa riferimento ad esso per l\'altezza del pad. Questo funziona perché l\'altezza del pad predispone l\'unità *mm* che viene utilizzata quando non viene fornita alcuna unità. Però fallisce se si utilizza per l\'altezza del pad, ad es. **Sketch1.Constraints.Width - Spreadsheet.B1** perché *Sketch1.Constraints.Width* ha un\'unità e *Spreadsheet.B1* no.
+In alcuni casi funziona anche senza un\'unità, ad esempio se nella cella B1 del foglio di calcolo si ha solo il numero `1.5` e si fa riferimento ad esso per l\'altezza del pad. Questo funziona perché l\'altezza del pad predispone l\'unità `mm` che viene utilizzata quando non viene fornita alcuna unità. Però fallisce se si utilizza per l\'altezza del pad, ad es. `Sketch1.Constraints.Width - Spreadsheet.B1` perché `Sketch1.Constraints.Width` ha un\'unità e `Spreadsheet.B1` no.
 
+Le unità con esponenti possono essere inserite direttamente. Quindi ad es. `mm^3` viene riconosciuto come mm³ e `m^3` viene riconosciuto come m³.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le unità con esponenti possono essere inserite direttamente. Quindi ad es. **mm\^3** viene riconosciuto come mm³ e **m\^3** viene riconosciuto come m³.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Se una variabile ha il nome di un\'unità di misura, bisogna inserire la variabile in **\<\< \>\>** per impedire che venga riconosciuta come unità di misura. Ad esempio, la dimensione **\'Sketch.Constraints.A**\' verrebbe riconosciuta come unità Ampere. Pertanto è necessario scriverla nell\'espressione in questo modo **\'Sketch.Constraints.\<\>**\'.
-
-
-</div>
+Se si ha una variabile il cui nome è quello di un\'unità di misura, si deve inserire la variabile tra `<< >>` per evitare che venga riconosciuta come un\'unità di misura. Ad esempio, la dimensione `Sketch.Constraints.A` verrebbe riconosciuta come l\'unità ampere. Quindi è necessario scriverla nell\'espressione come `Sketch.Constraints.<<A>>`.
 
 Il parser delle espressioni riconosce le seguenti unità:
 
@@ -479,367 +627,259 @@ Il parser delle espressioni riconosce le seguenti unità:
 
 ### Quantità di sostanza 
 
-
-<div class="mw-translate-fuzzy">
-
-Quantità di sostanza:
-
   Unità   Descrizione
    
   mmol    Milli[mole](https://en.wikipedia.org/wiki/Mole_(unit))
   mol     [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
 
 
-</div>
-
-
 
 ### Angolo
 
+  Unità   Descrizione
+   
+  °       [Grado](https://it.wikipedia.org/wiki/Grado_d%27arco); alternativa all\'unità deg
+  deg     [Grado](https://it.wikipedia.org/wiki/Grado_d%27arco); alternativa all\'unità °
+  rad     [Radiante](https://it.wikipedia.org/wiki/Radiante)
+  gon     [Grado centesimale](https://it.wikipedia.org/wiki/Grado_centesimale)
+  S       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità ″
+  ″       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità S
+  M       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità ′
+  ′       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità M
 
-<div class="mw-translate-fuzzy">
 
-Angolo:
+
+### Corrente
 
   Unità   Descrizione
    
-  °       [Grado](https://en.wikipedia.org/wiki/Degree_(angle)); alternativa all\'unità *deg*
-  deg     [Grado](https://en.wikipedia.org/wiki/Degree_(angle)); alternativa all\'unità *°*
-  rad     [Radiante](https://en.wikipedia.org/wiki/Radian)
-  gon     [Gradiante](https://en.wikipedia.org/wiki/Gon_(unit))
-  S       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ″       [Secondo di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità *S*
-  M       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ′       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità *M*
-
-
-</div>
-
-
-
-### Attuale
-
-
-<div class="mw-translate-fuzzy">
-
-Corrente:
-
-  Unità   Descrizione
-   
-  mA      Milli[ampere](https://en.wikipedia.org/wiki/Ampere)
-  A       [Ampere](https://en.wikipedia.org/wiki/Ampere)
-  kA      Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
-  MA      Mega[ampere](https://en.wikipedia.org/wiki/Ampere)
-
-
-</div>
+  mA      Milli[ampere](https://it.wikipedia.org/wiki/Ampere)
+  A       [ampere](https://it.wikipedia.org/wiki/Ampere)
+  kA      Kilo[ampere](https://it.wikipedia.org/wiki/Ampere)
+  MA      Mega[ampere](https://it.wikipedia.org/wiki/Ampere)
 
 
 
 ### Capacità elettrica 
 
-  Unit   Description
+  Unità   Descrizione
    
-  pF     Pico[farad](https://en.wikipedia.org/wiki/Farad)
-  nF     Nano[farad](https://en.wikipedia.org/wiki/Farad)
-  uF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit µF
-  µF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit uF
-  mF     Milli[farad](https://en.wikipedia.org/wiki/Farad)
-  F      [Farad](https://en.wikipedia.org/wiki/Farad); 1 F = 1 s\^4·A\^2/m\^2/kg
+  pF      Pico[farad](https://it.wikipedia.org/wiki/Farad)
+  nF      Nano[farad](https://it.wikipedia.org/wiki/Farad)
+  uF      Micro[farad](https://it.wikipedia.org/wiki/Farad); alternativa all\'unità µF
+  µF      Micro[farad](https://it.wikipedia.org/wiki/Farad); alternativa all\'unità uF
+  mF      Milli[farad](https://it.wikipedia.org/wiki/Farad)
+  F       [Farad](https://it.wikipedia.org/wiki/Farad); 1 F = 1 s\^4·A\^2/m\^2/kg
 
 
 
 ### Carica elettrica 
 
-  Unit   Description
+  Unità   Descrizione
    
-  C      [Coulomb](https://en.wikipedia.org/wiki/Coulomb); 1 C = 1 A\*s
+  C       [coulomb](https://it.wikipedia.org/wiki/Coulomb); 1 C = 1 A\*s
 
 
 
 ### Conducibilità elettrica 
 
-  Unit   Description
+  Unità   Descrizione
    
-  uS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit µS
-  µS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit uS
-  mS     Milli[siemens](https://en.wikipedia.org/wiki/Siemens_(unit))
-  S      [Siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); 1 S = 1 s\^3·A\^2/kg/m\^2
-  kS     Kilo[Siemens](https://en.wikipedia.org/wiki/Siemens_(unit))
-  MS     Mega[Siemens](https://en.wikipedia.org/wiki/Siemens_(unit))
+  uS      Micro[siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura)); alternative to the unit µS
+  µS      Micro[siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura)); alternative to the unit uS
+  mS      Milli[siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura))
+  S       [siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura)); 1 S = 1 s\^3·A\^2/kg/m\^2
+  kS      Kilo[siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura))
+  MS      Mega[siemens](https://it.wikipedia.org/wiki/Siemens_(unit%C3%A0_di_misura))
 
 
 
 ### Induttanza elettrica 
 
-  Unit   Description
+  Unità   Descrizione
    
-  nH     Nano[henry](https://en.wikipedia.org/wiki/Henry_(unit))
-  uH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit µH
-  µH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit uH
-  mH     Milli[henry](https://en.wikipedia.org/wiki/Henry_(unit))
-  H      [Henry](https://en.wikipedia.org/wiki/Henry_(unit)); 1 H = 1 kg·m\^2/s\^2/A\^2
+  nH      Nano[henry](https://it.wikipedia.org/wiki/Henry_(unit%C3%A0_di_misura))
+  uH      Micro[henry](https://it.wikipedia.org/wiki/Henry_(unit%C3%A0_di_misura)); alternativa all\'unità µH
+  µH      Micro[henry](https://it.wikipedia.org/wiki/Henry_(unit%C3%A0_di_misura)); alternativa all\'unità uH
+  mH      Milli[henry](https://it.wikipedia.org/wiki/Henry_(unit%C3%A0_di_misura))
+  H       [henry](https://it.wikipedia.org/wiki/Henry_(unit%C3%A0_di_misura)); 1 H = 1 kg·m\^2/s\^2/A\^2
 
 
 
 ### Potenziale elettrico 
 
-  Unit   Description
+  Unità   Descrizione
    
-  mV     Milli[volt](https://en.wikipedia.org/wiki/Volt)
-  V      [Volt](https://en.wikipedia.org/wiki/Volt)
-  kV     Kilo[volt](https://en.wikipedia.org/wiki/Volt)
+  mV      Milli[volt](https://it.wikipedia.org/wiki/Volt)
+  V       [volt](https://it.wikipedia.org/wiki/Volt)
+  kV      Kilo[volt](https://it.wikipedia.org/wiki/Volt)
 
 
 
 ### Resistenza elettrica 
 
-  Unit   Description
+  Unità   Descrizione
    
-  Ohm    [Ohm](https://en.wikipedia.org/wiki/Ohm); 1 Ohm = 1 kg·m\^2/s\^3/A\^2
-  kOhm   Kilo[ohm](https://en.wikipedia.org/wiki/Ohm)
-  MOhm   Mega[ohm](https://en.wikipedia.org/wiki/Ohm)
+  ohm     [ohm](https://it.wikipedia.org/wiki/Ohm); 1 ohm = 1 kg·m\^2/s\^3/A\^2
+  kohm    Kilo[ohm](https://it.wikipedia.org/wiki/Ohm)
+  Mohm    Mega[ohm](https://it.wikipedia.org/wiki/Ohm)
 
 
 
 ### Energia/lavoro
 
-
-<div class="mw-translate-fuzzy">
-
-Energia / Lavoro:
-
   Unità   Descrizione
    
   mJ      Milli[joule](https://en.wikipedia.org/wiki/Joule)
-  J       [Joule](https://en.wikipedia.org/wiki/Joule)
-  kJ      Kilo[joule](https://en.wikipedia.org/wiki/Joule), {{Version/it|0.19}}
-  eV      [Elettronvolt](https://en.wikipedia.org/wiki/Electronvolt); 1 ev = 1.602176634e-19 J, {{Version/it|0.19}}
-  keV     Kilo[elettronvolt](https://en.wikipedia.org/wiki/Electronvolt), {{Version/it|0.19}}
-  MeV     Mega[elettronvolt](https://en.wikipedia.org/wiki/Electronvolt), {{Version/it|0.19}}
-  kWh     [Kilowattora](https://en.wikipedia.org/wiki/Kilowatt_hour); 1 kWh = 3.6e6 J, {{Version/it|0.19}}
-  Ws      [Watt second](https://en.wikipedia.org/wiki/Joule#Watt_second); alternativa all\'unità *Joule*
-  VAs     [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternativa all\'unità *Joule*
-  CV      [Coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternativa all\'unità *Joule*
-  cal     [Calorie](https://en.wikipedia.org/wiki/Calorie); 1 cal = 4.184 J, {{Version/it|0.19}}
-  kcal    Kilo[calorie](https://en.wikipedia.org/wiki/Calorie), {{Version/it|0.19}}
-
-
-</div>
+  J       [joule](https://en.wikipedia.org/wiki/Joule)
+  kJ      Kilo[joule](https://en.wikipedia.org/wiki/Joule)
+  eV      [Elettronvolt](https://en.wikipedia.org/wiki/Electronvolt); 1 eV = 1.602176634e-19 J
+  keV     Kilo[elettronvolt](https://en.wikipedia.org/wiki/Electronvolt)
+  MeV     Mega[elettronvolt](https://en.wikipedia.org/wiki/Electronvolt)
+  kWh     [kilowattora](https://en.wikipedia.org/wiki/Kilowatt_hour); 1 kWh = 3.6e6 J
+  Ws      [Watt secondo](https://en.wikipedia.org/wiki/Joule#Watt_second); alternativa all\'unità *Joule*
+  VAs     [volt-ampere-secondo](https://en.wikipedia.org/wiki/Joule); alternativa all\'unità *Joule*
+  CV      [coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternativa all\'unità *Joule*
+  cal     [calorie](https://en.wikipedia.org/wiki/Calorie); 1 cal = 4.184 J
+  kcal    Kilo[calorie](https://en.wikipedia.org/wiki/Calorie)
 
 
 
 ### Forza
 
-
-<div class="mw-translate-fuzzy">
-
-Forza:
-
   Unità   Descrizione
    
   mN      Milli[newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  N       [Newton](https://en.wikipedia.org/wiki/Newton_(unit))
+  N       [newton](https://en.wikipedia.org/wiki/Newton_(unit))
   kN      Kilo[newton](https://en.wikipedia.org/wiki/Newton_(unit))
   MN      Mega[newton](https://en.wikipedia.org/wiki/Newton_(unit))
-  lbf     [Pound of force](https://en.wikipedia.org/wiki/Pound_(force))
-
-
-</div>
+  lbf     [Libbra forza](https://en.wikipedia.org/wiki/Pound_(force))
 
 
 
 ### Lunghezza
 
-
-<div class="mw-translate-fuzzy">
-
-Lunghezza:
-
   Unità   Descrizione
    
-  nm      Nano[meter](https://en.wikipedia.org/wiki/Metre)
-  um      Micro[meter](https://en.wikipedia.org/wiki/Metre); alternativa all\'unità *µm*
-  µm      Micro[meter](https://en.wikipedia.org/wiki/Metre); alternativa all\'unità *mu*
-  mm      Milli[meter](https://en.wikipedia.org/wiki/Metre)
-  cm      Centi[meter](https://en.wikipedia.org/wiki/Metre)
-  mm      Milli[meter](https://en.wikipedia.org/wiki/Metre)
-  dm      Deci[meter](https://en.wikipedia.org/wiki/Metre)
-  m       [Meter](https://en.wikipedia.org/wiki/Metre)
-  km      Kilo[meter](https://en.wikipedia.org/wiki/Metre)
-  mil     [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternativa all\'unità *thou*
-  thou    [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternativa all\'unità *mil*
-  in      [Inch](https://en.wikipedia.org/wiki/Inch)
+  nm      Nano[metro](https://en.wikipedia.org/wiki/Metre)
+  um      Micro[metro](https://en.wikipedia.org/wiki/Metre); alternativa all\'unità µm
+  µm      Micro[metro](https://en.wikipedia.org/wiki/Metre); alternativa all\'unità *mu*
+  mm      Milli[metro](https://en.wikipedia.org/wiki/Metre)
+  cm      Centi[metro](https://en.wikipedia.org/wiki/Metre)
+  dm      Deci[metro](https://en.wikipedia.org/wiki/Metre)
+  m       [metro](https://en.wikipedia.org/wiki/Metre)
+  km      Kilo[metro](https://en.wikipedia.org/wiki/Metre)
+  mil     [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternativa all\'unità thou
+  thou    [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternativa all\'unità mil
+  in      [Inch](https://en.wikipedia.org/wiki/Inch); alternativa all\'unità \"
   ft      [Foot](https://en.wikipedia.org/wiki/Foot_(unit)); alternativa all\'unità \'
   \'      [Foot](https://en.wikipedia.org/wiki/Foot_(unit)); alternativa all\'unità *ft*
   yd      [Yard](https://en.wikipedia.org/wiki/Yard)
   mi      [Mile](https://en.wikipedia.org/wiki/Mile)
 
 
-</div>
-
-
 
 ### Intensità luminosa 
 
-
-<div class="mw-translate-fuzzy">
-
-Intensità luminosa:
-
   Unità   Descrizione
    
-  cd      [Candela](https://en.wikipedia.org/wiki/Candela)
-
-
-</div>
+  cd      [candela](https://en.wikipedia.org/wiki/Candela)
 
 
 
 ### Flusso magnetico 
 
-  Unit   Description
+  Unità   Descrizione
    
-  Wb     [Weber](https://en.wikipedia.org/wiki/Weber_(unit)); 1 Wb = 1 kg\*m\^2/s\^2/A
+  Wb      [weber](https://en.wikipedia.org/wiki/Weber_(unit)); 1 Wb = 1 kg\*m\^2/s\^2/A
 
 
 
 ### Densità del flusso magnetico 
 
-  Unit   Description
+  Unità   Descrizione
    
-  G      [Gauss](https://en.wikipedia.org/wiki/Gauss_(unit)); 1 G = 1 e-4 T
-  T      [Tesla](https://en.wikipedia.org/wiki/Tesla_(unit)); 1 T = 1 kg/s\^2/A
+  G       [gauss](https://en.wikipedia.org/wiki/Gauss_(unit)); 1 G = 1 e-4 T
+  T       [tesla](https://en.wikipedia.org/wiki/Tesla_(unit)); 1 T = 1 kg/s\^2/A
 
 
 
 ### Massa
 
-
-<div class="mw-translate-fuzzy">
-
-Massa:
-
   Unità   Descrizione
    
-  ug      Micro[gram](https://en.wikipedia.org/wiki/Gram); alternativa all\'unità *µg*
-  µg      Micro[gram](https://en.wikipedia.org/wiki/Gram); alternativa all\'unità *ug*
-  mg      Milli[gram](https://en.wikipedia.org/wiki/Gram)
-  g       [Gram](https://en.wikipedia.org/wiki/Gram)
-  kg      Kilo[gram](https://en.wikipedia.org/wiki/Gram)
-  t       [Tonne](https://en.wikipedia.org/wiki/Tonne)
+  ug      Micro[grammo](https://it.wikipedia.org/wiki/Grammo); alternativa all\'unità µg
+  µg      Micro[grammo](https://it.wikipedia.org/wiki/Grammo); alternativa all\'unità ug
+  mg      Milli[grammo](https://it.wikipedia.org/wiki/Grammo)
+  g       [grammo](https://it.wikipedia.org/wiki/Grammo)
+  kg      Kilo[grammo](https://it.wikipedia.org/wiki/Grammo)
+  t       [Tonnellata](https://it.wikipedia.org/wiki/Tonnellata)
   oz      [Ounce](https://en.wikipedia.org/wiki/Ounce)
-  lb      [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternativa all\'unità *lbm*
-  lbm     [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternativa all\'unità *lb*
+  lb      [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternativa all\'unità lbm
+  lbm     [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternativa all\'unità lb
   st      [Stone](https://en.wikipedia.org/wiki/Stone_(weight))
   cwt     [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
-
-
-</div>
 
 
 
 ### Potenza
 
-
-<div class="mw-translate-fuzzy">
-
-Potenza:
-
   Unità   Descrizione
    
-  W       [Watt](https://en.wikipedia.org/wiki/Watt)
+  W       [watt](https://en.wikipedia.org/wiki/Watt)
   kW      Kilo[watt](https://en.wikipedia.org/wiki/Watt), {{Version/it|0.19}}
-  VA      [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
-
-
-</div>
+  VA      [volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
 
 
 
 ### Pressione
 
-
-<div class="mw-translate-fuzzy">
-
-Pressione:
-
   Unità   Descrizione
    
-  Pa      [pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
-  kPa     Kilo[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
-  MPa     Mega[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
-  GPa     Giga[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
-  mbar    Milli[bar](https://en.wikipedia.org/wiki/Bar_(unit)), {{Version/it|0.19}}
-  bar     [bar](https://en.wikipedia.org/wiki/Bar_(unit)), {{Version/it|0.19}}
-  uTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternativa all\'unità *µTorr*
-  µTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternativa all\'unità *uTorr*
-  mTorr   Milli[torr](https://en.wikipedia.org/wiki/Torr)
-  Torr    [torr](https://en.wikipedia.org/wiki/Torr); 1 Torr = 133.32 Pa
-  psi     [libbre per pollice quadrato](https://en.wikipedia.org/wiki/Pounds_per_square_inch); 1 psi = 6.895 kPa
-  ksi     Kilo[libbre per pollice quadrato](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
-  Mpsi    Mega[libbre per pollice quadrato](https://en.wikipedia.org/wiki/Pounds_per_square_inch), {{Version/it|0.19}}
-
-
-</div>
+  Pa      [pascal](https://it.wikipedia.org/wiki/Pascal_(unit%C3%A0_di_misura))
+  kPa     Kilo[pascal](https://it.wikipedia.org/wiki/Pascal_(unit%C3%A0_di_misura))
+  MPa     Mega[pascal](https://it.wikipedia.org/wiki/Pascal_(unit%C3%A0_di_misura))
+  GPa     Giga[pascal](https://it.wikipedia.org/wiki/Pascal_(unit%C3%A0_di_misura))
+  uTorr   Micro[torr](https://it.wikipedia.org/wiki/Torr); alternativa all\'unità µTorr
+  µTorr   Micro[torr](https://it.wikipedia.org/wiki/Torr); alternativa all\'unità uTorr
+  mTorr   Milli[torr](https://it.wikipedia.org/wiki/Torr)
+  Torr    [Torr](https://it.wikipedia.org/wiki/Torr); 1 Torr = 133.32 Pa
+  psi     [Libbra-forza per pollice quadrato](https://it.wikipedia.org/wiki/Psi_(unit%C3%A0_di_misura)); 1 psi = 6.895 kPa
+  ksi     Kilo[Libbra-forza per pollice quadrato](https://it.wikipedia.org/wiki/Psi_(unit%C3%A0_di_misura))
 
 
 
 ### Temperatura
 
-
-<div class="mw-translate-fuzzy">
-
-Temperatura:
-
   Unità   Descrizione
    
-  uK      Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternativa all\'unità *µK*
-  µK      Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternativa all\'unità *uK*
-  mK      Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
-  K       [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
-
-
-</div>
+  uK      Micro[kelvin](https://it.wikipedia.org/wiki/Kelvin); alternativa all\'unità µK
+  µK      Micro[kelvin](https://it.wikipedia.org/wiki/Kelvin); alternativa all\'unità uK
+  mK      Milli[kelvin](https://it.wikipedia.org/wiki/Kelvin)
+  K       [Kelvin](https://it.wikipedia.org/wiki/Kelvin)
 
 
 
 ### Tempo
 
-
-<div class="mw-translate-fuzzy">
-
-Tempo:
-
   Unità      Descrizione
    
-  s          [secondo](https://en.wikipedia.org/wiki/Second)
-  min        [minuto](https://en.wikipedia.org/wiki/Minute)
-  h          [ora](https://en.wikipedia.org/wiki/Hour)
-  Hz (1/s)   [Hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
-  kHz        Kilo[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
-  MHz        Mega[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
-  GHz        Giga[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
-  THz        Tera[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
-
-
-</div>
+  s          [secondo](https://it.wikipedia.org/wiki/Secondo)
+  min        [minuto](https://it.wikipedia.org/wiki/Minuto)
+  h          [ora](https://it.wikipedia.org/wiki/Ora)
+  Hz (1/s)   [Hertz](https://it.wikipedia.org/wiki/Hertz)
+  kHz        Kilo[hertz](https://it.wikipedia.org/wiki/Hertz)
+  MHz        Mega[hertz](https://it.wikipedia.org/wiki/Hertz)
+  GHz        Giga[hertz](https://it.wikipedia.org/wiki/Hertz)
+  THz        Tera[hertz](https://it.wikipedia.org/wiki/Hertz)
 
 ### Volume
 
-
-<div class="mw-translate-fuzzy">
-
-Volume:
-
   Unità   Descrizione
    
-  ml      Milli[litro](https://en.wikipedia.org/wiki/Litre), {{Version/it|0.19}}
+  ml      Milli[litro](https://en.wikipedia.org/wiki/Litre)
   l       [litro](https://en.wikipedia.org/wiki/Litre)
-  cft     Cubic[foot](https://en.wikipedia.org/wiki/Foot_(unit)) (piede cubico), {{Version/it|0.19}}
-
-
-</div>
+  cft     Cubic[foot](https://en.wikipedia.org/wiki/Foot_(unit)) (piede cubico)
 
 
 
@@ -856,24 +896,16 @@ Volume:
 
 Le seguenti unità di uso comune non sono ancora supportate, per alcune viene fornita un\'alternativa:
 
-
-<div class="mw-translate-fuzzy">
-
-Le seguenti unità comunemente utilizzate non sono ancora supportate:
-
-  Unità   Descrizione                                                                                                  Alternativa
+  Unità   Descrizione                                                                                                      Alternativa
     
-  °C      [Celsius](https://en.wikipedia.org/wiki/Celsius)                                                             \[°C\] + 273.15 K
-  °F      [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit);                                                      (\[°F\] + 459.67) × ​5/9
-  u       [Atomic mass unit](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit \'Da\'   1.66053906660e-27 kg
-  Da      [Dalton](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit \'u\'              1.66053906660e-27 kg
-  sr      [Steradian](https://en.wikipedia.org/wiki/Steradian)                                                         not directly
-  lm      [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                                                          not directly
-  lx      [Lux](https://en.wikipedia.org/wiki/Lux)                                                                     not directly
-  px      [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                                 not directly
-
-
-</div>
+  °C      [Grado Celsius](https://it.wikipedia.org/wiki/Grado_Celsius)                                                     \[°C\] + 273.15 K
+  °F      [Grado Fahrenheit](https://it.wikipedia.org/wiki/Grado_Fahrenheit);                                              (\[°F\] + 459.67) × ​5/9
+  u       [Unità di massa atomica](https://it.wikipedia.org/wiki/Unit%C3%A0_di_massa_atomica); alternativa all\'unità Da   1.66053906660e-27 kg
+  Da      [dalton](https://it.wikipedia.org/wiki/Unit%C3%A0_di_massa_atomica); alternativa all\'unità u                    1.66053906660e-27 kg
+  sr      [steradiante](https://it.wikipedia.org/wiki/Steradiante)                                                         not directly
+  lm      [lumen](https://it.wikipedia.org/wiki/Lumen)                                                                     non direttamente
+  lx      [lux](https://it.wikipedia.org/wiki/Lux)                                                                         non direttamente
+  px      [pixel](https://it.wikipedia.org/wiki/Pixel)                                                                     non direttamente
 
 
 {{Top}}
@@ -890,15 +922,15 @@ Nei casi in cui non è possibile utilizzare un\'etichetta, come il nome dei vinc
 
 ### Etichette
 
-For [labels](Object_name#Label.md) there are no invalid characters, however some characters need to be escaped:
+Per le [etichette](Object_name/it#Etichette.md) non ci sono caratteri non validi, tuttavia è necessario eseguire l\'escape di alcuni caratteri:
 
 +++
-| Characters                                               | Description                                                               |
-+==========================================================+===========================================================================+
-|                                           | Need to be escaped by adding `\` in front of them. |
-| `'`                                             |                                                                           |
-|                                                       |                                                                           |
-| , `\`, `"` |                                                                           |
+| Caratteri                                                | Descrizione                                                                |
++==========================================================+============================================================================+
+|                                           | È necessario inserire l\'escape aggiungendogli `\`. |
+| `'`                                             |                                                                            |
+|                                                       |                                                                            |
+| , `\`, `"` |                                                                            |
 +++
 
 Ad esempio, l\'etichetta `Sketch\002` deve essere referenziata come `<<Sketch\\002>>`.
@@ -909,16 +941,16 @@ Ad esempio, l\'etichetta `Sketch\002` deve essere referenziata come `<<Sketch\\0
 
 [Nomi](Object_name#Nome.md) di oggetti come dimensioni, schizzi, ecc. non devono avere i caratteri o le sequenze di caratteri elencati di seguito, perchè altrimenti il nome non è valido:
 
-  Characters / Character sequences                                                                                               Description
+  Caratteri / Sequenze di caratteri                                                                                              Descrizione
    
-  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Characters that are math operators or part of mathematical constructs
-  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, and many more!                                             Characters and character sequences that are units (see the [Units](#Units.md) paragraph)
-  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, and many more!          Characters used as placeholder or to trigger special operations
-  **pi**, **e**                                                                                                                  Mathematical constants
-  **´**, **\**, **\'**, **\"**                                                                                                  Characters used for accents
-  space                                                                                                                          A space defines the end of a name and can therefore not be used
+  **+**, **-**, **\***, **/**, **\^**, **\_**, **\<**, **\>**, **(**, **)**, **{**, **}**, **\[**, **\]**, **.**, **,**, **=**   Caratteri che sono operatori matematici o parte di costrutti matematici
+  **A**, **kA**, **mA**, **MA**, **J**, **K**, **\'**, **ft**, **°**, and many more!                                             Caratteri e sequenze di caratteri che sono unità (vedere paragrafo [Unità](#Unità.md).)
+  **\#**, **!**, **?**, **§**, **\$**, **%**, **&**, **:**, **;**, **\\**, **\|**, **\~**, **∆**, **¿**, e molti altri!          Caratteri usati come segnaposto o per attivare operazioni speciali
+  **pi**, **e**                                                                                                                  Costanti matematiche
+  **´**, **\**, **\'**, **\"**                                                                                                  Caratteri usati per gli accenti
+  spazio                                                                                                                         Uno spazio definisce la fine di un nome e pertanto non può essere utilizzato
 
-For example, the following name is valid: `<<Sketch>>.Constraints.T2üßµ@`. While these are invalid names: `<<Sketch>>.Constraints.test\result_2` (\\r means \"carriage return\") or `<<Sketch>>.Constraints.mol` (mol is a unit).
+Ad esempio, è valido il seguente nome: `<<Sketch>>.Constraints.T2üßµ@`. Mentre questi sono nomi non validi: `<<Sketch>>.Constraints.test\result_2` (\\r significa \"ritorno a capo\") o `<<Sketch>>.Constraints.mol` (mol è un\'unità).
 
 Poiché i nomi più brevi (soprattutto se hanno solo uno o due caratteri) possono facilmente risultare in nomi non validi, prendere in considerazione l\'utilizzo di nomi più lunghi e/o stabilire una convenzione di denominazione adeguata.
 
@@ -926,11 +958,32 @@ Poiché i nomi più brevi (soprattutto se hanno solo uno o due caratteri) posson
 
 ### Alias di cella 
 
-See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md). 
+Vedere [Spreadsheet SetAlias](Spreadsheet_SetAlias/it#Utilizzo.md). 
 
 ## Riferimento ai dati CAD 
 
-È possibile utilizzare i dati del modello stesso in un\'espressione. Per fare riferimento a una proprietà utilizzare `object.property`. Se la proprietà è un composto di campi, è possibile accedere ai singoli campi come `object.property.field`.
+
+<div class="mw-translate-fuzzy">
+
+È possibile utilizzare i dati del modello stesso in un\'espressione. Per fare riferimento a una proprietà utilizzare `object.property`. Se la proprietà è composta da più campi, è possibile accedere ai singoli campi come `object.property.field`.
+
+
+</div>
+
+All next examples reference the object by its name, but in all cases the object label can also be used.
+
+If the property is a compound of fields, the individual fields can be accessed as `object_name.property.field`.
+
+
+<div class="mw-translate-fuzzy">
+
+Per fare riferimento agli oggetti dell\'elenco, usa `<<object_label>>.list[list_index]` o `object_name.list[list_index]`. Se ad esempio si desidera fare riferimento a un vincolo in uno schizzo, lo si può fare usando `<<MySketch>>.Constraints[16]`. Se il riferimento si trova nello stesso schizzo, si può ometterne il nome e utilizzare solo `Constraints[16]`.
+**Nota:** L\'indice inizia con 0, quindi Constraint17 deve essere referenziato come `Constraints[16]`.
+
+
+</div>
+
+To reference the object itself use the `_self` pseudo property: `object_name._self`.
 
 
 <div class="mw-translate-fuzzy">
@@ -938,54 +991,73 @@ See [Spreadsheet SetAlias](Spreadsheet_SetAlias#Usage.md).
 La tabella seguente mostra alcuni esempi:
 
 ++++
-| Dati CAD                                  | Chiamata nell\'espressione            | Risultato                                                                                                                                                         |
-+===========================================+=======================================+===================================================================================================================================================================+
-| Lunghezza parametrica di un Cubo di Parte |                        |                                                                                                                                                    |
-|                                           | `Cube.Length`                | `Length`                                                                                                                                                 |
-|                                           |                                    |                                                                                                                                                                |
-|                                           |                                       | Lunghezza con unità in mm                                                                                                                                         |
+| Dati CAD                                                     | Chiamata nell\'espressione               | Risultato                                                                                                                                                                                             |
++==============================================================+==========================================+=======================================================================================================================================================================================================+
+| Lunghezza di un [Box di Part](Part_Box/it.md)        |                           | Lunghezza con unità (mm)                                                                                                                                                                              |
+|                                                              | `Box.Length`                    |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Volume del Cubo                           |                        |                                                                                                                                                    |
-|                                           | `Cube.Shape.Volume`          | `Volume`                                                                                                                                                 |
-|                                           |                                    |                                                                                                                                                                |
-|                                           |                                       | in mm³ senza unità                                                                                                                                                |
+| Volume di un Box                                             |                           | Volume in mm³ senza unità                                                                                                                                                                             |
+|                                                              | `Box.Shape.Volume`              |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Tipo di forma del Cubo                    |                        | Stringa: Solid                                                                                                                                                    |
-|                                           | `Cube.Shape.ShapeType`       |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Tipo di Shape di un Box                                      |                           | Stringa: Solid                                                                                                                                                                                        |
+|                                                              | `Box.Shape.ShapeType`           |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Etichetta del Cubo                        |                        | Stringa: Label                                                                                                                                                    |
-|                                           | `Cube.Label`                 |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Etichetta di una Box                                         |                           | Stringa: Label                                                                                                                                                                                        |
+|                                                              | `Box.Label`                     |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Coordinata x del centro di massa del Cubo |                        | Coordinata x in mm senza unità                                                                                                                                    |
-|                                           | `Cube.Shape.CenterOfMass.x`  |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Coordinata X del centro di massa di un Box                   |                           | Coordinata X in mm senza unità                                                                                                                                                                        |
+|                                                              | `Box.Shape.CenterOfMass.x`      |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Valore di un vincolo in uno schizzo       |                        | Valore numerico del vincolo di nome \'`Width`\' nello schizzo, se l\'espressione è utilizzata nello schizzo stesso.                        |
-|                                           | `Constraints.Width`          |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Coordinata X del Box placement                               |                           | Coordinata X con l\'unità (mm)                                                                                                                                                                        |
+|                                                              | `Box.Placement.Base.x`          |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Valore di un vincolo in uno schizzo       |                        | Valore numerico del vincolo di nome \'`Width`\' nello schizzo, se l\'espressione è usata al di fuori dello schizzo.                        |
-|                                           | `MySketch.Constraints.Width` |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Componente X dell\'asse di rotazione del placement di un Box |                           | Componente X del vettore unitario in mm senza unità                                                                                                                                                   |
+|                                                              | `Box.Placement.Rotation.Axis.x` |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Valore di un alias in spreadsheet         |                        | Valore dell\'alias \"`Depth`\" nel foglio \"`Spreadsheet`\"                                                         |
-|                                           | `Spreadsheet.Depth`          |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Angolo di rotazione del placemente di un Box                 |                           | Angolo di rotazione con unità (deg)                                                                                                                                                                   |
+|                                                              | `Box.Placement.Rotation.Angle`  |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
-| Valore di una proprietà locale            |                        | Valore della proprietà `Length` ad es. di un oggetto Pad, se l\'espressione viene utilizzata, ad esempio, in Length2 nello stesso oggetto. |
-|                                           | `Length`                     |                                                                                                                                                                   |
-|                                           |                                    |                                                                                                                                                                   |
+| Oggetto Full Box                                             |                                                                                                                                                          |
+|                                                              | `Box._self`                     |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
+++++
+| Valore di un vincolo in uno schizzo                          |                           | Valore numerico di un vincolo denominato `Width` nello sketch, se l\'espressione è utilizzata nello sketch stesso.                                                             |
+|                                                              | `Constraints.Width`             |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
+++++
+| Valore di un vincolo in uno schizzo                          |                           | Valore numerico di un vincolo denominato `Width` nello sketch, se l\'espressione viene utilizzata all\'esterno dello sketch.                                                   |
+|                                                              | `MySketch.Constraints.Width`    |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
+++++
+| Valore di un alias in uno Spreadsheet                        |                           | Valore dell\'alias `Depth` nel foglio di calcolo `Spreadsheet`                                                                                          |
+|                                                              | `Spreadsheet.Depth`             |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
+++++
+| Valore di una proprietà locale                               |                           | Valore della proprietà **Length**, ad esempio in un oggetto Pad, se l\'espressione è utilizzata ad esempio in **Length2** nello stesso oggetto. |
+|                                                              | `Length`                        |                                                                                                                                                                                                       |
+|                                                              |                                       |                                                                                                                                                                                                       |
 ++++
 
 
 </div>
 
+### Cyclic dependencies 
 
-{{Top}}
+FreeCAD checks dependencies based on the relationship between document objects, not properties. This means that you cannot provide data to an object and query that same object for results. For example, even though there are no cyclic dependencies when the properties themselves are considered, you may not have an object which gets its dimensions from a spreadsheet and then display the volume of that object in the same spreadsheet. You have to use two spreadsheets, one to drive your model and the other for reporting.
 
+As a workaround it is possible to display a cell range from the second spreadsheet in the first (or vice versa) by creating a [cell binding](Spreadsheet_Workbench#Cell_binding.md) with the **Hide dependency of binding** option.
 
+Another way to workaround cyclic dependencies is to hide the reference by using the `href` or `hiddenref` function for individual expressions, for example: `href(Box.Length)`.
+
+Please note that both mentioned workarounds should be used with caution, and that they do not work if the properties that are reported depend on dimensions that are driven from the same spreadsheet. 
 
 ## Variabili globali nell\'ambito del documento 
 
@@ -993,30 +1065,22 @@ Al momento in FreeCAD non esiste il concetto di variabili globali. Invece, utili
 
 ## Riferimenti incrociati nel documento 
 
-
-<div class="mw-translate-fuzzy">
-
-È possibile (con limitazioni) definire una proprietà di un oggetto nel documento corrente (file \".FCstd\") utilizzando un\'espressione per fare riferimento a una proprietà di un oggetto contenuto in un documento diverso (file \".FCstd\"). Ad esempio, una cella in un foglio di calcolo o la lunghezza di un cubo di Part, ecc. in un documento può essere definita da un\'espressione che fa riferimento al valore di posizionamento X o ad un\'altra proprietà di un oggetto contenuto in un documento diverso.
-
-
-</div>
+È possibile (con limitazioni) definire una proprietà di un oggetto nel documento corrente (file \".FCstd\") utilizzando un\'espressione per fare riferimento a una proprietà di un oggetto contenuto in un documento diverso (file \".FCstd\"). Ad esempio, una cella in un foglio di calcolo o la {{PropertyData/it|lunghezza}} di un cubo di Part, ecc. in un documento può essere definita da un\'espressione che fa riferimento al valore di posizionamento X o ad un\'altra proprietà di un oggetto contenuto in un documento diverso.
 
 È possibile utilizzare il nome di un documento per fare riferimento ad esso da altri documenti. Quando si salva un documento per la prima volta, si sceglie un nome per il file; questo di solito è diverso dal default iniziale \"Unnamed1\" (o il suo equivalente tradotto). Per evitare la perdita dei collegamenti quando il documento master viene rinominato al momento del salvataggio, si consiglia di creare prima il documento master, creare un foglio di calcolo al suo interno e salvarlo. Successivamente è ancora possibile apportare modifiche e salvare il file, ma non si deve rinominarlo.
 
-
-<div class="mw-translate-fuzzy">
-
-Una volta creato e salvato (e denominato) il documento master con il foglio di calcolo, è possibile creare dei documenti dipendenti. Supponendo che il documento master sia stato denominato \"`master`\", il foglio di calcolo sia stato rinominato \"`modelConstants`\" e a una cella sia stato assegnato un nome alias \"`Length`\", si può quindi accedere al valore con:
-
-
-</div>
+Una volta creato e salvato (e denominato) il documento master con il foglio di calcolo, è possibile creare dei documenti dipendenti. Supponendo che il documento master sia stato denominato `master`, il foglio di calcolo sia stato rinominato `modelConstants` e a una cella sia stato assegnato un nome alias `Length`, si può quindi accedere al valore con:
 
 
 `master#modelConstants.Length`
 
+
+<div class="mw-translate-fuzzy">
+
 **Notare** che il documento master deve sempre essere caricato affinché i valori del master siano disponibili per il documento dipendente.
 
-Purtroppo, il checker integrato a volte afferma che un nome valido non esiste. Continuare comunque a digitare. Quando il riferimento è completato, il pulsante **OK** diventa attivo.
+
+</div>
 
 Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrispondenti, quando si desidera cambiare qualcosa. 
 
@@ -1025,11 +1089,10 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 <div class="mw-translate-fuzzy">
 
--   I grafici delle dipendenze si basano sul rapporto tra gli oggetti del documento, non sulle proprietà. Questo significa che non è possibile fornire i dati a un oggetto e interrogare lo stesso oggetto per i risultati. Ad esempio, anche se non ci sono dipendenze cicliche quando vengono considerate solo le proprietà, non si può avere un oggetto che ottiene le sue dimensioni da un foglio di calcolo e quindi visualizza il volume di tale oggetto nello stesso foglio di calcolo. Per aggirare il problema, utilizzare più fogli di calcolo, ad esempio uno per sviluppare il modello, e uno per i rapporti.
--   Il parser delle espressioni non gestisce bene le parentesi e non è in grado di analizzare correttamente alcune espressioni. Ad esempio: \"**= (A1 \> A2) ? 1 : 0**\" restituisce un errore, mentre \"**= A1 \> A2 ? 1 : 0**\" è accettato. L\'espressione \"**= 5 + ((A1\>A2) ? 1 : 0)**\" non può essere inserita in nessuna forma.
+-   I grafici delle dipendenze si basano sul rapporto tra gli oggetti del documento, non sulle proprietà. Questo significa che non è possibile fornire i dati a un oggetto e interrogare lo stesso oggetto per i risultati. Ad esempio, anche se non ci sono dipendenze cicliche quando vengono considerate solo le proprietà, non si può avere un oggetto che ottiene le sue dimensioni da un foglio di calcolo e quindi visualizza il volume di tale oggetto nello stesso foglio di calcolo. Per aggirare il problema, utilizzare più fogli di calcolo, ad esempio uno per sviluppare il modello, e l\'altro per i rapporti.
+-   Il parser delle espressioni non gestisce bene le parentesi e non è in grado di analizzare correttamente alcune espressioni. Ad esempio: `<nowiki>=</nowiki> (A1 > A2) ? 1 : 0` restituisce un errore, mentre `<nowiki>=</nowiki> A1 > A2 ? 1 : 0` è accettato. L\'espressione `<nowiki>=</nowiki> 5 + ((A1>A2) ? 1 : 0)` non può essere inserita in nessuna forma.
 -   Come affermato sopra, sfortunatamente, a volte il controllo integrato afferma che non esiste un nome valido. Continuare comunque a digitare. Dopo aver completato il riferimento completo, il pulsante **OK** diventerà attivo.
--   Non è implementato nessun gestore delle espressioni in cui siano elencate tutte le espressioni di un documento, e possano essere create, eliminate, interrogate, ecc.
--   I nomi dei vincoli di Sketcher non devono contenere spazi vuoti quando il valore è calcolato da un\'espressione, vedere questa \[<https://forum.freecadweb.org/viewtopic.php?p=302500#p302381>; discussione nel forum\].
+-   FreeCAD non ha ancora un gestore di espressioni integrato in cui sono elencate tutte le espressioni di un documento che possono essere create, eliminate, interrogate, ecc. Ma è disponibile un componente aggiuntivo: [gestore espressioni fcxref](https://github.com/gbroques/fcxref).
 -   I bug aperti per le espressioni si trovano in [FreeCAD Bugtracker Expressions category](https://freecadweb.org/tracker/set_project.php?project_id=4;20)
 
 

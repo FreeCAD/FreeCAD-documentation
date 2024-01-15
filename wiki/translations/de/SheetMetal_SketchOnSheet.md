@@ -9,11 +9,15 @@
 
 # SheetMetal SketchOnSheet/de
 
+
+
 ## Beschreibung
 
 Der Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) erzeugt Ausschnitte entlang der abgekanteten Wände eines Blechobjektes. Für das Lochbild wird eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) verwendet.
 
 Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Tasche](PartDesign_Pocket/de.md), wo Löcher entlang der Skizzennormalen (lokale Z-Achse) ausgeschnitten werden, verhält sich dieses Werkzeug, als ob es das Blechobjekt abwickeln, die Löcher ausschneiden und letztlich die Abwicklung rückgängig machen würde.
+
+
 
 ## Anwendung
 
@@ -27,16 +31,22 @@ Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="
 **
     -   Das Tastenkürzel: **M** dann **S**
 
+
+
 ## Hinweis
 
 -   Die Skizze kann mehr als nur eine Kontur enthalten.
 -   Jede Kontur muss die ebene Fläche wenigstens berühren, andernfalls würde sie gar kein Loch ausschneiden.
+
+
 
 ## Eigenschaften
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
 Ein SheetMetal-SketchOnSheet-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+
+
 
 ### Daten
 
@@ -58,6 +68,8 @@ Ein SheetMetal-SketchOnSheet-Objekt wird von einem [Part-Formelement](Part_Featu
 
 -    {{PropertyData/de|kfactor|FloatConstraint}}: \"\--wrong naming in english original!\--\". Standardwert: {{value|0,50}}.
 
+
+
 ## Beispiel
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-05.png  style="width:300px;"> 
@@ -75,6 +87,8 @@ Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es m�
 
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Nur eine Kontur und ein Lochbild*
+
+
 
 ## Arbeitsablauf
 

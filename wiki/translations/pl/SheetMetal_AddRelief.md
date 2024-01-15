@@ -1,83 +1,94 @@
 ---
  GuiCommand:
    Name: SheetMetal AddRelief
-   MenuLocation: SheetMetal , Make Relief
-   Workbenches: SheetMetal Workbench
+   Name/pl: Arkusz Blachy: Wykonaj podcięcie
+   MenuLocation: SheetMetal , Wykonaj podcięcie
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **S** **R**
-   SeeAlso: SheetMetal_AddJunction, SheetMetal_AddBend
+   SeeAlso: SheetMetal_AddJunction/pl, SheetMetal_AddBend/pl
 ---
 
 # SheetMetal AddRelief/pl
 
-## Description
 
-The <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> [SheetMetal AddRelief](SheetMetal_AddRelief.md) command creates corner reliefs, cutouts, at the points where three sections (base plate/walls/flanges) of a sheet metal object meet. Without these reliefs the object will not be unfoldable.
 
-This command is the first of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
+## Opis
 
-1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
-2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
-3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
+Polecenie <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> **Wykonaj podcięcie** tworzy narożne odciążenia, wycięcia, w punktach, w których spotykają się trzy sekcje *(płyta podstawowa / ściany / kołnierze)* obiektu wykonanego z blachy. Bez tych wycięć obiekt nie będzie mógł zostać rozłożony.
+
+To polecenie jest pierwszym z trzech kroków konwersji obiektu powłoki wykonanego za pomocą środowiska pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) na rozkładany obiekt z blachy:
+
+1.  [Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)
+2.  [Wykonaj połączenie](SheetMetal_AddJunction/pl.md)
+3.  [Wykonaj zagięcie](SheetMetal_AddBend/pl.md)
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
-*Make Relief - cut off corners*
+*Wykonaj podcięcie - odcięte rogi.*
 
-## Usage
 
-1.  Select one or more corner vertex(es).
-2.  Activate the <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **SheetMetal AddRelief** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddRelief.svg" width=16px> [SheetMetal AddRelief](SheetMetal_AddRelief.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** menu option.
-    -   The keyboard shortcut: **S** then **R**
+
+## Użycie
+
+1.  Wybierz jedną lub więcej krawędzi.
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **Wykonaj podcięcie** używając jednej z poniższych opcji:
+    -   Przycisk **<img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie**.
+    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Wykonaj podcięcie**.
+    -   Skrót klawiaturowy: **S** + **R**.
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
 
-## Notes
-
-The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[SheetMetal AddRelief](SheetMetal_AddRelief.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[SheetMetal AddJunction](SheetMetal_AddJunction.md)**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
-
-Shell objects can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) or the <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Workbench](PartDesign_Workbench.md).
-
-To create a hollow cuboid with the [Part Workbench](Part_Workbench.md):
-
-1.  Create a solid using either:
-    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
-    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrude](Part_Extrude.md) from:
-        -   A <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md).
-        -   A <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Wire](Draft_Wire.md).
-        -   A <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
-2.  Use <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Thickness](Part_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
-
-To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.md):
-
-1.  Create a solid using either:
-    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
-    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) from a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
-2.  Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
-
-### Data
 
 
-{{Properties_Title|Base}}
+## Uwagi
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+Polecenia <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Wykonaj połączenie](SheetMetal_AddJunction/pl.md)** i <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Wykonaj zagięcie](SheetMetal_AddBend/pl.md)** działają najlepiej z obiektami typu \"wydrążony\" prostopadłościan o stałej grubości i kątach 90° między ścianami.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
+Obiekty powłoki mogą być tworzone za pomocą poleceń środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md) lub <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [Projekt Części](PartDesign_Workbench/pl.md).
 
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+Aby utworzyć półfabrykat za pomocą środowiska pracy [Część](Part_Workbench/pl.md):
+
+1.  Utwórz bryłę za pomocą poleceń:
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Sześcian](Part_Box/pl.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Wyciągnięcie \...](Part_Extrude/pl.md) z:
+        -   <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Prostokąt](Draft_Rectangle/pl.md) środowiska Rysunek Roboczy.
+        -   <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polilinia](Draft_Wire/pl.md) środowiska Rysunek Roboczy.
+        -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Utwórz szkic](Sketcher_NewSketch/pl.md) środowiska Szkicownik.
+2.  Użyj narzędzia <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Grubość](Part_Thickness/pl.md) środowiska Część, aby utworzyć obiekt powłoki z bryły *(zazwyczaj używając wartości grubości blachy)*.
+
+Aby utworzyć półfabrykat za pomocą środowiska pracy [Projekt Części](PartDesign_Workbench/pl.md):
+
+1.  Utwórz bryłę używając poleceń:
+    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Addytywny prostopadłościan](PartDesign_AdditiveBox/pl.md).
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Wyciągnij](PartDesign_Pad/pl.md) ze <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [szkicu](Sketcher_NewSketch/pl.md).
+2.  Użyj narzędzia <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [Grubość](PartDesign_Thickness/pl.md), aby utworzyć obiekt powłoki z bryły *(zazwyczaj używając wartości grubości blachy)*.
 
 
-{{Properties_Title|Parameters}}
 
--    **base Object|LinkSub**: \"Base Object\". Links to the corner vertexes defining relief positions.
+## Właściwości
 
--    **relief|Length**: \"Relief Size\". Default: {{value|2,00 mm}}.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Podcięcie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **Etykieta|String**: Wartość domyślna: {{value|Relief}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
+
+-    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Łącze do cechy nadrzędnej.
+
+-    **_Body|LinkHidden|ukryte**: Łącze ukryte do zawartości nadrzędnej.
+
+
+{{Properties_Title|Parametry}}
+
+-    **Obiekt bazowy|LinkSub**: *Obiekt bazowy*. Łącza do narożnych wierzchołków definiujących pozycje podcięcia.
+
+-    **Podcięcie|Length**: *Rozmiar podcięcia*. Wartość domyślna: {{value|2,00 mm}}.
 
 
 

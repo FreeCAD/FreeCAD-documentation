@@ -1,59 +1,44 @@
 ---
  GuiCommand:
    Name: Draft Snap Ortho
-   Name/it: Ortogonale
+   Name/it: Aggancia Ortogonale
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   MenuLocation: Draft , Draft Snap/it , Ortogonale
-   Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Ortho/it
 
 
-</div>
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Draft Aggancia Ortogonale** esegue l\'aggancio alle linee immaginarie che attraversano il punto precedente a multipli di 45°. Le linee e gli angoli sono relativi al piano XY del sistema di coordinate del [piano di lavoro](Draft_SelectPlane/it.md).
 
-<div class="mw-translate-fuzzy">
-
-Questo metodo si aggancia a un punto su una linea immaginaria che ha origine dal punto precedente e si estende all\'infinito a specifici incrementi di 45°; inclusi 0°, 90°, 135°, 180°, 225°, 270°, e altri multipli interi.
-
-
-</div>
-
-![](images/Draft_Snap_Ortho_example.png )
+![](images/Draft_Snap_Ortho_example.png ) 
+*Aggancio del secondo punto di una linea a una linea immaginaria che ha un angolo di 45° con l'asse X. I piccoli cerchi magenta indicano tutte le possibili direzioni.*
 
 
-<div class="mw-translate-fuzzy">
-
-
-
-*Agganciare il secondo punto di una linea in un punto che forma un angolo di 135° rispetto all'orizzontale; i piccoli cerchi indicano tutte le possibili direzioni di aggancio*
-
-
-</div>
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Ortogonale** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px>** nella barra degli strumenti di aggancio di Draft.
+    -   Premere il pulsante **<img src="images/Draft_Snap_Ortho.svg" width=16px>** nel [Draft snap widget](Draft_snap_widget/it.md).
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Scegliere un primo punto. Questa opzione di aggancio richiede un punto precedente.
+6.  Se si muove il cursore attorno al punto precedente si nota un effetto \"magnetico\" quando il cursore si trova su una linea infinita immaginaria che attraversa quel punto con un angolo di 0°, 45°, 90° o 135°.
+7.  Il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+8.  Fare clic per confermare il punto.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Ortho.svg" width=16px> [Ortogonale](Draft_Snap_Ortho/it.md)** siano attivati.
-2.  Scegliere uno strumento Draft per disegnare una forma.
-3.  Spostare il cursore approssimativamente nella direzione di una linea che forma un angolo di 45° rispetto all\'orizzontale.
-4.  Il simbolo di snap apparirà quando la linea indicativa forma un angolo di 45°, o un suo multiplo.
-5.  Cliccare per agganciare il nuovo punto.
+## Preferenze
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

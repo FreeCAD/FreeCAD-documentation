@@ -11,74 +11,41 @@
 
 ## Description
 
+L\'outil **TechDraw Cote axonométrique** ajoute une cote à une vue axonométrique. La cote peut être la longueur d\'une arête ou la distance entre deux points.
 
-<div class="mw-translate-fuzzy">
-
-L\'outil **TechDraw Cote axonométrique** ajoute une cote à une vue axonométrique. La cote peut être la longueur d\'une arête ou la distance entre deux sommets. La distance sera dans un premier temps la distance projetée (c\'est-à-dire telle qu\'elle apparaît sur le dessin) mais elle peut être modifiée en distance 3D réelle avec l\'outil **<img src="images/TechDraw_LinkDimension.svg" width=16px> [TechDraw Lier une cote](TechDraw_LinkDimension/fr.md)**.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_AxoLengthDimensionExample.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Cotes axonométriques basées sur un bord (bleu) et deux sommets (rouge)*
-
-
-</div>
+<img alt="" src=images/TechDraw_AxoLengthDimensionExample.png  style="width:300px;"> 
+*Cotes axonométriques basées sur un bord (bleu) et deux points (rouge)*
 
 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Faites l\'une des choses suivantes :
-    -   Sélectionnez deux arêtes (e1 et e2 dans l\'image). Le premier bord définit la direction de la ligne de cote et la distance mesurée. Le deuxième bord définit la direction des lignes d\'extension.
-    -   Sélectionnez deux arêtes (e3 et e4 dans l\'image) et deux sommets (v1 et v2 dans l\'image). La première arête définit la direction de la ligne de cote. La deuxième arête définit la direction des lignes d\'extension. Les sommets déterminent la distance mesurée.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md)**.
-3.  Une cote axonométrique sera ajoutée à la vue. La cote peut être déplacée à la position souhaitée.
-4.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tolérances.md).
+    -   Sélectionnez deux arêtes (e1 et e2 dans l\'image). La première arête définit la direction de la ligne de la cote et la distance mesurée. La deuxième arête définit la direction des lignes d\'extension.
+    -   Sélectionnez deux arêtes (e3 et e4 dans l\'image) et deux points (v1 et v2 dans l\'image). La première arête définit la direction de la ligne de la cote. La deuxième arête définit la direction des lignes d\'extension. Les points déterminent la distance mesurée.
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_AxoLengthDimension.svg" width=16px> [Cote axonométrique](TechDraw_AxoLengthDimension/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Dimensions → <img src="images/TechDraw_AxoLengthDimension.svg" width=16px> Cote axonométrique** du menu.
+3.  Une cote axonométrique est ajoutée à la vue.
+4.  La cote peut être déplacée jusqu\'à la position souhaitée.
+5.  Si nécessaire, ajoutez des tolérances comme décrit sur [cette page](TechDraw_Geometric_dimensioning_and_tolerancing/fr#Tolérances.md).
 
 
-</div>
+
+### Affichage des mesures 3D 
+
+Voir [TechDraw Cote de longueur](TechDraw_LengthDimension/fr#Affichage_des_mesures_3D.md).
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VersionPlus/fr|0.22}}
 
-### Display 3D measurement 
-
-
-</div>
+: Lors de la cotation des arêtes parallèles aux axes du système de coordonnées global, la valeur réelle (3D) est automatiquement calculée et insérée dans l\'étiquette de dimension sous forme de texte.
 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
+### Changer les propriétés 
 
-
-</div>
-
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-
-### Change properties 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [boîte de dialogue de Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
-
-
-</div>
+Pour modifier les propriétés d\'un objet dimension, double-cliquez dessus dans le dessin ou dans la [vue en arborescence](Tree_view/fr.md). Cela ouvrira la [boîte de dialogue Dimension](TechDraw_LengthDimension/fr#Bo.C3.AEte_de_dialogue_Dimension.md).
 
 
 

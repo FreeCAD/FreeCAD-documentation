@@ -1,6 +1,8 @@
 # Online Help Startpage/ro
 ![150](images/Crystal_Clear_app_tutorials.png )
 
+
+
 ## Bine ati venit la ajutorul on-line 
 
 
@@ -11,6 +13,8 @@ Acest document a fost generat automat din continutul documentatiei on-line pentr
 
 </div>
 
+
+
 ### Cum se foloseste 
 
 
@@ -20,6 +24,10 @@ Acest document este impartit in cateva sectiuni: introducere, folosire, script s
 
 
 </div>
+
+Many pages of this wiki are also grouped into an easier to read [Manual](Manual.md). If you are new to FreeCAD, we suggest you start reading the manual.
+
+
 
 ### Contribuiți
 

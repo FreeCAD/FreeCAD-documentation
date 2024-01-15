@@ -1,7 +1,7 @@
 ---
  GuiCommand:
    Name: Std_DlgCustomize
-   Name/fr: Std Personnalisation
+   Name/fr: Std Personnaliser
    MenuLocation: Outils , Personnaliser...
    Workbenches: Tous
    SeeAlso: Interface_Customization/fr
@@ -11,13 +11,15 @@
 
 ## Description
 
-La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser donnant accès à plusieurs options de personnalisation.
+La commande **Std Personnaliser** ouvre la boîte de dialogue Personnaliser donnant accès à plusieurs options de personnalisation.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
 
-*La boite de dialogue de Personnalisation*
+*La boite de dialogue Personnaliser*
+
+
 
 ## Utilisation
 

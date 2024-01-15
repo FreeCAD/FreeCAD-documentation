@@ -28,6 +28,12 @@ Au démarrage de l\'outil, le pointeur de la souris se transforme en une croix b
 
 
 
+## Remarques
+
+Voir [Sketcher Rectangle](Sketcher_CreateRectangle/fr#Remarques.md).
+
+
+
 
 
 {{Sketcher Tools navi

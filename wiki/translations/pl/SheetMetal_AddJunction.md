@@ -1,66 +1,77 @@
 ---
  GuiCommand:
    Name: SheetMetal AddJunction
-   MenuLocation: SheetMetal , Make Junction
-   Workbenches: SheetMetal_Workbench
+   Name/pl: Arkusz Blachy: Wykonaj połączenie
+   MenuLocation: SheetMetal , Wykonaj połączenie
+   Workbenches: SheetMetal_Workbench/pl
    Shortcut: **S** **J**
-   SeeAlso: SheetMetal_AddRelief, SheetMetal_AddBend
+   SeeAlso: SheetMetal_AddRelief/pl, SheetMetal_AddBend/pl
 ---
 
 # SheetMetal AddJunction/pl
 
-## Description
 
-The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> [SheetMetal AddJunction](SheetMetal_AddJunction.md) command creates open junctions between two sections (walls/flanges) of a sheet metal object. Without these junctions sheet metal sections connected to the same base will not be unfoldable.
 
-This command is the second of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
+## Opis
 
-1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
-2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
-3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
+Polecenie <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **Wykonaj połączenie** tworzy otwarte połączenia między dwiema sekcjami *(ścianami / kołnierzami)* obiektu z blachy. Bez tych połączeń sekcje blachy połączone z tą samą podstawą nie będą mogły zostać rozłożone.
+
+To polecenie jest drugim z trzech kroków konwersji obiektu powłoki wykonanego za pomocą środowiska pracy [Część](Part_Workbench/pl.md) lub [Projekt Części](PartDesign_Workbench/pl.md) na rozkładany obiekt z blachy:
+
+1.  [Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)
+2.  [Wykonaj połączenie](SheetMetal_AddJunction/pl.md)
+3.  [Wykonaj zagięcie](SheetMetal_AddBend/pl.md)
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
-*Make Junction - cut edges open*
+*Wykonaj połączenie - rozcięte krawędzie*
 
-## Usage
 
-1.  Select one or more edge(s).
-2.  Activate the <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **SheetMetal AddJunction** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddJunction.svg" width=16px> [SheetMetal AddJunction](SheetMetal_AddJunction.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Make Junction** menu option.
-    -   The keyboard shortcut: **S** then **J**.
+
+## Użycie
+
+1.  Wybierz jedną lub więcej krawędzi.
+2.  Aktywuj polecenie <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **Wykonaj połączenie** używając jednej z poniższych opcji:
+    -   Przycisk **<img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie**.
+    -   Opcja menu **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Wykonaj połączenie**.
+    -   Skrót klawiaturowy: **S** + **J**.
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
 
-## Notes
-
-The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[SheetMetal AddRelief](SheetMetal_AddRelief.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[SheetMetal AddJunction](SheetMetal_AddJunction.md)**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
-
-See [SheetMetal AddRelief](SheetMetal_AddRelief#Notes.md) for hints about creating shell objects of cuboids.
-
-## Properties
-
-See also: [Property editor](Property_editor.md).
-
-A SheetMetal Junction object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties and its label has a default value:
-
-### Data
 
 
-{{Properties_Title|Base}}
+## Uwagi
 
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
+Polecenia <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Wykonaj podcięcie](SheetMetal_AddRelief/pl.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Wykonaj połączenie](SheetMetal_AddJunction/pl.md)** i <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Wykonaj zagięcie](SheetMetal_AddBend/pl.md)** działają najlepiej z obiektami typu \"wydrążony\" prostopadłościan o stałej grubości i kątach 90° między ścianami.
 
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+Zobacz stronę z opisem narzędzia [Wykonaj podcięcie](SheetMetal_AddRelief/pl#Uwagi.md), aby uzyskać wskazówki dotyczące tworzenia obiektów powłoki na bazie prostopadłościanów.
 
 
-{{Properties_Title|Parameters}}
 
--    **base Object|LinkSub**: \"Base Object\". Links to the edges defining gap/junction positions.
+## Właściwości
 
--    **gap|Length**: \"Junction Gap\". Default: {{value|2,00 mm}}.Size of gap/junction to be added.
+Zapoznaj się również z informacjami na stronie: [Edytor właściwości](Property_editor/pl.md).
+
+Obiekt Połaczenie środowiska Arkusz Blachy wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
+
+
+
+### Dane
+
+
+{{Properties_Title|Podstawowe}}
+
+-    **Etykieta|String**: Wartość domyślna: {{value|Junction}} *(+ kolejny numer dla drugiej i następnych pozycji)*. Edytowalna przez użytkownika nazwa tego obiektu, może to być dowolny ciąg znaków UTF8.
+
+-    **Cecha podstawowa|Link|ukryte**: Cecha bazowa. Łącze do cechy nadrzędnej.
+
+-    **_Body|LinkHidden|ukryte**: Łącze ukryte do zawartości nadrzędnej.
+
+
+{{Properties_Title|Parametry}}
+
+-    **Obiekt bazowy|LinkSub**: *Obiekt bazowy*. Łącza do krawędzi definiujących pozycje odstępów / połączeń.
+
+-    **Szczelina|Length**: *Szczelina połączenia*. Domyślnie: {{value|2,00 mm}}. Rozmiar dodawanej szczeliny / połączenia.
 
 
 

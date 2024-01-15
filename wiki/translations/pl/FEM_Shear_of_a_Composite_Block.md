@@ -1,112 +1,136 @@
-# FEM Shear of a Composite Block/pl
 ---
- TutorialInfo:
-   Topic:  Finite Element Analysis
-   Level:  Beginner/Intermediate
-   Time:  30 minutes
+ TutorialInfo:l
+   Topic:  Analiza metodą elementów skończonych
+   Level:  Początkujący/średnio zaawansowany
+   Time:  30 minut
    Author: http://www.freecadweb.org/wiki/index.php?title=User: HarryvL
-   FCVersion: 0.17.12960 or above
-}}
+   FCVersion: 0.17.12960 lub nowszy
+---
 
-## Introduction
+# FEM Shear of a Composite Block/pl
 
-In this tutorial we analyse the shear deformation of a composite block consisting of a stiff core embedded in a soft matrix. It demonstrates the use of BooleanFragments and CompoundFilter to create solids for the block and the matrix from two concentric cubes. This workflow ensures that separate MeshRegions, Materials and Boundary Conditions can be defined for the block and the surrounding matrix. To select internal regions we make us of the macro by Markus Hovorka . The CalculiX results clearly show the effect of the stiff core on the response of the composite block.
 
-## Geometry
 
-First we create two concentric cubes, one size 10mm and the other size 5mm. This is done in the workbench \"Part\". By default the cube is placed at the origin \0, 0, 0\, so the smaller cube needs to be scaled down and shifted by changing the settings in the Data tab of the property panel. To make the core visible, the Transparency of the outer block is set to 50 in the View tab of the property panel. The result is shown below.
 
-!{width="700"}
 
-Next highlight the two blocks in the tree and create a BooleanFragments object . In the \"Property Window - Data Tab\" change Mode to CompSolid. Now highlight the BooleanFragments in the Object tree and create a CompoundFilter .
 
-!{width="700"}
 
-## Mesh and Mesh Regions 
+## Wprowadzenie
 
-From workbench FEM we create an Analysis container. This will contain all definitions required for the CalculiX analysis and its results. Note that this Analysis container needs to be activated  whenever re-loading the file or after switching back from other analyses. To start the meshing process, highlight the CompoundFilter in the Object Tree and activate the meshing dialog \"Mesh , FEM mesh from shape by Gmsh\". Leave the dialog by clicking OK.
+W tym przykładzie przeanalizujemy deformację postaciową kompozytowego bloku składającego się ze sztywnego rdzenia osadzonego w miękkiej matrycy. Zademonstrowane będzie użycie narzędzi BooleanFragments i CompoundFilter do utworzenia brył dla bloku i matrycy z dwóch współśrodkowych sześcianów. To podejście zapewnia możliwość przypisania obszarów siatki, materiałów i warunków brzegowych osobno dla bloku i otaczającej go matrycy. Do wybrania wewnętrznych obszarów wykorzystamy makrodefinicję autorstwa Markusa Hovorki *(https://github.com/drhooves/SelectionTools)* lub alternatywne podejście. Wyniki z solvera CalculiX wyraźnie pokazują wpływ sztywnego rdzenia na odpowiedź bloku kompozytowego.
 
-A Mesh object is now created in the Object Tree. Highlight this object and create a Mesh Region object via \"Mesh , FEM mesh region\". Open the dialog box for this Mesh Region by double clicking and tick the radio button for Solid. Next click the \"Add Reference\" button and select the CompoundFilter object in the Graphical Window. This should add a reference to \"CompoundFilter:Solid1\" in the object list of the Mesh Region. Finally specify the maximum element size for this region . Leave the dialog by clicking OK.
 
-!{width="700"}
 
-Next create a new Mesh object as above and use the selection macro  to select the Cube_Core object in the Graphical Window. This time the reference list should show \"CompoundFilter:Solid2\", as below. We chose a maximum element size of 1mm.
+## Geometria
 
-Note1: Selection of \"CompoundFilter:Solid2\" requires selection of one of its faces.
+Najpierw utworzymy dwie współśrodkowe kostki, jedną o rozmiarze 10mm a drugą o rozmiarze 5mm. Robimy to w środowisku pracy [Część](Part_Module/pl.md). Domyślnie sześcian jest umieszczony w środku układu współrzędnych \[0,0,0\]. więc mniejszy sześcian należy przeskalować i przesunąć poprzez zmianę ustawień w zakładce Dane panelu właściwości. Aby uczynić rdzeń widocznym, przezroczystość zewnętrznego bloku jest ustawiana na 50 w zakładce Widok panelu właściwości. Wynik jest pokazany poniżej.
 
-Note2: If you have difficulty selecting \"CompoundFilter:Solid2\" it may be because you forgot to set the BooleanFragments mode to CompSolid.
+<img alt="" src=images/Pic1.png  style="width:700px;">
 
-!{width="700"}
+Następnie zaznaczmy dwa bloki w drzewie i utwórzmy obiekt BooleanFragments *(**Część → Rozdziel → Fragmentacja funkcją logiczną**)*. W zakładce Dane panuelu właściwości zmień tryb na BryłaZłożona *(CompSolid)*. Teraz zaznacz obiekt BooleanFragments w drzewie modelu i utwórz Filtr złożeń *(**Część → Złożenie → Filtr złożeń**)*.
 
-## Material Assignment 
+<img alt="" src=images/Pic2.png  style="width:700px;">
 
-Material is assigned to Mesh Regions via a SolidMaterial object. In this tutorial we assign two materials; one for the Matrix and one for the Core.
 
-Start by selecting the CompoundFilter in the object tree. Then create a SolidMaterial object via menu option \"Model , FEM material for solid\". Open the dialog and tick the radio button for Solid, press \"Add Reference\" and select the CompoundFilter object from the Graphical Window. The reference list should now show \"CompoundFilter:Solid1\", as before. We assign ABS material to the Matrix, with a Young\'s modules approximately 1% that of steel.
 
-!{width="700"}
+## Siatka i obszary siatki 
 
-Repeat the above procedure for the Core  with the help of the selection macro. This time we assign CalculiX-Steel, which is much stiffer than the ABS material for the Matrix.
+W środowisku pracy MES tworzymy kontener Analiza. Będzie on zawierał wszystkie definicje wymagane do analizy w solverze CalculiX i jej wyniki. Zauważ, że ten kontener Analiza musi być aktywowany *(kliknij prawym przyciskiem myszy i wybierz \"Aktywuj analizę\")* przy każdym ponownym wczytaniu pliku lub po przełączeniu się z innej analizy. Aby rozpocząć proces generowania siatki, zaznacz obiekt CompoundFilter w drzewie modelu i aktywuj okno dialogowe **Siatka → Siatka MES z kształtu przy pomocy generatora Gmsh**. Opuść okno dialogowe klikając OK.
 
-## Sliding Support 
+Obiekt siatki jest tworzony w drzewie modelu. Zaznacz go i utwórz Obszar siatki poprzez **Siatka → Obszar siatki MES**. Otwórz okno dialogowe dla tego obszaru siatki klikając na nim dwukrotnie i zaznacz przycisk dla Solid. Następnie wciśnij przycisk \"Dodaj odniesienie\" i wybierz obiekt CompoundFilter w oknie graficznym. Powinno to dodać odniesienie do \"CompoundFilter:Solid1\" na liście obiektów obszaru siatki. Wreszcie, podaj maksymalny rozmiar elementów dla tego obszaru (tutaj 5mm). Opuść okno dialogowe klikając OK.
 
-To create a \"Simple Shear\" condition for the composite block the deformations at the boundaries need to be unconstrained. To achieve this, the block is placed on a sliding support. This leaves three degrees of freedom in the plane of the support  and those will be constrained later. . To create a sliding boundary condition add a FemConstraintDisplacement object . With the dialog box open first select the face to which the boundary conditions is to be applied and then click the Add button. As the block is allowed to slide in the x-y plane, only the \"Fixed\" radio button for \"Displacement z\" is selected and the other radio buttons are all left as \"Free\".
+<img alt="" src=images/Pic3.png  style="width:700px;">
 
-!{width="700"}
+Następnie utwórz nowy obiekt siatki jak powyżej i użyj makra do wskazywania *(skrót S, E)* aby wybrać obiekt Cube_Core w oknie graficznym. Tym razem lista odniesień powinna pokazać \"CompoundFilter:Solid2\", jak poniżej. Alternatywnie można ukryć obiekt Compound i pokazać obiekt Cube_Core *(rozwijając Compound w drzewie, wybierając każdy z nich i naciskając spację)*. Wybieramy maksymalny rozmiar elementów 1mm.
 
-## Fixed Nodes 
+Uwaga1: Wybór obiektu \"CompoundFilter:Solid2\" wymaga wskazania jednej z jego ścian.
 
-To prevent rigid body motion in the plane of sliding, three independent degrees of freedom need to be eliminated. To achieve this, one vertex in the plane of sliding is constrained in x and y direction  and one vertex is fixed in the x direction . For this purpose two additional FemConstraintDisplacement objects are created and the result is shown below.
+Uwaga2: Jeśli masz problem z wyborem obiektu \"CompoundFilter:Solid2\", może to wynikać z pominięcia ustawienia trybu BryłaZłożona (CompSolid) w obiekcie BooleanFragments.
 
-!{width="700"}
+<img alt="" src=images/Pic4.png  style="width:700px;">
 
-## Shear Forces 
 
-The final step in the Analysis definition is the application of loads. To create a Simple Shear condition, a set of shear loads is applied as shown below. Each load is chosen as 1000 N and considering the directions of application, force and moment equilibrium is achieved for all translation and rotional degrees of freedom. In FC this requires addition of four FemConstraintForce objects  - one for each face. With the dialog box open first press the Add Reference button and then select the face to which the boundary condition is to be applied . By default, this creates a set of forces perpendicular to the face . To change this to a shear force, press the direction button and select a cube edge that runs in the desired direction. If the resulting force points in opposite direction of what is required, then select the radio button for \"Reverse direction\".
 
-!{width="700"}
+## Przypisanie materiału 
 
-## CalculiX Analysis 
+Materiał jest przypisywany do obszaru siatki poprzez obiekt SolidMaterial. W tym przykładzie przypisujemy dwa materiały, jeden dla matrycy i jeden dla rdzenia.
 
-Now all mesh regions, material and boundary conditions have been defined we are ready to analyse the deformation of the block with CalculiX. Activate the Analysis by right clicking \"Activate analysis\", open the CalculiX dialog by double clicking the CalculiXccxTools object and select a directory for the temporary files created by both FC and CCX. Write CCX Input file and check for any warning or error messages.
+Zacznij od zaznaczenia obiektu CompoundFilter w drzewie modelu. Następnie utwórz obiekt SolidMaterial poprzez opcję **Model → Materiał MES dla bryły**. Otwórz okno dialogowe i zaznacz przycisk dla Solid, wciśnij \"Dodaj odniesienie\" i wybierz obiekt CompoundFilter z okna graficznego. Lista odniesień powinna teraz pokazywać \"CompoundFilter:Solid1\", jak poprzednio. Przypisujemy materiał ABS do matrycy, z modułem Younga około 1% wartości dla stali.
 
-!{width="700"}
+<img alt="" src=images/Pic5.png  style="width:700px;">
 
-After that the analysis can be started by pressing the RunCalculiX button. If all goes well, the CCX output window should show the following messages.
+Potwórz powyższą procedurę dla rdzenia *(\"CompoundFilter:Solid2\")* z pomocą makra do zaznaczania lub alternatywnego podejścia, opisanego wcześniej. Tym razem przypisujemy materiał CalculiX-Steel, który jest znacznie sztywniejszy od materiału ABS matrycy.
 
-!{width="700"}
 
-## CalculiX Results 
 
-Upon completion of the analysis double click the \"CalculiX_static_results\" object and select the \"Abs displacement\" option. The maximum displacement of \~ 0.08mm will show up in the relevant output box. As the maximum displacement is relatively small compared to the dimensions of the block , the displacements need to be scaled up. This can be done under the heading \"Displacement\" by ticking the \"Show\" radio button and scaling the displacement by a factor of -say- 20. The maximum displacement will now be exaggerated to approximately 20% of the box size. After closing the dialog window, the deformed mesh can be made visible again by highlighting the Result_mesh object and pressing the space bar.
+## Podpora przesuwna 
 
-!{width="700"}
+Aby uzyskać stan prostego ścinania dla bloku kompozytowego, należy pozostawić nie zablokowane deformacje na brzegach. Żeby to uzyskać, blok jest umieszczany na podporze przesuwnej. Pozostawia to trzy stopnie swobody w płaszczyźnie podpory (2 translacje i 1 obrót) i te stopnie swobody będą związane później. *(Uwaga: ponieważ płaszczyzna zapobiega deplanacji ściany, nadal wprowadza ona drobne wiązanie, który można by wyeliminować poprzez inny wybór warunków brzegowych)*. Aby utworzyć podporę przesuwną, dodaj obiekt FemConstraintDisplacement *(**Model → Warunki brzegowe i obciążenia mechaniczne → Warunek brzegowy przemieszczenia**)*. W otwartym oknie dialogowym najpierw wskaż ścianę, do której warunek będzie przyłożony a następnie kliknij przycisk Dodaj. Ponieważ blok będzie mógł się przesuwać po płaszczyźnie x-y, wybierany jest tylko przycisk \"Nieruchomy\" dla \"Przemieszczenie z\" a pozostałe przyciski są pozostawione jako wolne.
 
-To investigate the deformation of the core we have to slice the block. This can be done by creating a clip filter. To activate this functionality, we first need to create a \"post processing pipeline\" by highlighting the \"CalculiX_static_results\" object and choosing \"Results , Post Pipeline from Result\" from the menu. Next, with the Pipeline selected create a Warp Filter , set Vector=Displacement and Value=20 to scale the displacement and Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. As a final step add a Clip Filter  and create a plane with origin \5.0,2.5,5.0\ and normal \0,1,0\, i.e. at a core face with normal in the y-direction. Tick the \"Cut Cells\" radio button to create a flat surface. As before set Display Mode = \"Surface with Edges\", Coloring Field = \"Displacement\", Vector = \"Magnitude\" to show colored displacement contours. Press Apply and OK. Finally switch the Warp Filter to invisible to only show the cut block.
+<img alt="" src=images/Pic6.png  style="width:700px;">
 
-!.png "Figure12_Deformed_Mesh_Clipped_View_.png"){width="700"}
 
-From the result it is clear that the core remains largely undeformed and helps to resist the deformation of the soft matrix . What it also highlights though is that under Simple Shear conditions the faces of the composite block do warp, implying that the sliding boundary condition at the base of the cube does provide an undue constraint.
 
-## Further work 
+## Utwierdzone węzły 
 
-The following challenges may be interesting to take up as a further exercise:
+Aby zapobiec ruchowi sztywnemu w płaszczyźnie przesuwu, trzy niezależne stopnie swobody muszą zostać wyeliminowane. Żeby to osiągnąć, jeden wierzchołek w płaszczyźnie przesuwu jest blokowany w kierunkach x i y (eliminacja 2 stopni swobody) a inny jest blokowany w kierunku x (eliminacja ostatniego stopnia swobody). Do tego celu tworzone są dwa dodatkowe obiekty FemConstraintDisplacement a efekt jest pokazany poniżej.
 
-1\) Correct for the undue constraint imposed by the sliding boundary condition
+<img alt="" src=images/Pic7.png  style="width:700px;">
 
-2\) Try and create contact boundary conditions between the core and the matrix to see if separation occurs
 
-The FC file for this tutorial is attached below as a starting point.
+
+## Siły styczne 
+
+Ostatni etap definicji analizy to zadanie obciążeń. Aby utworzyć stan prostego ścinania, przykładany jest zestaw sił stycznych, jak pokazano poniżej. Każde obciążenie ma wartość 1000 N i biorąc pod uwagę kierunki przyłożenia, równowaga sił i momentów jest osiągnięta dla wszystkich translacyjnych i obrotowych stopni swobody. W programie FreeCAD wymaga to dodania czterech obiektów FemConstraintForce *(**Model → Warunki brzegowe i obciążenia mechaniczne → Obciążenie siłą**)* - jeden dla każdej ściany. W otwartym oknie dialogowym najpierw wciśnij przycisk Dodaj odniesienie a następnie wskaż ścianę, do której ma być przyłożony warunek brzegowy *(Uwaga: to inna sekwencja niż dla FemConstraintDisplacement)*. Domyślnie, tworzy to zestaw sił prostopadłych do ściany *(siły normalne)*. Aby zmienić je na styczne, wciśnij przycisk kierunku i wybierz krawędź sześcianu, która przebiega w odpowiednim kierunku. Jeśli uzyskany zwrot siły jest nieodpowiedni, można go zmienić zaznaczając opcję \"Odwróć kierunek\".
+
+<img alt="" src=images/Pic8.png  style="width:700px;">
+
+
+
+## Analiza w CalculiX 
+
+Teraz wszystkie obszary siatki, materiały i warunki brzegowe są zdefiniowane i jesteśmy gotowi do przeanalizowania deformacji bloku przy pomocy solvera CalculiX. Aktywuj kontener Analiza klikając \"Aktywuj analizę\", otwórz okno dialogowe CalciliX klikając dwukrotnie na obiekcie CalculiXccxTools i wybierz lokalizację dla plików tymczasowych tworzonych przez FreeCAD i CalculiX. Zapisz plik wejściowy CalculiX\'a i sprawdź czy występują ostrzeżenia lub błędy.
+
+<img alt="" src=images/PIC9.png  style="width:700px;">
+
+Po tym można uruchomić analizę wciskając przycisk Uruchom analizę. Jeśli wszystko pójdzie prawidłowo, okno CalculiX\'a powinno pokazać następujące wiadomości.
+
+<img alt="" src=images/Pic10.png  style="width:700px;">
+
+
+
+## Wyniki CalculiX 
+
+Po ukończeniu analizy kliknij dwukrotnie na obiekcie \"CalculiX_static_results\" i wybierz opcję \"Przemieszczenie bezwzględne\". Maksymalna wartość przemieszczenia \~ 0.08mm zostanie wyświetlona w odpowiednim polu. Ponieważ maksymalne przemieszczenia jest stosunkowo małe w porównaniu z wymiarami bloku (\<1% rozmiaru bloku), przemieszczenia należy przeskalować. Można to zrobić pod napisem \"Przemieszczenie\", zaznaczając przycisk \"Pokaż\" i skalując przemieszczenie np. współczynnikiem 20. Maksymalne przemieszczenie będzie teraz przesadzone do ok. 20% rozmiaru bloku. Po zamknięciu okna dialogowego, zdeformowana siatka może być ponownie wyświetlona poprzez zaznaczenie obiektu Result_mesh i wciśnięcie klawisza Spacja.
+
+<img alt="" src=images/Figure_11_Deformed_Mesh.png  style="width:700px;">
+
+Aby sprawdzić deformację rdzenia, musimy przeciąć blok. Można tego dokonać tworząc filtr przycinania. Aby aktywować tą funkcjonalność, najpierw musimy utworzyć \"obiekt prezentacji graficznej wyników\" poprzez zaznaczenie obiektu \"CalculiX_static_results\" i wybranie opcji **Wyniki → Prezentacja graficzna wyników** z menu. Następnie, z zaznaczonym obiektem prezentacji graficznej wyników, utwórz filtr wizualizacji deformacji (Wyniki → Filtr wizualizacji deformacji), ustaw Wektor=Displacement i Wartość=20 aby przeskalować przemieszczenie oraz Tryb = \"Surface with Edges\", Pole = \"Displacement\", Wektor = \"Magnitude\" aby pokazać kontury przemieszczenia. Wcisnij Zastosuj i OK. Jako ostatni krok, dodaj Filtr przycięcia obszaru (Wyniki → Filtr przycięcie obszaru) i utwórz płaszczyznę z początkiem \[5.0,2.5,5.0\] i kierunkiem normalnym \[0,1,0\], tj. na ścianie rdzenia z kierunkiem normalnym w osi y. Zaznacz przycisk \"Wytnij komórki\" aby uzyskać gładką powierzchnię. Jak poprzednio, ustaw Tryb = \"Surface with Edges\", Pole = \"Displacement\", Wektor = \"Magnitude\" aby pokazać kontury przemieszczenia. Wciśnij Zastosuj i OK. Wreszcie, wyłącz widoczność Filtra przycięcia obszaru aby pokazać tylko blok przecięcia.
+
+<img alt="" src=images/Figure12_Deformed_Mesh_Clipped_View_(2).png  style="width:700px;">
+
+Na podstawie wyników można łatwo wywnioskować, że rdzeń pozostaje w większości niezdeformowany i pomaga oprzeć się deformacji miękkiej matrycy (porównaj kąt ścięcia niebieskiej części z kątem ścięcia zielonej części). Widać też jednak, że w warunkach prostego ścinania, ściany kompozytowego bloku ulegają wypaczeniu, co sugeruje, że podpora przesuwna na podstawie sześcianu to nieodpowiedni warunek brzegowy.
+
+
+
+## Dalsza praca 
+
+Następujące wyzwania mogą być ciekawe jako dalsze ćwiczenia:
+
+1\) Poprawa warunku brzegowego z podpory przesuwnej
+
+2\) Spróbuj utworzyć warunki kontaktu między rdzeniem i matrycą aby zobaczyć czy występuje separacja
+
+Plik programu FreeCAD dla tego przykładu jest załączony poniżej jako punkt wyjścia.
 
 <https://forum.freecadweb.org/viewtopic.php?f=18&t=26517&start=20>
 
-Have fun !
+Baw się dobrze !
 
 
 {{FEM Tools navi
 
-}} {{Userdocnavi
----
+}}
 
 
 

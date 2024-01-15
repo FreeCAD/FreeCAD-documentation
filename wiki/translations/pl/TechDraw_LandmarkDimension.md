@@ -14,22 +14,30 @@
 
 ## Opis
 
-Narzędzie **Wstaw wymiar przestrzenny** dodaje wymiar liniowy do widoku. Wymiar jest oparty na dwóch punktach **cecha** *(Draft.Point lub Part.Vertex)* z modelu 3D. Uwaga: punkty muszą być obiektami **cecha**, które występują w [widoku drzewa](Tree_view/pl.md) modelu. Losowe wierzchołki z kształtu nie będą odpowiednie.
+Narzędzie **Wstaw wymiar przestrzenny** dodaje wymiar liniowy do widoku. Wymiar jest oparty na dwóch obiektach punktowych ([Punkt](Draft_Point/pl.md) środowiska Rysunek Roboczy lub [Punkt](Part_Point/pl.md) środowiska Część lub [Punkt](PartDesign_Point/pl.md))\'\' środowiska pracy Projekt Części z modelu 3D.
 
 Celem tego narzędzia jest zapewnienie obejścia problemu uszkodzenia wymiarów spowodowanego przez \"[Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)\". Punkty źródłowe powinny używać [Wyrażeń](Expressions/pl.md) lub innego mechanizmu wiążącego, aby ustalić ich położenie. Ponieważ punkty są [Obiektami dokumentu](App_DocumentObject/pl.md), a nie komponentami kształtu, ich nazwa nie zmienia się przy ponownych obliczeniach, a więc łatwo je znaleźć.
 
 Zobacz stronę [Wstaw wymiar długości](TechDraw_LengthDimension/pl#Ograniczenia.md) , aby dowiedzieć się więcej na temat wymiarów i nazewnictwa topologicznego.
 
-Wymiar przestrzenny generalnie zachowuje się jak każdy inny wymiar.
-
 
 
 ## Użycie
 
-1.  Wybierz dwa obiekty punktów w [widoku drzewa](Tree_view/pl.md) lub oknie [widoku 3D](3D_view/pl.md).
-2.  Wybierz również widok, do którego ma zostać dodany wymiar.
-3.  Naciśnij przycisk **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Wstaw wymiar przestrzenny - EKSPERYMENTALNE](TechDraw_LandmarkDimension/pl.md)** lub wybierz z menu **Rysunek Techniczny → Wymiary → Wstaw wymiar przestrzenny**.
-4.  Wymiar zostanie dodany do widoku. Tekst wymiaru może być przeciągany na żądaną pozycję.
+1.  Wybierz dwa obiekty punktowe w oknie [widoku 3D](3D_view/pl.md) lub [Widoku drzewa](Tree_view/pl.md).
+2.  Dodaj właściwy widok Rysunku Technicznego do zaznaczenia, wybierając go w oknie [Widoku drzewa](Tree_view/pl.md).
+3.  Istnieje kilka sposobów wywołania narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> '''Wstaw wymiar przestrzenny'''**.
+    -   Wybierz z menu opcję **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_LandmarkDimension.svg" width=16px> Wstaw wymiar przestrzenny**.
+4.  Wymiar zostanie dodany do widoku.
+5.  Wymiar można przeciągnąć do żądanej pozycji.
+6.  W razie potrzeby dodaj tolerancje zgodnie z opisem na stronie [Wymiatrowanie i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing/pl#Tolerancja.md).
+
+
+
+### Zmiana właściwości 
+
+Aby zmienić właściwości obiektu wymiaru, kliknij dwukrotnie na niego w rysunku lub w [widoku drzewa](Tree_view/pl.md). Spowoduje to otwarcie okna [dialogowego wymiaru](TechDraw_LengthDimension/pl#Okno_dialogowe.md).
 
 
 
@@ -39,9 +47,15 @@ Narzędzie W**Wstaw wymiar przestrzenny** jest początkowo zawężone do wymiar�
 
 
 
+## Uwagi
+
+Zapoznaj się również informacjami na stroni e[Wymiar długości](TechDraw_LengthDimension/pl#Uwagi.md).
+
+
+
 ## Właściwości
 
-Funkcja **Wstaw wymiar przestrzenny** nie wprowadza żadnych nowych właściwości.
+Zobacz stronę [Wymiar długości](TechDraw_LengthDimension/pl#W.C5.82a.C5.9Bciwo.C5.9Bci.md).
 
 
 
@@ -53,12 +67,12 @@ Narzędzie **Wstaw wymiar przestrzenny** może być używane w [makrodefinicjach
 
 
 ```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::LandmarkDimension','Landmark')
+dim1 = FreeCAD.ActiveDocument.addObject("TechDraw::LandmarkDimension", "Landmark")
 dim1.Type = "Distance"
-dim1.References2D=[(TDView, 'Vertex1')]
-dim1.References3D=[(Point3d1, 'Vertex1')]
-dim1.References3D=[(Point3d2, 'Vertex1')]
-rc = page.addView(dim1)
+dim1.References2D = [(TDView, "Vertex1")]
+dim1.References3D = [(Point3d1, "Vertex1")]
+dim1.References3D = [(Point3d2, "Vertex1")]
+page.addView(dim1)
 ```
 
 

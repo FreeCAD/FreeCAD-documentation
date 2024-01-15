@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw ExtensionPositionSectionView
    Name/de: TechDraw ErgänzungSchnittAusrichten
-   MenuLocation: TechDraw , Extensions: Attributes/Modifications , Position Section View
+   MenuLocation: TechDraw , Ergänzungen: Merkmale/Änderungen , Schnittansicht ausrichten
    Workbenches: TechDraw_Workbench/de
    Shortcut: 
    Version: 0.20
@@ -15,32 +15,34 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:24px;"> **TechDraw ErgänzungSchnittAusrichten** hängt eine Schnittansicht rechtwinkelig an seine Quellansicht.
+Das Werkzeug **TechDraw ErgänzungSchnittAusrichten** richtet eine Schnittansicht rechtwinkelig zu ihrer Quellansicht aus. Es kann [eine Schnittansicht](#Anwendung_-_Ansicht_auswählen.md) oder ({{Version/de|0.22}}) [eine Kante und ein Knoten](#Anwendung_-_Kante_und_Knoten_auswählen.md) ausgewählt werden.
 
 
-</div>
+
+## Anwendung - Ansicht auswählen 
 
 <img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample.png  style="width:400px;"> 
-*Rechts eine ausgerichtete Schnittansicht*
+*Rechts die ausgerichtete Schnittansicht*
+
+1.  Eine Schnittansicht auswählen.
+2.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [Schnittansicht ausrichten](TechDraw_ExtensionPositionSectionView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Schnittansicht ausrichten** auswählen.
+3.  Die Schnittansicht wird zur Quellansicht ausgerichtet.
 
 
 
-## Anwendung
+## Anwendung - Kante und Knoten auswählen 
 
+<img alt="" src=images/TechDraw_ExtensionPositionSectionViewExample2.png  style="width:400px;"> 
+*Rechts die ausgerichtete Schnittansicht*
 
-<div class="mw-translate-fuzzy">
-
-1.  Wähle eine einzelne Schnittansicht.
-2.  Es gibt mehrere Möglichkeiten das Werkzeug aufzurufen:
-    -   Drücke die **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [TechDraw ExtensionPositionSectionView](TechDraw_ExtensionPositionSectionView.md)** Schaltfläche.
-    -   Wähle die **TechDraw → Extensions: Attributes/Modifications → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Position Section View** Option aus dem Menü.
-3.  Die Schnittansicht wird mit der Quellansicht verbunden.
-
-
-</div>
+1.  Eine Kante (1) in einer Schnittansicht auswählen. Die Kante sollte der Projektionsrichtung entsprechen.
+2.  Den zugehörigen Knoten (2) in der Quellansicht auswählen
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> [Schnittansicht ausrichten](TechDraw_ExtensionPositionSectionView/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Ergänzungen: Merkmale/Änderungen → <img src="images/TechDraw_ExtensionPositionSectionView.svg" width=16px> Schnittansicht ausrichten** auswählen.
+4.  Die Schnittansicht wird zu ihrer Quellansicht ausgerichtet.
 
 
 

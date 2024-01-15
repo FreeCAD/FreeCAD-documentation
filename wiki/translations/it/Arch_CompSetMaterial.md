@@ -2,41 +2,27 @@
  GuiCommand:
    Name: Arch CompSetMaterial
    Name/it: Materiali
-   MenuLocation: Arch , Materiali
-   Workbenches: Arch Workbench/it, BIM Workbench/it
-   SeeAlso: Arch SetMaterial/it, Arch MultiMaterial/it
+   MenuLocation: Arch , Strumenti di Materiali
+   Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Version: 0.17
+   SeeAlso: Arch_SetMaterial/it, Arch_MultiMaterial/it
 ---
 
 # Arch CompSetMaterial/it
 
 
-</div>
 
 ## Descrizione
-
-
-<div class="mw-translate-fuzzy">
 
 Gli strumenti Materiale consentono di aggiungere materiali al documento attivo.
 
 
-</div>
 
-## Tipi di strumenti per i materiali 
+## Tipi
 
--   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Material](Arch_SetMaterial.md): Creates a material and attributes it to selected objects, if any.
+-   <img alt="" src=images/Arch_SetMaterial.svg  style="width:32px;"> [Materiale](Arch_SetMaterial/it.md): Crea un materiale e lo attribuisce agli oggetti selezionati, se presenti.
 
--   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Material](Arch_MultiMaterial.md): Creates a multi-material and attributes it to selected objects, if any.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
+-   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Multi-Materiale](Arch_MultiMaterial/it.md): Crea un multi-materiale e lo attribuisce agli oggetti selezionati, se presenti.
 
 
 

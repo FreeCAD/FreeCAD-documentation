@@ -24,10 +24,10 @@ Il comando <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width
 ## Utilizzo
 
 1.  Esistono diversi modi per invocare il comando:
-    -   Premere il pulsante **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Attiva/Disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md)** nella [Barra di Draft](Draft_Tray/it.md). Questo pulsante è premuto se la modalità di costruzione Draft è attualmente attiva.
+    -   Premere il pulsante **<img src="images/Draft_ToggleConstructionMode.svg" width=16px> [Attiva/Disattiva modalità di costruzione](Draft_ToggleConstructionMode/it.md)** nel [Vassoio di Draft](Draft_Tray/it.md). Questo pulsante è premuto se la modalità di costruzione Draft è attualmente attiva.
     -   Selezionare l\'opzione **Utilità → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Attiva/Disattiva modalità di costruzione** dal menu.
     -   Usare la scorciatoia da tastiera: **C** poi **M**.
-2.  Il pulsante nella [Barra di Draft](Draft_Tray.md) viene aggiornato.
+2.  Il pulsante nel [Vassoio di Draft](Draft_Tray.md) viene aggiornato.
 
 
 
@@ -39,8 +39,8 @@ Il comando <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width
 
 ## Preferenze
 
--   Per cambiare l\'etichetta del gruppo di costruzione: **Modifica → Preferenze... → Draft → Impostazioni generali → Geometria di costruzione → Nome gruppo di costruzione**.
--   Per cambiare il colore utilizzato: **Modifica → Preferenze... → Draft → Impostazioni generali → Geometria di costruzione → Colore della geometria di costruzione**.
+-   Per cambiare l\'etichetta del gruppo di costruzione: **Modifica → Preferenze... → Draft → Generale → Etichetta gruppo di Costruzione**.
+-   Per cambiare il colore utilizzato: **Modifica → Preferenze... → Draft → Generale → Colore della geometria di costruzione**.
 
 
 

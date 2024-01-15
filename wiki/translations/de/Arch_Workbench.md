@@ -27,31 +27,31 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 
 -   <img alt="" src=images/Arch_Structure.svg  style="width:32px;"> [Struktur](Arch_Structure/de.md): Erstellt ein Strukturelement von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
--   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [AuswahlBewehrung](Arch_CompRebarStraight/de.md): Diese Werkzeuge stehen nur zur Verfügung, wenn der Arbeitsbereich [Reinforcement](Reinforcement_Workbench/.md) (Bewehrung)installiert wurde.
+-   <img alt="" src=images/Arch_CompRebarStraight.png  style="width:48px;"> [AuswahlBewehrung](Arch_CompRebarStraight/de.md): Diese Werkzeuge stehen nur zur Verfügung, wenn der Arbeitsbereich [Reinforcement](Reinforcement_Workbench/de.md) (Bewehrung)installiert wurde.
 
-  - <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> [Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md): Erstellt einen geraden Bewehrungsstab in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Geradlinige Bewehrung](Arch_Rebar_Straight/de.md): Erstellt einen geraden Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem ausgewählten Strukturelement.
+  - <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [U-förmige Bewehrung](Arch_Rebar_UShape/de.md): Erstellt einen U-förmigen Bewehrungsstab in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem ausgewählten Strukturelement
+  - <img alt="" src=images/Arch_Rebar_LShape.svg  style="width:32px;"> [L-förmige Bewehrung](Arch_Rebar_LShape/de.md): Erstellt einen L-förmigen Bewehrungsstab in einem ausgewählten Strukturelement
 
-  - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Stirrup](Arch_Rebar_Stirrup.md): Creates a stirrup reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Bewehrungsbügel](Arch_Rebar_Stirrup/de.md): Erstellt einen Bewehrungsbügel in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Bent-Shape Rebar](Arch_Rebar_BentShape.md): Creates a bent-shape reinforcement bar in a selected structural element.
+  - <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Abgesetzte Bewehrung](Arch_Rebar_BentShape/de.md): Erstellt einen Bewehrungsstab mit Absatz in einem ausgewählten Strukturelement.
 
--   <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> [Wendelförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md): Erstellt einen wendelförmigen Bewehrungsstab in einem ausgewählten Strukturelement
+  - <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Wendelbewehrung](Arch_Rebar_Helical/de.md): Erstellt eine Wendelbewehrung in einem ausgewählten Strukturelement.
 
-  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md): Creates reinforcement bars in a selected rectangular column.
+  - <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> [Stützenbewehrung](Arch_Rebar_ColumnReinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einer ausgewählten rechteckigen Stütze.
 
-  - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md): Creates reinforcement bars in a selected beam.
+  - <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> [Balkenbewehrung](Arch_Rebar_BeamReinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einem ausgewählten Balken.
 
-  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md): Creates reinforcement bars in a selected slab.
+  - <img alt="" src=images/Arch_Rebar_Slab_Reinforcement.svg  style="width:32px;"> [Plattenbewehrung](Arch_Rebar_Slab_Reinforcement/de.md): Erstellt Bewehrungsstäbe in einer ausgewählten Platte.
 
-  - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md): Creates reinforcement bars inside a selected footing.
+  - <img alt="" src=images/Arch_Rebar_Footing_Reinforcement.svg  style="width:32px;"> [Fundamentbewehrung](Arch_Rebar_Footing_Reinforcement/de.md): Erstellt Armierungen (Bewehrungsstäbe und Bewehrungsbügel) in einem ausgewählten Fundament.
 
-  - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Custom Rebar](Arch_Rebar.md): Creates a custom reinforcement bar in a selected structural element using a sketch.
+  - <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Bewehrung](Arch_Rebar/de.md): Erstellt unter Verwendung einer Skizze ein individuell angepasstes Bewehrungselement in einem ausgewählten Strukturelement.
 
--   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): Creates a curtain wall from scratch or using a selected object as a base.
+-   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Vorhangwand](Arch_CurtainWall/de.md): Erstellt eine Vorhangwand von Grund auf oder unter Verwendung eines ausgewählten Objekts als Basis.
 
 -   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Gebäudeteil](Arch_BuildingPart/de.md): Erstellt einen Gebäudeteil inklusive der ausgewählten Objekte.
 
@@ -125,8 +125,6 @@ Hier die Werkzeuge zur Änderung von Architekturobjekten:
 
 -   <img alt="" src=images/Arch_CutPlane.svg  style="width:32px;"> [Cut with plane](Arch_CutPlane.md): Cuts an object according to a plane.
 
--   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line.
-
 -   <img alt="" src=images/Arch_Add.svg  style="width:32px;"> [Add component](Arch_Add.md): Adds objects to a component.
 
 -   <img alt="" src=images/Arch_Remove.svg  style="width:32px;"> [Remove component](Arch_Remove.md): Subtracts or removes objects from a component.
@@ -164,6 +162,10 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Create IFC spreadsheet\...](Arch_IfcSpreadsheet.md): Creates a spreadsheet to store [IFC](Arch_IFC.md) properties of an object.
 
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle subcomponents](Arch_ToggleSubs.md): Shows or hides the subcomponents of an Arch object.
+
+## Obsolete tools 
+
+-   <img alt="" src=images/Arch_CutLine.svg  style="width:32px;"> [Cut with line](Arch_CutLine.md): Cuts an object according to a line. Not available in <small>(v0.22)</small> .
 
 
 

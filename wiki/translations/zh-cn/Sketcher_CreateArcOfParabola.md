@@ -25,7 +25,13 @@ This tool creates an arc of parabola by focus, vertex and endpoints.
 5.  Click a fourth time in the 3D view to define the other end point (labelled 4 in the picture above).
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Sketcher Tools navi

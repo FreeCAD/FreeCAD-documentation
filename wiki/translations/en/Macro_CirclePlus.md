@@ -3,7 +3,7 @@
 |Name=Macro CirclePlus
 |Icon=Macro_CirclePlus.png
 |Description=Creates circle or arc giving radius, diameter, circumference, area, startangle, endangle, arc, anglecenter, cord, arrow, center (point), placemObject on choice (With GUI)
-|Download=[https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png Macro_CirclePlus].
+|Download=[https://www.freecadweb.org/wiki/images/4/4c/Macro_CirclePlus.png ToolBar Icon].
 |Author=mario52
 |FCVersion=All
 |Version=0.4

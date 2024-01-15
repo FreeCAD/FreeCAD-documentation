@@ -9,15 +9,19 @@
 
 # Sketcher ViewSketch/de
 
+
+
 ## Beschreibung
 
 Dieses Werkzeug setzt die Modellansicht lotrecht zur Skizzenebene. Das ist sinnvoll, wenn der Benutzer die Ausrichtung der Modellansicht geändert hat, um einen anderen Bereich des Modells zu untersuchen und zu einer Ansicht normal zur Skizze zurückkehren will.
 
+
+
 ## Anwendung
 
-Solange der Skizzenbearbeitungsmodus aktiv ist, kann man entweder
+Solange der Skizzenbearbeitungsmodus aktiv ist, gibt es mehrere Möglichkeiten diesen Befehl aufzurufen:
 
--   Auf das Symbol **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** in der Werkzeugleiste des Arbeitsbereiches Sketcher oder PartDesign klicken, oder
+-   Auf das Symbol **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Skizze anzeigen](Sketcher_ViewSketch/de.md)** in der Werkzeugleiste des Arbeitsbereiches Sketcher oder PartDesign klicken.
 -   Den Menüeintrag **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Skizze anzeigen** auswählen.
 
 

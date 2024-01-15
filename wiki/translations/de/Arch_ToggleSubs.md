@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Arch ToggleSubs
-   Name/de: Arch UmschaltenUnterkomponenten
-   MenuLocation: Arch , Utilities , Umschalten Unterkomponenten
+   Name/de: Arch UnterkomponentenUmschalten
+   MenuLocation: Arch , Dienstprogramme , Unterkomponenten umschalten
    Workbenches: Arch_Workbench/de
    Shortcut: **Strg**+**Leertaste**
    SeeAlso: Arch_Component/de
@@ -34,15 +34,6 @@ Mit diesem Werkzeug werden die inneren subtrahierten Objekte alle sichtbar oder 
 Die Farbe eines Subtraktionselements kann dem Stil der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Elemente folgen, indem die entsprechende Option in den [Arch_Einstellungen](Arch_Preferences/de.md), im Menü **Bearbeiten → Einstellungen → Arch → Allgemeine Einstellungen → Entwurfskonstruktionsstil auf Unterkomponenten anwenden** aktiviert wird.
 
 Der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Stil kann in den [Entwurf Einstellungen](Draft_Preferences/de.md), im Menü **Einstellungen → Entwurf → Allgemeiner Entwurf** eingestellt werden.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

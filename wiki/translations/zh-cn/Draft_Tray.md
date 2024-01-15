@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-通过[底图工具栏](Draft_Tray/zh-cn.md)，您可以快速改变[底图工作台对象的可视属性](Draft_Workbench/zh-cn.md)。
+通过[底图工具栏](Draft_Tray/zh-cn.md)，您可以快速改变[底图工作台](Draft_Workbench/zh-cn.md)对象的可视属性。
 
 
 </div>

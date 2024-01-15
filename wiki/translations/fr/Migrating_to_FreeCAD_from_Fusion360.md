@@ -3,6 +3,8 @@
 
 Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD depuis l\'univers Fusion 360.
 
+
+
 ## Que dois-je faire ? 
 
 1.  La première chose que vous voulez faire est de sortir vos fichiers des formats et du stockage propriétaires. Commencez par exporter vos modèles du cloud vers votre machine locale.
@@ -14,7 +16,7 @@ Cette page est destinée aux utilisateurs qui souhaitent migrer vers FreeCAD dep
 
 **Veuillez également faire référence au projet en cours [CAD Rosetta Stone](CAD_Rosetta_Stone.md) pour connaître les noms analogues utilisés par les CAO propriétaires populaires**
 
-Reportez-vous à la page [Glossaire](Glossary/fr.md) en général. Ici une courte liste de termes spécifiques que les utilisateurs de F360 peuvent trouver particulièrement utiles:
+Reportez-vous à la page [Glossaire](Glossary/fr.md) en général. Ici une courte liste de termes spécifiques que les utilisateurs de F360 peuvent trouver particulièrement utiles :
 
 -   Contrainte de tangence - Forme FreeCAD de **Contrainte colinéaire**. Voir <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Sketch Contrainte tangente](Sketcher_ConstrainTangent/fr#Entre_deux_lignes_.28colin.C3.A9aire.29.md).
 -   Extrusion - La fonction **extruder** dans FreeCAD. Lisez la documentation <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour en savoir plus.
@@ -29,9 +31,13 @@ Reportez-vous à la page [Glossaire](Glossary/fr.md) en général. Ici une court
     -   STEP est le meilleur format car c\'est un format solide de forme [Shape](Shape/fr.md), par opposition à un format de [Maillage](Mesh/fr.md) (STL, OBJ, DAE). Exemple, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
     -   L\'importation d\'un STL est possible, mais ce format de maillage sera difficile à modifier par la suite. Nous recommandons de convertir les maillages importés en formes solides en utilisant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**. Remodeler l\'objet dans FreeCAD, tout en utilisant le maillage comme référence, est le meilleur conseil.
 
+
+
 ## Astuces
 
 -   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommande d\'installer [Atelier ModernUI](ModernUI_Workbench/fr.md) de HakanSeven12
+
+
 
 ## Ressources de formation 
 
@@ -41,13 +47,19 @@ Reportez-vous à la page [Glossaire](Glossary/fr.md) en général. Ici une court
 -   [Tutoriel écrit pour débutants : de la première partie au dessin technique](https://github.com/macdroid53/LearningFreeCAD) par macdroid53.
 -   [Une ressource en ligne pour nous, utilisateurs réguliers de FreeCAD](https://www.freecad.info/).
 
+
+
 ## Vidéos comparatives 
 
 -   [Modéliser une turbine de compresseur dans FreeCAD et Fusion360](https://www.youtube.com/watch?v=kirDbZd0dvI&feature=youtu.be)
 
+
+
 ## Aide
 
-Cette page wiki manque-t-elle quelque chose? Veuillez faire une demande de [permissions wiki](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) sur le forum pour éditer cette page.
+Cette page wiki manque-t-elle quelque chose ? Veuillez faire une demande de [permissions wiki](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) sur le forum pour éditer cette page.
+
+
 
 ## En relation 
 

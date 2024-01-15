@@ -20,10 +20,10 @@ Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDra
 
 #### Bruk
 
-1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the projection vector. For example, a [top view](Std_ViewTop.md) will project onto the XY plane. The projection vector is ignore for projections created from [Arch SectionPlanes](Arch_SectionPlane.md).
+1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the projection vector. For example, a [top view](Std_ViewTop.md) will project onto the XY plane. The projection vector is ignored for projections created from [Arch SectionPlanes](Arch_SectionPlane.md).
 2.  Optionally select one or more objects.
 3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Shape2DView.svg" width=16px> [Draft Shape2DView](Draft_Shape2DView.md)** button.
+    -   Press the **<img src="images/Draft_Shape2DView.svg" width=16px> [Shape 2D view](Draft_Shape2DView.md)** button.
     -   Select the **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Shape 2D view** option from the menu.
 4.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
 5.  The projected objects are created on the XY plane.

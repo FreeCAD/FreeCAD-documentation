@@ -1,5 +1,7 @@
 # Manual:Navigating in the 3D view/fr
-{{Manual:TOC/fr}}
+{{Manual:TOC}}
+
+
 
 ### Un mot sur l\'espace 3D 
 
@@ -15,7 +17,11 @@ Chaque point de chaque objet de cet espace peut être repéré par ses coordonn�
 
 Vous pouvez regarder cette scène sous n\'importe quel angle comme si vous teniez une caméra. Cette caméra peut être déplacée à gauche, à droite, en haut et en bas (panoramique), tourner autour de ce que vous regardez (rotation) et vous rapprocher ou vous éloigner de la scène (zoom).
 
+
+
 ### La vue 3D FreeCAD 
+
+
 
 #### Navigation à la souris 
 
@@ -43,6 +49,8 @@ Chacun de ces modes attribue différentes actions aux boutons de la souris ou bo
 ++++++
 | OpenCascade      | ![Clic sur le bouton central de la souris](images/Pan-mouse.svg )                                                                                                                                                                                    | ![Enfoncer le bouton central puis droit de la souris](images/Rotate-mouse-MMB+RMB.svg )                                                                                                                                                       | ![Rotation dubouton central de la souris](images/Zoom-mouse.svg )                                                                                                                                                                                      | ![Clic sur le bouton gauche de la souris](images/Select-mouse.svg )                                                |
 ++++++
+
+
 
 #### Navigation par le clavier 
 
@@ -82,6 +90,8 @@ En cliquant sur l\'un des quatre triangles, la vue pivotera de 45 degrés dans l
 Le cube de navigation peut être déplacé vers n'importe quelle partie de l'affichage 3D en le faisant glisser. Le bouton de glissement (gauche) de la souris doit être enfoncé à l\'intérieur du cube pour déclencher le glissement. Le cube ne se déplacera qu\'avec le déplacement du pointeur de la souris hors du cube.
 
 Un petit mini-cube, situé dans le coin inférieur droit de la zone, active un menu déroulant vous permettant de changer de mode de visualisation.
+
+
 
 ### Sélection d\'objets 
 

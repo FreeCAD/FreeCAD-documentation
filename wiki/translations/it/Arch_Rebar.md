@@ -1,17 +1,14 @@
 ---
  GuiCommand:
-   Name: Arch_Rebar
+   Name: Arch Rebar
    Name/it: Armatura
-   MenuLocation: Arch , Strumenti armatura o 3D/BIM , Strumenti armatura
+   MenuLocation: Arch , Strumenti di armatura , Armatura personalizzata<br>3D/BIM , Reinforcement tools , Armatura personalizzata
    Workbenches: Arch_Workbench/it, BIM_Workbench/it
    Shortcut: **R** **B**
-   SeeAlso: Arch Structure/it, Reinforcement Workbench/it
+   SeeAlso: Arch_Structure/it, Reinforcement_Workbench/it
 ---
 
 # Arch Rebar/it
-
-
-</div>
 
 
 
@@ -30,9 +27,6 @@ Gli oggetti Armature sono basati su profili 2D come gli [schizzi](Sketcher_Workb
 
 ## Estensione disponibile 
 
-
-<div class="mw-translate-fuzzy">
-
 Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), che viene installato dal [Addon Manager](Std_AddonMgr/it.md). I tipi di barre di armatura aggiuntivi disponibili con l\'addon sono:
 
 -   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md)
@@ -41,9 +35,6 @@ Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement
 -   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md)
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Staffe](Arch_Rebar_Stirrup/it.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md)
-
-
-</div>
 
 
 
@@ -93,33 +84,14 @@ Anche se normalmente all\'interno di una struttura di Arch viene utilizzata una 
 
 
 
-
-<div class="mw-translate-fuzzy">
-
 ## Script
 
 
 **Vedere anche:**
 
-[API Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+[API di Arch](Arch_API/it.md) e [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
-
-</div>
-
-
-**See also:**
-
-[Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
-
-
-<div class="mw-translate-fuzzy">
-
-Lo strumento Armatura può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
-
-
-</div>
-
-
+Lo strumento Armatura può essere utilizzato nelle [macro](Macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione: 
 ```python
 Rebar = makeRebar(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name="Rebar")
 ```
@@ -155,15 +127,6 @@ Rebar.OffsetStart = 100
 Rebar.OffsetEnd = 100
 FreeCAD.ActiveDocument.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 
 

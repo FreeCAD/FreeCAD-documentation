@@ -32,4 +32,4 @@ Lo strumento [Scala immagine](Image_Scaling/it.md) ridimensiona un\'immagine imp
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Scaling/it
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Scaling/it

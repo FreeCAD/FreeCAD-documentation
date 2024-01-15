@@ -26,55 +26,39 @@ Ein Draft-Kreis kann in einen Bogen gewandelt werden, indem seine {{PropertyData
 
 ## Anwendung
 
-See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Draft Ablage](Draft_Tray/de.md), [Draft Einrasten](Draft_Snap/de.md) und [Draft Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Drücke die **<img src="images/Draft_Circle.png" width=16px> [Kreis](Draft_Circle/de.md)** Schaltfläche oder drücke **C**, dann **I** Tasten.
-2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche.
-3.  Klicke einen zweiten Punkt in der 3D Ansicht oder gib einen Wert für den Radius ein.
-
-
-</div>
+1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_Circle.svg" width=16px> [Kreis](Draft_Circle.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Circle.svg" width=16px> Kreis** auswählen.
+    -   Das Tastaturkürzel **C** dann **I**.
+2.  Der Aufgaben-Bereich **Kreis** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Den ersten Punkt, den Kreismittelpunkt, in der 3DAnsicht auswählen oder Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken.
+4.  Den zweiten Punkt in der 3DAnsicht auswählen oder einen **Radius** eingeben.
 
 
 
 ## Optionen
 
-The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
-<div class="mw-translate-fuzzy">
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
-## Optionen 
+-    **F**drücken oder die Checkbox **Füllen** aktivieren, um den Füllen-Modus umzuschalten. Ist der Füllen-Modus aktiviert, wird die {{PropertyData/de|Make Face}} des erstellten Kreises auf `True` gesetzt und er erhält eine gefüllte Fläche.
 
--   Die primäre Anwendung des Kreis-Werkzeugs erfolgt durch Auswahl von zwei Punkten: dem Mittelpunkt und einem Punkt auf dem Umkreis zur Definition des Radius.
--   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
--   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, nachdem die gewünschten Werte eingegeben wurden.
--   Drücke **Alt**+**N** oder klicke das Ankreuzkästchen zum de/aktivieren des Fortsetzungsmodus. Wenn der Fortsetzungsmodus aktiviert ist, wird das Kreis-Tool nach Eingabe des zweiten Punkts neugestartet, um das Zeichnen eines weiteren Kreises ohne erneutes Drücken des Kreis-Buttons zu ermöglichen.
+-    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Kreisen fortzufahren.
 
-Klicke das Ankreuzkästchen zum de/aktivieren des **'''Gefüllt'''**-Modus. Wenn der \'Geüllt\'-Modus aktiviert ist, wird der Kreis mit einer Fläche gefüllt.
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
--   Drücke **Strg** während des Zeichnens, um das [Einrasten](Draft_Snap/de.md) Deines Punkts an der nächsten Einrastposition zu erzwingen, unabhängig vom Abstand.
--   Drücke **Shift** während des Zeichnens, um Deinen Punkt horizontal oder vertikal in Relation zum ersten einzuschränken.
--   Drücke **Esc** oder den **'''Schließen'''**-Button, um den aktuellen Befehl abzubrechen.
--   Der Kreis kann nach der Erstellung durch Setzen von unterschiedlichen Wertes für die Eigenschaften des ersten und letzten Winkels in einen Kreisbogen umgewandelt werden.
-
-
-</div>
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
-Der Kreis kann durch doppelklicken des Elements in der Baumansicht geändert werden oder durch drücken der **<img src="images/Draft_Edit.svg" width=16px> [Draft Bearbeiten](Draft_Edit/de.md)** Schaltfläche. Dann können der Mittel- und die Radiuspunkte an eine neue Position verschoben werden.
-
-
-</div>
+-   Ein Draft-Kreis kann mit dem Befehl [Draft-Bearbeiten](Draft_Edit/de.md) geändert werden.
 
 
 
@@ -82,9 +66,7 @@ Der Kreis kann durch doppelklicken des Elements in der Baumansicht geändert wer
 
 Siehe auch: [Voreinstellungseditor](Preferences_Editor/de.md) und [Draft Einstellungen](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates and radii: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
--   To change the initial value of filled mode: **Edit → Preferences... → Draft → General settings → Draft tools options → Fill objects with faces whenever possible**. Changing the filled mode in a task panel will override this preference for the current FreeCAD session.
--   If the **Edit → Preferences... → Draft → General settings → Draft tools options → Use Part Primitives when available** option is checked, the command will create a [Part Circle](Part_Circle.md) instead of a Draft Circle.
+-   Ist die Option **Bearbeiten → Einstellungen... → Draft → Allgemein → Part-Grundkörper erstellen, wenn möglich** aktiviert, wird ein [Part-Kreis](Part_Circle/de.md) anstelle eines Draft-Kreises erstellt.
 
 
 
@@ -101,23 +83,15 @@ Ein Draft-Kreis-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.m
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyData/de|Area|Area}}(schreibgeschützt): Gibt den Flächeninhalt der Kreisfläche an. Der Wert ist {{value|0.0}}, wenn die {{PropertyData/de|Make Face}} auf `False` gesetzt ist oder die Fläche nicht erstellt werden kann.
 
-<div class="mw-translate-fuzzy">
+-    {{PropertyData/de|First Angle|Angle}}: Legt den Startwinkel des Kreises fest; normalerweise {{value|0&#176;}}.
 
-### Daten 
+-    {{PropertyData/de|Last Angle|Angle}}: Legt den Endwinkel des Kreises fest; normalerweise {{value|0&#176;}}.
 
--    {{PropertyData/de|First Angle}}: Gibt den Startwinkel des Kreises an; normalerweise 0°.
+-    {{PropertyData/de|Make Face|Bool}}: Legt fest, ob die Kreisfläche erstellt wird oder nicht. Auf `True` gesetzt, wird eine Fläche erstellt, andernfalls wird nur der Kreisumfang als Teil des Objekts angesehen. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|First Angle}} und die {{PropertyData/de|Last Angle}} denselben Wert enthalten. Man beachte, dass {{value|0&#176;}} und {{value|360&#176;}} nicht als gleich angesehen werden.
 
--    {{PropertyData/de|Last Angle}}: Gibt den Endwinkel des Kreises an; normalerweise 0°.
-
--    {{PropertyData/de|Radius}}: Gibt den Radius des Kreises an.
-
--    {{PropertyData/de|Make Face}}: Gibt an, ob der Kreis ausgefüllt wird. Falls auf `True` gesetzt, wird eine Fläche erstellt, ansonsten wird nur der Umfang als Teil des Objekts betrachtet. Diese Eigenschaft funktioniert nur, wenn die Form einen vollen Umfang hat.
-
-:   Damit es ein Vollkreis ist, sollten **Anfangswinkel** und **Endwinkel** den gleichen Wert haben, ansonsten wird ein [Draft Arc](Draft_Arc/de.md) angezeigt. Die Werte 0° und 360° werden nicht als gleich angesehen, so dass der Kreis bei Verwendung dieser beiden Werte keine Fläche bildet.
-
-
-</div>
+-    {{PropertyData/de|Radius|Length}}: Legt den Radius des Kreises fest.
 
 
 
@@ -126,17 +100,9 @@ Ein Draft-Kreis-Objekt wird von einem [Part Part2DObject](Part_Part2DObject/de.m
 
 {{TitleProperty|Draft}}
 
+-    {{PropertyView/de|Pattern|Enumeration}}: Legt das [Draft-Muster](Draft_Pattern/de.md) fest, mit dem die Fläche des Kreises gefüllt wird. Diese Eigenschaft funktioniert nur, wenn die {{PropertyData/de|Make Face}} auf `True` und die {{PropertyView/de|Display Mode}} auf {{value|Flat Lines}} gesetzt ist.
 
-<div class="mw-translate-fuzzy">
-
-### Ansicht 
-
--    {{PropertyView/de|Pattern}}: definiert ein [Entwurfsmuster](Draft_Pattern/de.md), mit dem die Kreisoberfläche gefüllt wird. Diese Eigenschaft funktioniert nur, wenn {{PropertyData/de|Make Face}} auf `True` und {{PropertyView/de|Display Mode}} auf \"Flat Lines\" gesetzt ist.
-
--    {{PropertyView/de|Pattern Size}}: gibt die Größe des [Musters](Draft_Pattern/de.md) an.
-
-
-</div>
+-    {{PropertyView/de|Pattern Size|Float}}: Legt die Größe des [Draft-Musters](Draft_Pattern.md) fest.
 
 
 
@@ -152,20 +118,14 @@ circle = make_circle(radius, placement=None, face=None, startangle=None, endangl
 circle = make_circle(Part.Edge, placement=None, face=None, startangle=None, endangle=None, support=None)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
--   Erstellt ein `Circle` Objekt mit gegebenem `radius` in mm.
+-   Erstellt ein `circle`-Objekt mit gegebenem `radius` in mm.
     -   
         `radius`
         
-        kann auch eine `Part.Edge` sein, dessen `Curve` Attribut ein `Part.Circle` sein muss.
--   Falls ein `placement` angegeben ist, wird es benutzt. Anderenfalls wird die Form am Ursprung erstellt.
--   Falls `face` auf `True` gesetzt ist, wird der Kreis ausgefüllt, sonst als ein Drahtmodell gezeigt.
--   Falls `startangle` und `endangle` angegeben sind (in Grad) und unterschiedliche Werte haben, werden sie benutzt und das Objekt erscheint als [Draft Bogen](Draft_Arc/de.md).
-
-
-</div>
+        kann auch eine `Part.Edge` sein, deren Attribut `Curve` ein `Part.Circle` sein muss.
+-   Ist `placement` auf `None` gesetzt, wird der Kreis im Ursprung erstellt.
+-   Ist `face` auf `True` gesetzt, erhält der Kreis eine Fläche, d.h. er wird gefüllt erscheinen.
+-   Sind `startangle` und `endangle` angegeben (in Grad) und haben unterschiedliche Werte, werden sie verwendet und das Objekt erscheint als [Draft-Bogen](Draft_Arc/de.md).
 
 Beispiel: 
 ```python

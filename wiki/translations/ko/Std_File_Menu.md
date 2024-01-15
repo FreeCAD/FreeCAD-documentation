@@ -5,7 +5,7 @@
 
 ## 소개
 
-**표준 파일 메뉴(Std File Menu)**는 [표준 메뉴의](Standard_Menu/ko.md) 7개 하위 메뉴 중 하나입니다.
+**표준 파일 메뉴(Std File Menu)**는 [표준 메뉴](Standard_Menu/ko.md)의 7개 하위 메뉴 중 하나입니다.
 
 
 {{StdMenu

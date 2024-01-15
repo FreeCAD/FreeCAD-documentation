@@ -1,44 +1,32 @@
-# Sketcher LeaveSketch/it
 ---
- GuiCommand:   Name: Sketcher LeaveSketch   Name/it: Esci   Workbenches: Sketcher Workbench/it   Schizzo, PartDesign Workbench/it---
+ GuiCommand:
+   Name: Sketcher LeaveSketch
+   Name/it: Esci
+   MenuLocation: Schizzo , Esci
+   Workbenches: Sketcher_Workbench/it, PartDesign_Workbench/it
+   SeeAlso: Sketcher_EditSketch/it
+---
 
-
-</div>
+# Sketcher LeaveSketch/it
 
 
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Il comando **Esci dallo schizzo** esce dalla modalità di modifica dello schizzo e libera la scheda Azioni.
-
-
-</div>
+Il comando **Esci dallo schizzo** esce dalla modalità di modifica dello schizzo e libera la scheda [Azioni](Task_panel/it.md).
 
 
 
 ## Utilizzo
 
+Esistono diversi modi per richiamare questo comando:
 
-<div class="mw-translate-fuzzy">
-
-1.  Richiamare il comando in uno di questi modi:
-    -   Premere il pulsante **[<img src=images/Sketcher_LeaveSketch.svg style="width:24px"> [Esci](Sketcher_LeaveSketch/it.md)**,
-    -   Premere il pulsante **Close|Chiudi** nella parte superiore della scheda Azioni.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   Premere il pulsante **Chiudi** nella parte superiore della [scheda Azioni](Task_panel/it.md).
+-   Premere il pulsante **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Esci](Sketcher_LeaveSketch/it.md)**
+-   Selezionare l\'opzione **Schizzo → [<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> Esci** dal menu.
 
 
 
-
-
-</div>
 
 
 {{Sketcher_Tools_navi

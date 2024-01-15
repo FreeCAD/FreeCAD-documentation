@@ -14,24 +14,40 @@
 
 ## Opis
 
-Narzędzie **Wstaw wymiar rozpiętości poziomej** dodaje wymiar liniowy do widoku. Wymiar rozciąga się od najbardziej wysuniętego na lewo punktu na wybranych obiektach do najbardziej wysuniętego na prawo punktu. W każdym punkcie zostanie umieszczony wierzchołek pomocniczy.
+Narzędzie **Wstaw wymiar rozpiętości poziomej** dodaje wymiar liniowy do widoku. Wymiar rozciąga się od najbardziej wysuniętego na lewo punktu na wybranych obiektach do najbardziej wysuniętego na prawo punktu.
 
 <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent_example.png  style="width:400px;"> 
-*Poziomy wymiar rozpiętości krzywej złożonej*
+*Poziome i pionowe wymiary rozpiętości krzywej złożonej*
 
 
 
 ## Użycie
 
-1.  Wybierz widok lub zbiór krawędzi w widoku.
-2.  Naciśnij przycisk **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> '''Wstaw wymiar rozpiętości poziomej'''**.
-3.  Do widoku zostanie dodany wymiar. Można go przeciągnąć do żądanej pozycji.
+1.  Wybierz widok lub zestaw krawędzi w widoku.
+2.  Narzędzie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk **<img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> '''Wstaw wymiar rozpiętości poziomej'''**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Wymiary → <img src="images/TechDraw_HorizontalExtentDimension.svg" width=16px> Wstaw wymiar rozpiętości poziomej**.
+3.  Wymiar zostanie dodany do widoku.
+4.  Wymiar można przeciągnąć do żądanej pozycji.
+5.  W razie potrzeby dodaj tolerancje zgodnie z opisem na stronie [Wymiarowanie i tolerancja](TechDraw_Geometric_dimensioning_and_tolerancing#Tolerancja.md).
+
+
+
+### Zmiana właściwości 
+
+Aby zmienić właściwości obiektu wymiaru, kliknij dwukrotnie na niego w rysunku lub w [widoku drzewa](Tree_view/pl.md). Spowoduje to otwarcie okna [dialogowego wymiaru](TechDraw_LengthDimension/pl#Okno_dialogowe.md).
 
 
 
 ## Ograniczenia
 
 Obiekty wymiarowe są podatne na \"[problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)\". Zobacz stronę [Wstaw wymiar długości](TechDraw_LengthDimension/pl.md), aby uzyskać więcej informacji.
+
+
+
+## Uwagi
+
+Zapoznaj się również informacjami na stroni e[Wymiar długości](TechDraw_LengthDimension/pl#Uwagi.md).
 
 
 
@@ -43,7 +59,10 @@ Zapoznaj się z informacjami na stronie [Wstaw wymiar długości](TechDraw_Lengt
 
 ### Dane
 
--    **TypPomiaru**: wartością domyślną jest {{TRUE/pl}} - na podstawie geometrii 3D lub \"Rzutowanie\" - na podstawie rysunku. Zwykle nie jest manipulowany bezpośrednio przez użytkownika końcowego. Nie zaimplementowano jeszcze dla narzędzia Wstaw wymiar rozpiętości poziomej.
+
+{{Properties_Title|Podstawowe}}
+
+-    **TypPomiaru**: Nie wdrożono jeszcze dla wymiarów rozpiętości.
 
 
 

@@ -2,13 +2,13 @@
 
 Der <img alt="" src=images/Workbench_Start.svg  style="width:24px;"> [Start Arbeitsbereich](Start_Workbench/de.md) ist kein richtiger Arbeitsbereich, es ist nur die Seite, die angezeigt wird, wenn FreeCAD ohne geladenes Dokument geöffnet wird.
 
-Von dieser Oberfläche aus kannst Du nützliche Informationen einsehen und zu den zuletzt geöffneten Dateien, Beispielen, der Dokumentation und den neuesten Nachrichten aus der FreeCAD Welt springen. Du kannst das Verhalten des Start Arbeitsbereichs oder den Standard Arbeitsbereich im [Einstellungseditor](Preferences_Editor/de.md) im Menü **Bearbeiten → Einstellungen → Start** ändern.
+Von dieser Oberfläche aus können neue Dateien erstellt, mit den Quick-Start-Schaltflächen zu häufig verwendeten Arbeitsbereichen gesprungen ({{Version/de|0.22}}), nützliche Informationen eingesehen, zu den zuletzt geöffneten Dateien gesprungen, Beispiele und die Dokumentation angesehen und die neuesten Nachrichten aus der FreeCAD Welt abgerufen werden. Das Verhalten des Arbeitsbereichs Start oder der Standard-Arbeitsbereich können [Einstellungseditor](Preferences_Editor/de.md) im Menü **Bearbeiten → Einstellungen → Start** geändert werden.
 
-<img alt="Start Arbeitsbereich, Dokumenten Reiter" src=images/FreeCad_Start_0.18_documents.png  style="width:500px;">
+<img alt="Arbeitsbereich Start, Menüreiter Dokumente" src=images/Start_Documents.png  style="width:500px;">
 
-<img alt="Start Arbeitsbereich, Hilfe Reiter" src=images/FreeCad_Start_0.18_help.png  style="width:500px;">
+<img alt="Arbeitsbereich Start, Menüreiter Hilfe" src=images/Start_Help.png  style="width:500px;">
 
-<img alt="Start Arbeitsbereich, Aktivitäten Reiter" src=images/FreeCad_Start_0.18_activity.png  style="width:500px;">
+<img alt="Arbeitsbereich Start, Menüreiter Aktivität" src=images/Start_Activity.png  style="width:500px;">
 
 
 

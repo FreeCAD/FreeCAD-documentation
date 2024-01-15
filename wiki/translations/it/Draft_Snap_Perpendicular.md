@@ -1,65 +1,48 @@
 ---
  GuiCommand:
    Name: Draft Snap Perpendicular
-   Name/it: Perpendicolare
-   MenuLocation: Draft , Draft_Snap/it , Perpendicolare
+   Name/it: Draft Aggancia Perpendicolare
    Workbenches: Draft_Workbench/it, Arch_Workbench/it
-   Shortcut: 
    SeeAlso: Draft Snap/it, Draft_Snap_Lock/it
 ---
 
 # Draft Snap Perpendicular/it
 
 
-</div>
-
-
 
 ## Descrizione
 
+L\'opzione <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **Draft Aggancia Perpendicolare** esegue l\'aggancio alle proiezioni perpendicolari di un punto precedente su facce ({{Version/it|0.21}}) e bordi. Le facce e gli spigoli possono appartenere ad oggetti [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) ma anche ad oggetti creati con altri [ambienti di lavoro](Workbenches/it.md).
 
-<div class="mw-translate-fuzzy">
+Questa opzione di aggancio troverà anche punti su facce e bordi estesi.
 
-Questo metodo si aggancia a una linea o spigolo o a una sua estensione per produrre una linea perpendicolare a tale spigolo.
-
-
-</div>
-
-This snap option will also find points on extended faces and edges.
-
-![](images/Draft_Snap_Perpendicular_example.png )
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Aggancio del secondo punto di una linea a un'estensione invisibile di un'altra linea, in modo che il primo sia perpendicolare al secondo*
-
-
-</div>
+![](images/Draft_Snap_Perpendicular_example.png ) 
+*Aggancio del secondo punto di una linea al punto perpendicolare su un bordo esteso*
 
 
 
 ## Utilizzo
 
-For general information about snapping see [Draft Snap](Draft_Snap.md).
+Per informazioni generali riguardo gli agganci vedere [Draft Aggancio](Draft_Snap/it.md).
+
+1.  Assicurarsi che l\'aggancio sia abilitato. Vedere <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Blocca aggancio](Draft_Snap_Lock/it.md).
+2.  Se **Draft Aggancia Perpendicolare** non è attivo, eseguire una delle seguenti operazioni:
+    -   Premere il pulsante **<img src="images/Draft_Snap_Perpendicular.svg" width=16px>** nella barra degli strumenti di aggancio Draft.
+    -   Tenere premuto il pulsante **<img src="images/Draft_Snap_Lock.svg" width=x16px><img src="images/Toolbar_flyout_arrow.svg" width=x16px>** nel [Draft snap widget](Draft_snap_widget/it.md) e nel menu che si apre selezionare l\'opzione **<img src="images/Draft_Snap_Perpendicular.svg" width=16px> Aggancia Perpendicolare**.
+3.  Scegliere un comando [Draft](Draft_Workbench/it.md) o [Arch](Arch_Workbench/it.md) per creare la propria geometria.
+4.  Tenere presente che si può anche modificare le opzioni di aggancio mentre un comando è attivo.
+5.  Scegliere un primo punto. Questa opzione di aggancio richiede un punto precedente. Il punto perpendicolare verrà determinato in relazione a questo punto.
+6.  Spostare il cursore su una faccia o un bordo.
+7.  La faccia o il bordo vengono evidenziati.
+8.  Se viene trovato un punto perpendicolare, il punto viene contrassegnato e l\'icona <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:16px;"> viene visualizzata vicino al cursore.
+9.  Se sono presenti più punti perpendicolari: facoltativamente spostare il cursore più vicino a un altro punto perpendicolare. {{Version/it|0.21}}
+10. Fare clic per confermare il punto.
 
 
-<div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Perpendicular.svg" width=16px> [Perpendicolare](Draft_Snap_Perpendicular/it.md)** siano attivati.
-2.  Scegliere [Linea](Draft_Line/it.md) per disegnare una forma. Inserire il primo punto.
-3.  Spostare il cursore su un segmento di linea o bordo di un altro oggetto per selezionare il punto di perpendicolarità.
-4.  Il bordo si evidenzia in giallo e un piccolo cerchio bianco indica il punto sul bordo o sulla sua estensione a cui verrà collegato il punto.
-5.  Cliccare per agganciare e attaccare il nuovo punto.
+## Preferenze
 
-
-</div>
-
-## Preferences
-
-See [Draft Snap](Draft_Snap#Preferences.md).
+Vedere [Draft Aggancio](Draft_Snap/it#Preferenze.md).
 
 
 

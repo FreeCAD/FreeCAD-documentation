@@ -7,7 +7,7 @@ L\'atelier Path en est actuellement à ses débuts et n\'offre pas toutes les fo
 
 
 
-## Démarrage rapide 
+## Prise en main rapide 
 
 Les objets Path de FreeCAD sont des commandes de séquences de déplacement. Voici une utilisation typique :
 
@@ -201,9 +201,9 @@ Path [ size:2 length:2 ]
 
 
 
-## Caractéristique de Path 
+## La fonction Path 
 
-Path est un objet document de FreeCAD, qui contient un chemin et le présente en une vue 3D.
+La fonction Path est un objet document de FreeCAD, qui contient un chemin et le présente en une vue 3D.
 
 
 ```python
@@ -215,7 +215,7 @@ Path est un objet document de FreeCAD, qui contient un chemin et le présente en
 Path [ size:2 length:2 ]
 ```
 
-Path contient aussi une propriété de Placement. Changer la valeur de ce placement modifiera la position dans la vue 3D, bien que l\'information Path elle-même, ne soit pas modifiée. La transformation est purement visuelle. Cela vous permet, par exemple, de créer un Path autour d\'une face qui a une orientation particulière sur votre modèle, qui n\'aura pas la même orientation que la matière première que vous positionnerez sur votre CNC.
+La fonction Path contient aussi une propriété de Placement. Changer la valeur de ce placement modifiera la position dans la vue 3D, bien que l\'information de Path elle-même ne soit pas modifiée. La transformation est purement visuelle. Cela vous permet, par exemple, de créer un parcours autour d\'une face qui a une orientation particulière sur votre modèle, qui n\'aura pas la même orientation que la matière première que vous positionnerez sur votre CNC.
 
 Néanmoins, Path Compounds peut utiliser le Placement de ses enfants (voir ci-dessous).
 
@@ -223,7 +223,7 @@ Néanmoins, Path Compounds peut utiliser le Placement de ses enfants (voir ci-de
 
 ## Objets Tool et Tooltable 
 
-**REMARQUE :** Ce type d\'utilisation des outils est déprécié à partir de la version officielle 0.19. Dans la version 0.19, le nouveau système d\'outils ToolBit a été mis en place pour remplacer cet ancien système. Par conséquent, le codage a changé par rapport à ce qui est représenté ci-dessous. Veuillez consulter la page [Path Outils](Path_Tools/fr.md) pour plus d\'informations.
+**REMARQUE :** ce type d\'utilisation des outils est déprécié à partir de la version officielle 0.19. Dans la version 0.19, le nouveau système d\'outils ToolBit a été mis en place pour remplacer cet ancien système. Par conséquent, le codage a changé par rapport à ce qui est représenté ci-dessous. Veuillez consulter la page [Path Outils](Path_Tools/fr.md) pour plus d\'informations.
 
  ===Script \<= 0.18===
 
@@ -266,13 +266,13 @@ Tooltable containing 2 tools
 
 
 
-## Caractéristiques
+## Fonctions
 
 
 
-### Path Compound 
+### La fonction Path Compound 
 
-L\'objectif de cette fonction est d\'assembler un ou plusieurs chemins d\'outils et l\'(les) associer à une table d\'outils. La fonction Compound se comporte aussi comme un groupe standard FreeCAD dont vous pouvez y ajouter ou y enlever les objets directement depuis la vue arborescente. Vous pouvez aussi réordonner les items en double-cliquant sur l\'objet Compound de la vue arborescente et réordonner ses élements dans la vue de Taches qui s\'ouvre.
+L\'objectif de cette fonction est d\'assembler un ou plusieurs parcours d\'outils et l\'(les) associer à une table d\'outils. La fonction Compound se comporte aussi comme un groupe standard FreeCAD dont vous pouvez y ajouter ou y enlever les objets directement depuis la vue en arborescence. Vous pouvez aussi réordonner les items en double-cliquant sur l\'objet Compound de la vue en arborescence et réordonner ses élements dans la vue des tâches qui s\'ouvre.
 
 
 ```python
@@ -287,13 +287,13 @@ L\'objectif de cette fonction est d\'assembler un ou plusieurs chemins d\'outils
 >>> o3.Group=[o1,o2]
 ```
 
-Une caractéristique importante de Path Compounds est la possibilité de prendre en compte ou non le Placement des sous-chemins en cochant leur propriété UsePlacements à True ou False. Sans cela, les données Path des sous-chemins seront simplement ajoutées séquentiellement. Si c\'est positionné sur True, chaque commande des sous-chemins, s\'ils contiennent des informations de position (G0, G1, etc..), seront d\'abord transformés par Placement avant d\'être ajoutés.
+Une fonction importante de Path Compounds est la possibilité de prendre en compte ou non le Placement des parcours enfants en cochant leur propriété UsePlacements à True ou False. Sans cela, les données Path des enfants seront simplement ajoutées séquentiellement. Si True, chaque commande des parcours enfants, s\'ils contiennent des informations de position (G0, G1, etc..), seront d\'abord transformés par Placement avant d\'être ajoutés.
 
-En créant un composant avec un seul sous-chemin, vous pouvez donc de rendre le Placement du sous-chemin « réel » (il affecte les données Path).
+En créant un composant avec un seul parcours enfant, vous pouvez donc de rendre le Placement du parcours enfant \"réel\" (il affecte les données Path).
 
 
 
-### Path Project 
+### La fonction Path Project 
 
 Le projet Path est une sorte d\'extension de Compound, qui possède quelques propriétés liées à la machine telle que tooltable. Il a principalement été créé pour être le type d\'objet à exporter en G-code une fois que la totalité de l\'initialisation du chemin est prête. L\'objet Project est maintenant codé en Python, d\'où un mécanisme de création un peu différent :
 
@@ -317,9 +317,9 @@ Le module Path propose aussi un éditeur graphique de la table d\'outils qui peu
 
 
 
-### Path Shape 
+### La fonction Path Shape 
 
-Attribuez la forme wire Part à un objet Path normal à l\'aide de le script Path.fronShape() (ou mieux encore avec Path.fronShapes()). En donnant comme paramètre un objet wire Part, son chemin sera automatiquement calculé à partir de la forme. Notez que dans ce cas, le placement est positionné automatiquement sur le premier point du fil et l\'objet n\'est donc plus déplaçable en changeant sa position. Pour le déplacer, la forme sous-jacente doit être bougée.
+Attribuez la forme de la polyligne à un objet Path normal, en utilisant la fonction de script Path.fromShape() (ou la fonction plus puissante Path.fromShapes()). En donnant en paramètre un objet polyligne de Part, son parcours sera automatiquement calculée à partir de la forme. Notez que dans ce cas, le placement est automatiquement fixé au premier point de la polyligne et l\'objet n\'est donc plus déplaçable en changeant son placement. Pour le déplacer, il faut déplacer la forme sous-jacente elle-même.
 
 
 ```python
@@ -339,9 +339,9 @@ Attribuez la forme wire Part à un objet Path normal à l\'aide de le script Pat
 
 
 
-### Python
+### Les fonctions Python 
 
-Les fonctions Path::Feature et Path::FeatureShape ont toutes deux une version Python, respectivement nommée Path::FeaturePython et Path::FeatureShapePython, qui peut être utilisée dans le code Python pour créer des objets paramétriques plus avancés dérivés de ces fonctions.
+Les fonctions Path::Feature et Path::FeatureShape ont toutes deux une version Python, respectivement nommée Path::FeaturePython et Path::FeatureShapePython, qui peuvent être utilisées dans le code Python pour créer des objets paramétriques plus avancés dérivés de ces fonctions.
 
 
 
@@ -349,11 +349,11 @@ Les fonctions Path::Feature et Path::FeatureShape ont toutes deux une version Py
 
 
 
-### Format Natif 
+### Format natif 
 
 Les fichiers G-code peuvent être importés et exportés directement via l\'interface graphique, en utilisant les éléments de menu \"ouvrir\", \"insérer\" ou \"exporter\". Après avoir saisi le nom du fichier, une boîte de dialogue apparaît pour demander quel script de traitement doit être utilisé. Il est également possible de le faire à partir de Python :
 
-Les informations sur les chemins sont stockées dans les objets Path en utilisant un sous-ensemble de G-code décrit dans la section \"Format interne de G-code de FreeCAD\" ci-dessus. Ce sous-ensemble peut être importé ou exporté \"tel quel\", ou converti en/à partir d\'une version particulière de G-code adaptée à votre machine.
+Les informations sur les parcours sont stockées dans des objets Path en utilisant un sous-ensemble de G-code décrit dans la section \"Format interne de G-code de FreeCAD\" ci-dessus. Ce sous-ensemble peut être importé ou exporté \"tel quel\", ou converti en/à partir d\'une version particulière de G-code adaptée à votre machine.
 
 Si vous avez un programme en G-code très simple et standard, qui respecte les règles décrites dans la section \"Format interne du G-code de FreeCAD\" ci-dessus, par exemple le boomerang de [cnccookbook](https://www.cnccookbook.com/g-code-examples-files/), il peut être importé directement dans un objet Path, sans traduction (cela équivaut à utiliser l\'option \"Aucun\" de la boîte de dialogue GUI) :
 
@@ -408,7 +408,7 @@ example_post.export (myObjectName,"/path/to/outputFile.ncc")
 
 Les scripts de pré- et post-traitement se comportent comme d\'autres importateurs/exportateurs habituels de FreeCAD. Lors du choix d\'un script de pré/post traitement depuis l\'invite, le processus d\'import/export sera redirigé vers le script spécifique donné. Les scripts de pré-traitement doivent contenir au moins des méthodes open(filename) et insert(filename,docname). Les scripts de post-traitement doivent implémenter export(objectslist,filename).
 
-Les scripts sont placés soit dans le dossier Mod/Path/PathScripts, soit dans le répertoire du chemin de la macro de l\'utilisateur. Vous pouvez leur donner le nom que vous voulez, mais par convention, et pour être pris en compte par le dialogue de l\'interface graphique, les noms des scripts de prétraitement doivent se terminer par \"\_pre\", ceux des scripts de post-traitement par \"\_post\" (assurez-vous d\'utiliser le trait de soulignement, et non le trait d\'union, sinon Python ne pourra pas l\'importer). Ceci est un exemple de préprocesseur très, très simple. Des exemples plus complexes se trouvent dans le dossier Mod/Path/PathScripts :
+Les scripts sont placés soit dans le dossier Mod/Path/Path/Post/scripts soit dans le répertoire du chemin de la macro de l\'utilisateur. Vous pouvez leur donner le nom que vous voulez, mais par convention, et pour être pris en compte par le dialogue de l\'interface graphique, les noms des scripts de prétraitement doivent se terminer par \"\_pre\", ceux des scripts de post-traitement par \"\_post\" (assurez-vous d\'utiliser le trait de soulignement, et non le trait d\'union, sinon Python ne pourra pas l\'importer). Ceci est un exemple de préprocesseur très, très simple. Des exemples plus complexes se trouvent dans le dossier Mod/Path/Path/Post/scripts :
 
 
 ```python
@@ -440,7 +440,7 @@ Les pré et post-processeurs fonctionnent exactement de la même manière. Ils f
 
 
 
-## Ajout de toutes les faces d\'une ShapeString à la liste de BaseFeature d\'une opération ProfileFromFaces 
+## Ajouter toutes les faces d\'une ShapeString à la liste de BaseFeature d\'une opération ProfileFromFaces 
 
 Cet exemple est basé sur une [discussion sur le forum germanophone](https://forum.freecadweb.org/viewtopic.php?f=13&t=33310&p=279991#p279959).
 
@@ -449,7 +449,7 @@ Cet exemple est basé sur une [discussion sur le forum germanophone](https://for
 ### Prérequis
 
 -   Créer un solide avec ShapeString comme Cutout
--   Créer un travail en utilisant ce solide comme son BaseObject
+-   Créer une tâche en utilisant ce solide comme son BaseObject
 -   Créez une opération ProfileFromFaces nommée \"Profile_Faces\" avec une BaseGeometry vide.
 
 

@@ -1,5 +1,5 @@
 # Manual:Creating interface tools/ro
-{{Manual:TOC/ro}}
+{{Manual:TOC}}
 
 În ultimele două capitole, am văzut cum să [create Part geometry](Manual_Creating_and_manipulating_geometry.md) și [create parametric objects](Manual_Creating_parametric_objects.md). O ultimă piesă lipsește pentru a obține un control deplin peste FreeCAD: Creați instrumente care vor interacționa cu utilizatorul.
 

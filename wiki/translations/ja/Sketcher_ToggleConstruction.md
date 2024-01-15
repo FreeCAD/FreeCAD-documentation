@@ -36,7 +36,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**注意：** v0.13からコンストラクションラインを[PartDesign Revolve機能の回転軸として使用できるようになりました](PartDesign_Revolve/ja.md)。
+**注意：** v0.13からコンストラクションラインを[PartDesign Revolve](PartDesign_Revolve/ja.md)機能の回転軸として使用できるようになりました。
 
 
 </div>

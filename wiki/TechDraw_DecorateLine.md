@@ -11,7 +11,7 @@
 
 ## Description
 
-The **TechDraw DecorateLine** tool changes the appearance of edges. It can also make edges invisible.
+The **TechDraw DecorateLine** tool changes the appearance of edges, including cosmetic lines and centerlines. It can also make edges invisible.
 
  <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">  
 *Sample edges before decoration*

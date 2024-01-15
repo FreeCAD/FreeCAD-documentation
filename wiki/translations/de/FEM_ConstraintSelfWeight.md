@@ -2,23 +2,29 @@
  GuiCommand:
    Name: FEM ConstraintSelfWeight
    Name/de: FEM RandbedingungEigengewicht
-   MenuLocation: Modell , Mechanische Randbedingungen , Randbedingung Eigengewicht
+   MenuLocation: Modell , Mechanische Randbedingungen und Lasten , Schwerkraft-Last
    Workbenches: FEM_Workbench/de
    SeeAlso: FEM_tutorial/de
 ---
 
 # FEM ConstraintSelfWeight/de
 
+
+
 ## Beschreibung
 
-Die Randbedingung Eigengewicht legt fest, dass die Erdbeschleunigung von 9,81 m/s\^2 auf das gesamte Modell in der voreingestellten Richtung wirkt.
+RandbedingungEigengewicht legt fest, dass die Erdbeschleunigung mit 9,81 m/s\^2 in der voreingestellten Richtung auf das gesamte Modell wirkt.
+
+
 
 ## Anwendung
 
 1.  Es gibt mehrere Möglichkeiten den Befehl aufzurufen:
-    -   Die Schaltfläche **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Randbedingung Eigengewicht](FEM_ConstraintSelfWeight.md)** drücken.
-    -   Den Menüeintrag **Modell → Mechanische Randbedingungen → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Randbedingung Eigengewicht** auswählen.
+    -   Die Schaltfläche **<img src="images/FEM_ConstraintSelfWeight.svg" width=16px> [Schwerkraft-Last](FEM_ConstraintSelfWeight/de.md)** drücken.
+    -   Den Menüeintrag **Modell → Mechanische Randbedingungen und Lasten → <img src="images/FEM_ConstraintSelfWeight.svg" width=16px> Schwerkraft-Last** auswählen.
 2.  Die Richtung der Erdanziehungskraft kann durch Ändern der Vektorkoordinaten im Eigenschafteneditor des neu erstellten ConstraintSelfWeight-Objekts angepasst werden.
+
+
 
 ## Skripten
 
@@ -48,14 +54,18 @@ App.ActiveDocument.Analysis.Member = App.ActiveDocument.Analysis.Member + [selfw
 
 ## Solver CalculiX 
 
-### Limitations
+
+
+### Einschränkungen
 
 -   Zum Ändern der Erdbeschleunigung muss die .inp-Datei bearbeitet werden.
--   Self weight is applied to the element set Eall means to the whole model.
+-   Eigengewicht wird auf die Menge der Elemente Eall angewendet, die das gesamte Modell enthält.
+
+
 
 ### Die CalculiX-input-Datei bearbeiten 
 
-Die Beschleunigungskonstante kann nach Erstellung der CalculiX-input-Datei von Hand geändert werden.
+Die Beschleunigungskonstante kann nach Erstellung der CalculiX-input-Datei manuell geändert werden.
 
 Beispielzeilen in der .inp-Datei:
 
@@ -65,11 +75,11 @@ Beispielzeilen in der .inp-Datei:
 Eall,GRAV,9810,0.0,0.0,-1.0
 ```
 
-wobei 9810 der Wert der Erdbeschleunigung in \[mm/s\^2\] ist und 0,0,-1 den Richtungsvektor beschreibt.
+wobei 9810 der Wert der Erdbeschleunigung in \[mm/s\^2\] ist und 0,0,-1 den Richtungsvektor beschreibt. Der Wert kann als Vielfaches der (standardisierten) Erdbeschleunigung eingegeben werden um eine Belastung von z.B. 4g zu simulieren.
 
 ## Solver Z88 
 
--   not implemented in Z88 solver (March 2017)
+-   Currently, not implemented in the Z88 solver.
 
 
 

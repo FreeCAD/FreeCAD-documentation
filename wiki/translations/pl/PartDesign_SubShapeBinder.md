@@ -77,7 +77,7 @@ Z prawej strony dwie bryły Łącznika kształtów podrzędnych odwołujące si�
 
 
 
-## Łącznik kształtu obiektu podrzędnego kontra łącznik kształtu 
+## Łącznik kształtów podrzędnych kontra łącznik kształtu 
 
 Narzędzie Łącznik kształtów podrzędnych środowiska pracy Projekt Części i narzędzie [Łącznik kształtu](PartDesign_ShapeBinder/pl.md) są dość podobne. Ich nazwy są nieco mylące, ponieważ oba mogą odwoływać się do całych obiektów i elementów podrzędnych.
 
@@ -88,6 +88,8 @@ Główne różnice to:
 -   Tylko obiekty Łącznik kształtów podrzędnych środowiska pracy Projekt Części mogą odwoływać się do geometrii z pliku zewnętrznego.
 -   Łącznik kształtów podrzędnych środowiska pracy Projekt Części zawsze śledzi względne umiejscowienie geometrii, do której się odwołuje. Dla Łącznika kształtu to zachowanie jest opcjonalne poprzez jego właściwość **Śledź podparcie**.
 -   Tylko narzędzie Łącznik kształtów podrzędnych obsługuje odsunięcie 2D.
+
+Pamiętając, że każde z tych narzędzi ma swoje wady i zalety, a wybór może zależeć od przypadku użycia, można stwierdzić, że użycie Łącznika kształtów podrzędnych jest obecnie zalecane dla większości zastosowań ze względu na jego wszechstronność i zakres opcji. Więcej informacji na temat tych narzędzi można znaleźć w filmie MangoJelly \[<https://www.youtube.com/watch?v=ylAMGQ8HV0w>\| FreeCAD dla początkujących 34: Projekt Części, Łącznik kształtów kontra Łącznik kształtów podrzędnych\].
 
 
 

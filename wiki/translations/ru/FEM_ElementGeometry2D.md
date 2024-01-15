@@ -13,6 +13,8 @@
 
 </div>
 
+
+
 ## Описание
 
 
@@ -23,17 +25,29 @@ ElementGeometry2D используется для определения тол�
 
 </div>
 
+
+
 ## Применение
 
 1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [FEM ElementGeometry2D](FEM_ElementGeometry2D.md)** button.
+    -   Press the **<img src="images/FEM_ElementGeometry2D.svg" width=16px> [Shell plate thickness](FEM_ElementGeometry2D.md)** button.
     -   Select the **Model → Element Geometry → <img src="images/FEM_ElementGeometry2D.svg" width=16px> Shell plate thickness** option from the menu.
-2.  Define a thickness parameter.
+2.  Specify the shell thickness.
 3.  Optionally press the **Add** button in the task panel and then click on the face you want to have a prescribed thickness. If the face selection is empty, all remaining faces (whose thickness is not defined by other [FEM ElementGeometry2D](FEM_ElementGeometry2D.md) objects) will be automatically assigned.
+
+
 
 ## Ограничения
 
+
+<div class="mw-translate-fuzzy">
+
 -   Анализ, объединяющий элементы оболочки с твердотельными или краевыми элементами, не поддерживается в текущей версии (FreeCAD 0.18).
+
+
+</div>
+
+
 
 ## Свойства
 
@@ -42,7 +56,11 @@ ElementGeometry2D используется для определения тол�
 
 : specifies the thickness of the shell.
 
+
+
 ## Программирование
+
+
 
 ## Примечания
 

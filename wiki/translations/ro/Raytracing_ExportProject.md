@@ -57,4 +57,4 @@ Exportă proiectul raytracing selectat într-un fișier.
 
 
 ---
-⏵ [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing ExportProject/ro
+⏵ [documentation index](../README.md) > Raytracing ExportProject/ro

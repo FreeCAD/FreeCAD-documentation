@@ -13,6 +13,8 @@ Es wurde entwickelt, um Objekte in der [Baumansicht](tree_view/de.md) für den A
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die`App::DocumentObjectGroup* Klasse hat eine Erweiterung zur Gruppierung jedes Objekttyps. Die Gruppe selbst hat wenig Eigenschaften.`
 
+
+
 ## Anwendung
 
 1.  Die Schaltfläche **[<img src=images/Std_Group.svg style="width:16px"> [Standard Gruppe](Std_Group/de.md)** betätigen. Eine leere Gruppe wird erzeugt.
@@ -21,11 +23,13 @@ Es wurde entwickelt, um Objekte in der [Baumansicht](tree_view/de.md) für den A
 
 Siehe [Standard Gruppe](Std_Group/de.md) zu vollständigen Informationen, einschließlich der Verwendung in [Skripten](Std_Group/de#Skripten.md).
 
+
+
 ## Eigenschaften
 
 Eine [Anwendung DokumentObjektGruppe](App_DocumentObjectGroup/de.md) (`App::DocumentObjectGroup` Klasse) stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
-Siehe die Eigenschaften auf der [Standard Gruppe](Std_Group/de.md) Seite.
+Siehe die Eigenschaften auf der Seite [Std Gruppe](Std_Group/de.md).
 
 
 {{Std Base navi

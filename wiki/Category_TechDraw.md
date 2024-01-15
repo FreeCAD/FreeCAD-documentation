@@ -12,10 +12,11 @@ This category lists pages related to the [TechDraw Workbench](TechDraw_Workbench
 | [TechDraw 3PtAngleDimension](TechDraw_3PtAngleDimension.md) | [TechDraw ActiveView](TechDraw_ActiveView.md) | [TechDraw AngleDimension](TechDraw_AngleDimension.md) |
 | [TechDraw Annotation](TechDraw_Annotation.md) | [TechDraw API](TechDraw_API.md) | [TechDraw ArchView](TechDraw_ArchView.md) |
 | [TechDraw AxoLengthDimension](TechDraw_AxoLengthDimension.md) | [TechDraw Balloon](TechDraw_Balloon.md) | [TechDraw ClipGroup](TechDraw_ClipGroup.md) |
-| [TechDraw ClipGroupAdd](TechDraw_ClipGroupAdd.md) | [TechDraw ClipGroupRemove](TechDraw_ClipGroupRemove.md) | [TechDraw ComplexSection](TechDraw_ComplexSection.md) |
-| [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md) | [TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md) | [TechDraw DecorateLine](TechDraw_DecorateLine.md) |
-| [TechDraw DetailView](TechDraw_DetailView.md) | [TechDraw DiameterDimension](TechDraw_DiameterDimension.md) | [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) |
-| [TechDraw DraftView](TechDraw_DraftView.md) | [TechDraw ExportPageDXF](TechDraw_ExportPageDXF.md) | [TechDraw ExportPageSVG](TechDraw_ExportPageSVG.md) |
+| [TechDraw ClipGroupAdd](TechDraw_ClipGroupAdd.md) | [TechDraw ClipGroupRemove](TechDraw_ClipGroupRemove.md) | [TechDraw CommandAddOffsetVertex](TechDraw_CommandAddOffsetVertex.md) |
+| [TechDraw ComplexSection](TechDraw_ComplexSection.md) | [TechDraw CosmeticCircle](TechDraw_CosmeticCircle.md) | [TechDraw CosmeticEraser](TechDraw_CosmeticEraser.md) |
+| [TechDraw CosmeticVertex](TechDraw_CosmeticVertex.md) | [TechDraw DecorateLine](TechDraw_DecorateLine.md) | [TechDraw DetailView](TechDraw_DetailView.md) |
+| [TechDraw DiameterDimension](TechDraw_DiameterDimension.md) | [TechDraw DimensionRepair](TechDraw_DimensionRepair.md) | [TechDraw DraftView](TechDraw_DraftView.md) |
+| [TechDraw ExportPageDXF](TechDraw_ExportPageDXF.md) | [TechDraw ExportPageSVG](TechDraw_ExportPageSVG.md) | [TechDraw ExtensionArcLengthAnnotation](TechDraw_ExtensionArcLengthAnnotation.md) |
 | [TechDraw ExtensionAreaAnnotation](TechDraw_ExtensionAreaAnnotation.md) | [TechDraw ExtensionCascadeHorizDimension](TechDraw_ExtensionCascadeHorizDimension.md) | [TechDraw ExtensionCascadeObliqueDimension](TechDraw_ExtensionCascadeObliqueDimension.md) |
 | [TechDraw ExtensionCascadeVertDimension](TechDraw_ExtensionCascadeVertDimension.md) | [TechDraw ExtensionChangeLineAttributes](TechDraw_ExtensionChangeLineAttributes.md) | [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md) |
 | [TechDraw ExtensionCreateHorizChainDimension](TechDraw_ExtensionCreateHorizChainDimension.md) | [TechDraw ExtensionCreateHorizChamferDimension](TechDraw_ExtensionCreateHorizChamferDimension.md) | [TechDraw ExtensionCreateHorizCoordDimension](TechDraw_ExtensionCreateHorizCoordDimension.md) |

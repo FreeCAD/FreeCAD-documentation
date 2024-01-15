@@ -20,7 +20,7 @@ Das Basisobjekt kann ein 2D-Objekt sein, das mit den Arbeitsbereichen [Draft](Dr
 
 Das Punktobjekt kann ein beliebiges Objekt mit einer Form und Knotenpunkten sein (einschließlich einem [Std Part](Std_Part/de.md), das ein oder mehrere solcher Objekte enthält), ein [Netz-Objekt](Mesh_Workbench/de.md) oder eine [Punktewolke](Points_Workbench/de.md). Doppelte Punkte im Punktobjekt werden herausgefiltert. {{Version/de|0.21}}
 
-In {{VersionMinus|0.20}} only three point object types are supported see [Point object version 0.20 and below](#Point_object_version_0.20_and_below.md).
+In {{VersionMinus/de|0.20}} wird nur der Typ Drei-Punkt-Objekt unterstützt, siehe [Punkt-Objekt-Version 0.20 und älter](#Punkt-Objekt-Version_0.20_und_älter/de.md).
 
 <img alt="" src=images/Draft_PointArray_Example.png  style="width:400px;"> 
 *Draft PunktAnordnung*
@@ -29,15 +29,17 @@ In {{VersionMinus|0.20}} only three point object types are supported see [Point 
 
 ## Anwendung
 
-1.  Wähle das Objekt aus, das du anordnen möchtest.
-2.  Füge das [Punkt Verbund](#Punkt_Verbund.md) Objekt zur Auswahl hinzu.
+1.  Das Objekt auswählen, das angeordnet werden soll.
+2.  Das Punkt-Objekt zur Auswahl hinzufügen.
 3.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-    -   Drücke die **<img src="images/Draft_PointArray.svg" width=16px> [Entwurf PunktAnordnung](Draft_PointArray/de.md)** Schaltfläche.
-    -   Wähle den **Änderung → Werkzeuge Anordnung → <img src="images/Draft_PointArray.svg" width=16px> Punktanordnung** aus dem Menü.
-4.  Die Anordnung wird erzeugt.
-5.  Ändere optional die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschaftseditor](Property_editor/de.md).
+    -   Die Schaltfläche **<img src="images/Draft_PointArray.svg" width=16px> [Punkt-Anordnung](Draft_PointArray/de.md)** drücken.
+    -   Den Menüeintrag **Änderung → Anordnungswerkzeuge → <img src="images/Draft_PointArray.svg" width=16px> Punkt-Anordnung** auswählen.
+4.  Die Anordnung wird erstellt.
+5.  Wahlweise die [Eigenschaften](#Eigenschaften.md) der Anordnung im [Eigenschafteneditor](Property_editor/de.md) anpassen.
 
-## Point object version 0.20 and below 
+
+
+## Punkt-Objekt - Version 0.20 und älter 
 
 Dies sind die unterstützten Punktobjekte in {{VersionMinus/de|0.20}} und wie sie erstellt werden können:
 
@@ -51,13 +53,7 @@ Dies sind die unterstützten Punktobjekte in {{VersionMinus/de|0.20}} und wie si
 
 Siehe auch: [Eigenschafteneditor](property_editor/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Formelement](Part_Feature/de.md) (Klasse `Part::Feature`) abgeleitet, daher teilt es alle Eigenschaften von letzterem. Zusätzlich zu den im [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften besitzt die PunktAnordnung im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften.
-
-
-</div>
+Eine Punkt-Anordnung (PointArray-Objekt) ist von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften (mit Ausnahme einiger Ansicht-Eigenschaften, die nicht an die Verknüpfungsanordnungen vererbt werden). Außerdem sind, wenn nicht anders angegeben, die folgenden zusätzlichen Eigenschaften vorhanden:
 
 
 
@@ -66,36 +62,36 @@ Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Fo
 
 {{TitleProperty|Link}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe stehen nur für Verknüpfungsanordnungen zur Verfügung. Siehe [Std VerknüpfungErstellen](Std_LinkMake/de#Eigenschaften.md) für weitere Informationen.
 
--    **Scale|Float**
+-    {{PropertyData/de|Scale|Float}}
     
 
--    **Scale Vector|Vector|Hidden**
+-    {{PropertyData/de|Scale Vector|Vector|Hidden}}
     
 
--    **Scale List|VectorList**
+-    {{PropertyData/de|Scale List|VectorList}}
     
 
--    **Visibility List|BoolList|Hidden**
+-    {{PropertyData/de|Visibility List|BoolList|Hidden}}
     
 
--    **Placement List|PlacementList|Hidden**
+-    {{PropertyData/de|Placement List|PlacementList|Hidden}}
     
 
--    **Element List|LinkList|Hidden**
+-    {{PropertyData/de|Element List|LinkList|Hidden}}
     
 
--    **_ Link Touched|Bool|Hidden**
+-    {{PropertyData/de|_ Link Touched|Bool|Hidden}}
     
 
--    **_ Child Cache|LinkList|Hidden**
+-    {{PropertyData/de|_ Child Cache|LinkList|Hidden}}
     
 
--    **Colored Elements|LinkSubHidden|Hidden**
+-    {{PropertyData/de|Colored Elements|LinkSubHidden|Hidden}}
     
 
--    **Link Transform|Bool**
+-    {{PropertyData/de|Link Transform|Bool}}
     
 
 
@@ -181,7 +177,7 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Object style}}
 
-The properties in this group are not inherited by Link arrays.
+Die Eigenschaften dieser Gruppe werden nicht an Verknüpfungsanordnungen vererbt.
 
 
 

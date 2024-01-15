@@ -24,12 +24,18 @@
 
 FreeCAD это программа параметрического трёхмерного моделирования. Параметрическое моделирование позволяет легко модифицировать Ваш проект изменением параметров назад по истории создания модели. FreeCAD это программа с открытыми исходными кодами (лицензия LGPL) и весьма модульная, позволяющая очень продвинутые расширения и настройки, особенно благодаря интенсивному использованию языка Python.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Веб-сайт FreeCAD: <http://www.freecadweb.org/>
 -   Wiki-документация FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Main_Page/ru>
 -   Верстаки FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Workbench_Concept/ru>
 -   Форум FreeCAD: <http://forum.freecadweb.org/>
 -   Приступая к работе с FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Getting_started/ru>
 -   Архитектурный учебник FreeCAD: <http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial/ru>
+
+
+</div>
 
 
 
@@ -72,7 +78,7 @@ FreeCAD это очень технически ориентированное п
 
 -   Although FreeCAD can import and work with mesh objects (Mesh workbench), it is primarily designed to work with a more advanced object type called brep, that is used by most of its workbenches (Part, PartDesign, Draft, Sketcher, Arch). When importing mesh-based files (.dae, .orb, .stl\...) you will usually need to convert these objects to brep before being able to do something interesting with them. Solid-based file formats however (.step, .iges), when imported into FreeCAD, directly produce brep objects. 2D formats (.dxf, .svg) also produce brep contents.
 
--   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <http://www.freecadweb.org/wiki/index.php?title=Mouse_Model>. The best suited modes for CAD work are CAD or Gestures.
+-   FreeCAD has different ways, or modes, to use the mouse buttons. These modes can be set in the preferences or changes on-the-fly by right-clicking on the 3D view background. They are described on <https://wiki.freecad.org/Mouse_navigation>. The best suited modes for CAD work are CAD or Gestures.
 
 
 

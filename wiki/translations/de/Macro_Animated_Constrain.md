@@ -26,7 +26,7 @@ Einfaches Makro zum Animieren von Randbedingungen zum Festlegen von Winkeln im S
 
 Das Makro findest du im folgenden Github Repositorium:[Macro_Animated_Constrain.FCMacro](https://github.com/psicofil/Macros_FreeCAD/blob/master/Macros/AnimatedConstrain.FCMacro)
 
-ToolBar Icon ![](images/Macro_Animated_Constrain.png )
+Werkzeugleistensymbol ![](images/Macro_Animated_Constrain.png )
 
 **AnimatedConstrain.FCMacro**
 
@@ -145,9 +145,9 @@ except:
 
 }}
 
-## Link
+## Verknüpfung
 
-The page discussion [Macro Animated Constrain](http://forum.freecadweb.org/viewtopic.php?f=22&t=11017)
+Diskussion im Forum: [Macro Animated Constrain](http://forum.freecadweb.org/viewtopic.php?f=22&t=11017)
 
 [Siehe die Animation auf YouTube.](https://www.youtube.com/watch?v=kmqDcomLnk0)
 

@@ -29,9 +29,9 @@
 
 ## 환경 설정 
 
--    **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc**를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기에서도](Preferences_Editor/ko#문서.md) 변경할 수 있습니다.
+-    **Tools → Edit parameters... → BaseApp → Preferences → Document → CreateNewDoc**를 `True`로 설정한 경우 FreeCAD를 시작할 때 새 문서가 생성됩니다. 이 설정은 [환경설정 편집기](Preferences_Editor/ko#문서.md)에서도 변경할 수 있습니다.
 
--   작성자 이름, 회사 이름, 라이센스 정보와 같은 일부 문서 속성은 [환경설정 편집기에서](Preferences_Editor/ko#문서.md) 미리 설정할 수 있습니다.
+-   작성자 이름, 회사 이름, 라이센스 정보와 같은 일부 문서 속성은 [환경설정 편집기](Preferences_Editor/ko#문서.md)에서 미리 설정할 수 있습니다.
 
 ## 속성
 
@@ -49,7 +49,7 @@
 
 -    **Id**: 미구현.
 
--    **Label**: [트리 보기에](Tree_view/ko.md) 표시될 이름. 기본적으로는 문서 이름.
+-    **Label**: [트리 보기](Tree_view/ko.md)에 표시될 이름. 기본적으로는 문서 이름.
 
 -    **Last Modified By**: 최종 수정자 이름. **미리 설정 가능**.
 
@@ -59,7 +59,7 @@
 
 -    **License URL**: 라이센스 URL. **미리 설정 가능**.
 
--    **Show Hidden**: {{true}}면 [트리 보기에서](Tree_view/ko.md) 숨긴 항목도 표시됨. 트리에서 항목을 숨기는 기능은 큰 모델 작업을 할 때 유용합니다.
+-    **Show Hidden**: {{true}}면 [트리 보기](Tree_view/ko.md)에서 숨긴 항목도 표시됨. 트리에서 항목을 숨기는 기능은 큰 모델 작업을 할 때 유용합니다.
 
 -    **Tip**: 미구현.
 

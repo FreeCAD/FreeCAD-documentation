@@ -1,29 +1,34 @@
 ---
  GuiCommand:
    Name: Arch Rebar Drawing Dimensioning
+   Name/de: Arch Armierung ZeichnungBemaßen
    MenuLocation: 
-   Workbenches: Arch_Workbench, BIM_Workbench
+   Workbenches: Arch_Workbench/de, BIM_Workbench/de
    Version: 0.19
-   SeeAlso: Reinforcement_Workbench, Arch_Rebar_BOM, Reinforcement_Bar_Shape_Cut_List
+   SeeAlso: Reinforcement_Workbench/de, Arch_Rebar_BOM/de, Reinforcement_Bar_Shape_Cut_List/de
 ---
 
 # Arch Rebar Drawing Dimensioning/de
 
+
+
 ## Beschreibung
 
-The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool allows the user to create drawing and dimensioning of reinforcing bars.
+Das Werkzeug [Armierung ZeichnungBemaßen](Arch_Rebar_Drawing_Dimensioning/de.md) ermöglicht dem Anwender Zeichnungen mit Bemaßung von Bewehrungen zu erstellen.
 
-This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
+Dieser Befehl ist Teil des Arbeitsbereichs [Reinforcement](Reinforcement_Workbench/de.md), ein [externer Arbeitsbereich](External_workbenches/de.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
 
 
-*Drawing and dimensioning of reinforcing bars*
+*Zeichnung von Bewehrungen, mit Bemaßung*
+
+
 
 ## Anwendung
 
-1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Workbench](Reinforcement_Workbench.md).
+1\. Ein FreeCAD-Modell öffnen, dass Bewehrungen enthält, die mit dem [Addon Reinforcement](Reinforcement_Addon/de.md) erstellt wurden.
 
 2\. Select **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object and then click on **<img src="images/Arch_Rebar_Drawing_Dimensioning.svg" width=16px> [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)**.
 
@@ -58,6 +63,8 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 12\. Enter details of dimension and dimension line offsets.
 
 13\. Click **Finish** button to generate drawings.
+
+
 
 ## Skripten
 
@@ -363,6 +370,8 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 # <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Reinforcement Drawing 
 
+
+
 ## Anwendung 
 
 1\. Open FreeCAD Model containing reinforcement bars created using [Reinforcement Addon](Reinforcement_Addon.md).
@@ -380,6 +389,8 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 ## ReinforcementDrawingView Object 
 
 A Rebars Drawing SVG View object.
+
+
 
 ### Eigenschaften
 
@@ -430,6 +441,8 @@ A Rebars Drawing SVG View object.
 -    **DimensionTopOffset**: The top offset for each new ReinforcementDimensioning object.
 
 -    **DimensionBottomOffset**: The bottom offset for each new ReinforcementDimensioning object.
+
+
 
 ## Skripten 
 
@@ -521,6 +534,8 @@ reinforcement_drawing_page = makeReinforcementDrawing(
 
 
 <div class="mw-collapsible toccolours mw-collapsed">
+
+
 
 ##### Beispiel
 
@@ -772,6 +787,8 @@ for view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 A Rebar Dimensioning SVG View object.
 
+
+
 ### Eigenschaften 
 
 -    **ParentDrawingView**: The parent ReinforcementDrawingView object containing the drawing of [Rebar](Arch_Rebar.md) object.
@@ -833,6 +850,8 @@ A Rebar Dimensioning SVG View object.
 -    **SingleRebar_TextPositionType**: It specifies the dimension label position type, in case of single rebar is visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
 
 -    **MultiRebar_TextPositionType**: It specifies the dimension label position type, in case of multiple rebars are visible. It can be \"StartOfLine\", \"MidOfLine\" or \"EndOfLine\". It is used only when **WayPointsType** is set to \"Automatic\".
+
+
 
 ## Skripten 
 
@@ -936,6 +955,8 @@ dimension_object = makeReinforcementDimensioningObject(
 
 
 <div class="mw-collapsible toccolours mw-collapsed">
+
+
 
 ##### Beispiel 
 

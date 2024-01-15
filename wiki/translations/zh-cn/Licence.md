@@ -15,21 +15,49 @@ FreeCAD有两种不同的许可, 一个用于应用程序本身, 另一个用于
 
 FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, 请参阅FreeCAD的[debian版权文件](https://github.com/FreeCAD/FreeCAD/blob/master/package/debian/copyright)。
 
+
+
 ## 许可证的影响
 
 下面，用更友好更容易懂的话，解释LGPL对你意味着什么：
+
+#### All users 
+
+
+<div class="mw-translate-fuzzy">
 
 #### 所有用户
 
 任何人都可以下载它，使用它，重新分发它，完全免费，没有任何限制。你的那一份FreeCAD真的是你的，就像你用FreeCAD生产的文件一样。你不会隔一阵就被要求更新FreeCAD，也不用改变你对FreeCAD的用法。使用FreeCAD没有绑定，不会把你绑定在任何形式的合同或义务上。FreeCAD的源代码公开，可供检查，这就可以保证它不会发走你的私人数据，保证它不做此类你并不知情的事情。
 
+
+</div>
+
+#### Professional users 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 专业用户
 
 自由使用FreeCAD吧，不管是私人、商业还是机构，FreeCAD可以用于任何目的。任何版本的FreeCAD，都可以在任何地方，无限次地部署和安装。你也可以修改和调整FreeCAD，来满足你自己的目的，没有任何限制。然而，你却不能让FreeCAD的开发者受到非难。使用FreeCAD过程中，可能造成损害或业务损失。开发者并不对此承担责任。
 
+
+</div>
+
+#### Open-source software developers 
+
+
+<div class="mw-translate-fuzzy">
+
 #### 开源软件开发者
 
 你可以把FreeCAD作为基础，开发你自己的应用，或者你可以简单地扩展它，为它创建新的模块。如果你将FreeCAD嵌入到你自己的应用里，你可以选择GPL或LGPL许可，或者与LGPL兼容的其他许可，使你的工作归为所有权软件，或者不归。如果你开发了一个模块，将用作FreeCAD的一个扩展，单丝它里面并不包含FreeCAD的任何代码，那么你就能选择你想要的任何许可。然而，如果你希望你的模块使用者众，最好还是保持与FreeCAD一致，使用LGPL许可。这样你的代码就更容易被将来的模块引用，甚至被FreeCAD本身吸纳。
+
+
+</div>
+
+#### Closed-source software developers 
 
 
 <div class="mw-translate-fuzzy">
@@ -41,6 +69,8 @@ FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, �
 
 </div>
 
+#### Files
+
 
 <div class="mw-translate-fuzzy">
 
@@ -51,9 +81,21 @@ FreeCAD中的不同组件可以使用不同的许可，有关其详细信息, �
 
 </div>
 
+## Logo
+
+The FreeCAD logo is a [trademark owned by the FPA (FreeCAD project association)](https://fpa.freecad.org/trademark.pdf). This means the [FPA](https://fpa.freecad.org) is the sole body authorized to say who has the right to use the FreeCAD logo or not. The logo files, which are part of the FreeCAD source code or available elsewhere, for example on this wiki, are still all under the same licenses as the rest of FreeCAD (LGPL for the source code and Creative Commons for this wiki). You are still free to use the FreeCAD logo anywhere, on the same terms as the rest of FreeCAD, which means, basically, that you must use it to reference FreeCAD, and not use it, for example, for your own product, or any other way that is not referencing FreeCAD.
+
+## Statement of the main developer 
+
+
+<div class="mw-translate-fuzzy">
+
 ## 主开发者的声明
 
 我知道，网上讨论*\"正确\"*的开源协议，占用了互联网带宽的很大部分。所以这里我觉得，FreeCAD应该有这个协议。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

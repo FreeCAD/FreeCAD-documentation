@@ -351,7 +351,7 @@ The Path module also features a GUI tooltable editor that can be called from Pyt
 
 </div>
 
-Assign the shape of wire Part to a normal Path object, using Path.fronShape() script function (or more powerful Path.fronShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
+Assign the shape of wire Part to a normal Path object, using Path.fromShape() script function (or more powerful Path.fromShapes()). By giving as parameter a wire Part object, its path will be automatically calculated from the shape. Note that in this case the placement is automatically set to the first point of the wire, and the object is therefore not movable anymore by changing its placement. To move it, the underlying shape itself must be moved.
 
 
 ```python

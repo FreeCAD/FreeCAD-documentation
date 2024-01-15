@@ -5,12 +5,22 @@
 
 </div>
 
+
+
 ## Descripción
+
+
+<div class="mw-translate-fuzzy">
 
 Agrega propiedades de material a una parte.
 
+
+</div>
+
 ![](images/FEMMaterialSolidProperties.png ) 
 *The FEM material task panel*
+
+
 
 
 <div class="mw-translate-fuzzy">
@@ -37,6 +47,8 @@ Agrega propiedades de material a una parte.
 
 
 </div>
+
+
 
 ## Notas
 

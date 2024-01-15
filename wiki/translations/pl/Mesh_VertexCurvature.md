@@ -24,9 +24,9 @@ Polecenie **Wykres krzywizny** tworzy obiekty krzywizny dla obiektów siatki. Ob
 
 1.  Wybierz jeden lub więcej obiektów siatki.
 2.  Istnieje kilka sposobów na wywołanie polecenia:
-    -   Naciśnij przycisk **<img src="images/Mesh_VertexCurvature.svg" width=16px> [Krzywizna siatki](Mesh_VertexCurvature/pl.md)**.
+    -   Naciśnij przycisk **<img src="images/Mesh_VertexCurvature.svg" width=16px> '''Wykres krzywizny'''**.
     -   Wybierz opcję z menu **Siatki → <img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny**.
-    -   Wybierz opcję **<img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny** z menu podręcznego [Widoku drzewa](Tree_view/pl.md) lub [Widoku 3D](3D_view/pl.md).
+    -   Wybierz opcję **<img src="images/Mesh_VertexCurvature.svg" width=16px> Wykres krzywizny** z menu podręcznego [widoku drzewa](Tree_view/pl.md) lub [widoku 3D](3D_view/pl.md).
 
 
 

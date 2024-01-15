@@ -12,6 +12,8 @@
 
 </div>
 
+
+
 ## Açıklama
 
 
@@ -36,6 +38,8 @@ Bu aracın karşılığı [Mimari Kaldır](Arch_Remove/tr.md) aracıdır.
 </div>
 
 <img alt="" src=images/Arch_Add_example.jpg  style="width:640px;"> {{Caption | Bir duvara bileşen olarak eklenen bir kutu.}}
+
+
 
 
 <div class="mw-translate-fuzzy">

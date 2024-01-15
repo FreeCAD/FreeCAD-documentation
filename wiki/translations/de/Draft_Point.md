@@ -1,8 +1,8 @@
 ---
  GuiCommand:
    Name: Draft Point
-   Name/de: Entwurf Punkt
-   MenuLocation: Entwurf , Punkt
+   Name/de: Draft Punkt
+   MenuLocation: Zeichnen , Punkt
    Workbenches: Draft_Workbench/de, Arch_Workbench/de
    Version: 0.7
 ---
@@ -13,7 +13,7 @@
 
 ## Beschreibung
 
-Der <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Entwurf Punkt** Befehl erzeugt einen einfachen Punkt. Entwurf Punkte kann als eine Referenz für die Platzierung von Linien, Drähten oder anderen Objekten nützlich sein.
+Der Befehl <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Draft Punkt** erstellt einen einfachen Punkt. Draft-Punkte können nützlich sein als Referenz für die Positionierung von Linien, Polylinien oder anderen Objekten.
 
 <img alt="" src=images/Draft_point_example.jpg  style="width:400px;">
 
@@ -21,49 +21,35 @@ Der <img alt="" src=images/Draft_Point.svg  style="width:24px;"> **Entwurf Punkt
 
 ## Anwendung
 
-Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
+Siehe auch: [Draft-Ablage](Draft_Tray/de.md), [Draft-Einrasten](Draft_Snap/de.md) und [Draft-Beschränken](Draft_Constrain/de.md).
 
 1.  Es gibt mehrere Möglichkeiten, den Befehl aufzurufen:
-2.  Drücke die **<img src="images/Draft_Point.svg" width=16px> [Entwurf Punkt](Draft_Point/de.md)** Schaltfläche
-    -   Wähle die Option **Entwerfen → <img src="images/Draft_Point.svg" width=16px> Punkt** aus dem Menü.
-    -   Das **Punkt**-Aufgabenpaneel wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
-3.  Wähle einen Punkt in der [3D Ansicht](3D_view/de.md), oder gib Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**-Schaltfläche.
+2.  Die Schaltfläche **<img src="images/Draft_Point.svg" width=16px> [Punkt](Draft_Point/de.md)** drücken.
+    -   Den Menüeintrag **Zeichnen → <img src="images/Draft_Point.svg" width=16px> Punkt** auswählen.
+    -   Der Aufgaben-Bereich **Punkt** wird geöffnet. Siehe [Optionen](#Optionen.md) für weitere Informationen.
+3.  Einen Punkt in der [3D-Ansicht](3D_view/de.md) auswählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** drücken.
 
 
 
 ## Optionen
 
-Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastenkürzel sind die Standardtastenkürzel.
+Die im Aufgaben-Bereich vorhandenen Einzelzeichen-Tastaturkürzel können geändert werden. Siehe [Draft Einstellungen](Draft_Preferences/de.md). Die hier genannten Tastaturkürzel sind die voreingestellten Tastaturkürzel (für Version 0.22).
 
+-   Zum manuellen Eingeben von Koordinaten, werden die X-, Y- und Z-Komponenten jeweils mit abschließendem **Enter** eingegeben. Oder man drückt die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben**, sobald alle gewünschten Werte eingegeben sind. Es ist ratsam, den Mauszeiger aus der [3D-Ansicht](3D_view/de.md) heraus zu bewegen, bevor Koordinaten eingegeben werden.
 
-<div class="mw-translate-fuzzy">
+-    **G**drücken oder die Checkbox **Global** aktivieren, um den Global-Modus umzuschalten. Ist der Global-Modus aktiviert, beziehen sich Koordinaten auf das globale Koordinatensystem, andernfalls beziehen sie sich auf das Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md). {{Version/de|0.20}}
 
--   Um manuell Koordinaten einzugeben, trage einfach die Zahlen ein, drücke dann **Enter** zwischen jeder der X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, um den Punkt einzufügen, nachdem Du die gewünschten Werte eingeben hast.
--   Drücke **Alt**+**N** oder klicke das Ankreuzkästchen zur Umschaltung des *\'Nächstes*-Modus. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Punkt-Werkzeug nach der Eingabe des Punkts erneut starten, ohne dass Du den Werkzeug-Button nochmal drücken musst.
--   Drücke **Esc** oder den **'''Schließen'''**-Button zum Abbruch des aktuellen Befehls.
+-    **N**drücken oder die Checkbox **Fortsetzen** aktivieren, um den Fortsetzen-Modus umzuschalten. Ist der Fortsetzen-Modus aktiviert, wird der Befehl nach dem Beenden erneut gestartet und ermöglicht so mit dem Erstellen von Punkten fortzufahren.
 
+-    **S**drücken, um [Draft Einrasten](Draft_Snap/de.md) ein- bzw. auszuschalten.
 
-</div>
+-    **Esc**oder die Schaltfläche **Schließen** drücken, um den Befehl abzubrechen.
 
 
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Benutze <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft Fang Nächste](Draft_Snap_Near/de.md), um an Entwurfspunkten einzurasten.
-
-
-</div>
-
-
-
-## Einstellungen
-
-Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
-
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Draft EinrastenInDerNähe](Draft_Snap_Near/de.md) verwenden ({{VersionMinus/de|0.20}}) oder <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:16px;"> [Draft EinrastenAufEndpunkt](Draft_Snap_Endpoint.md) ({{VersionPlus/de|0.21}}), um an Draft-Punkten einzurasten.
 
 
 
@@ -71,7 +57,7 @@ Siehe auch: [Einstellungseditor](Preferences_Editor/de.md) und [Entwurf Einstell
 
 Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-Ein Entwurf Punkt Objekt wird von einem [Part Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
+Ein Draft-Punkt-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
 
 
@@ -93,17 +79,17 @@ Ein Entwurf Punkt Objekt wird von einem [Part Formelement](Part_Feature/de.md) a
 
 {{TitleProperty|Draft}}
 
--    **Pattern|Enumeration**: not used.
+-    {{PropertyView/de|Pattern|Enumeration}}: nicht verwendet.
 
--    **Pattern Size|Float**: not used.
+-    {{PropertyView/de|Pattern Size|Float}}: nicht verwendet.
 
 
 
 ## Skripten
 
-Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Skripten Grundlagen](FreeCAD_Scripting_Basics/de.md).
+Siehe auch: [Autogenerierte API-Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Um einen Entwurfspunkt zu erstellen, verwende die Methode `make_point` ({{Version/de|0.19}}) des Entwurfsmoduls. Diese Methode ersetzt die veraltete Methode `makePoint`.
+Um einen Draft-Punkt zu erstellen, wird die Methode `make_point` ({{Version/de|0.19}}) des Draft-Moduls verwendet. Diese Methode ersetzt die veraltete Methode `makePoint`.
 
 
 ```python

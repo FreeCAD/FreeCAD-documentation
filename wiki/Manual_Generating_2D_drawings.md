@@ -1,6 +1,4 @@
 # Manual:Generating 2D drawings
-{{Manual:TOC}}
-
 When your model cannot be printed or milled directly by a machine, for example it is too big (a building) or it requires manual assembly after the pieces are ready, you will usually need to explain to another person how to do it. In technical fields (engineering, architecture, etc), this is usually done with drawings. The drawings are handed over to the person responsible for assembling the final product and will explain how to do it.
 
 Typical examples are Ikea instructions, [architectural drawings](https://en.wikipedia.org/wiki/Architectural_drawing), and [blueprints](https://en.wikipedia.org/wiki/Blueprint). These drawings usually contain not only the drawing itself, but also many annotations, such as text, dimensions, numbers, and symbols that will help other people to understand what needs to be done and how.

@@ -1,4 +1,7 @@
 # Macro ObjectInfo/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro ObjectInfo
 |Translate=Macro ObjectInfo
@@ -11,15 +14,30 @@
 |SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/cs.md)
 }}
 
+
+</div>
+
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Toto WorkBench vám umožňuje znát informační plochu objemu, střed hmoty a okamžik intertiktury vybraného objektu.
 
+
+</div>
+
 <img alt="" src=images/ObjectInfoIt.png  style="width:480px;">
+
+
 
 ## Instalace
 
 Pokud používáte Linux, musíte vytvořit složku s názvem \"Mod\" ve skryté složce .FreeCAD, která se nachází ve složce Home. Pak vytvořte složku s názvem \"Info\" ve složce \"Mod\" a extrahujte obsah archivu do něj. V systému Windows nemám tušení, kde to bude. Stejný postup použijte v systému Windows C:\\Program Files\\FreeCAD\\Mod.
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -30,6 +48,8 @@ Pak spusťte aplikaci FreeCAD, otevřete soubor STEP a přejděte na pracovním 
 
 
 </div>
+
+
 
 ## Kód
 
@@ -48,9 +68,17 @@ webbrowser.open("https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip")
 
 }}
 
+## Links
+
+
+<div class="mw-translate-fuzzy">
+
 ## Odkazy
 
 Uživatel FreeCAD vytvořil uživatelsky přívětivý modul \"Info\", který můžete získat zde: <http://www.sloan-home.co.uk/FreeCAD/Info/Info.html>
+
+
+</div>
 
 Z fóra [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 

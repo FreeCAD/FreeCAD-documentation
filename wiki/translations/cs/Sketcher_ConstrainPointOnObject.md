@@ -23,6 +23,8 @@
 </div>
 
 
+
+
 <div class="mw-translate-fuzzy">
 
 #### Použití
@@ -57,7 +59,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains how to identify th
 
 
 
-{{Sketcher Tools navi
+{{Sketcher_Tools_navi
 
 }}
 

@@ -9,11 +9,15 @@
 
 # Std Export/pt-br
 
-## Description
 
-The **Std Export** command exports selected objects to a different file format. Many file formats are supported and for some formats multiple export options exist. See [Import Export](Import_Export.md) for more information.
 
-## Usage
+## Descrição
+
+O comando **Exportar** exporta objetos selecionados para um formato de arquivo diferente. Muitos formatos de arquivo são suportados e para alguns formatos existem várias opções de exportação. Consulte [Importar Exportar](Import_Export/pt-br.md) para obter mais informações.
+
+
+
+## Uso
 
 1.  Select one or more objects. To avoid exporting invisible or duplicate objects:
     -   Be careful when you use **Ctrl**+**A** to select all objects. This will also select invisible objects.

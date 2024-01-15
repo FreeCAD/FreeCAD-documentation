@@ -1,39 +1,36 @@
 ---
  GuiCommand:
    Name: TechDraw Symbol
-   Name/fr: TechDraw Symbole SVG
-   MenuLocation: TechDraw , Insérer un symbole SVG
+   Name/fr: TechDraw Symbole
+   MenuLocation: TechDraw , Vues de TechDraw , Insérer un symbole SVG
    Workbenches: TechDraw_Workbench/fr
    SeeAlso: TechDraw_Templates/fr, Draft_SVG/fr
 ---
 
 # TechDraw Symbol/fr
 
-
-</div>
-
 ## Description
 
 L\'outil **TechDraw Symbole** insère un fichier [SVG](SVG/fr.md) dans la page. Ce symbole peut être tout ce qui peut aider à annoter votre dessin et ne nécessite aucune modification supplémentaire.
 
 <img alt="" src=images/TechDraw_SymbolSVG_sample.png  style="width:250px;"> 
-*Rose des vents ajoutée à la page de dessin. Ce symbole est disponible en installant le module complémentaire "symbols_library" avec le [Gestionnaire des extensions](Std_AddonMgr/fr.md)*
+*Rose des vents ajoutée à la page de dessin. Ce symbole est disponible en installant l'extension "symbols_library" avec le [gestionnaire des extensions](Std_AddonMgr/fr.md)*
 
 
 
 ## Utilisation
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer un symbole SVG](TechDraw_Symbol/fr.md)
-**
-2.  Une boîte de dialogue s\'ouvre.
-3.  Sélectionnez un emplacement et un nom de fichier.
-4.  Appuyez sur **OK**
-
-
-</div>
+1.  S\'il y a plusieurs pages de dessin dans le document : activez la page souhaitée en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md).
+2.  Il y a plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_Symbol.svg" width=16px> [Insérer un symbole SVG](TechDraw_Symbol/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Vues de TechDraw → <img src="images/TechDraw_Symbol.svg" width=16px> Insérer un symbole SVG** dans le menu.
+3.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore activé une page, la boîte de dialogue **Sélecteur de page** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page désirée.
+    2.  Appuyez sur le bouton **OK**.
+4.  Une boîte de dialogue de fichier s\'ouvre.
+    1.  Sélectionnez un emplacement et un nom de fichier.
+5.  Le symbole est inséré.
+6.  Vous pouvez modifier sa propriété **Scale** pour ajuster sa taille.
 
 
 
@@ -50,7 +47,7 @@ Voir [TechDraw Vue](TechDraw_View/fr#Propri.C3.A9t.C3.A9s.md)
 
 {{TitleProperty|Drawing view}}
 
--    **Editable Texts**: Liste des textes modifiables, le cas échéant.
+-    **Editable Texts**: liste des textes modifiables, le cas échéant.
 
 
 

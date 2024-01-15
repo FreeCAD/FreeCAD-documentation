@@ -10,129 +10,164 @@
 
 # Draft SelectPlane/pl
 
-## Description
 
-The <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Draft SelectPlane** command selects the current Draft working plane. This is the plane in the [3D view](3D_view.md) where new [Draft](Draft_Workbench.md) objects are created. A new working plane can be based on one of several [presets](#Usage_with_presets.md) or on a selection. The selection can be created before ([pre-selection](#Usage_with_pre-selection.md)) or after ([post-selection](#Usage_with_post-selection.md)) starting the command.
+
+## Opis
+
+Polecenie <img alt="" src=images/Draft_SelectPlane.svg  style="width:24px;"> **Wybór płaszczyzny roboczej** definiuje bieżącą płaszczyznę roboczą. Jest to płaszczyzna zdefiniowana w [widoku 3D](3D_view/pl.md), na której tworzone są nowe obiekty [Rysunku Roboczego](Draft_Workbench/pl.md). Płaszczyzna robocza może być oparta na jednym z kilku [nastaw](#Użycie_z_ustawieniami_wstępnymi.md) lub na zaznaczeniu. Zaznaczenie może zostać utworzone przed *([wyborem wstępnym](#Użycie_ze_wstępnym_wyborem.md))* lub po *([uruchomieniu polecenia](#Użycie_z_wyborem_w_kolejnym_kroku.md))*.
+
+
+<small>(v0.22)</small> 
+
+: Dla każdego widoku 3D zapisywana jest osobna płaszczyzna robocza.
+
+Przycisk ![](images/Draft_tray_button_plane.png ) w [Tacka narzędziowa](Draft_Tray/pl.md) zmienia swój wygląd w zależności od bieżącej płaszczyzny roboczej. {{Version/pl|0.22}}: Jeśli płaszczyzna robocza nie jest ustawiona na **Automatyczną**, gwiazdka *(*****)* jest dodawana do etykiety przycisku, jeśli punkt odniesienia położenia płaszczyzny roboczej nie pasuje do globalnego punktu odniesienia.
 
 <img alt="" src=images/WorkingPlane_example.png  style="width:400px;"> 
-*Shapes created on different working planes*
+*Kształty tworzone na różnych płaszczyznach roboczych.*
 
-## Usage with pre-selection 
 
-1.  Do one of the following:
-    -   Select a single object. The following objects are supported:
-        -   [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md): the **View Data** (the camera position) and the **Visibility Map** (the saved visibility of objects) of the working plane proxy are also restored.
-        -   [Arch BuildingParts](Arch_BuildingPart.md).
-        -   [Arch SectionPlanes](Arch_SectionPlane.md).
-        -   [Std Parts](Std_Part.md): to avoid selecting subelements it is advisable to select these in the [Tree view](Tree_view.md).
-        -   [Part Feature](Part_Feature.md) objects that have a single face. [Part Planes](Part_Plane.md) for example.
-        -   Objects that are not [Part Feature](Part_Feature.md) objects and have a **Placement** property.
-    -   Select one or more subelements. You can select:
-        -   A flat face.
-        -   Three vertices.
-        -   A circular edge.
-        -   Two straight edges that are co-planar but not co-linear.
-        -   A straight edge and a vertex that does not lie on the (extended) edge.
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
-3.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Usage with post-selection 
+## Użycie ze wstępnym wyborem 
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
-2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Do one of the following:
-    -   Select a single object. See the [previous paragraph](#Usage_with_pre-selection.md) for the supported objects.
-    -   Select one or more subelements. You can select:
-        -   A flat face.
-        -   Three vertices.
-4.  Click anywhere in the [3D view](3D_view.md) to confirm the selection and finish the command.
-5.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
+1.  Wykonaj jedną z następujących czynności:
+    -   Wybierz pojedynczy obiekt. Obsługiwane są następujące obiekty:
+        -   [Pośrednia płaszczyzna robocza](Draft_WorkingPlaneProxy/pl.md): **View Data** *(pozycja kamery)* i **Visibility Map** *(zapisana widoczność obiektów)* pośredniej płaszczyzny roboczej są również przywracane.
+        -   [Architektura: Osie](Arch_Axis/pl.md) *({{Version/pl|0.22}})*
+        -   [Architektura: Układ osi](Arch_AxisSystem/pl.md) ({{Version/pl|0.22}})
+        -   [Architektura: Część budowli - piętro](Arch_BuildingPart/pl.md)
+        -   [Architektura: Płaszczyzna przekroju](Arch_SectionPlane/pl.md)
+        -   [Std: Część](Std_Part/pl.md): aby uniknąć zaznaczania elementów podrzędnych, zaleca się zaznaczanie ich w [widoku drzewa](Tree_view/pl.md).
+        -   Obiekty nie będące bryłami, które składają się z pojedynczej płaskiej powierzchni lub pojedynczej zakrzywionej krawędzi, lub *({{Version/pl|0.22}})*, które mają trzy lub więcej wierzchołków.
+        -   Obiekty bryłowe lub obiekty bez kształtu, które mają właściwość **Umiejscowienie**. *({{Version/pl|0.22}})*
+    -   Wybierz jeden lub więcej elementów podrzędnych. Można wybrać:
+        -   Płaską powierzchnię.
+        -   Zakrzywioną krawędź.
+        -   Trzy wierzchołki.
+        -   Krawędź i wierzchołek lub dwie krawędzie. Połączone wierzchołki muszą definiować płaszczyznę. *({{Version/pl|0.22}})*
+2.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk ![](images/Draft_tray_button_plane.png ) w [tacce narzędziowej](Draft_Tray/pl.md).
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_SelectPlane.svg" width=16px> Wybierz płaszczyznę**.
+    -   Użyj skrótu klawiaturowego: **W**, a następnie **P**.
+3.  Płaszczyzna robocza i ikona [tacki narzędziowej](Draft_Tray/pl.md) zostaną zaktualizowane.
 
-## Usage with presets 
 
-1.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_SelectPlane.svg" width=16px> [Draft SelectPlane](Draft_SelectPlane.md)** button in the [Draft Tray](Draft_Tray.md). Depending on the current working plane this button can look different.
-    -   Select the **Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane** option from the menu.
-    -   Use the keyboard shortcut: **W** then **P**.
-2.  The **Working plane setup** task panel opens. See [Options](#Options.md) for more information.
-3.  Press any of the buttons to finish the command.
-4.  The working plane and the button in the [Draft Tray](Draft_Tray.md) are updated.
 
-## Options
+## Użycie z wyborem w kolejnym kroku 
 
--   Press the **<img src="images/View-top.svg" width=16px> Top (XY)** button to align the working plane with the XY plane of the global coordinate system.
--   Press the **<img src="images/View-front.svg" width=16px> Front (XZ)** button to align the working plane with the XZ plane of the global coordinate system.
--   Press the **<img src="images/View-right.svg" width=16px> Side (YZ)** button to align the working plane with the YZ plane of the global coordinate system.
--   Press the **<img src="images/View-isometric.svg" width=16px> Align to view** button to align the working plane with the current [3D view](3D_view.md). If the **Center plane on view** checkbox is unchecked the working plane origin will match the origin of the global coordinate system, else it will match the center of the current [3D view](3D_view.md).
--   Press the **<img src="images/View-axonometric.svg" width=16px> Automatic** button to automatically align the working plane with the current [3D view](3D_view.md) whenever a Draft or [Arch](Arch_Workbench.md) command requiring point input is started. This is equivalent to pressing the **<img src="images/View-isometric.svg" width=16px> Align to view** button before using the command.
--   The **Offset** defines the perpendicular distance between the calculated plane and the actual working plane.
--   Check the **Center plane on view** checkbox to put the origin of the working plane in the center of to the current [3D view](3D_view.md). This option really only makes sense if the **<img src="images/View-isometric.svg" width=16px> Align to view** button is used.
--   Select a vertex in the [3D view](3D_view.md) and press the **<img src="images/Draft_Move.svg" width=16px> Move working plane** button to move the working plane so that its origin matches the position of the selected vertex.
--   The **Grid spacing** defines the distance between grid lines.
--   The **Main line every** value determines where main grid lines are drawn. Main grid lines are slightly thicker than normal grid lines. For example if the grid spacing is {{Value|0.5 m}} and there is a main line every {{Value|10 lines}}, such a line will occur every {{Value|5 m}}.
--   The **Grid extension** value determines the number of grid lines in the X and Y direction of the grid.
--   The **Snapping radius** is the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines.
--   Press the **<img src="images/view-fullscreen.svg" width=16px> Center view** button to use the origin of the current working plane as the center of the [3D view](3D_view.md).
--   Press the **<img src="images/edit-undo.svg" width=16px> Previous** button to reset the working plane to its previous position.
--   Press **Esc** or the **Close** button to abort the command.
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk ![](images/Draft_tray_button_plane.png ) w [tacce narzędziowej](Draft_Tray/pl.md).
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_SelectPlane.svg" width=16px> Wybierz płaszczyznę**.
+    -   Użyj skrótu klawiaturowego: **W**, a następnie **P**.
+2.  Otworzy się panel zadań **Ustawienia płaszczyzny roboczej**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Wykonaj jedną z następujących czynności:
+    -   Wybierz pojedynczy obiekt. Zobacz [poprzedni akapit](#Użycie_ze_wstępnym_wyborem.md).
+    -   Wybierz jeden lub więcej elementów podrzędnych. Zobacz [poprzedni akapit](#Użycie_ze_wstępnym_wyborem.md).
+4.  Kliknij gdziekolwiek w oknie [widoku 3D](3D_view/pl.md), aby potwierdzić wybór i zakończyć polecenie.
+5.  Płaszczyzna robocza i ikona [tacki narzędziowej](Draft_Tray/pl.md) zostaną zaktualizowane.
 
-## Notes
 
--   It can be useful to align the [3D view](3D_view.md) with the selected Draft working plane. For example after switching the working plane to Front you may want to switch to the [Front view](Std_ViewFront.md) as well.
--   The grid can be toggled with the [Draft ToggleGrid](Draft_ToggleGrid.md) command.
--   By double-clicking [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) in the [Tree view](Tree_view.md) you can quickly switch between working planes.
 
-## Preferences
+## Użycie z ustawieniami wstępnymi 
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+1.  Polecenie można wywołać na kilka sposobów:
+    -   Naciśnij przycisk ![](images/Draft_tray_button_plane.png ) w [tacce narzędziowej](Draft_Tray/pl.md).
+    -   Wybierz z menu opcję **Narzędzia → <img src="images/Draft_SelectPlane.svg" width=16px> Wybór płaszczyzny roboczej**.
+    -   Użyj skrótu klawiaturowego: **W**, a następnie **P**.
+2.  Otworzy się panel zadań **Ustawienia płaszczyzny roboczej**. Więcej informacji można znaleźć w sekcji [Opcje](#Opcje.md).
+3.  Naciśnij dowolny przycisk, aby zakończyć polecenie.
+4.  Płaszczyzna robocza i ikona [tacki narzędziowej](Draft_Tray/pl.md) zostaną zaktualizowane.
 
--   The grid settings in the task panel as well as several other grid settings are available as preferences: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
--   To use the grid the **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid** option must be selected. After changing this preference you must restart FreeCAD.
--   The Snapping radius can also be changed on-the-fly (see [Draft Snap](Draft_Snap#Preferences.md)) or by changing: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**.
 
-## Scripting
 
-See also: [Autogenerated API documentation](https://freecad.github.io/SourceDoc/) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+## Opcje
 
-If the [Draft Workbench](Draft_Workbench.md) is active the FreeCAD application object has a `DraftWorkingPlane` property which stores the current Draft working plane. You can access this property and apply transformations to it:
+-   Naciśnij przycisk **<img src="images/View-top.svg" width=16px> Góra (XY)**, aby wyrównać płaszczyznę roboczą z płaszczyzną XY globalnego układu współrzędnych.
+
+-   Naciśnij przycisk **<img src="images/View-front.svg" width=16px> Przód (XZ)**, aby wyrównać płaszczyznę roboczą z płaszczyzną XZ globalnego układu współrzędnych.
+
+-   Naciśnij przycisk **<img src="images/View-right.svg" width=16px> Bok (YZ)**, aby wyrównać płaszczyznę roboczą z płaszczyzną YZ globalnego układu współrzędnych.
+
+-   Naciśnij przycisk **<img src="images/View-isometric.svg" width=16px> Wyrównaj do widoku**, aby wyrównać płaszczyznę roboczą z bieżącym [widokiem 3D](3D_view/pl.md). Jeśli pole wyboru **Wyśrodkuj płaszczyznę na widoku** nie jest zaznaczone, początek płaszczyzny roboczej będzie odpowiadał początkowi globalnego układu współrzędnych, w przeciwnym razie będzie odpowiadał środkowi bieżącego [widoku 3D](3D_view/pl.md).
+
+-   Naciśnij przycisk **<img src="images/View-axonometric.svg" width=16px> Automatycznie**, aby ustawić płaszczyznę roboczą **Automatycznie**. Płaszczyzna robocza ustawiona na **Automatycznie**, automatycznie zostanie wyrównana do bieżącego [widoku 3D](3D_view/pl.md) za każdym razem, gdy uruchomione zostanie polecenie środowisko Rysunek Roboczy lub [Architektura](Arch_Workbench/pl.md) wymagające wprowadzenia punktu. Jest to odpowiednik naciśnięcia przycisku **<img src="images/View-isometric.svg" width=16px> Wyrównaj do widoku** przed użyciem polecenia. Dodatkowo płaszczyzna robocza zostanie wyrównana do płaskich powierzchni, które zostały wybrane przed uruchomieniem polecenia lub gdy punkty na płaskich powierzchniach zostaną wybrane podczas polecenia.
+
+-   Polecenie **Odsunięcie** definiuje prostopadłą odległość między obliczoną płaszczyzną a rzeczywistą płaszczyzną roboczą.
+
+-   Zaznacz pole wyboru **Wyśrodkuj płaszczyznę na widoku**, aby umieścić początek płaszczyzny roboczej w środku bieżącego [widoku 3D](3D_view/pl.md). Opcja ta może być przydatna w połączeniu z przyciskiem **<img src="images/View-isometric.svg" width=16px> Wyrównaj do widoku**.
+
+-   Wybierz wierzchołek w oknie [widoku 3D](3D_view/pl.md) i naciśnij przycisk **<img src="images/Draft_Move.svg" width=16px> Przesuń płaszczyznę roboczą**, aby przesunąć płaszczyznę roboczą tak, aby jej punkt odniesienia położenia odpowiadał pozycji wybranego wierzchołka.
+
+-   Parametr **Odstęp siatki** definiuje odległość między liniami siatki.
+
+-   Wartość **Główna linia co** określa miejsce rysowania głównych linii siatki. Główne linie siatki są nieco grubsze niż zwykłe linie siatki. Na przykład, jeśli odstęp między liniami siatki wynosi {{Value|0.5 m}}, a główna linia występuje co {{Value|10 linii}}, taka linia będzie występować co {{Value|5 m}}.
+
+-   Wartość **Rozszerzenie siatki** określa liczbę linii siatki w kierunku X i Y siatki.
+
+-    **Promień przyciągania**to maksymalna odległość, w jakiej funkcja [Przyciągnij do siatki](Draft_Snap_Grid/pl.md) wykrywa przecięcia linii siatki.
+
+-   Naciśnij przycisk **<img src="images/view-fullscreen.svg" width=16px> Wyśrodkuj widok**, aby wyrównać [widok 3D](3D_view/pl.md) z bieżącą płaszczyzną roboczą.
+
+-   Naciśnij przycisk **<img src="images/sel-back.svg" width=16px> Poprzedni**, aby zresetować płaszczyznę roboczą do poprzedniej pozycji.
+
+-   Naciśnij przycisk **<img src="images/sel-forward.svg" width=16px> Następny**, aby zresetować płaszczyznę roboczą do następnej pozycji. {{Version/pl|0.22}}
+
+-   Naciśnij **Esc** lub przycisk **Zamknij**, aby przerwać wykonywanie polecenia.
+
+
+
+## Uwagi
+
+-   Przydatne może być wyrównanie [widoku 3D](3D_view/pl.md) z wybraną płaszczyzną roboczą. Na przykład po przełączeniu płaszczyzny roboczej na Przód możesz chcieć przełączyć się również na widok [z przodu](Std_ViewFront/pl.md).
+-   Siatkę można przełączać za pomocą polecenia [Przełącz widoczność siatki](Draft_ToggleGrid/pl.md).
+-   Klikając dwukrotnie narzędzie [Pośrednia płaszczyzna robocza](Draft_WorkingPlaneProxy/pl.md) w [Widoku drzewa](Tree_view/pl.md) można szybko przełączać się między płaszczyznami roboczymi.
+
+
+
+## Ustawienia
+
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Ustawienia](Draft_Preferences/pl.md).
+
+-   Ustawienia siatki w panelu zadań, a także kilka innych ustawień siatki są dostępne jako preferencje: **Edycja → Preferencje ... → Rysunek Roboczy → Siatka i przyciąganie**.
+-   Promień przyciągania można również zmienić w locie *(patrz [ustawienia przyciągania](Draft_Snap/pl#Ustawienia.md))* lub poprzez modyfikację parametru: **Narzędzia → Edytuj parametry ... → BaseApp → Preferencje → Mod → Draft → snapRange**.
+
+
+
+## Tworzenie skryptów 
+
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
+
+
+{{Version/pl|0.22}}
+
+Moduł PłaszczyznaRobocza oferuje dwie klasy do tworzenia obiektów płaszczyzny roboczej: klasę `PlaneBase` i klasę `PlaneGui`. Druga klasa dziedziczy z pierwszej. Obiekty klasy `PlaneGui` współdziałają z GUI *(przycisk [Tacka narzędziowa](Draft_Tray/pl.md))*, [widok 3D](3D_view/pl.md) i [siatka](Draft_Snap_Grid/pl.md). Obiekty `PlaneBase` nie.
+
+Użyj metody `get_working_plane()` modułu PłaszczyznaRobocza, aby uzyskać instancję klasy `PlaneGui` powiązaną z bieżącym widokiem 3D. Metoda zwraca istniejącą płaszczyznę roboczą powiązaną z widokiem lub tworzy nową płaszczyznę roboczą, jeśli jest to wymagane.
 
 
 ```python
-# This code only works if the Draft Workbench is active!
-
 import FreeCAD as App
-import FreeCADGui as Gui
+import WorkingPlane
 
-workplane = App.DraftWorkingPlane
+wp = WorkingPlane.get_working_plane()
 
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
+origin = App.Vector(0, 0, 0)
+normal = App.Vector(1, 1, 1).normalize()
+offset = 17
+wp.align_to_point_and_axis(origin, normal, offset)
 
-workplane.alignToPointAndAxis(v1, v2, 17)
-Gui.Snapper.toggleGrid()
-Gui.Snapper.toggleGrid()
+point = App.Vector(10, 15, 2)
+projection = wp.project_point(point)
+print(projection)
 ```
 
-It is also possible to create planes independently of the Draft working plane. This can be useful for calculations and projections:
+Klasa `PlaneBase` może być używana do tworzenia płaszczyzn roboczych niezależnie od GUI:
 
 
 ```python
 import WorkingPlane
 
-my_plane = WorkingPlane.plane()
-
-v1 = App.Vector(0, 0, 0)
-v2 = App.Vector(1, 1, 1).normalize()
-my_plane.alignToPointAndAxis(v1, v2, 17)
-
-projection = my_plane.projectPoint(App.Vector(10, 15, 2))
-print(projection)
+wp = WorkingPlane.PlaneBase()
 ```
 
 

@@ -51,7 +51,7 @@ Sans sélection :
 ## Utilisation : documents externes 
 
 1.  Commencez par un document contenant au moins un objet qui sera la source du lien.
-2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence plusieurs documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [Vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
+2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence Tous les documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
 3.  Dans le premier document, sélectionnez l\'objet que vous souhaitez lier, puis changez d\'onglet dans la [Zone de vue principale](main_view_area/fr.md) pour passer au deuxième document.
 4.  Appuyez sur **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet produit a la même icône que l\'objet d\'origine mais a une flèche superposée indique qu\'il s\'agit d\'un lien provenant d\'un document externe.
 

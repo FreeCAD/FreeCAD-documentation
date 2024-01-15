@@ -1,12 +1,4 @@
 # AppImage/it
-**A partire dal 7 luglio 2019, la comunità di FreeCAD ha segnalato che il download di AppImages da Github sembra terminare prima del completamento. Non sappiamo perché accade questo. In questo caso, provare a scaricare di nuovo. Potrebbero essere necessari alcuni tentativi. Una pratica consigliata è quella di utilizzare la [https://wiki.freecadweb.org/AppImage/it#Aggiornamento_automatico funzione di aggiornamento automatico] di AppImage, che ripristina il download dal punto in cui si è interrotto.
-**
-
-
-
-
-
-
 ## Che cos\'è una AppImage? 
 
 ![](images/AppImage-logo.png ) **Impacchetta una volta ed esegui ovunque. Raggiungi gli utenti su tutte le principali distribuzioni desktop Linux.**
@@ -29,29 +21,22 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 
   Stable                                                                                                                Development
    
-  ![](images/AppImage-logo.png ) [v0.20.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.20.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
+  ![](images/AppImage-logo.png ) [v0.21.2](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/0.21.2)   ![](images/AppImage-logo.png ) [Weekly build](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds)
 
   : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
-
-<div class="mw-translate-fuzzy">
-
 **Note importanti:**
 
--   Lo sviluppo avviene quotidianamente e rapidamente, il link di aggiornamento di AppImage è un obiettivo mobile.
--   Il link alla versione di sviluppo indicato sopra dovrebbe essere aggiornato perché viene aggiornato tramite uno script.
+-   Lo sviluppo avviene quotidianamente e rapidamente.
 -   Molti utenti del forum utilizzano la versione di sviluppo.
 -   Può essere eseguito sullo stesso sistema in parallelo con un\'altra versione di FreeCAD.
 -   Gli utenti usano la versione dev per sfruttare le ultime funzionalità e correzioni di errori (poiché FreeCAD ha un lungo ciclo di rilascio). La usano anche per aiutare a testare e trovare i bug per stimolare lo sviluppo e il miglioramento di FreeCAD.
 
 
-</div>
-
-
 
 #### Avviso di cautela obbligatorio 
 
-Per la maggior parte la versione di sviluppo è stabile ma ovviamente è importante aggiungere un obbligatorio avviso di cautela utilizzarla a proprio rischio. Anche se la maggior parte delle persone che utilizzano backup e \"salvano spesso\" fanno abbastanza bene.
+Per la maggior parte la versione di sviluppo è stabile ma ovviamente è importante aggiungere un avviso obbligatorio di cautela e utilizzarla a proprio rischio e pericolo. Anche se la maggior parte delle persone che la utilizzano giustamente fanno il backup e \"salvano spesso\".
 
 
 
@@ -65,34 +50,40 @@ L\'aggiornamento automatico viene eseguito tramite diversi metodi opzionali. Att
 
 ### Aggiornamento sperimentale in-app 
 
-Thanks to the efforts of several key devs, there is an [ongoing effort](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324) to integrate a feature that allows **self-updating the AppImage within FreeCAD** itself. Starting from FC 0.19.21514 there now exists an AppImage section found via **Edit → Preferences → AppImage**. Please test this capability and report your experience to the [forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324).
+Grazie agli sforzi di diversi sviluppatori chiave, c\'è uno [sforzo in corso](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324) per integrare una funzionalità che consenta **auto-aggiornamento dell\'AppImage all\'interno FreeCAD** stesso. A partire da FC 0.19.21514 ora esiste una sezione AppImage trovata tramite **Modifica → Preferenze → AppImage**. Prova questa funzionalità e segnala la tua esperienza al [forum di discussione](https://forum.freecadweb.org/viewtopic.php?f=8&t=44324).
 
-### GUI method 1 (official) 
 
-This is the official AppImageUpdate GUI application.
 
-1.  Download [AppImageUpdate-x86_64.AppImage](https://github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
-2.  Make it executable by right clicking on the file, going in to properties and \"Run as an executable\".
-3.  Double click on the AppImage icon, a dialog box will appear and you\'ll be prompted to specify what AppImage you want to update.
-4.  Specify the path to your existing AppImage.
-5.  Once the AppImage is updated, press the button **Run updated AppImage**.
+### Metodo GUI 1 (ufficiale) 
 
-### GUI method 2 (unofficial) 
+Questa è l\'applicazione GUI ufficiale di AppImageUpdate.
 
-This is a sleeker 3rd-party unofficial version of AppImageUpdate named: **AppImageUpdater**. It is still in development (at the time of this wiki edit) but nevertheless, quite nice to use.
+1.  Scaricare [AppImageUpdate-x86_64.AppImage](https://github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage).
+2.  Renderlo eseguibile facendo clic con il pulsante destro del mouse sul file, accedendo alle proprietà e selezionando \"Eseguibile\".
+3.  Fare doppio clic sull\'icona AppImage, verrà visualizzata una finestra di dialogo e verrà richiesto di specificare quale AppImage desideri aggiornare.
+4.  Specificare il percorso della tua AppImage esistente.
+5.  Una volta aggiornata l\'AppImage, premere il pulsante **Eseguire l'AppImage aggiornata**.
 
-1.  Download [AppImageUpdater-\*-x86_64.AppImage](https://github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
-2.  Make it executable: 
+
+
+### Metodo GUI 2 (non ufficiale) 
+
+Questa è una versione non ufficiale di terze parti più elegante di AppImageUpdate denominata: **AppImageUpdater**. È ancora in fase di sviluppo (al momento di questa modifica della wiki) ma è comunque abbastanza piacevole da usare.
+
+1.  Scarica [AppImageUpdater-\*-x86_64.AppImage](https://github.com/antony-jr/AppImageUpdater/releases/tag/continuous)
+2.  Rendilo eseguibile: 
 ```pythonchmod +x AppImageUpdater*-x86_64.AppImage```
-3.  Run it: 
+3.  Eseguilo: 
 ```pythonsource AppImageUpdater*-x86_64.AppImage```
-4.  Find your current FreeCAD AppImage and drag-drop it on to the AppImageUpdater
+4.  Trova la tua AppImage di FreeCAD corrente e trascinala su AppImageUpdater
 
-Result: Follow the AppImageUpdater prompts
+Risultato: segui le istruzioni di AppImageUpdater
 
-### CLI method 1 (official) 
 
-Run the following instructions in your terminal
+
+### Metodo CLI 1 (ufficiale) 
+
+Eseguire le seguenti istruzioni nel terminale
 
 
 ```python
@@ -103,52 +94,66 @@ chmod +x path/to/updated/FreeCAD.AppImage
 ./path/to/updated/FreeCAD.AppImage
 ```
 
-Notes:
+Appunti:
 
--   The file names will be unique because of the version info is embedded in them. The above instructions are simplified for convenience.
--   Run `./appimageupdatetool-x86_64.AppImage --help` to learn about functionality like `--remove-old`, `--overwrite` and `--self-update`.
--   There is also an i386 version; see the [AppImageUpdate release](https://github.com/AppImage/AppImageUpdate/releases) page.
+-   I nomi dei file saranno univoci perché le informazioni sulla versione sono incorporate in essi. Le istruzioni sopra riportate sono semplificate per comodità.
+-   Eseguire `./appimageupdatetool-x86_64.AppImage --help` per conoscere funzionalità come `--remove-old`, `--overwrite` e `- -autoaggiornamento`.
+-   Esiste anche una versione i386; vedere la pagina [Versione di AppImageUpdate](https://github.com/AppImage/AppImageUpdate/releases).
 
-Todo: share a script that can be added as an alias or [cron](https://en.wikipedia.org/wiki/Cron) job.
+Da fare: condividere uno script che può essere aggiunto come alias o job di [cron](https://en.wikipedia.org/wiki/Cron).
 
-### CLI method 2 (unofficial) 
 
-Similarly to the Graphical methods having an official and unofficial approaches to downloading AppImages, the same applies to the command line. This is a sleeker 3rd-party command line option to download AppImages.
 
-1.  Download [appimageupdater-\*-x86_64.AppImage](https://github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
-2.  Make it executable: 
+### Metodo CLI 2 (non ufficiale) 
+
+Analogamente ai metodi grafici che hanno un approccio ufficiale e non ufficiale per scaricare AppImages, lo stesso vale per la riga di comando. Questa è un\'opzione della riga di comando di terze parti più elegante per scaricare AppImages.
+
+1.  Scaricare [appimageupdater-\*-x86_64.AppImage](https://github.com/antony-jr/AppImageUpdater/releases/tag/continuous-cli)
+2.  Renderlo eseguibile: 
 ```pythonchmod +x appimageupdater*-x86_64.AppImage```
-3.  Run it: 
+3.  Eseguirlo: 
 ```pythonsource appimageupdater*-x86_64.AppImage /path/to/old/FreeCAD-AppImage.AppImage```
 
-**Result**: Updates specified AppImage file if update exists
-
-# Experimental
-
-## Fixing AppImage zsync 
-
-It may happen that an AppImage won\'t update because it\'s target file changed in some way. Instead of downloading a whole new AppImage, it\'s possible to rewrite the zsync file that is used by the AppImage to download the delta. More info can be found at <https://github.com/antony-jr/appimage-update-info-writer>.
-
-This section needs more details.
-
-## Downloading via Bittorrent 
-
-An experimental feature that the FreeCAD packaging team is exploring (thanks to the work of Antony-jr) is being able to download an appimage delta of FreeCAD via bittorrent. The repository issue is at <https://github.com/FreeCAD/FreeCAD-Bundle/issues/49>
-
-# Developer Section 
+**Risultato**: Aggiornare il file AppImage specificato se l\'aggiornamento esiste
 
 
-**Note:**
 
-the following sections are intended for developers
+# Sperimentale
 
-## Unpacking AppImages 
 
-A very convenient aspect of FreeCAD is that a majority of it is built in [Python](Python.md), which doesn\'t need to be manually compiled like C++. Essentially, a Python file can be modified, and upon restarting FreeCAD those changes will be integrated into the application. A developer can quickly work on the latest FreeCAD release using this technique and an AppImage. Moreover, using an AppImage doesn\'t modify your system\'s environment in any way, that is, nothing is installed and no environmental variables are modified.
 
-### Modifying AppImages 
+## Riparare l\'AppImage zsync 
 
-An AppImage embeds a file system in it with everything that is required to run the application. In order to modify it, the file system needs to be extracted.
+Può succedere che un\'AppImage non si aggiorni perché il file di destinazione è cambiato in qualche modo. Invece di scaricare un\'AppImage completamente nuova, è possibile riscrivere il file zsync utilizzato da AppImage per scaricare il delta. Maggiori informazioni sono disponibili su <https://github.com/antony-jr/appimage-update-info-writer>.
+
+Questa sezione necessita di maggiori dettagli.
+
+
+
+## Download tramite Bittorrent 
+
+Una funzionalità sperimentale che il team per il packaging di FreeCAD sta esplorando (grazie al lavoro di Antony-jr) è la possibilità di scaricare un\'appimage delta di FreeCAD tramite bittorrent. L\'issue del repository è su <https://github.com/FreeCAD/FreeCAD-Bundle/issues/49>
+
+
+
+# Sezione sviluppatori 
+
+
+**Nota:**
+
+le seguenti sezioni sono destinate agli sviluppatori
+
+
+
+## Unpacking di AppImages 
+
+Un aspetto molto utile di FreeCAD è che la maggior parte di esso è costruita in [Python](Python/it.md), che non necessita di essere compilato manualmente come C++. In sostanza, un file Python può essere modificato e al riavvio di FreeCAD tali modifiche verranno integrate nell\'applicazione. Uno sviluppatore può lavorare rapidamente sull\'ultima versione di FreeCAD utilizzando questa tecnica e un\'AppImage. Inoltre, l\'utilizzo di un\'AppImage non modifica in alcun modo l\'ambiente del tuo sistema, ovvero non viene installato nulla e non vengono modificate variabili ambientali.
+
+
+
+### Modifica di AppImages 
+
+Un\'AppImage incorpora un file system al suo interno con tutto ciò che è necessario per eseguire l\'applicazione. Per modificarlo è necessario estrarre il file system.
 
 
 ```python
@@ -156,16 +161,18 @@ An AppImage embeds a file system in it with everything that is required to run t
 cd squashfs-root/
 ```
 
-Now open the required Python source files in your preferred code editor, modify them, and save them. Then run the application.
+Ora aprire i file sorgente Python richiesti nel tuo editor di codice preferito, modificarli e salvarli. Quindi eseguire l\'applicazione.
 
 
 ```python
 ./AppRun
 ```
 
-### Repackaging AppImages 
 
-If you\'ve modified the code, and now want to re-package the AppImage with your latest changes, use the [appimagetool-x86_64](https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) tool on the extracted file system.
+
+### Repackaging di AppImages 
+
+Se si è modificato il codice e quindi si desidera fare il re-package di AppImage con le ultime modifiche, utilizzare [appimagetool- x86_64](https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage) sul file system estratto.
 
 
 ```python
@@ -175,18 +182,22 @@ chmod +x appimagetool-x86_64.AppImage
 ./appimagetool-x86_64.AppImage squashfs-root
 ```
 
-## Personalized AppImages 
 
-Thanks to the work of **realthunder**, author of [App Link](App_Link.md) and [Assembly3 Workbench](Assembly3_Workbench.md), it is possible to build custom AppImages using a set of scripts.
 
-This makes it very convenient to release images for a specific branch of the source code for others to test. Although AppImages only work on Linux, realthunder\'s scripts make it possible to generate AppImages also on Windows and MacOS.
+## AppImages personalizzate 
 
-The repository for these scripts is at [realthunder/FreeCADMakeImage](https://github.com/realthunder/FreeCADMakeImage). Please read the [Readme.md](https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md) for more details.
+Grazie al lavoro di **realthunder**, autore di [App Link](App_Link/it.md) e [Assembly3 Workbench](Assembly3_Workbench/it.md), è possibile creare AppImage personalizzate utilizzando una serie di script.
 
-## Related
+Ciò rende molto conveniente rilasciare immagini per un ramo specifico del codice sorgente affinché altri possano testarle. Sebbene AppImages funzioni solo su Linux, gli script di realthunder consentono di generare AppImages anche su Windows e MacOS.
 
--   [Snap](Ubuntu_Snap.md) packages.
--   [Flatpak](Flatpak.md) packages.
+Il repository per questi script è su [realthunder/FreeCADMakeImage](https://github.com/realthunder/FreeCADMakeImage). Si prega di leggere il [Readme.md](https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md) per maggiori dettagli.
+
+
+
+## Correlati
+
+-   Pacchetti [Snap](Ubuntu_Snap/it.md).
+-   Pacchetti [Flatpak](Flatpak/it.md).
 
 
 

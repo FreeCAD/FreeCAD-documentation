@@ -2,7 +2,7 @@
  GuiCommand:
    Name: TechDraw Dimension Angle3Pt
    Name/de: TechDraw Winkelmaß3Punkte
-   MenuLocation: TechDraw , Winkelmaß über 3 Punkte ???
+   MenuLocation: TechDraw, Maßeinträge , Winkelmaß über 3 Punkte einfügen
    Workbenches: TechDraw_Workbench/de
    Version: 0.18
    SeeAlso: TechDraw_AngleDimension/de
@@ -11,100 +11,56 @@
 # TechDraw 3PtAngleDimension/de
 
 
-</div>
-
-
 
 ## Beschreibung
 
+Das Werkzeug **TechDraw Winkelmaß3Punkte** fügt einer Ansicht ein Winkelmaß hinzu. Das Maß zeigt den Innenwinkel zwischen drei Punkten.
 
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug **TechDraw Winkelmaß3Punkte** fügt einer Ansicht ein Winkelmaß hinzu. Das Maß kann durch Auswahl von drei Knoten in einer Ansicht festgelegt werden.
-
-
-</div>
-
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Beim Messen des Winkels zwischen zwei Geraden unter Verwendung von drei Knoten; der zweite Knoten sollte der Scheitelpunkt des Winkels sein*
-
-.
-
-
-</div>
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
+*Messen des Winkels zwischen drei Punkten*.
 
 
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Die Punkte oder die Kante auswählen, die die Messung definieren.
-2.  Die Schaltfläche **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Winkelmaß über 3 Punkte einfügen](TechDraw_3PtAngleDimension/de.md)** drücken.
-3.  Ein Maß wird der Ansicht hinzugefügt. Das Maß kann an die gewünschte Position gezogen werden.
-4.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
-
-
-</div>
-
-### Display 3D measurement 
-
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Display_3D_measurement.md).
-
-### Change properties 
+1.  Drei Punkte auswählen. Der zweite Punkt ist Scheitelpunkt des Winkels. Die Geometrie kann in der [3D-Ansicht](3D_view/de.md) oder auf der Zeichnung ausgewählt werden.
+2.  Wurde Geometrie in der 3D-Ansicht ausgewählt, muss die korrekte TechDraw-Ansicht durch Auswählen in der [Baumansicht](Tree_view/de.md) zur Auswahl hinzugefügt werden.
+3.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+    -   Die Schaltfläche **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Winkelmaß über 3 Punkte einfügen](TechDraw_3PtAngleDimension/de.md)** drücken.
+    -   Den Menüeintrag **TechDraw → Maßeinträge → <img src="images/TechDraw_3PtAngleDimension.svg" width=16px> Winkelmaß über 3 Punkte einfügen** auswählen.
+4.  Ein Maß wird der Ansicht hinzugefügt.
+5.  Das Maß kann an die gewünschte Position gezogen werden.
+6.  Falls erforderlich, können Toleranzen, wie auf der [GD&T-Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzugefügt werden.
 
 
-<div class="mw-translate-fuzzy">
 
-Um die Eigenschaften eines Dimension-Objekts zu ändern, doppelklickt man sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßungsdialog.md) geöffnet.
+### 3D-Abmessungen anzeigen 
+
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#3D-Abmessungen_anzeigen.md).
 
 
-</div>
+
+### Eigenschaften anpassen 
+
+Um die Eigenschaften eines Maßes (Dimension-Objekt) zu ändern, wird es in der Zeichnung oder in der [Baumansicht](Tree_view/de.md) doppelt angeklickt. Dadurch wird der Dialog [Maßeintrag](TechDraw_LengthDimension/de#Dialog_Maßeintrag.md) geöffnet.
 
 
 
 ## Einschränkungen
 
-
-<div class="mw-translate-fuzzy">
-
-Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md) für weitere Informationen.
+Dimension-Objekte (Maße) sind anfällig für das \"[Topological-Naming-Problem](topological_naming_problem/de.md)\" (Problem der topologischen Benennung). Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de.md).
 
 
-</div>
 
-## Notes
+## Hinweise
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Notes.md).
+Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Hinweise.md).
 
 
 
 ## Eigenschaften
 
 Siehe [TechDraw Längenmaß](TechDraw_LengthDimension/de#Eigenschaften.md).
-
-
-
-## Skripten
-
-Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-Das Werkzeug Winkelmaß3Punkte kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
-
-
-```python
-dim1 = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDimension','Dimension')
-dim1.Type = "Angle3Pt"
-dim1.References2D=[(view1, 'Vertex1',(view1, 'Vertex4'),(view1, 'Vertex2'))]
-rc = page.addView(dim1)
-```
 
 
 

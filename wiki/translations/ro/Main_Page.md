@@ -48,7 +48,13 @@ Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se o
 
 ## Cuprinsul
 
+
+<div class="mw-translate-fuzzy">
+
 Următorul tabel enumeră toate articolele din acest ghid wiki care formează coloana vertebrală a documentaţiei offline, primită deodată cu aplicaţiile FreeCAD. De asemenea, ea este accesibilă în mai multe limbi:
+
+
+</div>
 
 ++++
 | -   ![](images/Flag-en.jpg ) [Table of contents](Online_Help_Toc.md)       | -   ![](images/Flag-fr.jpg ) [Table des matières](Online_Help_Toc/fr.md) | -   ![](images/Flag-pt.jpg ) [Tabela de conteúdos](Online_Help_Toc/pt.md) pt |

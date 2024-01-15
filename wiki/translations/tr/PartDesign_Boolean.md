@@ -8,6 +8,8 @@
 
 # PartDesign Boolean/tr
 
+
+
 ## Tanım
 
 **PartDesign Boolean** imports one or more [PartDesign Bodies](PartDesign_Body.md) or [PartDesign Clones](PartDesign_Clone.md) (designated as \"tool bodies\") into the active PartDesign Body and applies a Boolean operation (fuse, cut or common).
@@ -27,7 +29,7 @@
 5.  Select the type of Boolean operation in the drop down menu (Fuse, Cut or Common)
 6.  Click **OK**.
 
-Alternatively, one or more Bodies can be selected prior to pressing the Boolean button; they will be automatically added.
+Alternatively, objects can be selected prior to pressing the Boolean button. They will be added. automatically. When pre-selecting you are not restricted to Bodies. [PartDesign ShapeBinder](PartDesign_ShapeBinder.md), [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) and even solids created with other workbenches can then also be selected.
 
 ## Options
 

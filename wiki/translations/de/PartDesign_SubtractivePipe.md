@@ -20,14 +20,16 @@
 
 ## Anwendung
 
-1.  Die Schaltfläche **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtraktives Rohr'''** drücken.
-2.  Im Dialog **Element auswählen** eine Skizze auswählen, die als erster Querschnitt verwendet werden soll, und **OK** klicken.
-    -   Alternativ kann eine einzelne Skizze ausgewählt werden oder eine Fläche eines 3D-Objekts ({{Version/de|0.20}}), bevor die Schaltfläche (subtraktives) Rohr gedrückt wird.
-3.  Im Dialogbereich **Rohr-Parameter** unter **Profil** die Schaltfläche **Objekt** drücken.
-4.  Die Skizze auswählen, die in der 3D-Ansicht als Pfad verwendet werden soll:
+1.  Es gibt mehrere Möglichkeiten, das Werkzeug aufzurufen:
+2.  Die Schaltfläche (abzuziehendes) **<img src="images/PartDesign_SubtractivePipe.svg" width=16px>  [Rohr](PartDesign_SubtractivePipe/de.md)** drücken.
+    -   Den Menüeintrag **PartDesign → Objekte abziehen → <img src="images/PartDesign_SubtractivePipe.svg" width=16px> Rohr** auswählen.
+3.  Im Dialog **Element auswählen** eine Skizze auswählen, die als erster Querschnitt verwendet werden soll, und **OK** klicken.
+    -   Alternativ kann eine einzelne Skizze ausgewählt werden oder eine Fläche eines 3D-Objekts ({{Version/de|0.20}}), bevor das Werkzeug gestartet wird. Dann wird dieser Dialog nicht geöffnet.
+4.  Im Dialogbereich **Rohr-Parameter** unter **Profil** die Schaltfläche **Objekt** drücken.
+5.  Die Skizze auswählen, die in der 3D-Ansicht als Pfad verwendet werden soll:
     -   Alternativ können Kanten des Körpers ausgewählt werden, indem **Kante hinzufügen** gedrückt wird und die Kanten in der 3D-Ansicht ausgewählt werden.
-5.  Um mehr als einen Querschnitt zu verwenden, wird unter **Abschnitt Transformation** der Transformationsmodus auf **Mehrere Abschnitte** gesetzt, die Schaltfläche **Schnitt hinzufügen** drücken und dann eine Skizze in der 3D-Ansicht auswählen. Diesen Vorgang für jeden weiteren Querschnitt wiederholen.
-6.  Bei Bedarf Optionen festlegen und auf **OK** klicken.
+6.  Um mehr als einen Querschnitt zu verwenden, wird unter **Abschnitt Transformation** der Transformationsmodus auf **Mehrere Abschnitte** gesetzt, die Schaltfläche **Schnitt hinzufügen** drücken und dann eine Skizze in der 3D-Ansicht auswählen. Diesen Vorgang für jeden weiteren Querschnitt wiederholen.
+7.  Bei Bedarf Optionen festlegen und auf **OK** klicken.
 
 
 

@@ -56,11 +56,7 @@ This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md
 
 </div>
 
-
-:   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
-
-
-
+<img alt="" src=images/BentShapeDialog.png  style="width:250px;"> 
 *Taskview panel for the Arch Rebar BentShape tool*
 
 

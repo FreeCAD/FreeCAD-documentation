@@ -18,7 +18,7 @@ The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch**
 
 1.  Select an object with faces. Only the planar faces of the object will be hatched.
 2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Draft Hatch](Draft_Hatch.md)** button.
+    -   Press the **<img src="images/Draft_Hatch.svg" width=16px> [Hatch](Draft_Hatch.md)** button.
     -   Select the **Drafting → <img src="images/Draft_Hatch.svg" width=16px> Hatch** option from the menu.
     -   Use the keyboard shortcut: **H** then **A**.
 3.  The **Hatch** task panel opens. See [Options](#Options.md) for more information.

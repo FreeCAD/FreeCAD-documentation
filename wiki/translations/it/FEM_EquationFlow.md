@@ -27,7 +27,7 @@ The flow equation provides these special settings:
 
 -    **Gradp Discretization**: If set to *true* pressure [Dirichlet boundary conditions](https://en.wikipedia.org/wiki/Dirichlet_boundary_condition) can be used. Also the mass flux is available as a natural boundary condition.
 
--    **Variable**: Optional only for calculations in 2D: You can change the default of *3* to *2*.**Note**: In this case none of the flow velocity constraints can have a specified z-component.
+-    **Variable**: Optional only for calculations in 2D: You can change the default of *3* to *2*.**Note**: In this case none of the flow velocity boundary conditions can have a specified z-component.
 
 Equation:
 
@@ -44,24 +44,24 @@ If the solver results do not converge, you can try these things (in the given or
 3.  Reduce the number of CPU cores used, see the [FEM preferences](FEM_Preferences#Elmer.md).
 4.  Increase the mesh density (make it more fine).
 
-## Constraint Information 
+## Analysis Feature Information 
 
-The electrostatic equation takes the following constraints into account if they are set:
+The flow equation takes the following analysis features into account if they are set:
 
--   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Constraint flow velocity](FEM_ConstraintFlowVelocity.md)
--   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Constraint initial flow velocity](FEM_ConstraintInitialFlowVelocity.md)
--   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Constraint pressure](FEM_ConstraintPressure.md)
--   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) (<small>(v0.21)</small> )
+-   <img alt="" src=images/FEM_ConstraintFlowVelocity.svg  style="width:32px;"> [Flow velocity boundary condition](FEM_ConstraintFlowVelocity.md)
+-   <img alt="" src=images/FEM_ConstraintInitialFlowVelocity.svg  style="width:32px;"> [Initial flow velocity condition](FEM_ConstraintInitialFlowVelocity.md)
+-   <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:32px;"> [Pressure load](FEM_ConstraintPressure.md)
+-   <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:32px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md) (<small>(v0.21)</small> )
 
 ### Notes
 
--   Except for calculations in 2D, for all above constraints it is important that they act on a face or body. Constraints for 3D set to lines or vertices are not recognized by the Elmer solver.
--   Since <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) can only be set to faces, pressure constraints cannot be used for calculations in 2D.
--   If there is no <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) set, <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) will only be taken into account if **Gradp Discretization** is set to *true*.
+-   Except for calculations in 2D, for all above boundary conditions it is important that they act on a face or body. Boundary conditions for 3D set to lines or vertices are not recognized by the Elmer solver.
+-   Since <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Pressure load](FEM_ConstraintPressure.md) can only be set to faces, pressure loads cannot be used for calculations in 2D.
+-   If there is no <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Pressure load](FEM_ConstraintPressure.md) set, <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md) will only be taken into account if **Gradp Discretization** is set to *true*.
 
 ## Results
 
-The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there is no <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Constraint initial pressure](FEM_ConstraintInitialPressure.md) and <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Constraint pressure](FEM_ConstraintPressure.md) constraint given, the resulting pressure will be relative not absolute. Since a pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
+The results are the velocity in $\rm m/s$ and the pressure in $\rm Pa$. If there is no <img alt="" src=images/FEM_ConstraintInitialPressure.svg  style="width:24px;"> [Initial pressure condition](FEM_ConstraintInitialPressure.md) and <img alt="" src=images/FEM_ConstraintPressure.svg  style="width:24px;"> [Pressure load](FEM_ConstraintPressure.md) given, the resulting pressure will be relative not absolute. Since pressure must act on a face, absolute pressure results cannot be obtained in 2D simulations.
 
 
 <div class="mw-translate-fuzzy">

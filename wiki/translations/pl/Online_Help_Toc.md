@@ -1,5 +1,5 @@
 # Online Help Toc/pl
-Jest to spis treści używany do automatycznego budowania systemu pomocy online w programie FreeCAD. Wersja podręcznika do druku jest również dostępna na stronie [wydania](https://github.com/FreeCAD/FreeCAD/releases). Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy w programie FreeCAD, zapoznaj się ze [Stroną pomocy](Help/pl.md), w tym z forum i czatem grupy dyskusyjnej.
+Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy z FreeCAD, najpierw zapoznaj się ze [Stroną pomocy](Help/pl.md).
 
 Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/pl.md).
 
@@ -87,7 +87,6 @@ Jest jeszcze jeden spis treści dla [podręcznika FreeCAD](Manual:Introduction/p
         -   [Narzędzia obce](Third_Party_Tools/pl.md)
     -   Narzędzia wspomagające budowę programu
         -   [Szukanie wsparcia](Tracker/pl.md)
-        -   [Bug triage](Bug_Triage.md)
         -   [Debugowanie programu FreeCAD](Debugging/pl.md)
         -   [Testowanie programu FreeCAD](Testing/pl.md)
         -   [The FreeCAD build tool](FreeCAD_Build_Tool/pl.md)

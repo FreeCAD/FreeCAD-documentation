@@ -1,23 +1,28 @@
 ---
  GuiCommand:
    Name: Image Open
+   Name/pl: Obraz: Otwórz
    MenuLocation: 
-   Workbenches: Image_Workbench
-   SeeAlso: Image_CreateImagePlane, Image_Scaling
+   Workbenches: Image_Workbench/pl
+   SeeAlso: Image_CreateImagePlane/pl, Image_Scaling/pl
 ---
 
 # Image Open/pl
 
-## Description
 
-The [Image Open](Image_Open.md) tool simply opens an image from your system in a new tab in the viewport.
 
-## Usage
+## Opis
 
-1.  Press the **<img src="images/Image_Open.svg" width=16px> [Image Open](Image_Open.md)** button.
-2.  Select the image file that you want.
+Narzędzie **Otwórz** po prostu otwiera obraz z systemu użytkownika w nowej karcie w widoku.
 
-The image is placed in a new viewport, not in the 3D view.
+
+
+## Użycie
+
+1.  Naciśnij przycisk **<img src="images/Image_Open.svg" width=16px> '''Otwórz'''**.
+2.  Wybierz żądany plik obrazu.
+
+Obraz jest umieszczany w nowym widoku, a nie w widoku 3D.
 
 
 
@@ -30,4 +35,4 @@ The image is placed in a new viewport, not in the 3D view.
 
 
 ---
-⏵ [documentation index](../README.md) > [Image](Image_Workbench.md) > Image Open/pl
+⏵ [documentation index](../README.md) > [Image](Category_Image.md) > Image Open/pl
