@@ -20,7 +20,7 @@ Die Werkzeuge für das Reverse-Engineering befinden sich alle im Menü Reverse E
 
 ## Entwicklung
 
-Mit geeigneten Themen im Forum, die diesen Arbeitsbereich behandeln, verknüpfen.
+Verknüpfung zu entsprechenden Themen, welche diesen Arbeitsbereich behandeln.
 
 
 
