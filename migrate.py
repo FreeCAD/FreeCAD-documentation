@@ -451,10 +451,10 @@ class MediaWiki:
             return "API"
         if page in self.pagecontents:
             content = self.pagecontents[page]
-            cats = re.findall("Category:(.*?)[{}\[]",content)
+            cats = re.findall(r"Category:(.*?)[{}\[]",content)
             if cats:
                 return cats[0]
-            if re.findall("Arch Tools navi",content):
+            if re.findall(r"Arch Tools navi",content):
                 return "Arch"
         return None
 
@@ -471,11 +471,11 @@ class MediaWiki:
             content = self.pagecontents[page]
             if "Tutorials navi" in content:
                 cats.append("Tutorials")
-            cs = re.findall("Category:(.*?)[{}\[]",content)
+            cs = re.findall(r"Category:(.*?)[{}\[]",content)
             for c in cs:
                 if not c in cats:
                     cats.append(c)
-            tcs = re.findall("\{\{(.*?) Tools navi",content)
+            tcs = re.findall(r"\{\{(.*?) Tools navi",content)
             for tc in tcs:
                 if not tc in cats:
                     cats.append(tc)
@@ -492,7 +492,7 @@ class MediaWiki:
         if os.path.exists(pagefile):
             with open(pagefile) as f:
                 for line in f:
-                    ll = re.findall("\[.*?\]\(.*?\)",line)
+                    ll = re.findall(r"\[.*?\]\(.*?\)",line)
                     for l in ll:
                         if not ".png" in l:
                             if not ".jpg" in l:
@@ -784,134 +784,134 @@ class MediaWiki:
 
         if debug >= 1:
             # path replacements
-            result = re.sub("\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
+            result = re.sub(r"\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
         if debug >= 1.5:
-            result = re.sub(" \"wikilink\"",".md",result) # add .md to wiki page links
+            result = re.sub(r" \"wikilink\"",".md",result) # add .md to wiki page links
 
         if debug >= 2:
             # template that are simply removed
-            result = re.sub("\`.*?\`\{\=html\}","",result)
-            result = re.sub("<!--.*?-->","",result,flags=flags)
-            result = re.sub("{{Docnav.*?}}","",result,flags=flags)
-            result = re.sub("{{Page in progress}}","",result,flags=flags)
-            result = re.sub("{{\#translation\:}}","",result,flags=flags)
-            result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
-            result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
-            result = re.sub("{{TOCright}}","",result,flags=flags)
+            result = re.sub(r"\`.*?\`\{\=html\}","",result)
+            result = re.sub(r"<!--.*?-->","",result,flags=flags)
+            result = re.sub(r"{{Docnav.*?}}","",result,flags=flags)
+            result = re.sub(r"{{Page in progress}}","",result,flags=flags)
+            result = re.sub(r"{{\#translation\:}}","",result,flags=flags)
+            result = re.sub(r"{{\\\#translation\:}}","",result,flags=flags)
+            result = re.sub(r"{{UnfinishedDocu.*?}}","",result,flags=flags)
+            result = re.sub(r"{{TOCright}}","",result,flags=flags)
 
         if debug >= 3:
             # templates that get turned into italic text
-            result = re.sub("{{Caption\|(.*?)}}",r"\n*\1*",result,flags=flags)
+            result = re.sub(r"{{Caption\|(.*?)}}",r"\n*\1*",result,flags=flags)
 
         if debug >= 4:
             # templates that get turned into bold text
-            result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
-            result = re.sub("{{FileName\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub(r"{{FileName\|(.*?)}}",r"**\1**",result,flags=flags)
 
 
         if debug >= 5:
             # templates that get turned into <small> text
-            result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
-            result = re.sub("{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
-            result = re.sub("{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+            result = re.sub(r"{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+            result = re.sub(r"{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+            result = re.sub(r"{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
 
         if debug >= 6:
             # templates that get turned into a newline char
-            result = re.sub("{{Clear}}",r"\n",result,flags=flags)
+            result = re.sub(r"{{Clear}}",r"\n",result,flags=flags)
 
         # all other templates are simply converted to normal text (see below)
 
         if debug >= 7:
             # turning GuiCommand block into YAML
             if "{{GuiCommand" in result:
-                guicommandblk = re.findall("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
+                guicommandblk = re.findall(r"```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
                 if guicommandblk:
                     guicommandblk = guicommandblk[0]
-                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r'   \1: \2',guicommandblk) # fixing GuiCommand contents
+                    guicommandblk = re.sub(r"\|(.*?)\=(.*?)",r'   \1: \2',guicommandblk) # fixing GuiCommand contents
                     guicommandblk = self.fix_yaml(guicommandblk)
-                    result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
+                    result = re.sub(r"```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
                     result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 
         if debug >= 7.5:
             # turning TutorialInfo block into YAML
             if "{{TutorialInfo" in result:
-                tutblk = re.findall("{{TutorialInfo(.*?)}}\n",result,flags=flags)
+                tutblk = re.findall(r"{{TutorialInfo(.*?)}}\n",result,flags=flags)
                 if tutblk:
                     tutblk = tutblk[0]
                     tutblk = tutblk.strip()
-                    tutblk = re.sub("\|(.*?)\=(.*?)",r"   \1: \2",tutblk) # fixing GuiCommand contents
+                    tutblk = re.sub(r"\|(.*?)\=(.*?)",r"   \1: \2",tutblk) # fixing GuiCommand contents
                     if not tutblk.startswith("\n"):
                         tutblk = "\n" + tutblk
                     tutblk = self.fix_yaml(tutblk)
                     tutblk = "---\n TutorialInfo:"+tutblk+"\n---\n\n"
-                    result = re.sub("{{TutorialInfo.*?}}\n","",result,flags=flags)
+                    result = re.sub(r"{{TutorialInfo.*?}}\n","",result,flags=flags)
                     result = tutblk + result
 
         if debug >= 8:
             # remove code fences
-            result = re.sub("\`","",result)
-            result = re.sub("\{\=mediawiki\}","",result)
-            result = re.sub("\{\:mediawiki\}","",result)
+            result = re.sub(r"\`","",result)
+            result = re.sub(r"\{\=mediawiki\}","",result)
+            result = re.sub(r"\{\:mediawiki\}","",result)
 
         if debug >= 9:
             # creating new code fences
-            result = re.sub("{{Code\|code\=(.*?)}}",r"```python\1```",result,flags=flags) # replace {{Code}} templates
-            result = re.sub("{{Code\|lang\=json\|code\=(.*?)}}",r"```json\1```",result,flags=flags) # replace {{Code}} templates
-            result = re.sub("{{incode\|(.*?)}}",r"`\1`",result,flags=flags) # replace {{incode}} templates
-            result = re.sub(" \`\`\`",r" \n```",result,flags=flags) # make sure all ``` are on a new line
-            result = re.sub("{{TRUE}}",r"`True`",result,flags=flags) # replace {{TRUE}} templates
-            result = re.sub("{{FALSE}}",r"`False`",result,flags=flags) # replace {{TRUE}} templates
+            result = re.sub(r"{{Code\|code\=(.*?)}}",r"```python\1```",result,flags=flags) # replace {{Code}} templates
+            result = re.sub(r"{{Code\|lang\=json\|code\=(.*?)}}",r"```json\1```",result,flags=flags) # replace {{Code}} templates
+            result = re.sub(r"{{incode\|(.*?)}}",r"`\1`",result,flags=flags) # replace {{incode}} templates
+            result = re.sub(r" \`\`\`",r" \n```",result,flags=flags) # make sure all ``` are on a new line
+            result = re.sub(r"{{TRUE}}",r"`True`",result,flags=flags) # replace {{TRUE}} templates
+            result = re.sub(r"{{FALSE}}",r"`False`",result,flags=flags) # replace {{TRUE}} templates
 
         if debug >= 10:
             # fixing links
-            result = re.sub("(!\[.*?\]\(.*?)\".*?\"(\))",r"\1\2",result) # remove image path descriptions
-            for l1 in re.findall("\[\[Image\:.*?\|.*?px\]\]",result):
-                iml1 = re.findall("Image\:(.*?)\|",l1)[0]
-                iml2 = re.findall("\|(.*?)px\]\]",l1)[0]
+            result = re.sub(r"(!\[.*?\]\(.*?)\".*?\"(\))",r"\1\2",result) # remove image path descriptions
+            for l1 in re.findall(r"\[\[Image\:.*?\|.*?px\]\]",result):
+                iml1 = re.findall(r"Image\:(.*?)\|",l1)[0]
+                iml2 = re.findall(r"\|(.*?)px\]\]",l1)[0]
                 l2 = "<img src=\""+imagepath+"/"+iml1.replace(" ","_")+"\" width="+iml2+"px>"
                 result = result.replace(l1,l2)
-            result = re.sub("\[\[Image\:(.*?)\|(.*?)\]\]",r"![]("+imagepath+"/\1)",result)
-            result = re.sub("\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)
+            result = re.sub(r"\[\[Image\:(.*?)\|(.*?)\]\]",r"![]("+imagepath+"/\1)",result)
+            result = re.sub(r"\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)
             result = re.sub(r"\]\(.*?\.",lambda x:x.group().replace(" ","_"),result) # replace spaces by underscores in all remaining links
-            result = re.sub("!\[(.*?)\]\((.*?)\){width=\"(.*?)\"}",r'<img alt="\1" src=\2 style="width:\3px;">',result) # fix img sizes
+            result = re.sub(r"!\[(.*?)\]\((.*?)\){width=\"(.*?)\"}",r'<img alt="\1" src=\2 style="width:\3px;">',result) # fix img sizes
             #for l in re.findall("\[.*?\]\(.*?\)",result):
             #    print("   ",l)
 
         if debug >= 11:
             # fixing misc formatting glitches
-            result = re.sub("\n-   \n","\n-",result,flags=flags) # condensing newlines in bullet point lists
-            result = re.sub("\n    \n    ","",result,flags=flags) # condensate empty lines
-            result = re.sub("\n\n\n\(v",r" (v",result,flags=flags) # condensate badly formatted version templates
-            result = re.sub("\n:\n","",result,flags=flags) # condensate remaining : lines
-            result = re.sub("\n\n\n\n-","\n-",result,flags=flags) # condensate bad - lists
+            result = re.sub(r"\n-   \n","\n-",result,flags=flags) # condensing newlines in bullet point lists
+            result = re.sub(r"\n    \n    ","",result,flags=flags) # condensate empty lines
+            result = re.sub(r"\n\n\n\(v",r" (v",result,flags=flags) # condensate badly formatted version templates
+            result = re.sub(r"\n:\n","",result,flags=flags) # condensate remaining : lines
+            result = re.sub(r"\n\n\n\n-","\n-",result,flags=flags) # condensate bad - lists
         if debug >= 11.5:
-            result = re.sub("(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
-            result = re.sub("\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
+            result = re.sub(r"(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
+            result = re.sub(r"\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
         if debug >= 11.7:
-            result = re.sub("([0-9]+)px\]\(File\:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
-            result = re.sub("\:(\w+\.md\))",r"_\1",result) # rename Namespace:Page to Namespace_Page
+            result = re.sub(r"([0-9]+)px\]\(File\:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
+            result = re.sub(r"\:(\w+\.md\))",r"_\1",result) # rename Namespace:Page to Namespace_Page
 
         if debug >= 12:
             # removing other leftovers
-            result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
-            result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
+            result = re.sub(r"\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
+            result = re.sub(r"\{\#.*?\}","",result,flags=flags) # removing {#...} tags
             result = re.sub(r"\:\\\*","  -",result) # fix second-level bullets
 
         if debug >= 13:
             # removing all remaining templates
-            for template in re.findall("{{.*?}}",result,flags=flags):
+            for template in re.findall(r"{{.*?}}",result,flags=flags):
                 if template.strip("{").strip("}").strip() in UNUSED_TEMPLATES:
                     result = re.sub(template,"",result,flags=flags) # remove all remaining templates
                 else:
                     #print("WARNING: Unhandled template:",template)
                     try:
-                        template = re.findall("{{(.*?)[|}]",template,flags=flags)[0].strip()
+                        template = re.findall(r"{{(.*?)[|}]",template,flags=flags)[0].strip()
                     except:
                         print("error in template:",template)
                         sys.exit(1)
@@ -925,11 +925,11 @@ class MediaWiki:
         if debug >= 15:
             # remove category links (included in footer)
             # result = re.sub("Category:","<img src=\""+imagepath+"/Property.png\" style=\"width:16px\"> ",result) # Replace Category: with icon
-            result = re.sub("\[Category\:.*?md\)","",result)
+            result = re.sub(r"\[Category\:.*?md\)","",result)
 
         if debug >= 16:
             # handle MacroLink templates
-            result = re.sub("{{MacroLink\|Icon\=(.*?)\|(.*?)\|(.*?)}}","<img style=\"width:16px;\" src=\""+imagepath+r"/\1"+"\"> "+r"[\3](\2.md)",result)
+            result = re.sub(r"{{MacroLink\|Icon\=(.*?)\|(.*?)\|(.*?)}}","<img style=\"width:16px;\" src=\""+imagepath+r"/\1"+"\"> "+r"[\3](\2.md)",result)
 
 
         return result.strip()
@@ -942,9 +942,9 @@ class MediaWiki:
         blk = blk.replace("→",",") # github does not like unicode in here...
         if blk.strip().startswith("/"):  # fix malformation of translated GuiCommands
             blk = blk[3:]
-        blk = re.sub("/:\s*/", ": ", blk) # add spaces after colon
-        blk = re.sub("\(.*?\)", "", blk) # removes markdown links
-        blk = re.sub("\|.*?\]", "", blk)
+        blk = re.sub(r"/:\s*/", ": ", blk) # add spaces after colon
+        blk = re.sub(r"\(.*?\)", "", blk) # removes markdown links
+        blk = re.sub(r"\|.*?\]", "", blk)
         blk = blk.replace("[","")
         blk = blk.replace("]","")
         return blk
@@ -968,9 +968,9 @@ class MediaWiki:
             print("Error writing page:",page)
             return page
         if "REDIRECT" in result.split("\n")[0]:
-            truepage = re.findall("\((.*?)\.md\)",result)
+            truepage = re.findall(r"\((.*?)\.md\)",result)
             if not truepage:
-                truepage = re.findall("\((.*?)[\"\)]",result)
+                truepage = re.findall(r"\((.*?)[\"\)]",result)
             if not truepage[0].strip() in self.pagecontents:
                 print("Error:redirecting to",truepage[0].strip())
                 return page
@@ -1079,7 +1079,7 @@ class MediaWiki:
         b = f.read()
         f.close()
         #b = b.replace("## Get involved",output)
-        b = re.sub("\|\ \!\[Flag.*?\#\# Get involved",output,b,flags=re.DOTALL|re.MULTILINE)
+        b = re.sub(r"\|\ \!\[Flag.*?\#\# Get involved",output,b,flags=re.DOTALL|re.MULTILINE)
         f = open(mainpage,"w")
         f.write(b)
         f.close()
@@ -1185,9 +1185,9 @@ class MediaWiki:
                 mmd += "\n\n"
                 if member.__doc__:
                     d = member.__doc__.strip()
-                    d = re.sub("---+"," ",d)
+                    d = re.sub(r"---+"," ",d)
                     if d.startswith(membername):
-                        d = re.sub(membername+".*?\:","",d).strip()
+                        d = re.sub(r'{}'.format(membername)+r".*?\:","",d).strip()
                     #d = re.sub("    ","",d)
                     mmd += d
                 mmd += "\n\n\n\n"
